@@ -257,10 +257,9 @@ export const FR_B2_U14: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
-            en: "It's a shame you [didn't come] to my wedding.",
+            en: "It's a shame you [didn't come] to my wedding. (writing to a female friend)",
             sentence: "C'est dommage que tu ___ à mon mariage.",
             answer: "ne sois pas venue",
-            altAnswers: ["ne sois pas venu"],
             explanation: "\"Venir\" takes \"être\": \"que tu sois venue\" (agreeing with Inès).",
           },
         ],
@@ -285,7 +284,7 @@ export const FR_B2_U14: Lesson[] = [
             prompt: "Correct the letter: *\"Je voulais que tu venais.\" Translate: I wanted you to come.",
             source: "I wanted you to come.",
             answer: "Je voulais que tu viennes.",
-            altAnswers: ["Je voulais que vous veniez.", "J'aurais voulu que tu viennes."],
+            altAnswers: ["Je voulais que vous veniez."],
             explanation: "Past main verb + present subjunctive in modern French: \"que tu viennes\".",
           },
           {
@@ -533,7 +532,7 @@ export const FR_B2_U14: Lesson[] = [
         prompt: "Translate into French.",
         source: "If I hadn't moved to Lyon, I wouldn't have met my husband.",
         answer: "Si je n'avais pas déménagé à Lyon, je n'aurais pas rencontré mon mari.",
-        altAnswers: ["Si je ne m'étais pas installée à Lyon, je n'aurais pas rencontré mon mari.", "Si je n'étais pas venue à Lyon, je n'aurais pas rencontré mon mari.", "Si je n'avais pas déménagé à Lyon, je n'aurais jamais rencontré mon mari."],
+        altAnswers: ["Si je ne m'étais pas installée à Lyon, je n'aurais pas rencontré mon mari.", "Si je n'étais pas venue à Lyon, je n'aurais pas rencontré mon mari.", "Si je ne m'étais pas installé à Lyon, je n'aurais pas rencontré mon mari.", "Si je n'étais pas venu à Lyon, je n'aurais pas rencontré mon mari.", "Si je n'avais pas déménagé à Lyon, je n'aurais jamais rencontré mon mari."],
         explanation: "Plus-que-parfait → conditionnel passé, both negative.",
       },
       {
@@ -1449,7 +1448,7 @@ export const FR_B2_U14: Lesson[] = [
         heading: "Methods, tips and instructions",
         body: [
           "From the lessons on the gérondif and the mode d'emploi: \"une astuce\" (a tip, a trick), \"un conseil\", \"une méthode\", \"le mode d'emploi\" (instructions), \"brancher\" / \"débrancher\", \"appuyer sur\", \"maintenir enfoncé\", \"le voyant\" (the indicator light), \"clignoter\", \"réinitialiser\" (to reset), \"mettre en marche\" (to switch on), \"faire des fiches\" (to make flashcards), \"réviser\", \"retenir\" (to remember, to retain), \"progresser\".",
-          "Watch the false friend \"retenir\": it means to remember (or to hold back), not to retain a lawyer. And \"une astuce\" is a clever tip, not astuteness.",
+          "Watch \"retenir\": when you learn, it means to remember (\"retenir un mot\"); it can also mean to hold back or to keep (\"retenir son souffle\", \"retenir une table\"), but you don't \"retenir\" a lawyer (\"prendre un avocat\"). And \"une astuce\" is usually a clever tip or trick, not astuteness in general.",
         ],
         examples: [
           { es: "Voici une astuce pour retenir les genres des noms.", en: "Here's a tip for remembering the genders of nouns." },
@@ -1930,7 +1929,7 @@ export const FR_B2_U14: Lesson[] = [
         heading: "Which pattern? Three moments",
         body: [
           "Match the pattern to the meaning. Real and possible: \"si\" + présent → présent / futur / impératif. Unreal now: \"si\" + imparfait → conditionnel présent. Unreal past: \"si\" + plus-que-parfait → conditionnel passé (or conditionnel présent for a present consequence).",
-          "Remember that \"si\" meaning whether (an indirect question) is different and can take the future or conditional: \"Je ne sais pas s'il viendra\". The ban only applies to the conditional \"si\".",
+          "Remember that \"si\" meaning whether (an indirect question) is different and can take the future or conditional: \"Je ne sais pas s'il viendra\". The ban only applies to the \"si\" of a condition (if).",
         ],
         examples: [
           { es: "Si tu as le temps, passe me voir.", en: "If you have time, come and see me." },

@@ -14,7 +14,7 @@ export const FR_B1_U03_WRITING: WriteExercise = {
     "Uses \"il vaut mieux que\" for advice and \"il ne faut pas que\" for a warning",
     "Includes crime and safety vocabulary (\"un pickpocket\", \"un vol\", \"faire attention\", \"se méfier de\", \"porter plainte\")",
   ],
-  modelAnswer: "Salut Mathieu ! Trop content que tu viennes à Londres ! Quelques conseils pratiques : d'abord, il faut que tu aies ton passeport, la carte d'identité ne suffit plus. Il vaut mieux que tu achètes une carte de transport à l'aéroport et que tu prennes le métro, c'est plus rapide que le bus. Dans le métro, il faut que tu fasses attention à ton portefeuille : il y a beaucoup de pickpockets à Oxford Street. Et il ne faut pas que tu sois surpris si les gens font la queue partout ! Si on te vole quelque chose, il faut que tu ailles au commissariat pour porter plainte. Pour le reste, il faut absolument que tu voies le British Museum et que tu boives un vrai thé dans un café de Camden. Appelle-moi quand tu arrives ! Tom",
+  modelAnswer: "Salut Mathieu ! Super, tu viens à Londres ! Quelques conseils pratiques : d'abord, il faut que tu aies ton passeport, la carte d'identité ne suffit plus. Il vaut mieux que tu achètes une carte de transport à l'aéroport et que tu prennes le métro, c'est plus rapide que le bus. Dans le métro, il faut que tu fasses attention à ton portefeuille : il y a beaucoup de pickpockets à Oxford Street. Et il ne faut pas que tu sois surpris si les gens font la queue partout ! Si on te vole quelque chose, il faut que tu ailles au commissariat pour porter plainte. Pour le reste, il faut absolument que tu voies le British Museum et que tu boives un vrai thé dans un café de Camden. Appelle-moi quand tu arrives ! Tom",
   explanation: "\"Il faut que\" and \"il vaut mieux que\" are followed by the subjunctive: irregular forms \"aies\", \"fasses\", \"sois\", \"ailles\", and two-stem forms \"achètes\", \"prennes\", \"voies\", \"boives\" (singular from the ils stem). \"Il ne faut pas que\" gives a warning: you mustn't.",
 };
 
@@ -1869,7 +1869,8 @@ export const FR_B1_U03: Lesson[] = [
         prompt: "Translate into French.",
         source: "My flight was cancelled.",
         answer: "Mon vol a été annulé.",
-        explanation: "\"Un vol\" also means a flight.",
+        altAnswers: ["On a annulé mon vol."],
+        explanation: "\"Un vol\" also means a flight. \"A été annulé\" is the fixed way to say was cancelled (\"été\" + a participle that works like an adjective); \"on a annulé mon vol\" says the same with \"on\".",
       },
       {
         type: "fill-blank",

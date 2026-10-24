@@ -68,7 +68,7 @@ export const FR_B2_U13: Lesson[] = [
         body: [
           "The gérondif adds a circumstance to the main verb, and context tells you which one. Simultaneity (while, as, when): \"Il écoute des podcasts en courant\". Manner or means, the English 'by + -ing': \"On apprend une langue en la pratiquant\". Condition (if): \"En partant maintenant, tu arriveras à l'heure\" = si tu pars maintenant. Sometimes cause: \"Il s'est cassé le bras en tombant de vélo\".",
           "That flexibility is why the gérondif is so useful: one compact structure replaces \"pendant que\", \"quand\", \"si\" and \"parce que\" clauses, as long as the subject is the same. It is used in speech as well as in writing, and it answers the question \"comment ?\" very naturally: \"Comment as-tu trouvé ce travail ? — En lisant les petites annonces.\"",
-          "English 'by + -ing' is always \"en\" + -ant in French, never \"par\" + -ant: 'by working hard' is \"en travaillant dur\". The one exception is after 'start' and 'end': 'I started by reading' is \"j'ai commencé par lire\", 'he ended up by laughing' is \"il a fini par rire\" (\"par\" + infinitive). This is one of the few cases where an English -ing really does become an -ant form.",
+          "English 'by + -ing' is always \"en\" + -ant in French, never \"par\" + -ant: 'by working hard' is \"en travaillant dur\". The one exception is after 'start' and 'end': 'I started by reading' is \"j'ai commencé par lire\", 'he ended up by laughing' is \"il a fini par rire\" (\"par\" + infinitive). There the English -ing becomes an infinitive, not an -ant form.",
         ],
         examples: [
           { es: "Il écoute des podcasts en courant.", en: "He listens to podcasts while he runs." },
@@ -1156,7 +1156,7 @@ export const FR_B2_U13: Lesson[] = [
         heading: "Same subject: preposition + infinitive",
         body: [
           "When both clauses have the same subject, French avoids \"que\" + subjunctive and uses a preposition + infinitive: \"pour que\" → \"pour\", \"afin que\" → \"afin de\", \"avant que\" → \"avant de\", \"sans que\" → \"sans\", \"à moins que\" → \"à moins de\", \"de peur que\" → \"de peur de\". So: \"Je travaille pour gagner ma vie\", never *pour que je gagne.",
-          "\"Bien que\", \"jusqu'à ce que\" and \"à condition que\" have no such shortcut with every subject, but \"bien que\" can be replaced by \"tout en\" + -ant (from this unit): \"Bien qu'il soit fatigué, il continue\" → \"Tout en étant fatigué, il continue\"; and \"à condition de\" + infinitive exists.",
+          "\"Bien que\" and \"jusqu'à ce que\" have no preposition + infinitive form, so they keep \"que\" + subjunctive even with the same subject. But \"bien que\" can be replaced by \"tout en\" + -ant (from this unit): \"Bien qu'il soit fatigué, il continue\" → \"Tout en étant fatigué, il continue\". \"À condition que\" does have one: \"à condition de\" + infinitive.",
         ],
         examples: [
           { es: "Je travaille le soir pour payer mes études.", en: "I work in the evenings to pay for my studies." },
@@ -1794,9 +1794,9 @@ export const FR_B2_U13: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which sentence is correct?",
-            options: ["Il est probable qu'il viendra demain.", "Il est probable qu'il vienne demain.", "Il est possible qu'il viendra demain.", "Il est possible qu'il va venir demain."],
+            options: ["Il est probable qu'il viendra demain.", "Il est peu probable qu'il viendra demain.", "Il est possible qu'il viendra demain.", "Il est possible qu'il va venir demain."],
             correctIndex: 0,
-            explanation: "\"Probable\" is close to certain → indicative. \"Possible\" would need the subjunctive \"qu'il vienne\".",
+            explanation: "\"Probable\" is close to certain → indicative. \"Peu probable\" and \"possible\" express doubt, so they need the subjunctive \"qu'il vienne\".",
           },
         ],
       },

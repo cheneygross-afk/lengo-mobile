@@ -90,7 +90,7 @@ export const FR_C1_U13: Lesson[] = [
             en: "Someone [nicked] my bike outside the station. (casual)",
             sentence: "Quelqu'un m'a ___ mon vélo devant la gare.",
             answer: "piqué",
-            altAnswers: ["volé", "fauché"],
+            altAnswers: ["fauché"],
             explanation: "\"Piquer\" is the familiar verb for a small theft; \"voler\" is the neutral one. \"Dérober\" would be out of place in casual speech.",
           },
           {
@@ -153,8 +153,8 @@ export const FR_C1_U13: Lesson[] = [
         prompt: "Translate into French.",
         source: "Where are you going? (to a friend, casually)",
         answer: "Tu vas où ?",
-        altAnswers: ["Où tu vas ?", "Où est-ce que tu vas ?", "Où vas-tu ?"],
-        explanation: "With a friend, \"Tu vas où ?\" is the natural spoken form; \"Où est-ce que tu vas ?\" is neutral and \"Où vas-tu ?\" correct but bookish.",
+        altAnswers: ["Où tu vas ?", "Où est-ce que tu vas ?"],
+        explanation: "With a friend, \"Tu vas où ?\" is the natural spoken form; \"Où est-ce que tu vas ?\" is neutral. \"Où vas-tu ?\" is correct but bookish, so it does not fit a casual exchange.",
       },
       {
         type: "translate",
@@ -180,7 +180,7 @@ export const FR_C1_U13: Lesson[] = [
         en: "We [ate really well] at your parents' place. (casual)",
         sentence: "On a ___ chez tes parents.",
         answer: "super bien bouffé",
-        altAnswers: ["trop bien bouffé", "super bien mangé", "vachement bien bouffé", "vachement bien mangé", "très bien mangé", "bien bouffé", "bien mangé"],
+        altAnswers: ["trop bien bouffé", "super bien mangé", "vachement bien bouffé", "vachement bien mangé", "très bien mangé"],
         explanation: "\"Bouffer\" is the familiar verb for eating; with an intensifier like \"super\" it gives the relaxed tone of the English.",
       },
       {
@@ -843,7 +843,7 @@ export const FR_C1_U13: Lesson[] = [
         prompt: "Translate into French.",
         source: "Don't worry about the machine. (casual, to a colleague)",
         answer: "T'inquiète pas pour la machine.",
-        altAnswers: ["Ne t'inquiète pas pour la machine.", "T'en fais pas pour la machine.", "Ne t'en fais pas pour la machine.", "T'inquiète pour la machine."],
+        altAnswers: ["Ne t'inquiète pas pour la machine.", "T'en fais pas pour la machine.", "Ne t'en fais pas pour la machine."],
         explanation: "In casual speech the \"ne\" disappears and \"ne t'inquiète pas\" becomes \"t'inquiète pas\" or even just \"t'inquiète\".",
       },
       {
@@ -1546,7 +1546,7 @@ export const FR_C1_U13: Lesson[] = [
             prompt: "Translate into French.",
             source: "Léa and I got there first. (two women; use on)",
             answer: "Avec Léa, on est arrivées les premières.",
-            altAnswers: ["Léa et moi, on est arrivées les premières.", "Avec Léa, on est arrivées en premier.", "Léa et moi, on est arrivées en premier.", "Léa et moi sommes arrivées les premières.", "Léa et moi, nous sommes arrivées les premières."],
+            altAnswers: ["Léa et moi, on est arrivées les premières.", "Avec Léa, on est arrivées en premier.", "Léa et moi, on est arrivées en premier."],
             explanation: "\"On\" = we (two women): singular verb \"est\", feminine plural participle \"arrivées\". \"Avec X, on...\" is the spoken way to say X and I.",
           },
           {
@@ -1829,7 +1829,7 @@ export const FR_C1_U13: Lesson[] = [
         prompt: "Translate into French.",
         source: "Hello Doctor, my back still hurts.",
         answer: "Bonjour Docteur, j'ai encore mal au dos.",
-        altAnswers: ["Bonjour Docteur, j'ai toujours mal au dos.", "Bonjour docteur, j'ai encore mal au dos.", "Bonjour Madame, j'ai encore mal au dos.", "Bonjour Monsieur, j'ai encore mal au dos."],
+        altAnswers: ["Bonjour Docteur, j'ai toujours mal au dos.", "Bonjour docteur, j'ai encore mal au dos."],
         explanation: "\"Docteur\" can be used as a term of address; \"avoir mal à\" + body part.",
       },
       {

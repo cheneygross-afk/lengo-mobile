@@ -166,7 +166,7 @@ export const FR_C2_U09: Lesson[] = [
         en: "The minister says he knew nothing. [Oh, naturally!]",
         sentence: "Le ministre dit qu'il ne savait rien. ___",
         answer: "Ben voyons !",
-        altAnswers: ["Ben voyons", "Bien voyons !", "Mon œil !", "Mon œil"],
+        altAnswers: ["Ben voyons", "Mon œil !", "Mon œil"],
         explanation: "\"Ben voyons !\" pretends to accept a self-serving claim while mocking it.",
       },
       {
@@ -1129,7 +1129,7 @@ export const FR_C2_U09: Lesson[] = [
         prompt: "Translate into French.",
         source: "The rent is going up again? Oh, naturally!",
         answer: "Le loyer augmente encore ? Ben voyons !",
-        altAnswers: ["Le loyer augmente encore ? Bien voyons !", "Le loyer augmente encore une fois ? Ben voyons !", "Encore une augmentation de loyer ? Ben voyons !"],
+        altAnswers: ["Le loyer augmente encore une fois ? Ben voyons !", "Encore une augmentation de loyer ? Ben voyons !"],
         explanation: "\"Ben voyons !\" mocks an outrageous but predictable decision.",
       },
       {
@@ -1249,7 +1249,7 @@ export const FR_C2_U09: Lesson[] = [
             en: "It's [definitely] the best restaurant in the area.",
             sentence: "C'est ___ le meilleur restaurant du quartier.",
             answer: "sans aucun doute",
-            altAnswers: ["sans doute possible", "certainement", "incontestablement", "sans conteste", "assurément", "indéniablement"],
+            altAnswers: ["certainement", "incontestablement", "sans conteste", "assurément", "indéniablement"],
             explanation: "Definitely is \"sans aucun doute\" or \"incontestablement\"; \"définitivement\" means permanently.",
           },
           {
@@ -1826,7 +1826,7 @@ export const FR_C2_U09: Lesson[] = [
         prompt: "Translate into French.",
         source: "The railway workers are on strike.",
         answer: "Les cheminots sont en grève.",
-        altAnswers: ["Les cheminots font grève.", "Les cheminots font la grève."],
+        altAnswers: ["Les cheminots font grève."],
         explanation: "\"Cheminot\" (from \"chemin de fer\") has no sense of smallness.",
       },
       {

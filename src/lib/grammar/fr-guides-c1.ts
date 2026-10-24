@@ -871,7 +871,7 @@ export const FR_C1_GUIDES: FrGrammarGuide[] = [
       {
         wrong: "Hier, je fus au cinéma avec Paul.",
         right: "Hier, je suis allé au cinéma avec Paul.",
-        why: "The passé simple belongs to written narrative. In conversation, emails and personal accounts, use the passé composé. (\"Je fus\" means I was, not I went, anyway.)",
+        why: "The passé simple belongs to written narrative. In conversation, emails and personal accounts, use the passé composé. (And \"je fus\" normally means I was, not I went.)",
       },
       {
         wrong: "Il fut la vaisselle puis il sortit.",

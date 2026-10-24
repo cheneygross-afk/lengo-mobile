@@ -249,7 +249,7 @@ export const FR_B1_U31: Lesson[] = [
             prompt: "Translate into French.",
             source: "He's angry with his brother.",
             answer: "Il est en colère contre son frère.",
-            altAnswers: ["Il est fâché contre son frère.", "Il est fâché avec son frère."],
+            altAnswers: ["Il est fâché contre son frère."],
             explanation: "\"Être en colère contre\" quelqu'un; \"fâché avec\" means on bad terms with.",
           },
           {
@@ -583,7 +583,6 @@ export const FR_B1_U31: Lesson[] = [
         prompt: "Translate into French.",
         source: "I regret not telling him more often that I loved him.",
         answer: "Je regrette de ne pas lui avoir dit plus souvent que je l'aimais.",
-        altAnswers: ["Je regrette de ne pas lui avoir dit que je l'aimais plus souvent."],
         explanation: "Same subject: \"regretter de\" + past infinitive; \"ne pas\" goes before \"avoir\".",
       },
       {
@@ -936,7 +935,7 @@ export const FR_B1_U31: Lesson[] = [
         prompt: "Translate into French.",
         source: "I doubt he knows about it.",
         answer: "Je doute qu'il soit au courant.",
-        altAnswers: ["Je doute qu'il le sache.", "Je doute qu'il en soit au courant."],
+        altAnswers: ["Je doute qu'il le sache."],
         explanation: "\"Douter que\" + subjunctive; \"être au courant\" = to know about something.",
       },
       {
@@ -1214,7 +1213,7 @@ export const FR_B1_U31: Lesson[] = [
         heading: "Asking: qu'est-ce que tu ferais si...?",
         body: [
           "The question frame is \"Qu'est-ce que tu ferais si\" + imparfait? (What would you do if...?), or more formally \"Que feriez-vous si...?\". In speech, the question word often moves to the end: \"Tu ferais quoi, toi, si...?\".",
-          "Remember the two halves: imparfait after \"si\", conditional in the result. Irregular conditional stems you'll need: \"ferais\", \"irais\", \"serais\", \"aurais\", \"pourrais\", \"voudrais\", \"devrais\", \"dirais\" (regular), \"rendrais\", \"appellerais\".",
+          "Remember the two halves: imparfait after \"si\", conditional in the result. Irregular conditional stems you'll need: \"ferais\", \"irais\", \"serais\", \"aurais\", \"pourrais\", \"voudrais\", \"devrais\". Regular ones built on the infinitive: \"dirais\", \"rendrais\", and \"appellerais\" with its double l.",
         ],
         examples: [
           { es: "Qu'est-ce que tu ferais si tu trouvais un portefeuille dans la rue ?", en: "What would you do if you found a wallet in the street?" },
@@ -1403,7 +1402,7 @@ export const FR_B1_U31: Lesson[] = [
       {
         heading: "The problems",
         body: [
-          "Core words: \"l'environnement\" (note the n before m: environnement, not *environment*), \"le réchauffement climatique\" (global warming), \"le changement climatique\", \"les gaz à effet de serre\" (greenhouse gases), \"la pollution de l'air / de l'eau\", \"la sécheresse\" (drought), \"la déforestation\", \"une espèce menacée\" (an endangered species), \"disparaître\" (to disappear, die out), \"la biodiversité\".",
+          "Core words: \"l'environnement\" (note the double n and the e before -ment: environnement, not *environment*), \"le réchauffement climatique\" (global warming), \"le changement climatique\", \"les gaz à effet de serre\" (greenhouse gases), \"la pollution de l'air / de l'eau\", \"la sécheresse\" (drought), \"la déforestation\", \"une espèce menacée\" (an endangered species), \"disparaître\" (to disappear, die out), \"la biodiversité\".",
           "Collocations matter: \"émettre du CO2\" (to emit), \"polluer\" (to pollute), \"menacer\" (to threaten), \"détruire\" (to destroy), \"les températures augmentent\", \"le niveau de la mer monte\".",
         ],
         examples: [
@@ -1640,7 +1639,7 @@ export const FR_B1_U31: Lesson[] = [
         heading: "Fixing the moods",
         body: [
           "Kevin's first sentence, \"Je pense que les petits gestes soient importants\", uses the subjunctive after an affirmative \"penser\". Correct: \"Je pense que les petits gestes sont importants\". But in the negative or with doubt, the subjunctive is right: \"Je ne pense pas qu'ils soient suffisants\", \"Je doute qu'ils puissent tout changer\".",
-          "His later sentence \"Il faut que le gouvernement fait plus\" needs the subjunctive: \"Il faut que le gouvernement fasse plus\". And \"J'espère que les gens changent\" should be \"J'espère que les gens changeront\" (indicative after espérer).",
+          "His later sentence \"Il faut que le gouvernement fait plus\" needs the subjunctive: \"Il faut que le gouvernement fasse plus\". And \"J'espère que les gens fassent des efforts\" should be \"J'espère que les gens feront des efforts\" (indicative after espérer).",
         ],
         examples: [
           { es: "Je pense que les petits gestes sont importants.", en: "I think small everyday actions are important." },
@@ -1737,7 +1736,7 @@ export const FR_B1_U31: Lesson[] = [
         en: "I hope people [will change] their habits.",
         sentence: "J'espère que les gens ___ leurs habitudes.",
         answer: "changeront",
-        explanation: "\"Espérer que\" + indicative (future): \"changeront\", not *changent* as a subjunctive.",
+        explanation: "\"Espérer que\" + indicative; the future \"changeront\" matches English will change.",
       },
       {
         type: "translate",

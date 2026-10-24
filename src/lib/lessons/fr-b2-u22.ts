@@ -1147,9 +1147,9 @@ export const FR_B2_U22: Lesson[] = [
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
         en: "[What the museum needs] is volunteers.",
-        sentence: "___, ce sont des bénévoles.",
+        sentence: "___, c'est de bénévoles.",
         answer: "Ce dont le musée a besoin",
-        explanation: "\"Avoir besoin de\" → \"ce dont\".",
+        explanation: "\"Avoir besoin de\" → \"ce dont\"; careful French repeats the \"de\" after \"c'est\" (\"c'est de bénévoles\").",
       },
       {
         type: "fill-blank",
@@ -1238,7 +1238,7 @@ export const FR_B2_U22: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What is « un collège » in France?",
+            question: "What is \"un collège\" in France?",
             options: ["A secondary school for ages 11 to 15", "A university college", "A sixth-form college", "A group of colleagues"],
             correctIndex: 0,
             explanation: "False friend: \"le collège\" is lower secondary school; university is \"la fac\" or \"l'université\".",
@@ -1773,7 +1773,7 @@ export const FR_B2_U22: Lesson[] = [
         prompt: "Put the words in order to say: I'm leaving without anyone noticing.",
         words: ["Je", "pars", "sans", "que", "personne", "ne", "le remarque."],
         translation: "I'm leaving without anyone noticing.",
-        explanation: "\"Sans que\" + subjunctive; \"personne ne\" for nobody.",
+        explanation: "\"Sans que\" + subjunctive. \"Sans que\" is already negative, so \"personne\" here means anyone; the \"ne\" is optional and careful French often leaves it out.",
       },
       {
         type: "translate",

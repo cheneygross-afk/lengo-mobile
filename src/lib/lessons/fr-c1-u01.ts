@@ -123,7 +123,7 @@ export const FR_C1_U01: Lesson[] = [
           "A practical test: can you add 'as far as I know / in my opinion' without changing the meaning? If yes, subjunctive. If the sentence is a record, a date, a timetable or a result, indicative. When in doubt in formal writing, the subjunctive is the safer bet after \"le seul\" and superlatives, but not after a pure chronological \"premier / dernier\".",
         ],
         examples: [
-          { es: "C'est le premier coureur qui est arrivé.", en: "He's the first runner who arrived." },
+          { es: "C'est le premier coureur qui est arrivé.", en: "He's the first runner to arrive." },
           { es: "C'est la première personne qui m'ait vraiment écouté.", en: "She's the first person who has really listened to me." },
           { es: "Armstrong est le premier homme qui a marché sur la Lune.", en: "Armstrong is the first man who walked on the Moon." },
           { es: "C'est le dernier client qui est entré avant la fermeture.", en: "He's the last customer who came in before closing time." },
@@ -537,7 +537,7 @@ export const FR_C1_U01: Lesson[] = [
             source: "I'm sorry you couldn't come yesterday. (to a friend)",
             answer: "Je suis désolé que tu n'aies pas pu venir hier.",
             altAnswers: ["Je suis désolée que tu n'aies pas pu venir hier.", "Je regrette que tu n'aies pas pu venir hier."],
-            explanation: "Yesterday's absence is finished, so the past subjunctive: \"que tu n'aies pas pu\". *Que tu ne puisses pas venir hier mixes a present form with a past time marker.",
+            explanation: "Yesterday's absence is finished, so the past subjunctive: \"que tu n'aies pas pu\". *\"que tu ne puisses pas venir hier\" mixes a present form with a past time marker.",
           },
           {
             type: "multiple-choice",
@@ -692,7 +692,7 @@ export const FR_C1_U01: Lesson[] = [
         words: ["Je suis", "surpris", "qu'elle", "ne t'ait pas", "appelé."],
         translation: "I'm surprised she didn't call you.",
         altOrders: [],
-        explanation: "Negative past subjunctive: \"ne\" + auxiliary + \"pas\" + participle: \"qu'elle ne t'ait pas appelé\".",
+        explanation: "Negative past subjunctive: \"ne\" + auxiliary + \"pas\" + participle: \"qu'elle ne t'ait pas appelé\". If 'you' is a woman, the participle agrees with \"t'\": \"appelée\".",
       },
       {
         type: "matching",
@@ -1229,7 +1229,7 @@ export const FR_C1_U01: Lesson[] = [
             prompt: "Translate into formal written French, with the ne explétif.",
             source: "We will accept the offer, unless the price goes up.",
             answer: "Nous accepterons l'offre, à moins que le prix n'augmente.",
-            altAnswers: ["Nous accepterons l'offre à moins que le prix n'augmente.", "Nous accepterons l'offre, à moins que le prix augmente."],
+            altAnswers: ["Nous accepterons l'offre à moins que le prix n'augmente."],
             explanation: "\"À moins que\" + subjunctive, with the formal \"n'\" before the verb. It does not mean the price doesn't go up.",
           },
         ],
@@ -1316,7 +1316,7 @@ export const FR_C1_U01: Lesson[] = [
         prompt: "Translate into formal written French, with the ne explétif.",
         source: "Let's leave before the storm breaks.",
         answer: "Partons avant que l'orage n'éclate.",
-        altAnswers: ["Partons avant que l'orage éclate.", "Partons avant que l'orage n'arrive.", "Partons avant que l'orage arrive."],
+        altAnswers: ["Partons avant que l'orage n'arrive."],
         explanation: "\"Avant que\" + subjunctive, with the optional \"n'\" in formal style. It is not a negation.",
       },
       {
@@ -1373,7 +1373,7 @@ export const FR_C1_U01: Lesson[] = [
         prompt: "Translate into formal written French, with the ne explétif.",
         source: "We must prevent the conflict from spreading.",
         answer: "Il faut éviter que le conflit ne s'étende.",
-        altAnswers: ["Il faut empêcher que le conflit ne s'étende.", "Nous devons éviter que le conflit ne s'étende.", "Nous devons empêcher que le conflit ne s'étende.", "Il faut éviter que le conflit s'étende."],
+        altAnswers: ["Il faut empêcher que le conflit ne s'étende.", "Nous devons éviter que le conflit ne s'étende.", "Nous devons empêcher que le conflit ne s'étende."],
         explanation: "\"Éviter que / empêcher que\" + subjunctive, typically with the ne explétif in writing.",
       },
       {
@@ -1572,7 +1572,6 @@ export const FR_C1_U01: Lesson[] = [
         en: "[Whatever you do], don't open this door.",
         sentence: "___, n'ouvrez pas cette porte.",
         answer: "Quoi que vous fassiez",
-        altAnswers: ["Quoi que tu fasses"],
         explanation: "\"Quoi que\" + subjunctive of faire. Since the imperative is \"ouvrez\", the matching form is \"vous fassiez\".",
       },
       {
@@ -1881,7 +1880,7 @@ export const FR_C1_U01: Lesson[] = [
       {
         heading: "A tense you read but never write",
         body: [
-          "Open a novel by Flaubert, Proust or even Simenon and you'll meet forms like \"il fallait qu'il vînt\", \"bien qu'elle fût malade\", \"je voulais qu'il me répondît\". This is the imparfait du subjonctif. In classical grammar, a past main verb required it: \"je voulais qu'il vînt\". Modern French has replaced it with the present subjunctive: \"je voulais qu'il vienne\".",
+          "Open a novel by Flaubert, Proust or Marguerite Yourcenar and you'll meet forms like \"il fallait qu'il vînt\", \"bien qu'elle fût malade\", \"je voulais qu'il me répondît\". This is the imparfait du subjonctif. In classical grammar, a past main verb required it: \"je voulais qu'il vînt\". Modern French has replaced it with the present subjunctive: \"je voulais qu'il vienne\".",
           "Today it survives in literature, some journalism with literary ambitions, very formal speeches and humorous imitation. Nobody uses it in conversation, and using the first and second person forms (\"que nous parlassions\", \"que vous fussiez\") sounds comic. Your goal here is recognition: see the form, identify the verb, translate it as a present (or past) subjunctive in your head.",
           "The forms you'll actually meet are mostly third person singular, and they share a clue: a circumflex accent on the vowel before a final -t. \"Qu'il fût\" (être), \"qu'il eût\" (avoir), \"qu'il vînt\" (venir), \"qu'elle fît\" (faire), \"qu'il allât\" (aller), \"qu'il pût\" (pouvoir), \"qu'il sût\" (savoir), \"qu'il dît\" (dire).",
         ],
@@ -2442,7 +2441,7 @@ export const FR_C1_U01: Lesson[] = [
         prompt: "Translate into formal written French.",
         source: "Companies are hesitating, for fear that productivity will drop.",
         answer: "Les entreprises hésitent, de peur que la productivité ne baisse.",
-        altAnswers: ["Les entreprises hésitent de peur que la productivité ne baisse.", "Les entreprises hésitent, de crainte que la productivité ne baisse.", "Les entreprises hésitent, de peur que la productivité ne diminue.", "Les entreprises hésitent, de peur que la productivité baisse."],
+        altAnswers: ["Les entreprises hésitent de peur que la productivité ne baisse.", "Les entreprises hésitent, de crainte que la productivité ne baisse.", "Les entreprises hésitent, de peur que la productivité ne diminue."],
         explanation: "\"De peur que\" + subjunctive, with the ne explétif expected in formal writing.",
       },
       {
@@ -2758,7 +2757,7 @@ export const FR_C1_U01: Lesson[] = [
         prompt: "Translate into French.",
         source: "Whether you like it or not, you're the only one who can do it.",
         answer: "Que ça te plaise ou non, tu es le seul qui puisse le faire.",
-        altAnswers: ["Que ça te plaise ou non, tu es la seule qui puisse le faire.", "Que cela vous plaise ou non, vous êtes le seul qui puisse le faire.", "Que cela vous plaise ou non, vous êtes la seule qui puisse le faire.", "Que ça te plaise ou non, tu es le seul à pouvoir le faire.", "Que ça te plaise ou non, tu es la seule à pouvoir le faire.", "Que cela te plaise ou non, tu es le seul qui puisse le faire."],
+        altAnswers: ["Que ça te plaise ou non, tu es la seule qui puisse le faire.", "Que cela vous plaise ou non, vous êtes le seul qui puisse le faire.", "Que cela vous plaise ou non, vous êtes la seule qui puisse le faire.", "Que ça te plaise ou non, tu es le seul à pouvoir le faire.", "Que ça te plaise ou non, tu es la seule à pouvoir le faire.", "Que cela te plaise ou non, tu es le seul qui puisse le faire.", "Que ça te plaise ou pas, tu es le seul qui puisse le faire.", "Que ça te plaise ou pas, tu es la seule qui puisse le faire.", "Que ça vous plaise ou non, vous êtes le seul qui puisse le faire.", "Que cela vous plaise ou non, vous êtes le seul à pouvoir le faire."],
         explanation: "Two triggers: \"que... ou non\" and \"le seul qui\" + \"puisse\". \"Le seul à pouvoir\" is a smooth infinitive alternative.",
       },
     ],

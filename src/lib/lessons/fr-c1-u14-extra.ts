@@ -509,7 +509,7 @@ export const FR_C1_U14_EXTRA: Lesson[] = [
       {
         heading: "Recap: how -tu works",
         body: [
-          "\"-tu\" is a question particle, not a pronoun: it follows the conjugated verb in yes/no questions, whatever the subject (\"Tu viens-tu ?\", \"Il pleut-tu ?\", \"Vous partez-tu ?\", \"J'peux-tu ?\"). In compound tenses it attaches to the auxiliary (\"T'as-tu fini ?\", \"Y est-tu parti ?\"). It is not used with question words (\"Où tu vas ?\", not *Où tu vas-tu ?). It belongs to informal speech.",
+          "\"-tu\" is a question particle, not a pronoun: it follows the conjugated verb in yes/no questions, whatever the subject (\"Tu viens-tu ?\", \"Il pleut-tu ?\", \"Vous partez-tu ?\", \"J'peux-tu ?\"). In compound tenses it attaches to the auxiliary (\"T'as-tu fini ?\", \"Y est-tu parti ?\"). It is normally not used with question words (\"Où tu vas ?\", not *Où tu vas-tu ?). It belongs to informal speech.",
         ],
         examples: [
           { es: "Il pleut-tu encore ?", en: "Is it still raining?" },
@@ -569,10 +569,10 @@ export const FR_C1_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which question is NOT possible with the -tu particle?",
+        question: "Which question breaks the usual rule for the -tu particle?",
         options: ["Pourquoi tu pars-tu ?", "Tu pars-tu ?", "Ton frère part-tu ?", "On part-tu ?"],
         correctIndex: 0,
-        explanation: "With a question word like \"pourquoi\", the particle is not used: \"Pourquoi tu pars ?\".",
+        explanation: "With a question word like \"pourquoi\", speakers normally leave the particle out: \"Pourquoi tu pars ?\".",
       },
       {
         type: "translate",
@@ -887,7 +887,7 @@ export const FR_C1_U14_EXTRA: Lesson[] = [
         prompt: "Write the Montréal version (use -tu and souper): Are you staying for dinner?",
         source: "Are you staying for dinner? (Montréal)",
         answer: "Tu restes-tu à souper ?",
-        altAnswers: ["Tu restes-tu pour souper ?", "Restes-tu à souper ?"],
+        altAnswers: ["Tu restes-tu pour souper ?"],
         explanation: "\"Rester à souper\" = to stay for dinner, with the \"-tu\" particle.",
       },
       {

@@ -435,7 +435,7 @@ export const FR_B2_U12: Lesson[] = [
         heading: "Errors in statements",
         body: [
           "Error 1: no backshift. *\"Il a dit qu'il est fatigué\" is heard in speech when the fact is still true, but in careful French, and whenever the situation is over, shift: \"Il a dit qu'il était fatigué.\"",
-          "Error 2: the future after a past verb. *\"Elle a dit qu'elle viendra\" → \"Elle a dit qu'elle viendrait.\" And *\"il a dit qu'il a fini\" → \"il a dit qu'il avait fini\".",
+          "Error 2: the future after a past verb. *\"Elle a dit qu'elle viendra\" → \"Elle a dit qu'elle viendrait.\" (Unit 11 showed that the future can stay when the event is still ahead, as in \"elle m'a dit hier qu'elle viendra samedi\"; once it is over, or when in doubt, shift.) And *\"il a dit qu'il a fini\" → \"il a dit qu'il avait fini\".",
           "Error 3: forgetting \"que\", or forgetting to repeat it. *\"Il m'a dit il partait\" → \"Il m'a dit qu'il partait.\" With two clauses: \"Il a dit qu'il partait et qu'il ne reviendrait pas.\"",
         ],
         examples: [
@@ -1077,7 +1077,7 @@ export const FR_B2_U12: Lesson[] = [
         heading: "The draft",
         body: [
           "Thomas had a call with a client, Madame Perrin, and emails his manager a summary. His draft: \"*Madame Perrin m'a appelé ce matin. Elle a dit qu'elle n'a pas reçu la commande et qu'elle est très déçue. Elle m'a demandé est-ce que nous pouvons la livrer demain. Elle voulait savoir qu'est-ce qui s'est passé. Je lui ai dit que je vais vérifier.*\"",
-          "Six errors: four tenses that don't shift (\"n'a pas reçu\", \"est\", \"s'est passé\", \"vais vérifier\"), one question with \"est-ce que\", one with \"qu'est-ce qui\". Notice also \"nous pouvons la livrer\": the client said \"vous\", so from Thomas's side it becomes \"nous\", which is right; only the tense needs fixing.",
+          "Seven errors: five tenses that don't shift (\"n'a pas reçu\", \"est\", \"pouvons\", \"s'est passé\", \"vais vérifier\"), one question with \"est-ce que\", one with \"qu'est-ce qui\". In \"nous pouvons la livrer\" the pronoun is right: the client said \"vous\", so from Thomas's side it becomes \"nous\"; only the tense of \"pouvons\" needs fixing.",
           "Corrected: \"Madame Perrin m'a appelé ce matin. Elle a dit qu'elle n'avait pas reçu la commande et qu'elle était très déçue. Elle m'a demandé si nous pouvions la livrer demain. Elle voulait savoir ce qui s'était passé. Je lui ai dit que j'allais vérifier.\" Since Thomas writes the same day, \"demain\" can stay.",
         ],
         examples: [
@@ -1510,7 +1510,7 @@ export const FR_B2_U12: Lesson[] = [
             prompt: "Translate into French.",
             source: "My colleague confided that he was looking for another job.",
             answer: "Mon collègue m'a confié qu'il cherchait un autre travail.",
-            altAnswers: ["Mon collègue m'a confié qu'il cherchait un autre emploi.", "Ma collègue m'a confié qu'elle cherchait un autre travail."],
+            altAnswers: ["Mon collègue m'a confié qu'il cherchait un autre emploi.", "Mon collègue m'a confié qu'il cherchait un autre poste."],
             explanation: "\"Confier que\": to confide.",
           },
           {
@@ -1577,8 +1577,7 @@ export const FR_B2_U12: Lesson[] = [
             prompt: "Translate into French.",
             source: "My mother always told me never to lend money.",
             answer: "Ma mère m'a toujours dit de ne jamais prêter d'argent.",
-            altAnswers: ["Ma mère m'a toujours dit de ne jamais prêter de l'argent."],
-            explanation: "\"De ne jamais\" + infinitive.",
+            explanation: "\"De ne jamais\" + infinitive; after the negation, \"de l'argent\" becomes \"d'argent\".",
           },
           {
             type: "multiple-choice",
@@ -2504,7 +2503,7 @@ export const FR_B2_U12: Lesson[] = [
 
 export const FR_B2_U12_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Yesterday you had an important phone call: a job interview, a call with a landlord, or a conversation with a client. Write an email to a colleague or friend who couldn't be there, summarising the call: what the other person told you, the questions they asked you, what they asked you to do, and what you answered.",
+  prompt: "Last week you had an important phone call: a job interview, a call with a landlord, or a conversation with a client. Write an email to a colleague or friend who couldn't be there, summarising the call: what the other person told you, the questions they asked you, what they asked you to do, and what you answered.",
   minWords: 120,
   maxWords: 220,
   rubric: [
@@ -2513,6 +2512,6 @@ export const FR_B2_U12_WRITING: WriteExercise = {
     "Applies the backshift and shifts pronouns and time words (\"qu'elle me rappellerait\", \"le lendemain\", \"la semaine suivante\")",
     "Includes your own answers with \"répondre que\" or \"expliquer que\"",
   ],
-  modelAnswer: "Salut Karim,\n\nJe te fais un petit résumé de mon entretien téléphonique d'hier avec la responsable du recrutement, puisque tu m'avais demandé de te tenir au courant.\n\nElle m'a d'abord expliqué que l'entreprise cherchait quelqu'un pour lancer un nouveau projet à Lyon. Elle m'a demandé pourquoi je voulais quitter mon poste actuel et ce qui m'intéressait dans leur offre. Je lui ai répondu que j'avais envie de nouvelles responsabilités et que j'aimais travailler en équipe.\n\nEnsuite, elle voulait savoir si j'étais prêt à déménager et quand je pourrais commencer. Je lui ai dit que je serais disponible dès le mois de septembre. Elle m'a aussi demandé combien je gagnais, et là, je ne savais pas trop quoi répondre !\n\nÀ la fin, elle m'a conseillé de préparer une présentation de dix minutes et m'a dit de ne pas oublier d'apporter mes diplômes. Elle a précisé qu'elle me rappellerait la semaine suivante pour fixer un second rendez-vous.\n\nJe te tiens au courant !\n\nÀ bientôt,\nNicolas",
-  explanation: "Yes/no questions take \"si\" (\"si j'étais prêt\"), \"qu'est-ce qui\" becomes \"ce qui\", and question words like \"pourquoi\", \"quand\" and \"combien\" keep normal word order. Orders and advice use \"de\" + infinitive (\"de préparer\", \"de ne pas oublier\"). After a past reporting verb the tenses shift back (\"cherchait\", \"rappellerait\"), and \"la semaine prochaine\" becomes \"la semaine suivante\".",
+  modelAnswer: "Salut Karim,\n\nJe te fais un petit résumé de mon entretien téléphonique de la semaine dernière avec la responsable du recrutement, puisque tu m'avais demandé de te tenir au courant.\n\nElle m'a d'abord expliqué que l'entreprise cherchait quelqu'un pour lancer un nouveau projet à Lyon. Elle m'a demandé pourquoi je voulais quitter mon poste actuel et ce qui m'intéressait dans leur offre. Je lui ai répondu que j'avais envie de nouvelles responsabilités et que j'aimais travailler en équipe.\n\nEnsuite, elle voulait savoir si j'étais prêt à déménager et quand je pourrais commencer. Je lui ai dit que je serais disponible dès le mois de septembre. Elle m'a aussi demandé combien je gagnais, et là, je ne savais pas trop quoi répondre !\n\nÀ la fin, elle m'a conseillé de préparer une présentation de dix minutes et m'a dit de ne pas oublier d'apporter mes diplômes. Elle a précisé qu'elle me rappellerait la semaine suivante pour fixer un second rendez-vous.\n\nJe te tiens au courant !\n\nÀ bientôt,\nNicolas",
+  explanation: "Yes/no questions take \"si\" (\"si j'étais prêt\"), \"qu'est-ce qui\" becomes \"ce qui\", and question words like \"pourquoi\", \"quand\" and \"combien\" keep normal word order. Orders and advice use \"de\" + infinitive (\"de préparer\", \"de ne pas oublier\"). After a past reporting verb the tenses shift back (\"cherchait\", \"rappellerait\"), and \"la semaine prochaine\" becomes \"la semaine suivante\" because the call was last week: that \"next week\" is not next week any more.",
 };

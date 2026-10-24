@@ -139,9 +139,9 @@ export const FR_B2_U06_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "I don't find that the neighbours are noisy.",
+        source: "I don't think the neighbours are noisy.",
         answer: "Je ne trouve pas que les voisins soient bruyants.",
-        altAnswers: ["Je ne trouve pas que les voisins fassent du bruit.", "Je ne pense pas que les voisins soient bruyants."],
+        altAnswers: ["Je ne trouve pas que les voisins fassent du bruit.", "Je ne pense pas que les voisins soient bruyants.", "Je ne crois pas que les voisins soient bruyants."],
         explanation: "\"Ne pas trouver que\" → \"soient\".",
       },
       {
@@ -250,7 +250,7 @@ export const FR_B2_U06_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "It would be better if [you told] the boss yourself. (to a friend)",
+        en: "It would be better if [you said it] to the boss yourself. (to a friend)",
         sentence: "Il vaudrait mieux que ___ toi-même au patron.",
         answer: "tu le dises",
         explanation: "\"Il vaudrait mieux que\" + \"tu le dises\".",

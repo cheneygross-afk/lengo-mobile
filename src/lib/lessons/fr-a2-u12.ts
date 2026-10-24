@@ -395,7 +395,7 @@ export const FR_A2_U12: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence correctly replaces \"dans le salon\" in \"Les invités sont dans le salon.\"?",
+        question: "The guests are in the living room. How do you say, using \"y\": The guests are there?",
         options: ["Les invités y sont.", "Les invités sont y.", "Les invités le sont.", "Les invités lui sont."],
         correctIndex: 0,
         explanation: "\"Y\" before the verb.",
@@ -827,7 +827,7 @@ export const FR_A2_U12: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say (as a man): I've never been there?",
         options: ["Je n'y suis jamais allé.", "Je ne suis jamais y allé.", "J'y ne suis jamais allé.", "Je n'ai jamais y allé."],
         correctIndex: 0,
         explanation: "\"Ne\" + \"y\" + \"suis\" + \"jamais\" + \"allé\".",

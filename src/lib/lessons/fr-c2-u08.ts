@@ -15,7 +15,7 @@ export const FR_C2_U08_WRITING: WriteExercise = {
     "States the decision itself clearly in one sentence and ends with a concrete, sincere proposal for the future",
   ],
   modelAnswer: "Objet : Traduction du tome 3 et suite de notre collaboration\n\nChère Madame Leroy,\n\nJe vous remercie tout d'abord pour la remise de la traduction du deuxième tome de la série. Je sais combien ce texte était exigeant, et je tenais à vous dire que certains passages, notamment les dialogues du chapitre 7, sont d'une grande justesse.\n\nJe souhaitais néanmoins revenir avec vous sur les conditions dans lesquelles ce projet s'est déroulé. Le manuscrit nous est parvenu avec trois semaines de retard, ce qui a contraint l'équipe à reporter la sortie du livre. Par ailleurs, une relecture approfondie s'est révélée nécessaire : plusieurs contresens ont été relevés et l'harmonisation des noms propres n'était pas tout à fait assurée. Je ne doute pas que ces difficultés tiennent en partie aux délais serrés que nous vous avions imposés, et je ne voudrais surtout pas que vous y voyiez une remise en cause de vos qualités de traductrice.\n\nAprès réflexion, il nous a toutefois semblé plus raisonnable de confier la traduction du troisième tome à une autre traductrice, dont le calendrier est compatible avec la date de parution prévue. Je comprends que cette décision puisse vous décevoir, et je tenais à vous l'annoncer moi-même plutôt que de vous laisser l'apprendre autrement.\n\nNotre collaboration n'en reste pas moins précieuse à mes yeux. Nous préparons pour l'automne un recueil de nouvelles italiennes, dont le format et les délais me paraîtraient tout à fait adaptés à votre manière de travailler. Je me demandais si vous seriez disposée à en discuter lors d'un rendez-vous dans les prochaines semaines.\n\nJe reste bien entendu à votre disposition pour en parler de vive voix, et vous prie d'agréer, chère Madame Leroy, l'expression de mes sentiments les meilleurs.\n\nClaire Fontaine\nDirectrice éditoriale",
-  explanation: "The email follows the Mastery rule of tact without vagueness: problems are stated with the agentless passive and nominalisation (\"une relecture approfondie s'est révélée nécessaire\", \"plusieurs contresens ont été relevés\") and softened by negation (\"n'était pas tout à fait assurée\"); politeness comes from the imparfait (\"je souhaitais\", \"je tenais à\", \"je me demandais si\") and the conditional (\"il nous a semblé plus raisonnable\", \"me paraîtraient\", \"seriez disposée\"); the subjunctive appears in tactful formulas (\"je comprends que cette décision puisse vous décevoir\", \"je ne voudrais pas que vous y voyiez\"). The decision itself is one clear sentence (\"il nous a semblé plus raisonnable de confier...\"), and the email ends with a concrete proposal.",
+  explanation: "The email follows the Mastery rule of tact without vagueness: problems are stated with the agentless passive and nominalisation (\"une relecture approfondie s'est révélée nécessaire\", \"plusieurs contresens ont été relevés\") and softened by negation (\"n'était pas tout à fait assurée\"); politeness comes from the imparfait (\"je souhaitais\", \"je tenais à\", \"je me demandais si\") and the conditional (\"je ne voudrais surtout pas\", \"me paraîtraient\", \"seriez disposée\"); the subjunctive appears in tactful formulas (\"je comprends que cette décision puisse vous décevoir\", \"je ne voudrais pas que vous y voyiez\"). The decision itself is one clear sentence in the plain passé composé (\"il nous a toutefois semblé plus raisonnable de confier...\"), and the email ends with a concrete proposal.",
 };
 
 export const FR_C2_U08: Lesson[] = [
@@ -587,7 +587,7 @@ export const FR_C2_U08: Lesson[] = [
           { es: "Les hauts revenus seront mis à contribution.", en: "High earners will be made to pay more." },
           { es: "L'état-major parle de frappes ciblées.", en: "The general staff speaks of targeted strikes." },
           { es: "On a longtemps parlé des « événements d'Algérie ».", en: "For a long time people spoke of 'the events in Algeria'." },
-          { es: "Le suspect a été neutralisé.", en: "The suspect was shot dead." },
+          { es: "Le suspect a été neutralisé.", en: "The suspect was neutralised (often: shot dead)." },
         ],
         checkpoint: [
           {
@@ -958,7 +958,7 @@ export const FR_C2_U08: Lesson[] = [
         source: "We don't know how many jobs will be offered.",
         answer: "On ne sait pas combien de postes seront proposés.",
         altAnswers: ["Nous ne savons pas combien de postes seront proposés.", "On ignore combien de postes seront proposés.", "Nous ignorons combien de postes seront proposés."],
-        explanation: "\"Ignorer\" = not to know (a false friend, Lesson 8).",
+        explanation: "\"Ignorer\" = not to know (a false friend you will meet in Lesson 8 of this unit).",
       },
       {
         type: "translate",

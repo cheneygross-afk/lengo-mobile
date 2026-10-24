@@ -55,7 +55,7 @@ export const FR_C1_U04_EXTRA: Lesson[] = [
         prompt: "Translate into French with a perfect participle.",
         source: "Having read the report, the minister made a statement.",
         answer: "Ayant lu le rapport, le ministre a fait une déclaration.",
-        altAnswers: ["Ayant lu le rapport, la ministre a fait une déclaration.", "Après avoir lu le rapport, le ministre a fait une déclaration."],
+        altAnswers: ["Ayant lu le rapport, la ministre a fait une déclaration."],
         explanation: "\"Ayant lu\": completed before the main action.",
       },
       {
@@ -64,7 +64,7 @@ export const FR_C1_U04_EXTRA: Lesson[] = [
         prompt: "Translate into French with a perfect participle.",
         source: "Having arrived early, the girls waited in the café.",
         answer: "Étant arrivées en avance, les filles ont attendu au café.",
-        altAnswers: ["Arrivées en avance, les filles ont attendu au café.", "Étant arrivées tôt, les filles ont attendu au café.", "Arrivées tôt, les filles ont attendu au café."],
+        altAnswers: ["Étant arrivées tôt, les filles ont attendu au café."],
         explanation: "\"Étant\" + participle agreeing in the feminine plural.",
       },
       {

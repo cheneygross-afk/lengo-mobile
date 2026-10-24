@@ -914,7 +914,7 @@ export const FR_B2_U03: Lesson[] = [
           { es: "Dès que j'aurai fini, je t'aiderai.", en: "As soon as I've finished, I'll help you." },
           { es: "Aussitôt qu'il sera rentré, on passera à table.", en: "As soon as he's back, we'll sit down to eat." },
           { es: "Une fois que tu auras signé, on t'enverra une copie.", en: "Once you've signed, we'll send you a copy." },
-          { es: "Je t'appelle dès que je suis arrivé.", en: "I'll call you as soon as I've arrived." },
+          { es: "Je t'appellerai dès que je serai arrivé.", en: "I'll call you as soon as I've arrived." },
         ],
         checkpoint: [
           {
@@ -1086,7 +1086,7 @@ export const FR_B2_U03: Lesson[] = [
         examples: [
           { es: "Bien qu'il pleuve, on sort faire un tour.", en: "Although it's raining, we're going out for a walk." },
           { es: "Bien qu'elle soit très occupée, elle m'a aidé.", en: "Although she's very busy, she helped me." },
-          { es: "Il a été embauché bien qu'il n'ait pas d'expérience.", en: "He was hired even though he has no experience." },
+          { es: "Il a été embauché bien qu'il n'ait pas d'expérience.", en: "He was hired even though he had no experience." },
           { es: "Quoiqu'elle soit fatiguée, elle continue à travailler.", en: "Although she's tired, she keeps working." },
           { es: "Bien que fatiguée, elle a terminé la course.", en: "Although tired, she finished the race." },
         ],
@@ -1103,11 +1103,11 @@ export const FR_B2_U03: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
-            en: "He was hired [even though he has] no experience.",
+            en: "He was hired [even though he had] no experience.",
             sentence: "Il a été embauché ___ pas d'expérience.",
             answer: "bien qu'il n'ait",
             altAnswers: ["quoiqu'il n'ait"],
-            explanation: "\"Bien que\" + subjunctive \"ait\", here negative: \"n'ait pas\".",
+            explanation: "\"Bien que\" + subjunctive \"ait\", here negative: \"n'ait pas\". English says 'had', but French keeps the present subjunctive after a past main verb.",
           },
         ],
       },

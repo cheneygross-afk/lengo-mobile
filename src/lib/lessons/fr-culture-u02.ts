@@ -98,7 +98,7 @@ export const FR_CULTURE_U02: Lesson[] = [
       {
         heading: "On the pitch: but, carton, tirs au but",
         body: [
-          "Core vocabulary: \"un but\" (a goal, the t is often pronounced), \"marquer\" (to score: never \"scorer\"), \"le gardien\" (goalkeeper), \"l'arbitre\" (referee), \"un carton jaune / rouge\" (yellow / red card), \"une faute\" (a foul), \"un penalty\" (also \"un tir au but\" in Québec), \"un coup franc\" (a free kick), \"un corner\", \"le hors-jeu\" (offside). A match has \"deux mi-temps\" (two halves) and, in a cup, may go to \"les prolongations\" (extra time) and \"les tirs au but\" (the penalty shoot-out).",
+          "Core vocabulary: \"un but\" (a goal, the t is often pronounced), \"marquer\" (to score: never \"scorer\"), \"le gardien\" (goalkeeper), \"l'arbitre\" (referee), \"un carton jaune / rouge\" (yellow / red card), \"une faute\" (a foul), \"un penalty\", \"un coup franc\" (a free kick), \"un corner\", \"le hors-jeu\" (offside). A match has \"deux mi-temps\" (two halves) and, in a cup, may go to \"les prolongations\" (extra time) and \"les tirs au but\" (the penalty shoot-out).",
           "Traps. \"Le foot\" is always soccer; American football is \"le football américain\". \"Le score\" is the scoreline during or after a match (\"le score est de 2 à 1\"); \"le résultat\" is the final outcome (\"le résultat du match\"). A draw is \"un match nul\": \"ils ont fait match nul\", \"un partout\" (one all), \"zéro à zéro\" or \"zéro-zéro\".",
           "Reading scores aloud: \"deux à un\" or \"deux-un\". \"Ils ont gagné trois à zéro.\" \"On a perdu deux-un.\" Notice how fans use \"on\" for their team: \"on a gagné !\" even though they were on the sofa.",
         ],
@@ -572,7 +572,7 @@ export const FR_CULTURE_U02: Lesson[] = [
             type: "speak",
             text: "La troisième mi-temps a duré jusqu'à trois heures du matin.",
             prompt: "Say it in French: The post-match party went on until three in the morning.",
-            tip: "\"Mi-temps\": the p is silent, mi-tan.",
+            tip: "\"Mi-temps\": the p is silent: 'mi-tan'.",
             explanation: "\"La troisième mi-temps\" comes from rugby culture.",
           },
         ],
@@ -892,8 +892,8 @@ export const FR_CULTURE_U02: Lesson[] = [
       {
         heading: "The birthplace of cinema: Lumière and la Nouvelle Vague",
         body: [
-          "The French consider cinema theirs, and they have a case. On 28 December 1895, in a basement room of the Grand Café in Paris, Auguste and Louis Lumière held the first public paid screening of films with their \"cinématographe\": ten short scenes, including workers leaving their factory in Lyon. Around 1902, Georges Méliès invented special effects and science fiction with \"Le Voyage dans la Lune\".",
-          "In the late 1950s, young critics turned directors, François Truffaut, Jean-Luc Godard, Agnès Varda, Claude Chabrol, launched \"la Nouvelle Vague\" (the New Wave): small budgets, real streets, handheld cameras, jump cuts, natural dialogue. The idea of \"le cinéma d'auteur\", where the director (\"le réalisateur\", never \"le directeur\") is the author of the film, comes from them.",
+          "The French consider cinema theirs, and they have a case. On 28 December 1895, in a basement room of the Grand Café in Paris, Auguste and Louis Lumière held the first public paid screening of films with their \"cinématographe\": ten short scenes, including workers leaving their factory in Lyon. From 1896 Georges Méliès pioneered special effects, and in 1902 he made the science-fiction film \"Le Voyage dans la Lune\".",
+          "In the late 1950s, young critics turned directors (François Truffaut, Jean-Luc Godard, Claude Chabrol), alongside Agnès Varda, launched \"la Nouvelle Vague\" (the New Wave): small budgets, real streets, handheld cameras, jump cuts, natural dialogue. The idea of \"le cinéma d'auteur\", where the director (\"le réalisateur\", never \"le directeur\") is the author of the film, comes from them.",
           "France protects its cinema like a cultural treasure: a share of every cinema ticket funds French production, and TV channels must invest in films. This \"exception culturelle\" explains why France still makes around 250 films a year.",
         ],
         examples: [
@@ -997,7 +997,7 @@ export const FR_CULTURE_U02: Lesson[] = [
             type: "speak",
             text: "On va au ciné ce soir ?",
             prompt: "Say it in French, to a friend: Shall we go to the cinema tonight?",
-            tip: "\"Ciné\" is two syllables, see-nay.",
+            tip: "\"Ciné\" is two syllables: 'see-nay'.",
             explanation: "\"Le ciné\" is the everyday word for the cinema.",
           },
         ],
@@ -1147,7 +1147,7 @@ export const FR_CULTURE_U02: Lesson[] = [
         heading: "Chanson à texte, variété, and the oldest songs",
         body: [
           "French people distinguish \"la chanson à texte\" (the song where the text is poetry: Brassens, Brel, Barbara, Ferré) from \"la variété\" (mainstream entertainment pop, TV variety shows). \"Un chanteur à texte\" is a compliment; \"c'est de la variété\" can sound slightly dismissive.",
-          "The tradition is old. Children still learn songs that are centuries old, like \"Au clair de la lune, mon ami Pierrot\". And the Paris Commune of 1871 adopted \"Le Temps des cerises\", written in 1866 by Jean-Baptiste Clément, whose first line, \"Quand nous chanterons le temps des cerises\", is a symbol of nostalgia and lost hope that every generation of French singers has covered.",
+          "The tradition is old. Children still learn songs that are centuries old, like \"Au clair de la lune, mon ami Pierrot\". And \"Le Temps des cerises\", written in 1866 by Jean-Baptiste Clément and later tied to the memory of the Paris Commune of 1871, opens with \"Quand nous chanterons le temps des cerises\": a symbol of nostalgia and lost hope, covered by every generation of French singers.",
           "Notice the future \"chanterons\" in that line, and the archaic charm of the song's language. Old songs are a goldmine: they preserve grammar (inversion, the passé simple) that modern speech has dropped.",
         ],
         examples: [
@@ -1308,7 +1308,7 @@ export const FR_CULTURE_U02: Lesson[] = [
       {
         type: "speak",
         text: "Quand nous chanterons le temps des cerises",
-        tip: "\"Chanterons\": in the song the mute e is sung, chan-te-rons (three syllables); in everyday speech it usually drops: chan-trons.",
+        tip: "\"Chanterons\": in the song the mute e is sung, 'chan-te-rons' (three syllables); in everyday speech it usually drops: 'chan-trons'.",
         explanation: "The opening line of the 1866 song by Jean-Baptiste Clément, a classic of the French repertoire.",
       },
     ],
@@ -1394,7 +1394,7 @@ export const FR_CULTURE_U02: Lesson[] = [
       {
         heading: "Slam, Breton music and Québec",
         body: [
-          "\"Le slam\" is spoken-word poetry, often with minimal music. Grand Corps Malade (a nickname: big sick body, after a diving accident left him using crutches), from Saint-Denis, made it popular in France in the 2000s with texts about his neighbourhood, love and disability. Slam lives on rhythm, puns and rhyme.",
+          "\"Le slam\" is spoken-word poetry, often with minimal music. Grand Corps Malade (a nickname: big sick body, after a diving accident left him walking with a crutch), from Saint-Denis, made it popular in France in the 2000s with texts about his neighbourhood, love and disability. Slam lives on rhythm, puns and rhyme.",
           "Brittany has its own music scene: \"la musique bretonne\", with the Celtic harp revived by Alan Stivell in the 1970s, bagpipes and the fest-noz dances you met in the last unit. The Festival interceltique de Lorient gathers Celtic nations every August.",
           "Across the Atlantic, Québec has its own powerful song tradition: Félix Leclerc, Gilles Vigneault, and the world's best-known francophone voice, Céline Dion, from Charlemagne near Montréal. Québécois French sounds different: \"ma blonde\" (my girlfriend), \"c'est le fun\", \"pantoute\" (not at all), and \"tu\" is used even more widely than in France.",
         ],

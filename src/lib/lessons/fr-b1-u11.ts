@@ -295,7 +295,7 @@ export const FR_B1_U11: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A headline says: Le maire démissionnerait. What does it say?",
+            question: "A headline says: \"Le maire démissionnerait.\" What does it say?",
             options: ["The mayor is reportedly resigning.", "The mayor would resign.", "The mayor has resigned.", "The mayor will never resign."],
             correctIndex: 0,
             explanation: "Hearsay conditional: unconfirmed news.",
@@ -678,8 +678,8 @@ export const FR_B1_U11: Lesson[] = [
         prompt: "Translate into French.",
         source: "Residents would like to be consulted.",
         answer: "Les habitants voudraient être consultés.",
-        altAnswers: ["Les habitants aimeraient être consultés."],
-        explanation: "\"Voudraient\" + passive infinitive.",
+        altAnswers: ["Les habitants aimeraient être consultés.", "Les habitants voudraient qu'on les consulte.", "Les habitants aimeraient qu'on les consulte."],
+        explanation: "\"Voudraient\" + passive infinitive (\"être consultés\"); \"qu'on les consulte\" is an active alternative.",
       },
       {
         type: "translate",
@@ -1212,10 +1212,10 @@ export const FR_B1_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which version needs the subjunctive?",
-        options: ["Il vaudrait mieux que tu...", "Tu devrais...", "Tu ferais mieux de...", "À ta place, je..."],
+        question: "How do you say: It would be better if you stayed? (to a friend)",
+        options: ["Il vaudrait mieux que tu restes.", "Il vaudrait mieux que tu restais.", "Il vaudrait mieux que tu resterais.", "Il vaudrait mieux de rester."],
         correctIndex: 0,
-        explanation: "\"Il vaudrait mieux que\" + subjunctive; the others take an infinitive or a conditional.",
+        explanation: "English uses a past (if you stayed), but \"il vaudrait mieux que\" takes the present subjunctive: \"que tu restes\". \"Tu devrais\" and \"tu ferais mieux de\" take an infinitive instead.",
       },
       {
         type: "listen-choose",
@@ -2769,6 +2769,6 @@ export const FR_B1_U11_WRITING: WriteExercise = {
     "Reports or reacts to unconfirmed information with \"il paraît que\" + indicative or \"selon...\" / \"d'après...\" + conditional.",
     "Keeps future (plans) and conditional (possibilities) apart: \"tu verras\" vs \"tu pourrais\".",
   ],
-  modelAnswer: "Salut Hugo,\n\nQuelle semaine ! Pour ton colocataire, tu devrais lui parler calmement ce soir. À ta place, je ferais un planning de ménage et je le mettrais sur le frigo. Et s'il ne change rien, cherche un autre colocataire ! Pour le loyer, il vaudrait mieux que tu appelles ton propriétaire : il accepterait peut-être une augmentation plus petite.\n\nPour ton entreprise, ne t'inquiète pas trop. D'après ton message, ce ne serait qu'une rumeur. Selon ton collègue, la direction déménagerait à Lille, mais rien n'est confirmé. Moi, j'attendrais l'annonce officielle avant de paniquer.\n\nJ'aimerais que tu viennes me voir à Bordeaux ce week-end, ça te changerait les idées. On pourrait aller à la plage. Tu verras, tout ira mieux !\n\nBises,\nEmma",
+  modelAnswer: "Salut Hugo,\n\nQuelle semaine ! Pour ton colocataire, tu devrais lui parler calmement ce soir. À ta place, je ferais un planning de ménage et je le mettrais sur le frigo. Et tu ferais mieux de ne pas tout faire à sa place ! Pour le loyer, il vaudrait mieux que tu appelles ton propriétaire : il accepterait peut-être une augmentation plus petite.\n\nPour ton entreprise, ne t'inquiète pas trop. D'après ton message, ce ne serait qu'une rumeur. Selon ton collègue, la direction déménagerait à Lille, mais rien n'est confirmé. Moi, j'attendrais l'annonce officielle avant de paniquer.\n\nJ'aimerais que tu viennes me voir à Bordeaux ce week-end, ça te changerait les idées. On pourrait aller à la plage. Tu verras, tout ira mieux !\n\nBises,\nEmma",
   explanation: "Advice climbs from \"tu devrais\" to \"tu ferais mieux de\" to \"à ta place, je\" + conditional; \"il vaudrait mieux que\" and \"j'aimerais que\" take the subjunctive (\"appelles\", \"viennes\"). The conditional after \"selon\" / \"d'après\" marks unconfirmed information (\"déménagerait\"), and the future is kept for what will really happen (\"tu verras\", \"tout ira mieux\").",
 };

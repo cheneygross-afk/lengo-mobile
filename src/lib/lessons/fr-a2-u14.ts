@@ -1484,14 +1484,14 @@ export const FR_A2_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence has NO mistake?",
+        question: "How do you write: I have no idea?",
         options: ["Je n'ai aucune idée.", "Je n'ai pas aucune idée.", "Je n'ai aucunes idées.", "J'ai aucune pas idée."],
         correctIndex: 0,
         explanation: "\"Ne...aucune\" + singular noun, no \"pas\".",
       },
       {
         type: "multiple-choice",
-        question: "Which sentence has NO mistake?",
+        question: "How do you write: I only eat fruit in the mornings?",
         options: ["Je ne mange que des fruits le matin.", "Je ne mange que de fruits le matin.", "Je mange que pas des fruits le matin.", "Je ne mange pas que de fruits le matin."],
         correctIndex: 0,
         explanation: "Ne...que keeps the article \"des\".",

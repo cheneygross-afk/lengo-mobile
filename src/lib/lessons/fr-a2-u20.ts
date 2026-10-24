@@ -47,7 +47,7 @@ export const FR_A2_U20: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The salt? I'll pass it to you. Which is correct?",
+            question: "How do you say: The salt? I'll pass it to you.",
             options: ["Le sel ? Je te le passe.", "Le sel ? Je le te passe.", "Le sel ? Je passe le te.", "Le sel ? Je te passe le."],
             correctIndex: 0,
             explanation: "With \"te\", the person comes first: \"te le\". Both go before the verb.",
@@ -272,7 +272,7 @@ export const FR_A2_U20: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The letter? I'm sending it to them. Which is correct?",
+            question: "How do you say: The letter? I'm sending it to them.",
             options: ["La lettre ? Je la leur envoie.", "La lettre ? Je leur la envoie.", "La lettre ? Je leur l'envoie.", "La lettre ? Je la les envoie."],
             correctIndex: 0,
             explanation: "\"La\" before \"leur\". \"Leur\" is the person (to them), not \"les\".",
@@ -440,7 +440,7 @@ export const FR_A2_U20: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I told him'?",
+        question: "How do you say: I told him (it)?",
         options: ["Je le lui ai dit.", "Je lui l'ai dit.", "Je lui le ai dit.", "Je l'ai lui dit."],
         correctIndex: 0,
         explanation: "\"Le lui\" before the auxiliary: \"je le lui ai dit\" (I told him / her).",
@@ -774,7 +774,7 @@ export const FR_A2_U20: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Are there any eggs? — Yes, there are six. Which answer is right?",
+            question: "\"Il y a des œufs ?\" How do you answer: Yes, there are six?",
             options: ["Oui, il y en a six.", "Oui, il y a six.", "Oui, il en y a six.", "Oui, il y les a six."],
             correctIndex: 0,
             explanation: "\"Y\" before \"en\", and \"en\" is needed with the number.",
@@ -945,7 +945,7 @@ export const FR_A2_U20: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say 'Your secret? I'm not telling you'?",
+            question: "How do you say: (Your secret?) I'm not telling you?",
             options: ["Je ne te le dis pas.", "Je te ne le dis pas.", "Je ne te le pas dis.", "Je ne dis pas te le."],
             correctIndex: 0,
             explanation: "\"Ne\" before the pronoun block, \"pas\" after the verb.",
@@ -994,7 +994,7 @@ export const FR_A2_U20: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Your book? Can you lend it to me?",
+            question: "How do you say: Your book? Can you lend it to me?",
             options: ["Tu peux me le prêter ?", "Tu me le peux prêter ?", "Tu peux le me prêter ?", "Tu me peux le prêter ?"],
             correctIndex: 0,
             explanation: "The block \"me le\" goes before the infinitive \"prêter\".",
@@ -1113,7 +1113,7 @@ export const FR_A2_U20: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "The dress? I put it in the case for you. Which spelling is right?",
+        question: "How do you write: The dress? I put it in the case for you.",
         options: ["Je te l'ai mise dans la valise.", "Je te l'ai mis dans la valise.", "Je l'ai te mise dans la valise.", "Je te la ai mise dans la valise."],
         correctIndex: 0,
         explanation: "\"L'\" = la robe, so \"mise\" (you hear the s); \"la\" elides before \"ai\".",
@@ -1297,7 +1297,7 @@ export const FR_A2_U20: Lesson[] = [
         source: "Yes, I gave them back yesterday.",
         answer: "Oui, je les ai rendus hier.",
         altAnswers: ["Oui, je les y ai rendus hier.", "Oui, hier, je les ai rendus."],
-        explanation: "Only one pronoun is needed here: \"les\" (the books), and \"rendus\" agrees. \"Lui\" is for people, so it's not used for the library.",
+        explanation: "Only one pronoun is needed here: \"les\" (the books), and \"rendus\" agrees. The library is where the books go back, so French doesn't add \"lui\"; \"je les y ai rendus\" is possible but heavy.",
       },
       {
         type: "fill-blank",
@@ -1453,7 +1453,7 @@ export const FR_A2_U20: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The books? I carried them up to her flat. Which is correct?",
+            question: "How do you say: The books? I carried them up to her flat.",
             options: ["Je les lui ai montés.", "Je lui les ai montés.", "Je les lui suis montés.", "Je les lui ai monté."],
             correctIndex: 0,
             explanation: "\"Monter\" + object → \"avoir\"; \"les lui\" order; \"montés\" agrees with \"les\".",

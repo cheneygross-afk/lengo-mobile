@@ -64,7 +64,7 @@ export const FR_B2_U22_EXTRA: Lesson[] = [
         source: "The project, which we are proud of, will be presented on Monday.",
         answer: "Le projet, dont nous sommes fiers, sera présenté lundi.",
         altAnswers: ["Le projet, dont nous sommes fières, sera présenté lundi."],
-        explanation: "\"Être fier de\" → \"dont\", in an incise; passive future.",
+        explanation: "\"Être fier de\" → \"dont\", in an incise (a relative clause set between commas); passive future.",
       },
       {
         type: "translate",
@@ -120,7 +120,7 @@ export const FR_B2_U22_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the formal version of « Ce dossier, j'en ai parlé hier » ?",
+        question: "Which is the formal version of « Ce dossier, j'en ai parlé hier »?",
         options: ["Il s'agit du dossier dont j'ai parlé hier.", "Il s'agit du dossier que j'ai parlé hier.", "Il s'agit du dossier dont j'en ai parlé hier.", "Il s'agit du dossier duquel j'ai parlé de hier."],
         correctIndex: 0,
         explanation: "\"En\" is absorbed by \"dont\".",
@@ -184,7 +184,7 @@ export const FR_B2_U22_EXTRA: Lesson[] = [
         examples: [
           { es: "Je cherche quelqu'un qui puisse garder mon chat.", en: "I'm looking for someone who can look after my cat." },
           { es: "Je te prête ma voiture pour que tu puisses partir.", en: "I'm lending you my car so you can go." },
-          { es: "Il est normal que tu sois fatigué.", en: "It's normal that you're tired." },
+          { es: "Il est normal que tu sois fatigué.", en: "It's normal for you to be tired." },
           { es: "Je ne crois pas qu'elle ait reçu mon message.", en: "I don't think she got my message." },
           { es: "Je suis ravie que vous ayez trouvé un appartement.", en: "I'm delighted you've found a flat." },
         ],
@@ -352,7 +352,7 @@ export const FR_B2_U22_EXTRA: Lesson[] = [
             prompt: "Translate into French.",
             source: "If you leave earlier, you'll avoid the traffic.",
             answer: "Si tu pars plus tôt, tu éviteras les bouchons.",
-            altAnswers: ["En partant plus tôt, tu éviteras les bouchons.", "Si vous partez plus tôt, vous éviterez les bouchons.", "En partant plus tôt, vous éviterez les bouchons.", "Si tu pars plus tôt, tu éviteras la circulation.", "En partant plus tôt, tu éviteras la circulation."],
+            altAnswers: ["En partant plus tôt, tu éviteras les bouchons.", "Si vous partez plus tôt, vous éviterez les bouchons.", "En partant plus tôt, vous éviterez les bouchons.", "Si tu pars plus tôt, tu éviteras la circulation.", "En partant plus tôt, tu éviteras la circulation.", "Si vous partez plus tôt, vous éviterez la circulation.", "En partant plus tôt, vous éviterez la circulation."],
             explanation: "\"Si\" + présent → futur, or a gérondif of condition.",
           },
           {

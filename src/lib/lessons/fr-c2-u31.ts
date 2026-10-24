@@ -66,7 +66,7 @@ export const FR_C2_U31: Lesson[] = [
         body: [
           "\"L'inflation\" is measured by \"l'indice des prix à la consommation\" (IPC, the consumer price index) published by the INSEE. Press verbs: \"l'inflation ralentit\", \"accélère\", \"reflue\" (ebbs), \"atteint un pic\". \"La désinflation\" is a slowing of inflation (prices still rise, but less fast); \"la déflation\" is a fall in prices. Don't mix them up.",
           "To fight inflation, the European Central Bank (\"la BCE\") raises \"ses taux directeurs\" (its key interest rates); to support activity, it lowers them: \"la BCE a relevé / abaissé ses taux directeurs d'un quart de point\". This affects \"les taux d'intérêt\" of loans, \"le crédit immobilier\", and indirectly \"le pouvoir d'achat\" (purchasing power), the great political theme in France.",
-          "\"Le SMIC\" (salaire minimum interprofessionnel de croissance) is the minimum wage, \"revalorisé\" (raised) every 1 January and automatically during the year once prices have risen by 2 % or more since the last increase. \"Le chômage\" is unemployment, \"le taux de chômage\" the rate; \"un demandeur d'emploi\" is a job seeker, the official term. \"Le déficit public\" is the yearly gap; \"la dette publique\" the accumulated stock.",
+          "\"Le SMIC\" (salaire minimum interprofessionnel de croissance) is the minimum wage, \"revalorisé\" (raised) every 1 January and automatically during the year once prices have risen by 2% or more since the last increase. \"Le chômage\" is unemployment, \"le taux de chômage\" the rate; \"un demandeur d'emploi\" is a job seeker, the official term. \"Le déficit public\" is the yearly gap; \"la dette publique\" the accumulated stock.",
         ],
         examples: [
           { es: "L'inflation a reflué à 2,1 % sur un an en mars.", en: "Inflation eased to 2.1% year on year in March." },
@@ -218,7 +218,7 @@ export const FR_C2_U31: Lesson[] = [
         type: "speak",
         text: "La BCE a relevé ses taux directeurs d'un quart de point.",
         prompt: "Say it in French: The ECB raised its key rates by a quarter of a point.",
-        tip: "BCE is spelt out: bé-cé-eu.",
+        tip: "\"BCE\" is spelt out: bé-cé-eu.",
         explanation: "\"Relever\" to raise; \"de\" for the size of the change.",
       },
     ],
@@ -259,7 +259,7 @@ export const FR_C2_U31: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite in French using sous l'effet de.",
+            prompt: "Rewrite in French using \"sous l'effet de\".",
             source: "Because of the rise in energy prices, inflation is accelerating.",
             answer: "Sous l'effet de la hausse des prix de l'énergie, l'inflation accélère.",
             altAnswers: ["Sous l'effet de la hausse des prix de l'énergie, l'inflation s'accélère.", "Sous l'effet de la flambée des prix de l'énergie, l'inflation accélère.", "Sous l'effet de la flambée des prix de l'énergie, l'inflation s'accélère."],
@@ -359,7 +359,7 @@ export const FR_C2_U31: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in French with the effect as subject, using découler de.",
+        prompt: "Rewrite in French with the effect as subject, using \"découler de\".",
         source: "The fall in revenue widened the deficit.",
         answer: "Le creusement du déficit découle de la baisse des recettes.",
         altAnswers: ["Le creusement du déficit découle de la diminution des recettes.", "L'aggravation du déficit découle de la baisse des recettes."],
@@ -603,7 +603,7 @@ export const FR_C2_U31: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« La Bourse a dévissé. » What happened?",
+        question: "\"La Bourse a dévissé.\" What happened?",
         options: ["The market fell sharply.", "The market rose slightly.", "The market was closed.", "The market was reorganised."],
         correctIndex: 0,
         explanation: "\"Dévisser\" (to come unscrewed, a climber's fall) is a steep drop.",
@@ -674,7 +674,7 @@ export const FR_C2_U31: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Why does the dispatch say « l'estimation provisoire »?",
+            question: "Why does the dispatch say \"l'estimation provisoire\"?",
             options: [
               "Because the figure may still be revised.",
               "Because it is a forecast for next year.",
@@ -1027,7 +1027,7 @@ export const FR_C2_U31: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« L'entreprise a délocalisé » means...",
+        question: "\"L'entreprise a délocalisé\" means...",
         options: ["The company moved production abroad.", "The company moved to a new office in the same city.", "The company closed.", "The company went public."],
         correctIndex: 0,
         explanation: "\"Délocaliser\" is to offshore. Moving offices is \"déménager\" or \"transférer\".",
@@ -1096,12 +1096,12 @@ export const FR_C2_U31: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Why does the economist say « ils pèseraient 18 % du marché » in the conditional?",
+            question: "Why does the economist say \"ils pèseraient 18 % du marché\" in the conditional?",
             options: [
               "The merger hasn't happened yet, so the figure is a projection.",
               "She doubts the companies exist.",
               "She is being polite to the presenter.",
-              "The conditional is required after ensemble.",
+              "The conditional is required after \"ensemble\".",
             ],
             correctIndex: 0,
             explanation: "The conditional marks a projection: the merged group does not exist yet.",
@@ -1269,7 +1269,7 @@ export const FR_C2_U31: Lesson[] = [
         type: "speak",
         text: "Tout dépend de l'endroit où l'on habite.",
         prompt: "Say it in French: It all depends on where you live.",
-        tip: "l'on: the l' is just for sound after où; link smoothly, ou-lon.",
+        tip: "\"L'on\": the l' is just for sound after \"où\"; link smoothly, ou-lon.",
         explanation: "\"L'on\" after \"où\" is a careful-style euphony.",
       },
     ],
@@ -1369,7 +1369,7 @@ export const FR_C2_U31: Lesson[] = [
         heading: "Presenting the figures aloud",
         body: [
           "Reading figures aloud is a skill. \"2,3 %\" is \"deux virgule trois pour cent\". \"1,25 milliard\" is \"un milliard deux cent cinquante millions\" or \"un virgule vingt-cinq milliard\". \"850 M€\" is \"huit cent cinquante millions d'euros\". \"T3\" is \"le troisième trimestre\". Years: \"2025\" is \"deux mille vingt-cinq\".",
-          "Comparisons need precision. \"Trois points de plus\" (three percentage points more) is not \"trois pour cent de plus\": going from 10 % to 13 % is \"trois points de plus\" but \"30 % de plus\". \"Deux fois plus\" is twice as much; \"deux fois moins\" (literally twice less) is half as much: \"les ventes en ligne sont deux fois moins rentables\". \"Un client sur deux\", \"près d'un tiers\", \"plus de la moitié\".",
+          "Comparisons need precision. \"Trois points de plus\" (three percentage points more) is not \"trois pour cent de plus\": going from 10% to 13% is \"trois points de plus\" but \"30 % de plus\". \"Deux fois plus\" is twice as much; \"deux fois moins\" (literally twice less) is half as much: \"les ventes en ligne sont deux fois moins rentables\". \"Un client sur deux\", \"près d'un tiers\", \"plus de la moitié\".",
           "An oral summary might begin: « Au troisième trimestre, le chiffre d'affaires s'établit à 212 millions d'euros, en hausse de 4,1 %. La marge opérationnelle gagne un point et demi, à 9,8 %. En revanche, les ventes en ligne, deux fois moins rentables, pèsent sur le résultat. »",
         ],
         examples: [
@@ -1455,7 +1455,7 @@ export const FR_C2_U31: Lesson[] = [
           "Il a gagné vingt-cinq points.",
         ],
         correctIndex: 0,
-        explanation: "From 20 to 25 % is five percentage points (and a 25 % relative increase).",
+        explanation: "From 20% to 25% is five percentage points (and a 25% relative increase).",
       },
       {
         type: "translate",
@@ -1493,7 +1493,7 @@ export const FR_C2_U31: Lesson[] = [
     level: "FR-C2",
     number: 8,
     title: "Mastery Vocabulary: Literary and Art Criticism",
-    summary: "Hypallage, ekphrasis, leitmotiv, pastiche, épigone, polyphonie, naturalisme, Nouveau Roman, autofiction and éculé: the learned vocabulary of reviews and text commentary.",
+    summary: "Vraisemblance, hypallage, ekphrasis, leitmotiv, pastiche, épigone, polyphonie, mise en abyme, naturalisme, Nouveau Roman, autofiction and éculé: the learned vocabulary of reviews and text commentary.",
     duration: "17 min",
     sections: [
       {
@@ -1502,6 +1502,7 @@ export const FR_C2_U31: Lesson[] = [
           "\"L'hypallage\" (feminine) is a figure that attaches an adjective to the wrong noun, transferring a quality from a person to a thing: \"fumer une cigarette nerveuse\" (it is the smoker who is nervous), \"un silence pensif\". English calls it a transferred epithet. It is subtle and very common in poetry and good prose.",
           "\"L'ekphrasis\" (or \"ecphrasis\", feminine) is a literary description of a work of art: Homer's shield of Achilles, Diderot's descriptions of paintings in his \"Salons\" (1759-1781), the imaginary paintings of Elstir in Proust. Critics use it for any vivid verbal rendering of an image: \"une véritable ekphrasis\".",
           "\"Le leitmotiv\" (plural \"leitmotivs\" or \"leitmotive\"), borrowed from Wagner's operas, is a recurring motif: a phrase, image or theme that returns: \"la mer est le leitmotiv du roman\". In everyday French it also means a refrain someone keeps repeating: \"la baisse des impôts, son leitmotiv de campagne\".",
+          "Two terms from the criticism lessons belong in this set too. \"La vraisemblance\" is plausibility within the work's own logic (\"le dénouement manque de vraisemblance\"; the opposite is \"invraisemblable\"). \"La mise en abyme\" is a work reflected inside itself, such as the play within the play in \"Hamlet\" or a novel about the writing of that novel.",
         ],
         examples: [
           { es: "Il fumait une cigarette nerveuse en attendant le verdict.", en: "He smoked a nervous cigarette while waiting for the verdict." },
@@ -1510,6 +1511,8 @@ export const FR_C2_U31: Lesson[] = [
           { es: "La pluie revient comme un leitmotiv tout au long du roman.", en: "The rain recurs like a leitmotif throughout the novel." },
           { es: "La sécurité est le leitmotiv de sa campagne.", en: "Security is the constant refrain of her campaign." },
           { es: "Le narrateur décrit le tableau avec une précision de peintre.", en: "The narrator describes the painting with a painter's precision." },
+          { es: "Le dénouement manque de vraisemblance.", en: "The ending lacks plausibility." },
+          { es: "Le film sur le tournage d'un film est une mise en abyme.", en: "The film about the making of a film is a mise en abyme." },
         ],
         checkpoint: [
           {
@@ -1523,7 +1526,7 @@ export const FR_C2_U31: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« Une cigarette nerveuse » is an example of...",
+            question: "\"Une cigarette nerveuse\" is an example of...",
             options: ["l'hypallage", "l'ekphrasis", "le leitmotiv", "le pastiche"],
             correctIndex: 0,
             explanation: "The adjective \"nerveuse\" is transferred from the smoker to the cigarette: hypallage.",
@@ -1542,8 +1545,8 @@ export const FR_C2_U31: Lesson[] = [
           { es: "Ce roman n'est qu'un plagiat maladroit.", en: "This novel is nothing but clumsy plagiarism." },
           { es: "Ses épigones n'ont retenu que les tics de son style.", en: "His imitators kept only the tics of his style." },
           { es: "Elle s'inscrit dans le sillage de Marguerite Duras.", en: "She follows in Marguerite Duras's wake." },
-          { es: "Le coup de la lettre retrouvée est un procédé éculé.", en: "The rediscovered letter is a hackneyed device." },
-          { es: "Le dénouement, très convenu, déçoit.", en: "The ending, very predictable, is disappointing." },
+          { es: "Le coup de la lettre retrouvée est un procédé éculé.", en: "The old trick of the rediscovered letter is a hackneyed device." },
+          { es: "Le dénouement, très convenu, déçoit.", en: "The very predictable ending is disappointing." },
         ],
         checkpoint: [
           {
@@ -1650,6 +1653,7 @@ export const FR_C2_U31: Lesson[] = [
           { left: "le plagiat", right: "passing off another's text" },
           { left: "l'hypallage", right: "a transferred epithet" },
           { left: "éculé", right: "hackneyed" },
+          { left: "la mise en abyme", right: "a work within the work" },
         ],
         explanation: "These distinctions matter: a pastiche is a genre, plagiarism a fault.",
       },
@@ -1661,6 +1665,15 @@ export const FR_C2_U31: Lesson[] = [
         answer: "Elle s'inscrit dans le sillage du Nouveau Roman.",
         altAnswers: ["Elle s'inscrit dans la lignée du Nouveau Roman.", "Elle se situe dans le sillage du Nouveau Roman."],
         explanation: "\"S'inscrire dans le sillage de\": a neutral way to mark influence.",
+      },
+      {
+        type: "translate",
+        direction: "en-es",
+        prompt: "Translate into French.",
+        source: "The ending lacks plausibility.",
+        answer: "Le dénouement manque de vraisemblance.",
+        altAnswers: ["La fin manque de vraisemblance.", "Le dénouement est invraisemblable.", "La fin est invraisemblable."],
+        explanation: "\"Manquer de\" + noun with no article; \"la vraisemblance\" is plausibility within the work.",
       },
       {
         type: "multiple-choice",

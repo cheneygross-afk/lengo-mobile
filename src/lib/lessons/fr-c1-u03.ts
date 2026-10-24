@@ -129,11 +129,11 @@ export const FR_C1_U03: Lesson[] = [
           },
           {
             type: "listen-choose",
-            audio: "Le stationnement est interdit sur tout le parking.",
+            audio: "Le stationnement est interdit devant l'entrée du garage.",
             question: "What does it mean?",
-            options: ["Parking is prohibited throughout the car park.", "The parking area is closed.", "The station is closed for parking.", "Parking is free throughout the car park."],
+            options: ["Parking is prohibited in front of the garage entrance.", "The garage entrance is closed.", "The station entrance is closed to cars.", "Parking is free in front of the garage entrance."],
             correctIndex: 0,
-            explanation: "\"Le stationnement\" (from stationner) = parking; \"le parking\" = car park.",
+            explanation: "\"Le stationnement\" (from stationner) = parking, the act of parking; \"un parking\" is a car park.",
           },
         ],
       },
@@ -252,7 +252,7 @@ export const FR_C1_U03: Lesson[] = [
         heading: "-ée, -ance / -ence, -ure, -ade: feminine",
         body: [
           "Four more suffixes, all producing feminine nouns. -ée names an action or a period: \"arriver → l'arrivée\", \"entrer → l'entrée\", \"rentrer → la rentrée\", \"durer → la durée\", \"monter → la montée\", \"penser → la pensée\". (\"Le musée\" and \"le lycée\" are masculine, but they don't come from verbs.)",
-          "-ance / -ence often names a state or a process: \"naître → la naissance\", \"croître → la croissance\", \"souffrir → la souffrance\", \"résister → la résistance\", \"dépendre → la dépendance\", \"préférer → la préférence\", \"exiger → l'exigence\". The spelling (a or e) usually follows the present participle: \"résistant → résistance\", \"exigeant → exigence\" is an exception; check in a dictionary when unsure.",
+          "-ance / -ence often names a state or a process: \"naître → la naissance\", \"croître → la croissance\", \"souffrir → la souffrance\", \"résister → la résistance\", \"dépendre → la dépendance\", \"préférer → la préférence\", \"exiger → l'exigence\". The spelling (a or e) often matches the present participle (\"résistant → la résistance\", \"dépendant → la dépendance\"), but not always (\"exigeant → l'exigence\", \"préférant → la préférence\"); check in a dictionary when unsure.",
           "-ure names an action or its result: \"ouvrir → l'ouverture\", \"fermer → la fermeture\", \"signer → la signature\", \"couper → la coupure\", \"lire → la lecture\", \"écrire → l'écriture\", \"brûler → la brûlure\". -ade, rarer, often names a single action: \"promener → la promenade\", \"baigner → la baignade\", \"glisser → la glissade\", \"embrasser → l'embrassade\".",
         ],
         examples: [
@@ -548,7 +548,7 @@ export const FR_C1_U03: Lesson[] = [
         heading: "-isme and other masculine nouns",
         body: [
           "-isme (English -ism) is masculine and names attitudes, doctrines and movements: \"optimiste → l'optimisme\", \"réaliste → le réalisme\", \"égoïste → l'égoïsme\", \"individualiste → l'individualisme\", \"touristique → le tourisme\", \"populiste → le populisme\". The corresponding adjectives / people often end in -iste.",
-          "A few other adjective-nouns are masculine: the neuter \"le + adjective\" (\"le vrai\", \"le beau\", studied later in this unit), and nouns in -ment from adjectives such as \"l'isolement\" (from isolé). But the overwhelming tendency of adjective-derived nouns is feminine: if in doubt between -ité, -eur, -esse, -ise or -ude, the article is \"la\".",
+          "A few other adjective-nouns are masculine: the neuter \"le + adjective\" (\"le vrai\", \"le beau\", studied later in this unit), and \"l'isolement\" (isolation), which goes with the adjective \"isolé\" but is formed on the verb \"isoler\". But the overwhelming tendency of adjective-derived nouns is feminine: if in doubt between -ité, -eur, -esse, -ise or -ude, the article is \"la\".",
           "Watch for meaning shifts: \"la grandeur\" (greatness, grandeur) vs \"la taille\" (size, height); \"la propreté\" (cleanliness) vs \"le propre\" (the distinctive feature: \"le propre de l'homme\"); \"la sûreté\" (safety, security in law) vs \"la sécurité\" (safety, security in daily life).",
         ],
         examples: [
@@ -1372,7 +1372,7 @@ export const FR_C1_U03: Lesson[] = [
         heading: "Reading a headline back into a sentence",
         body: [
           "To understand a nominal headline, rebuild the sentence: identify the noun's verb, then its subject (the \"de\" complement) and the missing tense from context. \"Report du vote sur le budget\" → \"Le vote sur le budget a été reporté\". \"Envolée des prix de l'énergie\" → \"Les prix de l'énergie s'envolent\". \"Nomination d'une femme à la tête de la BnF\" → \"Une femme a été nommée à la tête de la BnF\".",
-          "Watch for the passive: many nominal headlines hide an agent. \"Arrestation de deux suspects\" = two suspects have been arrested (by the police). \"Fermeture de l'usine Renault\" may mean the plant will close, is closing or has closed; the article tells you which.",
+          "Watch for the passive: many nominal headlines hide an agent. \"Arrestation de deux suspects\" = two suspects have been arrested (by the police). \"Fermeture de l'usine Renault\" may mean the plant will close, is closing or has closed; only the text of the news story tells you which.",
           "Being able to switch between nominal and verbal style is a DALF skill: summaries (\"synthèse\") reward compact nominal phrasing, but oral presentations sound more natural with verbs.",
         ],
         examples: [
@@ -2345,7 +2345,7 @@ export const FR_C1_U03: Lesson[] = [
         prompt: "Translate into French (rewrite in nominal (headline) style): \"Nous reportons la réunion à lundi.\"",
         source: "Meeting postponed to Monday",
         answer: "Report de la réunion à lundi",
-        altAnswers: ["Report de la réunion au lundi", "Réunion reportée à lundi"],
+        altAnswers: ["Réunion reportée à lundi"],
         explanation: "And the other way: verb → noun for a notice or headline.",
       },
       {
@@ -2469,7 +2469,7 @@ export const FR_C1_U03: Lesson[] = [
             prompt: "Write a French headline (no verb) for: The town hall is making the old town pedestrian.",
             source: "Old town to go pedestrian",
             answer: "Piétonnisation de la vieille ville",
-            altAnswers: ["Piétonnisation du centre historique", "Vieille ville : piétonnisation en vue", "Piétonnisation de la vieille ville : c'est parti"],
+            altAnswers: ["Piétonnisation du centre historique", "Vieille ville : piétonnisation en vue"],
             explanation: "\"Rendre piéton\" → \"la piétonnisation\".",
           },
           {
@@ -2629,7 +2629,7 @@ export const FR_C1_U03: Lesson[] = [
             prompt: "Translate into French (rewrite with bien que + subjunctive): \"Malgré sa fatigue, elle a continué.\"",
             source: "Although she was tired, she carried on.",
             answer: "Bien qu'elle soit fatiguée, elle a continué.",
-            altAnswers: ["Bien qu'elle ait été fatiguée, elle a continué.", "Quoiqu'elle soit fatiguée, elle a continué.", "Bien que fatiguée, elle a continué."],
+            altAnswers: ["Bien qu'elle ait été fatiguée, elle a continué.", "Quoiqu'elle soit fatiguée, elle a continué."],
             explanation: "\"Malgré sa fatigue\" → \"bien qu'elle soit fatiguée\".",
           },
         ],
@@ -2664,7 +2664,7 @@ export const FR_C1_U03: Lesson[] = [
             prompt: "Translate into French (rewrite with sans + noun): \"Le projet a été lancé sans que les habitants aient été consultés.\"",
             source: "The project was launched without consulting residents.",
             answer: "Le projet a été lancé sans consultation des habitants.",
-            altAnswers: ["Le projet a été lancé sans consultation préalable des habitants.", "Le projet a été lancé sans concertation avec les habitants.", "Le projet a été lancé sans consulter les habitants."],
+            altAnswers: ["Le projet a été lancé sans consultation préalable des habitants.", "Le projet a été lancé sans concertation avec les habitants."],
             explanation: "\"Sans que + subjunctive\" → \"sans\" + noun (\"consultation\").",
           },
         ],
@@ -2732,7 +2732,7 @@ export const FR_C1_U03: Lesson[] = [
         prompt: "Translate into French (rewrite with pour + noun): \"Tout le monde a travaillé pour que la soirée réussisse.\"",
         source: "Everyone worked for the success of the evening.",
         answer: "Tout le monde a travaillé pour la réussite de la soirée.",
-        altAnswers: ["Tout le monde a travaillé au succès de la soirée.", "Tout le monde a travaillé pour le succès de la soirée."],
+        altAnswers: ["Tout le monde a travaillé pour le succès de la soirée."],
         explanation: "\"Pour que la soirée réussisse\" → \"pour la réussite de la soirée\".",
       },
       {
@@ -2749,7 +2749,7 @@ export const FR_C1_U03: Lesson[] = [
         prompt: "Translate into French (rewrite with bien que + subjunctive): \"Malgré son jeune âge, il dirige l'équipe.\"",
         source: "Although he's young, he runs the team.",
         answer: "Bien qu'il soit jeune, il dirige l'équipe.",
-        altAnswers: ["Quoiqu'il soit jeune, il dirige l'équipe.", "Bien que jeune, il dirige l'équipe.", "Bien qu'il soit très jeune, il dirige l'équipe."],
+        altAnswers: ["Quoiqu'il soit jeune, il dirige l'équipe.", "Bien qu'il soit très jeune, il dirige l'équipe."],
         explanation: "\"Malgré son jeune âge\" → \"bien qu'il soit jeune\".",
       },
       {
@@ -2758,8 +2758,8 @@ export const FR_C1_U03: Lesson[] = [
         prompt: "Translate into French (rewrite with sans + noun): \"Il a signé sans qu'on l'ait prévenu.\"",
         source: "He signed without prior warning.",
         answer: "Il a signé sans avertissement préalable.",
-        altAnswers: ["Il a signé sans être prévenu.", "Il a signé sans avoir été prévenu.", "Il a signé sans préavis."],
-        explanation: "\"Sans qu'on l'ait prévenu\" → \"sans avertissement préalable\" or a passive infinitive.",
+        altAnswers: ["Il a signé sans préavis.", "Il a signé sans avertissement."],
+        explanation: "\"Sans qu'on l'ait prévenu\" → \"sans avertissement préalable\". A passive infinitive (\"sans avoir été prévenu\") is the other way to drop the subjunctive, but here the task is a noun.",
       },
       {
         type: "multiple-choice",

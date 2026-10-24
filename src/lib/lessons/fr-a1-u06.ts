@@ -237,7 +237,7 @@ export const FR_A1_U06: Lesson[] = [
         body: [
           "For plural owners there are only two forms each, with no masculine/feminine: one thing → \"notre\" (our), \"votre\" (your), \"leur\" (their); several things → \"nos\", \"vos\", \"leurs\".",
           "\"Votre\" / \"vos\" is also the polite 'your' for one person you call \"vous\": \"Votre passeport, s'il vous plaît.\"",
-          "Trap: \"leur\" stays singular when the thing is singular, even with many owners. Their house (one house they share) is \"leur maison\"; their children is \"leurs enfants\". \"*Leurs maison\" and \"*leur enfants\" are both wrong. Listen for the liaison in the plural: \"nos‿amis\", \"leurs‿enfants\" (z sound).",
+          "Trap: \"leur\" stays singular when the thing is singular, even with many owners. Their house (one house they share) is \"leur maison\"; their children is \"leurs enfants\". \"*Leurs maison\" and \"*leur enfants\" are both wrong. Listen for the liaison in the plural: \"nos_amis\", \"leurs_enfants\" (z sound).",
         ],
         examples: [
           { es: "Notre appartement est petit.", en: "Our flat is small." },
@@ -420,7 +420,7 @@ export const FR_A1_U06: Lesson[] = [
         question: "What did you hear?",
         options: ["Nos amis arrivent ce soir.", "Notre ami arrive ce soir.", "Vos amis arrivent ce soir.", "Nos amis arrivent ce matin."],
         correctIndex: 0,
-        explanation: "The z liaison in \"nos‿amis\" tells you it's plural; \"notre ami\" has no z.",
+        explanation: "The z liaison in \"nos_amis\" tells you it's plural; \"notre ami\" has no z.",
       },
       {
         type: "dictation",
@@ -511,7 +511,7 @@ export const FR_A1_U06: Lesson[] = [
             type: "listen-choose",
             audio: "Leur fille a dix ans.",
             question: "What does it mean?",
-            options: ["Their daughter is ten.", "Their son is ten.", "Their girl has ten years.", "They have a ten-year-old."],
+            options: ["Their daughter is ten.", "Their son is ten.", "Their girl has ten years.", "Their daughter is twelve."],
             correctIndex: 0,
             explanation: "With a possessive, \"fille\" means daughter; age uses avoir.",
           },
@@ -720,7 +720,7 @@ export const FR_A1_U06: Lesson[] = [
             question: "What did you hear?",
             options: ["Mes amis sont sympas.", "Mon ami est sympa.", "Mon amie est sympa.", "Nos amis sont sympas."],
             correctIndex: 0,
-            explanation: "The z liaison in \"mes‿amis\" and the verb \"sont\" tell you it's plural.",
+            explanation: "The z liaison in \"mes_amis\" and the verb \"sont\" tell you it's plural.",
           },
         ],
       },
@@ -1552,7 +1552,7 @@ export const FR_A1_U06: Lesson[] = [
         heading: "At the market stall",
         body: [
           "To ask a price: \"C'est combien ?\" or \"Ça coûte combien ?\" (How much is it?). The seller adds up with \"Ça fait...\": \"Ça fait douze euros.\" (That comes to twelve euros.)",
-          "Prices use a decimal comma and the euro sign after the number: 3,50 € is said \"trois euros cinquante\", with \"euros\" in the middle and no word for the cents. 0,80 € is \"quatre-vingts centimes\". Liaison: \"deux‿euros\" (z), \"trois‿euros\" (z). \"Neuf euros\" keeps its f ('nuh-feuro'): the f only turns into v before \"ans\" and \"heures\".",
+          "Prices use a decimal comma and the euro sign after the number: 3,50 € is said \"trois euros cinquante\", with \"euros\" in the middle and no word for the cents. 0,80 € is \"quatre-vingts centimes\". Liaison: \"deux_euros\" (z), \"trois_euros\" (z). \"Neuf euros\" keeps its f ('nuh-feuro'): the f only turns into v before \"ans\" and \"heures\".",
           "Paying: \"Je peux payer par carte ?\" \"Voilà, vingt euros.\" The seller gives your change: \"Et voilà votre monnaie.\"",
         ],
         examples: [
@@ -1703,7 +1703,7 @@ export const FR_A1_U06: Lesson[] = [
         body: [
           "To ask the time: \"Quelle heure est-il ?\" (formal or neutral) or \"Il est quelle heure ?\" (everyday). To answer: \"Il est\" + number + \"heure(s)\": \"Il est une heure.\", \"Il est deux heures.\", \"Il est dix heures.\".",
           "Two traps for English speakers. First, \"heure(s)\" is never dropped: 'It's two' is \"Il est deux heures\", never \"*il est deux\". Second, the time always takes \"il est\", never \"c'est\".",
-          "\"Heure\" is feminine, so 1 o'clock is \"une heure\". Liaisons glue the number to \"heures\": \"deux‿heures\" ('deu-zeur'), \"trois‿heures\", \"six‿heures\" (z), \"neuf heures\" ('nuh-veur'), \"huit‿heures\" (t).",
+          "\"Heure\" is feminine, so 1 o'clock is \"une heure\". Liaisons glue the number to \"heures\": \"deux_heures\" ('deu-zeur'), \"trois_heures\", \"six_heures\" (z), \"neuf heures\" ('nuh-veur'), \"huit_heures\" (t).",
         ],
         examples: [
           { es: "Quelle heure est-il ?", en: "What time is it?" },
@@ -2292,7 +2292,7 @@ export const FR_A1_U06: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "[You drink] water or wine? (polite)",
+        en: "[Are you drinking] water or wine? (polite)",
         sentence: "___ de l'eau ou du vin ?",
         answer: "Vous buvez",
         explanation: "\"Boire\": \"vous buvez\".",

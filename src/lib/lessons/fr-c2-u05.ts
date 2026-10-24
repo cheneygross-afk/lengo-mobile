@@ -666,7 +666,7 @@ export const FR_C2_U05: Lesson[] = [
         type: "speak",
         text: "Qui vivra verra.",
         prompt: "Say it in French: Time will tell.",
-        tip: "Three short beats and a firm fall: qui vi-vra ve-rra.",
+        tip: "Two halves, qui vi-vra / ve-rra, with a firm fall on the last syllable.",
         explanation: "\"Qui vivra verra\": two futures and an alliteration in v, which is what makes it stick.",
       },
     ],
@@ -1169,7 +1169,7 @@ export const FR_C2_U05: Lesson[] = [
             source: "One should eat to live, not live to eat.",
             answer: "Il faut manger pour vivre et non pas vivre pour manger.",
             altAnswers: ["Il faut manger pour vivre et non vivre pour manger."],
-            explanation: "Valère's line in L'Avare (Harpagon wants it engraved over his dining-room door), a chiasmus (manger / vivre, vivre / manger); \"non pas\" is the emphatic negation of a phrase.",
+            explanation: "Valère's line in L'Avare (Harpagon wants it engraved in gold letters over the fireplace in his hall), a chiasmus (manger / vivre, vivre / manger); \"non pas\" is the emphatic negation of a phrase.",
           },
           {
             type: "listen-choose",

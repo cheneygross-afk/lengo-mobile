@@ -63,7 +63,7 @@ export const FR_C1_U18: Lesson[] = [
           { es: "La question de la place du numérique à l'école divise aujourd'hui enseignants et parents.", en: "The question of the place of digital technology at school now divides teachers and parents." },
           { es: "Par « numérique », on entend ici l'ensemble des outils connectés utilisés en classe.", en: "By 'digital technology' we mean here all the connected tools used in class." },
           { es: "Le télétravail, longtemps marginal, s'est imposé en quelques mois comme une norme.", en: "Remote work, long marginal, became the norm within a few months." },
-          { es: "« L'école doit apprendre à penser », écrivait le philosophe Alain.", en: "School must teach people to think, wrote the philosopher Alain." },
+          { es: "« Plutôt la tête bien faite que bien pleine » : la formule de Montaigne n'a rien perdu de son actualité.", en: "Rather a well-made mind than a well-filled one: Montaigne's phrase is as relevant as ever." },
         ],
         checkpoint: [
           {
@@ -1034,7 +1034,7 @@ export const FR_C1_U18: Lesson[] = [
         heading: "Thèse and hypothèse",
         body: [
           "A French argument has distinct building blocks, each with its own vocabulary. \"La thèse\" is the position defended, the claim the whole text supports: \"La thèse de l'auteur est que la gratuité des transports favorise la mixité sociale.\" Verbs: \"soutenir que\", \"défendre l'idée que\", \"affirmer que\", \"plaider pour\" (+ noun).",
-          "False friend alert: \"une thèse\" is also a PhD thesis, but in an essay context it means the claim. The opposite position is \"la thèse adverse\" or \"l'antithèse\", which you \"réfutez\" (refute) or \"nuancez\" (qualify).",
+          "False friend alert: \"une thèse\" is also a PhD thesis, but in an essay context it means the claim. The opposite position is \"la thèse adverse\" or \"l'antithèse\", which you refute (\"réfuter\") or qualify (\"nuancer\").",
           "\"L'hypothèse\" is a supposition not yet proven, which the text tests or explores: \"Les chercheurs avancent l'hypothèse selon laquelle les écrans nuiraient au sommeil.\" Verbs: \"supposer que\", \"avancer / émettre / formuler l'hypothèse que (or selon laquelle)\". Notice the conditional \"nuiraient\": in French an unverified claim is put in the conditional, as in journalism (Unit 12).",
         ],
         examples: [
@@ -2168,7 +2168,7 @@ export const FR_C1_U18: Lesson[] = [
         heading: "French typography",
         body: [
           "French typography differs from English in ways examiners notice. Before the two-part punctuation marks \":\", \";\", \"!\", \"?\" there is a space (a narrow non-breaking one in print; on a handwritten exam, simply leave a gap): \"Pourquoi ? Parce que...\". No space before the comma or full stop. Quotation marks are guillemets « » with a space inside: « comme ceci ». Nested quotations use English-style quotation marks inside guillemets.",
-          "Other conventions: no capital letter on months, days, nationalities used as adjectives, or languages (\"le français\", \"en mars\", \"un auteur américain\"), but a capital for the noun of nationality (\"les Américains\"). Titles of works in italics (underlined by hand), with a capital on the first word and proper nouns in most styles: \"La Peste\", \"Les Misérables\" (symmetrical titles such as \"Le Rouge et le Noir\" also capitalise the second noun). Numbers: a space every three digits and a decimal comma: 1 200 000 ; 3,5 %.",
+          "Other conventions: no capital letter on months, days, nationalities used as adjectives, or languages (\"le français\", \"en mars\", \"un auteur américain\"), but a capital for the noun of nationality (\"les Américains\"). Titles of works in italics (underlined by hand), with a capital on the first word, on proper nouns and, when the title starts with a definite article, on the first noun too: \"La Peste\", \"Les Misérables\" (symmetrical titles such as \"Le Rouge et le Noir\" also capitalise the second noun). Numbers: a space every three digits and a decimal comma: 1 200 000 ; 3,5 %.",
           "Ordinal abbreviations: \"1er\", \"2e\" (not 2ème in careful style), \"XXe siècle\" for the twentieth century, written in small capital Roman numerals.",
         ],
         examples: [

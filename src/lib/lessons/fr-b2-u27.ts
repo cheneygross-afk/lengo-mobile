@@ -178,7 +178,7 @@ export const FR_B2_U27: Lesson[] = [
         prompt: "Translate into French.",
         source: "Is there anyone here who knows the answer?",
         answer: "Y a-t-il quelqu'un ici qui sache la réponse ?",
-        altAnswers: ["Est-ce qu'il y a quelqu'un ici qui sache la réponse ?", "Il y a quelqu'un ici qui sache la réponse ?", "Y a-t-il quelqu'un ici qui connaisse la réponse ?", "Est-ce qu'il y a quelqu'un ici qui connaisse la réponse ?", "Y a-t-il quelqu'un ici qui connaît la réponse ?", "Est-ce qu'il y a quelqu'un ici qui connaît la réponse ?"],
+        altAnswers: ["Est-ce qu'il y a quelqu'un ici qui sache la réponse ?", "Il y a quelqu'un ici qui sache la réponse ?", "Y a-t-il quelqu'un ici qui connaisse la réponse ?", "Est-ce qu'il y a quelqu'un ici qui connaisse la réponse ?", "Y a-t-il quelqu'un ici qui connaît la réponse ?", "Est-ce qu'il y a quelqu'un ici qui connaît la réponse ?", "Y a-t-il quelqu'un ici qui sait la réponse ?", "Est-ce qu'il y a quelqu'un ici qui sait la réponse ?"],
         explanation: "A question about existence → subjunctive is usual (\"sache\", \"connaisse\").",
       },
       {
@@ -595,7 +595,7 @@ export const FR_B2_U27: Lesson[] = [
         question: "Which sentence uses \"or\" correctly?",
         options: ["Il dit qu'il dormait. Or, on l'a vu au café.", "Tu veux du thé or du café ?", "Il dormait, or il était fatigué.", "Or il pleut, or il fait beau."],
         correctIndex: 0,
-        explanation: "\"Or\" introduces a new fact that challenges the argument; English or is \"ou\".",
+        explanation: "\"Or\" introduces a new fact that challenges the argument. The English word or is \"ou\".",
       },
       {
         type: "translate",
@@ -698,7 +698,7 @@ export const FR_B2_U27: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is the adjective in « des arguments ___ »?",
+            question: "Which is the adjective in \"des arguments ___\"?",
             options: ["convaincants", "convainquants", "convainquant", "en convainquant"],
             correctIndex: 0,
             explanation: "The adjectif verbal is spelt \"convaincant\" and agrees; the participle is \"convainquant\".",
@@ -1006,7 +1006,7 @@ export const FR_B2_U27: Lesson[] = [
         question: "Which exclamation is correct?",
         options: ["Qu'est-ce qu'il fait chaud !", "Comment il fait chaud !", "Quel il fait chaud !", "Combien il fait chaud !"],
         correctIndex: 0,
-        explanation: "\"Qu'est-ce que\" + clause; *comment is an anglicism.",
+        explanation: "\"Qu'est-ce que\" + clause (or \"comme\": \"Comme il fait chaud !\"); \"comment\" can't introduce an exclamation.",
       },
       {
         type: "word-order",
@@ -1260,7 +1260,7 @@ export const FR_B2_U27: Lesson[] = [
         heading: "Hearing the subjunctive and the conditional",
         body: [
           "In dictation, many Upper-intermediate forms sound alike, so grammar must guide your pen. \"Qu'il soit\" and \"qu'ils soient\" sound the same; so do \"je finirai\" (future) and \"je finirais\" (conditional) for many speakers. Decide from the context: after \"si\" + imparfait, the result is conditional (-ais); after \"quand\", future (-ai).",
-          "The past subjunctive \"qu'il ait\" sounds like \"qu'il est\" in fast speech only if you aren't listening for the trigger: after \"bien que\", \"je suis content que\", \"je ne pense pas que\", write \"ait\". After \"il me semble que\", \"je sais que\", write \"est\" or \"a\".",
+          "The past subjunctive \"qu'il ait\" sounds just like \"qu'il est\", so listen for the trigger: after \"bien que\", \"je suis content que\", \"je ne pense pas que\", write \"ait\". After \"il me semble que\", \"je sais que\", write \"est\" or \"a\".",
           "Strategy: write the sentence, then reread it once for meaning (which tense?) and once for agreement (who is the subject?).",
         ],
         examples: [
@@ -1300,7 +1300,7 @@ export const FR_B2_U27: Lesson[] = [
         heading: "Hearing agreements and relatives",
         body: [
           "Agreements you can't hear: \"les lettres qu'il a écrites\" (preceding direct object), \"elles se sont parlé\" (no agreement: indirect), \"la voiture que j'ai fait réparer\" (no agreement before an infinitive). The ear won't help; the rule will.",
-          "Relatives that sound alike: \"dont\" and \"d'on\" never confuse a careful listener, but \"qu'il\" and \"qui\" do: \"l'homme qu'il a vu\" vs \"l'homme qui l'a vu\". Ask: is there a subject after the relative?",
+          "Relatives that sound alike: \"qu'il\" and \"qui\" are easy to confuse: \"l'homme qu'il a vu\" vs \"l'homme qui l'a vu\". Ask: is there a subject after the relative?",
           "Compound relatives are long but regular: \"auquel\", \"à laquelle\", \"auxquels\"; \"duquel\", \"de laquelle\", \"desquels\".",
         ],
         examples: [
@@ -1799,7 +1799,7 @@ export const FR_B2_U27: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What does « la rédaction » mean in a newspaper?",
+        question: "What does \"la rédaction\" mean in a newspaper?",
         options: ["the editorial team", "censorship", "the printing press", "the readers"],
         correctIndex: 0,
         explanation: "\"La rédaction\" = the editorial staff, the newsroom.",
@@ -1918,8 +1918,8 @@ export const FR_B2_U27: Lesson[] = [
             prompt: "One error: « J'espère que tu sois mieux. » Write the correct French.",
             source: "I hope you're better.",
             answer: "J'espère que tu vas mieux.",
-            altAnswers: ["J'espère que vous allez mieux.", "J'espère que tu te sens mieux.", "J'espère que vous vous sentez mieux."],
-            explanation: "\"Espérer que\" + indicative; feeling better is \"aller mieux\".",
+            altAnswers: ["J'espère que vous allez mieux.", "J'espère que tu te sens mieux.", "J'espère que vous vous sentez mieux.", "J'espère que tu es mieux.", "J'espère que vous êtes mieux."],
+            explanation: "The error is the mood: \"espérer que\" + indicative, so \"tu es mieux\" fixes it. \"Aller mieux\" is the most idiomatic way to say feeling better.",
           },
         ],
       },
@@ -2322,6 +2322,7 @@ export const FR_B2_U27: Lesson[] = [
         prompt: "Translate into French (to Julie).",
         source: "If I'd known you were in Lyon, I'd have called you.",
         answer: "Si j'avais su que tu étais à Lyon, je t'aurais appelée.",
+        altAnswers: ["Si j'avais su que tu étais à Lyon, je t'aurais téléphoné.", "Si j'avais su que tu habitais à Lyon, je t'aurais appelée."],
         explanation: "Unreal past; \"appelée\" agrees with \"t'\" (Julie).",
       },
       {

@@ -483,7 +483,7 @@ export const FR_C1_U09: Lesson[] = [
       {
         heading: "Penser à / penser de; croire, croire à, croire en",
         body: [
-          "\"Penser à\" is to have something in mind (to think about it, to remember to do it): \"pense à acheter du pain\". \"Penser de\" asks for an opinion and lives almost only in questions: \"Qu'est-ce que tu penses de mon projet ?\", \"Qu'en penses-tu ?\" (en = de + it). For a statement of opinion, French uses \"penser que\" or \"trouver\": \"je trouve ton projet ambitieux\", not \"*je pense de ton projet qu'il...\" (possible but heavy).",
+          "\"Penser à\" is to have something in mind (to think about it, to remember to do it): \"pense à acheter du pain\". \"Penser de\" asks for an opinion and lives almost only in questions: \"Qu'est-ce que tu penses de mon projet ?\", \"Qu'en penses-tu ?\" (en = de + it). For a statement of opinion, French uses \"penser que\" or \"trouver\": \"je trouve ton projet ambitieux\", rather than the heavy \"je pense de ton projet qu'il...\".",
           "\"Croire\" has three constructions. \"Croire quelqu'un / quelque chose\": to believe a person or a statement (\"je te crois\", \"je ne crois pas cette histoire\"). \"Croire à\": to believe in the existence, truth or value of something (\"croire au Père Noël\", \"croire aux fantômes\", \"croire à un projet\"). \"Croire en\": to have faith or trust in someone (\"croire en Dieu\", \"je crois en toi\", \"croire en soi\").",
           "The difference between \"croire à\" and \"croire en\" is subtle and natives overlap them, but the core is: à = I believe it exists or will work; en = I trust that person. \"Je crois en toi\" is what a coach says; \"je crois à ton projet\" is what an investor says.",
         ],
@@ -791,7 +791,7 @@ export const FR_C1_U09: Lesson[] = [
             en: "It's the only tool [I use].",
             sentence: "C'est le seul outil ___.",
             answer: "dont je me sers",
-            explanation: "\"Se servir de\" → \"dont\". (After le seul, a subjunctive is possible too, but \"se servir\" looks the same: \"dont je me serve\" is the formal variant.)",
+            explanation: "\"Se servir de\" → \"dont\". After \"le seul\", the subjunctive \"dont je me serve\" is also possible in formal French.",
             altAnswers: ["dont je me serve"],
           },
         ],

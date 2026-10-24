@@ -1434,7 +1434,7 @@ export const FR_A2_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say: We arrived at the hotel and had a shower?",
         options: [
           "On a arrivé à l'hôtel et on est pris une douche.",
           "On est arrivés à l'hôtel et on a pris une douche.",
@@ -1667,7 +1667,7 @@ export const FR_A2_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say: They (women) got off the train?",
         options: ["Elles ont descendu du train.", "Elles sont descendues du train.", "Elles sont descendus du train.", "Elles sont descendu du train."],
         correctIndex: 1,
         explanation: "No direct object → \"être\"; feminine plural \"descendues\".",

@@ -342,7 +342,7 @@ export const FR_C1_U08_EXTRA: Lesson[] = [
           { es: "Ça fait une semaine qu'il pleut.", en: "It's been raining for a week." },
           { es: "Une conférence de presse a eu lieu ce matin.", en: "A press conference took place this morning." },
           { es: "Le suspect, âgé de 32 ans, a été interpellé.", en: "The suspect, aged 32, was arrested." },
-          { es: "Tu fais fatigué, ça va ?", en: "You look tired, are you OK?" },
+          { es: "Tu fais très jeune avec cette coupe.", en: "You look very young with that haircut." },
         ],
         checkpoint: [
           {
@@ -363,9 +363,9 @@ export const FR_C1_U08_EXTRA: Lesson[] = [
           },
           {
             type: "listen-choose",
-            audio: "Tu fais fatigué, ça va ?",
+            audio: "Tu fais très jeune avec cette coupe.",
             question: "What is the speaker saying?",
-            options: ["You look tired, are you OK?", "You're making me tired.", "You're doing tiring things.", "You tired yourself out."],
+            options: ["You look very young with that haircut.", "You're making that haircut look young.", "You had that haircut when you were young.", "You're too young for that haircut."],
             correctIndex: 0,
             explanation: "Spoken \"faire\" + adjective = to look.",
           },
@@ -913,7 +913,7 @@ export const FR_C1_U08_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "Don't [make me] repeat it.",
+        en: "Don't [make me] repeat [it].",
         sentence: "Ne ___ pas répéter.",
         answer: "me le fais",
         altAnswers: ["me le faites", "me fais", "me faites"],

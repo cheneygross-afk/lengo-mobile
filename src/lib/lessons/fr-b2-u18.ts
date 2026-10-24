@@ -1270,7 +1270,7 @@ export const FR_B2_U18: Lesson[] = [
       {
         heading: "Paragraph 1: wrong logic",
         body: [
-          "Théo wrote an essay on \"le surtourisme\" (overtourism) in Annecy. His first paragraph: *\"Le tourisme apporte beaucoup d'argent. Donc, les habitants se plaignent. En effet, les loyers ont baissé.\" Three connectors, three logical errors.",
+          "Théo wrote an essay on \"le surtourisme\" (overtourism) in Annecy. His first paragraph: *\"Le tourisme apporte beaucoup d'argent. Donc, les habitants se plaignent. En effet, les loyers ont baissé.\" Two connectors, two logical problems.",
           "First, the complaints don't follow from the money: the relation is concession, so \"pourtant\" or \"cependant\". Second, \"en effet\" must confirm the previous point: if residents complain, rents have risen, not fallen; the fact was wrong, not just the connector. Corrected: \"Le tourisme apporte beaucoup d'argent. Pourtant, les habitants se plaignent. En effet, les loyers ont fortement augmenté.\"",
           "Lesson: a connector announces a relation; the content must deliver it. When you reread, cover the connector and ask which relation the two sentences really have.",
         ],

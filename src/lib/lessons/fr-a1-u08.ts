@@ -216,7 +216,7 @@ export const FR_A1_U08: Lesson[] = [
         heading: "J'aime nager: verb + infinitive",
         body: [
           "To say you like doing something, put the infinitive straight after the liking verb: \"j'aime nager\" (I like swimming), \"elle adore danser\", \"je déteste attendre\", \"je préfère rester à la maison\".",
-          "English uses -ing or 'to' here (I like swimming, I like to swim); French always uses the plain infinitive, with nothing in between. No \"de\", no \"à\": \"j'aime à nager\" and \"j'aime nager de\" are both wrong.",
+          "English uses -ing or 'to' here (I like swimming, I like to swim); French always uses the plain infinitive, with nothing in between. No \"de\", no \"à\": \"j'aime de nager\" is wrong, and \"j'aime à nager\" is old-fashioned literary French you won't need.",
         ],
         examples: [
           { es: "J'aime nager le dimanche.", en: "I like swimming on Sundays." },
@@ -1672,7 +1672,7 @@ export const FR_A1_U08: Lesson[] = [
             type: "listen-choose",
             audio: "Je ne vais pas sortir.",
             question: "What does it mean?",
-            options: ["I'm not going to go out.", "I've just gone out.", "I'm not going out now.", "I never go out."],
+            options: ["I'm not going to go out.", "I've just gone out.", "I'm going to go out.", "I never go out."],
             correctIndex: 0,
             explanation: "\"Ne vais pas\" + infinitive = not going to.",
           },
@@ -2019,7 +2019,7 @@ export const FR_A1_U08: Lesson[] = [
         heading: "Écrire: j'écris, nous écrivons",
         body: [
           "\"Écrire\" (to write) goes: \"j'écris\" (élision), \"tu écris\", \"il écrit\", \"nous écrivons\", \"vous écrivez\", \"ils écrivent\". The v appears only in the plural: that's the trap. \"Ils écrisent\" is a common mistake.",
-          "\"Décrire\" (to describe) works the same way: \"je décris\", \"nous décrivons\". In the singular, liaison gives \"il_écrit\" (i-lé-cri).",
+          "\"Décrire\" (to describe) works the same way: \"je décris\", \"nous décrivons\". In \"il écrit\", the l of \"il\" runs straight into the verb: 'i-lé-cri'.",
         ],
         examples: [
           { es: "J'écris un message à ma sœur.", en: "I'm writing a message to my sister." },
@@ -2042,9 +2042,9 @@ export const FR_A1_U08: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which sentence is correct?",
-            options: ["Nous écrivons un mail.", "Nous écrisons un mail.", "Nous écrirons un mail.", "Nous écrions un mail."],
+            options: ["Nous écrivons un mail.", "Nous écrisons un mail.", "Nous écrivez un mail.", "Nous écrions un mail."],
             correctIndex: 0,
-            explanation: "\"Nous écrivons\" with v. (\"Écrirons\" is a future form you'll learn later.)",
+            explanation: "\"Nous écrivons\" with v. \"Écrivez\" is the vous form.",
           },
         ],
       },
@@ -2207,7 +2207,7 @@ export const FR_A1_U08: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which sentence is correct?",
-            options: ["Tu sors ce soir ?", "Tu sorts ce soir ?", "Tu sortes ce soir ?", "Tu sortis ce soir ?"],
+            options: ["Tu sors ce soir ?", "Tu sorts ce soir ?", "Tu sortes ce soir ?", "Tu sortez ce soir ?"],
             correctIndex: 0,
             explanation: "Singular forms drop the t of the stem: \"tu sors\".",
           },
@@ -2859,7 +2859,7 @@ export const FR_A1_U08: Lesson[] = [
       {
         heading: "Who does what",
         body: [
-          "Now the plan, mixing likes, partir and the futur proche. Madame Martin loves the sea: \"Dimanche, elle va partir à la plage à dix heures.\" Monsieur Martin hates the rain: \"Samedi matin, il va rester à la maison et lire le journal.\" The children love going out: \"Samedi après-midi, ils vont sortir au parc.\"",
+          "Now the plan, mixing likes, partir and the futur proche. Madame Martin loves the sea: \"Dimanche, elle va partir à la plage à dix heures.\" Monsieur Martin hates the rain: \"Samedi matin, il va rester à la maison et lire le journal.\" The children love the park: \"Samedi après-midi, ils vont jouer au parc.\"",
           "Notice: two infinitives can share one \"aller\": \"il va rester à la maison et lire\".",
         ],
         examples: [
@@ -2946,10 +2946,10 @@ export const FR_A1_U08: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "The children are going to go out to the park.",
-        answer: "Les enfants vont sortir au parc.",
-        altAnswers: ["Les enfants vont aller au parc."],
-        explanation: "\"Ils vont sortir\"; \"au parc\" = à + le.",
+        source: "The children are going to play in the park.",
+        answer: "Les enfants vont jouer au parc.",
+        altAnswers: ["Les enfants vont jouer dans le parc."],
+        explanation: "\"Ils vont jouer\"; \"au parc\" = à + le.",
       },
       {
         type: "translate",

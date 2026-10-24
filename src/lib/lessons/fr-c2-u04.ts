@@ -770,8 +770,8 @@ export const FR_C2_U04: Lesson[] = [
             prompt: "Translate into French with an idiom.",
             source: "He didn't beat about the bush.",
             answer: "Il n'y est pas allé par quatre chemins.",
-            altAnswers: ["Il n'y a pas été par quatre chemins.", "Il n'est pas allé par quatre chemins."],
-            explanation: "\"Y\" before the auxiliary; the version without \"y\" is common in speech.",
+            altAnswers: ["Il n'est pas allé par quatre chemins."],
+            explanation: "\"Y\" before the auxiliary; the version without \"y\" is common in speech. Avoid \"il n'y a pas été\": \"aller\" takes \"être\" here.",
           },
           {
             type: "fill-blank",
@@ -1038,8 +1038,8 @@ export const FR_C2_U04: Lesson[] = [
             prompt: "Translate into French with the real French idiom.",
             source: "Everyone has a skeleton in the closet.",
             answer: "Tout le monde a un cadavre dans le placard.",
-            altAnswers: ["Chacun a un cadavre dans le placard.", "Tout le monde a des cadavres dans le placard.", "Tout le monde a un squelette dans le placard."],
-            explanation: "French prefers \"un cadavre\"; \"un squelette dans le placard\" is a calque that is gaining ground.",
+            altAnswers: ["Chacun a un cadavre dans le placard.", "Tout le monde a des cadavres dans le placard."],
+            explanation: "French says \"un cadavre\"; \"un squelette dans le placard\" is a calque that is gaining ground but still sounds translated.",
           },
           {
             type: "multiple-choice",
@@ -1081,8 +1081,8 @@ export const FR_C2_U04: Lesson[] = [
         prompt: "Translate into French with the real French idiom.",
         source: "I killed two birds with one stone.",
         answer: "J'ai fait d'une pierre deux coups.",
-        altAnswers: ["J'ai fait d'une pierre deux coups en passant à la banque."],
-        explanation: "\"Faire d'une pierre deux coups\": one stone, two hits.",
+        altAnswers: ["J'ai fait coup double."],
+        explanation: "\"Faire d'une pierre deux coups\": one stone, two hits; \"faire coup double\" says the same.",
       },
       {
         type: "multiple-choice",

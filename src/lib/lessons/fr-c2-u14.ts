@@ -1983,7 +1983,7 @@ export const FR_C2_U14: Lesson[] = [
         source: "Their blind faith in progress worries me.",
         answer: "Leur foi aveugle dans le progrès m'inquiète.",
         altAnswers: ["Leur confiance aveugle dans le progrès m'inquiète.", "Leur foi aveugle dans le progrès me préoccupe."],
-        explanation: "\"Une foi aveugle dans\" (or \"en\" before a noun without article: \"foi en l'avenir\").",
+        explanation: "\"Une foi aveugle dans\" + article (\"dans le progrès\"); \"en\" is used before a noun without article or before \"l'\": \"foi en Dieu\", \"foi en l'avenir\".",
       },
       {
         type: "translate",

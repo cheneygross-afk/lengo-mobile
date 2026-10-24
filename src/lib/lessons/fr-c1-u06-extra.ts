@@ -103,7 +103,7 @@ export const FR_C1_U06_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French, in the passé simple.",
-        source: "She knew him in Algiers.",
+        source: "She got to know him in Algiers.",
         answer: "Elle le connut à Alger.",
         explanation: "\"Connaître\" → \"connut\": in the passé simple, often 'got to know'.",
       },
@@ -357,7 +357,7 @@ export const FR_C1_U06_EXTRA: Lesson[] = [
             prompt: "Translate into French (literary narration).",
             source: "No sooner had she hung up than the phone rang again.",
             answer: "À peine eut-elle raccroché que le téléphone sonna de nouveau.",
-            altAnswers: ["À peine eut-elle raccroché que le téléphone sonna à nouveau.", "À peine eut-elle raccroché que le téléphone resonna.", "Elle eut à peine raccroché que le téléphone sonna de nouveau."],
+            altAnswers: ["À peine eut-elle raccroché que le téléphone sonna à nouveau.", "Elle eut à peine raccroché que le téléphone sonna de nouveau."],
             explanation: "\"À peine\" + inversion + passé antérieur, \"que\" + passé simple.",
           },
           {
@@ -728,7 +728,6 @@ export const FR_C1_U06_EXTRA: Lesson[] = [
         prompt: "Translate into French (convert to indirect speech): \"« Est-ce que je peux entrer ? » demanda l'enfant.\"",
         source: "The child asked if he could come in.",
         answer: "L'enfant demanda s'il pouvait entrer.",
-        altAnswers: ["L'enfant demanda si elle pouvait entrer."],
         explanation: "\"Si\" + imparfait; \"si il\" → \"s'il\".",
       },
       {

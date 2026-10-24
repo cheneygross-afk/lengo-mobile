@@ -1214,7 +1214,7 @@ export const FR_A2_U17: Lesson[] = [
           "Quand j'ai demandé l'addition, le serveur était au téléphone.",
           "Quand je demandais l'addition, le serveur a été au téléphone.",
           "Quand j'ai demandé l'addition, le serveur a été au téléphone.",
-          "Quand je demandais l'addition, le serveur était au téléphone.",
+          "Quand j'ai demandé l'addition, le serveur est au téléphone.",
         ],
         correctIndex: 0,
         explanation: "The request is a single event (passé composé); what the waiter was doing at that moment is ongoing background (imparfait).",

@@ -1285,7 +1285,7 @@ export const FR_B1_U33: Lesson[] = [
             prompt: "Translate into French.",
             source: "I don't believe the things she said.",
             answer: "Je ne crois pas les choses qu'elle a dites.",
-            altAnswers: ["Je ne crois pas aux choses qu'elle a dites.", "Je crois pas les choses qu'elle a dites."],
+            altAnswers: ["Je crois pas les choses qu'elle a dites."],
             explanation: "\"Que\" = \"les choses\", feminine plural, so \"dites\". English drops the relative; French never does.",
           },
           {
@@ -1632,7 +1632,7 @@ export const FR_B1_U33: Lesson[] = [
         prompt: "Translate into French.",
         source: "I borrowed my brother's car.",
         answer: "J'ai emprunté la voiture de mon frère.",
-        altAnswers: ["J'ai emprunté sa voiture à mon frère.", "J'ai pris la voiture de mon frère."],
+        altAnswers: ["J'ai emprunté sa voiture à mon frère."],
         explanation: "\"Emprunter\" is to borrow; from someone is \"à quelqu'un\", but \"la voiture de mon frère\" is simplest.",
       },
       {

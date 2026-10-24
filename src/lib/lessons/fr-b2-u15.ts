@@ -150,7 +150,7 @@ export const FR_B2_U15: Lesson[] = [
             prompt: "Translate into French.",
             source: "Her parents don't let her go out in the evenings.",
             answer: "Ses parents ne la laissent pas sortir le soir.",
-            altAnswers: ["Ses parents ne la laissent pas sortir les soirs.", "Ses parents ne la laissent pas sortir le soir."],
+            altAnswers: ["Ses parents ne la laissent pas sortir les soirs."],
             explanation: "Pronoun before \"laisser\"; negation around \"laissent\".",
           },
           {
@@ -418,7 +418,7 @@ export const FR_B2_U15: Lesson[] = [
         prompt: "Translate into French.",
         source: "I'm having my suit cleaned.",
         answer: "Je fais nettoyer mon costume.",
-        altAnswers: ["Je fais nettoyer mon costume au pressing.", "Je me fais nettoyer mon costume."],
+        altAnswers: ["Je fais nettoyer mon costume au pressing."],
         explanation: "\"Faire nettoyer\": a service on an object.",
       },
       {
@@ -1162,7 +1162,7 @@ export const FR_B2_U15: Lesson[] = [
             prompt: "Translate into French.",
             source: "It's a shame these trades have disappeared.",
             answer: "C'est dommage que ces métiers aient disparu.",
-            altAnswers: ["Dommage que ces métiers aient disparu.", "C'est dommage que ces métiers aient disparu."],
+            altAnswers: ["Dommage que ces métiers aient disparu."],
             explanation: "\"C'est dommage que\" + past subjunctive; \"disparaître\" takes \"avoir\".",
           },
           {
@@ -1229,9 +1229,9 @@ export const FR_B2_U15: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence is correct?",
-        options: ["Il n'y a aucun artisan qui puisse le faire.", "Il n'y a aucun artisan qui peut le faire.", "Il n'y a aucun artisan qui pourrait le faire faire.", "Il n'y a aucun artisan que puisse le faire."],
+        options: ["Il n'y a aucun artisan qui puisse le faire.", "Il n'y a aucun artisan qui peut le faire.", "Il n'y a aucun artisan qu'il puisse le faire.", "Il n'y a aucun artisan que puisse le faire."],
         correctIndex: 0,
-        explanation: "\"Aucun\" + noun + \"qui\" + subjunctive.",
+        explanation: "\"Aucun\" + noun + \"qui\" + subjunctive. \"Qui peut\" is heard in casual speech, but a negative antecedent calls for the subjunctive; \"que\" can't be the subject of \"puisse\".",
       },
       {
         type: "translate",
@@ -1864,8 +1864,8 @@ export const FR_B2_U15: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into French.",
         source: "I know someone who does the job very well.",
-        answer: "Je connais quelqu'un qui fait le travail très bien.",
-        altAnswers: ["Je connais quelqu'un qui fait très bien le travail.", "Je connais quelqu'un qui fait très bien ce travail."],
+        answer: "Je connais quelqu'un qui fait très bien le travail.",
+        altAnswers: ["Je connais quelqu'un qui fait le travail très bien.", "Je connais quelqu'un qui fait très bien ce travail."],
         explanation: "A known person → indicative \"fait\".",
       },
       {

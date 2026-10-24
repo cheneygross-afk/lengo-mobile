@@ -62,7 +62,7 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
         prompt: "Translate into French with an idiom.",
         source: "I was flabbergasted.",
         answer: "Les bras m'en sont tombés.",
-        altAnswers: ["J'en ai eu les bras qui tombent.", "J'en suis resté bouche bée.", "J'en suis restée bouche bée.", "J'en suis tombé des nues.", "J'en suis tombée des nues."],
+        altAnswers: ["J'en suis resté bouche bée.", "J'en suis restée bouche bée.", "J'en suis tombé des nues.", "J'en suis tombée des nues."],
         explanation: "\"Les bras m'en tombent\" (shock); \"tomber des nues\" and \"rester bouche bée\" are close.",
       },
       {
@@ -391,7 +391,7 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
             prompt: "Translate into French with a sports idiom.",
             source: "The meeting went into extra time.",
             answer: "La réunion a joué les prolongations.",
-            altAnswers: ["La réunion a fait les prolongations.", "La réunion a joué les prolongations hier soir.", "La réunion s'est prolongée."],
+            altAnswers: ["La réunion a joué les prolongations hier soir.", "La réunion s'est prolongée."],
             explanation: "\"Jouer les prolongations\": always plural \"les\".",
           },
         ],
@@ -404,8 +404,8 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
         prompt: "Translate into French with a sports idiom.",
         source: "She won by a whisker.",
         answer: "Elle a gagné sur le fil.",
-        altAnswers: ["Elle l'a emporté sur le fil.", "Elle a gagné d'un cheveu.", "Elle a gagné de justesse."],
-        explanation: "\"Sur le fil\" or \"de justesse\".",
+        altAnswers: ["Elle l'a emporté sur le fil.", "Elle a gagné d'une courte tête.", "Elle a gagné de justesse."],
+        explanation: "\"Sur le fil\", \"d'une courte tête\" (from horse racing) or the neutral \"de justesse\".",
       },
       {
         type: "translate",

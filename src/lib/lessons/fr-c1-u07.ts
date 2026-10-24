@@ -481,7 +481,7 @@ export const FR_C1_U07: Lesson[] = [
             en: "[Under the terms of] the lease, the tenant pays for minor repairs.",
             sentence: "___ bail, le locataire prend en charge les menues réparations.",
             answer: "Aux termes du",
-            altAnswers: ["Conformément au", "En vertu du", "Selon le"],
+            altAnswers: ["En vertu du", "Selon le"],
             explanation: "\"Aux termes du bail\" = according to what the lease says.",
           },
         ],
@@ -596,7 +596,7 @@ export const FR_C1_U07: Lesson[] = [
         prompt: "Translate into French (contract style).",
         source: "The offer is valid subject to availability.",
         answer: "L'offre est valable sous réserve de disponibilité.",
-        altAnswers: ["Cette offre est valable sous réserve de disponibilité.", "L'offre est valable dans la limite des places disponibles."],
+        altAnswers: ["Cette offre est valable sous réserve de disponibilité.", "L'offre est valable dans la limite des stocks disponibles."],
         explanation: "\"Sous réserve de\" = subject to.",
       },
       {
@@ -1961,7 +1961,7 @@ export const FR_C1_U07: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
-            en: "I spoke to the manager and [to] the accountant.",
+            en: "I spoke to the manager and [to the] accountant.",
             sentence: "J'ai parlé au gérant et ___ comptable.",
             answer: "à la",
             altAnswers: ["au"],
@@ -2219,6 +2219,7 @@ export const FR_C1_U07: Lesson[] = [
           {
             type: "speak",
             text: "La résiliation prend effet dans un délai de dix jours.",
+            prompt: "Say it in French: Termination takes effect within ten days.",
             explanation: "\"Dans un délai de\" = within.",
           },
         ],

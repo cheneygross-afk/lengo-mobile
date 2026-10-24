@@ -111,7 +111,7 @@ export const FR_C1_U05_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "The castle is surrounded by a moat.",
         answer: "Le château est entouré de douves.",
-        altAnswers: ["Le château est entouré d'un fossé.", "Le château est entouré d'eau."],
+        altAnswers: ["Le château est entouré d'un fossé."],
         explanation: "A permanent state: \"entouré de\".",
       },
       {
@@ -431,7 +431,6 @@ export const FR_C1_U05_EXTRA: Lesson[] = [
         en: "[It was agreed that] each person would bring a dish.",
         sentence: "___ chacun apporterait un plat.",
         answer: "Il a été convenu que",
-        altAnswers: ["Il a été décidé que"],
         explanation: "\"Il a été convenu que\" + conditional (future in the past).",
       },
       {

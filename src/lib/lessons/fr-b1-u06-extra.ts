@@ -230,7 +230,7 @@ export const FR_B1_U06_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "It's normal to be nervous.",
         answer: "C'est normal d'être nerveux.",
-        altAnswers: ["Il est normal d'être nerveux.", "C'est normal d'être nerveuse."],
+        altAnswers: ["Il est normal d'être nerveux.", "C'est normal d'être nerveuse.", "Il est normal d'être nerveuse."],
         explanation: "General → \"d'être\".",
       },
       {
@@ -395,7 +395,7 @@ export const FR_B1_U06_EXTRA: Lesson[] = [
         prompt: "Translate into French. (use il est possible)",
         source: "The flight might be cancelled.",
         answer: "Il est possible que le vol soit annulé.",
-        altAnswers: ["C'est possible que le vol soit annulé."],
+        altAnswers: ["C'est possible que le vol soit annulé.", "Il est possible qu'on annule le vol.", "C'est possible qu'on annule le vol."],
         explanation: "\"Possible\" → \"soit\".",
       },
       {
@@ -404,7 +404,7 @@ export const FR_B1_U06_EXTRA: Lesson[] = [
         prompt: "Translate into French. (use peut-être que)",
         source: "Maybe the flight will be cancelled.",
         answer: "Peut-être que le vol sera annulé.",
-        altAnswers: ["Peut-être que le vol va être annulé."],
+        altAnswers: ["Peut-être que le vol va être annulé.", "Peut-être qu'on annulera le vol.", "Peut-être qu'on va annuler le vol."],
         explanation: "\"Peut-être que\" + indicative.",
       },
       {
@@ -569,10 +569,10 @@ export const FR_B1_U06_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "It's unacceptable that nothing has been done.",
+        source: "It's unacceptable that nothing is being done.",
         answer: "Il est inadmissible que rien ne soit fait.",
-        altAnswers: ["C'est inadmissible que rien ne soit fait."],
-        explanation: "Judgement → subjunctive; \"rien ne\" as subject.",
+        altAnswers: ["C'est inadmissible que rien ne soit fait.", "Il est inadmissible qu'on ne fasse rien.", "C'est inadmissible qu'on ne fasse rien."],
+        explanation: "Judgement → subjunctive; \"rien ne\" as subject. Learn \"rien ne soit fait\" as a chunk, or say \"qu'on ne fasse rien\".",
       },
       {
         type: "translate",
@@ -809,14 +809,14 @@ export const FR_B1_U06_EXTRA: Lesson[] = [
       },
       {
         type: "matching",
-        instructions: "Match each frame with the mood it takes.",
+        instructions: "Match each French sentence with its meaning.",
         pairs: [
-          { left: "pourvu que", right: "subjunctive (fingers crossed)" },
-          { left: "peut-être que", right: "indicative (maybe)" },
-          { left: "il est probable que", right: "indicative (likely)" },
-          { left: "il se peut que", right: "subjunctive (may)" },
+          { left: "Pourvu qu'il fasse beau !", right: "Fingers crossed it's nice!" },
+          { left: "Peut-être qu'il fera beau.", right: "Maybe it'll be nice." },
+          { left: "Il est probable qu'il fera beau.", right: "It'll probably be nice." },
+          { left: "Il se peut qu'il fasse beau.", right: "It may be nice." },
         ],
-        explanation: "Two look like doubt but take the indicative: peut-être que and probable.",
+        explanation: "Two look like doubt but take the indicative \"fera\": peut-être que and probable. Pourvu que and il se peut que take the subjunctive \"fasse\".",
       },
       {
         type: "listen-choose",
@@ -1147,10 +1147,10 @@ export const FR_B1_U06_EXTRA: Lesson[] = [
       },
       {
         type: "multi-select",
-        question: "Which sentences take the indicative?",
-        options: ["Il est clair que...", "Il suffit que...", "Je suis sûr que...", "Pourvu que...", "Il est probable que..."],
+        question: "Which sentences are correct?",
+        options: ["Il est clair qu'il a raison.", "Il suffit qu'il a un billet.", "Je suis sûr qu'il a raison.", "Pourvu qu'il a un billet !", "Il est probable qu'il a raison."],
         correctIndexes: [0, 2, 4],
-        explanation: "Clair, sûr and probable → indicative; il suffit que and pourvu que → subjunctive.",
+        explanation: "Clair, sûr and probable take the indicative \"a\". Il suffit que and pourvu que need the subjunctive: \"il suffit qu'il ait un billet\", \"pourvu qu'il ait un billet\".",
       },
       {
         type: "listen-choose",
@@ -1345,7 +1345,7 @@ export const FR_B1_U06_EXTRA: Lesson[] = [
     number: 9,
     optional: true,
     title: "Extra Practice: Fact, Judgement or Possibility?",
-    summary: "Choose the mood in each sentence and explain it: fact or certainty, judgement, or possibility and doubt.",
+    summary: "Choose the mood in each sentence by asking what it expresses: fact or certainty, judgement, or possibility and doubt.",
     duration: "12 min",
     sections: [
       {
@@ -1363,10 +1363,10 @@ export const FR_B1_U06_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "\"C'est dommage que le bureau soit fermé.\" Why the subjunctive?",
-            options: ["It's a judgement (dommage).", "It's a possibility.", "It's a fact.", "Because the office is closed in the future."],
+            question: "How do you say: It's a shame the office is closed?",
+            options: ["C'est dommage que le bureau soit fermé.", "C'est dommage que le bureau est fermé.", "C'est dommage que le bureau sera fermé.", "C'est dommage que le bureau a fermé."],
             correctIndex: 0,
-            explanation: "Judgement triggers the subjunctive even for a known fact.",
+            explanation: "\"Dommage\" is a judgement, and a judgement triggers the subjunctive \"soit\" even for a known fact.",
           },
           {
             type: "translate",
@@ -1483,14 +1483,14 @@ export const FR_B1_U06_EXTRA: Lesson[] = [
       },
       {
         type: "matching",
-        instructions: "Match each sentence with its label.",
+        instructions: "Match each French sentence with its meaning.",
         pairs: [
-          { left: "Je sais qu'il pleut.", right: "fact: indicative" },
-          { left: "C'est dommage qu'il pleuve.", right: "judgement: subjunctive" },
-          { left: "Il se peut qu'il pleuve.", right: "possibility: subjunctive" },
-          { left: "Il est probable qu'il pleuvra.", right: "likelihood: indicative" },
+          { left: "Je sais qu'il pleut.", right: "I know it's raining." },
+          { left: "C'est dommage qu'il pleuve.", right: "It's a shame it's raining." },
+          { left: "Il se peut qu'il pleuve.", right: "It may rain." },
+          { left: "Il est probable qu'il pleuvra.", right: "It will probably rain." },
         ],
-        explanation: "Label first, then choose the mood.",
+        explanation: "Fact (savoir) and likelihood (probable) take the indicative; judgement (dommage) and possibility (il se peut) take the subjunctive \"pleuve\".",
       },
       {
         type: "listen-choose",

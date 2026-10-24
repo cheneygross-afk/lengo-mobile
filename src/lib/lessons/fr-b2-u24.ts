@@ -176,7 +176,7 @@ export const FR_B2_U24: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What is « une librairie »?",
+        question: "What is \"une librairie\"?",
         options: ["A bookshop", "A library", "A bookcase", "A publisher"],
         correctIndex: 0,
         explanation: "A library is \"une bibliothèque\".",
@@ -252,7 +252,7 @@ export const FR_B2_U24: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What is « une nouvelle » in a bookshop?",
+            question: "What is \"une nouvelle\" in a bookshop?",
             options: ["A short story", "A new novel", "A romance novel", "A newspaper"],
             correctIndex: 0,
             explanation: "\"Une nouvelle\" = a short story (also a piece of news). A novel is \"un roman\".",
@@ -776,7 +776,7 @@ export const FR_B2_U24: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does « la politique de l'emploi » mean?",
+            question: "What does \"la politique de l'emploi\" mean?",
             options: ["Employment policy", "The politics of employees", "A political job", "The employment of politicians"],
             correctIndex: 0,
             explanation: "\"La politique\" = policy as well as politics.",

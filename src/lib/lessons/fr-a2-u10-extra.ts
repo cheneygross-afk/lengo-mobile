@@ -288,7 +288,7 @@ export const FR_A2_U10_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is correct for: the most modern building?",
+        question: "How do you say: the most modern building?",
         options: ["le bâtiment le plus moderne", "le plus moderne bâtiment le", "le bâtiment plus moderne", "le bâtiment le moderne plus"],
         correctIndex: 0,
         explanation: "\"Moderne\" follows the noun, so repeat \"le\".",
@@ -453,7 +453,7 @@ export const FR_A2_U10_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say: He speaks English better than me?",
         options: ["Il parle mieux anglais que moi.", "Il parle meilleur anglais que moi.", "Il parle plus bien anglais que moi.", "Il parle anglais plus bon que moi."],
         correctIndex: 0,
         explanation: "How he speaks → \"mieux\".",
@@ -764,7 +764,7 @@ export const FR_A2_U10_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which review sentence is correct?",
+        question: "How do you write: It's the quietest hotel in the area?",
         options: ["C'est l'hôtel le plus calme du quartier.", "C'est l'hôtel plus calme du quartier.", "C'est l'hôtel le plus calme dans le quartier.", "C'est le plus calme hôtel dans quartier."],
         correctIndex: 0,
         explanation: "Repeated article and \"du\" for 'in'.",
@@ -1239,7 +1239,7 @@ export const FR_A2_U10_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which forum sentence has no mistake?",
+        question: "How do you write: The museum is less interesting than the castle?",
         options: ["Le musée est moins intéressant que le château.", "Le musée est moins intéressant de le château.", "Le musée est moins intéressante que le château.", "Le musée est moins intéressant que château."],
         correctIndex: 0,
         explanation: "\"Que\" for than, masculine agreement with \"musée\".",

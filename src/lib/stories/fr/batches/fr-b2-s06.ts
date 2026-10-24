@@ -101,7 +101,7 @@ export const FR_B2_S06_STORIES: Story[] = [
       `Arthur Wauters l'a reçu dans un appartement rempli de livres, à deux rues de chez Berthe. Il a écouté la question de Thomas, il a souri, et il a sorti d'un tiroir une photo en noir et blanc : une jeune femme aux cheveux courts, assise près d'une fenêtre. « Je n'ai jamais été collectionneur, a-t-il avoué. J'étais peintre. Très mauvais peintre, d'ailleurs. Ce tableau, je l'ai fait en 1956. »`,
       `Il avait vingt-trois ans, Berthe vingt-deux. Ils s'étaient aimés tout un été. Puis il avait obtenu une bourse pour étudier à Rome, il lui avait demandé de venir avec lui, et elle avait refusé : elle ne voulait pas laisser sa mère malade. Il était parti quand même. Quand il était revenu, trois ans plus tard, elle ne lui avait jamais rouvert sa porte. « Elle a gardé le tableau pendant soixante-dix ans, a-t-il murmuré. Ça veut dire qu'elle ne m'en voulait pas tout à fait, non ? »`,
       `Thomas est rentré chez lui, a repris le tableau, toujours posé contre le mur, et l'a rapporté le soir même chez Arthur. Il a refusé les huit mille euros. Le vieil homme a insisté, s'est fâché, puis a fini par céder en lui servant un verre de genièvre.`,
-      `Arthur est mort l'hiver suivant. Quelques semaines après l'enterrement, Thomas a reçu un colis envoyé par un notaire. À l'intérieur, il y avait une petite toile, signée de la même écriture illisible : une fenêtre ouverte, une chaise vide, et sur la chaise, un livre fermé. Au dos, Arthur avait écrit : « Pour qu'ils soient enfin accrochés ensemble. »`,
+      `Arthur est mort l'hiver suivant. Quelques semaines après l'enterrement, Thomas a reçu un colis envoyé par un notaire. À l'intérieur, il y avait le portrait de Berthe et, avec lui, une petite toile signée de la même écriture illisible : une fenêtre ouverte, une chaise vide, et sur la chaise, un livre fermé. Au dos, Arthur avait écrit : « Pour qu'ils soient enfin accrochés ensemble. »`,
     ],
     questions: [
       {
@@ -243,7 +243,7 @@ export const FR_B2_S06_ENGLISH: Record<string, string[]> = {
     `Arthur Wauters received him in a flat full of books, two streets from Berthe's. He listened to Thomas's question, smiled, and took a black-and-white photo out of a drawer: a young woman with short hair, sitting by a window. "I've never been a collector," he admitted. "I was a painter. A very bad painter, in fact. I painted that picture in 1956."`,
     `He was twenty-three, Berthe twenty-two. They had loved each other for a whole summer. Then he had won a scholarship to study in Rome, he had asked her to come with him, and she had refused: she didn't want to leave her sick mother. He had gone anyway. When he came back three years later, she never opened her door to him again. "She kept the painting for seventy years," he murmured. "That means she didn't entirely hold it against me, doesn't it?"`,
     `Thomas went home, picked up the painting, still leaning against the wall, and brought it back to Arthur's that same evening. He refused the eight thousand euros. The old man insisted, got angry, then finally gave in and poured him a glass of genever.`,
-    `Arthur died the following winter. A few weeks after the funeral, Thomas received a parcel sent by a notary. Inside there was a small canvas, signed in the same illegible hand: an open window, an empty chair, and on the chair, a closed book. On the back, Arthur had written: "So that they can hang together at last."`,
+    `Arthur died the following winter. A few weeks after the funeral, Thomas received a parcel sent by a notary. Inside was Berthe's portrait and, with it, a small canvas signed in the same illegible hand: an open window, an empty chair, and on the chair, a closed book. On the back, Arthur had written: "So that they can hang together at last."`,
   ],
   "fr-b2-le-coffre-314": [
     `On the day the will was read, Uncle Bernard arrived early, freshly shaven, a leather briefcase under his arm, checking his mobile every two minutes. His mother, Simone Morand, the widow of a pharmacist from Carouge, had just died at ninety-three. She left him the flat. To her granddaughter Léa, she bequeathed "the contents of safe-deposit box number 314" at a private bank on the rue de la Corraterie, along with the little key that went with it. Bernard went pale.`,
@@ -303,7 +303,7 @@ export const FR_B2_S06_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "comptant", en: "(in) cash", forms: ["comptant"] },
     { es: "la loupe", en: "magnifying glass", forms: ["loupe"] },
     { es: "la bourse", en: "scholarship, grant", forms: ["bourse"] },
-    { es: "en vouloir à quelqu'un", en: "to hold it against someone", forms: ["voulait"] },
+    { es: "en vouloir à quelqu'un", en: "to hold it against someone (vouloir alone: to want)", forms: ["voulait"] },
     { es: "reprendre", en: "to take back, to pick up again", forms: ["repris"] },
     { es: "céder", en: "to give in", forms: ["céder"] },
     { es: "le genièvre", en: "genever, juniper gin", forms: ["genièvre"] },

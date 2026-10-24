@@ -464,7 +464,7 @@ export const FR_B2_U04_EXTRA: Lesson[] = [
         type: "listen-choose",
         audio: "Une fois que tu auras ton diplôme, tu pourras voyager.",
         question: "What does it mean?",
-        options: ["Once you have your degree, you'll be able to travel.", "You traveled once you had your degree.", "You could travel if you had your degree.", "Once you've traveled, you'll get your degree."],
+        options: ["Once you have your degree, you'll be able to travel.", "You travelled once you had your degree.", "You could travel if you had your degree.", "Once you've traveled, you'll get your degree."],
         correctIndex: 0,
         explanation: "\"Une fois que\" + future \"auras\".",
       },

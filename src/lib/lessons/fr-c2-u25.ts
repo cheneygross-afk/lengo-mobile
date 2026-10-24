@@ -131,7 +131,7 @@ export const FR_C2_U25: Lesson[] = [
           {
             type: "speak",
             text: "C'est dans ce contexte que fut votée la loi de 1905.",
-            tip: "Say 1905 as mille neuf cent cinq; keep fut votée as one smooth group.",
+            tip: "Say 1905 as \"mille neuf cent cinq\"; keep \"fut votée\" as one smooth group.",
             explanation: "\"C'est dans ce contexte que\" + inverted subject is the classic hinge from background to event in written history.",
           },
         ],
@@ -247,7 +247,7 @@ export const FR_C2_U25: Lesson[] = [
           { es: "Au printemps 1959, les deux territoires s'unirent au sein d'une fédération.", en: "In the spring of 1959, the two territories joined together in a federation." },
           { es: "Quelques mois à peine après sa naissance, la fédération éclata.", en: "Barely a few months after it was born, the federation broke apart." },
           { es: "Le 20 août 1960, le Sénégal proclama son indépendance.", en: "On 20 August 1960, Senegal proclaimed its independence." },
-          { es: "Dans les années 1960, une quinzaine de colonies africaines devinrent des États souverains.", en: "In the 1960s, some fifteen African colonies became sovereign states." },
+          { es: "Dans les années 1960, plus d'une trentaine de colonies africaines devinrent des États souverains.", en: "In the 1960s, more than thirty African colonies became sovereign states." },
         ],
         checkpoint: [
           {
@@ -355,7 +355,7 @@ export const FR_C2_U25: Lesson[] = [
           {
             type: "speak",
             text: "S'ouvre alors la Révolution tranquille.",
-            tip: "Stress the final syllable of the group: tranquille.",
+            tip: "Stress the final syllable of the group: \"tranquille\".",
             explanation: "Inversion after \"alors\" gives a narrative its rhythm: the event arrives at the end, like a drum roll.",
           },
         ],
@@ -529,7 +529,7 @@ export const FR_C2_U25: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does « Il est sans doute arrivé trop tard » mean?",
+            question: "What does \"Il est sans doute arrivé trop tard\" mean?",
             options: ["He probably arrived too late.", "He definitely arrived too late.", "He arrived too late without doubting it.", "He may not have arrived too late."],
             correctIndex: 0,
             explanation: "\"Sans doute\" alone means probably; certainty needs \"sans aucun doute\".",
@@ -721,7 +721,7 @@ export const FR_C2_U25: Lesson[] = [
           {
             type: "speak",
             text: "Avec le recul, cette décision apparaît comme un tournant.",
-            tip: "Recul: the u is the tight French u, lips rounded.",
+            tip: "\"Recul\": the u is the tight French u, lips rounded.",
             explanation: "\"Avec le recul\" = with hindsight; \"apparaître comme\" = to appear as.",
           },
         ],
@@ -1006,7 +1006,7 @@ export const FR_C2_U25: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A French university course on « histoire contemporaine » covers which period?",
+            question: "A French university course on \"histoire contemporaine\" covers which period?",
             options: ["From 1789 to the present day", "Only the last thirty years", "The twentieth century only", "From 1945 to the present day"],
             correctIndex: 0,
             explanation: "In the French division of history, \"l'époque contemporaine\" starts with the Revolution; recent history is \"l'histoire du temps présent\".",
@@ -1014,7 +1014,7 @@ export const FR_C2_U25: Lesson[] = [
           {
             type: "speak",
             text: "Mais où sont les neiges d'antan ?",
-            tip: "Antan: two nasal vowels, both [ɑ̃].",
+            tip: "\"Antan\": two nasal vowels, both [ɑ̃].",
             explanation: "Villon's famous refrain (15th century): \"d'antan\" means of yesteryear and follows the noun.",
           },
         ],
@@ -1135,7 +1135,7 @@ export const FR_C2_U25: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Why are « couperaient » and « massacreraient » in the conditional?",
+            question: "Why are \"couperaient\" and \"massacreraient\" in the conditional?",
             options: ["They are the future inside a reported rumour (futur dans le passé).", "They express the historian's doubt, like a journalistic conditional.", "They are polite forms.", "They describe habitual actions in the past."],
             correctIndex: 0,
             explanation: "\"On annonçait que des brigands couperaient...\": the rumour's future, seen from the past, takes the conditional.",
@@ -1238,7 +1238,7 @@ export const FR_C2_U25: Lesson[] = [
           {
             type: "speak",
             text: "Étrange paradoxe : c'est une peur sans objet qui fit tomber l'Ancien Régime.",
-            tip: "Pause slightly after paradoxe, then stress objet.",
+            tip: "Pause slightly after \"paradoxe\", then stress \"objet\".",
             explanation: "A verbless phrase followed by a cleft: the classic ironic ending of a French historical paragraph.",
           },
         ],
@@ -1292,7 +1292,7 @@ export const FR_C2_U25: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "In « Le 4 août au soir, l'Assemblée abolissait les privilèges », what is the imparfait doing?",
+        question: "In \"Le 4 août au soir, l'Assemblée abolissait les privilèges\", what is the imparfait doing?",
         options: ["Narrating a single event with a solemn, freeze-frame effect", "Describing a habit of the Assembly", "Describing the background to another event", "Expressing politeness"],
         correctIndex: 0,
         explanation: "After a precise date, the imparfait narratif tells a punctual event; it is not background or habit.",
@@ -1453,7 +1453,7 @@ export const FR_C2_U25: Lesson[] = [
           {
             type: "speak",
             text: "Elle a passé deux ans à dépouiller les archives.",
-            tip: "Dépouiller: the ill sounds like a y, [depuje].",
+            tip: "\"Dépouiller\": the ill sounds like a y, [depuje].",
             explanation: "\"Dépouiller les archives\" = to go through them systematically; \"archives\" is feminine plural.",
           },
         ],
@@ -1634,7 +1634,7 @@ export const FR_C2_U25: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does « La France dénonça le traité » mean?",
+            question: "What does \"La France dénonça le traité\" mean?",
             options: ["France formally withdrew from the treaty.", "France publicly criticised the treaty.", "France reported the treaty to the police.", "France signed the treaty."],
             correctIndex: 0,
             explanation: "\"Dénoncer un traité\" = to end it formally, to withdraw from it.",
@@ -1685,7 +1685,7 @@ export const FR_C2_U25: Lesson[] = [
           {
             type: "speak",
             text: "La Restauration dura de 1814 à 1830.",
-            tip: "Read the dates as mille huit cent quatorze and mille huit cent trente.",
+            tip: "Read the dates as \"mille huit cent quatorze\" and \"mille huit cent trente\".",
             explanation: "French normally reads years as \"mille huit cent quatorze\"; \"dix-huit cent quatorze\" exists but is rarer in France.",
           },
         ],
@@ -1741,7 +1741,7 @@ export const FR_C2_U25: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Elle travaille dans la restauration. » What does it most likely mean?",
+        question: "\"Elle travaille dans la restauration.\" What does it most likely mean?",
         options: ["She works in the restaurant trade.", "She works on the Bourbon Restoration period.", "She restores old paintings for a living.", "She works for a royalist party."],
         correctIndex: 0,
         explanation: "Without a capital and with \"travailler dans\", \"la restauration\" is the catering trade; the period is \"la Restauration\".",
@@ -1912,7 +1912,7 @@ export const FR_C2_U25: Lesson[] = [
           {
             type: "speak",
             text: "On a longtemps parlé pudiquement des événements d'Algérie.",
-            tip: "Pudiquement: three syllables, pu-dique-ment.",
+            tip: "\"Pudiquement\": three syllables, pu-dique-ment.",
             explanation: "\"Pudiquement\" = euphemistically; it signals that a name hides something.",
           },
         ],
@@ -2035,7 +2035,7 @@ export const FR_C2_U25: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "In « Le jugement rendu, il fut dégradé publiquement », what is « le jugement rendu »?",
+            question: "In \"Le jugement rendu, il fut dégradé publiquement\", what is \"le jugement rendu\"?",
             options: ["A participe absolu with its own subject", "A dangling participle referring to Dreyfus", "A passive in the passé simple", "A nominalised verb"],
             correctIndex: 0,
             explanation: "\"Le jugement rendu\" has its own subject (\"le jugement\") distinct from \"il\": a participe absolu.",
@@ -2095,7 +2095,7 @@ export const FR_C2_U25: Lesson[] = [
           {
             type: "speak",
             text: "Le ministre démentit avoir reçu le moindre document.",
-            tip: "Démentit: dé-man-ti, final t silent.",
+            tip: "\"Démentit\": dé-man-ti, final t silent.",
             explanation: "\"Démentir\" + past infinitive = to deny having done something.",
           },
         ],
@@ -2270,7 +2270,7 @@ export const FR_C2_U25: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does « un chagrin d'amour » mean?",
+            question: "What does \"un chagrin d'amour\" mean?",
             options: ["heartbreak", "embarrassment in love", "a love letter", "jealousy"],
             correctIndex: 0,
             explanation: "\"Le chagrin\" is sorrow, grief; English chagrin (annoyed embarrassment) is a false friend.",
@@ -2365,7 +2365,7 @@ export const FR_C2_U25: Lesson[] = [
           {
             type: "speak",
             text: "Un sursaut d'orgueil permit à l'équipe de remonter au score.",
-            tip: "Sursaut: the final t is silent, [syʁso].",
+            tip: "\"Sursaut\": the final t is silent, [syʁso].",
             explanation: "\"Un sursaut d'orgueil\" = a sudden burst of pride.",
           },
         ],
@@ -2429,7 +2429,7 @@ export const FR_C2_U25: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A friend has lost her home in a flood and is grief-stricken. Which word fits « Elle est dans la ___ la plus totale »?",
+        question: "A friend has lost her home in a flood and is grief-stricken. Which word fits \"Elle est dans la ___ la plus totale\"?",
         options: ["désolation", "gêne", "exaltation", "appréhension"],
         correctIndex: 0,
         explanation: "\"La désolation\" = deep grief, devastation; far stronger than \"désolée\".",
@@ -2581,7 +2581,7 @@ export const FR_C2_U25: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does « Le document a été antidaté » mean?",
+            question: "What does \"Le document a été antidaté\" mean?",
             options: ["The document was backdated.", "The document was dated in the future.", "The document was declared invalid.", "The document was signed against the law."],
             correctIndex: 0,
             explanation: "\"Antidater\" (from Latin ante, before) = to put an earlier date than the real one.",
@@ -2589,7 +2589,7 @@ export const FR_C2_U25: Lesson[] = [
           {
             type: "speak",
             text: "Dans l'après-guerre, la reconstruction fut la priorité.",
-            tip: "Après-guerre: the gu is a hard g, [apʁɛɡɛʁ].",
+            tip: "\"Après-guerre\": the gu is a hard g, [apʁɛɡɛʁ].",
             explanation: "\"L'après-guerre\" (masculine) = the post-war period.",
           },
         ],
@@ -2624,11 +2624,11 @@ export const FR_C2_U25: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "The tram is [overcrowded] in the morning.",
-        sentence: "Le tram est ___ le matin.",
-        answer: "bondé",
-        altAnswers: ["surpeuplé", "surchargé", "plein à craquer"],
-        explanation: "\"Bondé\" is the everyday word; \"surchargé\" uses the \"sur-\" prefix (excess). \"Surpeuplé\" is more for a region or prison.",
+        en: "The prisons are [overcrowded].",
+        sentence: "Les prisons sont ___.",
+        answer: "surpeuplées",
+        altAnswers: ["surchargées"],
+        explanation: "\"Sur-\" = excess: \"surpeuplé\" (over-populated), feminine plural to agree with \"les prisons\". For a crowded tram or train, the everyday word is \"bondé\".",
       },
       {
         type: "translate",

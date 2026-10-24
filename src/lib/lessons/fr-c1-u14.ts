@@ -229,6 +229,7 @@ export const FR_C1_U14: Lesson[] = [
           "The first thing a European ear notices in Québec is affrication: before the vowels i and u (and the semi-vowels that go with them), t sounds like ts and d like dz. So \"tu\" is pronounced [tsy], \"dire\" [dzir], \"petit\" [p'tsi], \"lundi\" [lœ̃dzi], \"du\" [dzy], \"mardi\" [mardzi], \"tuile\" [tsɥil]. Before other vowels, t and d stay as in France: \"table\", \"date\", \"tout\" are unchanged.",
           "Once you know the rule, it stops being a problem: your brain simply needs to hear \"tsu\" as \"tu\". It is so regular that Québec actors who want to sound \"international\" (in dubbing, for example) have to work hard to suppress it.",
           "Note that this is standard Québec pronunciation: news anchors on Radio-Canada affricate too. It is not slang or carelessness; it's the norm of the variety.",
+          "A note on meals, since they come up in the examples: in Québec (as in Belgium and Switzerland), \"le déjeuner\" is breakfast, \"le dîner\" is lunch and \"le souper\" is the evening meal. So a Montrealer's \"Tu viens dîner ?\" is an invitation to lunch. Lesson 5 and Unit 15 come back to this.",
         ],
         examples: [
           { es: "Tu viens dîner mardi ?", en: "Are you coming for lunch on Tuesday? (Quebec: \"tsu\", \"mardzi\")" },
@@ -250,7 +251,7 @@ export const FR_C1_U14: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French.",
-            source: "In Québec, people pronounce tu with a ts sound.",
+            source: "In Québec, people pronounce \"tu\" with a ts sound.",
             answer: "Au Québec, on prononce « tu » avec un son « ts ».",
             altAnswers: ["Au Québec, on prononce tu avec un son ts.", "Au Québec, les gens prononcent « tu » avec un son « ts ».", "Au Québec, les gens prononcent tu avec un son ts.", "Au Québec, « tu » se prononce avec un son « ts ».", "Au Québec, tu se prononce avec un son ts."],
             explanation: "\"On prononce\" or the pronominal passive \"se prononce\" are the natural ways to describe pronunciation.",
@@ -428,7 +429,7 @@ export const FR_C1_U14: Lesson[] = [
         heading: "Tu viens-tu ? The question particle -tu",
         body: [
           "Spoken Québec French has a question particle \"-tu\" (historically from the \"-ti\" of old French \"vient-il\" → \"vient-ti\"). It turns a statement into a yes/no question by being attached to the verb: \"Tu viens-tu ?\" (Are you coming?), \"C'est-tu vrai ?\" (Is it true?), \"Il est-tu parti ?\" (Has he left?), \"Ça se peut-tu ?\" (Is that possible?), \"Vous voulez-tu un café ?\" (Do you want a coffee?).",
-          "The key point: \"-tu\" is not the pronoun you. It can follow any subject, including \"je\" (\"J'ai-tu oublié mon cell ?\" Did I forget my phone?), \"il\", \"on\", \"vous\" or \"ça\". It only appears in yes/no questions, not with question words (\"Où tu vas ?\", never *Où tu vas-tu ?). In a compound tense it attaches to the auxiliary: \"T'as-tu mangé ?\" (Have you eaten?).",
+          "The key point: \"-tu\" is not the pronoun you. It can follow any subject, including \"je\" (\"J'ai-tu oublié mon cell ?\" Did I forget my phone?), \"il\", \"on\", \"vous\" or \"ça\". It normally appears only in yes/no questions, not with question words (\"Où tu vas ?\", not *Où tu vas-tu ?). In a compound tense it attaches to the auxiliary: \"T'as-tu mangé ?\" (Have you eaten?).",
           "It is very common in informal speech, across all social classes, but it doesn't appear in formal writing or news broadcasts. You should understand it effortlessly; whether you use it is a matter of context and of how close you are to Québec friends.",
         ],
         examples: [
@@ -480,7 +481,7 @@ export const FR_C1_U14: Lesson[] = [
             prompt: "Translate into standard French what you heard as « Moi pis ma blonde, on part en Gaspésie. »",
             source: "My girlfriend and I are going to the Gaspe Peninsula.",
             answer: "Ma copine et moi, on part en Gaspésie.",
-            altAnswers: ["Ma copine et moi partons en Gaspésie.", "Ma petite amie et moi, on part en Gaspésie.", "Ma petite amie et moi partons en Gaspésie.", "Moi et ma copine, on part en Gaspésie.", "Ma copine et moi, nous partons en Gaspésie."],
+            altAnswers: ["Ma copine et moi partons en Gaspésie.", "Ma petite amie et moi, on part en Gaspésie.", "Ma petite amie et moi partons en Gaspésie.", "Ma copine et moi, nous partons en Gaspésie."],
             explanation: "\"Pis\" = \"et\"; \"ma blonde\" = my girlfriend in Québec (Unit 15). Standard French puts \"moi\" last out of politeness.",
           },
           {
@@ -556,10 +557,10 @@ export const FR_C1_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which of these is NOT possible in Québec spoken French?",
+        question: "Which of these breaks the usual rule for the -tu particle in Québec spoken French?",
         options: ["Où tu vas-tu ?", "Tu vas-tu au dépanneur ?", "C'est-tu loin ?", "Vous restez-tu à souper ?"],
         correctIndex: 0,
-        explanation: "\"-tu\" only marks yes/no questions; with a question word like \"où\", it isn't used.",
+        explanation: "\"-tu\" marks yes/no questions; with a question word like \"où\", speakers normally leave it out: \"Où tu vas ?\".",
       },
       {
         type: "fill-blank",
@@ -865,7 +866,7 @@ export const FR_C1_U14: Lesson[] = [
             prompt: "Write the Québec spoken version (use -tu and à soir): Are you coming tonight?",
             source: "Are you coming tonight? (Québec spoken)",
             answer: "Tu viens-tu à soir ?",
-            altAnswers: ["Tu viens-tu à soir?", "Viens-tu à soir ?"],
+            altAnswers: ["Tu viens-tu à soir?"],
             explanation: "Question particle \"-tu\" after the verb, and \"à soir\" for ce soir.",
           },
           {
@@ -962,7 +963,7 @@ export const FR_C1_U14: Lesson[] = [
         prompt: "Write the Québec spoken version (use -tu): Is it far from here?",
         source: "Is it far from here? (Québec spoken)",
         answer: "C'est-tu loin d'ici ?",
-        altAnswers: ["C'est-tu loin d'icitte ?", "C'est-tu loin ?"],
+        altAnswers: ["C'est-tu loin d'icitte ?"],
         explanation: "\"-tu\" after \"c'est\"; \"icitte\" is a casual Québec form of \"ici\".",
       },
       {
@@ -978,7 +979,7 @@ export const FR_C1_U14: Lesson[] = [
         prompt: "Write the Parisian standard version of « Viens souper chez nous à soir. » (said by one person)",
         source: "Come to my place for dinner tonight.",
         answer: "Viens dîner chez moi ce soir.",
-        altAnswers: ["Viens manger chez moi ce soir.", "Viens dîner à la maison ce soir.", "Viens manger à la maison ce soir.", "Viens dîner chez nous ce soir."],
+        altAnswers: ["Viens manger chez moi ce soir.", "Viens dîner à la maison ce soir.", "Viens manger à la maison ce soir."],
         explanation: "\"Souper\" ↔ \"dîner\"; \"chez nous\" in Québec often means my place even for one person; \"à soir\" ↔ \"ce soir\".",
       },
       {
@@ -1400,7 +1401,7 @@ export const FR_C1_U14: Lesson[] = [
         prompt: "Write the France-standard French for the Swiss « J'ai été déçu en bien par ce film. »",
         source: "I was pleasantly surprised by that film.",
         answer: "J'ai été agréablement surpris par ce film.",
-        altAnswers: ["J'ai été agréablement surprise par ce film.", "Ce film m'a agréablement surpris.", "Ce film m'a agréablement surprise.", "J'ai été bien surpris par ce film."],
+        altAnswers: ["J'ai été agréablement surprise par ce film.", "Ce film m'a agréablement surpris.", "Ce film m'a agréablement surprise."],
         explanation: "\"Déçu en bien\" (Switzerland) = \"agréablement surpris\".",
       },
       {
@@ -1606,8 +1607,8 @@ export const FR_C1_U14: Lesson[] = [
         prompt: "Translate into French.",
         source: "Brother, how much is it to the airport? (to a taxi driver in Abidjan)",
         answer: "Grand frère, c'est combien jusqu'à l'aéroport ?",
-        altAnswers: ["Mon frère, c'est combien jusqu'à l'aéroport ?", "Grand frère, c'est combien pour aller à l'aéroport ?", "Grand frère, ça fait combien jusqu'à l'aéroport ?", "Tonton, c'est combien jusqu'à l'aéroport ?"],
-        explanation: "\"Grand frère\" (or \"tonton\" for an older driver) is a friendly, respectful address; \"jusqu'à\" + \"l'\" before a vowel.",
+        altAnswers: ["Mon frère, c'est combien jusqu'à l'aéroport ?", "Grand frère, c'est combien pour aller à l'aéroport ?", "Grand frère, ça fait combien jusqu'à l'aéroport ?"],
+        explanation: "\"Grand frère\" is a friendly, respectful address (with a clearly older driver, \"tonton\" would be the choice, but the English says brother); \"jusqu'à\" + \"l'\" before a vowel.",
       },
       {
         type: "listen-choose",
@@ -2510,7 +2511,7 @@ export const FR_C1_U14: Lesson[] = [
           { es: "Vous : Bonjour, j'appelle pour le 4 et demi sur la rue Saint-Denis. Est-il encore disponible ?", en: "You: Hello, I'm calling about the two-bedroom on Saint-Denis Street. Is it still available?" },
           { es: "M. Gagnon : Oui, y est encore libre. Vous voulez-tu le visiter ?", en: "M. Gagnon: Yes, it's still free. Would you like to see it?" },
           { es: "Vous : Oui, volontiers. Est-ce que l'électricité est vraiment comprise ?", en: "You: Yes, please. Is electricity really included?" },
-          { es: "M. Gagnon : Oui, oui, c'est chauffé éclairé. T'as juste Internet à payer.", en: "M. Gagnon: Yes, it's heated and lit. You only have to pay for internet." },
+          { es: "M. Gagnon : Oui, oui, c'est chauffé éclairé. T'as juste Internet à payer.", en: "M. Gagnon: Yes, yes, heating and electricity are included. You only have to pay for internet." },
           { es: "Vous : Parfait. Le bail commence le 1er juillet, c'est ça ?", en: "You: Perfect. The lease starts on 1 July, right?" },
           { es: "M. Gagnon : C'est ça. Peux-tu passer jeudi vers six heures ?", en: "M. Gagnon: That's right. Can you come by on Thursday around six?" },
           { es: "Vous : Jeudi à six heures, c'est parfait. Merci beaucoup !", en: "You: Thursday at six is perfect. Thank you very much!" },

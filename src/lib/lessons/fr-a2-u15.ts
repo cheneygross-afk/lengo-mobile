@@ -48,7 +48,7 @@ export const FR_A2_U15: Lesson[] = [
       {
         heading: "Vowel endings: vrai → vraiment",
         body: [
-          "If the masculine adjective ends in a vowel other than e (-ai, -i, -u, -é), use the masculine: \"vrai\" → \"vraiment\" (really), \"poli\" → \"poliment\" (politely), \"absolu\" → \"absolument\", \"spontané\" → \"spontanément\". Adding a feminine e would give an e that is never written.",
+          "If the masculine adjective ends in a vowel other than e (-ai, -i, -u, -é), use the masculine: \"vrai\" → \"vraiment\" (really), \"poli\" → \"poliment\" (politely), \"absolu\" → \"absolument\", \"spontané\" → \"spontanément\". Don't add the feminine e: *vraiement* and *poliement* are wrong.",
           "A few adverbs add an accent: \"précis\" → \"précisément\", \"énorme\" → \"énormément\" (enormously, a huge amount), \"profond\" → \"profondément\". And one irregular you'll hear constantly: \"gentil\" → \"gentiment\" (kindly, nicely).",
         ],
         examples: [

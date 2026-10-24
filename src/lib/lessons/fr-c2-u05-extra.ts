@@ -664,7 +664,7 @@ export const FR_C2_U05_EXTRA: Lesson[] = [
         type: "speak",
         text: "À bon chat, bon rat.",
         prompt: "Say it in French: He met his match.",
-        explanation: "Four syllables in two parallel halves; no verb, no article.",
+        explanation: "Two short parallel halves (à bon chat / bon rat); no verb, no article.",
       },
     ],
   },
@@ -681,7 +681,7 @@ export const FR_C2_U05_EXTRA: Lesson[] = [
         heading: "Recap: three fables every French person knows",
         body: [
           "Le Corbeau et le Renard opens: \"Maître Corbeau, sur un arbre perché, / Tenait en son bec un fromage. / Maître Renard, par l'odeur alléché, / Lui tint à peu près ce langage : / « Hé ! bonjour, Monsieur du Corbeau. / Que vous êtes joli ! que vous me semblez beau ! »\" The crow opens its beak to sing, drops the cheese, and the fox concludes: \"Apprenez que tout flatteur / Vit aux dépens de celui qui l'écoute.\"",
-          "La Cigale et la Fourmi: \"La Cigale, ayant chanté / Tout l'été, / Se trouva fort dépourvue / Quand la bise fut venue.\" The ant refuses to lend her food: \"Vous chantiez ? j'en suis fort aise. / Eh bien ! dansez maintenant.\" Le Lièvre et la Tortue opens with its moral: \"Rien ne sert de courir ; il faut partir à point.\" Note the passé simple (\"tint\", \"se trouva\", \"fut venue\"), the inverted participles (\"sur un arbre perché\") and \"fort\" meaning very.",
+          "La Cigale et la Fourmi: \"La Cigale, ayant chanté / Tout l'été, / Se trouva fort dépourvue / Quand la bise fut venue.\" The ant refuses to lend her food: \"Vous chantiez ? j'en suis fort aise. / Eh bien ! dansez maintenant.\" Le Lièvre et la Tortue opens with its moral: \"Rien ne sert de courir ; il faut partir à point.\" Note the passé simple (\"tint\", \"se trouva\") and the passé antérieur (\"fut venue\"), the inverted participles (\"sur un arbre perché\") and \"fort\" meaning very.",
         ],
         examples: [
           { es: "Maître Corbeau, sur un arbre perché, tenait en son bec un fromage.", en: "Master Crow, perched in a tree, held a cheese in his beak." },

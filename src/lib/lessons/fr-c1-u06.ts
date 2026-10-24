@@ -1813,7 +1813,7 @@ export const FR_C1_U06: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order to say (free indirect style): If she really cared, she'd end up writing.",
-        words: ["Si elle", "tenait à lui,", "elle finirait", "par écrire."],
+        words: ["Si elle", "tenait vraiment à lui,", "elle finirait", "par écrire."],
         translation: "If she really cared, she'd end up writing.",
         explanation: "Si + imparfait → conditional, inside the character's reasoning.",
       },
@@ -2732,7 +2732,7 @@ export const FR_C1_U06: Lesson[] = [
         prompt: "Translate into French (convert to literary indirect speech): \"« Où étiez-vous hier soir ? » demanda l'inspecteur.\"",
         source: "The inspector asked where they had been the previous evening.",
         answer: "L'inspecteur demanda où ils avaient été la veille au soir.",
-        altAnswers: ["L'inspecteur leur demanda où ils avaient été la veille au soir.", "L'inspecteur demanda où ils étaient la veille au soir.", "L'inspecteur lui demanda où il avait été la veille au soir.", "L'inspecteur lui demanda où il était la veille au soir."],
+        altAnswers: ["L'inspecteur leur demanda où ils avaient été la veille au soir.", "L'inspecteur demanda où ils étaient la veille au soir."],
         explanation: "Question word kept, no inversion, \"hier soir\" → \"la veille au soir\".",
       },
       {

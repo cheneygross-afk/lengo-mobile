@@ -133,7 +133,7 @@ export const FR_C2_U28: Lesson[] = [
           {
             type: "speak",
             text: "L'homme n'est qu'un roseau, le plus faible de la nature ; mais c'est un roseau pensant.",
-            tip: "Pause at the semicolon; stress pensant.",
+            tip: "Pause at the semicolon; stress \"pensant\".",
             explanation: "Pascal, \"Pensées\": \"ne... que\" (only) sets up the contrast with \"mais c'est un roseau pensant\".",
           },
         ],
@@ -315,7 +315,7 @@ export const FR_C2_U28: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Hugo answers « Admettons. » What is he doing?",
+            question: "Hugo answers \"Admettons.\" What is he doing?",
             options: ["Conceding the point provisionally before objecting", "Admitting he was wrong for good", "Refusing to discuss further", "Agreeing completely with Inès"],
             correctIndex: 0,
             explanation: "\"Admettons\" = let's grant that, for the sake of argument; an objection usually follows.",
@@ -357,7 +357,7 @@ export const FR_C2_U28: Lesson[] = [
           {
             type: "speak",
             text: "Cela dit, je maintiens que notre liberté est limitée.",
-            tip: "Cela dit: se-la-di, no liaison.",
+            tip: "\"Cela dit\": se-la-di, no liaison.",
             explanation: "Concede, then hold your ground: \"cela dit\" + \"je maintiens que\" + indicative.",
           },
         ],
@@ -439,7 +439,7 @@ export const FR_C2_U28: Lesson[] = [
         type: "speak",
         text: "Cela suppose-t-il que nos choix soient déterminés d'avance ?",
         prompt: "Say it in French: Does that imply that our choices are determined in advance?",
-        tip: "Suppose-t-il: the t is pronounced, [sypoztil].",
+        tip: "\"Suppose-t-il\": the t is pronounced, [sypoztil].",
         explanation: "\"Supposer que\" in a question takes the subjunctive (\"soient\").",
       },
       {
@@ -488,7 +488,7 @@ export const FR_C2_U28: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« J'ai des a priori sur ce quartier. » What does it mean?",
+            question: "\"J'ai des a priori sur ce quartier.\" What does it mean?",
             options: ["I have preconceptions about this neighbourhood.", "I have a priori knowledge of this neighbourhood.", "I have priorities in this neighbourhood.", "I lived in this neighbourhood before."],
             correctIndex: 0,
             explanation: "As a noun in everyday French, \"un a priori\" is a preconception, a prejudice.",
@@ -582,7 +582,7 @@ export const FR_C2_U28: Lesson[] = [
           {
             type: "speak",
             text: "La liberté d'expression est une liberté fondamentale.",
-            tip: "Fondamentale: fon-da-men-tale, two nasal vowels.",
+            tip: "\"Fondamentale\": fon-da-men-tale, two nasal vowels.",
             explanation: "\"La liberté d'expression\" (a specific freedom) is \"une liberté\" among others.",
           },
         ],
@@ -635,7 +635,7 @@ export const FR_C2_U28: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence uses « conscience » in the sense of consciousness?",
+        question: "Which sentence uses \"conscience\" in the sense of consciousness?",
         options: ["La conscience de soi distingue l'homme de l'animal.", "Il a mauvaise conscience.", "C'est une affaire de conscience.", "Il a agi selon sa conscience."],
         correctIndex: 0,
         explanation: "\"La conscience de soi\" = self-awareness; the others refer to moral conscience.",
@@ -805,7 +805,7 @@ export const FR_C2_U28: Lesson[] = [
           {
             type: "speak",
             text: "Il convient de distinguer la question de fait de la question de droit.",
-            tip: "Convient: the final ent is nasal here, [kɔ̃vjɛ̃], because it is the verb convenir.",
+            tip: "\"Convient\": the final ent is nasal here, [kɔ̃vjɛ̃], because it is the verb \"convenir\".",
             explanation: "\"Il convient de distinguer A de B\": the standard formula for a conceptual distinction.",
           },
         ],
@@ -860,7 +860,7 @@ export const FR_C2_U28: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Je n'ai pas les moyens. » What does it mean?",
+        question: "\"Je n'ai pas les moyens.\" What does it mean?",
         options: ["I can't afford it.", "I don't have the methods.", "I don't have the aims.", "I'm not average."],
         correctIndex: 0,
         explanation: "\"Avoir les moyens\" = to have the money, to be able to afford.",
@@ -946,7 +946,7 @@ export const FR_C2_U28: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« Peut-on mentir ? » What does « peut-on » ask?",
+            question: "\"Peut-on mentir ?\" What does \"peut-on\" ask?",
             options: ["Both whether it is possible and whether it is legitimate", "Only whether it is physically possible", "Only whether people often do it", "Whether it is compulsory"],
             correctIndex: 0,
             explanation: "\"Pouvoir\" covers capacity and right; a good analysis plays on both.",
@@ -1032,7 +1032,7 @@ export const FR_C2_U28: Lesson[] = [
           {
             type: "speak",
             text: "L'homme est né libre, et partout il est dans les fers.",
-            tip: "Fers: the s is silent, [fɛʁ].",
+            tip: "\"Fers\": the s is silent, [fɛʁ].",
             explanation: "Rousseau, \"Du contrat social\", I, 1: \"les fers\" = chains, a literary word.",
           },
         ],
@@ -1084,7 +1084,7 @@ export const FR_C2_U28: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "In Rousseau's « Tel se croit le maître des autres, qui ne laisse pas d'être plus esclave qu'eux », what does « ne laisse pas d'être » mean?",
+        question: "In Rousseau's \"Tel se croit le maître des autres, qui ne laisse pas d'être plus esclave qu'eux\", what does \"ne laisse pas d'être\" mean?",
         options: ["is nonetheless", "does not let himself be", "stops being", "refuses to be"],
         correctIndex: 0,
         explanation: "Classical \"ne pas laisser de\" + infinitive = not to cease to, to be nonetheless.",
@@ -1152,7 +1152,7 @@ export const FR_C2_U28: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "In Pascal's French, what does « Il ne faut pas que l'univers entier s'arme pour l'écraser » mean?",
+            question: "In Pascal's French, what does \"Il ne faut pas que l'univers entier s'arme pour l'écraser\" mean?",
             options: ["The whole universe need not arm itself to crush him.", "The whole universe must not arm itself to crush him.", "The whole universe refuses to arm itself.", "The whole universe should arm itself."],
             correctIndex: 0,
             explanation: "In classical French \"il ne faut pas que\" can mean there is no need for; today we'd say \"il n'est pas nécessaire que\".",
@@ -1207,7 +1207,7 @@ export const FR_C2_U28: Lesson[] = [
             en: "All our dignity [lies in] thought.",
             sentence: "Toute notre dignité ___ la pensée.",
             answer: "consiste en",
-            altAnswers: ["réside dans", "tient dans"],
+            altAnswers: ["réside dans", "tient à"],
             explanation: "\"Consister en\" + noun = to consist in, lie in.",
           },
           {
@@ -1255,7 +1255,7 @@ export const FR_C2_U28: Lesson[] = [
           {
             type: "speak",
             text: "On pourrait objecter que la conscience de la mort est aussi source d'angoisse.",
-            tip: "Angoisse: an-goisse, nasal an then a hard g.",
+            tip: "\"Angoisse\": an-goisse, nasal an then a hard g.",
             explanation: "A fair objection introduced by \"on pourrait objecter que\"; \"source\" without article in \"être source de\".",
           },
         ],
@@ -1323,7 +1323,7 @@ export const FR_C2_U28: Lesson[] = [
       {
         type: "listen-choose",
         audio: "Quand l'univers l'écraserait, l'homme serait encore plus noble que ce qui le tue.",
-        question: "What does « quand » mean here?",
+        question: "What does \"quand\" mean here?",
         options: ["even if", "when", "because", "as soon as"],
         correctIndex: 0,
         explanation: "\"Quand\" + conditional = even if: a concessive hypothesis.",
@@ -1393,7 +1393,7 @@ export const FR_C2_U28: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Why does « plus libres » matter in the question?",
+            question: "Why does \"plus libres\" matter in the question?",
             options: ["It is a comparative: the question is about degrees and kinds of freedom.", "It means we are already completely free.", "It refers to free time only.", "It makes the question grammatically plural."],
             correctIndex: 0,
             explanation: "Analysing the question means weighing every word; the comparative changes the problem.",
@@ -1480,7 +1480,7 @@ export const FR_C2_U28: Lesson[] = [
           {
             type: "speak",
             text: "Ainsi, la technique libère sans nécessairement rendre libre.",
-            tip: "Nécessairement: four syllables, né-ces-saire-ment.",
+            tip: "\"Nécessairement\": four syllables, né-ces-saire-ment.",
             explanation: "A conclusion that plays on \"libérer\" and \"rendre libre\", the distinction of the paragraph.",
           },
         ],
@@ -1704,7 +1704,7 @@ export const FR_C2_U28: Lesson[] = [
           {
             type: "speak",
             text: "Il s'étira, bâilla, puis haussa les épaules.",
-            tip: "Haussa: the h is aspirated, so il does not link to it: il / haussa.",
+            tip: "\"Haussa\": the h is aspirated, so \"il\" does not link to it: il / haussa.",
             explanation: "Three passé simple verbs in a row: a compact narrative of gestures.",
           },
         ],
@@ -1770,7 +1770,7 @@ export const FR_C2_U28: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Grouille-toi ! » is...",
+        question: "\"Grouille-toi !\" is...",
         options: ["an informal way of saying hurry up", "a polite request to sit down", "a way of saying stop moving", "a compliment on someone's energy"],
         correctIndex: 0,
         explanation: "Informal \"se grouiller\" = to hurry up; the standard verb \"grouiller\" means to teem.",
@@ -1933,7 +1933,7 @@ export const FR_C2_U28: Lesson[] = [
           {
             type: "speak",
             text: "L'enquête a démontré que le rapport était falsifié.",
-            tip: "Démontré: dé-mon-tré, nasal on.",
+            tip: "\"Démontré\": dé-mon-tré, nasal on.",
             explanation: "\"Démontrer\" = to prove, stronger than \"montrer\".",
           },
         ],
@@ -2033,7 +2033,7 @@ export const FR_C2_U28: Lesson[] = [
 
 export const FR_C2_U28_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Write the introduction and one developed paragraph of a French-style philosophy dissertation on the question « Le travail nous rend-il libres ? » (Does work make us free?). In the introduction, analyse the key terms, show the tension and state the problématique as an indirect question. In the paragraph, build an argument on a conceptual distinction, analyse one concrete example, raise an objection and answer it, and link back to the problématique.",
+  prompt: "Write the introduction and one developed paragraph of a French-style philosophy dissertation on the question \"Le travail nous rend-il libres ?\" (Does work make us free?). In the introduction, analyse the key terms, show the tension and state the problématique as an indirect question. In the paragraph, build an argument on a conceptual distinction, analyse one concrete example, raise an objection and answer it, and link back to the problématique.",
   minWords: 250,
   maxWords: 400,
   rubric: [

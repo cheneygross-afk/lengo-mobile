@@ -74,9 +74,9 @@ export const FR_A2_U06: Lesson[] = [
           {
             type: "multiple-choice",
             question: "After an hour's wait on the platform, you say 'The train arrived at last!' Which is best?",
-            options: ["Le train est enfin arrivé !", "Le train est finalement arrivé !", "Le train est arrivé d'abord !", "Le train est ensuite arrivé !"],
+            options: ["Le train est enfin arrivé !", "Le train est arrivé pendant une heure !", "Le train est arrivé d'abord !", "Le train est ensuite arrivé !"],
             correctIndex: 0,
-            explanation: "\"Enfin\" expresses relief: at last. \"Finalement\" isn't wrong but sounds like 'eventually', without the sigh of relief.",
+            explanation: "\"Enfin\" expresses relief: at last. (\"Finalement\" is also possible, but it sounds like 'eventually', without the sigh of relief.)",
           },
           {
             type: "speak",

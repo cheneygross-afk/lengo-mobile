@@ -959,7 +959,7 @@ export const FR_B1_U08: Lesson[] = [
           "But most verbs don't come from the subjunctive: their imperative comes from the present. \"Il faut que tu partes\" → \"Pars !\" (not *parte), \"il faut que tu finisses\" → \"Finis !\", \"il faut que vous preniez\" → \"Prenez !\", \"il faut que tu fasses\" → \"Fais !\". Only être, avoir, savoir and vouloir (veuillez) borrow from the subjunctive.",
         ],
         examples: [
-          { es: "Il faut que vous sachiez la vérité. → Sachez la vérité.", en: "You need to know the truth. → Know the truth." },
+          { es: "Il faut que vous sachiez une chose. → Sachez une chose.", en: "There's one thing you need to know. → Know one thing." },
           { es: "Il faut que nous sachions dire non. → Sachons dire non.", en: "We need to learn to say no. → Let's learn to say no." },
           { es: "Il faut que tu partes. → Pars !", en: "You have to leave. → Leave!" },
           { es: "Il faut que tu finisses ton repas. → Finis ton repas !", en: "You need to finish your meal. → Finish your meal!" },
@@ -987,10 +987,10 @@ export const FR_B1_U08: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "\"Il faut que tu fasses tes valises.\" What's the imperative?",
+            question: "How do you say: Pack your bags! (to a friend)",
             options: ["Fais tes valises !", "Fasse tes valises !", "Fasses tes valises !", "Faites tes valises, toi !"],
             correctIndex: 0,
-            explanation: "Faire comes from the present (\"tu fais\"), not from the subjunctive.",
+            explanation: "Faire comes from the present (\"tu fais\" → \"Fais !\"), not from the subjunctive \"que tu fasses\".",
           },
         ],
       },

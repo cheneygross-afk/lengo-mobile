@@ -659,7 +659,7 @@ export const FR_A2_U08_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence has no mistake?",
+        question: "How do you say: I have to reply to him?",
         options: ["Je dois lui répondre.", "Je lui dois répondre.", "Je dois répondre lui.", "Je dois répondre à lui."],
         correctIndex: 0,
         explanation: "\"Lui\" goes before the infinitive \"répondre\".",
@@ -1157,7 +1157,7 @@ export const FR_A2_U08_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which pair is correct?",
+        question: "How do you say: I'm listening to her / I'm answering her?",
         options: ["Je l'écoute / Je lui réponds", "Je lui écoute / Je le réponds", "Je l'écoute / Je le réponds", "Je lui écoute / Je lui réponds"],
         correctIndex: 0,
         explanation: "\"Écouter\" is direct, \"répondre à\" is indirect.",
@@ -1316,7 +1316,7 @@ export const FR_A2_U08_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say: I often think about him?",
         options: ["Je pense souvent à lui.", "Je lui pense souvent.", "Je le pense souvent à.", "Je pense souvent lui."],
         correctIndex: 0,
         explanation: "\"Penser à\" keeps \"à\" + stressed pronoun.",

@@ -279,7 +279,7 @@ export const FR_C2_U22: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite « Ouais, j'ai bossé deux ans dans une boîte de pub » in interview register: translate the English into French.",
+            prompt: "Rewrite \"Ouais, j'ai bossé deux ans dans une boîte de pub\" in interview register: translate the English into French.",
             source: "I worked for two years at an advertising agency.",
             answer: "J'ai travaillé deux ans dans une agence de publicité.",
             altAnswers: ["J'ai travaillé pendant deux ans dans une agence de publicité.", "J'ai travaillé deux ans au sein d'une agence de publicité.", "J'ai travaillé pendant deux ans au sein d'une agence de publicité.", "J'ai travaillé deux ans pour une agence de publicité."],
@@ -325,7 +325,7 @@ export const FR_C2_U22: Lesson[] = [
             en: "I [sometimes] make mistakes, and I own up quickly.",
             sentence: "___ me tromper, et je le reconnais rapidement.",
             answer: "Il m'arrive de",
-            explanation: "\"Il m'arrive de\" + infinitive replaces an implausible absolute (« je ne me trompe jamais ») with honest nuance.",
+            explanation: "\"Il m'arrive de\" + infinitive replaces an implausible absolute (\"je ne me trompe jamais\") with honest nuance.",
           },
           {
             type: "speak",
@@ -364,7 +364,7 @@ export const FR_C2_U22: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Correct « Je souhaiterais que vous me précisez les horaires » by translating the English into French.",
+            prompt: "Correct \"Je souhaiterais que vous me précisez les horaires\" by translating the English into French.",
             source: "I'd like you to tell me the working hours.",
             answer: "Je souhaiterais que vous me précisiez les horaires.",
             altAnswers: ["Je souhaiterais que vous m'indiquiez les horaires.", "J'aimerais que vous me précisiez les horaires.", "J'aimerais que vous m'indiquiez les horaires.", "Je voudrais que vous me précisiez les horaires.", "Je voudrais que vous m'indiquiez les horaires."],
@@ -377,7 +377,7 @@ export const FR_C2_U22: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct « Bien que j'ai peu d'expérience, je suis motivé » by translating the English into French.",
+        prompt: "Correct \"Bien que j'ai peu d'expérience, je suis motivé\" by translating the English into French.",
         source: "Although I have little experience, I'm highly motivated.",
         answer: "Bien que j'aie peu d'expérience, je suis très motivé.",
         altAnswers: ["Bien que j'aie peu d'expérience, je suis très motivée.", "Bien que j'aie peu d'expérience, je suis extrêmement motivé.", "Bien que j'aie peu d'expérience, je suis extrêmement motivée.", "Bien que j'aie peu d'expérience, ma motivation est très forte.", "Même si j'ai peu d'expérience, je suis très motivé.", "Même si j'ai peu d'expérience, je suis très motivée."],
@@ -386,7 +386,7 @@ export const FR_C2_U22: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct « Les projets que j'ai mené » by translating the English into French.",
+        prompt: "Correct \"Les projets que j'ai mené\" by translating the English into French.",
         source: "The projects I led taught me a lot.",
         answer: "Les projets que j'ai menés m'ont beaucoup appris.",
         altAnswers: ["Les projets que j'ai dirigés m'ont beaucoup appris.", "Les projets que j'ai pilotés m'ont beaucoup appris.", "Les projets que j'ai conduits m'ont beaucoup appris."],
@@ -508,7 +508,7 @@ export const FR_C2_U22: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A job ad says « Profil : bac+2 minimum ». Which candidate qualifies at the minimum?",
+            question: "A job ad says \"Profil : bac+2 minimum\". Which candidate qualifies at the minimum?",
             options: ["Someone with a BTS.", "Someone with only the baccalauréat.", "Someone with a driving licence.", "Nobody without a master's."],
             correctIndex: 0,
             explanation: "A BTS is two years after the bac, so bac+2. \"Le bac\" alone is bac+0; a master is bac+5.",
@@ -648,7 +648,7 @@ export const FR_C2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What is « une licence » on a French CV?",
+        question: "What is \"une licence\" on a French CV?",
         options: ["A three-year bachelor's degree", "A driving licence", "A professional permit to practise", "A master's degree"],
         correctIndex: 0,
         explanation: "\"Une licence\" = bac+3, the French bachelor's. A driving licence is \"le permis de conduire\".",
@@ -928,7 +928,7 @@ export const FR_C2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "An HR manager says « Vous avez été présélectionné ». What does it mean?",
+        question: "An HR manager says \"Vous avez été présélectionné\". What does it mean?",
         options: ["You've been shortlisted.", "You've been hired.", "You've been rejected.", "You've been pre-registered for a course."],
         correctIndex: 0,
         explanation: "\"La présélection\" is the shortlisting stage, before the interviews.",
@@ -1214,7 +1214,7 @@ export const FR_C2_U22: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Mme Delmas asks « Vous avez trouvé facilement ? ». What's the best reply?",
+            question: "Mme Delmas asks \"Vous avez trouvé facilement ?\". What's the best reply?",
             options: ["Oui, très bien, merci. Je connaissais déjà le quartier.", "Oui.", "Ouais, pas de souci, j'ai pris le tram.", "Non, votre adresse est vraiment mal indiquée."],
             correctIndex: 0,
             explanation: "A short, warm, complete answer in the same register; \"oui\" alone is curt, \"ouais\" too casual, and the last is a complaint.",
@@ -1225,8 +1225,8 @@ export const FR_C2_U22: Lesson[] = [
             prompt: "Translate into French.",
             source: "Since I had carried out about forty audits, I was given the creation of a new team.",
             answer: "Comme j'avais réalisé une quarantaine d'audits, on m'a confié la création d'une nouvelle équipe.",
-            altAnswers: ["Comme j'avais effectué une quarantaine d'audits, on m'a confié la création d'une nouvelle équipe.", "Ayant réalisé une quarantaine d'audits, je me suis vu confier la création d'une nouvelle équipe.", "Ayant réalisé une quarantaine d'audits, je me suis vue confier la création d'une nouvelle équipe.", "Comme j'avais réalisé une quarantaine d'audits, je me suis vu confier la création d'une nouvelle équipe.", "Comme j'avais réalisé une quarantaine d'audits, je me suis vue confier la création d'une nouvelle équipe."],
-            explanation: "Plus-que-parfait for the background, passé composé for the step; \"une quarantaine de\" (about forty).",
+            altAnswers: ["Comme j'avais effectué une quarantaine d'audits, on m'a confié la création d'une nouvelle équipe.", "Ayant réalisé une quarantaine d'audits, je me suis vu confier la création d'une nouvelle équipe.", "Comme j'avais réalisé une quarantaine d'audits, je me suis vu confier la création d'une nouvelle équipe."],
+            explanation: "Plus-que-parfait for the background, passé composé for the step; \"une quarantaine de\" (about forty). In \"je me suis vu confier\", \"vu\" stays invariable, since you are not the one doing the confiding.",
           },
         ],
       },
@@ -1610,7 +1610,7 @@ export const FR_C2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence uses « saisir » in the sense of referring a matter to a court?",
+        question: "Which sentence uses \"saisir\" in the sense of referring a matter to a court?",
         options: ["Les locataires ont saisi le tribunal judiciaire.", "Le commissaire de justice a saisi la voiture.", "La police a saisi deux kilos de drogue.", "Elle a saisi l'occasion."],
         correctIndex: 0,
         explanation: "\"Saisir le tribunal\" = to bring a case before the court. The others mean to seize (assets, goods) or to grab (a chance).",
@@ -1680,7 +1680,7 @@ export const FR_C2_U22: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A colleague says « A priori, le train part à l'heure ». What does she mean?",
+            question: "A colleague says \"A priori, le train part à l'heure\". What does she mean?",
             options: ["As far as she knows, the train is leaving on time.", "The train left on time beforehand.", "She is sure the train will be late.", "The train always leaves on time, by definition."],
             correctIndex: 0,
             explanation: "As an adverb, \"a priori\" means presumably, as far as one knows: a hedge, not a philosophical term.",

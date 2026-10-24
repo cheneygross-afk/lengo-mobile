@@ -1130,7 +1130,7 @@ export const FR_A1_U03: Lesson[] = [
         body: [
           "\"Ils ont\" (they have) and \"ils sont\" (they are) differ by one sound. \"Ils ont\" has a buzzing z from the liaison: il-zon. \"Ils sont\" has a hissing s: il-son.",
           "Train your ear on pairs: \"ils ont faim\" / \"ils sont fatigués\", \"elles ont des chiens\" / \"elles sont sympas\". If you hear z, it's \"avoir\"; if you hear s, it's \"être\".",
-          "The same trap exists in the singular in writing: \"il a\" (he has) and \"il est\" (he is) look short and similar, but sound clearly different: ila versus ilé.",
+          "The same trap exists in the singular in writing: \"il a\" (he has) and \"il est\" (he is) look short and similar, but sound clearly different: ila versus ilè.",
         ],
         examples: [
           { es: "Ils ont un chien.", en: "They have a dog." },
@@ -1740,7 +1740,7 @@ export const FR_A1_U03: Lesson[] = [
       {
         heading: "By ear: ils sont, ils ont, c'est, il a",
         body: [
-          "Two pairs to tell apart by sound. \"Ils sont\" (s sound) versus \"ils ont\" (z sound from the liaison). Then \"c'est\" (sé, it is, this is) versus \"il a\" (ila, he has).",
+          "Two pairs to tell apart by sound. \"Ils sont\" (s sound) versus \"ils ont\" (z sound from the liaison). Then \"c'est\" (sè, it is, this is) versus \"il a\" (ila, he has).",
           "\"C'est un chat\" means it's a cat; \"il a un chat\" means he has a cat. A different first sound changes everything, so listen to the very start of the sentence.",
         ],
         examples: [

@@ -39,7 +39,7 @@ export const FR_C2_U26: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does « Les résultats infirment l'hypothèse » mean?",
+            question: "What does \"Les résultats infirment l'hypothèse\" mean?",
             options: ["The results disprove the hypothesis.", "The results confirm the hypothesis.", "The results weaken the patients.", "The results inform the hypothesis."],
             correctIndex: 0,
             explanation: "\"Infirmer\" = to invalidate, the opposite of \"confirmer\".",
@@ -91,7 +91,7 @@ export const FR_C2_U26: Lesson[] = [
           {
             type: "speak",
             text: "En l'état actuel des connaissances, il convient de rester prudent.",
-            tip: "Link état and actuel smoothly: é-ta-tac-tuel.",
+            tip: "Keep \"en l'état actuel\" as one smooth group; the liaison in t after the singular \"état\" is optional and usually not made: é-ta-ak-tuel.",
             explanation: "\"En l'état actuel des connaissances\" = as things currently stand; a key hedging formula.",
           },
         ],
@@ -186,7 +186,7 @@ export const FR_C2_U26: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« C'est une évidence » means...",
+        question: "\"C'est une évidence\" means...",
         options: ["It's obvious.", "It's a piece of evidence.", "It's been proven in court.", "It's an experiment."],
         correctIndex: 0,
         explanation: "\"Une évidence\" is something self-evident; evidence is \"des preuves\" or \"des éléments\".",
@@ -263,7 +263,7 @@ export const FR_C2_U26: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is the most scientifically cautious version of « Les écrans rendent les enfants agressifs »?",
+            question: "Which is the most scientifically cautious version of \"Les écrans rendent les enfants agressifs\"?",
             options: ["Une exposition prolongée aux écrans pourrait favoriser certains comportements agressifs chez l'enfant.", "Les écrans rendent toujours les enfants agressifs.", "Il est prouvé que les écrans rendent les enfants agressifs.", "Les écrans rendraient tous les enfants très agressifs."],
             correctIndex: 0,
             explanation: "It specifies the variable (\"exposition prolongée\"), uses \"favoriser\" instead of a causal verb, limits the scope (\"certains\") and hedges (\"pourrait\").",
@@ -357,7 +357,7 @@ export const FR_C2_U26: Lesson[] = [
           {
             type: "speak",
             text: "Écrans et attention : les chercheurs appellent à la prudence.",
-            tip: "Pause at the colon; appellent sounds like a-pèl.",
+            tip: "Pause at the colon; \"appellent\" sounds like a-pèl.",
             explanation: "A nominal headline with a colon: typical of French science journalism.",
           },
         ],
@@ -507,7 +507,7 @@ export const FR_C2_U26: Lesson[] = [
         heading: "Official terms versus anglicisms",
         body: [
           "In France, the Commission d'enrichissement de la langue française publishes official equivalents for English technical terms; in Québec, the Office québécois de la langue française (OQLF) does the same, often more successfully. Some official terms have won (\"logiciel\", \"ordinateur\", \"courriel\" in Québec and in formal French), others remain bookish in France (\"mot-dièse\" for hashtag, \"jeune pousse\" for start-up).",
-          "Québec has gone further than France: \"le courriel\" (email) is everyday usage there; \"l'infonuagique\" (cloud computing), \"le balado\" (podcast), \"le clavardage\" (online chat), \"le pourriel\" (spam) and \"divulgâcher\" (to spoil a plot, from \"divulguer\" + \"gâcher\"), which France has also adopted officially. In France, people mostly say \"un mail\" or \"un e-mail\", \"un hashtag\", \"une start-up\", \"spoiler\".",
+          "Québec has gone further than France: \"le courriel\" (email) is everyday usage there; \"l'infonuagique\" (cloud computing), \"le balado\" (podcast), \"le clavardage\" (online chat), \"le pourriel\" (spam) and \"divulgâcher\" (to spoil a plot, from \"divulguer\" + \"gâcher\"), which is increasingly heard in France too. In France, people mostly say \"un mail\" or \"un e-mail\", \"un hashtag\", \"une start-up\", \"spoiler\".",
           "Register matters more than purity: in an official letter or a DALF essay, use \"courriel\" or \"message électronique\", \"jeune pousse\" or \"entreprise innovante\", \"hameçonnage\" (phishing); in conversation with friends in Paris, \"je t'envoie un mail\" is perfectly natural, while in Montréal \"je t'envoie un courriel\" is.",
         ],
         examples: [
@@ -533,7 +533,7 @@ export const FR_C2_U26: Lesson[] = [
             question: "A friend in Paris is about to tell you the end of a series. What do you say, in a natural way?",
             options: ["Ne me spoile pas la fin !", "Je vous prie de ne point divulguer la fin.", "N'hameçonne pas la fin !", "Ne clavarde pas la fin !"],
             correctIndex: 0,
-            explanation: "Among friends in France, \"spoiler\" is the everyday verb; \"divulgâcher\" is official (and common in Québec). The second option is absurdly formal.",
+            explanation: "Among friends in France, \"spoiler\" is the everyday verb; \"divulgâcher\" is the Québec coinage, recommended by the OQLF. The second option is absurdly formal.",
           },
           {
             type: "fill-blank",
@@ -550,7 +550,7 @@ export const FR_C2_U26: Lesson[] = [
         body: [
           "Debates about technology need verbs that weigh benefits and risks: \"présenter des atouts / des risques\", \"soulever des questions éthiques\", \"faire peser une menace sur\", \"encadrer\" (to regulate: \"encadrer l'usage de l'IA\"), \"réglementer\", \"déléguer à une machine\", \"automatiser\", \"supplanter\" (to replace, take the place of).",
           "An original passage in the style of a newspaper column: \"L'intelligence artificielle n'est ni la panacée que vantent ses promoteurs ni l'apocalypse que redoutent ses détracteurs. Elle soulève toutefois des questions éthiques que le législateur ne peut ignorer : qui est responsable lorsqu'un algorithme se trompe ? Peut-on déléguer à une machine une décision qui engage la vie d'une personne ? Encadrer sans freiner l'innovation : tel est le défi.\"",
-          "Notice \"ni... ni\" to reject two extremes, the relative clause with inversion (\"que vantent ses promoteurs\"), the rhetorical questions, and the closing \"tel est le défi\" (that is the challenge), an Advanced inversion that ends paragraphs elegantly.",
+          "Notice \"ni... ni\" to reject two extremes, the relative clause with inversion (\"que vantent ses promoteurs\"), the rhetorical questions, and the closing \"tel est le défi\" (that is the challenge), a formal inversion that ends paragraphs elegantly.",
         ],
         examples: [
           { es: "L'IA n'est ni une panacée ni une apocalypse.", en: "AI is neither a cure-all nor an apocalypse." },
@@ -580,7 +580,7 @@ export const FR_C2_U26: Lesson[] = [
           {
             type: "speak",
             text: "L'intelligence artificielle n'est ni une panacée ni une apocalypse.",
-            tip: "Panacée: pa-na-cé, stress the last syllable lightly.",
+            tip: "\"Panacée\": pa-na-cé, stress the last syllable lightly.",
             explanation: "\"Ni... ni\" rejects two extremes; \"ne\" stays before the verb.",
           },
         ],
@@ -645,8 +645,8 @@ export const FR_C2_U26: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Why do purists object to « la transformation digitale »?",
-        options: ["In French, digital refers to fingers; the standard word is numérique.", "Digital is spelled differently in French.", "Transformation is an anglicism.", "It should be le transformation digital."],
+        question: "Why do purists object to \"la transformation digitale\"?",
+        options: ["In French, \"digital\" refers to fingers; the standard word is \"numérique\".", "\"Digital\" is spelled differently in French.", "\"Transformation\" is an anglicism.", "It should be \"le transformation digital\"."],
         correctIndex: 0,
         explanation: "\"Digital\" = relating to fingers (\"empreinte digitale\"); \"numérique\" is the recommended term.",
       },
@@ -676,7 +676,7 @@ export const FR_C2_U26: Lesson[] = [
         source: "Don't spoil the ending for me! (to a friend, Québec style)",
         answer: "Ne me divulgâche pas la fin !",
         altAnswers: ["Divulgâche-moi pas la fin !", "Ne me divulgâche pas la fin."],
-        explanation: "\"Divulgâcher\" (divulguer + gâcher), coined in Québec and now official in France too.",
+        explanation: "\"Divulgâcher\" (divulguer + gâcher), coined in Québec and increasingly used in France too.",
       },
     ],
   },
@@ -758,7 +758,7 @@ export const FR_C2_U26: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does « Cette décision entraîne des risques » mean?",
+            question: "What does \"Cette décision entraîne des risques\" mean?",
             options: ["This decision brings risks.", "This decision trains risks.", "This decision avoids risks.", "This decision drags on."],
             correctIndex: 0,
             explanation: "\"Entraîner\" also means to cause, lead to; context tells it apart from to train.",
@@ -808,7 +808,7 @@ export const FR_C2_U26: Lesson[] = [
           {
             type: "speak",
             text: "La sobriété numérique commence par garder ses appareils plus longtemps.",
-            tip: "Sobriété: so-bri-é-té, four clear syllables.",
+            tip: "\"Sobriété\": so-bri-é-té, four clear syllables.",
             explanation: "\"Commencer par\" + infinitive = to start by doing.",
           },
         ],
@@ -941,7 +941,7 @@ export const FR_C2_U26: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What is « un vulgarisateur »?",
+            question: "What is \"un vulgarisateur\"?",
             options: ["a science communicator", "a vulgar person", "a translator of Latin", "a television presenter of gossip"],
             correctIndex: 0,
             explanation: "\"Vulgariser\" = to make knowledge accessible; only \"vulgaire\" and \"vulgarité\" mean crude.",
@@ -1036,7 +1036,7 @@ export const FR_C2_U26: Lesson[] = [
           {
             type: "speak",
             text: "Le doute est le moteur de la science, à condition qu'il soit méthodique.",
-            tip: "Link condition and qu'il smoothly; méthodique has three syllables, mé-tho-dique.",
+            tip: "Link \"condition\" and \"qu'il\" smoothly; \"méthodique\" has three syllables, mé-to-dik.",
             explanation: "\"À condition que\" + subjunctive (\"soit\").",
           },
         ],
@@ -1166,7 +1166,7 @@ export const FR_C2_U26: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does « la consolidation mnésique » refer to?",
+            question: "What does \"la consolidation mnésique\" refer to?",
             options: ["the stabilisation of memories", "the strengthening of muscles", "the merging of two schools", "the confirmation of a hypothesis"],
             correctIndex: 0,
             explanation: "\"Mnésique\" = relating to memory (Greek mnêmê); it is the technical adjective.",
@@ -1260,7 +1260,7 @@ export const FR_C2_U26: Lesson[] = [
           {
             type: "speak",
             text: "Prudence toutefois : l'étude ne porte que sur un petit nombre d'élèves.",
-            tip: "Pause after toutefois; porte que links into one group.",
+            tip: "Pause after \"toutefois\"; \"porte que\" links into one group.",
             explanation: "A verbless warning (\"Prudence toutefois\") followed by \"ne... que\" (only): the limits stay visible.",
           },
         ],
@@ -1486,7 +1486,7 @@ export const FR_C2_U26: Lesson[] = [
           {
             type: "speak",
             text: "Sur ce point, il n'y a pas de débat.",
-            tip: "Débat: final t silent, [deba].",
+            tip: "\"Débat\": final t silent, [deba].",
             explanation: "A clear statement of consensus, to separate it from real uncertainties.",
           },
         ],
@@ -1617,7 +1617,7 @@ export const FR_C2_U26: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« Il répondit d'un ton sec. » How did he answer?",
+            question: "\"Il répondit d'un ton sec.\" How did he answer?",
             options: ["curtly", "drily, with humour", "thirstily", "in a whisper"],
             correctIndex: 0,
             explanation: "\"Un ton sec\" is curt and cold; dry humour is \"un humour pince-sans-rire\".",
@@ -1712,7 +1712,7 @@ export const FR_C2_U26: Lesson[] = [
           {
             type: "speak",
             text: "Sous la pluie, la lande avait quelque chose de lugubre.",
-            tip: "Lugubre: lu-gubre, two tight French u sounds.",
+            tip: "\"Lugubre\": lu-gubre, two tight French u sounds.",
             explanation: "\"Avoir quelque chose de\" + adjective = to have something... about it.",
           },
         ],

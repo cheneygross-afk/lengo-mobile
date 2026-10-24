@@ -1144,7 +1144,7 @@ export const FR_A2_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is spelled correctly?",
+        question: "How do you write: He was tired?",
         options: ["Il été fatigué.", "Il étais fatigué.", "Il était fatigué.", "Il a était fatigué."],
         correctIndex: 2,
         explanation: "No helper + il → \"était\".",
@@ -1231,7 +1231,7 @@ export const FR_A2_U04: Lesson[] = [
           { es: "Tous les étés, nous allions à la mer.", en: "Every summer we would go to the seaside." },
           { es: "Le dimanche, mon grand-père faisait des crêpes.", en: "On Sundays my grandfather would make pancakes." },
           { es: "Après l'école, je regardais des dessins animés.", en: "After school I would watch cartoons." },
-          { es: "Ma mère chantait toujours en cuisinant.", en: "My mother would always sing while cooking." },
+          { es: "Ma mère chantait toujours dans la cuisine.", en: "My mother would always sing in the kitchen." },
         ],
         checkpoint: [
           {
@@ -1524,7 +1524,7 @@ export const FR_A2_U04: Lesson[] = [
       {
         heading: "School and dreams",
         body: [
-          "\"À l'école, nous étions quarante dans la classe ! La maîtresse était sévère. Je voulais être institutrice, comme elle.\" (\"La maîtresse\" / \"le maître\" = primary school teacher, the old-fashioned word; \"institutrice\" too.)",
+          "\"À l'école, nous étions quarante dans la classe ! La maîtresse était sévère. Je voulais être institutrice, comme elle.\" (\"La maîtresse\" / \"le maître\" is what children call their primary school teacher; \"institutrice\" / \"instituteur\" was the official title in Mamie's day, today \"professeur des écoles\".)",
           "To react and ask more: \"Ah bon ? C'était comment ?\" \"Tu aimais l'école ?\" \"Tes parents travaillaient où ?\"",
         ],
         examples: [
@@ -1913,5 +1913,5 @@ export const FR_A2_U04_WRITING: WriteExercise = {
     "Uses correct stems and spellings, including être (\"j'étais\") and -ger/-cer verbs (\"on mangeait\", \"ça commençait\").",
   ],
   modelAnswer: "Quand j'étais petit, nous passions tous les étés chez mes grands-parents, en Provence. C'était une vieille maison en pierre avec un grand jardin. Il y avait des oliviers et une petite piscine. Il faisait toujours très chaud et on entendait les cigales. Le matin, je jouais avec mes cousins et l'après-midi, on nageait. Le soir, ma grand-mère préparait le dîner et nous mangions dehors. Mon grand-père racontait des histoires. J'avais huit ans et j'étais très heureux.",
-  explanation: "Everything is description or habit, so everything is in the imparfait: stem from the nous form + -ais, -ait, -ions, -aient (\"passions\", \"jouais\", \"nageait\"). \"Être\" is the only irregular stem (\"c'était\", \"j'étais\"); \"mangeait/mangions\" show the -ger rule (e before a, not before i). \"Il y avait\" and \"il faisait\" set the scene.",
+  explanation: "Everything is description or habit, so everything is in the imparfait: stem from the nous form + -ais, -ait, -ions, -aient (\"passions\", \"jouais\", \"nageait\"). \"Être\" is the only irregular stem (\"c'était\", \"j'étais\"); \"nageait\" and \"mangions\" show the -ger rule (e before a, not before i). \"Il y avait\" and \"il faisait\" set the scene.",
 };

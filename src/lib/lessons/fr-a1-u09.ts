@@ -197,7 +197,7 @@ export const FR_A1_U09: Lesson[] = [
         type: "speak",
         text: "Dans la cuisine, il y a un frigo et un four.",
         prompt: "Say it in French: In the kitchen there's a fridge and an oven.",
-        tip: "\"Il y a\" is said as one word, \"i-lya\".",
+        tip: "\"Il y a\" is said as one word, 'i-lya'.",
         explanation: "Start with the room, then \"il y a\" and the list joined by \"et\".",
       },
     ],
@@ -248,7 +248,7 @@ export const FR_A1_U09: Lesson[] = [
         heading: "Cet before a vowel",
         body: [
           "Before a masculine noun that starts with a vowel or a mute h, \"ce\" becomes \"cet\": \"cet ami\", \"cet homme\", \"cet hôtel\", \"cet ordinateur\". It's there to make the words flow, like \"bel\" and \"nouvel\" in Unit 1.",
-          "\"Cet\" sounds exactly like \"cette\": both are said \"set\". So \"cet ami\" (this male friend) and \"cette amie\" (this female friend) sound identical. You only see the difference in writing.",
+          "\"Cet\" sounds exactly like \"cette\": both are said 'set'. So \"cet ami\" (this male friend) and \"cette amie\" (this female friend) sound identical. You only see the difference in writing.",
           "Common mistakes: \"ce ami\" (forgetting the t), and \"cette ami\" for a man. A feminine noun always takes \"cette\", whatever its first letter: \"cette école\", \"cette idée\".",
         ],
         examples: [
@@ -261,7 +261,7 @@ export const FR_A1_U09: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Pointing at a hotel: This hotel is expensive. Which is right?",
+            question: "Pointing at a hotel, how do you say: This hotel is expensive?",
             options: ["Cet hôtel est cher.", "Ce hôtel est cher.", "Cette hôtel est cher.", "Ces hôtel est cher."],
             correctIndex: 0,
             explanation: "\"Hôtel\" is masculine and starts with a mute h, so \"ce\" becomes \"cet\".",
@@ -278,7 +278,7 @@ export const FR_A1_U09: Lesson[] = [
           {
             type: "speak",
             text: "Cet ami est très sympa.",
-            tip: "\"Cet ami\" runs together: \"sé-ta-mi\".",
+            tip: "\"Cet ami\" runs together: 'sè-ta-mi'.",
             explanation: "The t of \"cet\" links straight onto the vowel of \"ami\".",
           },
         ],
@@ -287,7 +287,7 @@ export const FR_A1_U09: Lesson[] = [
         heading: "Ces: these or those",
         body: [
           "The plural is \"ces\" for every noun, masculine or feminine: \"ces livres\", \"ces chaises\", \"ces enfants\". It means these or those.",
-          "Before a vowel the s of \"ces\" is pronounced as a z: \"ces_enfants\" (\"sé-zan-fan\"), \"ces_hôtels\". Before a consonant it's silent.",
+          "Before a vowel the s of \"ces\" is pronounced as a z: \"ces_enfants\" ('sé-zan-fan'), \"ces_hôtels\". Before a consonant it's silent.",
           "Don't confuse \"ces\" (these) with \"ses\" (his, her): same sound, different spelling. \"Ces livres\" = these books; \"ses livres\" = his or her books.",
         ],
         examples: [
@@ -356,7 +356,7 @@ export const FR_A1_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your friend Léa (female) is standing next to you. How do you say This friend lives in Lyon?",
+        question: "Your friend Léa is standing next to you. How do you say: This friend lives in Lyon?",
         options: ["Cette amie habite à Lyon.", "Cet amie habite à Lyon.", "Ce amie habite à Lyon.", "Cette ami habite à Lyon."],
         correctIndex: 0,
         explanation: "A female friend is \"une amie\", so \"cette amie\". \"Cet\" is only for masculine nouns, even though it sounds the same.",
@@ -394,7 +394,7 @@ export const FR_A1_U09: Lesson[] = [
         type: "speak",
         text: "Cette école est très connue.",
         prompt: "Say it in French: That school is very well known.",
-        explanation: "\"École\" is feminine, so \"cette\", pronounced like \"cet\": \"sé-té-kol\".",
+        explanation: "\"École\" is feminine, so \"cette\", pronounced like \"cet\": 'sè-té-kol'.",
       },
     ],
   },
@@ -465,7 +465,7 @@ export const FR_A1_U09: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say this afternoon?",
+            question: "How do you say: this afternoon?",
             options: ["cet après-midi", "ce après-midi", "ces après-midi", "dans cet après-midi"],
             correctIndex: 0,
             explanation: "\"Après-midi\" is usually masculine and starts with a vowel, so \"cet\". \"Ces\" is plural, and time phrases with ce take no preposition.",
@@ -507,7 +507,7 @@ export const FR_A1_U09: Lesson[] = [
             type: "listen-choose",
             audio: "Oui, c'est ça.",
             question: "What does it mean?",
-            options: ["Yes, that's right.", "Yes, it's his.", "Yes, it's this one.", "Yes, that's enough."],
+            options: ["Yes, that's right.", "Yes, it's his.", "Yes, it's over there.", "Yes, that's enough."],
             correctIndex: 0,
             explanation: "\"C'est ça\" is the set phrase for that's right, that's it.",
           },
@@ -671,7 +671,7 @@ export const FR_A1_U09: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say I live opposite the park?",
+            question: "How do you say: I live opposite the park?",
             options: ["J'habite en face du parc.", "J'habite en face de le parc.", "J'habite en face le parc.", "J'habite devant de le parc."],
             correctIndex: 0,
             explanation: "\"En face de\" + \"le parc\" becomes \"en face du parc\". The \"de\" is part of the preposition and can't be dropped.",
@@ -758,7 +758,7 @@ export const FR_A1_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence means The pharmacy is between the bank and the post office?",
+        question: "Which sentence means: The pharmacy is between the bank and the post office?",
         options: [
           "La pharmacie est entre la banque et la poste.",
           "La pharmacie est entre la banque à la poste.",
@@ -1236,7 +1236,7 @@ export const FR_A1_U09: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say I get dressed?",
+            question: "How do you say: I get dressed?",
             options: ["Je m'habille.", "Je me habille.", "Je habille.", "J'm'habille."],
             correctIndex: 0,
             explanation: "\"Me\" becomes \"m'\" before the mute h of \"habille\". Without the pronoun, \"j'habille\" means I dress someone else.",
@@ -1361,7 +1361,7 @@ export const FR_A1_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence means We get up at six?",
+        question: "Which sentence means: We get up at six?",
         options: ["On se lève à six heures.", "On me lève à six heures.", "On lève à six heures.", "On se levons à six heures."],
         correctIndex: 0,
         explanation: "\"On\" takes the il form and the pronoun \"se\": \"on se lève\".",
@@ -1391,7 +1391,7 @@ export const FR_A1_U09: Lesson[] = [
         type: "speak",
         text: "D'abord, je me douche, ensuite je m'habille.",
         prompt: "Say it in French: First I have a shower, then I get dressed.",
-        tip: "\"Je m'habille\": the h is silent, say \"ma-biy\".",
+        tip: "\"Je m'habille\": the h is silent, say 'ma-biy'.",
         explanation: "Two set phrases joined with \"d'abord\" and \"ensuite\".",
       },
     ],
@@ -1550,7 +1550,7 @@ export const FR_A1_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say white trousers?",
+        question: "How do you say: a pair of white trousers?",
         options: ["un pantalon blanc", "des pantalons blancs", "un pantalon blanche", "une pantalon blanche"],
         correctIndex: 0,
         explanation: "One pair is \"un pantalon\" (masculine singular), so \"blanc\".",
@@ -1812,7 +1812,7 @@ export const FR_A1_U09: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say I'm going to the market?",
+            question: "How do you say: I'm going to the market?",
             options: ["Je vais au marché.", "Je vais à le marché.", "Je vais à la marché.", "Je vais en marché."],
             correctIndex: 0,
             explanation: "\"Marché\" is masculine: \"à\" + \"le\" = \"au\".",
@@ -2218,7 +2218,7 @@ export const FR_A1_U09: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say I hate spinach?",
+            question: "How do you say: I hate spinach?",
             options: ["Je déteste les épinards.", "Je déteste des épinards.", "Je déteste d'épinards.", "Je déteste mes épinards."],
             correctIndex: 0,
             explanation: "Likes and dislikes take the definite article: \"les épinards\".",
@@ -2329,7 +2329,7 @@ export const FR_A1_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which word means bookshop?",
+        question: "Which word means: bookshop?",
         options: ["la librairie", "la bibliothèque", "la boulangerie", "la boucherie"],
         correctIndex: 0,
         explanation: "\"La librairie\" sells books; \"la bibliothèque\" is the library.",
@@ -2490,7 +2490,7 @@ export const FR_A1_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Pointing at a woman: She's a great actress. Which is right?",
+        question: "Pointing at a woman, how do you say: She's a great actress?",
         options: ["C'est une grande actrice.", "Elle est une grande actrice.", "C'est un grand actrice.", "Elle est grande actrice."],
         correctIndex: 0,
         explanation: "With an article and an adjective, use \"c'est\": \"c'est une grande actrice\".",

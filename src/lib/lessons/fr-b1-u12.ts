@@ -758,10 +758,10 @@ export const FR_B1_U12: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which reaction needs the indicative?",
-        options: ["Je suis sûr que...", "Je suis surpris que...", "Je ne pense pas que...", "C'est dommage que..."],
+        question: "How do you say: I'm sure he's right?",
+        options: ["Je suis sûr qu'il a raison.", "Je suis sûr qu'il ait raison.", "Je suis sûr qu'il aurait raison.", "Je suis sûr que il a raison."],
         correctIndex: 0,
-        explanation: "Certainty takes the indicative; emotion and doubt take the subjunctive.",
+        explanation: "Certainty (\"je suis sûr que\") takes the indicative: \"il a raison\". Emotion and doubt (\"je suis surpris que\", \"je ne pense pas que\") take the subjunctive. \"Que\" elides before \"il\".",
       },
       {
         type: "listen-choose",
@@ -2607,6 +2607,6 @@ export const FR_B1_U12_WRITING: WriteExercise = {
     "Uses \"quand\" + future for something certain (\"quand tu seras là-bas\").",
     "Never puts the future or conditional after \"si\", and writes \"s'il\" but \"si elle\" / \"si on\".",
   ],
-  modelAnswer: "Coucou Inès !\n\nQuelle nouvelle ! Si tu acceptes ce poste, tu découvriras une ville géniale et tu progresseras beaucoup dans ton métier. Si tu refuses, tu resteras près de ta famille, mais tu le regretteras peut-être. Moi, si j'étais toi, je partirais sans hésiter ! Si tu vivais à Montréal, tu ferais du ski l'hiver et tu irais aux festivals l'été. Bien sûr, il ferait très froid, mais on s'habitue à tout.\n\nEt quand tu seras là-bas, je viendrai te voir, c'est promis ! S'il y a un problème, tu pourras toujours rentrer. Si tu as encore des doutes, fais une liste des pour et des contre. Et si on en parlait ce soir au téléphone ? Appelle-moi quand tu auras fini le travail.\n\nGros bisous,\nClara",
-  explanation: "Real conditions take si + present with a future or imperative result (\"si tu acceptes, tu découvriras\", \"si tu as encore des doutes, fais...\"). Imagined situations take si + imparfait with a conditional result (\"si j'étais toi, je partirais\", \"si tu vivais..., tu ferais\"). \"Quand\" takes the future when the meaning is future (\"quand tu seras\", \"quand tu auras fini\"), and \"si on\" + imparfait alone is a suggestion. \"Si\" elides only before il / ils: \"s'il y a\".",
+  modelAnswer: "Coucou Inès !\n\nQuelle nouvelle ! Si tu acceptes ce poste, tu découvriras une ville géniale et tu progresseras beaucoup dans ton métier. Si tu refuses, tu resteras près de ta famille, mais tu le regretteras peut-être. Moi, si j'étais toi, je partirais sans hésiter ! Si tu vivais à Montréal, tu ferais du ski l'hiver et tu irais aux festivals l'été. Bien sûr, il ferait très froid, mais on s'habitue à tout.\n\nEt quand tu seras là-bas, je viendrai te voir, c'est promis ! S'il y a un problème, tu pourras toujours rentrer. Si tu as encore des doutes, fais une liste des pour et des contre. Et si on en parlait ce soir au téléphone ? Appelle-moi quand tu sortiras du travail.\n\nGros bisous,\nClara",
+  explanation: "Real conditions take si + present with a future or imperative result (\"si tu acceptes, tu découvriras\", \"si tu as encore des doutes, fais...\"). Imagined situations take si + imparfait with a conditional result (\"si j'étais toi, je partirais\", \"si tu vivais..., tu ferais\"). \"Quand\" takes the future when the meaning is future (\"quand tu seras\", \"quand tu sortiras\"), and \"si on\" + imparfait alone is a suggestion. \"Si\" elides only before il / ils: \"s'il y a\".",
 };

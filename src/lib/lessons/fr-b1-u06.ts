@@ -239,10 +239,10 @@ export const FR_B1_U06: Lesson[] = [
       },
       {
         type: "multi-select",
-        question: "Which sentences need the subjunctive in the gap? (… = être)",
-        options: ["Je ne crois pas que ce … vrai.", "Je crois que c'… vrai.", "Je doute que ce … vrai.", "Je suis sûr que c'… vrai."],
+        question: "Which sentences are correct?",
+        options: ["Je ne crois pas que ce soit vrai.", "Je crois que ce soit vrai.", "Je doute que ce soit vrai.", "Je suis sûr que ce soit vrai."],
         correctIndexes: [0, 2],
-        explanation: "Negative croire and douter → \"ce soit\". Affirmative croire and être sûr → \"c'est\".",
+        explanation: "Negative croire and douter take the subjunctive \"ce soit\". Affirmative croire and être sûr take the indicative: \"je crois que c'est vrai\", \"je suis sûr que c'est vrai\".",
       },
       {
         type: "listen-choose",
@@ -433,7 +433,7 @@ export const FR_B1_U06: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "Smoking [is forbidden] in the station.",
+        en: "[It is forbidden to] smoke in the station.",
         sentence: "___ fumer dans la gare.",
         answer: "Il est interdit de",
         explanation: "The written formula for rules: \"il est interdit de\" + infinitive.",
@@ -676,10 +676,10 @@ export const FR_B1_U06: Lesson[] = [
       },
       {
         type: "multi-select",
-        question: "Which expressions take the subjunctive?",
-        options: ["il est possible que", "il est probable que", "il se peut que", "peut-être que", "il est peu probable que"],
+        question: "Which sentences are correct?",
+        options: ["Il est possible qu'il pleuve demain.", "Il est probable qu'il pleuve demain.", "Il se peut qu'il pleuve demain.", "Peut-être qu'il pleuve demain.", "Il est peu probable qu'il pleuve demain."],
         correctIndexes: [0, 2, 4],
-        explanation: "Possible, il se peut and peu probable express mere possibility → subjunctive. Probable and peut-être que → indicative.",
+        explanation: "Possible, il se peut and peu probable express mere possibility → subjunctive \"pleuve\". Probable and peut-être que take the indicative: \"il est probable qu'il pleuvra\", \"peut-être qu'il pleuvra\".",
       },
       {
         type: "listen-choose",
@@ -1098,7 +1098,7 @@ export const FR_B1_U06: Lesson[] = [
         prompt: "Translate into French.",
         source: "It's better to leave early.",
         answer: "Il vaut mieux partir tôt.",
-        altAnswers: ["C'est mieux de partir tôt."],
+        altAnswers: ["C'est mieux de partir tôt.", "Mieux vaut partir tôt."],
         explanation: "General: \"il vaut mieux\" + infinitive directly, no \"de\".",
       },
       {
@@ -2264,10 +2264,10 @@ export const FR_B1_U06: Lesson[] = [
       },
       {
         type: "multi-select",
-        question: "Which sentences need the subjunctive of venir (vienne)?",
-        options: ["Je doute qu'il … .", "Je sais qu'il … .", "Pourvu qu'il … !", "Peut-être qu'il … .", "Je suis content qu'il … ."],
+        question: "Which sentences are correct?",
+        options: ["Je doute qu'il vienne.", "Je sais qu'il vienne.", "Pourvu qu'il vienne !", "Peut-être qu'il vienne.", "Je suis content qu'il vienne."],
         correctIndexes: [0, 2, 4],
-        explanation: "Douter, pourvu que and emotion → subjunctive. Savoir and peut-être que → indicative.",
+        explanation: "Douter, pourvu que and emotion take the subjunctive \"vienne\". Savoir and peut-être que take the indicative: \"je sais qu'il viendra\", \"peut-être qu'il viendra\".",
       },
       {
         type: "word-order",

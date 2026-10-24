@@ -120,8 +120,8 @@ export const FR_C1_U11: Lesson[] = [
             prompt: "Translate into French (careful written style).",
             source: "They're the ones who paid.",
             answer: "Ce sont eux qui ont payé.",
-            altAnswers: ["Ce sont elles qui ont payé.", "C'est eux qui ont payé.", "C'est elles qui ont payé."],
-            explanation: "\"Ce sont eux\" in careful French; \"c'est eux\" is common in speech.",
+            altAnswers: ["Ce sont elles qui ont payé."],
+            explanation: "\"Ce sont eux\" in careful written French; \"c'est eux\" is common in speech but not what was asked here.",
           },
           {
             type: "word-order",
@@ -303,8 +303,7 @@ export const FR_C1_U11: Lesson[] = [
             prompt: "Translate into French (careful style).",
             source: "What I need is silence.",
             answer: "Ce dont j'ai besoin, c'est de silence.",
-            altAnswers: ["Ce dont j'ai besoin, c'est du silence."],
-            explanation: "\"Avoir besoin de\" → \"ce dont\"; \"de\" repeated after c'est.",
+            explanation: "\"Avoir besoin de\" → \"ce dont\"; careful style repeats \"de\" after c'est. The spoken \"c'est du silence\" drops the repeated preposition.",
           },
           {
             type: "fill-blank",
@@ -730,7 +729,7 @@ export const FR_C1_U11: Lesson[] = [
             prompt: "Translate into French.",
             source: "I'm the one who paid for the flat.",
             answer: "C'est moi qui ai payé l'appartement.",
-            altAnswers: ["C'est moi qui ai payé l'appart.", "C'est moi qui ai payé pour l'appartement."],
+            altAnswers: ["C'est moi qui ai payé l'appart."],
             explanation: "\"C'est moi qui ai\": agreement with moi; \"payer\" is direct.",
           },
           {
@@ -1054,7 +1053,7 @@ export const FR_C1_U11: Lesson[] = [
         prompt: "Translate into French with dislocation.",
         source: "Coffee? Yes, I'd love some.",
         answer: "Du café ? Oui, j'en veux bien.",
-        altAnswers: ["Du café ? Oui, je veux bien.", "Du café ? Oui, j'en prendrais volontiers."],
+        altAnswers: ["Du café ? Oui, j'en prendrais volontiers."],
         explanation: "\"En\" for a partitive.",
       },
       {
@@ -1204,8 +1203,7 @@ export const FR_C1_U11: Lesson[] = [
             prompt: "Translate into French (neutral register).",
             source: "How beautiful it is!",
             answer: "Comme c'est beau !",
-            altAnswers: ["Que c'est beau !", "Qu'est-ce que c'est beau !", "Ce que c'est beau !"],
-            explanation: "Exclamative word + normal order: \"Comme c'est beau\".",
+            explanation: "The neutral exclamative: \"comme\" + normal order. \"Qu'est-ce que c'est beau !\" and \"Ce que c'est beau !\" are spoken; \"Que c'est beau !\" is more literary.",
           },
           {
             type: "word-order",
@@ -1224,7 +1222,7 @@ export const FR_C1_U11: Lesson[] = [
         prompt: "Translate into French (casual speech).",
         source: "It's so cold!",
         answer: "Qu'est-ce qu'il fait froid !",
-        altAnswers: ["Ce qu'il fait froid !", "Il fait tellement froid !", "Comme il fait froid !", "Qu'il fait froid !"],
+        altAnswers: ["Ce qu'il fait froid !", "Il fait tellement froid !", "Comme il fait froid !"],
         explanation: "\"Qu'est-ce que\" + statement: the commonest spoken exclamative.",
       },
       {
@@ -1783,7 +1781,7 @@ export const FR_C1_U11: Lesson[] = [
             prompt: "Translate into French with stylistic inversion.",
             source: "the town where my parents live",
             answer: "la ville où habitent mes parents",
-            altAnswers: ["la ville où vivent mes parents", "la ville où mes parents habitent", "la ville où mes parents vivent"],
+            altAnswers: ["la ville où vivent mes parents"],
             explanation: "After \"où\", the noun subject can follow the verb: \"où habitent mes parents\".",
           },
           {
@@ -1825,7 +1823,7 @@ export const FR_C1_U11: Lesson[] = [
             prompt: "Translate into French with a fronted adjective.",
             source: "Few people know the answer.",
             answer: "Rares sont ceux qui connaissent la réponse.",
-            altAnswers: ["Rares sont les gens qui connaissent la réponse.", "Rares sont les personnes qui connaissent la réponse.", "Peu de gens connaissent la réponse."],
+            altAnswers: ["Rares sont les gens qui connaissent la réponse.", "Rares sont les personnes qui connaissent la réponse."],
             explanation: "\"Rares sont ceux qui\": formal emphasis.",
           },
           {
@@ -1880,7 +1878,7 @@ export const FR_C1_U11: Lesson[] = [
         prompt: "Translate into French with stylistic inversion.",
         source: "the film my brother directed",
         answer: "le film qu'a réalisé mon frère",
-        altAnswers: ["le film que mon frère a réalisé"],
+        altAnswers: ["le film qu'a tourné mon frère"],
         explanation: "Noun subject after the verb in the relative clause.",
       },
       {
@@ -1889,7 +1887,7 @@ export const FR_C1_U11: Lesson[] = [
         prompt: "Translate into French with a fronted adjective.",
         source: "Many residents oppose this project.",
         answer: "Nombreux sont les habitants qui s'opposent à ce projet.",
-        altAnswers: ["Nombreux sont les riverains qui s'opposent à ce projet.", "De nombreux habitants s'opposent à ce projet."],
+        altAnswers: ["Nombreux sont les riverains qui s'opposent à ce projet."],
         explanation: "\"Nombreux sont les... qui\".",
       },
       {
@@ -1925,7 +1923,6 @@ export const FR_C1_U11: Lesson[] = [
         prompt: "Translate into French with stylistic inversion.",
         source: "the house where my mother was born",
         answer: "la maison où est née ma mère",
-        altAnswers: ["la maison où ma mère est née"],
         explanation: "\"Où est née ma mère\": verb before the noun subject.",
       },
       {
@@ -2326,7 +2323,7 @@ export const FR_C1_U11: Lesson[] = [
         prompt: "Translate into French with a fronted adjective.",
         source: "Few towns still have a bookshop.",
         answer: "Rares sont les villes qui ont encore une librairie.",
-        altAnswers: ["Peu de villes ont encore une librairie.", "Rares sont les villes qui possèdent encore une librairie."],
+        altAnswers: ["Rares sont les villes qui possèdent encore une librairie."],
         explanation: "\"Rares sont les... qui\".",
       },
       {

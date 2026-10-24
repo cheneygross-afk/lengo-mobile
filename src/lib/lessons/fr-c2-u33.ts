@@ -5,7 +5,7 @@ import type { Lesson, WriteExercise } from "./types";
 
 export const FR_C2_U33_WRITING: WriteExercise = {
   type: "write",
-  prompt: "DALF C2-style task. A national weekly is preparing a special issue on the question « Faut-il limiter l'usage des écrans chez les enfants ? ». Drawing on what you know of the debate (studies on attention and sleep, the educational value of digital tools, parents' freedom, the role of schools and the state), write a tribune for the opinion pages that takes a clear, nuanced position. Give it a title, an introduction that sets out the problem, a structured argument with concessions and counter-arguments, at least one quotation or reported source, and a conclusion that opens the debate.",
+  prompt: "DALF C2-style task. A national weekly is preparing a special issue on the question \"Faut-il limiter l'usage des écrans chez les enfants ?\". Drawing on what you know of the debate (studies on attention and sleep, the educational value of digital tools, parents' freedom, the role of schools and the state), write a tribune for the opinion pages that takes a clear, nuanced position. Give it a title, an introduction that sets out the problem, a structured argument with concessions and counter-arguments, at least one quotation or reported source, and a conclusion that opens the debate.",
   minWords: 250,
   maxWords: 400,
   rubric: [
@@ -70,7 +70,7 @@ export const FR_C2_U33: Lesson[] = [
         heading: "Concession and hypothesis",
         body: [
           "Concession: \"bien que / quoique\" + subjunctive; \"même si\" + indicative; \"avoir beau\" + infinitive (\"j'ai beau chercher, je ne trouve pas\"); \"quel que soit\" (agreeing: \"quelles que soient vos raisons\"); \"si / aussi + adjective + que\" + subjunctive (\"si brillant qu'il soit\"); \"quand bien même\" + conditional (\"quand bien même il pleuvrait\"); \"tout + adjective + que\" + indicative (\"tout ministre qu'il est\").",
-          "Hypothesis: \"si\" + present / imperfect / pluperfect, never the conditional after si; \"à supposer que\", \"pour peu que\" (if only, provided even slightly), \"à condition que\" + subjunctive; \"au cas où\" + conditional (\"au cas où il pleuvrait\"). Literary hypothesis by inversion: \"Viendrait-il à refuser, nous serions dans l'impasse\" (should he refuse).",
+          "Hypothesis: \"si\" + present / imperfect / pluperfect, never the conditional after \"si\"; \"à supposer que\", \"pour peu que\" (if only, provided even slightly), \"à condition que\" + subjunctive; \"au cas où\" + conditional (\"au cas où il pleuvrait\"). Literary hypothesis by inversion: \"Viendrait-il à refuser, nous serions dans l'impasse\" (should he refuse).",
           "These structures are what Mastery examiners look for in a written argument: they show you can hold several possibilities at once, exactly like an educated native writer.",
         ],
         examples: [
@@ -119,7 +119,7 @@ export const FR_C2_U33: Lesson[] = [
         body: [
           "Literary tenses: \"le passé simple\" for narrative events, \"le passé antérieur\" after \"dès que\", \"aussitôt que\", \"à peine... que\" (\"À peine eut-il fini qu'il sortit\"), \"le futur historique\" for later events in a historical account (\"Napoléon mourra à Sainte-Hélène en 1821\"). The participe absolu has its own subject: \"Le dîner terminé, ils passèrent au salon\"; \"ayant\" + past participle marks anteriority: \"Ayant tout perdu, il repartit de zéro\".",
           "Emphatic inversion after certain adverbs at the head of a sentence: \"À peine était-il arrivé que...\", \"Sans doute a-t-il raison\", \"Peut-être viendra-t-elle\", \"Aussi a-t-il démissionné\" (and so), \"Ainsi s'achève le récit\", \"Encore faut-il que\" + subjunctive (still, it remains to be seen whether).",
-          "\"Le ne explétif\" carries no negative meaning: after \"avant que\", \"à moins que\", \"de peur que\", \"craindre que\", \"éviter que\" and in comparisons (\"il est plus tard que je ne pensais\"). \"Le ne littéraire\", alone without pas, with \"cesser\", \"oser\", \"pouvoir\", \"savoir\": \"il ne cesse de pleuvoir\", \"je n'ose y croire\", \"je ne saurais vous dire\" (I couldn't tell you).",
+          "\"Le ne explétif\" carries no negative meaning: after \"avant que\", \"à moins que\", \"de peur que\", \"craindre que\", \"éviter que\" and in comparisons (\"il est plus tard que je ne pensais\"). \"Le ne littéraire\", alone without \"pas\", with \"cesser\", \"oser\", \"pouvoir\", \"savoir\": \"il ne cesse de pleuvoir\", \"je n'ose y croire\", \"je ne saurais vous dire\" (I couldn't tell you).",
         ],
         examples: [
           { es: "À peine eut-il fini son discours qu'il quitta la salle.", en: "Hardly had he finished his speech when he left the room." },
@@ -133,7 +133,7 @@ export const FR_C2_U33: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into French, starting with Sans doute.",
+            prompt: "Translate into French, starting with \"Sans doute\".",
             source: "She's no doubt right.",
             answer: "Sans doute a-t-elle raison.",
             altAnswers: ["Sans doute qu'elle a raison."],
@@ -184,7 +184,7 @@ export const FR_C2_U33: Lesson[] = [
         source: "Unless he's lying, we have a problem.",
         answer: "À moins qu'il ne mente, nous avons un problème.",
         altAnswers: ["À moins qu'il mente, nous avons un problème.", "À moins qu'il ne mente, on a un problème.", "À moins qu'il mente, on a un problème."],
-        explanation: "\"À moins que\" + subjunctive, with an optional ne explétif.",
+        explanation: "\"À moins que\" + subjunctive, with an optional \"ne\" explétif.",
       },
       {
         type: "translate",
@@ -197,7 +197,7 @@ export const FR_C2_U33: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence uses a ne explétif?",
+        question: "Which sentence uses a \"ne\" explétif?",
         options: [
           "Je crains qu'il ne soit trop tard.",
           "Il ne cesse de pleuvoir.",
@@ -205,7 +205,7 @@ export const FR_C2_U33: Lesson[] = [
           "Il n'est pas trop tard.",
         ],
         correctIndex: 0,
-        explanation: "After \"craindre que\", \"ne\" has no negative meaning. The middle two are the literary ne, which is negative.",
+        explanation: "After \"craindre que\", \"ne\" has no negative meaning. The middle two are the literary \"ne\", which is negative.",
       },
       {
         type: "translate",
@@ -214,7 +214,7 @@ export const FR_C2_U33: Lesson[] = [
         source: "He may be right; he still has to prove it.",
         answer: "Il a peut-être raison ; encore faut-il le prouver.",
         altAnswers: ["Il a peut-être raison, encore faut-il le prouver.", "Il a sans doute raison ; encore faut-il le prouver.", "Il a sans doute raison, encore faut-il le prouver."],
-        explanation: "\"Encore faut-il\" + infinitive or que + subjunctive: it remains to be seen.",
+        explanation: "\"Encore faut-il\" + infinitive or \"que\" + subjunctive: it remains to be seen.",
       },
       {
         type: "translate",
@@ -223,7 +223,7 @@ export const FR_C2_U33: Lesson[] = [
         source: "I couldn't tell you.",
         answer: "Je ne saurais vous le dire.",
         altAnswers: ["Je ne saurais vous dire.", "Je ne saurais te le dire.", "Je ne saurais te dire."],
-        explanation: "The literary ne alone with the conditional of savoir: a polished way to say I couldn't.",
+        explanation: "The literary \"ne\" alone with the conditional of \"savoir\": a polished way to say I couldn't.",
       },
       {
         type: "word-order",
@@ -243,7 +243,7 @@ export const FR_C2_U33: Lesson[] = [
       {
         type: "speak",
         text: "À peine eut-il fini son discours qu'il quitta la salle.",
-        tip: "eut-il: link with a t sound, u-til.",
+        tip: "\"Eut-il\": link with a t sound, u-til.",
         explanation: "\"À peine\" + inversion + passé antérieur, then \"que\" + passé simple.",
       },
     ],
@@ -283,7 +283,7 @@ export const FR_C2_U33: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which verb goes with « appel » in legal French?",
+            question: "Which verb goes with \"appel\" in legal French?",
             options: ["interjeter appel", "poser appel", "dégager appel", "émettre appel"],
             correctIndex: 0,
             explanation: "\"Interjeter appel\" (or \"faire appel\") is the legal collocation.",
@@ -336,7 +336,7 @@ export const FR_C2_U33: Lesson[] = [
       {
         heading: "Register: familier, courant, soutenu",
         body: [
-          "The same idea in three registers. Familier: \"T'as vu ? Le patron s'est fait virer.\" Courant: \"Tu as vu ? Le directeur a été licencié.\" Soutenu: \"Avez-vous appris que le directeur avait été démis de ses fonctions ?\" Register is carried by vocabulary (virer / licencier / démettre de ses fonctions), by grammar (dropped ne, t'as, inversion, ça vs cela), and by address (tu / vous).",
+          "The same idea in three registers. Familier: \"T'as vu ? Le patron s'est fait virer.\" Courant: \"Tu as vu ? Le directeur a été licencié.\" Soutenu: \"Avez-vous appris que le directeur avait été démis de ses fonctions ?\" Register is carried by vocabulary (\"virer\", \"licencier\", \"démettre de ses fonctions\"), by grammar (dropped \"ne\", \"t'as\", inversion, \"ça\" vs \"cela\"), and by address (\"tu\" or \"vous\").",
           "Some markers: \"on\" vs \"nous\"; \"ça\" vs \"cela\"; \"c'est pas\" vs \"ce n'est pas\"; intonation questions vs inversion; \"y a\" vs \"il y a\"; \"du coup\" vs \"par conséquent\"; \"genre\" vs \"par exemple\"; \"le boulot\" vs \"le travail\" vs \"l'emploi\" or \"les fonctions\".",
           "The Mastery learner must be able to shift a text cleanly from one register to another without mixing them, except for deliberate stylistic effect.",
         ],
@@ -436,7 +436,7 @@ export const FR_C2_U33: Lesson[] = [
           "Nous avons dès lors tout annulé.",
         ],
         correctIndex: 0,
-        explanation: "\"Du coup\" and \"on\" for nous mark the familiar register.",
+        explanation: "\"Du coup\" and \"on\" for \"nous\" mark the familiar register.",
       },
       {
         type: "translate",
@@ -704,7 +704,7 @@ export const FR_C2_U33: Lesson[] = [
         heading: "Mood and tense errors",
         body: [
           "These four errors are heard every day, even from native speakers, but they are marked in exams and careful writing. (1) \"*Après qu'il soit parti\": \"après que\" states a fact, so standard grammar requires the indicative: \"après qu'il est parti\" (or \"après son départ\"). The subjunctive comes from contamination with \"avant que\".",
-          "(2) \"*Malgré qu'il pleuve\": \"malgré\" is a preposition (\"malgré la pluie\"); the conjunction is \"bien que\" or \"quoique\": \"bien qu'il pleuve\". (\"Malgré que\" survives only in the literary fixed phrase \"malgré que j'en aie\".) (3) \"*Si j'aurais su, je serais venu\": never the conditional after hypothetical si: \"si j'avais su\". (4) \"*Quel que soit ses raisons\": \"quel que soit\" agrees with the subject that follows: \"quelles que soient ses raisons\".",
+          "(2) \"*Malgré qu'il pleuve\": \"malgré\" is a preposition (\"malgré la pluie\"); the conjunction is \"bien que\" or \"quoique\": \"bien qu'il pleuve\". (\"Malgré que\" survives only in the literary fixed phrase \"malgré que j'en aie\".) (3) \"*Si j'aurais su, je serais venu\": never the conditional after hypothetical \"si\": \"si j'avais su\". (4) \"*Quel que soit ses raisons\": \"quel que soit\" agrees with the subject that follows: \"quelles que soient ses raisons\".",
           "To find such errors, ask: what is the mood after this conjunction? does the agreement follow the noun? is \"si\" followed by a conditional?",
         ],
         examples: [
@@ -718,7 +718,7 @@ export const FR_C2_U33: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote « Si j'aurais su, je serais venu. » Translate correctly into French.",
+            prompt: "A learner wrote \"Si j'aurais su, je serais venu.\" Translate correctly into French.",
             source: "If I'd known, I'd have come.",
             answer: "Si j'avais su, je serais venu.",
             altAnswers: ["Si j'avais su, je serais venue."],
@@ -727,7 +727,7 @@ export const FR_C2_U33: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote « Malgré qu'il soit malade, il travaille. » Translate correctly into French.",
+            prompt: "A learner wrote \"Malgré qu'il soit malade, il travaille.\" Translate correctly into French.",
             source: "Although he's ill, he's working.",
             answer: "Bien qu'il soit malade, il travaille.",
             altAnswers: ["Quoiqu'il soit malade, il travaille.", "Malgré sa maladie, il travaille.", "Bien que malade, il travaille."],
@@ -750,8 +750,8 @@ export const FR_C2_U33: Lesson[] = [
       {
         heading: "Agreement and verb errors",
         body: [
-          "(5) \"*Ils se sont arrogés des droits\": the se of \"s'arroger\" is indirect and the object follows, so no agreement: \"ils se sont arrogé des droits\". (6) \"*Elles se sont rendues compte\": in \"se rendre compte\", \"compte\" is the direct object, so \"rendu\" never agrees: \"elles se sont rendu compte\".",
-          "(7) \"*Les mesures qu'ils ont pris\": the direct object \"que\" (= les mesures, feminine plural) comes before avoir, so the participle agrees: \"les mesures qu'ils ont prises\" (and the s is heard: \"prizes\"). (8) \"*Ça me fait triste\": make + adjective is \"rendre\": \"ça me rend triste\". (9) \"*Je sens fatigué\": feeling + adjective is \"se sentir\": \"je me sens fatigué\".",
+          "(5) \"*Ils se sont arrogés des droits\": the \"se\" of \"s'arroger\" is indirect and the object follows, so no agreement: \"ils se sont arrogé des droits\". (6) \"*Elles se sont rendues compte\": in \"se rendre compte\", \"compte\" is the direct object, so \"rendu\" never agrees: \"elles se sont rendu compte\".",
+          "(7) \"*Les mesures qu'ils ont pris\": the direct object \"que\" (= les mesures, feminine plural) comes before \"avoir\", so the participle agrees: \"les mesures qu'ils ont prises\" (and here the agreement is heard: \"prises\" ends in a z sound). (8) \"*Ça me fait triste\": make + adjective is \"rendre\": \"ça me rend triste\". (9) \"*Je sens fatigué\": feeling + adjective is \"se sentir\": \"je me sens fatigué\".",
           "Notice that errors 5 to 7 are spelling errors you cannot hear (except \"prises\"): they are tested above all in writing.",
         ],
         examples: [
@@ -764,7 +764,7 @@ export const FR_C2_U33: Lesson[] = [
         checkpoint: [
           {
             type: "fill-blank",
-            prompt: "A learner wrote « Elles se sont rendues compte de leur erreur. » Write the French for the bold words, correctly.",
+            prompt: "A learner wrote \"Elles se sont rendues compte de leur erreur.\" Write the French for the bold words, correctly.",
             en: "They [realised] their mistake.",
             sentence: "Elles se sont ___ compte de leur erreur.",
             answer: "rendu",
@@ -773,7 +773,7 @@ export const FR_C2_U33: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote « Les décisions qu'il a pris ont surpris tout le monde. » Translate correctly into French.",
+            prompt: "A learner wrote \"Les décisions qu'il a pris ont surpris tout le monde.\" Translate correctly into French.",
             source: "The decisions he took surprised everyone.",
             answer: "Les décisions qu'il a prises ont surpris tout le monde.",
             explanation: "Preceding direct object \"que\" (= les décisions, feminine plural): \"prises\".",
@@ -796,7 +796,7 @@ export const FR_C2_U33: Lesson[] = [
       {
         heading: "Vocabulary and usage errors",
         body: [
-          "(10) \"*Pallier à un problème\": \"pallier\" is transitive: \"pallier un problème\", \"pallier le manque de personnel\" (by analogy with \"remédier à\", many people add à, but it is still marked as an error). (11) \"*Ça fait du sens\": a calque of 'it makes sense'; French says \"ça a du sens\", \"ça a un sens\" or \"c'est logique\".",
+          "(10) \"*Pallier à un problème\": \"pallier\" is transitive: \"pallier un problème\", \"pallier le manque de personnel\" (by analogy with \"remédier à\", many people add \"à\", but it is still marked as an error). (11) \"*Ça fait du sens\": a calque of 'it makes sense'; French says \"ça a du sens\", \"ça a un sens\" or \"c'est logique\".",
           "(12) \"*Je suis sensé arriver à huit heures\": \"sensé\" means sensible; supposed to is \"censé\" (from \"censer\", to reckon): \"je suis censé arriver\". (13) \"*Je me rappelle de cette soirée\": \"se rappeler\" is transitive in careful usage: \"je me rappelle cette soirée\", or \"je me souviens de cette soirée\".",
           "(14) \"*Au jour d'aujourd'hui\": a pleonasm (aujourd'hui already contains \"hui\", an old word for today): say \"aujourd'hui\" or \"de nos jours\". (15) \"*Il a éventuellement réussi\" (meaning he eventually succeeded): \"éventuellement\" means possibly; say \"il a fini par réussir\".",
         ],
@@ -812,7 +812,7 @@ export const FR_C2_U33: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote « Il faut pallier à ce problème. » Translate correctly into French.",
+            prompt: "A learner wrote \"Il faut pallier à ce problème.\" Translate correctly into French.",
             source: "We need to remedy this problem.",
             answer: "Il faut pallier ce problème.",
             altAnswers: ["Il faut remédier à ce problème.", "Nous devons pallier ce problème.", "Nous devons remédier à ce problème.", "On doit remédier à ce problème."],
@@ -820,7 +820,7 @@ export const FR_C2_U33: Lesson[] = [
           },
           {
             type: "word-order",
-            prompt: "A learner wrote « Je suis sensé partir demain. » Put the words in order to say correctly: I'm supposed to leave tomorrow.",
+            prompt: "A learner wrote \"Je suis sensé partir demain.\" Put the words in order to say correctly: I'm supposed to leave tomorrow.",
             words: ["Je", "suis", "censé", "partir", "demain."],
             translation: "I'm supposed to leave tomorrow.",
             explanation: "\"Censé\" (supposed to) vs \"sensé\" (sensible): a classic homophone error.",
@@ -832,7 +832,7 @@ export const FR_C2_U33: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote « Ça fait du sens. » Translate correctly into French.",
+        prompt: "A learner wrote \"Ça fait du sens.\" Translate correctly into French.",
         source: "That makes sense.",
         answer: "Ça a du sens.",
         altAnswers: ["Cela a du sens.", "C'est logique.", "Ça a un sens.", "Cela a un sens.", "Ça se tient."],
@@ -841,16 +841,16 @@ export const FR_C2_U33: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote « Ils se sont arrogés tous les mérites. » Translate correctly into French.",
+        prompt: "A learner wrote \"Ils se sont arrogés tous les mérites.\" Translate correctly into French.",
         source: "They claimed all the credit.",
         answer: "Ils se sont arrogé tous les mérites.",
         altAnswers: ["Elles se sont arrogé tous les mérites.", "Ils se sont attribué tous les mérites.", "Elles se sont attribué tous les mérites."],
-        explanation: "Indirect se + object after the verb: no agreement on \"arrogé\".",
+        explanation: "Indirect \"se\" + object after the verb: no agreement on \"arrogé\".",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote « Quel que soit vos raisons, c'est trop tard. » Translate correctly into French.",
+        prompt: "A learner wrote \"Quel que soit vos raisons, c'est trop tard.\" Translate correctly into French.",
         source: "Whatever your reasons, it's too late.",
         answer: "Quelles que soient vos raisons, c'est trop tard.",
         altAnswers: ["Quelles que soient tes raisons, c'est trop tard.", "Quelles que soient vos raisons, il est trop tard.", "Quelles que soient tes raisons, il est trop tard."],
@@ -858,16 +858,16 @@ export const FR_C2_U33: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "A learner wrote « Je me rappelle de son visage. » Write the French for the bold words, correctly.",
+        prompt: "A learner wrote \"Je me rappelle de son visage.\" Write the French for the bold words, correctly.",
         en: "[I remember] his face.",
         sentence: "___ son visage.",
         answer: "Je me rappelle",
-        explanation: "Careful usage: \"se rappeler quelque chose\" (no de), or \"se souvenir de\".",
+        explanation: "Careful usage: \"se rappeler quelque chose\" (no \"de\"), or \"se souvenir de\".",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote « Ça me fait nerveux. » Translate correctly into French.",
+        prompt: "A learner wrote \"Ça me fait nerveux.\" Translate correctly into French.",
         source: "It makes me nervous.",
         answer: "Ça me rend nerveux.",
         altAnswers: ["Ça me rend nerveuse.", "Cela me rend nerveux.", "Cela me rend nerveuse."],
@@ -876,7 +876,7 @@ export const FR_C2_U33: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote « Au jour d'aujourd'hui, les jeunes lisent moins. » Translate correctly into French.",
+        prompt: "A learner wrote \"Au jour d'aujourd'hui, les jeunes lisent moins.\" Translate correctly into French.",
         source: "Nowadays, young people read less.",
         answer: "De nos jours, les jeunes lisent moins.",
         altAnswers: ["Aujourd'hui, les jeunes lisent moins.", "À l'heure actuelle, les jeunes lisent moins.", "Actuellement, les jeunes lisent moins."],
@@ -897,7 +897,7 @@ export const FR_C2_U33: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote « Après qu'on ait mangé, on est sortis. » Translate correctly into French.",
+        prompt: "A learner wrote \"Après qu'on ait mangé, on est sortis.\" Translate correctly into French.",
         source: "After we had eaten, we went out.",
         answer: "Après avoir mangé, nous sommes sortis.",
         altAnswers: ["Après qu'on a mangé, on est sortis.", "Après avoir mangé, on est sortis.", "Après que nous avons mangé, nous sommes sortis.", "Après que nous avions mangé, nous sommes sortis.", "Après avoir mangé, nous sommes sorties.", "Après avoir mangé, on est sorties."],
@@ -906,7 +906,7 @@ export const FR_C2_U33: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote « Il a éventuellement trouvé un travail. » Translate correctly into French.",
+        prompt: "A learner wrote \"Il a éventuellement trouvé un travail.\" Translate correctly into French.",
         source: "He eventually found a job.",
         answer: "Il a fini par trouver un travail.",
         altAnswers: ["Il a finalement trouvé un travail.", "Il a fini par trouver un emploi.", "Il a finalement trouvé un emploi.", "Il a fini par trouver du travail."],
@@ -914,7 +914,7 @@ export const FR_C2_U33: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "A learner wrote « Je sens très seul ici. » Put the words in order to say correctly: I feel very lonely here.",
+        prompt: "A learner wrote \"Je sens très seul ici.\" Put the words in order to say correctly: I feel very lonely here.",
         words: ["Je", "me", "sens", "très", "seul", "ici."],
         translation: "I feel very lonely here.",
         explanation: "Feeling + adjective = \"se sentir\".",
@@ -967,7 +967,7 @@ export const FR_C2_U33: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "In the notaire's text, what does « sis » mean?",
+            question: "In the notaire's text, what does \"sis\" mean?",
             options: ["located", "six", "sold", "signed"],
             correctIndex: 0,
             explanation: "\"Sis(e)\" is a legal participle meaning situated: \"le bien sis à...\".",
@@ -978,7 +978,7 @@ export const FR_C2_U33: Lesson[] = [
         heading: "The journalist and the friend",
         body: [
           "The local paper: « Annecy : un octogénaire chute en taillant son cerisier. Un homme de 82 ans a été hospitalisé samedi après une chute de près de deux mètres dans le jardin de sa maison du chemin des Vignes. Victime d'une fracture de la hanche, il a été opéré dimanche. Ses jours ne sont pas en danger. » Press markers: a headline with a colon and the present, \"un octogénaire\" (a man in his eighties), the passive for events, the euphemistic formula \"ses jours ne sont pas en danger\" (his life is not in danger), no name.",
-          "A friend's text message: « T'as su pour Jean ? Il est tombé de son échelle en taillant son cerisier, le pauvre. Col du fémur. Ils lui ont mis une prothèse. Du coup il veut vendre la baraque, il dit qu'il en a marre des escaliers. Ça me fait de la peine, on a passé de ces étés là-bas... » Familiar markers: \"t'as su\", no ne, \"le pauvre\", fragments, \"du coup\", \"la baraque\" (the house), \"en avoir marre\", \"on a passé de ces étés\" (an emphatic \"de ces\": such summers we had).",
+          "A friend's text message: « T'as su pour Jean ? Il est tombé de son échelle en taillant son cerisier, le pauvre. Col du fémur. Ils lui ont mis une prothèse. Du coup il veut vendre la baraque, il dit qu'il en a marre des escaliers. Ça me fait de la peine, on a passé de ces étés là-bas... » Familiar markers: \"t'as su\", no \"ne\", \"le pauvre\", fragments, \"du coup\", \"la baraque\" (the house), \"en avoir marre\", \"on a passé de ces étés\" (an emphatic \"de ces\": such summers we had).",
           "Same facts, four texts: the notaire keeps only the legal act, the doctor only the body, the journalist the news, the friend the emotion. Choosing what to say is as much part of register as choosing how.",
         ],
         examples: [
@@ -1022,7 +1022,7 @@ export const FR_C2_U33: Lesson[] = [
         heading: "Your turn: transposing",
         body: [
           "Transposing up the register means nominalising, adding precise vocabulary and impersonal structures: familiar \"Il est tombé de son échelle\" → press \"un homme a chuté d'une échelle\" → medical \"chute d'une hauteur de deux mètres\" → legal \"en raison d'un accident survenu le 3 mai\".",
-          "Transposing down means turning nouns back into verbs, adding the speaker's feelings, dropping ne and using familiar words: \"une fracture du col du fémur\" → \"il s'est cassé le col du fémur\" → \"il s'est pété la hanche\" (very familiar).",
+          "Transposing down means turning nouns back into verbs, adding the speaker's feelings, dropping \"ne\" and using familiar words: \"une fracture du col du fémur\" → \"il s'est cassé le col du fémur\" → \"il s'est pété la hanche\" (very familiar).",
           "Watch the tense too: legal and medical texts favour the passé composé and present with the passive; the press uses the passé composé and the present in headlines; spoken French, the passé composé with \"on\".",
         ],
         examples: [
@@ -1147,7 +1147,7 @@ export const FR_C2_U33: Lesson[] = [
         type: "speak",
         text: "T'as su pour Jean ? Il est tombé de son échelle, le pauvre.",
         prompt: "Say it like a friend: Did you hear about Jean? He fell off his ladder, poor thing.",
-        tip: "T'as is one syllable; let le pauvre drop at the end.",
+        tip: "\"T'as\" is one syllable; let \"le pauvre\" drop at the end.",
         explanation: "Familiar spoken register: \"t'as\", fragments, an affectionate \"le pauvre\".",
       },
     ],
@@ -1357,7 +1357,7 @@ export const FR_C2_U33: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What is the best English for « Quand les poules auront des dents »?",
+        question: "What is the best English for \"Quand les poules auront des dents\"?",
         options: ["When pigs fly.", "When hens grow teeth.", "Once in a blue moon.", "Before the cows come home."],
         correctIndex: 0,
         explanation: "Functional equivalence: an impossible event, 'when pigs fly'.",
@@ -1436,7 +1436,7 @@ export const FR_C2_U33: Lesson[] = [
         heading: "Proverbs and sayings",
         body: [
           "Proverbs are often quoted by halves: a speaker says \"Qui sème le vent...\" and lets the listener finish (\"...récolte la tempête\"). You need the whole proverb to catch the allusion. Core set: \"Qui sème le vent récolte la tempête\"; \"Il ne faut pas vendre la peau de l'ours avant de l'avoir tué\" (don't count your chickens before they hatch); \"Chat échaudé craint l'eau froide\" (once bitten, twice shy); \"Petit à petit, l'oiseau fait son nid\" (slowly but surely); \"L'habit ne fait pas le moine\" (don't judge a book by its cover); \"Qui ne dit mot consent\" (silence gives consent).",
-          "Many come from La Fontaine (seventeenth century, public domain): \"La raison du plus fort est toujours la meilleure\" (Le Loup et l'Agneau) is used ironically about abuses of power; \"Rien ne sert de courir ; il faut partir à point\" (Le Lièvre et la Tortue) about planning ahead.",
+          "Many come from La Fontaine (seventeenth century, public domain): \"La raison du plus fort est toujours la meilleure\" (\"Le Loup et l'Agneau\") is used ironically about abuses of power; \"Rien ne sert de courir ; il faut partir à point\" (\"Le Lièvre et la Tortue\") about planning ahead.",
           "In argument, a proverb works as a shared premise. Using it well means fitting it to the case: \"Chat échaudé craint l'eau froide : après la crise de 2008, les banques sont devenues très prudentes.\"",
         ],
         examples: [
@@ -1553,7 +1553,8 @@ export const FR_C2_U33: Lesson[] = [
         en: "Let me [put forward] a hypothesis.",
         sentence: "Permettez-moi d'___ une hypothèse.",
         answer: "émettre",
-        explanation: "\"Émettre\" (or \"formuler\") une hypothèse.",
+        altAnswers: ["avancer"],
+        explanation: "\"Émettre une hypothèse\" (also \"avancer\" or \"formuler une hypothèse\").",
       },
       {
         type: "translate",
@@ -1720,7 +1721,7 @@ export const FR_C2_U33: Lesson[] = [
         heading: "Structure, quotation and the implicit",
         body: [
           "Structure: (1) ironic praise of slowness; (2) ironic concession about digitisation; (3) the turn, \"Soyons sérieux un instant\", which reveals the thesis; (4) a quotation repurposed; (5) a closing formula in the form \"X n'est pas un luxe : c'est...\". The irony earns the reader's attention; the serious ending cashes it in.",
-          "The quotations are authorities used playfully: Seneca and the ancient philosophers (Diogenes in his barrel, \"tonneau\", is alluded to without being named), then Pascal's Pensées (public domain): « tout le malheur des hommes vient d'une seule chose, qui est de ne savoir pas demeurer en repos, dans une chambre ». The author bends it to describe people confined by paperwork.",
+          "The quotations are authorities used playfully: Seneca and the ancient philosophers (Diogenes in his barrel, \"tonneau\", is alluded to without being named), then Pascal's \"Pensées\" (public domain): « tout le malheur des hommes vient d'une seule chose, qui est de ne savoir pas demeurer en repos, dans une chambre ». The author bends it to describe people confined by paperwork.",
           "The implicit: the text never names a minister or a reform, yet it implies that digitisation has shifted the burden onto citizens and excluded those without equipment or skills. \"Ceux qui en ont le moins\" is a deliberately vague phrase that invites readers to complete it: the least time, money, digital skill. A Mastery reader states these implications explicitly: « L'auteur suggère, sans le dire, que... »",
         ],
         examples: [
@@ -2066,7 +2067,7 @@ export const FR_C2_U33: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Soit on garde cinq jours, soit on accepte le déclin. » Which reply fits best?",
+        question: "\"Soit on garde cinq jours, soit on accepte le déclin.\" Which reply fits best?",
         options: [
           "C'est un faux dilemme : on peut aménager le temps de travail sans décliner.",
           "Vous avez raison, gardons cinq jours.",

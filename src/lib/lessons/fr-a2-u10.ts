@@ -819,7 +819,7 @@ export const FR_A2_U10: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say: The children sleep better here?",
         options: ["Les enfants dorment mieux ici.", "Les enfants dorment meilleur ici.", "Les enfants dorment plus bien ici.", "Les enfants dorment meilleurs ici."],
         correctIndex: 0,
         explanation: "After a verb: \"mieux\". \"Plus bien\" doesn't exist.",
@@ -1289,7 +1289,7 @@ export const FR_A2_U10: Lesson[] = [
           {
             type: "multiple-choice",
             question: "A learner wrote \"Cette pizza est plus bonne que l'autre.\" What's the correct version?",
-            options: ["Cette pizza est meilleure que l'autre.", "Cette pizza est mieux que l'autre.", "Cette pizza est plus bien que l'autre.", "Cette pizza est meilleur que l'autre."],
+            options: ["Cette pizza est meilleure que l'autre.", "Cette pizza est plus meilleure que l'autre.", "Cette pizza est plus bien que l'autre.", "Cette pizza est meilleur que l'autre."],
             correctIndex: 0,
             explanation: "\"Bon\" → \"meilleur\", feminine \"meilleure\" for \"pizza\".",
           },
@@ -1430,7 +1430,7 @@ export const FR_A2_U10: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence has no mistake?",
+        question: "How do you say: It's the most expensive city in France?",
         options: ["C'est la ville la plus chère de France.", "C'est la ville plus chère de France.", "C'est la ville la plus chère en France.", "C'est la plus chère ville dans la France."],
         correctIndex: 0,
         explanation: "Repeated article after the noun, and \"de\" for 'in'.",

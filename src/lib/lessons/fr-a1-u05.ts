@@ -284,7 +284,7 @@ export const FR_A1_U05: Lesson[] = [
         heading: "The -t- between two vowels",
         body: [
           "When the verb ends in a vowel and the pronoun is \"il\", \"elle\" or \"on\", French slips in a \"-t-\" so the two vowels don't collide: \"Il a\" → \"A-t-il ?\", \"Elle parle\" → \"Parle-t-elle ?\", \"On va\" → \"Va-t-on ?\". The t means nothing; it's there only for the sound.",
-          "Verbs that already end in -t or -d don't need it, because that letter is pronounced in inversion: \"Est-il ?\" (é-til), \"Prend-elle ?\" (pran-tel), \"Attend-il ?\". The d is said as a t.",
+          "Verbs that already end in -t or -d don't need it, because that letter is pronounced in inversion: \"Est-il ?\" (è-til), \"Prend-elle ?\" (pran-tel), \"Attend-il ?\". The d is said as a t.",
           "Trap: the -t- is only for il, elle and on. \"Parles-tu\", \"Avez-vous\", \"Sont-ils\" never take one.",
         ],
         examples: [
@@ -442,7 +442,7 @@ export const FR_A1_U05: Lesson[] = [
       {
         type: "speak",
         text: "Parle-t-elle italien ?",
-        tip: "Say the -t- clearly and link it to \"elle\": par-le-tel.",
+        tip: "Say the -t- clearly and link it to \"elle\": parl-tel. The e of \"parle\" stays silent.",
         explanation: "The -t- is pronounced and glues the verb to \"elle\".",
       },
     ],

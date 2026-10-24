@@ -33,7 +33,7 @@ export const FR_C1_U12: Lesson[] = [
             prompt: "Translate into French using the future of probability.",
             source: "The phone's ringing. That'll be Julien.",
             answer: "Le téléphone sonne. Ce sera Julien.",
-            altAnswers: ["Le téléphone sonne. Ça doit être Julien.", "Le téléphone sonne, ce sera Julien."],
+            altAnswers: ["Le téléphone sonne, ce sera Julien."],
             explanation: "Simple future for a guess about the present, like English 'that'll be'.",
           },
           {
@@ -68,8 +68,7 @@ export const FR_C1_U12: Lesson[] = [
             prompt: "Translate into French using the futur antérieur.",
             source: "She must have forgotten.",
             answer: "Elle aura oublié.",
-            altAnswers: ["Elle a dû oublier."],
-            explanation: "Futur antérieur for a guess about the past; \"elle a dû oublier\" is the devoir alternative.",
+            explanation: "Futur antérieur for a guess about the past. \"Elle a dû oublier\" (devoir) is also correct French, but the prompt asks for the futur antérieur.",
           },
           {
             type: "fill-blank",
@@ -77,7 +76,6 @@ export const FR_C1_U12: Lesson[] = [
             en: "My keys? [I must have left them] in the car.",
             sentence: "Mes clés ? ___ dans la voiture.",
             answer: "Je les aurai laissées",
-            altAnswers: ["J'ai dû les laisser"],
             explanation: "Futur antérieur; \"laissées\" agrees with \"les\" (les clés, feminine plural).",
           },
           {
@@ -139,7 +137,7 @@ export const FR_C1_U12: Lesson[] = [
         prompt: "Translate into French using the futur antérieur.",
         source: "He must have missed the bus.",
         answer: "Il aura raté le bus.",
-        altAnswers: ["Il aura manqué le bus.", "Il a dû rater le bus.", "Il a dû manquer le bus."],
+        altAnswers: ["Il aura manqué le bus."],
         explanation: "Futur antérieur of probability.",
       },
       {
@@ -148,7 +146,7 @@ export const FR_C1_U12: Lesson[] = [
         prompt: "Translate into French using the futur antérieur.",
         source: "They must have left early.",
         answer: "Ils seront partis tôt.",
-        altAnswers: ["Elles seront parties tôt.", "Ils ont dû partir tôt.", "Elles ont dû partir tôt."],
+        altAnswers: ["Elles seront parties tôt."],
         explanation: "\"Partir\" takes être: \"ils seront partis\".",
       },
       {
@@ -157,7 +155,7 @@ export const FR_C1_U12: Lesson[] = [
         prompt: "Translate into French using the futur antérieur.",
         source: "My phone? I must have left it at home.",
         answer: "Mon téléphone ? Je l'aurai laissé à la maison.",
-        altAnswers: ["Mon téléphone ? Je l'aurai oublié à la maison.", "Mon téléphone ? J'ai dû le laisser à la maison.", "Mon portable ? Je l'aurai laissé à la maison."],
+        altAnswers: ["Mon téléphone ? Je l'aurai oublié à la maison.", "Mon portable ? Je l'aurai laissé à la maison."],
         explanation: "Futur antérieur with \"l'\" before the auxiliary.",
       },
       {
@@ -166,7 +164,6 @@ export const FR_C1_U12: Lesson[] = [
         en: "She's not here? [She must have got] the wrong day.",
         sentence: "Elle n'est pas là ? ___ de jour.",
         answer: "Elle se sera trompée",
-        altAnswers: ["Elle a dû se tromper"],
         explanation: "\"Se tromper de jour\" in the futur antérieur; agreement with elle.",
       },
       {
@@ -525,8 +522,7 @@ export const FR_C1_U12: Lesson[] = [
             prompt: "Translate into French with the futur antérieur.",
             source: "She must have left.",
             answer: "Elle sera partie.",
-            altAnswers: ["Elle a dû partir."],
-            explanation: "\"Partir\" takes être: \"elle sera partie\" (but \"elle a dû partir\" with devoir).",
+            explanation: "\"Partir\" takes être: \"elle sera partie\". With devoir it would be \"elle a dû partir\", but the prompt asks for the futur antérieur.",
           },
           {
             type: "fill-blank",
@@ -598,7 +594,6 @@ export const FR_C1_U12: Lesson[] = [
         prompt: "Translate into French with devoir.",
         source: "You must have misread. (to a friend)",
         answer: "Tu as dû mal lire.",
-        altAnswers: ["Tu auras mal lu."],
         explanation: "\"Mal\" before the infinitive.",
       },
       {
@@ -708,7 +703,7 @@ export const FR_C1_U12: Lesson[] = [
             prompt: "Translate into French.",
             source: "It must be the traffic.",
             answer: "Ça doit être les bouchons.",
-            altAnswers: ["Ce doit être les bouchons.", "Ça doit être les embouteillages.", "Ce sera les bouchons."],
+            altAnswers: ["Ce doit être les bouchons.", "Ça doit être les embouteillages.", "Ce seront les bouchons.", "Ça sera les bouchons."],
             explanation: "\"Ça doit être\" + noun: a deduction.",
           },
           {
@@ -1000,8 +995,8 @@ export const FR_C1_U12: Lesson[] = [
             prompt: "Translate into French.",
             source: "It may be a mistake.",
             answer: "Il pourrait s'agir d'une erreur.",
-            altAnswers: ["Il s'agirait d'une erreur.", "Ce pourrait être une erreur.", "Ça pourrait être une erreur."],
-            explanation: "\"Il pourrait s'agir de\" is the standard formula for a hypothesis in news style.",
+            altAnswers: ["Ce pourrait être une erreur.", "Ça pourrait être une erreur."],
+            explanation: "\"Il pourrait s'agir de\" is the standard formula for a hypothesis in news style. \"Il s'agirait de\" would mean 'it is apparently', reported information rather than a possibility.",
           },
           {
             type: "word-order",
@@ -1079,7 +1074,7 @@ export const FR_C1_U12: Lesson[] = [
         prompt: "Translate into French.",
         source: "A fire broke out last night. It may have been a criminal act.",
         answer: "Un incendie s'est déclaré cette nuit. Il pourrait s'agir d'un acte criminel.",
-        altAnswers: ["Un incendie s'est déclaré la nuit dernière. Il pourrait s'agir d'un acte criminel.", "Un incendie s'est déclaré cette nuit. Il s'agirait d'un acte criminel."],
+        altAnswers: ["Un incendie s'est déclaré la nuit dernière. Il pourrait s'agir d'un acte criminel."],
         explanation: "Confirmed fact in the indicative, hypothesis with \"pourrait\".",
       },
       {
@@ -1629,7 +1624,7 @@ export const FR_C1_U12: Lesson[] = [
             prompt: "Translate into French.",
             source: "Speed may have been a factor.",
             answer: "La vitesse pourrait être en cause.",
-            altAnswers: ["La vitesse serait en cause.", "La vitesse pourrait avoir joué un rôle."],
+            altAnswers: ["La vitesse pourrait avoir joué un rôle."],
             explanation: "\"Être en cause\" = to be the cause, to be involved.",
           },
           {
@@ -1793,7 +1788,7 @@ export const FR_C1_U12: Lesson[] = [
             prompt: "Translate into French using the play conditional.",
             source: "Let's pretend we're astronauts.",
             answer: "On serait des astronautes.",
-            altAnswers: ["On dirait qu'on serait des astronautes.", "On dirait qu'on est des astronautes."],
+            altAnswers: ["On dirait qu'on serait des astronautes."],
             explanation: "Conditional with \"on\" to set up a game.",
           },
           {
@@ -1980,7 +1975,6 @@ export const FR_C1_U12: Lesson[] = [
             prompt: "Translate into French with inversion.",
             source: "Could he have lied?",
             answer: "Aurait-il menti ?",
-            altAnswers: ["Il aurait menti ?"],
             explanation: "Past conditional in a question = suspicion.",
           },
           {
@@ -2068,7 +2062,6 @@ export const FR_C1_U12: Lesson[] = [
         prompt: "Translate into French with inversion.",
         source: "Could it be possible?",
         answer: "Serait-ce possible ?",
-        altAnswers: ["Est-ce que ce serait possible ?"],
         explanation: "Conditional of surprise with inversion.",
       },
       {
@@ -2403,7 +2396,7 @@ export const FR_C1_U12: Lesson[] = [
             prompt: "Translate into French using the futur antérieur.",
             source: "I must have misread the timetable.",
             answer: "J'aurai mal lu l'horaire.",
-            altAnswers: ["J'ai dû mal lire l'horaire.", "J'aurai mal lu les horaires.", "J'ai dû mal lire les horaires."],
+            altAnswers: ["J'aurai mal lu les horaires."],
             explanation: "Futur antérieur (-ai) for a guess, not the conditional (-ais).",
           },
           {
@@ -2482,7 +2475,7 @@ export const FR_C1_U12: Lesson[] = [
             prompt: "Translate into French using the futur antérieur.",
             source: "He must have had a better offer.",
             answer: "Il aura reçu une meilleure offre.",
-            altAnswers: ["Il a dû recevoir une meilleure offre.", "Il aura eu une meilleure offre."],
+            altAnswers: ["Il aura eu une meilleure offre."],
             explanation: "A spontaneous guess about the past.",
           },
           {
@@ -2597,5 +2590,5 @@ export const FR_C1_U12_WRITING: WriteExercise = {
     "Your own opinion, if you give one, in the indicative (\"selon moi, c'est...\")",
   ],
   modelAnswer: "Le Lion de la place du Marché a disparu\n\nLes habitants du quartier Saint-Michel ont eu une drôle de surprise mardi matin : la statue du lion en bronze qui trônait depuis 1902 sur la place du Marché a disparu. La mairie a confirmé l'information en fin de matinée et une plainte a été déposée.\n\nSelon les premiers éléments de l'enquête, la statue aurait été enlevée entre deux et quatre heures du matin. Les auteurs auraient utilisé une grue, puisque des traces de pneus ont été relevées sur le trottoir. D'après un voisin, un camion blanc serait resté garé sur la place pendant une bonne partie de la nuit. La police n'a pas souhaité commenter ces témoignages.\n\nÀ en croire certains commerçants, ce ne serait pas la première tentative : le socle aurait déjà été endommagé l'an dernier. Il paraît même qu'un collectionneur étranger s'intéressait à l'œuvre, mais rien ne permet pour l'instant de le confirmer.\n\nSur la place, chacun a sa théorie. « Ils l'auront revendue pour le métal, à tous les coups », soupire Martine, fleuriste depuis trente ans. « Il a dû y avoir des complices, on ne déplace pas trois tonnes de bronze tout seul », estime Karim, le patron du café. D'autres préfèrent en rire : il s'agirait d'une blague d'étudiants, et le lion réapparaîtra sans doute dans un jardin de la ville.\n\nPour ma part, je pense que la mairie doit enfin installer des caméras sur cette place. Quand bien même la statue serait retrouvée, cette affaire montre que notre patrimoine est mal protégé.",
-  explanation: "The model keeps a clear line between what is known and what is reported. Confirmed facts use the indicative: 'a disparu', 'a confirmé', 'une plainte a été déposée', 'des traces ont été relevées'. Unconfirmed details use the journalistic conditional, with a source named each time: 'selon les premiers éléments', 'd'après un voisin', 'à en croire certains commerçants', 'il paraît que'. The residents' guesses switch to the speaker's own conjecture: the futur antérieur ('ils l'auront revendue'), devoir of deduction ('il a dû y avoir'), and 'sans doute' with the future. The writer's own opinion at the end is in the indicative ('je pense que la mairie doit'), as it should be, and 'quand bien même' + conditional adds a final hypothesis.",
+  explanation: "The model keeps a clear line between what is known and what is reported. Confirmed facts use the indicative: \"a disparu\", \"a confirmé\", \"une plainte a été déposée\", \"des traces ont été relevées\". Unconfirmed details use the journalistic conditional, with a source named each time: \"selon les premiers éléments\", \"d'après un voisin\", \"à en croire certains commerçants\", \"il paraît que\". The residents' guesses switch to the speaker's own conjecture: the futur antérieur (\"ils l'auront revendue\"), devoir of deduction (\"il a dû y avoir\"), and \"sans doute\" with the future. The writer's own opinion at the end is in the indicative (\"je pense que la mairie doit\"), as it should be, and \"quand bien même\" + conditional adds a final hypothesis.",
 };

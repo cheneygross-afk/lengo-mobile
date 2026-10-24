@@ -904,9 +904,9 @@ export const FR_B2_U15_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "'He's grown old.' Which is correct?",
-        options: ["Il a vieilli.", "Il est vieilli.", "Il s'est vieilli.", "Il a devenu vieux."],
+        options: ["Il a vieilli.", "Il est devenu vieilli.", "Il s'est vieilli.", "Il a devenu vieux."],
         correctIndex: 0,
-        explanation: "\"Vieillir\" with \"avoir\".",
+        explanation: "\"Vieillir\" is one verb meaning 'to grow old', and it takes \"avoir\": \"il a vieilli\". It is not reflexive, and \"devenir\" (which takes \"être\") would need the adjective \"vieux\", not the participle.",
       },
       {
         type: "translate",

@@ -152,7 +152,7 @@ export const FR_B2_S03_STORIES: Story[] = [
         question: `What started the "war" with the Morin family?`,
         options: [`They had produced less waste than the Lambert family in the first week.`, `They complained about the Lamberts' worms.`, `They mocked Noah at school.`, `They refused to take part.`],
         correctIndex: 0,
-        explanation: `The Morins "avait produit huit cents grammes de moins que les Lambert la première semaine. À partir de ce moment, la guerre était déclarée."`,
+        explanation: `The text says the Morin family "avait produit huit cents grammes de moins que les Lambert la première semaine. À partir de ce moment, la guerre était déclarée."`,
       },
       {
         question: `What made Fatima start to worry about Olivier?`,
@@ -297,7 +297,7 @@ export const FR_B2_S03_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "l'adjointe au maire", en: "deputy mayor", forms: ["l'adjointe"] },
     { es: "la concertation", en: "consultation", forms: ["concertation"] },
     { es: "le laiton", en: "brass", forms: ["laiton"] },
-    { es: "se tirer d'un mauvais pas", en: "to get out of a tight spot", forms: ["pas"] },
+    { es: "se tirer d'un mauvais pas", en: "to get out of a tight spot", forms: ["mauvais"] },
   ],
   "fr-la-poubelle-de-l-annee": [
     { es: "prendre conscience de", en: "to become aware of", forms: ["conscience"] },

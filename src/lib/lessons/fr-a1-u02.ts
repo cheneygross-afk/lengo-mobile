@@ -32,7 +32,7 @@ export const FR_A1_U02: Lesson[] = [
         body: [
           "French vowels are short, tense and steady: the mouth takes one position and holds it. English vowels tend to slide. Say day slowly and you'll feel your tongue move up into a y at the end; French \"é\" stops before that slide. Keep the lips spread, as if smiling, and cut it off clean: \"été\" (summer), \"café\", \"thé\".",
           "\"È\" is more open, like the e in bed: \"mère\" (mother), \"très\" (very), \"fête\" (party). The spellings \"ai\" and \"ê\" usually give the same open sound: \"lait\" (milk), \"êtes\".",
-          "The difference matters: \"les\" (with é) and \"lait\" (with è) are close but not identical, and native speakers in the north of France keep them apart. If in doubt, aim for a tense, short é in \"les\", \"des\", \"et\".",
+          "The difference matters in careful speech: \"les\" (with é) and \"lait\" (with è) are close but not identical. Standard French keeps them apart, although many speakers today blur the two at the end of a word, so a slip won't cause a misunderstanding. Aim for a tense, short é in \"les\", \"des\", \"et\".",
         ],
         examples: [
           { es: "Le thé est très bon.", en: "The tea is very good." },
@@ -95,7 +95,7 @@ export const FR_A1_U02: Lesson[] = [
         heading: "I, and one sound with many spellings",
         body: [
           "French \"i\" is like the ee in see, but shorter and tenser, with the lips spread wide: \"lit\" (bed), \"ici\", \"ami\", \"midi\", \"Paris\". The letter \"y\" often gives the same sound: \"stylo\".",
-          "French spelling has more letters than sounds. The é sound can be written é, -er, -ez or -et at the end of a word (\"café\", \"premier\", \"nez\", \"et\"); the è sound è, ê, ai or ei (\"mère\", \"fête\", \"lait\", \"seize\"); the o sound o, au or eau. Learning these spellings lets you read new words aloud.",
+          "French spelling has more letters than sounds. The é sound can be written é, or -er and -ez at the end of a word (\"café\", \"premier\", \"nez\"), and the little word \"et\" (and) has it too; the è sound è, ê, ai or ei (\"mère\", \"fête\", \"lait\", \"seize\"); the o sound o, au or eau. Learning these spellings lets you read new words aloud.",
         ],
         examples: [
           { es: "Le lit est ici.", en: "The bed is here." },
@@ -439,7 +439,7 @@ export const FR_A1_U02: Lesson[] = [
           { es: "L'enfant est grand.", en: "The child is tall." },
           { es: "Le pain est bon.", en: "The bread is good." },
           { es: "Le vin blanc est français.", en: "The white wine is French." },
-          { es: "La maison est importante.", en: "The house is important." },
+          { es: "Le pain est important en France.", en: "Bread is important in France." },
           { es: "Le matin, la chambre est froide.", en: "In the morning, the bedroom is cold." },
           { es: "Ils sont onze.", en: "There are eleven of them." },
         ],
@@ -1233,12 +1233,12 @@ export const FR_A1_U02: Lesson[] = [
       {
         heading: "Even syllables, stress at the end",
         body: [
-          "English words have a strong syllable and weak ones: BAnana in some accents, baNAna in others, REStaurant. French gives every syllable roughly the same length and weight, then adds a little extra length to the last syllable: ba-na-NE, res-tau-RANT, cho-co-LAT, im-por-TANT.",
+          "English words have a strong syllable and weak ones: BAnana in some accents, baNAna in others, REStaurant. French gives every syllable roughly the same length and weight, then adds a little extra length to the last syllable: ba-NANE (the final e is silent), res-tau-RANT, cho-co-LAT, im-por-TANT.",
           "Cognates are the trap: the word looks English, so you say it with English stress. \"Hôtel\" is o-TEL, \"possible\" is po-SSIBLE (the final e silent), \"photographe\" is pho-to-GRAPHE, \"Canada\" is ca-na-DA.",
           "In a phrase, only the last syllable of the whole group gets the stress, not each word: \"un grand restaurant\" = un-gran-res-tau-RANT, \"je suis de Marseille\" = je-suis-de-mar-SEILLE.",
         ],
         examples: [
-          { es: "Le restaurant est important.", en: "The restaurant is important." },
+          { es: "Le restaurant est excellent.", en: "The restaurant is excellent." },
           { es: "La banane est très bonne.", en: "The banana is very good." },
           { es: "L'hôtel est moderne.", en: "The hotel is modern." },
           { es: "Je suis de Marseille.", en: "I'm from Marseille." },
@@ -1255,8 +1255,8 @@ export const FR_A1_U02: Lesson[] = [
           },
           {
             type: "speak",
-            text: "Le restaurant est important.",
-            tip: "Keep every syllable even, and lengthen only the very last: im-por-TANT.",
+            text: "Le restaurant est excellent.",
+            tip: "Keep every syllable even, and lengthen only the very last: ex-cel-LENT.",
             explanation: "No strong-weak English rhythm: French stress sits at the end of the group.",
           },
         ],
@@ -1347,9 +1347,9 @@ export const FR_A1_U02: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "The restaurant is important.",
-        answer: "Le restaurant est important.",
-        explanation: "Even syllables with the stress on the last: res-tau-rant-est-im-por-TANT.",
+        source: "The restaurant is excellent.",
+        answer: "Le restaurant est excellent.",
+        explanation: "Even syllables with the stress on the very last: le-res-tau-rant-est-ex-cel-LENT. In English the stress would fall on EX.",
       },
       {
         type: "translate",
@@ -1469,7 +1469,7 @@ export const FR_A1_U02: Lesson[] = [
         heading: "Letter groups: ch, gn, ill, oi, qu",
         body: [
           "Some letter combinations make one sound you can always predict. \"Ch\" is sh: \"chat\", \"chef\", \"chambre\". \"Gn\" is like the ny of canyon: \"montagne\" (mountain), \"champagne\", \"Espagne\". \"Ph\" is f: \"photo\". \"Qu\" is just k: \"qui\", \"quatre\", \"question\".",
-          "\"Oi\" is wa: \"moi\", \"toi\", \"trois\", \"noir\", \"voiture\". \"Ill\" after a vowel or i is usually a y sound: \"fille\" (fee-y), \"famille\", \"gentille\"; so is \"-il\" after a vowel: \"travail\". Exceptions with an l sound: \"ville\", \"mille\", \"tranquille\".",
+          "\"Oi\" is wa: \"moi\", \"toi\", \"trois\", \"noir\", \"voiture\". \"Ill\" is usually a y sound: \"fille\" (fee-y), \"famille\", \"gentille\"; so is \"-il\" after a vowel: \"travail\". Exceptions with an l sound: \"ville\", \"mille\", \"tranquille\".",
           "\"Eu\" is a vowel English doesn't have: say é with rounded lips (\"deux\", \"bleu\", \"heureux\"). \"Ai\" is è (\"lait\"), and \"au/eau\" is o.",
         ],
         examples: [

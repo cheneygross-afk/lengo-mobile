@@ -1114,15 +1114,15 @@ export const FR_B1_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence needs the subjunctive?",
+        question: "Which sentence is correct?",
         options: [
-          "Je sais qu'elle ___ malade.",
-          "Je suis triste qu'elle ___ malade.",
-          "Il dit qu'elle ___ malade.",
-          "Je vois qu'elle ___ malade.",
+          "Je sais qu'elle soit malade.",
+          "Je suis triste qu'elle soit malade.",
+          "Il dit qu'elle soit malade.",
+          "Je suis triste qu'elle est malade.",
         ],
         correctIndex: 1,
-        explanation: "Only the emotion \"être triste que\" triggers the subjunctive.",
+        explanation: "Only the emotion \"être triste que\" triggers the subjunctive: \"qu'elle soit malade\". Knowing and saying report a fact, so they keep the indicative: \"je sais qu'elle est malade\", \"il dit qu'elle est malade\".",
       },
       {
         type: "listen-choose",
@@ -1616,10 +1616,10 @@ export const FR_B1_U04: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which trigger takes the indicative?",
-            options: ["espérer que", "souhaiter que", "avoir peur que", "vouloir que"],
+            question: "Which sentence is correct?",
+            options: ["J'espère que tu viendras.", "Je souhaite que tu viendras.", "J'ai peur que tu viendras.", "Je veux que tu viendras."],
             correctIndex: 0,
-            explanation: "\"Espérer que\" is the exception: indicative.",
+            explanation: "\"Espérer que\" is the exception: it takes the indicative (\"tu viendras\"). \"Souhaiter\", \"avoir peur\" and \"vouloir que\" need the subjunctive: \"que tu viennes\".",
           },
           {
             type: "translate",

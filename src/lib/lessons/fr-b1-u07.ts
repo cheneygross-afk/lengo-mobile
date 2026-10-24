@@ -275,10 +275,10 @@ export const FR_B1_U07: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "\"Il se peut qu'elle ait un problème de voiture.\" Why \"ait\"?",
-            options: ["Il se peut que is a possibility trigger.", "Because it's a past tense.", "Because elle is feminine.", "Because peut is in the sentence, as with peut-être."],
+            question: "How do you say: She may have a problem with her car? (use il se peut)",
+            options: ["Il se peut qu'elle ait un problème de voiture.", "Il se peut qu'elle a un problème de voiture.", "Il se peut qu'elle aura un problème de voiture.", "Il se peut qu'elle avoir un problème de voiture."],
             correctIndex: 0,
-            explanation: "\"Il se peut que\" triggers the subjunctive; \"peut-être que\" does not.",
+            explanation: "\"Il se peut que\" is a possibility trigger, so it takes the subjunctive \"ait\"; \"peut-être que\" does not: \"peut-être qu'elle a un problème\".",
           },
         ],
       },
@@ -426,14 +426,14 @@ export const FR_B1_U07: Lesson[] = [
       },
       {
         type: "matching",
-        instructions: "Match each French 'maybe' with its mood.",
+        instructions: "Match each French sentence with its meaning.",
         pairs: [
-          { left: "il est possible que", right: "subjunctive" },
-          { left: "peut-être que", right: "indicative" },
-          { left: "je doute que", right: "subjunctive (doubt)" },
-          { left: "sans doute", right: "indicative (probably)" },
+          { left: "Il est possible qu'elle soit là.", right: "It's possible she's there." },
+          { left: "Peut-être qu'elle est là.", right: "Maybe she's there." },
+          { left: "Je doute qu'elle soit là.", right: "I doubt she's there." },
+          { left: "Elle est sans doute là.", right: "She's probably there." },
         ],
-        explanation: "Triggers take the subjunctive; adverbs keep the indicative.",
+        explanation: "The triggers \"il est possible que\" and \"je doute que\" take the subjunctive \"soit\"; the adverbs \"peut-être\" and \"sans doute\" keep the indicative \"est\".",
       },
       {
         type: "word-order",
@@ -1305,7 +1305,7 @@ export const FR_B1_U07: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "It appears the project [has been dropped].",
+        en: "It appears the project [has been] dropped.",
         sentence: "Il semble que le projet ___ abandonné.",
         answer: "soit",
         explanation: "\"Il semble que\" (no me) usually takes the subjunctive.",

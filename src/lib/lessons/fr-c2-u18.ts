@@ -118,7 +118,7 @@ export const FR_C2_U18: Lesson[] = [
             type: "speak",
             text: "Dans un premier temps, l'autrice analyse les causes de la désindustrialisation.",
             prompt: "Say it in French: First, the author analyses the causes of deindustrialisation.",
-            tip: "\"Désindustrialisation\" has seven syllables: dé-sin-dus-tri-a-li-sa-tion, with a z sound for the s.",
+            tip: "\"Désindustrialisation\" has eight syllables: dé-sin-dus-tri-a-li-sa-tion, with a z sound for the s.",
             explanation: "\"Dans un premier temps\" opens a compte rendu that follows the author's structure.",
           },
         ],
@@ -811,7 +811,7 @@ export const FR_C2_U18: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What does « Le manuscrit date sans doute du XVIIe siècle » mean?",
+        question: "What does \"Le manuscrit date sans doute du XVIIe siècle\" mean?",
         options: ["The manuscript probably dates from the 17th century.", "The manuscript undoubtedly dates from the 17th century.", "The manuscript dates from the 17th century without any doubt.", "Nobody doubts the manuscript's date."],
         correctIndex: 0,
         explanation: "\"Sans doute\" = probably. Certainty is \"sans aucun doute\" or \"assurément\".",
@@ -1585,7 +1585,7 @@ export const FR_C2_U18: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A newspaper headline reads « Une critique élogieuse ». What is it?",
+            question: "A newspaper headline reads \"Une critique élogieuse\". What is it?",
             options: ["A glowing review", "A flattering female critic", "A critical eulogy", "A complaint about praise"],
             correctIndex: 0,
             explanation: "\"Une critique\" + adjective about praise: a review. The female critic is possible in theory, but \"élogieuse\" makes the review reading obvious.",

@@ -181,7 +181,7 @@ export const FR_B2_U02: Lesson[] = [
           {
             type: "speak",
             text: "Il y avait cent invités, parmi lesquels plusieurs ministres.",
-            tip: "Liaison: \"parmi lesquels plusieurs\": no liaison before \"plusieurs\", which starts with a consonant.",
+            tip: "\"Lesquels\" is said lé-kel: both s are silent here, because \"plusieurs\" starts with a consonant.",
             explanation: "After \"parmi\", \"lesquels\" is used even for people.",
           },
         ],
@@ -783,10 +783,10 @@ export const FR_B2_U02: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which fits: « C'est l'artiste ___ tout le monde parle cette année. »",
-            options: ["dont", "duquel", "de qui", "que"],
+            question: "He's the artist everyone's talking about this year. Which word completes « C'est l'artiste ___ tout le monde parle cette année » ?",
+            options: ["dont", "duquel", "qui", "que"],
             correctIndex: 0,
-            explanation: "\"Parler de\" with a plain \"de\" → \"dont\", the natural choice.",
+            explanation: "\"Parler de\" with a plain \"de\" → \"dont\". \"Duquel\" is only for compound prepositions like \"près de\", and \"qui\" / \"que\" can't carry the \"de\".",
           },
         ],
       },
@@ -935,7 +935,7 @@ export const FR_B2_U02: Lesson[] = [
       {
         heading: "Ta maison idéale",
         body: [
-          "Describing an ideal home combines everything in the unit: \"je voudrais une maison qui ait un jardin\", \"une cuisine dans laquelle on puisse manger à six\", \"un bureau à partir duquel je puisse voir la mer\". The subjunctive appears even after \"dans laquelle\" and \"où\", because the home is imagined.",
+          "Describing an ideal home combines everything in the unit: \"je voudrais une maison qui ait un jardin\", \"une cuisine dans laquelle on puisse manger à six\", \"un bureau d'où je puisse voir la mer\". The subjunctive appears even after \"dans laquelle\" and \"où\", because the home is imagined.",
           "Useful words: \"la pièce\" (room in general), \"le séjour\" (living room), \"la véranda\", \"le grenier\" (attic), \"la cave\" (cellar), \"lumineux\", \"spacieux\", \"au calme\", \"de plain-pied\" (single-storey).",
         ],
         examples: [
@@ -1260,7 +1260,7 @@ export const FR_B2_U02: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "There's [nobody] here [who knows] the code.",
+        en: "There's [nobody here who knows] the code.",
         sentence: "Il n'y a ___ le code.",
         answer: "personne ici qui sache",
         explanation: "\"Personne ici qui sache\": negated antecedent + \"sache\".",
@@ -1457,7 +1457,7 @@ export const FR_B2_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You're asking around, in careful style. Which word completes the question? « Tu connais quelqu'un qui ___ traduire du russe ? »",
+        question: "You're asking around, in careful style. Which word completes the question? « Tu connais quelqu'un qui ___ traduire du russe ? » (Do you know anyone who can translate from Russian?)",
         options: ["puisse", "pouvait", "puisses", "puissent"],
         correctIndex: 0,
         explanation: "A question about existence: \"puisse\" is the careful choice.",

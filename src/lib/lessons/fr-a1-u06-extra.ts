@@ -319,7 +319,7 @@ export const FR_A1_U06_EXTRA: Lesson[] = [
         question: "What did you hear?",
         options: ["Leurs amis habitent à Rennes.", "Leur ami habite à Rennes.", "Leur amie habite à Rennes.", "Nos amis habitent à Rennes."],
         correctIndex: 0,
-        explanation: "The z liaison in \"leurs‿amis\" and the plural verb.",
+        explanation: "The z liaison in \"leurs_amis\" and the plural verb.",
       },
       {
         type: "dictation",

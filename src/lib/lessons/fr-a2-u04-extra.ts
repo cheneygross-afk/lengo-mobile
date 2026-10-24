@@ -377,7 +377,7 @@ export const FR_A2_U04_EXTRA: Lesson[] = [
           "Habits in the past → imparfait, often with a time marker: \"d'habitude\", \"tous les jours\", \"chaque matin\", \"le samedi\", \"souvent\", \"parfois\" (sometimes), \"toujours\", \"jamais\" (\"je ne mangeais jamais de légumes\").",
         ],
         examples: [
-          { es: "D'habitude, je me levais à sept heures.", en: "I usually got up at seven." },
+          { es: "D'habitude, je partais à sept heures.", en: "I usually left at seven." },
           { es: "Chaque matin, mon père faisait du café.", en: "Every morning my father made coffee." },
           { es: "Le samedi, nous allions à la piscine.", en: "On Saturdays we went to the pool." },
           { es: "Parfois, on mangeait au restaurant.", en: "Sometimes we ate at a restaurant." },
@@ -686,10 +686,10 @@ export const FR_A2_U04_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "Before, I [used to go to bed] at midnight.",
-        sentence: "Avant, je ___ à minuit.",
-        answer: "me couchais",
-        explanation: "\"Se coucher\" → \"je me couchais\" (a routine verb).",
+        en: "Before, I [used to work] until midnight.",
+        sentence: "Avant, je ___ jusqu'à minuit.",
+        answer: "travaillais",
+        explanation: "A past habit → imparfait: \"nous travaillons\" → \"travaill-\" + -ais.",
       },
       {
         type: "fill-blank",
@@ -1431,7 +1431,7 @@ export const FR_A2_U04_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you write: We were eating and they were eating?",
         options: [
           "Nous mangions et ils mangeaient.",
           "Nous mangeions et ils mangaient.",

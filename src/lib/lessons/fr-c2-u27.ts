@@ -60,7 +60,7 @@ export const FR_C2_U27: Lesson[] = [
         body: [
           "Climate policy has two arms. \"L'atténuation\" (mitigation) reduces emissions: \"décarboner l'économie\", \"développer les énergies renouvelables\", \"rénover les logements\". \"L'adaptation\" prepares for the impacts that can no longer be avoided: \"adapter les villes aux canicules\", \"protéger le littoral\". A common mistake is to use \"adaptation\" for everything.",
           "\"La transition écologique\" (and \"énergétique\") is the broad shift towards a low-carbon, resource-saving society; it gave its name to a ministry. \"La sobriété\" (energy sufficiency, restraint) means reducing demand rather than only producing cleaner energy: \"la sobriété énergétique\", \"le plan de sobriété\" launched by the French government in 2022 (heating at 19 °C, lights off at night in shops).",
-          "Political news uses the pronominal passive and impersonal constructions for such measures: \"la mesure s'applique dès le 1er janvier\", \"il est prévu que les bâtiments publics soient rénovés\", \"il a été décidé de\". \"Il est prévu que\" takes the subjunctive when it states a plan that is not yet carried out.",
+          "Political news uses the pronominal passive and impersonal constructions for such measures: \"la mesure s'applique dès le 1er janvier\", \"il est prévu que les bâtiments publics soient rénovés\", \"il a été décidé de\". \"Il est prévu que\" usually takes the subjunctive when it states a plan that is not yet carried out (\"soient rénovés\"); the future indicative (\"seront rénovés\") is also common and correct.",
         ],
         examples: [
           { es: "L'atténuation vise à réduire les émissions ; l'adaptation, à limiter les dégâts.", en: "Mitigation aims to cut emissions; adaptation, to limit the damage." },
@@ -93,7 +93,8 @@ export const FR_C2_U27: Lesson[] = [
             en: "All schools [are scheduled to be renovated] by 2030.",
             sentence: "Il est prévu que toutes les écoles ___ d'ici 2030.",
             answer: "soient rénovées",
-            explanation: "\"Il est prévu que\" + subjunctive for a planned, not yet realised, action; agreement with \"les écoles\".",
+            altAnswers: ["seront rénovées"],
+            explanation: "\"Il est prévu que\" + subjunctive for a planned, not yet realised, action (the future indicative \"seront rénovées\" is also correct); agreement with \"les écoles\".",
           },
         ],
       },
@@ -132,7 +133,7 @@ export const FR_C2_U27: Lesson[] = [
           {
             type: "speak",
             text: "L'Accord de Paris vise à limiter le réchauffement nettement en dessous de deux degrés.",
-            tip: "Nettement: the double t is a single [t], [nɛtmɑ̃].",
+            tip: "\"Nettement\": the double t is a single [t], [nɛtmɑ̃].",
             explanation: "\"Viser à\" + infinitive = to aim to; \"nettement en dessous de\" = well below.",
           },
         ],
@@ -185,7 +186,7 @@ export const FR_C2_U27: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Je vote écologiste » means...",
+        question: "\"Je vote écologiste\" means...",
         options: ["I vote for the Greens.", "I vote in an eco-friendly way.", "I vote online to save paper.", "I vote for an environmental scientist."],
         correctIndex: 0,
         explanation: "\"Écologiste\" in politics refers to the Green movement.",
@@ -316,7 +317,7 @@ export const FR_C2_U27: Lesson[] = [
           {
             type: "speak",
             text: "Les épisodes de sécheresse se multiplient et s'intensifient.",
-            tip: "Sécheresse: the middle e is usually dropped, [seʃʁɛs].",
+            tip: "\"Sécheresse\": the middle e is usually dropped, [seʃʁɛs].",
             explanation: "Two pronominal verbs of change: \"se multiplier\" and \"s'intensifier\".",
           },
         ],
@@ -491,7 +492,7 @@ export const FR_C2_U27: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« Les municipales auront lieu en mars. » What will happen in March?",
+            question: "\"Les municipales auront lieu en mars.\" What will happen in March?",
             options: ["Local (municipal) elections", "A referendum on cities", "The presidential election", "A meeting of mayors"],
             correctIndex: 0,
             explanation: "\"Les municipales\" = \"les élections municipales\", feminine plural.",
@@ -638,7 +639,7 @@ export const FR_C2_U27: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What is « la cohabitation »?",
+        question: "What is \"la cohabitation\"?",
         options: ["A President and a Prime Minister from opposing camps", "Two parties governing in coalition", "The Senate and the Assembly sitting together", "A President serving two terms"],
         correctIndex: 0,
         explanation: "The President must appoint a Prime Minister from the parliamentary majority, even if it is hostile.",
@@ -715,7 +716,7 @@ export const FR_C2_U27: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« Ils veulent ruiner les agriculteurs. » Which technique is this?",
+            question: "\"Ils veulent ruiner les agriculteurs.\" Which technique is this?",
             options: ["un procès d'intention", "une concession", "une reformulation", "une litote"],
             correctIndex: 0,
             explanation: "Attributing a hidden hostile aim to opponents is \"un procès d'intention\".",
@@ -766,7 +767,7 @@ export const FR_C2_U27: Lesson[] = [
           {
             type: "speak",
             text: "Je partage votre constat, mais pas vos conclusions.",
-            tip: "Constat: final t silent, [kɔ̃sta].",
+            tip: "\"Constat\": final t silent, [kɔ̃sta].",
             explanation: "A classic deliberative move: agree on the facts, disagree on the interpretation.",
           },
         ],
@@ -798,7 +799,7 @@ export const FR_C2_U27: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is the best deliberative rewrite of « Ces bobos veulent tuer nos campagnes » ?",
+            question: "Which is the best deliberative rewrite of \"Ces bobos veulent tuer nos campagnes\" ?",
             options: ["Les auteurs de ce projet sous-estiment, me semble-t-il, son coût pour les zones rurales.", "Ces bobos ne connaissent rien aux campagnes.", "Les campagnes vont mourir à cause d'eux.", "On sait bien ce que veulent ces gens-là."],
             correctIndex: 0,
             explanation: "It names a precise actor, states a measurable criticism and hedges with \"me semble-t-il\".",
@@ -860,7 +861,7 @@ export const FR_C2_U27: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Tous ces gens-là sont des assistés. » What makes this sentence polarising?",
+        question: "\"Tous ces gens-là sont des assistés.\" What makes this sentence polarising?",
         options: ["Generalisation and a stigmatising label for a whole group", "A concession followed by an objection", "The use of the conditional", "A precise statistic"],
         correctIndex: 0,
         explanation: "\"Tous\" + a stigmatising label (\"assistés\") turns a group into a single block.",
@@ -1032,7 +1033,7 @@ export const FR_C2_U27: Lesson[] = [
           {
             type: "speak",
             text: "Il n'en demeure pas moins que les plus modestes paient le prix fort.",
-            tip: "Demeure: de-meure, the eu is open; paient rhymes with paix.",
+            tip: "\"Demeure\": de-meure, the eu is open; \"paient\" rhymes with \"paix\".",
             explanation: "\"Il n'en demeure pas moins que\" + indicative: the pivot after a concession.",
           },
         ],
@@ -1086,7 +1087,7 @@ export const FR_C2_U27: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which phrase presents « écologie punitive » in a balanced way?",
+        question: "Which phrase presents \"écologie punitive\" in a balanced way?",
         options: ["ce que ses détracteurs appellent l'écologie punitive", "l'écologie punitive qui ruine les Français", "cette insupportable écologie punitive", "l'écologie punitive, comme chacun sait"],
         correctIndex: 0,
         explanation: "Attributing the label to its users keeps the writer's distance from a polemical term.",
@@ -1257,7 +1258,7 @@ export const FR_C2_U27: Lesson[] = [
           {
             type: "speak",
             text: "Nous proposons trois mesures concrètes.",
-            tip: "Concrètes: the è is open, [kɔ̃kʁɛt].",
+            tip: "\"Concrètes\": the è is open, [kɔ̃kʁɛt].",
             explanation: "Announce the number of proposals, then list them: a clear structure for readers.",
           },
         ],
@@ -1364,7 +1365,7 @@ export const FR_C2_U27: Lesson[] = [
         heading: "Pronominal passive and impersonal constructions",
         body: [
           "Political news describes measures as if they acted by themselves: \"la réforme s'applique dès janvier\", \"les négociations se poursuivent\", \"le texte se heurte à l'opposition du Sénat\", \"la mesure se met en place progressivement\". The pronominal passive avoids naming the agent and gives an impression of process. It works with inanimate subjects; with people, use the ordinary passive or \"on\".",
-          "Impersonal constructions do the same: \"il est prévu que\" + subjunctive (a plan), \"il a été décidé de\" + infinitive or \"que\" + indicative (a decision), \"il reste à savoir si\" (it remains to be seen whether), \"il s'agit de\" (it is a matter of), \"il est question de\" (there is talk of). They are the backbone of official communiqués.",
+          "Impersonal constructions do the same: \"il est prévu que\" + subjunctive or future indicative (a plan), \"il a été décidé de\" + infinitive or \"que\" + indicative (a decision), \"il reste à savoir si\" (it remains to be seen whether), \"il s'agit de\" (it is a matter of), \"il est question de\" (there is talk of). They are the backbone of official communiqués.",
           "Compare: \"Le gouvernement a décidé de geler les prix\" (agent visible, responsibility clear) and \"Il a été décidé de geler les prix\" (agent hidden). A critical reader, or a journalist, asks: \"décidé par qui ?\".",
         ],
         examples: [
@@ -1474,7 +1475,7 @@ export const FR_C2_U27: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does the headline « Hausse des émissions : le gouvernement sous pression » mean?",
+            question: "What does the headline \"Hausse des émissions : le gouvernement sous pression\" mean?",
             options: ["Emissions have risen, and the government is under pressure.", "The government has raised emissions under pressure.", "The government is putting pressure on emissions.", "Emissions will rise unless the government acts."],
             correctIndex: 0,
             explanation: "Read a nominal headline by turning nouns back into verbs: \"les émissions ont augmenté\".",
@@ -1482,7 +1483,7 @@ export const FR_C2_U27: Lesson[] = [
           {
             type: "speak",
             text: "Nous ne laisserons personne sur le bord du chemin.",
-            tip: "Laisserons: the e of -erons is barely said, [lɛsʁɔ̃].",
+            tip: "\"Laisserons\": the e of -erons is barely said, [lɛsʁɔ̃].",
             explanation: "\"Ne... personne\" around the verb; a classic political promise.",
           },
         ],
@@ -1513,8 +1514,8 @@ export const FR_C2_U27: Lesson[] = [
         en: "The law [is scheduled to be passed] before summer.",
         sentence: "Il est prévu que la loi ___ avant l'été.",
         answer: "soit votée",
-        altAnswers: ["soit adoptée"],
-        explanation: "\"Il est prévu que\" + subjunctive for a plan not yet carried out.",
+        altAnswers: ["soit adoptée", "sera votée", "sera adoptée"],
+        explanation: "\"Il est prévu que\" + subjunctive for a plan not yet carried out; the future indicative (\"sera votée\") is also correct.",
       },
       {
         type: "fill-blank",
@@ -1535,7 +1536,7 @@ export const FR_C2_U27: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the speech version of « Rénovation thermique : un million de logements d'ici 2030 »?",
+        question: "Which is the speech version of \"Rénovation thermique : un million de logements d'ici 2030\"?",
         options: ["Nous rénoverons un million de logements d'ici 2030.", "La rénovation d'un million de logements serait prévue.", "Un million de logements : rénovation thermique.", "Il aurait été décidé de rénover des logements."],
         correctIndex: 0,
         explanation: "Speeches use \"nous\" + future: commitment, not report.",
@@ -1655,7 +1656,7 @@ export const FR_C2_U27: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« Dans les usines, la colère gronde. » What does it mean?",
+            question: "\"Dans les usines, la colère gronde.\" What does it mean?",
             options: ["In the factories, anger is brewing.", "In the factories, the bosses are scolding workers.", "In the factories, the machines are rumbling.", "In the factories, people are shouting."],
             correctIndex: 0,
             explanation: "\"La colère gronde\" is a set phrase: discontent is building up.",
@@ -1773,7 +1774,7 @@ export const FR_C2_U27: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Une voiture rutilante » is...",
+        question: "\"Une voiture rutilante\" is...",
         options: ["a gleaming car", "a rusty car", "a noisy car", "a flickering car"],
         correctIndex: 0,
         explanation: "\"Rutilant\" = gleaming, shining (often polished or bright red).",
@@ -1802,7 +1803,7 @@ export const FR_C2_U27: Lesson[] = [
         type: "speak",
         text: "Au-dessus du port, les étoiles scintillaient.",
         prompt: "Say it in French: Above the harbour, the stars were twinkling.",
-        tip: "Scintillaient: the ll sounds like y, [sɛ̃tijɛ], as in fille, not as in ville.",
+        tip: "\"Scintillaient\": the ll sounds like y, [sɛ̃tijɛ], as in \"fille\", not as in \"ville\".",
         explanation: "\"Scintiller\" = to twinkle; the imparfait describes the scene.",
       },
     ],

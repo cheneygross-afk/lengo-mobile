@@ -1629,8 +1629,8 @@ export const FR_C1_U15: Lesson[] = [
         prompt: "Translate into French youth slang (use de ouf).",
         source: "We had an insane evening.",
         answer: "On a passé une soirée de ouf.",
-        altAnswers: ["On a passé une soirée de malade.", "On a passé une soirée de fou.", "On a passé une soirée de ouf !"],
-        explanation: "\"De ouf\" (verlan of \"fou\") after the noun.",
+        altAnswers: ["On a passé une soirée de ouf !"],
+        explanation: "\"De ouf\" (verlan of \"fou\") after the noun. \"Une soirée de malade\" or \"de fou\" mean the same, but the prompt asks for \"de ouf\".",
       },
       {
         type: "translate",
@@ -1946,7 +1946,7 @@ export const FR_C1_U15: Lesson[] = [
       {
         heading: "The south: chocolatine, poche, péguer, peuchère",
         body: [
-          "France itself is far from uniform. The south-west (Toulouse, Bordeaux, the Landes) says \"une chocolatine\" for a pain au chocolat and \"une poche\" for a (plastic) bag: \"Vous voulez une poche ?\" at the bakery. Bordeaux adds \"gavé\" as an intensifier (\"c'est gavé bien\", it's really good) and \"une poche\" too.",
+          "France itself is far from uniform. The south-west (Toulouse, Bordeaux, the Landes) says \"une chocolatine\" for a pain au chocolat and \"une poche\" for a (plastic) bag: \"Vous voulez une poche ?\" at the bakery. Bordeaux adds \"gavé\" as an intensifier (\"c'est gavé bien\", it's really good).",
           "Provence and the Mediterranean south, influenced by Occitan and Provençal: \"péguer\" (to be sticky: \"ça pègue\"), \"peuchère !\" (an exclamation of pity or tenderness, poor thing!), \"un pitchoun\" / \"une pitchoune\" (a little one, a kid), \"fada\" (crazy, Marseille), \"dégun\" (nobody: \"y a dégun\"), \"s'escagasser\" (to wear oneself out, to wreck). The southern accent, with pronounced final e's (\"une petite\" in three syllables) and nasal vowels ending in a consonant sound (\"pain\" ≈ \"paing\"), carries them.",
           "These words are familiar and regional; Parisians understand most of them from films (Pagnol, \"Bienvenue chez les Ch'tis\") and holidays.",
         ],

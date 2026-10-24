@@ -864,7 +864,7 @@ export const FR_B1_U08_EXTRA: Lesson[] = [
           {
             type: "multiple-choice",
             question: "How do you say: Sit down. (coach to client)",
-            options: ["Asseyez-vous.", "Vous asseyez.", "Asseyez-vous pas.", "Assoyez vous."],
+            options: ["Asseyez-vous.", "Vous asseyez.", "Asseyez-vous pas.", "Assis-vous."],
             correctIndex: 0,
             explanation: "Affirmative: verb + hyphen + vous.",
           },
@@ -956,7 +956,7 @@ export const FR_B1_U08_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "The client says: J'ai mal au genou. What is the best answer from the coach?",
+        question: "The client says: \"J'ai mal au genou.\" What is the best answer from the coach?",
         options: ["Arrêtez-vous et asseyez-vous un moment.", "Ne vous asseyez-vous pas.", "Arrêtons-vous.", "Vous arrêtez et vous asseyez."],
         correctIndex: 0,
         explanation: "Two affirmative pronominal imperatives.",
@@ -1200,7 +1200,7 @@ export const FR_B1_U08_EXTRA: Lesson[] = [
           { es: "Ne laissez pas vos bagages sans surveillance.", en: "Do not leave your luggage unattended." },
           { es: "Veuillez vous diriger vers les caisses.", en: "Please make your way to the tills." },
           { es: "Attention à la marche en descendant du train.", en: "Mind the step as you get off the train." },
-          { es: "Composter votre billet avant de monter.", en: "Validate your ticket before boarding." },
+          { es: "Compostez votre billet avant de monter.", en: "Validate your ticket before boarding." },
         ],
         checkpoint: [
           {
@@ -1360,7 +1360,7 @@ export const FR_B1_U08_EXTRA: Lesson[] = [
           { es: "Remplissez ce formulaire, madame.", en: "Fill in this form, madam." },
           { es: "Partageons l'addition.", en: "Let's split the bill." },
           { es: "Faire cuire vingt minutes à feu doux.", en: "Cook for twenty minutes on a low heat." },
-          { es: "Assieds-toi, mon chat, pas sur la table !", en: "Sit, kitty, not on the table!" },
+          { es: "Descends de la table, mon chat !", en: "Get off the table, kitty!" },
           { es: "Entrez, messieurs dames, installez-vous.", en: "Come in, ladies and gentlemen, make yourselves comfortable." },
         ],
         checkpoint: [
@@ -1497,8 +1497,8 @@ export const FR_B1_U08_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Why would a sign say Ne pas toucher rather than Ne touchez pas?",
-        options: ["The infinitive is neutral and addresses nobody in particular.", "The vous imperative is incorrect on signs.", "Ne touchez pas is too familiar.", "The infinitive is more polite than veuillez."],
+        question: "Why would a sign say \"Ne pas toucher\" rather than \"Ne touchez pas\"?",
+        options: ["The infinitive is neutral and addresses nobody in particular.", "The vous imperative is incorrect on signs.", "\"Ne touchez pas\" is too familiar.", "The infinitive is more polite than veuillez."],
         correctIndex: 0,
         explanation: "Both are possible; the infinitive is the impersonal choice.",
       },
@@ -1683,10 +1683,10 @@ export const FR_B1_U08_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "In the story, why does the invigilator say Soyez attentifs and not Êtes attentifs?",
-        options: ["Être has an irregular imperative: sois, soyons, soyez.", "Êtes is only for questions.", "Soyez is the infinitive.", "Soyez is more familiar."],
+        question: "How does the invigilator say: Keep an eye on the time? (to candidates)",
+        options: ["Soyez attentifs au temps.", "Êtes attentifs au temps.", "Soyiez attentifs au temps.", "Être attentifs au temps."],
         correctIndex: 0,
-        explanation: "Être takes its imperative from the subjunctive.",
+        explanation: "Être takes its imperative from the subjunctive: \"sois\", \"soyons\", \"soyez\" (no i after the y). \"Êtes\" is the present tense.",
       },
       {
         type: "listen-choose",
@@ -1890,10 +1890,10 @@ export const FR_B1_U08_EXTRA: Lesson[] = [
       {
         type: "listen-choose",
         audio: "Il faut que tu viennes à la réunion.",
-        question: "What did you hear?",
-        options: ["A necessity: il faut que + subjunctive.", "A direct imperative.", "A question.", "A past event."],
+        question: "What does it mean?",
+        options: ["You need to come to the meeting.", "Come to the meeting!", "Are you coming to the meeting?", "You came to the meeting."],
         correctIndex: 0,
-        explanation: "\"Viennes\" is subjunctive.",
+        explanation: "\"Il faut que tu viennes\" states a necessity with the subjunctive \"viennes\"; the direct order would be \"Viens !\".",
       },
       {
         type: "dictation",

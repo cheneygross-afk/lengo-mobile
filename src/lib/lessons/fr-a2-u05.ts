@@ -411,7 +411,7 @@ export const FR_A2_U05: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence describes a past habit?",
+        question: "How do you say: On Saturdays I used to play football?",
         options: ["Le samedi, je jouais au foot.", "Samedi, j'ai joué au foot.", "Samedi, je vais jouer au foot.", "Ce samedi-là, j'ai joué au foot."],
         correctIndex: 0,
         explanation: "\"Le samedi\" (every Saturday) + imparfait describes a habit. \"Samedi\" alone is one Saturday.",
@@ -605,7 +605,7 @@ export const FR_A2_U05: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct for 'They were eating when I arrived'?",
+        question: "How do you say: They were eating when I arrived?",
         options: ["Ils mangeaient quand je suis arrivé.", "Ils ont mangé quand j'arrivais.", "Ils ont été mangeant quand je suis arrivé.", "Ils mangeaient quand j'arrivais."],
         correctIndex: 0,
         explanation: "Eating is the action in progress (imparfait); arriving is the dot that interrupts it (passé composé).",
@@ -2067,7 +2067,7 @@ export const FR_A2_U05: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say: She fell in the street?",
         options: ["Elle est tombée dans la rue.", "Elle a tombé dans la rue.", "Elle est tombé dans la rue.", "Elle tombait dans la rue hier à 8 h, puis elle rentrait."],
         correctIndex: 0,
         explanation: "\"Tomber\" takes être, and the participle agrees with \"elle\": \"tombée\".",

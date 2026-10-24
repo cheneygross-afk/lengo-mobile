@@ -816,9 +816,9 @@ export const FR_C1_U05: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "There are still many questions left to answer.",
+        source: "There are still a lot of questions left to settle.",
         answer: "Il reste encore beaucoup de questions à régler.",
-        altAnswers: ["Il reste encore beaucoup de questions auxquelles répondre.", "Il reste beaucoup de questions à régler.", "Il reste encore de nombreuses questions à régler.", "Il reste de nombreuses questions à régler."],
+        altAnswers: ["Il reste beaucoup de questions à régler.", "Il reste encore de nombreuses questions à régler.", "Il reste de nombreuses questions à régler."],
         explanation: "\"Il reste\" + noun + \"à\" + infinitive: what still has to be dealt with.",
       },
       {
@@ -916,7 +916,7 @@ export const FR_C1_U05: Lesson[] = [
           {
             type: "multiple-choice",
             question: "How do you say: His accent is hard to understand.",
-            options: ["Son accent est difficile à comprendre.", "Son accent est difficile de comprendre.", "Il est difficile à comprendre son accent.", "C'est difficile à comprendre son accent."],
+            options: ["Son accent est difficile à comprendre.", "Son accent est difficile de comprendre.", "Il est difficile à comprendre son accent.", "Son accent, c'est difficile de comprendre."],
             correctIndex: 0,
             explanation: "The thing judged (\"son accent\") is the subject and the infinitive has no object after it, so \"à\". With the object after, you'd say \"il est difficile de comprendre son accent\".",
           },
@@ -1128,7 +1128,7 @@ export const FR_C1_U05: Lesson[] = [
             source: "Passengers are asked to keep their luggage with them.",
             answer: "Il est demandé aux voyageurs de garder leurs bagages avec eux.",
             altAnswers: ["Il est demandé aux passagers de garder leurs bagages avec eux.", "Il est demandé aux voyageurs de conserver leurs bagages avec eux.", "Il est demandé aux passagers de conserver leurs bagages avec eux.", "Il est demandé aux voyageurs de ne pas laisser leurs bagages sans surveillance.", "Les voyageurs sont priés de garder leurs bagages avec eux."],
-            explanation: "\"Demander à quelqu'un de\": passengers are an indirect object, so the impersonal \"il est demandé aux voyageurs de\". (\"Sont priés de\" is a fixed exception that works.)",
+            explanation: "\"Demander à quelqu'un de\": passengers are an indirect object, so the impersonal \"il est demandé aux voyageurs de\". (\"Sont priés de\" also works, because \"prier\" takes a direct object: \"prier quelqu'un de\".)",
           },
           {
             type: "multiple-choice",

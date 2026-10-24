@@ -290,10 +290,10 @@ export const FR_B2_U01_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which form completes « Je cherche un plombier qui ___ venir ce soir » ?",
-        options: ["puisse", "peut", "puissent", "pourra"],
+        question: "You need a plumber who can come tonight but haven't found one yet. Which form completes « Je cherche un plombier qui ___ venir ce soir » ?",
+        options: ["puisse", "peut", "puissent", "puisses"],
         correctIndex: 0,
-        explanation: "Singular subjunctive of pouvoir for a plumber you haven't found.",
+        explanation: "Singular subjunctive of pouvoir for a plumber you haven't found: \"puisse\". \"Puissent\" is plural and \"puisses\" the tu form; \"peut\" would describe a plumber you already have in mind.",
       },
       {
         type: "translate",
@@ -931,10 +931,10 @@ export const FR_B2_U01_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "We want a hotel that goes with our budget.",
-        answer: "Nous voulons un hôtel qui aille avec notre budget.",
-        altAnswers: ["On veut un hôtel qui aille avec notre budget.", "Nous voulons un hôtel qui corresponde à notre budget.", "On veut un hôtel qui corresponde à notre budget."],
-        explanation: "\"Aller avec\" (to go with, suit) → \"aille\".",
+        source: "We want a train that goes straight to Nice.",
+        answer: "Nous voulons un train qui aille directement à Nice.",
+        altAnswers: ["On veut un train qui aille directement à Nice.", "Nous voulons un train qui aille directement jusqu'à Nice.", "On veut un train qui aille directement jusqu'à Nice."],
+        explanation: "A train you want but haven't found yet: \"aller\" → subjunctive \"aille\" (it sounds like \"aïe\"). For a train you know runs: \"un train qui va directement à Nice\".",
       },
       {
         type: "listen-choose",

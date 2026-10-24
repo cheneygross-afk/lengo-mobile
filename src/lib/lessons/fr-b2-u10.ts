@@ -435,7 +435,7 @@ export const FR_B2_U10: Lesson[] = [
         heading: "J'aurais dû: should have",
         body: [
           "To say that someone should have done something, French puts \"devoir\" in the conditionnel passé and keeps the main verb in the plain infinitive: \"J'aurais dû t'écouter\" (I should have listened to you). The past is carried by \"aurais dû\", not by the infinitive.",
-          "This is the opposite of English, where the past sits on the second verb: should + have done. The calque *\"je devrais avoir écouté\" is one of the most recognisable English-speaker errors in French. Think of it as: I would have had to + listen.",
+          "This is the opposite of English, where the past sits on the second verb: should + have done. The calque *\"je devrais avoir écouté\" is one of the most recognisable English-speaker errors in French: \"devrais\" + past infinitive is not how French says a regret or a reproach (the form exists only for a supposition about something now complete, as in \"il devrait avoir fini à midi\", he should be done by noon). Think of it as: I would have had to + listen.",
           "The negative wraps the auxiliary: \"Je n'aurais pas dû dire ça\" (I shouldn't have said that). Object pronouns go before the infinitive, not before \"aurais\": \"j'aurais dû le lui dire\", \"tu aurais dû y aller\".",
           "With \"je\" it expresses regret; with \"tu\", \"vous\" or \"il\" it becomes advice after the fact, or a reproach: \"Vous auriez dû réserver\" (You should have booked).",
         ],
@@ -656,8 +656,8 @@ export const FR_B2_U10: Lesson[] = [
         prompt: "Translate into French.",
         source: "We regret not having called him.",
         answer: "Nous regrettons de ne pas l'avoir appelé.",
-        altAnswers: ["On regrette de ne pas l'avoir appelé.", "Nous regrettons de ne pas l'avoir appelée.", "On regrette de ne pas l'avoir appelée."],
-        explanation: "\"Ne pas\" + pronoun + past infinitive: \"de ne pas l'avoir appelé\".",
+        altAnswers: ["On regrette de ne pas l'avoir appelé.", "Nous regrettons de ne pas lui avoir téléphoné.", "On regrette de ne pas lui avoir téléphoné."],
+        explanation: "\"Ne pas\" + pronoun + past infinitive: \"de ne pas l'avoir appelé\". Him is masculine, so no -e on \"appelé\"; with \"téléphoner à\" the pronoun is \"lui\".",
       },
       {
         type: "fill-blank",
@@ -844,6 +844,7 @@ export const FR_B2_U10: Lesson[] = [
         prompt: "Translate into French.",
         source: "They would have got married in June.",
         answer: "Ils se seraient mariés en juin.",
+        altAnswers: ["Elles se seraient mariées en juin."],
         explanation: "Pronominal: \"se seraient mariés\".",
       },
       {

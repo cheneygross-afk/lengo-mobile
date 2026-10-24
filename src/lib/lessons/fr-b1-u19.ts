@@ -596,7 +596,7 @@ export const FR_B1_U19: Lesson[] = [
         prompt: "Translate into French using on.",
         source: "We were so tired. (a group of friends)",
         answer: "On était tellement fatigués.",
-        altAnswers: ["On était tellement fatiguées.", "On était si fatigués.", "On était si fatiguées.", "On était très fatigués.", "On était très fatiguées."],
+        altAnswers: ["On était tellement fatiguées.", "On était si fatigués.", "On était si fatiguées."],
         explanation: "Singular verb, plural adjective.",
       },
       {
@@ -1277,8 +1277,8 @@ export const FR_B1_U19: Lesson[] = [
             prompt: "Write the French notice.",
             source: "The library will be closed on Monday.",
             answer: "La bibliothèque sera fermée lundi.",
-            altAnswers: ["La bibliothèque sera fermée le lundi."],
-            explanation: "Future passive: \"sera fermée\".",
+            altAnswers: ["La bibliothèque sera fermée ce lundi."],
+            explanation: "Future passive: \"sera fermée\". Not \"le lundi\", which would mean every Monday.",
           },
         ],
       },
@@ -1707,7 +1707,7 @@ export const FR_B1_U19: Lesson[] = [
           { es: "Au travail, on se serre la main le matin.", en: "At work, people shake hands in the morning." },
           { es: "Ce qui m'a surpris, c'est qu'on prend deux heures pour déjeuner.", en: "What surprised me is that people take two hours for lunch." },
           { es: "On ne parle pas de son salaire.", en: "You don't talk about your salary." },
-          { es: "On se fait combien de bises ici ?", en: "How many kisses do people do here?" },
+          { es: "On se fait combien de bises ici ?", en: "How many kisses do people give here?" },
         ],
         checkpoint: [
           {

@@ -287,7 +287,7 @@ export const FR_C2_U01: Lesson[] = [
           { es: "Les magistrats du parquet se lèvent pour prendre leurs réquisitions.", en: "The public prosecutors stand to make their submissions." },
           { es: "Le juge d'instruction a ordonné une expertise psychiatrique.", en: "The investigating judge ordered a psychiatric assessment." },
           { es: "Adressez-vous au greffe pour obtenir une copie du jugement.", en: "Go to the court registry to get a copy of the judgment." },
-          { es: "Maître Dubois plaidera pour la défense.", en: "Ms Dubois will plead for the defence." },
+          { es: "Maître Dubois plaidera pour la défense.", en: "Dubois, the lawyer, will plead for the defence." },
           { es: "Le commissaire de justice a dressé un constat des dégâts.", en: "The bailiff made an official report of the damage." },
           { es: "Le juge aux affaires familiales a fixé la résidence des enfants chez leur mère.", en: "The family court judge ruled that the children would live with their mother." },
         ],

@@ -100,7 +100,7 @@ export const FR_B2_U05: Lesson[] = [
           { es: "J'ai fini ce rapport ce matin.", en: "I finished this report this morning." },
           { es: "Je ne pense pas qu'il ait reçu mon message.", en: "I don't think he got my message." },
           { es: "Il est vrai qu'il a reçu mon message.", en: "It's true that he got my message." },
-          { es: "Pourvu que vous ayez pris les billets !", en: "Let's hope you've remembered the tickets!" },
+          { es: "Pourvu que vous ayez pris les billets !", en: "Let's hope you've got the tickets!" },
         ],
         checkpoint: [
           {
@@ -459,7 +459,7 @@ export const FR_B2_U05: Lesson[] = [
         heading: "The look-alikes that take the indicative",
         body: [
           "Two traps sit right next to the club. \"Après que\" looks like \"avant que\" but takes the indicative, because what comes after something has really happened: \"après qu'il est parti\", \"après que tu auras fini\". You will hear \"après qu'il soit parti\" all the time in speech, but it is still considered a mistake in careful French.",
-          "\"Même si\" means the same as \"bien que\" in English (even though / even if) but it is a si-clause, so it takes the indicative: \"même s'il pleut, on sort\". Never *\"même s'il pleuve\".",
+          "\"Même si\" (even if) can come close to \"bien que\" (although) in meaning, but it is a si-clause, so it takes the indicative: \"même s'il pleut, on sort\". Never *\"même s'il pleuve\".",
           "The other indicative conjunctions are the ones that state facts or causes: \"parce que\", \"puisque\", \"comme\", \"pendant que\", \"depuis que\", \"alors que\", \"tant que\", and the time words \"quand\", \"dès que\", \"lorsque\" (with the future for future events).",
         ],
         examples: [

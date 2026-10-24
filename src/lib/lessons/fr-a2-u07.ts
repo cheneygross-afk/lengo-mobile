@@ -817,7 +817,7 @@ export const FR_A2_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say: I'm waiting for the train?",
         options: ["J'attends le train.", "J'attends pour le train.", "J'attends au train.", "J'attends le train pour."],
         correctIndex: 0,
         explanation: "\"Attendre\" never takes \"pour\" before its object.",
@@ -1045,14 +1045,14 @@ export const FR_A2_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say: I'm going to do it?",
         options: ["Je vais le faire.", "Je le vais faire.", "Je vais faire le.", "Je fais le aller."],
         correctIndex: 0,
         explanation: "With aller + infinitive, the pronoun goes before the infinitive.",
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct for 'I didn't buy it'?",
+        question: "How do you say: I didn't buy it?",
         options: ["Je ne l'ai pas acheté.", "Je l'ai ne pas acheté.", "Je n'ai pas l'acheté.", "Je ne ai pas acheté le."],
         correctIndex: 0,
         explanation: "The pronoun + auxiliary block is wrapped by ne...pas.",
@@ -1174,7 +1174,7 @@ export const FR_A2_U07: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correctly spelled?",
+            question: "How do you write: She took the car?",
             options: ["Elle a pris la voiture.", "Elle a prise la voiture.", "Elle l'a pris, la voiture.", "Elle a prises la voiture."],
             correctIndex: 0,
             explanation: "The object comes after the verb, so no agreement: \"a pris\".",
@@ -1864,14 +1864,14 @@ export const FR_A2_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence has no mistake?",
+        question: "How do you say: I'm going to bring it?",
         options: ["Je vais l'apporter.", "Je le vais apporter.", "Je vais apporter le.", "J'ai apporté le."],
         correctIndex: 0,
         explanation: "The pronoun goes before the infinitive it depends on.",
       },
       {
         type: "multiple-choice",
-        question: "Which sentence has no mistake?",
+        question: "How do you write: The photos? I looked at them.",
         options: ["Les photos ? Je les ai regardées.", "Les photos ? Je les ai regardé.", "Les photos ? J'ai regardé les.", "Les photos ? Je ai les regardées."],
         correctIndex: 0,
         explanation: "\"Les\" before \"ai\", and \"regardées\" agrees with \"les photos\" (feminine plural).",

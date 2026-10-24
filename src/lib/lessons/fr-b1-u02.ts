@@ -1892,15 +1892,15 @@ export const FR_B1_U02: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which sentence needs the subjunctive?",
+            question: "Which sentence is correct?",
             options: [
-              "Je sais qu'il ___ toujours. (réussir)",
-              "Je suis sûr qu'il ___ . (réussir)",
-              "Il faut qu'il ___ cet examen. (réussir)",
-              "On voit qu'il ___ bien. (réussir)",
+              "Je sais qu'il réussisse toujours.",
+              "Je suis sûr qu'il réussisse.",
+              "Il faut qu'il réussisse cet examen.",
+              "Il faut qu'il réussit cet examen.",
             ],
             correctIndex: 2,
-            explanation: "Only \"il faut que\" triggers the subjunctive; knowing, being sure and seeing introduce facts.",
+            explanation: "Only \"il faut que\" triggers the subjunctive: \"qu'il réussisse\". Knowing and being sure introduce facts, so they keep the indicative: \"je sais qu'il réussit toujours\", \"je suis sûr qu'il réussira\".",
           },
           {
             type: "speak",

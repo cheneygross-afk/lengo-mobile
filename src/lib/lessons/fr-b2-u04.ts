@@ -2166,7 +2166,7 @@ export const FR_B2_U04: Lesson[] = [
         heading: "A time or place you're looking for: subjunctive",
         body: [
           "When the moment or place is only wished for, the subjunctive comes back: \"Je cherche un week-end où nous soyons tous libres\", \"Il nous faut une ville où les loyers soient abordables.\" With a negative antecedent: \"Il n'y a pas un jour où il ne se plaigne pas\" (there isn't a day when he doesn't complain).",
-          "And with a superlative: \"C'est le seul moment où je puisse me reposer.\"",
+          "And after \"le seul\" or a superlative: \"C'est le seul moment où je puisse me reposer.\"",
         ],
         examples: [
           { es: "Je cherche un week-end où nous soyons tous libres.", en: "I'm looking for a weekend when we're all free." },

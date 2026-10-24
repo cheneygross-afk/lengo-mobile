@@ -915,7 +915,7 @@ export const FR_A1_U08_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence is correct?",
-        options: ["Vous mettez la table ?", "Vous metez la table ?", "Vous mettiez la table ?", "Vous mets la table ?"],
+        options: ["Vous mettez la table ?", "Vous metez la table ?", "Vous mettent la table ?", "Vous mets la table ?"],
         correctIndex: 0,
         explanation: "\"Vous mettez\": double t in the plural.",
       },
@@ -1150,7 +1150,7 @@ export const FR_A1_U08_EXTRA: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which sentence is correct?",
-            options: ["Je pars à huit heures.", "Je parts à huit heures.", "Je partis à huit heures.", "Je parte à huit heures."],
+            options: ["Je pars à huit heures.", "Je parts à huit heures.", "Je partons à huit heures.", "Je parte à huit heures."],
             correctIndex: 0,
             explanation: "\"Je pars\": the t of the stem is dropped in the singular.",
           },

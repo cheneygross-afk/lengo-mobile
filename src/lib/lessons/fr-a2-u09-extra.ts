@@ -188,7 +188,7 @@ export const FR_A2_U09_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is written correctly? (My cousins, all girls, had fun.)",
+            question: "How do you write: My cousins (all girls) had fun?",
             options: ["Mes cousines se sont amusées.", "Mes cousines se sont amusés.", "Mes cousines ont s'amusées.", "Mes cousines se ont amusées."],
             correctIndex: 0,
             explanation: "Feminine plural: -es.",
@@ -466,7 +466,7 @@ export const FR_A2_U09_EXTRA: Lesson[] = [
       {
         heading: "Recap: the morning of the wedding",
         body: [
-          "The Moreau family has to leave at 10:00 for a cousin's wedding. Listen to them use the unit's verbs: present (\"elle s'habille encore\"), passé composé (\"tu t'es rasé ?\"), infinitives (\"on va se dépêcher\") and two imperative chunks you met in the Beginner level's preview: \"dépêche-toi !\" (hurry up!) and \"habille-toi !\" (get dressed!), where the pronoun goes after the verb as \"toi\".",
+          "The Moreau family has to leave at 10:00 for a cousin's wedding. Listen to them use the unit's verbs: present (\"elle s'habille encore\"), passé composé (\"tu t'es rasé ?\"), infinitives (\"on va se dépêcher\") and two imperative chunks you'll study properly in Unit 16: \"dépêche-toi !\" (hurry up!) and \"habille-toi !\" (get dressed!), where the pronoun goes after the verb as \"toi\". For now, learn them as set phrases.",
         ],
         examples: [
           { es: "Dépêche-toi, on part dans vingt minutes !", en: "Hurry up, we're leaving in twenty minutes!" },
@@ -946,7 +946,7 @@ export const FR_A2_U09_EXTRA: Lesson[] = [
       {
         heading: "Recap: Sophie's diary",
         body: [
-          "Sophie wrote this diary entry in French class. It has seven mistakes: \"Samedi, je m'ai levé à dix heures. Je suis douchée et je me suis habillé. Mon frère et moi, nous sommes promenés au parc. Le soir, je vais se coucher tôt, mais je me suis brossé mes dents et je me suis endormi devant la télé.\"",
+          "Sophie wrote this diary entry in French class. It has eight mistakes: \"Samedi, je m'ai levé à dix heures. Je suis douchée et je me suis habillé. Mon frère et moi, nous sommes promenés au parc. Le soir, je vais se coucher tôt, mais je me suis brossé mes dents et je me suis endormi devant la télé.\"",
           "The checklist: être after a pronoun, a pronoun in every pronominal verb, agreement with Sophie (-e) or with \"nous\" (-s), the right pronoun before an infinitive, and le/la/les with body parts. Here are the corrected sentences.",
         ],
         examples: [
@@ -1071,7 +1071,7 @@ export const FR_A2_U09_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence has no mistake?",
+        question: "How do you write: They (women) went to bed late?",
         options: ["Elles se sont couchées tard.", "Elles se sont couchés tard.", "Elles s'ont couchées tard.", "Elles sont couchées tard hier soir."],
         correctIndex: 0,
         explanation: "Être + pronoun + feminine plural agreement.",

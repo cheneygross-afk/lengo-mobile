@@ -39,7 +39,7 @@ export const FR_C2_U31_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "On which side of the bilan do you find « les capitaux propres »?",
+            question: "On which side of the bilan do you find \"les capitaux propres\"?",
             options: ["le passif", "l'actif", "le compte de résultat", "la trésorerie"],
             correctIndex: 0,
             explanation: "Equity and debts are on the \"passif\" side: where the money comes from.",
@@ -141,7 +141,7 @@ export const FR_C2_U31_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Le résultat net » is...",
+        question: "\"Le résultat net\" is...",
         options: ["the bottom-line profit or loss after everything", "the revenue", "the operating margin", "the cash in the bank"],
         correctIndex: 0,
         explanation: "\"Le résultat net\" comes after financial items and corporation tax.",
@@ -191,7 +191,7 @@ export const FR_C2_U31_EXTRA: Lesson[] = [
         heading: "Recap: the verbs that go with the nouns",
         body: [
           "Business French runs on collocations: you \"dégager\" or \"réaliser un bénéfice\", \"essuyer\" or \"enregistrer des pertes\", \"lever des fonds\" (raise funds), \"conclure un accord\", \"passer une commande\", \"établir un devis\" (draw up a quote), \"régler une facture\" (pay an invoice), \"déposer le bilan\" (file for bankruptcy), \"redresser les comptes\". Using \"faire\" for all of these is the mark of a non-native speaker.",
-          "Across the francophone world: in Québec, \"une soumission\" is a quote or bid (France: \"un devis\"), \"faire affaire avec\" is to do business with, \"les états financiers\" are the financial statements, and \"un courriel\" is an email. In Belgium, the small limited company is \"une SRL\" (since 2019) and figures use \"septante\" and \"nonante\". In Switzerland, the same form is \"une Sàrl\", an accounting firm is \"une fiduciaire\", and you hear \"septante\" and \"huitante\" (in some cantons).",
+          "Across the francophone world: in Québec, \"une soumission\" is a quote or bid (France: \"un devis\"), \"faire affaire avec\" is to do business with, \"les états financiers\" are the financial statements, and \"un courriel\" is an email. In Belgium, the small limited company is \"une SRL\" (since 2019) and figures use \"septante\" and \"nonante\". In Switzerland, the same form is \"une Sàrl\", an accounting firm is \"une fiduciaire\", and you hear \"septante\" and \"nonante\" everywhere, plus \"huitante\" in the cantons of Vaud, Valais and Fribourg.",
         ],
         examples: [
           { es: "La société a dégagé un bénéfice de deux millions d'euros.", en: "The company made a profit of two million euros." },
@@ -213,7 +213,7 @@ export const FR_C2_U31_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A Québec contractor sends you « une soumission ». What is it?",
+            question: "A Québec contractor sends you \"une soumission\". What is it?",
             options: ["a quote", "a complaint", "an invoice", "a contract termination"],
             correctIndex: 0,
             explanation: "In Québec \"une soumission\" is a quote or bid; in France \"un devis\".",
@@ -265,7 +265,7 @@ export const FR_C2_U31_EXTRA: Lesson[] = [
         source: "The company made a profit of five million.",
         answer: "La société a dégagé un bénéfice de cinq millions.",
         altAnswers: ["L'entreprise a dégagé un bénéfice de cinq millions.", "La société a réalisé un bénéfice de cinq millions.", "L'entreprise a réalisé un bénéfice de cinq millions."],
-        explanation: "\"Dégager\" or \"réaliser un bénéfice\"; never \"faire un bénéfice\" in careful style.",
+        explanation: "\"Dégager\" or \"réaliser un bénéfice\"; \"faire un bénéfice\" is more casual.",
       },
       {
         type: "translate",
@@ -358,7 +358,7 @@ export const FR_C2_U31_EXTRA: Lesson[] = [
         heading: "Recap: the summary and the cover email",
         body: [
           "A report summary (\"la synthèse\" or \"le résumé\") is impersonal and nominal: \"Le présent rapport analyse...\", \"Il ressort de l'étude que...\" (the study shows that), \"Trois recommandations se dégagent\". No first person singular; at most \"nous\". Figures are precise, conclusions measured.",
-          "The cover email follows French professional conventions: \"Madame, Monsieur\" or \"Madame la Directrice\", then \"Je vous prie de trouver ci-joint\" or \"Vous trouverez ci-joint\" (ci-joint is invariable before the noun or at the head of the sentence), \"comme convenu lors de notre réunion du...\", \"Je reste à votre disposition pour tout complément d'information\", and a closing formula: \"Bien cordialement\" (email) or \"Je vous prie d'agréer, Madame, l'expression de mes salutations distinguées\" (letter).",
+          "The cover email follows French professional conventions: \"Madame, Monsieur\" or \"Madame la Directrice\", then \"Je vous prie de trouver ci-joint\" or \"Vous trouverez ci-joint\" (\"ci-joint\" is invariable before the noun or at the head of the sentence), \"comme convenu lors de notre réunion du...\", \"Je reste à votre disposition pour tout complément d'information\", and a closing formula: \"Bien cordialement\" (email) or \"Je vous prie d'agréer, Madame, l'expression de mes salutations distinguées\" (letter).",
         ],
         examples: [
           { es: "Le présent rapport analyse l'évolution des ventes au premier semestre.", en: "This report analyses the trend in sales in the first half." },
@@ -541,7 +541,7 @@ export const FR_C2_U31_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does « le directeur actuel » mean?",
+            question: "What does \"le directeur actuel\" mean?",
             options: ["the current director", "the actual director", "the active director", "the acting director"],
             correctIndex: 0,
             explanation: "\"Actuel\" = current. The acting director would be \"le directeur par intérim\".",
@@ -636,7 +636,7 @@ export const FR_C2_U31_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Je pourrai éventuellement vous rappeler demain. » What does the speaker mean?",
+        question: "\"Je pourrai éventuellement vous rappeler demain.\" What does the speaker mean?",
         options: ["I may possibly call you back tomorrow.", "I'll eventually call you back tomorrow.", "I'll definitely call you back tomorrow.", "I called you back eventually."],
         correctIndex: 0,
         explanation: "\"Éventuellement\" = possibly, if need be.",
@@ -783,7 +783,7 @@ export const FR_C2_U31_EXTRA: Lesson[] = [
           "Le taux augmente de vingt-deux points.",
         ],
         correctIndex: 0,
-        explanation: "Two percentage points (and a 10 % relative rise): never \"deux pour cent\".",
+        explanation: "Two percentage points (and a 10% relative rise): never \"deux pour cent\".",
       },
       {
         type: "translate",
@@ -878,7 +878,7 @@ export const FR_C2_U31_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does « à périmètre constant » mean in a results release?",
+            question: "What does \"à périmètre constant\" mean in a results release?",
             options: ["like-for-like, excluding acquisitions and disposals", "with constant prices", "in the same country", "at a constant exchange rate"],
             correctIndex: 0,
             explanation: "\"À périmètre constant\" compares the same group structure, without acquisitions or disposals.",
@@ -950,7 +950,7 @@ export const FR_C2_U31_EXTRA: Lesson[] = [
       },
       {
         type: "matching",
-        instructions: "Match each part of a press release with its French label.",
+        instructions: "Match each French section heading of a press release with its English meaning.",
         pairs: [
           { left: "Perspectives", right: "outlook" },
           { left: "À propos de", right: "company description" },

@@ -121,8 +121,8 @@ export const FR_A2_U22: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "'Will you be able to come tomorrow?' (to a friend) Which is right?",
-            options: ["Tu pourras venir demain ?", "Tu pouvras venir demain ?", "Tu pourrais venir demain ?", "Tu pouvais venir demain ?"],
+            question: "How do you say (to a friend): Will you be able to come tomorrow?",
+            options: ["Tu pourras venir demain ?", "Tu pouvras venir demain ?", "Tu pourrai venir demain ?", "Tu pouvais venir demain ?"],
             correctIndex: 0,
             explanation: "The future stem of \"pouvoir\" is \"pourr-\": \"tu pourras\".",
           },
@@ -299,7 +299,7 @@ export const FR_A2_U22: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The homework? 'I haven't done it yet.' Which is correct?",
+            question: "The homework? How do you say: I haven't done it yet?",
             options: ["Je ne l'ai pas encore fait.", "Je ne l'ai fait pas encore.", "Je n'ai pas encore le fait.", "Je ne pas l'ai encore fait."],
             correctIndex: 0,
             explanation: "Ne + pronoun + auxiliary + pas encore + participle.",
@@ -500,7 +500,7 @@ export const FR_A2_U22: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say 'She's kind'?",
+            question: "How do you say: She's kind?",
             options: ["Elle est gentille.", "Elle est gentil.", "Elle est gentle.", "Elle est gentile."],
             correctIndex: 0,
             explanation: "\"Gentil\" doubles the l in the feminine: \"gentille\". And it means kind, not gentle.",
@@ -760,9 +760,9 @@ export const FR_A2_U22: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into French.",
         source: "I'm allergic to nuts.",
-        answer: "Je suis allergique aux noix.",
-        altAnswers: ["Je suis allergique aux fruits à coque."],
-        explanation: "\"Allergique à\" + les noix → \"aux noix\".",
+        answer: "Je suis allergique aux fruits à coque.",
+        altAnswers: ["Je suis allergique aux noix."],
+        explanation: "Nuts in general are \"les fruits à coque\"; \"les noix\" are strictly walnuts, though many people use the word for all nuts. \"Allergique à\" + les → \"aux\".",
       },
       {
         type: "translate",
@@ -1006,7 +1006,7 @@ export const FR_A2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence fits a story: 'They arrived in Paris in 1962'?",
+        question: "How do you say, in a story: They arrived in Paris in 1962?",
         options: ["Ils sont arrivés à Paris en 1962.", "Ils arrivaient à Paris en 1962.", "Ils ont arrivé à Paris en 1962.", "Ils sont arrivé à Paris en 1962."],
         correctIndex: 0,
         explanation: "A dated event: passé composé; \"arriver\" takes \"être\" and agrees.",
@@ -1116,7 +1116,7 @@ export const FR_A2_U22: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "'He misses you' (to a friend). Which is right?",
+            question: "How do you tell a friend: He misses you?",
             options: ["Tu lui manques.", "Il te manque.", "Il manque toi.", "Tu le manques."],
             correctIndex: 0,
             explanation: "You are the one missed, so \"tu\" is the subject and he is the indirect \"lui\": \"tu lui manques\". \"Il te manque\" means you miss him.",
@@ -1235,7 +1235,7 @@ export const FR_A2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the natural French for 'I've just had lunch'?",
+        question: "How do you say: I've just had lunch?",
         options: ["Je viens de déjeuner.", "J'ai juste déjeuné.", "Je viens déjeuner.", "J'ai venu de déjeuner."],
         correctIndex: 0,
         explanation: "\"Venir de\" + infinitive. \"Je viens déjeuner\" means I'm coming to have lunch.",
@@ -1637,7 +1637,7 @@ export const FR_A2_U22: Lesson[] = [
         prompt: "Translate into French.",
         source: "It's black, with a red pocket.",
         answer: "Il est noir, avec une poche rouge.",
-        altAnswers: ["Il est noir avec une poche rouge.", "Elle est noire, avec une poche rouge."],
+        altAnswers: ["Il est noir avec une poche rouge."],
         explanation: "Colour adjectives follow the noun and agree: \"une poche rouge\".",
       },
       {
@@ -1935,7 +1935,7 @@ export const FR_A2_U22: Lesson[] = [
       {
         type: "speak",
         text: "Quand j'étais petit, je ne mangeais jamais de légumes. Maintenant, j'en mange tous les jours.",
-        prompt: "Say it in French: When I was little, I never ate vegetables. Now I eat them every day.",
+        prompt: "Say it in French: When I was little, I never ate vegetables. Now I eat some every day.",
         explanation: "Imparfait for the past habit, \"de\" after \"jamais\", and \"en\" for des légumes in the present.",
       },
     ],
@@ -2114,7 +2114,7 @@ export const FR_A2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'I asked him to take me there'?",
+        question: "How do you say: I asked him to take me there?",
         options: ["Je lui ai demandé de m'y emmener.", "Je l'ai demandé de m'y emmener.", "Je lui ai demandé de y m'emmener.", "Je lui ai demandé m'y emmener."],
         correctIndex: 0,
         explanation: "\"Demander à\" → \"lui\"; \"de\" before the infinitive; \"m'y\" in that order.",
@@ -2170,7 +2170,7 @@ export const FR_A2_U22: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Link 3: 'Marc was driving home.' Which is right?",
+            question: "Link 3. How do you say: Marc was driving home?",
             options: ["Marc rentrait chez lui en voiture.", "Marc est rentré chez lui en voiture.", "Marc a rentré chez lui en voiture.", "Marc rentrera chez lui en voiture."],
             correctIndex: 0,
             explanation: "Was driving = an action in progress, the scene: imparfait \"rentrait\".",
@@ -2306,7 +2306,7 @@ export const FR_A2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Link 6: 'He was carrying a big suitcase.' Which is right?",
+        question: "Link 6. How do you say: He was carrying a big suitcase?",
         options: ["Il portait une grosse valise.", "Il a porté une grosse valise.", "Il est porté une grosse valise.", "Il portera une grosse valise."],
         correctIndex: 0,
         explanation: "Description of what he looked like at that moment: imparfait.",
@@ -2415,7 +2415,7 @@ export const FR_A2_U22: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "'In 2015, we settled in Grenoble.' Which is right?",
+            question: "How do you say: In 2015, we settled in Grenoble?",
             options: ["En 2015, nous nous sommes installés à Grenoble.", "En 2015, nous avons installés à Grenoble.", "En 2015, nous nous installions à Grenoble.", "En 2015, nous nous avons installés à Grenoble."],
             correctIndex: 0,
             explanation: "A dated milestone: passé composé; \"s'installer\" is pronominal, so être + agreement.",

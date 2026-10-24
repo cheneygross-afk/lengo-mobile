@@ -11,7 +11,7 @@ export const FR_C2_GUIDES: FrGrammarGuide[] = [
     level: "C2",
     intro: [
       "Legal and administrative French is a register with its own grammar. A lease, a letter from the tax office, a court decision or a town-hall order uses fixed formulas (\"je soussigné\", \"il est convenu ce qui suit\"), present and future tenses that express obligation rather than time, demonstratives like \"ledit\" that English contracts would express with the said, and long sentences held together by participles and nominalisations.",
-      "None of it is optional decoration. These forms exist to be precise, impersonal and binding, and they're the same across France, Belgium, Switzerland and Québec with small local variations. At Mastery you're expected to read them without help and to write a correct formal request or a simple clause yourself.",
+      "None of it is optional decoration. These forms exist to be precise, impersonal and binding, and they share a common core across the French-speaking world, though Belgium, Switzerland and Québec each have their own legal terms and conventions. At Mastery you're expected to read them without help and to write a correct formal request or a simple clause yourself.",
       "This guide covers the grammar rather than the vocabulary: how these texts are built, what each structure commits the reader to, and how to rephrase them in plain French when you need to explain them.",
     ],
     sections: [
@@ -19,7 +19,7 @@ export const FR_C2_GUIDES: FrGrammarGuide[] = [
         heading: "Frozen formulas: je soussigné, vu, considérant",
         body: [
           "Official declarations open with \"Je soussigné(e)\" + name, followed by a verb: \"Je soussignée Claire Martin, demeurant au 12 rue des Lilas à Nantes, certifie sur l'honneur que...\" \"Soussigné\" agrees with the signatory. Contracts introduce their terms with \"Il a été convenu ce qui suit\" or \"Il est convenu et arrêté ce qui suit\", a frozen relative with \"ce qui\" and no antecedent.",
-          "Decisions by administrations and courts list their grounds before the decision itself, each in a fixed form: \"Vu\" + the laws relied on (invariable, with no verb), \"Considérant que\" + indicative for each reason, and in court judgments \"Attendu que\". Then comes the operative part, often in capitals: \"ARRÊTE\", \"DÉCIDE\", \"PAR CES MOTIFS\".",
+          "Decisions by administrations and courts list their grounds before the decision itself, each in a fixed form: \"Vu\" + the laws relied on (invariable, with no verb), \"Considérant que\" + indicative for each reason, and, in older court judgments, \"Attendu que\" (the Cour de cassation dropped it in 2019). Then comes the operative part, often in capitals: \"ARRÊTE\", \"DÉCIDE\", \"PAR CES MOTIFS\".",
         ],
         examples: [
           { fr: "Je soussigné Paul Durand déclare avoir pris connaissance du règlement.", en: "I, the undersigned Paul Durand, declare that I have read the regulations." },

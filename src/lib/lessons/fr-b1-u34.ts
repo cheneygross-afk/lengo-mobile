@@ -166,7 +166,7 @@ export const FR_B1_U34: Lesson[] = [
           {
             type: "speak",
             text: "Pourriez-vous parler un peu plus lentement ?",
-            tip: "\"Pourriez\" has a double r: hold it slightly, \"pou-rr-iez\".",
+            tip: "\"Pourriez\" is two syllables, \"pou-riez\"; the double r is a single French r.",
             explanation: "The conditional \"pourriez\" makes the request polite.",
           },
         ],
@@ -290,7 +290,7 @@ export const FR_B1_U34: Lesson[] = [
           { es: "Si tu veux le livre, je te le prête.", en: "If you want the book, I'll lend it to you." },
           { es: "Je lui écrirais si j'avais son adresse.", en: "I'd write to her if I had her address." },
           { es: "Il faut que tu y ailles demain.", en: "You need to go there tomorrow." },
-          { es: "On en mangeait tous les dimanches chez ma grand-mère.", en: "We used to eat it every Sunday at my grandmother's." },
+          { es: "On en mangeait tous les dimanches chez ma grand-mère.", en: "We used to have some every Sunday at my grandmother's." },
         ],
         checkpoint: [
           {
@@ -1259,7 +1259,7 @@ export const FR_B1_U34: Lesson[] = [
         heading: "Paragraph 1: moods and auxiliaries",
         body: [
           "Lucas, an English student, spent a month with the Moreau family in Nantes. His email starts: \"*Je suis très triste que les vacances sont finies. J'ai resté un mois chez vous et je suis sorti la poubelle tous les soirs ! Il faut que je vais vous revoir bientôt. J'espère que vous soyez en forme.\"",
-          "Four slips. An emotion trigger needs the subjunctive: \"que les vacances soient finies\". \"Rester\" takes être: \"je suis resté\". \"Sortir\" with a direct object takes avoir: \"j'ai sorti la poubelle\". \"Il faut que\" needs the subjunctive \"j'aille\", and \"espérer\" needs the indicative: \"j'espère que vous êtes en forme\".",
+          "Five slips. An emotion trigger needs the subjunctive: \"que les vacances soient finies\". \"Rester\" takes être: \"je suis resté\". \"Sortir\" with a direct object takes avoir: \"j'ai sorti la poubelle\". \"Il faut que\" needs the subjunctive \"j'aille\", and \"espérer\" needs the indicative: \"j'espère que vous êtes en forme\".",
           "The last two are mirror images: English speakers often forget the subjunctive after real triggers, then over-apply it after \"espérer\". Learn the short list of verbs that never take it: \"espérer\", \"penser\", \"croire\" (affirmative), \"il est probable que\".",
         ],
         examples: [
@@ -1391,7 +1391,7 @@ export const FR_B1_U34: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French. (A learner wrote: *J'habite ici depuis deux ans et j'ai habité ici depuis 2022.)",
+        prompt: "Translate into French. (A learner wrote: *J'ai habité ici depuis deux ans.)",
         source: "I've been living here for two years.",
         answer: "J'habite ici depuis deux ans.",
         altAnswers: ["Ça fait deux ans que j'habite ici.", "Il y a deux ans que j'habite ici.", "Je vis ici depuis deux ans.", "Ça fait deux ans que je vis ici."],

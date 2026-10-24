@@ -259,7 +259,7 @@ export const FR_B2_U06: Lesson[] = [
             prompt: "Translate into French.",
             source: "There seems to be a problem with the server.",
             answer: "Il semble qu'il y ait un problème avec le serveur.",
-            altAnswers: ["On dirait qu'il y a un problème avec le serveur."],
+            altAnswers: ["On dirait qu'il y a un problème avec le serveur.", "Il semblerait qu'il y ait un problème avec le serveur."],
             explanation: "\"Il semble que\" + subjunctive \"il y ait\".",
           },
           {
@@ -365,7 +365,7 @@ export const FR_B2_U06: Lesson[] = [
         prompt: "Translate into French.",
         source: "The train will probably be late.",
         answer: "Il est probable que le train aura du retard.",
-        altAnswers: ["Le train aura probablement du retard.", "Le train va probablement avoir du retard."],
+        altAnswers: ["Le train aura probablement du retard.", "Le train va probablement avoir du retard.", "Le train sera probablement en retard.", "Il est probable que le train sera en retard."],
         explanation: "\"Il est probable que\" takes the indicative \"aura\"; the subjunctive \"ait\" belongs to \"il est possible que\" and \"il est peu probable que\".",
       },
       {
@@ -1029,7 +1029,7 @@ export const FR_B2_U06: Lesson[] = [
           "Error 1: \"quand\" or \"dès que\" + present for a future event. French needs the future (or futur antérieur): *\"quand tu pars\" → \"quand tu partiras\". Error 2: the indicative after a subjunctive conjunction: *\"avant que je pars\" → \"avant que je parte\".",
         ],
         examples: [
-          { es: "✗ Quand tu pars le matin, ferme bien la porte. → ✓ Quand tu partiras le matin, ferme bien la porte.", en: "When you leave in the morning, lock the door properly." },
+          { es: "✗ Quand tu pars demain matin, ferme bien la porte. → ✓ Quand tu partiras demain matin, ferme bien la porte.", en: "When you leave tomorrow morning, lock the door properly." },
           { es: "✗ Dès que le plombier arrive jeudi, appelle-moi. → ✓ Dès que le plombier arrivera jeudi, appelle-moi.", en: "As soon as the plumber arrives on Thursday, call me." },
           { es: "✗ J'arrose les plantes avant que je pars. → ✓ J'arrose les plantes avant de partir.", en: "I'm watering the plants before I leave." },
           { es: "✗ Laisse la fenêtre ouverte pour que le chat peut sortir. → ✓ Laisse la fenêtre ouverte pour que le chat puisse sortir.", en: "Leave the window open so the cat can get out." },
@@ -1093,10 +1093,10 @@ export const FR_B2_U06: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "When you leave in the morning, lock the door properly.",
-        answer: "Quand tu partiras le matin, ferme bien la porte à clé.",
-        altAnswers: ["Quand tu partiras le matin, ferme bien la porte.", "Quand tu pars le matin, ferme bien la porte à clé.", "Quand tu pars le matin, ferme bien la porte."],
-        explanation: "For this week ahead, \"quand tu partiras\"; for a general habit, the present is also accepted.",
+        source: "When you leave tomorrow morning, lock the door properly.",
+        answer: "Quand tu partiras demain matin, ferme bien la porte à clé.",
+        altAnswers: ["Quand tu partiras demain matin, ferme bien la porte.", "Lorsque tu partiras demain matin, ferme bien la porte à clé."],
+        explanation: "One future event with an imperative: \"quand tu partiras\". The present \"quand tu pars\" is for a habit (whenever you leave), not for tomorrow.",
       },
       {
         type: "translate",

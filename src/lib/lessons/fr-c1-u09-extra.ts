@@ -953,9 +953,9 @@ export const FR_C1_U09_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence from Julien's email is correct?",
-        options: ["Je me suis inscrit à un club de rando auquel participent des gens très sympas.", "Je me suis inscrit dans un club de rando auquel participent des gens très sympas.", "Je me suis inscrit à un club de rando que participent des gens très sympas.", "Je me suis inscrit à un club de rando dont participent des gens très sympas."],
+        options: ["Je me suis inscrit à un atelier de théâtre auquel participent des gens très sympas.", "Je me suis inscrit à un atelier de théâtre que participent des gens très sympas.", "Je me suis inscrit à un atelier de théâtre dont participent des gens très sympas.", "Je me suis inscrit à un atelier de théâtre lequel participent des gens très sympas."],
         correctIndex: 0,
-        explanation: "\"S'inscrire à\" a club; \"participer à\" → auquel (with stylistic inversion of the subject).",
+        explanation: "\"Participer à\" → auquel (with stylistic inversion of the subject). \"Que\", \"dont\" and bare \"lequel\" all lose the à the verb needs.",
       },
       {
         type: "listen-choose",

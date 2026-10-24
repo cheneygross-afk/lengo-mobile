@@ -14,8 +14,8 @@ export const FR_B2_U21_WRITING: WriteExercise = {
     "Uses \"ce dont\" or \"ce à quoi\" (\"ce dont le village a besoin, c'est...\")",
     "Chooses correctly between \"où\" and \"dans lequel\" / \"auquel\", and never writes *\"le jour quand\"",
   ],
-  modelAnswer: "Saint-Véran est un petit village des Hautes-Alpes dont les habitants, chaque été, perpétuent une tradition vieille de plusieurs siècles : la fête des bergers. Le jour où les troupeaux montent vers les alpages, tout le village se rassemble sur la place, au centre de laquelle se dresse une fontaine en pierre.\n\nJ'y ai rencontré Marcel, un berger de soixante-dix ans dont je connaissais déjà la fille. Il m'a montré les vieux chemins le long desquels les moutons marchent depuis toujours, et la chapelle près de laquelle on bénit les bêtes. La fête, au cours de laquelle on chante des airs en occitan, dure deux jours.\n\nMais le village se vide. Sur les quarante enfants qui y vivaient en 1980, il en reste douze, dont trois seulement veulent devenir bergers. Ce dont la tradition a besoin, ce n'est pas d'argent : ce sont des jeunes. Ce à quoi Marcel pense le plus, c'est la transmission : « Si personne ne reprend les chemins, ils disparaîtront avec nous. »\n\nSans cette fête, le village perdrait bien plus qu'un folklore : il perdrait la mémoire dont il est fait.",
-  explanation: "\"Dont\" replaces \"de\" + noun: \"dont les habitants\" (the inhabitants of the village), \"dont je connaissais la fille\" (normal order after \"dont\"), \"dont trois\" (a quantity), \"dont il est fait\" (\"être fait de\"). After compound prepositions only \"lequel\" works: \"au centre de laquelle\", \"le long desquels\", \"près de laquelle\", \"au cours de laquelle\". \"Ce dont\" (\"avoir besoin de\") and \"ce à quoi\" (\"penser à\") introduce the pseudo-clefts, and \"le jour où\" is the only way to say the day when.",
+  modelAnswer: "Saint-Véran est un petit village des Hautes-Alpes dont les habitants, chaque été, perpétuent une tradition vieille de plusieurs siècles : la fête des bergers. Le jour où les troupeaux montent vers les alpages, tout le village se rassemble sur la place, au centre de laquelle se dresse une fontaine en pierre.\n\nJ'y ai rencontré Marcel, un berger de soixante-dix ans dont je connaissais déjà la fille. Il m'a montré les vieux chemins le long desquels les moutons marchent depuis toujours, et la chapelle près de laquelle on bénit les bêtes. La fête, au cours de laquelle on chante des airs en occitan, dure deux jours.\n\nMais le village se vide. Sur les quarante enfants qui y vivaient en 1980, il en reste douze, dont trois seulement veulent devenir bergers. Ce dont la tradition a besoin, ce n'est pas d'argent : c'est de jeunes. Ce à quoi Marcel pense le plus, c'est à la transmission : « Si personne ne reprend les chemins, ils disparaîtront avec nous. »\n\nSans cette fête, le village perdrait bien plus qu'un folklore : il perdrait la mémoire dont il est fait.",
+  explanation: "\"Dont\" replaces \"de\" + noun: \"dont les habitants\" (the inhabitants of the village), \"dont je connaissais la fille\" (normal order after \"dont\"), \"dont trois\" (a quantity), \"dont il est fait\" (\"être fait de\"). After compound prepositions only \"lequel\" works: \"au centre de laquelle\", \"le long desquels\", \"près de laquelle\", \"au cours de laquelle\". \"Ce dont\" (\"avoir besoin de\") and \"ce à quoi\" (\"penser à\") introduce the pseudo-clefts, with \"de\" and \"à\" repeated after \"c'est\" as careful written French requires, and \"le jour où\" is the only way to say the day when.",
 };
 
 export const FR_B2_U21: Lesson[] = [
@@ -1862,7 +1862,7 @@ export const FR_B2_U21: Lesson[] = [
         examples: [
           { es: "Ce dont j'ai envie, c'est de vacances.", en: "What I want is a holiday." },
           { es: "Dis-moi ce dont tu as besoin.", en: "Tell me what you need." },
-          { es: "Ce à quoi je pense, c'est l'avenir du village.", en: "What I'm thinking about is the village's future." },
+          { es: "Ce à quoi je pense, c'est à l'avenir du village.", en: "What I'm thinking about is the village's future." },
           { es: "Ce n'est pas ce à quoi je m'attendais.", en: "It's not what I was expecting." },
           { es: "Voilà ce sur quoi nous sommes d'accord.", en: "That's what we agree on." },
           { es: "C'est exactement ce contre quoi nous nous battons.", en: "It's exactly what we're fighting against." },
@@ -1893,7 +1893,7 @@ export const FR_B2_U21: Lesson[] = [
         heading: "Où or dans lequel? Le jour où",
         body: [
           "For places, \"où\" and \"preposition + lequel\" are often both possible: \"la maison où je suis né\" = \"la maison dans laquelle je suis né\". \"Où\" is lighter; \"dans laquelle\" is more precise and more formal.",
-          "When the verb needs a preposition other than in (à, sur, sous, pour...), use \"lequel\": \"la table sur laquelle j'ai posé mes clés\" (not *\"où\"). And for an abstract situation, \"où\" is fine: \"une situation où personne ne gagne\".",
+          "When the preposition itself matters (sur, sous, derrière...), use it with \"lequel\": \"la table sur laquelle j'ai posé mes clés\" (\"où\" is also correct for a place, but it loses the idea of 'on'). When the relative is not a place at all, only \"lequel\" works: \"la cause pour laquelle il se bat\", never *\"où\". And for an abstract situation, \"où\" is fine: \"une situation où personne ne gagne\".",
           "For time, \"où\" is compulsory after the noun: \"le jour où\", \"l'année où\", \"au moment où\". *\"Le jour quand\" is one of the most stubborn English-speaker errors. \"Quand\" only works without a noun antecedent: \"Quand je suis arrivé...\".",
         ],
         examples: [
@@ -1996,7 +1996,7 @@ export const FR_B2_U21: Lesson[] = [
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
         en: "[What I'm thinking about] is the future.",
-        sentence: "___, c'est l'avenir.",
+        sentence: "___, c'est à l'avenir.",
         answer: "Ce à quoi je pense",
         explanation: "\"Penser à\" → \"ce à quoi\". \"Ce que je pense\" would be what I think.",
       },
