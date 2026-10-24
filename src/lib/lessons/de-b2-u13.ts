@@ -8,7 +8,7 @@ export const DE_B2_U13: Lesson[] = [
     level: "DE-B2",
     number: 1,
     title: "Als ob and Als wenn, Part 1 of 2",
-    summary: "Describe how things seem or how people pretend: als ob and als wenn with the Konjunktiv II and the verb at the end.",
+    summary: "Describe how things seem or how people pretend: \"als ob\" and \"als wenn\" with the Konjunktiv II and the verb at the end.",
     duration: "15 min",
     sections: [
       {
@@ -39,10 +39,10 @@ export const DE_B2_U13: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say: He acts as if he didn't know anything?",
+            question: "Which is standard German for: He acts as if he didn't know anything?",
             options: ["Er tut so, als ob er nichts wüsste.", "Er tut so, als ob er nichts weiß.", "Er tut so, als ob er wüsste nichts.", "Er tut so, wie ob er nichts wüsste."],
             correctIndex: 0,
-            explanation: "\"Als ob\" + Konjunktiv II (\"wüsste\") with the verb at the end.",
+            explanation: "\"Als ob\" + Konjunktiv II (\"wüsste\") with the verb at the end. \"Als ob er nichts weiß\" is heard in casual speech, but not standard; \"wie ob\" doesn't exist.",
           },
         ],
       },
@@ -201,7 +201,7 @@ export const DE_B2_U13: Lesson[] = [
     level: "DE-B2",
     number: 2,
     title: "Pattern Practice: Er tut so, als ob...",
-    summary: "One frame, many verbs: er tut so, als ob er schliefe, krank wäre, keine Zeit hätte, alles wüsste, mich nicht sehen würde.",
+    summary: "Describe pretending with one frame and many verbs: \"Er tut so, als ob er krank wäre / keine Zeit hätte / alles wüsste / mich nicht sehen würde.\"",
     duration: "13 min",
     sections: [
       {
@@ -390,7 +390,7 @@ export const DE_B2_U13: Lesson[] = [
     level: "DE-B2",
     number: 3,
     title: "Minimal Pairs: Als ob er müde wäre / Als wäre er müde",
-    summary: "Two word orders, one meaning: als ob with the verb at the end, or als with the verb straight after it.",
+    summary: "Switch between two word orders with one meaning: \"als ob\" with the verb at the end, or \"als\" with the verb straight after it.",
     duration: "13 min",
     sections: [
       {
@@ -433,7 +433,7 @@ export const DE_B2_U13: Lesson[] = [
         body: [
           "If you drop \"ob\" but leave the verb at the end, you get a completely different sentence: \"als er müde war\" is a time clause meaning when he was tired (Intermediate level: \"als\" for a single past event).",
           "So: \"als ob er müde wäre\" (as if he were tired), \"als wäre er müde\" (as if he were tired), but \"als er müde war\" (when he was tired). The position of the verb and the Konjunktiv carry the meaning.",
-          "\"*Als er müde wäre\" with the verb at the end is simply wrong; don't mix the two.",
+          "\"*Als er müde wäre*\" with the verb at the end is simply wrong; don't mix the two.",
         ],
         examples: [
           { es: "Als er müde war, ging er nach Hause.", en: "When he was tired, he went home." },
@@ -456,7 +456,7 @@ export const DE_B2_U13: Lesson[] = [
             prompt: "Translate into German, without ob.",
             source: "She smiled as if she had been expecting me.",
             answer: "Sie lächelte, als hätte sie mich erwartet.",
-            altAnswers: ["Sie hat gelächelt, als hätte sie mich erwartet.", "Sie lächelte, als ob sie mich erwartet hätte."],
+            altAnswers: ["Sie hat gelächelt, als hätte sie mich erwartet."],
             explanation: "Past unreal: \"als hätte sie ... erwartet\". Not a time clause, because the verb follows \"als\" directly.",
           },
         ],
@@ -577,7 +577,7 @@ export const DE_B2_U13: Lesson[] = [
     level: "DE-B2",
     number: 4,
     title: "Thematic Review: Das Familiengeheimnis",
-    summary: "At a family reunion in Bremen an aunt behaves as if nothing had happened: als ob, reported speech and regrets with the double infinitive.",
+    summary: "Describe a family reunion in Bremen where an aunt behaves as if nothing had happened, using \"als ob\", reported speech and regrets with the double infinitive.",
     duration: "15 min",
     sections: [
       {
@@ -767,14 +767,14 @@ export const DE_B2_U13: Lesson[] = [
     level: "DE-B2",
     number: 5,
     title: "Choose and Explain: Als or Wie?",
-    summary: "Comparisons done right: größer als, genauso groß wie, nicht so groß wie, anders als, mehr als erwartet, doppelt so viel wie.",
+    summary: "Choose \"als\" or \"wie\" in comparisons and explain why: \"größer als\", \"genauso groß wie\", \"nicht so groß wie\", \"anders als\", \"mehr als erwartet\", \"doppelt so viel wie\".",
     duration: "14 min",
     sections: [
       {
         heading: "Als after the comparative, wie for equality",
         body: [
           "The basic rule: after a comparative (\"größer\", \"besser\", \"mehr\", \"weniger\") use \"als\" (than): \"Hamburg ist größer als Bremen.\" For equality use \"so ... wie\" or \"genauso ... wie\" (as ... as): \"Bremen ist nicht so groß wie Hamburg.\" \"Mein Bruder ist genauso alt wie dein Mann.\"",
-          "Colloquially, many Germans say \"*größer wie\". You'll hear it, especially in the south, but it's non-standard and marked wrong in exams. Write \"als\".",
+          "Colloquially, many Germans say \"*größer wie*\". You'll hear it, especially in the south, but it's non-standard and marked wrong in exams. Write \"als\".",
           "English mapping: than → \"als\"; as ... as → \"so ... wie\"; like (a comparison of manner) → \"wie\": \"Sie singt wie ein Profi\"; as if → \"als ob\".",
         ],
         examples: [
@@ -1134,7 +1134,7 @@ export const DE_B2_U13: Lesson[] = [
     level: "DE-B2",
     number: 7,
     title: "Als ob, Part 2 of 2: The Past and Comparison Clauses",
-    summary: "Unreal comparisons about the past, Konjunktiv I in written narration, and comparison clauses: schöner, als ich gedacht hatte; je ... desto; zu ..., als dass.",
+    summary: "Make unreal comparisons about the past, recognise the Konjunktiv I in written narration, and use comparison clauses: \"schöner, als ich gedacht hatte\", \"je ... desto\", \"zu ..., als dass\".",
     duration: "16 min",
     sections: [
       {
@@ -1324,14 +1324,14 @@ export const DE_B2_U13: Lesson[] = [
     level: "DE-B2",
     number: 8,
     title: "Contrast Clinic: Es sieht aus, als ob... / Es sieht aus wie...",
-    summary: "Clause or noun: es sieht aus wie ein Schloss, es sieht aus, als ob es ein Schloss wäre; es klingt wie / als ob; es scheint, dass and scheinen + zu.",
+    summary: "Choose between a noun and a clause: \"Es sieht aus wie ein Schloss\" vs \"Es sieht aus, als ob ...\"; \"es klingt wie\" vs \"als ob\"; plus \"es scheint, dass\" and \"scheinen\" + \"zu\".",
     duration: "14 min",
     sections: [
       {
         heading: "Wie + noun, als ob + clause",
         body: [
           "After \"aussehen\", \"klingen\", \"sich anhören\", \"riechen\", \"schmecken\" and \"sich anfühlen\", German offers two structures. With a noun: \"wie\" (like): \"Es sieht aus wie ein Schloss\" (It looks like a castle). With a clause: \"als ob\" + Konjunktiv II: \"Es sieht aus, als ob es ein Schloss wäre.\"",
-          "English uses like for both (it looks like a castle / it looks like it's going to rain). German doesn't: \"*Es sieht aus wie es regnet\" is wrong. If a verb follows, you need \"als ob\" (or \"als\" + verb).",
+          "English uses like for both (it looks like a castle / it looks like it's going to rain). German doesn't: \"*Es sieht aus wie es regnet*\" is wrong. If a verb follows, you need \"als ob\" (or \"als\" + verb).",
           "Also note: no comma before \"wie\" + noun, but a comma before \"als ob\".",
         ],
         examples: [

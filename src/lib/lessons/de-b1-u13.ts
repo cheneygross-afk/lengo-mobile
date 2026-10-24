@@ -635,7 +635,7 @@ export const DE_B1_U13: Lesson[] = [
         heading: "Step 2: the same chain, unreal",
         body: [
           "Now imagine the opposite: what if Mia got up early? The facts are contrary to reality, so everything moves into the Konjunktiv II: \"Wenn Mia früher aufstehen würde, würde sie den Bus nicht verpassen. Wenn sie den Bus nicht verpassen würde, käme sie pünktlich. Wenn sie pünktlich wäre, wäre ihr Chef nicht sauer.\"",
-          "Use one-word forms where they exist (\"wäre\", \"hätte\", \"käme\", modals) to avoid a pile-up of \"würde\". \"Wenn sie pünktlich käme\" sounds better than \"*wenn sie pünktlich kommen würde, würde ...*\" repeated over and over.",
+          "Use one-word forms where they exist (\"wäre\", \"hätte\", \"käme\", modals) to avoid a pile-up of \"würde\". \"Wenn sie pünktlich käme\" is correct, and so is \"wenn sie pünktlich kommen würde\", but a whole chain of \"würde ... würde ...\" soon sounds heavy.",
         ],
         examples: [
           { es: "Wenn Mia früher aufstehen würde, würde sie den Bus nicht verpassen.", en: "If Mia got up earlier, she wouldn't miss the bus." },
@@ -834,7 +834,7 @@ export const DE_B1_U13: Lesson[] = [
           { es: "Das war toll!", en: "That was great!" },
           { es: "Das wäre toll!", en: "That would be great!" },
           { es: "Es war zu spät.", en: "It was too late." },
-          { es: "Es wäre besser, wenn du anrufst.", en: "It would be better if you called." },
+          { es: "Es wäre besser, wenn du anrufen würdest.", en: "It would be better if you called." },
           { es: "Als ich in Wien war, habe ich viel Kaffee getrunken.", en: "When I was in Vienna, I drank a lot of coffee." },
           { es: "Wenn ich in Wien wäre, würde ich ins Kaffeehaus gehen.", en: "If I were in Vienna, I'd go to a coffee house." },
         ],
@@ -995,7 +995,7 @@ export const DE_B1_U13: Lesson[] = [
     level: "DE-B1",
     number: 6,
     title: "Quick Round: Participles in Context",
-    summary: "Rapid participles for the Perfekt and Plusquamperfekt inside sentences that also contain relative and time clauses.",
+    summary: "Form past participles quickly for the Perfekt and Plusquamperfekt inside sentences that also contain relative and time clauses.",
     duration: "12 min",
     sections: [
       {
@@ -1151,7 +1151,7 @@ export const DE_B1_U13: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "After he [had fallen asleep], the doorbell rang.",
+        en: "After he had [fallen asleep], the doorbell rang.",
         sentence: "Nachdem er ___ war, klingelte es an der Tür.",
         answer: "eingeschlafen",
         explanation: "\"Einschlafen\": change of state, \"war\" + \"eingeschlafen\".",
@@ -1259,7 +1259,7 @@ export const DE_B1_U13: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "When you arrive, [please report] to reception.",
+            en: "When you arrive, please [report] to reception.",
             sentence: "Wenn Sie ankommen, ___ bitte an der Rezeption.",
             answer: "melden Sie sich",
             explanation: "Reflexive Sie imperative: \"melden Sie sich\".",
@@ -1285,7 +1285,7 @@ export const DE_B1_U13: Lesson[] = [
             prompt: "Translate into German.",
             source: "If it gets late, don't wait for me. (to a friend)",
             answer: "Falls es später wird, warte nicht auf mich.",
-            altAnswers: ["Wenn es spät wird, warte nicht auf mich.", "Falls es spät wird, warte nicht auf mich.", "Wenn es später wird, warte nicht auf mich.", "Falls es später wird, wartet nicht auf mich."],
+            altAnswers: ["Wenn es spät wird, warte nicht auf mich.", "Falls es spät wird, warte nicht auf mich.", "Wenn es später wird, warte nicht auf mich."],
             explanation: "\"Warten auf\" + accusative; \"nicht\" before the prepositional phrase.",
           },
           {
@@ -1392,7 +1392,7 @@ export const DE_B1_U13: Lesson[] = [
     level: "DE-B1",
     number: 8,
     title: "Quick Round: Real or Unreal?",
-    summary: "Rapid choices between the indicative and the Konjunktiv II in conditions and wishes.",
+    summary: "Decide quickly between the indicative and the Konjunktiv II in conditions and wishes, and keep both halves of a condition in the same mood.",
     duration: "12 min",
     sections: [
       {
@@ -1452,9 +1452,9 @@ export const DE_B1_U13: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Your friend says she might get the job. What do you say?",
-            options: ["Wenn du den Job bekommst, feiern wir!", "Wenn du den Job bekämest, feierten wir!", "Wenn du den Job bekommen hättest, feiern wir!", "Wenn du den Job bekommst, würden wir gefeiert."],
+            options: ["Wenn du den Job bekommst, feiern wir!", "Wenn du den Job bekämest, feiern wir!", "Wenn du den Job bekommen hättest, feiern wir!", "Wenn du den Job bekommst, würden wir gefeiert."],
             correctIndex: 0,
-            explanation: "A real possibility: indicative in both halves.",
+            explanation: "A real possibility: indicative in both halves. The second and third options mix an unreal wenn-clause with a real main clause, and \"würden wir gefeiert\" is a passive (we would be celebrated).",
           },
         ],
       },
@@ -1473,7 +1473,7 @@ export const DE_B1_U13: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "If I were you, I [wouldn't do] that.",
+            en: "If I were you, I [would] not do that.",
             sentence: "Wenn ich du wäre, ___ ich das nicht machen.",
             answer: "würde",
             explanation: "Unreal + unreal: \"wäre\" ... \"würde\".",
@@ -1494,7 +1494,7 @@ export const DE_B1_U13: Lesson[] = [
         prompt: "Translate into German.",
         source: "If I find your keys, I'll call you.",
         answer: "Wenn ich deine Schlüssel finde, rufe ich dich an.",
-        altAnswers: ["Falls ich deine Schlüssel finde, rufe ich dich an.", "Wenn ich deinen Schlüssel finde, rufe ich dich an.", "Falls ich deinen Schlüssel finde, rufe ich dich an.", "Wenn ich Ihre Schlüssel finde, rufe ich Sie an."],
+        altAnswers: ["Falls ich deine Schlüssel finde, rufe ich dich an.", "Wenn ich deinen Schlüssel finde, rufe ich dich an.", "Falls ich deinen Schlüssel finde, rufe ich dich an.", "Wenn ich Ihre Schlüssel finde, rufe ich Sie an.", "Wenn ich eure Schlüssel finde, rufe ich euch an."],
         explanation: "Real: indicative present.",
       },
       {
@@ -2032,7 +2032,7 @@ export const DE_B1_U13: Lesson[] = [
           "False friend: \"die Partei\" is a political party only. A celebration is \"die Party\" or \"die Feier\".",
         ],
         examples: [
-          { es: "Die nächste Bundestagswahl ist in zwei Jahren.", en: "The next general election is in two years." },
+          { es: "Die Bundestagswahl findet alle vier Jahre statt.", en: "The general election takes place every four years." },
           { es: "Ab achtzehn darf man wählen.", en: "You can vote from the age of eighteen." },
           { es: "Welche Partei hast du gewählt?", en: "Which party did you vote for?" },
           { es: "Der Bundestag stimmt morgen über das Gesetz ab.", en: "The Bundestag votes on the law tomorrow." },
@@ -2228,7 +2228,7 @@ export const DE_B1_U13: Lesson[] = [
         heading: "Können, müssen, wissen",
         body: [
           "Modals and \"wissen\" share a pattern: an irregular present singular (\"kann\", \"muss\", \"weiß\"), a Präteritum that drops the umlaut and adds -te (\"konnte\", \"musste\", \"wusste\"), and a Konjunktiv II that puts the umlaut back (\"könnte\", \"müsste\", \"wüsste\").",
-          "Perfekt: \"hat gekonnt\", \"hat gemusst\", \"hat gewusst\". With a second verb the modal Perfekt uses the infinitive (\"Ich habe nicht kommen können\"), but speakers almost always use the Präteritum instead: \"Ich konnte nicht kommen\".",
+          "Perfekt: \"hat gekonnt\", \"hat gemusst\", \"hat gewusst\". With a second verb the modal Perfekt uses the infinitive (\"Ich habe nicht kommen können\"), but speakers usually prefer the Präteritum: \"Ich konnte nicht kommen\".",
         ],
         examples: [
           { es: "Er kann schwimmen. / Er konnte schwimmen. / Er könnte schwimmen.", en: "He can swim. / He could swim. / He could swim (if...)." },
@@ -2347,9 +2347,9 @@ export const DE_B1_U13: Lesson[] = [
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
         en: "Last year we [drove] to Italy.",
-        sentence: "Letztes Jahr ___ wir nach Italien gefahren.",
-        answer: "sind",
-        explanation: "\"Fahren\" (to a place) takes \"sein\".",
+        sentence: "Letztes Jahr sind wir nach Italien ___.",
+        answer: "gefahren",
+        explanation: "Strong verb: \"gefahren\". \"Fahren\" to a place takes \"sein\": \"sind ... gefahren\", not \"*wir haben nach Italien gefahren*\".",
       },
       {
         type: "fill-blank",

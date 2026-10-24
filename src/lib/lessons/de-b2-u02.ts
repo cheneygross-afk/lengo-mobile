@@ -8,15 +8,15 @@ export const DE_B2_U02: Lesson[] = [
     level: "DE-B2",
     number: 1,
     title: "Regrets and Reproaches: Ich hätte früher kommen sollen",
-    summary: "Say what should, could or needn't have been done with hätte + two infinitives: ich hätte anrufen sollen.",
+    summary: "Say what should, could or needn't have been done with \"hätte\" + two infinitives: \"Ich hätte anrufen sollen.\"",
     duration: "15 min",
     sections: [
       {
         heading: "Ich hätte ... sollen: should have",
         body: [
           "English should have called is a modal plus a past. German does it differently: \"hätte\" + the main verb in the infinitive + the modal, also in the infinitive: \"Ich hätte anrufen sollen.\" Two infinitives side by side at the end: this is the famous double infinitive (\"Ersatzinfinitiv\").",
-          "Why an infinitive and not a participle? When a modal has another verb with it, German uses the modal's infinitive instead of its participle: \"ich habe kommen müssen\", not \"*ich habe kommen gemusst\". In the Konjunktiv II past that gives \"ich hätte kommen müssen\". Modals always take \"hätte\", never \"wäre\", even with \"kommen\" or \"gehen\": \"Ich hätte früher gehen sollen.\"",
-          "Two classic English-speaker errors: \"*ich sollte angerufen haben\" (this exists, but means I'm supposed to have called: hearsay, which you'll meet in Unit 14) and \"*ich hätte anrufen gesollt\". The modal stays an infinitive, and it always comes last.",
+          "Why an infinitive and not a participle? When a modal has another verb with it, German uses the modal's infinitive instead of its participle: \"ich habe kommen müssen\", not \"*ich habe kommen gemusst*\". In the Konjunktiv II past that gives \"ich hätte kommen müssen\". Modals always take \"hätte\", never \"wäre\", even with \"kommen\" or \"gehen\": \"Ich hätte früher gehen sollen.\"",
+          "Two classic English-speaker errors: \"*ich sollte angerufen haben*\" (this exists, but means I'm supposed to have called: hearsay, which you'll meet in Unit 14) and \"*ich hätte anrufen gesollt*\". The modal stays an infinitive, and it always comes last.",
         ],
         examples: [
           { es: "Ich hätte anrufen sollen.", en: "I should have called." },
@@ -33,7 +33,7 @@ export const DE_B2_U02: Lesson[] = [
             prompt: "Translate into German.",
             source: "I should have called.",
             answer: "Ich hätte anrufen sollen.",
-            explanation: "\"Hätte\" + \"anrufen\" + \"sollen\": two infinitives, the modal last. Not \"*ich sollte angerufen haben\".",
+            explanation: "\"Hätte\" + \"anrufen\" + \"sollen\": two infinitives, the modal last. Not \"*ich sollte angerufen haben*\".",
           },
           {
             type: "multiple-choice",
@@ -115,7 +115,7 @@ export const DE_B2_U02: Lesson[] = [
             prompt: "Translate into German.",
             source: "Couldn't you have asked her beforehand?",
             answer: "Hättest du sie nicht vorher fragen können?",
-            altAnswers: ["Hätten Sie sie nicht vorher fragen können?", "Hättet ihr sie nicht vorher fragen können?", "Hättest du sie nicht vorher fragen können."],
+            altAnswers: ["Hätten Sie sie nicht vorher fragen können?", "Hättet ihr sie nicht vorher fragen können?"],
             explanation: "A reproach as a question: \"Hättest du ... nicht ... können?\"",
           },
         ],
@@ -217,14 +217,14 @@ export const DE_B2_U02: Lesson[] = [
     level: "DE-B2",
     number: 2,
     title: "Contrast Clinic: Du solltest / Du hättest... sollen",
-    summary: "Present advice (du solltest) vs past reproach (du hättest ... sollen), and das hätte ich nicht gekonnt vs ... machen können.",
+    summary: "Tell present advice (\"du solltest\") from past reproach (\"du hättest ... sollen\"), and \"Das hätte ich nicht gekonnt\" from \"... machen können\".",
     duration: "13 min",
     sections: [
       {
         heading: "Du solltest vs du hättest ... sollen",
         body: [
           "At the Intermediate level you learned advice: \"Du solltest mehr schlafen\" (you should sleep more). That's the Konjunktiv II present of \"sollen\" and refers to now or the future. Moving it into the past turns advice into reproach or regret: \"Du hättest mehr schlafen sollen\" (you should have slept more).",
-          "The same pair exists for \"können\": \"Du könntest fragen\" (you could ask: a suggestion) vs \"Du hättest fragen können\" (you could have asked: a reproach). And for \"müssen\": \"Wir müssten mal wieder aufräumen\" (we really ought to tidy up) vs \"Wir hätten aufräumen müssen\" (we would have had to tidy up).",
+          "The same pair exists for \"können\": \"Du könntest fragen\" (you could ask: a suggestion) vs \"Du hättest fragen können\" (you could have asked: a reproach). And for \"müssen\": \"Wir müssten mal wieder aufräumen\" (we really ought to tidy up) vs \"Wir hätten aufräumen müssen\" (we ought to have tidied up).",
           "Trap: \"du solltest\" looks like a past (and it is also the Präteritum!). \"Du solltest um acht kommen\" can mean you were supposed to come at eight. Context decides, but for a clear should have, always use \"hättest ... sollen\".",
         ],
         examples: [
@@ -293,7 +293,7 @@ export const DE_B2_U02: Lesson[] = [
         body: [
           "The double infinitive only appears when the modal has another verb with it. When the modal stands alone, as a full verb, it uses its normal participle: \"Das hätte ich nicht gekonnt\" (I couldn't have done that). \"Das hätte ich nicht gewollt\" (I wouldn't have wanted that).",
           "Compare: \"Das hätte ich nicht machen können\" (with \"machen\": double infinitive) and \"Das hätte ich nicht gekonnt\" (no other verb: participle). Both mean the same.",
-          "\"Gekonnt\", \"gewollt\", \"gemusst\", \"gedurft\", \"gesollt\" exist, but only in this stand-alone use. With a second verb, they're always wrong: \"*hätte machen gekonnt\".",
+          "\"Gekonnt\", \"gewollt\", \"gemusst\", \"gedurft\", \"gesollt\" exist, but only in this stand-alone use. With a second verb, they're always wrong: \"*hätte machen gekonnt*\".",
         ],
         examples: [
           { es: "Das hätte ich nicht gekonnt.", en: "I couldn't have done that." },
@@ -433,28 +433,28 @@ export const DE_B2_U02: Lesson[] = [
     level: "DE-B2",
     number: 3,
     title: "Error Hunt: The Double Infinitive",
-    summary: "Find and fix the typical mistakes: \"*hätte kommen gesollt\", \"*dass ich kommen sollen hätte\", \"*würde gekommen sein sollen\".",
+    summary: "Find and fix the typical mistakes: \"*hätte kommen gesollt*\", \"*dass ich kommen sollen hätte*\", \"*würde gekommen sein sollen*\".",
     duration: "14 min",
     sections: [
       {
         heading: "Errors in main clauses",
         body: [
-          "Learners' sentences below each have one mistake. The three most common in main clauses: a participle instead of the modal's infinitive (\"*Ich hätte kommen gesollt\"), \"würde\" instead of \"hätte\" (\"*Ich würde gekommen sein sollen\"), and the indicative Perfekt with the wrong order (\"*Ich habe sollen kommen\").",
+          "Learners' sentences below each have one mistake. The three most common in main clauses: a participle instead of the modal's infinitive (\"*Ich hätte kommen gesollt*\"), \"würde\" instead of \"hätte\" (\"*Ich würde gekommen sein sollen*\"), and the indicative Perfekt with the wrong order (\"*Ich habe sollen kommen*\").",
           "The fix is always the same frame: \"hätte\" in position 2, then the middle, then main verb infinitive + modal infinitive: \"Ich hätte kommen sollen.\"",
-          "Another slip: \"wäre\" because the main verb is \"kommen\" or \"gehen\". With modals it's always \"hätte\": \"*Ich wäre früher gehen sollen\" → \"Ich hätte früher gehen sollen.\"",
+          "Another slip: \"wäre\" because the main verb is \"kommen\" or \"gehen\". With modals it's always \"hätte\": \"*Ich wäre früher gehen sollen*\" → \"Ich hätte früher gehen sollen.\"",
         ],
         examples: [
-          { es: "Ich hätte kommen sollen.", en: "I should have come. (not \"*hätte kommen gesollt\")" },
-          { es: "Ich hätte früher gehen sollen.", en: "I should have left earlier. (not \"*wäre ... gehen sollen\")" },
-          { es: "Er hätte uns warnen müssen.", en: "He should have warned us. (not \"*würde gewarnt haben müssen\")" },
-          { es: "Wir hätten das Licht ausschalten sollen.", en: "We should have switched off the light. (not \"*ausschalten gesollt\")" },
-          { es: "Sie hätte das nicht unterschreiben dürfen.", en: "She shouldn't have signed that. (not \"*unterschrieben dürfen\")" },
+          { es: "Ich hätte kommen sollen.", en: "I should have come. (not \"*hätte kommen gesollt*\")" },
+          { es: "Ich hätte früher gehen sollen.", en: "I should have left earlier. (not \"*wäre ... gehen sollen*\")" },
+          { es: "Er hätte uns warnen müssen.", en: "He should have warned us. (not \"*würde gewarnt haben müssen*\")" },
+          { es: "Wir hätten das Licht ausschalten sollen.", en: "We should have switched off the light. (not \"*ausschalten gesollt*\")" },
+          { es: "Sie hätte das nicht unterschreiben dürfen.", en: "She shouldn't have signed that. (not \"*unterschrieben dürfen*\")" },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"*Ich wäre früher gehen sollen.\" Write the correct German for: I should have left earlier.",
+            prompt: "A learner wrote \"*Ich wäre früher gehen sollen.*\" Write the correct German for: I should have left earlier.",
             source: "I should have left earlier.",
             answer: "Ich hätte früher gehen sollen.",
             altAnswers: ["Ich hätte früher losgehen sollen.", "Ich hätte eher gehen sollen."],
@@ -463,7 +463,7 @@ export const DE_B2_U02: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "He [should] have [warned] us. (fix \"*Er würde uns gewarnt haben müssen\")",
+            en: "He [should] have [warned] us. (fix \"*Er würde uns gewarnt haben müssen*\")",
             sentence: "Er hätte uns ___.",
             answer: "warnen müssen",
             altAnswers: ["warnen sollen"],
@@ -475,7 +475,7 @@ export const DE_B2_U02: Lesson[] = [
         heading: "Errors in subordinate clauses",
         body: [
           "In a subordinate clause (after \"dass\", \"weil\", \"obwohl\"...), the conjugated verb normally goes to the very end. The double infinitive is the big exception: \"hätte\" goes in front of both infinitives. \"..., dass ich hätte anrufen sollen\" (that I should have called).",
-          "So \"*..., dass ich anrufen sollen hätte\" is wrong, even though it follows the usual rule. You may hear \"..., dass ich anrufen hätte sollen\" in southern Germany and Austria, but the standard is \"hätte anrufen sollen\".",
+          "So \"*..., dass ich anrufen sollen hätte*\" is wrong, even though it follows the usual rule. You may hear \"..., dass ich anrufen hätte sollen\" in southern Germany and Austria, but the standard is \"hätte anrufen sollen\".",
           "This is one of the strangest rules in German grammar, and even native speakers sometimes avoid it by rephrasing. But it's what you'll read in newspapers and need for Upper-intermediate writing.",
         ],
         examples: [
@@ -489,7 +489,7 @@ export const DE_B2_U02: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"*Ich weiß, dass ich anrufen sollen hätte.\" Write the correct German for: I know that I should have called.",
+            prompt: "A learner wrote \"*Ich weiß, dass ich anrufen sollen hätte.*\" Write the correct German for: I know that I should have called.",
             source: "I know that I should have called.",
             answer: "Ich weiß, dass ich hätte anrufen sollen.",
             explanation: "In the subordinate clause \"hätte\" comes before both infinitives.",
@@ -506,9 +506,9 @@ export const DE_B2_U02: Lesson[] = [
       {
         heading: "Wenn-clauses and the Perfekt",
         body: [
-          "Two more mistakes. First, English would in a wenn-clause: \"*Wenn du würdest angerufen haben, ...\" → \"Wenn du angerufen hättest, ...\". No würde in wenn-clauses, ever, in the past.",
-          "Second, the indicative Perfekt of modals: \"*Ich habe sollen kommen\" → \"Ich habe kommen sollen\" (I was supposed to come). The double infinitive closes the clause, with the modal last, in the indicative too. In practice people use the Präteritum (\"Ich sollte kommen\") for this.",
-          "A quick checklist for your own sentences: hätte (not würde, not wäre)? Modal as infinitive? Modal last? In a subordinate clause: hätte before both infinitives?",
+          "Two more mistakes. First, English would in a wenn-clause: \"*Wenn du würdest angerufen haben, ...*\" → \"Wenn du angerufen hättest, ...\". No \"würde\" in wenn-clauses, ever, in the past.",
+          "Second, the indicative Perfekt of modals: \"*Ich habe sollen kommen*\" → \"Ich habe kommen sollen\" (I was supposed to come). The double infinitive closes the clause, with the modal last, in the indicative too. In practice people use the Präteritum (\"Ich sollte kommen\") for this.",
+          "A quick checklist for your own sentences: \"hätte\" (not \"würde\", not \"wäre\")? Modal as infinitive? Modal last? In a subordinate clause: \"hätte\" before both infinitives?",
         ],
         examples: [
           { es: "Wenn du angerufen hättest, hätte ich dich abgeholt.", en: "If you'd called, I would have picked you up." },
@@ -520,11 +520,11 @@ export const DE_B2_U02: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"*Wenn du würdest angerufen haben, hätte ich dich abgeholt.\" Write the correct German for: If you'd called, I would have picked you up.",
+            prompt: "A learner wrote \"*Wenn du würdest angerufen haben, hätte ich dich abgeholt.*\" Write the correct German for: If you'd called, I would have picked you up.",
             source: "If you'd called, I would have picked you up.",
             answer: "Wenn du angerufen hättest, hätte ich dich abgeholt.",
             altAnswers: ["Hättest du angerufen, hätte ich dich abgeholt.", "Ich hätte dich abgeholt, wenn du angerufen hättest."],
-            explanation: "No würde in the wenn-clause: \"angerufen hättest\".",
+            explanation: "No \"würde\" in the wenn-clause: \"angerufen hättest\".",
           },
           {
             type: "multiple-choice",
@@ -540,7 +540,7 @@ export const DE_B2_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*Wir hätten das Licht ausschalten gesollt.\" Translate: We should have switched off the light.",
+        prompt: "Fix \"*Wir hätten das Licht ausschalten gesollt.*\" Translate: We should have switched off the light.",
         source: "We should have switched off the light.",
         answer: "Wir hätten das Licht ausschalten sollen.",
         altAnswers: ["Wir hätten das Licht ausmachen sollen."],
@@ -549,7 +549,7 @@ export const DE_B2_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*Sie hätte das nicht unterschrieben dürfen.\" Translate: She shouldn't have signed that.",
+        prompt: "Fix \"*Sie hätte das nicht unterschrieben dürfen.*\" Translate: She shouldn't have signed that.",
         source: "She shouldn't have signed that.",
         answer: "Sie hätte das nicht unterschreiben dürfen.",
         altAnswers: ["Sie hätte das nicht unterschreiben sollen.", "Das hätte sie nicht unterschreiben dürfen.", "Das hätte sie nicht unterschreiben sollen."],
@@ -558,7 +558,7 @@ export const DE_B2_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*Obwohl ich bleiben können hätte, bin ich gegangen.\" Translate: Although I could have stayed, I left.",
+        prompt: "Fix \"*Obwohl ich bleiben können hätte, bin ich gegangen.*\" Translate: Although I could have stayed, I left.",
         source: "Although I could have stayed, I left.",
         answer: "Obwohl ich hätte bleiben können, bin ich gegangen.",
         explanation: "In the subordinate clause \"hätte\" goes before both infinitives.",
@@ -566,7 +566,7 @@ export const DE_B2_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*Sie sagt, dass wir nicht so viel ausgeben dürfen hätten.\" Translate: She says we shouldn't have spent so much.",
+        prompt: "Fix \"*Sie sagt, dass wir nicht so viel ausgeben dürfen hätten.*\" Translate: She says we shouldn't have spent so much.",
         source: "She says that we shouldn't have spent so much.",
         answer: "Sie sagt, dass wir nicht so viel hätten ausgeben dürfen.",
         altAnswers: ["Sie sagt, dass wir nicht so viel hätten ausgeben sollen.", "Sie sagt, wir hätten nicht so viel ausgeben dürfen.", "Sie sagt, wir hätten nicht so viel ausgeben sollen."],
@@ -636,7 +636,7 @@ export const DE_B2_U02: Lesson[] = [
     level: "DE-B2",
     number: 4,
     title: "Story with Gaps: Die verpasste Hochzeit",
-    summary: "A brother misses his sister's wedding in Leipzig: fill in hätte / wäre, the double infinitive and his regrets.",
+    summary: "A brother misses his sister's wedding in Leipzig: fill in \"hätte\" / \"wäre\", the double infinitive and his regrets.",
     duration: "15 min",
     sections: [
       {
@@ -1046,13 +1046,13 @@ export const DE_B2_U02: Lesson[] = [
     level: "DE-B2",
     number: 6,
     title: "Transformation Chain: From Fact to Reproach",
-    summary: "One fact, three steps: Er ist zu spät losgefahren → Er hätte früher losfahren sollen → Ich finde, dass er hätte früher losfahren sollen.",
+    summary: "Turn one fact into a reproach in three steps: \"Er ist zu spät losgefahren\" → \"Er hätte früher losfahren sollen\" → \"Ich finde, dass er hätte früher losfahren sollen.\"",
     duration: "14 min",
     sections: [
       {
         heading: "Step 1 → 2: fact to reproach",
         body: [
-          "Start with a fact in the Perfekt: \"Er ist zu spät losgefahren.\" Turn it into what should have happened: change the content (\"zu spät\" → \"früher\"), swap the auxiliary for \"hätte\" (always hätte with modals, even if the fact had \"ist\"), make the participle an infinitive and add \"sollen\": \"Er hätte früher losfahren sollen.\"",
+          "Start with a fact in the Perfekt: \"Er ist zu spät losgefahren.\" Turn it into what should have happened: change the content (\"zu spät\" → \"früher\"), swap the auxiliary for \"hätte\" (always \"hätte\" with modals, even if the fact had \"ist\"), make the participle an infinitive and add \"sollen\": \"Er hätte früher losfahren sollen.\"",
           "Negatives flip: \"Sie hat zu viel gegessen\" → \"Sie hätte nicht so viel essen sollen.\" \"Wir haben nicht gefragt\" → \"Wir hätten fragen sollen.\"",
           "Watch the participle-to-infinitive change for strong and separable verbs: \"angerufen\" → \"anrufen\", \"mitgenommen\" → \"mitnehmen\", \"vergessen\" → \"vergessen\" (same form).",
         ],
@@ -1175,7 +1175,7 @@ export const DE_B2_U02: Lesson[] = [
         source: "I'm annoyed because I should have taken an umbrella.",
         answer: "Ich ärgere mich, weil ich einen Schirm hätte mitnehmen sollen.",
         altAnswers: ["Ich ärgere mich, weil ich einen Regenschirm hätte mitnehmen sollen."],
-        explanation: "After \"weil\": \"hätte mitnehmen sollen\", hätte first.",
+        explanation: "After \"weil\": \"hätte mitnehmen sollen\", \"hätte\" first.",
       },
       {
         type: "translate",
@@ -1245,7 +1245,7 @@ export const DE_B2_U02: Lesson[] = [
     level: "DE-B2",
     number: 7,
     title: "Quick Round: Regret or Reproach?",
-    summary: "Twelve situations, one sentence each: ich hätte ... sollen, du hättest ... können, es wäre besser gewesen, wenn ...",
+    summary: "React to quick situations with one sentence each: \"Ich hätte ... sollen\", \"Du hättest ... können\", \"Es wäre besser gewesen, wenn ...\"",
     duration: "12 min",
     sections: [
       {
@@ -1411,9 +1411,9 @@ export const DE_B2_U02_WRITING: WriteExercise = {
   rubric: [
     "Reproaches with the double infinitive (\"Du hättest mich fragen sollen\", \"Du hättest wenigstens ... können\").",
     "Admits a regret of your own (\"Ich hätte ... sollen\", \"Es wäre besser gewesen, wenn ...\").",
-    "Uses at least one double infinitive in a subordinate clause (\"..., dass du mir hättest Bescheid sagen sollen\").",
+    "Uses at least one double infinitive in a subordinate clause (\"..., dass du mir Bescheid hättest sagen sollen\").",
     "Apologises or accepts an apology and makes a proposal (\"Es tut mir leid\", \"Schwamm drüber\", \"Lass uns ...\").",
   ],
-  modelAnswer: "Hi Jonas,\n\nich bin gestern Abend aus Hamburg zurückgekommen und war ehrlich gesagt ziemlich geschockt. In der Küche stand überall dreckiges Geschirr, der Teppich hatte Rotweinflecken, und mein Fahrrad im Flur hatte einen kaputten Reifen.\n\nIch habe nichts gegen Partys, aber du hättest mich vorher fragen sollen. Und du hättest wenigstens am nächsten Morgen aufräumen können! Ich finde auch, dass du mir wegen des Fahrrads sofort hättest Bescheid sagen müssen, statt es einfach in die Ecke zu stellen.\n\nAndererseits: Ich hätte dir vielleicht sagen sollen, dass das Rad im Flur steht und dass ich am Sonntag zurückkomme. Es wäre besser gewesen, wenn wir vorher kurz geredet hätten.\n\nMein Vorschlag: Du bezahlst den neuen Reifen, wir putzen heute Abend zusammen die Küche und dann ist Schwamm drüber. Und nächstes Mal sagen wir uns einfach rechtzeitig Bescheid.\n\nLG\nLena",
-  explanation: "Reproaches use \"hättest\" + infinitive + modal (\"fragen sollen\", \"aufräumen können\"); in the dass-clause \"hättest\" comes before both infinitives (\"dass du mir ... hättest Bescheid sagen müssen\"). The writer's own regret uses \"ich hätte ... sagen sollen\" and \"Es wäre besser gewesen, wenn ...\", and the facts stay in the indicative.",
+  modelAnswer: "Hi Jonas,\n\nich bin gestern Abend aus Hamburg zurückgekommen und war ehrlich gesagt ziemlich geschockt. In der Küche stand überall dreckiges Geschirr, der Teppich hatte Rotweinflecken, und mein Fahrrad im Flur hatte einen kaputten Reifen.\n\nIch habe nichts gegen Partys, aber du hättest mich vorher fragen sollen. Und du hättest wenigstens am nächsten Morgen aufräumen können! Ich finde auch, dass du mir wegen des Fahrrads sofort Bescheid hättest sagen müssen, statt es einfach in die Ecke zu stellen.\n\nAndererseits: Ich hätte dir vielleicht sagen sollen, dass das Rad im Flur steht und dass ich am Sonntag zurückkomme. Es wäre besser gewesen, wenn wir vorher kurz geredet hätten.\n\nMein Vorschlag: Du bezahlst den neuen Reifen, wir putzen heute Abend zusammen die Küche und dann ist Schwamm drüber. Und nächstes Mal sagen wir uns einfach rechtzeitig Bescheid.\n\nLG\nLena",
+  explanation: "Reproaches use \"hättest\" + infinitive + modal (\"fragen sollen\", \"aufräumen können\"); in the dass-clause \"hättest\" comes before both infinitives (\"dass du mir ... Bescheid hättest sagen müssen\"). The writer's own regret uses \"ich hätte ... sagen sollen\" and \"Es wäre besser gewesen, wenn ...\", and the facts stay in the indicative.",
 };

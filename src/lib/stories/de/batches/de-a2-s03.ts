@@ -132,7 +132,7 @@ export const DE_A2_S03_STORIES: Story[] = [
       `Katharina hat sich entschuldigt. Aber sie hat nicht aufgelegt. Leon war lustig, und sie haben eine halbe Stunde geredet: über die Arbeit, über München, über kalte Nudeln. Am Ende hat sie ihre Pizza vergessen.`,
       `Am nächsten Freitag hat Katharina wieder diese Nummer gewählt, diesmal mit Absicht. „Falsch verbunden?“, hat Leon gefragt. „Ja, schon wieder“, hat sie geantwortet. So ist es zwei Monate weitergegangen. Jeden Freitag haben sie telefoniert, manchmal zwei Stunden lang. Aber sie haben nie Fotos geschickt. Sie wollten sich überraschen lassen.`,
       `Dann haben sie sich verabredet: Samstag, elf Uhr, im Café am Gärtnerplatz. Katharina war sehr nervös. Sie hat ihr schönstes Kleid angezogen und ist früh losgegangen. Im Treppenhaus hat sie wie jeden Morgen den Mann aus der Wohnung gegenüber getroffen. Er hatte Blumen in der Hand. „Guten Morgen“, hat er gesagt, wie immer.`,
-      `Im Café hat Katharina gewartet. Um Punkt elf ist die Tür aufgegangen, und der Mann von gegenüber ist hereingekommen, mit den Blumen. Er hat sich umgesehen, dann hat er sie gesehen. Beide haben gleichzeitig angefangen zu lachen. „Leon?“ – „Katharina?“ Drei Jahre lang haben sie Tür an Tür gewohnt und nur „Guten Morgen“ gesagt. Heute bestellen sie jeden Freitag zusammen Pizza, bei der richtigen Nummer.`,
+      `Im Café hat Katharina gewartet. Um Punkt elf ist die Tür aufgegangen, und der Mann von gegenüber ist hereingekommen, mit den Blumen. Er hat sich umgesehen, dann hat er sie gesehen. Beide haben gleichzeitig angefangen zu lachen. „Leon?“ – „Katharina?“ Drei Jahre lang haben sie Tür an Tür gewohnt und nur „Guten Morgen“ gesagt. Heute bestellen sie jeden Freitag zusammen Pizza, unter der richtigen Nummer.`,
     ],
     questions: [
       {
@@ -170,7 +170,7 @@ export const DE_A2_S03_STORIES: Story[] = [
       `Nach dem Tod seiner Frau war Herr Albrecht sehr allein. Seine Tochter wohnt in Hamburg und kommt nur selten nach Kassel. Eines Tages hat sie am Telefon gesagt: „Papa, du brauchst einen Hund.“ Also ist Herr Albrecht ins Tierheim gegangen. Er wollte einen kleinen, jungen Hund.`,
       `Die Mitarbeiterin, Frau Schulz, hat ihm viele Hunde gezeigt. Die jungen Hunde waren laut und wild. Sie sind herumgesprungen und haben gebellt. Dann hat Herr Albrecht in der letzten Ecke einen großen grauen Hund gesehen. Er hat nicht gebellt. Er hat nur ruhig geschaut.`,
       `„Das ist Bruno“, hat Frau Schulz gesagt. „Er ist zwölf Jahre alt und schon seit zwei Jahren hier. Niemand will ihn haben. Er ist zu alt und zu langsam.“ Herr Albrecht hat gelächelt. „Ich bin vierundsiebzig, und ich bin auch langsam. Ich glaube, wir passen gut zusammen.“`,
-      `Von da an sind die beiden jeden Morgen in den Park gegangen. Sie waren langsamer als alle anderen. Jogger und Radfahrer sind an ihnen vorbeigefahren, aber das war egal. Bruno hat an jedem Baum geschnüffelt, und Herr Albrecht hat die Vögel beobachtet. Nach ein paar Tagen ist Bruno jeden Morgen an derselben Bank stehen geblieben.`,
+      `Von da an sind die beiden jeden Morgen in den Park gegangen. Sie waren langsamer als alle anderen. Jogger und Radfahrer sind an ihnen vorbeigekommen, aber das war egal. Bruno hat an jedem Baum geschnüffelt, und Herr Albrecht hat die Vögel beobachtet. Nach ein paar Tagen ist Bruno jeden Morgen an derselben Bank stehen geblieben.`,
       `Auf der Bank hat eine Frau mit einem kleinen, alten Dackel gesessen. Die Frau heißt Gertrud, und ihr Dackel heißt Lotte. Bruno und Lotte haben sich sofort gemocht, und Herr Albrecht und Gertrud auch. Jetzt treffen sich die vier jeden Morgen um neun Uhr auf der Bank: zwei mit zwei Beinen und zwei mit vier. Frau Schulz vom Tierheim hat neulich eine Postkarte bekommen. Darauf war nur ein Satz: „Danke für den besten Hund der Welt.“`,
     ],
     questions: [
@@ -230,7 +230,7 @@ export const DE_A2_S03_ENGLISH: Record<string, string[]> = {
     `Katharina apologised. But she didn't hang up. Leon was funny, and they talked for half an hour: about work, about Munich, about cold noodles. In the end she forgot about her pizza.`,
     `The next Friday Katharina dialled that number again, on purpose this time. "Wrong number?" Leon asked. "Yes, again," she answered. It went on like that for two months. Every Friday they talked on the phone, sometimes for two hours. But they never sent photos. They wanted to be surprised.`,
     `Then they arranged to meet: Saturday, eleven o'clock, at the café on Gärtnerplatz. Katharina was very nervous. She put on her nicest dress and left early. On the stairs, like every morning, she met the man from the flat opposite. He had flowers in his hand. "Good morning," he said, as always.`,
-    `In the café Katharina waited. At eleven on the dot the door opened and the man from across the hall came in, with the flowers. He looked around, then he saw her. They both started laughing at the same moment. "Leon?" "Katharina?" For three years they had lived across the hall from each other and only said "good morning". Today they order pizza together every Friday, from the right number.`,
+    `In the café Katharina waited. At eleven on the dot the door opened and the man from across the hall came in, with the flowers. He looked around, then he saw her. They both started laughing at the same moment. "Leon?" "Katharina?" For three years they had lived across the hall from each other and only said "good morning". Today they order pizza together every Friday, using the right number.`,
   ],
   "de-der-aelteste-hund-im-tierheim": [
     `After his wife died, Herr Albrecht was very lonely. His daughter lives in Hamburg and only rarely comes to Kassel. One day she said on the phone: "Dad, you need a dog." So Herr Albrecht went to the animal shelter. He wanted a small, young dog.`,
@@ -305,7 +305,7 @@ export const DE_A2_S03_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "bellen", en: "to bark", forms: ["gebellt"] },
     { es: "die Ecke", en: "corner", forms: ["ecke"] },
     { es: "zusammenpassen", en: "to be a good match", forms: ["passen", "zusammen"] },
-    { es: "vorbeifahren", en: "to go past (on a bike)", forms: ["vorbeigefahren"] },
+    { es: "vorbeikommen", en: "to go past, to pass", forms: ["vorbeigekommen"] },
     { es: "schnüffeln", en: "to sniff", forms: ["geschnüffelt"] },
     { es: "beobachten", en: "to watch", forms: ["beobachtet"] },
     { es: "stehen bleiben", en: "to stop", forms: ["stehen", "geblieben"] },

@@ -73,7 +73,7 @@ export const DE_A1_U05_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Do you work on Saturday? (polite)",
+        source: "Do you work on Saturday? (formal)",
         answer: "Arbeiten Sie am Samstag?",
         explanation: "Verb first in a yes/no question; the Sie form is \"arbeiten\".",
       },
@@ -128,7 +128,7 @@ export const DE_A1_U05_EXTRA: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: What would you like to eat? (polite)",
+        prompt: "Put the words in order to say: What would you like to eat? (formal)",
         words: ["Was", "möchten", "Sie", "essen?"],
         translation: "What would you like to eat?",
         explanation: "\"Möchten\" second, the infinitive \"essen\" last.",
@@ -172,7 +172,7 @@ export const DE_A1_U05_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Questions & Negation, Part 2 of 2",
-    summary: "Nicht, kein, nie, nichts, niemand and doch in new contexts and short answers.",
+    summary: "Use \"nicht\", \"kein\", \"nie\", \"nichts\", \"niemand\" and \"doch\" in new contexts and short answers.",
     duration: "10 min",
     sections: [
       {
@@ -231,6 +231,7 @@ export const DE_A1_U05_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "I never eat fish.",
         answer: "Ich esse nie Fisch.",
+        altAnswers: ["Fisch esse ich nie."],
         explanation: "\"Nie\" = never, right after the verb. No article for fish in general.",
       },
       {
@@ -337,7 +338,7 @@ export const DE_A1_U05_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: The Accusative",
-    summary: "Fresh sentences with masculine objects: den, einen, keinen and welchen in statements and questions.",
+    summary: "Use masculine objects with \"den\", \"einen\", \"keinen\" and \"welchen\" in fresh statements and questions.",
     duration: "10 min",
     sections: [
       {
@@ -365,7 +366,7 @@ export const DE_A1_U05_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "[Which] wine do you recommend? (polite)",
+            en: "[Which] wine do you recommend? (formal)",
             sentence: "___ Wein empfehlen Sie?",
             answer: "Welchen",
             explanation: "\"Der Wein\" is the object: \"welchen\".",
@@ -415,7 +416,7 @@ export const DE_A1_U05_EXTRA: Lesson[] = [
         source: "Would you like a glass of water?",
         answer: "Möchtest du ein Glas Wasser?",
         altAnswers: ["Möchtet ihr ein Glas Wasser?", "Möchten Sie ein Glas Wasser?"],
-        explanation: "\"Das Glas\" is neuter: \"ein Glas\", and no of in German quantities.",
+        explanation: "\"Das Glas\" is neuter: \"ein Glas\", and German has no word for 'of' in quantities.",
       },
       {
         type: "translate",
@@ -447,7 +448,7 @@ export const DE_A1_U05_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "That's a mistake.",
         answer: "Das ist ein Fehler.",
-        explanation: "\"Der Fehler\" is masculine, but after \"sein\" there's no accusative: \"ein Fehler\", not \"*einen Fehler\".",
+        explanation: "\"Der Fehler\" is masculine, but after \"sein\" there's no accusative: \"ein Fehler\", not \"*einen Fehler*\".",
       },
       {
         type: "multiple-choice",
@@ -460,7 +461,7 @@ export const DE_A1_U05_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "What kind of computer do you have? (polite)",
+        source: "What kind of computer do you have? (formal)",
         answer: "Was für einen Computer haben Sie?",
         explanation: "\"Was für ein\" follows \"ein\": masculine object → \"einen\".",
       },
@@ -518,17 +519,17 @@ export const DE_A1_U05_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "A learner wrote: \"*Der Kuchen esse ich gern.\" (The cake, I like eating.) Right or wrong?",
-            options: ["Wrong: Den Kuchen esse ich gern.", "Right as it is.", "Wrong: Der Kuchen isst ich gern.", "Wrong: Den Kuchen isst ich gern."],
+            question: "A learner wrote: \"*Der Kuchen esse ich jetzt.*\" (The cake, I'm eating now.) Right or wrong?",
+            options: ["Wrong: \"Den Kuchen esse ich jetzt.\"", "Right as it is.", "Wrong: \"*Der Kuchen isst ich jetzt.*\"", "Wrong: \"*Den Kuchen isst ich jetzt.*\""],
             correctIndex: 0,
-            explanation: "\"Ich\" is the subject (the verb is \"esse\"), so the cake is the object: \"den Kuchen\".",
+            explanation: "\"Ich\" is the subject (the verb is \"esse\"), so the cake is the object: \"den Kuchen\". \"*Isst*\" is the er/sie/es form and can't go with \"ich\".",
           },
           {
             type: "multiple-choice",
-            question: "A learner wrote: \"*Das ist den Chef.\" Right or wrong?",
-            options: ["Wrong: Das ist der Chef.", "Right as it is.", "Wrong: Den ist der Chef.", "Wrong: Das ist einen Chef."],
+            question: "A learner wrote: \"*Das ist den Chef.*\" Right or wrong?",
+            options: ["Wrong: \"Das ist der Chef.\"", "Right as it is.", "Wrong: \"*Den ist der Chef.*\"", "Wrong: \"*Das ist einen Chef.*\""],
             correctIndex: 0,
-            explanation: "\"Sein\" has no object: \"der Chef\" stays nominative.",
+            explanation: "\"Sein\" has no object: \"der Chef\" stays nominative. \"*Einen Chef*\" makes the same mistake with the indefinite article.",
           },
         ],
       },
@@ -537,7 +538,7 @@ export const DE_A1_U05_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Ich kenne der Mann.\" Write the correct German.",
+        prompt: "A learner wrote \"*Ich kenne der Mann.*\" Write the correct German.",
         source: "I know the man.",
         answer: "Ich kenne den Mann.",
         explanation: "The man is the object of \"kennen\": \"den Mann\".",
@@ -545,7 +546,7 @@ export const DE_A1_U05_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Den Zug kommt um acht.\" Write the correct German.",
+        prompt: "A learner wrote \"*Den Zug kommt um acht.*\" Write the correct German.",
         source: "The train comes at eight.",
         answer: "Der Zug kommt um acht.",
         altAnswers: ["Um acht kommt der Zug."],
@@ -554,7 +555,7 @@ export const DE_A1_U05_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Wir brauchen ein Drucker.\" Write the correct German.",
+        prompt: "A learner wrote \"*Wir brauchen ein Drucker.*\" Write the correct German.",
         source: "We need a printer.",
         answer: "Wir brauchen einen Drucker.",
         explanation: "\"Der Drucker\" is the object of \"brauchen\": \"einen\".",
@@ -571,7 +572,7 @@ export const DE_A1_U05_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Es gibt kein Bahnhof hier.\" Write the correct German.",
+        prompt: "A learner wrote \"*Es gibt kein Bahnhof hier.*\" Write the correct German.",
         source: "There's no station here.",
         answer: "Es gibt hier keinen Bahnhof.",
         altAnswers: ["Hier gibt es keinen Bahnhof.", "Es gibt keinen Bahnhof hier."],
@@ -580,7 +581,7 @@ export const DE_A1_U05_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Der Mantel kaufe ich.\" Write the correct German.",
+        prompt: "A learner wrote \"*Der Mantel kaufe ich.*\" Write the correct German.",
         source: "I'm buying the coat.",
         answer: "Den Mantel kaufe ich.",
         altAnswers: ["Ich kaufe den Mantel."],
@@ -589,7 +590,7 @@ export const DE_A1_U05_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Wer fragst du?\" Write the correct German.",
+        prompt: "A learner wrote \"*Wer fragst du?*\" Write the correct German.",
         source: "Who are you asking?",
         answer: "Wen fragst du?",
         altAnswers: ["Wen fragt ihr?", "Wen fragen Sie?"],
@@ -606,7 +607,7 @@ export const DE_A1_U05_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "[The] neighbour has a cat. (a learner wrote \"*Den Nachbar\")",
+        en: "[The] neighbour has a cat. (a learner wrote \"*Den Nachbar*\")",
         sentence: "___ Nachbar hat eine Katze.",
         answer: "Der",
         explanation: "The neighbour is the one who has the cat: the subject, \"der\".",
@@ -614,7 +615,7 @@ export const DE_A1_U05_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Lena is visiting [the] neighbour. (a learner wrote \"*der\")",
+        en: "Lena is visiting [the] neighbour. (a learner wrote \"*der*\")",
         sentence: "Lena besucht ___ Nachbarn.",
         answer: "den",
         explanation: "The neighbour is the object of \"besuchen\": \"den\". (\"Nachbar\" also adds -n in the accusative.)",
@@ -656,7 +657,7 @@ export const DE_A1_U05_EXTRA: Lesson[] = [
     number: 5,
     optional: true,
     title: "Extra Practice: Real-World Mission: Checking Into a Hotel",
-    summary: "Ask and answer questions at a hotel reception, with es gibt and the accusative.",
+    summary: "Ask and answer questions at a hotel reception, with \"es gibt\" and the accusative.",
     duration: "12 min",
     sections: [
       {
@@ -678,7 +679,7 @@ export const DE_A1_U05_EXTRA: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "Do you have a room available? (polite)",
+            source: "Do you have a room available? (formal)",
             answer: "Haben Sie ein Zimmer frei?",
             altAnswers: ["Haben Sie noch ein Zimmer frei?"],
             explanation: "Verb first; \"das Zimmer\" is neuter, so \"ein\" doesn't change.",
@@ -759,7 +760,7 @@ export const DE_A1_U05_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "[How many] nights are you staying? (polite)",
+        en: "[How many] nights are you staying? (formal)",
         sentence: "___ Nächte bleiben Sie?",
         answer: "Wie viele",
         explanation: "\"Nächte\" is plural: \"wie viele\".",
@@ -768,7 +769,7 @@ export const DE_A1_U05_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Do you have a single room? (polite)",
+        source: "Do you have a single room? (formal)",
         answer: "Haben Sie ein Einzelzimmer?",
         altAnswers: ["Haben Sie ein Einzelzimmer frei?", "Haben Sie noch ein Einzelzimmer frei?"],
         explanation: "\"Das Einzelzimmer\" (single room) is neuter like \"das Zimmer\": compounds take the gender of the last part.",

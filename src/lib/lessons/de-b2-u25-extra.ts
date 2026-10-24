@@ -131,6 +131,7 @@ export const DE_B2_U25_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "The algorithms decide what we see.",
         answer: "Die Algorithmen entscheiden, was wir sehen.",
+        altAnswers: ["Die Algorithmen bestimmen, was wir sehen.", "Algorithmen entscheiden, was wir sehen.", "Algorithmen bestimmen, was wir sehen."],
         explanation: "The plural of \"der Algorithmus\" is \"die Algorithmen\"; \"was wir sehen\" is an indirect question with the verb at the end.",
       },
       {
@@ -278,8 +279,8 @@ export const DE_B2_U25_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Eventually she found a flat.",
         answer: "Schließlich hat sie eine Wohnung gefunden.",
-        altAnswers: ["Schließlich fand sie eine Wohnung.", "Am Ende hat sie eine Wohnung gefunden.", "Am Ende fand sie eine Wohnung.", "Endlich hat sie eine Wohnung gefunden.", "Endlich fand sie eine Wohnung."],
-        explanation: "Eventually (in the end) = \"schließlich\" or \"am Ende\"; never \"eventuell\".",
+        altAnswers: ["Schließlich fand sie eine Wohnung.", "Am Ende hat sie eine Wohnung gefunden.", "Am Ende fand sie eine Wohnung.", "Endlich hat sie eine Wohnung gefunden.", "Endlich fand sie eine Wohnung.", "Irgendwann hat sie eine Wohnung gefunden.", "Irgendwann fand sie eine Wohnung."],
+        explanation: "Eventually (in the end) = \"schließlich\", \"am Ende\" or \"irgendwann\"; never \"eventuell\" (possibly).",
       },
       {
         type: "translate",

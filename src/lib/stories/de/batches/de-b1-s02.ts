@@ -11,8 +11,8 @@ export const DE_B1_S02_STORIES: Story[] = [
     subtitle: `In an old building in Dresden, a complaint about a bicycle starts an exchange of notes on the noticeboard that the whole house follows.`,
     paragraphs: [
       `Im Treppenhaus eines alten Hauses in der Dresdner Neustadt hängt ein schwarzes Brett. Normalerweise findet man dort nur Informationen von der Hausverwaltung. Im März dieses Jahres begann dort aber ein Briefwechsel, über den bald das ganze Haus sprach.`,
-      `Zettel 1, 4. März: „An die Person, die jeden Abend ihr Fahrrad im Flur abstellt: Der Flur ist kein Fahrradkeller! Ich bin gestern im Dunkeln fast darüber gefallen. Mit freundlichen Grüßen, G. Lehmann, Erdgeschoss links.“`,
-      `Zettel 2, 5. März: „Liebe Frau Lehmann oder lieber Herr Lehmann, es tut mir leid! Der Fahrradkeller ist leider seit Wochen voll mit alten Möbeln, die niemandem gehören. Ab jetzt trage ich mein Rad in den dritten Stock. Ich hoffe, die Spuren an der Wand stören Sie nicht. Viele Grüße, Paul, 3. Stock.“`,
+      `Zettel 1, 4. März: „An die Person, die jeden Abend ihr Fahrrad im Flur abstellt: Der Flur ist kein Fahrradkeller! Ich bin gestern im Dunkeln fast darüber gefallen. Mit freundlichen Grüßen G. Lehmann, Erdgeschoss links.“`,
+      `Zettel 2, 5. März: „Liebe Frau Lehmann oder lieber Herr Lehmann, es tut mir leid! Der Fahrradkeller ist leider seit Wochen voll mit alten Möbeln, die niemandem gehören. Ab jetzt trage ich mein Rad in den dritten Stock. Ich hoffe, die Spuren an der Wand stören Sie nicht. Viele Grüße Paul, 3. Stock.“`,
       `Zettel 3, 9. März: „Lieber Paul, die Spuren stören mich sehr wohl. Außerdem höre ich jeden Abend um elf, wie Sie das Rad die Treppe hinaufschleppen. Ich habe übrigens bei der Hausverwaltung angerufen. Die alten Möbel werden am Freitag abgeholt. Frau Lehmann.“`,
       `Zettel 4, 13. März: „Liebe Frau Lehmann, vielen Dank! Der Keller ist frei, und mein Fahrrad wohnt jetzt dort. Eine kleine Frage: Kann es sein, dass Sie jeden Morgen um sieben Klavier spielen? Es ist wunderschön, aber ich arbeite als Koch und komme erst um elf Uhr nachts nach Hause. Paul.“`,
       `Zettel 5, 14. März: „Lieber Paul, ich spiele seit sechzig Jahren jeden Morgen um sieben. Ich habe nicht vor, damit aufzuhören. Ich könnte allerdings um neun anfangen, wenn Sie mir verraten, was ein Koch so kocht. Seit mein Mann tot ist, koche ich nur noch Nudeln. G. L.“`,
@@ -59,7 +59,7 @@ export const DE_B1_S02_STORIES: Story[] = [
       `Zuerst war es ganz still. Dann begann der kleine Toni zu kichern, und plötzlich lachten alle, auch Maria. Sie lag im Schnee, mit roter Nase und nassen Haaren, und konnte nicht aufhören zu lachen. Sepp kam zu ihr und half ihr auf. „Wenn Sie wollen“, sagte er etwas verlegen, „können wir es Ihnen beibringen.“`,
       `Von da an war die Schule anders. Jeden Nachmittag gab es eine Stunde Unterricht, in der die Kinder die Lehrer waren. Sie zeigten Maria, wie man bremst, wie man einen Hang hinaufsteigt und wie man fällt, ohne sich wehzutun. Dafür hörten sie am Vormittag besser zu. Sepp, der nie gern gelesen hatte, bat sie sogar, ihm ein Buch zu leihen.`,
       `Im März, als der Schnee schmolz, wurde Maria zum ersten Mal zum Abendessen eingeladen, von Sepps Mutter. „Die Kinder reden nur noch von Ihnen“, sagte sie. „Bleiben Sie noch ein Jahr?“`,
-      `Maria blieb nicht nur ein Jahr. Sie blieb einunddreißig Jahre in Hinterau. Als sie 1983 in Pension ging, kamen ehemalige Schüler aus ganz Österreich zu ihrem Abschiedsfest. Der Bürgermeister hielt eine Rede. Er war ein großer Mann mit grauen Haaren, und er hieß Sepp.`,
+      `Maria blieb nicht nur ein Jahr. Sie blieb achtunddreißig Jahre in Hinterau. Als sie 1990 in Pension ging, kamen ehemalige Schüler aus ganz Österreich zu ihrem Abschiedsfest. Der Bürgermeister hielt eine Rede. Er war ein großer Mann mit grauen Haaren, und er hieß Sepp.`,
     ],
     questions: [
       {
@@ -81,7 +81,7 @@ export const DE_B1_S02_STORIES: Story[] = [
         explanation: `"Am ersten Morgen fiel sie direkt vor der Schule in den Schnee" and "plötzlich lachten alle, auch Maria".`,
       },
       {
-        question: `Who gave a speech at Maria's farewell party in 1983?`,
+        question: `Who gave a speech at Maria's farewell party in 1990?`,
         options: [`Little Toni`, `Sepp's mother`, `Sepp, who was now the mayor`, `A teacher from Innsbruck`],
         correctIndex: 2,
         explanation: `"Der Bürgermeister hielt eine Rede" and "er hieß Sepp".`,
@@ -221,10 +221,10 @@ export const DE_B1_S02_ENGLISH: Record<string, string[]> = {
     `In the stairwell of an old building in Dresden's Neustadt there is a noticeboard. Usually you only find information from the property management there. But in March this year an exchange of letters began there that soon the whole building was talking about.`,
     `Note 1, 4 March: "To the person who leaves their bicycle in the hallway every evening: the hallway is not a bike cellar! Yesterday I almost fell over it in the dark. Kind regards, G. Lehmann, ground floor left."`,
     `Note 2, 5 March: "Dear Ms or Mr Lehmann, I'm sorry! Unfortunately the bike cellar has been full of old furniture that belongs to nobody for weeks. From now on I'll carry my bike up to the third floor. I hope the marks on the wall don't bother you. Best wishes, Paul, 3rd floor."`,
-    `Note 3, 9 March: "Dear Paul, the marks do indeed bother me. Besides, every evening at eleven I hear you dragging the bike up the stairs. By the way, I have phoned the property management. The old furniture will be collected on Friday. Mrs Lehmann."`,
-    `Note 4, 13 March: "Dear Mrs Lehmann, thank you very much! The cellar is free, and my bike lives there now. A little question: could it be that you play the piano every morning at seven? It's beautiful, but I work as a cook and don't get home until eleven at night. Paul."`,
+    `Note 3, 9 March: "Dear Paul, the marks do indeed bother me. Besides, every evening at eleven I hear you dragging the bike up the stairs. By the way, I have phoned the property management. The old furniture will be collected on Friday. Ms Lehmann."`,
+    `Note 4, 13 March: "Dear Ms Lehmann, thank you very much! The cellar is free, and my bike lives there now. A little question: could it be that you play the piano every morning at seven? It's beautiful, but I work as a cook and don't get home until eleven at night. Paul."`,
     `Note 5, 14 March: "Dear Paul, I have played every morning at seven for sixty years. I have no intention of stopping. I could, however, start at nine, if you tell me what a cook actually cooks. Since my husband died, I only cook pasta. G. L."`,
-    `The next notes were no longer complaints. Paul put up recipes, and Mrs Lehmann wrote comments underneath: "Too much garlic!" or "That was the best goulash of my life." The other tenants read everything too, and soon someone from the second floor wrote underneath: "And when do we get goulash?"`,
+    `The next notes were no longer complaints. Paul put up recipes, and Ms Lehmann wrote comments underneath: "Too much garlic!" or "That was the best goulash of my life." The other tenants read everything too, and soon someone from the second floor wrote underneath: "And when do we get goulash?"`,
     `On the last Saturday in April a new note was hanging on the board, this time with two names: "Invitation to a courtyard party! Paul is cooking, Gerda is playing the piano, at the open window, from 3 p.m. Not at seven! Please bring a plate." All the tenants came. Even someone from the property management came and ate two plates of goulash.`,
   ],
   "de-die-lehrerin-von-hinterau": [
@@ -235,7 +235,7 @@ export const DE_B1_S02_ENGLISH: Record<string, string[]> = {
     `At first it was completely quiet. Then little Toni began to giggle, and suddenly everyone was laughing, Maria too. She lay in the snow, with a red nose and wet hair, and couldn't stop laughing. Sepp came over and helped her up. "If you like," he said, a little embarrassed, "we can teach you."`,
     `From then on the school was different. Every afternoon there was an hour of lessons in which the children were the teachers. They showed Maria how to brake, how to climb up a slope and how to fall without hurting yourself. In return, they listened better in the mornings. Sepp, who had never liked reading, even asked her to lend him a book.`,
     `In March, when the snow melted, Maria was invited to dinner for the first time, by Sepp's mother. "The children talk about nothing but you," she said. "Will you stay another year?"`,
-    `Maria didn't stay just one year. She stayed in Hinterau for thirty-one years. When she retired in 1983, former pupils came from all over Austria to her farewell party. The mayor gave a speech. He was a tall man with grey hair, and his name was Sepp.`,
+    `Maria didn't stay just one year. She stayed in Hinterau for thirty-eight years. When she retired in 1990, former pupils came from all over Austria to her farewell party. The mayor gave a speech. He was a tall man with grey hair, and his name was Sepp.`,
   ],
   "de-der-reisende-gartenzwerg": [
     `Herbert Bolte had been a member of the "Sonnenschein" allotment club in Hanover for thirty years. His garden was the tidiest on the whole site: the lawn was exactly four centimetres high, the tomatoes stood in straight rows, and next to the garden shed stood Gustav, a garden gnome with a red hat. Herbert never went away. "Why should I?" he always said. "I have everything I need here."`,

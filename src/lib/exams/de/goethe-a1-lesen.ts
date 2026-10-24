@@ -19,7 +19,7 @@ export const GOETHE_A1_LESEN: ExamPaper = {
       instructions:
         "Lesen Sie die zwei Texte. Sind die Aussagen 1 bis 5 richtig oder falsch? Kreuzen Sie an.",
       instructionsEn:
-        "Read the two texts. Are statements 1-5 true (Richtig) or false (Falsch)?",
+        "Read the two texts. Are statements 1-5 \"Richtig\" (true) or \"Falsch\" (false)?",
       texts: [
         {
           label: "Text 1",
@@ -178,7 +178,7 @@ export const GOETHE_A1_LESEN: ExamPaper = {
       instructions:
         "Lesen Sie die Texte 11 bis 15. Sind die Aussagen richtig oder falsch? Kreuzen Sie an.",
       instructionsEn:
-        "Read the signs and notices 11-15. Is each statement true (Richtig) or false (Falsch)?",
+        "Read the signs and notices 11-15. Is each statement \"Richtig\" (true) or \"Falsch\" (false)?",
       texts: [
         {
           label: "11",

@@ -8,7 +8,7 @@ export const DE_A2_U08: Lesson[] = [
     level: "DE-A2",
     number: 1,
     title: "Mich, Dich, Ihn: Accusative Pronouns Revisited",
-    summary: "The accusative pronouns from the Beginner level side by side with the new dative ones, and ihn as it for masculine things, not to be confused with ihm.",
+    summary: "Revisit the accusative pronouns from the Beginner level side by side with the new dative ones, and use \"ihn\" for it with masculine things without mixing it up with \"ihm\".",
     duration: "12 min",
     sections: [
       {
@@ -40,7 +40,7 @@ export const DE_A2_U08: Lesson[] = [
             en: "I'll pick [you] up at eight. (to two friends)",
             sentence: "Ich hole ___ um acht ab.",
             answer: "euch",
-            explanation: "\"Abholen\" + accusative; the ihr form is \"euch\".",
+            explanation: "\"Abholen\" + accusative; the \"ihr\" form is \"euch\".",
           },
         ],
       },
@@ -80,7 +80,7 @@ export const DE_A2_U08: Lesson[] = [
         heading: "Ihn or ihm? Accusative or dative?",
         body: [
           "Now put the two sets side by side: \"mich / mir\", \"dich / dir\", \"ihn / ihm\", \"sie / ihr\", \"es / ihm\", \"uns / uns\", \"euch / euch\", \"sie / ihnen\", \"Sie / Ihnen\".",
-          "The pair that causes most trouble is \"ihn\" and \"ihm\": one letter apart, different cases. \"Ich sehe ihn\" (accusative: sehen) vs \"Ich helfe ihm\" (dative: helfen). Link the endings to the articles: ih-n like de-n (accusative masculine), ih-m like de-m (dative).",
+          "The pair that causes most trouble is \"ihn\" and \"ihm\": one letter apart, different cases. \"Ich sehe ihn\" (accusative: \"sehen\") vs \"Ich helfe ihm\" (dative: \"helfen\"). Link the endings to the articles: ih-n like de-n (accusative masculine), ih-m like de-m (dative).",
         ],
         examples: [
           { es: "Ich rufe ihn an und danke ihm.", en: "I'll call him and thank him." },
@@ -180,6 +180,7 @@ export const DE_A2_U08: Lesson[] = [
         prompt: "Put the words in order to say: I'll pick you up tomorrow. (to a friend)",
         words: ["Ich", "hole", "dich", "morgen", "ab."],
         translation: "I'll pick you up tomorrow.",
+        altOrders: [["Morgen", "hole", "ich", "dich", "ab."]],
         explanation: "Pronoun objects come early, right after the verb; the prefix \"ab\" goes to the end.",
       },
       {
@@ -213,7 +214,7 @@ export const DE_A2_U08: Lesson[] = [
     level: "DE-A2",
     number: 2,
     title: "Two Objects, Part 1 of 2",
-    summary: "Give someone something: the person is dative (wem?), the thing is accusative (was?), and English to disappears.",
+    summary: "Say who gives what to whom: the person in the dative (\"wem?\"), the thing in the accusative (\"was?\"), with no word for English to.",
     duration: "14 min",
     sections: [
       {
@@ -358,7 +359,7 @@ export const DE_A2_U08: Lesson[] = [
         prompt: "Translate into German.",
         source: "Could you bring us the bill, please? (to a waiter)",
         answer: "Bringen Sie uns bitte die Rechnung?",
-        altAnswers: ["Können Sie uns bitte die Rechnung bringen?", "Könnten Sie uns bitte die Rechnung bringen?", "Können Sie uns die Rechnung bringen, bitte?", "Bringen Sie uns die Rechnung, bitte?", "Bringst du uns bitte die Rechnung?"],
+        altAnswers: ["Können Sie uns bitte die Rechnung bringen?", "Könnten Sie uns bitte die Rechnung bringen?", "Können Sie uns die Rechnung bringen, bitte?", "Bringen Sie uns die Rechnung, bitte?"],
         explanation: "\"Uns\" (dative) + \"die Rechnung\" (accusative). To a waiter, polite \"Sie\".",
       },
       {
@@ -421,7 +422,7 @@ export const DE_A2_U08: Lesson[] = [
     level: "DE-A2",
     number: 3,
     title: "Pattern Practice: Wem? Was?",
-    summary: "One verb, many combinations: ich schenke meinem Vater ein Buch, meiner Schwester einen Schal, den Kindern Süßigkeiten. Ask the two questions, then fill in the endings.",
+    summary: "Combine one verb with many receivers and presents (\"Ich schenke meinem Vater ein Buch\", \"meiner Schwester einen Schal\", \"den Kindern Süßigkeiten\"): ask the two questions, then get the endings right.",
     duration: "11 min",
     sections: [
       {
@@ -444,7 +445,7 @@ export const DE_A2_U08: Lesson[] = [
             en: "I'm giving [my sister a scarf].",
             sentence: "Ich schenke ___.",
             answer: "meiner Schwester einen Schal",
-            explanation: "Wem? \"meiner Schwester\" (dative feminine). Was? \"einen Schal\" (accusative masculine).",
+            explanation: "\"Wem?\" \"Meiner Schwester\" (dative feminine). \"Was?\" \"Einen Schal\" (accusative masculine).",
           },
           {
             type: "fill-blank",
@@ -617,7 +618,7 @@ export const DE_A2_U08: Lesson[] = [
     level: "DE-A2",
     number: 4,
     title: "Minimal Pairs: Ihn or Ihm? Den or Dem?",
-    summary: "Train your ear for the final consonant that changes the case: ihn vs ihm, den vs dem, einen vs einem, meinen vs meinem.",
+    summary: "Hear and say the final consonant that changes the case: \"ihn\" vs \"ihm\", \"den\" vs \"dem\", \"einen\" vs \"einem\", \"meinen\" vs \"meinem\".",
     duration: "11 min",
     sections: [
       {
@@ -658,7 +659,7 @@ export const DE_A2_U08: Lesson[] = [
         heading: "Both in one sentence",
         body: [
           "With two objects you'll often hear both: \"Ich gebe dem Mann den Schlüssel\" (I give the man the key). The m-word receives, the n-word is given. Swap them and the meaning changes: \"Ich gebe den Mann dem Schlüssel\" would mean you hand the man over to the key!",
-          "Same with ein and mein: \"Ich schenke meinem Bruder einen Hund\" (my brother gets a dog), not the other way round.",
+          "Same with \"ein\" and \"mein\": \"Ich schenke meinem Bruder einen Hund\" (my brother gets a dog), not the other way round.",
         ],
         examples: [
           { es: "Ich gebe dem Mann den Schlüssel.", en: "I give the man the key." },
@@ -809,7 +810,7 @@ export const DE_A2_U08: Lesson[] = [
         type: "speak",
         text: "Ich sehe ihn und helfe ihm.",
         prompt: "Say it in German: I see him and help him.",
-        tip: "End ihn with the tongue, ihm with the lips.",
+        tip: "End \"ihn\" with the tongue, \"ihm\" with the lips.",
         explanation: "Accusative after \"sehen\", dative after \"helfen\".",
       },
     ],
@@ -819,14 +820,14 @@ export const DE_A2_U08: Lesson[] = [
     level: "DE-A2",
     number: 5,
     title: "Two Objects, Part 2 of 2",
-    summary: "Word order with two objects: two nouns, dative first; a pronoun before a noun; two pronouns, accusative first, and the trap of copying English I give him it.",
+    summary: "Put two objects in the right order: two nouns, dative first; a pronoun before a noun; two pronouns, accusative first, without copying English I give him it.",
     duration: "14 min",
     sections: [
       {
         heading: "Two nouns: dative first",
         body: [
           "When both objects are nouns, the normal order is dative (person) before accusative (thing): \"Ich gebe dem Mann das Geld\", \"Sie zeigt ihrer Freundin die Wohnung\". This is the same order as English I give the man the money.",
-          "Putting the thing first (\"Ich gebe das Geld dem Mann\") is possible, but only when you want to stress the person: the money, I'm giving to the man (not to his wife). As a default, keep dative before accusative.",
+          "Putting the thing first (\"Ich gebe das Geld dem Mann\") is possible, mainly when you want to stress the person: the money, I'm giving to the man (not to his wife). As a default, keep dative before accusative.",
         ],
         examples: [
           { es: "Ich gebe dem Mann das Geld.", en: "I give the man the money." },
@@ -950,7 +951,7 @@ export const DE_A2_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which order is correct? (\"der Brief\", \"meine Mutter\")",
+        question: "You're sending the letter (\"der Brief\") to your mother. How do you say: I'm sending it to my mother?",
         options: ["Ich schicke ihn meiner Mutter.", "Ich schicke meiner Mutter ihn.", "Ich schicke ihr ihn.", "Ich schicke ihn zu meiner Mutter."],
         correctIndex: 0,
         explanation: "Pronoun \"ihn\" before the noun \"meiner Mutter\". With two pronouns it'd be \"ihn ihr\".",
@@ -1021,7 +1022,7 @@ export const DE_A2_U08: Lesson[] = [
     level: "DE-A2",
     number: 6,
     title: "Contrast Clinic: Fragen, Anrufen, Helfen",
-    summary: "Cases English doesn't predict: ich frage dich, ich rufe dich an, ich besuche dich (accusative) vs ich helfe dir, ich danke dir, ich antworte dir (dative).",
+    summary: "Choose the case English doesn't predict: \"ich frage dich\", \"ich rufe dich an\", \"ich besuche dich\" (accusative) vs \"ich helfe dir\", \"ich danke dir\", \"ich antworte dir\" (dative).",
     duration: "12 min",
     sections: [
       {
@@ -1050,7 +1051,7 @@ export const DE_A2_U08: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is correct?",
+            question: "How do you say: I'm asking him?",
             options: ["Ich frage ihn.", "Ich frage ihm.", "Ich frage zu ihm.", "Ich frage für ihn."],
             correctIndex: 0,
             explanation: "\"Fragen\" + accusative: \"ihn\".",
@@ -1219,7 +1220,7 @@ export const DE_A2_U08: Lesson[] = [
     level: "DE-A2",
     number: 7,
     title: "Dialogue Lab: Gifts and Favours",
-    summary: "Plan a birthday with a friend: Was schenkst du ihr? Ich schenke ihr einen Gutschein. Kannst du mir dein Auto leihen? Ich bringe es dir morgen zurück.",
+    summary: "Plan a birthday with a friend: talk about presents (\"Was schenkst du ihr?\", \"Ich schenke ihr einen Gutschein\") and ask for and return favours (\"Kannst du mir dein Auto leihen?\", \"Ich bringe es dir morgen zurück\").",
     duration: "13 min",
     sections: [
       {
@@ -1375,7 +1376,7 @@ export const DE_A2_U08: Lesson[] = [
         source: "Happy birthday!",
         answer: "Alles Gute zum Geburtstag!",
         altAnswers: ["Herzlichen Glückwunsch zum Geburtstag!", "Herzlichen Glückwunsch!", "Alles Gute!"],
-        explanation: "\"Alles Gute zum Geburtstag\": \"zum\" = zu dem.",
+        explanation: "\"Alles Gute zum Geburtstag\": \"zum\" = \"zu dem\".",
       },
       {
         type: "translate",
@@ -1423,7 +1424,7 @@ export const DE_A2_U08: Lesson[] = [
     level: "DE-A2",
     number: 8,
     title: "Drill Circuit: Es tut mir leid, mir ist kalt",
-    summary: "Fixed dative expressions with no English equivalent structure: es tut mir leid, mir ist kalt, es geht mir gut, das ist mir egal, mir tut der Kopf weh, and the trap ich bin kalt.",
+    summary: "Use the fixed dative expressions that English builds differently (\"es tut mir leid\", \"mir ist kalt\", \"es geht mir gut\", \"das ist mir egal\", \"mir tut der Kopf weh\") and avoid the trap \"*ich bin kalt*\".",
     duration: "12 min",
     sections: [
       {
@@ -1462,9 +1463,9 @@ export const DE_A2_U08: Lesson[] = [
       {
         heading: "Es tut mir leid, es geht mir gut",
         body: [
-          "\"Es tut mir leid\" (I'm sorry) is literally it does pain to me. The person is dative: \"Es tut ihm leid\" (He's sorry), \"Tut es dir leid?\" (Are you sorry?). In speech it's often shortened to \"Tut mir leid!\".",
+          "\"Es tut mir leid\" (I'm sorry) is literally it does sorrow to me. The person is dative: \"Es tut ihm leid\" (He's sorry), \"Tut es dir leid?\" (Are you sorry?). In speech it's often shortened to \"Tut mir leid!\".",
           "\"Es geht mir gut\" (I'm fine), \"Wie geht es dir / Ihnen?\" You know these; notice they follow the same pattern: the dative person, \"es\" as a dummy subject.",
-          "And \"Das ist mir egal\" (I don't mind / I don't care) from Unit 5: now you know why it's \"mir\": egal to me.",
+          "And \"Das ist mir egal\" (I don't mind / I don't care) from Unit 5: now you know why it's \"mir\": \"egal\" to me.",
         ],
         examples: [
           { es: "Es tut mir leid, ich bin zu spät.", en: "I'm sorry, I'm late." },
@@ -1497,7 +1498,7 @@ export const DE_A2_U08: Lesson[] = [
       {
         heading: "Mir tut der Kopf weh",
         body: [
-          "Aches and pains: \"Mir tut der Kopf weh\" (My head hurts), literally to me the head does pain. The body part is the subject (with \"der\", \"die\", \"das\", not my!), and the person is dative.",
+          "Aches and pains: \"Mir tut der Kopf weh\" (My head hurts), literally to me the head does pain. The body part is the subject (usually with \"der\", \"die\", \"das\" rather than my, though \"Mein Kopf tut weh\" is fine too), and the person is dative.",
           "Plural body parts take a plural verb: \"Mir tun die Füße weh\" (My feet hurt). For the doctor: \"Wo tut es Ihnen weh?\" (Where does it hurt?).",
           "Alternatively you can say \"Ich habe Kopfschmerzen\" (I have a headache): both are common.",
         ],
@@ -1542,7 +1543,7 @@ export const DE_A2_U08: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'm cold.",
         answer: "Mir ist kalt.",
-        altAnswers: ["Mir ist es kalt.", "Es ist mir kalt."],
+        altAnswers: ["Es ist mir kalt."],
         explanation: "\"Mir ist kalt\" for how your body feels.",
       },
       {
@@ -1584,7 +1585,7 @@ export const DE_A2_U08: Lesson[] = [
         prompt: "Translate into German.",
         source: "She feels sick.",
         answer: "Ihr ist schlecht.",
-        altAnswers: ["Ihr ist übel.", "Ihr ist es schlecht."],
+        altAnswers: ["Ihr ist übel."],
         explanation: "\"Mir ist schlecht\" pattern, with the dative \"ihr\" (her).",
       },
       {
@@ -1638,13 +1639,13 @@ export const DE_A2_U08: Lesson[] = [
     level: "DE-A2",
     number: 9,
     title: "Q&A Drill: Favours and Messages",
-    summary: "Answer with two pronouns: Hast du ihr die Nachricht geschickt? Ja, ich habe sie ihr geschickt. Erklärst du mir das? Ja, ich erkläre es dir.",
+    summary: "Answer questions about favours and messages with two pronouns in the right order: \"Hast du ihr die Nachricht geschickt?\" – \"Ja, ich habe sie ihr geschickt.\"",
     duration: "12 min",
     sections: [
       {
         heading: "Question with nouns, answer with pronouns",
         body: [
-          "In real conversation, the answer to a question rarely repeats the nouns. \"Hast du Lena die Nachricht geschickt?\" – \"Ja, ich habe sie ihr geschickt.\" \"Sie\" = die Nachricht (accusative), \"ihr\" = Lena (dative).",
+          "In real conversation, the answer to a question rarely repeats the nouns. \"Hast du Lena die Nachricht geschickt?\" – \"Ja, ich habe sie ihr geschickt.\" \"Sie\" = \"die Nachricht\" (accusative), \"ihr\" = Lena (dative).",
           "Step by step: find the thing and replace it with \"ihn\", \"sie\" or \"es\" by gender; find the person and replace them with \"ihm\", \"ihr\" or \"ihnen\"; then put the accusative first. It feels slow at first, but after a few rounds it becomes automatic.",
         ],
         examples: [
@@ -1657,7 +1658,7 @@ export const DE_A2_U08: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Did you give Jonas the money? Answer: Yes, I gave it to him.",
+            prompt: "\"Hast du Jonas das Geld gegeben?\" Answer: Yes, I gave it to him.",
             source: "Yes, I gave it to him.",
             answer: "Ja, ich habe es ihm gegeben.",
             explanation: "\"Das Geld\" → \"es\" (accusative), \"Jonas\" → \"ihm\" (dative): accusative first.",
@@ -1688,7 +1689,7 @@ export const DE_A2_U08: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Can you show us the city? Answer: Sure, I'll show it to you. (to friends)",
+            prompt: "\"Kannst du uns die Stadt zeigen?\" Answer: Sure, I'll show it to you. (to friends)",
             source: "Sure, I'll show it to you.",
             answer: "Klar, ich zeige sie euch.",
             altAnswers: ["Klar, ich zeige sie euch gern.", "Natürlich, ich zeige sie euch.", "Ja, ich zeige sie euch."],
@@ -1720,7 +1721,7 @@ export const DE_A2_U08: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Have you sent Mia the photos? Answer: No, I haven't sent them to her yet.",
+            prompt: "\"Hast du Mia die Fotos geschickt?\" Answer: No, I haven't sent them to her yet.",
             source: "No, I haven't sent them to her yet.",
             answer: "Nein, ich habe sie ihr noch nicht geschickt.",
             explanation: "\"Die Fotos\" → \"sie\" (accusative plural), \"Mia\" → \"ihr\"; \"noch nicht\" after the pronouns.",
@@ -1738,7 +1739,7 @@ export const DE_A2_U08: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Will you explain that to me? Answer: Yes, I'll explain it to you. (to a friend)",
+        prompt: "\"Erklärst du mir das?\" Answer: Yes, I'll explain it to you. (to a friend)",
         source: "Yes, I'll explain it to you.",
         answer: "Ja, ich erkläre es dir.",
         altAnswers: ["Ja, ich erkläre es dir gern.", "Klar, ich erkläre es dir."],
@@ -1747,7 +1748,7 @@ export const DE_A2_U08: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Did you send Lena the message? Answer: Yes, I sent it to her.",
+        prompt: "\"Hast du Lena die Nachricht geschickt?\" Answer: Yes, I sent it to her.",
         source: "Yes, I sent it to her.",
         answer: "Ja, ich habe sie ihr geschickt.",
         explanation: "\"Die Nachricht\" → \"sie\"; \"Lena\" → \"ihr\". Accusative first.",
@@ -1763,7 +1764,7 @@ export const DE_A2_U08: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Did you give the children the presents? Answer: Yes, I gave them to them.",
+        prompt: "\"Hast du den Kindern die Geschenke gegeben?\" Answer: Yes, I gave them to them.",
         source: "Yes, I gave them to them.",
         answer: "Ja, ich habe sie ihnen gegeben.",
         altAnswers: ["Ja, ich habe sie ihnen geschenkt."],
@@ -1813,7 +1814,7 @@ export const DE_A2_U08: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Will you bring me a coffee? Answer: Yes, I'll bring you one.",
+        prompt: "\"Bringst du mir einen Kaffee mit?\" Answer: Yes, I'll bring you one.",
         source: "Yes, I'll bring you one.",
         answer: "Ja, ich bringe dir einen mit.",
         altAnswers: ["Ja, ich bringe dir einen.", "Klar, ich bringe dir einen mit."],
@@ -1832,7 +1833,7 @@ export const DE_A2_U08: Lesson[] = [
     level: "DE-A2",
     number: 10,
     title: "Elementary Vocabulary Practice, Part 2 of 5",
-    summary: "Mixed vocabulary from Units 6-8 (life events, family, presents, clothes and favours), with gender, plural and the case each verb takes.",
+    summary: "Practise mixed vocabulary from Units 6-8 (life events, family, presents, clothes and favours), with gender, plural and the case each verb takes.",
     duration: "13 min",
     sections: [
       {
@@ -1983,10 +1984,10 @@ export const DE_A2_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which verb takes a dative person only (no accusative object)?",
-        options: ["passen: Die Schuhe passen mir.", "anprobieren: Ich probiere die Schuhe an.", "kaufen: Ich kaufe die Schuhe.", "tragen: Ich trage die Schuhe."],
+        question: "Your new shoes are too small. How do you say: The shoes don't fit me?",
+        options: ["Die Schuhe passen mir nicht.", "Die Schuhe passen mich nicht.", "Ich passe die Schuhe nicht.", "Die Schuhe passt mir nicht."],
         correctIndex: 0,
-        explanation: "\"Passen\" has the clothes as subject and the person in the dative. The others take an accusative object.",
+        explanation: "\"Passen\" has the clothes as subject (plural \"die Schuhe\" → \"passen\") and the person in the dative (\"mir\"). \"*Ich passe die Schuhe*\" copies the English order.",
       },
       {
         type: "translate",
@@ -2022,6 +2023,7 @@ export const DE_A2_U08: Lesson[] = [
         prompt: "Put the words in order to say: I'll give you the money back tomorrow.",
         words: ["Ich", "gebe", "dir", "das", "Geld", "morgen", "zurück."],
         translation: "I'll give you the money back tomorrow.",
+        altOrders: [["Morgen", "gebe", "ich", "dir", "das", "Geld", "zurück."]],
         explanation: "\"Zurückgeben\" separates: \"zurück\" at the end. Pronoun \"dir\" before the noun.",
       },
       {
@@ -2046,7 +2048,7 @@ export const DE_A2_U08: Lesson[] = [
     level: "DE-A2",
     number: 11,
     title: "Common Words: Linking Ideas",
-    summary: "Und, aber, oder, denn and sondern take position 0 and change nothing; also, deshalb, trotzdem and außerdem take position 1 and pull the verb next to them.",
+    summary: "Link ideas with \"und\", \"aber\", \"oder\", \"denn\" and \"sondern\" (position 0, no change to word order) and with \"also\", \"deshalb\", \"trotzdem\" and \"außerdem\" (position 1, verb next).",
     duration: "13 min",
     sections: [
       {
@@ -2067,7 +2069,7 @@ export const DE_A2_U08: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, using denn.",
+            prompt: "Translate into German, using \"denn\".",
             source: "I'm staying at home, because I'm ill.",
             answer: "Ich bleibe zu Hause, denn ich bin krank.",
             altAnswers: ["Ich bleibe zuhause, denn ich bin krank."],
@@ -2075,7 +2077,7 @@ export const DE_A2_U08: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is correct?",
+            question: "How do you say: I'm not coming, because I have no time?",
             options: ["Ich komme nicht, denn ich habe keine Zeit.", "Ich komme nicht, denn habe ich keine Zeit.", "Ich komme nicht, dann ich habe keine Zeit.", "Ich komme nicht, denn ich keine Zeit habe."],
             correctIndex: 0,
             explanation: "After \"denn\": subject, then verb. \"Dann\" means then, not because.",
@@ -2140,7 +2142,7 @@ export const DE_A2_U08: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, using trotzdem.",
+            prompt: "Translate into German, using \"trotzdem\".",
             source: "It rained. We still went for a walk.",
             answer: "Es hat geregnet. Trotzdem sind wir spazieren gegangen.",
             altAnswers: ["Es hat geregnet. Wir sind trotzdem spazieren gegangen.", "Es regnete. Trotzdem sind wir spazieren gegangen.", "Es regnete. Wir sind trotzdem spazieren gegangen."],
@@ -2161,7 +2163,7 @@ export const DE_A2_U08: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using deshalb.",
+        prompt: "Translate into German, using \"deshalb\".",
         source: "I was tired, so I went to bed.",
         answer: "Ich war müde, deshalb bin ich ins Bett gegangen.",
         altAnswers: ["Ich war müde. Deshalb bin ich ins Bett gegangen.", "Ich war müde, deshalb ging ich ins Bett.", "Ich war müde, deshalb bin ich schlafen gegangen."],
@@ -2186,7 +2188,7 @@ export const DE_A2_U08: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using denn.",
+        prompt: "Translate into German, using \"denn\".",
         source: "We're not coming, because we have no time.",
         answer: "Wir kommen nicht, denn wir haben keine Zeit.",
         explanation: "\"Denn\" (position 0) keeps normal order: \"wir haben\".",
@@ -2201,7 +2203,7 @@ export const DE_A2_U08: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using außerdem.",
+        prompt: "Translate into German, using \"außerdem\".",
         source: "The flat is cheap. Besides, it's central.",
         answer: "Die Wohnung ist billig. Außerdem ist sie zentral.",
         altAnswers: ["Die Wohnung ist günstig. Außerdem ist sie zentral.", "Die Wohnung ist billig. Außerdem liegt sie zentral.", "Die Wohnung ist günstig. Außerdem liegt sie zentral."],
@@ -2257,7 +2259,7 @@ export const DE_A2_U08: Lesson[] = [
     level: "DE-A2",
     number: 12,
     title: "Common Words: Where Things Are",
-    summary: "Hier, da, dort, oben, unten, vorne, hinten, links, rechts, drinnen, draußen, überall, nirgends and irgendwo, with hin and her as a preview of direction.",
+    summary: "Say where things are with \"hier\", \"da\", \"dort\", \"oben\", \"unten\", \"vorne\", \"hinten\", \"links\", \"rechts\", \"drinnen\", \"draußen\", \"überall\", \"nirgends\" and \"irgendwo\", with \"hin\" and \"her\" as a preview of direction.",
     duration: "12 min",
     sections: [
       {
@@ -2331,7 +2333,7 @@ export const DE_A2_U08: Lesson[] = [
       {
         heading: "Überall, nirgends, irgendwo; hin and her",
         body: [
-          "\"Überall\" (everywhere), \"nirgends\" or \"nirgendwo\" (nowhere), \"irgendwo\" (somewhere): \"Ich habe überall gesucht, aber ich finde meine Brille nirgends\" (I've looked everywhere, but I can't find my glasses anywhere). Note: nirgends already contains the negation, so no \"nicht\" is needed.",
+          "\"Überall\" (everywhere), \"nirgends\" or \"nirgendwo\" (nowhere), \"irgendwo\" (somewhere): \"Ich habe überall gesucht, aber ich finde meine Brille nirgends\" (I've looked everywhere, but I can't find my glasses anywhere). Note: \"nirgends\" already contains the negation, so no \"nicht\" is needed.",
           "Preview of direction: \"hin\" means away from the speaker, \"her\" towards the speaker. \"Komm her!\" (Come here!), \"Geh hin!\" (Go there!). That's why \"wo?\" asks where (location), but \"wohin?\" asks where to and \"woher?\" where from. You'll meet more of this in Unit 11.",
         ],
         examples: [
@@ -2355,7 +2357,7 @@ export const DE_A2_U08: Lesson[] = [
             question: "You call your dog to you. What do you say?",
             options: ["Komm her!", "Komm hin!", "Geh her!", "Komm hier!"],
             correctIndex: 0,
-            explanation: "\"Her\" = towards the speaker. \"Komm hier\" is a common learner mistake: \"hier\" is location, not direction.",
+            explanation: "\"Her\" = towards the speaker. \"*Komm hier*\" is a common learner mistake (you may hear it in casual regional speech, but the standard is \"Komm her\"): \"hier\" is location, not direction.",
           },
           {
             type: "speak",
@@ -2404,7 +2406,7 @@ export const DE_A2_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which question asks where someone is going?",
+        question: "How do you ask a friend: Where are you going?",
         options: ["Wohin gehst du?", "Wo gehst du?", "Woher gehst du?", "Wo bist du?"],
         correctIndex: 0,
         explanation: "\"Wohin\" = where to (direction). \"Wo\" = where (location), \"woher\" = where from.",

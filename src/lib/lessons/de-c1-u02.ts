@@ -8,7 +8,7 @@ export const DE_C1_U02: Lesson[] = [
     level: "DE-C1",
     number: 1,
     title: "Concession and Restriction, Part 1 of 5",
-    summary: "Formal concessive conjunctions (obgleich, obschon, wenngleich), auch wenn and selbst wenn for even if, and the elegant wenn ... auch.",
+    summary: "Use the formal concessive conjunctions \"obgleich\", \"obschon\" and \"wenngleich\", say even if with \"auch wenn\" and \"selbst wenn\", and use the elegant \"wenn ... auch\".",
     duration: "17 min",
     sections: [
       {
@@ -17,7 +17,7 @@ export const DE_C1_U02: Lesson[] = [
           "You know \"obwohl\" (although) from the Intermediate level: it introduces a subordinate clause, so the verb goes to the end. At the Advanced level you need its formal siblings, which mean exactly the same and follow the same word order: \"obgleich\", \"obschon\" and \"wenngleich\".",
           "Register: \"obwohl\" is neutral and fits everywhere. \"Obgleich\" and \"wenngleich\" are typical of written German: reports, essays, quality journalism. \"Obschon\" is elevated and a bit old-fashioned in Germany, but common in Switzerland. Using one of them in an essay signals Advanced style; in a chat with a friend it sounds pompous.",
           "\"Wenngleich\" has a special talent: it can also introduce a shortened clause without a verb, often after the main clause: \"Das Hotel war schön, wenngleich etwas teuer\" (The hotel was nice, if somewhat expensive). \"Obwohl\" can do the same in speech: \"..., obwohl teuer\".",
-          "Trap: the verb really must go to the end. \"*Obwohl er war müde\" is a typical error from English word order.",
+          "Trap: the verb really must go to the end. \"*Obwohl er war müde*\" is a typical error from English word order.",
         ],
         examples: [
           { es: "Obgleich die Mieten steigen, ziehen immer mehr Menschen nach München.", en: "Although rents are rising, more and more people are moving to Munich." },
@@ -156,7 +156,7 @@ export const DE_C1_U02: Lesson[] = [
         prompt: "Translate into German.",
         source: "Even if I had known, I couldn't have done anything.",
         answer: "Selbst wenn ich das gewusst hätte, hätte ich nichts tun können.",
-        altAnswers: ["Auch wenn ich das gewusst hätte, hätte ich nichts tun können.", "Selbst wenn ich es gewusst hätte, hätte ich nichts tun können.", "Auch wenn ich es gewusst hätte, hätte ich nichts machen können.", "Selbst wenn ich es gewusst hätte, hätte ich nichts machen können."],
+        altAnswers: ["Auch wenn ich das gewusst hätte, hätte ich nichts tun können.", "Selbst wenn ich es gewusst hätte, hätte ich nichts tun können.", "Auch wenn ich es gewusst hätte, hätte ich nichts machen können.", "Selbst wenn ich es gewusst hätte, hätte ich nichts machen können.", "Selbst wenn ich das gewusst hätte, hätte ich nichts machen können."],
         explanation: "Unreal past: \"gewusst hätte\" and \"hätte ... tun können\".",
       },
       {
@@ -235,7 +235,7 @@ export const DE_C1_U02: Lesson[] = [
     level: "DE-C1",
     number: 2,
     title: "Concession and Restriction, Part 2 of 5",
-    summary: "Concessive generalisers: wie sehr ... auch, so schwer ... auch, was auch immer, wer auch immer, and the main clause that keeps its normal order.",
+    summary: "Use concessive generalisers (\"wie sehr ... auch\", \"so schwer ... auch\", \"was auch immer\", \"wer auch immer\") with a main clause that keeps its normal order.",
     duration: "17 min",
     sections: [
       {
@@ -459,7 +459,7 @@ export const DE_C1_U02: Lesson[] = [
     level: "DE-C1",
     number: 3,
     title: "Contrast Clinic: Egal ob, Auch wenn, Wie auch immer, Trotzdem",
-    summary: "Four look-alike ideas sorted: it doesn't matter (egal ob / ganz gleich, was), even if (auch wenn), however much (wie ... auch) and nevertheless (trotzdem), each with its word order.",
+    summary: "Tell four look-alike ideas apart, each with its word order: it doesn't matter (\"egal, ob\" / \"ganz gleich, was\"), even if (\"auch wenn\"), however much (\"wie ... auch\") and nevertheless (\"trotzdem\").",
     duration: "16 min",
     sections: [
       {
@@ -540,8 +540,8 @@ export const DE_C1_U02: Lesson[] = [
         heading: "Trotzdem: the adverb",
         body: [
           "\"Trotzdem\" (nevertheless, still) is not a conjunction but an adverb. It takes position 1 or sits in the middle field of a main clause, and the main clause before it is complete: \"Es regnet. Trotzdem gehen wir spazieren\" / \"Wir gehen trotzdem spazieren.\"",
-          "Because it's an adverb, \"trotzdem\" in position 1 triggers inversion: \"Trotzdem gehen wir\", never \"*Trotzdem wir gehen\".",
-          "In older or colloquial German you'll meet \"trotzdem\" as a conjunction (\"*trotzdem es regnet\"), but in standard writing that's wrong: use \"obwohl\". Synonyms in formal style: \"dennoch\", \"dessen ungeachtet\", \"nichtsdestotrotz\".",
+          "Because it's an adverb, \"trotzdem\" in position 1 triggers inversion: \"Trotzdem gehen wir\", never \"*Trotzdem wir gehen*\".",
+          "In older or colloquial German you'll meet \"trotzdem\" as a conjunction (\"*trotzdem es regnet*\"), but in standard writing that's wrong: use \"obwohl\". Synonyms in formal style: \"dennoch\", \"dessen ungeachtet\", \"nichtsdestotrotz\".",
         ],
         examples: [
           { es: "Es regnet. Trotzdem gehen wir spazieren.", en: "It's raining. We're going for a walk anyway." },
@@ -605,7 +605,7 @@ export const DE_C1_U02: Lesson[] = [
         sentence: "___, wir unterstützen Sie.",
         answer: "Ganz gleich, wie Sie sich entscheiden",
         altAnswers: ["Egal, wie Sie sich entscheiden", "Wie Sie sich auch entscheiden", "Wie auch immer Sie sich entscheiden", "Ganz gleich, wofür Sie sich entscheiden", "Egal, wofür Sie sich entscheiden"],
-        explanation: "\"Ganz gleich\" is formal for egal; \"sich entscheiden\" reflexive.",
+        explanation: "\"Ganz gleich\" is formal for \"egal\"; \"sich entscheiden\" reflexive.",
       },
       {
         type: "multiple-choice",
@@ -628,7 +628,7 @@ export const DE_C1_U02: Lesson[] = [
         prompt: "Put the words in order to say: The offer was good. Nevertheless she declined.",
         words: ["Das", "Angebot", "war", "gut.", "Dennoch", "hat", "sie", "abgelehnt."],
         translation: "The offer was good. Nevertheless she declined.",
-        explanation: "\"Dennoch\" = formal trotzdem, with inversion.",
+        explanation: "\"Dennoch\" = formal \"trotzdem\", with inversion.",
       },
       {
         type: "translate",
@@ -648,7 +648,7 @@ export const DE_C1_U02: Lesson[] = [
           { left: "wie ... auch", right: "however (much)" },
           { left: "trotzdem", right: "nevertheless" },
         ],
-        explanation: "Four related ideas with different grammar: egal/wie-auch clauses keep normal order afterwards; auch wenn usually triggers inversion; trotzdem is an adverb.",
+        explanation: "Four related ideas with different grammar: \"egal\" and \"wie ... auch\" clauses keep normal order afterwards; \"auch wenn\" usually triggers inversion; \"trotzdem\" is an adverb.",
       },
       {
         type: "listen-choose",
@@ -676,15 +676,15 @@ export const DE_C1_U02: Lesson[] = [
     level: "DE-C1",
     number: 4,
     title: "Error Hunt: Concessive Clauses",
-    summary: "Forum posts and reviews with typical mistakes: obwohl with the wrong word order, trotz with a clause, trotzdem as a conjunction, trotz dem Regen, trotz dass and English-style although at the end.",
+    summary: "Spot and fix typical mistakes in forum posts and reviews: \"obwohl\" with the wrong word order, \"trotz\" with a clause, \"trotzdem\" as a conjunction, \"trotz dem Regen\", \"trotz dass\" and English-style although at the end.",
     duration: "16 min",
     sections: [
       {
         heading: "Obwohl and trotz",
         body: [
-          "Error 1, from a forum post: \"*Obwohl er war krank, ist er zur Arbeit gegangen.\" \"Obwohl\" is a subordinating conjunction: the verb goes to the end. Correct: \"Obwohl er krank war, ist er zur Arbeit gegangen.\"",
-          "Error 2: \"*Trotz er krank war, ...\". \"Trotz\" is a preposition, so it needs a noun phrase, not a clause: \"Trotz seiner Krankheit ist er zur Arbeit gegangen.\" Or switch to \"obwohl\".",
-          "Error 3, from a restaurant review: \"*Trotz dem Regen saßen wir draußen.\" In speech \"trotz\" + dative is widespread and Duden accepts it in some cases, but in standard writing \"trotz\" takes the genitive: \"Trotz des Regens saßen wir draußen.\"",
+          "Error 1, from a forum post: \"*Obwohl er war krank, ist er zur Arbeit gegangen.*\" \"Obwohl\" is a subordinating conjunction: the verb goes to the end. Correct: \"Obwohl er krank war, ist er zur Arbeit gegangen.\"",
+          "Error 2: \"*Trotz er krank war, ...*\". \"Trotz\" is a preposition, so it needs a noun phrase, not a clause: \"Trotz seiner Krankheit ist er zur Arbeit gegangen.\" Or switch to \"obwohl\".",
+          "Error 3, from a restaurant review: \"*Trotz dem Regen saßen wir draußen.*\" In speech \"trotz\" + dative is widespread and Duden accepts it in some cases, but in standard writing \"trotz\" takes the genitive: \"Trotz des Regens saßen wir draußen.\"",
         ],
         examples: [
           { es: "Obwohl er krank war, ist er zur Arbeit gegangen.", en: "Although he was ill, he went to work." },
@@ -701,7 +701,7 @@ export const DE_C1_U02: Lesson[] = [
             source: "Despite the rain we sat outside.",
             answer: "Trotz des Regens saßen wir draußen.",
             altAnswers: ["Trotz des Regens haben wir draußen gesessen.", "Trotz des Regens sind wir draußen gesessen.", "Wir saßen trotz des Regens draußen.", "Wir haben trotz des Regens draußen gesessen."],
-            explanation: "In writing \"trotz\" + genitive: \"des Regens\", not \"*dem Regen\".",
+            explanation: "In writing \"trotz\" + genitive: \"des Regens\", not \"*dem Regen*\".",
           },
           {
             type: "translate",
@@ -710,11 +710,11 @@ export const DE_C1_U02: Lesson[] = [
             source: "Although he was ill, he went to work.",
             answer: "Obwohl er krank war, ist er zur Arbeit gegangen.",
             altAnswers: ["Obwohl er krank war, ging er zur Arbeit.", "Er ist zur Arbeit gegangen, obwohl er krank war.", "Er ging zur Arbeit, obwohl er krank war.", "Obwohl er krank war, ist er arbeiten gegangen."],
-            explanation: "Correction of \"*Obwohl er war krank\": verb at the end.",
+            explanation: "Correction of \"*Obwohl er war krank*\": verb at the end.",
           },
           {
             type: "multiple-choice",
-            question: "Which correction of \"*Trotz er krank war, kam er\" is right?",
+            question: "Which correction of \"*Trotz er krank war, kam er*\" is right?",
             options: ["Trotz seiner Krankheit kam er.", "Trotz er krank, kam er.", "Trotzdem er krank war, kam er.", "Trotz dass er krank war, er kam."],
             correctIndex: 0,
             explanation: "\"Trotz\" + genitive noun. \"Trotzdem\" as conjunction and \"trotz dass\" are colloquial, and the last has wrong word order too.",
@@ -724,9 +724,9 @@ export const DE_C1_U02: Lesson[] = [
       {
         heading: "Trotzdem and trotz dass as conjunctions",
         body: [
-          "Error 4: \"*Trotzdem es teuer war, haben wir es gekauft.\" Using \"trotzdem\" as a conjunction is dated or regional. In standard German: \"Obwohl es teuer war, haben wir es gekauft\" or \"Es war teuer. Trotzdem haben wir es gekauft.\"",
-          "Error 5: \"*Trotz dass es teuer war, ...\". English despite the fact that tempts learners to write \"trotz dass\". It is colloquial; write \"obwohl\", or in formal style \"trotz der Tatsache, dass\" (heavy) or simply \"ungeachtet dessen, dass\".",
-          "Error 6: \"*Auch wenn er wäre müde, ...\". Again the verb belongs at the end: \"Auch wenn er müde wäre, ...\".",
+          "Error 4: \"*Trotzdem es teuer war, haben wir es gekauft.*\" Using \"trotzdem\" as a conjunction is dated or regional. In standard German: \"Obwohl es teuer war, haben wir es gekauft\" or \"Es war teuer. Trotzdem haben wir es gekauft.\"",
+          "Error 5: \"*Trotz dass es teuer war, ...*\". English despite the fact that tempts learners to write \"trotz dass\". It is colloquial; write \"obwohl\", or in formal style \"trotz der Tatsache, dass\" (heavy) or simply \"ungeachtet dessen, dass\".",
+          "Error 6: \"*Auch wenn er wäre müde, ...*\". Again the verb belongs at the end: \"Auch wenn er müde wäre, ...\".",
         ],
         examples: [
           { es: "Obwohl es teuer war, haben wir es gekauft.", en: "Although it was expensive, we bought it." },
@@ -742,7 +742,7 @@ export const DE_C1_U02: Lesson[] = [
             source: "Although it was expensive, we bought it.",
             answer: "Obwohl es teuer war, haben wir es gekauft.",
             altAnswers: ["Obwohl es teuer war, kauften wir es.", "Wir haben es gekauft, obwohl es teuer war.", "Obgleich es teuer war, haben wir es gekauft.", "Wir kauften es, obwohl es teuer war."],
-            explanation: "Not \"*trotzdem es teuer war\" or \"*trotz dass\": standard German uses \"obwohl\".",
+            explanation: "Not \"*trotzdem es teuer war*\" or \"*trotz dass*\": standard German uses \"obwohl\".",
           },
           {
             type: "fill-blank",
@@ -765,7 +765,7 @@ export const DE_C1_U02: Lesson[] = [
       {
         heading: "English-style although at the end",
         body: [
-          "Error 7, in a chat: \"*Das Essen war gut. Es war teuer, obwohl.\" English speakers say It was expensive though. German can't put \"obwohl\" at the end. Use \"allerdings\" or \"aber\" in the middle field: \"Es war allerdings teuer\" / \"Es war aber teuer.\"",
+          "Error 7, in a chat: \"*Das Essen war gut. Es war teuer, obwohl.*\" English speakers say It was expensive though. German can't put \"obwohl\" at the end. Use \"allerdings\" or \"aber\" in the middle field: \"Es war allerdings teuer\" / \"Es war aber teuer.\"",
           "\"Allerdings\" is the perfect equivalent of afterthought though: \"Der Film war gut. Er war allerdings etwas lang.\" \"Jedoch\" is the formal written alternative.",
           "In very informal speech you'll hear \"Obwohl, ...\" as an interjection at the start (\"Obwohl, eigentlich hast du recht\": Then again, actually you're right). That's a correction, not a concession at the end.",
         ],
@@ -890,14 +890,14 @@ export const DE_C1_U02: Lesson[] = [
     level: "DE-C1",
     number: 5,
     title: "Concession and Restriction, Part 3 of 5",
-    summary: "Conceding in an argument: zwar ... aber, mag sein, dass ..., das mag stimmen, nur ..., natürlich ..., doch ..., and the formal ungeachtet + genitive.",
+    summary: "Concede in an argument with \"zwar ... aber\", \"mag sein, dass ...\", \"das mag stimmen, nur ...\", \"natürlich ..., doch ...\" and the formal \"ungeachtet\" + genitive.",
     duration: "17 min",
     sections: [
       {
         heading: "Zwar ... aber: admittedly ..., but",
         body: [
           "The workhorse of German argument is \"zwar ... aber\": you admit one point, then counter it. \"Das Hotel ist zwar teuer, aber die Lage ist perfekt\" (The hotel is admittedly expensive, but the location is perfect).",
-          "\"Zwar\" is an adverb in the middle field of the first clause, usually right after the verb (and pronouns). It can also stand in position 1: \"Zwar ist das Hotel teuer, aber ...\". What it can't do is stand alone as a sentence opener like English Admittedly, ...: \"*Zwar, das Hotel ist teuer\" is wrong. For that, use \"Zugegeben, ...\".",
+          "\"Zwar\" is an adverb in the middle field of the first clause, usually right after the verb (and pronouns). It can also stand in position 1: \"Zwar ist das Hotel teuer, aber ...\". What it can't do is stand alone as a sentence opener like English Admittedly, ...: \"*Zwar, das Hotel ist teuer*\" is wrong. For that, use \"Zugegeben, ...\".",
           "\"Aber\" can be replaced by \"doch\" (more formal) or \"jedoch\" (formal, in the middle field or position 1): \"Die Idee ist zwar gut, die Umsetzung jedoch schwierig.\"",
         ],
         examples: [
@@ -1116,7 +1116,7 @@ export const DE_C1_U02: Lesson[] = [
     level: "DE-C1",
     number: 6,
     title: "Concession and Restriction, Part 4 of 5",
-    summary: "Restricting a claim: es sei denn, außer wenn, nur dass, sofern, soweit, insofern als, vorausgesetzt, dass, and unter der Bedingung, dass.",
+    summary: "Restrict a claim with \"es sei denn\", \"außer wenn\", \"nur dass\", \"sofern\", \"soweit\", \"insofern, als\", \"vorausgesetzt, dass\" and \"unter der Bedingung, dass\".",
     duration: "18 min",
     sections: [
       {
@@ -1301,7 +1301,7 @@ export const DE_C1_U02: Lesson[] = [
         sentence: "___, schicke ich den Vertrag heute ab.",
         answer: "Sofern Sie einverstanden sind",
         altAnswers: ["Vorausgesetzt, dass Sie einverstanden sind", "Falls Sie einverstanden sind", "Wenn Sie einverstanden sind", "Sofern du einverstanden bist"],
-        explanation: "\"Sofern\" + verb at the end; formal register with Sie.",
+        explanation: "\"Sofern\" + verb at the end; formal register with \"Sie\".",
       },
       {
         type: "multiple-choice",
@@ -1373,7 +1373,7 @@ export const DE_C1_U02: Lesson[] = [
     level: "DE-C1",
     number: 7,
     title: "Transformations: Six Ways to Concede",
-    summary: "Rewrite one idea six ways: obwohl, trotz + genitive, zwar ... aber, so ... auch, auch wenn and trotzdem, each with its own word order.",
+    summary: "Rewrite one idea six ways (\"obwohl\", \"trotz\" + genitive, \"zwar ... aber\", \"so ... auch\", \"auch wenn\" and \"trotzdem\"), each with its own word order.",
     duration: "17 min",
     sections: [
       {
@@ -1600,13 +1600,13 @@ export const DE_C1_U02: Lesson[] = [
     level: "DE-C1",
     number: 8,
     title: "Dialogue Lab: Einräumen, um zu überzeugen",
-    summary: "A residents' meeting about a new cycle lane: concede to persuade with Da haben Sie sicher recht, aber ..., Zugegeben, ..., Das ändert nichts daran, dass ...",
+    summary: "Concede to persuade at a residents' meeting about a new cycle lane, with \"Da haben Sie sicher recht, aber ...\", \"Zugegeben, ...\" and \"Das ändert nichts daran, dass ...\".",
     duration: "18 min",
     sections: [
       {
         heading: "The meeting opens",
         body: [
-          "A residents' meeting (\"Bürgerversammlung\") in Leipzig. The city plans a cycle lane on the Karl-Liebknecht-Straße, which would remove 40 parking spaces. Frau Krüger, a shop owner, is against it. Herr Aydın from the cycling initiative is for it.",
+          "A residents' meeting (\"Bürgerversammlung\") in Leipzig. The city plans a cycle lane on Karl-Liebknecht-Straße, which would remove 40 parking spaces. Frau Krüger, a shop owner, is against it. Herr Aydın from the cycling initiative is for it.",
           "Frau Krüger: \"Ich verstehe ja, dass Radfahren gut für die Umwelt ist. Aber wenn die Parkplätze wegfallen, kommen meine Kunden nicht mehr.\" Herr Aydın: \"Da haben Sie sicher recht, dass viele Kunden mit dem Auto kommen. Aber Studien zeigen, dass Radfahrer öfter einkaufen.\"",
           "Persuasion by concession: first grant the other side a point (\"Da haben Sie sicher recht\", \"Ich verstehe ja, dass ...\"), then make yours. It makes you sound fair and makes your counterargument harder to reject. The particle \"ja\" in \"Ich verstehe ja\" signals shared knowledge.",
         ],
@@ -1808,7 +1808,7 @@ export const DE_C1_U02: Lesson[] = [
       {
         type: "dictation",
         audio: "Da haben Sie sicher recht.",
-        explanation: "\"Recht haben\": to be right; \"sicher\" = certainly.",
+        explanation: "\"recht haben\": to be right; \"sicher\" = certainly.",
       },
       {
         type: "speak",
@@ -1823,7 +1823,7 @@ export const DE_C1_U02: Lesson[] = [
     level: "DE-C1",
     number: 9,
     title: "Concession and Restriction, Part 5 of 5",
-    summary: "Limiting and weighing: zumindest, wenigstens, immerhin, allenfalls, bestenfalls, höchstens and jedenfalls, plus während, wohingegen and (an)statt dass in the same argument.",
+    summary: "Limit and weigh a claim with \"zumindest\", \"wenigstens\", \"immerhin\", \"allenfalls\", \"bestenfalls\", \"höchstens\" and \"jedenfalls\", and contrast with \"während\", \"wohingegen\" and \"(an)statt dass\" in the same argument.",
     duration: "18 min",
     sections: [
       {
@@ -2003,7 +2003,7 @@ export const DE_C1_U02: Lesson[] = [
         prompt: "Put the words in order to say: Instead of the city building cycle lanes, the roads are being widened.",
         words: ["Anstatt", "dass", "die Stadt", "Radwege", "baut,", "werden", "die", "Straßen", "verbreitert."],
         translation: "Instead of the city building cycle lanes, the roads are being widened.",
-        explanation: "Different subjects (die Stadt / die Straßen), so \"anstatt dass\" + verb at the end; the main clause then starts with its verb.",
+        explanation: "Different subjects (\"die Stadt\" / \"die Straßen\"), so \"anstatt dass\" + verb at the end; the main clause then starts with its verb.",
       },
       {
         type: "translate",
@@ -2266,7 +2266,7 @@ export const DE_C1_U02: Lesson[] = [
     level: "DE-C1",
     number: 11,
     title: "Spiral Review: Concession and Condition",
-    summary: "Recombine the Intermediate and Upper-intermediate wenn, falls, sofern and the Konjunktiv II with auch wenn, selbst wenn, es sei denn and wie ... auch in everyday arguments.",
+    summary: "Recombine \"wenn\", \"falls\", \"sofern\" and the Konjunktiv II from the Intermediate and Upper-intermediate levels with \"auch wenn\", \"selbst wenn\", \"es sei denn\" and \"wie ... auch\" in everyday arguments.",
     duration: "17 min",
     sections: [
       {
@@ -2419,7 +2419,7 @@ export const DE_C1_U02: Lesson[] = [
         sentence: "Wir grillen am Samstag, ___.",
         answer: "sofern es nicht regnet",
         altAnswers: ["falls es nicht regnet", "wenn es nicht regnet", "es sei denn, es regnet", "vorausgesetzt, es regnet nicht"],
-        explanation: "\"Sofern\" + negation = es sei denn without negation.",
+        explanation: "\"Sofern\" + negation = \"es sei denn\" without negation.",
       },
       {
         type: "multiple-choice",

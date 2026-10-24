@@ -219,7 +219,7 @@ export const DE_C2_U10: Lesson[] = [
           "Gender: words in \"-ma\" from Greek are neuter (\"das Thema\", \"das Dogma\", \"das Klima\", \"das Drama\", \"das Charisma\"); words in \"-ie\", \"-enz\", \"-anz\", \"-ese\" are feminine (\"die Synergie\", \"die Analogie\", \"die Ambivalenz\", \"die Diskrepanz\", \"die Hypothese\", \"die Prämisse\").",
         ],
         examples: [
-          { es: "Nach welchen Kriterien wurde entschieden?", en: "What criteria was the decision based on?" },
+          { es: "Nach welchen Kriterien wurde entschieden?", en: "On what criteria was the decision based?" },
           { es: "Wir haben heute drei Themen auf der Tagesordnung.", en: "We have three topics on the agenda today." },
           { es: "Die Digitalisierung hat viele Paradigmen verändert.", en: "Digitalisation has changed many paradigms." },
           { es: "Solche Phänomene treten selten auf.", en: "Such phenomena occur rarely." },
@@ -230,7 +230,7 @@ export const DE_C2_U10: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "What criteria was the decision based on?",
+            source: "On what criteria was the decision based?",
             answer: "Nach welchen Kriterien wurde entschieden?",
             altAnswers: ["Auf welchen Kriterien beruhte die Entscheidung?", "Nach welchen Kriterien wurde die Entscheidung getroffen?", "Auf Grundlage welcher Kriterien wurde entschieden?"],
             explanation: "Plural \"die Kriterien\", dative after \"nach\": \"nach welchen Kriterien\".",
@@ -631,7 +631,7 @@ export const DE_C2_U10: Lesson[] = [
             prompt: "Translate into German, with an idiom.",
             source: "The funding is in the bag.",
             answer: "Die Finanzierung ist in trockenen Tüchern.",
-            altAnswers: ["Die Finanzierung ist unter Dach und Fach.", "Die Finanzierung steht.", "Die Finanzierung ist gesichert."],
+            altAnswers: ["Die Finanzierung ist unter Dach und Fach."],
             explanation: "\"In trockenen Tüchern sein\": dative plural, fixed form.",
           },
           {
@@ -1397,7 +1397,7 @@ export const DE_C2_U10: Lesson[] = [
     slug: "c2-business-idioms-error-hunt",
     level: "DE-C2",
     number: 8,
-    title: "Error Hunt: Falsch Eingesetzte Geschäftsredewendungen",
+    title: "Error Hunt: Falsch eingesetzte Geschäftsredewendungen",
     summary: "Find and fix misused business idioms and English calques in emails (\"*den Ball rollen*\", \"*am Ende des Tages*\", \"*gecancelled*\", \"über den Tisch ziehen\" used for persuading) and write the native version.",
     duration: "20 min",
     sections: [
@@ -1680,7 +1680,7 @@ export const DE_C2_U10: Lesson[] = [
             prompt: "Translate into German, with \"zumal\".",
             source: "We should cancel, especially since the weather is bad.",
             answer: "Wir sollten absagen, zumal das Wetter schlecht ist.",
-            altAnswers: ["Wir sollten absagen, zumal das Wetter ja schlecht ist.", "Wir sollten es absagen, zumal das Wetter schlecht ist.", "Wir sollten abbrechen, zumal das Wetter schlecht ist."],
+            altAnswers: ["Wir sollten absagen, zumal das Wetter ja schlecht ist.", "Wir sollten es absagen, zumal das Wetter schlecht ist."],
             explanation: "\"Zumal\" is a conjunction: verb \"ist\" at the end.",
           },
           {
@@ -1724,7 +1724,7 @@ export const DE_C2_U10: Lesson[] = [
         prompt: "Translate into German, with \"nichtsdestotrotz\".",
         source: "Nonetheless, we are sticking to our goal.",
         answer: "Nichtsdestotrotz halten wir an unserem Ziel fest.",
-        altAnswers: ["Wir halten nichtsdestotrotz an unserem Ziel fest.", "Nichtsdestoweniger halten wir an unserem Ziel fest."],
+        altAnswers: ["Wir halten nichtsdestotrotz an unserem Ziel fest."],
         explanation: "Adverb in position 1, verb second; separable \"festhalten\".",
       },
       {

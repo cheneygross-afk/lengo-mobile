@@ -152,7 +152,7 @@ export const DE_B2_U23: Lesson[] = [
         source: "The cows are milked twice a day.",
         answer: "Die Kühe werden zweimal täglich gemolken.",
         altAnswers: ["Die Kühe werden zweimal am Tag gemolken.", "Die Kühe werden täglich zweimal gemolken."],
-        explanation: "Vorgangspassiv with the strong participle \"gemolken\" (melken is now often weak too: \"gemelkt\", but \"gemolken\" is standard).",
+        explanation: "Vorgangspassiv with the strong participle \"gemolken\" (the Präteritum is now usually weak, \"melkte\", but the participle is almost always \"gemolken\").",
       },
       {
         type: "listen-choose",
@@ -434,7 +434,7 @@ export const DE_B2_U23: Lesson[] = [
             prompt: "Translate into German, using \"sein\" + \"zu\".",
             source: "Safety goggles must always be worn.",
             answer: "Die Schutzbrille ist immer zu tragen.",
-            altAnswers: ["Die Schutzbrille muss immer getragen werden.", "Eine Schutzbrille ist immer zu tragen.", "Schutzbrillen sind immer zu tragen."],
+            altAnswers: ["Eine Schutzbrille ist immer zu tragen.", "Schutzbrillen sind immer zu tragen."],
             explanation: "\"Sein + zu\" in an instruction means must.",
           },
           {
@@ -580,6 +580,7 @@ export const DE_B2_U23: Lesson[] = [
         prompt: "Put the words in order to say: Even the master made mistakes at the beginning.",
         words: ["Sogar", "der Meister", "hat", "am Anfang", "Fehler", "gemacht."],
         translation: "Even the master made mistakes at the beginning.",
+        altOrders: [["Am Anfang", "hat", "sogar", "der Meister", "Fehler", "gemacht."]],
         explanation: "\"Sogar der Meister\" fills position 1; \"hat\" second.",
       },
       {
@@ -615,7 +616,7 @@ export const DE_B2_U23: Lesson[] = [
       {
         heading: "The verb after dessen and deren",
         body: [
-          "A learner's email about a new colleague contains this sentence: \"*Meine neue Kollegin, deren Mann arbeitet bei Bosch, kommt aus Stuttgart.\" The relative clause is a subordinate clause, so the verb goes to the end: \"..., deren Mann bei Bosch arbeitet, ...\".",
+          "A learner's email about a new colleague contains this sentence: \"*Meine neue Kollegin, deren Mann arbeitet bei Bosch, kommt aus Stuttgart.*\" The relative clause is a subordinate clause, so the verb goes to the end: \"..., deren Mann bei Bosch arbeitet, ...\".",
           "English speakers often keep the verb after the subject because whose husband works feels like a normal sentence. In German, \"dessen / deren + noun\" is just the opening of the clause; the conjugated verb is always last.",
           "With a compound tense, the auxiliary is last: \"..., deren Mann früher bei Bosch gearbeitet hat\".",
         ],
@@ -647,7 +648,7 @@ export const DE_B2_U23: Lesson[] = [
       {
         heading: "Double infinitives in subordinate clauses",
         body: [
-          "The one exception to verb-last: with a double infinitive (Perfekt of a modal, or Konjunktiv II past with a modal), the auxiliary goes before the two infinitives. \"*..., weil ich gestern arbeiten müssen habe\" → \"..., weil ich gestern habe arbeiten müssen.\" \"..., dass er hätte anrufen sollen\" is right; \"*..., dass er anrufen sollen hätte\" is wrong.",
+          "The one exception to verb-last: with a double infinitive (Perfekt of a modal, or Konjunktiv II past with a modal), the auxiliary goes before the two infinitives. \"*..., weil ich gestern arbeiten müssen habe*\" → \"..., weil ich gestern habe arbeiten müssen.\" \"..., dass er hätte anrufen sollen\" is right; \"*..., dass er anrufen sollen hätte*\" is wrong.",
           "Many speakers avoid the Perfekt with modals and use the Präteritum instead: \"..., weil ich gestern arbeiten musste.\" That's correct and simpler.",
           "Typical sentences: \"Es tut mir leid, dass ich nicht habe kommen können.\" \"Ich glaube, dass wir früher hätten buchen sollen.\"",
         ],
@@ -680,9 +681,9 @@ export const DE_B2_U23: Lesson[] = [
       {
         heading: "Order in the Mittelfeld",
         body: [
-          "The third type of error is in the middle of the clause. Pronouns come before nouns (\"Ich habe es meinem Bruder gegeben\", not \"*meinem Bruder es\"), an accusative pronoun before a dative pronoun (\"Ich gebe es ihm\"), and adverbials roughly in the order time, cause, manner, place.",
-          "These rules apply in relative clauses too: \"*der Kollege, dem ich gegeben habe es\" → \"der Kollege, dem ich es gegeben habe\".",
-          "And time before place, unlike English: \"*Wir fahren nach Hamburg morgen\" → \"Wir fahren morgen nach Hamburg.\"",
+          "The third type of error is in the middle of the clause. Pronouns come before nouns (\"Ich habe es meinem Bruder gegeben\", not \"*meinem Bruder es*\"), an accusative pronoun before a dative pronoun (\"Ich gebe es ihm\"), and adverbials roughly in the order time, cause, manner, place.",
+          "These rules apply in relative clauses too: \"*der Kollege, dem ich gegeben habe es*\" → \"der Kollege, dem ich es gegeben habe\".",
+          "And time before place, unlike English: \"*Wir fahren nach Hamburg morgen*\" → \"Wir fahren morgen nach Hamburg.\"",
         ],
         examples: [
           { es: "Ich habe es meinem Bruder gegeben.", en: "I gave it to my brother." },
@@ -703,7 +704,7 @@ export const DE_B2_U23: Lesson[] = [
           {
             type: "speak",
             text: "Wir fahren morgen wegen der Hochzeit mit dem Zug nach Hamburg.",
-            tip: "Group it: morgen / wegen der Hochzeit / mit dem Zug / nach Hamburg.",
+            tip: "Group it: \"morgen / wegen der Hochzeit / mit dem Zug / nach Hamburg\".",
             explanation: "TeKaMoLo: time, cause, manner, place.",
           },
         ],
@@ -1212,7 +1213,7 @@ export const DE_B2_U23: Lesson[] = [
     level: "DE-B2",
     number: 7,
     title: "Spiral Review: Dictation: The Unreal Past",
-    summary: "Spaced review of Units 1-2: hear and write hätte / wäre + Partizip II and the double infinitive.",
+    summary: "Spaced review of Units 1-2: hear and write \"hätte\" / \"wäre\" + Partizip II and the double infinitive.",
     duration: "13 min",
     sections: [
       {
@@ -1369,7 +1370,7 @@ export const DE_B2_U23: Lesson[] = [
         question: "Which sentence means: She should have taken the umbrella?",
         options: ["Sie hätte den Schirm mitnehmen sollen.", "Sie hatte den Schirm mitnehmen sollen.", "Sie hätte den Schirm mitgenommen sollen.", "Sie sollte den Schirm mitgenommen haben."],
         correctIndex: 0,
-        explanation: "\"Hätte\" (not \"hatte\") + double infinitive. \"Sollte ... mitgenommen haben\" means she was supposed to have (hearsay).",
+        explanation: "\"Hätte\" (not \"hatte\") + double infinitive. \"Sollte ... mitgenommen haben\" is a guess or a report (she is supposed to have taken it), not a regret.",
       },
       {
         type: "translate",
@@ -1393,6 +1394,7 @@ export const DE_B2_U23: Lesson[] = [
         prompt: "Put the words in order to say: You could have told me that.",
         words: ["Du", "hättest", "mir", "das", "sagen", "können."],
         translation: "You could have told me that.",
+        altOrders: [["Das", "hättest", "du", "mir", "sagen", "können."]],
         explanation: "A reproach: \"hättest ... sagen können\".",
       },
       {
@@ -1450,9 +1452,9 @@ export const DE_B2_U23: Lesson[] = [
       {
         heading: "The Vorfeld and es",
         body: [
-          "Position 1 holds the topic or a contrast: \"Den Film habe ich schon gesehen\" (that film, as opposed to others). Only one element fits there: \"*Gestern ich habe ...\" is impossible.",
+          "Position 1 holds the topic or a contrast: \"Den Film habe ich schon gesehen\" (that film, as opposed to others). Only one element fits there: \"*Gestern ich habe ...*\" is impossible.",
           "Platzhalter-\"es\" fills position 1 when the real subject comes later; the verb agrees with that subject: \"Es fehlen noch drei Stühle.\" When something else takes position 1, \"es\" disappears: \"Heute fehlen noch drei Stühle.\"",
-          "The correlate \"es\" anticipates a dass- or zu-clause: \"Ich finde es wichtig, dass ...\", \"Es freut mich, dass ...\"; this \"es\" stays wherever it is.",
+          "The correlate \"es\" anticipates a dass- or zu-clause: \"Ich finde es wichtig, dass ...\", \"Es freut mich, dass ...\". Unlike Platzhalter-\"es\", it can also stand in the Mittelfeld (\"Mich freut es, dass ...\"), although there it is sometimes left out (\"Mich freut, dass ...\").",
         ],
         examples: [
           { es: "Den Film habe ich schon gesehen.", en: "That film I've already seen." },
@@ -1468,6 +1470,7 @@ export const DE_B2_U23: Lesson[] = [
             prompt: "Translate into German, starting with \"es\".",
             source: "There are still three chairs missing.",
             answer: "Es fehlen noch drei Stühle.",
+            altAnswers: ["Es fehlen immer noch drei Stühle."],
             explanation: "Platzhalter-\"es\": the verb agrees with \"drei Stühle\" (plural).",
           },
           {
@@ -1844,7 +1847,7 @@ export const DE_B2_U23: Lesson[] = [
         heading: "Real or unreal conditions",
         body: [
           "English if covers both. German changes the mood. A real, possible condition takes the indicative: \"Wenn es morgen regnet, bleiben wir zu Hause\" (\"falls\" is also possible). An unreal condition takes Konjunktiv II: \"Wenn es nicht regnen würde, könnten wir grillen.\" A past unreal one: \"Wenn es nicht geregnet hätte, hätten wir gegrillt.\"",
-          "\"Als\" is only for a single past event, always indicative: \"Als ich ankam, regnete es.\"",
+          "\"Als\" (when) is for a single event or period in the past, always with the indicative: \"Als ich ankam, regnete es.\"",
         ],
         examples: [
           { es: "Wenn es morgen regnet, bleiben wir zu Hause.", en: "If it rains tomorrow, we'll stay at home." },
@@ -1908,7 +1911,7 @@ export const DE_B2_U23: Lesson[] = [
         heading: "Wishes, als ob and politeness",
         body: [
           "Wishes: Konjunktiv II + \"doch / nur / bloß\": \"Wenn ich doch mehr Zeit hätte!\", \"Hätte ich bloß nichts gesagt!\". \"Als ob\": Konjunktiv II (formal also Konjunktiv I): \"Er tut, als ob er krank wäre.\" Politeness: Konjunktiv II: \"Könnten Sie ...?\", \"Ich hätte gern ...\".",
-          "And the indicative for facts, even after verbs of saying when you agree: \"Sie hat recht: Das Museum ist montags geschlossen.\"",
+          "And the indicative for facts, even after verbs of saying when you agree with what was said: \"Sie hat gesagt, dass das Museum montags geschlossen ist\" (and it is).",
         ],
         examples: [
           { es: "Wenn ich doch mehr Zeit hätte!", en: "If only I had more time!" },
@@ -2090,7 +2093,7 @@ export const DE_B2_U23: Lesson[] = [
           { es: "Das Bild war im März 1981 entwendet worden.", en: "The picture had been stolen in March 1981." },
           { es: "Trotz intensiver Ermittlungen blieb es verschwunden.", en: "Despite intensive investigations it remained missing." },
           { es: "Die Erben eines Sammlers meldeten sich beim Museum.", en: "The heirs of a collector contacted the museum." },
-          { es: "Im Nachlass des Sammlers wurde das Gemälde gefunden.", en: "The painting was found among the collector's estate." },
+          { es: "Im Nachlass des Sammlers wurde das Gemälde gefunden.", en: "The painting was found in the collector's estate." },
         ],
         checkpoint: [
           {
@@ -2214,9 +2217,9 @@ export const DE_B2_U23: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The painting was found among the collector's estate.",
+        prompt: "Put the words in order to say: The painting was found in the collector's estate.",
         words: ["Das Gemälde", "wurde", "im Nachlass", "des Sammlers", "gefunden."],
-        translation: "The painting was found among the collector's estate.",
+        translation: "The painting was found in the collector's estate.",
         explanation: "Genitive attribute \"des Sammlers\" after the noun; passive participle at the end.",
       },
       {
@@ -2252,7 +2255,7 @@ export const DE_B2_U23: Lesson[] = [
       {
         heading: "The damage: Zustandspassiv",
         body: [
-          "In a village church in Brandenburg, a carved altar from around 1480 was badly damaged by damp and woodworm. A team of restorers led by Dr. Sophie Lange is working on it in their workshop in Potsdam. Their report describes the state of the altar with the Zustandspassiv: \"Die Farbschicht ist an vielen Stellen abgeblättert\" (flaked off), \"Das Holz ist vom Holzwurm befallen\" (infested), \"Zwei Figuren sind beschädigt\".",
+          "In a village church in Brandenburg, a carved altar from around 1480 was badly damaged by damp and woodworm. A team of restorers led by Dr Sophie Lange is working on it in their workshop in Potsdam. Their report describes the state of the altar with the Zustandspassiv: \"Die Farbschicht ist an vielen Stellen abgeblättert\" (flaked off), \"Das Holz ist vom Holzwurm befallen\" (infested), \"Zwei Figuren sind beschädigt\".",
           "Remember: \"sein\" + Partizip II describes a state, the result of a process; \"werden\" + Partizip II the process itself: \"Die Figuren werden gereinigt\" (are being cleaned) → \"Die Figuren sind gereinigt\" (are clean, done).",
           "Words: \"der Altar\", \"die Schnitzerei\" (carving), \"die Farbschicht\" (paint layer), \"das Blattgold\" (gold leaf), \"der Holzwurm\", \"die Feuchtigkeit\" (damp), \"restaurieren\", \"konservieren\" (to preserve).",
         ],
@@ -2302,7 +2305,7 @@ export const DE_B2_U23: Lesson[] = [
             prompt: "Translate into German, using \"sein\" + \"zu\".",
             source: "The wood must first be consolidated.",
             answer: "Das Holz ist zunächst zu festigen.",
-            altAnswers: ["Das Holz muss zunächst gefestigt werden.", "Zunächst ist das Holz zu festigen.", "Das Holz ist zuerst zu festigen."],
+            altAnswers: ["Zunächst ist das Holz zu festigen.", "Das Holz ist zuerst zu festigen."],
             explanation: "\"Sein + zu\" in a work plan = must.",
           },
           {
@@ -2378,10 +2381,10 @@ export const DE_B2_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What does it mean? \"Fehlende Teile sind nicht zu ersetzen.\"",
+        question: "The restorers' work plan says: \"Fehlende Teile sind nicht zu ersetzen.\" What does it mean?",
         options: ["Missing parts are not to be replaced.", "Missing parts are irreplaceable because they're lost.", "Missing parts have been replaced.", "Nobody needs to replace the parts."],
         correctIndex: 0,
-        explanation: "In a work plan, \"sein + zu\" expresses what must (or must not) be done.",
+        explanation: "In a work plan, \"sein + zu\" expresses what must (or must not) be done. Out of context the sentence could also mean they can't be replaced; the work plan decides.",
       },
       {
         type: "translate",
@@ -2484,7 +2487,7 @@ export const DE_B2_U23: Lesson[] = [
         heading: "The family's story: the Präteritum narrative",
         body: [
           "From archives and letters, the students reconstruct the family's story, and written history is told in the Präteritum: \"Julius Rosenthal führte ein Textilgeschäft in der Innenstadt. 1938 musste er es aufgeben. Seine Tochter Ruth konnte 1939 mit einem Kindertransport nach England fliehen. Ihre Eltern und ihr Bruder wurden 1941 deportiert.\"",
-          "The Kindertransporte brought around 10,000 mostly Jewish children from Germany, Austria and Czechoslovakia to Britain in 1938-39; most never saw their parents again.",
+          "The Kindertransporte brought around 10,000 mostly Jewish children from Germany, Austria, Czechoslovakia, Poland and Danzig to Britain in 1938-39; most never saw their parents again.",
           "Notice the modal Präteritum (\"musste\", \"konnte\") and the passive Präteritum (\"wurden deportiert\"). The Perfekt would sound too conversational in a written history.",
         ],
         examples: [
@@ -2659,5 +2662,5 @@ export const DE_B2_U23_WRITING: WriteExercise = {
     "Adds formal precision with a genitive preposition and a \"dessen\" / \"deren\" relative clause (\"aufgrund\", \"während\", \"dessen Dach\").",
   ],
   modelAnswer: "Stadtmuseum wieder geöffnet\n\nNach drei Jahren Bauzeit ist das Stadtmuseum am Marktplatz am Samstag wiedereröffnet worden. Das Gebäude, dessen Dach während eines Sturms im Jahr 2021 schwer beschädigt worden war, wurde vollständig restauriert. Aufgrund zahlreicher Spenden aus der Bevölkerung konnten auch die alten Holzböden erhalten werden.\n\nIm Erdgeschoss lässt sich nun eine neue Ausstellung zur Geschichte der Stadt besichtigen. Besonders sehenswert ist ein mittelalterlicher Altar, dessen Herkunft lange unklar war.\n\nDie Direktorin, Dr. Helga Brandt, sagte bei der Eröffnung, das Museum sei nun moderner und zugleich ehrlicher als früher. Ohne die Hilfe der Bürgerinnen und Bürger hätte man das Haus schließen müssen. Der Bürgermeister erklärte, die Stadt habe aus der Krise gelernt.\n\nTatsächlich wäre das Gebäude ohne die Restaurierung wohl verfallen, und ein wichtiger Teil der Stadtgeschichte wäre verloren gegangen. Rund 600 Besucherinnen und Besucher kamen am ersten Tag. Das Museum ist dienstags bis sonntags von 10 bis 18 Uhr geöffnet.",
-  explanation: "The report mixes the Upper-intermediate tools: the Perfekt passive \"ist wiedereröffnet worden\" and Plusquamperfekt passive \"war beschädigt worden\" for the work, and \"lässt sich besichtigen\" as a passive alternative. Reported speech uses Konjunktiv I (\"sei\", \"habe gelernt\"), while the unreal past uses Konjunktiv II with a modal double infinitive (\"hätte schließen müssen\") and \"wäre verfallen\". \"Aufgrund\" and \"während\" take the genitive, and \"dessen\" refers back to the neuter \"Gebäude\" and the masculine \"Altar\".",
+  explanation: "The report mixes the upper-intermediate tools: the Perfekt passive \"ist wiedereröffnet worden\" and Plusquamperfekt passive \"war beschädigt worden\" for the work, and \"lässt sich besichtigen\" as a passive alternative. Reported speech uses Konjunktiv I (\"sei\", \"habe gelernt\"), while the unreal past uses Konjunktiv II with a modal double infinitive (\"hätte schließen müssen\") and \"wäre verfallen\". \"Aufgrund\" and \"während\" take the genitive, and \"dessen\" refers back to the neuter \"Gebäude\" and the masculine \"Altar\".",
 };

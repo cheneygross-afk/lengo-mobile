@@ -120,7 +120,7 @@ export const DE_B1_U14_EXTRA: Lesson[] = [
       { type: "word-order", prompt: "Put the words in order to say: The thief was arrested at the station.", words: ["Der Dieb", "wurde", "am", "Bahnhof", "festgenommen."], translation: "The thief was arrested at the station.", explanation: "Participle last." },
       { type: "multiple-choice", question: "Which is a news headline sentence in the past passive?", options: ["Drei Personen wurden verletzt.", "Drei Personen werden verletzt.", "Drei Personen würden verletzt.", "Drei Personen sind verletzt worden werden."], correctIndex: 0, explanation: "\"Wurden\" + participle: past passive." },
       { type: "dictation", audio: "Die Stadt wurde im Krieg fast völlig zerstört.", explanation: "\"Wurde ... zerstört\"." },
-      { type: "speak", text: "Das Rathaus wurde 1350 gebaut.", prompt: "Say it in German: The town hall was built in 1350.", tip: "Say the year as dreizehnhundertfünfzig.", explanation: "Past passive with a year." },
+      { type: "speak", text: "Das Rathaus wurde 1350 gebaut.", prompt: "Say it in German: The town hall was built in 1350.", tip: "Say the year as \"dreizehnhundertfünfzig\".", explanation: "Past passive with a year." },
     ],
   },
   {
@@ -247,13 +247,13 @@ export const DE_B1_U14_EXTRA: Lesson[] = [
     number: 5,
     optional: true,
     title: "Extra Practice: Error Hunt, The Passive",
-    summary: "Fix typical passive mistakes: wird gebaut werden, ist gebaut for a process, and von der Sturm.",
+    summary: "Fix typical passive mistakes: \"wird gebaut werden\" for is being built, \"ist gebaut\" for a process, and \"*von der Sturm*\".",
     duration: "10 min",
     sections: [
       {
         heading: "Recap: three classic slips",
         body: [
-          "Slip 1: \"Das Haus wird gebaut werden\" for is being built. That is the future passive (will be built); for the present one \"wird\" is enough: \"Das Haus wird gebaut\". Slip 2: \"*Das Haus ist gebaut\" for a process: use \"wird gebaut\" (\"ist gebaut\" means it is finished). Slip 3: \"*Das Dach wurde von der Sturm zerstört\". \"Von\" takes the dative and \"der Sturm\" is masculine: \"vom Sturm\" (von dem). Also check \"wird\" vs \"werden\" agreement and the participle at the end.",
+          "Slip 1: \"Das Haus wird gebaut werden\" for is being built. That is the future passive (will be built); for the present one \"wird\" is enough: \"Das Haus wird gebaut\". Slip 2: \"*Das Haus ist gebaut*\" for a process: use \"wird gebaut\" (\"ist gebaut\" means it is finished). Slip 3: \"*Das Dach wurde von der Sturm zerstört*\". \"Von\" takes the dative and \"der Sturm\" is masculine: \"vom Sturm\" (von dem). Also check \"wird\" vs \"werden\" agreement and the participle at the end.",
         ],
         examples: [
           { es: "Das Haus wird gebaut.", en: "The house is being built." },
@@ -265,7 +265,7 @@ export const DE_B1_U14_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"*Das Dach wurde von der Sturm zerstört.\" Translate the corrected sentence into German: The roof was destroyed by the storm.",
+            prompt: "A learner wrote \"*Das Dach wurde von der Sturm zerstört.*\" Translate the corrected sentence into German: The roof was destroyed by the storm.",
             source: "The roof was destroyed by the storm.",
             answer: "Das Dach wurde vom Sturm zerstört.",
             altAnswers: ["Das Dach wurde von dem Sturm zerstört.", "Das Dach wurde durch den Sturm zerstört."],
@@ -283,19 +283,19 @@ export const DE_B1_U14_EXTRA: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "A learner wrote \"*Die Schule wird renoviert werden.\" Translate the corrected sentence into German: The school is being renovated.", source: "The school is being renovated.", answer: "Die Schule wird renoviert.", altAnswers: ["Die Schule wird gerade renoviert."], explanation: "For is being renovated: one \"wird\" + participle. \"Wird renoviert werden\" is the future passive, will be renovated." },
-      { type: "translate", direction: "en-es", prompt: "A learner wrote \"*Das Auto ist gerade repariert.\" Translate the corrected sentence into German: The car is being repaired right now.", source: "The car is being repaired right now.", answer: "Das Auto wird gerade repariert.", explanation: "A process: \"wird\", not \"ist\"." },
-      { type: "translate", direction: "en-es", prompt: "A learner wrote \"*Die Fenster wird geputzt.\" Translate the corrected sentence into German: The windows are being cleaned.", source: "The windows are being cleaned.", answer: "Die Fenster werden geputzt.", altAnswers: ["Die Fenster werden gerade geputzt."], explanation: "Plural subject: \"werden\"." },
-      { type: "translate", direction: "en-es", prompt: "A learner wrote \"*Der Brief wurde geschrieben von meiner Schwester.\" Translate the corrected sentence into German: The letter was written by my sister.", source: "The letter was written by my sister.", answer: "Der Brief wurde von meiner Schwester geschrieben.", explanation: "The participle goes to the very end." },
-      { type: "translate", direction: "en-es", prompt: "A learner wrote \"*Den Kuchen wird gebacken.\" Translate the corrected sentence into German: The cake is being baked.", source: "The cake is being baked.", answer: "Der Kuchen wird gebacken.", explanation: "The passive subject is nominative: \"der Kuchen\"." },
-      { type: "translate", direction: "en-es", prompt: "A learner wrote \"*Ich weiß, dass das Paket wurde gebracht.\" Translate the corrected sentence into German: I know that the parcel was delivered.", source: "I know that the parcel was delivered.", answer: "Ich weiß, dass das Paket gebracht wurde.", altAnswers: ["Ich weiß, dass das Paket geliefert wurde."], explanation: "Subordinate clause: \"wurde\" last." },
-      { type: "translate", direction: "en-es", prompt: "A learner wrote \"*Die Brücke wurde in 1890 gebaut.\" Translate the corrected sentence into German: The bridge was built in 1890.", source: "The bridge was built in 1890.", answer: "Die Brücke wurde 1890 gebaut.", altAnswers: ["Die Brücke wurde im Jahr 1890 gebaut.", "1890 wurde die Brücke gebaut."], explanation: "No \"in\" before a year." },
-      { type: "translate", direction: "en-es", prompt: "A learner wrote \"*Das Essen wird von der Koch gekocht.\" Translate the corrected sentence into German: The food is cooked by the chef.", source: "The food is cooked by the chef.", answer: "Das Essen wird vom Koch gekocht.", altAnswers: ["Das Essen wird von dem Koch gekocht.", "Das Essen wird von der Köchin gekocht."], explanation: "\"Von\" + dative: \"vom Koch\" (masculine)." },
-      { type: "fill-blank", prompt: "A learner wrote \"*Die Kinder wird abgeholt.\" Write the German for the bold words.", en: "The children [are] picked up.", sentence: "Die Kinder ___ abgeholt.", answer: "werden", explanation: "Plural: \"werden\"." },
-      { type: "fill-blank", prompt: "A learner wrote \"*Das Fest wird gefeiert in Juni.\" Write the German for the bold words.", en: "The festival is [celebrated in June].", sentence: "Das Fest wird ___.", answer: "im Juni gefeiert", explanation: "\"Im Juni\" before the participle; months take \"im\"." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"*Die Schule wird renoviert werden.*\" Translate the corrected sentence into German: The school is being renovated.", source: "The school is being renovated.", answer: "Die Schule wird renoviert.", altAnswers: ["Die Schule wird gerade renoviert."], explanation: "For is being renovated: one \"wird\" + participle. \"Wird renoviert werden\" is the future passive, will be renovated." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"*Das Auto ist gerade repariert.*\" Translate the corrected sentence into German: The car is being repaired right now.", source: "The car is being repaired right now.", answer: "Das Auto wird gerade repariert.", explanation: "A process: \"wird\", not \"ist\"." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"*Die Fenster wird geputzt.*\" Translate the corrected sentence into German: The windows are being cleaned.", source: "The windows are being cleaned.", answer: "Die Fenster werden geputzt.", altAnswers: ["Die Fenster werden gerade geputzt."], explanation: "Plural subject: \"werden\"." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"*Der Brief wurde geschrieben von meiner Schwester.*\" Translate the corrected sentence into German: The letter was written by my sister.", source: "The letter was written by my sister.", answer: "Der Brief wurde von meiner Schwester geschrieben.", explanation: "The participle goes to the very end." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"*Den Kuchen wird gebacken.*\" Translate the corrected sentence into German: The cake is being baked.", source: "The cake is being baked.", answer: "Der Kuchen wird gebacken.", explanation: "The passive subject is nominative: \"der Kuchen\"." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"*Ich weiß, dass das Paket wurde gebracht.*\" Translate the corrected sentence into German: I know that the parcel was delivered.", source: "I know that the parcel was delivered.", answer: "Ich weiß, dass das Paket gebracht wurde.", altAnswers: ["Ich weiß, dass das Paket geliefert wurde."], explanation: "Subordinate clause: \"wurde\" last." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"*Die Brücke wurde in 1890 gebaut.*\" Translate the corrected sentence into German: The bridge was built in 1890.", source: "The bridge was built in 1890.", answer: "Die Brücke wurde 1890 gebaut.", altAnswers: ["Die Brücke wurde im Jahr 1890 gebaut.", "1890 wurde die Brücke gebaut."], explanation: "No \"in\" before a year." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"*Das Essen wird von der Koch gekocht.*\" Translate the corrected sentence into German: The food is cooked by the chef.", source: "The food is cooked by the chef.", answer: "Das Essen wird vom Koch gekocht.", altAnswers: ["Das Essen wird von dem Koch gekocht.", "Das Essen wird von der Köchin gekocht."], explanation: "\"Von\" + dative: \"vom Koch\" (masculine)." },
+      { type: "fill-blank", prompt: "A learner wrote \"*Die Kinder wird abgeholt.*\" Write the German for the bold words.", en: "The children [are] picked up.", sentence: "Die Kinder ___ abgeholt.", answer: "werden", explanation: "Plural: \"werden\"." },
+      { type: "fill-blank", prompt: "A learner wrote \"*Das Fest wird gefeiert in Juni.*\" Write the German for the bold words.", en: "The festival is [celebrated in June].", sentence: "Das Fest wird ___.", answer: "im Juni gefeiert", explanation: "\"Im Juni\" before the participle; months take \"im\"." },
       { type: "multiple-choice", question: "Which sentence is correct?", options: ["Die Stadt wurde vom Erdbeben zerstört.", "Die Stadt wurde von das Erdbeben zerstört.", "Die Stadt ist vom Erdbeben zerstört werden.", "Die Stadt wurde zerstört vom Erdbeben."], correctIndex: 0, explanation: "\"Vom\" (dative, not \"von das\"), participle at the end. For a natural force, \"durch das Erdbeben\" is also common." },
       { type: "word-order", prompt: "Put the words in order to say: The window was smashed by a ball.", words: ["Das Fenster", "wurde", "von", "einem Ball", "eingeschlagen."], translation: "The window was smashed by a ball.", explanation: "Agent before the participle." },
-      { type: "dictation", audio: "Das Dach wurde vom Sturm zerstört.", explanation: "\"Vom\" = von dem." },
+      { type: "dictation", audio: "Das Dach wurde vom Sturm zerstört.", explanation: "\"Vom\" = \"von dem\"." },
       { type: "speak", text: "Die Schule wird renoviert.", prompt: "Say it in German: The school is being renovated.", explanation: "One \"wird\" + participle." },
     ],
   },
@@ -363,7 +363,7 @@ export const DE_B1_U14_EXTRA: Lesson[] = [
     number: 7,
     optional: true,
     title: "Extra Practice: Your Recipe in the Passive",
-    summary: "Write a family recipe step by step with Zuerst wird...",
+    summary: "Write a family recipe step by step with \"Zuerst wird...\"",
     duration: "10 min",
     sections: [
       {
@@ -421,7 +421,7 @@ export const DE_B1_U14_EXTRA: Lesson[] = [
     number: 8,
     optional: true,
     title: "Extra Practice: Werden, Three Ways",
-    summary: "Become, future or passive: spot which werden you have and translate it.",
+    summary: "Become, future or passive: spot which \"werden\" you have and translate it.",
     duration: "10 min",
     sections: [
       {
@@ -446,7 +446,7 @@ export const DE_B1_U14_EXTRA: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "My brother wants to become a doctor.", answer: "Mein Bruder will Arzt werden.", altAnswers: ["Mein Bruder möchte Arzt werden."], explanation: "\"Werden\" + noun: become." },
-      { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "I will call you tomorrow.", answer: "Ich werde dich morgen anrufen.", altAnswers: ["Ich werde Sie morgen anrufen.", "Ich werde euch morgen anrufen.", "Ich rufe dich morgen an.", "Ich rufe Sie morgen an.", "Ich rufe euch morgen an.", "Morgen werde ich dich anrufen."], explanation: "Future: \"werden\" + infinitive." },
+      { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "I will call you tomorrow.", answer: "Ich werde dich morgen anrufen.", altAnswers: ["Ich werde Sie morgen anrufen.", "Ich werde euch morgen anrufen.", "Ich rufe dich morgen an.", "Ich rufe Sie morgen an.", "Ich rufe euch morgen an.", "Morgen werde ich dich anrufen.", "Morgen rufe ich dich an."], explanation: "Future: \"werden\" + infinitive." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "The windows are cleaned every month.", answer: "Die Fenster werden jeden Monat geputzt.", altAnswers: ["Die Fenster werden jeden Monat gereinigt.", "Jeden Monat werden die Fenster geputzt."], explanation: "Passive: participle at the end." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "The children are getting tired.", answer: "Die Kinder werden müde.", explanation: "Become + adjective." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "The museum will open in May.", answer: "Das Museum wird im Mai öffnen.", altAnswers: ["Das Museum wird im Mai eröffnen.", "Das Museum öffnet im Mai.", "Das Museum eröffnet im Mai."], explanation: "Future with an infinitive." },
@@ -474,7 +474,7 @@ export const DE_B1_U14_EXTRA: Lesson[] = [
       {
         heading: "Recap: the usual sign mistakes",
         body: [
-          "Notices are full of passives, and the same mistakes keep appearing: the wrong form of \"werden\" for plural subjects (\"Die Türen wird geschlossen\"), the participle in the wrong place, an extra \"geworden\", or \"von\" without its dative. Check the subject, then \"werden\", then the participle at the end.",
+          "Notices are full of passives, and the same mistakes keep appearing: the wrong form of \"werden\" for plural subjects (\"*Die Türen wird geschlossen*\"), the participle in the wrong place, an extra \"geworden\", or \"von\" without its dative. Check the subject, then \"werden\", then the participle at the end.",
         ],
         examples: [
           { es: "Die Türen werden um 22 Uhr geschlossen.", en: "The doors are closed at 10 p.m." },
@@ -484,17 +484,17 @@ export const DE_B1_U14_EXTRA: Lesson[] = [
           { es: "Der Kurs wurde vom Lehrer abgesagt.", en: "The course was cancelled by the teacher." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Correct the sign \"*Die Türen wird um 22 Uhr geschlossen.\" Translate: The doors are closed at 10 p.m.", source: "The doors are closed at 10 p.m.", answer: "Die Türen werden um 22 Uhr geschlossen.", altAnswers: ["Um 22 Uhr werden die Türen geschlossen."], explanation: "Plural subject: \"werden\"." },
-          { type: "translate", direction: "en-es", prompt: "Correct the sign \"*Der Müll wird abgeholt montags.\" Translate: The rubbish is collected on Mondays.", source: "The rubbish is collected on Mondays.", answer: "Der Müll wird montags abgeholt.", altAnswers: ["Montags wird der Müll abgeholt."], explanation: "Participle at the end." },
+          { type: "translate", direction: "en-es", prompt: "Correct the sign \"*Die Türen wird um 22 Uhr geschlossen.*\" Translate: The doors are closed at 10 p.m.", source: "The doors are closed at 10 p.m.", answer: "Die Türen werden um 22 Uhr geschlossen.", altAnswers: ["Um 22 Uhr werden die Türen geschlossen."], explanation: "Plural subject: \"werden\"." },
+          { type: "translate", direction: "en-es", prompt: "Correct the sign \"*Der Müll wird abgeholt montags.*\" Translate: The rubbish is collected on Mondays.", source: "The rubbish is collected on Mondays.", answer: "Der Müll wird montags abgeholt.", altAnswers: ["Montags wird der Müll abgeholt."], explanation: "Participle at the end." },
         ],
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Correct the sign \"*Die Heizung wird morgen repariert geworden.\" Translate: The heating is being repaired tomorrow.", source: "The heating is being repaired tomorrow.", answer: "Die Heizung wird morgen repariert.", explanation: "Delete \"geworden\": the present passive is just \"wird\" + participle. \"Geworden\" is the participle of werden meaning become." },
-      { type: "translate", direction: "en-es", prompt: "Correct the sign \"*Die Fenster wird jeden Freitag geputzt.\" Translate: The windows are cleaned every Friday.", source: "The windows are cleaned every Friday.", answer: "Die Fenster werden jeden Freitag geputzt.", altAnswers: ["Jeden Freitag werden die Fenster geputzt."], explanation: "Plural: \"werden\"." },
-      { type: "translate", direction: "en-es", prompt: "Correct the sign \"*Das Bad wird renoviert von die Firma Huber.\" Translate: The bathroom is being renovated by the Huber company.", source: "The bathroom is being renovated by the Huber company.", answer: "Das Bad wird von der Firma Huber renoviert.", explanation: "\"Von\" + dative, participle last." },
-      { type: "translate", direction: "en-es", prompt: "Correct the sign \"*Hier wird nicht parken.\" Translate: No parking here.", source: "No parking here.", answer: "Hier wird nicht geparkt.", altAnswers: ["Hier darf nicht geparkt werden."], explanation: "Passive needs the participle." },
-      { type: "translate", direction: "en-es", prompt: "Correct the sign \"*Der Aufzug wurde gestern reparieren.\" Translate: The lift was repaired yesterday.", source: "The lift was repaired yesterday.", answer: "Der Aufzug wurde gestern repariert.", altAnswers: ["Der Fahrstuhl wurde gestern repariert."], explanation: "\"Wurde\" + participle." },
+      { type: "translate", direction: "en-es", prompt: "Correct the sign \"*Die Heizung wird morgen repariert geworden.*\" Translate: The heating is being repaired tomorrow.", source: "The heating is being repaired tomorrow.", answer: "Die Heizung wird morgen repariert.", explanation: "Delete \"geworden\": the present passive is just \"wird\" + participle. \"Geworden\" is the participle of werden meaning become." },
+      { type: "translate", direction: "en-es", prompt: "Correct the sign \"*Die Fenster wird jeden Freitag geputzt.*\" Translate: The windows are cleaned every Friday.", source: "The windows are cleaned every Friday.", answer: "Die Fenster werden jeden Freitag geputzt.", altAnswers: ["Jeden Freitag werden die Fenster geputzt."], explanation: "Plural: \"werden\"." },
+      { type: "translate", direction: "en-es", prompt: "Correct the sign \"*Das Bad wird renoviert von die Firma Huber.*\" Translate: The bathroom is being renovated by the Huber company.", source: "The bathroom is being renovated by the Huber company.", answer: "Das Bad wird von der Firma Huber renoviert.", explanation: "\"Von\" + dative, participle last." },
+      { type: "translate", direction: "en-es", prompt: "Correct the sign \"*Hier wird nicht parken.*\" Translate: No parking here.", source: "No parking here.", answer: "Hier wird nicht geparkt.", altAnswers: ["Hier darf nicht geparkt werden."], explanation: "Passive needs the participle." },
+      { type: "translate", direction: "en-es", prompt: "Correct the sign \"*Der Aufzug wurde gestern reparieren.*\" Translate: The lift was repaired yesterday.", source: "The lift was repaired yesterday.", answer: "Der Aufzug wurde gestern repariert.", altAnswers: ["Der Fahrstuhl wurde gestern repariert."], explanation: "\"Wurde\" + participle." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "Bicycles in the hallway will be removed.", answer: "Fahrräder im Flur werden entfernt.", altAnswers: ["Fahrräder im Hausflur werden entfernt."], explanation: "Plural passive." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "The office is closed on Saturday.", answer: "Das Büro ist am Samstag geschlossen.", altAnswers: ["Am Samstag ist das Büro geschlossen.", "Das Büro wird am Samstag geschlossen."], explanation: "A state: \"ist geschlossen\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "Parcels are accepted at reception.", answer: "Pakete werden an der Rezeption angenommen.", altAnswers: ["Pakete werden am Empfang angenommen."], explanation: "\"Annehmen\" → \"angenommen\"." },
@@ -513,7 +513,7 @@ export const DE_B1_U14_EXTRA: Lesson[] = [
     number: 10,
     optional: true,
     title: "Extra Practice: Dictation, How We Recycle",
-    summary: "A dictated text about Mülltrennung in the passive.",
+    summary: "Write down a dictated text about \"Mülltrennung\" (sorting rubbish) in the passive.",
     duration: "10 min",
     sections: [
       {
@@ -545,7 +545,7 @@ export const DE_B1_U14_EXTRA: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "Batteries are collected separately.", answer: "Batterien werden getrennt gesammelt.", altAnswers: ["Batterien werden extra gesammelt."], explanation: "Plural passive." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "The yellow bag is collected on Thursday.", answer: "Der gelbe Sack wird am Donnerstag abgeholt.", altAnswers: ["Der gelbe Sack wird donnerstags abgeholt."], explanation: "\"Abholen\" → \"abgeholt\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "Old clothes are put in the container.", answer: "Alte Kleidung wird in den Container gegeben.", altAnswers: ["Alte Kleidung wird in den Altkleidercontainer gegeben.", "Alte Kleider werden in den Container gegeben.", "Alte Kleidung wird in den Container geworfen."], explanation: "\"Kleidung\" is singular: \"wird\"." },
-      { type: "fill-blank", prompt: "Write the German for the bold words.", en: "The bottles [are returned].", sentence: "Die Flaschen werden ___.", answer: "zurückgegeben", explanation: "Separable participle." },
+      { type: "fill-blank", prompt: "Write the German for the bold words.", en: "The bottles are [returned].", sentence: "Die Flaschen werden ___.", answer: "zurückgegeben", explanation: "Separable participle." },
       { type: "fill-blank", prompt: "Write the German for the bold words.", en: "Plastic [is] collected in the yellow bin.", sentence: "Plastik ___ in der gelben Tonne gesammelt.", answer: "wird", explanation: "Singular." },
       { type: "word-order", prompt: "Put the words in order to say: Paper is thrown in the blue bin.", words: ["Papier", "wird", "in die", "blaue Tonne", "geworfen."], translation: "Paper is thrown in the blue bin.", explanation: "Participle last." },
       { type: "listen-choose", audio: "Die Biotonne wird jede Woche geleert.", question: "What happens every week?", options: ["The organic bin is emptied.", "The organic bin is cleaned.", "The yellow bag is collected.", "The bottles are returned."], correctIndex: 0, explanation: "\"Leeren\": empty." },
@@ -558,7 +558,7 @@ export const DE_B1_U14_EXTRA: Lesson[] = [
     number: 11,
     optional: true,
     title: "Extra Practice: Inventions and Discoveries",
-    summary: "Ask and answer Wann wurde... erfunden? questions.",
+    summary: "Ask and answer \"Wann wurde... erfunden?\" questions about inventions and discoveries.",
     duration: "10 min",
     sections: [
       {
@@ -609,7 +609,7 @@ export const DE_B1_U14_EXTRA: Lesson[] = [
       {
         heading: "Recap: spoken man, written passive",
         body: [
-          "Both \"man\" and the passive hide the person who acts. In conversation \"man\" sounds lighter: \"Hier spricht man Deutsch\". In notices, reports and instructions the passive sounds more formal: \"Hier wird Deutsch gesprochen\". Remember that \"man\" takes a singular verb and the object stays accusative: \"Man repariert den Wagen\" becomes \"Der Wagen wird repariert\".",
+          "Both \"man\" and the passive hide the person who acts. In conversation \"man\" sounds lighter: \"Hier spricht man Deutsch\". In notices, reports and instructions the passive sounds more formal: \"Hier wird Deutsch gesprochen\". Remember that \"man\" takes a singular verb and the object stays accusative (\"Man repariert den Wagen\"); in the passive that object becomes the nominative subject (\"Der Wagen wird repariert\").",
         ],
         examples: [
           { es: "Man isst hier viel Fisch.", en: "People eat a lot of fish here." },
@@ -619,21 +619,21 @@ export const DE_B1_U14_EXTRA: Lesson[] = [
           { es: "Man hat mir nichts gesagt.", en: "Nobody told me anything." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into German with man (conversation).", source: "How do you say that in German?", answer: "Wie sagt man das auf Deutsch?", explanation: "Natural in speech." },
+          { type: "translate", direction: "en-es", prompt: "Translate into German with \"man\" (conversation).", source: "How do you say that in German?", answer: "Wie sagt man das auf Deutsch?", explanation: "Natural in speech." },
           { type: "translate", direction: "en-es", prompt: "Translate into German with the passive (a notice).", source: "Applications are submitted online.", answer: "Anträge werden online gestellt.", altAnswers: ["Die Anträge werden online gestellt."], explanation: "Formal written style." },
         ],
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into German with man.", source: "People drink a lot of beer here.", answer: "Hier trinkt man viel Bier.", altAnswers: ["Man trinkt hier viel Bier."], explanation: "Singular verb with \"man\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into German with \"man\".", source: "People drink a lot of beer here.", answer: "Hier trinkt man viel Bier.", altAnswers: ["Man trinkt hier viel Bier."], explanation: "Singular verb with \"man\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into German with the passive.", source: "A lot of beer is drunk here.", answer: "Hier wird viel Bier getrunken.", altAnswers: ["Viel Bier wird hier getrunken."], explanation: "\"Trinken\" → \"getrunken\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into German with man.", source: "How do you spell your name?", answer: "Wie schreibt man Ihren Namen?", altAnswers: ["Wie schreibt man deinen Namen?"], explanation: "Spoken question with \"man\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into German with \"man\".", source: "How do you spell your name?", answer: "Wie schreibt man Ihren Namen?", altAnswers: ["Wie schreibt man deinen Namen?"], explanation: "Spoken question with \"man\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into German with the passive (a notice).", source: "Payment is made at the till.", answer: "An der Kasse wird bezahlt.", altAnswers: ["Bezahlt wird an der Kasse.", "Es wird an der Kasse bezahlt."], explanation: "Passive without a subject." },
-      { type: "translate", direction: "en-es", prompt: "Translate into German with man.", source: "You can't park here.", answer: "Hier kann man nicht parken.", altAnswers: ["Man kann hier nicht parken.", "Hier darf man nicht parken."], explanation: "\"Man\" + modal." },
+      { type: "translate", direction: "en-es", prompt: "Translate into German with \"man\".", source: "You can't park here.", answer: "Hier kann man nicht parken.", altAnswers: ["Man kann hier nicht parken.", "Hier darf man nicht parken."], explanation: "\"Man\" + modal." },
       { type: "translate", direction: "en-es", prompt: "Translate into German with the passive.", source: "The forms are checked by the office.", answer: "Die Formulare werden vom Amt geprüft.", altAnswers: ["Die Formulare werden vom Amt kontrolliert.", "Die Formulare werden von der Behörde geprüft."], explanation: "With an agent you need the passive." },
-      { type: "translate", direction: "en-es", prompt: "Translate into German with man.", source: "Nobody asked me.", answer: "Man hat mich nicht gefragt.", altAnswers: ["Mich hat niemand gefragt.", "Niemand hat mich gefragt."], explanation: "\"Man\" in the Perfekt." },
+      { type: "translate", direction: "en-es", prompt: "Translate into German with \"man\".", source: "Nobody asked me.", answer: "Man hat mich nicht gefragt.", explanation: "\"Man\" in the Perfekt." },
       { type: "translate", direction: "en-es", prompt: "Translate into German with the passive.", source: "German is spoken here.", answer: "Hier wird Deutsch gesprochen.", explanation: "Classic sign." },
-      { type: "translate", direction: "en-es", prompt: "Translate into German with man.", source: "In Bavaria people celebrate a lot.", answer: "In Bayern feiert man viel.", altAnswers: ["Man feiert in Bayern viel.", "In Bayern wird viel gefeiert."], explanation: "\"Man\" + singular verb." },
+      { type: "translate", direction: "en-es", prompt: "Translate into German with \"man\".", source: "In Bavaria people celebrate a lot.", answer: "In Bayern feiert man viel.", altAnswers: ["Man feiert in Bayern viel."], explanation: "\"Man\" + singular verb." },
       { type: "fill-blank", prompt: "Write the German for the bold words.", en: "The car [is] repaired.", sentence: "Der Wagen ___ repariert.", answer: "wird", explanation: "\"Man repariert den Wagen\": the accusative object becomes the subject." },
       { type: "fill-blank", prompt: "Write the German for the bold words.", en: "[People] often say that.", sentence: "Das sagt ___ oft.", answer: "man", explanation: "Spoken style." },
       { type: "word-order", prompt: "Put the words in order to say: People work a lot here.", words: ["Hier", "arbeitet", "man", "viel."], translation: "People work a lot here.", explanation: "Verb second, \"man\" after it." },
@@ -648,7 +648,7 @@ export const DE_B1_U14_EXTRA: Lesson[] = [
     number: 13,
     optional: true,
     title: "Extra Practice: Mir wurde gesagt",
-    summary: "The passive with a dative and no subject: Mir wurde geholfen, Uns wurde gesagt.",
+    summary: "Use the passive with a dative and no subject: \"Mir wurde geholfen\", \"Uns wurde gesagt\".",
     duration: "10 min",
     sections: [
       {
@@ -711,26 +711,26 @@ export const DE_B1_U14_EXTRA: Lesson[] = [
           { es: "2010 wurde eine neue Schule gebaut.", en: "In 2010 a new school was built." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into German with the passive and von.", source: "The heating is being repaired by the caretaker.", answer: "Die Heizung wird vom Hausmeister repariert.", explanation: "\"Vom\" + agent." },
-          { type: "translate", direction: "en-es", prompt: "Translate into German with man.", source: "They built a new school in 2010.", answer: "2010 baute man eine neue Schule.", altAnswers: ["Man baute 2010 eine neue Schule.", "2010 hat man eine neue Schule gebaut."], explanation: "\"Man\" + Präteritum." },
+          { type: "translate", direction: "en-es", prompt: "Translate into German with the passive and \"von\".", source: "The heating is being repaired by the caretaker.", answer: "Die Heizung wird vom Hausmeister repariert.", explanation: "\"Vom\" + agent." },
+          { type: "translate", direction: "en-es", prompt: "Translate into German with \"man\".", source: "They built a new school in 2010.", answer: "2010 baute man eine neue Schule.", altAnswers: ["Man baute 2010 eine neue Schule.", "2010 hat man eine neue Schule gebaut."], explanation: "\"Man\" + Präteritum." },
         ],
       },
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Rewrite \"Man putzt die Küche.\" in the passive. Translate: The kitchen is being cleaned.", source: "The kitchen is being cleaned.", answer: "Die Küche wird geputzt.", altAnswers: ["Die Küche wird sauber gemacht."], explanation: "Object becomes subject." },
-      { type: "translate", direction: "en-es", prompt: "Rewrite \"Die Briefe werden verschickt.\" with man. Translate: They send the letters.", source: "They send the letters.", answer: "Man verschickt die Briefe.", altAnswers: ["Man schickt die Briefe."], explanation: "Subject becomes accusative object." },
+      { type: "translate", direction: "en-es", prompt: "Rewrite \"Die Briefe werden verschickt.\" with \"man\". Translate: They send the letters.", source: "They send the letters.", answer: "Man verschickt die Briefe.", altAnswers: ["Man schickt die Briefe."], explanation: "Subject becomes accusative object." },
       { type: "translate", direction: "en-es", prompt: "Rewrite \"Die Firma entließ zwanzig Mitarbeiter.\" in the passive. Translate: Twenty employees were dismissed.", source: "Twenty employees were dismissed.", answer: "Zwanzig Mitarbeiter wurden entlassen.", altAnswers: ["Es wurden zwanzig Mitarbeiter entlassen."], explanation: "Präteritum stays Präteritum." },
       { type: "translate", direction: "en-es", prompt: "Rewrite \"Das Bild wurde von Klimt gemalt.\" in the active. Translate: Klimt painted the picture.", source: "Klimt painted the picture.", answer: "Klimt malte das Bild.", altAnswers: ["Klimt hat das Bild gemalt."], explanation: "Agent becomes subject." },
       { type: "translate", direction: "en-es", prompt: "Translate into German with the passive.", source: "The new hall was opened by the mayor.", answer: "Die neue Halle wurde vom Bürgermeister eröffnet.", altAnswers: ["Die neue Halle wurde von der Bürgermeisterin eröffnet."], explanation: "\"Von\" + dative." },
-      { type: "translate", direction: "en-es", prompt: "Translate into German with man.", source: "They don't sell newspapers here any more.", answer: "Hier verkauft man keine Zeitungen mehr.", altAnswers: ["Man verkauft hier keine Zeitungen mehr."], explanation: "\"Keine ... mehr\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into German with \"man\".", source: "They don't sell newspapers here any more.", answer: "Hier verkauft man keine Zeitungen mehr.", altAnswers: ["Man verkauft hier keine Zeitungen mehr."], explanation: "\"Keine ... mehr\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into German in the active.", source: "My neighbour waters the plants.", answer: "Meine Nachbarin gießt die Pflanzen.", altAnswers: ["Mein Nachbar gießt die Pflanzen.", "Meine Nachbarin gießt die Blumen."], explanation: "\"Gießen\": water plants." },
       { type: "translate", direction: "en-es", prompt: "Translate into German with the passive.", source: "The plants are watered by my neighbour.", answer: "Die Pflanzen werden von meiner Nachbarin gegossen.", altAnswers: ["Die Pflanzen werden von meinem Nachbarn gegossen."], explanation: "\"Gießen\" → \"gegossen\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into German with the passive.", source: "I was helped by a stranger.", answer: "Mir wurde von einem Fremden geholfen.", altAnswers: ["Mir wurde von einer Fremden geholfen."], explanation: "Dative stays dative." },
-      { type: "translate", direction: "en-es", prompt: "Translate into German with man.", source: "They told us nothing.", answer: "Man hat uns nichts gesagt.", altAnswers: ["Man sagte uns nichts."], explanation: "\"Man\" + dative \"uns\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into German with \"man\".", source: "They told us nothing.", answer: "Man hat uns nichts gesagt.", altAnswers: ["Man sagte uns nichts."], explanation: "\"Man\" + dative \"uns\"." },
       { type: "fill-blank", prompt: "Write the German for the bold words.", en: "The road [was] closed.", sentence: "Die Straße ___ gesperrt.", answer: "wurde", explanation: "\"Man sperrte die Straße\" in the Präteritum passive." },
       { type: "fill-blank", prompt: "Write the German for the bold words.", en: "[They] check the tickets.", sentence: "___ kontrolliert die Fahrkarten.", answer: "Man", explanation: "Passive turned back into \"man\"." },
       { type: "word-order", prompt: "Put the words in order to say: The room is cleaned by the hotel staff.", words: ["Das Zimmer", "wird", "vom", "Hotelpersonal", "geputzt."], translation: "The room is cleaned by the hotel staff.", explanation: "\"Vom\" + agent, participle last." },
-      { type: "multiple-choice", question: "Which is the passive of: Der Koch bereitet das Essen zu.", options: ["Das Essen wird vom Koch zubereitet.", "Das Essen wird den Koch zubereitet.", "Der Koch wird das Essen zubereiten.", "Das Essen wurde vom Koch zubereiten."], correctIndex: 0, explanation: "Present stays present." },
+      { type: "multiple-choice", question: "Which is the passive of \"Der Koch bereitet das Essen zu\"?", options: ["Das Essen wird vom Koch zubereitet.", "Das Essen wird den Koch zubereitet.", "Der Koch wird das Essen zubereiten.", "Das Essen wurde vom Koch zubereiten."], correctIndex: 0, explanation: "Present stays present." },
       { type: "listen-choose", audio: "2010 wurde eine neue Schule gebaut.", question: "What does it mean?", options: ["In 2010 a new school was built.", "In 2010 a new school will be built.", "A new school is built every year.", "In 2010 the school became new."], correctIndex: 0, explanation: "\"Wurde gebaut\": was built." },
       { type: "speak", text: "Die Heizung wird vom Hausmeister repariert.", prompt: "Say it in German: The heating is being repaired by the caretaker.", explanation: "Passive with \"von\"." },
     ],

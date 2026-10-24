@@ -24,7 +24,7 @@ export const DE_CULTURE_U02: Lesson[] = [
           { es: "2006 war die WM in Deutschland ein Sommermärchen.", en: "In 2006 the World Cup in Germany was a summer fairy tale." },
           { es: "Götze hat in der Verlängerung das entscheidende Tor geschossen.", en: "\"Götze\" scored the deciding goal in extra time." },
           { es: "Das 7:1 gegen Brasilien wird niemand so schnell vergessen.", en: "Nobody will forget the 7–1 against Brazil in a hurry." },
-          { es: "Die Frauen sind zweimal Weltmeisterinnen geworden.", en: "The women's team has been world champions twice." },
+          { es: "Die Frauen sind zweimal Weltmeisterinnen geworden.", en: "The women's team has won the World Cup twice." },
         ],
         checkpoint: [
           {
@@ -77,7 +77,7 @@ export const DE_CULTURE_U02: Lesson[] = [
             prompt: "Translate into German.",
             source: "I've been a Schalke fan since I was a child.",
             answer: "Ich bin seit meiner Kindheit Schalke-Fan.",
-            altAnswers: ["Ich bin schon seit meiner Kindheit Schalke-Fan.", "Seit meiner Kindheit bin ich Schalke-Fan.", "Ich bin Schalke-Fan, seit ich ein Kind bin.", "Ich bin seit meiner Kindheit Fan von Schalke.", "Ich bin schon seit meiner Kindheit Fan von Schalke."],
+            altAnswers: ["Ich bin schon seit meiner Kindheit Schalke-Fan.", "Seit meiner Kindheit bin ich Schalke-Fan.", "Ich bin Schalke-Fan, seit ich ein Kind war.", "Ich bin seit meiner Kindheit Fan von Schalke.", "Ich bin schon seit meiner Kindheit Fan von Schalke."],
             explanation: "\"Seit\" + present tense for something still true: German says I am since..., not I have been. \"Seit\" takes the dative: \"seit meiner Kindheit\".",
           },
         ],
@@ -745,7 +745,7 @@ export const DE_CULTURE_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite as a written report in the Perfekt, in German.",
+        prompt: "Write it in German as a match report, in the past.",
         source: "In the 89th minute Müller scored the winning goal.",
         answer: "In der 89. Minute hat Müller das Siegtor geschossen.",
         altAnswers: ["In der 89. Minute hat Müller den Siegtreffer erzielt.", "In der 89. Minute schoss Müller das Siegtor.", "Müller hat in der 89. Minute das Siegtor geschossen.", "In der neunundachtzigsten Minute hat Müller das Siegtor geschossen.", "In der 89. Minute erzielte Müller das Siegtor."],
@@ -836,7 +836,7 @@ export const DE_CULTURE_U02: Lesson[] = [
         examples: [
           { es: "„Metropolis“ wurde in Babelsberg gedreht und kam 1927 ins Kino.", en: "Metropolis was shot in Babelsberg and released in 1927." },
           { es: "Nach 1933 emigrierten viele Regisseure nach Hollywood.", en: "After 1933 many directors emigrated to Hollywood." },
-          { es: "„Papas Kino ist tot“ wurde zum Slogan des Oberhausener Manifests.", en: "Daddy's cinema is dead became the slogan of the Oberhausen Manifesto." },
+          { es: "„Papas Kino ist tot“ wurde zum Slogan des Oberhausener Manifests.", en: "'Daddy's cinema is dead' became the slogan of the Oberhausen Manifesto." },
           { es: "Herzog hat in Südamerika unter extremen Bedingungen gedreht.", en: "Herzog filmed in South America under extreme conditions." },
           { es: "Wer hat bei dem Film Regie geführt?", en: "Who directed the film?" },
         ],
@@ -1116,7 +1116,7 @@ export const DE_CULTURE_U02: Lesson[] = [
           { es: "Ich singe leider total schief.", en: "Unfortunately I sing completely out of tune." },
           { es: "Bist du eher Toten-Hosen- oder Ärzte-Fan?", en: "Are you more of a \"Toten Hosen\" or an \"Ärzte\" fan?" },
           { es: "Der Text ist eigentlich ziemlich traurig.", en: "The lyrics are actually rather sad." },
-          { es: "Rammstein ist im Ausland bekannter als jede andere deutsche Band.", en: "Rammstein is better known abroad than any other German band." },
+          { es: "Rammstein ist im Ausland bekannter als fast jede andere deutsche Band.", en: "Rammstein is better known abroad than almost any other German band." },
         ],
         checkpoint: [
           {
@@ -1197,7 +1197,7 @@ export const DE_CULTURE_U02: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Are you more of a Toten Hosen or an Ärzte fan? (to a friend)",
+        source: "Are you more of a \"Toten Hosen\" or an \"Ärzte\" fan? (to a friend)",
         answer: "Bist du eher Toten-Hosen- oder Ärzte-Fan?",
         altAnswers: ["Bist du eher Fan von den Toten Hosen oder von den Ärzten?", "Bist du eher Toten Hosen- oder Ärzte-Fan?", "Bist du eher für die Toten Hosen oder für die Ärzte?", "Bist du eher ein Toten-Hosen- oder ein Ärzte-Fan?"],
         explanation: "\"Eher\" (rather) asks for a preference. Compound nouns with band names are hyphenated.",
@@ -1246,12 +1246,12 @@ export const DE_CULTURE_U02: Lesson[] = [
         body: [
           "German-language rap is one of the best-selling genres in Germany today, and each city has its sound. In the 1990s Hamburg made German rap playful and witty: \"Fettes Brot\" (whose 1996 song \"Jein\" made the word for yes-and-no famous) and \"Fünf Sterne deluxe\". Hamburg also popularised \"Digga\" (mate, dude; from Dicker), now used everywhere.",
           "In the 2000s Berlin brought a harder, street-based style: Sido and the label Aggro Berlin, and Kool Savas, a technical virtuoso. From Offenbach near Frankfurt, Haftbefehl mixed German with Turkish, Arabic and Kurdish words and made \"Babo\" (the boss) so famous that it was voted Jugendwort des Jahres (youth word of the year) in 2013.",
-          "More recent stars show the range: Cro from Stuttgart with his panda mask and sunny \"Raop\" (rap + pop), Apache 207 from Ludwigshafen with his retro sound and enormous streaming numbers. To describe the map: \"Hamburg gilt als Geburtsort des deutschen Raps\" (is regarded as), \"Er stammt aus Offenbach\" (He comes from).",
+          "More recent stars show the range: Cro from Stuttgart with his panda mask and sunny \"Raop\" (rap + pop), Apache 207 from Ludwigshafen with his retro sound and enormous streaming numbers. To describe the map: \"Hamburg gilt als Geburtsort des deutschen Raps\" (is regarded as; Heidelberg and Stuttgart, home of Advanced Chemistry and Die Fantastischen Vier, claim the title too), \"Er stammt aus Offenbach\" (He comes from).",
         ],
         examples: [
           { es: "Hamburg gilt als Wiege des deutschen Raps.", en: "Hamburg is regarded as the cradle of German rap." },
           { es: "Haftbefehl stammt aus Offenbach.", en: "Haftbefehl comes from Offenbach." },
-          { es: "„Babo“ war 2013 das Jugendwort des Jahres.", en: "Babo was the youth word of the year in 2013." },
+          { es: "„Babo“ war 2013 das Jugendwort des Jahres.", en: "\"Babo\" was the youth word of the year in 2013." },
           { es: "Kool Savas ist für seine Technik bekannt.", en: "Kool Savas is known for his technique." },
           { es: "Hast du Lust auf Kino? – Jein.", en: "Do you fancy the cinema? – Yes and no." },
         ],
@@ -1278,7 +1278,7 @@ export const DE_CULTURE_U02: Lesson[] = [
         heading: "Austria and Switzerland: Austropop, Wiener Indie, Mundartrock",
         body: [
           "Austria has its own pop tradition, \"Austropop\", often sung in Viennese dialect: Falco, Wolfgang Ambros, Rainhard Fendrich. In the 2010s a Viennese indie wave took over German-speaking charts: \"Wanda\" (\"Amore\", loud, boozy, romantic) and \"Bilderbuch\" (stylish art-pop). Viennese words you'll hear: \"Oida\" (from standard \"Alter\": mate, dude, also an all-purpose exclamation), \"leiwand\" (standard \"toll\": great), \"Habedere\" (from \"Habe die Ehre\": hello / bye).",
-          "In Switzerland many bands sing in \"Mundart\" (Swiss German dialect) rather than standard German. \"Patent Ochsner\" from Bern, Switzerland's best-known \"Mundartrock\" band, sings in Bernese German. For German listeners it can be hard to understand, which is part of the point: Mundart is a strong marker of Swiss identity.",
+          "In Switzerland many bands sing in \"Mundart\" (Swiss German dialect) rather than standard German. \"Patent Ochsner\" from Bern, one of Switzerland's best-known \"Mundartrock\" bands, sings in Bernese German. For German listeners it can be hard to understand, which is part of the point: Mundart is a strong marker of Swiss identity.",
           "When describing these scenes, distinguish carefully: \"auf Hochdeutsch singen\" (in standard German), \"im Dialekt singen\", \"auf Wienerisch\", \"auf Schweizerdeutsch\" / \"in Mundart\".",
         ],
         examples: [
@@ -1446,7 +1446,7 @@ export const DE_CULTURE_U02: Lesson[] = [
         ],
         examples: [
           { es: "Nach dem letzten Prüfungstag war ich völlig losgelöst.", en: "After the last exam day I was floating on air." },
-          { es: "„99 Luftballons“ ist eigentlich ein Antikriegslied.", en: "99 Luftballons is actually an anti-war song." },
+          { es: "„99 Luftballons“ ist eigentlich ein Antikriegslied.", en: "\"99 Luftballons\" is actually an anti-war song." },
           { es: "Um mit Trio zu sprechen: Da da da.", en: "To quote Trio: Da da da." },
           { es: "Bei „Major Tom“ singt die ganze Kneipe mit.", en: "When Major Tom comes on, the whole pub sings along." },
           { es: "Wie es so schön heißt: völlig losgelöst.", en: "As the song goes: completely free." },
@@ -1464,7 +1464,7 @@ export const DE_CULTURE_U02: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "99 Luftballons is [actually an anti-war song].",
+            en: "\"99 Luftballons\" is [actually an anti-war song].",
             sentence: "„99 Luftballons“ ist ___.",
             answer: "eigentlich ein Antikriegslied",
             altAnswers: ["eigentlich ein Antikriegssong", "eigentlich ein Lied gegen den Krieg"],
@@ -1481,8 +1481,8 @@ export const DE_CULTURE_U02: Lesson[] = [
         ],
         examples: [
           { es: "Mit 66 Jahren, da fängt das Leben an!", en: "At 66, life is just beginning!" },
-          { es: "„Griechischer Wein“ erzählt von Gastarbeitern, die Heimweh haben.", en: "Griechischer Wein tells of guest workers who are homesick." },
-          { es: "Auf jeder Hochzeit läuft irgendwann „Atemlos“.", en: "At every wedding Atemlos comes on at some point." },
+          { es: "„Griechischer Wein“ erzählt von Gastarbeitern, die Heimweh haben.", en: "\"Griechischer Wein\" tells of guest workers who are homesick." },
+          { es: "Auf jeder Hochzeit läuft irgendwann „Atemlos“.", en: "At every wedding \"Atemlos\" comes on at some point." },
           { es: "An Tagen wie diesen könnte ich ewig hier sitzen.", en: "On days like these I could sit here forever." },
           { es: "Ich war noch niemals in New York, und ehrlich gesagt will ich auch nicht hin.", en: "I've never been to New York, and to be honest I don't want to go." },
           { es: "Seit Wochen bin ich atemlos zwischen Büro und Baustelle.", en: "For weeks I've been rushing breathlessly between the office and the building site." },
@@ -1492,7 +1492,7 @@ export const DE_CULTURE_U02: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "At every wedding Atemlos comes on at some point.",
+            source: "At every wedding \"Atemlos\" comes on at some point.",
             answer: "Auf jeder Hochzeit läuft irgendwann „Atemlos“.",
             altAnswers: ["Auf jeder Hochzeit läuft irgendwann Atemlos.", "Bei jeder Hochzeit läuft irgendwann Atemlos.", "Bei jeder Hochzeit läuft irgendwann „Atemlos“.", "Auf jeder Hochzeit kommt irgendwann Atemlos.", "Irgendwann läuft auf jeder Hochzeit Atemlos."],
             explanation: "\"Laufen\" is used for songs being played, like films being shown. \"Auf\" or \"bei\" + dative for the event.",
@@ -1510,7 +1510,7 @@ export const DE_CULTURE_U02: Lesson[] = [
       {
         heading: "Wordplay, party songs and the Ballermann debate",
         body: [
-          "Deutschrap loves wordplay: double meanings, rhymes across languages, and puns on brand names. Fettes Brot's \"Jein\" built a whole song on a punning word. Sido's \"Mein Block\" and many later tracks play with the gap between street slang and standard German, and part of the fun for fans is decoding them.",
+          "Deutschrap loves wordplay: double meanings, rhymes across languages, and puns on brand names. Fettes Brot's \"Jein\" built a whole song on the blend of \"ja\" and \"nein\". Sido's \"Mein Block\" and many later tracks play with the gap between street slang and standard German, and part of the fun for fans is decoding them.",
           "At weddings, Feste and office parties, the same songs come round: Schlager like \"Atemlos\", carnival hits, \"Ein Stern (der deinen Namen trägt)\", and Ballermann songs. People join a \"Polonaise\" (a conga line) and sing along whether or not they like the genre: \"Bei Hochzeiten singt man das halt mit\" (At weddings you just sing along).",
           "In 2022 the Ballermann hit \"Layla\", number one in the charts, was banned at some Feste because of its sexist lyrics. The debate split the country: was it overdue respect, or censorship and paternalism? A good Advanced topic, which needs the language of balanced argument: \"Einerseits ..., andererseits ...\", \"Ich kann beide Seiten verstehen\", \"Es kommt darauf an, ...\".",
         ],
@@ -1555,7 +1555,7 @@ export const DE_CULTURE_U02: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Griechischer Wein tells of guest workers who are homesick.",
+        source: "\"Griechischer Wein\" tells of guest workers who are homesick.",
         answer: "„Griechischer Wein“ erzählt von Gastarbeitern, die Heimweh haben.",
         altAnswers: ["Griechischer Wein erzählt von Gastarbeitern, die Heimweh haben.", "„Griechischer Wein“ handelt von Gastarbeitern, die Heimweh haben.", "Griechischer Wein handelt von Gastarbeitern, die Heimweh haben."],
         explanation: "\"Erzählen von\" / \"handeln von\" + dative (\"von Gastarbeitern\"); the relative clause sends \"haben\" to the end.",
@@ -1566,7 +1566,7 @@ export const DE_CULTURE_U02: Lesson[] = [
         en: "[On days like these] I could sit here forever.",
         sentence: "___ könnte ich ewig hier sitzen.",
         answer: "An Tagen wie diesen",
-        explanation: "The Toten Hosen title in the dative plural: \"an Tagen wie diesen\". Konjunktiv II \"könnte\" for the wish.",
+        explanation: "The Toten Hosen line (from \"Tage wie diese\") in the dative plural: \"an Tagen wie diesen\". Konjunktiv II \"könnte\" for the wish.",
       },
       {
         type: "translate",
@@ -1745,7 +1745,7 @@ export const DE_CULTURE_U02: Lesson[] = [
           {
             type: "speak",
             text: "Ich habe keine Lust, das ist mir egal.",
-            tip: "In standard German pronounce the full endings: ha-be, ist.",
+            tip: "In standard German pronounce the full endings: \"habe\", \"ist\".",
             explanation: "The standard version of \"Hab kein Bock, is mir egal\".",
           },
         ],

@@ -211,7 +211,7 @@ export const DE_A1_U02: Lesson[] = [
     level: "DE-A1",
     number: 2,
     title: "Sounds of German: Umlauts Ä, Ö, Ü",
-    summary: "Pronounce ä, ö and ü, hear the difference they make in pairs like schon and schön, and write them when there's no umlaut key.",
+    summary: "Pronounce ä, ö and ü, hear the difference they make in pairs like \"schon\" and \"schön\", and write them when there's no umlaut key.",
     duration: "10 min",
     sections: [
       {
@@ -311,7 +311,7 @@ export const DE_A1_U02: Lesson[] = [
           {
             type: "speak",
             text: "Ich bin müde.",
-            tip: "Say ee, then push your lips forward into a tight circle while still saying ee: that's ü.",
+            tip: "Say ee, then push your lips forward into a tight circle while still saying ee: that's \"ü\".",
             explanation: "Long ü in \"müde\".",
           },
         ],
@@ -363,7 +363,7 @@ export const DE_A1_U02: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Mrs Müller is a doctor.",
+        source: "Ms Müller is a doctor.",
         answer: "Frau Müller ist Ärztin.",
         explanation: "\"Müller\" with ü, \"Ärztin\" with Ä. No article before the job.",
       },
@@ -378,7 +378,7 @@ export const DE_A1_U02: Lesson[] = [
       {
         type: "multiple-choice",
         question: "You're typing on a keyboard without umlauts. How should you write \"Mütter\" (mothers)?",
-        options: ["Muetter", "Mutter", "Mitter", "Mütter is impossible without the key"],
+        options: ["Muetter", "Mutter", "Mitter", "You can't: \"Mütter\" needs the ü key"],
         correctIndex: 0,
         explanation: "Replace ü with ue: \"Muetter\". Dropping the dots gives \"Mutter\", the singular.",
       },
@@ -406,7 +406,7 @@ export const DE_A1_U02: Lesson[] = [
         type: "speak",
         text: "Die Männer sind müde.",
         prompt: "Say it in German: The men are tired.",
-        tip: "Short ä like e in men, then a long, rounded ü.",
+        tip: "Short \"ä\" like e in men, then a long, rounded \"ü\".",
         explanation: "Two umlauts, two different sounds.",
       },
     ],
@@ -1249,7 +1249,7 @@ export const DE_A1_U02: Lesson[] = [
           {
             type: "speak",
             text: "Das Wasser ist warm.",
-            tip: "Both w's are an English v: VASS-er, varm.",
+            tip: "Both w's in \"Wasser\" and \"warm\" are an English v: VASS-er, varm.",
             explanation: "German w = English v.",
           },
         ],
@@ -1453,7 +1453,7 @@ export const DE_A1_U02: Lesson[] = [
           {
             type: "speak",
             text: "Die Universität ist in Heidelberg.",
-            tip: "Stress the end of uni-ver-si-TÄT and the start of HEI-del-berg.",
+            tip: "Stress the end of \"Universität\" (uni-ver-si-TÄT) and the start of \"Heidelberg\" (HEI-del-berg).",
             explanation: "A loanword stressed late, a German name stressed early.",
           },
         ],
@@ -1496,7 +1496,7 @@ export const DE_A1_U02: Lesson[] = [
         ],
         examples: [
           { es: "Wie schreibt man das?", en: "How do you spell that?" },
-          { es: "Können Sie das buchstabieren?", en: "Can you spell that? (polite)" },
+          { es: "Können Sie das buchstabieren?", en: "Can you spell that? (formal)" },
           { es: "Mein Name ist Weiß, mit Eszett.", en: "My name is \"Weiß\", with an \"ß\"." },
           { es: "Ich heiße Jürgen, mit J und Ü.", en: "My name is \"Jürgen\", with a J and an \"Ü\"." },
           { es: "Noch einmal, bitte.", en: "Once more, please." },
@@ -1515,7 +1515,7 @@ export const DE_A1_U02: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "Can you spell that? (polite)",
+            source: "Can you spell that? (formal)",
             answer: "Können Sie das buchstabieren?",
             explanation: "\"Buchstabieren\" = to spell out letter by letter; \"Können Sie...?\" asks politely.",
           },

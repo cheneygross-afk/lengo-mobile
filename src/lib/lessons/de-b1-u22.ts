@@ -8,7 +8,7 @@ export const DE_B1_U22: Lesson[] = [
     level: "DE-B1",
     number: 1,
     title: "Intermediate Vocabulary Practice, Part 8 of 10",
-    summary: "High-frequency Intermediate vocabulary for work, careers and the office: applying, contracts, meetings, deadlines and colleagues.",
+    summary: "Talk about applying for a job, your contract, the working day and career moves with high-frequency Intermediate work vocabulary.",
     duration: "15 min",
     sections: [
       {
@@ -191,7 +191,7 @@ export const DE_B1_U22: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: My employer is paying for further training.",
+        prompt: "Put the words in order to say: My employer is paying for me to do further training.",
         words: ["Mein", "Arbeitgeber", "bezahlt", "mir", "eine", "Weiterbildung."],
         translation: "My employer is paying for me to do further training.",
         explanation: "\"Der Arbeitgeber\" is the one who gives work: the employer. The dative pronoun \"mir\" comes before the object.",
@@ -223,7 +223,7 @@ export const DE_B1_U22: Lesson[] = [
         type: "speak",
         text: "Ich habe mich um eine Stelle als Krankenpfleger beworben.",
         prompt: "Say it in German: I've applied for a job as a nurse. (a man)",
-        tip: "Bewerben: the w is an English v, be-VER-ben.",
+        tip: "\"Bewerben\": the w is an English v, be-VER-ben.",
         explanation: "\"Sich bewerben um\" + accusative; \"als\" + the job with no article.",
       },
     ],
@@ -233,7 +233,7 @@ export const DE_B1_U22: Lesson[] = [
     level: "DE-B1",
     number: 2,
     title: "Questions and Answers: An deiner Stelle...",
-    summary: "Ask for and give advice on work and life problems with Konjunktiv II (An deiner Stelle würde ich..., Du solltest...), prepositional verbs and da-compounds.",
+    summary: "Ask for and give advice on work and life problems with the Konjunktiv II (\"An deiner Stelle würde ich...\", \"Du solltest...\"), prepositional verbs and da-compounds.",
     duration: "15 min",
     sections: [
       {
@@ -342,7 +342,7 @@ export const DE_B1_U22: Lesson[] = [
           {
             type: "speak",
             text: "An deiner Stelle würde ich um ein Gespräch bitten.",
-            tip: "Stelle has a short e and two clear syllables: SHTEL-le.",
+            tip: "\"Stelle\" has a short e and two clear syllables: SHTEL-le.",
             explanation: "\"Bitten um\" + accusative: to ask for something.",
           },
         ],
@@ -364,6 +364,7 @@ export const DE_B1_U22: Lesson[] = [
         prompt: "Translate into German.",
         source: "If I were you, I wouldn't sign the contract yet. (formal)",
         answer: "An Ihrer Stelle würde ich den Vertrag noch nicht unterschreiben.",
+        altAnswers: ["Ich würde den Vertrag an Ihrer Stelle noch nicht unterschreiben."],
         explanation: "Formal: \"an Ihrer Stelle\". Not yet = \"noch nicht\".",
       },
       {
@@ -405,6 +406,7 @@ export const DE_B1_U22: Lesson[] = [
         prompt: "Translate into German.",
         source: "I can't get used to the new working hours.",
         answer: "Ich kann mich nicht an die neuen Arbeitszeiten gewöhnen.",
+        altAnswers: ["An die neuen Arbeitszeiten kann ich mich nicht gewöhnen."],
         explanation: "\"Sich gewöhnen an\" + accusative; with the modal, the infinitive goes to the end.",
       },
       {
@@ -441,7 +443,7 @@ export const DE_B1_U22: Lesson[] = [
     level: "DE-B1",
     number: 3,
     title: "Themed Review: A New Hobby",
-    summary: "Read about Jonas joining a choir in Hamburg (der Verein, sich anmelden für, Mitglied werden) while reviewing prepositional verbs, adjective endings and the passive.",
+    summary: "Read about Jonas joining a choir in Hamburg (\"der Verein\", \"sich anmelden für\", \"Mitglied werden\") while reviewing prepositional verbs, adjective endings and the passive.",
     duration: "15 min",
     sections: [
       {
@@ -642,7 +644,7 @@ export const DE_B1_U22: Lesson[] = [
     level: "DE-B1",
     number: 4,
     title: "Themed Review: The Promotion",
-    summary: "Mia is promoted at work: congratulating (gratulieren zu), talking about the new boss, and the passive (Sie wurde befördert), with genitives and prepositional verbs.",
+    summary: "Congratulate a colleague on a promotion (\"gratulieren zu\"), talk about the new boss and report the news in the passive (\"Sie wurde befördert\"), with genitives and prepositional verbs.",
     duration: "15 min",
     sections: [
       {
@@ -714,7 +716,7 @@ export const DE_B1_U22: Lesson[] = [
           {
             type: "speak",
             text: "Herzlichen Glückwunsch zur Beförderung!",
-            tip: "Glückwunsch: ü with rounded lips, and the w is a v: GLÜCK-vunsh.",
+            tip: "\"Glückwunsch\": ü with rounded lips, and the w is a v: GLÜCK-vunsh.",
             explanation: "\"Zur\" = zu der, dative feminine.",
           },
         ],
@@ -850,7 +852,7 @@ export const DE_B1_U22: Lesson[] = [
     level: "DE-B1",
     number: 5,
     title: "Frequent Words: The Great Outdoors",
-    summary: "Hiking and nature vocabulary: wandern, die Wanderung, der Gipfel, das Ufer, der Wald, die Hütte, zelten, die Aussicht, sich verlaufen, steil.",
+    summary: "Talk about a hike, the landscape and what can go wrong outdoors with \"wandern\", \"der Gipfel\", \"das Ufer\", \"die Aussicht\", \"zelten\" and \"sich verlaufen\".",
     duration: "12 min",
     sections: [
       {
@@ -958,7 +960,7 @@ export const DE_B1_U22: Lesson[] = [
           {
             type: "speak",
             text: "Der Aufstieg war steil, aber die Aussicht war atemberaubend.",
-            tip: "Steil starts with SHT: shtile. Atemberaubend is stressed on the first syllable: A-tem-be-rau-bend.",
+            tip: "\"Steil\" starts with SHT: shtile. \"Atemberaubend\" is stressed on the first syllable: A-tem-be-rau-bend.",
             explanation: "\"Steil\" = steep; \"atemberaubend\" = breathtaking.",
           },
         ],
@@ -1018,7 +1020,7 @@ export const DE_B1_U22: Lesson[] = [
         prompt: "Translate into German.",
         source: "Without a map you get lost quickly here.",
         answer: "Ohne Karte verläuft man sich hier schnell.",
-        altAnswers: ["Ohne eine Karte verläuft man sich hier schnell.", "Hier verläuft man sich ohne Karte schnell."],
+        altAnswers: ["Ohne eine Karte verläuft man sich hier schnell.", "Hier verläuft man sich ohne Karte schnell.", "Ohne Karte verläufst du dich hier schnell."],
         explanation: "General you = \"man\", with the reflexive \"sich\". \"Verlaufen\" has a vowel change: \"verläuft\".",
       },
       {
@@ -1046,7 +1048,7 @@ export const DE_B1_U22: Lesson[] = [
         prompt: "Translate into German.",
         source: "After a hike you should check for ticks.",
         answer: "Nach einer Wanderung sollte man nach Zecken suchen.",
-        altAnswers: ["Nach der Wanderung sollte man nach Zecken suchen.", "Nach einer Wanderung sollte man sich nach Zecken absuchen."],
+        altAnswers: ["Nach der Wanderung sollte man nach Zecken suchen.", "Nach einer Wanderung sollte man sich nach Zecken absuchen.", "Nach einer Wanderung solltest du nach Zecken suchen."],
         explanation: "\"Suchen nach\" + dative; \"sollte man\" for general advice.",
       },
       {
@@ -1106,7 +1108,7 @@ export const DE_B1_U22: Lesson[] = [
           "Adjective endings: \"die ersten Stammkunden\" (plural after \"die\"), \"eine ältere Dame\" (feminine nominative after \"eine\"), \"aus dem dritten Stock\" (dative), \"ein junger Student\" (masculine nominative after \"ein\": the adjective shows the gender with -er), \"über das heiße Wetter\".",
         ],
         examples: [
-          { es: "Frau Schulz wartet schon auf ihre Fernsehzeitschrift.", en: "Mrs Schulz is already waiting for her TV magazine." },
+          { es: "Frau Schulz wartet schon auf ihre Fernsehzeitschrift.", en: "Ms Schulz is already waiting for her TV magazine." },
           { es: "Eine ältere Dame aus dem dritten Stock kommt jeden Tag vorbei.", en: "An elderly lady from the third floor drops in every day." },
           { es: "Ein junger Student fragt nach Zigarettenpapier.", en: "A young student asks for rolling papers." },
           { es: "Zwei Bauarbeiter beschweren sich über das heiße Wetter.", en: "Two builders complain about the hot weather." },
@@ -1133,7 +1135,7 @@ export const DE_B1_U22: Lesson[] = [
           {
             type: "speak",
             text: "Frau Schulz wartet schon auf ihre Zeitschrift.",
-            tip: "Zeitschrift begins with ts: TSITE-shrift.",
+            tip: "\"Zeitschrift\" begins with ts: TSITE-shrift.",
             explanation: "\"Warten auf\" + accusative.",
           },
         ],

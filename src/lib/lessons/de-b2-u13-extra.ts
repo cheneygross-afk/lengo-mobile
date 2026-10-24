@@ -9,7 +9,7 @@ export const DE_B2_U13_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Als ob with Konjunktiv II Forms",
-    summary: "Wäre, hätte, würde, könnte, wüsste and the past forms after als ob, in fresh sentences.",
+    summary: "Use the right Konjunktiv II form after \"als ob\" in fresh sentences: \"wäre\", \"hätte\", \"würde\", \"könnte\", \"wüsste\" and the past forms.",
     duration: "12 min",
     sections: [
       {
@@ -166,7 +166,7 @@ export const DE_B2_U13_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Als or Als ob?",
-    summary: "Time clause (als er kam), comparison (größer als) or unreal comparison (als käme er): decide from word order and mood.",
+    summary: "Tell a time clause (\"als er kam\"), a comparison (\"größer als\") and an unreal comparison (\"als käme er\") apart by word order and mood.",
     duration: "12 min",
     sections: [
       {
@@ -312,7 +312,7 @@ export const DE_B2_U13_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Dialogue Lab: Der Schauspielkurs",
-    summary: "An acting teacher gives instructions: Spiel so, als ob du ... with imperatives and unreal comparisons.",
+    summary: "Give and follow an acting teacher's instructions with imperatives and unreal comparisons: \"Spiel so, als ob du ...\"",
     duration: "13 min",
     sections: [
       {
@@ -463,7 +463,7 @@ export const DE_B2_U13_EXTRA: Lesson[] = [
     number: 4,
     optional: true,
     title: "Extra Practice: Je... desto",
-    summary: "Proportional comparisons with the right word order in both halves: je mehr ich übe, desto besser spreche ich.",
+    summary: "Make proportional comparisons with the right word order in both halves: \"Je mehr ich übe, desto besser spreche ich.\"",
     duration: "12 min",
     sections: [
       {
@@ -606,7 +606,7 @@ export const DE_B2_U13_EXTRA: Lesson[] = [
     number: 5,
     optional: true,
     title: "Extra Practice: Zu ..., als dass",
-    summary: "Too much to allow something: Es ist zu spät, als dass wir noch etwas ändern könnten.",
+    summary: "Say that something is too much for something else to happen: \"Es ist zu spät, als dass wir noch etwas ändern könnten.\"",
     duration: "12 min",
     sections: [
       {
@@ -748,7 +748,7 @@ export const DE_B2_U13_EXTRA: Lesson[] = [
     number: 6,
     optional: true,
     title: "Extra Practice: Dictation of Comparisons",
-    summary: "Hear and write sentences with als, wie, als ob and je ... desto, then translate your own.",
+    summary: "Hear and write sentences with \"als\", \"wie\", \"als ob\" and \"je ... desto\", then translate your own.",
     duration: "12 min",
     sections: [
       {
@@ -775,7 +775,7 @@ export const DE_B2_U13_EXTRA: Lesson[] = [
             prompt: "Translate into German.",
             source: "The concert was better than I'd hoped.",
             answer: "Das Konzert war besser, als ich gehofft hatte.",
-            altAnswers: ["Das Konzert war besser, als ich gehofft habe.", "Das Konzert war besser als erhofft.", "Das Konzert war besser, als ich erwartet hatte."],
+            altAnswers: ["Das Konzert war besser, als ich gehofft habe.", "Das Konzert war besser als erhofft."],
             explanation: "Comma before \"als\" + clause.",
           },
         ],
@@ -893,7 +893,7 @@ export const DE_B2_U13_EXTRA: Lesson[] = [
     number: 7,
     optional: true,
     title: "Extra Practice: Questions and Answers: Wie war es?",
-    summary: "Describe experiences with comparisons: Es war besser, als ich erwartet hatte; es war, als wäre ich zu Hause.",
+    summary: "Describe experiences with comparisons: \"Es war besser, als ich erwartet hatte\", \"Es war, als wäre ich zu Hause.\"",
     duration: "12 min",
     sections: [
       {

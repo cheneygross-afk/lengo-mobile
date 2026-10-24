@@ -671,8 +671,8 @@ export const DE_C2_U24: Lesson[] = [
             prompt: "The essay says \"Nachdem der Reichstag brannte, wurden die Grundrechte aufgehoben.\" Fix it: Translate into German.",
             source: "After the Reichstag had burned, fundamental rights were suspended.",
             answer: "Nachdem der Reichstag gebrannt hatte, wurden die Grundrechte außer Kraft gesetzt.",
-            altAnswers: ["Nachdem der Reichstag gebrannt hatte, wurden die Grundrechte aufgehoben.", "Nachdem der Reichstag abgebrannt war, wurden die Grundrechte außer Kraft gesetzt.", "Nachdem der Reichstag abgebrannt war, wurden die Grundrechte aufgehoben."],
-            explanation: "Plusquamperfekt after \"nachdem\": \"gebrannt hatte\" (or \"abgebrannt war\", with sein for the change of state).",
+            altAnswers: ["Nachdem der Reichstag gebrannt hatte, wurden die Grundrechte aufgehoben.", "Nachdem der Reichstag in Flammen gestanden hatte, wurden die Grundrechte außer Kraft gesetzt."],
+            explanation: "Plusquamperfekt after \"nachdem\": \"gebrannt hatte\" (\"brennen\" takes \"haben\"). Avoid \"abgebrannt\": the building burned but did not burn down.",
           },
           {
             type: "fill-blank",
@@ -1030,7 +1030,7 @@ export const DE_C2_U24: Lesson[] = [
           { es: "Nachdem die Westmächte die D-Mark eingeführt hatten, sperrte die Sowjetunion die Zugangswege nach West-Berlin.", en: "After the Western powers had introduced the Deutschmark, the Soviet Union blocked the access routes to West Berlin." },
           { es: "Als die Blockade begann, organisierten die Amerikaner die Luftbrücke.", en: "When the blockade began, the Americans organised the airlift." },
           { es: "Die Alliierten hatten die Stadt 1945 in vier Sektoren aufgeteilt.", en: "In 1945 the Allies had divided the city into four sectors." },
-          { es: "Bevor die Blockade im Mai 1949 endete, landeten über 270.000 Flüge in Berlin.", en: "Before the blockade ended in May 1949, over 270,000 flights landed in Berlin." },
+          { es: "Bevor die Luftbrücke im September 1949 endete, landeten über 270.000 Flüge in Berlin.", en: "Before the airlift ended in September 1949, over 270,000 flights landed in Berlin." },
           { es: "Kaum war die Blockade beendet, wurde die Bundesrepublik gegründet.", en: "No sooner had the blockade ended than the Federal Republic was founded." },
         ],
         checkpoint: [
@@ -1101,7 +1101,7 @@ export const DE_C2_U24: Lesson[] = [
         ],
         examples: [
           { es: "Am 17. Juni 1953 kam es in der DDR zu einem landesweiten Aufstand.", en: "On 17 June 1953 there was a nationwide uprising in the GDR." },
-          { es: "Auslöser war die Erhöhung der Arbeitsnormen, die die Regierung im Mai beschlossen hatte.", en: "The trigger was the increase in work quotas that the government had decided in May." },
+          { es: "Auslöser war die Erhöhung der Arbeitsnormen, die die Regierung im Mai beschlossen hatte.", en: "The trigger was the increase in work quotas that the government had decided on in May." },
           { es: "Am 17. Juni gingen Hunderttausende auf die Straße.", en: "On 17 June hundreds of thousands took to the streets." },
           { es: "Mindestens 55 Menschen kamen ums Leben.", en: "At least 55 people lost their lives." },
           { es: "Sowjetische Truppen schlugen den Aufstand nieder.", en: "Soviet troops crushed the uprising." },
@@ -1141,15 +1141,15 @@ export const DE_C2_U24: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Combine into one sentence with bevor. Translate into German.",
-        source: "Before the blockade ended, over 270,000 flights landed in Berlin.",
-        answer: "Bevor die Blockade endete, landeten über 270.000 Flüge in Berlin.",
-        altAnswers: ["Bevor die Blockade zu Ende ging, landeten über 270.000 Flüge in Berlin.", "Bevor die Blockade endete, landeten mehr als 270.000 Flüge in Berlin.", "Bevor die Blockade endete, landeten über 270 000 Flüge in Berlin."],
+        source: "Before the airlift ended, over 270,000 flights landed in Berlin.",
+        answer: "Bevor die Luftbrücke endete, landeten über 270.000 Flüge in Berlin.",
+        altAnswers: ["Bevor die Luftbrücke zu Ende ging, landeten über 270.000 Flüge in Berlin.", "Bevor die Luftbrücke endete, landeten mehr als 270.000 Flüge in Berlin.", "Bevor die Luftbrücke endete, landeten über 270 000 Flüge in Berlin."],
         explanation: "\"Bevor\" keeps the same tense as the main clause; German uses a full stop or space as thousands separator.",
       },
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The trigger was the increase in quotas that the government [had decided] in May.",
+        en: "The trigger was the increase in quotas that the government [had decided on] in May.",
         sentence: "Auslöser war die Normerhöhung, die die Regierung im Mai ___.",
         answer: "beschlossen hatte",
         explanation: "The relative clause reaches further back: Plusquamperfekt, auxiliary last.",
@@ -1864,7 +1864,7 @@ export const DE_C2_U24: Lesson[] = [
       {
         heading: "Switching rhythm and mirrored sentences",
         body: [
-          "Mirrored sentences make parallels visible: \"Im Westen öffnete der Marshallplan die Tür zum Weltmarkt; im Osten verschloss der Rat für gegenseitige Wirtschaftshilfe sie zum Teil.\" Same structure, opposite content. Use them sparingly, at key moments.",
+          "Mirrored sentences make parallels visible: \"Im Westen öffnete der Marshallplan die Tür zum Weltmarkt; im Osten band der Rat für gegenseitige Wirtschaftshilfe die Wirtschaft an den Ostblock.\" Same structure, opposite direction. Use them sparingly, at key moments.",
           "Vary the switch markers so the text doesn't become mechanical: \"zur gleichen Zeit\", \"unterdessen\", \"auf der anderen Seite der Grenze\", \"jenseits der Elbe\" (beyond the Elbe), \"in Bonn dagegen\".",
           "Keep tenses parallel too: both timelines in the Präteritum, background in the Plusquamperfekt for each. A tense switch on only one side would suggest a different time level, which confuses.",
         ],
@@ -2032,6 +2032,6 @@ export const DE_C2_U24_WRITING: WriteExercise = {
     "Switches once to the historical present at the climax and returns cleanly to the Präteritum",
     "Looks forward with fateful \"sollte\" or with \"würde\" for contemporaries' expectations",
   ],
-  modelAnswer: "Der Tag, an dem die Angst verschwand\n\nIm Herbst 1989 lag über Leipzig eine bleierne Spannung. Seit Anfang September hatten sich nach den Friedensgebeten in der Nikolaikirche jeden Montag mehr Menschen versammelt, und mit jeder Woche war auch die Staatsmacht nervöser geworden. Nachdem die Polizei am 7. Oktober, dem 40. Jahrestag der DDR, Demonstranten brutal auseinandergetrieben hatte, rechneten viele mit dem Schlimmsten. In den Krankenhäusern wurden Blutkonserven bereitgestellt, so erzählte man sich, und Betriebskampfgruppen standen in Bereitschaft.\n\nTrotzdem kamen am Abend des 9. Oktober rund 70.000 Menschen in die Innenstadt. Viele hatten sich zuvor von ihren Familien verabschiedet, als würden sie nicht zurückkehren. Während die Kirchen überfüllt waren, warteten draußen Tausende mit Kerzen in den Händen.\n\nDann setzt sich der Zug in Bewegung. „Wir sind das Volk!“, rufen die Menschen, und dazwischen immer wieder: „Keine Gewalt!“ Die Demonstranten ziehen über den Ring, vorbei an der Stasi-Zentrale, der „Runden Ecke“. Die Sicherheitskräfte stehen bereit, doch sie greifen nicht ein.\n\nKaum war die Nachricht vom friedlichen Verlauf bekannt geworden, da fasste das ganze Land Mut. Innerhalb weniger Wochen gingen in Dresden, Berlin und Dutzenden anderen Städten Hunderttausende auf die Straße. Unterdessen zerfiel die Macht der SED: Am 18. Oktober trat Erich Honecker zurück. Am Abend des 9. November verlas Günter Schabowski schließlich eine neue Reiseregelung, und noch in derselben Nacht öffneten sich die Grenzübergänge.\n\nAn jenem 9. Oktober ahnte niemand, dass die Mauer genau einen Monat später fallen würde. Und kaum jemand konnte sich vorstellen, dass es die DDR knapp ein Jahr später nicht mehr geben sollte. Für viele Leipziger aber blieb der 9. Oktober der eigentliche Tag der Befreiung: der Tag, an dem die Angst verschwand.",
+  modelAnswer: "Der Tag, an dem die Angst verschwand\n\nIm Herbst 1989 lag über Leipzig eine bleierne Spannung. Seit Anfang September hatten sich nach den Friedensgebeten in der Nikolaikirche jeden Montag mehr Menschen versammelt, und mit jeder Woche war auch die Staatsmacht nervöser geworden. Nachdem die Polizei am 7. Oktober, dem 40. Jahrestag der DDR, Demonstranten brutal auseinandergetrieben hatte, rechneten viele mit dem Schlimmsten. In den Krankenhäusern wurden Blutkonserven bereitgestellt, so erzählte man sich, und Betriebskampfgruppen standen in Bereitschaft.\n\nTrotzdem kamen am Abend des 9. Oktober rund 70.000 Menschen in die Innenstadt. Viele hatten sich zuvor von ihren Familien verabschiedet, als würden sie nicht zurückkehren. Während die Kirchen überfüllt waren, warteten draußen Tausende mit Kerzen in den Händen.\n\nDann setzt sich der Zug in Bewegung. „Wir sind das Volk!“, rufen die Menschen, und dazwischen immer wieder: „Keine Gewalt!“ Die Demonstranten ziehen über den Ring, vorbei an der Stasi-Zentrale, der „Runden Ecke“. Die Sicherheitskräfte stehen bereit, doch sie greifen nicht ein.\n\nKaum war die Nachricht vom friedlichen Verlauf bekannt geworden, da fasste das ganze Land Mut. Innerhalb weniger Wochen gingen in Dresden, Berlin und Dutzenden anderen Städten Hunderttausende auf die Straße. Unterdessen zerfiel die Macht der SED: Am 18. Oktober trat Erich Honecker zurück. Am Abend des 9. November verlas Günter Schabowski schließlich eine neue Reiseregelung, und noch in derselben Nacht öffneten sich die Grenzübergänge.\n\nAn jenem 9. Oktober ahnte niemand, dass die Mauer genau einen Monat später fallen würde. Und kaum jemand konnte sich vorstellen, dass es die DDR knapp ein Jahr später nicht mehr geben würde. Doch genau so sollte es kommen. Für viele Leipziger aber blieb der 9. Oktober der eigentliche Tag der Befreiung: der Tag, an dem die Angst verschwand.",
   explanation: "The article narrates in the Präteritum, sets the background with the Plusquamperfekt (\"hatten sich versammelt\", \"war nervöser geworden\") and uses \"nachdem\" with the anterior tense. At the climax it switches to the historical present (\"setzt sich ... in Bewegung\", \"greifen nicht ein\") and returns with \"Kaum war ..., da ...\". Simultaneity and sequence come from \"während\", \"unterdessen\", \"innerhalb weniger Wochen\" and \"noch in derselben Nacht\", and the close looks forward with \"würde\" (contemporaries' expectations) and fateful \"sollte\".",
 };

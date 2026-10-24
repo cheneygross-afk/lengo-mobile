@@ -479,7 +479,7 @@ export const DE_C2_U17: Lesson[] = [
         body: [
           "With an attribution, you choose the mood of the verb. Indicative presents the information as fact you accept: \"Laut Polizei wurde niemand verletzt.\" Konjunktiv I keeps your distance, you are only reporting: \"Laut Polizei sei niemand verletzt worden.\" In news agencies (dpa), Konjunktiv I is standard for anything a party claims.",
           "Combining an attribution with Konjunktiv I is technically double marking, and style guides consider it acceptable but redundant in short texts. In academic writing, Konjunktiv I is expected when you report a claim you are going to criticise: \"Hartmann zufolge sei die Reform gescheitert; diese These lässt sich jedoch nicht halten.\"",
-          "Another option: \"wie X betont / feststellt / zeigt\" + indicative, which signals agreement: \"Wie Schmidt (2020) zeigt, hat sich die Lage verbessert.\" You can't say \"Wie Schmidt zeigt, habe sich...\": \"wie\" already presents the content as established.",
+          "Another option: \"wie X betont / feststellt / zeigt\" + indicative, which signals agreement: \"Wie Schmidt (2020) zeigt, hat sich die Lage verbessert.\" Avoid \"Wie Schmidt zeigt, habe sich...\": \"wie\" already presents the content as established, so Konjunktiv I clashes with it.",
         ],
         examples: [
           { es: "Laut Polizei sei niemand verletzt worden.", en: "According to the police, nobody was injured. (reported, not confirmed)" },
@@ -690,7 +690,7 @@ export const DE_C2_U17: Lesson[] = [
         body: [
           "\"Betonen\" (to stress, emphasise) shows the author finds something important: \"Sie betont, dass weitere Forschung nötig sei.\" Similar: \"hervorheben\", \"unterstreichen\".",
           "\"Einräumen\" (to concede, admit) marks a point against the author's own position: \"Er räumt ein, dass die Stichprobe klein ist.\" It often introduces a limitation and is followed by \"jedoch\" or \"allerdings\". Close synonyms: \"zugeben\" (more everyday, sometimes implying guilt), \"zugestehen\".",
-          "\"Bestreiten\" (to deny, dispute) is the opposite: \"Der Konzern bestreitet, von den Mängeln gewusst zu haben.\" Note the zu-infinitive with the same subject, and the perfect infinitive \"gewusst zu haben\" for an earlier action. Don't add \"nicht\": \"bestreiten\" is already negative, unlike English 'deny that ...', where learners sometimes add a negative.",
+          "\"Bestreiten\" (to deny, dispute) is the opposite: \"Der Konzern bestreitet, von den Mängeln gewusst zu haben.\" Note the zu-infinitive with the same subject, and the perfect infinitive \"gewusst zu haben\" for an earlier action. Don't add \"nicht\": \"bestreiten\" already contains the negation, just like English 'deny'.",
         ],
         examples: [
           { es: "Sie betont, dass weitere Forschung nötig sei.", en: "She stresses that further research is necessary." },
@@ -862,9 +862,9 @@ export const DE_C2_U17: Lesson[] = [
           { es: "Vgl. Hartmann 2019, S. 45 f.", en: "Cf. Hartmann 2019, pp. 45-46." },
           { es: "Ebd., S. 47.", en: "Ibid., p. 47." },
           { es: "Die Fußnote steht am Ende der Seite.", en: "The footnote is at the bottom of the page." },
-          { es: "Bei indirekten Zitaten steht in der Fußnote „Vgl.“.", en: "With indirect quotations the footnote contains 'Vgl.'." },
-          { es: "Die Abkürzung „ebd.“ verweist auf die unmittelbar vorher genannte Quelle.", en: "The abbreviation 'ebd.' refers to the source cited immediately before." },
-          { es: "Viele Leitfäden raten heute von „a. a. O.“ ab.", en: "Many style guides now advise against 'a. a. O.'." },
+          { es: "Bei indirekten Zitaten steht in der Fußnote „Vgl.“.", en: "With indirect quotations the footnote contains \"Vgl.\"." },
+          { es: "Die Abkürzung „ebd.“ verweist auf die unmittelbar vorher genannte Quelle.", en: "The abbreviation \"ebd.\" refers to the source cited immediately before." },
+          { es: "Viele Leitfäden raten heute von „a. a. O.“ ab.", en: "Many style guides now advise against \"a. a. O.\"." },
         ],
         checkpoint: [
           {
@@ -966,7 +966,7 @@ export const DE_C2_U17: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "With indirect quotations you write 'Vgl.' in the footnote.",
+        source: "With indirect quotations you write \"Vgl.\" in the footnote.",
         answer: "Bei indirekten Zitaten schreibt man „Vgl.“ in die Fußnote.",
         altAnswers: ["Bei indirekten Zitaten steht in der Fußnote „Vgl.“.", "Bei indirekten Zitaten setzt man „Vgl.“ in die Fußnote.", "Bei indirekten Zitaten schreibt man in die Fußnote „Vgl.“."],
         explanation: "\"In die Fußnote schreiben\" (accusative, direction) vs \"in der Fußnote stehen\" (dative, location).",
@@ -995,7 +995,7 @@ export const DE_C2_U17: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Many style guides now [advise against] 'a. a. O.'.",
+        en: "Many style guides now [advise against] \"a. a. O.\".",
         sentence: "Viele Leitfäden ___ heute von „a. a. O.“ ab.",
         answer: "raten",
         explanation: "\"Von etwas abraten\" (to advise against) is separable: \"raten ... ab\".",
@@ -1497,14 +1497,14 @@ export const DE_C2_U17: Lesson[] = [
         body: [
           "To repair a too-close paraphrase, change the structure, not just words: turn verbs into nouns (\"investieren\" → \"Investitionen\"), the relative clause into a conditional (\"Städte, die... \" → \"Wenn Städte...\"), or swap subject and object perspective (\"Die Zahl der Unfälle sinkt\").",
           "To repair an unattributed passage, add a reporting phrase or a footnote with \"Vgl.\": \"Wie Schulz (2022, S. 14) zeigt, ...\" or \"Schulz zufolge...\". A single reference at the end of a long paragraph is often not enough: if several sentences are paraphrased, the reader must see where the borrowing starts.",
-          "Typical citation-grammar errors in student texts: \"*Zufolge Schulz*\" (wrong position), \"*Laut Schulz habe gezeigt*\" (no subject: after \"laut\", \"Schulz\" cannot be the subject of \"habe\"), \"*Wie Schulz behauptet, ist...*\" (\"wie\" + \"behaupten\" clash: endorsement and distance at once).",
+          "Typical citation-grammar errors in student texts: \"*Zufolge Schulz*\" (wrong position), \"*Laut Schulz habe gezeigt*\" (no subject: after \"laut\", \"Schulz\" cannot be the subject of \"habe\"), \"*Wie Schulz behauptet, ist...*\" (grammatical, but a stance clash in academic writing: \"wie\" presents the content as given, \"behaupten\" casts doubt).",
         ],
         examples: [
           { es: "Wie Schulz zeigt, sinkt die Zahl der Unfälle, wenn Städte gezielt in Radwege investieren.", en: "As Schulz shows, the number of accidents falls when cities invest specifically in cycle paths." },
           { es: "Schulz zufolge hängt der Effekt von der Qualität der Infrastruktur ab.", en: "According to Schulz, the effect depends on the quality of the infrastructure." },
           { es: "Investitionen in den Radverkehr führen laut Schulz mittelfristig zu weniger Unfällen.", en: "According to Schulz, investment in cycling leads to fewer accidents in the medium term." },
           { es: "Der Beleg fehlt: Woher stammt diese Aussage?", en: "The reference is missing: where does this statement come from?" },
-          { es: "Hier muss eine Fußnote mit „Vgl.“ ergänzt werden.", en: "A footnote with 'Vgl.' must be added here." },
+          { es: "Hier muss eine Fußnote mit „Vgl.“ ergänzt werden.", en: "A footnote with \"Vgl.\" must be added here." },
         ],
         checkpoint: [
           {
@@ -1574,7 +1574,7 @@ export const DE_C2_U17: Lesson[] = [
         source: "As Schulz shows, the infrastructure is crucial.",
         answer: "Wie Schulz zeigt, ist die Infrastruktur entscheidend.",
         altAnswers: ["Wie Schulz feststellt, ist die Infrastruktur entscheidend.", "Wie Schulz zeigt, ist die Infrastruktur ausschlaggebend.", "Wie Schulz feststellt, ist die Infrastruktur ausschlaggebend.", "Wie Schulz darlegt, ist die Infrastruktur entscheidend."],
-        explanation: "\"Wie\" endorses, \"behaupten\" distances: the combination contradicts itself. Use an endorsing verb.",
+        explanation: "\"Wie\" presents the content as established, \"behaupten\" casts doubt: in academic writing the mix sends contradictory signals (journalists sometimes use it ironically). Use an endorsing verb.",
       },
       {
         type: "translate",

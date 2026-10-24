@@ -8,7 +8,7 @@ export const DE_B2_U10: Lesson[] = [
     level: "DE-B2",
     number: 1,
     title: "Upper-Intermediate Vocabulary Practice, Part 3 of 10",
-    summary: "Test the Upper-intermediate vocabulary from Units 6-9: notices, housing ads, feelings, reports and CVs.",
+    summary: "Use the B2 vocabulary from Units 6-9 in context: notices, housing ads, feelings, reports and CVs.",
     duration: "15 min",
     sections: [
       {
@@ -204,14 +204,14 @@ export const DE_B2_U10: Lesson[] = [
     level: "DE-B2",
     number: 2,
     title: "Spiral Review: Weil → Wegen, Obwohl → Trotz",
-    summary: "Spaced review of Unit 9: conjunction-to-preposition transformations in both directions.",
+    summary: "Turn \"weil\" and \"obwohl\" clauses into \"wegen\" and \"trotz\" phrases and back again (spaced review of Unit 9).",
     duration: "12 min",
     sections: [
       {
         heading: "Clause to phrase",
         body: [
           "A \"weil\" clause becomes a \"wegen\" phrase, an \"obwohl\" clause a \"trotz\" phrase. Both prepositions take the genitive in written German: \"wegen des Regens\", \"trotz der Kälte\".",
-          "Find the noun hidden in the clause: \"weil es regnet\" → der Regen, \"obwohl sie krank war\" → ihre Krankheit, \"weil die Preise steigen\" → der Anstieg der Preise.",
+          "Find the noun hidden in the clause: \"weil es regnet\" → \"der Regen\", \"obwohl sie krank war\" → \"ihre Krankheit\", \"weil die Preise steigen\" → \"der Anstieg der Preise\".",
         ],
         examples: [
           { es: "Wegen des Regens bleiben wir zu Hause.", en: "Because of the rain we're staying at home." },
@@ -226,7 +226,7 @@ export const DE_B2_U10: Lesson[] = [
             prompt: "Translate into German, with wegen or trotz.",
             source: "Despite the cold they went swimming.",
             answer: "Trotz der Kälte gingen sie schwimmen.",
-            altAnswers: ["Trotz der Kälte sind sie schwimmen gegangen."],
+            altAnswers: ["Trotz der Kälte sind sie schwimmen gegangen.", "Sie gingen trotz der Kälte schwimmen.", "Sie sind trotz der Kälte schwimmen gegangen."],
             explanation: "\"Obwohl es kalt war\" → \"trotz der Kälte\".",
           },
           {
@@ -258,7 +258,7 @@ export const DE_B2_U10: Lesson[] = [
             prompt: "Translate into German, with weil or obwohl.",
             source: "Although the weather was bad, the party took place.",
             answer: "Obwohl das Wetter schlecht war, fand das Fest statt.",
-            altAnswers: ["Obwohl das Wetter schlecht war, hat das Fest stattgefunden.", "Obwohl das Wetter schlecht war, fand die Party statt."],
+            altAnswers: ["Obwohl das Wetter schlecht war, hat das Fest stattgefunden.", "Obwohl das Wetter schlecht war, fand die Party statt.", "Das Fest fand statt, obwohl das Wetter schlecht war."],
             explanation: "Verb at the end of the obwohl clause, then verb first in the main clause.",
           },
           {
@@ -274,7 +274,7 @@ export const DE_B2_U10: Lesson[] = [
       {
         heading: "Without an article",
         body: [
-          "When the noun has no article or adjective, the genitive is invisible and the noun simply stays as it is: \"wegen Krankheit geschlossen\", \"trotz Regen\". Signs and notices love this form.",
+          "When the noun has no article or adjective, the genitive is invisible or its ending is usually dropped, so the noun simply stays as it is: \"wegen Krankheit geschlossen\", \"trotz Regen\". Signs and notices love this form.",
           "In everyday speech many people use \"wegen\" with the dative (\"wegen dem Regen\"). You will hear it, but write the genitive.",
         ],
         examples: [
@@ -318,7 +318,7 @@ export const DE_B2_U10: Lesson[] = [
         prompt: "Translate into German, with wegen or trotz.",
         source: "Despite the high price he bought the car.",
         answer: "Trotz des hohen Preises kaufte er das Auto.",
-        altAnswers: ["Trotz des hohen Preises hat er das Auto gekauft."],
+        altAnswers: ["Trotz des hohen Preises hat er das Auto gekauft.", "Er kaufte das Auto trotz des hohen Preises.", "Er hat das Auto trotz des hohen Preises gekauft."],
         explanation: "Genitive after \"trotz\": \"des hohen Preises\" (-en on the adjective, -es on the noun).",
       },
       {
@@ -345,6 +345,7 @@ export const DE_B2_U10: Lesson[] = [
         en: "[Despite the delay] we arrived on time.",
         sentence: "___ kamen wir pünktlich an.",
         answer: "Trotz der Verspätung",
+        altAnswers: ["Trotz der Verzögerung"],
         explanation: "\"Obwohl es eine Verspätung gab\" → \"trotz der Verspätung\".",
       },
       {
@@ -353,7 +354,7 @@ export const DE_B2_U10: Lesson[] = [
         prompt: "Translate into German, with weil or obwohl.",
         source: "Although she was tired, she went on working.",
         answer: "Obwohl sie müde war, arbeitete sie weiter.",
-        altAnswers: ["Obwohl sie müde war, hat sie weitergearbeitet."],
+        altAnswers: ["Obwohl sie müde war, hat sie weitergearbeitet.", "Obwohl sie müde war, machte sie weiter.", "Obwohl sie müde war, hat sie weitergemacht."],
         explanation: "The nominal version would be \"trotz ihrer Müdigkeit\".",
       },
       {
@@ -363,7 +364,7 @@ export const DE_B2_U10: Lesson[] = [
         sentence: "___ ziehen viele Menschen um.",
         answer: "Wegen des Anstiegs der Mieten",
         altAnswers: ["Wegen des Mietanstiegs", "Aufgrund des Anstiegs der Mieten"],
-        explanation: "Two genitives: des Anstiegs (masculine), der Mieten (plural).",
+        explanation: "Two genitives: \"des Anstiegs\" (masculine), \"der Mieten\" (plural). The compound \"des Mietanstiegs\" is also correct.",
       },
       {
         type: "multiple-choice",
@@ -383,7 +384,7 @@ export const DE_B2_U10: Lesson[] = [
       {
         type: "speak",
         text: "Trotz des schlechten Wetters fand das Fest statt, aber wegen des Regens gingen viele früh nach Hause.",
-        explanation: "Trotz and wegen with genitive endings.",
+        explanation: "\"Trotz\" and \"wegen\" with genitive endings: \"des schlechten Wetters\", \"des Regens\".",
       },
     ],
   },
@@ -392,7 +393,7 @@ export const DE_B2_U10: Lesson[] = [
     level: "DE-B2",
     number: 3,
     title: "Funktionsverbgefüge: Zur Verfügung stellen, In Frage kommen",
-    summary: "A noun carries the meaning, a weak verb carries the grammar: fixed combinations of formal German.",
+    summary: "Recognise and use Funktionsverbgefüge such as \"eine Entscheidung treffen\" and \"zur Verfügung stellen\", where a noun carries the meaning and a weak verb the grammar.",
     duration: "16 min",
     sections: [
       {
@@ -473,7 +474,7 @@ export const DE_B2_U10: Lesson[] = [
       {
         heading: "The trap: English verbs don't map",
         body: [
-          "English uses make, have, take and give for almost everything. German FVGs each have their own verb, and you have to learn it with the noun: \"eine Entscheidung treffen\" (not \"*machen\"), \"eine Frage stellen\" (not \"*fragen\"), \"Rücksicht nehmen auf\" (not \"*haben\"), \"Kritik üben an\" (not \"*machen\"), \"in Anspruch nehmen\" (to make use of), \"zum Ausdruck bringen\" (to express).",
+          "English uses make, have, take and give for almost everything. German FVGs each have their own verb, and you have to learn it with the noun: \"eine Entscheidung treffen\" (not \"*machen*\"), \"eine Frage stellen\" (not \"*fragen*\"), \"Rücksicht nehmen auf\" (not \"*haben*\"), \"Kritik üben an\" (not \"*machen*\"), \"in Anspruch nehmen\" (to make use of), \"zum Ausdruck bringen\" (to express).",
           "Learn the preposition and the case too: \"Rücksicht nehmen auf\" + accusative, \"Einfluss nehmen auf\", \"Bezug nehmen auf\", \"Kritik üben an\" + dative, \"sich in Verbindung setzen mit\", \"Bescheid geben\" or \"sagen\" (to let someone know).",
         ],
         examples: [
@@ -490,7 +491,7 @@ export const DE_B2_U10: Lesson[] = [
             source: "Please be considerate of the neighbours.",
             answer: "Bitte nehmen Sie Rücksicht auf die Nachbarn.",
             altAnswers: ["Nehmen Sie bitte Rücksicht auf die Nachbarn.", "Bitte nimm Rücksicht auf die Nachbarn.", "Bitte nehmt Rücksicht auf die Nachbarn."],
-            explanation: "\"Rücksicht nehmen auf\" + accusative (not \"*Rücksicht haben\"). Without a person in the English, \"Sie\", \"du\" and \"ihr\" are all fine.",
+            explanation: "\"Rücksicht nehmen auf\" + accusative (not \"*Rücksicht haben*\"). Without a person in the English, \"Sie\", \"du\" and \"ihr\" are all fine.",
           },
           {
             type: "translate",
@@ -512,7 +513,7 @@ export const DE_B2_U10: Lesson[] = [
         source: "May I ask a question?",
         answer: "Darf ich eine Frage stellen?",
         altAnswers: ["Kann ich eine Frage stellen?", "Dürfte ich eine Frage stellen?"],
-        explanation: "\"Eine Frage stellen\" (never \"*eine Frage fragen\").",
+        explanation: "\"Eine Frage stellen\" (never \"*eine Frage fragen*\").",
       },
       {
         type: "translate",
@@ -538,7 +539,7 @@ export const DE_B2_U10: Lesson[] = [
         prompt: "Translate into German, with a Funktionsverbgefüge.",
         source: "We should consider this possibility too.",
         answer: "Wir sollten auch diese Möglichkeit in Betracht ziehen.",
-        altAnswers: ["Wir sollten diese Möglichkeit auch in Betracht ziehen."],
+        altAnswers: ["Wir sollten diese Möglichkeit auch in Betracht ziehen.", "Auch diese Möglichkeit sollten wir in Betracht ziehen."],
         explanation: "\"In Betracht ziehen\" = \"berücksichtigen\", to consider.",
       },
       {
@@ -579,7 +580,7 @@ export const DE_B2_U10: Lesson[] = [
         prompt: "Translate into German, with a simple verb instead of a Funktionsverbgefüge.",
         source: "We'll decide tomorrow.",
         answer: "Wir entscheiden morgen.",
-        altAnswers: ["Wir werden morgen entscheiden.", "Morgen entscheiden wir."],
+        altAnswers: ["Wir werden morgen entscheiden.", "Morgen entscheiden wir.", "Wir entscheiden uns morgen.", "Wir entscheiden das morgen."],
         explanation: "The everyday equivalent of \"eine Entscheidung treffen\".",
       },
       {
@@ -602,7 +603,7 @@ export const DE_B2_U10: Lesson[] = [
     level: "DE-B2",
     number: 4,
     title: "Mastery Check: Nominal Style",
-    summary: "A focused test of nominalisation, verbalisation, genitives and the conjunction / preposition pairs from Unit 9.",
+    summary: "Check that you can nominalise and verbalise sentences, use the genitive and switch between the conjunction / preposition pairs from Unit 9.",
     duration: "15 min",
     sections: [
       {
@@ -655,6 +656,7 @@ export const DE_B2_U10: Lesson[] = [
             prompt: "Translate into German, in nominal style.",
             source: "If it rains, the concert is cancelled.",
             answer: "Bei Regen fällt das Konzert aus.",
+            altAnswers: ["Das Konzert fällt bei Regen aus."],
             explanation: "\"Wenn es regnet\" → \"bei Regen\".",
           },
           {
@@ -685,6 +687,7 @@ export const DE_B2_U10: Lesson[] = [
         prompt: "Translate into German, in nominal style.",
         source: "You get better by practising regularly.",
         answer: "Durch regelmäßiges Üben wird man besser.",
+        altAnswers: ["Man wird durch regelmäßiges Üben besser."],
         explanation: "\"Indem man regelmäßig übt\" → \"durch regelmäßiges Üben\" (accusative neuter).",
       },
       {
@@ -742,7 +745,7 @@ export const DE_B2_U10: Lesson[] = [
         en: "[In case of fire] use the stairs.",
         sentence: "___ benutzen Sie die Treppe.",
         answer: "Im Brandfall",
-        altAnswers: ["Bei Feuer", "Im Falle eines Brandes", "Bei Brand", "Im Fall eines Brandes"],
+        altAnswers: ["Bei Feuer", "Im Falle eines Brandes", "Bei Brand", "Im Fall eines Brandes", "Bei einem Brand"],
         explanation: "\"Falls es brennt\" → \"im Brandfall\" or \"bei Feuer\".",
       },
       {
@@ -753,7 +756,7 @@ export const DE_B2_U10: Lesson[] = [
       {
         type: "speak",
         text: "Nach der Ankunft des Zuges gingen wir wegen des Regens sofort ins Hotel.",
-        explanation: "Genitive endings: des Zuges, des Regens.",
+        explanation: "Genitive endings: \"des Zuges\", \"des Regens\".",
       },
     ],
   },
@@ -762,7 +765,7 @@ export const DE_B2_U10: Lesson[] = [
     level: "DE-B2",
     number: 5,
     title: "Dialogue Lab: Die Teambesprechung",
-    summary: "A team meeting about a new project, full of Funktionsverbgefüge.",
+    summary: "Follow and take part in a team meeting about a new project, with Funktionsverbgefüge such as \"zur Sprache bringen\" and \"in Frage kommen\".",
     duration: "15 min",
     sections: [
       {
@@ -847,8 +850,8 @@ export const DE_B2_U10: Lesson[] = [
             prompt: "Translate into German, with a Funktionsverbgefüge.",
             source: "We should take that into consideration.",
             answer: "Wir sollten das in Betracht ziehen.",
-            altAnswers: ["Das sollten wir in Betracht ziehen.", "Wir sollten das berücksichtigen."],
-            explanation: "\"In Betracht ziehen\" = \"berücksichtigen\"; both are correct here.",
+            altAnswers: ["Das sollten wir in Betracht ziehen."],
+            explanation: "\"In Betracht ziehen\" is the Funktionsverbgefüge; the simple verb \"berücksichtigen\" means the same but is not what this task asks for.",
           },
           {
             type: "translate",
@@ -914,13 +917,14 @@ export const DE_B2_U10: Lesson[] = [
         source: "I'd also like to make a critical point.",
         answer: "Ich möchte auch etwas Kritik üben.",
         altAnswers: ["Ich möchte auch Kritik üben.", "Ich würde auch gern etwas Kritik üben."],
-        explanation: "\"Kritik üben\" (not \"*Kritik machen\").",
+        explanation: "\"Kritik üben\" (not \"*Kritik machen*\").",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: We'll take that as the last item.",
         words: ["Das", "nehmen", "wir", "als", "letzten", "Punkt."],
         translation: "We'll take that as the last item.",
+        altOrders: [["Wir", "nehmen", "das", "als", "letzten", "Punkt."]],
         explanation: "\"Der Punkt\" = item on the agenda.",
       },
       {
@@ -951,7 +955,7 @@ export const DE_B2_U10: Lesson[] = [
     level: "DE-B2",
     number: 6,
     title: "Questions and Answers: Kommt das in Frage?",
-    summary: "Ask and answer about options and resources with Funktionsverbgefüge.",
+    summary: "Ask and answer about options, resources, rules and contacts with Funktionsverbgefüge such as \"in Frage kommen\" and \"zur Verfügung stehen\".",
     duration: "14 min",
     sections: [
       {
@@ -990,7 +994,7 @@ export const DE_B2_U10: Lesson[] = [
       {
         heading: "Rules and decisions",
         body: [
-          "Asking about rules: \"Wann tritt die neue Regel in Kraft?\" — \"Sie tritt am 1. März in Kraft.\" / \"Sie ist seit Januar in Kraft.\" (in Kraft sein = to be in force).",
+          "Asking about rules: \"Wann tritt die neue Regel in Kraft?\" — \"Sie tritt am 1. März in Kraft.\" / \"Sie ist seit Januar in Kraft.\" (\"in Kraft sein\" = to be in force).",
           "Asking about decisions: \"Wer trifft die Entscheidung?\" — \"Die Entscheidung trifft der Vorstand.\" / \"Die Entscheidung wird nächste Woche getroffen.\"",
         ],
         examples: [
@@ -1007,7 +1011,7 @@ export const DE_B2_U10: Lesson[] = [
             source: "Who makes the decision?",
             answer: "Wer trifft die Entscheidung?",
             altAnswers: ["Wer fällt die Entscheidung?"],
-            explanation: "\"Eine Entscheidung treffen\" (not \"*machen\").",
+            explanation: "\"Eine Entscheidung treffen\" (not \"*machen*\").",
           },
           {
             type: "fill-blank",
@@ -1140,7 +1144,7 @@ export const DE_B2_U10: Lesson[] = [
     level: "DE-B2",
     number: 7,
     title: "Transformation Chain: From Everyday Verb to Funktionsverbgefüge",
-    summary: "Three steps: simple verb → Funktionsverbgefüge → passive of the Funktionsverb.",
+    summary: "Turn a simple verb into a Funktionsverbgefüge and then into its passive: \"Wir entscheiden\" → \"Wir treffen eine Entscheidung\" → \"Die Entscheidung wird getroffen\".",
     duration: "15 min",
     sections: [
       {
@@ -1212,7 +1216,7 @@ export const DE_B2_U10: Lesson[] = [
         heading: "The whole chain",
         body: [
           "Practise all three steps on one sentence. \"Die Firma berücksichtigt die Wünsche der Kunden\" → \"Die Firma zieht die Wünsche der Kunden in Betracht\" → \"Die Wünsche der Kunden werden in Betracht gezogen.\"",
-          "Not every FVG has a passive. The resultative partners (stehen, kommen) already describe something that happens by itself, so they have none: \"Laptops stehen zur Verfügung\", not \"*Laptops werden zur Verfügung gestanden\". Use the passive of the active partner instead: \"Laptops werden zur Verfügung gestellt.\"",
+          "Not every FVG has a passive. The resultative partners (\"stehen\", \"kommen\") already describe something that happens by itself, so they have none: \"Laptops stehen zur Verfügung\", not \"*Laptops werden zur Verfügung gestanden*\". Use the passive of the active partner instead: \"Laptops werden zur Verfügung gestellt.\"",
         ],
         examples: [
           { es: "Die Wünsche der Kunden werden in Betracht gezogen.", en: "The customers' wishes are taken into consideration." },
@@ -1226,6 +1230,7 @@ export const DE_B2_U10: Lesson[] = [
             prompt: "Translate into German, with the passive of the Funktionsverb.",
             source: "Laptops are provided.",
             answer: "Laptops werden zur Verfügung gestellt.",
+            altAnswers: ["Es werden Laptops zur Verfügung gestellt."],
             explanation: "Passive of \"zur Verfügung stellen\".",
           },
           {
@@ -1246,7 +1251,7 @@ export const DE_B2_U10: Lesson[] = [
         source: "We'll make a decision tomorrow.",
         answer: "Wir treffen morgen eine Entscheidung.",
         altAnswers: ["Morgen treffen wir eine Entscheidung.", "Wir werden morgen eine Entscheidung treffen."],
-        explanation: "Step 2 of the chain.",
+        explanation: "Step 2: the noun \"Entscheidung\" carries the meaning, \"treffen\" stays in second position (not \"*machen*\").",
       },
       {
         type: "translate",
@@ -1255,7 +1260,7 @@ export const DE_B2_U10: Lesson[] = [
         source: "The decision will be made tomorrow.",
         answer: "Die Entscheidung wird morgen getroffen.",
         altAnswers: ["Morgen wird die Entscheidung getroffen."],
-        explanation: "Step 3 of the chain.",
+        explanation: "Step 3: \"die Entscheidung\" becomes the subject and \"treffen\" goes into the passive, \"wird ... getroffen\".",
       },
       {
         type: "translate",
@@ -1341,8 +1346,8 @@ export const DE_B2_U10: Lesson[] = [
       {
         heading: "Errors 1 and 2: the English verb",
         body: [
-          "Error 1: \"*Wir müssen eine Entscheidung machen.\" English 'make' sneaks in. Correct: \"Wir müssen eine Entscheidung treffen.\"",
-          "Error 2: \"*Er hat einen Antrag gemacht.\" Correct: \"Er hat einen Antrag gestellt.\" The same goes for \"*Kritik machen\" → \"Kritik üben\" (or simply \"kritisieren\").",
+          "Error 1: \"*Wir müssen eine Entscheidung machen.*\" English 'make' sneaks in. Correct: \"Wir müssen eine Entscheidung treffen.\"",
+          "Error 2: \"*Er hat einen Antrag gemacht.*\" Correct: \"Er hat einen Antrag gestellt.\" The same goes for \"*Kritik machen*\" → \"Kritik üben\" (or simply \"kritisieren\").",
         ],
         examples: [
           { es: "Wir müssen eine Entscheidung treffen.", en: "We have to make a decision." },
@@ -1357,11 +1362,11 @@ export const DE_B2_U10: Lesson[] = [
             source: "He has applied for housing benefit.",
             answer: "Er hat einen Antrag auf Wohngeld gestellt.",
             altAnswers: ["Er hat Wohngeld beantragt."],
-            explanation: "\"Einen Antrag stellen\", not \"*machen\"; the simple verb \"beantragen\" is also correct.",
+            explanation: "\"Einen Antrag stellen\", not \"*machen*\"; the simple verb \"beantragen\" is also correct.",
           },
           {
             type: "multiple-choice",
-            question: "\"*Die Opposition macht Kritik an dem Gesetz.\" What is the correction?",
+            question: "\"*Die Opposition macht Kritik an dem Gesetz.*\" What is the correction?",
             options: ["übt Kritik an", "gibt Kritik an", "nimmt Kritik an", "stellt Kritik an"],
             correctIndex: 0,
             explanation: "\"Kritik üben an\". (\"Kritik annehmen\" means to accept criticism.)",
@@ -1371,8 +1376,8 @@ export const DE_B2_U10: Lesson[] = [
       {
         heading: "Errors 3 and 4: the wrong partner",
         body: [
-          "Error 3: \"*Die Firma gibt uns Laptops zur Verfügung.\" Correct: \"Die Firma stellt uns Laptops zur Verfügung.\" The verb here is \"stellen\", not \"geben\".",
-          "Error 4: \"*Freitag steht in Frage\", meant as 'Friday is an option'. Correct: \"Freitag kommt in Frage.\" \"In Frage stehen\" exists but means to be in doubt (\"Die Finanzierung steht in Frage\").",
+          "Error 3: \"*Die Firma gibt uns Laptops zur Verfügung.*\" Correct: \"Die Firma stellt uns Laptops zur Verfügung.\" The verb here is \"stellen\", not \"geben\".",
+          "Error 4: \"*Freitag steht in Frage*\", meant as 'Friday is an option'. Correct: \"Freitag kommt in Frage.\" \"In Frage stehen\" exists but means to be in doubt (\"Die Finanzierung steht in Frage\").",
         ],
         examples: [
           { es: "Die Firma stellt uns Laptops zur Verfügung.", en: "The company provides us with laptops." },
@@ -1395,15 +1400,15 @@ export const DE_B2_U10: Lesson[] = [
             en: "The company [provides] us with laptops.",
             sentence: "Die Firma ___ uns Laptops zur Verfügung.",
             answer: "stellt",
-            explanation: "\"Zur Verfügung stellen\", not \"*geben\".",
+            explanation: "\"Zur Verfügung stellen\", not \"*geben*\".",
           },
         ],
       },
       {
         heading: "Errors 5 and 6: have and prepositions",
         body: [
-          "Error 5: \"*Bitte haben Sie Rücksicht auf die Nachbarn.\" Correct: \"Bitte nehmen Sie Rücksicht auf die Nachbarn.\"",
-          "Error 6: wrong preposition or case inside the expression: \"*Kritik üben über\", \"*Rücksicht nehmen für\", \"*in Verbindung setzen zu\". Correct: \"Kritik üben an\" + dative, \"Rücksicht nehmen auf\" + accusative, \"sich in Verbindung setzen mit\" + dative.",
+          "Error 5: \"*Bitte haben Sie Rücksicht auf die Nachbarn.*\" Correct: \"Bitte nehmen Sie Rücksicht auf die Nachbarn.\"",
+          "Error 6: wrong preposition or case inside the expression: \"*Kritik üben über*\", \"*Rücksicht nehmen für*\", \"*in Verbindung setzen zu*\". Correct: \"Kritik üben an\" + dative, \"Rücksicht nehmen auf\" + accusative, \"sich in Verbindung setzen mit\" + dative.",
         ],
         examples: [
           { es: "Bitte nehmen Sie Rücksicht auf die Nachbarn.", en: "Please be considerate of the neighbours." },
@@ -1418,7 +1423,7 @@ export const DE_B2_U10: Lesson[] = [
             source: "She often criticises her boss.",
             answer: "Sie übt oft Kritik an ihrem Chef.",
             altAnswers: ["Sie übt oft Kritik an ihrer Chefin.", "Sie übt häufig Kritik an ihrem Chef."],
-            explanation: "\"An\" + dative: \"an ihrem Chef\" (not \"*über\").",
+            explanation: "\"An\" + dative: \"an ihrem Chef\" (not \"*über*\").",
           },
           {
             type: "translate",
@@ -1427,7 +1432,7 @@ export const DE_B2_U10: Lesson[] = [
             source: "I'll get in touch with the school.",
             answer: "Ich setze mich mit der Schule in Verbindung.",
             altAnswers: ["Ich werde mich mit der Schule in Verbindung setzen."],
-            explanation: "\"Mit\" + dative, not \"*zu\".",
+            explanation: "\"Mit\" + dative, not \"*zu*\".",
           },
         ],
       },
@@ -1436,34 +1441,34 @@ export const DE_B2_U10: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct the sentence: \"*Wir müssen bis Montag eine Entscheidung machen.\"",
+        prompt: "Correct the sentence: \"*Wir müssen bis Montag eine Entscheidung machen.*\"",
         source: "We have to make a decision by Monday.",
         answer: "Wir müssen bis Montag eine Entscheidung treffen.",
         altAnswers: ["Bis Montag müssen wir eine Entscheidung treffen."],
-        explanation: "\"Eine Entscheidung treffen\", not \"*machen\".",
+        explanation: "\"Eine Entscheidung treffen\", not \"*machen*\".",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct the sentence: \"*Haben Sie bitte Rücksicht auf die Kinder.\"",
+        prompt: "Correct the sentence: \"*Haben Sie bitte Rücksicht auf die Kinder.*\"",
         source: "Please be considerate of the children.",
         answer: "Nehmen Sie bitte Rücksicht auf die Kinder.",
         altAnswers: ["Bitte nehmen Sie Rücksicht auf die Kinder."],
-        explanation: "\"Rücksicht nehmen auf\", not \"*haben\".",
+        explanation: "\"Rücksicht nehmen auf\", not \"*haben*\".",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct the sentence: \"*Die Stadt gibt den Bürgern Räume zur Verfügung.\"",
+        prompt: "Correct the sentence: \"*Die Stadt gibt den Bürgern Räume zur Verfügung.*\"",
         source: "The city provides rooms for the citizens.",
         answer: "Die Stadt stellt den Bürgern Räume zur Verfügung.",
         altAnswers: ["Die Stadt stellt den Bürgerinnen und Bürgern Räume zur Verfügung."],
-        explanation: "\"Zur Verfügung stellen\", not \"*geben\".",
+        explanation: "\"Zur Verfügung stellen\", not \"*geben*\".",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct the sentence: \"*Samstag steht für mich nicht in Frage.\"",
+        prompt: "Correct the sentence: \"*Samstag steht für mich nicht in Frage.*\"",
         source: "Saturday is not an option for me.",
         answer: "Samstag kommt für mich nicht in Frage.",
         altAnswers: ["Samstag kommt für mich nicht infrage."],
@@ -1472,11 +1477,11 @@ export const DE_B2_U10: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct the sentence: \"*Ich habe gestern einen Antrag gemacht.\"",
+        prompt: "Correct the sentence: \"*Ich habe gestern einen Antrag gemacht.*\"",
         source: "I submitted an application yesterday.",
         answer: "Ich habe gestern einen Antrag gestellt.",
         altAnswers: ["Gestern habe ich einen Antrag gestellt."],
-        explanation: "\"Einen Antrag stellen\", not \"*machen\".",
+        explanation: "\"Einen Antrag stellen\", not \"*machen*\".",
       },
       {
         type: "fill-blank",
@@ -1484,7 +1489,7 @@ export const DE_B2_U10: Lesson[] = [
         en: "The report [criticises] the new rules.",
         sentence: "Der Bericht ___ Kritik an den neuen Regeln.",
         answer: "übt",
-        explanation: "\"Kritik üben\", not \"*machen\".",
+        explanation: "\"Kritik üben\", not \"*machen*\".",
       },
       {
         type: "fill-blank",
@@ -1492,7 +1497,7 @@ export const DE_B2_U10: Lesson[] = [
         en: "Please [get in touch] with us.",
         sentence: "Bitte setzen Sie sich ___ uns in Verbindung.",
         answer: "mit",
-        explanation: "\"Sich in Verbindung setzen mit\" + dative, not \"*zu\".",
+        explanation: "\"Sich in Verbindung setzen mit\" + dative, not \"*zu*\".",
       },
       {
         type: "multiple-choice",
@@ -1534,7 +1539,7 @@ export const DE_B2_U10: Lesson[] = [
       {
         heading: "The pairs",
         body: [
-          "Someone acts → stellen, bringen, setzen (with an accusative object). Something happens or is the case → stehen, kommen, sein (no object; the thing is the subject).",
+          "Someone acts → \"stellen\", \"bringen\", \"setzen\" (with an accusative object). Something happens or is the case → \"stehen\", \"kommen\", \"sein\" (no object; the thing is the subject).",
           "\"zur Verfügung stellen\" / \"stehen\" (provide / be available), \"zur Sprache bringen\" / \"kommen\" (raise / come up), \"in Gang bringen\" / \"kommen\" (get going / get going by itself), \"zum Abschluss bringen\" / \"kommen\" (complete / come to an end), \"in Verbindung setzen\" / \"stehen\" (put in touch / be in touch).",
           "Quick test: is there a person doing it to something? Then \"stellen\" or \"bringen\". Is the thing the subject? Then \"stehen\" or \"kommen\".",
         ],
@@ -1566,7 +1571,7 @@ export const DE_B2_U10: Lesson[] = [
       {
         heading: "Tense and word order",
         body: [
-          "The Funktionsverb changes like any verb: \"Sie brachte das Thema zur Sprache\", \"Das Thema ist zur Sprache gekommen\" (kommen takes sein), \"Er hat den Antrag gestellt\", \"Die Räume haben zur Verfügung gestanden\" (in the south: sind gestanden).",
+          "The Funktionsverb changes like any verb: \"Sie brachte das Thema zur Sprache\", \"Das Thema ist zur Sprache gekommen\" (\"kommen\" takes \"sein\"), \"Er hat den Antrag gestellt\", \"Die Räume haben zur Verfügung gestanden\" (in the south: \"sind gestanden\").",
           "The noun part stays at the end of the clause, like a separable prefix: \"Wir stehen seit Jahren mit der Firma in Verbindung.\" In a subordinate clause the verb follows it: \"..., weil keine Räume zur Verfügung stehen.\"",
         ],
         examples: [
@@ -1590,7 +1595,7 @@ export const DE_B2_U10: Lesson[] = [
             prompt: "Translate into German, with a Funktionsverbgefüge.",
             source: "The course is cancelled because no rooms are available.",
             answer: "Der Kurs fällt aus, weil keine Räume zur Verfügung stehen.",
-            altAnswers: ["Der Kurs fällt aus, da keine Räume zur Verfügung stehen."],
+            altAnswers: ["Der Kurs fällt aus, da keine Räume zur Verfügung stehen.", "Weil keine Räume zur Verfügung stehen, fällt der Kurs aus."],
             explanation: "Subordinate clause: \"zur Verfügung\", then the verb at the very end.",
           },
         ],
@@ -1708,13 +1713,13 @@ export const DE_B2_U10: Lesson[] = [
     level: "DE-B2",
     number: 10,
     title: "Dictation: Ein amtliches Schreiben",
-    summary: "Hear and write letters from the Ausländerbehörde and the Finanzamt, full of Funktionsverbgefüge and nominal style.",
+    summary: "Understand and write down sentences from letters from the \"Ausländerbehörde\" and the \"Finanzamt\", full of Funktionsverbgefüge and nominal style.",
     duration: "15 min",
     sections: [
       {
         heading: "Ein Brief von der Ausländerbehörde",
         body: [
-          "Official letters (\"amtliche Schreiben\") combine everything from Units 9 and 10: nominal style, genitives and Funktionsverbgefüge. A typical letter from the Ausländerbehörde (immigration office) about a residence permit (\"die Aufenthaltserlaubnis\") might begin: \"Sehr geehrte Frau Petrova, Ihr Antrag auf Verlängerung Ihrer Aufenthaltserlaubnis ist bei uns eingegangen.\"",
+          "Official letters (\"amtliche Schreiben\") combine everything from Units 9 and 10: nominal style, genitives and Funktionsverbgefüge. A typical letter from the \"Ausländerbehörde\" (immigration office) about a residence permit (\"die Aufenthaltserlaubnis\") might begin: \"Sehr geehrte Frau Petrova, Ihr Antrag auf Verlängerung Ihrer Aufenthaltserlaubnis ist bei uns eingegangen.\"",
           "Key phrases: \"der Antrag ist eingegangen\" (has been received), \"zur Bearbeitung benötigen wir\" (to process it we need), \"bitte reichen Sie ... ein\" (please submit), \"innerhalb von zwei Wochen\" (within two weeks), \"die Unterlagen\" (documents).",
         ],
         examples: [
@@ -1770,7 +1775,7 @@ export const DE_B2_U10: Lesson[] = [
       {
         heading: "Ein Brief vom Finanzamt",
         body: [
-          "The Finanzamt (tax office) writes in the same style: \"Ihre Steuererklärung für das Jahr 2025 ist bei uns eingegangen. Bei der Prüfung haben sich folgende Fragen ergeben.\" (\"die Steuererklärung\" = tax return, \"der Steuerbescheid\" = tax assessment).",
+          "The \"Finanzamt\" (tax office) writes in the same style: \"Ihre Steuererklärung für das Jahr 2025 ist bei uns eingegangen. Bei der Prüfung haben sich folgende Fragen ergeben.\" (\"die Steuererklärung\" = tax return, \"der Steuerbescheid\" = tax assessment).",
           "\"In Anspruch nehmen\" is common for benefits and deductions: \"Sie haben eine Steuerermäßigung für haushaltsnahe Dienstleistungen in Anspruch genommen.\" And: \"Gegen diesen Bescheid können Sie innerhalb eines Monats Einspruch einlegen\" (lodge an objection).",
         ],
         examples: [
@@ -1882,7 +1887,7 @@ export const DE_B2_U10: Lesson[] = [
     level: "DE-B2",
     number: 11,
     title: "Upper-Intermediate Vocabulary Practice, Part 4 of 10",
-    summary: "Test the Upper-intermediate vocabulary of Unit 10: Funktionsverbgefüge with their prepositions and articles.",
+    summary: "Use the Funktionsverbgefüge of Unit 10 with the right preposition, case and article.",
     duration: "15 min",
     sections: [
       {
@@ -1903,8 +1908,8 @@ export const DE_B2_U10: Lesson[] = [
             prompt: "Translate into German, with a Funktionsverbgefüge.",
             source: "I refer to your letter of 3 May.",
             answer: "Ich nehme Bezug auf Ihr Schreiben vom 3. Mai.",
-            altAnswers: ["Ich nehme Bezug auf Ihren Brief vom 3. Mai.", "Ich beziehe mich auf Ihr Schreiben vom 3. Mai."],
-            explanation: "\"Bezug nehmen auf\" + accusative; the simple verb is \"sich beziehen auf\".",
+            altAnswers: ["Ich nehme Bezug auf Ihren Brief vom 3. Mai."],
+            explanation: "\"Bezug nehmen auf\" + accusative; the simple verb is \"sich beziehen auf\" (correct, but not the Funktionsverbgefüge asked for here).",
           },
           {
             type: "fill-blank",
@@ -2016,6 +2021,7 @@ export const DE_B2_U10: Lesson[] = [
         prompt: "Translate into German, with a Funktionsverbgefüge.",
         source: "The law has been in force since March.",
         answer: "Das Gesetz ist seit März in Kraft.",
+        altAnswers: ["Seit März ist das Gesetz in Kraft."],
         explanation: "State: \"in Kraft sein\"; with \"seit\", German uses the present.",
       },
       {
@@ -2040,7 +2046,7 @@ export const DE_B2_U10: Lesson[] = [
         prompt: "Translate into German, with a Funktionsverbgefüge.",
         source: "We'd like to make use of the offer.",
         answer: "Wir möchten das Angebot in Anspruch nehmen.",
-        altAnswers: ["Wir würden das Angebot gern in Anspruch nehmen.", "Wir würden gern das Angebot in Anspruch nehmen."],
+        altAnswers: ["Wir würden das Angebot gern in Anspruch nehmen.", "Wir würden gern das Angebot in Anspruch nehmen.", "Wir möchten das Angebot gern in Anspruch nehmen."],
         explanation: "\"In Anspruch nehmen\" = \"nutzen\", formally.",
       },
       {
@@ -2077,7 +2083,7 @@ export const DE_B2_U10: Lesson[] = [
     level: "DE-B2",
     number: 12,
     title: "Spiral Review: Participle Phrases Without Errors",
-    summary: "Spaced review of Unit 7: build extended attributes with correct endings.",
+    summary: "Build extended participle phrases such as \"die gestern gekaufte Lampe\" with the correct endings in every case (spaced review of Unit 7).",
     duration: "13 min",
     sections: [
       {
@@ -2240,7 +2246,7 @@ export const DE_B2_U10: Lesson[] = [
 
 export const DE_B2_U10_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You took part in a team meeting about a new project. Write the minutes (Protokoll) or a follow-up email to your manager, who could not attend: what was discussed, what was decided, what problems came up and who will do what next. Use Funktionsverbgefüge where they fit a formal text.",
+  prompt: "You took part in a team meeting about a new project. Write the \"Protokoll\" (minutes) or a follow-up email to your manager, who could not attend: what was discussed, what was decided, what problems came up and who will do what next. Use Funktionsverbgefüge where they fit a formal text.",
   minWords: 120,
   maxWords: 220,
   rubric: [
@@ -2249,6 +2255,6 @@ export const DE_B2_U10_WRITING: WriteExercise = {
     "Uses active and resultative partners correctly (\"stellen\" / \"stehen\", \"bringen\" / \"kommen\") and at least one passive (\"die Entscheidung wurde getroffen\")",
     "Keeps a formal register throughout, with a clear structure and an appropriate greeting and closing",
   ],
-  modelAnswer: "Betreff: Protokoll der Teambesprechung vom 12. September\n\nSehr geehrte Frau Albrecht,\n\nda Sie an der Besprechung nicht teilnehmen konnten, fasse ich die Ergebnisse kurz zusammen.\n\nZunächst wurde die Einführung des neuen Kundenportals besprochen. Nach längerer Diskussion wurde die Entscheidung getroffen, das Projekt im November zu starten. Ein früherer Termin kam wegen der Urlaubszeit nicht in Frage.\n\nHerr Yilmaz brachte zur Sprache, dass für externe Entwickler derzeit keine Mittel zur Verfügung stehen. Wir werden daher bis Freitag einen Antrag auf zusätzliches Budget stellen.\n\nFrau Becker übte Kritik an der Planung des letzten Projekts, bei der auf den Kundenservice zu wenig Rücksicht genommen worden sei. Das Team war sich einig, dass wir diesen Punkt in Betracht ziehen müssen. Ich setze mich deshalb noch diese Woche mit dem Kundenservice in Verbindung.\n\nAm Ende kam auch die Urlaubsplanung für den Sommer kurz zur Sprache; hier wird die Entscheidung in der nächsten Sitzung getroffen.\n\nFür Rückfragen stehe ich Ihnen gern zur Verfügung.\n\nMit freundlichen Grüßen\nJonas Hartmann",
+  modelAnswer: "Betreff: Protokoll der Teambesprechung vom 12. September\n\nSehr geehrter Herr Krause,\n\nda Sie an der Besprechung nicht teilnehmen konnten, fasse ich die Ergebnisse kurz zusammen.\n\nZunächst wurde die Einführung des neuen Kundenportals besprochen. Nach längerer Diskussion wurde die Entscheidung getroffen, das Projekt im November zu starten. Ein früherer Termin kam wegen der Urlaubszeit nicht in Frage.\n\nHerr Yilmaz brachte zur Sprache, dass für externe Entwickler derzeit keine Mittel zur Verfügung stehen. Wir werden daher bis Freitag einen Antrag auf zusätzliches Budget stellen.\n\nFrau Becker übte Kritik an der Planung des letzten Projekts, bei der auf den Kundenservice zu wenig Rücksicht genommen worden sei. Das Team war sich einig, dass wir diesen Punkt in Betracht ziehen müssen. Ich setze mich deshalb noch diese Woche mit dem Kundenservice in Verbindung.\n\nAm Ende kam auch die Urlaubsplanung für den Sommer kurz zur Sprache; hier wird die Entscheidung in der nächsten Sitzung getroffen.\n\nFür Rückfragen stehe ich Ihnen gern zur Verfügung.\n\nMit freundlichen Grüßen\nJonas Hartmann",
   explanation: "The minutes use Funktionsverbgefüge naturally (\"die Entscheidung getroffen\", \"kam nicht in Frage\", \"brachte zur Sprache\", \"keine Mittel zur Verfügung stehen\", \"einen Antrag stellen\", \"Kritik üben an\", \"Rücksicht genommen\", \"in Betracht ziehen\", \"sich in Verbindung setzen mit\"), pair active and resultative verbs (\"brachte zur Sprache\" / \"kam zur Sprache\"), use the passive for decisions, and keep a formal register with indirect speech for a colleague's criticism.",
 };

@@ -81,7 +81,7 @@ export const DE_A1_WRITING: UnitWriting = {
         "Keeps the verb in second place after a day at the start (\"Am Dienstag lerne ich...\")",
         "Ends with a du-question (\"Was machst du am Wochenende?\")"
       ],
-      "modelAnswer": "Hallo Clara, meine Woche ist voll! Am Montag und am Mittwoch arbeite ich im Büro. Am Dienstag lerne ich Deutsch. Am Donnerstag spiele ich Tennis mit Paul. Am Freitag kochen meine Freunde und ich zusammen. Am Samstag besuche ich meine Oma. Und du? Was machst du am Wochenende? Liebe Grüße, Sam",
+      "modelAnswer": "Hallo Clara, meine Woche ist voll! Am Montag und am Mittwoch arbeite ich im Büro. Am Dienstag lerne ich Deutsch. Am Donnerstag spiele ich Tennis mit Paul. Am Freitag kochen meine Freunde und ich zusammen. Am Samstag besuche ich meine Oma. Und du? Was machst du am Wochenende? Liebe Grüße Sam",
       "explanation": "Regular verbs add the endings to the stem (\"arbeite\", \"lerne\", \"spiele\", \"kochen\", \"machst\"). When a day comes first, the verb stays second and the subject follows it: \"Am Dienstag lerne ich Deutsch\"."
     }
   ],
@@ -193,7 +193,7 @@ export const DE_A1_WRITING: UnitWriting = {
         "Gives a phone number and a name",
         "Describes each thing with sein + adjective"
       ],
-      "modelAnswer": "Ich verkaufe: ein Fahrrad, sehr gut, drei Jahre alt, 120 Euro. Einen Tisch, ziemlich klein, aus 2019, nur 35 Euro. Eine Lampe, neu, 12,50 Euro. Interesse? Meine Nummer ist 0176 452 318. Viele Grüße, Jonas",
+      "modelAnswer": "Ich verkaufe: ein Fahrrad, sehr gut, drei Jahre alt, 120 Euro. Einen Tisch, ziemlich klein, aus 2019, nur 35 Euro. Eine Lampe, neu, 12,50 Euro. Interesse? Meine Nummer ist 0176 452 318. Viele Grüße Jonas",
       "explanation": "Prices use \"Euro\" in the singular and a decimal comma (\"12,50 Euro\"), and age is \"drei Jahre alt\". A year after \"aus\" is read as a number (\"zweitausendneunzehn\"), and phone numbers are read in single digits or pairs."
     }
   ],

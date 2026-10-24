@@ -8,7 +8,7 @@ export const DE_B1_U25: Lesson[] = [
     level: "DE-B1",
     number: 1,
     title: "Indefinite Pronouns, Part 1 of 2: Man, Jemand, Niemand",
-    summary: "Man for people in general, with einen and einem in the other cases; jemand and niemand with jemanden / niemanden and jemandem / niemandem.",
+    summary: "Talk about people in general with \"man\" (and \"einen\" / \"einem\" as objects), and about someone or no one with \"jemand\" and \"niemand\" in every case.",
     duration: "15 min",
     sections: [
       {
@@ -50,7 +50,7 @@ export const DE_B1_U25: Lesson[] = [
         heading: "Einen and einem: man in other cases",
         body: [
           "\"Man\" exists only in the nominative. When general you is the object, German uses \"einen\" (accusative) and \"einem\" (dative): \"Das macht einen müde\" (That makes you tired), \"Das kann einem passieren\" (That can happen to anyone), \"Hier hilft einem keiner\" (Nobody helps you here).",
-          "These forms are the ones from \"einer\" (one person). Learners often say \"*Das macht man müde\", which sounds like the subject is \"man\". Use \"einen\" whenever general you is the object.",
+          "These forms are the ones from \"einer\" (one person). Learners often say \"*Das macht man müde*\", which sounds like the subject is \"man\". Use \"einen\" whenever general you is the object.",
           "Typical verbs with \"einem\": \"passieren\", \"helfen\", \"gefallen\", \"schmecken\", \"wehtun\", \"auffallen\" (to strike someone). With \"einen\": \"machen\" + adjective, \"ärgern\", \"freuen\", \"stören\", \"nerven\".",
         ],
         examples: [
@@ -85,7 +85,7 @@ export const DE_B1_U25: Lesson[] = [
         body: [
           "\"Jemand\" means someone or anyone, \"niemand\" means no one or nobody. In the nominative they're simple: \"Jemand hat angerufen\", \"Niemand war zu Hause\". In writing they add endings in the other cases: accusative \"jemanden\", \"niemanden\"; dative \"jemandem\", \"niemandem\".",
           "\"Ich kenne niemanden in dieser Stadt\" (I don't know anyone in this city), \"Hast du jemandem davon erzählt?\" (Did you tell anyone about it?). In everyday speech you'll also hear the forms without endings (\"Ich kenne niemand\"), but the endings are correct and expected in writing.",
-          "\"Niemand\" is already negative: \"*Niemand hat nicht angerufen\" is a double negative and wrong. It's \"Niemand hat angerufen\". The everyday synonym is \"keiner\": \"Keiner hat angerufen\". Questions use \"jemand\" for anyone: \"Ist jemand da?\".",
+          "\"Niemand\" is already negative: \"*Niemand hat nicht angerufen*\" is a double negative and wrong. It's \"Niemand hat angerufen\". The everyday synonym is \"keiner\": \"Keiner hat angerufen\". Questions use \"jemand\" for anyone: \"Ist jemand da?\".",
         ],
         examples: [
           { es: "Jemand hat für dich angerufen.", en: "Someone called for you." },
@@ -117,7 +117,7 @@ export const DE_B1_U25: Lesson[] = [
           {
             type: "speak",
             text: "Ich habe niemandem etwas gesagt.",
-            tip: "Niemandem: NEE-man-dem, stress on the first syllable.",
+            tip: "\"Niemandem\": NEE-man-dem, stress on the first syllable.",
             explanation: "Dative \"niemandem\" with \"sagen\"; no extra \"nicht\".",
           },
         ],
@@ -189,6 +189,7 @@ export const DE_B1_U25: Lesson[] = [
         prompt: "Put the words in order to say: You should call your parents more often.",
         words: ["Man", "sollte", "seine", "Eltern", "öfter", "anrufen."],
         translation: "One should call one's parents more often.",
+        altOrders: [["Man", "sollte", "öfter", "seine", "Eltern", "anrufen."]],
         explanation: "\"Man\" takes \"sein\" as its possessive.",
       },
       {
@@ -217,7 +218,7 @@ export const DE_B1_U25: Lesson[] = [
     level: "DE-B1",
     number: 2,
     title: "Pattern Practice: Man, Einen, Einem",
-    summary: "Drill man in all cases in general statements: Man weiß nie; Das freut einen; Hier hilft einem keiner.",
+    summary: "Make general statements with \"man\" in every case, as in \"Man weiß nie\", \"Das freut einen\" and \"Hier hilft einem keiner\".",
     duration: "12 min",
     sections: [
       {
@@ -291,7 +292,7 @@ export const DE_B1_U25: Lesson[] = [
           {
             type: "speak",
             text: "Man merkt es erst, wenn es einem fehlt.",
-            tip: "Merkt: the r is soft; the kt is crisp, MAIRKT.",
+            tip: "\"Merkt\": the r is soft; the kt is crisp, MAIRKT.",
             explanation: "\"Man\" as subject, \"einem\" as the dative with \"fehlen\".",
           },
         ],
@@ -387,7 +388,7 @@ export const DE_B1_U25: Lesson[] = [
         prompt: "Translate into German.",
         source: "Nobody helps you if you don't ask.",
         answer: "Keiner hilft einem, wenn man nicht fragt.",
-        altAnswers: ["Niemand hilft einem, wenn man nicht fragt.", "Keiner hilft dir, wenn du nicht fragst.", "Niemand hilft dir, wenn du nicht fragst."],
+        altAnswers: ["Niemand hilft einem, wenn man nicht fragt.", "Wenn man nicht fragt, hilft einem keiner.", "Wenn man nicht fragt, hilft einem niemand.", "Keiner hilft dir, wenn du nicht fragst.", "Niemand hilft dir, wenn du nicht fragst."],
         explanation: "\"Einem\" after \"helfen\"; \"man\" in the wenn-clause.",
       },
       {
@@ -415,7 +416,7 @@ export const DE_B1_U25: Lesson[] = [
     level: "DE-B1",
     number: 3,
     title: "Fill the Story: The House Swap",
-    summary: "Two families swap homes for the summer; the gaps need man, jemand, niemand, etwas and nichts.",
+    summary: "Follow two families who swap homes for the summer and fill the gaps with \"man\", \"jemand\", \"niemand\", \"etwas\" and \"nichts\".",
     duration: "15 min",
     sections: [
       {
@@ -428,7 +429,7 @@ export const DE_B1_U25: Lesson[] = [
         examples: [
           { es: "Wenn man ankommt, findet man den Schlüssel im Briefkasten.", en: "When you arrive, you'll find the key in the letterbox." },
           { es: "Falls etwas nicht funktioniert, fragen Sie jemanden aus dem Haus.", en: "If anything doesn't work, ask someone in the building." },
-          { es: "Frau Huber kennt sich mit allem aus.", en: "Mrs Huber knows all about everything." },
+          { es: "Frau Huber kennt sich mit allem aus.", en: "Ms Huber knows all about everything." },
           { es: "Bitte geben Sie den Schlüssel niemandem.", en: "Please don't give the key to anyone." },
           { es: "Wir haben noch nie einen Haustausch gemacht.", en: "We've never done a house swap before." },
         ],
@@ -436,7 +437,7 @@ export const DE_B1_U25: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "If [anything] doesn't work, ask Mrs Huber.",
+            en: "If [anything] doesn't work, ask Ms Huber.",
             sentence: "Falls ___ nicht funktioniert, fragen Sie Frau Huber.",
             answer: "etwas",
             altAnswers: ["was"],
@@ -457,7 +458,7 @@ export const DE_B1_U25: Lesson[] = [
         heading: "The first evening",
         body: [
           "The Kayas arrive late in München. Ayşe Kaya writes in her diary: \"Wir kamen um zehn Uhr abends an. Niemand war auf der Straße, und im Haus war alles dunkel. Wir hatten Hunger, aber im Kühlschrank war nichts. Zum Glück hatte jemand einen Zettel auf den Tisch gelegt: Pizza-Service, Tel. ...\"",
-          "\"Niemand\" as the subject (no ending), \"nichts\" (nothing) and \"alles\" (everything), and \"jemand\" as the subject. \"Nichts\" never takes \"nicht\" either: \"Im Kühlschrank war nichts\" (there was nothing), not \"*nicht nichts\".",
+          "\"Niemand\" as the subject (no ending), \"nichts\" (nothing) and \"alles\" (everything), and \"jemand\" as the subject. \"Nichts\" never takes \"nicht\" either: \"Im Kühlschrank war nichts\" (there was nothing), not \"*nicht nichts*\".",
           "With an adjective, \"etwas\" and \"nichts\" take a capital and -es (from Unit 20): \"etwas Leckeres\", \"nichts Besonderes\".",
         ],
         examples: [
@@ -489,7 +490,7 @@ export const DE_B1_U25: Lesson[] = [
           {
             type: "speak",
             text: "Wir haben etwas Leckeres bestellt.",
-            tip: "Leckeres: LEK-ke-res, short e in the first syllable.",
+            tip: "\"Leckeres\": LEK-ke-res, short e in the first syllable.",
             explanation: "\"Etwas\" + adjective as a noun: capital letter and -es.",
           },
         ],
@@ -615,7 +616,7 @@ export const DE_B1_U25: Lesson[] = [
     level: "DE-B1",
     number: 4,
     title: "Indefinite Pronouns, Part 2 of 2: Einer, Keiner, Welche",
-    summary: "Ein and kein as pronouns take der-word endings (Ich habe einen / keinen; einer, eine, eins; keiner, keine, keins), and welche stands for plurals and uncountables.",
+    summary: "Say one, none and some without repeating the noun: \"einer\", \"eine\", \"eins\", \"keiner\", \"keins\" with der-word endings, and \"welche\" for plurals and uncountables.",
     duration: "15 min",
     sections: [
       {
@@ -623,7 +624,7 @@ export const DE_B1_U25: Lesson[] = [
         body: [
           "When \"ein\" stands alone without its noun, it becomes a pronoun meaning one, and it shows gender and case with the full endings of \"der, die, das\": \"Hast du einen Stift? — Ja, ich habe einen.\" \"Da kommt ein Bus\" → \"Da kommt einer\". \"Ich brauche eine Tasche\" → \"Ich brauche eine\". \"Hast du ein Auto?\" → \"Ja, ich habe eins\".",
           "The forms that differ from the article are the ones where \"ein\" has no ending: masculine nominative \"einer\" (not ein) and neuter nominative and accusative \"eins\" (or \"eines\" in careful writing). All the others look like the article: \"einen\", \"einem\", \"eine\", \"einer\".",
-          "English says one (I've got one) and German says \"einen / eine / eins\". The trap is \"*Ich habe ein\": a bare \"ein\" can't stand alone.",
+          "English says one (I've got one) and German says \"einen / eine / eins\". The trap is \"*Ich habe ein*\": a bare \"ein\" can't stand alone.",
         ],
         examples: [
           { es: "Hast du einen Stift? — Ja, ich habe einen.", en: "Have you got a pen? — Yes, I've got one." },
@@ -688,7 +689,7 @@ export const DE_B1_U25: Lesson[] = [
           {
             type: "speak",
             text: "Keiner von uns hatte Zeit.",
-            tip: "Keiner: KYE-ner, the ei like English eye.",
+            tip: "\"Keiner\": KYE-ner, the ei like English eye.",
             explanation: "\"Keiner\" = none, nobody.",
           },
         ],
@@ -698,7 +699,7 @@ export const DE_B1_U25: Lesson[] = [
         body: [
           "For plural nouns and uncountables (milk, money, time), English uses some or any as a pronoun: Have you got any milk? — Yes, I've got some. German uses \"welche\": \"Hast du Milch? — Ja, ich habe welche\". \"Brauchst du Eier? — Nein, ich habe noch welche\".",
           "The negative is \"keine\" (for plurals and feminine uncountables) or \"keinen / keins\" by gender: \"Hast du Geld? — Nein, ich habe keins\" (das Geld). \"Hast du Zeit? — Nein, ich habe keine\".",
-          "The English-speaker mistake is \"*Ich habe einige Milch\" or \"*Ich habe etwas\" as a bare reply. \"Etwas\" is possible with a noun (\"Ich habe noch etwas Milch\"), but as a pronoun the natural word is \"welche\".",
+          "English speakers tend to reach for \"einige\", but \"einige Milch\" sounds odd. \"Etwas\" works with a noun (\"Ich habe noch etwas Milch\") and, for uncountables, as a short reply (\"Ja, noch etwas\"), but the all-purpose pronoun for some / any is \"welche\".",
         ],
         examples: [
           { es: "Hast du Milch? — Ja, ich habe welche.", en: "Have you got any milk? — Yes, I've got some." },
@@ -824,7 +825,7 @@ export const DE_B1_U25: Lesson[] = [
     level: "DE-B1",
     number: 5,
     title: "Minimal Pairs: Ein / Einer / Eins",
-    summary: "Hear and produce the switch from article to pronoun: Ein Bus kommt / Da kommt einer; ein Auto / Ich habe eins; kein Problem / Ich habe keins.",
+    summary: "Hear and say the switch from article to pronoun, as in \"Ein Bus kommt\" / \"Da kommt einer\" and \"ein Auto\" / \"Ich habe eins\".",
     duration: "12 min",
     sections: [
       {
@@ -896,7 +897,7 @@ export const DE_B1_U25: Lesson[] = [
           {
             type: "speak",
             text: "Brauchst du ein Messer? — Ja, gib mir bitte eins.",
-            tip: "Eins: the ei like eye, then a clear ns.",
+            tip: "\"Eins\": the ei like eye, then a clear ns.",
             explanation: "Article \"ein\" before the noun, pronoun \"eins\" alone.",
           },
         ],
@@ -906,7 +907,7 @@ export const DE_B1_U25: Lesson[] = [
         body: [
           "Negative replies are where the pronouns are most useful: \"Hast du einen Termin? — Nein, ich habe keinen\". \"Gibt es hier eine Toilette? — Nein, hier gibt es keine\". \"Hast du ein Ladekabel? — Nein, ich habe leider keins\".",
           "\"Keiner\" is masculine nominative or nobody: \"Ist einer von euch Arzt? — Nein, keiner\". \"Keine\" also covers the plural: \"Hast du Fotos? — Nein, ich habe keine\".",
-          "Again the trap: \"*Ich habe kein\" never stands alone.",
+          "Again the trap: \"*Ich habe kein*\" never stands alone.",
         ],
         examples: [
           { es: "Hast du einen Termin? — Nein, ich habe keinen.", en: "Have you got an appointment? — No, I haven't." },
@@ -985,7 +986,7 @@ export const DE_B1_U25: Lesson[] = [
         prompt: "Translate into German.",
         source: "I need a pen. Have you got one?",
         answer: "Ich brauche einen Stift. Hast du einen?",
-        altAnswers: ["Ich brauche einen Kuli. Hast du einen?", "Ich brauche einen Stift. Haben Sie einen?"],
+        altAnswers: ["Ich brauche einen Kuli. Hast du einen?", "Ich brauche einen Stift. Haben Sie einen?", "Ich brauche einen Stift. Habt ihr einen?"],
         explanation: "Masculine accusative: \"einen\" for both article and pronoun.",
       },
       {
@@ -1022,14 +1023,14 @@ export const DE_B1_U25: Lesson[] = [
     level: "DE-B1",
     number: 6,
     title: "Choose and Explain: Der, Was or Wo?",
-    summary: "Spiral review of relative words: der / die / das for nouns, was after alles / etwas / nichts, wo for places, and preposition + relative pronoun.",
+    summary: "Choose the right relative word: \"der\" / \"die\" / \"das\" after nouns, \"was\" after \"alles\", \"etwas\" and \"nichts\", \"wo\" for places, and preposition + relative pronoun.",
     duration: "12 min",
     sections: [
       {
         heading: "Der, die, das after a noun",
         body: [
           "After a noun, the relative pronoun is \"der, die, das\" (plural \"die\"), taking gender and number from the noun and case from its job in the relative clause: \"der Mann, der dort wohnt\" (subject), \"der Mann, den ich kenne\" (accusative), \"der Mann, dem ich helfe\" (dative), \"die Kinder, denen ich Nachhilfe gebe\" (dative plural).",
-          "This is the default. Whenever there's a specific noun, use \"der / die / das\", even for things: \"das Buch, das ich lese\" (never \"*das Buch, was ich lese\" in standard German).",
+          "This is the default. Whenever there's a specific noun, use \"der / die / das\", even for things: \"das Buch, das ich lese\" (never \"*das Buch, was ich lese*\" in standard German).",
           "The verb goes to the end of the relative clause, and the clause is separated by commas.",
         ],
         examples: [
@@ -1092,7 +1093,7 @@ export const DE_B1_U25: Lesson[] = [
           {
             type: "speak",
             text: "Alles, was du sagst, stimmt.",
-            tip: "Stimmt: SHTIMMT, with a clear t at the end.",
+            tip: "\"Stimmt\": SHTIMMT, with a clear t at the end.",
             explanation: "\"Alles, was\": \"was\" after an indefinite pronoun.",
           },
         ],
@@ -1225,7 +1226,7 @@ export const DE_B1_U25: Lesson[] = [
     level: "DE-B1",
     number: 7,
     title: "Word Formation, Part 1 of 2: Noun Suffixes",
-    summary: "Build nouns from verbs and adjectives and read their gender off the ending: -ung, -heit, -keit, -schaft (feminine), -er, -ling (masculine), -chen, -lein, -ment, -um (neuter).",
+    summary: "Build nouns from verbs and adjectives and tell their gender from the ending: -ung, -heit, -keit, -schaft (feminine), -er, -ling (masculine), -chen, -lein, -ment, -um (neuter).",
     duration: "15 min",
     sections: [
       {
@@ -1335,7 +1336,7 @@ export const DE_B1_U25: Lesson[] = [
           {
             type: "speak",
             text: "Nach dem Studium hat sie in Berlin gearbeitet.",
-            tip: "Studium: SHTOO-dee-um.",
+            tip: "\"Studium\": SHTOO-dee-um.",
             explanation: "\"Das Studium\" (-um, neuter) → dative \"dem\".",
           },
         ],
@@ -1434,7 +1435,7 @@ export const DE_B1_U25: Lesson[] = [
     level: "DE-B1",
     number: 8,
     title: "Word Formation, Part 2 of 2: Adjective Suffixes and Un-",
-    summary: "Adjectives from nouns and verbs with -lich, -ig, -isch, -bar, -los and the prefix un-, plus false friends like sensibel and konsequent.",
+    summary: "Build adjectives from nouns and verbs with -lich, -ig, -isch, -bar, -los and the prefix un-, and avoid false friends like \"sensibel\" and \"konsequent\".",
     duration: "15 min",
     sections: [
       {
@@ -1507,7 +1508,7 @@ export const DE_B1_U25: Lesson[] = [
           {
             type: "speak",
             text: "Ich bin ab neun Uhr telefonisch erreichbar.",
-            tip: "Erreichbar: stress on REICH, er-RYECH-bar.",
+            tip: "\"Erreichbar\": stress on REICH, er-RYECH-bar.",
             explanation: "\"Erreichen → erreichbar\": reachable.",
           },
         ],
@@ -1515,7 +1516,7 @@ export const DE_B1_U25: Lesson[] = [
       {
         heading: "Un- and false friends",
         body: [
-          "The prefix \"un-\" makes the opposite, like English un-: \"möglich → unmöglich\", \"bekannt → unbekannt\", \"freundlich → unfreundlich\", \"wichtig → unwichtig\", \"bequem → unbequem\". It's stressed: UN-möglich. It also combines with suffixes: \"unglaublich\" (unbelievable), \"unvergesslich\" (unforgettable).",
+          "The prefix \"un-\" makes the opposite, like English un-: \"möglich → unmöglich\", \"bekannt → unbekannt\", \"freundlich → unfreundlich\", \"wichtig → unwichtig\", \"bequem → unbequem\". It usually carries the stress: UN-bekannt, UN-freundlich (in \"unmöglich\" and \"unglaublich\" the stress often moves to the second syllable). It also combines with suffixes: \"unglaublich\" (unbelievable), \"unvergesslich\" (unforgettable).",
           "Some adjectives look English but mean something else. \"Sensibel\" means sensitive, not sensible (that's \"vernünftig\"). \"Konsequent\" means consistent, not consequent. \"Eventuell\" means possibly, not eventually (that's \"schließlich\"). \"Aktuell\" means current, not actual (that's \"tatsächlich\"). \"Sympathisch\" means likeable, not sympathetic (that's \"mitfühlend\").",
           "These cause real misunderstandings: telling a German colleague \"Sie sind sehr sensibel\" sounds like you're calling them oversensitive.",
         ],
@@ -1632,7 +1633,7 @@ export const DE_B1_U25: Lesson[] = [
         type: "speak",
         text: "Der neue Kollege ist sehr sympathisch.",
         prompt: "Say it in German: The new colleague is very likeable.",
-        tip: "Sympathisch: züm-PAH-tish, the y like German ü.",
+        tip: "\"Sympathisch\": züm-PAH-tish, the y like German \"ü\".",
         explanation: "\"Sympathisch\" = likeable.",
       },
     ],
@@ -1642,7 +1643,7 @@ export const DE_B1_U25: Lesson[] = [
     level: "DE-B1",
     number: 9,
     title: "Real-World Mission: Lost Property",
-    summary: "Report a lost item at the Fundbüro: describe it with adjective endings, say when and where with the pasts, and answer Ist das Ihrer? — Nein, meiner ist größer.",
+    summary: "Report a lost item at the \"Fundbüro\": describe it with adjective endings, say when and where you lost it, and answer \"Ist das Ihrer?\" with \"Nein, meiner ist größer\".",
     duration: "15 min",
     sections: [
       {
@@ -1675,7 +1676,7 @@ export const DE_B1_U25: Lesson[] = [
             prompt: "Translate into German.",
             source: "I left it on the train. (the rucksack)",
             answer: "Ich habe ihn im Zug liegen lassen.",
-            altAnswers: ["Ich habe ihn im Zug liegen gelassen.", "Ich habe ihn im Zug vergessen."],
+            altAnswers: ["Ich habe ihn im Zug liegen gelassen.", "Ich habe ihn im Zug liegenlassen.", "Ich habe ihn im Zug liegengelassen.", "Ich habe ihn im Zug vergessen."],
             explanation: "\"Liegen lassen\" in the Perfekt: \"liegen lassen\" (or \"liegen gelassen\"). \"Ihn\" for \"der Rucksack\".",
           },
         ],
@@ -1716,7 +1717,7 @@ export const DE_B1_U25: Lesson[] = [
           {
             type: "speak",
             text: "Es ist ein grauer Rucksack mit einem roten Reißverschluss.",
-            tip: "Reißverschluss: RICE-fer-shluss.",
+            tip: "\"Reißverschluss\": RICE-fer-shluss.",
             explanation: "Adjective endings after \"ein\" and \"einem\".",
           },
         ],
@@ -1804,7 +1805,7 @@ export const DE_B1_U25: Lesson[] = [
         prompt: "Translate into German.",
         source: "We'll get in touch if someone finds it. (the rucksack)",
         answer: "Wir melden uns, wenn jemand ihn findet.",
-        altAnswers: ["Wir melden uns, wenn ihn jemand findet.", "Wir melden uns bei Ihnen, wenn jemand ihn findet."],
+        altAnswers: ["Wir melden uns, wenn ihn jemand findet.", "Wir melden uns bei Ihnen, wenn jemand ihn findet.", "Wir melden uns bei Ihnen, wenn ihn jemand findet."],
         explanation: "\"Jemand\" as the subject; \"sich melden\" = to get in touch.",
       },
       {
@@ -1850,13 +1851,13 @@ export const DE_B1_U25: Lesson[] = [
     level: "DE-B1",
     number: 10,
     title: "Mixed Practice: The Residents' Meeting",
-    summary: "The minutes of an Eigentümerversammlung: man, jemand, niemand, the passive with modals and -ung nouns (die Renovierung, die Abstimmung).",
+    summary: "Read and write the minutes of an owners' meeting (\"Eigentümerversammlung\") with \"man\", \"jemand\", \"niemand\", the passive with modals and -ung nouns like \"die Abstimmung\".",
     duration: "15 min",
     sections: [
       {
         heading: "The agenda",
         body: [
-          "In German apartment buildings the owners meet once a year at the \"Eigentümerversammlung\" (owners' meeting). Someone writes \"das Protokoll\" (the minutes). Here's the start from a building in Leipzig:",
+          "In German blocks of flats the owners meet once a year at the \"Eigentümerversammlung\" (owners' meeting). Someone writes \"das Protokoll\" (the minutes). Here's the start from a building in Leipzig:",
           "\"Tagesordnung: 1. Begrüßung, 2. Renovierung des Treppenhauses, 3. Reinigung der Fahrradkeller, 4. Verschiedenes. Herr Becker übernahm die Leitung der Versammlung. Es waren zwölf von fünfzehn Eigentümern anwesend.\"",
           "The agenda is a list of -ung nouns from verbs: \"begrüßen → die Begrüßung\", \"renovieren → die Renovierung\", \"reinigen → die Reinigung\", \"leiten → die Leitung\". Official German loves these nouns (\"Nominalstil\"); they are all feminine with plural -en.",
         ],
@@ -1911,7 +1912,7 @@ export const DE_B1_U25: Lesson[] = [
             prompt: "Translate into German.",
             source: "The stairwell urgently needs painting.",
             answer: "Das Treppenhaus muss dringend gestrichen werden.",
-            altAnswers: ["Das Treppenhaus muss dringend renoviert werden.", "Man muss das Treppenhaus dringend streichen."],
+            altAnswers: ["Das Treppenhaus muss dringend neu gestrichen werden.", "Man muss das Treppenhaus dringend streichen."],
             explanation: "Modal passive: \"muss\" + \"gestrichen werden\" (streichen = to paint walls).",
           },
           {
@@ -1926,7 +1927,7 @@ export const DE_B1_U25: Lesson[] = [
           {
             type: "speak",
             text: "Niemand war dagegen.",
-            tip: "Dagegen: stress the second syllable, da-GAY-gen.",
+            tip: "\"Dagegen\": stress the second syllable, da-GAY-gen.",
             explanation: "\"Niemand\" + \"dagegen\" (against it).",
           },
         ],
@@ -2060,7 +2061,7 @@ export const DE_B1_U25: Lesson[] = [
     level: "DE-B1",
     number: 11,
     title: "Contrast Clinic: -Heit or -Keit?",
-    summary: "Which suffix fits: -heit after most one-syllable adjectives (Freiheit, Krankheit), -keit after -ig, -lich, -bar, -sam (Möglichkeit, Freundlichkeit, Dankbarkeit, Einsamkeit).",
+    summary: "Choose between -heit (most one-syllable adjectives: \"Freiheit\", \"Krankheit\") and -keit (after -ig, -lich, -bar, -sam: \"Möglichkeit\", \"Einsamkeit\").",
     duration: "12 min",
     sections: [
       {
@@ -2075,7 +2076,7 @@ export const DE_B1_U25: Lesson[] = [
           { es: "Er hat eine schwere Krankheit.", en: "He has a serious illness." },
           { es: "Sicherheit geht vor.", en: "Safety first." },
           { es: "Ich habe meine Kindheit in Bremen verbracht.", en: "I spent my childhood in Bremen." },
-          { es: "Das war eine große Dummheit.", en: "That was really stupid of me." },
+          { es: "Das war eine große Dummheit.", en: "That was a really stupid thing to do." },
         ],
         checkpoint: [
           {
@@ -2132,7 +2133,7 @@ export const DE_B1_U25: Lesson[] = [
           {
             type: "speak",
             text: "Vielen Dank für Ihre Freundlichkeit.",
-            tip: "Freundlichkeit: FROYND-lich-kite, stress on the first syllable.",
+            tip: "\"Freundlichkeit\": FROYND-lich-kite, stress on the first syllable.",
             explanation: "\"Freundlich\" → \"Freundlichkeit\".",
           },
         ],
@@ -2140,7 +2141,7 @@ export const DE_B1_U25: Lesson[] = [
       {
         heading: "Side by side",
         body: [
-          "Compare pairs built on similar meanings: \"die Krankheit\" (krank) vs \"die Müdigkeit\" (müde, with -igkeit); \"die Schönheit\" vs \"die Hässlichkeit\" (hässlich); \"die Klarheit\" vs \"die Deutlichkeit\" (deutlich); \"die Sicherheit\" vs \"die Unsicherheit\"; \"die Gesundheit\" vs \"die Schwierigkeit\".",
+          "Compare these pairs: \"die Krankheit\" (krank) vs \"die Müdigkeit\" (müde, with -igkeit); \"die Schönheit\" vs \"die Hässlichkeit\" (hässlich); \"die Klarheit\" vs \"die Deutlichkeit\" (deutlich); \"die Sicherheit\" vs \"die Unsicherheit\"; \"die Gesundheit\" vs \"die Schwierigkeit\".",
           "With \"un-\": \"die Unmöglichkeit\", \"die Unpünktlichkeit\", \"die Unsicherheit\". The prefix doesn't change the suffix choice.",
           "Remember that all these nouns are feminine and take -en in the plural: \"die Krankheiten\", \"die Möglichkeiten\".",
         ],
@@ -2257,7 +2258,7 @@ export const DE_B1_U25: Lesson[] = [
     level: "DE-B1",
     number: 12,
     title: "Quick Round: Gender from the Suffix",
-    summary: "Rapid der / die / das for new nouns from their endings: die Zeitung, der Schmetterling, das Mädchen, die Wissenschaft, das Dokument, die Fähigkeit.",
+    summary: "Pick \"der\", \"die\" or \"das\" for new nouns from their endings, as in \"die Zeitung\", \"der Schmetterling\", \"das Mädchen\" and \"die Fähigkeit\".",
     duration: "10 min",
     sections: [
       {
@@ -2327,7 +2328,7 @@ export const DE_B1_U25: Lesson[] = [
           {
             type: "speak",
             text: "Das Kätzchen schläft auf dem Sofa.",
-            tip: "Kätzchen: KETS-chen, with the soft ch.",
+            tip: "\"Kätzchen\": KETS-chen, with the soft ch.",
             explanation: "-chen → neuter.",
           },
         ],

@@ -320,7 +320,7 @@ export const DE_B2_U07_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "Die schreienden Kinder und die angeschrienen Kinder.",
-        tip: "Notice the different stress: SCHREI-en-den vs AN-ge-schrie-nen.",
+        tip: "Notice the different stress: \"schreienden\" (SCHREI-en-den) vs \"angeschrienen\" (AN-ge-schrie-nen).",
         explanation: "Partizip I (they scream) and Partizip II (they were shouted at).",
       },
     ],
@@ -337,7 +337,7 @@ export const DE_B2_U07_EXTRA: Lesson[] = [
       {
         heading: "Recap: from catalogue German to plain German",
         body: [
-          "In a furniture store in Köln, a salesperson speaks catalogue German: \"Das ist unser neu eingeführtes, aus recyceltem Holz gefertigtes Regal.\" Mehmet, the customer, asks: \"Entschuldigung, heißt das, das Regal ist aus altem Holz gemacht?\" — \"Genau, aus Holz, das schon einmal benutzt wurde.\"",
+          "In a furniture shop in Köln, a salesperson speaks catalogue German: \"Das ist unser neu eingeführtes, aus recyceltem Holz gefertigtes Regal.\" Mehmet, the customer, asks: \"Entschuldigung, heißt das, das Regal ist aus altem Holz gemacht?\" — \"Genau, aus Holz, das schon einmal benutzt wurde.\"",
           "Unpacking participle phrases into relative clauses or simple sentences is exactly what you do when you ask for clarification. \"Ein aus recyceltem Holz gefertigtes Regal\" = \"ein Regal, das aus recyceltem Holz gefertigt ist\".",
         ],
         examples: [
@@ -653,7 +653,7 @@ export const DE_B2_U07_EXTRA: Lesson[] = [
     number: 5,
     optional: true,
     title: "Extra Practice: The Gerundive",
-    summary: "Zu + Partizip I in official texts: die zu zahlende Gebühr, der zu erwartende Schaden.",
+    summary: "Zu + Partizip I in official texts: \"die zu zahlende Gebühr\", \"der zu erwartende Schaden\".",
     duration: "12 min",
     sections: [
       {
@@ -821,7 +821,7 @@ export const DE_B2_U07_EXTRA: Lesson[] = [
         heading: "Recap: hearing the endings",
         body: [
           "In speech, adjective endings are unstressed and easy to miss: \"gestern gekauften\" ends in a soft -ten, \"geöffnete\" in a light -e. When you write a dictation, first identify the article and the noun, then decide the ending from the case; don't rely only on your ear.",
-          "Also listen for Partizip I's -end- in the middle: \"die laut schreienden Kinder\" has two n-sounds in a row (-enden). And remember the spelling of participles of separable verbs: one word, ge after the prefix (\"angekündigt\", \"eingebaut\").",
+          "Also listen for Partizip I's -end- in the middle: \"die laut schreienden Kinder\" has two n-sounds close together (-enden). And remember the spelling of participles of separable verbs: one word, ge after the prefix (\"angekündigt\", \"eingebaut\").",
         ],
         examples: [
           { es: "die gestern gekauften Brötchen", en: "the bread rolls bought yesterday" },
@@ -954,7 +954,7 @@ export const DE_B2_U07_EXTRA: Lesson[] = [
     number: 7,
     optional: true,
     title: "Extra Practice: Questions and Answers: Welcher Zug?",
-    summary: "Answer identification questions with participle phrases: Der um 8 Uhr abfahrende.",
+    summary: "Answer identification questions with participle phrases: \"Der um 8 Uhr abfahrende\".",
     duration: "12 min",
     sections: [
       {

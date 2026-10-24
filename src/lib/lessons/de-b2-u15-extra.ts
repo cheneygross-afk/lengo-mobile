@@ -310,7 +310,7 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Dialogue Lab: Wo bleibt Paul?",
-    summary: "Flatmates in Freiburg guess why Paul hasn't come home, using \"werden\" + \"wohl\", the Futur II and modal verbs.",
+    summary: "Guess with Paul's flatmates in Freiburg why he hasn't come home, using \"werden\" + \"wohl\", the Futur II and modal verbs, and reproach him with \"hätte ... können\".",
     duration: "13 min",
     sections: [
       {
@@ -478,7 +478,7 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "fill-blank",
-            prompt: "Correct the sentence: \"*Ich will dich morgen anrufen.\" (meant as a promise). Write the German for the bold words.",
+            prompt: "Correct the sentence: \"*Ich will dich morgen anrufen.*\" (meant as a promise). Write the German for the bold words.",
             en: "I [will] call you tomorrow.",
             sentence: "Ich ___ dich morgen anrufen.",
             answer: "werde",
@@ -497,7 +497,7 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
     exercises: [
       {
         type: "fill-blank",
-        prompt: "Correct the sentence: \"*Du willst es schaffen!\" (meant as encouragement). Write the German for the bold words.",
+        prompt: "Correct the sentence: \"*Du willst es schaffen!*\" (meant as encouragement). Write the German for the bold words.",
         en: "You [will] manage it!",
         sentence: "Du ___ es schaffen!",
         answer: "wirst",
@@ -505,7 +505,7 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Correct the sentence: \"*Bis Freitag will ich den Bericht geschrieben haben.\" (meant as a plan). Write the German for the bold words.",
+        prompt: "Correct the sentence: \"*Bis Freitag will ich den Bericht geschrieben haben.*\" (meant as a plan). Write the German for the bold words.",
         en: "By Friday I [will] have written the report.",
         sentence: "Bis Freitag ___ ich den Bericht geschrieben haben.",
         answer: "werde",
@@ -513,7 +513,7 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Correct the sentence: \"*Morgen es wird regnen.\" Write the German for the bold words.",
+        prompt: "Correct the sentence: \"*Morgen es wird regnen.*\" Write the German for the bold words.",
         en: "It [will rain] tomorrow.",
         sentence: "Morgen ___.",
         answer: "wird es regnen",
@@ -521,7 +521,7 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Correct the sentence: \"*Wir werden nächstes Jahr nach Japan reisen.\" (meant as a wish). Write the German for the bold words.",
+        prompt: "Correct the sentence: \"*Wir werden nächstes Jahr nach Japan reisen.*\" (meant as a wish). Write the German for the bold words.",
         en: "We [want] to travel to Japan next year.",
         sentence: "Wir ___ nächstes Jahr nach Japan reisen.",
         answer: "wollen",
@@ -570,7 +570,7 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
         source: "Will you help me? (to a friend)",
         answer: "Wirst du mir helfen?",
         altAnswers: ["Hilfst du mir?", "Würdest du mir helfen?"],
-        explanation: "\"Wirst du\" (or the present \"Hilfst du\") asks whether he will; \"Willst du mir helfen?\" asks whether he wants to.",
+        explanation: "\"Wirst du\" (or the present \"Hilfst du\") asks whether your friend will help; \"Willst du mir helfen?\" would ask whether they want to.",
       },
       {
         type: "word-order",
@@ -717,7 +717,8 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: In ten years I will have bought a flat.",
         words: ["In", "zehn", "Jahren", "werde", "ich", "eine", "Wohnung", "gekauft", "haben."],
         translation: "In ten years I will have bought a flat.",
-        explanation: "Time phrase first, then \"werde ich\".",
+        altOrders: [["Ich", "werde", "in", "zehn", "Jahren", "eine", "Wohnung", "gekauft", "haben."]],
+        explanation: "Time phrase first, then \"werde ich\"; or subject first with the time phrase after \"werde\".",
       },
       {
         type: "multiple-choice",
@@ -761,7 +762,7 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
         body: [
           "Strong: \"bestimmt\", \"sicher\" (definitely, surely). Medium: \"wahrscheinlich\", \"vermutlich\" (probably, presumably), \"wohl\" (probably, I suppose; very common with \"werden\"). Weak: \"vielleicht\", \"möglicherweise\" (maybe, possibly).",
           "Position: after the conjugated verb and pronouns, before \"nicht\": \"Er kommt bestimmt nicht.\" \"Sie hat es wahrscheinlich schon gehört.\" All except \"wohl\" can also start the sentence: \"Vermutlich ist er krank.\"",
-          "Careful: \"sicher\" as an adverb = surely, probably; \"Ich bin sicher\" = I'm certain.",
+          "Careful: \"sicher\" as an adverb = surely, certainly (\"Er kommt sicher\"); \"Ich bin sicher\" (adjective) = I'm certain.",
         ],
         examples: [
           { es: "Er kommt bestimmt nicht.", en: "He's definitely not coming." },
@@ -824,8 +825,8 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
         en: "That's [probably] true.",
         sentence: "Das wird ___ stimmen.",
         answer: "wohl",
-        altAnswers: ["schon", "sicher"],
-        explanation: "\"Wird wohl\" = probably. \"Bestimmt\" would be too strong (definitely).",
+        altAnswers: ["schon"],
+        explanation: "\"Wird wohl\" = probably (\"wird schon\" is a reassuring variant). \"Bestimmt\" or \"sicher\" would be too strong (definitely, surely).",
       },
       {
         type: "translate",
@@ -861,7 +862,7 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
         source: "She's surely tired.",
         answer: "Sie ist sicher müde.",
         altAnswers: ["Sicher ist sie müde."],
-        explanation: "The adverb \"sicher\" = surely, probably; \"Ich bin sicher\" (adjective) = I'm certain.",
+        explanation: "The adverb \"sicher\" = surely (a confident guess); \"Ich bin sicher\" (adjective) = I'm certain.",
       },
       {
         type: "word-order",
@@ -880,7 +881,7 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Rank from strongest to weakest: vielleicht, bestimmt, wahrscheinlich.",
+        question: "Rank from strongest to weakest: \"vielleicht\", \"bestimmt\", \"wahrscheinlich\".",
         options: ["bestimmt, wahrscheinlich, vielleicht", "wahrscheinlich, bestimmt, vielleicht", "vielleicht, wahrscheinlich, bestimmt", "bestimmt, vielleicht, wahrscheinlich"],
         correctIndex: 0,
         explanation: "Definitely → probably → maybe.",
@@ -998,7 +999,7 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "I hope I'll have reached my goal by then.",
         answer: "Ich hoffe, dass ich mein Ziel bis dahin erreicht haben werde.",
-        altAnswers: ["Ich hoffe, ich werde mein Ziel bis dahin erreicht haben.", "Ich hoffe, dass ich mein Ziel bis dahin erreicht habe.", "Ich hoffe, ich habe mein Ziel bis dahin erreicht.", "Ich hoffe, dass ich bis dahin mein Ziel erreicht habe."],
+        altAnswers: ["Ich hoffe, ich werde mein Ziel bis dahin erreicht haben.", "Ich hoffe, dass ich mein Ziel bis dahin erreicht habe.", "Ich hoffe, ich habe mein Ziel bis dahin erreicht.", "Ich hoffe, dass ich bis dahin mein Ziel erreicht habe.", "Ich hoffe, dass ich bis dahin mein Ziel erreicht haben werde."],
         explanation: "In a dass-clause \"werde\" goes last; the Perfekt is more natural.",
       },
       {

@@ -178,7 +178,7 @@ export const DE_B2_U19_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: The Position of Nicht",
-    summary: "Sentence negation and constituent negation in mixed sentences.",
+    summary: "Place \"nicht\" correctly for sentence negation and constituent negation in mixed sentences.",
     duration: "12 min",
     sections: [
       {
@@ -342,13 +342,13 @@ export const DE_B2_U19_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Ausklammerung",
-    summary: "When material may follow the final verb and when it sounds wrong.",
+    summary: "Decide when material may follow the final verb and when it sounds wrong.",
     duration: "12 min",
     sections: [
       {
         heading: "Recap: what may go after the verb",
         body: [
-          "Always fine in the Nachfeld: subordinate clauses (\"dass\", \"weil\", relative clauses) and comparisons with \"als\" / \"wie\". Fine in speech, less so in formal writing: longer prepositional phrases (\"Ich habe lange gewartet auf dich\"). Never: plain objects, short adverbs or predicate adjectives (\"*Ich habe gekauft Brot\", \"*Er ist geworden krank\").",
+          "Always fine in the Nachfeld: subordinate clauses (\"dass\", \"weil\", relative clauses) and comparisons with \"als\" / \"wie\". Fine in speech, less so in formal writing: longer prepositional phrases (\"Ich habe lange gewartet auf dich\"). Never: plain objects, short adverbs or predicate adjectives (\"*Ich habe gekauft Brot*\", \"*Er ist geworden krank*\").",
         ],
         examples: [
           { es: "Sie hat mehr verdient als ihr Mann.", en: "She earned more than her husband." },

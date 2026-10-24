@@ -9,7 +9,7 @@ export const DE_B2_U02_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Reproaches at Work",
-    summary: "Polite and less polite reproaches between colleagues: Sie hätten mich informieren müssen vs Hätten Sie mich vielleicht kurz informieren können?",
+    summary: "Make reproaches to colleagues blunt or diplomatic: \"Sie hätten mich informieren müssen\" vs \"Hätten Sie mich vielleicht kurz informieren können?\"",
     duration: "12 min",
     sections: [
       {
@@ -174,7 +174,7 @@ export const DE_B2_U02_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Apologising and Accepting Apologies",
-    summary: "Es tut mir wirklich leid, Entschuldige bitte, Ich möchte mich entschuldigen für + Akk, and the replies: Das kann passieren, Ich bin dir nicht böse.",
+    summary: "Apologise (\"Es tut mir wirklich leid\", \"Entschuldige bitte\", \"Ich möchte mich für ... entschuldigen\") and accept apologies (\"Das kann passieren\", \"Ich bin dir nicht böse\").",
     duration: "12 min",
     sections: [
       {
@@ -338,7 +338,7 @@ export const DE_B2_U02_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: The Double Infinitive in Subordinate Clauses",
-    summary: "Rewrite after weil, dass and obwohl: ..., weil ich nicht hätte kommen können.",
+    summary: "Use the double infinitive after \"weil\", \"dass\" and \"obwohl\": \"..., weil ich nicht hätte kommen können\".",
     duration: "12 min",
     sections: [
       {
@@ -444,7 +444,7 @@ export const DE_B2_U02_EXTRA: Lesson[] = [
         sentence: "Er ärgert sich, dass er mehr ___.",
         answer: "hätte bezahlen sollen",
         altAnswers: ["hätte zahlen sollen", "hätte bezahlen müssen", "hätte zahlen müssen"],
-        explanation: "The subordinate-clause order: hätte + infinitive + modal.",
+        explanation: "The subordinate-clause order: \"hätte\" + infinitive + modal.",
       },
       {
         type: "multiple-choice",
@@ -498,7 +498,7 @@ export const DE_B2_U02_EXTRA: Lesson[] = [
     number: 4,
     optional: true,
     title: "Extra Practice: Es wäre besser gewesen, wenn...",
-    summary: "Regrets about situations rather than people: es wäre besser gewesen, wenn wir gebucht hätten; lieber and bereuen in context.",
+    summary: "Express regrets about situations rather than people (\"Es wäre besser gewesen, wenn wir gebucht hätten\") and use \"lieber\" and \"bereuen\" in context.",
     duration: "12 min",
     sections: [
       {

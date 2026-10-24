@@ -8,7 +8,7 @@ export const DE_B2_U01: Lesson[] = [
     level: "DE-B2",
     number: 1,
     title: "Konjunktiv II in the Past, Part 1 of 2",
-    summary: "Say what would have happened: hätte or wäre plus the participle, and unreal past wenn-clauses with the verb at the end.",
+    summary: "Say what would have happened with \"hätte\" or \"wäre\" plus the participle, and build unreal past wenn-clauses with the verb at the end.",
     duration: "15 min",
     sections: [
       {
@@ -16,7 +16,7 @@ export const DE_B2_U01: Lesson[] = [
         body: [
           "At the Intermediate level you used the Konjunktiv II to imagine the present: \"Ich hätte gern mehr Zeit\", \"Ich würde gern kommen\". To imagine the past, things that could have happened but didn't, German builds the Konjunktiv II on the Perfekt. Take the Perfekt (\"ich habe angerufen\") and turn the auxiliary into its Konjunktiv II form: \"ich hätte angerufen\" (I would have called).",
           "So the whole recipe is: \"hätte\" in the normal verb position, the Partizip II at the end. The forms of \"hätte\" are the ones you know: \"ich hätte, du hättest, er/sie/es hätte, wir hätten, ihr hättet, sie/Sie hätten\". The participle never changes.",
-          "This one form covers English would have done, and also could have done or might have done in many contexts. Notice what it does not contain: no \"würde\". English speakers translate would have literally and produce \"*ich würde angerufen haben\". That form technically exists, but it sounds stilted and almost nobody uses it; the natural form is always \"ich hätte angerufen\".",
+          "This one form covers English would have done, and sometimes could have done (\"Ohne dich hätte ich das nicht geschafft\": I couldn't have done it without you). Notice what it does not contain: no \"würde\". English speakers translate would have literally and produce \"*ich würde angerufen haben*\". That form technically exists, but it sounds stilted and almost nobody uses it; the natural form is always \"ich hätte angerufen\".",
           "Watch the umlaut: \"ich hatte angerufen\" (no umlaut) is the Plusquamperfekt, a real event: I had called. \"Ich hätte angerufen\" (with ä) is unreal: I would have called, but I didn't.",
         ],
         examples: [
@@ -35,7 +35,7 @@ export const DE_B2_U01: Lesson[] = [
             source: "I would have called you.",
             answer: "Ich hätte dich angerufen.",
             altAnswers: ["Ich hätte Sie angerufen.", "Ich hätte euch angerufen."],
-            explanation: "\"Anrufen\" takes haben in the Perfekt, so the unreal past is \"hätte\" + \"angerufen\" at the end. Not \"*ich würde angerufen haben\".",
+            explanation: "\"Anrufen\" takes haben in the Perfekt, so the unreal past is \"hätte\" + \"angerufen\" at the end. Not \"*ich würde angerufen haben*\".",
           },
           {
             type: "listen-choose",
@@ -84,7 +84,7 @@ export const DE_B2_U01: Lesson[] = [
             question: "How do you say: We wouldn't have gone in that weather.",
             options: ["Bei dem Wetter wären wir nicht gefahren.", "Bei dem Wetter hätten wir nicht gefahren.", "Bei dem Wetter würden wir nicht gefahren.", "Bei dem Wetter waren wir nicht gefahren."],
             correctIndex: 0,
-            explanation: "\"Fahren\" to a place takes sein, so \"wären ... gefahren\". \"Waren\" without the umlaut is a real past (had gone), and \"würden ... gefahren\" is not a form.",
+            explanation: "\"Fahren\" to a place takes sein, so \"wären ... gefahren\". \"Waren\" without the umlaut is a real past (had gone), and \"würden ... gefahren\" is not a Konjunktiv II past (it would be a passive: would be driven).",
           },
         ],
       },
@@ -92,8 +92,8 @@ export const DE_B2_U01: Lesson[] = [
         heading: "Unreal past wenn-clauses",
         body: [
           "The classic use is the unreal condition: if X had happened, Y would have happened. German puts \"hätte\" or \"wäre\" in both halves: \"Wenn ich früher losgefahren wäre, hätte ich den Zug erreicht\" (If I had left earlier, I would have caught the train).",
-          "Word order: \"wenn\" sends the conjugated verb to the very end, so the participle and \"wäre/hätte\" stand side by side: \"..., wenn ich das gewusst hätte\". If the wenn-clause comes first, it fills position 1, and the main clause starts with its verb: \"Wenn ich das gewusst hätte, hätte ich dich angerufen.\" That double hätte, hätte is completely normal.",
-          "English uses two different forms (if I had known ... I would have called). German uses one form in both halves. So never put \"würde\" in the wenn-clause: \"*wenn ich würde gewusst haben\" is a typical English-speaker error.",
+          "Word order: \"wenn\" sends the conjugated verb to the very end, so the participle and \"wäre/hätte\" stand side by side: \"..., wenn ich das gewusst hätte\". If the wenn-clause comes first, it fills position 1, and the main clause starts with its verb: \"Wenn ich das gewusst hätte, hätte ich dich angerufen.\" That double \"hätte, hätte\" is completely normal.",
+          "English uses two different forms (if I had known ... I would have called). German uses one form in both halves. So never put \"würde\" in the wenn-clause: \"*wenn ich würde gewusst haben*\" is a typical English-speaker error.",
           "The order of the halves is free: \"Ich hätte dich angerufen, wenn ich das gewusst hätte.\" Both are equally natural.",
         ],
         examples: [
@@ -119,7 +119,7 @@ export const DE_B2_U01: Lesson[] = [
             source: "If you had asked, I would have helped you.",
             answer: "Wenn du gefragt hättest, hätte ich dir geholfen.",
             altAnswers: ["Ich hätte dir geholfen, wenn du gefragt hättest.", "Wenn Sie gefragt hätten, hätte ich Ihnen geholfen.", "Ich hätte Ihnen geholfen, wenn Sie gefragt hätten.", "Wenn ihr gefragt hättet, hätte ich euch geholfen.", "Ich hätte euch geholfen, wenn ihr gefragt hättet."],
-            explanation: "Hätte in both halves, never würde. \"Helfen\" takes the dative: \"dir\".",
+            explanation: "\"Hätte\" in both halves, never \"würde\". \"Helfen\" takes the dative: \"dir\".",
           },
         ],
       },
@@ -163,7 +163,7 @@ export const DE_B2_U01: Lesson[] = [
         question: "Which sentence means: If I had known that, I would have stayed at home?",
         options: ["Wenn ich das gewusst hätte, wäre ich zu Hause geblieben.", "Wenn ich das würde gewusst haben, wäre ich zu Hause geblieben.", "Wenn ich das gewusst hatte, war ich zu Hause geblieben.", "Wenn ich das gewusst hätte, hätte ich zu Hause geblieben."],
         correctIndex: 0,
-        explanation: "\"Hätte\" in the wenn-clause, \"wäre\" with \"bleiben\" in the main clause. No würde, and no plain \"hatte/war\", which would be real past.",
+        explanation: "\"Hätte\" in the wenn-clause, \"wäre\" with \"bleiben\" in the main clause. No \"würde\", and no plain \"hatte/war\", which would be real past.",
       },
       {
         type: "translate",
@@ -195,8 +195,8 @@ export const DE_B2_U01: Lesson[] = [
         prompt: "Translate into German.",
         source: "I would have taken the train if I had known about the traffic jam.",
         answer: "Ich hätte den Zug genommen, wenn ich von dem Stau gewusst hätte.",
-        altAnswers: ["Ich hätte den Zug genommen, wenn ich vom Stau gewusst hätte.", "Wenn ich von dem Stau gewusst hätte, hätte ich den Zug genommen.", "Wenn ich vom Stau gewusst hätte, hätte ich den Zug genommen.", "Ich wäre mit dem Zug gefahren, wenn ich von dem Stau gewusst hätte.", "Ich wäre mit dem Zug gefahren, wenn ich vom Stau gewusst hätte.", "Wenn ich vom Stau gewusst hätte, wäre ich mit dem Zug gefahren."],
-        explanation: "\"Wissen von\" + dative: to know about. Hätte in both halves; in the wenn-clause it stands at the very end.",
+        altAnswers: ["Ich hätte den Zug genommen, wenn ich vom Stau gewusst hätte.", "Wenn ich von dem Stau gewusst hätte, hätte ich den Zug genommen.", "Wenn ich vom Stau gewusst hätte, hätte ich den Zug genommen.", "Ich wäre mit dem Zug gefahren, wenn ich von dem Stau gewusst hätte.", "Ich wäre mit dem Zug gefahren, wenn ich vom Stau gewusst hätte.", "Wenn ich vom Stau gewusst hätte, wäre ich mit dem Zug gefahren.", "Wenn ich von dem Stau gewusst hätte, wäre ich mit dem Zug gefahren."],
+        explanation: "\"Wissen von\" + dative: to know about. \"Hätte\" in both halves; in the wenn-clause it stands at the very end.",
       },
       {
         type: "speak",
@@ -212,7 +212,7 @@ export const DE_B2_U01: Lesson[] = [
     level: "DE-B2",
     number: 2,
     title: "Pattern Practice: Wenn ich das gewusst hätte, ...",
-    summary: "Drill one frame with many verbs: Wenn ich das gewusst hätte, wäre ich zu Hause geblieben, hätte ich dich angerufen...",
+    summary: "Use one frame with many verbs to react to a bad surprise: \"Wenn ich das gewusst hätte, wäre ich zu Hause geblieben\", \"... hätte ich dich angerufen\".",
     duration: "12 min",
     sections: [
       {
@@ -255,7 +255,7 @@ export const DE_B2_U01: Lesson[] = [
         body: [
           "Separable verbs keep their prefix glued to the participle, with \"ge\" in the middle: \"anrufen\" → \"angerufen\", \"mitnehmen\" → \"mitgenommen\", \"absagen\" → \"abgesagt\", \"einpacken\" → \"eingepackt\". In this frame the participle always stands at the end, so you never have to split anything.",
           "Inseparable verbs (be-, ver-, er-, ent-, zer-) have no \"ge\" at all: \"bestellt\", \"verpasst\", \"erreicht\", \"entschieden\". Verbs in -ieren don't either: \"reserviert\", \"probiert\".",
-          "The most common slip is to add \"ge\" twice or in the wrong place: \"*geanrufen\", \"*geverpasst\". Say the plain Perfekt first (\"ich habe den Tisch reserviert\") and copy the participle across.",
+          "The most common slip is to add \"ge\" twice or in the wrong place: \"*geanrufen*\", \"*geverpasst*\". Say the plain Perfekt first (\"ich habe den Tisch reserviert\") and copy the participle across.",
         ],
         examples: [
           { es: "Wenn ich das gewusst hätte, hätte ich einen Tisch reserviert.", en: "If I'd known that, I would have reserved a table." },
@@ -386,7 +386,7 @@ export const DE_B2_U01: Lesson[] = [
         prompt: "Translate into German.",
         source: "With a car we would have had less stress.",
         answer: "Mit einem Auto hätten wir weniger Stress gehabt.",
-        altAnswers: ["Mit dem Auto hätten wir weniger Stress gehabt.", "Wir hätten mit einem Auto weniger Stress gehabt."],
+        altAnswers: ["Mit dem Auto hätten wir weniger Stress gehabt.", "Wir hätten mit einem Auto weniger Stress gehabt.", "Wir hätten mit dem Auto weniger Stress gehabt."],
         explanation: "Would have had = \"hätten ... gehabt\": the participle of haben closes the sentence.",
       },
       {
@@ -408,7 +408,7 @@ export const DE_B2_U01: Lesson[] = [
     level: "DE-B2",
     number: 3,
     title: "Minimal Pairs: Ich hätte / Ich wäre",
-    summary: "Choose the auxiliary: hätte for most verbs, wäre for movement, change of state, sein, bleiben, werden and passieren.",
+    summary: "Choose the right auxiliary: \"hätte\" for most verbs, \"wäre\" for movement, change of state, \"sein\", \"bleiben\", \"werden\" and \"passieren\".",
     duration: "12 min",
     sections: [
       {
@@ -450,7 +450,7 @@ export const DE_B2_U01: Lesson[] = [
         body: [
           "Four verbs take sein although nothing moves, and they're exactly where English speakers slip: \"sein\" (\"wäre gewesen\"), \"bleiben\" (\"wäre geblieben\"), \"werden\" (\"wäre geworden\") and \"passieren\" / \"geschehen\" (\"wäre passiert\").",
           "\"Werden\" and \"passieren\" fit the change-of-state rule if you think about it: becoming something is a change, and something happening is a change. \"Bleiben\" and \"sein\" simply have to be learned.",
-          "Change-of-state verbs also take wäre: \"aufwachen\", \"einschlafen\", \"sterben\", \"wachsen\", \"umziehen\". \"Er wäre fast eingeschlafen.\"",
+          "Change-of-state verbs also take \"wäre\": \"aufwachen\", \"einschlafen\", \"sterben\", \"wachsen\", \"umziehen\". \"Er wäre fast eingeschlafen.\"",
         ],
         examples: [
           { es: "Er wäre Arzt geworden.", en: "He would have become a doctor." },
@@ -510,7 +510,7 @@ export const DE_B2_U01: Lesson[] = [
             source: "I very nearly missed the flight.",
             answer: "Fast hätte ich den Flug verpasst.",
             altAnswers: ["Ich hätte fast den Flug verpasst.", "Ich hätte den Flug fast verpasst.", "Beinahe hätte ich den Flug verpasst.", "Ich hätte beinahe den Flug verpasst.", "Ich hätte den Flug beinahe verpasst."],
-            explanation: "Nearly happened = \"fast\" or \"beinahe\" + hätte/wäre. \"Verpassen\" has an object: hätte. English uses a simple past here; German needs the unreal form, because it didn't happen.",
+            explanation: "Nearly happened = \"fast\" or \"beinahe\" + \"hätte\"/\"wäre\". \"Verpassen\" has an object: \"hätte\". English uses a simple past here; German needs the unreal form, because it didn't happen.",
           },
         ],
       },
@@ -604,7 +604,7 @@ export const DE_B2_U01: Lesson[] = [
     level: "DE-B2",
     number: 4,
     title: "Circuit: Hätte ich das gewusst, ...",
-    summary: "Drop the wenn: put hätte or wäre first, Hätte ich das gewusst, wäre ich gekommen, and add dann or so if you like.",
+    summary: "Drop the \"wenn\" and put \"hätte\" or \"wäre\" first (\"Hätte ich das gewusst, wäre ich gekommen\"), adding \"dann\" or \"so\" if you like.",
     duration: "13 min",
     sections: [
       {
@@ -645,7 +645,7 @@ export const DE_B2_U01: Lesson[] = [
         heading: "Dann and so",
         body: [
           "After a verb-first condition, the main clause can start with \"dann\" (or, a bit more formally, \"so\"). It makes the link clearer, especially when the condition is long: \"Wäre der Bus pünktlich gewesen, dann hätten wir es geschafft.\"",
-          "\"Dann\" takes position 1 of the main clause, so the verb follows straight after it: \"dann hätten wir\", not \"*dann wir hätten\". It works after wenn-clauses too: \"Wenn du mich gefragt hättest, dann hätte ich Ja gesagt.\"",
+          "\"Dann\" takes position 1 of the main clause, so the verb follows straight after it: \"dann hätten wir\", not \"*dann wir hätten*\". It works after wenn-clauses too: \"Wenn du mich gefragt hättest, dann hätte ich Ja gesagt.\"",
           "\"So\" in this role is mostly written: \"Hätte man die Brücke rechtzeitig saniert, so wäre der Unfall vermeidbar gewesen.\" In speech, use \"dann\".",
         ],
         examples: [
@@ -766,7 +766,7 @@ export const DE_B2_U01: Lesson[] = [
         source: "If you had asked me, I would have said yes.",
         answer: "Hättest du mich gefragt, hätte ich Ja gesagt.",
         altAnswers: ["Hättest du mich gefragt, dann hätte ich Ja gesagt.", "Wenn du mich gefragt hättest, hätte ich Ja gesagt.", "Wenn du mich gefragt hättest, dann hätte ich Ja gesagt.", "Hätten Sie mich gefragt, hätte ich Ja gesagt.", "Wenn Sie mich gefragt hätten, hätte ich Ja gesagt.", "Hättet ihr mich gefragt, hätte ich Ja gesagt.", "Wenn ihr mich gefragt hättet, hätte ich Ja gesagt.", "Ich hätte Ja gesagt, wenn du mich gefragt hättest."],
-        explanation: "\"Fragen\" takes the accusative: \"mich\". Hätte in both halves.",
+        explanation: "\"Fragen\" takes the accusative: \"mich\". \"Hätte\" in both halves.",
       },
       {
         type: "dictation",
@@ -796,7 +796,7 @@ export const DE_B2_U01: Lesson[] = [
     level: "DE-B2",
     number: 5,
     title: "Konjunktiv II in the Past, Part 2 of 2",
-    summary: "Wish the past were different (Hätte ich bloß nichts gesagt!) and mix past conditions with present results.",
+    summary: "Wish the past were different (\"Hätte ich bloß nichts gesagt!\") and mix past conditions with present results.",
     duration: "15 min",
     sections: [
       {
@@ -805,7 +805,7 @@ export const DE_B2_U01: Lesson[] = [
           "A wish about the past is an unreal condition with no main clause: \"Wenn ich doch nur mehr gelernt hätte!\" (If only I had studied more!). The small words \"doch\", \"nur\" and \"bloß\" are what turn it into a wish; without them it sounds like an unfinished sentence.",
           "You can use one or combine them: \"doch\", \"nur\", \"bloß\", \"doch nur\", \"doch bloß\". They sit right after the subject, or after a pronoun object: \"Wenn ich doch nur ...\", \"Wenn er bloß ...\", \"Hätte ich ihn bloß gefragt!\"",
           "Wishes can also drop \"wenn\" and put the verb first: \"Hätte ich bloß nichts gesagt!\", \"Wäre er doch früher gekommen!\" This short form is very common in speech.",
-          "English says I wish + past perfect (I wish I'd said nothing). Don't translate I wish as \"*ich wünsche\": use the wish sentence itself, or \"Ich wünschte, ich hätte nichts gesagt\" (note \"wünschte\", itself a Konjunktiv II).",
+          "English says I wish + past perfect (I wish I'd said nothing). Don't translate I wish as \"*ich wünsche*\": use the wish sentence itself, or \"Ich wünschte, ich hätte nichts gesagt\" (note \"wünschte\", itself a Konjunktiv II).",
         ],
         examples: [
           { es: "Wenn ich doch nur mehr gelernt hätte!", en: "If only I had studied more!" },
@@ -823,7 +823,7 @@ export const DE_B2_U01: Lesson[] = [
             source: "I wish I hadn't said anything!",
             answer: "Hätte ich bloß nichts gesagt!",
             altAnswers: ["Hätte ich doch nichts gesagt!", "Hätte ich nur nichts gesagt!", "Hätte ich doch nur nichts gesagt!", "Hätte ich doch bloß nichts gesagt!", "Wenn ich bloß nichts gesagt hätte!", "Wenn ich doch nichts gesagt hätte!", "Wenn ich nur nichts gesagt hätte!", "Wenn ich doch nur nichts gesagt hätte!", "Ich wünschte, ich hätte nichts gesagt."],
-            explanation: "A past wish: \"Hätte ich\" first (or \"Wenn ich ... hätte\") plus \"bloß\", \"doch\" or \"nur\". Not \"*Ich wünsche\".",
+            explanation: "A past wish: \"Hätte ich\" first (or \"Wenn ich ... hätte\") plus \"bloß\", \"doch\" or \"nur\". Not \"*Ich wünsche*\".",
           },
           {
             type: "fill-blank",
@@ -839,7 +839,7 @@ export const DE_B2_U01: Lesson[] = [
             question: "What does it mean?",
             options: ["If only I'd listened to you!", "Had I listened to you?", "I did listen to you!", "I would listen to you!"],
             correctIndex: 0,
-            explanation: "\"Doch nur\" + hätte + participle with an exclamation: a regret about the past. \"Hören auf\" + accusative: to listen to (advice).",
+            explanation: "\"Doch nur\" + \"hätte\" + participle with an exclamation: a regret about the past. \"Hören auf\" + accusative: to listen to (advice).",
           },
         ],
       },
@@ -1001,7 +1001,7 @@ export const DE_B2_U01: Lesson[] = [
     level: "DE-B2",
     number: 6,
     title: "Questions and Answers: Was hättest du gemacht?",
-    summary: "Ask what others would have done in your place, and answer with An deiner Stelle hätte ich ... / wäre ich ...",
+    summary: "Ask what others would have done in your place, and answer with \"An deiner Stelle hätte ich ...\" or \"... wäre ich ...\".",
     duration: "12 min",
     sections: [
       {
@@ -1205,7 +1205,7 @@ export const DE_B2_U01: Lesson[] = [
     level: "DE-B2",
     number: 7,
     title: "Choose and Explain: Als ich ankam / Wenn ich angekommen wäre",
-    summary: "Tell what really happened in the indicative and what didn't happen in the Konjunktiv II, and pick als, wenn or falls.",
+    summary: "Tell what really happened in the indicative and what didn't happen in the Konjunktiv II, and pick \"als\", \"wenn\" or \"falls\".",
     duration: "14 min",
     sections: [
       {
@@ -1249,7 +1249,7 @@ export const DE_B2_U01: Lesson[] = [
         body: [
           "\"Als\" is for a single real event in the past: \"Als ich 18 war, ...\", \"Als ich ankam, ...\". It's never used for conditions.",
           "\"Wenn\" has three jobs: repeated real events in the past (\"Immer wenn ich zu spät kam, war der Chef sauer\": whenever), real conditions in the present or future (\"Wenn du Zeit hast, komm vorbei\") and all unreal conditions (\"Wenn ich Zeit gehabt hätte, ...\").",
-          "\"Falls\" means if in the sense of in case: an open possibility that may or may not happen. \"Falls der Zug Verspätung hat, ruf mich an.\" It's natural with real conditions; for things you know didn't happen, use \"wenn\".",
+          "\"Falls\" means if in the sense of in the event that: an open possibility that may or may not happen. \"Falls der Zug Verspätung hat, ruf mich an.\" It's natural with real conditions; for things you know didn't happen, use \"wenn\".",
           "So English when splits into \"als\" (once, past) and \"wenn\" (repeatedly, or present/future), and English if splits into \"wenn/falls\" (real) and \"wenn\" + Konjunktiv II (unreal). If meaning whether is \"ob\": don't let any of these replace it.",
         ],
         examples: [
@@ -1316,7 +1316,7 @@ export const DE_B2_U01: Lesson[] = [
             question: "What does it mean?",
             options: ["I nearly left my passport at home.", "I left my passport at home.", "I had left my passport at home.", "I'd leave my passport at home."],
             correctIndex: 0,
-            explanation: "\"Beinahe\" + hätte: it almost happened, but didn't.",
+            explanation: "\"Beinahe\" + \"hätte\": it almost happened, but didn't.",
           },
         ],
       },
@@ -1492,7 +1492,7 @@ export const DE_B2_U01: Lesson[] = [
           { es: "Ich ärgere mich total, weil ich meine Unterlagen vergessen hatte.", en: "I'm really annoyed because I'd forgotten my documents." },
           { es: "Hätte ich mich nur früher beworben!", en: "If only I'd applied earlier!" },
           { es: "Jetzt hätte ich einen Balkon und wäre in zehn Minuten bei der Arbeit.", en: "I'd have a balcony now and be at work in ten minutes." },
-          { es: "Beim nächsten Mal bin ich besser vorbereitet. Liebe Grüße, Mia", en: "Next time I'll be better prepared. Love, Mia" },
+          { es: "Beim nächsten Mal bin ich besser vorbereitet. Liebe Grüße Mia", en: "Next time I'll be better prepared. Love, Mia" },
         ],
         checkpoint: [
           {

@@ -187,7 +187,7 @@ export const DE_B2_U21_EXTRA: Lesson[] = [
         heading: "Recap: look back, not forward",
         body: [
           "\"Dessen\" refers back to a masculine or neuter noun, \"deren\" to a feminine or plural one. The noun after them changes nothing: \"die Frau, deren Mann\", \"der Mann, dessen Frau\".",
-          "They never take endings (no \"*dessem\"), an adjective after them takes the strong ending (\"mit deren neuem Auto\"), and a preposition goes in front (\"bei dessen Eltern\").",
+          "They never take endings (no \"*dessem*\"), an adjective after them takes the strong ending (\"mit deren neuem Auto\"), and a preposition goes in front (\"bei dessen Eltern\").",
         ],
         examples: [
           { es: "Der Mann, dessen Frau Ärztin ist, arbeitet bei der Bahn.", en: "The man whose wife is a doctor works for the railway." },

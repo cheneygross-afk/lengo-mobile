@@ -21,17 +21,17 @@ export const DE_A1_U01: Lesson[] = [
         examples: [
           { es: "Hallo, Lena!", en: "Hi, Lena!" },
           { es: "Guten Morgen, Herr Becker!", en: "Good morning, Mr Becker!" },
-          { es: "Guten Tag, Frau Schneider.", en: "Hello, Mrs Schneider. (polite, during the day)" },
+          { es: "Guten Tag, Frau Schneider.", en: "Hello, Ms Schneider. (formal, during the day)" },
           { es: "Guten Abend!", en: "Good evening!" },
           { es: "Tschüss, Jonas!", en: "Bye, Jonas!" },
-          { es: "Auf Wiedersehen!", en: "Goodbye! (polite)" },
+          { es: "Auf Wiedersehen!", en: "Goodbye! (formal)" },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "Good morning, Mrs Schneider!",
+            source: "Good morning, Ms Schneider!",
             answer: "Guten Morgen, Frau Schneider!",
             explanation: "\"Guten Morgen\" until late morning; \"Frau\" is Mrs or Ms, used for every adult woman whether married or not.",
           },
@@ -48,12 +48,12 @@ export const DE_A1_U01: Lesson[] = [
         heading: "Wie geht's? Names, thanks and sorry",
         body: [
           "To ask how someone is: \"Wie geht's?\" or \"Wie geht es dir?\" to a friend, and \"Wie geht es Ihnen?\" to someone you don't know well. Learn them as fixed chunks for now; the grammar inside them (\"dir\", \"Ihnen\") comes much later. Typical answers: \"Gut, danke!\", \"Sehr gut!\", \"Es geht.\" (so-so), and then you bounce the question back with \"Und dir?\" or \"Und Ihnen?\".",
-          "Your name: \"Ich heiße Lena.\" (literally I am called Lena) is the most common way; \"Mein Name ist Lena Schmidt.\" sounds a little more formal. To ask: \"Wie heißt du?\" (friend) or \"Wie heißen Sie?\" (polite).",
+          "Your name: \"Ich heiße Lena.\" (literally I am called Lena) is the most common way; \"Mein Name ist Lena Schmidt.\" sounds a little more formal. To ask: \"Wie heißt du?\" (friend) or \"Wie heißen Sie?\" (formal).",
           "\"Danke\" is thank you, \"Danke schön\" or \"Vielen Dank\" is thank you very much. \"Bitte\" does double duty: please, and you're welcome. \"Entschuldigung!\" gets attention (excuse me) or apologises for a small thing; \"Es tut mir leid\" is a real I'm sorry, when something is your fault or you sympathise.",
         ],
         examples: [
           { es: "Wie geht's? – Gut, danke. Und dir?", en: "How are you? – Fine, thanks. And you?" },
-          { es: "Wie geht es Ihnen, Herr Becker?", en: "How are you, Mr Becker? (polite)" },
+          { es: "Wie geht es Ihnen, Herr Becker?", en: "How are you, Mr Becker? (formal)" },
           { es: "Ich heiße Mehmet.", en: "My name is Mehmet." },
           { es: "Mein Name ist Anna Wagner.", en: "My name is Anna Wagner." },
           { es: "Danke schön! – Bitte!", en: "Thank you! – You're welcome!" },
@@ -72,7 +72,7 @@ export const DE_A1_U01: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "[How are you], Mrs Becker?",
+            en: "[How are you], Ms Becker?",
             sentence: "___, Frau Becker?",
             answer: "Wie geht es Ihnen",
             explanation: "Someone you call Frau Becker gets the polite form: \"Wie geht es Ihnen?\". \"Wie geht's?\" and \"Wie geht es dir?\" are for friends.",
@@ -97,8 +97,8 @@ export const DE_A1_U01: Lesson[] = [
         examples: [
           { es: "Und du?", en: "And you? (to a friend)" },
           { es: "Und ihr?", en: "And you? (to two or more friends)" },
-          { es: "Und Sie?", en: "And you? (polite, to one or more people)" },
-          { es: "Wie heißen Sie?", en: "What's your name? (polite)" },
+          { es: "Und Sie?", en: "And you? (formal, to one or more people)" },
+          { es: "Wie heißen Sie?", en: "What's your name? (formal)" },
           { es: "Wie heißt du?", en: "What's your name? (to a friend or a child)" },
         ],
         checkpoint: [
@@ -182,9 +182,9 @@ export const DE_A1_U01: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: How are you, Mrs Wagner?",
+        prompt: "Put the words in order to say: How are you, Ms Wagner?",
         words: ["Wie", "geht", "es", "Ihnen,", "Frau", "Wagner?"],
-        translation: "How are you, Mrs Wagner?",
+        translation: "How are you, Ms Wagner?",
         explanation: "The fixed polite question \"Wie geht es Ihnen?\", then the name.",
       },
       {
@@ -193,7 +193,7 @@ export const DE_A1_U01: Lesson[] = [
         pairs: [
           { left: "Bitte!", right: "You're welcome!" },
           { left: "Es tut mir leid.", right: "I'm sorry." },
-          { left: "Auf Wiedersehen!", right: "Goodbye! (polite)" },
+          { left: "Auf Wiedersehen!", right: "Goodbye! (formal)" },
           { left: "Gute Nacht!", right: "Good night!" },
           { left: "Es geht.", right: "So-so." },
         ],
@@ -217,7 +217,7 @@ export const DE_A1_U01: Lesson[] = [
     level: "DE-A1",
     number: 2,
     title: "Greetings, Subject Pronouns & Sein, Part 2 of 2",
-    summary: "Conjugate sein (to be) in every person to say who you are, where you're from and what you do.",
+    summary: "Conjugate \"sein\" (to be) in every person to say who you are, where you're from and what you do.",
     duration: "10 min",
     sections: [
       {
@@ -257,14 +257,14 @@ export const DE_A1_U01: Lesson[] = [
         heading: "Wir sind, ihr seid, sie sind, Sie sind",
         body: [
           "The plural: \"wir sind\" (we are), \"ihr seid\" (you are, to several friends), \"sie sind\" (they are), and polite \"Sie sind\" (you are).",
-          "Two traps. First, \"ihr seid\" with a d: \"ihr sind\" is a classic beginner mistake. (Don't confuse \"seid\" with \"seit\", since, which sounds the same.) Second, \"sie\" has three meanings: \"sie ist\" is she is, \"sie sind\" is they are, \"Sie sind\" is polite you are. The verb tells she from they; only the capital S, or the context in speech, tells they from polite you.",
+          "Two traps. First, \"ihr seid\" with a d: \"*ihr sind*\" is a classic beginner mistake. (Don't confuse \"seid\" with \"seit\", since, which sounds the same.) Second, \"sie\" has three meanings: \"sie ist\" is she is, \"sie sind\" is they are, \"Sie sind\" is polite you are. The verb tells she from they; only the capital S, or the context in speech, tells they from polite you.",
           "In a yes/no question the verb comes first, as in English: \"Sind Sie Herr Becker?\" (Are you Mr Becker?), \"Seid ihr müde?\" (Are you tired?).",
         ],
         examples: [
           { es: "Wir sind aus Köln.", en: "We're from Cologne." },
           { es: "Ihr seid sehr nett.", en: "You're very kind. (to friends)" },
-          { es: "Sie sind in Berlin.", en: "They're in Berlin. / You're in Berlin. (polite)" },
-          { es: "Sind Sie Frau Schneider?", en: "Are you Mrs Schneider?" },
+          { es: "Sie sind in Berlin.", en: "They're in Berlin. / You're in Berlin. (formal)" },
+          { es: "Sind Sie Frau Schneider?", en: "Are you Ms Schneider?" },
           { es: "Seid ihr Geschwister?", en: "Are you siblings? (to two friends)" },
         ],
         checkpoint: [
@@ -296,13 +296,13 @@ export const DE_A1_U01: Lesson[] = [
       {
         heading: "Ich bin Lehrer: jobs without an article",
         body: [
-          "To say what someone does, German uses \"sein\" + the job with no article: \"Ich bin Lehrer.\" (I'm a teacher). English needs a, German doesn't: \"Ich bin ein Lehrer\" sounds odd, as if you were classifying yourself.",
+          "To say what someone does, German uses \"sein\" + the job with no article: \"Ich bin Lehrer.\" (I'm a teacher). English needs a, German doesn't: \"*Ich bin ein Lehrer*\" sounds odd, as if you were classifying yourself.",
           "Women add -in to most job words: \"Lehrer / Lehrerin\", \"Student / Studentin\", \"Verkäufer / Verkäuferin\". Some also take an umlaut: \"Arzt / Ärztin\" (doctor), \"Koch / Köchin\" (cook). Like all nouns, jobs are capitalised.",
         ],
         examples: [
           { es: "Ich bin Lehrerin.", en: "I'm a teacher. (a woman)" },
           { es: "Leon ist Student.", en: "Leon is a student." },
-          { es: "Frau Becker ist Ärztin.", en: "Mrs Becker is a doctor." },
+          { es: "Frau Becker ist Ärztin.", en: "Ms Becker is a doctor." },
           { es: "Wir sind Köche.", en: "We're cooks." },
           { es: "Sind Sie Ingenieur?", en: "Are you an engineer? (to a man, polite)" },
         ],
@@ -366,7 +366,7 @@ export const DE_A1_U01: Lesson[] = [
         source: "You're very nice.",
         answer: "Du bist sehr nett.",
         altAnswers: ["Ihr seid sehr nett.", "Sie sind sehr nett."],
-        explanation: "The English doesn't say who: \"du bist\" (a friend), \"ihr seid\" (several friends) or \"Sie sind\" (polite) are all right.",
+        explanation: "The English doesn't say who: \"du bist\" (a friend), \"ihr seid\" (several friends) or \"Sie sind\" (formal) are all right.",
       },
       {
         type: "fill-blank",
@@ -381,7 +381,7 @@ export const DE_A1_U01: Lesson[] = [
         question: "Your friends Ali and Sophie arrive at your party. You say: 'You're here!' Which is right?",
         options: ["Ihr seid da!", "Ihr sind da!", "Du bist da!", "Sie seid da!"],
         correctIndex: 0,
-        explanation: "Two friends = \"ihr\", and its verb is \"seid\". \"Ihr sind\" is the classic mistake.",
+        explanation: "Two friends = \"ihr\", and its verb is \"seid\". \"*Ihr sind*\" is the classic mistake.",
       },
       {
         type: "word-order",
@@ -409,7 +409,7 @@ export const DE_A1_U01: Lesson[] = [
     level: "DE-A1",
     number: 3,
     title: "Dialogue Lab: Das erste Treffen",
-    summary: "Follow two first conversations, one with a fellow student and one with a new boss, and choose between du and Sie.",
+    summary: "Follow two first conversations, one with a fellow student and one with a new boss, and choose between \"du\" and \"Sie\".",
     duration: "10 min",
     sections: [
       {
@@ -493,7 +493,7 @@ export const DE_A1_U01: Lesson[] = [
         examples: [
           { es: "Guten Morgen! Ich bin Tom Clarke.", en: "Good morning! I'm Tom Clarke." },
           { es: "Guten Morgen, Herr Clarke. Mein Name ist Schneider.", en: "Good morning, Mr Clarke. My name is Schneider." },
-          { es: "Freut mich, Frau Schneider.", en: "Pleased to meet you, Mrs Schneider." },
+          { es: "Freut mich, Frau Schneider.", en: "Pleased to meet you, Ms Schneider." },
           { es: "Woher kommen Sie, Herr Clarke?", en: "Where are you from, Mr Clarke?" },
           { es: "Ich bin aus Manchester.", en: "I'm from Manchester." },
         ],
@@ -509,7 +509,7 @@ export const DE_A1_U01: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "Good morning, Mrs Schneider. How are you?",
+            source: "Good morning, Ms Schneider. How are you?",
             answer: "Guten Morgen, Frau Schneider. Wie geht es Ihnen?",
             explanation: "A boss you call Frau Schneider gets the polite \"Wie geht es Ihnen?\".",
           },
@@ -527,7 +527,7 @@ export const DE_A1_U01: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Where are you from, Mrs Schneider?",
+        source: "Where are you from, Ms Schneider?",
         answer: "Woher kommen Sie, Frau Schneider?",
         explanation: "Polite set phrase: \"Woher kommen Sie?\".",
       },
@@ -584,7 +584,7 @@ export const DE_A1_U01: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Are you a teacher too? (to Mrs Schneider)",
+        source: "Are you a teacher too? (to Ms Schneider)",
         answer: "Sind Sie auch Lehrerin?",
         explanation: "Polite \"Sind Sie\" first, \"auch\" after it, and the feminine job with no article.",
       },
@@ -609,7 +609,7 @@ export const DE_A1_U01: Lesson[] = [
     level: "DE-A1",
     number: 4,
     title: "Gender & Articles, Part 1 of 2",
-    summary: "Every German noun is masculine, feminine or neuter: meet der, die, das and ein, eine, and use er, sie, es for things as well as people.",
+    summary: "Tell masculine, feminine and neuter nouns apart with \"der\", \"die\", \"das\" and \"ein\", \"eine\", and use \"er\", \"sie\", \"es\" for things as well as people.",
     duration: "12 min",
     sections: [
       {
@@ -697,7 +697,7 @@ export const DE_A1_U01: Lesson[] = [
             prompt: "Translate into German.",
             source: "The table? It's new.",
             answer: "Der Tisch? Er ist neu.",
-            explanation: "\"Der Tisch\" is masculine, so it = \"er\". \"Es ist neu\" is the typical English-speaker mistake.",
+            explanation: "\"Der Tisch\" is masculine, so it = \"er\". \"*Es ist neu*\" is the typical English-speaker mistake.",
           },
           {
             type: "fill-blank",
@@ -812,7 +812,7 @@ export const DE_A1_U01: Lesson[] = [
     level: "DE-A1",
     number: 5,
     title: "Gender & Articles, Part 2 of 2",
-    summary: "Guess der, die or das from a noun's ending, find the gender of compound nouns, and learn the exceptions worth memorising.",
+    summary: "Guess \"der\", \"die\" or \"das\" from a noun's ending, find the gender of compound nouns, and learn the exceptions worth memorising.",
     duration: "12 min",
     sections: [
       {
@@ -1022,7 +1022,7 @@ export const DE_A1_U01: Lesson[] = [
     level: "DE-A1",
     number: 6,
     title: "Noun Plurals: An Overview",
-    summary: "Meet the main German plural patterns, the plural article die for every gender, and why -s is the exception rather than the rule.",
+    summary: "Form plurals with the main German patterns and the plural article \"die\" for every gender, and know why -s is the exception rather than the rule.",
     duration: "12 min",
     sections: [
       {
@@ -1104,7 +1104,7 @@ export const DE_A1_U01: Lesson[] = [
         heading: "Traps: die can be plural, and -s is the exception",
         body: [
           "\"Die\" now has two jobs: feminine singular and every plural. \"Die Lehrerin\" is one teacher; \"die Lehrer\" are several male (or mixed) teachers. Look at the noun and the verb: \"Die Lampe ist neu\" vs \"Die Lampen sind neu\".",
-          "English speakers love to add -s: \"*Kinds\", \"*Buchs\", \"*Tischs\". In German -s is the exception, mainly for borrowed words like \"Auto\", \"Handy\", \"Hotel\", \"Café\". If a word looks native, don't reach for -s.",
+          "English speakers love to add -s: \"*Kinds*\", \"*Buchs*\", \"*Tischs*\". In German -s is the exception, mainly for borrowed words like \"Auto\", \"Handy\", \"Hotel\", \"Café\". If a word looks native, don't reach for -s.",
         ],
         examples: [
           { es: "Die Lampe ist neu. Die Lampen sind neu.", en: "The lamp is new. The lamps are new." },
@@ -1118,7 +1118,7 @@ export const DE_A1_U01: Lesson[] = [
             question: "Which is the German for 'The children are tired'?",
             options: ["Die Kinder sind müde.", "Die Kinds sind müde.", "Das Kinder ist müde.", "Die Kinder ist müde."],
             correctIndex: 0,
-            explanation: "\"Das Kind → die Kinder\" (-er), with the plural verb \"sind\". \"Kinds\" is the English-style mistake.",
+            explanation: "\"Das Kind → die Kinder\" (-er), with the plural verb \"sind\". \"*Kinds*\" is the English-style mistake.",
           },
           {
             type: "speak",
@@ -1220,7 +1220,7 @@ export const DE_A1_U01: Lesson[] = [
     level: "DE-A1",
     number: 7,
     title: "Contrast Clinic: Der, Die, Das or Plural Die?",
-    summary: "Tell singular from plural when the article is die, when the noun doesn't change, and choose er, sie, es or plural sie to replace a noun.",
+    summary: "Tell singular from plural when the article is \"die\" or the noun doesn't change, and choose \"er\", \"sie\", \"es\" or plural \"sie\" to replace a noun.",
     duration: "10 min",
     sections: [
       {
@@ -1422,7 +1422,7 @@ export const DE_A1_U01: Lesson[] = [
     level: "DE-A1",
     number: 8,
     title: "Review: Pronouns, Sein, Gender & Articles",
-    summary: "Mixed practice on greetings, du, ihr and Sie, the verb sein, der, die, das, ein, eine and plurals, before adjectives arrive.",
+    summary: "Check you can greet people, choose \"du\", \"ihr\" or \"Sie\", use \"sein\", and handle \"der\", \"die\", \"das\", \"ein\", \"eine\" and plurals before adjectives arrive.",
     duration: "12 min",
     sections: [
       {
@@ -1432,7 +1432,7 @@ export const DE_A1_U01: Lesson[] = [
           "The how-are-you chunks follow the same split: \"Wie geht's?\" / \"Wie geht es dir?\" for friends, \"Wie geht es Ihnen?\" for Sie.",
         ],
         examples: [
-          { es: "Guten Abend, Frau Wagner! Wie geht es Ihnen?", en: "Good evening, Mrs Wagner! How are you?" },
+          { es: "Guten Abend, Frau Wagner! Wie geht es Ihnen?", en: "Good evening, Ms Wagner! How are you?" },
           { es: "Hallo, Leon! Wie geht's?", en: "Hi, Leon! How's it going?" },
           { es: "Tschüss, ihr zwei!", en: "Bye, you two!" },
           { es: "Entschuldigung, sind Sie Herr Krause?", en: "Excuse me, are you Mr Krause?" },
@@ -1442,7 +1442,7 @@ export const DE_A1_U01: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "Excuse me, are you Mrs Wagner?",
+            source: "Excuse me, are you Ms Wagner?",
             answer: "Entschuldigung, sind Sie Frau Wagner?",
             altAnswers: ["Entschuldigen Sie, sind Sie Frau Wagner?"],
             explanation: "\"Entschuldigung\" to get a stranger's attention, then polite \"sind Sie\" with the verb first.",
@@ -1491,7 +1491,7 @@ export const DE_A1_U01: Lesson[] = [
             type: "listen-choose",
             audio: "Sie sind aus Köln.",
             question: "What does it mean?",
-            options: ["They're from Cologne. / You're from Cologne. (polite)", "She's from Cologne.", "We're from Cologne.", "You're from Cologne. (to friends)"],
+            options: ["They're from Cologne. / You're from Cologne. (formal)", "She's from Cologne.", "We're from Cologne.", "You're from Cologne. (to friends)"],
             correctIndex: 0,
             explanation: "\"Sind\" rules out she. In speech \"Sie sind\" and \"sie sind\" sound the same; context decides.",
           },
@@ -1601,26 +1601,26 @@ export const DE_A1_U01: Lesson[] = [
     level: "DE-A1",
     number: 9,
     title: "Error Hunt: Pronouns, Sein & Articles",
-    summary: "Diagnose and fix the classic beginner mistakes with sein, articles, capital letters, plurals and du versus Sie.",
+    summary: "Diagnose and fix the classic beginner mistakes with \"sein\", articles, capital letters, plurals and \"du\" versus \"Sie\".",
     duration: "12 min",
     sections: [
       {
         heading: "Wrong verb forms: ich bist, ihr sind",
         body: [
-          "Each sentence in this lesson was written by a learner and has exactly one mistake. First, the verb. A learner wrote \"*Ich bist müde.\" The form \"bist\" belongs to du only; with ich it's \"bin\": \"Ich bin müde.\"",
-          "Another wrote \"*Ihr sind aus Berlin.\" The ihr form is the odd one out: \"ihr seid\". The -d at the end is your check. Remember the full set: bin, bist, ist, sind, seid, sind.",
+          "Each sentence in this lesson was written by a learner and has exactly one mistake. First, the verb. A learner wrote \"*Ich bist müde.*\" The form \"bist\" belongs to du only; with ich it's \"bin\": \"Ich bin müde.\"",
+          "Another wrote \"*Ihr sind aus Berlin.*\" The ihr form is the odd one out: \"ihr seid\". The -d at the end is your check. Remember the full set: bin, bist, ist, sind, seid, sind.",
         ],
         examples: [
-          { es: "Ich bin müde.", en: "I'm tired. (not: \"Ich bist\")" },
-          { es: "Ihr seid aus Berlin.", en: "You're from Berlin. (not: \"Ihr sind\")" },
-          { es: "Du bist Lehrer.", en: "You're a teacher. (not: \"Du bin\")" },
-          { es: "Wir sind hier.", en: "We're here. (not: \"Wir seid\")" },
+          { es: "Ich bin müde.", en: "I'm tired. (not: \"*Ich bist*\")" },
+          { es: "Ihr seid aus Berlin.", en: "You're from Berlin. (not: \"*Ihr sind*\")" },
+          { es: "Du bist Lehrer.", en: "You're a teacher. (not: \"*Du bin*\")" },
+          { es: "Wir sind hier.", en: "We're here. (not: \"*Wir seid*\")" },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"*Ich bist aus Kanada.\" Translate correctly into German.",
+            prompt: "A learner wrote \"*Ich bist aus Kanada.*\" Translate correctly into German.",
             source: "I'm from Canada.",
             answer: "Ich bin aus Kanada.",
             explanation: "With ich the form is \"bin\"; \"bist\" is only for du.",
@@ -1631,28 +1631,28 @@ export const DE_A1_U01: Lesson[] = [
             en: "[You are] very funny! (to two friends)",
             sentence: "___ sehr lustig!",
             answer: "Ihr seid",
-            explanation: "The ihr form of sein is \"seid\": \"Ihr sind\" is the mistake to avoid.",
+            explanation: "The ihr form of sein is \"seid\": \"*Ihr sind*\" is the mistake to avoid.",
           },
         ],
       },
       {
         heading: "Wrong nouns: der Mädchen, das tisch, Kinds",
         body: [
-          "\"Der Mädchen ist nett.\" The girl is neuter because of -chen: \"Das Mädchen ist nett.\" Gender follows the ending here, not the person.",
-          "\"Das ist ein tisch.\" Every noun needs a capital letter, wherever it stands: \"Das ist ein Tisch.\" (The article \"ein\" is right here, since \"Tisch\" is masculine: learn the gender with the noun.)",
-          "\"Die Kinds sind hier.\" English-style -s. The plural is \"die Kinder\". Native German nouns rarely take -s.",
+          "\"*Der Mädchen ist nett.*\" The girl is neuter because of -chen: \"Das Mädchen ist nett.\" Gender follows the ending here, not the person.",
+          "\"*Das ist ein tisch.*\" Every noun needs a capital letter, wherever it stands: \"Das ist ein Tisch.\" (The article \"ein\" is right here, since \"Tisch\" is masculine: learn the gender with the noun.)",
+          "\"*Die Kinds sind hier.*\" English-style -s. The plural is \"die Kinder\". Native German nouns rarely take -s.",
         ],
         examples: [
-          { es: "Das Mädchen ist nett.", en: "The girl is nice. (not: \"Der Mädchen\")" },
+          { es: "Das Mädchen ist nett.", en: "The girl is nice. (not: \"*Der Mädchen*\")" },
           { es: "Das ist ein Tisch.", en: "That's a table. (capital T)" },
-          { es: "Die Kinder sind hier.", en: "The children are here. (not: \"Kinds\")" },
-          { es: "Die Bücher sind alt.", en: "The books are old. (not: \"Buchs\")" },
+          { es: "Die Kinder sind hier.", en: "The children are here. (not: \"*Kinds*\")" },
+          { es: "Die Bücher sind alt.", en: "The books are old. (not: \"*Buchs*\")" },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"*Der Mädchen ist aus Bonn.\" Translate correctly into German.",
+            prompt: "A learner wrote \"*Der Mädchen ist aus Bonn.*\" Translate correctly into German.",
             source: "The girl is from Bonn.",
             answer: "Das Mädchen ist aus Bonn.",
             explanation: "-chen nouns are always neuter: \"das Mädchen\".",
@@ -1660,7 +1660,7 @@ export const DE_A1_U01: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"*Die Kinds sind müde.\" Translate correctly into German.",
+            prompt: "A learner wrote \"*Die Kinds sind müde.*\" Translate correctly into German.",
             source: "The children are tired.",
             answer: "Die Kinder sind müde.",
             explanation: "\"Das Kind → die Kinder\" (-er plural). The English-style -s is wrong here.",
@@ -1678,12 +1678,12 @@ export const DE_A1_U01: Lesson[] = [
       {
         heading: "Wrong choices: es for der, ein Student, dir to a stranger",
         body: [
-          "\"Der Stuhl? Es ist alt.\" English it pulls learners to \"es\", but a masculine noun takes \"er\": \"Der Stuhl? Er ist alt.\"",
-          "\"Ich bin ein Student.\" Grammatically possible but unnatural: with a job or status after sein German drops the article: \"Ich bin Student.\"",
+          "\"*Der Stuhl? Es ist alt.*\" English it pulls learners to \"es\", but a masculine noun takes \"er\": \"Der Stuhl? Er ist alt.\"",
+          "\"*Ich bin ein Student.*\" Grammatically possible but unnatural: with a job or status after sein German drops the article: \"Ich bin Student.\"",
           "\"Wie geht es dir?\" said to the new head of department or a stranger: correct German, wrong register. With Sie people it's \"Wie geht es Ihnen?\". Mistakes like this one aren't grammar errors, but Germans notice them.",
         ],
         examples: [
-          { es: "Der Stuhl? Er ist alt.", en: "The chair? It's old. (not: \"Es ist alt\")" },
+          { es: "Der Stuhl? Er ist alt.", en: "The chair? It's old. (not: \"*Es ist alt*\")" },
           { es: "Ich bin Student.", en: "I'm a student. (no \"ein\")" },
           { es: "Wie geht es Ihnen, Herr Weber?", en: "How are you, Mr Weber? (not: \"dir\")" },
           { es: "Die Uhr? Sie ist kaputt.", en: "The clock? It's broken." },
@@ -1692,7 +1692,7 @@ export const DE_A1_U01: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"*Der Computer? Es ist neu.\" Translate correctly into German.",
+            prompt: "A learner wrote \"*Der Computer? Es ist neu.*\" Translate correctly into German.",
             source: "The computer? It's new.",
             answer: "Der Computer? Er ist neu.",
             explanation: "\"Der Computer\" is masculine, so it = \"er\".",
@@ -1700,7 +1700,7 @@ export const DE_A1_U01: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"*Er ist ein Koch.\" Translate correctly into German.",
+            prompt: "A learner wrote \"*Er ist ein Koch.*\" Translate correctly into German.",
             source: "He's a cook.",
             answer: "Er ist Koch.",
             explanation: "No article before a job after sein.",
@@ -1718,7 +1718,7 @@ export const DE_A1_U01: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Ihr sind sehr nett.\" Translate correctly into German.",
+        prompt: "A learner wrote \"*Ihr sind sehr nett.*\" Translate correctly into German.",
         source: "You're very kind. (to two friends)",
         answer: "Ihr seid sehr nett.",
         explanation: "The ihr form is \"seid\".",
@@ -1726,7 +1726,7 @@ export const DE_A1_U01: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Die Lampe? Es ist neu.\" Translate correctly into German.",
+        prompt: "A learner wrote \"*Die Lampe? Es ist neu.*\" Translate correctly into German.",
         source: "The lamp? It's new.",
         answer: "Die Lampe? Sie ist neu.",
         explanation: "Feminine noun → \"sie\".",
@@ -1734,7 +1734,7 @@ export const DE_A1_U01: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Ich bin eine Ärztin.\" Translate correctly into German.",
+        prompt: "A learner wrote \"*Ich bin eine Ärztin.*\" Translate correctly into German.",
         source: "I'm a doctor. (a woman)",
         answer: "Ich bin Ärztin.",
         explanation: "No article before a job after sein.",
@@ -1742,7 +1742,7 @@ export const DE_A1_U01: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Das ist ein buch.\" Translate correctly into German.",
+        prompt: "A learner wrote \"*Das ist ein buch.*\" Translate correctly into German.",
         source: "That's a book.",
         answer: "Das ist ein Buch.",
         explanation: "Every noun takes a capital: \"Buch\". (Typed answers ignore case, but in writing it matters.)",
@@ -1750,7 +1750,7 @@ export const DE_A1_U01: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Die Autoen sind teuer.\" Translate correctly into German.",
+        prompt: "A learner wrote \"*Die Autoen sind teuer.*\" Translate correctly into German.",
         source: "The cars are expensive.",
         answer: "Die Autos sind teuer.",
         explanation: "\"Auto\" is one of the -s words: \"die Autos\".",
@@ -1758,7 +1758,7 @@ export const DE_A1_U01: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Du bin aus England?\" Translate correctly into German.",
+        prompt: "A learner wrote \"*Du bin aus England?*\" Translate correctly into German.",
         source: "You're from England? (to a friend)",
         answer: "Du bist aus England?",
         altAnswers: ["Bist du aus England?"],
@@ -1770,7 +1770,7 @@ export const DE_A1_U01: Lesson[] = [
         en: "[The girls] are from Dresden.",
         sentence: "___ sind aus Dresden.",
         answer: "Die Mädchen",
-        explanation: "\"Das Mädchen\" doesn't change in the plural; all plurals take \"die\". Not \"Mädchens\".",
+        explanation: "\"Das Mädchen\" doesn't change in the plural; all plurals take \"die\". Not \"*Mädchens*\".",
       },
       {
         type: "multiple-choice",
@@ -1796,7 +1796,7 @@ export const DE_A1_U01: Lesson[] = [
       {
         type: "dictation",
         audio: "Die Kinder sind hier.",
-        explanation: "\"Kinder\", not \"Kinds\".",
+        explanation: "\"Kinder\", not \"*Kinds*\".",
       },
       {
         type: "speak",
@@ -1811,7 +1811,7 @@ export const DE_A1_U01: Lesson[] = [
     level: "DE-A1",
     number: 10,
     title: "Describing with Sein + Adjective",
-    summary: "Describe people and things with sein and an adjective, which never changes after sein, and soften or strengthen it with sehr, ziemlich, zu and ganz.",
+    summary: "Describe people and things with \"sein\" and an adjective, which never changes after \"sein\", and soften or strengthen it with \"sehr\", \"ziemlich\", \"zu\" and \"ganz\".",
     duration: "12 min",
     sections: [
       {
@@ -1825,7 +1825,7 @@ export const DE_A1_U01: Lesson[] = [
           { es: "Die Lampe ist groß.", en: "The lamp is big." },
           { es: "Das Haus ist groß.", en: "The house is big." },
           { es: "Die Kinder sind groß.", en: "The children are tall." },
-          { es: "Frau Becker ist sehr nett.", en: "Mrs Becker is very nice." },
+          { es: "Frau Becker ist sehr nett.", en: "Ms Becker is very nice." },
         ],
         checkpoint: [
           {
@@ -2122,7 +2122,7 @@ export const DE_A1_U01: Lesson[] = [
           {
             type: "speak",
             text: "Die Ärztin ist sehr nett.",
-            tip: "Ä sounds like the e in bed.",
+            tip: "\"Ä\" sounds like the e in bed.",
             explanation: "Feminine \"die Ärztin\"; the adjective doesn't change.",
           },
         ],
@@ -2310,7 +2310,7 @@ export const DE_A1_U01: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "This is Mrs Schneider. She's very friendly.",
+        source: "This is Ms Schneider. She's very friendly.",
         answer: "Das ist Frau Schneider. Sie ist sehr freundlich.",
         altAnswers: ["Das ist Frau Schneider. Sie ist sehr nett."],
         explanation: "\"Sie ist\" + an adjective with no ending.",
@@ -2393,7 +2393,7 @@ export const DE_A1_U01_WRITING: WriteExercise = {
   maxWords: 60,
   rubric: [
     "Greets the group and gives your name with \"Ich heiße...\" or \"Ich bin...\", and where you're from with \"Ich bin aus...\"",
-    "Uses sein in at least two persons (e.g. \"ich bin\", \"er ist\" or \"sie ist\") and gives jobs with no article (\"Ich bin Lehrer\", not \"ein Lehrer\")",
+    "Uses sein in at least two persons (e.g. \"ich bin\", \"er ist\" or \"sie ist\") and gives jobs with no article (\"Ich bin Lehrer\", not \"*ein Lehrer*\")",
     "Introduces a thing with \"der\", \"die\" or \"das\" and refers back to it with the matching \"er\", \"sie\" or \"es\"",
     "Describes with adjectives after sein, without endings (\"Der Tisch ist neu\")",
   ],

@@ -16,7 +16,7 @@ export const DE_C2_U06: Lesson[] = [
         body: [
           "The simplest German pun is the same as in English: one word with two unrelated meanings. \"Die Bank\" is both a bench and a bank, \"das Schloss\" is a castle and a lock, \"der Hahn\" is a rooster and a tap, \"die Birne\" is a pear, a light bulb and (colloquially) your head, \"das Gericht\" is a court of law and a dish. A joke sets up one meaning and then lands on the other.",
           "German adds a twist English does not have: grammatical gender can separate the two meanings. \"Der Leiter\" is the head of a department, \"die Leiter\" is a ladder; \"das Steuer\" is the steering wheel, \"die Steuer\" is a tax; \"der Kiefer\" is the jaw, \"die Kiefer\" is a pine tree; \"der See\" is a lake, \"die See\" is the sea. In speech the article gives the game away, so puns often hide it in the plural or in a case where both genders look the same.",
-          "Watch the plurals too: \"die Bänke\" are benches but \"die Banken\" are banks, \"die Mütter\" are mothers but \"die Muttern\" are nuts (for bolts). Native speakers enjoy exactly these collisions, and recognising them is a Mastery-level skill: the Goethe C2 exam likes texts that play on them.",
+          "Watch the plurals too: \"die Bänke\" are benches but \"die Banken\" are banks, \"die Mütter\" are mothers but \"die Muttern\" are nuts (for bolts). Native speakers enjoy exactly these collisions, and recognising them is a Mastery-level skill: C2 reading texts often play on them.",
         ],
         examples: [
           { es: "Ich sitze auf der Bank und warte auf mein Geld.", en: "I'm sitting on the bench (bank) waiting for my money." },
@@ -92,7 +92,7 @@ export const DE_C2_U06: Lesson[] = [
         heading: "Staubecken: re-cutting compounds",
         body: [
           "The real engine of German wordplay is the compound noun. Because German writes compounds as one word, the reader has to decide where to cut, and some words can be cut in two places. \"Staubecken\" is either \"Stau-becken\" (a reservoir, where water is dammed) or \"Staub-ecken\" (dusty corners). \"Blumentopferde\" can be \"Blumentopf-erde\" (potting soil) or \"Blumento-pferde\" (flower horses). \"Wachstube\" is \"Wach-stube\" (guardroom) or \"Wachs-tube\" (a tube of wax).",
-          "Writers of headlines and adverts use this constantly, and so do comedians: Heinz Erhardt, the master of the gentle pun in the 1950s and 60s, built whole poems on such double readings. In speech the stress and the pause decide: \"STAU-becken\" vs \"STAUB-ecken\".",
+          "Writers of headlines and adverts use this constantly, and so do comedians: Heinz Erhardt, the master of the gentle pun in the 1950s and 60s, built whole poems on such double readings. In speech both readings are stressed on the first syllable, so the syllable cut decides: \"Stau-becken\" vs \"Staub-ecken\", where a tiny glottal stop before \"ecken\" marks the second reading.",
           "A related game is the invented compound that sounds like a real one: \"Klopfsalat\" from \"Kopfsalat\", \"Bandscheibenvorfall\" turned into a \"Bandscheibenvorfreude\". When you meet an unknown compound in a humorous text, ask which existing word it is echoing.",
         ],
         examples: [
@@ -115,8 +115,8 @@ export const DE_C2_U06: Lesson[] = [
           {
             type: "speak",
             text: "In unserem Staubecken gibt es keine Staubecken.",
-            tip: "Say STAU-becken the first time and STAUB-ecken the second: the glottal stop before \"ecken\" makes the cut audible.",
-            explanation: "The same letters, two words: the pause and stress tell the listener where the compound is cut.",
+            tip: "Say \"Stau-becken\" the first time and \"Staub-ecken\" the second: the glottal stop before \"ecken\" makes the cut audible.",
+            explanation: "The same letters, two words: the syllable cut (not the stress, which stays on the first syllable) tells the listener where the compound is split.",
           },
         ],
       },
@@ -256,7 +256,7 @@ export const DE_C2_U06: Lesson[] = [
         heading: "Headlines and adverts",
         body: [
           "German headline writers (the Bild newspaper most of all, but also Spiegel and taz) love the double meaning. A headline about a failing bakery chain: \"Bäckerei-Kette backt kleinere Brötchen\": \"kleinere Brötchen backen\" is an idiom for lowering your ambitions, and here it is literally true. About a strike at Lufthansa: \"Lufthansa geht die Luft aus\" (Lufthansa runs out of air / steam).",
-          "Adverts work the same way. A furniture store: \"Wir haben die Lösung für Ihr Sitzproblem.\" A dentist chain: \"Wir beißen nicht.\" An optician: \"Wir haben Sie im Blick.\" The trick is always to activate a literal and a figurative meaning at once; recognising the idiom is the key, so it pays to know German idioms well (Unit 4).",
+          "Adverts work the same way. A furniture shop: \"Wir haben die Lösung für Ihr Sitzproblem.\" A dentist chain: \"Wir beißen nicht.\" An optician: \"Wir haben Sie im Blick.\" The trick is always to activate a literal and a figurative meaning at once; recognising the idiom is the key, so it pays to know German idioms well (Unit 4).",
           "When you explain a pun in German, useful phrases are: \"Das Wortspiel beruht auf ...\" (the pun rests on), \"Hier wird mit der Doppeldeutigkeit von ... gespielt\", \"wörtlich und übertragen\" (literally and figuratively), \"Die Pointe liegt darin, dass ...\".",
         ],
         examples: [
@@ -314,7 +314,7 @@ export const DE_C2_U06: Lesson[] = [
           {
             type: "speak",
             text: "Wir sollen die Gäste heute übersetzen.",
-            tip: "Stress ÜBER- to mean ferry across; stress -SET- to mean translate. Try both.",
+            tip: "Stress ÜBER- in \"übersetzen\" to mean ferry across; stress -SET- to mean translate. Try both.",
             explanation: "The separable verb stresses the prefix, the inseparable one the stem: that is what makes the sketch work on stage.",
           },
         ],
@@ -1270,13 +1270,13 @@ export const DE_C2_U06: Lesson[] = [
         heading: "Scene 3: Being teased and teasing back",
         body: [
           "Mia (watching Leon struggle with an IKEA shelf): \"Na, Herr Ingenieur, brauchst du eine Anleitung für die Anleitung?\" Leon: \"Sehr witzig. Du darfst gerne übernehmen, Frau Schlaumeier.\" Mia: \"Schlaumeier? Das nehme ich als Kompliment.\"",
-          "\"Sehr witzig\" (very funny) is the standard dry reply to teasing, the German equivalent of Ha ha, very funny. \"Haha, selten so gelacht\" (rarely laughed so much) is the ironic version. Mock titles are a common teasing device: \"Herr Professor\", \"Frau Schlaumeier\" (Mrs Smarty-pants), \"Herr Oberschlau\".",
+          "\"Sehr witzig\" (very funny) is the standard dry reply to teasing, the German equivalent of Ha ha, very funny. \"Haha, selten so gelacht\" (rarely laughed so much) is the ironic version. Mock titles are a common teasing device: \"Herr Professor\", \"Frau Schlaumeier\" (Ms Smarty-pants), \"Herr Oberschlau\".",
           "Playing along (\"mitspielen\") is the most socially skilled move: accept the tease and exaggerate it (\"Ja, ich bin eben ein Genie\"), or turn it into a compliment as Mia does. \"Wer austeilt, muss auch einstecken können\" (whoever dishes it out has to be able to take it) is the unwritten rule.",
         ],
         examples: [
           { es: "Sehr witzig.", en: "Very funny. (dry)" },
           { es: "Haha, selten so gelacht.", en: "Ha ha, hilarious. (ironic)" },
-          { es: "Du darfst gerne übernehmen, Frau Schlaumeier.", en: "You're welcome to take over, Mrs Smarty-pants." },
+          { es: "Du darfst gerne übernehmen, Frau Schlaumeier.", en: "You're welcome to take over, Ms Smarty-pants." },
           { es: "Das nehme ich als Kompliment.", en: "I'll take that as a compliment." },
           { es: "Wer austeilt, muss auch einstecken können.", en: "If you can dish it out, you have to be able to take it." },
         ],
@@ -1355,7 +1355,7 @@ export const DE_C2_U06: Lesson[] = [
         prompt: "Put the words in order to say: Can you explain that one to me?",
         words: ["Kannst", "du", "mir", "den", "erklären?"],
         translation: "Can you explain that one to me?",
-        explanation: "Dative pronoun before accusative pronoun: \"mir den\". \"Den\" stands for \"den Witz\".",
+        explanation: "\"Den\" is a demonstrative standing for \"den Witz\", and like a noun it follows the dative pronoun \"mir\". With two personal pronouns the accusative comes first: \"Kannst du ihn mir erklären?\"",
       },
       {
         type: "translate",
@@ -1817,6 +1817,6 @@ export const DE_C2_U06_WRITING: WriteExercise = {
     "Evaluate with learned adjectives (\"geistreich\", \"treffend\", \"hintersinnig\", \"plump\", \"banal\") and a \"zwar ... doch\" concession",
     "Use at least one ironic or understated phrase of your own (\"nicht ganz unproblematisch\", \"Es gibt Schöneres\")",
   ],
-  modelAnswer: "Am vergangenen Samstag war ich im Leipziger Kabarett „Pfeffermühle“, wo die Kabarettistin Ayşe Demir ihr neues Programm „Amtlich lustig“ vorgestellt hat. Der Titel verspricht viel, und zum größten Teil hält der Abend, was er verspricht.\n\nDer stärkste Moment war ein Sketch, in dem Demir eine Beamtin spielt, die einen Antrag auf Geburtstagsfeier bearbeitet. In perfektem Amtsdeutsch erklärt sie: „Die Durchführung von Heiterkeit hat gemäß Paragraf 3 in geschlossenen Räumen zu erfolgen.“ Die Pointe liegt im Kontrast zwischen dem bürokratischen Register und dem banalen Inhalt; je ernster sie bleibt, desto lauter lacht das Publikum. Treffender hätte man den deutschen Hang zur Regelung nicht karikieren können.\n\nAuch das Wortspiel mit dem Verb „übersetzen“ funktioniert: Ein Fährmann soll eine Gruppe Touristen übersetzen und fragt verwirrt, in welche Sprache. Der Witz beruht auf dem Unterschied zwischen dem trennbaren und dem untrennbaren Verb, und er funktioniert nur mündlich, weil die Betonung entscheidet. Das ist ein klassischer Kalauer, aber so hintersinnig vorgetragen, dass niemand stöhnt.\n\nWeniger gelungen fand ich den zweiten Teil. Zwar nimmt Demir dort die Regierung aufs Korn, doch die Witze über Politiker wirken streckenweise plump, und manche Pointe ist schlicht abgeschmackt. Hier wird aus Kabarett bloße Comedy; die Grenze zwischen Satire und Beschimpfung ist bisweilen nicht ganz unproblematisch.\n\nInsgesamt ist der Abend jedoch geistreich und überraschend schwarz: Eine Nummer über das Warten im Krankenhaus lebt von reinem Galgenhumor. Wer trockenen Humor und Ironie mag, wird sich bestens amüsieren. Wer dagegen laute Comedy erwartet, wird enttäuscht sein, denn Demir arbeitet mit Untertreibung statt mit Effekten. Es gibt Schöneres, als an einem verregneten Samstag in einer Schlange vor der Kasse zu stehen, aber für dieses Programm lohnt es sich. Meine Empfehlung: unbedingt hingehen, am besten mit Freunden, die einen Kalauer zu schätzen wissen.",
+  modelAnswer: "Am vergangenen Samstag war ich in einem kleinen Leipziger Kabarett, wo die Kabarettistin Ayşe Demir ihr neues Programm „Amtlich lustig“ vorgestellt hat. Der Titel verspricht viel, und zum größten Teil hält der Abend, was er verspricht.\n\nDer stärkste Moment war ein Sketch, in dem Demir eine Beamtin spielt, die einen Antrag auf Geburtstagsfeier bearbeitet. In perfektem Amtsdeutsch erklärt sie: „Die Durchführung von Heiterkeit hat gemäß Paragraf 3 in geschlossenen Räumen zu erfolgen.“ Die Pointe liegt im Kontrast zwischen dem bürokratischen Register und dem banalen Inhalt; je ernster sie bleibt, desto lauter lacht das Publikum. Treffender hätte man den deutschen Hang zur Regelung nicht karikieren können.\n\nAuch das Wortspiel mit dem Verb „übersetzen“ funktioniert: Ein Fährmann soll eine Gruppe Touristen übersetzen und fragt verwirrt, in welche Sprache. Der Witz beruht auf dem Unterschied zwischen dem trennbaren und dem untrennbaren Verb, und er funktioniert nur mündlich, weil die Betonung entscheidet. Das ist ein klassischer Kalauer, aber so hintersinnig vorgetragen, dass niemand stöhnt.\n\nWeniger gelungen fand ich den zweiten Teil. Zwar nimmt Demir dort die Regierung aufs Korn, doch die Witze über Politiker wirken streckenweise plump, und manche Pointe ist schlicht abgeschmackt. Hier wird aus Kabarett bloße Comedy; die Grenze zwischen Satire und Beschimpfung ist bisweilen nicht ganz unproblematisch.\n\nInsgesamt ist der Abend jedoch geistreich und überraschend schwarz: Eine Nummer über das Warten im Krankenhaus lebt von reinem Galgenhumor. Wer trockenen Humor und Ironie mag, wird sich bestens amüsieren. Wer dagegen laute Comedy erwartet, wird enttäuscht sein, denn Demir arbeitet mit Untertreibung statt mit Effekten. Es gibt Schöneres, als an einem verregneten Samstag in einer Schlange vor der Kasse zu stehen, aber für dieses Programm lohnt es sich. Meine Empfehlung: unbedingt hingehen, am besten mit Freunden, die einen Kalauer zu schätzen wissen.",
   explanation: "The review explains how the jokes work (\"beruht auf\", \"die Pointe liegt darin\"), names the comic genre precisely, evaluates with learned adjectives inside a \"zwar ... doch\" concession, and uses its own understatement (\"nicht ganz unproblematisch\", \"Es gibt Schöneres\") and a Konjunktiv II compliment (\"Treffender hätte man ... nicht ... können\").",
 };

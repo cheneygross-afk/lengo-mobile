@@ -49,7 +49,7 @@ export const GOETHE_C1_HOEREN: ExamPaper = {
             },
             {
               voice: "m",
-              text: "Grundsätzlich ja, aber leider nicht für diesen Kurs, weil er zu keinem anerkannten Abschluss führt. Unter bestimmten Voraussetzungen gibt das Land aber einen Zuschuss von fünfzig Prozent. Den müssen Sie allerdings beantragen, bevor der Kurs beginnt, nicht hinterher – das wird oft übersehen.",
+              text: "Grundsätzlich ja, aber leider nicht für diesen Kurs, weil er nicht für die Förderung durch die Arbeitsagentur zugelassen ist. Unter bestimmten Voraussetzungen gibt das Land aber einen Zuschuss von fünfzig Prozent. Den müssen Sie allerdings beantragen, bevor der Kurs beginnt, nicht hinterher – das wird oft übersehen.",
             },
             {
               voice: "f",
@@ -112,7 +112,7 @@ export const GOETHE_C1_HOEREN: ExamPaper = {
           ],
           answer: 2,
           explanation:
-            "„Grundsätzlich ja, aber leider nicht für diesen Kurs“, weil er nicht zu einem anerkannten Abschluss führt. Die 50 % sind etwas anderes: der Zuschuss vom Land.",
+            "„Grundsätzlich ja, aber leider nicht für diesen Kurs“, weil er nicht für die Förderung durch die Arbeitsagentur zugelassen ist. Die 50 % sind etwas anderes: der Zuschuss vom Land.",
         },
         {
           n: 4,
@@ -349,28 +349,28 @@ export const GOETHE_C1_HOEREN: ExamPaper = {
         "Sie hören einen Ausschnitt aus einem Vortrag. Sie hören den Text einmal. Lesen Sie zuerst die Aufgaben 18–22. Wählen Sie beim Hören die richtige Lösung: a, b oder c.",
       audio: [
         {
-          label: "Vortrag: Warum wir aufschieben",
+          label: "Vortrag: Die Macht der Erwartung",
           plays: 1,
           lines: [
             {
               voice: "f",
-              text: "Meine Damen und Herren, ich möchte heute über ein Phänomen sprechen, das vermutlich alle hier im Saal kennen: das Aufschieben. Die Steuererklärung, der Anruf beim Vermieter, die Hausarbeit – wir wissen, dass es erledigt werden muss, und tun es trotzdem nicht.",
+              text: "Meine Damen und Herren, Sie nehmen eine Tablette gegen Kopfschmerzen, und eine halbe Stunde später geht es Ihnen besser. Ob sie überhaupt einen Wirkstoff enthielt, ist dafür womöglich weniger entscheidend, als Sie glauben. Mein Thema heute ist der Placeboeffekt.",
             },
             {
               voice: "f",
-              text: "Lange hielt man Aufschieben für ein Problem des Zeitmanagements. Man gab Betroffenen Kalender, To-do-Listen und Zeitpläne an die Hand. Das hilft manchen, aber erstaunlich vielen nicht. Die Forschung der letzten zwanzig Jahre zeigt nämlich, dass Aufschieben weniger mit Zeit als mit Gefühlen zu tun hat. Wir schieben nicht eigentlich die Aufgabe auf, sondern das unangenehme Gefühl, das sie in uns auslöst: Langeweile, Unsicherheit, Angst vor dem Scheitern.",
+              text: "Lange galt das Placebo in der Medizin vor allem als Störfaktor: Man brauchte es in Studien als Vergleich, der Effekt selbst interessierte kaum. Inzwischen weiß man, dass im Körper durchaus etwas geschieht. Wer Linderung erwartet, schüttet etwa vermehrt körpereigene schmerzhemmende Stoffe aus. Bei Schmerzen, Übelkeit oder Erschöpfung sind die Effekte oft beachtlich, einen Tumor dagegen lässt keine Scheinbehandlung schrumpfen.",
             },
             {
               voice: "f",
-              text: "Das erklärt auch, warum ausgerechnet Menschen mit hohen Ansprüchen an sich selbst besonders häufig aufschieben. Wer fürchtet, eine Arbeit nicht perfekt zu machen, fängt lieber gar nicht erst an. Kurzfristig ist das eine Erleichterung. Langfristig wächst der Druck, und mit ihm das schlechte Gefühl.",
+              text: "Erstaunlich ist, wie sehr es auf die Umstände ankommt. In einem Experiment bekamen alle Versuchspersonen dieselbe wirkungslose Pille, angeblich mal teuer, mal stark reduziert. Die vermeintlich teure Pille linderte die Schmerzen deutlich besser. Auch Farbe und Zahl der Tabletten spielen eine Rolle, ebenso das Auftreten der Ärztin.",
             },
             {
               voice: "f",
-              text: "Was also tun? Eine überraschend wirksame Methode ist Selbstmitgefühl. In einer Studie mit Studierenden zeigte sich: Wer sich verzieh, dass er die Vorbereitung auf eine Prüfung aufgeschoben hatte, statt sich Vorwürfe zu machen, schob bei der nächsten Prüfung weniger auf. Das klingt paradox, ist aber logisch: Selbstvorwürfe sind ja selbst ein unangenehmes Gefühl, das wir wiederum vermeiden wollen.",
+              text: "Die Kehrseite ist der Nocebo-Effekt. Wer auf dem Beipackzettel lange Listen möglicher Nebenwirkungen liest, entwickelt manche davon, auch ohne Wirkstoff. Das stellt Ärztinnen und Ärzte vor ein Dilemma: Sie müssen über Risiken aufklären, ohne durch die Art der Aufklärung neue Beschwerden hervorzurufen.",
             },
             {
               voice: "f",
-              text: "Ein zweiter Ansatz besteht darin, die Einstiegshürde zu senken. Nehmen Sie sich nicht vor, die Hausarbeit zu schreiben, sondern nur, das Dokument zu öffnen und einen ersten Satz zu formulieren. Meistens ist das Anfangen der schwierigste Teil.",
+              text: "Bleibt die ethische Frage. Placebos heimlich zu geben, lehnen die meisten Fachleute ab, denn Täuschung untergräbt das Vertrauen, auf dem jede Behandlung beruht. Umso interessanter sind Studien mit offenen Placebos: Die Teilnehmenden wissen, dass ihre Kapseln keinen Wirkstoff enthalten, und berichten trotzdem über weniger Beschwerden. Medizin, so zeigt sich, ist immer auch Begegnung, und die Erwartungen der Patienten lassen sich aus ihr nicht herausrechnen.",
             },
           ],
         },
@@ -378,62 +378,58 @@ export const GOETHE_C1_HOEREN: ExamPaper = {
       items: [
         {
           n: 18,
-          question: "Wie wurde Aufschieben früher vor allem erklärt?",
-          options: [
-            "Als Charakterschwäche.",
-            "Als Folge schlechter Zeitplanung.",
-            "Als Folge von Überarbeitung.",
-          ],
+          question: "Welche Rolle spielte das Placebo in der Medizin lange Zeit?",
+          options: ["Es galt als bestes Mittel gegen Schmerzen.", "Es diente vor allem als Vergleich in Studien.", "Es war nur in der Psychiatrie üblich."],
           answer: 1,
-          explanation:
-            "„Lange hielt man Aufschieben für ein Problem des Zeitmanagements“, deshalb bekamen die Leute Kalender, To-do-Listen und Zeitpläne.",
+          explanation: "Es galt „vor allem als Störfaktor“: Man brauchte es in Studien als Vergleich, der Effekt selbst „interessierte kaum“.",
         },
         {
           n: 19,
-          question: "Was zeigt die neuere Forschung?",
+          question: "Was sagt die Rednerin über die Reichweite des Placeboeffekts?",
           options: [
-            "Wir schieben auf, um unangenehme Gefühle zu vermeiden.",
-            "To-do-Listen helfen allen Menschen gleich gut.",
-            "Aufschieben hängt vor allem vom Alter ab.",
+            "Er wirkt bei allen Krankheiten gleich stark.",
+            "Er ist reine Einbildung, im Körper geschieht nichts.",
+            "Er zeigt sich vor allem bei Beschwerden wie Schmerzen oder Übelkeit.",
           ],
-          answer: 0,
+          answer: 2,
           explanation:
-            "„Wir schieben nicht eigentlich die Aufgabe auf, sondern das unangenehme Gefühl, das sie in uns auslöst.“",
+            "Bei Schmerzen, Übelkeit oder Erschöpfung sind die Effekte „oft beachtlich“, einen Tumor lässt ein Placebo nicht schrumpfen. Antwort b ist falsch: Im Körper „geschieht durchaus etwas“.",
         },
         {
           n: 20,
-          question: "Warum schieben Menschen mit hohen Ansprüchen oft auf?",
+          question: "Was zeigte das Experiment mit den Pillen?",
           options: [
-            "Sie haben mehr Aufgaben als andere.",
-            "Sie langweilen sich schneller.",
-            "Sie fürchten, ihren eigenen Ansprüchen nicht zu genügen.",
+            "Die angeblich teure Pille wirkte besser als die angeblich billige.",
+            "Farbige Pillen wirkten schlechter als weiße.",
+            "Die Versuchspersonen merkten, dass die Pillen wirkungslos waren.",
           ],
-          answer: 2,
-          explanation: "„Wer fürchtet, eine Arbeit nicht perfekt zu machen, fängt lieber gar nicht erst an.“",
+          answer: 0,
+          explanation:
+            "Alle bekamen dieselbe Pille, doch „die vermeintlich teure Pille linderte die Schmerzen deutlich besser“. Vermeintlich heißt: nur angeblich. Die Farbe nennt die Rednerin nur allgemein als Faktor.",
         },
         {
           n: 21,
-          question: "Was ergab die Studie mit Studierenden?",
+          question: "Worin besteht das Dilemma, vor das der Nocebo-Effekt Ärzte stellt?",
           options: [
-            "Selbstvorwürfe steigern die Motivation.",
-            "Wer sich selbst verzieh, schob danach weniger auf.",
-            "Wer früh mit dem Lernen beginnt, schneidet besser ab.",
+            "Sie dürfen nicht mehr über Nebenwirkungen informieren.",
+            "Schon die Aufklärung über Risiken kann Beschwerden auslösen.",
+            "Placebos haben mehr Nebenwirkungen als echte Medikamente.",
           ],
           answer: 1,
           explanation:
-            "Studierende, die sich selbst verziehen, statt sich Vorwürfe zu machen, schoben vor der nächsten Prüfung weniger auf. Selbstvorwürfe sind nämlich selbst ein unangenehmes Gefühl, dem man ausweichen möchte.",
+            "Wer lange Listen von Nebenwirkungen liest, entwickelt manche davon auch ohne Wirkstoff. Ärzte müssen also aufklären, „ohne durch die Art der Aufklärung neue Beschwerden hervorzurufen“.",
         },
         {
           n: 22,
-          question: "Was empfiehlt die Rednerin außerdem?",
+          question: "Was folgert die Rednerin aus den Studien mit offenen Placebos?",
           options: [
-            "Große Aufgaben in einem Zug zu erledigen.",
-            "Sich für jede erledigte Aufgabe zu belohnen.",
-            "Mit einem sehr kleinen ersten Schritt zu beginnen.",
+            "Ärzte sollten Placebos heimlich verschreiben.",
+            "Placebos wirken nur, wenn man getäuscht wird.",
+            "Die Erwartungen der Patienten gehören untrennbar zur Behandlung.",
           ],
           answer: 2,
           explanation:
-            "Die Einstiegshürde senken: sich nur vornehmen, das Dokument zu öffnen und einen ersten Satz zu schreiben, denn das Anfangen ist das Schwerste.",
+            "Offene Placebos wirken, obwohl die Teilnehmenden Bescheid wissen; b ist damit widerlegt. Ihr Fazit: Medizin „ist immer auch Begegnung“. Heimliche Placebos lehnen die meisten Fachleute ab.",
         },
       ],
     },

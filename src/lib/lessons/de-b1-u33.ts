@@ -16,7 +16,7 @@ export const DE_B1_U33: Lesson[] = [
         body: [
           "Looking back in conversation, use the Perfekt for most verbs and the Präteritum for \"sein\", \"haben\" and the modals: \"Ich habe viel gelernt. Am Anfang war es schwer, aber ich konnte schnell kleine Gespräche führen.\" In a written text, such as a blog post, the Präteritum works throughout.",
           "Useful phrases: \"am Anfang\" (at the beginning), \"inzwischen\" (by now, meanwhile), \"mittlerweile\" (by now), \"seit\" + dative for something still going on: \"Ich lerne seit einem Jahr Deutsch\" (present tense in German, Present Perfect Continuous in English).",
-          "The English I have been learning for a year is the single most frequent tense error English speakers make in German. \"Ich habe seit einem Jahr Deutsch gelernt\" suggests you've stopped. Keep the present: \"Ich lerne seit einem Jahr Deutsch.\"",
+          "The English 'I have been learning for a year' is the single most frequent tense error English speakers make in German. \"Ich habe seit einem Jahr Deutsch gelernt\" suggests you've stopped. Keep the present: \"Ich lerne seit einem Jahr Deutsch.\"",
         ],
         examples: [
           { es: "Ich lerne seit einem Jahr Deutsch.", en: "I've been learning German for a year." },
@@ -132,7 +132,7 @@ export const DE_B1_U33: Lesson[] = [
         prompt: "Translate into German.",
         source: "At the beginning I was very nervous.",
         answer: "Am Anfang war ich sehr nervös.",
-        altAnswers: ["Anfangs war ich sehr nervös.", "Ich war am Anfang sehr nervös."],
+        altAnswers: ["Anfangs war ich sehr nervös.", "Ich war am Anfang sehr nervös.", "Ich war anfangs sehr nervös."],
         explanation: "\"Sein\" prefers the Präteritum even in speech: \"war\". Verb second after \"Am Anfang\".",
       },
       {
@@ -199,7 +199,7 @@ export const DE_B1_U33: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'd like to take the German exam next year.",
         answer: "Ich möchte nächstes Jahr die Deutschprüfung machen.",
-        altAnswers: ["Nächstes Jahr möchte ich die Deutschprüfung machen.", "Ich würde nächstes Jahr gern die Deutschprüfung machen.", "Ich will nächstes Jahr die Deutschprüfung machen."],
+        altAnswers: ["Nächstes Jahr möchte ich die Deutschprüfung machen.", "Ich würde nächstes Jahr gern die Deutschprüfung machen.", "Nächstes Jahr würde ich gern die Deutschprüfung machen.", "Ich will nächstes Jahr die Deutschprüfung machen."],
         explanation: "Take an exam is \"eine Prüfung machen\"; \"nächstes Jahr\" needs no preposition.",
       },
       {
@@ -214,7 +214,7 @@ export const DE_B1_U33: Lesson[] = [
     level: "DE-B1",
     number: 2,
     title: "Word Web: The City",
-    summary: "Talk about the city and getting around: die Innenstadt, der Stadtteil, die Fußgängerzone, der Stau, umsteigen, die Baustelle, das Rathaus, der Radweg.",
+    summary: "Talk about the city and getting around with words like \"die Innenstadt\", \"der Stadtteil\", \"die Fußgängerzone\", \"der Stau\", \"umsteigen\", \"die Baustelle\", \"das Rathaus\" and \"der Radweg\".",
     duration: "15 min",
     sections: [
       {
@@ -307,6 +307,7 @@ export const DE_B1_U33: Lesson[] = [
             prompt: "Translate into German.",
             source: "What bothers me is the traffic.",
             answer: "Was mich stört, ist der Verkehr.",
+            altAnswers: ["Mich stört der Verkehr."],
             explanation: "\"Was mich stört\" is a clause in position 1 (verb last), followed by the main verb \"ist\".",
           },
           {
@@ -418,7 +419,7 @@ export const DE_B1_U33: Lesson[] = [
     level: "DE-B1",
     number: 3,
     title: "Quick Round: Da-Compounds in Every Context",
-    summary: "Rapid answers with darauf, daran, darüber, dafür, damit and davon in city and work situations.",
+    summary: "Answer quickly with \"darauf\", \"daran\", \"darüber\", \"dafür\", \"damit\" and \"davon\" in city and work situations.",
     duration: "12 min",
     sections: [
       {
@@ -620,7 +621,7 @@ export const DE_B1_U33: Lesson[] = [
     level: "DE-B1",
     number: 4,
     title: "Word Web: The World of Work",
-    summary: "Applying, signing, working and leaving: die Bewerbung, der Arbeitsvertrag, die Probezeit, die Überstunden, sich krankschreiben lassen, kündigen, das Gehalt verhandeln.",
+    summary: "Talk about applying for, starting and leaving a job: \"die Bewerbung\", \"der Arbeitsvertrag\", \"die Probezeit\", \"die Überstunden\", \"sich krankschreiben lassen\", \"kündigen\", \"das Gehalt verhandeln\".",
     duration: "15 min",
     sections: [
       {
@@ -842,7 +843,7 @@ export const DE_B1_U33: Lesson[] = [
         body: [
           "This circuit rotates through the whole level, one item per unit, the way the Goethe B1 exam mixes them. Start with the verbs: the Perfekt in speech, the Präteritum in writing, the Plusquamperfekt for an earlier past (\"nachdem ... hatte / war\").",
           "Time clauses: \"als\" (one past occasion), \"wenn\" (repeated or future), \"wann\" (questions), \"während\" (while), \"bevor\" (before), \"sobald\" (as soon as), \"bis\" (until), \"seitdem\" (since).",
-          "Konjunktiv II: \"wäre, hätte\", the modals \"könnte, müsste, sollte\", \"würde\" + infinitive for everything else; unreal conditions with \"wenn\" on both sides.",
+          "Konjunktiv II: \"wäre, hätte\", the modals \"könnte, müsste, sollte\", \"würde\" + infinitive for everything else; unreal conditions have Konjunktiv II in both the wenn-clause and the main clause.",
         ],
         examples: [
           { es: "Nachdem wir gegessen hatten, gingen wir spazieren.", en: "After we had eaten we went for a walk." },
@@ -859,7 +860,7 @@ export const DE_B1_U33: Lesson[] = [
             prompt: "Translate into German.",
             source: "Before I go to work, I drink a coffee.",
             answer: "Bevor ich zur Arbeit gehe, trinke ich einen Kaffee.",
-            altAnswers: ["Bevor ich zur Arbeit fahre, trinke ich einen Kaffee.", "Bevor ich arbeiten gehe, trinke ich einen Kaffee."],
+            altAnswers: ["Bevor ich zur Arbeit fahre, trinke ich einen Kaffee.", "Bevor ich arbeiten gehe, trinke ich einen Kaffee.", "Ich trinke einen Kaffee, bevor ich zur Arbeit gehe."],
             explanation: "\"Bevor\" sends the verb to the end; the main clause then starts with its verb.",
           },
           {
@@ -876,7 +877,7 @@ export const DE_B1_U33: Lesson[] = [
             prompt: "Translate into German.",
             source: "When I was a child, I had a dog.",
             answer: "Als ich ein Kind war, hatte ich einen Hund.",
-            altAnswers: ["Als ich Kind war, hatte ich einen Hund.", "Als ich klein war, hatte ich einen Hund.", "Als Kind hatte ich einen Hund."],
+            altAnswers: ["Als ich Kind war, hatte ich einen Hund.", "Als ich klein war, hatte ich einen Hund.", "Als Kind hatte ich einen Hund.", "Ich hatte einen Hund, als ich ein Kind war."],
             explanation: "A period in the past: \"als\"; \"haben\" in the Präteritum.",
           },
         ],
@@ -912,7 +913,7 @@ export const DE_B1_U33: Lesson[] = [
             prompt: "Translate into German.",
             source: "I'm learning German in order to work in Austria.",
             answer: "Ich lerne Deutsch, um in Österreich zu arbeiten.",
-            altAnswers: ["Ich lerne Deutsch, damit ich in Österreich arbeiten kann."],
+            altAnswers: ["Ich lerne Deutsch, damit ich in Österreich arbeiten kann.", "Ich lerne Deutsch, um in Österreich arbeiten zu können."],
             explanation: "Same subject: \"um ... zu\" + infinitive at the end.",
           },
           {
@@ -946,7 +947,7 @@ export const DE_B1_U33: Lesson[] = [
             prompt: "Translate into German.",
             source: "Have you talked to our neighbour?",
             answer: "Hast du mit unserem Nachbarn gesprochen?",
-            altAnswers: ["Habt ihr mit unserem Nachbarn gesprochen?", "Haben Sie mit unserem Nachbarn gesprochen?", "Hast du mit unserem Nachbarn geredet?"],
+            altAnswers: ["Habt ihr mit unserem Nachbarn gesprochen?", "Haben Sie mit unserem Nachbarn gesprochen?", "Hast du mit unserem Nachbarn geredet?", "Hast du mit unserer Nachbarin gesprochen?"],
             explanation: "\"Der Nachbar\" is an n-noun: dative \"dem / unserem Nachbarn\".",
           },
           {
@@ -990,7 +991,7 @@ export const DE_B1_U33: Lesson[] = [
         prompt: "Translate into German.",
         source: "The man I helped was very grateful.",
         answer: "Der Mann, dem ich geholfen habe, war sehr dankbar.",
-        altAnswers: ["Der Mann, dem ich half, war sehr dankbar."],
+        altAnswers: ["Der Mann, dem ich half, war sehr dankbar.", "Der Mann, dem ich geholfen hatte, war sehr dankbar."],
         explanation: "\"Helfen\" takes the dative, so the relative pronoun is \"dem\". English drops the pronoun; German can't.",
       },
       {
@@ -1029,9 +1030,9 @@ export const DE_B1_U33: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence is correct?",
-        options: ["Er ist nicht dumm, sondern faul.", "Er ist nicht dumm, aber faul.", "Er ist dumm, sondern faul.", "Er ist nicht dumm, sondern er faul ist."],
+        options: ["Er ist nicht dumm, sondern faul.", "Er ist kein dumm, sondern faul.", "Er ist dumm, sondern faul.", "Er ist nicht dumm, sondern er faul ist."],
         correctIndex: 0,
-        explanation: "\"Sondern\" corrects a negation: not this, but that. \"Aber\" would add a contrast, not a correction.",
+        explanation: "\"Sondern\" corrects a negation: not this, but that. An adjective is negated with \"nicht\", not \"kein\", and \"sondern\" needs a \"nicht\" before it. (\"Er ist nicht dumm, aber faul\" is also correct German, but means he isn't stupid, though he is lazy.)",
       },
       {
         type: "word-order",
@@ -1047,7 +1048,7 @@ export const DE_B1_U33: Lesson[] = [
         source: "Nobody has seen anything.",
         answer: "Niemand hat etwas gesehen.",
         altAnswers: ["Keiner hat etwas gesehen.", "Niemand hat was gesehen.", "Keiner hat was gesehen."],
-        explanation: "One negative is enough: \"niemand\" + \"etwas\". \"Niemand hat nichts gesehen\" is a double negative.",
+        explanation: "One negative is enough: \"niemand\" + \"etwas\". \"*Niemand hat nichts gesehen*\" is a double negative.",
       },
       {
         type: "listen-choose",
@@ -1069,7 +1070,7 @@ export const DE_B1_U33: Lesson[] = [
     level: "DE-B1",
     number: 6,
     title: "Pattern Practice: Gehen, Ging, Gegangen",
-    summary: "The principal parts of the 40 most frequent strong and mixed verbs, grouped by vowel pattern, with haben or sein.",
+    summary: "Use the past forms of the 40 most frequent strong and mixed verbs, grouped by vowel pattern, with \"haben\" or \"sein\".",
     duration: "15 min",
     sections: [
       {
@@ -1148,7 +1149,7 @@ export const DE_B1_U33: Lesson[] = [
         body: [
           "The most frequent verbs don't fit a family: \"gehen, ging, ist gegangen\"; \"stehen, stand, gestanden\"; \"sitzen, saß, gesessen\"; \"liegen, lag, gelegen\"; \"kommen, kam, ist gekommen\"; \"tun, tat, getan\"; \"sein, war, ist gewesen\"; \"werden, wurde, ist geworden\".",
           "Mixed verbs change their vowel like strong verbs but take weak endings (-te, -t): \"bringen, brachte, gebracht\"; \"denken, dachte, gedacht\"; \"kennen, kannte, gekannt\"; \"nennen, nannte, genannt\"; \"rennen, rannte, ist gerannt\"; \"wissen, wusste, gewusst\".",
-          "The typical errors: \"gedenkt\", \"gebringt\", \"gewisst\", \"geht\" as a participle (correct: \"gedacht, gebracht, gewusst, gegangen\"). If a verb is very common, assume it's irregular and check.",
+          "The typical errors: \"*gedenkt*\", \"*gebringt*\", \"*gewisst*\", \"*gegeht*\" as participles (correct: \"gedacht, gebracht, gewusst, gegangen\"). If a verb is very common, assume it's irregular and check.",
         ],
         examples: [
           { es: "Wir gingen früh nach Hause.", en: "We went home early." },
@@ -1286,7 +1287,7 @@ export const DE_B1_U33: Lesson[] = [
     level: "DE-B1",
     number: 7,
     title: "Questions and Answers: Wofür hast du dich entschieden?",
-    summary: "Talk about choices at work and in life: sich entscheiden für, wofür and dafür, and reasons with weil and deshalb.",
+    summary: "Talk about choices at work and in life with \"sich entscheiden für\", \"wofür\" and \"dafür\", and give reasons with \"weil\" and \"deshalb\".",
     duration: "15 min",
     sections: [
       {
@@ -1327,7 +1328,7 @@ export const DE_B1_U33: Lesson[] = [
         heading: "Giving reasons: weil, denn, deshalb",
         body: [
           "Every choice needs a reason. \"Weil\" sends the verb to the end: \"Ich habe mich für die Stelle entschieden, weil das Team so nett war.\" \"Denn\" keeps normal order: \"..., denn das Team war so nett.\" \"Deshalb\" starts the result with inversion: \"Das Team war so nett, deshalb habe ich die Stelle genommen.\"",
-          "In spoken German you'll often hear \"weil\" with main-clause order (\"weil das Team war so nett\"). Understand it, but don't write it.",
+          "In spoken German you'll often hear \"weil\" with main-clause order (\"*weil das Team war so nett*\"). Understand it, but don't write it.",
           "Other reason phrases: \"Der Hauptgrund war, dass...\" (the main reason was that...), \"Für mich war wichtig, dass...\", \"Was mich überzeugt hat, war...\"",
         ],
         examples: [

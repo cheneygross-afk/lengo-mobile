@@ -9,7 +9,7 @@ export const DE_B2_U06_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Complaints with the Zustandspassiv",
-    summary: "Write short complaints about deliveries, hotel rooms and repairs with sein + Partizip II.",
+    summary: "Write short complaints about deliveries, hotel rooms and repairs with \"sein\" + Partizip II.",
     duration: "12 min",
     sections: [
       {
@@ -170,7 +170,7 @@ export const DE_B2_U06_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Instructions and Recipes",
-    summary: "Rewrite recipes and instructions using man, the infinitive and sein + zu.",
+    summary: "Rewrite recipes and instructions using \"man\", the infinitive and \"sein + zu\".",
     duration: "12 min",
     sections: [
       {
@@ -215,12 +215,12 @@ export const DE_B2_U06_EXTRA: Lesson[] = [
         source: "Stir the sauce occasionally.",
         answer: "Die Soße gelegentlich umrühren.",
         altAnswers: ["Soße gelegentlich umrühren.", "Die Sauce gelegentlich umrühren.", "Die Soße ab und zu umrühren.", "Man rührt die Soße gelegentlich um."],
-        explanation: "Infinitive \"umrühren\" at the end; in the man-version the prefix splits off: \"rührt ... um\".",
+        explanation: "Infinitive \"umrühren\" at the end; in the \"man\" version the prefix splits off: \"rührt ... um\".",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using man.",
+        prompt: "Translate into German, using \"man\".",
         source: "You peel the potatoes and cut them into small pieces.",
         answer: "Man schält die Kartoffeln und schneidet sie in kleine Stücke.",
         altAnswers: ["Man schält die Kartoffeln und schneidet sie klein.", "Man schält die Kartoffeln und schneidet sie in kleine Würfel."],
@@ -242,7 +242,7 @@ export const DE_B2_U06_EXTRA: Lesson[] = [
         source: "Let the cake cool for ten minutes.",
         answer: "Den Kuchen zehn Minuten abkühlen lassen.",
         altAnswers: ["Kuchen zehn Minuten abkühlen lassen.", "Den Kuchen 10 Minuten abkühlen lassen.", "Den Kuchen zehn Minuten lang abkühlen lassen."],
-        explanation: "\"Abkühlen lassen\" = let cool: lassen + infinitive, both at the end.",
+        explanation: "\"Abkühlen lassen\" = let cool: \"lassen\" + infinitive, both at the end.",
       },
       {
         type: "fill-blank",
@@ -250,16 +250,16 @@ export const DE_B2_U06_EXTRA: Lesson[] = [
         en: "The device [must be switched off] after use.",
         sentence: "Das Gerät ist nach Gebrauch ___.",
         answer: "auszuschalten",
-        explanation: "\"Ausschalten\" → \"auszuschalten\": sein + zu for an obligation in a manual.",
+        explanation: "\"Ausschalten\" → \"auszuschalten\": \"sein + zu\" for an obligation in a manual.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using sein + zu.",
+        prompt: "Translate into German, using \"sein + zu\".",
         source: "The batteries must be disposed of separately.",
         answer: "Die Batterien sind getrennt zu entsorgen.",
-        altAnswers: ["Batterien sind getrennt zu entsorgen.", "Die Batterien sind separat zu entsorgen.", "Die Batterien müssen getrennt entsorgt werden."],
-        explanation: "Plural \"sind\" + \"zu entsorgen\" (inseparable, so zu before it).",
+        altAnswers: ["Batterien sind getrennt zu entsorgen.", "Die Batterien sind separat zu entsorgen."],
+        explanation: "Plural \"sind\" + \"zu entsorgen\" (inseparable, so \"zu\" before it).",
       },
       {
         type: "translate",
@@ -280,10 +280,10 @@ export const DE_B2_U06_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using man.",
+        prompt: "Translate into German, using \"man\".",
         source: "You can also make the soup the day before.",
         answer: "Man kann die Suppe auch am Vortag zubereiten.",
-        altAnswers: ["Man kann die Suppe auch am Tag vorher zubereiten.", "Man kann die Suppe auch am Vortag machen.", "Man kann die Suppe auch am Tag vorher machen.", "Die Suppe lässt sich auch am Vortag zubereiten."],
+        altAnswers: ["Man kann die Suppe auch am Tag vorher zubereiten.", "Man kann die Suppe auch am Vortag machen.", "Man kann die Suppe auch am Tag vorher machen."],
         explanation: "\"Man kann\" + infinitive for possibility; \"sich lassen\" is a good alternative.",
       },
       {
@@ -335,11 +335,11 @@ export const DE_B2_U06_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Is It Possible or Necessary?",
-    summary: "Sein + zu can mean both: decide from context between Das ist nicht zu glauben and Das ist sofort zu erledigen.",
+    summary: "Decide from context whether \"sein + zu\" means can or must, as in \"Das ist nicht zu glauben\" and \"Das ist sofort zu erledigen\".",
     duration: "12 min",
     sections: [
       {
-        heading: "Recap: two meanings of sein + zu",
+        heading: "Recap: two meanings of \"sein + zu\"",
         body: [
           "\"Sein + zu\" means must when it's an instruction, rule or deadline: \"Die Gebühr ist sofort zu zahlen\". It means can when it comes with \"nicht\", \"kaum\", \"leicht\", \"schwer\", \"gut\" or \"nur\": \"Das ist nicht zu glauben\" (unbelievable), \"Er ist schwer zu verstehen\" (hard to understand).",
           "When in doubt, ask: is somebody being told to do something? Then it's must. Is it about whether something is possible? Then it's can. To be unambiguous about possibility, \"sich lassen\" is the safe choice.",
@@ -357,7 +357,7 @@ export const DE_B2_U06_EXTRA: Lesson[] = [
             question: "What does \"Der Bahnhof ist zu Fuß gut zu erreichen\" mean?",
             options: ["The station is easy to reach on foot.", "You must walk to the station.", "The station is too far to walk.", "The station has been reached on foot."],
             correctIndex: 0,
-            explanation: "With \"gut\", sein + zu expresses possibility: easy to reach.",
+            explanation: "With \"gut\", \"sein + zu\" expresses possibility: easy to reach.",
           },
           {
             type: "translate",
@@ -366,7 +366,7 @@ export const DE_B2_U06_EXTRA: Lesson[] = [
             source: "That must be done immediately.",
             answer: "Das ist sofort zu erledigen.",
             altAnswers: ["Das muss sofort erledigt werden.", "Das ist umgehend zu erledigen."],
-            explanation: "An instruction with \"sofort\": sein + zu means must.",
+            explanation: "An instruction with \"sofort\": \"sein + zu\" means must.",
           },
         ],
       },
@@ -379,7 +379,7 @@ export const DE_B2_U06_EXTRA: Lesson[] = [
         source: "That's unbelievable!",
         answer: "Das ist nicht zu glauben!",
         altAnswers: ["Das ist kaum zu glauben!", "Das ist unglaublich!"],
-        explanation: "\"Nicht zu glauben\": with nicht, sein + zu means can't be believed.",
+        explanation: "\"Nicht zu glauben\": with \"nicht\", \"sein + zu\" means can't be believed.",
       },
       {
         type: "translate",
@@ -397,7 +397,7 @@ export const DE_B2_U06_EXTRA: Lesson[] = [
         source: "The fee must be paid in cash.",
         answer: "Die Gebühr ist bar zu zahlen.",
         altAnswers: ["Die Gebühr ist bar zu bezahlen.", "Die Gebühr muss bar bezahlt werden.", "Die Gebühr muss bar gezahlt werden.", "Die Gebühr ist in bar zu zahlen.", "Die Gebühr ist in bar zu bezahlen."],
-        explanation: "A rule: sein + zu means must here.",
+        explanation: "A rule: \"sein + zu\" means must here.",
       },
       {
         type: "translate",
@@ -414,7 +414,7 @@ export const DE_B2_U06_EXTRA: Lesson[] = [
         en: "The noise is [hardly] bearable.",
         sentence: "Der Lärm ist ___ zu ertragen.",
         answer: "kaum",
-        explanation: "\"Kaum zu ertragen\": kaum signals possibility (can hardly be borne).",
+        explanation: "\"Kaum zu ertragen\": \"kaum\" signals possibility (can hardly be borne).",
       },
       {
         type: "translate",
@@ -430,7 +430,7 @@ export const DE_B2_U06_EXTRA: Lesson[] = [
         question: "Which sentence means The damage can't be repaired?",
         options: ["Der Schaden ist nicht zu reparieren.", "Der Schaden ist zu reparieren.", "Der Schaden ist nicht repariert.", "Der Schaden ist sofort zu reparieren."],
         correctIndex: 0,
-        explanation: "With nicht, sein + zu means can't. Without it, \"ist zu reparieren\" means must be repaired; \"ist nicht repariert\" is a state.",
+        explanation: "With \"nicht\", \"sein + zu\" means can't. Without it, \"ist zu reparieren\" means must be repaired; \"ist nicht repariert\" is a state.",
       },
       {
         type: "translate",
@@ -481,7 +481,7 @@ export const DE_B2_U06_EXTRA: Lesson[] = [
         question: "What does it mean?",
         options: ["That can't be changed.", "That mustn't be changed.", "That hasn't been changed.", "That's not too different."],
         correctIndex: 0,
-        explanation: "With nicht, sein + zu = can't. Mustn't would be \"darf nicht geändert werden\".",
+        explanation: "With \"nicht\", \"sein + zu\" = can't. Mustn't would be \"darf nicht geändert werden\".",
       },
       {
         type: "speak",
@@ -497,14 +497,14 @@ export const DE_B2_U06_EXTRA: Lesson[] = [
     number: 4,
     optional: true,
     title: "Extra Practice: Story with Gaps: Die Hausordnung",
-    summary: "Fill in a building's house rules with passive alternatives: sein + zu, the Zustandspassiv, man and sich lassen.",
+    summary: "Fill in a building's house rules with passive alternatives: \"sein + zu\", the Zustandspassiv, \"man\" and \"sich lassen\".",
     duration: "12 min",
     sections: [
       {
-        heading: "Recap: the Hausordnung",
+        heading: "Recap: the \"Hausordnung\"",
         body: [
-          "A typical Hausordnung mixes all the structures from this unit. Rules: \"Die Ruhezeiten sind einzuhalten\". States: \"Der Keller ist abgeschlossen\". Possibility: \"Die Waschmaschine lässt sich mit einer Karte bedienen\". Prohibition: \"Grillen ist nicht gestattet\". Each structure has its job; choose by meaning.",
-          "Read this extract from the Hausordnung of a building in Hamburg-Altona and then complete the rules: \"Die Haustür ist ab 22 Uhr abzuschließen. Kinderwagen sind im Fahrradraum abzustellen. Der Waschkeller ist von 7 bis 21 Uhr geöffnet.\"",
+          "A typical \"Hausordnung\" mixes all the structures from this unit. Rules: \"Die Ruhezeiten sind einzuhalten\". States: \"Der Keller ist abgeschlossen\". Possibility: \"Die Waschmaschine lässt sich mit einer Karte bedienen\". Prohibition: \"Grillen ist nicht gestattet\". Each structure has its job; choose by meaning.",
+          "Read this extract from the \"Hausordnung\" of a building in Hamburg-Altona and then complete the rules: \"Die Haustür ist ab 22 Uhr abzuschließen. Kinderwagen sind im Fahrradraum abzustellen. Der Waschkeller ist von 7 bis 21 Uhr geöffnet.\"",
         ],
         examples: [
           { es: "Die Haustür ist ab 22 Uhr abzuschließen.", en: "The front door must be locked from 10 p.m." },
@@ -520,7 +520,7 @@ export const DE_B2_U06_EXTRA: Lesson[] = [
             en: "Prams [are to be kept] in the bike room.",
             sentence: "Kinderwagen sind im Fahrradraum ___.",
             answer: "abzustellen",
-            explanation: "\"Abstellen\" → \"abzustellen\": a rule with sein + zu.",
+            explanation: "\"Abstellen\" → \"abzustellen\": a rule with \"sein + zu\".",
           },
           {
             type: "translate",
@@ -606,10 +606,10 @@ export const DE_B2_U06_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "The Hausordnung should say the courtyard gate can only be opened with a key. Which sentence?",
+        question: "The \"Hausordnung\" should say the courtyard gate can only be opened with a key. Which sentence?",
         options: ["Das Hoftor lässt sich nur mit einem Schlüssel öffnen.", "Das Hoftor ist nur mit einem Schlüssel geöffnet.", "Das Hoftor wird nur mit einem Schlüssel öffnen.", "Das Hoftor ist nur mit einem Schlüssel öffnen."],
         correctIndex: 0,
-        explanation: "Possibility: \"lässt sich ... öffnen\". \"Ist ... zu öffnen\" with nur would also work; the others are wrong forms.",
+        explanation: "Possibility: \"lässt sich ... öffnen\". \"Ist ... zu öffnen\" with \"nur\" would also work; the others are wrong forms.",
       },
       {
         type: "translate",
@@ -626,7 +626,7 @@ export const DE_B2_U06_EXTRA: Lesson[] = [
         words: ["Fahrräder", "sind", "im", "Hof", "abzustellen."],
         translation: "Bikes are to be left in the courtyard.",
         altOrders: [["Im", "Hof", "sind", "Fahrräder", "abzustellen."]],
-        explanation: "Rule with sein + zu and the separable \"abstellen\".",
+        explanation: "Rule with \"sein + zu\" and the separable \"abstellen\".",
       },
       {
         type: "translate",
@@ -641,13 +641,13 @@ export const DE_B2_U06_EXTRA: Lesson[] = [
         type: "dictation",
         audio: "Die Haustür ist ab 22 Uhr abzuschließen.",
         altAnswers: ["Die Haustür ist ab zweiundzwanzig Uhr abzuschließen."],
-        explanation: "\"Abzuschließen\": ß after the long vowel in schließen, zu inside.",
+        explanation: "\"Abzuschließen\": ß after the long vowel in \"schließen\", \"zu\" inside.",
       },
       {
         type: "speak",
         text: "Kinderwagen sind im Fahrradraum abzustellen, und Grillen ist nicht gestattet.",
         prompt: "Say it in German: Prams are to be left in the bike room, and barbecuing is not permitted.",
-        explanation: "A rule with sein + zu and a prohibition with \"nicht gestattet\".",
+        explanation: "A rule with \"sein + zu\" and a prohibition with \"nicht gestattet\".",
       },
     ],
   },

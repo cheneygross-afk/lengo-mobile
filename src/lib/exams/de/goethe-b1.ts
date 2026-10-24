@@ -12,6 +12,6 @@ export const GOETHE_B1: Exam = {
   level: "B1",
   title: "Goethe-Zertifikat B1 practice exam",
   description:
-    "A full-length Goethe-Zertifikat B1 practice exam: Lesen with a blog, press articles, ads, readers' letters and house rules, Hören with audio from short announcements to a radio discussion, three writing tasks with feedback, and the three-part Sprechen with model answers. Each module is marked out of 25 and passed with 60 %, as in the real exam.",
+    "A full-length Goethe-Zertifikat B1 practice exam: Lesen with a blog, press articles, ads, readers' letters and house rules, Hören with audio from short announcements to a radio discussion, three writing tasks with feedback, and the three-part Sprechen with model answers. Each module is marked out of 25 and passed with 60%, as in the real exam.",
   papers: [GOETHE_B1_LESEN, GOETHE_B1_HOEREN, GOETHE_B1_SCHREIBEN, GOETHE_B1_SPRECHEN],
 };

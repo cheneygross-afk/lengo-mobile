@@ -8,7 +8,7 @@ export const DE_A2_U21: Lesson[] = [
     level: "DE-A2",
     number: 1,
     title: "Elementary Comprehensive Review, Part 1 of 3",
-    summary: "Bring back units 1-7: the Perfekt with haben and sein, irregular participles, the Präteritum of sein, haben and the modals, and the dative case.",
+    summary: "Bring back units 1-7: the Perfekt with \"haben\" and \"sein\", irregular participles, the Präteritum of \"sein\", \"haben\" and the modals, and the dative case.",
     duration: "15 min",
     sections: [
       {
@@ -162,7 +162,7 @@ export const DE_A2_U21: Lesson[] = [
         prompt: "Translate into German.",
         source: "I forgot my umbrella.",
         answer: "Ich habe meinen Regenschirm vergessen.",
-        altAnswers: ["Ich habe meinen Schirm vergessen."],
+        altAnswers: ["Ich habe meinen Schirm vergessen.", "Ich vergaß meinen Regenschirm."],
         explanation: "\"Vergessen\" has the prefix ver-, so no ge-: the participle looks just like the infinitive. \"Der Regenschirm\" is masculine: \"meinen\" in the accusative.",
       },
       {
@@ -186,7 +186,8 @@ export const DE_A2_U21: Lesson[] = [
         prompt: "Translate into German.",
         source: "We didn't want to go home.",
         answer: "Wir wollten nicht nach Hause gehen.",
-        explanation: "\"Wollten\" + infinitive at the end. Going home is \"nach Hause\"; being at home is \"zu Hause\".",
+        altAnswers: ["Wir wollten nicht nach Hause."],
+        explanation: "\"Wollten\" + infinitive at the end (in speech \"gehen\" is often dropped). Going home is \"nach Hause\"; being at home is \"zu Hause\".",
       },
       {
         type: "listen-choose",
@@ -246,7 +247,7 @@ export const DE_A2_U21: Lesson[] = [
             prompt: "Translate into German.",
             source: "My grandfather died last year.",
             answer: "Mein Opa ist letztes Jahr gestorben.",
-            altAnswers: ["Mein Großvater ist letztes Jahr gestorben.", "Letztes Jahr ist mein Opa gestorben.", "Letztes Jahr ist mein Großvater gestorben."],
+            altAnswers: ["Mein Großvater ist letztes Jahr gestorben.", "Letztes Jahr ist mein Opa gestorben.", "Letztes Jahr ist mein Großvater gestorben.", "Mein Opa starb letztes Jahr.", "Mein Großvater starb letztes Jahr."],
             explanation: "Dying is a change of state: \"ist ... gestorben\", never \"*hat gestorben*\".",
           },
         ],
@@ -352,7 +353,7 @@ export const DE_A2_U21: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "She showed it to me. (the photo, das Foto)",
+        source: "She showed it to me. (it = the photo: \"das Foto\")",
         answer: "Sie hat es mir gezeigt.",
         altAnswers: ["Sie zeigte es mir."],
         explanation: "Accusative pronoun \"es\" before dative \"mir\": the pronoun rule.",
@@ -411,7 +412,7 @@ export const DE_A2_U21: Lesson[] = [
     level: "DE-A2",
     number: 3,
     title: "Cumulative Circuit 2: Future + Comparisons + Prepositions",
-    summary: "Rapid stations on werden vs will, comparatives and superlatives, wo? vs wohin?, and the prepositions with fixed cases.",
+    summary: "Rapid stations on \"werden\" vs \"will\", comparatives and superlatives, \"wo?\" vs \"wohin?\", and the prepositions with fixed cases.",
     duration: "12 min",
     sections: [
       {
@@ -661,8 +662,8 @@ export const DE_A2_U21: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Emma wrote \"*Ich helfe Sie gern*\". Write it correctly: I'm happy to help you. (polite)",
-            source: "I'm happy to help you. (polite)",
+            prompt: "Emma wrote \"*Ich helfe Sie gern*\". Write it correctly: I'm happy to help you. (formal)",
+            source: "I'm happy to help you. (formal)",
             answer: "Ich helfe Ihnen gern.",
             altAnswers: ["Ich helfe Ihnen gerne."],
             explanation: "\"Helfen\" + dative, and the polite dative is \"Ihnen\".",
@@ -679,7 +680,7 @@ export const DE_A2_U21: Lesson[] = [
       {
         heading: "The last paragraph: verb position in clauses",
         body: [
-          "The ending: \"Ich lerne Deutsch seit zwei Jahren, aber ich spreche nicht so gut. Ich weiß nicht, ob ich verstehe alles. Ich komme am Samstag an, weil der Kurs beginnt am Montag. Viele Grüße, Emma\"",
+          "The ending: \"Ich lerne Deutsch seit zwei Jahren, aber ich spreche nicht so gut. Ich weiß nicht, ob ich verstehe alles. Ich komme am Samstag an, weil der Kurs beginnt am Montag. Viele Grüße Emma\"",
           "The first sentence is fine: \"seit\" + present tense is correct for something still going on. The other two break the rule for subordinate clauses: after \"ob\", \"weil\", \"dass\", \"wenn\" the conjugated verb goes to the end: \"ob ich alles verstehe\", \"weil der Kurs am Montag beginnt\".",
         ],
         examples: [
@@ -724,8 +725,8 @@ export const DE_A2_U21: Lesson[] = [
         prompt: "Fix \"*Ich habe mit meinen Freund telefoniert*\": I phoned my friend.",
         source: "I phoned my friend.",
         answer: "Ich habe mit meinem Freund telefoniert.",
-        altAnswers: ["Ich habe mit meiner Freundin telefoniert."],
-        explanation: "\"Mit\" always takes the dative: masculine \"meinem\".",
+        altAnswers: ["Ich habe mit meiner Freundin telefoniert.", "Ich habe meinen Freund angerufen.", "Ich habe meine Freundin angerufen."],
+        explanation: "\"Mit\" always takes the dative: masculine \"meinem\". \"Ich habe meinen Freund angerufen\" (accusative, no \"mit\") also works.",
       },
       {
         type: "translate",
@@ -991,7 +992,7 @@ export const DE_A2_U21: Lesson[] = [
     level: "DE-A2",
     number: 6,
     title: "Speed Round: The 10 Biggest Elementary Traps",
-    summary: "Ten classic English-speaker traps in one fast round: will/werde, haben/sein, helfen + dative, weil, als/wie, seit, das/dass, adjective endings, wenn/ob, erst/nur.",
+    summary: "Ten classic English-speaker traps in one fast round: \"will\" / \"werde\", \"haben\" / \"sein\", \"helfen\" + dative, \"weil\", \"als\" / \"wie\", \"seit\", \"das\" / \"dass\", adjective endings, \"wenn\" / \"ob\", \"erst\" / \"nur\".",
     duration: "12 min",
     sections: [
       {
@@ -1329,7 +1330,7 @@ export const DE_A2_U21: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Can you lend [it to me]? (the bike, das Fahrrad)",
+        en: "Can you lend [it to me]? (it = the bike: \"das Fahrrad\")",
         sentence: "Kannst du ___ leihen?",
         answer: "es mir",
         explanation: "Two pronouns: accusative \"es\" before dative \"mir\".",
@@ -1372,7 +1373,7 @@ export const DE_A2_U21: Lesson[] = [
         prompt: "Put the words in order to say: When I arrived, everyone was already asleep.",
         words: ["Als", "ich ankam,", "haben", "schon alle", "geschlafen."],
         translation: "When I arrived, everyone was already asleep.",
-        explanation: "\"Als\" for one past event; then verb, comma, verb.",
+        explanation: "\"Als\" for one past event; then verb, comma, verb. In writing you would usually keep one tense: \"Als ich ankam, schliefen schon alle\".",
       },
       {
         type: "dictation",
@@ -1527,7 +1528,7 @@ export const DE_A2_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which completes the sentence? Lena hat ___ Freundin auf dem Markt getroffen.",
+        question: "Which word completes the sentence? \"Lena hat ___ Freundin auf dem Markt getroffen.\"",
         options: ["ihre", "ihrer", "ihren", "ihr"],
         correctIndex: 0,
         explanation: "\"Treffen\" takes the accusative; feminine accusative \"ihre\".",
@@ -1577,7 +1578,7 @@ export const DE_A2_U21: Lesson[] = [
     level: "DE-A2",
     number: 9,
     title: "Chain Transformations: One Sentence, Four Times",
-    summary: "Take one sentence through the present, the Perfekt, the Präteritum and the future with werden, then tuck it into a weil-clause.",
+    summary: "Take one sentence through the present, the Perfekt, the Präteritum and the future with \"werden\", then tuck it into a weil-clause.",
     duration: "13 min",
     sections: [
       {
@@ -1672,7 +1673,7 @@ export const DE_A2_U21: Lesson[] = [
             prompt: "Translate into German.",
             source: "She will call you tomorrow. (to a friend)",
             answer: "Sie wird dich morgen anrufen.",
-            altAnswers: ["Morgen wird sie dich anrufen.", "Sie ruft dich morgen an.", "Morgen ruft sie dich an.", "Sie wird Sie morgen anrufen."],
+            altAnswers: ["Morgen wird sie dich anrufen.", "Sie ruft dich morgen an.", "Morgen ruft sie dich an."],
             explanation: "\"Wird\" + infinitive; the separable verb stays in one piece at the end: \"anrufen\".",
           },
         ],
@@ -1737,7 +1738,7 @@ export const DE_A2_U21: Lesson[] = [
         prompt: "Translate into German.",
         source: "She's not coming because she will be working.",
         answer: "Sie kommt nicht, weil sie arbeiten wird.",
-        altAnswers: ["Sie kommt nicht, weil sie arbeitet.", "Sie kommt nicht, weil sie arbeiten muss."],
+        altAnswers: ["Sie kommt nicht, weil sie arbeitet."],
         explanation: "With werden in a clause, the infinitive comes before \"wird\" at the end.",
       },
       {
@@ -1973,7 +1974,7 @@ export const DE_A2_U21: Lesson[] = [
     level: "DE-A2",
     number: 11,
     title: "Minimal Pairs: Elementary Final Contrasts",
-    summary: "Small differences, big changes in meaning: den/dem, ihn/ihm, kann/konnte, muss/musste, war/wäre, das/dass, liegen/legen.",
+    summary: "Small differences, big changes in meaning: \"den\" / \"dem\", \"ihn\" / \"ihm\", \"kann\" / \"konnte\", \"muss\" / \"musste\", \"war\" / \"wäre\", \"das\" / \"dass\", \"liegen\" / \"legen\".",
     duration: "12 min",
     sections: [
       {
@@ -2186,7 +2187,7 @@ export const DE_A2_U21: Lesson[] = [
         examples: [
           { es: "Liebe Grüße aus Dresden!", en: "Love from Dresden!" },
           { es: "Liebe Oma, lieber Opa,", en: "Dear Grandma and Grandpa," },
-          { es: "Viele Grüße, deine Mia", en: "Best wishes, Mia" },
+          { es: "Viele Grüße deine Mia", en: "Best wishes, Mia" },
           { es: "Hallo zusammen!", en: "Hi everyone!" },
         ],
         checkpoint: [
@@ -2245,7 +2246,7 @@ export const DE_A2_U21: Lesson[] = [
         heading: "Step 3: what you've done and what's next",
         body: [
           "The middle of the card tells what happened, in the Perfekt: \"Gestern haben wir die Frauenkirche besichtigt und sind mit dem Schiff gefahren.\" One \"haben\", one \"sein\" in the same sentence is fine as long as each part has its own auxiliary.",
-          "Finish with the plan and a wish: \"Morgen fahren wir weiter nach Prag. Ich hoffe, dass es dir gut geht!\" The full card: \"Liebe Oma, liebe Grüße aus Dresden! Wir sind seit drei Tagen hier. Das Wetter ist super und unser Hotel liegt direkt an der Elbe. Gestern haben wir die Frauenkirche besichtigt und sind mit dem Schiff gefahren. Morgen fahren wir weiter nach Prag. Ich hoffe, dass es dir gut geht! Viele Grüße, deine Mia\"",
+          "Finish with the plan and a wish: \"Morgen fahren wir weiter nach Prag. Ich hoffe, dass es dir gut geht!\" The full card: \"Liebe Oma, liebe Grüße aus Dresden! Wir sind seit drei Tagen hier. Das Wetter ist super und unser Hotel liegt direkt an der Elbe. Gestern haben wir die Frauenkirche besichtigt und sind mit dem Schiff gefahren. Morgen fahren wir weiter nach Prag. Ich hoffe, dass es dir gut geht! Viele Grüße deine Mia\"",
         ],
         examples: [
           { es: "Gestern haben wir die Frauenkirche besichtigt.", en: "Yesterday we visited the Frauenkirche." },
@@ -2329,7 +2330,7 @@ export const DE_A2_U21: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which ending fits a card from Mia to her grandma?",
-        options: ["Viele Grüße, deine Mia", "Viele Grüße, dein Mia", "Viele Grüße, Ihre Mia.", "Viel Grüße, deine Mia"],
+        options: ["Viele Grüße deine Mia", "Viele Grüße dein Mia", "Viele Grüße Ihre Mia.", "Viel Grüße, deine Mia"],
         correctIndex: 0,
         explanation: "Mia is female: \"deine\". You'd say \"du\" to your grandma.",
       },
@@ -2338,7 +2339,7 @@ export const DE_A2_U21: Lesson[] = [
         prompt: "Put the words in order to say: Next week we're flying back to London.",
         words: ["Nächste Woche", "fliegen", "wir", "zurück", "nach London."],
         translation: "Next week we're flying back to London.",
-        altOrders: [["Nächste Woche", "fliegen", "wir", "nach London", "zurück."]],
+        altOrders: [["Nächste Woche", "fliegen", "wir", "nach London", "zurück."], ["Wir", "fliegen", "nächste Woche", "zurück", "nach London."], ["Wir", "fliegen", "nächste Woche", "nach London", "zurück."]],
         explanation: "Present with a time word for the future; verb second.",
       },
       {
@@ -2397,7 +2398,7 @@ export const DE_A2_U21: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "Go straight on [to the church]. (polite)",
+            en: "Go straight on [to the church]. (formal)",
             sentence: "Gehen Sie geradeaus ___.",
             answer: "bis zur Kirche",
             explanation: "\"Bis zu\" + dative; \"zur\" = zu der (die Kirche).",
@@ -2440,7 +2441,7 @@ export const DE_A2_U21: Lesson[] = [
       {
         heading: "Genitive and fixed-case prepositions",
         body: [
-          "The genitive shows possession: \"das Auto des Nachbarn\", \"die Tasche der Lehrerin\", \"das Ende des Films\" (masculine and neuter add -s or -es). Names add -s without an apostrophe: \"Annas Bruder\". In speech, \"von\" + dative is very common: \"das Auto von meinem Vater\".",
+          "The genitive shows possession: \"das Auto des Nachbarn\", \"die Tasche der Lehrerin\", \"das Ende des Films\" (masculine and neuter add -s or -es; weak nouns such as \"der Nachbar\" take -n instead). Names add -s without an apostrophe: \"Annas Bruder\". In speech, \"von\" + dative is very common: \"das Auto von meinem Vater\".",
           "\"Wegen\" and \"trotz\" take the genitive in writing: \"wegen des Streiks\", \"trotz des Regens\". Recap of the fixed groups: accusative \"durch, für, gegen, ohne, um\"; dative \"aus, bei, mit, nach, seit, von, zu\".",
         ],
         examples: [
@@ -2485,14 +2486,14 @@ export const DE_A2_U21: Lesson[] = [
         prompt: "Translate into German.",
         source: "Read the text, please. (to a friend)",
         answer: "Lies bitte den Text!",
-        altAnswers: ["Lies den Text, bitte!", "Lest bitte den Text!", "Lesen Sie bitte den Text!", "Bitte lies den Text!"],
+        altAnswers: ["Lies den Text, bitte!", "Bitte lies den Text!"],
         explanation: "\"Lesen\" → du \"liest\" → imperative \"Lies!\".",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Turn left at the traffic lights. (polite)",
+        source: "Turn left at the traffic lights. (formal)",
         answer: "Biegen Sie an der Ampel links ab.",
         altAnswers: ["Gehen Sie an der Ampel nach links.", "An der Ampel biegen Sie links ab.", "Fahren Sie an der Ampel links."],
         explanation: "\"Abbiegen\" is separable: \"Biegen Sie ... ab\". \"An der Ampel\": location, dative.",

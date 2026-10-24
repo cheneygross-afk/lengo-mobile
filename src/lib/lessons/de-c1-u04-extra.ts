@@ -102,7 +102,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "We discussed [the measures to be taken].",
+        en: "We discussed the measures to be [taken].",
         sentence: "Wir haben die zu ___ Maßnahmen besprochen.",
         answer: "ergreifenden",
         explanation: "Gerundiv \"zu ergreifend\" + accusative plural ending -en.",
@@ -198,7 +198,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "He regrets having arrived too late: which is correct?",
+            question: "You want to say: He regrets having arrived too late. Which is correct?",
             options: ["Er bedauert, zu spät gekommen zu sein.", "Er bedauert, zu spät gekommen zu haben.", "Er bedauert, zu spät zu kommen sein.", "Er bedauert, zu spät gekommen worden zu sein."],
             correctIndex: 0,
             explanation: "\"Kommen\" takes sein in the Perfekt, so the past infinitive is \"gekommen zu sein\".",
@@ -327,7 +327,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Participle and Infinitive Constructions, Part 3 of 3",
-    summary: "Sort infinitives with and without zu and practise the double infinitive (Ersatzinfinitiv).",
+    summary: "Practise sorting infinitives with and without \"zu\" and using the double infinitive (\"Ersatzinfinitiv\").",
     duration: "15 min",
     sections: [
       {
@@ -346,7 +346,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "You want to say: I had to work longer yesterday. Which sentence is correct?",
             options: ["Ich habe gestern länger arbeiten müssen.", "Ich habe gestern länger arbeiten gemusst.", "Ich habe gestern länger zu arbeiten müssen.", "Ich habe gestern länger gearbeitet müssen."],
             correctIndex: 0,
             explanation: "Modal + infinitive in the Perfekt: double infinitive \"arbeiten müssen\".",
@@ -488,13 +488,13 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
     number: 4,
     optional: true,
     title: "Extra Practice: Dangling Participles",
-    summary: "Spot and repair participial phrases whose implied subject doesn't match the main clause.",
+    summary: "Practise spotting and repairing participial phrases whose implied subject doesn't match the main clause.",
     duration: "14 min",
     sections: [
       {
         heading: "Recap: whose participle is it?",
         body: [
-          "A participial phrase at the start of a sentence (\"Am Bahnhof angekommen, ...\") silently takes the subject of the main clause. If that subject can't be doing the action, the phrase dangles: \"*Am Bahnhof angekommen, war der Zug schon weg\" says the train arrived at the station.",
+          "A participial phrase at the start of a sentence (\"Am Bahnhof angekommen, ...\") silently takes the subject of the main clause. If that subject can't be doing the action, the phrase dangles: \"*Am Bahnhof angekommen, war der Zug schon weg*\" says the train arrived at the station.",
           "Repair it by making the right person the subject (\"Am Bahnhof angekommen, sah ich, dass der Zug schon weg war\") or by using a full clause (\"Als ich am Bahnhof ankam, war der Zug schon weg\").",
         ],
         examples: [
@@ -507,7 +507,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "Which sentence avoids a dangling participle?",
             options: ["Als ich am Bahnhof ankam, war der Zug schon weg.", "Am Bahnhof angekommen, war der Zug schon weg.", "Am Bahnhof ankommend, war der Zug schon weg.", "Angekommen am Bahnhof, der Zug war schon weg."],
             correctIndex: 0,
             explanation: "Only the full clause makes clear who arrived; the others make the train the one that arrived.",
@@ -577,7 +577,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
         source: "While I was cooking, the phone rang.",
         answer: "Während ich kochte, klingelte das Telefon.",
         altAnswers: ["Als ich kochte, klingelte das Telefon.", "Während ich gekocht habe, hat das Telefon geklingelt."],
-        explanation: "\"*Kochend klingelte das Telefon\" would make the phone the cook.",
+        explanation: "\"*Kochend klingelte das Telefon*\" would make the phone the cook.",
       },
       {
         type: "fill-blank",
@@ -594,7 +594,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
         source: "Since the soup was too hot, the child didn't want to eat it.",
         answer: "Weil die Suppe zu heiß war, wollte das Kind sie nicht essen.",
         altAnswers: ["Da die Suppe zu heiß war, wollte das Kind sie nicht essen."],
-        explanation: "\"*Zu heiß, wollte das Kind ...\" would describe the child, so use a weil clause.",
+        explanation: "\"*Zu heiß, wollte das Kind ...*\" would describe the child, so use a weil clause.",
       },
       {
         type: "translate",
@@ -652,8 +652,8 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
       {
         heading: "Recap: three verbs with zu",
         body: [
-          "Sein + zu is passive in meaning: \"Das Formular ist bis Freitag abzugeben\" (must be handed in), \"Das Problem ist leicht zu lösen\" (can be solved). Haben + zu is active and means must: \"Sie haben das Formular bis Freitag abzugeben\".",
-          "Scheinen + zu expresses an impression: \"Er scheint krank zu sein\" (he seems to be ill). For the past, use a past infinitive: \"Er scheint den Termin vergessen zu haben\".",
+          "\"Sein + zu\" is passive in meaning: \"Das Formular ist bis Freitag abzugeben\" (must be handed in), \"Das Problem ist leicht zu lösen\" (can be solved). \"Haben + zu\" is active and means must: \"Sie haben das Formular bis Freitag abzugeben\".",
+          "\"Scheinen + zu\" expresses an impression: \"Er scheint krank zu sein\" (he seems to be ill). For the past, use a past infinitive: \"Er scheint den Termin vergessen zu haben\".",
         ],
         examples: [
           { es: "Das Formular ist bis Freitag abzugeben.", en: "The form must be handed in by Friday." },
@@ -670,14 +670,14 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
             source: "The problem can easily be solved.",
             answer: "Das Problem ist leicht zu lösen.",
             altAnswers: ["Das Problem lässt sich leicht lösen.", "Das Problem kann leicht gelöst werden."],
-            explanation: "Sein + zu: possibility with a passive meaning.",
+            explanation: "\"Sein + zu\": possibility with a passive meaning.",
           },
           {
             type: "multiple-choice",
             question: "What does this mean: \"Das Formular ist bis Freitag abzugeben.\"?",
             options: ["The form must be handed in by Friday.", "The form was handed in on Friday.", "The form can be handed in after Friday.", "The form seems to be due on Friday."],
             correctIndex: 0,
-            explanation: "Sein + zu with a deadline: passive obligation.",
+            explanation: "\"Sein + zu\" with a deadline: passive obligation.",
           },
         ],
       },
@@ -690,7 +690,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
         source: "The form must be handed in by Friday.",
         answer: "Das Formular ist bis Freitag abzugeben.",
         altAnswers: ["Das Formular muss bis Freitag abgegeben werden."],
-        explanation: "Sein + zu; separable verb: \"abzugeben\".",
+        explanation: "\"Sein + zu\"; separable verb: \"abzugeben\".",
       },
       {
         type: "translate",
@@ -699,7 +699,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
         source: "You have to pay the fee in advance.",
         answer: "Sie haben die Gebühr im Voraus zu bezahlen.",
         altAnswers: ["Sie müssen die Gebühr im Voraus bezahlen.", "Sie haben die Gebühr im Voraus zu zahlen."],
-        explanation: "Haben + zu: active obligation, formal tone.",
+        explanation: "\"Haben + zu\": active obligation, formal tone.",
       },
       {
         type: "translate",
@@ -708,7 +708,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
         source: "He seems to be ill.",
         answer: "Er scheint krank zu sein.",
         altAnswers: ["Er ist anscheinend krank.", "Anscheinend ist er krank."],
-        explanation: "Scheinen + zu-infinitive.",
+        explanation: "\"Scheinen\" + zu-infinitive.",
       },
       {
         type: "translate",
@@ -717,7 +717,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
         source: "She seems to have forgotten the appointment.",
         answer: "Sie scheint den Termin vergessen zu haben.",
         altAnswers: ["Anscheinend hat sie den Termin vergessen.", "Sie hat den Termin anscheinend vergessen."],
-        explanation: "Scheinen + past infinitive.",
+        explanation: "\"Scheinen\" + past infinitive.",
       },
       {
         type: "fill-blank",
@@ -725,7 +725,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
         en: "This noise [is] no longer bearable.",
         sentence: "Dieser Lärm ___ nicht mehr zu ertragen.",
         answer: "ist",
-        explanation: "Sein + zu: \"ist nicht zu ertragen\" = cannot be borne.",
+        explanation: "\"Sein + zu\": \"ist nicht zu ertragen\" = cannot be borne.",
       },
       {
         type: "translate",
@@ -734,7 +734,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
         source: "I have nothing to hide.",
         answer: "Ich habe nichts zu verbergen.",
         altAnswers: ["Ich habe nichts zu verstecken."],
-        explanation: "Haben + zu with \"nichts\".",
+        explanation: "\"Haben + zu\" with \"nichts\".",
       },
       {
         type: "fill-blank",
@@ -751,7 +751,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
         source: "The door can't be opened.",
         answer: "Die Tür ist nicht zu öffnen.",
         altAnswers: ["Die Tür lässt sich nicht öffnen.", "Die Tür kann nicht geöffnet werden."],
-        explanation: "Sein + zu with negation: impossibility.",
+        explanation: "\"Sein + zu\" with negation: impossibility.",
       },
       {
         type: "translate",
@@ -760,7 +760,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
         source: "The weather seems to be improving.",
         answer: "Das Wetter scheint besser zu werden.",
         altAnswers: ["Das Wetter scheint sich zu bessern."],
-        explanation: "Scheinen + zu werden.",
+        explanation: "\"Scheinen\" + \"zu werden\": the change is still under way.",
       },
       {
         type: "matching",
@@ -771,14 +771,14 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
           { left: "Wir haben das zu erledigen.", right: "we must do it" },
           { left: "Er scheint das zu verstehen.", right: "he seems to understand it" },
         ],
-        explanation: "Sein + zu = passive (must or can); haben + zu = active obligation; scheinen + zu = impression.",
+        explanation: "\"Sein + zu\" = passive (must or can); \"haben + zu\" = active obligation; \"scheinen + zu\" = impression.",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: The text is difficult to translate.",
         words: ["Der", "Text", "ist", "schwer", "zu", "übersetzen."],
         translation: "The text is difficult to translate.",
-        explanation: "Sein + zu + adverb \"schwer\": difficult to do.",
+        explanation: "\"Sein + zu\" + adverb \"schwer\": difficult to do.",
       },
       {
         type: "listen-choose",
@@ -797,7 +797,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
         type: "speak",
         text: "Ich habe nichts zu verbergen.",
         prompt: "Say it in German: I have nothing to hide.",
-        explanation: "Haben + zu.",
+        explanation: "\"Haben + zu\".",
       },
     ],
   },
@@ -851,7 +851,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
         source: "I enjoy cooking.",
         answer: "Ich koche gern.",
         altAnswers: ["Ich koche gerne.", "Kochen macht mir Spaß.", "Ich mag kochen.", "Ich koche sehr gern."],
-        explanation: "Enjoy + -ing usually becomes \"gern\" with the verb.",
+        explanation: "Enjoy + -ing usually becomes \"gern\" with the verb. \"Ich mag kochen\" is accepted, but verb + \"gern\" is more natural.",
       },
       {
         type: "translate",
@@ -912,7 +912,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Do you mind waiting a moment?",
         answer: "Macht es Ihnen etwas aus, einen Moment zu warten?",
-        altAnswers: ["Würde es Ihnen etwas ausmachen, einen Moment zu warten?", "Macht es dir etwas aus, einen Moment zu warten?"],
+        altAnswers: ["Würde es Ihnen etwas ausmachen, einen Moment zu warten?", "Macht es dir etwas aus, einen Moment zu warten?", "Macht es euch etwas aus, einen Moment zu warten?"],
         explanation: "\"Es macht mir etwas aus\" + zu-infinitive.",
       },
       {

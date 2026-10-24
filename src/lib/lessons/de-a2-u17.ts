@@ -41,7 +41,7 @@ export const DE_A2_U17: Lesson[] = [
             question: "In a busy café you see an empty chair at a table where two strangers are sitting. What do you ask?",
             options: ["Ist hier noch frei?", "Ist hier noch leer?", "Ist das Stuhl frei?", "Bist du hier frei?"],
             correctIndex: 0,
-            explanation: "\"Ist hier noch frei?\" is the fixed phrase for a free seat. \"Leer\" means empty (of things), and strangers get \"Sie\", not \"du\".",
+            explanation: "\"Ist hier noch frei?\" is the fixed phrase for a free seat. \"Leer\" means empty (of things), \"der Stuhl\" is masculine (so not \"*das Stuhl*\"), and strangers get \"Sie\", not \"du\".",
           },
         ],
       },
@@ -126,7 +126,7 @@ export const DE_A2_U17: Lesson[] = [
             type: "speak",
             text: "Ich hätte gern einen Apfelsaft.",
             prompt: "Say it in German: I'd like an apple juice.",
-            tip: "The ä in hätte sounds like the e in bed; Apfel starts with a crisp pf.",
+            tip: "The \"ä\" in \"hätte\" sounds like the e in bed; \"Apfel\" starts with a crisp pf.",
             explanation: "\"Ich hätte gern\" + accusative: \"einen Apfelsaft\" because \"Saft\" is masculine.",
           },
         ],
@@ -181,7 +181,7 @@ export const DE_A2_U17: Lesson[] = [
         prompt: "Translate into German.",
         source: "As a dessert I'll have the apple strudel.",
         answer: "Als Nachspeise nehme ich den Apfelstrudel.",
-        altAnswers: ["Als Nachtisch nehme ich den Apfelstrudel.", "Als Dessert nehme ich den Apfelstrudel.", "Ich nehme als Nachspeise den Apfelstrudel.", "Ich nehme als Nachtisch den Apfelstrudel.", "Ich nehme als Dessert den Apfelstrudel.", "Zum Nachtisch nehme ich den Apfelstrudel.", "Zum Dessert nehme ich den Apfelstrudel."],
+        altAnswers: ["Als Nachtisch nehme ich den Apfelstrudel.", "Als Dessert nehme ich den Apfelstrudel.", "Ich nehme als Nachspeise den Apfelstrudel.", "Ich nehme als Nachtisch den Apfelstrudel.", "Ich nehme als Dessert den Apfelstrudel.", "Zum Nachtisch nehme ich den Apfelstrudel.", "Zum Dessert nehme ich den Apfelstrudel.", "Zur Nachspeise nehme ich den Apfelstrudel."],
         explanation: "\"Als Nachspeise\" in position 1, so the verb \"nehme\" comes next. \"Der Strudel\" is masculine: \"den Apfelstrudel\" in the accusative.",
       },
       {
@@ -208,7 +208,7 @@ export const DE_A2_U17: Lesson[] = [
         type: "speak",
         text: "Ich möchte einen Tisch für vier Personen reservieren.",
         prompt: "Say it in German: I'd like to book a table for four people.",
-        tip: "Stress reservieren on -vie-: re-ser-VIE-ren. Words in -ieren always stress that syllable.",
+        tip: "Stress \"reservieren\" on -vie-: re-ser-VIE-ren. Verbs in -ieren always stress that syllable.",
         explanation: "\"Möchte\" second, the infinitive \"reservieren\" last.",
       },
     ],
@@ -408,7 +408,7 @@ export const DE_A2_U17: Lesson[] = [
         type: "speak",
         text: "Zusammen, bitte. Machen Sie 40.",
         prompt: "Say it in German: Together, please. Make it 40.",
-        tip: "Zusammen starts with a ts sound: German z is always ts.",
+        tip: "\"Zusammen\" starts with a ts sound: German z is always ts.",
         explanation: "One bill (\"zusammen\"), and the tip given by naming the total.",
       },
     ],
@@ -418,7 +418,7 @@ export const DE_A2_U17: Lesson[] = [
     level: "DE-A2",
     number: 3,
     title: "Pattern Practice: Ordering Politely",
-    summary: "Drill ich hätte gern and ich nehme with the accusative and adjective endings: einen großen Salat, ein kleines Bier, zwei Stück Kuchen.",
+    summary: "Order food and drinks politely with \"ich hätte gern\" and \"ich nehme\", using the accusative and adjective endings: \"einen großen Salat\", \"ein kleines Bier\", \"zwei Stück Kuchen\".",
     duration: "12 min",
     sections: [
       {
@@ -467,7 +467,7 @@ export const DE_A2_U17: Lesson[] = [
       {
         heading: "Two of something: zwei Stück Kuchen, zwei Kaffee",
         body: [
-          "For cake, the unit is \"das Stück\" (piece), and after a number it stays singular: \"zwei Stück Kuchen\", \"drei Stück Pizza\", never \"*zwei Stücke Kuchen*\". The same goes for many measures in orders: \"zwei Glas Wein\", \"zwei Flaschen Wasser\" (Flasche is feminine and does take the plural).",
+          "For cake, the unit is \"das Stück\" (piece), and after a number it stays singular: \"zwei Stück Kuchen\", \"drei Stück Pizza\", not \"*zwei Stücke Kuchen*\". The same goes for many measures in orders: \"zwei Glas Wein\", \"zwei Flaschen Wasser\" (Flasche is feminine and does take the plural).",
           "In cafés, drinks are often counted like portions: \"zwei Kaffee, bitte\", \"drei Bier\" sound perfectly natural (the real plurals \"Kaffees\" and \"Biere\" exist but sound like several kinds). With an adjective and no article in the plural, the ending is -e: \"zwei große Kaffee\", \"zwei kleine Salate\".",
           "\"Noch\" means another or more: \"noch ein Bier\" (another beer), \"noch einen Kaffee\", \"noch etwas Brot\". It's the word you need for a second round.",
         ],
@@ -541,7 +541,7 @@ export const DE_A2_U17: Lesson[] = [
             type: "speak",
             text: "Könnte ich noch eine Serviette haben?",
             prompt: "Say it in German: Could I have another napkin?",
-            tip: "The ö in könnte: say the e of bed with rounded lips.",
+            tip: "The \"ö\" in \"könnte\": say the e of bed with rounded lips.",
             explanation: "\"Könnte ich noch ... haben?\": the polite chunk for small extras.",
           },
         ],
@@ -840,7 +840,7 @@ export const DE_A2_U17: Lesson[] = [
         type: "speak",
         text: "Entschuldigung, ich habe einen Salat bestellt, aber ich habe eine Suppe bekommen.",
         prompt: "Say it in German: Excuse me, I ordered a salad, but I got a soup.",
-        tip: "Stress the second syllable of bestellt and bekommen: be-STELLT, be-KOM-men.",
+        tip: "Stress the second syllable of \"bestellt\" and \"bekommen\": be-STELLT, be-KOM-men.",
         explanation: "The complaint frame: what you ordered, \"aber\", what you got, both in the Perfekt.",
       },
     ],
@@ -864,7 +864,7 @@ export const DE_A2_U17: Lesson[] = [
           { es: "Letzten Samstag hatte ich Geburtstag.", en: "Last Saturday was my birthday." },
           { es: "Ich wollte mit meinen Freunden feiern.", en: "I wanted to celebrate with my friends." },
           { es: "Wir wollten in einem schicken italienischen Restaurant essen.", en: "We wanted to eat in a smart Italian restaurant." },
-          { es: "Schon vor zwei Wochen habe ich einen großen Tisch reserviert.", en: "Two weeks before, I'd already booked a big table." },
+          { es: "Schon vor zwei Wochen habe ich einen großen Tisch reserviert.", en: "I booked a big table two whole weeks ago." },
           { es: "Ich habe mich sehr auf den Abend gefreut.", en: "I was really looking forward to the evening." },
         ],
         checkpoint: [
@@ -987,7 +987,7 @@ export const DE_A2_U17: Lesson[] = [
         source: "I wanted to celebrate in a nice restaurant.",
         answer: "Ich wollte in einem schönen Restaurant feiern.",
         altAnswers: ["Ich wollte in einem netten Restaurant feiern.", "Ich wollte in einem guten Restaurant feiern."],
-        explanation: "\"Wollte\" for the plan, \"in einem schönen Restaurant\" (dative after in for a location, -en after \"einem\").",
+        explanation: "\"Wollte\" for the plan, \"in einem schönen Restaurant\" (dative after \"in\" for a location, -en after \"einem\").",
       },
       {
         type: "translate",
@@ -1055,7 +1055,7 @@ export const DE_A2_U17: Lesson[] = [
         type: "speak",
         text: "Letzten Samstag hatte ich Geburtstag, aber das Essen war furchtbar.",
         prompt: "Say it in German: Last Saturday was my birthday, but the food was terrible.",
-        explanation: "\"Hatte\" and \"war\": spoken German uses the Präteritum of haben and sein.",
+        explanation: "\"Hatte\" and \"war\": spoken German uses the Präteritum of \"haben\" and \"sein\".",
       },
     ],
   },
@@ -1064,14 +1064,14 @@ export const DE_A2_U17: Lesson[] = [
     level: "DE-A2",
     number: 6,
     title: "Spiral Review: Elementary So Far: Telling Stories",
-    summary: "Mix the Perfekt, the Präteritum of sein, haben and the modals, connectors, seit and vor, als and subordinate clauses in mini-stories.",
+    summary: "Tell short stories about the past, mixing the Perfekt, the Präteritum of \"sein\", \"haben\" and the modals, connectors, \"seit\" and \"vor\", and clauses with \"als\", \"weil\" and \"dass\".",
     duration: "14 min",
     sections: [
       {
         heading: "Which past? Perfekt for most verbs, Präteritum for a few",
         body: [
           "A quick reminder of the spoken rule: tell events in the Perfekt (\"ich habe gegessen\", \"wir sind gefahren\"), but use the Präteritum for \"sein\", \"haben\", the modals and \"es gab\": \"ich war\", \"wir hatten\", \"sie musste\", \"es gab\".",
-          "Choose the auxiliary by the verb: movement from A to B or a change of state (fahren, gehen, kommen, fliegen, aufstehen, einschlafen) takes \"sein\"; nearly everything else takes \"haben\". \"Bleiben\" and \"passieren\" also take \"sein\".",
+          "Choose the auxiliary by the verb: movement from A to B or a change of state (\"fahren\", \"gehen\", \"kommen\", \"fliegen\", \"aufstehen\", \"einschlafen\") takes \"sein\"; nearly everything else takes \"haben\". \"Bleiben\" and \"passieren\" also take \"sein\".",
           "Mini-story: \"Am Freitag war ich in Leipzig. Ich bin mit dem Zug gefahren und habe meine Cousine besucht. Wir hatten nicht viel Zeit, aber wir sind ins Museum gegangen.\"",
         ],
         examples: [
@@ -1257,13 +1257,13 @@ export const DE_A2_U17: Lesson[] = [
       {
         type: "dictation",
         audio: "Vor einem Jahr bin ich nach Köln gezogen.",
-        explanation: "\"Vor einem Jahr\": ago with the dative. \"Köln\" with ö, and \"gezogen\" with sein.",
+        explanation: "\"Vor einem Jahr\": ago with the dative. \"Köln\" with ö, and \"gezogen\" with \"sein\".",
       },
       {
         type: "speak",
         text: "Als ich klein war, hatte ich einen Hund.",
         prompt: "Say it in German: When I was little, I had a dog.",
-        tip: "The final d in Hund sounds like a t: German devoices final consonants.",
+        tip: "The final d in \"Hund\" sounds like a t: German devoices final consonants.",
         explanation: "Verb at the end after \"als\", then verb, comma, verb: \"war, hatte\".",
       },
     ],
@@ -1273,14 +1273,14 @@ export const DE_A2_U17: Lesson[] = [
     level: "DE-A2",
     number: 7,
     title: "Spiral Review: Elementary So Far: Tools of Everyday Talk",
-    summary: "Recombine the dative and accusative, two-way prepositions, adjective endings, comparisons, the imperative and the future with werden in everyday exchanges.",
+    summary: "Recombine the dative and accusative, two-way prepositions, adjective endings, comparisons, the imperative and the future with \"werden\" in everyday exchanges.",
     duration: "14 min",
     sections: [
       {
         heading: "Cases at work: who gets what, and where",
         body: [
           "With verbs like \"geben\", \"schenken\", \"zeigen\" and \"bringen\", the person is dative and the thing accusative: \"Ich schenke meiner Mutter einen Schal.\" When the thing is a pronoun, it comes first: \"Ich schenke ihn ihr.\"",
-          "Two-way prepositions (in, an, auf, unter, über, vor, hinter, neben, zwischen) take the accusative for where to and the dative for where: \"Ich lege das Buch auf den Tisch\" (movement) vs \"Das Buch liegt auf dem Tisch\" (position). Pairs like legen/liegen, stellen/stehen, hängen/hängen help you decide.",
+          "Two-way prepositions (in, an, auf, unter, über, vor, hinter, neben, zwischen) take the accusative for where to and the dative for where: \"Ich lege das Buch auf den Tisch\" (movement) vs \"Das Buch liegt auf dem Tisch\" (position). Pairs like \"legen\"/\"liegen\", \"stellen\"/\"stehen\" and \"hängen\" (hang something up) / \"hängen\" (be hanging) help you decide.",
           "Dative verbs: \"helfen\", \"danken\", \"gefallen\", \"gehören\", \"schmecken\": \"Kannst du mir helfen?\" \"Der Mantel gefällt mir.\"",
         ],
         examples: [
@@ -1315,7 +1315,7 @@ export const DE_A2_U17: Lesson[] = [
             prompt: "Translate into German.",
             source: "Put the milk in the fridge! (to a friend)",
             answer: "Stell die Milch in den Kühlschrank!",
-            altAnswers: ["Stell die Milch bitte in den Kühlschrank!", "Stellt die Milch in den Kühlschrank!", "Stellen Sie die Milch in den Kühlschrank!", "Stelle die Milch in den Kühlschrank!", "Tu die Milch in den Kühlschrank!"],
+            altAnswers: ["Stell die Milch bitte in den Kühlschrank!", "Stelle die Milch in den Kühlschrank!", "Tu die Milch in den Kühlschrank!"],
             explanation: "Movement to a place: \"in den Kühlschrank\" (accusative). The du-imperative is the bare stem: \"Stell!\"",
           },
         ],
@@ -1324,7 +1324,7 @@ export const DE_A2_U17: Lesson[] = [
         heading: "Describing and comparing",
         body: [
           "Adjective endings depend on the article: after der/die/das the ending is -e or -en (\"der neue Laptop\", \"mit dem neuen Laptop\"); after ein-words the adjective shows the gender when the article can't (\"ein neuer Laptop\", \"ein neues Handy\"); with no article it does all the work (\"frischer Kaffee\", \"kaltes Wasser\").",
-          "Comparisons: -er + \"als\" (\"Berlin ist größer als München\"), \"so ... wie\" for equal (\"Der Zug ist so teuer wie das Flugzeug\"), and \"am ...sten\" for the top (\"am schnellsten\"). Irregulars: gut, besser, am besten; viel, mehr, am meisten; gern, lieber, am liebsten.",
+          "Comparisons: -er + \"als\" (\"Berlin ist größer als München\"), \"so ... wie\" for equal (\"Der Zug ist so teuer wie das Flugzeug\"), and \"am ...sten\" for the top (\"am schnellsten\"). Irregulars: \"gut, besser, am besten\"; \"viel, mehr, am meisten\"; \"gern, lieber, am liebsten\".",
         ],
         examples: [
           { es: "Ich suche einen günstigen Laptop.", en: "I'm looking for a cheap laptop." },
@@ -1383,7 +1383,7 @@ export const DE_A2_U17: Lesson[] = [
             prompt: "Translate into German.",
             source: "Call me tomorrow! (to a friend)",
             answer: "Ruf mich morgen an!",
-            altAnswers: ["Ruf mich morgen mal an!", "Ruf mich doch morgen an!", "Ruft mich morgen an!", "Rufen Sie mich morgen an!"],
+            altAnswers: ["Ruf mich morgen mal an!", "Ruf mich doch morgen an!"],
             explanation: "\"Anrufen\" is separable: the prefix \"an\" goes to the end of the imperative. \"Anrufen\" takes the accusative \"mich\".",
           },
           {
@@ -1465,7 +1465,7 @@ export const DE_A2_U17: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Please sit down! (polite)",
+        prompt: "Put the words in order to say: Please sit down! (formal)",
         words: ["Setzen", "Sie", "sich", "bitte!"],
         translation: "Please sit down!",
         explanation: "Sie-imperative: verb first, then \"Sie\", then the reflexive \"sich\".",
@@ -1476,7 +1476,7 @@ export const DE_A2_U17: Lesson[] = [
         question: "What does it mean?",
         options: ["The bottles are in the fridge.", "Put the bottles in the fridge.", "The bottles are on the fridge.", "The bottles were in the fridge."],
         correctIndex: 0,
-        explanation: "\"Stehen\" + \"im\" (in dem, dative): position, where they are.",
+        explanation: "\"Stehen\" + \"im\" (\"in dem\", dative): position, where they are.",
       },
       {
         type: "dictation",
@@ -1487,7 +1487,7 @@ export const DE_A2_U17: Lesson[] = [
         type: "speak",
         text: "Am liebsten fahre ich mit dem Fahrrad zur Arbeit.",
         prompt: "Say it in German: Most of all I like cycling to work.",
-        explanation: "\"Am liebsten\" (the superlative of \"gern\") in position 1, verb second; \"zur Arbeit\" = zu der Arbeit.",
+        explanation: "\"Am liebsten\" (the superlative of \"gern\") in position 1, verb second; \"zur Arbeit\" = \"zu der Arbeit\".",
       },
     ],
   },
@@ -1501,9 +1501,9 @@ export const DE_A2_U17_WRITING: WriteExercise = {
   rubric: [
     "Says what you ordered with the accusative and an adjective ending (\"einen großen Salat\", \"ein kleines Bier\")",
     "Describes the problem with \"aber ich habe ... bekommen\" or \"Das Essen war kalt\"",
-    "Uses the Perfekt for events and \"war\", \"hatte\", \"musste\" for sein, haben and modals",
+    "Uses the Perfekt for events and \"war\", \"hatte\", \"musste\" for \"sein\", \"haben\" and the modals",
     "Mentions paying or tipping (\"getrennt\", \"zusammen\", \"Stimmt so\")",
   ],
-  modelAnswer: "Hallo Lena, am Samstag war ich mit Jonas in einem neuen Restaurant in der Altstadt. Ich habe einen großen Salat und ein kleines Bier bestellt, aber ich habe eine Suppe bekommen! Jonas hatte auch Pech: Seine Pizza war kalt. Wir mussten zwanzig Minuten warten. Der Kellner hat sich entschuldigt und hat uns die Getränke geschenkt. Zum Schluss haben wir getrennt bezahlt, und ich habe „Stimmt so“ gesagt. Trotzdem war es ein lustiger Abend! Liebe Grüße, Mia",
-  explanation: "Orders take the accusative (\"einen großen Salat\"), the story uses the Perfekt for actions and \"war\", \"hatte\", \"mussten\" for sein, haben and the modals, and \"Stimmt so\" is the German way to leave the change as a tip.",
+  modelAnswer: "Hallo Lena, am Samstag war ich mit Jonas in einem neuen Restaurant in der Altstadt. Ich habe einen großen Salat und ein kleines Bier bestellt, aber ich habe eine Suppe bekommen! Jonas hatte auch Pech: Seine Pizza war kalt. Wir mussten zwanzig Minuten warten. Der Kellner hat sich entschuldigt und hat uns die Getränke geschenkt. Zum Schluss haben wir getrennt bezahlt, und ich habe „Stimmt so“ gesagt. Trotzdem war es ein lustiger Abend! Liebe Grüße Mia",
+  explanation: "Orders take the accusative (\"einen großen Salat\"), the story uses the Perfekt for actions and \"war\", \"hatte\", \"mussten\" for \"sein\", \"haben\" and the modals, and \"Stimmt so\" is the German way to leave the change as a tip.",
 };

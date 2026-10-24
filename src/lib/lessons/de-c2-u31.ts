@@ -251,7 +251,7 @@ export const DE_C2_U31: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, using a noun phrase instead of a weil-clause.",
+            prompt: "Translate into German, using a noun phrase instead of a \"weil\" clause.",
             source: "As a result of the rise in energy prices, inflation increased.",
             answer: "Infolge des Anstiegs der Energiepreise stieg die Inflation.",
             altAnswers: ["Infolge des Energiepreisanstiegs stieg die Inflation.", "Aufgrund des Anstiegs der Energiepreise stieg die Inflation.", "Aufgrund des Energiepreisanstiegs stieg die Inflation.", "Wegen des Anstiegs der Energiepreise stieg die Inflation.", "Infolge des Anstiegs der Energiepreise ist die Inflation gestiegen.", "Infolge gestiegener Energiepreise stieg die Inflation.", "Infolge des Anstiegs der Energiepreise nahm die Inflation zu."],
@@ -317,7 +317,7 @@ export const DE_C2_U31: Lesson[] = [
         body: [
           "To start from the cause and end with the result, use connectors of consequence. \"Sodass\" (also \"so dass\") is a subordinating conjunction: verb last. \"Weshalb\" and \"weswegen\" (which is why) are relative adverbs: verb last too. \"Folglich\", \"somit\", \"daher\", \"deshalb\" and \"infolgedessen\" are adverbs: they take the first position or sit after the verb, and the verb stays second.",
           "Compare: \"Die Kosten stiegen, sodass die Firma die Preise erhöhte\" / \"Die Kosten stiegen, weshalb die Firma die Preise erhöhte\" / \"Die Kosten stiegen; folglich erhöhte die Firma die Preise\" / \"Die Kosten stiegen. Die Firma erhöhte daher die Preise.\" Same content, four structures.",
-          "The most common Mastery-level slip: putting the verb in the wrong place after \"folglich\" (\"folglich die Firma erhöhte\"): in German, an adverb in first position always pulls the verb into second.",
+          "The most common Mastery-level slip: putting the verb in the wrong place after \"folglich\" (\"*folglich die Firma erhöhte*\"): in German, an adverb in first position always pulls the verb into second.",
         ],
         examples: [
           { es: "Die Rohstoffpreise stiegen, sodass die Margen schrumpften.", en: "Raw material prices rose, so margins shrank." },
@@ -568,7 +568,7 @@ export const DE_C2_U31: Lesson[] = [
           {
             type: "speak",
             text: "Der Mittelstand gilt als Rückgrat der deutschen Wirtschaft.",
-            tip: "RÜCK-grat: stress the first syllable; \"gilt\" has a short i.",
+            tip: "Stress the first syllable of \"Rückgrat\"; \"gilt\" has a short i.",
             explanation: "\"Gelten als\" + nominative (to be regarded as): \"als Rückgrat\".",
           },
         ],
@@ -653,7 +653,7 @@ export const DE_C2_U31: Lesson[] = [
         type: "speak",
         text: "Trotz Rekordumsatz schreibt die Firma rote Zahlen.",
         prompt: "Say it in German: Despite record revenue, the firm is in the red.",
-        tip: "Re-KORD-um-satz: stress on -kord-, and the z in -satz is ts.",
+        tip: "In \"Rekordumsatz\" stress -kord-, and the z in -satz is ts.",
         explanation: "\"Rote Zahlen schreiben\" (to be in the red); \"trotz\" + bare noun.",
       },
     ],
@@ -780,7 +780,7 @@ export const DE_C2_U31: Lesson[] = [
           {
             type: "speak",
             text: "Ökonomen zufolge dürfte die Rate bis Jahresende leicht steigen.",
-            tip: "Ö-ko-NO-men: stress on -no-, and round your lips for the ö.",
+            tip: "In \"Ökonomen\" stress -no-, and round your lips for the ö.",
             explanation: "\"Dürfte\" (Konjunktiv II of \"dürfen\") expresses probability, not permission.",
           },
         ],
@@ -863,7 +863,7 @@ export const DE_C2_U31: Lesson[] = [
         type: "speak",
         text: "Die Bundesbank erklärte, die Inflation sei noch nicht besiegt.",
         prompt: "Say it in German as a news reader: The Bundesbank said inflation had not yet been defeated.",
-        tip: "Stress be-SIEGT on the second syllable; final g sounds like k.",
+        tip: "Stress \"besiegt\" on the second syllable; the final g sounds like k.",
         explanation: "Konjunktiv I \"sei\" for reported speech in the news.",
       },
       {
@@ -999,7 +999,7 @@ export const DE_C2_U31: Lesson[] = [
           {
             type: "speak",
             text: "Die Gewerkschaft fordert acht Prozent mehr Lohn.",
-            tip: "Ge-WERK-schaft: stress on -werk-, and the final -t is clear.",
+            tip: "In \"Gewerkschaft\" stress -werk-, and the final -t is clear.",
             explanation: "\"Fordern\" (demand) is the standard verb for union claims.",
           },
         ],
@@ -1084,7 +1084,7 @@ export const DE_C2_U31: Lesson[] = [
         type: "speak",
         text: "Die Behörde hat den Zusammenschluss untersagt.",
         prompt: "Say it in German: The authority prohibited the merger.",
-        tip: "un-ter-SAGT: stress the stem, not the prefix, because the verb is inseparable.",
+        tip: "In \"untersagt\" stress the stem, not the prefix, because the verb is inseparable.",
         explanation: "\"Untersagen\" (prohibit) is inseparable; \"der Zusammenschluss\" is a formal word for a merger.",
       },
     ],
@@ -1100,7 +1100,7 @@ export const DE_C2_U31: Lesson[] = [
       {
         heading: "The opening: what is planned, and the case for it",
         body: [
-          "A business programme on the radio. The presenter, Herr Becker, talks to two analysts: Dr. Ayşe Demir, from a bank, and Jonas Richter, from a consumer protection think tank. The topic: the planned merger of two regional energy suppliers, Nordstrom AG and Weserenergie.",
+          "A business programme on the radio. The presenter, Herr Becker, talks to two analysts: Dr Ayşe Demir, from a bank, and Jonas Richter, from a consumer protection think tank. The topic: the planned merger of two regional energy suppliers, Nordstrom AG and Weserenergie.",
           "Becker: \"Frau Demir, die Nordstrom AG will die Weserenergie für rund 2,8 Milliarden Euro übernehmen. Was spricht aus Ihrer Sicht für den Deal?\" Demir: \"Vor allem die Synergien. Beide Unternehmen versorgen benachbarte Regionen, sie könnten Netze, Einkauf und IT zusammenlegen. Das Management beziffert die Einsparungen auf 150 Millionen Euro jährlich, und das halte ich nicht für übertrieben. Hinzu kommen Skaleneffekte beim Ausbau der Windkraft.\"",
           "Useful phrases: \"Was spricht für / gegen...?\" (what speaks for / against), \"aus Ihrer Sicht\" (from your point of view), \"beziffern auf\" + accusative (to put a figure on), \"etwas für übertrieben halten\" (to consider something exaggerated), \"hinzu kommt\" / \"hinzu kommen\" (on top of that). \"Die Synergien\" and \"die Skaleneffekte\" (economies of scale) are the standard arguments for any merger.",
         ],
@@ -1211,7 +1211,7 @@ export const DE_C2_U31: Lesson[] = [
           {
             type: "speak",
             text: "Da sind wir gar nicht so weit auseinander.",
-            tip: "aus-ein-AN-der: stress on -an-.",
+            tip: "In \"auseinander\" stress -an-.",
             explanation: "A friendly way to signal agreement at the end of a debate.",
           },
         ],
@@ -1414,7 +1414,7 @@ export const DE_C2_U31: Lesson[] = [
           {
             type: "speak",
             text: "Die Talsohle ist inzwischen durchschritten.",
-            tip: "TAL-soh-le: the h is silent and lengthens the o.",
+            tip: "Stress the first syllable of \"Talsohle\"; the h is silent and lengthens the o.",
             explanation: "\"Die Talsohle durchschreiten\": to pass the lowest point. The participle \"durchschritten\" has no ge- (inseparable).",
           },
         ],
@@ -1625,7 +1625,7 @@ export const DE_C2_U31: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A figure both loves and hates power. Which word fits?",
+            question: "A character both loves and hates power. Which word fits?",
             options: ["ambivalent", "mehrdeutig", "ambitioniert", "zweideutig"],
             correctIndex: 0,
             explanation: "Opposite feelings at once are \"ambivalent\". \"Mehrdeutig\" and \"zweideutig\" are about meanings; \"zweideutig\" often means suggestive.",
@@ -1633,7 +1633,7 @@ export const DE_C2_U31: Lesson[] = [
           {
             type: "speak",
             text: "Gerade die Ambivalenz der Hauptfigur macht den Reiz des Films aus.",
-            tip: "Am-bi-va-LENZ: stress on the last syllable, and v is pronounced as English v.",
+            tip: "In \"Ambivalenz\" stress the last syllable; the v is pronounced as English v.",
             explanation: "\"Den Reiz ausmachen\" (to be what makes something appealing); \"gerade\" (precisely) highlights the subject.",
           },
         ],
@@ -1729,7 +1729,7 @@ export const DE_C2_U31: Lesson[] = [
         type: "speak",
         text: "Das Gedicht lässt sich der Romantik zuordnen.",
         prompt: "Say it in German: The poem can be assigned to Romanticism.",
-        tip: "Ro-MAN-tik: stress on the second syllable.",
+        tip: "Stress \"Romantik\" on the second syllable.",
         explanation: "\"Sich lassen\" + infinitive replaces a passive with können; \"zuordnen\" + dative.",
       },
     ],
@@ -1747,6 +1747,6 @@ export const DE_C2_U31_WRITING: WriteExercise = {
     "Reports statements by the management and an analyst in Konjunktiv I (\"Der Vorstand erklärte, man sei ...\") and hedges forecasts (\"dürfte\", \"zufolge\")",
     "Uses the passive and nominal style typical of business news (\"wurden ... abgebaut\", \"ist zu rechnen\")",
   ],
-  modelAnswer: "Pumpenhersteller Albrecht spürt die Industrieflaute\n\nDie Albrecht Pumpen GmbH aus Schwäbisch Hall hat im ersten Halbjahr einen deutlichen Umsatzrückgang verbucht. Die Erlöse sanken im Vorjahresvergleich um knapp 11 Prozent auf 412 Millionen Euro. Noch stärker brach der operative Gewinn ein: Er halbierte sich nahezu von 38 auf 20 Millionen Euro. Die Eigenkapitalquote blieb mit gut 45 Prozent jedoch solide.\n\nDer Rückgang ist nach Angaben des Unternehmens vor allem auf die schwache Nachfrage aus der chemischen Industrie zurückzuführen, die infolge hoher Energiepreise ihre Investitionen zurückgefahren hat. Hinzu kamen Verzögerungen bei Großprojekten in China, sodass mehrere Aufträge ins nächste Jahr verschoben wurden. Am Stammsitz wurde für rund 300 Beschäftigte Kurzarbeit angemeldet; betriebsbedingte Kündigungen seien aber nicht geplant, betonte die Geschäftsführung.\n\nGeschäftsführerin Katrin Albrecht, die das Familienunternehmen in dritter Generation leitet, zeigte sich dennoch zuversichtlich. Man sei „robust aufgestellt“, die Talsohle dürfte im Herbst durchschritten sein. Zudem habe das Unternehmen seine Abhängigkeit von einzelnen Märkten verringert: Der Anteil des Geschäfts mit Wasserversorgern sei auf ein Viertel gestiegen.\n\nBeobachter sehen das etwas skeptischer. Ein Analyst der Landesbank Baden-Württemberg sagte, die Firma habe als Weltmarktführer in ihrer Nische zwar eine starke Stellung, die Erholung der Chemiebranche lasse aber auf sich warten. Ihm zufolge dürfte die ursprüngliche Jahresprognose, ein Umsatz von 900 Millionen Euro, kaum zu halten sein.\n\nFür das Gesamtjahr rechnet das Unternehmen nun mit Erlösen von rund 850 Millionen Euro. Eine Dividende an die Gesellschafter soll es dennoch geben, allerdings in geringerer Höhe. Mit einer spürbaren Belebung des Geschäfts ist nach Einschätzung der Geschäftsführung erst im kommenden Frühjahr zu rechnen.",
+  modelAnswer: "Pumpenhersteller Albrecht spürt die Industrieflaute\n\nDie Albrecht Pumpen GmbH aus Schwäbisch Hall hat im ersten Halbjahr einen deutlichen Umsatzrückgang verbucht. Die Erlöse sanken im Vorjahresvergleich um knapp 11 Prozent auf 412 Millionen Euro. Noch stärker brach der operative Gewinn ein: Er halbierte sich nahezu von 38 auf 20 Millionen Euro. Die Eigenkapitalquote blieb mit gut 45 Prozent jedoch solide.\n\nDer Rückgang ist nach Angaben des Unternehmens vor allem auf die schwache Nachfrage aus der chemischen Industrie zurückzuführen, die infolge hoher Energiepreise ihre Investitionen zurückgefahren hat. Hinzu kamen Verzögerungen bei Großprojekten in China, sodass mehrere Aufträge ins nächste Jahr verschoben wurden. Am Stammsitz wurde für rund 300 Beschäftigte Kurzarbeit angemeldet; betriebsbedingte Kündigungen seien aber nicht geplant, betonte die Geschäftsführung.\n\nGeschäftsführerin Katrin Albrecht, die das Familienunternehmen in dritter Generation leitet, zeigte sich dennoch zuversichtlich. Man sei „robust aufgestellt“, die Talsohle dürfte im Herbst durchschritten sein. Zudem habe das Unternehmen seine Abhängigkeit von einzelnen Märkten verringert: Der Anteil des Geschäfts mit Wasserversorgern sei auf ein Viertel gestiegen.\n\nBeobachter sehen das etwas skeptischer. Ein Analyst der Landesbank Baden-Württemberg sagte, die Firma habe als Weltmarktführer in ihrer Nische zwar eine starke Stellung, die Erholung der Chemiebranche lasse aber auf sich warten. Ihm zufolge dürfte die ursprüngliche Jahresprognose, ein Umsatz von 900 Millionen Euro, kaum zu halten sein.\n\nFür das Gesamtjahr rechnet das Unternehmen nun mit Erlösen von rund 850 Millionen Euro. Eine Gewinnausschüttung an die Gesellschafter soll es dennoch geben, allerdings in geringerer Höhe. Mit einer spürbaren Belebung des Geschäfts ist nach Einschätzung der Geschäftsführung erst im kommenden Frühjahr zu rechnen.",
   explanation: "The model uses figures with \"um\", \"auf\" and \"von ... auf\", keeps revenue (\"Umsatz\", \"Erlöse\") apart from profit, and explains the causes with \"zurückzuführen auf\", \"infolge\" and \"sodass\". Statements are in Konjunktiv I (\"man sei\", \"habe ... verringert\", \"lasse auf sich warten\"), forecasts are hedged with \"dürfte\" and \"ihm zufolge\", and the passive and \"ist zu rechnen\" keep the report impersonal.",
 };

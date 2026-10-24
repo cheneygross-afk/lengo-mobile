@@ -22,7 +22,7 @@ export const DE_C2_U12: Lesson[] = [
           { es: "Streit um Mietpreisbremse: Koalition uneins", en: "Row over rent cap: coalition divided" },
           { es: "Rückgang der Arbeitslosigkeit im Osten", en: "Unemployment falls in eastern Germany" },
           { es: "Einigung im Tarifstreit bei der Bahn", en: "Agreement reached in rail pay dispute" },
-          { es: "Nach monatelangen Verhandlungen haben sich Bahn und Gewerkschaft auf einen neuen Tarifvertrag geeinigt.", en: "After months of negotiations, the railway and the union have agreed on a new pay deal. (Vorspann)" },
+          { es: "Nach monatelangen Verhandlungen haben sich Bahn und Gewerkschaft auf einen neuen Tarifvertrag geeinigt.", en: "After months of negotiations, the railway and the union have agreed on a new pay deal. (\"Vorspann\")" },
           { es: "Leipzig verbietet Autos in der Innenstadt", en: "Leipzig bans cars from the city centre" },
         ],
         checkpoint: [
@@ -38,7 +38,7 @@ export const DE_C2_U12: Lesson[] = [
           {
             type: "multiple-choice",
             question: "You want the gist of a long article in one minute. What do you read?",
-            options: ["Headline, Vorspann, subheadings, first sentences, last paragraph", "The first three paragraphs in full", "Only the photo captions", "Every sentence containing a number"],
+            options: ["Headline, \"Vorspann\", subheadings, first sentences, last paragraph", "The first three paragraphs in full", "Only the photo captions", "Every sentence containing a number"],
             correctIndex: 0,
             explanation: "Skimming targets the structural parts that carry the main ideas.",
           },
@@ -61,11 +61,11 @@ export const DE_C2_U12: Lesson[] = [
           "German papers mark opinion pieces clearly with labels such as \"Kommentar\", \"Meinung\" or \"Leitartikel\" and with the author's name and photo. Always check the label before you decide what the text wants.",
         ],
         examples: [
-          { es: "Berlin – Am Montagmorgen ist auf der A100 ein Lkw umgekippt. Verletzt wurde niemand.", en: "Berlin: On Monday morning a lorry overturned on the A100. Nobody was injured. (Meldung)" },
-          { es: "Es ist höchste Zeit, dass die Regierung handelt.", en: "It's high time the government acted. (Kommentar)" },
-          { es: "Ausgerechnet der Verkehrsminister fährt mit dem Dienstwagen zum Klimagipfel.", en: "Of all people, the transport minister drives to the climate summit in his official car. (Glosse)" },
-          { es: "Frau Yılmaz steht seit fünf Uhr morgens hinter der Theke ihrer Bäckerei.", en: "Mrs Yılmaz has been behind the counter of her bakery since five in the morning. (Reportage)" },
-          { es: "Bedauerlicherweise hat die Stadt diese Chance verpasst.", en: "Regrettably, the city has missed this opportunity. (Kommentar)" },
+          { es: "Berlin – Am Montagmorgen ist auf der A100 ein Lkw umgekippt. Verletzt wurde niemand.", en: "Berlin: On Monday morning a lorry overturned on the A100. Nobody was injured. (\"Meldung\")" },
+          { es: "Es ist höchste Zeit, dass die Regierung handelt.", en: "It's high time the government acted. (\"Kommentar\")" },
+          { es: "Ausgerechnet der Verkehrsminister fährt mit dem Dienstwagen zum Klimagipfel.", en: "Of all people, the transport minister drives to the climate summit in his official car. (\"Glosse\")" },
+          { es: "Frau Yılmaz steht seit fünf Uhr morgens hinter der Theke ihrer Bäckerei.", en: "Ms Yılmaz has been behind the counter of her bakery since five in the morning. (\"Reportage\")" },
+          { es: "Bedauerlicherweise hat die Stadt diese Chance verpasst.", en: "Regrettably, the city has missed this opportunity. (\"Kommentar\")" },
         ],
         checkpoint: [
           {
@@ -232,7 +232,7 @@ export const DE_C2_U12: Lesson[] = [
       {
         heading: "The interview, part 1: facts and claims",
         body: [
-          "A public radio morning programme interviews Dr. Katrin Becker, an economist, about a pilot project in which 45 companies tried out a four-day week. Read part 1 and sort every statement: fact (checkable figure, source named), opinion (evaluation), or claim reported from someone else.",
+          "A public radio morning programme interviews Dr Katrin Becker, an economist, about a pilot project in which 45 companies tried out a four-day week. Read part 1 and sort every statement: fact (checkable figure, source named), opinion (evaluation), or claim reported from someone else.",
           "Interviewers use precise formulas you should recognise: \"Frau Becker, ich darf Sie zunächst fragen ...\", \"Wie bewerten Sie ...?\", \"Lassen Sie mich nachhaken\" (let me follow up). Experts frame their sources: \"Die Studie zeigt ...\", \"Nach unseren Daten ...\".",
         ],
         examples: [
@@ -1294,7 +1294,7 @@ export const DE_C2_U12: Lesson[] = [
     level: "DE-C2",
     number: 7,
     title: "Verstehensstrategien, Part 8 of 8",
-    summary: "Turn notes into text: reformulate content in another register as in Goethe C2 \"Schreiben\" Teil 2, use \"das heißt\", \"anders gesagt\" and \"mit anderen Worten\", and condense long passages without losing meaning.",
+    summary: "Turn notes into text: reformulate content in another register as in Goethe C2 \"Schreiben\" part 2, use \"das heißt\", \"anders gesagt\" and \"mit anderen Worten\", and condense long passages without losing meaning.",
     duration: "18 min",
     sections: [
       {
@@ -1343,7 +1343,7 @@ export const DE_C2_U12: Lesson[] = [
       {
         heading: "Changing register: Goethe C2 Schreiben Teil 2",
         body: [
-          "In \"Schreiben\" Teil 2 you rewrite a text for a different reader and register, typically turning an informal text into a formal one (a chatty email into a letter to an institution) or a dense official text into plain language. The content stays; everything else changes.",
+          "In \"Schreiben\" part 2 you rewrite a text for a different reader and register, typically turning an informal text into a formal one (a chatty email into a letter to an institution) or a dense official text into plain language. The content stays; everything else changes.",
           "Informal → formal: \"du\" → \"Sie\", particles out, colloquial words replaced (\"kriegen\" → \"erhalten\", \"total\" → \"äußerst\"), loose clauses tied together with connectors, some nominal style (\"weil wir umziehen\" → \"aufgrund unseres Umzugs\"). Formal → plain: break up noun chains into verbs, replace passive with active, explain terms.",
           "Example. Informal: \"Wir ziehen im Mai um, deshalb können wir den Kurs leider nicht weitermachen.\" Formal: \"Aufgrund unseres Umzugs im Mai ist es uns leider nicht möglich, den Kurs fortzusetzen.\"",
         ],
@@ -1618,7 +1618,7 @@ export const DE_C2_U12: Lesson[] = [
             prompt: "Translate into German, with \"zwar ... jedoch\".",
             source: "Night trains may be popular, but so far they are not profitable.",
             answer: "Zwar sind Nachtzüge beliebt, wirtschaftlich rentabel sind sie bisher jedoch nicht.",
-            altAnswers: ["Nachtzüge sind zwar beliebt, bisher aber nicht rentabel.", "Zwar sind Nachtzüge beliebt, bisher rechnen sie sich jedoch nicht.", "Nachtzüge sind zwar beliebt, rechnen sich bisher aber nicht.", "Zwar sind Nachtzüge beliebt, bisher sind sie jedoch nicht rentabel."],
+            altAnswers: ["Zwar sind Nachtzüge beliebt, bisher rechnen sie sich jedoch nicht.", "Zwar sind Nachtzüge beliebt, bisher sind sie jedoch nicht rentabel.", "Nachtzüge sind zwar beliebt, bisher jedoch nicht rentabel."],
             explanation: "\"Zwar ... jedoch / aber\" concedes the first point and stresses the second.",
           },
           {
@@ -1732,7 +1732,7 @@ export const DE_C2_U12: Lesson[] = [
         heading: "Acting and deciding",
         body: [
           "At the Mastery level your German is judged as much by collocations as by grammar. Many nouns choose a specific verb, and the English one is usually wrong: you don't \"machen\" measures, you \"ergreifen\" them (literally seize). Learn the pair as one unit.",
-          "Acting and deciding: \"Maßnahmen ergreifen\" (take measures), \"eine Entscheidung treffen\" (make a decision; not \"*machen\"), \"Verantwortung tragen\" (bear responsibility; \"für\" + accusative) or \"übernehmen\" (take on), \"Bilanz ziehen\" (take stock, literally draw the balance), \"einen Beschluss fassen\" (pass a resolution), \"Schritte einleiten\" (initiate steps).",
+          "Acting and deciding: \"Maßnahmen ergreifen\" (take measures), \"eine Entscheidung treffen\" (make a decision; not \"*machen*\"), \"Verantwortung tragen\" (bear responsibility; \"für\" + accusative) or \"übernehmen\" (take on), \"Bilanz ziehen\" (take stock, literally draw the balance), \"einen Beschluss fassen\" (pass a resolution), \"Schritte einleiten\" (initiate steps).",
           "\"Eine Entscheidung machen\" is a common anglicism that sounds wrong to most Germans. \"Bilanz ziehen\" is used for any review of results: \"Nach einem Jahr zieht die Stadt eine positive Bilanz.\"",
         ],
         examples: [
@@ -1751,7 +1751,7 @@ export const DE_C2_U12: Lesson[] = [
             source: "We haven't made a decision yet.",
             answer: "Wir haben noch keine Entscheidung getroffen.",
             altAnswers: ["Wir haben uns noch nicht entschieden.", "Eine Entscheidung haben wir noch nicht getroffen."],
-            explanation: "\"Eine Entscheidung treffen\" (literally 'hit a decision'), not \"*machen\".",
+            explanation: "\"Eine Entscheidung treffen\" (literally 'hit a decision'), not \"*machen*\".",
           },
           {
             type: "translate",
@@ -1775,7 +1775,7 @@ export const DE_C2_U12: Lesson[] = [
         heading: "Expressing views: Bedenken äußern, Kritik üben, Stellung beziehen",
         body: [
           "Opinions have their own verbs. \"Bedenken äußern\" (express reservations), \"Kritik üben an\" + dative (criticise, formal), \"Stellung beziehen\" or \"Stellung nehmen zu\" + dative (take a position on), \"Einwände erheben gegen\" (raise objections to), \"Zweifel anmelden\" (voice doubts), \"eine Meinung vertreten\" (hold a view).",
-          "Mind the prepositions: \"Kritik an\" (not \"*über\") + dative: \"Sie übte scharfe Kritik an dem Entwurf.\" \"Stellung nehmen zu\": \"Der Minister wollte dazu nicht Stellung nehmen.\" \"Stellung beziehen\" has a slightly stronger sense of committing to a side.",
+          "Mind the prepositions: \"Kritik an\" (not \"*über*\") + dative: \"Sie übte scharfe Kritik an dem Entwurf.\" \"Stellung nehmen zu\": \"Der Minister wollte dazu nicht Stellung nehmen.\" \"Stellung beziehen\" has a slightly stronger sense of committing to a side.",
           "Using these instead of \"sagen\" or \"kritisieren\" is not just ornament: in a report, \"Bedenken äußern\" is milder than \"Kritik üben\", and \"Einwände erheben\" is a formal objection, often in a procedure. The collocation carries the degree.",
         ],
         examples: [
@@ -1893,7 +1893,7 @@ export const DE_C2_U12: Lesson[] = [
         question: "Which sentence is idiomatic?",
         options: ["Wir müssen jetzt eine Entscheidung treffen.", "Wir müssen jetzt eine Entscheidung machen.", "Wir müssen jetzt eine Entscheidung nehmen.", "Wir müssen jetzt eine Entscheidung tun."],
         correctIndex: 0,
-        explanation: "\"Eine Entscheidung treffen\"; the other verbs are calques from English or French.",
+        explanation: "\"Eine Entscheidung treffen\"; \"machen\" and \"nehmen\" are calques of English make and take, and \"tun\" does not combine with \"Entscheidung\" at all.",
       },
       {
         type: "translate",
@@ -1919,7 +1919,7 @@ export const DE_C2_U12: Lesson[] = [
         source: "Please be considerate of the neighbours.",
         answer: "Bitte nehmen Sie Rücksicht auf die Nachbarn.",
         altAnswers: ["Bitte nimm Rücksicht auf die Nachbarn.", "Bitte nehmt Rücksicht auf die Nachbarn.", "Nehmen Sie bitte Rücksicht auf die Nachbarn.", "Bitte nehmen Sie Rücksicht auf die Nachbarschaft."],
-        explanation: "\"Rücksicht nehmen auf\" + accusative; typical of signs in German apartment buildings.",
+        explanation: "\"Rücksicht nehmen auf\" + accusative; typical of notices in German blocks of flats.",
       },
       {
         type: "translate",
@@ -1955,7 +1955,7 @@ export const DE_C2_U12: Lesson[] = [
 
 export const DE_C2_U12_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You attended a conference talk on the four-day week, given by an economist, Dr. Katrin Becker. Your notes say: pilot project, 45 firms, 6 months; productivity stable in most firms; sick notes down in 38 of 45; Becker: an encouraging signal; employers' associations: not feasible in industry; costs: no reliable figures yet; one firm (unnamed) is said to have stopped the trial early; Becker's conclusion: more research needed, especially in manufacturing. Write a summary for the internal newsletter of your company for colleagues who were not there. Keep every claim attributed, distinguish facts from opinions and rumours, and condense.",
+  prompt: "You attended a conference talk on the four-day week, given by an economist, Dr Katrin Becker. Your notes say: pilot project, 45 firms, 6 months; productivity stable in most firms; sick notes down in 38 of 45; Becker: an encouraging signal; employers' associations: not feasible in industry; costs: no reliable figures yet; one firm (unnamed) is said to have stopped the trial early; Becker's conclusion: more research needed, especially in manufacturing. Write a summary for the internal newsletter of your company for colleagues who were not there. Keep every claim attributed, distinguish facts from opinions and rumours, and condense.",
   minWords: 250,
   maxWords: 400,
   rubric: [

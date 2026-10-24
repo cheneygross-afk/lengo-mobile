@@ -67,6 +67,22 @@ export function transliterate(s: string): string {
   return base(s).replace(/[äöüß]/g, (c) => FOLD_E[c]);
 }
 
+/**
+ * English with British and American spellings made alike, for searching the
+ * (British) glosses: "recognize" finds "to recognise", "analyze" "to
+ * analyse", "honor" "to honour", "fulfill" "to fulfil", "practice" "to practise".
+ */
+export function foldEnglishSpelling(s: string): string {
+  return s
+    .toLowerCase()
+    .replace(/\bpractic(e|es|ed|ing)\b/g, "practis$1")
+    .replace(/([a-z]{2})i[sz](e|es|ed|ing|ation|ations)\b/g, "$1iz$2")
+    .replace(/([a-z]{2})y[sz](e|es|ed|ing)\b/g, "$1yz$2")
+    .replace(/([a-z]{2})our(s|ed|ing|able|ite)?\b/g, "$1or$2")
+    .replace(/\b(fulfil|enrol|instil|distil)l/g, "$1")
+    .replace(/mould/g, "mold");
+}
+
 /** URL segment of a verb's page: "ändern" -> "aendern", "sich freuen" -> "sich-freuen". */
 export function deVerbSlug(infinitive: string): string {
   return transliterate(infinitive).replace(/[\s']+/g, "-");

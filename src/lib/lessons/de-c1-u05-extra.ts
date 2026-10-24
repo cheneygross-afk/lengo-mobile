@@ -189,7 +189,7 @@ export const DE_C1_U05_EXTRA: Lesson[] = [
         heading: "Recap: no subject, dative stays",
         body: [
           "Any activity can be put in the passive without a subject: \"Hier wird nicht geparkt\". The placeholder \"es\" appears only in an empty position 1 (\"Es wurde gelacht\") and disappears otherwise (\"Gestern wurde gelacht\", \"..., weil gelacht wurde\").",
-          "Dative verbs keep their dative: \"Mir wurde geholfen\", \"Ihnen wird gratuliert\", \"Uns wurde gesagt, dass...\". Never \"*Ich wurde geholfen / gesagt\".",
+          "Dative verbs keep their dative: \"Mir wurde geholfen\", \"Ihnen wird gratuliert\", \"Uns wurde gesagt, dass...\". Never \"*Ich wurde geholfen / gesagt*\".",
         ],
         examples: [
           { es: "Hier wird nicht geparkt.", en: "No parking here." },
@@ -623,7 +623,7 @@ export const DE_C1_U05_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "According to police, alcohol [had been found] in the driver's blood.",
+        en: "According to police, alcohol had [been found] in the driver's blood.",
         sentence: "Laut Polizei war im Blut des Fahrers Alkohol ___.",
         answer: "festgestellt worden",
         altAnswers: ["gefunden worden", "nachgewiesen worden"],
@@ -762,7 +762,7 @@ export const DE_C1_U05_EXTRA: Lesson[] = [
         prompt: "Translate into German, colloquially with kriegen.",
         source: "I got my wallet stolen on the tram.",
         answer: "Ich hab in der Straßenbahn meinen Geldbeutel geklaut gekriegt.",
-        altAnswers: ["Ich habe in der Straßenbahn meinen Geldbeutel geklaut gekriegt.", "Ich hab in der Straßenbahn mein Portemonnaie geklaut gekriegt.", "Ich habe in der Straßenbahn mein Portemonnaie geklaut gekriegt.", "Ich hab in der Straßenbahn meine Geldbörse geklaut gekriegt.", "Mir wurde in der Straßenbahn der Geldbeutel gestohlen.", "Mir wurde in der Straßenbahn mein Portemonnaie gestohlen."],
+        altAnswers: ["Ich habe in der Straßenbahn meinen Geldbeutel geklaut gekriegt.", "Ich hab in der Straßenbahn mein Portemonnaie geklaut gekriegt.", "Ich habe in der Straßenbahn mein Portemonnaie geklaut gekriegt.", "Ich hab in der Straßenbahn meine Geldbörse geklaut gekriegt."],
         explanation: "Spoken recipient passive: \"geklaut gekriegt\". The standard alternative: \"Mir wurde ... gestohlen\".",
       },
       {
@@ -804,9 +804,9 @@ export const DE_C1_U05_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence means that someone else cut her hair?",
-        options: ["Sie hat die Haare geschnitten bekommen.", "Sie hat die Haare geschnitten.", "Sie hat sich die Haare geschnitten.", "Sie wurde die Haare geschnitten."],
+        options: ["Sie hat die Haare geschnitten bekommen.", "Sie hat die Haare geschnitten.", "Sie hat ihm die Haare geschnitten.", "Sie wurde die Haare geschnitten."],
         correctIndex: 0,
-        explanation: "\"Geschnitten bekommen\": she received the haircut. \"Hat sich die Haare geschnitten\" usually means she cut it herself (though in speech it can also mean she had it cut).",
+        explanation: "\"Geschnitten bekommen\": she received the haircut, so someone else did the cutting. \"Hat die Haare geschnitten\" and \"hat ihm die Haare geschnitten\" make her the one cutting; \"*Sie wurde die Haare geschnitten*\" mixes up the two passives. The everyday alternative is \"Sie hat sich die Haare schneiden lassen\".",
       },
       {
         type: "translate",
@@ -831,6 +831,7 @@ export const DE_C1_U05_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: I got the car repaired for free.",
         words: ["Ich", "habe", "das Auto", "kostenlos", "repariert", "bekommen."],
         translation: "I got the car repaired for free.",
+        altOrders: [["Das Auto", "habe", "ich", "kostenlos", "repariert", "bekommen."]],
         explanation: "Perfekt of the bekommen passive: \"habe ... repariert bekommen\".",
       },
       {

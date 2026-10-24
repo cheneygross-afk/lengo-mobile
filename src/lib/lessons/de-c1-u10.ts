@@ -55,6 +55,7 @@ export const DE_C1_U10: Lesson[] = [
             prompt: "Put the words in order to say: After that we'll look at the figures.",
             words: ["Anschließend", "sehen", "wir", "uns", "die Zahlen", "an."],
             translation: "After that we'll look at the figures.",
+            altOrders: [["Wir", "sehen", "uns", "anschließend", "die Zahlen", "an."]],
             explanation: "Marker in the Vorfeld, verb second, subject third: \"Anschließend sehen wir uns...\".",
           },
         ],
@@ -144,6 +145,7 @@ export const DE_C1_U10: Lesson[] = [
         prompt: "Translate into German.",
         source: "For one thing I'm tired, for another I have no money.",
         answer: "Zum einen bin ich müde, zum anderen habe ich kein Geld.",
+        altAnswers: ["Zum einen bin ich müde und zum anderen habe ich kein Geld.", "Ich bin zum einen müde, zum anderen habe ich kein Geld.", "Zum einen bin ich müde, zum anderen habe ich keins."],
         explanation: "Two reasons in the same direction: \"zum einen... zum anderen\", each with inversion.",
       },
       {
@@ -184,7 +186,7 @@ export const DE_C1_U10: Lesson[] = [
         prompt: "Put the words in order to say: In Leipzig, by contrast, rents are lower.",
         words: ["In Leipzig", "sind", "die Mieten", "dagegen", "niedriger."],
         translation: "In Leipzig, by contrast, rents are lower.",
-        altOrders: [["In Leipzig", "dagegen", "sind", "die Mieten", "niedriger."], ["In Leipzig", "sind", "dagegen", "die Mieten", "niedriger."]],
+        altOrders: [["In Leipzig", "dagegen", "sind", "die Mieten", "niedriger."], ["In Leipzig", "sind", "dagegen", "die Mieten", "niedriger."], ["Die Mieten", "sind", "In Leipzig", "dagegen", "niedriger."], ["Dagegen", "sind", "die Mieten", "In Leipzig", "niedriger."]],
         explanation: "\"Dagegen\" can follow the contrasted element, even in the Vorfeld (\"In Leipzig dagegen sind...\"), or stand in the Mittelfeld.",
       },
       {
@@ -424,7 +426,7 @@ export const DE_C1_U10: Lesson[] = [
           "Transformation rule: keep the main claim, add a second clause or phrase with \"allerdings\" or \"jedoch\". When you start the second clause with the marker, invert: \"..., allerdings gibt es noch Probleme.\" When you place it after the verb, keep normal order: \"..., es gibt allerdings noch Probleme.\"",
         ],
         examples: [
-          { es: "Der Service ist schlecht. → Der Service ist allerdings verbesserungswürdig.", en: "The service is bad. → The service could, however, be improved." },
+          { es: "Der Service ist schlecht. → Das Essen ist gut, der Service allerdings verbesserungswürdig.", en: "The service is bad. → The food is good, but the service could be improved." },
           { es: "Das Essen war gut, allerdings etwas zu salzig.", en: "The food was good, if a little too salty." },
           { es: "Wir sind einverstanden, jedoch nur unter einer Bedingung.", en: "We agree, but only on one condition." },
           { es: "Die Zahlen sind gestiegen, allerdings langsamer als erwartet.", en: "The figures have risen, though more slowly than expected." },
@@ -609,8 +611,8 @@ export const DE_C1_U10: Lesson[] = [
         heading: "Highlighting frames: Hervorzuheben ist, dass...",
         body: [
           "Your manager, Frau Schneider, has asked you to summarise an anonymous survey of 40 colleagues about hybrid working. A good German summary uses ready-made frames that point to what matters: \"Hervorzuheben ist, dass...\" (it should be emphasised that...), \"Bemerkenswert ist, dass...\" (it is remarkable that...), \"Auffällig ist, dass...\" (it is striking that...), \"Besonders wichtig ist...\", \"Erfreulich ist, dass...\".",
-          "These frames put an adjective or a zu-participle (\"hervorzuheben\") in the Vorfeld, then \"ist\", then the subject clause with \"dass\" (verb at the end). They can also take a noun: \"Bemerkenswert ist die hohe Zufriedenheit.\"",
-          "Another family uses reflexive verbs: \"Es zeigt sich, dass...\" (it turns out that...), \"Es fällt auf, dass...\", \"Es lässt sich feststellen, dass...\", \"Daraus ergibt sich, dass...\" (it follows that...).",
+          "These frames put an adjective or a zu-infinitive (\"hervorzuheben\", it is to be emphasised) in the Vorfeld, then \"ist\", then the subject clause with \"dass\" (verb at the end). They can also take a noun: \"Bemerkenswert ist die hohe Zufriedenheit.\"",
+          "Another family uses impersonal and reflexive verbs:\"Es zeigt sich, dass...\" (it turns out that...), \"Es fällt auf, dass...\", \"Es lässt sich feststellen, dass...\", \"Daraus ergibt sich, dass...\" (it follows that...).",
         ],
         examples: [
           { es: "Hervorzuheben ist, dass fast alle an der Umfrage teilgenommen haben.", en: "It's worth emphasising that almost everyone took part in the survey." },
@@ -698,7 +700,7 @@ export const DE_C1_U10: Lesson[] = [
             text: "Hervorzuheben ist, dass fast alle teilgenommen haben.",
             prompt: "Say it in German: It's worth emphasising that almost everyone took part.",
             tip: "\"Hervorzuheben\": the zu sits inside the separable verb, her-VOR-zu-he-ben.",
-            explanation: "A highlighting frame with a zu-participle in the Vorfeld and a dass-clause as subject.",
+            explanation: "A highlighting frame with a zu-infinitive in the Vorfeld and a dass-clause as subject.",
           },
         ],
       },
@@ -810,7 +812,7 @@ export const DE_C1_U10: Lesson[] = [
         examples: [
           { es: "Da der Zug ausfiel, kamen wir zu spät.", en: "As the train was cancelled, we arrived late." },
           { es: "Ich nehme das Rad, zumal das Wetter so schön ist.", en: "I'll take the bike, especially as the weather is so nice." },
-          { es: "Die Entscheidung überrascht, zumal der Minister sie noch gestern ausgeschlossen hatte.", en: "The decision is surprising, all the more so since the minister ruled it out only yesterday." },
+          { es: "Die Entscheidung überrascht, zumal der Minister sie noch gestern ausgeschlossen hatte.", en: "The decision is surprising, all the more so since the minister had ruled it out only yesterday." },
           { es: "Angesichts der Lage bleiben die Schulen geschlossen.", en: "In view of the situation, schools will remain closed." },
           { es: "Da wir alle müde sind, machen wir morgen weiter.", en: "Since we're all tired, we'll carry on tomorrow." },
         ],
@@ -1723,7 +1725,7 @@ export const DE_C1_U10: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in written style and translate into German: We stayed at home because it was raining.",
+        prompt: "Translate into German (written style).",
         source: "We stayed at home because it was raining.",
         answer: "Wir sind zu Hause geblieben, weil es geregnet hat.",
         altAnswers: ["Wir blieben zu Hause, weil es regnete.", "Wir sind zu Hause geblieben, denn es hat geregnet.", "Wir blieben zu Hause, denn es regnete.", "Wir sind zu Hause geblieben, da es geregnet hat.", "Wir sind zuhause geblieben, weil es geregnet hat."],
@@ -1834,7 +1836,7 @@ export const DE_C1_U10: Lesson[] = [
             prompt: "Translate into German.",
             source: "He was tired, but he kept working anyway.",
             answer: "Er war müde, trotzdem hat er weitergearbeitet.",
-            altAnswers: ["Er war müde, trotzdem arbeitete er weiter.", "Er war müde, hat aber trotzdem weitergearbeitet.", "Er war müde, er hat trotzdem weitergearbeitet.", "Er war müde, dennoch hat er weitergearbeitet.", "Er war müde, arbeitete aber trotzdem weiter."],
+            altAnswers: ["Er war müde, trotzdem arbeitete er weiter.", "Er war müde, hat aber trotzdem weitergearbeitet.", "Er war müde, er hat trotzdem weitergearbeitet.", "Er war müde, dennoch hat er weitergearbeitet.", "Er war müde, arbeitete aber trotzdem weiter.", "Er war müde, aber er hat trotzdem weitergearbeitet.", "Er war müde, aber er arbeitete trotzdem weiter.", "Er war müde, aber trotzdem hat er weitergearbeitet."],
             explanation: "\"Trotzdem\" in the Vorfeld → verb next; or in the Mittelfeld.",
           },
           {
@@ -2042,12 +2044,12 @@ export const DE_C1_U10: Lesson[] = [
         heading: "Rebuilding a choppy paragraph",
         body: [
           "Let's rebuild. Choppy: \"Viele Städte führen Tempo 30 ein. Tempo 30 senkt den Lärm. Tempo 30 senkt auch die Zahl der Unfälle. Die Autofahrer kritisieren Tempo 30. Die Autofahrer sagen, sie verlieren Zeit.\"",
-          "Cohesive: \"Viele Städte führen Tempo 30 ein. Diese Maßnahme senkt nicht nur den Lärm, sondern auch die Zahl der Unfälle. Kritik kommt vor allem von Autofahrern; Letztere befürchten, Zeit zu verlieren. Dabei zeigen Studien, dass der Zeitverlust minimal ist.\"",
+          "Cohesive: \"Viele Städte führen Tempo 30 ein. Diese Maßnahme senkt nicht nur den Lärm, sondern auch die Zahl der Unfälle. Kritik kommt vor allem von Autofahrern; diese befürchten, Zeit zu verlieren. Dabei zeigen Studien, dass der Zeitverlust minimal ist.\"",
           "Note \"dabei\" in the last sentence: besides in doing so, it often means and yet, even though (contrasting with what was just said). \"Er sagt, er hat keine Zeit. Dabei sitzt er den ganzen Tag vor dem Fernseher.\"",
         ],
         examples: [
           { es: "Diese Maßnahme senkt nicht nur den Lärm, sondern auch die Unfallzahlen.", en: "This measure not only reduces noise but also the number of accidents." },
-          { es: "Kritik kommt vor allem von Autofahrern; Letztere befürchten Zeitverluste.", en: "Criticism comes mainly from drivers, who fear losing time." },
+          { es: "Kritik kommt vor allem von Autofahrern; diese befürchten Zeitverluste.", en: "Criticism comes mainly from drivers, who fear losing time." },
           { es: "Dabei ist der Zeitverlust minimal.", en: "And yet the time lost is minimal." },
           { es: "Er sagt, er hat keine Zeit. Dabei sitzt er nur vor dem Fernseher.", en: "He says he has no time. And yet he just sits in front of the TV." },
         ],

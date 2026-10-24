@@ -64,7 +64,7 @@ export const DE_C2_U13_EXTRA: Lesson[] = [
         prompt: "Translate into German, with \"wohingegen\".",
         source: "The north is flat, whereas the south is mountainous.",
         answer: "Der Norden ist flach, wohingegen der Süden gebirgig ist.",
-        altAnswers: ["Der Norden ist flach, während der Süden gebirgig ist.", "Während der Norden flach ist, ist der Süden gebirgig.", "Der Norden ist flach, wohingegen der Süden bergig ist."],
+        altAnswers: ["Der Norden ist flach, wohingegen der Süden bergig ist."],
         explanation: "\"Wohingegen\" sends \"ist\" to the end; \"während\" works too.",
       },
       {
@@ -100,7 +100,7 @@ export const DE_C2_U13_EXTRA: Lesson[] = [
         prompt: "Translate into German, with \"demnach\".",
         source: "According to that, the project will be delayed.",
         answer: "Demnach verzögert sich das Projekt.",
-        altAnswers: ["Demnach wird sich das Projekt verzögern.", "Demnach wird das Projekt verzögert.", "Demzufolge verzögert sich das Projekt."],
+        altAnswers: ["Demnach wird sich das Projekt verzögern.", "Demnach wird das Projekt verzögert."],
         explanation: "\"Demnach\" refers to what was just reported or said.",
       },
       {
@@ -378,7 +378,7 @@ export const DE_C2_U13_EXTRA: Lesson[] = [
           { es: "Es empfiehlt sich, frühzeitig zu buchen.", en: "It's advisable to book early." },
           { es: "Es ist davon auszugehen, dass die Preise weiter steigen.", en: "It can be assumed that prices will keep rising." },
           { es: "Ich gebe zu bedenken, dass wir kaum Zeit haben.", en: "I would point out that we have hardly any time." },
-          { es: "Bei allem Verständnis für Ihre Position: Das geht zu weit.", en: "With all due understanding for your position, that goes too far." },
+          { es: "Bei allem Verständnis für Ihre Position: Das geht zu weit.", en: "For all my sympathy with your position, that goes too far." },
         ],
         checkpoint: [
           {
@@ -450,7 +450,7 @@ export const DE_C2_U13_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Allow me one objection.",
         answer: "Erlauben Sie mir einen Einwand.",
-        altAnswers: ["Gestatten Sie mir einen Einwand.", "Erlauben Sie mir bitte einen Einwand.", "Erlaube mir einen Einwand."],
+        altAnswers: ["Gestatten Sie mir einen Einwand.", "Erlauben Sie mir bitte einen Einwand.", "Erlaube mir einen Einwand.", "Erlaubt mir einen Einwand."],
         explanation: "\"Erlauben\" / \"gestatten\" + dative + accusative: very polite.",
       },
       {
@@ -473,7 +473,7 @@ export const DE_C2_U13_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "With all due understanding, that goes too far.",
+        source: "For all my sympathy, that goes too far.",
         answer: "Bei allem Verständnis: Das geht zu weit.",
         altAnswers: ["Bei allem Verständnis, das geht zu weit.", "Bei allem Verständnis geht das zu weit.", "Bei allem Verständnis: Das geht mir zu weit."],
         explanation: "\"Bei allem Verständnis\" acknowledges before setting a limit.",
@@ -624,7 +624,7 @@ export const DE_C2_U13_EXTRA: Lesson[] = [
         prompt: "Translate into German, with \"zwar ... doch\".",
         source: "Some retailers fear losses, but experience shows the opposite.",
         answer: "Zwar fürchten manche Händler Verluste, doch die Erfahrung zeigt das Gegenteil.",
-        altAnswers: ["Manche Händler fürchten zwar Verluste, doch die Erfahrung zeigt das Gegenteil.", "Zwar befürchten manche Händler Verluste, doch die Erfahrung zeigt das Gegenteil.", "Zwar fürchten einige Händler Verluste, aber die Erfahrung zeigt das Gegenteil.", "Zwar fürchten manche Händler Umsatzeinbußen, doch die Erfahrung zeigt das Gegenteil."],
+        altAnswers: ["Manche Händler fürchten zwar Verluste, doch die Erfahrung zeigt das Gegenteil.", "Zwar befürchten manche Händler Verluste, doch die Erfahrung zeigt das Gegenteil.", "Zwar fürchten manche Händler Umsatzeinbußen, doch die Erfahrung zeigt das Gegenteil."],
         explanation: "\"Zwar\" first (inversion), then \"doch\" (no inversion).",
       },
       {
@@ -731,7 +731,7 @@ export const DE_C2_U13_EXTRA: Lesson[] = [
             prompt: "Translate into German.",
             source: "We can meet you halfway on that.",
             answer: "Da können wir Ihnen entgegenkommen.",
-            altAnswers: ["Da können wir dir entgegenkommen.", "Hier können wir Ihnen entgegenkommen.", "Dabei können wir Ihnen entgegenkommen."],
+            altAnswers: ["Da können wir dir entgegenkommen.", "Da können wir euch entgegenkommen.", "Hier können wir Ihnen entgegenkommen.", "Dabei können wir Ihnen entgegenkommen."],
             explanation: "\"Jemandem entgegenkommen\" (dative) = to meet someone halfway.",
           },
         ],
@@ -753,7 +753,7 @@ export const DE_C2_U13_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Would you be prepared to cover half the costs?",
         answer: "Wären Sie bereit, die Hälfte der Kosten zu übernehmen?",
-        altAnswers: ["Wären Sie bereit, die Hälfte der Kosten zu tragen?", "Wären Sie dazu bereit, die Hälfte der Kosten zu übernehmen?", "Wärst du bereit, die Hälfte der Kosten zu übernehmen?"],
+        altAnswers: ["Wären Sie bereit, die Hälfte der Kosten zu tragen?", "Wären Sie dazu bereit, die Hälfte der Kosten zu übernehmen?", "Wärst du bereit, die Hälfte der Kosten zu übernehmen?", "Wärt ihr bereit, die Hälfte der Kosten zu übernehmen?"],
         explanation: "Konjunktiv II \"wären\" + \"bereit\" + zu-infinitive.",
       },
       {
@@ -942,7 +942,7 @@ export const DE_C2_U13_EXTRA: Lesson[] = [
         prompt: "Translate into academic German, with \"es lässt sich\".",
         source: "It can be stated that the measure has failed.",
         answer: "Es lässt sich feststellen, dass die Maßnahme gescheitert ist.",
-        altAnswers: ["Es lässt sich festhalten, dass die Maßnahme gescheitert ist.", "Es kann festgestellt werden, dass die Maßnahme gescheitert ist.", "Es ist festzustellen, dass die Maßnahme gescheitert ist."],
+        altAnswers: ["Es lässt sich festhalten, dass die Maßnahme gescheitert ist."],
         explanation: "Impersonal \"sich lassen\" + infinitive avoids 'I'.",
       },
       {

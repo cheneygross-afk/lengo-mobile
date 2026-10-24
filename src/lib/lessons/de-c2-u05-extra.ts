@@ -267,7 +267,7 @@ export const DE_C2_U05_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "They live [in the country] like in a picture book.",
+        en: "They live in the [country] like in a picture book.",
         sentence: "Sie leben auf dem ___ wie im Bilderbuch.",
         answer: "Lande",
         altAnswers: ["Land"],

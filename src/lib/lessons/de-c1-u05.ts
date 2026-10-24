@@ -30,7 +30,7 @@ export const DE_C1_U05: Lesson[] = [
         heading: "Every tense of the Vorgangspassiv",
         body: [
           "The German process passive (Vorgangspassiv) is built with \"werden\" + Partizip II, and the tense lives entirely in \"werden\": \"Die Brücke wird gebaut\" (is being built), \"Die Brücke wurde gebaut\" (was built), \"Die Brücke ist gebaut worden\" (has been / was built), \"Die Brücke war gebaut worden\" (had been built), \"Die Brücke wird gebaut werden\" (will be built).",
-          "In the Perfekt and Plusquamperfekt the passive auxiliary takes \"sein\", and its participle is \"worden\", without ge-: \"ist ... worden\", \"war ... worden\". \"Geworden\" is the participle of \"werden\" as a full verb, to become: \"Sie ist Ärztin geworden\" (she became a doctor) vs \"Sie ist befördert worden\" (she was promoted). The form \"*ist gebaut geworden\" is the classic Advanced mistake: two participles with ge- never stand side by side in the passive.",
+          "In the Perfekt and Plusquamperfekt the passive auxiliary takes \"sein\", and its participle is \"worden\", without ge-: \"ist ... worden\", \"war ... worden\". \"Geworden\" is the participle of \"werden\" as a full verb, to become: \"Sie ist Ärztin geworden\" (she became a doctor) vs \"Sie ist befördert worden\" (she was promoted). The form \"*ist gebaut geworden*\" is the classic Advanced mistake: two participles with ge- never stand side by side in the passive.",
           "Which past tense? In news and writing the Präteritum \"wurde gebaut\" dominates; in speech the Perfekt \"ist gebaut worden\" is common, and both are correct in most sentences. The Futur I passive (\"wird gebaut werden\") exists but sounds heavy: Germans normally use the present with a time phrase, \"Die Brücke wird 2028 fertiggestellt\".",
           "English is/was + -ed is ambiguous between process and state (the shop is closed). German separates them: \"wird geschlossen\" is the act of closing, \"ist geschlossen\" the resulting state. This lesson is about the process; the state passive comes later in the unit.",
         ],
@@ -49,7 +49,7 @@ export const DE_C1_U05: Lesson[] = [
             prompt: "Translate into German.",
             source: "The suspect has been arrested.",
             answer: "Der Täter ist festgenommen worden.",
-            altAnswers: ["Der Täter wurde festgenommen.", "Der Verdächtige ist festgenommen worden.", "Der Verdächtige wurde festgenommen.", "Die Täterin ist festgenommen worden.", "Die Verdächtige ist festgenommen worden."],
+            altAnswers: ["Der Täter wurde festgenommen.", "Der Verdächtige ist festgenommen worden.", "Der Verdächtige wurde festgenommen.", "Die Täterin ist festgenommen worden.", "Die Verdächtige ist festgenommen worden.", "Der Tatverdächtige ist festgenommen worden.", "Der Tatverdächtige wurde festgenommen."],
             explanation: "Perfekt passive: \"ist\" + participle + \"worden\". The passive participle is \"worden\", never \"geworden\".",
           },
           {
@@ -76,7 +76,7 @@ export const DE_C1_U05: Lesson[] = [
           "The passive combines with the Konjunktiv in the same way as the active. Konjunktiv II present: \"würde gebaut\" (would be built). Konjunktiv II past: \"wäre gebaut worden\" (would have been built). Konjunktiv I in reported speech, mostly in the news: \"Die Entscheidung sei bereits getroffen worden\" (reportedly, the decision had already been taken).",
           "With a modal verb the passive infinitive is participle + \"werden\": \"Der Antrag muss eingereicht werden\" (must be submitted), \"Das kann nicht geändert werden\". In the past the modal goes into the Präteritum: \"musste eingereicht werden\".",
           "The Advanced form is the modal passive in the past Konjunktiv II, the bread and butter of complaints and post-mortems: \"Die Anwohner hätten früher informiert werden müssen\" (the residents should have been informed earlier). \"Hätte\" is the finite verb, and at the end stands a block of three: participle + \"werden\" + modal infinitive (\"müssen\", \"sollen\", \"können\"), in that order.",
-          "English should have been done / could have been avoided / ought to have been checked all land on this pattern: \"hätte gemacht werden sollen\", \"hätte vermieden werden können\", \"hätte geprüft werden müssen\". Note the modal is an infinitive, not a participle: never \"*hätte informiert werden gemusst\".",
+          "English should have been done / could have been avoided / ought to have been checked all land on this pattern: \"hätte gemacht werden sollen\", \"hätte vermieden werden können\", \"hätte geprüft werden müssen\". Note the modal is an infinitive, not a participle: never \"*hätte informiert werden gemusst*\".",
         ],
         examples: [
           { es: "Ohne den Sturm wäre das Fest nicht abgesagt worden.", en: "Without the storm the festival wouldn't have been cancelled." },
@@ -93,6 +93,7 @@ export const DE_C1_U05: Lesson[] = [
             prompt: "Translate into German.",
             source: "The accident could have been avoided.",
             answer: "Der Unfall hätte vermieden werden können.",
+            altAnswers: ["Der Unfall hätte verhindert werden können."],
             explanation: "Unreal past possibility in the passive: \"hätte\" + participle + \"werden\" + \"können\". The modal stays in the infinitive at the very end.",
           },
           {
@@ -109,7 +110,7 @@ export const DE_C1_U05: Lesson[] = [
         heading: "Word order in subordinate clauses",
         body: [
           "In a subordinate clause the finite verb normally goes last: \"..., dass die Brücke gebaut wird\", \"..., weil der Täter festgenommen worden ist\", \"..., obwohl das Fest abgesagt worden wäre\".",
-          "There is one exception you already know from the double infinitive: when the verb cluster ends in two or more infinitives (\"informiert werden müssen\"), the finite auxiliary \"hätte\" jumps to the front of the whole cluster: \"Ich finde, dass die Anwohner früher hätten informiert werden müssen.\" Not \"*informiert werden müssen hätten\".",
+          "There is one exception you already know from the double infinitive: when the verb cluster ends in two or more infinitives (\"informiert werden müssen\"), the finite auxiliary \"hätte\" jumps to the front of the whole cluster: \"Ich finde, dass die Anwohner früher hätten informiert werden müssen.\" Not \"*informiert werden müssen hätten*\".",
           "The same jump happens with \"werden\" in the future and with \"haben\" in the Perfekt of a modal passive: \"Es ist klar, dass das Gebäude hat geräumt werden müssen\" (rare and formal: most speakers switch to the Präteritum \"geräumt werden musste\"). For everyday writing remember the main Advanced case: \"hätte\" before the three-verb block.",
         ],
         examples: [
@@ -226,7 +227,7 @@ export const DE_C1_U05: Lesson[] = [
         type: "speak",
         text: "Das hätte vermieden werden können.",
         prompt: "Say it in German: That could have been avoided.",
-        tip: "Keep the verb block smooth: ver-MIE-den wer-den KÖN-nen, with the stress on the stems.",
+        tip: "Keep the verb block \"vermieden werden können\" smooth: ver-MIE-den wer-den KÖN-nen, with the stress on the stems.",
         explanation: "The standard complaint formula: \"hätte\" + participle + \"werden können\".",
       },
     ],
@@ -278,7 +279,7 @@ export const DE_C1_U05: Lesson[] = [
         heading: "Es only in position 1",
         body: [
           "German main clauses need something in position 1 before the verb. If the subjectless passive has nothing else to put there, the placeholder \"es\" fills the gap: \"Es wurde getanzt.\" \"Es wird gebeten, nicht zu rauchen.\"",
-          "This \"es\" is a pure Vorfeld filler. It is not a subject and it disappears as soon as anything else takes position 1, or in a subordinate clause: \"Gestern wurde getanzt\", \"Lange wurde diskutiert\", \"..., weil getanzt wurde\". Writing \"*Gestern wurde es getanzt\" or \"*Hier wird es nicht geraucht\" is a typical learner error.",
+          "This \"es\" is a pure Vorfeld filler. It is not a subject and it disappears as soon as anything else takes position 1, or in a subordinate clause: \"Gestern wurde getanzt\", \"Lange wurde diskutiert\", \"..., weil getanzt wurde\". Writing \"*Gestern wurde es getanzt*\" or \"*Hier wird es nicht geraucht*\" is a typical learner error.",
           "The same filler appears with real subjects pushed to the end for effect: \"Es wurden zwei Personen verletzt\" (two people were injured). Here the verb agrees with the real subject (\"wurden\", plural), and again \"es\" vanishes if something else goes first: \"Bei dem Unfall wurden zwei Personen verletzt.\"",
         ],
         examples: [
@@ -320,7 +321,7 @@ export const DE_C1_U05: Lesson[] = [
         heading: "Mir wurde geholfen: the dative stays",
         body: [
           "Only an accusative object can become the subject of a passive. Verbs that take a dative (helfen, danken, gratulieren, folgen, widersprechen, antworten, kündigen, raten, vertrauen) keep their dative in the passive, and the sentence stays subjectless: \"Man hat mir geholfen\" → \"Mir wurde geholfen\" / \"Mir ist geholfen worden\".",
-          "This is where English trips learners up: English happily says I was helped, I was told, I was advised, I was given. German cannot make \"ich\" the subject: \"*Ich wurde geholfen\" is wrong. Keep the dative and leave the verb in the singular: \"Mir wurde geholfen\", \"Ihnen wird gratuliert\", \"Uns wurde gekündigt\" (we were given notice).",
+          "This is where English trips learners up: English happily says I was helped, I was told, I was advised, I was given. German cannot make \"ich\" the subject: \"*Ich wurde geholfen*\" is wrong. Keep the dative and leave the verb in the singular: \"Mir wurde geholfen\", \"Ihnen wird gratuliert\", \"Uns wurde gekündigt\" (we were given notice).",
           "Verbs with a dative person and an accusative thing (sagen, geben, schicken, empfehlen, mitteilen) make the thing the subject: \"Mir wurde gesagt, dass...\" (I was told that...; the dass-clause is the subject), \"Mir wurde ein Platz am Fenster angeboten\" (I was offered a window seat), \"Uns wurden neue Termine vorgeschlagen\" (plural verb: the dates are the subject).",
         ],
         examples: [
@@ -339,7 +340,7 @@ export const DE_C1_U05: Lesson[] = [
             source: "I was told that the train was cancelled.",
             answer: "Mir wurde gesagt, dass der Zug ausfällt.",
             altAnswers: ["Mir wurde gesagt, dass der Zug ausgefallen ist.", "Mir wurde gesagt, der Zug falle aus.", "Mir wurde gesagt, dass der Zug ausfalle.", "Mir ist gesagt worden, dass der Zug ausfällt.", "Mir wurde gesagt, dass der Zug gestrichen wurde.", "Mir wurde gesagt, der Zug sei ausgefallen."],
-            explanation: "\"Sagen\" takes a dative person: \"mir wurde gesagt\", never \"*ich wurde gesagt\". The dass-clause is the real subject.",
+            explanation: "\"Sagen\" takes a dative person: \"mir wurde gesagt\", never \"*ich wurde gesagt*\". The dass-clause is the real subject.",
           },
           {
             type: "translate",
@@ -379,7 +380,7 @@ export const DE_C1_U05: Lesson[] = [
         source: "I was advised to wait.",
         answer: "Mir wurde geraten zu warten.",
         altAnswers: ["Mir wurde geraten, zu warten.", "Mir ist geraten worden zu warten.", "Mir ist geraten worden, zu warten.", "Man hat mir geraten zu warten."],
-        explanation: "\"Raten\" takes the dative: \"mir wurde geraten\". English I was advised cannot become \"*ich wurde geraten\".",
+        explanation: "\"Raten\" takes the dative: \"mir wurde geraten\". English I was advised cannot become \"*ich wurde geraten*\".",
       },
       {
         type: "translate",
@@ -388,7 +389,7 @@ export const DE_C1_U05: Lesson[] = [
         source: "She was congratulated by the whole team.",
         answer: "Ihr wurde vom ganzen Team gratuliert.",
         altAnswers: ["Ihr ist vom ganzen Team gratuliert worden.", "Vom ganzen Team wurde ihr gratuliert."],
-        explanation: "\"Gratulieren\" + dative: \"ihr wurde gratuliert\", not \"*sie wurde gratuliert\".",
+        explanation: "\"Gratulieren\" + dative: \"ihr wurde gratuliert\", not \"*sie wurde gratuliert*\".",
       },
       {
         type: "fill-blank",
@@ -535,7 +536,7 @@ export const DE_C1_U05: Lesson[] = [
         body: [
           "Each tool carries tense differently. Passive: \"Der Fehler konnte korrigiert werden\". Man: \"Man konnte den Fehler korrigieren\". Sich lassen: \"Der Fehler ließ sich korrigieren\" (Präteritum of \"lassen\"; Perfekt \"hat sich korrigieren lassen\" with the double infinitive). Sein + zu: \"Der Fehler war zu korrigieren\". -bar: \"Der Fehler war korrigierbar\".",
           "Negation goes in naturally: \"lässt sich nicht öffnen\", \"ist nicht zu ändern\", \"ist unlesbar\" or \"ist nicht lesbar\". For possibility in the negative, sein + zu and the un- adjective are very idiomatic: \"Der Lärm war nicht auszuhalten\" / \"unerträglich\" (unbearable).",
-          "Not every verb has a -bar adjective (\"*hilfbar\", \"*gehbar\" don't exist), and some -bar words mean something special (\"fruchtbar\" = fertile, \"furchtbar\" = terrible). When in doubt, sich lassen is the safe choice for possibility.",
+          "Not every verb has a -bar adjective (\"*hilfbar*\", \"*gehbar*\" don't exist), and some -bar words mean something special (\"fruchtbar\" = fertile, \"furchtbar\" = terrible). When in doubt, sich lassen is the safe choice for possibility.",
         ],
         examples: [
           { es: "Das Problem ließ sich schnell lösen.", en: "The problem could be solved quickly." },
@@ -668,14 +669,14 @@ export const DE_C1_U05: Lesson[] = [
     level: "DE-C1",
     number: 4,
     title: "Error Hunt: Passive Pitfalls",
-    summary: "Find and fix the passive mistakes English speakers make: \"*Ich wurde gesagt\", a stray \"es\", \"*gebaut geworden\", \"von\" vs \"durch\" and the agent tacked on at the end.",
+    summary: "Find and fix the passive mistakes English speakers make: \"*Ich wurde gesagt*\", a stray \"es\", \"*gebaut geworden*\", \"von\" vs \"durch\" and the agent tacked on at the end.",
     duration: "16 min",
     sections: [
       {
-        heading: "Error 1: \"*Ich wurde gesagt\"",
+        heading: "Error 1: \"*Ich wurde gesagt*\"",
         body: [
-          "Ayşe writes to her landlord: \"*Ich wurde gesagt, dass die Heizung repariert wird.\" The English I was told is the culprit. \"Sagen\" takes a dative person (\"jemandem etwas sagen\"), and a dative never becomes the subject of a passive. Correct: \"Mir wurde gesagt, dass die Heizung repariert wird.\"",
-          "The same mistake appears with every dative verb: \"*Ich wurde geholfen\" → \"Mir wurde geholfen\"; \"*Wir wurden gekündigt\" → \"Uns wurde gekündigt\"; \"*Er wurde gratuliert\" → \"Ihm wurde gratuliert\"; \"*Sie wurde ein Job angeboten\" → \"Ihr wurde ein Job angeboten\".",
+          "Ayşe writes to her landlord: \"*Ich wurde gesagt, dass die Heizung repariert wird.*\" The English I was told is the culprit. \"Sagen\" takes a dative person (\"jemandem etwas sagen\"), and a dative never becomes the subject of a passive. Correct: \"Mir wurde gesagt, dass die Heizung repariert wird.\"",
+          "The same mistake appears with every dative verb: \"*Ich wurde geholfen*\" → \"Mir wurde geholfen\"; \"*Wir wurden gekündigt*\" → \"Uns wurde gekündigt\"; \"*Er wurde gratuliert*\" → \"Ihm wurde gratuliert\"; \"*Sie wurde ein Job angeboten*\" → \"Ihr wurde ein Job angeboten\".",
           "Quick test: put the sentence back into the active. If the person is \"mir / dir / ihm / ihr / uns / Ihnen\" there (\"Man hat mir gesagt\"), it stays dative in the passive. In speech \"man\" is often the simplest repair: \"Man hat mir gesagt, dass...\"",
         ],
         examples: [
@@ -689,15 +690,15 @@ export const DE_C1_U05: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"*Ich wurde nicht geantwortet.\" Write the correct German for: I wasn't given an answer.",
+            prompt: "A learner wrote \"*Ich wurde nicht geantwortet.*\" Write the correct German for: I wasn't given an answer.",
             source: "I wasn't given an answer.",
             answer: "Mir wurde nicht geantwortet.",
-            altAnswers: ["Mir ist nicht geantwortet worden.", "Man hat mir nicht geantwortet.", "Ich habe keine Antwort bekommen.", "Ich habe keine Antwort erhalten."],
+            altAnswers: ["Mir ist nicht geantwortet worden.", "Man hat mir nicht geantwortet.", "Ich habe keine Antwort bekommen.", "Ich habe keine Antwort erhalten.", "Mir wurde keine Antwort gegeben."],
             explanation: "\"Antworten\" takes the dative (\"jemandem antworten\"), so the passive is \"Mir wurde nicht geantwortet\". \"Ich habe keine Antwort bekommen\" avoids the problem.",
           },
           {
             type: "fill-blank",
-            prompt: "Fix the error: \"*Sie wurde ein neuer Vertrag angeboten.\" Write the German for the bold words.",
+            prompt: "Fix the error: \"*Sie wurde ein neuer Vertrag angeboten.*\" Write the German for the bold words.",
             en: "[She was offered] a new contract.",
             sentence: "___ ein neuer Vertrag angeboten.",
             answer: "Ihr wurde",
@@ -708,9 +709,9 @@ export const DE_C1_U05: Lesson[] = [
       {
         heading: "Error 2: a stray es and a double ge-",
         body: [
-          "Jonas posts in the house chat: \"*Ab heute wird es im Treppenhaus nicht mehr geraucht.\" The placeholder \"es\" is only there to fill an empty position 1. Here \"Ab heute\" already fills it, so \"es\" must go: \"Ab heute wird im Treppenhaus nicht mehr geraucht.\" Equally wrong in a subordinate clause: \"*..., weil es gestern gefeiert wurde\" → \"..., weil gestern gefeiert wurde\".",
-          "Mehmet writes about his town: \"*Das Schwimmbad ist 1975 gebaut geworden.\" \"Geworden\" is the participle of \"werden\" = to become. The passive auxiliary has its own participle, \"worden\": \"Das Schwimmbad ist 1975 gebaut worden\" (or \"wurde 1975 gebaut\").",
-          "A related slip: using \"haben\" as the auxiliary (\"*Das Paket hat zugestellt worden\"). The passive Perfekt always uses \"sein\", because \"werden\" does: \"Das Paket ist zugestellt worden\".",
+          "Jonas posts in the house chat: \"*Ab heute wird es im Treppenhaus nicht mehr geraucht.*\" The placeholder \"es\" is only there to fill an empty position 1. Here \"Ab heute\" already fills it, so \"es\" must go: \"Ab heute wird im Treppenhaus nicht mehr geraucht.\" Equally wrong in a subordinate clause: \"*..., weil es gestern gefeiert wurde*\" → \"..., weil gestern gefeiert wurde\".",
+          "Mehmet writes about his town: \"*Das Schwimmbad ist 1975 gebaut geworden.*\" \"Geworden\" is the participle of \"werden\" = to become. The passive auxiliary has its own participle, \"worden\": \"Das Schwimmbad ist 1975 gebaut worden\" (or \"wurde 1975 gebaut\").",
+          "A related slip: using \"haben\" as the auxiliary (\"*Das Paket hat zugestellt worden*\"). The passive Perfekt always uses \"sein\", because \"werden\" does: \"Das Paket ist zugestellt worden\".",
         ],
         examples: [
           { es: "Ab heute wird im Treppenhaus nicht mehr geraucht.", en: "From today there's no more smoking in the stairwell." },
@@ -723,7 +724,7 @@ export const DE_C1_U05: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix \"*Die Straße ist gestern gesperrt geworden.\" Translate into German: The road was closed yesterday.",
+            prompt: "Fix \"*Die Straße ist gestern gesperrt geworden.*\" Translate into German: The road was closed yesterday.",
             source: "The road was closed yesterday.",
             answer: "Die Straße ist gestern gesperrt worden.",
             altAnswers: ["Die Straße wurde gestern gesperrt.", "Gestern wurde die Straße gesperrt.", "Gestern ist die Straße gesperrt worden."],
@@ -731,7 +732,7 @@ export const DE_C1_U05: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which correction of \"*In der Bibliothek wird es nicht gegessen\" is right?",
+            question: "Which correction of \"*In der Bibliothek wird es nicht gegessen*\" is right?",
             options: ["In der Bibliothek wird nicht gegessen.", "In der Bibliothek es wird nicht gegessen.", "Es wird in der Bibliothek es nicht gegessen.", "In der Bibliothek wird es nicht essen."],
             correctIndex: 0,
             explanation: "\"In der Bibliothek\" fills position 1, so the placeholder \"es\" disappears.",
@@ -742,7 +743,7 @@ export const DE_C1_U05: Lesson[] = [
         heading: "Error 3: von, durch and the afterthought agent",
         body: [
           "When the agent is mentioned, \"von\" + dative introduces the doer, usually a person or institution acting deliberately: \"von der Polizei festgenommen\", \"von meinem Opa gebaut\". \"Durch\" + accusative introduces the means, the cause or an intermediary: \"durch einen Boten zugestellt\" (by a courier, on someone's behalf), \"durch Impfungen verhindert\". With natural forces and events both occur, but writing prefers \"durch\": \"durch den Sturm zerstört\", \"durch das Feuer beschädigt\".",
-          "A typical error is the English-style afterthought: \"*Das Haus wurde gebaut von meinem Opa.\" In German the participle closes the sentence bracket, so the agent goes inside it, in the middle field: \"Das Haus wurde von meinem Opa gebaut.\" Placing \"von...\" after the participle sounds like a spoken afterthought, not written German.",
+          "A typical error is the English-style afterthought: \"*Das Haus wurde gebaut von meinem Opa.*\" In German the participle closes the sentence bracket, so the agent goes inside it, in the middle field: \"Das Haus wurde von meinem Opa gebaut.\" Placing \"von...\" after the participle sounds like a spoken afterthought, not written German.",
           "Finally, overuse: if the agent is important and known, the active is usually better German. \"Das Haus wurde von meinem Opa gebaut\" is fine for emphasis on the house; \"Mein Opa hat das Haus gebaut\" is the natural answer to Who built it?",
         ],
         examples: [
@@ -784,7 +785,7 @@ export const DE_C1_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*Ich wurde geholfen.\" Translate into German: I was helped by a colleague.",
+        prompt: "Fix \"*Ich wurde geholfen.*\" Translate into German: I was helped by a colleague.",
         source: "I was helped by a colleague.",
         answer: "Mir wurde von einem Kollegen geholfen.",
         altAnswers: ["Mir wurde von einer Kollegin geholfen.", "Mir ist von einem Kollegen geholfen worden.", "Mir ist von einer Kollegin geholfen worden.", "Ein Kollege hat mir geholfen.", "Eine Kollegin hat mir geholfen."],
@@ -793,7 +794,7 @@ export const DE_C1_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*Wir wurden gratuliert.\" Translate into German: We were congratulated.",
+        prompt: "Fix \"*Wir wurden gratuliert.*\" Translate into German: We were congratulated.",
         source: "We were congratulated.",
         answer: "Uns wurde gratuliert.",
         altAnswers: ["Uns ist gratuliert worden.", "Man hat uns gratuliert."],
@@ -802,7 +803,7 @@ export const DE_C1_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*Der Film ist 2019 gedreht geworden.\" Translate into German: The film was shot in 2019.",
+        prompt: "Fix \"*Der Film ist 2019 gedreht geworden.*\" Translate into German: The film was shot in 2019.",
         source: "The film was shot in 2019.",
         answer: "Der Film ist 2019 gedreht worden.",
         altAnswers: ["Der Film wurde 2019 gedreht.", "Der Film wurde im Jahr 2019 gedreht.", "Der Film ist im Jahr 2019 gedreht worden."],
@@ -811,16 +812,16 @@ export const DE_C1_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*Nach dem Essen wurde es getanzt.\" Translate into German: After dinner there was dancing.",
+        prompt: "Fix \"*Nach dem Essen wurde es getanzt.*\" Translate into German: After dinner there was dancing.",
         source: "After dinner there was dancing.",
         answer: "Nach dem Essen wurde getanzt.",
-        altAnswers: ["Nach dem Essen ist getanzt worden.", "Nach dem Abendessen wurde getanzt."],
+        altAnswers: ["Nach dem Essen ist getanzt worden.", "Nach dem Abendessen wurde getanzt.", "Es wurde nach dem Essen getanzt."],
         explanation: "\"Nach dem Essen\" fills position 1, so the placeholder \"es\" disappears.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*Die Rede wurde gehalten vom Kanzler.\" Translate into German: The speech was given by the chancellor.",
+        prompt: "Fix \"*Die Rede wurde gehalten vom Kanzler.*\" Translate into German: The speech was given by the chancellor.",
         source: "The speech was given by the chancellor.",
         answer: "Die Rede wurde vom Kanzler gehalten.",
         altAnswers: ["Die Rede wurde von der Kanzlerin gehalten.", "Die Rede ist vom Kanzler gehalten worden.", "Die Rede ist von der Kanzlerin gehalten worden.", "Die Rede wurde vom Bundeskanzler gehalten."],
@@ -828,7 +829,7 @@ export const DE_C1_U05: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Fix \"*Ich wurde ein Platz am Fenster gegeben.\" Write the German for the bold words.",
+        prompt: "Fix \"*Ich wurde ein Platz am Fenster gegeben.*\" Write the German for the bold words.",
         en: "[I was given] a window seat.",
         sentence: "___ ein Platz am Fenster gegeben.",
         answer: "Mir wurde",
@@ -836,7 +837,7 @@ export const DE_C1_U05: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Fix \"*Das Paket hat zugestellt worden.\" Write the German for the bold words.",
+        prompt: "Fix \"*Das Paket hat zugestellt worden.*\" Write the German for the bold words.",
         en: "The parcel [has been delivered].",
         sentence: "Das Paket ___.",
         answer: "ist zugestellt worden",
@@ -853,7 +854,7 @@ export const DE_C1_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*Ich wurde erzählt, dass...\" Translate into German: I was told that the shop is closing.",
+        prompt: "Fix \"*Ich wurde erzählt, dass...*\" Translate into German: I was told that the shop is closing.",
         source: "I was told that the shop is closing.",
         answer: "Mir wurde erzählt, dass der Laden schließt.",
         altAnswers: ["Mir wurde gesagt, dass der Laden schließt.", "Mir wurde erzählt, dass das Geschäft schließt.", "Mir wurde gesagt, dass das Geschäft schließt.", "Man hat mir gesagt, dass der Laden schließt.", "Man hat mir erzählt, dass der Laden schließt.", "Mir wurde gesagt, dass der Laden zumacht."],
@@ -921,7 +922,7 @@ export const DE_C1_U05: Lesson[] = [
         body: [
           "In everyday speech \"kriegen\" replaces \"bekommen\": \"Ich krieg die Haare geschnitten\", \"Sie hat die Rechnung erstattet gekriegt\". It is informal; in writing use \"bekommen\" or, in very formal texts, \"erhalten\" (\"Die Teilnehmer erhalten die Unterlagen zugesandt\").",
           "Why use it? It keeps the person in the subject position, which is where German, like English, prefers to put the human being the sentence is about. Compare \"Mir wurde gekündigt\" (dative, subjectless) with the colloquial \"Ich hab gekündigt gekriegt\" (I got fired). The second sounds personal and spoken.",
-          "Don't overuse it with verbs where the receiver is not really getting anything: it fits giving, sending, explaining, paying, taking away. \"*Ich bekomme geholfen\" is heard in speech but not accepted in writing; stick to \"Mir wird geholfen\".",
+          "Don't overuse it with verbs where the receiver is not really getting anything: it fits giving, sending, explaining, paying, taking away. \"*Ich bekomme geholfen*\" is heard in speech but not accepted in writing; stick to \"Mir wird geholfen\".",
         ],
         examples: [
           { es: "Ich krieg morgen die Haare geschnitten.", en: "I'm getting my hair cut tomorrow." },
@@ -945,7 +946,7 @@ export const DE_C1_U05: Lesson[] = [
             question: "Which version suits a formal letter to conference participants?",
             options: ["Sie erhalten die Unterlagen rechtzeitig zugesandt.", "Sie kriegen die Unterlagen rechtzeitig zugeschickt.", "Sie werden die Unterlagen rechtzeitig zugesandt.", "Ihnen kriegen die Unterlagen rechtzeitig zugesandt."],
             correctIndex: 0,
-            explanation: "\"Erhalten\" + participle is the formal recipient passive. \"Kriegen\" is colloquial; \"*Sie werden die Unterlagen zugesandt\" mixes up the two passives.",
+            explanation: "\"Erhalten\" + participle is the formal recipient passive. \"Kriegen\" is colloquial; \"*Sie werden die Unterlagen zugesandt*\" mixes up the two passives.",
           },
         ],
       },
@@ -1051,6 +1052,7 @@ export const DE_C1_U05: Lesson[] = [
         prompt: "Put the words in order to say: Every guest was poured a glass of sparkling wine.",
         words: ["Jeder Gast", "bekam", "ein Glas Sekt", "eingeschenkt."],
         translation: "Every guest was poured a glass of sparkling wine.",
+        altOrders: [["Ein Glas Sekt", "bekam", "jeder Gast", "eingeschenkt."]],
         explanation: "Recipient passive in the Präteritum: \"bekam\" second, \"eingeschenkt\" last.",
       },
       {
@@ -1087,7 +1089,7 @@ export const DE_C1_U05: Lesson[] = [
       {
         heading: "Es handelt sich um, es geht um",
         body: [
-          "\"Es handelt sich um\" + accusative means it is / this is a matter of / we are dealing with. Its subject is always \"es\", which is why \"*Das Buch handelt sich um eine Familie\" is wrong. Books and films use a different verb: \"Das Buch handelt von einer Familie\" (is about a family). With \"es handelt sich um\" you classify or identify something: \"Bei dem Täter handelt es sich um einen 30-jährigen Mann\" (the suspect is a 30-year-old man), \"Es handelt sich um ein Missverständnis\".",
+          "\"Es handelt sich um\" + accusative means it is / this is a matter of / we are dealing with. Its subject is always \"es\", which is why \"*Das Buch handelt sich um eine Familie*\" is wrong. Books and films use a different verb: \"Das Buch handelt von einer Familie\" (is about a family). With \"es handelt sich um\" you classify or identify something: \"Bei dem Täter handelt es sich um einen 30-jährigen Mann\" (the suspect is a 30-year-old man), \"Es handelt sich um ein Missverständnis\".",
           "\"Es geht um\" + accusative is the everyday it's about / what matters is: \"Worum geht es?\" (What's it about?), \"In dem Film geht es um eine Familie\", \"Es geht um viel Geld\", \"Mir geht es nur um die Sache\" (all I care about is the issue).",
           "Notice the structure \"Bei X handelt es sich um Y\" and \"In X geht es um Y\": the thing being described goes into a prepositional phrase, and \"es\" stays the grammatical subject. English this is / the book is about become very different sentences.",
         ],
@@ -1122,7 +1124,7 @@ export const DE_C1_U05: Lesson[] = [
         heading: "Es kommt auf...an, es fehlt an, es bedarf",
         body: [
           "\"Es kommt auf\" + accusative + \"an\" = it depends on / what matters is: \"Es kommt auf das Wetter an\", \"Es kommt darauf an, ob...\" (it depends whether...), and the short answer \"Kommt drauf an\" (depends). With a focus word: \"Es kommt vor allem auf die Qualität an\" (what matters most is quality).",
-          "\"Es fehlt an\" + dative and the formal \"es mangelt an\" + dative = there is a lack of: \"Es fehlt an Lehrern\", \"Es mangelt an Geld\". Learners often write \"*Es fehlen Lehrer an\". Compare the personal verb: \"Uns fehlen Lehrer\" (we lack teachers) is also correct, without \"an\".",
+          "\"Es fehlt an\" + dative and the formal \"es mangelt an\" + dative = there is a lack of: \"Es fehlt an Lehrern\", \"Es mangelt an Geld\". Learners often write \"*Es fehlen Lehrer an*\". Compare the personal verb: \"Uns fehlen Lehrer\" (we lack teachers) is also correct, without \"an\".",
           "\"Es bedarf\" + genitive is very formal: there is a need for / it requires: \"Es bedarf einer gründlichen Prüfung\", \"Dazu bedarf es keiner Erklärung\" (no explanation is needed). You'll meet it in official and academic texts; in conversation say \"Man braucht...\".",
         ],
         examples: [
@@ -1157,7 +1159,7 @@ export const DE_C1_U05: Lesson[] = [
       {
         heading: "Es heißt, es gilt, es lohnt sich, es empfiehlt sich",
         body: [
-          "\"Es heißt\" means it is said / they say, or (in a text) it says: \"Es heißt, die Firma werde verkauft\", \"In dem Brief heißt es, ...\" (the letter says...). English the letter says is not \"*der Brief sagt\" in good German.",
+          "\"Es heißt\" means it is said / they say, or (in a text) it says: \"Es heißt, die Firma werde verkauft\", \"In dem Brief heißt es, ...\" (the letter says...). English the letter says is not \"*der Brief sagt*\" in good German.",
           "\"Es gilt, ... zu\" + infinitive is formal: the task is to / it is important to: \"Jetzt gilt es, Ruhe zu bewahren\" (now it's a matter of keeping calm). \"Es lohnt sich (, ... zu)\" = it's worth it: \"Es lohnt sich, früh zu buchen\". \"Es empfiehlt sich (, ... zu)\" = it's advisable: \"Es empfiehlt sich, eine Jacke mitzunehmen\".",
           "Two kinds of \"es\" meet here. In \"es handelt sich\", \"es fehlt an\", \"es gilt\" the \"es\" is the real, obligatory subject and stays everywhere: \"..., weil es sich um einen Fehler handelt\". In \"Es ist wichtig, pünktlich zu sein\" or \"Es freut mich, dass du kommst\" the \"es\" is a Korrelat, a stand-in for the clause that follows; it often disappears when the clause comes first (\"Dass du kommst, freut mich\") or when something else is in position 1 (\"Mich freut, dass du kommst\"). And the subjectless passive's placeholder \"es\" disappears whenever position 1 is taken.",
         ],
@@ -1213,7 +1215,7 @@ export const DE_C1_U05: Lesson[] = [
         source: "What is the film about?",
         answer: "Worum geht es in dem Film?",
         altAnswers: ["Worum geht es im Film?", "Wovon handelt der Film?", "Worum geht's in dem Film?", "Worum geht's im Film?"],
-        explanation: "\"In dem Film geht es um...\", or \"Der Film handelt von...\"; not \"*Worum handelt sich der Film?\".",
+        explanation: "\"In dem Film geht es um...\", or \"Der Film handelt von...\"; not \"*Worum handelt sich der Film?*\".",
       },
       {
         type: "translate",
@@ -1256,7 +1258,7 @@ export const DE_C1_U05: Lesson[] = [
         prompt: "Translate into German.",
         source: "It's advisable to book a table.",
         answer: "Es empfiehlt sich, einen Tisch zu reservieren.",
-        altAnswers: ["Es empfiehlt sich, einen Tisch zu bestellen."],
+        altAnswers: ["Es empfiehlt sich, einen Tisch zu bestellen.", "Es empfiehlt sich, einen Tisch zu buchen."],
         explanation: "\"Es empfiehlt sich\" + zu-infinitive, typical of guidebooks and official advice.",
       },
       {
@@ -1366,7 +1368,7 @@ export const DE_C1_U05: Lesson[] = [
             en: "The bridge [has been closed since March].",
             sentence: "Die Brücke ___.",
             answer: "ist seit März gesperrt",
-            explanation: "With \"seit\" German uses the present: a state that still holds, \"ist ... gesperrt\". Not \"*ist seit März gesperrt worden\".",
+            explanation: "With \"seit\" German uses the present: a state that still holds, \"ist ... gesperrt\". Not \"*ist seit März gesperrt worden*\".",
           },
         ],
       },
@@ -1697,7 +1699,7 @@ export const DE_C1_U05: Lesson[] = [
         type: "speak",
         text: "Die Stadt bittet um Verständnis für die Beeinträchtigungen.",
         prompt: "Read the closing line of your press release aloud: The city apologises for the disruption.",
-        tip: "Beeinträchtigungen: be-EIN-träch-ti-gun-gen, with the stress on EIN and two soft ch sounds.",
+        tip: "Beeinträchtigungen: be-EIN-träch-ti-gun-gen, with the stress on EIN and a soft ch in \"träch\".",
         explanation: "The standard closing formula of a German Pressemitteilung.",
       },
     ],
@@ -1714,7 +1716,7 @@ export const DE_C1_U05: Lesson[] = [
         heading: "Man, einem, einen",
         body: [
           "\"Man\" is a nominative only. When the generic one / you is an object, German uses \"einem\" (dative) and \"einen\" (accusative): \"Das kann einem passieren\" (that can happen to anyone), \"Das freut einen\" (that makes you happy), \"Hier hilft einem niemand\" (nobody helps you here).",
-          "Keep it consistent: after \"man\", German doesn't switch to \"er\" or \"du\" in the same sentence. Not \"*Wenn man müde ist, sollte er schlafen\" but \"Wenn man müde ist, sollte man schlafen\". The possessive is \"sein\": \"Man muss seinen Ausweis mitbringen\". The reflexive is \"sich\": \"Man gewöhnt sich an alles\".",
+          "Keep it consistent: after \"man\", German doesn't switch to \"er\" or \"du\" in the same sentence. Not \"*Wenn man müde ist, sollte er schlafen*\" but \"Wenn man müde ist, sollte man schlafen\". The possessive is \"sein\": \"Man muss seinen Ausweis mitbringen\". The reflexive is \"sich\": \"Man gewöhnt sich an alles\".",
           "In relaxed speech, generic \"du\" is spreading, as in English: \"Da kannst du nichts machen\", \"Wenn du in Berlin wohnst, brauchst du kein Auto\". It's fine in conversation; in writing stick to \"man\".",
         ],
         examples: [
@@ -1784,7 +1786,7 @@ export const DE_C1_U05: Lesson[] = [
         heading: "Mir ist kalt: the experiencer in the dative",
         body: [
           "For physical and emotional states German puts the person who feels in the dative: \"Mir ist kalt\" (I'm cold), \"Mir ist schlecht\" (I feel sick), \"Ihm ist schwindlig\" (he's dizzy), \"Uns ist langweilig\" (we're bored), \"Ist dir warm genug?\".",
-          "This is the trap: \"*Ich bin kalt\" says something about your personality (I'm a cold person), and \"*Ich bin langweilig\" means I'm boring. \"Ich bin heiß\" is worse still. Feelings go in the dative: \"Mir ist heiß\".",
+          "This is the trap: \"*Ich bin kalt*\" says something about your personality (I'm a cold person), and \"*Ich bin langweilig*\" means I'm boring. \"Ich bin heiß\" is worse still. Feelings go in the dative: \"Mir ist heiß\".",
           "Some literary and dated verbs work the same way: \"Mir graut vor der Prüfung\" (I dread the exam), \"Mir schwindelt\" (I feel dizzy), \"Mich friert\" (I'm freezing, old-fashioned; today \"Ich friere\"). And \"Mir ist nach...\" means I feel like: \"Mir ist heute nicht nach Feiern\" (I'm not in the mood for partying today).",
         ],
         examples: [
@@ -1803,7 +1805,7 @@ export const DE_C1_U05: Lesson[] = [
             source: "The children are bored.",
             answer: "Den Kindern ist langweilig.",
             altAnswers: ["Die Kinder langweilen sich."],
-            explanation: "Experiencer in the dative: \"Den Kindern ist langweilig\". \"*Die Kinder sind langweilig\" would mean they are boring.",
+            explanation: "Experiencer in the dative: \"Den Kindern ist langweilig\". \"*Die Kinder sind langweilig*\" would mean they are boring.",
           },
           {
             type: "multiple-choice",
@@ -1831,7 +1833,7 @@ export const DE_C1_U05: Lesson[] = [
         prompt: "Translate into German.",
         source: "Are you warm enough? (to a friend)",
         answer: "Ist dir warm genug?",
-        altAnswers: ["Ist es dir warm genug?"],
+        altAnswers: ["Ist es dir warm genug?", "Hast du es warm genug?"],
         explanation: "The person who feels warm is dative: \"dir\".",
       },
       {
@@ -1903,7 +1905,7 @@ export const DE_C1_U05: Lesson[] = [
         text: "Mir ist schlecht.",
         prompt: "Say it in German: I feel sick.",
         tip: "The ch in \"schlecht\" is the soft ich-sound, not the throaty ach-sound.",
-        explanation: "Dative experiencer: \"mir ist schlecht\", never \"*ich bin schlecht\".",
+        explanation: "Dative experiencer: \"mir ist schlecht\", never \"*ich bin schlecht*\".",
       },
     ],
   },
@@ -1955,7 +1957,7 @@ export const DE_C1_U05: Lesson[] = [
         body: [
           "A middle construction makes the object of a verb into its subject, adds \"sich\" and (almost always) an adverb of manner: \"Man liest das Buch leicht\" → \"Das Buch liest sich leicht\" (the book is an easy read). English does the same with some verbs: the book reads well, this shirt washes easily.",
           "It describes a property of the thing, not an event: \"Der Wein trinkt sich gut\" (the wine is very drinkable), \"Der Stoff lässt sich gut waschen\" / \"wäscht sich gut\", \"Das Auto fährt sich wie ein Sportwagen\" (drives like a sports car), \"Die Wohnung vermietet sich bestimmt schnell\" (will let quickly).",
-          "Don't confuse it with sich lassen, which states possibility (\"Das Buch lässt sich gut lesen\": can be read well; close in meaning), or with the real reflexive anticausative (\"Die Tür öffnet sich\": the door opens by itself). The middle needs that adverb: \"*Das Buch liest sich\" alone is not a sentence.",
+          "Don't confuse it with sich lassen, which states possibility (\"Das Buch lässt sich gut lesen\": can be read well; close in meaning), or with the real reflexive anticausative (\"Die Tür öffnet sich\": the door opens by itself). The middle needs that adverb: \"*Das Buch liest sich*\" alone is not a sentence.",
         ],
         examples: [
           { es: "Der Roman liest sich wie ein Krimi.", en: "The novel reads like a thriller." },

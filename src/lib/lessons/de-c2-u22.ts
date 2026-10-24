@@ -432,7 +432,7 @@ export const DE_C2_U22: Lesson[] = [
           { es: "Ich habe eine Ausbildung zur Bankkauffrau gemacht.", en: "I trained as a bank clerk. (a woman)" },
           { es: "Während der Ausbildung war ich drei Tage im Betrieb und zwei Tage in der Berufsschule.", en: "During my training I spent three days a week in the company and two at vocational school." },
           { es: "Die Abschlussprüfung habe ich vor der IHK abgelegt.", en: "I took the final exam before the Chamber of Industry and Commerce." },
-          { es: "Mein Bruder hat 2023 seinen Meisterbrief im Tischlerhandwerk gemacht.", en: "My brother got his master craftsman's certificate in carpentry in 2023." },
+          { es: "Mein Bruder hat 2023 seinen Meister im Tischlerhandwerk gemacht.", en: "My brother got his master craftsman's certificate in carpentry in 2023." },
           { es: "Wir bilden jedes Jahr vier Auszubildende aus.", en: "We train four apprentices every year." },
           { es: "Das duale System verbindet Theorie und Praxis.", en: "The dual system combines theory and practice." },
         ],
@@ -580,8 +580,8 @@ export const DE_C2_U22: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into German.",
         source: "He got his master craftsman's certificate last year.",
-        answer: "Er hat letztes Jahr seinen Meisterbrief gemacht.",
-        altAnswers: ["Er hat letztes Jahr seinen Meister gemacht.", "Er hat im letzten Jahr seinen Meisterbrief gemacht.", "Er hat letztes Jahr seinen Meisterbrief erworben.", "Letztes Jahr hat er seinen Meister gemacht.", "Letztes Jahr hat er seinen Meisterbrief gemacht."],
+        answer: "Er hat letztes Jahr seinen Meister gemacht.",
+        altAnswers: ["Er hat letztes Jahr seinen Meisterbrief gemacht.", "Er hat im letzten Jahr seinen Meister gemacht.", "Er hat letztes Jahr seinen Meisterbrief erworben.", "Letztes Jahr hat er seinen Meister gemacht.", "Letztes Jahr hat er seinen Meisterbrief gemacht.", "Er hat letztes Jahr seinen Meisterbrief bekommen."],
         explanation: "\"Den Meister machen\" is the everyday phrase; \"den Meisterbrief erwerben\" is formal.",
       },
       {
@@ -1297,7 +1297,7 @@ export const DE_C2_U22: Lesson[] = [
         heading: "Damage and disputes: Schadensersatz, Haftpflicht, Schlichtung",
         body: [
           "If someone damages your property, you can claim \"Schadensersatz\" (damages, compensation): \"Schadensersatz verlangen / fordern\", \"auf Schadensersatz klagen\" (sue for damages). \"Schmerzensgeld\" is compensation for pain and suffering.",
-          "Almost every German household has \"eine private Haftpflichtversicherung\" (personal liability insurance), because under § 823 BGB you are liable without limit for damage you cause to others. \"Haften für\" (to be liable for) is the verb; the old sign \"Eltern haften für ihre Kinder\" on building sites is a famous (and legally overstated) example.",
+          "Almost every German household has \"eine private Haftpflichtversicherung\" (personal liability insurance), because under § 823 BGB you are liable without limit for damage you cause to others through your own fault (even slight negligence). \"Haften für\" (to be liable for) is the verb; the old sign \"Eltern haften für ihre Kinder\" on building sites is a famous (and legally overstated) example.",
           "Not every dispute goes to court. \"Die Schlichtung\" (conciliation) is out-of-court settlement through a \"Schlichtungsstelle\", e.g. for energy, travel or insurance complaints; it is free or cheap for consumers. \"Sich gütlich einigen\" (to settle amicably) is the goal.",
         ],
         examples: [

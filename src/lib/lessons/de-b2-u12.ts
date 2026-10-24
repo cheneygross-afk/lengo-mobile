@@ -8,7 +8,7 @@ export const DE_B2_U12: Lesson[] = [
     level: "DE-B2",
     number: 1,
     title: "Causal and Consequential Clauses: Da, Zumal, Sodass",
-    summary: "Give causes and results precisely: da for a known reason, zumal for an extra one, sodass and so ... dass for the consequence.",
+    summary: "Give causes and results precisely: \"da\" for a known reason, \"zumal\" for an extra one, \"sodass\" and \"so ... dass\" for the consequence.",
     duration: "15 min",
     sections: [
       {
@@ -106,7 +106,7 @@ export const DE_B2_U12: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "I'm leaving now so that I catch the train. Which connector?",
+            question: "Which connector completes \"Ich gehe jetzt los, ___ ich den Zug erreiche\" (I'm leaving now so that I catch the train)?",
             options: ["damit", "sodass", "so", "denn"],
             correctIndex: 0,
             explanation: "This is a purpose (an intention), so \"damit\". \"Sodass\" would describe a result that actually happened.",
@@ -209,7 +209,7 @@ export const DE_B2_U12: Lesson[] = [
     level: "DE-B2",
     number: 2,
     title: "Pattern Practice: So müde, dass...",
-    summary: "One frame, many adjectives: so ... dass for results, plus derart ... dass and solch- ... dass in formal style.",
+    summary: "Use one frame with many adjectives to describe results: \"so ... dass\", plus \"derart ... dass\" and \"solch- ... dass\" in formal style.",
     duration: "13 min",
     sections: [
       {
@@ -407,7 +407,7 @@ export const DE_B2_U12: Lesson[] = [
     level: "DE-B2",
     number: 3,
     title: "Modal Clauses: Indem, Dadurch dass, Ohne dass, Anstatt dass",
-    summary: "Say how something is done with indem and dadurch, dass, what doesn't happen with ohne dass, and what happens instead with anstatt dass.",
+    summary: "Say how something is done with \"indem\" and \"dadurch, dass\", what doesn't happen with \"ohne dass\", and what happens instead with \"anstatt dass\".",
     duration: "15 min",
     sections: [
       {
@@ -415,7 +415,7 @@ export const DE_B2_U12: Lesson[] = [
         body: [
           "English expresses the means with by + -ing: You save energy by turning down the heating. German has no -ing form, so it uses a clause with \"indem\" and the verb at the end: \"Man spart Energie, indem man die Heizung herunterdreht.\"",
           "\"Indem\" usually comes after the main clause, because it answers wie? (how?): \"Wie hast du so gut Deutsch gelernt?\" – \"Indem ich jeden Tag Podcasts gehört habe.\" Yes, a bare indem-clause is a fine short answer.",
-          "Traps: \"indem\" is not \"in dem\" (in the) and not English in that. And never translate by + -ing with \"bei\" or \"durch\" + infinitive: \"*durch die Heizung herunterdrehen\" is wrong. \"Durch\" needs a noun (\"durch regelmäßiges Lüften\"), which you'll practise later in this unit.",
+          "Traps: \"indem\" is not \"in dem\" (in the) and not English in that. And never translate by + -ing with \"bei\" or \"durch\" + infinitive: \"*durch die Heizung herunterdrehen*\" is wrong. \"Durch\" needs a noun (\"durch regelmäßiges Lüften\"), which you'll practise later in this unit.",
         ],
         examples: [
           { es: "Man spart Energie, indem man die Heizung herunterdreht.", en: "You save energy by turning down the heating." },
@@ -598,7 +598,7 @@ export const DE_B2_U12: Lesson[] = [
     level: "DE-B2",
     number: 4,
     title: "Contrast Clinic: Ohne zu / Ohne dass, Anstatt zu / Anstatt dass",
-    summary: "Same subject, use zu + infinitive; different subject, use a dass-clause. One distinction, drilled in pairs.",
+    summary: "Choose correctly between \"ohne ... zu\" and \"ohne dass\", \"anstatt ... zu\" and \"anstatt dass\": same subject, use \"zu\" + infinitive; different subject, use a dass-clause.",
     duration: "13 min",
     sections: [
       {
@@ -991,7 +991,7 @@ export const DE_B2_U12: Lesson[] = [
         heading: "Word order first: denn is different",
         body: [
           "Three of the four send the verb to the end: \"weil\", \"da\" and \"zumal\". \"Denn\" doesn't: it's a coordinating conjunction like \"und\" and \"aber\", sits in position 0, and the normal main-clause order follows: \"Ich bleibe zu Hause, denn ich bin krank.\"",
-          "Because it joins two main clauses, a denn-clause can never come first: \"*Denn ich krank bin, ...\" and \"*Denn ich bin krank, bleibe ich zu Hause\" are both wrong. It always follows the statement it explains.",
+          "Because it joins two main clauses, a denn-clause can never come first: \"*Denn ich krank bin, ...*\" and \"*Denn ich bin krank, bleibe ich zu Hause*\" are both wrong. It always follows the statement it explains.",
           "\"Denn\" sounds slightly formal or written in modern speech; in conversation most Germans use \"weil\" (and in casual speech often \"weil\" with verb second, \"weil ich bin krank\", which you shouldn't write).",
         ],
         examples: [
@@ -1182,7 +1182,7 @@ export const DE_B2_U12: Lesson[] = [
     level: "DE-B2",
     number: 7,
     title: "Transformations: Indem → Durch + Noun",
-    summary: "Turn clauses into nominal style and back: indem → durch, weil → aufgrund or wegen, sodass → infolgedessen.",
+    summary: "Turn clauses into nominal style and back: \"indem\" → \"durch\", \"weil\" → \"aufgrund\" or \"wegen\", \"sodass\" → \"infolgedessen\".",
     duration: "15 min",
     sections: [
       {
@@ -1574,15 +1574,15 @@ export const DE_B2_U12: Lesson[] = [
     level: "DE-B2",
     number: 9,
     title: "Fix the Paragraph: Die Beschwerde an die Bahn",
-    summary: "Correct a passenger-rights complaint: the wrong causal connector, sodass versus damit, and word order after da and zumal.",
+    summary: "Correct a passenger-rights complaint: the wrong causal connector, \"sodass\" versus \"damit\", and word order after \"da\" and \"zumal\".",
     duration: "14 min",
     sections: [
       {
         heading: "The situation and the first errors",
         body: [
           "Jonas travelled from Köln to Leipzig. His ICE was 95 minutes late, so he missed his connection and arrived at 23:40 instead of 21:50. Under German and EU passenger rights (\"Fahrgastrechte\"), a delay of over 60 minutes gets 25% of the ticket price back; over 120 minutes, 50%. He writes a complaint asking for compensation (\"die Entschädigung\").",
-          "His draft starts: \"*Da mein Zug hatte 95 Minuten Verspätung, ich habe den Anschluss verpasst.\" Two errors: after \"da\" the verb goes to the end (\"Da mein Zug 95 Minuten Verspätung hatte\"), and the main clause must start with its verb (\"habe ich den Anschluss verpasst\").",
-          "Next sentence: \"*Ich verpasste den Anschluss, denn ich kam erst um 23:40 Uhr an.\" Logically wrong: arriving late is the consequence, not the cause. Fix with \"sodass\": \"Ich verpasste den Anschluss, sodass ich erst um 23:40 Uhr ankam.\"",
+          "His draft starts: \"*Da mein Zug hatte 95 Minuten Verspätung, ich habe den Anschluss verpasst.*\" Two errors: after \"da\" the verb goes to the end (\"Da mein Zug 95 Minuten Verspätung hatte\"), and the main clause must start with its verb (\"habe ich den Anschluss verpasst\").",
+          "Next sentence: \"*Ich verpasste den Anschluss, denn ich kam erst um 23:40 Uhr an.*\" Logically wrong: arriving late is the consequence, not the cause. Fix with \"sodass\": \"Ich verpasste den Anschluss, sodass ich erst um 23:40 Uhr ankam.\"",
         ],
         examples: [
           { es: "Da mein Zug 95 Minuten Verspätung hatte, habe ich den Anschluss verpasst.", en: "As my train was 95 minutes late, I missed my connection." },
@@ -1595,7 +1595,7 @@ export const DE_B2_U12: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Jonas wrote: \"*Da mein Zug hatte 95 Minuten Verspätung, ich habe den Anschluss verpasst.\" Write it correctly.",
+            prompt: "Jonas wrote: \"*Da mein Zug hatte 95 Minuten Verspätung, ich habe den Anschluss verpasst.*\" Write it correctly.",
             source: "As my train was 95 minutes late, I missed my connection.",
             answer: "Da mein Zug 95 Minuten Verspätung hatte, habe ich den Anschluss verpasst.",
             altAnswers: ["Da mein Zug 95 Minuten Verspätung hatte, verpasste ich den Anschluss.", "Da mein Zug 95 Minuten verspätet war, habe ich den Anschluss verpasst.", "Da mein Zug 95 Minuten verspätet war, verpasste ich den Anschluss.", "Da mein Zug 95 Minuten Verspätung hatte, habe ich meinen Anschluss verpasst."],
@@ -1615,8 +1615,8 @@ export const DE_B2_U12: Lesson[] = [
       {
         heading: "Sodass or damit?",
         body: [
-          "Jonas continues: \"*Ich habe eine Hotelübernachtung gebucht, sodass ich nicht am Bahnhof schlafen musste.\" Is that a result or a purpose? He booked the hotel in order not to sleep at the station: purpose. So \"damit\": \"..., damit ich nicht am Bahnhof schlafen musste.\"",
-          "Then: \"*Ich schicke Ihnen die Quittung, sodass Sie mir die Kosten erstatten können.\" Again a purpose: he sends it so that they can reimburse him. \"Damit Sie mir die Kosten erstatten können.\"",
+          "Jonas continues: \"*Ich habe eine Hotelübernachtung gebucht, sodass ich nicht am Bahnhof schlafen musste.*\" Is that a result or a purpose? He booked the hotel in order not to sleep at the station: purpose. So \"damit\": \"..., damit ich nicht am Bahnhof schlafen musste.\"",
+          "Then: \"*Ich schicke Ihnen die Quittung, sodass Sie mir die Kosten erstatten können.*\" Again a purpose: he sends it so that they can reimburse him. \"Damit Sie mir die Kosten erstatten können.\"",
           "Test: can you say in order that? Then it's \"damit\". Can you say with the result that? Then \"sodass\". With the same subject, \"um ... zu\" is even better: \"Ich habe ein Hotel gebucht, um nicht am Bahnhof zu schlafen.\"",
         ],
         examples: [
@@ -1630,7 +1630,7 @@ export const DE_B2_U12: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Jonas wrote: \"*Ich schicke Ihnen die Quittung, sodass Sie mir die Kosten erstatten können.\" Write it correctly.",
+            prompt: "Jonas wrote: \"*Ich schicke Ihnen die Quittung, sodass Sie mir die Kosten erstatten können.*\" Write it correctly.",
             source: "I'm sending you the receipt so that you can reimburse me.",
             answer: "Ich schicke Ihnen die Quittung, damit Sie mir die Kosten erstatten können.",
             altAnswers: ["Ich sende Ihnen die Quittung, damit Sie mir die Kosten erstatten können.", "Ich schicke Ihnen die Quittung, damit Sie mir die Kosten zurückerstatten können.", "Ich sende Ihnen die Quittung, damit Sie mir die Kosten zurückerstatten können."],
@@ -1648,7 +1648,7 @@ export const DE_B2_U12: Lesson[] = [
       {
         heading: "Zumal, and the final version",
         body: [
-          "Jonas's last argument: \"*Die Entschädigung ist gerechtfertigt, zumal ich hatte am nächsten Morgen einen wichtigen Termin.\" \"Zumal\" works like \"weil\": verb last. \"..., zumal ich am nächsten Morgen einen wichtigen Termin hatte.\"",
+          "Jonas's last argument: \"*Die Entschädigung ist gerechtfertigt, zumal ich hatte am nächsten Morgen einen wichtigen Termin.*\" \"Zumal\" works like \"weil\": verb last. \"..., zumal ich am nächsten Morgen einen wichtigen Termin hatte.\"",
           "The corrected paragraph: \"Da mein ICE 95 Minuten Verspätung hatte, habe ich in Frankfurt den Anschluss verpasst, sodass ich erst um 23:40 Uhr in Leipzig ankam. Ich habe ein Taxi genommen, damit ich nicht noch länger warten musste. Hiermit beantrage ich eine Entschädigung von 25 Prozent des Fahrpreises sowie die Erstattung der Taxikosten, zumal ich am nächsten Morgen einen wichtigen Termin hatte. Die Belege habe ich beigefügt.\"",
           "Every connector now does exactly one job: \"da\" (known cause, first), \"sodass\" (result), \"damit\" (purpose), \"zumal\" (extra reason).",
         ],
@@ -1688,7 +1688,7 @@ export const DE_B2_U12: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Jonas wrote: \"*Ich habe ein Hotel gebucht, sodass ich nicht am Bahnhof schlafen musste.\" Write it correctly.",
+        prompt: "Jonas wrote: \"*Ich habe ein Hotel gebucht, sodass ich nicht am Bahnhof schlafen musste.*\" Write it correctly.",
         source: "I booked a hotel so that I didn't have to sleep at the station.",
         answer: "Ich habe ein Hotel gebucht, damit ich nicht am Bahnhof schlafen musste.",
         altAnswers: ["Ich habe ein Hotel gebucht, um nicht am Bahnhof schlafen zu müssen.", "Ich habe ein Hotel gebucht, um nicht am Bahnhof zu schlafen.", "Ich buchte ein Hotel, damit ich nicht am Bahnhof schlafen musste.", "Ich habe ein Hotel gebucht, damit ich nicht am Bahnhof schlafen muss."],
@@ -1764,7 +1764,7 @@ export const DE_B2_U12: Lesson[] = [
     level: "DE-B2",
     number: 10,
     title: "Thematic Review: Daten teilen oder schützen?",
-    summary: "A family argues about a fitness app and the GDPR: cause and consequence, indem, ohne dass and concessive clauses at the dinner table.",
+    summary: "Follow and join a family argument about a fitness app and the GDPR, using cause and consequence, \"indem\", \"ohne dass\" and concessive clauses.",
     duration: "15 min",
     sections: [
       {
@@ -1966,7 +1966,7 @@ export const DE_B2_U12: Lesson[] = [
         ],
         examples: [
           { es: "Wer übernimmt den Familienbetrieb?", en: "Who's taking over the family business?" },
-          { es: "Ohne Meisterbrief darf man in vielen Handwerken keinen eigenen Betrieb führen.", en: "Without a master's certificate you can't run your own business in many trades." },
+          { es: "Ohne Meisterbrief darf man in vielen Handwerken keinen eigenen Betrieb führen.", en: "Without a master craftsman's certificate you can't run your own business in many trades." },
           { es: "Die Nachfolge ist noch nicht geklärt.", en: "The succession hasn't been settled yet." },
           { es: "Unsere Stammkundschaft kommt seit Jahrzehnten.", en: "Our regular customers have been coming for decades." },
           { es: "Er hat eine Lehre als Schreiner gemacht.", en: "He did an apprenticeship as a joiner." },
@@ -2181,7 +2181,7 @@ export const DE_B2_U12: Lesson[] = [
         heading: "What happened",
         body: [
           "You work at a logistics company in Duisburg. On Monday a forklift (\"der Gabelstapler\") hit a shelf in the warehouse; no one was hurt, but goods were damaged. Your manager wants a short written report (\"ein kurzer Bericht\") by the end of the day.",
-          "A report starts with the facts, in nominal style and the Präteritum: \"Am Montag, dem 14. Oktober, kam es gegen 10:30 Uhr in Halle 3 zu einem Unfall.\" \"Es kam zu\" + dative (there was / it came to) is the classic report formula.",
+          "A report starts with the facts, in nominal style and the Präteritum: \"Am Montag, dem 12. Oktober, kam es gegen 10:30 Uhr in Halle 3 zu einem Unfall.\" \"Es kam zu\" + dative (there was / it came to) is the classic report formula.",
           "Then the cause: \"Aufgrund eines technischen Defekts ließen sich die Bremsen des Gabelstaplers nicht betätigen.\" That's \"aufgrund\" + genitive and \"sich lassen\" + infinitive, both from this level.",
         ],
         examples: [
@@ -2249,7 +2249,7 @@ export const DE_B2_U12: Lesson[] = [
         heading: "Measures and the finished report",
         body: [
           "Finally, the measures (\"die Maßnahmen\"), again in nominal style: \"Zur Vermeidung weiterer Unfälle werden alle Gabelstapler bis Freitag überprüft.\" \"Zur Vermeidung\" = in order to avoid (\"um ... zu vermeiden\").",
-          "The whole report: \"Am Montag, dem 14. Oktober, kam es gegen 10:30 Uhr in Halle 3 zu einem Unfall. Aufgrund eines technischen Defekts funktionierten die Bremsen eines Gabelstaplers nicht, sodass das Fahrzeug gegen ein Regal stieß. Mehrere Paletten wurden beschädigt; verletzt wurde niemand. Der Fahrer gab an, er habe noch versucht zu bremsen. Infolgedessen musste die Halle für zwei Stunden gesperrt werden. Zur Vermeidung weiterer Unfälle werden alle Gabelstapler bis Freitag überprüft.\"",
+          "The whole report: \"Am Montag, dem 12. Oktober, kam es gegen 10:30 Uhr in Halle 3 zu einem Unfall. Aufgrund eines technischen Defekts funktionierten die Bremsen eines Gabelstaplers nicht, sodass das Fahrzeug gegen ein Regal stieß. Mehrere Paletten wurden beschädigt; verletzt wurde niemand. Der Fahrer gab an, er habe noch versucht zu bremsen. Infolgedessen musste die Halle für zwei Stunden gesperrt werden. Zur Vermeidung weiterer Unfälle werden alle Gabelstapler bis Freitag überprüft.\"",
         ],
         examples: [
           { es: "Zur Vermeidung weiterer Unfälle werden alle Gabelstapler überprüft.", en: "To prevent further accidents, all forklifts will be inspected." },

@@ -71,7 +71,7 @@ export const DE_B2_U28_EXTRA: Lesson[] = [
         sentence: "Der Gast sagte, die Lage ___ ernst.",
         answer: "sei",
         altAnswers: ["wäre"],
-        explanation: "Konjunktiv I of \"sein\" in reported speech.",
+        explanation: "Konjunktiv I of \"sein\" in reported speech: \"sei\". Konjunktiv II \"wäre\" is also common, especially in speech.",
       },
       {
         type: "translate",
@@ -297,7 +297,6 @@ export const DE_B2_U28_EXTRA: Lesson[] = [
         en: "The decision [was] postponed once again.",
         sentence: "Die Entscheidung ___ erneut verschoben.",
         answer: "wurde",
-        altAnswers: [],
         explanation: "Präteritum passive: \"wurde verschoben\".",
       },
       {
@@ -356,7 +355,6 @@ export const DE_B2_U28_EXTRA: Lesson[] = [
             en: "[In summary], both sides have good arguments.",
             sentence: "___ lässt sich sagen, dass beide Seiten gute Argumente haben.",
             answer: "Zusammenfassend",
-            altAnswers: [],
             explanation: "\"Zusammenfassend lässt sich sagen\" closes a Vortrag.",
           },
         ],
@@ -387,7 +385,6 @@ export const DE_B2_U28_EXTRA: Lesson[] = [
         en: "I partly [agree] with you there, but the costs are too high.",
         sentence: "Da ___ ich dir zum Teil recht, aber die Kosten sind zu hoch.",
         answer: "gebe",
-        altAnswers: [],
         explanation: "\"Jemandem recht geben\" = to agree with someone.",
       },
       {
@@ -428,8 +425,8 @@ export const DE_B2_U28_EXTRA: Lesson[] = [
         prompt: "Translate into German. (to a partner)",
         source: "That's a good point, but have you thought about the costs?",
         answer: "Das ist ein guter Punkt, aber hast du an die Kosten gedacht?",
-        altAnswers: ["Das ist ein gutes Argument, aber hast du an die Kosten gedacht?", "Das ist ein guter Punkt, aber hast du auch an die Kosten gedacht?", "Guter Punkt, aber hast du an die Kosten gedacht?"],
-        explanation: "\"Denken an\" + accusative.",
+        altAnswers: ["Das ist ein gutes Argument, aber hast du an die Kosten gedacht?", "Das ist ein guter Punkt, aber hast du auch an die Kosten gedacht?", "Guter Punkt, aber hast du an die Kosten gedacht?", "Das ist ein guter Punkt, aber haben Sie an die Kosten gedacht?", "Das ist ein gutes Argument, aber haben Sie an die Kosten gedacht?"],
+        explanation: "\"Denken an\" + accusative. Exam partners usually say \"du\", but \"Sie\" is accepted too.",
       },
       {
         type: "listen-choose",
@@ -470,8 +467,8 @@ export const DE_B2_U28_EXTRA: Lesson[] = [
         prompt: "Translate into German. (to a partner)",
         source: "Let's look for a compromise.",
         answer: "Lass uns einen Kompromiss suchen.",
-        altAnswers: ["Lass uns nach einem Kompromiss suchen.", "Suchen wir einen Kompromiss.", "Suchen wir nach einem Kompromiss."],
-        explanation: "\"Lass uns\" + infinitive suggests something together.",
+        altAnswers: ["Lass uns nach einem Kompromiss suchen.", "Suchen wir einen Kompromiss.", "Suchen wir nach einem Kompromiss.", "Lassen Sie uns einen Kompromiss suchen.", "Lassen Sie uns nach einem Kompromiss suchen."],
+        explanation: "\"Lass uns\" (or formal \"Lassen Sie uns\") + infinitive suggests doing something together; \"Suchen wir ...\" works too.",
       },
       {
         type: "speak",

@@ -51,7 +51,7 @@ export const DE_C2_U02: Lesson[] = [
         heading: "Laufzeit, Kündigung, Haftung, Gewährleistung",
         body: [
           "\"Laufzeit und Kündigung\" set how long the contract runs and how to end it: \"Der Vertrag wird für die Dauer von zwei Jahren geschlossen. Er verlängert sich um jeweils ein weiteres Jahr, wenn er nicht mit einer Frist von drei Monaten zum Ende der Laufzeit gekündigt wird.\" Note \"zum\" + end point: notice is given \"zum 31. Dezember\" (to take effect on 31 December).",
-          "\"Die Haftung\" (liability) limits who pays for damage: \"Der Auftragnehmer haftet nur für Vorsatz und grobe Fahrlässigkeit\" (only for intent and gross negligence). The verb is \"haften für\" + accusative. \"Die Gewährleistung\" is the statutory warranty for defects (\"Mängel\"): in sales between businesses and consumers it lasts two years and cannot be excluded. A \"Garantie\" is a voluntary extra promise from the manufacturer; mixing up the two is a classic mistake, in German as well.",
+          "\"Die Haftung\" (liability) limits who pays for damage: \"Der Auftragnehmer haftet nur für Vorsatz und grobe Fahrlässigkeit\" (only for intent and gross negligence). The verb is \"haften für\" + accusative. \"Die Gewährleistung\" is the statutory warranty for defects (\"Mängel\"): in sales between businesses and consumers it lasts two years and cannot be excluded. A \"Garantie\" is a voluntary extra promise, usually from the manufacturer; mixing up the two is a classic mistake, in German as well.",
           "\"Schlussbestimmungen\" (final provisions) collect the rest: \"Gerichtsstand\", \"anwendbares Recht\" (applicable law), the severability clause and the written-form requirement.",
         ],
         examples: [
@@ -495,13 +495,13 @@ export const DE_C2_U02: Lesson[] = [
         heading: "Participle endings and the dangling dieser",
         body: [
           "Error 4: wrong endings on participial attributes. \"*die fristgerecht eingereichte Unterlagen*\" must be \"die fristgerecht eingereichten Unterlagen\" (plural after \"die\": -en). \"*mit dem vom Mieter unterschriebene Formular*\" must be \"mit dem vom Mieter unterschriebenen Formular\". Check the ending against the article, exactly as for a simple adjective: the words between the article and the noun don't change the rule.",
-          "Error 5: the dangling \"dieser\". \"Der Vermieter informiert den Hausverwalter, sobald dieser die Unterlagen erhalten hat.\" Who received the documents? \"Dieser\" normally points to the last-mentioned masculine noun (\"den Hausverwalter\"), but readers and courts may disagree. Fix it by repeating the noun: \"..., sobald der Hausverwalter die Unterlagen erhalten hat\". Contracts prefer repetition to elegance.",
+          "Error 5: the dangling \"dieser\". \"Der Vermieter informiert den Hausverwalter, sobald dieser die Unterlagen erhalten hat.\" Who received the documents? \"Dieser\" normally points to the last-mentioned masculine noun (\"den Hausverwalter\"), but the writer probably meant the landlord, and readers and courts may disagree. Fix it by naming the person: \"..., sobald der Vermieter die Unterlagen erhalten hat\". Contracts prefer repetition to elegance.",
           "Similarly \"er\", \"sein\" and \"dessen\" can be ambiguous. \"Dessen\" (whose, his) refers to the last-named masculine/neuter noun and is used precisely to avoid ambiguity: \"Herr Weber und sein Sohn und dessen Frau\" means the son's wife.",
         ],
         examples: [
           { es: "Die fristgerecht eingereichten Unterlagen werden geprüft.", en: "The documents submitted on time will be checked." },
           { es: "Bitte senden Sie das vom Mieter unterschriebene Formular zurück.", en: "Please return the form signed by the tenant." },
-          { es: "Der Vermieter informiert den Hausverwalter, sobald der Hausverwalter die Unterlagen erhalten hat.", en: "The landlord informs the property manager as soon as the property manager has received the documents." },
+          { es: "Der Vermieter informiert den Hausverwalter, sobald der Vermieter die Unterlagen erhalten hat.", en: "The landlord informs the property manager as soon as he (the landlord) has received the documents." },
           { es: "Herr Weber kam mit seinem Sohn und dessen Frau.", en: "Mr Weber came with his son and his son's wife." },
           { es: "Die im Anhang aufgeführten Leistungen sind Bestandteil des Vertrages.", en: "The services listed in the annex form part of the contract." },
         ],
@@ -528,7 +528,7 @@ export const DE_C2_U02: Lesson[] = [
         heading: "Deadlines with no start date and bis zum",
         body: [
           "Error 6: \"Die Zahlung erfolgt innerhalb von 14 Tagen.\" 14 days from what? A deadline needs a start: \"innerhalb von 14 Tagen nach Erhalt der Rechnung\", \"ab Zugang dieses Schreibens\", \"nach Abschluss der Arbeiten\".",
-          "Error 7: \"bis zum 31.3.\" Is 31 March included? By law (§ 188 BGB) a period ending \"bis zum\" a date normally includes that day, but people argue about it, and \"bis\" alone (\"bis 31.3.\") is even vaguer. Clear versions: \"bis einschließlich 31. März\", \"bis spätestens 31. März\" (at the latest), or a time: \"bis zum 31. März, 24:00 Uhr\". If the day must be excluded: \"bis zum 30. März\" or \"vor dem 31. März\".",
+          "Error 7: \"bis zum 31.3.\" Is 31 March included? A deadline \"bis zum\" a date is normally read as including that day (until midnight), but people argue about it, and \"bis\" alone (\"bis 31.3.\") is even vaguer. Clear versions: \"bis einschließlich 31. März\", \"bis spätestens 31. März\" (at the latest), or a time: \"bis zum 31. März, 24:00 Uhr\". If the day must be excluded: \"bis zum 30. März\" or \"vor dem 31. März\".",
           "Error 8: \"Die Kündigung muss drei Monate vorher erfolgen.\" Before what? Write \"mit einer Frist von drei Monaten zum Monatsende\": the notice must arrive at least three months before the end of a month.",
         ],
         examples: [
@@ -1174,7 +1174,7 @@ export const DE_C2_U02: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German, with a participial attribute.",
-            source: "The owner entered in the land register is Mrs Schneider.",
+            source: "The owner entered in the land register is Ms Schneider.",
             answer: "Die im Grundbuch eingetragene Eigentümerin ist Frau Schneider.",
             altAnswers: ["Die im Grundbuch eingetragene Eigentümerin heißt Frau Schneider.", "Im Grundbuch eingetragene Eigentümerin ist Frau Schneider."],
             explanation: "\"Die ... eingetragene Eigentümerin\": the participle ends in -e after \"die\" (feminine nominative).",
@@ -1200,7 +1200,7 @@ export const DE_C2_U02: Lesson[] = [
         heading: "Widerspruchsverfahren and Klage vor dem Verwaltungsgericht",
         body: [
           "If an authority rejects your application, the usual path is first \"das Widerspruchsverfahren\": you lodge a \"Widerspruch\" and the authority (or the next higher one) reviews its decision and issues \"einen Widerspruchsbescheid\". In some \"Länder\" and for some areas this step has been abolished, and you go straight to court; the \"Rechtsbehelfsbelehrung\" tells you which.",
-          "If the \"Widerspruch\" fails, you can bring \"eine Klage vor dem Verwaltungsgericht\", normally within one month of receiving the \"Widerspruchsbescheid\". In administrative law, the plaintiff is \"der Kläger\", the defendant is the authority's legal entity (\"die Stadt Leipzig\", \"das Land\").",
+          "If the \"Widerspruch\" fails, you can bring \"eine Klage vor dem Verwaltungsgericht\", normally within one month of receiving the \"Widerspruchsbescheid\". In administrative law, the plaintiff is \"der Kläger\", the defendant is usually the authority's legal entity (\"die Stadt Leipzig\", \"das Land\").",
           "\"Die aufschiebende Wirkung\" (suspensive effect) is a key concept: as a rule, a Widerspruch or a Klage suspends the decision until it is decided. But some decisions are \"sofort vollziehbar\" (immediately enforceable), for example tax demands or a \"Bescheid\" with an \"Anordnung der sofortigen Vollziehung\": then you must pay or comply first and argue later, unless a court restores the suspensive effect.",
         ],
         examples: [
@@ -1599,7 +1599,7 @@ export const DE_C2_U02: Lesson[] = [
         ],
         examples: [
           { es: "Wir müssen bis Freitag eine Entscheidung treffen.", en: "We have to make a decision by Friday." },
-          { es: "Die Verhandlungen haben gute Fortschritte erzielt.", en: "The negotiations have made good progress." },
+          { es: "In den Verhandlungen wurden gute Fortschritte erzielt.", en: "Good progress has been made in the negotiations." },
           { es: "Das Unternehmen erzielte einen Rekordgewinn.", en: "The company made a record profit." },
           { es: "Dieser Fall bildet eine Ausnahme.", en: "This case is an exception." },
           { es: "Jeder kann einen Beitrag zum Klimaschutz leisten.", en: "Everyone can make a contribution to climate protection." },
@@ -1715,9 +1715,9 @@ export const DE_C2_U02: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into German.",
         source: "The negotiations have made progress.",
-        answer: "Die Verhandlungen haben Fortschritte erzielt.",
-        altAnswers: ["Bei den Verhandlungen wurden Fortschritte erzielt.", "In den Verhandlungen wurden Fortschritte erzielt.", "Die Verhandlungen haben Fortschritte gemacht."],
-        explanation: "\"Fortschritte erzielen\" in formal German; \"Fortschritte machen\" is acceptable in neutral speech.",
+        answer: "In den Verhandlungen wurden Fortschritte erzielt.",
+        altAnswers: ["Bei den Verhandlungen wurden Fortschritte erzielt.", "Die Verhandlungen haben Fortschritte erzielt.", "Die Verhandlungen haben Fortschritte gemacht.", "In den Verhandlungen wurden Fortschritte gemacht."],
+        explanation: "\"Fortschritte erzielen\" in formal German; the passive \"In den Verhandlungen wurden ... erzielt\" is the usual form in formal reports. \"Fortschritte machen\" is fine in neutral German.",
       },
       {
         type: "translate",
@@ -1976,13 +1976,13 @@ export const DE_C2_U02: Lesson[] = [
     level: "DE-C2",
     number: 10,
     title: "Dialogue Lab: Beim Notar",
-    summary: "Ask polite clarifying questions at the notary\'s as Lena and Mehmet buy a flat in Leipzig: the \"Kaufvertrag\", the \"Grundschuld\", the handover and the exclusion of warranty.",
+    summary: "Ask polite clarifying questions at the notary's as Lena and Mehmet buy a flat in Leipzig: the \"Kaufvertrag\", the \"Grundschuld\", the handover and the exclusion of warranty.",
     duration: "18 min",
     sections: [
       {
         heading: "Scene 1: the reading begins",
         body: [
-          "Notar Dr. Becker: \"Guten Tag, Frau Schmidt, Herr Yılmaz, Herr Wagner. Ich darf Sie bitten, Ihre Ausweise bereitzuhalten. Ich werde Ihnen den Vertrag jetzt vollständig vorlesen. Wenn Sie Fragen haben, unterbrechen Sie mich bitte jederzeit.\" He reads: \"Der Verkäufer verkauft an die Käufer zu je 1/2 Anteil das im Grundbuch von Leipzig, Blatt 4711, eingetragene Wohnungseigentum ...\"",
+          "Notar Dr Becker: \"Guten Tag, Frau Schmidt, Herr Yılmaz, Herr Wagner. Ich darf Sie bitten, Ihre Ausweise bereitzuhalten. Ich werde Ihnen den Vertrag jetzt vollständig vorlesen. Wenn Sie Fragen haben, unterbrechen Sie mich bitte jederzeit.\" He reads: \"Der Verkäufer verkauft an die Käufer zu je 1/2 Anteil das im Grundbuch von Leipzig, Blatt 4711, eingetragene Wohnungseigentum ...\"",
           "Lena: \"Entschuldigung, darf ich kurz nachfragen, was mit dem halben Anteil gemeint ist?\" Notar: \"Gern. Das heißt, dass Sie beide jeweils zur Hälfte Eigentümer werden.\"",
           "The polite clarifying question is the key skill of this dialogue. \"Darf ich kurz nachfragen, was mit ... gemeint ist?\" is perfect: \"kurz\" softens, \"nachfragen\" means asking a follow-up question, and \"gemeint sein\" asks for the meaning without implying the text is badly written. Alternatives: \"Könnten Sie das bitte kurz erläutern?\", \"Was bedeutet das konkret für uns?\".",
         ],
@@ -2224,7 +2224,7 @@ export const DE_C2_U02: Lesson[] = [
             prompt: "Translate into German, with \"sich lassen\".",
             source: "That cannot be proved.",
             answer: "Das lässt sich nicht beweisen.",
-            altAnswers: ["Das lässt sich nicht nachweisen.", "Das ist nicht zu beweisen.", "Das ist nicht nachweisbar.", "Das ist nicht beweisbar.", "Das kann nicht bewiesen werden."],
+            altAnswers: ["Das lässt sich nicht nachweisen."],
             explanation: "\"Sich lassen\" + infinitive = can be done; \"nachweisbar\" and \"nicht zu beweisen\" are equally correct.",
           },
         ],
@@ -2319,7 +2319,6 @@ export const DE_C2_U02: Lesson[] = [
         prompt: "Translate into German, with \"sich lassen\".",
         source: "The defect can easily be remedied.",
         answer: "Der Mangel lässt sich leicht beheben.",
-        altAnswers: ["Der Mangel ist leicht zu beheben.", "Der Mangel ist leicht behebbar.", "Der Mangel kann leicht behoben werden."],
         explanation: "\"Sich lassen\" + infinitive, or \"sein + zu\", or \"-bar\": all express can be done.",
       },
       {
@@ -2771,7 +2770,7 @@ export const DE_C2_U02: Lesson[] = [
         prompt: "Translate into formal German.",
         source: "We grant you a discount of ten per cent.",
         answer: "Wir gewähren Ihnen einen Rabatt von zehn Prozent.",
-        altAnswers: ["Wir gewähren Ihnen zehn Prozent Rabatt.", "Wir gewähren Ihnen einen Rabatt in Höhe von zehn Prozent.", "Wir gewähren dir einen Rabatt von zehn Prozent."],
+        altAnswers: ["Wir gewähren Ihnen zehn Prozent Rabatt.", "Wir gewähren Ihnen einen Rabatt in Höhe von zehn Prozent."],
         explanation: "\"Gewähren\" for discounts, access, loans.",
       },
       {

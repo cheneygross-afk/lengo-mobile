@@ -194,7 +194,7 @@ export const DE_B2_U22: Lesson[] = [
         source: "He lives in a street whose name I've forgotten.",
         answer: "Er wohnt in einer Straße, deren Namen ich vergessen habe.",
         altAnswers: ["Er lebt in einer Straße, deren Namen ich vergessen habe."],
-        explanation: "\"Die Straße\" → \"deren\". \"Name\" is the object of \"vergessen\", so it takes the accusative \"Namen\" (a weak masculine noun).",
+        explanation: "\"Die Straße\" → \"deren\". \"Name\" is the object of \"vergessen\", so it takes the accusative \"Namen\" (\"Name\" adds -n outside the nominative singular; genitive \"des Namens\").",
       },
     ],
   },
@@ -381,6 +381,7 @@ export const DE_B2_U22: Lesson[] = [
         prompt: "Put the words in order to say: He decides in favour of tradition.",
         words: ["Er", "entscheidet", "sich", "zugunsten", "der Tradition."],
         translation: "He decides in favour of tradition.",
+        altOrders: [["Zugunsten", "der Tradition", "entscheidet", "er", "sich."]],
         explanation: "\"Zugunsten\" + genitive \"der Tradition\"; \"sich entscheiden\" is reflexive.",
       },
       {
@@ -451,7 +452,7 @@ export const DE_B2_U22: Lesson[] = [
       {
         heading: "Regrets: hätte ... sollen",
         body: [
-          "Father and daughter look back. With a modal verb, the past Konjunktiv II uses the double infinitive (Unit 2): \"Ich hätte früher auf Bio umstellen sollen\" (I should have gone organic earlier). Never \"*hätte umstellen gesollt\".",
+          "Father and daughter look back. With a modal verb, the past Konjunktiv II uses the double infinitive (Unit 2): \"Ich hätte früher auf Bio umstellen sollen\" (I should have gone organic earlier). Never \"*hätte umstellen gesollt*\".",
           "Reproaches use the same pattern with \"du\": \"Du hättest mich fragen können\" (You could have asked me). Katharina: \"Wir hätten schon vor Jahren einen Onlineshop aufbauen müssen.\"",
           "In a subordinate clause \"hätte\" comes before the double infinitive: \"Er gibt zu, dass er früher hätte umstellen sollen.\"",
         ],
@@ -530,7 +531,7 @@ export const DE_B2_U22: Lesson[] = [
         source: "I should have gone organic earlier.",
         answer: "Ich hätte früher auf Bio umstellen sollen.",
         altAnswers: ["Ich hätte früher auf Bio umstellen müssen.", "Ich hätte schon früher auf Bio umstellen sollen.", "Ich hätte früher auf ökologischen Weinbau umstellen sollen."],
-        explanation: "Double infinitive: \"umstellen sollen\", not \"*umgestellt sollen\" or \"*umstellen gesollt\".",
+        explanation: "Double infinitive: \"umstellen sollen\", not \"*umgestellt sollen*\" or \"*umstellen gesollt*\".",
       },
       {
         type: "translate",
@@ -587,6 +588,7 @@ export const DE_B2_U22: Lesson[] = [
         prompt: "Put the words in order to say: By the harvest we'll have converted the first vineyards.",
         words: ["Bis zur Lese", "werden", "wir", "die ersten Weinberge", "umgestellt", "haben."],
         translation: "By the harvest we'll have converted the first vineyards.",
+        altOrders: [["Wir", "werden", "bis zur Lese", "die ersten Weinberge", "umgestellt", "haben."]],
         explanation: "Futur II: \"werden\" second, \"umgestellt haben\" at the end.",
       },
       {
@@ -616,15 +618,15 @@ export const DE_B2_U22: Lesson[] = [
     level: "DE-B2",
     number: 4,
     title: "Error Hunt: Dessen, Deren and Genitive Prepositions",
-    summary: "Find and fix typical mistakes with \"dessen\" / \"deren\", genitive prepositions and \"was\", such as \"*dessem\", \"*innerhalb zwei Wochen\" and \"*aufgrund dem Streik\".",
+    summary: "Find and fix typical mistakes with \"dessen\" / \"deren\", genitive prepositions and \"was\", such as \"*dessem*\", \"*innerhalb zwei Wochen*\" and \"*aufgrund dem Streik*\".",
     duration: "14 min",
     sections: [
       {
         heading: "Mistakes with dessen and deren",
         body: [
-          "Mistake 1: choosing by the possessed noun. \"*Die Frau, dessen Mann ...\" → \"Die Frau, deren Mann ...\" (the antecedent die Frau is feminine). \"*Der Kollege, deren Auto ...\" → \"Der Kollege, dessen Auto ...\".",
-          "Mistake 2: adding endings. \"*mit dessem Hilfe\", \"*mit derem Auto\" → \"mit dessen Hilfe\", \"mit deren Auto\". These words are frozen genitives; only an adjective after them changes: \"mit deren neuem Auto\".",
-          "Mistake 3: an article after them. \"*dessen die Tochter\" → \"dessen Tochter\". \"Dessen\" already does the job of the article.",
+          "Mistake 1: choosing by the possessed noun. \"*Die Frau, dessen Mann ...*\" → \"Die Frau, deren Mann ...\" (the antecedent die Frau is feminine). \"*Der Kollege, deren Auto ...*\" → \"Der Kollege, dessen Auto ...\".",
+          "Mistake 2: adding endings. \"*mit dessem Hilfe*\", \"*mit derem Auto*\" → \"mit dessen Hilfe\", \"mit deren Auto\". These words are frozen genitives; only an adjective after them changes: \"mit deren neuem Auto\".",
+          "Mistake 3: an article after them. \"*dessen die Tochter*\" → \"dessen Tochter\". \"Dessen\" already does the job of the article.",
         ],
         examples: [
           { es: "Die Frau, deren Mann bei der Polizei ist, wohnt im dritten Stock.", en: "The woman whose husband is in the police lives on the third floor." },
@@ -649,16 +651,16 @@ export const DE_B2_U22: Lesson[] = [
             en: "That's the friend [with whose help] I moved. (not: \"*mit dessem Hilfe*\")",
             sentence: "Das ist der Freund, ___ ich umgezogen bin.",
             answer: "mit dessen Hilfe",
-            explanation: "\"Dessen\" never takes a dative ending: \"*dessem\" doesn't exist.",
+            explanation: "\"Dessen\" never takes a dative ending: \"*dessem*\" doesn't exist.",
           },
         ],
       },
       {
         heading: "Mistakes with genitive prepositions",
         body: [
-          "Mistake 4: no case marker. \"*innerhalb zwei Wochen\" → \"innerhalb von zwei Wochen\" or \"innerhalb der nächsten zwei Wochen\". A bare number or noun can't show the genitive.",
-          "Mistake 5: dative in writing. \"*aufgrund dem Streik\" → \"aufgrund des Streiks\". The dative after \"wegen\" or \"trotz\" is tolerated in speech; after \"aufgrund\", \"infolge\" or \"angesichts\" it's simply wrong, since these are written words.",
-          "Mistake 6: wrong adjective ending without article. \"*angesichts steigenden Preise\" → \"angesichts steigender Preise\". And no \"zu\": \"*aufgrund zu dem Wetter\" is a translation of due to that doesn't exist in German.",
+          "Mistake 4: no case marker. \"*innerhalb zwei Wochen*\" → \"innerhalb von zwei Wochen\" or \"innerhalb der nächsten zwei Wochen\". A bare number or noun can't show the genitive.",
+          "Mistake 5: dative in writing. \"*aufgrund dem Streik*\" → \"aufgrund des Streiks\". The dative after \"wegen\" or \"trotz\" is tolerated in speech; after \"aufgrund\", \"infolge\" or \"angesichts\" it's simply wrong, since these are written words.",
+          "Mistake 6: wrong adjective ending without article. \"*angesichts steigenden Preise*\" → \"angesichts steigender Preise\". And no \"zu\": \"*aufgrund zu dem Wetter*\" is a translation of due to that doesn't exist in German.",
         ],
         examples: [
           { es: "Wir antworten innerhalb von zwei Wochen.", en: "We'll reply within two weeks." },
@@ -679,7 +681,7 @@ export const DE_B2_U22: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which correction of \"*innerhalb zwei Wochen\" is right?",
+            question: "Which correction of \"*innerhalb zwei Wochen*\" is right?",
             options: ["innerhalb von zwei Wochen", "innerhalb zwei Wochen lang", "innerhalb zweien Wochen", "innerhalb den zwei Wochen"],
             correctIndex: 0,
             explanation: "No article → \"von\" + dative: \"innerhalb von zwei Wochen\".",
@@ -689,9 +691,9 @@ export const DE_B2_U22: Lesson[] = [
       {
         heading: "Mistakes with was and wo-",
         body: [
-          "Mistake 7: \"das\" after a superlative or \"alles\" in writing. \"*das Beste, das ich gesehen habe\" → \"das Beste, was ich gesehen habe\"; \"*alles, das du brauchst\" → \"alles, was du brauchst\".",
-          "Mistake 8: \"das\" or \"welches\" for a whole clause. \"*Er kam zu spät, das mich ärgerte\" → \"..., was mich ärgerte\".",
-          "Mistake 9: preposition + was. \"*Sie hat bestanden, über was sich alle freuen\" → \"..., worüber sich alle freuen\". \"Mit was\" and \"über was\" are colloquial; written German uses \"womit\", \"worüber\".",
+          "Mistake 7: \"das\" after a superlative or \"alles\" in writing. \"*das Beste, das ich gesehen habe*\" → \"das Beste, was ich gesehen habe\"; \"*alles, das du brauchst*\" → \"alles, was du brauchst\".",
+          "Mistake 8: \"das\" or \"welches\" for a whole clause. \"*Er kam zu spät, das mich ärgerte*\" → \"..., was mich ärgerte\".",
+          "Mistake 9: preposition + was. \"*Sie hat bestanden, über was sich alle freuen*\" → \"..., worüber sich alle freuen\". \"Mit was\" and \"über was\" are colloquial; written German uses \"womit\", \"worüber\".",
         ],
         examples: [
           { es: "Das ist das Beste, was ich je gesehen habe.", en: "That's the best thing I've ever seen." },
@@ -1473,7 +1475,7 @@ export const DE_B2_U22: Lesson[] = [
           "For the past, use the perfect infinitive: \"Die Robbe muss ihr gefallen haben\", \"Das kann kein Zufall gewesen sein.\"",
         ],
         examples: [
-          { es: "Frau Meier muss den Roboter mögen, sie spricht jeden Tag mit ihm.", en: "Mrs Meier must like the robot, she talks to it every day." },
+          { es: "Frau Meier muss den Roboter mögen, sie spricht jeden Tag mit ihm.", en: "Ms Meier must like the robot, she talks to it every day." },
           { es: "Das dürfte die Pflegekräfte deutlich entlasten.", en: "That will probably take a lot of pressure off the care workers." },
           { es: "Pepper soll sogar Witze erzählen können.", en: "Pepper is even supposed to be able to tell jokes." },
           { es: "Herr Schulz will nie mit dem Roboter gesprochen haben.", en: "Mr Schulz claims never to have talked to the robot." },
@@ -1573,7 +1575,7 @@ export const DE_B2_U22: Lesson[] = [
         question: "Which sentence means: That can't have been a coincidence?",
         options: ["Das kann kein Zufall gewesen sein.", "Das konnte kein Zufall sein.", "Das hat kein Zufall sein können.", "Das kann kein Zufall sein gewesen."],
         correctIndex: 0,
-        explanation: "Subjective \"kann nicht / kein\" + perfect infinitive \"gewesen sein\" = can't have been.",
+        explanation: "Subjective \"kann nicht / kein\" + perfect infinitive \"gewesen sein\" = can't have been: your judgement now about the past. \"Das konnte kein Zufall sein\" puts the judgement itself in the past, as in a story (it couldn't be a coincidence).",
       },
       {
         type: "translate",
@@ -1588,7 +1590,7 @@ export const DE_B2_U22: Lesson[] = [
         type: "listen-choose",
         audio: "Frau Meier muss den Roboter mögen.",
         question: "What does it mean?",
-        options: ["Mrs Meier must like the robot. (I'm almost sure)", "Mrs Meier has to like the robot. (she's obliged to)", "Mrs Meier would like a robot.", "Mrs Meier mustn't like the robot."],
+        options: ["Ms Meier must like the robot. (I'm almost sure)", "Ms Meier has to like the robot. (she's obliged to)", "Ms Meier would like a robot.", "Ms Meier mustn't like the robot."],
         correctIndex: 0,
         explanation: "In context (she talks to it every day), \"muss\" is a conclusion, not an obligation.",
       },
@@ -1635,7 +1637,7 @@ export const DE_B2_U22: Lesson[] = [
     level: "DE-B2",
     number: 9,
     title: "Spiral Review: Die Welt des Konjunktivs",
-    summary: "Spaced review of Units 1-4 and 13: Konjunktiv II present and past, Konjunktiv I in reporting and als ob, in mixed sentences.",
+    summary: "Spaced review of Units 1-4 and 13: Konjunktiv II present and past, Konjunktiv I in reporting and \"als ob\", in mixed sentences.",
     duration: "15 min",
     sections: [
       {
@@ -2234,7 +2236,7 @@ export const DE_B2_U22: Lesson[] = [
     level: "DE-B2",
     number: 12,
     title: "Thematic Review: Das Elternhaus",
-    summary: "A woman returns to her childhood home before it is sold: memories in the Präteritum, als ob, participle attributes and regrets.",
+    summary: "A woman returns to her childhood home before it is sold: memories in the Präteritum, \"als ob\", participle attributes and regrets.",
     duration: "15 min",
     sections: [
       {
@@ -2405,6 +2407,7 @@ export const DE_B2_U22: Lesson[] = [
         prompt: "Put the words in order to say: The birch planted in the garden is huge now.",
         words: ["Die", "im Garten", "gepflanzte", "Birke", "ist", "inzwischen", "riesig."],
         translation: "The birch planted in the garden is huge now.",
+        altOrders: [["Inzwischen", "ist", "die", "im Garten", "gepflanzte", "Birke", "riesig."]],
         explanation: "\"Im Garten\" sits between \"die\" and the participle \"gepflanzte\".",
       },
       {
@@ -2522,7 +2525,7 @@ export const DE_B2_U22: Lesson[] = [
             prompt: "Translate into German, using \"sein\" + \"zu\".",
             source: "The form must be filled in completely.",
             answer: "Das Formular ist vollständig auszufüllen.",
-            altAnswers: ["Das Formular muss vollständig ausgefüllt werden.", "Das Formular ist komplett auszufüllen."],
+            altAnswers: ["Das Formular ist komplett auszufüllen."],
             explanation: "\"Ausfüllen\" is separable, so \"zu\" goes in the middle: \"auszufüllen\".",
           },
           {

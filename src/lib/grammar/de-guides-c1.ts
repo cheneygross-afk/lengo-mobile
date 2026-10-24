@@ -100,7 +100,7 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
       },
       {
         q: `Which suffix gives which gender?`,
-        a: `"-ung", "-heit", "-keit", "-schaft", "-ion", "-tät", "-ei" are feminine; "-ment" and "-tum" (both mostly: "der Moment", "der Irrtum"), "-chen" and nominalised infinitives are neuter; "-er" (people and tools), "-ling", "-ismus" and many bare stems ("der Bau", "der Verzicht") are masculine.`,
+        a: `"-ung", "-heit", "-keit", "-schaft", "-ion", "-tät", "-ei" are feminine; "-chen", nominalised infinitives and most nouns in "-ment" and "-tum" are neuter (exceptions: "der Moment", "der Irrtum"); "-er" (people and tools), "-ling", "-ismus" and many bare stems ("der Bau", "der Verzicht") are masculine.`,
       },
       {
         q: `How do I unpack a heavy noun phrase quickly?`,
@@ -130,7 +130,7 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
     level: "C1",
     intro: [
       `"Wir stellen Ihnen ein Zimmer zur Verfügung" means we will provide you with a room. The verb "stellen" (put) has almost lost its meaning; the content lies in "Verfügung". Such combinations are called Funktionsverbgefüge (FVG): a noun, often with a preposition, plus a light verb.`,
-      `They are everywhere in formal German: in letters from the authorities, contracts, business e-mails and the news. Most have a simple verb equivalent ("zur Verfügung stellen" ≈ "bereitstellen", "eine Entscheidung treffen" ≈ "entscheiden"), but they are not always interchangeable. Many are fixed: you can "eine Entscheidung treffen" but not "*eine Entscheidung machen*".`,
+      `They are everywhere in formal German: in letters from the authorities, contracts, business emails and the news. Most have a simple verb equivalent ("zur Verfügung stellen" ≈ "bereitstellen", "eine Entscheidung treffen" ≈ "entscheiden"), but they are not always interchangeable. Many are fixed: you can "eine Entscheidung treffen" but not "*eine Entscheidung machen*".`,
     ],
     sections: [
       {
@@ -278,7 +278,7 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
       {
         heading: `Generalising concession: "wie ... auch (immer)", "was auch immer"`,
         body: [
-          `"Wie sehr er sich auch bemüht, er schafft es nicht." The concessive clause has the verb at the end, and, unusually, the following main clause keeps normal verb-second order: "er schafft", not "schafft er". The same goes for "so ... auch" ("So schwer es auch ist, wir machen weiter") and "was / wer / wo / wann auch immer".`,
+          `"Wie sehr er sich auch bemüht, er schafft es nicht." The concessive clause has the verb at the end, and, unusually, the following main clause normally keeps its own verb-second order: "er schafft" rather than "schafft er". The same goes for "so ... auch" ("So schwer es auch ist, wir machen weiter") and "was / wer / wo / wann auch immer".`,
           `"Egal, ob / wie / was" is the spoken equivalent: "Egal, was du sagst, ich gehe." "Wenngleich" and "obschon" are written synonyms of "obwohl"; "wenn ... auch" is literary: "Wenn er auch reich ist, glücklich ist er nicht."`,
         ],
         examples: [
@@ -321,7 +321,7 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
       {
         wrong: "Wie sehr er sich auch bemüht, schafft er es nicht.",
         right: "Wie sehr er sich auch bemüht, er schafft es nicht.",
-        why: `After a generalising concessive clause ("wie ... auch"), the main clause keeps verb-second order with its own subject first.`,
+        why: `After a generalising concessive clause ("wie ... auch"), the main clause normally keeps verb-second order with its own subject first; the inverted version is heard but counts as less standard.`,
       },
       {
         wrong: "Nämlich habe ich keine Zeit.",
@@ -460,7 +460,7 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
     faqs: [
       {
         q: `Is "müsste" the same as "muss"?`,
-        a: `No. "Muss" is a conclusion from evidence (he must be there; the lights are on). "Müsste" is an expectation based on normal circumstances (he should be there by now). If "müsste" turns out false, nobody is surprised.`,
+        a: `No. "Muss" is a conclusion from evidence (he must be there; the lights are on). "Müsste" is an expectation based on normal circumstances (he should be there by now). "Müsste" leaves room for things to turn out otherwise.`,
       },
       {
         q: `Is "dürfte" common in speech?`,
@@ -499,7 +499,7 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
       {
         heading: `Synthetic forms vs "würde"`,
         body: [
-          `Besides "wäre", "hätte" and the modals, a group of frequent strong and mixed verbs has a living synthetic Konjunktiv II, formed from the Präteritum stem with umlaut and "-e": "käme", "ginge", "wüsste", "ließe", "bliebe", "fände", "gäbe", "nähme", "bräuchte", "dächte", "brächte".`,
+          `Besides "wäre", "hätte" and the modals, a group of frequent strong and mixed verbs has a living synthetic Konjunktiv II, formed from the Präteritum stem with umlaut and "-e": "käme", "ginge", "wüsste", "ließe", "bliebe", "fände", "gäbe", "nähme", "dächte", "brächte", and, by analogy, "bräuchte" (from the weak verb "brauchen").`,
           `"Würde" + infinitive is preferred for weak verbs (whose Konjunktiv II looks like the Präteritum: "ich kaufte") and for rare strong verbs with old-fashioned forms ("hülfe", "stürbe"). Avoid "würde sein", "würde haben" and "würde wissen": "wäre", "hätte" and "wüsste" are standard.`,
         ],
         examples: [
@@ -547,7 +547,7 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
       {
         heading: `Conditions with "sollte" and the polite Konjunktiv`,
         body: [
-          `A verb-first condition with "sollte" means if by any chance, should: "Sollten Sie Fragen haben, rufen Sie mich an." It is the standard formula in business e-mails. "Falls" is its conjunction equivalent.`,
+          `A verb-first condition with "sollte" means if by any chance, should: "Sollten Sie Fragen haben, rufen Sie mich an." It is the standard formula in business emails. "Falls" is its conjunction equivalent.`,
           `Konjunktiv II also softens statements and requests (the "Konjunktiv der Bescheidenheit"): "Ich hätte da eine Frage", "Wäre es möglich, den Termin zu verschieben?", "Das wäre alles", "Ich würde sagen, ...". Without it, "Ich will" or "Ich habe eine Frage" can sound blunt in formal contexts.`,
         ],
         examples: [
@@ -583,7 +583,7 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
     faqs: [
       {
         q: `Is "bräuchte" correct?`,
-        a: `Yes. "Bräuchte" (with umlaut) was once criticised, but it is now widely accepted, even in careful writing, and far more common than "würde brauchen".`,
+        a: `It is very common in speech, widely accepted and far more frequent than "würde brauchen", though some style guides still prefer "brauchte" or "würde brauchen" in careful writing.`,
       },
       {
         q: `Should I use "als ob" or "als" + verb?`,
@@ -937,7 +937,7 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
       {
         wrong: "Ich lasse meine Haare schneiden zu.",
         right: "Ich lasse mir die Haare schneiden.",
-        why: `"Lassen" takes an infinitive without "zu", and for body parts German uses a dative reflexive with the definite article.`,
+        why: `"Lassen" takes an infinitive without "zu", and for body parts German usually uses a dative reflexive with the definite article.`,
       },
       {
         wrong: "Das macht mich lachen.",
@@ -1221,7 +1221,7 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
     slug: "registers-du-and-sie",
     title: "Registers in German: Formal, Neutral, Colloquial, and Du vs Sie",
     description:
-      "How German signals register: vocabulary triplets (erhalten / bekommen / kriegen), grammatical markers (genitive, Präteritum, Konjunktiv I, dropped endings), du vs Sie and switching between them, terms of address, and register in e-mails and chat.",
+      "How German signals register: vocabulary triplets (erhalten / bekommen / kriegen), grammatical markers (genitive, Präteritum, Konjunktiv I, dropped endings), du vs Sie and switching between them, terms of address, and register in emails and chat.",
     level: "C1",
     intro: [
       `German has a clearer line between formal and informal than English, and it runs through grammar as well as vocabulary. The same message can be "Wir haben Ihr Schreiben erhalten", "Wir haben Ihren Brief bekommen" or "Hab deinen Brief gekriegt". All are correct; each fits a different situation.`,
@@ -1288,7 +1288,7 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
         ],
         examples: [
           { de: "Liebe Frau Klein, vielen Dank für Ihre schnelle Antwort.", en: "Dear Ms Klein, many thanks for your quick reply." },
-          { de: "Hi Jonas, passt dir 15 Uhr? LG Mia", en: "Hi Jonas, does 3 pm suit you? Love, Mia" },
+          { de: "Hi Jonas, passt dir 15 Uhr? LG Mia", en: "Hi Jonas, does 3 pm suit you? Best wishes, Mia" },
         ],
       },
     ],
@@ -1321,7 +1321,7 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
       },
       {
         q: `Should "du" be capitalised in letters?`,
-        a: `It is optional. In letters and e-mails, "du / Du" and "dein / Dein" may be capitalised as a sign of respect; both spellings are correct.`,
+        a: `It is optional. In letters and emails, "du / Du" and "dein / Dein" may be capitalised as a sign of respect; both spellings are correct.`,
       },
       {
         q: `Is it rude to keep using "Sie"?`,
@@ -1363,7 +1363,7 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
         examples: [
           { de: "Kündigung meines Mietvertrags zum 30. Juni 2026", en: "Termination of my tenancy agreement as of 30 June 2026 (subject line)" },
           { de: "Sehr geehrte Damen und Herren, hiermit kündige ich ...", en: "Dear Sir or Madam, I hereby give notice ..." },
-          { de: "Sehr geehrter Herr Yilmaz, vielen Dank für Ihre E-Mail vom 12. Mai.", en: "Dear Mr Yilmaz, thank you for your e-mail of 12 May." },
+          { de: "Sehr geehrter Herr Yilmaz, vielen Dank für Ihre E-Mail vom 12. Mai.", en: "Dear Mr Yilmaz, thank you for your email of 12 May." },
           { de: "Bezug nehmend auf unser Telefonat vom Montag sende ich Ihnen ...", en: "Further to our phone call on Monday, I am sending you ..." },
         ],
       },
@@ -1371,7 +1371,7 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
         heading: `Closings and their distance`,
         body: [
           `"Mit freundlichen Grüßen" is the neutral formal closing, with no comma after it. "Freundliche Grüße" is slightly less stiff; "Beste Grüße" and "Viele Grüße" are friendly and professional; "Liebe Grüße" is for people you know well. "Hochachtungsvoll" sounds cold and is used today mainly in disputes.`,
-          `Swiss Standard German uses "ss" instead of "ß": "Freundliche Grüsse". In e-mails, "Guten Tag Herr Yilmaz," and "Hallo Frau Becker," are common, more relaxed openings.`,
+          `Swiss Standard German uses "ss" instead of "ß": "Freundliche Grüsse". In emails, "Guten Tag Herr Yilmaz," and "Hallo Frau Becker," are common, more relaxed openings.`,
         ],
         table: {
           headers: ["Opening", "Closing", "Relationship"],
@@ -1432,7 +1432,7 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
       },
       {
         q: `"Anbei" or "im Anhang"?`,
-        a: `In e-mails, "im Anhang" (attached) is standard; "anbei" (enclosed) is used both for letters and e-mails. "Beigefügt finden Sie ..." is more formal.`,
+        a: `In emails, "im Anhang" (attached) is standard; "anbei" (enclosed) is used both for letters and emails. "Beigefügt finden Sie ..." is more formal.`,
       },
     ],
     related: ["registers-du-and-sie", "funktionsverbgefuege", "genitive-prepositions", "amtsdeutsch-legal-german"],

@@ -9,7 +9,7 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Konjunktiv II Forms, Part 1 of 3",
-    summary: "Würde + infinitive in all persons, including separable verbs that stay whole at the end.",
+    summary: "Use \"würde\" + infinitive in all persons, keeping separable verbs whole at the end.",
     duration: "10 min",
     sections: [
       {
@@ -162,7 +162,7 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Konjunktiv II Forms, Part 2 of 3",
-    summary: "Wäre and hätte in all persons, instead of würde sein and würde haben.",
+    summary: "Use \"wäre\" and \"hätte\" in all persons instead of heavy \"würde sein\" and \"würde haben\".",
     duration: "10 min",
     sections: [
       {
@@ -318,13 +318,13 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Konjunktiv II Forms, Part 3 of 3",
-    summary: "The modals in the Konjunktiv II and the common one-word forms käme, ginge, wüsste, gäbe.",
+    summary: "Practise the modals in the Konjunktiv II and the common one-word forms \"käme\", \"ginge\", \"wüsste\" and \"gäbe\".",
     duration: "10 min",
     sections: [
       {
         heading: "Recap: modals and one-word forms",
         body: [
-          "Modals: Präteritum + umlaut where the infinitive has one: \"könnte\", \"müsste\", \"dürfte\", \"möchte\"; \"sollte\" and \"wollte\" don't change. A few strong verbs keep one-word forms in everyday speech: \"wüsste\", \"gäbe\", \"käme\", \"ginge\", \"bliebe\", \"täte\". Everything else: \"würde\" + infinitive.",
+          "Modals: Präteritum + umlaut where the infinitive has one: \"könnte\", \"müsste\", \"dürfte\", \"möchte\"; \"sollte\" and \"wollte\" don't change. A few irregular verbs keep one-word forms in everyday speech: \"wüsste\", \"gäbe\", \"käme\", \"ginge\", \"bliebe\", \"täte\". Everything else: \"würde\" + infinitive.",
         ],
         examples: [
           { es: "Wir könnten zusammen kochen.", en: "We could cook together." },
@@ -422,7 +422,7 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'd buy a new laptop.",
         answer: "Ich würde einen neuen Laptop kaufen.",
-        explanation: "\"Kaufen\" is weak: \"würde ... kaufen\", never \"*kaufte\" here.",
+        explanation: "\"Kaufen\" is weak: \"würde ... kaufen\", never \"*kaufte*\" here.",
       },
       {
         type: "fill-blank",
@@ -479,7 +479,7 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
     number: 4,
     optional: true,
     title: "Extra Practice: Real-World Mission, The Lottery Ticket",
-    summary: "Your family has a lottery ticket: say what each of you would do if it won, with würde, wäre, hätte and könnte.",
+    summary: "Your family has a lottery ticket: say what each of you would do if it won, with \"würde\", \"wäre\", \"hätte\" and \"könnte\".",
     duration: "10 min",
     sections: [
       {
@@ -638,14 +638,14 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
     number: 5,
     optional: true,
     title: "Extra Practice: Error Hunt, Konjunktiv Forms",
-    summary: "Find and fix the typical slips: ich würde haben, er könnt, wir wären gehen, sie hatte gern einen Kaffee.",
+    summary: "Find and fix the typical Konjunktiv slips, such as \"*ich würde haben*\", \"*er könnt*\", \"*wir wären gehen*\" and \"*sie hatte gern einen Kaffee*\".",
     duration: "10 min",
     sections: [
       {
         heading: "Recap: the four classic slips",
         body: [
-          "1. \"*Ich würde haben\" / \"*ich würde sein\": use \"hätte\" and \"wäre\". 2. \"*Er könnt\": the er form ends in -e: \"er könnte\". 3. \"*Wir wären gehen\": would + verb is \"würden\", not \"wären\": \"wir würden gehen\". 4. \"*Sie hatte gern einen Kaffee\": the umlaut is missing: \"hätte\".",
-          "Also watch for split separable verbs after würde (\"*ich würde rufen an\") and \"würde\" for past habits.",
+          "1. \"*Ich würde haben*\" / \"*ich würde sein*\": use \"hätte\" and \"wäre\". 2. \"*Er könnt*\": the er form ends in -e: \"er könnte\". 3. \"*Wir wären gehen*\": would + verb is \"würden\", not \"wären\": \"wir würden gehen\". 4. \"*Sie hatte gern einen Kaffee*\": the umlaut is missing: \"hätte\".",
+          "Also watch for split separable verbs after \"würde\" (\"*ich würde rufen an*\") and \"würde\" for past habits.",
         ],
         examples: [
           { es: "Ich hätte gern mehr Freizeit.", en: "I'd like more free time." },
@@ -658,16 +658,16 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"*Ich würde haben mehr Freizeit.\" Write it correctly: I'd like more free time.",
+            prompt: "A learner wrote \"*Ich würde haben mehr Freizeit.*\" Write it correctly: I'd like more free time.",
             source: "I'd like more free time.",
             answer: "Ich hätte gern mehr Freizeit.",
             altAnswers: ["Ich hätte gerne mehr Freizeit."],
-            explanation: "Haben → \"hätte\", never \"würde haben\" in natural German, and nothing comes after the infinitive anyway.",
+            explanation: "Haben → \"hätte\", never \"würde haben\" in natural German; and even with \"würde\", the infinitive would have to go last.",
           },
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "He [could] help us. (a learner wrote \"*Er könnt uns helfen.\")",
+            en: "He [could] help us. (a learner wrote \"*Er könnt uns helfen.*\")",
             sentence: "Er ___ uns helfen.",
             answer: "könnte",
             explanation: "The er form of the Konjunktiv ends in -e: \"könnte\".",
@@ -679,7 +679,7 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*Wir wären gern spazieren gehen.\" Translate: We'd like to go for a walk.",
+        prompt: "Fix \"*Wir wären gern spazieren gehen.*\" Translate: We'd like to go for a walk.",
         source: "We'd like to go for a walk.",
         answer: "Wir würden gern spazieren gehen.",
         altAnswers: ["Wir würden gerne spazieren gehen.", "Wir möchten spazieren gehen.", "Wir würden gern einen Spaziergang machen."],
@@ -688,7 +688,7 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*Sie hatte gern einen Kaffee.\" Translate: She'd like a coffee.",
+        prompt: "Fix \"*Sie hatte gern einen Kaffee.*\" Translate: She'd like a coffee.",
         source: "She'd like a coffee.",
         answer: "Sie hätte gern einen Kaffee.",
         altAnswers: ["Sie hätte gerne einen Kaffee.", "Sie möchte einen Kaffee."],
@@ -697,7 +697,7 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*Ich würde rufen dich morgen an.\" Translate: I'd call you tomorrow.",
+        prompt: "Fix \"*Ich würde rufen dich morgen an.*\" Translate: I'd call you tomorrow.",
         source: "I'd call you tomorrow.",
         answer: "Ich würde dich morgen anrufen.",
         altAnswers: ["Morgen würde ich dich anrufen.", "Ich würde Sie morgen anrufen.", "Ich würde euch morgen anrufen."],
@@ -706,7 +706,7 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*Ich würde sein glücklich.\" Translate: I'd be happy.",
+        prompt: "Fix \"*Ich würde sein glücklich.*\" Translate: I'd be happy.",
         source: "I'd be happy.",
         answer: "Ich wäre glücklich.",
         altAnswers: ["Ich wäre froh."],
@@ -715,7 +715,7 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*Du könntst mir helfen.\" Translate: You could help me. (to a friend)",
+        prompt: "Fix \"*Du könntst mir helfen.*\" Translate: You could help me. (to a friend)",
         source: "You could help me.",
         answer: "Du könntest mir helfen.",
         explanation: "The du form keeps the -e-: \"könntest\".",
@@ -723,7 +723,7 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*Als Kind würde ich viel lesen.\" Translate: As a child I'd read a lot.",
+        prompt: "Fix \"*Als Kind würde ich viel lesen.*\" Translate: As a child I'd read a lot.",
         source: "As a child I'd read a lot. (a past habit)",
         answer: "Als Kind habe ich viel gelesen.",
         altAnswers: ["Als Kind las ich viel."],
@@ -732,7 +732,7 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*Es würde geben ein Problem.\" Translate: There would be a problem.",
+        prompt: "Fix \"*Es würde geben ein Problem.*\" Translate: There would be a problem.",
         source: "There would be a problem.",
         answer: "Es gäbe ein Problem.",
         altAnswers: ["Es würde ein Problem geben."],
@@ -741,7 +741,7 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*Wurdest du mir helfen?\" Translate: Would you help me? (to a friend)",
+        prompt: "Fix \"*Wurdest du mir helfen?*\" Translate: Would you help me? (to a friend)",
         source: "Would you help me?",
         answer: "Würdest du mir helfen?",
         altAnswers: ["Könntest du mir helfen?"],
@@ -750,7 +750,7 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "We [should] call Grandma. (a learner wrote \"*Wir söllten Oma anrufen.\")",
+        en: "We [should] call Grandma. (a learner wrote \"*Wir söllten Oma anrufen.*\")",
         sentence: "Wir ___ Oma anrufen.",
         answer: "sollten",
         explanation: "\"Sollen\" has no umlaut, so the Konjunktiv \"sollten\" has none either.",
@@ -758,7 +758,7 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "[I'd like to know] what that costs. (not \"*ich wusste gern\")",
+        en: "[I'd like to know] what that costs. (not \"*ich wusste gern*\")",
         sentence: "___, was das kostet.",
         answer: "Ich wüsste gern",
         altAnswers: ["Ich wüsste gerne", "Ich würde gern wissen", "Ich würde gerne wissen"],
@@ -958,7 +958,7 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
     number: 7,
     optional: true,
     title: "Extra Practice: Wäre, Hätte, Würde",
-    summary: "Choose the right Konjunktiv form for sein, haben and every other verb.",
+    summary: "Choose the right Konjunktiv form for \"sein\", \"haben\", the modals and every other verb.",
     duration: "10 min",
     sections: [
       {
@@ -1079,8 +1079,7 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
         en: "Mehmet [would] help you.",
         sentence: "Mehmet ___ dir helfen.",
         answer: "würde",
-        altAnswers: ["könnte"],
-        explanation: "\"Helfen\" at the end needs \"würde\" (or a modal).",
+        explanation: "\"Helfen\" is an ordinary verb, so would is \"würde\" with the infinitive at the end. \"Könnte\" would mean could.",
       },
       {
         type: "multiple-choice",
@@ -1118,7 +1117,7 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
     number: 8,
     optional: true,
     title: "Extra Practice: The Dream Holiday",
-    summary: "Plan an imagined trip with würde, könnte and gäbe.",
+    summary: "Plan an imagined trip with \"würde\", \"könnte\", \"gäbe\", \"wäre\" and \"hätte\".",
     duration: "10 min",
     sections: [
       {
@@ -1275,7 +1274,7 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
     number: 9,
     optional: true,
     title: "Extra Practice: Konnte or Könnte?",
-    summary: "Past fact or possibility: choose konnte or könnte, musste or müsste, durfte or dürfte.",
+    summary: "Past fact or possibility: choose \"konnte\" or \"könnte\", \"musste\" or \"müsste\", \"durfte\" or \"dürfte\".",
     duration: "10 min",
     sections: [
       {
@@ -1435,7 +1434,7 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
     number: 10,
     optional: true,
     title: "Extra Practice: Dictation, Daydreams",
-    summary: "Dictated daydreams where the umlauts carry the meaning: wäre, hätte, würde, könnte.",
+    summary: "Write down dictated daydreams where the umlauts carry the meaning: \"wäre\", \"hätte\", \"würde\", \"könnte\".",
     duration: "10 min",
     sections: [
       {

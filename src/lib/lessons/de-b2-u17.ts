@@ -17,7 +17,7 @@ export const DE_B2_U17: Lesson[] = [
           "German connectors fall into groups by where they sit. Position 0 connectors (\"und, aber, oder, denn, sondern\") stand outside the sentence: the clause after them is a normal main clause with the subject first and the verb second. \"Der Plan ist gut, aber er ist teuer.\"",
           "Adverb connectors (\"jedoch, dennoch, deshalb, trotzdem, allerdings, außerdem, folglich\") are part of the sentence. If they come first, they fill position 1, and the verb must come straight after them, before the subject: \"Jedoch ist der Plan teuer.\" They can also sit in the Mittelfeld, after the verb: \"Der Plan ist jedoch teuer.\"",
           "Subordinating conjunctions (\"weil, obwohl, dass\") send the verb to the end. That's the third pattern, which you know well.",
-          "The big English trap: however at the start of a sentence followed by a comma. If you copy that, you get \"*Jedoch, der Plan ist teuer\", which is wrong. No comma after \"jedoch\", and the verb comes next.",
+          "The big English trap: however at the start of a sentence followed by a comma. If you copy that, you get \"*Jedoch, der Plan ist teuer*\", which is wrong. No comma after \"jedoch\", and the verb comes next. (Older literary texts sometimes treat \"jedoch\" like \"aber\", with the subject next; don't copy that.)",
         ],
         examples: [
           { es: "Der Plan ist gut, aber er ist teuer.", en: "The plan is good, but it's expensive." },
@@ -39,7 +39,7 @@ export const DE_B2_U17: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which sentence is correct?",
-            options: ["Jedoch ist die Wohnung zu klein.", "Jedoch, die Wohnung ist zu klein.", "Jedoch die Wohnung ist zu klein.", "Jedoch die Wohnung zu klein ist."],
+            options: ["Jedoch ist die Wohnung zu klein.", "Jedoch, die Wohnung ist zu klein.", "Jedoch, ist die Wohnung zu klein.", "Jedoch die Wohnung zu klein ist."],
             correctIndex: 0,
             explanation: "\"Jedoch\" fills position 1, so the verb \"ist\" comes next. No comma after it.",
           },
@@ -66,7 +66,7 @@ export const DE_B2_U17: Lesson[] = [
             prompt: "Translate into German.",
             source: "The offer is interesting, but it's only valid until Friday.",
             answer: "Das Angebot ist interessant, es gilt jedoch nur bis Freitag.",
-            altAnswers: ["Das Angebot ist interessant, jedoch gilt es nur bis Freitag.", "Das Angebot ist interessant, aber es gilt nur bis Freitag.", "Das Angebot ist interessant, es ist jedoch nur bis Freitag gültig.", "Das Angebot ist interessant, aber es ist nur bis Freitag gültig."],
+            altAnswers: ["Das Angebot ist interessant, jedoch gilt es nur bis Freitag.", "Das Angebot ist interessant, aber es gilt nur bis Freitag.", "Das Angebot ist interessant, es ist jedoch nur bis Freitag gültig.", "Das Angebot ist interessant, aber es ist nur bis Freitag gültig.", "Das Angebot ist interessant, gilt jedoch nur bis Freitag."],
             explanation: "\"Jedoch\" after the verb is the most natural written style; \"aber\" in position 0 is the everyday version.",
           },
           {
@@ -90,7 +90,7 @@ export const DE_B2_U17: Lesson[] = [
           { es: "Das Hotel war schön, allerdings etwas laut.", en: "The hotel was nice, though a bit noisy." },
           { es: "Ich helfe dir gern. Allerdings habe ich erst ab sechs Zeit.", en: "I'm happy to help. Mind you, I'm only free from six." },
           { es: "Die Lage ist super, die Miete ist allerdings hoch.", en: "The location is great; the rent is high, though." },
-          { es: "„War der Film gut?“ – „Allerdings!“", en: "\"Was the film good?\" – \"It certainly was!\"" },
+          { es: "„War der Film gut?“ – „Allerdings!“", en: "'Was the film good?' – 'It certainly was!'" },
           { es: "Er spricht gut Deutsch, allerdings mit starkem Akzent.", en: "He speaks good German, albeit with a strong accent." },
         ],
         checkpoint: [
@@ -118,7 +118,7 @@ export const DE_B2_U17: Lesson[] = [
         body: [
           "\"Dennoch\" is the formal twin of \"trotzdem\" (Unit 11): something happens in spite of what was just said. \"Es regnete stark. Dennoch fand das Konzert statt.\" Same word order as \"trotzdem\": position 1 + verb, or after the verb.",
           "Don't confuse \"dennoch\" with \"denn\". \"Denn\" (because) is position 0 and gives a reason: \"Wir blieben zu Hause, denn es regnete.\" \"Dennoch\" means the opposite relationship: in spite of.",
-          "\"Dennoch\" is not a subordinating conjunction: \"*dennoch es regnete\" is as wrong as \"*trotzdem es regnete\". For although, use \"obwohl\".",
+          "\"Dennoch\" is not a subordinating conjunction: \"*dennoch es regnete*\" is as wrong as \"*trotzdem es regnete*\". For although, use \"obwohl\".",
         ],
         examples: [
           { es: "Es regnete stark. Dennoch fand das Konzert statt.", en: "It was raining heavily. Nevertheless, the concert went ahead." },
@@ -456,7 +456,7 @@ export const DE_B2_U17: Lesson[] = [
       {
         heading: "Monday: guesses about a missing friend",
         body: [
-          "Ayşe keeps a diary in German to practise. Her friend Mia didn't turn up to their café date, and Ayşe guessed what had happened. Her teacher underlined four mistakes: \"*Mia musste den Termin vergessen haben\", \"*Sie wird krank gewesen haben\", \"*Sie kann nicht den Bus verpasst sein\", \"*Ihr Handy dürfte leer gewesen sein haben\".",
+          "Ayşe keeps a diary in German to practise. Her friend Mia didn't turn up to their café date, and Ayşe guessed what had happened. Her teacher underlined four mistakes: \"*Mia musste den Termin vergessen haben*\", \"*Sie wird krank gewesen haben*\", \"*Sie kann nicht den Bus verpasst sein*\", \"*Ihr Handy dürfte leer gewesen sein haben*\".",
           "The rules to check: a guess made now keeps the modal in the present (\"muss\", not \"musste\"); the perfect infinitive takes the Perfekt auxiliary (\"gewesen sein\", \"verpasst haben\"); and there's only one auxiliary infinitive at the end.",
         ],
         examples: [
@@ -473,13 +473,13 @@ export const DE_B2_U17: Lesson[] = [
             prompt: "Translate into German.",
             source: "She'll have been ill.",
             answer: "Sie wird krank gewesen sein.",
-            altAnswers: ["Sie wird wohl krank gewesen sein.", "Sie dürfte krank gewesen sein.", "Sie muss krank gewesen sein."],
-            explanation: "\"Sein\" takes sein in the Perfekt (\"sie ist gewesen\"), so Futur II is \"wird ... gewesen sein\", not \"*gewesen haben\".",
+            altAnswers: ["Sie wird wohl krank gewesen sein.", "Sie dürfte krank gewesen sein."],
+            explanation: "\"Sein\" takes sein in the Perfekt (\"sie ist gewesen\"), so Futur II is \"wird ... gewesen sein\", not \"*gewesen haben*\".",
           },
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "She [can't have missed] the bus.",
+            en: "She [can't] have missed the bus.",
             sentence: "Sie ___ den Bus nicht verpasst haben.",
             answer: "kann",
             explanation: "\"Verpassen\" takes haben: \"verpasst haben\". \"Kann nicht\" rules it out.",
@@ -489,7 +489,7 @@ export const DE_B2_U17: Lesson[] = [
       {
         heading: "Tuesday: rumours",
         body: [
-          "On Tuesday Ayşe hears what happened from others and from Mia herself. More underlined mistakes: \"*Mia will im Krankenhaus gewesen sein, sagt ihre Mitbewohnerin\" (the flatmate is the source → \"soll\"), \"*Mia soll ihr Handy verloren haben, sagt sie selbst\" (Mia herself → \"will\").",
+          "On Tuesday Ayşe hears what happened from others and from Mia herself. More underlined mistakes: \"*Mia will im Krankenhaus gewesen sein, sagt ihre Mitbewohnerin*\" (the flatmate is the source → \"soll\"), \"*Mia soll ihr Handy verloren haben, sagt sie selbst*\" (Mia herself → \"will\").",
           "Remember the questions: Who is the source? Other people → \"soll\". The subject about themselves → \"will\". Neutral report with a named source → Konjunktiv I.",
         ],
         examples: [
@@ -522,8 +522,8 @@ export const DE_B2_U17: Lesson[] = [
       {
         heading: "Wednesday: regrets",
         body: [
-          "Ayşe feels bad for being annoyed. Her regrets had double-infinitive mistakes: \"*Ich hätte sie anrufen gesollt\" → \"Ich hätte sie anrufen sollen\"; \"*Ich weiß, dass ich nicht so wütend sein hätte dürfen\" → \"..., dass ich nicht so wütend hätte sein dürfen\" (\"hätte\" before both infinitives).",
-          "And a Futur II plan: \"*Bis Freitag werde ich mich entschuldigt\" lacks the final \"haben\": \"Bis Freitag werde ich mich entschuldigt haben.\"",
+          "Ayşe feels bad for being annoyed. Her regrets had double-infinitive mistakes: \"*Ich hätte sie anrufen gesollt*\" → \"Ich hätte sie anrufen sollen\"; \"*Ich weiß, dass ich nicht so wütend sein hätte dürfen*\" → \"..., dass ich nicht so wütend hätte sein dürfen\" (\"hätte\" before both infinitives).",
+          "And a Futur II plan: \"*Bis Freitag werde ich mich entschuldigt*\" lacks the final \"haben\": \"Bis Freitag werde ich mich entschuldigt haben.\"",
         ],
         examples: [
           { es: "Ich hätte sie anrufen sollen.", en: "I should have called her." },
@@ -539,7 +539,7 @@ export const DE_B2_U17: Lesson[] = [
             prompt: "Translate into German.",
             source: "I should have called her.",
             answer: "Ich hätte sie anrufen sollen.",
-            explanation: "The modal stays an infinitive: \"anrufen sollen\", not \"*anrufen gesollt\".",
+            explanation: "The modal stays an infinitive: \"anrufen sollen\", not \"*anrufen gesollt*\".",
           },
           {
             type: "word-order",
@@ -559,7 +559,7 @@ export const DE_B2_U17: Lesson[] = [
         source: "Mia must have forgotten the date.",
         answer: "Mia muss den Termin vergessen haben.",
         altAnswers: ["Mia muss das Treffen vergessen haben.", "Mia muss die Verabredung vergessen haben."],
-        explanation: "Present \"muss\" + perfect infinitive, not \"*musste\".",
+        explanation: "Present \"muss\" + perfect infinitive, not \"*musste*\".",
       },
       {
         type: "translate",
@@ -637,7 +637,7 @@ export const DE_B2_U17: Lesson[] = [
     level: "DE-B2",
     number: 4,
     title: "Thematic Review: Ausbildung oder Studium?",
-    summary: "Leon, a school-leaver in Nuremberg, weighs a dual apprenticeship against a degree: connectors, concession, Futur II and the unreal past.",
+    summary: "Weigh an apprenticeship against a degree with Leon in Nuremberg, using \"jedoch\", \"allerdings\", \"dennoch\" and \"zwar ... aber\", the Futur II and the unreal past.",
     duration: "15 min",
     sections: [
       {
@@ -777,7 +777,7 @@ export const DE_B2_U17: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence is correct?",
-        options: ["Die Bezahlung ist gering, jedoch ist die Arbeit interessant.", "Die Bezahlung ist gering, jedoch die Arbeit ist interessant.", "Die Bezahlung ist gering, jedoch, die Arbeit ist interessant.", "Die Bezahlung ist gering, die Arbeit jedoch interessant ist."],
+        options: ["Die Bezahlung ist gering, jedoch ist die Arbeit interessant.", "Die Bezahlung ist gering, jedoch die Arbeit interessant ist.", "Die Bezahlung ist gering, jedoch, die Arbeit ist interessant.", "Die Bezahlung ist gering, die Arbeit jedoch interessant ist."],
         correctIndex: 0,
         explanation: "\"Jedoch\" in position 1 + verb.",
       },
@@ -827,7 +827,7 @@ export const DE_B2_U17: Lesson[] = [
     level: "DE-B2",
     number: 5,
     title: "Thematic Review: Das Ehrenamt",
-    summary: "Renate, a retired teacher, volunteers at the Tafel food bank: causes, consequences and reported statements from the people she meets.",
+    summary: "Talk about volunteering at the Tafel food bank with Renate: give causes and consequences with \"da\", \"deshalb\", \"daher\" and \"folglich\", and report what visitors say in the Konjunktiv I.",
     duration: "15 min",
     sections: [
       {
@@ -986,6 +986,7 @@ export const DE_B2_U17: Lesson[] = [
         prompt: "Put the words in order to say: A lot of food would otherwise be thrown away.",
         words: ["Viele", "Lebensmittel", "würden", "sonst", "weggeworfen", "werden."],
         translation: "A lot of food would otherwise be thrown away.",
+        altOrders: [["Sonst", "würden", "viele", "Lebensmittel", "weggeworfen", "werden."]],
         explanation: "Konjunktiv II passive: \"würden ... weggeworfen werden\"; \"sonst\" = otherwise.",
       },
       {
@@ -1056,7 +1057,7 @@ export const DE_B2_U17: Lesson[] = [
         body: [
           "\"Folglich\" (consequently) and \"somit\" (thus, hence) belong to formal writing: reports, essays, argument. Same word order: \"Die Kosten sind gestiegen, folglich müssen wir sparen.\" / \"Wir müssen folglich sparen.\"",
           "\"Somit\" often draws a conclusion or sums up: \"Alle Formulare liegen vor. Somit ist der Antrag vollständig.\" (All forms are present. The application is thus complete.)",
-          "The trap is the English comma: \"*Folglich, wir müssen warten.\" German has no comma after these words and puts the verb straight after them.",
+          "The trap is the English comma: \"*Folglich, wir müssen warten.*\" German has no comma after these words and puts the verb straight after them.",
         ],
         examples: [
           { es: "Die Kosten sind gestiegen, folglich müssen wir sparen.", en: "Costs have risen; consequently, we have to save." },
@@ -1215,7 +1216,7 @@ export const DE_B2_U17: Lesson[] = [
     level: "DE-B2",
     number: 7,
     title: "Spiral Review: Das Ferienhaus an der Ostsee",
-    summary: "The Becker family must sell their holiday home on Usedom: concession, regret and passive alternatives in one story.",
+    summary: "Follow the Becker family as they decide to sell their holiday home on Usedom, and use concession connectors, regrets with \"hätten ... sollen\" and passive alternatives in one story.",
     duration: "15 min",
     sections: [
       {
@@ -1362,6 +1363,7 @@ export const DE_B2_U17: Lesson[] = [
         prompt: "Translate into German.",
         source: "We should have had the roof repaired.",
         answer: "Wir hätten das Dach reparieren lassen sollen.",
+        altAnswers: ["Wir hätten das Dach reparieren lassen müssen."],
         explanation: "Three infinitives at the end: \"reparieren lassen sollen\".",
       },
       {
@@ -1713,7 +1715,7 @@ export const DE_B2_U17: Lesson[] = [
         heading: "Nämlich: the reason that comes after",
         body: [
           "\"Nämlich\" gives a reason or an explanation for what you've just said, in the second sentence: \"Ich komme heute nicht. Ich bin nämlich krank.\" (I'm not coming today. I'm ill, you see.) It's very common in speech.",
-          "Its position is fixed: never at the start. It sits after the verb (and after pronouns): \"Ich bin nämlich krank\", \"Er hat es mir nämlich gestern gesagt\". \"*Nämlich ich bin krank\" is wrong.",
+          "Its position is fixed: never at the start. It sits after the verb (and after pronouns): \"Ich bin nämlich krank\", \"Er hat es mir nämlich gestern gesagt\". \"*Nämlich ich bin krank*\" is wrong.",
           "Trap: \"nämlich\" also means namely (specifying: \"drei Länder, nämlich Deutschland, Österreich und die Schweiz\"), but in conversation it's mostly the you-see / because meaning, where English uses no word at all.",
         ],
         examples: [
@@ -1736,9 +1738,9 @@ export const DE_B2_U17: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which sentence is correct?",
-            options: ["Sie ist nicht da, sie hat nämlich Urlaub.", "Sie ist nicht da, nämlich hat sie Urlaub.", "Sie ist nicht da, nämlich sie hat Urlaub.", "Sie ist nicht da, nämlich weil sie Urlaub hat."],
+            options: ["Sie ist nicht da, sie hat nämlich Urlaub.", "Sie ist nicht da, nämlich hat sie Urlaub.", "Sie ist nicht da, nämlich sie hat Urlaub.", "Sie ist nicht da, sie nämlich hat Urlaub."],
             correctIndex: 0,
-            explanation: "\"Nämlich\" can't fill position 1; it goes after the verb.",
+            explanation: "\"Nämlich\" can't fill position 1 or come before the verb; it goes after the verb.",
           },
           {
             type: "listen-choose",
@@ -2038,14 +2040,14 @@ export const DE_B2_U17: Lesson[] = [
     level: "DE-B2",
     number: 11,
     title: "Thematic Review: Kulturerbe retten",
-    summary: "Volunteers restore a half-timbered church in a Thuringian village: connectors, the Zustandspassiv and extended participle phrases.",
+    summary: "Describe how volunteers save a half-timbered church in a Thuringian village, using the Zustandspassiv, extended participle phrases and connectors such as \"jedoch\", \"zudem\" and \"insofern ... als\".",
     duration: "15 min",
     sections: [
       {
         heading: "A church in danger",
         body: [
           "In a village near Erfurt stands a small \"Fachwerkkirche\" (half-timbered church) from 1712. For years nobody used it: the congregation had shrunk, and there was no money for repairs. The beams were rotten, the roof leaked. In 2019 a group of villagers founded a \"Förderverein\" (a support association) to save it.",
-          "Descriptions of the state of the building use the Zustandspassiv: \"Die Balken waren morsch\" is an adjective, but \"Das Dach war beschädigt\", \"Die Fenster waren zugenagelt\", \"Der Eingang war gesperrt\" are \"sein\" + participle: the result of something that happened.",
+          "Descriptions of the state of the building use the Zustandspassiv: in \"Die Balken waren morsch\", \"morsch\" (rotten) is a plain adjective, but \"Das Dach war beschädigt\", \"Die Fenster waren zugenagelt\", \"Der Eingang war gesperrt\" are \"sein\" + participle: the result of something that happened.",
         ],
         examples: [
           { es: "Das Dach war an vielen Stellen beschädigt.", en: "The roof was damaged in many places." },
@@ -2225,14 +2227,14 @@ export const DE_B2_U17: Lesson[] = [
     level: "DE-B2",
     number: 12,
     title: "Error Hunt: Connectors",
-    summary: "Correct and explain typical connector errors: \"*Jedoch, das ist teuer\", \"*Nämlich ich bin krank\", \"*deshalb ich bin gekommen\", \"*trotzdem er kam\", \"*Folglich, wir müssen warten\", \"*aber ist es teuer\".",
+    summary: "Correct and explain typical connector errors: \"*Jedoch, das ist teuer*\", \"*Nämlich ich bin krank*\", \"*deshalb ich bin gekommen*\", \"*trotzdem er kam*\", \"*Folglich, wir müssen warten*\", \"*aber ist es teuer*\".",
     duration: "14 min",
     sections: [
       {
         heading: "The comma and the subject after adverb connectors",
         body: [
-          "The most frequent English-speaker error: \"*Jedoch, das ist teuer.\" English puts a comma after however and continues with subject + verb. In German, \"jedoch\" is part of the sentence, fills position 1 and needs the verb next: \"Jedoch ist das teuer.\" (or \"Das ist jedoch teuer\").",
-          "The same applies to \"deshalb, folglich, trotzdem, dennoch, außerdem, zudem, allerdings\": \"*deshalb ich bin gekommen\" → \"deshalb bin ich gekommen\"; \"*Folglich, wir müssen warten\" → \"Folglich müssen wir warten\".",
+          "The most frequent English-speaker error: \"*Jedoch, das ist teuer.*\" English puts a comma after however and continues with subject + verb. In German, \"jedoch\" is part of the sentence, fills position 1 and needs the verb next: \"Jedoch ist das teuer.\" (or \"Das ist jedoch teuer\").",
+          "The same applies to \"deshalb, folglich, trotzdem, dennoch, außerdem, zudem, allerdings\": \"*deshalb ich bin gekommen*\" → \"deshalb bin ich gekommen\"; \"*Folglich, wir müssen warten*\" → \"Folglich müssen wir warten\".",
         ],
         examples: [
           { es: "Jedoch ist das teuer.", en: "However, that's expensive." },
@@ -2245,7 +2247,7 @@ export const DE_B2_U17: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"*Folglich, wir müssen warten.\" Write the correct German for: Consequently, we have to wait.",
+            prompt: "A learner wrote \"*Folglich, wir müssen warten.*\" Write the correct German for: Consequently, we have to wait.",
             source: "Consequently, we have to wait.",
             answer: "Folglich müssen wir warten.",
             altAnswers: ["Wir müssen folglich warten."],
@@ -2258,16 +2260,16 @@ export const DE_B2_U17: Lesson[] = [
             sentence: "Ich hatte Zeit, ___.",
             answer: "deshalb bin ich gekommen",
             altAnswers: ["deswegen bin ich gekommen", "daher bin ich gekommen", "also bin ich gekommen", "deshalb kam ich"],
-            explanation: "\"*Deshalb ich bin gekommen\" is wrong: verb second.",
+            explanation: "\"*Deshalb ich bin gekommen*\" is wrong: verb second.",
           },
         ],
       },
       {
         heading: "Nämlich, trotzdem and aber in the wrong slot",
         body: [
-          "\"*Nämlich ich bin krank\": \"nämlich\" can't open the sentence at all. Put it after the verb: \"Ich bin nämlich krank.\"",
-          "\"*Ich ging spazieren, trotzdem es regnete\": \"trotzdem\" is not a subordinating conjunction in standard German. Either \"obwohl es regnete\" (verb at the end) or \"Es regnete, trotzdem ging ich spazieren\".",
-          "\"*Der Plan ist gut, aber ist es teuer\": the opposite mistake. \"Aber\" is position 0 and doesn't cause inversion: \"aber es ist teuer\".",
+          "\"*Nämlich ich bin krank*\": \"nämlich\" can't open the sentence at all. Put it after the verb: \"Ich bin nämlich krank.\"",
+          "\"*Ich ging spazieren, trotzdem es regnete*\": \"trotzdem\" is not a subordinating conjunction in standard German. Either \"obwohl es regnete\" (verb at the end) or \"Es regnete, trotzdem ging ich spazieren\".",
+          "\"*Der Plan ist gut, aber ist es teuer*\": the opposite mistake. \"Aber\" is position 0 and doesn't cause inversion: \"aber es ist teuer\".",
         ],
         examples: [
           { es: "Ich bin nämlich krank.", en: "I'm ill, you see." },
@@ -2280,7 +2282,7 @@ export const DE_B2_U17: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"*Er kam, trotzdem er keine Zeit hatte.\" Write the correct German for: He came although he had no time.",
+            prompt: "A learner wrote \"*Er kam, trotzdem er keine Zeit hatte.*\" Write the correct German for: He came although he had no time.",
             source: "He came although he had no time.",
             answer: "Er kam, obwohl er keine Zeit hatte.",
             altAnswers: ["Er ist gekommen, obwohl er keine Zeit hatte.", "Obwohl er keine Zeit hatte, kam er.", "Obwohl er keine Zeit hatte, ist er gekommen."],
@@ -2288,19 +2290,19 @@ export const DE_B2_U17: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which correction of \"*Der Plan ist gut, aber ist es teuer\" is right?",
-            options: ["Der Plan ist gut, aber er ist teuer.", "Der Plan ist gut, aber teuer ist es.", "Der Plan ist gut, jedoch er ist teuer.", "Der Plan ist gut, aber er teuer ist."],
+            question: "Which correction of \"*Der Plan ist gut, aber ist es teuer*\" is right?",
+            options: ["Der Plan ist gut, aber er ist teuer.", "Der Plan ist gut, aber teuer ist es.", "Der Plan ist gut, jedoch er teuer ist.", "Der Plan ist gut, aber er teuer ist."],
             correctIndex: 0,
-            explanation: "\"Aber\" in position 0 → normal subject-verb order. (\"Der Plan\" is masculine, so \"er\".)",
+            explanation: "\"Aber\" in position 0 → normal subject-verb order. (\"Der Plan\" is masculine, so \"er\", not \"es\"; and no main clause ends with its verb.)",
           },
         ],
       },
       {
         heading: "Logic errors: the wrong connector",
         body: [
-          "Some sentences have perfect word order but the wrong logic. \"*Es regnete, deshalb gingen wir spazieren\" (that's why we went walking?) should be \"trotzdem\". \"*Ich bin müde, trotzdem gehe ich ins Bett\" should be \"deshalb\".",
+          "Some sentences have perfect word order but the wrong logic. \"*Es regnete, deshalb gingen wir spazieren*\" (that's why we went walking?) should be \"trotzdem\". \"*Ich bin müde, trotzdem gehe ich ins Bett*\" should be \"deshalb\".",
           "\"Denn\" vs \"dennoch\": \"Ich blieb zu Hause, denn ich war krank\" (because) vs \"Ich war krank, dennoch ging ich zur Arbeit\" (nevertheless). Mixing them up reverses the meaning.",
-          "\"Sondern\" vs \"aber\": after a negation that's being corrected, only \"sondern\": \"*Das ist nicht rot, aber blau\" → \"sondern blau\".",
+          "\"Sondern\" vs \"aber\": after a negation that's being corrected, only \"sondern\": \"*Das ist nicht rot, aber blau*\" → \"sondern blau\".",
         ],
         examples: [
           { es: "Es regnete, trotzdem gingen wir spazieren.", en: "It was raining, but we went for a walk anyway." },
@@ -2332,7 +2334,7 @@ export const DE_B2_U17: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Jedoch, das Hotel war laut.\" Write the correct German for: However, the hotel was noisy.",
+        prompt: "A learner wrote \"*Jedoch, das Hotel war laut.*\" Write the correct German for: However, the hotel was noisy.",
         source: "However, the hotel was noisy.",
         answer: "Jedoch war das Hotel laut.",
         altAnswers: ["Das Hotel war jedoch laut."],
@@ -2341,7 +2343,7 @@ export const DE_B2_U17: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Nämlich ich habe keine Zeit.\" Write the correct German for: I don't have time, you see.",
+        prompt: "A learner wrote \"*Nämlich ich habe keine Zeit.*\" Write the correct German for: I don't have time, you see.",
         source: "I don't have time, you see.",
         answer: "Ich habe nämlich keine Zeit.",
         explanation: "\"Nämlich\" goes after the verb, never first.",
@@ -2349,7 +2351,7 @@ export const DE_B2_U17: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Außerdem, es ist zu spät.\" Write the correct German for: Besides, it's too late.",
+        prompt: "A learner wrote \"*Außerdem, es ist zu spät.*\" Write the correct German for: Besides, it's too late.",
         source: "Besides, it's too late.",
         answer: "Außerdem ist es zu spät.",
         altAnswers: ["Es ist außerdem zu spät.", "Zudem ist es zu spät."],
@@ -2358,7 +2360,7 @@ export const DE_B2_U17: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Ich bin müde, trotzdem gehe ich ins Bett.\" Write what they meant: I'm tired, so I'm going to bed.",
+        prompt: "A learner wrote \"*Ich bin müde, trotzdem gehe ich ins Bett.*\" Write what they meant: I'm tired, so I'm going to bed.",
         source: "I'm tired, so I'm going to bed.",
         answer: "Ich bin müde, deshalb gehe ich ins Bett.",
         altAnswers: ["Ich bin müde, deswegen gehe ich ins Bett.", "Ich bin müde, daher gehe ich ins Bett.", "Ich bin müde, also gehe ich ins Bett."],

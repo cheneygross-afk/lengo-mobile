@@ -83,7 +83,7 @@ export const DE_CULTURE_U01: Lesson[] = [
       {
         heading: "Karneval, Fasching, Fasnacht: one season, three worlds",
         body: [
-          "The \"fünfte Jahreszeit\" (fifth season) officially opens on 11 November at 11:11, but its high point is the week before Lent. What it is called and how it is celebrated depends entirely on where you are: \"Karneval\" in the Rhineland (Köln, Düsseldorf, Mainz), \"Fasching\" in Bavaria, Saxony and Austria, \"Fasnacht\" or \"Fastnacht\" in the south-west, where the Swabian-Alemannic tradition uses carved wooden masks and has older roots and looks much eerier than the Rhineland parties.",
+          "The \"fünfte Jahreszeit\" (fifth season) officially opens on 11 November at 11:11, but its high point is the week before Lent. What it is called and how it is celebrated depends entirely on where you are: \"Karneval\" in the Rhineland (Köln, Düsseldorf, Mainz), \"Fasching\" in Bavaria, Saxony and Austria, \"Fasnacht\" or \"Fastnacht\" in the south-west, where the Swabian-Alemannic tradition uses carved wooden masks, has older roots and looks much eerier than the Rhineland parties.",
           "The key days: \"Weiberfastnacht\" (the Thursday before), when women take over town halls and cut off men's ties, so don't wear your best tie to the office in Cologne; \"Rosenmontag\", the Monday with the big parades, where people shout for sweets (\"Kamelle!\") thrown from the floats; and \"Aschermittwoch\" (Ash Wednesday), when it is all over and Lent begins. The cheers differ too: \"Alaaf!\" in Cologne, \"Helau!\" in Düsseldorf and Mainz. Shouting the wrong one in the wrong city will get you teased at the very least.",
           "The trap for foreigners: Karneval is not a national celebration. In Hamburg, Berlin or Rostock most people work normally and find the whole thing slightly baffling, and Rosenmontag is not an official public holiday anywhere, even if offices in Cologne shut for it. \"Das macht man im Rheinland so\" (That's what people do in the Rhineland) is the honest answer to most questions.",
         ],
@@ -100,7 +100,7 @@ export const DE_CULTURE_U01: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "In Cologne people shout Alaaf, not Helau.",
+            source: "In Cologne people shout \"Alaaf\", not \"Helau\".",
             answer: "In Köln ruft man „Alaaf“, nicht „Helau“.",
             altAnswers: ["In Köln ruft man Alaaf, nicht Helau.", "In Köln rufen die Leute Alaaf, nicht Helau.", "In Köln rufen die Leute „Alaaf“, nicht „Helau“.", "In Köln wird Alaaf gerufen, nicht Helau."],
             explanation: "\"Man\" + verb in the third person singular describes what people generally do. The place comes first, so the verb \"ruft\" is second and \"man\" follows it.",
@@ -177,7 +177,7 @@ export const DE_CULTURE_U01: Lesson[] = [
         prompt: "Translate into German.",
         source: "On Weiberfastnacht you shouldn't wear your best tie.",
         answer: "An Weiberfastnacht sollte man nicht seine beste Krawatte tragen.",
-        altAnswers: ["An Weiberfastnacht sollte man nicht die beste Krawatte tragen.", "An Weiberfastnacht solltest du nicht deine beste Krawatte tragen.", "An Weiberfastnacht sollten Sie nicht Ihre beste Krawatte tragen.", "An Weiberfastnacht sollte man lieber nicht seine beste Krawatte tragen.", "An Weiberfastnacht trägt man besser nicht seine beste Krawatte.", "Man sollte an Weiberfastnacht nicht seine beste Krawatte tragen.", "An Weiberfastnacht sollte man seine beste Krawatte nicht tragen."],
+        altAnswers: ["An Weiberfastnacht sollte man nicht die beste Krawatte tragen.", "An Weiberfastnacht solltest du nicht deine beste Krawatte tragen.", "An Weiberfastnacht sollten Sie nicht Ihre beste Krawatte tragen.", "An Weiberfastnacht sollte man lieber nicht seine beste Krawatte tragen.", "An Weiberfastnacht trägt man besser nicht seine beste Krawatte.", "Man sollte an Weiberfastnacht nicht seine beste Krawatte tragen.", "An Weiberfastnacht sollte man seine beste Krawatte nicht tragen.", "An Weiberfastnacht solltest du deine beste Krawatte nicht tragen.", "An Weiberfastnacht sollten Sie Ihre beste Krawatte nicht tragen.", "Man sollte an Weiberfastnacht seine beste Krawatte nicht tragen."],
         explanation: "\"Sollte\" (Konjunktiv II of sollen) gives advice; with \"man\" the possessive is \"seine\". Generic you can be \"man\", \"du\" or \"Sie\".",
       },
       {
@@ -185,7 +185,7 @@ export const DE_CULTURE_U01: Lesson[] = [
         prompt: "Put the words in order to say: The blessing is written above the door in chalk.",
         words: ["Der Segen", "wird", "mit Kreide", "über die Tür", "geschrieben."],
         translation: "The blessing is written above the door in chalk.",
-        altOrders: [["Der Segen", "wird", "über die Tür", "mit Kreide", "geschrieben."], ["Mit Kreide", "wird", "der Segen", "über die Tür", "geschrieben."]],
+        altOrders: [["Der Segen", "wird", "über die Tür", "mit Kreide", "geschrieben."], ["Mit Kreide", "wird", "der Segen", "über die Tür", "geschrieben."], ["Über die Tür", "wird", "der Segen", "mit Kreide", "geschrieben."]],
         explanation: "Passive: \"wird\" in second position, the participle \"geschrieben\" at the very end, and the details in between.",
       },
       {
@@ -203,7 +203,7 @@ export const DE_CULTURE_U01: Lesson[] = [
       {
         type: "speak",
         text: "In Köln ruft man Alaaf, in Düsseldorf Helau.",
-        prompt: "Say it in German: In Cologne people shout Alaaf, in Düsseldorf Helau.",
+        prompt: "Say it in German: In Cologne people shout \"Alaaf\", in Düsseldorf \"Helau\".",
         tip: "\"Köln\" has the rounded ö: say e as in bed with rounded lips. Stress \"Alaaf\" on the second syllable.",
         explanation: "\"Man ruft\": generic man for what people do; the second clause drops the repeated verb, which is natural in German too.",
       },
@@ -382,7 +382,7 @@ export const DE_CULTURE_U01: Lesson[] = [
         prompt: "Translate into German.",
         source: "Corpus Christi is a public holiday in Bavaria but not in Berlin.",
         answer: "Fronleichnam ist in Bayern ein Feiertag, aber nicht in Berlin.",
-        altAnswers: ["Fronleichnam ist in Bayern ein Feiertag, in Berlin aber nicht.", "In Bayern ist Fronleichnam ein Feiertag, aber nicht in Berlin.", "In Bayern ist Fronleichnam ein Feiertag, in Berlin nicht.", "Fronleichnam ist in Bayern ein Feiertag, in Berlin nicht."],
+        altAnswers: ["Fronleichnam ist in Bayern ein Feiertag, in Berlin aber nicht.", "In Bayern ist Fronleichnam ein Feiertag, aber nicht in Berlin.", "In Bayern ist Fronleichnam ein Feiertag, in Berlin nicht.", "Fronleichnam ist in Bayern ein Feiertag, in Berlin nicht.", "In Bayern ist Fronleichnam ein Feiertag, in Berlin aber nicht."],
         explanation: "Holidays depend on the Bundesland: Catholic states have \"Fronleichnam\"; Berlin, which is largely Protestant or non-religious, does not.",
       },
       {
@@ -466,7 +466,7 @@ export const DE_CULTURE_U01: Lesson[] = [
         heading: "Heiligabend, the Bescherung and two Christmas Days",
         body: [
           "The big moment of a German Christmas is \"Heiligabend\" (Christmas Eve), the 24th. Shops close by early afternoon, many families decorate the tree that day, go to church in the late afternoon and then have the \"Bescherung\": the giving of presents, in the evening of the 24th, not on the morning of the 25th as in Britain or the US. Dinner is often surprisingly simple: \"Kartoffelsalat mit Würstchen\" is the classic.",
-          "Who brings the presents depends on the region: in the Catholic south and west it is \"das Christkind\", an angel-like child; in the north and east it is \"der Weihnachtsmann\", a Santa Claus figure. Children are often sent out of the room while the Christkind 'comes', and a little bell signals that they may go in.",
+          "Who brings the presents depends on the region: in the south and west it is \"das Christkind\", an angel-like child (popularised by Martin Luther, yet today strongest in the Catholic regions); in the north and east it is \"der Weihnachtsmann\", a Santa Claus figure. Children are often sent out of the room while the Christkind 'comes', and a little bell signals that they may go in.",
           "The 25th and 26th are \"der erste und zweite Weihnachtsfeiertag\", both public holidays, devoted to big family meals (often a \"Weihnachtsgans\", Christmas goose) and visiting relatives. The wishes: \"Frohe Weihnachten!\" or \"Frohes Fest!\", and at work before the break \"Schöne Feiertage!\".",
         ],
         examples: [
@@ -547,7 +547,7 @@ export const DE_CULTURE_U01: Lesson[] = [
         prompt: "Translate into German.",
         source: "You pay a deposit on the mug and get it back when you return it.",
         answer: "Auf den Becher zahlt man Pfand und bekommt es zurück, wenn man ihn zurückgibt.",
-        altAnswers: ["Auf den Becher zahlt man Pfand, und man bekommt es zurück, wenn man ihn zurückgibt.", "Man zahlt Pfand auf den Becher und bekommt es zurück, wenn man ihn zurückgibt.", "Man zahlt Pfand für den Becher und bekommt es zurück, wenn man ihn zurückbringt.", "Auf die Tasse zahlt man Pfand und bekommt es zurück, wenn man sie zurückgibt.", "Man zahlt Pfand auf die Tasse und bekommt es zurück, wenn man sie zurückbringt."],
+        altAnswers: ["Auf den Becher zahlt man Pfand, und man bekommt es zurück, wenn man ihn zurückgibt.", "Man zahlt Pfand auf den Becher und bekommt es zurück, wenn man ihn zurückgibt.", "Man zahlt Pfand für den Becher und bekommt es zurück, wenn man ihn zurückbringt.", "Auf die Tasse zahlt man Pfand und bekommt es zurück, wenn man sie zurückgibt.", "Man zahlt Pfand auf die Tasse und bekommt es zurück, wenn man sie zurückbringt.", "Man zahlt Pfand für den Becher und bekommt es zurück, wenn man ihn zurückgibt.", "Auf den Becher zahlt man Pfand und bekommt es zurück, wenn man ihn zurückbringt.", "Auf den Becher zahlst du Pfand und bekommst es zurück, wenn du ihn zurückgibst."],
         explanation: "\"Das Pfand\" is neuter, so \"es\"; \"der Becher\" is masculine, so \"ihn\". In the wenn-clause the separable verb stays together at the end: \"zurückgibt\".",
       },
       {
@@ -565,8 +565,8 @@ export const DE_CULTURE_U01: Lesson[] = [
         en: "In our family [presents are opened] on Christmas Eve.",
         sentence: "Bei uns ___ am Heiligabend.",
         answer: "ist die Bescherung",
-        altAnswers: ["gibt es die Bescherung", "werden die Geschenke ausgepackt"],
-        explanation: "\"Die Bescherung\" is the giving and opening of presents on the evening of the 24th.",
+        altAnswers: ["gibt es die Bescherung"],
+        explanation: "\"Die Bescherung\" is the giving and opening of presents on the evening of the 24th. (\"Werden die Geschenke ausgepackt\" would need the participle at the end: \"Bei uns werden die Geschenke am Heiligabend ausgepackt\".)",
       },
       {
         type: "translate",
@@ -673,7 +673,7 @@ export const DE_CULTURE_U01: Lesson[] = [
         heading: "On the Fest: Schorle, Federweißer and the Weinkönigin",
         body: [
           "Lena: \"Schau mal, da vorne ist die Weinkönigin!\" Every wine region elects a \"Weinkönigin\" (wine queen), usually a young woman from a winemaking family who represents the region's wines for a year, crown and sash included. You: \"Ach, so was gibt's hier? Wird die jedes Jahr gewählt?\" Lena: \"Ja, jedes Jahr. Das ist hier eine große Sache.\"",
-          "At the stand: \"Für mich eine Weinschorle, bitte.\" A \"Schorle\" is wine (or apple juice: \"Apfelschorle\") mixed with sparkling water; in the Pfalz it comes in a half-litre dimpled glass, the \"Dubbeglas\". In autumn you must try \"Federweißer\", young, still fermenting wine, cloudy, sweet and deceptively strong, which is traditionally eaten with \"Zwiebelkuchen\" (a hot onion tart). In Austria it is called \"Sturm\".",
+          "At the stand: \"Für mich eine Weinschorle, bitte.\" A \"Schorle\" is wine (or apple juice: \"Apfelschorle\") mixed with sparkling water; in the Pfalz it comes in a half-litre dimpled glass, the \"Dubbeglas\". In autumn you must try \"Federweißer\", young, still fermenting wine, cloudy, sweet and deceptively strong, which traditionally comes with \"Zwiebelkuchen\" (a hot onion tart). In Austria it is called \"Sturm\".",
           "In the background a \"Blaskapelle\" (brass band) plays, people sit on beer benches (\"Bierbänke\") at long tables with strangers, and someone will start swaying arm in arm: \"schunkeln\". You sit down by asking \"Ist hier noch frei?\", the standard question for any free seat at a shared table.",
         ],
         examples: [
@@ -840,8 +840,8 @@ export const DE_CULTURE_U01: Lesson[] = [
       {
         heading: "Auf die Wiesn: the Oktoberfest from the inside",
         body: [
-          "In Munich hardly anyone says Oktoberfest in everyday speech: it is \"die Wiesn\" (Bavarian for die Wiese, the meadow, after the Theresienwiese where it takes place). You go \"auf die Wiesn\" and you are \"auf der Wiesn\". And despite the name it starts in September: it opens on a Saturday in the second half of September and ends on the first Sunday of October (or on 3 October if that falls later).",
-          "The opening ritual: at noon on the first Saturday the mayor of Munich taps the first keg in the Schottenhamel tent and shouts the Bavarian words O'zapft is! (that is, \"es ist angezapft\": it's tapped). Only then may beer be served. Many visitors wear \"Tracht\": the \"Dirndl\" for women and \"Lederhosen\" for men. Folk wisdom says a bow tied on the left of a Dirndl means single, on the right taken.",
+          "In Munich hardly anyone says \"Oktoberfest\" in everyday speech: it is \"die Wiesn\" (Bavarian for die Wiese, the meadow, after the Theresienwiese where it takes place). You go \"auf die Wiesn\" and you are \"auf der Wiesn\". And despite the name it starts in September: it opens on a Saturday in the second half of September and ends on the first Sunday of October (or on 3 October if that falls later).",
+          "The opening ritual: at noon on the first Saturday the mayor of Munich taps the first keg in the Schottenhamel tent and shouts the Bavarian words \"O'zapft is!\" (that is, \"es ist angezapft\": it's tapped). Only then may beer be served. Many visitors wear \"Tracht\": the \"Dirndl\" for women and \"Lederhosen\" for men. Folk wisdom says a bow tied on the left of a Dirndl means single, on the right taken.",
           "Beer comes in \"eine Maß\", one litre, and the word is feminine: \"eine Maß\", \"zwei Maß\" (no plural ending after a number). In Bavaria it is pronounced with a short a, like Mass. In the \"Bierzelt\" (beer tent) a brass band plays \"Ein Prosit der Gemütlichkeit\" several times an hour (often said to be every twenty minutes), and the whole tent stands up, sings and drinks: a ritual that, people joke, mainly sells more beer.",
         ],
         examples: [
@@ -1085,7 +1085,7 @@ export const DE_CULTURE_U01: Lesson[] = [
         heading: "Part 1: Why the Oktoberfest starts in September",
         body: [
           "The facts in German: \"Am 12. Oktober 1810 heirateten Kronprinz Ludwig von Bayern und Prinzessin Therese von Sachsen-Hildburghausen. Zur Feier der Hochzeit wurde vor den Toren Münchens ein Pferderennen veranstaltet. Die Wiese wurde nach der Braut benannt: die Theresienwiese, kurz die Wiesn.\"",
-          "\"Weil das Fest im folgenden Jahr wiederholt wurde, entstand daraus eine Tradition. Später wurde der Beginn in den September vorverlegt, weil das Wetter dann besser ist. Heute endet das Oktoberfest am ersten Sonntag im Oktober; nur die letzten Tage liegen also wirklich im Oktober.\"",
+          "\"Weil das Fest im folgenden Jahr wiederholt wurde, entstand daraus eine Tradition. Später wurde der Beginn in den September vorverlegt, weil das Wetter dann besser ist. Heute endet das Oktoberfest am ersten Sonntag im Oktober (frühestens am 3. Oktober); nur die letzten Tage liegen also wirklich im Oktober.\"",
           "Notice the tools: the Präteritum for a written historical account (\"heirateten\", \"entstand\"), the passive for what was done without naming who (\"wurde veranstaltet\", \"wurde benannt\", \"wurde vorverlegt\"), and \"nach\" + dative for naming after someone: \"nach der Braut benannt\".",
         ],
         examples: [
@@ -1321,7 +1321,7 @@ export const DE_CULTURE_U01: Lesson[] = [
         body: [
           "On Sunday afternoons, around three or four, comes \"Kaffee und Kuchen\": coffee and homemade cake with family or guests. It is a meal in its own right, not a snack, and if you are invited \"zum Kaffee\" expect at least two kinds of cake and, often, \"Sahne\" (whipped cream). Arriving with a cake from the bakery is welcome; arriving hungry is wise.",
           "In the evening many Germans eat \"Abendbrot\" (in the south more often \"Brotzeit\" or simply \"Abendessen\"): a cold meal of bread, butter, cheese, sausage, perhaps gherkins, tomatoes and radishes, eaten at around six or seven. Visitors expecting a hot dinner are sometimes puzzled.",
-          "The trap: \"Abendbrot\" is a whole meal, not a slice of bread. \"Was gibt es zum Abendbrot?\" means What's for supper?. \"Abendessen\" is the neutral word for any evening meal, hot or cold; \"Abendbrot\" specifically suggests the cold, bread-based version, especially in the north and east.",
+          "The trap: \"Abendbrot\" is a whole meal, not a slice of bread. \"Was gibt es zum Abendbrot?\" means 'What's for supper?'. \"Abendessen\" is the neutral word for any evening meal, hot or cold; \"Abendbrot\" specifically suggests the cold, bread-based version, especially in the north and east.",
         ],
         examples: [
           { es: "Kommt ihr am Sonntag zum Kaffee?", en: "Are you coming for coffee and cake on Sunday?" },
@@ -1373,7 +1373,7 @@ export const DE_CULTURE_U01: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "In Berlin a bread roll is called a Schrippe.",
+        source: "In Berlin a bread roll is called a \"Schrippe\".",
         answer: "In Berlin heißt ein Brötchen „Schrippe“.",
         altAnswers: ["In Berlin heißt ein Brötchen Schrippe.", "In Berlin sagt man Schrippe zu einem Brötchen.", "In Berlin nennt man ein Brötchen Schrippe.", "In Berlin nennt man ein Brötchen „Schrippe“.", "In Berlin sagt man zum Brötchen Schrippe.", "In Berlin sagt man „Schrippe“ zu einem Brötchen."],
         explanation: "\"Heißen\" (to be called) or \"sagen zu\" (to call something). Regional words for rolls are a real part of German identity.",
@@ -1531,7 +1531,7 @@ export const DE_CULTURE_U01: Lesson[] = [
         examples: [
           { es: "Guten Appetit! – Danke, gleichfalls!", en: "Enjoy your meal! – Thanks, you too!" },
           { es: "Prost! Auf einen schönen Abend!", en: "Cheers! To a lovely evening!" },
-          { es: "Zum Wohl, Frau Becker!", en: "Your health, Mrs Becker!" },
+          { es: "Zum Wohl, Frau Becker!", en: "Your health, Ms Becker!" },
           { es: "Beim Anstoßen schaut man sich in die Augen.", en: "When you clink glasses, you look each other in the eye." },
           { es: "Sonst gibt es sieben Jahre Pech!", en: "Otherwise you get seven years of bad luck!" },
           { es: "Mit Wasser stößt man nicht an.", en: "You don't toast with water." },
@@ -1617,7 +1617,7 @@ export const DE_CULTURE_U01: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Your health, Mrs Becker!",
+        source: "Your health, Ms Becker!",
         answer: "Zum Wohl, Frau Becker!",
         altAnswers: ["Auf Ihr Wohl, Frau Becker!", "Prost, Frau Becker!", "Auf Ihre Gesundheit, Frau Becker!"],
         explanation: "\"Zum Wohl!\" is the more formal toast, typical with wine and with people you say Sie to.",
@@ -1627,7 +1627,7 @@ export const DE_CULTURE_U01: Lesson[] = [
         prompt: "Put the words in order to say: You don't toast with water.",
         words: ["Mit Wasser", "stößt", "man", "nicht", "an."],
         translation: "You don't toast with water.",
-        altOrders: [["Man", "stößt", "nicht", "mit Wasser", "an."]],
+        altOrders: [["Man", "stößt", "nicht", "mit Wasser", "an."], ["Man", "stößt", "mit Wasser", "nicht", "an."]],
         explanation: "\"Anstoßen\" is separable; \"nicht\" goes before the prefix at the end. A rule stated with \"man\".",
       },
       {
@@ -1837,7 +1837,7 @@ export const DE_CULTURE_U01: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: In Cologne people drink Kölsch from small glasses.",
+        prompt: "Put the words in order to say: In Cologne people drink \"Kölsch\" from small glasses.",
         words: ["In Köln", "trinkt", "man", "Kölsch", "aus kleinen Gläsern."],
         translation: "In Cologne people drink Kölsch from small glasses.",
         altOrders: [["Man", "trinkt", "in Köln", "Kölsch", "aus kleinen Gläsern."]],
@@ -2110,7 +2110,7 @@ export const DE_CULTURE_U01: Lesson[] = [
         body: [
           "German is full of food idioms, and they come up constantly. \"Das ist mir Wurst\" (or \"Wurscht\") means I couldn't care less. \"Alles hat ein Ende, nur die Wurst hat zwei\" (Everything has an end, only a sausage has two) is a joking consolation that good things end too. \"Tomaten auf den Augen haben\" means to be blind to the obvious.",
           "\"Jemandem Honig ums Maul schmieren\" is to butter someone up, to flatter them (\"das Maul\" is an animal's mouth, so it's colloquial). \"Sich die Rosinen herauspicken\" (to pick out the raisins) is to cherry-pick, to take only the best parts. \"Seinen Senf dazugeben\" (to add one's mustard) is to put in one's two cents, usually unasked.",
-          "\"Butter bei die Fische!\" is a northern expression meaning Get to the point! or Let's be concrete!. It is deliberately ungrammatical (standard German would need \"zu den Fischen\"), which is part of its charm: don't 'correct' it.",
+          "\"Butter bei die Fische!\" is a northern expression meaning 'Get to the point!' or 'Let's be concrete!'. It keeps a regional, Low German-influenced grammar (\"bei\" + accusative; standard German would need \"zu den Fischen\"), which is part of its charm: don't 'correct' it.",
         ],
         examples: [
           { es: "Pizza oder Pasta? Das ist mir Wurst.", en: "Pizza or pasta? I really don't mind." },
@@ -2161,7 +2161,7 @@ export const DE_CULTURE_U01: Lesson[] = [
           { es: "Lasst es euch schmecken!", en: "Enjoy your meal! (to several guests)" },
           { es: "Danke, ich bin satt. Es war wirklich lecker.", en: "Thanks, I'm full. It was really delicious." },
           { es: "Ich kann nicht mehr, ich platze gleich.", en: "I can't eat any more, I'm about to burst." },
-          { es: "Greifen Sie zu, Frau Schneider!", en: "Please help yourself, Mrs Schneider!" },
+          { es: "Greifen Sie zu, Frau Schneider!", en: "Please help yourself, Ms Schneider!" },
         ],
         checkpoint: [
           {
@@ -2226,7 +2226,7 @@ export const DE_CULTURE_U01: Lesson[] = [
         source: "Let's get to the point now: what does it cost?",
         answer: "Jetzt aber Butter bei die Fische: Was kostet das?",
         altAnswers: ["Butter bei die Fische: Was kostet das?", "Jetzt Butter bei die Fische: Was kostet das?", "Jetzt mal Butter bei die Fische: Was kostet das?", "Jetzt aber Butter bei die Fische: Was kostet es?", "Kommen wir zur Sache: Was kostet das?"],
-        explanation: "\"Butter bei die Fische\" (northern, deliberately ungrammatical) = let's be concrete. After a colon, a full sentence starts with a capital.",
+        explanation: "\"Butter bei die Fische\" (northern, with regional grammar: standard would be \"zu den Fischen\") = let's be concrete. After a colon, a full sentence starts with a capital.",
       },
       {
         type: "multiple-choice",

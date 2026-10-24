@@ -8,15 +8,15 @@ export const DE_A2_U13: Lesson[] = [
     level: "DE-A2",
     number: 1,
     title: "Adjective Endings After Ein and With No Article, Part 1 of 2",
-    summary: "After ein, kein and mein the adjective takes -er or -es exactly where the article has no ending, and the familiar -e/-en everywhere else.",
+    summary: "Choose the adjective ending after \"ein\", \"kein\" and \"mein\": -er or -es exactly where the article has no ending, and the familiar -e/-en everywhere else.",
     duration: "14 min",
     sections: [
       {
-        heading: "Three gaps: ein neuer Tisch, ein neues Bett",
+        heading: "Three gaps: \"ein neuer Tisch\", \"ein neues Bett\"",
         body: [
           "In Unit 12 the article did most of the work: \"der\", \"die\", \"das\" already show gender and case, so the adjective only needed a lazy -e or -en (\"der neue Tisch\", \"das neue Bett\"). The ein-words (\"ein\", \"kein\" and the possessives \"mein\", \"dein\", \"sein\", \"ihr\", \"unser\", \"euer\", \"Ihr\") have a problem: in three places they have no ending at all.",
-          "Those three gaps are the masculine nominative (\"ein Tisch\"), the neuter nominative (\"ein Bett\") and the neuter accusative (\"ein Bett\" again). Here \"ein\" can't tell you whether the noun is masculine or neuter, so the adjective steps in and shows it with the ending of the definite article: -er from \"der\", -es from \"das\". So: \"ein neuer Tisch\" (der Tisch), \"ein neues Bett\" (das Bett).",
-          "A useful picture: the information has to appear somewhere, once. Either the article shows it (\"der neue Tisch\") or, if the article is silent, the adjective does (\"ein neuer Tisch\"). English never does this: a new table, a new bed, a new lamp all look the same, which is why English speakers tend to write \"*ein neue Tisch\".",
+          "Those three gaps are the masculine nominative (\"ein Tisch\"), the neuter nominative (\"ein Bett\") and the neuter accusative (\"ein Bett\" again). Here \"ein\" can't tell you whether the noun is masculine or neuter, so the adjective steps in and shows it with the ending of the definite article: -er from \"der\", -es from \"das\". So: \"ein neuer Tisch\" for \"der Tisch\", \"ein neues Bett\" for \"das Bett\".",
+          "A useful picture: the information has to appear somewhere, once. Either the article shows it (\"der neue Tisch\") or, if the article is silent, the adjective does (\"ein neuer Tisch\"). English never does this: a new table, a new bed, a new lamp all look the same, which is why English speakers tend to write \"*ein neue Tisch*\".",
         ],
         examples: [
           { es: "Das ist ein neuer Laptop.", en: "That's a new laptop." },
@@ -48,7 +48,7 @@ export const DE_A2_U13: Lesson[] = [
             question: "How do you say: My old computer is very slow?",
             options: ["Mein alter Computer ist sehr langsam.", "Mein alte Computer ist sehr langsam.", "Mein alten Computer ist sehr langsam.", "Meiner alte Computer ist sehr langsam."],
             correctIndex: 0,
-            explanation: "\"Mein\" works like \"ein\": no ending in the masculine nominative, so the adjective takes -er. \"*mein alte Computer\" leaves the gender unmarked.",
+            explanation: "\"Mein\" works like \"ein\": no ending in the masculine nominative, so the adjective takes -er. \"*mein alte Computer*\" leaves the gender unmarked.",
           },
         ],
       },
@@ -87,7 +87,7 @@ export const DE_A2_U13: Lesson[] = [
         ],
       },
       {
-        heading: "Kein, possessives and the plural",
+        heading: "\"Kein\", possessives and the plural",
         body: [
           "\"Kein\" and the possessives follow exactly the same pattern as \"ein\": \"kein guter Film\", \"unser neues Auto\", \"mit meiner kleinen Schwester\", \"ihren neuen Freund\" (her new boyfriend).",
           "Unlike \"ein\", they also have a plural, and their plural always has the ending -e or -en itself: \"meine\", \"keine\", \"unsere\", \"meinen\". So in the plural the adjective always takes -en: \"meine neuen Schuhe\", \"keine guten Ideen\", \"mit unseren alten Freunden\" (and the dative plural noun adds -n too).",
@@ -195,7 +195,7 @@ export const DE_A2_U13: Lesson[] = [
         question: "Which sentence is correct?",
         options: ["Ich habe ein kleines Zimmer.", "Ich habe ein kleine Zimmer.", "Ich habe einen kleinen Zimmer.", "Ich habe ein kleiner Zimmer."],
         correctIndex: 0,
-        explanation: "\"Das Zimmer\" is neuter, so accusative is still \"ein\" with no ending, and the adjective shows the neuter: -es. \"*einen\" is only for masculine nouns.",
+        explanation: "\"Das Zimmer\" is neuter, so accusative is still \"ein\" with no ending, and the adjective shows the neuter: -es. \"*einen*\" is only for masculine nouns.",
       },
       {
         type: "dictation",
@@ -220,10 +220,10 @@ export const DE_A2_U13: Lesson[] = [
     duration: "12 min",
     sections: [
       {
-        heading: "Nominative: Das ist ein guter Freund",
+        heading: "Nominative: \"Das ist ein guter Freund\"",
         body: [
-          "One frame, three genders: \"Das ist ein guter Freund\" (der Freund), \"Das ist eine gute Freundin\" (die Freundin), \"Das ist ein gutes Buch\" (das Buch), and in the plural \"Das sind gute Freunde\" (no article at all; more on that in Part 2).",
-          "Say them aloud as a set: guter, gute, gutes. The adjective endings -er, -e, -es echo \"der\", \"die\", \"das\" and that's no accident: when \"ein\" can't show the gender, the adjective borrows the ending of the definite article.",
+          "One frame, three genders: \"Das ist ein guter Freund\" for \"der Freund\", \"Das ist eine gute Freundin\" for \"die Freundin\", \"Das ist ein gutes Buch\" for \"das Buch\", and in the plural \"Das sind gute Freunde\" (no article at all; more on that in Part 2).",
+          "Say them aloud as a set: \"guter\", \"gute\", \"gutes\". The adjective endings -er, -e, -es echo \"der\", \"die\", \"das\" and that's no accident: when \"ein\" can't show the gender, the adjective borrows the ending of the definite article.",
         ],
         examples: [
           { es: "Jonas ist ein guter Freund.", en: "Jonas is a good friend." },
@@ -252,7 +252,7 @@ export const DE_A2_U13: Lesson[] = [
         ],
       },
       {
-        heading: "Accusative and dative: einen guten Freund, mit einem guten Freund",
+        heading: "Accusative and dative: \"einen guten Freund\", \"mit einem guten Freund\"",
         body: [
           "Now push the same phrase through the cases. Accusative: \"Ich habe einen guten Freund, eine gute Freundin, ein gutes Buch\". Only the masculine changes, to \"einen guten\"; feminine and neuter look exactly like the nominative.",
           "Dative: \"mit einem guten Freund, mit einer guten Freundin, mit einem guten Buch\". The article changes to \"einem\" or \"einer\" and the adjective is always -en. Drill the three lines until you hear a wrong one immediately.",
@@ -285,7 +285,7 @@ export const DE_A2_U13: Lesson[] = [
         ],
       },
       {
-        heading: "Possessives: mein bester Freund, meine kleine Schwester",
+        heading: "Possessives: \"mein bester Freund\", \"meine kleine Schwester\"",
         body: [
           "Replace \"ein\" with a possessive and nothing changes: \"mein bester Freund\" (my best friend), \"meine kleine Schwester\", \"mein neues Handy\", \"meinen besten Freund\", \"mit meiner kleinen Schwester\".",
           "The superlative before a noun is \"best-\" plus the ending, so it behaves like any other adjective: \"mein bester Freund\", \"meine beste Freundin\", \"mit meinem besten Freund\". Plural possessives always give -en: \"meine besten Freunde\".",
@@ -407,13 +407,13 @@ export const DE_A2_U13: Lesson[] = [
     level: "DE-A2",
     number: 3,
     title: "Adjective Endings After Ein and With No Article, Part 2 of 2",
-    summary: "With no article at all the adjective carries the der-ending itself (kalter Kaffee, frische Milch, mit frischem Brot), which also explains greetings like Guten Tag and Vielen Dank.",
+    summary: "Use adjectives with no article, where the adjective carries the der-ending itself (\"kalter Kaffee\", \"frische Milch\", \"mit frischem Brot\"), and understand greetings like \"Guten Tag\" and \"Vielen Dank\".",
     duration: "14 min",
     sections: [
       {
         heading: "No article: the adjective does the article's job",
         body: [
-          "Uncountable things (coffee, milk, water, bread, weather) and plurals often have no article: \"Ich trinke Kaffee\", \"Wir brauchen Eier\". Put an adjective in front and there is no article to show gender and case, so the adjective takes the ending of \"der\", \"die\" or \"das\" itself: \"kalter Kaffee\" (der), \"frische Milch\" (die), \"kaltes Wasser\" (das), \"neue Schuhe\" (die, plural).",
+          "Uncountable things (coffee, milk, water, bread, weather) and plurals often have no article: \"Ich trinke Kaffee\", \"Wir brauchen Eier\". Put an adjective in front and there is no article to show gender and case, so the adjective takes the ending of \"der\", \"die\" or \"das\" itself: \"kalter Kaffee\" like \"der\", \"frische Milch\" like \"die\", \"kaltes Wasser\" like \"das\", \"neue Schuhe\" like plural \"die\".",
           "These are called the strong endings, and they are simply the endings of the definite article stuck onto the adjective: der → -er, die → -e, das → -es, den → -en, dem → -em. If you know the article, you know the ending.",
           "Accusative changes only the masculine again: \"Ich trinke gern kalten Kaffee\" (den → -en). Feminine, neuter and plural stay the same: \"Ich kaufe frische Milch, kaltes Wasser und neue Schuhe\".",
         ],
@@ -446,7 +446,7 @@ export const DE_A2_U13: Lesson[] = [
         ],
       },
       {
-        heading: "The dative: mit frischem Brot",
+        heading: "The dative: \"mit frischem Brot\"",
         body: [
           "In the dative the strong endings are those of \"dem\" and \"der\": \"mit frischem Brot\" (dem → -em), \"mit heißer Schokolade\" (der → -er), \"mit kaltem Wasser\", and the plural \"mit netten Leuten\" (den → -en).",
           "This -em ending appears only here, with no article in front. After \"dem\" or \"einem\" the adjective is back to -en (\"mit dem frischen Brot\", \"mit einem frischen Brot\"). The -em is used constantly on menus and in recipes: \"Pfannkuchen mit frischem Obst\", \"Fisch mit grünem Salat\".",
@@ -477,14 +477,14 @@ export const DE_A2_U13: Lesson[] = [
         ],
       },
       {
-        heading: "Guten Tag, Vielen Dank: greetings are strong endings",
+        heading: "\"Guten Tag\", \"Vielen Dank\": greetings have strong endings",
         body: [
-          "Many greetings and wishes are adjective + noun with no article, and their endings finally make sense. \"Guten Tag\", \"Guten Morgen\", \"Guten Abend\" end in -en because they are short for \"Ich wünsche Ihnen einen guten Tag\": accusative masculine. The same goes for \"Herzlichen Glückwunsch\" (congratulations, der Glückwunsch) and \"Vielen Dank\" (der Dank).",
+          "Many greetings and wishes are adjective + noun with no article, and their endings finally make sense. \"Guten Tag\", \"Guten Morgen\", \"Guten Abend\" end in -en because they are short for \"Ich wünsche Ihnen einen guten Tag\": accusative masculine. The same goes for \"Herzlichen Glückwunsch\" (congratulations; \"der Glückwunsch\") and \"Vielen Dank\" (\"der Dank\").",
           "Feminine and neuter wishes keep the nominative shape: \"Gute Nacht\", \"Gute Reise\", \"Gute Besserung\" (get well soon), \"Schönes Wochenende\", \"Frohes neues Jahr\". Plurals end in -e: \"Liebe Grüße\" (love/best wishes at the end of a message), \"Frohe Weihnachten\", \"Frohe Ostern\".",
-          "A letter or email opening uses the nominative, because you are addressing the person: \"Lieber Jonas\" (masculine -er), \"Liebe Lena\" (feminine -e), \"Liebe Kolleginnen und Kollegen\". A common mistake is \"*Guter Morgen\" or \"*Liebe Jonas\".",
+          "A letter or email opening uses the nominative, because you are addressing the person: \"Lieber Jonas\" (masculine -er), \"Liebe Lena\" (feminine -e), \"Liebe Kolleginnen und Kollegen\". A common mistake is \"*Guter Morgen*\" or \"*Liebe Jonas*\".",
         ],
         examples: [
-          { es: "Guten Morgen, Frau Schneider!", en: "Good morning, Mrs Schneider!" },
+          { es: "Guten Morgen, Frau Schneider!", en: "Good morning, Ms Schneider!" },
           { es: "Herzlichen Glückwunsch zum Geburtstag!", en: "Happy birthday!" },
           { es: "Vielen Dank für die Einladung!", en: "Thanks very much for the invitation!" },
           { es: "Schönes Wochenende!", en: "Have a nice weekend!" },
@@ -499,7 +499,7 @@ export const DE_A2_U13: Lesson[] = [
             source: "Thanks very much for the invitation!",
             answer: "Vielen Dank für die Einladung!",
             altAnswers: ["Danke für die Einladung!", "Danke schön für die Einladung!", "Herzlichen Dank für die Einladung!"],
-            explanation: "\"Vielen Dank\" is accusative masculine (short for \"Ich sage vielen Dank\"), so -en, not \"*Viele Dank\".",
+            explanation: "\"Vielen Dank\" is accusative masculine (short for \"Ich sage vielen Dank\"), so -en, not \"*Viele Dank*\".",
           },
           {
             type: "fill-blank",
@@ -560,7 +560,7 @@ export const DE_A2_U13: Lesson[] = [
         en: "[Good evening], Mr Becker!",
         sentence: "___, Herr Becker!",
         answer: "Guten Abend",
-        explanation: "Greetings with Tag, Morgen and Abend are accusative masculine: \"Guten Abend\", never \"*Guter Abend\".",
+        explanation: "Greetings with \"Tag\", \"Morgen\" and \"Abend\" are accusative masculine: \"Guten Abend\", never \"*Guter Abend*\".",
       },
       {
         type: "translate",
@@ -601,9 +601,9 @@ export const DE_A2_U13: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Good morning, Mrs Schneider!",
+        prompt: "Put the words in order to say: Good morning, Ms Schneider!",
         words: ["Guten", "Morgen,", "Frau", "Schneider!"],
-        translation: "Good morning, Mrs Schneider!",
+        translation: "Good morning, Ms Schneider!",
         explanation: "\"Guten Morgen\": an accusative wish, so -en.",
       },
       {
@@ -619,7 +619,7 @@ export const DE_A2_U13: Lesson[] = [
     level: "DE-A2",
     number: 4,
     title: "Contrast Clinic: Der, Ein or Nothing?",
-    summary: "Take one noun phrase three ways (der rote Wein, ein roter Wein, roter Wein) and learn one decision process that gives the right ending every time.",
+    summary: "Take one noun phrase three ways (\"der rote Wein\", \"ein roter Wein\", \"roter Wein\") and learn one decision process that gives the right ending every time.",
     duration: "13 min",
     sections: [
       {
@@ -627,7 +627,7 @@ export const DE_A2_U13: Lesson[] = [
         body: [
           "Here is the whole system in one example. With \"der\": \"der rote Wein\" (the article shows masculine nominative, so the adjective just takes -e). With \"ein\": \"ein roter Wein\" (the article shows nothing, so the adjective takes -er). With no article: \"roter Wein\" (the adjective has to show everything, -er).",
           "Now neuter: \"das kalte Bier\", \"ein kaltes Bier\", \"kaltes Bier\". Feminine: \"die frische Suppe\", \"eine frische Suppe\", \"frische Suppe\". The feminine is the easy one: -e in all three.",
-          "So you really only learn one rule: someone in the phrase must show der/die/das. If the article already does, the adjective takes -e or -en. If it doesn't (or there's no article), the adjective takes the article's own ending.",
+          "So you really only learn one rule: someone in the phrase must show \"der\", \"die\" or \"das\". If the article already does, the adjective takes -e or -en. If it doesn't (or there's no article), the adjective takes the article's own ending.",
         ],
         examples: [
           { es: "Der rote Wein ist aus Italien.", en: "The red wine is from Italy." },
@@ -649,7 +649,7 @@ export const DE_A2_U13: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which phrase is correct for: red wine (no article, as the subject)?",
+            question: "Complete: \"___ passt gut zu Käse.\" (Red wine goes well with cheese.)",
             options: ["roter Wein", "rote Wein", "roten Wein", "rotes Wein"],
             correctIndex: 0,
             explanation: "No article and masculine nominative: the adjective takes the -er of \"der\". \"Roten Wein\" would be the object.",
@@ -660,8 +660,8 @@ export const DE_A2_U13: Lesson[] = [
         heading: "The decision process, step by step",
         body: [
           "Step 1: find the gender, case and number of the noun (\"der Tisch\", object of \"kaufen\" → masculine accusative). Step 2: look at what comes before the adjective: a der-word, an ein-word or nothing.",
-          "Step 3: if it's a der-word, or an ein-word with an ending, the adjective takes -e (the five nominative/accusative singular slots for der-words: der/die/das nominative, die/das accusative) or -en (everything else). If it's an ein-word with no ending, or nothing at all, the adjective takes the der-word's ending: -er, -e, -es, -en, -em.",
-          "Run it on \"mit ___ Freunden (gut)\": dative plural; with \"meinen\" → \"mit meinen guten Freunden\"; with nothing → \"mit guten Freunden\" (den → -en). Same result, two routes. The routes give different results in the masculine and neuter singular and in the feminine dative (\"mit einer frischen Suppe\" but \"mit frischer Suppe\").",
+          "Step 3: if it's a der-word, or an ein-word with an ending, the adjective takes -e (the five nominative/accusative singular slots for der-words: \"der\", \"die\", \"das\" in the nominative, \"die\", \"das\" in the accusative) or -en (everything else). If it's an ein-word with no ending, or nothing at all, the adjective takes the der-word's ending: -er, -e, -es, -en, -em.",
+          "Run it on \"mit ___ Freunden (gut)\": dative plural; with \"meinen\" → \"mit meinen guten Freunden\"; with nothing → \"mit guten Freunden\" (den → -en). Same result, two routes. The routes give different results in the masculine and neuter singular, in the feminine dative (\"mit einer frischen Suppe\" but \"mit frischer Suppe\") and in the plural nominative and accusative (\"meine guten Freunde\" but \"gute Freunde\").",
         ],
         examples: [
           { es: "Ich kaufe den alten Tisch.", en: "I'm buying the old table." },
@@ -693,7 +693,7 @@ export const DE_A2_U13: Lesson[] = [
       {
         heading: "Masculine and neuter: where it really matters",
         body: [
-          "In the feminine and the plural, the three tables almost agree. The real choices are in the masculine and neuter singular, so practise those pairs side by side: \"der neue Kollege\" / \"ein neuer Kollege\"; \"das kleine Kind\" / \"ein kleines Kind\"; \"dem warmen Wetter\" / \"warmem Wetter\" (rare but correct).",
+          "In the feminine and the plural the three tables differ in only one or two places (\"mit frischer Suppe\", \"gute Freunde\"). The real choices are in the masculine and neuter singular, so practise those pairs side by side: \"der neue Kollege\" / \"ein neuer Kollege\"; \"das kleine Kind\" / \"ein kleines Kind\"; \"dem warmen Wetter\" / \"warmem Wetter\" (rare but correct).",
           "Watch the masculine accusative: all three tables give -en here: \"den neuen Kollegen\", \"einen neuen Kollegen\", \"neuen Kaffee\". If you're unsure in the masculine accusative, -en is always right.",
         ],
         examples: [
@@ -810,24 +810,24 @@ export const DE_A2_U13: Lesson[] = [
     duration: "13 min",
     sections: [
       {
-        heading: "Mistakes after ein: \"*ein neue Auto\", \"*ein großes Mann\"",
+        heading: "Mistakes after ein: \"*ein neue Auto*\", \"*ein großes Mann*\"",
         body: [
-          "The most common mistake is forgetting that \"ein\" is silent in three places. A learner writes \"*Wir haben ein neue Auto\": \"das Auto\" is neuter accusative, \"ein\" has no ending, so the adjective must show it: \"ein neues Auto\".",
-          "The opposite mistake is choosing the gender wrongly: \"*ein großes Mann\". \"Der Mann\" is masculine, so it's \"ein großer Mann\". The ending is only as good as your knowledge of the noun's gender: learn nouns with der, die or das, always.",
-          "A third favourite: \"*einen neue Tisch\". Once \"einen\" has its -en, the adjective follows with -en too: \"einen neuen Tisch\".",
+          "The most common mistake is forgetting that \"ein\" is silent in three places. A learner writes \"*Wir haben ein neue Auto*\": \"das Auto\" is neuter accusative, \"ein\" has no ending, so the adjective must show it: \"ein neues Auto\".",
+          "The opposite mistake is choosing the gender wrongly: \"*ein großes Mann*\". \"Der Mann\" is masculine, so it's \"ein großer Mann\". The ending is only as good as your knowledge of the noun's gender: learn nouns with \"der\", \"die\" or \"das\", always.",
+          "A third favourite: \"*einen neue Tisch*\". Once \"einen\" has its -en, the adjective follows with -en too: \"einen neuen Tisch\".",
         ],
         examples: [
-          { es: "Wir haben ein neues Auto.", en: "We have a new car. (not \"*ein neue Auto\")" },
-          { es: "Das ist ein großer Mann.", en: "That's a tall man. (not \"*ein großes Mann\")" },
-          { es: "Ich suche einen neuen Tisch.", en: "I'm looking for a new table. (not \"*einen neue Tisch\")" },
-          { es: "Sie hat ein süßes Baby.", en: "She has a cute baby. (not \"*ein süße Baby\")" },
-          { es: "Er trägt einen schwarzen Anzug.", en: "He's wearing a black suit. (not \"*einen schwarze Anzug\")" },
+          { es: "Wir haben ein neues Auto.", en: "We have a new car. (not \"*ein neue Auto*\")" },
+          { es: "Das ist ein großer Mann.", en: "That's a tall man. (not \"*ein großes Mann*\")" },
+          { es: "Ich suche einen neuen Tisch.", en: "I'm looking for a new table. (not \"*einen neue Tisch*\")" },
+          { es: "Sie hat ein süßes Baby.", en: "She has a cute baby. (not \"*ein süße Baby*\")" },
+          { es: "Er trägt einen schwarzen Anzug.", en: "He's wearing a black suit. (not \"*einen schwarze Anzug*\")" },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"*Wir haben ein neue Auto\". Write it correctly: We have a new car.",
+            prompt: "A learner wrote \"*Wir haben ein neue Auto*\". Write it correctly: We have a new car.",
             source: "We have a new car.",
             answer: "Wir haben ein neues Auto.",
             explanation: "Neuter accusative: \"ein\" has no ending, so the adjective takes -es: \"ein neues Auto\".",
@@ -843,10 +843,10 @@ export const DE_A2_U13: Lesson[] = [
         ],
       },
       {
-        heading: "Mistakes in the dative: \"*mit meinem kleine Bruder\"",
+        heading: "Mistakes in the dative: \"*mit meinem kleine Bruder*\"",
         body: [
-          "In the dative the rule couldn't be simpler: after any article the adjective ends in -en. Yet learners often write \"*mit meinem kleine Bruder\", because -e feels like the default. Fix: \"mit meinem kleinen Bruder\".",
-          "With no article, the dative ending is -em (masculine and neuter) or -er (feminine): \"*mit frischen Brot\" is wrong, \"mit frischem Brot\" is right. Ask yourself: is there an article? If not, the adjective needs the article's ending: dem → -em.",
+          "In the dative the rule couldn't be simpler: after any article the adjective ends in -en. Yet learners often write \"*mit meinem kleine Bruder*\", because -e feels like the default. Fix: \"mit meinem kleinen Bruder\".",
+          "With no article, the dative ending is -em (masculine and neuter) or -er (feminine): \"*mit frischen Brot*\" is wrong, \"mit frischem Brot\" is right. Ask yourself: is there an article? If not, the adjective needs the article's ending: dem → -em.",
         ],
         examples: [
           { es: "Ich gehe mit meinem kleinen Bruder schwimmen.", en: "I'm going swimming with my little brother." },
@@ -859,7 +859,7 @@ export const DE_A2_U13: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"*mit meinem kleine Bruder\". Write it correctly: I'm going swimming with my little brother.",
+            prompt: "A learner wrote \"*mit meinem kleine Bruder*\". Write it correctly: I'm going swimming with my little brother.",
             source: "I'm going swimming with my little brother.",
             answer: "Ich gehe mit meinem kleinen Bruder schwimmen.",
             altAnswers: ["Mit meinem kleinen Bruder gehe ich schwimmen."],
@@ -875,10 +875,10 @@ export const DE_A2_U13: Lesson[] = [
         ],
       },
       {
-        heading: "Mistakes with no article and in greetings: \"*kalte Kaffee\", \"*gute Morgen\"",
+        heading: "Mistakes with no article and in greetings: \"*kalte Kaffee*\", \"*gute Morgen*\"",
         body: [
-          "With no article the adjective does all the work, so \"*kalte Kaffee\" is wrong: \"der Kaffee\" needs -er: \"kalter Kaffee\". In ads you see the same thing all the time: \"Großer Garten, ruhige Lage, neues Bad\" (der Garten, die Lage, das Bad).",
-          "Greetings are fixed phrases: \"Guten Morgen\", \"Guten Tag\", \"Gute Nacht\". \"*Gute Morgen\" and \"*Guter Morgen\" are both wrong. In letters: \"Lieber Herr Becker\", \"Liebe Frau Schneider\", never \"*Liebe Herr Becker\".",
+          "With no article the adjective does all the work, so \"*kalte Kaffee*\" is wrong: \"der Kaffee\" needs -er: \"kalter Kaffee\". In ads you see the same thing all the time: \"Großer Garten, ruhige Lage, neues Bad\", from \"der Garten\", \"die Lage\", \"das Bad\".",
+          "Greetings are fixed phrases: \"Guten Morgen\", \"Guten Tag\", \"Gute Nacht\". \"*Gute Morgen*\" and \"*Guter Morgen*\" are both wrong. In letters: \"Lieber Herr Becker\", \"Liebe Frau Schneider\", never \"*Liebe Herr Becker*\".",
         ],
         examples: [
           { es: "Kalter Kaffee? Nein, danke!", en: "Cold coffee? No thanks!" },
@@ -894,7 +894,7 @@ export const DE_A2_U13: Lesson[] = [
             prompt: "Translate into German.",
             source: "Large garden, quiet location, new bathroom.",
             answer: "Großer Garten, ruhige Lage, neues Bad.",
-            explanation: "No articles in an ad: der Garten → -er, die Lage → -e, das Bad → -es.",
+            explanation: "No articles in an ad, so each adjective shows the gender: \"der Garten\" → \"großer\", \"die Lage\" → \"ruhige\", \"das Bad\" → \"neues\".",
           },
           {
             type: "fill-blank",
@@ -902,7 +902,7 @@ export const DE_A2_U13: Lesson[] = [
             en: "[Dear] Mr Becker, thank you for your email.",
             sentence: "___ Herr Becker, vielen Dank für Ihre E-Mail.",
             answer: "Lieber",
-            explanation: "A man is addressed with masculine nominative \"Lieber\"; \"*Liebe Herr Becker\" is a classic mistake.",
+            explanation: "A man is addressed with masculine nominative \"Lieber\"; \"*Liebe Herr Becker*\" is a classic mistake.",
           },
         ],
       },
@@ -911,7 +911,7 @@ export const DE_A2_U13: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Das ist ein großes Mann\". Write it correctly: That's a tall man.",
+        prompt: "A learner wrote \"*Das ist ein großes Mann*\". Write it correctly: That's a tall man.",
         source: "That's a tall man.",
         answer: "Das ist ein großer Mann.",
         explanation: "\"Der Mann\" is masculine: \"ein großer Mann\". The -es ending is only for neuter nouns.",
@@ -919,15 +919,15 @@ export const DE_A2_U13: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Gute Morgen\", Frau Schneider! Write it correctly.",
-        source: "Good morning, Mrs Schneider!",
+        prompt: "A learner wrote \"*Gute Morgen, Frau Schneider!*\" Write it correctly: Good morning, Ms Schneider!",
+        source: "Good morning, Ms Schneider!",
         answer: "Guten Morgen, Frau Schneider!",
         explanation: "\"Guten Morgen\" is a fixed accusative masculine phrase: -en.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Ich trinke kein kalte Kaffee\". Write it correctly: I don't drink cold coffee.",
+        prompt: "A learner wrote \"*Ich trinke kein kalte Kaffee*\". Write it correctly: I don't drink cold coffee.",
         source: "I don't drink cold coffee.",
         answer: "Ich trinke keinen kalten Kaffee.",
         altAnswers: ["Ich trinke kalten Kaffee nicht.", "Kalten Kaffee trinke ich nicht."],
@@ -944,7 +944,7 @@ export const DE_A2_U13: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Sie hat ein süße Baby\". Write it correctly: She has a cute baby.",
+        prompt: "A learner wrote \"*Sie hat ein süße Baby*\". Write it correctly: She has a cute baby.",
         source: "She has a cute baby.",
         answer: "Sie hat ein süßes Baby.",
         explanation: "\"Das Baby\" is neuter: after a silent \"ein\" the adjective takes -es.",
@@ -1053,7 +1053,7 @@ export const DE_A2_U13: Lesson[] = [
             prompt: "Translate into German.",
             source: "The trousers are too long.",
             answer: "Die Hose ist zu lang.",
-            explanation: "One pair of trousers is singular in German: \"die Hose ist\". \"*Die Hosen sind\" would mean several pairs.",
+            explanation: "One pair of trousers is singular in German: \"die Hose ist\". \"*Die Hosen sind*\" would mean several pairs.",
           },
           {
             type: "fill-blank",
@@ -1189,7 +1189,7 @@ export const DE_A2_U13: Lesson[] = [
         heading: "Partners and family status",
         body: [
           "\"Der Partner / die Partnerin\" is the neutral word for a partner, married or not. Family status uses adjectives after \"sein\": \"verheiratet\" (married), \"ledig\" (single, on forms), \"geschieden\" (divorced), \"verwitwet\" (widowed). In conversation, single is usually \"Single\": \"Ich bin Single\".",
-          "To say who you're married to: \"verheiratet mit\" + dative: \"Sie ist mit einem Engländer verheiratet\". Getting married is \"heiraten\" with a direct object: \"Lena heiratet Jonas\" (no mit!), and in the Perfekt \"Sie haben letztes Jahr geheiratet\".",
+          "To say who you're married to: \"verheiratet mit\" + dative: \"Sie ist mit einem Engländer verheiratet\". Getting married is \"heiraten\" with a direct object: \"Lena heiratet Jonas\" (no \"mit\"!), and in the Perfekt \"Sie haben letztes Jahr geheiratet\".",
           "\"Der Mann\" and \"die Frau\" also mean husband and wife: \"mein Mann\", \"meine Frau\". Context does the rest; \"der Ehemann\" and \"die Ehefrau\" exist but sound formal.",
         ],
         examples: [
@@ -1220,7 +1220,7 @@ export const DE_A2_U13: Lesson[] = [
         ],
       },
       {
-        heading: "Mein Freund or ein Freund von mir?",
+        heading: "\"Mein Freund\" or \"ein Freund von mir\"?",
         body: [
           "\"Der Freund / die Freundin\" means both friend and boyfriend/girlfriend, and the possessive decides. \"Mein Freund\" or \"meine Freundin\" usually means your partner. To make clear it's just a friend, say \"ein Freund von mir\" or \"eine Freundin von mir\" (a friend of mine).",
           "So \"Das ist meine Freundin Mia\" from a man normally means she's his girlfriend. Many German speakers say \"ein guter Freund\" or \"eine gute Freundin\" to show friendship only. The plural \"meine Freunde\" is safe: it just means my friends.",
@@ -1254,7 +1254,7 @@ export const DE_A2_U13: Lesson[] = [
         heading: "Neighbours, colleagues, acquaintances, relatives",
         body: [
           "\"Der Nachbar / die Nachbarin\" (neighbour) and \"der Kollege / die Kollegin\" (colleague) are everyday words. \"Kollege\" adds -n in every case except the nominative singular: \"Ich frage meinen Kollegen\", \"mit dem Kollegen\".",
-          "\"Der Bekannte\" (acquaintance) and \"die Verwandten\" (relatives) are adjectives used as nouns, so they take adjective endings: \"ein Bekannter\" (after ein, masculine → -er), \"eine Bekannte\", \"der Bekannte\", \"meine Verwandten\", \"ein Verwandter\". That's this unit's grammar inside a vocabulary word.",
+          "\"Der Bekannte\" (acquaintance) and \"die Verwandten\" (relatives) are adjectives used as nouns, so they take adjective endings: \"ein Bekannter\" (after \"ein\", masculine → -er), \"eine Bekannte\", \"der Bekannte\", \"meine Verwandten\", \"ein Verwandter\". That's this unit's grammar inside a vocabulary word.",
           "To get on well with someone: \"sich gut verstehen mit\" + dative: \"Ich verstehe mich gut mit meiner Nachbarin\". Not getting on: \"Wir verstehen uns nicht so gut\".",
         ],
         examples: [
@@ -1298,7 +1298,7 @@ export const DE_A2_U13: Lesson[] = [
         prompt: "Translate into German.",
         source: "My brother has been married for two years.",
         answer: "Mein Bruder ist seit zwei Jahren verheiratet.",
-        explanation: "For 'has been ... for', German uses the present + \"seit\" + dative: \"ist seit zwei Jahren verheiratet\". \"*Ist verheiratet für zwei Jahre\" is the English-order trap.",
+        explanation: "For 'has been ... for', German uses the present + \"seit\" + dative: \"ist seit zwei Jahren verheiratet\". \"*Ist verheiratet für zwei Jahre*\" is the English-order trap.",
       },
       {
         type: "translate",
@@ -1383,7 +1383,7 @@ export const DE_A2_U13: Lesson[] = [
     level: "DE-A2",
     number: 8,
     title: "Common Words: Feelings and Character",
-    summary: "Describe what people are like (nett, ehrlich, schüchtern, neugierig), avoid the false friend sympathisch, and use the words with the right endings.",
+    summary: "Describe what people are like (\"nett\", \"ehrlich\", \"schüchtern\", \"neugierig\"), avoid the false friend \"sympathisch\", and use the words with the right endings.",
     duration: "13 min",
     sections: [
       {
@@ -1420,7 +1420,7 @@ export const DE_A2_U13: Lesson[] = [
         ],
       },
       {
-        heading: "Sympathisch: a false friend",
+        heading: "\"Sympathisch\": a false friend",
         body: [
           "\"Sympathisch\" does not mean sympathetic. It means likeable, pleasant, someone you take to: \"Der neue Kollege ist sehr sympathisch\" (The new colleague is really likeable). Its opposite is \"unsympathisch\" (unpleasant, someone you don't warm to).",
           "Sympathetic in the English sense (showing understanding for someone's problems) is \"mitfühlend\" or \"verständnisvoll\": \"Sie war sehr verständnisvoll\". So \"Ich finde ihn sympathisch\" is a compliment about his personality, not about his compassion.",
@@ -1446,15 +1446,15 @@ export const DE_A2_U13: Lesson[] = [
             source: "My doctor was very sympathetic. (a woman)",
             answer: "Meine Ärztin war sehr verständnisvoll.",
             altAnswers: ["Meine Ärztin war sehr mitfühlend."],
-            explanation: "Understanding and kind about your problem = \"verständnisvoll\"; \"*sympathisch\" would mean likeable.",
+            explanation: "Understanding and kind about your problem = \"verständnisvoll\"; \"*sympathisch*\" would mean likeable.",
           },
         ],
       },
       {
-        heading: "Feelings with prepositions: stolz auf, eifersüchtig auf",
+        heading: "Feelings with prepositions: \"stolz auf\", \"eifersüchtig auf\"",
         body: [
           "Several feeling adjectives come with a fixed preposition. \"Stolz auf\" + accusative (proud of): \"Ich bin stolz auf dich\". \"Eifersüchtig auf\" + accusative (jealous of): \"Er ist eifersüchtig auf seinen Bruder\". \"Neugierig auf\" + accusative (curious about, looking forward to): \"Ich bin neugierig auf die neue Wohnung\".",
-          "Notice that English of and German auf don't match: you have to learn the preposition with the adjective. A good habit: learn \"stolz auf + Akk.\" as one unit, never \"stolz\" alone.",
+          "Notice that English of and German \"auf\" don't match: you have to learn the preposition with the adjective. A good habit: learn \"stolz auf + Akk.\" as one unit, never \"stolz\" alone.",
         ],
         examples: [
           { es: "Ich bin so stolz auf dich!", en: "I'm so proud of you!" },
@@ -1599,7 +1599,7 @@ export const DE_A2_U13: Lesson[] = [
             source: "She gave her little son a new bike.",
             answer: "Sie hat ihrem kleinen Sohn ein neues Fahrrad geschenkt.",
             altAnswers: ["Sie hat ihrem kleinen Sohn ein neues Rad geschenkt.", "Sie schenkte ihrem kleinen Sohn ein neues Fahrrad."],
-            explanation: "Person in the dative (\"ihrem kleinen Sohn\"), thing in the accusative (\"ein neues Fahrrad\"); the dative comes first when both are nouns.",
+            explanation: "Person in the dative (\"ihrem kleinen Sohn\"), thing in the accusative (\"ein neues Fahrrad\"); when both are nouns, the dative usually comes first.",
           },
           {
             type: "fill-blank",
@@ -1660,6 +1660,7 @@ export const DE_A2_U13: Lesson[] = [
         prompt: "Translate into German.",
         source: "We met up with our new neighbours.",
         answer: "Wir haben uns mit unseren neuen Nachbarn getroffen.",
+        altAnswers: ["Wir trafen uns mit unseren neuen Nachbarn."],
         explanation: "\"Sich treffen mit\" + dative plural: \"unseren neuen Nachbarn\".",
       },
       {
@@ -1685,7 +1686,7 @@ export const DE_A2_U13: Lesson[] = [
         prompt: "Translate into German.",
         source: "I bought my sister a red jacket.",
         answer: "Ich habe meiner Schwester eine rote Jacke gekauft.",
-        altAnswers: ["Ich kaufte meiner Schwester eine rote Jacke."],
+        altAnswers: ["Ich kaufte meiner Schwester eine rote Jacke.", "Ich habe eine rote Jacke für meine Schwester gekauft."],
         explanation: "Dative person \"meiner Schwester\", accusative thing \"eine rote Jacke\".",
       },
       {
@@ -1733,14 +1734,14 @@ export const DE_A2_U13: Lesson[] = [
     level: "DE-A2",
     number: 10,
     title: "Mastery Check: Adjective Endings",
-    summary: "A check of all three adjective tables in ads, greetings cards and descriptions of people, with an explanation for every answer.",
+    summary: "Show you can use all three adjective tables in ads, greetings cards and descriptions of people, with an explanation for every answer.",
     duration: "15 min",
     sections: [
       {
         heading: "The three tables on one page",
         body: [
-          "After der-words (der, dieser, jeder, welcher): -e in the five slots (der/die/das nominative, die/das accusative), -en everywhere else: \"der alte Mann\", \"den alten Mann\", \"mit dem alten Mann\", \"die alten Männer\".",
-          "After ein-words (ein, kein, mein...): like the der-table, except in the three gaps where the ein-word has no ending: masculine nominative -er (\"ein alter Mann\"), neuter nominative and accusative -es (\"ein altes Haus\").",
+          "After der-words (\"der\", \"dieser\", \"jeder\", \"welcher\"): -e in the five slots (\"der\", \"die\", \"das\" in the nominative, \"die\", \"das\" in the accusative), -en everywhere else: \"der alte Mann\", \"den alten Mann\", \"mit dem alten Mann\", \"die alten Männer\".",
+          "After ein-words (\"ein\", \"kein\", \"mein\"...): like the der-table, except in the three gaps where the ein-word has no ending: masculine nominative -er (\"ein alter Mann\"), neuter nominative and accusative -es (\"ein altes Haus\").",
           "With no article: the adjective takes the der-word's ending: \"alter Wein\", \"alte Liebe\", \"altes Brot\", \"alten Wein\" (accusative), \"mit altem Brot\", \"mit alter Liebe\", \"alte Freunde\", \"mit alten Freunden\".",
         ],
         examples: [
@@ -1773,7 +1774,7 @@ export const DE_A2_U13: Lesson[] = [
       {
         heading: "Cards, ads and descriptions",
         body: [
-          "Real texts mix the tables constantly. A birthday card: \"Liebe Mia, herzlichen Glückwunsch zum Geburtstag! Wir wünschen dir ein schönes neues Lebensjahr und viel Glück. Liebe Grüße, deine Lena und dein Jonas\".",
+          "Real texts mix the tables constantly. A birthday card: \"Liebe Mia, herzlichen Glückwunsch zum Geburtstag! Wir wünschen dir ein schönes neues Lebensjahr und viel Glück. Liebe Grüße deine Lena und dein Jonas\".",
           "An ad: \"Verkaufe gut erhaltenen Kinderwagen mit großem Korb\" (no article: accusative masculine -en, dative masculine -em). A description: \"Meine neue Kollegin hat lange braune Haare und trägt immer eine große Brille\".",
         ],
         examples: [

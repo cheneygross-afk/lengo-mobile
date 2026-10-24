@@ -8,7 +8,7 @@ export const DE_B1_U32: Lesson[] = [
     level: "DE-B1",
     number: 1,
     title: "Word Web: The Kitchen",
-    summary: "Cooking verbs, pots and pans, and the three ways German recipes give instructions: the imperative, the bare infinitive and the passive.",
+    summary: "Talk about cooking (verbs, pots and pans, ingredients) and understand and give recipe instructions in the three German styles: the imperative, the bare infinitive and the passive.",
     duration: "15 min",
     sections: [
       {
@@ -68,7 +68,7 @@ export const DE_B1_U32: Lesson[] = [
             prompt: "Translate into German.",
             source: "Put the cake in the oven. (to a friend)",
             answer: "Schieb den Kuchen in den Ofen.",
-            altAnswers: ["Stell den Kuchen in den Ofen.", "Schieb den Kuchen in den Backofen.", "Stell den Kuchen in den Backofen.", "Tu den Kuchen in den Ofen."],
+            altAnswers: ["Stell den Kuchen in den Ofen.", "Schieb den Kuchen in den Backofen.", "Stell den Kuchen in den Backofen.", "Tu den Kuchen in den Ofen.", "Gib den Kuchen in den Ofen."],
             explanation: "Movement into the oven: \"in den Ofen\" with the accusative. Germans \"schieben\" (push) or \"stellen\" things into the oven.",
           },
           {
@@ -171,7 +171,7 @@ export const DE_B1_U32: Lesson[] = [
         prompt: "Translate into German.",
         source: "The soup is seasoned with salt.",
         answer: "Die Suppe wird mit Salz gewürzt.",
-        explanation: "Present passive for a step in a recipe: \"wird gewürzt\". \"*Ist gewürzt\" would mean it's already seasoned.",
+        explanation: "Present passive for a step in a recipe: \"wird gewürzt\". \"Ist gewürzt\" would mean it's already seasoned (a state).",
       },
       {
         type: "matching",
@@ -212,7 +212,7 @@ export const DE_B1_U32: Lesson[] = [
     level: "DE-B1",
     number: 2,
     title: "Word Web: Money and Finance",
-    summary: "Earning, spending, saving and owing: das Gehalt, die Miete, ausgeben, sparen, die Schulden, bar bezahlen, and the trap that leihen means both borrow and lend.",
+    summary: "Talk about earning, spending, saving and owing (\"das Gehalt\", \"die Miete\", \"ausgeben\", \"sparen\", \"die Schulden\") and use \"leihen\" correctly for both borrow and lend.",
     duration: "15 min",
     sections: [
       {
@@ -289,7 +289,7 @@ export const DE_B1_U32: Lesson[] = [
         body: [
           "\"Leihen\" means both borrow and lend; the grammar shows which. \"Jemandem etwas leihen\" (dative person) is lend: \"Ich leihe dir mein Auto.\" \"Sich etwas leihen\" (reflexive dative) is borrow: \"Ich leihe mir dein Auto\", literally I lend myself your car. \"Von\" + dative names the lender: \"Ich habe mir Geld von meinem Bruder geliehen.\"",
           "The past forms are strong: \"leihen, lieh, hat geliehen\". \"Verleihen\" means lend out, often professionally (\"Die Bibliothek verleiht auch E-Books\"), and \"ausleihen\" is a common alternative for borrow: \"Ich habe mir ein Buch ausgeliehen.\"",
-          "\"Borgen\" works exactly like \"leihen\", but is more colloquial. The most common English-speaker error is \"*Kann ich dein Fahrrad leihen?\" without \"mir\": strictly, that says Can I lend your bike? Say \"Kann ich mir dein Fahrrad leihen?\" or turn it round: \"Kannst du mir dein Fahrrad leihen?\"",
+          "\"Borgen\" works exactly like \"leihen\", but is more colloquial. The most common English-speaker error is \"*Kann ich dein Fahrrad leihen?*\" without \"mir\": strictly, that says Can I lend your bike? Say \"Kann ich mir dein Fahrrad leihen?\" or turn it round: \"Kannst du mir dein Fahrrad leihen?\"",
         ],
         examples: [
           { es: "Kannst du mir zehn Euro leihen?", en: "Can you lend me ten euros?" },
@@ -626,7 +626,7 @@ export const DE_B1_U32: Lesson[] = [
     level: "DE-B1",
     number: 4,
     title: "Cumulative Circuit: Adjective Endings in Dative and Genitive",
-    summary: "Rotate dative and genitive noun phrases through recipes, ads and news: mit frischem Basilikum, in einer kleinen Wohnung, wegen des starken Regens.",
+    summary: "Get adjective endings right in dative and genitive phrases from recipes, ads and news (\"mit frischem Basilikum\", \"in einer kleinen Wohnung\", \"wegen des starken Regens\").",
     duration: "15 min",
     sections: [
       {
@@ -834,7 +834,7 @@ export const DE_B1_U32: Lesson[] = [
     level: "DE-B1",
     number: 5,
     title: "Themed Review: An Unexpected Talent",
-    summary: "The story of Herr Becker, who discovered at 63 that he could paint, told with nominalised adjectives, relative clauses and the past tenses.",
+    summary: "Read and retell the story of Klaus Becker, who discovered at 63 that he could paint, using nominalised adjectives, relative clauses and the past tenses.",
     duration: "15 min",
     sections: [
       {
@@ -1035,7 +1035,7 @@ export const DE_B1_U32: Lesson[] = [
     level: "DE-B1",
     number: 6,
     title: "Word Web: Education",
-    summary: "The German school system and the words for studying: die Grundschule, das Gymnasium, das Abitur, die Ausbildung, eine Prüfung bestehen, and the traps machen and bekommen.",
+    summary: "Describe the German school system and your own education (\"die Grundschule\", \"das Gymnasium\", \"das Abitur\", \"die Ausbildung\") and avoid the traps \"eine Prüfung machen\" vs \"bestehen\" and \"bekommen\" vs \"werden\".",
     duration: "15 min",
     sections: [
       {
@@ -1076,7 +1076,7 @@ export const DE_B1_U32: Lesson[] = [
         heading: "After school: Ausbildung or Studium",
         body: [
           "After school, many young Germans do \"eine Ausbildung\" (vocational training, often two or three years combining a company and a vocational school, \"die Berufsschule\"). Others go to university: \"das Studium\" (degree course), \"studieren\" (be at university, study a subject), \"die Uni\" or \"die Hochschule\".",
-          "\"Studieren\" means to study at university only. For homework or revising for a test, Germans say \"lernen\": \"Ich muss heute Abend für die Prüfung lernen\". \"*Ich studiere für den Test\" sounds odd.",
+          "\"Studieren\" means to study at university only. For homework or revising for a test, Germans say \"lernen\": \"Ich muss heute Abend für die Prüfung lernen\". \"*Ich studiere für den Test*\" sounds odd.",
           "Signing up: \"sich anmelden für\" or \"zu\" (\"Ich habe mich für einen Kurs angemeldet\", \"sich zur Prüfung anmelden\"). A course is \"der Kurs\"; a seminar \"das Seminar\".",
         ],
         examples: [
@@ -1211,9 +1211,9 @@ export const DE_B1_U32: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: In year five she went to the Realschule.",
+        prompt: "Put the words in order to say: In year five she went to the \"Realschule\".",
         words: ["In", "der", "fünften", "Klasse", "ging", "sie", "auf", "die", "Realschule."],
-        translation: "In year five she went to the Realschule.",
+        translation: "In year five she went to the \"Realschule\".",
         altOrders: [["Sie", "ging", "in", "der", "fünften", "Klasse", "auf", "die", "Realschule."]],
         explanation: "\"In der fünften Klasse\" fills position 1, verb second. \"Auf die Realschule\" for a type of school.",
       },
@@ -1249,13 +1249,13 @@ export const DE_B1_U32: Lesson[] = [
     level: "DE-B1",
     number: 7,
     title: "Word Web: Life Experiences",
-    summary: "The milestones of a life: geboren werden, aufwachsen, die Schule abschließen, umziehen, heiraten, sich trennen, Kinder bekommen, in Rente gehen, told in the Präteritum and Perfekt.",
+    summary: "Tell the milestones of a life (\"geboren werden\", \"aufwachsen\", \"umziehen\", \"heiraten\", \"in Rente gehen\") in the Präteritum and Perfekt.",
     duration: "15 min",
     sections: [
       {
         heading: "Childhood and youth",
         body: [
-          "Being born is passive in German too: \"Ich bin 1995 in Köln geboren\" (spoken, a state) or \"Ich wurde 1995 in Köln geboren\" (written, the event). For a dead person, only \"wurde ... geboren\". Years stand alone or with \"im Jahr\": never \"*in 1995\".",
+          "Being born is passive in German too: \"Ich bin 1995 in Köln geboren\" (the usual way to say it about yourself) or \"Ich wurde 1995 in Köln geboren\" (more formal, the event). For a dead person, only \"wurde ... geboren\". Years stand alone or with \"im Jahr\": never \"*in 1995*\".",
           "\"Aufwachsen\" (grow up) is separable and strong, with \"sein\": \"Ich bin auf dem Land aufgewachsen\", in the Präteritum \"Er wuchs in Leipzig auf\". \"Zur Schule gehen\" (go to school), \"die Schule abschließen\" (finish school, graduate), \"der Schulabschluss\" (school-leaving qualification).",
           "In a life story told aloud, use the Perfekt for most verbs and the Präteritum for \"sein\", \"haben\" and the modals: \"Als Kind war ich sehr schüchtern. Ich bin in Bremen aufgewachsen und musste jeden Tag mit dem Bus zur Schule fahren.\"",
         ],
@@ -1291,7 +1291,7 @@ export const DE_B1_U32: Lesson[] = [
         body: [
           "\"Sich verlieben in\" + accusative (fall in love with), \"heiraten\" (marry, with a direct object: \"Er hat sie geheiratet\", no with), \"sich trennen\" (split up), \"sich scheiden lassen\" (get divorced), \"Kinder bekommen\" (have children). \"Bekommen\" again means get, as in \"ein Baby bekommen\" (have a baby).",
           "Moving: \"umziehen\" (move house, with \"sein\": \"Wir sind nach Köln umgezogen\"), \"der Umzug\" (the move), \"ins Ausland gehen\" (go abroad), \"auswandern\" (emigrate).",
-          "\"Heiraten\" is a direct-object verb: \"*Er hat mit ihr geheiratet\" is a classic error. Married as a state is \"verheiratet\": \"Ich bin seit zehn Jahren verheiratet\".",
+          "\"Heiraten\" is a direct-object verb: \"*Er hat mit ihr geheiratet*\" is a classic error. Married as a state is \"verheiratet\": \"Ich bin seit zehn Jahren verheiratet\".",
         ],
         examples: [
           { es: "Sie hat sich im Urlaub in einen Spanier verliebt.", en: "She fell in love with a Spaniard on holiday." },
@@ -1350,7 +1350,7 @@ export const DE_B1_U32: Lesson[] = [
             type: "speak",
             text: "Ich bin in einem kleinen Dorf aufgewachsen.",
             prompt: "Say it in German: I grew up in a small village.",
-            tip: "\"Aufgewachsen\": the ch after a is the throaty ach-sound; stress AUF.",
+            tip: "In \"aufgewachsen\" the chs is said ks, as in \"sechs\"; stress AUF.",
             explanation: "\"Aufwachsen\" with \"sein\"; \"in\" + dative: \"in einem kleinen Dorf\".",
           },
         ],
@@ -1411,7 +1411,7 @@ export const DE_B1_U32: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "Which is right for: He married his childhood sweetheart?",
         options: ["Er hat seine Jugendliebe geheiratet.", "Er hat mit seiner Jugendliebe geheiratet.", "Er ist seine Jugendliebe geheiratet.", "Er hat sich seine Jugendliebe geheiratet."],
         correctIndex: 0,
         explanation: "\"Heiraten\" + direct accusative object, with \"haben\". No \"mit\", no \"sich\".",
@@ -1452,7 +1452,7 @@ export const DE_B1_U32: Lesson[] = [
     level: "DE-B1",
     number: 8,
     title: "Choose and Explain: Passive, Man or Active?",
-    summary: "Choose the most natural form for news, recipes, rules and chat: the passive when the action matters, man for general statements in speech, the active when the doer counts.",
+    summary: "Choose the most natural form for news, recipes, rules and chat: the passive when the action matters, \"man\" for general statements in speech, the active when the doer counts.",
     duration: "15 min",
     sections: [
       {
@@ -1654,7 +1654,7 @@ export const DE_B1_U32: Lesson[] = [
     level: "DE-B1",
     number: 9,
     title: "Word Web: News and Reports",
-    summary: "Read and retell the news: die Nachrichten, die Schlagzeile, der Bericht, berichten über, laut Polizei, and the Präteritum and passive of news style.",
+    summary: "Read and retell the news (\"die Nachrichten\", \"die Schlagzeile\", \"berichten über\", \"laut Polizei\") in the Präteritum and passive of news style.",
     duration: "15 min",
     sections: [
       {

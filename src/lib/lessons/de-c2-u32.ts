@@ -144,7 +144,7 @@ export const DE_C2_U32: Lesson[] = [
         source: "He had cut himself a slice of bread.",
         answer: "Er hatte sich eine Scheibe Brot abgeschnitten.",
         altAnswers: ["Er hatte sich eine Scheibe Brot geschnitten.", "Er hatte sich ein Stück Brot abgeschnitten."],
-        explanation: "Plusquamperfekt for the earlier action; \"sich\" (dative) for oneself; \"eine Scheibe Brot\" with no \"of\".",
+        explanation: "Plusquamperfekt for the earlier action; \"sich\" (dative) for oneself; \"eine Scheibe Brot\" with no 'of'.",
       },
       {
         type: "fill-blank",
@@ -514,7 +514,7 @@ export const DE_C2_U32: Lesson[] = [
       {
         heading: "Innerer Monolog: Leutnant Gustl",
         body: [
-          "\"Der innere Monolog\" goes one step further: first person, present tense, no narrator at all, just the stream of a mind. Arthur Schnitzler's novella \"Leutnant Gustl\" (1900) is the first German-language text written entirely this way. It opens: \"Wie lange wird denn das noch dauern? Ich muss auf die Uhr schauen...\". A young Viennese officer, bored at a concert, is insulted by a baker in the cloakroom, decides that his honour demands suicide, spends the night wandering through Vienna, and in the morning learns that the baker has died of a stroke. Relieved, he forgets everything.",
+          "\"Der innere Monolog\" goes one step further: first person, present tense, no narrator at all, just the stream of a mind. Arthur Schnitzler's novella \"Leutnant Gustl\" (1900) is the first German-language text written entirely this way. It opens: \"Wie lange wird denn das noch dauern? Ich muss auf die Uhr schauen...\". A young Viennese officer, bored at a concert, is insulted by a baker in the cloakroom, decides that his honour demands suicide, spends the night wandering through Vienna, and in the morning learns that the baker has died of a stroke. Relieved, he drops all thought of suicide at once.",
           "Features: \"ich\" + Präsens, fragments (\"Na, und?\"), jumps between topics, colloquial forms (\"hab\", \"is\", \"'s\"), questions to oneself, exclamations. The reader must reconstruct the action from the thoughts.",
           "Choose consistently: if you write a scene in erlebte Rede, don't slip into first person; if you use innerer Monolog, keep the narrator out. A switch can be powerful, but only once, at a climax, and on purpose.",
         ],
@@ -718,7 +718,7 @@ export const DE_C2_U32: Lesson[] = [
             prompt: "Translate into German.",
             source: "The wind rattled the windows.",
             answer: "Der Wind rüttelte an den Fenstern.",
-            altAnswers: ["Der Wind rüttelte an den Fensterscheiben.", "Der Wind ließ die Fenster klirren.", "Der Wind rüttelte an den Fensterläden."],
+            altAnswers: ["Der Wind rüttelte an den Fensterscheiben.", "Der Wind ließ die Fenster klirren."],
             explanation: "\"Rütteln an\" + dative (shake at): the wind acts like a person trying to get in.",
           },
           {
@@ -857,7 +857,7 @@ export const DE_C2_U32: Lesson[] = [
         type: "speak",
         text: "Die Stadt hielt den Atem an.",
         prompt: "Say it in German: The city held its breath.",
-        tip: "Stress \"Atem\" on the first syllable: A-tem, with a long a.",
+        tip: "Stress \"Atem\" on the first syllable, with a long a.",
         explanation: "Personification in a fixed expression: \"den Atem anhalten\".",
       },
     ],
@@ -907,7 +907,7 @@ export const DE_C2_U32: Lesson[] = [
         heading: "Writing to constraints: Elfchen, Lipogramm, Vorgaben",
         body: [
           "German schools love \"Schreiben nach Vorgaben\" (writing to set rules). \"Das Elfchen\" is a poem of eleven words in five lines: 1 word (a colour or quality), 2 words (a thing with that quality), 3 words (where or what it does), 4 words (something about me), 1 word (a conclusion). Example: \"Grau / der Morgen / über den Dächern / ich ziehe die Decke / Montag\".",
-          "\"Das Lipogramm\" leaves out one letter for the whole text. Without e, German becomes hard: no \"der\", \"die\", \"ein\", \"ich\", \"sie\", almost no infinitives. You must rebuild every sentence: \"Am Montag kam Maria vom Amt\" contains no e.",
+          "\"Das Lipogramm\" leaves out one letter for the whole text. Without e, German becomes hard: no \"der\", \"die\", \"ein\", \"er\", \"sie\", almost no infinitives. You must rebuild every sentence: \"Am Montag kam Maria vom Amt\" contains no e.",
           "Other constraints: a story in exactly 50 words, every sentence starting with the next letter of the alphabet (\"Abecedarium\"), a text using only one tense. Constraints force precise word choice and make you discover structures you wouldn't otherwise use.",
         ],
         examples: [
@@ -941,7 +941,7 @@ export const DE_C2_U32: Lesson[] = [
             question: "Which letter does this sentence avoid?",
             options: ["e", "a", "m", "o"],
             correctIndex: 0,
-            explanation: "A lipogram without e: no articles, no infinitives, just words that happen to lack the letter.",
+            explanation: "A lipogram without e: no articles (only the contraction \"vom\"), no infinitives, just words that happen to lack the letter.",
           },
         ],
       },
@@ -1525,7 +1525,7 @@ export const DE_C2_U32: Lesson[] = [
         body: [
           "The basic distinction trips up even advanced learners. \"Denken an\" + accusative means to think of, to have someone or something in mind: \"Ich denke oft an dich\", \"Denk an den Termin!\" (remember the appointment). \"Nachdenken über\" + accusative means to think about, to reflect on: \"Ich habe lange über deinen Vorschlag nachgedacht.\"",
           "\"Überlegen\" (to consider, think something over) is often reflexive with a dative: \"Ich überlege mir das\" (I'll think it over), \"Ich habe mir überlegt, dass...\" (I've been thinking that...). \"Sich etwas überlegen\" also means to come up with something: \"Wir müssen uns etwas überlegen.\"",
-          "Common mistake: \"*Ich denke über dich*\" (wrong, from English 'I think about you'). If you miss someone, it is \"Ich denke an dich\"; if you analyse them, \"Ich denke über dich nach\".",
+          "Common mistake: \"*Ich denke über dich*\" (wrong, from English 'I think about you'). If you miss someone, it is \"Ich denke an dich\"; if you analyse them, \"Ich denke über dich nach\". \"Denken über\" alone only gives an opinion: \"Was denkst du über ihn?\"",
         ],
         examples: [
           { es: "Ich denke oft an meine Großmutter.", en: "I often think of my grandmother." },
@@ -1727,7 +1727,7 @@ export const DE_C2_U32: Lesson[] = [
         type: "speak",
         text: "Ich bin zu der Erkenntnis gekommen, dass Geld nicht alles ist.",
         prompt: "Say it in German: I've come to realise that money isn't everything.",
-        tip: "er-KENNT-nis: stress on -kennt-.",
+        tip: "In \"Erkenntnis\" stress -kennt-.",
         explanation: "\"Zu der Erkenntnis kommen, dass...\"; Perfekt with \"sein\" because \"kommen\" is a verb of motion.",
       },
     ],
@@ -1977,6 +1977,6 @@ export const DE_C2_U32_WRITING: WriteExercise = {
     "Renders thoughts as \"erlebte Rede\" (third person, Präteritum, the character's own questions) or as a clearly marked \"innerer Monolog\", and keeps one perspective throughout",
     "Uses precise verbs and at least one image (metaphor, simile or synaesthesia), a foreshadowing device (\"sollte\", a recurring object) and the Vorfeld or a short final sentence for the ending",
   ],
-  modelAnswer: "Der Bus kam nicht. Lena stand seit zwanzig Minuten an der Haltestelle vor dem Krankenhaus, die Hände tief in den Manteltaschen, und zählte die Lichter in den Fenstern gegenüber. Im dritten Stock flackerte eine Neonröhre. Sie hatte sie schon gestern bemerkt, und vorgestern.\n\nNeben ihr wartete ein alter Mann mit einer Plastiktüte. Aus der Tüte ragte ein Strauß Chrysanthemen, gelb und ein wenig zerdrückt.\n\n„Für meine Frau“, sagte er, als er ihren Blick bemerkte. „Sie mag keine Rosen. Hat sie nie gemocht.“\n\nLena nickte. Was sollte sie auch sagen? Dass sie selbst seit einer Woche jeden Abend hier stand? Dass ihr Vater im dritten Stock lag, unter dem flackernden Licht, und sie nicht mehr erkannte?\n\n„Ihr Vater?“, fragte der Mann.\n\nSie zuckte zusammen. „Woher wissen Sie das?“\n\n„Man sieht es Ihnen an.“ Er lächelte, und sein Lächeln war müde und warm zugleich, wie ein Ofen, der schon lange nicht mehr geheizt wird. „Ich komme seit drei Jahren hierher. Jeden Abend.“\n\nDrei Jahre. Lena rechnete nach, ohne es zu wollen. Dreimal November, dreimal Weihnachten auf einem Plastikstuhl neben einem Bett. Würde sie das auch schaffen? Wollte sie das überhaupt?\n\nDie Scheinwerfer des Busses tauchten am Ende der Straße auf, verschwommen im Nieselregen. Der Mann stand auf, schwerfällig, und reichte ihr die Tüte.\n\n„Nehmen Sie die“, sagte er. „Ich brauche sie heute nicht mehr.“\n\nBevor sie fragen konnte, war er schon die Treppe zum Eingang hinaufgegangen, langsam, eine Hand am Geländer. Lena sah ihm nach. Dann sah sie hinauf zum dritten Stock.\n\nDie Neonröhre flackerte nicht mehr. Sie war aus.",
-  explanation: "The story starts in medias res (\"Der Bus kam nicht.\") and narrates in the Präteritum, with the Plusquamperfekt for earlier events (\"hatte sie schon gestern bemerkt\"). Dialogue follows German punctuation, with a comma after the quote and the inverted tag (\"fragte der Mann\"), Lena's thoughts appear as erlebte Rede (\"Was sollte sie auch sagen?\", \"Würde sie das auch schaffen?\"), and the flickering light is planted early as a recurring object. The simile (\"wie ein Ofen, der ...\"), precise verbs (\"flackerte\", \"zuckte zusammen\", \"ragte\") and the short final sentences leave the ending open but charged.",
+  modelAnswer: "Der Bus kam nicht. Lena stand seit zwanzig Minuten an der Haltestelle gegenüber dem Krankenhaus, die Hände tief in den Manteltaschen, und zählte die Lichter in den Fenstern gegenüber. Im dritten Stock flackerte eine Neonröhre. Sie hatte sie schon gestern bemerkt, und vorgestern.\n\nNeben ihr saß ein alter Mann auf der Bank, eine Plastiktüte auf dem Schoß. Aus der Tüte ragte ein Strauß Chrysanthemen, gelb und ein wenig zerdrückt.\n\n„Für meine Frau“, sagte er, als er ihren Blick bemerkte. „Sie mag keine Rosen. Hat sie nie gemocht.“\n\nLena nickte. Was sollte sie auch sagen? Dass sie selbst seit einer Woche jeden Abend hier stand? Dass ihr Vater im dritten Stock lag, unter dem flackernden Licht, und sie nicht mehr erkannte?\n\n„Ihr Vater?“, fragte der Mann.\n\nSie zuckte zusammen. „Woher wissen Sie das?“\n\n„Man sieht es Ihnen an.“ Er lächelte, und sein Lächeln war müde und warm zugleich, wie ein Kachelofen, in dem nur noch die Glut glimmt. „Ich komme seit drei Jahren hierher. Jeden Abend.“\n\nDrei Jahre. Lena rechnete nach, ohne es zu wollen. Dreimal November, dreimal Weihnachten auf einem Plastikstuhl neben einem Bett. Würde sie das auch schaffen? Wollte sie das überhaupt?\n\nDie Scheinwerfer des Busses tauchten am Ende der Straße auf, verschwommen im Nieselregen. Der Mann stand auf, schwerfällig, und reichte ihr die Tüte.\n\n„Nehmen Sie die“, sagte er. „Ich brauche sie heute nicht mehr.“\n\nBevor sie fragen konnte, hatte er schon die Straße überquert und stieg die Treppe zum Eingang hinauf, langsam, eine Hand am Geländer. Lena sah ihm nach. Dann sah sie hinauf zum dritten Stock.\n\nDie Neonröhre flackerte nicht mehr. Sie war aus.",
+  explanation: "The story starts in medias res (\"Der Bus kam nicht.\") and narrates in the Präteritum, with the Plusquamperfekt for earlier events (\"hatte sie schon gestern bemerkt\"). Dialogue follows German punctuation, with a comma after the quote and the inverted tag (\"fragte der Mann\"), Lena's thoughts appear as erlebte Rede (\"Was sollte sie auch sagen?\", \"Würde sie das auch schaffen?\"), and the flickering light is planted early as a recurring object. The simile (\"wie ein Kachelofen, in dem ...\"), precise verbs (\"flackerte\", \"zuckte zusammen\", \"ragte\") and the short final sentences leave the ending open but charged.",
 };

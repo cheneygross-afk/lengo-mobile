@@ -8,7 +8,7 @@ export const DE_B2_U19: Lesson[] = [
     level: "DE-B2",
     number: 1,
     title: "Word Order in Depth, Part 1 of 2: The Mittelfeld",
-    summary: "The order between the two verb parts: pronouns first, nouns dative before accusative, and adverbials in the order time, cause, manner, place.",
+    summary: "Order everything between the two verb parts: pronouns first, two nouns dative before accusative, and adverbials in the order time, cause, manner, place.",
     duration: "15 min",
     sections: [
       {
@@ -16,7 +16,7 @@ export const DE_B2_U19: Lesson[] = [
         body: [
           "German grammarians describe a main clause as a frame. The conjugated verb sits in position 2; any second verb part (participle, infinitive, separable prefix) sits at the very end. Together they form the \"Satzklammer\" (sentence bracket). Before the verb is the \"Vorfeld\" (one element); between the two verb parts is the \"Mittelfeld\"; after the final verb is the \"Nachfeld\".",
           "\"Ich | habe | meiner Schwester gestern das Buch | gegeben.\" Vorfeld: \"ich\"; Mittelfeld: \"meiner Schwester gestern das Buch\". Most of the word-order questions in German are really questions about the order inside the Mittelfeld.",
-          "English has no such bracket: I gave my sister the book yesterday. Learners often let things escape the bracket (\"*Ich habe gegeben meiner Schwester das Buch\"). Keep the second verb part at the end.",
+          "English has no such bracket: I gave my sister the book yesterday. Learners often let things escape the bracket (\"*Ich habe gegeben meiner Schwester das Buch*\"). Keep the second verb part at the end.",
         ],
         examples: [
           { es: "Ich habe meiner Schwester gestern das Buch gegeben.", en: "I gave my sister the book yesterday." },
@@ -48,7 +48,7 @@ export const DE_B2_U19: Lesson[] = [
         body: [
           "Rule 1: short, known information comes early. So personal pronouns come at the start of the Mittelfeld, before nouns: \"Ich habe ihr das Buch gegeben\" (pronoun dative, noun accusative). \"Ich habe es meiner Schwester gegeben\" (pronoun accusative, noun dative).",
           "Rule 2: two nouns: dative before accusative. \"Ich habe meiner Schwester das Buch gegeben.\"",
-          "Rule 3: two pronouns: accusative before dative. \"Ich habe es ihr gegeben.\" Learners who apply rule 2 to pronouns say \"*ihr es\", which sounds wrong to Germans.",
+          "Rule 3: two pronouns: accusative before dative. \"Ich habe es ihr gegeben.\" Learners who apply rule 2 to pronouns say \"*ihr es*\", which sounds wrong to Germans.",
           "Reflexive pronouns behave like other pronouns and come early: \"Gestern hat sich mein Bruder ein Auto gekauft.\"",
         ],
         examples: [
@@ -92,7 +92,7 @@ export const DE_B2_U19: Lesson[] = [
         heading: "Adverbials: TeKaMoLo",
         body: [
           "When several adverbials meet in the Mittelfeld, the default order is: temporal (when?), kausal (why?), modal (how?), lokal (where / where to?). The mnemonic is \"TeKaMoLo\": \"Ich fahre morgen wegen der Arbeit mit dem Zug nach Köln.\"",
-          "English typically does the opposite and puts time at the end: I'm going to Cologne by train tomorrow. Copying that gives \"*Ich fahre nach Köln mit dem Zug morgen\". In German, time usually comes early, and the place or destination last.",
+          "English typically does the opposite and puts time at the end: I'm going to Cologne by train tomorrow. Copying that gives \"*Ich fahre nach Köln mit dem Zug morgen*\". In German, time usually comes early, and the place or destination last.",
           "TeKaMoLo is a default, not a law: you can move an element to the Vorfeld for emphasis (Part 2), and short elements can shift. But when in doubt, it gives a natural sentence.",
         ],
         examples: [
@@ -170,7 +170,7 @@ export const DE_B2_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You want to say: I told him yesterday. Which sentence sounds most natural?",
+        question: "You want to say: I told him (it) yesterday. Which sentence sounds most natural?",
         options: ["Ich habe es ihm gestern gesagt.", "Ich habe ihm es gestern gesagt.", "Ich habe gestern ihm es gesagt.", "Ich habe gesagt es ihm gestern."],
         correctIndex: 0,
         explanation: "Pronouns first, accusative before dative: \"es ihm\".",
@@ -415,7 +415,7 @@ export const DE_B2_U19: Lesson[] = [
     level: "DE-B2",
     number: 3,
     title: "Spiral Review: Obwohl → Trotz → Trotzdem",
-    summary: "One concession, three structures: a subordinate clause with obwohl, a noun phrase with trotz and a main clause with trotzdem.",
+    summary: "Express one concession in three structures: a subordinate clause with \"obwohl\", a noun phrase with \"trotz\" and a main clause with \"trotzdem\".",
     duration: "12 min",
     sections: [
       {
@@ -491,7 +491,7 @@ export const DE_B2_U19: Lesson[] = [
         heading: "Trotzdem: position and pitfalls",
         body: [
           "\"Trotzdem\" refers back to the previous sentence, so it sits in a second main clause: \"Ich war müde, trotzdem bin ich mitgekommen.\" It can also go in the Mittelfeld, after pronouns: \"Ich bin trotzdem mitgekommen.\"",
-          "Typical mistakes: \"*Trotzdem ich müde war\" (\"trotzdem\" is not a conjunction in standard German; use \"obwohl\") and \"*Trotz ich müde war\" (\"trotz\" needs a noun). And English 'although' at the start of a sentence never becomes \"trotzdem\".",
+          "Typical mistakes: \"*Trotzdem ich müde war*\" (\"trotzdem\" is not a conjunction in standard German; use \"obwohl\") and \"*Trotz ich müde war*\" (\"trotz\" needs a noun). And English 'although' at the start of a sentence never becomes \"trotzdem\".",
           "In speech, \"trotzdem\" alone is a whole reply: \"Es ist teuer.\" – \"Ich kauf's trotzdem.\" ('I'm buying it anyway.')",
         ],
         examples: [
@@ -611,7 +611,7 @@ export const DE_B2_U19: Lesson[] = [
     level: "DE-B2",
     number: 4,
     title: "Spiral Review: The Right Reporting Verb",
-    summary: "Behaupten, zugeben, bestreiten, betonen and versichern: choose the verb that shows what the speaker was doing.",
+    summary: "Choose between \"behaupten\", \"zugeben\", \"bestreiten\", \"betonen\" and \"versichern\" to show what the speaker was doing.",
     duration: "12 min",
     sections: [
       {
@@ -807,7 +807,7 @@ export const DE_B2_U19: Lesson[] = [
     level: "DE-B2",
     number: 5,
     title: "Spiral Review: Jedoch, Folglich, Allerdings, Nämlich",
-    summary: "A fast round on the connectors from Unit 17 and the word order each one triggers.",
+    summary: "Use the connectors from Unit 17 at speed, with the word order each one triggers.",
     duration: "10 min",
     sections: [
       {
@@ -847,7 +847,7 @@ export const DE_B2_U19: Lesson[] = [
         heading: "Nämlich: the explanation after the fact",
         body: [
           "\"Nämlich\" gives a reason, like 'you see' or 'because'. It never stands in position 1; it sits in the Mittelfeld, usually after the verb and pronouns: \"Ich kann nicht kommen. Ich bin nämlich krank.\"",
-          "The trap: English speakers translate 'because' as \"nämlich\" and put it first: \"*Nämlich bin ich krank.\" Wrong. Also, \"nämlich\" doesn't start a sentence that gives the reason before the result; it always follows the statement it explains.",
+          "The trap: English speakers translate 'because' as \"nämlich\" and put it first: \"*Nämlich bin ich krank.*\" Wrong. Also, \"nämlich\" doesn't start a sentence that gives the reason before the result; it always follows the statement it explains.",
           "\"Nämlich\" also means 'namely': \"Zwei Länder, nämlich Spanien und Portugal, ...\"",
         ],
         examples: [
@@ -855,7 +855,7 @@ export const DE_B2_U19: Lesson[] = [
           { es: "Sie ist heute nicht da, sie hat nämlich Urlaub.", en: "She isn't in today; she's on holiday, you see." },
           { es: "Zwei Länder, nämlich Spanien und Portugal, haben zugestimmt.", en: "Two countries, namely Spain and Portugal, agreed." },
           { es: "Beeil dich! Der Zug fährt nämlich gleich ab.", en: "Hurry up! The train is about to leave, you know." },
-          { es: "Wir bleiben zu Hause, es regnet nämlich.", en: "We're staying at home, because it's raining." },
+          { es: "Wir bleiben zu Hause, es regnet nämlich.", en: "We're staying at home because it's raining." },
         ],
         checkpoint: [
           {
@@ -1004,8 +1004,8 @@ export const DE_B2_U19: Lesson[] = [
         heading: "Sentence negation: as late as possible",
         body: [
           "When \"nicht\" negates the whole statement, it goes late in the Mittelfeld: after the subject, pronouns, definite objects and most time expressions, but before the final verb part. \"Ich habe ihn gestern nicht gesehen.\"",
-          "Think of it like this: \"nicht\" moves towards the end, but it stops in front of anything that belongs tightly to the verb: the participle or infinitive, a separable prefix, a predicate adjective or noun (\"Das ist nicht teuer\", \"Er ist nicht Arzt\"), and directional or required place phrases (\"Ich fahre nicht nach Köln\", \"Er wohnt nicht in Berlin\").",
-          "English puts 'not' right after the auxiliary (I have not seen him), which tempts learners to say \"*Ich habe nicht ihn gesehen\". That sentence exists, but it means something else (see the next section).",
+          "Think of it like this: \"nicht\" moves towards the end, but it stops in front of anything that belongs tightly to the verb: the participle or infinitive, a separable prefix, a predicate adjective or noun (\"Das ist nicht teuer\"; with a bare noun \"kein\" is more usual: \"Er ist kein Arzt\"), and directional or required place phrases (\"Ich fahre nicht nach Köln\", \"Er wohnt nicht in Berlin\").",
+          "English puts 'not' right after the auxiliary (I have not seen him), which tempts learners to say \"*Ich habe nicht ihn gesehen*\". That sentence exists, but it means something else (see the next section).",
         ],
         examples: [
           { es: "Ich habe ihn gestern nicht gesehen.", en: "I didn't see him yesterday." },
@@ -1220,14 +1220,14 @@ export const DE_B2_U19: Lesson[] = [
             question: "Which sentence is wrong?",
             options: ["Gestern ich bin ins Kino gegangen.", "Gestern bin ich ins Kino gegangen.", "Ich bin gestern ins Kino gegangen.", "Ins Kino bin ich gestern gegangen."],
             correctIndex: 0,
-            explanation: "Only one element before the verb: \"*Gestern ich bin\" is impossible.",
+            explanation: "Only one element before the verb: \"*Gestern ich bin*\" is impossible.",
           },
         ],
       },
       {
         heading: "Only one element: the V2 trap",
         body: [
-          "English allows several things before the verb (Yesterday I went...). German doesn't: the conjugated verb must be the second element. \"Gestern bin ich ...\", never \"*Gestern ich bin ...\".",
+          "English allows several things before the verb (Yesterday I went...). German doesn't: the conjugated verb must be the second element. \"Gestern bin ich ...\", never \"*Gestern ich bin ...*\".",
           "Elements that don't count: \"und, aber, oder, denn, sondern\" (position 0), and interjections or addresses separated by a comma: \"Ja, ich komme.\" / \"Anna, kommst du?\"",
           "A subordinate clause in position 1 counts as one element, so the main verb follows it immediately: \"Wenn ich Zeit habe, komme ich.\"",
         ],
@@ -1253,6 +1253,7 @@ export const DE_B2_U19: Lesson[] = [
             prompt: "Put the words in order to say: And then he just hung up.",
             words: ["Und", "dann", "hat", "er", "einfach", "aufgelegt."],
             translation: "And then he just hung up.",
+            altOrders: [["Und", "er", "hat", "dann", "einfach", "aufgelegt."]],
             explanation: "\"Und\" is position 0, \"dann\" position 1.",
           },
         ],
@@ -1262,7 +1263,7 @@ export const DE_B2_U19: Lesson[] = [
         body: [
           "Normally the final verb closes the sentence. But some material regularly goes after it (Ausklammerung): comparisons with \"als\" and \"wie\" (\"Er ist größer geworden als sein Vater\"), relative clauses and other subordinate clauses, and in speech long prepositional phrases (\"Ich habe mich sehr gefreut über deinen Brief\").",
           "Comparisons in the Nachfeld are standard even in careful writing: \"Ich habe mehr gearbeitet als du\" is far more natural than \"Ich habe mehr als du gearbeitet\".",
-          "Don't ausklammern short objects or adverbs: \"*Ich habe gekauft ein Auto\" is wrong. Prepositional phrases after the verb are a feature of speech; in formal writing, keep them inside: \"Wir haben lange auf den Bus gewartet.\"",
+          "Don't move short objects or adverbs into the Nachfeld: \"*Ich habe gekauft ein Auto*\" is wrong. Prepositional phrases after the verb are a feature of speech; in formal writing, keep them inside: \"Wir haben lange auf den Bus gewartet.\"",
         ],
         examples: [
           { es: "Er ist größer geworden als sein Vater.", en: "He's grown taller than his father." },
@@ -1341,6 +1342,7 @@ export const DE_B2_U19: Lesson[] = [
         prompt: "Put the words in order to say: If I have time, I'll drop by.",
         words: ["Wenn", "ich", "Zeit", "habe,", "komme", "ich", "vorbei."],
         translation: "If I have time, I'll drop by.",
+        altOrders: [["Ich", "komme", "vorbei,", "wenn", "ich", "Zeit", "habe."]],
         explanation: "The wenn-clause fills position 1.",
       },
       {
@@ -1380,7 +1382,7 @@ export const DE_B2_U19: Lesson[] = [
     level: "DE-B2",
     number: 8,
     title: "Spiral Review: Spannend / Gespannt",
-    summary: "Present participle for what causes the feeling, past participle for the person who has it: spannend vs gespannt, langweilig vs gelangweilt.",
+    summary: "Tell apart the form for what causes a feeling and the past participle for the person who has it: \"spannend\" vs \"gespannt\", \"langweilig\" vs \"gelangweilt\".",
     duration: "10 min",
     sections: [
       {
@@ -1388,7 +1390,7 @@ export const DE_B2_U19: Lesson[] = [
         body: [
           "From Unit 8: many feeling adjectives come in pairs. The one in \"-end\" (or a separate adjective) describes the thing that causes the feeling; the past participle describes the person who feels it.",
           "\"Der Film ist spannend.\" 'The film is exciting.' \"Ich bin gespannt.\" 'I'm curious / eager to know.' \"Gespannt\" almost always means 'eagerly waiting': \"Ich bin gespannt, wie es weitergeht.\"",
-          "English uses -ing / -ed (exciting / excited, boring / bored). The trap: \"*Ich bin spannend\" means 'I am thrilling', and 'I'm excited' for a party is usually \"Ich freue mich\", not \"gespannt\".",
+          "English uses -ing / -ed (exciting / excited, boring / bored). The trap: \"*Ich bin spannend*\" means 'I am thrilling', and 'I'm excited' for a party is usually \"Ich freue mich\", not \"gespannt\".",
         ],
         examples: [
           { es: "Der Film ist wirklich spannend.", en: "The film is really exciting." },
@@ -1572,7 +1574,7 @@ export const DE_B2_U19: Lesson[] = [
     level: "DE-B2",
     number: 9,
     title: "Transformations: Move It to the Front",
-    summary: "Rewrite a neutral sentence with a different element in position 1 to answer Wann?, Wem?, Womit? or to set up a contrast.",
+    summary: "Rewrite a neutral sentence with a different element in position 1 to answer \"Wann?\", \"Wem?\", \"Womit?\" or to set up a contrast.",
     duration: "12 min",
     sections: [
       {
@@ -1732,7 +1734,7 @@ export const DE_B2_U19: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Someone asks: \"Was hast du am Wochenende gemacht?\" What is the most natural answer?",
-        options: ["Am Wochenende war ich wandern.", "Wandern am Wochenende war ich.", "Ich war wandern am Wochenende.", "Am Wochenende ich war wandern."],
+        options: ["Am Wochenende war ich wandern.", "Wandern am Wochenende war ich.", "Ich am Wochenende war wandern.", "Am Wochenende ich war wandern."],
         correctIndex: 0,
         explanation: "The known element (the weekend) can open; the new information (hiking) comes later.",
       },
@@ -1766,7 +1768,7 @@ export const DE_B2_U19: Lesson[] = [
     level: "DE-B2",
     number: 10,
     title: "Spiral Review: Ich will → Ich hätte gern → Könnten Sie...?",
-    summary: "From blunt to very polite: will, möchte, hätte gern, Könnten Sie ...?, Würden Sie ...? and Dürfte ich ...?",
+    summary: "Go from blunt to very polite: \"will\", \"möchte\", \"hätte gern\", \"Könnten Sie ...?\", \"Würden Sie ...?\" and \"Dürfte ich ...?\".",
     duration: "12 min",
     sections: [
       {
@@ -1795,7 +1797,7 @@ export const DE_B2_U19: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which order sounds most polite in a café?",
+            question: "You're ordering cake in a café. Which request sounds most polite?",
             options: ["Ich hätte gern ein Stück Kuchen.", "Ich will ein Stück Kuchen.", "Gib mir ein Stück Kuchen.", "Ein Stück Kuchen!"],
             correctIndex: 0,
             explanation: "\"Hätte gern\" is the polite standard.",
@@ -2038,10 +2040,10 @@ export const DE_B2_U19: Lesson[] = [
           "\"Und zwar\" ('in fact', 'namely') is a handy way to add a precise detail at the end.",
         ],
         examples: [
-          { es: "Sie hat das Geld zurückgegeben, und zwar gestern im Café.", en: "She gave the money back, and in fact it was yesterday in the café." },
+          { es: "Sie hat das Geld zurückgegeben, und zwar gestern im Café.", en: "She gave the money back – yesterday in the café, to be precise." },
           { es: "Sie hat das Geld zurückgegeben, das sie sich im Mai geliehen hatte.", en: "She gave back the money she had borrowed in May." },
           { es: "Ich muss etwas kaufen, und zwar einen neuen Laptop.", en: "I need to buy something, namely a new laptop." },
-          { es: "Er hat lange gezögert mit seiner Antwort.", en: "He hesitated a long time with his answer." },
+          { es: "Er hat lange gezögert mit seiner Antwort.", en: "He took a long time to answer." },
           { es: "Sie ist schneller fertig geworden als erwartet.", en: "She finished sooner than expected." },
         ],
         checkpoint: [
@@ -2177,7 +2179,7 @@ export const DE_B2_U19: Lesson[] = [
             prompt: "Translate into German, starting with \"So eine Pasta\".",
             source: "I haven't eaten pasta like that in years!",
             answer: "So eine Pasta habe ich seit Jahren nicht gegessen!",
-            altAnswers: ["So eine Pasta habe ich seit Jahren nicht mehr gegessen!", "So gute Pasta habe ich seit Jahren nicht gegessen!"],
+            altAnswers: ["So eine Pasta habe ich seit Jahren nicht mehr gegessen!"],
             explanation: "Fronted object for emphasis; \"seit\" + present perfect negated.",
           },
           {
@@ -2229,7 +2231,7 @@ export const DE_B2_U19: Lesson[] = [
       {
         heading: "Model review",
         body: [
-          "\"Was für ein Abend! Das kleine Restaurant 'Zur Linde' habe ich durch Zufall entdeckt, und ich bin begeistert. Selten habe ich so frische Zutaten geschmeckt. Besonders die hausgemachten Maultaschen kann ich nur empfehlen. Die Bedienung war zwar etwas langsam, dafür aber unglaublich herzlich. Das Preis-Leistungs-Verhältnis stimmt auch. Wer in Tübingen ist, sollte unbedingt hingehen!\"",
+          "\"Was für ein Abend! Das kleine Restaurant „Zur Linde“ habe ich durch Zufall entdeckt, und ich bin begeistert. Selten habe ich so frische Zutaten geschmeckt. Besonders die hausgemachten Maultaschen kann ich nur empfehlen. Die Bedienung war zwar etwas langsam, dafür aber unglaublich herzlich. Das Preis-Leistungs-Verhältnis stimmt auch. Wer in Tübingen ist, sollte unbedingt hingehen!\"",
           "Note the fronted object (\"Das kleine Restaurant ... habe ich\"), the emphatic \"Selten\", \"zwar ... aber\" for concession, and a wer-clause as the Vorfeld (\"Wer in Tübingen ist, sollte ...\").",
         ],
         examples: [
@@ -2319,6 +2321,7 @@ export const DE_B2_U19: Lesson[] = [
         prompt: "Put the words in order to say: You simply have to read this book.",
         words: ["Dieses Buch", "muss", "man", "einfach", "lesen."],
         translation: "You simply have to read this book.",
+        altOrders: [["Man", "muss", "dieses Buch", "einfach", "lesen."]],
         explanation: "Object in front, \"man\" for 'you' in general.",
       },
       {
@@ -2373,7 +2376,7 @@ export const DE_B2_U19: Lesson[] = [
             prompt: "Translate into German, starting with \"Nach Angaben\".",
             source: "According to the police, nobody was injured.",
             answer: "Nach Angaben der Polizei wurde niemand verletzt.",
-            altAnswers: ["Nach Angaben der Polizei ist niemand verletzt worden.", "Laut Polizei wurde niemand verletzt.", "Laut Polizei ist niemand verletzt worden."],
+            altAnswers: ["Nach Angaben der Polizei ist niemand verletzt worden."],
             explanation: "The source in position 1, passive in the rest.",
           },
           {
@@ -2422,7 +2425,7 @@ export const DE_B2_U19: Lesson[] = [
         heading: "Putting it together",
         body: [
           "A typical structure: 1) what happened, with the cause or time in front; 2) the source (\"nach Angaben\", \"laut\", \"wie ... mitteilte\"); 3) quotes in Konjunktiv I; 4) what comes next.",
-          "\"Wie die Stadt mitteilte, soll die Straße ab Montag wieder befahrbar sein.\" 'As the city announced, the road should be open again from Monday.' (\"Soll\" here = reportedly, from Unit 16.)",
+          "\"Wie die Stadt mitteilte, soll die Straße ab Montag wieder befahrbar sein.\" 'As the city announced, the road should be open again from Monday.' (\"Soll\" here = reportedly, from Unit 14.)",
         ],
         examples: [
           { es: "Wie die Stadt mitteilte, soll die Straße ab Montag wieder befahrbar sein.", en: "As the city announced, the road should be open again from Monday." },
@@ -2550,6 +2553,6 @@ export const DE_B2_U19_WRITING: WriteExercise = {
     "A contrast or concession: \"zwar ... aber\", \"dafür\", \"allerdings\" or \"nicht ... sondern\".",
     "At least one element in the Nachfeld, such as a comparison with \"als\" or a relative clause.",
   ],
-  modelAnswer: "Was für ein Fund! Das kleine Café \"Kaffeeklatsch\" in der Altstadt habe ich letzte Woche durch Zufall entdeckt, und seitdem gehe ich fast jeden Tag hin. Selten habe ich so einen guten Käsekuchen gegessen. Besonders die Variante mit Himbeeren kann ich nur empfehlen. Auch der Kaffee ist besser als in den meisten Ketten, und zwar deutlich. Die Atmosphäre ist gemütlich: alte Sessel, Bücherregale an den Wänden und leise Jazzmusik. Die Bedienung war zwar am Samstag etwas langsam, dafür aber immer freundlich. Meiner Schwester habe ich das Café gestern gezeigt, und sie war genauso begeistert wie ich. Nicht billig ist es allerdings: Für zwei Stück Kuchen und zwei Cappuccino haben wir fast zwanzig Euro bezahlt. Trotzdem stimmt für mich das Preis-Leistungs-Verhältnis, denn alles ist hausgemacht. Wer gern in Ruhe liest oder sich lange mit Freunden unterhält, ist hier genau richtig. Fünf Sterne von mir!",
+  modelAnswer: "Was für ein Fund! Das kleine Café „Kaffeeklatsch“ in der Altstadt habe ich letzte Woche durch Zufall entdeckt, und seitdem gehe ich fast jeden Tag hin. Selten habe ich so einen guten Käsekuchen gegessen. Besonders die Variante mit Himbeeren kann ich nur empfehlen. Auch der Kaffee ist besser als in den meisten Ketten, und zwar deutlich. Die Atmosphäre ist gemütlich: alte Sessel, Bücherregale an den Wänden und leise Jazzmusik. Die Bedienung war zwar am Samstag etwas langsam, dafür aber immer freundlich. Meiner Schwester habe ich das Café gestern gezeigt, und sie war genauso begeistert wie ich. Nicht billig ist es allerdings: Für zwei Stück Kuchen und zwei Cappuccino haben wir fast zwanzig Euro bezahlt. Trotzdem stimmt für mich das Preis-Leistungs-Verhältnis, denn alles ist hausgemacht. Wer gern in Ruhe liest oder sich lange mit Freunden unterhält, ist hier genau richtig. Fünf Sterne von mir!",
   explanation: "The review uses the Vorfeld for emphasis and topic: a fronted object (\"Das kleine Café ... habe ich\", \"Meiner Schwester habe ich\"), the emphatic \"Selten habe ich\", a fronted adjective (\"Nicht billig ist es\") and a wer-clause as the Vorfeld. The Mittelfeld follows the default order (\"am Samstag etwas langsam\", time before manner). Comparisons go to the Nachfeld (\"besser als in den meisten Ketten\", \"genauso begeistert wie ich\"), and \"zwar ... dafür aber\" balances praise and criticism.",
 };

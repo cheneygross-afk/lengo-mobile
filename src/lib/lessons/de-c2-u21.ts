@@ -14,7 +14,7 @@ export const DE_C2_U21: Lesson[] = [
       {
         heading: "The German application: Anschreiben, Lebenslauf, Zeugnisse",
         body: [
-          "A German application (\"die Bewerbung\") traditionally has three parts, sent together as \"die Bewerbungsunterlagen\": the cover letter (\"das Anschreiben\"), a CV in table form (\"der tabellarische Lebenslauf\") and your certificates and references (\"die Zeugnisse\"). The last item surprises English speakers most: German employers expect copies of your degree certificates and, crucially, \"Arbeitszeugnisse\", the written references that every former employer is legally obliged to give you.",
+          "A German application (\"die Bewerbung\") traditionally has three parts, sent together as \"die Bewerbungsunterlagen\": the cover letter (\"das Anschreiben\"), a CV in table form (\"der tabellarische Lebenslauf\") and your certificates and references (\"die Zeugnisse\"). The last item surprises English speakers most: German employers expect copies of your degree certificates and, crucially, \"Arbeitszeugnisse\", the written references that every former employer is legally obliged to give you when you leave and ask for one.",
           "An \"Arbeitszeugnis\" is written in a coded language. By law it must be benevolent, so criticism is hidden in grading formulas: \"stets zu unserer vollsten Zufriedenheit\" is top marks, \"zu unserer Zufriedenheit\" is merely adequate, and \"Er hat sich bemüht\" (he made an effort) is a polite way of saying he failed. Recruiters read these formulas carefully, and so should you.",
           "The CV is usually reverse-chronological, one or two pages, and many applicants still add a photo and their date of birth. Since the anti-discrimination law of 2006 (\"das Allgemeine Gleichbehandlungsgesetz\", AGG) neither is required, and international companies often prefer CVs without them; in traditional firms a professional photo is still common. The process then leads to \"das Vorstellungsgespräch\" (or \"Bewerbungsgespräch\"), sometimes preceded by a phone interview and, for graduate programmes, an \"Assessment-Center\" with group tasks.",
         ],
@@ -262,7 +262,7 @@ export const DE_C2_U21: Lesson[] = [
         body: [
           "The opposite mistake is false modesty (\"falsche Bescheidenheit\"). \"Ich habe da nur ein bisschen geholfen\" or \"Das war eigentlich nichts Besonderes\" make the interviewer wonder what you actually did. In a German interview, playing down a real achievement is not charming; it is simply missing information.",
           "English speakers, especially British ones, often hedge with just, a bit and sort of, and translate them straight into \"nur\", \"ein bisschen\", \"irgendwie\". In German those words do not sound polite, they sound unsure. \"Ich habe irgendwie das Team ein bisschen koordiniert\" says: I don't know what I did.",
-          "There is also the \"wir\" trap. Saying \"we\" all the time is modest, but the interviewer wants to know your share. Use \"wir\" for the team's goal and \"ich\" for your part: \"Wir hatten das Ziel, ... Meine Aufgabe war es, ...\"",
+          "There is also the \"wir\" trap. Saying 'we' all the time is modest, but the interviewer wants to know your share. Use \"wir\" for the team's goal and \"ich\" for your part: \"Wir hatten das Ziel, ... Meine Aufgabe war es, ...\"",
         ],
         examples: [
           { es: "Ich habe da eigentlich nur ein bisschen mitgeholfen.", en: "I actually only helped out a bit. (false modesty)" },
@@ -1304,7 +1304,7 @@ export const DE_C2_U21: Lesson[] = [
         examples: [
           { es: "Wäre es möglich, zwei Tage pro Woche im Homeoffice zu arbeiten?", en: "Would it be possible to work from home two days a week?" },
           { es: "Ich würde gern wissen, ob die Stelle unbefristet ist.", en: "I'd like to know whether the position is permanent." },
-          { es: "Für mich wäre wichtig, dass ich mich regelmäßig weiterbilden kann.", en: "It would be important to me to be able to train regularly." },
+          { es: "Für mich wäre wichtig, dass ich mich regelmäßig weiterbilden kann.", en: "It would be important to me to be able to do further training regularly." },
           { es: "Ich könnte mir gut vorstellen, später auch Führungsverantwortung zu übernehmen.", en: "I could well imagine taking on management responsibility later." },
           { es: "Darf ich noch kurz zu den Rahmenbedingungen fragen?", en: "May I briefly ask about the terms and conditions?" },
           { es: "Kommen wir zum Thema Gehalt.", en: "Let's come to the subject of salary." },
@@ -1358,7 +1358,7 @@ export const DE_C2_U21: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "It [would be] important to me to be able to train regularly.",
+        en: "It [would be] important to me to be able to do further training regularly.",
         sentence: "Für mich ___ wichtig, dass ich mich regelmäßig weiterbilden kann.",
         answer: "wäre",
         explanation: "Konjunktiv II \"wäre\" makes the expectation a wish rather than a demand.",

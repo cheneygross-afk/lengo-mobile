@@ -41,7 +41,7 @@ export const DE_C1_U08_EXTRA: Lesson[] = [
             en: "[The guests were bored] at the reception.",
             sentence: "___ auf dem Empfang.",
             answer: "Den Gästen war langweilig",
-            altAnswers: ["Den Gästen war es langweilig"],
+            altAnswers: ["Den Gästen war es langweilig", "Die Gäste langweilten sich", "Die Gäste haben sich gelangweilt"],
             explanation: "Dative of the person: \"den Gästen war langweilig\".",
           },
         ],
@@ -72,7 +72,7 @@ export const DE_C1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "We're fed up with the noise.",
         answer: "Wir haben den Lärm satt.",
-        altAnswers: ["Wir haben es satt mit dem Lärm.", "Wir haben die Nase voll von dem Lärm.", "Wir haben die Nase voll vom Lärm."],
+        altAnswers: ["Wir haben genug von dem Lärm.", "Wir haben die Nase voll von dem Lärm.", "Wir haben die Nase voll vom Lärm."],
         explanation: "\"Etwas satt haben\".",
       },
       {
@@ -507,7 +507,7 @@ export const DE_C1_U08_EXTRA: Lesson[] = [
         heading: "Recap: object or movement?",
         body: [
           "If the subject itself moves or changes and there is no direct object → \"sein\": \"Ich bin nach Graz gefahren\", \"Wir sind umgezogen\", \"Das Glas ist gebrochen\".",
-          "If there is a direct object → \"haben\": \"Ich habe den Bus gefahren\", \"Er hat den Koffer hinter sich her gezogen\", \"Sie hat den Rekord gebrochen\". Same with \"fliegen\", \"reiten\", \"stoßen\", \"verderben\".",
+          "If there is a direct object → \"haben\": \"Ich habe den Bus gefahren\", \"Er hat den Koffer hinter sich hergezogen\", \"Sie hat den Rekord gebrochen\". Same with \"fliegen\", \"reiten\", \"stoßen\", \"verderben\".",
         ],
         examples: [
           { es: "Wir sind über Frankfurt nach New York geflogen.", en: "We flew to New York via Frankfurt." },
@@ -754,7 +754,7 @@ export const DE_C1_U08_EXTRA: Lesson[] = [
         source: "There's no reason to panic.",
         answer: "Es gibt keinen Grund zur Panik.",
         altAnswers: ["Es gibt keinen Grund, in Panik zu geraten.", "Es gibt keinen Grund, panisch zu werden."],
-        explanation: "\"Es gibt keinen Grund\", not \"*Da ist kein Grund\".",
+        explanation: "\"Es gibt keinen Grund\", not \"*Da ist kein Grund*\".",
       },
       {
         type: "translate",
@@ -938,9 +938,9 @@ export const DE_C1_U08_EXTRA: Lesson[] = [
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
         en: "I don't know whether she [had the contract checked].",
-        sentence: "Ich weiß nicht, ob sie den Vertrag ___.",
-        answer: "hat prüfen lassen",
-        altAnswers: ["hat überprüfen lassen"],
+        sentence: "Ich weiß nicht, ob sie ___.",
+        answer: "den Vertrag hat prüfen lassen",
+        altAnswers: ["den Vertrag hat überprüfen lassen"],
         explanation: "Subordinate clause: \"hat\" before the double infinitive.",
       },
       {

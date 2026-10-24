@@ -12,7 +12,7 @@ export const DE_B1_U04_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Als, Wenn, Wann, Part 1 of 3",
-    summary: "Als vs immer wenn in past stories.",
+    summary: "Choose between \"als\" (one event) and \"(immer) wenn\" (every time) in past stories.",
     duration: "10 min",
     sections: [
       {
@@ -35,7 +35,7 @@ export const DE_B1_U04_EXTRA: Lesson[] = [
             source: "When the phone rang, I was already asleep.",
             answer: "Als das Telefon klingelte, schlief ich schon.",
             altAnswers: ["Als das Telefon geklingelt hat, habe ich schon geschlafen.", "Als das Telefon klingelte, habe ich schon geschlafen."],
-            explanation: "One call: \"als\".",
+            explanation: "One call at one moment: \"als\". \"Wenn\" would mean every time the phone rang.",
           },
           {
             type: "fill-blank",
@@ -73,7 +73,7 @@ export const DE_B1_U04_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Als, Wenn, Wann, Part 2 of 3",
-    summary: "Wenn for present and future plans.",
+    summary: "Use \"wenn\" for every 'when' in the present and future, plans included.",
     duration: "10 min",
     sections: [
       {
@@ -111,11 +111,11 @@ export const DE_B1_U04_EXTRA: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: P, source: "If the weather's good, we'll have a barbecue.", answer: "Wenn das Wetter gut ist, grillen wir.", altAnswers: ["Wenn das Wetter schön ist, grillen wir.", "Wir grillen, wenn das Wetter gut ist."], explanation: "Condition: \"wenn\"." },
-      { type: "translate", direction: "en-es", prompt: P, source: "When I've finished work, I'll call you. (to a friend)", answer: "Wenn ich mit der Arbeit fertig bin, rufe ich dich an.", explanation: "Future: \"wenn\"." },
+      { type: "translate", direction: "en-es", prompt: P, source: "When I've finished work, I'll call you. (to a friend)", answer: "Wenn ich mit der Arbeit fertig bin, rufe ich dich an.", altAnswers: ["Ich rufe dich an, wenn ich mit der Arbeit fertig bin."], explanation: "Future: \"wenn\"." },
       { type: "translate", direction: "en-es", prompt: P, source: "When Mia comes, we'll eat.", answer: "Wenn Mia kommt, essen wir.", altAnswers: ["Wir essen, wenn Mia kommt."], explanation: "Future: \"wenn\"." },
-      { type: "translate", direction: "en-es", prompt: P, source: "When I'm in Berlin, I'll visit you. (to a friend)", answer: "Wenn ich in Berlin bin, besuche ich dich.", explanation: "Future: \"wenn\"." },
+      { type: "translate", direction: "en-es", prompt: P, source: "When I'm in Berlin, I'll visit you. (to a friend)", answer: "Wenn ich in Berlin bin, besuche ich dich.", altAnswers: ["Ich besuche dich, wenn ich in Berlin bin."], explanation: "Future: \"wenn\"." },
       { type: "translate", direction: "en-es", prompt: P, source: "When the film is over, we'll go for a drink.", answer: "Wenn der Film zu Ende ist, gehen wir etwas trinken.", altAnswers: ["Wenn der Film vorbei ist, gehen wir etwas trinken.", "Wenn der Film aus ist, gehen wir etwas trinken.", "Wenn der Film zu Ende ist, gehen wir was trinken."], explanation: "Future: \"wenn\"." },
-      { type: "translate", direction: "en-es", prompt: P, source: "If you're tired, go to bed. (to a friend)", answer: "Wenn du müde bist, geh ins Bett.", explanation: "Condition: \"wenn\"." },
+      { type: "translate", direction: "en-es", prompt: P, source: "If you're tired, go to bed. (to a friend)", answer: "Wenn du müde bist, geh ins Bett.", altAnswers: ["Geh ins Bett, wenn du müde bist.", "Wenn du müde bist, geh schlafen."], explanation: "Condition: \"wenn\"." },
       { type: "fill-blank", prompt: B, en: "When the children are asleep, [we'll watch] a film.", sentence: "Wenn die Kinder schlafen, ___ einen Film.", answer: "sehen wir", altAnswers: ["schauen wir", "gucken wir"], explanation: "Verb right after the comma." },
       { type: "translate", direction: "en-es", prompt: P, source: "When I get my results, I'll tell you. (to a friend)", answer: "Wenn ich meine Ergebnisse bekomme, sage ich dir Bescheid.", altAnswers: ["Wenn ich meine Ergebnisse habe, sage ich dir Bescheid.", "Wenn ich meine Ergebnisse bekomme, sag ich dir Bescheid.", "Wenn ich meine Ergebnisse bekomme, sage ich es dir."], explanation: "\"Bescheid sagen\": to let someone know." },
       { type: "multiple-choice", question: "___ ich nächstes Jahr in Wien bin, besuche ich die Oper.", options: ["Wenn", "Als", "Wann", "Ob"], correctIndex: 0, explanation: "Future: \"wenn\" (never \"als\")." },
@@ -133,7 +133,7 @@ export const DE_B1_U04_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Als, Wenn, Wann, Part 3 of 3",
-    summary: "Wann in direct and indirect questions.",
+    summary: "Ask when with \"wann\", in direct and indirect questions.",
     duration: "10 min",
     sections: [
       {
@@ -171,14 +171,14 @@ export const DE_B1_U04_EXTRA: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: P, source: "When does the last train leave?", answer: "Wann fährt der letzte Zug?", altAnswers: ["Wann fährt der letzte Zug ab?"], explanation: "Direct question." },
-      { type: "translate", direction: "en-es", prompt: P, source: "When did you two meet? (to friends)", answer: "Wann habt ihr euch kennengelernt?", explanation: "\"Wann\" + Perfekt." },
-      { type: "translate", direction: "en-es", prompt: P, source: "By when do I have to do it?", answer: "Bis wann muss ich das machen?", altAnswers: ["Bis wann muss ich das erledigen?"], explanation: "\"Bis wann\": by when." },
-      { type: "translate", direction: "en-es", prompt: P, source: "Can you tell me when the doctor is coming? (polite)", answer: "Können Sie mir sagen, wann der Arzt kommt?", altAnswers: ["Können Sie mir sagen, wann die Ärztin kommt?"], explanation: "Polite indirect question." },
+      { type: "translate", direction: "en-es", prompt: P, source: "When did you two meet? (to friends)", answer: "Wann habt ihr euch kennengelernt?", altAnswers: ["Wann habt ihr beide euch kennengelernt?"], explanation: "\"Wann\" + Perfekt." },
+      { type: "translate", direction: "en-es", prompt: P, source: "By when do I have to do it?", answer: "Bis wann muss ich das machen?", altAnswers: ["Bis wann muss ich das erledigen?", "Bis wann muss ich das tun?"], explanation: "\"Bis wann\": by when." },
+      { type: "translate", direction: "en-es", prompt: P, source: "Can you tell me when the doctor is coming? (formal)", answer: "Können Sie mir sagen, wann der Arzt kommt?", altAnswers: ["Können Sie mir sagen, wann die Ärztin kommt?", "Könnten Sie mir sagen, wann der Arzt kommt?"], explanation: "Polite indirect question: \"wann\" sends \"kommt\" to the end." },
       { type: "translate", direction: "en-es", prompt: P, source: "I don't know when the party starts.", answer: "Ich weiß nicht, wann die Party anfängt.", altAnswers: ["Ich weiß nicht, wann die Party beginnt.", "Ich weiß nicht, wann die Feier anfängt."], explanation: "\"Anfängt\" joined at the end." },
       { type: "translate", direction: "en-es", prompt: P, source: "Ask her when she has time.", answer: "Frag sie, wann sie Zeit hat.", altAnswers: ["Fragt sie, wann sie Zeit hat.", "Fragen Sie sie, wann sie Zeit hat."], explanation: "Indirect question after an imperative." },
       { type: "fill-blank", prompt: B, en: "[Since when] have you lived here? (to a friend)", sentence: "___ wohnst du hier?", answer: "Seit wann", explanation: "\"Seit wann\" + present." },
       { type: "translate", direction: "en-es", prompt: P, source: "When are you coming back? (to a friend)", answer: "Wann kommst du zurück?", altAnswers: ["Wann kommst du wieder?"], explanation: "Direct question: separable verb split." },
-      { type: "translate", direction: "en-es", prompt: P, source: "Nobody knew when the concert would end.", answer: "Niemand wusste, wann das Konzert endet.", altAnswers: ["Niemand wusste, wann das Konzert enden würde.", "Niemand wusste, wann das Konzert zu Ende sein würde.", "Niemand wusste, wann das Konzert zu Ende ist.", "Niemand wusste, wann das Konzert zu Ende war.", "Keiner wusste, wann das Konzert zu Ende ist.", "Niemand wusste, wann das Konzert endet.", "Niemand wusste, wann das Konzert aufhört."], explanation: "Indirect question: \"wann\" + verb last. For English 'would end' German usually just keeps the present here (\"endet\", \"zu Ende ist\"); \"enden würde\" is also right." },
+      { type: "translate", direction: "en-es", prompt: P, source: "Nobody knew when the concert would end.", answer: "Niemand wusste, wann das Konzert endet.", altAnswers: ["Niemand wusste, wann das Konzert enden würde.", "Niemand wusste, wann das Konzert zu Ende sein würde.", "Niemand wusste, wann das Konzert zu Ende ist.", "Niemand wusste, wann das Konzert zu Ende war.", "Keiner wusste, wann das Konzert zu Ende ist.", "Keiner wusste, wann das Konzert endet.", "Niemand wusste, wann das Konzert aufhört."], explanation: "Indirect question: \"wann\" + verb last. For English 'would end' German usually just keeps the present here (\"endet\", \"zu Ende ist\"); \"enden würde\" is also right." },
       { type: "multiple-choice", question: "Weißt du, ___ der Supermarkt zumacht?", options: ["wann", "wenn", "als", "ob wann"], correctIndex: 0, explanation: "Indirect question: \"wann\"." },
       { type: "word-order", prompt: "Put the words in order to say: I don't know when the party starts.", words: ["Ich", "weiß", "nicht,", "wann", "die", "Party", "anfängt."], translation: "I don't know when the party starts.", explanation: "\"Wann\" + verb last." },
       { type: "translate", direction: "en-es", prompt: P, source: "When is the meeting?", answer: "Wann ist das Meeting?", altAnswers: ["Wann ist die Besprechung?", "Wann ist das Treffen?"], explanation: "Direct question." },
@@ -193,11 +193,11 @@ export const DE_B1_U04_EXTRA: Lesson[] = [
     number: 4,
     optional: true,
     title: "Extra Practice: Dialogue Lab, Old Photos",
-    summary: "Look at family photos with a grandparent and ask and answer with als and wann.",
+    summary: "Look at family photos with a grandparent and ask and answer with \"als\" and \"wann\".",
     duration: "12 min",
     sections: [
       {
-        heading: "Mit Oma beim Fotoalbum",
+        heading: "Mit Oma vor dem Fotoalbum",
         body: [
           "Jonas looks at an old photo album with his grandmother Helga in Leipzig. He asks with \"wann\", she answers with \"als\" and tells stories with \"immer wenn\". Grandchildren say \"du\" to grandparents in German.",
         ],
@@ -239,9 +239,9 @@ export const DE_B1_U04_EXTRA: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: P, source: "When did you move to Leipzig?", answer: "Wann seid ihr nach Leipzig gezogen?", altAnswers: ["Wann bist du nach Leipzig gezogen?", "Wann seid ihr nach Leipzig umgezogen?", "Wann bist du nach Leipzig umgezogen?"], explanation: "\"Wann\" + Perfekt with \"sein\"." },
       { type: "translate", direction: "en-es", prompt: "Grandma answers. Translate into German.", source: "When your father started school.", answer: "Als dein Vater in die Schule kam.", altAnswers: ["Als dein Vater in die Schule gekommen ist.", "Als dein Vater eingeschult wurde."], explanation: "\"In die Schule kommen\": to start school." },
       { type: "fill-blank", prompt: B, en: "Do you remember [when] you took the photo?", sentence: "Weißt du noch, ___ ihr das Foto gemacht habt?", answer: "wann", explanation: "Indirect question." },
-      { type: "translate", direction: "en-es", prompt: "Grandma tells. Translate into German.", source: "Whenever it was summer, we went to the Baltic.", answer: "Immer wenn Sommer war, fuhren wir an die Ostsee.", altAnswers: ["Wenn Sommer war, fuhren wir an die Ostsee.", "Immer wenn es Sommer war, fuhren wir an die Ostsee.", "Jeden Sommer fuhren wir an die Ostsee."], explanation: "Repeated: \"immer wenn\"." },
-      { type: "multiple-choice", question: "Jonas asks: ___ hast du dieses Kleid getragen?", options: ["Wann", "Als", "Wenn", "Ob"], correctIndex: 0, explanation: "Direct question: \"wann\"." },
-      { type: "multiple-choice", question: "Oma answers: ___ wir geheiratet haben.", options: ["Als", "Wenn", "Wann", "Immer wenn"], correctIndex: 0, explanation: "One wedding: \"als\"." },
+      { type: "translate", direction: "en-es", prompt: "Grandma tells. Translate into German.", source: "Whenever it was summer, we went to the Baltic.", answer: "Immer wenn es Sommer war, fuhren wir an die Ostsee.", altAnswers: ["Wenn Sommer war, fuhren wir an die Ostsee.", "Immer wenn Sommer war, fuhren wir an die Ostsee.", "Wenn es Sommer war, fuhren wir an die Ostsee.", "Immer wenn es Sommer war, sind wir an die Ostsee gefahren.", "Jeden Sommer fuhren wir an die Ostsee."], explanation: "Repeated: \"immer wenn\"." },
+      { type: "multiple-choice", question: "Jonas asks: \"___ hast du dieses Kleid getragen?\"", options: ["Wann", "Als", "Wenn", "Ob"], correctIndex: 0, explanation: "Direct question: \"wann\"." },
+      { type: "multiple-choice", question: "Oma answers: \"___ wir geheiratet haben.\"", options: ["Als", "Wenn", "Wann", "Immer wenn"], correctIndex: 0, explanation: "One wedding: \"als\"." },
       { type: "word-order", prompt: "Put the words in order to say: That was when we lived in Dresden.", words: ["Das", "war,", "als", "wir", "in", "Dresden", "wohnten."], translation: "That was when we lived in Dresden.", explanation: "\"Als\" + verb last." },
       { type: "listen-choose", audio: "Immer wenn er mich abholte, brachte er Blumen mit.", question: "What does it mean?", options: ["Whenever he picked me up, he brought flowers.", "When he picked me up that day, he brought flowers.", "When will he pick me up with flowers?", "He brought flowers when I picked him up."], correctIndex: 0, explanation: "\"Immer wenn\": every time." },
       { type: "dictation", audio: "Oma, wann war das?", explanation: "\"Wann\": question." },
@@ -277,7 +277,7 @@ export const DE_B1_U04_EXTRA: Lesson[] = [
             source: "When it got dark, we went home.",
             answer: "Als es dunkel wurde, gingen wir nach Hause.",
             altAnswers: ["Als es dunkel wurde, sind wir nach Hause gegangen."],
-            explanation: "\"Wurde, gingen\".",
+            explanation: "The \"als\" clause fills position 1, so the verb \"gingen\" comes straight after the comma, then the subject.",
           },
           {
             type: "fill-blank",
@@ -314,7 +314,7 @@ export const DE_B1_U04_EXTRA: Lesson[] = [
     number: 6,
     optional: true,
     title: "Extra Practice: Real-World Mission, A Memory for the Class Reunion",
-    summary: "Write a short memory for a Klassentreffen newsletter.",
+    summary: "Write a short memory for a \"Klassentreffen\" (class reunion) newsletter with \"als\", \"immer wenn\" and \"wann\".",
     duration: "12 min",
     sections: [
       {
@@ -361,7 +361,7 @@ export const DE_B1_U04_EXTRA: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: P, source: "When we skipped school, Mr Becker always noticed.", answer: "Wenn wir geschwänzt haben, hat Herr Becker es immer gemerkt.", altAnswers: ["Immer wenn wir geschwänzt haben, hat Herr Becker es gemerkt.", "Wenn wir schwänzten, merkte Herr Becker es immer.", "Wenn wir die Schule geschwänzt haben, hat Herr Becker es immer gemerkt."], explanation: "\"Immer\": repeated, so \"wenn\"." },
       { type: "translate", direction: "en-es", prompt: P, source: "At the graduation party we danced until morning.", answer: "Auf der Abschlussfeier tanzten wir bis zum Morgen.", altAnswers: ["Auf der Abschlussfeier haben wir bis zum Morgen getanzt.", "Bei der Abschlussfeier tanzten wir bis zum Morgen."], explanation: "\"Bis zum Morgen\": until morning." },
       { type: "fill-blank", prompt: B, en: "I'll be so happy [when] we see each other again!", sentence: "Ich freue mich, ___ wir uns wiedersehen!", answer: "wenn", explanation: "Future: \"wenn\"." },
-      { type: "translate", direction: "en-es", prompt: P, source: "Our form teacher was called Mrs Schneider.", answer: "Unsere Klassenlehrerin hieß Frau Schneider.", explanation: "\"Heißen → hieß\"." },
+      { type: "translate", direction: "en-es", prompt: P, source: "Our form teacher was called Ms Schneider.", answer: "Unsere Klassenlehrerin hieß Frau Schneider.", explanation: "\"Heißen → hieß\"." },
       { type: "multiple-choice", question: "___ wir die Prüfungen bestanden hatten, feierten wir eine Woche lang.", options: ["Als", "Wenn", "Wann", "Ob"], correctIndex: 0, explanation: "Once: \"als\" (also possible: \"nachdem\")." },
       { type: "word-order", prompt: "Put the words in order to say: Whenever Mr Becker was late, we hid.", words: ["Immer", "wenn", "Herr", "Becker", "zu", "spät", "kam,", "versteckten", "wir", "uns."], translation: "Whenever Mr Becker was late, we hid.", explanation: "\"Kam, versteckten\"." },
       { type: "translate", direction: "en-es", prompt: P, source: "When I think of our school days, I smile.", answer: "Wenn ich an unsere Schulzeit denke, lächle ich.", altAnswers: ["Wenn ich an unsere Schulzeit denke, muss ich lächeln.", "Immer wenn ich an unsere Schulzeit denke, lächle ich."], explanation: "Present: \"wenn\"." },
@@ -376,7 +376,7 @@ export const DE_B1_U04_EXTRA: Lesson[] = [
     number: 7,
     optional: true,
     title: "Extra Practice: Als with the Plusquamperfekt",
-    summary: "Als ich ankam, war er schon gegangen: link both pasts.",
+    summary: "Link two pasts with \"als\" and the Plusquamperfekt: \"Als ich ankam, war er schon gegangen.\"",
     duration: "10 min",
     sections: [
       {
@@ -435,7 +435,7 @@ export const DE_B1_U04_EXTRA: Lesson[] = [
     number: 8,
     optional: true,
     title: "Extra Practice: The Timetable",
-    summary: "Indirect questions with wann about trains, opening hours and appointments.",
+    summary: "Ask politely about trains, opening hours and appointments with indirect \"wann\" questions.",
     duration: "10 min",
     sections: [
       {
@@ -455,7 +455,7 @@ export const DE_B1_U04_EXTRA: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: P,
-            source: "Do you know when the pharmacy opens? (polite)",
+            source: "Do you know when the pharmacy opens? (formal)",
             answer: "Wissen Sie, wann die Apotheke aufmacht?",
             altAnswers: ["Wissen Sie, wann die Apotheke öffnet?"],
             explanation: "\"Wann\" + verb last.",
@@ -472,11 +472,11 @@ export const DE_B1_U04_EXTRA: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: P, source: "Can you tell me when the next train to Bonn leaves? (polite)", answer: "Können Sie mir sagen, wann der nächste Zug nach Bonn fährt?", altAnswers: ["Können Sie mir sagen, wann der nächste Zug nach Bonn abfährt?", "Könnten Sie mir sagen, wann der nächste Zug nach Bonn fährt?"], explanation: "Polite indirect question." },
+      { type: "translate", direction: "en-es", prompt: P, source: "Can you tell me when the next train to Bonn leaves? (formal)", answer: "Können Sie mir sagen, wann der nächste Zug nach Bonn fährt?", altAnswers: ["Können Sie mir sagen, wann der nächste Zug nach Bonn abfährt?", "Könnten Sie mir sagen, wann der nächste Zug nach Bonn fährt?"], explanation: "Polite indirect question." },
       { type: "translate", direction: "en-es", prompt: P, source: "I wanted to ask when I can get an appointment.", answer: "Ich wollte fragen, wann ich einen Termin bekommen kann.", altAnswers: ["Ich wollte fragen, wann ich einen Termin bekomme."], explanation: "Modal last: \"bekommen kann\"." },
       { type: "translate", direction: "en-es", prompt: P, source: "Does it say when the museum closes?", answer: "Steht da, wann das Museum schließt?", altAnswers: ["Steht da, wann das Museum zumacht?", "Steht dort, wann das Museum schließt?"], explanation: "\"Da steht\": it says (on a sign)." },
-      { type: "translate", direction: "en-es", prompt: P, source: "Do you know when the bank opens? (polite)", answer: "Wissen Sie, wann die Bank aufmacht?", altAnswers: ["Wissen Sie, wann die Bank öffnet?"], explanation: "\"Wann\" + verb last." },
-      { type: "translate", direction: "en-es", prompt: P, source: "Can you tell me when the doctor has time? (polite)", answer: "Können Sie mir sagen, wann der Arzt Zeit hat?", altAnswers: ["Können Sie mir sagen, wann die Ärztin Zeit hat?"], explanation: "\"Hat\" last." },
+      { type: "translate", direction: "en-es", prompt: P, source: "Do you know when the bank opens? (formal)", answer: "Wissen Sie, wann die Bank aufmacht?", altAnswers: ["Wissen Sie, wann die Bank öffnet?"], explanation: "\"Wann\" + verb last." },
+      { type: "translate", direction: "en-es", prompt: P, source: "Can you tell me when the doctor has time? (formal)", answer: "Können Sie mir sagen, wann der Arzt Zeit hat?", altAnswers: ["Können Sie mir sagen, wann die Ärztin Zeit hat?"], explanation: "\"Hat\" last." },
       { type: "translate", direction: "en-es", prompt: P, source: "I don't know when my flight lands.", answer: "Ich weiß nicht, wann mein Flug landet.", altAnswers: ["Ich weiß nicht, wann mein Flugzeug landet."], explanation: "\"Landet\" last." },
       { type: "translate", direction: "en-es", prompt: P, source: "Do you know when the last bus goes? (to a friend)", answer: "Weißt du, wann der letzte Bus fährt?", explanation: "\"Fährt\" last." },
       { type: "fill-blank", prompt: B, en: "Could you tell me [when] the course starts?", sentence: "Könnten Sie mir sagen, ___ der Kurs beginnt?", answer: "wann", explanation: "Indirect question." },
@@ -494,7 +494,7 @@ export const DE_B1_U04_EXTRA: Lesson[] = [
     number: 9,
     optional: true,
     title: "Extra Practice: Als ich... / Immer wenn ich...",
-    summary: "Minimal pairs: one event or every time.",
+    summary: "Decide from the English whether a past 'when' is one event (\"als\") or every time (\"immer wenn\").",
     duration: "10 min",
     sections: [
       {
@@ -540,7 +540,7 @@ export const DE_B1_U04_EXTRA: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: P, source: "Whenever I met him, he talked about football.", answer: "Immer wenn ich ihn traf, redete er über Fußball.", altAnswers: ["Wenn ich ihn traf, redete er über Fußball.", "Immer wenn ich ihn getroffen habe, hat er über Fußball geredet.", "Immer wenn ich ihn traf, sprach er über Fußball."], explanation: "Whenever: \"immer wenn\"." },
       { type: "fill-blank", prompt: B, en: "[When] I lost my phone last week, I panicked.", sentence: "___ ich letzte Woche mein Handy verlor, bekam ich Panik.", answer: "Als", explanation: "Last week: once." },
       { type: "fill-blank", prompt: B, en: "[Whenever] I lost something, my mother found it.", sentence: "___ ich etwas verlor, fand meine Mutter es.", answer: "Immer wenn", altAnswers: ["Wenn", "Jedes Mal wenn"], explanation: "Repeated: \"immer wenn\"." },
-      { type: "multiple-choice", question: "___ ich ihn 2010 besuchte, wohnte er in Köln.", options: ["Als", "Immer wenn", "Wann", "Wenn"], correctIndex: 0, explanation: "2010: once." },
+      { type: "multiple-choice", question: "___ ich ihn 2010 besuchte, wohnte er in Köln. (one visit)", options: ["Als", "Immer wenn", "Wann", "Wenn"], correctIndex: 0, explanation: "2010: once." },
       { type: "multiple-choice", question: "___ ich ihn besuchte, kochte er Spaghetti. (every visit)", options: ["Immer wenn", "Als", "Wann", "Ob"], correctIndex: 0, explanation: "Every visit: \"immer wenn\"." },
       { type: "word-order", prompt: "Put the words in order to say: Every time I called her, she was busy.", words: ["Immer", "wenn", "ich", "sie", "anrief,", "war", "sie", "beschäftigt."], translation: "Every time I called her, she was busy.", explanation: "\"Anrief, war\"." },
       { type: "translate", direction: "en-es", prompt: P, source: "When it was Christmas that year, it snowed.", answer: "Als in dem Jahr Weihnachten war, schneite es.", altAnswers: ["Als in diesem Jahr Weihnachten war, schneite es.", "Als es in dem Jahr Weihnachten war, hat es geschneit.", "In dem Jahr schneite es an Weihnachten."], explanation: "That year: once." },
@@ -555,7 +555,7 @@ export const DE_B1_U04_EXTRA: Lesson[] = [
     number: 10,
     optional: true,
     title: "Extra Practice: Childhood Habits",
-    summary: "Talk about you: immer wenn... in the past.",
+    summary: "Describe your childhood habits with \"immer wenn\" and the Präteritum.",
     duration: "10 min",
     sections: [
       {
@@ -612,7 +612,7 @@ export const DE_B1_U04_EXTRA: Lesson[] = [
     number: 11,
     optional: true,
     title: "Extra Practice: What Others Remember",
-    summary: "Transform statements about other people's memories into als clauses.",
+    summary: "Turn what other people say about their past into one sentence with an \"als\" clause.",
     duration: "10 min",
     sections: [
       {
@@ -656,7 +656,7 @@ export const DE_B1_U04_EXTRA: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Jonas says: \"Ich habe meinen Führerschein gemacht. Ich war sehr nervös.\" Report it.", source: "When Jonas took his driving test, he was very nervous.", answer: "Als Jonas seinen Führerschein machte, war er sehr nervös.", altAnswers: ["Als Jonas den Führerschein gemacht hat, war er sehr nervös.", "Als Jonas seinen Führerschein gemacht hat, war er sehr nervös.", "Als Jonas die Führerscheinprüfung machte, war er sehr nervös."], explanation: "mein → sein." },
       { type: "translate", direction: "en-es", prompt: "Lena and Mehmet say: \"Wir haben uns kennengelernt. Wir waren 25.\" Report it.", source: "When Lena and Mehmet met, they were 25.", answer: "Als Lena und Mehmet sich kennenlernten, waren sie 25.", altAnswers: ["Als Lena und Mehmet sich kennengelernt haben, waren sie 25.", "Als sich Lena und Mehmet kennenlernten, waren sie 25.", "Als Lena und Mehmet sich kennenlernten, waren sie fünfundzwanzig."], explanation: "wir → sie, uns → sich." },
       { type: "fill-blank", prompt: B, en: "When my brother moved out, [he took] the TV.", sentence: "Als mein Bruder auszog, ___ den Fernseher mit.", answer: "nahm er", explanation: "\"Mitnehmen\": \"nahm ... mit\"." },
-      { type: "translate", direction: "en-es", prompt: "Frau Schneider says: \"Ich bin in Rente gegangen. Ich habe angefangen, Italienisch zu lernen.\" Report it.", source: "When Mrs Schneider retired, she started learning Italian.", answer: "Als Frau Schneider in Rente ging, fing sie an, Italienisch zu lernen.", altAnswers: ["Als Frau Schneider in Rente gegangen ist, hat sie angefangen, Italienisch zu lernen.", "Als Frau Schneider in Rente ging, begann sie, Italienisch zu lernen."], explanation: "\"Anfangen, ... zu\" + infinitive." },
+      { type: "translate", direction: "en-es", prompt: "Frau Schneider says: \"Ich bin in Rente gegangen. Ich habe angefangen, Italienisch zu lernen.\" Report it.", source: "When Ms Schneider retired, she started learning Italian.", answer: "Als Frau Schneider in Rente ging, fing sie an, Italienisch zu lernen.", altAnswers: ["Als Frau Schneider in Rente gegangen ist, hat sie angefangen, Italienisch zu lernen.", "Als Frau Schneider in Rente ging, begann sie, Italienisch zu lernen."], explanation: "\"Anfangen, ... zu\" + infinitive." },
       { type: "multiple-choice", question: "Leon says: \"Als ich klein war, hatte ich einen Hund.\" Report it.", options: ["Als Leon klein war, hatte er einen Hund.", "Als Leon klein war, hatte ich einen Hund.", "Wenn Leon klein war, hatte er einen Hund.", "Als Leon klein war, er hatte einen Hund."], correctIndex: 0, explanation: "ich → er; \"als\"; verb after the comma." },
       { type: "word-order", prompt: "Put the words in order to say: When my parents got married, they had no money.", words: ["Als", "meine", "Eltern", "heirateten,", "hatten", "sie", "kein", "Geld."], translation: "When my parents got married, they had no money.", explanation: "\"Heirateten, hatten\"." },
       { type: "translate", direction: "en-es", prompt: P, source: "When my sister was born, my parents lived in Bremen.", answer: "Als meine Schwester geboren wurde, wohnten meine Eltern in Bremen.", altAnswers: ["Als meine Schwester geboren wurde, haben meine Eltern in Bremen gewohnt."], explanation: "\"Geboren wurde\" as a chunk." },
@@ -671,7 +671,7 @@ export const DE_B1_U04_EXTRA: Lesson[] = [
     number: 12,
     optional: true,
     title: "Extra Practice: Ob or Wann?",
-    summary: "Indirect yes/no questions with ob vs indirect wann-questions.",
+    summary: "Tell indirect yes/no questions with \"ob\" apart from indirect questions with \"wann\".",
     duration: "10 min",
     sections: [
       {
@@ -732,7 +732,7 @@ export const DE_B1_U04_EXTRA: Lesson[] = [
     number: 13,
     optional: true,
     title: "Extra Practice: Time Clauses Without Warning",
-    summary: "Mixed sentences where you must choose als, wenn, wann or ob with no hint.",
+    summary: "Choose \"als\", \"wenn\", \"wann\" or \"ob\" in mixed sentences with no hint.",
     duration: "10 min",
     sections: [
       {
@@ -793,13 +793,13 @@ export const DE_B1_U04_EXTRA: Lesson[] = [
     number: 14,
     optional: true,
     title: "Extra Practice: Dictation, Memories",
-    summary: "Dictated memories with fronted time clauses.",
+    summary: "Write down dictated memories that start with a time clause, commas included.",
     duration: "10 min",
     sections: [
       {
         heading: "Recap: hear the comma",
         body: [
-          "In speech you can hear where the time clause ends: there's a short pause, and two verbs meet across it (\"war, hatten\"). In writing, that pause is the comma, which German always puts before and after a subordinate clause.",
+          "In speech you can hear where the time clause ends: there's a short pause, and two verbs meet across it (\"war, hatten\"). In writing, that pause is the comma: German always marks off a subordinate clause with commas (one after it when it starts the sentence).",
         ],
         examples: [
           { es: "Als ich sechs war, bekam ich mein erstes Fahrrad.", en: "When I was six, I got my first bike." },

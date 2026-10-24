@@ -175,7 +175,7 @@ export const DE_A2_S02_STORIES: Story[] = [
     questions: [
       {
         question: `Why did Felix take the job?`,
-        options: [`He loves children.`, `His uncle owns the store.`, `He had no money left.`, `He wanted to be an actor.`],
+        options: [`He loves children.`, `His uncle owns the shop.`, `He had no money left.`, `He wanted to be an actor.`],
         correctIndex: 2,
         explanation: `"Im Dezember hatte er kein Geld mehr. Deshalb hat er einen Job ... angenommen".`,
       },

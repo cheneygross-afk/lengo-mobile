@@ -193,7 +193,7 @@ export const DE_B1_U12: Lesson[] = [
     level: "DE-B1",
     number: 2,
     title: "Pattern Practice: ..., damit du...",
-    summary: "Build \"damit\" clauses for advice, requests and everyday explanations, with the verb at the end and modals usually dropped.",
+    summary: "Build \"damit\" clauses for advice, requests and everyday explanations, with the verb at the end and no \"sollen\" or \"wollen\".",
     duration: "12 min",
     sections: [
       {
@@ -206,7 +206,7 @@ export const DE_B1_U12: Lesson[] = [
           { es: "Sprich lauter, damit alle dich hören.", en: "Speak up so that everyone can hear you." },
           { es: "Nimm einen Schirm mit, damit du nicht nass wirst.", en: "Take an umbrella so you don't get wet." },
           { es: "Schreib mir, wenn du ankommst, damit ich mir keine Sorgen mache.", en: "Text me when you arrive so I don't worry." },
-          { es: "Ruf vorher an, damit wir einen Tisch reservieren.", en: "Call beforehand so that we can book a table." },
+          { es: "Sag vorher Bescheid, damit wir einen Tisch reservieren können.", en: "Let us know beforehand so that we can book a table." },
           { es: "Schließen Sie bitte das Fenster, damit es nicht so kalt wird.", en: "Please close the window so it doesn't get so cold." },
         ],
         checkpoint: [
@@ -216,7 +216,7 @@ export const DE_B1_U12: Lesson[] = [
             prompt: "Translate into German.",
             source: "Take a jacket so that you don't get cold. (to a friend)",
             answer: "Nimm eine Jacke mit, damit du nicht frierst.",
-            altAnswers: ["Nimm eine Jacke mit, damit dir nicht kalt wird.", "Nimm eine Jacke mit, damit du nicht frierst!"],
+            altAnswers: ["Nimm eine Jacke mit, damit dir nicht kalt wird.", "Nimm dir eine Jacke mit, damit du nicht frierst."],
             explanation: "Imperative + \"damit\" + new subject. Getting cold is \"frieren\" or \"dir wird kalt\".",
           },
           {
@@ -299,7 +299,7 @@ export const DE_B1_U12: Lesson[] = [
         prompt: "Translate into German.",
         source: "Close the door so the dog doesn't run away. (to a friend)",
         answer: "Mach die Tür zu, damit der Hund nicht wegläuft.",
-        altAnswers: ["Schließ die Tür, damit der Hund nicht wegläuft.", "Macht die Tür zu, damit der Hund nicht wegläuft.", "Machen Sie die Tür zu, damit der Hund nicht wegläuft.", "Schließen Sie die Tür, damit der Hund nicht wegläuft."],
+        altAnswers: ["Schließ die Tür, damit der Hund nicht wegläuft.", "Mach die Tür zu, damit der Hund nicht rausläuft."],
         explanation: "\"Weglaufen\" is separable and rejoins at the end of the damit-clause: \"wegläuft\".",
       },
       {
@@ -326,7 +326,7 @@ export const DE_B1_U12: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'm leaving the key under the mat so that you can get in.",
         answer: "Ich lege den Schlüssel unter die Matte, damit du reinkommst.",
-        altAnswers: ["Ich lege den Schlüssel unter die Matte, damit du reinkommen kannst.", "Ich lege den Schlüssel unter die Fußmatte, damit du reinkommst.", "Ich lege den Schlüssel unter die Fußmatte, damit du reinkommen kannst.", "Ich lege den Schlüssel unter die Matte, damit ihr reinkommen könnt.", "Ich lege den Schlüssel unter die Matte, damit Sie reinkommen können."],
+        altAnswers: ["Ich lege den Schlüssel unter die Matte, damit du reinkommen kannst.", "Ich lege den Schlüssel unter die Fußmatte, damit du reinkommst.", "Ich lege den Schlüssel unter die Fußmatte, damit du reinkommen kannst.", "Ich lege den Schlüssel unter die Matte, damit ihr reinkommen könnt.", "Ich lege den Schlüssel unter die Matte, damit Sie reinkommen können.", "Ich lege den Schlüssel unter die Matte, damit du hereinkommst.", "Ich lege den Schlüssel unter die Matte, damit du hereinkommen kannst."],
         explanation: "\"Unter die Matte\": accusative after \"legen\" (direction). \"Damit\" + new subject.",
       },
       {
@@ -770,7 +770,7 @@ export const DE_B1_U12: Lesson[] = [
       {
         heading: "Tip 1-3: the subject changes",
         body: [
-          "A university leaflet called \"Tipps für die Prüfungszeit\" was translated from English in a hurry. The first tips: \"Erklären Sie Ihren Freunden den Stoff, um sie ihn auch verstehen. Sagen Sie Ihrer Familie Bescheid, um sie Sie nicht stören. Hängen Sie einen Zettel an die Tür, um Ihre Mitbewohner leise sind.\"",
+          "A university leaflet called \"Tipps für die Prüfungszeit\" was translated from English in a hurry. The first tips: \"*Erklären Sie Ihren Freunden den Stoff, um sie ihn auch verstehen. Sagen Sie Ihrer Familie Bescheid, um sie Sie nicht stören. Hängen Sie einen Zettel an die Tür, um Ihre Mitbewohner leise sind.*\"",
           "In each tip the second action belongs to someone else (the friends, the family, the flatmates), so \"um ... zu\" is impossible. The fix: \"damit\" + the new subject + the verb at the end: \"damit sie ihn auch verstehen\", \"damit sie Sie nicht stört\" (\"die Familie\" is singular), \"damit Ihre Mitbewohner leise sind\".",
         ],
         examples: [
@@ -783,7 +783,7 @@ export const DE_B1_U12: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "The leaflet says \"Schalten Sie das Handy aus, um Ihre Freunde Sie nicht stören.\" Translate the corrected tip into German: Switch off your phone so that your friends don't disturb you.",
+            prompt: "The leaflet says \"*Schalten Sie das Handy aus, um Ihre Freunde Sie nicht stören.*\" Translate the corrected tip into German: Switch off your phone so that your friends don't disturb you.",
             source: "Switch off your phone so that your friends don't disturb you.",
             answer: "Schalten Sie das Handy aus, damit Ihre Freunde Sie nicht stören.",
             altAnswers: ["Schalten Sie Ihr Handy aus, damit Ihre Freunde Sie nicht stören."],
@@ -816,7 +816,7 @@ export const DE_B1_U12: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "The leaflet says \"Trinken Sie viel Wasser, damit zu konzentrieren.\" Translate the corrected tip into German: Drink lots of water to concentrate.",
+            prompt: "The leaflet says \"*Trinken Sie viel Wasser, damit zu konzentrieren.*\" Translate the corrected tip into German: Drink lots of water to concentrate.",
             source: "Drink lots of water to concentrate.",
             answer: "Trinken Sie viel Wasser, um sich zu konzentrieren.",
             altAnswers: ["Trinken Sie viel Wasser, um sich konzentrieren zu können.", "Trinken Sie viel Wasser, damit Sie sich konzentrieren können."],
@@ -866,7 +866,7 @@ export const DE_B1_U12: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "The leaflet says \"Lernen Sie in der Bibliothek, für ruhig zu arbeiten.\" Translate the corrected tip into German: Study in the library to work in peace.",
+        prompt: "The leaflet says \"*Lernen Sie in der Bibliothek, für ruhig zu arbeiten.*\" Translate the corrected tip into German: Study in the library to work in peace.",
         source: "Study in the library to work in peace.",
         answer: "Lernen Sie in der Bibliothek, um in Ruhe zu arbeiten.",
         altAnswers: ["Lernen Sie in der Bibliothek, um ruhig zu arbeiten.", "Lernen Sie in der Bibliothek, um ungestört zu arbeiten."],
@@ -875,7 +875,7 @@ export const DE_B1_U12: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "The leaflet says \"Teilen Sie Ihre Notizen, um die anderen auch lernen können.\" Translate the corrected tip into German: Share your notes so that the others can study too.",
+        prompt: "The leaflet says \"*Teilen Sie Ihre Notizen, um die anderen auch lernen können.*\" Translate the corrected tip into German: Share your notes so that the others can study too.",
         source: "Share your notes so that the others can study too.",
         answer: "Teilen Sie Ihre Notizen, damit die anderen auch lernen können.",
         altAnswers: ["Teilen Sie Ihre Notizen, damit auch die anderen lernen können."],
@@ -884,7 +884,7 @@ export const DE_B1_U12: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "The leaflet says \"Stehen Sie früh auf, damit mehr Zeit zu haben.\" Translate the corrected tip into German: Get up early to have more time.",
+        prompt: "The leaflet says \"*Stehen Sie früh auf, damit mehr Zeit zu haben.*\" Translate the corrected tip into German: Get up early to have more time.",
         source: "Get up early to have more time.",
         answer: "Stehen Sie früh auf, um mehr Zeit zu haben.",
         altAnswers: ["Stehen Sie früh auf, damit Sie mehr Zeit haben."],
@@ -893,7 +893,7 @@ export const DE_B1_U12: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "The leaflet says \"Wiederholen Sie den Stoff, damit Sie ihn vergessen nicht.\" Translate the corrected tip into German: Revise the material so that you don't forget it.",
+        prompt: "The leaflet says \"*Wiederholen Sie den Stoff, damit Sie ihn vergessen nicht.*\" Translate the corrected tip into German: Revise the material so that you don't forget it.",
         source: "Revise the material so that you don't forget it.",
         answer: "Wiederholen Sie den Stoff, damit Sie ihn nicht vergessen.",
         altAnswers: ["Wiederholen Sie den Stoff, um ihn nicht zu vergessen."],
@@ -1252,7 +1252,7 @@ export const DE_B1_U12: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'm studying for the driving test.",
         answer: "Ich lerne für die Führerscheinprüfung.",
-        altAnswers: ["Ich lerne für die Fahrprüfung.", "Ich lerne für die theoretische Prüfung."],
+        altAnswers: ["Ich lerne für die Fahrprüfung.", "Ich lerne für den Führerschein."],
         explanation: "\"Für\" + accusative for purpose with a noun.",
       },
       {
@@ -1412,7 +1412,7 @@ export const DE_B1_U12: Lesson[] = [
       {
         heading: "Paperwork",
         body: [
-          "Finally, the forms. Within two weeks of moving in you must register your address: \"sich anmelden\" at \"das Bürgeramt\" (citizens' office). You need \"die Wohnungsgeberbestätigung\" (a form from your landlord). Then come \"das Bankkonto\", \"die Krankenversicherung\" (health insurance) and \"die Steuer-ID\" (tax number), which arrives by post after you register.",
+          "Finally, the forms. Within two weeks of moving in you must register your address: \"sich anmelden\" at \"das Bürgeramt\" (citizens' office). You need \"die Wohnungsgeberbestätigung\" (a form from your landlord). Then come \"das Bankkonto\", \"die Krankenversicherung\" (health insurance) and \"die Steuer-ID\" (tax ID), which arrives by post after you register.",
           "A tip with both connectors: \"Mach früh einen Termin beim Bürgeramt, um nicht lange warten zu müssen. Bitte deinen Vermieter um die Wohnungsgeberbestätigung, damit du alles dabeihast.\"",
         ],
         examples: [
@@ -1747,7 +1747,7 @@ export const DE_B1_U12: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"*Er trainiert, damit zu gewinnen.\" Translate the corrected sentence into German: He trains to win.",
+            prompt: "A learner wrote \"*Er trainiert, damit zu gewinnen.*\" Translate the corrected sentence into German: He trains to win.",
             source: "He trains to win.",
             answer: "Er trainiert, um zu gewinnen.",
             altAnswers: ["Er trainiert, damit er gewinnt."],
@@ -1779,7 +1779,7 @@ export const DE_B1_U12: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"*Wir reden leise, um das Baby nicht aufwacht.\" Translate the corrected sentence into German: We're talking quietly so the baby doesn't wake up.",
+            prompt: "A learner wrote \"*Wir reden leise, um das Baby nicht aufwacht.*\" Translate the corrected sentence into German: We're talking quietly so the baby doesn't wake up.",
             source: "We're talking quietly so the baby doesn't wake up.",
             answer: "Wir reden leise, damit das Baby nicht aufwacht.",
             altAnswers: ["Wir sprechen leise, damit das Baby nicht aufwacht."],
@@ -1811,7 +1811,7 @@ export const DE_B1_U12: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"*Es schneite, damit die Schule geschlossen war.\" Translate the corrected sentence into German: It snowed, so the school was closed.",
+            prompt: "A learner wrote \"*Es schneite, damit die Schule geschlossen war.*\" Translate the corrected sentence into German: It snowed, so the school was closed.",
             source: "It snowed, so the school was closed.",
             answer: "Es schneite, sodass die Schule geschlossen war.",
             altAnswers: ["Es hat geschneit, sodass die Schule geschlossen war.", "Es schneite, so dass die Schule geschlossen war.", "Es schneite so stark, dass die Schule geschlossen war."],
@@ -1819,7 +1819,7 @@ export const DE_B1_U12: Lesson[] = [
           },
           {
             type: "fill-blank",
-            prompt: "A learner wrote \"*Ich brauche eine Brille zum lesen.\" Write the German for the bold words.",
+            prompt: "A learner wrote \"*Ich brauche eine Brille zum lesen.*\" Write the German for the bold words.",
             en: "I need glasses [for reading].",
             sentence: "Ich brauche eine Brille ___.",
             answer: "zum Lesen",
@@ -1832,7 +1832,7 @@ export const DE_B1_U12: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Ich lerne Deutsch, für in Berlin zu leben.\" Translate the corrected sentence into German: I'm learning German to live in Berlin.",
+        prompt: "A learner wrote \"*Ich lerne Deutsch, für in Berlin zu leben.*\" Translate the corrected sentence into German: I'm learning German to live in Berlin.",
         source: "I'm learning German to live in Berlin.",
         answer: "Ich lerne Deutsch, um in Berlin zu leben.",
         altAnswers: ["Ich lerne Deutsch, um in Berlin zu wohnen."],
@@ -1841,7 +1841,7 @@ export const DE_B1_U12: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Mach das Licht an, um ich etwas sehe.\" Translate the corrected sentence into German: Turn on the light so that I can see something.",
+        prompt: "A learner wrote \"*Mach das Licht an, um ich etwas sehe.*\" Translate the corrected sentence into German: Turn on the light so that I can see something.",
         source: "Turn on the light so that I can see something.",
         answer: "Mach das Licht an, damit ich etwas sehe.",
         altAnswers: ["Mach das Licht an, damit ich etwas sehen kann.", "Macht das Licht an, damit ich etwas sehe.", "Machen Sie das Licht an, damit ich etwas sehe.", "Machen Sie das Licht an, damit ich etwas sehen kann."],
@@ -1850,7 +1850,7 @@ export const DE_B1_U12: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Sie spart, um dass sie nach Japan fliegt.\" Translate the corrected sentence into German: She's saving to fly to Japan.",
+        prompt: "A learner wrote \"*Sie spart, um dass sie nach Japan fliegt.*\" Translate the corrected sentence into German: She's saving to fly to Japan.",
         source: "She's saving to fly to Japan.",
         answer: "Sie spart, um nach Japan zu fliegen.",
         altAnswers: ["Sie spart, damit sie nach Japan fliegen kann."],
@@ -1859,7 +1859,7 @@ export const DE_B1_U12: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Der Bus kam nicht, damit ich zu Fuß ging.\" Translate the corrected sentence into German: The bus didn't come, so I walked.",
+        prompt: "A learner wrote \"*Der Bus kam nicht, damit ich zu Fuß ging.*\" Translate the corrected sentence into German: The bus didn't come, so I walked.",
         source: "The bus didn't come, so I walked.",
         answer: "Der Bus kam nicht, sodass ich zu Fuß ging.",
         altAnswers: ["Der Bus kam nicht, sodass ich zu Fuß gegangen bin.", "Der Bus ist nicht gekommen, sodass ich zu Fuß gegangen bin.", "Der Bus kam nicht, so dass ich zu Fuß ging."],
@@ -1867,7 +1867,7 @@ export const DE_B1_U12: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "A learner wrote \"*Wir brauchen eine Schüssel zum salat machen.\" Write the German for the bold words.",
+        prompt: "A learner wrote \"*Wir brauchen eine Schüssel zum salat machen.*\" Write the German for the bold words.",
         en: "We need a bowl [for making salad].",
         sentence: "Wir brauchen eine Schüssel ___.",
         answer: "zum Salatmachen",

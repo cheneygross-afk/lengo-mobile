@@ -318,7 +318,7 @@ export const DE_C2_U29: Lesson[] = [
       {
         heading: "Literature: Kafka's ambivalence and Thomas Mann's Aschenbach",
         body: [
-          "Kafka's \"Brief an den Vater\" (1919) is a document of ambivalence: the son admires and fears his father, blames him and excuses him in the same breath. \"Ich hatte vor dir das Selbstvertrauen verloren\", he writes, yet he also longs for the father's recognition.",
+          "Kafka's \"Brief an den Vater\" (1919) is a document of ambivalence: the son admires and fears his father, blames him and excuses him in the same breath. \"Ich hatte vor Dir das Selbstvertrauen verloren\" (Kafka capitalises \"Dir\", as letters then did), he writes, yet he also longs for the father's recognition.",
           "Thomas Mann's \"Der Tod in Venedig\" shows dissonance: the disciplined writer Gustav von Aschenbach knows his obsession with the boy Tadzio contradicts everything he stands for, and he justifies staying in cholera-stricken Venice with ever more elaborate reasons. The narrator lets the reader see the \"Selbstbetrug\" (self-deception) that Aschenbach himself refuses to see.",
           "In an analysis you can write: \"Kafkas Haltung gegenüber dem Vater ist von tiefer Ambivalenz geprägt\" and \"Aschenbach versucht, die Dissonanz zwischen Anspruch und Begierde durch Rationalisierung aufzulösen.\" Note \"geprägt sein von\" (to be marked by) and \"auflösen\" (to resolve).",
         ],
@@ -424,7 +424,7 @@ export const DE_C2_U29: Lesson[] = [
         question: "What does the sentence say?",
         options: ["Smokers who know the risk experience cognitive dissonance.", "Smokers never think about the risks.", "Only non-smokers feel dissonance.", "Smoking helps against dissonance."],
         correctIndex: 0,
-        explanation: "\"Wer ..., (der) ...\": anyone who smokes and knows it harms experiences dissonance.",
+        explanation: "\"Wer ..., (der) ...\": anyone who smokes and knows it is harmful experiences dissonance.",
       },
       {
         type: "dictation",
@@ -609,6 +609,7 @@ export const DE_C2_U29: Lesson[] = [
         prompt: "Put the words in order to say: Mindfulness can help you deal with stress better.",
         words: ["Achtsamkeit", "kann", "helfen,", "mit Stress", "besser", "umzugehen."],
         translation: "Mindfulness can help you deal with stress better.",
+        altOrders: [["Achtsamkeit", "kann", "helfen,", "besser", "mit Stress", "umzugehen."]],
         explanation: "\"Mit etwas umgehen\" = to deal with something; separable, so \"umzugehen\" in the infinitive clause.",
       },
       {
@@ -838,6 +839,7 @@ export const DE_C2_U29: Lesson[] = [
         prompt: "Put the words in order to say: A deep melancholy hangs over the whole novel.",
         words: ["Über", "dem ganzen", "Roman", "liegt", "eine tiefe", "Schwermut."],
         translation: "A deep melancholy hangs over the whole novel.",
+        altOrders: [["eine tiefe", "Schwermut.", "liegt", "Über", "dem ganzen", "Roman"]],
         explanation: "The prepositional phrase comes first, so the verb \"liegt\" is in second position before the subject.",
       },
       {
@@ -1112,7 +1114,7 @@ export const DE_C2_U29: Lesson[] = [
     level: "DE-C2",
     number: 6,
     title: "Dialogue Lab: Gefühle in Worte fassen",
-    summary: "Your friend Jonas has had to move his father into a care home: help him name a tangle of guilt, relief and anger with open, empathetic questions, without lecturing or rushing to advice.",
+    summary: "You'll be able to help a friend name a tangle of guilt, relief and anger with open, empathetic questions, without lecturing or rushing to advice, as Lena does when Jonas has had to move his father into a care home.",
     duration: "18 min",
     sections: [
       {
@@ -1474,6 +1476,7 @@ export const DE_C2_U29: Lesson[] = [
         prompt: "Put the words in order to say: Here Marie's ambivalence becomes clear.",
         words: ["Hier", "wird", "Maries", "Ambivalenz", "deutlich."],
         translation: "Here Marie's ambivalence becomes clear.",
+        altOrders: [["Maries", "Ambivalenz", "wird", "Hier", "deutlich."]],
         explanation: "\"Deutlich werden\" = to become clear; \"hier\" first, so \"wird\" second and the adjective at the end.",
       },
       {
@@ -1609,7 +1612,7 @@ export const DE_C2_U29: Lesson[] = [
             prompt: "Translate into German. (to a friend)",
             source: "What were you so annoyed about?",
             answer: "Worüber hast du dich so geärgert?",
-            altAnswers: ["Worüber hast du dich denn so geärgert?", "Worüber ärgerst du dich so?", "Worüber hast du dich so aufgeregt?", "Worüber hast du dich denn so aufgeregt?"],
+            altAnswers: ["Worüber hast du dich denn so geärgert?", "Worüber hast du dich so aufgeregt?", "Worüber hast du dich denn so aufgeregt?"],
             explanation: "\"Sich ärgern über\" + a thing: the question word becomes \"worüber\" (wo + r + über).",
           },
           {
@@ -1812,7 +1815,7 @@ export const DE_C2_U29: Lesson[] = [
         heading: "Austria and Bavaria: grantig, angefressen, Jänner, Paradeiser",
         body: [
           "German is a pluricentric language: Austrian and Swiss Standard German are standard varieties in their own right, not dialects. Emotion words: \"grantig\" (grumpy, irritable) is typical of Bavaria and Austria, and \"der Grant\" is the famous Viennese bad mood; \"angefressen sein\" (Austrian colloquial) means to be annoyed.",
-          "Everyday Austrian standard words appear in newspapers and on menus: \"der Jänner\" (January), \"der Paradeiser\" (tomato; Germany: \"die Tomate\"), \"die Erdäpfel\" (potatoes), \"die Marille\" (apricot), \"der Topfen\" (quark), \"das Sackerl\" (bag), \"heuer\" (this year). Several are official in the EU as Austrian terms.",
+          "Everyday Austrian standard words appear in newspapers and on menus: \"der Jänner\" (January), \"der Paradeiser\" (tomato; Germany: \"die Tomate\"), \"die Erdäpfel\" (potatoes), \"die Marille\" (apricot), \"der Topfen\" (quark), \"das Sackerl\" (bag), \"heuer\" (this year). The food words among them (\"Paradeiser\", \"Erdäpfel\", \"Marille\", \"Topfen\") are protected in EU law as Austrian terms.",
           "Recognising them matters more than using them: a German who says \"Paradeiser\" in Hamburg sounds affected, but a Mastery-level reader of \"Der Standard\" or a Viennese menu has to understand them.",
         ],
         examples: [
@@ -1933,7 +1936,7 @@ export const DE_C2_U29: Lesson[] = [
         source: "Can you buy tomatoes and potatoes at the market?",
         answer: "Kannst du am Markt noch Paradeiser und Erdäpfel kaufen?",
         altAnswers: ["Kannst du am Markt Paradeiser und Erdäpfel kaufen?", "Können Sie am Markt Paradeiser und Erdäpfel kaufen?", "Könnt ihr am Markt Paradeiser und Erdäpfel kaufen?", "Kannst du auf dem Markt Paradeiser und Erdäpfel kaufen?"],
-        explanation: "Austrian: \"Paradeiser\" (tomatoes), \"Erdäpfel\" (potatoes). Austrians also prefer \"am Markt\" to German \"auf dem Markt\".",
+        explanation: "Austrian: \"Paradeiser\" (tomatoes), \"Erdäpfel\" (potatoes). \"Am Markt\" is usual in Austria (and common in southern Germany); \"auf dem Markt\" is also correct.",
       },
       {
         type: "translate",
@@ -1969,7 +1972,7 @@ export const DE_C2_U29: Lesson[] = [
         question: "What did you hear?",
         options: ["Der Chef ist heute wieder grantig.", "Der Chef ist heute wieder gnädig.", "Der Chef ist heute wieder grandios.", "Der Chef ist heute wieder ganz ruhig."],
         correctIndex: 0,
-        explanation: "\"Grantig\" (grumpy): a short a, and the final -ig sounds like -ich in standard German.",
+        explanation: "\"Grantig\" (grumpy): a short a, and the final -ig sounds like -ich in northern standard German (closer to -ik in Austria and Bavaria).",
       },
       {
         type: "dictation",

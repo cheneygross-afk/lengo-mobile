@@ -9,7 +9,7 @@ export const DE_B2_U20_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Es or No Es?",
-    summary: "Platzhalter-es, correlate es and when es disappears.",
+    summary: "Use the placeholder \"es\" and the correlate \"es\", and know when \"es\" disappears.",
     duration: "12 min",
     sections: [
       {
@@ -114,7 +114,6 @@ export const DE_B2_U20_EXTRA: Lesson[] = [
         prompt: "Translate into German, starting with \"Bei\".",
         source: "There was a lot of laughing at the party.",
         answer: "Bei der Party wurde viel gelacht.",
-        altAnswers: ["Auf der Party wurde viel gelacht."],
         explanation: "Position 1 is taken, so \"es\" disappears.",
       },
       {
@@ -177,7 +176,7 @@ export const DE_B2_U20_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Focus Particles",
-    summary: "Sogar, nur, erst, gerade, ausgerechnet and their position before the focused word.",
+    summary: "Use \"sogar\", \"nur\", \"erst\", \"gerade\" and \"ausgerechnet\" in the right place, directly before the focused word.",
     duration: "12 min",
     sections: [
       {
@@ -245,7 +244,7 @@ export const DE_B2_U20_EXTRA: Lesson[] = [
         prompt: "Translate into German with \"sogar\".",
         source: "Even my father cried.",
         answer: "Sogar mein Vater hat geweint.",
-        altAnswers: ["Selbst mein Vater hat geweint.", "Sogar mein Vater weinte.", "Selbst mein Vater weinte."],
+        altAnswers: ["Sogar mein Vater weinte."],
         explanation: "\"Sogar / selbst\" before the surprising subject.",
       },
       {
@@ -272,7 +271,7 @@ export const DE_B2_U20_EXTRA: Lesson[] = [
         prompt: "Translate into German with \"gerade\".",
         source: "Especially in winter, the city is beautiful.",
         answer: "Gerade im Winter ist die Stadt schön.",
-        altAnswers: ["Gerade im Winter ist die Stadt wunderschön.", "Besonders im Winter ist die Stadt schön."],
+        altAnswers: ["Gerade im Winter ist die Stadt wunderschön."],
         explanation: "\"Gerade\" = especially, precisely.",
       },
       {
@@ -307,6 +306,7 @@ export const DE_B2_U20_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: It was raining on my birthday of all days.",
         words: ["Ausgerechnet", "an meinem Geburtstag", "hat", "es", "geregnet."],
         translation: "It was raining on my birthday of all days.",
+        altOrders: [["Es", "hat", "ausgerechnet", "an meinem Geburtstag", "geregnet."]],
         explanation: "The particle and its focus form one element in position 1.",
       },
       {

@@ -23,7 +23,7 @@ export const DE_A2_U23: Lesson[] = [
           { es: "Der Zug hatte eine Stunde Verspätung.", en: "The train was an hour late." },
           { es: "Ich wohne bei meinem Kumpel Leon in Kreuzberg.", en: "I'm staying with my mate Leon in Kreuzberg." },
           { es: "Heute Abend gehen wir in eine Kneipe.", en: "Tonight we're going to a pub." },
-          { es: "Liebe Grüße, Jonas", en: "Love, Jonas" },
+          { es: "Liebe Grüße Jonas", en: "Love, Jonas" },
         ],
         checkpoint: [
           {
@@ -62,7 +62,7 @@ export const DE_A2_U23: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "Go across the bridge. (polite)",
+            source: "Go across the bridge. (formal)",
             answer: "Gehen Sie über die Brücke.",
             explanation: "Crossing is movement: \"über\" + accusative \"die Brücke\".",
           },
@@ -132,7 +132,7 @@ export const DE_A2_U23: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Keep going along the street. (polite)",
+        source: "Keep going along the street. (formal)",
         answer: "Gehen Sie immer die Straße entlang.",
         altAnswers: ["Gehen Sie die Straße entlang.", "Gehen Sie immer geradeaus die Straße entlang."],
         explanation: "\"Entlang\" follows an accusative noun: \"die Straße entlang\".",
@@ -184,6 +184,7 @@ export const DE_A2_U23: Lesson[] = [
         prompt: "Put the words in order to say: After about ten minutes you'll see the gate.",
         words: ["Nach", "etwa zehn Minuten", "sehen", "Sie", "das Tor."],
         translation: "After about ten minutes you'll see the gate.",
+        altOrders: [["Sie", "sehen", "das Tor", "nach", "etwa zehn Minuten."]],
         explanation: "Time phrase first, verb second; the present for the future.",
       },
       {
@@ -195,7 +196,7 @@ export const DE_A2_U23: Lesson[] = [
         type: "speak",
         text: "Entschuldigung, wie komme ich zum Brandenburger Tor?",
         prompt: "Say it in German: Excuse me, how do I get to the Brandenburg Gate?",
-        tip: "Stress Bran-den-BUR-ger lightly on BUR; the final -er is a soft uh.",
+        tip: "Stress \"Brandenburger\" lightly on BUR (Bran-den-BUR-ger); the final -er is a soft uh.",
         explanation: "\"Zum\" = zu dem; \"das Tor\" is neuter.",
       },
     ],
@@ -283,7 +284,7 @@ export const DE_A2_U23: Lesson[] = [
         ],
         examples: [
           { es: "Stell dir vor, sie haben meinen Geldbeutel gefunden!", en: "Guess what, they've found my wallet!" },
-          { es: "Der Ausweis war noch drin, nur ohne Geld.", en: "The ID was still in it, just no money." },
+          { es: "Der Ausweis war noch drin, nur das Geld war weg.", en: "The ID was still in it; only the money was gone." },
           { es: "Ich habe Leons Kollegin kennengelernt.", en: "I met Leon's colleague." },
           { es: "Sie kennt Berlin besser als jeder Reiseführer.", en: "She knows Berlin better than any guidebook." },
           { es: "Ich werde im Sommer wiederkommen.", en: "I'll come back in the summer." },
@@ -541,13 +542,13 @@ export const DE_A2_U23: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Can I help you? (polite)",
+        source: "Can I help you? (formal)",
         answer: "Kann ich Ihnen helfen?",
         explanation: "\"Helfen\" + dative: polite \"Ihnen\".",
       },
       {
         type: "multiple-choice",
-        question: "Which completes the sentence? Ich wohne bei ___ Familie.",
+        question: "Which completes the sentence? \"Ich wohne bei ___ Familie.\"",
         options: ["einer netten", "eine nette", "einer nette", "einen netten"],
         correctIndex: 0,
         explanation: "\"Bei\" + dative feminine: \"einer\" + -en.",
@@ -606,7 +607,7 @@ export const DE_A2_U23: Lesson[] = [
     level: "DE-A2",
     number: 4,
     title: "Elementary Challenge: The Past-Tense Gauntlet",
-    summary: "Every past form of the level: auxiliaries, participles, the Präteritum of sein, haben and the modals, and the right choice for speech or writing.",
+    summary: "Every past form of the level: auxiliaries, participles, the Präteritum of \"sein\", \"haben\" and the modals, and the right choice for speech or writing.",
     duration: "14 min",
     sections: [
       {
@@ -678,7 +679,7 @@ export const DE_A2_U23: Lesson[] = [
         heading: "Gate 3: speech or writing?",
         body: [
           "The same event, two registers. Spoken (to a friend): \"Gestern bin ich in die Stadt gefahren und habe mir Schuhe gekauft. Die waren total günstig.\" Written (a story or a report): \"Gestern fuhr ich in die Stadt und kaufte mir Schuhe. Sie waren sehr günstig.\"",
-          "At the Elementary level you produce the Perfekt plus war/hatte/modals, and recognise the full Präteritum of other verbs when you read: \"ging\" (gehen), \"kam\" (kommen), \"sah\" (sehen), \"fuhr\" (fahren), \"nahm\" (nehmen), \"fand\" (finden), \"gab\" (geben).",
+          "At the Elementary level you produce the Perfekt plus \"war\", \"hatte\" and the modals, and recognise the full Präteritum of other verbs when you read: \"ging\" (gehen), \"kam\" (kommen), \"sah\" (sehen), \"fuhr\" (fahren), \"nahm\" (nehmen), \"fand\" (finden), \"gab\" (geben).",
         ],
         examples: [
           { es: "Gestern bin ich in die Stadt gefahren.", en: "Yesterday I went into town. (spoken)" },
@@ -689,15 +690,15 @@ export const DE_A2_U23: Lesson[] = [
         checkpoint: [
           {
             type: "matching",
-            instructions: "Match each Präteritum form to its infinitive.",
+            instructions: "Match each Präteritum form to its meaning.",
             pairs: [
-              { left: "ging", right: "to go (gehen)" },
-              { left: "kam", right: "to come (kommen)" },
-              { left: "sah", right: "to see (sehen)" },
-              { left: "fand", right: "to find (finden)" },
-              { left: "nahm", right: "to take (nehmen)" },
+              { left: "ging", right: "went" },
+              { left: "kam", right: "came" },
+              { left: "sah", right: "saw" },
+              { left: "fand", right: "found" },
+              { left: "nahm", right: "took" },
             ],
-            explanation: "Strong verbs change their vowel in the Präteritum and take no ending in the ich/er forms.",
+            explanation: "\"Ging\" is from \"gehen\", \"kam\" from \"kommen\", \"sah\" from \"sehen\", \"fand\" from \"finden\", \"nahm\" from \"nehmen\". Strong verbs change their vowel in the Präteritum and take no ending in the ich/er forms.",
           },
           {
             type: "listen-choose",
@@ -813,7 +814,7 @@ export const DE_A2_U23: Lesson[] = [
     level: "DE-A2",
     number: 5,
     title: "Elementary Challenge: Clauses, Future and Comparisons",
-    summary: "Weil, dass, wenn, ob and indirect questions combined with werden and comparisons.",
+    summary: "Combine \"weil\", \"dass\", \"wenn\", \"ob\" and indirect questions with \"werden\" and comparisons, keeping every verb in the right place.",
     duration: "14 min",
     sections: [
       {
@@ -1049,7 +1050,7 @@ export const DE_A2_U23: Lesson[] = [
         body: [
           "Problem with \"seit\": \"Meine Waschmaschine ist seit einer Woche kaputt.\" Reason with \"weil\" or \"denn\": \"Das ist ein großes Problem, weil ich zwei kleine Kinder habe.\" Request with \"können\" / \"könnten\": \"Könnten Sie bitte einen Techniker schicken?\"",
           "Suggest a date: \"Ich bin am Dienstag und am Donnerstag ab 16 Uhr zu Hause.\" or \"Passt es Ihnen am Mittwochvormittag?\" End with \"Vielen Dank im Voraus\" (thanks in advance).",
-          "The 35-word version: \"Sehr geehrter Herr Becker, meine Waschmaschine ist seit einer Woche kaputt. Das ist ein Problem, weil ich zwei kleine Kinder habe. Könnten Sie bitte einen Techniker schicken? Ich bin am Dienstag ab 16 Uhr zu Hause. Mit freundlichen Grüßen, Emma Taylor\"",
+          "The short version (about 30-40 words): \"Sehr geehrter Herr Becker, meine Waschmaschine ist seit einer Woche kaputt. Das ist ein Problem, weil ich zwei kleine Kinder habe. Könnten Sie bitte einen Techniker schicken? Ich bin am Dienstag ab 16 Uhr zu Hause. Mit freundlichen Grüßen Emma Taylor\"",
         ],
         examples: [
           { es: "Meine Waschmaschine ist seit einer Woche kaputt.", en: "My washing machine has been broken for a week." },
@@ -1166,7 +1167,7 @@ export const DE_A2_U23: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Does Friday suit you? (polite)",
+        source: "Does Friday suit you? (formal)",
         answer: "Passt es Ihnen am Freitag?",
         altAnswers: ["Passt Ihnen der Freitag?", "Geht es bei Ihnen am Freitag?", "Passt Ihnen Freitag?"],
         explanation: "\"Passen\" + dative: \"Ihnen\".",
@@ -1253,7 +1254,7 @@ export const DE_A2_U23: Lesson[] = [
       {
         heading: "Structures 8-14: cases and endings",
         body: [
-          "(8) accusative after \"haben\", \"es gibt\" and most verbs; (9) dative verbs (\"helfen, danken, gefallen, gehören, schmecken, passen\"); (10) two objects: dative before accusative noun, pronoun first; (11) fixed-case prepositions; (12) two-way prepositions; (13) adjective endings after der/ein/no article; (14) genitive and \"von\" + dative.",
+          "(8) accusative after \"haben\", \"es gibt\" and most verbs; (9) dative verbs (\"helfen, danken, gefallen, gehören, schmecken, passen\"); (10) two objects: dative before accusative noun, pronoun first; (11) fixed-case prepositions; (12) two-way prepositions; (13) adjective endings after \"der\", after \"ein\" and with no article; (14) genitive and \"von\" + dative.",
           "The single most useful check: masculine nouns. If the noun is masculine and it's the object, the article must change: \"den\", \"einen\", \"meinen\", \"keinen\".",
         ],
         examples: [
@@ -1396,7 +1397,7 @@ export const DE_A2_U23: Lesson[] = [
         prompt: "Translate into German.",
         source: "Put the milk in the fridge, please. (to a friend)",
         answer: "Stell bitte die Milch in den Kühlschrank!",
-        altAnswers: ["Stell die Milch bitte in den Kühlschrank!", "Tu bitte die Milch in den Kühlschrank!", "Stellt bitte die Milch in den Kühlschrank!", "Stellen Sie bitte die Milch in den Kühlschrank!"],
+        altAnswers: ["Stell die Milch bitte in den Kühlschrank!", "Tu bitte die Milch in den Kühlschrank!", "Bitte stell die Milch in den Kühlschrank!"],
         explanation: "\"Stellen\" + direction: \"in den Kühlschrank\" (accusative).",
       },
       {
@@ -1489,8 +1490,8 @@ export const DE_A2_U23: Lesson[] = [
       {
         heading: "Part 3: Schreiben (writing)",
         body: [
-          "Two tasks: a short message to a friend (about 20-30 words, du) and an email to someone formal (about 30-40 words, Sie). Each lists three points; you must cover all three. Points are lost for missing content more than for small mistakes.",
-          "Message to a friend: \"Hallo Mia, leider kann ich morgen nicht zum Kino kommen, weil ich krank bin. Hast du am Samstag Zeit? Dann können wir zusammen frühstücken. Liebe Grüße, Jonas\" Three points: cancel, reason, suggest another time.",
+          "Two tasks: a short message to a friend (about 20-30 words, \"du\") and an email to someone formal (about 30-40 words, \"Sie\"). Each lists three points; you must cover all three. Points are lost for missing content more than for small mistakes.",
+          "Message to a friend: \"Hallo Mia, leider kann ich morgen nicht zum Kino kommen, weil ich krank bin. Hast du am Samstag Zeit? Dann können wir zusammen frühstücken. Liebe Grüße Jonas\" Three points: cancel, reason, suggest another time.",
         ],
         examples: [
           { es: "Leider kann ich morgen nicht kommen.", en: "Unfortunately I can't come tomorrow." },
@@ -1590,7 +1591,7 @@ export const DE_A2_U23: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "I'm writing to you because I have a question. (polite)",
+        source: "I'm writing to you because I have a question. (formal)",
         answer: "Ich schreibe Ihnen, weil ich eine Frage habe.",
         altAnswers: ["Ich schreibe Ihnen, denn ich habe eine Frage."],
         explanation: "Dative \"Ihnen\" (to you, polite); \"habe\" last after \"weil\".",

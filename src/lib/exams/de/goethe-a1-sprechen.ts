@@ -49,8 +49,8 @@ export const GOETHE_A1_SPRECHEN: ExamPaper = {
         ],
         points: [
           "Stellen Sie zu jeder Karte eine Frage.",
-          "W-Fragen (Was, Wann, Wohin …): das Verb steht an Position 2.",
-          "Ja/Nein-Fragen: das Verb steht am Anfang.",
+          "W-Fragen (Was, Wann, Wohin …): Das Verb steht an Position 2.",
+          "Ja/Nein-Fragen: Das Verb steht am Anfang.",
           "Beantworten Sie auch die Fragen Ihres Partners.",
         ],
         examinerQuestions: [

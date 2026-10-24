@@ -8,7 +8,7 @@ export const DE_A2_U07: Lesson[] = [
     level: "DE-A2",
     number: 1,
     title: "The Dative Case, Part 1 of 2",
-    summary: "The dative articles dem, der, dem, den (+ -n in the plural), einem, einer, keinem, meinem, and the question word wem? for the person something goes to.",
+    summary: "Use the dative articles \"dem\", \"der\", \"dem\", \"den\" (+ -n in the plural) and \"einem\", \"einer\", \"keinem\", \"meinem\", and ask \"wem?\" for the person something goes to.",
     duration: "14 min",
     sections: [
       {
@@ -16,7 +16,7 @@ export const DE_A2_U07: Lesson[] = [
         body: [
           "You already know two cases: the nominative for the subject (\"der Mann\" is here) and the accusative for the direct object (I see \"den Mann\"). The dative is the third: it usually marks the person who receives something or benefits from an action, the one English often introduces with to or for: I'm writing to my mother, I'm helping the man.",
           "You've met the dative already after \"aus\", \"bei\", \"mit\", \"nach\", \"von\" and \"zu\" (\"mit dem Bus\", \"bei der Arbeit\"). Now it appears without a preposition, as the person: \"Ich helfe dem Mann\" (I help the man), \"Ich schreibe meiner Mutter\" (I'm writing to my mother).",
-          "The question word is \"wem?\" (to whom?, who... to?): \"Wem schreibst du?\" (Who are you writing to?). Compare \"wer?\" (who, the subject) and \"wen?\" (whom, accusative). Wer, wen, wem: the same pattern as der, den, dem.",
+          "The question word is \"wem?\" (to whom?, who... to?): \"Wem schreibst du?\" (Who are you writing to?). Compare \"wer?\" (who, the subject) and \"wen?\" (whom, accusative). \"Wer\", \"wen\", \"wem\": the same pattern as \"der\", \"den\", \"dem\".",
         ],
         examples: [
           { es: "Ich helfe dem Mann.", en: "I'm helping the man." },
@@ -177,7 +177,7 @@ export const DE_A2_U07: Lesson[] = [
         question: "What does it mean?",
         options: ["Who does that belong to?", "Who heard that?", "Who is that?", "Who did that?"],
         correctIndex: 0,
-        explanation: "\"Wem\" = to whom; \"gehören\" = to belong. Don't confuse \"gehört\" (belongs) with \"gehört\" from hören (heard): context decides.",
+        explanation: "\"Wem\" = to whom; \"gehören\" = to belong. Don't confuse \"gehört\" (belongs) with \"gehört\" from \"hören\" (heard): context decides.",
       },
       {
         type: "word-order",
@@ -196,7 +196,7 @@ export const DE_A2_U07: Lesson[] = [
           { left: "die Kinder", right: "den Kindern" },
           { left: "eine Freundin", right: "einer Freundin" },
         ],
-        explanation: "der → dem, die → der, das → dem, plural die → den + -n; eine → einer.",
+        explanation: "\"der\" → \"dem\", \"die\" → \"der\", \"das\" → \"dem\", plural \"die\" → \"den\" + -n; \"eine\" → \"einer\".",
       },
       {
         type: "translate",
@@ -225,13 +225,13 @@ export const DE_A2_U07: Lesson[] = [
     level: "DE-A2",
     number: 2,
     title: "Pattern Practice: Dem, Der, Dem, Den",
-    summary: "One frame, every gender: drill ich helfe dem Vater / der Mutter / dem Kind / den Eltern with articles, mein and kein until the endings are automatic.",
+    summary: "Drill one frame for every gender, \"Ich helfe dem Vater / der Mutter / dem Kind / den Eltern\", with articles, \"mein\" and \"kein\", until the endings are automatic.",
     duration: "11 min",
     sections: [
       {
         heading: "One frame: Ich helfe ...",
         body: [
-          "Keep the verb fixed and change only the person: \"Ich helfe dem Vater\", \"Ich helfe der Mutter\", \"Ich helfe dem Kind\", \"Ich helfe den Eltern\". Say them aloud until you hear the pattern: dem, der, dem, den.",
+          "Keep the verb fixed and change only the person: \"Ich helfe dem Vater\", \"Ich helfe der Mutter\", \"Ich helfe dem Kind\", \"Ich helfe den Eltern\". Say them aloud until you hear the pattern: \"dem\", \"der\", \"dem\", \"den\".",
           "The noun itself stays the same in the singular. Only the plural adds -n: \"den Kindern\", \"den Brüdern\", \"den Großeltern\" (already -n).",
         ],
         examples: [
@@ -264,7 +264,7 @@ export const DE_A2_U07: Lesson[] = [
       {
         heading: "Same frame with mein and kein",
         body: [
-          "Now swap the article for a possessive: \"meinem Vater\", \"meiner Mutter\", \"meinem Kind\", \"meinen Eltern\". The endings copy the article's last letter: dem → -em, der → -er, den → -en.",
+          "Now swap the article for a possessive: \"meinem Vater\", \"meiner Mutter\", \"meinem Kind\", \"meinen Eltern\". The endings copy the article's last letter: \"dem\" → -em, \"der\" → -er, \"den\" → -en.",
           "\"Kein\" works the same way: \"Ich helfe keinem Mann\", \"keiner Frau\", \"keinem Kind\", \"keinen Leuten\". So do \"dein\", \"sein\", \"ihr\", \"unser\" and \"euer\": \"Er hilft seiner Frau\", \"Wir helfen unserem Sohn\".",
         ],
         examples: [
@@ -281,7 +281,7 @@ export const DE_A2_U07: Lesson[] = [
             prompt: "Translate into German.",
             source: "Are you helping your sister? (to a friend)",
             answer: "Hilfst du deiner Schwester?",
-            explanation: "Feminine dative: \"deiner\". \"Helfen\" changes its vowel for du: \"hilfst\".",
+            explanation: "Feminine dative: \"deiner\". \"Helfen\" changes its vowel for \"du\": \"hilfst\".",
           },
           {
             type: "translate",
@@ -418,7 +418,7 @@ export const DE_A2_U07: Lesson[] = [
     level: "DE-A2",
     number: 3,
     title: "Q&A Drill: Mir, Dir, Uns, Euch",
-    summary: "First and second person dative pronouns in high-frequency questions: Wie geht es dir? Kannst du mir helfen? Gefällt euch die Stadt? and Ihnen for formal questions.",
+    summary: "Ask and answer everyday questions with \"mir\", \"dir\", \"uns\" and \"euch\" (\"Wie geht es dir?\", \"Kannst du mir helfen?\", \"Gefällt euch die Stadt?\"), and use \"Ihnen\" in formal questions.",
     duration: "11 min",
     sections: [
       {
@@ -612,7 +612,7 @@ export const DE_A2_U07: Lesson[] = [
     level: "DE-A2",
     number: 4,
     title: "Helfen, Danken, Antworten: Verbs That Take the Dative",
-    summary: "A small group of common verbs takes a dative object where English expects a direct object: helfen, danken, antworten, gratulieren, folgen and glauben.",
+    summary: "Use the common verbs that take a dative object where English expects a direct object: \"helfen\", \"danken\", \"antworten\", \"gratulieren\", \"folgen\" and \"glauben\".",
     duration: "13 min",
     sections: [
       {
@@ -669,7 +669,7 @@ export const DE_A2_U07: Lesson[] = [
             source: "Congratulations on your birthday! (to a friend)",
             answer: "Ich gratuliere dir zum Geburtstag!",
             altAnswers: ["Herzlichen Glückwunsch zum Geburtstag!", "Alles Gute zum Geburtstag!", "Wir gratulieren dir zum Geburtstag!"],
-            explanation: "\"Gratulieren\" + dative person + \"zu\" + occasion: \"zum Geburtstag\" (zu dem).",
+            explanation: "\"Gratulieren\" + dative person + \"zu\" + occasion: \"zum Geburtstag\" (\"zu dem\").",
           },
           {
             type: "fill-blank",
@@ -685,7 +685,7 @@ export const DE_A2_U07: Lesson[] = [
         heading: "In the Perfekt the dative stays",
         body: [
           "Changing the tense doesn't change the case. \"Ich habe ihm geholfen\" (I helped him), \"Sie hat mir nicht geantwortet\" (She didn't answer me), \"Wir haben ihr gratuliert\" (We congratulated her).",
-          "The participles: \"helfen\" → \"geholfen\" (strong), \"danken\" → \"gedankt\", \"antworten\" → \"geantwortet\" (-et after t), \"gratulieren\" → \"gratuliert\" (-ieren: no ge-), \"folgen\" → \"ist gefolgt\" (movement: sein!), \"glauben\" → \"geglaubt\".",
+          "The participles: \"helfen\" → \"geholfen\" (strong), \"danken\" → \"gedankt\", \"antworten\" → \"geantwortet\" (-et after t), \"gratulieren\" → \"gratuliert\" (-ieren: no ge-), \"folgen\" → \"ist gefolgt\" (movement: \"sein\"!), \"glauben\" → \"geglaubt\".",
         ],
         examples: [
           { es: "Ich habe meiner Oma im Garten geholfen.", en: "I helped my grandma in the garden." },
@@ -768,7 +768,7 @@ export const DE_A2_U07: Lesson[] = [
         source: "Follow me, please. (formal)",
         answer: "Folgen Sie mir, bitte.",
         altAnswers: ["Bitte folgen Sie mir.", "Folgen Sie mir bitte."],
-        explanation: "\"Folgen\" + dative \"mir\". The Sie imperative puts the verb first.",
+        explanation: "\"Folgen\" + dative \"mir\". The \"Sie\" imperative puts the verb first.",
       },
       {
         type: "translate",
@@ -820,7 +820,7 @@ export const DE_A2_U07: Lesson[] = [
     level: "DE-A2",
     number: 5,
     title: "The Dative Case, Part 2 of 2",
-    summary: "Third person dative pronouns ihm, ihr, ihnen and Ihnen, the full pronoun table next to the accusative, and how to tell them apart.",
+    summary: "Use the third person dative pronouns \"ihm\", \"ihr\", \"ihnen\" and \"Ihnen\", and tell them apart from the accusative with the full pronoun table.",
     duration: "14 min",
     sections: [
       {
@@ -860,7 +860,7 @@ export const DE_A2_U07: Lesson[] = [
         heading: "The full table: accusative vs dative",
         body: [
           "Side by side, nominative → accusative → dative: \"ich\" → \"mich\" → \"mir\"; \"du\" → \"dich\" → \"dir\"; \"er\" → \"ihn\" → \"ihm\"; \"sie\" → \"sie\" → \"ihr\"; \"es\" → \"es\" → \"ihm\"; \"wir\" → \"uns\" → \"uns\"; \"ihr\" → \"euch\" → \"euch\"; \"sie\" → \"sie\" → \"ihnen\"; \"Sie\" → \"Sie\" → \"Ihnen\".",
-          "The differences are small and mostly at the end of the word: mich/mir, dich/dir, ihn/ihm. Train your ear on the final sound: -ch or -n means accusative, -r or -m means dative. \"Uns\" and \"euch\" are the same in both cases.",
+          "The differences are small and mostly at the end of the word: \"mich\"/\"mir\", \"dich\"/\"dir\", \"ihn\"/\"ihm\". Train your ear on the final sound: -ch or -n means accusative, -r or -m means dative. \"Uns\" and \"euch\" are the same in both cases.",
           "To choose, ask the verb: \"sehen\", \"fragen\", \"besuchen\", \"kennen\" → accusative (\"Ich sehe ihn\"). \"Helfen\", \"danken\", \"antworten\", \"gefallen\", \"gehören\" → dative (\"Ich helfe ihm\").",
         ],
         examples: [
@@ -914,7 +914,7 @@ export const DE_A2_U07: Lesson[] = [
           {
             type: "speak",
             text: "Ich sehe ihn, und ich helfe ihm.",
-            tip: "Make the final n and m clear: ihn ends with the tongue up, ihm with the lips closed.",
+            tip: "Make the final n and m clear: \"ihn\" ends with the tongue up, \"ihm\" with the lips closed.",
             explanation: "Accusative \"ihn\" after \"sehen\", dative \"ihm\" after \"helfen\".",
           },
         ],
@@ -1023,7 +1023,7 @@ export const DE_A2_U07: Lesson[] = [
     level: "DE-A2",
     number: 6,
     title: "Das gefällt mir: Gefallen, Schmecken, Gehören, Passen",
-    summary: "Verbs where the thing is the subject and the person is dative: der Film gefällt mir, die Suppe schmeckt mir, das Buch gehört meinem Bruder, die Hose passt mir.",
+    summary: "Say what you like, what tastes good, what belongs to whom and what fits, with the thing as the subject and the person in the dative: \"Der Film gefällt mir\", \"Die Hose passt mir\".",
     duration: "14 min",
     sections: [
       {
@@ -1044,7 +1044,7 @@ export const DE_A2_U07: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, using gefallen.",
+            prompt: "Translate into German, using \"gefallen\".",
             source: "I like the jacket.",
             answer: "Die Jacke gefällt mir.",
             altAnswers: ["Mir gefällt die Jacke."],
@@ -1076,7 +1076,7 @@ export const DE_A2_U07: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, using schmecken.",
+            prompt: "Translate into German, using \"schmecken\".",
             source: "Do you like the cake? (to a friend)",
             answer: "Schmeckt dir der Kuchen?",
             altAnswers: ["Schmeckt der Kuchen dir?", "Schmeckt dir der Kuchen gut?"],
@@ -1138,7 +1138,7 @@ export const DE_A2_U07: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using gefallen.",
+        prompt: "Translate into German, using \"gefallen\".",
         source: "Do you like the city? (to a friend)",
         answer: "Gefällt dir die Stadt?",
         altAnswers: ["Gefällt die Stadt dir?"],
@@ -1147,7 +1147,7 @@ export const DE_A2_U07: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using schmecken.",
+        prompt: "Translate into German, using \"schmecken\".",
         source: "I don't like the coffee.",
         answer: "Der Kaffee schmeckt mir nicht.",
         altAnswers: ["Mir schmeckt der Kaffee nicht."],
@@ -1179,7 +1179,7 @@ export const DE_A2_U07: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using gefallen.",
+        prompt: "Translate into German, using \"gefallen\".",
         source: "We really liked Hamburg.",
         answer: "Hamburg hat uns sehr gut gefallen.",
         altAnswers: ["Hamburg hat uns sehr gefallen.", "Uns hat Hamburg sehr gut gefallen.", "Uns hat Hamburg sehr gefallen.", "Hamburg gefiel uns sehr gut."],
@@ -1237,7 +1237,7 @@ export const DE_A2_U07: Lesson[] = [
     level: "DE-A2",
     number: 7,
     title: "Transformations: Replace the Person",
-    summary: "Swap dative nouns for pronouns: Ich helfe meiner Oma becomes Ich helfe ihr, das gehört dem Lehrer becomes das gehört ihm.",
+    summary: "Replace dative nouns with pronouns: \"Ich helfe meiner Oma\" becomes \"Ich helfe ihr\", and \"Das gehört dem Lehrer\" becomes \"Das gehört ihm\".",
     duration: "11 min",
     sections: [
       {
@@ -1428,13 +1428,13 @@ export const DE_A2_U07: Lesson[] = [
     level: "DE-A2",
     number: 8,
     title: "Real-World Mission: Wem gehört das?",
-    summary: "At the lost-property office and after a party: identify owners, thank people and say what fits and what doesn't.",
+    summary: "Identify owners at the lost-property office and after a party, thank people and say what fits and what doesn't.",
     duration: "13 min",
     sections: [
       {
         heading: "Im Fundbüro",
         body: [
-          "You've lost your bag on the tram in München and go to the \"Fundbüro\" (lost-property office). You'll need \"verlieren\" (\"Ich habe meine Tasche verloren\"), \"vergessen\" (left behind: \"Ich habe sie in der Tram vergessen\") and \"gehören\" for proving it's yours.",
+          "You've lost your bag on the tram in Munich and go to the \"Fundbüro\" (lost-property office). You'll need \"verlieren\" (\"Ich habe meine Tasche verloren\"), \"vergessen\" (left behind: \"Ich habe sie in der Tram vergessen\") and \"gehören\" for proving it's yours.",
           "The officer asks: \"Wie sieht die Tasche aus?\" (What does it look like?) and \"Was ist drin?\" (What's inside?). If it's yours: \"Ja, die gehört mir!\". At the end, thank them: \"Vielen Dank, Sie haben mir sehr geholfen.\"",
           "Note \"die gehört mir\": in speech, Germans often use \"der\", \"die\", \"das\" instead of \"er\", \"sie\", \"es\" to point at a thing. \"Die\" here = it (the bag).",
         ],
@@ -1471,7 +1471,7 @@ export const DE_A2_U07: Lesson[] = [
         heading: "After the party: whose is all this?",
         body: [
           "Sunday morning after your party, the flat is full of things guests left behind. You text around and sort it out: \"Gehört die Jacke dir?\" \"Nein, die gehört Lisa\" (names need no article in the dative). \"Gehört der Schal Jonas?\" \"Ja, der gehört ihm.\"",
-          "Use \"wem\" for the open question: \"Wem gehört die Mütze?\" And for things that belong to two people: \"Die Teller gehören den Nachbarn\".",
+          "Use \"wem\" for the open question: \"Wem gehört die Mütze?\" And for things that belong to several people: \"Die Teller gehören den Nachbarn\".",
         ],
         examples: [
           { es: "Gehört die Jacke dir?", en: "Is the jacket yours?" },
@@ -1640,7 +1640,7 @@ export const DE_A2_U07: Lesson[] = [
     level: "DE-A2",
     number: 9,
     title: "Fix the Paragraph: Dative Slips",
-    summary: "A message to a friend full of ich helfe dich, mit die Kinder, das gefällt ich and den Kinder: find and fix each case error.",
+    summary: "Find and fix the case errors in a message to a friend: \"*ich helfe dich*\", \"*mit die Kinder*\", \"*das gefällt ich*\" and \"*den Kinder*\".",
     duration: "12 min",
     sections: [
       {
@@ -1816,7 +1816,7 @@ export const DE_A2_U07: Lesson[] = [
         prompt: "Put the words in order to say: Of course I'll help you with the move. (to a friend)",
         words: ["Natürlich", "helfe", "ich", "dir", "beim", "Umzug."],
         translation: "Of course I'll help you with the move.",
-        explanation: "\"Natürlich\" in position 1, verb second; dative \"dir\", \"beim\" = bei dem.",
+        explanation: "\"Natürlich\" in position 1, verb second; dative \"dir\", \"beim\" = \"bei dem\".",
       },
       {
         type: "speak",

@@ -61,7 +61,7 @@ export const DE_A1_GUIDES: DeGrammarGuide[] = [
         heading: `"Er", "sie" and "es" follow the noun`,
         body: [
           `When a pronoun replaces a noun, it follows the noun's grammatical gender, not its meaning. "Der Tisch" is "er" (he), "die Lampe" is "sie" (she), "das Bett" is "es" (it). English speakers reach for it every time, but German only uses "es" for neuter nouns.`,
-          `This is why learning the article matters so much: the moment you say "the table is new" and then "it is expensive", you need the gender again. "Der Tisch ist neu. Er ist teuer."`,
+          `This is why learning the article matters so much: the moment you say 'the table is new' and then 'it is expensive', you need the gender again. "Der Tisch ist neu. Er ist teuer."`,
         ],
         examples: [
           { de: "Wo ist der Schlüssel? Er ist in der Tasche.", en: "Where's the key? It's in the bag." },
@@ -119,11 +119,11 @@ export const DE_A1_GUIDES: DeGrammarGuide[] = [
     slug: "german-noun-plurals",
     title: "Noun Plurals: The Patterns Behind -e, -er, -n and -s",
     description:
-      "German has several plural endings, often with an umlaut. Learn the five main patterns, which nouns tend to take which, and why the plural article is always die.",
+      "German has several plural endings, often with an umlaut. Learn the five main patterns, which nouns tend to take which, and why the plural article is \"die\" in the nominative.",
     level: "A1",
     intro: [
       `English adds -s to almost everything. German has five main plural patterns, and some of them add an umlaut too: "der Tisch, die Tische", "das Buch, die Bücher", "die Lampe, die Lampen", "das Auto, die Autos", and "der Lehrer, die Lehrer", which does not change at all.`,
-      `Plurals are less chaotic than they first look. The gender and ending of a noun predict its plural quite well, and the article in the plural is always the same: "die". Learn each new noun with its article and plural, the way dictionaries list it: "der Tisch, -e".`,
+      `Plurals are less chaotic than they first look. The gender and ending of a noun predict its plural quite well, and in the nominative and accusative the plural article is always the same: "die" (the dative has "den"). Learn each new noun with its article and plural, the way dictionaries list it: "der Tisch, -e".`,
     ],
     sections: [
       {
@@ -263,7 +263,7 @@ export const DE_A1_GUIDES: DeGrammarGuide[] = [
       {
         heading: `Where German uses "haben" and English uses be`,
         body: [
-          `Several everyday feelings are expressed with "haben" in German: "Ich habe Hunger" (I'm hungry), "Ich habe Durst" (I'm thirsty), "Ich habe Angst" (I'm afraid), "Ich habe keine Zeit" (I'm busy, I don't have time). Saying "ich bin hungrig" is grammatical but sounds bookish.`,
+          `Several everyday feelings are expressed with "haben" in German: "Ich habe Hunger" (I'm hungry), "Ich habe Durst" (I'm thirsty), "Ich habe Angst" (I'm afraid), "Ich habe keine Zeit" (I'm busy, I don't have time). "Ich bin hungrig" is also correct, but "Ich habe Hunger" is the everyday phrase.`,
           `Age goes the other way: German uses "sein" like English. "Ich bin dreißig (Jahre alt)." Never "*ich habe dreißig Jahre*".`,
         ],
         examples: [
@@ -950,7 +950,7 @@ export const DE_A1_GUIDES: DeGrammarGuide[] = [
       {
         heading: `What each one means, and the false friends`,
         body: [
-          `"Können" is ability and possibility (can). "Müssen" is necessity (must, have to). "Wollen" is a firm wish or plan (want to). "Dürfen" is permission (may, be allowed to). "Sollen" is an obligation from someone else, an instruction or advice (should, be supposed to). "Mögen" alone means to like: "Ich mag Katzen". "Möchte" is the polite way to say what you want.`,
+          `"Können" is ability and possibility (can). "Müssen" is necessity (must, have to). "Wollen" is a firm wish or plan (want to). "Dürfen" is permission (may, be allowed to). "Sollen" is an obligation from someone else, an instruction or advice (should, be supposed to). "Mögen" alone means to like: "Ich mag Katzen". For activities, verb + "gern" is more natural: "Ich koche gern" ("Ich mag kochen" is heard too). "Möchte" is the polite way to say what you want.`,
           `In the negative, "müssen" and "dürfen" separate. "Du musst nicht kommen" means you don't have to come (it's optional). "Du darfst nicht kommen" means you must not come (it's forbidden). English must not is "nicht dürfen".`,
           `"Ich will" means I want, never I will. The future is formed with "werden": "Ich werde kommen" (I will come).`,
         ],
@@ -1279,7 +1279,7 @@ export const DE_A1_GUIDES: DeGrammarGuide[] = [
         heading: `Days, months and dates`,
         body: [
           `Days, months and seasons are all masculine and take "am" (days) and "im" (months and seasons): "am Montag", "im Juli", "im Winter". Years are said in hundreds up to 1999 ("neunzehnhundertachtzig") and as thousands from 2000 ("zweitausendvierundzwanzig"). There is no "in" before a bare year: "Ich bin 1990 geboren", or "im Jahr 1990".`,
-          `Dates use ordinal numbers, written with a full stop: "der 3. Mai" is "der dritte Mai". Ordinals add "-te" up to 19 and "-ste" from 20 (with the irregular "erste", "dritte", "siebte"). After "am" they take "-ten": "am dritten Mai", "am zwanzigsten Juni".`,
+          `Dates use ordinal numbers, written with a full stop: "der 3. Mai" is "der dritte Mai". Ordinals add "-te" up to 19 and "-ste" from 20 (with the irregular "erste", "dritte", "siebte" and "achte"). After "am" they take "-ten": "am dritten Mai", "am zwanzigsten Juni".`,
         ],
         table: {
           headers: ["Written", "Said", "Meaning"],

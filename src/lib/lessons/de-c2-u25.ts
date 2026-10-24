@@ -152,7 +152,7 @@ export const DE_C2_U25: Lesson[] = [
         question: "Which sentence is correct?",
         options: ["Die Ernte fiel aus, was eine Hungersnot zur Folge hatte.", "Die Ernte fiel aus, das eine Hungersnot zur Folge hatte.", "Die Ernte fiel aus, die eine Hungersnot zur Folge hatte.", "Die Ernte fiel aus, welches eine Hungersnot zur Folge hatte."],
         correctIndex: 0,
-        explanation: "\"Was\" refers back to the whole clause, not to a noun.",
+        explanation: "\"Was\" refers back to the whole clause, not to a noun; \"das\" and \"die\" need a noun, and \"welches\" in this use is outdated.",
       },
       {
         type: "translate",
@@ -401,7 +401,7 @@ export const DE_C2_U25: Lesson[] = [
         type: "speak",
         text: "Am 18. Mai 1848 trat in der Frankfurter Paulskirche die Nationalversammlung zusammen.",
         prompt: "Say it in German: On 18 May 1848 the National Assembly convened in St Paul's Church in Frankfurt.",
-        tip: "Read the year as achtzehnhundertachtundvierzig.",
+        tip: "Read the year as \"achtzehnhundertachtundvierzig\".",
         explanation: "\"Zusammentreten – trat zusammen\"; \"Frankfurter\" as an adjective from a city name never changes its ending.",
       },
     ],
@@ -548,8 +548,8 @@ export const DE_C2_U25: Lesson[] = [
         en: "[There is some evidence that] the figures were too low.",
         sentence: "___, dass die Zahlen zu niedrig waren.",
         answer: "Es spricht einiges dafür",
-        altAnswers: ["Einiges spricht dafür", "Vieles spricht dafür"],
-        explanation: "\"Etwas spricht dafür, dass\": the evidence points that way, without certainty.",
+        altAnswers: ["Einiges spricht dafür"],
+        explanation: "\"Etwas spricht dafür, dass\": the evidence points that way, without certainty. \"Vieles spricht dafür\" would claim much evidence, not some.",
       },
       {
         type: "multiple-choice",
@@ -574,7 +574,7 @@ export const DE_C2_U25: Lesson[] = [
         source: "Ranke is regarded as the founder of modern history.",
         answer: "Ranke gilt als Begründer der modernen Geschichtswissenschaft.",
         altAnswers: ["Ranke gilt als Begründer der modernen Geschichtsschreibung.", "Ranke gilt als der Begründer der modernen Geschichtswissenschaft.", "Ranke gilt als Vater der modernen Geschichtswissenschaft."],
-        explanation: "\"Gelten als\" + noun without article: reports a consensus.",
+        explanation: "\"Gelten als\" + noun, usually without article: reports a consensus.",
       },
       {
         type: "listen-choose",
@@ -911,7 +911,7 @@ export const DE_C2_U25: Lesson[] = [
           {
             type: "speak",
             text: "Am 30. Januar 1933 ernannte Hindenburg Hitler zum Reichskanzler.",
-            tip: "Read the date as dreißigsten Januar neunzehnhundertdreiunddreißig.",
+            tip: "Read the date as \"dreißigsten Januar neunzehnhundertdreiunddreißig\".",
             explanation: "\"Jemanden zu etwas ernennen\": \"zum Reichskanzler\" with \"zu\" + dative for the office.",
           },
         ],
@@ -1313,7 +1313,7 @@ export const DE_C2_U25: Lesson[] = [
       {
         heading: "Vergangenheitsbewältigung, Aufarbeitung, Erinnerungskultur",
         body: [
-          "\"Die Vergangenheitsbewältigung\" (literally mastering the past) is the classic term for how post-war Germany dealt with Nazism. It has been criticised because \"bewältigen\" suggests the past can be overcome and filed away. Theodor W. Adorno's 1959 lecture \"Was bedeutet: Aufarbeitung der Vergangenheit\" made the alternative \"die Aufarbeitung\" (working through) influential. It is also the standard word for the GDR past: \"die Aufarbeitung der SED-Diktatur\".",
+          "\"Die Vergangenheitsbewältigung\" (literally mastering the past) is the classic term for how post-war Germany dealt with Nazism. It has been criticised because \"bewältigen\" suggests the past can be overcome and filed away. Theodor W. Adorno's 1959 lecture \"Was bedeutet: Aufarbeitung der Vergangenheit\" attacked the phrase as a cover for drawing a line under the past and demanded a real working-through; since then \"die Aufarbeitung\" (working through) has become the preferred term. It is also the standard word for the GDR past: \"die Aufarbeitung der SED-Diktatur\".",
           "\"Die Erinnerungskultur\" (culture of remembrance) is the wider, neutral term: memorials, days of remembrance, school curricula, museums, public debate. Related: \"das kollektive Gedächtnis\" (collective memory), \"die Gedenkkultur\", \"der Gedenktag\" (day of remembrance), for example 27 January, the anniversary of the liberation of Auschwitz in 1945.",
           "Grammar: \"gedenken\" (to commemorate) is one of the few verbs that still take the genitive: \"Wir gedenken der Opfer\", \"des Kriegsendes gedenken\". \"Sich erinnern an\" + accusative is the everyday verb (to remember); \"erinnern an\" without \"sich\" means to remind of or to recall publicly: \"Eine Gedenktafel erinnert an die Deportation.\"",
         ],
@@ -1743,7 +1743,7 @@ export const DE_C2_U25: Lesson[] = [
         type: "speak",
         text: "Bundeskanzler Scholz sprach im Februar 2022 von einer Zeitenwende.",
         prompt: "Say it in German: In February 2022 Chancellor Scholz spoke of a watershed moment.",
-        tip: "Read 2022 as zweitausendzweiundzwanzig.",
+        tip: "Read 2022 as \"zweitausendzweiundzwanzig\".",
         explanation: "\"Sprechen von\" + dative: \"von einer Zeitenwende\".",
       },
     ],
@@ -2090,7 +2090,7 @@ export const DE_C2_U25: Lesson[] = [
         heading: "Counterfactual, judgement and the finished text",
         body: [
           "Close with a counterfactual and a judgement, both clearly marked: \"Hätte der Westen militärisch reagiert, wäre die Lage womöglich eskaliert.\" \"Ohne die Mauer wäre die DDR wohl kaum lebensfähig gewesen.\" Then a Werturteil: \"Aus heutiger Sicht erscheint der Mauerbau als zynische Stabilisierung eines Regimes, das seine Bürger nur durch Gewalt halten konnte.\"",
-          "The finished text (about 300 words): \"Seit ihrer Gründung 1949 hatten rund 2,7 Millionen Menschen die DDR verlassen, die meisten über West-Berlin. Da vor allem junge und gut ausgebildete Menschen gingen, geriet die Wirtschaft zunehmend unter Druck. Angesichts dieser Massenflucht drängte die SED-Führung unter Walter Ulbricht darauf, die Grenze zu schließen. Noch im Juni 1961 hatte Ulbricht erklärt: „Niemand hat die Absicht, eine Mauer zu errichten.“ In der Nacht zum 13. August 1961 riegelten Volkspolizei, Grenztruppen und Betriebskampfgruppen die Sektorengrenze ab. Zunächst wurde Stacheldraht gezogen, wenig später begann der Bau einer Mauer. Familien und Freunde wurden über Nacht getrennt, was in den folgenden Wochen zu dramatischen Fluchtversuchen führte.\"",
+          "The finished text (about 300 words): \"Seit ihrer Gründung 1949 hatten rund 2,7 Millionen Menschen die DDR verlassen, die meisten über West-Berlin. Da vor allem junge und gut ausgebildete Menschen gingen, geriet die Wirtschaft zunehmend unter Druck. Angesichts dieser Massenflucht drängte die SED-Führung unter Walter Ulbricht darauf, die Grenze zu schließen. Noch im Juni 1961 hatte Ulbricht erklärt: „Niemand hat die Absicht, eine Mauer zu errichten.“ In der Nacht zum 13. August 1961 riegelten Volkspolizei, Grenzpolizei und Betriebskampfgruppen die Sektorengrenze ab. Zunächst wurde Stacheldraht gezogen, wenig später begann der Bau einer Mauer. Familien und Freunde wurden über Nacht getrennt, was in den folgenden Wochen zu dramatischen Fluchtversuchen führte.\"",
           "\"Wann genau Moskau dem Plan zustimmte, ist in der Forschung umstritten; es spricht jedoch einiges dafür, dass die Entscheidung erst im Sommer 1961 fiel. Die Westmächte protestierten, griffen aber nicht ein. Präsident Kennedy soll sogar gesagt haben, eine Mauer sei besser als ein Krieg. Hätte der Westen militärisch reagiert, wäre die Lage womöglich eskaliert. Ohne die Mauer wiederum wäre die DDR wohl kaum lebensfähig gewesen. Aus heutiger Sicht erscheint der Mauerbau daher als zynische Stabilisierung eines Regimes, das seine Bürger nur durch Gewalt halten konnte. Die Mauer sollte 28 Jahre lang stehen; mindestens 140 Menschen kamen an ihr ums Leben.\"",
         ],
         examples: [
@@ -2175,7 +2175,7 @@ export const DE_C2_U25: Lesson[] = [
         prompt: "Translate into German.",
         source: "There is some evidence that the decision was only made in the summer.",
         answer: "Es spricht einiges dafür, dass die Entscheidung erst im Sommer fiel.",
-        altAnswers: ["Einiges spricht dafür, dass die Entscheidung erst im Sommer fiel.", "Es spricht einiges dafür, dass die Entscheidung erst im Sommer getroffen wurde.", "Einiges spricht dafür, dass die Entscheidung erst im Sommer getroffen wurde.", "Es spricht vieles dafür, dass die Entscheidung erst im Sommer fiel."],
+        altAnswers: ["Einiges spricht dafür, dass die Entscheidung erst im Sommer fiel.", "Es spricht einiges dafür, dass die Entscheidung erst im Sommer getroffen wurde.", "Einiges spricht dafür, dass die Entscheidung erst im Sommer getroffen wurde."],
         explanation: "\"Es spricht einiges dafür\" hedges; \"eine Entscheidung fällt\" (a decision is made), \"erst\" for only (not before).",
       },
       {
@@ -2686,7 +2686,7 @@ export const DE_C2_U25: Lesson[] = [
         type: "speak",
         text: "Er hat das Verkehrsschild umgefahren.",
         prompt: "Say it in German: He knocked the road sign down.",
-        tip: "Stress the prefix: UM-ge-fah-ren. With the stress on fahr, without ge-, it would mean he drove around it.",
+        tip: "Stress the prefix of \"umgefahren\": UM-ge-fah-ren. With the stress on fahr, without ge- (\"umfahren\"), it would mean he drove around it.",
         explanation: "Separable \"umfahren\" (to knock down): the -ge- sits between prefix and stem.",
       },
     ],

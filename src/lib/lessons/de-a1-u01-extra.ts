@@ -9,7 +9,7 @@ export const DE_A1_U01_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Gender, Plurals & Pronouns, Part 1 of 3",
-    summary: "Sort fresh nouns into der, die and das using the ending clues, and use them with ein and eine.",
+    summary: "Sort fresh nouns into \"der\", \"die\" and \"das\" using the ending clues, and use them with \"ein\" and \"eine\".",
     duration: "10 min",
     sections: [
       {
@@ -174,7 +174,7 @@ export const DE_A1_U01_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Gender, Plurals & Pronouns, Part 2 of 3",
-    summary: "Drill the main plural patterns with die and umlauts on fresh nouns.",
+    summary: "Form the plurals of fresh nouns with the main patterns, umlauts and \"die\".",
     duration: "10 min",
     sections: [
       {
@@ -341,7 +341,7 @@ export const DE_A1_U01_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Gender, Plurals & Pronouns, Part 3 of 3",
-    summary: "Full sentences with sein, articles, er, sie and es and adjectives, written and dictated.",
+    summary: "Write and take down full sentences with \"sein\", articles, \"er\", \"sie\" and \"es\", and adjectives.",
     duration: "12 min",
     sections: [
       {
@@ -354,7 +354,7 @@ export const DE_A1_U01_EXTRA: Lesson[] = [
           { es: "Die Brille? Sie ist kaputt.", en: "The glasses? They're broken. (one thing in German)" },
           { es: "Das Fahrrad ist neu. Es ist schnell.", en: "The bike is new. It's fast." },
           { es: "Die Schuhe? Sie sind bequem.", en: "The shoes? They're comfortable." },
-          { es: "Frau Weber ist Ärztin. Sie ist sehr nett.", en: "Mrs Weber is a doctor. She's very nice." },
+          { es: "Frau Weber ist Ärztin. Sie ist sehr nett.", en: "Ms Weber is a doctor. She's very nice." },
         ],
         checkpoint: [
           {
@@ -515,7 +515,7 @@ export const DE_A1_U01_EXTRA: Lesson[] = [
     number: 4,
     optional: true,
     title: "Extra Practice: Contrast Clinic: Sie, Sie or Sie?",
-    summary: "Tell sie ist (she is), sie sind (they are) and Sie sind (you are, polite) apart by the verb, the capital and the context.",
+    summary: "Tell \"sie ist\" (she is), \"sie sind\" (they are) and \"Sie sind\" (you are, polite) apart by the verb, the capital and the context.",
     duration: "10 min",
     sections: [
       {
@@ -527,7 +527,7 @@ export const DE_A1_U01_EXTRA: Lesson[] = [
         examples: [
           { es: "Sie ist Ärztin.", en: "She's a doctor." },
           { es: "Sie sind Ärzte.", en: "They're doctors." },
-          { es: "Sind Sie Ärztin?", en: "Are you a doctor? (polite, to a woman)" },
+          { es: "Sind Sie Ärztin?", en: "Are you a doctor? (formal, to a woman)" },
           { es: "Lena und Jonas? Sie sind in Köln.", en: "Lena and Jonas? They're in Cologne." },
           { es: "Herr Becker, Sie sind sehr nett!", en: "Mr Becker, you're very kind!" },
         ],
@@ -536,7 +536,7 @@ export const DE_A1_U01_EXTRA: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "Mrs Weber, are you tired?",
+            source: "Ms Weber, are you tired?",
             answer: "Frau Weber, sind Sie müde?",
             explanation: "Polite you: \"Sie\" with \"sind\" and a capital S.",
           },
@@ -552,7 +552,7 @@ export const DE_A1_U01_EXTRA: Lesson[] = [
             type: "listen-choose",
             audio: "Sie ist sehr nett.",
             question: "What does it mean?",
-            options: ["She's very nice.", "They're very nice.", "You're very nice. (polite)", "We're very nice."],
+            options: ["She's very nice.", "They're very nice.", "You're very nice. (formal)", "We're very nice."],
             correctIndex: 0,
             explanation: "\"Ist\" can only go with she (or it), never with they or polite you.",
           },
@@ -597,7 +597,7 @@ export const DE_A1_U01_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Mrs Schneider, you're very kind.",
+        source: "Ms Schneider, you're very kind.",
         answer: "Frau Schneider, Sie sind sehr nett.",
         altAnswers: ["Frau Schneider, Sie sind sehr freundlich."],
         explanation: "Polite \"Sie\" with a capital S in the middle of the sentence.",
@@ -622,7 +622,7 @@ export const DE_A1_U01_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Excuse me, are you Mrs Krause?",
+        source: "Excuse me, are you Ms Krause?",
         answer: "Entschuldigung, sind Sie Frau Krause?",
         altAnswers: ["Entschuldigen Sie, sind Sie Frau Krause?"],
         explanation: "A stranger: polite \"Sind Sie...?\".",
@@ -630,7 +630,7 @@ export const DE_A1_U01_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Mr and Mrs Becker, [you are] very funny!",
+        en: "Mr and Ms Becker, [you are] very funny!",
         sentence: "Herr und Frau Becker, ___ sehr lustig!",
         answer: "Sie sind",
         explanation: "Polite Sie is the same for one or several people; capital S mid-sentence.",
@@ -646,7 +646,7 @@ export const DE_A1_U01_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "In the sentence \"Herr Becker, Sie sind sehr lustig.\", what does \"Sie sind\" mean?",
-        options: ["you are (polite)", "they are", "she is", "we are"],
+        options: ["you are (formal)", "they are", "she is", "we are"],
         correctIndex: 0,
         explanation: "You're speaking to Herr Becker, and the capital S mid-sentence marks polite you.",
       },
@@ -659,7 +659,7 @@ export const DE_A1_U01_EXTRA: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Are you a doctor? (polite)",
+        prompt: "Put the words in order to say: Are you a doctor? (formal)",
         words: ["Sind", "Sie", "Arzt?"],
         translation: "Are you a doctor?",
         explanation: "Verb first, then polite \"Sie\", then the job without an article.",
@@ -672,7 +672,7 @@ export const DE_A1_U01_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "Frau Schneider, Sie sind sehr nett.",
-        prompt: "Say it in German: Mrs Schneider, you're very kind.",
+        prompt: "Say it in German: Ms Schneider, you're very kind.",
         explanation: "Polite \"Sie sind\".",
       },
     ],

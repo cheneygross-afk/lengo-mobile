@@ -8,11 +8,11 @@ export const DE_B1_U08: Lesson[] = [
     level: "DE-B1",
     number: 1,
     title: "Conditional Sentences, Part 1 of 2: Real Conditions",
-    summary: "Talk about real possibilities with wenn and falls + indicative, with the verb at the end of the condition and first in the main clause after it.",
+    summary: "Talk about real possibilities with \"wenn\" and \"falls\" + indicative, with the verb at the end of the condition and first in the main clause after it.",
     duration: "15 min",
     sections: [
       {
-        heading: "Wenn + indicative: real possibilities",
+        heading: "\"Wenn\" + indicative: real possibilities",
         body: [
           "A real condition describes something that may well happen: if it rains tomorrow, we'll stay at home. German uses \"wenn\" + the indicative: \"Wenn es morgen regnet, bleiben wir zu Hause\". Both clauses are usually in the present, even when English uses will for the future.",
           "\"Wenn\" is a subordinating conjunction, so its verb goes to the end: \"wenn es morgen regnet\". When the \"wenn\" clause comes first, it fills position 1 of the whole sentence, so the main verb comes straight after the comma: \"Wenn du Zeit hast, komm vorbei!\", \"Wenn ich fertig bin, rufe ich dich an\".",
@@ -41,12 +41,13 @@ export const DE_B1_U08: Lesson[] = [
             prompt: "Put the words in order to say: If the train is late, we'll take a taxi.",
             words: ["Wenn", "der", "Zug", "Verspätung", "hat,", "nehmen", "wir", "ein", "Taxi."],
             translation: "If the train is late, we'll take a taxi.",
+            altOrders: [["Wir", "nehmen", "ein", "Taxi,", "wenn", "der", "Zug", "Verspätung", "hat."]],
             explanation: "Verb, comma, verb: \"hat\" closes the \"wenn\" clause, \"nehmen\" opens the main clause.",
           },
         ],
       },
       {
-        heading: "Falls: in case",
+        heading: "\"Falls\": in case",
         body: [
           "\"Falls\" works like \"wenn\" (verb at the end) but stresses that something may or may not happen: in case, should it happen that. \"Falls du Hilfe brauchst, ruf mich an\" (In case you need help, call me).",
           "\"Falls\" is never used for when, so it removes any doubt: \"Wenn du ankommst, ...\" can mean when you arrive; \"Falls du ankommst, ...\" can only mean if (it's uncertain).",
@@ -66,7 +67,7 @@ export const DE_B1_U08: Lesson[] = [
             prompt: "Translate into German.",
             source: "Take an umbrella in case it rains. (to a friend)",
             answer: "Nimm einen Schirm mit, falls es regnet.",
-            altAnswers: ["Nimm einen Regenschirm mit, falls es regnet.", "Falls es regnet, nimm einen Schirm mit.", "Nehmt einen Schirm mit, falls es regnet.", "Nehmen Sie einen Schirm mit, falls es regnet."],
+            altAnswers: ["Nimm einen Regenschirm mit, falls es regnet.", "Falls es regnet, nimm einen Schirm mit."],
             explanation: "\"Falls\" for in case; the verb \"regnet\" at the end.",
           },
           {
@@ -81,10 +82,10 @@ export const DE_B1_U08: Lesson[] = [
         ],
       },
       {
-        heading: "If is never ob in a condition",
+        heading: "If is never \"ob\" in a condition",
         body: [
           "English if has two jobs. In a condition (if it rains, ...) German uses \"wenn\" or \"falls\". In an indirect yes/no question (I don't know if it's raining) German uses \"ob\". Test: can you replace if with whether? Then it's \"ob\".",
-          "So: \"Ich weiß nicht, ob es regnet\" (whether) but \"Wenn es regnet, bleiben wir zu Hause\" (condition). \"*Ob es regnet, bleiben wir zu Hause\" is a typical English-speaker error.",
+          "So: \"Ich weiß nicht, ob es regnet\" (whether) but \"Wenn es regnet, bleiben wir zu Hause\" (condition). \"*Ob es regnet, bleiben wir zu Hause*\" is a typical English-speaker error.",
           "A third if, even if, is \"auch wenn\" or \"selbst wenn\": \"Ich gehe joggen, auch wenn es regnet\".",
         ],
         examples: [
@@ -209,14 +210,14 @@ export const DE_B1_U08: Lesson[] = [
     level: "DE-B1",
     number: 2,
     title: "Pattern Practice: Wenn ich Zeit hätte, würde ich...",
-    summary: "Build unreal present conditions: Wenn ich Zeit hätte, würde ich mehr lesen, with wäre, hätte and modals preferred over würde + sein/haben.",
+    summary: "Build unreal present conditions such as \"Wenn ich Zeit hätte, würde ich mehr lesen\", preferring \"wäre\", \"hätte\" and the modals to \"würde\" + \"sein\"/\"haben\".",
     duration: "15 min",
     sections: [
       {
         heading: "Unreal conditions: both halves in the Konjunktiv",
         body: [
           "An unreal condition imagines something that isn't true now: if I had time (but I don't), I would read more. German puts both halves in the Konjunktiv II: \"Wenn ich Zeit hätte, würde ich mehr lesen\".",
-          "English uses a past form after if (if I had, if I were) and would in the result. German has no such split: Konjunktiv in the \"wenn\" clause, Konjunktiv in the main clause. Never \"*Wenn ich Zeit hatte, ...\" for a present dream: that would mean whenever I had time (in the past).",
+          "English uses a past form after if (if I had, if I were) and would in the result. German has no such split: Konjunktiv in the \"wenn\" clause, Konjunktiv in the main clause. Never \"*Wenn ich Zeit hatte, ...*\" for a present dream: that would mean whenever I had time (in the past).",
           "Word order is the same as for real conditions: verb last in the \"wenn\" clause, then the main verb straight after the comma: \"Wenn ich reich wäre, würde ich reisen\".",
         ],
         examples: [
@@ -247,9 +248,9 @@ export const DE_B1_U08: Lesson[] = [
         ],
       },
       {
-        heading: "Prefer wäre, hätte and modals",
+        heading: "Prefer \"wäre\", \"hätte\" and modals",
         body: [
-          "In both halves, use the one-word forms for sein, haben and the modals: \"wäre\", \"hätte\", \"könnte\", \"müsste\", \"dürfte\". \"Wenn ich reich sein würde\" is grammatical but sounds clumsy; \"Wenn ich reich wäre\" is what people say.",
+          "In both halves, use the one-word forms for \"sein\", \"haben\" and the modals: \"wäre\", \"hätte\", \"könnte\", \"müsste\", \"dürfte\". \"Wenn ich reich sein würde\" is grammatical but sounds clumsy; \"Wenn ich reich wäre\" is what people say.",
           "With modals the pattern is especially neat: \"Wenn ich besser Deutsch könnte, könnte ich hier arbeiten\" (If I spoke German better, I could work here). \"Deutsch können\" means to know German.",
           "For all other verbs, \"würde\" + infinitive is normal in the main clause and common in the \"wenn\" clause too: \"Wenn du mir helfen würdest, wäre ich schneller fertig\".",
         ],
@@ -281,7 +282,7 @@ export const DE_B1_U08: Lesson[] = [
         ],
       },
       {
-        heading: "Was würdest du machen, wenn...?",
+        heading: "\"Was würdest du machen, wenn...?\"",
         body: [
           "The classic question: \"Was würdest du machen, wenn du im Lotto gewinnen würdest?\" (What would you do if you won the lottery?). Here the main clause comes first, so normal question order, then the \"wenn\" clause.",
           "Answer in the same pattern: \"Wenn ich im Lotto gewinnen würde, würde ich ein Haus kaufen\". Two \"würde\" in one sentence is fine in speech; in writing you can vary with \"gewänne\" (rare) or rephrase: \"Mit dem Gewinn würde ich...\"",
@@ -309,6 +310,7 @@ export const DE_B1_U08: Lesson[] = [
             prompt: "Put the words in order to say: Where would you go if you had time off? (to friends)",
             words: ["Wohin", "würdet", "ihr", "fahren,", "wenn", "ihr", "frei", "hättet?"],
             translation: "Where would you go if you had time off?",
+            altOrders: [["Wenn", "ihr", "frei", "hättet,", "wohin", "würdet", "ihr", "fahren?"]],
             explanation: "Question first, then the \"wenn\" clause with \"hättet\" at the end.",
           },
         ],
@@ -357,8 +359,8 @@ export const DE_B1_U08: Lesson[] = [
         prompt: "Translate into German.",
         source: "What would you do if you won the lottery? (to a friend)",
         answer: "Was würdest du machen, wenn du im Lotto gewinnen würdest?",
-        altAnswers: ["Was würdest du tun, wenn du im Lotto gewinnen würdest?", "Was würdest du machen, wenn du im Lotto gewinnst?"],
-        explanation: "Main question first; the \"wenn\" clause ends with \"gewinnen würdest\".",
+        altAnswers: ["Was würdest du tun, wenn du im Lotto gewinnen würdest?", "Was würdest du machen, wenn du beim Lotto gewinnen würdest?"],
+        explanation: "Main question first; the \"wenn\" clause ends with \"gewinnen würdest\". Keep both halves in the Konjunktiv: \"wenn du gewinnst\" would turn it into a real possibility.",
       },
       {
         type: "translate",
@@ -415,7 +417,7 @@ export const DE_B1_U08: Lesson[] = [
     level: "DE-B1",
     number: 3,
     title: "Dictation: Dreams and Wishes",
-    summary: "Dictated unreal conditions where the umlaut and the comma carry the meaning: hätte / hatte, wäre / war.",
+    summary: "Write down dictated unreal conditions where the umlaut and the comma carry the meaning: \"hätte\" / \"hatte\", \"wäre\" / \"war\".",
     duration: "12 min",
     sections: [
       {
@@ -485,7 +487,7 @@ export const DE_B1_U08: Lesson[] = [
         body: [
           "Longer dictations combine several Konjunktiv forms. Write the clause boundaries first in your head: \"Wenn ... [verb], [verb] ... \".",
           "Typical pairs to listen for: \"hätte / würde\", \"wäre / könnte\", \"müsste / hätte\", \"gäbe / wäre\".",
-          "Check your spelling against the rules: nouns capitalised, umlauts in every Konjunktiv form of sein, haben, werden and the modals (except \"sollte\" and \"wollte\").",
+          "Check your spelling against the rules: nouns capitalised, umlauts in every Konjunktiv form of \"sein\", \"haben\", \"werden\" and the modals (except \"sollte\" and \"wollte\").",
         ],
         examples: [
           { es: "Wenn ich nicht so müde wäre, würde ich noch ausgehen.", en: "If I weren't so tired, I'd still go out." },
@@ -550,7 +552,6 @@ export const DE_B1_U08: Lesson[] = [
         prompt: "Translate into German.",
         source: "She'd be pleased if you wrote to her. (to a friend)",
         answer: "Sie würde sich freuen, wenn du ihr schreiben würdest.",
-        altAnswers: ["Sie würde sich freuen, wenn du ihr schreibst.", "Sie würde sich freuen, wenn ihr ihr schreiben würdet.", "Sie würde sich freuen, wenn Sie ihr schreiben würden."],
         explanation: "\"Sich freuen\" with \"würde\"; \"schreiben\" + dative \"ihr\".",
       },
       {
@@ -592,6 +593,7 @@ export const DE_B1_U08: Lesson[] = [
         prompt: "Put the words in order to say: It would be nice if you called. (to a friend)",
         words: ["Es", "wäre", "schön,", "wenn", "du", "anrufen", "würdest."],
         translation: "It would be nice if you called.",
+        altOrders: [["Wenn", "du", "anrufen", "würdest,", "wäre", "es", "schön."]],
         explanation: "\"Anrufen würdest\" at the very end.",
       },
       {
@@ -607,7 +609,7 @@ export const DE_B1_U08: Lesson[] = [
     level: "DE-B1",
     number: 4,
     title: "Minimal Pairs: Wenn ich Zeit habe / Wenn ich Zeit hätte",
-    summary: "Real or unreal: Wenn ich Zeit habe, komme ich (likely) vs Wenn ich Zeit hätte, käme ich (but I don't).",
+    summary: "Tell real from unreal: \"Wenn ich Zeit habe, komme ich\" (likely) vs \"Wenn ich Zeit hätte, käme ich\" (but I don't).",
     duration: "12 min",
     sections: [
       {
@@ -648,7 +650,7 @@ export const DE_B1_U08: Lesson[] = [
         heading: "Same verb, two moods",
         body: [
           "Practise the pairs: \"habe / hätte\", \"bin / wäre\", \"kann / könnte\", \"muss / müsste\", \"gibt / gäbe\", \"kommt / würde kommen\".",
-          "The main clause follows the condition: indicative with indicative (\"Wenn es Kuchen gibt, bleibe ich\"), Konjunktiv with Konjunktiv (\"Wenn es Kuchen gäbe, würde ich bleiben\"). Don't mix them: \"*Wenn ich Zeit hätte, komme ich\" sounds broken.",
+          "The main clause follows the condition: indicative with indicative (\"Wenn es Kuchen gibt, bleibe ich\"), Konjunktiv with Konjunktiv (\"Wenn es Kuchen gäbe, würde ich bleiben\"). Don't mix them: \"*Wenn ich Zeit hätte, komme ich*\" sounds broken.",
           "Watch especially for \"wenn es nicht regnen würde\" (it's raining) vs \"wenn es nicht regnet\" (it may stay dry).",
         ],
         examples: [
@@ -788,6 +790,7 @@ export const DE_B1_U08: Lesson[] = [
         prompt: "Put the words in order to say: If you're right, I'll apologise.",
         words: ["Wenn", "du", "recht", "hast,", "entschuldige", "ich", "mich."],
         translation: "If you're right, I'll apologise.",
+        altOrders: [["Ich", "entschuldige", "mich,", "wenn", "du", "recht", "hast."]],
         explanation: "Real: indicative; \"entschuldige\" right after the comma.",
       },
       {
@@ -808,14 +811,14 @@ export const DE_B1_U08: Lesson[] = [
     level: "DE-B1",
     number: 5,
     title: "Quick Round: Unreal Conditions",
-    summary: "Rapid completions of Wenn ich..., würde ich... and Was würdest du machen, wenn...? with everyday prompts.",
+    summary: "Build unreal conditions at speed: \"Wenn ich..., würde ich...\" and \"Was würdest du machen, wenn...?\" with everyday prompts.",
     duration: "10 min",
     sections: [
       {
-        heading: "Wenn ich..., würde ich...",
+        heading: "\"Wenn ich..., würde ich...\"",
         body: [
           "The quick-fire pattern: \"Wenn ich [Konjunktiv at the end], [Konjunktiv verb] ich...\". Keep it moving: \"Wenn ich Hunger hätte, würde ich essen\", \"Wenn ich müde wäre, würde ich schlafen\".",
-          "Remember the shortcuts: \"hätte\", \"wäre\", \"könnte\", \"müsste\", \"gäbe\" instead of \"würde\" + haben/sein/können/müssen/geben.",
+          "Remember the shortcuts: \"hätte\", \"wäre\", \"könnte\", \"müsste\", \"gäbe\" instead of \"würde\" + \"haben\"/\"sein\"/\"können\"/\"müssen\"/\"geben\".",
           "Speed comes from automatic word order: verb last, comma, verb first.",
         ],
         examples: [
@@ -846,7 +849,7 @@ export const DE_B1_U08: Lesson[] = [
         ],
       },
       {
-        heading: "Was würdest du machen, wenn...?",
+        heading: "\"Was würdest du machen, wenn...?\"",
         body: [
           "The question form puts the main clause first: \"Was würdest du machen, wenn du deinen Schlüssel verlieren würdest?\" Answers can drop the \"wenn\" clause: \"Ich würde meine Nachbarin anrufen\".",
           "Vary the question words: \"Wohin würdest du...?\", \"Wen würdest du...?\", \"Was wäre, wenn...?\"",
@@ -912,7 +915,7 @@ export const DE_B1_U08: Lesson[] = [
         prompt: "Translate into German.",
         source: "What would you do if you lost your key? (to a friend)",
         answer: "Was würdest du machen, wenn du deinen Schlüssel verlieren würdest?",
-        altAnswers: ["Was würdest du tun, wenn du deinen Schlüssel verlieren würdest?", "Was würdest du machen, wenn du deinen Schlüssel verlierst?"],
+        altAnswers: ["Was würdest du tun, wenn du deinen Schlüssel verlieren würdest?"],
         explanation: "Main question first, then the \"wenn\" clause ending in \"verlieren würdest\".",
       },
       {
@@ -962,6 +965,7 @@ export const DE_B1_U08: Lesson[] = [
         prompt: "Put the words in order to say: If I could do magic, I'd fly.",
         words: ["Wenn", "ich", "zaubern", "könnte,", "würde", "ich", "fliegen."],
         translation: "If I could do magic, I'd fly.",
+        altOrders: [["Ich", "würde", "fliegen,", "wenn", "ich", "zaubern", "könnte."]],
         explanation: "Verb, comma, verb.",
       },
       {
@@ -985,7 +989,7 @@ export const DE_B1_U08: Lesson[] = [
     level: "DE-B1",
     number: 6,
     title: "Conditional Sentences, Part 2 of 2: Word Order and Wenn-Less Conditions",
-    summary: "Either clause order, dann and so to resume, and the written verb-first condition without wenn: Hätte ich mehr Geld, würde ich...",
+    summary: "Put the condition first or second, resume with \"dann\" or \"so\", and use the written verb-first condition without \"wenn\": \"Hätte ich mehr Geld, würde ich...\"",
     duration: "15 min",
     sections: [
       {
@@ -993,7 +997,7 @@ export const DE_B1_U08: Lesson[] = [
         body: [
           "The \"wenn\" clause can come first or second. First: \"Wenn ich Zeit hätte, würde ich kommen\" (main verb right after the comma). Second: \"Ich würde kommen, wenn ich Zeit hätte\" (normal order in the main clause).",
           "Choose by what you want to stress. Starting with the condition sets the scene; starting with the result puts it in focus and adds the condition as an afterthought.",
-          "The trap stays the same: after a fronted \"wenn\" clause the verb comes immediately. \"*Wenn ich Zeit hätte, ich würde kommen\" is English order.",
+          "The trap stays the same: after a fronted \"wenn\" clause the verb comes immediately. \"*Wenn ich Zeit hätte, ich würde kommen*\" is English order.",
         ],
         examples: [
           { es: "Wenn ich Zeit hätte, würde ich kommen.", en: "If I had time, I'd come." },
@@ -1023,7 +1027,7 @@ export const DE_B1_U08: Lesson[] = [
         ],
       },
       {
-        heading: "Dann and so",
+        heading: "\"Dann\" and \"so\"",
         body: [
           "After a fronted \"wenn\" clause you can pick up the thread with \"dann\" (then) or, more formally, \"so\": \"Wenn du Fragen hast, dann ruf mich an\", \"Wenn ich Zeit hätte, dann würde ich kommen\".",
           "\"Dann\" takes position 1 of the main clause, so the verb follows it: \"..., dann würde ich kommen\". It doesn't change the meaning; it just makes the logic explicit, as English then does.",
@@ -1057,7 +1061,7 @@ export const DE_B1_U08: Lesson[] = [
         ],
       },
       {
-        heading: "Conditions without wenn: verb first",
+        heading: "Conditions without \"wenn\": verb first",
         body: [
           "In writing (and in slightly formal speech) you can leave out \"wenn\" and put the verb first instead: \"Hätte ich mehr Geld, würde ich ein Haus kaufen\" = \"Wenn ich mehr Geld hätte, ...\". English does the same in had I known... or should you need help....",
           "It works for real conditions too: \"Regnet es, bleiben wir zu Hause\" (If it rains, we stay at home), \"Haben Sie Fragen, rufen Sie uns an\" (Should you have any questions, call us). The main clause often adds \"dann\" or \"so\".",
@@ -1074,10 +1078,10 @@ export const DE_B1_U08: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, without wenn.",
+            prompt: "Translate into German, without \"wenn\".",
             source: "If the weather were better, we could eat outside.",
             answer: "Wäre das Wetter besser, könnten wir draußen essen.",
-            altAnswers: ["Wäre das Wetter besser, dann könnten wir draußen essen.", "Wäre das Wetter besser, würden wir draußen essen."],
+            altAnswers: ["Wäre das Wetter besser, dann könnten wir draußen essen.", "Wäre das Wetter besser, so könnten wir draußen essen."],
             explanation: "Verb first replaces \"wenn\": \"Wäre das Wetter besser, ...\".",
           },
           {
@@ -1103,7 +1107,7 @@ export const DE_B1_U08: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, without wenn.",
+        prompt: "Translate into German, without \"wenn\".",
         source: "If I had more money, I'd buy a house.",
         answer: "Hätte ich mehr Geld, würde ich ein Haus kaufen.",
         altAnswers: ["Hätte ich mehr Geld, dann würde ich ein Haus kaufen."],
@@ -1148,7 +1152,7 @@ export const DE_B1_U08: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "[If you need] help, let me know. (to a friend, without wenn)",
+        en: "[If you need] help, let me know. (to a friend, without \"wenn\")",
         sentence: "___ Hilfe, dann sag Bescheid.",
         answer: "Brauchst du",
         explanation: "Verb first: \"Brauchst du Hilfe\" = \"Wenn du Hilfe brauchst\".",
@@ -1186,7 +1190,7 @@ export const DE_B1_U08: Lesson[] = [
     level: "DE-B1",
     number: 7,
     title: "Dialogue Lab: Im Reisebüro",
-    summary: "Plan a trip with a travel agent: falls and wenn for options, polite Konjunktiv requests, comparing offers and deciding.",
+    summary: "Plan a trip with a travel agent: \"falls\" and \"wenn\" for options, polite Konjunktiv requests, comparing offers and deciding.",
     duration: "15 min",
     sections: [
       {
@@ -1225,9 +1229,9 @@ export const DE_B1_U08: Lesson[] = [
         ],
       },
       {
-        heading: "Part 2: Options with falls and wenn",
+        heading: "Part 2: Options with \"falls\" and \"wenn\"",
         body: [
-          "Agent: \"Ich hätte hier ein Hotel in der Altstadt, 89 Euro pro Nacht. Falls Ihnen das zu teuer ist, gäbe es auch eine Pension für 60 Euro.\" Lena: \"Und wenn wir nach Lagos weiterfahren würden, wie kämen wir dahin?\" Agent: \"Mit dem Zug, das dauert etwa vier Stunden. Falls der Flug ausgebucht ist, könnten Sie auch über Porto fliegen.\"",
+          "Agent: \"Ich hätte hier ein Hotel in der Altstadt, 89 Euro pro Nacht. Falls Ihnen das zu teuer ist, gäbe es auch eine Pension für 60 Euro.\" Lena: \"Und wenn wir nach Lagos weiterfahren würden, wie kämen wir dahin?\" Agent: \"Mit dem Zug, das dauert etwa vier Stunden. Und falls der Direktflug nach Lissabon ausgebucht ist, könnten Sie auch über Porto fliegen.\"",
           "Notice the agent's polite Konjunktiv (\"Ich hätte hier...\", \"gäbe es\", \"könnten Sie\") and \"falls\" for options that may or may not apply.",
           "\"Ausgebucht\" (fully booked), \"die Pension\" (guesthouse), \"die Altstadt\" (old town), \"weiterfahren\" (travel on).",
         ],
@@ -1385,11 +1389,11 @@ export const DE_B1_U08: Lesson[] = [
     level: "DE-B1",
     number: 8,
     title: "Themed Review: Life Without Technology",
-    summary: "A text and tasks about a week without a smartphone, recycling wenn + Konjunktiv II, wishes and advice.",
+    summary: "Understand a text about a week without a smartphone and talk about it with \"wenn\" + Konjunktiv II, wishes and advice.",
     duration: "15 min",
     sections: [
       {
-        heading: "The text: Eine Woche ohne Handy",
+        heading: "The text: \"Eine Woche ohne Handy\"",
         body: [
           "Read Mia's blog post: \"Letzte Woche habe ich ein Experiment gemacht: sieben Tage ohne Smartphone. Am ersten Tag war ich total nervös. Ich wusste nicht, wie spät es war, und ich konnte den Bus nicht checken. Am dritten Tag habe ich gemerkt, dass ich viel mehr gelesen habe. Abends habe ich mit Freunden telefoniert – mit dem Festnetz!\"",
           "\"Was würde ich anders machen, wenn ich das Experiment wiederholen würde? Ich würde mir eine Armbanduhr kaufen und einen Stadtplan aus Papier mitnehmen. Und ich würde meinen Freunden vorher Bescheid sagen.\"",
@@ -1473,7 +1477,7 @@ export const DE_B1_U08: Lesson[] = [
         source: "I didn't know what time it was.",
         answer: "Ich wusste nicht, wie spät es war.",
         altAnswers: ["Ich wusste nicht, wie viel Uhr es war."],
-        explanation: "\"Wusste\" (Präteritum of wissen) is normal in speech; indirect question with \"war\" at the end.",
+        explanation: "\"Wusste\" (Präteritum of \"wissen\") is normal in speech; indirect question with \"war\" at the end.",
       },
       {
         type: "translate",
@@ -1752,7 +1756,7 @@ export const DE_B1_U08: Lesson[] = [
     level: "DE-B1",
     number: 10,
     title: "Sentence by Sentence: Wenn ich ... wäre",
-    summary: "Translate a short text about imagining being someone else (Wenn ich Bundeskanzlerin wäre...) one sentence at a time.",
+    summary: "Translate a short text about imagining being someone else (\"Wenn ich Bundeskanzlerin wäre...\") one sentence at a time.",
     duration: "15 min",
     sections: [
       {
@@ -1907,6 +1911,7 @@ export const DE_B1_U08: Lesson[] = [
         prompt: "Put the words in order to say: There'd be more meeting places for young people.",
         words: ["Für", "Jugendliche", "gäbe", "es", "mehr", "Treffpunkte."],
         translation: "There'd be more meeting places for young people.",
+        altOrders: [["Es", "gäbe", "für", "Jugendliche", "mehr", "Treffpunkte."], ["Es", "gäbe", "mehr", "Treffpunkte", "für", "Jugendliche."]],
         explanation: "\"Für Jugendliche\" first, then \"gäbe es\".",
       },
       {
@@ -1922,15 +1927,15 @@ export const DE_B1_U08: Lesson[] = [
     level: "DE-B1",
     number: 11,
     title: "Error Hunt: Conditionals",
-    summary: "Fix the typical slips: Wenn ich hätte Zeit; Wenn ich Zeit hätte, ich würde kommen; Ob es regnet; Wenn ich würde reich sein; mixed moods.",
+    summary: "Fix the typical slips: \"*Wenn ich hätte Zeit*\", \"*Wenn ich Zeit hätte, ich würde kommen*\", \"*Ob es regnet*\", \"*Wenn ich würde reich sein*\" and mixed moods.",
     duration: "12 min",
     sections: [
       {
         heading: "Word-order slips",
         body: [
-          "\"*Wenn ich hätte Zeit, ...\" → the verb goes to the end of the \"wenn\" clause: \"Wenn ich Zeit hätte, ...\".",
-          "\"*Wenn ich Zeit hätte, ich würde kommen\" → after a fronted \"wenn\" clause the main verb comes first: \"..., würde ich kommen\".",
-          "\"*Wenn ich würde reich sein, ...\" → \"würde\" goes to the end too, and for \"sein\" use \"wäre\" anyway: \"Wenn ich reich wäre, ...\".",
+          "\"*Wenn ich hätte Zeit, ...*\" → the verb goes to the end of the \"wenn\" clause: \"Wenn ich Zeit hätte, ...\".",
+          "\"*Wenn ich Zeit hätte, ich würde kommen*\" → after a fronted \"wenn\" clause the main verb comes first: \"..., würde ich kommen\".",
+          "\"*Wenn ich würde reich sein, ...*\" → \"würde\" goes to the end too, and for \"sein\" use \"wäre\" anyway: \"Wenn ich reich wäre, ...\".",
         ],
         examples: [
           { es: "Wenn ich Zeit hätte, würde ich kommen.", en: "If I had time, I'd come." },
@@ -1942,7 +1947,7 @@ export const DE_B1_U08: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"*Wenn ich hätte Zeit, ich würde kommen.\" Write it correctly: If I had time, I'd come.",
+            prompt: "A learner wrote \"*Wenn ich hätte Zeit, ich würde kommen.*\" Write it correctly: If I had time, I'd come.",
             source: "If I had time, I'd come.",
             answer: "Wenn ich Zeit hätte, würde ich kommen.",
             altAnswers: ["Ich würde kommen, wenn ich Zeit hätte.", "Wenn ich Zeit hätte, käme ich."],
@@ -1951,7 +1956,7 @@ export const DE_B1_U08: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "If I [were] rich, I'd buy a boat. (a learner wrote \"*Wenn ich würde reich sein\")",
+            en: "If I [were] rich, I'd buy a boat. (a learner wrote \"*Wenn ich würde reich sein*\")",
             sentence: "Wenn ich reich ___, würde ich ein Boot kaufen.",
             answer: "wäre",
             explanation: "\"Sein\" → \"wäre\", at the end of the clause.",
@@ -1961,9 +1966,9 @@ export const DE_B1_U08: Lesson[] = [
       {
         heading: "Wrong conjunction, wrong mood",
         body: [
-          "\"*Ob es regnet, bleiben wir zu Hause\" → a condition needs \"wenn\" or \"falls\": \"Wenn es regnet, ...\". \"Ob\" only means whether.",
-          "\"*Falls ich gewinnen würde, ich kaufe ein Haus\" → two problems: word order after the comma, and mixed moods. Real: \"Falls ich gewinne, kaufe ich ein Haus\". Unreal: \"Wenn ich gewinnen würde, würde ich ein Haus kaufen\". (\"Falls\" is rarely used with the Konjunktiv.)",
-          "\"*Wenn ich Zeit hatte, würde ich kommen\" → for a present dream use \"hätte\", not the past \"hatte\".",
+          "\"*Ob es regnet, bleiben wir zu Hause*\" → a condition needs \"wenn\" or \"falls\": \"Wenn es regnet, ...\". \"Ob\" only means whether.",
+          "\"*Falls ich gewinnen würde, ich kaufe ein Haus*\" → two problems: word order after the comma, and mixed moods. Real: \"Falls ich gewinne, kaufe ich ein Haus\". Unreal: \"Wenn ich gewinnen würde, würde ich ein Haus kaufen\". (\"Falls\" is rarely used with the Konjunktiv.)",
+          "\"*Wenn ich Zeit hatte, würde ich kommen*\" → for a present dream use \"hätte\", not the past \"hatte\".",
         ],
         examples: [
           { es: "Wenn es regnet, bleiben wir zu Hause.", en: "If it rains, we'll stay at home." },
@@ -1976,7 +1981,7 @@ export const DE_B1_U08: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"*Ob es regnet, bleiben wir zu Hause.\" Write it correctly: If it rains, we'll stay at home.",
+            prompt: "A learner wrote \"*Ob es regnet, bleiben wir zu Hause.*\" Write it correctly: If it rains, we'll stay at home.",
             source: "If it rains, we'll stay at home.",
             answer: "Wenn es regnet, bleiben wir zu Hause.",
             altAnswers: ["Falls es regnet, bleiben wir zu Hause.", "Wir bleiben zu Hause, wenn es regnet.", "Wir bleiben zu Hause, falls es regnet.", "Wenn es regnet, bleiben wir zuhause."],
@@ -1996,7 +2001,7 @@ export const DE_B1_U08: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*Wenn ich würde reich sein, ich würde reisen.\" Translate: If I were rich, I'd travel.",
+        prompt: "Fix \"*Wenn ich würde reich sein, ich würde reisen.*\" Translate: If I were rich, I'd travel.",
         source: "If I were rich, I'd travel.",
         answer: "Wenn ich reich wäre, würde ich reisen.",
         altAnswers: ["Ich würde reisen, wenn ich reich wäre."],
@@ -2005,7 +2010,7 @@ export const DE_B1_U08: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*Wenn ich Zeit hatte, würde ich mehr lesen.\" Translate: If I had time, I'd read more.",
+        prompt: "Fix \"*Wenn ich Zeit hatte, würde ich mehr lesen.*\" Translate: If I had time, I'd read more.",
         source: "If I had time, I'd read more.",
         answer: "Wenn ich Zeit hätte, würde ich mehr lesen.",
         altAnswers: ["Ich würde mehr lesen, wenn ich Zeit hätte."],
@@ -2014,7 +2019,7 @@ export const DE_B1_U08: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*Falls ich gewinnen würde, ich kaufe ein Haus.\" Translate: If I win, I'll buy a house.",
+        prompt: "Fix \"*Falls ich gewinnen würde, ich kaufe ein Haus.*\" Translate: If I win, I'll buy a house.",
         source: "If I win, I'll buy a house.",
         answer: "Falls ich gewinne, kaufe ich ein Haus.",
         altAnswers: ["Wenn ich gewinne, kaufe ich ein Haus.", "Ich kaufe ein Haus, wenn ich gewinne.", "Ich kaufe ein Haus, falls ich gewinne."],
@@ -2023,7 +2028,7 @@ export const DE_B1_U08: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*Wenn du kommst mit, es wäre lustiger.\" Translate: If you came along, it would be more fun.",
+        prompt: "Fix \"*Wenn du kommst mit, es wäre lustiger.*\" Translate: If you came along, it would be more fun.",
         source: "If you came along, it would be more fun.",
         answer: "Wenn du mitkommen würdest, wäre es lustiger.",
         altAnswers: ["Wenn du mitkämst, wäre es lustiger.", "Es wäre lustiger, wenn du mitkommen würdest.", "Wenn ihr mitkommen würdet, wäre es lustiger.", "Wenn Sie mitkommen würden, wäre es lustiger."],
@@ -2032,15 +2037,15 @@ export const DE_B1_U08: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*Ich frage, wenn er kommt.\" Translate: I'm asking whether he's coming.",
+        prompt: "Fix \"*Ich frage, wenn er kommt.*\" Translate: I'm asking whether he's coming.",
         source: "I'm asking whether he's coming.",
         answer: "Ich frage, ob er kommt.",
-        explanation: "Whether = \"ob\".",
+        explanation: "Whether = \"ob\". \"Ich frage, wenn er kommt\" is grammatical but means I'll ask when he comes.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*Wenn wir haben mehr Geld, wir würden umziehen.\" Translate: If we had more money, we'd move.",
+        prompt: "Fix \"*Wenn wir haben mehr Geld, wir würden umziehen.*\" Translate: If we had more money, we'd move.",
         source: "If we had more money, we'd move.",
         answer: "Wenn wir mehr Geld hätten, würden wir umziehen.",
         altAnswers: ["Wir würden umziehen, wenn wir mehr Geld hätten.", "Hätten wir mehr Geld, würden wir umziehen."],
@@ -2049,7 +2054,7 @@ export const DE_B1_U08: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*Wenn es morgen regnen würde, bleiben wir zu Hause.\" Translate: If it rains tomorrow, we'll stay at home.",
+        prompt: "Fix \"*Wenn es morgen regnen würde, bleiben wir zu Hause.*\" Translate: If it rains tomorrow, we'll stay at home.",
         source: "If it rains tomorrow, we'll stay at home.",
         answer: "Wenn es morgen regnet, bleiben wir zu Hause.",
         altAnswers: ["Falls es morgen regnet, bleiben wir zu Hause.", "Wir bleiben zu Hause, wenn es morgen regnet.", "Wenn es morgen regnet, bleiben wir zuhause."],
@@ -2058,7 +2063,7 @@ export const DE_B1_U08: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "If I could, [I would] help you. (a learner wrote \"*ich würde\" after the comma)",
+        en: "If I could, [I would] help you. (a learner wrote \"*ich würde*\" after the comma)",
         sentence: "Wenn ich könnte, ___ dir helfen.",
         answer: "würde ich",
         explanation: "Verb before subject after a fronted clause.",
@@ -2075,6 +2080,7 @@ export const DE_B1_U08: Lesson[] = [
         prompt: "Put the words in order to say: If you need help, call me. (to a friend)",
         words: ["Wenn", "du", "Hilfe", "brauchst,", "ruf", "mich", "an."],
         translation: "If you need help, call me.",
+        altOrders: [["Ruf", "mich", "an,", "wenn", "du", "Hilfe", "brauchst."]],
         explanation: "\"Brauchst\" last in the condition; the imperative after the comma.",
       },
       {
@@ -2107,5 +2113,5 @@ export const DE_B1_U08_WRITING: WriteExercise = {
     "Includes one real condition with \"wenn\" or \"falls\" + indicative",
   ],
   modelAnswer: "Wenn ich in Norwegen leben würde, wäre mein Alltag ganz anders. Ich würde in einem kleinen Holzhaus an einem Fjord wohnen, und morgens könnte ich vom Fenster aus die Berge sehen. Im Winter wäre es sehr dunkel, deshalb müsste ich viel Vitamin D nehmen. Wenn ich frei hätte, würde ich wandern oder Ski fahren. Es gäbe weniger Stress, aber alles wäre auch viel teurer. Am meisten würde ich meine Familie und meine Freunde vermissen, und natürlich das deutsche Brot! Hätte ich mehr Mut, würde ich vielleicht wirklich umziehen. Mein konkreter Plan ist aber erst einmal nur ein Urlaub: Falls ich im Sommer genug Geld habe, fahre ich zwei Wochen nach Bergen.",
-  explanation: "The imagined life is in the Konjunktiv II throughout: \"wenn\" + \"leben würde\" / \"frei hätte\" with the verb at the end, and the main verb directly after the comma (\"wäre mein Alltag\", \"würde ich wandern\"). One-word forms replace \"würde\" for sein, haben, modals and geben: \"wäre\", \"hätte\", \"könnte\", \"müsste\", \"gäbe\". \"Hätte ich mehr Mut, ...\" is a condition without \"wenn\". The real plan at the end switches to the indicative: \"Falls ich ... genug Geld habe, fahre ich...\".",
+  explanation: "The imagined life is in the Konjunktiv II throughout: \"wenn\" + \"leben würde\" / \"frei hätte\" with the verb at the end, and the main verb directly after the comma (\"wäre mein Alltag\", \"würde ich wandern\"). One-word forms replace \"würde\" for \"sein\", \"haben\", modals and \"geben\": \"wäre\", \"hätte\", \"könnte\", \"müsste\", \"gäbe\". \"Hätte ich mehr Mut, ...\" is a condition without \"wenn\". The real plan at the end switches to the indicative: \"Falls ich ... genug Geld habe, fahre ich...\".",
 };

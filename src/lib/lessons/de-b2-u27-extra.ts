@@ -9,7 +9,7 @@ export const DE_B2_U27_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Konjunktiv Review",
-    summary: "Konjunktiv I and II in every use: reported speech, unreal conditions, regrets, wishes, als ob and politeness.",
+    summary: "Choose the right Konjunktiv for every use: reporting speech, unreal conditions, regrets, wishes, \"als ob\" and polite requests.",
     duration: "14 min",
     sections: [
       {
@@ -158,7 +158,7 @@ export const DE_B2_U27_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "I wish I had more time.",
         answer: "Ich wünschte, ich hätte mehr Zeit.",
-        altAnswers: ["Wenn ich doch nur mehr Zeit hätte!", "Hätte ich doch mehr Zeit!", "Hätte ich nur mehr Zeit!"],
+        altAnswers: ["Ich wünschte mir, ich hätte mehr Zeit.", "Wenn ich doch nur mehr Zeit hätte!", "Hätte ich doch mehr Zeit!", "Hätte ich nur mehr Zeit!", "Hätte ich doch nur mehr Zeit!"],
         explanation: "\"Ich wünschte, ...\" + Konjunktiv II, or a wish with \"doch / nur\".",
       },
       {
@@ -216,6 +216,7 @@ export const DE_B2_U27_EXTRA: Lesson[] = [
             prompt: "Translate into German, using \"indem\".",
             source: "She learns by listening to podcasts.",
             answer: "Sie lernt, indem sie Podcasts hört.",
+            altAnswers: ["Sie lernt, indem sie sich Podcasts anhört."],
             explanation: "By + -ing = \"indem\" + clause.",
           },
         ],
@@ -289,7 +290,7 @@ export const DE_B2_U27_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "The more you practise, the better you get.",
         answer: "Je mehr man übt, desto besser wird man.",
-        altAnswers: ["Je mehr man übt, umso besser wird man.", "Je mehr du übst, desto besser wirst du.", "Je mehr du übst, umso besser wirst du.", "Je mehr Sie üben, desto besser werden Sie."],
+        altAnswers: ["Je mehr man übt, umso besser wird man.", "Je mehr du übst, desto besser wirst du.", "Je mehr du übst, umso besser wirst du.", "Je mehr Sie üben, desto besser werden Sie.", "Je mehr ihr übt, desto besser werdet ihr."],
         explanation: "\"Je ... desto / umso\".",
       },
       {
@@ -443,8 +444,8 @@ export const DE_B2_U27_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'm envious of your job.",
         answer: "Ich bin neidisch auf deinen Job.",
-        altAnswers: ["Ich bin neidisch auf deine Stelle.", "Ich bin neidisch auf Ihren Job.", "Ich bin neidisch auf deine Arbeit."],
-        explanation: "\"Neidisch auf\" + accusative.",
+        altAnswers: ["Ich bin neidisch auf deine Stelle.", "Ich bin neidisch auf Ihren Job.", "Ich bin neidisch auf deine Arbeit.", "Ich beneide dich um deinen Job.", "Ich beneide Sie um Ihren Job."],
+        explanation: "\"Neidisch auf\" + accusative (not \"*neidisch von*\"); \"jemanden um etwas beneiden\" says the same.",
       },
       {
         type: "multiple-choice",
@@ -459,6 +460,7 @@ export const DE_B2_U27_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "I dream of a trip to Japan.",
         answer: "Ich träume von einer Reise nach Japan.",
+        altAnswers: ["Ich träume von einer Japanreise."],
         explanation: "\"Träumen von\" + dative.",
       },
       {

@@ -221,7 +221,7 @@ export const DE_B2_U22_EXTRA: Lesson[] = [
         source: "If I'd known, I would have helped you.",
         answer: "Wenn ich es gewusst hätte, hätte ich dir geholfen.",
         altAnswers: ["Hätte ich es gewusst, hätte ich dir geholfen.", "Wenn ich das gewusst hätte, hätte ich dir geholfen.", "Wenn ich es gewusst hätte, hätte ich Ihnen geholfen.", "Wenn ich es gewusst hätte, hätte ich euch geholfen.", "Hätte ich das gewusst, hätte ich dir geholfen."],
-        explanation: "Unreal past: \"hätte ... gewusst\" + \"hätte ... geholfen\"; English needs an object (it), German too.",
+        explanation: "Unreal past: \"hätte ... gewusst\" + \"hätte ... geholfen\"; English can leave the object out (If I'd known), but German needs one: \"es\" or \"das\".",
       },
       {
         type: "fill-blank",
@@ -326,11 +326,11 @@ export const DE_B2_U22_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Spiral Review of Units 9-20",
-    summary: "Nominal style, clauses of cause and concession, subjective modals, connectors and word order in fresh sentences.",
+    summary: "Use nominal style, clauses of cause and concession, subjective modals, connectors and Mittelfeld word order correctly in fresh sentences.",
     duration: "12 min",
     sections: [
       {
-        heading: "Recap: the Upper-intermediate toolbox so far",
+        heading: "Recap: the upper-intermediate toolbox so far",
         body: [
           "Nominal style turns clauses into noun phrases (\"weil es regnete\" → \"wegen des Regens\"); Funktionsverbgefüge add formality (\"in Kraft treten\"). Clauses: \"obwohl\", \"da\", \"zumal\", \"sodass\", \"indem\", \"als ob\". Subjective modals: \"muss\", \"dürfte\", \"soll\", \"will\" + perfect infinitive for the past. Futur II for completed future or guesses.",
           "Connectors in position 1 take the verb next (\"jedoch\", \"folglich\", \"zudem\"); \"nämlich\" never starts a clause. In the Mittelfeld, pronouns come first, then time, cause, manner, place.",

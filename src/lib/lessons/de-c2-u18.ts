@@ -427,7 +427,7 @@ export const DE_C2_U18: Lesson[] = [
       {
         heading: "Your four abstracts",
         body: [
-          "Your mission: for a master's thesis on the four-day week (\"die Viertagewoche\"), write the paragraph on the state of research. You have four abstracts. (1) Krause (2023): a British pilot with 61 firms; productivity stable, sick days down 65 %. (2) Yıldız (2022): survey of 2,000 German employees; 73 % in favour, but mainly office workers. (3) Neumann (2023): case study of a Leipzig care home; staff shortages worsened because shifts could not be covered. (4) Lorenz (2023): economic model; positive effects only if productivity rises by at least 10 %.",
+          "Your mission: for a master's thesis on the four-day week (\"die Viertagewoche\"), write the paragraph on the state of research. You have four abstracts. (1) Krause (2023): a British pilot with 61 firms; productivity stable, sick days down 65%. (2) Yıldız (2022): survey of 2,000 German employees; 73% in favour, but mainly office workers. (3) Neumann (2023): case study of a Leipzig care home; staff shortages worsened because shifts could not be covered. (4) Lorenz (2023): economic model; positive effects only if productivity rises by at least 10%.",
           "First, find the positions: Krause and Yıldız are broadly positive, Neumann and Lorenz point to limits. Then find what's missing: none of the studies looks at long-term effects in German industry or at small firms. That missing piece is your \"Forschungslücke\" (research gap), and naming it justifies your own thesis.",
           "Vocabulary: \"der Forschungsstand\" (state of research), \"die Forschungslücke\", \"das Desiderat\" (something research still lacks: \"Ein Desiderat der Forschung ist...\"), \"bislang\" / \"bisher\" (so far), \"kaum untersucht\" (hardly studied), \"bleibt offen\" (remains open).",
         ],
@@ -681,7 +681,7 @@ export const DE_C2_U18: Lesson[] = [
           { es: "Ziel dieser Arbeit ist es, die Ursachen genauer zu bestimmen.", en: "The aim of this thesis is to determine the causes more precisely." },
           { es: "Der folgende Abschnitt widmet sich der Methode.", en: "The following section is devoted to the method." },
           { es: "Im Folgenden werden drei Ansätze verglichen.", en: "Three approaches are compared below." },
-          { es: "Wie bereits erwähnt, ist die Datenlage dünn.", en: "As already mentioned, the data situation is thin." },
+          { es: "Wie bereits erwähnt, ist die Datenlage dünn.", en: "As already mentioned, the available data are sparse." },
           { es: "Zusammenfassend lässt sich sagen, dass die Hypothese bestätigt wurde.", en: "In summary it can be said that the hypothesis was confirmed." },
         ],
         checkpoint: [
@@ -807,7 +807,7 @@ export const DE_C2_U18: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "As already mentioned, the data situation is thin.",
+        source: "As already mentioned, the available data are sparse.",
         answer: "Wie bereits erwähnt, ist die Datenlage dünn.",
         altAnswers: ["Wie schon erwähnt, ist die Datenlage dünn.", "Wie bereits erwähnt, ist die Datenlage schlecht.", "Wie bereits erwähnt wurde, ist die Datenlage dünn.", "Wie oben erwähnt, ist die Datenlage dünn."],
         explanation: "The shortened clause \"wie bereits erwähnt\" counts as position 1, so the verb follows.",
@@ -1255,7 +1255,7 @@ export const DE_C2_U18: Lesson[] = [
         heading: "Institutions and elections",
         body: [
           "\"Der Bundestag\" is the federal parliament, elected by the people; \"der Bundesrat\" represents the 16 \"Länder\" (federal states) and must approve many laws. Members of the Bundestag are \"Abgeordnete\" (adjectival noun: \"ein Abgeordneter\", \"die Abgeordnete\"); the chancellor is \"der Bundeskanzler / die Bundeskanzlerin\", elected by the Bundestag, not directly by the people.",
-          "In a federal election (\"die Bundestagswahl\") each voter has two votes: \"die Erststimme\" for a constituency candidate (\"der Direktkandidat\" in a \"Wahlkreis\") and \"die Zweitstimme\" for a party list. The Zweitstimme decides the share of seats, which is why parties say: \"Beide Stimmen zählen, aber die Zweitstimme entscheidet.\" Parties normally need 5 % of the second votes (\"die Fünfprozenthürde\") to enter the Bundestag; parties of national minorities are exempt.",
+          "In a federal election (\"die Bundestagswahl\") each voter has two votes: \"die Erststimme\" for a constituency candidate (\"der Direktkandidat\" in a \"Wahlkreis\") and \"die Zweitstimme\" for a party list. The Zweitstimme decides the share of seats, which is why parties say: \"Beide Stimmen zählen, aber die Zweitstimme entscheidet.\" Since the 2023 electoral reform, a constituency winner only gets a seat if the party's second votes cover it. Parties normally need 5% of the second votes (\"die Fünfprozenthürde\") to enter the Bundestag; parties of national minorities are exempt.",
           "The MPs of one party form \"eine Fraktion\" (parliamentary group): \"die Fraktion der Grünen\", \"der Fraktionsvorsitzende\". False friend: \"Fraktion\" is not a faction in the sense of a splinter group (\"der Flügel\", wing). \"Fraktionszwang\" or \"Fraktionsdisziplin\" means party discipline in votes.",
         ],
         examples: [
@@ -1540,7 +1540,7 @@ export const DE_C2_U18: Lesson[] = [
         body: [
           "\"Das Gehalt\" (plural \"die Gehälter\") is a salary; \"der Gehalt\" (plural \"die Gehalte\") is content or proportion: \"der Alkoholgehalt\", \"der Vitamingehalt\", and figuratively \"der Wahrheitsgehalt\" (how much truth something contains).",
           "\"Der Verdienst\" is earnings, income (\"Der Verdienst ist gering\"); \"das Verdienst\" is merit, credit for an achievement (\"Es ist ihr Verdienst, dass...\": it's thanks to her that...; \"sich Verdienste erwerben um\", to render great services to).",
-          "These two pairs are the ones Mastery-level exams test, because both meanings occur in the same kinds of texts: a business report can mention \"das Gehalt\" and \"der Fettgehalt\", \"der Verdienst\" and \"das Verdienst\" of a founder.",
+          "These two pairs are especially tricky, because both meanings occur in the same kinds of texts: a business report can mention \"das Gehalt\" and \"der Fettgehalt\", \"der Verdienst\" and \"das Verdienst\" of a founder.",
         ],
         examples: [
           { es: "Das Gehalt wird am Monatsende überwiesen.", en: "The salary is transferred at the end of the month." },

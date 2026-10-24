@@ -8,14 +8,14 @@ export const DE_B1_U10: Lesson[] = [
     level: "DE-B1",
     number: 1,
     title: "Prepositions with Relative Pronouns",
-    summary: "Put the preposition first and let it decide the case: der Freund, mit dem ich wohne; die Firma, für die ich arbeite; die Stadt, in der ich geboren bin.",
+    summary: "Put the preposition first and let it decide the case: \"der Freund, mit dem ich wohne\", \"die Firma, für die ich arbeite\", \"die Stadt, in der ich geboren bin\".",
     duration: "15 min",
     sections: [
       {
         heading: "The preposition comes first",
         body: [
           "English loves to end a relative clause with a preposition: the friend I live with, the company I work for. German never does that. The preposition moves to the very front of the relative clause, right before the relative pronoun: \"der Freund, mit dem ich wohne\", \"die Firma, für die ich arbeite\".",
-          "Formal English does the same (the company for which I work), so think of the formal version and translate that. \"*der Freund, den ich mit wohne\" is impossible in German.",
+          "Formal English does the same (the company for which I work), so think of the formal version and translate that. \"*der Freund, den ich mit wohne*\" is impossible in German.",
           "Nothing else changes: the relative clause still starts after a comma, and the conjugated verb still goes to the end.",
         ],
         examples: [
@@ -64,7 +64,7 @@ export const DE_B1_U10: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "the colleagues [I have lunch with]",
+            en: "the colleagues [with whom] I have lunch",
             sentence: "die Kollegen, ___ ich Mittag esse",
             answer: "mit denen",
             explanation: "\"Mit\" + dative plural: \"mit denen\".",
@@ -170,7 +170,7 @@ export const DE_B1_U10: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The project [she's interested in] is in Berlin.",
+        en: "The project [in which] she's interested is in Berlin.",
         sentence: "Das Projekt, ___ sie sich interessiert, ist in Berlin.",
         answer: "für das",
         explanation: "\"Sich interessieren für\" + accusative: \"für das\".",
@@ -215,11 +215,11 @@ export const DE_B1_U10: Lesson[] = [
     level: "DE-B1",
     number: 2,
     title: "Wo, Was and Wer as Relatives",
-    summary: "Wo for places, was after alles, etwas, nichts, das and superlatives or a whole clause, and wer..., der... for whoever.",
+    summary: "Use \"wo\" for places, \"was\" after \"alles\", \"etwas\", \"nichts\", \"das\", superlatives or a whole clause, and \"wer..., der...\" for whoever.",
     duration: "15 min",
     sections: [
       {
-        heading: "Wo for places",
+        heading: "\"Wo\" for places",
         body: [
           "After a place, \"wo\" is a handy alternative to preposition + pronoun: \"die Stadt, wo ich wohne\" = \"die Stadt, in der ich wohne\". It's very common in speech; formal writing tends to prefer \"in der\".",
           "After a city or country name, \"wo\" is the normal choice: \"Hamburg, wo ich studiert habe, ...\". For direction use \"wohin\": \"Wien, wohin wir im Sommer fahren\".",
@@ -254,11 +254,11 @@ export const DE_B1_U10: Lesson[] = [
         ],
       },
       {
-        heading: "Was after alles, etwas, nichts and das",
+        heading: "\"Was\" after \"alles\", \"etwas\", \"nichts\" and \"das\"",
         body: [
           "After indefinite words with no noun, German uses \"was\" instead of \"das\": \"alles, was ich weiß\" (everything I know), \"etwas, was ich nicht verstehe\" (something I don't understand), \"nichts, was mir gefällt\", \"vieles, was du sagst\", \"das, was du willst\" (what you want).",
           "Also after a neuter superlative used as a noun: \"das Beste, was mir passiert ist\" (the best thing that's happened to me), \"das Einzige, was ich will\" (the only thing I want).",
-          "And after a whole clause, to comment on it: \"Er kam zu spät, was mich geärgert hat\" (He was late, which annoyed me). English uses which; German uses \"was\", never \"*das\" or \"*welches\" here.",
+          "And after a whole clause, to comment on it: \"Er kam zu spät, was mich geärgert hat\" (He was late, which annoyed me). English uses which; German uses \"was\", never \"*das*\" or \"*welches*\" here.",
         ],
         examples: [
           { es: "Das ist alles, was ich weiß.", en: "That's all I know." },
@@ -289,7 +289,7 @@ export const DE_B1_U10: Lesson[] = [
         ],
       },
       {
-        heading: "Wer..., der... for whoever",
+        heading: "\"Wer..., der...\" for whoever",
         body: [
           "\"Wer\" as a relative means whoever, anyone who. It has no noun before it and usually opens the sentence, often picked up by \"der\" in the main clause: \"Wer zu spät kommt, (der) muss draußen warten\" (Whoever comes late has to wait outside).",
           "It's the pattern of many proverbs: \"Wer zuerst kommt, mahlt zuerst\" (first come, first served), \"Wer A sagt, muss auch B sagen\" (in for a penny, in for a pound), \"Wer nicht wagt, der nicht gewinnt\" (nothing ventured, nothing gained).",
@@ -367,7 +367,7 @@ export const DE_B1_U10: Lesson[] = [
         prompt: "Translate into German.",
         source: "Anyone who's hungry can help themselves.",
         answer: "Wer Hunger hat, kann sich etwas nehmen.",
-        altAnswers: ["Wer Hunger hat, der kann sich etwas nehmen.", "Wer Hunger hat, kann sich bedienen."],
+        altAnswers: ["Wer Hunger hat, der kann sich etwas nehmen.", "Wer Hunger hat, kann sich bedienen.", "Wer hungrig ist, kann sich etwas nehmen."],
         explanation: "\"Wer\" = anyone who.",
       },
       {
@@ -420,11 +420,11 @@ export const DE_B1_U10: Lesson[] = [
     level: "DE-B1",
     number: 3,
     title: "Contrast Clinic: Das or Was?",
-    summary: "Das after a neuter noun, was after pronouns, superlatives and whole clauses, and the spelling contrast das / dass.",
+    summary: "Choose \"das\" after a neuter noun and \"was\" after pronouns, superlatives and whole clauses, and spell \"das\" / \"dass\" correctly.",
     duration: "12 min",
     sections: [
       {
-        heading: "Das after a noun, was after a non-noun",
+        heading: "\"Das\" after a noun, \"was\" after a non-noun",
         body: [
           "The rule: if there's a neuter noun right before the relative clause, use \"das\": \"das Auto, das ich gekauft habe\". If there's no noun, but an indefinite word (\"alles\", \"etwas\", \"nichts\", \"vieles\", \"einiges\", \"das\"), use \"was\": \"alles, was ich gekauft habe\".",
           "Neuter adjectives used as nouns count as non-nouns when they're superlatives or vague: \"das Schönste, was ich je gesehen habe\", \"das Einzige, was ich will\", \"das Erste, was ich gemacht habe\".",
@@ -458,7 +458,7 @@ export const DE_B1_U10: Lesson[] = [
         ],
       },
       {
-        heading: "Was after a whole clause",
+        heading: "\"Was\" after a whole clause",
         body: [
           "When the relative clause comments on the whole previous clause, use \"was\": \"Sie hat die Prüfung bestanden, was mich sehr freut\" (She passed the exam, which makes me very happy).",
           "Compare: \"Sie hat ein Buch geschrieben, das sehr spannend ist\" (the book is exciting: \"das\" refers to \"Buch\") vs \"Sie hat ein Buch geschrieben, was mich überrascht hat\" (the fact that she wrote one surprised me: \"was\" refers to the whole clause).",
@@ -491,7 +491,7 @@ export const DE_B1_U10: Lesson[] = [
         ],
       },
       {
-        heading: "Das or dass?",
+        heading: "\"Das\" or \"dass\"?",
         body: [
           "A spelling trap even for Germans: \"das\" (one s) is an article or a relative/demonstrative pronoun; \"dass\" (double s) is the conjunction that.",
           "Test: if you can replace it with \"welches\" or \"dieses\", it's \"das\". If not, it's \"dass\". \"Das Buch, das (= welches) ich lese\" vs \"Ich weiß, dass du recht hast\".",
@@ -625,7 +625,7 @@ export const DE_B1_U10: Lesson[] = [
     level: "DE-B1",
     number: 4,
     title: "Themed Review: Group Work",
-    summary: "Talk about a university group project with preposition + relative clauses: die Kommilitonin, mit der ich arbeite; das Thema, über das wir schreiben.",
+    summary: "Talk about a university group project with preposition + relative clauses: \"die Kommilitonin, mit der ich arbeite\", \"das Thema, über das wir schreiben\".",
     duration: "15 min",
     sections: [
       {
@@ -655,7 +655,7 @@ export const DE_B1_U10: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "The group [I'm in] has four people.",
+            en: "The group [that] I'm [in] has four people.",
             sentence: "Die Gruppe, ___ ich bin, hat vier Leute.",
             answer: "in der",
             explanation: "Where: \"in\" + dative feminine \"der\".",
@@ -741,7 +741,7 @@ export const DE_B1_U10: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The students [I share the work with] are reliable.",
+        en: "The students [with whom] I share the work are reliable.",
         sentence: "Die Studenten, ___ ich die Arbeit teile, sind zuverlässig.",
         answer: "mit denen",
         explanation: "\"Mit\" + dative plural: \"mit denen\".",
@@ -749,7 +749,7 @@ export const DE_B1_U10: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The book [we're working with] is from the library.",
+        en: "The book [that] we're working [with] is from the library.",
         sentence: "Das Buch, ___ wir arbeiten, ist aus der Bibliothek.",
         answer: "mit dem",
         explanation: "\"Mit\" + dative neuter: \"mit dem\".",
@@ -787,7 +787,7 @@ export const DE_B1_U10: Lesson[] = [
     level: "DE-B1",
     number: 5,
     title: "Talk About You: Important People and Places",
-    summary: "Talk about the people and places that shaped you: die Stadt, in der ich aufgewachsen bin; die Lehrerin, der ich viel verdanke; der Ort, wo ich mich entspanne.",
+    summary: "Talk about the people and places that shaped you: \"die Stadt, in der ich aufgewachsen bin\", \"die Lehrerin, der ich viel verdanke\", \"der Ort, wo ich mich entspanne\".",
     duration: "15 min",
     sections: [
       {
@@ -914,7 +914,7 @@ export const DE_B1_U10: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The friends [I trust] live in Berlin.",
+        en: "The friends [whom] I trust live in Berlin.",
         sentence: "Die Freunde, ___ ich vertraue, wohnen in Berlin.",
         answer: "denen",
         explanation: "\"Vertrauen\" + dative plural: \"denen\".",
@@ -947,7 +947,7 @@ export const DE_B1_U10: Lesson[] = [
     level: "DE-B1",
     number: 6,
     title: "Mastery Check: Relative Clauses",
-    summary: "Check everything about relative clauses: all relative pronouns, preposition + relative, wo, was and wer.",
+    summary: "Show you can use every kind of relative clause: all relative pronouns, preposition + relative, \"wo\", \"was\" and \"wer\".",
     duration: "15 min",
     sections: [
       {
@@ -1041,7 +1041,7 @@ export const DE_B1_U10: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The colleagues [I'm going to the conference with] are nice.",
+        en: "The colleagues [with whom] I'm going to the conference are nice.",
         sentence: "Die Kollegen, ___ ich zur Konferenz fahre, sind nett.",
         answer: "mit denen",
         explanation: "\"Mit\" + dative plural: \"mit denen\".",
@@ -1207,10 +1207,10 @@ export const DE_B1_U10: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The film [we're going to] starts at eight.",
+        en: "The film [that] we're going [to] starts at eight.",
         sentence: "Der Film, ___ wir gehen, fängt um acht an.",
         answer: "in den",
-        explanation: "\"In einen Film gehen\": direction → accusative \"in den\".",
+        explanation: "\"In einen Film gehen\" (go and see a film): direction → accusative \"in den\", not dative \"in dem\".",
       },
       {
         type: "multiple-choice",
@@ -1240,7 +1240,7 @@ export const DE_B1_U10: Lesson[] = [
     level: "DE-B1",
     number: 8,
     title: "Real-World Mission: Describe It Without Saying It",
-    summary: "When you don't know a word, describe it: Das ist ein Ding, mit dem man...; Das ist jemand, der...; Das ist ein Ort, wo...",
+    summary: "When you don't know a word, describe it: \"Das ist ein Ding, mit dem man...\", \"Das ist jemand, der...\", \"Das ist ein Ort, wo...\"",
     duration: "15 min",
     sections: [
       {
@@ -1359,7 +1359,7 @@ export const DE_B1_U10: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "It's a thing [you cut bread with].",
+        en: "It's a thing [with which] you cut bread.",
         sentence: "Das ist ein Ding, ___ man Brot schneidet.",
         answer: "mit dem",
         explanation: "(\"das Brotmesser\") \"Mit\" + dative neuter: \"das Ding\" → \"mit dem\".",
@@ -1401,13 +1401,13 @@ export const DE_B1_U10: Lesson[] = [
     level: "DE-B1",
     number: 9,
     title: "Mixed Practice: Relatives with Every Tense",
-    summary: "Use relative clauses with every tense you know: der Film, den ich gesehen hatte; ein Job, der mir gefallen würde; die Stadt, in die ich ziehen werde.",
+    summary: "Use relative clauses with every tense you know: \"der Film, den ich gesehen hatte\", \"ein Job, der mir gefallen würde\", \"die Stadt, in die ich ziehen werde\".",
     duration: "15 min",
     sections: [
       {
         heading: "The whole verb goes to the end",
         body: [
-          "In a relative clause, the conjugated verb is always last. With compound tenses, the participle or infinitive comes just before it: \"den ich gesehen habe\" (perfect), \"den ich gesehen hatte\" (pluperfect), \"die ich besuchen werde\" (future), \"der mir gefallen würde\" (würde form).",
+          "In a relative clause, the conjugated verb is always last. With compound tenses, the participle or infinitive comes just before it: \"den ich gesehen habe\" (perfect), \"den ich gesehen hatte\" (pluperfect), \"die ich besuchen werde\" (future), \"der mir gefallen würde\" (\"würde\" form).",
           "Simple past and modal verbs work the same way: \"die Frau, die neben mir saß\", \"das Buch, das ich lesen muss\".",
         ],
         examples: [

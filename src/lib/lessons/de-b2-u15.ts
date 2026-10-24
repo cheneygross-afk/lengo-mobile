@@ -8,7 +8,7 @@ export const DE_B2_U15: Lesson[] = [
     level: "DE-B2",
     number: 1,
     title: "Futur II, Part 1 of 2: The Completed Future",
-    summary: "Say what will have happened by a certain time with werden + participle + haben or sein, and learn when everyday German uses the Perfekt instead.",
+    summary: "Say what will have happened by a certain time with \"werden\" + participle + \"haben\" or \"sein\", and learn when everyday German uses the Perfekt instead.",
     duration: "16 min",
     sections: [
       {
@@ -112,11 +112,11 @@ export const DE_B2_U15: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "By the time you come, we [will already have eaten].",
+        en: "By the time you come, [we will already have eaten].",
         sentence: "Bis du kommst, ___.",
         answer: "werden wir schon gegessen haben",
         altAnswers: ["haben wir schon gegessen"],
-        explanation: "Futur II after a fronted clause: verb first, then subject.",
+        explanation: "The \"bis\"-clause fills position 1, so the verb comes first, then the subject: \"werden wir ... gegessen haben\". The everyday Perfekt \"haben wir schon gegessen\" is also accepted.",
       },
       {
         type: "fill-blank",
@@ -147,7 +147,7 @@ export const DE_B2_U15: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "You will have learned a lot by then. (to a group)",
+        source: "You will have learned a lot by then. (to friends)",
         answer: "Ihr werdet bis dahin viel gelernt haben.",
         altAnswers: ["Bis dahin werdet ihr viel gelernt haben."],
         explanation: "\"Ihr werdet\" + \"gelernt haben\".",
@@ -373,14 +373,14 @@ export const DE_B2_U15: Lesson[] = [
     level: "DE-B2",
     number: 3,
     title: "Thematic Review: Die Bergrettung",
-    summary: "Two hikers are missing in the Allgäu: the mountain rescue team makes guesses, briefs the press and looks back at what could have been done.",
+    summary: "Follow a mountain rescue in the Allgäu and use the Futur II for deadlines and guesses, \"sollen\" and \"dürfte\" for reports and estimates, and \"hätte ... sollen\" for regrets.",
     duration: "16 min",
     sections: [
       {
         heading: "The alarm",
         body: [
           "Saturday, 7 p.m., Oberstdorf in the Allgäu: two hikers from Stuttgart, Lena and Ben, haven't come back from a tour. Their landlady calls the Bergwacht (mountain rescue). Team leader Hannes Berger studies the map.",
-          "Berger guesses with the Futur: \"Sie werden den falschen Weg genommen haben\" (They'll have taken the wrong path, i.e. they've probably taken it). This is a preview of the second use of the Futur II in this unit: a guess about the past.",
+          "Berger guesses with the Futur II: \"Sie werden den falschen Weg genommen haben\" (They'll have taken the wrong path, i.e. they've probably taken it). This is a preview of the second use of the Futur II in this unit: a guess about the past.",
           "Key words: \"die Bergwacht / die Bergrettung\" (mountain rescue), \"vermisst\" (missing), \"der Wanderer / die Wanderin\", \"der Gipfel\" (summit), \"die Hütte\" (mountain hut), \"der Hubschrauber\" (helicopter), \"sich verlaufen\" (to get lost).",
         ],
         examples: [
@@ -397,8 +397,8 @@ export const DE_B2_U15: Lesson[] = [
             prompt: "Translate into German.",
             source: "Two hikers are missing.",
             answer: "Zwei Wanderer werden vermisst.",
-            altAnswers: ["Zwei Wanderer sind vermisst."],
-            explanation: "\"Vermisst werden\" = to be missing (passive of vermissen).",
+            altAnswers: ["Zwei Wanderer gelten als vermisst."],
+            explanation: "\"Vermisst werden\" (passive of \"vermissen\") is the standard way to say someone is missing; \"*sind vermisst*\" is not standard.",
           },
           {
             type: "fill-blank",
@@ -873,7 +873,7 @@ export const DE_B2_U15: Lesson[] = [
       {
         heading: "Predictions for 2045",
         body: [
-          "A podcast from Leipzig discusses the future of work. The economist Dr. Yasemin Arslan makes predictions with the Futur II: \"In 20 Jahren werden Maschinen viele Berufe ersetzt haben.\" \"Bis 2045 werden selbstfahrende Lkw die meisten Fernfahrer verdrängt haben.\"",
+          "A podcast from Leipzig discusses the future of work. The economist Dr Yasemin Arslan makes predictions with the Futur II: \"In 20 Jahren werden Maschinen viele Berufe ersetzt haben.\" \"Bis 2045 werden selbstfahrende Lkw die meisten Fernfahrer verdrängt haben.\"",
           "Jobs at risk: \"der Kassierer / die Kassiererin\" (cashier), \"der Lkw-Fahrer\" (lorry driver), \"der Sachbearbeiter\" (clerk), \"der Übersetzer\" (translator). Key words: \"ersetzen\" (to replace), \"verdrängen\" (to push out), \"die Automatisierung\", \"die künstliche Intelligenz (KI)\", \"der Arbeitsplatz\" (job), \"umschulen\" (to retrain).",
         ],
         examples: [
@@ -1048,7 +1048,7 @@ export const DE_B2_U15: Lesson[] = [
           { es: "Tom ist nicht da. Er wird wohl krank sein.", en: "Tom isn't here. He's probably ill." },
           { es: "Sie wird wohl noch schlafen.", en: "She's probably still asleep." },
           { es: "Das wird schon stimmen.", en: "That's probably right." },
-          { es: "Es wird etwa zehn Uhr sein.", en: "It must be about ten o'clock." },
+          { es: "Es wird etwa zehn Uhr sein.", en: "It's probably about ten o'clock." },
         ],
         checkpoint: [
           {
@@ -1057,7 +1057,7 @@ export const DE_B2_U15: Lesson[] = [
             prompt: "Translate into German using \"werden\".",
             source: "He's probably still at the office.",
             answer: "Er wird wohl noch im Büro sein.",
-            altAnswers: ["Er wird noch im Büro sein.", "Er wird sicher noch im Büro sein.", "Er wird wahrscheinlich noch im Büro sein."],
+            altAnswers: ["Er wird noch im Büro sein.", "Er wird wahrscheinlich noch im Büro sein."],
             explanation: "\"Wird\" + \"wohl\" + infinitive = guess about now.",
           },
           {
@@ -1154,7 +1154,7 @@ export const DE_B2_U15: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "They've probably [gone home] already.",
+        en: "They've probably [gone] home already.",
         sentence: "Sie werden schon nach Hause ___.",
         answer: "gegangen sein",
         explanation: "\"Gehen\" takes \"sein\".",
@@ -1181,7 +1181,7 @@ export const DE_B2_U15: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German using \"werden\".",
-        source: "It must be about ten o'clock.",
+        source: "It's probably about ten o'clock.",
         answer: "Es wird etwa zehn Uhr sein.",
         altAnswers: ["Es wird ungefähr zehn Uhr sein.", "Es wird wohl etwa zehn Uhr sein.", "Es wird wohl ungefähr zehn Uhr sein.", "Es wird so gegen zehn Uhr sein."],
         explanation: "\"Wird ... sein\" here is a guess about the present time, not a prediction.",
@@ -1660,7 +1660,7 @@ export const DE_B2_U15: Lesson[] = [
         prompt: "Translate into German.",
         source: "I would have called you, but my phone was dead.",
         answer: "Ich hätte dich angerufen, aber mein Akku war leer.",
-        altAnswers: ["Ich hätte dich angerufen, aber mein Handy war leer.", "Ich hätte dich angerufen, aber mein Handyakku war leer.", "Ich hätte Sie angerufen, aber mein Akku war leer."],
+        altAnswers: ["Ich hätte dich angerufen, aber mein Handy war leer.", "Ich hätte dich angerufen, aber mein Handyakku war leer.", "Ich hätte Sie angerufen, aber mein Akku war leer.", "Ich hätte euch angerufen, aber mein Akku war leer.", "Ich hätte Sie angerufen, aber mein Handy war leer.", "Ich hätte euch angerufen, aber mein Handy war leer."],
         explanation: "Past unreal: \"hätte ... angerufen\".",
       },
       {
@@ -1703,7 +1703,7 @@ export const DE_B2_U15: Lesson[] = [
     level: "DE-B2",
     number: 11,
     title: "Story with Gaps: Die verspätete Freundin",
-    summary: "Friends wait for Mia at a restaurant in Hamburg and guess what has happened: Futur II, subjective modals and reported messages.",
+    summary: "Guess why a friend is late with \"wird wohl\", the Futur II and \"muss\" / \"dürfte\", and pass on messages with \"soll\" and the Konjunktiv I.",
     duration: "15 min",
     sections: [
       {
@@ -1892,7 +1892,7 @@ export const DE_B2_U15: Lesson[] = [
     level: "DE-B2",
     number: 12,
     title: "Spiral Review: Timeline: Als, Nachdem, Bevor, Seitdem",
-    summary: "Review the Intermediate time clauses with the Plusquamperfekt and apply them to the life of Marlene Dietrich.",
+    summary: "Order past events with \"als\", \"nachdem\", \"bevor\" and \"seitdem\" and the Plusquamperfekt as you retell the life of Marlene Dietrich.",
     duration: "14 min",
     sections: [
       {

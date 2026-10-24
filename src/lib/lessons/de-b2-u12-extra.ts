@@ -9,7 +9,7 @@ export const DE_B2_U12_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Sodass or Damit?",
-    summary: "Result or purpose: decide from context whether so that means sodass or damit.",
+    summary: "Decide from context whether English so that is a result (\"sodass\") or a purpose (\"damit\").",
     duration: "12 min",
     sections: [
       {
@@ -167,7 +167,7 @@ export const DE_B2_U12_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Indem in Instructions",
-    summary: "Explain how to do things with indem: register, cancel, save, apply.",
+    summary: "Explain how to do things with \"indem\": register, cancel, save, apply.",
     duration: "12 min",
     sections: [
       {
@@ -318,7 +318,7 @@ export const DE_B2_U12_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Cause and Effect in the News",
-    summary: "Read short news items and spot the cause and consequence connectors: aufgrund, infolge, da, sodass, infolgedessen.",
+    summary: "Read short news items and spot the cause and consequence connectors: \"aufgrund\", \"infolge\", \"da\", \"sodass\", \"infolgedessen\".",
     duration: "13 min",
     sections: [
       {

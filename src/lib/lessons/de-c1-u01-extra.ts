@@ -9,7 +9,7 @@ export const DE_C1_U01_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Advanced Konjunktiv, Part 1 of 3",
-    summary: "Choose between synthetic forms (käme, gäbe, wüsste, bräuchte) and würde + infinitive in fresh sentences.",
+    summary: "Choose between synthetic forms (\"käme\", \"gäbe\", \"wüsste\", \"bräuchte\") and \"würde\" + infinitive in fresh sentences.",
     duration: "14 min",
     sections: [
       {
@@ -21,7 +21,7 @@ export const DE_C1_U01_EXTRA: Lesson[] = [
         examples: [
           { es: "Wenn du Lust hättest, kämen wir am Samstag vorbei.", en: "If you felt like it, we'd come by on Saturday." },
           { es: "Ich fände es toll, wenn du mitkämst.", en: "I'd love it if you came along." },
-          { es: "Es gäbe noch Kuchen, falls jemand Hunger hat.", en: "There's still cake if anyone's hungry." },
+          { es: "Es gäbe noch Kuchen, falls jemand Hunger hat.", en: "There'd still be cake if anyone's hungry." },
           { es: "Wir würden gern in Köln wohnen.", en: "We'd like to live in Cologne." },
           { es: "Er wüsste bestimmt eine Lösung.", en: "He'd surely know a solution." },
         ],
@@ -130,7 +130,7 @@ export const DE_C1_U01_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: It would work on Tuesday too.",
         words: ["Am", "Dienstag", "ginge", "es", "auch."],
         translation: "It would work on Tuesday too.",
-        altOrders: [["Es", "ginge", "am", "Dienstag", "auch."]],
+        altOrders: [["Es", "ginge", "am", "Dienstag", "auch."], ["Es", "ginge", "auch", "am", "Dienstag."]],
         explanation: "\"Ginge\" = would work, be possible. Time phrase first, then the verb.",
       },
       {
@@ -176,13 +176,13 @@ export const DE_C1_U01_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Advanced Konjunktiv, Part 2 of 3",
-    summary: "Unreal comparisons with als ob, als wenn and als + verb in the present and past.",
+    summary: "Make unreal comparisons with \"als ob\", \"als wenn\" and \"als\" + verb in the present and past.",
     duration: "14 min",
     sections: [
       {
         heading: "Recap: three ways to say as if",
         body: [
-          "\"Als ob\" and \"als wenn\" send the verb to the end: \"..., als ob er krank wäre\". Plain \"als\" puts the verb right after it: \"..., als wäre er krank\". Never \"*als er wäre krank\".",
+          "\"Als ob\" and \"als wenn\" send the verb to the end: \"..., als ob er krank wäre\". Plain \"als\" puts the verb right after it: \"..., als wäre er krank\". Never \"*als er wäre krank*\".",
           "Same time: \"wäre / hätte / würde\" + infinitive. Earlier: \"wäre / hätte\" + Partizip II (\"als hätte er nichts gehört\").",
         ],
         examples: [
@@ -320,7 +320,7 @@ export const DE_C1_U01_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "Sie sah aus, als hätte sie geweint.",
-        explanation: "\"Als hätte sie\": verb straight after als; \"geweint\" at the end.",
+        explanation: "\"Als hätte sie\": verb straight after \"als\"; \"geweint\" at the end.",
       },
       {
         type: "speak",
@@ -336,7 +336,7 @@ export const DE_C1_U01_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Advanced Konjunktiv, Part 3 of 3",
-    summary: "Konjunktiv I forms, the three time levels and the replacement rule in new reported sentences.",
+    summary: "Report what others said with Konjunktiv I forms, its three time levels and the replacement rule in new sentences.",
     duration: "14 min",
     sections: [
       {
@@ -507,7 +507,7 @@ export const DE_C1_U01_EXTRA: Lesson[] = [
     number: 4,
     optional: true,
     title: "Extra Practice: Fast, Zu ... als dass and Ohne dass",
-    summary: "Practise what nearly happened (fast / beinahe + Konjunktiv II) and what could not happen (zu ..., als dass; ohne dass; nicht dass).",
+    summary: "Practise what nearly happened (\"fast\" / \"beinahe\" + Konjunktiv II) and what could not happen (\"zu ..., als dass\"; \"ohne dass\"; \"nicht, dass\").",
     duration: "14 min",
     sections: [
       {
@@ -676,7 +676,7 @@ export const DE_C1_U01_EXTRA: Lesson[] = [
     number: 5,
     optional: true,
     title: "Extra Practice: Conditions Without Wenn",
-    summary: "Rewrite conditions with the verb first, sollte, sonst, ohne / bei and an deiner Stelle.",
+    summary: "Rewrite conditions with the verb first, \"sollte\", \"sonst\", \"ohne\" / \"bei\" and \"an deiner Stelle\".",
     duration: "14 min",
     sections: [
       {
@@ -843,7 +843,7 @@ export const DE_C1_U01_EXTRA: Lesson[] = [
     number: 6,
     optional: true,
     title: "Extra Practice: Mixed Konjunktiv Circuit",
-    summary: "Indicative, Konjunktiv I or Konjunktiv II? Every use from the Intermediate to the Advanced level in mixed sentences.",
+    summary: "Choose between indicative, Konjunktiv I and Konjunktiv II in mixed sentences covering every use from the Intermediate to the Advanced level.",
     duration: "15 min",
     sections: [
       {
@@ -856,7 +856,7 @@ export const DE_C1_U01_EXTRA: Lesson[] = [
           { es: "Wenn ich Zeit habe, rufe ich dich an.", en: "When I have time, I'll call you. (real)" },
           { es: "Wenn ich Zeit hätte, würde ich dich anrufen.", en: "If I had time, I'd call you. (unreal)" },
           { es: "Sie sagt, sie habe keine Zeit.", en: "She says she has no time. (reported)" },
-          { es: "Hätten Sie vielleicht einen Moment?", en: "Would you have a moment? (polite)" },
+          { es: "Hätten Sie vielleicht einen Moment?", en: "Would you have a moment? (formal)" },
           { es: "Gott sei Dank hat es geklappt.", en: "Thank God it worked. (formula)" },
         ],
         checkpoint: [
@@ -940,7 +940,7 @@ export const DE_C1_U01_EXTRA: Lesson[] = [
         en: "The police said the thief [had escaped] through the window.",
         sentence: "Die Polizei sagte, der Dieb ___ durch das Fenster geflohen.",
         answer: "sei",
-        explanation: "Reported past: \"sei ... geflohen\" (fliehen takes sein).",
+        explanation: "Reported past: \"sei ... geflohen\" (\"fliehen\" takes sein).",
       },
       {
         type: "translate",

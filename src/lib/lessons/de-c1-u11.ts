@@ -144,7 +144,7 @@ export const DE_C1_U11: Lesson[] = [
         prompt: "Translate into German.",
         source: "I only started yesterday.",
         answer: "Ich habe erst gestern angefangen.",
-        altAnswers: ["Ich habe erst gestern begonnen.", "Erst gestern habe ich angefangen."],
+        altAnswers: ["Ich habe erst gestern begonnen.", "Erst gestern habe ich angefangen.", "Ich habe gestern erst angefangen."],
         explanation: "Later than expected: \"erst gestern\". \"Nur gestern\" would mean on no other day.",
       },
       {
@@ -179,7 +179,7 @@ export const DE_C1_U11: Lesson[] = [
         prompt: "Translate into German.",
         source: "We only found out today.",
         answer: "Wir haben es erst heute erfahren.",
-        altAnswers: ["Wir haben das erst heute erfahren.", "Erst heute haben wir es erfahren.", "Wir haben es erst heute herausgefunden."],
+        altAnswers: ["Wir haben das erst heute erfahren.", "Erst heute haben wir es erfahren.", "Wir haben es erst heute herausgefunden.", "Wir haben es heute erst erfahren."],
         explanation: "Later than expected: \"erst heute\".",
       },
       {
@@ -572,7 +572,7 @@ export const DE_C1_U11: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence puts the focus on the time?",
-        options: ["Erst am Abend hat sie geantwortet.", "Sie hat am Abend erst geantwortet.", "Sie hat geantwortet am Abend.", "Am Abend sie hat geantwortet."],
+        options: ["Erst am Abend hat sie geantwortet.", "Sie hat am Abend sogar geantwortet.", "Sie hat geantwortet am Abend.", "Am Abend sie hat geantwortet."],
         correctIndex: 0,
         explanation: "\"Erst am Abend\" in the Vorfeld highlights the (late) time.",
       },
@@ -921,7 +921,7 @@ export const DE_C1_U11: Lesson[] = [
         prompt: "Translate into German.",
         source: "You know I don't like fish.",
         answer: "Du weißt ja, dass ich keinen Fisch mag.",
-        altAnswers: ["Du weißt doch, dass ich keinen Fisch mag.", "Sie wissen ja, dass ich keinen Fisch mag.", "Ihr wisst ja, dass ich keinen Fisch mag.", "Du weißt ja, ich mag keinen Fisch."],
+        altAnswers: ["Du weißt doch, dass ich keinen Fisch mag.", "Sie wissen ja, dass ich keinen Fisch mag.", "Ihr wisst ja, dass ich keinen Fisch mag.", "Du weißt ja, ich mag keinen Fisch.", "Du weißt ja, dass ich Fisch nicht mag."],
         explanation: "\"Ja\" (shared knowledge) or \"doch\" (reminder).",
       },
       {
@@ -961,7 +961,7 @@ export const DE_C1_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your flatmate has eaten your last yogurt, you suspect. What do you ask?",
+        question: "Your flatmate has eaten your last yoghurt, you suspect. What do you ask?",
         options: ["Hast du etwa meinen Joghurt gegessen?", "Hast du ruhig meinen Joghurt gegessen?", "Hast du halt meinen Joghurt gegessen?", "Hast du mal meinen Joghurt gegessen?"],
         correctIndex: 0,
         explanation: "\"Etwa\" signals suspicion in a yes/no question.",
@@ -1519,6 +1519,7 @@ export const DE_C1_U11: Lesson[] = [
         prompt: "Fix the mistake and translate into German: \"*Wir wohnen noch nicht in Hamburg.*\" (We no longer live in Hamburg.)",
         source: "We no longer live in Hamburg.",
         answer: "Wir wohnen nicht mehr in Hamburg.",
+        altAnswers: ["Wir leben nicht mehr in Hamburg."],
         explanation: "No longer = \"nicht mehr\"; \"noch nicht\" = not yet.",
       },
       {
@@ -1554,7 +1555,7 @@ export const DE_C1_U11: Lesson[] = [
         prompt: "Fix the mistake and translate into German: \"*Ich habe nur heute Morgen davon gehört.*\" (I only heard about it this morning.)",
         source: "I only heard about it this morning.",
         answer: "Ich habe erst heute Morgen davon gehört.",
-        altAnswers: ["Erst heute Morgen habe ich davon gehört.", "Ich habe erst heute früh davon gehört."],
+        altAnswers: ["Erst heute Morgen habe ich davon gehört.", "Ich habe erst heute früh davon gehört.", "Ich habe heute Morgen erst davon gehört."],
         explanation: "Later than expected: \"erst\".",
       },
       {
@@ -1673,10 +1674,10 @@ export const DE_C1_U11: Lesson[] = [
         body: [
           "In speech, \"der / die / das\" replace \"er / sie / es\" when the person or thing is in focus or just mentioned: \"Kennst du Peter? Den kenne ich gut!\" \"Die Jacke? Die habe ich in Köln gekauft.\" They often take the Vorfeld and are stressed. Used for people, they can sound dismissive: \"Der ist doof\" is ruder than \"Er ist doof\".",
           "Left dislocation puts a topic outside the sentence and picks it up with a demonstrative: \"Den Peter, den kenne ich gut.\" \"Die neue Kollegin, die ist echt nett.\" Right dislocation adds the noun at the end as an afterthought: \"Die ist super, die Jacke.\" Both are typical of spoken German and of dialogues in novels, not of formal writing.",
-          "The article before a first name (\"der Peter\") is colloquial and southern; in standard writing omit it.",
+          "The article before a first name (\"der Peter\") is colloquial (most common in the south and west, but heard widely); in standard writing omit it.",
         ],
         examples: [
-          { es: "Kennst du Frau Weber? Ja, die kenne ich.", en: "Do you know Mrs Weber? Yes, I know her." },
+          { es: "Kennst du Frau Weber? Ja, die kenne ich.", en: "Do you know Ms Weber? Yes, I know her." },
           { es: "Den Film habe ich schon gesehen. Der ist super.", en: "I've already seen that film. It's great." },
           { es: "Die neue Nachbarin, die ist wirklich nett.", en: "The new neighbour, she's really nice." },
           { es: "Der hat Nerven, der Typ!", en: "He's got a nerve, that guy!" },
@@ -1907,7 +1908,7 @@ export const DE_C1_U11: Lesson[] = [
         prompt: "Translate into German.",
         source: "Under no circumstances touch the cables.",
         answer: "Berühren Sie keinesfalls die Kabel.",
-        altAnswers: ["Berühren Sie auf keinen Fall die Kabel.", "Fass auf keinen Fall die Kabel an.", "Berühr auf keinen Fall die Kabel.", "Berühren Sie die Kabel keinesfalls.", "Berühren Sie die Kabel auf keinen Fall."],
+        altAnswers: ["Berühren Sie auf keinen Fall die Kabel.", "Fass auf keinen Fall die Kabel an.", "Berühr auf keinen Fall die Kabel.", "Berühren Sie die Kabel keinesfalls.", "Berühren Sie die Kabel auf keinen Fall.", "Fass die Kabel auf keinen Fall an.", "Fassen Sie die Kabel auf keinen Fall an.", "Fassen Sie auf keinen Fall die Kabel an."],
         explanation: "\"Keinesfalls\" / \"auf keinen Fall\" rule out an action.",
       },
       {
@@ -2040,7 +2041,7 @@ export const DE_C1_U11: Lesson[] = [
         ],
         examples: [
           { es: "Schon jetzt haben sich zwanzig Familien gemeldet.", en: "Twenty families have already got in touch." },
-          { es: "Sogar die Grundschule möchte ein Beet übernehmen.", en: "Even the primary school wants to take on a flower bed." },
+          { es: "Sogar die Grundschule möchte ein Beet übernehmen.", en: "Even the primary school wants to look after one of the beds." },
           { es: "Die Kosten sind nicht unerheblich, das stimmt schon.", en: "The costs are considerable, that's true." },
           { es: "Sie kennen das ja: Im Sommer gibt es hier kaum Schatten.", en: "You know how it is: in summer there's hardly any shade here." },
           { es: "Was für eine Chance für unser Viertel!", en: "What an opportunity for our neighbourhood!" },
@@ -2084,8 +2085,8 @@ export const DE_C1_U11: Lesson[] = [
             prompt: "Translate into German (to the audience, formal).",
             source: "Let's not miss this chance!",
             answer: "Lassen Sie uns diese Chance nicht verpassen!",
-            altAnswers: ["Lasst uns diese Chance nicht verpassen!", "Lassen Sie uns diese Gelegenheit nicht verpassen!", "Verpassen wir diese Chance nicht!"],
-            explanation: "\"Lassen Sie uns\" / \"Lasst uns\" + infinitive: let's.",
+            altAnswers: ["Lassen Sie uns diese Gelegenheit nicht verpassen!", "Verpassen wir diese Chance nicht!"],
+            explanation: "\"Lassen Sie uns\" + infinitive: let's, addressing a formal audience (\"Lasst uns\" would be for friends).",
           },
           {
             type: "speak",
@@ -2113,7 +2114,7 @@ export const DE_C1_U11: Lesson[] = [
         prompt: "Translate into German.",
         source: "The city only promised the money last week.",
         answer: "Die Stadt hat das Geld erst letzte Woche zugesagt.",
-        altAnswers: ["Erst letzte Woche hat die Stadt das Geld zugesagt.", "Die Stadt hat das Geld erst vergangene Woche zugesagt."],
+        altAnswers: ["Erst letzte Woche hat die Stadt das Geld zugesagt.", "Die Stadt hat das Geld erst vergangene Woche zugesagt.", "Die Stadt hat das Geld erst letzte Woche versprochen."],
         explanation: "\"Erst\" = only (recently, later than expected).",
       },
       {

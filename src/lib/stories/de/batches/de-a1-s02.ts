@@ -47,7 +47,7 @@ export const DE_A1_S02_STORIES: Story[] = [
     slug: "de-wer-isst-meinen-joghurt",
     level: "DE-A1",
     title: `Wer isst meinen Joghurt?`,
-    subtitle: `In a shared flat in Freiburg, someone keeps eating Jonas's strawberry yogurts, and he decides to find out who.`,
+    subtitle: `In a shared flat in Freiburg, someone keeps eating Jonas's strawberry yoghurts, and he decides to find out who.`,
     paragraphs: [
       `Jonas wohnt in Freiburg in einer WG mit zwei Freunden, Lisa und Ben. Im Kühlschrank hat jeder ein Fach. Jonas kauft jeden Montag vier Joghurts mit Erdbeeren.`,
       `Aber am Mittwoch sind alle Joghurts weg. Jonas schreibt einen Zettel: „Bitte esst meinen Joghurt nicht! Jonas“. Er klebt den Zettel an den Kühlschrank.`,
@@ -58,24 +58,24 @@ export const DE_A1_S02_STORIES: Story[] = [
     questions: [
       {
         question: `What does Jonas buy every Monday?`,
-        options: [`Four strawberry yogurts`, `A big cake`, `Milk and cheese`, `Four bananas`],
+        options: [`Four strawberry yoghurts`, `A big cake`, `Milk and cheese`, `Four bananas`],
         correctIndex: 0,
         explanation: `"Jonas kauft jeden Montag vier Joghurts mit Erdbeeren."`,
       },
       {
-        question: `Why does Ben say he doesn't eat the yogurt?`,
+        question: `Why does Ben say he doesn't eat the yoghurt?`,
         options: [`He is vegan.`, `He is never at home.`, `He doesn't like strawberries.`, `He only drinks coffee.`],
         correctIndex: 2,
         explanation: `"Nein, ich mag keine Erdbeeren."`,
       },
       {
         question: `How does Jonas find the answer?`,
-        options: [`He asks the neighbours.`, `He films the kitchen at night with his phone.`, `He stays awake all night.`, `He counts the yogurts every hour.`],
+        options: [`He asks the neighbours.`, `He films the kitchen at night with his phone.`, `He stays awake all night.`, `He counts the yoghurts every hour.`],
         correctIndex: 1,
         explanation: `"Er stellt sein Handy in die Küche und filmt die ganze Nacht."`,
       },
       {
-        question: `Who eats the yogurts?`,
+        question: `Who eats the yoghurts?`,
         options: [`Lisa`, `Ben`, `A cat`, `Jonas himself, while sleepwalking`],
         correctIndex: 3,
         explanation: `"Es ist Jonas!" and his flatmates say "Du schlafwandelst!"`,
@@ -92,7 +92,7 @@ export const DE_A1_S02_STORIES: Story[] = [
       `Leider ist das Wetter schrecklich. Es regnet jeden Tag, und es ist kalt und windig. Ich kann nicht schwimmen und nicht in der Sonne liegen. Ich trinke viel Tee und lese Bücher.`,
       `Aber am Mittwoch passiert etwas. Ich gehe im Regen am Strand spazieren. Da sehe ich einen Mann mit einem Hund. Der Hund nimmt meine Mütze und läuft weg! Der Mann läuft hinter dem Hund her, und ich laufe hinter dem Mann her.`,
       `Der Mann heißt Malte. Er wohnt hier auf Rügen. Er ist Fischer und sehr nett. Heute Abend gehen wir zusammen essen. Fisch, natürlich!`,
-      `Ich bleibe vielleicht noch eine Woche. Das Wetter ist mir jetzt egal. Viele liebe Grüße, deine Mia. PS: Die Mütze ist kaputt. Aber das ist nicht schlimm.`,
+      `Ich bleibe vielleicht noch eine Woche. Das Wetter ist mir jetzt egal. Viele liebe Grüße deine Mia. PS: Die Mütze ist kaputt. Aber das ist nicht schlimm.`,
     ],
     questions: [
       {
@@ -210,10 +210,10 @@ export const DE_A1_S02_ENGLISH: Record<string, string[]> = {
     `Paul's eyes go wide. "That's Professor Müller. He doesn't like anyone. Really nobody!" Emre laughs. "Okay, Sofia. You get the room. We cook. And you make the toast."`,
   ],
   "de-wer-isst-meinen-joghurt": [
-    `Jonas lives in Freiburg in a shared flat with two friends, Lisa and Ben. Everyone has a shelf in the fridge. Every Monday Jonas buys four strawberry yogurts.`,
-    `But on Wednesday all the yogurts are gone. Jonas writes a note: "Please don't eat my yogurt! Jonas". He sticks the note on the fridge.`,
-    `The next week: no yogurt again. Jonas is furious. "Lisa, are you eating my yogurt?" "No! I don't eat yogurt. I'm vegan." "Ben?" "No, I don't like strawberries."`,
-    `Jonas has an idea. He puts his phone in the kitchen and films all night. In the morning he watches the video. At three o'clock someone opens the fridge. He takes a yogurt and eats it. It's Jonas! He's wearing his pyjamas, and his eyes are closed.`,
+    `Jonas lives in Freiburg in a shared flat with two friends, Lisa and Ben. Everyone has a shelf in the fridge. Every Monday Jonas buys four strawberry yoghurts.`,
+    `But on Wednesday all the yoghurts are gone. Jonas writes a note: "Please don't eat my yoghurt! Jonas". He sticks the note on the fridge.`,
+    `The next week: no yoghurt again. Jonas is furious. "Lisa, are you eating my yoghurt?" "No! I don't eat yoghurt. I'm vegan." "Ben?" "No, I don't like strawberries."`,
+    `Jonas has an idea. He puts his phone in the kitchen and films all night. In the morning he watches the video. At three o'clock someone opens the fridge. He takes a yoghurt and eats it. It's Jonas! He's wearing his pyjamas, and his eyes are closed.`,
     `Lisa and Ben laugh out loud. "You're sleepwalking!" Now the fridge has a lock. Lisa has the key.`,
   ],
   "de-postkarte-von-ruegen": [

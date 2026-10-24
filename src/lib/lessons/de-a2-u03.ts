@@ -8,7 +8,7 @@ export const DE_A2_U03: Lesson[] = [
     level: "DE-A2",
     number: 1,
     title: "The Perfekt with Sein, Part 1 of 2",
-    summary: "Verbs of movement from A to B use sein, not haben: ich bin gefahren, sie ist gegangen, wir sind geflogen.",
+    summary: "Use \"sein\", not \"haben\", with verbs of movement from A to B: \"ich bin gefahren\", \"sie ist gegangen\", \"wir sind geflogen\".",
     duration: "13 min",
     sections: [
       {
@@ -90,7 +90,7 @@ export const DE_A2_U03: Lesson[] = [
         heading: "Same bracket, different helper",
         body: [
           "Everything you know about the bracket still works: \"bin/ist/sind\" in position 2, the participle at the very end. After a time word: \"Gestern bin ich nach Köln gefahren.\" Negative: \"Ich bin nicht gefahren.\" Question: \"Wann bist du gekommen?\"",
-          "The participles of the movement verbs are mostly strong: \"gegangen\", \"gefahren\", \"geflogen\", \"gekommen\", \"gelaufen\". Learn them together with \"ist\": ist gegangen, ist gefahren.",
+          "The participles of the movement verbs are mostly strong: \"gegangen\", \"gefahren\", \"geflogen\", \"gekommen\", \"gelaufen\". Learn them together with \"ist\": \"ist gegangen\", \"ist gefahren\".",
         ],
         examples: [
           { es: "Gestern bin ich nach Köln gefahren.", en: "Yesterday I went to Cologne." },
@@ -209,7 +209,7 @@ export const DE_A2_U03: Lesson[] = [
     level: "DE-A2",
     number: 2,
     title: "Pattern Practice: Ich bin gegangen, du bist gegangen",
-    summary: "Drill bin, bist, ist, sind, seid, sind with gegangen, gefahren, gekommen and geflogen until automatic.",
+    summary: "Drill \"bin\", \"bist\", \"ist\", \"sind\", \"seid\", \"sind\" with \"gegangen\", \"gefahren\", \"gekommen\" and \"geflogen\" until automatic.",
     duration: "10 min",
     sections: [
       {
@@ -247,20 +247,20 @@ export const DE_A2_U03: Lesson[] = [
         heading: "Sind, seid, sind",
         body: [
           "The plural: \"wir sind gefahren\", \"ihr seid gefahren\", \"sie sind gefahren\", and polite \"Sie sind gefahren\". Careful with \"seid\" (you all are) versus \"seit\" (since): they sound the same but mean different things.",
-          "Say the six forms with each verb: bin gegangen, bist gegangen, ist gegangen, sind gegangen, seid gegangen, sind gegangen. Then gefahren, gekommen, geflogen.",
+          "Say the six forms with each verb: \"bin gegangen, bist gegangen, ist gegangen, sind gegangen, seid gegangen, sind gegangen\". Then \"gefahren\", \"gekommen\", \"geflogen\".",
         ],
         examples: [
           { es: "Wir sind mit dem Bus gefahren.", en: "We went by bus." },
           { es: "Ihr seid sehr spät gekommen.", en: "You came very late. (to friends)" },
           { es: "Sie sind nach Spanien geflogen.", en: "They flew to Spain." },
-          { es: "Sind Sie mit dem Auto gekommen?", en: "Did you come by car? (polite)" },
+          { es: "Sind Sie mit dem Auto gekommen?", en: "Did you come by car? (formal)" },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "Did you come by car? (polite)",
+            source: "Did you come by car? (formal)",
             answer: "Sind Sie mit dem Auto gekommen?",
             explanation: "Polite \"Sie\" + \"sind\"; by car = \"mit dem Auto\".",
           },
@@ -297,7 +297,7 @@ export const DE_A2_U03: Lesson[] = [
           {
             type: "speak",
             text: "Nein, ich bin gefahren.",
-            prompt: "Answer aloud: Bist du gelaufen? (No, I drove.)",
+            prompt: "Answer aloud: \"Bist du gelaufen?\" (No, I drove.)",
             explanation: "\"Bist du\" → \"ich bin\".",
           },
         ],
@@ -368,7 +368,7 @@ export const DE_A2_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "My girlfriend and I flew to Vienna. Which completes: Meine Freundin und ich ___ nach Wien geflogen.",
+        question: "My girlfriend and I flew to Vienna. Which completes: \"Meine Freundin und ich ___ nach Wien geflogen.\"",
         options: ["sind", "ist", "seid", "haben"],
         correctIndex: 0,
         explanation: "My girlfriend and I = we: \"sind\".",
@@ -391,7 +391,7 @@ export const DE_A2_U03: Lesson[] = [
     level: "DE-A2",
     number: 3,
     title: "The Perfekt with Sein, Part 2 of 2",
-    summary: "Change of state takes sein too (aufgewacht, eingeschlafen, gestorben, geworden), plus three odd ones: gewesen, geblieben, passiert.",
+    summary: "Use \"sein\" for a change of state too (\"aufgewacht\", \"eingeschlafen\", \"gestorben\", \"geworden\"), plus three odd ones: \"gewesen\", \"geblieben\", \"passiert\".",
     duration: "13 min",
     sections: [
       {
@@ -473,7 +473,7 @@ export const DE_A2_U03: Lesson[] = [
       {
         heading: "The sein list so far",
         body: [
-          "Put together, \"sein\" goes with: movement from A to B (gehen, fahren, fliegen, kommen, laufen, reisen), change of state (aufwachen, einschlafen, sterben, werden, wachsen), and sein, bleiben, passieren. Everything else takes \"haben\".",
+          "Put together, \"sein\" goes with: movement from A to B (\"gehen\", \"fahren\", \"fliegen\", \"kommen\", \"laufen\", \"reisen\"), change of state (\"aufwachen\", \"einschlafen\", \"sterben\", \"werden\", \"wachsen\"), and \"sein\", \"bleiben\", \"passieren\". Everything else takes \"haben\".",
           "Dictionaries mark the sein verbs with (s) or (ist): \"fahren (ist gefahren)\". When you learn a new verb, learn its helper with it.",
         ],
         examples: [
@@ -597,7 +597,7 @@ export const DE_A2_U03: Lesson[] = [
     level: "DE-A2",
     number: 4,
     title: "Separable Participles: Aufgestanden, Eingekauft",
-    summary: "With separable verbs the ge- goes between the prefix and the stem: aufgestanden, eingekauft, angerufen, angekommen.",
+    summary: "Form separable participles with ge- between the prefix and the stem: \"aufgestanden\", \"eingekauft\", \"angerufen\", \"angekommen\".",
     duration: "13 min",
     sections: [
       {
@@ -638,7 +638,7 @@ export const DE_A2_U03: Lesson[] = [
         heading: "The trap: \"*geaufstanden*\"",
         body: [
           "English speakers often put ge- at the front out of habit: \"*geaufstanden*\", \"*geeinkauft*\", \"*geanruft*\". Remember: the prefix is the first thing you hear, then ge-, then the rest.",
-          "With modals you already split the verb differently (\"Ich muss früh aufstehen\"). Don't confuse the two: modal + whole infinitive at the end, haben/sein + prefix-ge-participle at the end.",
+          "With modals you already split the verb differently (\"Ich muss früh aufstehen\"). Don't confuse the two: modal + whole infinitive at the end, \"haben\"/\"sein\" + prefix-ge-participle at the end.",
           "Haben or sein follows the normal rules: \"aufstehen\" (a change: from lying to standing) and \"ankommen\", \"abfahren\", \"einschlafen\" (movement or change) take \"sein\"; \"einkaufen\", \"anrufen\", \"fernsehen\", \"aufräumen\" take \"haben\".",
         ],
         examples: [
@@ -784,7 +784,7 @@ export const DE_A2_U03: Lesson[] = [
         type: "speak",
         text: "Ich bin um sieben aufgestanden und habe eingekauft.",
         prompt: "Say it in German: I got up at seven and did the shopping.",
-        tip: "Stress the prefix: AUF-gestanden, EIN-gekauft.",
+        tip: "Stress the prefix: \"aufgestanden\" (AUF-gestanden), \"eingekauft\" (EIN-gekauft).",
         explanation: "Two helpers: \"bin\" for getting up, \"habe\" for shopping.",
       },
     ],
@@ -794,7 +794,7 @@ export const DE_A2_U03: Lesson[] = [
     level: "DE-A2",
     number: 5,
     title: "Choose & Explain: Haben or Sein?",
-    summary: "Sort verbs by the rule: movement from A to B or change of state takes sein, everything else takes haben.",
+    summary: "Sort verbs by the rule and explain your choice: movement from A to B or change of state takes \"sein\", everything else takes \"haben\".",
     duration: "12 min",
     sections: [
       {
@@ -832,7 +832,7 @@ export const DE_A2_U03: Lesson[] = [
         heading: "Pairs that trip people up",
         body: [
           "\"Ich habe geschlafen\" vs \"ich bin eingeschlafen\". \"Ich habe gearbeitet\" vs \"ich bin geblieben\". \"Ich habe gewartet\" (waiting is not moving) vs \"ich bin gekommen\". \"Ich habe gesessen\" vs \"ich bin aufgestanden\".",
-          "The classic English-speaker mistake is \"*ich habe gegangen*\". Gehen is the model movement verb: always \"ich bin gegangen\".",
+          "The classic English-speaker mistake is \"*ich habe gegangen*\". \"Gehen\" is the model movement verb: always \"ich bin gegangen\".",
         ],
         examples: [
           { es: "Wir haben eine Stunde gewartet, dann ist der Bus gekommen.", en: "We waited an hour, then the bus came." },
@@ -990,7 +990,7 @@ export const DE_A2_U03: Lesson[] = [
     level: "DE-A2",
     number: 6,
     title: "Contrast Clinic: Ich bin gefahren / Ich habe das Auto gefahren",
-    summary: "The same verb can take both helpers: fahren with a direct object takes haben, without one it takes sein.",
+    summary: "Choose the helper for verbs that take both: \"fahren\" with a direct object takes \"haben\", without one it takes \"sein\".",
     duration: "11 min",
     sections: [
       {
@@ -1182,7 +1182,7 @@ export const DE_A2_U03: Lesson[] = [
     level: "DE-A2",
     number: 7,
     title: "Real-World Mission: A Weekend in Hamburg",
-    summary: "Text a friend about your weekend trip to Hamburg, mixing haben and sein in the Perfekt.",
+    summary: "Text a friend about your weekend trip to Hamburg, mixing \"haben\" and \"sein\" in the Perfekt.",
     duration: "13 min",
     sections: [
       {
@@ -1392,7 +1392,7 @@ export const DE_A2_U03: Lesson[] = [
         heading: "The message",
         body: [
           "Sam, a learner in Köln, sent this message to his tandem partner. It's full of slips: \"Gestern \"*ich habe*\" früh \"*geaufgestanden*\". Dann \"*ich habe*\" zur Uni \"*gegangen*\". Mein Professor \"*ist*\" den ganzen Tag \"*gearbeitet*\". Am Abend \"*wir haben*\" zu Hause \"*geblieben*\" und Pizza \"*bestellen*\".\"",
-          "Two kinds of slip dominate: the wrong helper (haben for sein, or the reverse) and ge- in the wrong place. A third is old news: verb-second after \"Gestern\" and \"Dann\".",
+          "Two kinds of slip dominate: the wrong helper (\"haben\" for \"sein\", or the reverse) and ge- in the wrong place. A third is old news: verb-second after \"Gestern\" and \"Dann\".",
         ],
         examples: [
           { es: "Gestern bin ich früh aufgestanden.", en: "Yesterday I got up early." },
@@ -1424,7 +1424,7 @@ export const DE_A2_U03: Lesson[] = [
       {
         heading: "Wrong helper: why?",
         body: [
-          "For each correction, say the reason: \"*Ich habe gegangen*\" → \"bin\" (movement). \"*Er ist gearbeitet*\" → \"hat\" (no movement). \"*Wir haben geblieben*\" → \"sind\" (bleiben is an odd one). \"*Ich habe eingeschlafen*\" → \"bin\" (change of state). \"*Sie ist den Bus genommen*\" → \"hat\" (an object, no movement of her own).",
+          "For each correction, say the reason: \"*Ich habe gegangen*\" → \"bin\" (movement). \"*Er ist gearbeitet*\" → \"hat\" (no movement). \"*Wir haben geblieben*\" → \"sind\" (\"bleiben\" is an odd one). \"*Ich habe eingeschlafen*\" → \"bin\" (change of state). \"*Sie ist den Bus genommen*\" → \"hat\" (an object, no movement of her own).",
           "If two verbs need different helpers, you need both: \"Wir sind zu Hause geblieben und haben Pizza bestellt\", not \"*wir sind geblieben und Pizza bestellt*\".",
         ],
         examples: [
@@ -1530,7 +1530,7 @@ export const DE_A2_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence has no mistake?",
+        question: "Which sentence has no mistake? (The train left on time.)",
         options: ["Der Zug ist pünktlich abgefahren.", "Der Zug hat pünktlich abgefahren.", "Der Zug ist pünktlich geabgefahren.", "Der Zug ist pünktlich abgefahrt."],
         correctIndex: 0,
         explanation: "Movement → \"ist\"; ab + gefahren.",
@@ -1578,7 +1578,7 @@ export const DE_A2_U03: Lesson[] = [
     level: "DE-A2",
     number: 9,
     title: "Spiral Review: The Perfekt + Beginner Essentials",
-    summary: "Mix the Perfekt with haben and sein with Beginner essentials: verb-second, the accusative, separable verbs, modals and the time.",
+    summary: "Mix the Perfekt with \"haben\" and \"sein\" with Beginner essentials: verb-second, the accusative, separable verbs, modals and the time.",
     duration: "13 min",
     sections: [
       {
@@ -1618,7 +1618,7 @@ export const DE_A2_U03: Lesson[] = [
       {
         heading: "Accusative and time in the Perfekt",
         body: [
-          "The accusative works the same in any tense: \"Ich habe einen Kaffee getrunken\", \"Hast du den Schlüssel gefunden?\", \"Wir haben keinen Tisch bekommen\". Only masculine nouns show it (den, einen, keinen).",
+          "The accusative works the same in any tense: \"Ich habe einen Kaffee getrunken\", \"Hast du den Schlüssel gefunden?\", \"Wir haben keinen Tisch bekommen\". Only masculine nouns show it (\"den\", \"einen\", \"keinen\").",
           "Clock times from the Beginner level: \"um halb acht\" (7:30), \"um Viertel nach drei\" (3:15), \"um Viertel vor neun\" (8:45). \"Der Film hat um Viertel nach acht angefangen\" (the film started at 8:15).",
         ],
         examples: [
@@ -1759,6 +1759,6 @@ export const DE_A2_U03_WRITING: WriteExercise = {
     "Uses separable participles with ge- in the middle (\"aufgestanden\", \"angekommen\", \"zurückgefahren\")",
     "Includes \"bleiben\" or \"passieren\" with \"sein\" (\"sind geblieben\", \"ist passiert\")",
   ],
-  modelAnswer: "Liebe Mia, am Freitag bin ich mit Jonas nach Hamburg gefahren. Wir sind um acht Uhr abends angekommen und sind direkt an die Elbe gegangen. Am Samstag sind wir früh aufgestanden und haben eine Hafenrundfahrt gemacht. Mittags haben wir Fischbrötchen gegessen und viele Fotos gemacht. Wir sind zwei Nächte in einem kleinen Hotel geblieben. Am Sonntag ist etwas Lustiges passiert: Jonas ist im Zug eingeschlafen und hat den Bahnhof verpasst! Wir sind dann spät nach Hause zurückgefahren. Bis bald, Lena",
-  explanation: "Verbs of movement from A to B (\"gefahren\", \"gegangen\", \"angekommen\") and change of state (\"aufgestanden\", \"eingeschlafen\") take \"sein\", as do \"bleiben\" and \"passieren\". Everything else, including verbs with an object (\"eine Hafenrundfahrt gemacht\", \"den Bahnhof verpasst\"), takes \"haben\". Separable verbs put ge- between the prefix and the stem.",
+  modelAnswer: "Liebe Mia, am Freitag bin ich mit Jonas nach Hamburg gefahren. Wir sind um acht Uhr abends angekommen und sind direkt an die Elbe gegangen. Am Samstag sind wir früh aufgestanden und haben eine Hafenrundfahrt gemacht. Mittags haben wir Fischbrötchen gegessen und viele Fotos gemacht. Wir sind zwei Nächte in einem kleinen Hotel geblieben. Am Sonntag sind wir zurückgefahren, und dann ist etwas Lustiges passiert: Jonas ist im Zug eingeschlafen, und wir haben fast das Aussteigen verpasst! Bis bald, Lena",
+  explanation: "Verbs of movement from A to B (\"gefahren\", \"gegangen\", \"angekommen\") and change of state (\"aufgestanden\", \"eingeschlafen\") take \"sein\", as do \"bleiben\" and \"passieren\". Everything else, including verbs with an object (\"eine Hafenrundfahrt gemacht\", \"das Aussteigen verpasst\"), takes \"haben\". Separable verbs put ge- between the prefix and the stem.",
 };

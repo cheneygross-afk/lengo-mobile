@@ -17,7 +17,7 @@ export const DE_C1_U03: Lesson[] = [
           "Written German, from news to administration to academia, likes to express actions as nouns. The most productive way is the suffix \"-ung\" on the verb stem: \"untersuchen\" → \"die Untersuchung\", \"entwickeln\" → \"die Entwicklung\", \"erhöhen\" → \"die Erhöhung\", \"anmelden\" → \"die Anmeldung\", \"verspäten\" → \"die Verspätung\".",
           "Every -ung noun is feminine, with no exceptions, and the plural is always \"-ungen\". That makes them easy: \"die Lösung, die Lösungen\".",
           "-ung nouns can mean the action or its result: \"die Übersetzung\" is the act of translating or the translation (text). Often they come from verbs with prefixes (be-, ver-, er-, ent-, an-, ein-...), because simple verbs tend to use other forms (see stem nouns below).",
-          "Trap: not every verb has an -ung noun. You can't say \"*die Ankommung\" (arrival is \"die Ankunft\") or \"*die Verlierung\" (loss is \"der Verlust\"). When unsure, check a dictionary; inventing -ung nouns is a classic Advanced learner error.",
+          "Trap: not every verb has an -ung noun. You can't say \"*die Ankommung*\" (arrival is \"die Ankunft\") or \"*die Verlierung*\" (loss is \"der Verlust\"). When unsure, check a dictionary; inventing -ung nouns is a classic error at advanced level.",
         ],
         examples: [
           { es: "Die Untersuchung hat gezeigt, dass das Wasser sauber ist.", en: "The investigation showed that the water is clean." },
@@ -42,7 +42,7 @@ export const DE_C1_U03: Lesson[] = [
             question: "You want to write: The train's arrival was delayed. Which sentence is correct?",
             options: ["Die Ankunft des Zuges verzögerte sich.", "Die Ankommung des Zuges verzögerte sich.", "Der Ankunft des Zuges verzögerte sich.", "Das Ankunft des Zuges verzögerte sich."],
             correctIndex: 0,
-            explanation: "\"Ankommen\" has a stem noun: \"die Ankunft\" (feminine, an exception among stem nouns). \"*Die Ankommung\" doesn't exist, and \"der\"/\"das\" are the wrong gender for a subject.",
+            explanation: "\"Ankommen\" has a stem noun: \"die Ankunft\" (feminine, an exception among stem nouns). \"*Die Ankommung*\" doesn't exist, and \"der\"/\"das\" are the wrong gender for a subject.",
           },
           {
             type: "listen-choose",
@@ -57,7 +57,7 @@ export const DE_C1_U03: Lesson[] = [
       {
         heading: "Das Lesen, beim Kochen: the nominalised infinitive",
         body: [
-          "Any infinitive can become a noun: capitalise it and it's automatically neuter: \"lesen\" → \"das Lesen\" (reading), \"rauchen\" → \"das Rauchen\", \"Autofahren\" → \"das Autofahren\". It expresses the activity in general, like English -ing.",
+          "Any infinitive can become a noun: capitalise it and it's automatically neuter: \"lesen\" → \"das Lesen\" (reading), \"rauchen\" → \"das Rauchen\", \"Auto fahren\" → \"das Autofahren\" (written as one word once it's a noun). It expresses the activity in general, like English -ing.",
           "It's extremely common after contracted prepositions: \"beim Kochen\" (while cooking), \"zum Mitnehmen\" (to take away), \"vom Laufen\" (from running), \"ins Schwitzen kommen\" (to start sweating). Capitalisation is essential: \"beim lesen\" is a spelling error.",
           "When a verb has both forms, they differ: \"das Untersuchen\" is the ongoing activity, \"die Untersuchung\" the procedure or result. \"Das Rauchen ist verboten\" (the activity), but \"die Lösung\" (the result), \"das Lösen\" (the act of solving).",
         ],
@@ -152,7 +152,7 @@ export const DE_C1_U03: Lesson[] = [
         source: "The loss of the contract was a shock.",
         answer: "Der Verlust des Auftrags war ein Schock.",
         altAnswers: ["Der Verlust des Auftrages war ein Schock."],
-        explanation: "\"Verlieren\" → \"der Verlust\" (not \"*die Verlierung\").",
+        explanation: "\"Verlieren\" → \"der Verlust\" (not \"*die Verlierung*\").",
       },
       {
         type: "translate",
@@ -176,7 +176,7 @@ export const DE_C1_U03: Lesson[] = [
         question: "You want to write: The investigation took two weeks. Which sentence is correct?",
         options: ["Die Untersuchung dauerte zwei Wochen.", "Der Untersuchung dauerte zwei Wochen.", "Das Untersuchung dauerte zwei Wochen.", "Die Untersuchen dauerte zwei Wochen."],
         correctIndex: 0,
-        explanation: "Every -ung noun is feminine: \"die Untersuchung\". \"Der\" would only be genitive or dative here, and \"*die Untersuchen\" mixes the article with an infinitive.",
+        explanation: "Every -ung noun is feminine: \"die Untersuchung\". \"Der\" would only be genitive or dative here, and \"*die Untersuchen*\" mixes the article with an infinitive.",
       },
       {
         type: "translate",
@@ -280,7 +280,7 @@ export const DE_C1_U03: Lesson[] = [
             type: "listen-choose",
             audio: "Es gibt keine andere Möglichkeit.",
             question: "What does it mean?",
-            options: ["There's no other option.", "It isn't possible otherwise.", "There's another possibility.", "Nobody else is able to."],
+            options: ["There's no other option.", "That isn't possible yet.", "There's another possibility.", "Nobody else is able to."],
             correctIndex: 0,
             explanation: "\"Möglich\" → \"die Möglichkeit\": possibility, option.",
           },
@@ -291,7 +291,7 @@ export const DE_C1_U03: Lesson[] = [
         body: [
           "A smaller but very frequent group adds \"-e\" and an umlaut to the adjective: \"lang\" → \"die Länge\", \"warm\" → \"die Wärme\", \"kalt\" → \"die Kälte\", \"stark\" → \"die Stärke\", \"groß\" → \"die Größe\", \"hoch\" → \"die Höhe\", \"breit\" → \"die Breite\", \"nah\" → \"die Nähe\", \"schwach\" → \"die Schwäche\".",
           "These are often measurements and physical qualities. All are feminine. Note \"hoch\" → \"die Höhe\" (the ch disappears).",
-          "Don't add \"-heit\" to these adjectives: \"die Schwachheit\" is rare and old-fashioned (frailty), and \"*die Großheit\" doesn't exist; the normal nouns are \"die Schwäche\" (weakness) and \"die Größe\" (size, greatness).",
+          "Don't add \"-heit\" to these adjectives: \"die Schwachheit\" is rare and old-fashioned (frailty), and \"*die Großheit*\" doesn't exist; the normal nouns are \"die Schwäche\" (weakness) and \"die Größe\" (size, greatness).",
         ],
         examples: [
           { es: "Die Länge des Textes ist auf 300 Wörter begrenzt.", en: "The length of the text is limited to 300 words." },
@@ -479,7 +479,7 @@ export const DE_C1_U03: Lesson[] = [
     level: "DE-C1",
     number: 3,
     title: "Nominalization, Part 3 of 6",
-    summary: "Clause → noun phrase: the subject or object becomes a genitive, the adverb an adjective, and the verb's preposition stays (die Bewerbung um eine Stelle).",
+    summary: "You'll be able to turn a clause into a noun phrase: the subject or object becomes a genitive, the adverb an adjective, and the verb's preposition stays (\"die Bewerbung um eine Stelle\").",
     duration: "18 min",
     sections: [
       {
@@ -644,7 +644,7 @@ export const DE_C1_U03: Lesson[] = [
         question: "Which noun phrase corresponds to: \"Die Zahl der Unfälle ist deutlich gesunken.\"?",
         options: ["der deutliche Rückgang der Zahl der Unfälle", "der deutlich Rückgang der Unfälle", "die deutliche Sinkung der Unfälle", "der Rückgang deutlich der Unfälle"],
         correctIndex: 0,
-        explanation: "\"Sinken\" → \"der Rückgang\" (no \"*Sinkung\"); adverb → adjective with ending \"deutliche\".",
+        explanation: "\"Sinken\" → \"der Rückgang\" (no \"*Sinkung*\"); adverb → adjective with ending \"deutliche\".",
       },
       {
         type: "translate",
@@ -877,7 +877,7 @@ export const DE_C1_U03: Lesson[] = [
         question: "You want to write: The loss was enormous. Which sentence is correct?",
         options: ["Der Verlust war enorm.", "Die Verlierung war enorm.", "Das Verlust war enorm.", "Die Verlust war enorm."],
         correctIndex: 0,
-        explanation: "\"Verlieren\" has the masculine stem noun \"der Verlust\"; \"*die Verlierung\" is invented.",
+        explanation: "\"Verlieren\" has the masculine stem noun \"der Verlust\"; \"*die Verlierung*\" is invented.",
       },
       {
         type: "fill-blank",
@@ -1141,7 +1141,8 @@ export const DE_C1_U03: Lesson[] = [
         prompt: "Put the words in order to say: In case of fire do not use the lift.",
         words: ["Bei", "Feuer", "den", "Aufzug", "nicht", "benutzen."],
         translation: "In case of fire do not use the lift.",
-        explanation: "\"Bei\" + noun for a condition, infinitive as instruction (Unit 4).",
+        altOrders: [["Den", "Aufzug", "bei", "Feuer", "nicht", "benutzen."]],
+        explanation: "\"Bei\" + noun for a condition (= \"wenn es brennt\"); the bare infinitive at the end is the instruction style of signs (more in Unit 4).",
       },
       {
         type: "translate",
@@ -1433,7 +1434,7 @@ export const DE_C1_U03: Lesson[] = [
     level: "DE-C1",
     number: 7,
     title: "Nominalization, Part 4 of 6",
-    summary: "Decode and build the extended academic noun phrase: participial attributes on the left, genitives, prepositional phrases and relative clauses on the right.",
+    summary: "You'll be able to decode and build the extended academic noun phrase: participial attributes on the left, genitives, prepositional phrases and relative clauses on the right.",
     duration: "19 min",
     sections: [
       {
@@ -1539,7 +1540,7 @@ export const DE_C1_U03: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "[the airport that opened] three years ago",
+            en: "the airport that [opened] three years ago",
             sentence: "der vor drei Jahren ___ Flughafen",
             answer: "eröffnete",
             explanation: "Partizip II \"eröffnet\" + weak ending -e after \"der\".",
@@ -1683,7 +1684,7 @@ export const DE_C1_U03: Lesson[] = [
             source: "The demand for higher wages is justified.",
             answer: "Die Forderung nach höheren Löhnen ist berechtigt.",
             altAnswers: ["Die Forderung nach mehr Lohn ist berechtigt.", "Die Forderung nach höheren Gehältern ist berechtigt."],
-            explanation: "\"Die Forderung nach\" + dative, not \"*für\".",
+            explanation: "\"Die Forderung nach\" + dative, not \"*für*\".",
           },
           {
             type: "fill-blank",
@@ -1707,7 +1708,7 @@ export const DE_C1_U03: Lesson[] = [
         body: [
           "Statistics and news use precise prepositions with numbers: \"um\" for the size of the change, \"auf\" for the new value, \"von ... auf\" for the start and end values.",
           "\"Der Rückgang um 3 Prozent\" (a decline of 3 per cent), \"der Anstieg auf 5 Prozent\" (a rise to 5 per cent), \"die Erhöhung von 10 auf 12 Euro\" (an increase from 10 to 12 euros). The verbs work the same way: \"um 3 % sinken\", \"auf 5 % steigen\".",
-          "English of and to don't map neatly: a rise of 2 % = \"ein Anstieg um 2 %\", not \"*von 2 %\". \"Ein Anstieg von 2 %\" exists, but in careful writing \"um\" is clearer.",
+          "English of and to don't map neatly: a rise of 2% is best \"ein Anstieg um 2 %\". \"Ein Anstieg von 2 %\" also exists, but in careful writing \"um\" is clearer, because \"von\" can also mark the starting value (\"von 2 auf 3 %\").",
         ],
         examples: [
           { es: "Der Umsatz ist um 3 Prozent zurückgegangen.", en: "Sales fell by 3 per cent." },
@@ -1803,7 +1804,7 @@ export const DE_C1_U03: Lesson[] = [
         source: "The fear of unemployment is growing.",
         answer: "Die Angst vor Arbeitslosigkeit wächst.",
         altAnswers: ["Die Angst vor der Arbeitslosigkeit wächst.", "Die Angst vor Arbeitslosigkeit nimmt zu."],
-        explanation: "\"Angst vor\" + dative, not \"*von\".",
+        explanation: "\"Angst vor\" + dative, not \"*von*\".",
       },
       {
         type: "translate",
@@ -1986,7 +1987,7 @@ export const DE_C1_U03: Lesson[] = [
       {
         heading: "The formal version",
         body: [
-          "Mehmet's rewritten email: \"Sehr geehrte Damen und Herren, aufgrund meines Umzugs innerhalb Kölns bitte ich um Ummeldung meines Wohnsitzes. Wegen eines beruflichen Auslandsaufenthalts bis Ende Mai ist mir eine persönliche Vorsprache leider nicht möglich. Besteht die Möglichkeit einer Online-Ummeldung? Für eine kurze Information über eventuelle Gebühren bei verspäteter Ummeldung wäre ich Ihnen dankbar. Mit freundlichen Grüßen, Mehmet Yılmaz\"",
+          "Mehmet's rewritten email: \"Sehr geehrte Damen und Herren, aufgrund meines Umzugs innerhalb Kölns bitte ich um Ummeldung meines Wohnsitzes. Wegen eines beruflichen Auslandsaufenthalts bis Ende Mai ist mir eine persönliche Vorsprache leider nicht möglich. Besteht die Möglichkeit einer Online-Ummeldung? Für eine kurze Information über eventuelle Gebühren bei verspäteter Ummeldung wäre ich Ihnen dankbar. Mit freundlichen Grüßen Mehmet Yılmaz\"",
           "Compare: three \"weil / wenn\" clauses and a direct question became four prepositional phrases (\"aufgrund\", \"wegen\", \"für\", \"bei\"). The polite Konjunktiv \"wäre ich Ihnen dankbar\" from Unit 1 replaces a direct question.",
         ],
         examples: [
@@ -2109,15 +2110,15 @@ export const DE_C1_U03: Lesson[] = [
     level: "DE-C1",
     number: 10,
     title: "Error Hunt: Noun Derivation and Gender",
-    summary: "You'll be able to spot and correct invented nouns (\"*die Ankommung\", \"*die Verlierung\", \"*die Erhöhe\"), wrong genders (\"*der Teilnahme\", \"*das Entwicklung\") and missing capitals (\"*beim lesen\").",
+    summary: "You'll be able to spot and correct invented nouns (\"*die Ankommung*\", \"*die Verlierung*\", \"*die Erhöhe*\"), wrong genders (\"*der Teilnahme*\", \"*das Entwicklung*\") and missing capitals (\"*beim lesen*\").",
     duration: "16 min",
     sections: [
       {
         heading: "Invented nouns",
         body: [
-          "Error 1, from a report: \"*Die Ankommung der Gäste war um acht.\" Learners overgeneralise -ung. \"Ankommen\" has the stem noun \"die Ankunft\": \"Die Ankunft der Gäste war um acht.\"",
-          "Error 2: \"*Die Verlierung des Spiels war bitter.\" → \"Die Niederlage\" (defeat) or \"der Verlust\" (loss of something you had). For a game: \"Die Niederlage war bitter.\"",
-          "Error 3: \"*Die Beschließung des Rats\" → \"der Beschluss des Rats\". Error 4: \"*Die Erhöhe der Preise\" → \"die Erhöhung der Preise\" (the -e noun is \"die Höhe\", from the adjective \"hoch\", not from the verb \"erhöhen\").",
+          "Error 1, from a report: \"*Die Ankommung der Gäste war um acht.*\" Learners overgeneralise -ung. \"Ankommen\" has the stem noun \"die Ankunft\": \"Die Ankunft der Gäste war um acht.\"",
+          "Error 2: \"*Die Verlierung des Spiels war bitter.*\" → \"Die Niederlage\" (defeat) or \"der Verlust\" (loss of something you had). For a game: \"Die Niederlage war bitter.\"",
+          "Error 3: \"*Die Beschließung des Rats*\" → \"der Beschluss des Rats\". Error 4: \"*Die Erhöhe der Preise*\" → \"die Erhöhung der Preise\" (the -e noun is \"die Höhe\", from the adjective \"hoch\", not from the verb \"erhöhen\").",
           "Strategy: if a stem noun exists (\"der Beschluss\", \"der Verlust\", \"die Ankunft\", \"der Anstieg\"), German usually doesn't also have an -ung noun for the same meaning.",
         ],
         examples: [
@@ -2135,7 +2136,7 @@ export const DE_C1_U03: Lesson[] = [
             source: "The guests arrived at eight. (nominal style: The arrival of the guests ...)",
             answer: "Die Ankunft der Gäste war um acht.",
             altAnswers: ["Die Ankunft der Gäste war um acht Uhr.", "Die Ankunft der Gäste erfolgte um acht."],
-            explanation: "\"Ankommen\" → \"die Ankunft\", not \"*die Ankommung\".",
+            explanation: "\"Ankommen\" → \"die Ankunft\", not \"*die Ankommung*\".",
           },
           {
             type: "translate",
@@ -2144,7 +2145,7 @@ export const DE_C1_U03: Lesson[] = [
             source: "Losing his job hit him hard.",
             answer: "Der Verlust seines Jobs hat ihn hart getroffen.",
             altAnswers: ["Der Verlust seiner Arbeit hat ihn hart getroffen.", "Der Verlust seiner Stelle hat ihn hart getroffen.", "Der Verlust seines Arbeitsplatzes hat ihn hart getroffen.", "Der Jobverlust hat ihn hart getroffen."],
-            explanation: "\"Verlieren\" → \"der Verlust\" (+ genitive), not \"*die Verlierung\".",
+            explanation: "\"Verlieren\" → \"der Verlust\" (+ genitive), not \"*die Verlierung*\".",
           },
           {
             type: "multiple-choice",
@@ -2158,9 +2159,9 @@ export const DE_C1_U03: Lesson[] = [
       {
         heading: "Wrong gender",
         body: [
-          "Error 5: \"Wegen der Teilnahme\" (genitive) is right, but \"*Der Teilnahme war freiwillig\" is wrong: \"die Teilnahme\" is feminine (-nahme from \"nehmen\" is always feminine: \"die Abnahme, die Zunahme, die Ausnahme\").",
-          "Error 6: \"*das Entwicklung\" → \"die Entwicklung\": -ung is always feminine. Error 7: \"*die Rauchen\" → \"das Rauchen\": infinitives are always neuter.",
-          "Error 8: \"*die Optimismus\" → \"der Optimismus\" (-ismus masculine). Error 9: \"*der Freiheit\" (nominative) → \"die Freiheit\".",
+          "Error 5: \"Wegen der Teilnahme\" (genitive) is right, but \"*Der Teilnahme war freiwillig*\" is wrong: \"die Teilnahme\" is feminine (-nahme from \"nehmen\" is always feminine: \"die Abnahme, die Zunahme, die Ausnahme\").",
+          "Error 6: \"*das Entwicklung*\" → \"die Entwicklung\": -ung is always feminine. Error 7: \"*die Rauchen*\" → \"das Rauchen\": infinitives are always neuter.",
+          "Error 8: \"*die Optimismus*\" → \"der Optimismus\" (-ismus masculine). Error 9: \"*der Freiheit*\" (nominative) → \"die Freiheit\".",
         ],
         examples: [
           { es: "Die Teilnahme ist freiwillig.", en: "Participation is voluntary." },
@@ -2200,8 +2201,8 @@ export const DE_C1_U03: Lesson[] = [
       {
         heading: "Capitalisation",
         body: [
-          "Error 10: \"*Beim lesen schlafe ich ein.\" Nominalised infinitives are nouns and must be capitalised: \"Beim Lesen schlafe ich ein.\" The signal is the article or contracted preposition (\"beim\", \"zum\", \"vom\", \"das\").",
-          "Error 11: \"*Das gute daran ist ...\" → \"Das Gute daran ist ...\". Nominalised adjectives after \"das\", \"etwas\", \"nichts\", \"viel\", \"wenig\", \"alles\" are capitalised: \"etwas Neues\", \"nichts Besonderes\", \"alles Gute\".",
+          "Error 10: \"*Beim lesen schlafe ich ein.*\" Nominalised infinitives are nouns and must be capitalised: \"Beim Lesen schlafe ich ein.\" The signal is the article or contracted preposition (\"beim\", \"zum\", \"vom\", \"das\").",
+          "Error 11: \"*Das gute daran ist ...*\" → \"Das Gute daran ist ...\". Nominalised adjectives after \"das\", \"etwas\", \"nichts\", \"viel\", \"wenig\", \"alles\" are capitalised: \"etwas Neues\", \"nichts Besonderes\", \"alles Gute\".",
           "But: adjectives referring back to an omitted noun stay lowercase: \"Welches Kleid? Das rote.\" And superlatives with \"am\" stay lowercase: \"am besten\".",
         ],
         examples: [
@@ -2247,7 +2248,7 @@ export const DE_C1_U03: Lesson[] = [
         source: "The council's decision was published.",
         answer: "Der Beschluss des Rats wurde veröffentlicht.",
         altAnswers: ["Der Beschluss des Rates wurde veröffentlicht.", "Der Beschluss des Rats ist veröffentlicht worden.", "Die Entscheidung des Rats wurde veröffentlicht."],
-        explanation: "\"Beschließen\" → \"der Beschluss\", not \"*die Beschließung\".",
+        explanation: "\"Beschließen\" → \"der Beschluss\", not \"*die Beschließung*\".",
       },
       {
         type: "translate",
@@ -2256,7 +2257,7 @@ export const DE_C1_U03: Lesson[] = [
         source: "The defeat against Bayern was bitter.",
         answer: "Die Niederlage gegen Bayern war bitter.",
         altAnswers: ["Die Niederlage gegen die Bayern war bitter."],
-        explanation: "A lost game is \"die Niederlage\", not \"*die Verlierung\".",
+        explanation: "A lost game is \"die Niederlage\", not \"*die Verlierung*\".",
       },
       {
         type: "translate",
@@ -2393,7 +2394,7 @@ export const DE_C1_U03: Lesson[] = [
           { es: "Eine Prüfung wird vorgenommen. → Wir prüfen das.", en: "A check will be carried out. → We'll check it." },
           { es: "Es liegt ein Fehler vor. → Es gibt einen Fehler.", en: "There is an error." },
           { es: "Das Konzert findet im Park statt.", en: "The concert takes place in the park." },
-          { es: "Die Auszahlung des Betrags erfolgt nach Prüfung. → Wir zahlen den Betrag aus, wenn wir alles geprüft haben.", en: "The amount will be paid out after checking." },
+          { es: "Die Auszahlung des Betrags erfolgt nach Prüfung. → Wir zahlen den Betrag aus, wenn wir alles geprüft haben.", en: "The amount will be paid out after checking. → We'll pay out the amount once we've checked everything." },
         ],
         checkpoint: [
           {
@@ -2540,7 +2541,7 @@ export const DE_C1_U03: Lesson[] = [
         prompt: "Translate into German.",
         source: "Once you've signed up, you'll get an email. (to a friend)",
         answer: "Wenn du dich angemeldet hast, kriegst du eine Mail.",
-        altAnswers: ["Wenn du dich angemeldet hast, bekommst du eine Mail.", "Sobald du dich angemeldet hast, kriegst du eine Mail.", "Sobald du dich angemeldet hast, bekommst du eine Mail.", "Wenn du dich angemeldet hast, bekommst du eine E-Mail."],
+        altAnswers: ["Wenn du dich angemeldet hast, bekommst du eine Mail.", "Sobald du dich angemeldet hast, kriegst du eine Mail.", "Sobald du dich angemeldet hast, bekommst du eine Mail.", "Wenn du dich angemeldet hast, bekommst du eine E-Mail.", "Wenn du dich angemeldet hast, kriegst du eine E-Mail.", "Sobald du dich angemeldet hast, kriegst du eine E-Mail.", "Sobald du dich angemeldet hast, bekommst du eine E-Mail."],
         explanation: "Chat style: verbal, \"kriegen\" for bekommen.",
       },
       {
@@ -3023,6 +3024,6 @@ export const DE_C1_U03_WRITING: WriteExercise = {
   minWords: 180,
   maxWords: 300,
   rubric: ["Formal version built on nouns: \"aufgrund\" / \"wegen\" / \"nach\" / \"bei\" + an action noun (\"aufgrund der Sanierung\", \"nach Abschluss der Arbeiten\")", "Uses at least two Funktionsverbgefüge or empty verbs (\"zur Verfügung stehen\", \"in Anspruch nehmen\", \"erfolgen\", \"in Betrieb nehmen\")", "Uses correct genders and genitives for derived nouns (\"die Erneuerung der Duschen\", \"der Beginn\", \"die Wiedereröffnung\")", "Chat version verbalises the same content with weil / wenn / nachdem clauses and a direct tone"],
-  modelAnswer: "Bekanntmachung\n\nAufgrund umfangreicher Sanierungsarbeiten bleibt das Hallenbad Südvorstadt vom 4. bis 18. November geschlossen. Im Rahmen der Modernisierung erfolgt die Erneuerung der Duschen sowie der Austausch der veralteten Lüftungsanlage. Nach Abschluss der Arbeiten ist mit einer deutlichen Senkung des Energieverbrauchs zu rechnen. Die Wiedereröffnung ist für Montag, den 19. November, geplant.\n\nWährend der Schließung stehen den Mitgliedern des Schwimmvereins die Bahnen im Stadtbad Mitte zur Verfügung. Inhaber einer Jahreskarte können eine Verlängerung ihrer Karte um zwei Wochen in Anspruch nehmen; die Beantragung erfolgt an der Kasse. Bei Rückfragen wenden Sie sich bitte an die Verwaltung des Bades.\n\nWir bitten um Ihr Verständnis.\n\n---\n\nHallo zusammen! Kurze Info: Das Hallenbad ist vom 4. bis 18. November zu, weil die Duschen und die Lüftung erneuert werden. Danach soll das Bad viel weniger Energie verbrauchen. Wenn ihr im Verein schwimmt, könnt ihr in der Zeit ins Stadtbad Mitte gehen. Und falls ihr eine Jahreskarte habt: Die wird um zwei Wochen verlängert, ihr müsst nur an der Kasse Bescheid sagen. Nachdem alles fertig ist, macht das Bad am 19. November wieder auf. Bei Fragen meldet euch einfach!",
-  explanation: "The notice turns clauses into prepositional phrases with action nouns (\"aufgrund umfangreicher Sanierungsarbeiten\", \"nach Abschluss der Arbeiten\", \"während der Schließung\", \"bei Rückfragen\"), uses -ung nouns, which are always feminine (\"die Erneuerung\", \"die Senkung\", \"die Verlängerung\", \"die Beantragung\"), stem nouns (\"der Austausch\", \"der Abschluss\"), genitive attributes, the empty verb \"erfolgen\" and the Funktionsverbgefüge \"zur Verfügung stehen\" and \"in Anspruch nehmen\". The chat version verbalises the same information: \"weil ... erneuert werden\", \"wenn ihr ... schwimmt\", \"nachdem alles fertig ist\".",
+  modelAnswer: "Bekanntmachung\n\nAufgrund umfangreicher Sanierungsarbeiten bleibt das Hallenbad Südvorstadt vom 4. bis 18. November geschlossen. Im Rahmen der Modernisierung erfolgt die Erneuerung der Duschen sowie der Austausch der veralteten Lüftungsanlage. Nach Abschluss der Arbeiten ist mit einer deutlichen Senkung des Energieverbrauchs zu rechnen. Die Wiedereröffnung ist für Montag, den 19. November, geplant.\n\nWährend der Schließung stehen den Mitgliedern des Schwimmvereins die Bahnen im Stadtbad Mitte zur Verfügung. Inhaber einer Jahreskarte können eine Verlängerung ihrer Karte um zwei Wochen in Anspruch nehmen; die Beantragung erfolgt an der Kasse. Bei Rückfragen wenden Sie sich bitte an die Verwaltung des Bades.\n\nWir bitten um Ihr Verständnis.\n\n---\n\nHallo zusammen! Kurze Info: Das Hallenbad ist vom 4. bis 18. November zu, weil die Duschen und die Lüftung erneuert werden. Danach soll das Bad viel weniger Energie verbrauchen. Wenn ihr im Verein schwimmt, könnt ihr in der Zeit ins Stadtbad Mitte gehen. Und falls ihr eine Jahreskarte habt: Die wird um zwei Wochen verlängert, ihr müsst nur an der Kasse Bescheid sagen. Nachdem alles erneuert worden ist, macht das Bad am 19. November wieder auf. Bei Fragen meldet euch einfach!",
+  explanation: "The notice turns clauses into prepositional phrases with action nouns (\"aufgrund umfangreicher Sanierungsarbeiten\", \"nach Abschluss der Arbeiten\", \"während der Schließung\", \"bei Rückfragen\"), uses -ung nouns, which are always feminine (\"die Erneuerung\", \"die Senkung\", \"die Verlängerung\", \"die Beantragung\"), stem nouns (\"der Austausch\", \"der Abschluss\"), genitive attributes, the empty verb \"erfolgen\" and the Funktionsverbgefüge \"zur Verfügung stehen\" and \"in Anspruch nehmen\". The chat version verbalises the same information: \"weil ... erneuert werden\", \"wenn ihr ... schwimmt\", \"nachdem alles erneuert worden ist\" (\"nachdem\" takes the earlier tense).",
 };

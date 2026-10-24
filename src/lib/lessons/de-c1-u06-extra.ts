@@ -188,7 +188,7 @@ export const DE_C1_U06_EXTRA: Lesson[] = [
           { es: "Nachdem die Königin gestorben war, heiratete der König wieder.", en: "After the queen had died, the king remarried." },
           { es: "Eines Tages kam ein Wanderer ins Dorf.", en: "One day a traveller came to the village." },
           { es: "Sophie Scholl wurde 1921 in Forchtenberg geboren.", en: "Sophie Scholl was born in Forchtenberg in 1921." },
-          { es: "Sie hatte gerade ihr Studium begonnen, als sie verhaftet wurde.", en: "She had just started university when she was arrested." },
+          { es: "Sie hatte erst im Jahr zuvor ihr Studium in München begonnen, als sie 1943 verhaftet wurde.", en: "She had only started university in Munich the year before when she was arrested in 1943." },
           { es: "1961 baut die DDR die Mauer.", en: "In 1961 the GDR builds the Wall." },
         ],
         checkpoint: [
@@ -204,7 +204,7 @@ export const DE_C1_U06_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "She [had just started] university when she was arrested.",
+            en: "She [had just] started university when she was arrested.",
             sentence: "Sie ___ ihr Studium begonnen, als sie verhaftet wurde.",
             answer: "hatte gerade",
             altAnswers: ["hatte eben", "hatte soeben"],
@@ -314,6 +314,7 @@ export const DE_C1_U06_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: One day a stranger came to the village.",
         words: ["Eines Tages", "kam", "ein Fremder", "ins Dorf."],
         translation: "One day a stranger came to the village.",
+        altOrders: [["Ein Fremder", "kam", "eines Tages", "ins Dorf."]],
         explanation: "Time phrase first, verb second.",
       },
       {
@@ -479,7 +480,7 @@ export const DE_C1_U06_EXTRA: Lesson[] = [
           { left: "erschreckte", right: "frightened someone" },
           { left: "schwor", right: "swore an oath" },
         ],
-        explanation: "Strong forms are intransitive; weak forms take an object.",
+        explanation: "In the \"hängen\" and \"erschrecken\" pairs the strong form is intransitive and the weak one takes an object; \"schwor\" is simply a strong verb.",
       },
       {
         type: "listen-choose",
@@ -617,7 +618,7 @@ export const DE_C1_U06_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Mia wrote that she [had found] a flat.",
+        en: "Mia wrote that she [had] found a flat.",
         sentence: "Mia schrieb, sie ___ eine Wohnung gefunden.",
         answer: "habe",
         explanation: "Konjunktiv I past: \"habe ... gefunden\".",

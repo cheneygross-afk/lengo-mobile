@@ -8,7 +8,7 @@ export const DE_B1_U35: Lesson[] = [
     level: "DE-B1",
     number: 1,
     title: "Intermediate Challenge: Word Order Without Hints",
-    summary: "Place every verb yourself: verb second after adverbs and fronted clauses, verb last in subordinate and relative clauses, zu-infinitives, je...desto, and modal and passive clusters.",
+    summary: "Place every verb yourself: verb second after adverbs and fronted clauses, verb last in subordinate and relative clauses, zu-infinitives, \"je ... desto\", and modal and passive clusters.",
     duration: "15 min",
     sections: [
       {
@@ -138,7 +138,7 @@ export const DE_B1_U35: Lesson[] = [
         prompt: "Translate into German.",
         source: "I think that the meeting has been cancelled.",
         answer: "Ich glaube, dass die Besprechung abgesagt worden ist.",
-        altAnswers: ["Ich glaube, dass die Besprechung abgesagt wurde.", "Ich glaube, das Meeting ist abgesagt worden.", "Ich glaube, dass das Meeting abgesagt wurde.", "Ich glaube, dass das Meeting abgesagt worden ist.", "Ich glaube, die Besprechung ist abgesagt worden.", "Ich glaube, die Besprechung wurde abgesagt."],
+        altAnswers: ["Ich glaube, dass die Besprechung abgesagt wurde.", "Ich glaube, das Meeting ist abgesagt worden.", "Ich glaube, dass das Meeting abgesagt wurde.", "Ich glaube, dass das Meeting abgesagt worden ist.", "Ich glaube, die Besprechung ist abgesagt worden.", "Ich glaube, die Besprechung wurde abgesagt.", "Ich glaube, das Meeting wurde abgesagt."],
         explanation: "Perfekt passive at the end of a dass-clause: \"abgesagt worden ist\".",
       },
       {
@@ -147,7 +147,7 @@ export const DE_B1_U35: Lesson[] = [
         prompt: "Translate into German.",
         source: "That's the colleague I told you about. (to a friend)",
         answer: "Das ist die Kollegin, von der ich dir erzählt habe.",
-        altAnswers: ["Das ist der Kollege, von dem ich dir erzählt habe.", "Das ist die Kollegin, von der ich dir erzählt hatte.", "Das ist der Kollege, von dem ich dir erzählt hatte.", "Das ist die Kollegin, über die ich dir erzählt habe."],
+        altAnswers: ["Das ist der Kollege, von dem ich dir erzählt habe.", "Das ist die Kollegin, von der ich dir erzählt hatte.", "Das ist der Kollege, von dem ich dir erzählt hatte.", "Das ist die Kollegin, über die ich dir erzählt habe.", "Das ist der Kollege, über den ich dir erzählt habe."],
         explanation: "Preposition + relative pronoun at the start of the relative clause; verb last.",
       },
       {
@@ -156,7 +156,7 @@ export const DE_B1_U35: Lesson[] = [
         prompt: "Translate into German.",
         source: "Although it was late, we went on working.",
         answer: "Obwohl es spät war, haben wir weitergearbeitet.",
-        altAnswers: ["Obwohl es spät war, arbeiteten wir weiter."],
+        altAnswers: ["Obwohl es spät war, arbeiteten wir weiter.", "Wir haben weitergearbeitet, obwohl es spät war."],
         explanation: "Verb, comma, verb: \"war, haben\".",
       },
       {
@@ -165,7 +165,7 @@ export const DE_B1_U35: Lesson[] = [
         prompt: "Translate into German.",
         source: "Don't forget to switch off the light. (to a friend)",
         answer: "Vergiss nicht, das Licht auszumachen.",
-        altAnswers: ["Vergiss nicht, das Licht auszuschalten.", "Vergesst nicht, das Licht auszumachen.", "Vergessen Sie nicht, das Licht auszumachen.", "Denk daran, das Licht auszumachen."],
+        altAnswers: ["Vergiss nicht, das Licht auszuschalten.", "Denk daran, das Licht auszumachen.", "Denk daran, das Licht auszuschalten."],
         explanation: "Imperative first; zu-infinitive with \"zu\" inside \"ausmachen\".",
       },
       {
@@ -181,6 +181,7 @@ export const DE_B1_U35: Lesson[] = [
         prompt: "Put the words in order to say: In my opinion the city should build more flats.",
         words: ["Meiner", "Meinung", "nach", "sollte", "die", "Stadt", "mehr", "Wohnungen", "bauen."],
         translation: "In my opinion the city should build more flats.",
+        altOrders: [["Die", "Stadt", "sollte", "meiner", "Meinung", "nach", "mehr", "Wohnungen", "bauen."]],
         explanation: "Opinion phrase in position 1, modal second, subject third.",
       },
       {
@@ -312,6 +313,7 @@ export const DE_B1_U35: Lesson[] = [
             prompt: "Put the words in order to say: After they had eaten, they went to the beach.",
             words: ["Nachdem", "sie", "gegessen", "hatten,", "gingen", "sie", "an", "den", "Strand."],
             translation: "After they had eaten, they went to the beach.",
+            altOrders: [["Sie", "gingen", "an", "den", "Strand,", "nachdem", "sie", "gegessen", "hatten."]],
             explanation: "Plusquamperfekt in the nachdem-clause, Präteritum in the main clause.",
           },
           {
@@ -606,8 +608,8 @@ export const DE_B1_U35: Lesson[] = [
         prompt: "Translate into German.",
         source: "Put the bottles in the fridge. (to a friend)",
         answer: "Stell die Flaschen in den Kühlschrank.",
-        altAnswers: ["Stellt die Flaschen in den Kühlschrank.", "Stellen Sie die Flaschen in den Kühlschrank.", "Tu die Flaschen in den Kühlschrank.", "Leg die Flaschen in den Kühlschrank."],
-        explanation: "Movement into: \"in\" + accusative, \"in den Kühlschrank\".",
+        altAnswers: ["Tu die Flaschen in den Kühlschrank.", "Leg die Flaschen in den Kühlschrank.", "Stell die Flaschen bitte in den Kühlschrank."],
+        explanation: "Movement into: \"in\" + accusative, \"in den Kühlschrank\". Bottles stand upright, so \"stellen\" is the usual verb.",
       },
       {
         type: "translate",
@@ -630,7 +632,7 @@ export const DE_B1_U35: Lesson[] = [
     level: "DE-B1",
     number: 4,
     title: "Intermediate Challenge: A Week in Hamburg, Part 1 of 2",
-    summary: "Arriving and settling in: booking by phone, viewing a flat, opening a bank account and registering at the Bürgeramt, with reading and listening tasks in Goethe B1 style.",
+    summary: "Handle arriving in a new city: book by phone, view a flat, open a bank account and register at the \"Bürgeramt\", with reading and listening tasks in Goethe B1 style.",
     duration: "15 min",
     sections: [
       {
@@ -920,7 +922,7 @@ export const DE_B1_U35: Lesson[] = [
         body: [
           "On Saturday Sam meets his new neighbour on the stairs: \"Hallo, ich bin Sam, ich wohne seit Mittwoch im vierten Stock.\" \"Ach, herzlich willkommen! Ich bin Frau Petersen. Wenn Sie etwas brauchen, klingeln Sie einfach.\" Neighbours of different ages usually start with \"Sie\".",
           "On Sunday Sam sends a voice message to his friend Mehmet in spoken German: \"Na, wie geht's? Also, die Woche war echt anstrengend, aber super. Ich hab 'ne Wohnung in Altona gefunden, total schön, nur halt im vierten Stock ohne Aufzug. Am Freitag war ich krank, aber jetzt geht's mir wieder gut. Und die Nachbarin ist mega nett. Komm doch mal vorbei!\"",
-          "Spoken features: \"hab\" for \"habe\", \"'ne\" for \"eine\", \"wie geht's\" for \"wie geht es\", the particles \"halt\", \"doch\", \"mal\", fillers like \"also\" and \"na\". Use them in messages to friends, never in the Schreiben exam.",
+          "Spoken features: \"hab\" for \"habe\", \"'ne\" for \"eine\", \"wie geht's\" for \"wie geht es\", the particles \"halt\", \"doch\", \"mal\", fillers like \"also\" and \"na\". Use them in messages to friends; in the Schreiben exam write the full forms (\"habe\", \"eine\"), although a particle or two suits the informal email.",
         ],
         examples: [
           { es: "Ich wohne seit Mittwoch im vierten Stock.", en: "I've been living on the fourth floor since Wednesday." },
@@ -1016,6 +1018,7 @@ export const DE_B1_U35: Lesson[] = [
         prompt: "Put the words in order to say: Please take this prescription to the pharmacy.",
         words: ["Gehen", "Sie", "mit", "diesem", "Rezept", "bitte", "zur", "Apotheke."],
         translation: "Please take this prescription to the pharmacy.",
+        altOrders: [["Gehen", "Sie", "bitte", "mit", "diesem", "Rezept", "zur", "Apotheke."], ["Bitte", "gehen", "Sie", "mit", "diesem", "Rezept", "zur", "Apotheke."]],
         explanation: "Formal imperative first; \"mit\" + dative \"diesem Rezept\"; \"zur Apotheke\".",
       },
       {
@@ -1055,7 +1058,7 @@ export const DE_B1_U35: Lesson[] = [
         body: [
           "Teil 1: you write about 80 words to a friend, covering three given points. Typical: you were at a concert last weekend; describe it, say what you liked best, and suggest going together next time. Register: \"du\", warm greeting (\"Liebe Lena,\"), particles, a closing like \"Liebe Grüße\".",
           "Structure: one sentence of greeting or reaction, two or three sentences per point, one sentence to close. Connect with \"und, aber, denn, deshalb, außerdem\" and at least one subordinate clause (\"weil, als, dass\").",
-          "Model: \"Liebe Lena, stell dir vor, am Samstag war ich endlich bei dem Konzert von Clueso! Die Stimmung war fantastisch, und die Halle war total voll. Am besten hat mir das letzte Lied gefallen, weil alle mitgesungen haben. Hast du Lust, beim nächsten Mal mitzukommen? Im Dezember spielt er in Hamburg. Liebe Grüße, Tom\"",
+          "Model: \"Liebe Lena, stell dir vor, am Samstag war ich endlich bei dem Konzert von Clueso! Die Stimmung war fantastisch, und die Halle war total voll. Am besten hat mir das letzte Lied gefallen, weil alle mitgesungen haben. Hast du Lust, beim nächsten Mal mitzukommen? Im Dezember spielt er in Hamburg. Liebe Grüße Tom\"",
         ],
         examples: [
           { es: "Stell dir vor, am Samstag war ich endlich bei dem Konzert!", en: "Guess what, on Saturday I finally went to the concert!" },
@@ -1114,6 +1117,7 @@ export const DE_B1_U35: Lesson[] = [
             prompt: "Put the words in order to say: In my opinion children should play outside more.",
             words: ["Meiner", "Meinung", "nach", "sollten", "Kinder", "mehr", "draußen", "spielen."],
             translation: "In my opinion children should play outside more.",
+            altOrders: [["Kinder", "sollten", "meiner", "Meinung", "nach", "mehr", "draußen", "spielen."]],
             explanation: "Verb second after \"Meiner Meinung nach\".",
           },
         ],
@@ -1256,7 +1260,7 @@ export const DE_B1_U35: Lesson[] = [
     level: "DE-B1",
     number: 7,
     title: "Intermediate Challenge: Sprechen, Stadt oder Land?",
-    summary: "The Goethe B1 speaking tasks: plan an event with a partner, present City or countryside? in five steps, and answer the examiner's and your partner's questions.",
+    summary: "Do the Goethe B1 speaking tasks: plan an event with a partner, present the topic \"Stadt oder Land?\" in five steps, and answer the examiner's and your partner's questions.",
     duration: "15 min",
     sections: [
       {
@@ -1686,7 +1690,7 @@ export const DE_B1_U35: Lesson[] = [
 
 export const DE_B1_U35_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Exam-style task (based on Goethe B1, Schreiben Teil 2, but longer): an online forum asks: City or countryside: where is it better to live? Write your opinion (100-140 words). Give your opinion, describe your own experience, compare the situation in your country, name advantages and disadvantages, and end with a conclusion.",
+  prompt: "Exam-style task (based on Goethe B1, Schreiben, part 2, but longer): an online forum asks: City or countryside: where is it better to live? Write your opinion (100-140 words). Give your opinion, describe your own experience, compare the situation in your country, name advantages and disadvantages, and end with a conclusion.",
   minWords: 90,
   maxWords: 150,
   rubric: [

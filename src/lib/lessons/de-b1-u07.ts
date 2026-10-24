@@ -8,7 +8,7 @@ export const DE_B1_U07: Lesson[] = [
     level: "DE-B1",
     number: 1,
     title: "Politeness with the Konjunktiv II",
-    summary: "Soften requests and orders with Könnten Sie...? Würden Sie...? Hätten Sie...? Ich hätte gern... and Dürfte ich...?",
+    summary: "Make polite requests, orders and permission questions with \"Könnten Sie...?\", \"Würden Sie...?\", \"Hätten Sie...?\", \"Ich hätte gern...\" and \"Dürfte ich...?\"",
     duration: "15 min",
     sections: [
       {
@@ -209,7 +209,7 @@ export const DE_B1_U07: Lesson[] = [
     level: "DE-B1",
     number: 2,
     title: "Wishes: Ich wünschte... and Wenn ich doch nur...",
-    summary: "Express unreal wishes about the present: Ich wünschte, ich hätte mehr Zeit; Wenn ich doch nur mehr Geld hätte!",
+    summary: "Express unreal wishes about the present: \"Ich wünschte, ich hätte mehr Zeit\", \"Wenn ich doch nur mehr Geld hätte!\"",
     duration: "15 min",
     sections: [
       {
@@ -217,7 +217,7 @@ export const DE_B1_U07: Lesson[] = [
         body: [
           "To wish that something were different right now, German uses \"Ich wünschte\" + a clause in the Konjunktiv II: \"Ich wünschte, ich hätte mehr Zeit\" (I wish I had more time). \"Wünschte\" itself is the Konjunktiv of \"wünschen\".",
           "The clause after \"ich wünschte\" has normal main-clause order (verb second), with no \"dass\": \"Ich wünschte, du wärst hier\". Compare English, which also drops that: I wish (that) you were here.",
-          "The big trap: English uses a past tense (I wish I had, I wish you were), but the wish is about now. German uses the Konjunktiv II: \"hätte\", \"wäre\", \"könnte\", \"würde\" + infinitive. \"Ich wünschte, ich hatte mehr Zeit\" is wrong.",
+          "The big trap: English uses a past tense (I wish I had, I wish you were), but the wish is about now. German uses the Konjunktiv II: \"hätte\", \"wäre\", \"könnte\", \"würde\" + infinitive. \"*Ich wünschte, ich hatte mehr Zeit*\" is wrong.",
         ],
         examples: [
           { es: "Ich wünschte, ich hätte mehr Zeit.", en: "I wish I had more time." },
@@ -251,7 +251,7 @@ export const DE_B1_U07: Lesson[] = [
         body: [
           "An exclamation-style wish: \"Wenn ich doch nur mehr Geld hätte!\" (If only I had more money!). \"Wenn\" sends the verb to the end, and \"doch nur\" (or just \"nur\", or \"doch\") adds the longing.",
           "There is no main clause: the \"wenn\" clause stands alone with an exclamation mark. \"Wenn er nur anrufen würde!\" (If only he'd call!), \"Wenn es doch schon Freitag wäre!\" (If only it were Friday already!).",
-          "Spoken German also leaves out \"wenn\" and puts the verb first: \"Hätte ich doch nur mehr Zeit!\" Both mean the same.",
+          "You can also leave out \"wenn\" and put the verb first: \"Hätte ich doch nur mehr Zeit!\" Both mean the same.",
         ],
         examples: [
           { es: "Wenn ich doch nur mehr Geld hätte!", en: "If only I had more money!" },
@@ -410,15 +410,15 @@ export const DE_B1_U07: Lesson[] = [
     level: "DE-B1",
     number: 3,
     title: "Advice: An deiner Stelle würde ich...",
-    summary: "Give advice with An deiner Stelle würde ich..., Du solltest..., Es wäre besser, wenn... and Wie wäre es mit...?",
+    summary: "Give advice with \"An deiner Stelle würde ich...\", \"Du solltest...\", \"Es wäre besser, wenn...\" and \"Wie wäre es mit...?\"",
     duration: "15 min",
     sections: [
       {
         heading: "An deiner Stelle würde ich...",
         body: [
-          "\"An deiner Stelle\" (in your place) is the German for if I were you. It fills position 1, so \"würde\" comes straight after it: \"An deiner Stelle würde ich zum Arzt gehen\". The common mistake is English order: \"*An deiner Stelle ich würde...\"",
+          "\"An deiner Stelle\" (in your place) is the German for if I were you. It fills position 1, so \"würde\" comes straight after it: \"An deiner Stelle würde ich zum Arzt gehen\". The common mistake is English order: \"*An deiner Stelle ich würde...*\"",
           "Adjust the possessive for the person: \"an deiner Stelle\" (du), \"an Ihrer Stelle\" (Sie), \"an eurer Stelle\" (ihr). \"Stelle\" is feminine, so the dative after \"an\" is \"deiner\".",
-          "You can also use \"ich an deiner Stelle\" in the middle: \"Ich würde an deiner Stelle mit ihm reden\". And with \"wäre\" or \"hätte\": \"An deiner Stelle wäre ich vorsichtig\".",
+          "\"An deiner Stelle\" can also go in the middle: \"Ich würde an deiner Stelle mit ihm reden\". And with \"wäre\" or \"hätte\": \"An deiner Stelle wäre ich vorsichtig\".",
         ],
         examples: [
           { es: "An deiner Stelle würde ich zum Arzt gehen.", en: "If I were you, I'd go to the doctor." },
@@ -610,13 +610,13 @@ export const DE_B1_U07: Lesson[] = [
     level: "DE-B1",
     number: 4,
     title: "Talk About You: Your Hopes and Wishes",
-    summary: "Contrast realistic hopes in the indicative (Ich hoffe, dass...) with unreal wishes in the Konjunktiv II (Ich wünschte, ...).",
+    summary: "Talk about your own hopes and wishes, telling realistic hopes in the indicative (\"Ich hoffe, dass...\") from unreal wishes in the Konjunktiv II (\"Ich wünschte, ...\").",
     duration: "12 min",
     sections: [
       {
         heading: "Hoffen: realistic hopes",
         body: [
-          "\"Hoffen\" is for things that might really happen, so it takes the indicative: \"Ich hoffe, dass ich die Prüfung bestehe\" (I hope I pass the exam). Never \"*Ich hoffe, dass ich die Prüfung bestehen würde\".",
+          "\"Hoffen\" is for things that might really happen, so it takes the indicative: \"Ich hoffe, dass ich die Prüfung bestehe\" (I hope I pass the exam). Never \"*Ich hoffe, dass ich die Prüfung bestehen würde*\".",
           "German often uses the present for a hoped-for future: \"Ich hoffe, dass es morgen nicht regnet\". \"Dass\" sends the verb to the end; you can also drop \"dass\" and use main-clause order: \"Ich hoffe, es regnet morgen nicht\".",
           "Short reactions: \"Hoffentlich!\" (hopefully), \"Ich hoffe es\" (I hope so), \"Hoffentlich nicht!\" (I hope not).",
         ],
@@ -749,7 +749,7 @@ export const DE_B1_U07: Lesson[] = [
         prompt: "Translate into German.",
         source: "We hope you come soon. (to friends)",
         answer: "Wir hoffen, dass ihr bald kommt.",
-        altAnswers: ["Wir hoffen, ihr kommt bald.", "Wir hoffen, dass du bald kommst.", "Wir hoffen, dass Sie bald kommen."],
+        altAnswers: ["Wir hoffen, ihr kommt bald.", "Hoffentlich kommt ihr bald."],
         explanation: "Indicative after \"hoffen\".",
       },
       {
@@ -813,7 +813,7 @@ export const DE_B1_U07: Lesson[] = [
     level: "DE-B1",
     number: 5,
     title: "Questions and Answers: Was würdest du an meiner Stelle tun?",
-    summary: "Respond to short problem descriptions with advice in the Konjunktiv II and a reason with weil.",
+    summary: "Respond to short problem descriptions with advice in the Konjunktiv II and a reason with \"weil\".",
     duration: "15 min",
     sections: [
       {
@@ -1012,7 +1012,7 @@ export const DE_B1_U07: Lesson[] = [
     level: "DE-B1",
     number: 6,
     title: "Intermediate Vocabulary Practice, Part 3 of 10",
-    summary: "High-frequency Intermediate vocabulary for feelings, relationships and personal problems, used in Konjunktiv advice and wishes.",
+    summary: "Talk about feelings, relationships and personal problems with high-frequency Intermediate words, and use them in Konjunktiv advice and wishes.",
     duration: "15 min",
     sections: [
       {
@@ -1218,7 +1218,7 @@ export const DE_B1_U07: Lesson[] = [
     level: "DE-B1",
     number: 7,
     title: "Dialogue Lab: Am Schalter",
-    summary: "At the station ticket counter: polite requests, asking for alternatives with Gäbe es auch...?, thanking and clearing up a misunderstanding.",
+    summary: "At the station ticket counter, make polite requests, ask for alternatives with \"Gäbe es auch...?\", thank the clerk and clear up a misunderstanding.",
     duration: "15 min",
     sections: [
       {
@@ -1417,7 +1417,7 @@ export const DE_B1_U07: Lesson[] = [
     level: "DE-B1",
     number: 8,
     title: "Frequent Words: Belief, Legends and the Supernatural",
-    summary: "Das Märchen, die Sage, die Hexe, der Geist, der Aberglaube, Glück und Pech, Daumen drücken and Toi, toi, toi.",
+    summary: "Talk about fairy tales, legends and superstition with words like \"das Märchen\", \"die Sage\", \"der Geist\" and \"der Aberglaube\", and wish someone luck with \"Daumen drücken\" and \"Toi, toi, toi\".",
     duration: "12 min",
     sections: [
       {
@@ -1430,7 +1430,7 @@ export const DE_B1_U07: Lesson[] = [
         examples: [
           { es: "Es war einmal ein König, der hatte drei Töchter.", en: "Once upon a time there was a king who had three daughters." },
           { es: "Die Hexe wohnte in einem Haus aus Lebkuchen.", en: "The witch lived in a gingerbread house." },
-          { es: "Nach der Sage lockte die Lorelei die Schiffer ins Verderben.", en: "According to the legend, the Lorelei lured the boatmen to their doom." },
+          { es: "Der Sage nach lockte die Lorelei die Schiffer ins Verderben.", en: "According to the legend, the Lorelei lured the boatmen to their doom." },
           { es: "In dem alten Schloss soll es spuken.", en: "The old castle is supposed to be haunted." },
           { es: "Glaubst du an Geister?", en: "Do you believe in ghosts?" },
         ],
@@ -1502,7 +1502,7 @@ export const DE_B1_U07: Lesson[] = [
         examples: [
           { es: "Ich glaube nicht an Geister, aber ich hätte trotzdem Angst.", en: "I don't believe in ghosts, but I'd still be scared." },
           { es: "Ich würde nie allein in das Schloss gehen.", en: "I'd never go into the castle alone." },
-          { es: "Ein Wunsch an eine Fee? Das wäre toll!", en: "A wish from a fairy? That would be great!" },
+          { es: "Drei Wünsche von einer Fee? Das wäre toll!", en: "Three wishes from a fairy? That would be great!" },
           { es: "In diesem Haus soll es spuken.", en: "This house is said to be haunted." },
           { es: "Meine Oma klopft immer auf Holz.", en: "My grandma always knocks on wood." },
         ],
@@ -1630,6 +1630,6 @@ export const DE_B1_U07_WRITING: WriteExercise = {
     "Supports at least one piece of advice with a \"weil\" clause (verb at the end)",
     "Distinguishes a real hope (\"Ich hoffe, dass...\" + indicative) from an unreal wish (\"Ich wünschte, ...\" + Konjunktiv II)",
   ],
-  modelAnswer: "Lieber Jonas, danke für deine Mail. Das klingt wirklich anstrengend, und es tut mir leid, dass es dir gerade nicht gut geht. Ich wünschte, ich wäre in Hamburg und könnte dir helfen! Hier ein paar Tipps: Du solltest abends nicht mehr arbeiten, weil du sonst nicht abschalten kannst. Du könntest auch mal mit deinem Chef sprechen. Vielleicht gäbe es eine Lösung, zum Beispiel einen Tag Homeoffice. An deiner Stelle würde ich am Wochenende das Handy ausmachen und etwas Schönes mit Mia unternehmen. Wie wäre es mit einem Ausflug an die Ostsee? Es wäre auch besser, wenn du vor dem Schlafen ein bisschen lesen würdest. Ich hoffe, dass es dir bald besser geht. Ich drücke dir die Daumen! Liebe Grüße, Lena",
+  modelAnswer: "Lieber Jonas, danke für deine Mail. Das klingt wirklich anstrengend, und es tut mir leid, dass es dir gerade nicht gut geht. Ich wünschte, ich wäre in Hamburg und könnte dir helfen! Hier ein paar Tipps: Du solltest abends nicht mehr arbeiten, weil du sonst nicht abschalten kannst. Du könntest auch mal mit deinem Chef sprechen. Vielleicht gäbe es eine Lösung, zum Beispiel einen Tag Homeoffice. An deiner Stelle würde ich am Wochenende das Handy ausmachen und etwas Schönes mit Mia unternehmen. Wie wäre es mit einem Ausflug an die Ostsee? Es wäre auch besser, wenn du vor dem Schlafen ein bisschen lesen würdest. Ich hoffe, dass es dir bald besser geht. Ich drücke dir die Daumen! Liebe Grüße Lena",
   explanation: "Advice is softened with the Konjunktiv II: \"solltest\", \"könntest\", \"an deiner Stelle würde ich\" (verb straight after the fronted phrase), \"es wäre besser, wenn ... würdest\" and \"wie wäre es mit\" + dative. The unreal wish uses \"ich wünschte\" + \"wäre/könnte\", while the realistic hope keeps the indicative: \"Ich hoffe, dass es dir bald besser geht\". \"Weil\" sends the verb to the end: \"weil du sonst nicht abschalten kannst\".",
 };

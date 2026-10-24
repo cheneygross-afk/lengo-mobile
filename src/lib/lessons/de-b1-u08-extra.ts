@@ -9,7 +9,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Conditional Sentences, Part 1 of 3",
-    summary: "Real conditions with wenn and falls + indicative.",
+    summary: "Practise real conditions with \"wenn\" and \"falls\" + indicative, with the right word order in both clauses.",
     duration: "10 min",
     sections: [
       {
@@ -52,7 +52,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "If you're hungry, make yourself a sandwich. (to a friend)",
         answer: "Wenn du Hunger hast, mach dir ein Brot.",
-        altAnswers: ["Wenn du Hunger hast, mach dir ein Sandwich.", "Falls du Hunger hast, mach dir ein Brot.", "Wenn du Hunger hast, mach dir ein Butterbrot."],
+        altAnswers: ["Wenn du Hunger hast, mach dir ein Sandwich.", "Falls du Hunger hast, mach dir ein Brot.", "Wenn du Hunger hast, mach dir ein Butterbrot.", "Wenn du hungrig bist, mach dir ein Brot."],
         explanation: "\"Hunger haben\"; the imperative \"mach\" after the comma.",
       },
       {
@@ -86,7 +86,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "In case you need the car, the key is on the table.",
+        source: "In case you need the car, the key is on the table. (to a friend)",
         answer: "Falls du das Auto brauchst, der Schlüssel liegt auf dem Tisch.",
         altAnswers: ["Falls du das Auto brauchst: Der Schlüssel liegt auf dem Tisch.", "Falls du das Auto brauchst, liegt der Schlüssel auf dem Tisch."],
         explanation: "When the main clause isn't really a consequence (the key is there anyway), German often keeps normal order after the comma or uses a colon.",
@@ -98,7 +98,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
         source: "If you're cold, close the window. (to a friend)",
         answer: "Wenn dir kalt ist, mach das Fenster zu.",
         altAnswers: ["Wenn dir kalt ist, schließ das Fenster.", "Falls dir kalt ist, mach das Fenster zu.", "Wenn es dir kalt ist, mach das Fenster zu."],
-        explanation: "German says \"mir/dir ist kalt\" (dative), not \"*ich bin kalt\".",
+        explanation: "German says \"mir/dir ist kalt\" (dative), not \"*ich bin kalt*\".",
       },
       {
         type: "translate",
@@ -163,13 +163,13 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Conditional Sentences, Part 2 of 3",
-    summary: "Unreal present conditions with wäre, hätte and würde.",
+    summary: "Practise unreal present conditions with \"wäre\", \"hätte\" and \"würde\".",
     duration: "10 min",
     sections: [
       {
         heading: "Recap: unreal conditions",
         body: [
-          "Something that isn't true now: Konjunktiv II in both clauses. \"Wenn ich Zeit hätte, würde ich kommen.\" Use \"wäre\", \"hätte\", \"könnte\", \"müsste\", \"gäbe\" for sein, haben, modals and es gibt; \"würde\" + infinitive for the rest. English if I had / were is never a past tense in German.",
+          "Something that isn't true now: Konjunktiv II in both clauses. \"Wenn ich Zeit hätte, würde ich kommen.\" Use \"wäre\", \"hätte\", \"könnte\", \"müsste\", \"gäbe\" for \"sein\", \"haben\", the modals and \"es gibt\"; \"würde\" + infinitive for the rest. English if I had / were is never a past tense in German.",
         ],
         examples: [
           { es: "Wenn ich nicht krank wäre, würde ich mitkommen.", en: "If I weren't ill, I'd come along." },
@@ -291,6 +291,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: If I were you, I'd say nothing.",
         words: ["Wenn", "ich", "du", "wäre,", "würde", "ich", "nichts", "sagen."],
         translation: "If I were you, I'd say nothing.",
+        altOrders: [["Ich", "würde", "nichts", "sagen,", "wenn", "ich", "du", "wäre."]],
         explanation: "\"Wenn ich du wäre\" = if I were you.",
       },
       {
@@ -312,7 +313,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Conditional Sentences, Part 3 of 3",
-    summary: "Clause order, dann, and verb-first conditions without wenn.",
+    summary: "Practise both clause orders, \"dann\", and verb-first conditions without \"wenn\".",
     duration: "10 min",
     sections: [
       {
@@ -331,7 +332,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, without wenn.",
+            prompt: "Translate into German, without \"wenn\".",
             source: "If the course were cheaper, more people would come.",
             answer: "Wäre der Kurs billiger, würden mehr Leute kommen.",
             altAnswers: ["Wäre der Kurs günstiger, würden mehr Leute kommen.", "Wäre der Kurs billiger, kämen mehr Leute.", "Wäre der Kurs billiger, dann würden mehr Leute kommen."],
@@ -353,7 +354,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, without wenn.",
+        prompt: "Translate into German, without \"wenn\".",
         source: "If I had time, I'd come.",
         answer: "Hätte ich Zeit, würde ich kommen.",
         altAnswers: ["Hätte ich Zeit, dann würde ich kommen.", "Hätte ich Zeit, käme ich."],
@@ -371,7 +372,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, without wenn.",
+        prompt: "Translate into German, without \"wenn\".",
         source: "If it rains, we stay inside.",
         answer: "Regnet es, bleiben wir drinnen.",
         altAnswers: ["Regnet es, dann bleiben wir drinnen.", "Regnet es, bleiben wir drin."],
@@ -398,7 +399,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, without wenn.",
+        prompt: "Translate into German, without \"wenn\".",
         source: "If I were younger, I'd study again.",
         answer: "Wäre ich jünger, würde ich noch einmal studieren.",
         altAnswers: ["Wäre ich jünger, würde ich noch mal studieren.", "Wäre ich jünger, würde ich wieder studieren.", "Wäre ich jünger, dann würde ich noch einmal studieren."],
@@ -446,7 +447,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "Hätte ich mehr Zeit, würde ich mehr lesen.",
-        prompt: "Say it in German without wenn: If I had more time, I'd read more.",
+        prompt: "Say it in German without \"wenn\": If I had more time, I'd read more.",
         explanation: "Verb-first condition.",
       },
     ],
@@ -457,7 +458,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
     number: 4,
     optional: true,
     title: "Extra Practice: The Chain of Conditions",
-    summary: "Wenn..., dann... chains where each result becomes the next condition.",
+    summary: "Build \"Wenn..., dann...\" chains where each result becomes the next condition.",
     duration: "10 min",
     sections: [
       {
@@ -577,6 +578,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: If I sleep badly, I'm tired.",
         words: ["Wenn", "ich", "schlecht", "schlafe,", "bin", "ich", "müde."],
         translation: "If I sleep badly, I'm tired.",
+        altOrders: [["Ich", "bin", "müde,", "wenn", "ich", "schlecht", "schlafe."]],
         explanation: "Verb, comma, verb.",
       },
       {
@@ -753,14 +755,14 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
     number: 6,
     optional: true,
     title: "Extra Practice: Dialogue Lab, Emergency Instructions",
-    summary: "Falls es brennt, ...: understand and give emergency instructions for a hotel or office.",
+    summary: "Understand and give emergency instructions for a hotel or office with \"Falls es brennt, ...\" and similar conditions.",
     duration: "10 min",
     sections: [
       {
-        heading: "Recap: falls for emergencies",
+        heading: "Recap: \"falls\" for emergencies",
         body: [
           "Safety notices use \"falls\" + indicative (or a noun phrase like \"im Brandfall\", \"im Notfall\") and polite Sie imperatives: \"Falls es brennt, verlassen Sie sofort das Gebäude\". In a dialogue, a new colleague might ask \"Was mache ich, falls...?\"",
-          "Words: \"der Notausgang\" (emergency exit), \"der Feuerlöscher\" (fire extinguisher), \"der Feueralarm\", \"der Sammelplatz\" (assembly point), \"der Aufzug\" (lift), \"die Notrufnummer 112\".",
+          "Words: \"der Notausgang\" (emergency exit), \"der Feuerlöscher\" (fire extinguisher), \"der Feueralarm\" (fire alarm), \"der Sammelplatz\" (assembly point), \"der Aufzug\" (lift), \"die Notrufnummer 112\".",
         ],
         examples: [
           { es: "Falls es brennt, verlassen Sie sofort das Gebäude.", en: "If there's a fire, leave the building immediately." },
@@ -798,7 +800,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
         source: "If someone is injured, call 112. (formal)",
         answer: "Falls jemand verletzt ist, rufen Sie die 112.",
         altAnswers: ["Wenn jemand verletzt ist, rufen Sie die 112.", "Falls jemand verletzt ist, rufen Sie die 112 an.", "Falls jemand verletzt ist, wählen Sie die 112."],
-        explanation: "\"Die 112\" (die Nummer); Sie imperative.",
+        explanation: "\"Die 112\" is feminine because it stands for \"die Nummer\"; then the Sie imperative \"rufen Sie\".",
       },
       {
         type: "translate",
@@ -903,7 +905,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
     number: 7,
     optional: true,
     title: "Extra Practice: From Command to Condition",
-    summary: "Turn commands like Ruf an! into conditions: Wenn du Hilfe brauchst, ruf an.",
+    summary: "Turn commands like \"Ruf an!\" into conditions: \"Wenn du Hilfe brauchst, ruf an.\"",
     duration: "10 min",
     sections: [
       {
@@ -1025,6 +1027,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: If you're hungry, eat something.",
         words: ["Wenn", "du", "Hunger", "hast,", "iss", "etwas."],
         translation: "If you're hungry, eat something.",
+        altOrders: [["Iss", "etwas,", "wenn", "du", "Hunger", "hast."]],
         explanation: "\"Essen\" → du imperative \"iss\".",
       },
       {
@@ -1054,11 +1057,11 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
     number: 8,
     optional: true,
     title: "Extra Practice: The Backpack List",
-    summary: "Falls... sentences while packing for a hike: what to bring in case of rain, cold or hunger.",
+    summary: "Say what to pack for a hike in case of rain, cold or hunger with \"falls\" sentences.",
     duration: "10 min",
     sections: [
       {
-        heading: "Recap: falls when packing",
+        heading: "Recap: \"falls\" when packing",
         body: [
           "Packing is all about what might happen: \"Ich nehme eine Regenjacke mit, falls es regnet\". Here the main clause usually comes first, and \"falls\" adds the reason. Words: \"der Rucksack\", \"die Regenjacke\", \"die Wasserflasche\", \"das Pflaster\" (plaster), \"die Taschenlampe\" (torch), \"die Sonnencreme\".",
         ],
@@ -1076,8 +1079,8 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
             prompt: "Translate into German.",
             source: "I'm taking a rain jacket in case it rains.",
             answer: "Ich nehme eine Regenjacke mit, falls es regnet.",
-            altAnswers: ["Ich nehme eine Regenjacke mit, wenn es regnet.", "Falls es regnet, nehme ich eine Regenjacke mit."],
-            explanation: "Main clause first; \"falls\" + verb at the end.",
+            altAnswers: ["Falls es regnet, nehme ich eine Regenjacke mit."],
+            explanation: "Main clause first; \"falls\" + verb at the end. For a precaution (in case) use \"falls\": \"..., wenn es regnet\" would mean you only take the jacket if it is already raining.",
           },
           {
             type: "listen-choose",
@@ -1097,8 +1100,8 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Pack plasters in case you get blisters. (to a friend)",
         answer: "Pack Pflaster ein, falls du Blasen bekommst.",
-        altAnswers: ["Pack Pflaster ein, wenn du Blasen bekommst.", "Nimm Pflaster mit, falls du Blasen bekommst."],
-        explanation: "\"Einpacken\" → \"pack ... ein\".",
+        altAnswers: ["Nimm Pflaster mit, falls du Blasen bekommst."],
+        explanation: "\"Einpacken\" → \"pack ... ein\". In case = \"falls\"; \"wenn du Blasen bekommst\" would mean pack them once you get blisters.",
       },
       {
         type: "translate",
@@ -1106,8 +1109,8 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "We need a torch in case it gets dark.",
         answer: "Wir brauchen eine Taschenlampe, falls es dunkel wird.",
-        altAnswers: ["Wir brauchen eine Taschenlampe, wenn es dunkel wird."],
-        explanation: "\"Dunkel werden\": \"wird\" at the end.",
+        altAnswers: ["Wir brauchen eine Taschenlampe für den Fall, dass es dunkel wird."],
+        explanation: "\"Dunkel werden\": \"wird\" at the end. \"Falls\" makes it a precaution; \"wenn es dunkel wird\" would just say when you need it.",
       },
       {
         type: "translate",
@@ -1115,7 +1118,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Take sun cream in case the sun shines. (to a friend)",
         answer: "Nimm Sonnencreme mit, falls die Sonne scheint.",
-        altAnswers: ["Nimm Sonnencreme mit, wenn die Sonne scheint.", "Pack Sonnencreme ein, falls die Sonne scheint."],
+        altAnswers: ["Pack Sonnencreme ein, falls die Sonne scheint."],
         explanation: "\"Mitnehmen\" → \"nimm ... mit\".",
       },
       {
@@ -1133,7 +1136,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'm taking two water bottles in case it's hot.",
         answer: "Ich nehme zwei Wasserflaschen mit, falls es heiß ist.",
-        altAnswers: ["Ich nehme zwei Wasserflaschen mit, wenn es heiß ist.", "Ich nehme zwei Wasserflaschen mit, falls es heiß wird."],
+        altAnswers: ["Ich nehme zwei Wasserflaschen mit, falls es heiß wird."],
         explanation: "Plural \"Wasserflaschen\".",
       },
       {
@@ -1142,7 +1145,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "In case we get hungry, I've packed sandwiches.",
         answer: "Falls wir Hunger bekommen, habe ich Brote eingepackt.",
-        altAnswers: ["Falls wir Hunger bekommen, habe ich belegte Brote eingepackt.", "Falls wir Hunger bekommen, habe ich Sandwiches eingepackt.", "Für den Fall, dass wir Hunger bekommen, habe ich Brote eingepackt."],
+        altAnswers: ["Falls wir Hunger bekommen, habe ich belegte Brote eingepackt.", "Falls wir Hunger bekommen, habe ich Sandwiches eingepackt.", "Für den Fall, dass wir Hunger bekommen, habe ich Brote eingepackt.", "Falls wir hungrig werden, habe ich Brote eingepackt."],
         explanation: "\"Hunger bekommen\" = get hungry; Perfekt in the main clause.",
       },
       {
@@ -1151,7 +1154,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Take a warm jumper in case it gets cold at the top. (to a friend)",
         answer: "Nimm einen warmen Pullover mit, falls es oben kalt wird.",
-        altAnswers: ["Nimm einen warmen Pulli mit, falls es oben kalt wird.", "Nimm einen warmen Pullover mit, wenn es oben kalt wird."],
+        altAnswers: ["Nimm einen warmen Pulli mit, falls es oben kalt wird."],
         explanation: "\"Einen warmen Pullover\": masculine accusative adjective ending.",
       },
       {
@@ -1183,6 +1186,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: We need a torch in case it gets dark.",
         words: ["Wir", "brauchen", "eine", "Taschenlampe,", "falls", "es", "dunkel", "wird."],
         translation: "We need a torch in case it gets dark.",
+        altOrders: [["Falls", "es", "dunkel", "wird,", "brauchen", "wir", "eine", "Taschenlampe."]],
         explanation: "\"Wird\" at the end.",
       },
       {
@@ -1249,7 +1253,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
         source: "If I'm off tomorrow, I'll go swimming.",
         answer: "Wenn ich morgen frei habe, gehe ich schwimmen.",
         altAnswers: ["Falls ich morgen frei habe, gehe ich schwimmen.", "Ich gehe schwimmen, wenn ich morgen frei habe."],
-        explanation: "Real.",
+        explanation: "Real (I'll go swimming): indicative \"habe\" and \"gehe\", present for the future.",
       },
       {
         type: "translate",
@@ -1258,7 +1262,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
         source: "If I were off every day, I'd swim every day.",
         answer: "Wenn ich jeden Tag frei hätte, würde ich jeden Tag schwimmen.",
         altAnswers: ["Wenn ich jeden Tag frei hätte, würde ich jeden Tag schwimmen gehen.", "Ich würde jeden Tag schwimmen, wenn ich jeden Tag frei hätte."],
-        explanation: "Unreal.",
+        explanation: "Unreal (I'm not off every day): \"hätte\" + \"würde\", not \"habe\".",
       },
       {
         type: "translate",
@@ -1276,7 +1280,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
         source: "If I were a cat, I'd sleep all day.",
         answer: "Wenn ich eine Katze wäre, würde ich den ganzen Tag schlafen.",
         altAnswers: ["Ich würde den ganzen Tag schlafen, wenn ich eine Katze wäre."],
-        explanation: "Impossible: Konjunktiv.",
+        explanation: "Impossible, so Konjunktiv II in both halves: \"wäre\" + \"würde ... schlafen\".",
       },
       {
         type: "translate",
@@ -1285,7 +1289,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
         source: "If it's sunny on Saturday, we'll go to the lake.",
         answer: "Wenn am Samstag die Sonne scheint, fahren wir an den See.",
         altAnswers: ["Wenn die Sonne am Samstag scheint, fahren wir an den See.", "Wenn es am Samstag sonnig ist, fahren wir an den See.", "Falls am Samstag die Sonne scheint, fahren wir an den See.", "Wenn am Samstag die Sonne scheint, gehen wir an den See."],
-        explanation: "Real possibility.",
+        explanation: "A real possibility: indicative \"scheint\" and \"fahren\", present for the future.",
       },
       {
         type: "translate",
@@ -1333,6 +1337,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: If I have time, I'll help you.",
         words: ["Wenn", "ich", "Zeit", "habe,", "helfe", "ich", "dir."],
         translation: "If I have time, I'll help you.",
+        altOrders: [["Ich", "helfe", "dir,", "wenn", "ich", "Zeit", "habe."]],
         explanation: "Real: indicative.",
       },
       {
@@ -1428,7 +1433,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Then you have to pay a fine.",
         answer: "Dann muss man eine Strafe zahlen.",
-        altAnswers: ["Dann musst du eine Strafe zahlen.", "Dann muss man eine Strafe bezahlen.", "Dann musst du eine Strafe bezahlen.", "Dann muss man ein Bußgeld zahlen."],
+        altAnswers: ["Dann musst du eine Strafe zahlen.", "Dann muss man eine Strafe bezahlen.", "Dann musst du eine Strafe bezahlen.", "Dann muss man ein Bußgeld zahlen.", "Dann müssen Sie eine Strafe zahlen."],
         explanation: "\"Dann\" + modal + subject.",
       },
       {
@@ -1507,11 +1512,11 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
     number: 11,
     optional: true,
     title: "Extra Practice: Wenn, Falls, Ob",
-    summary: "Choose between the three ways to say if.",
+    summary: "Choose between \"wenn\", \"falls\" and \"ob\", the three ways to say if.",
     duration: "10 min",
     sections: [
       {
-        heading: "Recap: three ifs",
+        heading: "Recap: three ifs (\"wenn\", \"falls\", \"ob\")",
         body: [
           "\"Wenn\": a condition (and also when). \"Falls\": a condition that may or may not happen, in case. \"Ob\": whether, in indirect yes/no questions after verbs like \"wissen\", \"fragen\", \"sich fragen\", \"nicht sicher sein\". Test: if you can say whether in English, use \"ob\". All three send the verb to the end.",
         ],
@@ -1586,13 +1591,13 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
         source: "If he wants coffee, there's some in the kitchen.",
         answer: "Wenn er Kaffee will, gibt es welchen in der Küche.",
         altAnswers: ["Falls er Kaffee will, gibt es welchen in der Küche.", "Wenn er Kaffee möchte, gibt es welchen in der Küche.", "Wenn er Kaffee will, steht welcher in der Küche."],
-        explanation: "A condition: \"wenn\". \"Welchen\" = some (masculine, referring to Kaffee).",
+        explanation: "A condition: \"wenn\". \"Welchen\" = some (masculine, referring to \"Kaffee\").",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "In case you forget the key, there's one with the neighbours.",
+        source: "In case you forget the key, there's one with the neighbours. (to a friend)",
         answer: "Falls du den Schlüssel vergisst, gibt es einen bei den Nachbarn.",
         altAnswers: ["Falls du den Schlüssel vergisst, haben die Nachbarn einen.", "Wenn du den Schlüssel vergisst, gibt es einen bei den Nachbarn."],
         explanation: "In case → \"falls\".",
@@ -1804,7 +1809,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
     number: 13,
     optional: true,
     title: "Extra Practice: Twelve Conditions Without Hints",
-    summary: "Free production of mixed conditionals: real, unreal, with and without wenn.",
+    summary: "Produce mixed conditionals without hints: real, unreal, with and without \"wenn\".",
     duration: "12 min",
     sections: [
       {
@@ -1831,7 +1836,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, without wenn.",
+            prompt: "Translate into German, without \"wenn\".",
             source: "If we had more space, we'd invite guests.",
             answer: "Hätten wir mehr Platz, würden wir Gäste einladen.",
             altAnswers: ["Hätten wir mehr Platz, dann würden wir Gäste einladen."],
@@ -1848,7 +1853,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
         source: "If I had more time, I'd learn Italian.",
         answer: "Wenn ich mehr Zeit hätte, würde ich Italienisch lernen.",
         altAnswers: ["Ich würde Italienisch lernen, wenn ich mehr Zeit hätte.", "Hätte ich mehr Zeit, würde ich Italienisch lernen."],
-        explanation: "Unreal.",
+        explanation: "Unreal: \"hätte\" (not \"hatte\") at the end of the condition, \"würde\" after the comma.",
       },
       {
         type: "translate",
@@ -1865,7 +1870,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "If I were you, I wouldn't sign the contract.",
         answer: "Wenn ich du wäre, würde ich den Vertrag nicht unterschreiben.",
-        altAnswers: ["An deiner Stelle würde ich den Vertrag nicht unterschreiben.", "Wenn ich Sie wäre, würde ich den Vertrag nicht unterschreiben.", "An Ihrer Stelle würde ich den Vertrag nicht unterschreiben."],
+        altAnswers: ["An deiner Stelle würde ich den Vertrag nicht unterschreiben.", "Wenn ich Sie wäre, würde ich den Vertrag nicht unterschreiben.", "An Ihrer Stelle würde ich den Vertrag nicht unterschreiben.", "An eurer Stelle würde ich den Vertrag nicht unterschreiben."],
         explanation: "\"Wenn ich du wäre\" or \"an deiner Stelle\".",
       },
       {
@@ -1944,6 +1949,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: If you're hungry, there's soup.",
         words: ["Wenn", "du", "Hunger", "hast,", "gibt", "es", "Suppe."],
         translation: "If you're hungry, there's soup.",
+        altOrders: [["Es", "gibt", "Suppe,", "wenn", "du", "Hunger", "hast."]],
         explanation: "Real condition; \"gibt es\" after the comma.",
       },
       {
@@ -2085,6 +2091,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: I'd come with you if I could.",
         words: ["Ich", "würde", "mitkommen,", "wenn", "ich", "könnte."],
         translation: "I'd come with you if I could.",
+        altOrders: [["Wenn", "ich", "könnte,", "würde", "ich", "mitkommen."]],
         explanation: "\"Könnte\" at the end.",
       },
       {

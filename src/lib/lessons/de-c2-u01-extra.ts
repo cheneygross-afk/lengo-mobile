@@ -15,7 +15,7 @@ export const DE_C2_U01_EXTRA: Lesson[] = [
       {
         heading: "Recap: Latin in German, and the ritual of the courtroom",
         body: [
-          "German legal and political language keeps a handful of Latin phrases, used as they are and pronounced the Latin way: \"in dubio pro reo\" (when in doubt, for the accused), \"de facto\" (in fact), \"de jure\" (in law), \"ad hoc\" (for this purpose, improvised). \"De facto\" and \"ad hoc\" also work as adjectives without endings: \"eine Ad-hoc-Lösung\", \"ein De-facto-Verbot\", written with hyphens and capitals in compounds.",
+          "German legal and political language keeps a handful of Latin phrases, used as they are and pronounced the Latin way: \"in dubio pro reo\" (when in doubt, for the accused), \"de facto\" (in fact), \"de jure\" (in law), \"ad hoc\" (for this purpose, improvised). \"De facto\" and \"ad hoc\" also serve as the first part of compound nouns, written with hyphens and a capital: \"eine Ad-hoc-Lösung\", \"ein De-facto-Verbot\" (never \"*eine ad hoc Lösung*\").",
           "The courtroom has its own formulas: \"Die Sitzung ist eröffnet\" (the session is open), \"Bitte erheben Sie sich\" (all rise), \"Ich rufe die Sache ... auf\" (I call the case of ...), \"Das Gericht zieht sich zur Beratung zurück\" (the court retires to deliberate) and the judgment \"Im Namen des Volkes\".",
         ],
         examples: [
@@ -81,7 +81,7 @@ export const DE_C2_U01_EXTRA: Lesson[] = [
         source: "The judgment is given in the name of the people.",
         answer: "Das Urteil ergeht im Namen des Volkes.",
         altAnswers: ["Das Urteil wird im Namen des Volkes verkündet.", "Das Urteil wird im Namen des Volkes gesprochen.", "Im Namen des Volkes ergeht das Urteil."],
-        explanation: "\"Im Namen des Volkes\": the fixed opening of every German criminal and civil judgment; \"ergehen\" is the formal verb.",
+        explanation: "\"Im Namen des Volkes\": the fixed opening of every German court judgment; \"ergehen\" is the formal verb.",
       },
       {
         type: "translate",
@@ -336,7 +336,7 @@ export const DE_C2_U01_EXTRA: Lesson[] = [
       {
         heading: "Recap: the clauses every contract has",
         body: [
-          "Most German contracts end with the same clauses. \"Laufzeit\" (term): \"Der Vertrag beginnt am ... und läuft auf unbestimmte Zeit.\" \"Kündigung\" (termination): \"Er kann mit einer Frist von drei Monaten zum Monatsende gekündigt werden.\" \"Haftung\" (liability): \"Die Haftung für leichte Fahrlässigkeit ist ausgeschlossen.\" \"Gerichtsstand\" (place of jurisdiction): \"Gerichtsstand ist Hamburg.\"",
+          "Most German contracts contain the same standard clauses. \"Laufzeit\" (term): \"Der Vertrag beginnt am ... und läuft auf unbestimmte Zeit.\" \"Kündigung\" (termination): \"Er kann mit einer Frist von drei Monaten zum Monatsende gekündigt werden.\" \"Haftung\" (liability): \"Die Haftung für leichte Fahrlässigkeit ist ausgeschlossen.\" \"Gerichtsstand\" (place of jurisdiction): \"Gerichtsstand ist Hamburg.\"",
           "The \"salvatorische Klausel\" (severability clause) saves the rest of the contract if one clause is void: \"Sollte eine Bestimmung dieses Vertrages unwirksam sein, so bleibt die Wirksamkeit der übrigen Bestimmungen unberührt.\"",
         ],
         examples: [
@@ -449,7 +449,7 @@ export const DE_C2_U01_EXTRA: Lesson[] = [
           { left: "die salvatorische Klausel", right: "severability clause" },
           { left: "die Kündigung", right: "termination" },
         ],
-        explanation: "These five clauses close almost every German contract, usually under the heading \"Schlussbestimmungen\".",
+        explanation: "These five clauses appear in almost every German contract; \"Gerichtsstand\" and the \"salvatorische Klausel\" usually come last, under the heading \"Schlussbestimmungen\".",
       },
       {
         type: "word-order",
@@ -898,7 +898,7 @@ export const DE_C2_U01_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "The warm rent is 980 euros.",
+        source: "The rent including heating and service charges is 980 euros.",
         answer: "Die Warmmiete beträgt 980 Euro.",
         altAnswers: ["Die Warmmiete liegt bei 980 Euro.", "Die Warmmiete ist 980 Euro."],
         explanation: "\"Warmmiete\" = \"Kaltmiete\" + \"Nebenkosten\" + heating: what you actually pay each month.",

@@ -169,7 +169,7 @@ export const DE_C2_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "The essay question is \"Sollte das Wahlalter auf 16 gesenkt werden?\" Which type of Erörterung fits?",
+        question: "The essay question is \"Sollte das Wahlalter auf 16 gesenkt werden?\" Which type of \"Erörterung\" fits?",
         options: ["Dialectical (pro and contra)", "Linear (one side only)", "A narrative", "A report"],
         correctIndex: 0,
         explanation: "A yes/no question asks you to weigh both sides: \"dialektische Erörterung\".",
@@ -333,7 +333,7 @@ export const DE_C2_U14: Lesson[] = [
           {
             type: "speak",
             text: "Wir leben nicht, um zu essen, sondern essen, um zu leben.",
-            tip: "Stress the swapped words: LEBEN ... ESSEN / ESSEN ... LEBEN.",
+            tip: "Stress the swapped words: \"leben ... essen\" / \"essen ... leben\".",
             explanation: "The classic chiasmus, a mirror structure around \"sondern\".",
           },
           {
@@ -462,7 +462,7 @@ export const DE_C2_U14: Lesson[] = [
         heading: "The Vorfeld: position 1 as a spotlight",
         body: [
           "English emphasises with stress and with clefts ('It was the minister who ...'). German has a simpler and very powerful tool: whatever you put in position 1, before the verb (the \"Vorfeld\"), gets the spotlight. \"Diese Entscheidung bereue ich nicht\" puts the decision in focus: this decision (unlike others) I don't regret.",
-          "Objects, adverbials, even infinitives and participles can move to the Vorfeld: \"Gelesen habe ich das Buch, verstanden habe ich es nicht\" (I did read the book; understand it, I didn't). \"Gerade diese Frage ist es, die ...\" combines Vorfeld focus with a focus particle.",
+          "Objects, adverbials, even infinitives and participles can move to the \"Vorfeld\": \"Gelesen habe ich das Buch, verstanden habe ich es nicht\" (I did read the book; understand it, I didn't). \"Gerade diese Frage ist es, die ...\" combines Vorfeld focus with a focus particle.",
           "Focus particles strengthen the effect: \"gerade\" (precisely), \"ausgerechnet\" (of all things), \"selbst\" / \"sogar\" (even), \"erst\" (only, not until), \"allein\" (alone): \"Ausgerechnet der Verkehrsminister fährt einen SUV.\"",
         ],
         examples: [
@@ -471,7 +471,7 @@ export const DE_C2_U14: Lesson[] = [
           { es: "Gerade diese Frage ist es, die uns beschäftigen muss.", en: "It is precisely this question that must occupy us." },
           { es: "Ausgerechnet der Verkehrsminister fährt einen SUV.", en: "Of all people, it's the transport minister who drives an SUV." },
           { es: "Erst nach drei Jahren kam die Wahrheit ans Licht.", en: "It was only after three years that the truth came to light." },
-          { es: "Allein im letzten Jahr stiegen die Kosten um zwölf Prozent.", en: "In last year alone, costs rose by twelve per cent." },
+          { es: "Allein im letzten Jahr stiegen die Kosten um zwölf Prozent.", en: "Last year alone, costs rose by twelve per cent." },
         ],
         checkpoint: [
           {
@@ -532,7 +532,7 @@ export const DE_C2_U14: Lesson[] = [
             prompt: "Translate into German, with \"Wer ..., der ...\".",
             source: "Whoever fails to act now is acting irresponsibly.",
             answer: "Wer jetzt nicht handelt, der handelt verantwortungslos.",
-            altAnswers: ["Wer jetzt nicht handelt, handelt verantwortungslos.", "Wer jetzt nicht handelt, der handelt unverantwortlich.", "Wer jetzt nicht handelt, handelt unverantwortlich."],
+            altAnswers: ["Wer jetzt nicht handelt, der handelt unverantwortlich."],
             explanation: "The resumptive \"der\" adds weight; the repeated verb creates a rhetorical echo.",
           },
           {
@@ -549,7 +549,7 @@ export const DE_C2_U14: Lesson[] = [
         heading: "Ausklammerung: und zwar sofort",
         body: [
           "Normally German closes the clause with the verb bracket. Putting something after the final verb (\"Ausklammerung\") gives it end weight, an effect speakers use deliberately: \"Wir müssen handeln, und zwar sofort.\" \"Ich habe ihn gesehen, gestern, mit ihr.\"",
-          "\"Und zwar\" (namely, and what's more) is the standard way to add an emphatic specification after a complete clause. Comparisons are also often put after the bracket: \"*Die Kosten sind gestiegen stärker als erwartet\" is not standard, but \"Die Kosten sind stärker gestiegen als erwartet\" is the norm, with \"als erwartet\" after the participle.",
+          "\"Und zwar\" (namely, and what's more) is the standard way to add an emphatic specification after a complete clause. Comparisons are also often put after the bracket: \"*Die Kosten sind gestiegen stärker als erwartet*\" is not standard, but \"Die Kosten sind stärker gestiegen als erwartet\" is the norm, with \"als erwartet\" after the participle.",
           "In written argument, use \"Ausklammerung\" sparingly and only with a clear rhetorical purpose. In speeches it is very effective for the last words of a sentence.",
         ],
         examples: [
@@ -609,7 +609,7 @@ export const DE_C2_U14: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "[In last year alone] costs rose by twelve per cent.",
+        en: "[Last year alone] costs rose by twelve per cent.",
         sentence: "___ stiegen die Kosten um zwölf Prozent.",
         answer: "Allein im letzten Jahr",
         altAnswers: ["Allein im vergangenen Jahr", "Allein letztes Jahr"],
@@ -911,7 +911,7 @@ export const DE_C2_U14: Lesson[] = [
           { es: "Wer aber vor der Vergangenheit die Augen verschließt, wird blind für die Gegenwart.", en: "But whoever closes their eyes to the past becomes blind to the present. (the same speech)" },
           { es: "Wir wollen mehr Demokratie wagen.", en: "We want to dare more democracy. (Brandt, 1969)" },
           { es: "Weizsäcker deutete die Niederlage als Befreiung um.", en: "The Federal President reinterpreted the defeat as liberation." },
-          { es: "Das Verb „wagen“ verleiht dem Satz Mut und Aufbruchsstimmung.", en: "The verb 'wagen' gives the sentence courage and a sense of a new beginning." },
+          { es: "Das Verb „wagen“ verleiht dem Satz Mut und Aufbruchsstimmung.", en: "The verb \"wagen\" gives the sentence courage and a sense of a new beginning." },
         ],
         checkpoint: [
           {
@@ -1358,7 +1358,7 @@ export const DE_C2_U14: Lesson[] = [
         ],
         examples: [
           { es: "Es geht um unsere Kinder und Enkel.", en: "This is about our children and grandchildren." },
-          { es: "Ich denke an Frau Yılmaz, die seit Monaten auf einen Pflegeplatz wartet.", en: "I'm thinking of Mrs Yılmaz, who has been waiting months for a place in a care home." },
+          { es: "Ich denke an Frau Yılmaz, die seit Monaten auf einen Pflegeplatz wartet.", en: "I'm thinking of Ms Yılmaz, who has been waiting months for a place in a care home." },
           { es: "Jeder Euro in frühkindliche Bildung spart später ein Vielfaches.", en: "Every euro spent on early childhood education saves many times that later." },
           { es: "Folglich ist sie keine Ausgabe, sondern eine Investition.", en: "Consequently it is not an expense but an investment." },
           { es: "Wenn wir heute sparen, zahlen wir morgen doppelt.", en: "If we save today, we pay twice tomorrow." },
@@ -1462,7 +1462,7 @@ export const DE_C2_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which move earns most points in Goethe C2 \"Sprechen\" Teil 2?",
+        question: "Which move earns most points in Goethe C2 \"Sprechen\" part 2?",
         options: ["Reacting to the partner's argument and proposing a compromise", "Delivering a memorised monologue", "Agreeing with everything the partner says", "Speaking as fast as possible"],
         correctIndex: 0,
         explanation: "The discussion task rewards interaction, reaction and steering towards a result.",
@@ -2127,7 +2127,7 @@ export const DE_C2_U14_WRITING: WriteExercise = {
   rubric: [
     "A formal frame for a closing statement: \"Sehr geehrte Damen und Herren\", \"Lassen Sie mich zum Schluss ...\", \"Ich fasse zusammen: ...\", \"Ich danke Ihnen für Ihre Aufmerksamkeit.\"",
     "At least three rhetorical devices used on purpose: a rhetorical question (\"Wollen wir wirklich ...?\"), an anaphora or tricolon (\"Es geht um ..., es geht um ..., es geht um ...\"), a contrast or chiasmus",
-    "Emphatic word order and focus structures: \"Was wir brauchen, ist ...\", \"Gerade deshalb ...\", Ausklammerung with \"und zwar\"",
+    "Emphatic word order and focus structures: \"Was wir brauchen, ist ...\", \"Gerade deshalb ...\", \"Ausklammerung\" with \"und zwar\"",
     "A fair answer to the opposing side with concession and refutation (\"Gewiss ..., doch ...\", \"Man mag einwenden, dass ...\")",
   ],
   modelAnswer: "Sehr geehrte Damen und Herren, liebe Mitbürgerinnen und Mitbürger,\n\nlassen Sie mich zum Schluss noch einmal zusammenfassen, worum es heute Abend eigentlich geht. Es geht nicht um ein altes Gebäude. Es geht nicht um ein paar tausend Bücher. Es geht um die Frage, welche Art von Stadt wir sein wollen.\n\nDie Befürworter der Schließung haben uns gesagt, die Zukunft sei digital. Gewiss, sie haben recht: Niemand in diesem Saal will zurück in eine Welt ohne E-Books und Datenbanken. Doch eine digitale Bibliothek ersetzt keinen Ort. Was eine Stadt braucht, ist nicht nur Zugang zu Wissen, sondern ein Raum, in dem sich Menschen begegnen, und zwar unabhängig von Alter, Einkommen und Herkunft.\n\nDenken Sie an die Rentnerin, die jeden Morgen die Zeitung liest, weil sie sich kein Abo leisten kann. Denken Sie an den Schüler, der zu Hause kein ruhiges Zimmer hat. Denken Sie an die Familie, die gerade erst angekommen ist und hier ihre ersten deutschen Bücher ausleiht. Für sie alle ist die Bibliothek kein Luxus, sondern eine Notwendigkeit.\n\nMan mag einwenden, die Sanierung sei zu teuer. Aber ich frage Sie: Wollen wir wirklich an dem Ort sparen, der am meisten zurückgibt? Gerade in Zeiten knapper Kassen zeigt sich, was einer Gemeinschaft wichtig ist. Nicht wir müssen uns die Bibliothek leisten können – wir können es uns nicht leisten, auf sie zu verzichten.\n\nIch fasse zusammen: Die digitale Welt ist eine wunderbare Ergänzung, aber kein Ersatz. Eine Bibliothek ist Lernort, Treffpunkt und Schutzraum zugleich. Wer sie schließt, spart heute ein wenig Geld und verliert morgen ein Stück Zusammenhalt.\n\nIch bitte Sie daher: Stimmen Sie nächste Woche für den Erhalt. Bücher kann man herunterladen. Gemeinschaft nicht.\n\nIch danke Ihnen für Ihre Aufmerksamkeit.",

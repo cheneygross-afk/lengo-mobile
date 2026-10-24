@@ -408,7 +408,7 @@ export const DE_C1_WRITING: UnitWriting = {
   "c1-registers-4": [
     {
       "type": "write",
-      "prompt": "You would like to install a small plug-in solar system (Balkonkraftwerk) on the balcony of your rented flat. Write a formal letter to your landlord, Dr. Lindner, asking for permission, using the politeness formulas of formal written German.",
+      "prompt": "You would like to install a small plug-in solar system (Balkonkraftwerk) on the balcony of your rented flat. Write a formal letter to your landlord, Dr Lindner, asking for permission, using the politeness formulas of formal written German.",
       "minWords": 120,
       "maxWords": 220,
       "rubric": [

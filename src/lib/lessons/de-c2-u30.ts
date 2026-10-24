@@ -89,7 +89,7 @@ export const DE_C2_U30: Lesson[] = [
           {
             type: "speak",
             text: "Die Geschichte wird aus der Perspektive eines Kindes erzählt.",
-            tip: "Stress Per-spek-TI-ve on the third syllable, and say the -v- as an English v.",
+            tip: "Stress \"Perspektive\" on the third syllable (Per-spek-TI-ve), and say the -v- as an English v.",
             explanation: "\"Aus der Perspektive\" + genitive: from the perspective of. The passive \"wird erzählt\" keeps the author out of the sentence.",
           },
         ],
@@ -300,7 +300,7 @@ export const DE_C2_U30: Lesson[] = [
           {
             type: "speak",
             text: "Die Figurenkonstellation ist erstaunlich einfach.",
-            tip: "Fi-GU-ren-kon-stel-la-TION: the main stress is on the last element, -tion, pronounced tsjohn.",
+            tip: "\"Figurenkonstellation\" (Fi-GU-ren-kon-stel-la-TION): the main stress is on the last element, -tion, pronounced tsjohn.",
             explanation: "\"Die Figurenkonstellation\" is feminine like \"die Konstellation\", the last element of the compound.",
           },
         ],
@@ -427,7 +427,7 @@ export const DE_C2_U30: Lesson[] = [
         type: "speak",
         text: "Die Frauenfiguren bleiben leider eindimensional.",
         prompt: "Say it in German: Unfortunately the female characters remain one-dimensional.",
-        tip: "ein-di-men-sio-NAL: the stress falls on the last syllable.",
+        tip: "\"eindimensional\" (ein-di-men-sio-NAL): the stress falls on the last syllable.",
         explanation: "\"Bleiben\" + adjective (remain); \"die Frauenfiguren\" is the usual word for female characters.",
       },
       {
@@ -436,7 +436,7 @@ export const DE_C2_U30: Lesson[] = [
         prompt: "Translate into German.",
         source: "She fails because of her family's expectations.",
         answer: "Sie scheitert an den Erwartungen ihrer Familie.",
-        altAnswers: ["Sie scheitert an den Erwartungen ihrer Eltern."],
+        altAnswers: ["Sie scheitert an den Erwartungen, die ihre Familie an sie stellt."],
         explanation: "\"Scheitern an\" + dative: \"an den Erwartungen\". The family is a genitive attribute: \"ihrer Familie\".",
       },
     ],
@@ -660,7 +660,7 @@ export const DE_C2_U30: Lesson[] = [
         type: "speak",
         text: "Die Verfremdung soll das Vertraute fremd erscheinen lassen.",
         prompt: "Say it in German: Estrangement is meant to make the familiar seem strange.",
-        tip: "Ver-FREM-dung, das Ver-TRAU-te: the stress is on the stem, never on the prefix ver-.",
+        tip: "\"Verfremdung\", \"das Vertraute\" (Ver-FREM-dung, das Ver-TRAU-te): the stress is on the stem, never on the prefix ver-.",
         explanation: "\"Lassen\" + infinitive: make something appear. \"Das Vertraute\" is an adjectival noun (the familiar).",
       },
     ],
@@ -719,14 +719,14 @@ export const DE_C2_U30: Lesson[] = [
         heading: "The middle: praise, but",
         body: [
           "The second part weighs strengths and weaknesses. Read the next paragraph and mark every word that judges:",
-          "\"Man kann Wendt nicht vorwerfen, sie verstehe ihr Handwerk nicht. Die Bilder, die Kameramann Jonas Pohl vom nebligen Seeufer einfängt, sind von bestechender Schönheit, und Lea Brandt spielt die älteste Schwester mit jener kontrollierten Kälte, die man an ihr schätzt. Doch was nützt die schönste Totale, wenn das Drehbuch den Figuren nichts zu sagen gibt? Die Dialoge kreisen um Erbschaftsfragen und alte Kränkungen, ohne je zuzuspitzen; der angekündigte Familienkonflikt bleibt eine Behauptung.\"",
-          "The pattern is concession then attack: first \"man kann ihr nicht vorwerfen\" (you can't accuse her of...) and real praise (\"von bestechender Schönheit\", of captivating beauty), then \"Doch\" and a rhetorical question that turns the praise against the film. \"Bleibt eine Behauptung\" (remains a mere assertion) is a typical feuilleton put-down: the film claims a conflict but never shows it. \"Ohne je zuzuspitzen\" (without ever coming to a head) criticises the missing \"Spannungsbogen\".",
+          "\"Man kann Wendt nicht vorwerfen, sie verstehe ihr Handwerk nicht. Die Bilder, die Kameramann Jonas Pohl vom nebligen Seeufer einfängt, sind von bestechender Schönheit, und Lea Brandt spielt die älteste Schwester mit jener kontrollierten Kälte, die man an ihr schätzt. Doch was nützt die schönste Totale, wenn das Drehbuch den Figuren nichts zu sagen gibt? Die Dialoge kreisen um Erbschaftsfragen und alte Kränkungen, ohne sich je zuzuspitzen; der angekündigte Familienkonflikt bleibt eine Behauptung.\"",
+          "The pattern is concession then attack: first \"man kann ihr nicht vorwerfen\" (you can't accuse her of...) and real praise (\"von bestechender Schönheit\", of captivating beauty), then \"Doch\" and a rhetorical question that turns the praise against the film. \"Bleibt eine Behauptung\" (remains a mere assertion) is a typical feuilleton put-down: the film claims a conflict but never shows it. \"Ohne sich je zuzuspitzen\" (without ever coming to a head: \"sich zuspitzen\" is reflexive) criticises the missing \"Spannungsbogen\".",
         ],
         examples: [
           { es: "Man kann ihr nicht vorwerfen, sie verstehe ihr Handwerk nicht.", en: "You can't accuse her of not knowing her craft." },
           { es: "Die Bilder sind von bestechender Schönheit.", en: "The images are captivatingly beautiful." },
           { es: "Doch was nützt die schönste Kamera, wenn das Drehbuch schwach ist?", en: "But what good is the most beautiful camera work if the script is weak?" },
-          { es: "Die Dialoge kreisen um alte Kränkungen, ohne je zuzuspitzen.", en: "The dialogues circle around old grievances without ever coming to a head." },
+          { es: "Die Dialoge kreisen um alte Kränkungen, ohne sich je zuzuspitzen.", en: "The dialogues circle around old grievances without ever coming to a head." },
           { es: "Der angekündigte Konflikt bleibt eine bloße Behauptung.", en: "The promised conflict remains a mere assertion." },
           { es: "Sie spielt die Rolle mit jener kontrollierten Kälte, die man an ihr schätzt.", en: "She plays the part with the controlled coolness people value in her." },
         ],
@@ -896,7 +896,7 @@ export const DE_C2_U30: Lesson[] = [
         heading: "Describing a painting: where things are",
         body: [
           "A German \"Bildbeschreibung\" moves systematically through the picture: \"im Vordergrund\" (in the foreground), \"im Mittelgrund\", \"im Hintergrund\"; \"links oben\" / \"oben links\" (top left), \"rechts unten\" (bottom right), \"in der Bildmitte\" (in the centre), \"am linken Bildrand\" (on the left edge). Left and right are always seen from the viewer, as in English.",
-          "The verbs are static and in the present: \"zu sehen sein\" (\"Im Vordergrund ist eine Frau zu sehen\"), \"sich befinden\", \"stehen\", \"liegen\", \"erkennen\" (\"Im Hintergrund erkennt man eine Stadt\"), \"dargestellt sein\" (\"Dargestellt ist ein Mann am Meer\"). Avoid \"es gibt\" in a careful description; it sounds childish here.",
+          "The verbs are static and in the present: \"zu sehen sein\" (\"Im Vordergrund ist eine Frau zu sehen\"), \"sich befinden\", \"stehen\", \"liegen\", \"erkennen\" (\"Im Hintergrund erkennt man eine Stadt\"), \"dargestellt sein\" (\"Dargestellt ist ein Mann am Meer\"). Avoid \"es gibt\" in a careful description; it sounds plain and schoolish here.",
           "Two words for picture: \"das Bild\" is general, \"das Gemälde\" is a painting (in oil, acrylic), \"die Zeichnung\" a drawing, \"das Aquarell\" a watercolour. \"Die Leinwand\" is the canvas (and also the cinema screen).",
         ],
         examples: [
@@ -1110,7 +1110,7 @@ export const DE_C2_U30: Lesson[] = [
         body: [
           "German critics have a fine scale, and its two ends sound deceptively alike. \"Das Meisterwerk\" is a masterpiece; \"das Machwerk\" is a shoddy, contemptible piece of work, a hack job. \"Werk\" alone is neutral (\"ihr neues Werk\"), but \"Machwerk\" is always an insult, often with a moral edge (\"ein antisemitisches Machwerk\").",
           "Between them, from good to bad: \"herausragend\", \"großartig\" (outstanding); \"gelungen\" (successful, well made: the standard positive word); \"sehenswert\" / \"lesenswert\" (worth seeing / reading); \"solide\" (solid, competent but unremarkable); \"durchwachsen\" (mixed, uneven, literally streaky like bacon); \"enttäuschend\"; \"misslungen\" (failed); \"ärgerlich\" (annoying, infuriating: a film that wastes its potential or offends).",
-          "Trap: \"solide\" is not really praise. English solid can be quite positive; in a German review, \"ein solider Krimi\" means fine, nothing special. And \"ärgerlich\" is not angry (that is \"verärgert\"): the work is annoying, the critic is \"verärgert\".",
+          "Trap: \"solide\" is not really praise. English solid can be quite positive; in a German review, \"ein solider Krimi\" means fine, nothing special. And in a review \"ärgerlich\" describes the work (annoying); for the critic's own annoyance \"verärgert\" is the clearer word (\"ärgerlich\" can describe a person too, but not in this sense here).",
         ],
         examples: [
           { es: "Ein Meisterwerk, das man nicht verpassen sollte.", en: "A masterpiece you shouldn't miss." },
@@ -1330,7 +1330,7 @@ export const DE_C2_U30: Lesson[] = [
         source: "The film is annoying, not exciting.",
         answer: "Der Film ist ärgerlich, nicht spannend.",
         altAnswers: ["Der Film ist nicht spannend, sondern ärgerlich.", "Der Film ist eher ärgerlich als spannend."],
-        explanation: "\"Ärgerlich\" describes something that annoys; the person who is annoyed is \"verärgert\".",
+        explanation: "\"Ärgerlich\" here describes something that annoys; for the person who is annoyed, \"verärgert\" is clearer.",
       },
     ],
   },
@@ -1339,7 +1339,7 @@ export const DE_C2_U30: Lesson[] = [
     level: "DE-C2",
     number: 7,
     title: "Real-World Mission: Eine Kritik in 150 Wörtern",
-    summary: "Write a tight 150-word review of a German-language book, film or exhibition: hook, context, a two-line plot, a weighed judgement and a clear verdict, with the phrases critics actually use.",
+    summary: "You'll be able to write a tight 150-word review of a German-language book, film or exhibition: hook, context, a two-line plot, a weighed judgement and a clear verdict, with the phrases critics actually use.",
     duration: "20 min",
     sections: [
       {
@@ -1412,7 +1412,7 @@ export const DE_C2_U30: Lesson[] = [
           {
             type: "speak",
             text: "Fazit: unbedingt lesenswert.",
-            tip: "FA-zit with stress on the first syllable; z is ts.",
+            tip: "\"Fazit\" (FA-zit) with stress on the first syllable; z is ts.",
             explanation: "\"Fazit:\" plus a verdict without a verb is the tightest ending of a German review.",
           },
         ],
@@ -1758,7 +1758,7 @@ export const DE_C2_U30: Lesson[] = [
         type: "speak",
         text: "Ministerium macht Rückzieher beim Heizungsgesetz",
         prompt: "Read this headline aloud in German: Ministry backs down on heating law",
-        tip: "RÜCK-zie-her: stress the first syllable, and keep the ü rounded.",
+        tip: "\"Rückzieher\" (RÜCK-zie-her): stress the first syllable, and keep the \"ü\" rounded.",
         explanation: "\"Einen Rückzieher machen\" without the article in headline style; \"beim\" = \"bei dem\".",
       },
     ],

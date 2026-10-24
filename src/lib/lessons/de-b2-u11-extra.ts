@@ -95,7 +95,7 @@ export const DE_B2_U11_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "We had booked; [there was still] no table free.",
+        en: "We had booked; nevertheless there [was] no table free.",
         sentence: "Wir hatten reserviert, trotzdem ___ kein Tisch frei.",
         answer: "war",
         explanation: "After \"trotzdem\" the verb comes immediately: \"trotzdem war kein Tisch frei\".",
@@ -484,7 +484,7 @@ export const DE_B2_U11_EXTRA: Lesson[] = [
       {
         heading: "Recap: one idea, three forms",
         body: [
-          "\"Obwohl\" + clause (verb last) ↔ \"trotz\" + genitive noun (no verb) ↔ two main clauses with \"trotzdem\" (verb second). When you transform, three things change: the connector, the position of the verb, and (for trotz) the clause turns into a noun phrase.",
+          "\"Obwohl\" + clause (verb last) ↔ \"trotz\" + genitive noun (no verb) ↔ two main clauses with \"trotzdem\" (verb second). When you transform, three things change: the connector, the position of the verb, and (for \"trotz\") the clause turns into a noun phrase.",
           "Example: \"Obwohl der Aufzug kaputt war, ...\" → \"Trotz des kaputten Aufzugs ...\" → \"Der Aufzug war kaputt, trotzdem ...\".",
         ],
         examples: [
@@ -519,7 +519,7 @@ export const DE_B2_U11_EXTRA: Lesson[] = [
         prompt: "Rewrite with \"trotzdem\": \"Obwohl die Preise gestiegen sind, kaufen die Leute weiter ein.\"",
         source: "Prices have risen; people still keep shopping.",
         answer: "Die Preise sind gestiegen, trotzdem kaufen die Leute weiter ein.",
-        altAnswers: ["Die Preise sind gestiegen. Trotzdem kaufen die Leute weiter ein.", "Die Preise sind gestiegen, aber die Leute kaufen trotzdem weiter ein.", "Die Preise sind gestiegen, dennoch kaufen die Leute weiter ein."],
+        altAnswers: ["Die Preise sind gestiegen. Trotzdem kaufen die Leute weiter ein.", "Die Preise sind gestiegen, aber die Leute kaufen trotzdem weiter ein."],
         explanation: "Two main clauses; \"trotzdem\" + verb \"kaufen\".",
       },
       {
@@ -621,7 +621,7 @@ export const DE_B2_U11_EXTRA: Lesson[] = [
         source: "He's a vegetarian; he still tried the sausage.",
         answer: "Er ist Vegetarier, trotzdem hat er die Wurst probiert.",
         altAnswers: ["Er ist Vegetarier. Trotzdem hat er die Wurst probiert.", "Er ist Vegetarier, aber er hat die Wurst trotzdem probiert.", "Er ist Vegetarier, trotzdem probierte er die Wurst.", "Er ist Vegetarier, hat aber trotzdem die Wurst probiert."],
-        explanation: "No article before \"Vegetarier\" after sein; \"trotzdem hat er\".",
+        explanation: "No article before \"Vegetarier\" after \"sein\"; \"trotzdem hat er\" with the verb straight after the adverb.",
       },
     ],
   },
@@ -892,6 +892,7 @@ export const DE_B2_U11_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: The company is growing, but skilled workers are lacking.",
         words: ["Die Firma", "wächst,", "jedoch", "fehlen", "Fachkräfte."],
         translation: "The company is growing, but skilled workers are lacking.",
+        altOrders: [["Die Firma", "wächst,", "Fachkräfte.", "fehlen", "jedoch"]],
         explanation: "\"Jedoch\" in position 1 takes the verb straight after it.",
       },
       {

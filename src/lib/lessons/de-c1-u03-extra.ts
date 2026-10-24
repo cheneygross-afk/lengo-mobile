@@ -16,7 +16,7 @@ export const DE_C1_U03_EXTRA: Lesson[] = [
         heading: "Recap: three ways from verb to noun",
         body: [
           "-ung → feminine (\"die Lieferung\", \"die Bestellung\"); nominalised infinitive → neuter, capitalised (\"das Warten\", \"beim Einkaufen\"); stem noun → mostly masculine (\"der Kauf\", \"der Schluss\", \"der Flug\"), with feminine exceptions in -t (\"die Ankunft\", \"die Fahrt\").",
-          "Don't invent -ung where a stem noun exists: \"der Kauf\" (not \"*die Kaufung\"), \"der Besuch\", \"der Verlust\".",
+          "Don't invent -ung where a stem noun exists: \"der Kauf\" (not \"*die Kaufung*\"), \"der Besuch\", \"der Verlust\".",
         ],
         examples: [
           { es: "Die Bestellung ist eingegangen.", en: "The order has been received." },
@@ -40,7 +40,7 @@ export const DE_C1_U03_EXTRA: Lesson[] = [
             question: "You want to say: Buying a flat needs careful thought. Which sentence is correct?",
             options: ["Der Kauf einer Wohnung will gut überlegt sein.", "Die Kaufung einer Wohnung will gut überlegt sein.", "Das Kauf einer Wohnung will gut überlegt sein.", "Die Kaufe einer Wohnung will gut überlegt sein."],
             correctIndex: 0,
-            explanation: "\"Kaufen\" has a masculine stem noun: \"der Kauf\". There is no \"*die Kaufung\" or \"*die Kaufe\".",
+            explanation: "\"Kaufen\" has a masculine stem noun: \"der Kauf\". There is no \"*die Kaufung*\" or \"*die Kaufe*\".",
           },
         ],
       },
@@ -52,7 +52,7 @@ export const DE_C1_U03_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "The order has been received.",
         answer: "Die Bestellung ist eingegangen.",
-        altAnswers: ["Die Bestellung wurde empfangen.", "Die Bestellung ist angekommen."],
+        altAnswers: ["Die Bestellung ist bei uns eingegangen.", "Die Bestellung ist angekommen."],
         explanation: "\"Bestellen\" → \"die Bestellung\".",
       },
       {
@@ -61,7 +61,7 @@ export const DE_C1_U03_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "The flight to Vienna was cancelled.",
         answer: "Der Flug nach Wien wurde gestrichen.",
-        altAnswers: ["Der Flug nach Wien wurde annulliert.", "Der Flug nach Wien ist gestrichen worden.", "Der Flug nach Wien fällt aus.", "Der Flug nach Wien wurde abgesagt."],
+        altAnswers: ["Der Flug nach Wien wurde annulliert.", "Der Flug nach Wien ist gestrichen worden.", "Der Flug nach Wien ist ausgefallen.", "Der Flug nach Wien wurde abgesagt."],
         explanation: "\"Fliegen\" → \"der Flug\" (stem noun with vowel change).",
       },
       {
@@ -195,7 +195,7 @@ export const DE_C1_U03_EXTRA: Lesson[] = [
         heading: "Recap: adjective nouns",
         body: [
           "\"-heit\" (\"die Sicherheit\"), \"-keit\" after -bar/-ig/-lich/-sam/-er (\"die Sparsamkeit\"), \"-igkeit\" (\"die Schnelligkeit\"), \"-e\" + umlaut (\"die Tiefe\"), \"-ität\" (\"die Qualität\"): all feminine. \"-ismus\" is masculine.",
-          "Pairs to learn: \"hoch → die Höhe\" (the ch disappears), \"gut → die Güte\" (kindness, quality), \"arm → die Armut\" and \"heiß → die Hitze\" (irregular), and \"gerecht → die Gerechtigkeit\" (-igkeit, not \"*die Gerechtheit\").",
+          "Pairs to learn: \"hoch → die Höhe\" (the ch disappears), \"gut → die Güte\" (kindness, quality), \"arm → die Armut\" and \"heiß → die Hitze\" (irregular), and \"gerecht → die Gerechtigkeit\" (-igkeit, not \"*die Gerechtheit*\").",
         ],
         examples: [
           { es: "Sicherheit hat Vorrang.", en: "Safety comes first." },
@@ -411,7 +411,7 @@ export const DE_C1_U03_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "After signing the contract we celebrated.",
         answer: "Nach der Unterzeichnung des Vertrags haben wir gefeiert.",
-        altAnswers: ["Nach Unterzeichnung des Vertrags haben wir gefeiert.", "Nach der Unterzeichnung des Vertrags feierten wir.", "Nach der Unterzeichnung des Vertrages haben wir gefeiert.", "Nachdem wir den Vertrag unterschrieben hatten, haben wir gefeiert."],
+        altAnswers: ["Nach Unterzeichnung des Vertrags haben wir gefeiert.", "Nach der Unterzeichnung des Vertrags feierten wir.", "Nach der Unterzeichnung des Vertrages haben wir gefeiert.", "Nachdem wir den Vertrag unterschrieben hatten, haben wir gefeiert.", "Nachdem wir den Vertrag unterschrieben hatten, feierten wir."],
         explanation: "\"Nachdem wir den Vertrag unterschrieben hatten\" → \"nach der Unterzeichnung des Vertrags\".",
       },
       {
@@ -728,7 +728,7 @@ export const DE_C1_U03_EXTRA: Lesson[] = [
     number: 5,
     optional: true,
     title: "Extra Practice: Verbalize for Clarity",
-    summary: "Rewrite dense administrative sentences in plain German with real verbs and clear subjects.",
+    summary: "You'll be able to rewrite dense administrative sentences in plain German with real verbs and clear subjects.",
     duration: "14 min",
     sections: [
       {
@@ -749,7 +749,7 @@ export const DE_C1_U03_EXTRA: Lesson[] = [
             prompt: "Translate into German.",
             source: "You can collect the documents from Monday.",
             answer: "Sie können die Unterlagen ab Montag abholen.",
-            altAnswers: ["Ab Montag können Sie die Unterlagen abholen.", "Du kannst die Unterlagen ab Montag abholen."],
+            altAnswers: ["Ab Montag können Sie die Unterlagen abholen.", "Du kannst die Unterlagen ab Montag abholen.", "Ihr könnt die Unterlagen ab Montag abholen."],
             explanation: "Plain version of \"Die Abholung der Unterlagen ist ab Montag möglich\".",
           },
           {
@@ -899,7 +899,7 @@ export const DE_C1_U03_EXTRA: Lesson[] = [
     number: 6,
     optional: true,
     title: "Extra Practice: Unpacking Long Noun Phrases",
-    summary: "Find the head noun and rewrite heavy academic noun phrases as clauses.",
+    summary: "You'll be able to find the head noun and rewrite heavy academic noun phrases as clauses.",
     duration: "15 min",
     sections: [
       {

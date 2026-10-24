@@ -8,7 +8,7 @@ export const DE_B2_U14: Lesson[] = [
     level: "DE-B2",
     number: 1,
     title: "Subjective Modal Verbs, Part 1 of 2: Muss, Dürfte, Kann, Könnte",
-    summary: "Use modal verbs to say how sure you are: muss (I'm sure), dürfte (probably), kann and könnte (possibly), kann nicht (impossible), in the present and the past.",
+    summary: "Use modal verbs to say how sure you are: \"muss\" (I'm sure), \"dürfte\" (probably), \"kann\" and \"könnte\" (possibly), \"kann nicht\" (impossible), in the present and the past.",
     duration: "16 min",
     sections: [
       {
@@ -83,7 +83,7 @@ export const DE_B2_U14: Lesson[] = [
         heading: "The past: must have, can't have",
         body: [
           "For a guess about the past, keep the modal in the present (the judgement is made now) and put the event in the perfect infinitive: participle + \"haben\" or \"sein\". \"Sie muss den Zug verpasst haben\" (She must have missed the train). \"Er kann nicht weit gekommen sein\" (He can't have got far).",
-          "Big trap: English must have done tempts \"*musste ... haben\" or \"*hat ... müssen\". Wrong: the judgement is now, so \"muss\" stays present: \"muss ... verpasst haben\".",
+          "Big trap: English must have done tempts \"*musste ... haben*\" or \"*hat ... müssen*\". Wrong: the judgement is now, so \"muss\" stays present: \"muss ... verpasst haben\".",
           "Choose \"haben\" or \"sein\" exactly as in the Perfekt: \"verpasst haben\", \"gegangen sein\", \"gewesen sein\". \"Das muss schwer gewesen sein\" (That must have been hard). \"Er dürfte schon losgefahren sein\" (He's probably already set off).",
         ],
         examples: [
@@ -102,7 +102,7 @@ export const DE_B2_U14: Lesson[] = [
             source: "She must have missed the train.",
             answer: "Sie muss den Zug verpasst haben.",
             altAnswers: ["Sie muss ihren Zug verpasst haben."],
-            explanation: "Present modal \"muss\" + perfect infinitive \"verpasst haben\". Not \"*musste\".",
+            explanation: "Present modal \"muss\" + perfect infinitive \"verpasst haben\". Not \"*musste*\".",
           },
           {
             type: "fill-blank",
@@ -206,7 +206,7 @@ export const DE_B2_U14: Lesson[] = [
         type: "speak",
         text: "Sie muss den Zug verpasst haben.",
         prompt: "Say it in German: She must have missed the train.",
-        tip: "Stress the participle verPASST: it carries the information.",
+        tip: "Stress the participle \"verpasst\" (ver-PASST): it carries the information.",
         explanation: "Present \"muss\" + perfect infinitive.",
       },
     ],
@@ -216,7 +216,7 @@ export const DE_B2_U14: Lesson[] = [
     level: "DE-B2",
     number: 2,
     title: "Pattern Practice: Sie muss krank sein",
-    summary: "One frame, many situations: draw conclusions from evidence with muss, dürfte, könnte and kann nicht, now and in the past.",
+    summary: "Draw conclusions from evidence with one frame and many situations: \"muss\", \"dürfte\", \"könnte\" and \"kann nicht\", now and in the past.",
     duration: "13 min",
     sections: [
       {
@@ -262,7 +262,7 @@ export const DE_B2_U14: Lesson[] = [
           { es: "Der Briefkasten ist voll. Sie müssen weggefahren sein.", en: "The letterbox is full. They must have gone away." },
           { es: "Die Straße ist nass. Es muss geregnet haben.", en: "The street is wet. It must have rained." },
           { es: "Er hat Sonnenbrand. Er dürfte am Strand gewesen sein.", en: "He's sunburnt. He's probably been at the beach." },
-          { es: "Die Tür ist offen. Jemand könnte sie vergessen haben.", en: "The door's open. Someone could have forgotten to close it." },
+          { es: "Die Tür ist offen. Jemand könnte vergessen haben, sie zuzumachen.", en: "The door's open. Someone could have forgotten to close it." },
           { es: "Sie hat gute Laune. Sie muss die Prüfung bestanden haben.", en: "She's in a good mood. She must have passed the exam." },
         ],
         checkpoint: [
@@ -410,7 +410,7 @@ export const DE_B2_U14: Lesson[] = [
     level: "DE-B2",
     number: 3,
     title: "Subjective Modal Verbs, Part 2 of 2: Soll and Will",
-    summary: "Pass on rumours with soll (people say) and report doubtful claims with will (the subject claims), in the present and the past.",
+    summary: "Pass on rumours with \"soll\" (people say) and report doubtful claims with \"will\" (the subject claims), in the present and the past.",
     duration: "16 min",
     sections: [
       {
@@ -440,10 +440,10 @@ export const DE_B2_U14: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "She [is said to have won] the lottery.",
-            sentence: "Sie ___ im Lotto.",
-            answer: "soll gewonnen haben",
-            explanation: "Past rumour: \"soll\" + perfect infinitive \"gewonnen haben\".",
+            en: "She is said to [have won] the lottery.",
+            sentence: "Sie soll im Lotto ___.",
+            answer: "gewonnen haben",
+            explanation: "Past rumour: \"soll\" + perfect infinitive \"gewonnen haben\" at the very end.",
           },
         ],
       },
@@ -493,9 +493,9 @@ export const DE_B2_U14: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The castle [is said to have been built] in the 12th century.",
-        sentence: "Die Burg ___ im 12. Jahrhundert.",
-        answer: "soll gebaut worden sein",
+        en: "The castle is said to [have been built] in the 12th century.",
+        sentence: "Die Burg soll im 12. Jahrhundert ___.",
+        answer: "gebaut worden sein",
         explanation: "Rumour about the past in the passive: \"soll\" + passive perfect infinitive \"gebaut worden sein\".",
       },
       {
@@ -581,7 +581,7 @@ export const DE_B2_U14: Lesson[] = [
         body: [
           "\"Er hat kommen müssen\" / \"Er musste kommen\" is objective and past: he was obliged to come. The modal itself is in the past.",
           "\"Er muss gekommen sein\" is subjective: the modal is in the present (my judgement now), and the event is in the past (perfect infinitive). He must have come, e.g. because his coat is here.",
-          "Rule of thumb: if the modal is in the past (musste, hat ... müssen), it's about obligation or ability then. If the modal is present and the infinitive is perfect (gekommen sein, gemacht haben), it's a guess or a report about the past.",
+          "Rule of thumb: if the modal is in the past (\"musste\", \"hat ... müssen\"), it's about obligation or ability then. If the modal is present and the infinitive is perfect (\"gekommen sein\", \"gemacht haben\"), it's a guess or a report about the past.",
         ],
         examples: [
           { es: "Er hat kommen müssen.", en: "He had to come." },
@@ -635,10 +635,10 @@ export const DE_B2_U14: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "He [is said to have forged] the form.",
-            sentence: "Er ___ das Formular.",
-            answer: "soll gefälscht haben",
-            explanation: "Rumour: \"soll\" + perfect infinitive.",
+            en: "He is said to [have forged] the form.",
+            sentence: "Er soll das Formular ___.",
+            answer: "gefälscht haben",
+            explanation: "Rumour: \"soll\" + perfect infinitive, which goes to the very end.",
           },
         ],
       },
@@ -738,7 +738,7 @@ export const DE_B2_U14: Lesson[] = [
     level: "DE-B2",
     number: 5,
     title: "Story with Gaps: Der Einbruch im Museum",
-    summary: "A detective story in Dresden: witnesses make claims with will, rumours spread with soll, and the inspector deduces with muss, kann nicht and dürfte.",
+    summary: "Follow a detective story in Dresden and fill its gaps: witnesses make claims with \"will\", rumours spread with \"soll\", and the inspector deduces with \"muss\", \"kann nicht\" and \"dürfte\".",
     duration: "16 min",
     sections: [
       {
@@ -784,7 +784,7 @@ export const DE_B2_U14: Lesson[] = [
         ],
         examples: [
           { es: "Der Nachtwächter will nichts gehört haben.", en: "The night watchman claims not to have heard anything." },
-          { es: "Frau Krüger will einen weißen Lieferwagen gesehen haben.", en: "Mrs Krueger claims to have seen a white van." },
+          { es: "Frau Krüger will einen weißen Lieferwagen gesehen haben.", en: "Ms Krueger claims to have seen a white van." },
           { es: "Die Dose soll über eine Million Euro wert sein.", en: "The box is said to be worth over a million euros." },
           { es: "Der Direktor soll Schulden gehabt haben.", en: "The director is said to have had debts." },
           { es: "Das sind nur Gerüchte.", en: "Those are just rumours." },
@@ -853,7 +853,7 @@ export const DE_B2_U14: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Mrs Krueger [claims to have seen] a white van.",
+        en: "Ms Krueger [claims to have seen] a white van.",
         sentence: "Frau Krüger will einen weißen Lieferwagen ___.",
         answer: "gesehen haben",
         explanation: "Perfect infinitive after \"will\".",
@@ -931,7 +931,7 @@ export const DE_B2_U14: Lesson[] = [
     level: "DE-B2",
     number: 6,
     title: "Error Hunt: Subjective Modals",
-    summary: "Find and fix the typical mistakes with subjective modals: the wrong tense of the modal, the wrong word order, and haben vs sein in the perfect infinitive.",
+    summary: "Find and fix the typical mistakes with subjective modals: the wrong tense of the modal, the wrong word order, and \"haben\" vs \"sein\" in the perfect infinitive.",
     duration: "14 min",
     sections: [
       {
@@ -950,7 +950,7 @@ export const DE_B2_U14: Lesson[] = [
         checkpoint: [
           {
             type: "fill-blank",
-            prompt: "Correct the sentence: \"*Er musste krank gewesen sein.\" Write the German for the bold words.",
+            prompt: "Correct the sentence: \"*Er musste krank gewesen sein.*\" Write the German for the bold words.",
             en: "He [must] have been ill.",
             sentence: "Er ___ krank gewesen sein.",
             answer: "muss",
@@ -990,7 +990,7 @@ export const DE_B2_U14: Lesson[] = [
           },
           {
             type: "fill-blank",
-            prompt: "Correct the sentence: \"*Er will es gesehen hat.\" Write the German for the bold words.",
+            prompt: "Correct the sentence: \"*Er will es gesehen hat.*\" Write the German for the bold words.",
             en: "He claims to [have seen] it.",
             sentence: "Er will es ___.",
             answer: "gesehen haben",
@@ -1014,7 +1014,7 @@ export const DE_B2_U14: Lesson[] = [
         checkpoint: [
           {
             type: "fill-blank",
-            prompt: "Correct the sentence: \"*Er muss nach Hause gegangen haben.\" Write the German for the bold words.",
+            prompt: "Correct the sentence: \"*Er muss nach Hause gegangen haben.*\" Write the German for the bold words.",
             en: "He must [have gone] home.",
             sentence: "Er muss nach Hause ___.",
             answer: "gegangen sein",
@@ -1033,7 +1033,7 @@ export const DE_B2_U14: Lesson[] = [
     exercises: [
       {
         type: "fill-blank",
-        prompt: "Correct the sentence: \"*Sie soll haben gewonnen.\" Write the German for the bold words.",
+        prompt: "Correct the sentence: \"*Sie soll haben gewonnen.*\" Write the German for the bold words.",
         en: "She [is said to have won].",
         sentence: "Sie ___.",
         answer: "soll gewonnen haben",
@@ -1041,7 +1041,7 @@ export const DE_B2_U14: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Correct the sentence: \"*Das kann nicht wahr gewesen haben.\" Write the German for the bold words.",
+        prompt: "Correct the sentence: \"*Das kann nicht wahr gewesen haben.*\" Write the German for the bold words.",
         en: "That can't [have been] true.",
         sentence: "Das kann nicht wahr ___.",
         answer: "gewesen sein",
@@ -1049,7 +1049,7 @@ export const DE_B2_U14: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Correct the sentence: \"*Die Gäste mussten schon gegangen sein.\" Write the German for the bold words.",
+        prompt: "Correct the sentence: \"*Die Gäste mussten schon gegangen sein.*\" Write the German for the bold words.",
         en: "The guests [must] have left already.",
         sentence: "Die Gäste ___ schon gegangen sein.",
         answer: "müssen",
@@ -1120,7 +1120,7 @@ export const DE_B2_U14: Lesson[] = [
     level: "DE-B2",
     number: 7,
     title: "Spiral Review: Fix the Paragraph: Als ob",
-    summary: "Review Unit 13: correct the mood and the word order after als ob and als in a short paragraph about a strange evening.",
+    summary: "Review Unit 13: correct the mood and the word order after \"als ob\" and \"als\" in a short paragraph about a strange evening.",
     duration: "13 min",
     sections: [
       {
@@ -1139,7 +1139,7 @@ export const DE_B2_U14: Lesson[] = [
         checkpoint: [
           {
             type: "fill-blank",
-            prompt: "Correct the sentence: \"*Er tut so, als er wäre krank.\" Write the German for the bold words.",
+            prompt: "Correct the sentence: \"*Er tut so, als er wäre krank.*\" Write the German for the bold words.",
             en: "He acts as if [he were] ill.",
             sentence: "Er tut so, als ___ krank.",
             answer: "wäre er",
@@ -1159,7 +1159,7 @@ export const DE_B2_U14: Lesson[] = [
       {
         heading: "The paragraph",
         body: [
-          "Here is Lea's diary entry, with four mistakes: \"Gestern Abend kam Tom zur Party, als ob nichts passiert ist. Er lachte, als er wäre der glücklichste Mensch der Welt. Aber seine Augen sahen aus, wie ob er geweint hätte. Und als ich ihn fragte, tat er so, als ob er mich nicht hörte.\"",
+          "Here is Lea's diary entry, with three mistakes and one unclear verb: \"Gestern Abend kam Tom zur Party, als ob nichts passiert ist. Er lachte, als er wäre der glücklichste Mensch der Welt. Aber seine Augen sahen aus, wie ob er geweint hätte. Und als ich ihn fragte, tat er so, als ob er mich nicht hörte.\"",
           "Corrected: \"... als ob nichts passiert wäre. Er lachte, als wäre er der glücklichste Mensch der Welt. Aber seine Augen sahen aus, als ob er geweint hätte. Und als ich ihn fragte, tat er so, als ob er mich nicht hören würde.\"",
           "Note the last sentence: \"hörte\" is both Präteritum and Konjunktiv II, so it's ambiguous; \"hören würde\" makes the unreal meaning clear. And the first \"als\" in that sentence (\"als ich ihn fragte\") is a time conjunction: when.",
         ],
@@ -1172,7 +1172,7 @@ export const DE_B2_U14: Lesson[] = [
         checkpoint: [
           {
             type: "fill-blank",
-            prompt: "Correct the sentence: \"*Tom kam, als ob nichts passiert ist.\" Write the German for the bold words.",
+            prompt: "Correct the sentence: \"*Tom kam, als ob nichts passiert ist.*\" Write the German for the bold words.",
             en: "Tom came as if nothing [had happened].",
             sentence: "Tom kam, als ob nichts ___.",
             answer: "passiert wäre",
@@ -1191,7 +1191,7 @@ export const DE_B2_U14: Lesson[] = [
     exercises: [
       {
         type: "fill-blank",
-        prompt: "Correct the sentence: \"*Er lachte, als er wäre der glücklichste Mensch.\" Write the German for the bold words.",
+        prompt: "Correct the sentence: \"*Er lachte, als er wäre der glücklichste Mensch.*\" Write the German for the bold words.",
         en: "He laughed as if [he were] the happiest person.",
         sentence: "Er lachte, als ___ der glücklichste Mensch.",
         answer: "wäre er",
@@ -1199,7 +1199,7 @@ export const DE_B2_U14: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Correct the sentence: \"*Sie redet, als ob sie alles weiß.\" Write the German for the bold words.",
+        prompt: "Correct the sentence: \"*Sie redet, als ob sie alles weiß.*\" Write the German for the bold words.",
         en: "She talks as if she [knew] everything.",
         sentence: "Sie redet, als ob sie alles ___.",
         answer: "wüsste",
@@ -1207,7 +1207,7 @@ export const DE_B2_U14: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Correct the sentence: \"*Er tat so, als ob hätte er mich nie gesehen.\" Write the German for the bold words.",
+        prompt: "Correct the sentence: \"*Er tat so, als ob hätte er mich nie gesehen.*\" Write the German for the bold words.",
         en: "He acted as if he [had never seen] me.",
         sentence: "Er tat so, als ob er mich ___.",
         answer: "nie gesehen hätte",
@@ -1446,7 +1446,7 @@ export const DE_B2_U14: Lesson[] = [
     level: "DE-B2",
     number: 9,
     title: "Spiral Review: Was würdest du tun? Was hättest du getan?",
-    summary: "Review Units 1 and 2: ask and answer hypothetical questions about the present (würdest du) and the past (hättest du, wärst du).",
+    summary: "Review Units 1 and 2: ask and answer hypothetical questions about the present (\"würdest du\") and the past (\"hättest du\", \"wärst du\").",
     duration: "13 min",
     sections: [
       {
@@ -1531,6 +1531,7 @@ export const DE_B2_U14: Lesson[] = [
         en: "I [would have walked].",
         sentence: "Ich ___.",
         answer: "wäre zu Fuß gegangen",
+        altAnswers: ["wäre gelaufen"],
         explanation: "\"Gehen\" takes \"sein\" → \"wäre gegangen\".",
       },
       {
@@ -1608,7 +1609,7 @@ export const DE_B2_U14: Lesson[] = [
     level: "DE-B2",
     number: 10,
     title: "Quick Round: The Certainty Scale",
-    summary: "Rate each situation and pick the right modal: muss, dürfte, könnte, kann nicht, soll or will, in the present and the past.",
+    summary: "Rate each situation and pick the right modal: \"muss\", \"dürfte\", \"könnte\", \"kann nicht\", \"soll\" or \"will\", in the present and the past.",
     duration: "12 min",
     sections: [
       {

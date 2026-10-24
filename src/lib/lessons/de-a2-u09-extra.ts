@@ -9,7 +9,7 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Reflexive Verbs, Part 1 of 3",
-    summary: "Fresh present-tense sentences with the reflexive pronoun in every person.",
+    summary: "Practise putting the right reflexive pronoun after the verb in every person, in fresh present-tense sentences.",
     duration: "10 min",
     sections: [
       {
@@ -92,7 +92,7 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Please sit down, Mrs Schneider.",
+        source: "Please sit down, Ms Schneider.",
         answer: "Setzen Sie sich bitte, Frau Schneider.",
         altAnswers: ["Bitte setzen Sie sich, Frau Schneider."],
         explanation: "Formal \"Sie\" takes \"sich\", with a small s.",
@@ -163,7 +163,7 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Reflexive Verbs, Part 2 of 3",
-    summary: "Reflexive verbs with their fixed prepositions, in the present and the Perfekt.",
+    summary: "Practise reflexive verbs with their fixed prepositions (\"sich freuen auf\", \"sich erinnern an\") in the present and the Perfekt.",
     duration: "10 min",
     sections: [
       {
@@ -315,13 +315,13 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Reflexive Verbs, Part 3 of 3",
-    summary: "Dative reflexives and separable reflexives in short everyday texts.",
+    summary: "Practise dative reflexives with body parts and clothes, and separable reflexives, in short everyday sentences.",
     duration: "10 min",
     sections: [
       {
         heading: "Recap: mir die Hände, mich an",
         body: [
-          "If there's another accusative object, the reflexive turns dative: \"Ich wasche mir die Hände\", \"Du ziehst dir die Schuhe an\". Only \"mir\" and \"dir\" look different; \"sich\", \"uns\" and \"euch\" stay the same. Body parts take \"der/die/das\", not a possessive.",
+          "If there's another accusative object, the reflexive turns dative: \"Ich wasche mir die Hände\", \"Du ziehst dir die Schuhe an\". Only \"mir\" and \"dir\" look different; \"sich\", \"uns\" and \"euch\" stay the same. Body parts usually take \"der/die/das\" rather than a possessive.",
           "Separable reflexives split as usual: \"Ich ziehe mich um\", \"Wir ruhen uns aus\"; in the Perfekt the ge- goes inside: \"umgezogen\", \"ausgeruht\".",
         ],
         examples: [
@@ -383,6 +383,7 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "He's putting on a coat.",
         answer: "Er zieht sich einen Mantel an.",
+        altAnswers: ["Er zieht einen Mantel an."],
         explanation: "\"Sich\" (dative here) + \"einen Mantel\" (accusative); prefix at the end.",
       },
       {
@@ -468,7 +469,7 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
     number: 4,
     optional: true,
     title: "Extra Practice: Dialogue Lab: Getting Ready for a Wedding",
-    summary: "A family rushes to get ready for a wedding: reflexive verbs in a lively dialogue.",
+    summary: "Follow a family rushing to a wedding and use reflexive commands, dative reflexives and the Perfekt in their dialogue.",
     duration: "10 min",
     sections: [
       {
@@ -537,6 +538,7 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'm drying my hair.",
         answer: "Ich föhne mir die Haare.",
+        altAnswers: ["Ich trockne mir die Haare.", "Ich föhne mich."],
         explanation: "\"Sich die Haare föhnen\" = to blow-dry your hair; \"mir\" because \"die Haare\" is accusative.",
       },
       {
@@ -622,14 +624,14 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
     number: 5,
     optional: true,
     title: "Extra Practice: Error Hunt: Reflexive Slip-ups",
-    summary: "Find and fix the typical reflexive mistakes: missing pronouns, meine Hände and freuen für.",
+    summary: "Find and fix the typical reflexive slips: a missing pronoun, \"meine Hände\" instead of \"mir die Hände\", and the wrong preposition after \"sich freuen\".",
     duration: "10 min",
     sections: [
       {
         heading: "Recap: the three classic slips",
         body: [
           "Slip 1, the missing pronoun: \"*Ich beeile*\", \"*Ich fühle gut*\", \"*Wir treffen morgen*\". German needs \"mich\", \"mich\" and \"uns\".",
-          "Slip 2, the possessive with body parts: \"*Ich wasche meine Hände*\" sounds foreign; say \"Ich wasche mir die Hände\". Slip 3, the wrong preposition copied from English: \"*Ich freue mich für den Urlaub*\" (look forward = \"auf\"), \"*Ich interessiere mich in Kunst*\" (= \"für\").",
+          "Slip 2, the possessive with body parts: \"Ich wasche meine Hände\" is understood but sounds foreign; say \"Ich wasche mir die Hände\". Slip 3, the wrong preposition copied from English: \"*Ich freue mich für den Urlaub*\" (look forward = \"auf\"), \"*Ich interessiere mich in Kunst*\" (= \"für\").",
         ],
         examples: [
           { es: "Ich fühle mich gut.", en: "I feel good." },
@@ -655,7 +657,7 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
             source: "I'm looking forward to the holiday.",
             answer: "Ich freue mich auf den Urlaub.",
             altAnswers: ["Ich freue mich auf die Ferien."],
-            explanation: "Look forward to = \"sich freuen auf\". \"Für\" copies English for.",
+            explanation: "Look forward to = \"sich freuen auf\". \"Für\" copies English for; \"sich freuen für\" exists, but only for people: \"Ich freue mich für dich\" (I'm happy for you).",
           },
         ],
       },
@@ -672,10 +674,10 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Ich wasche meine Hände*\". Write the natural German for: I'm washing my hands.",
+        prompt: "A learner wrote \"Ich wasche meine Hände\", which sounds English. Write the natural German for: I'm washing my hands.",
         source: "I'm washing my hands.",
         answer: "Ich wasche mir die Hände.",
-        explanation: "Body parts: dative reflexive + article.",
+        explanation: "Body parts: dative reflexive + article. \"Meine Hände\" is understood, but Germans say \"mir die Hände\".",
       },
       {
         type: "translate",
@@ -775,7 +777,7 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
     number: 6,
     optional: true,
     title: "Extra Practice: Say It Yourself: My Morning Routine",
-    summary: "Guided speaking: describe your morning from the alarm to the front door.",
+    summary: "Describe your morning aloud in German, from the alarm to the front door, with reflexive and separable verbs.",
     duration: "10 min",
     sections: [
       {
@@ -933,13 +935,13 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
     number: 7,
     optional: true,
     title: "Extra Practice: Fix the Paragraph: Routine Mistakes",
-    summary: "Correct the pronoun and word-order slips in a learner's description of their routine.",
+    summary: "Correct the pronoun and word-order slips in a learner's description of their routine, and explain each fix.",
     duration: "10 min",
     sections: [
       {
         heading: "Recap: Tom's routine, with mistakes",
         body: [
-          "Tom wrote: \"*Jeden Morgen ich stehe um sieben auf. Ich dusche und ich wasche meine Haare. Dann ich ziehe an mich. Ich muss mich beeilen. Am Abend ich ruhe aus.*\" Four kinds of slips are hiding here: verb-second after a time phrase, a missing reflexive, the possessive with a body part, and the pronoun or prefix in the wrong place.",
+          "Tom wrote: \"*Jeden Morgen ich stehe um sieben auf. Ich dusche und ich wasche meine Haare. Dann ich ziehe an mich. Ich muss mich beeilen. Am Abend ich ruhe aus.*\" Three kinds of slips are hiding here: verb-second after a time phrase, a missing reflexive (\"ausruhen\" needs \"mich\"), and the pronoun or prefix in the wrong place. Two things are only less idiomatic: \"Ich dusche\" is fine, though \"ich dusche mich\" is common, and \"meine Haare\" is correct but sounds English next to \"mir die Haare\".",
           "The corrected version: \"Jeden Morgen stehe ich um sieben auf. Ich dusche mich und wasche mir die Haare. Dann ziehe ich mich an. Ich muss mich beeilen. Am Abend ruhe ich mich aus.\"",
         ],
         examples: [
@@ -981,7 +983,7 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*Ich wasche meine Haare*\". Write the natural German for: I wash my hair.",
+        prompt: "Make \"Ich wasche meine Haare\" sound natural. Write the German for: I wash my hair.",
         source: "I wash my hair.",
         answer: "Ich wasche mir die Haare.",
         explanation: "Dative reflexive + article for your own body.",
@@ -1085,7 +1087,7 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
     number: 8,
     optional: true,
     title: "Extra Practice: Mixed Practice: Reflexives in Three Tenses",
-    summary: "Reflexive verbs in the present, the Perfekt and with modal verbs.",
+    summary: "Use the same reflexive verb in the present, the Perfekt and with a modal verb, keeping the pronoun in place.",
     duration: "10 min",
     sections: [
       {
@@ -1239,7 +1241,7 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
     number: 9,
     optional: true,
     title: "Extra Practice: Pattern Practice: Wir sehen uns, sie haben sich kennengelernt",
-    summary: "Reciprocal verbs (each other) through every plural person and tense.",
+    summary: "Say each other with \"uns\", \"euch\" and \"sich\" in the present and the Perfekt.",
     duration: "10 min",
     sections: [
       {
@@ -1395,7 +1397,7 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
     number: 10,
     optional: true,
     title: "Extra Practice: Speed Round: Reflexive or Not?",
-    summary: "Decide fast whether the verb needs a reflexive pronoun in this sentence.",
+    summary: "Decide quickly whether a verb needs a reflexive pronoun in a given sentence.",
     duration: "8 min",
     sections: [
       {

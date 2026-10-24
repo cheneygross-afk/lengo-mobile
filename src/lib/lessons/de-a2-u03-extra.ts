@@ -175,7 +175,7 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
     optional: true,
     number: 2,
     title: "Extra Practice: Haben and Sein, Part 2 of 3",
-    summary: "Questions and negatives in the Perfekt with both auxiliaries.",
+    summary: "Ask questions and make negatives in the Perfekt with both auxiliaries.",
     duration: "10 min",
     sections: [
       {
@@ -249,7 +249,7 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "How long did you stay? (polite)",
+        source: "How long did you stay? (formal)",
         answer: "Wie lange sind Sie geblieben?",
         explanation: "\"Bleiben\" → \"sind ... geblieben\".",
       },
@@ -332,7 +332,7 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
     optional: true,
     number: 3,
     title: "Extra Practice: Haben and Sein, Part 3 of 3",
-    summary: "Separable and ge-less participles with sein and haben in short texts.",
+    summary: "Use separable and ge-less participles with \"sein\" and \"haben\" in short texts.",
     duration: "11 min",
     sections: [
       {
@@ -489,7 +489,7 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
     optional: true,
     number: 4,
     title: "Extra Practice: Dialogue Lab: Du bist zu spät!",
-    summary: "Explain why you're late: Ich habe den Bus verpasst, ich bin zu spät aufgestanden.",
+    summary: "Explain why you're late: \"Ich habe den Bus verpasst\", \"Ich bin zu spät aufgestanden\".",
     duration: "10 min",
     sections: [
       {
@@ -598,7 +598,7 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Mia asks: Warum kommst du so spät? Which answer is correct?",
+        question: "Mia asks: \"Warum kommst du so spät?\" Which answer is correct? (I missed the bus.)",
         options: ["Ich habe den Bus verpasst.", "Ich bin den Bus verpasst.", "Ich habe den Bus geverpasst.", "Ich bin den Bus verpassen."],
         correctIndex: 0,
         explanation: "\"Verpassen\" + object → \"haben\", no ge-.",
@@ -655,7 +655,7 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
       {
         heading: "The postcard",
         body: [
-          "Emma's postcard from the Black Forest: \"Liebe Oma, wir \"*haben*\" am Montag nach Freiburg \"*gefahren*\". Wir \"*sind*\" viel \"*gewandert*\" ✓ und ich \"*habe*\" ein Kuckucksuhr-Museum \"*besucht*\" ✓. Am Mittwoch \"*ich bin*\" auf einen Berg \"*gestiegen*\". Leider \"*hat*\" es kalt \"*geworden*\". Wir \"*haben gekocht*\" Spätzle.\"",
+          "Emma's postcard from the Black Forest: \"Liebe Oma, wir \"*haben*\" am Montag nach Freiburg \"*gefahren*\". Wir \"sind\" viel \"gewandert\" ✓ und ich \"habe\" ein Kuckucksuhr-Museum \"besucht\" ✓. Am Mittwoch \"*ich bin*\" auf einen Berg \"*gestiegen*\". Leider \"*hat*\" es kalt \"*geworden*\". Wir \"*haben gekocht*\" Spätzle.\"",
           "Some forms are right (✓): \"wandern\" from place to place takes \"sein\", \"besuchen\" takes \"haben\". The others need fixing: \"sind gefahren\", \"bin ich ... gestiegen\", \"ist ... geworden\", \"haben Spätzle gekocht\".",
         ],
         examples: [
@@ -869,7 +869,7 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
       {
         heading: "Recap and story",
         body: [
-          "Jonas tells the story of a day trip to the Baltic Sea (die Ostsee): \"Am Sonntag sind wir früh aufgestanden und mit dem Zug nach Warnemünde gefahren. Wir sind um zehn angekommen. Zuerst sind wir am Strand spazieren gegangen. Dann haben wir Fischbrötchen gegessen. Mia ist sogar im Meer geschwommen, aber das Wasser ist sehr kalt gewesen! Am Abend sind wir müde nach Hause gefahren und ich bin im Zug eingeschlafen.\"",
+          "Jonas tells the story of a day trip to the Baltic Sea (\"die Ostsee\"): \"Am Sonntag sind wir früh aufgestanden und mit dem Zug nach Warnemünde gefahren. Wir sind um zehn angekommen. Zuerst sind wir am Strand spazieren gegangen. Dann haben wir Fischbrötchen gegessen. Mia ist sogar im Meer geschwommen, aber das Wasser ist sehr kalt gewesen! Am Abend sind wir müde nach Hause gefahren und ich bin im Zug eingeschlafen.\"",
           "Before you fill each gap, ask: movement or change (\"sein\") or not (\"haben\")? And is the participle separable, strong, or ge-less?",
         ],
         examples: [
@@ -985,7 +985,7 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Unfortunately Leon lost his sunglasses. Which completes: Leider ___ Leon seine Sonnenbrille verloren.",
+        question: "Unfortunately Leon lost his sunglasses. Which completes: \"Leider ___ Leon seine Sonnenbrille verloren.\"",
         options: ["hat", "ist", "haben", "sind"],
         correctIndex: 0,
         explanation: "\"Verlieren\" with an object → \"hat\".",
@@ -1142,7 +1142,7 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A friend asks: Wo bist du im Sommer gewesen? Which answer fits?",
+        question: "A friend asks: \"Wo bist du im Sommer gewesen?\" Which answer fits?",
         options: ["Ich bin nach Italien gefahren.", "Ich habe nach Italien gefahren.", "Ich fahre nach Italien.", "Ich bin in Italien gefahren."],
         correctIndex: 0,
         explanation: "Perfekt with \"sein\" and \"nach\" for a country.",
@@ -1176,13 +1176,13 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
     optional: true,
     number: 9,
     title: "Extra Practice: Pattern Practice: Wir sind angekommen, ihr seid abgefahren",
-    summary: "Separable verbs with sein through every person.",
+    summary: "Run separable verbs with \"sein\" through every person.",
     duration: "9 min",
     sections: [
       {
         heading: "Recap: sein + prefix-ge-participle",
         body: [
-          "Separable movement and change verbs: \"ankommen\" → \"angekommen\", \"abfahren\" → \"abgefahren\", \"aufstehen\" → \"aufgestanden\", \"einsteigen\" → \"eingestiegen\", \"umziehen\" (move house) → \"umgezogen\", \"zurückkommen\" → \"zurückgekommen\". Run each through the persons: bin, bist, ist, sind, seid, sind.",
+          "Separable movement and change verbs: \"ankommen\" → \"angekommen\", \"abfahren\" → \"abgefahren\", \"aufstehen\" → \"aufgestanden\", \"einsteigen\" → \"eingestiegen\", \"umziehen\" (move house) → \"umgezogen\", \"zurückkommen\" → \"zurückgekommen\". Run each through the persons: \"bin\", \"bist\", \"ist\", \"sind\", \"seid\", \"sind\".",
         ],
         examples: [
           { es: "Ich bin spät angekommen.", en: "I arrived late." },
@@ -1223,8 +1223,8 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "The guests arrived late.", answer: "Die Gäste sind spät angekommen.", altAnswers: ["Die Gäste sind spät gekommen."], explanation: "Plural subject → \"sind\"." },
       { type: "fill-blank", prompt: "Write the German for the bold words.", en: "[You got up] early. (to friends)", sentence: "___ früh aufgestanden.", answer: "Ihr seid", explanation: "\"Ihr seid\"." },
       { type: "fill-blank", prompt: "Write the German for the bold words.", en: "My parents [moved] last year.", sentence: "Meine Eltern sind letztes Jahr ___.", answer: "umgezogen", explanation: "\"Umziehen\" → \"umgezogen\"." },
-      { type: "multiple-choice", question: "You changed trains in Frankfurt. Which completes: Du ___ in Frankfurt umgestiegen.", options: ["bist", "hast", "ist", "seid"], correctIndex: 0, explanation: "\"Du bist\"; changing trains is movement." },
-      { type: "word-order", prompt: "Put the words in order to say: When did you arrive? (polite)", words: ["Wann", "sind", "Sie", "angekommen?"], translation: "When did you arrive?", explanation: "W-word, \"sind Sie\", participle." },
+      { type: "multiple-choice", question: "You changed trains in Frankfurt. Which completes: \"Du ___ in Frankfurt umgestiegen.\"", options: ["bist", "hast", "ist", "seid"], correctIndex: 0, explanation: "\"Du bist\"; changing trains is movement." },
+      { type: "word-order", prompt: "Put the words in order to say: When did you arrive? (formal)", words: ["Wann", "sind", "Sie", "angekommen?"], translation: "When did you arrive?", explanation: "W-word, \"sind Sie\", participle." },
       { type: "listen-choose", audio: "Ihr seid am Hauptbahnhof eingestiegen.", question: "Who got on at the main station?", options: ["You (several friends)", "They", "We", "She"], correctIndex: 0, explanation: "\"Ihr seid\" = you all." },
       { type: "speak", text: "Ich bin angekommen, du bist angekommen, wir sind angekommen.", prompt: "Say the chain: I arrived, you arrived, we arrived.", explanation: "Only \"sein\" changes." },
     ],

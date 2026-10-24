@@ -568,7 +568,7 @@ function notesFor(v: DeConjugation, parts: Parts, core: string): string[] {
       `Modal verb: "ich" and "er/sie/es" have the same form, with no ending (${q(`ich ${first(t.pres.ich)}`)}, ${q(`er ${first(t.pres.er)}`)}), and the other verb goes to the end as a plain infinitive (${q(`ich ${first(t.pres.ich)} das machen`)}).`,
     );
     n.push(
-      `In the Perfekt with another verb, the modal stays an infinitive: ${q(`ich habe das machen ${v.base}`)}, not "gemacht ${v.partizip2}". The participle ${q(v.partizip2)} is only used on its own (${q(`ich habe das nicht ${v.partizip2}`)}). In speech the Präteritum is far more common: ${q(`ich ${first(t.praet.ich)}`)}.`,
+      `In the Perfekt with another verb, the modal stays an infinitive: ${q(`ich habe das machen ${v.base}`)}, not "*gemacht ${v.partizip2}*". The participle ${q(v.partizip2)} is only used on its own (${q(`ich habe das nicht ${v.partizip2}`)}). In speech the Präteritum is far more common: ${q(`ich ${first(t.praet.ich)}`)}.`,
     );
   } else if (v.kind === "strong") {
     n.push(

@@ -16,7 +16,7 @@ export const DE_B2_U25: Lesson[] = [
         body: [
           "Artificial intelligence is \"die künstliche Intelligenz\", almost always shortened to \"KI\" (said ka-i). The adjective is normally lowercase because it is an ordinary adjective (you will sometimes see \"Künstliche Intelligenz\" capitalised as a fixed term), and it takes the usual endings: \"mit künstlicher Intelligenz\", \"die Grenzen der künstlichen Intelligenz\". You will also hear the English AI in tech circles, but news and everyday German say \"KI\".",
           "\"Der Algorithmus\" (plural \"die Algorithmen\") decides what you see; \"die Anwendung\" is an application, more formal than \"die App\" (plural \"die Apps\"). \"Das Gerät\" is any device, \"der Bildschirm\" the screen, \"der Akku\" the rechargeable battery (\"Mein Akku ist leer\": my battery is dead), \"das Update\" the update (in formal texts \"die Aktualisierung\").",
-          "False friend: a mobile phone is \"das Handy\" in Germany, a word that sounds English but isn't used that way in English. \"Das Smartphone\" is also common. Don't say \"*das Mobil\"; \"das Mobiltelefon\" exists but sounds like a contract or an official form.",
+          "False friend: a mobile phone is \"das Handy\" in Germany, a word that sounds English but isn't used that way in English. \"Das Smartphone\" is also common. Don't say \"*das Mobil*\"; \"das Mobiltelefon\" exists but sounds like a contract or an official form.",
           "Genders are worth learning with the noun: \"die KI\", \"der Algorithmus\", \"die App\", \"das Update\", \"das Programm\", \"die Software\", \"die Datei\" (the file), \"der Ordner\" (the folder), \"das Passwort\".",
         ],
         examples: [
@@ -85,7 +85,7 @@ export const DE_B2_U25: Lesson[] = [
             prompt: "Put the words in order to say: He's uploading the video now.",
             words: ["Er", "lädt", "das", "Video", "jetzt", "hoch."],
             translation: "He's uploading the video now.",
-            altOrders: [["Er", "lädt", "jetzt", "das", "Video", "hoch."]],
+            altOrders: [["Er", "lädt", "jetzt", "das", "Video", "hoch."], ["jetzt", "lädt", "er", "das", "Video", "hoch."]],
             explanation: "\"Lädt\" with umlaut in the er form, and the prefix \"hoch\" goes to the end of the main clause.",
           },
         ],
@@ -312,7 +312,7 @@ export const DE_B2_U25: Lesson[] = [
         heading: "In zehn Jahren",
         body: [
           "The last part looks ahead with Futur II (Unit 15): \"werden\" + Partizip II + \"haben\" / \"sein\" for something that will be finished by a point in the future: \"In zehn Jahren wird der Gletscher geschmolzen sein\" (In ten years the glacier will have melted).",
-          "Futur II also makes guesses about the past (with \"wohl\", \"sicher\", \"wahrscheinlich\"): \"Frau Gruber wird das Projekt wohl schon lange geplant haben\" (Mrs Gruber has probably been planning it for a long time).",
+          "Futur II also makes guesses about the past (with \"wohl\", \"sicher\", \"wahrscheinlich\"): \"Frau Gruber wird das Projekt wohl schon lange geplant haben\" (Ms Gruber has probably been planning it for a long time).",
           "In speech, the Perfekt with a time phrase often replaces the first use: \"Bis 2030 haben wir die Seilbahn gebaut.\" But in a formal speech or newspaper article, Futur II is natural and precise.",
         ],
         examples: [
@@ -385,7 +385,7 @@ export const DE_B2_U25: Lesson[] = [
         prompt: "Put the words in order to say: Consequently the investment isn't worth it.",
         words: ["Folglich", "lohnt", "sich", "die", "Investition", "nicht."],
         translation: "Consequently the investment isn't worth it.",
-        altOrders: [["Folglich", "lohnt", "die", "Investition", "sich", "nicht."]],
+        altOrders: [["Folglich", "lohnt", "die", "Investition", "sich", "nicht."], ["die", "Investition", "lohnt", "sich", "folglich", "nicht."]],
         explanation: "\"Folglich\" in position 1, verb second; the reflexive \"sich\" can come before or after the subject noun.",
       },
       {
@@ -517,7 +517,7 @@ export const DE_B2_U25: Lesson[] = [
       {
         heading: "Danach: hätte ich ... sollen?",
         body: [
-          "Sabine refused. Later she wonders whether she did the right thing. Regrets and reproaches use the double infinitive (Unit 2): \"Hätte ich ihm das Mittel geben sollen?\", \"Ich hätte ihm wenigstens ein fiebersenkendes Mittel empfehlen können.\" No participle of the modal: never \"*gesollt\" or \"*gekonnt\" here.",
+          "Sabine refused. Later she wonders whether she did the right thing. Regrets and reproaches use the double infinitive (Unit 2): \"Hätte ich ihm das Mittel geben sollen?\", \"Ich hätte ihm wenigstens ein fiebersenkendes Mittel empfehlen können.\" No participle of the modal: never \"*gesollt*\" or \"*gekonnt*\" here.",
           "In a subordinate clause, \"hätte\" jumps in front of the two infinitives: \"Ich frage mich, ob ich ihm hätte helfen sollen.\" English speakers want to put \"hätte\" at the very end; German doesn't allow it with a double infinitive.",
           "And the unreal past for the other scenario: \"Wenn ich das Antibiotikum verkauft hätte, hätte ich meine Zulassung riskiert\" (I would have risked my licence). \"Die Zulassung\" or \"die Approbation\" is the licence to practise.",
         ],
@@ -860,7 +860,7 @@ export const DE_B2_U25: Lesson[] = [
         heading: "Sich entscheiden, eine Entscheidung treffen",
         body: [
           "To decide is \"sich entscheiden\" (reflexive), with \"für\" or \"gegen\" + accusative: \"Ich habe mich für die Stelle in Köln entschieden.\" Without a preposition you can add a zu-infinitive: \"Sie hat sich entschieden, in Leipzig zu bleiben.\" \"Entscheiden\" without \"sich\" means to settle a question for others: \"Das Gericht entscheidet über den Fall.\"",
-          "The noun: \"die Entscheidung\", and you \"treffen\" it, never \"*machen\": \"eine Entscheidung treffen\". Also \"sich entschließen\" (to make up your mind, often after a long time), \"der Entschluss\".",
+          "The noun: \"die Entscheidung\", and you \"treffen\" it, never \"*machen*\": \"eine Entscheidung treffen\". Also \"sich entschließen\" (to make up your mind, often after a long time), \"der Entschluss\".",
           "Before deciding you \"abwägen\" (weigh up: \"die Vor- und Nachteile abwägen\"), you may \"zögern\" (hesitate), be \"unentschlossen\" or \"unschlüssig\" (undecided), or have \"Zweifel\" (doubts: \"Ich habe Zweifel an dem Plan\", \"zweifeln an\" + dative).",
         ],
         examples: [
@@ -879,7 +879,7 @@ export const DE_B2_U25: Lesson[] = [
             source: "We have to make a decision.",
             answer: "Wir müssen eine Entscheidung treffen.",
             altAnswers: ["Wir müssen uns entscheiden.", "Wir müssen einen Entschluss fassen."],
-            explanation: "\"Eine Entscheidung treffen\": the noun goes with \"treffen\". \"*Eine Entscheidung machen\" is a typical English-speaker mistake.",
+            explanation: "\"Eine Entscheidung treffen\": the noun goes with \"treffen\". \"*Eine Entscheidung machen*\" is a typical English-speaker mistake.",
           },
           {
             type: "fill-blank",
@@ -1426,7 +1426,8 @@ export const DE_B2_U25: Lesson[] = [
         en: "[However small] the town is, it has a great theatre.",
         sentence: "___ die Stadt auch ist, sie hat ein tolles Theater.",
         answer: "So klein",
-        explanation: "\"So\" + adjective + \"auch\" = however + adjective. The main clause after it keeps normal word order (\"sie hat\").",
+        altAnswers: ["Wie klein"],
+        explanation: "\"So\" (or \"wie\") + adjective + \"auch\" = however + adjective. The main clause after it usually keeps normal word order (\"sie hat\"), though \"hat sie\" is also possible.",
       },
       {
         type: "translate",
@@ -1494,7 +1495,7 @@ export const DE_B2_U25: Lesson[] = [
       {
         heading: "Zeitung, Zeitschrift, Schlagzeile",
         body: [
-          "\"Die Zeitung\" is a newspaper (\"die Tageszeitung\": a daily, \"die Wochenzeitung\": a weekly like Die Zeit), \"die Zeitschrift\" a magazine. \"Das Magazin\" exists too, but it often means a news magazine like Der Spiegel or a TV news show.",
+          "\"Die Zeitung\" is a newspaper (\"die Tageszeitung\": a daily, \"die Wochenzeitung\": a weekly like \"Die Zeit\"), \"die Zeitschrift\" a magazine. \"Das Magazin\" exists too, but it often means a news magazine like \"Der Spiegel\" or a TV magazine programme.",
           "\"Die Schlagzeile\" is the headline (\"Schlagzeilen machen\": to make the headlines), \"die Überschrift\" any heading, \"der Artikel\" the article, \"der Leitartikel\" the editorial, \"der Kommentar\" an opinion piece, \"die Meldung\" a short news item, \"die Nachrichten\" (plural) the news. \"Eine Nachricht\" is also a single message on your phone.",
           "Trap: \"die Notiz\" is a note, not the news, and \"aktuell\" means current, up to date (\"die aktuellen Nachrichten\"), never actual (that's \"tatsächlich\" or \"eigentlich\").",
         ],
@@ -1902,7 +1903,7 @@ export const DE_B2_U25: Lesson[] = [
     level: "DE-B2",
     number: 10,
     title: "Spiral Review: Der Kummerkasten",
-    summary: "An advice column: report a reader's problem in indirect speech and answer with Konjunktiv II, als ob and connectors.",
+    summary: "An advice column: report a reader's problem in indirect speech and answer with Konjunktiv II, \"als ob\" and connectors.",
     duration: "15 min",
     sections: [
       {
@@ -2115,7 +2116,7 @@ export const DE_B2_U25: Lesson[] = [
         heading: "Character words",
         body: [
           "Useful adjectives for personality: \"ehrgeizig\" (ambitious), \"gelassen\" (calm, relaxed, unflappable), \"geduldig\" / \"ungeduldig\" (patient / impatient), \"zuverlässig\" (reliable), \"launisch\" (moody), \"stur\" (stubborn), \"hilfsbereit\" (helpful), \"großzügig\" (generous), \"schüchtern\" (shy), \"empfindlich\" (touchy, easily hurt, also sensitive skin).",
-          "The nouns for character traits are often -heit, -keit or -ung (all feminine): \"die Gelassenheit\", \"die Zuverlässigkeit\", \"die Geduld\", \"der Ehrgeiz\" (masculine!). \"Die Eigenschaft\" is a trait, \"der Charakter\" the character, \"die Persönlichkeit\" the personality.",
+          "The nouns for character traits often end in -heit or -keit (always feminine): \"die Gelassenheit\", \"die Zuverlässigkeit\"; others must be learnt one by one: \"die Geduld\", \"der Ehrgeiz\" (masculine!). \"Die Eigenschaft\" is a trait, \"der Charakter\" the character, \"die Persönlichkeit\" the personality.",
           "To describe yourself or others politely, soften with \"ziemlich\", \"eher\" (rather), \"manchmal ein bisschen\": \"Er ist eher zurückhaltend\" (He's rather reserved).",
         ],
         examples: [
@@ -2304,7 +2305,7 @@ export const DE_B2_U25: Lesson[] = [
         prompt: "Translate into German.",
         source: "Don't be so touchy! (to a friend)",
         answer: "Sei nicht so empfindlich!",
-        altAnswers: ["Sei doch nicht so empfindlich!", "Seid nicht so empfindlich!", "Seien Sie nicht so empfindlich!"],
+        altAnswers: ["Sei doch nicht so empfindlich!"],
         explanation: "The du imperative of \"sein\" is \"sei\". Touchy is \"empfindlich\".",
       },
       {

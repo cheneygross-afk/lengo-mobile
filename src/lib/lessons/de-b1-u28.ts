@@ -8,7 +8,7 @@ export const DE_B1_U28: Lesson[] = [
     level: "DE-B1",
     number: 1,
     title: "Spiral Review: Konjunktiv II, the Passive and Relatives",
-    summary: "Bring back würde, wäre and hätte, the passive in three tenses and relative clauses with prepositions, in fresh everyday sentences.",
+    summary: "Use \"würde\", \"wäre\" and \"hätte\", the passive in three tenses and relative clauses with prepositions in fresh everyday sentences.",
     duration: "15 min",
     sections: [
       {
@@ -49,7 +49,7 @@ export const DE_B1_U28: Lesson[] = [
       {
         heading: "The passive in three tenses",
         body: [
-          "The passive puts the action in the spotlight, not the person who does it. Present: \"wird gebaut\" (is being built). Präteritum: \"wurde gebaut\" (was built). Perfekt: \"ist gebaut worden\" (has been / was built). In the Perfekt passive the participle of werden is \"worden\", never \"*geworden\".",
+          "The passive puts the action in the spotlight, not the person who does it. Present: \"wird gebaut\" (is being built). Präteritum: \"wurde gebaut\" (was built). Perfekt: \"ist gebaut worden\" (has been / was built). In the Perfekt passive the participle of \"werden\" is \"worden\", never \"*geworden*\".",
           "The agent, if you mention it, takes \"von\" + dative: \"Das Haus wurde von meinem Großvater gebaut.\" With a modal: \"muss gebaut werden\" (has to be built), \"konnte nicht repariert werden\" (couldn't be repaired).",
           "\"Werden\" has three jobs, and only the second word tells you which: \"Er wird Arzt\" (becomes), \"Er wird kommen\" (future), \"Er wird operiert\" (passive).",
         ],
@@ -69,7 +69,7 @@ export const DE_B1_U28: Lesson[] = [
             source: "My bike was stolen yesterday.",
             answer: "Mein Fahrrad ist gestern gestohlen worden.",
             altAnswers: ["Mein Fahrrad wurde gestern gestohlen.", "Gestern ist mein Fahrrad gestohlen worden.", "Gestern wurde mein Fahrrad gestohlen."],
-            explanation: "Perfekt passive \"ist ... gestohlen worden\" or Präteritum \"wurde ... gestohlen\". Never \"*geworden\" in the passive.",
+            explanation: "Perfekt passive \"ist ... gestohlen worden\" or Präteritum \"wurde ... gestohlen\". Never \"*geworden*\" in the passive.",
           },
           {
             type: "multiple-choice",
@@ -91,7 +91,7 @@ export const DE_B1_U28: Lesson[] = [
       {
         heading: "Relative clauses with prepositions",
         body: [
-          "A relative pronoun takes its gender and number from the noun it refers to, and its case from its role in the relative clause. With a preposition, the preposition comes first and decides the case: \"der Freund, mit dem ich wohne\" (dative after mit), \"die Firma, für die ich arbeite\" (accusative after für).",
+          "A relative pronoun takes its gender and number from the noun it refers to, and its case from its role in the relative clause. With a preposition, the preposition comes first and decides the case: \"der Freund, mit dem ich wohne\" (dative after \"mit\"), \"die Firma, für die ich arbeite\" (accusative after \"für\").",
           "English often puts the preposition at the end (the friend I live with); German never does. Nor can German drop the relative pronoun as English does: the friend I live with must be \"der Freund, mit dem ich wohne\".",
           "Dative plural is \"denen\": \"die Kollegen, mit denen ich arbeite\". The verb goes to the end, and there's always a comma.",
         ],
@@ -165,7 +165,7 @@ export const DE_B1_U28: Lesson[] = [
         question: "Which sentence means: The children are being picked up?",
         options: ["Die Kinder werden abgeholt.", "Die Kinder werden groß.", "Die Kinder werden morgen kommen.", "Die Kinder werden Ärzte."],
         correctIndex: 0,
-        explanation: "Werden + participle (\"abgeholt\") = passive. With an adjective or noun it means become; with an infinitive it's the future.",
+        explanation: "\"Werden\" + participle (\"abgeholt\") = passive. With an adjective or noun it means become; with an infinitive it's the future.",
       },
       {
         type: "translate",
@@ -218,7 +218,7 @@ export const DE_B1_U28: Lesson[] = [
     level: "DE-B1",
     number: 2,
     title: "Mixed Practice: An Email to the Landlord",
-    summary: "Write a formal email about broken heating: Sehr geehrte..., the passive, Konjunktiv II requests, damit and connectors, Mit freundlichen Grüßen.",
+    summary: "Write a formal email about broken heating, from \"Sehr geehrte...\" to \"Mit freundlichen Grüßen\", with the passive, Konjunktiv II requests, \"damit\" and connectors.",
     duration: "15 min",
     sections: [
       {
@@ -430,7 +430,7 @@ export const DE_B1_U28: Lesson[] = [
     level: "DE-B1",
     number: 3,
     title: "Themed Review: Forming a Band",
-    summary: "Read about Jonas starting a band and practise suchen jemanden, der..., sich treffen, proben and zwar...aber.",
+    summary: "Read about Jonas starting a band and talk about it with \"jemanden, der...\", \"sich treffen\", \"proben\" and \"zwar ... aber\".",
     duration: "14 min",
     sections: [
       {
@@ -636,7 +636,7 @@ export const DE_B1_U28: Lesson[] = [
     level: "DE-B1",
     number: 4,
     title: "Themed Review: Digital Detox",
-    summary: "Read about Lena's week without a smartphone, with wenn + Konjunktiv II, je...desto and abhängig sein von.",
+    summary: "Read about Lena's week without a smartphone and talk about your own habits with \"wenn\" + Konjunktiv II, \"je ... desto\" and \"abhängig sein von\".",
     duration: "14 min",
     sections: [
       {
@@ -708,7 +708,7 @@ export const DE_B1_U28: Lesson[] = [
         heading: "The result: je...desto",
         body: [
           "Lena's conclusion is full of comparisons: \"Je weniger ich am Handy war, desto ruhiger wurde ich.\" \"Je\" + comparative sends its verb to the end; \"desto\" (or \"umso\") + comparative is followed directly by the verb.",
-          "The pattern never changes: je [comparative] [subject ... verb], desto [comparative] [verb] [subject ...]. The classic mistake is \"*desto ich wurde ruhiger\".",
+          "The pattern never changes: je [comparative] [subject ... verb], desto [comparative] [verb] [subject ...]. The classic mistake is \"*desto ich wurde ruhiger*\".",
         ],
         examples: [
           { es: "Je weniger ich am Handy war, desto ruhiger wurde ich.", en: "The less I was on my phone, the calmer I became." },
@@ -828,7 +828,7 @@ export const DE_B1_U28: Lesson[] = [
     level: "DE-B1",
     number: 5,
     title: "Spiral Review: Pasts, Prepositions and Adjective Endings",
-    summary: "Mixed practice bringing back the three past tenses, als and nachdem, prepositional verbs and adjective endings in all cases.",
+    summary: "Choose between the three past tenses, \"als\" and \"nachdem\", and use prepositional verbs and adjective endings in all cases.",
     duration: "15 min",
     sections: [
       {
@@ -903,7 +903,7 @@ export const DE_B1_U28: Lesson[] = [
       {
         heading: "Adjective endings in all cases",
         body: [
-          "The endings follow one logic: if the article already shows the case and gender clearly (der, die, das, dem, des...), the adjective takes a weak ending, -e or -en. If there's no article, or \"ein\" without an ending (ein, kein, mein in the nominative masculine and neuter, accusative neuter), the adjective has to show it: \"ein alter Mann\", \"ein kleines Haus\", \"frischer Kaffee\".",
+          "The endings follow one logic: if the article already shows the case and gender clearly (\"der\", \"die\", \"das\", \"dem\", \"des\"...), the adjective takes a weak ending, -e or -en. If there's no article, or \"ein\" without an ending (\"ein\", \"kein\", \"mein\" in the nominative masculine and neuter, accusative neuter), the adjective has to show it: \"ein alter Mann\", \"ein kleines Haus\", \"frischer Kaffee\".",
           "Shortcut: in the dative and genitive, and in every plural with an article, the weak ending is always -en: \"mit dem neuen Auto\", \"mit meinen alten Freunden\", \"wegen des schlechten Wetters\".",
           "Without any article, the adjective takes the article's ending: \"mit frischem Brot\" (like \"dem\"), \"bei gutem Wetter\".",
         ],
@@ -1038,13 +1038,13 @@ export const DE_B1_U28: Lesson[] = [
     level: "DE-B1",
     number: 6,
     title: "Themed Review: Plastic-Free Shopping",
-    summary: "Read about an Unverpackt shop and practise the passive, um...zu and damit, and adjective endings with materials.",
+    summary: "Read about a zero-waste shop (\"Unverpackt-Laden\") and describe it with the passive, \"um ... zu\" and \"damit\", and adjective endings with materials.",
     duration: "14 min",
     sections: [
       {
         heading: "The text: Einkaufen ohne Verpackung",
         body: [
-          "In an \"Unverpackt-Laden\" (zero-waste shop) everything is sold loose: pasta, rice, nuts, soap. You bring your own containers. Germans take recycling seriously (the \"gelbe Sack\" for packaging, the \"Pfand\" deposit on bottles), and these shops are popular in every city.",
+          "In an \"Unverpackt-Laden\" (zero-waste shop) everything is sold loose: pasta, rice, nuts, soap. You bring your own containers. Germans take recycling seriously (the \"Gelbe Sack\" for packaging, the \"Pfand\" deposit on bottles), and most big cities have at least one of these shops.",
           "Shop descriptions use the passive: \"Die Produkte werden lose verkauft\", \"Die Gläser werden vorher gewogen\" (weighed). Notice how \"man\" and the passive say the same thing: \"Man bringt eigene Behälter mit\" = \"Eigene Behälter werden mitgebracht\".",
         ],
         examples: [
@@ -1247,7 +1247,7 @@ export const DE_B1_U28: Lesson[] = [
     level: "DE-B1",
     number: 7,
     title: "Minimal Pairs: Kommst du? / Kommste?",
-    summary: "Hear standard and reduced forms side by side: hast du / haste, ich habe / ich hab, gibt es / gibt's, ein / 'n, nicht / nich, and identify them in fast speech.",
+    summary: "Hear standard and reduced forms side by side (\"hast du\" / \"haste\", \"ich habe\" / \"ich hab\", \"gibt es\" / \"gibt's\", \"ein\" / \"'n\", \"nicht\" / \"nich\") and recognise them in fast speech.",
     duration: "12 min",
     sections: [
       {
@@ -1447,7 +1447,7 @@ export const DE_B1_U28: Lesson[] = [
     level: "DE-B1",
     number: 8,
     title: "Cumulative Circuit: Konjunktiv II Forms",
-    summary: "Rotate wäre, hätte, könnte, müsste, würde, käme and wüsste through requests, wishes, advice and conditions.",
+    summary: "Use \"wäre\", \"hätte\", \"könnte\", \"müsste\", \"würde\", \"käme\" and \"wüsste\" in requests, wishes, advice and conditions.",
     duration: "14 min",
     sections: [
       {
@@ -1476,7 +1476,7 @@ export const DE_B1_U28: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "[Would you have] a moment for a question? (polite)",
+            en: "[Would you have] a moment for a question? (formal)",
             sentence: "___ kurz Zeit für eine Frage?",
             answer: "Hätten Sie",
             explanation: "\"Haben\" → \"hätten\" with \"Sie\": polite and natural.",
@@ -1553,7 +1553,7 @@ export const DE_B1_U28: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Could you send me the invoice, please? (polite)",
+        source: "Could you send me the invoice, please? (formal)",
         answer: "Könnten Sie mir bitte die Rechnung schicken?",
         altAnswers: ["Könnten Sie mir die Rechnung bitte schicken?", "Würden Sie mir bitte die Rechnung schicken?", "Könnten Sie mir die Rechnung schicken?"],
         explanation: "\"Könnten Sie\" + infinitive at the end.",
@@ -1623,7 +1623,7 @@ export const DE_B1_U28: Lesson[] = [
         prompt: "Translate into German.",
         source: "It would be better if you went by train. (to friends)",
         answer: "Es wäre besser, wenn ihr mit dem Zug fahrt.",
-        altAnswers: ["Es wäre besser, wenn ihr mit dem Zug fahren würdet.", "Es wäre besser, wenn ihr den Zug nehmt.", "Es wäre besser, wenn ihr den Zug nehmen würdet.", "Es wäre besser, wenn du mit dem Zug fährst.", "Es wäre besser, wenn du mit dem Zug fahren würdest."],
+        altAnswers: ["Es wäre besser, wenn ihr mit dem Zug fahren würdet.", "Es wäre besser, wenn ihr den Zug nehmt.", "Es wäre besser, wenn ihr den Zug nehmen würdet."],
         explanation: "\"Es wäre besser, wenn\" + present or \"würde\"; \"mit dem Zug fahren\" = to go by train.",
       },
       {
@@ -1644,7 +1644,7 @@ export const DE_B1_U28: Lesson[] = [
     level: "DE-B1",
     number: 9,
     title: "Dictation: Cumulative Review",
-    summary: "Dictated sentences covering the grammar of the level, with commas before every subordinate and infinitive clause.",
+    summary: "Write down dictated sentences covering the grammar of the level, with a comma before every subordinate and infinitive clause.",
     duration: "14 min",
     sections: [
       {
@@ -1711,7 +1711,7 @@ export const DE_B1_U28: Lesson[] = [
             prompt: "Translate into German.",
             source: "I forgot to call you. (to a friend)",
             answer: "Ich habe vergessen, dich anzurufen.",
-            altAnswers: ["Ich habe vergessen dich anzurufen.", "Ich hab vergessen, dich anzurufen."],
+            altAnswers: ["Ich hab vergessen, dich anzurufen."],
             explanation: "\"Vergessen\" + zu-infinitive; with a separable verb \"zu\" goes inside: \"anzurufen\".",
           },
           {
@@ -1803,7 +1803,7 @@ export const DE_B1_U28: Lesson[] = [
         prompt: "Translate into German.",
         source: "He left without saying goodbye.",
         answer: "Er ging, ohne sich zu verabschieden.",
-        altAnswers: ["Er ist gegangen, ohne sich zu verabschieden.", "Er ging ohne sich zu verabschieden."],
+        altAnswers: ["Er ist gegangen, ohne sich zu verabschieden."],
         explanation: "Without + -ing = \"ohne ... zu\" + infinitive, with a comma before \"ohne\".",
       },
       {
@@ -1842,7 +1842,7 @@ export const DE_B1_U28: Lesson[] = [
     level: "DE-B1",
     number: 10,
     title: "Fill the Story: Before School",
-    summary: "A hectic family morning told in gaps that need imperatives with particles, time clauses and separable verbs.",
+    summary: "Fill the gaps in a hectic family morning with imperatives and particles, time clauses and separable verbs.",
     duration: "13 min",
     sections: [
       {
@@ -2037,7 +2037,7 @@ export const DE_B1_U28: Lesson[] = [
     level: "DE-B1",
     number: 11,
     title: "Quick Round: Spoken German in All Its Forms",
-    summary: "Rapid choice of the right particle, tag question or reduced form for each everyday situation.",
+    summary: "Quickly choose the right particle, tag question or reduced form for each everyday situation.",
     duration: "12 min",
     sections: [
       {
@@ -2118,7 +2118,7 @@ export const DE_B1_U28: Lesson[] = [
         prompt: "Translate into German.",
         source: "You know that! (reminding a friend)",
         answer: "Das weißt du doch!",
-        altAnswers: ["Das weißt du doch.", "Du weißt das doch!", "Das wisst ihr doch!"],
+        altAnswers: ["Das weißt du doch.", "Du weißt das doch!", "Das weißt du ja!"],
         explanation: "\"Doch\" reminds someone of something they already know.",
       },
       {
@@ -2225,7 +2225,7 @@ export const DE_B1_U28: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Leon wrote \"*Doch komm mit am Samstag!\" Translate it correctly: Come along on Saturday, why don't you!",
+            prompt: "Leon wrote \"*Doch komm mit am Samstag!*\" Translate it correctly: Come along on Saturday, why don't you!",
             source: "Come along on Saturday, why don't you!",
             answer: "Komm doch am Samstag mit!",
             altAnswers: ["Komm am Samstag doch mit!", "Komm doch Samstag mit!", "Komm doch mal am Samstag mit!"],
@@ -2233,7 +2233,7 @@ export const DE_B1_U28: Lesson[] = [
           },
           {
             type: "fill-blank",
-            prompt: "Leon wrote \"*Denn wann hast du Zeit?\" Write the German for the bold words.",
+            prompt: "Leon wrote \"*Denn wann hast du Zeit?*\" Write the German for the bold words.",
             en: "[So] when [are you] free?",
             sentence: "Wann ___ Zeit?",
             answer: "hast du denn",
@@ -2259,7 +2259,7 @@ export const DE_B1_U28: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Leon wrote \"*Haste mal Zeit, die zu reparieren?\" Translate the formal version: Could you please send a technician?",
+            prompt: "Leon wrote \"*Haste mal Zeit, die zu reparieren?*\" Translate the formal version: Could you please send a technician?",
             source: "Could you please send a technician?",
             answer: "Könnten Sie bitte einen Techniker schicken?",
             altAnswers: ["Würden Sie bitte einen Techniker schicken?", "Könnten Sie einen Techniker schicken?"],
@@ -2285,7 +2285,7 @@ export const DE_B1_U28: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Leon wrote \"*Mach das mal Fenster auf!\" Translate correctly: Open the window, would you!",
+        prompt: "Leon wrote \"*Mach das mal Fenster auf!*\" Translate correctly: Open the window, would you!",
         source: "Open the window, would you!",
         answer: "Mach mal das Fenster auf!",
         altAnswers: ["Mach doch mal das Fenster auf!", "Machst du mal das Fenster auf?"],
@@ -2294,7 +2294,7 @@ export const DE_B1_U28: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Leon wrote \"*Halt ich habe nur am Abend Zeit.\" Translate correctly: I'm only free in the evening, I'm afraid.",
+        prompt: "Leon wrote \"*Halt ich habe nur am Abend Zeit.*\" Translate correctly: I'm only free in the evening, I'm afraid.",
         source: "I'm only free in the evening, I'm afraid.",
         answer: "Ich habe halt nur am Abend Zeit.",
         altAnswers: ["Ich habe eben nur am Abend Zeit.", "Ich hab halt nur am Abend Zeit.", "Ich habe halt nur abends Zeit.", "Ich hab halt nur abends Zeit.", "Ich habe leider nur am Abend Zeit.", "Ich habe leider nur abends Zeit."],

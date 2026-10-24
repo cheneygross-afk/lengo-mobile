@@ -16,7 +16,7 @@ export const DE_C2_U13: Lesson[] = [
         body: [
           "German argumentation is explicit about its structure: first the \"These\" (claim), then \"Argumente\" (reasons), each supported by a \"Beleg\" (evidence) or \"Beispiel\" (example), and finally a \"Schlussfolgerung\" (conclusion). In school, in the \"Erörterung\" (argumentative essay), and on talk shows, listeners expect you to say where you stand before you justify it.",
           "Formulas for the thesis, from neutral to formal: \"Ich bin der Meinung, dass ...\", \"Ich vertrete die Auffassung, dass ...\" (I hold the view that), \"Ich stehe auf dem Standpunkt, dass ...\", \"Meines Erachtens ...\" (in my view; abbreviated \"m. E.\"), \"Aus meiner Sicht ...\". \"Meines Erachtens\" is a genitive phrase in position 1, so the verb follows directly: \"Meines Erachtens ist das ein Fehler.\"",
-          "Trap: \"meiner Meinung nach\" has \"nach\" after the noun: \"Meiner Meinung nach ...\". \"Nach meiner Meinung\" also exists but is less common; \"*In meiner Meinung\" is wrong (a calque of 'in my opinion').",
+          "Trap: \"meiner Meinung nach\" has \"nach\" after the noun: \"Meiner Meinung nach ...\". \"Nach meiner Meinung\" also exists but is less common; \"*In meiner Meinung*\" is wrong (a calque of 'in my opinion').",
         ],
         examples: [
           { es: "Ich vertrete die Auffassung, dass ein Tempolimit überfällig ist.", en: "I hold the view that a speed limit is long overdue." },
@@ -251,7 +251,7 @@ export const DE_C2_U13: Lesson[] = [
             prompt: "Translate into German, with \"zwar ... aber\".",
             source: "A speed limit doesn't solve every problem, but it saves lives.",
             answer: "Ein Tempolimit löst zwar nicht alle Probleme, aber es rettet Leben.",
-            altAnswers: ["Zwar löst ein Tempolimit nicht alle Probleme, aber es rettet Leben.", "Ein Tempolimit löst zwar nicht alle Probleme, rettet aber Leben.", "Zwar löst ein Tempolimit nicht alle Probleme, doch es rettet Leben.", "Ein Tempolimit löst zwar nicht alle Probleme, es rettet aber Leben."],
+            altAnswers: ["Zwar löst ein Tempolimit nicht alle Probleme, aber es rettet Leben.", "Ein Tempolimit löst zwar nicht alle Probleme, rettet aber Leben.", "Ein Tempolimit löst zwar nicht alle Probleme, es rettet aber Leben."],
             explanation: "\"Zwar\" concedes, \"aber\" turns. With the same subject, \"..., rettet aber Leben\" is an elegant shortened form.",
           },
           {
@@ -321,7 +321,7 @@ export const DE_C2_U13: Lesson[] = [
           { es: "Das greift aber zu kurz: Ohne sie wird es erst recht nicht gelingen.", en: "But that falls short: without them it certainly won't work." },
           { es: "Stimmt schon, aber das ist zu teuer.", en: "True enough, but it's too expensive." },
           { es: "Ja, schon, nur haben wir dafür keine Zeit.", en: "Yes, sure, only we don't have time for it." },
-          { es: "Es mag sein, dass die Idee neu ist; durchdacht ist sie deshalb noch lange nicht.", en: "The idea may be new, but that doesn't make it well thought out by a long way." },
+          { es: "Es mag sein, dass die Idee neu ist; durchdacht ist sie deshalb noch lange nicht.", en: "The idea may be new, but that's a long way from making it well thought out." },
         ],
         checkpoint: [
           {
@@ -330,7 +330,7 @@ export const DE_C2_U13: Lesson[] = [
             prompt: "Translate into German.",
             source: "You're right when you say that electric cars alone aren't enough.",
             answer: "Sie haben recht, wenn Sie sagen, dass Elektroautos allein nicht reichen.",
-            altAnswers: ["Sie haben recht, wenn Sie sagen, dass Elektroautos allein nicht ausreichen.", "Du hast recht, wenn du sagst, dass Elektroautos allein nicht reichen.", "Sie haben Recht, wenn Sie sagen, dass Elektroautos allein nicht reichen.", "Sie haben recht, wenn Sie sagen, Elektroautos allein reichen nicht."],
+            altAnswers: ["Sie haben recht, wenn Sie sagen, dass Elektroautos allein nicht ausreichen.", "Du hast recht, wenn du sagst, dass Elektroautos allein nicht reichen.", "Sie haben Recht, wenn Sie sagen, dass Elektroautos allein nicht reichen.", "Sie haben recht, wenn Sie sagen, Elektroautos allein reichen nicht.", "Ihr habt recht, wenn ihr sagt, dass Elektroautos allein nicht reichen."],
             explanation: "\"Recht haben, wenn ...\" acknowledges before you refute. Note the double verb-final: \"wenn Sie sagen\", \"dass ... reichen\".",
           },
           {
@@ -351,7 +351,7 @@ export const DE_C2_U13: Lesson[] = [
         prompt: "Translate into German, with \"zwar ... aber\".",
         source: "The car may be comfortable, but it's expensive.",
         answer: "Das Auto ist zwar bequem, aber es ist teuer.",
-        altAnswers: ["Das Auto ist zwar bequem, aber teuer.", "Zwar ist das Auto bequem, aber es ist teuer.", "Das Auto ist zwar bequem, doch es ist teuer.", "Zwar ist das Auto bequem, doch es ist teuer."],
+        altAnswers: ["Das Auto ist zwar bequem, aber teuer.", "Zwar ist das Auto bequem, aber es ist teuer."],
         explanation: "\"Zwar\" after the verb concedes; \"aber\" opens the counterpoint without inversion.",
       },
       {
@@ -366,7 +366,7 @@ export const DE_C2_U13: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Costs [may well be] high.",
+        en: "[It may be] that costs are high.",
         sentence: "Es ___, dass die Kosten hoch sind.",
         answer: "mag sein",
         explanation: "\"Es mag sein, dass ...\": the modal \"mögen\" here expresses concession, not liking.",
@@ -463,7 +463,7 @@ export const DE_C2_U13: Lesson[] = [
             prompt: "Translate into German, with \"wenn auch\".",
             source: "It was an interesting, if long, lecture.",
             answer: "Es war ein interessanter, wenn auch langer Vortrag.",
-            altAnswers: ["Es war ein interessanter, wenngleich langer Vortrag.", "Das war ein interessanter, wenn auch langer Vortrag.", "Es war eine interessante, wenn auch lange Vorlesung."],
+            altAnswers: ["Das war ein interessanter, wenn auch langer Vortrag.", "Es war eine interessante, wenn auch lange Vorlesung."],
             explanation: "Both adjectives take the same ending (\"interessanter\", \"langer\") because they both modify \"Vortrag\".",
           },
           {
@@ -472,7 +472,7 @@ export const DE_C2_U13: Lesson[] = [
             prompt: "Translate into German, with \"wenngleich\".",
             source: "Although I share your concern, I think the ban is wrong.",
             answer: "Wenngleich ich Ihre Sorge teile, halte ich das Verbot für falsch.",
-            altAnswers: ["Wenngleich ich Ihre Sorge teile, halte ich das Verbot für verfehlt.", "Wenngleich ich deine Sorge teile, halte ich das Verbot für falsch.", "Ich halte das Verbot für falsch, wenngleich ich Ihre Sorge teile."],
+            altAnswers: ["Wenngleich ich Ihre Sorge teile, halte ich das Verbot für verfehlt.", "Wenngleich ich deine Sorge teile, halte ich das Verbot für falsch.", "Wenngleich ich eure Sorge teile, halte ich das Verbot für falsch.", "Ich halte das Verbot für falsch, wenngleich ich Ihre Sorge teile."],
             explanation: "\"Wenngleich\" sends \"teile\" to the end; the main clause starts with its verb \"halte\".",
           },
           {
@@ -626,7 +626,7 @@ export const DE_C2_U13: Lesson[] = [
         prompt: "Translate into German, in elevated style with \"obschon\".",
         source: "Although the evidence was thin, charges were brought.",
         answer: "Obschon die Beweislage dünn war, wurde Anklage erhoben.",
-        altAnswers: ["Obgleich die Beweislage dünn war, wurde Anklage erhoben.", "Obschon die Beweise dünn waren, wurde Anklage erhoben.", "Obschon die Beweislage dürftig war, wurde Anklage erhoben."],
+        altAnswers: ["Obschon die Beweise dünn waren, wurde Anklage erhoben.", "Obschon die Beweislage dürftig war, wurde Anklage erhoben."],
         explanation: "\"Obschon\" is elevated legal-literary style; \"Anklage erheben\" = to bring charges.",
       },
       {
@@ -662,7 +662,7 @@ export const DE_C2_U13: Lesson[] = [
       {
         heading: "Round 1: safety",
         body: [
-          "A political talk show, Sunday evening. The topic: \"Tempolimit auf der Autobahn – überfällig oder überflüssig?\" Germany is one of very few countries with no general speed limit on its motorways, only a recommended speed (\"Richtgeschwindigkeit\") of 130 km/h. You play Dr. Mia Kramer, a transport researcher in favour of a limit; your opponent is Herr Becker from a drivers' association.",
+          "A political talk show, Sunday evening. The topic: \"Tempolimit auf der Autobahn – überfällig oder überflüssig?\" Germany is one of very few countries with no general speed limit on its motorways, only a recommended speed (\"Richtgeschwindigkeit\") of 130 km/h. You play Dr Mia Kramer, a transport researcher in favour of a limit; your opponent is Herr Becker from a drivers' association.",
           "A good \"Erwiderung\" (rebuttal) has three steps: paraphrase (\"Wenn ich Sie richtig verstehe, sagen Sie ...\"), concede what is true (\"Da haben Sie insofern recht, als ...\"), refute (\"Allerdings ...\"). Paraphrasing shows the audience you listened and stops the opponent from claiming he was misquoted.",
         ],
         examples: [
@@ -922,7 +922,7 @@ export const DE_C2_U13: Lesson[] = [
           "Responses: to a \"Totschlagargument\", ask for content (\"Was genau meinen Sie mit unrealistisch?\"); to a \"Dammbruch\", ask for the mechanism (\"Warum sollte das eine zwangsläufig zum anderen führen?\"); to a false dilemma, offer the third option (\"Das ist ein falsches Entweder-oder: Beides lässt sich verbinden.\").",
         ],
         examples: [
-          { es: "Das war schon immer so.", en: "It's always been like that. (Totschlagargument)" },
+          { es: "Das war schon immer so.", en: "It's always been like that. (\"Totschlagargument\")" },
           { es: "Was genau meinen Sie mit „unrealistisch“?", en: "What exactly do you mean by unrealistic?" },
           { es: "Heute ein Tempolimit, morgen ein Fahrverbot!", en: "Today a speed limit, tomorrow a driving ban! (slippery slope)" },
           { es: "Warum sollte das eine zwangsläufig zum anderen führen?", en: "Why should one thing necessarily lead to the other?" },
@@ -1078,7 +1078,7 @@ export const DE_C2_U13: Lesson[] = [
         question: "What does it mean, and what is it in a debate?",
         options: ["It's always been like that: a conversation-killer.", "It was always beautiful: a compliment.", "It was already so: a statement of fact.", "It will always be so: a prediction."],
         correctIndex: 0,
-        explanation: "\"Das war schon immer so\" is a classic Totschlagargument: it ends discussion without a reason.",
+        explanation: "\"Das war schon immer so\" is a classic \"Totschlagargument\": it ends discussion without a reason.",
       },
       {
         type: "dictation",
@@ -1197,7 +1197,7 @@ export const DE_C2_U13: Lesson[] = [
           { es: "Korrelation ist nicht gleich Kausalität.", en: "Correlation is not causation." },
           { es: "Millionen Menschen nutzen dieses Produkt, also kann es nicht schädlich sein.", en: "Millions of people use this product, so it can't be harmful." },
           { es: "Dass viele etwas tun, sagt noch nichts darüber aus, ob es richtig ist.", en: "The fact that many people do something says nothing about whether it's right." },
-          { es: "Nur weil zwei Dinge gleichzeitig passieren, hängen sie nicht zusammen.", en: "Just because two things happen at the same time doesn't mean they're connected." },
+          { es: "Nur weil zwei Dinge gleichzeitig passieren, hängen sie noch lange nicht zusammen.", en: "Just because two things happen at the same time doesn't mean they're connected." },
         ],
         checkpoint: [
           {
@@ -1233,9 +1233,9 @@ export const DE_C2_U13: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into German.",
         source: "Just because two things happen at the same time doesn't mean they're connected.",
-        answer: "Nur weil zwei Dinge gleichzeitig passieren, hängen sie nicht zusammen.",
-        altAnswers: ["Nur weil zwei Dinge gleichzeitig passieren, hängen sie noch lange nicht zusammen.", "Nur weil zwei Dinge gleichzeitig geschehen, hängen sie nicht zusammen.", "Nur weil zwei Dinge gleichzeitig passieren, heißt das nicht, dass sie zusammenhängen."],
-        explanation: "\"Nur weil ..., ...\" + \"nicht\": the German just because construction. \"Zusammenhängen\" is separable.",
+        answer: "Nur weil zwei Dinge gleichzeitig passieren, hängen sie noch lange nicht zusammen.",
+        altAnswers: ["Nur weil zwei Dinge gleichzeitig passieren, hängen sie nicht zusammen.", "Nur weil zwei Dinge gleichzeitig geschehen, hängen sie nicht zusammen.", "Nur weil zwei Dinge gleichzeitig passieren, heißt das nicht, dass sie zusammenhängen."],
+        explanation: "\"Nur weil ..., ... (noch lange) nicht\": the German just because construction; \"noch lange nicht\" makes clear the link is not proven, while plain \"nicht\" is colloquial and literally denies any link. \"Zusammenhängen\" is separable.",
       },
       {
         type: "fill-blank",
@@ -1500,7 +1500,7 @@ export const DE_C2_U13: Lesson[] = [
         prompt: "Translate into German, with \"eben\".",
         source: "Exactly! That's precisely the problem.",
         answer: "Eben! Genau das ist das Problem.",
-        altAnswers: ["Eben! Das ist genau das Problem.", "Genau! Das ist ja das Problem.", "Eben! Das ist ja gerade das Problem."],
+        altAnswers: ["Eben! Das ist genau das Problem.", "Eben! Das ist ja gerade das Problem."],
         explanation: "\"Eben!\" alone confirms emphatically: exactly, that's my point.",
       },
       {
@@ -1674,7 +1674,7 @@ export const DE_C2_U13: Lesson[] = [
         sentence: "Na gut, aber ___.",
         answer: "ich nehme Sie beim Wort",
         altAnswers: ["da nehme ich Sie beim Wort", "dann nehme ich Sie beim Wort"],
-        explanation: "\"Jemanden beim Wort nehmen\" = to take someone at their word, hold them to a promise. The person is the only accusative, so \"*das nehme ich Sie beim Wort\" is wrong.",
+        explanation: "\"Jemanden beim Wort nehmen\" = to take someone at their word, hold them to a promise. The person is the only accusative, so \"*das nehme ich Sie beim Wort*\" is wrong.",
       },
       {
         type: "translate",
@@ -1975,7 +1975,7 @@ export const DE_C2_U13: Lesson[] = [
         body: [
           "This clinic contrasts phrases that say the same thing, I disagree, with different force. On a scale from 1 (softest) to 6 (bluntest): (1) \"Ich bin mir nicht ganz sicher, ob das so stimmt.\" (2) \"Das sehe ich etwas anders.\" (3) \"Da muss ich widersprechen.\" (4) \"Das stimmt so nicht.\" (5) \"Das ist schlichtweg falsch.\" (6) \"Das ist doch Unsinn!\"",
           "What moves a phrase up the scale: removing hedges (\"etwas\", \"nicht ganz\"), adding particles of reproach (\"doch\"), evaluative nouns (\"Unsinn\", \"Quatsch\"), and addressing the person (\"Sie irren sich\") rather than the claim.",
-          "English speakers often underestimate how soft (1) and (2) sound in German. In many German workplaces \"Das stimmt so nicht\" (4) is a normal, factual correction, not an attack.",
+          "English speakers tend to soften more than German needs: (1) and (2) already sound very gentle in German. In many German workplaces \"Das stimmt so nicht\" (4) is a normal, factual correction, not an attack.",
         ],
         examples: [
           { es: "Ich bin mir nicht ganz sicher, ob das so stimmt.", en: "I'm not entirely sure that's right. (1, very soft)" },

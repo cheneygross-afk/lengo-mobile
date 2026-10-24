@@ -8,7 +8,7 @@ export const DE_A2_U02: Lesson[] = [
     level: "DE-A2",
     number: 1,
     title: "Irregular Participles, Part 1 of 2",
-    summary: "Meet the strong participles in ge-...-en: some keep their vowel (gegessen, gesehen), others change it (getrunken, geschrieben, gesprochen).",
+    summary: "Use the strong participles in ge-...-en: some keep their vowel (\"gegessen\", \"gesehen\"), others change it (\"getrunken\", \"geschrieben\", \"gesprochen\").",
     duration: "13 min",
     sections: [
       {
@@ -51,7 +51,7 @@ export const DE_A2_U02: Lesson[] = [
         body: [
           "In many strong verbs the vowel changes too, much like English drink → drunk, write → written, speak → spoken: \"trinken\" → \"getrunken\", \"schreiben\" → \"geschrieben\", \"sprechen\" → \"gesprochen\". The family resemblance with English is no accident: these are the same old verbs.",
           "More of them: \"finden\" → \"gefunden\" (found), \"nehmen\" → \"genommen\" (taken: note the double m), \"helfen\" → \"geholfen\" (helped), \"treffen\" → \"getroffen\" (met).",
-          "There's no rule that predicts the new vowel from the infinitive alone, but there are families with the same pattern (next lesson). Learn each participle together with the infinitive, out loud: trinken, getrunken; finden, gefunden.",
+          "There's no rule that predicts the new vowel from the infinitive alone, but there are families with the same pattern (next lesson). Learn each participle together with the infinitive, out loud: \"trinken, getrunken\"; \"finden, gefunden\".",
         ],
         examples: [
           { es: "Wir haben zu viel Kaffee getrunken.", en: "We drank too much coffee." },
@@ -295,7 +295,7 @@ export const DE_A2_U02: Lesson[] = [
           { es: "Ich habe mit ihr gesprochen.", en: "I spoke to her." },
           { es: "Hast du deine Tabletten genommen?", en: "Have you taken your pills?" },
           { es: "Wir haben uns im Park getroffen.", en: "We met in the park." },
-          { es: "Sie haben uns sehr geholfen.", en: "You've helped us a lot. (polite)" },
+          { es: "Sie haben uns sehr geholfen.", en: "You've helped us a lot. (formal)" },
           { es: "Habt ihr den neuen Film gesehen?", en: "Have you seen the new film? (to friends)" },
         ],
         checkpoint: [
@@ -338,7 +338,7 @@ export const DE_A2_U02: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "You've helped us a lot. (polite)",
+        source: "You've helped us a lot. (formal)",
         answer: "Sie haben uns sehr geholfen.",
         altAnswers: ["Sie haben uns viel geholfen."],
         explanation: "\"Geholfen\": the e → o family. A lot with \"helfen\" is usually \"sehr\".",
@@ -408,7 +408,7 @@ export const DE_A2_U02: Lesson[] = [
     level: "DE-A2",
     number: 3,
     title: "Irregular Participles, Part 2 of 2",
-    summary: "Verbs with no ge- (inseparable prefixes and -ieren verbs) and the mixed verbs: besucht, verstanden, telefoniert, gebracht, gewusst.",
+    summary: "Form the participles of verbs with no ge- (inseparable prefixes and -ieren verbs) and of the mixed verbs: \"besucht\", \"verstanden\", \"telefoniert\", \"gebracht\", \"gewusst\".",
     duration: "14 min",
     sections: [
       {
@@ -489,7 +489,7 @@ export const DE_A2_U02: Lesson[] = [
         body: [
           "A handful of very common verbs mix the two types: they change the vowel like strong verbs but end in -t like regular ones. \"Bringen\" → \"gebracht\", \"denken\" → \"gedacht\", \"wissen\" → \"gewusst\", \"kennen\" → \"gekannt\".",
           "English does something similar: bring → brought, think → thought. In fact \"gebracht\" and brought, \"gedacht\" and thought are historical twins.",
-          "\"Gewusst\" is spelt with ss, because the u is short. You'll practise wissen vs kennen in the next lesson.",
+          "\"Gewusst\" is spelt with ss, because the u is short. You'll practise \"wissen\" vs \"kennen\" in the next lesson.",
         ],
         examples: [
           { es: "Jonas hat Blumen gebracht.", en: "Jonas brought flowers." },
@@ -562,7 +562,7 @@ export const DE_A2_U02: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "We [took a lot of photos].",
+        en: "We [took] a lot of [photos].",
         sentence: "Wir haben viel ___.",
         answer: "fotografiert",
         explanation: "\"Fotografieren\" → \"fotografiert\": -ieren verbs have no ge-.",
@@ -596,7 +596,7 @@ export const DE_A2_U02: Lesson[] = [
         type: "speak",
         text: "Ich habe die Frage nicht verstanden.",
         prompt: "Say it in German: I didn't understand the question.",
-        tip: "Stress the stem: ver-STAN-den; the ver- is short and light.",
+        tip: "Stress the stem of \"verstanden\": ver-STAN-den; the ver- is short and light.",
         explanation: "\"Verstanden\": strong, no ge-.",
       },
     ],
@@ -606,7 +606,7 @@ export const DE_A2_U02: Lesson[] = [
     level: "DE-A2",
     number: 4,
     title: "Contrast Clinic: Gewusst or Gekannt?",
-    summary: "English I knew covers two German verbs: gewusst for facts, gekannt for people and places.",
+    summary: "Choose between the two German verbs behind English I knew: \"gewusst\" for facts, \"gekannt\" for people and places.",
     duration: "11 min",
     sections: [
       {
@@ -646,7 +646,7 @@ export const DE_A2_U02: Lesson[] = [
         body: [
           "\"Kennen\" is being familiar with a person, a place, a film, a song: something you've met or experienced. Its participle is \"gekannt\": \"Ich habe ihn gut gekannt\" (I knew him well), \"Wir haben die Stadt nicht gekannt\" (we didn't know the city).",
           "The trap here is \"*gekennt*\": the e changes to a. Think of English know → known; German kennen → gekannt has its own odd vowel.",
-          "Many speakers prefer the simple past \"kannte\" and \"wusste\" for these verbs; you'll meet that in Unit 5. Both are correct.",
+          "Many speakers prefer the simple past \"kannte\" and \"wusste\" for these verbs; you'll meet that in Unit 5, and it is accepted in the answers here. Both are correct.",
         ],
         examples: [
           { es: "Ich habe ihn gut gekannt.", en: "I knew him well." },
@@ -728,14 +728,14 @@ export const DE_A2_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Did you know the answer? Which fits: Hast du die Antwort ___?",
+        question: "Did you know the answer? Which fits: \"Hast du die Antwort ___?\"",
         options: ["gewusst", "gekannt", "gekennt", "gewisst"],
         correctIndex: 0,
         explanation: "An answer is information: \"gewusst\".",
       },
       {
         type: "multiple-choice",
-        question: "Did you know her brother? Which fits: Hast du ihren Bruder ___?",
+        question: "Did you know her brother? Which fits: \"Hast du ihren Bruder ___?\"",
         options: ["gekannt", "gewusst", "gekennt", "gekonnt"],
         correctIndex: 0,
         explanation: "A person: \"gekannt\". \"Gekonnt\" comes from \"können\".",
@@ -793,7 +793,7 @@ export const DE_A2_U02: Lesson[] = [
     level: "DE-A2",
     number: 5,
     title: "Transformations: Heute → Gestern",
-    summary: "Move present-tense sentences into the Perfekt: the verb becomes haben + participle, and the participle jumps to the end.",
+    summary: "Move present-tense sentences into the Perfekt: the verb becomes \"haben\" + participle, and the participle jumps to the end.",
     duration: "12 min",
     sections: [
       {
@@ -936,7 +936,7 @@ export const DE_A2_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Present: Du sprichst sehr gut Deutsch. Which means: You spoke German very well. (to a friend)",
+        question: "Present: \"Du sprichst sehr gut Deutsch.\" Which means: You spoke German very well. (to a friend)",
         options: ["Du hast sehr gut Deutsch gesprochen.", "Du hast sehr gut Deutsch gesprichen.", "Du hast gesprochen sehr gut Deutsch.", "Du bist sehr gut Deutsch gesprochen."],
         correctIndex: 0,
         explanation: "\"Hast ... gesprochen\": the i of \"sprichst\" goes; the participle has o.",
@@ -966,7 +966,7 @@ export const DE_A2_U02: Lesson[] = [
       {
         type: "speak",
         text: "Er hat eine Mail geschrieben.",
-        prompt: "Change to the past and say it: Er schreibt eine Mail.",
+        prompt: "Change to the past and say it: \"Er schreibt eine Mail.\" (He wrote an email.)",
         explanation: "\"Schreibt\" → \"hat ... geschrieben\".",
       },
     ],
@@ -1013,7 +1013,7 @@ export const DE_A2_U02: Lesson[] = [
       {
         heading: "ss or ß: gegessen, gesessen, gewusst, gegrüßt",
         body: [
-          "After a short vowel German writes ss (\"gegessen\", \"vergessen\", \"gewusst\", \"gesessen\" from sitzen); after a long vowel or a diphthong it writes ß (\"gegrüßt\" from grüßen, \"geheißen\" from heißen).",
+          "After a short vowel German writes ss (\"gegessen\", \"vergessen\", \"gewusst\", \"gesessen\" from \"sitzen\"); after a long vowel or a diphthong it writes ß (\"gegrüßt\" from \"grüßen\", \"geheißen\" from \"heißen\").",
           "Don't confuse \"gegessen\" (eaten) with \"gesessen\" (sat): one letter, very different meaning. \"Wir haben lange am Tisch gesessen\" (we sat at the table for a long time).",
           "In Switzerland, ß isn't used at all: Swiss texts write \"gegrüsst\". In Germany and Austria, use ß.",
         ],
@@ -1217,7 +1217,7 @@ export const DE_A2_U02: Lesson[] = [
             question: "Which is correct for: He helped me.",
             options: ["Er hat mir geholfen.", "Er hat mir gehelft.", "Er hat mich geholfen.", "Er hat mir gehilft."],
             correctIndex: 0,
-            explanation: "\"Geholfen\" (strong, e → o), with the dative \"mir\".",
+            explanation: "\"Geholfen\" (strong, e → o), with the dative \"mir\": \"helfen\" never takes \"*mich*\". The i of \"er hilft\" doesn't reach the participle.",
           },
         ],
       },
@@ -1308,7 +1308,7 @@ export const DE_A2_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence has no mistake?",
+        question: "Which sentence has no mistake? (He told his grandma everything.)",
         options: ["Er hat seiner Oma alles erzählt.", "Er hat seiner Oma alles geerzählt.", "Er hat seiner Oma alles erzählen.", "Er hat seiner Oma alles erzählet."],
         correctIndex: 0,
         explanation: "\"Erzählt\": regular -t, no ge- after er-.",
@@ -1348,7 +1348,7 @@ export const DE_A2_U02: Lesson[] = [
     level: "DE-A2",
     number: 8,
     title: "Q&A Drill: Was hast du gemacht?",
-    summary: "Answer Perfekt questions in the right person, repeating the noun: Hast du den Film gesehen? Ja, ich habe den Film gesehen.",
+    summary: "Answer Perfekt questions in the right person, repeating the noun: \"Hast du den Film gesehen? Ja, ich habe den Film gesehen.\"",
     duration: "11 min",
     sections: [
       {
@@ -1367,7 +1367,7 @@ export const DE_A2_U02: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Answer in German, repeating the noun: Hast du die Mail gelesen? (No.)",
+            prompt: "Answer in German, repeating the noun: \"Hast du die Mail gelesen?\" (No.)",
             source: "No, I didn't read the email.",
             answer: "Nein, ich habe die Mail nicht gelesen.",
             altAnswers: ["Nein, ich habe die E-Mail nicht gelesen."],
@@ -1376,7 +1376,7 @@ export const DE_A2_U02: Lesson[] = [
           {
             type: "speak",
             text: "Ja, ich habe den Film gesehen.",
-            prompt: "Answer aloud: Hast du den Film gesehen? (Yes.)",
+            prompt: "Answer aloud: \"Hast du den Film gesehen?\" (Yes.)",
             explanation: "Switch \"hast du\" to \"ich habe\"; keep \"gesehen\".",
           },
         ],
@@ -1397,14 +1397,14 @@ export const DE_A2_U02: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Answer in German: Habt ihr bezahlt? (No, not yet.)",
+            prompt: "Answer in German: \"Habt ihr bezahlt?\" (No, not yet.)",
             source: "No, we haven't paid yet.",
             answer: "Nein, wir haben noch nicht bezahlt.",
             explanation: "\"Ihr habt\" → \"wir haben\"; not yet = \"noch nicht\".",
           },
           {
             type: "multiple-choice",
-            question: "Habt ihr nicht geholfen? You did help. What do you answer?",
+            question: "Your friends ask: \"Habt ihr nicht geholfen?\" You did help. What do you answer?",
             options: ["Doch, wir haben geholfen!", "Ja, wir haben nicht geholfen.", "Ja, ihr habt geholfen.", "Nein, wir haben geholfen!"],
             correctIndex: 0,
             explanation: "\"Doch\" contradicts a negative question, and \"ihr\" becomes \"wir\".",
@@ -1447,7 +1447,7 @@ export const DE_A2_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Answer in German, repeating the noun: Hast du Lena getroffen? (Yes.)",
+        prompt: "Answer in German, repeating the noun: \"Hast du Lena getroffen?\" (Yes.)",
         source: "Yes, I met Lena.",
         answer: "Ja, ich habe Lena getroffen.",
         explanation: "\"Hast du\" → \"ich habe\".",
@@ -1455,7 +1455,7 @@ export const DE_A2_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Answer in German: Habt ihr schon gegessen? (Yes.)",
+        prompt: "Answer in German: \"Habt ihr schon gegessen?\" (Yes.)",
         source: "Yes, we've already eaten.",
         answer: "Ja, wir haben schon gegessen.",
         altAnswers: ["Ja, wir haben bereits gegessen."],
@@ -1472,7 +1472,7 @@ export const DE_A2_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Answer in German: Was hat er getrunken? (He drank a beer.)",
+        prompt: "Answer in German: \"Was hat er getrunken?\" (He drank a beer.)",
         source: "He drank a beer.",
         answer: "Er hat ein Bier getrunken.",
         explanation: "Third person stays third person: \"er hat\".",
@@ -1480,7 +1480,7 @@ export const DE_A2_U02: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Did you get the form? – Yes, [I got] it. (polite)",
+        en: "Did you get the form? – Yes, [I got] it. (formal)",
         sentence: "Haben Sie das Formular bekommen? – Ja, ___ es bekommen.",
         answer: "ich habe",
         explanation: "Polite \"Sie\" is answered with \"ich\" (one person).",
@@ -1488,14 +1488,14 @@ export const DE_A2_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Answer in German: Hast du mir geschrieben? (No, I didn't write to you.)",
+        prompt: "Answer in German: \"Hast du mir geschrieben?\" (No, I didn't write to you.)",
         source: "No, I didn't write to you.",
         answer: "Nein, ich habe dir nicht geschrieben.",
         explanation: "\"Mir\" in the question becomes \"dir\" in the answer.",
       },
       {
         type: "multiple-choice",
-        question: "Hast du den Schlüssel gefunden? Which answer is correct?",
+        question: "A friend asks: \"Hast du den Schlüssel gefunden?\" Which answer is correct? (Yes, I found it.)",
         options: ["Ja, ich habe den Schlüssel gefunden.", "Ja, du hast den Schlüssel gefunden.", "Ja, ich hast den Schlüssel gefunden.", "Ja, ich habe den Schlüssel gefindet."],
         correctIndex: 0,
         explanation: "\"Ich habe ... gefunden\": swap the person, keep the participle.",
@@ -1523,7 +1523,7 @@ export const DE_A2_U02: Lesson[] = [
       {
         type: "speak",
         text: "Nein, wir haben noch nicht bezahlt.",
-        prompt: "Answer aloud: Habt ihr schon bezahlt? (No, not yet.)",
+        prompt: "Answer aloud: \"Habt ihr schon bezahlt?\" (No, not yet.)",
         explanation: "\"Ihr\" → \"wir\"; \"noch nicht\" for not yet.",
       },
     ],
@@ -1540,13 +1540,13 @@ export const DE_A2_U02: Lesson[] = [
         heading: "Lena's to-do list",
         body: [
           "On Saturday morning Lena wrote a list: \"einkaufen, Oma anrufen, Wäsche waschen, Mail an Frau Becker schreiben, Fahrrad reparieren, Zeitung lesen\". On Sunday her flatmate asks: \"Und, was hast du gestern alles gemacht?\"",
-          "Two items are separable verbs (einkaufen, anrufen). Their participles have ge- in the middle: \"eingekauft\", \"angerufen\". You'll learn how in Unit 3; for now use \"Ich habe eingekauft\" and \"Ich habe Oma angerufen\" as chunks.",
+          "Two items are separable verbs (\"einkaufen\", \"anrufen\"). Their participles have ge- in the middle: \"eingekauft\", \"angerufen\". You'll learn how in Unit 3; for now use \"Ich habe eingekauft\" and \"Ich habe Oma angerufen\" as chunks.",
         ],
         examples: [
           { es: "Ich habe eingekauft.", en: "I did the shopping." },
           { es: "Ich habe Oma angerufen.", en: "I called Grandma." },
           { es: "Ich habe die Wäsche gewaschen.", en: "I did the washing." },
-          { es: "Ich habe Frau Becker eine Mail geschrieben.", en: "I wrote Mrs Becker an email." },
+          { es: "Ich habe Frau Becker eine Mail geschrieben.", en: "I wrote Ms Becker an email." },
           { es: "Ich habe das Fahrrad repariert.", en: "I repaired the bike." },
         ],
         checkpoint: [
@@ -1563,7 +1563,7 @@ export const DE_A2_U02: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "I wrote Mrs Becker an email.",
+            source: "I wrote Ms Becker an email.",
             answer: "Ich habe Frau Becker eine Mail geschrieben.",
             altAnswers: ["Ich habe Frau Becker eine E-Mail geschrieben.", "Ich habe eine Mail an Frau Becker geschrieben."],
             explanation: "\"Geschrieben\": strong, ei → ie.",
@@ -1704,6 +1704,6 @@ export const DE_A2_U02_WRITING: WriteExercise = {
     "Uses at least one mixed verb (\"gebracht\", \"gedacht\", \"gewusst\", \"gekannt\")",
     "Keeps the auxiliary second and the participle at the end, with \"nicht\" or \"kein\" where needed",
   ],
-  modelAnswer: "Liebe Ayşe, gestern war ein langer Tag! Am Morgen habe ich nur einen Kaffee getrunken und dann habe ich bis eins gearbeitet. Mittags habe ich Mehmet in der Kantine getroffen und wir haben Pizza gegessen. Am Nachmittag habe ich mit meiner Mutter telefoniert und im Supermarkt eingekauft. Ich habe sogar ein Paket bekommen! Aber ich habe meinen Schlüssel im Büro vergessen und eine Stunde vor der Tür gewartet. Das hast du bestimmt nicht gewusst: Mein Nachbar hat mir dann einen Tee gebracht. Liebe Grüße, Lena",
+  modelAnswer: "Liebe Ayşe, gestern war ein langer Tag! Am Morgen habe ich nur einen Kaffee getrunken und dann habe ich bis eins gearbeitet. Mittags habe ich Mehmet in der Kantine getroffen und wir haben Pizza gegessen. Am Nachmittag habe ich mit meiner Mutter telefoniert und im Supermarkt eingekauft. Ich habe sogar ein Paket bekommen! Aber ich habe meinen Schlüssel im Büro vergessen und eine Stunde vor der Tür gewartet. Das hast du bestimmt nicht gewusst: Mein Nachbar hat mir dann einen Tee gebracht. Liebe Grüße Lena",
   explanation: "Strong verbs end in -en, often with a new vowel (\"getrunken\", \"getroffen\", \"gegessen\"); verbs with be-, ver-, er- and -ieren verbs have no ge- (\"bekommen\", \"vergessen\", \"telefoniert\"); mixed verbs change the vowel but end in -t (\"gebracht\", \"gewusst\"). The auxiliary is always second, the participle last.",
 };
