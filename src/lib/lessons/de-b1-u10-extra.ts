@@ -9,7 +9,7 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Relative Clauses, Part 1 of 3",
-    summary: "Nominative and accusative relatives: der Mann, der hier wohnt; der Mann, den ich kenne.",
+    summary: "Practise nominative and accusative relatives: \"der Mann, der hier wohnt\", \"der Mann, den ich kenne\".",
     duration: "10 min",
     sections: [
       {
@@ -28,7 +28,7 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "The man [I know] is a doctor.",
+            en: "The man [whom] I know is a doctor.",
             sentence: "Der Mann, ___ ich kenne, ist Arzt.",
             answer: "den",
             explanation: "Object, masculine: \"den\".",
@@ -171,13 +171,13 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Relative Clauses, Part 2 of 3",
-    summary: "Dative and genitive relatives: dem, der, denen; dessen and deren.",
+    summary: "Practise dative and genitive relatives: \"dem\", \"der\", \"denen\"; \"dessen\" and \"deren\".",
     duration: "10 min",
     sections: [
       {
         heading: "Recap: dative and whose",
         body: [
-          "Dative relatives: masculine and neuter \"dem\", feminine \"der\", plural \"denen\" (not \"die\"). Use them after dative verbs (\"helfen\", \"danken\", \"gehören\", \"gefallen\", \"geben\" + person). Whose: \"dessen\" for masculine and neuter nouns, \"deren\" for feminine and plural nouns. No article follows: \"der Mann, dessen Auto ...\".",
+          "Dative relatives: masculine and neuter \"dem\", feminine \"der\", plural \"denen\" (not \"den\" or \"die\"). Use them after dative verbs (\"helfen\", \"danken\", \"gehören\", \"gefallen\", \"geben\" + person). Whose: \"dessen\" for masculine and neuter nouns, \"deren\" for feminine and plural nouns. No article follows: \"der Mann, dessen Auto ...\".",
         ],
         examples: [
           { es: "Das ist der Nachbar, dem ich geholfen habe.", en: "That's the neighbour I helped." },
@@ -190,7 +190,7 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "The children [I give lessons to] are hard-working.",
+            en: "The children [to whom] I give lessons are hard-working.",
             sentence: "Die Kinder, ___ ich Nachhilfe gebe, sind fleißig.",
             answer: "denen",
             explanation: "Dative plural: \"denen\".",
@@ -330,11 +330,11 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Relative Clauses, Part 3 of 3",
-    summary: "Preposition + relative, wo and was: die Stadt, in der ich wohne; Wien, wo ich studiert habe; alles, was ich weiß.",
+    summary: "Practise preposition + relative, \"wo\" and \"was\": \"die Stadt, in der ich wohne\", \"Wien, wo ich studiert habe\", \"alles, was ich weiß\".",
     duration: "10 min",
     sections: [
       {
-        heading: "Recap: prepositions, wo and was",
+        heading: "Recap: prepositions, \"wo\" and \"was\"",
         body: [
           "With a preposition, put it first and let it decide the case: \"mit dem\", \"für den\", \"in der\". For places you can also use \"wo\"; after city and country names, \"wo\" is the normal choice. After \"alles\", \"etwas\", \"nichts\", \"das\", \"das Beste\" or a whole clause, use \"was\".",
         ],
@@ -444,6 +444,7 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "That's the best thing that happened to me this year.",
         answer: "Das ist das Beste, was mir dieses Jahr passiert ist.",
+        altAnswers: ["Das ist das Beste, was mir in diesem Jahr passiert ist."],
         explanation: "After \"das Beste\": \"was\".",
       },
       {
@@ -492,7 +493,7 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
     number: 4,
     optional: true,
     title: "Extra Practice: Real-World Mission, Flat Ads",
-    summary: "Write a WG-Zimmer ad: ein Zimmer, das ruhig ist; Mitbewohner, die gern kochen.",
+    summary: "Write a \"WG-Zimmer\" ad with relative clauses: \"ein Zimmer, das ruhig ist\", \"Mitbewohner, die gern kochen\".",
     duration: "10 min",
     sections: [
       {
@@ -654,7 +655,7 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
     number: 5,
     optional: true,
     title: "Extra Practice: Der, Was or Wo?",
-    summary: "Choose the right relative word: der/die/das after a noun, was after alles or a whole clause, wo for places.",
+    summary: "Choose the right relative word: \"der\"/\"die\"/\"das\" after a noun, \"was\" after \"alles\" or a whole clause, \"wo\" for places.",
     duration: "10 min",
     sections: [
       {
@@ -822,13 +823,13 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
     number: 6,
     optional: true,
     title: "Extra Practice: Dialogue Lab, Who's Who in the Photo?",
-    summary: "Identify people in a wedding photo: Das ist die Frau, deren Bruder...; der Mann, mit dem...",
+    summary: "Identify people in a wedding photo: \"Das ist die Frau, deren Bruder...\", \"der Mann, mit dem...\"",
     duration: "10 min",
     sections: [
       {
         heading: "Recap: pointing people out",
         body: [
-          "Looking at a photo, you point people out with \"Das ist ...\" + a relative clause. Mix every case: \"der Mann, der neben der Braut steht\", \"die Frau, die du kennst\", \"der Junge, dem die Torte gefällt\", \"die Frau, deren Bruder ...\", \"der Typ, mit dem ...\". \"Die Braut\" = bride, \"der Bräutigam\" = groom, \"der Trauzeuge\" = best man.",
+          "Looking at a photo, you point people out with \"Das ist ...\" + a relative clause. Mix every case: \"der Mann, der neben der Braut steht\", \"die Frau, die du kennst\", \"der Junge, dem die Torte gefällt\", \"die Frau, deren Bruder ...\", \"der Typ, mit dem ...\". Words: \"die Braut\" (bride), \"der Bräutigam\" (groom), \"der Trauzeuge\" (best man).",
         ],
         examples: [
           { es: "Das ist der Mann, der neben der Braut steht.", en: "That's the man standing next to the bride." },
@@ -912,7 +913,7 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "The girl you're talking about is the bride's sister.",
+        source: "The girl you're talking about is the bride's sister. (to a friend)",
         answer: "Das Mädchen, von dem du sprichst, ist die Schwester der Braut.",
         altAnswers: ["Das Mädchen, über das du sprichst, ist die Schwester der Braut.", "Das Mädchen, von dem du redest, ist die Schwester der Braut."],
         explanation: "\"Sprechen von / über\".",
@@ -930,7 +931,7 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Who's the man you gave the flowers to?",
+        source: "Who's the man you gave the flowers to? (to a friend)",
         answer: "Wer ist der Mann, dem du die Blumen gegeben hast?",
         altAnswers: ["Wer ist der Mann, dem du die Blumen geschenkt hast?"],
         explanation: "Dative: \"dem\".",
@@ -946,7 +947,7 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The man [I sat next to] was very funny.",
+        en: "The man [next to whom] I sat was very funny.",
         sentence: "Der Mann, ___ ich saß, war sehr lustig.",
         answer: "neben dem",
         explanation: "Where: \"neben\" + dative.",
@@ -980,7 +981,7 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
     number: 7,
     optional: true,
     title: "Extra Practice: From Two Sentences to One",
-    summary: "Join two sentences with preposition + relative pronoun: Ich wohne mit ihm → der Freund, mit dem ich wohne.",
+    summary: "Join two sentences with preposition + relative pronoun: \"Ich wohne mit ihm\" → \"der Freund, mit dem ich wohne\".",
     duration: "10 min",
     sections: [
       {
@@ -1005,7 +1006,7 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "Those are my hosts, [who I'm staying with].",
+            en: "Those are my hosts, [with whom] I'm staying.",
             sentence: "Das sind meine Gastgeber, ___ ich wohne.",
             answer: "bei denen",
             explanation: "\"Bei ihnen\" → \"bei denen\".",
@@ -1104,7 +1105,7 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The house [we drove past] was huge.",
+        en: "The house [that] we drove [past] was huge.",
         sentence: "Das Haus, ___ wir vorbeigefahren sind, war riesig.",
         answer: "an dem",
         explanation: "\"An etwas vorbeifahren\" + dative: \"an dem\".",
@@ -1138,7 +1139,7 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
     number: 8,
     optional: true,
     title: "Extra Practice: The Verb Needs a Preposition",
-    summary: "Relatives with fixed prepositions: der Urlaub, auf den ich mich freue; das Thema, über das wir sprechen.",
+    summary: "Use relatives with fixed prepositions: \"der Urlaub, auf den ich mich freue\", \"das Thema, über das wir sprechen\".",
     duration: "10 min",
     sections: [
       {
@@ -1157,7 +1158,7 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "The holiday [I'm looking forward to] starts tomorrow.",
+            en: "The holiday [that] I'm looking forward [to] starts tomorrow.",
             sentence: "Der Urlaub, ___ ich mich freue, beginnt morgen.",
             answer: "auf den",
             explanation: "\"Sich freuen auf\" + accusative.",
@@ -1198,7 +1199,7 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "The present I was so happy about was from you.",
         answer: "Das Geschenk, über das ich mich so gefreut habe, war von dir.",
-        altAnswers: ["Das Geschenk, über das ich mich so gefreut habe, war von euch."],
+        altAnswers: ["Das Geschenk, über das ich mich so gefreut habe, war von euch.", "Das Geschenk, über das ich mich so gefreut habe, war von Ihnen."],
         explanation: "\"Sich freuen über\" + accusative.",
       },
       {
@@ -1265,7 +1266,7 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The exam [I'm afraid of] is next week.",
+        en: "The exam [that] I'm afraid [of] is next week.",
         sentence: "Die Prüfung, ___ ich Angst habe, ist nächste Woche.",
         answer: "vor der",
         explanation: "\"Angst haben vor\" + dative.",
@@ -1299,7 +1300,7 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
     number: 9,
     optional: true,
     title: "Extra Practice: Das ist der Film, über den alle reden",
-    summary: "Ask and answer about trending films and books: der Film, über den alle reden; das Buch, das gerade alle lesen.",
+    summary: "Ask and answer about trending films and books: \"der Film, über den alle reden\", \"das Buch, das gerade alle lesen\".",
     duration: "10 min",
     sections: [
       {
@@ -1327,7 +1328,7 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "That's the book [I told you about].",
+            en: "That's the book [that] I told you [about].",
             sentence: "Das ist das Buch, ___ ich dir erzählt habe.",
             answer: "von dem",
             explanation: "\"Erzählen von\" + dative.",
@@ -1460,7 +1461,7 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
     number: 10,
     optional: true,
     title: "Extra Practice: Objects with a Story",
-    summary: "Describe objects in your home and where they come from: die Lampe, die ich auf dem Flohmarkt gekauft habe; der Teppich, den mir meine Oma geschenkt hat.",
+    summary: "Describe objects in your home and where they come from: \"die Lampe, die ich auf dem Flohmarkt gekauft habe\", \"der Teppich, den mir meine Oma geschenkt hat\".",
     duration: "10 min",
     sections: [
       {
@@ -1487,7 +1488,7 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "The table [we always eat at] used to be a door.",
+            en: "The table [that] we always eat [at] used to be a door.",
             sentence: "Der Tisch, ___ wir immer essen, war früher eine Tür.",
             answer: "an dem",
             explanation: "\"An\" + dative: sitting at a table.",
@@ -1622,7 +1623,7 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
     number: 11,
     optional: true,
     title: "Extra Practice: Relatives Without Hints",
-    summary: "Free production of relative clauses in every case: nominative, accusative, dative, genitive, with prepositions, wo, was and wer.",
+    summary: "Produce relative clauses in every case without hints: nominative, accusative, dative, genitive, with prepositions, \"wo\", \"was\" and \"wer\".",
     duration: "10 min",
     sections: [
       {
@@ -1711,7 +1712,7 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "The man you were looking for has just left.",
         answer: "Der Mann, den du gesucht hast, ist gerade gegangen.",
-        altAnswers: ["Der Mann, den Sie gesucht haben, ist gerade gegangen.", "Der Mann, den du gesucht hast, ist eben gegangen."],
+        altAnswers: ["Der Mann, den Sie gesucht haben, ist gerade gegangen.", "Der Mann, den du gesucht hast, ist eben gegangen.", "Der Mann, den ihr gesucht habt, ist gerade gegangen."],
         explanation: "Masculine object: \"den\".",
       },
       {
@@ -1736,7 +1737,7 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "There's a lot I'd like to tell you.",
+        source: "There's a lot I'd like to tell you. (to a friend)",
         answer: "Es gibt vieles, was ich dir erzählen möchte.",
         altAnswers: ["Es gibt viel, was ich dir erzählen möchte.", "Es gibt vieles, was ich dir sagen möchte."],
         explanation: "After \"vieles\": \"was\".",

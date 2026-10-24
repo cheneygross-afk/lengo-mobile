@@ -42,8 +42,8 @@ export const DE_C2_U16: Lesson[] = [
             en: "She [made a dramatic pause] before the key message.",
             sentence: "Sie hat vor der Kernaussage eine ___.",
             answer: "Kunstpause gemacht",
-            altAnswers: ["Kunstpause eingelegt", "Pause gemacht", "Pause eingelegt"],
-            explanation: "\"Eine Kunstpause machen\" or \"einlegen\": a deliberate pause for effect. You \"machen\" or \"einlegen\" a pause; \"*eine Pause halten*\" is not idiomatic.",
+            altAnswers: ["Kunstpause eingelegt", "dramatische Pause gemacht", "dramatische Pause eingelegt"],
+            explanation: "\"Eine Kunstpause machen\" or \"einlegen\": a deliberate pause for effect. You \"machen\" or \"einlegen\" a pause; \"eine Pause halten\" is rare.",
           },
         ],
       },
@@ -52,7 +52,7 @@ export const DE_C2_U16: Lesson[] = [
         body: [
           "The body vocabulary: \"der Blickkontakt\" (eye contact: \"Blickkontakt halten / herstellen / vermeiden\"), \"die Gestik\" (gestures as a whole) vs \"die Geste\" (one gesture), \"die Mimik\" (facial expression, a false friend: not mimicry), \"die Körperhaltung\" (posture) and \"die Körpersprache\" (body language).",
           "\"Die Mimik\" is the word that catches English speakers: \"Ihre Mimik verrät Unsicherheit\" means her facial expressions betray uncertainty. Mimicry is \"die Nachahmung\". Similarly \"gestikulieren\" means to gesture a lot, often slightly too much: \"Er gestikuliert wild\".",
-          "Notice the verb choices: you \"hält\" eye contact (\"halten\"), you \"verschränkt die Arme\" (cross your arms), you \"steht mit beiden Beinen fest auf dem Boden\", and you \"hat die Hände in den Hosentaschen\". A presenter \"wirkt\" (comes across as) confident or nervous: \"Er wirkte souverän\" is high praise; \"souverän\" means calmly in control, not sovereign in the political sense.",
+          "Notice the verb choices: \"Blickkontakt halten\" (to keep eye contact), \"die Arme verschränken\" (to cross your arms), \"mit beiden Beinen fest auf dem Boden stehen\" (to stand firmly on both feet), \"die Hände in den Hosentaschen haben\" (to have your hands in your pockets). A presenter \"wirkt\" (comes across as) confident or nervous: \"Er wirkte souverän\" is high praise; \"souverän\" means calmly in control, not sovereign in the political sense.",
         ],
         examples: [
           { es: "Halten Sie Blickkontakt mit dem ganzen Publikum, nicht nur mit der ersten Reihe.", en: "Keep eye contact with the whole audience, not just the front row." },
@@ -220,7 +220,7 @@ export const DE_C2_U16: Lesson[] = [
           "Stage directions in transcripts use present tense and often a participle or a short clause in brackets: \"(runzelt die Stirn)\", \"(lehnt sich zurück)\", \"(zögert)\", \"(blickt auf die Uhr)\". When you retell them in a report, switch to Präteritum: \"Herr Klein lehnte sich zurück und blickte auf die Uhr.\"",
         ],
         examples: [
-          { es: "Frau Hoffmann runzelte die Stirn, als sie den Preis hörte.", en: "Mrs Hoffmann frowned when she heard the price." },
+          { es: "Frau Hoffmann runzelte die Stirn, als sie den Preis hörte.", en: "Ms Hoffmann frowned when she heard the price." },
           { es: "Er zuckte nur mit den Schultern und sagte nichts.", en: "He just shrugged and said nothing." },
           { es: "Sie schüttelte den Kopf, bevor er ausgeredet hatte.", en: "She shook her head before he had finished speaking." },
           { es: "Der Einkäufer zog die Augenbrauen hoch.", en: "The buyer raised his eyebrows." },
@@ -329,7 +329,7 @@ export const DE_C2_U16: Lesson[] = [
             en: "He crossed his arms, [which] can be interpreted as defensiveness.",
             sentence: "Er verschränkte die Arme, ___ als Abwehr gedeutet werden kann.",
             answer: "was",
-            explanation: "When the relative pronoun refers to the whole previous clause, German uses \"was\", never \"das\" or \"welches\".",
+            explanation: "When the relative pronoun refers to the whole previous clause, German uses \"was\", not \"das\" (\"welches\" in this role is old-fashioned).",
           },
         ],
       },
@@ -424,7 +424,7 @@ export const DE_C2_U16: Lesson[] = [
     level: "DE-C2",
     number: 3,
     title: "Präsentation und Verhandlung, Part 6 of 8",
-    summary: "Handle questions after a talk: thank, check you have understood with Konjunktiv II, buy time, admit what you don't know and promise to follow up, and stay calm with hostile questions.",
+    summary: "Handle questions after a talk: thank, check you have understood (\"Wenn ich Sie richtig verstehe, ...\"), buy time, admit what you don't know and promise to follow up, and stay calm with hostile questions.",
     duration: "18 min",
     sections: [
       {
@@ -633,7 +633,7 @@ export const DE_C2_U16: Lesson[] = [
       {
         heading: "Questions 1 and 2: clarifying and critical",
         body: [
-          "Dr. Lea Sommer has just presented a car-sharing pilot project to the Leipzig city council. The moderator opens the floor: \"Vielen Dank, Frau Dr. Sommer. Wir haben jetzt Zeit für Fragen.\"",
+          "Dr Lea Sommer has just presented a car-sharing pilot project to the Leipzig city council. The moderator opens the floor: \"Vielen Dank, Frau Dr. Sommer. Wir haben jetzt Zeit für Fragen.\"",
           "Question 1 (clarifying), Herr Yilmaz: \"Sie sprachen von 400 Fahrzeugen. Ist das die Zahl für die gesamte Stadt oder nur für die Innenstadt?\" Sommer: \"Danke für die Nachfrage. Das ist die Zahl für das gesamte Stadtgebiet; in der Innenstadt sind es etwa 150.\" A \"Nachfrage\" is a follow-up or clarifying question; thanking for it is natural.",
           "Question 2 (critical), Frau Krause: \"Ihre Prognose wirkt mir sehr optimistisch. Worauf stützt sie sich?\" Sommer: \"Eine berechtigte Frage. Die Prognose stützt sich auf die Daten aus Hannover, wo das Modell seit drei Jahren läuft. Ich räume ein, dass Leipzig nicht eins zu eins vergleichbar ist.\" Conceding a limit (\"einräumen\") makes the answer more credible, not less.",
         ],
@@ -1052,7 +1052,7 @@ export const DE_C2_U16: Lesson[] = [
       {
         heading: "Your mission and your notes",
         body: [
-          "You are Jana Roth, purchasing manager at a furniture maker in Bielefeld. Yesterday you negotiated with Herr Demir of a wood supplier. Your notes: unit price €18.50 instead of €20; minimum order 500 units; delivery within 14 days of the order; payment within 30 days, 2 % discount if paid within 10 days; contract term one year. Open: who pays transport for orders under 500 units.",
+          "You are Jana Roth, purchasing manager at a furniture maker in Bielefeld. Yesterday you negotiated with Herr Demir of a wood supplier. Your notes: unit price €18.50 instead of €20; minimum order 500 units; delivery within 14 days of the order; payment within 30 days, 2% discount if paid within 10 days; contract term one year. Open: who pays transport for orders under 500 units.",
           "Your task is to write the email that turns these notes into a clear written record. Plan it in four parts: \"Dank und Bezug\" (thanks and reference), \"vereinbarte Punkte\" (agreed points), \"offene Punkte\" (open points), \"Bitte um Bestätigung und Gruß\" (request for confirmation and sign-off).",
           "The subject line (\"der Betreff\") is short and nominal: \"Betreff: Bestätigung unserer Vereinbarungen vom 14.10.\" or \"Ergebnisse unseres Gesprächs vom 14. Oktober\". Note: in the actual subject field you leave out the word \"Betreff\" itself, and no full stop at the end.",
         ],
@@ -1128,7 +1128,7 @@ export const DE_C2_U16: Lesson[] = [
         heading: "Open points, request and sign-off",
         body: [
           "Open point: \"Noch nicht abschließend geklärt ist die Frage, wer bei Bestellungen unter 500 Stück die Transportkosten trägt. Ich schlage vor, dass wir das in unserem nächsten Telefonat klären.\" The indirect question \"wer ... trägt\" has verb-final order.",
-          "Request and close: \"Ich bitte Sie, mir die oben genannten Punkte bis zum 21. Oktober kurz zu bestätigen. Sollten Sie Ergänzungen haben, melden Sie sich gern jederzeit. Wir freuen uns auf die Zusammenarbeit. Mit freundlichen Grüßen, Jana Roth\".",
+          "Request and close: \"Ich bitte Sie, mir die oben genannten Punkte bis zum 21. Oktober kurz zu bestätigen. Sollten Sie Ergänzungen haben, melden Sie sich gern jederzeit. Wir freuen uns auf die Zusammenarbeit. Mit freundlichen Grüßen\", with \"Jana Roth\" on the next line (no comma after the closing formula).",
           "\"Oben genannt\" (above-mentioned) is useful but don't overdo it. \"Gern\" in \"melden Sie sich gern\" turns an imperative into a friendly invitation, typical of modern German emails.",
         ],
         examples: [
@@ -1294,7 +1294,7 @@ export const DE_C2_U16: Lesson[] = [
         body: [
           "In a Verlaufsprotokoll, statements are reported in Konjunktiv I, which marks them as someone else's words without the minute-taker endorsing them: \"Frau Aydın wies darauf hin, dass die Kosten gestiegen seien.\" \"Herr Wolf erklärte, er habe die Zahlen noch nicht erhalten.\" The \"dass\" can be dropped, giving main-clause order: \"..., die Kosten seien gestiegen.\"",
           "Konjunktiv I forms: \"er sei, er habe, er werde, er könne, er müsse\", and for most verbs the -e ending in the third person singular: \"er komme, sie gehe\". When Konjunktiv I looks the same as the indicative (mostly in the plural: \"sie haben\"), use Konjunktiv II: \"Die Teilnehmer erklärten, sie hätten keine Einwände.\"",
-          "The reporting verbs give the protocol its precision: \"berichten\", \"erläutern\" (explain in detail), \"darauf hinweisen\" (point out), \"betonen\", \"einwenden\" (object), \"vorschlagen\", \"zu bedenken geben\" (to raise as a concern). Reporting verbs are in Präteritum in the protocol, the reported content in Konjunktiv I.",
+          "The reporting verbs give the minutes their precision: \"berichten\", \"erläutern\" (explain in detail), \"darauf hinweisen\" (point out), \"betonen\", \"einwenden\" (object), \"vorschlagen\", \"zu bedenken geben\" (to raise as a concern). Reporting verbs are usually in Präteritum in a Verlaufsprotokoll, the reported content in Konjunktiv I.",
         ],
         examples: [
           { es: "Frau Aydın wies darauf hin, dass die Kosten gestiegen seien.", en: "Ms Aydın pointed out that costs had risen." },
@@ -1818,7 +1818,7 @@ export const DE_C2_U16: Lesson[] = [
         prompt: "Translate into German.",
         source: "Could you please repeat the question?",
         answer: "Können Sie die Frage bitte wiederholen?",
-        altAnswers: ["Könnten Sie die Frage bitte wiederholen?", "Kannst du die Frage bitte wiederholen?", "Könntest du die Frage bitte wiederholen?", "Könnt ihr die Frage bitte wiederholen?"],
+        altAnswers: ["Könnten Sie die Frage bitte wiederholen?", "Kannst du die Frage bitte wiederholen?", "Könntest du die Frage bitte wiederholen?", "Könnt ihr die Frage bitte wiederholen?", "Könntet ihr die Frage bitte wiederholen?"],
         explanation: "\"Wiederholen\" with -ie- (again). \"Wider\" means against.",
       },
       {

@@ -253,7 +253,7 @@ export const GOETHE_A2_HOEREN: ExamPaper = {
       title: "Teil 4",
       instructions:
         "Sie hören ein Interview. Sie hören den Text zweimal. Wählen Sie für die Aufgaben 16 bis 20 Ja oder Nein.",
-      instructionsEn: "You'll hear an interview, twice. For statements 16-20, choose Ja (yes, it's right) or Nein (no).",
+      instructionsEn: "You'll hear an interview, twice. For statements 16-20, choose \"Ja\" (yes, it's right) or \"Nein\" (no).",
       audio: [
         {
           label: "Interview",

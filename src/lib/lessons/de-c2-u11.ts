@@ -236,7 +236,7 @@ export const DE_C2_U11: Lesson[] = [
         body: [
           "Below is the first paragraph of a satirical column (a \"Glosse\" in the \"Feuilleton\") about a town's new appointment app for its \"Bürgeramt\". Read it once for the gist, then look at the rare words: \"Prestigeprojekt\", \"Bedenkenträger\", \"Kleinstaaterei\" and \"ausufernd\".",
           "Work like a detective. \"Prestigeprojekt\" is a transparent compound: a project for prestige, a showcase project. \"Bedenkenträger\" is built from \"Bedenken\" (reservations) and \"Träger\" (bearer): someone who carries reservations around, a habitual objector. \"Kleinstaaterei\" uses the pejorative \"-erei\" you know from Unit 9: the habit of splitting into small states, i.e. fragmentation, here between authorities. \"Ausufernd\" is a river leaving its banks (\"Ufer\"): sprawling, out of control.",
-          "Notice how the context confirms each guess: the \"Bedenkenträger\" \"warnten\", the \"Kleinstaaterei\" is linked to \"jedes Amt ... eigenes System\", and the \"ausufernde\" discussion lasted \"drei Jahre\".",
+          "Notice how the context confirms each guess: the \"Bedenkenträger\" \"warnten\", the \"Kleinstaaterei\" is linked to \"jedes Amt mit eigenem System\", and the \"ausufernde\" discussion lasted \"drei Jahre\".",
         ],
         examples: [
           { es: "Die neue Termin-App sollte das Prestigeprojekt des Bürgermeisters werden.", en: "The new appointment app was supposed to become the mayor's showcase project." },
@@ -442,7 +442,7 @@ export const DE_C2_U11: Lesson[] = [
     level: "DE-C2",
     number: 3,
     title: "Verstehensstrategien, Part 2 of 8",
-    summary: "Hear and read register: how particles, contractions, du and Sie, word choice and syntax reveal who is speaking, to whom, and with what attitude.",
+    summary: "Hear and read register: how particles, contractions, \"du\" and \"Sie\", word choice and syntax reveal who is speaking, to whom, and with what attitude.",
     duration: "18 min",
     sections: [
       {
@@ -909,7 +909,7 @@ export const DE_C2_U11: Lesson[] = [
             prompt: "Translate into German.",
             source: "He had hardly slept. He passed anyway.",
             answer: "Er hatte kaum geschlafen. Trotzdem hat er bestanden.",
-            altAnswers: ["Er hatte kaum geschlafen. Er bestand trotzdem.", "Er hatte kaum geschlafen. Trotzdem bestand er.", "Er hatte kaum geschlafen. Er hat trotzdem bestanden.", "Er hatte kaum geschlafen. Trotzdem hat er bestanden.", "Er hatte kaum geschlafen, trotzdem bestand er die Prüfung.", "Er hatte kaum geschlafen. Er bestand die Prüfung trotzdem."],
+            altAnswers: ["Er hatte kaum geschlafen. Er bestand trotzdem.", "Er hatte kaum geschlafen. Trotzdem bestand er.", "Er hatte kaum geschlafen. Er hat trotzdem bestanden.", "Er hatte kaum geschlafen, trotzdem bestand er die Prüfung.", "Er hatte kaum geschlafen. Er bestand die Prüfung trotzdem."],
             explanation: "\"Trotzdem\" marks the unexpected result (concession). \"Hatte geschlafen\" (Plusquamperfekt) sets the sleeping before the passing.",
           },
         ],
@@ -1039,7 +1039,7 @@ export const DE_C2_U11: Lesson[] = [
         prompt: "Translate into German.",
         source: "It was pouring with rain; the concert went ahead nonetheless.",
         answer: "Es regnete in Strömen; das Konzert fand dennoch statt.",
-        altAnswers: ["Es regnete in Strömen, das Konzert fand trotzdem statt.", "Es regnete in Strömen; dennoch fand das Konzert statt.", "Es regnete in Strömen, trotzdem fand das Konzert statt.", "Es hat in Strömen geregnet; das Konzert hat trotzdem stattgefunden.", "Es regnete in Strömen; das Konzert fand trotzdem statt."],
+        altAnswers: ["Es regnete in Strömen, das Konzert fand trotzdem statt.", "Es regnete in Strömen; dennoch fand das Konzert statt.", "Es regnete in Strömen, trotzdem fand das Konzert statt.", "Es hat in Strömen geregnet; das Konzert hat trotzdem stattgefunden."],
         explanation: "\"Dennoch\" or \"trotzdem\" make the concession explicit; \"stattfinden\" is separable, so \"fand ... statt\".",
       },
       {
@@ -1392,7 +1392,7 @@ export const DE_C2_U11: Lesson[] = [
       {
         heading: "Regional colour: north, south, Switzerland and Austria",
         body: [
-          "Most Germans speak standard German with a regional colour, and Mastery-level listening includes it. In the north, final -g is often pronounced like ch (\"Tach\" for \"Tag\", \"König\" ending like \"-ich\") and Low German shines through in Hamburg and on the coast: \"Moin\", \"nee\", \"ne?\" at the end of sentences. Berlin says \"icke\" or \"ick\" for \"ich\", \"det\" for \"das\" and \"wat\" for \"was\".",
+          "Most Germans speak standard German with a regional colour, and Mastery-level listening includes it. In the north, final -g is often pronounced like ch (\"Tach\" for \"Tag\", \"Zuch\" for \"Zug\"; final \"-ig\" as in \"König\" ends in ch everywhere in standard German, so that alone is not regional) and Low German shines through in Hamburg and on the coast: \"Moin\", \"nee\", \"ne?\" at the end of sentences. Berlin says \"icke\" or \"ick\" for \"ich\", \"det\" for \"das\" and \"wat\" for \"was\".",
           "In the south, \"ich\" can shrink to \"i\" in Bavarian and Austrian speech, \"nicht\" becomes \"net\" or \"ned\", and the -e endings drop (\"Ich hab\", \"heut\"). Swabians add \"-le\" diminutives and say \"gell?\" for isn't it. The r is often rolled at the tip of the tongue in the south and in Switzerland.",
           "Swiss Standard German (\"Schweizer Hochdeutsch\") is slower, with a strong ch even after e and i, stress on the first syllable of loanwords (\"BÜro\", \"MErci\"), and words like \"parkieren\" and \"das Velo\". Austrian German has \"Jänner\" (January), \"heuer\" (this year), and the perfect with \"sein\" for \"sitzen\" and \"liegen\" (as in southern Germany). You don't need to produce these; you need to not be thrown by them.",
         ],

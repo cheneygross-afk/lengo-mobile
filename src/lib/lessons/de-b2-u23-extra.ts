@@ -347,7 +347,7 @@ export const DE_B2_U23_EXTRA: Lesson[] = [
       {
         heading: "Recap: switching register",
         body: [
-          "Informal German uses du / ihr, short main clauses, Perfekt, colloquial words (\"kriegen\", \"klappen\", \"echt\") and \"weil\" or \"wegen dem\". Formal German uses Sie, nominal style (\"die Zusendung der Unterlagen\"), Funktionsverbgefüge (\"zur Verfügung stellen\"), genitive prepositions (\"aufgrund\", \"bezüglich\") and the passive.",
+          "Informal German uses du / ihr, short main clauses, Perfekt, colloquial words (\"kriegen\", \"klappen\", \"echt\") and \"wegen\" + dative (\"wegen dem Wetter\"). Formal German uses Sie, nominal style (\"die Zusendung der Unterlagen\"), Funktionsverbgefüge (\"zur Verfügung stellen\"), genitive prepositions (\"aufgrund\", \"bezüglich\") and the passive.",
           "Typical swaps: \"kriegen\" → \"erhalten\", \"Bescheid sagen\" → \"mitteilen\", \"klappt nicht\" → \"ist nicht möglich\", \"wegen dem Wetter\" → \"aufgrund des Wetters\", \"Kannst du ...?\" → \"Könnten Sie ...?\" or \"Ich bitte Sie, ...\".",
         ],
         examples: [
@@ -427,7 +427,7 @@ export const DE_B2_U23_EXTRA: Lesson[] = [
         prompt: "Translate into German, informally (du).",
         source: "Did you get my email? I haven't heard anything from you yet.",
         answer: "Hast du meine Mail gekriegt? Ich hab noch nichts von dir gehört.",
-        altAnswers: ["Hast du meine Mail bekommen? Ich habe noch nichts von dir gehört.", "Hast du meine E-Mail gekriegt? Ich habe noch nichts von dir gehört.", "Hast du meine Mail gekriegt? Ich habe noch nichts von dir gehört.", "Hast du meine Mail bekommen? Ich hab noch nichts von dir gehört."],
+        altAnswers: ["Hast du meine Mail bekommen? Ich habe noch nichts von dir gehört.", "Hast du meine E-Mail gekriegt? Ich habe noch nichts von dir gehört.", "Hast du meine Mail gekriegt? Ich habe noch nichts von dir gehört.", "Hast du meine Mail bekommen? Ich hab noch nichts von dir gehört.", "Hast du meine E-Mail bekommen? Ich habe noch nichts von dir gehört."],
         explanation: "Informal: \"kriegen\", \"Mail\", \"hab\" without the -e.",
       },
       {

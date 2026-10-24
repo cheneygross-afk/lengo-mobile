@@ -41,7 +41,7 @@ export const GOETHE_A2_SCHREIBEN: ExamPaper = {
       instructions:
         "Ihr Deutschlehrer, Herr Albrecht, hat Sie zu seinem Abschiedsfest eingeladen. Er geht in Rente. Schreiben Sie Herrn Albrecht eine E-Mail. Bedanken Sie sich für die Einladung. Sagen Sie, dass Sie nicht kommen können, und erklären Sie, warum. Fragen Sie, ob Sie ihn später einmal besuchen können. Schreiben Sie 30 bis 40 Wörter. Schreiben Sie zu allen drei Punkten.",
       instructionsEn:
-        "Your German teacher, Herr Albrecht, has invited you to his farewell party: he's retiring. Email him: thank him for the invitation, say you can't come and explain why, and ask if you can visit him some time later. 30-40 words, covering all three points.",
+        "Your German teacher, Mr Albrecht, has invited you to his farewell party: he's retiring. Email him: thank him for the invitation, say you can't come and explain why, and ask if you can visit him some time later. 30-40 words, covering all three points.",
       write: [
         {
           prompt:

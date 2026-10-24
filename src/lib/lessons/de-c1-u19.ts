@@ -45,7 +45,7 @@ export const DE_C1_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Emma wrote: \"*Ich interessiere mich schon lange an der deutschen Kultur.\" Write the corrected German for: I've been interested in German culture for a long time.",
+            prompt: "Emma wrote: \"*Ich interessiere mich schon lange an der deutschen Kultur.*\" Write the corrected German for: I've been interested in German culture for a long time.",
             source: "I've been interested in German culture for a long time.",
             answer: "Ich interessiere mich schon lange für die deutsche Kultur.",
             altAnswers: ["Ich interessiere mich seit langem für die deutsche Kultur.", "Ich interessiere mich seit Langem für die deutsche Kultur.", "Schon lange interessiere ich mich für die deutsche Kultur."],
@@ -53,7 +53,7 @@ export const DE_C1_U19: Lesson[] = [
           },
           {
             type: "fill-blank",
-            prompt: "Emma wrote: \"*ich bin sehr stolz für unser erstes Projekt.\" Write the German for the bold words.",
+            prompt: "Emma wrote: \"*ich bin sehr stolz für unser erstes Projekt.*\" Write the German for the bold words.",
             en: "I'm very [proud of] our first project.",
             sentence: "Ich bin sehr ___ unser erstes Projekt.",
             answer: "stolz auf",
@@ -62,7 +62,7 @@ export const DE_C1_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Emma wrote: \"*Trotz dem schlechten Wetter bin ich nach Leipzig gezogen.\" Write the correct written German for: Despite the bad weather I moved to Leipzig.",
+            prompt: "Emma wrote: \"*Trotz dem schlechten Wetter bin ich nach Leipzig gezogen.*\" Write the correct written German for: Despite the bad weather I moved to Leipzig.",
             source: "Despite the bad weather I moved to Leipzig.",
             answer: "Trotz des schlechten Wetters bin ich nach Leipzig gezogen.",
             altAnswers: ["Trotz des schlechten Wetters zog ich nach Leipzig.", "Ich bin trotz des schlechten Wetters nach Leipzig gezogen."],
@@ -88,7 +88,7 @@ export const DE_C1_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Emma wrote: \"*Hätte ich das früher gewusst, ich hätte mich anders vorbereitet.\" Write the corrected German for: Had I known that earlier, I would have prepared differently.",
+            prompt: "Emma wrote: \"*Hätte ich das früher gewusst, ich hätte mich anders vorbereitet.*\" Write the corrected German for: Had I known that earlier, I would have prepared differently.",
             source: "Had I known that earlier, I would have prepared differently.",
             answer: "Hätte ich das früher gewusst, hätte ich mich anders vorbereitet.",
             altAnswers: ["Wenn ich das früher gewusst hätte, hätte ich mich anders vorbereitet.", "Hätte ich das früher gewusst, so hätte ich mich anders vorbereitet.", "Hätte ich das eher gewusst, hätte ich mich anders vorbereitet."],
@@ -97,7 +97,7 @@ export const DE_C1_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Emma wrote: \"*Manchmal tut er so, als ob er alles allein machen kann.\" Write the corrected German for: Sometimes he acts as if he could do everything on his own.",
+            prompt: "Emma wrote: \"*Manchmal tut er so, als ob er alles allein machen kann.*\" Write the corrected German for: Sometimes he acts as if he could do everything on his own.",
             source: "Sometimes he acts as if he could do everything on his own.",
             answer: "Manchmal tut er so, als ob er alles allein machen könnte.",
             altAnswers: ["Manchmal tut er so, als könnte er alles allein machen.", "Manchmal tut er so, als ob er alles alleine machen könnte.", "Manchmal tut er so, als könnte er alles alleine machen.", "Manchmal tut er so, als wenn er alles allein machen könnte."],
@@ -115,7 +115,7 @@ export const DE_C1_U19: Lesson[] = [
         examples: [
           { es: "Die neuen Kollegen haben mir ein interessantes Buch über Leipzig geschenkt.", en: "My new colleagues gave me an interesting book about Leipzig." },
           { es: "Das hat mich mit großer Freude erfüllt.", en: "That filled me with great joy." },
-          { es: "Die Teamevents sind wirklich gelungen.", en: "The team events are really successful." },
+          { es: "Die Teamevents sind wirklich gelungen.", en: "The team events are really good." },
           { es: "Man erhält viel Unterstützung.", en: "You get a lot of support." },
           { es: "Bei schönem Wetter essen wir im Hof.", en: "When the weather is nice, we eat in the courtyard." },
         ],
@@ -123,7 +123,7 @@ export const DE_C1_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Emma wrote: \"*Die neue Kollegen haben mir ein interessanter Buch geschenkt.\" Write the corrected German for: My new colleagues gave me an interesting book.",
+            prompt: "Emma wrote: \"*Die neue Kollegen haben mir ein interessanter Buch geschenkt.*\" Write the corrected German for: My new colleagues gave me an interesting book.",
             source: "My new colleagues gave me an interesting book.",
             answer: "Meine neuen Kollegen haben mir ein interessantes Buch geschenkt.",
             altAnswers: ["Die neuen Kollegen haben mir ein interessantes Buch geschenkt.", "Meine neuen Kollegen schenkten mir ein interessantes Buch.", "Meine neuen Kolleginnen und Kollegen haben mir ein interessantes Buch geschenkt.", "Meine neuen Kolleginnen haben mir ein interessantes Buch geschenkt."],
@@ -143,7 +143,7 @@ export const DE_C1_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Emma wrote: \"*Mit meinen neuen Kollegin habe ich gut zusammengearbeitet.\" Write the corrected German for: I worked well with my new colleague.",
+        prompt: "Emma wrote: \"*Mit meinen neuen Kollegin habe ich gut zusammengearbeitet.*\" Write the corrected German for: I worked well with my new colleague.",
         source: "I worked well with my new colleague.",
         answer: "Mit meiner neuen Kollegin habe ich gut zusammengearbeitet.",
         altAnswers: ["Ich habe mit meiner neuen Kollegin gut zusammengearbeitet.", "Mit meinem neuen Kollegen habe ich gut zusammengearbeitet.", "Ich habe mit meinem neuen Kollegen gut zusammengearbeitet.", "Mit meiner neuen Kollegin arbeitete ich gut zusammen."],
@@ -152,7 +152,7 @@ export const DE_C1_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Emma wrote: \"*Mein Chef sagte, er ist sehr zufrieden mit mir.\" Write the correct written German for: My boss said he was very satisfied with me.",
+        prompt: "Emma wrote: \"*Mein Chef sagte, er ist sehr zufrieden mit mir.*\" Write the correct written German for: My boss said he was very satisfied with me.",
         source: "My boss said he was very satisfied with me.",
         answer: "Mein Chef sagte, er sei sehr zufrieden mit mir.",
         altAnswers: ["Mein Chef sagte, dass er sehr zufrieden mit mir sei.", "Mein Chef sagte, er sei mit mir sehr zufrieden.", "Mein Chef hat gesagt, er sei sehr zufrieden mit mir.", "Meine Chefin sagte, sie sei sehr zufrieden mit mir."],
@@ -160,7 +160,7 @@ export const DE_C1_U19: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Emma wrote: \"*Deshalb ich habe mehr Verantwortung bekommen.\" Write the German for the bold words.",
+        prompt: "Emma wrote: \"*Deshalb ich habe mehr Verantwortung bekommen.*\" Write the German for the bold words.",
         en: "[That's why I was] given more responsibility.",
         sentence: "___ mehr Verantwortung bekommen.",
         answer: "Deshalb habe ich",
@@ -186,7 +186,7 @@ export const DE_C1_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Emma wrote: \"*Das hat mich mit großem Freude erfüllt.\" Write the corrected German for: That filled me with great joy.",
+        prompt: "Emma wrote: \"*Das hat mich mit großem Freude erfüllt.*\" Write the corrected German for: That filled me with great joy.",
         source: "That filled me with great joy.",
         answer: "Das hat mich mit großer Freude erfüllt.",
         altAnswers: ["Das erfüllte mich mit großer Freude.", "Dies hat mich mit großer Freude erfüllt."],
@@ -306,7 +306,7 @@ export const DE_C1_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Change \"du\" to \"Sie\": \"Schau dir das mal an!\" Translate into German (polite): Please have a look at this.",
+            prompt: "Change \"du\" to \"Sie\": \"Schau dir das mal an!\" Translate into German (formal): Please have a look at this.",
             source: "Please have a look at this.",
             answer: "Schauen Sie sich das bitte an.",
             altAnswers: ["Bitte schauen Sie sich das an.", "Sehen Sie sich das bitte an.", "Bitte sehen Sie sich das an."],
@@ -405,7 +405,7 @@ export const DE_C1_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Change \"du\" to \"Sie\": \"Kannst du mir deine Telefonnummer geben?\" Translate into German (polite): Could you give me your phone number?",
+        prompt: "Change \"du\" to \"Sie\": \"Kannst du mir deine Telefonnummer geben?\" Translate into German (formal): Could you give me your phone number?",
         source: "Could you give me your phone number?",
         answer: "Könnten Sie mir Ihre Telefonnummer geben?",
         altAnswers: ["Können Sie mir Ihre Telefonnummer geben?", "Könnten Sie mir bitte Ihre Telefonnummer geben?", "Können Sie mir bitte Ihre Telefonnummer geben?"],
@@ -456,7 +456,7 @@ export const DE_C1_U19: Lesson[] = [
         body: [
           "English -ing has no single German equivalent. While doing something: \"beim\" + nominalised infinitive (\"Beim Kochen höre ich Radio\") or \"während\" + clause. Without doing: \"ohne ... zu\" (\"Er ging, ohne sich zu verabschieden\"). Instead of doing: \"statt ... zu\". After verbs of perception, a bare infinitive: \"Ich sah ihn kommen\" (I saw him coming). Stop / start doing: \"aufhören / anfangen, ... zu\".",
           "'There is' is not always \"es gibt\". \"Es gibt\" states general existence: \"Es gibt in Leipzig viele Parks.\" For something in a specific place, German uses a position verb: \"Auf dem Tisch liegt ein Brief\" (there's a letter on the table), \"Im Kühlschrank steht Milch\", \"An der Wand hängt ein Bild\". For people: \"Da ist jemand an der Tür.\"",
-          "\"*Es gibt einen Brief auf dem Tisch\" is understood but sounds foreign. German prefers the specific verb: \"liegen\" for flat things, \"stehen\" for upright things and bottles, \"hängen\" for hanging things.",
+          "\"*Es gibt einen Brief auf dem Tisch*\" is understood but sounds foreign. German prefers the specific verb: \"liegen\" for flat things, \"stehen\" for upright things and bottles, \"hängen\" for hanging things.",
         ],
         examples: [
           { es: "Beim Kochen höre ich gern Radio.", en: "I like listening to the radio while cooking." },
@@ -896,7 +896,7 @@ export const DE_C1_U19: Lesson[] = [
         body: [
           "Every German connector belongs to one of three groups, and the group decides the word order. Position 0 (no effect on order): \"und\", \"aber\", \"oder\", \"denn\", \"sondern\": \"..., denn die Mieten sind gestiegen.\" Vorfeld adverbs (verb straight after): \"deshalb\", \"trotzdem\", \"zudem\", \"allerdings\", \"folglich\": \"Deshalb ziehen viele aufs Land.\" Subordinating conjunctions (verb at the end): \"weil\", \"da\", \"obwohl\", \"zumal\", \"sodass\": \"..., weil die Mieten gestiegen sind.\"",
           "Some adverbs can also sit in the middle field: \"Viele ziehen deshalb aufs Land.\" \"Das ist allerdings nicht alles.\" And \"nämlich\" can only stand there: \"Viele ziehen aufs Land. Die Mieten sind nämlich gestiegen.\"",
-          "The most frequent Advanced error is mixing groups: \"denn die Mieten sind gestiegen\" is right, \"*weil die Mieten sind gestiegen\" is spoken German only, \"*deshalb viele ziehen\" is always wrong.",
+          "The most frequent Advanced error is mixing groups: \"denn die Mieten sind gestiegen\" is right, \"*weil die Mieten sind gestiegen*\" is spoken German only, \"*deshalb viele ziehen*\" is always wrong.",
         ],
         examples: [
           { es: "Viele Familien ziehen aufs Land, denn die Mieten sind gestiegen.", en: "Many families are moving to the countryside, because rents have gone up." },
@@ -989,6 +989,7 @@ export const DE_C1_U19: Lesson[] = [
             prompt: "Put the words in order to say: All in all, therefore, there is a lot to be said for the project.",
             words: ["Alles in allem", "spricht", "somit", "vieles", "für das Projekt."],
             translation: "All in all, therefore, there is a lot to be said for the project.",
+            altOrders: [["somit", "spricht", "Alles in allem", "vieles", "für das Projekt."]],
             explanation: "\"Alles in allem\" in the Vorfeld, then the verb; \"somit\" in the middle field.",
           },
           {
@@ -1409,7 +1410,7 @@ export const DE_C1_U19: Lesson[] = [
             source: "Call me tomorrow and bring your documents.",
             answer: "Rufen Sie mich morgen an und bringen Sie Ihre Unterlagen mit!",
             altAnswers: ["Rufen Sie mich morgen an und bringen Sie Ihre Unterlagen mit.", "Rufen Sie mich bitte morgen an und bringen Sie Ihre Unterlagen mit!"],
-            explanation: "Each \"Sie\" imperative repeats \"Sie\"; \"dein\" becomes \"Ihre\"; separable prefixes stay at the end.",
+            explanation: "Each \"Sie\" imperative repeats \"Sie\"; \"deine\" becomes \"Ihre\"; separable prefixes stay at the end.",
           },
           {
             type: "multiple-choice",
@@ -1496,6 +1497,7 @@ export const DE_C1_U19: Lesson[] = [
         prompt: "Put the words in order to say: Please read the rules that must be followed.",
         words: ["Bitte", "lesen", "Sie", "die", "zu beachtenden", "Regeln."],
         translation: "Please read the rules that must be followed.",
+        altOrders: [["lesen", "Sie", "Bitte", "die", "zu beachtenden", "Regeln."]],
         explanation: "Gerundiv \"zu beachtend\" + ending: the rules to be observed.",
       },
       {
@@ -2011,7 +2013,6 @@ export const DE_C1_U19: Lesson[] = [
             prompt: "Translate into German, using \"wollen\".",
             source: "The night watchman claims he didn't hear anything.",
             answer: "Der Nachtwächter will nichts gehört haben.",
-            altAnswers: ["Der Nachtwächter behauptet, nichts gehört zu haben.", "Der Nachtwächter behauptet, er habe nichts gehört."],
             explanation: "Claim \"wollen\" + perfect infinitive: the speaker doubts the claim.",
           },
           {
@@ -2242,7 +2243,7 @@ export const DE_C1_U19: Lesson[] = [
         body: [
           "It's 1 October and nothing has happened. The follow-up email is shorter and firmer: \"Betreff: Meine Beschwerde vom 15. September 2026, Buchungsnummer 26-88417\". \"Sehr geehrte Damen und Herren, ich komme auf mein Schreiben vom 15. September zurück, in dem ich Sie um Erstattung des doppelt abgebuchten Betrags bis zum 30. September gebeten hatte.\"",
           "\"Leider ist bis heute weder eine Erstattung noch eine Antwort bei mir eingegangen.\" (\"weder ... noch\" = neither ... nor). \"Ich setze Ihnen hiermit eine letzte Frist bis zum 10. Oktober 2026. Nach Ablauf dieser Frist werde ich ohne weitere Ankündigung meine Kreditkartengesellschaft einschalten.\"",
-          "Note the shift: the first letter requests (\"Ich fordere Sie auf\"), the follow-up sets a final deadline (\"eine letzte Frist\") and announces a consequence \"ohne weitere Ankündigung\" (without further notice). The tone stays polite: no exclamation marks, no emotion.",
+          "Note the shift: the first letter makes a demand (\"Ich fordere Sie auf\"), the follow-up sets a final deadline (\"eine letzte Frist\") and announces a consequence \"ohne weitere Ankündigung\" (without further notice). The tone stays polite: no exclamation marks, no emotion.",
         ],
         examples: [
           { es: "Ich komme auf mein Schreiben vom 15. September zurück.", en: "I am following up on my letter of 15 September." },
@@ -2385,7 +2386,7 @@ export const DE_C1_U19: Lesson[] = [
           { es: "Sie hat letztes Jahr die Matura gemacht.", en: "She took her school-leaving exams last year. (Austrian, Swiss)" },
           { es: "Ich fahre mit dem Velo zur Arbeit.", en: "I cycle to work. (Swiss)" },
           { es: "Hier darf man nicht parkieren.", en: "You can't park here. (Swiss)" },
-          { es: "Grüezi, Frau Meier!", en: "Hello, Mrs Meier! (Swiss)" },
+          { es: "Grüezi, Frau Meier!", en: "Hello, Ms Meier! (Swiss)" },
         ],
         checkpoint: [
           {
@@ -2415,7 +2416,7 @@ export const DE_C1_U19: Lesson[] = [
         heading: "Regional, colloquial and youth German",
         body: [
           "Within Germany: \"Moin\" (hello, in the north, all day), \"Servus\" (Bavaria), bread rolls are \"Brötchen\" (north), \"Semmel\" (Bavaria, Austria), \"Schrippe\" (Berlin), \"Weckle\" (Swabia). \"Samstag\" vs \"Sonnabend\" (north and east).",
-          "Colloquial German (Unit 16): \"kriegen\" (bekommen), \"pennen\" (schlafen), \"die Kohle\" (Geld), \"Bock haben auf\" (Lust haben auf), \"blöd\", \"Quatsch\", \"auf dem Schlauch stehen\" (to not get it). Youth language: \"krass\", \"cringe\", \"lost\", \"digga\", \"Ehrenmann\". Recognise them; use them only with friends who use them too.",
+          "Colloquial German (Unit 16): \"kriegen\" (bekommen), \"pennen\" (schlafen), \"die Kohle\" (Geld), \"Bock haben auf\" (Lust haben auf), \"blöd\", \"Quatsch\", \"auf dem Schlauch stehen\" (to not get it). Youth language: \"krass\", \"cringe\", \"lost\", \"Digga\", \"Ehrenmann\". Recognise them; use them only with friends who use them too.",
           "Turning colloquial into neutral German is a common exam and work task: \"Hab null Bock auf den Termin\" → \"Ich habe leider keine Lust auf den Termin\" (to a friend) → \"Den Termin würde ich gern verschieben\" (to a colleague).",
         ],
         examples: [
@@ -2553,6 +2554,7 @@ export const DE_C1_U19: Lesson[] = [
         prompt: "Put the words in order to say: She took her school-leaving exams last year. (Austria)",
         words: ["Sie", "hat", "letztes Jahr", "die Matura", "gemacht."],
         translation: "She took her school-leaving exams last year.",
+        altOrders: [["letztes Jahr", "hat", "Sie", "die Matura", "gemacht."]],
         explanation: "\"Die Matura\" is the Austrian and Swiss \"Abitur\".",
       },
       {

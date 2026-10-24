@@ -8,14 +8,14 @@ export const DE_A2_U18: Lesson[] = [
     level: "DE-A2",
     number: 1,
     title: "Survival: Clothes Shopping and Sizes",
-    summary: "Find clothes in your size, try them on, say what fits and what suits you, and buy them: passen and stehen with the dative.",
+    summary: "Find clothes in your size, try them on, say what fits and what suits you with \"passen\" and \"stehen\" + dative, and buy them.",
     duration: "13 min",
     sections: [
       {
         heading: "Finding what you want",
         body: [
           "A shop assistant will often greet you with \"Kann ich Ihnen helfen?\" (Can I help you?; \"helfen\" takes the dative \"Ihnen\"). If you're only browsing: \"Danke, ich schaue nur.\" If you want something: \"Ich suche eine Jacke\" or \"Ich suche einen Pullover\", with the accusative after \"suchen\".",
-          "Sizes are \"die Größe\": \"Haben Sie die in Größe M?\" (Do you have it in size M?). \"Die\" here is a pronoun for \"die Jacke\": German points back with der/die/das, which feel more natural in speech than er/sie/es. For shoes, size is \"die Nummer\" or \"die Größe\": \"Ich habe Größe 42.\"",
+          "Sizes are \"die Größe\": \"Haben Sie die in Größe M?\" (Do you have it in size M?). \"Die\" here is a pronoun for \"die Jacke\": in speech German often points back with \"der\"/\"die\"/\"das\" rather than \"er\"/\"sie\"/\"es\"; both are correct. For shoes, size is \"die Nummer\" or \"die Größe\": \"Ich habe Größe 42.\"",
           "Clothes vocabulary with genders: \"der Pullover\", \"der Mantel\", \"der Rock\", \"die Jacke\", \"die Hose\" (trousers, singular in German!), \"die Bluse\", \"das Hemd\", \"das Kleid\", \"das T-Shirt\", \"die Schuhe\" (plural).",
         ],
         examples: [
@@ -51,7 +51,7 @@ export const DE_A2_U18: Lesson[] = [
         heading: "Trying on: passen and stehen",
         body: [
           "\"Kann ich das anprobieren?\" (Can I try it on?) is the key question; \"anprobieren\" is separable, but with a modal it stays together at the end. The changing room is \"die Umkleidekabine\" or simply \"die Kabine\".",
-          "Then two different verbs, both with the dative. \"Passen\" is about size: \"Die Hose passt mir nicht\" (the trousers don't fit me), \"Sie ist zu eng / zu weit / zu lang / zu kurz\". \"Stehen\" is about looks: \"Die Farbe steht dir gut\" (the colour suits you), \"Steht mir das?\" (Does it suit me?). English uses fit and suit; German uses passen and stehen, and the person is always dative: \"mir\", \"dir\", \"Ihnen\".",
+          "Then two different verbs, both with the dative. \"Passen\" is about size: \"Die Hose passt mir nicht\" (the trousers don't fit me), \"Sie ist zu eng / zu weit / zu lang / zu kurz\". \"Stehen\" is about looks: \"Die Farbe steht dir gut\" (the colour suits you), \"Steht mir das?\" (Does it suit me?). English uses fit and suit; German uses \"passen\" and \"stehen\", and the person is always dative: \"mir\", \"dir\", \"Ihnen\".",
           "If it doesn't fit: \"Haben Sie die eine Nummer größer / kleiner?\" (one size bigger/smaller), with the comparative from Unit 10.",
         ],
         examples: [
@@ -91,7 +91,7 @@ export const DE_A2_U18: Lesson[] = [
       {
         heading: "Deciding and paying",
         body: [
-          "To buy it: \"Ich nehme sie\" (I'll take it, about die Jacke), \"Ich nehme ihn\" (about der Pullover), \"Ich nehme es\" (about das Kleid). The pronoun follows the noun's gender, which surprises English speakers who say it for everything.",
+          "To buy it: \"Ich nehme sie\" (I'll take it, about \"die Jacke\"), \"Ich nehme ihn\" (about \"der Pullover\"), \"Ich nehme es\" (about \"das Kleid\"). The pronoun follows the noun's gender, which surprises English speakers who say it for everything.",
           "Not convinced? \"Ich überlege es mir noch\" (I'll think about it) is the polite way out. At the till: \"Kann ich das umtauschen?\" (Can I exchange it?) and \"Haben Sie eine Tüte?\" (Do you have a bag?; bags usually cost a little).",
         ],
         examples: [
@@ -114,7 +114,7 @@ export const DE_A2_U18: Lesson[] = [
             type: "speak",
             text: "Kann ich das anprobieren?",
             prompt: "Say it in German: Can I try it on?",
-            tip: "Stress the separable prefix: AN-pro-bie-ren.",
+            tip: "Stress the separable prefix of \"anprobieren\": AN-pro-bie-ren.",
             explanation: "With a modal, the separable verb stays in one piece at the end: \"anprobieren\".",
           },
         ],
@@ -167,7 +167,7 @@ export const DE_A2_U18: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You've decided to buy a dress (das Kleid). What do you say?",
+        question: "You've decided to buy a dress (\"das Kleid\"). What do you say?",
         options: ["Ich nehme es.", "Ich nehme sie.", "Ich nehme ihn.", "Ich nehme ihm."],
         correctIndex: 0,
         explanation: "\"Das Kleid\" is neuter, so it is \"es\". \"Sie\" would point to a feminine noun, \"ihn\" to a masculine one.",
@@ -329,7 +329,7 @@ export const DE_A2_U18: Lesson[] = [
             type: "speak",
             text: "Haben Sie etwas gegen Halsschmerzen?",
             prompt: "Say it in German: Do you have something for a sore throat?",
-            tip: "Schmerzen: shm + the open e of bed + rts.",
+            tip: "\"Schmerzen\": shm + the open e of bed + rts.",
             explanation: "\"Gegen\" + the symptom; pains are plural compounds in -schmerzen.",
           },
         ],
@@ -679,7 +679,7 @@ export const DE_A2_U18: Lesson[] = [
         heading: "Questions about the stay",
         body: [
           "Breakfast is a big deal in German hotels. Ask \"Wann gibt es Frühstück?\" (When is breakfast?) and \"Wo ist der Frühstücksraum?\" The answer: \"Von sieben bis zehn Uhr im Erdgeschoss.\"",
-          "Other questions: \"Wie ist das WLAN-Passwort?\" (WLAN, said ve-lahn, is Wi-Fi), \"Bis wann muss ich auschecken?\" (By when do I have to check out?), \"Kann ich mein Gepäck hier lassen?\" (Can I leave my luggage here?).",
+          "Other questions: \"Wie ist das WLAN-Passwort?\" (\"WLAN\", said VAY-lahn, is Wi-Fi), \"Bis wann muss ich auschecken?\" (By when do I have to check out?), \"Kann ich mein Gepäck hier lassen?\" (Can I leave my luggage here?).",
         ],
         examples: [
           { es: "Wann gibt es Frühstück?", en: "When is breakfast?" },
@@ -745,7 +745,7 @@ export const DE_A2_U18: Lesson[] = [
             type: "speak",
             text: "Das WLAN geht nicht.",
             prompt: "Say it in German: The Wi-Fi isn't working.",
-            tip: "WLAN is said ve-lahn, with a German w (like English v).",
+            tip: "\"WLAN\" is said VAY-lahn, with a German w (like English v).",
             explanation: "\"Gehen\" is the everyday verb for something working or not.",
           },
         ],
@@ -785,7 +785,7 @@ export const DE_A2_U18: Lesson[] = [
         sentence: "Ihr Zimmer ist ___.",
         answer: "im zweiten Stock",
         altAnswers: ["in der zweiten Etage"],
-        explanation: "\"Im zweiten Stock\": \"im\" = in dem, and the ordinal takes -en after \"dem\".",
+        explanation: "\"Im zweiten Stock\": \"im\" = \"in dem\", and the ordinal takes -en after \"dem\".",
       },
       {
         type: "multiple-choice",
@@ -982,7 +982,7 @@ export const DE_A2_U18: Lesson[] = [
         source: "Which platform does the train leave from?",
         answer: "Von welchem Gleis fährt der Zug ab?",
         altAnswers: ["Von welchem Gleis fährt der Zug?", "Auf welchem Gleis fährt der Zug ab?", "Wo fährt der Zug ab?"],
-        explanation: "\"Von\" takes the dative: \"von welchem Gleis\" (das Gleis). \"Ab\" goes to the end.",
+        explanation: "\"Von\" takes the dative: \"von welchem Gleis\" (\"das Gleis\"). \"Ab\" goes to the end.",
       },
       {
         type: "translate",
@@ -999,7 +999,7 @@ export const DE_A2_U18: Lesson[] = [
         sentence: "Der Bus hat ___.",
         answer: "fünf Minuten Verspätung",
         altAnswers: ["5 Minuten Verspätung"],
-        explanation: "Trains have a delay in German: \"Verspätung haben\", with the length before it and no article.",
+        explanation: "Buses and trains have a delay in German: \"Verspätung haben\", with the length before it and no article.",
       },
       {
         type: "translate",
@@ -1021,7 +1021,7 @@ export const DE_A2_U18: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Get off at the next stop. (polite)",
+        source: "Get off at the next stop. (formal)",
         answer: "Steigen Sie an der nächsten Haltestelle aus.",
         altAnswers: ["Steigen Sie bitte an der nächsten Haltestelle aus."],
         explanation: "Sie-imperative of \"aussteigen\": the prefix \"aus\" goes last; \"an der nächsten\" is dative (where).",
@@ -1050,7 +1050,7 @@ export const DE_A2_U18: Lesson[] = [
         type: "speak",
         text: "Gilt das Deutschlandticket auch in diesem Zug?",
         prompt: "Say it in German: Is the Deutschlandticket valid on this train too?",
-        explanation: "\"Gelten\" = to be valid (er gilt); \"in diesem Zug\" is dative.",
+        explanation: "\"Gelten\" = to be valid (\"er gilt\"); \"in diesem Zug\" is dative.",
       },
     ],
   },
@@ -1067,7 +1067,7 @@ export const DE_A2_U18: Lesson[] = [
         body: [
           "Anyone who moves into a flat in Germany, Germans included, must register the new address within two weeks: \"die Anmeldung\". You do it at \"das Bürgeramt\" (in some cities \"das Bürgerbüro\" or \"das Einwohnermeldeamt\"), usually after booking an appointment online: \"einen Termin buchen\".",
           "You'll need \"der Personalausweis\" (German ID card) or \"der Reisepass\" (passport), the filled-in form (\"das Formular ausfüllen\", separable) and \"die Wohnungsgeberbestätigung\": a signed letter from your landlord confirming you've moved in. Afterwards you get \"die Meldebescheinigung\", the certificate you'll need for a bank account, a tax number and much more.",
-          "Long compound nouns like \"Wohnungsgeberbestätigung\" look scary, but read them from the end: Bestätigung (confirmation) from the Wohnungsgeber (the person who gives the flat). The last part decides the gender: \"die\".",
+          "Long compound nouns like \"Wohnungsgeberbestätigung\" look scary, but read them from the end: \"Bestätigung\" (confirmation) from the \"Wohnungsgeber\" (the person who gives the flat). The last part decides the gender: \"die\".",
         ],
         examples: [
           { es: "Ich muss mich in Leipzig anmelden.", en: "I have to register in Leipzig." },
@@ -1099,7 +1099,7 @@ export const DE_A2_U18: Lesson[] = [
       {
         heading: "The official questions",
         body: [
-          "Officials ask short noun questions, often just a word with rising intonation: \"Familienstand?\" (marital status: ledig, verheiratet, geschieden, verwitwet), \"Geburtsort?\" (place of birth), \"Geburtsdatum?\", \"Staatsangehörigkeit?\" (nationality), \"Religion?\" (this matters for church tax, \"die Kirchensteuer\").",
+          "Officials ask short noun questions, often just a word with rising intonation: \"Familienstand?\" (marital status: \"ledig\", \"verheiratet\", \"geschieden\", \"verwitwet\"), \"Geburtsort?\" (place of birth), \"Geburtsdatum?\", \"Staatsangehörigkeit?\" (nationality), \"Religion?\" (this matters for church tax, \"die Kirchensteuer\").",
           "Answer just as briefly: \"Ledig.\" \"In Manchester.\" \"Am 4. Juli 1995.\" For a date of birth say \"am vierten Juli\" and the year without \"in\": \"neunzehnhundertfünfundneunzig\".",
           "If they say \"Ihre Unterschrift, bitte\" or \"Unterschreiben Sie bitte hier\", they want your signature.",
         ],
@@ -1227,7 +1227,7 @@ export const DE_A2_U18: Lesson[] = [
         prompt: "Translate into German.",
         source: "Do you know if the office is open on Saturday?",
         answer: "Wissen Sie, ob das Amt am Samstag offen ist?",
-        altAnswers: ["Wissen Sie, ob das Amt am Samstag geöffnet ist?", "Wissen Sie, ob das Büro am Samstag offen ist?", "Wissen Sie, ob das Büro am Samstag geöffnet ist?", "Wissen Sie, ob das Bürgeramt am Samstag offen ist?", "Wissen Sie, ob das Bürgeramt am Samstag geöffnet ist?", "Weißt du, ob das Amt am Samstag offen ist?", "Weißt du, ob das Büro am Samstag offen ist?"],
+        altAnswers: ["Wissen Sie, ob das Amt am Samstag geöffnet ist?", "Wissen Sie, ob das Büro am Samstag offen ist?", "Wissen Sie, ob das Büro am Samstag geöffnet ist?", "Wissen Sie, ob das Bürgeramt am Samstag offen ist?", "Wissen Sie, ob das Bürgeramt am Samstag geöffnet ist?", "Weißt du, ob das Amt am Samstag offen ist?", "Weißt du, ob das Büro am Samstag offen ist?", "Wisst ihr, ob das Amt am Samstag offen ist?"],
         explanation: "A yes/no question becomes an ob-clause with the verb at the end.",
       },
       {
@@ -1302,7 +1302,7 @@ export const DE_A2_U18: Lesson[] = [
       {
         heading: "Missed deliveries: Benachrichtigung, Nachbar, Packstation",
         body: [
-          "If you're out when the delivery arrives, you'll find \"eine Benachrichtigungskarte\" (a notification card) in your letterbox. Often the parcel was left with a neighbour: \"Ihr Paket wurde beim Nachbarn abgegeben\" (left with the neighbour; just recognise \"wurde ... abgegeben\" for now). \"Beim\" = bei dem, and \"Nachbar\" adds -n in every case but the nominative: \"beim Nachbarn\".",
+          "If you're out when the delivery arrives, you'll find \"eine Benachrichtigungskarte\" (a notification card) in your letterbox. Often the parcel was left with a neighbour: \"Ihr Paket wurde beim Nachbarn abgegeben\" (left with the neighbour; just recognise \"wurde ... abgegeben\" for now). \"Beim\" = \"bei dem\", and \"Nachbar\" adds -n in every case but the nominative: \"beim Nachbarn\".",
           "Or it waits for you at the post office (\"in der Filiale\") or at \"die Packstation\", a yellow locker where you pick it up with a code. To ask a neighbour: \"Haben Sie ein Paket für mich angenommen?\" (Did you take in a parcel for me?).",
         ],
         examples: [
@@ -1350,7 +1350,7 @@ export const DE_A2_U18: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "Can you give me the parcel? (polite)",
+            source: "Can you give me the parcel? (formal)",
             answer: "Können Sie mir das Paket geben?",
             altAnswers: ["Könnten Sie mir das Paket geben?", "Können Sie mir bitte das Paket geben?", "Könnten Sie mir bitte das Paket geben?"],
             explanation: "Dative person \"mir\" before the accusative thing \"das Paket\"; \"geben\" at the end.",
@@ -1366,7 +1366,7 @@ export const DE_A2_U18: Lesson[] = [
             type: "speak",
             text: "Ich möchte einen Brief nach Kanada schicken.",
             prompt: "Say it in German: I'd like to send a letter to Canada.",
-            tip: "Brief has a long ie, like English brief but longer.",
+            tip: "\"Brief\" has a long ie, like English brief but longer.",
             explanation: "\"Der Brief\" is masculine: \"einen Brief\". \"Nach\" + country.",
           },
         ],
@@ -1415,7 +1415,7 @@ export const DE_A2_U18: Lesson[] = [
         source: "Unfortunately I wasn't at home.",
         answer: "Leider war ich nicht zu Hause.",
         altAnswers: ["Ich war leider nicht zu Hause.", "Leider war ich nicht daheim.", "Ich war leider nicht daheim.", "Leider war ich nicht zuhause."],
-        explanation: "\"War\" for the past of sein; \"zu Hause\" = at home (\"nach Hause\" is for going home).",
+        explanation: "\"War\" for the past of \"sein\"; \"zu Hause\" = at home (\"nach Hause\" is for going home).",
       },
       {
         type: "multiple-choice",
@@ -1428,7 +1428,7 @@ export const DE_A2_U18: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Can you show it to me? (polite, about the form)",
+        source: "Can you show it to me? (formal, about the form)",
         answer: "Können Sie es mir zeigen?",
         altAnswers: ["Könnten Sie es mir zeigen?", "Können Sie mir das zeigen?", "Könnten Sie mir das zeigen?", "Können Sie mir das Formular zeigen?"],
         explanation: "\"Das Formular\" is neuter, so it is \"es\"; two pronouns: accusative \"es\" before dative \"mir\".",
@@ -1438,7 +1438,7 @@ export const DE_A2_U18: Lesson[] = [
         prompt: "Put the words in order to say: Your parcel is with the neighbour.",
         words: ["Ihr", "Paket", "ist", "beim", "Nachbarn."],
         translation: "Your parcel is with the neighbour.",
-        explanation: "\"Beim\" = bei dem; \"Nachbar\" takes -n outside the nominative: \"beim Nachbarn\".",
+        explanation: "\"Beim\" = \"bei dem\"; \"Nachbar\" takes -n outside the nominative: \"beim Nachbarn\".",
       },
       {
         type: "listen-choose",
@@ -1489,7 +1489,7 @@ export const DE_A2_U18: Lesson[] = [
             prompt: "Translate into German.",
             source: "Are you free tomorrow? (to a friend)",
             answer: "Hast du morgen Zeit?",
-            explanation: "German asks do you have time: \"Hast du Zeit?\" rather than \"*Bist du frei?*\"",
+            explanation: "German usually asks do you have time: \"Hast du morgen Zeit?\" A word-for-word \"Bist du morgen frei?\" is heard, but sounds translated.",
           },
           {
             type: "fill-blank",
@@ -1669,14 +1669,14 @@ export const DE_A2_U18: Lesson[] = [
     level: "DE-A2",
     number: 9,
     title: "Survival: Small Talk",
-    summary: "Chat about the weather, the weekend and work, ask where people are from and how long they've been here, and choose du or Sie with new colleagues.",
+    summary: "Chat about the weather, the weekend and work, ask where people are from and how long they've been here, and choose \"du\" or \"Sie\" with new colleagues.",
     duration: "12 min",
     sections: [
       {
         heading: "Weather and the weekend",
         body: [
           "The weather is the safest opener in Germany too: \"Schönes Wetter heute, oder?\" (Nice weather today, isn't it?). The little \"oder?\" at the end works like isn't it? or right?, as does \"ne?\" in the north. Replies: \"Ja, endlich!\" (Yes, at last!), \"Ja, aber morgen soll es regnen\" (but it's supposed to rain tomorrow).",
-          "On Mondays everyone asks \"Wie war dein Wochenende?\" or \"Wie war Ihr Wochenende?\" Answer with a Perfekt sentence and a reaction: \"Gut, danke! Ich war in Hamburg und habe Freunde besucht. Und deins?\" (\"deins\" = yours, short for dein Wochenende).",
+          "On Mondays everyone asks \"Wie war dein Wochenende?\" or \"Wie war Ihr Wochenende?\" Answer with a Perfekt sentence and a reaction: \"Gut, danke! Ich war in Hamburg und habe Freunde besucht. Und deins?\" (\"deins\" = yours, short for \"dein Wochenende\").",
         ],
         examples: [
           { es: "Schönes Wetter heute, oder?", en: "Nice weather today, isn't it?" },
@@ -1701,7 +1701,7 @@ export const DE_A2_U18: Lesson[] = [
             prompt: "Translate into German.",
             source: "How was your weekend? (to a colleague you say du to)",
             answer: "Wie war dein Wochenende?",
-            explanation: "\"War\" for the past of sein; \"das Wochenende\" is neuter, so \"dein\".",
+            explanation: "\"War\" for the past of \"sein\"; \"das Wochenende\" is neuter, so \"dein\".",
           },
         ],
       },
@@ -1749,7 +1749,7 @@ export const DE_A2_U18: Lesson[] = [
       {
         heading: "Du or Sie, and when Germans skip small talk",
         body: [
-          "With new colleagues, many offices (especially start-ups and younger teams) use \"du\" from day one; banks, public offices and traditional firms stick to \"Sie\". When unsure, start with \"Sie\" and wait: the older or more senior person usually offers \"Wollen wir uns duzen?\" (Shall we say du?). Saying \"du\" to the wrong person is a bigger faux pas than staying with \"Sie\" too long.",
+          "With new colleagues, many offices (especially start-ups and younger teams) use \"du\" from day one; banks, public offices and traditional firms stick to \"Sie\". When unsure, start with \"Sie\" and wait: the older or more senior person usually offers \"Wollen wir uns duzen?\" (Shall we say \"du\"?). Saying \"du\" to the wrong person is a bigger faux pas than staying with \"Sie\" too long.",
           "Germans often keep small talk short, especially at work, and get to the point quickly. That's not rudeness: in German culture lengthy chat with strangers can seem insincere. A friendly \"Wie geht's?\" may get a real answer, not just fine, thanks.",
         ],
         examples: [
@@ -1770,8 +1770,8 @@ export const DE_A2_U18: Lesson[] = [
           {
             type: "speak",
             text: "Wollen wir uns duzen?",
-            prompt: "Say it in German: Shall we say du to each other?",
-            explanation: "\"Sich duzen\" = to say du to each other; \"siezen\" is the opposite.",
+            prompt: "Say it in German: Shall we say \"du\" to each other?",
+            explanation: "\"Sich duzen\" = to say \"du\" to each other; \"siezen\" is the opposite.",
           },
         ],
       },
@@ -1781,7 +1781,7 @@ export const DE_A2_U18: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Where are you from? (polite)",
+        source: "Where are you from? (formal)",
         answer: "Woher kommen Sie?",
         altAnswers: ["Wo kommen Sie her?"],
         explanation: "\"Woher\" = from where; the polite verb form is \"kommen Sie\".",
@@ -1825,9 +1825,9 @@ export const DE_A2_U18: Lesson[] = [
       {
         type: "multiple-choice",
         question: "A colleague says: \"Bei uns duzen sich alle.\" What does she mean?",
-        options: ["Everyone here says du to each other.", "Everyone here is very polite.", "Everyone here speaks English.", "Everyone here takes a break together."],
+        options: ["Everyone here says \"du\" to each other.", "Everyone here is very polite.", "Everyone here speaks English.", "Everyone here takes a break together."],
         correctIndex: 0,
-        explanation: "\"Sich duzen\" = to say du to each other.",
+        explanation: "\"Sich duzen\" = to say \"du\" to each other.",
       },
       {
         type: "translate",
@@ -1892,7 +1892,7 @@ export const DE_A2_U18: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "Call an ambulance! (polite)",
+            source: "Call an ambulance! (formal)",
             answer: "Rufen Sie einen Krankenwagen!",
             altAnswers: ["Rufen Sie bitte einen Krankenwagen!", "Rufen Sie einen Rettungswagen!", "Rufen Sie den Notarzt!"],
             explanation: "Sie-imperative; \"der Krankenwagen\" is masculine: \"einen Krankenwagen\".",
@@ -1904,7 +1904,7 @@ export const DE_A2_U18: Lesson[] = [
             sentence: "___",
             answer: "Es gab einen Unfall.",
             altAnswers: ["Es gab einen Unfall", "Es ist ein Unfall passiert.", "Da ist ein Unfall passiert.", "Es hat einen Unfall gegeben."],
-            explanation: "\"Es gab\" + accusative: \"einen Unfall\" (der Unfall).",
+            explanation: "\"Es gab\" + accusative: \"einen Unfall\" (\"der Unfall\"). \"Es ist ein Unfall passiert\" (Perfekt with \"sein\") is just as good.",
           },
         ],
       },
@@ -2050,7 +2050,7 @@ export const DE_A2_U18: Lesson[] = [
         source: "My passport was inside.",
         answer: "Mein Pass war drin.",
         altAnswers: ["Mein Reisepass war drin.", "Drin war mein Pass.", "Drin war mein Reisepass.", "Mein Pass war darin."],
-        explanation: "\"Drin\" (short for \"darin\") = inside; \"war\" is the past of sein.",
+        explanation: "\"Drin\" (short for \"darin\") = inside; \"war\" is the past of \"sein\".",
       },
       {
         type: "word-order",
@@ -2107,7 +2107,7 @@ export const DE_A2_U18: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "Turn right at the traffic lights. (polite)",
+            source: "Turn right at the traffic lights. (formal)",
             answer: "Biegen Sie an der Ampel rechts ab.",
             altAnswers: ["Biegen Sie an der Ampel nach rechts ab.", "An der Ampel biegen Sie rechts ab.", "An der Ampel rechts abbiegen."],
             explanation: "\"An der Ampel\": dative (where), \"die Ampel\" is feminine. \"Abbiegen\" splits in the imperative: \"Biegen Sie ... ab\".",
@@ -2188,7 +2188,7 @@ export const DE_A2_U18: Lesson[] = [
             source: "Our passports are in the car.",
             answer: "Unsere Pässe sind im Auto.",
             altAnswers: ["Unsere Reisepässe sind im Auto.", "Unsere Pässe liegen im Auto."],
-            explanation: "\"Der Pass\" → \"die Pässe\" (umlaut + -e). \"Im Auto\" = in dem Auto, dative for position.",
+            explanation: "\"Der Pass\" → \"die Pässe\" (umlaut + -e). \"Im Auto\" = \"in dem Auto\", dative for position.",
           },
           {
             type: "translate",
@@ -2202,8 +2202,8 @@ export const DE_A2_U18: Lesson[] = [
             type: "speak",
             text: "Die Feuerwehr war in fünf Minuten da.",
             prompt: "Say it in German: The fire brigade was there in five minutes.",
-            tip: "The ü in fünf: say ee with rounded lips.",
-            explanation: "\"Die Feuerwehr\" (feminine, no plural in this sense) + \"war\" for the past of sein.",
+            tip: "The \"ü\" in \"fünf\": say ee with rounded lips.",
+            explanation: "\"Die Feuerwehr\" (feminine, no plural in this sense) + \"war\" for the past of \"sein\".",
           },
         ],
       },
@@ -2216,7 +2216,7 @@ export const DE_A2_U18: Lesson[] = [
         source: "The stop is opposite the station.",
         answer: "Die Haltestelle ist gegenüber vom Bahnhof.",
         altAnswers: ["Die Haltestelle ist dem Bahnhof gegenüber.", "Die Haltestelle ist gegenüber dem Bahnhof.", "Die Haltestelle liegt gegenüber vom Bahnhof."],
-        explanation: "\"Gegenüber\" takes the dative; in speech usually \"gegenüber vom\" (von dem).",
+        explanation: "\"Gegenüber\" takes the dative; in speech usually \"gegenüber vom\" (\"von dem\").",
       },
       {
         type: "translate",
@@ -2316,11 +2316,11 @@ export const DE_A2_U18_WRITING: WriteExercise = {
   minWords: 50,
   maxWords: 100,
   rubric: [
-    "Describes symptoms with the dative or haben (\"Mir tut ... weh\", \"Ich habe Fieber\") and \"seit\" + present",
+    "Describes symptoms with the dative or \"haben\" (\"Mir tut ... weh\", \"Ich habe Fieber\") and \"seit\" + present",
     "Reports the visit in the Perfekt (\"Ich war beim Arzt\", \"Ich habe Tabletten bekommen\")",
     "Refuses with a reason using \"weil\" and the verb at the end",
     "Suggests another time (\"Wie wäre es mit...?\")",
   ],
-  modelAnswer: "Hallo Jonas, leider kann ich am Samstag nicht zu deiner Party kommen, weil ich krank bin. Ich habe seit Mittwoch Fieber und Halsschmerzen, und mir tut der Kopf weh. Heute Morgen war ich beim Arzt. Er hat mich bis Montag krankgeschrieben, und ich habe in der Apotheke Tabletten bekommen. Ich muss dreimal täglich eine Tablette nehmen und viel schlafen. Schade! Wie wäre es mit nächstem Samstag? Dann können wir zusammen essen gehen. Viel Spaß auf der Party! Liebe Grüße, Lena",
-  explanation: "Symptoms use \"seit\" + present (\"Ich habe seit Mittwoch Fieber\") and the dative with wehtun (\"mir tut der Kopf weh\"); the visit is in the Perfekt; \"weil\" sends \"bin\" to the end; \"Wie wäre es mit\" + dative suggests a new date.",
+  modelAnswer: "Hallo Jonas, leider kann ich am Samstag nicht zu deiner Party kommen, weil ich krank bin. Ich habe seit Mittwoch Fieber und Halsschmerzen, und mir tut der Kopf weh. Heute Morgen war ich beim Arzt. Er hat mich bis Montag krankgeschrieben, und ich habe in der Apotheke Tabletten bekommen. Ich muss dreimal täglich eine Tablette nehmen und viel schlafen. Schade! Wie wäre es mit nächstem Samstag? Dann können wir zusammen essen gehen. Viel Spaß auf der Party! Liebe Grüße Lena",
+  explanation: "Symptoms use \"seit\" + present (\"Ich habe seit Mittwoch Fieber\") and the dative with \"wehtun\" (\"mir tut der Kopf weh\"); the visit is in the Perfekt; \"weil\" sends \"bin\" to the end; \"Wie wäre es mit\" + dative suggests a new date.",
 };

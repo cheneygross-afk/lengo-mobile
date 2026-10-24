@@ -182,7 +182,7 @@ export const DE_B1_U20: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say: I've met lots of Germans?",
         options: ["Ich habe viele Deutsche kennengelernt.", "Ich habe viele Deutschen kennengelernt.", "Ich habe viele deutsche kennengelernt.", "Ich habe viele Deutscher kennengelernt."],
         correctIndex: 0,
         explanation: "After \"viele\": strong -e.",
@@ -637,7 +637,7 @@ export const DE_B1_U20: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which means: the rising prices?",
+            question: "How do you say: the rising prices?",
             options: ["die steigenden Preise", "die gestiegenen Preise", "die steigende Preise", "die gesteigte Preise"],
             correctIndex: 0,
             explanation: "Ongoing: Partizip I \"steigend\", plural after \"die\": -en.",
@@ -715,7 +715,7 @@ export const DE_B1_U20: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which means: water that has been boiled?",
+        question: "How do you say: water that has been boiled?",
         options: ["gekochtes Wasser", "kochendes Wasser", "kochende Wasser", "gekocht Wasser"],
         correctIndex: 0,
         explanation: "Finished action: Partizip II \"gekocht\"; neuter, no article: -es.",
@@ -761,14 +761,14 @@ export const DE_B1_U20: Lesson[] = [
     level: "DE-B1",
     number: 5,
     title: "Themed Review: Die offene Rechnung",
-    summary: "Chase an unpaid invoice politely, with participles and adjective-nouns (\"die gesendete Mahnung\", \"der zuständige Angestellte\"), Konjunktiv II and the passive.",
+    summary: "Chase an unpaid invoice politely, with participles and adjective-nouns (\"die verschickte Mahnung\", \"der zuständige Angestellte\"), Konjunktiv II and the passive.",
     duration: "15 min",
     sections: [
       {
         heading: "Die Mahnung",
         body: [
           "Frau Ott runs a small print shop. A customer hasn't paid an invoice (\"eine Rechnung\") for six weeks. She sends a reminder (\"eine Mahnung\"). An unpaid invoice is \"eine offene Rechnung\" or \"eine unbezahlte Rechnung\".",
-          "Watch the participles: \"die gesendete Mahnung\" (the reminder that has been sent), \"der fällige Betrag\" (the amount due), \"die gelieferten Plakate\" (the posters that were delivered). And the passive: \"Die Rechnung wurde am 3. März verschickt.\"",
+          "Watch the participles: \"die verschickte Mahnung\" (the reminder that has been sent), \"die gelieferten Plakate\" (the posters that were delivered), and the adjective \"fällig\": \"der fällige Betrag\" (the amount due). And the passive: \"Die Rechnung wurde am 3. März verschickt.\"",
         ],
         examples: [
           { es: "Die Rechnung wurde am 3. März verschickt.", en: "The invoice was sent on 3 March." },
@@ -880,8 +880,8 @@ export const DE_B1_U20: Lesson[] = [
         prompt: "Write the German for the bold words.",
         en: "[The reminder we sent] went unanswered.",
         sentence: "___ ist unbeantwortet geblieben.",
-        answer: "Die gesendete Mahnung",
-        altAnswers: ["Die geschickte Mahnung", "Die verschickte Mahnung"],
+        answer: "Die verschickte Mahnung",
+        altAnswers: ["Die geschickte Mahnung", "Die gesendete Mahnung"],
         explanation: "Partizip II, feminine after \"die\": -e.",
       },
       {
@@ -933,7 +933,7 @@ export const DE_B1_U20: Lesson[] = [
     level: "DE-B1",
     number: 6,
     title: "Circuit: Job Ads",
-    summary: "Read and write the language of German job ads: \"eine/n engagierte/n Mitarbeiter/in\", \"Auszubildende\", \"Angestellte\", \"abgeschlossene Ausbildung\", (m/w/d).",
+    summary: "Read and write the language of German job ads: \"eine/n engagierte/n Mitarbeiter/in\", \"Auszubildende\", \"Angestellte\", \"abgeschlossene Ausbildung\", \"(m/w/d)\".",
     duration: "13 min",
     sections: [
       {
@@ -1219,11 +1219,11 @@ export const DE_B1_U20: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "[Someone I know] helped me find a flat. (a man)",
+        en: "[Someone I know] helped me find a flat.",
         sentence: "___ hat mir geholfen, eine Wohnung zu finden.",
         answer: "Ein Bekannter",
         altAnswers: ["Eine Bekannte"],
-        explanation: "Masculine nominative after \"ein\": -er.",
+        explanation: "Masculine nominative after \"ein\": -er; for a woman, \"Eine Bekannte\".",
       },
       {
         type: "fill-blank",
@@ -1583,7 +1583,7 @@ export const DE_B1_U20: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is correct?",
+        question: "How do you say: The Germans are punctual?",
         options: ["Die Deutschen sind pünktlich.", "Die Deutsche sind pünktlich.", "Die Deutscher sind pünktlich.", "Deutschen sind pünktlich."],
         correctIndex: 0,
         explanation: "Plural after \"die\": -en.",

@@ -9,14 +9,14 @@ export const DE_B2_U08_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Nominalised Participles",
-    summary: "Der / ein Angestellte(r), die Reisenden, das Erreichte with correct endings.",
+    summary: "Use \"der\" / \"ein Angestellte(r)\", \"die Reisenden\", \"das Erreichte\" with correct endings.",
     duration: "12 min",
     sections: [
       {
         heading: "Recap: participles as nouns",
         body: [
           "Nominalised participles are capitalised but keep adjective endings: \"der Reisende / ein Reisender / die Reisenden / mit einem Reisenden\"; \"die Angestellte / eine Angestellte\"; \"das Erreichte\" (what has been achieved). Without an article in the plural: \"Reisende\", \"Angestellte\", \"Verletzte\".",
-          "The most frequent mistake is mixing endings: \"*der Angestellter\", \"*die Reisende\" (meaning the plural), \"*mit dem Verletzte\". Think of an invisible noun after the participle: \"der Angestellte (Mensch)\", and the ending follows.",
+          "The most frequent mistake is mixing endings: \"*der Angestellter*\", \"*die Reisende*\" (meaning the plural), \"*mit dem Verletzte*\". Think of an invisible noun after the participle: \"der Angestellte (Mensch)\", and the ending follows.",
         ],
         examples: [
           { es: "Die Reisenden stiegen in Hannover um.", en: "The travellers changed trains in Hanover." },
@@ -80,7 +80,7 @@ export const DE_B2_U08_EXTRA: Lesson[] = [
         sentence: "___ eröffnete die Sitzung.",
         answer: "Der Vorsitzende",
         altAnswers: ["Die Vorsitzende"],
-        explanation: "After der: weak -e, not \"*der Vorsitzender\" (-er only after ein or with no article).",
+        explanation: "After der: weak -e, not \"*der Vorsitzender*\" (-er only after ein or with no article).",
       },
       {
         type: "translate",
@@ -169,7 +169,7 @@ export const DE_B2_U08_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Feeling Adjectives in Reviews",
-    summary: "Spannend, langweilig, enttäuscht, begeistert in restaurant and film reviews.",
+    summary: "Use \"spannend\", \"langweilig\", \"enttäuscht\" and \"begeistert\" in restaurant and film reviews.",
     duration: "12 min",
     sections: [
       {
@@ -261,10 +261,10 @@ export const DE_B2_U08_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence describes the audience?",
+        question: "The audience loved the show. Which sentence says so?",
         options: ["Das Publikum war begeistert.", "Das Publikum war begeisternd.", "Das Publikum war spannend.", "Das Publikum war langweilig begeistert."],
         correctIndex: 0,
-        explanation: "The audience feels: \"begeistert\".",
+        explanation: "The audience feels the enthusiasm: \"begeistert\". \"Begeisternd\" or \"spannend\" would say the audience was inspiring or gripping for someone else.",
       },
       {
         type: "translate",
@@ -327,7 +327,7 @@ export const DE_B2_U08_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Participle Clauses",
-    summary: "Rewrite als / nachdem / während clauses as participle clauses and back.",
+    summary: "Rewrite \"als\" / \"nachdem\" / \"während\" clauses as participle clauses and back.",
     duration: "12 min",
     sections: [
       {

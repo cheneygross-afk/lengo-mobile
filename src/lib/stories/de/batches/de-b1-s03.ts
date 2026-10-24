@@ -27,16 +27,16 @@ export const DE_B1_S03_STORIES: Story[] = [
         explanation: `He says: "Sie haben mir einmal erzählt, dass Ihr Großvater in der Türkei Imker war."`,
       },
       {
-        question: `Why had Dr. Brenner never been on the roof?`,
+        question: `Why had Dr Brenner never been on the roof?`,
         options: [`He was afraid of heights.`, `He didn't know about the bees.`, `He was too busy with the visitors from Frankfurt.`, `He was allergic to bee stings.`],
         correctIndex: 3,
         explanation: `"Er hatte eine Allergie gegen Bienenstiche und hatte das Dach noch nie betreten."`,
       },
       {
         question: `Where did the swarm settle?`,
-        options: [`On the steering wheel of Dr. Brenner's open car`, `On the roof next to the hives`, `On the visitors' taxi`, `In the coffee machine`],
+        options: [`On the steering wheel of Dr Brenner's open car`, `On the roof next to the hives`, `On the visitors' taxi`, `In the coffee machine`],
         correctIndex: 0,
-        explanation: `The swarm settled in Dr. Brenner's convertible: "am Lenkrad hing eine dunkle, summende Traube aus Tausenden von Bienen."`,
+        explanation: `The swarm settled in Dr Brenner's convertible: "am Lenkrad hing eine dunkle, summende Traube aus Tausenden von Bienen."`,
       },
       {
         question: `What did the management decide?`,
@@ -59,7 +59,7 @@ export const DE_B1_S03_STORIES: Story[] = [
       `Sie sagte nichts, aber sie wählte die Bücher jetzt noch sorgfältiger aus. Die Sätze in den Büchern wurden länger. „Ich habe vierzig Jahre im Hafen gearbeitet und mich immer geschämt“, stand in einem. Und in einem anderen: „Meine Frau hat mir alle Briefe vorgelesen. Seit sie tot ist, gehe ich in einen Kurs an der Volkshochschule.“`,
       `Im April kam Herr Pohl nicht. Auch in der nächsten Woche nicht. Frieda machte sich Sorgen. Hatte sie etwas falsch gemacht? War er krank? Sie hatte keine Telefonnummer, nur eine Adresse in der Altstadt. Nach langem Überlegen schrieb sie ihm eine Karte, aber dann warf sie sie doch nicht ein. Es kam ihr zu persönlich vor.`,
       `Mitte Mai stand er plötzlich wieder vor ihr, braun gebrannt und mit einem breiten Lächeln. „Ich war bei meiner Tochter in Kanada“, sagte er. „Zum ersten Mal bin ich allein geflogen. Ich konnte alle Schilder am Flughafen lesen.“ Dann legte er ein Buch auf den Tresen. Es war kein Buch aus der Bibliothek, sondern ein neues, noch in Folie.`,
-      `„Das ist für Sie“, sagte er. „Ich habe darin nichts unterstrichen. Ich weiß ja, dass Sie das nicht mögen.“ Frieda wurde rot. Er hatte ihre strengen Blicke also bemerkt. Als er gegangen war, öffnete sie das Buch. Auf der ersten Seite stand in großen, etwas wackeligen Buchstaben eine Widmung: „Für Frau Lorenz, die mir nicht das Lesen beigebracht hat, aber die Freude daran.“`,
+      `„Das ist für Sie“, sagte er. „Ich habe darin nichts unterstrichen. Ich weiß ja, dass Sie das nicht mögen.“ Frieda wurde rot. Er hatte ihre strengen Blicke also bemerkt. Als er gegangen war, öffnete sie das Buch. Auf der ersten Seite stand in großen, etwas wackeligen Buchstaben eine Widmung: „Für Frau Lorenz, die mir nicht das Lesen beigebracht hat, sondern die Freude daran.“`,
     ],
     questions: [
       {
@@ -221,11 +221,11 @@ export const DE_B1_S03_ENGLISH: Record<string, string[]> = {
     `Elif Demir had been working in the accounts department of an insurance company in Stuttgart for three years. Her work was orderly, quiet and a little boring. The most exciting thing in her office was the coffee machine, which sometimes gave out only hot water instead of coffee. That changed on the day Herr Kowalski retired.`,
     `Herr Kowalski was the caretaker. He had been with the company for over thirty years, and only a few people knew that he kept four beehives on the roof of the building. On his last working day he came to Elif's desk. "You once told me that your grandfather was a beekeeper in Turkey," he said. "Would you look after my bees? Otherwise I'll have to sell them, and that would break my heart."`,
     `As a child, Elif had only watched her grandfather working with the bees. Even so, she said yes before she had really thought about it. Herr Kowalski gave her a white protective suit, a veil and a thick notebook full of notes. "The most important thing is that you stay calm," he explained. "Bees notice immediately when someone is afraid."`,
-    `In the first weeks, Elif went up to the roof every lunch break. She read the notebook, checked the honeycombs and spoke quietly to the bees, the way her grandfather used to. Her colleagues thought she was a bit crazy. Only her boss, Dr. Brenner, said nothing at all. He was allergic to bee stings and had never set foot on the roof.`,
-    `On a warm day in May, Dr. Brenner was supposed to show the company's management from Frankfurt round the new building. Everything was prepared. But shortly before ten o'clock a loud buzzing could be heard outside. A huge swarm of bees had settled in the car park, of all places in Dr. Brenner's convertible, which was parked right in front of the main entrance. The car's roof was open, and from the steering wheel hung a dark, buzzing cluster of thousands of bees.`,
-    `Dr. Brenner went pale. "Call the fire brigade!" he shouted. But Elif had already put on her protective suit. She remembered a page in Herr Kowalski's notebook: "A swarm isn't dangerous. The bees are just looking for a new home." With a cardboard box and a soft brush she walked slowly towards the car. All her colleagues stood at the windows and watched, and so did the guests from Frankfurt, who were just getting out of their taxi.`,
-    `Elif held the box under the steering wheel and gave it one hard shake. Most of the bees fell into the box. She carefully put it down on the ground and waited until the last bees had crawled in too, because the queen was already inside. After twenty minutes the car was empty. The guests from Frankfurt applauded, and Dr. Brenner breathed out deeply for the first time that morning.`,
-    `The next day there was a message on Elif's desk. The management had decided that the bees could stay. They even wanted honey with the company logo, as a gift for clients. Underneath, Dr. Brenner had written by hand: "Thank you. But please tell your bees to choose a different car next time."`,
+    `In the first weeks, Elif went up to the roof every lunch break. She read the notebook, checked the honeycombs and spoke quietly to the bees, the way her grandfather used to. Her colleagues thought she was a bit crazy. Only her boss, Dr Brenner, said nothing at all. He was allergic to bee stings and had never set foot on the roof.`,
+    `On a warm day in May, Dr Brenner was supposed to show the company's management from Frankfurt round the new building. Everything was prepared. But shortly before ten o'clock a loud buzzing could be heard outside. A huge swarm of bees had settled in the car park, of all places in Dr Brenner's convertible, which was parked right in front of the main entrance. The car's roof was open, and from the steering wheel hung a dark, buzzing cluster of thousands of bees.`,
+    `Dr Brenner went pale. "Call the fire brigade!" he shouted. But Elif had already put on her protective suit. She remembered a page in Herr Kowalski's notebook: "A swarm isn't dangerous. The bees are just looking for a new home." With a cardboard box and a soft brush she walked slowly towards the car. All her colleagues stood at the windows and watched, and so did the guests from Frankfurt, who were just getting out of their taxi.`,
+    `Elif held the box under the steering wheel and gave it one hard shake. Most of the bees fell into the box. She carefully put it down on the ground and waited until the last bees had crawled in too, because the queen was already inside. After twenty minutes the car was empty. The guests from Frankfurt applauded, and Dr Brenner breathed out deeply for the first time that morning.`,
+    `The next day there was a message on Elif's desk. The management had decided that the bees could stay. They even wanted honey with the company logo, as a gift for clients. Underneath, Dr Brenner had written by hand: "Thank you. But please tell your bees to choose a different car next time."`,
   ],
   "de-unterstrichen": [
     `Frieda Lorenz had been working at the Lübeck city library for twelve years. She loved her job, but there was one thing she couldn't stand: people who wrote in books. Anyone who underlined something in ballpoint pen got a long, stern look from her, and sometimes even a bill.`,
@@ -234,7 +234,7 @@ export const DE_B1_S03_ENGLISH: Record<string, string[]> = {
     `The following week Herr Pohl brought back a crime novel. Again Frieda found underlined words. This time the sentence read: "A year ago I couldn't read a single page." Frieda sat at her desk for a long time, thinking. Suddenly she understood why he always stood in front of the shelves for so long, why he read the titles quietly with his lips and why he never filled in a form himself.`,
     `She said nothing, but now she chose the books even more carefully. The sentences in the books grew longer. "I worked at the harbour for forty years and was always ashamed," it said in one. And in another: "My wife read all my letters to me. Since she died, I've been going to a course at the adult education centre."`,
     `In April Herr Pohl didn't come. Not the next week either. Frieda got worried. Had she done something wrong? Was he ill? She had no phone number, only an address in the old town. After thinking about it for a long time she wrote him a card, but then she didn't post it after all. It seemed too personal.`,
-    `In the middle of May he was suddenly standing in front of her again, tanned and with a broad smile. "I was at my daughter's in Canada," he said. "It was the first time I've flown on my own. I could read all the signs at the airport." Then he put a book on the counter. It wasn't a library book but a new one, still in its plastic wrapping.`,
+    `In the middle of May he was suddenly standing in front of her again, tanned and with a broad smile. "I was at my daughter's in Canada," he said. "For the first time, I flew on my own. I could read all the signs at the airport." Then he put a book on the counter. It wasn't a library book but a new one, still in its plastic wrapping.`,
     `"This is for you," he said. "I haven't underlined anything in it. I know you don't like that." Frieda blushed. So he had noticed her stern looks. When he had gone, she opened the book. On the first page, in large, slightly shaky letters, there was a dedication: "For Frau Lorenz, who didn't teach me to read, but taught me to enjoy it."`,
   ],
   "de-der-vergessene-lottoschein": [

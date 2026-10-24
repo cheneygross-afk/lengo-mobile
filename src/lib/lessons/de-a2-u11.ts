@@ -8,7 +8,7 @@ export const DE_A2_U11: Lesson[] = [
     level: "DE-A2",
     number: 1,
     title: "Two-Way Prepositions, Part 1 of 2",
-    summary: "Say where things are with the nine two-way prepositions and the dative: auf dem Tisch, unter dem Bett, an der Wand.",
+    summary: "Say where things are with the nine two-way prepositions and the dative: \"auf dem Tisch\", \"unter dem Bett\", \"an der Wand\".",
     duration: "15 min",
     sections: [
       {
@@ -34,7 +34,7 @@ export const DE_A2_U11: Lesson[] = [
             source: "The cat is under the bed.",
             answer: "Die Katze sitzt unter dem Bett.",
             altAnswers: ["Die Katze liegt unter dem Bett.", "Die Katze ist unter dem Bett."],
-            explanation: "Where? → dative: \"unter dem Bett\" (das Bett → dem Bett).",
+            explanation: "Where? → dative: \"unter dem Bett\", because \"das Bett\" becomes \"dem Bett\".",
           },
           {
             type: "fill-blank",
@@ -188,7 +188,7 @@ export const DE_A2_U11: Lesson[] = [
         question: "Which sentence is correct?",
         options: ["Die Katze schläft auf dem Sofa.", "Die Katze schläft auf das Sofa.", "Die Katze schläft auf der Sofa.", "Die Katze schläft an dem Sofa."],
         correctIndex: 0,
-        explanation: "Sleeping is location: \"auf dem Sofa\" (das Sofa → dem).",
+        explanation: "Sleeping is location: \"auf dem Sofa\"; neuter \"das Sofa\" becomes \"dem Sofa\" in the dative.",
       },
       {
         type: "word-order",
@@ -224,14 +224,14 @@ export const DE_A2_U11: Lesson[] = [
     level: "DE-A2",
     number: 2,
     title: "Drill Circuit: Im, Am, Ins, Ans",
-    summary: "Use the contractions im, am, ins and ans, and know when not to contract.",
+    summary: "Use the contractions \"im\", \"am\", \"ins\" and \"ans\", and know when not to contract.",
     duration: "12 min",
     sections: [
       {
         heading: "Im and am: in dem, an dem",
         body: [
           "In everyday German, \"in dem\" and \"an dem\" almost always shrink: \"im\" and \"am\". \"Ich bin im Kino\", \"Wir treffen uns am Bahnhof\". You've used \"im Juli\" and \"am Montag\" since the Beginner level: same contractions.",
-          "The full form \"in dem\" survives only when \"dem\" is stressed and means that one: \"In dem Haus da wohnt Lena\" (in that house there).",
+          "The full form \"in dem\" is used mainly when \"dem\" is stressed and means that one (and, later, in relative clauses): \"In dem Haus da wohnt Lena\" (in that house there).",
           "Feminine \"in der\" and \"an der\" never contract: \"in der Küche\", \"an der Haltestelle\".",
         ],
         examples: [
@@ -435,14 +435,14 @@ export const DE_A2_U11: Lesson[] = [
     level: "DE-A2",
     number: 3,
     title: "Two-Way Prepositions, Part 2 of 2",
-    summary: "Use the accusative for movement to a place: Ich gehe in den Park, ich lege das Buch auf den Tisch.",
+    summary: "Use the accusative for movement to a place: \"Ich gehe in den Park\", \"Ich lege das Buch auf den Tisch\".",
     duration: "15 min",
     sections: [
       {
         heading: "Wohin? + accusative",
         body: [
           "The second half of the rule: when something moves to a new place (the question \"wohin?\", where to?), the two-way prepositions take the accusative. \"Ich gehe in den Park\" (into the park) vs \"Ich bin im Park\" (in the park).",
-          "Only the masculine changes visibly in the singular: \"dem\" → \"den\". Feminine \"der\" → \"die\", neuter \"dem\" → \"das\", plural \"den\" → \"die\". \"Ich lege das Buch auf den Tisch.\" \"Ich hänge das Bild an die Wand.\"",
+          "The articles are the accusative ones you know: masculine \"dem\" → \"den\", feminine \"der\" → \"die\", neuter \"dem\" → \"das\", plural \"den\" → \"die\". Only the masculine looks different from the nominative. \"Ich lege das Buch auf den Tisch.\" \"Ich hänge das Bild an die Wand.\"",
           "English often signals the difference with into vs in, onto vs on, but not always: put it on the table and it's on the table use the same word. German uses the case instead.",
         ],
         examples: [
@@ -568,7 +568,8 @@ export const DE_A2_U11: Lesson[] = [
         prompt: "Translate into German.",
         source: "We like hiking in the mountains.",
         answer: "Wir wandern gern in den Bergen.",
-        explanation: "Location: dative plural \"den Bergen\".",
+        altAnswers: ["Wir mögen in den Bergen wandern."],
+        explanation: "Location: dative plural \"den Bergen\". \"Mögen\" + infinitive is also accepted, but verb + \"gern\" is more natural.",
       },
       {
         type: "translate",
@@ -644,7 +645,7 @@ export const DE_A2_U11: Lesson[] = [
     level: "DE-A2",
     number: 4,
     title: "Contrast Clinic: Stellen/Stehen, Legen/Liegen, Setzen/Sitzen",
-    summary: "Sort the action verbs (stellen, legen, setzen, hängen + accusative) from the position verbs (stehen, liegen, sitzen, hängen + dative).",
+    summary: "Sort the action verbs \"stellen\", \"legen\", \"setzen\", \"hängen\" (+ accusative) from the position verbs \"stehen\", \"liegen\", \"sitzen\", \"hängen\" (+ dative).",
     duration: "15 min",
     sections: [
       {
@@ -852,15 +853,15 @@ export const DE_A2_U11: Lesson[] = [
     level: "DE-A2",
     number: 5,
     title: "Choose & Explain: Wo or Wohin?",
-    summary: "Decide between dative and accusative by asking wo? or wohin?, and learn which verbs point which way.",
+    summary: "Decide between dative and accusative by asking \"wo?\" or \"wohin?\", and learn which verbs point which way.",
     duration: "14 min",
     sections: [
       {
         heading: "Ask the question first",
         body: [
           "Before choosing the article, ask the question a German would ask. \"Wo?\" (where?) → dative. \"Wohin?\" (where to?) → accusative. \"Ich hänge das Bild an die Wand\": wohin hänge ich das Bild? An die Wand. \"Das Bild hängt an der Wand\": wo hängt das Bild? An der Wand.",
-          "\"Wohin\" often splits in speech: \"Wo gehst du hin?\" means the same as \"Wohin gehst du?\". If you can say hin, it's movement.",
-          "The same place can be both: \"Wir fahren in die Berge\" (wohin?) and \"Wir wandern in den Bergen\" (wo?).",
+          "\"Wohin\" often splits in speech: \"Wo gehst du hin?\" means the same as \"Wohin gehst du?\". If you can add \"hin\", it's movement.",
+          "The same place can be both: \"Wir fahren in die Berge\" answers \"wohin?\", and \"Wir wandern in den Bergen\" answers \"wo?\".",
         ],
         examples: [
           { es: "Wohin hängst du das Bild? An die Wand.", en: "Where are you hanging the picture? On the wall." },
@@ -885,7 +886,7 @@ export const DE_A2_U11: Lesson[] = [
             en: "We're hiking [in the] mountains.",
             sentence: "Wir wandern ___ Bergen.",
             answer: "in den",
-            explanation: "Wo? → dative plural \"den Bergen\".",
+            explanation: "\"Wo?\" → dative plural \"den Bergen\".",
           },
         ],
       },
@@ -893,7 +894,7 @@ export const DE_A2_U11: Lesson[] = [
         heading: "Wo-verbs and wohin-verbs",
         body: [
           "Many verbs lean one way. Wo-verbs (dative): \"sein\", \"wohnen\", \"arbeiten\", \"warten\", \"bleiben\", \"schlafen\", \"stehen\", \"liegen\", \"sitzen\". Wohin-verbs (accusative): \"gehen\", \"fahren\", \"kommen\", \"bringen\", \"stellen\", \"legen\", \"setzen\", \"fliegen\".",
-          "Watch out for \"ankommen\" (to arrive) and \"parken\": English thinks of movement, but German asks wo? \"Ich komme um acht in Berlin an.\" \"Ich parke vor dem Haus.\"",
+          "Watch out for \"ankommen\" (to arrive) and \"parken\": English thinks of movement, but German asks \"wo?\" \"Ich komme um acht in Berlin an.\" \"Ich parke vor dem Haus.\"",
           "Movement within a place stays dative: \"Ich laufe im Park\" (I run in the park), \"Wir tanzen in der Küche\".",
         ],
         examples: [
@@ -911,14 +912,14 @@ export const DE_A2_U11: Lesson[] = [
             prompt: "Translate into German.",
             source: "Can I park in front of the house?",
             answer: "Kann ich vor dem Haus parken?",
-            explanation: "\"Parken\" asks wo?: dative \"vor dem Haus\".",
+            explanation: "\"Parken\" asks \"wo?\": dative \"vor dem Haus\".",
           },
           {
             type: "multiple-choice",
             question: "How do you say: I run in the park every morning?",
             options: ["Ich laufe jeden Morgen im Park.", "Ich laufe jeden Morgen in den Park.", "Ich laufe jeden Morgen ins Park.", "Ich laufe jeden Morgen in dem Parks."],
             correctIndex: 0,
-            explanation: "Running around inside the park: wo? → \"im Park\". \"In den Park\" would be running into it.",
+            explanation: "Running around inside the park: \"wo?\" → \"im Park\". \"In den Park\" would be running into it.",
           },
           {
             type: "listen-choose",
@@ -938,7 +939,7 @@ export const DE_A2_U11: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'm hanging the picture on the wall.",
         answer: "Ich hänge das Bild an die Wand.",
-        explanation: "Wohin? → \"an die Wand\".",
+        explanation: "\"Wohin?\" → \"an die Wand\".",
       },
       {
         type: "translate",
@@ -946,7 +947,7 @@ export const DE_A2_U11: Lesson[] = [
         prompt: "Translate into German.",
         source: "The picture is hanging on the wall.",
         answer: "Das Bild hängt an der Wand.",
-        explanation: "Wo? → \"an der Wand\".",
+        explanation: "\"Wo?\" → \"an der Wand\".",
       },
       {
         type: "translate",
@@ -964,7 +965,7 @@ export const DE_A2_U11: Lesson[] = [
         source: "Bring the chairs into the garden! (to a friend)",
         answer: "Bring die Stühle in den Garten!",
         altAnswers: ["Bring bitte die Stühle in den Garten!"],
-        explanation: "\"Bringen\": wohin? → \"in den Garten\".",
+        explanation: "\"Bringen\": \"wohin?\" → \"in den Garten\".",
       },
       {
         type: "translate",
@@ -972,7 +973,7 @@ export const DE_A2_U11: Lesson[] = [
         prompt: "Translate into German.",
         source: "We're waiting at the bus stop.",
         answer: "Wir warten an der Haltestelle.",
-        explanation: "\"Warten\": wo? → dative.",
+        explanation: "\"Warten\": \"wo?\" → dative.",
       },
       {
         type: "translate",
@@ -988,7 +989,7 @@ export const DE_A2_U11: Lesson[] = [
         en: "I live [in the] old town.",
         sentence: "Ich wohne ___ Altstadt.",
         answer: "in der",
-        explanation: "\"Wohnen\": wo? → \"in der Altstadt\".",
+        explanation: "\"Wohnen\": \"wo?\" → \"in der Altstadt\".",
       },
       {
         type: "fill-blank",
@@ -996,7 +997,7 @@ export const DE_A2_U11: Lesson[] = [
         en: "Put the bag [under the] table! (to a friend)",
         sentence: "Stell die Tasche ___ Tisch!",
         answer: "unter den",
-        explanation: "\"Stellen\": wohin? → accusative \"den Tisch\".",
+        explanation: "\"Stellen\": \"wohin?\" → accusative \"den Tisch\".",
       },
       {
         type: "word-order",
@@ -1011,18 +1012,18 @@ export const DE_A2_U11: Lesson[] = [
         question: "What does it mean?",
         options: ["Where are you going?", "Where are you?", "Where do you come from?", "Where do you live?"],
         correctIndex: 0,
-        explanation: "\"Wo ... hin\" = wohin: where to.",
+        explanation: "\"Wo ... hin\" = \"wohin\": where to.",
       },
       {
         type: "dictation",
         audio: "Wir fahren in die Berge.",
-        explanation: "Wohin? → \"in die Berge\".",
+        explanation: "\"Wohin?\" → \"in die Berge\".",
       },
       {
         type: "speak",
         text: "Wir wandern in den Bergen.",
         prompt: "Say it in German: We're hiking in the mountains.",
-        explanation: "Wo? → \"in den Bergen\".",
+        explanation: "\"Wo?\" → \"in den Bergen\".",
       },
     ],
   },
@@ -1089,7 +1090,7 @@ export const DE_A2_U11: Lesson[] = [
             source: "Put it in the drawer!",
             answer: "Leg ihn in die Schublade!",
             altAnswers: ["Leg ihn bitte in die Schublade!"],
-            explanation: "\"Der Schlüssel\" → \"ihn\"; wohin? → \"in die Schublade\".",
+            explanation: "\"Der Schlüssel\" → \"ihn\"; \"wohin?\" → \"in die Schublade\".",
           },
           {
             type: "listen-choose",
@@ -1172,7 +1173,7 @@ export const DE_A2_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Jonas asks: Wo ist mein Pullover? Which answer is correct?",
+        question: "Jonas asks: \"Wo ist mein Pullover?\" Which answer is correct?",
         options: ["Er liegt auf dem Bett.", "Er liegt auf das Bett.", "Es liegt auf dem Bett.", "Er legt auf dem Bett."],
         correctIndex: 0,
         explanation: "\"Der Pullover\" → \"er\"; position verb \"liegt\" + dative.",
@@ -1217,7 +1218,7 @@ export const DE_A2_U11: Lesson[] = [
       {
         heading: "Instructions for the movers",
         body: [
-          "Moving day. The movers ask \"Wohin kommt der Schrank?\" (where does the wardrobe go?). With strangers doing a job for you, use the Sie imperative: \"Stellen Sie den Schrank bitte neben die Tür!\" Every instruction is a wohin, so it's accusative.",
+          "Moving day. The movers ask \"Wohin kommt der Schrank?\" (where does the wardrobe go?). With strangers doing a job for you, use the Sie imperative: \"Stellen Sie den Schrank bitte neben die Tür!\" Every instruction answers \"wohin?\", so it's accusative.",
           "\"Kommen\" is a neat shortcut for goes: \"Das Bett kommt zwischen die Fenster\", \"Die Kisten kommen in den Keller\" (the boxes go in the cellar).",
           "Furniture: \"der Schrank\" (wardrobe, cupboard), \"das Regal\" (shelves), \"der Schreibtisch\" (desk), \"der Sessel\" (armchair), \"der Teppich\" (rug), \"die Kiste\" (box), \"der Spiegel\" (mirror).",
         ],
@@ -1237,7 +1238,7 @@ export const DE_A2_U11: Lesson[] = [
             source: "Please put the wardrobe next to the door.",
             answer: "Stellen Sie den Schrank bitte neben die Tür.",
             altAnswers: ["Bitte stellen Sie den Schrank neben die Tür.", "Stellen Sie bitte den Schrank neben die Tür."],
-            explanation: "Sie imperative; wohin? → \"neben die Tür\".",
+            explanation: "Sie imperative; \"wohin?\" → \"neben die Tür\".",
           },
           {
             type: "fill-blank",
@@ -1252,7 +1253,7 @@ export const DE_A2_U11: Lesson[] = [
       {
         heading: "The finished room",
         body: [
-          "Once everything's in place, describe it to a friend. Now the question is wo?, so switch to the position verbs and the dative: \"Der Schrank steht neben der Tür. Das Bett steht zwischen den Fenstern. Der Teppich liegt vor dem Sofa. Der Spiegel hängt über dem Waschbecken.\"",
+          "Once everything's in place, describe it to a friend. Now the question is \"wo?\", so switch to the position verbs and the dative: \"Der Schrank steht neben der Tür. Das Bett steht zwischen den Fenstern. Der Teppich liegt vor dem Sofa. Der Spiegel hängt über dem Waschbecken.\"",
           "Compare the pairs: \"neben die Tür\" → \"neben der Tür\", \"zwischen die Fenster\" → \"zwischen den Fenstern\", \"vor das Sofa\" → \"vor dem Sofa\". The verb changes, the case changes, the preposition stays.",
         ],
         examples: [
@@ -1305,7 +1306,7 @@ export const DE_A2_U11: Lesson[] = [
         prompt: "Translate into German.",
         source: "The boxes go in the cellar.",
         answer: "Die Kisten kommen in den Keller.",
-        explanation: "Wohin? → \"in den Keller\".",
+        explanation: "\"Wohin?\" → \"in den Keller\".",
       },
       {
         type: "translate",
@@ -1396,7 +1397,7 @@ export const DE_A2_U11: Lesson[] = [
       {
         heading: "Perfekt + two-way prepositions",
         body: [
-          "Two-way prepositions work the same in the Perfekt: the question still decides the case. \"Ich habe das Bild an die Wand gehängt\" (wohin?), \"Das Bild hat an der Wand gehangen\" (wo?).",
+          "Two-way prepositions work the same in the Perfekt: the question still decides the case. \"Ich habe das Bild an die Wand gehängt\" answers \"wohin?\"; \"Das Bild hat an der Wand gehangen\" answers \"wo?\".",
           "Remember the auxiliaries: movement from A to B with no object takes \"sein\" (\"Wir sind in die Stadt gefahren\"); verbs with an object or a reflexive take \"haben\" (\"Ich habe den Koffer in den Flur gestellt\", \"Wir haben uns in ein Café gesetzt\").",
         ],
         examples: [
@@ -1422,7 +1423,7 @@ export const DE_A2_U11: Lesson[] = [
             source: "We went into town.",
             answer: "Wir sind in die Stadt gefahren.",
             altAnswers: ["Wir sind in die Stadt gegangen."],
-            explanation: "Movement without an object → \"sein\"; wohin? → \"in die Stadt\".",
+            explanation: "Movement without an object → \"sein\"; \"wohin?\" → \"in die Stadt\".",
           },
         ],
       },
@@ -1573,6 +1574,6 @@ export const DE_A2_U11_WRITING: WriteExercise = {
     "Uses at least four different two-way prepositions (\"in\", \"an\", \"auf\", \"neben\", \"zwischen\", \"über\", \"unter\", \"vor\", \"hinter\").",
     "Uses the contractions correctly (\"im\", \"am\", \"ins\", \"ans\").",
   ],
-  modelAnswer: "Hallo Mia, ich wohne jetzt in Leipzig! Am Samstag war der Umzug. Zuerst haben wir die Kisten ins Zimmer gebracht. Dann habe ich das Bett zwischen die Fenster gestellt und den Teppich vor das Bett gelegt. Mein Bruder hat das Regal an die Wand gehängt. Jetzt ist alles fertig: Der Schrank steht neben der Tür, der Schreibtisch steht am Fenster und die Bücher stehen im Regal. Über dem Sofa hängt ein Foto von uns! Nur meine Schuhe liegen noch unter dem Bett. Komm mich bald besuchen! Liebe Grüße, Sam",
-  explanation: "Two-way prepositions take the accusative for movement to a place (wohin?: \"zwischen die Fenster\", \"an die Wand\") and the dative for location (wo?: \"neben der Tür\", \"am Fenster\"); the action verbs \"stellen, legen, hängen\" pair with the position verbs \"stehen, liegen, hängen\".",
+  modelAnswer: "Hallo Mia, ich wohne jetzt in Leipzig! Am Samstag war der Umzug. Zuerst haben wir die Kisten ins Zimmer gebracht. Dann habe ich das Bett zwischen die Fenster gestellt und den Teppich vor das Bett gelegt. Mein Bruder hat das Regal an die Wand gehängt. Jetzt ist alles fertig: Der Schrank steht neben der Tür, der Schreibtisch steht am Fenster und die Bücher stehen im Regal. Über dem Sofa hängt ein Foto von uns! Nur meine Schuhe liegen noch unter dem Bett. Komm mich bald besuchen! Liebe Grüße Sam",
+  explanation: "Two-way prepositions take the accusative for movement to a place (\"wohin?\": \"zwischen die Fenster\", \"an die Wand\") and the dative for location (\"wo?\": \"neben der Tür\", \"am Fenster\"); the action verbs \"stellen, legen, hängen\" pair with the position verbs \"stehen, liegen, hängen\".",
 };

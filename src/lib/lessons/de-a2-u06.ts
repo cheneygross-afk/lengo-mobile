@@ -8,7 +8,7 @@ export const DE_A2_U06: Lesson[] = [
     level: "DE-A2",
     number: 1,
     title: "Sequencing a Story: Zuerst, Dann, Danach, Zum Schluss",
-    summary: "Put events in order with zuerst, dann, danach, später, schließlich and zum Schluss, keeping the verb in second place.",
+    summary: "Put the events of a story in order with \"zuerst\", \"dann\", \"danach\", \"später\", \"schließlich\" and \"zum Schluss\", keeping the verb in second place.",
     duration: "13 min",
     sections: [
       {
@@ -49,7 +49,7 @@ export const DE_A2_U06: Lesson[] = [
         heading: "Und and aber don't count",
         body: [
           "Not every linking word takes a position. \"Und\" (and), \"aber\" (but), \"oder\" (or) and \"denn\" (because) sit in front of the sentence in position 0, outside the count. After them, the sentence starts normally: \"Und wir sind nach Hause gegangen\", \"Aber ich hatte keine Zeit\".",
-          "So compare: \"Dann sind wir gegangen\" (dann takes position 1, verb next) but \"Und wir sind gegangen\" (und doesn't count, subject first). You can also combine them: \"Und dann sind wir gegangen\": \"und\" is outside, \"dann\" is position 1.",
+          "So compare: \"Dann sind wir gegangen\" (\"dann\" takes position 1, verb next) but \"Und wir sind gegangen\" (\"und\" doesn't count, subject first). You can also combine them: \"Und dann sind wir gegangen\": \"und\" is outside, \"dann\" is position 1.",
           "\"Und dann\" is probably the most-used phrase in spoken German storytelling. Children's stories are strings of \"und dann... und dann...\".",
         ],
         examples: [
@@ -216,7 +216,7 @@ export const DE_A2_U06: Lesson[] = [
     level: "DE-A2",
     number: 2,
     title: "Seit: How Long Have You...?",
-    summary: "Use seit + dative with the present tense for things still going on, and ask seit wann? and wie lange schon?",
+    summary: "Say how long something has been going on with \"seit\" + dative and the present tense, and ask \"Seit wann...?\" and \"Wie lange ... schon?\"",
     duration: "13 min",
     sections: [
       {
@@ -256,7 +256,7 @@ export const DE_A2_U06: Lesson[] = [
       {
         heading: "Seit takes the dative",
         body: [
-          "\"Seit\" is a dative preposition, like \"mit\" and \"bei\". With time words that means: \"seit einem Jahr\" (das Jahr), \"seit einem Monat\" (der Monat), \"seit einer Woche\" (die Woche), \"seit einer Stunde\".",
+          "\"Seit\" is a dative preposition, like \"mit\" and \"bei\". With time words that means: \"seit einem Jahr\" (\"das Jahr\"), \"seit einem Monat\" (\"der Monat\"), \"seit einer Woche\" (\"die Woche\"), \"seit einer Stunde\".",
           "In the plural, the dative adds -n to the noun if it doesn't already end in -n or -s: \"seit zwei Jahren\", \"seit drei Tagen\", \"seit vier Monaten\". \"Wochen\", \"Stunden\" and \"Minuten\" already end in -n, so nothing changes. You'll study the whole dative in Unit 7; for now, learn these time phrases as fixed chunks.",
           "Days, months and years need no article: \"seit Montag\", \"seit Januar\", \"seit 2020\". And \"seit gestern\", \"seit heute Morgen\", \"seit letzter Woche\".",
         ],
@@ -425,7 +425,7 @@ export const DE_A2_U06: Lesson[] = [
     level: "DE-A2",
     number: 3,
     title: "Vor and Lang: Ago and For",
-    summary: "Say how long ago something happened with vor + dative, and how long a finished period lasted with lang, or a planned one with für.",
+    summary: "Say how long ago something happened with \"vor\" + dative, how long a finished period lasted with \"lang\", and how long a planned one will last with \"für\".",
     duration: "13 min",
     sections: [
       {
@@ -433,7 +433,7 @@ export const DE_A2_U06: Lesson[] = [
         body: [
           "English ago comes after the time: two days ago. German \"vor\" comes before it: \"vor zwei Tagen\". Think of it as before two days.",
           "\"Vor\" here takes the dative, so the forms are the same chunks you learned for \"seit\": \"vor einem Jahr\" (a year ago), \"vor einem Monat\", \"vor einer Woche\", \"vor einer Stunde\", and plurals with -n: \"vor zwei Jahren\", \"vor drei Tagen\", \"vor zehn Minuten\". Also \"vor Kurzem\" (recently) and \"vor langer Zeit\" (a long time ago).",
-          "It points to a moment in the past, so the verb is in the past: Perfekt for most verbs, Präteritum for sein, haben and the modals. \"Ich bin vor zwei Jahren nach Berlin gezogen\" (I moved to Berlin two years ago).",
+          "It points to a moment in the past, so the verb is in the past: Perfekt for most verbs, Präteritum for \"sein\", \"haben\" and the modals. \"Ich bin vor zwei Jahren nach Berlin gezogen\" (I moved to Berlin two years ago).",
         ],
         examples: [
           { es: "Ich bin vor zwei Jahren nach Berlin gezogen.", en: "I moved to Berlin two years ago." },
@@ -468,7 +468,7 @@ export const DE_A2_U06: Lesson[] = [
         body: [
           "For how long something lasted, when it's over, German uses the length on its own, often with \"lang\" after it: \"Ich habe drei Jahre lang in Bonn gewohnt\" (I lived in Bonn for three years). \"Lang\" is optional but makes the duration clear: \"Ich habe zwei Stunden gewartet\" = \"Ich habe zwei Stunden lang gewartet\".",
           "Here the time phrase is accusative, not dative: \"einen Monat lang\", \"eine Woche lang\", \"ein Jahr lang\", \"drei Tage lang\" (no -n!). Compare \"seit drei Tagen\" (dative, -n) with \"drei Tage lang\" (accusative, no -n).",
-          "Never use \"seit\" for a finished period, and never use English for literally: \"*für drei Jahre gewohnt*\" is a common English-speaker mistake. For a past duration, use \"lang\" or nothing.",
+          "Don't use \"seit\" for a finished period, and don't translate English for word for word: \"*für drei Jahre gewohnt*\" is a typical English-speaker slip (you may hear it, but it counts as an Anglicism). For a past duration, use \"lang\" or nothing.",
         ],
         examples: [
           { es: "Ich habe drei Jahre lang in Bonn gewohnt.", en: "I lived in Bonn for three years." },
@@ -609,6 +609,7 @@ export const DE_A2_U06: Lesson[] = [
         prompt: "Put the words in order to say: She recently got a new job.",
         words: ["Sie", "hat", "vor", "Kurzem", "einen", "neuen", "Job", "bekommen."],
         translation: "She recently got a new job.",
+        altOrders: [["Vor", "Kurzem", "hat", "sie", "einen", "neuen", "Job", "bekommen."]],
         explanation: "\"Vor Kurzem\" = recently; \"bekommen\" has no ge- because be- is inseparable.",
       },
       {
@@ -638,7 +639,7 @@ export const DE_A2_U06: Lesson[] = [
     level: "DE-A2",
     number: 4,
     title: "Contrast Clinic: Seit, Vor or Lang?",
-    summary: "Three ways to say for and ago: seit + present for still true, lang + past for a finished period, vor + dative for a point in the past, and für for a plan.",
+    summary: "Choose the right German for for and ago: \"seit\" + present for still true, \"lang\" + past for a finished period, \"vor\" + dative for a point in the past, and \"für\" for a plan.",
     duration: "12 min",
     sections: [
       {
@@ -813,6 +814,7 @@ export const DE_A2_U06: Lesson[] = [
         prompt: "Put the words in order to say: I've known him for ten years.",
         words: ["Ich", "kenne", "ihn", "seit", "zehn", "Jahren."],
         translation: "I've known him for ten years.",
+        altOrders: [["Seit", "zehn", "Jahren", "kenne", "ich", "ihn."]],
         explanation: "Still true: \"kenne\" (present) + \"seit zehn Jahren\".",
       },
       {
@@ -842,7 +844,7 @@ export const DE_A2_U06: Lesson[] = [
     level: "DE-A2",
     number: 5,
     title: "Pattern Practice: Als ich klein war, Immer wenn",
-    summary: "Two story frames with the verb at the end, learned as chunks: als ich klein war (once in the past) and immer wenn (every time), followed by verb-first main clauses.",
+    summary: "Use two story frames with the verb at the end, learned as chunks: \"als ich klein war\" (once in the past) and \"immer wenn\" (every time), each followed by a main clause that starts with its verb.",
     duration: "13 min",
     sections: [
       {
@@ -873,7 +875,7 @@ export const DE_A2_U06: Lesson[] = [
             en: "When I was ten, [we moved] to Bremen.",
             sentence: "Als ich zehn war, ___ nach Bremen gezogen.",
             answer: "sind wir",
-            explanation: "After the als clause, verb first: \"sind wir ... gezogen\". \"Ziehen\" (to move house) takes \"sein\".",
+            explanation: "After the \"als\" clause, verb first: \"sind wir ... gezogen\". \"Ziehen\" (to move house) takes \"sein\".",
           },
         ],
       },
@@ -944,7 +946,7 @@ export const DE_A2_U06: Lesson[] = [
             text: "Als ich klein war, hatte ich einen Hund.",
             prompt: "Say it in German: When I was little, I had a dog.",
             tip: "Pause slightly at the comma; then go straight to the verb \"hatte\".",
-            explanation: "The als clause ends in \"war\"; the main clause begins with \"hatte\".",
+            explanation: "The \"als\" clause ends in \"war\"; the main clause begins with \"hatte\".",
           },
         ],
       },
@@ -974,14 +976,14 @@ export const DE_A2_U06: Lesson[] = [
         en: "Whenever we had holidays, [we went] to the sea.",
         sentence: "Immer wenn wir Ferien hatten, ___ ans Meer gefahren.",
         answer: "sind wir",
-        explanation: "Verb first after the wenn clause: \"sind wir ... gefahren\".",
+        explanation: "Verb first after the \"wenn\" clause: \"sind wir ... gefahren\".",
       },
       {
         type: "multiple-choice",
         question: "Which sentence is correct?",
-        options: ["Als ich klein war, wohnte ich in Köln.", "Als ich klein war, ich wohnte in Köln.", "Als ich war klein, wohnte ich in Köln.", "Wenn ich klein war, ich habe in Köln gewohnt."],
+        options: ["Als ich klein war, habe ich in Köln gewohnt.", "Als ich klein war, ich habe in Köln gewohnt.", "Als ich war klein, habe ich in Köln gewohnt.", "Wenn ich klein war, ich habe in Köln gewohnt."],
         correctIndex: 0,
-        explanation: "Verb at the end of the als clause (\"war\"), then verb first in the main clause (\"wohnte ich\"). One period in the past needs \"als\", not \"wenn\".",
+        explanation: "Verb at the end of the \"als\" clause (\"war\"), then verb first in the main clause (\"habe ich\"). One period in the past needs \"als\", not \"wenn\".",
       },
       {
         type: "translate",
@@ -1006,7 +1008,7 @@ export const DE_A2_U06: Lesson[] = [
         prompt: "Put the words in order to say: Whenever I'm tired, I drink tea.",
         words: ["Immer", "wenn", "ich", "müde", "bin,", "trinke", "ich", "Tee."],
         translation: "Whenever I'm tired, I drink tea.",
-        explanation: "\"Wenn\" also works for habits in the present. Verb at the end of the wenn clause, verb first in the main clause.",
+        explanation: "\"Wenn\" also works for habits in the present. Verb at the end of the \"wenn\" clause, verb first in the main clause.",
       },
       {
         type: "listen-choose",
@@ -1041,7 +1043,7 @@ export const DE_A2_U06: Lesson[] = [
       {
         type: "dictation",
         audio: "Als ich klein war, war ich oft krank.",
-        explanation: "Two \"war\"s side by side: the first ends the als clause, the second starts the main clause.",
+        explanation: "Two \"war\"s side by side: the first ends the \"als\" clause, the second starts the main clause.",
       },
     ],
   },
@@ -1057,7 +1059,7 @@ export const DE_A2_U06: Lesson[] = [
         heading: "Reading a Zeitungsmeldung",
         body: [
           "A \"Meldung\" is a short news item, the kind you find in the local paper or on a city news website. It answers the W-questions: \"Was ist passiert?\" (what), \"wann?\" (when), \"wo?\" (where), \"wer?\" (who) and what happened next.",
-          "News items often open in the Perfekt, to announce the news (\"Gestern Abend ist in der Hauptstraße ein Unfall passiert\"), and then continue in the Präteritum, the written storytelling tense (\"Ein Radfahrer stürzte\"). At the Elementary level, recognise both; when you write your own, the Perfekt plus war / hatte is fine.",
+          "News items often open in the Perfekt, to announce the news (\"Gestern Abend ist in der Hauptstraße ein Unfall passiert\"), and then continue in the Präteritum, the written storytelling tense (\"Ein Radfahrer stürzte\"). At the Elementary level, recognise both; when you write your own, the Perfekt plus \"war\" / \"hatte\" is fine.",
           "Key vocabulary: \"der Unfall\" (accident), \"der Radfahrer\" (cyclist), \"stürzen\" (to fall, crash: \"ist gestürzt\"), \"verletzt\" (injured), \"leicht / schwer verletzt\" (slightly / seriously injured), \"die Feuerwehr\" (fire brigade), \"die Polizei\", \"das Krankenhaus\" (hospital), \"der Zeuge / die Zeugin\" (witness).",
         ],
         examples: [
@@ -1210,7 +1212,7 @@ export const DE_A2_U06: Lesson[] = [
         prompt: "Put the words in order to say: Then the police came.",
         words: ["Dann", "ist", "die", "Polizei", "gekommen."],
         translation: "Then the police came.",
-        explanation: "\"Dann\" first, auxiliary \"ist\" second (kommen takes sein), participle at the end.",
+        explanation: "\"Dann\" first, auxiliary \"ist\" second (\"kommen\" takes \"sein\"), participle at the end.",
       },
       {
         type: "translate",
@@ -1236,7 +1238,7 @@ export const DE_A2_U06: Lesson[] = [
         source: "He took the money to the police.",
         answer: "Er hat das Geld zur Polizei gebracht.",
         altAnswers: ["Er brachte das Geld zur Polizei."],
-        explanation: "\"Bringen\" is a mixed verb: \"gebracht\". \"Zur\" = zu der.",
+        explanation: "\"Bringen\" is a mixed verb: \"gebracht\". \"Zur\" = \"zu der\".",
       },
       {
         type: "speak",
@@ -1257,13 +1259,13 @@ export const DE_A2_U06: Lesson[] = [
     level: "DE-A2",
     number: 7,
     title: "Common Words: History, Conflict and Survival",
-    summary: "Talk about the past of a country or a family with Krieg, Frieden, Mauer, Grenze, fliehen, überleben and damals, and say years the German way.",
+    summary: "Talk about the past of a country or a family with \"Krieg\", \"Frieden\", \"Mauer\", \"Grenze\", \"fliehen\", \"überleben\" and \"damals\", and say years the German way.",
     duration: "13 min",
     sections: [
       {
         heading: "War, peace and borders",
         body: [
-          "Core nouns: \"der Krieg, die Kriege\" (war), \"der Frieden\" (peace), \"die Mauer, die Mauern\" (wall: \"die Mauer\" means the Berlin Wall), \"die Grenze, die Grenzen\" (border), \"das Land, die Länder\" (country), \"die Geschichte, die Geschichten\" (history, and also story).",
+          "Core nouns: \"der Krieg, die Kriege\" (war), \"der Frieden\" (peace), \"die Mauer, die Mauern\" (wall: \"die Mauer\" also means the Berlin Wall), \"die Grenze, die Grenzen\" (border), \"das Land, die Länder\" (country), \"die Geschichte, die Geschichten\" (history, and also story).",
           "That last one is useful: \"Geschichte\" means both the subject at school and a story you tell. \"Ich mag Geschichte\" (I like history) vs \"Erzähl mir eine Geschichte!\" (Tell me a story!).",
           "Time words for history: \"damals\" (back then, at that time), \"das Jahrhundert, die Jahrhunderte\" (century), \"früher\" (in the past), \"heute\" (today). \"Damals\" refers to a specific period you've already mentioned; \"früher\" is in general, the old days.",
         ],
@@ -1299,7 +1301,7 @@ export const DE_A2_U06: Lesson[] = [
         body: [
           "Three verbs for hard times. \"Fliehen\" (to flee, escape) is movement, so it takes \"sein\": \"Sie ist 1961 nach Westberlin geflohen\". \"Überleben\" (to survive) has the inseparable prefix über-, so no ge-: \"Er hat den Krieg überlebt\". \"Kämpfen\" (to fight) is regular: \"Sie haben für die Freiheit gekämpft\".",
           "Related nouns: \"die Flucht\" (escape, flight), \"der Flüchtling\" (refugee), \"die Freiheit\" (freedom), \"der Soldat, die Soldaten\" (soldier).",
-          "These verbs belong to serious family stories as well as history. \"Meine Großeltern sind nach dem Krieg aus Schlesien geflohen\" is a sentence many Germans could say about their own family.",
+          "These verbs belong to serious family stories as well as history. \"Meine Großeltern sind 1945 aus Schlesien geflohen\" is a sentence many Germans could say about their own family.",
         ],
         examples: [
           { es: "Sie ist 1961 nach Westberlin geflohen.", en: "She fled to West Berlin in 1961." },
@@ -1364,8 +1366,8 @@ export const DE_A2_U06: Lesson[] = [
             type: "speak",
             text: "Meine Eltern haben 1995 geheiratet.",
             prompt: "Say it in German: My parents got married in 1995.",
-            tip: "1995 = neunzehnhundertfünfundneunzig.",
-            explanation: "No \"in\" before the year; \"heiraten\" → \"geheiratet\" with haben.",
+            tip: "1995 = \"neunzehnhundertfünfundneunzig\".",
+            explanation: "No \"in\" before the year; \"heiraten\" → \"geheiratet\" with \"haben\".",
           },
         ],
       },
@@ -1400,9 +1402,9 @@ export const DE_A2_U06: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence is correct?",
-        options: ["Wir sind 2012 nach Leipzig gezogen.", "Wir sind in 2012 nach Leipzig gezogen.", "Wir sind am 2012 nach Leipzig gezogen.", "Wir sind um 2012 nach Leipzig gezogen gewesen."],
+        options: ["Wir sind 2012 nach Leipzig gezogen.", "Wir sind in 2012 nach Leipzig gezogen.", "Wir sind am 2012 nach Leipzig gezogen.", "Wir sind im 2012 nach Leipzig gezogen."],
         correctIndex: 0,
-        explanation: "A bare year with no preposition (or \"im Jahr 2012\"). \"*In 2012*\" is the classic English-speaker error.",
+        explanation: "A bare year with no preposition (or \"im Jahr 2012\": \"im\" needs the word \"Jahr\"). \"*In 2012*\" is the classic English-speaker error.",
       },
       {
         type: "translate",
@@ -1448,7 +1450,7 @@ export const DE_A2_U06: Lesson[] = [
         prompt: "Put the words in order to say: In the 20th century there were two world wars.",
         words: ["Im", "20.", "Jahrhundert", "gab", "es", "zwei", "Weltkriege."],
         translation: "In the 20th century there were two world wars.",
-        explanation: "\"Im 20. Jahrhundert\" (im zwanzigsten) in position 1, then \"gab es\".",
+        explanation: "\"Im 20. Jahrhundert\" (\"im zwanzigsten\") in position 1, then \"gab es\".",
       },
       {
         type: "translate",
@@ -1476,7 +1478,7 @@ export const DE_A2_U06: Lesson[] = [
     level: "DE-A2",
     number: 8,
     title: "Practice: Tell a Story from Start to Finish",
-    summary: "Recombine the Perfekt and Präteritum, connectors with verb-second, seit, vor and lang in a complete story about a holiday that went wrong.",
+    summary: "Tell a complete story about a holiday that went wrong, combining the Perfekt and Präteritum, connectors with the verb second, \"seit\", \"vor\" and \"lang\".",
     duration: "15 min",
     sections: [
       {
@@ -1508,7 +1510,7 @@ export const DE_A2_U06: Lesson[] = [
             en: "We [had] two weeks' holiday.",
             sentence: "Wir ___ zwei Wochen Urlaub.",
             answer: "hatten",
-            explanation: "\"Haben\" in the Präteritum for wir: \"hatten\".",
+            explanation: "\"Haben\" in the Präteritum for \"wir\": \"hatten\".",
           },
         ],
       },
@@ -1625,14 +1627,14 @@ export const DE_A2_U06: Lesson[] = [
         source: "When we arrived, it was raining.",
         answer: "Als wir angekommen sind, hat es geregnet.",
         altAnswers: ["Als wir ankamen, hat es geregnet.", "Als wir angekommen sind, regnete es.", "Als wir ankamen, regnete es."],
-        explanation: "\"Als\" + one moment in the past; the auxiliary goes to the very end of the als clause, and the main clause starts with its verb.",
+        explanation: "\"Als\" + one moment in the past; the auxiliary goes to the very end of the \"als\" clause, and the main clause starts with its verb.",
       },
       {
         type: "multiple-choice",
         question: "Which sentence is correct?",
-        options: ["Seit dem Urlaub fahre ich nicht mehr Zug.", "Seit dem Urlaub bin ich nicht mehr Zug gefahren gewesen.", "Seit dem Urlaub ich fahre nicht mehr Zug.", "Vor dem Urlaub fahre ich seit nicht mehr Zug."],
+        options: ["Seit dem Urlaub fahre ich nicht mehr Zug.", "Seit den Urlaub fahre ich nicht mehr Zug.", "Seit dem Urlaub ich fahre nicht mehr Zug.", "Vor dem Urlaub fahre ich nicht mehr Zug."],
         correctIndex: 0,
-        explanation: "\"Seit\" + present for something still true, and verb second after the time phrase.",
+        explanation: "\"Seit\" + dative (\"dem Urlaub\") + present for something still true, and verb second after the time phrase. \"Vor dem Urlaub\" (before the holiday) doesn't fit a present that's still going on.",
       },
       {
         type: "translate",
@@ -1694,6 +1696,6 @@ export const DE_A2_U06_WRITING: WriteExercise = {
     "Uses the Perfekt for actions and \"war\", \"hatte\" and the modals in the Präteritum",
   ],
   modelAnswer: "Vor vier Jahren bin ich von London nach Hamburg gezogen. Zuerst war alles schwierig: Ich hatte keine Wohnung und konnte kaum Deutsch. Ich habe drei Wochen lang bei einer Freundin gewohnt. Dann habe ich endlich eine kleine Wohnung in Altona gefunden. Danach habe ich einen Deutschkurs gemacht und viele nette Leute kennengelernt. Als ich meine erste Arbeit hatte, war ich sehr glücklich. Seit zwei Jahren arbeite ich jetzt in einem Hotel, und seitdem spreche ich jeden Tag Deutsch.",
-  explanation: "\"Vor vier Jahren\" points to the start, the connectors (\"zuerst\", \"dann\", \"danach\") are each followed by the verb, \"drei Wochen lang\" is a finished period, and \"seit zwei Jahren arbeite ich\" uses the present because it's still true. The als clause sends \"hatte\" to the end and the main clause starts with \"war\".",
+  explanation: "\"Vor vier Jahren\" points to the start, the connectors (\"zuerst\", \"dann\", \"danach\") are each followed by the verb, \"drei Wochen lang\" is a finished period, and \"seit zwei Jahren arbeite ich\" uses the present because it's still true. The \"als\" clause sends \"hatte\" to the end and the main clause starts with \"war\".",
 };
 

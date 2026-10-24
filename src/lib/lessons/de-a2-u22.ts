@@ -355,11 +355,11 @@ export const DE_A2_U22: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Is that the car [of your neighbour]? (he)",
+        en: "Is that the car [of your neighbour]? (a male neighbour; to a friend)",
         sentence: "Ist das das Auto ___?",
         answer: "deines Nachbarn",
         altAnswers: ["von deinem Nachbarn"],
-        explanation: "Genitive \"deines Nachbarn\" (Nachbar adds -n), or spoken \"von deinem Nachbarn\".",
+        explanation: "Genitive \"deines Nachbarn\" (\"Nachbar\" adds -n), or spoken \"von deinem Nachbarn\".",
       },
       {
         type: "translate",
@@ -371,7 +371,7 @@ export const DE_A2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which completes the sentence? Ich habe einen Brief ___ geschrieben.",
+        question: "Which completes the sentence? \"Ich habe einen Brief ___ geschrieben.\"",
         options: ["meiner alten Lehrerin", "meine alte Lehrerin", "meiner alte Lehrerin", "meinen alten Lehrerin"],
         correctIndex: 0,
         explanation: "The person you write to is dative: feminine \"meiner\" + -en.",
@@ -422,7 +422,7 @@ export const DE_A2_U22: Lesson[] = [
     level: "DE-A2",
     number: 3,
     title: "Cumulative Circuit 5: Describing People Then and Now",
-    summary: "Früher war er..., heute ist er...: adjective endings, comparisons and the Präteritum in descriptions of people.",
+    summary: "Describe how people were and how they are now (\"Früher war er...\", \"heute ist er...\") with adjective endings, comparisons and the Präteritum.",
     duration: "13 min",
     sections: [
       {
@@ -565,7 +565,6 @@ export const DE_A2_U22: Lesson[] = [
         prompt: "Translate into German.",
         source: "You're much taller than last year! (to a child)",
         answer: "Du bist viel größer als letztes Jahr!",
-        altAnswers: ["Ihr seid viel größer als letztes Jahr!"],
         explanation: "\"Viel\" + comparative; \"als\" for than.",
       },
       {
@@ -625,7 +624,7 @@ export const DE_A2_U22: Lesson[] = [
         heading: "At the restaurant and the doctor's",
         body: [
           "Restaurant: \"Haben Sie einen Tisch für zwei?\", \"Ich hätte gern...\", \"Was können Sie empfehlen?\", \"Die Rechnung, bitte\". Complaints are polite but direct: \"Entschuldigung, die Suppe ist kalt.\"",
-          "Doctor: you make an appointment (\"einen Termin machen\"), describe what hurts (\"Mein Hals tut weh\", \"Ich habe Fieber\") and since when (\"seit gestern\", \"seit drei Tagen\"). The doctor asks what's wrong (\"Was haben Sie denn?\", \"Wo tut es weh?\") and may write you off sick: \"Ich schreibe Sie krank.\"",
+          "Doctor: you make an appointment (\"einen Termin machen\"), describe what hurts (\"Mein Hals tut weh\", \"Ich habe Fieber\") and since when (\"seit gestern\", \"seit drei Tagen\"). The doctor asks what's wrong (\"Was haben Sie denn?\", \"Wo tut es weh?\") and may sign you off sick: \"Ich schreibe Sie krank.\"",
         ],
         examples: [
           { es: "Haben Sie einen Tisch für zwei Personen?", en: "Do you have a table for two?" },
@@ -764,7 +763,7 @@ export const DE_A2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "At the Bürgeramt you're asked for your Staatsangehörigkeit. What do they want?",
+        question: "At the \"Bürgeramt\" you're asked for your \"Staatsangehörigkeit\". What do they want?",
         options: ["Your nationality.", "Your date of birth.", "Your address.", "Your marital status."],
         correctIndex: 0,
         explanation: "\"Staatsangehörigkeit\" = nationality. Date of birth is \"Geburtsdatum\".",
@@ -816,7 +815,7 @@ export const DE_A2_U22: Lesson[] = [
     level: "DE-A2",
     number: 5,
     title: "Story Cloze: My Grandfather's Story",
-    summary: "A family story from 1960s Germany: fill in Präteritum and Perfekt forms, seit and vor, als and wenn.",
+    summary: "A family story from 1960s Germany: fill in Präteritum and Perfekt forms, \"seit\" and \"vor\", \"als\" and \"wenn\".",
     duration: "14 min",
     sections: [
       {
@@ -869,7 +868,7 @@ export const DE_A2_U22: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which word fills the gap? ___ er abends nach Hause kam, hat meine Oma immer gekocht.",
+            question: "Which word fills the gap? \"___ er abends nach Hause kam, hat meine Oma immer gekocht.\"",
             options: ["Wenn", "Als", "Wann", "Ob"],
             correctIndex: 0,
             explanation: "\"Immer\" shows it happened every time: repeated past events take \"wenn\".",
@@ -1014,7 +1013,7 @@ export const DE_A2_U22: Lesson[] = [
     level: "DE-A2",
     number: 6,
     title: "Mixed Practice: Translation Sprint",
-    summary: "Translate short English sentences that hide the classic traps: word order, cases, auxiliaries and will/werden.",
+    summary: "Translate short English sentences that hide the classic traps: word order, cases, auxiliaries and \"will\" / \"werden\".",
     duration: "13 min",
     sections: [
       {
@@ -1105,6 +1104,7 @@ export const DE_A2_U22: Lesson[] = [
             prompt: "Translate into German.",
             source: "When you're in Berlin, call me! (to a friend)",
             answer: "Wenn du in Berlin bist, ruf mich an!",
+            altAnswers: ["Ruf mich an, wenn du in Berlin bist!"],
             explanation: "A future occasion: \"wenn\"; then the imperative \"ruf ... an\".",
           },
           {
@@ -1494,7 +1494,7 @@ export const DE_A2_U22: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "Please [open] your mouth. (polite)",
+            en: "Please [open] your mouth. (formal)",
             sentence: "Machen Sie bitte den Mund ___.",
             answer: "auf",
             explanation: "\"Aufmachen\" is separable: in the imperative the prefix \"auf\" goes to the end.",
@@ -1832,7 +1832,7 @@ export const DE_A2_U22: Lesson[] = [
       {
         heading: "The middle field: time, manner, place",
         body: [
-          "Between the verb in position 2 and the end of the sentence lies the middle field. Its default order is time – manner – place, often remembered as TeKaMoLo (temporal, kausal, modal, lokal): \"Ich bin gestern mit dem Zug nach Bonn gefahren\" (when – how – where).",
+          "Between the verb in position 2 and the end of the sentence lies the middle field. Its default order is time – manner – place, often remembered as \"TeKaMoLo\" (time, cause, manner, place): \"Ich bin gestern mit dem Zug nach Bonn gefahren\" (when – how – where).",
           "English likes place before time (I went to Bonn yesterday); German prefers the reverse. Pronoun objects come early, right after the subject; \"nicht\" goes before the part it negates or near the end.",
         ],
         examples: [
@@ -2165,7 +2165,7 @@ export const DE_A2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which connector fits? ___ ich nach Berlin fahre, besuche ich immer meine Tante.",
+        question: "Which connector fits? \"___ ich nach Berlin fahre, besuche ich immer meine Tante.\"",
         options: ["Wenn", "Als", "Wann", "Dann"],
         correctIndex: 0,
         explanation: "Every time = \"wenn\".",
@@ -2309,7 +2309,7 @@ export const DE_A2_U22: Lesson[] = [
             type: "speak",
             text: "Ich bin 1995 in Manchester geboren.",
             prompt: "Say it in German: I was born in Manchester in 1995.",
-            tip: "Say the year in hundreds: neunzehnhundertfünfundneunzig.",
+            tip: "Say the year in hundreds: \"neunzehnhundertfünfundneunzig\".",
             explanation: "\"Ich bin ... geboren\" for living people; the year stands alone.",
           },
         ],

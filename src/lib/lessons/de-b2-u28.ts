@@ -8,7 +8,7 @@ export const DE_B2_U28: Lesson[] = [
     level: "DE-B2",
     number: 1,
     title: "Upper-Intermediate Challenge: The Konjunktiv Gauntlet",
-    summary: "Konjunktiv II present and past, the double infinitive, Konjunktiv I and als ob: twelve decisions without hints.",
+    summary: "Choose and form the right Konjunktiv without hints: Konjunktiv II present and past, the double infinitive, Konjunktiv I and \"als ob\".",
     duration: "16 min",
     sections: [
       {
@@ -187,7 +187,7 @@ export const DE_B2_U28: Lesson[] = [
         type: "speak",
         text: "Dürfte ich kurz Ihr Telefon benutzen?",
         prompt: "Say it in German, very politely: Might I use your phone for a moment?",
-        tip: "\"Dürfte\": long ü.",
+        tip: "\"Dürfte\": short ü: say the i of 'bit' with your lips rounded.",
         explanation: "\"Dürfte ich ...?\" is a very polite way to ask permission, more formal than \"Darf ich ...?\" or \"Könnte ich ...?\".",
       },
     ],
@@ -245,7 +245,7 @@ export const DE_B2_U28: Lesson[] = [
           { es: "Das Fenster lässt sich nicht öffnen.", en: "The window won't open." },
           { es: "Die Gebühr ist bar zu bezahlen.", en: "The fee must be paid in cash." },
           { es: "Das ist in zwei Wochen nicht machbar.", en: "That's not doable in two weeks." },
-          { es: "Sie bekam die Unterlagen nach Hause geschickt.", en: "She was sent the documents at home." },
+          { es: "Sie bekam die Unterlagen nach Hause geschickt.", en: "The documents were sent to her home." },
         ],
         checkpoint: [
           {
@@ -351,6 +351,7 @@ export const DE_B2_U28: Lesson[] = [
         prompt: "Put the words in order to say: The bridge is being renovated at the moment.",
         words: ["Die", "Brücke", "wird", "zurzeit", "renoviert."],
         translation: "The bridge is being renovated at the moment.",
+        altOrders: [["Zurzeit", "wird", "die", "Brücke", "renoviert."]],
         explanation: "Vorgangspassiv for an ongoing process.",
       },
       {
@@ -423,7 +424,7 @@ export const DE_B2_U28: Lesson[] = [
       {
         heading: "Warm-up: \"soll\" and \"will\"",
         body: [
-          "Hearsay without naming the source: \"soll\" (\"Der Minister soll zurücktreten\" = it's said he's going to resign; \"soll ... zurückgetreten sein\" = he's said to have resigned). A person's own claim: \"will\" (\"Er will den Unfall gesehen haben\" = he claims to have seen it).",
+          "Hearsay without naming the source: \"soll\" (\"Der Minister soll zurücktreten\" = it's said he's going to resign, or, in context, he is supposed to resign; \"soll ... zurückgetreten sein\" = he's said to have resigned). A person's own claim: \"will\" (\"Er will den Unfall gesehen haben\" = he claims to have seen it).",
           "Compare: \"Er sagt, er habe den Unfall gesehen\" (neutral report) vs \"Er will den Unfall gesehen haben\" (with doubt).",
         ],
         examples: [
@@ -465,7 +466,7 @@ export const DE_B2_U28: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Report in German: Jonas asked: 'Are you coming to the party?' (asked to me)",
+        prompt: "Report in German: Jonas asked me: 'Are you coming to the party?'",
         source: "Jonas asked whether I was coming to the party.",
         answer: "Jonas fragte, ob ich zur Party komme.",
         altAnswers: ["Jonas fragte, ob ich zur Party käme.", "Jonas hat gefragt, ob ich zur Party komme.", "Jonas fragte, ob ich auf die Party komme.", "Jonas hat gefragt, ob ich zur Party käme."],
@@ -494,7 +495,7 @@ export const DE_B2_U28: Lesson[] = [
         prompt: "Translate into German.",
         source: "The actress is said to have married in secret.",
         answer: "Die Schauspielerin soll heimlich geheiratet haben.",
-        altAnswers: ["Angeblich hat die Schauspielerin heimlich geheiratet."],
+        altAnswers: ["Angeblich hat die Schauspielerin heimlich geheiratet.", "Die Schauspielerin hat angeblich heimlich geheiratet."],
         explanation: "\"Soll\" + perfect infinitive.",
       },
       {
@@ -509,7 +510,7 @@ export const DE_B2_U28: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Report in German: She asked: 'Where have you been?' (asked to him)",
+        prompt: "Report in German: She asked him: 'Where have you been?'",
         source: "She asked where he had been.",
         answer: "Sie fragte, wo er gewesen sei.",
         altAnswers: ["Sie hat gefragt, wo er gewesen sei.", "Sie fragte, wo er gewesen ist.", "Sie fragte, wo er gewesen wäre."],
@@ -528,7 +529,7 @@ export const DE_B2_U28: Lesson[] = [
         prompt: "Translate into German.",
         source: "He claims to have seen the accident.",
         answer: "Er will den Unfall gesehen haben.",
-        altAnswers: ["Er behauptet, den Unfall gesehen zu haben.", "Er behauptet, er habe den Unfall gesehen."],
+        altAnswers: ["Er behauptet, den Unfall gesehen zu haben.", "Er behauptet, er habe den Unfall gesehen.", "Er behauptet, dass er den Unfall gesehen habe."],
         explanation: "\"Will\" + perfect infinitive.",
       },
       {
@@ -790,7 +791,7 @@ export const DE_B2_U28: Lesson[] = [
         heading: "Mittwoch: Im Containerhafen",
         body: [
           "On Wednesday Jana visits the container terminal at Altenwerder, one of the most automated in the world. Her guide, Frau Hansen, explains: \"Die Container werden von fahrerlosen Fahrzeugen transportiert. Früher waren für diese Arbeit Hunderte Menschen nötig.\"",
-          "The port in numbers: Hamburg is Germany's biggest port; ships come up the river Elbe about 100 km from the North Sea. \"Die Elbvertiefung\" (deepening the river so bigger ships can pass) has been debated for years: \"Ohne die Elbvertiefung könnten die größten Schiffe den Hafen nicht erreichen.\"",
+          "The port in numbers: Hamburg is Germany's biggest port; ships come up the river Elbe about 100 km from the North Sea. \"Die Elbvertiefung\" (deepening the river so bigger ships can pass) was fought over for years before it went ahead: \"Ohne die Elbvertiefung könnten die größten Schiffe den Hafen nicht erreichen.\"",
           "Grammar in Frau Hansen's tour: passives (\"werden ... verladen\": are loaded), participle attributes (\"die vollautomatisch gesteuerten Kräne\"), \"sich lassen\" (\"Das lässt sich heute alles vom Kontrollraum aus steuern\").",
         ],
         examples: [
@@ -824,7 +825,7 @@ export const DE_B2_U28: Lesson[] = [
       {
         heading: "Donnerstag: Mail an die Redaktion",
         body: [
-          "On Thursday evening Jana writes to her editor, Frau Wolf. They know each other well but work together, so she uses \"Sie\" with a friendly tone: \"Liebe Frau Wolf\" instead of \"Sehr geehrte\".",
+          "On Thursday evening Jana writes to her editor, Frau Wolf. They know each other well, but it's a work relationship, so she still uses \"Sie\", with the friendlier \"Liebe Frau Wolf\" instead of \"Sehr geehrte\".",
           "Her plan uses Futur II: \"Bis Samstag werde ich den Artikel fertig geschrieben haben.\" She mentions a regret: \"Ich hätte mehr Zeit für den Hafen einplanen sollen.\" And a request: \"Könnten Sie mir noch einen Fotografen schicken?\"",
           "\"Der Fotograf / die Fotografin\", \"die Reportage\" (feature report), \"die Frist\" or \"der Abgabetermin\" (deadline), \"verschieben\" (to postpone).",
         ],
@@ -965,8 +966,8 @@ export const DE_B2_U28: Lesson[] = [
       {
         heading: "Freitag: Sturmflutwarnung",
         body: [
-          "Friday morning Jana's phone sounds an alarm: \"Sturmflutwarnung für die Hamburger Elbe. Der Wasserstand soll am Abend bis zu drei Meter über dem mittleren Hochwasser liegen.\" The famous Fischmarkt in Altona is regularly flooded (\"überflutet\") when a storm surge (\"die Sturmflut\") pushes North Sea water up the Elbe.",
-          "Vocabulary: \"der Wasserstand\" or \"der Pegel\" (water level), \"der Deich\" (dyke), \"die Warnung\", \"die Feuerwehr\", \"evakuieren\", \"die Hochwasserschutzwand\" (flood wall), \"sperren\" (to close off). The infamous Sturmflut of 1962 killed 315 people in Hamburg; since then the dykes have been raised.",
+          "Friday morning Jana's phone sounds an alarm: \"Sturmflutwarnung für die Hamburger Elbe. Der Wasserstand soll am Abend bis zu drei Meter über dem mittleren Hochwasser liegen.\" The famous \"Fischmarkt\" in Altona is regularly flooded (\"überflutet\") when a storm surge (\"die Sturmflut\") pushes North Sea water up the Elbe.",
+          "Vocabulary: \"der Wasserstand\" or \"der Pegel\" (water level), \"der Deich\" (dyke), \"die Warnung\", \"die Feuerwehr\", \"evakuieren\", \"die Hochwasserschutzwand\" (flood wall), \"sperren\" (to close off). The infamous \"Sturmflut\" of 1962 killed 315 people in Hamburg; since then the dykes have been raised.",
           "The news uses \"soll\" for forecasts and reports (\"Der Wasserstand soll ... liegen\"), the passive (\"Der Fischmarkt wurde gesperrt\") and Konjunktiv I (\"Die Feuerwehr teilte mit, es bestehe keine Gefahr für Wohngebiete\").",
         ],
         examples: [
@@ -1074,10 +1075,10 @@ export const DE_B2_U28: Lesson[] = [
     exercises: [
       {
         type: "multiple-choice",
-        question: "Why is the Fischmarkt in Altona closed on Friday?",
-        options: ["A storm surge is expected to flood it.", "It's being renovated.", "There's a strike at the port.", "It only opens on Sundays."],
+        question: "Why is the \"Fischmarkt\" in Altona closed off on Friday?",
+        options: ["A storm surge is expected to flood it.", "It's being renovated.", "There's a strike at the port.", "A film is being shot there."],
         correctIndex: 0,
-        explanation: "\"Sturmflutwarnung\": the market is regularly flooded in storm surges.",
+        explanation: "\"Sturmflutwarnung\": the market by the Elbe is regularly flooded in storm surges, so it \"wurde gesperrt\" (was closed off).",
       },
       {
         type: "translate",
@@ -1372,7 +1373,7 @@ export const DE_B2_U28: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Goethe B2 Schreiben, Teil 1. In an online forum people are discussing: Should cities limit holiday rentals like Airbnb? Write a forum post of about 150 words. Give your opinion, at least two arguments, a concession of the other side and an example from your own experience.",
+        prompt: "Goethe B2 \"Schreiben\", part 1. In an online forum people are discussing: Should cities limit holiday rentals like Airbnb? Write a forum post of about 150 words. Give your opinion, at least two arguments, a concession of the other side and an example from your own experience.",
         minWords: 120,
         maxWords: 200,
         rubric: [
@@ -1397,7 +1398,7 @@ export const DE_B2_U28: Lesson[] = [
       {
         heading: "Lesen: ein Zeitungsartikel",
         body: [
-          "Read the article extract (all in German, as in the exam), then answer. \"Immer mehr junge Menschen in Deutschland entscheiden sich gegen ein Studium und für eine Ausbildung im Handwerk. Laut einer aktuellen Umfrage des Zentralverbands des Deutschen Handwerks sei die Zahl der neuen Auszubildenden im vergangenen Jahr um sechs Prozent gestiegen. Als Gründe nennen viele die guten Berufsaussichten und den Wunsch, etwas mit den Händen zu schaffen.\"",
+          "Read the article extract (all in German, as in the exam), then answer. \"Immer mehr junge Menschen in Deutschland entscheiden sich gegen ein Studium und für eine Ausbildung im Handwerk. Laut einer aktuellen Umfrage unter Handwerksbetrieben sei die Zahl der neuen Auszubildenden im vergangenen Jahr um sechs Prozent gestiegen. Als Gründe nennen viele die guten Berufsaussichten und den Wunsch, etwas mit den Händen zu schaffen.\"",
           "\"Dennoch bleiben zahlreiche Lehrstellen unbesetzt, vor allem in ländlichen Regionen. Ein Bäckermeister aus der Eifel sagt, er hätte gern zwei Lehrlinge eingestellt, habe aber keine einzige Bewerbung bekommen. Experten fordern deshalb, dass Schulen früher über handwerkliche Berufe informieren.\"",
           "Exam tip: questions follow the order of the text; look for synonyms (\"gestiegen\" = \"zugenommen\") rather than the same words.",
         ],
@@ -1554,7 +1555,7 @@ export const DE_B2_U28: Lesson[] = [
         prompt: "Translate into German.",
         source: "He's said to have emigrated to Canada.",
         answer: "Er soll nach Kanada ausgewandert sein.",
-        altAnswers: ["Angeblich ist er nach Kanada ausgewandert."],
+        altAnswers: ["Angeblich ist er nach Kanada ausgewandert.", "Er ist angeblich nach Kanada ausgewandert."],
         explanation: "\"Soll\" + perfect infinitive with sein.",
       },
       {
@@ -1581,7 +1582,7 @@ export const DE_B2_U28: Lesson[] = [
         prompt: "Translate into German.",
         source: "She acts as if she hadn't heard the question.",
         answer: "Sie tut so, als hätte sie die Frage nicht gehört.",
-        altAnswers: ["Sie tut so, als ob sie die Frage nicht gehört hätte.", "Sie tut, als hätte sie die Frage nicht gehört."],
+        altAnswers: ["Sie tut so, als ob sie die Frage nicht gehört hätte.", "Sie tut, als hätte sie die Frage nicht gehört.", "Sie tut so, als wenn sie die Frage nicht gehört hätte."],
         explanation: "\"Als\" + Konjunktiv II past.",
       },
       {
@@ -1632,7 +1633,7 @@ export const DE_B2_U28: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Goethe B2 Schreiben, Teil 2. Your German course has been moved to a later time without notice, and the new time clashes with your work. Write a formal email of about 100 words to the course organiser, Frau Schneider: explain the problem, ask for a solution and suggest an alternative.",
+        prompt: "Goethe B2 \"Schreiben\", part 2. Your German course has been moved to a later time without notice, and the new time clashes with your work. Write a formal email of about 100 words to the course organiser, Frau Schneider: explain the problem, ask for a solution and suggest an alternative.",
         minWords: 90,
         maxWords: 150,
         rubric: [
@@ -1655,10 +1656,10 @@ export const DE_B2_U28_WRITING: WriteExercise = {
   maxWords: 220,
   rubric: [
     "Uses the unreal past and the double infinitive for regrets (\"Hätte ich ... , wäre ...\", \"Ich hätte ... sollen\").",
-    "Reports what others said in Konjunktiv I (\"Meine Lehrerin meinte, ich habe ...\").",
+    "Reports what others said in Konjunktiv I, or Konjunktiv II where Konjunktiv I looks like the indicative (\"Meine Lehrerin meinte, ich hätte ...\", \"Mein Kollege sagt, mein Deutsch klinge ...\").",
     "Uses Futur II for future achievements (\"Bis ... werde ich ... gemacht haben\").",
     "Connects ideas with Upper-intermediate connectors and at least one participle attribute or passive (\"zwar ... aber\", \"trotzdem\", \"die mühsam gelernten Endungen\").",
   ],
-  modelAnswer: "Mein Weg bis hierher: ein Rückblick\n\nAls ich vor drei Jahren mit Deutsch angefangen habe, dachte ich, die Grammatik wäre das größte Problem. Zwar haben mich die Adjektivendungen lange gequält, aber am schwierigsten war eigentlich das Hörverstehen. Gerade die schnellen Gespräche in der Kantine habe ich anfangs kaum verstanden.\n\nIm Nachhinein hätte ich viel früher deutsche Podcasts hören sollen. Hätte ich nicht so lange nur mit dem Lehrbuch gearbeitet, wäre ich schneller vorangekommen. Trotzdem bereue ich nichts: Die mühsam gelernten Endungen sitzen jetzt.\n\nMeine Lehrerin meinte letzte Woche, ich habe mich besonders beim Schreiben enorm verbessert, und meine Kollegen sagen, ich spreche inzwischen, als hätte ich schon jahrelang in Köln gewohnt. Das ist natürlich übertrieben, aber es motiviert mich.\n\nMein nächstes Ziel ist das Goethe-Zertifikat C1. Bis zum nächsten Sommer werde ich hoffentlich zwei Romane auf Deutsch gelesen und die Prüfung bestanden haben. Und wer weiß: Vielleicht schreibe ich diesen Blog dann ganz ohne Wörterbuch.",
-  explanation: "Regrets use the double infinitive (\"hätte ... hören sollen\") and an unreal past without \"wenn\" (\"Hätte ich ..., wäre ich ... vorangekommen\"). The teacher's comment is in Konjunktiv I (\"ich habe mich ... verbessert\", \"ich spreche\"), followed by \"als hätte ich ... gewohnt\". Futur II (\"werde ... gelesen und ... bestanden haben\") looks ahead, and \"zwar ... aber\", \"trotzdem\", \"gerade\" and the participle attribute \"die mühsam gelernten Endungen\" give the text Upper-intermediate texture.",
+  modelAnswer: "Mein Weg bis hierher: ein Rückblick\n\nAls ich vor drei Jahren mit Deutsch angefangen habe, dachte ich, die Grammatik wäre das größte Problem. Zwar haben mich die Adjektivendungen lange gequält, aber am schwierigsten war eigentlich das Hörverstehen. Gerade die schnellen Gespräche in der Kantine habe ich anfangs kaum verstanden.\n\nIm Nachhinein hätte ich viel früher deutsche Podcasts hören sollen. Hätte ich nicht so lange nur mit dem Lehrbuch gearbeitet, wäre ich schneller vorangekommen. Trotzdem bereue ich nichts: Die mühsam gelernten Endungen sitzen jetzt.\n\nMeine Lehrerin meinte letzte Woche, ich hätte mich besonders beim Schreiben enorm verbessert, und meine Kollegen sagen, mein Deutsch klinge inzwischen, als hätte ich schon jahrelang in Köln gewohnt. Das ist natürlich übertrieben, aber es motiviert mich.\n\nMein nächstes Ziel ist das Goethe-Zertifikat C1. Bis zum nächsten Sommer werde ich hoffentlich zwei Romane auf Deutsch gelesen und die Prüfung bestanden haben. Und wer weiß: Vielleicht schreibe ich diesen Blog dann ganz ohne Wörterbuch.",
+  explanation: "Regrets use the double infinitive (\"hätte ... hören sollen\") and an unreal past without \"wenn\" (\"Hätte ich ..., wäre ich ... vorangekommen\"). The teacher's comment uses Konjunktiv II \"ich hätte mich ... verbessert\" (Konjunktiv I \"ich habe\" would look like the indicative), the colleagues' uses Konjunktiv I \"klinge\", followed by \"als hätte ich ... gewohnt\". Futur II (\"werde ... gelesen und ... bestanden haben\") looks ahead, and \"zwar ... aber\", \"trotzdem\", \"gerade\" and the participle attribute \"die mühsam gelernten Endungen\" give the text Upper-intermediate texture.",
 };

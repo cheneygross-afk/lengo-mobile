@@ -115,7 +115,7 @@ export const DE_C2_GUIDES: DeGrammarGuide[] = [
       "How German journalism and literature exploit the Konjunktiv: long stretches of Konjunktiv I reporting without a reporting verb, the indicative / Konjunktiv I / Konjunktiv II choice as a signal of distance, Konjunktiv I in wishes, recipes and definitions, and Konjunktiv II in narration.",
     level: "C2",
     intro: [
-      `In German, mood carries information that English expresses with words. A news report can run for a whole paragraph in Konjunktiv I without repeating "he said": the verb form alone tells the reader that every sentence is reported. A novelist can switch from indicative to Konjunktiv to move between what happened and what a character imagines.`,
+      `In German, mood carries information that English expresses with words. A news report can run for a whole paragraph in Konjunktiv I without repeating 'he said': the verb form alone tells the reader that every sentence is reported. A novelist can switch from indicative to Konjunktiv to move between what happened and what a character imagines.`,
       `At the Mastery level you need to read these signals instantly and produce them with control, especially in summaries, citations and reports.`,
     ],
     sections: [
@@ -487,7 +487,7 @@ export const DE_C2_GUIDES: DeGrammarGuide[] = [
       {
         heading: `False friends with English idioms`,
         body: [
-          `Some German idioms look like English ones but mean something else, and many English idioms cannot be translated word for word. "Ich habe einen Kater" means I have a hangover, not a cat. "Das ist mir Wurst" means I don't care. "Tomaten auf den Augen haben" means not to see the obvious. English it's raining cats and dogs is "Es regnet in Strömen" or "Es gießt wie aus Eimern".`,
+          `Some German idioms look like English ones but mean something else, and many English idioms cannot be translated word for word. "Ich habe einen Kater" means I have a hangover, not a cat. "Das ist mir Wurst" means I don't care. "Tomaten auf den Augen haben" means not to see the obvious. English it's raining cats and dogs is "Es regnet in Strömen" or "Es schüttet wie aus Eimern".`,
         ],
         table: {
           headers: ["German idiom", "Literal", "Meaning"],
@@ -911,7 +911,7 @@ export const DE_C2_GUIDES: DeGrammarGuide[] = [
     level: "C2",
     intro: [
       `Germans have a reputation for directness, and in many situations it is deserved. But German also has a full toolkit for saying unpleasant things gently, or for not quite saying them at all: "Es wurden Fehler gemacht" (mistakes were made), "Das ist nicht ganz optimal" (that's bad), "Wir trennen uns von 200 Mitarbeitern" (we are firing 200 people).`,
-      `At the Mastery level you need to decode this language in the press and at work, and to use the respectful forms yourself in condolences, feedback and delicate e-mails.`,
+      `At the Mastery level you need to decode this language in the press and at work, and to use the respectful forms yourself in condolences, feedback and delicate emails.`,
     ],
     sections: [
       {

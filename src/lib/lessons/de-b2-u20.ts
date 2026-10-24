@@ -8,14 +8,14 @@ export const DE_B2_U20: Lesson[] = [
     level: "DE-B2",
     number: 1,
     title: "Es as Placeholder and Cleft-Like Sentences",
-    summary: "Platzhalter-es in position 1, the correlate es before dass and zu clauses, and focus structures like Was mich stört, ist ...",
+    summary: "Use the placeholder \"es\" in position 1, the correlate \"es\" before dass- and zu-clauses, and focus structures like \"Was mich stört, ist ...\".",
     duration: "18 min",
     sections: [
       {
         heading: "Platzhalter-es: filling position 1",
         body: [
           "Sometimes you want the subject late in the sentence, because it's new or long: 'Many guests came.' German can start with \"es\" just to fill position 1: \"Es kamen viele Gäste.\" This \"es\" is not the subject; the real subject is \"viele Gäste\", so the verb is plural.",
-          "That's the key trap: the verb agrees with the real subject. \"Es fehlen noch drei Stühle\" (not \"*Es fehlt drei Stühle\"). \"Es ist ein Unfall passiert\" (singular).",
+          "That's the key trap: the verb agrees with the real subject. \"Es fehlen noch drei Stühle\" (not \"*Es fehlt drei Stühle*\"). \"Es ist ein Unfall passiert\" (singular).",
           "As soon as something else takes position 1, the placeholder \"es\" disappears: \"Gestern kamen viele Gäste.\" \"Noch fehlen drei Stühle.\" It also disappears in subordinate clauses: \"..., weil viele Gäste kamen.\"",
           "The same \"es\" is used with impersonal passives: \"Es wurde viel getanzt\" ('There was a lot of dancing') → \"Auf der Party wurde viel getanzt\" (no \"es\").",
         ],
@@ -51,7 +51,7 @@ export const DE_B2_U20: Lesson[] = [
         body: [
           "Many verbs and adjectives point forward to a clause with \"es\": \"Es ist schade, dass du nicht kommst.\" \"Ich finde es gut, dass ...\" \"Es freut mich, dass ...\" \"Ich habe es satt, immer zu warten.\" Here \"es\" stands for the following clause.",
           "If the clause comes first, \"es\" usually disappears: \"Dass du nicht kommst, ist schade.\" With \"es freut mich\" you can also say \"Mich freut, dass ...\" (rarer).",
-          "With \"finden\" the \"es\" is obligatory in the middle: \"Ich finde es wichtig, dass ...\" (not \"*Ich finde wichtig, dass ...\" in careful German).",
+          "With \"finden\" the \"es\" is obligatory in the middle: \"Ich finde es wichtig, dass ...\" (not \"*Ich finde wichtig, dass ...*\" in careful German).",
         ],
         examples: [
           { es: "Es ist schade, dass du nicht kommst.", en: "It's a pity you're not coming." },
@@ -84,9 +84,9 @@ export const DE_B2_U20: Lesson[] = [
         heading: "Cleft-like structures: focusing one element",
         body: [
           "English loves cleft sentences: 'It was Anna who called', 'What annoys me is the noise'. German has them too, but uses them less, because it can simply move or stress elements.",
-          "Pseudo-cleft with was / \"wer\": \"Was mich stört, ist der Lärm.\" \"Wer angerufen hat, war Anna.\" \"Das, was ich brauche, ist Ruhe.\" Identifying: \"Der Einzige, der helfen konnte, war mein Bruder.\" \"Das ist genau das, was ich meine.\"",
+          "Pseudo-cleft with \"was\" / \"wer\": \"Was mich stört, ist der Lärm.\" \"Wer angerufen hat, war Anna.\" \"Das, was ich brauche, ist Ruhe.\" Identifying: \"Der Einzige, der helfen konnte, war mein Bruder.\" \"Das ist genau das, was ich meine.\"",
           "Es-cleft: \"Es war Anna, die angerufen hat.\" It's correct but heavier than English; in speech Germans often just stress: \"ANNA hat angerufen.\" Note that the verb agrees: \"Es waren meine Eltern, die ...\" (plural).",
-          "Traps: don't translate 'It was Anna who called' word by word with \"wer\" (\"*Es war Anna, wer angerufen hat\"): use a relative pronoun (\"die\" / \"der\" / \"das\"). And \"*Es fehlt drei Stühle\": the verb follows the real subject.",
+          "Traps: don't translate 'It was Anna who called' word by word with \"wer\" (\"*Es war Anna, wer angerufen hat*\"): use a relative pronoun (\"die\" / \"der\" / \"das\"). And \"*Es fehlt drei Stühle*\": the verb follows the real subject.",
         ],
         examples: [
           { es: "Was mich stört, ist der Lärm.", en: "What bothers me is the noise." },
@@ -141,7 +141,6 @@ export const DE_B2_U20: Lesson[] = [
         prompt: "Translate into German, starting with \"Es\".",
         source: "We're still three chairs short.",
         answer: "Es fehlen noch drei Stühle.",
-        altAnswers: ["Uns fehlen noch drei Stühle.", "Noch fehlen drei Stühle."],
         explanation: "Plural verb: the real subject is \"drei Stühle\".",
       },
       {
@@ -217,13 +216,13 @@ export const DE_B2_U20: Lesson[] = [
     level: "DE-B2",
     number: 2,
     title: "Contrast Clinic: Neutral or Emphatic",
-    summary: "Anna hat angerufen / Es war Anna, die angerufen hat / Anna war es, die angerufen hat / Wer angerufen hat, war Anna: when each is natural.",
+    summary: "Choose between \"Anna hat angerufen\", \"Es war Anna, die angerufen hat\", \"Anna war es, die angerufen hat\" and \"Wer angerufen hat, war Anna\", and know when each is natural.",
     duration: "15 min",
     sections: [
       {
         heading: "Four ways to say who called",
         body: [
-          "1) \"Anna hat angerufen.\" Neutral; with stress on ANNA it already answers 'Who called?'. This is by far the most common in speech.",
+          "1) \"Anna hat angerufen.\" Neutral; with stress on \"ANNA\" it already answers 'Who called?'. This is by far the most common in speech.",
           "2) \"Es war Anna, die angerufen hat.\" Es-cleft: emphasises Anna, often correcting someone ('it was Anna, not Lisa'). More common in writing and storytelling.",
           "3) \"Anna war es, die angerufen hat.\" The same with Anna in front: even stronger focus, typical of speech when you insist.",
           "4) \"Wer angerufen hat, war Anna.\" Pseudo-cleft: builds suspense, the answer comes at the end. Common in narratives and when you've been asked the question.",
@@ -258,7 +257,7 @@ export const DE_B2_U20: Lesson[] = [
         heading: "Agreement and pronouns in cleft sentences",
         body: [
           "In \"Es war/waren X, der/die/das ...\", the verb \"sein\" agrees with X: \"Es waren die Nachbarn, die sich beschwert haben.\" The relative pronoun agrees with X in gender and number.",
-          "With personal pronouns: \"Ich war es, der das gesagt hat\" (or \"die\" for a woman). Not \"*Es war ich\" in normal German; the pronoun goes first: \"Ich war's.\" 'It was me.'",
+          "With personal pronouns: \"Ich war es, der das gesagt hat\" (or \"die\" for a woman). Not \"*Es war ich*\" in normal German; the pronoun goes first: \"Ich war's.\" 'It was me.'",
           "In the relative clause, the verb is third person even after ich: \"Ich war es, der das gesagt hat\" (some speakers say \"der ich das gesagt habe\", but it sounds old-fashioned).",
         ],
         examples: [
@@ -407,7 +406,7 @@ export const DE_B2_U20: Lesson[] = [
     level: "DE-B2",
     number: 3,
     title: "Circuit: Was für ein Tag!, Ist das schön!, Wie gut sie singt!",
-    summary: "Exclamations with was für ein, wie with the verb at the end, verb-first exclamations and the modal particles aber, ja and vielleicht.",
+    summary: "Make exclamations with \"was für ein\", with \"wie\" and the verb at the end, with the verb first, and with the modal particles \"aber\", \"ja\" and \"vielleicht\".",
     duration: "15 min",
     sections: [
       {
@@ -544,7 +543,6 @@ export const DE_B2_U20: Lesson[] = [
         prompt: "Translate into German using \"vielleicht\".",
         source: "What chaos that was!",
         answer: "Das war vielleicht ein Chaos!",
-        altAnswers: ["Was war das für ein Chaos!", "Was für ein Chaos das war!"],
         explanation: "Intensifying \"vielleicht\".",
       },
       {
@@ -720,6 +718,7 @@ export const DE_B2_U20: Lesson[] = [
         prompt: "Translate into German.",
         source: "We need not only new ideas but also the courage to implement them.",
         answer: "Wir brauchen nicht nur neue Ideen, sondern auch den Mut, sie umzusetzen.",
+        altAnswers: ["Wir brauchen nicht nur neue Ideen, sondern auch Mut, sie umzusetzen."],
         explanation: "\"Nicht nur ..., sondern auch\".",
       },
       {
@@ -758,7 +757,7 @@ export const DE_B2_U20: Lesson[] = [
       {
         type: "multiple-choice",
         question: "You want to say: If we had more money, we could build more. Which sentence leaves out \"wenn\" correctly?",
-        options: ["Hätten wir mehr Geld, könnten wir mehr bauen.", "Wir hätten mehr Geld, könnten wir mehr bauen.", "Hätten wir mehr Geld, wir könnten mehr bauen.", "Wenn hätten wir mehr Geld, könnten wir mehr bauen."],
+        options: ["Hätten wir mehr Geld, könnten wir mehr bauen.", "Wir hätten mehr Geld, könnten wir mehr bauen.", "Hätten wir mehr Geld, wir mehr bauen könnten.", "Wenn hätten wir mehr Geld, könnten wir mehr bauen."],
         correctIndex: 0,
         explanation: "Verb first in the condition, then verb first in the main clause.",
       },
@@ -968,6 +967,7 @@ export const DE_B2_U20: Lesson[] = [
         prompt: "Put the words in order to say: I never would have thought that I'd repair bikes one day.",
         words: ["Ich", "hätte", "nie", "gedacht,", "dass", "ich", "einmal", "Fahrräder", "repariere."],
         translation: "I never would have thought that I'd repair bikes one day.",
+        altOrders: [["Nie", "hätte", "ich", "gedacht,", "dass", "ich", "einmal", "Fahrräder", "repariere."]],
         explanation: "Konjunktiv II past, then a dass-clause.",
       },
       {
@@ -1047,7 +1047,7 @@ export const DE_B2_U20: Lesson[] = [
             prompt: "Translate into German using \"da\".",
             source: "Since the competition is cheaper, they had to react.",
             answer: "Da die Konkurrenz billiger ist, musste man reagieren.",
-            altAnswers: ["Da die Konkurrenz billiger ist, musste die Firma reagieren.", "Weil die Konkurrenz billiger ist, musste man reagieren.", "Da die Konkurrenz günstiger ist, musste man reagieren."],
+            altAnswers: ["Da die Konkurrenz billiger ist, musste die Firma reagieren.", "Da die Konkurrenz günstiger ist, musste man reagieren."],
             explanation: "Da-clause first, then the verb.",
           },
           {
@@ -1057,7 +1057,7 @@ export const DE_B2_U20: Lesson[] = [
             sentence: "___ setzt die Firma auf Roboter.",
             answer: "Wegen des Fachkräftemangels",
             altAnswers: ["Aufgrund des Fachkräftemangels"],
-            explanation: "Wegen / aufgrund + genitive.",
+            explanation: "\"Wegen\" / \"aufgrund\" + genitive: \"des Fachkräftemangels\" (masculine, -s ending).",
           },
         ],
       },
@@ -1214,7 +1214,7 @@ export const DE_B2_U20: Lesson[] = [
             prompt: "Answer in German, starting with \"Das\".",
             source: "Who did that? – Lisa did.",
             answer: "Das hat Lisa gemacht.",
-            altAnswers: ["Lisa.", "Lisa hat das gemacht.", "Das war Lisa."],
+            altAnswers: ["Lisa hat das gemacht.", "Das war Lisa."],
             explanation: "Known \"das\" first, answer last.",
           },
         ],
@@ -1281,7 +1281,7 @@ export const DE_B2_U20: Lesson[] = [
             prompt: "Translate into German with \"selbst\".",
             source: "Even my grandma has a smartphone.",
             answer: "Selbst meine Oma hat ein Smartphone.",
-            altAnswers: ["Sogar meine Oma hat ein Smartphone.", "Selbst meine Großmutter hat ein Smartphone.", "Sogar meine Großmutter hat ein Smartphone.", "Sogar meine Oma hat ein Handy.", "Selbst meine Oma hat ein Handy."],
+            altAnswers: ["Selbst meine Großmutter hat ein Smartphone.", "Selbst meine Oma hat ein Handy."],
             explanation: "\"Selbst\" / \"sogar\" before the surprising element.",
           },
         ],
@@ -1321,7 +1321,7 @@ export const DE_B2_U20: Lesson[] = [
         prompt: "Translate into German with \"sogar\".",
         source: "Even the boss joined in the party!",
         answer: "Sogar der Chef hat mitgefeiert!",
-        altAnswers: ["Selbst der Chef hat mitgefeiert!", "Sogar die Chefin hat mitgefeiert!", "Selbst die Chefin hat mitgefeiert!"],
+        altAnswers: ["Sogar die Chefin hat mitgefeiert!"],
         explanation: "\"Sogar\" marks the surprise.",
       },
       {
@@ -1401,7 +1401,7 @@ export const DE_B2_U20: Lesson[] = [
             sentence: "Die Miete ist bis Monatsende ___.",
             answer: "zu bezahlen",
             altAnswers: ["zu zahlen"],
-            explanation: "\"sein + zu\" + infinitive = must be done.",
+            explanation: "\"Sein + zu\" + infinitive = must be done.",
           },
           {
             type: "multiple-choice",
@@ -1416,7 +1416,7 @@ export const DE_B2_U20: Lesson[] = [
         heading: "Passive alternatives: the toolkit",
         body: [
           "Four ways to avoid werden-passive: \"man\" (\"Man kann die Wohnung ab Mai beziehen\"), \"sich lassen\" + infinitive (\"Die Fenster lassen sich leicht öffnen\"), \"-bar\" adjectives (\"Die Wohnung ist ab Mai beziehbar\", rare; better \"bezugsfertig\"), and \"sein + zu + infinitive\" (necessity or possibility: \"Die Kaution ist vorher zu überweisen\").",
-          "Common mistakes: \"*lässt sich erreichbar\" (mixing two structures), \"*zu bezahlt\" (\"zu\" + infinitive, not participle), \"*benutzen bar\" (-bar attaches to the verb stem: \"benutzbar\").",
+          "Common mistakes: \"*lässt sich erreichbar*\" (mixing two structures), \"*zu bezahlt*\" (\"zu\" + infinitive, not participle), \"*benutzen bar*\" (-bar attaches to the verb stem: \"benutzbar\").",
         ],
         examples: [
           { es: "Man kann die Wohnung ab Mai beziehen.", en: "You can move into the flat from May." },
@@ -1433,7 +1433,7 @@ export const DE_B2_U20: Lesson[] = [
             source: "The windows open easily.",
             answer: "Die Fenster lassen sich leicht öffnen.",
             altAnswers: ["Die Fenster lassen sich einfach öffnen.", "Die Fenster lassen sich gut öffnen."],
-            explanation: "\"sich lassen\" + infinitive for 'can be done'.",
+            explanation: "\"Sich lassen\" + infinitive for 'can be done'.",
           },
           {
             type: "translate",
@@ -1442,7 +1442,7 @@ export const DE_B2_U20: Lesson[] = [
             source: "The deposit must be transferred in advance.",
             answer: "Die Kaution ist vorher zu überweisen.",
             altAnswers: ["Die Kaution ist im Voraus zu überweisen.", "Die Kaution ist vorab zu überweisen."],
-            explanation: "\"sein + zu\" + infinitive = must be done.",
+            explanation: "\"Sein + zu\" + infinitive = must be done.",
           },
         ],
       },
@@ -1553,7 +1553,7 @@ export const DE_B2_U20: Lesson[] = [
       {
         type: "dictation",
         audio: "Die Kaution ist vor dem Einzug zu überweisen.",
-        explanation: "\"sein + zu\" + infinitive; \"der Einzug\" = moving in.",
+        explanation: "\"Sein + zu\" + infinitive; \"der Einzug\" = moving in.",
       },
       {
         type: "speak",
@@ -1592,7 +1592,7 @@ export const DE_B2_U20: Lesson[] = [
             prompt: "Translate into German with \"sogar\".",
             source: "Even artists from Japan painted here.",
             answer: "Sogar Künstler aus Japan haben hier gemalt.",
-            altAnswers: ["Selbst Künstler aus Japan haben hier gemalt.", "Sogar Künstler aus Japan malten hier.", "Sogar Künstlerinnen und Künstler aus Japan haben hier gemalt."],
+            altAnswers: ["Sogar Künstler aus Japan malten hier.", "Sogar Künstlerinnen und Künstler aus Japan haben hier gemalt."],
             explanation: "\"Sogar\" right before what it focuses.",
           },
           {
@@ -1667,7 +1667,7 @@ export const DE_B2_U20: Lesson[] = [
             prompt: "Translate into German with \"gerade\".",
             source: "It's the small paintings in particular that I find exciting.",
             answer: "Gerade die kleinen Bilder finde ich spannend.",
-            altAnswers: ["Gerade die kleinen Bilder finde ich interessant.", "Besonders die kleinen Bilder finde ich spannend."],
+            altAnswers: ["Gerade die kleinen Bilder finde ich interessant."],
             explanation: "\"Gerade\" focuses \"die kleinen Bilder\".",
           },
         ],
@@ -1707,7 +1707,7 @@ export const DE_B2_U20: Lesson[] = [
         prompt: "Translate into German with \"selbst\".",
         source: "Even the city makes money from the tourists.",
         answer: "Selbst die Stadt verdient an den Touristen.",
-        altAnswers: ["Sogar die Stadt verdient an den Touristen.", "Selbst die Stadt verdient Geld mit den Touristen.", "Sogar die Stadt verdient Geld mit den Touristen."],
+        altAnswers: ["Selbst die Stadt verdient Geld mit den Touristen."],
         explanation: "\"Verdienen an\" + dative = make money from.",
       },
       {
@@ -1762,7 +1762,7 @@ export const DE_B2_U20: Lesson[] = [
     level: "DE-B2",
     number: 10,
     title: "Spiral Review: Regret, Reproach or Supposition?",
-    summary: "Spaced review of Units 2 and 14-15: hätte ... sollen, du hättest ... können, muss ... haben, wird ... haben.",
+    summary: "Spaced review of Units 2 and 14-15: tell regret, reproach and supposition apart (\"hätte ... sollen\", \"du hättest ... können\", \"muss ... haben\", \"wird ... haben\").",
     duration: "14 min",
     sections: [
       {
@@ -1889,7 +1889,6 @@ export const DE_B2_U20: Lesson[] = [
         prompt: "Translate into German using \"könnte\".",
         source: "He might have forgotten the appointment.",
         answer: "Er könnte den Termin vergessen haben.",
-        altAnswers: ["Er kann den Termin vergessen haben.", "Er hat den Termin vielleicht vergessen."],
         explanation: "\"Könnte\" = possibly.",
       },
       {
@@ -1956,7 +1955,7 @@ export const DE_B2_U20: Lesson[] = [
     level: "DE-B2",
     number: 11,
     title: "Upper-Intermediate Vocabulary Practice, Part 9 of 10",
-    summary: "Test the Upper-intermediate vocabulary from Units 19-20: reviews, emotions, crafts, automation and art.",
+    summary: "Test the B2 vocabulary from Units 19-20: reviews, emotions, crafts, automation and art.",
     duration: "15 min",
     sections: [
       {
@@ -2076,6 +2075,7 @@ export const DE_B2_U20: Lesson[] = [
         prompt: "Translate into German.",
         source: "She was stunned.",
         answer: "Sie war fassungslos.",
+        altAnswers: ["Sie war sprachlos."],
         explanation: "\"Fassungslos\" = speechless with shock.",
       },
       {
@@ -2185,8 +2185,8 @@ export const DE_B2_U20: Lesson[] = [
             prompt: "Translate into German using \"sich lassen\".",
             source: "That's easy to explain.",
             answer: "Das lässt sich leicht erklären.",
-            altAnswers: ["Das lässt sich einfach erklären.", "Das ist leicht zu erklären.", "Das ist einfach zu erklären."],
-            explanation: "\"sich lassen\" + infinitive.",
+            altAnswers: ["Das lässt sich einfach erklären."],
+            explanation: "\"Sich lassen\" + infinitive.",
           },
         ],
       },
@@ -2307,26 +2307,26 @@ export const DE_B2_U20: Lesson[] = [
         en: "[The devices that need repairing] are in the basement.",
         sentence: "___ stehen im Keller.",
         answer: "Die zu reparierenden Geräte",
-        explanation: "zu + present participle.",
+        explanation: "\"Zu\" + present participle as an attribute = that must be done: the devices are still waiting to be repaired.",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: The renovated house is barely recognisable.",
         words: ["Das", "renovierte", "Haus", "ist", "kaum", "wiederzuerkennen."],
         translation: "The renovated house is barely recognisable.",
-        explanation: "\"sein + zu\": \"wiederzuerkennen\" in one word.",
+        explanation: "\"Sein + zu\": \"wiederzuerkennen\" in one word.",
       },
       {
         type: "multiple-choice",
         question: "Which is a state (Zustandspassiv)?",
         options: ["Die Tür ist geschlossen.", "Die Tür wird geschlossen.", "Man schließt die Tür.", "Die Tür lässt sich schließen."],
         correctIndex: 0,
-        explanation: "\"sein\" + participle = result state.",
+        explanation: "\"Sein\" + participle = the resulting state; \"wird geschlossen\" is the action, and \"man schließt\" / \"lässt sich schließen\" are active or modal alternatives.",
       },
       {
         type: "dictation",
         audio: "Das ist ja nicht zu glauben!",
-        explanation: "\"sein + zu\" + infinitive as an exclamation.",
+        explanation: "\"Sein + zu\" + infinitive as an exclamation.",
       },
       {
         type: "speak",

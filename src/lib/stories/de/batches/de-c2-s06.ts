@@ -33,7 +33,7 @@ export const DE_C2_S06_STORIES: Story[] = [
         explanation: `"Liesl hatte darauf eine Minute lang geschwiegen und dann 73 gegeben, und er hatte es nie wieder versucht."`,
       },
       {
-        question: `What did the nurses think Liesl's tapping fingers were?`,
+        question: `What did the care home say Liesl's tapping fingers were?`,
         options: [`A sign that she wanted water`, `A neurological symptom`, `A game she played`, `Her way of counting the hours`],
         correctIndex: 1,
         explanation: `The nurse says "Der Doktor sagt, das ist neurologisch", but Jens hears Morse: "CQ, CQ, hier OE9LMH."`,
@@ -82,7 +82,7 @@ export const DE_C2_S06_STORIES: Story[] = [
       },
       {
         question: `What is the irony of Fugger's entry "Ist auch eine Wahl"?`,
-        options: [`He is admitting that the emperor's election was illegal.`, `He is joking that the widow will vote for him.`, `"Wahl" means both "election" and "choice": the alms for his soul are another kind of election he is paying for.`, `He means the narrator must choose a new job.`],
+        options: [`He is admitting that the emperor's election was illegal.`, `He is joking that the widow will vote for him.`, `"Wahl" means both 'election' and 'choice': the alms for his soul are another kind of election he is paying for.`, `He means the narrator must choose a new job.`],
         correctIndex: 2,
         explanation: `He books the money "für die Seele" right under the bribes for the electors, and in the Fuggerei the poor say "täglich drei Gebete für die Seele des Stifters".`,
       },
@@ -120,7 +120,7 @@ export const DE_C2_S06_STORIES: Story[] = [
         question: `What did they do with the ice?`,
         options: [`They took it to a laboratory in Innsbruck.`, `They carried it up to where the glacier used to be and let it melt there.`, `They buried it in the snow.`, `They kept it in a cool box until the power came back.`],
         correctIndex: 1,
-        explanation: `They took it to the place where "im Jahr 2000 noch das Eis gelegen hatte" and laid it on a flat stone until "das Eis fort" was.`,
+        explanation: `They took it to the place where "im Jahr 2000 noch das Eis gelegen hatte" and laid it on a flat stone, and by half past six "war das Eis fort".`,
       },
       {
         question: `What does Mira's sign mean by "Die Luft habe ich"?`,
@@ -148,7 +148,7 @@ export const DE_C2_S06_STORIES: Story[] = [
     questions: [
       {
         question: `What does Frau Pietzsch's "Nu" mean?`,
-        options: [`Always "yes"`, `It depends on her tone: agreement, doubt or devastating criticism.`, `Always "no"`, `It is simply a nervous habit with no meaning.`],
+        options: [`Always 'yes'`, `It depends on her tone: agreement, doubt or devastating criticism.`, `Always 'no'`, `It is simply a nervous habit with no meaning.`],
         correctIndex: 1,
         explanation: `Her "Nu" could mean "je nach Zusammenhang Zustimmung, Zweifel oder eine vernichtende Kritik der praktischen Vernunft".`,
       },

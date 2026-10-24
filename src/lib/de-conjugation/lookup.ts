@@ -5,7 +5,7 @@
 // English meaning ("to begin" -> anfangen, beginnen).
 
 import { conjugate, deSpecFor, splitReflexive } from "./conjugate";
-import { deVerbSlug, foldForSearch, transliterate } from "./text";
+import { deVerbSlug, foldEnglishSpelling, foldForSearch, transliterate } from "./text";
 import { IMP_PERSONS, PERSONS6, TENSES, type Person, type TenseId, type VerbKind } from "./types";
 import { DE_VERB_SPECS, specInfinitive, type DeVerbSpec } from "./verbs";
 
@@ -234,13 +234,15 @@ export function searchDeVerbs(query: string, limit = 12): DeVerbSearchResult[] {
     }
   }
   if (q.length >= 3) {
-    const needle = q.startsWith("to ") ? q : `to ${q}`;
+    // British glosses, American spellings welcome: "recognize" finds "to recognise".
+    const eq = foldEnglishSpelling(q);
+    const needle = eq.startsWith("to ") ? eq : `to ${eq}`;
     const esc = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-    const re = new RegExp(`(^|[^a-z])(${esc(needle)}|${esc(q)})($|[^a-z])`);
+    const re = new RegExp(`(^|[^a-z])(${esc(needle)}|${esc(eq)})($|[^a-z])`);
     for (const v of verbs) {
       const spec = specOf(v.infinitive)!;
-      if (re.test(v.en.toLowerCase())) push({ infinitive: v.infinitive, en: v.en, known: true, via: "english" });
-      else if (spec.enRefl && re.test(spec.enRefl.toLowerCase())) push({ infinitive: `sich ${spec.inf}`, en: spec.enRefl, known: true, via: "english" });
+      if (re.test(foldEnglishSpelling(v.en))) push({ infinitive: v.infinitive, en: v.en, known: true, via: "english" });
+      else if (spec.enRefl && re.test(foldEnglishSpelling(spec.enRefl))) push({ infinitive: `sich ${spec.inf}`, en: spec.enRefl, known: true, via: "english" });
     }
   }
   if (out.length === 0) {

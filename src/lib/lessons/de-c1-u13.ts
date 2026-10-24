@@ -4,7 +4,7 @@ import type { Lesson, WriteExercise } from "./types";
 
 export const DE_C1_U13_WRITING: WriteExercise = {
   type: "write",
-  prompt: "The team workshop you organised for next Thursday has to be moved to the following Monday because the venue double-booked the room. Write two messages: first a formal email to an external client, Dr. Katharina Brandt, who was going to attend (Sie, formal formulas, polite Konjunktiv II), then a short chat message to your colleague Jonas, with whom you are on du terms (neutral to colloquial). Give the new date, the reason, and ask each of them to confirm.",
+  prompt: "The team workshop you organised for next Thursday has to be moved to the following Monday because the venue double-booked the room. Write two messages: first a formal email to an external client, Dr Katharina Brandt, who was going to attend (Sie, formal formulas, polite Konjunktiv II), then a short chat message to your colleague Jonas, with whom you are on du terms (neutral to colloquial). Give the new date, the reason, and ask each of them to confirm.",
   minWords: 180,
   maxWords: 300,
   rubric: [
@@ -41,7 +41,7 @@ export const DE_C1_U13: Lesson[] = [
           { es: "Die Gäste speisen im Wintergarten.", en: "The guests are dining in the conservatory." },
           { es: "Die Kinder haben alle Kekse weggefuttert.", en: "The kids scoffed all the biscuits." },
           { es: "Bitte begeben Sie sich zum Ausgang.", en: "Please proceed to the exit." },
-          { es: "Nach der Party sind wir um zwei abgehauen.", en: "We cleared off from the party at two." },
+          { es: "Nach der Party sind wir um zwei abgehauen.", en: "After the party we cleared off at two." },
         ],
         checkpoint: [
           {
@@ -93,7 +93,7 @@ export const DE_C1_U13: Lesson[] = [
             prompt: "Translate into German (to a close friend, colloquial).",
             source: "I've got no money at the moment.",
             answer: "Ich hab grad keine Kohle.",
-            altAnswers: ["Ich habe gerade keine Kohle.", "Ich hab gerade keine Kohle.", "Ich hab grad keine Knete.", "Ich habe gerade keine Knete.", "Ich hab gerade kein Geld.", "Ich habe gerade kein Geld.", "Ich hab grad kein Geld."],
+            altAnswers: ["Ich habe gerade keine Kohle.", "Ich hab gerade keine Kohle.", "Ich hab grad keine Knete.", "Ich habe gerade keine Knete.", "Ich hab gerade kein Geld.", "Ich habe gerade kein Geld.", "Ich hab grad kein Geld.", "Ich hab im Moment keine Kohle.", "Ich habe im Moment keine Kohle.", "Ich hab im Moment kein Geld.", "Ich habe im Moment kein Geld."],
             explanation: "Colloquial German drops the -e of \"habe\" and shortens \"gerade\" to \"grad\"; \"Kohle\" or \"Knete\" is the slang for money. Neutral \"kein Geld\" is also fine with a friend.",
           },
           {
@@ -106,7 +106,7 @@ export const DE_C1_U13: Lesson[] = [
               { left: "kriegen", right: "to get" },
               { left: "futtern", right: "to eat (heartily)" },
             ],
-            explanation: "\"Kohle\" (coal) and \"Birne\" (pear) are metaphors; \"Bude\" originally meant a hut or stall. All of them are umgangssprachlich: fine with friends, wrong in an application.",
+            explanation: "\"Kohle\" (coal) and \"Birne\" (pear) are metaphors; \"Bude\" originally meant a hut or stall. All of them are \"umgangssprachlich\" (colloquial): fine with friends, wrong in an application.",
           },
         ],
       },
@@ -161,7 +161,7 @@ export const DE_C1_U13: Lesson[] = [
         prompt: "Translate into German (to a friend).",
         source: "Did you get the tickets?",
         answer: "Hast du die Karten gekriegt?",
-        altAnswers: ["Hast du die Karten bekommen?", "Hast du die Tickets gekriegt?", "Hast du die Tickets bekommen?", "Hast du die Eintrittskarten bekommen?"],
+        altAnswers: ["Hast du die Karten bekommen?", "Hast du die Tickets gekriegt?", "Hast du die Tickets bekommen?", "Hast du die Eintrittskarten bekommen?", "Hast du die Eintrittskarten gekriegt?"],
         explanation: "With a friend \"gekriegt\" or neutral \"bekommen\" both work. \"Erhalten\" would be oddly formal.",
       },
       {
@@ -248,8 +248,8 @@ export const DE_C1_U13: Lesson[] = [
       {
         heading: "Who says du to whom today",
         body: [
-          "The default between adult strangers is still \"Sie\". But the line has moved a long way since the 1970s. Start-ups, tech companies, advertising agencies and IKEA-style retailers (\"Hej, schön, dass du da bist\") use du company-wide, including with the CEO. Banks, insurance companies, law firms, Behörden (public authorities) and most traditional companies use Sie, often for years.",
-          "Some settings have their own rules. Students say du to each other from day one, but Sie to professors. Members of a sports club, a choir or the Freiwillige Feuerwehr say du. In the mountains, above the tree line, hikers traditionally say du to each other and in mountain huts. Online, in forums and on Instagram, du dominates; on LinkedIn and XING it depends on the industry.",
+          "The default between adult strangers is still \"Sie\". But the line has moved a long way since the 1970s. Start-ups, tech companies, advertising agencies and IKEA-style retailers (\"Hej, schön, dass du da bist\") use du company-wide, including with the CEO. Banks, insurance companies, law firms, \"Behörden\" (public authorities) and most traditional companies use Sie, often for years.",
+          "Some settings have their own rules. Students say du to each other from day one, but Sie to professors. Members of a sports club, a choir or the \"Freiwillige Feuerwehr\" (volunteer fire brigade) say du. In the mountains, above the tree line, hikers traditionally say du to each other, on the trail and in mountain huts. Online, in forums and on Instagram, du dominates; on LinkedIn and XING it depends on the industry.",
           "Neighbours and in-laws are the tricky ones. Many people stay on Sie with neighbours for decades. With your partner's parents, the parents usually offer du at some point, often at a family celebration; until then, Sie (with \"Frau Krüger\" or a carefully avoided form of address).",
           "When in doubt, start with Sie. Moving from Sie to du is easy and friendly; going back from du to Sie is almost impossible and feels like a slap.",
         ],
@@ -327,7 +327,7 @@ export const DE_C1_U13: Lesson[] = [
           { es: "Herr Huber, kommst du heute mit zum Essen?", en: "Mr Huber, are you coming to lunch with us today? (du + surname)" },
           { es: "Ich bleibe lieber beim Sie, wenn das okay ist.", en: "I'd rather stay with Sie, if that's okay." },
           { es: "Entschuldigung, ich meine natürlich du.", en: "Sorry, I mean du, of course." },
-          { es: "Wir sind beim Vornamen, aber per Sie.", en: "We use first names but say Sie." },
+          { es: "Wir nennen uns beim Vornamen, bleiben aber beim Sie.", en: "We use first names but stay with Sie." },
         ],
         checkpoint: [
           {
@@ -366,7 +366,7 @@ export const DE_C1_U13: Lesson[] = [
         prompt: "Translate into German.",
         source: "Shall we say du? I'm Jonas.",
         answer: "Wollen wir uns duzen? Ich bin Jonas.",
-        altAnswers: ["Wollen wir uns nicht duzen? Ich bin Jonas.", "Wollen wir uns duzen? Ich bin der Jonas.", "Wollen wir uns nicht duzen? Ich bin der Jonas.", "Sollen wir uns duzen? Ich bin Jonas.", "Sollen wir nicht du sagen? Ich bin Jonas.", "Sollen wir du sagen? Ich bin Jonas."],
+        altAnswers: ["Wollen wir uns nicht duzen? Ich bin Jonas.", "Wollen wir uns duzen? Ich bin der Jonas.", "Wollen wir uns nicht duzen? Ich bin der Jonas.", "Sollen wir uns duzen? Ich bin Jonas.", "Sollen wir nicht du sagen? Ich bin Jonas.", "Sollen wir du sagen? Ich bin Jonas.", "Sollen wir uns nicht duzen? Ich bin Jonas."],
         explanation: "The usual offer is \"Wollen wir uns (nicht) duzen?\"; \"nicht\" makes it a friendly suggestion. \"Der Jonas\" is the southern, colloquial article before names.",
       },
       {
@@ -390,7 +390,7 @@ export const DE_C1_U13: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Your new head of department (older, Herr Lang) has not offered du. A colleague says you should just start. What is the right move?",
-        options: ["Stay with Sie and wait until Herr Lang offers du.", "Say: Wollen wir uns duzen, Herr Lang?", "Start saying du to him at the next meeting.", "Use du + Herr Lang to be safe."],
+        options: ["Stay with Sie and wait until Herr Lang offers du.", "Say \"Wollen wir uns duzen, Herr Lang?\"", "Start saying du to him at the next meeting.", "Use du + Herr Lang to be safe."],
         correctIndex: 0,
         explanation: "The higher-ranking person offers du. A junior employee waits and stays on Sie.",
       },
@@ -445,7 +445,7 @@ export const DE_C1_U13: Lesson[] = [
         heading: "Pronouns and possessives",
         body: [
           "Switching from du to Sie is not one change but a chain. Every form of du has a Sie equivalent: \"du\" → \"Sie\", \"dich\" → \"Sie\", \"dir\" → \"Ihnen\", \"dein\" → \"Ihr\", \"deiner\" (genitive) → \"Ihrer\". The verb also changes: \"du kommst\" → \"Sie kommen\" (the same form as the infinitive).",
-          "The most common loose end is the dative: \"Kann ich dir helfen?\" becomes \"Kann ich Ihnen helfen?\", not \"*Kann ich Sie helfen?\" (\"helfen\" takes the dative). The second most common is the possessive: \"deine Adresse\" → \"Ihre Adresse\", with the same ending as before.",
+          "The most common loose end is the dative: \"Kann ich dir helfen?\" becomes \"Kann ich Ihnen helfen?\", not \"*Kann ich Sie helfen?*\" (\"helfen\" takes the dative). The second most common is the possessive: \"deine Adresse\" → \"Ihre Adresse\", with the same ending as before.",
           "In writing, every polite form is capitalised: \"Sie\", \"Ihnen\", \"Ihr\", \"Ihre\". A lowercase \"ihnen\" means to them, so the capital letter carries meaning.",
         ],
         examples: [
@@ -479,7 +479,7 @@ export const DE_C1_U13: Lesson[] = [
         heading: "Imperatives and reflexives",
         body: [
           "The du imperative has no pronoun (\"Komm!\", \"Ruf mich an!\"); the Sie imperative puts the verb first and keeps \"Sie\": \"Kommen Sie!\", \"Rufen Sie mich an!\". The ihr imperative also has no pronoun: \"Kommt!\".",
-          "Reflexive verbs change their pronoun too: \"Setz dich!\" → \"Setzen Sie sich!\"; \"Beeil dich!\" → \"Beeilen Sie sich!\"; \"Stell dir vor ...\" → \"Stellen Sie sich vor ...\". The polite reflexive is always lowercase \"sich\", never \"*Sich\" and never \"*Ihnen\" for the reflexive.",
+          "Reflexive verbs change their pronoun too: \"Setz dich!\" → \"Setzen Sie sich!\"; \"Beeil dich!\" → \"Beeilen Sie sich!\"; \"Stell dir vor ...\" → \"Stellen Sie sich vor ...\". The polite reflexive is always lowercase \"sich\", never \"*Sich*\" and never \"*Ihnen*\" for the reflexive.",
           "Watch the dative reflexives: \"Nimm dir ein Stück Kuchen\" → \"Nehmen Sie sich ein Stück Kuchen\". The dative reflexive of Sie is also \"sich\".",
         ],
         examples: [
@@ -638,7 +638,7 @@ export const DE_C1_U13: Lesson[] = [
     level: "DE-C1",
     number: 4,
     title: "Dialogue Lab: \"Wollen wir uns duzen?\"",
-    summary: "First week in a new job: a colleague offers du, the head of department stays on Sie, and you have to manage both in one conversation and one group email.",
+    summary: "First week in a new job: a colleague offers \"du\", the head of department stays on \"Sie\", and you have to manage both in one conversation and one group email.",
     duration: "17 min",
     sections: [
       {
@@ -678,32 +678,32 @@ export const DE_C1_U13: Lesson[] = [
       {
         heading: "In the head of department's office",
         body: [
-          "At eleven Leon meets Dr. Ursula Wagner, head of the department, in her office. She is older and higher in rank, so only she could offer du, and she doesn't. Leon uses Sie, her surname and, at first meeting, her title.",
+          "At eleven Leon meets Dr Ursula Wagner, head of the department, in her office. She is older and higher in rank, so only she could offer du, and she doesn't. Leon uses Sie, her surname and, at first meeting, her title.",
           "In everyday office life many people drop the \"Dr.\" after the first meeting (\"Frau Wagner\"), but in a first conversation, in writing and in conservative fields (law, medicine, banking) the title is kept. Follow the other person's lead: if she signs emails with \"Ursula Wagner\", you can say \"Frau Wagner\".",
-          "Leon also has to talk about Mia in front of Dr. Wagner. He calls her \"Mia\" (that is how colleagues refer to each other), but he keeps Sie with his boss. Mixing is normal: your register depends on whom you are talking to, not whom you are talking about.",
+          "Leon also has to talk about Mia in front of Dr Wagner. He calls her \"Mia\" (that is how colleagues refer to each other), but he keeps Sie with his boss. Mixing is normal: your register depends on whom you are talking to, not whom you are talking about.",
         ],
         examples: [
-          { es: "Leon: Guten Tag, Frau Dr. Wagner. Sie wollten mich sprechen?", en: "Leon: Hello, Dr. Wagner. You wanted to see me?" },
-          { es: "Dr. Wagner: Ja, kommen Sie rein, Herr Krause. Setzen Sie sich.", en: "Dr. Wagner: Yes, come in, Mr Krause. Have a seat." },
-          { es: "Dr. Wagner: Haben Sie sich schon ein bisschen eingelebt?", en: "Dr. Wagner: Have you settled in a bit already?" },
+          { es: "Leon: Guten Tag, Frau Dr. Wagner. Sie wollten mich sprechen?", en: "Leon: Hello, Dr Wagner. You wanted to see me?" },
+          { es: "Dr. Wagner: Ja, kommen Sie rein, Herr Krause. Setzen Sie sich.", en: "Dr Wagner: Yes, come in, Mr Krause. Have a seat." },
+          { es: "Dr. Wagner: Haben Sie sich schon ein bisschen eingelebt?", en: "Dr Wagner: Have you settled in a bit already?" },
           { es: "Leon: Ja, danke. Mia hat mir schon alles gezeigt.", en: "Leon: Yes, thanks. Mia has already shown me everything." },
-          { es: "Dr. Wagner: Gut. Wenn Sie Fragen haben, kommen Sie jederzeit zu mir.", en: "Dr. Wagner: Good. If you have questions, come to me any time." },
+          { es: "Dr. Wagner: Gut. Wenn Sie Fragen haben, kommen Sie jederzeit zu mir.", en: "Dr Wagner: Good. If you have questions, come to me any time." },
           { es: "Leon: Vielen Dank, das mache ich gern.", en: "Leon: Thank you very much, I'll do that." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German (Leon to Dr. Wagner).",
+            prompt: "Translate into German (Leon to Dr Wagner).",
             source: "Mia has already shown me the office.",
             answer: "Mia hat mir schon das Büro gezeigt.",
             altAnswers: ["Mia hat mir das Büro schon gezeigt.", "Mia hat mir bereits das Büro gezeigt.", "Mia hat mir das Büro bereits gezeigt."],
-            explanation: "Talking about a colleague, Leon uses her first name; his register with Dr. Wagner shows in how he addresses her, not in how he names Mia.",
+            explanation: "Talking about a colleague, Leon uses her first name; his register with Dr Wagner shows in how he addresses her, not in how he names Mia.",
           },
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "Dr. Wagner: [Have you settled in] a bit already?",
+            en: "Dr Wagner: [Have you settled in] a bit already?",
             sentence: "___ schon ein bisschen eingelebt?",
             answer: "Haben Sie sich",
             explanation: "\"Sich einleben\" (to settle in) is reflexive: with Sie the reflexive is lowercase \"sich\".",
@@ -721,12 +721,12 @@ export const DE_C1_U13: Lesson[] = [
       {
         heading: "One email, two relationships",
         body: [
-          "On Friday Leon has to send the minutes of a meeting to Mia, his colleague Tobias (both du) and Dr. Wagner (Sie). A group email exposes the problem: \"ihr\" or \"Sie\"?",
+          "On Friday Leon has to send the minutes of a meeting to Mia, his colleague Tobias (both du) and Dr Wagner (Sie). A group email exposes the problem: \"ihr\" or \"Sie\"?",
           "Three common solutions. First, address everyone politely but warmly: \"Liebe Frau Dr. Wagner, liebe Mia, lieber Tobias\", then avoid direct pronouns as far as possible (\"Anbei das Protokoll\", \"Bei Fragen gern melden\"). Second, if the team culture is relaxed, \"Hallo zusammen\" and impersonal phrasing. Third, if a pronoun is unavoidable, the more formal one wins in mixed company: \"Ich freue mich auf Ihr Feedback\" includes everyone, and colleagues won't take offence.",
           "What you should not do is write \"euch\" when the boss is among the recipients: it would mean you are treating her as a du-colleague. And \"Sie und ihr\" in one sentence (\"Ich danke Ihnen und euch\") exists in speeches but sounds clumsy in an email.",
         ],
         examples: [
-          { es: "Liebe Frau Dr. Wagner, liebe Mia, lieber Tobias,", en: "Dear Dr. Wagner, dear Mia, dear Tobias," },
+          { es: "Liebe Frau Dr. Wagner, liebe Mia, lieber Tobias,", en: "Dear Dr Wagner, dear Mia, dear Tobias," },
           { es: "anbei das Protokoll unserer Besprechung vom Donnerstag.", en: "please find attached the minutes of our meeting on Thursday." },
           { es: "Bei Fragen oder Ergänzungen gern einfach melden.", en: "If there are any questions or additions, just get in touch." },
           { es: "Hallo zusammen, hier kurz die wichtigsten Punkte.", en: "Hi all, here are the main points in brief." },
@@ -739,12 +739,12 @@ export const DE_C1_U13: Lesson[] = [
             prompt: "Translate into German (group email, avoid du and Sie).",
             source: "Please find attached the minutes of our meeting.",
             answer: "Anbei das Protokoll unserer Besprechung.",
-            altAnswers: ["Anbei sende ich das Protokoll unserer Besprechung.", "Anbei findet sich das Protokoll unserer Besprechung.", "Im Anhang das Protokoll unserer Besprechung.", "Anbei das Protokoll unseres Meetings.", "Im Anhang befindet sich das Protokoll unserer Besprechung."],
+            altAnswers: ["Anbei sende ich das Protokoll unserer Besprechung.", "Anbei schicke ich das Protokoll unserer Besprechung.", "Im Anhang das Protokoll unserer Besprechung.", "Anbei das Protokoll unseres Meetings.", "Im Anhang befindet sich das Protokoll unserer Besprechung."],
             explanation: "\"Anbei\" + noun is a verbless email formula that needs no pronoun at all, ideal for mixed du / Sie groups.",
           },
           {
             type: "multiple-choice",
-            question: "Leon's group email includes Dr. Wagner. Which closing line is best?",
+            question: "Leon's group email includes Dr Wagner. Which closing line is best?",
             options: ["Ich freue mich auf Ihre Rückmeldungen.", "Ich freue mich auf eure Rückmeldungen.", "Ich freue mich auf deine Rückmeldungen.", "Ich freue mich auf ihre Rückmeldungen."],
             correctIndex: 0,
             explanation: "In mixed company the polite form covers everyone. \"Eure\" would put the boss on du terms; lowercase \"ihre\" means their.",
@@ -765,7 +765,7 @@ export const DE_C1_U13: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German (Dr. Wagner to Leon).",
+        prompt: "Translate into German (Dr Wagner to Leon).",
         source: "If you have questions, come to me any time.",
         answer: "Wenn Sie Fragen haben, kommen Sie jederzeit zu mir.",
         altAnswers: ["Wenn Sie Fragen haben, kommen Sie gern jederzeit zu mir.", "Kommen Sie jederzeit zu mir, wenn Sie Fragen haben.", "Falls Sie Fragen haben, kommen Sie jederzeit zu mir.", "Bei Fragen kommen Sie jederzeit zu mir."],
@@ -774,7 +774,7 @@ export const DE_C1_U13: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Leon: Good morning, [Dr. Wagner]. You wanted to see me?",
+        en: "Leon: Good morning, [Dr Wagner]. You wanted to see me?",
         sentence: "Guten Morgen, ___. Sie wollten mich sprechen?",
         answer: "Frau Dr. Wagner",
         altAnswers: ["Frau Doktor Wagner"],
@@ -791,14 +791,14 @@ export const DE_C1_U13: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Dear Dr. Wagner, dear Mia, dear Tobias,",
+        prompt: "Put the words in order to say: Dear Dr Wagner, dear Mia, dear Tobias,",
         words: ["Liebe", "Frau Dr. Wagner,", "liebe", "Mia,", "lieber", "Tobias,"],
-        translation: "Dear Dr. Wagner, dear Mia, dear Tobias,",
+        translation: "Dear Dr Wagner, dear Mia, dear Tobias,",
         explanation: "A mixed greeting: the boss first, with title, then the colleagues by first name. \"Liebe\" before women, \"lieber\" before men.",
       },
       {
         type: "multiple-choice",
-        question: "In Dr. Wagner's office Leon mentions Tobias. Which sentence is right?",
+        question: "In Dr Wagner's office Leon mentions Tobias. Which sentence is right?",
         options: ["Tobias hat mir erklärt, wie das System funktioniert.", "Herr Tobias hat mir erklärt, wie das System funktioniert.", "Du, Tobias hat mir erklärt, wie das System funktioniert.", "Tobias hat Ihnen erklärt, wie das System funktioniert."],
         correctIndex: 0,
         explanation: "Colleagues are named by first name even when talking to the boss. \"Herr Tobias\" (\"Herr\" + first name) is not used in German offices.",
@@ -1197,7 +1197,7 @@ export const DE_C1_U13: Lesson[] = [
         source: "Please note that smoking is prohibited in the building.",
         answer: "Wir weisen darauf hin, dass das Rauchen im Gebäude verboten ist.",
         altAnswers: ["Wir weisen darauf hin, dass Rauchen im Gebäude verboten ist.", "Bitte beachten Sie, dass das Rauchen im Gebäude verboten ist.", "Bitte beachten Sie, dass Rauchen im Gebäude verboten ist.", "Wir weisen darauf hin, dass im Gebäude das Rauchen verboten ist.", "Wir weisen Sie darauf hin, dass Rauchen im Gebäude verboten ist."],
-        explanation: "Official notices use \"Wir weisen darauf hin, dass ...\" or \"Bitte beachten Sie, dass ...\", never a literal please note.",
+        explanation: "Official notices use \"Wir weisen darauf hin, dass ...\" or \"Bitte beachten Sie, dass ...\", never a word-for-word \"*Bitte notieren Sie*\".",
       },
       {
         type: "translate",
@@ -1256,7 +1256,7 @@ export const DE_C1_U13: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote: \"*Sehr geehrter Herr Wolf, ich freue mich auf deine Antwort.\" Write the corrected second sentence.",
+            prompt: "A learner wrote: \"*Sehr geehrter Herr Wolf, ich freue mich auf deine Antwort.*\" Write the corrected second sentence.",
             source: "I look forward to your reply.",
             answer: "Ich freue mich auf Ihre Antwort.",
             altAnswers: ["Ich freue mich auf Ihre Rückmeldung."],
@@ -1264,7 +1264,7 @@ export const DE_C1_U13: Lesson[] = [
           },
           {
             type: "fill-blank",
-            prompt: "Correct the mistake in \"*Melden Sie dich bitte bis Freitag.\" Write the German for the bold word.",
+            prompt: "Correct the mistake in \"*Melden Sie dich bitte bis Freitag.*\" Write the German for the bold word.",
             en: "Please get in touch [yourself] by Friday. (Sie)",
             sentence: "Melden Sie ___ bitte bis Freitag.",
             answer: "sich",
@@ -1283,7 +1283,7 @@ export const DE_C1_U13: Lesson[] = [
           { es: "Kann ich die Kohle zurückkriegen? → Ich bitte um Rückerstattung des Betrags.", en: "Can I get my money back? / I request a refund of the amount." },
           { es: "Das Gerät ist kaputt. → Das Gerät ist defekt.", en: "The device is broken. / The device is faulty." },
           { es: "Ich bin mega motiviert. → Ich bin hoch motiviert.", en: "I'm super motivated. / I am highly motivated." },
-          { es: "Hochachtungsvoll, Jonas → Viele Grüße, Jonas", en: "Yours faithfully, Jonas / Best wishes, Jonas" },
+          { es: "Hochachtungsvoll, Jonas → Viele Grüße Jonas", en: "Yours faithfully, Jonas / Best wishes, Jonas" },
           { es: "Ich bitte um Ihr Verständnis. → Sorry, war keine Absicht!", en: "I ask for your understanding. / Sorry, didn't mean it!" },
         ],
         checkpoint: [
@@ -1323,7 +1323,7 @@ export const DE_C1_U13: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Text to a friend: Let me know if you're coming.",
+            prompt: "Translate into German (text to a friend).",
             source: "Let me know if you're coming.",
             answer: "Sag mir Bescheid, ob du kommst.",
             altAnswers: ["Sag Bescheid, ob du kommst.", "Sag mal Bescheid, ob du kommst.", "Gib mir Bescheid, ob du kommst.", "Gib Bescheid, ob du kommst."],
@@ -1344,7 +1344,7 @@ export const DE_C1_U13: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: \"*Ich danke ihnen für ihre schnelle Antwort.\" Write it correctly (formal).",
+        prompt: "A learner wrote: \"*Ich danke ihnen für ihre schnelle Antwort.*\" Write it correctly (formal).",
         source: "Thank you for your quick reply.",
         answer: "Ich danke Ihnen für Ihre schnelle Antwort.",
         altAnswers: ["Vielen Dank für Ihre schnelle Antwort.", "Herzlichen Dank für Ihre schnelle Antwort.", "Danke für Ihre schnelle Antwort."],
@@ -1361,7 +1361,7 @@ export const DE_C1_U13: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Correct the clash in \"*Sehr geehrter Herr Yilmaz, hast du am Montag Zeit?\" Write the German for the bold words.",
+        prompt: "Correct the clash in \"*Sehr geehrter Herr Yilmaz, hast du am Montag Zeit?*\" Write the German for the bold words.",
         en: "Dear Mr Yilmaz, [do you have] time on Monday?",
         sentence: "Sehr geehrter Herr Yilmaz, ___ am Montag Zeit?",
         answer: "haben Sie",
@@ -1403,7 +1403,7 @@ export const DE_C1_U13: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: \"*Haben Sie dein Passwort geändert?\" Write it correctly.",
+        prompt: "A learner wrote: \"*Haben Sie dein Passwort geändert?*\" Write it correctly.",
         source: "Have you changed your password?",
         answer: "Haben Sie Ihr Passwort geändert?",
         explanation: "With \"Haben Sie\" the possessive must be \"Ihr\". \"Passwort\" is neuter, so no ending.",
@@ -1440,17 +1440,17 @@ export const DE_C1_U13: Lesson[] = [
       {
         heading: "Sie vs sie: one sound, three meanings",
         body: [
-          "\"Sie kommen morgen\" can mean you are coming tomorrow (polite) or they are coming tomorrow; \"sie kommt morgen\" means she is coming tomorrow. In speech only the verb ending and the context separate them; in writing, the capital letter does the work: polite \"Sie\" and all its forms are always capitalised, even in the middle of a sentence.",
+          "\"Sie kommen morgen\" can mean you are coming tomorrow (formal) or they are coming tomorrow; \"sie kommt morgen\" means she is coming tomorrow. In speech only the verb ending and the context separate them; in writing, the capital letter does the work: polite \"Sie\" and all its forms are always capitalised, even in the middle of a sentence.",
           "The dative pair is the most important in writing: \"Ich schreibe Ihnen\" (I'm writing to you, polite) vs \"Ich schreibe ihnen\" (I'm writing to them). A lowercase slip in a business email changes who you are talking to.",
           "At the start of a sentence the capital is ambiguous: \"Sie haben angerufen\" could be you or they. Context, or the next pronoun (\"Ihr\" vs \"ihr\"), decides.",
         ],
         examples: [
           { es: "Sie kommt morgen.", en: "She's coming tomorrow." },
-          { es: "Wann kommen Sie morgen?", en: "When are you coming tomorrow? (polite)" },
+          { es: "Wann kommen Sie morgen?", en: "When are you coming tomorrow? (formal)" },
           { es: "Wann kommen sie morgen?", en: "When are they coming tomorrow?" },
-          { es: "Ich schreibe Ihnen morgen.", en: "I'll write to you tomorrow. (polite)" },
+          { es: "Ich schreibe Ihnen morgen.", en: "I'll write to you tomorrow. (formal)" },
           { es: "Ich schreibe ihnen morgen.", en: "I'll write to them tomorrow." },
-          { es: "Haben Sie Ihre Eltern gefragt?", en: "Have you asked your parents? (polite)" },
+          { es: "Haben Sie Ihre Eltern gefragt?", en: "Have you asked your parents? (formal)" },
         ],
         checkpoint: [
           {
@@ -1460,7 +1460,7 @@ export const DE_C1_U13: Lesson[] = [
             source: "I'll write to them tomorrow.",
             answer: "Ich schreibe ihnen morgen.",
             altAnswers: ["Morgen schreibe ich ihnen.", "Ich werde ihnen morgen schreiben."],
-            explanation: "To them is lowercase \"ihnen\". \"Ihnen\" with a capital would be to you (polite).",
+            explanation: "To them is lowercase \"ihnen\". \"Ihnen\" with a capital would be to you (formal).",
           },
           {
             type: "listen-choose",
@@ -1468,7 +1468,7 @@ export const DE_C1_U13: Lesson[] = [
             question: "What does it mean?",
             options: ["She's not coming until tomorrow.", "They're not coming until tomorrow.", "You're not coming until tomorrow.", "She came yesterday."],
             correctIndex: 0,
-            explanation: "\"Kommt\" with -t is third person singular: she. You (polite) and they would both be \"kommen\".",
+            explanation: "\"Kommt\" with -t is third person singular: she. You (formal) and they would both be \"kommen\".",
           },
         ],
       },
@@ -1476,14 +1476,14 @@ export const DE_C1_U13: Lesson[] = [
         heading: "ihr vs Ihr",
         body: [
           "Four words look alike. \"ihr\" (lowercase, subject) is you plural, to friends: \"Kommt ihr mit?\". \"ihr\" (lowercase, dative) is to her: \"Ich gebe ihr das Buch\". \"ihr / ihre\" (lowercase possessive) is her or their: \"ihr Auto\". \"Ihr / Ihre\" (capitalised possessive) is your, polite: \"Ihr Auto\".",
-          "In an email to a group the choice between \"ihr\" (friends, team on du terms) and \"Sie\" (clients) controls everything that follows. \"Habt ihr eure Tickets?\" vs \"Haben Sie Ihre Tickets?\". A common learner error is mixing: \"Haben Sie eure Tickets?\".",
+          "In an email to a group the choice between \"ihr\" (friends, team on du terms) and \"Sie\" (clients) controls everything that follows. \"Habt ihr eure Tickets?\" vs \"Haben Sie Ihre Tickets?\". A common learner error is mixing: \"*Haben Sie eure Tickets?*\".",
           "\"Ihr\" capitalised as a subject exists only in old-fashioned address to one person of high rank (\"Habt Ihr gerufen, Majestät?\"), which you will meet in fairy tales and historical films.",
         ],
         examples: [
           { es: "Kommt ihr heute Abend mit?", en: "Are you coming along tonight? (to friends)" },
           { es: "Ich habe ihr das Buch geliehen.", en: "I lent her the book." },
           { es: "Lisa und Tim haben ihr Auto verkauft.", en: "Lisa and Tim have sold their car." },
-          { es: "Haben Sie Ihr Auto verkauft?", en: "Have you sold your car? (polite)" },
+          { es: "Haben Sie Ihr Auto verkauft?", en: "Have you sold your car? (formal)" },
           { es: "Habt ihr eure Tickets schon?", en: "Have you got your tickets yet? (to friends)" },
         ],
         checkpoint: [
@@ -1544,7 +1544,7 @@ export const DE_C1_U13: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German (polite).",
+        prompt: "Translate into German (formal).",
         source: "I'll call you tomorrow.",
         answer: "Ich rufe Sie morgen an.",
         altAnswers: ["Morgen rufe ich Sie an.", "Ich werde Sie morgen anrufen."],
@@ -1562,7 +1562,7 @@ export const DE_C1_U13: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Mrs Roth, have you already received [your] parcel?",
+        en: "Ms Roth, have you already received [your] parcel?",
         sentence: "Frau Roth, haben Sie ___ Paket schon erhalten?",
         answer: "Ihr",
         explanation: "Polite your, neuter (\"das Paket\"), accusative: \"Ihr\" with a capital.",
@@ -1579,7 +1579,7 @@ export const DE_C1_U13: Lesson[] = [
       {
         type: "multiple-choice",
         question: "\"Ich habe Ihnen die Unterlagen geschickt.\" Who received the documents?",
-        options: ["You (polite)", "Them", "Her", "You (friends)"],
+        options: ["You (formal)", "Them", "Her", "You (friends)"],
         correctIndex: 0,
         explanation: "Capitalised \"Ihnen\" in mid-sentence is the polite you. Them would be \"ihnen\".",
       },
@@ -1594,7 +1594,7 @@ export const DE_C1_U13: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Have you asked your parents? (polite)",
+        prompt: "Put the words in order to say: Have you asked your parents? (formal)",
         words: ["Haben", "Sie", "Ihre", "Eltern", "gefragt?"],
         translation: "Have you asked your parents?",
         explanation: "Two capitals: \"Sie\" and \"Ihre\". Lowercase \"ihre\" would mean her or their parents.",
@@ -1606,13 +1606,13 @@ export const DE_C1_U13: Lesson[] = [
         source: "Have you got your passports?",
         answer: "Habt ihr eure Pässe?",
         altAnswers: ["Habt ihr eure Pässe dabei?", "Habt ihr eure Reisepässe?", "Habt ihr eure Reisepässe dabei?", "Habt ihr Eure Pässe?", "Habt ihr Eure Pässe dabei?"],
-        explanation: "\"Ihr\" + \"eure\": both forms of you plural. \"Haben Sie eure\" would mix registers.",
+        explanation: "\"Ihr\" + \"eure\": both forms of you plural. \"*Haben Sie eure*\" would mix registers.",
       },
       {
         type: "listen-choose",
         audio: "Wann kommen sie morgen?",
         question: "Without seeing the capital letter, what can this mean?",
-        options: ["When are they coming tomorrow? or When are you coming tomorrow? (polite)", "Only: When is she coming tomorrow?", "Only: When are you coming tomorrow? (to friends)", "Only: When did they come?"],
+        options: ["When are they coming tomorrow? or When are you coming tomorrow? (formal)", "Only: When is she coming tomorrow?", "Only: When are you coming tomorrow? (to friends)", "Only: When did they come?"],
         correctIndex: 0,
         explanation: "In speech \"sie kommen\" and \"Sie kommen\" sound the same; only context decides.",
       },
@@ -1645,7 +1645,7 @@ export const DE_C1_U13: Lesson[] = [
           "Offices are used too: \"Frau Bürgermeisterin\", \"Herr Minister\", \"Frau Präsidentin\". In emails to a professor, \"Sehr geehrte Frau Professorin Klein\" or \"Sehr geehrte Frau Prof. Klein\" are both common; younger professors may simply sign \"Anna Klein\", and you can then say \"Frau Klein\".",
         ],
         examples: [
-          { es: "Guten Tag, Frau Dr. Weber.", en: "Hello, Dr. Weber." },
+          { es: "Guten Tag, Frau Dr. Weber.", en: "Hello, Dr Weber." },
           { es: "Sehr geehrter Herr Professor Schmidt,", en: "Dear Professor Schmidt," },
           { es: "Frau Bürgermeisterin, darf ich Ihnen eine Frage stellen?", en: "Madam Mayor, may I ask you a question?" },
           { es: "Herr Doktor, ich habe seit Tagen Kopfschmerzen.", en: "Doctor, I've had a headache for days." },
@@ -1745,7 +1745,7 @@ export const DE_C1_U13: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Good morning, Dr. Weber. (to a woman)",
+        source: "Good morning, Dr Weber. (to a woman)",
         answer: "Guten Morgen, Frau Dr. Weber.",
         altAnswers: ["Guten Morgen, Frau Doktor Weber.", "Guten Morgen, Frau Doktor."],
         explanation: "\"Frau\" + title + surname. Without \"Frau\", the title alone would sound like English.",
@@ -1870,9 +1870,9 @@ export const DE_C1_U13: Lesson[] = [
             direction: "en-es",
             prompt: "Write the chat message in full German words.",
             source: "No idea, maybe tomorrow. Love, Lena",
-            answer: "Keine Ahnung, vielleicht morgen. Liebe Grüße, Lena",
-            altAnswers: ["Keine Ahnung, vielleicht morgen. Liebe Grüße Lena", "Keine Ahnung, vielleicht morgen. LG Lena", "Keine Ahnung, vielleicht morgen. Liebe Grüße, Lena!"],
-            explanation: "\"KA, vllt morgen. LG Lena\" spelled out: \"Keine Ahnung, vielleicht morgen. Liebe Grüße, Lena\".",
+            answer: "Keine Ahnung, vielleicht morgen. Liebe Grüße Lena",
+            altAnswers: ["Keine Ahnung, vielleicht morgen. Liebe Grüße Lena", "Keine Ahnung, vielleicht morgen. LG Lena", "Keine Ahnung, vielleicht morgen. Liebe Grüße Lena!"],
+            explanation: "\"KA, vllt morgen. LG Lena\" spelled out: \"Keine Ahnung, vielleicht morgen. Liebe Grüße Lena\".",
           },
         ],
       },
@@ -1888,7 +1888,7 @@ export const DE_C1_U13: Lesson[] = [
           { es: "Liebe Frau Krüger, vielen Dank für die schöne Zusammenarbeit.", en: "Dear Ms Krüger, many thanks for the lovely collaboration." },
           { es: "Hi Jonas, anbei die Folien für morgen.", en: "Hi Jonas, attached are the slides for tomorrow." },
           { es: "Beste Grüße aus Hamburg", en: "Best wishes from Hamburg" },
-          { es: "Mit freundlichen Grüßen\nAyşe Arslan", en: "Yours sincerely, Ayse Arslan" },
+          { es: "Mit freundlichen Grüßen\nAyşe Arslan", en: "Yours sincerely, Ayşe Arslan" },
         ],
         checkpoint: [
           {
@@ -1903,8 +1903,8 @@ export const DE_C1_U13: Lesson[] = [
             direction: "en-es",
             prompt: "Translate into German (email to a colleague you say du to).",
             source: "Hi Jonas, attached are the slides for tomorrow. Best, Mia",
-            answer: "Hi Jonas, anbei die Folien für morgen. Viele Grüße, Mia",
-            altAnswers: ["Hi Jonas, anbei die Folien für morgen. Viele Grüße Mia", "Hallo Jonas, anbei die Folien für morgen. Viele Grüße, Mia", "Hallo Jonas, anbei die Folien für morgen. Viele Grüße Mia", "Hi Jonas, anbei die Folien für morgen. Beste Grüße, Mia", "Hi Jonas, anbei die Folien für morgen. Beste Grüße Mia", "Hi Jonas, anbei die Folien für morgen. LG Mia", "Hallo Jonas, im Anhang die Folien für morgen. Viele Grüße, Mia"],
+            answer: "Hi Jonas, anbei die Folien für morgen. Viele Grüße Mia",
+            altAnswers: ["Hallo Jonas, anbei die Folien für morgen. Viele Grüße Mia", "Hi Jonas, anbei die Folien für morgen. Beste Grüße Mia", "Hi Jonas, anbei die Folien für morgen. LG Mia", "Hallo Jonas, im Anhang die Folien für morgen. Viele Grüße Mia"],
             explanation: "\"Hi\" or \"Hallo\" + first name, the verbless \"anbei\", and \"Viele Grüße\" or \"Beste Grüße\" for a friendly colleague.",
           },
         ],
@@ -1949,7 +1949,7 @@ export const DE_C1_U13: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German (formal email closing and signature).",
-        source: "Yours sincerely, Ayse Arslan",
+        source: "Yours sincerely, Ayşe Arslan",
         answer: "Mit freundlichen Grüßen Ayşe Arslan",
         altAnswers: ["Mit freundlichen Grüßen, Ayşe Arslan", "Mit freundlichen Grüßen Ayse Arslan", "Mit freundlichen Grüßen, Ayse Arslan", "Freundliche Grüße Ayşe Arslan"],
         explanation: "\"Mit freundlichen Grüßen\" is the standard formal closing; in German there is no comma after it.",
@@ -2039,14 +2039,14 @@ export const DE_C1_U13: Lesson[] = [
     level: "DE-C1",
     number: 11,
     title: "Real-World Mission: One Message, Three Recipients",
-    summary: "Announce the same schedule change to a friend, a colleague and a client: du in a chat, a friendly team email, and a formal Sie email.",
+    summary: "Announce the same schedule change to a friend, a colleague and a client: \"du\" in a chat, a friendly team email, and a formal \"Sie\" email.",
     duration: "18 min",
     sections: [
       {
         heading: "The situation and the friend",
         body: [
-          "You're Mehmet, a project manager in Köln. Your Friday presentation for a client has been moved to next Tuesday at 2 p.m. because the client's IT department needs more time. You have three people to inform: your friend Lukas, who was going to pick you up after the presentation; your colleague Sarah (du, same team); and the client contact, Herr Dr. Vogel (Sie).",
-          "Start with the friend. A WhatsApp to Lukas is short, informal and personal: no formal greeting, subject dropped where obvious, colloquial words (\"verschoben\", \"klappt\", \"Bock\"), maybe an emoji. What matters to Lukas is not the client but your Friday evening.",
+          "You're Mehmet, a project manager in Cologne. Your Friday presentation for a client has been moved to next Tuesday at 2 p.m. because the client's IT department needs more time. You have three people to inform: your friend Lukas, who was going to pick you up after the presentation; your colleague Sarah (du, same team); and the client contact, Herr Dr. Vogel (Sie).",
+          "Start with the friend. A WhatsApp to Lukas is short, informal and personal: no formal greeting, subject dropped where obvious, colloquial words (\"Präsi\", \"klappt\", \"Bock\"), maybe an emoji. What matters to Lukas is not the client but your Friday evening.",
           "Keep it natural: German friends don't explain business details in chats. \"Die Präsi ist auf Dienstag verschoben\" (\"Präsi\" is a common short form of \"Präsentation\") is enough.",
         ],
         examples: [
@@ -2084,7 +2084,7 @@ export const DE_C1_U13: Lesson[] = [
           "Closing: \"Viele Grüße\" or \"Danke dir und viele Grüße\".",
         ],
         examples: [
-          { es: "Hallo Sarah, der Termin mit Dr. Vogel ist auf Dienstag, 14 Uhr, verschoben.", en: "Hi Sarah, the meeting with Dr. Vogel has been moved to Tuesday at 2 p.m." },
+          { es: "Hallo Sarah, der Termin mit Herrn Dr. Vogel ist auf Dienstag, 14 Uhr, verschoben.", en: "Hi Sarah, the meeting with Dr Vogel has been moved to Tuesday at 2 p.m." },
           { es: "Die IT beim Kunden braucht noch etwas Zeit.", en: "The client's IT department needs a bit more time." },
           { es: "Könntest du bitte den Raum für Dienstag buchen?", en: "Could you please book the room for Tuesday?" },
           { es: "Die Folien passe ich bis Montag an.", en: "I'll update the slides by Monday." },
@@ -2114,23 +2114,23 @@ export const DE_C1_U13: Lesson[] = [
       {
         heading: "The client",
         body: [
-          "The email to Dr. Vogel is formal: \"Sehr geehrter Herr Dr. Vogel\", Sie throughout, formal verbs (\"bestätigen\", \"mitteilen\", \"zur Verfügung stehen\"), a polite Konjunktiv II request and \"Mit freundlichen Grüßen\".",
+          "The email to Dr Vogel is formal: \"Sehr geehrter Herr Dr. Vogel\", Sie throughout, formal verbs (\"bestätigen\", \"mitteilen\", \"zur Verfügung stehen\"), a polite Konjunktiv II request and \"Mit freundlichen Grüßen\".",
           "Even though the delay is the client's, you don't blame: \"Wie mit Ihrer IT-Abteilung besprochen, ...\" or \"Wie vereinbart ...\" keeps it neutral. You confirm rather than inform: \"Hiermit bestätige ich den neuen Termin\".",
           "The client email typically ends with an offer: \"Für Rückfragen stehe ich Ihnen gern zur Verfügung.\" It is a set phrase: learn it as a block.",
         ],
         examples: [
-          { es: "Sehr geehrter Herr Dr. Vogel,", en: "Dear Dr. Vogel," },
+          { es: "Sehr geehrter Herr Dr. Vogel,", en: "Dear Dr Vogel," },
           { es: "wie mit Ihrer IT-Abteilung besprochen, verschieben wir die Präsentation auf Dienstag, den 15. Oktober, um 14 Uhr.", en: "as discussed with your IT department, we are moving the presentation to Tuesday 15 October at 2 p.m." },
           { es: "Hiermit bestätige ich Ihnen den neuen Termin.", en: "I hereby confirm the new date." },
           { es: "Ich wäre Ihnen dankbar, wenn Sie mir kurz bestätigen könnten, dass Ihnen der Termin passt.", en: "I would be grateful if you could briefly confirm that the date suits you." },
           { es: "Für Rückfragen stehe ich Ihnen gern zur Verfügung.", en: "I am happy to answer any questions." },
-          { es: "Mit freundlichen Grüßen\nMehmet Yıldız", en: "Yours sincerely, Mehmet Yildiz" },
+          { es: "Mit freundlichen Grüßen\nMehmet Yıldız", en: "Yours sincerely, Mehmet Yıldız" },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German (email to Dr. Vogel).",
+            prompt: "Translate into German (email to Dr Vogel).",
             source: "I would be grateful if you could confirm the new date.",
             answer: "Ich wäre Ihnen dankbar, wenn Sie mir den neuen Termin bestätigen könnten.",
             altAnswers: ["Ich wäre Ihnen dankbar, wenn Sie den neuen Termin bestätigen könnten.", "Ich wäre Ihnen sehr dankbar, wenn Sie mir den neuen Termin bestätigen könnten.", "Ich wäre Ihnen sehr dankbar, wenn Sie den neuen Termin bestätigen könnten.", "Ich wäre Ihnen dankbar, wenn Sie mir den neuen Termin bestätigen würden.", "Ich wäre Ihnen dankbar, wenn Sie den neuen Termin bestätigen würden."],
@@ -2168,7 +2168,7 @@ export const DE_C1_U13: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "To Dr. Vogel: [I hereby confirm] the new date.",
+        en: "To Dr Vogel: [I hereby confirm] the new date.",
         sentence: "___ Ihnen den neuen Termin.",
         answer: "Hiermit bestätige ich",
         explanation: "\"Hiermit\" (hereby) is a formal letter word; after it the verb comes second.",
@@ -2184,7 +2184,7 @@ export const DE_C1_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which opening goes with which recipient? Choose the correct set: Lukas / Sarah / Dr. Vogel.",
+        question: "Which opening goes with which recipient? Choose the correct set: Lukas / Sarah / Dr Vogel.",
         options: ["Hey Lukas / Hallo Sarah / Sehr geehrter Herr Dr. Vogel", "Sehr geehrter Lukas / Hey Sarah / Hallo Vogel", "Hallo Herr Lukas / Liebe Frau Sarah / Hi Dr. Vogel", "Hey Lukas / Sehr geehrte Sarah / Lieber Dr. Vogel"],
         correctIndex: 0,
         explanation: "Friend: \"Hey\" + first name; du colleague: \"Hallo\" + first name; client: \"Sehr geehrter Herr\" + title + surname.",
@@ -2194,7 +2194,7 @@ export const DE_C1_U13: Lesson[] = [
         prompt: "Put the words in order to say: I am happy to answer any questions.",
         words: ["Für Rückfragen", "stehe", "ich", "Ihnen", "gern", "zur Verfügung."],
         translation: "I am happy to answer any questions.",
-        altOrders: [["Für Rückfragen", "stehe", "ich", "Ihnen", "zur Verfügung", "gern."], ["Ich", "stehe", "Ihnen", "für Rückfragen", "gern", "zur Verfügung."]],
+        altOrders: [["Ich", "stehe", "Ihnen", "für Rückfragen", "gern", "zur Verfügung."]],
         explanation: "A set phrase: \"jemandem zur Verfügung stehen\" (to be available to someone), with the dative \"Ihnen\".",
       },
       {
@@ -2373,7 +2373,8 @@ export const DE_C1_U13: Lesson[] = [
         en: "[I've got] one more question, Ms Roth.",
         sentence: "___ da noch eine Frage, Frau Roth.",
         answer: "Ich hätte",
-        explanation: "\"Ich hätte da eine Frage\": the Konjunktiv der Bescheidenheit softens a simple statement.",
+        altAnswers: ["Ich habe", "Ich hab"],
+        explanation: "\"Ich hätte da eine Frage\": the Konjunktiv der Bescheidenheit softens a simple statement. \"Ich habe da noch eine Frage\" is also correct, just a little more direct.",
       },
       {
         type: "translate",
@@ -2405,6 +2406,7 @@ export const DE_C1_U13: Lesson[] = [
         prompt: "Put the words in order to say: It is precisely this point that I'd like to stress.",
         words: ["Gerade", "diesen Punkt", "möchte", "ich", "betonen."],
         translation: "It is precisely this point that I'd like to stress.",
+        altOrders: [["Ich", "möchte", "gerade", "diesen Punkt", "betonen."]],
         explanation: "The focus particle \"gerade\" + object in the Vorfeld replaces an English cleft sentence.",
       },
       {

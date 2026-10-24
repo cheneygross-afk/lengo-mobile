@@ -184,7 +184,7 @@ export const DE_CULTURE_U03: Lesson[] = [
         prompt: "Translate into German.",
         source: "It's my turn to clean the stairs this week. (in Stuttgart)",
         answer: "Diese Woche habe ich Kehrwoche.",
-        altAnswers: ["Ich habe diese Woche Kehrwoche.", "Diese Woche bin ich mit der Kehrwoche dran.", "Diese Woche bin ich mit Putzen dran."],
+        altAnswers: ["Ich habe diese Woche Kehrwoche.", "Diese Woche bin ich mit der Kehrwoche dran.", "Ich bin diese Woche mit der Kehrwoche dran.", "Diese Woche bin ich mit Putzen dran."],
         explanation: "\"Kehrwoche haben\" is the Swabian institution: a rota for cleaning shared areas.",
       },
       {
@@ -288,7 +288,7 @@ export const DE_CULTURE_U03: Lesson[] = [
             en: "[Feel free to start] without me! (to friends)",
             sentence: "___ schon ohne mich an!",
             answer: "Fangt ruhig",
-            altAnswers: ["Fangt doch", "Fangt", "Fangen Sie ruhig"],
+            altAnswers: ["Fangt doch", "Fangt"],
             explanation: "The ihr imperative \"Fangt ... an\" with \"ruhig\" (feel free) softens it into permission.",
           },
           {
@@ -887,7 +887,7 @@ export const DE_CULTURE_U03: Lesson[] = [
         ],
         examples: [
           { es: "Moin! Na, alles klar?", en: "Hi! All good? (in the north, at any time of day)" },
-          { es: "Grüß Gott, Frau Huber!", en: "Hello, Mrs Huber! (in Bavaria)" },
+          { es: "Grüß Gott, Frau Huber!", en: "Hello, Ms Huber! (in Bavaria)" },
           { es: "Servus, wie geht's dir?", en: "Hi, how are you? (in Bavaria or Austria)" },
           { es: "Guten Tag zusammen!", en: "Hello, everyone!" },
           { es: "Schönen Tag noch!", en: "Have a nice day!" },
@@ -1677,9 +1677,9 @@ export const DE_CULTURE_U03: Lesson[] = [
           "Leaving: \"So, ich mache mich dann mal auf den Weg\", \"Vielen Dank für die Einladung\", a handshake at the door, and a message the next day.",
         ],
         examples: [
-          { es: "Guten Abend, Frau Becker, vielen Dank für die Einladung!", en: "Good evening, Mrs Becker, thank you for inviting me!" },
+          { es: "Guten Abend, Frau Becker, vielen Dank für die Einladung!", en: "Good evening, Ms Becker, thank you for inviting me!" },
           { es: "Die sind für Sie.", en: "These are for you." },
-          { es: "Der Braten ist wirklich lecker, Frau Becker!", en: "The roast is really delicious, Mrs Becker!" },
+          { es: "Der Braten ist wirklich lecker, Frau Becker!", en: "The roast is really delicious, Ms Becker!" },
           { es: "Noch etwas Soße? – Ja, gerne!", en: "A bit more gravy? – Yes, please!" },
           { es: "So, ich mache mich dann mal auf den Weg.", en: "Right, I'll be heading off then." },
         ],
@@ -1688,7 +1688,7 @@ export const DE_CULTURE_U03: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German (to Jonas's mother).",
-            source: "The roast is really delicious, Mrs Becker!",
+            source: "The roast is really delicious, Ms Becker!",
             answer: "Der Braten ist wirklich lecker, Frau Becker!",
             altAnswers: ["Der Braten ist sehr lecker, Frau Becker!", "Der Braten schmeckt wirklich gut, Frau Becker!", "Der Braten ist echt lecker, Frau Becker!", "Der Braten schmeckt wirklich lecker, Frau Becker!", "Der Braten ist köstlich, Frau Becker!"],
             explanation: "A specific compliment to the cook, with \"Frau\" + surname because you say Sie to Jonas's parents.",
@@ -1866,7 +1866,7 @@ export const DE_CULTURE_U03: Lesson[] = [
 
 export const DE_CULTURE_U03_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You've lived in a German apartment building for a month. This morning you found a note from your neighbour, Frau Schneider, complaining that your bike was in the stairwell, your glass recycling was noisy on Sunday and music was too loud after 22:00. Write a polite reply note to her (Sie): apologise, explain what you didn't know, say what you'll do from now on, ask one question about the house rules, and invite her for coffee.",
+  prompt: "You've lived in a German block of flats for a month. This morning you found a note from your neighbour, Frau Schneider, complaining that your bike was in the stairwell, your glass recycling was noisy on Sunday and music was too loud after 22:00. Write a polite reply note to her (Sie): apologise, explain what you didn't know, say what you'll do from now on, ask one question about the house rules, and invite her for coffee.",
   minWords: 180,
   maxWords: 300,
   rubric: ["Writes in the Sie form with an appropriate greeting and closing (\"Liebe Frau Schneider\", \"Mit freundlichen Grüßen\" / \"Viele Grüße\")", "States the rules impersonally with \"man\", \"dürfen\" / \"sollen\" or the passive (\"Sonntags darf man kein Glas einwerfen\", \"Fahrräder werden im Keller abgestellt\")", "Makes polite requests and offers with the Konjunktiv II (\"Könnten Sie mir sagen ...?\", \"Würden Sie ...?\", \"Hätten Sie Lust ...?\")", "Apologises and invites with set phrases (\"Es tut mir leid\", \"Das wusste ich leider nicht\", \"Sie sind herzlich eingeladen\")"],

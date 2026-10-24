@@ -163,7 +163,7 @@ export const DE_C2_S08_STORIES: Story[] = [
         question: `What has the new member Malte told her?`,
         options: [`That he wants to become chairman`, `That the semicolon is used billions of times a day in programming languages`, `That the society should merge with a computer club`, `That programmers hate the semicolon`],
         correctIndex: 1,
-        explanation: `Malte says that every day "Milliarden Semikolons geschrieben" are written in programming languages.`,
+        explanation: `Malte says: "Jeden Tag ... würden auf diesem Planeten Milliarden Semikolons geschrieben", most of them to end instructions in programming languages.`,
       },
       {
         question: `What does the chairwoman finally propose?`,
@@ -208,7 +208,7 @@ export const DE_C2_S08_STORIES: Story[] = [
       },
       {
         question: `Why does M. call her time of four hours fifty a "new record" and write "Endlich wieder"?`,
-        options: [`Because it is her fastest climb ever`, `Because her daughter came with her`, `Because she has been ill and did not expect to reach the top`, `Because she was slow again, as she always was when climbing with someone`],
+        options: [`Because it is her fastest climb ever`, `Because her daughter came with her`, `Because she climbed faster than in 2019`, `Because she was slow again, as she always was when climbing with someone`],
         correctIndex: 3,
         explanation: `She writes "Zu zweit war ich immer langsamer. Endlich wieder."`,
       },

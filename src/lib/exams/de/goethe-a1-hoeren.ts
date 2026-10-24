@@ -133,7 +133,7 @@ export const GOETHE_A1_HOEREN: ExamPaper = {
       instructions:
         "Sie hören vier Ansagen. Sie hören jeden Text einmal. Kreuzen Sie an: Richtig oder Falsch?",
       instructionsEn:
-        "You'll hear four announcements, each only once. Mark each statement Richtig (true) or Falsch (false).",
+        "You'll hear four announcements, each only once. Mark each statement \"Richtig\" (true) or \"Falsch\" (false).",
       audio: [
         {
           label: "Ansage 1",

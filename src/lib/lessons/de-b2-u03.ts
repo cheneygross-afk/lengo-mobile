@@ -8,7 +8,7 @@ export const DE_B2_U03: Lesson[] = [
     level: "DE-B2",
     number: 1,
     title: "Konjunktiv I and Indirect Speech, Part 1 of 2",
-    summary: "Report what others say without vouching for it: er sei, sie habe, es gebe, man könne, and no tense backshift.",
+    summary: "Report what others say without vouching for it (\"er sei\", \"sie habe\", \"es gebe\", \"man könne\"), with no tense backshift.",
     duration: "15 min",
     sections: [
       {
@@ -97,7 +97,7 @@ export const DE_B2_U03: Lesson[] = [
         heading: "No backshift",
         body: [
           "English moves reported speech back in time: He said, 'I am ill' → He said he was ill. German doesn't. It keeps the tense of the original statement and changes only the mood: \"Er sagte, er sei krank.\" The reporting verb can be in any tense (\"sagt\", \"sagte\", \"hat gesagt\"); the reported clause stays the same.",
-          "So \"*Er sagte, er war krank\" is a classic English-speaker error in formal German: \"war\" sounds as if the reporter states as fact that he was ill at some earlier time. Translate he said he was ill as \"Er sagte, er sei krank\" whenever the original was present tense.",
+          "So \"*Er sagte, er war krank*\" is a classic English-speaker error in formal German: \"war\" sounds as if the reporter states as fact that he was ill at some earlier time. Translate he said he was ill as \"Er sagte, er sei krank\" whenever the original was present tense.",
           "With or without \"dass\": \"Sie sagte, sie habe keine Zeit\" (main-clause order) or \"Sie sagte, dass sie keine Zeit habe\" (verb at the end). Both are standard; without \"dass\" is more common in journalism.",
         ],
         examples: [
@@ -222,7 +222,7 @@ export const DE_B2_U03: Lesson[] = [
     level: "DE-B2",
     number: 2,
     title: "Pattern Practice: Er sagt, er sei...",
-    summary: "Drill one frame with many verbs: Sie sagt, sie sei müde / habe keine Zeit / komme später / müsse noch arbeiten.",
+    summary: "Pass on a message with one frame and many verbs: \"Sie sagt, sie sei müde\", \"... habe keine Zeit\", \"... komme später\", \"... müsse noch arbeiten\".",
     duration: "12 min",
     sections: [
       {
@@ -265,7 +265,7 @@ export const DE_B2_U03: Lesson[] = [
         body: [
           "The same reports with \"dass\": the Konjunktiv I verb goes to the end. \"Sie sagt, dass sie müde sei\", \"..., dass sie keine Zeit habe\", \"..., dass sie später komme\", \"..., dass sie noch arbeiten müsse\".",
           "With modals, the infinitive comes first, the Konjunktiv I modal last: \"..., dass sie noch arbeiten müsse\". Separable verbs join up again: \"Sie sagt, sie rufe später an\" but \"..., dass sie später anrufe\".",
-          "Choose freely between the two versions, but don't mix them: \"*Sie sagt, dass sie sei müde\" is wrong (dass needs the verb at the end).",
+          "Choose freely between the two versions, but don't mix them: \"*Sie sagt, dass sie sei müde*\" is wrong (\"dass\" needs the verb at the end).",
         ],
         examples: [
           { es: "Sie sagt, dass sie müde sei.", en: "She says that she's tired." },
@@ -429,7 +429,7 @@ export const DE_B2_U03: Lesson[] = [
     level: "DE-B2",
     number: 3,
     title: "Circuit: Ich → Er, Mein → Sein, Hier → Dort",
-    summary: "Shift person, possessives, time and place when you report: heute → an diesem Tag, morgen → am nächsten Tag, hier → dort.",
+    summary: "Shift person, possessives, time and place when you report: \"heute\" → \"an diesem Tag\", \"morgen\" → \"am nächsten Tag\", \"hier\" → \"dort\".",
     duration: "14 min",
     sections: [
       {
@@ -614,7 +614,7 @@ export const DE_B2_U03: Lesson[] = [
         source: "The witness said he had been alone at that moment. (formal report)",
         answer: "Der Zeuge sagte, er sei in diesem Moment allein gewesen.",
         altAnswers: ["Der Zeuge sagte, dass er in diesem Moment allein gewesen sei.", "Der Zeuge sagte, er sei in dem Moment allein gewesen.", "Der Zeuge sagte, er sei zu diesem Zeitpunkt allein gewesen."],
-        explanation: "\"Jetzt\" → \"in diesem Moment\"; the original Perfekt \"ich bin ... gewesen\" becomes \"er sei ... gewesen\".",
+        explanation: "The witness spoke about the past (\"Ich war in diesem Moment allein\"), and any past tense in the original becomes \"er sei ... gewesen\".",
       },
       {
         type: "dictation",
@@ -634,7 +634,7 @@ export const DE_B2_U03: Lesson[] = [
     level: "DE-B2",
     number: 4,
     title: "Thematic Review: Die Pressekonferenz",
-    summary: "Freiburg's mayor announces a new tram line: report his statements in Konjunktiv I and comment on the delays with hätte ... sollen.",
+    summary: "Freiburg's mayor announces a new tram line: report his statements in Konjunktiv I and comment on the delays with \"hätte ... sollen\".",
     duration: "15 min",
     sections: [
       {
@@ -708,12 +708,12 @@ export const DE_B2_U03: Lesson[] = [
         heading: "What if...",
         body: [
           "Your article ends with a comment on the unreal past (Unit 1). \"Wenn die Stadt früher geplant hätte, wäre die Linie schon 2024 eröffnet worden\" is passive and heavy; a mixed conditional is lighter: \"Hätte die Stadt früher geplant, wäre die Bahn schon längst in Betrieb\" (if the city had planned earlier, the tram would long since be running).",
-          "Simpler versions are just as good: \"Mit besserer Planung hätte man zwei Jahre sparen können.\" \"Viele Anwohner sagen, sie hätten sich mehr Information gewünscht.\"",
+          "Simpler versions are just as good: \"Mit besserer Planung hätte man zwei Jahre sparen können.\" \"Viele Anwohner sagen, sie hätten sich mehr Informationen gewünscht.\"",
           "\"Sie hätten sich ... gewünscht\" is the reported form of \"Wir hätten uns ... gewünscht\": a Konjunktiv II past, so it stays as it is.",
         ],
         examples: [
           { es: "Mit besserer Planung hätte man zwei Jahre sparen können.", en: "With better planning two years could have been saved." },
-          { es: "Viele Anwohner sagen, sie hätten sich mehr Information gewünscht.", en: "Many residents say they would have liked more information." },
+          { es: "Viele Anwohner sagen, sie hätten sich mehr Informationen gewünscht.", en: "Many residents say they would have liked more information." },
           { es: "Hätte die Stadt früher geplant, wäre die Bahn schon in Betrieb.", en: "If the city had planned earlier, the tram would already be running." },
           { es: "Eine Anwohnerin meint, der Lärm sei kaum auszuhalten.", en: "One resident says the noise is barely bearable." },
           { es: "Trotzdem freuen sich die meisten auf die neue Linie.", en: "Still, most people are looking forward to the new line." },
@@ -730,7 +730,7 @@ export const DE_B2_U03: Lesson[] = [
           },
           {
             type: "listen-choose",
-            audio: "Viele Anwohner sagen, sie hätten sich mehr Information gewünscht.",
+            audio: "Viele Anwohner sagen, sie hätten sich mehr Informationen gewünscht.",
             question: "What does it mean?",
             options: ["Many residents say they would have liked more information.", "Many residents say they have received more information.", "Many residents want more information now.", "Many residents had wished for less information."],
             correctIndex: 0,
@@ -833,7 +833,7 @@ export const DE_B2_U03: Lesson[] = [
     level: "DE-B2",
     number: 5,
     title: "Reporting Verbs: Behaupten, Betonen, Zugeben, Bestreiten",
-    summary: "Go beyond sagen: claim, stress, admit, deny, assure and warn, with dass, Konjunktiv I or a zu-infinitive.",
+    summary: "Go beyond \"sagen\": claim, stress, admit, deny, assure and warn, with \"dass\", Konjunktiv I or a zu-infinitive.",
     duration: "15 min",
     sections: [
       {
@@ -875,7 +875,7 @@ export const DE_B2_U03: Lesson[] = [
         body: [
           "Reporting verbs take three kinds of complement. With \"dass\": \"Er gibt zu, dass er gelogen habe.\" Without \"dass\", main-clause order: \"Er gibt zu, er habe gelogen.\" Or, when the subject is the same, an infinitive clause with \"zu\": \"Er gibt zu, gelogen zu haben.\"",
           "The infinitive clause is elegant and very common with \"behaupten\", \"bestreiten\", \"zugeben\" and \"versichern\". For a past action use the perfect infinitive: participle + \"zu haben\" or \"zu sein\": \"Er bestreitet, das Geld genommen zu haben.\" \"Sie behauptet, nie dort gewesen zu sein.\"",
-          "\"Bestreiten\" + dass-clause can confuse: \"Er bestreitet, dass er das Geld genommen habe\" means he denies having taken it. Don't add \"nicht\": \"*Er bestreitet, dass er das Geld nicht genommen habe\" is a common slip, even among native speakers, and literally denies not taking it.",
+          "\"Bestreiten\" + dass-clause can confuse: \"Er bestreitet, dass er das Geld genommen habe\" means he denies having taken it. Don't add \"nicht\": \"*Er bestreitet, dass er das Geld nicht genommen habe*\" is a common slip, even among native speakers, and literally denies not taking it.",
         ],
         examples: [
           { es: "Er bestreitet, das Geld genommen zu haben.", en: "He denies having taken the money." },
@@ -1046,14 +1046,14 @@ export const DE_B2_U03: Lesson[] = [
     level: "DE-B2",
     number: 6,
     title: "Spiral Review: Was hättest du an meiner Stelle getan?",
-    summary: "Spaced review of Unit 1: answer questions about past dilemmas with hätte / wäre + Partizip II.",
+    summary: "Spaced review of Unit 1: answer questions about past dilemmas with \"hätte\" / \"wäre\" + Partizip II.",
     duration: "12 min",
     sections: [
       {
         heading: "Dilemmas at work",
         body: [
           "Back to Unit 1. A friend tells you about tricky situations and asks \"Was hättest du an meiner Stelle getan?\" Answer with \"An deiner Stelle hätte ich ...\" or \"... wäre ich ...\", and give a reason.",
-          "Remember the auxiliary choice: haben for most verbs, sein for movement, change of state, \"bleiben\", \"sein\", \"werden\", \"passieren\". And no \"würde\" in the past: \"Ich hätte gekündigt\", not \"*Ich würde gekündigt haben\".",
+          "Remember the auxiliary choice: haben for most verbs, sein for movement, change of state, \"bleiben\", \"sein\", \"werden\", \"passieren\". And no \"würde\" in the past: \"Ich hätte gekündigt\", not \"*Ich würde gekündigt haben*\".",
         ],
         examples: [
           { es: "Mein Chef wollte, dass ich am Wochenende arbeite. Was hättest du getan?", en: "My boss wanted me to work at the weekend. What would you have done?" },
@@ -1069,7 +1069,7 @@ export const DE_B2_U03: Lesson[] = [
             prompt: "Translate into German.",
             source: "In your place I would have said no.",
             answer: "An deiner Stelle hätte ich Nein gesagt.",
-            altAnswers: ["An deiner Stelle hätte ich nein gesagt.", "Ich hätte an deiner Stelle Nein gesagt.", "An Ihrer Stelle hätte ich Nein gesagt."],
+            altAnswers: ["Ich hätte an deiner Stelle Nein gesagt.", "An Ihrer Stelle hätte ich Nein gesagt."],
             explanation: "\"An deiner Stelle\" in position 1, then \"hätte ich\".",
           },
           {
@@ -1202,7 +1202,7 @@ export const DE_B2_U03: Lesson[] = [
     level: "DE-B2",
     number: 7,
     title: "Spiral Review: From Fact to Regret",
-    summary: "Spaced review of Unit 2: turn facts into regrets with the double infinitive (Ich habe nicht gefragt → Ich hätte fragen sollen).",
+    summary: "Spaced review of Unit 2: turn facts into regrets with the double infinitive (\"Ich habe nicht gefragt\" → \"Ich hätte fragen sollen\").",
     duration: "12 min",
     sections: [
       {
@@ -1356,7 +1356,7 @@ export const DE_B2_U03: Lesson[] = [
     level: "DE-B2",
     number: 8,
     title: "Konjunktiv I and Indirect Speech, Part 2 of 2",
-    summary: "Report the past (er habe gesagt, sie sei gefahren) and the future (er werde kommen), and switch to hätten or würden when Konjunktiv I looks like the indicative.",
+    summary: "Report the past (\"er habe gesagt\", \"sie sei gefahren\") and the future (\"er werde kommen\"), and switch to \"hätten\" or \"würden\" when Konjunktiv I looks like the indicative.",
     duration: "15 min",
     sections: [
       {
@@ -1364,7 +1364,7 @@ export const DE_B2_U03: Lesson[] = [
         body: [
           "German has three past tenses, but the Konjunktiv I has only one past form: \"habe\" or \"sei\" + Partizip II. Whether the speaker said \"Ich ging\", \"Ich bin gegangen\" or \"Ich war gegangen\", the report is \"Er sagt, er sei gegangen.\" Likewise \"Ich sah / habe gesehen / hatte gesehen\" → \"Sie sagt, sie habe es gesehen.\"",
           "The auxiliary follows the Perfekt rule: \"habe\" for haben-verbs, \"sei\" for sein-verbs. \"Der Zeuge sagt, er habe nichts gesehen. Er sei sofort nach Hause gefahren.\"",
-          "Again, no extra backshift in German: English He said he had seen nothing becomes \"Er sagte, er habe nichts gesehen\", not \"*er hatte nichts gesehen\".",
+          "Again, no extra backshift in German: English He said he had seen nothing becomes \"Er sagte, er habe nichts gesehen\", not \"*er hatte nichts gesehen*\".",
         ],
         examples: [
           { es: "Er sagt, er sei sofort nach Hause gefahren.", en: "He says he drove straight home." },
@@ -1429,7 +1429,7 @@ export const DE_B2_U03: Lesson[] = [
       {
         heading: "The substitution rule",
         body: [
-          "When a Konjunktiv I form looks exactly like the indicative, it can't do its job of marking reported speech. \"Wir haben keine Zeit\" → \"*Sie sagen, sie haben keine Zeit\" looks like an ordinary statement. German then switches to the Konjunktiv II: \"Sie sagen, sie hätten keine Zeit.\"",
+          "When a Konjunktiv I form looks exactly like the indicative, it can't do its job of marking reported speech. \"Wir haben keine Zeit\" → \"*Sie sagen, sie haben keine Zeit*\" looks like an ordinary statement. German then switches to the Konjunktiv II: \"Sie sagen, sie hätten keine Zeit.\"",
           "This mostly affects the plural and the ich-form: \"sie haben\" → \"sie hätten\", \"ich habe\" → \"ich hätte\", \"sie kommen\" → \"sie kämen\" or, more commonly, \"sie würden kommen\". Past: \"sie haben gesehen\" → \"sie hätten gesehen\". Future: \"sie werden kommen\" → \"sie würden kommen\".",
           "\"Sein\" never needs substitution: \"sie seien\" is always distinct. And the er/sie/es forms almost never do.",
           "Outside the substitution rule, a Konjunktiv II in reported speech signals that the reporter doubts the claim: \"Er sagt, er wäre krank\" (he says he's ill, but I wonder). In casual speech, though, many people use Konjunktiv II without any doubt intended.",
@@ -1844,7 +1844,7 @@ export const DE_B2_U03: Lesson[] = [
           { es: "Die neue Chefin heißt Frau Dr. Wolf; sie komme aus München.", en: "The new boss is called Dr Wolf; she comes from Munich, I'm told." },
           { es: "Ich halte das mit der Kantine eher für ein Gerücht.", en: "I think the canteen thing is more of a rumour." },
           { es: "Wir sollten abwarten, was die Geschäftsführung sagt.", en: "We should wait and see what management says." },
-          { es: "Ich halte Sie auf dem Laufenden. Viele Grüße, Jonas", en: "I'll keep you posted. Best wishes, Jonas" },
+          { es: "Ich halte Sie auf dem Laufenden. Viele Grüße Jonas", en: "I'll keep you posted. Best wishes, Jonas" },
         ],
         checkpoint: [
           {
@@ -1976,7 +1976,7 @@ export const DE_B2_U03: Lesson[] = [
           { es: "Jonas sagt, er sei gestern in Köln gewesen.", en: "Jonas says he was in Cologne yesterday." },
           { es: "Die Lehrerin sagt, die Prüfung werde schwer.", en: "The teacher says the exam will be hard." },
           { es: "Mehmet sagt, seine Eltern kämen am Sonntag.", en: "Mehmet says his parents are coming on Sunday." },
-          { es: "Frau Becker sagt, sie könne leider nicht teilnehmen.", en: "Mrs Becker says she unfortunately can't take part." },
+          { es: "Frau Becker sagt, sie könne leider nicht teilnehmen.", en: "Ms Becker says she unfortunately can't take part." },
         ],
         checkpoint: [
           {
@@ -2013,8 +2013,8 @@ export const DE_B2_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Mrs Becker said: \"Ich kann leider nicht teilnehmen.\" Report it.",
-        source: "Mrs Becker says she unfortunately can't take part.",
+        prompt: "Ms Becker said: \"Ich kann leider nicht teilnehmen.\" Report it.",
+        source: "Ms Becker says she unfortunately can't take part.",
         answer: "Frau Becker sagt, sie könne leider nicht teilnehmen.",
         altAnswers: ["Frau Becker sagt, dass sie leider nicht teilnehmen könne."],
         explanation: "\"Kann\" → \"könne\".",
@@ -2052,7 +2052,7 @@ export const DE_B2_U03: Lesson[] = [
         prompt: "The children said: \"Wir haben Hunger.\" Report it.",
         source: "The children say they're hungry.",
         answer: "Die Kinder sagen, sie hätten Hunger.",
-        altAnswers: ["Die Kinder sagen, dass sie Hunger hätten."],
+        altAnswers: ["Die Kinder sagen, dass sie Hunger hätten.", "Die Kinder sagen, sie seien hungrig."],
         explanation: "\"Wir haben\" → \"sie hätten\".",
       },
       {

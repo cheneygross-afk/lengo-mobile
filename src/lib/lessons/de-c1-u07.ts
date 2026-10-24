@@ -100,7 +100,7 @@ export const DE_C1_U07: Lesson[] = [
         heading: "For: seit, für or nothing",
         body: [
           "English for + a time span has three German equivalents. Ongoing until now: \"seit\" + present (\"Ich wohne seit drei Jahren in Köln\": I've lived in Cologne for three years). Completed duration: no preposition, or \"lang\" (\"Ich habe drei Jahre in Köln gewohnt\" / \"drei Jahre lang\"). Planned or intended period: \"für\" (\"Ich gehe für drei Monate nach Spanien\": I'm going to Spain for three months).",
-          "The classic mistake is \"*Ich wohne hier für drei Jahre\", which in German sounds like I'm living here for a planned three years. And \"*Ich habe für zwei Jahren hier gearbeitet\" mixes \"für\" (accusative) with a dative ending.",
+          "The classic mistake is \"*Ich wohne hier für drei Jahre*\", which in German sounds like I'm living here for a planned three years. And \"*Ich habe für zwei Jahren hier gearbeitet*\" mixes \"für\" (accusative) with a dative ending.",
           "In contracts: \"Der Vertrag wird für zwei Jahre geschlossen\" (concluded for two years), \"Die Mindestlaufzeit beträgt 24 Monate\", \"Der Vertrag verlängert sich jeweils um ein Jahr\" (is renewed for a further year each time).",
         ],
         examples: [
@@ -184,7 +184,7 @@ export const DE_C1_U07: Lesson[] = [
         prompt: "Translate into German.",
         source: "He was ill for two weeks.",
         answer: "Er war zwei Wochen krank.",
-        altAnswers: ["Er war zwei Wochen lang krank."],
+        altAnswers: ["Er war zwei Wochen lang krank.", "Er ist zwei Wochen krank gewesen.", "Er ist zwei Wochen lang krank gewesen."],
         explanation: "Completed duration: no preposition (or \"lang\"); \"für\" would be wrong.",
       },
       {
@@ -320,7 +320,7 @@ export const DE_C1_U07: Lesson[] = [
             en: "The ticket costs 60 euros [including drinks].",
             sentence: "Das Ticket kostet 60 Euro ___.",
             answer: "einschließlich Getränken",
-            altAnswers: ["inklusive Getränken", "inkl. Getränke", "inkl. Getränken"],
+            altAnswers: ["inklusive Getränken", "inkl. Getränken"],
             explanation: "A bare plural noun after a genitive preposition switches to the dative: \"Getränken\". \"Inklusive Getränke\" is common in ads, but careful writing uses the dative.",
           },
         ],
@@ -695,14 +695,14 @@ export const DE_C1_U07: Lesson[] = [
     level: "DE-C1",
     number: 4,
     title: "Error Hunt: Prepositions Borrowed from English",
-    summary: "Spot and fix the prepositions English pushes into German: \"*interessiert in\", \"*abhängig auf\", \"*stolz von\", \"*in 2025\", \"*für zwei Jahren\", \"*warten für\", \"*zufrieden über\", \"*verantwortlich von\".",
+    summary: "Spot and fix the prepositions English pushes into German: \"*interessiert in*\", \"*abhängig auf*\", \"*stolz von*\", \"*in 2025*\", \"*für zwei Jahren*\", \"*warten für*\", \"*zufrieden über*\", \"*verantwortlich von*\".",
     duration: "17 min",
     sections: [
       {
         heading: "Error 1: adjectives with the wrong preposition",
         body: [
-          "Mia writes in her cover letter: \"*Ich bin sehr interessiert in dieser Stelle.\" English interested in pushes her to \"in\". German says \"interessiert an\" + dative: \"Ich bin sehr an dieser Stelle interessiert\" (or \"Ich interessiere mich sehr für diese Stelle\").",
-          "Other adjectives that English bends: \"*abhängig auf\" → \"abhängig von\" (dependent on), \"*stolz von\" → \"stolz auf\" + accusative (proud of), \"*zufrieden über\" → \"zufrieden mit\" (satisfied with), \"*verantwortlich von\" → \"verantwortlich für\" (responsible for), \"*erfahren mit\" → \"erfahren in\" + dative (experienced in).",
+          "Mia writes in her cover letter: \"*Ich bin sehr interessiert in dieser Stelle.*\" English interested in pushes her to \"in\". German says \"interessiert an\" + dative: \"Ich bin sehr an dieser Stelle interessiert\" (or \"Ich interessiere mich sehr für diese Stelle\").",
+          "Other adjectives that English bends: \"*abhängig auf*\" → \"abhängig von\" (dependent on), \"*stolz von*\" → \"stolz auf\" + accusative (proud of), \"*zufrieden über*\" → \"zufrieden mit\" (satisfied with), \"*verantwortlich von*\" → \"verantwortlich für\" (responsible for), \"*erfahren mit*\" → \"erfahren in\" + dative (experienced in).",
           "Tip: learn these as chunks with the case: \"stolz auf + Akk.\", \"abhängig von + Dat.\", \"zufrieden mit + Dat.\", \"interessiert an + Dat.\", \"verantwortlich für + Akk.\".",
         ],
         examples: [
@@ -716,7 +716,7 @@ export const DE_C1_U07: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix \"*Ich bin interessiert in dem Kurs.\" Translate into German: I'm interested in the course.",
+            prompt: "Fix \"*Ich bin interessiert in dem Kurs.*\" Translate into German: I'm interested in the course.",
             source: "I'm interested in the course.",
             answer: "Ich bin an dem Kurs interessiert.",
             altAnswers: ["Ich bin am Kurs interessiert.", "Ich interessiere mich für den Kurs.", "Ich bin interessiert an dem Kurs.", "Ich bin interessiert am Kurs."],
@@ -724,7 +724,7 @@ export const DE_C1_U07: Lesson[] = [
           },
           {
             type: "fill-blank",
-            prompt: "Fix \"*stolz von\". Write the German for the bold words.",
+            prompt: "Fix \"*stolz von*\". Write the German for the bold words.",
             en: "She is [proud of] her daughter.",
             sentence: "Sie ist ___ ihre Tochter.",
             answer: "stolz auf",
@@ -735,9 +735,9 @@ export const DE_C1_U07: Lesson[] = [
       {
         heading: "Error 2: verbs and the year",
         body: [
-          "Jonas emails a supplier: \"*Wir warten für Ihre Antwort.\" English wait for → \"warten auf\" + accusative: \"Wir warten auf Ihre Antwort.\" Similar: \"*fragen für\" → \"bitten um\" (ask for something), \"*suchen für\" → \"suchen\" (no preposition: \"Wir suchen eine Lösung\"). Apply for is \"sich bewerben um\" (or \"auf\" + a job ad); \"sich bewerben für\" is heard and in dictionaries, but \"um\" is the safer choice in writing.",
-          "Years: German says \"2025\" or \"im Jahr 2025\", not the anglicism \"*in 2025\": \"2025 haben wir expandiert\" / \"Im Jahr 2025 haben wir expandiert.\" Months and seasons do take \"im\": \"im Mai\", \"im Sommer\".",
-          "And \"am Ende\" (at the end), not \"*auf dem Ende\"; \"am Anfang\" (at the beginning); \"zum Schluss\" (finally).",
+          "Jonas emails a supplier: \"*Wir warten für Ihre Antwort.*\" English wait for → \"warten auf\" + accusative: \"Wir warten auf Ihre Antwort.\" Similar: \"*fragen für*\" → \"bitten um\" (ask for something), \"*suchen für*\" → \"suchen\" (no preposition: \"Wir suchen eine Lösung\"). Apply for is \"sich bewerben um\" (or \"auf\" + a job ad); \"sich bewerben für\" is heard and in dictionaries, but \"um\" is the safer choice in writing.",
+          "Years: German says \"2025\" or \"im Jahr 2025\", not the anglicism \"*in 2025*\": \"2025 haben wir expandiert\" / \"Im Jahr 2025 haben wir expandiert.\" Months and seasons do take \"im\": \"im Mai\", \"im Sommer\".",
+          "And \"am Ende\" (at the end), not \"*auf dem Ende*\"; \"am Anfang\" (at the beginning); \"zum Schluss\" (finally).",
         ],
         examples: [
           { es: "Wir warten auf Ihre Antwort.", en: "We're waiting for your reply." },
@@ -750,7 +750,7 @@ export const DE_C1_U07: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix \"*Wir warten für die Lieferung.\" Translate: We're waiting for the delivery.",
+            prompt: "Fix \"*Wir warten für die Lieferung.*\" Translate: We're waiting for the delivery.",
             source: "We're waiting for the delivery.",
             answer: "Wir warten auf die Lieferung.",
             explanation: "\"Warten auf\" + accusative.",
@@ -758,7 +758,7 @@ export const DE_C1_U07: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix \"*In 2019 hat sie die Firma gegründet.\" Translate: She founded the company in 2019.",
+            prompt: "Fix \"*In 2019 hat sie die Firma gegründet.*\" Translate: She founded the company in 2019.",
             source: "She founded the company in 2019.",
             answer: "Sie hat die Firma 2019 gegründet.",
             altAnswers: ["2019 hat sie die Firma gegründet.", "Sie gründete die Firma 2019.", "Sie hat die Firma im Jahr 2019 gegründet.", "Im Jahr 2019 hat sie die Firma gegründet.", "2019 gründete sie die Firma.", "Sie hat das Unternehmen 2019 gegründet."],
@@ -769,9 +769,9 @@ export const DE_C1_U07: Lesson[] = [
       {
         heading: "Error 3: for, since and time",
         body: [
-          "Mehmet writes: \"*Ich arbeite hier für zwei Jahren.\" Two errors: English for + present perfect means \"seit\" (still ongoing), and \"für\" takes the accusative anyway (\"zwei Jahre\", not \"Jahren\"). Correct: \"Ich arbeite seit zwei Jahren hier.\"",
-          "Related: \"*vor zwei Jahren her\" mixes \"vor\" (ago) and \"her\" (\"Das ist zwei Jahre her\" = that was two years ago). Use one or the other: \"vor zwei Jahren\" or \"es ist zwei Jahre her\".",
-          "And \"*bis jetzt habe ich nicht gehört\" for I haven't heard yet: German prefers \"noch nicht\": \"Ich habe noch nichts gehört.\" \"Bis jetzt\" is fine but means up to now (\"Bis jetzt läuft alles gut\").",
+          "Mehmet writes: \"*Ich arbeite hier für zwei Jahren.*\" Two errors: English for + present perfect means \"seit\" (still ongoing), and \"für\" takes the accusative anyway (\"zwei Jahre\", not \"Jahren\"). Correct: \"Ich arbeite seit zwei Jahren hier.\"",
+          "Related: \"*vor zwei Jahren her*\" mixes \"vor\" (ago) and \"her\" (\"Das ist zwei Jahre her\" = that was two years ago). Use one or the other: \"vor zwei Jahren\" or \"es ist zwei Jahre her\".",
+          "And \"*bis jetzt habe ich nicht gehört*\" for I haven't heard yet: German prefers \"noch nicht\": \"Ich habe noch nichts gehört.\" \"Bis jetzt\" is fine but means up to now (\"Bis jetzt läuft alles gut\").",
         ],
         examples: [
           { es: "Ich arbeite seit zwei Jahren hier.", en: "I've been working here for two years." },
@@ -784,7 +784,7 @@ export const DE_C1_U07: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix \"*Ich wohne in Köln für fünf Jahren.\" Translate: I've lived in Cologne for five years.",
+            prompt: "Fix \"*Ich wohne in Köln für fünf Jahren.*\" Translate: I've lived in Cologne for five years.",
             source: "I've lived in Cologne for five years.",
             answer: "Ich wohne seit fünf Jahren in Köln.",
             altAnswers: ["Seit fünf Jahren wohne ich in Köln.", "Ich lebe seit fünf Jahren in Köln."],
@@ -805,7 +805,7 @@ export const DE_C1_U07: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*abhängig auf\". Translate into German.",
+        prompt: "Fix \"*abhängig auf*\". Translate into German.",
         source: "The date depends on the weather.",
         answer: "Der Termin ist vom Wetter abhängig.",
         altAnswers: ["Der Termin hängt vom Wetter ab.", "Das Datum hängt vom Wetter ab.", "Das Datum ist vom Wetter abhängig."],
@@ -814,7 +814,7 @@ export const DE_C1_U07: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*zufrieden über\". Translate: We are very satisfied with the result.",
+        prompt: "Fix \"*zufrieden über*\". Translate: We are very satisfied with the result.",
         source: "We are very satisfied with the result.",
         answer: "Wir sind mit dem Ergebnis sehr zufrieden.",
         altAnswers: ["Wir sind sehr zufrieden mit dem Ergebnis."],
@@ -823,7 +823,7 @@ export const DE_C1_U07: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*verantwortlich von\". Translate: Who is responsible for the budget?",
+        prompt: "Fix \"*verantwortlich von*\". Translate: Who is responsible for the budget?",
         source: "Who is responsible for the budget?",
         answer: "Wer ist für das Budget verantwortlich?",
         altAnswers: ["Wer ist für den Haushalt verantwortlich?", "Wer ist verantwortlich für das Budget?", "Wer ist für das Budget zuständig?"],
@@ -841,7 +841,7 @@ export const DE_C1_U07: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*auf dem Ende\". Translate: At the end of the meeting we voted.",
+        prompt: "Fix \"*auf dem Ende*\". Translate: At the end of the meeting we voted.",
         source: "At the end of the meeting we voted.",
         answer: "Am Ende der Sitzung haben wir abgestimmt.",
         altAnswers: ["Am Ende der Besprechung haben wir abgestimmt.", "Am Ende der Sitzung stimmten wir ab.", "Am Ende des Treffens haben wir abgestimmt.", "Zum Schluss der Sitzung haben wir abgestimmt."],
@@ -850,15 +850,15 @@ export const DE_C1_U07: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*Ich frage für einen Rabatt.\" Translate: I'd like to ask for a discount.",
+        prompt: "Fix \"*Ich frage für einen Rabatt.*\" Translate: I'd like to ask for a discount.",
         source: "I'd like to ask for a discount.",
         answer: "Ich möchte um einen Rabatt bitten.",
-        altAnswers: ["Ich würde gern um einen Rabatt bitten.", "Ich möchte Sie um einen Rabatt bitten.", "Ich bitte um einen Rabatt."],
-        explanation: "Ask for something = \"bitten um\" + accusative; \"fragen nach\" asks for information.",
+        altAnswers: ["Ich würde gern um einen Rabatt bitten.", "Ich möchte Sie um einen Rabatt bitten.", "Ich bitte um einen Rabatt.", "Ich möchte nach einem Rabatt fragen.", "Ich würde gern nach einem Rabatt fragen."],
+        explanation: "Ask for something = \"bitten um\" + accusative; \"fragen nach\" (ask about, ask whether there is one) also works here. Never \"*fragen für*\".",
       },
       {
         type: "fill-blank",
-        prompt: "Fix \"*erfahren mit\". Write the German for the bold words.",
+        prompt: "Fix \"*erfahren mit*\". Write the German for the bold words.",
         en: "She is very [experienced in] project management.",
         sentence: "Sie ist sehr ___ Projektmanagement.",
         answer: "erfahren im",
@@ -867,7 +867,7 @@ export const DE_C1_U07: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Fix \"*vor drei Jahren her\". Write the German for the bold words.",
+        prompt: "Fix \"*vor drei Jahren her*\". Write the German for the bold words.",
         en: "I moved here [three years ago].",
         sentence: "Ich bin ___ hierhergezogen.",
         answer: "vor drei Jahren",
@@ -913,7 +913,7 @@ export const DE_C1_U07: Lesson[] = [
         body: [
           "For an employer or organisation German uses \"bei\": \"Ich arbeite bei Siemens\", \"bei der Bank\", \"bei der Stadt\", \"bei einer Versicherung\". \"In\" focuses on the place or the building: \"Ich arbeite in einer Bank\" (in a bank building) and \"in der Firma\" (at the office, on site: \"Ich bin heute nicht in der Firma\").",
           "Schools and universities take \"an\": \"an der Universität\", \"an einem Gymnasium\", \"an der TU München\". Students say \"Ich studiere an der Uni Köln\" or \"in Köln\". Teachers \"unterrichten an einer Grundschule\".",
-          "English at for all of these doesn't help: \"*Ich arbeite an Siemens\" is wrong. Think: company = \"bei\", school/university = \"an\", the building = \"in\".",
+          "English at for all of these doesn't help: \"*Ich arbeite an Siemens*\" is wrong. Think: company = \"bei\", school/university = \"an\", the building = \"in\".",
         ],
         examples: [
           { es: "Meine Schwester arbeitet bei Siemens in München.", en: "My sister works at Siemens in Munich." },
@@ -946,7 +946,7 @@ export const DE_C1_U07: Lesson[] = [
       {
         heading: "Auf der Messe, auf dem Amt, beim Arzt",
         body: [
-          "Some places take \"auf\" for historical reasons: \"auf der Messe\" (at the trade fair), \"auf einer Konferenz\" / \"auf einer Tagung\", \"auf einer Party\", \"auf dem Amt\" / \"auf der Post\" / \"auf der Bank\" (somewhat old-fashioned for being at the office, post office, bank; today also \"bei der Post\", \"in der Bank\", \"im Bürgeramt\").",
+          "Some places take \"auf\" for historical reasons: \"auf der Messe\" (at the trade fair), \"auf einer Konferenz\" / \"auf einer Tagung\", \"auf einer Party\", \"auf dem Amt\" / \"auf der Post\" / \"auf der Bank\" (\"auf dem Amt\" is still common in speech; \"auf der Post\" and \"auf der Bank\" sound old-fashioned or regional, today usually \"bei der Post\", \"in der Bank\"; officially \"im Bürgeramt\").",
           "People and their practices take \"bei\" (location) and \"zu\" (direction): \"beim Arzt\", \"bei der Friseurin\", \"zum Zahnarzt gehen\". Institutions as destinations: \"zur Bank\", \"zur Post\", \"zum Bürgeramt\" (go to).",
           "So the three questions: wo? (\"beim Arzt\", \"auf der Messe\"), wohin? (\"zum Arzt\", \"auf die Messe\"), woher? (\"vom Arzt\", \"von der Messe\").",
         ],
@@ -1084,7 +1084,8 @@ export const DE_C1_U07: Lesson[] = [
         en: "[While working] I never check my private phone.",
         sentence: "___ schaue ich nie auf mein privates Handy.",
         answer: "Bei der Arbeit",
-        explanation: "\"Bei der Arbeit\" focuses on the activity.",
+        altAnswers: ["Während der Arbeit"],
+        explanation: "\"Bei der Arbeit\" focuses on the activity; \"während der Arbeit\" says the same.",
       },
       {
         type: "multiple-choice",
@@ -1221,6 +1222,7 @@ export const DE_C1_U07: Lesson[] = [
             prompt: "Put the words in order to say: Admission costs 8 euros per person.",
             words: ["Der Eintritt", "kostet", "8 Euro", "pro", "Person."],
             translation: "Admission costs 8 euros per person.",
+            altOrders: [["Der Eintritt", "kostet", "pro", "Person.", "8 Euro"], ["pro", "Person.", "kostet", "Der Eintritt", "8 Euro"]],
             explanation: "\"Pro\" + noun without article.",
           },
         ],
@@ -1251,7 +1253,7 @@ export const DE_C1_U07: Lesson[] = [
         prompt: "Translate into German.",
         source: "The rent is going up by 40 euros.",
         answer: "Die Miete steigt um 40 Euro.",
-        altAnswers: ["Die Miete wird um 40 Euro erhöht.", "Die Miete erhöht sich um 40 Euro."],
+        altAnswers: ["Die Miete wird um 40 Euro erhöht.", "Die Miete erhöht sich um 40 Euro.", "Die Miete wird um 40 Euro steigen.", "Die Miete steigt um 40 Euro an."],
         explanation: "By = \"um\".",
       },
       {
@@ -1413,7 +1415,7 @@ export const DE_C1_U07: Lesson[] = [
         heading: "Checking the email",
         body: [
           "Read the finished paragraph and check each preposition: \"Vielen Dank für Ihren Auftrag vom 3. Mai. Hiermit bestätigen wir 5.000 Flyer zum Preis von 0,12 Euro pro Stück sowie 200 Plakate à 3,50 Euro. Aufgrund der Auftragsmenge gewähren wir einen Rabatt von 5 %. Der Gesamtbetrag beläuft sich auf 1.235 Euro zuzüglich MwSt. Die Lieferung erfolgt bis spätestens 24. Mai. Zahlbar innerhalb von 30 Tagen ab Rechnungsdatum.\"",
-          "Common slips to avoid: \"*Rabatt um 5 %\" (a discount OF is \"von\"), \"*bis zum spätestens\" (it's \"bis spätestens\" or \"spätestens bis zum\"), \"*in 30 Tagen\" for within, \"*Ihren Auftrag von 3. Mai\" (the date needs \"vom\").",
+          "Common slips to avoid: \"*Rabatt um 5 %*\" (a discount OF is \"von\"), \"*bis zum spätestens*\" (it's \"bis spätestens\" or \"spätestens bis zum\"), \"*in 30 Tagen*\" for within, \"*Ihren Auftrag von 3. Mai*\" (the date needs \"vom\").",
           "When a price is reduced, use \"um\": \"Der Preis wurde um 5 % reduziert\"; but a discount of: \"ein Rabatt von 5 %\", \"ein Nachlass von 5 %\".",
         ],
         examples: [
@@ -1507,7 +1509,7 @@ export const DE_C1_U07: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "[Due to] a supplier's bottleneck there may be delays.",
+        en: "[As a result of] a supplier's bottleneck there may be delays.",
         sentence: "___ eines Engpasses bei einem Lieferanten kann es zu Verzögerungen kommen.",
         answer: "Infolge",
         altAnswers: ["Aufgrund", "Wegen"],
@@ -1607,7 +1609,7 @@ export const DE_C1_U07: Lesson[] = [
             prompt: "Translate into German, with \"in Bezug auf\".",
             source: "As far as the date is concerned, we're flexible.",
             answer: "In Bezug auf den Termin sind wir flexibel.",
-            altAnswers: ["In Bezug auf das Datum sind wir flexibel.", "Was den Termin betrifft, sind wir flexibel.", "Was das Datum betrifft, sind wir flexibel."],
+            altAnswers: ["In Bezug auf das Datum sind wir flexibel."],
             explanation: "\"In Bezug auf\" + accusative: \"den Termin\".",
           },
           {
@@ -1640,7 +1642,7 @@ export const DE_C1_U07: Lesson[] = [
             prompt: "Translate into German, with \"was ... betrifft\".",
             source: "As for the hotel, we were very satisfied.",
             answer: "Was das Hotel betrifft, waren wir sehr zufrieden.",
-            altAnswers: ["Was das Hotel angeht, waren wir sehr zufrieden.", "Was das Hotel betrifft, so waren wir sehr zufrieden."],
+            altAnswers: ["Was das Hotel betrifft, so waren wir sehr zufrieden."],
             explanation: "The was-clause takes position 1, so the verb \"waren\" follows directly.",
           },
           {
@@ -1828,7 +1830,7 @@ export const DE_C1_U07: Lesson[] = [
         body: [
           "Means of transport: \"mit dem Zug / Bus / Auto / Rad / Flugzeug\" (by train...). \"Per Bahn\", \"per Anhalter\" (hitchhiking) are a bit more formal or fixed. On foot: \"zu Fuß\". Note the article in \"mit dem Zug\": English by train has none.",
           "Location inside the vehicle: \"im Zug\", \"im Bus\", \"im Flugzeug\" (I'm on the train = \"Ich sitze im Zug\"). Getting on and off: \"in den Zug einsteigen\", \"aus dem Bus aussteigen\".",
-          "English on the train → \"im Zug\", never \"*auf dem Zug\"; English by bike → \"mit dem Rad\", never \"*bei Rad\".",
+          "English on the train → \"im Zug\", never \"*auf dem Zug*\"; English by bike → \"mit dem Rad\", never \"*bei Rad*\".",
         ],
         examples: [
           { es: "Ich fahre jeden Tag mit dem Rad zur Arbeit.", en: "I cycle to work every day." },
@@ -1963,7 +1965,7 @@ export const DE_C1_U07: Lesson[] = [
     level: "DE-C1",
     number: 10,
     title: "Prepositions: Professional Precision, Part 6 of 6",
-    summary: "Use postpositions and circumpositions (\"meiner Meinung nach\", \"dem Bericht zufolge\", \"der Einfachheit halber\", \"um des lieben Friedens willen\", \"von heute an\", \"am Bahnhof vorbei\"), formal hier- and da-compounds, and avoid English-style preposition stranding.",
+    summary: "Use postpositions and circumpositions (\"meiner Meinung nach\", \"dem Bericht zufolge\", \"der Einfachheit halber\", \"um des lieben Friedens willen\", \"von heute an\", \"am Bahnhof vorbei\"), formal \"hier-\" and \"da-\" compounds, and avoid English-style preposition stranding.",
     duration: "18 min",
     sections: [
       {
@@ -2291,6 +2293,7 @@ export const DE_C1_U07: Lesson[] = [
         prompt: "Put the words in order to say: After the minimum term the contract is extended.",
         words: ["Nach Ablauf", "der Mindestlaufzeit", "verlängert", "sich", "der Vertrag."],
         translation: "After the minimum term the contract is extended.",
+        altOrders: [["der Vertrag.", "verlängert", "sich", "Nach Ablauf", "der Mindestlaufzeit"]],
         explanation: "Prepositional phrase first, verb second.",
       },
       {
@@ -2308,7 +2311,7 @@ export const DE_C1_U07: Lesson[] = [
       {
         type: "speak",
         text: "Ich möchte meinen Vertrag fristgerecht kündigen.",
-        prompt: "Say it in German: I would like to cancel my contract within the notice period.",
+        prompt: "Say it in German: I would like to cancel my contract, giving the required notice.",
         tip: "\"Fristgerecht\" = in due time, respecting the notice period.",
         explanation: "\"Fristgerecht kündigen\" is the standard phrase.",
       },
@@ -2325,7 +2328,7 @@ export const DE_C1_U07: Lesson[] = [
       {
         heading: "From verb clause to preposition + noun",
         body: [
-          "Formal notices compress whole clauses into a preposition plus a nominalized verb. \"Weil es regnet\" becomes \"wegen des Regens\" or \"aufgrund des Regens\"; \"wenn Sie Fragen haben\" becomes \"bei Fragen\"; \"nachdem der Vertrag abgelaufen ist\" becomes \"nach Ablauf des Vertrags\"; \"damit die Kosten gesenkt werden\" becomes \"zur Senkung der Kosten\".",
+          "Formal notices compress whole clauses into a preposition plus a nominalised verb. \"Weil es regnet\" becomes \"wegen des Regens\" or \"aufgrund des Regens\"; \"wenn Sie Fragen haben\" becomes \"bei Fragen\"; \"nachdem der Vertrag abgelaufen ist\" becomes \"nach Ablauf des Vertrags\"; \"damit die Kosten gesenkt werden\" becomes \"zur Senkung der Kosten\".",
           "The typical pairings: \"weil\" → \"wegen\" / \"aufgrund\" + genitive; \"wenn\" → \"bei\" + dative; \"obwohl\" → \"trotz\" + genitive; \"damit\" / \"um ... zu\" → \"zur\" / \"zum\" or \"zwecks\"; \"bevor\" → \"vor\"; \"während\" (clause) → \"während\" + genitive.",
         ],
         examples: [
@@ -2360,7 +2363,7 @@ export const DE_C1_U07: Lesson[] = [
         body: [
           "Official notices combine the passive (no agent), a genitive preposition and a nominal style: \"Infolge eines technischen Defekts wurde der Betrieb vorübergehend eingestellt.\"",
           "Agents, when they appear, take \"seitens\" (on the part of) or \"durch\": \"Seitens der Verwaltung wurde mitgeteilt, dass...\". Instructions use \"sein + zu\" or the passive: \"Anträge sind bis spätestens 31. März einzureichen.\"",
-          "Recognising the register: a sentence with three or more of these features (genitive preposition, passive, nominalization, sein + zu) is typically a notice, a contract or an official letter.",
+          "Recognising the register: a sentence with three or more of these features (genitive preposition, passive, nominalisation, sein + zu) is typically a notice, a contract or an official letter.",
         ],
         examples: [
           { es: "Infolge eines Defekts wurde der Betrieb eingestellt.", en: "Operations were suspended as a result of a defect." },
@@ -2383,7 +2386,7 @@ export const DE_C1_U07: Lesson[] = [
             question: "Which sentence is the most formal notice style?",
             options: ["Nach Abschluss der Arbeiten wird die Straße wieder freigegeben.", "Wenn wir fertig sind, machen wir die Straße wieder auf.", "Die Straße ist bald wieder offen.", "Wir machen die Straße auf, wenn alles fertig ist."],
             correctIndex: 0,
-            explanation: "Preposition + nominalization (\"nach Abschluss der Arbeiten\") plus passive.",
+            explanation: "Preposition + nominalisation (\"nach Abschluss der Arbeiten\") plus passive.",
           },
         ],
       },
@@ -2432,7 +2435,7 @@ export const DE_C1_U07: Lesson[] = [
         sentence: "___ benötigen wir eine Kopie Ihres Passes.",
         answer: "Zur Überprüfung Ihrer Identität",
         altAnswers: ["Zwecks Überprüfung Ihrer Identität", "Zur Prüfung Ihrer Identität"],
-        explanation: "\"Zur\" + nominalization replaces \"um ... zu\".",
+        explanation: "\"Zur\" + nominalisation replaces \"um ... zu\".",
       },
       {
         type: "fill-blank",

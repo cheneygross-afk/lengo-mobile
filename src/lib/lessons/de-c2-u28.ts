@@ -7,7 +7,7 @@ export const DE_C2_U28: Lesson[] = [
     slug: "c2-philosophy-1",
     level: "DE-C2",
     number: 1,
-    title: "Philosophie und Abstrakte Ideen, Part 1 of 3",
+    title: "Philosophie und abstrakte Ideen, Part 1 of 3",
     summary: "You'll be able to read and use the building blocks of philosophical German: nominalised infinitives (\"das Sein\", \"das Denken\"), nominalised adjectives (\"das Gute\", \"das Erhabene\") and verbs with a genitive object, as in Kant's Enlightenment motto.",
     duration: "18 min",
     sections: [
@@ -228,7 +228,7 @@ export const DE_C2_U28: Lesson[] = [
     level: "DE-C2",
     number: 2,
     title: "Dialogue Lab: Freier Wille und Determinismus",
-    summary: "Two students argue about free will after a neuroscience lecture: open a debate among friends, build thought experiments in Konjunktiv II, and pin down definitions before agreeing to disagree.",
+    summary: "Following two students after a neuroscience lecture, you'll be able to open a debate about free will among friends, build thought experiments in Konjunktiv II, and pin down definitions before agreeing to disagree.",
     duration: "17 min",
     sections: [
       {
@@ -410,7 +410,7 @@ export const DE_C2_U28: Lesson[] = [
         prompt: "Translate into German.",
         source: "What if we're simply asking the wrong question?",
         answer: "Was wäre, wenn wir die Frage einfach falsch stellen?",
-        altAnswers: ["Was wäre, wenn wir einfach die falsche Frage stellen?", "Was wäre, wenn wir die Frage einfach falsch stellten?", "Was ist, wenn wir einfach die falsche Frage stellen?", "Was wäre, wenn wir einfach die falsche Frage stellten?"],
+        altAnswers: ["Was wäre, wenn wir einfach die falsche Frage stellen?", "Was wäre, wenn wir die Frage einfach falsch stellten?", "Was ist, wenn wir einfach die falsche Frage stellen?", "Was wäre, wenn wir einfach die falsche Frage stellten?", "Was ist, wenn wir die Frage einfach falsch stellen?"],
         explanation: "\"Was wäre, wenn...?\" opens a hypothesis; to ask a question is \"eine Frage stellen\".",
       },
       {
@@ -446,7 +446,7 @@ export const DE_C2_U28: Lesson[] = [
     slug: "c2-philosophy-2",
     level: "DE-C2",
     number: 3,
-    title: "Philosophie und Abstrakte Ideen, Part 2 of 3",
+    title: "Philosophie und abstrakte Ideen, Part 2 of 3",
     summary: "You'll be able to define and distinguish like a philosopher (\"unter ... versteht man\", \"ist zu unterscheiden von\", \"im engeren und weiteren Sinne\"), tell \"Begriff\" from \"Wort\", use \"an sich\", \"für sich\", \"a priori\" and \"a posteriori\", and read Hegel's triple \"aufheben\".",
     duration: "18 min",
     sections: [
@@ -539,7 +539,7 @@ export const DE_C2_U28: Lesson[] = [
         heading: "Hegel's aufheben: cancel, keep, lift up",
         body: [
           "\"Aufheben\" has three everyday meanings. To pick up: \"Er hob den Stift auf.\" To keep, preserve: \"Ich hebe die Quittung auf.\" To cancel, abolish, overturn: \"Das Urteil wurde aufgehoben\", \"Die Sitzung ist aufgehoben\" (the meeting is closed).",
-          "Hegel used all three at once. In his dialectic a contradiction is \"aufgehoben\": cancelled as a contradiction, but what was true in it is preserved and lifted to a higher level. English translators coined to sublate for it, which explains nothing; the German word carries the whole idea.",
+          "Hegel used all three at once. In his dialectic a contradiction is \"aufgehoben\": cancelled as a contradiction, but what was true in it is preserved and lifted to a higher level. English translators use the rare word sublate for it, which explains little; the German word carries the whole idea.",
           "Two everyday phrases: \"gut aufgehoben sein\" (to be in good hands) and the proverb \"Aufgeschoben ist nicht aufgehoben\" (postponed doesn't mean cancelled).",
         ],
         examples: [
@@ -888,7 +888,7 @@ export const DE_C2_U28: Lesson[] = [
     slug: "c2-philosophy-3",
     level: "DE-C2",
     number: 5,
-    title: "Philosophie und Abstrakte Ideen, Part 3 of 3",
+    title: "Philosophie und abstrakte Ideen, Part 3 of 3",
     summary: "You'll be able to discuss key ideas of German ethics and social thought (Nietzsche's \"Umwertung aller Werte\", Arendt's \"Banalität des Bösen\", Habermas's \"herrschaftsfreier Diskurs\") and set precise conditions with \"sofern\", \"insofern ... als\" and \"gesetzt den Fall\".",
     duration: "18 min",
     sections: [
@@ -1110,7 +1110,7 @@ export const DE_C2_U28: Lesson[] = [
     level: "DE-C2",
     number: 6,
     title: "Text Detective: Ein philosophisches Argument analysieren",
-    summary: "Read an accessible version of Kant's famous argument against lying, then analyse it like a philosopher: premises, conclusion, definitions, objections and replies.",
+    summary: "You'll be able to follow an accessible version of Kant's famous argument against lying and analyse it like a philosopher: premises, conclusion, definitions, objections and replies.",
     duration: "18 min",
     sections: [
       {
@@ -1118,7 +1118,7 @@ export const DE_C2_U28: Lesson[] = [
         body: [
           "In 1797 Kant published a short essay, \"Über ein vermeintes Recht aus Menschenliebe zu lügen\" (On a supposed right to lie from love of mankind), in reply to the French writer Benjamin Constant. The examples below give its argument in an accessible modern version, not in Kant's own words.",
           "The case: a murderer asks whether your friend is hiding in your house. May you lie to save him? Kant says no, and his reasons are worth reading closely, because they show how a philosophical argument is built.",
-          "Watch the signals of reported argument: \"so Kant\" (according to Kant), Konjunktiv I (\"könne\"), and connectors like \"außerdem\" and \"damit\".",
+          "Watch the signals of reported argument: \"so Kant\" (according to Kant), Konjunktiv I (\"könne\"), and connectors like \"außerdem\".",
         ],
         examples: [
           { es: "Ein Mörder steht vor deiner Tür und fragt, ob sich dein Freund in deinem Haus versteckt hat.", en: "A murderer is standing at your door and asks whether your friend is hiding in your house." },
@@ -1151,7 +1151,7 @@ export const DE_C2_U28: Lesson[] = [
             prompt: "Translate into German.",
             source: "May you lie to save your friend's life? (to a friend)",
             answer: "Darfst du lügen, um das Leben deines Freundes zu retten?",
-            altAnswers: ["Darfst du lügen, um das Leben deiner Freundin zu retten?", "Darf man lügen, um das Leben eines Freundes zu retten?", "Darfst du lügen, um deinem Freund das Leben zu retten?"],
+            altAnswers: ["Darfst du lügen, um das Leben deiner Freundin zu retten?", "Darfst du lügen, um deinem Freund das Leben zu retten?"],
             explanation: "\"Um ... zu\" + infinitive for a purpose; \"deines Freundes\" is genitive.",
           },
         ],
@@ -1409,7 +1409,7 @@ export const DE_C2_U28: Lesson[] = [
             prompt: "Translate into German.",
             source: "If you told the murderer the truth, you would share the guilt.",
             answer: "Würde man dem Mörder die Wahrheit sagen, so machte man sich mitschuldig.",
-            altAnswers: ["Würde man dem Mörder die Wahrheit sagen, würde man sich mitschuldig machen.", "Wenn man dem Mörder die Wahrheit sagen würde, würde man sich mitschuldig machen.", "Sagte man dem Mörder die Wahrheit, machte man sich mitschuldig.", "Wenn du dem Mörder die Wahrheit sagen würdest, würdest du dich mitschuldig machen.", "Würde man dem Mörder die Wahrheit sagen, so würde man sich mitschuldig machen."],
+            altAnswers: ["Würde man dem Mörder die Wahrheit sagen, würde man sich mitschuldig machen.", "Wenn man dem Mörder die Wahrheit sagen würde, würde man sich mitschuldig machen.", "Sagte man dem Mörder die Wahrheit, machte man sich mitschuldig.", "Wenn du dem Mörder die Wahrheit sagen würdest, würdest du dich mitschuldig machen.", "Würde man dem Mörder die Wahrheit sagen, so würde man sich mitschuldig machen.", "Wenn man dem Mörder die Wahrheit sagte, machte man sich mitschuldig."],
             explanation: "Konjunktiv II in both halves; generic you is \"man\". \"Sich mitschuldig machen\" = to become complicit.",
           },
           {
@@ -1802,7 +1802,7 @@ export const DE_C2_U28: Lesson[] = [
             prompt: "Translate into German.",
             source: "Did you get my message? (casual, to a friend)",
             answer: "Hast du meine Nachricht gekriegt?",
-            altAnswers: ["Hast du meine Nachricht bekommen?", "Hast du meine Nachricht erhalten?", "Hast du meine Nachricht schon gekriegt?", "Hast du meine Nachricht schon bekommen?"],
+            altAnswers: ["Hast du meine Nachricht bekommen?", "Hast du meine Nachricht schon gekriegt?", "Hast du meine Nachricht schon bekommen?"],
             explanation: "\"Kriegen\" is the natural casual choice; \"bekommen\" is neutral and always fine.",
           },
           {

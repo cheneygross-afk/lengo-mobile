@@ -8,7 +8,7 @@ export const DE_B1_U06: Lesson[] = [
     level: "DE-B1",
     number: 1,
     title: "Konjunktiv II Forms, Part 1 of 2: Würde + Infinitive",
-    summary: "Meet the Konjunktiv II, the German mood for the imagined, the wished-for and the polite, and its all-purpose form: würde + infinitive.",
+    summary: "Meet the Konjunktiv II, the German mood for the imagined, the wished-for and the polite, and its all-purpose form: \"würde\" + infinitive.",
     duration: "15 min",
     sections: [
       {
@@ -225,7 +225,7 @@ export const DE_B1_U06: Lesson[] = [
     level: "DE-B1",
     number: 2,
     title: "Pattern Practice: Ich würde gern...",
-    summary: "Drill würde + gern + infinitive in every person to talk about wishes and plans, with separable verbs kept together at the end.",
+    summary: "Talk about wishes and plans with \"würde gern\" + infinitive in every person, keeping separable verbs together at the end.",
     duration: "12 min",
     sections: [
       {
@@ -269,7 +269,7 @@ export const DE_B1_U06: Lesson[] = [
         body: [
           "Separable verbs never split after \"würde\": the whole verb goes to the end, just as after a modal. \"Ich würde gern ausschlafen\", \"Würdest du gern mitkommen?\", \"Sie würde gern morgen anrufen\".",
           "To compare wishes use \"lieber\" (rather) and \"am liebsten\" (most of all), the comparative and superlative of \"gern\": \"Ich würde lieber ins Kino gehen\", \"Am liebsten würde ich den ganzen Tag schlafen\". When \"am liebsten\" opens the sentence, \"würde\" follows directly.",
-          "For a negative wish put \"nicht\" before the infinitive: \"Ich würde nicht gern in einer Großstadt wohnen\" or, more naturally, \"Ich würde ungern in einer Großstadt wohnen\".",
+          "For a negative wish put \"nicht\" before the infinitive: \"Ich würde nicht gern in einer Großstadt wohnen\" or, with one word, \"Ich würde ungern in einer Großstadt wohnen\".",
         ],
         examples: [
           { es: "Am Sonntag würde ich gern ausschlafen.", en: "On Sunday I'd like to sleep in." },
@@ -316,7 +316,7 @@ export const DE_B1_U06: Lesson[] = [
         ],
         examples: [
           { es: "Ihr würdet gern länger bleiben, oder?", en: "You'd like to stay longer, wouldn't you? (to friends)" },
-          { es: "Frau Schneider würde gern früher in Rente gehen.", en: "Mrs Schneider would like to retire earlier." },
+          { es: "Frau Schneider würde gern früher in Rente gehen.", en: "Ms Schneider would like to retire earlier." },
           { es: "Ich glaube, dass Mia gern in Köln studieren würde.", en: "I think Mia would like to study in Cologne." },
           { es: "Weißt du, ob Jonas gern mitkommen würde?", en: "Do you know if Jonas would like to come along?" },
           { es: "Die Kinder würden gern einen Hund haben.", en: "The children would like to have a dog." },
@@ -439,7 +439,7 @@ export const DE_B1_U06: Lesson[] = [
     level: "DE-B1",
     number: 3,
     title: "Minimal Pairs: Wurde / Würde, War / Wäre, Hatte / Hätte",
-    summary: "Hear and spell the umlaut that turns a past fact into the Konjunktiv II: wurde / würde, war / wäre, hatte / hätte.",
+    summary: "Hear and spell the umlaut that turns a past fact into the Konjunktiv II: \"wurde\" / \"würde\", \"war\" / \"wäre\", \"hatte\" / \"hätte\".",
     duration: "12 min",
     sections: [
       {
@@ -603,7 +603,8 @@ export const DE_B1_U06: Lesson[] = [
         en: "Lena [was born] in 1998.",
         sentence: "Lena ___ 1998 geboren.",
         answer: "wurde",
-        explanation: "Was born in a biography is \"wurde geboren\", the Präteritum of \"werden\", no umlaut.",
+        altAnswers: ["ist"],
+        explanation: "Was born in a biography is \"wurde geboren\", the Präteritum of \"werden\", no umlaut (\"würde\" would mean would). For a living person \"ist ... geboren\" is also correct.",
       },
       {
         type: "listen-choose",
@@ -647,7 +648,7 @@ export const DE_B1_U06: Lesson[] = [
     level: "DE-B1",
     number: 4,
     title: "Quick Round: Wäre and Hätte",
-    summary: "Sein and haben have their own one-word Konjunktiv forms, wäre and hätte, used far more than würde sein or würde haben.",
+    summary: "Use the one-word forms \"wäre\" and \"hätte\" for would be and would have, as natives do, instead of heavy \"würde sein\" or \"würde haben\".",
     duration: "10 min",
     sections: [
       {
@@ -846,7 +847,7 @@ export const DE_B1_U06: Lesson[] = [
     level: "DE-B1",
     number: 5,
     title: "Konjunktiv II Forms, Part 2 of 2: Modals and One-Word Forms",
-    summary: "The modals in the Konjunktiv II (könnte, müsste, dürfte, sollte, wollte) and the few one-word forms still common in speech: käme, ginge, wüsste, gäbe.",
+    summary: "Form the modals in the Konjunktiv II (\"könnte\", \"müsste\", \"dürfte\", \"sollte\") and use the few one-word forms still common in speech: \"käme\", \"ginge\", \"wüsste\", \"gäbe\".",
     duration: "15 min",
     sections: [
       {
@@ -889,7 +890,7 @@ export const DE_B1_U06: Lesson[] = [
         body: [
           "Two modals have no umlaut in the infinitive, so they get none in the Konjunktiv II: \"sollte\" and \"wollte\" look exactly like the Präteritum.",
           "\"Ich sollte\" almost always means I should (advice or a duty you are not fulfilling): \"Ich sollte mehr Sport machen\", \"Du solltest zum Arzt gehen\". The past was supposed to also exists (\"Ich sollte um acht da sein, aber...\"), but context tells you which.",
-          "\"Ich wollte\" is usually simply the past: I wanted. As a Konjunktiv it appears in softened requests: \"Ich wollte fragen, ob...\" (I wanted to ask whether...) is a polite way to open a question at the counter or on the phone.",
+          "\"Ich wollte\" is usually simply the past: I wanted. Its polite use is in softened requests, where the past form itself does the softening: \"Ich wollte fragen, ob...\" (I wanted to ask whether...) is a polite way to open a question at the counter or on the phone.",
         ],
         examples: [
           { es: "Ich sollte mehr Sport machen.", en: "I should do more sport." },
@@ -922,7 +923,7 @@ export const DE_B1_U06: Lesson[] = [
         body: [
           "In theory every verb has a one-word Konjunktiv II built from the Präteritum: \"kam\" → \"käme\", \"ging\" → \"ginge\", \"gab\" → \"gäbe\". In practice almost all of them sound old-fashioned, and speakers use \"würde\" + infinitive instead.",
           "A handful are still very much alive, especially in speech and in polite phrases: \"wüsste\" (from \"wusste\": \"Ich wüsste gern, wie das funktioniert\"), \"gäbe\" (\"es gäbe\": there would be), \"käme\" (\"Das käme darauf an\": that would depend), \"ginge\" (\"Das ginge\": that would work), \"bliebe\", \"täte\" (\"Das täte mir leid\"). Learn these as vocabulary.",
-          "For every other verb, use \"würde\": \"Ich würde das kaufen\", not \"*ich kaufte das\". With weak verbs the old one-word form is identical to the Präteritum anyway, which is exactly why \"würde\" took over.",
+          "For every other verb, use \"würde\": \"Ich würde das kaufen\", not \"*ich kaufte das*\". With weak verbs the old one-word form is identical to the Präteritum anyway, which is exactly why \"würde\" took over.",
         ],
         examples: [
           { es: "Ich wüsste gern, wie das funktioniert.", en: "I'd like to know how that works." },
@@ -1013,6 +1014,7 @@ export const DE_B1_U06: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'd buy the red coat.",
         answer: "Ich würde den roten Mantel kaufen.",
+        altAnswers: ["Den roten Mantel würde ich kaufen."],
         explanation: "\"Kaufen\" is a weak verb: its old one-word Konjunktiv \"kaufte\" looks like the past, so German uses \"würde ... kaufen\".",
       },
       {
@@ -1063,7 +1065,7 @@ export const DE_B1_U06: Lesson[] = [
     level: "DE-B1",
     number: 6,
     title: "Real-World Mission: Wishes for Everyone",
-    summary: "Write New Year's wishes and gentle suggestions for family, friends and colleagues with wäre, hätte, könnte and sollte.",
+    summary: "Write New Year's wishes and gentle suggestions for family, friends and colleagues with \"wäre\", \"hätte\", \"könnte\" and \"sollte\".",
     duration: "15 min",
     sections: [
       {
@@ -1146,7 +1148,7 @@ export const DE_B1_U06: Lesson[] = [
           { es: "Es wäre schön, wenn wir das Projekt im Frühling abschließen könnten.", en: "It would be nice if we could finish the project in the spring." },
           { es: "Wir sollten im neuen Jahr öfter zusammen Mittag essen.", en: "We should have lunch together more often in the new year." },
           { es: "Ich hätte gern mehr Zeit für Fortbildungen.", en: "I'd like more time for training courses." },
-          { es: "Viele Grüße, Mehmet", en: "Best wishes, Mehmet" },
+          { es: "Viele Grüße Mehmet", en: "Best wishes, Mehmet" },
         ],
         checkpoint: [
           {
@@ -1265,7 +1267,7 @@ export const DE_B1_U06: Lesson[] = [
     level: "DE-B1",
     number: 7,
     title: "Minimal Pairs: Konnte / Könnte, Musste / Müsste",
-    summary: "Past fact or Konjunktiv: konnte / könnte, musste / müsste, durfte / dürfte, where one umlaut changes the meaning.",
+    summary: "Tell a past fact from the Konjunktiv II by one umlaut: \"konnte\" / \"könnte\", \"musste\" / \"müsste\", \"durfte\" / \"dürfte\".",
     duration: "12 min",
     sections: [
       {
@@ -1359,7 +1361,7 @@ export const DE_B1_U06: Lesson[] = [
             source: "As a child I wasn't allowed to watch TV.",
             answer: "Als Kind durfte ich nicht fernsehen.",
             altAnswers: ["Als Kind durfte ich kein Fernsehen schauen.", "Als Kind durfte ich nicht fernschauen."],
-            explanation: "A past permission: \"durfte\" without umlaut. \"Fernsehen\" stays whole at the end.",
+            explanation: "A past permission: \"durfte\" without umlaut. The separable verb \"fernsehen\" stays whole at the end.",
           },
           {
             type: "multiple-choice",
@@ -1466,7 +1468,7 @@ export const DE_B1_U06: Lesson[] = [
     level: "DE-B1",
     number: 8,
     title: "Talk About You: Your Dream Life",
-    summary: "Describe your ideal life with wäre, hätte, würde and könnte: where you'd live, what you'd do all day and who you'd spend it with.",
+    summary: "Describe your ideal life with \"wäre\", \"hätte\", \"würde\" and \"könnte\": where you'd live, what you'd do all day and who you'd spend it with.",
     duration: "15 min",
     sections: [
       {
@@ -1668,7 +1670,7 @@ export const DE_B1_U06: Lesson[] = [
     level: "DE-B1",
     number: 9,
     title: "Contrast Clinic: Real or Imagined?",
-    summary: "The same sentence in two moods: the indicative states facts, the Konjunktiv II imagines or softens.",
+    summary: "Choose between the indicative, which states facts, and the Konjunktiv II, which imagines or softens, in the same sentence.",
     duration: "12 min",
     sections: [
       {
@@ -1870,7 +1872,7 @@ export const DE_B1_U06: Lesson[] = [
     level: "DE-B1",
     number: 10,
     title: "Spiral Review: Pasts and Time Clauses",
-    summary: "Bring back the Perfekt, the Präteritum, the Plusquamperfekt with nachdem, als / wenn / wann and the other time connectors, alongside the new würde forms.",
+    summary: "Bring back the Perfekt, the Präteritum, the Plusquamperfekt with \"nachdem\", \"als\" / \"wenn\" / \"wann\" and the other time connectors, alongside the new \"würde\" forms.",
     duration: "15 min",
     sections: [
       {
@@ -1912,7 +1914,7 @@ export const DE_B1_U06: Lesson[] = [
         body: [
           "\"Als\" for one event or period in the past (\"Als ich zehn war, ...\"), \"(immer) wenn\" for repeated events in the past and for the present and future (\"Wenn ich Zeit habe, ...\"), \"wann\" only for questions (\"Weißt du, wann der Kurs anfängt?\").",
           "All three send the verb to the end, and when the clause comes first the main verb follows the comma directly: \"Als ich ankam, regnete es\".",
-          "Watch out now for \"würde\" with time clauses: past habits never use \"würde\". \"Immer wenn es regnete, spielten wir Karten\", not \"*würden wir Karten spielen\".",
+          "Watch out now for \"würde\" with time clauses: past habits never use \"würde\". \"Immer wenn es regnete, spielten wir Karten\", not \"*würden wir Karten spielen*\".",
         ],
         examples: [
           { es: "Als ich zehn war, sind wir nach Hamburg gezogen.", en: "When I was ten, we moved to Hamburg." },
@@ -1944,8 +1946,8 @@ export const DE_B1_U06: Lesson[] = [
         heading: "Bevor, während, bis, seitdem, sobald",
         body: [
           "\"Bevor\" (before), \"während\" (while), \"bis\" (until), \"seitdem\" (since) and \"sobald\" (as soon as) are subordinating conjunctions: verb to the end. \"Sobald ich mehr weiß, melde ich mich.\"",
-          "Each has a preposition partner that takes a noun: \"vor dem Essen\", \"während des Films\", \"bis Montag\", \"seit einem Jahr\". \"Bevor dem Essen\" is a classic error.",
-          "These combine naturally with the Konjunktiv II: \"Bevor ich das kaufen würde, würde ich die Bewertungen lesen\" sounds heavy; better \"Ich würde die Bewertungen lesen, bevor ich das kaufe\".",
+          "Each has a preposition partner that takes a noun: \"vor dem Essen\", \"während des Films\", \"bis Montag\", \"seit einem Jahr\". \"*Bevor dem Essen*\" is a classic error.",
+          "They also work with the Konjunktiv II, but keep \"würde\" to one clause: \"Bevor ich das kaufen würde, würde ich die Bewertungen lesen\" sounds heavy; better \"Ich würde die Bewertungen lesen, bevor ich das kaufe\".",
         ],
         examples: [
           { es: "Bevor ich ins Bett gehe, lese ich noch ein bisschen.", en: "Before I go to bed, I read a bit." },
@@ -2081,6 +2083,6 @@ export const DE_B1_U06_WRITING: WriteExercise = {
     "Uses at least two modal forms such as \"könnte\", \"müsste\" or \"sollte\", and \"es gäbe\"",
     "Keeps the verb in second position after a time phrase (\"Morgens würde ich...\")",
   ],
-  modelAnswer: "Hallo Leon, gute Frage! In meinem perfekten Leben hätte ich ein kleines Haus an der Ostsee. Das Haus wäre alt, aber gemütlich, und es hätte einen großen Garten mit Apfelbäumen. Im Dorf gäbe es einen Bäcker und ein Café, aber keine Autos. Ich würde nur vier Tage pro Woche arbeiten, natürlich von zu Hause. Morgens würde ich am Strand joggen, und nachmittags könnte ich lesen oder im Garten arbeiten. Abends würden meine Freunde vorbeikommen und wir würden zusammen kochen. Ich müsste nie wieder um sechs Uhr aufstehen und nie wieder im Stau stehen. Das wäre mein Traum! Und du? Du solltest mich auf jeden Fall besuchen, sobald ich das Haus habe. Es wäre schön, wenn wir uns bald sehen würden. Viele Grüße, Mia",
+  modelAnswer: "Hallo Leon, gute Frage! In meinem perfekten Leben hätte ich ein kleines Haus an der Ostsee. Das Haus wäre alt, aber gemütlich, und es hätte einen großen Garten mit Apfelbäumen. Im Dorf gäbe es einen Bäcker und ein Café, aber keine Autos. Ich würde nur vier Tage pro Woche arbeiten, natürlich von zu Hause. Morgens würde ich am Strand joggen, und nachmittags könnte ich lesen oder im Garten arbeiten. Abends würden meine Freunde vorbeikommen und wir würden zusammen kochen. Ich müsste nie wieder um sechs Uhr aufstehen und nie wieder im Stau stehen. Das wäre mein Traum! Und du? Du solltest mich auf jeden Fall besuchen, sobald ich das Haus habe. Es wäre schön, wenn wir uns bald sehen würden. Viele Grüße Mia",
   explanation: "The answer imagines, so it is in the Konjunktiv II throughout: \"wäre\" and \"hätte\" for sein and haben, \"es gäbe\" for there would be, \"könnte\", \"müsste\" and \"solltest\" for the modals, and \"würde\" + infinitive at the end for everything else. After a fronted time word (\"Morgens\", \"Abends\") the Konjunktiv verb still comes second. The real future plan with \"sobald\" stays in the indicative (\"sobald ich das Haus habe\").",
 };

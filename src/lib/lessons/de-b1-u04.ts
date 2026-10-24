@@ -8,7 +8,7 @@ export const DE_B1_U04: Lesson[] = [
     level: "DE-B1",
     number: 1,
     title: "Als, Wenn, Wann, Part 1 of 2: Als and Wenn in the Past",
-    summary: "English 'when' has three German translations. In the past: als for one event or period, (immer) wenn for repeated events.",
+    summary: "Translate English 'when' in past stories: \"als\" for one event or period, \"(immer) wenn\" for repeated events.",
     duration: "15 min",
     sections: [
       {
@@ -153,8 +153,8 @@ export const DE_B1_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "When I was in Vienna for the first time, I was twelve. Which word?",
-        options: ["Als", "Wenn", "Wann", "Immer wenn"],
+        question: "How do you say: When I was in Vienna for the first time, I was twelve?",
+        options: ["Als ich zum ersten Mal in Wien war, war ich zwölf.", "Wenn ich zum ersten Mal in Wien war, war ich zwölf.", "Wann ich zum ersten Mal in Wien war, war ich zwölf.", "Immer wenn ich zum ersten Mal in Wien war, war ich zwölf."],
         correctIndex: 0,
         explanation: "\"Zum ersten Mal\": one occasion, \"als\".",
       },
@@ -173,6 +173,7 @@ export const DE_B1_U04: Lesson[] = [
         prompt: "Translate into German.",
         source: "I was very nervous when I had my first exam.",
         answer: "Ich war sehr nervös, als ich meine erste Prüfung hatte.",
+        altAnswers: ["Als ich meine erste Prüfung hatte, war ich sehr nervös."],
         explanation: "One occasion: \"als\", verb \"hatte\" at the end.",
       },
       {
@@ -210,7 +211,7 @@ export const DE_B1_U04: Lesson[] = [
     level: "DE-B1",
     number: 2,
     title: "Pattern Practice: Als ich klein war...",
-    summary: "Build childhood memories with als + the Präteritum of sein, haben and the modals.",
+    summary: "Tell childhood memories with \"Als ich klein war, ...\" and the Präteritum of \"sein\", \"haben\" and the modals.",
     duration: "13 min",
     sections: [
       {
@@ -370,7 +371,7 @@ export const DE_B1_U04: Lesson[] = [
     level: "DE-B1",
     number: 3,
     title: "Choose and Explain: Perfekt, Präteritum or Plusquamperfekt?",
-    summary: "Choose the right past for each verb in a story and justify it: speech or writing, earlier or later event, sein/haben/modal or full verb.",
+    summary: "Choose the right past for each verb in a story and justify it: speech or writing, earlier or later event, \"sein\", \"haben\" and modals or a full verb.",
     duration: "14 min",
     sections: [
       {
@@ -608,7 +609,7 @@ export const DE_B1_U04: Lesson[] = [
             type: "speak",
             text: "Als ich nach Hause kam, war niemand da.",
             prompt: "Say it in German: When I came home, nobody was there.",
-            tip: "Let the two verbs meet at the comma: kam, war.",
+            tip: "Let the two verbs meet at the comma: \"kam, war\".",
             explanation: "Verb, comma, verb.",
           },
         ],
@@ -716,7 +717,7 @@ export const DE_B1_U04: Lesson[] = [
     level: "DE-B1",
     number: 5,
     title: "Minimal Pairs: Als ich... / Wenn ich...",
-    summary: "Hear and produce the contrast: als for once, wenn for every time.",
+    summary: "Hear and produce the contrast: \"als\" for once, \"wenn\" for every time.",
     duration: "12 min",
     sections: [
       {
@@ -1054,7 +1055,7 @@ export const DE_B1_U04: Lesson[] = [
     level: "DE-B1",
     number: 7,
     title: "Als, Wenn, Wann, Part 2 of 2: Wann and Wenn Now",
-    summary: "Wann only for questions, direct and indirect; wenn for present and future time and for conditions.",
+    summary: "Use \"wann\" for questions, direct and indirect, and \"wenn\" for present and future time and for conditions.",
     duration: "15 min",
     sections: [
       {
@@ -1171,7 +1172,7 @@ export const DE_B1_U04: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Can you tell me when the bank opens? (polite)",
+        source: "Can you tell me when the bank opens? (formal)",
         answer: "Können Sie mir sagen, wann die Bank aufmacht?",
         altAnswers: ["Können Sie mir sagen, wann die Bank öffnet?"],
         explanation: "Indirect question: \"wann\" + verb at the end.",
@@ -1250,7 +1251,7 @@ export const DE_B1_U04: Lesson[] = [
     level: "DE-B1",
     number: 8,
     title: "Quick Round: Als, Wenn or Wann?",
-    summary: "Rapid gap-fills mixing single past events, repeated events, future plans and indirect questions.",
+    summary: "Choose \"als\", \"wenn\" or \"wann\" fast in gap-fills mixing single past events, repeated events, future plans and indirect questions.",
     duration: "12 min",
     sections: [
       {
@@ -1401,7 +1402,7 @@ export const DE_B1_U04: Lesson[] = [
     level: "DE-B1",
     number: 9,
     title: "Fix the Paragraph: Wenn Where Als Belongs",
-    summary: "Rewrite a blog post about a school exchange with wenn for single past events, wann for wenn and main verbs in the wrong place.",
+    summary: "Correct a blog post about a school exchange: \"wenn\" for single past events, \"wenn\" instead of \"wann\", and main verbs in the wrong place.",
     duration: "14 min",
     sections: [
       {
@@ -1420,7 +1421,7 @@ export const DE_B1_U04: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Ayşe wrote: \"*Wenn ich ankam, meine Gastfamilie wartete am Bahnhof.\" Write it correctly.",
+            prompt: "Ayşe wrote: \"*Wenn ich ankam, meine Gastfamilie wartete am Bahnhof.*\" Write it correctly.",
             source: "When I arrived, my host family was waiting at the station.",
             answer: "Als ich ankam, wartete meine Gastfamilie am Bahnhof.",
             altAnswers: ["Als ich angekommen bin, wartete meine Gastfamilie am Bahnhof.", "Meine Gastfamilie wartete am Bahnhof, als ich ankam."],
@@ -1428,7 +1429,7 @@ export const DE_B1_U04: Lesson[] = [
           },
           {
             type: "fill-blank",
-            prompt: "Ayşe wrote: \"*Ich wusste nicht, wenn das Abendessen ist.\" Write the German for the bold word.",
+            prompt: "Ayşe wrote: \"*Ich wusste nicht, wenn das Abendessen ist.*\" Write the German for the bold word.",
             en: "I didn't know [when] dinner was.",
             sentence: "Ich wusste nicht, ___ es Abendessen gibt.",
             answer: "wann",
@@ -1452,7 +1453,7 @@ export const DE_B1_U04: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Ayşe wrote: \"*Immer als wir ins Kino gingen, aßen wir Popcorn.\" Write it correctly.",
+            prompt: "Ayşe wrote: \"*Immer als wir ins Kino gingen, aßen wir Popcorn.*\" Write it correctly.",
             source: "Whenever we went to the cinema, we ate popcorn.",
             answer: "Immer wenn wir ins Kino gingen, aßen wir Popcorn.",
             altAnswers: ["Wenn wir ins Kino gingen, aßen wir Popcorn.", "Immer wenn wir ins Kino gegangen sind, haben wir Popcorn gegessen."],
@@ -1460,7 +1461,7 @@ export const DE_B1_U04: Lesson[] = [
           },
           {
             type: "word-order",
-            prompt: "Ayşe wrote: \"*Wenn es regnete, wir spielten Brettspiele.\" Put the words in the right order.",
+            prompt: "Ayşe wrote: \"*Wenn es regnete, wir spielten Brettspiele.*\" Put the words in the right order.",
             words: ["Wenn", "es", "regnete,", "spielten", "wir", "Brettspiele."],
             translation: "When it rained, we played board games.",
             explanation: "Verb, comma, verb: \"regnete, spielten\".",
@@ -1472,7 +1473,7 @@ export const DE_B1_U04: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Ayşe wrote: \"*Wenn ich 16 war, habe ich einen Austausch gemacht.\" Write it correctly.",
+        prompt: "Ayşe wrote: \"*Wenn ich 16 war, habe ich einen Austausch gemacht.*\" Write it correctly.",
         source: "When I was 16, I did an exchange.",
         answer: "Als ich 16 war, habe ich einen Austausch gemacht.",
         altAnswers: ["Als ich sechzehn war, habe ich einen Austausch gemacht.", "Als ich 16 war, machte ich einen Austausch."],
@@ -1481,7 +1482,7 @@ export const DE_B1_U04: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Ayşe wrote: \"*Wenn ich nach Hause flog, war ich traurig.\" Write it correctly (one flight home).",
+        prompt: "Ayşe wrote: \"*Wenn ich nach Hause flog, war ich traurig.*\" Write it correctly (one flight home).",
         source: "When I flew home, I was sad.",
         answer: "Als ich nach Hause flog, war ich traurig.",
         altAnswers: ["Als ich nach Hause geflogen bin, war ich traurig."],
@@ -1490,7 +1491,7 @@ export const DE_B1_U04: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Ayşe wrote: \"*Ich habe gefragt, wenn der Bus fährt.\" Write it correctly.",
+        prompt: "Ayşe wrote: \"*Ich habe gefragt, wenn der Bus fährt.*\" Write it correctly.",
         source: "I asked when the bus leaves.",
         answer: "Ich habe gefragt, wann der Bus fährt.",
         altAnswers: ["Ich fragte, wann der Bus fährt.", "Ich habe gefragt, wann der Bus abfährt.", "Ich habe gefragt, wann der Bus fuhr."],
@@ -1499,15 +1500,15 @@ export const DE_B1_U04: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Ayşe wrote: \"*Als wir Hunger hatten, wir gingen zu Tesco.\" Write it correctly (one occasion).",
+        prompt: "Ayşe wrote: \"*Als wir Hunger hatten, wir gingen zu Tesco.*\" Write it correctly (one occasion).",
         source: "When we were hungry, we went to Tesco.",
         answer: "Als wir Hunger hatten, gingen wir zu Tesco.",
-        altAnswers: ["Als wir Hunger hatten, sind wir zu Tesco gegangen."],
+        altAnswers: ["Als wir Hunger hatten, sind wir zu Tesco gegangen.", "Als wir hungrig waren, gingen wir zu Tesco.", "Als wir hungrig waren, sind wir zu Tesco gegangen."],
         explanation: "Verb right after the comma.",
       },
       {
         type: "fill-blank",
-        prompt: "Ayşe wrote: \"*Jeden Abend, als wir fertig waren, ...\" Write the German for the bold word.",
+        prompt: "Ayşe wrote: \"*Jeden Abend, als wir fertig waren, ...*\" Write the German for the bold word.",
         en: "Every evening [when] we were finished, we watched TV.",
         sentence: "Jeden Abend, ___ wir fertig waren, sahen wir fern.",
         answer: "wenn",
@@ -1571,7 +1572,7 @@ export const DE_B1_U04: Lesson[] = [
     level: "DE-B1",
     number: 10,
     title: "Transformation Chain: Two Sentences into One",
-    summary: "Join pairs with als, wenn or nachdem, first with the time clause second, then fronted.",
+    summary: "Join pairs of sentences with \"als\", \"wenn\" or \"nachdem\", first with the time clause second, then fronted.",
     duration: "14 min",
     sections: [
       {
@@ -1741,17 +1742,17 @@ export const DE_B1_U04: Lesson[] = [
     level: "DE-B1",
     number: 11,
     title: "Questions and Answers: Wann hast du...?",
-    summary: "Answer wann-questions about your life with a full als or wenn clause.",
+    summary: "Answer \"wann\" questions about your life with a full \"als\" or \"wenn\" clause.",
     duration: "12 min",
     sections: [
       {
         heading: "Answering with a clause",
         body: [
-          "A \"wann\"-question about your past is naturally answered with an \"als\"-clause on its own: \"Wann hast du Deutsch angefangen?\" — \"Als ich an der Uni war.\" A lone subordinate clause is perfectly normal as a short answer.",
+          "A \"wann\"-question about your past is naturally answered with an \"als\"-clause on its own: \"Wann hast du mit Deutsch angefangen?\" — \"Als ich an der Uni war.\" A lone subordinate clause is perfectly normal as a short answer.",
           "For habits, answer with \"wenn\": \"Wann trinkst du Kaffee?\" — \"Wenn ich müde bin.\" For a date, just the time: \"Vor drei Jahren\", \"Im Sommer 2019\".",
         ],
         examples: [
-          { es: "Wann hast du Deutsch angefangen? — Als ich an der Uni war.", en: "When did you start German? — When I was at university." },
+          { es: "Wann hast du mit Deutsch angefangen? — Als ich an der Uni war.", en: "When did you start German? — When I was at university." },
           { es: "Wann hast du schwimmen gelernt? — Als ich fünf war.", en: "When did you learn to swim? — When I was five." },
           { es: "Wann trinkst du Kaffee? — Wenn ich müde bin.", en: "When do you drink coffee? — When I'm tired." },
           { es: "Wann bist du nach London gezogen? — Als ich meinen ersten Job bekommen habe.", en: "When did you move to London? — When I got my first job." },
@@ -1780,7 +1781,7 @@ export const DE_B1_U04: Lesson[] = [
       {
         heading: "Asking back",
         body: [
-          "Turn it around and ask: \"Und du? Wann hast du ... ?\" The question uses the Perfekt for past events: \"Wann hast du deinen Mann kennengelernt?\", \"Wann warst du zum ersten Mal im Ausland?\" (\"warst\": Präteritum of sein).",
+          "Turn it around and ask: \"Und du? Wann hast du ... ?\" The question uses the Perfekt for past events: \"Wann hast du deinen Mann kennengelernt?\", \"Wann warst du zum ersten Mal im Ausland?\" (\"warst\": Präteritum of \"sein\").",
         ],
         examples: [
           { es: "Wann hast du deinen Mann kennengelernt?", en: "When did you meet your husband?" },
@@ -1810,7 +1811,7 @@ export const DE_B1_U04: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Answer in German: \"Wann hast du Deutsch angefangen?\" — When I was at university.",
+        prompt: "Answer in German: \"Wann hast du mit Deutsch angefangen?\" — When I was at university.",
         source: "When I was at university.",
         answer: "Als ich an der Uni war.",
         altAnswers: ["Als ich an der Universität war.", "Als ich studiert habe.", "Als ich studierte."],
@@ -1896,7 +1897,7 @@ export const DE_B1_U04: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Wann hast du Deutsch angefangen?",
+        text: "Wann hast du mit Deutsch angefangen?",
         prompt: "Ask a friend: When did you start German?",
         explanation: "\"Wann\" + Perfekt of \"anfangen\".",
       },
@@ -1907,7 +1908,7 @@ export const DE_B1_U04: Lesson[] = [
     level: "DE-B1",
     number: 12,
     title: "Mastery Check: Als, Wenn, Wann",
-    summary: "A graded check of all three words, the tenses they go with and word order in both clause orders.",
+    summary: "Show you can use \"als\", \"wenn\" and \"wann\" with the right tenses and word order, whichever clause comes first.",
     duration: "15 min",
     sections: [
       {

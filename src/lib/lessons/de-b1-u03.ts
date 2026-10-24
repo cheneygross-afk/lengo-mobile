@@ -8,7 +8,7 @@ export const DE_B1_U03: Lesson[] = [
     level: "DE-B1",
     number: 1,
     title: "The Plusquamperfekt, Part 1 of 2",
-    summary: "Say what had already happened before another past event: hatte or war + participle.",
+    summary: "Say what had already happened before another past event, with \"hatte\" or \"war\" + participle.",
     duration: "15 min",
     sections: [
       {
@@ -39,7 +39,7 @@ export const DE_B1_U03: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "She [had] already [left].",
+            en: "She [had] already left.",
             sentence: "Sie ___ schon gegangen.",
             answer: "war",
             explanation: "\"Gehen\" takes \"sein\", so: \"war ... gegangen\".",
@@ -143,7 +143,7 @@ export const DE_B1_U03: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The film [had] already [started].",
+        en: "The film had already [started].",
         sentence: "Der Film hatte schon ___.",
         answer: "angefangen",
         altAnswers: ["begonnen"],
@@ -160,9 +160,9 @@ export const DE_B1_U03: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence means: We had never been there?",
-        options: ["Wir waren noch nie dort gewesen.", "Wir hatten noch nie dort gewesen.", "Wir sind noch nie dort gewesen.", "Wir waren noch nie dort."],
+        options: ["Wir waren noch nie dort gewesen.", "Wir hatten noch nie dort gewesen.", "Wir sind noch nie dort gewesen.", "Wir wurden noch nie dort gewesen."],
         correctIndex: 0,
-        explanation: "\"Sein\" takes \"sein\": \"waren ... gewesen\". The others are wrong or a different tense.",
+        explanation: "\"Sein\" takes \"sein\": \"waren ... gewesen\". \"Sind ... gewesen\" is the Perfekt (we have never been), \"hatten\" is the wrong auxiliary, and \"wurden\" belongs to \"werden\".",
       },
       {
         type: "translate",
@@ -208,7 +208,7 @@ export const DE_B1_U03: Lesson[] = [
     level: "DE-B1",
     number: 2,
     title: "The Plusquamperfekt, Part 2 of 2: Nachdem",
-    summary: "Nachdem sends the verb to the end and shifts the tense one step back: Nachdem er gegessen hatte, ging er spazieren.",
+    summary: "Join two past events with \"nachdem\": verb at the end and the tense one step back, as in \"Nachdem er gegessen hatte, ging er spazieren.\"",
     duration: "15 min",
     sections: [
       {
@@ -346,7 +346,7 @@ export const DE_B1_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the correct tense combination?",
+        question: "How do you write: After I had phoned, I went to bed?",
         options: ["Nachdem ich angerufen hatte, ging ich ins Bett.", "Nachdem ich anrief, ging ich ins Bett.", "Nachdem ich anrufe, ging ich ins Bett.", "Nachdem ich angerufen habe, ging ich ins Bett."],
         correctIndex: 0,
         explanation: "Präteritum main clause → Plusquamperfekt in the nachdem-clause.",
@@ -431,7 +431,7 @@ export const DE_B1_U03: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "He [had fallen ill].",
+            en: "He [had] fallen ill.",
             sentence: "Er ___ krank geworden.",
             answer: "war",
             explanation: "\"Werden\" takes \"sein\".",
@@ -508,7 +508,7 @@ export const DE_B1_U03: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The bus [had] already [arrived].",
+        en: "The bus [had] already arrived.",
         sentence: "Der Bus ___ schon angekommen.",
         answer: "war",
         explanation: "\"Ankommen\": \"sein\".",
@@ -570,7 +570,7 @@ export const DE_B1_U03: Lesson[] = [
     level: "DE-B1",
     number: 4,
     title: "Transformation Chain: Change the Person",
-    summary: "Move one story through ich, du, er, wir, ihr and sie in the Plusquamperfekt and Präteritum.",
+    summary: "Move one story through \"ich\", \"du\", \"er\", \"wir\", \"ihr\" and \"sie\" in the Plusquamperfekt and Präteritum.",
     duration: "13 min",
     sections: [
       {
@@ -692,7 +692,7 @@ export const DE_B1_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which form is correct: You had arrived late (to friends)?",
+        question: "How do you say (to friends): You had arrived late?",
         options: ["Ihr wart spät angekommen.", "Ihr waret spät angekommen.", "Ihr hattet spät angekommen.", "Ihr seid spät angekommen gewesen."],
         correctIndex: 0,
         explanation: "\"Wart\": ihr form of \"war\".",
@@ -730,14 +730,14 @@ export const DE_B1_U03: Lesson[] = [
     level: "DE-B1",
     number: 5,
     title: "Intermediate Vocabulary Practice, Part 1 of 10",
-    summary: "High-frequency Intermediate verbs of daily life and travel, with their Präteritum and participle.",
+    summary: "Use high-frequency Intermediate verbs of daily life and travel in all three pasts, with their Präteritum and participle.",
     duration: "14 min",
     sections: [
       {
         heading: "Daily life",
         body: [
-          "Learn Intermediate verbs with three forms: infinitive, Präteritum, participle (with the auxiliary). \"Sich beeilen\" (to hurry: beeilte, hat sich beeilt), \"erledigen\" (to get done: erledigte, hat erledigt), \"aufräumen\" (to tidy: räumte auf, hat aufgeräumt), \"sich ausruhen\" (to rest: ruhte sich aus, hat sich ausgeruht), \"verbringen\" (to spend time: verbrachte, hat verbracht).",
-          "\"Verbringen\" is for time only: \"Wir verbrachten das Wochenende am See\". Spending money is \"ausgeben\" (gab aus, hat ausgegeben).",
+          "Learn Intermediate verbs with three forms: infinitive, Präteritum, participle (with the auxiliary). \"Sich beeilen\" (to hurry): \"beeilte\", \"hat sich beeilt\"; \"erledigen\" (to get done): \"erledigte\", \"hat erledigt\"; \"aufräumen\" (to tidy): \"räumte auf\", \"hat aufgeräumt\"; \"sich ausruhen\" (to rest): \"ruhte sich aus\", \"hat sich ausgeruht\"; \"verbringen\" (to spend time): \"verbrachte\", \"hat verbracht\".",
+          "\"Verbringen\" is for time only: \"Wir verbrachten das Wochenende am See\". Spending money is \"ausgeben\": \"gab aus\", \"hat ausgegeben\".",
         ],
         examples: [
           { es: "Ich musste mich beeilen.", en: "I had to hurry." },
@@ -755,7 +755,7 @@ export const DE_B1_U03: Lesson[] = [
             source: "We spent the weekend at the lake.",
             answer: "Wir haben das Wochenende am See verbracht.",
             altAnswers: ["Wir verbrachten das Wochenende am See."],
-            explanation: "Time: \"verbringen\" (mixed: verbrachte, verbracht).",
+            explanation: "Time: \"verbringen\", a mixed verb: \"verbrachte\", \"verbracht\".",
           },
           {
             type: "multiple-choice",
@@ -769,7 +769,7 @@ export const DE_B1_U03: Lesson[] = [
       {
         heading: "Travel",
         body: [
-          "\"Abfahren\" (fuhr ab, ist abgefahren) and \"ankommen\" (kam an, ist angekommen); \"umsteigen\" (to change trains: stieg um, ist umgestiegen); \"verpassen\" (to miss: verpasste, hat verpasst); \"buchen\" (buchte, hat gebucht); \"übernachten\" (to stay overnight: übernachtete, hat übernachtet); \"sich verspäten\" (to be delayed: verspätete sich, hat sich verspätet).",
+          "\"Abfahren\" (to leave): \"fuhr ab\", \"ist abgefahren\"; \"ankommen\" (to arrive): \"kam an\", \"ist angekommen\"; \"umsteigen\" (to change trains): \"stieg um\", \"ist umgestiegen\"; \"verpassen\" (to miss): \"verpasste\", \"hat verpasst\"; \"buchen\" (to book): \"buchte\", \"hat gebucht\"; \"übernachten\" (to stay overnight): \"übernachtete\", \"hat übernachtet\"; \"sich verspäten\" (to be delayed): \"verspätete sich\", \"hat sich verspätet\".",
           "German trains are famous for \"die Verspätung\" (the delay); the noun goes with \"haben\": \"Der Zug hat zwanzig Minuten Verspätung\".",
         ],
         examples: [
@@ -802,7 +802,7 @@ export const DE_B1_U03: Lesson[] = [
       {
         heading: "Verbs with tricky forms",
         body: [
-          "Some Intermediate verbs need special care: \"vorschlagen\" (to suggest: schlug vor, hat vorgeschlagen), \"sich unterhalten\" (to chat: unterhielt sich, hat sich unterhalten: inseparable!), \"verlassen\" (to leave a place: verließ, hat verlassen, always with an object), \"vorbeikommen\" (to drop by: kam vorbei, ist vorbeigekommen).",
+          "Some Intermediate verbs need special care: \"vorschlagen\" (to suggest): \"schlug vor\", \"hat vorgeschlagen\"; \"sich unterhalten\" (to chat): \"unterhielt sich\", \"hat sich unterhalten\", inseparable!; \"verlassen\" (to leave a place): \"verließ\", \"hat verlassen\", always with an object; \"vorbeikommen\" (to drop by): \"kam vorbei\", \"ist vorbeigekommen\".",
           "\"Verlassen\" vs \"weggehen\": \"Sie verließ das Haus\" (object) / \"Sie ging weg\" (no object).",
         ],
         examples: [
@@ -826,7 +826,7 @@ export const DE_B1_U03: Lesson[] = [
             type: "speak",
             text: "Wir haben uns lange unterhalten.",
             prompt: "Say it in German: We chatted for a long time.",
-            tip: "Stress HAL: unter-HAL-ten. Inseparable verbs stress the stem.",
+            tip: "Stress \"HAL\": \"unter-HAL-ten\". Inseparable verbs stress the stem.",
             explanation: "Inseparable \"unterhalten\": no ge-.",
           },
         ],
@@ -1108,7 +1108,7 @@ export const DE_B1_U03: Lesson[] = [
     level: "DE-B1",
     number: 7,
     title: "Quick Round: Nach, Nachdem or Danach?",
-    summary: "English 'after' is three German words: nach + noun, nachdem + clause, danach + inversion.",
+    summary: "Translate English 'after' three ways: \"nach\" + noun, \"nachdem\" + clause, \"danach\" + inversion.",
     duration: "12 min",
     sections: [
       {
@@ -1270,7 +1270,7 @@ export const DE_B1_U03: Lesson[] = [
     level: "DE-B1",
     number: 8,
     title: "Frequent Words: Crime and Danger",
-    summary: "Der Diebstahl, der Täter, das Opfer, der Zeuge, die Polizei, Anzeige erstatten, stehlen, einbrechen, verhaften, gefährlich, verletzt.",
+    summary: "Talk about crime and danger: thefts and break-ins, culprits, victims and witnesses, reporting to the police and injuries (\"der Täter\", \"das Opfer\", \"der Zeuge\", \"einbrechen\", \"Anzeige erstatten\").",
     duration: "14 min",
     sections: [
       {
@@ -1308,8 +1308,8 @@ export const DE_B1_U03: Lesson[] = [
       {
         heading: "Verbs of crime",
         body: [
-          "\"Stehlen\" (to steal: stahl, hat gestohlen), \"einbrechen\" (to break in: brach ein, ist eingebrochen; \"in\" + accusative: \"in eine Wohnung einbrechen\"), \"verhaften\" / \"festnehmen\" (to arrest), \"Anzeige erstatten\" (to report a crime to the police, formal) or more simply \"zur Polizei gehen\".",
-          "Note \"einbrechen\" takes \"sein\" in the Perfekt: \"Jemand ist in unsere Wohnung eingebrochen\" (the burglar moved into the flat).",
+          "\"Stehlen\" (to steal): \"stahl\", \"hat gestohlen\"; \"einbrechen\" (to break in): \"brach ein\", \"ist eingebrochen\", with \"in\" + accusative: \"in eine Wohnung einbrechen\"; \"verhaften\" / \"festnehmen\" (to arrest), \"Anzeige erstatten\" (to report a crime to the police, formal) or more simply \"zur Polizei gehen\".",
+          "Note that \"einbrechen\" with \"in\" + accusative usually takes \"sein\" in the Perfekt: \"Jemand ist in unsere Wohnung eingebrochen\" (the burglar moved into the flat). With \"bei\", \"haben\" is also common: \"Bei uns hat jemand eingebrochen\".",
         ],
         examples: [
           { es: "Jemand hat mein Fahrrad gestohlen.", en: "Someone has stolen my bike." },
@@ -1341,7 +1341,7 @@ export const DE_B1_U03: Lesson[] = [
       {
         heading: "Danger and injury",
         body: [
-          "\"Gefährlich\" (dangerous), \"die Gefahr\" (danger), \"verletzt\" (injured: \"leicht / schwer verletzt\", slightly / seriously), \"die Verletzung\" (injury), \"sich verletzen\" (to hurt oneself), \"der Unfall\" (accident), \"Vorsicht!\" (Careful!), \"Hilfe!\" (Help!).",
+          "\"Gefährlich\" (dangerous), \"die Gefahr\" (danger), \"verletzt\" (injured), \"leicht verletzt\" (slightly injured), \"schwer verletzt\" (seriously injured), \"die Verletzung\" (injury), \"sich verletzen\" (to hurt oneself), \"der Unfall\" (accident), \"Vorsicht!\" (Careful!), \"Hilfe!\" (Help!).",
           "German warning signs often use the noun: \"Vorsicht, Glatteis!\" (Caution, black ice), \"Lebensgefahr!\" (Danger of death).",
         ],
         examples: [

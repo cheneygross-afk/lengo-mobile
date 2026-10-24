@@ -8,7 +8,7 @@ export const DE_B2_U04: Lesson[] = [
     level: "DE-B2",
     number: 1,
     title: "Indirect Questions and Reported Commands",
-    summary: "Report questions with ob and W-words, and orders and requests with sollen, mögen and bitten.",
+    summary: "Report yes/no questions with \"ob\", W-questions with their question word, and orders and requests with \"sollen\", \"mögen\" and \"bitten\".",
     duration: "15 min",
     sections: [
       {
@@ -50,7 +50,7 @@ export const DE_B2_U04: Lesson[] = [
         body: [
           "Questions with a question word keep it as the conjunction: \"Wo wohnst du?\" → \"Sie will wissen, wo er wohne.\" \"Wann kommt der Zug?\" → \"Er fragt, wann der Zug komme.\" \"Warum, wie, wie lange, wer, was, welcher\" all work the same way. The verb goes to the end.",
           "Useful frames: \"Er fragt, ...\", \"Sie will wissen, ...\" (she wants to know), \"Ich habe mich gefragt, ...\" (I wondered), \"Können Sie mir sagen, ...?\" (a polite question that is itself indirect: \"Können Sie mir sagen, wo der Bahnhof ist?\").",
-          "Don't keep the question word order: \"*Sie will wissen, wo wohnt er\" is a classic error.",
+          "Don't keep the question word order: \"*Sie will wissen, wo wohnt er*\" is a classic error.",
         ],
         examples: [
           { es: "Sie will wissen, wo er wohne.", en: "She wants to know where he lives." },
@@ -84,7 +84,7 @@ export const DE_B2_U04: Lesson[] = [
         body: [
           "An imperative becomes \"sollen\" in reported speech: \"Beeil dich!\" → \"Sie sagt, ich solle mich beeilen.\" \"Warten Sie hier!\" → \"Er sagt, wir sollen / sollten hier warten.\" In conversation: \"Sie hat gesagt, ich soll mich beeilen.\"",
           "Polite requests in formal texts use \"mögen\" in the Konjunktiv I: \"Er bittet, man möge ihn zurückrufen\" (he asks to be called back). You'll see this in letters and official announcements.",
-          "English asked me to do is not \"*fragte mich zu\": \"fragen\" is only for questions. Use \"bitten\" + accusative + zu-infinitive: \"Er bat mich, ihn zurückzurufen\" (he asked me to call him back). Or with sollen: \"Er sagte, ich solle ihn zurückrufen.\"",
+          "English asked me to do is not \"*fragte mich zu*\": \"fragen\" is only for questions. Use \"bitten\" + accusative + zu-infinitive: \"Er bat mich, ihn zurückzurufen\" (he asked me to call him back). Or with sollen: \"Er sagte, ich solle ihn zurückrufen.\"",
         ],
         examples: [
           { es: "Sie sagt, ich solle mich beeilen.", en: "She says I should hurry up." },
@@ -102,7 +102,7 @@ export const DE_B2_U04: Lesson[] = [
             source: "He asked me to call him back.",
             answer: "Er bat mich, ihn zurückzurufen.",
             altAnswers: ["Er hat mich gebeten, ihn zurückzurufen.", "Er sagte, ich solle ihn zurückrufen.", "Er hat gesagt, ich solle ihn zurückrufen.", "Er hat gesagt, ich soll ihn zurückrufen."],
-            explanation: "Asked me to = \"bat mich\" + zu-infinitive; zu goes inside the separable verb: \"zurückzurufen\". Never \"*fragte mich zu\".",
+            explanation: "Asked me to = \"bat mich\" + zu-infinitive; zu goes inside the separable verb: \"zurückzurufen\". Never \"*fragte mich zu*\".",
           },
           {
             type: "fill-blank",
@@ -206,7 +206,7 @@ export const DE_B2_U04: Lesson[] = [
         prompt: "Translate into German.",
         source: "I wondered why nobody called.",
         answer: "Ich habe mich gefragt, warum niemand angerufen hat.",
-        altAnswers: ["Ich fragte mich, warum niemand angerufen hat.", "Ich habe mich gefragt, warum keiner angerufen hat.", "Ich fragte mich, warum niemand anrief."],
+        altAnswers: ["Ich fragte mich, warum niemand angerufen hat.", "Ich habe mich gefragt, warum keiner angerufen hat.", "Ich fragte mich, warum niemand anrief.", "Ich habe mich gefragt, warum niemand angerufen hatte.", "Ich fragte mich, warum niemand angerufen hatte."],
         explanation: "\"Sich fragen\": to wonder; the verb goes to the end.",
       },
       {
@@ -217,7 +217,7 @@ export const DE_B2_U04: Lesson[] = [
       {
         type: "speak",
         text: "Können Sie mir sagen, wo der Bahnhof ist?",
-        prompt: "Say it in German: Can you tell me where the station is? (polite)",
+        prompt: "Say it in German: Can you tell me where the station is? (formal)",
         explanation: "A polite indirect question: verb at the end.",
       },
     ],
@@ -269,7 +269,7 @@ export const DE_B2_U04: Lesson[] = [
         body: [
           "Message 2, the landlord, Herr Becker: \"Hallo Herr Weber, Becker hier. Am Montag kommt der Schornsteinfeger. Ist morgens jemand zu Hause? Und bitte stellen Sie die Fahrräder nicht mehr in den Hausflur.\"",
           "Report: \"Herr Becker sagt, am Montag komme der Schornsteinfeger. Er will wissen, ob morgens jemand zu Hause sei. Und wir sollen die Fahrräder nicht mehr in den Hausflur stellen.\" Note that the request was to Jonas but concerns all of you, so \"wir sollen\" (or \"ihr sollt\").",
-          "\"Der Schornsteinfeger\" (chimney sweep) still visits most German homes once a year to check the heating.",
+          "\"Der Schornsteinfeger\" (chimney sweep) still visits most German homes regularly to check the heating and the chimney.",
         ],
         examples: [
           { es: "Herr Becker sagt, am Montag komme der Schornsteinfeger.", en: "Mr Becker says the chimney sweep is coming on Monday." },
@@ -429,26 +429,26 @@ export const DE_B2_U04: Lesson[] = [
     level: "DE-B2",
     number: 3,
     title: "Error Hunt: Indirect Speech",
-    summary: "Fix the classics: \"*ob er kann kommen\", \"*dass ich solle warten\", \"*fragte mich zu warten\", \"*sie haben keine Zeit\", \"*fragt, wenn ich komme\".",
+    summary: "Spot and fix the classic indirect-speech mistakes in word order (\"*ob er kann kommen*\", \"*dass ich solle warten*\"), word choice (\"*fragte mich zu warten*\", \"*fragt, wenn ich komme*\") and mood (\"*sie haben keine Zeit*\").",
     duration: "14 min",
     sections: [
       {
         heading: "Word order errors",
         body: [
-          "\"Ob\", \"dass\" and question words all send the verb to the end. Learners often keep main-clause order: \"*Er fragte, ob er kann kommen\" → \"Er fragte, ob er kommen könne\". \"*Sie sagte, dass ich solle warten\" → \"Sie sagte, dass ich warten solle\" (or, without dass: \"Sie sagte, ich solle warten\").",
-          "With modals at the end: infinitive first, modal last. With separable verbs: joined at the end. \"*..., ob sie ruft an\" → \"..., ob sie anruft\".",
+          "\"Ob\", \"dass\" and question words all send the verb to the end. Learners often keep main-clause order: \"*Er fragte, ob er kann kommen*\" → \"Er fragte, ob er kommen könne\". \"*Sie sagte, dass ich solle warten*\" → \"Sie sagte, dass ich warten solle\" (or, without dass: \"Sie sagte, ich solle warten\").",
+          "With modals at the end: infinitive first, modal last. With separable verbs: joined at the end. \"*..., ob sie ruft an*\" → \"..., ob sie anruft\".",
         ],
         examples: [
-          { es: "Er fragte, ob er kommen könne.", en: "He asked if he could come. (not \"*ob er kann kommen\")" },
-          { es: "Sie sagte, dass ich warten solle.", en: "She said I should wait. (not \"*dass ich solle warten\")" },
-          { es: "Ich weiß nicht, ob sie heute anruft.", en: "I don't know if she'll call today. (not \"*ob sie ruft heute an\")" },
-          { es: "Er wollte wissen, wo ich arbeite.", en: "He wanted to know where I work. (not \"*wo arbeite ich\")" },
+          { es: "Er fragte, ob er kommen könne.", en: "He asked if he could come. (not \"*ob er kann kommen*\")" },
+          { es: "Sie sagte, dass ich warten solle.", en: "She said I should wait. (not \"*dass ich solle warten*\")" },
+          { es: "Ich weiß nicht, ob sie heute anruft.", en: "I don't know if she'll call today. (not \"*ob sie ruft heute an*\")" },
+          { es: "Er wollte wissen, wo ich arbeite.", en: "He wanted to know where I work. (not \"*wo arbeite ich*\")" },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"*Er fragte, ob er kann kommen.\" Write the correct German for: He asked if he could come.",
+            prompt: "A learner wrote \"*Er fragte, ob er kann kommen.*\" Write the correct German for: He asked if he could come.",
             source: "He asked if he could come.",
             answer: "Er fragte, ob er kommen könne.",
             altAnswers: ["Er hat gefragt, ob er kommen könne.", "Er fragte, ob er kommen kann.", "Er hat gefragt, ob er kommen kann.", "Er fragte, ob er kommen dürfe.", "Er fragte, ob er kommen könnte."],
@@ -468,12 +468,12 @@ export const DE_B2_U04: Lesson[] = [
       {
         heading: "Wrong words: fragen zu, wenn",
         body: [
-          "\"*Er fragte mich zu warten\" copies English asked me to wait. \"Fragen\" only asks questions. Correct: \"Er bat mich zu warten\" or \"Er sagte, ich solle warten\".",
-          "\"*Er fragt, wenn ich komme\" copies English he asks if I'm coming. If = whether is \"ob\": \"Er fragt, ob ich komme.\" (\"Er fragt, wann ich komme\" is also possible, but means when.)",
+          "\"*Er fragte mich zu warten*\" copies English asked me to wait. \"Fragen\" only asks questions. Correct: \"Er bat mich zu warten\" or \"Er sagte, ich solle warten\".",
+          "\"*Er fragt, wenn ich komme*\" copies English he asks if I'm coming. If = whether is \"ob\": \"Er fragt, ob ich komme.\" (\"Er fragt, wann ich komme\" is also possible, but means when.)",
         ],
         examples: [
-          { es: "Er bat mich zu warten.", en: "He asked me to wait. (not \"*fragte mich zu warten\")" },
-          { es: "Er fragt, ob ich komme.", en: "He asks if I'm coming. (not \"*wenn ich komme\")" },
+          { es: "Er bat mich zu warten.", en: "He asked me to wait. (not \"*fragte mich zu warten*\")" },
+          { es: "Er fragt, ob ich komme.", en: "He asks if I'm coming. (not \"*wenn ich komme*\")" },
           { es: "Sie bat uns, leiser zu sein.", en: "She asked us to be quieter." },
           { es: "Ich frage mich, ob das stimmt.", en: "I wonder if that's true." },
         ],
@@ -481,7 +481,7 @@ export const DE_B2_U04: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"*Er fragte mich zu warten.\" Write the correct German for: He asked me to wait.",
+            prompt: "A learner wrote \"*Er fragte mich zu warten.*\" Write the correct German for: He asked me to wait.",
             source: "He asked me to wait.",
             answer: "Er bat mich zu warten.",
             altAnswers: ["Er bat mich, zu warten.", "Er hat mich gebeten zu warten.", "Er hat mich gebeten, zu warten.", "Er sagte, ich solle warten.", "Er hat gesagt, ich solle warten.", "Er hat gesagt, ich soll warten."],
@@ -499,12 +499,12 @@ export const DE_B2_U04: Lesson[] = [
       {
         heading: "Mood errors",
         body: [
-          "\"*Sie sagten, sie haben keine Zeit\" uses a Konjunktiv I that looks like the indicative. In formal writing substitute: \"Sie sagten, sie hätten keine Zeit.\"",
-          "\"*Er sagte, er war krank\" backshifts as in English. Formal German keeps the original tense: \"Er sagte, er sei krank.\" And \"*Er sagte, er würde krank sein\" turns a statement into a strange prediction.",
+          "\"*Sie sagten, sie haben keine Zeit*\" uses a Konjunktiv I that looks like the indicative. In formal writing substitute: \"Sie sagten, sie hätten keine Zeit.\"",
+          "\"*Er sagte, er war krank*\" backshifts as in English. Formal German keeps the original tense: \"Er sagte, er sei krank.\" And \"*Er sagte, er würde krank sein*\" turns a statement into a strange prediction.",
         ],
         examples: [
-          { es: "Sie sagten, sie hätten keine Zeit.", en: "They said they had no time. (not \"*sie haben\")" },
-          { es: "Er sagte, er sei krank.", en: "He said he was ill. (not \"*er war krank\")" },
+          { es: "Sie sagten, sie hätten keine Zeit.", en: "They said they had no time. (not \"*sie haben*\")" },
+          { es: "Er sagte, er sei krank.", en: "He said he was ill. (not \"*er war krank*\")" },
           { es: "Die Gäste fragten, ob sie bleiben könnten.", en: "The guests asked if they could stay." },
           { es: "Die Firma teilte mit, sie werde neue Mitarbeiter einstellen.", en: "The company announced it would hire new staff." },
         ],
@@ -512,7 +512,7 @@ export const DE_B2_U04: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"*Sie sagten, sie haben keine Zeit.\" Write the correct formal German for: They said they had no time.",
+            prompt: "A learner wrote \"*Sie sagten, sie haben keine Zeit.*\" Write the correct formal German for: They said they had no time.",
             source: "They said they had no time.",
             answer: "Sie sagten, sie hätten keine Zeit.",
             altAnswers: ["Sie sagten, dass sie keine Zeit hätten.", "Sie haben gesagt, sie hätten keine Zeit."],
@@ -533,7 +533,7 @@ export const DE_B2_U04: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*Er wollte wissen, wo arbeite ich.\" Translate: He wanted to know where I work.",
+        prompt: "Fix \"*Er wollte wissen, wo arbeite ich.*\" Translate: He wanted to know where I work.",
         source: "He wanted to know where I work.",
         answer: "Er wollte wissen, wo ich arbeite.",
         altAnswers: ["Er wollte wissen, wo ich arbeitete.", "Er wollte wissen, wo ich arbeiten würde."],
@@ -542,7 +542,7 @@ export const DE_B2_U04: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*Ich weiß nicht, ob sie ruft heute an.\" Translate: I don't know if she'll call today.",
+        prompt: "Fix \"*Ich weiß nicht, ob sie ruft heute an.*\" Translate: I don't know if she'll call today.",
         source: "I don't know if she'll call today.",
         answer: "Ich weiß nicht, ob sie heute anruft.",
         altAnswers: ["Ich weiß nicht, ob sie heute anrufen wird."],
@@ -551,7 +551,7 @@ export const DE_B2_U04: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*Sie fragte uns zu leiser sein.\" Translate: She asked us to be quieter.",
+        prompt: "Fix \"*Sie fragte uns zu leiser sein.*\" Translate: She asked us to be quieter.",
         source: "She asked us to be quieter.",
         answer: "Sie bat uns, leiser zu sein.",
         altAnswers: ["Sie hat uns gebeten, leiser zu sein.", "Sie sagte, wir sollten leiser sein.", "Sie hat gesagt, wir sollen leiser sein."],
@@ -560,7 +560,7 @@ export const DE_B2_U04: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*Er sagte, er war krank.\" (original: \"Ich bin krank.\") Translate formally: He said he was ill.",
+        prompt: "Fix \"*Er sagte, er war krank.*\" (original: \"Ich bin krank.\") Translate formally: He said he was ill.",
         source: "He said he was ill.",
         answer: "Er sagte, er sei krank.",
         altAnswers: ["Er sagte, dass er krank sei.", "Er hat gesagt, er sei krank."],
@@ -569,7 +569,7 @@ export const DE_B2_U04: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*Sie fragt, wenn das Museum geöffnet ist.\" Translate: She asks if the museum is open.",
+        prompt: "Fix \"*Sie fragt, wenn das Museum geöffnet ist.*\" Translate: She asks if the museum is open.",
         source: "She asks if the museum is open.",
         answer: "Sie fragt, ob das Museum geöffnet ist.",
         altAnswers: ["Sie fragt, ob das Museum geöffnet sei.", "Sie fragt, ob das Museum offen ist.", "Sie fragt, ob das Museum offen sei."],
@@ -633,7 +633,7 @@ export const DE_B2_U04: Lesson[] = [
     level: "DE-B2",
     number: 4,
     title: "Story with Gaps: Die Nachrichten um acht",
-    summary: "A Tagesschau-style bulletin about floods and a rail strike: fill in Konjunktiv I, laut, zufolge and wie ... mitteilte.",
+    summary: "Follow a \"Tagesschau\"-style bulletin about floods and a rail strike and fill in the Konjunktiv I, \"laut\", \"zufolge\" and \"wie ... mitteilte\".",
     duration: "15 min",
     sections: [
       {
@@ -828,7 +828,7 @@ export const DE_B2_U04: Lesson[] = [
         type: "speak",
         text: "Ein Sprecher der Polizei teilte mit, zwei Personen seien verletzt worden.",
         prompt: "Read it like a newsreader: A police spokesman announced that two people had been injured.",
-        tip: "Newsreaders stress the content words: SPRE-cher, PO-li-zei, ver-LETZT.",
+        tip: "Newsreaders stress the content words: \"Sprecher\", \"Polizei\", \"verletzt\" (SPRE-cher, PO-li-zei, ver-LETZT).",
         explanation: "After the reporting verb \"teilte mit\" the Konjunktiv I \"seien ... verletzt worden\" reports the statement. (After \"Wie ... mitteilte,\" the indicative would be usual.)",
       },
     ],
@@ -838,7 +838,7 @@ export const DE_B2_U04: Lesson[] = [
     level: "DE-B2",
     number: 5,
     title: "Questions and Answers: Er hat gefragt, ob...",
-    summary: "Report the questions you were asked at the Bürgeramt, the doctor's and a job interview.",
+    summary: "Report the questions you were asked at the \"Bürgeramt\", the doctor's and a job interview.",
     duration: "13 min",
     sections: [
       {
@@ -1040,7 +1040,7 @@ export const DE_B2_U04: Lesson[] = [
     level: "DE-B2",
     number: 6,
     title: "Fix the Paragraph: Das Protokoll der Sitzung",
-    summary: "Correct the minutes of a sports club meeting: wrong moods, missing ob, missing person shifts.",
+    summary: "Correct the minutes of a sports club meeting: wrong moods, a missing \"ob\" and missing person shifts.",
     duration: "15 min",
     sections: [
       {
@@ -1061,7 +1061,7 @@ export const DE_B2_U04: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Leon wrote \"*Der Kassenwart berichtete, die Finanzen sind stabil.\" Write the correct minutes for: The treasurer reported that the finances were stable.",
+            prompt: "Leon wrote \"*Der Kassenwart berichtete, die Finanzen sind stabil.*\" Write the correct minutes for: The treasurer reported that the finances were stable.",
             source: "The treasurer reported that the finances were stable.",
             answer: "Der Kassenwart berichtete, die Finanzen seien stabil.",
             altAnswers: ["Der Kassenwart berichtete, dass die Finanzen stabil seien."],
@@ -1094,7 +1094,7 @@ export const DE_B2_U04: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Leon wrote \"*Mehrere Eltern fragten, wenn es mehr Trainer gibt.\" Write the correct minutes for: Several parents asked whether there would be more coaches.",
+            prompt: "Leon wrote \"*Mehrere Eltern fragten, wenn es mehr Trainer gibt.*\" Write the correct minutes for: Several parents asked whether there would be more coaches.",
             source: "Several parents asked whether there would be more coaches.",
             answer: "Mehrere Eltern fragten, ob es mehr Trainer geben werde.",
             altAnswers: ["Mehrere Eltern fragten, ob es mehr Trainer gebe.", "Mehrere Eltern fragten, ob es mehr Trainer geben würde."],
@@ -1126,7 +1126,7 @@ export const DE_B2_U04: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Leon wrote \"*Er fragte die Mitglieder, beim Vereinsfest zu helfen.\" Write the correct minutes for: He asked members to help at the club party.",
+            prompt: "Leon wrote \"*Er fragte die Mitglieder, beim Vereinsfest zu helfen.*\" Write the correct minutes for: He asked members to help at the club party.",
             source: "He asked members to help at the club party.",
             answer: "Er bat die Mitglieder, beim Vereinsfest zu helfen.",
             altAnswers: ["Er bat die Mitglieder, beim Vereinsfest mitzuhelfen.", "Er hat die Mitglieder gebeten, beim Vereinsfest zu helfen."],
@@ -1147,7 +1147,7 @@ export const DE_B2_U04: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*Der Vorsitzende sagte, der Verein hat 40 neue Mitglieder.\" Translate: The chair said the club had 40 new members.",
+        prompt: "Fix \"*Der Vorsitzende sagte, der Verein hat 40 neue Mitglieder.*\" Translate: The chair said the club had 40 new members.",
         source: "The chair said the club had 40 new members.",
         answer: "Der Vorsitzende sagte, der Verein habe 40 neue Mitglieder.",
         altAnswers: ["Der Vorsitzende sagte, dass der Verein 40 neue Mitglieder habe.", "Der Vorsitzende sagte, der Verein habe vierzig neue Mitglieder."],
@@ -1156,7 +1156,7 @@ export const DE_B2_U04: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*Frau Schneider fragte, steigt der Mitgliedsbeitrag?\" Translate: Ms Schneider asked whether the fee would go up.",
+        prompt: "Fix \"*Frau Schneider fragte, steigt der Mitgliedsbeitrag?*\" Translate: Ms Schneider asked whether the fee would go up.",
         source: "Ms Schneider asked whether the fee would go up.",
         answer: "Frau Schneider fragte, ob der Beitrag steigen werde.",
         altAnswers: ["Frau Schneider fragte, ob der Mitgliedsbeitrag steigen werde.", "Frau Schneider fragte, ob der Beitrag steige.", "Frau Schneider fragte, ob der Mitgliedsbeitrag steige."],
@@ -1262,7 +1262,7 @@ export const DE_B2_U04: Lesson[] = [
         examples: [
           { es: "Meine Mutter hat gesagt, dass sie im Sommer kommt.", en: "My mum said she's coming in the summer." },
           { es: "Sie hat gefragt, ob ich genug esse.", en: "She asked if I'm eating enough." },
-          { es: "Sie meinte, ich soll mal wieder anrufen.", en: "She said I should call more often." },
+          { es: "Sie meinte, ich soll mal wieder anrufen.", en: "She said I should give her a call again soon." },
           { es: "Mein Nachbar hat erzählt, dass er nach Spanien zieht.", en: "My neighbour told me he's moving to Spain." },
           { es: "Er meinte, das wäre kein Problem.", en: "He said it wouldn't be a problem." },
         ],
@@ -1279,7 +1279,7 @@ export const DE_B2_U04: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "She [said] I should call more often.",
+            en: "She [said] I should give her a call again soon.",
             sentence: "Sie ___, ich soll mal wieder anrufen.",
             answer: "meinte",
             altAnswers: ["hat gesagt", "sagte"],
@@ -1424,9 +1424,9 @@ export const DE_B2_U04: Lesson[] = [
         type: "listen-choose",
         audio: "Sie meinte, ich soll mal wieder anrufen.",
         question: "What does it mean?",
-        options: ["She said I should call more often.", "She meant to call me again.", "She thinks I called again.", "She said she'd call again."],
+        options: ["She said I should give her a call again soon.", "She meant to call me again.", "She thinks I called again.", "She said she'd call again."],
         correctIndex: 0,
-        explanation: "\"Ich soll\": reported request in casual speech.",
+        explanation: "\"Ich soll\": reported request in casual speech; \"mal wieder\" = again (sometime soon).",
       },
       {
         type: "translate",
@@ -1450,14 +1450,14 @@ export const DE_B2_U04: Lesson[] = [
     level: "DE-B2",
     number: 8,
     title: "Circuit: Laut, Zufolge, Angeblich, Wie... berichtet",
-    summary: "News attributions: laut Polizei, dem Bericht zufolge, nach Angaben der Feuerwehr, wie der Spiegel berichtet, angeblich.",
+    summary: "Name the source of a news claim with \"laut\", \"zufolge\", \"nach Angaben\" and \"wie ... berichtet\", and signal doubt with \"angeblich\".",
     duration: "14 min",
     sections: [
       {
         heading: "Laut and zufolge",
         body: [
           "\"Laut\" (according to) goes before its noun. With a bare noun, no article and no visible case: \"laut Polizei\", \"laut Wetterbericht\". With an article it takes the dative (common) or the genitive (formal): \"laut dem Bericht\" / \"laut des Berichts\".",
-          "\"Zufolge\" goes after its noun, which is in the dative: \"dem Bericht zufolge\", \"der Polizei zufolge\", \"Experten zufolge\". It's more formal. Putting \"zufolge\" first (\"*zufolge dem Bericht\") is the typical error.",
+          "\"Zufolge\" goes after its noun, which is in the dative: \"dem Bericht zufolge\", \"der Polizei zufolge\", \"Experten zufolge\". It's more formal. Putting \"zufolge\" first (\"*zufolge dem Bericht*\") is the typical error.",
           "Both can be combined with the indicative, because the source is already named. But the Konjunktiv I is common too, especially in longer passages.",
         ],
         examples: [
@@ -1660,7 +1660,7 @@ export const DE_B2_U04: Lesson[] = [
     level: "DE-B2",
     number: 9,
     title: "Upper-Intermediate Vocabulary Practice, Part 1 of 10",
-    summary: "Test the Upper-intermediate vocabulary from Units 1-3: missed chances, regrets and apologies, press and reporting verbs.",
+    summary: "Use the vocabulary of Units 1-3 in context: missed chances, regrets and apologies, the press and reporting verbs.",
     duration: "14 min",
     sections: [
       {
@@ -1672,7 +1672,7 @@ export const DE_B2_U04: Lesson[] = [
         examples: [
           { es: "Ich habe den Anschluss in Fulda verpasst.", en: "I missed the connection in Fulda." },
           { es: "Leider habe ich eine Absage bekommen.", en: "Unfortunately I got a rejection." },
-          { es: "Die Bewerbungsfrist endet am Freitag.", en: "The application deadline ends on Friday." },
+          { es: "Die Bewerbungsfrist endet am Freitag.", en: "The application deadline is on Friday." },
           { es: "Sie hat sich um die Stelle in Wien beworben.", en: "She applied for the job in Vienna." },
           { es: "Im Nachhinein war das eine gute Entscheidung.", en: "In hindsight that was a good decision." },
         ],
@@ -1814,7 +1814,7 @@ export const DE_B2_U04: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The application [deadline] ends on Friday.",
+        en: "The application [deadline] is on Friday.",
         sentence: "Die Bewerbungs___ endet am Freitag.",
         answer: "frist",
         explanation: "\"Die Frist\": deadline; \"die Bewerbungsfrist\".",
@@ -2033,7 +2033,7 @@ export const DE_B2_U04: Lesson[] = [
     level: "DE-B2",
     number: 11,
     title: "Spiral Review: Konjunktiv I Forms",
-    summary: "Spaced review of Unit 3: sei, habe, werde, könne and the substitute forms in a fast drill.",
+    summary: "Produce the Konjunktiv I forms of Unit 3 (\"sei\", \"habe\", \"werde\", \"könne\") and the substitute forms quickly in a fast drill.",
     duration: "12 min",
     sections: [
       {

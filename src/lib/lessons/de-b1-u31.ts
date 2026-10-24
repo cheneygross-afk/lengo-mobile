@@ -8,14 +8,14 @@ export const DE_B1_U31: Lesson[] = [
     level: "DE-B1",
     number: 1,
     title: "Intermediate Vocabulary Practice, Part 10 of 10",
-    summary: "The last high-frequency words of the Goethe B1 list, from der Unterschied to der Zweifel, with their genders, plurals, principal parts and prepositions.",
+    summary: "Use the last high-frequency words of the Goethe B1 list, from \"der Unterschied\" to \"der Zweifel\", with the right gender, plural, principal parts and preposition.",
     duration: "15 min",
     sections: [
       {
         heading: "Nouns from U to Z: gender and plural",
         body: [
           "The end of the alphabet holds some of the most useful abstract nouns at the Intermediate level, the words you need to compare, explain and argue: \"der Unterschied, die Unterschiede\" (difference), \"die Ursache, die Ursachen\" (cause), \"der Vorteil, die Vorteile\" and \"der Nachteil, die Nachteile\" (advantage, disadvantage), \"die Voraussetzung, die Voraussetzungen\" (requirement, precondition), \"der Zusammenhang, die Zusammenhänge\" (connection, context), \"der Zweifel, die Zweifel\" (doubt), \"die Wirkung, die Wirkungen\" (effect), \"das Ziel, die Ziele\" (goal) and \"die Zukunft\" (future, no plural).",
-          "Learn each noun with its article and plural as one unit. Two patterns help: every noun in -ung is feminine and adds -en (\"die Voraussetzung, die Voraussetzungen\"), and masculine nouns in -el add nothing in the plural (\"der Zweifel, die Zweifel\"). Watch the umlaut in \"die Zusammenhänge\" and \"die Verträge\" (from \"der Vertrag\", contract).",
+          "Learn each noun with its article and plural as one unit. Two patterns help: every noun in -ung is feminine and adds -en (\"die Voraussetzung, die Voraussetzungen\"), and most masculine nouns in -el add nothing in the plural (\"der Zweifel, die Zweifel\"). Watch the umlaut in \"die Zusammenhänge\" and \"die Verträge\" (from \"der Vertrag\", contract).",
           "Several of these nouns come with a fixed preposition: \"der Unterschied zwischen\" + dative, \"die Ursache für\" + accusative, \"der Zweifel an\" + dative, \"die Wirkung auf\" + accusative. English says the difference between and the cause of; German says \"die Ursache für\" or uses the genitive (\"die Ursache des Unfalls\"), not usually \"von\".",
         ],
         examples: [
@@ -56,7 +56,7 @@ export const DE_B1_U31: Lesson[] = [
         heading: "Verbs: the principal parts you need",
         body: [
           "Many of the last Intermediate verbs start with ver- or zu- and are strong, so their Präteritum and participle have to be learned: \"vergleichen, verglich, hat verglichen\" (compare), \"vermeiden, vermied, hat vermieden\" (avoid), \"verlassen, verließ, hat verlassen\" (leave a place or person), \"verzeihen, verzieh, hat verziehen\" (forgive), \"widersprechen, widersprach, hat widersprochen\" (contradict), \"zwingen, zwang, hat gezwungen\" (force).",
-          "Ver- and wider- are inseparable prefixes: no ge- in the participle (\"verglichen\", not \"*gevergleicht\"). Zu- is separable: \"zunehmen, nahm zu, hat zugenommen\" (put on weight, increase), \"zustimmen, stimmte zu, hat zugestimmt\" (agree to).",
+          "Ver- and wider- are inseparable prefixes: no ge- in the participle (\"verglichen\", not \"*gevergleicht*\"). Zu- is separable: \"zunehmen, nahm zu, hat zugenommen\" (put on weight, increase), \"zustimmen, stimmte zu, hat zugestimmt\" (agree to).",
           "Watch the case. \"Verzeihen\", \"widersprechen\" and \"zustimmen\" take the dative, where English has a plain object: \"Ich stimme dir zu\", \"Er hat seiner Chefin widersprochen\". \"Verlassen\" takes the accusative and always needs an object: \"Sie verließ das Haus um acht\". For leaving without an object, German says \"gehen\" or \"losfahren\".",
         ],
         examples: [
@@ -231,7 +231,7 @@ export const DE_B1_U31: Lesson[] = [
     level: "DE-B1",
     number: 2,
     title: "Word Web: Emotions and Reactions",
-    summary: "Name feelings and say what causes them: die Freude, die Wut, die Erleichterung, sich ärgern über, enttäuscht von, Das macht mich wütend, and the trap Mir ist langweilig.",
+    summary: "Name feelings and say what causes them (\"die Freude\", \"die Wut\", \"sich ärgern über\", \"enttäuscht von\", \"Das macht mich wütend\"), and avoid the trap \"Mir ist langweilig\" vs \"Ich bin langweilig\".",
     duration: "15 min",
     sections: [
       {
@@ -239,7 +239,7 @@ export const DE_B1_U31: Lesson[] = [
         body: [
           "The core emotion nouns: \"die Freude\" (joy), \"die Wut\" (anger, rage), \"die Angst\" (fear), \"die Trauer\" (grief), \"die Enttäuschung\" (disappointment), \"die Erleichterung\" (relief), \"die Eifersucht\" (jealousy), \"der Stolz\" (pride), \"die Überraschung\" (surprise). Almost all are feminine; \"der Stolz\" is the exception to remember.",
           "Each noun has an adjective partner: \"froh\" or \"fröhlich\", \"wütend\", \"ängstlich\", \"traurig\", \"enttäuscht\", \"erleichtert\", \"eifersüchtig\", \"stolz\", \"überrascht\". German uses the noun more than English in fixed phrases: \"vor Freude weinen\" (cry with joy), \"vor Wut schreien\" (scream with rage), \"zu meiner Überraschung\" (to my surprise). The cause of a physical reaction takes \"vor\" + dative.",
-          "\"Angst\" is a noun, so you have it rather than are it: \"Ich habe Angst vor Spinnen\" (I'm afraid of spiders), with \"vor\" + dative. \"*Ich bin Angst\" is a classic slip.",
+          "\"Angst\" is a noun, so you have it rather than are it: \"Ich habe Angst vor Spinnen\" (I'm afraid of spiders), with \"vor\" + dative. \"*Ich bin Angst*\" is a classic slip.",
         ],
         examples: [
           { es: "Sie hat vor Freude geweint.", en: "She cried with joy." },
@@ -256,7 +256,7 @@ export const DE_B1_U31: Lesson[] = [
             prompt: "Translate into German.",
             source: "I'm afraid of the dentist.",
             answer: "Ich habe Angst vor dem Zahnarzt.",
-            explanation: "Fear is a noun you have: \"Angst haben vor\" + dative, \"vor dem Zahnarzt\". Not \"*Ich bin Angst\".",
+            explanation: "Fear is a noun you have: \"Angst haben vor\" + dative, \"vor dem Zahnarzt\". Not \"*Ich bin Angst*\".",
           },
           {
             type: "fill-blank",
@@ -334,7 +334,7 @@ export const DE_B1_U31: Lesson[] = [
             source: "I'm bored.",
             answer: "Mir ist langweilig.",
             altAnswers: ["Ich langweile mich."],
-            explanation: "Bored is \"Mir ist langweilig\" or \"Ich langweile mich\". \"*Ich bin langweilig\" means I'm a boring person.",
+            explanation: "Bored is \"Mir ist langweilig\" or \"Ich langweile mich\". \"Ich bin langweilig\" means I'm a boring person.",
           },
           {
             type: "speak",
@@ -380,7 +380,7 @@ export const DE_B1_U31: Lesson[] = [
         en: "[I feel sick]; I think I ate too much.",
         sentence: "___, ich glaube, ich habe zu viel gegessen.",
         answer: "Mir ist schlecht",
-        explanation: "Physical feelings use the dative: \"Mir ist schlecht\". \"*Ich bin schlecht\" would mean I'm bad at something or a bad person.",
+        explanation: "Physical feelings use the dative: \"Mir ist schlecht\". \"Ich bin schlecht\" would mean I'm bad at something or a bad person.",
       },
       {
         type: "translate",
@@ -442,7 +442,7 @@ export const DE_B1_U31: Lesson[] = [
     level: "DE-B1",
     number: 3,
     title: "Themed Review: Memories of a Father",
-    summary: "A memoir about a father, told with the Präteritum, Perfekt and Plusquamperfekt, als and immer wenn, and the emotion words of this unit.",
+    summary: "Read and retell a memoir about a father with the Präteritum, Perfekt and Plusquamperfekt, \"als\" vs \"immer wenn\", and the emotion words of this unit.",
     duration: "15 min",
     sections: [
       {
@@ -483,7 +483,7 @@ export const DE_B1_U31: Lesson[] = [
         heading: "Immer wenn: the habits of a lifetime",
         body: [
           "The memoir continues: \"Immer wenn er spät nach Hause kam, brachte er uns etwas mit: ein Brötchen, eine Zeitung, einmal sogar einen kleinen Hund. Meine Mutter ärgerte sich jedes Mal darüber, aber wir Kinder freuten uns riesig.\"",
-          "Repeated events in the past take \"wenn\", usually strengthened to \"immer wenn\" or \"jedes Mal, wenn\": whenever. \"Als\" would mean one particular evening. This is the Intermediate rule English speakers most often get wrong: \"*Immer als er kam\" doesn't exist.",
+          "Repeated events in the past take \"wenn\", usually strengthened to \"immer wenn\" or \"jedes Mal, wenn\": whenever. \"Als\" would mean one particular evening. This is the Intermediate rule English speakers most often get wrong: \"*Immer als er kam*\" doesn't exist.",
           "The emotion verbs follow their prepositions: \"sich ärgern über\" and \"sich freuen über\", both with the accusative or with \"darüber\" for the idea just mentioned.",
         ],
         examples: [
@@ -650,7 +650,7 @@ export const DE_B1_U31: Lesson[] = [
         heading: "Hearing da-compounds: darauf, daran, darüber",
         body: [
           "A da-compound replaces a preposition + a thing: \"auf die Antwort warten\" becomes \"darauf warten\". Before a vowel, German adds an r so that the two parts can be pronounced: \"da + auf = darauf\", \"da + an = daran\", \"da + über = darüber\", but \"da + mit = damit\", \"da + für = dafür\".",
-          "In speech the stress usually falls on the second part, the preposition: da-RAUF, da-RAN, da-FÜR. When you hear a word starting with \"dar-\", write it as one word: \"darauf\", never \"*dar auf\".",
+          "In speech the stress usually falls on the second part, the preposition: da-RAUF, da-RAN, da-FÜR. When you hear a word starting with \"dar-\", write it as one word: \"darauf\", never \"*dar auf*\".",
           "Remember that people stay people: \"Ich warte auf meinen Bruder\" becomes \"Ich warte auf ihn\", not \"darauf\". Da-compounds are for things and ideas only.",
         ],
         examples: [
@@ -690,8 +690,8 @@ export const DE_B1_U31: Lesson[] = [
         heading: "Wo-compounds in questions",
         body: [
           "The question form works the same way: \"wo-\" + preposition, with an r before a vowel: \"worauf\", \"woran\", \"worüber\", \"womit\", \"wofür\", \"wovon\". \"Worauf wartest du?\" means What are you waiting for?",
-          "English puts the preposition at the end of the question; German pulls it to the front as part of the question word. \"*Was wartest du auf?\" is impossible.",
-          "For people, use preposition + wen or wem: \"Auf wen wartest du?\" (who are you waiting for?), \"Mit wem hast du gesprochen?\" In casual speech you will hear \"Auf was wartest du?\" for things, but write \"worauf\".",
+          "English puts the preposition at the end of the question; German pulls it to the front as part of the question word. \"*Was wartest du auf?*\" is impossible.",
+          "For people, use preposition + \"wen\" or \"wem\": \"Auf wen wartest du?\" (who are you waiting for?), \"Mit wem hast du gesprochen?\" In casual speech you will hear \"Auf was wartest du?\" for things, but write \"worauf\".",
         ],
         examples: [
           { es: "Worauf wartest du noch?", en: "What are you still waiting for?" },
@@ -720,7 +720,7 @@ export const DE_B1_U31: Lesson[] = [
         heading: "Pointing forward: darauf, dass... and darauf, ... zu",
         body: [
           "A da-compound can announce a whole clause that follows: \"Ich freue mich darauf, dass du kommst\" or, with the same subject, \"Ich freue mich darauf, dich zu sehen\". The da-compound sits in the main clause, a comma follows, and then the dass-clause (verb last) or the zu-infinitive.",
-          "This is how German handles English -ing after a preposition: I'm looking forward to seeing you. English uses a gerund; German needs \"darauf\" + a zu-infinitive. \"*Ich freue mich auf dich sehen\" is the typical learner error.",
+          "This is how German handles English -ing after a preposition: I'm looking forward to seeing you. English uses a gerund; German needs \"darauf\" + a zu-infinitive. \"*Ich freue mich auf dich sehen*\" is the typical learner error.",
           "In dictation, listen for the comma pause after the da-compound, and check two things: the dass-clause ends with its verb, and \"zu\" stands right before the last infinitive (inside separable verbs: \"anzurufen\").",
         ],
         examples: [
@@ -839,7 +839,7 @@ export const DE_B1_U31: Lesson[] = [
       {
         type: "speak",
         text: "Worauf wartest du noch?",
-        tip: "Stress the second part: wo-RAUF; the r before au is a light throaty sound.",
+        tip: "Stress the second part of \"worauf\": wo-RAUF; the r before au is a light throaty sound.",
         explanation: "\"Worauf\" asks about a thing you wait for; \"noch\" adds still, a little impatient.",
       },
     ],
@@ -849,14 +849,14 @@ export const DE_B1_U31: Lesson[] = [
     level: "DE-B1",
     number: 5,
     title: "Word Web: Opinions and Certainty",
-    summary: "Give an opinion, say how sure you are and agree or disagree: meiner Meinung nach, ich bin davon überzeugt, dass..., wahrscheinlich, Das sehe ich anders.",
+    summary: "Give an opinion, say how sure you are and agree or disagree (\"Meiner Meinung nach...\", \"Ich bin davon überzeugt, dass...\", \"wahrscheinlich\", \"Das sehe ich anders\").",
     duration: "15 min",
     sections: [
       {
         heading: "Giving your opinion, and the word order trap",
         body: [
           "The opinion starters of the Goethe B1 exam: \"Ich finde, ...\", \"Ich glaube, ...\", \"Ich denke, ...\", \"Ich bin der Meinung, dass ...\", \"Ich bin der Ansicht, dass ...\" and \"Meiner Meinung nach ...\". \"Ich finde\" is for a judgement (I think it's good); \"ich glaube\" is closer to I believe or I suppose.",
-          "Word order is the trap. \"Meiner Meinung nach\" is a single phrase that fills position 1, so the verb comes straight after it: \"Meiner Meinung nach ist das Konzept zu teuer\". English speakers write \"*Meiner Meinung nach das Konzept ist...\" because in my opinion, the concept is... has a comma. German doesn't.",
+          "Word order is the trap. \"Meiner Meinung nach\" is a single phrase that fills position 1, so the verb comes straight after it: \"Meiner Meinung nach ist das Konzept zu teuer\". English speakers write \"*Meiner Meinung nach das Konzept ist...*\" because in my opinion, the concept is... has a comma. German doesn't.",
           "After \"Ich finde, ...\" and \"Ich glaube, ...\" you can continue with a main clause (\"Ich finde, das ist zu teuer\") or a dass-clause (\"Ich finde, dass das zu teuer ist\"). After \"Ich bin der Meinung\" always use \"dass\" + verb last.",
         ],
         examples: [
@@ -898,7 +898,7 @@ export const DE_B1_U31: Lesson[] = [
       {
         heading: "How sure are you?",
         body: [
-          "From sure to unsure: \"Ich bin davon überzeugt, dass...\" (I'm convinced that), \"Ich bin sicher, dass...\" (I'm sure that), \"Ich bin nicht sicher, ob...\" (I'm not sure whether), \"Ich weiß nicht, ob...\" Note \"ob\" for whether after not being sure; \"*Ich bin nicht sicher, dass\" sounds wrong to German ears.",
+          "From sure to unsure: \"Ich bin davon überzeugt, dass...\" (I'm convinced that), \"Ich bin sicher, dass...\" (I'm sure that), \"Ich bin nicht sicher, ob...\" (I'm not sure whether), \"Ich weiß nicht, ob...\" Note \"ob\" for whether after not being sure; \"*Ich bin nicht sicher, dass*\" sounds wrong to German ears.",
           "The adverbs give a scale: \"auf jeden Fall\" and \"bestimmt\" (definitely), \"sicher\" (surely), \"wahrscheinlich\" (probably), \"vielleicht\" (maybe), \"wohl kaum\" (hardly). \"Bestimmt\" in German is stronger than English certainly sounds: \"Er kommt bestimmt\" means I'm confident he'll come.",
           "\"Überzeugt\" takes \"von\": \"Ich bin von der Idee überzeugt\", and before a dass-clause \"davon\": \"Ich bin davon überzeugt, dass es klappt\".",
         ],
@@ -935,7 +935,7 @@ export const DE_B1_U31: Lesson[] = [
         heading: "Agreeing, disagreeing and weighing up",
         body: [
           "Agreeing: \"Da hast du recht\", \"Das stimmt\", \"Genau\", \"Ich sehe das genauso\", \"Ich bin ganz deiner Meinung\". Disagreeing politely: \"Das sehe ich anders\", \"Da bin ich anderer Meinung\", \"Ich bin nicht ganz sicher, ob das stimmt\", \"Da muss ich dir widersprechen\".",
-          "\"Recht haben\" is a fixed phrase: you have right, you don't are right. \"*Du bist recht\" is wrong. And note: \"Ich bin einverstanden\" means I agree to a proposal (OK, let's do it), not agreeing with an opinion.",
+          "\"Recht haben\" is a fixed phrase: you have right, you don't are right. \"*Du bist recht*\" is wrong. And note: \"Ich bin einverstanden\" means I agree to a proposal (OK, let's do it), not agreeing with an opinion.",
           "To weigh both sides: \"Einerseits ..., andererseits ...\" (on the one hand ..., on the other hand ...). Both are adverbs in position 1, so the verb follows immediately: \"Einerseits ist das Auto praktisch, andererseits kostet es viel Geld.\"",
         ],
         examples: [
@@ -954,7 +954,7 @@ export const DE_B1_U31: Lesson[] = [
             source: "You're right. (to a friend)",
             answer: "Du hast recht.",
             altAnswers: ["Da hast du recht.", "Du hast Recht."],
-            explanation: "Right in this sense is \"recht haben\": \"Du hast recht\", never \"*Du bist recht\".",
+            explanation: "Right in this sense is \"recht haben\": \"Du hast recht\", never \"*Du bist recht*\".",
           },
           {
             type: "word-order",
@@ -1030,7 +1030,7 @@ export const DE_B1_U31: Lesson[] = [
         question: "Your colleague suggests meeting on Monday at nine, and that suits you. What do you say?",
         options: ["Einverstanden, Montag um neun passt mir.", "Ich bin recht, Montag um neun passt mir.", "Das sehe ich anders, Montag um neun passt mir.", "Ich bin überzeugt, Montag um neun passt mir."],
         correctIndex: 0,
-        explanation: "Agreeing to a proposal is \"einverstanden\". \"*Ich bin recht\" doesn't exist; \"Das sehe ich anders\" disagrees.",
+        explanation: "Agreeing to a proposal is \"einverstanden\". \"*Ich bin recht*\" doesn't exist; \"Das sehe ich anders\" disagrees.",
       },
       {
         type: "translate",
@@ -1111,8 +1111,8 @@ export const DE_B1_U31: Lesson[] = [
         heading: "The morning after: modal passive and the Perfekt passive",
         body: [
           "The report goes on: \"Am Morgen mussten mehrere Straßen gesperrt werden. Auch der Zugverkehr zwischen Köln und Bonn musste eingestellt werden. Inzwischen sind die meisten Strecken wieder freigegeben worden.\"",
-          "With a modal verb, the passive ends in participle + \"werden\": \"muss gesperrt werden\" (must be closed), in the past \"musste gesperrt werden\" (had to be closed). English must be closed tempts learners to write \"*muss gesperrt sein\", which describes a state, not the action of closing.",
-          "The Perfekt passive uses \"sein\" + participle + \"worden\": \"Die Strecken sind freigegeben worden\". In the passive the participle of werden loses its ge-: \"worden\", never \"geworden\", which only means become (\"Es ist kalt geworden\").",
+          "With a modal verb, the passive ends in participle + \"werden\": \"muss gesperrt werden\" (must be closed), in the past \"musste gesperrt werden\" (had to be closed). English must be closed tempts learners to write \"*muss gesperrt sein*\", which describes a state, not the action of closing.",
+          "The Perfekt passive uses \"sein\" + participle + \"worden\": \"Die Strecken sind freigegeben worden\". In the passive the participle of \"werden\" loses its ge-: \"worden\", never \"geworden\", which only means become (\"Es ist kalt geworden\").",
         ],
         examples: [
           { es: "Mehrere Straßen mussten gesperrt werden.", en: "Several roads had to be closed." },
@@ -1215,7 +1215,7 @@ export const DE_B1_U31: Lesson[] = [
         sentence: "Die Bäume müssen schnell ___.",
         answer: "entfernt werden",
         altAnswers: ["weggeräumt werden"],
-        explanation: "Modal passive: participle + \"werden\" at the end. \"*Müssen entfernt sein\" would describe a state.",
+        explanation: "Modal passive: participle + \"werden\" at the end. \"*Müssen entfernt sein*\" would describe a state.",
       },
       {
         type: "translate",
@@ -1247,7 +1247,7 @@ export const DE_B1_U31: Lesson[] = [
         question: "Which sentence is NOT correct German?",
         options: ["Die Straße ist gesperrt geworden.", "Die Straße wurde gesperrt.", "Die Straße ist gesperrt worden.", "Die Straße musste gesperrt werden."],
         correctIndex: 0,
-        explanation: "In the passive the participle of werden is \"worden\". \"Geworden\" only means become.",
+        explanation: "In the passive the participle of \"werden\" is \"worden\". \"Geworden\" only means become.",
       },
       {
         type: "translate",
@@ -1262,7 +1262,7 @@ export const DE_B1_U31: Lesson[] = [
         type: "speak",
         text: "Zum Glück wurde niemand verletzt.",
         prompt: "Say it in German: Luckily, nobody was injured.",
-        tip: "Zum Glück: the ü is long and rounded; don't say Gluck.",
+        tip: "In \"Glück\" the ü is short: round your lips as for oo but say a short i; don't let it become a plain u.",
         explanation: "Präteritum passive: \"wurde\" second, \"verletzt\" at the end.",
       },
       {
@@ -1285,7 +1285,7 @@ export const DE_B1_U31: Lesson[] = [
         body: [
           "\"Was wäre, wenn...?\" (what would happen if...?) is the standard way to start a hypothetical discussion. Both halves use Konjunktiv II: \"Was wäre, wenn es keine Autos in der Stadt gäbe?\" The wenn-clause sends its verb to the end; the main clause, if it comes second, starts with its verb.",
           "The forms you need: \"wäre\" (would be), \"hätte\" (would have), \"gäbe\" (there would be, from \"es gibt\"), the modals \"könnte, müsste, dürfte, sollte\", and \"würde\" + infinitive for almost every other verb: \"Wir würden mehr Rad fahren\".",
-          "English uses the past tense after if (if there were no cars); German uses Konjunktiv II on both sides. Don't put \"würde\" in the wenn-clause with \"sein\" and \"haben\": \"wenn ich mehr Zeit hätte\", not \"*wenn ich mehr Zeit haben würde\".",
+          "English uses the past tense after if (if there were no cars); German uses Konjunktiv II on both sides. Don't put \"würde\" in the wenn-clause with \"sein\" and \"haben\": \"wenn ich mehr Zeit hätte\", not \"*wenn ich mehr Zeit haben würde*\".",
         ],
         examples: [
           { es: "Was wäre, wenn es keine Autos in der Innenstadt gäbe?", en: "What would happen if there were no cars in the city centre?" },
@@ -1436,7 +1436,7 @@ export const DE_B1_U31: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "Which is right for: If I had more money, I'd buy a house?",
         options: ["Wenn ich mehr Geld hätte, würde ich ein Haus kaufen.", "Wenn ich mehr Geld haben würde, ich würde ein Haus kaufen.", "Wenn ich mehr Geld hatte, würde ich ein Haus kaufen.", "Wenn ich hätte mehr Geld, würde ich ein Haus kaufen."],
         correctIndex: 0,
         explanation: "\"Hätte\" at the end of the wenn-clause, then the main clause with its verb first. \"Hatte\" without umlaut is the plain past.",
@@ -1484,14 +1484,14 @@ export const DE_B1_U31: Lesson[] = [
     level: "DE-B1",
     number: 8,
     title: "Word Web: Nature and the Environment",
-    summary: "The words Germans use every day for the environment: die Umwelt, der Klimawandel, die Mülltrennung, das Pfand, erneuerbare Energien, nachhaltig, Energie sparen.",
+    summary: "Talk about the environment with the words Germans use every day (\"die Umwelt\", \"der Klimawandel\", \"die Mülltrennung\", \"das Pfand\", \"nachhaltig\") and sort your rubbish the German way.",
     duration: "15 min",
     sections: [
       {
         heading: "Die Umwelt and the big topics",
         body: [
           "\"Die Umwelt\" (the environment) builds a whole family of compounds: \"der Umweltschutz\" (environmental protection), \"umweltfreundlich\" (environmentally friendly), \"die Umweltverschmutzung\" (pollution). The last part of a compound decides the gender: \"der Schutz\" makes \"der Umweltschutz\".",
-          "The big topics: \"der Klimawandel\" (climate change), \"die Erderwärmung\" (global warming), \"erneuerbare Energien\" (renewable energy, always plural in German), \"die Solaranlage\" (solar panels), \"das Windrad\" (wind turbine), \"der CO2-Ausstoß\" (CO2 emissions).",
+          "The big topics: \"der Klimawandel\" (climate change), \"die Erderwärmung\" (global warming), \"erneuerbare Energien\" (renewable energy, usually plural in German), \"die Solaranlage\" (solar panels), \"das Windrad\" (wind turbine), \"der CO2-Ausstoß\" (CO2 emissions).",
           "Key verbs and adjectives: \"schützen\" (protect), \"verschmutzen\" (pollute), \"verschwenden\" (waste), \"Energie sparen\" (save energy), \"nachhaltig\" (sustainable), \"umweltschädlich\" (harmful to the environment). \"Die Natur\" is nature in the countryside sense; \"die Umwelt\" is the environment as a political topic.",
         ],
         examples: [
@@ -1510,7 +1510,7 @@ export const DE_B1_U31: Lesson[] = [
             source: "We should save energy.",
             answer: "Wir sollten Energie sparen.",
             altAnswers: ["Wir sollen Energie sparen."],
-            explanation: "\"Energie sparen\" without an article, the infinitive at the end after the modal.",
+            explanation: "\"Energie sparen\" without an article, the infinitive at the end after the modal. \"Sollten\" (Konjunktiv II) is the usual word for advice; \"sollen\" sounds more like a rule someone has given.",
           },
           {
             type: "matching",
@@ -1574,7 +1574,7 @@ export const DE_B1_U31: Lesson[] = [
       {
         heading: "Je mehr, desto besser: arguing about the environment",
         body: [
-          "Environmental arguments love \"je ... desto\": \"Je weniger wir fahren, desto sauberer ist die Luft.\" The je-clause has the verb at the end; desto + comparative is followed directly by the verb.",
+          "Environmental arguments love \"je ... desto\": \"Je weniger wir fahren, desto sauberer ist die Luft.\" The je-clause has the verb at the end; \"desto\" + comparative is followed directly by the verb.",
           "Also useful: \"Es ist wichtig, ... zu ...\" (\"Es ist wichtig, Plastik zu vermeiden\"), \"Man sollte ...\", and the passive with modals for what must be done: \"Es muss mehr Strom aus Sonne und Wind produziert werden.\"",
           "\"Schützen vor\" + dative means protect from: \"Bäume schützen die Stadt vor Hitze.\"",
         ],
@@ -1662,7 +1662,7 @@ export const DE_B1_U31: Lesson[] = [
         source: "Glass is collected separately.",
         answer: "Glas wird getrennt gesammelt.",
         altAnswers: ["Glas wird extra gesammelt."],
-        explanation: "Present passive for a general rule: \"wird gesammelt\". \"Getrennt\" (separately) is the participle of trennen used as an adverb.",
+        explanation: "Present passive for a general rule: \"wird gesammelt\". \"Getrennt\" (separately) is the participle of \"trennen\" used as an adverb.",
       },
       {
         type: "word-order",
@@ -1699,7 +1699,7 @@ export const DE_B1_U31: Lesson[] = [
     level: "DE-B1",
     number: 9,
     title: "Fix the Paragraph: The Forum Post",
-    summary: "Rewrite a learner's Goethe B1-style forum post about the environment: verb second after meiner Meinung nach and connectors, the right prepositions and the missing commas.",
+    summary: "Correct a learner's Goethe B1-style forum post about cars in the city: verb second after \"Meiner Meinung nach\" and connectors, the right prepositions and the missing commas.",
     duration: "15 min",
     sections: [
       {
@@ -1720,7 +1720,7 @@ export const DE_B1_U31: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the sentence. Wrong: \"*Deshalb ich fahre jetzt mit dem Rad.\" Write the correct German for: That's why I cycle now.",
+            prompt: "Fix the sentence. Wrong: \"*Deshalb ich fahre jetzt mit dem Rad.*\" Write the correct German for: That's why I cycle now.",
             source: "That's why I cycle now.",
             answer: "Deshalb fahre ich jetzt mit dem Rad.",
             altAnswers: ["Deshalb fahre ich jetzt Rad.", "Deswegen fahre ich jetzt mit dem Rad.", "Darum fahre ich jetzt mit dem Rad.", "Deshalb fahre ich jetzt mit dem Fahrrad."],
@@ -1729,7 +1729,7 @@ export const DE_B1_U31: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the sentence. Wrong: \"*Meiner Meinung nach Autos sollten verboten werden.\" Write the correct German for: In my opinion cars should be banned.",
+            prompt: "Fix the sentence. Wrong: \"*Meiner Meinung nach Autos sollten verboten werden.*\" Write the correct German for: In my opinion cars should be banned.",
             source: "In my opinion cars should be banned.",
             answer: "Meiner Meinung nach sollten Autos verboten werden.",
             explanation: "Verb second after \"Meiner Meinung nach\": \"sollten\" comes before the subject \"Autos\".",
@@ -1757,12 +1757,12 @@ export const DE_B1_U31: Lesson[] = [
             en: "I'm interested [in] nature.",
             sentence: "Ich interessiere mich ___ die Natur.",
             answer: "für",
-            explanation: "\"Sich interessieren für\" + accusative. \"*an\" is the classic slip, because of \"interessiert an\" (Upper-intermediate level) and English in.",
+            explanation: "\"Sich interessieren für\" + accusative. \"*an*\" is the classic slip, because of \"interessiert an\" (Upper-intermediate level) and English in.",
           },
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the sentence. Wrong: \"*Viele Leute denken nur über sich selbst.\" Write the correct German for: Many people only think of themselves.",
+            prompt: "Fix the sentence. Wrong: \"*Viele Leute denken nur über sich selbst.*\" Write the correct German for: Many people only think of themselves.",
             source: "Many people only think of themselves.",
             answer: "Viele Leute denken nur an sich selbst.",
             altAnswers: ["Viele Menschen denken nur an sich selbst.", "Viele Leute denken nur an sich."],
@@ -1806,7 +1806,7 @@ export const DE_B1_U31: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the sentence. Wrong: \"*Jeden Tag ich stehe im Stau.\" Write the correct German for: Every day I'm stuck in traffic.",
+        prompt: "Fix the sentence. Wrong: \"*Jeden Tag ich stehe im Stau.*\" Write the correct German for: Every day I'm stuck in traffic.",
         source: "Every day I'm stuck in traffic.",
         answer: "Jeden Tag stehe ich im Stau.",
         altAnswers: ["Ich stehe jeden Tag im Stau."],
@@ -1819,7 +1819,7 @@ export const DE_B1_U31: Lesson[] = [
         source: "I'm convinced that we need more trains.",
         answer: "Ich bin davon überzeugt, dass wir mehr Züge brauchen.",
         altAnswers: ["Ich bin überzeugt, dass wir mehr Züge brauchen."],
-        explanation: "\"Überzeugt von\": \"davon\" before the dass-clause, never \"*überzeugt über\".",
+        explanation: "\"Überzeugt von\": \"davon\" before the dass-clause, never \"*überzeugt über*\".",
       },
       {
         type: "translate",

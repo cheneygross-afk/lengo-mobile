@@ -14,7 +14,7 @@ export const DE_B2_U18: Lesson[] = [
       {
         heading: "The plan",
         body: [
-          "\"Die Abschlussfahrt\" is the trip a class takes at the end of school. Herr Wagner, a teacher at a Gesamtschule in Dresden, is planning four days in Prague for his Year 10 class. In an email to the parents he uses formal connectors and passive alternatives.",
+          "\"Die Abschlussfahrt\" is the trip a class takes at the end of school. Herr Wagner, a teacher at a \"Gesamtschule\" (comprehensive school) in Dresden, is planning four days in Prague for his Year 10 class. In an email to the parents he uses formal connectors and passive alternatives.",
           "Look at how he packs information: \"Die Fahrt ist bis zum 15. März zu bezahlen\" (\"sein\" + \"zu\": must be paid), \"Die Unterkunft lässt sich noch kostenlos stornieren\" (\"sich lassen\": can be cancelled), \"Das Programm ist bereits geplant\" (Zustandspassiv).",
         ],
         examples: [
@@ -37,10 +37,10 @@ export const DE_B2_U18: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "The accommodation [can still be cancelled] free of charge.",
+            en: "The accommodation [can still be] cancelled free of charge.",
             sentence: "Die Unterkunft ___ kostenlos stornieren.",
             answer: "lässt sich noch",
-            explanation: "\"Sich lassen\" + infinitive expresses possibility.",
+            explanation: "\"Sich lassen\" + infinitive expresses possibility: \"lässt sich stornieren\" = can be cancelled. \"Noch\" (still) goes before the infinitive at the end.",
           },
         ],
       },
@@ -197,13 +197,13 @@ export const DE_B2_U18: Lesson[] = [
     level: "DE-B2",
     number: 2,
     title: "Transformations: From Informal to Formal Register",
-    summary: "Turn WhatsApp-style messages into formal emails: du → Sie, weil → aufgrund, außerdem → darüber hinaus, Funktionsverbgefüge and Konjunktiv II politeness.",
+    summary: "Turn WhatsApp-style messages into formal emails: \"du\" → \"Sie\", \"weil\" → \"aufgrund\", \"außerdem\" → \"darüber hinaus\", Funktionsverbgefüge and Konjunktiv II politeness.",
     duration: "15 min",
     sections: [
       {
         heading: "Address, greeting, closing",
         body: [
-          "A message to a colleague you're friendly with: \"Hi Jonas, kannst du mir kurz die Zahlen schicken? Danke dir! LG Mia\". To a client or an authority, everything changes: \"Sehr geehrter Herr Becker, könnten Sie mir bitte die aktuellen Zahlen zusenden? Vielen Dank im Voraus. Mit freundlichen Grüßen, Mia Schneider\".",
+          "A message to a colleague you're friendly with: \"Hi Jonas, kannst du mir kurz die Zahlen schicken? Danke dir! LG Mia\". To a client or an authority, everything changes: \"Sehr geehrter Herr Becker, könnten Sie mir bitte die aktuellen Zahlen zusenden? Vielen Dank im Voraus. Mit freundlichen Grüßen Mia Schneider\".",
           "The ripple effects of \"du\" → \"Sie\": the verb form (\"kannst du\" → \"können Sie\"), possessives (\"dein\" → \"Ihr\"), object pronouns (\"dir\" → \"Ihnen\"), and the imperative (\"Schick mir\" → \"Schicken Sie mir\"). \"Sie, Ihnen, Ihr\" are always capitalised.",
           "Greeting and closing: \"Sehr geehrte Frau ... / Sehr geehrter Herr ...\" (unknown recipient: \"Sehr geehrte Damen und Herren\"), the first word of the text in lowercase after the comma, and \"Mit freundlichen Grüßen\" without a comma after it.",
         ],
@@ -308,7 +308,7 @@ export const DE_B2_U18: Lesson[] = [
         prompt: "Translate into German (formal email).",
         source: "I have received your message.",
         answer: "Ich habe Ihre Nachricht erhalten.",
-        altAnswers: ["Ich habe Ihre E-Mail erhalten.", "Ihre Nachricht habe ich erhalten."],
+        altAnswers: ["Ich habe Ihre E-Mail erhalten.", "Ihre Nachricht habe ich erhalten.", "Ich habe Ihre Nachricht bekommen."],
         explanation: "Formal \"Ihre\" with a capital I; \"erhalten\" instead of \"kriegen\".",
       },
       {
@@ -335,7 +335,7 @@ export const DE_B2_U18: Lesson[] = [
         en: "[Thank you in advance] for your help.",
         sentence: "___ für Ihre Hilfe.",
         answer: "Vielen Dank im Voraus",
-        altAnswers: ["Herzlichen Dank im Voraus", "Besten Dank im Voraus"],
+        altAnswers: ["Herzlichen Dank im Voraus", "Besten Dank im Voraus", "Danke im Voraus"],
         explanation: "A fixed formal phrase.",
       },
       {
@@ -343,7 +343,7 @@ export const DE_B2_U18: Lesson[] = [
         question: "Which is the formal version of \"Sag mir kurz Bescheid, ob du kommst\"?",
         options: ["Bitte teilen Sie mir mit, ob Sie kommen.", "Bitte sagen Sie mir kurz Bescheid, ob du kommst.", "Teil mir bitte mit, ob Sie kommen.", "Bitte teilen sie mir mit, ob sie kommen."],
         correctIndex: 0,
-        explanation: "Consistent \"Sie\" (capitalised) and the formal verb \"mitteilen\".",
+        explanation: "Consistent \"Sie\" (capitalised) and the formal verb \"mitteilen\". The other options mix \"Sie\" with \"du\" forms (\"ob du kommst\", \"Teil mir mit\") or write \"sie\" in lowercase, which means 'they'.",
       },
       {
         type: "translate",
@@ -352,7 +352,7 @@ export const DE_B2_U18: Lesson[] = [
         source: "We have to make a decision by Monday.",
         answer: "Wir müssen bis Montag eine Entscheidung treffen.",
         altAnswers: ["Bis Montag müssen wir eine Entscheidung treffen.", "Wir müssen bis Montag eine Entscheidung fällen.", "Bis Montag müssen wir eine Entscheidung fällen."],
-        explanation: "Funktionsverbgefüge: \"eine Entscheidung treffen\", never \"*machen\".",
+        explanation: "Funktionsverbgefüge: \"eine Entscheidung treffen\", never \"*machen*\".",
       },
       {
         type: "word-order",
@@ -367,7 +367,7 @@ export const DE_B2_U18: Lesson[] = [
         prompt: "Translate into German (formal email).",
         source: "Unfortunately, I can't come because I'm ill.",
         answer: "Leider kann ich aufgrund einer Erkrankung nicht kommen.",
-        altAnswers: ["Leider kann ich nicht kommen, da ich krank bin.", "Da ich erkrankt bin, kann ich leider nicht kommen.", "Leider kann ich krankheitsbedingt nicht kommen.", "Leider kann ich nicht kommen, weil ich krank bin.", "Aufgrund einer Erkrankung kann ich leider nicht kommen.", "Ich kann leider nicht kommen, da ich krank bin.", "Ich kann leider nicht kommen, weil ich krank bin.", "Da ich krank bin, kann ich leider nicht kommen."],
+        altAnswers: ["Leider kann ich nicht kommen, da ich krank bin.", "Da ich erkrankt bin, kann ich leider nicht kommen.", "Leider kann ich krankheitsbedingt nicht kommen.", "Leider kann ich nicht kommen, weil ich krank bin.", "Aufgrund einer Erkrankung kann ich leider nicht kommen.", "Ich kann leider aufgrund einer Erkrankung nicht kommen.", "Ich kann aufgrund einer Erkrankung leider nicht kommen.", "Ich kann leider nicht kommen, da ich krank bin.", "Ich kann leider nicht kommen, weil ich krank bin.", "Da ich krank bin, kann ich leider nicht kommen."],
         explanation: "\"Aufgrund einer Erkrankung\" or \"krankheitsbedingt\" sound formal; \"da\" is fine too.",
       },
       {
@@ -453,6 +453,7 @@ export const DE_B2_U18: Lesson[] = [
             prompt: "Put the words in order to say: Otherwise I shall be forced to take legal action.",
             words: ["Andernfalls", "sehe", "ich", "mich", "gezwungen,", "rechtliche", "Schritte", "einzuleiten."],
             translation: "Otherwise I shall be forced to take legal action.",
+            altOrders: [["Ich", "sehe", "mich", "andernfalls", "gezwungen,", "rechtliche", "Schritte", "einzuleiten."]],
             explanation: "\"Andernfalls\" + verb + subject; \"sich gezwungen sehen\" = to feel forced.",
           },
         ],
@@ -530,10 +531,10 @@ export const DE_B2_U18: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is the most appropriate in a formal complaint?",
+        question: "In your formal complaint you demand your money back. Which sentence is the most appropriate?",
         options: ["Ich fordere Sie hiermit auf, mir das Geld zu erstatten.", "Gib mir sofort mein Geld zurück!", "Ihr müsst mir das Geld zurückgeben.", "Könntest du mir vielleicht das Geld zurückgeben?"],
         correctIndex: 0,
-        explanation: "Formal, firm and polite: \"Ich fordere Sie hiermit auf, ...\".",
+        explanation: "Formal, firm and polite: \"Ich fordere Sie hiermit auf, ...\". The others use \"du\" or \"ihr\" and an informal tone (a bare imperative, \"vielleicht\"), wrong for a letter to a company.",
       },
       {
         type: "translate",
@@ -558,8 +559,8 @@ export const DE_B2_U18: Lesson[] = [
         prompt: "Translate into German (formal letter).",
         source: "Although I cancelled in time, you continued to debit fees.",
         answer: "Obwohl ich fristgerecht gekündigt habe, haben Sie weiterhin Beiträge abgebucht.",
-        altAnswers: ["Obwohl ich rechtzeitig gekündigt habe, haben Sie weiterhin Beiträge abgebucht.", "Obwohl ich fristgerecht gekündigt habe, buchten Sie weiterhin Beiträge ab.", "Obwohl ich rechtzeitig gekündigt hatte, haben Sie weiterhin Beiträge abgebucht."],
-        explanation: "\"Obwohl\" + verb at the end, then verb-first main clause.",
+        altAnswers: ["Obwohl ich rechtzeitig gekündigt habe, haben Sie weiterhin Beiträge abgebucht.", "Obwohl ich fristgerecht gekündigt habe, buchten Sie weiterhin Beiträge ab.", "Obwohl ich rechtzeitig gekündigt hatte, haben Sie weiterhin Beiträge abgebucht.", "Sie haben weiterhin Beiträge abgebucht, obwohl ich fristgerecht gekündigt habe.", "Sie haben weiterhin Beiträge abgebucht, obwohl ich rechtzeitig gekündigt habe."],
+        explanation: "\"Obwohl\" + verb at the end; the clause fills position 1, so the main clause starts with its verb (\"haben Sie\").",
       },
       {
         type: "dictation",
@@ -617,7 +618,7 @@ export const DE_B2_U18: Lesson[] = [
       {
         heading: "The conversation",
         body: [
-          "Mehmet calls the landlord, Herr Krämer. He concedes some points and stands firm on others: \"Ich verstehe zwar, dass die Kosten gestiegen sind, aber zwölf Prozent sind zu viel.\" \"Die Lage ist gut, allerdings ist die Heizung seit Jahren nicht modernisiert worden.\"",
+          "Mehmet calls the landlord, Herr Krämer. He concedes some points and stands firm on others: \"Ich verstehe zwar, dass die Kosten gestiegen sind, aber zwölf Prozent sind zu viel.\" \"Die Lage ist gut, allerdings ist die Heizung nie modernisiert worden.\"",
           "He also reproaches politely with the double infinitive: \"Sie hätten uns früher informieren müssen.\" \"Die Abrechnung hätte bis Ende Dezember bei uns sein müssen.\"",
         ],
         examples: [
@@ -696,7 +697,7 @@ export const DE_B2_U18: Lesson[] = [
         prompt: "Translate into German.",
         source: "That can't be right, we hardly used the heating.",
         answer: "Das kann nicht stimmen, wir haben kaum geheizt.",
-        altAnswers: ["Das kann nicht sein, wir haben kaum geheizt.", "Das kann nicht stimmen, wir haben fast nicht geheizt."],
+        altAnswers: ["Das kann nicht sein, wir haben kaum geheizt.", "Das kann nicht stimmen, wir haben fast gar nicht geheizt."],
         explanation: "\"Kann nicht\" rules it out; \"heizen\" = to heat.",
       },
       {
@@ -737,6 +738,7 @@ export const DE_B2_U18: Lesson[] = [
         prompt: "Put the words in order to say: We agreed on six per cent.",
         words: ["Wir", "haben", "uns", "auf", "sechs", "Prozent", "geeinigt."],
         translation: "We agreed on six per cent.",
+        altOrders: [["Auf", "sechs", "Prozent", "haben", "wir", "uns", "geeinigt."]],
         explanation: "\"Sich einigen auf\" + accusative.",
       },
       {
@@ -746,7 +748,7 @@ export const DE_B2_U18: Lesson[] = [
         source: "If I hadn't called, we'd have paid too much.",
         answer: "Wenn ich nicht angerufen hätte, hätten wir zu viel bezahlt.",
         altAnswers: ["Hätte ich nicht angerufen, hätten wir zu viel bezahlt.", "Wir hätten zu viel bezahlt, wenn ich nicht angerufen hätte.", "Wenn ich nicht angerufen hätte, hätten wir zu viel gezahlt."],
-        explanation: "Unreal past in both halves.",
+        explanation: "Unreal past in both halves: \"angerufen hätte\" in the condition, \"hätten ... bezahlt\" in the result. Without \"wenn\", the clause starts with \"Hätte\".",
       },
       {
         type: "listen-choose",
@@ -769,7 +771,7 @@ export const DE_B2_U18: Lesson[] = [
     level: "DE-B2",
     number: 5,
     title: "Thematic Review: Zwischen zwei Ländern",
-    summary: "Emre, a Turkish-German engineer in Cologne, talks about identity, family and two languages: contrast connectors, als ob and the unreal past.",
+    summary: "Emre, a Turkish-German engineer in Cologne, talks about identity, family and two languages: contrast connectors, \"als ob\" and the unreal past.",
     duration: "15 min",
     sections: [
       {
@@ -957,13 +959,13 @@ export const DE_B2_U18: Lesson[] = [
     level: "DE-B2",
     number: 6,
     title: "Choose and Explain: The Right Connector",
-    summary: "Short argumentative texts with gaps: choose between deshalb, trotzdem, jedoch, zudem, folglich, nämlich and hingegen, and explain the logical link.",
+    summary: "Choose the right connector for short argumentative texts (\"deshalb\", \"trotzdem\", \"jedoch\", \"zudem\", \"folglich\", \"nämlich\", \"hingegen\") and explain the logical link.",
     duration: "14 min",
     sections: [
       {
         heading: "Ask: what's the logical link?",
         body: [
-          "Before choosing a connector, name the relationship between the two sentences. Cause → effect: \"deshalb, daher, folglich\". Effect ← cause (reason given second): \"denn, nämlich\". Expected → unexpected: \"trotzdem, dennoch\". Contrast between two things: \"hingegen, dagegen, während\". Restriction: \"jedoch, allerdings\". Addition: \"zudem, außerdem\".",
+          "Before choosing a connector, name the relationship between the two sentences. Cause → effect: \"deshalb, daher, folglich\". Effect ← cause (reason given second): \"denn, nämlich\". Expected → unexpected: \"trotzdem, dennoch\". Contrast between two things: \"hingegen, dagegen, während\". Restriction: \"jedoch, allerdings\". Addition: \"zudem, außerdem\". A drawback balanced by an advantage: \"dafür\".",
           "Example: \"Das Hotel war günstig. ___ war das Frühstück hervorragend.\" Both are positives, so it's addition: \"Zudem\". \"Das Hotel war günstig. ___ war es schmutzig\": positive then negative, so restriction: \"Allerdings\" or \"Jedoch\".",
         ],
         examples: [
@@ -996,7 +998,7 @@ export const DE_B2_U18: Lesson[] = [
         heading: "Cause first or reason second?",
         body: [
           "\"Deshalb\" looks back: the cause came first, the consequence follows. \"Nämlich\" and \"denn\" look forward: the result came first, the reason follows. \"Ich war krank, deshalb bin ich zu Hause geblieben\" = \"Ich bin zu Hause geblieben, denn ich war krank\" = \"Ich bin zu Hause geblieben, ich war nämlich krank.\"",
-          "A typical mistake is reversing the logic: \"*Ich bin zu Hause geblieben, deshalb war ich krank\" (as if staying home made you ill).",
+          "A typical mistake is reversing the logic: \"*Ich bin zu Hause geblieben, deshalb war ich krank*\" (as if staying home made you ill).",
         ],
         examples: [
           { es: "Ich war krank, deshalb bin ich zu Hause geblieben.", en: "I was ill, so I stayed at home." },
@@ -1036,7 +1038,7 @@ export const DE_B2_U18: Lesson[] = [
           { es: "Ich bin Vegetarier, trotzdem koche ich für ihn Fleisch.", en: "I'm a vegetarian, but I still cook meat for him." },
           { es: "Im Norden regnet es, im Süden dagegen scheint die Sonne.", en: "In the north it's raining; in the south, by contrast, the sun is shining." },
           { es: "Es regnete, dennoch fand das Fest statt.", en: "It rained; nevertheless, the festival went ahead." },
-          { es: "Während die Jüngeren online einkaufen, gehen die Älteren lieber ins Geschäft.", en: "While young people shop online, older people prefer to go to the shop." },
+          { es: "Während die Jüngeren online einkaufen, gehen die Älteren lieber ins Geschäft.", en: "While younger people shop online, older people prefer to go to a shop." },
         ],
         checkpoint: [
           {
@@ -1169,7 +1171,7 @@ export const DE_B2_U18: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Leon wrote \"*Zunächst man verdient eigenes Geld.\" Write the correct German for: First of all, you earn your own money.",
+            prompt: "Leon wrote \"*Zunächst man verdient eigenes Geld.*\" Write the correct German for: First of all, you earn your own money.",
             source: "First of all, you earn your own money.",
             answer: "Zunächst verdient man eigenes Geld.",
             altAnswers: ["Zunächst verdient man sein eigenes Geld.", "Erstens verdient man eigenes Geld.", "Erstens verdient man sein eigenes Geld."],
@@ -1178,7 +1180,7 @@ export const DE_B2_U18: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Leon wrote \"*Zudem, man sammelt Berufserfahrung.\" Write the correct German for: Moreover, you gain work experience.",
+            prompt: "Leon wrote \"*Zudem, man sammelt Berufserfahrung.*\" Write the correct German for: Moreover, you gain work experience.",
             source: "Moreover, you gain work experience.",
             answer: "Zudem sammelt man Berufserfahrung.",
             altAnswers: ["Außerdem sammelt man Berufserfahrung.", "Man sammelt zudem Berufserfahrung.", "Man sammelt außerdem Berufserfahrung."],
@@ -1212,7 +1214,7 @@ export const DE_B2_U18: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is the correct version of \"*Nämlich viele arbeiten zwanzig Stunden\"?",
+            question: "Which is the correct version of \"*Nämlich viele arbeiten zwanzig Stunden*\"?",
             options: ["Viele arbeiten nämlich zwanzig Stunden.", "Nämlich arbeiten viele zwanzig Stunden.", "Nämlich, viele arbeiten zwanzig Stunden.", "Viele nämlich zwanzig Stunden arbeiten."],
             correctIndex: 0,
             explanation: "\"Nämlich\" goes after the verb, in the middle of the clause; it can't fill position 1 of a main clause.",
@@ -1297,7 +1299,7 @@ export const DE_B2_U18: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Leon wrote \"*Trotzdem ich arbeite gern.\" Write the correct German for: I still enjoy working.",
+        prompt: "Leon wrote \"*Trotzdem ich arbeite gern.*\" Write the correct German for: I still enjoy working.",
         source: "I still enjoy working.",
         answer: "Trotzdem arbeite ich gern.",
         altAnswers: ["Ich arbeite trotzdem gern.", "Dennoch arbeite ich gern.", "Ich arbeite dennoch gern.", "Trotzdem arbeite ich gerne."],
@@ -1341,7 +1343,7 @@ export const DE_B2_U18: Lesson[] = [
     level: "DE-B2",
     number: 8,
     title: "Thematic Review: Der digitale Nachlass",
-    summary: "What happens to our accounts after death: connectors, passive alternatives such as das Konto lässt sich nicht löschen, and Futur II.",
+    summary: "What happens to our accounts after death: connectors, passive alternatives such as \"Das Konto lässt sich nicht löschen\", and Futur II.",
     duration: "15 min",
     sections: [
       {
@@ -1529,13 +1531,13 @@ export const DE_B2_U18: Lesson[] = [
     level: "DE-B2",
     number: 9,
     title: "Sentence by Sentence: Ein Forumsbeitrag",
-    summary: "Build a Goethe B2 Schreiben Teil 1-style forum post of about 150 words: opinion, reasons and examples, a counter-argument, conclusion.",
+    summary: "Build a forum post of about 150 words in the style of Goethe B2 Schreiben, part 1: opinion, reasons and examples, a counter-argument, conclusion.",
     duration: "15 min",
     sections: [
       {
         heading: "The task and your opening",
         body: [
-          "In the Goethe-Zertifikat B2, Schreiben Teil 1 asks you to write a forum post of about 150 words on a topic, for example: \"Sollten Smartphones an Schulen verboten werden?\" You read other people's posts first, then give your opinion with reasons and examples, and react to a different view.",
+          "In the Goethe-Zertifikat B2, Schreiben, part 1 asks you to write a forum post of about 150 words on a topic, for example: \"Sollten Smartphones an Schulen verboten werden?\" You read other people's posts first, then give your opinion with reasons and examples, and react to a different view.",
           "Open by stating the topic and your view: \"In diesem Forum wird gerade diskutiert, ob ...\" (the forum is discussing whether ...), \"Ich bin der Meinung, dass ...\", \"Meiner Ansicht nach ...\", \"Ich persönlich finde, dass ...\".",
         ],
         examples: [
@@ -1594,7 +1596,7 @@ export const DE_B2_U18: Lesson[] = [
             prompt: "Put the words in order to say: At my school, for example, there was a phone ban.",
             words: ["An", "meiner", "Schule", "gab", "es", "zum", "Beispiel", "ein", "Handyverbot."],
             translation: "At my school, for example, there was a phone ban.",
-            altOrders: [["Zum", "Beispiel", "gab", "es", "an", "meiner", "Schule", "ein", "Handyverbot."]],
+            altOrders: [["Zum", "Beispiel", "gab", "es", "an", "meiner", "Schule", "ein", "Handyverbot."], ["An", "meiner", "Schule", "zum", "Beispiel", "gab", "es", "ein", "Handyverbot."]],
             explanation: "Place phrase in position 1, verb \"gab\" second; \"zum Beispiel\" in the Mittelfeld.",
           },
         ],
@@ -1603,7 +1605,7 @@ export const DE_B2_U18: Lesson[] = [
         heading: "Counter-argument and conclusion",
         body: [
           "React to another view: \"Natürlich kann man einwenden, dass ...\" (Of course one could object that ...), \"Einige meinen, dass ...; allerdings ...\", \"Ich verstehe zwar das Argument von ..., aber ...\".",
-          "Conclude: \"Alles in allem bin ich der Meinung, dass ...\", \"Abschließend möchte ich sagen, dass ...\", \"Deshalb / Folglich spreche ich mich für ... aus.\" (sich aussprechen für = to come out in favour of).",
+          "Conclude: \"Alles in allem bin ich der Meinung, dass ...\", \"Abschließend möchte ich sagen, dass ...\", \"Deshalb / Folglich spreche ich mich für ... aus.\" (\"sich aussprechen für\" = to come out in favour of).",
         ],
         examples: [
           { es: "Natürlich kann man einwenden, dass Handys im Notfall wichtig sind.", en: "Of course one could object that phones are important in an emergency." },
@@ -1699,6 +1701,7 @@ export const DE_B2_U18: Lesson[] = [
         prompt: "Put the words in order to say: Personally I find a total ban excessive.",
         words: ["Ich", "persönlich", "finde", "ein", "komplettes", "Verbot", "übertrieben."],
         translation: "Personally I find a total ban excessive.",
+        altOrders: [["Ein", "komplettes", "Verbot", "finde", "ich", "persönlich", "übertrieben."]],
         explanation: "\"Ich persönlich\" counts as one element in position 1.",
       },
       {
@@ -2100,7 +2103,7 @@ export const DE_B2_U18: Lesson[] = [
       {
         heading: "Training and volunteering",
         body: [
-          "From the Ausbildung and Ehrenamt lessons: \"die Ausbildung\" (vocational training), \"der/die Auszubildende\" (\"Azubi\"), \"der Ausbildungsbetrieb\", \"die Berufsschule\", \"das duale Studium\", \"die Aufstiegschancen\" (career prospects). Volunteering: \"das Ehrenamt\", \"ehrenamtlich\", \"sich engagieren für\" (to be involved in, to volunteer for), \"die Tafel\" (food bank), \"spenden\" (to donate).",
+          "From the \"Ausbildung\" and \"Ehrenamt\" lessons: \"die Ausbildung\" (vocational training), \"der/die Auszubildende\" (\"Azubi\"), \"der Ausbildungsbetrieb\", \"die Berufsschule\", \"das duale Studium\", \"die Aufstiegschancen\" (career prospects). Volunteering: \"das Ehrenamt\", \"ehrenamtlich\", \"sich engagieren für\" (to be involved in, to volunteer for), \"die Tafel\" (food bank), \"spenden\" (to donate).",
           "\"Sich engagieren\" is a false-friend trap: it means to commit oneself / be active, not to get engaged (that's \"sich verloben\").",
         ],
         examples: [
@@ -2123,10 +2126,10 @@ export const DE_B2_U18: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "After school he [trained as an electrician].",
+            en: "After school he did an [apprenticeship as an electrician].",
             sentence: "Nach der Schule hat er eine ___ gemacht.",
             answer: "Ausbildung zum Elektriker",
-            explanation: "\"Eine Ausbildung zum/zur ... machen\" = to train as.",
+            explanation: "\"Eine Ausbildung zum/zur ... machen\" = to train as, do an apprenticeship as: \"zum\" (zu dem) for a masculine job title, \"zur\" for a feminine one (\"zur Elektrikerin\").",
           },
         ],
       },
@@ -2427,11 +2430,11 @@ export const DE_B2_U18: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "He asks [that you let him know] by Thursday.",
+        en: "He asks [that you] let him know by Thursday.",
         sentence: "Er bittet, ___ ihm bis Donnerstag Bescheid geben.",
         answer: "Sie mögen",
         altAnswers: ["Sie möchten"],
-        explanation: "Formal reported request: \"mögen\" in Konjunktiv I (same as indicative here, but the standard formula).",
+        explanation: "Formal reported request: \"Sie mögen\" (Konjunktiv I, identical to the indicative here, but the standard formula); \"Sie möchten\" is the common alternative. The verb \"geben\" stays at the end, as the sentence shows.",
       },
       {
         type: "multiple-choice",
@@ -2474,7 +2477,7 @@ export const DE_B2_U18: Lesson[] = [
 
 export const DE_B2_U18_WRITING: WriteExercise = {
   type: "write",
-  prompt: "An online forum asks: \"Sollte die Viertagewoche gesetzlich eingeführt werden?\" Write a forum post in the style of the Goethe B2 exam (Schreiben Teil 1): state your opinion, give two reasons with an example, respond to a counter-argument, and conclude.",
+  prompt: "An online forum asks: \"Sollte die Viertagewoche gesetzlich eingeführt werden?\" Write a forum post in the style of the Goethe B2 exam (Schreiben, part 1): state your opinion, give two reasons with an example, respond to a counter-argument, and conclude.",
   minWords: 120,
   maxWords: 220,
   rubric: [

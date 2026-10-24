@@ -8,7 +8,7 @@ export const DE_B2_U07: Lesson[] = [
     level: "DE-B2",
     number: 1,
     title: "Extended Participle Phrases, Part 1 of 2",
-    summary: "Use participles as adjectives with normal endings, then load them with their own objects and adverbs: die gestern reparierte Brücke, die von ihm geschriebene Mail.",
+    summary: "Use participles as adjectives with normal endings, then load them with their own objects and adverbs: \"die gestern reparierte Brücke\", \"die von ihm geschriebene Mail\".",
     duration: "16 min",
     sections: [
       {
@@ -52,7 +52,7 @@ export const DE_B2_U07: Lesson[] = [
           "Here's where German goes further than English. A participle before a noun can carry its own adverbs, objects and prepositional phrases, and all of them go between the article and the participle: \"die gestern reparierte Brücke\" (the bridge repaired yesterday), \"der seit Jahren leerstehende Bahnhof\" (the station that has stood empty for years), \"die von ihm geschriebene Mail\" (the email written by him).",
           "English puts this extra information after the noun: the bridge repaired yesterday, the email written by him. German packs it in front, so the noun comes last. The whole block between the article and the noun is one big adjective. That's why these phrases are called extended attributes (\"erweiterte Partizipialattribute\").",
           "Inside the block, the order is the same as in a subordinate clause, with the participle in the place where the verb would be: \"die Brücke, die gestern repariert wurde\" → \"die gestern reparierte Brücke\". The agent with \"von\" + Dativ comes from the passive: \"die Mail, die von ihm geschrieben wurde\" → \"die von ihm geschriebene Mail\".",
-          "The article agrees with the noun at the end, not with anything in between: \"der\" goes with \"Bahnhof\", even though several words separate them. That's the main trap: \"das gestern gekaufte Buch\" is right, but learners write \"*der gestern gekaufte Buch\" because they lose track of the noun.",
+          "The article agrees with the noun at the end, not with anything in between: \"der\" goes with \"Bahnhof\", even though several words separate them. That's the main trap: \"das gestern gekaufte Buch\" is right, but learners write \"*der gestern gekaufte Buch*\" because they lose track of the noun.",
         ],
         examples: [
           { es: "Die gestern reparierte Brücke ist wieder gesperrt.", en: "The bridge that was repaired yesterday is closed again." },
@@ -161,7 +161,7 @@ export const DE_B2_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which phrase is correct?",
+        question: "Which is the German for: the book bought yesterday?",
         options: ["das gestern gekaufte Buch", "der gestern gekaufte Buch", "das gestern gekauft Buch", "das gekaufte gestern Buch"],
         correctIndex: 0,
         explanation: "The article agrees with \"Buch\" (neuter): \"das\". The participle needs its ending, and \"gestern\" goes before it.",
@@ -209,7 +209,7 @@ export const DE_B2_U07: Lesson[] = [
         type: "speak",
         text: "Der seit Jahren leerstehende Bahnhof wird jetzt verkauft.",
         prompt: "Say it in German: The station that has stood empty for years is now being sold.",
-        tip: "Pause slightly after the article and before the noun to keep the long phrase together: der / seit Jahren leerstehende / Bahnhof.",
+        tip: "Pause slightly after the article and before the noun to keep the long phrase together: \"der / seit Jahren leerstehende / Bahnhof\".",
         explanation: "Article + \"seit Jahren\" + Partizip I + noun, then the verb second.",
       },
     ],
@@ -431,7 +431,7 @@ export const DE_B2_U07: Lesson[] = [
     level: "DE-B2",
     number: 3,
     title: "Thematic Review: Die stillgelegte Zeche",
-    summary: "A former coal mine in Essen becomes a museum: participle attributes, the Zustandspassiv and the unreal past in a story of Strukturwandel im Ruhrgebiet.",
+    summary: "A former coal mine in Essen becomes a museum: participle attributes, the Zustandspassiv and the unreal past in a story of \"Strukturwandel im Ruhrgebiet\".",
     duration: "16 min",
     sections: [
       {
@@ -439,7 +439,7 @@ export const DE_B2_U07: Lesson[] = [
         body: [
           "The Ruhrgebiet (Ruhr area) in western Germany was for over a century Europe's biggest coal and steel region. The last coal mine closed in 2018. What happens to a region when its industry disappears? Germans call it \"Strukturwandel\": structural change.",
           "Read: \"Die 1986 stillgelegte Zeche Zollverein in Essen ist heute ein Museum und gehört seit 2001 zum UNESCO-Welterbe. Die im Bauhaus-Stil entworfenen Gebäude sind weltberühmt, und Zollverein gilt als die schönste Zeche der Welt. Wo früher Tausende Bergleute arbeiteten, kommen heute jährlich über eine Million Besucher.\"",
-          "\"Die Zeche\" = the coal mine, \"stilllegen\" = to shut down (a mine, a factory, a railway line), \"der Bergmann, die Bergleute\" = miner(s). Since the 2006 reform the infinitive \"stilllegen\" has three l's (still + legen); the participle \"stillgelegt\" has two in a row.",
+          "\"Die Zeche\" = the coal mine, \"stilllegen\" = to shut down (a mine, a factory, a railway line), \"der Bergmann, die Bergleute\" = miner(s). Since the spelling reform the infinitive \"stilllegen\" has three l's (still + legen); the participle \"stillgelegt\" has two in a row.",
         ],
         examples: [
           { es: "Die 1986 stillgelegte Zeche ist heute ein Museum.", en: "The mine, which was shut down in 1986, is a museum today." },
@@ -677,7 +677,7 @@ export const DE_B2_U07: Lesson[] = [
         heading: "Passive and completed → Partizip II",
         body: [
           "If the relative clause is passive, use Partizip II and drop \"werden\": \"das Paket, das gestern geliefert wurde\" → \"das gestern gelieferte Paket\". The tense of the passive doesn't matter: \"das Paket, das geliefert wird / wurde / worden ist\" all become \"das gelieferte Paket\". Time adverbs make the timing clear.",
-          "If the relative clause is active but uses a sein-verb in the Perfekt, also Partizip II: \"der Gast, der gestern angekommen ist\" → \"der gestern angekommene Gast\". This only works with sein-verbs. With haben-verbs, Partizip II is passive: \"der Mann, der das Buch geschrieben hat\" can't become \"*der das Buch geschriebene Mann\".",
+          "If the relative clause is active but uses a sein-verb in the Perfekt, also Partizip II: \"der Gast, der gestern angekommen ist\" → \"der gestern angekommene Gast\". This only works with sein-verbs. With haben-verbs, Partizip II is passive: \"der Mann, der das Buch geschrieben hat\" can't become \"*der das Buch geschriebene Mann*\".",
           "So the decision tree: active + same time → Partizip I. Passive → Partizip II. Active + completed + sein-verb → Partizip II. Active + completed + haben-verb → keep the relative clause.",
         ],
         examples: [
@@ -703,7 +703,7 @@ export const DE_B2_U07: Lesson[] = [
             question: "Which relative clause cannot be turned into a participle phrase?",
             options: ["der Mann, der das Buch geschrieben hat", "das Buch, das von ihm geschrieben wurde", "der Mann, der gerade schreibt", "der Mann, der gestern abgereist ist"],
             correctIndex: 0,
-            explanation: "Active + completed + haben-verb: \"geschrieben\" before a noun is always passive, so \"*der das Buch geschriebene Mann\" is impossible.",
+            explanation: "Active + completed + haben-verb: \"geschrieben\" before a noun is always passive, so \"*der das Buch geschriebene Mann*\" is impossible.",
           },
           {
             type: "listen-choose",
@@ -844,7 +844,7 @@ export const DE_B2_U07: Lesson[] = [
     level: "DE-B2",
     number: 5,
     title: "Minimal Pairs: Der begeisternde / Der begeisterte Lehrer",
-    summary: "Partizip I means doing (ein begeisternder Lehrer, die steigenden Preise), Partizip II means done or affected (ein begeisterter Lehrer, die gestiegenen Preise).",
+    summary: "Partizip I means doing (\"ein begeisternder Lehrer\", \"die steigenden Preise\"), Partizip II means done or affected (\"ein begeisterter Lehrer\", \"die gestiegenen Preise\").",
     duration: "14 min",
     sections: [
       {
@@ -1044,7 +1044,7 @@ export const DE_B2_U07: Lesson[] = [
         type: "speak",
         text: "Ein begeisternder Lehrer hat begeisterte Schüler.",
         prompt: "Say it in German: An inspiring teacher has enthusiastic students.",
-        tip: "Make the difference audible: be-GEIS-tern-der vs be-GEIS-ter-te.",
+        tip: "Make the difference audible: \"begeisternder\" (be-GEIS-tern-der) vs \"begeisterte\" (be-GEIS-ter-te).",
         explanation: "Partizip I (he inspires) and Partizip II (they are inspired) side by side.",
       },
     ],
@@ -1054,7 +1054,7 @@ export const DE_B2_U07: Lesson[] = [
     level: "DE-B2",
     number: 6,
     title: "Spiral Review: Dictation: Sich lassen and Sein zu",
-    summary: "Spaced review of Units 5-6: hear and write passive alternatives with sich lassen, sein + zu and the Zustandspassiv.",
+    summary: "Spaced review of Units 5-6: hear and write passive alternatives with \"sich lassen\", \"sein\" + \"zu\" and the Zustandspassiv.",
     duration: "12 min",
     sections: [
       {
@@ -1115,7 +1115,7 @@ export const DE_B2_U07: Lesson[] = [
           {
             type: "speak",
             text: "Das Formular ist vollständig auszufüllen.",
-            tip: "Stress the prefix: AUS-zu-fül-len.",
+            tip: "Stress the prefix of \"auszufüllen\": AUS-zu-fül-len.",
             explanation: "Obligation with sein + zu; zu inside the separable verb.",
           },
         ],
@@ -1216,7 +1216,7 @@ export const DE_B2_U07: Lesson[] = [
     level: "DE-B2",
     number: 7,
     title: "Extended Participle Phrases, Part 2 of 2",
-    summary: "The gerundive zu + Partizip I (die noch zu erledigenden Aufgaben), stacked attributes, and reading long noun phrases step by step.",
+    summary: "The gerundive \"zu\" + Partizip I (\"die noch zu erledigenden Aufgaben\"), stacked attributes, and reading long noun phrases step by step.",
     duration: "16 min",
     sections: [
       {
@@ -1467,7 +1467,7 @@ export const DE_B2_U07: Lesson[] = [
         body: [
           "Lead 3: \"Die im vergangenen Jahr stark gestiegenen Energiepreise belasten weiterhin viele Haushalte.\" Noun: \"Energiepreise\". Middle: \"im vergangenen Jahr stark gestiegen\" (sein-verb, so active: which rose sharply last year). \"Belasten\" = to be a burden on.",
           "Lead 4: \"Die von der Regierung angekündigte Reform des Rentensystems stößt auf Kritik.\" Noun: \"Reform\" (then a genitive: of the pension system). Middle: \"von der Regierung angekündigt\" (announced by the government). \"Auf Kritik stoßen\" = to meet with criticism.",
-          "Lead 5: \"Die Zahl der in Deutschland lebenden Menschen ist auf über 84 Millionen gestiegen.\" Here the participle phrase sits inside a genitive: \"der in Deutschland lebenden Menschen\" (of the people living in Germany). Article \"der\" (genitive plural) → noun \"Menschen\".",
+          "Lead 5: \"Die Zahl der in Deutschland lebenden Menschen ist auf über 83 Millionen gestiegen.\" Here the participle phrase sits inside a genitive: \"der in Deutschland lebenden Menschen\" (of the people living in Germany). Article \"der\" (genitive plural) → noun \"Menschen\".",
         ],
         examples: [
           { es: "Die stark gestiegenen Energiepreise belasten viele Haushalte.", en: "The sharply increased energy prices are a burden on many households." },
@@ -1631,7 +1631,7 @@ export const DE_B2_U07: Lesson[] = [
     level: "DE-B2",
     number: 9,
     title: "Real-World Mission: Die Wohnungsanzeige",
-    summary: "Read and write flat ads with participle attributes and their abbreviations: frisch renovierte, verkehrsgünstig gelegene 3-Zimmer-Wohnung, ab sofort zu vermieten.",
+    summary: "Read and write flat ads with participle attributes and their abbreviations: \"frisch renovierte, verkehrsgünstig gelegene 3-Zimmer-Wohnung, ab sofort zu vermieten\".",
     duration: "16 min",
     sections: [
       {
@@ -1683,7 +1683,7 @@ export const DE_B2_U07: Lesson[] = [
         examples: [
           { es: "Liebevoll sanierte, ruhig gelegene 2-Zimmer-Wohnung mit Balkon.", en: "Lovingly refurbished, quietly located 2-room flat with balcony." },
           { es: "Die Wohnung verfügt über einen frisch abgeschliffenen Dielenboden.", en: "The flat has freshly sanded floorboards." },
-          { es: "Die 2022 eingebaute Küche wird übernommen.", en: "The kitchen installed in 2022 is included." },
+          { es: "Die 2022 eingebaute Küche kann übernommen werden.", en: "The kitchen installed in 2022 can be taken over." },
           { es: "Die zu zahlende Kaution beträgt drei Kaltmieten.", en: "The deposit payable is three months' basic rent." },
           { es: "Besichtigungstermine nach Vereinbarung.", en: "Viewings by appointment." },
         ],
@@ -1770,10 +1770,10 @@ export const DE_B2_U07: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The kitchen [installed] in 2022 is included.",
-        sentence: "Die 2022 ___ Küche wird übernommen.",
+        en: "The kitchen [installed] in 2022 can be taken over.",
+        sentence: "Die 2022 ___ Küche kann übernommen werden.",
         answer: "eingebaute",
-        explanation: "\"Einbauen\" → \"eingebaut\" + -e after die (nominative).",
+        explanation: "\"Einbauen\" → \"eingebaut\" + -e after die (nominative). \"Übernehmen\" in an ad: the new tenant can take the kitchen over, often for a fee (\"Ablöse\").",
       },
       {
         type: "translate",

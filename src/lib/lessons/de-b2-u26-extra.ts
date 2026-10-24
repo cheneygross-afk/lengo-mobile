@@ -32,7 +32,7 @@ export const DE_B2_U26_EXTRA: Lesson[] = [
             prompt: "Translate into German.",
             source: "I agree with you there. (formal)",
             answer: "Da stimme ich Ihnen zu.",
-            altAnswers: ["Da bin ich mit Ihnen einverstanden.", "Da bin ich Ihrer Meinung.", "Ich stimme Ihnen da zu."],
+            altAnswers: ["Da bin ich mit Ihnen einverstanden.", "Da bin ich Ihrer Meinung.", "Ich stimme Ihnen da zu.", "Da gebe ich Ihnen recht."],
             explanation: "\"Zustimmen\" + dative \"Ihnen\"; \"da\" in position 1 puts the verb second.",
           },
           {
@@ -131,7 +131,7 @@ export const DE_B2_U26_EXTRA: Lesson[] = [
         en: "She [holds] the view that school should start later.",
         sentence: "Sie ___ den Standpunkt, dass die Schule später beginnen sollte.",
         answer: "vertritt",
-        explanation: "\"Einen Standpunkt vertreten\" (strong verb: \"vertritt\").",
+        explanation: "\"Einen Standpunkt vertreten\" = to hold a view. \"Vertreten\" is strong (e → i): \"sie vertritt\". \"*Sie hält den Standpunkt*\" is a literal translation from English.",
       },
       {
         type: "translate",
@@ -258,15 +258,15 @@ export const DE_B2_U26_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "The doctor took a blood sample.",
         answer: "Die Ärztin hat eine Blutprobe genommen.",
-        altAnswers: ["Der Arzt hat eine Blutprobe genommen.", "Die Ärztin nahm eine Blutprobe.", "Der Arzt nahm eine Blutprobe.", "Der Arzt hat Blut abgenommen.", "Die Ärztin hat Blut abgenommen."],
+        altAnswers: ["Der Arzt hat eine Blutprobe genommen.", "Die Ärztin nahm eine Blutprobe.", "Der Arzt nahm eine Blutprobe.", "Der Arzt hat Blut abgenommen.", "Die Ärztin hat Blut abgenommen.", "Der Arzt hat eine Blutprobe entnommen.", "Die Ärztin hat eine Blutprobe entnommen."],
         explanation: "\"Die Probe\" = sample here: \"eine Blutprobe nehmen\".",
       },
       {
         type: "multiple-choice",
-        question: "Who directs a play?",
-        options: ["der Regisseur", "der Dirigent", "der Direktor", "der Schaffner"],
+        question: "You want to say: 'A young director staged the play.' Which sentence is right?",
+        options: ["Ein junger Regisseur hat das Stück inszeniert.", "Ein junger Dirigent hat das Stück inszeniert.", "Ein junger Direktor hat das Stück inszeniert.", "Ein junger Schaffner hat das Stück inszeniert."],
         correctIndex: 0,
-        explanation: "Theatre and film directors are \"Regisseure\"; \"der Dirigent\" conducts music.",
+        explanation: "Theatre and film directors are \"Regisseure\"; \"der Dirigent\" conducts music, \"der Direktor\" heads a school or company, and \"der Schaffner\" checks tickets on a train.",
       },
       {
         type: "translate",
@@ -274,7 +274,7 @@ export const DE_B2_U26_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "The critic didn't like the production.",
         answer: "Dem Kritiker hat die Inszenierung nicht gefallen.",
-        altAnswers: ["Die Inszenierung hat dem Kritiker nicht gefallen.", "Der Kritiker mochte die Inszenierung nicht.", "Der Kritikerin hat die Inszenierung nicht gefallen.", "Die Kritikerin mochte die Inszenierung nicht.", "Dem Kritiker gefiel die Inszenierung nicht."],
+        altAnswers: ["Die Inszenierung hat dem Kritiker nicht gefallen.", "Der Kritiker mochte die Inszenierung nicht.", "Der Kritikerin hat die Inszenierung nicht gefallen.", "Die Kritikerin mochte die Inszenierung nicht.", "Dem Kritiker gefiel die Inszenierung nicht.", "Die Inszenierung hat der Kritikerin nicht gefallen.", "Der Kritikerin gefiel die Inszenierung nicht."],
         explanation: "\"Gefallen\" + dative: the critic is \"dem Kritiker\"; the production is the subject.",
       },
       {
@@ -292,7 +292,7 @@ export const DE_B2_U26_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "There was a round of introductions at the start.",
         answer: "Am Anfang gab es eine Vorstellungsrunde.",
-        altAnswers: ["Zu Beginn gab es eine Vorstellungsrunde."],
+        altAnswers: ["Zu Beginn gab es eine Vorstellungsrunde.", "Es gab am Anfang eine Vorstellungsrunde.", "Am Anfang gab es eine Runde, in der sich alle vorgestellt haben."],
         explanation: "\"Die Vorstellungsrunde\": everyone introduces themselves (\"sich vorstellen\").",
       },
       {

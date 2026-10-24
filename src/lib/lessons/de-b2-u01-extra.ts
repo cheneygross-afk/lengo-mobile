@@ -9,7 +9,7 @@ export const DE_B2_U01_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Forming Hätte / Wäre + Partizip II",
-    summary: "Build the unreal past with strong, weak, separable and inseparable verbs: hätte verstanden, wäre aufgewacht.",
+    summary: "Build the unreal past with strong, weak, separable and inseparable verbs: \"hätte verstanden\", \"wäre aufgewacht\".",
     duration: "12 min",
     sections: [
       {
@@ -87,7 +87,7 @@ export const DE_B2_U01_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "He would have forgotten the appointment.",
         answer: "Er hätte den Termin vergessen.",
-        explanation: "\"Vergessen\": inseparable, so the participle is the same as the infinitive.",
+        explanation: "\"Vergessen\": inseparable (no ge) and strong with no vowel change, so the participle looks like the infinitive.",
       },
       {
         type: "translate",
@@ -120,7 +120,7 @@ export const DE_B2_U01_EXTRA: Lesson[] = [
         question: "How do you say: We would have invited you.",
         options: ["Wir hätten dich eingeladen.", "Wir hätten dich geeinladen.", "Wir hätten dich eingeladet.", "Wir wären dich eingeladen."],
         correctIndex: 0,
-        explanation: "\"Einladen\": separable and strong, \"eingeladen\"; it has an object, so hätte.",
+        explanation: "\"Einladen\": separable and strong, \"eingeladen\"; it has an object, so \"hätte\".",
       },
       {
         type: "word-order",
@@ -167,7 +167,7 @@ export const DE_B2_U01_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Haben or Sein?",
-    summary: "Choose hätte or wäre with verbs of movement, change of state, and transitive fahren, fliegen and laufen.",
+    summary: "Choose \"hätte\" or \"wäre\" with verbs of movement and change of state, and with \"fahren\", \"fliegen\" and \"laufen\" when they take an object.",
     duration: "12 min",
     sections: [
       {
@@ -295,7 +295,7 @@ export const DE_B2_U01_EXTRA: Lesson[] = [
           { left: "Ich wäre eingeschlafen.", right: "I would have fallen asleep." },
           { left: "Ich hätte geschlafen.", right: "I would have slept." },
         ],
-        explanation: "Movement and change of state take wäre; a direct object or a state takes hätte.",
+        explanation: "Movement and change of state take \"wäre\"; a direct object or a state takes \"hätte\".",
       },
       {
         type: "translate",
@@ -328,7 +328,7 @@ export const DE_B2_U01_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Wishes with Doch, Nur and Bloß",
-    summary: "Turn complaints into past wishes: Ich habe den Schirm vergessen → Hätte ich bloß den Schirm mitgenommen!",
+    summary: "Turn complaints into past wishes: \"Ich habe den Schirm vergessen\" → \"Hätte ich bloß den Schirm mitgenommen!\"",
     duration: "12 min",
     sections: [
       {
@@ -572,7 +572,7 @@ export const DE_B2_U01_EXTRA: Lesson[] = [
         en: "Without the delay we [would have] caught the connection.",
         sentence: "Ohne die Verspätung ___ wir den Anschluss erreicht.",
         answer: "hätten",
-        explanation: "\"Erreichen\" has an object: hätte. \"Ohne\" + noun replaces the condition.",
+        explanation: "\"Erreichen\" has an object: \"hätte\". \"Ohne\" + noun replaces the condition.",
       },
       {
         type: "fill-blank",
@@ -637,7 +637,7 @@ export const DE_B2_U01_EXTRA: Lesson[] = [
     number: 5,
     optional: true,
     title: "Extra Practice: Mixed Conditionals",
-    summary: "Past cause, present result and the reverse: Wenn ich nicht umgezogen wäre, würde ich ihn noch kennen.",
+    summary: "Combine a past cause with a present result and the reverse: \"Wenn ich nicht umgezogen wäre, würde ich ihn noch kennen.\"",
     duration: "12 min",
     sections: [
       {
@@ -793,7 +793,7 @@ export const DE_B2_U01_EXTRA: Lesson[] = [
     number: 6,
     optional: true,
     title: "Extra Practice: Dictation of the Unreal Past",
-    summary: "Hear and write sentences with hätte and wäre, and catch the umlaut that separates hätte from hatte and wäre from war.",
+    summary: "Hear and write sentences with \"hätte\" and \"wäre\", and catch the umlaut that separates \"hätte\" from \"hatte\" and \"wäre\" from \"war\".",
     duration: "12 min",
     sections: [
       {
@@ -1001,7 +1001,7 @@ export const DE_B2_U01_EXTRA: Lesson[] = [
         source: "If you'd done more sport, you would have felt better.",
         answer: "Wenn du mehr Sport gemacht hättest, hättest du dich wohler gefühlt.",
         altAnswers: ["Hättest du mehr Sport gemacht, hättest du dich wohler gefühlt.", "Wenn du mehr Sport gemacht hättest, hättest du dich besser gefühlt.", "Hättest du mehr Sport gemacht, hättest du dich besser gefühlt.", "Du hättest dich wohler gefühlt, wenn du mehr Sport gemacht hättest."],
-        explanation: "Hättest in both halves; \"sich wohl fühlen\" (to feel good), comparative \"wohler\".",
+        explanation: "\"Hättest\" in both halves; \"sich wohlfühlen\" (to feel good), comparative \"wohler\".",
       },
       {
         type: "translate",

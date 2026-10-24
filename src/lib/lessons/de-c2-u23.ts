@@ -223,7 +223,7 @@ export const DE_C2_U23: Lesson[] = [
         ],
         examples: [
           { es: "Das ist doch Quatsch!", en: "That's rubbish! (inflaming)" },
-          { es: "Ich sehe das etwas anders, weil die Zahlen vom letzten Jahr dagegen sprechen.", en: "I see it a little differently, because last year's figures argue against it." },
+          { es: "Ich sehe das etwas anders, weil die Zahlen vom letzten Jahr dagegensprechen.", en: "I see it a little differently, because last year's figures argue against it." },
           { es: "Ich bin skeptisch, ob das in drei Wochen zu schaffen ist.", en: "I'm sceptical whether that can be done in three weeks." },
           { es: "Mir ist noch nicht klar, wie wir das finanzieren sollen.", en: "It's not yet clear to me how we're supposed to finance that." },
           { es: "Darf ich da kurz einhaken?", en: "May I come in briefly on that?" },
@@ -405,7 +405,7 @@ export const DE_C2_U23: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Ich sehe das etwas anders, weil die Zahlen dagegen sprechen.",
+        text: "Ich sehe das etwas anders, weil die Zahlen dagegensprechen.",
         prompt: "Say it in German: I see it a little differently, because the figures argue against it.",
         explanation: "\"Etwas anders sehen\" plus a factual reason: disagreement without escalation.",
       },
@@ -687,7 +687,7 @@ export const DE_C2_U23: Lesson[] = [
             sentence: "___ ist die Ruhezeit von 13 bis 15 Uhr.",
             answer: "Laut Hausordnung",
             altAnswers: ["Laut der Hausordnung", "Nach der Hausordnung"],
-            explanation: "\"Laut\" (according to) usually takes a noun without article; the verb follows in position two.",
+            explanation: "\"Laut\" (according to) often takes a bare noun in such phrases (\"laut der Hausordnung\" is also correct); the whole phrase fills position one, so the verb \"ist\" follows.",
           },
           {
             type: "speak",
@@ -798,6 +798,7 @@ export const DE_C2_U23: Lesson[] = [
         prompt: "Put the words in order to say: At the weekend I just want my peace and quiet.",
         words: ["Am", "Wochenende", "will", "ich", "einfach", "meine", "Ruhe", "haben."],
         translation: "At the weekend I just want my peace and quiet.",
+        altOrders: [["Ich", "will", "am", "Wochenende", "einfach", "meine", "Ruhe", "haben."]],
         explanation: "\"Seine Ruhe haben wollen\" is idiomatic; the time phrase in position one pushes the subject after the verb.",
       },
       {
@@ -846,7 +847,7 @@ export const DE_C2_U23: Lesson[] = [
             prompt: "Translate into German.",
             source: "How about if we moved the meeting to Tuesday?",
             answer: "Wie wäre es, wenn wir die Besprechung auf Dienstag verlegen?",
-            altAnswers: ["Wie wäre es, wenn wir die Besprechung auf Dienstag verlegen würden?", "Wie wäre es, wenn wir das Meeting auf Dienstag verlegen?", "Wie wäre es, wenn wir die Besprechung auf Dienstag verschieben?", "Wie wäre es, wenn wir das Meeting auf Dienstag verschieben würden?", "Wie wär's, wenn wir die Besprechung auf Dienstag verlegen?"],
+            altAnswers: ["Wie wäre es, wenn wir die Besprechung auf Dienstag verlegen würden?", "Wie wäre es, wenn wir das Meeting auf Dienstag verlegen?", "Wie wäre es, wenn wir die Besprechung auf Dienstag verschieben?", "Wie wäre es, wenn wir das Meeting auf Dienstag verschieben würden?", "Wie wäre es, wenn wir die Besprechung auf Dienstag verschieben würden?", "Wie wär's, wenn wir die Besprechung auf Dienstag verlegen?"],
             explanation: "\"Wie wäre es, wenn ...\" + indicative or \"würde\". \"Verlegen auf\" + accusative: to move to another time.",
           },
           {
@@ -1073,7 +1074,7 @@ export const DE_C2_U23: Lesson[] = [
           { es: "Das Auto steht ständig so, dass ich nicht rauskomme.", en: "The car is always parked so that I can't get out." },
           { es: "Kinder in dem Alter kann man nicht abschalten.", en: "You can't switch off children of that age." },
           { es: "Die Hecke ist so hoch, dass unser Garten kaum noch Sonne bekommt.", en: "The hedge is so high that our garden hardly gets any sun." },
-          { es: "Frau Okafor sagt, Kinder in dem Alter könne man nicht ganz leise halten.", en: "Mrs Okafor says you can't keep children that age completely quiet." },
+          { es: "Frau Okafor sagt, Kinder in dem Alter könne man nicht ganz leise halten.", en: "Ms Okafor says you can't keep children that age completely quiet." },
           { es: "Ihnen fehle wegen der Hecke Licht im Garten.", en: "(You say) you're missing light in your garden because of the hedge." },
         ],
         checkpoint: [
@@ -1089,7 +1090,7 @@ export const DE_C2_U23: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "Mrs Okafor says you [can't] keep small children completely quiet.",
+            en: "Ms Okafor says you [can't] keep small children completely quiet.",
             sentence: "Frau Okafor sagt, kleine Kinder ___ man nicht ganz leise halten.",
             answer: "könne",
             explanation: "Konjunktiv I \"könne\" marks her statement as reported, keeping the mediator neutral.",
@@ -1159,7 +1160,7 @@ export const DE_C2_U23: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "You'll find [the solution yourselves].",
+        en: "You'll find the solution [yourselves].",
         sentence: "Die Lösung finden Sie ___.",
         answer: "selbst",
         altAnswers: ["selber"],
@@ -1286,7 +1287,7 @@ export const DE_C2_U23: Lesson[] = [
             prompt: "Translate into German using an infinitive clause.",
             source: "I regret not having informed you earlier. (formal)",
             answer: "Ich bedaure, Sie nicht früher informiert zu haben.",
-            altAnswers: ["Ich bedauere, Sie nicht früher informiert zu haben.", "Ich bedaure, Sie nicht eher informiert zu haben.", "Ich bedaure, dass ich Sie nicht früher informiert habe.", "Es tut mir leid, Sie nicht früher informiert zu haben."],
+            altAnswers: ["Ich bedauere, Sie nicht früher informiert zu haben.", "Ich bedaure, Sie nicht eher informiert zu haben.", "Es tut mir leid, Sie nicht früher informiert zu haben."],
             explanation: "Past infinitive \"informiert zu haben\": same subject in both clauses. \"Bedauern\" has the forms \"ich bedaure\" and \"ich bedauere\".",
           },
           {
@@ -1356,7 +1357,7 @@ export const DE_C2_U23: Lesson[] = [
         prompt: "Translate into German using an infinitive clause.",
         source: "I'm embarrassed to have forgotten your name. (formal)",
         answer: "Es ist mir peinlich, Ihren Namen vergessen zu haben.",
-        altAnswers: ["Es ist mir unangenehm, Ihren Namen vergessen zu haben.", "Mir ist es peinlich, Ihren Namen vergessen zu haben.", "Es ist mir peinlich, dass ich Ihren Namen vergessen habe."],
+        altAnswers: ["Es ist mir unangenehm, Ihren Namen vergessen zu haben.", "Mir ist es peinlich, Ihren Namen vergessen zu haben."],
         explanation: "\"Peinlich\" (embarrassing) with a dative; past infinitive \"vergessen zu haben\".",
       },
       {
@@ -1586,7 +1587,7 @@ export const DE_C2_U23: Lesson[] = [
         prompt: "Translate into German.",
         source: "That was hurtful of me.",
         answer: "Das war verletzend von mir.",
-        altAnswers: ["Das war von mir verletzend.", "Das war verletzend."],
+        altAnswers: ["Das war verletzend."],
         explanation: "\"Verletzend\" (hurtful) puts the quality in the act; \"sich verletzt fühlen\" puts it in the listener.",
       },
       {
@@ -1632,7 +1633,7 @@ export const DE_C2_U23: Lesson[] = [
       {
         heading: "Who handles workplace conflict in Germany",
         body: [
-          "German workplaces have institutions English speakers may not know. \"Der Betriebsrat\" (works council) is elected by employees in companies with five or more staff and has legal co-determination rights (\"Mitbestimmung\") on working hours and conduct rules; it must also be consulted before every dismissal. In the public sector it is called \"der Personalrat\". It is the first port of call for employees in conflict with management.",
+          "German workplaces have institutions English speakers may not know. \"Der Betriebsrat\" (works council) can be elected by the employees of any company with at least five staff (it exists only where they have chosen one) and has legal co-determination rights (\"Mitbestimmung\") on working hours and conduct rules; it must also be consulted before every dismissal. In the public sector it is called \"der Personalrat\". It is the first port of call for employees in conflict with management.",
           "\"Die Personalabteilung\" (HR, also \"HR\" in modern firms) handles contracts and formal measures. \"Das Mitarbeitergespräch\" is the regular appraisal or a formal one-to-one; \"ein Konfliktgespräch\" is a meeting to address a specific problem. Larger firms have \"Konfliktlotsen\" or \"Vertrauenspersonen\" (trusted contacts) and external mediators.",
           "Formal sanctions: \"die Abmahnung\" (a formal written warning that names a breach of duty and threatens dismissal if repeated) usually comes before a \"verhaltensbedingte Kündigung\". Disputes that cannot be settled can go to \"die Einigungsstelle\" (a conciliation committee between works council and employer) or to the \"Arbeitsgericht\" (labour court).",
         ],
@@ -1805,6 +1806,7 @@ export const DE_C2_U23: Lesson[] = [
         prompt: "Put the words in order to say: Next week I have my annual appraisal.",
         words: ["Nächste", "Woche", "habe", "ich", "mein", "jährliches", "Mitarbeitergespräch."],
         translation: "Next week I have my annual appraisal.",
+        altOrders: [["Ich", "habe", "nächste", "Woche", "mein", "jährliches", "Mitarbeitergespräch."]],
         explanation: "\"Nächste Woche\" (accusative of time, no preposition) in position one, then the verb.",
       },
       {
@@ -1835,7 +1837,7 @@ export const DE_C2_U23: Lesson[] = [
       {
         heading: "The transcript, part 1: positions",
         body: [
-          "Read the transcript from a logistics company in Duisburg. Mediatorin Frau Kühn; Teamleiter Herr Schulz; Disponentin Frau Demir.",
+          "Read the transcript from a logistics company in Duisburg. The mediator (\"Mediatorin\") is Frau Kühn, the team leader (\"Teamleiter\") Herr Schulz, the dispatcher (\"Disponentin\") Frau Demir.",
           "Schulz: \"Frau Demir hält sich nicht an die Absprachen. Ich sage ihr, die Touren müssen bis neun Uhr geplant sein, und um halb elf ist immer noch nichts fertig.\" Demir: \"Weil ich jeden Morgen erst die Hälfte der Aufträge bekomme! Herr Schulz schickt sie mir um Viertel vor neun und erwartet Wunder.\"",
           "Kühn: \"Ich halte fest: Herr Schulz, für Sie ist entscheidend, dass die Planung pünktlich steht. Frau Demir, Sie sagen, die Aufträge kämen zu spät bei Ihnen an. Habe ich das richtig zusammengefasst?\" These are positions: \"Sie hält sich nicht an Absprachen\" vs \"Er schickt die Aufträge zu spät\". Each blames the other.",
         ],
@@ -2004,6 +2006,7 @@ export const DE_C2_U23: Lesson[] = [
         prompt: "Put the words in order to say: I often have the orders at half past seven already.",
         words: ["Die", "Aufträge", "liegen", "mir", "oft", "schon", "um", "halb", "acht", "vor."],
         translation: "I often have the orders at half past seven already.",
+        altOrders: [["Mir", "liegen", "die", "Aufträge", "oft", "schon", "um", "halb", "acht", "vor."]],
         explanation: "\"Jemandem vorliegen\" (to be available to someone) is separable: \"liegen ... vor\", with the prefix at the very end. \"Halb acht\" is half past seven, not half past eight.",
       },
       {
@@ -2108,7 +2111,7 @@ export const DE_C2_U23: Lesson[] = [
       {
         heading: "Where to turn: Verbraucherzentrale and Schlichtungsstelle",
         body: [
-          "If the company doesn't respond, consumers in Germany can turn to \"die Verbraucherzentrale\" (consumer advice centre, one in each federal state) for advice and template letters, or to a sector \"Schlichtungsstelle\": for flights \"die söp\" (Schlichtungsstelle für den öffentlichen Personenverkehr), for energy \"die Schlichtungsstelle Energie\", for insurance \"der Versicherungsombudsmann\". There is also a general \"Universalschlichtungsstelle des Bundes\".",
+          "If the company doesn't respond, consumers in Germany can turn to \"die Verbraucherzentrale\" (consumer advice centre, one in each federal state) for advice and template letters, or to a sector \"Schlichtungsstelle\": for train, bus and air travel \"die söp\" (\"Schlichtungsstelle für den öffentlichen Personenverkehr\"), for energy \"die Schlichtungsstelle Energie\", for insurance \"der Versicherungsombudsmann\". There is also a general \"Universalschlichtungsstelle des Bundes\".",
           "In the complaint letter you can mention this as the next step: \"Sollte ich bis zum ... keine Antwort erhalten, werde ich mich an die Schlichtungsstelle wenden.\" The verb-first conditional \"Sollte ich ... erhalten\" is formal and very common in such letters.",
           "Close with the standard formula: \"Ich sehe Ihrer Antwort entgegen\" (I look forward to your reply; somewhat formal) or \"Für eine zeitnahe Rückmeldung wäre ich Ihnen dankbar\", then \"Mit freundlichen Grüßen\". Never omit the greeting even when angry: it is part of the firmness.",
         ],
@@ -2270,7 +2273,7 @@ export const DE_C2_U23: Lesson[] = [
       {
         heading: "Resolving: schlichten, vermitteln, beilegen",
         body: [
-          "A third party \"vermittelt\" (mediates, from \"die Mitte\", the middle) or \"schlichtet\" (settles; \"schlicht\" means simple, plain). \"Der Vermittler\", \"die Schlichtung\", \"der Schlichter\". In industrial disputes, \"ein Schlichter\" is a respected public figure who proposes a compromise between union and employers.",
+          "A third party \"vermittelt\" (mediates, from \"die Mitte\", the middle) or \"schlichtet\" (settles; related to \"schlicht\", which originally meant smooth, level). \"Der Vermittler\", \"die Schlichtung\", \"der Schlichter\". In industrial disputes, \"ein Schlichter\" is a respected public figure who proposes a compromise between union and employers.",
           "The dispute itself is \"beigelegt\" (settled, resolved): \"Der Streit wurde beigelegt\", \"einen Konflikt beilegen\". \"Schlichten\" and \"beilegen\" are formal; everyday German says \"Wir haben das geklärt\" or \"Das ist aus der Welt geschafft\" (that's sorted, literally removed from the world).",
           "\"Sich aussprechen\" (to talk things out) is the private, emotional route: \"Wir haben uns endlich ausgesprochen.\" Don't confuse with \"aussprechen\" (to pronounce) or \"sich aussprechen für\" (to speak in favour of).",
         ],
@@ -2372,7 +2375,7 @@ export const DE_C2_U23: Lesson[] = [
         sentence: "Sie haben sich wegen des Erbes ___.",
         answer: "überworfen",
         altAnswers: ["zerstritten"],
-        explanation: "\"Sich überwerfen\" (inseparable, strong: überworfen) or \"sich zerstreiten\" (zerstritten): to fall out for good.",
+        explanation: "\"Sich überwerfen\" (inseparable and strong, participle \"überworfen\") or \"sich zerstreiten\" (participle \"zerstritten\"): to fall out for good.",
       },
       {
         type: "multiple-choice",
@@ -2478,7 +2481,7 @@ export const DE_C2_U23: Lesson[] = [
         body: [
           "To close a conflict: \"einen Schlussstrich ziehen\" (to draw a line under it), \"die Sache ist erledigt\" or \"abgehakt\" (ticked off, done with), \"nach vorne schauen\" (to look ahead). \"Lass uns einen Schlussstrich ziehen und nach vorne schauen\" is a classic closing sentence.",
           "Rebuilding trust takes time and verbs of process: \"Vertrauen wiederherstellen\" (to restore), \"Vertrauen zurückgewinnen\" (to win back), \"Vertrauen muss wachsen\". The noun \"der Vertrauensvorschuss\" (trust in advance, benefit of the doubt) is a lovely German word: \"Ich gebe dir einen Vertrauensvorschuss.\"",
-          "Conditional promises show seriousness: \"Ich werde alles tun, damit so etwas nicht wieder vorkommt\" (I will do everything to make sure it doesn't happen again), with \"damit\" for purpose and \"vorkommen\" for an incident happening.",
+          "Concrete promises show seriousness: \"Ich werde alles tun, damit so etwas nicht wieder vorkommt\" (I will do everything to make sure it doesn't happen again), with \"damit\" for purpose and \"vorkommen\" for an incident happening.",
         ],
         examples: [
           { es: "Lass uns einen Schlussstrich ziehen und nach vorne schauen.", en: "Let's draw a line under it and look ahead." },
@@ -2534,7 +2537,7 @@ export const DE_C2_U23: Lesson[] = [
             prompt: "Translate into German.",
             source: "Both sides agree that communication must be improved.",
             answer: "Beide Seiten sind sich einig, dass die Kommunikation verbessert werden muss.",
-            altAnswers: ["Beide Seiten sind sich darüber einig, dass die Kommunikation verbessert werden muss.", "Beide Seiten stimmen überein, dass die Kommunikation verbessert werden muss.", "Beide Parteien sind sich einig, dass die Kommunikation verbessert werden muss."],
+            altAnswers: ["Beide Seiten sind sich darüber einig, dass die Kommunikation verbessert werden muss.", "Beide Seiten stimmen darin überein, dass die Kommunikation verbessert werden muss.", "Beide Parteien sind sich einig, dass die Kommunikation verbessert werden muss."],
             explanation: "\"Sich einig sein\" (to be in agreement); modal passive \"verbessert werden muss\" at the end of the dass clause.",
           },
           {
@@ -2735,7 +2738,7 @@ export const DE_C2_U23: Lesson[] = [
             prompt: "Translate into German using an infinitive clause.",
             source: "I'm sorry for snapping at you. (to a friend)",
             answer: "Es tut mir leid, dich angefahren zu haben.",
-            altAnswers: ["Es tut mir leid, dass ich dich angefahren habe.", "Tut mir leid, dass ich dich angefahren habe.", "Tut mir leid, dich angefahren zu haben.", "Es tut mir leid, dich angeschnauzt zu haben."],
+            altAnswers: ["Tut mir leid, dich angefahren zu haben.", "Es tut mir leid, dich angeschnauzt zu haben."],
             explanation: "\"Jemanden anfahren\" (to snap at) is separable: past infinitive \"angefahren zu haben\".",
           },
           {
@@ -2814,6 +2817,7 @@ export const DE_C2_U23: Lesson[] = [
         prompt: "Put the words in order to say: In a month we'll see whether it works.",
         words: ["In", "einem", "Monat", "schauen", "wir,", "ob", "es", "klappt."],
         translation: "In a month we'll see whether it works.",
+        altOrders: [["Wir", "schauen", "in", "einem", "Monat,", "ob", "es", "klappt."]],
         explanation: "Time phrase first, verb second; \"ob\" sends \"klappt\" to the end.",
       },
       {
@@ -2844,7 +2848,7 @@ export const DE_C2_U23: Lesson[] = [
       {
         heading: "The system: Gesundheitswesen and Krankenkassen",
         body: [
-          "\"Das Gesundheitswesen\" is the health system as a whole. Most Germans are in \"die gesetzliche Krankenversicherung\" (GKV, statutory health insurance) with one of about 95 \"Krankenkassen\"; around 10 % are \"privat versichert\" (PKV). The contribution is a percentage of salary, plus \"der Zusatzbeitrag\" (additional contribution) that each Krankenkasse sets on top.",
+          "\"Das Gesundheitswesen\" is the health system as a whole. Most Germans are in \"die gesetzliche Krankenversicherung\" (GKV, statutory health insurance) with one of roughly 90-odd \"Krankenkassen\" (mergers reduce the number every year); around 10% are \"privat versichert\" (PKV). The contribution is a percentage of salary, plus \"der Zusatzbeitrag\" (additional contribution) that each Krankenkasse sets on top.",
           "The long-running political debate is about \"die Bürgerversicherung\" (a single insurance for all citizens, favoured by the left) versus the dual system, and about \"die Zwei-Klassen-Medizin\" (two-tier medicine): privately insured patients often get appointments faster.",
           "Press verbs: \"Die Beiträge steigen\", \"Die Kassen schlagen Alarm\" (are sounding the alarm), \"Der Zusatzbeitrag wird angehoben\" (raised), \"die Finanzlücke\" (funding gap), \"das Defizit\".",
         ],
@@ -2877,7 +2881,7 @@ export const DE_C2_U23: Lesson[] = [
       {
         heading: "Hospitals and care: Fallpauschale, Pflegenotstand, Wartezeit",
         body: [
-          "German hospitals are paid per case through \"die Fallpauschale\" (flat rate per case, DRG system): each diagnosis brings a fixed sum, regardless of the actual days spent. Critics say it encourages \"blutige Entlassungen\" (premature discharges) and unnecessary operations; the recent hospital reform (\"Krankenhausreform\") partly replaces it with \"Vorhaltepauschalen\" (payments for keeping capacity).",
+          "German hospitals are paid per case through \"die Fallpauschale\" (flat rate per case, DRG system): each diagnosis brings a fixed sum, regardless of the actual days spent. Critics say it encourages \"blutige Entlassungen\" (premature discharges) and unnecessary operations; the hospital reform passed in 2024 (\"Krankenhausreform\") is gradually replacing part of it with a \"Vorhaltevergütung\" (payment for keeping capacity available; the press often says \"Vorhaltepauschale\").",
           "\"Der Pflegenotstand\" (care crisis, literally care emergency) is the chronic shortage of nurses and carers (\"Pflegekräfte\") in hospitals and care homes (\"Pflegeheime\"). \"Der Fachkräftemangel\" is the broader shortage of skilled workers.",
           "For patients, the hot topic is \"die Wartezeit\" on an appointment with a specialist (\"Facharzttermin\"). \"Die Terminservicestelle\" (appointment service, phone 116117) is supposed to arrange one within four weeks.",
         ],
@@ -2966,8 +2970,8 @@ export const DE_C2_U23: Lesson[] = [
         prompt: "Translate into German.",
         source: "The data indicate that the vaccination rate is falling.",
         answer: "Die Daten deuten darauf hin, dass die Impfquote sinkt.",
-        altAnswers: ["Die Daten legen nahe, dass die Impfquote sinkt.", "Die Daten zeigen, dass die Impfquote sinkt.", "Die Zahlen deuten darauf hin, dass die Impfquote sinkt."],
-        explanation: "\"Darauf hindeuten, dass\" (to indicate) is cautious; \"sinken\" (to fall) is the verb for rates.",
+        altAnswers: ["Die Daten legen nahe, dass die Impfquote sinkt.", "Die Zahlen deuten darauf hin, dass die Impfquote sinkt.", "Die Daten weisen darauf hin, dass die Impfquote sinkt."],
+        explanation: "\"Darauf hindeuten, dass\" (to indicate) is cautious; \"zeigen\" would claim more than the data do. \"Sinken\" (to fall) is the verb for rates.",
       },
       {
         type: "fill-blank",
@@ -3023,8 +3027,8 @@ export const DE_C2_U23: Lesson[] = [
         prompt: "Translate into German, keeping distance from the claim.",
         source: "According to the study, the risk is said to be higher.",
         answer: "Laut der Studie sei das Risiko höher.",
-        altAnswers: ["Laut Studie sei das Risiko höher.", "Der Studie zufolge sei das Risiko höher.", "Laut der Studie ist das Risiko höher.", "Der Studie zufolge ist das Risiko höher.", "Laut der Studie soll das Risiko höher sein."],
-        explanation: "Konjunktiv I \"sei\" (or \"soll ... sein\") distances the journalist from the claim; \"laut\" or \"zufolge\" names the source.",
+        altAnswers: ["Laut Studie sei das Risiko höher.", "Der Studie zufolge sei das Risiko höher.", "Laut der Studie soll das Risiko höher sein.", "Der Studie zufolge soll das Risiko höher sein."],
+        explanation: "Konjunktiv I \"sei\" (or \"soll ... sein\") renders 'is said to' and distances the journalist from the claim; the indicative \"ist\" would present it as fact. \"Laut\" or \"zufolge\" names the source.",
       },
       {
         type: "speak",

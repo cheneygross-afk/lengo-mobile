@@ -356,7 +356,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
             source: "I've finished the report.",
             answer: "Ich bin mit dem Bericht fertig.",
             altAnswers: ["Ich bin fertig mit dem Bericht."],
-            explanation: "\"Fertig mit\" + dative: \"mit dem Bericht\". Using \"haben\" here (\"*Ich habe fertig\") is a calque from English.",
+            explanation: "\"Fertig mit\" + dative: \"mit dem Bericht\". Using \"haben\" here (\"*Ich habe fertig*\") is a calque from English.",
           },
           {
             type: "speak",
@@ -401,7 +401,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
         source: "He's married to a Spanish woman.",
         answer: "Er ist mit einer Spanierin verheiratet.",
         altAnswers: ["Er ist verheiratet mit einer Spanierin."],
-        explanation: "\"Verheiratet mit\" + dative: \"mit einer Spanierin\". Not \"*verheiratet zu\".",
+        explanation: "\"Verheiratet mit\" + dative: \"mit einer Spanierin\". Not \"*verheiratet zu*\".",
       },
       {
         type: "translate",
@@ -493,7 +493,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
     number: 4,
     optional: true,
     title: "Extra Practice: Real-World Mission, An Event Invitation",
-    summary: "Write and answer an invitation with sich freuen auf, teilnehmen an and sich anmelden für.",
+    summary: "Write and answer an invitation with \"sich freuen auf\", \"teilnehmen an\" and \"sich anmelden für\".",
     duration: "12 min",
     sections: [
       {
@@ -535,7 +535,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "We'd like to invite you to our party. (polite)",
+        source: "We'd like to invite you to our party. (formal)",
         answer: "Wir möchten Sie zu unserer Party einladen.",
         altAnswers: ["Wir möchten Sie zu unserem Fest einladen.", "Wir würden Sie gern zu unserer Party einladen.", "Wir möchten Sie zu unserer Feier einladen."],
         explanation: "\"Einladen zu\" + dative: \"zu unserer Party\"; the infinitive goes last after \"möchten\".",
@@ -654,13 +654,13 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
     number: 5,
     optional: true,
     title: "Extra Practice: Accusative or Dative?",
-    summary: "Choose the case after an and auf in fixed verbs: denken an den Urlaub, but teilnehmen an dem Kurs.",
+    summary: "Choose the case after \"an\" and \"auf\" in fixed verbs: \"denken an den Urlaub\", but \"teilnehmen an dem Kurs\".",
     duration: "12 min",
     sections: [
       {
         heading: "Recap: an and auf in fixed verbs",
         body: [
-          "\"Auf\" in fixed verbs is almost always accusative: \"warten auf\", \"sich freuen auf\", \"sich verlassen auf\", \"achten auf\", \"stolz auf\", \"Lust auf\". (The rare dative exception, \"bestehen auf\" + Dat, insist on, you can learn later.)",
+          "\"Auf\" in fixed verbs is almost always accusative: \"warten auf\", \"sich freuen auf\", \"sich verlassen auf\", \"achten auf\", \"stolz auf\", \"Lust auf\". (A rare dative exception is \"bestehen auf\" + Dat, insist on, which you can learn later.)",
           "\"An\" splits: accusative with \"denken an\", \"sich erinnern an\", \"sich gewöhnen an\", \"glauben an\", \"schreiben an\" (write to); dative with \"teilnehmen an\", \"leiden an\", \"zweifeln an\", \"interessiert an\", \"arbeiten an\" (work on).",
         ],
         examples: [
@@ -813,7 +813,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
     number: 6,
     optional: true,
     title: "Extra Practice: Dialogue Lab, The Worried Parent",
-    summary: "A mother talks to a teacher about her son: sich Sorgen machen um, Angst haben vor, sich kümmern um.",
+    summary: "Follow a mother talking to a teacher about her son: \"sich Sorgen machen um\", \"Angst haben vor\", \"sich kümmern um\".",
     duration: "12 min",
     sections: [
       {
@@ -834,7 +834,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "Don't worry. (polite)",
+            source: "Don't worry. (formal)",
             answer: "Machen Sie sich keine Sorgen.",
             explanation: "Polite imperative: verb first, \"Sie\", then the reflexive \"sich\".",
           },
@@ -899,7 +899,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
         source: "We'll take care of your son.",
         answer: "Wir kümmern uns um Ihren Sohn.",
         altAnswers: ["Wir werden uns um Ihren Sohn kümmern.", "Wir kümmern uns um deinen Sohn."],
-        explanation: "\"Sich kümmern um\" + accusative: \"Ihren Sohn\" (polite your).",
+        explanation: "\"Sich kümmern um\" + accusative: \"Ihren Sohn\" (formal your).",
       },
       {
         type: "fill-blank",
@@ -957,7 +957,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "Machen Sie sich keine Sorgen.",
-        prompt: "Say it in German: Don't worry. (polite)",
+        prompt: "Say it in German: Don't worry. (formal)",
         tip: "\"Sorgen\": voiced s, like z.",
         explanation: "The polite imperative of \"sich Sorgen machen\".",
       },
@@ -1114,7 +1114,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
           { left: "träumen von", right: "dream of" },
           { left: "Angst haben vor", right: "be afraid of" },
         ],
-        explanation: "Two accusative blocks (um, über) and two dative ones (von, vor).",
+        explanation: "Two accusative blocks (\"um\", \"über\") and two dative ones (\"von\", \"vor\").",
       },
       {
         type: "listen-choose",
@@ -1230,7 +1230,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "He was very [pleased about] the compliment.",
+        en: "He was very pleased [about] the compliment.",
         sentence: "Er hat sich sehr ___ das Kompliment gefreut.",
         answer: "über",
         explanation: "He's already received it: \"über\".",
@@ -1238,7 +1238,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "We're already [looking forward to] the weekend.",
+        en: "We're already looking forward [to] the weekend.",
         sentence: "Wir freuen uns schon ___ das Wochenende.",
         answer: "auf",
         explanation: "\"Schon\" + future: \"auf\".",
@@ -1457,13 +1457,13 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
     number: 10,
     optional: true,
     title: "Extra Practice: Fix the Paragraph, English Prepositions",
-    summary: "Correct a text full of calques from English: warten für, abhängen auf and Angst von become warten auf, abhängen von and Angst vor.",
+    summary: "Correct a text full of calques from English: \"*warten für*\", \"*abhängen auf*\" and \"*Angst von*\" become \"warten auf\", \"abhängen von\" and \"Angst vor\".",
     duration: "12 min",
     sections: [
       {
         heading: "Recap: the calques to avoid",
         body: [
-          "Jonas wrote this about his job search, translating every preposition from English: \"*Ich warte für eine Antwort. Es hängt auf der Firma ab. Ich habe Angst von dem Interview. Ich suche für eine neue Stelle. Ich bin stolz von meinem Lebenslauf.\"",
+          "Jonas wrote this about his job search, translating every preposition from English: \"*Ich warte für eine Antwort. Es hängt auf der Firma ab. Ich habe Angst von dem Interview. Ich suche für eine neue Stelle. Ich bin stolz von meinem Lebenslauf.*\"",
           "Corrected: \"Ich warte auf eine Antwort. Es hängt von der Firma ab. Ich habe Angst vor dem Interview. Ich suche eine neue Stelle. Ich bin stolz auf meinen Lebenslauf.\" Every one of his mistakes came from English for, on, of.",
         ],
         examples: [
@@ -1480,7 +1480,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
             prompt: "Translate into German.",
             source: "I'm waiting for an answer.",
             answer: "Ich warte auf eine Antwort.",
-            explanation: "\"*Warten für\" is the calque; German says \"warten auf\" + accusative.",
+            explanation: "\"*Warten für*\" is the calque; German says \"warten auf\" + accusative.",
           },
           {
             type: "listen-choose",
@@ -1497,7 +1497,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix this sentence: \"*Wir warten für den Bus.\" Write the correct German for: We're waiting for the bus.",
+        prompt: "Fix this sentence: \"*Wir warten für den Bus.*\" Write the correct German for: We're waiting for the bus.",
         source: "We're waiting for the bus.",
         answer: "Wir warten auf den Bus.",
         explanation: "\"Warten auf\" + accusative, never \"für\".",
@@ -1505,7 +1505,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix this sentence: \"*Das hängt auf dem Preis ab.\" Write the correct German for: That depends on the price.",
+        prompt: "Fix this sentence: \"*Das hängt auf dem Preis ab.*\" Write the correct German for: That depends on the price.",
         source: "That depends on the price.",
         answer: "Das hängt vom Preis ab.",
         altAnswers: ["Das hängt von dem Preis ab.", "Es hängt vom Preis ab."],
@@ -1514,7 +1514,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix this sentence: \"*Sie hat Angst von Hunden.\" Write the correct German for: She's afraid of dogs.",
+        prompt: "Fix this sentence: \"*Sie hat Angst von Hunden.*\" Write the correct German for: She's afraid of dogs.",
         source: "She's afraid of dogs.",
         answer: "Sie hat Angst vor Hunden.",
         explanation: "\"Angst haben vor\" + dative, not \"von\".",
@@ -1522,7 +1522,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix this sentence: \"*Ich suche für meine Brille.\" Write the correct German for: I'm looking for my glasses.",
+        prompt: "Fix this sentence: \"*Ich suche für meine Brille.*\" Write the correct German for: I'm looking for my glasses.",
         source: "I'm looking for my glasses.",
         answer: "Ich suche meine Brille.",
         altAnswers: ["Ich suche nach meiner Brille."],
@@ -1531,7 +1531,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix this sentence: \"*Er ist stolz von seiner Tochter.\" Write the correct German for: He's proud of his daughter.",
+        prompt: "Fix this sentence: \"*Er ist stolz von seiner Tochter.*\" Write the correct German for: He's proud of his daughter.",
         source: "He's proud of his daughter.",
         answer: "Er ist stolz auf seine Tochter.",
         explanation: "\"Stolz auf\" + accusative: \"auf seine Tochter\".",
@@ -1539,7 +1539,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix this sentence: \"*Das Team besteht von acht Personen.\" Write the correct German for: The team consists of eight people.",
+        prompt: "Fix this sentence: \"*Das Team besteht von acht Personen.*\" Write the correct German for: The team consists of eight people.",
         source: "The team consists of eight people.",
         answer: "Das Team besteht aus acht Personen.",
         altAnswers: ["Das Team besteht aus acht Leuten."],
@@ -1548,7 +1548,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix this sentence: \"*Ich bin verheiratet zu einem Arzt.\" Write the correct German for: I'm married to a doctor.",
+        prompt: "Fix this sentence: \"*Ich bin verheiratet zu einem Arzt.*\" Write the correct German for: I'm married to a doctor.",
         source: "I'm married to a doctor.",
         answer: "Ich bin mit einem Arzt verheiratet.",
         altAnswers: ["Ich bin mit einer Ärztin verheiratet.", "Ich bin verheiratet mit einem Arzt.", "Ich bin verheiratet mit einer Ärztin."],
@@ -1557,7 +1557,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix this sentence: \"*Ich höre zu der Musik.\" Write the correct German for: I'm listening to the music.",
+        prompt: "Fix this sentence: \"*Ich höre zu der Musik.*\" Write the correct German for: I'm listening to the music.",
         source: "I'm listening to the music.",
         answer: "Ich höre die Musik.",
         altAnswers: ["Ich höre Musik.", "Ich höre der Musik zu."],
@@ -1566,7 +1566,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix this sentence: \"*Er hat für Hilfe gefragt.\" Write the correct German for: He asked for help.",
+        prompt: "Fix this sentence: \"*Er hat für Hilfe gefragt.*\" Write the correct German for: He asked for help.",
         source: "He asked for help.",
         answer: "Er hat um Hilfe gebeten.",
         altAnswers: ["Er bat um Hilfe."],
@@ -1575,7 +1575,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix this sentence: \"*Ich denke von dir.\" Write the correct German for: I'm thinking of you.",
+        prompt: "Fix this sentence: \"*Ich denke von dir.*\" Write the correct German for: I'm thinking of you.",
         source: "I'm thinking of you.",
         answer: "Ich denke an dich.",
         altAnswers: ["Ich denke an euch.", "Ich denke an Sie."],
@@ -1619,7 +1619,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
     number: 11,
     optional: true,
     title: "Extra Practice: Stolz auf, Zufrieden mit",
-    summary: "Adjectives with prepositions: stolz auf, zufrieden mit, gespannt auf, enttäuscht von and more.",
+    summary: "Use adjectives with prepositions: \"stolz auf\", \"zufrieden mit\", \"gespannt auf\", \"enttäuscht von\" and more.",
     duration: "12 min",
     sections: [
       {
@@ -1699,7 +1699,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
         source: "Have you finished the book?",
         answer: "Bist du mit dem Buch fertig?",
         altAnswers: ["Seid ihr mit dem Buch fertig?", "Sind Sie mit dem Buch fertig?", "Bist du fertig mit dem Buch?", "Hast du das Buch zu Ende gelesen?", "Hast du das Buch fertig gelesen?"],
-        explanation: "\"Fertig sein mit\" + dative: German uses sein, not haben.",
+        explanation: "\"Fertig sein mit\" + dative: German uses \"sein\", not \"haben\".",
       },
       {
         type: "translate",
@@ -1783,7 +1783,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
     number: 12,
     optional: true,
     title: "Extra Practice: Dictation, A Letter of Thanks",
-    summary: "A dictated thank-you letter with sich bedanken für and danken für.",
+    summary: "Write down a dictated thank-you letter with \"sich bedanken für\" and \"danken für\".",
     duration: "12 min",
     sections: [
       {
@@ -1793,7 +1793,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
           "A thank-you letter often adds \"sich freuen über\": \"Wir haben uns sehr über das Geschenk gefreut\".",
         ],
         examples: [
-          { es: "Liebe Frau Schneider, vielen Dank für Ihre Hilfe.", en: "Dear Mrs Schneider, many thanks for your help." },
+          { es: "Liebe Frau Schneider, vielen Dank für Ihre Hilfe.", en: "Dear Ms Schneider, many thanks for your help." },
           { es: "Wir haben uns sehr über die Blumen gefreut.", en: "We were very pleased with the flowers." },
           { es: "Ich möchte mich bei Ihnen für alles bedanken.", en: "I'd like to thank you for everything." },
           { es: "Ich danke dir für deine Geduld.", en: "Thank you for your patience." },
@@ -1850,7 +1850,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "I'd like to thank you for the invitation. (polite)",
+        source: "I'd like to thank you for the invitation. (formal)",
         answer: "Ich möchte mich bei Ihnen für die Einladung bedanken.",
         altAnswers: ["Ich möchte Ihnen für die Einladung danken.", "Ich bedanke mich bei Ihnen für die Einladung."],
         explanation: "\"Sich bedanken bei\" + Dat + \"für\" + Akk.",
@@ -1916,7 +1916,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "Vielen Dank für Ihre Hilfe.",
-        prompt: "Say it in German: Many thanks for your help. (polite)",
+        prompt: "Say it in German: Many thanks for your help. (formal)",
         tip: "\"Vielen\": v sounds like f.",
         explanation: "\"Danke für\" + accusative.",
       },
@@ -2024,7 +2024,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "If I were you, I wouldn't wait for him.",
         answer: "An deiner Stelle würde ich nicht auf ihn warten.",
-        altAnswers: ["An Ihrer Stelle würde ich nicht auf ihn warten.", "Ich an deiner Stelle würde nicht auf ihn warten.", "An eurer Stelle würde ich nicht auf ihn warten."],
+        altAnswers: ["An Ihrer Stelle würde ich nicht auf ihn warten.", "Ich an deiner Stelle würde nicht auf ihn warten.", "An eurer Stelle würde ich nicht auf ihn warten.", "Ich würde an deiner Stelle nicht auf ihn warten.", "Ich würde an Ihrer Stelle nicht auf ihn warten."],
         explanation: "\"An deiner Stelle\" + \"würde\" + infinitive; \"auf ihn\".",
       },
       {
@@ -2038,7 +2038,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "I [would have applied] for the job.",
+        en: "I [would have] applied for the job.",
         sentence: "Ich ___ mich um die Stelle beworben.",
         answer: "hätte",
         explanation: "Past Konjunktiv II: \"hätte\" + participle.",

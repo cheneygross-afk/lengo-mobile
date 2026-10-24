@@ -176,7 +176,7 @@ export const GOETHE_B1_HOEREN: ExamPaper = {
             },
             {
               voice: "f",
-              text: "Danach gehen wir zum neuen Elefantenhaus. Es wurde letztes Jahr eröffnet und hat einen weichen Sandboden, auf dem die Tiere auch nachts gut liegen können. Das alte Haus hatte noch einen Betonboden, und davon bekamen die Elefanten Probleme mit den Füßen.",
+              text: "Danach gehen wir zum neuen Elefantenhaus. Es wurde letztes Jahr eröffnet und hat einen weichen Sandboden, auf dem die Tiere auch nachts gut liegen können. Das alte Haus hatte noch einen Betonboden, und davon bekamen die Elefanten Probleme mit den Füßen. Deshalb haben wir das neue Haus gebaut.",
             },
             {
               voice: "f",
@@ -220,7 +220,7 @@ export const GOETHE_B1_HOEREN: ExamPaper = {
             "Das alte Haus war zu klein.",
           ],
           answer: 0,
-          explanation: "Das alte Haus hatte einen Betonboden, „und davon bekamen die Elefanten Probleme mit den Füßen“.",
+          explanation: "Das alte Haus hatte einen Betonboden, „und davon bekamen die Elefanten Probleme mit den Füßen. Deshalb haben wir das neue Haus gebaut.“",
         },
         {
           n: 15,
@@ -236,7 +236,7 @@ export const GOETHE_B1_HOEREN: ExamPaper = {
       instructions:
         "Sie hören ein Gespräch. Sie hören das Gespräch einmal. Dazu lösen Sie sieben Aufgaben. Wählen Sie: Sind die Aussagen richtig oder falsch? Lesen Sie jetzt die Aufgaben 16 bis 22.",
       instructionsEn:
-        "You're at a bus stop and hear two old friends, Nina and Felix, talking. You hear it only once. Are statements 16-22 true (Richtig) or false (Falsch)?",
+        "You're at a bus stop and hear two old friends, Nina and Felix, talking. You hear it only once. Are statements 16-22 \"Richtig\" (true) or \"Falsch\" (false)?",
       audio: [
         {
           label: "Gespräch an der Bushaltestelle",
@@ -352,7 +352,7 @@ export const GOETHE_B1_HOEREN: ExamPaper = {
             },
             {
               voice: "f",
-              text: "Das ist tatsächlich eine Gefahr. Es funktioniert nur, wenn die Firma auch die Arbeit anders organisiert, zum Beispiel mit weniger und kürzeren Besprechungen.",
+              text: "Das ist tatsächlich eine Gefahr, das sehen wir auch in unseren Studien. Es funktioniert nur, wenn die Firma auch die Arbeit anders organisiert, zum Beispiel mit weniger und kürzeren Besprechungen.",
             },
             {
               voice: "m",

@@ -32,7 +32,7 @@ export const DE_C2_U04: Lesson[] = [
             prompt: "Translate into German, to a friend.",
             source: "I'll keep my fingers crossed for you tomorrow!",
             answer: "Ich drücke dir morgen die Daumen!",
-            altAnswers: ["Ich drück dir morgen die Daumen!", "Morgen drücke ich dir die Daumen!", "Ich drücke dir für morgen die Daumen!", "Ich drücke Ihnen morgen die Daumen!", "Ich drücke euch morgen die Daumen!"],
+            altAnswers: ["Ich drück dir morgen die Daumen!", "Morgen drücke ich dir die Daumen!", "Ich drücke dir für morgen die Daumen!"],
             explanation: "\"Jemandem die Daumen drücken\": dative person, plural thumbs.",
           },
           {
@@ -128,8 +128,8 @@ export const DE_C2_U04: Lesson[] = [
         prompt: "Translate into German, using an idiom.",
         source: "How he spends his money is none of my business.",
         answer: "Wie er sein Geld ausgibt, ist nicht mein Bier.",
-        altAnswers: ["Wie er sein Geld ausgibt, geht mich nichts an.", "Wie er sein Geld ausgibt, ist nicht meine Angelegenheit.", "Das ist nicht mein Bier, wie er sein Geld ausgibt."],
-        explanation: "\"Nicht mein Bier\" is casual; \"geht mich nichts an\" is neutral.",
+        altAnswers: ["Das ist nicht mein Bier, wie er sein Geld ausgibt."],
+        explanation: "\"Nicht mein Bier\" is casual; the neutral \"Das geht mich nichts an\" is not an idiom, so it doesn't count here.",
       },
       {
         type: "fill-blank",
@@ -154,7 +154,7 @@ export const DE_C2_U04: Lesson[] = [
         prompt: "Translate into German, using an idiom.",
         source: "Everything is at stake in the last match.",
         answer: "Im letzten Spiel geht es um die Wurst.",
-        altAnswers: ["Beim letzten Spiel geht es um die Wurst.", "Im letzten Spiel geht es um alles.", "Es geht im letzten Spiel um die Wurst."],
+        altAnswers: ["Beim letzten Spiel geht es um die Wurst.", "Es geht im letzten Spiel um die Wurst."],
         explanation: "\"Es geht um die Wurst\" is common in sports reporting.",
       },
       {
@@ -333,13 +333,13 @@ export const DE_C2_U04: Lesson[] = [
         explanation: "\"Ins Wasser fallen\": Perfekt with \"sein\".",
       },
       {
-        type: "fill-blank",
-        prompt: "Write the German for the bold words.",
-        en: "The building noise is [getting on my nerves].",
-        sentence: "Der Baulärm geht mir auf den ___.",
-        answer: "Keks",
-        altAnswers: ["Senkel", "Wecker", "Geist"],
-        explanation: "Several images, one meaning: \"Keks\", \"Senkel\", \"Wecker\" or \"Geist\".",
+        type: "translate",
+        direction: "en-es",
+        prompt: "Translate into informal German, using an idiom with \"gehen\".",
+        source: "The building noise is getting on my nerves.",
+        answer: "Der Baulärm geht mir auf den Keks.",
+        altAnswers: ["Der Baulärm geht mir auf den Senkel.", "Der Baulärm geht mir auf den Wecker.", "Der Baulärm geht mir auf den Geist.", "Der Baulärm geht mir auf die Nerven."],
+        explanation: "Several images, one meaning: \"Keks\", \"Senkel\", \"Wecker\", \"Geist\" or the standard \"die Nerven\". The annoyed person is dative: \"mir\".",
       },
       {
         type: "translate",
@@ -380,7 +380,7 @@ export const DE_C2_U04: Lesson[] = [
         type: "listen-choose",
         audio: "Das Fest ist leider ins Wasser gefallen, aber wir hatten Glück im Unglück.",
         question: "What happened?",
-        options: ["The party was cancelled, but there was a silver lining.", "Everyone fell into the water at the party.", "The party was lucky with the weather.", "The party went ahead in the rain."],
+        options: ["The party was cancelled, but it could have been worse.", "Everyone fell into the water at the party.", "The party was lucky with the weather.", "The party went ahead in the rain."],
         correctIndex: 0,
         explanation: "\"Ins Wasser fallen\" = be cancelled; \"Glück im Unglück\" = luck in misfortune.",
       },
@@ -444,7 +444,7 @@ export const DE_C2_U04: Lesson[] = [
           { es: "Die Bundesregierung verschiebt die Reform auf unbestimmte Zeit.", en: "The federal government is postponing the reform indefinitely." },
           { es: "Der Minister ist mit seiner Bemerkung ins Fettnäpfchen getreten.", en: "The minister put his foot in it with his remark." },
           { es: "Wir sollten die Kirche im Dorf lassen.", en: "We shouldn't get carried away." },
-          { es: "Die Bank hat rechtzeitig die Notbremse gezogen.", en: "The bank pulled the emergency brake in time." },
+          { es: "Die Bank hat rechtzeitig die Notbremse gezogen.", en: "The bank slammed on the brakes in time." },
         ],
         checkpoint: [
           {
@@ -453,7 +453,7 @@ export const DE_C2_U04: Lesson[] = [
             prompt: "Translate into German, using an idiom.",
             source: "We shouldn't get carried away.",
             answer: "Wir sollten die Kirche im Dorf lassen.",
-            altAnswers: ["Wir sollten mal die Kirche im Dorf lassen.", "Lassen wir die Kirche im Dorf.", "Wir sollten nicht übertreiben.", "Wir sollten doch die Kirche im Dorf lassen."],
+            altAnswers: ["Wir sollten mal die Kirche im Dorf lassen.", "Lassen wir die Kirche im Dorf.", "Wir sollten doch die Kirche im Dorf lassen.", "Wir sollten die Kirche mal im Dorf lassen."],
             explanation: "\"Die Kirche im Dorf lassen\" = don't exaggerate; acceptable in meetings.",
           },
           {
@@ -485,7 +485,7 @@ export const DE_C2_U04: Lesson[] = [
             prompt: "Translate into polite but casual German, using an idiom.",
             source: "I'm fed up with the constant delays.",
             answer: "Ich habe die Nase voll von den ständigen Verspätungen.",
-            altAnswers: ["Ich hab die Nase voll von den ständigen Verspätungen.", "Ich habe genug von den ständigen Verspätungen.", "Ich habe von den ständigen Verspätungen die Nase voll.", "Ich bin die ständigen Verspätungen leid."],
+            altAnswers: ["Ich hab die Nase voll von den ständigen Verspätungen.", "Ich habe von den ständigen Verspätungen die Nase voll.", "Ich habe die Nase gestrichen voll von den ständigen Verspätungen."],
             explanation: "\"Die Nase voll haben von\" + dative is casual but not vulgar.",
           },
           {
@@ -514,7 +514,7 @@ export const DE_C2_U04: Lesson[] = [
         prompt: "Translate into German, using an idiom.",
         source: "The advantages are obvious.",
         answer: "Die Vorteile liegen auf der Hand.",
-        altAnswers: ["Die Vorteile sind offensichtlich.", "Die Vorteile liegen klar auf der Hand.", "Die Vorzüge liegen auf der Hand."],
+        altAnswers: ["Die Vorteile liegen klar auf der Hand.", "Die Vorzüge liegen auf der Hand."],
         explanation: "\"Auf der Hand liegen\" is fine in any professional context.",
       },
       {
@@ -611,7 +611,7 @@ export const DE_C2_U04: Lesson[] = [
             prompt: "Translate into German, using an idiom.",
             source: "Nobody feels responsible, that's the crux of the matter.",
             answer: "Niemand fühlt sich zuständig, da liegt der Hund begraben.",
-            altAnswers: ["Keiner fühlt sich zuständig, da liegt der Hund begraben.", "Niemand fühlt sich verantwortlich, da liegt der Hund begraben.", "Niemand fühlt sich zuständig, das ist der Knackpunkt.", "Keiner fühlt sich verantwortlich, da liegt der Hund begraben."],
+            altAnswers: ["Keiner fühlt sich zuständig, da liegt der Hund begraben.", "Niemand fühlt sich verantwortlich, da liegt der Hund begraben.", "Niemand fühlt sich zuständig, genau da liegt der Hund begraben.", "Keiner fühlt sich verantwortlich, da liegt der Hund begraben."],
             explanation: "\"Da liegt der Hund begraben\": fixed, usually with \"da\" (or \"hier\") and the participle \"begraben\".",
           },
           {
@@ -722,7 +722,7 @@ export const DE_C2_U04: Lesson[] = [
         prompt: "Translate into German, using an idiom.",
         source: "Now we need to talk straight.",
         answer: "Jetzt müssen wir mal Tacheles reden.",
-        altAnswers: ["Jetzt müssen wir Tacheles reden.", "Wir müssen jetzt mal Tacheles reden.", "Wir müssen jetzt Tacheles reden.", "Jetzt müssen wir mal offen reden."],
+        altAnswers: ["Jetzt müssen wir Tacheles reden.", "Wir müssen jetzt mal Tacheles reden.", "Wir müssen jetzt Tacheles reden."],
         explanation: "\"Tacheles reden\" comes from Yiddish \"tachles\" (purpose, the point).",
       },
       {
@@ -1413,7 +1413,7 @@ export const DE_C2_U04: Lesson[] = [
       {
         heading: "Verb and noun: Rolle, Bescheid, Rücksicht, Kritik",
         body: [
-          "\"Eine Rolle spielen\" (to play a role, to matter): \"Geld spielt keine Rolle.\" \"Bescheid sagen\" or \"Bescheid geben\" (to let someone know): \"Sag mir Bescheid, wenn du da bist.\" \"Bescheid wissen\" (to know about): \"Weiß der Chef schon Bescheid?\" The dative person is essential.",
+          "\"Eine Rolle spielen\" (to play a role, to matter): \"Geld spielt keine Rolle.\" \"Bescheid sagen\" or \"Bescheid geben\" (to let someone know): \"Sag mir Bescheid, wenn du da bist.\" \"Bescheid wissen\" (to know about): \"Weiß der Chef schon Bescheid?\" With \"sagen\" and \"geben\" the dative person is essential.",
           "\"Rücksicht nehmen auf\" + accusative (to be considerate of): \"Bitte nehmen Sie Rücksicht auf die Nachbarn.\" \"Kritik üben an\" + dative (to criticise, formal): \"Die Opposition übte scharfe Kritik an dem Gesetz.\" Note the different prepositions and cases.",
         ],
         examples: [
@@ -1561,7 +1561,7 @@ export const DE_C2_U04: Lesson[] = [
         type: "listen-choose",
         audio: "Ein Umzug nach München kommt für uns im Moment nicht in Frage.",
         question: "What does the speaker say?",
-        options: ["Moving to Munich is not an option for them at the moment.", "They are asking whether to move to Munich.", "They are moving to Munich soon.", "They question the move to Munich of others."],
+        options: ["Moving to Munich is not an option for them at the moment.", "They are asking whether to move to Munich.", "They are moving to Munich soon.", "They are questioning other people's move to Munich."],
         correctIndex: 0,
         explanation: "\"Nicht in Frage kommen\" = to be out of the question.",
       },
@@ -1577,7 +1577,7 @@ export const DE_C2_U04: Lesson[] = [
 
 export const DE_C2_U04_WRITING: WriteExercise = {
   type: "write",
-  prompt: "A German city magazine invites readers to send in a short, humorous column (Glosse) about everyday life. Write about your first months in a German shared flat (WG): the cleaning rota, a flatmate's permanent guest and the moment it all came to a head. Use at least six idioms with the correct grammar and keep the register lively but publishable. End with a twist or a lesson learned.",
+  prompt: "A German city magazine invites readers to send in a short, humorous column (\"Glosse\") about everyday life. Write about your first months in a German shared flat (\"WG\"): the cleaning rota, a flatmate's permanent guest and the moment it all came to a head. Use at least six idioms with the correct grammar and keep the register lively but publishable. End with a twist or a lesson learned.",
   minWords: 250,
   maxWords: 400,
   rubric: ["Uses at least six idioms correctly, with their frozen grammar and the right case (\"das geht mir auf den Keks\", \"ins Fettnäpfchen getreten\", \"den Nagel auf den Kopf treffen\")", "Keeps a consistent, publishable register: lively and casual, but no vulgar idioms (\"die Nase voll haben\" rather than the crude version)", "Avoids English calques and uses native collocations (\"es regnet in Strömen\", \"eine Rolle spielen\", \"Rücksicht nehmen auf\")", "Has a clear arc with a pointed ending, using verbs of change where natural (\"relativieren\", \"nachbessern\", \"sich verschärfen\")"],

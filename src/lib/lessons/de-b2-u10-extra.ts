@@ -33,7 +33,7 @@ export const DE_B2_U10_EXTRA: Lesson[] = [
             source: "Please be considerate of older passengers.",
             answer: "Bitte nehmen Sie Rücksicht auf ältere Fahrgäste.",
             altAnswers: ["Nehmen Sie bitte Rücksicht auf ältere Fahrgäste.", "Bitte nehmen Sie Rücksicht auf ältere Passagiere."],
-            explanation: "\"Auf\" + accusative plural: \"ältere Fahrgäste\". \"Rücksicht haben\" would be the typical English-based slip.",
+            explanation: "\"Auf\" + accusative plural: \"ältere Fahrgäste\". \"*Rücksicht haben*\" would be the typical English-based slip.",
           },
           {
             type: "fill-blank",
@@ -41,7 +41,7 @@ export const DE_B2_U10_EXTRA: Lesson[] = [
             en: "Many citizens [criticise] the new station.",
             sentence: "Viele Bürger üben Kritik ___ dem neuen Bahnhof.",
             answer: "an",
-            explanation: "\"Kritik üben an\" + dative: \"an dem neuen Bahnhof\" (not \"*über\").",
+            explanation: "\"Kritik üben an\" + dative: \"an dem neuen Bahnhof\" (not \"*über*\").",
           },
         ],
       },
@@ -71,8 +71,8 @@ export const DE_B2_U10_EXTRA: Lesson[] = [
         prompt: "Translate into German, with a Funktionsverbgefüge.",
         source: "I'm referring to our phone call yesterday.",
         answer: "Ich nehme Bezug auf unser Telefonat von gestern.",
-        altAnswers: ["Ich nehme Bezug auf unser gestriges Telefonat.", "Ich beziehe mich auf unser Telefonat von gestern."],
-        explanation: "\"Bezug nehmen auf\" + accusative: \"auf unser Telefonat\".",
+        altAnswers: ["Ich nehme Bezug auf unser gestriges Telefonat."],
+        explanation: "\"Bezug nehmen auf\" + accusative: \"auf unser Telefonat\". The simple verb \"sich beziehen auf\" is also correct German, but this task asks for the Funktionsverbgefüge.",
       },
       {
         type: "translate",
@@ -136,7 +136,7 @@ export const DE_B2_U10_EXTRA: Lesson[] = [
         question: "Complete: \"Sie nimmt keine Rücksicht ___ ihre Mitbewohner.\"",
         options: ["auf", "an", "für", "zu"],
         correctIndex: 0,
-        explanation: "\"Rücksicht nehmen auf\" + accusative; \"*für\" is a common English-based slip.",
+        explanation: "\"Rücksicht nehmen auf\" + accusative; \"*für*\" is a common English-based slip.",
       },
       {
         type: "translate",
@@ -168,13 +168,13 @@ export const DE_B2_U10_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Formal Emails",
-    summary: "Rewrite a casual email to a colleague as a formal one.",
+    summary: "Rewrite a casual email to a colleague as a formal one, with \"Sie\", Konjunktiv II and Funktionsverbgefüge.",
     duration: "14 min",
     sections: [
       {
         heading: "Recap: from casual to formal",
         body: [
-          "Casual: \"Hi Tom, kannst du mir die Unterlagen schicken? Sag Bescheid, wenn's Probleme gibt. LG, Anna\". Formal: \"Sehr geehrter Herr Braun, könnten Sie mir bitte die Unterlagen zukommen lassen? Bitte setzen Sie sich mit mir in Verbindung, falls Probleme auftreten. Mit freundlichen Grüßen, Anna Keller\".",
+          "Casual: \"Hi Tom, kannst du mir die Unterlagen schicken? Sag Bescheid, wenn's Probleme gibt. LG, Anna\". Formal: \"Sehr geehrter Herr Braun, könnten Sie mir bitte die Unterlagen zukommen lassen? Bitte setzen Sie sich mit mir in Verbindung, falls Probleme auftreten. Mit freundlichen Grüßen\", with \"Anna Keller\" on the next line (no comma after the closing).",
           "Tools: \"Sie\" instead of \"du\", Konjunktiv II for requests (\"könnten Sie\", \"würden Sie\"), FVGs and nominal style (\"zur Verfügung stellen\", \"in Anspruch nehmen\", \"Bezug nehmen auf\"), full sentences without abbreviations, and fixed openings and closings.",
         ],
         examples: [
@@ -222,8 +222,8 @@ export const DE_B2_U10_EXTRA: Lesson[] = [
         prompt: "Rewrite in formal German, with a Funktionsverbgefüge. Casual: \"Wie am Montag besprochen ...\"",
         source: "I'm referring to our conversation on Monday.",
         answer: "Ich nehme Bezug auf unser Gespräch vom Montag.",
-        altAnswers: ["Ich nehme Bezug auf unser Gespräch am Montag.", "Ich beziehe mich auf unser Gespräch vom Montag."],
-        explanation: "\"Bezug nehmen auf\" is a standard opening in formal letters.",
+        altAnswers: ["Ich nehme Bezug auf unser Gespräch am Montag."],
+        explanation: "\"Bezug nehmen auf\" + accusative is a standard opening in formal letters (the simple verb would be \"sich beziehen auf\").",
       },
       {
         type: "translate",
@@ -296,6 +296,7 @@ export const DE_B2_U10_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: Please let me know by Friday.",
         words: ["Bitte", "geben", "Sie", "mir", "bis", "Freitag", "Bescheid."],
         translation: "Please let me know by Friday.",
+        altOrders: [["geben", "Sie", "mir", "Bitte", "bis", "Freitag", "Bescheid."]],
         explanation: "\"Bescheid geben\" with \"Sie\" in the imperative: verb first, then \"Sie\".",
       },
       {
@@ -333,19 +334,19 @@ export const DE_B2_U10_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Which Verb Goes with the Noun?",
-    summary: "Pick the right verb for each noun: \"treffen\", \"stellen\", \"nehmen\", \"üben\", \"ziehen\", \"bringen\".",
+    summary: "Choose the right verb for each noun (\"eine Entscheidung treffen\", \"eine Frage stellen\", \"Kritik üben\") instead of the English 'make' or 'take'.",
     duration: "12 min",
     sections: [
       {
         heading: "Recap: verb families",
         body: [
           "\"treffen\": \"eine Entscheidung\", \"eine Vereinbarung\" (agreement), \"Maßnahmen\" (measures). \"stellen\": \"eine Frage\", \"einen Antrag\", \"eine Forderung\" (demand), \"zur Verfügung\", \"in Frage\". \"nehmen\": \"Rücksicht\", \"Einfluss\", \"Bezug\", \"Abschied\", \"in Anspruch\".",
-          "\"üben\": \"Kritik\". \"ziehen\": \"in Betracht\", \"Konsequenzen\" (draw consequences, act on something), \"einen Vergleich\" (comparison). \"bringen\": \"zur Sprache\", \"zum Ausdruck\", \"in Gang\", \"zum Abschluss\".",
+          "\"üben\": \"Kritik\". \"ziehen\": \"in Betracht\", \"Konsequenzen\" (take action as a result), \"einen Vergleich\" (comparison). \"bringen\": \"zur Sprache\", \"zum Ausdruck\", \"in Gang\", \"zum Abschluss\".",
         ],
         examples: [
           { es: "Die Stadt hat Maßnahmen gegen den Lärm getroffen.", en: "The city has taken measures against the noise." },
           { es: "Die Gewerkschaft stellt hohe Forderungen.", en: "The union is making high demands." },
-          { es: "Aus dem Fehler müssen wir Konsequenzen ziehen.", en: "We have to draw consequences from the mistake." },
+          { es: "Aus dem Fehler müssen wir Konsequenzen ziehen.", en: "We have to take action as a result of the mistake." },
           { es: "Wir haben eine Vereinbarung getroffen.", en: "We've reached an agreement." },
           { es: "Der Autor zieht einen Vergleich zwischen Berlin und Wien.", en: "The author draws a comparison between Berlin and Vienna." },
         ],
@@ -357,7 +358,7 @@ export const DE_B2_U10_EXTRA: Lesson[] = [
             source: "The city has taken measures against the noise.",
             answer: "Die Stadt hat Maßnahmen gegen den Lärm getroffen.",
             altAnswers: ["Die Stadt hat Maßnahmen gegen den Lärm ergriffen.", "Die Stadt traf Maßnahmen gegen den Lärm."],
-            explanation: "\"Maßnahmen treffen\" (or \"ergreifen\"), not \"*nehmen\" or \"*machen\".",
+            explanation: "\"Maßnahmen treffen\" (or \"ergreifen\"), not \"*nehmen*\" or \"*machen*\".",
           },
           {
             type: "matching",
@@ -381,7 +382,7 @@ export const DE_B2_U10_EXTRA: Lesson[] = [
         en: "We've [reached] an agreement.",
         sentence: "Wir haben eine Vereinbarung ___.",
         answer: "getroffen",
-        explanation: "\"Eine Vereinbarung treffen\" (not \"*machen\").",
+        explanation: "\"Eine Vereinbarung treffen\" (not \"*machen*\").",
       },
       {
         type: "fill-blank",
@@ -389,15 +390,16 @@ export const DE_B2_U10_EXTRA: Lesson[] = [
         en: "The union is [making] high demands.",
         sentence: "Die Gewerkschaft ___ hohe Forderungen.",
         answer: "stellt",
-        explanation: "\"Forderungen stellen\" (not \"*machen\").",
+        explanation: "\"Forderungen stellen\" (not \"*machen*\").",
       },
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "We have to [draw] consequences from the mistake.",
-        sentence: "Aus dem Fehler müssen wir Konsequenzen ___.",
-        answer: "ziehen",
-        explanation: "\"Konsequenzen ziehen\": like drawing a conclusion, then acting on it.",
+        en: "We have to [take action] as a result of the mistake.",
+        sentence: "Aus dem Fehler müssen wir ___.",
+        answer: "Konsequenzen ziehen",
+        altAnswers: ["die Konsequenzen ziehen"],
+        explanation: "\"Konsequenzen ziehen\": the verb is \"ziehen\", as in \"Schlüsse ziehen\" (draw conclusions), and the phrase means to act on what has happened. English does not say 'draw consequences'.",
       },
       {
         type: "fill-blank",
@@ -431,7 +433,7 @@ export const DE_B2_U10_EXTRA: Lesson[] = [
         source: "May I ask you a question?",
         answer: "Darf ich Ihnen eine Frage stellen?",
         altAnswers: ["Darf ich dir eine Frage stellen?", "Darf ich euch eine Frage stellen?", "Kann ich Ihnen eine Frage stellen?", "Dürfte ich Ihnen eine Frage stellen?"],
-        explanation: "\"Eine Frage stellen\" + dative (\"Ihnen\", \"dir\", \"euch\"), never \"*fragen\".",
+        explanation: "\"Eine Frage stellen\" + dative (\"Ihnen\", \"dir\", \"euch\"), never \"*fragen*\".",
       },
       {
         type: "translate",
@@ -472,14 +474,14 @@ export const DE_B2_U10_EXTRA: Lesson[] = [
         question: "Complete: \"Die Stadt hat Maßnahmen gegen den Lärm ___.\"",
         options: ["getroffen", "gemacht", "gestellt", "gebracht"],
         correctIndex: 0,
-        explanation: "\"Maßnahmen treffen\" or \"ergreifen\"; \"*machen\" is an English-based slip.",
+        explanation: "\"Maßnahmen treffen\" or \"ergreifen\"; \"*machen*\" is an English-based slip.",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: The union is making new demands.",
         words: ["Die", "Gewerkschaft", "stellt", "neue", "Forderungen."],
         translation: "The union is making new demands.",
-        explanation: "\"Forderungen stellen\" (not \"*machen\").",
+        explanation: "\"Forderungen stellen\" (not \"*machen*\").",
       },
       {
         type: "listen-choose",
@@ -632,6 +634,7 @@ export const DE_B2_U10_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: Measures against the noise were taken.",
         words: ["Gegen", "den", "Lärm", "wurden", "Maßnahmen", "getroffen."],
         translation: "Measures against the noise were taken.",
+        altOrders: [["Maßnahmen", "Gegen", "den", "Lärm", "wurden", "getroffen."]],
         explanation: "Plural subject \"Maßnahmen\": \"wurden\".",
       },
       {

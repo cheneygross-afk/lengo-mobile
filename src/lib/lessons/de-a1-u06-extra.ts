@@ -9,7 +9,7 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Possessives & Family, Part 1 of 3",
-    summary: "Mein, dein, sein and ihr with new nouns of every gender.",
+    summary: "Use \"mein\", \"dein\", \"sein\" and \"ihr\" with new nouns of every gender.",
     duration: "10 min",
     sections: [
       {
@@ -172,7 +172,7 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Possessives & Family, Part 2 of 3",
-    summary: "Unser, euer, Ihr and the accusative forms meinen, unseren, euren.",
+    summary: "Use \"unser\", \"euer\", \"Ihr\" and the accusative forms \"meinen\", \"unseren\", \"euren\".",
     duration: "10 min",
     sections: [
       {
@@ -269,7 +269,7 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Can you show [your] passport, please, Mrs Schneider?",
+        en: "Can you show [your] passport, please, Ms Schneider?",
         sentence: "Können Sie bitte ___ Pass zeigen, Frau Schneider?",
         answer: "Ihren",
         explanation: "Polite owner, masculine object → \"Ihren\".",
@@ -488,14 +488,14 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
     number: 4,
     optional: true,
     title: "Extra Practice: Contrast Clinic: Saying 's in German",
-    summary: "Annas Auto, das Auto von Anna, sein Auto, ihr Auto: every way to show possession, and where the apostrophe does not go.",
+    summary: "Show possession every way (\"Annas Auto\", \"das Auto von Anna\", \"sein Auto\", \"ihr Auto\") and know where the apostrophe does not go.",
     duration: "10 min",
     sections: [
       {
         heading: "Recap: four ways to say whose",
         body: [
-          "With a name: add -s with no apostrophe (\"Annas Auto\") or use \"von\" (\"das Auto von Anna\"). Instead of the name: a possessive (\"ihr Auto\", \"sein Auto\"). The apostrophe is only used when the name already ends in an s sound: \"Hans' Auto\", though \"das Auto von Hans\" is easier.",
-          "Notice that with name + s there's no article: \"Annas Auto\", never \"*das Annas Auto\". With von, the article is back: \"das Auto von Anna\".",
+          "With a name: add -s with no apostrophe (\"Annas Auto\") or use \"von\" (\"das Auto von Anna\"). Instead of the name: a possessive (\"ihr Auto\", \"sein Auto\"). In normal writing the apostrophe is only needed when the name already ends in an s sound: \"Hans' Auto\", though \"das Auto von Hans\" is easier.",
+          "Notice that with name + s there's no article: \"Annas Auto\", never \"*das Annas Auto*\". With von, the article is back: \"das Auto von Anna\".",
         ],
         examples: [
           { es: "Das ist Annas Auto.", en: "That's Anna's car." },
@@ -508,9 +508,9 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which is correct standard German for 'Peter's flat'?",
-            options: ["Peters Wohnung", "Peter's Wohnung", "die Peters Wohnung", "Wohnung Peters von"],
+            options: ["Peters Wohnung", "Peters' Wohnung", "die Peters Wohnung", "Wohnung Peters von"],
             correctIndex: 0,
-            explanation: "Name + s, no apostrophe and no article.",
+            explanation: "Name + s, no apostrophe and no article. (\"Peter's\" is seen on signs, but it isn't the standard spelling.)",
           },
           {
             type: "translate",
@@ -518,7 +518,6 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
             prompt: "Translate into German, using \"von\".",
             source: "That's Lena's brother.",
             answer: "Das ist der Bruder von Lena.",
-            altAnswers: ["Das ist Lenas Bruder."],
             explanation: "\"Der Bruder von Lena\": with von the article comes back.",
           },
         ],
@@ -613,7 +612,7 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
         question: "Which phrase is NOT correct?",
         options: ["das Annas Auto", "Annas Auto", "das Auto von Anna", "ihr Auto"],
         correctIndex: 0,
-        explanation: "Name + s replaces the article: never \"*das Annas Auto\".",
+        explanation: "Name + s replaces the article: never \"*das Annas Auto*\".",
       },
       {
         type: "word-order",
@@ -865,7 +864,7 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "How old is your daughter? (polite)",
+        source: "How old is your daughter? (formal)",
         answer: "Wie alt ist Ihre Tochter?",
         explanation: "Polite \"Ihre\" + feminine \"Tochter\".",
       },
@@ -927,10 +926,10 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Someone says \"Ich habe 25 Jahre.\" What's the correct German?",
+        question: "Someone says \"*Ich habe 25 Jahre.*\" What's the correct German?",
         options: ["Ich bin 25.", "Ich habe 25 Jahre alt.", "Ich bin 25 Jahren.", "Ich habe fünfundzwanzig."],
         correctIndex: 0,
-        explanation: "Age uses \"sein\": \"Ich bin 25 (Jahre alt)\".",
+        explanation: "Age uses \"sein\": \"Ich bin 25 (Jahre alt)\". Age with \"haben\" is a classic slip, and \"*Jahren*\" has a wrong ending.",
       },
       {
         type: "multiple-choice",
@@ -1118,7 +1117,7 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
     number: 8,
     optional: true,
     title: "Extra Practice: Real-World Mission: Reading a Timetable",
-    summary: "Use a train timetable and a school timetable to answer Wie spät ist es? and Um wie viel Uhr...?",
+    summary: "Use a train timetable and a school timetable to answer \"Wie spät ist es?\" and \"Um wie viel Uhr...?\"",
     duration: "12 min",
     sections: [
       {
@@ -1279,7 +1278,7 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
     number: 9,
     optional: true,
     title: "Extra Practice: Real-World Mission: At the Market",
-    summary: "Buy food in quantities and pay: ein Kilo Tomaten, Was kostet der Käse?, Das macht zusammen 8,40 Euro.",
+    summary: "Buy food in quantities and pay: \"ein Kilo Tomaten\", \"Was kostet der Käse?\", \"Das macht zusammen 8,40 Euro.\"",
     duration: "12 min",
     sections: [
       {
@@ -1302,7 +1301,7 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
             prompt: "Translate into German.",
             source: "I'd like a kilo of tomatoes.",
             answer: "Ich hätte gern ein Kilo Tomaten.",
-            altAnswers: ["Ich möchte ein Kilo Tomaten.", "Ich hätte gerne ein Kilo Tomaten.", "Ein Kilo Tomaten, bitte."],
+            altAnswers: ["Ich möchte ein Kilo Tomaten.", "Ich hätte gerne ein Kilo Tomaten.", "Ein Kilo Tomaten, bitte.", "Ich hätte gern ein Kilo Tomaten, bitte.", "Ich möchte ein Kilo Tomaten, bitte."],
             explanation: "No of: \"ein Kilo Tomaten\".",
           },
           {
@@ -1359,7 +1358,7 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Six eggs and a bunch of flowers, please.",
         answer: "Sechs Eier und einen Strauß Blumen, bitte.",
-        altAnswers: ["Sechs Eier und ein Strauß Blumen, bitte.", "Ich hätte gern sechs Eier und einen Strauß Blumen."],
+        altAnswers: ["Sechs Eier und ein Strauß Blumen, bitte.", "Ich hätte gern sechs Eier und einen Strauß Blumen.", "Ich hätte gern sechs Eier und einen Strauß Blumen, bitte.", "Ich möchte sechs Eier und einen Strauß Blumen, bitte."],
         explanation: "\"Ein Strauß Blumen\": no of. As something you're asking for, \"einen Strauß\" is the accusative.",
       },
       {
@@ -1369,7 +1368,7 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
         source: "Can I pay by card?",
         answer: "Kann ich mit Karte zahlen?",
         altAnswers: ["Kann ich mit Karte bezahlen?", "Kann ich mit der Karte zahlen?", "Kann ich mit der Karte bezahlen?"],
-        explanation: "Many market stalls only take cash (\"nur Bargeld\"), so it's worth asking.",
+        explanation: "The modal \"kann\" comes first, the infinitive last. Many market stalls only take cash (\"nur Bargeld\"), so it's worth asking.",
       },
       {
         type: "fill-blank",
@@ -1439,7 +1438,7 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
     number: 10,
     optional: true,
     title: "Extra Practice: Contrast Clinic: Ein, Kein or No Article?",
-    summary: "Ein Kaffee (one cup) vs Kaffee (coffee in general) vs kein Kaffee, in minimal pairs.",
+    summary: "Tell \"ein Kaffee\" (one cup) from \"Kaffee\" (coffee in general) and \"kein Kaffee\", in minimal pairs.",
     duration: "10 min",
     sections: [
       {
@@ -1524,7 +1523,7 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Would you like some water? (polite)",
+        source: "Would you like some water? (formal)",
         answer: "Möchten Sie Wasser?",
         altAnswers: ["Möchten Sie etwas Wasser?", "Möchten Sie ein Wasser?"],
         explanation: "No word for some; \"ein Wasser\" (a glass or bottle) also works.",
@@ -1555,7 +1554,7 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A learner wrote \"*Ich esse ein Apfel.\" What's wrong?",
+        question: "A learner wrote \"*Ich esse ein Apfel.*\" What's wrong?",
         options: ["It should be \"einen Apfel\".", "It should be \"Apfel\" without \"ein\".", "It should be \"kein Apfel\".", "Nothing."],
         correctIndex: 0,
         explanation: "One apple → \"ein\", but \"der Apfel\" is a masculine object → \"einen Apfel\".",
@@ -1580,7 +1579,7 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Do you have any children? — No, we don't have any children.",
         answer: "Haben Sie Kinder? — Nein, wir haben keine Kinder.",
-        altAnswers: ["Haben Sie Kinder? Nein, wir haben keine Kinder.", "Habt ihr Kinder? — Nein, wir haben keine Kinder.", "Habt ihr Kinder? Nein, wir haben keine Kinder."],
+        altAnswers: ["Haben Sie Kinder? Nein, wir haben keine Kinder.", "Habt ihr Kinder? — Nein, wir haben keine Kinder.", "Habt ihr Kinder? Nein, wir haben keine Kinder.", "Hast du Kinder? — Nein, wir haben keine Kinder.", "Hast du Kinder? Nein, wir haben keine Kinder."],
         explanation: "Plural with no article; negative → \"keine\".",
       },
       {

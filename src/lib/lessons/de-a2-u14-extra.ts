@@ -9,11 +9,11 @@ export const DE_A2_U14_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Subordinate Clauses, Part 1 of 3",
-    summary: "Fresh practice with weil and dass: give reasons and report thoughts with the verb at the end.",
+    summary: "Give reasons with \"weil\" and report thoughts with \"dass\", with the verb at the end, in fresh sentences.",
     duration: "12 min",
     sections: [
       {
-        heading: "Recap: weil and dass",
+        heading: "Recap: \"weil\" and \"dass\"",
         body: [
           "\"Weil\" (because) and \"dass\" (that) start a subordinate clause: comma first, then the conjunction, the subject, everything else, and the conjugated verb last. \"Ich gehe früh, weil ich müde bin\"; \"Ich glaube, dass sie recht hat\".",
           "Without \"dass\" you keep main-clause order: \"Ich glaube, sie hat recht\". Never mix the two.",
@@ -132,7 +132,7 @@ export const DE_A2_U14_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "It's a pity [that the weather is] so bad.",
+        en: "It's a pity [that the weather] is so bad.",
         sentence: "Schade, ___ so schlecht ist.",
         answer: "dass das Wetter",
         explanation: "\"Dass\" (conjunction) + \"das Wetter\" (article): two different words.",
@@ -173,11 +173,11 @@ export const DE_A2_U14_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Subordinate Clauses, Part 2 of 3",
-    summary: "Fresh practice with wenn and ob, with the clause both second and first.",
+    summary: "Use \"wenn\" and \"ob\" correctly, with the clause both second and first.",
     duration: "12 min",
     sections: [
       {
-        heading: "Recap: wenn, ob and verb, comma, verb",
+        heading: "Recap: \"wenn\", \"ob\" and verb, comma, verb",
         body: [
           "\"Wenn\" is if (a condition) or when/whenever; \"ob\" is if meaning whether, after verbs like \"wissen\", \"fragen\", \"nicht sicher sein\". Both send the verb to the end.",
           "When the clause comes first, the main clause starts with its verb: \"Wenn du willst, helfe ich dir\". Verb, comma, verb.",
@@ -337,7 +337,7 @@ export const DE_A2_U14_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Subordinate Clauses, Part 3 of 3",
-    summary: "Verb-final order with the Perfekt, modal verbs and separable verbs in fresh sentences and short texts.",
+    summary: "Put the verb cluster at the end with the Perfekt, modal verbs and separable verbs, in fresh sentences and short texts.",
     duration: "13 min",
     sections: [
       {
@@ -452,7 +452,7 @@ export const DE_A2_U14_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "If you want to sleep, I'll turn off the music.",
         answer: "Wenn du schlafen willst, mache ich die Musik aus.",
-        altAnswers: ["Wenn du schlafen möchtest, mache ich die Musik aus.", "Wenn du schlafen willst, mach ich die Musik aus.", "Wenn Sie schlafen wollen, mache ich die Musik aus."],
+        altAnswers: ["Wenn du schlafen möchtest, mache ich die Musik aus.", "Wenn du schlafen willst, mach ich die Musik aus.", "Wenn Sie schlafen wollen, mache ich die Musik aus.", "Wenn ihr schlafen wollt, mache ich die Musik aus.", "Ich mache die Musik aus, wenn du schlafen willst."],
         explanation: "\"Schlafen willst, mache ich\": verb, comma, verb; \"ausmachen\" splits in the main clause.",
       },
       {
@@ -496,7 +496,7 @@ export const DE_A2_U14_EXTRA: Lesson[] = [
     number: 4,
     optional: true,
     title: "Extra Practice: Dialogue Lab: Excuses, Excuses",
-    summary: "A flatmate explains why the chores aren't done: practise weil, denn and dass in a realistic WG argument.",
+    summary: "A flatmate explains why the chores aren't done: practise \"weil\", \"denn\" and \"dass\" in a realistic WG (flatshare) argument.",
     duration: "13 min",
     sections: [
       {
@@ -541,7 +541,7 @@ export const DE_A2_U14_EXTRA: Lesson[] = [
         prompt: "Lena: Translate into German.",
         source: "Why didn't you take the rubbish out?",
         answer: "Warum hast du den Müll nicht rausgebracht?",
-        altAnswers: ["Warum hast du den Müll nicht runtergebracht?", "Wieso hast du den Müll nicht rausgebracht?"],
+        altAnswers: ["Warum hast du den Müll nicht runtergebracht?", "Wieso hast du den Müll nicht rausgebracht?", "Warum hast du den Müll nicht weggebracht?"],
         explanation: "\"Den Müll rausbringen\" = take the rubbish out; Perfekt \"rausgebracht\".",
       },
       {
@@ -578,7 +578,7 @@ export const DE_A2_U14_EXTRA: Lesson[] = [
         source: "I had to work until nine.",
         answer: "Ich musste bis neun arbeiten.",
         altAnswers: ["Ich musste bis neun Uhr arbeiten."],
-        explanation: "Präteritum of müssen: \"musste\"; infinitive at the end.",
+        explanation: "Modals use the Präteritum for the past: \"musste\" (from \"müssen\", no umlaut); the infinitive goes to the end.",
       },
       {
         type: "translate",
@@ -604,7 +604,7 @@ export const DE_A2_U14_EXTRA: Lesson[] = [
         prompt: "Lena: Translate into German.",
         source: "If you don't clean up today, I'll tell everyone.",
         answer: "Wenn du heute nicht aufräumst, sage ich es allen.",
-        altAnswers: ["Wenn du heute nicht aufräumst, sag ich es allen.", "Wenn du heute nicht putzt, sage ich es allen."],
+        altAnswers: ["Wenn du heute nicht aufräumst, sag ich es allen.", "Wenn du heute nicht putzt, sage ich es allen.", "Wenn du heute nicht aufräumst, erzähle ich es allen."],
         explanation: "\"Aufräumst, sage ich\": verb, comma, verb.",
       },
       {
@@ -674,7 +674,7 @@ export const DE_A2_U14_EXTRA: Lesson[] = [
           { es: "Er ist froh, weil seine Eltern ihm geholfen haben.", en: "He's glad because his parents helped him." },
           { es: "Weißt du, ob Lena ihrer Mutter die Fotos gezeigt hat?", en: "Do you know if Lena showed her mother the photos?" },
           { es: "Ich glaube, dass der rote Pullover dir besser steht.", en: "I think the red jumper suits you better." },
-          { es: "Wir sind spät, weil wir den richtigen Bus nicht gefunden haben.", en: "We're late because we couldn't find the right bus." },
+          { es: "Wir sind spät dran, weil wir den richtigen Bus nicht gefunden haben.", en: "We're late because we couldn't find the right bus." },
         ],
         checkpoint: [
           {
@@ -783,11 +783,11 @@ export const DE_A2_U14_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "I hope [you like] the cake.",
+        en: "I hope [you] like the cake.",
         sentence: "Ich hoffe, dass ___ der Kuchen schmeckt.",
         answer: "dir",
         altAnswers: ["Ihnen", "euch"],
-        explanation: "\"Schmecken\" + dative: \"dir\". The verb \"schmeckt\" is already at the end.",
+        explanation: "\"Schmecken\" takes the dative: the person who likes it is \"dir\" (not \"*dich*\"), and the cake is the subject. The verb \"schmeckt\" is already at the end.",
       },
       {
         type: "word-order",
@@ -825,7 +825,7 @@ export const DE_A2_U14_EXTRA: Lesson[] = [
     number: 6,
     optional: true,
     title: "Extra Practice: Mixed Practice: Small Words, Big Differences",
-    summary: "Denn or weil, das or dass, wenn or ob: one mixed set of the small words that change the whole sentence.",
+    summary: "Choose between \"denn\" and \"weil\", \"das\" and \"dass\", \"wenn\" and \"ob\": the small words that change the whole sentence.",
     duration: "13 min",
     sections: [
       {
@@ -1050,7 +1050,7 @@ export const DE_A2_U14_EXTRA: Lesson[] = [
         source: "Today I'm tired.",
         answer: "Heute bin ich müde.",
         altAnswers: ["Ich bin heute müde."],
-        explanation: "Time word first → verb second, subject after it: \"Heute bin ich\", not \"*Heute ich bin\".",
+        explanation: "Time word first → verb second, subject after it: \"Heute bin ich\", not \"*Heute ich bin*\".",
       },
       {
         type: "translate",
@@ -1099,7 +1099,7 @@ export const DE_A2_U14_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "I know that he has called.",
+        source: "I know that he called.",
         answer: "Ich weiß, dass er angerufen hat.",
         altAnswers: ["Ich weiß, er hat angerufen."],
         explanation: "In the dass-clause the auxiliary \"hat\" goes last, after the participle.",
@@ -1150,7 +1150,7 @@ export const DE_A2_U14_EXTRA: Lesson[] = [
     number: 8,
     optional: true,
     title: "Extra Practice: Say It Yourself: Why I Learn German",
-    summary: "Guided speaking and translation: explain why you learn German, what you hope and what you do when you have time, using weil, dass and wenn.",
+    summary: "Guided speaking and translation: explain why you learn German, what you hope and what you do when you have time, using \"weil\", \"dass\" and \"wenn\".",
     duration: "12 min",
     sections: [
       {

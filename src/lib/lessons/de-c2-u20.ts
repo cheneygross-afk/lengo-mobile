@@ -627,7 +627,7 @@ export const DE_C2_U20: Lesson[] = [
     slug: "c2-one-minute-speech-mission",
     level: "DE-C2",
     number: 4,
-    title: "Real-World Mission: Eine Einminütige Rede",
+    title: "Real-World Mission: Eine einminütige Rede",
     summary: "Write and deliver a one-minute speech for a local \"Bürgerinitiative\" (citizens' action group): open with a question, build emphasis, and end with an appeal.",
     duration: "20 min",
     sections: [
@@ -1330,7 +1330,7 @@ export const DE_C2_U20: Lesson[] = [
         heading: "Public finances: Haushaltsdefizit, Schuldenbremse",
         body: [
           "\"Der Haushalt\" is a public budget (\"der Bundeshaushalt\"); \"das Haushaltsdefizit\" is the deficit, \"der Haushaltsüberschuss\" a surplus, \"die Staatsverschuldung\" public debt, \"neue Schulden aufnehmen\" to take on new debt.",
-          "\"Die Schuldenbremse\" (debt brake) is a rule in the German Basic Law (\"im Grundgesetz verankert\") that limits the federal structural deficit to 0.35 % of GDP (a 2025 amendment exempts defence spending above 1 % of GDP). Debates about \"die Schuldenbremse lockern / reformieren / aussetzen\" (loosen / reform / suspend) dominate German budget politics.",
+          "\"Die Schuldenbremse\" (debt brake) is a rule in the German Basic Law (\"im Grundgesetz verankert\") that limits the federal structural deficit to 0.35% of GDP (a 2025 amendment exempts defence spending above 1% of GDP). Debates about \"die Schuldenbremse lockern / reformieren / aussetzen\" (loosen / reform / suspend) dominate German budget politics.",
           "\"Die schwarze Null\" (the black zero) was the political slogan for a balanced budget with no new debt. \"Sparen\" (to save, cut spending) and \"investieren\" stand on opposite sides of this debate.",
         ],
         examples: [
@@ -1658,10 +1658,10 @@ export const DE_C2_U20_WRITING: WriteExercise = {
   maxWords: 400,
   rubric: [
     "Frames the guiding question with indirect questions (\"Es stellt sich die Frage, ob...\", \"inwiefern\", \"Zu klären ist, ...\")",
-    "Uses emphatic fronting and inversion (\"Nie zuvor...\", \"Kaum ein Thema...\", \"Erst wenn..., \", \"Nicht nur ..., sondern...\")",
+    "Uses emphatic fronting and inversion (\"Nie zuvor...\", \"Kaum ein Thema...\", \"Erst wenn...\", \"Nicht nur ..., sondern...\")",
     "Uses one or two rhetorical questions deliberately (\"Was wäre die Alternative?\", \"Wer würde bestreiten, dass...?\")",
     "Uses precise economic vocabulary (\"Schuldenbremse\", \"Haushaltsdefizit\", \"Konjunktur\", \"Wertschöpfung\", \"dürfte\")",
   ],
   modelAnswer: "Einleitung\nKaum ein haushaltspolitisches Thema wird in Deutschland derzeit so leidenschaftlich diskutiert wie die Schuldenbremse. Marode Brücken, sanierungsbedürftige Schulen und eine schleppende Digitalisierung zeigen, dass der Investitionsbedarf erheblich ist. Gleichzeitig verweisen Befürworter der Regel darauf, dass solide Staatsfinanzen das Vertrauen in die Wirtschaft stärken und künftige Generationen schützen. Es stellt sich daher die Frage, ob die Schuldenbremse gelockert werden sollte, um mehr in Bildung und Infrastruktur zu investieren, und wenn ja, unter welchen Bedingungen. Zu klären ist dabei auch, inwiefern zusätzliche Schulden tatsächlich zu höherer Wertschöpfung führen.\nIm Folgenden werden zunächst die Argumente für eine Reform erläutert, anschließend die Einwände ihrer Gegner geprüft, bevor abschließend eine eigene Position entwickelt wird.\n\nSchluss\nDie eingangs gestellte Frage lässt sich nicht mit einem einfachen Ja oder Nein beantworten. Nicht nur die Höhe der Schulden ist entscheidend, sondern vor allem ihre Verwendung. Wer würde ernsthaft bestreiten, dass ein Kredit für eine neue Schule etwas anderes ist als ein Kredit für laufende Ausgaben? Erst wenn diese Unterscheidung klar im Gesetz verankert ist, lässt sich eine Lockerung verantworten. Nie zuvor war der Investitionsstau so sichtbar wie heute; gleichzeitig dürfte das Haushaltsdefizit durch steigende Zinsen ohnehin wachsen. Eine begrenzte Reform, die ausschließlich Investitionen von der Schuldenregel ausnimmt, erscheint daher als sinnvoller Kompromiss. Was wäre die Alternative? Ein Staat, der seine Haushalte ausgleicht, während seine Schulen verfallen, spart nicht, sondern verschiebt die Kosten nur in die Zukunft.",
-  explanation: "The introduction moves from a hook (\"Kaum ein ... Thema wird ... so ... wie\") to an indirect Fragestellung (\"Es stellt sich daher die Frage, ob...\", \"Zu klären ist..., inwiefern...\") and announces the structure in the impersonal passive. The conclusion answers the question, uses emphatic fronting (\"Nicht nur ..., sondern vor allem\", \"Erst wenn...\", \"Nie zuvor war...\"), two deliberate rhetorical questions and precise economic vocabulary, with \"dürfte\" for a cautious forecast.",
+  explanation: "The introduction moves from a hook (\"Kaum ein ... Thema wird ... so ... wie\") to an indirect \"Fragestellung\" (\"Es stellt sich daher die Frage, ob...\", \"Zu klären ist..., inwiefern...\") and announces the structure in the impersonal passive. The conclusion answers the question, uses emphatic fronting (\"Nicht nur ..., sondern vor allem\", \"Erst wenn...\", \"Nie zuvor war...\"), two deliberate rhetorical questions and precise economic vocabulary, with \"dürfte\" for a cautious forecast.",
 };

@@ -1096,7 +1096,7 @@ export const DE_B1_WRITING: UnitWriting = {
   "b1-challenge-a-week-in-hamburg-2": [
     {
       "type": "write",
-      "prompt": "Exam-style task (Goethe B1, Schreiben Teil 1): you've just spent your first week living in Hamburg. Write an email to your friend Paula (about 80 words): describe what you did this week, say what problem you had, and suggest when she could visit you.",
+      "prompt": "Exam-style task (Goethe B1, Schreiben, part 1): you've just spent your first week living in Hamburg. Write an email to your friend Paula (about 80 words): describe what you did this week, say what problem you had, and suggest when she could visit you.",
       "minWords": 80,
       "maxWords": 120,
       "rubric": [
@@ -1112,7 +1112,7 @@ export const DE_B1_WRITING: UnitWriting = {
   "b1-challenge-schreiben": [
     {
       "type": "write",
-      "prompt": "Exam-style task (Goethe B1, Schreiben Teil 3): you had an appointment with your course leader, Frau Dr. Keller, tomorrow at 10, but you can't come. Write her a short email (about 40 words): apologise politely, give a reason and suggest a new time.",
+      "prompt": "Exam-style task (Goethe B1, Schreiben, part 3): you had an appointment with your course leader, Frau Dr. Keller, tomorrow at 10, but you can't come. Write her a short email (about 40 words): apologise politely, give a reason and suggest a new time.",
       "minWords": 35,
       "maxWords": 60,
       "rubric": [

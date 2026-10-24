@@ -8,7 +8,7 @@ export const DE_B1_U26: Lesson[] = [
     level: "DE-B1",
     number: 1,
     title: "Themed Review: Problems in the WG",
-    summary: "Read about a flat-share where nobody cleans, then complain and suggest solutions with niemand, jemand, keiner, Konjunktiv II and connector adverbs.",
+    summary: "Read about a flat-share where nobody cleans, then complain and suggest solutions with \"niemand\", \"jemand\", \"keiner\", the Konjunktiv II and connector adverbs.",
     duration: "15 min",
     sections: [
       {
@@ -34,7 +34,7 @@ export const DE_B1_U26: Lesson[] = [
             source: "Nobody has cleaned the kitchen.",
             answer: "Niemand hat die Küche geputzt.",
             altAnswers: ["Keiner hat die Küche geputzt.", "Niemand hat die Küche sauber gemacht.", "Keiner hat die Küche sauber gemacht."],
-            explanation: "\"Niemand\" is already negative, so there is no \"nicht\": \"*Niemand hat nicht...\" is a double negative. \"Keiner\" means the same and is a little more colloquial.",
+            explanation: "\"Niemand\" is already negative, so there is no \"nicht\": \"*Niemand hat nicht...*\" is a double negative. \"Keiner\" means the same and is a little more colloquial.",
           },
           {
             type: "fill-blank",
@@ -72,7 +72,7 @@ export const DE_B1_U26: Lesson[] = [
           { es: "Das kann man jemandem, der nie putzt, nicht erklären.", en: "You can't explain that to someone who never cleans." },
           { es: "Es nervt einen, wenn das Geschirr tagelang in der Spüle steht.", en: "It gets on your nerves when the dishes sit in the sink for days." },
           { es: "Ich ärgere mich darüber, dass immer ich den Müll rausbringe.", en: "It annoys me that I'm always the one who takes the rubbish out." },
-          { es: "Hier sagt einem ja keiner Bescheid.", en: "Nobody ever tells you anything here." },
+          { es: "Hier sagt einem keiner Bescheid.", en: "Nobody ever tells you anything here." },
         ],
         checkpoint: [
           {
@@ -110,7 +110,7 @@ export const DE_B1_U26: Lesson[] = [
         heading: "Suggesting solutions: Konjunktiv II and connectors",
         body: [
           "A good WG meeting moves from complaint to proposal. The Konjunktiv II makes suggestions polite: \"Wir könnten...\" (we could), \"Es wäre besser, wenn...\" (it would be better if), \"Wie wäre es mit...?\" (how about...?), \"Ich würde vorschlagen, dass...\" (I'd suggest that).",
-          "Connector adverbs link the reasons: \"deshalb\" (that's why), \"sonst\" (otherwise), \"außerdem\" (besides), \"trotzdem\" (even so). All of them take position 1 and push the verb to position 2: \"Sonst gibt es wieder Streit.\" English puts the subject first (otherwise there'll be...), German puts the verb first after the adverb.",
+          "Connector adverbs link the reasons: \"deshalb\" (that's why), \"sonst\" (otherwise), \"außerdem\" (besides), \"trotzdem\" (even so). When one of them opens the clause, it takes position 1 and the verb comes straight after it: \"Sonst gibt es wieder Streit.\" English puts the subject first (otherwise there'll be...), German puts the verb first after the adverb.",
           "Keep the tone with \"wir\" rather than \"du\": \"Wir sollten...\" includes everyone and blames nobody.",
         ],
         examples: [
@@ -204,7 +204,7 @@ export const DE_B1_U26: Lesson[] = [
         prompt: "Put the words in order to say: Besides, the bathroom is always dirty.",
         words: ["Außerdem", "ist", "das", "Bad", "immer", "schmutzig."],
         translation: "Besides, the bathroom is always dirty.",
-        explanation: "\"Außerdem\" in position 1, verb second: \"Außerdem ist das Bad...\". \"*Außerdem das Bad ist...\" is the classic mistake.",
+        explanation: "\"Außerdem\" in position 1, verb second: \"Außerdem ist das Bad...\". \"*Außerdem das Bad ist...*\" is the classic mistake.",
       },
       {
         type: "multiple-choice",
@@ -315,7 +315,7 @@ export const DE_B1_U26: Lesson[] = [
           { es: "Als der Transporter um acht Uhr kam, war noch nichts gepackt.", en: "When the van came at eight o'clock, nothing had been packed yet." },
           { es: "Zum Glück halfen ihm zwei Freunde, die er seit der Schule kannte.", en: "Luckily two friends he had known since school helped him." },
           { es: "Brauchst du noch einen Karton? — Nein, ich habe noch einen.", en: "Do you need another box? — No, I've still got one." },
-          { es: "Während die anderen trugen, putzte Leon die Küche.", en: "While the others carried things, Leon cleaned the kitchen." },
+          { es: "Während die anderen die Kisten trugen, putzte Leon die Küche.", en: "While the others carried the boxes, Leon cleaned the kitchen." },
           { es: "Sobald alles im Wagen war, fuhren sie los.", en: "As soon as everything was in the van, they set off." },
           { es: "Unterwegs merkte er, dass er etwas Wichtiges vergessen hatte.", en: "On the way he realised that he had forgotten something important." },
         ],
@@ -327,7 +327,7 @@ export const DE_B1_U26: Lesson[] = [
             source: "Do you need a box? — No, I've got one.",
             answer: "Brauchst du einen Karton? — Nein, ich habe einen.",
             altAnswers: ["Brauchen Sie einen Karton? — Nein, ich habe einen.", "Braucht ihr einen Karton? — Nein, ich habe einen.", "Brauchst du einen Karton? Nein, ich habe einen.", "Brauchst du einen Karton? — Nein, ich habe schon einen.", "Braucht ihr einen Karton? — Nein, wir haben einen."],
-            explanation: "One standing for \"der Karton\" in the accusative is \"einen\". English one is never \"*ein\" on its own here.",
+            explanation: "One standing for \"der Karton\" in the accusative is \"einen\". English one is never \"*ein*\" on its own here.",
           },
           {
             type: "fill-blank",
@@ -356,7 +356,7 @@ export const DE_B1_U26: Lesson[] = [
           { es: "Nachdem sie angekommen waren, bestellten sie Pizza.", en: "After they had arrived, they ordered pizza." },
           { es: "In der neuen Straße kannte Leon niemanden.", en: "Leon didn't know anyone in the new street." },
           { es: "Am nächsten Tag klingelte jemand an der Tür.", en: "The next day someone rang the doorbell." },
-          { es: "Es war die Nachbarin, die ihm einen Kuchen brachte.", en: "It was the neighbour, who brought him a cake." },
+          { es: "Es war die Nachbarin, die ihm einen Kuchen brachte.", en: "It was the neighbour, bringing him a cake." },
           { es: "So etwas Nettes hatte er nicht erwartet.", en: "He hadn't expected anything so nice." },
           { es: "Man muss sich innerhalb von zwei Wochen anmelden.", en: "You have to register within two weeks." },
         ],
@@ -487,7 +487,7 @@ export const DE_B1_U26: Lesson[] = [
     level: "DE-B1",
     number: 3,
     title: "Timeline: Elif's Story",
-    summary: "Put the events of Elif's life in order, reading the clues in the Perfekt, Präteritum and Plusquamperfekt, and in als and nachdem clauses.",
+    summary: "Put the events of Elif's life in order by reading the tenses (Perfekt, Präteritum, Plusquamperfekt) and the \"als\" and \"nachdem\" clauses.",
     duration: "14 min",
     sections: [
       {
@@ -519,7 +519,7 @@ export const DE_B1_U26: Lesson[] = [
             prompt: "Translate into German.",
             source: "When I started school, I could hardly speak any German.",
             answer: "Als ich in die Schule kam, konnte ich kaum Deutsch.",
-            altAnswers: ["Als ich in die Schule gekommen bin, konnte ich kaum Deutsch.", "Als ich in die Schule kam, konnte ich kaum Deutsch sprechen."],
+            altAnswers: ["Als ich in die Schule gekommen bin, konnte ich kaum Deutsch.", "Als ich in die Schule kam, konnte ich kaum Deutsch sprechen.", "Als ich in die Schule kam, sprach ich kaum Deutsch."],
             explanation: "One past period: \"als\". \"In die Schule kommen\" is to start school; \"können\" stays in the Präteritum, \"konnte\", even in speech.",
           },
         ],
@@ -614,7 +614,7 @@ export const DE_B1_U26: Lesson[] = [
         source: "My parents had come to Germany in 1988.",
         answer: "Meine Eltern waren 1988 nach Deutschland gekommen.",
         altAnswers: ["1988 waren meine Eltern nach Deutschland gekommen."],
-        explanation: "Plusquamperfekt of \"kommen\" with \"sein\": \"waren ... gekommen\". A year on its own takes no preposition in German: \"1988\", not \"*in 1988\".",
+        explanation: "Plusquamperfekt of \"kommen\" with \"sein\": \"waren ... gekommen\". A year on its own takes no preposition in German: \"1988\", not \"*in 1988*\".",
       },
       {
         type: "translate",
@@ -700,14 +700,14 @@ export const DE_B1_U26: Lesson[] = [
     level: "DE-B1",
     number: 4,
     title: "Intermediate Vocabulary Practice, Part 9 of 10",
-    summary: "High-frequency abstract nouns in -ung, -heit and -keit with the verbs and adjectives they come from, used in everyday sentences.",
+    summary: "Use high-frequency abstract nouns in -ung, -heit and -keit in everyday sentences, together with the verbs and adjectives they come from.",
     duration: "14 min",
     sections: [
       {
         heading: "Nouns in -ung from verbs",
         body: [
           "Take a verb stem, add -ung and you get a feminine noun for the action or its result: \"wohnen\" → \"die Wohnung\", \"erfahren\" → \"die Erfahrung\" (experience), \"entscheiden\" → \"die Entscheidung\" (decision), \"bewerben\" → \"die Bewerbung\" (application), \"erklären\" → \"die Erklärung\" (explanation). Plural always -en: \"die Erfahrungen\".",
-          "These nouns often go with fixed verbs, and learning the pair saves you from translating word by word: \"eine Entscheidung treffen\" (to make a decision, never \"*machen\"), \"eine Erfahrung machen\" (to have an experience), \"eine Bewerbung schreiben\", \"Ordnung halten\" (to keep things tidy).",
+          "These nouns often go with fixed verbs, and learning the pair saves you from translating word by word: \"eine Entscheidung treffen\" (to make a decision, never \"*machen*\"), \"eine Erfahrung machen\" (to have an experience), \"eine Bewerbung schreiben\", \"Ordnung halten\" (to keep things tidy).",
           "Written German loves -ung nouns; speech prefers the verb. \"Nach der Renovierung\" (after the renovation) in a letter is \"nachdem sie renoviert hatten\" in conversation.",
         ],
         examples: [
@@ -725,7 +725,8 @@ export const DE_B1_U26: Lesson[] = [
             prompt: "Translate into German.",
             source: "We have to make a decision.",
             answer: "Wir müssen eine Entscheidung treffen.",
-            explanation: "A decision is \"die Entscheidung\" (from \"entscheiden\"), and you \"treffen\" one, not \"*machen\".",
+            altAnswers: ["Wir müssen uns entscheiden."],
+            explanation: "A decision is \"die Entscheidung\" (from \"entscheiden\"), and you \"treffen\" one, not \"*machen*\".",
           },
           {
             type: "fill-blank",
@@ -778,7 +779,7 @@ export const DE_B1_U26: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which is right for: Health is the most important thing?",
-            options: ["Die Gesundheit ist das Wichtigste.", "Die Gesundkeit ist das Wichtigste.", "Das Gesundheit ist das Wichtigste.", "Gesundung ist das Wichtigste."],
+            options: ["Die Gesundheit ist das Wichtigste.", "Die Gesundkeit ist das Wichtigste.", "Das Gesundheit ist das Wichtigste.", "Die Gesundigkeit ist das Wichtigste."],
             correctIndex: 0,
             explanation: "\"Gesund\" doesn't end in -ig, -lich, -bar or -sam, so it takes -heit; all -heit nouns are feminine: \"die Gesundheit\".",
           },
@@ -924,7 +925,7 @@ export const DE_B1_U26: Lesson[] = [
     level: "DE-B1",
     number: 5,
     title: "Themed Review: Admitting a Mistake",
-    summary: "Apologise, explain what happened and promise to do better, with es tut mir leid, dass..., the Perfekt, ich wollte nicht, dass... and das wird nicht wieder vorkommen.",
+    summary: "Apologise, explain what happened and promise to do better with \"Es tut mir leid, dass...\", the Perfekt, \"Ich wollte nicht, dass...\" and \"Das wird nicht wieder vorkommen\".",
     duration: "14 min",
     sections: [
       {
@@ -940,7 +941,7 @@ export const DE_B1_U26: Lesson[] = [
           { es: "Entschuldige, dass du so lange warten musstest.", en: "Sorry you had to wait so long. (to a friend)" },
           { es: "Ich möchte mich für den Fehler in der Rechnung entschuldigen.", en: "I'd like to apologise for the mistake in the invoice." },
           { es: "Das war mein Fehler.", en: "That was my fault." },
-          { es: "Es tut mir wirklich leid, Frau Schneider.", en: "I'm really sorry, Mrs Schneider." },
+          { es: "Es tut mir wirklich leid, Frau Schneider.", en: "I'm really sorry, Ms Schneider." },
         ],
         checkpoint: [
           {
@@ -992,7 +993,7 @@ export const DE_B1_U26: Lesson[] = [
             source: "I didn't want you to worry. (to a friend)",
             answer: "Ich wollte nicht, dass du dir Sorgen machst.",
             altAnswers: ["Ich wollte nicht, dass du dir Sorgen machtest.", "Ich wollte nicht, dass du dich sorgst."],
-            explanation: "Different subjects (I / you), so German needs \"dass\": \"*Ich wollte dich nicht sorgen\" is wrong. \"Sich Sorgen machen\" takes a dative reflexive: \"du dir\".",
+            explanation: "Different subjects (I / you), so German needs \"dass\": \"*Ich wollte dich nicht sorgen*\" is wrong. \"Sich Sorgen machen\" takes a dative reflexive: \"du dir\".",
           },
           {
             type: "word-order",
@@ -1141,7 +1142,7 @@ export const DE_B1_U26: Lesson[] = [
     level: "DE-B1",
     number: 6,
     title: "Frequent Words: Everyday Expressions",
-    summary: "The little phrases that fill every German conversation: na ja, na und?, keine Ahnung, das ist mir egal, na klar, ach so, genau, schade, stimmt and mach's gut.",
+    summary: "React naturally in conversation with the little phrases Germans use all the time: \"na ja\", \"na und?\", \"keine Ahnung\", \"das ist mir egal\", \"na klar\", \"ach so\", \"genau\", \"schade\", \"stimmt\" and \"mach's gut\".",
     duration: "12 min",
     sections: [
       {
@@ -1188,7 +1189,7 @@ export const DE_B1_U26: Lesson[] = [
           { es: "Wo ist Jonas? — Keine Ahnung.", en: "Where's Jonas? — No idea." },
           { es: "Pizza oder Sushi? — Ist mir egal.", en: "Pizza or sushi? — I don't mind." },
           { es: "Das ist ihr völlig egal.", en: "She couldn't care less." },
-          { es: "Du hast ja schon wieder neue Schuhe! — Na und?", en: "You've got new shoes again! — So what?" },
+          { es: "Du hast schon wieder neue Schuhe! — Na und?", en: "You've got new shoes again! — So what?" },
           { es: "Ich habe keine Ahnung, wann der Zug kommt.", en: "I've got no idea when the train's coming." },
         ],
         checkpoint: [
@@ -1199,7 +1200,7 @@ export const DE_B1_U26: Lesson[] = [
             source: "Pizza or pasta? — I don't mind.",
             answer: "Pizza oder Pasta? — Das ist mir egal.",
             altAnswers: ["Pizza oder Pasta? — Ist mir egal.", "Pizza oder Pasta? — Mir ist es egal.", "Pizza oder Pasta? Das ist mir egal.", "Pizza oder Pasta? Ist mir egal.", "Pizza oder Nudeln? — Das ist mir egal.", "Pizza oder Nudeln? — Ist mir egal."],
-            explanation: "\"Mir ist das egal\": the person who doesn't mind is in the dative, so I = \"mir\", not \"*ich\".",
+            explanation: "\"Mir ist das egal\": the person who doesn't mind is in the dative, so I = \"mir\", not \"*ich*\".",
           },
           {
             type: "fill-blank",
@@ -1239,6 +1240,7 @@ export const DE_B1_U26: Lesson[] = [
             prompt: "Translate into German.",
             source: "Shame you can't come. (to a friend)",
             answer: "Schade, dass du nicht kommen kannst.",
+            altAnswers: ["Schade, dass du nicht mitkommen kannst."],
             explanation: "\"Schade, dass...\" + verb at the end: the modal \"kannst\" goes after the infinitive \"kommen\".",
           },
           {
@@ -1315,7 +1317,7 @@ export const DE_B1_U26: Lesson[] = [
         prompt: "Translate into German.",
         source: "Bye, take care! — You too!",
         answer: "Tschüss, mach's gut! — Du auch!",
-        altAnswers: ["Tschüss, mach's gut! Du auch!", "Tschüss, mach es gut! — Du auch!", "Tschüss, mach es gut! Du auch!", "Tschüss, macht's gut! — Ihr auch!"],
+        altAnswers: ["Tschüss, mach's gut! Du auch!", "Tschüss, mach es gut! — Du auch!", "Tschüss, mach es gut! Du auch!", "Tschüss, macht's gut! — Ihr auch!", "Tschüs, mach's gut! — Du auch!"],
         explanation: "\"Mach's gut\" is short for \"mach es gut\"; the reply is \"du auch\".",
       },
       {
@@ -1323,6 +1325,7 @@ export const DE_B1_U26: Lesson[] = [
         prompt: "Put the words in order to say: Well, actually I don't feel like it.",
         words: ["Na", "ja,", "eigentlich", "habe", "ich", "keine", "Lust."],
         translation: "Well, actually I don't feel like it.",
+        altOrders: [["Na", "ja,", "ich", "habe", "eigentlich", "keine", "Lust."]],
         explanation: "\"Na ja\" stands outside the sentence, so \"eigentlich\" takes position 1 and the verb \"habe\" comes second.",
       },
       {
@@ -1353,11 +1356,11 @@ export const DE_B1_U26: Lesson[] = [
     level: "DE-B1",
     number: 7,
     title: "Choose and Explain: Wäre, Hätte or Würde?",
-    summary: "Choose the right Konjunktiv II form for each verb: wäre and hätte, the modals, common one-word forms, and würde + infinitive for the rest.",
+    summary: "Choose the right Konjunktiv II form for each verb: \"wäre\" and \"hätte\", the modals, common one-word forms, and \"würde\" + infinitive for the rest.",
     duration: "14 min",
     sections: [
       {
-        heading: "Wäre and hätte, never würde sein",
+        heading: "Wäre and hätte, not würde sein",
         body: [
           "The Konjunktiv II is how German says would, could and if only. Most verbs use \"würde\" + infinitive, but the two most frequent verbs have their own one-word forms, and using \"würde\" with them sounds clumsy: \"ich wäre\" (I would be), \"ich hätte\" (I would have).",
           "So: \"Das wäre toll\" (that would be great), rather than \"Das würde toll sein\"; \"Ich hätte gern einen Kaffee\" (I'd like a coffee) rather than \"Ich würde gern einen Kaffee haben\". The würde versions aren't wrong, but they sound like a learner.",
@@ -1391,7 +1394,7 @@ export const DE_B1_U26: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "[Would you have] an appointment free tomorrow? (polite)",
+            en: "[Would you have] an appointment free tomorrow? (formal)",
             sentence: "___ morgen einen Termin frei?",
             answer: "Hätten Sie",
             explanation: "\"Hätten Sie...?\" is the polite one-word form of \"haben\"; the verb comes first in a yes/no question.",
@@ -1418,9 +1421,9 @@ export const DE_B1_U26: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "Could you repeat that, please? (polite)",
+            source: "Could you repeat that, please? (formal)",
             answer: "Könnten Sie das bitte wiederholen?",
-            altAnswers: ["Könnten Sie das bitte noch einmal sagen?", "Könnten Sie bitte das wiederholen?", "Könnten Sie das noch einmal wiederholen?"],
+            altAnswers: ["Könnten Sie das bitte noch einmal sagen?", "Könnten Sie bitte das wiederholen?", "Könnten Sie das noch einmal wiederholen?", "Würden Sie das bitte wiederholen?"],
             explanation: "\"Können\" → \"könnte\", with \"Sie\": \"Könnten Sie\". Avoid \"Würden Sie wiederholen können\".",
           },
           {
@@ -1436,8 +1439,8 @@ export const DE_B1_U26: Lesson[] = [
         heading: "One-word forms and würde for the rest",
         body: [
           "A handful of strong verbs have one-word forms that are still common, especially in writing: \"käme\" (kommen), \"ginge\" (gehen), \"wüsste\" (wissen), \"gäbe\" (es gibt), \"bräuchte\" (brauchen, in speech). \"Wenn ich das wüsste!\" (if only I knew!), \"Es wäre gut, wenn es mehr Parkplätze gäbe.\"",
-          "For every other verb, use \"würde\" + infinitive: \"Ich würde gern nach Wien fahren\", \"Würdest du das Fenster zumachen?\". This is never wrong for ordinary verbs, so when in doubt, use \"würde\" - except with sein, haben and the modals.",
-          "Rule of thumb in a wenn-sentence: avoid two \"würde\" forms. Use the one-word form in the wenn-clause where possible: \"Wenn er käme, würde ich mich freuen\" or, more commonly in speech, \"Wenn er kommen würde, würde ich mich freuen\" - both are heard, the first is better style.",
+          "For every other verb, use \"würde\" + infinitive: \"Ich würde gern nach Wien fahren\", \"Würdest du das Fenster zumachen?\". This is never wrong for ordinary verbs, so when in doubt, use \"würde\", except with \"sein\", \"haben\" and the modals.",
+          "Rule of thumb in a wenn-sentence: avoid two \"würde\" forms. Use the one-word form in the wenn-clause where possible: \"Wenn er käme, würde ich mich freuen\" or, more commonly in speech, \"Wenn er kommen würde, würde ich mich freuen\": both are heard, and the first is better style.",
         ],
         examples: [
           { es: "Wenn ich das nur wüsste!", en: "If only I knew!" },

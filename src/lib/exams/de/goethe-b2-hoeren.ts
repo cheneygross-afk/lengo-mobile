@@ -290,7 +290,7 @@ export const GOETHE_B2_HOEREN: ExamPaper = {
             { voice: "f", text: "Frau Yildiz, Sie sehen das anders." },
             {
               voice: "f",
-              text: "Ich teile die Sorge, aber nicht die Lösung. Ein Verbot klingt entschlossen, lässt sich aber kaum durchsetzen. Die Jugendlichen, mit denen ich arbeite, wissen genau, wie man ein falsches Geburtsdatum eingibt. Am Ende sind sie trotzdem auf den Plattformen – nur heimlich. Und dann trauen sie sich bei Problemen nicht mehr, mit ihren Eltern zu sprechen.",
+              text: "Ich teile die Sorge, aber nicht die Lösung. Ein Verbot klingt entschlossen, lässt sich aber kaum durchsetzen. Die Jugendlichen, mit denen ich in den Schulklassen arbeite, wissen genau, wie man ein falsches Geburtsdatum eingibt. Am Ende sind sie trotzdem auf den Plattformen – nur heimlich. Und dann trauen sie sich bei Problemen nicht mehr, mit ihren Eltern zu sprechen.",
             },
             {
               voice: "f",
@@ -311,7 +311,7 @@ export const GOETHE_B2_HOEREN: ExamPaper = {
             },
             {
               voice: "f",
-              text: "Da bin ich ausnahmsweise ganz bei Ihnen, Herr Albrecht. Wenn die Plattformen sicher gestaltet wären, bräuchten wir die ganze Debatte über Altersgrenzen gar nicht.",
+              text: "Da bin ich ausnahmsweise ganz bei Ihnen, Herr Albrecht. Wenn die Plattformen sicher gestaltet wären, müssten wir beide hier gar nicht über Altersgrenzen streiten.",
             },
             {
               voice: "f",

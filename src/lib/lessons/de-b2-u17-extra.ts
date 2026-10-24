@@ -237,8 +237,8 @@ export const DE_B2_U17_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German.",
-        source: "The bus was late, so that we missed the train.",
+        prompt: "Translate into German, using \"sodass\".",
+        source: "The bus was late, so we missed the train.",
         answer: "Der Bus hatte Verspätung, sodass wir den Zug verpassten.",
         altAnswers: ["Der Bus hatte Verspätung, sodass wir den Zug verpasst haben.", "Der Bus kam zu spät, sodass wir den Zug verpassten.", "Der Bus kam zu spät, sodass wir den Zug verpasst haben.", "Der Bus war zu spät, sodass wir den Zug verpasst haben.", "Der Bus hatte Verspätung, so dass wir den Zug verpassten."],
         explanation: "\"Sodass\" + verb at the end: a result.",
@@ -606,7 +606,7 @@ export const DE_B2_U17_EXTRA: Lesson[] = [
         en: "She has experience. [Nevertheless she didn't get] the job.",
         sentence: "Sie hat Erfahrung. ___ die Stelle nicht bekommen.",
         answer: "Trotzdem hat sie",
-        altAnswers: ["Dennoch hat sie", "Jedoch hat sie"],
+        altAnswers: ["Dennoch hat sie"],
         explanation: "Adverb in position 1, then the auxiliary \"hat\", then the subject.",
       },
       {
@@ -1058,8 +1058,8 @@ export const DE_B2_U17_EXTRA: Lesson[] = [
         en: "The production is long; [nevertheless] it never gets boring.",
         sentence: "Die Inszenierung ist lang, ___ wird sie nie langweilig.",
         answer: "dennoch",
-        altAnswers: ["trotzdem", "jedoch", "allerdings"],
-        explanation: "Verb \"wird\" follows the adverb.",
+        altAnswers: ["trotzdem"],
+        explanation: "Nevertheless = \"dennoch\" (or everyday \"trotzdem\"); the verb \"wird\" follows the adverb. \"Jedoch\" would only mean however.",
       },
       {
         type: "fill-blank",

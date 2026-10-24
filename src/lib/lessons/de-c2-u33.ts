@@ -14,7 +14,7 @@ export const DE_C2_U33: Lesson[] = [
       {
         heading: "Konjunktiv I and II in all tenses",
         body: [
-          "Konjunktiv I reports: present \"er sei, habe, komme\"; past \"er sei gekommen, habe gesagt\"; future \"er werde kommen\". Where its form equals the indicative (\"sie haben\", \"wir kommen\"), switch to Konjunktiv II (\"sie hätten\", \"wir kämen\"), and where that is old-fashioned (\"sie kämen\"), use \"würde\" + infinitive in everyday writing.",
+          "Konjunktiv I reports: present \"er sei, habe, komme\"; past \"er sei gekommen, habe gesagt\"; future \"er werde kommen\". Where its form equals the indicative (\"sie haben\", \"wir kommen\"), switch to Konjunktiv II (\"sie hätten\", \"wir kämen\"), and where that sounds old-fashioned (\"wir kämen\"), use \"würde\" + infinitive in everyday writing.",
           "Konjunktiv II imagines: present \"wäre, hätte, könnte, würde kommen\"; past \"wäre gekommen, hätte gesagt\"; with modals, the double infinitive: \"Er hätte anrufen sollen\" (he should have called), and in a subordinate clause \"..., dass er hätte anrufen sollen\" (\"hätte\" before the two infinitives).",
           "Typical Mastery-level uses: unreal past (\"Wäre ich nur früher gegangen!\"), polite criticism (\"Man hätte sich mehr Mut gewünscht\"), hedged forecast (\"Die Rate dürfte steigen\"), and reported speech that distances the writer (\"Der Minister erklärte, er habe von nichts gewusst\").",
         ],
@@ -191,7 +191,7 @@ export const DE_C2_U33: Lesson[] = [
         prompt: "Translate into German.",
         source: "However expensive it may be, we need it.",
         answer: "Mag es auch teuer sein, wir brauchen es.",
-        altAnswers: ["So teuer es auch sein mag, wir brauchen es.", "Wie teuer es auch sein mag, wir brauchen es.", "Auch wenn es teuer ist, wir brauchen es.", "Mag es auch noch so teuer sein, wir brauchen es."],
+        altAnswers: ["So teuer es auch sein mag, wir brauchen es.", "Wie teuer es auch sein mag, wir brauchen es.", "Auch wenn es teuer ist, wir brauchen es.", "Auch wenn es teuer ist, brauchen wir es.", "Mag es auch noch so teuer sein, wir brauchen es."],
         explanation: "Verb-first concession with \"mögen ... auch\" or \"so / wie ... auch\"; the main clause keeps verb-second.",
       },
       {
@@ -208,7 +208,7 @@ export const DE_C2_U33: Lesson[] = [
         prompt: "Translate into German, with \"sein\" + \"zu\".",
         source: "The form must be signed by Friday.",
         answer: "Das Formular ist bis Freitag zu unterschreiben.",
-        altAnswers: ["Das Formular ist bis Freitag zu unterzeichnen.", "Das Formular muss bis Freitag unterschrieben werden.", "Das Formular muss bis Freitag unterzeichnet werden."],
+        altAnswers: ["Das Formular ist bis Freitag zu unterzeichnen."],
         explanation: "\"Sein\" + zu-infinitive is the official way to say must be done.",
       },
       {
@@ -348,7 +348,7 @@ export const DE_C2_U33: Lesson[] = [
           {
             type: "speak",
             text: "Mir fehlt jegliche Motivation, zumal das Vorhaben wenig aussichtsreich erscheint.",
-            tip: "In elevated register, slow down and give each long word its stress: AUS-sichts-reich, Mo-ti-va-TION.",
+            tip: "In elevated register, slow down and give each long word its stress: \"aussichtsreich\" on the first syllable, \"Motivation\" on the last.",
             explanation: "Elevated: \"jegliche\", \"zumal\", nominal \"das Vorhaben\", \"erscheint\" instead of \"ist\".",
           },
         ],
@@ -684,7 +684,7 @@ export const DE_C2_U33: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"*Ich interessiere mich an Literatur.\" Translate correctly into German.",
+            prompt: "A learner wrote \"*Ich interessiere mich an Literatur.*\" Translate correctly into German.",
             source: "I'm interested in literature.",
             answer: "Ich interessiere mich für Literatur.",
             altAnswers: ["Ich interessiere mich für die Literatur."],
@@ -742,7 +742,7 @@ export const DE_C2_U33: Lesson[] = [
         heading: "Collocations and register",
         body: [
           "Finally, an email from a student to a professor. Four slips:",
-          "\"Sehr geehrte Frau Professorin Weber, ich möchte eine Frage über Ihre Vorlesung machen. In der letzten Sitzung haben Sie eine interessante These aufgestellt, die mich echt zum Nachdenken gebracht hat. Ich habe aber noch nicht ganz kapiert, wie diese These mit der Theorie von Habermas zusammenhängt. Könnten Sie mir eventuell ein paar Literaturhinweise geben? Liebe Grüße, Jonas Krüger\"",
+          "\"Sehr geehrte Frau Professorin Weber, ich möchte eine Frage über Ihre Vorlesung machen. In der letzten Sitzung haben Sie eine interessante These aufgestellt, die mich echt zum Nachdenken gebracht hat. Ich habe aber noch nicht ganz kapiert, wie diese These mit der Theorie von Habermas zusammenhängt. Könnten Sie mir eventuell ein paar Literaturhinweise geben? Liebe Grüße Jonas Krüger\"",
           "Fixes: (1) \"eine Frage über ... machen\" must be \"eine Frage zu Ihrer Vorlesung stellen\" (collocation and preposition). (2) \"echt\" is colloquial: \"wirklich\", or leave it out. (3) \"kapiert\" is colloquial: \"verstanden\" or \"nachvollzogen\". (4) \"Liebe Grüße\" is too familiar for a first email to a professor: \"Mit freundlichen Grüßen\". Correct as they stand: \"eine These aufstellen\", \"zum Nachdenken bringen\", \"zusammenhängen mit\", \"eventuell\" (possibly).",
         ],
         examples: [
@@ -786,7 +786,7 @@ export const DE_C2_U33: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Sie hat großes Interesse für Politik.\" Translate correctly into German.",
+        prompt: "A learner wrote \"*Sie hat großes Interesse für Politik.*\" Translate correctly into German.",
         source: "She has a great interest in politics.",
         answer: "Sie hat großes Interesse an Politik.",
         altAnswers: ["Sie hat ein großes Interesse an Politik.", "Sie hat großes Interesse an der Politik.", "Sie interessiert sich sehr für Politik."],
@@ -795,7 +795,7 @@ export const DE_C2_U33: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Ich warte auf Ihrer Antwort.\" Translate correctly into German.",
+        prompt: "A learner wrote \"*Ich warte auf Ihrer Antwort.*\" Translate correctly into German.",
         source: "I'm waiting for your answer.",
         answer: "Ich warte auf Ihre Antwort.",
         altAnswers: ["Ich warte auf deine Antwort.", "Ich warte auf eure Antwort."],
@@ -813,7 +813,7 @@ export const DE_C2_U33: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Er sagte, dass er hat keine Zeit.\" Translate correctly into German.",
+        prompt: "A learner wrote \"*Er sagte, dass er hat keine Zeit.*\" Translate correctly into German.",
         source: "He said he had no time.",
         answer: "Er sagte, er habe keine Zeit.",
         altAnswers: ["Er sagte, dass er keine Zeit habe.", "Er sagte, dass er keine Zeit hat.", "Er sagte, er hätte keine Zeit.", "Er meinte, er habe keine Zeit."],
@@ -822,7 +822,7 @@ export const DE_C2_U33: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Wir müssen eine Entscheidung nehmen.\" Translate correctly into German.",
+        prompt: "A learner wrote \"*Wir müssen eine Entscheidung nehmen.*\" Translate correctly into German.",
         source: "We have to make a decision.",
         answer: "Wir müssen eine Entscheidung treffen.",
         altAnswers: ["Wir müssen uns entscheiden.", "Wir müssen eine Entscheidung fällen."],
@@ -838,7 +838,7 @@ export const DE_C2_U33: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Sie hat mich zu helfen gebeten.\" Translate correctly into German.",
+        prompt: "A learner wrote \"*Sie hat mich zu helfen gebeten.*\" Translate correctly into German.",
         source: "She asked me to help.",
         answer: "Sie hat mich gebeten zu helfen.",
         altAnswers: ["Sie hat mich gebeten, zu helfen.", "Sie bat mich zu helfen.", "Sie bat mich, zu helfen.", "Sie hat mich um Hilfe gebeten.", "Sie bat mich um Hilfe."],
@@ -854,7 +854,7 @@ export const DE_C2_U33: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Ich freue mich über Ihren Besuch nächste Woche.\" Translate correctly into German.",
+        prompt: "A learner wrote \"*Ich freue mich über Ihren Besuch nächste Woche.*\" Translate correctly into German.",
         source: "I'm looking forward to your visit next week.",
         answer: "Ich freue mich auf Ihren Besuch nächste Woche.",
         altAnswers: ["Ich freue mich auf Ihren Besuch in der nächsten Woche.", "Ich freue mich auf deinen Besuch nächste Woche.", "Ich freue mich auf euren Besuch nächste Woche.", "Ich freue mich auf Ihren Besuch kommende Woche."],
@@ -863,7 +863,7 @@ export const DE_C2_U33: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Ich kenne mich gut aus mit diesem Thema.\" Translate into standard written German.",
+        prompt: "A learner wrote \"*Ich kenne mich gut aus mit diesem Thema.*\" Translate into standard written German.",
         source: "I know a lot about this topic.",
         answer: "Ich kenne mich mit diesem Thema gut aus.",
         altAnswers: ["Mit diesem Thema kenne ich mich gut aus.", "Ich kenne mich in diesem Thema gut aus.", "Ich kenne mich mit diesem Thema sehr gut aus."],
@@ -974,7 +974,7 @@ export const DE_C2_U33: Lesson[] = [
         heading: "The official letter: Amtsdeutsch",
         body: [
           "Now the district office (\"Bezirksamt\") informs the residents. Official German piles up nouns, passives and fixed formulas:",
-          "\"Sehr geehrte Anwohnerinnen und Anwohner, aufgrund der amtlichen Unwetterwarnung des Deutschen Wetterdienstes wird das für Samstag, den 14. Juni, geplante Straßenfest auf Samstag, den 21. Juni, verlegt. Anmeldungen für Verkaufsstände sind bis spätestens Mittwoch, den 18. Juni, beim Ordnungsamt einzureichen. Verspätet eingehende Anmeldungen können leider nicht berücksichtigt werden. Wir bitten um Ihr Verständnis. Mit freundlichen Grüßen, Ihr Bezirksamt\"",
+          "\"Sehr geehrte Anwohnerinnen und Anwohner, aufgrund der amtlichen Unwetterwarnung des Deutschen Wetterdienstes wird das für Samstag, den 14. Juni, geplante Straßenfest auf Samstag, den 21. Juni, verlegt. Anmeldungen für Verkaufsstände sind bis spätestens Mittwoch, den 18. Juni, beim Ordnungsamt einzureichen. Verspätet eingehende Anmeldungen können leider nicht berücksichtigt werden. Wir bitten um Ihr Verständnis. Mit freundlichen Grüßen Ihr Bezirksamt\"",
           "The hallmarks: the nominal causal phrase \"aufgrund\" + genitive, a long participial attribute (\"das für Samstag ... geplante Straßenfest\"), the passive with no agent (\"wird verlegt\"), \"sein\" + zu-infinitive for obligation (\"sind einzureichen\"), \"bis spätestens\" (by ... at the latest), Partizip I as an adjective (\"verspätet eingehende Anmeldungen\": applications arriving late), and the formula \"Wir bitten um Ihr Verständnis\" (we ask for your understanding).",
           "Amtsdeutsch is precise but impersonal, and it hides who acts. That is its purpose in a legal notice and its weakness everywhere else: transplanted into an email to a colleague, it sounds cold or ironic.",
         ],
@@ -1022,7 +1022,7 @@ export const DE_C2_U33: Lesson[] = [
           "Gehoben does not mean Amtsdeutsch: the feuilleton avoids the official formulas and the faceless passive chains, and it lets a voice be heard. The gap between the two is one of the clearest markers of Mastery-level control.",
         ],
         examples: [
-          { es: "Kaum hatte der Wetterdienst gewarnt, wurde das Fest vertagt.", en: "No sooner had the weather service issued a warning than the party was adjourned." },
+          { es: "Kaum hatte der Wetterdienst gewarnt, wurde das Fest vertagt.", en: "No sooner had the weather service issued a warning than the party was put off." },
           { es: "Man mag darin Übervorsicht sehen.", en: "One may see excessive caution in that." },
           { es: "Ebenso gut ließe sich behaupten, dass das Gelassenheit ist.", en: "One could just as well argue that it's composure." },
           { es: "Den Deutschen wird gemeinhin wenig Gelassenheit nachgesagt.", en: "Germans are commonly said to have little composure." },
@@ -1126,7 +1126,7 @@ export const DE_C2_U33: Lesson[] = [
           { left: "Das fällt ins Wasser.", right: "colloquial: it's off" },
           { left: "Das fällt aus.", right: "neutral: it's cancelled" },
           { left: "Die Veranstaltung wird abgesagt.", right: "official: the event is cancelled" },
-          { left: "Das Fest wird vertagt.", right: "elevated: the celebration is adjourned" },
+          { left: "Das Fest wird vertagt.", right: "elevated: the celebration is put off" },
         ],
         explanation: "Same fact, four registers: idiom, neutral verb, agentless passive with a formal noun, elevated verb.",
       },
@@ -1550,7 +1550,7 @@ export const DE_C2_U33: Lesson[] = [
       {
         heading: "Kollokationen: which verb goes with which noun",
         body: [
-          "Collocations are word partnerships that are not idioms (their meaning is transparent) but are still fixed: you \"ziehst Bilanz\" (take stock), \"ergreifst Maßnahmen\" (take measures), \"stellst einen Antrag\" (submit an application), \"gehst ein Risiko ein\" (take a risk), \"legst Wert auf\" (attach importance to), \"wirfst eine Frage auf\" (raise a question), \"leistest einen Beitrag\" (make a contribution), \"hegst einen Verdacht\" (harbour a suspicion).",
+          "Collocations are word partnerships that are not idioms (their meaning is transparent) but are still fixed: \"Bilanz ziehen\" (take stock), \"Maßnahmen ergreifen\" (take measures), \"einen Antrag stellen\" (submit an application), \"ein Risiko eingehen\" (take a risk), \"Wert legen auf\" (attach importance to), \"eine Frage aufwerfen\" (raise a question), \"einen Beitrag leisten\" (make a contribution), \"einen Verdacht hegen\" (harbour a suspicion).",
           "English 'take' and 'make' hide a whole range of German verbs: take measures \"ergreifen\", take a risk \"eingehen\", take a decision \"treffen\", take stock \"ziehen\", make a contribution \"leisten\", make an effort \"sich Mühe geben\", make an exception \"eine Ausnahme machen\" (here \"machen\" is right).",
           "Adjective collocations matter too: \"starker Regen\" (heavy rain, not \"schwerer\"), \"hohes Fieber\" (a high temperature), \"eine schwere Krankheit\" (a serious illness), \"dichter Verkehr\" (heavy traffic), \"ein herber Verlust\" (a bitter loss), \"scharfe Kritik\" (harsh criticism).",
         ],
@@ -1583,7 +1583,7 @@ export const DE_C2_U33: Lesson[] = [
           {
             type: "speak",
             text: "Die Studie wirft eine wichtige Frage auf.",
-            tip: "Stress the separable prefix: wirft ... AUF.",
+            tip: "Stress the separable prefix: \"wirft ... auf\", with the stress on AUF.",
             explanation: "\"Eine Frage aufwerfen\" = to raise a question; the prefix goes to the end.",
           },
         ],
@@ -1948,7 +1948,7 @@ export const DE_C2_U33: Lesson[] = [
         type: "speak",
         text: "In seiner Glosse setzt sich der Autor mit den Verspätungen der Bahn auseinander.",
         prompt: "Say the first sentence of your summary in German: In his column, the author deals with the railway's delays.",
-        tip: "aus-ein-AN-der: four syllables, stress on the third.",
+        tip: "\"Auseinander\" has four syllables, with the stress on the third: -an-.",
         explanation: "Text type, author and topic in one sentence: the standard opening of a German summary.",
       },
     ],
@@ -2078,7 +2078,7 @@ export const DE_C2_U33: Lesson[] = [
           {
             type: "speak",
             text: "Bei allem Respekt, das sehe ich grundlegend anders.",
-            tip: "Stress GRUND-legend and AN-ders: firm but calm.",
+            tip: "Stress the first syllables of \"grundlegend\" and \"anders\": firm but calm.",
             explanation: "A polite but unmistakable disagreement: the formula softens, the adverb sharpens.",
           },
         ],
@@ -2201,7 +2201,7 @@ export const DE_C2_U33: Lesson[] = [
         type: "listen-choose",
         audio: "Das kann doch niemand ernsthaft wollen.",
         question: "What does it mean?",
-        options: ["Surely nobody can seriously want that.", "Nobody can want that, can they?", "Nobody seriously wanted that.", "Somebody must seriously want that."],
+        options: ["Surely nobody can seriously want that.", "Nobody could have wanted that.", "Nobody seriously wanted that.", "Somebody must seriously want that."],
         correctIndex: 0,
         explanation: "\"Doch\" appeals to common sense: the speaker presents the point as obvious.",
       },
@@ -2478,7 +2478,7 @@ export const DE_C2_U33: Lesson[] = [
         type: "speak",
         text: "Abschließend lässt sich sagen, dass Transparenz der erste Schritt ist.",
         prompt: "Say it in German, to conclude your presentation: In conclusion, it can be said that transparency is the first step.",
-        tip: "Trans-pa-RENZ: stress the last syllable.",
+        tip: "Stress the last syllable of \"Transparenz\".",
         explanation: "\"Sich sagen lassen\" as an impersonal passive alternative; a standard closing formula for the Sprechen module.",
       },
     ],
@@ -2496,6 +2496,6 @@ export const DE_C2_U33_WRITING: WriteExercise = {
     "Uses Mastery-level structures accurately: a participial attribute, a passive alternative (\"sich lassen\", \"sein zu\"), a verb-first or mixed conditional, and nominal phrases with \"angesichts\" or \"aufgrund\" + genitive",
     "Keeps a consistent gehoben register with precise collocations and at least one apt idiom or image, avoiding both colloquialisms and stiff Amtsdeutsch",
   ],
-  modelAnswer: "Kaum eine Technologie hat unser Verhältnis zu fremden Sprachen so rasch verändert wie die maschinelle Übersetzung. Wer heute eine Speisekarte in Lissabon oder einen Vertrag aus Seoul verstehen will, zückt das Smartphone, und Sekunden später liegt eine erstaunlich brauchbare Fassung vor. Angesichts dieser Entwicklung drängt sich die Frage auf, ob der mühsame Fremdsprachenunterricht an Schulen noch zeitgemäß ist.\n\nIch vertrete die These, dass er wichtiger ist denn je, wenn auch in veränderter Form.\n\nBefürworter einer radikalen Kürzung argumentieren, Maschinen könnten Sprachkenntnisse in absehbarer Zeit vollständig ersetzen; die so gewonnenen Unterrichtsstunden seien in Informatik oder Wirtschaft besser angelegt. Zwar ist nicht von der Hand zu weisen, dass sich viele Alltagssituationen inzwischen ohne Fremdsprachenkenntnisse bewältigen lassen. Doch dieser Einwand greift zu kurz, denn er reduziert Sprache auf die Übertragung von Information.\n\nDafür, am Unterricht festzuhalten, spricht zunächst, dass Sprache mehr transportiert als Inhalte: Ironie, Höflichkeit, Zwischentöne. Wer nie erfahren hat, wie schwer sich ein englisches „I'm afraid“ angemessen wiedergeben lässt, wird auch der Maschine blind vertrauen müssen. Hinzu kommt, dass das Erlernen einer Fremdsprache den Blick auf die eigene schärft. Die oft beschworene Weltoffenheit beginnt nicht mit einem Programm, sondern mit der Erfahrung, sich in einer anderen Sprache mühsam verständlich zu machen.\n\nHätte man vor zwanzig Jahren gefragt, ob Taschenrechner den Mathematikunterricht überflüssig machten, wäre die Antwort eindeutig gewesen: Sie verändern ihn, sie ersetzen ihn nicht. Ähnliches gilt hier. Der Unterricht der Zukunft wird weniger Vokabellisten abfragen und mehr Wert auf Kommunikation, Kultur und den kritischen Umgang mit maschinellen Übersetzungen legen müssen.\n\nUnterm Strich bleibe ich dabei: Die Maschine ist ein hervorragendes Werkzeug, aber ein schlechter Ersatz für Verständigung. Es bleibt abzuwarten, ob die Bildungspolitik diese Einsicht beherzigt oder, wie so oft, das Kind mit dem Bade ausschüttet.",
+  modelAnswer: "Kaum eine Technologie hat unser Verhältnis zu fremden Sprachen so rasch verändert wie die maschinelle Übersetzung. Wer heute eine Speisekarte in Lissabon oder einen Vertrag aus Seoul verstehen will, zückt das Smartphone, und Sekunden später liegt eine erstaunlich brauchbare Fassung vor. Angesichts dieser Entwicklung drängt sich die Frage auf, ob der mühsame Fremdsprachenunterricht an Schulen noch zeitgemäß ist.\n\nIch vertrete die These, dass er wichtiger ist denn je, wenn auch in veränderter Form.\n\nBefürworter einer radikalen Kürzung argumentieren, Maschinen könnten Sprachkenntnisse in absehbarer Zeit vollständig ersetzen; die so gewonnenen Unterrichtsstunden seien in Informatik oder Wirtschaft besser angelegt. Zwar ist nicht von der Hand zu weisen, dass sich viele Alltagssituationen inzwischen ohne Fremdsprachenkenntnisse bewältigen lassen. Doch dieser Einwand greift zu kurz, denn er reduziert Sprache auf die Übertragung von Information.\n\nDafür, am Unterricht festzuhalten, spricht zunächst, dass Sprache mehr transportiert als Inhalte: Ironie, Höflichkeit, Zwischentöne. Wer nie erfahren hat, wie schwer sich ein englisches „I'm afraid“ angemessen wiedergeben lässt, wird auch der Maschine blind vertrauen müssen. Hinzu kommt, dass das Erlernen einer Fremdsprache den Blick auf die eigene schärft. Die oft beschworene Weltoffenheit beginnt nicht mit einem Programm, sondern mit der Erfahrung, sich in einer anderen Sprache mühsam verständlich zu machen.\n\nHätte man vor fünfzig Jahren gefragt, ob Taschenrechner den Mathematikunterricht überflüssig machten, wäre die Antwort eindeutig gewesen: Sie verändern ihn, sie ersetzen ihn nicht. Ähnliches gilt hier. Der Unterricht der Zukunft wird weniger Vokabellisten abfragen und mehr Wert auf Kommunikation, Kultur und den kritischen Umgang mit maschinellen Übersetzungen legen müssen.\n\nUnterm Strich bleibe ich dabei: Die Maschine ist ein hervorragendes Werkzeug, aber ein schlechter Ersatz für Verständigung. Es bleibt abzuwarten, ob die Bildungspolitik diese Einsicht beherzigt oder, wie so oft, das Kind mit dem Bade ausschüttet.",
   explanation: "The model frames the topic with \"Kaum eine ... so ... wie\" and \"Angesichts\" + genitive, states its thesis with \"Ich vertrete die These, dass\", reports the opposing view in Konjunktiv I (\"könnten\" replacing the indicative-looking \"können\", \"seien\"), and concedes with \"Zwar ist nicht von der Hand zu weisen\" before refuting with \"Doch dieser Einwand greift zu kurz\". It uses passive alternatives (\"sich bewältigen lassen\", \"sich wiedergeben lässt\"), a participial attribute (\"die so gewonnenen Unterrichtsstunden\", \"die oft beschworene Weltoffenheit\"), a verb-first past conditional (\"Hätte man ... gefragt, wäre ... gewesen\") and collocations such as \"Wert legen auf\" and \"Einsicht beherzigen\", closing with an idiom (\"das Kind mit dem Bade ausschütten\") that keeps the gehoben register.",
 };

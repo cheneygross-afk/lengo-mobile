@@ -9,7 +9,7 @@ export const DE_B2_U03_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Konjunktiv I Forms",
-    summary: "Drill the third-person forms of sein, haben, werden, the modals and common strong verbs.",
+    summary: "Build the third-person Konjunktiv I of \"sein\", \"haben\", \"werden\", the modals and common strong verbs.",
     duration: "12 min",
     sections: [
       {
@@ -174,7 +174,7 @@ export const DE_B2_U03_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: When Konjunktiv I Looks Like the Indicative",
-    summary: "Decide when to switch to hätten, würden or wären.",
+    summary: "Decide when a Konjunktiv I form looks like the indicative and you need to switch to \"hätten\", \"würden\" or \"wären\".",
     duration: "12 min",
     sections: [
       {
@@ -235,7 +235,7 @@ export const DE_B2_U03_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "I said I wasn't hungry. (formal report of your own words)",
         answer: "Ich habe gesagt, ich hätte keinen Hunger.",
-        altAnswers: ["Ich sagte, ich hätte keinen Hunger.", "Ich habe gesagt, dass ich keinen Hunger hätte."],
+        altAnswers: ["Ich sagte, ich hätte keinen Hunger.", "Ich habe gesagt, dass ich keinen Hunger hätte.", "Ich habe gesagt, ich sei nicht hungrig."],
         explanation: "\"Ich habe\" = indicative → \"ich hätte\".",
       },
       {
@@ -244,7 +244,7 @@ export const DE_B2_U03_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "The workers say they earn too little. (news style)",
         answer: "Die Arbeiter sagen, sie würden zu wenig verdienen.",
-        altAnswers: ["Die Arbeiter sagen, sie verdienten zu wenig.", "Die Arbeiter sagen, dass sie zu wenig verdienen würden.", "Die Beschäftigten sagen, sie würden zu wenig verdienen.", "Die Arbeiter sagen, sie verdienen zu wenig."],
+        altAnswers: ["Die Arbeiter sagen, sie verdienten zu wenig.", "Die Arbeiter sagen, dass sie zu wenig verdienen würden.", "Die Beschäftigten sagen, sie würden zu wenig verdienen."],
         explanation: "\"Verdienten\" (weak verb) looks like the Präteritum, so \"würden verdienen\" is clearer.",
       },
       {
@@ -330,7 +330,7 @@ export const DE_B2_U03_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Time and Place Words",
-    summary: "Heute, morgen, hier, dieses Jahr and letzte Woche from a later perspective.",
+    summary: "Shift \"heute\", \"morgen\", \"hier\", \"dieses Jahr\" and \"letzte Woche\" when you report from a later time or another place.",
     duration: "12 min",
     sections: [
       {
@@ -658,7 +658,7 @@ export const DE_B2_U03_EXTRA: Lesson[] = [
     number: 5,
     optional: true,
     title: "Extra Practice: Reporting Verbs",
-    summary: "Choose behaupten, zugeben, bestreiten, versichern or betonen for each situation.",
+    summary: "Choose \"behaupten\", \"zugeben\", \"bestreiten\", \"versichern\" or \"betonen\" to match each situation.",
     duration: "12 min",
     sections: [
       {
@@ -818,7 +818,7 @@ export const DE_B2_U03_EXTRA: Lesson[] = [
     number: 6,
     optional: true,
     title: "Extra Practice: Dictation of Indirect Speech",
-    summary: "Hear and write sentences with sei, habe, werde and könne, including the spelling of seien and habest.",
+    summary: "Hear and write sentences with \"sei\", \"habe\", \"werde\" and \"könne\", including the spelling of \"seien\" and \"habest\".",
     duration: "12 min",
     sections: [
       {

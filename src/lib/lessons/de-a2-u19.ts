@@ -8,7 +8,7 @@ export const DE_A2_U19: Lesson[] = [
     level: "DE-A2",
     number: 1,
     title: "Word Web: Travel and Trips",
-    summary: "Talk about holidays, bookings, places to stay, luggage and flights, and stop mixing up Urlaub, Ferien and Reise.",
+    summary: "Talk about holidays, bookings, places to stay, luggage and flights, and stop mixing up \"Urlaub\", \"Ferien\" and \"Reise\".",
     duration: "12 min",
     sections: [
       {
@@ -112,7 +112,7 @@ export const DE_A2_U19: Lesson[] = [
             type: "speak",
             text: "Gute Reise und schönen Urlaub!",
             prompt: "Say it in German: Have a good trip and a nice holiday!",
-            explanation: "Wishes in the accusative: \"schönen Urlaub\" (der Urlaub, -en after no article in the accusative).",
+            explanation: "Wishes in the accusative: \"schönen Urlaub\" (\"der Urlaub\", -en after no article in the accusative).",
           },
         ],
       },
@@ -134,7 +134,7 @@ export const DE_A2_U19: Lesson[] = [
         source: "How was your holiday? (to a friend)",
         answer: "Wie war dein Urlaub?",
         altAnswers: ["Wie war der Urlaub?"],
-        explanation: "\"Der Urlaub\" is masculine: \"dein Urlaub\". \"War\" for the past of sein.",
+        explanation: "\"Der Urlaub\" is masculine: \"dein Urlaub\". \"War\" for the past of \"sein\".",
       },
       {
         type: "translate",
@@ -184,7 +184,7 @@ export const DE_A2_U19: Lesson[] = [
         words: ["In", "den", "Sommerferien", "fahren", "wir", "ans", "Meer."],
         translation: "In the summer holidays we're going to the sea.",
         altOrders: [["Wir", "fahren", "in", "den", "Sommerferien", "ans", "Meer."]],
-        explanation: "\"In den Sommerferien\" (dative plural) in position 1, verb second; \"ans Meer\" = an das, movement.",
+        explanation: "\"In den Sommerferien\" (dative plural) in position 1, verb second; \"ans Meer\" = \"an das\", movement.",
       },
       {
         type: "listen-choose",
@@ -250,7 +250,7 @@ export const DE_A2_U19: Lesson[] = [
       {
         heading: "Injuries and rest: two reflexive verbs",
         body: [
-          "\"Sich verletzen\" (to hurt oneself): \"Ich habe mich am Knie verletzt\" (I've hurt my knee; \"an\" + dative for the body part). \"Sich ausruhen\" (to rest): \"Du musst dich ausruhen.\" Both are reflexive, so the pronoun changes with the person: mich, dich, sich, uns, euch.",
+          "\"Sich verletzen\" (to hurt oneself): \"Ich habe mich am Knie verletzt\" (I've hurt my knee; \"an\" + dative for the body part). \"Sich ausruhen\" (to rest): \"Du musst dich ausruhen.\" Both are reflexive, so the pronoun changes with the person: \"mich\", \"dich\", \"sich\", \"uns\", \"euch\".",
           "Other words: \"die Wunde\" (wound), \"bluten\" (to bleed), \"sich das Bein brechen\" (to break your leg, with the dative \"sich\" and no possessive): \"Er hat sich das Bein gebrochen.\"",
         ],
         examples: [
@@ -273,9 +273,9 @@ export const DE_A2_U19: Lesson[] = [
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
             en: "You need to [rest]. (to a friend)",
-            sentence: "Du musst ___ ausruhen.",
-            answer: "dich",
-            explanation: "\"Sich ausruhen\" is reflexive: with \"du\" the pronoun is \"dich\".",
+            sentence: "Du musst dich ___.",
+            answer: "ausruhen",
+            explanation: "\"Sich ausruhen\" is reflexive (with \"du\" the pronoun is \"dich\") and separable, but after the modal it stays in one piece at the end: \"ausruhen\".",
           },
         ],
       },
@@ -300,7 +300,7 @@ export const DE_A2_U19: Lesson[] = [
             source: "My grandma is in hospital.",
             answer: "Meine Oma liegt im Krankenhaus.",
             altAnswers: ["Meine Oma ist im Krankenhaus.", "Meine Großmutter liegt im Krankenhaus.", "Meine Großmutter ist im Krankenhaus."],
-            explanation: "Position, so \"im\" (in dem, dative). Patients \"liegen\" in hospital in German.",
+            explanation: "Position, so \"im\" (\"in dem\", dative). Patients \"liegen\" in hospital in German.",
           },
           {
             type: "listen-choose",
@@ -354,7 +354,7 @@ export const DE_A2_U19: Lesson[] = [
         sentence: "Ich muss morgen ___.",
         answer: "ins Krankenhaus",
         altAnswers: ["in die Klinik"],
-        explanation: "Movement: \"ins\" (in das) + accusative.",
+        explanation: "Movement: \"ins\" (\"in das\") + accusative.",
       },
       {
         type: "multiple-choice",
@@ -413,7 +413,7 @@ export const DE_A2_U19: Lesson[] = [
     level: "DE-A2",
     number: 3,
     title: "Word Web: Phones, Messages and Screens",
-    summary: "Talk about phones, messages, apps and Wi-Fi, with the separable verbs anrufen and herunterladen in every tense.",
+    summary: "Talk about phones, messages, apps and Wi-Fi, with the separable verbs \"anrufen\" and \"herunterladen\" in the present, the imperative and the Perfekt.",
     duration: "12 min",
     sections: [
       {
@@ -454,7 +454,7 @@ export const DE_A2_U19: Lesson[] = [
       {
         heading: "Apps, downloads and passwords",
         body: [
-          "\"Die App\" (plural \"die Apps\"), \"der Bildschirm\" (screen), \"das Passwort\", \"das WLAN\" (Wi-Fi, said ve-lahn), \"das Internet\", \"online\". \"Herunterladen\" (to download) is a long separable verb: \"Ich lade die App herunter\", Perfekt \"Ich habe die App heruntergeladen\", with -ge- inside. In everyday speech it's often shortened to \"runterladen\".",
+          "\"Die App\" (plural \"die Apps\"), \"der Bildschirm\" (screen), \"das Passwort\", \"das WLAN\" (Wi-Fi, said VAY-lahn), \"das Internet\", \"online\". \"Herunterladen\" (to download) is a long separable verb: \"Ich lade die App herunter\", Perfekt \"Ich habe die App heruntergeladen\", with -ge- inside. In everyday speech it's often shortened to \"runterladen\".",
           "Other useful verbs: \"speichern\" (save), \"löschen\" (delete), \"sich einloggen\" (log in), \"aktualisieren\" (update). \"Ich habe mein Passwort vergessen\" is a sentence everyone needs.",
         ],
         examples: [
@@ -496,7 +496,7 @@ export const DE_A2_U19: Lesson[] = [
         heading: "When the tech fails",
         body: [
           "\"Das WLAN geht nicht\", \"Ich habe kein Netz\" (I have no signal), \"Das Handy hängt\" (the phone has frozen), \"Die Verbindung ist schlecht\" (the connection is bad). \"Ich kann dich nicht hören\" and \"Du bist weg\" (you've gone / cut out) are the classic phone-call complaints.",
-          "On the phone, Germans often answer with their surname: \"Becker?\" or \"Becker, hallo.\" And they end with \"Tschüss!\" or, more formally, \"Auf Wiederhören!\" (the phone version of Auf Wiedersehen).",
+          "On the phone, Germans often answer with their surname: \"Becker?\" or \"Becker, hallo.\" And they end with \"Tschüss!\" or, more formally, \"Auf Wiederhören!\" (the phone version of \"Auf Wiedersehen\").",
         ],
         examples: [
           { es: "Ich habe hier kein Netz.", en: "I've got no signal here." },
@@ -549,7 +549,7 @@ export const DE_A2_U19: Lesson[] = [
         prompt: "Translate into German.",
         source: "Download the app! (to a friend)",
         answer: "Lade die App herunter!",
-        altAnswers: ["Lad die App herunter!", "Lad dir die App herunter!", "Lade dir die App herunter!", "Lad die App runter!", "Ladet die App herunter!", "Laden Sie die App herunter!"],
+        altAnswers: ["Lad die App herunter!", "Lad dir die App herunter!", "Lade dir die App herunter!", "Lad die App runter!"],
         explanation: "Du-imperative with the prefix \"herunter\" at the end. \"Laden\" doesn't take an umlaut in the imperative.",
       },
       {
@@ -753,7 +753,7 @@ export const DE_A2_U19: Lesson[] = [
         prompt: "Translate into German.",
         source: "We have to hurry.",
         answer: "Wir müssen uns beeilen.",
-        explanation: "\"Sich beeilen\" is reflexive: \"uns\" for wir.",
+        explanation: "\"Sich beeilen\" is reflexive: \"uns\" for \"wir\".",
       },
       {
         type: "fill-blank",
@@ -815,7 +815,7 @@ export const DE_A2_U19: Lesson[] = [
         type: "speak",
         text: "Abends putze ich mir die Zähne und gehe ins Bett.",
         prompt: "Say it in German: In the evening I brush my teeth and go to bed.",
-        tip: "Zähne: ts at the start, a long ä.",
+        tip: "\"Zähne\": ts at the start, a long ä.",
         explanation: "\"Sich die Zähne putzen\" with dative \"mir\"; \"ins Bett\" is movement (accusative).",
       },
     ],
@@ -825,7 +825,7 @@ export const DE_A2_U19: Lesson[] = [
     level: "DE-A2",
     number: 5,
     title: "Word Web: Work and Future Plans",
-    summary: "Talk about jobs, applications, interviews, training and pay, say what you work as with als, and describe plans with werden.",
+    summary: "Talk about jobs, applications, interviews, training and pay, say what you work as with \"als\", and describe plans with \"werden\".",
     duration: "13 min",
     sections: [
       {
@@ -835,7 +835,7 @@ export const DE_A2_U19: Lesson[] = [
           "To say what you work as, use \"als\" with no article: \"Ich arbeite als Krankenpfleger\", \"Sie arbeitet als Lehrerin.\" Hours: \"Vollzeit\" (full-time) and \"Teilzeit\" (part-time): \"Ich arbeite Teilzeit, zwanzig Stunden pro Woche.\"",
         ],
         examples: [
-          { es: "Was sind Sie von Beruf?", en: "What do you do? (polite)" },
+          { es: "Was sind Sie von Beruf?", en: "What do you do? (formal)" },
           { es: "Ich arbeite als Krankenpfleger in einem Krankenhaus.", en: "I work as a nurse in a hospital." },
           { es: "Sie sucht eine neue Stelle.", en: "She's looking for a new job." },
           { es: "Ich arbeite Teilzeit, zwanzig Stunden pro Woche.", en: "I work part-time, twenty hours a week." },
@@ -906,7 +906,7 @@ export const DE_A2_U19: Lesson[] = [
       {
         heading: "Training and future plans",
         body: [
-          "\"Die Ausbildung\" is vocational training, Germany's famous apprenticeship system (two to three years, mixing a company and a vocational school): \"Ich mache eine Ausbildung als Elektriker.\" \"Das Praktikum\" is an internship, \"das Studium\" university studies.",
+          "\"Die Ausbildung\" is vocational training, Germany's famous apprenticeship system (usually two to three and a half years, mixing a company and a vocational school): \"Ich mache eine Ausbildung als Elektriker.\" \"Das Praktikum\" is an internship, \"das Studium\" university studies.",
           "For plans and resolutions use \"werden\" + infinitive: \"Nach der Ausbildung werde ich in Hamburg arbeiten.\" \"Werden\" alone means to become: \"Ich will Ärztin werden\" (I want to become a doctor; again no article).",
         ],
         examples: [
@@ -940,7 +940,7 @@ export const DE_A2_U19: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "What do you do for a living? (polite)",
+        source: "What do you do for a living? (formal)",
         answer: "Was sind Sie von Beruf?",
         altAnswers: ["Was machen Sie beruflich?", "Was arbeiten Sie?"],
         explanation: "\"Von Beruf\" = by profession; both questions are standard.",
@@ -1029,7 +1029,7 @@ export const DE_A2_U19: Lesson[] = [
     level: "DE-A2",
     number: 6,
     title: "Word Web: Weather and Seasons",
-    summary: "Describe the weather and the forecast, read temperatures, say it's getting colder with werden, and use im with seasons and months.",
+    summary: "Describe the weather and the forecast, read temperatures, say it's getting colder with \"werden\", and use \"im\" with seasons and months.",
     duration: "12 min",
     sections: [
       {
@@ -1109,7 +1109,7 @@ export const DE_A2_U19: Lesson[] = [
       {
         heading: "Seasons and months: im",
         body: [
-          "Seasons and months take \"im\" (in dem): \"im Frühling\", \"im Sommer\", \"im Herbst\", \"im Winter\", \"im Januar\", \"im August\". All seasons and months are masculine.",
+          "Seasons and months take \"im\" (\"in dem\"): \"im Frühling\", \"im Sommer\", \"im Herbst\", \"im Winter\", \"im Januar\", \"im August\". All seasons and months are masculine.",
           "Seasonal weather in the past uses \"war\" and \"hatten\": \"Letzten Winter hatten wir viel Schnee\", \"Der Sommer war sehr heiß.\"",
         ],
         examples: [
@@ -1186,7 +1186,7 @@ export const DE_A2_U19: Lesson[] = [
         prompt: "Translate into German.",
         source: "The summer was very hot.",
         answer: "Der Sommer war sehr heiß.",
-        explanation: "\"War\" for the past of sein; \"heiß\" with ß.",
+        explanation: "\"War\" for the past of \"sein\"; \"heiß\" with ß.",
       },
       {
         type: "translate",
@@ -1237,9 +1237,9 @@ export const DE_A2_U19: Lesson[] = [
       {
         heading: "Part 1: the morning",
         body: [
-          "Jonas is telling his colleague about his sister Mia's wedding in a village near Leipzig. He speaks, so: Perfekt for most verbs, Präteritum for war, hatte and the modals.",
+          "Jonas is telling his colleague about his sister Mia's wedding in a village near Leipzig. He speaks, so: Perfekt for most verbs, Präteritum for \"war\", \"hatte\" and the modals.",
           "\"Letzten Samstag hat meine Schwester Mia geheiratet. Am Morgen war alles perfekt: Die Sonne hat geschienen, und alle waren gut gelaunt. Aber dann hat mein Bruder Leon gemerkt, dass er den Ring nicht mehr hatte!\"",
-          "Notice \"geheiratet\" (heiraten, regular, with haben), \"hat geschienen\" (scheinen, strong), and the dass-clause with the verb at the end: \"dass er den Ring nicht mehr hatte\".",
+          "Notice \"geheiratet\" (\"heiraten\", regular, with \"haben\"), \"hat geschienen\" (\"scheinen\", strong), and the dass-clause with the verb at the end: \"dass er den Ring nicht mehr hatte\".",
         ],
         examples: [
           { es: "Letzten Samstag hat meine Schwester geheiratet.", en: "Last Saturday my sister got married." },
@@ -1280,13 +1280,13 @@ export const DE_A2_U19: Lesson[] = [
         heading: "Part 2: the ring and the rain",
         body: [
           "\"Wir haben eine Stunde lang überall gesucht: im Auto, in der Kirche, unter den Stühlen. Zum Schluss hat meine Oma den Ring in ihrer Handtasche gefunden. Sie wollte ihn nur sicher aufbewahren! Dann sind wir zur Feier gefahren, aber plötzlich hat es angefangen zu regnen, und wir sind alle nass geworden.\"",
-          "Cases: \"im Auto\", \"in der Kirche\", \"unter den Stühlen\" (dative plural -n), \"in ihrer Handtasche\": all dative, because they say where. \"Zur Feier\" = zu der: \"zu\" is always dative. \"Eine Stunde lang\" is a finished period, so Perfekt.",
+          "Cases: \"im Auto\", \"in der Kirche\", \"unter den Stühlen\" (dative plural -n), \"in ihrer Handtasche\": all dative, because they say where. \"Zur Feier\" = \"zu der Feier\": \"zu\" is always dative. \"Eine Stunde lang\" is a finished period, so Perfekt.",
           "\"Werden\" in the Perfekt: \"ist geworden\" (became, got): \"Wir sind nass geworden\" = we got wet.",
         ],
         examples: [
           { es: "Wir haben eine Stunde lang überall gesucht.", en: "We searched everywhere for an hour." },
           { es: "Meine Oma hat den Ring in ihrer Handtasche gefunden.", en: "My grandma found the ring in her handbag." },
-          { es: "Dann sind wir zur Feier gefahren.", en: "Then we drove to the party." },
+          { es: "Dann sind wir zur Feier gefahren.", en: "Then we drove to the reception." },
           { es: "Plötzlich hat es angefangen zu regnen.", en: "Suddenly it started to rain." },
           { es: "Wir sind alle nass geworden.", en: "We all got wet." },
         ],
@@ -1353,7 +1353,7 @@ export const DE_A2_U19: Lesson[] = [
             type: "speak",
             text: "Alle haben gesungen und getanzt.",
             prompt: "Say it in German: Everyone sang and danced.",
-            explanation: "\"Singen\" → \"gesungen\" (strong), \"tanzen\" → \"getanzt\" (regular); both with haben.",
+            explanation: "\"Singen\" → \"gesungen\" (strong), \"tanzen\" → \"getanzt\" (regular); both with \"haben\".",
           },
         ],
       },
@@ -1366,7 +1366,7 @@ export const DE_A2_U19: Lesson[] = [
         source: "The sun was shining and it was warm.",
         answer: "Die Sonne hat geschienen, und es war warm.",
         altAnswers: ["Die Sonne hat geschienen und es war warm.", "Die Sonne schien, und es war warm.", "Die Sonne schien und es war warm."],
-        explanation: "\"Scheinen\" → \"geschienen\" (strong); \"war\" for sein.",
+        explanation: "\"Scheinen\" → \"geschienen\" (strong); \"war\" for \"sein\". The Präteritum \"Die Sonne schien\" is fine too.",
       },
       {
         type: "translate",
@@ -1384,7 +1384,7 @@ export const DE_A2_U19: Lesson[] = [
         source: "Then we drove to the church.",
         answer: "Dann sind wir zur Kirche gefahren.",
         altAnswers: ["Wir sind dann zur Kirche gefahren.", "Danach sind wir zur Kirche gefahren."],
-        explanation: "\"Dann\" first, verb second; \"fahren\" takes \"sein\"; \"zur\" = zu der.",
+        explanation: "\"Dann\" first, verb second; \"fahren\" takes \"sein\"; \"zur\" = \"zu der\".",
       },
       {
         type: "fill-blank",
@@ -1452,14 +1452,14 @@ export const DE_A2_U19: Lesson[] = [
     level: "DE-A2",
     number: 8,
     title: "Fix the Paragraph: A Travel Diary from Lake Constance",
-    summary: "Ayşe's diary of a trip to the Bodensee is full of slips: wrong auxiliaries, wrong past forms, case and ending errors and verbs in the wrong place. Find and fix them.",
+    summary: "Ayşe's diary of a trip to the \"Bodensee\" is full of slips: wrong auxiliaries, wrong past forms, case and ending errors and verbs in the wrong place. Find and fix them.",
     duration: "14 min",
     sections: [
       {
         heading: "Day 1: auxiliary and participle slips",
         body: [
-          "Ayşe is learning German and wrote a diary of her trip to the Bodensee (Lake Constance), where Germany, Austria and Switzerland meet. Here's day 1 with three mistakes: \"*Am Freitag habe ich mit dem Zug nach Konstanz gefahren. Die Fahrt hat vier Stunden gedauert. Am Abend bin ich am See spazieren gegeht.*\"",
-          "Mistake 1: \"fahren\" (movement from A to B) takes \"sein\": \"bin ... gefahren\". Mistake 2: none in the second sentence, \"dauern\" takes haben. Mistake 3: \"gehen\" is strong: the participle is \"gegangen\", not \"*gegeht*\".",
+          "Ayşe is learning German and wrote a diary of her trip to the \"Bodensee\" (Lake Constance), where Germany, Austria and Switzerland meet. Here's day 1 with three mistakes: \"*Am Freitag habe ich mit dem Zug nach Konstanz gefahren. Die Fahrt hat vier Stunden gedauert. Am Abend bin ich am See spazieren gegeht.*\"",
+          "Mistake 1: \"fahren\" (movement from A to B) takes \"sein\": \"bin ... gefahren\". Mistake 2: none in the second sentence, \"dauern\" takes \"haben\". Mistake 3: \"gehen\" is strong: the participle is \"gegangen\", not \"*gegeht*\".",
           "Correct version: \"Am Freitag bin ich mit dem Zug nach Konstanz gefahren. Die Fahrt hat vier Stunden gedauert. Am Abend bin ich am See spazieren gegangen.\"",
         ],
         examples: [
@@ -1493,7 +1493,7 @@ export const DE_A2_U19: Lesson[] = [
         body: [
           "Day 2: \"*Am Samstag habe ich mit eine Freundin eine Schifffahrt gemacht. Wir sind auf die Insel Mainau gefahren. Dort gibt es einen schöner Garten mit viele Blumen.*\"",
           "Mistake 1: \"mit\" always takes the dative: \"mit einer Freundin\". Mistake 2: none, \"auf die Insel\" is movement to a place (accusative). Mistake 3: after \"einen\" the adjective ends in -en: \"einen schönen Garten\". Mistake 4: \"mit\" + dative plural: \"mit vielen Blumen\".",
-          "Correct: \"Am Samstag habe ich mit einer Freundin eine Schifffahrt gemacht. Wir sind auf die Insel Mainau gefahren. Dort gibt es einen schönen Garten mit vielen Blumen.\" (Note the three f's in \"Schifffahrt\": Schiff + Fahrt.)",
+          "Correct: \"Am Samstag habe ich mit einer Freundin eine Schifffahrt gemacht. Wir sind auf die Insel Mainau gefahren. Dort gibt es einen schönen Garten mit vielen Blumen.\" (Note the three f's in \"Schifffahrt\": \"Schiff\" + \"Fahrt\".)",
         ],
         examples: [
           { es: "Ich habe mit einer Freundin eine Schifffahrt gemacht.", en: "I went on a boat trip with a friend." },
@@ -1618,7 +1618,7 @@ export const DE_A2_U19: Lesson[] = [
         question: "Which sentence has no mistake?",
         options: ["Wir haben einen langen Spaziergang gemacht.", "Wir haben ein langen Spaziergang gemacht.", "Wir sind einen langen Spaziergang gemacht.", "Wir haben einen langen Spaziergang gemachen."],
         correctIndex: 0,
-        explanation: "\"Der Spaziergang\" → \"einen langen Spaziergang\"; \"machen\" takes haben and its participle is \"gemacht\".",
+        explanation: "\"Der Spaziergang\" → \"einen langen Spaziergang\"; \"machen\" takes \"haben\" and its participle is \"gemacht\".",
       },
       {
         type: "translate",
@@ -1636,7 +1636,7 @@ export const DE_A2_U19: Lesson[] = [
         source: "In the evening I lay in bed.",
         answer: "Am Abend habe ich im Bett gelegen.",
         altAnswers: ["Am Abend bin ich im Bett gelegen.", "Am Abend lag ich im Bett."],
-        explanation: "\"Im\" = in dem: position needs the dative article. (Southern German says \"bin gelegen\".)",
+        explanation: "\"Im\" = \"in dem\": position needs the dative article. (Southern German says \"bin gelegen\".)",
       },
       {
         type: "word-order",
@@ -1657,7 +1657,7 @@ export const DE_A2_U19: Lesson[] = [
       {
         type: "dictation",
         audio: "Wir haben eine Schifffahrt gemacht.",
-        explanation: "\"Schifffahrt\" has three f's: Schiff + Fahrt.",
+        explanation: "\"Schifffahrt\" has three f's: \"Schiff\" + \"Fahrt\".",
       },
       {
         type: "speak",
@@ -1672,7 +1672,7 @@ export const DE_A2_U19: Lesson[] = [
     level: "DE-A2",
     number: 9,
     title: "Timeline Drill: A Short Biography",
-    summary: "Write a short Lebenslauf-style biography: born on, moved in, studied from ... to, has worked as ... since, with years said the German way.",
+    summary: "Tell a short life story in the style of a German CV, the \"Lebenslauf\": when someone was born, moved, studied and started work, with \"von ... bis\", \"seit\" and years said the German way.",
     duration: "13 min",
     sections: [
       {
@@ -1753,7 +1753,7 @@ export const DE_A2_U19: Lesson[] = [
         heading: "Putting it together",
         body: [
           "A full mini-biography mixes everything: \"Mehmet Yılmaz ist 1992 in Izmir geboren. 2010 ist er nach Deutschland gekommen. Zuerst hat er einen Deutschkurs gemacht, dann hat er von 2012 bis 2016 in Aachen Maschinenbau studiert. Danach hatte er eine Stelle in Stuttgart. Seit 2021 wohnt er in Hamburg und arbeitet als Ingenieur. Er ist verheiratet und hat zwei Kinder.\"",
-          "Check the pattern: dates in position 1 push the verb into position 2; \"kommen\" and \"ziehen\" take sein; \"hatte\" and \"war\" for states; \"seit\" + present for today.",
+          "Check the pattern: dates in position 1 push the verb into position 2; \"kommen\" and \"ziehen\" take \"sein\"; \"hatte\" and \"war\" for states; \"seit\" + present for today.",
         ],
         examples: [
           { es: "2010 ist er nach Deutschland gekommen.", en: "In 2010 he came to Germany." },
@@ -1776,7 +1776,7 @@ export const DE_A2_U19: Lesson[] = [
             type: "speak",
             text: "Ich bin 1990 in Leeds geboren und wohne seit 2019 in Berlin.",
             prompt: "Say it in German: I was born in Leeds in 1990 and I've been living in Berlin since 2019.",
-            tip: "Say the year as neunzehnhundertneunzig.",
+            tip: "Say the year as \"neunzehnhundertneunzig\".",
             explanation: "No \"in\" before the year; \"seit\" + present for where you live now.",
           },
         ],
@@ -1878,13 +1878,13 @@ export const DE_A2_U19: Lesson[] = [
     level: "DE-A2",
     number: 10,
     title: "Mixed Practice: Past Tenses Round 2 (Hardest)",
-    summary: "The hardest past-tense choices in one set: haben or sein, separable and ge-less participles, modals in the Präteritum, seit with the present and verb-final Perfekt in weil and dass clauses.",
+    summary: "The hardest past-tense choices in one set: \"haben\" or \"sein\", separable and ge-less participles, modals in the Präteritum, \"seit\" with the present and verb-final Perfekt in \"weil\" and \"dass\" clauses.",
     duration: "14 min",
     sections: [
       {
         heading: "Haben or sein, and the tricky participles",
         body: [
-          "Sein: movement from A to B (fahren, fliegen, gehen, laufen, umziehen), change of state (aufwachen, einschlafen, werden, sterben), plus bleiben, sein and passieren. Haben: everything else, including all reflexive verbs (\"ich habe mich beeilt\") and verbs with an accusative object.",
+          "\"Sein\": movement from A to B (\"fahren\", \"fliegen\", \"gehen\", \"laufen\", \"umziehen\"), change of state (\"aufwachen\", \"einschlafen\", \"werden\", \"sterben\"), plus \"bleiben\", \"sein\" and \"passieren\". \"Haben\": everything else, including all reflexive verbs (\"ich habe mich beeilt\") and verbs with an accusative object.",
           "Participles: separable verbs put -ge- inside (\"aufgestanden\", \"eingekauft\", \"angerufen\"); verbs with be-, ver-, er-, ent-, zer-, ge- and those in -ieren take no ge- (\"bekommen\", \"vergessen\", \"erzählt\", \"telefoniert\").",
         ],
         examples: [
@@ -2081,7 +2081,7 @@ export const DE_A2_U19: Lesson[] = [
       {
         type: "dictation",
         audio: "Sie ist im Kino eingeschlafen.",
-        explanation: "\"Einschlafen\" → \"eingeschlafen\" with sein.",
+        explanation: "\"Einschlafen\" → \"eingeschlafen\" with \"sein\".",
       },
       {
         type: "speak",
@@ -2174,7 +2174,7 @@ export const DE_A2_U19: Lesson[] = [
       {
         heading: "Step 3: reasons and reflections",
         body: [
-          "Finish with at least two subordinate clauses: \"Ich bin umgezogen, weil die alte Wohnung zu klein war.\" \"Ich habe gemerkt, dass ich mehr Sport brauche.\" \"Als meine Nichte auf die Welt gekommen ist, war ich total glücklich.\" (\"auf die Welt kommen\": to be born)",
+          "Finish with at least two subordinate clauses: \"Ich bin umgezogen, weil die alte Wohnung zu klein war.\" \"Ich habe gemerkt, dass ich mehr Sport brauche.\" \"Als meine Nichte auf die Welt gekommen ist, war ich total glücklich.\" Here \"auf die Welt kommen\" (to be born) is the everyday phrase.",
           "And one look ahead with \"werden\": \"Nächstes Jahr werde ich mehr reisen.\" That's your ten sentences: three events, three descriptions, three clauses, one plan.",
         ],
         examples: [
@@ -2211,7 +2211,7 @@ export const DE_A2_U19: Lesson[] = [
         source: "In summer we went on holiday in Italy.",
         answer: "Im Sommer haben wir in Italien Urlaub gemacht.",
         altAnswers: ["Im Sommer haben wir Urlaub in Italien gemacht.", "Im Sommer waren wir in Italien im Urlaub.", "Im Sommer sind wir nach Italien in den Urlaub gefahren."],
-        explanation: "\"Urlaub machen\" with haben; \"im Sommer\" first, verb second.",
+        explanation: "\"Urlaub machen\" with \"haben\"; \"im Sommer\" first, verb second.",
       },
       {
         type: "translate",
@@ -2298,7 +2298,7 @@ export const DE_A2_U19: Lesson[] = [
     level: "DE-A2",
     number: 12,
     title: "Diktat: Write the Story Down",
-    summary: "Listen to a short past-tense story and write it down: capital nouns, ss and ß, ie and ei, das and dass, and commas before weil and dass.",
+    summary: "Listen to a short past-tense story and write it down correctly: capital nouns, ss and ß, ie and ei, \"das\" and \"dass\", and commas before \"weil\" and \"dass\".",
     duration: "13 min",
     sections: [
       {
@@ -2376,7 +2376,7 @@ export const DE_A2_U19: Lesson[] = [
       {
         heading: "Commas before weil and dass",
         body: [
-          "German puts a comma before every subordinate clause: before \"weil\", \"dass\", \"wenn\", \"ob\", \"als\" and W-words in indirect questions. English often leaves it out (I think he's coming), German never does (\"Ich glaube, dass er kommt\"). There's no comma before \"und\" or \"oder\" joining two short main clauses, though it's allowed.",
+          "German puts a comma before every subordinate clause: before \"weil\", \"dass\", \"wenn\", \"ob\", \"als\" and W-words in indirect questions. English often leaves it out (I think he's coming), German never does (\"Ich glaube, dass er kommt\"). Before \"und\" or \"oder\" joining two main clauses, the comma is optional.",
           "The story ends: \"Zum Glück hat mir eine Kollegin ihr Handy gegeben. Ich glaube, dass ich nie wieder ohne Handy aus dem Haus gehe!\"",
         ],
         examples: [
@@ -2499,7 +2499,7 @@ export const DE_A2_U19: Lesson[] = [
     level: "DE-A2",
     number: 13,
     title: "Common Words: Body, Strength and Everyday Things",
-    summary: "Stark, schwach, schwer, leicht, das Ding, die Sache, das Zeug, kaputt and funktionieren, plus compound nouns where the last noun decides the gender.",
+    summary: "Describe strength and weight with \"stark\", \"schwach\", \"schwer\" and \"leicht\", talk about things and broken objects with \"das Ding\", \"die Sache\", \"das Zeug\", \"kaputt\" and \"funktionieren\", and get the gender of compound nouns from their last part.",
     duration: "12 min",
     sections: [
       {
@@ -2539,7 +2539,7 @@ export const DE_A2_U19: Lesson[] = [
       {
         heading: "Thing, stuff, broken",
         body: [
-          "\"Das Ding\" is a thing, a physical object (\"Was ist das für ein Ding?\"). \"Die Sache\" is a thing or matter, often abstract (\"Das ist eine gute Sache\", \"Pack deine Sachen!\" = pack your things). \"Das Zeug\" is stuff, often a bit dismissive (\"Was ist das für Zeug?\"). \"Der Gegenstand\" is the formal word for object, used on forms and at the Fundbüro.",
+          "\"Das Ding\" is a thing, a physical object (\"Was ist das für ein Ding?\"). \"Die Sache\" is a thing or matter, often abstract (\"Das ist eine gute Sache\", \"Pack deine Sachen!\" = pack your things). \"Das Zeug\" is stuff, often a bit dismissive (\"Was ist das für Zeug?\"). \"Der Gegenstand\" is the formal word for object, used on forms and at the \"Fundbüro\".",
           "Broken: \"kaputt\" (\"Die Waschmaschine ist kaputt\", \"Das Handy ist kaputtgegangen\"). Working: \"funktionieren\" or everyday \"gehen\": \"Der Drucker funktioniert nicht\", \"Geht das Licht wieder?\"",
         ],
         examples: [
@@ -2595,7 +2595,7 @@ export const DE_A2_U19: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "You can't find the front-door key (Haus + Tür + Schlüssel). What do you ask?",
+            question: "You can't find the front-door key (\"Haus\" + \"Tür\" + \"Schlüssel\"). What do you ask?",
             options: ["Wo ist der Haustürschlüssel?", "Wo ist das Haustürschlüssel?", "Wo ist die Haustürschlüssel?", "Wo ist den Haustürschlüssel?"],
             correctIndex: 0,
             explanation: "The last noun decides: \"der Schlüssel\", so \"der Haustürschlüssel\" (nominative, the subject). \"Das Haus\" and \"die Tür\" don't count.",
@@ -2612,7 +2612,7 @@ export const DE_A2_U19: Lesson[] = [
             type: "speak",
             text: "Hast du den Haustürschlüssel?",
             prompt: "Say it in German: Have you got the front-door key?",
-            tip: "Stress the first part of a compound: HAUS-tür-schlüs-sel.",
+            tip: "Stress the first part of a compound: \"Haustürschlüssel\", HAUS-tür-schlüs-sel.",
             explanation: "Masculine accusative \"den\", because \"der Schlüssel\" decides the gender.",
           },
         ],
@@ -2687,7 +2687,7 @@ export const DE_A2_U19: Lesson[] = [
         prompt: "Translate into German.",
         source: "My phone broke yesterday.",
         answer: "Mein Handy ist gestern kaputtgegangen.",
-        altAnswers: ["Gestern ist mein Handy kaputtgegangen.", "Mein Handy ist gestern kaputt gegangen."],
+        altAnswers: ["Gestern ist mein Handy kaputtgegangen."],
         explanation: "\"Kaputtgehen\" takes \"sein\" and puts -ge- inside.",
       },
       {

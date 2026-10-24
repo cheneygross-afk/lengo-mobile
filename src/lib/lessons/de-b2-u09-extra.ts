@@ -169,7 +169,7 @@ export const DE_B2_U09_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Genitive or Von?",
-    summary: "When the genitive is required and when von + Dativ is normal (no article, colloquial speech).",
+    summary: "When the genitive is required and when \"von\" + Dativ is normal (no article, colloquial speech).",
     duration: "12 min",
     sections: [
       {
@@ -260,7 +260,7 @@ export const DE_B2_U09_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sounds natural in a chat with a friend?",
+        question: "Which version is most typical of a casual chat with a friend?",
         options: ["Das ist die Jacke von meiner Schwester.", "Das ist die Jacke meiner Schwester.", "Das ist die Jacke meine Schwester.", "Das ist meiner Schwester Jacke von."],
         correctIndex: 0,
         explanation: "Spoken style prefers \"von\" + Dativ. (The genitive is correct but sounds more formal.)",
@@ -486,7 +486,7 @@ export const DE_B2_U09_EXTRA: Lesson[] = [
     number: 4,
     optional: true,
     title: "Extra Practice: Preposition Pairs",
-    summary: "Wegen, trotz, bei, nach, vor, während, zu, durch and the conjunctions they replace.",
+    summary: "Use \"wegen\", \"trotz\", \"bei\", \"nach\", \"vor\", \"während\", \"zu\" and \"durch\", and the conjunctions they replace.",
     duration: "12 min",
     sections: [
       {
@@ -600,7 +600,7 @@ export const DE_B2_U09_EXTRA: Lesson[] = [
         prompt: "Translate into German, in nominal style.",
         source: "In case of emergency, call 112.",
         answer: "Im Notfall rufen Sie 112 an.",
-        altAnswers: ["Im Notfall rufen Sie die 112 an.", "Im Notfall 112 anrufen.", "Im Notfall die 112 anrufen.", "Im Notfall wählen Sie 112."],
+        altAnswers: ["Im Notfall rufen Sie die 112 an.", "Im Notfall 112 anrufen.", "Im Notfall die 112 anrufen.", "Im Notfall wählen Sie 112.", "Im Notfall ruf 112 an.", "Im Notfall ruf die 112 an.", "Im Notfall ruft 112 an."],
         explanation: "\"Falls es einen Notfall gibt\" → \"im Notfall\".",
       },
       {
@@ -616,6 +616,7 @@ export const DE_B2_U09_EXTRA: Lesson[] = [
         prompt: "Translate into German, in nominal style.",
         source: "To celebrate the day, there's cake.",
         answer: "Zur Feier des Tages gibt es Kuchen.",
+        altAnswers: ["Zur Feier des Tages gibt's Kuchen."],
         explanation: "\"Zur Feier des Tages\" is an idiom: to celebrate (the occasion).",
       },
       {

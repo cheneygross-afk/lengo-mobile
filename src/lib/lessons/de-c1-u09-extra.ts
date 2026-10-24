@@ -404,8 +404,8 @@ export const DE_C1_U09_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Everyone thought he was a doctor.",
         answer: "Alle hielten ihn für einen Arzt.",
-        altAnswers: ["Alle haben ihn für einen Arzt gehalten."],
-        explanation: "Take someone for: \"halten für\" + accusative.",
+        altAnswers: ["Alle haben ihn für einen Arzt gehalten.", "Alle dachten, er sei Arzt.", "Alle dachten, er wäre Arzt."],
+        explanation: "Take someone for: \"halten für\" + accusative. \"Alle dachten, er sei Arzt\" is also correct, but practise \"halten für\" here.",
       },
       {
         type: "translate",
@@ -754,8 +754,8 @@ export const DE_C1_U09_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "We're excited about the new season.",
         answer: "Wir sind gespannt auf die neue Saison.",
-        altAnswers: ["Wir sind auf die neue Saison gespannt."],
-        explanation: "\"Gespannt auf\" + accusative.",
+        altAnswers: ["Wir sind auf die neue Saison gespannt.", "Wir freuen uns auf die neue Saison."],
+        explanation: "\"Gespannt auf\" + accusative (curious, eager); \"sich freuen auf\" also works.",
       },
       {
         type: "multiple-choice",

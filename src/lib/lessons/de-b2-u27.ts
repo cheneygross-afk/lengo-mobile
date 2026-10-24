@@ -8,20 +8,20 @@ export const DE_B2_U27: Lesson[] = [
     level: "DE-B2",
     number: 1,
     title: "Upper-Intermediate Comprehensive Review, Part 1 of 3",
-    summary: "Units 1-8 in mixed exercises: the Konjunktiv II past, regrets, Konjunktiv I and indirect speech, passive alternatives and participles.",
+    summary: "Revise Units 1-8 in mixed exercises: talk about the unreal past and regrets, report speech with Konjunktiv I, and use passive alternatives and participle attributes.",
     duration: "18 min",
     sections: [
       {
         heading: "Units 1-2: the unreal past and regrets",
         body: [
-          "The Konjunktiv II past is the Perfekt with \"hätte\" or \"wäre\": \"Ich hätte angerufen\", \"Sie wäre gekommen\". The same verbs take \"wäre\" as take \"bin\" in the Perfekt: movement, change of state, \"sein\", \"bleiben\", \"werden\", \"passieren\". Use it in both halves of an unreal past condition, never \"*würde ... haben*\".",
+          "The Konjunktiv II past is the Perfekt with \"hätte\" or \"wäre\": \"Ich hätte angerufen\", \"Sie wäre gekommen\". The same verbs take \"wäre\" as take \"bin\" in the Perfekt: movement, change of state, \"sein\", \"bleiben\", \"werden\", \"passieren\". Use it in both halves of an unreal past condition; \"würde ... gewusst haben\" exists but sounds clumsy, so avoid it.",
           "Conditions without \"wenn\" put the verb first: \"Hätte ich das gewusst, wäre ich gekommen.\" Wishes need \"doch\", \"nur\" or \"bloß\": \"Wäre ich bloß zu Hause geblieben!\" Mixed conditionals combine a past condition with a present result: \"Wenn ich Medizin studiert hätte, wäre ich jetzt Ärztin.\"",
           "Regrets and reproaches with a modal use the double infinitive: \"Ich hätte früher kommen sollen\", \"Du hättest mich anrufen können!\", \"Das hättest du nicht sagen dürfen.\" In a subordinate clause \"hätte\" goes before both infinitives: \"..., dass ich hätte fragen sollen.\"",
         ],
         examples: [
           { es: "Wenn wir früher losgefahren wären, hätten wir den Zug erreicht.", en: "If we'd left earlier, we'd have caught the train." },
           { es: "Hätte ich bloß nichts gesagt!", en: "If only I hadn't said anything!" },
-          { es: "Wenn ich damals nicht umgezogen wäre, würde ich ihn noch kennen.", en: "If I hadn't moved back then, I'd still know him." },
+          { es: "Wenn ich damals nicht umgezogen wäre, hätte ich noch Kontakt zu ihm.", en: "If I hadn't moved back then, I'd still be in touch with him." },
           { es: "Du hättest mir wenigstens Bescheid sagen können!", en: "You could at least have let me know!" },
           { es: "Ich weiß, dass ich früher hätte fragen sollen.", en: "I know I should have asked earlier." },
           { es: "Das hätten wir nicht kaufen müssen.", en: "We needn't have bought that." },
@@ -139,7 +139,7 @@ export const DE_B2_U27: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, in reported speech.",
+        prompt: "Translate into German.",
         source: "She denies having taken the money.",
         answer: "Sie bestreitet, das Geld genommen zu haben.",
         altAnswers: ["Sie bestreitet, dass sie das Geld genommen habe.", "Sie bestreitet, dass sie das Geld genommen hat."],
@@ -216,7 +216,7 @@ export const DE_B2_U27: Lesson[] = [
         type: "speak",
         text: "Das hättest du nicht sagen dürfen.",
         prompt: "Say it in German: You shouldn't have said that. (to a friend)",
-        tip: "\"Dürfen\": long ü, round your lips.",
+        tip: "\"Dürfen\": short ü, as in \"müssen\": round your lips.",
         explanation: "\"Nicht dürfen\" in the double infinitive: it wasn't okay to say it.",
       },
     ],
@@ -226,7 +226,7 @@ export const DE_B2_U27: Lesson[] = [
     level: "DE-B2",
     number: 2,
     title: "Spiral Review: Jedoch, Folglich, Zudem, Da",
-    summary: "Choose the connector and the word order in short argumentative texts.",
+    summary: "Choose between \"jedoch\", \"folglich\", \"zudem\", \"da\" and related connectors in short argumentative texts, with the right word order after each.",
     duration: "14 min",
     sections: [
       {
@@ -345,7 +345,7 @@ export const DE_B2_U27: Lesson[] = [
         prompt: "Translate into German.",
         source: "We were late because the train had been cancelled.",
         answer: "Wir kamen zu spät, weil der Zug ausgefallen war.",
-        altAnswers: ["Wir sind zu spät gekommen, weil der Zug ausgefallen war.", "Wir kamen zu spät, denn der Zug war ausgefallen.", "Wir sind zu spät gekommen, denn der Zug war ausgefallen.", "Wir kamen zu spät, da der Zug ausgefallen war."],
+        altAnswers: ["Wir sind zu spät gekommen, weil der Zug ausgefallen war.", "Wir kamen zu spät, denn der Zug war ausgefallen.", "Wir sind zu spät gekommen, denn der Zug war ausgefallen.", "Wir kamen zu spät, da der Zug ausgefallen war.", "Wir sind zu spät gekommen, da der Zug ausgefallen war."],
         explanation: "\"Weil\" / \"da\": verb at the end; \"denn\": normal order. \"Ausfallen\" takes sein.",
       },
       {
@@ -429,7 +429,7 @@ export const DE_B2_U27: Lesson[] = [
     level: "DE-B2",
     number: 3,
     title: "Upper-Intermediate Comprehensive Review, Part 2 of 3",
-    summary: "Units 9-16: nominal style, Funktionsverbgefüge, concessive, causal and modal clauses, als ob, subjective modals and Futur II.",
+    summary: "Revise Units 9-16: turn clauses into noun phrases, use Funktionsverbgefüge, link ideas with concessive, causal and modal clauses and \"als ob\", and express likelihood with subjective modals and Futur II.",
     duration: "18 min",
     sections: [
       {
@@ -513,7 +513,7 @@ export const DE_B2_U27: Lesson[] = [
         examples: [
           { es: "Sie muss den Termin vergessen haben.", en: "She must have forgotten the appointment." },
           { es: "Der Sänger soll nach Kanada ausgewandert sein.", en: "The singer is said to have emigrated to Canada." },
-          { es: "Er will die Prüfung ohne Lernen bestanden haben.", en: "He claims to have passed the exam without studying." },
+          { es: "Er will die Prüfung ganz ohne Vorbereitung bestanden haben.", en: "He claims to have passed the exam without any preparation." },
           { es: "Sie wird den Bus verpasst haben.", en: "She's probably missed the bus." },
           { es: "Bis Montag werde ich alles erledigt haben.", en: "By Monday I'll have done everything." },
           { es: "Er hat am Wochenende arbeiten müssen.", en: "He had to work at the weekend." },
@@ -605,7 +605,7 @@ export const DE_B2_U27: Lesson[] = [
         prompt: "Translate into German.",
         source: "He claims to have seen the thief.",
         answer: "Er will den Dieb gesehen haben.",
-        altAnswers: ["Er behauptet, den Dieb gesehen zu haben.", "Er behauptet, er habe den Dieb gesehen."],
+        altAnswers: ["Er behauptet, den Dieb gesehen zu haben.", "Er behauptet, er habe den Dieb gesehen.", "Er behauptet, dass er den Dieb gesehen habe.", "Er behauptet, dass er den Dieb gesehen hat."],
         explanation: "Subjective \"wollen\" = claims.",
       },
       {
@@ -622,7 +622,7 @@ export const DE_B2_U27: Lesson[] = [
         prompt: "Translate into German, using \"wegen\".",
         source: "Because of the strike, all flights were cancelled.",
         answer: "Wegen des Streiks fielen alle Flüge aus.",
-        altAnswers: ["Wegen des Streiks sind alle Flüge ausgefallen.", "Aufgrund des Streiks fielen alle Flüge aus.", "Wegen des Streiks wurden alle Flüge gestrichen.", "Aufgrund des Streiks sind alle Flüge ausgefallen."],
+        altAnswers: ["Wegen des Streiks sind alle Flüge ausgefallen.", "Wegen des Streiks wurden alle Flüge gestrichen."],
         explanation: "\"Wegen\" + genitive; flights \"fallen aus\".",
       },
       {
@@ -646,13 +646,13 @@ export const DE_B2_U27: Lesson[] = [
     level: "DE-B2",
     number: 4,
     title: "Spiral Review: Mixed Practice: Die Welt des Konjunktivs",
-    summary: "All the uses of Konjunktiv I and II in one extended text: a granddaughter writes about her grandmother's life.",
+    summary: "Use Konjunktiv I and II side by side in one extended text, as a granddaughter writes about her grandmother's life.",
     duration: "16 min",
     sections: [
       {
         heading: "Was Oma erzählt: Konjunktiv I",
         body: [
-          "Mia, 24, is writing a piece for a family album about her grandmother Ayşe, who came from Izmir to Köln in 1972 to work in a factory. Mia reports what her grandmother told her, so the first part is in Konjunktiv I.",
+          "Mia, 24, is writing a piece for a family album about her grandmother Ayşe, who came from Izmir to Cologne in 1972 to work in a factory. Mia reports what her grandmother told her, so the first part is in Konjunktiv I.",
           "\"Oma erzählt, sie sei mit zwanzig nach Deutschland gekommen. Sie habe kein Wort Deutsch gesprochen. Die Arbeit in der Fabrik sei hart gewesen, aber die Kolleginnen hätten ihr geholfen.\" Note \"hätten\": \"sie haben\" would look like the indicative, so Konjunktiv II steps in.",
           "Konjunktiv I lets Mia write long passages of reported speech without repeating \"sagt sie\" in every sentence: the verb form itself shows that it's Oma's account.",
         ],
@@ -924,6 +924,7 @@ export const DE_B2_U27: Lesson[] = [
             prompt: "Translate into German.",
             source: "The colleague whose husband works with us has resigned.",
             answer: "Die Kollegin, deren Mann bei uns arbeitet, hat gekündigt.",
+            altAnswers: ["Die Kollegin, deren Mann bei uns arbeitet, hat ihre Stelle gekündigt.", "Der Kollege, dessen Mann bei uns arbeitet, hat gekündigt."],
             explanation: "\"Deren\" for a feminine antecedent; \"kündigen\" = to resign, hand in notice.",
           },
           {
@@ -980,7 +981,7 @@ export const DE_B2_U27: Lesson[] = [
         prompt: "Translate into German.",
         source: "Although it was snowing, the match took place.",
         answer: "Obwohl es schneite, fand das Spiel statt.",
-        altAnswers: ["Obwohl es geschneit hat, hat das Spiel stattgefunden.", "Obwohl es schneite, hat das Spiel stattgefunden."],
+        altAnswers: ["Obwohl es geschneit hat, hat das Spiel stattgefunden.", "Obwohl es schneite, hat das Spiel stattgefunden.", "Obwohl es geschneit hat, fand das Spiel statt."],
         explanation: "\"Obwohl\" + verb at the end, then verb-first main clause.",
       },
       {
@@ -1035,8 +1036,8 @@ export const DE_B2_U27: Lesson[] = [
         prompt: "Translate into German.",
         source: "I think that you'll like the film.",
         answer: "Ich glaube, dass dir der Film gefallen wird.",
-        altAnswers: ["Ich glaube, dass der Film dir gefallen wird.", "Ich glaube, der Film wird dir gefallen.", "Ich glaube, dass Ihnen der Film gefallen wird.", "Ich glaube, dass euch der Film gefallen wird."],
-        explanation: "Conjunction \"dass\" (double s); \"gefallen\" + dative.",
+        altAnswers: ["Ich glaube, dass der Film dir gefallen wird.", "Ich glaube, der Film wird dir gefallen.", "Ich glaube, dass Ihnen der Film gefallen wird.", "Ich glaube, dass euch der Film gefallen wird.", "Ich glaube, dass der Film Ihnen gefallen wird.", "Ich glaube, dass der Film euch gefallen wird.", "Ich glaube, der Film wird Ihnen gefallen.", "Ich glaube, der Film wird euch gefallen."],
+        explanation: "Conjunction \"dass\" (double s); \"gefallen\" + dative. The English doesn't say who 'you' is, so \"dir\", \"euch\" and \"Ihnen\" are all accepted.",
       },
       {
         type: "word-order",
@@ -1066,7 +1067,7 @@ export const DE_B2_U27: Lesson[] = [
     level: "DE-B2",
     number: 6,
     title: "Upper-Intermediate Comprehensive Review, Part 3 of 3",
-    summary: "Units 17-26: connectors, word order, emphasis, genitive prepositions, formal relatives and the word webs.",
+    summary: "Revise Units 17-26: link ideas with advanced connectors, order and stress the parts of a sentence, use genitive prepositions and formal relatives, and recall the word-web vocabulary.",
     duration: "18 min",
     sections: [
       {
@@ -1091,6 +1092,7 @@ export const DE_B2_U27: Lesson[] = [
             prompt: "Translate into German.",
             source: "He hardly speaks English, let alone Chinese.",
             answer: "Er spricht kaum Englisch, geschweige denn Chinesisch.",
+            altAnswers: ["Er spricht kaum Englisch, ganz zu schweigen von Chinesisch."],
             explanation: "\"Geschweige denn\" after a negative or near-negative statement.",
           },
           {
@@ -1408,7 +1410,7 @@ export const DE_B2_U27: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct \"*Trotz dem Regen war das Fenster offen.*\" Write the written German for: Despite the rain the window was open.",
+        prompt: "Correct \"*Trotz dem Regen war das Fenster offen.*\" Write the correct written German for: Despite the rain the window was open.",
         source: "Despite the rain the window was open.",
         answer: "Trotz des Regens war das Fenster offen.",
         altAnswers: ["Trotz des Regens war das Fenster geöffnet.", "Das Fenster war trotz des Regens offen."],
@@ -1500,7 +1502,7 @@ export const DE_B2_U27: Lesson[] = [
       {
         heading: "Dialogue 1: die Reklamation",
         body: [
-          "Lena bought a washing machine (\"die Waschmaschine\") from an electronics store in Leipzig. After two weeks it leaks. She calls the customer service (\"der Kundendienst\"). She has to be polite but firm: Konjunktiv II for requests, the passive for what happened, and a reproach without being rude.",
+          "Lena bought a washing machine (\"die Waschmaschine\") from an electronics shop in Leipzig. After two weeks it leaks. She calls customer service (\"der Kundendienst\"). She has to be polite but firm: Konjunktiv II for requests, the passive for what happened, and a reproach without being rude.",
           "Useful: \"Ich möchte mich beschweren über\" + accusative, \"Die Maschine wurde am 3. Mai geliefert\", \"Sie hätte nicht nach zwei Wochen kaputtgehen dürfen\", \"Könnten Sie einen Techniker schicken?\", \"Ich bestehe auf\" + dative (I insist on), \"die Garantie\", \"der Umtausch\" (exchange), \"die Erstattung\" (refund).",
         ],
         examples: [
@@ -1539,7 +1541,7 @@ export const DE_B2_U27: Lesson[] = [
           { es: "Meine Gehaltsvorstellung liegt bei 58.000 Euro brutto.", en: "My salary expectation is 58,000 euros gross." },
           { es: "Ich verstehe zwar Ihre Lage, aber das ist unter dem Marktniveau.", en: "I understand your situation, but that's below the market level." },
           { es: "Wenn Sie mir mehr Urlaub geben könnten, wäre ich einverstanden.", en: "If you could give me more holiday, I'd agree." },
-          { es: "Vorausgesetzt, dass ich zwei Tage pro Woche im Homeoffice arbeiten kann, nehme ich an.", en: "Provided I can work from home two days a week, I'll accept." },
+          { es: "Vorausgesetzt, dass ich zwei Tage pro Woche im Homeoffice arbeiten kann, nehme ich das Angebot an.", en: "Provided I can work from home two days a week, I'll accept the offer." },
           { es: "Könnten Sie mir beim Gehalt etwas entgegenkommen?", en: "Could you meet me halfway on the salary?" },
         ],
         checkpoint: [
@@ -1555,7 +1557,7 @@ export const DE_B2_U27: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "Could you [meet me halfway] on the salary?",
+            en: "Could you [meet] me [halfway] on the salary?",
             sentence: "Könnten Sie mir beim Gehalt etwas ___?",
             answer: "entgegenkommen",
             explanation: "\"Jemandem entgegenkommen\" + dative = to meet someone halfway.",
@@ -1573,7 +1575,7 @@ export const DE_B2_U27: Lesson[] = [
           { es: "Da muss ich Ihnen widersprechen: Der Spielplatz ist dringend nötig.", en: "I have to disagree with you there: the playground is urgently needed." },
           { es: "Man könnte einwenden, dass es zu laut wird.", en: "One could object that it'll get too noisy." },
           { es: "Der Neue im dritten Stock soll Schauspieler sein.", en: "The new man on the third floor is said to be an actor." },
-          { es: "Er will sogar mal in einem Tatort mitgespielt haben.", en: "He even claims to have been in an episode of Tatort." },
+          { es: "Er will sogar mal in einem Tatort mitgespielt haben.", en: "He even claims to have been in an episode of \"Tatort\"." },
           { es: "Der wird wohl ziemlich viel Geld haben.", en: "He probably has quite a lot of money." },
         ],
         checkpoint: [
@@ -1592,7 +1594,7 @@ export const DE_B2_U27: Lesson[] = [
             prompt: "Translate into German.",
             source: "He claims to have worked in Hollywood.",
             answer: "Er will in Hollywood gearbeitet haben.",
-            altAnswers: ["Er behauptet, in Hollywood gearbeitet zu haben.", "Er behauptet, er habe in Hollywood gearbeitet."],
+            altAnswers: ["Er behauptet, in Hollywood gearbeitet zu haben.", "Er behauptet, er habe in Hollywood gearbeitet.", "Er behauptet, dass er in Hollywood gearbeitet habe."],
             explanation: "Own claim: \"will\" + perfect infinitive.",
           },
           {
@@ -1635,9 +1637,9 @@ export const DE_B2_U27: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into German.",
         source: "Provided I can work from home, I'll accept.",
-        answer: "Vorausgesetzt, dass ich im Homeoffice arbeiten kann, nehme ich an.",
-        altAnswers: ["Vorausgesetzt, ich kann im Homeoffice arbeiten, nehme ich an.", "Vorausgesetzt, dass ich von zu Hause arbeiten kann, nehme ich an.", "Vorausgesetzt, ich kann von zu Hause arbeiten, nehme ich an.", "Vorausgesetzt, dass ich im Homeoffice arbeiten kann, sage ich zu."],
-        explanation: "\"Vorausgesetzt, dass\" + verb at the end, or \"vorausgesetzt,\" + main-clause order.",
+        answer: "Vorausgesetzt, dass ich im Homeoffice arbeiten kann, nehme ich das Angebot an.",
+        altAnswers: ["Vorausgesetzt, dass ich im Homeoffice arbeiten kann, nehme ich an.", "Vorausgesetzt, ich kann im Homeoffice arbeiten, nehme ich das Angebot an.", "Vorausgesetzt, ich kann im Homeoffice arbeiten, nehme ich an.", "Vorausgesetzt, dass ich von zu Hause arbeiten kann, nehme ich an.", "Vorausgesetzt, ich kann von zu Hause arbeiten, nehme ich an.", "Vorausgesetzt, dass ich im Homeoffice arbeiten kann, sage ich zu."],
+        explanation: "\"Vorausgesetzt, dass\" + verb at the end, or \"vorausgesetzt,\" + main-clause order. \"Das Angebot annehmen\" is clearer than bare \"annehmen\", which can also mean to assume.",
       },
       {
         type: "fill-blank",
@@ -1653,7 +1655,7 @@ export const DE_B2_U27: Lesson[] = [
         prompt: "Translate into German.",
         source: "You're right there, but one could object that it's expensive.",
         answer: "Da haben Sie recht, aber man könnte einwenden, dass es teuer ist.",
-        altAnswers: ["Da hast du recht, aber man könnte einwenden, dass es teuer ist.", "Da haben Sie recht, aber man könnte einwenden, dass das teuer ist.", "Da haben Sie recht, man könnte aber einwenden, dass es teuer ist."],
+        altAnswers: ["Da hast du recht, aber man könnte einwenden, dass es teuer ist.", "Da haben Sie recht, aber man könnte einwenden, dass das teuer ist.", "Da haben Sie recht, man könnte aber einwenden, dass es teuer ist.", "Da habt ihr recht, aber man könnte einwenden, dass es teuer ist."],
         explanation: "\"Recht haben\" + \"einwenden, dass\".",
       },
       {
@@ -1693,7 +1695,7 @@ export const DE_B2_U27: Lesson[] = [
         type: "speak",
         text: "Könnten Sie mir beim Gehalt etwas entgegenkommen?",
         prompt: "Say it in German: Could you meet me halfway on the salary?",
-        tip: "\"Entgegenkommen\": stress on \"gegen\".",
+        tip: "\"Entgegenkommen\": stress on the first syllable of \"gegen\": ent-GE-gen-kommen.",
         explanation: "Polite Konjunktiv II + \"entgegenkommen\" with dative.",
       },
     ],
@@ -1828,7 +1830,7 @@ export const DE_B2_U27: Lesson[] = [
         prompt: "Translate into German.",
         source: "Dear Sir or Madam, I am writing regarding your advertisement.",
         answer: "Sehr geehrte Damen und Herren, ich beziehe mich auf Ihre Anzeige.",
-        altAnswers: ["Sehr geehrte Damen und Herren, ich schreibe Ihnen bezüglich Ihrer Anzeige.", "Sehr geehrte Damen und Herren, ich schreibe Ihnen wegen Ihrer Anzeige.", "Sehr geehrte Damen und Herren, bezüglich Ihrer Anzeige schreibe ich Ihnen."],
+        altAnswers: ["Sehr geehrte Damen und Herren, ich schreibe Ihnen bezüglich Ihrer Anzeige.", "Sehr geehrte Damen und Herren, ich schreibe Ihnen wegen Ihrer Anzeige.", "Sehr geehrte Damen und Herren, bezüglich Ihrer Anzeige schreibe ich Ihnen.", "Sehr geehrte Damen und Herren, ich schreibe Ihnen in Bezug auf Ihre Anzeige."],
         explanation: "After the comma the text continues in lowercase: \"ich\". \"Sich beziehen auf\" + accusative.",
       },
       {
@@ -1854,7 +1856,7 @@ export const DE_B2_U27: Lesson[] = [
         question: "Which opening is correct for a formal German email?",
         options: ["Sehr geehrte Frau Schneider,", "Liebe Frau Schneider!", "Hallo Frau Schneider:", "Sehr geehrte Frau Schneider."],
         correctIndex: 0,
-        explanation: "\"Sehr geehrte\" + comma; the next line starts lowercase.",
+        explanation: "\"Sehr geehrte\" + comma; the next line starts lowercase. \"Liebe ...\" is for people you know, the exclamation mark is old-fashioned, and a colon or full stop is wrong here.",
       },
       {
         type: "translate",
@@ -2085,6 +2087,7 @@ export const DE_B2_U27: Lesson[] = [
         prompt: "Translate into German.",
         source: "The flat, whose rent has gone up, is very small.",
         answer: "Die Wohnung, deren Miete gestiegen ist, ist sehr klein.",
+        altAnswers: ["Die Wohnung, deren Miete erhöht worden ist, ist sehr klein.", "Die Wohnung, deren Miete erhöht wurde, ist sehr klein."],
         explanation: "\"Deren\" for \"die Wohnung\"; two \"ist\"s, one at the end of the relative clause and one in position 2.",
       },
       {
@@ -2117,5 +2120,5 @@ export const DE_B2_U27_WRITING: WriteExercise = {
     "Structures the text with formal connectors and a genitive preposition (\"zudem\", \"jedoch\", \"folglich\", \"aufgrund\", \"während\").",
   ],
   modelAnswer: "Sehr geehrte Frau Becker,\n\nich habe von März bis Juni den Abendkurs für Fortgeschrittene an Ihrer Schule besucht und möchte Ihnen eine kurze Rückmeldung geben.\n\nZunächst das Positive: Der Unterricht war abwechslungsreich, und unsere Lehrerin, Frau Weber, hat sich sehr viel Mühe gegeben. Auch meine Mitschüler fanden, der Kurs sei gut strukturiert gewesen und man habe viel gelernt. Besonders die Übungen zum Konjunktiv waren hilfreich.\n\nAllerdings gab es auch Probleme. Aufgrund der Bauarbeiten im Gebäude war es in den ersten Wochen oft sehr laut, sodass wir uns kaum konzentrieren konnten. Meines Erachtens hätten die Teilnehmer vorher informiert werden müssen. Zudem fielen während des Kurses drei Termine aus, die leider nicht nachgeholt wurden.\n\nFür die Zukunft hätte ich zwei Vorschläge: Ausgefallene Stunden sollten grundsätzlich nachgeholt werden, und es wäre schön, wenn die Kursunterlagen online zur Verfügung gestellt würden.\n\nIch wäre Ihnen dankbar, wenn Sie meine Anregungen an das Team weitergeben könnten. Ich würde mich jedenfalls freuen, im Herbst den Aufbaukurs bei Ihnen zu besuchen.\n\nMit freundlichen Grüßen\nSarah Miller",
-  explanation: "The classmates' opinion is reported with Konjunktiv I (\"sei ... gewesen\", \"habe ... gelernt\"). \"Hätten ... informiert werden müssen\" combines a passive with the double infinitive for a reproach, and \"nachgeholt werden\", \"zur Verfügung gestellt würden\" are passives with a Funktionsverbgefüge. \"Aufgrund\" and \"während\" take the genitive, and \"allerdings\", \"sodass\", \"zudem\" and \"meines Erachtens\" structure the argument in a formal register.",
+  explanation: "The classmates' opinion is reported with Konjunktiv I (\"sei ... gewesen\", \"habe ... gelernt\"). \"Hätten ... informiert werden müssen\" combines a passive with the double infinitive for a reproach, and \"nachgeholt werden\" and \"zur Verfügung gestellt würden\" are passives, the second built on a Funktionsverbgefüge. \"Aufgrund\" and \"während\" take the genitive, and \"allerdings\", \"sodass\", \"zudem\" and \"meines Erachtens\" structure the argument in a formal register.",
 };

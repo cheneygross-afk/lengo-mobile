@@ -427,7 +427,7 @@ export const DE_C1_U12: Lesson[] = [
           { es: "Er ist sicher zu Hause. → Er muss zu Hause sein.", en: "He's surely at home. → He must be at home." },
           { es: "Das ist sehr wahrscheinlich ein Fehler. → Das dürfte ein Fehler sein.", en: "That's very probably a mistake." },
           { es: "Sie hat vielleicht recht. → Sie könnte recht haben.", en: "She might be right." },
-          { es: "Der Zug kommt normalerweise gleich. → Der Zug müsste gleich kommen.", en: "The train should be coming any minute." },
+          { es: "Der Zug kommt eigentlich gleich. → Der Zug müsste gleich kommen.", en: "The train should be coming any minute." },
         ],
         checkpoint: [
           {
@@ -661,9 +661,10 @@ export const DE_C1_U12: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "He [can't have] forgotten the date again!",
-            sentence: "Er ___ doch nicht schon wieder das Datum vergessen haben!",
-            answer: "kann",
+            en: "He [can't] have forgotten the date again!",
+            sentence: "Er ___ schon wieder das Datum vergessen haben!",
+            answer: "kann doch nicht",
+            altAnswers: ["kann nicht", "kann ja nicht"],
             explanation: "Disbelief: \"kann nicht\" + perfect infinitive, with \"doch\".",
           },
         ],
@@ -1630,7 +1631,7 @@ export const DE_C1_U12: Lesson[] = [
       {
         heading: "Indicative, Konjunktiv I or II: degrees of distance",
         body: [
-          "After a reporting verb, German offers three moods. Indicative (\"Er sagt, er ist krank\"): common in speech, shows little distance, the reporter may agree. Konjunktiv I (\"Er sagt, er sei krank\"): neutral reporting, standard in the press. Konjunktiv II (\"Er sagt, er wäre krank\"): replacement form when Konjunktiv I looks like the indicative, but in other cases it can suggest doubt.",
+          "After a reporting verb, German offers three moods. Indicative (\"Er sagt, er ist krank\"): common in speech, shows little distance, the reporter may agree. Konjunktiv I (\"Er sagt, er sei krank\"): neutral reporting, standard in the press. Konjunktiv II (\"Er sagt, er wäre krank\"): replacement form when Konjunktiv I looks like the indicative; in other cases it is common in speech and in writing can suggest doubt.",
           "So \"Sie behauptet, sie hätte das Geld zurückgezahlt\" sounds more sceptical than \"Sie sagt, sie habe das Geld zurückgezahlt.\" In careful writing, use Konjunktiv I where distinct, Konjunktiv II only as the replacement.",
         ],
         examples: [
@@ -1834,7 +1835,7 @@ export const DE_C1_U12: Lesson[] = [
           { es: "Ich fürchte, dass sie es vergessen haben könnte.", en: "I'm afraid she might have forgotten it." },
           { es: "Er war sauer, weil er hat warten müssen.", en: "He was cross because he'd had to wait." },
           { es: "Er war sauer, weil er warten musste.", en: "He was cross because he had to wait." },
-          { es: "Man sagt, dass er reich gewesen sein soll.", en: "People say he's supposed to have been rich." },
+          { es: "Es ist kaum zu glauben, dass er reich gewesen sein soll.", en: "It's hard to believe that he's supposed to have been rich." },
         ],
         checkpoint: [
           {

@@ -15,8 +15,8 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
       {
         heading: "Recap: state or process",
         body: [
-          "\"Ist\" + Partizip II = the result, a state you can see now (die Tür ist geschlossen). \"Wird\" + Partizip II = the action, happening at a moment or regularly (die Tür wird um 20 Uhr geschlossen).",
-          "Clues: um, morgen, gerade, jeden Tag → wird. Seit, bis, schon, noch, den ganzen Tag → ist. Signs and opening hours are almost always states. In the past: war (state) vs wurde (event).",
+          "\"Ist\" + Partizip II = the result, a state you can see now (\"die Tür ist geschlossen\"). \"Wird\" + Partizip II = the action, happening at a moment or regularly (\"die Tür wird um 20 Uhr geschlossen\").",
+          "Clues: \"um\", \"morgen\", \"gerade\", \"jeden Tag\" → \"wird\". \"Seit\", \"bis\", \"schon\", \"noch\", \"den ganzen Tag\" → \"ist\". Signs and opening hours are almost always states. In the past: \"war\" (state) vs \"wurde\" (event).",
         ],
         examples: [
           { es: "Die Praxis ist heute geschlossen.", en: "The surgery is closed today." },
@@ -80,7 +80,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         source: "The car park has been closed since Tuesday.",
         answer: "Der Parkplatz ist seit Dienstag gesperrt.",
         altAnswers: ["Der Parkplatz ist seit Dienstag geschlossen.", "Das Parkhaus ist seit Dienstag geschlossen.", "Das Parkhaus ist seit Dienstag gesperrt.", "Seit Dienstag ist der Parkplatz gesperrt."],
-        explanation: "Seit + state: \"ist\".",
+        explanation: "\"Seit\" + state: \"ist\".",
       },
       {
         type: "fill-blank",
@@ -156,7 +156,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         type: "speak",
         text: "Die Praxis ist heute geschlossen, aber morgen ist sie wieder geöffnet.",
         prompt: "Say it in German: The surgery is closed today, but tomorrow it's open again.",
-        explanation: "Two states with sein.",
+        explanation: "Two states with \"sein\".",
       },
     ],
   },
@@ -166,14 +166,14 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Sein + zu with Separable Verbs",
-    summary: "Spell and place zu correctly in separable verbs: anzumelden, auszufüllen, zurückzugeben.",
+    summary: "Spell and place \"zu\" correctly in separable verbs (\"anzumelden\", \"auszufüllen\", \"zurückzugeben\") and keep it separate with inseparable ones.",
     duration: "12 min",
     sections: [
       {
         heading: "Recap: zu goes inside",
         body: [
-          "With separable verbs, zu sits between the prefix and the stem, and the whole thing is one word: anmelden → anzumelden, ausfüllen → auszufüllen, zurückgeben → zurückzugeben, abholen → abzuholen.",
-          "Inseparable verbs (be-, ver-, er-, ent-, unter- in most uses) and verbs without a prefix keep zu as a separate word: zu bezahlen, zu verlängern, zu unterschreiben, zu informieren.",
+          "With separable verbs, \"zu\" sits between the prefix and the stem, and the whole thing is one word: \"anmelden\" → \"anzumelden\", \"ausfüllen\" → \"auszufüllen\", \"zurückgeben\" → \"zurückzugeben\", \"abholen\" → \"abzuholen\".",
+          "Inseparable verbs (\"be-\", \"ver-\", \"er-\", \"ent-\", \"unter-\" in most uses) and verbs without a prefix keep \"zu\" as a separate word: \"zu bezahlen\", \"zu verlängern\", \"zu unterschreiben\", \"zu informieren\".",
         ],
         examples: [
           { es: "Der Wohnsitz ist innerhalb von zwei Wochen anzumelden.", en: "Your address must be registered within two weeks." },
@@ -189,7 +189,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
             en: "The books [must be returned] by 1 May.",
             sentence: "Die Bücher sind bis zum 1. Mai ___.",
             answer: "zurückzugeben",
-            explanation: "zurück + zu + geben.",
+            explanation: "\"zurück\" + \"zu\" + \"geben\": one word.",
           },
           {
             type: "fill-blank",
@@ -210,7 +210,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         source: "Your address must be registered within two weeks.",
         answer: "Der Wohnsitz ist innerhalb von zwei Wochen anzumelden.",
         altAnswers: ["Der Wohnsitz ist innerhalb zweier Wochen anzumelden.", "Die Adresse ist innerhalb von zwei Wochen anzumelden.", "Der Wohnsitz ist binnen zwei Wochen anzumelden."],
-        explanation: "an + zu + melden. \"Innerhalb\" needs \"von\" before a bare number (or the genitive \"zweier\"), so not \"*innerhalb zwei Wochen\".",
+        explanation: "\"an\" + \"zu\" + \"melden\". \"Innerhalb\" needs \"von\" before a bare number (or the genitive \"zweier\"), so not \"*innerhalb zwei Wochen*\".",
       },
       {
         type: "translate",
@@ -219,7 +219,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         source: "The form must be filled in in capital letters.",
         answer: "Das Formular ist in Druckbuchstaben auszufüllen.",
         altAnswers: ["Das Formular ist in Großbuchstaben auszufüllen."],
-        explanation: "aus + zu + füllen.",
+        explanation: "\"aus\" + \"zu\" + \"füllen\": one word.",
       },
       {
         type: "translate",
@@ -228,7 +228,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         source: "Parcels must be collected within seven days.",
         answer: "Pakete sind innerhalb von sieben Tagen abzuholen.",
         altAnswers: ["Die Pakete sind innerhalb von sieben Tagen abzuholen.", "Pakete sind binnen sieben Tagen abzuholen."],
-        explanation: "ab + zu + holen.",
+        explanation: "\"ab\" + \"zu\" + \"holen\": one word.",
       },
       {
         type: "translate",
@@ -237,7 +237,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         source: "The ID card must be renewed in good time.",
         answer: "Der Ausweis ist rechtzeitig zu verlängern.",
         altAnswers: ["Der Personalausweis ist rechtzeitig zu verlängern."],
-        explanation: "Inseparable ver-: \"zu verlängern\".",
+        explanation: "Inseparable \"ver-\": \"zu verlängern\", two words.",
       },
       {
         type: "fill-blank",
@@ -245,7 +245,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         en: "Mobile phones [must be switched off] during the exam.",
         sentence: "Handys sind während der Prüfung ___.",
         answer: "auszuschalten",
-        explanation: "aus + zu + schalten.",
+        explanation: "\"aus\" + \"zu\" + \"schalten\": one word.",
       },
       {
         type: "translate",
@@ -254,7 +254,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         source: "The keys must be handed in at reception.",
         answer: "Die Schlüssel sind an der Rezeption abzugeben.",
         altAnswers: ["Die Schlüssel sind am Empfang abzugeben."],
-        explanation: "ab + zu + geben.",
+        explanation: "\"ab\" + \"zu\" + \"geben\": one word.",
       },
       {
         type: "fill-blank",
@@ -263,7 +263,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         sentence: "Die Kaution ist bei Vertragsabschluss zu ___.",
         answer: "bezahlen",
         altAnswers: ["zahlen", "hinterlegen"],
-        explanation: "\"Bezahlen\" has an inseparable prefix: zu stays separate.",
+        explanation: "\"Bezahlen\" has an inseparable prefix: \"zu\" stays separate.",
       },
       {
         type: "translate",
@@ -272,14 +272,14 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         source: "Changes must be reported immediately.",
         answer: "Änderungen sind sofort mitzuteilen.",
         altAnswers: ["Änderungen sind unverzüglich mitzuteilen.", "Änderungen sind sofort zu melden.", "Änderungen sind unverzüglich zu melden.", "Änderungen sind sofort anzuzeigen."],
-        explanation: "mit + zu + teilen.",
+        explanation: "\"mit\" + \"zu\" + \"teilen\": one word.",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: The bins must be put out the evening before.",
         words: ["Die", "Mülltonnen", "sind", "am", "Vorabend", "bereitzustellen."],
         translation: "The bins must be put out the evening before.",
-        explanation: "bereit + zu + stellen.",
+        explanation: "\"bereit\" + \"zu\" + \"stellen\": one word.",
       },
       {
         type: "translate",
@@ -288,14 +288,14 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         source: "Bicycles must be parked in the courtyard.",
         answer: "Fahrräder sind im Hof abzustellen.",
         altAnswers: ["Die Fahrräder sind im Hof abzustellen.", "Räder sind im Hof abzustellen."],
-        explanation: "ab + zu + stellen.",
+        explanation: "\"ab\" + \"zu\" + \"stellen\": one word.",
       },
       {
         type: "multiple-choice",
         question: "The money must be paid in at the counter. Complete: \"Das Geld ist am Schalter ___.\"",
         options: ["einzuzahlen", "zu einzahlen", "einzahlenzu", "ein zu zahlen"],
         correctIndex: 0,
-        explanation: "\"Einzahlen\" is separable: zu goes after the prefix, all one word.",
+        explanation: "\"Einzahlen\" is separable: \"zu\" goes after the prefix, all one word.",
       },
       {
         type: "listen-choose",
@@ -303,7 +303,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         question: "What does it mean?",
         options: ["The books must be returned by 1 May.", "The books were returned on 1 May.", "The books can be borrowed until 1 May.", "The books are too late."],
         correctIndex: 0,
-        explanation: "Sein + zu = necessity.",
+        explanation: "\"Sein + zu\" = necessity.",
       },
       {
         type: "dictation",
@@ -387,7 +387,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         source: "The wardrobe can't be taken apart.",
         answer: "Der Schrank lässt sich nicht auseinanderbauen.",
         altAnswers: ["Der Kleiderschrank lässt sich nicht auseinanderbauen.", "Der Schrank ist nicht auseinanderzubauen.", "Der Schrank kann nicht auseinandergebaut werden."],
-        explanation: "Sich lassen for impossibility.",
+        explanation: "\"Sich lassen\" for impossibility.",
       },
       {
         type: "translate",
@@ -404,7 +404,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         en: "The old flat must be [handed over] clean.",
         sentence: "Die alte Wohnung ist besenrein zu ___.",
         answer: "übergeben",
-        explanation: "\"Übergeben\" is inseparable here: zu stays separate.",
+        explanation: "\"Übergeben\" is inseparable here: \"zu\" stays separate.",
       },
       {
         type: "translate",
@@ -413,7 +413,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         source: "I'm having the piano moved by a company.",
         answer: "Ich lasse das Klavier von einer Firma transportieren.",
         altAnswers: ["Das Klavier lasse ich von einer Firma transportieren."],
-        explanation: "Lassen = have something done.",
+        explanation: "\"Lassen\" = have something done.",
       },
       {
         type: "translate",
@@ -482,14 +482,14 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
     number: 4,
     optional: true,
     title: "Extra Practice: -Bar, -Lich and -Fähig",
-    summary: "Form adjectives from verbs and use them with un-: unbezahlbar, unverständlich.",
+    summary: "Form adjectives in \"-bar\", \"-lich\" and \"-fähig\" from verbs and negate them with \"un-\" (\"unbezahlbar\", \"unverständlich\").",
     duration: "12 min",
     sections: [
       {
         heading: "Recap: compact passives",
         body: [
-          "Verb stem + -bar = can be done: trinkbar, waschbar, erreichbar, vermeidbar. Some -lich adjectives work the same way: verständlich, verzeihlich, erhältlich (available). -fähig = capable of: verbesserungsfähig, entwicklungsfähig.",
-          "Un- turns them into cannot be: unbezahlbar, unverständlich, unvermeidbar / unvermeidlich, unerreichbar. Don't confuse -bar with -wert (worth doing): lesbar (legible) vs lesenswert (worth reading).",
+          "Verb stem + \"-bar\" = can be done: \"trinkbar\", \"waschbar\", \"erreichbar\", \"vermeidbar\". Some \"-lich\" adjectives work the same way: \"verständlich\", \"verzeihlich\", \"erhältlich\" (available). \"-fähig\" = capable of: \"verbesserungsfähig\", \"entwicklungsfähig\".",
+          "\"Un-\" turns them into cannot be: \"unbezahlbar\", \"unverständlich\", \"unvermeidbar\" / \"unvermeidlich\", \"unerreichbar\". Don't confuse \"-bar\" with \"-wert\" (worth doing): \"lesbar\" (legible) vs \"lesenswert\" (worth reading).",
         ],
         examples: [
           { es: "Ist das Leitungswasser hier trinkbar?", en: "Is the tap water drinkable here?" },
@@ -505,7 +505,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
             en: "The instructions are completely [incomprehensible].",
             sentence: "Die Anleitung ist völlig ___.",
             answer: "unverständlich",
-            explanation: "un- + verständlich.",
+            explanation: "\"un-\" + \"verständlich\".",
           },
           {
             type: "translate",
@@ -514,7 +514,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
             source: "Is the tap water drinkable here?",
             answer: "Ist das Leitungswasser hier trinkbar?",
             altAnswers: ["Ist hier das Leitungswasser trinkbar?"],
-            explanation: "trink + bar.",
+            explanation: "\"trink\" + \"bar\".",
           },
         ],
       },
@@ -526,7 +526,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         prompt: "Translate into German with an adjective.",
         source: "The mistake was avoidable.",
         answer: "Der Fehler war vermeidbar.",
-        explanation: "vermeid + bar.",
+        explanation: "\"vermeid\" + \"bar\": can be avoided.",
       },
       {
         type: "translate",
@@ -535,7 +535,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         source: "Flats in the city centre are unaffordable.",
         answer: "Wohnungen in der Innenstadt sind unbezahlbar.",
         altAnswers: ["Die Wohnungen in der Innenstadt sind unbezahlbar.", "Wohnungen im Stadtzentrum sind unbezahlbar."],
-        explanation: "un- + bezahlbar.",
+        explanation: "\"un-\" + \"bezahlbar\".",
       },
       {
         type: "translate",
@@ -553,7 +553,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         source: "The jacket is machine washable.",
         answer: "Die Jacke ist maschinenwaschbar.",
         altAnswers: ["Die Jacke ist in der Maschine waschbar."],
-        explanation: "wasch + bar.",
+        explanation: "\"wasch\" + \"bar\".",
       },
       {
         type: "fill-blank",
@@ -562,7 +562,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         sentence: "Ich bin im Urlaub und bis Montag ___.",
         answer: "unerreichbar",
         altAnswers: ["nicht erreichbar"],
-        explanation: "un- + erreichbar.",
+        explanation: "\"un-\" + \"erreichbar\" (\"nicht erreichbar\" is just as common).",
       },
       {
         type: "translate",
@@ -571,7 +571,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         source: "The plan is good but still has room for improvement.",
         answer: "Der Plan ist gut, aber noch ausbaufähig.",
         altAnswers: ["Der Plan ist gut, aber noch verbesserungsfähig.", "Der Plan ist gut, aber er ist noch ausbaufähig."],
-        explanation: "-fähig: capable of development.",
+        explanation: "\"-fähig\": capable of development.",
       },
       {
         type: "translate",
@@ -596,7 +596,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         source: "This film is really worth seeing.",
         answer: "Dieser Film ist wirklich sehenswert.",
         altAnswers: ["Der Film ist wirklich sehenswert."],
-        explanation: "Worth seeing = -wert, not -bar.",
+        explanation: "Worth seeing = \"-wert\", not \"-bar\".",
       },
       {
         type: "fill-blank",
@@ -616,7 +616,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
           { left: "unvorstellbar", right: "unimaginable" },
           { left: "unverständlich", right: "incomprehensible" },
         ],
-        explanation: "Un- + compact passive adjective.",
+        explanation: "\"Un-\" + compact passive adjective.",
       },
       {
         type: "listen-choose",
@@ -624,7 +624,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         question: "What does it mean?",
         options: ["Her handwriting is barely legible.", "Her handwriting is hardly worth reading.", "Her handwriting can't be learned.", "She hardly reads her handwriting."],
         correctIndex: 0,
-        explanation: "Lesbar = legible.",
+        explanation: "\"Lesbar\" = legible; worth reading would be \"lesenswert\".",
       },
       {
         type: "dictation",
@@ -645,14 +645,14 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
     number: 5,
     optional: true,
     title: "Extra Practice: Lassen: Have It Done or It Can Be Done?",
-    summary: "Contrast ich lasse mir die Haare schneiden with das lässt sich schneiden.",
+    summary: "Tell \"Ich lasse mir die Haare schneiden\" (have it done) from \"Das lässt sich schneiden\" (it can be done).",
     duration: "12 min",
     sections: [
       {
         heading: "Recap: two kinds of lassen",
         body: [
-          "Person + lassen + object + infinitive = have something done: \"Ich lasse mir die Haare schneiden\", \"Wir lassen die Heizung warten.\" Perfekt with the double infinitive: \"Ich habe mir die Haare schneiden lassen.\"",
-          "Thing + lässt sich + infinitive = can be done: \"Das Brot lässt sich gut schneiden\", \"Die Heizung lässt sich nicht regulieren.\" The thing is the subject; \"sich\" refers back to it.",
+          "Person + \"lassen\" + object + infinitive = have something done: \"Ich lasse mir die Haare schneiden\", \"Wir lassen die Heizung warten.\" Perfekt with the double infinitive: \"Ich habe mir die Haare schneiden lassen.\"",
+          "Thing + \"lässt sich\" + infinitive = can be done: \"Das Brot lässt sich gut schneiden\", \"Die Heizung lässt sich nicht regulieren.\" The thing is the subject; \"sich\" refers back to it.",
         ],
         examples: [
           { es: "Ich lasse mir die Haare schneiden.", en: "I'm getting my hair cut." },
@@ -667,7 +667,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
             question: "\"Der Akku lässt sich nicht austauschen.\" What does it mean?",
             options: ["The battery can't be replaced.", "I'm not having the battery replaced.", "Don't replace the battery.", "The battery won't let itself be charged."],
             correctIndex: 0,
-            explanation: "Thing as subject + sich lassen = possibility.",
+            explanation: "Thing as subject + \"sich lassen\" = possibility.",
           },
           {
             type: "translate",
@@ -676,7 +676,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
             source: "We have the heating serviced every year.",
             answer: "Wir lassen die Heizung jedes Jahr warten.",
             altAnswers: ["Wir lassen jedes Jahr die Heizung warten.", "Jedes Jahr lassen wir die Heizung warten."],
-            explanation: "Have something done: lassen without sich.",
+            explanation: "Have something done: \"lassen\" without \"sich\".",
           },
         ],
       },
@@ -698,7 +698,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         source: "The bread cuts well.",
         answer: "Das Brot lässt sich gut schneiden.",
         altAnswers: ["Das Brot schneidet sich gut."],
-        explanation: "Possibility: sich lassen (or the reflexive middle).",
+        explanation: "Possibility: \"sich lassen\" (or the reflexive middle).",
       },
       {
         type: "translate",
@@ -716,7 +716,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         source: "The battery can't be replaced.",
         answer: "Der Akku lässt sich nicht austauschen.",
         altAnswers: ["Die Batterie lässt sich nicht austauschen.", "Der Akku lässt sich nicht wechseln.", "Der Akku ist nicht austauschbar."],
-        explanation: "Sich lassen; or \"austauschbar\".",
+        explanation: "\"Sich lassen\"; or \"austauschbar\".",
       },
       {
         type: "fill-blank",
@@ -733,7 +733,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         source: "We're having the windows cleaned.",
         answer: "Wir lassen die Fenster putzen.",
         altAnswers: ["Wir lassen die Fenster reinigen."],
-        explanation: "Have done: lassen + infinitive.",
+        explanation: "Have done: \"lassen\" + infinitive.",
       },
       {
         type: "translate",
@@ -749,7 +749,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: I'm having my suit cleaned.",
         words: ["Ich", "lasse", "meinen", "Anzug", "reinigen."],
         translation: "I'm having my suit cleaned.",
-        explanation: "Lassen + object + infinitive.",
+        explanation: "\"Lassen\" + object + infinitive.",
       },
       {
         type: "fill-blank",
@@ -785,7 +785,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         question: "What does it mean?",
         options: ["We have the heating serviced every year.", "We wait for the heating every year.", "The heating can be serviced every year.", "We service the heating ourselves every year."],
         correctIndex: 0,
-        explanation: "\"Warten\" here = to service; lassen = have it done.",
+        explanation: "\"Warten\" here = to service; \"lassen\" = have it done.",
       },
       {
         type: "dictation",
@@ -796,7 +796,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         type: "speak",
         text: "Ich lasse das Auto reparieren, aber der Kratzer lässt sich nicht entfernen.",
         prompt: "Say it in German: I'm having the car repaired, but the scratch can't be removed.",
-        explanation: "Both kinds of lassen in one sentence.",
+        explanation: "Both kinds of \"lassen\" in one sentence.",
       },
     ],
   },
@@ -806,14 +806,14 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
     number: 6,
     optional: true,
     title: "Extra Practice: Dictation of Notices",
-    summary: "Hear and write public notices: Das Betreten ist verboten; Fahrräder sind im Hof abzustellen.",
+    summary: "Understand, write down and translate public notices such as \"Das Betreten ist verboten\" and \"Fahrräder sind im Hof abzustellen\".",
     duration: "12 min",
     sections: [
       {
         heading: "Recap: the language of signs",
         body: [
-          "Public notices combine the Zustandspassiv (\"Das Betreten ist verboten\", \"Der Aufzug ist außer Betrieb\"), sein + zu (\"Fahrräder sind im Hof abzustellen\") and short infinitives (\"Bitte nicht rauchen\").",
-          "Spelling points to listen for: ß after long vowels (Straße, gemäß), zu inside separable verbs (abzustellen), nominalised infinitives with a capital (das Betreten, das Rauchen).",
+          "Public notices combine the Zustandspassiv (\"Das Betreten ist verboten\", \"Der Aufzug ist außer Betrieb\"), \"sein + zu\" (\"Fahrräder sind im Hof abzustellen\") and short infinitives (\"Bitte nicht rauchen\").",
+          "Spelling points to listen for: ß after long vowels (\"Straße\", \"gemäß\"), \"zu\" inside separable verbs (\"abzustellen\"), nominalised infinitives with a capital (\"das Betreten\", \"das Rauchen\").",
         ],
         examples: [
           { es: "Das Betreten der Baustelle ist verboten.", en: "Entering the building site is prohibited." },
@@ -853,7 +853,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         source: "This door must be kept closed at all times.",
         answer: "Die Tür ist stets geschlossen zu halten.",
         altAnswers: ["Diese Tür ist stets geschlossen zu halten.", "Die Tür ist immer geschlossen zu halten.", "Diese Tür ist immer geschlossen zu halten."],
-        explanation: "Sein + zu with \"geschlossen halten\".",
+        explanation: "\"Sein + zu\" with \"geschlossen halten\".",
       },
       {
         type: "translate",
@@ -867,7 +867,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "Die Mülltonnen sind am Vorabend bereitzustellen.",
-        explanation: "\"Bereitzustellen\": bereit + zu + stellen.",
+        explanation: "\"Bereitzustellen\": \"bereit\" + \"zu\" + \"stellen\".",
       },
       {
         type: "translate",
@@ -901,8 +901,8 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         prompt: "Translate into German with \"sein + zu\".",
         source: "Valuables must not be left in the car.",
         answer: "Wertsachen sind nicht im Auto zurückzulassen.",
-        altAnswers: ["Wertsachen sind nicht im Fahrzeug zurückzulassen.", "Wertsachen dürfen nicht im Auto gelassen werden."],
-        explanation: "zurück + zu + lassen.",
+        altAnswers: ["Wertsachen sind nicht im Fahrzeug zurückzulassen."],
+        explanation: "\"zurück\" + \"zu\" + \"lassen\": one word.",
       },
       {
         type: "dictation",
@@ -923,7 +923,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         source: "The pool is closed for cleaning until 2 pm.",
         answer: "Das Schwimmbad ist bis 14 Uhr wegen Reinigung geschlossen.",
         altAnswers: ["Das Schwimmbad ist wegen Reinigung bis 14 Uhr geschlossen.", "Das Bad ist bis 14 Uhr wegen Reinigung geschlossen.", "Das Bad ist wegen Reinigung bis 14 Uhr geschlossen."],
-        explanation: "\"Bis\" + state.",
+        explanation: "\"Bis\" + state: \"ist geschlossen\".",
       },
       {
         type: "listen-choose",
@@ -931,7 +931,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         question: "What does the sign say?",
         options: ["Dogs must be kept on a lead.", "Dogs are not allowed.", "Dogs can be walked here.", "Dogs are too dangerous."],
         correctIndex: 0,
-        explanation: "Sein + zu = must.",
+        explanation: "\"Sein + zu\" = must.",
       },
       {
         type: "speak",
@@ -947,7 +947,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
     number: 7,
     optional: true,
     title: "Extra Practice: Mixed Practice: Konjunktiv and Passive",
-    summary: "Combine reported speech and the passive: Der Sprecher sagte, die Straße sei noch gesperrt.",
+    summary: "Combine reported speech and the passive: \"Der Sprecher sagte, die Straße sei noch gesperrt.\"",
     duration: "14 min",
     sections: [
       {
@@ -992,7 +992,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         source: "According to the police, the bridge will be repaired by Friday.",
         answer: "Laut Polizei werde die Brücke bis Freitag repariert.",
         altAnswers: ["Laut der Polizei werde die Brücke bis Freitag repariert.", "Der Polizei zufolge werde die Brücke bis Freitag repariert.", "Laut Polizei werde die Brücke bis Freitag repariert sein."],
-        explanation: "\"Werde\" = Konjunktiv I of werden.",
+        explanation: "\"Werde\" = Konjunktiv I of \"werden\"; \"repariert sein\" makes clear the work will be finished by then.",
       },
       {
         type: "translate",
@@ -1001,7 +1001,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         source: "The technician said that couldn't be repaired.",
         answer: "Der Techniker meinte, das lasse sich nicht reparieren.",
         altAnswers: ["Der Techniker sagte, das lasse sich nicht reparieren.", "Der Techniker sagte, das könne nicht repariert werden.", "Die Technikerin sagte, das lasse sich nicht reparieren.", "Der Techniker hat gesagt, das lasse sich nicht reparieren."],
-        explanation: "\"Lasse sich\": Konjunktiv I of sich lassen.",
+        explanation: "\"Lasse sich\": Konjunktiv I of \"sich lassen\".",
       },
       {
         type: "translate",
@@ -1010,7 +1010,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         source: "The authority stated that the application had to be submitted by Monday.",
         answer: "Die Behörde erklärte, der Antrag sei bis Montag einzureichen.",
         altAnswers: ["Die Behörde erklärte, der Antrag müsse bis Montag eingereicht werden.", "Die Behörde hat erklärt, der Antrag sei bis Montag einzureichen."],
-        explanation: "Sein + zu in reported speech: \"sei ... einzureichen\".",
+        explanation: "\"Sein + zu\" in reported speech: \"sei ... einzureichen\".",
       },
       {
         type: "fill-blank",
@@ -1036,7 +1036,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         source: "The newspaper reports that the station has been closed since Monday.",
         answer: "Die Zeitung berichtet, der Bahnhof sei seit Montag geschlossen.",
         altAnswers: ["Die Zeitung berichtet, dass der Bahnhof seit Montag geschlossen sei.", "Die Zeitung berichtet, der Bahnhof sei seit Montag gesperrt."],
-        explanation: "Seit + state → \"sei geschlossen\".",
+        explanation: "\"Seit\" + state → \"sei geschlossen\".",
       },
       {
         type: "word-order",
@@ -1069,7 +1069,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         source: "The mechanic said I should have the brakes checked.",
         answer: "Der Mechaniker sagte, ich solle die Bremsen überprüfen lassen.",
         altAnswers: ["Der Mechaniker sagte, ich sollte die Bremsen überprüfen lassen.", "Der Mechaniker hat gesagt, ich solle die Bremsen überprüfen lassen.", "Die Mechanikerin sagte, ich solle die Bremsen überprüfen lassen.", "Der Mechaniker sagte, ich solle die Bremsen checken lassen."],
-        explanation: "Reported command (sollen) + lassen = have it done.",
+        explanation: "Reported command (\"sollen\") + \"lassen\" = have it done.",
       },
       {
         type: "multiple-choice",

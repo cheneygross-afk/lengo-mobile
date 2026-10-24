@@ -34,7 +34,7 @@ export const GOETHE_B1_LESEN: ExamPaper = {
       title: "Teil 1",
       instructions:
         "Lesen Sie den Text und die Aufgaben 1 bis 6. Wählen Sie: Sind die Aussagen richtig oder falsch? Arbeitszeit: etwa 10 Minuten.",
-      instructionsEn: "Read Miriam's blog post. Are statements 1-6 true (Richtig) or false (Falsch)? About 10 minutes.",
+      instructionsEn: "Read Miriam's blog post. Are statements 1-6 \"Richtig\" (true) or \"Falsch\" (false)? About 10 minutes.",
       texts: [
         {
           title: "Mein Sommer auf der Alm – ein Blog von Miriam",
@@ -263,7 +263,7 @@ export const GOETHE_B1_LESEN: ExamPaper = {
       instructions:
         "Lesen Sie die Texte 20 bis 26. Wählen Sie: Ist die Person für Hunde im Büro? Arbeitszeit: etwa 15 Minuten.",
       instructionsEn:
-        "In a magazine's readers' letters page, seven people write about whether dogs should be allowed in the office. For each one (20-26), choose Ja if the person is in favour and Nein if not. About 15 minutes.",
+        "In a magazine's readers' letters page, seven people write about whether dogs should be allowed in the office. For each one (20-26), choose \"Ja\" if the person is in favour and \"Nein\" if not. About 15 minutes.",
       texts: [
         {
           label: "Leserbriefe",

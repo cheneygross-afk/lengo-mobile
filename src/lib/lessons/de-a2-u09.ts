@@ -8,7 +8,7 @@ export const DE_A2_U09: Lesson[] = [
     level: "DE-A2",
     number: 1,
     title: "Reflexive Verbs and Daily Routine, Part 1 of 2",
-    summary: "Talk about your morning routine with reflexive verbs: ich wasche mich, du duschst dich, er zieht sich an.",
+    summary: "Talk about your morning routine with reflexive verbs: \"ich wasche mich\", \"du duschst dich\", \"er zieht sich an\".",
     duration: "14 min",
     sections: [
       {
@@ -218,7 +218,7 @@ export const DE_A2_U09: Lesson[] = [
     level: "DE-A2",
     number: 2,
     title: "Pattern Practice: Ich wasche mich, du wäschst dich",
-    summary: "Drill reflexive verbs through all six persons, with the stem change in waschen and separable reflexives like sich anziehen.",
+    summary: "Drill reflexive verbs through all six persons, with the stem change in \"waschen\" and separable reflexives like \"sich anziehen\".",
     duration: "12 min",
     sections: [
       {
@@ -356,7 +356,8 @@ export const DE_A2_U09: Lesson[] = [
         prompt: "Translate into German.",
         source: "Do you comb your hair every day? (to a friend)",
         answer: "Kämmst du dich jeden Tag?",
-        explanation: "\"Sich kämmen\" is to comb your hair; German needs no word for hair here.",
+        altAnswers: ["Kämmst du dir jeden Tag die Haare?"],
+        explanation: "\"Sich kämmen\" is to comb your hair; German needs no word for hair here. \"Kämmst du dir die Haare?\" (dative \"dir\" + the hair) is also right.",
       },
       {
         type: "translate",
@@ -420,7 +421,7 @@ export const DE_A2_U09: Lesson[] = [
         prompt: "Translate into German.",
         source: "They shower after training.",
         answer: "Sie duschen sich nach dem Training.",
-        altAnswers: ["Nach dem Training duschen sie sich.", "Sie duschen nach dem Training."],
+        altAnswers: ["Nach dem Training duschen sie sich.", "Sie duschen nach dem Training.", "Nach dem Training duschen sie."],
         explanation: "\"Sie duschen sich\": third person plural takes \"sich\".",
       },
     ],
@@ -430,7 +431,7 @@ export const DE_A2_U09: Lesson[] = [
     level: "DE-A2",
     number: 3,
     title: "Minimal Pairs: Ich wasche / Ich wasche mich",
-    summary: "Hear and use the difference between doing something to someone else and doing it to yourself: ich wasche das Auto vs ich wasche mich.",
+    summary: "Hear and use the difference between doing something to someone else and doing it to yourself: \"ich wasche das Auto\" vs \"ich wasche mich\".",
     duration: "12 min",
     sections: [
       {
@@ -675,7 +676,7 @@ export const DE_A2_U09: Lesson[] = [
         examples: [
           { es: "Ich interessiere mich für Geschichte.", en: "I'm interested in history." },
           { es: "Mehmet ärgert sich über den Stau.", en: "Mehmet is annoyed about the traffic jam." },
-          { es: "Erinnerst du dich an Frau Schneider?", en: "Do you remember Mrs Schneider?" },
+          { es: "Erinnerst du dich an Frau Schneider?", en: "Do you remember Ms Schneider?" },
           { es: "Ich erinnere mich gut an den Tag.", en: "I remember the day well." },
           { es: "Wer kümmert sich um den Hund?", en: "Who's looking after the dog?" },
           { es: "Wir kümmern uns um die Kinder.", en: "We're taking care of the children." },
@@ -692,7 +693,7 @@ export const DE_A2_U09: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "Do you [remember] Mrs Schneider? (to a friend)",
+            en: "Do you [remember] Ms Schneider? (to a friend)",
             sentence: "Erinnerst du dich ___ Frau Schneider?",
             answer: "an",
             explanation: "\"Sich erinnern an\" + accusative: remember is reflexive in German and takes \"an\".",
@@ -850,7 +851,7 @@ export const DE_A2_U09: Lesson[] = [
     level: "DE-A2",
     number: 5,
     title: "Choose & Explain: Mir or Mich?",
-    summary: "Learn when the reflexive pronoun turns dative: ich wasche mich, but ich wasche mir die Hände.",
+    summary: "Learn when the reflexive pronoun turns dative: \"ich wasche mich\", but \"ich wasche mir die Hände\".",
     duration: "13 min",
     sections: [
       {
@@ -888,7 +889,7 @@ export const DE_A2_U09: Lesson[] = [
       {
         heading: "Die Zähne, not meine Zähne",
         body: [
-          "For parts of your own body, German says the teeth, the hands, the hair and puts the owner in the dative reflexive: \"Ich putze mir die Zähne\" (I brush my teeth). \"Ich putze meine Zähne\" is understandable but sounds foreign, a little like I brush the teeth that belong to me.",
+          "For parts of your own body, German says the teeth, the hands, the hair and puts the owner in the dative reflexive: \"Ich putze mir die Zähne\" (I brush my teeth). \"Ich putze meine Zähne\" is also heard, but it sounds less natural, a little like I brush the teeth that belong to me.",
           "The same pattern describes small accidents: \"Ich habe mir den Arm gebrochen\" (I broke my arm), \"Er hat sich in den Finger geschnitten\" (he cut his finger).",
           "And it covers things you do for yourself: \"Ich mache mir einen Tee\" (I make myself a tea), \"Ich kaufe mir ein Eis\" (I buy myself an ice cream).",
         ],
@@ -907,7 +908,8 @@ export const DE_A2_U09: Lesson[] = [
             prompt: "Translate into German.",
             source: "I brush my teeth.",
             answer: "Ich putze mir die Zähne.",
-            explanation: "Dative reflexive \"mir\" + the article \"die\": \"Ich putze mir die Zähne\". \"*Ich putze meine Zähne*\" is the English-sounding version.",
+            altAnswers: ["Ich putze meine Zähne."],
+            explanation: "Dative reflexive \"mir\" + the article \"die\": \"Ich putze mir die Zähne\". \"Ich putze meine Zähne\" is not wrong, but it is the English-sounding version.",
           },
           {
             type: "fill-blank",
@@ -1059,7 +1061,7 @@ export const DE_A2_U09: Lesson[] = [
     level: "DE-A2",
     number: 6,
     title: "Wir treffen uns: Each Other",
-    summary: "Use uns, euch and sich to mean each other: wir treffen uns, sie kennen sich, sie haben sich verliebt.",
+    summary: "Use \"uns\", \"euch\" and \"sich\" to mean each other: \"wir treffen uns\", \"sie kennen sich\", \"sie haben sich verliebt\".",
     duration: "13 min",
     sections: [
       {
@@ -1075,7 +1077,7 @@ export const DE_A2_U09: Lesson[] = [
           { es: "Seht ihr euch oft?", en: "Do you see each other often? (to friends)" },
           { es: "Wir schreiben uns jeden Tag.", en: "We write to each other every day." },
           { es: "Lena und Jonas verstehen sich gut.", en: "Lena and Jonas get on well." },
-          { es: "Bis morgen, wir sehen uns!", en: "Till tomorrow, see you!" },
+          { es: "Bis morgen, wir sehen uns!", en: "See you tomorrow!" },
         ],
         checkpoint: [
           {
@@ -1277,7 +1279,7 @@ export const DE_A2_U09: Lesson[] = [
     level: "DE-A2",
     number: 7,
     title: "Contrast Clinic: Verbs That Change with Sich",
-    summary: "Sort out sitzen and sich setzen, learn the verbs that are reflexive in German but not in English, and the English reflexives German doesn't use.",
+    summary: "Sort out \"sitzen\" and \"sich setzen\", learn the verbs that are reflexive in German but not in English, and the English reflexives German doesn't use.",
     duration: "14 min",
     sections: [
       {
@@ -1291,7 +1293,7 @@ export const DE_A2_U09: Lesson[] = [
           { es: "Ich sitze im Zug.", en: "I'm sitting on the train." },
           { es: "Setz dich doch!", en: "Do sit down!" },
           { es: "Wo sitzt du?", en: "Where are you sitting?" },
-          { es: "Frau Becker hat sich zu mir gesetzt.", en: "Mrs Becker came and sat with me." },
+          { es: "Frau Becker hat sich zu mir gesetzt.", en: "Ms Becker came and sat with me." },
           { es: "Wir haben zwei Stunden im Café gesessen.", en: "We sat in the café for two hours." },
         ],
         checkpoint: [
@@ -1403,7 +1405,7 @@ export const DE_A2_U09: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Mrs Becker came and sat with me.",
+        source: "Ms Becker came and sat with me.",
         answer: "Frau Becker hat sich zu mir gesetzt.",
         explanation: "Sitting down is a movement: \"sich setzen\", Perfekt with \"haben\". \"Sich zu jemandem setzen\" = to come and sit with someone; \"zu\" takes the dative \"mir\".",
       },
@@ -1434,7 +1436,7 @@ export const DE_A2_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your friend's guests are leaving for a concert. What do you say?",
+        question: "Your friends are leaving for a concert. What do you say?",
         options: ["Viel Spaß!", "Genießt euch!", "Freut euch selbst!", "Habt euch Spaß!"],
         correctIndex: 0,
         explanation: "Enjoy yourselves! is simply \"Viel Spaß!\" The other options translate the English reflexive word for word.",
@@ -1754,11 +1756,11 @@ export const DE_A2_U09: Lesson[] = [
         heading: "The message to your boss",
         body: [
           "Put it together in a short, polite message. Use \"Sie\" and \"Ihnen\" with your boss, and open with \"Liebe Frau Schneider,\" or \"Lieber Herr Becker,\" (friendly but correct) or the formal \"Sehr geehrte Frau Schneider,\". The first word after the comma starts with a small letter unless it's a noun.",
-          "A model: \"Liebe Frau Schneider, leider komme ich heute eine Stunde später. Ich habe verschlafen und musste mich sehr beeilen. Dann ist der Bus nicht gekommen. Ich entschuldige mich für die Verspätung. Viele Grüße, Jonas Weber\"",
+          "A model: \"Liebe Frau Schneider, leider komme ich heute eine Stunde später. Ich habe verschlafen und musste mich sehr beeilen. Dann ist der Bus nicht gekommen. Ich entschuldige mich für die Verspätung. Viele Grüße Jonas Weber\"",
           "End with \"Viele Grüße\" (friendly) or \"Mit freundlichen Grüßen\" (formal), then your name.",
         ],
         examples: [
-          { es: "Liebe Frau Schneider,", en: "Dear Mrs Schneider," },
+          { es: "Liebe Frau Schneider,", en: "Dear Ms Schneider," },
           { es: "leider komme ich heute eine Stunde später.", en: "unfortunately I'll be an hour late today." },
           { es: "Ich musste mich um meine Tochter kümmern.", en: "I had to look after my daughter." },
           { es: "Ich beeile mich!", en: "I'm hurrying!" },
@@ -1838,10 +1840,10 @@ export const DE_A2_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the right way to start a message to your boss, Mrs Schneider?",
+        question: "Which is the right way to start a message to your boss, Ms Schneider?",
         options: ["Liebe Frau Schneider,", "Lieber Frau Schneider,", "Hallo Schneider,", "Liebe Schneider,"],
         correctIndex: 0,
-        explanation: "\"Liebe\" for a woman, \"Lieber\" for a man, always with Frau or Herr and the surname.",
+        explanation: "\"Liebe\" for a woman, \"Lieber\" for a man, always with \"Frau\" or \"Herr\" and the surname.",
       },
       {
         type: "word-order",
@@ -1894,6 +1896,6 @@ export const DE_A2_U09_WRITING: WriteExercise = {
     "Tells yesterday's story in the Perfekt with \"haben\" for the reflexives (\"ich habe mich beeilt\") and the Präteritum of the modals (\"ich musste\").",
     "Uses a reflexive with a preposition for a feeling (\"ich habe mich über ... geärgert\", \"ich freue mich auf ...\").",
   ],
-  modelAnswer: "Hallo Mia, normalerweise stehe ich um halb sieben auf. Zuerst dusche ich mich, dann putze ich mir die Zähne und ziehe mich an. Ich frühstücke immer in Ruhe. Aber gestern ist alles schiefgegangen! Ich habe verschlafen und musste mich sehr beeilen. Ich habe mich nicht geduscht und habe mir Kaffee über die Hose geschüttet. Dann musste ich mich noch umziehen. Der Bus ist ohne mich gefahren, und ich habe mich wirklich über mich selbst geärgert. Heute habe ich zwei Wecker gestellt! Ich freue mich auf das Wochenende. Liebe Grüße, Sam",
+  modelAnswer: "Hallo Mia, normalerweise stehe ich um halb sieben auf. Zuerst dusche ich mich, dann putze ich mir die Zähne und ziehe mich an. Ich frühstücke immer in Ruhe. Aber gestern ist alles schiefgegangen! Ich habe verschlafen und musste mich sehr beeilen. Ich habe mich nicht geduscht und habe mir Kaffee über die Hose geschüttet. Dann musste ich mich noch umziehen. Der Bus ist ohne mich gefahren, und ich habe mich wirklich über mich selbst geärgert. Heute habe ich zwei Wecker gestellt! Ich freue mich auf das Wochenende. Liebe Grüße Sam",
   explanation: "Reflexive verbs need their pronoun in every person (\"ich dusche mich\"); the reflexive turns dative when there is another object (\"mir die Zähne\"); every reflexive verb takes \"haben\" in the Perfekt (\"ich habe mich beeilt\"), while modals use the Präteritum in speech (\"ich musste mich beeilen\").",
 };

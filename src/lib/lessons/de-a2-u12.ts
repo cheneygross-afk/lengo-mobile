@@ -8,7 +8,7 @@ export const DE_A2_U12: Lesson[] = [
     level: "DE-A2",
     number: 1,
     title: "Adjective Endings After Der, Die, Das, Part 1 of 2",
-    summary: "Put an ending on an adjective before a noun: der neue Tisch, die neue Lampe, das neue Bett, and den neuen Tisch.",
+    summary: "Put an ending on an adjective before a noun: \"der neue Tisch\", \"die neue Lampe\", \"das neue Bett\", and \"den neuen Tisch\".",
     duration: "15 min",
     sections: [
       {
@@ -48,7 +48,7 @@ export const DE_A2_U12: Lesson[] = [
         heading: "Nominative: always -e",
         body: [
           "In the nominative singular (the subject), the adjective after \"der\", \"die\" or \"das\" always ends in -e: \"der rote Pullover\", \"die rote Jacke\", \"das rote Hemd\".",
-          "Watch adjectives ending in -el and -er: they drop an e before the ending, just as in the comparative. \"Dunkel\" → \"die dunkle Jacke\", \"teuer\" → \"das teure Hotel\". And \"hoch\" loses its c: \"das hohe Haus\".",
+          "Watch adjectives ending in -el, and \"teuer\" and \"sauer\": they drop an e before the ending, just as in the comparative. \"Dunkel\" → \"die dunkle Jacke\", \"teuer\" → \"das teure Hotel\". And \"hoch\" loses its c: \"das hohe Haus\".",
         ],
         examples: [
           { es: "Der rote Pullover kostet 30 Euro.", en: "The red jumper costs 30 euros." },
@@ -89,7 +89,7 @@ export const DE_A2_U12: Lesson[] = [
         heading: "Accusative: only the masculine changes",
         body: [
           "In the accusative (the direct object), feminine and neuter stay exactly the same: \"Ich nehme die rote Jacke\", \"Ich nehme das rote Hemd\". Only the masculine changes, along with its article: \"den roten Pullover\".",
-          "So there are five places where the ending is -e: the three nominatives (der, die, das) and the feminine and neuter accusatives (die, das). Picture them as a little block of five -e endings. Everywhere else after a der-word, the ending is -en.",
+          "So there are five places where the ending is -e: the three nominatives (\"der\", \"die\", \"das\") and the feminine and neuter accusatives (\"die\", \"das\"). Picture them as a little block of five -e endings. Everywhere else after a der-word, the ending is -en.",
           "If \"den\" is in front, the adjective takes -en: \"den neuen Tisch\", \"den alten Mantel\". The two n's go together.",
         ],
         examples: [
@@ -230,8 +230,8 @@ export const DE_A2_U12: Lesson[] = [
       {
         heading: "Colours in the nominative",
         body: [
-          "The basic colours are ordinary adjectives: \"rot\" (red), \"blau\" (blue), \"grün\" (green), \"gelb\" (yellow), \"schwarz\" (black), \"weiß\" (white), \"grau\" (grey), \"braun\" (brown). After der/die/das in the nominative they all take -e: \"der blaue Schal\", \"die weiße Bluse\", \"das grüne Kleid\".",
-          "Two colours, \"lila\" (purple) and \"rosa\" (pink), never take an ending in standard German: \"die lila Tasche\". \"Orange\" usually doesn't either.",
+          "The basic colours are ordinary adjectives: \"rot\" (red), \"blau\" (blue), \"grün\" (green), \"gelb\" (yellow), \"schwarz\" (black), \"weiß\" (white), \"grau\" (grey), \"braun\" (brown). After \"der\", \"die\", \"das\" in the nominative they all take -e: \"der blaue Schal\", \"die weiße Bluse\", \"das grüne Kleid\".",
+          "Two colours, \"lila\" (purple) and \"rosa\" (pink), never take an ending in standard German: \"die lila Tasche\". \"Orange\" doesn't either in careful German, though in speech you'll hear \"die orangene Tasche\".",
           "In the shop, the nominative appears with verbs like \"kosten\", \"passen\", \"gefallen\" and \"stehen\" (to suit), where the clothes are the subject: \"Der blaue Schal steht dir gut.\"",
         ],
         examples: [
@@ -398,14 +398,14 @@ export const DE_A2_U12: Lesson[] = [
     level: "DE-A2",
     number: 3,
     title: "Adjective Endings After Der, Die, Das, Part 2 of 2",
-    summary: "Dative and plural: everything outside the five -e cases takes -en. See the whole table.",
+    summary: "Use -en after a der-word in the dative and in the plural, and see the whole table of endings at a glance.",
     duration: "15 min",
     sections: [
       {
         heading: "Dative: always -en",
         body: [
           "In the dative, every adjective after a der-word ends in -en: \"mit dem neuen Auto\", \"mit der neuen Lampe\", \"mit dem neuen Fahrrad\", \"mit den neuen Schuhen\".",
-          "So once you've recognised a dative (after \"mit\", \"bei\", \"von\", \"zu\", \"aus\", \"nach\", or a two-way preposition with wo?, or a dative verb), the adjective is easy: -en. Only the article needs thought.",
+          "So once you've recognised a dative (after \"mit\", \"bei\", \"von\", \"zu\", \"aus\", \"nach\", or a two-way preposition answering \"wo?\", or a dative verb), the adjective is easy: -en. Only the article needs thought.",
         ],
         examples: [
           { es: "Ich fahre mit dem neuen Auto.", en: "I'm driving the new car." },
@@ -437,7 +437,7 @@ export const DE_A2_U12: Lesson[] = [
         heading: "Plural: always -en",
         body: [
           "In the plural, every case after a der-word takes -en: \"die neuen Schuhe\" (nominative), \"die neuen Schuhe\" (accusative), \"mit den neuen Schuhen\" (dative, with the extra -n on the noun).",
-          "So the whole system after der-words is: -e in the five boxes (der/die/das nominative, die/das accusative), -en everywhere else. That's it.",
+          "So the whole system after der-words is: -e in the five boxes (\"der\", \"die\", \"das\" in the nominative; \"die\", \"das\" in the accusative), -en everywhere else. That's it.",
         ],
         examples: [
           { es: "Die neuen Schuhe sind bequem.", en: "The new shoes are comfortable." },
@@ -476,7 +476,7 @@ export const DE_A2_U12: Lesson[] = [
       {
         heading: "The whole table",
         body: [
-          "Nominative: der neue, die neue, das neue, die neuen. Accusative: den neuen, die neue, das neue, die neuen. Dative: dem neuen, der neuen, dem neuen, den neuen.",
+          "Nominative: \"der neue\", \"die neue\", \"das neue\", \"die neuen\". Accusative: \"den neuen\", \"die neue\", \"das neue\", \"die neuen\". Dative: \"dem neuen\", \"der neuen\", \"dem neuen\", \"den neuen\".",
           "Look at it as a shape: the five -e endings sit in the top-left corner (all three nominative singulars, plus feminine and neuter accusative). All the other boxes are -en.",
           "A useful shortcut: if the article ends in -m, -n or is \"der\" in the dative, the adjective ends in -en. If the article is \"der\" (nominative), \"die\" (singular) or \"das\", it's -e.",
         ],
@@ -606,7 +606,7 @@ export const DE_A2_U12: Lesson[] = [
     level: "DE-A2",
     number: 4,
     title: "Choose & Explain: Ending or No Ending?",
-    summary: "Decide whether the adjective needs an ending: before a noun yes, after sein and finden no, and adverbs never.",
+    summary: "Decide whether the adjective needs an ending: before a noun yes, after \"sein\" and \"finden\" no, and adverbs never.",
     duration: "12 min",
     sections: [
       {
@@ -644,7 +644,7 @@ export const DE_A2_U12: Lesson[] = [
         heading: "Adverbs never take endings",
         body: [
           "When a word describes how someone does something, it's an adverb, and German adverbs never take endings: \"Er fährt schnell\" (he drives fast), \"Sie singt schön\" (she sings beautifully). English often adds -ly; German changes nothing.",
-          "So \"schnell\" can appear in three shapes: \"der schnelle Zug\" (before a noun), \"Der Zug ist schnell\" (after sein), \"Der Zug fährt schnell\" (adverb). Only the first has an ending.",
+          "So \"schnell\" can appear in three shapes: \"der schnelle Zug\" (before a noun), \"Der Zug ist schnell\" (after \"sein\"), \"Der Zug fährt schnell\" (adverb). Only the first has an ending.",
         ],
         examples: [
           { es: "Er fährt schnell.", en: "He drives fast." },
@@ -711,10 +711,10 @@ export const DE_A2_U12: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "I find the new teacher nice.",
+        source: "I think the new teacher is nice.",
         answer: "Ich finde den neuen Lehrer nett.",
         altAnswers: ["Ich finde die neue Lehrerin nett."],
-        explanation: "\"Den neuen Lehrer\" (before noun: -en); \"nett\" (after finden: none).",
+        explanation: "\"Den neuen Lehrer\": before the noun, -en. \"Nett\" comes after \"finden\" + object, so no ending.",
       },
       {
         type: "translate",
@@ -780,14 +780,14 @@ export const DE_A2_U12: Lesson[] = [
     level: "DE-A2",
     number: 5,
     title: "Pattern Practice: Dieser, Jeder, Welcher",
-    summary: "Der-words behave like der: dieser neue Laptop, jedes kleine Kind, welche große Tasche?, alle neuen Bücher.",
+    summary: "Use the same endings after the der-words \"dieser\", \"jeder\", \"welcher\" and \"alle\": \"dieser neue Laptop\", \"jedes kleine Kind\", \"alle neuen Bücher\".",
     duration: "13 min",
     sections: [
       {
         heading: "Dieser, jeder, welcher work like der",
         body: [
           "You know \"dieser\" (this), \"jeder\" (every) and \"welcher\" (which) from the Beginner level. Their endings copy the definite article: \"dieser\" like \"der\", \"diese\" like \"die\", \"dieses\" like \"das\", \"diesen\" like \"den\", \"diesem\" like \"dem\".",
-          "Because they already show gender and case so clearly, the adjective after them takes exactly the same weak endings as after der/die/das: \"dieser neue Laptop\", \"diese neue Lampe\", \"dieses neue Handy\", \"diesen neuen Laptop\", \"mit diesem neuen Handy\".",
+          "Because they already show gender and case so clearly, the adjective after them takes exactly the same weak endings as after \"der\", \"die\", \"das\": \"dieser neue Laptop\", \"diese neue Lampe\", \"dieses neue Handy\", \"diesen neuen Laptop\", \"mit diesem neuen Handy\".",
           "Drill the two endings as one sound: \"dieser neue\", \"diesen neuen\", \"diesem neuen\".",
         ],
         examples: [
@@ -984,7 +984,7 @@ export const DE_A2_U12: Lesson[] = [
     level: "DE-A2",
     number: 6,
     title: "Q&A Drill: Welchen? Den blauen!",
-    summary: "Answer which-questions with the adjective alone, keeping its ending: Welchen Pullover? Den blauen.",
+    summary: "Answer which-questions with the adjective alone, keeping its ending: \"Welchen Pullover?\" \"Den blauen.\"",
     duration: "12 min",
     sections: [
       {
@@ -1005,7 +1005,7 @@ export const DE_A2_U12: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German. (Answer to: Welchen Pullover nimmst du?)",
+            prompt: "Translate into German. (Answer to: \"Welchen Pullover nimmst du?\")",
             source: "The blue one.",
             answer: "Den blauen.",
             explanation: "Accusative masculine, noun dropped: \"den blauen\".",
@@ -1044,7 +1044,7 @@ export const DE_A2_U12: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German. (Answer to: In welcher Wohnung wohnt ihr?)",
+            prompt: "Translate into German. (Answer to: \"In welcher Wohnung wohnt ihr?\")",
             source: "In the big one.",
             answer: "In der großen.",
             explanation: "Dative feminine: \"in der großen\".",
@@ -1052,7 +1052,7 @@ export const DE_A2_U12: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German. (Answer to: Mit welchem Bus fährst du?)",
+            prompt: "Translate into German. (Answer to: \"Mit welchem Bus fährst du?\")",
             source: "The red one.",
             answer: "Mit dem roten.",
             explanation: "Dative masculine after \"mit\": \"mit dem roten\". German repeats the preposition.",
@@ -1064,7 +1064,7 @@ export const DE_A2_U12: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German. (Answer to: Welcher Zug fährt nach Köln?)",
+        prompt: "Translate into German. (Answer to: \"Welcher Zug fährt nach Köln?\")",
         source: "The fast one.",
         answer: "Der schnelle.",
         explanation: "Nominative masculine: \"der schnelle\".",
@@ -1072,7 +1072,7 @@ export const DE_A2_U12: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German. (Answer to: Welche Jacke soll ich anziehen?)",
+        prompt: "Translate into German. (Answer to: \"Welche Jacke soll ich anziehen?\")",
         source: "The warm one.",
         answer: "Die warme.",
         explanation: "Accusative feminine: \"die warme\".",
@@ -1121,7 +1121,7 @@ export const DE_A2_U12: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Welchen Rock nimmst du? Which answer is correct?",
+        question: "Your friend asks: \"Welchen Rock nimmst du?\" Which answer is correct?",
         options: ["Den langen.", "Der lange.", "Den lange.", "Die langen."],
         correctIndex: 0,
         explanation: "\"Welchen\" = accusative masculine → \"den langen\".",
@@ -1370,7 +1370,7 @@ export const DE_A2_U12: Lesson[] = [
       {
         heading: "Part 1: the old lamp",
         body: [
-          "Read the first part of Lena's Saturday: \"Am Samstag war Lena auf dem Flohmarkt am Mauerpark. Am ersten Stand hat sie die alte Lampe gesehen. Der freundliche Verkäufer wollte 30 Euro. Das war zu teuer! Lena hat 15 Euro angeboten, und am Ende hat sie die alte Lampe für 20 Euro gekauft.\"",
+          "Read the first part of Lena's Sunday: \"Am Sonntag war Lena auf dem Flohmarkt am Mauerpark. Am ersten Stand hat sie die alte Lampe gesehen. Der freundliche Verkäufer wollte 30 Euro. Das war zu teuer! Lena hat 15 Euro angeboten, und am Ende hat sie die alte Lampe für 20 Euro gekauft.\"",
           "Check each adjective: \"die alte Lampe\" (accusative feminine, -e), \"der freundliche Verkäufer\" (nominative masculine, -e), \"am ersten Stand\" (dative, \"an dem\" → \"am\", -en).",
         ],
         examples: [
@@ -1436,10 +1436,10 @@ export const DE_A2_U12: Lesson[] = [
         heading: "Part 3: the strange painting",
         body: [
           "\"Am letzten Stand hing das seltsame Bild mit der grünen Katze. Lena fand das seltsame Bild wunderbar. Sie hat dem alten Verkäufer zehn Euro gegeben. Jetzt hängt das seltsame Bild in der kleinen Küche.\"",
-          "Notice \"dem alten Verkäufer\" (dative, with \"geben\"), \"in der kleinen Küche\" (dative, wo?) and \"Lena fand das seltsame Bild wunderbar\": an ending before the noun, none after \"finden\".",
+          "Notice \"dem alten Verkäufer\" (dative, with \"geben\"), \"in der kleinen Küche\" (dative, answering \"wo?\") and \"Lena fand das seltsame Bild wunderbar\": an ending before the noun, none after \"finden\".",
         ],
         examples: [
-          { es: "Am letzten Stand hing das seltsame Bild.", en: "At the last stall hung the strange painting." },
+          { es: "Am letzten Stand hing das seltsame Bild.", en: "The strange painting was hanging at the last stall." },
           { es: "Lena fand das seltsame Bild wunderbar.", en: "Lena thought the strange painting was wonderful." },
           { es: "Sie hat dem alten Verkäufer zehn Euro gegeben.", en: "She gave the old seller ten euros." },
           { es: "Jetzt hängt das seltsame Bild in der kleinen Küche.", en: "Now the strange painting hangs in the little kitchen." },
@@ -1487,7 +1487,7 @@ export const DE_A2_U12: Lesson[] = [
         en: "Now it hangs [in the little] kitchen.",
         sentence: "Jetzt hängt es ___ Küche.",
         answer: "in der kleinen",
-        explanation: "Wo? → dative feminine.",
+        explanation: "\"Wo?\" → dative feminine.",
       },
       {
         type: "translate",
@@ -1570,11 +1570,11 @@ export const DE_A2_U12_WRITING: WriteExercise = {
   minWords: 50,
   maxWords: 100,
   rubric: [
-    "Uses adjectives before nouns after der/die/das with the right ending in the nominative (\"der blaue Pullover\", \"die rote Jacke\").",
+    "Uses adjectives before nouns after \"der\", \"die\", \"das\" with the right ending in the nominative (\"der blaue Pullover\", \"die rote Jacke\").",
     "Uses the masculine accusative -en at least once (\"ich habe den grauen Mantel gekauft\").",
     "Uses a dative or plural with -en (\"mit den neuen Schuhen\", \"in der kleinen Boutique\").",
     "Contrasts an adjective before a noun with one after \"sein\" or \"finden\" (\"die Hose war zu eng\", \"ich fand den Schal schön\").",
   ],
-  modelAnswer: "Hallo Jonas, gestern war ich in der Stadt und habe Kleidung für die Hochzeit gesucht. Zuerst habe ich die blaue Hose anprobiert, aber sie war zu eng. Die graue Hose hat besser gepasst. Dann habe ich den schwarzen Mantel und den braunen Mantel verglichen. Der schwarze war schöner, aber auch viel teurer. Am Ende habe ich die graue Hose und das weiße Hemd gekauft. Mit den neuen Schuhen sieht das super aus! Den schwarzen Mantel kaufe ich vielleicht später. Viele Grüße, Sam",
-  explanation: "After der/die/das, dieser, jeder, welcher and alle, adjectives before a noun take -e in the five nominative singular and feminine/neuter accusative cases (\"der schwarze\", \"die graue Hose\", \"das weiße Hemd\") and -en everywhere else (\"den schwarzen Mantel\", \"mit den neuen Schuhen\"); after \"sein\" or \"finden\" they take no ending.",
+  modelAnswer: "Hallo Jonas, gestern war ich in der Stadt und habe Kleidung für die Hochzeit gesucht. Zuerst habe ich die blaue Hose anprobiert, aber sie war zu eng. Die graue Hose hat besser gepasst. Dann habe ich den schwarzen Mantel und den braunen Mantel verglichen. Der schwarze war schöner, aber auch viel teurer. Am Ende habe ich die graue Hose und das weiße Hemd gekauft. Mit den neuen Schuhen sieht das super aus! Den schwarzen Mantel kaufe ich vielleicht später. Viele Grüße Sam",
+  explanation: "After \"der\", \"die\", \"das\", \"dieser\", \"jeder\", \"welcher\" and \"alle\", adjectives before a noun take -e in the five nominative singular and feminine/neuter accusative cases (\"der schwarze\", \"die graue Hose\", \"das weiße Hemd\") and -en everywhere else (\"den schwarzen Mantel\", \"mit den neuen Schuhen\"); after \"sein\" or \"finden\" they take no ending.",
 };

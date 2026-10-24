@@ -105,7 +105,7 @@ export const DE_C2_S05_STORIES: Story[] = [
     ],
     questions: [
       {
-        question: `Why did the waitress refuse to take Dr. Wendeborn's order?`,
+        question: `Why did the waitress refuse to take Dr Wendeborn's order?`,
         options: [`The kitchen had run out of white sausages.`, `He was rude to her.`, `The noon bells had already rung.`, `He had not reserved a table.`],
         correctIndex: 2,
         explanation: `She refused "mit der Bemerkung, das Mittagsläuten sei vorüber"; he arrived at "12.04 Uhr".`,

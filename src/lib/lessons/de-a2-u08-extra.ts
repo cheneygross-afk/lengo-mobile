@@ -166,7 +166,7 @@ export const DE_A2_U08_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Dative and Accusative, Part 2 of 3",
-    summary: "Two noun objects in the right order and the right case.",
+    summary: "Put two noun objects in the right order and the right case.",
     duration: "10 min",
     sections: [
       {
@@ -247,7 +247,7 @@ export const DE_A2_U08_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the normal, neutral order?",
+        question: "How do you say, in the normal order: I give the dog the food?",
         options: ["Ich gebe dem Hund das Futter.", "Ich gebe das Futter zu dem Hund.", "Ich gebe den Hund dem Futter.", "Ich gebe dem Futter den Hund."],
         correctIndex: 0,
         explanation: "Two nouns: dative person (or animal) first, accusative thing second.",
@@ -325,7 +325,7 @@ export const DE_A2_U08_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Dative and Accusative, Part 3 of 3",
-    summary: "Two pronouns and pronoun + noun combinations.",
+    summary: "Order two pronouns, or a pronoun and a noun, correctly.",
     duration: "10 min",
     sections: [
       {
@@ -403,7 +403,7 @@ export const DE_A2_U08_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is correct? (\"das Geschenk\", \"die Kinder\")",
+        question: "You're giving the present (\"das Geschenk\") to the children. How do you say: I'm giving it to the children?",
         options: ["Ich gebe es den Kindern.", "Ich gebe den Kindern es.", "Ich gebe ihnen es.", "Ich gebe es zu den Kindern."],
         correctIndex: 0,
         explanation: "Pronoun \"es\" before the noun \"den Kindern\". With two pronouns: \"es ihnen\".",
@@ -481,7 +481,7 @@ export const DE_A2_U08_EXTRA: Lesson[] = [
     number: 4,
     optional: true,
     title: "Extra Practice: Error Hunt: Pronoun Order",
-    summary: "Fix Ich gebe ihm es and Ich gebe das Buch ihm in short messages.",
+    summary: "Fix \"*Ich gebe ihm es*\" and \"*Ich gebe das Buch ihm*\" in short messages.",
     duration: "10 min",
     sections: [
       {
@@ -551,7 +551,7 @@ export const DE_A2_U08_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which message has the right order?",
+        question: "Which message correctly asks a friend: Did you tell her (it)?",
         options: ["Hast du es ihr gesagt?", "Hast du ihr es gesagt?", "Hast du es gesagt ihr?", "Hast du gesagt es ihr?"],
         correctIndex: 0,
         explanation: "Two pronouns: \"es ihr\"; participle last.",
@@ -637,7 +637,7 @@ export const DE_A2_U08_EXTRA: Lesson[] = [
     number: 5,
     optional: true,
     title: "Extra Practice: Real-World Mission: Office Emails",
-    summary: "Write short work emails: Ich schicke Ihnen die Datei, können Sie sie mir zurückschicken?",
+    summary: "Write short work emails with two objects and polite \"Ihnen\": \"Ich schicke Ihnen die Datei. Können Sie sie mir zurückschicken?\"",
     duration: "10 min",
     sections: [
       {
@@ -648,7 +648,7 @@ export const DE_A2_U08_EXTRA: Lesson[] = [
         examples: [
           { es: "Sehr geehrte Frau Schneider, ich schicke Ihnen die Datei.", en: "Dear Ms Schneider, I'm sending you the file." },
           { es: "Können Sie sie mir bis Freitag zurückschicken?", en: "Can you send it back to me by Friday?" },
-          { es: "Ich erkläre Ihnen das Programm gern am Montag.", en: "I'm happy to explain the program to you on Monday." },
+          { es: "Ich erkläre Ihnen das Programm gern am Montag.", en: "I'm happy to explain the programme to you on Monday." },
           { es: "Vielen Dank für Ihre Hilfe!", en: "Many thanks for your help!" },
         ],
         checkpoint: [
@@ -704,7 +704,7 @@ export const DE_A2_U08_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Mr Becker will explain [the program to you]. (formal)",
+        en: "Mr Becker will explain [the programme to you]. (formal)",
         sentence: "Herr Becker erklärt ___.",
         answer: "Ihnen das Programm",
         explanation: "Pronoun \"Ihnen\" before the noun phrase.",
@@ -762,7 +762,7 @@ export const DE_A2_U08_EXTRA: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: I'll forward it to you. (die E-Mail; formal)",
+        prompt: "Put the words in order to say: I'll forward it to you. (\"die E-Mail\"; formal)",
         words: ["Ich", "leite", "sie", "Ihnen", "weiter."],
         translation: "I'll forward it to you.",
         explanation: "\"Weiterleiten\" (to forward) separates; \"sie Ihnen\": accusative before dative.",
@@ -790,7 +790,7 @@ export const DE_A2_U08_EXTRA: Lesson[] = [
     number: 6,
     optional: true,
     title: "Extra Practice: Chain Transformations: Noun → Pronoun → Past",
-    summary: "One sentence, three steps: nouns, then pronouns, then the Perfekt.",
+    summary: "Take one sentence through three steps: nouns, then pronouns, then the Perfekt.",
     duration: "10 min",
     sections: [
       {
@@ -856,8 +856,8 @@ export const DE_A2_U08_EXTRA: Lesson[] = [
         direction: "en-es",
         prompt: "Step 1, nouns: Translate into German.",
         source: "The guide shows the tourists the cathedral.",
-        answer: "Der Guide zeigt den Touristen den Dom.",
-        altAnswers: ["Die Führerin zeigt den Touristen den Dom.", "Der Führer zeigt den Touristen den Dom.", "Die Reiseleiterin zeigt den Touristen den Dom.", "Der Reiseleiter zeigt den Touristen den Dom.", "Die Stadtführerin zeigt den Touristen den Dom.", "Der Stadtführer zeigt den Touristen den Dom."],
+        answer: "Der Stadtführer zeigt den Touristen den Dom.",
+        altAnswers: ["Der Guide zeigt den Touristen den Dom.", "Die Führerin zeigt den Touristen den Dom.", "Der Führer zeigt den Touristen den Dom.", "Die Reiseleiterin zeigt den Touristen den Dom.", "Der Reiseleiter zeigt den Touristen den Dom.", "Die Stadtführerin zeigt den Touristen den Dom."],
         explanation: "Dative plural \"den Touristen\", then accusative \"den Dom\".",
       },
       {
@@ -948,7 +948,7 @@ export const DE_A2_U08_EXTRA: Lesson[] = [
     number: 7,
     optional: true,
     title: "Extra Practice: Fix the Paragraph: Ihn and Ihm Mix-ups",
-    summary: "Correct case slips in a story about a birthday surprise.",
+    summary: "Correct \"ihn\" and \"ihm\" mix-ups in a story about a birthday surprise.",
     duration: "10 min",
     sections: [
       {
@@ -1029,7 +1029,7 @@ export const DE_A2_U08_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say: We surprised him?",
         options: ["Wir haben ihn überrascht.", "Wir haben ihm überrascht.", "Wir haben er überrascht.", "Wir haben sein überrascht."],
         correctIndex: 0,
         explanation: "\"Überraschen\" (to surprise) takes the accusative: \"ihn\".",
@@ -1106,7 +1106,7 @@ export const DE_A2_U08_EXTRA: Lesson[] = [
     number: 8,
     optional: true,
     title: "Extra Practice: Mixed Practice: Every Pronoun So Far",
-    summary: "Nominative, accusative and dative pronouns mixed in dialogues.",
+    summary: "Use nominative, accusative and dative pronouns mixed together in short dialogues.",
     duration: "10 min",
     sections: [
       {
@@ -1128,7 +1128,7 @@ export const DE_A2_U08_EXTRA: Lesson[] = [
             source: "He sees her, and she helps him.",
             answer: "Er sieht sie, und sie hilft ihm.",
             altAnswers: ["Er sieht sie und sie hilft ihm."],
-            explanation: "\"Sie\" (accusative after sehen), \"sie\" (subject), \"ihm\" (dative after helfen).",
+            explanation: "\"Sie\" (accusative after \"sehen\"), \"sie\" (subject), \"ihm\" (dative after \"helfen\").",
           },
           {
             type: "listen-choose",
@@ -1183,7 +1183,7 @@ export const DE_A2_U08_EXTRA: Lesson[] = [
         source: "Yes, I bought it for you. (to a friend)",
         answer: "Ja, ich habe es für dich gekauft.",
         altAnswers: ["Ja, das habe ich für dich gekauft.", "Ja, ich habe es dir gekauft.", "Ja, ich habe das für dich gekauft."],
-        explanation: "\"Für dich\" (accusative after für), or the dative \"dir\" for the person who benefits.",
+        explanation: "\"Für dich\" (accusative after \"für\"), or the dative \"dir\" for the person who benefits.",
       },
       {
         type: "fill-blank",
@@ -1195,7 +1195,7 @@ export const DE_A2_U08_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "\"Hast du Lena gesehen?\" – \"Ja, ich habe ___ gesehen und ___ die Nachricht gegeben.\"",
+        question: "\"Hast du Lena gesehen?\" Answer: Yes, I saw her and gave her the message. \"Ja, ich habe ___ gesehen und ___ die Nachricht gegeben.\"",
         options: ["sie / ihr", "ihr / sie", "sie / sie", "ihr / ihr"],
         correctIndex: 0,
         explanation: "\"Sehen\" + accusative (\"sie\"); the receiver of the message is dative (\"ihr\").",
@@ -1239,7 +1239,7 @@ export const DE_A2_U08_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: We're visiting you and helping you. (to friends)",
         words: ["Wir", "besuchen", "euch", "und", "helfen", "euch."],
         translation: "We're visiting you and helping you.",
-        explanation: "\"Euch\" is both accusative (besuchen) and dative (helfen).",
+        explanation: "\"Euch\" is both accusative (\"besuchen\") and dative (\"helfen\").",
       },
       {
         type: "dictation",
@@ -1260,7 +1260,7 @@ export const DE_A2_U08_EXTRA: Lesson[] = [
     number: 9,
     optional: true,
     title: "Extra Practice: Say It Yourself: Who Gave What to Whom?",
-    summary: "Guided speaking about presents you gave and got last year.",
+    summary: "Talk about the presents you gave and got last year, with the receiver in the dative and \"von\" for the giver.",
     duration: "10 min",
     sections: [
       {
@@ -1272,7 +1272,7 @@ export const DE_A2_U08_EXTRA: Lesson[] = [
         examples: [
           { es: "Letztes Jahr habe ich meiner Mutter ein Buch geschenkt.", en: "Last year I gave my mother a book." },
           { es: "Von meinem Bruder habe ich einen Pullover bekommen.", en: "I got a jumper from my brother." },
-          { es: "Er hat mir gut gefallen.", en: "I really liked it." },
+          { es: "Er hat mir gut gefallen.", en: "I liked it a lot." },
           { es: "Meinen Großeltern haben wir eine Reise geschenkt.", en: "We gave our grandparents a trip." },
         ],
         checkpoint: [
@@ -1296,9 +1296,9 @@ export const DE_A2_U08_EXTRA: Lesson[] = [
             direction: "en-es",
             prompt: "Translate into German.",
             source: "I really liked it. (\"der Pullover\")",
-            answer: "Er hat mir gut gefallen.",
-            altAnswers: ["Er hat mir sehr gut gefallen.", "Er hat mir sehr gefallen.", "Der hat mir gut gefallen.", "Der hat mir sehr gut gefallen."],
-            explanation: "\"Der Pullover\" → \"er\" (subject of gefallen); \"mir\" dative.",
+            answer: "Er hat mir sehr gut gefallen.",
+            altAnswers: ["Er hat mir gut gefallen.", "Er hat mir sehr gefallen.", "Der hat mir gut gefallen.", "Der hat mir sehr gut gefallen.", "Der hat mir sehr gefallen."],
+            explanation: "\"Der Pullover\" → \"er\" (subject of \"gefallen\"); \"mir\" dative.",
           },
         ],
       },
@@ -1372,7 +1372,7 @@ export const DE_A2_U08_EXTRA: Lesson[] = [
         question: "What does it mean?",
         options: ["She didn't like the present.", "He didn't like the present.", "You didn't like the present.", "She didn't give the present."],
         correctIndex: 0,
-        explanation: "\"Ihr\" (dative of sie) = to her; \"gefallen\" in the Perfekt.",
+        explanation: "\"Ihr\" (dative of \"sie\") = to her; \"gefallen\" in the Perfekt.",
       },
       {
         type: "translate",

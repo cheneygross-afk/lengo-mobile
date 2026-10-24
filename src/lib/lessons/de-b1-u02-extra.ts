@@ -11,7 +11,7 @@ export const DE_B1_U02_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: The Präteritum, Part 1 of 3",
-    summary: "New weak verbs in every person, including the -ete forms.",
+    summary: "Write new weak verbs in the Präteritum in every person, including the -ete forms.",
     duration: "10 min",
     sections: [
       {
@@ -60,7 +60,7 @@ export const DE_B1_U02_EXTRA: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: P, source: "I tidied up my room.", answer: "Ich räumte mein Zimmer auf.", explanation: "\"Aufräumen\": separable, \"räumte ... auf\"." },
       { type: "translate", direction: "en-es", prompt: P, source: "You worked a lot. (to friends)", answer: "Ihr arbeitetet viel.", explanation: "ihr: -ete + -t: \"arbeitetet\"." },
       { type: "word-order", prompt: "Put the words in order to say: We rented a small flat.", words: ["Wir", "mieteten", "eine", "kleine", "Wohnung."], translation: "We rented a small flat.", explanation: "\"Mieten\": t-stem, so \"mieteten\"." },
-      { type: "multiple-choice", question: "Which form is correct for: he answered?", options: ["er antwortete", "er antwortte", "er antwortet", "er geantwortet"], correctIndex: 0, explanation: "t-stem: -ete." },
+      { type: "multiple-choice", question: "How do you write: He answered immediately?", options: ["Er antwortete sofort.", "Er antwortte sofort.", "Er antwortet sofort.", "Er geantwortet sofort."], correctIndex: 0, explanation: "t-stem, so -ete: \"antwortete\". \"Antwortet\" is the present, and a participle alone can't be the verb." },
       { type: "translate", direction: "en-es", prompt: P, source: "My grandfather smoked a pipe.", answer: "Mein Großvater rauchte Pfeife.", altAnswers: ["Mein Opa rauchte Pfeife.", "Mein Großvater rauchte eine Pfeife.", "Mein Opa rauchte eine Pfeife."], explanation: "\"Rauchen → rauchte\"." },
       { type: "listen-choose", audio: "Ihr feiertet bis drei Uhr morgens.", question: "What does it mean?", options: ["You partied until three in the morning.", "You'll party until three in the morning.", "We partied until three in the morning.", "You party until three every morning."], correctIndex: 0, explanation: "\"Feiertet\": ihr form, past." },
       { type: "dictation", audio: "Er zeichnete ein Porträt.", explanation: "\"Zeichnete\" with -ete." },
@@ -73,7 +73,7 @@ export const DE_B1_U02_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: The Präteritum, Part 2 of 3",
-    summary: "Strong verbs grouped by their new vowel: ie, a, u and i.",
+    summary: "Write strong verbs in the Präteritum, grouped by their new vowel: ie, a, u and i.",
     duration: "10 min",
     sections: [
       {
@@ -120,7 +120,7 @@ export const DE_B1_U02_EXTRA: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: P, source: "He read the letter twice.", answer: "Er las den Brief zweimal.", explanation: "\"Lesen → las\"." },
       { type: "translate", direction: "en-es", prompt: P, source: "She gave me her number.", answer: "Sie gab mir ihre Nummer.", altAnswers: ["Sie gab mir ihre Telefonnummer."], explanation: "\"Geben → gab\"." },
       { type: "word-order", prompt: "Put the words in order to say: We sat in the garden.", words: ["Wir", "saßen", "im", "Garten."], translation: "We sat in the garden.", explanation: "\"Sitzen → saß\", plural \"saßen\"." },
-      { type: "matching", instructions: "Match the infinitive to its Präteritum.", pairs: [{ left: "rufen", right: "rief" }, { left: "sprechen", right: "sprach" }, { left: "fahren", right: "fuhr" }, { left: "fangen", right: "fing" }, { left: "bleiben", right: "blieb" }], explanation: "One verb from each vowel group, and two from the ie group." },
+      { type: "matching", instructions: "Match each Präteritum form to its meaning.", pairs: [{ left: "er rief", right: "he called" }, { left: "er sprach", right: "he spoke" }, { left: "er fuhr", right: "he drove" }, { left: "er fing", right: "he caught" }, { left: "er blieb", right: "he stayed" }], explanation: "\"Rufen → rief\" and \"bleiben → blieb\" (ie group), \"sprechen → sprach\" (a), \"fahren → fuhr\" (u), \"fangen → fing\" (i)." },
       { type: "translate", direction: "en-es", prompt: P, source: "He spoke very quietly.", answer: "Er sprach sehr leise.", explanation: "\"Sprechen → sprach\"." },
       { type: "listen-choose", audio: "Sie half ihm beim Umzug.", question: "What does it mean?", options: ["She helped him move.", "She helps him move.", "He helped her move.", "She held him during the move."], correctIndex: 0, explanation: "\"Half\": past of \"helfen\"." },
       { type: "dictation", audio: "Das Konzert fing um acht an.", explanation: "\"Fing ... an\": \"anfangen\", strong and separable." },
@@ -133,7 +133,7 @@ export const DE_B1_U02_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: The Präteritum, Part 3 of 3",
-    summary: "Mixed and separable verbs in main and subordinate clauses.",
+    summary: "Use mixed and separable verbs in the Präteritum in main and subordinate clauses.",
     duration: "10 min",
     sections: [
       {
@@ -192,7 +192,7 @@ export const DE_B1_U02_EXTRA: Lesson[] = [
     number: 4,
     optional: true,
     title: "Extra Practice: Transformations with Wir and Ihr",
-    summary: "Turn plural Perfekt sentences into the Präteritum: wir gingen, ihr gingt.",
+    summary: "Turn plural Perfekt sentences into the Präteritum: \"wir gingen\", \"ihr gingt\".",
     duration: "10 min",
     sections: [
       {
@@ -252,7 +252,7 @@ export const DE_B1_U02_EXTRA: Lesson[] = [
     number: 5,
     optional: true,
     title: "Extra Practice: Brachte, Dachte, Kannte, Wusste",
-    summary: "A contrast drill on the four mixed verbs that learners mix up most.",
+    summary: "Choose correctly between the four mixed verbs learners mix up most: \"brachte\", \"dachte\", \"kannte\", \"wusste\".",
     duration: "10 min",
     sections: [
       {
@@ -263,8 +263,8 @@ export const DE_B1_U02_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "Ich kannte die Stadt nicht.", en: "I didn't know the city." },
-          { es: "Ich wusste nicht, wo der Bahnhof ist.", en: "I didn't know where the station was." },
-          { es: "Sie dachte, das Museum ist geschlossen.", en: "She thought the museum was closed." },
+          { es: "Ich wusste nicht, wo der Bahnhof war.", en: "I didn't know where the station was." },
+          { es: "Sie dachte, das Museum war geschlossen.", en: "She thought the museum was closed." },
           { es: "Er brachte mir einen Tee.", en: "He brought me a tea." },
           { es: "Kanntest du ihren Bruder?", en: "Did you know her brother?" },
         ],
@@ -311,14 +311,14 @@ export const DE_B1_U02_EXTRA: Lesson[] = [
     number: 6,
     optional: true,
     title: "Extra Practice: Real-World Mission, A Fairy Tale",
-    summary: "Retell Little Red Riding Hood (Rotkäppchen) in the Präteritum, picture by picture.",
+    summary: "Retell Little Red Riding Hood (\"Rotkäppchen\") in the Präteritum, picture by picture.",
     duration: "12 min",
     sections: [
       {
         heading: "Es war einmal...",
         body: [
           "German fairy tales, most famously those collected by the Brothers Grimm, start with \"Es war einmal...\" (Once upon a time there was...) and end with \"Und wenn sie nicht gestorben sind, dann leben sie noch heute\" (and if they haven't died, they're still alive today). Everything in between is in the Präteritum.",
-          "Your mission: tell \"Rotkäppchen\" for a child, one picture at a time. Key verbs: \"schicken\" (schickte), \"gehen\" (ging), \"treffen\" (traf), \"fragen\" (fragte), \"laufen\" (lief), \"fressen\" (fraß, used for animals eating), \"kommen\" (kam), \"retten\" (rettete).",
+          "Your mission: tell \"Rotkäppchen\" for a child, one picture at a time. Key verbs: \"schicken → schickte\", \"gehen → ging\", \"treffen → traf\", \"fragen → fragte\", \"laufen → lief\", \"fressen → fraß\" (used for animals eating), \"kommen → kam\", \"retten → rettete\".",
         ],
         examples: [
           { es: "Es war einmal ein kleines Mädchen.", en: "Once upon a time there was a little girl." },
@@ -349,7 +349,7 @@ export const DE_B1_U02_EXTRA: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: P, source: "Her mother sent her to her grandmother's.", answer: "Die Mutter schickte es zur Großmutter.", altAnswers: ["Die Mutter schickte sie zur Großmutter.", "Ihre Mutter schickte sie zur Großmutter.", "Die Mutter schickte Rotkäppchen zur Großmutter."], explanation: "\"Schicken → schickte\"; in the tale the girl is \"es\" (das Mädchen), but \"sie\" is common too." },
+      { type: "translate", direction: "en-es", prompt: P, source: "Her mother sent her to her grandmother's.", answer: "Die Mutter schickte es zur Großmutter.", altAnswers: ["Die Mutter schickte sie zur Großmutter.", "Ihre Mutter schickte sie zur Großmutter.", "Die Mutter schickte Rotkäppchen zur Großmutter."], explanation: "\"Schicken → schickte\"; in the tale the girl is \"es\" (for \"das Mädchen\"), but \"sie\" is common too." },
       { type: "translate", direction: "en-es", prompt: P, source: "She carried a basket with cake and wine.", answer: "Sie trug einen Korb mit Kuchen und Wein.", altAnswers: ["Es trug einen Korb mit Kuchen und Wein."], explanation: "\"Tragen → trug\"." },
       { type: "translate", direction: "en-es", prompt: P, source: "The wolf asked: Where are you going?", answer: "Der Wolf fragte: Wohin gehst du?", altAnswers: ["Der Wolf fragte: „Wohin gehst du?“", "Der Wolf fragte: Wo gehst du hin?"], explanation: "\"Fragen → fragte\" (weak)." },
       { type: "translate", direction: "en-es", prompt: P, source: "The girl picked flowers.", answer: "Das Mädchen pflückte Blumen.", explanation: "\"Pflücken → pflückte\"." },
@@ -372,7 +372,7 @@ export const DE_B1_U02_EXTRA: Lesson[] = [
     number: 7,
     optional: true,
     title: "Extra Practice: 12 Strong Verbs Without Hints",
-    summary: "Quick-fire production of Präteritum forms with no table to lean on.",
+    summary: "Produce strong Präteritum forms quick-fire, with no table to lean on.",
     duration: "10 min",
     sections: [
       {
@@ -412,7 +412,7 @@ export const DE_B1_U02_EXTRA: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: P, source: "She sang in the choir.", answer: "Sie sang im Chor.", explanation: "\"Singen → sang\"." },
       { type: "translate", direction: "en-es", prompt: P, source: "I forgot my umbrella.", answer: "Ich vergaß meinen Regenschirm.", altAnswers: ["Ich vergaß meinen Schirm."], explanation: "\"Vergessen → vergaß\"." },
       { type: "translate", direction: "en-es", prompt: P, source: "He lost his key.", answer: "Er verlor seinen Schlüssel.", explanation: "\"Verlieren → verlor\"." },
-      { type: "translate", direction: "en-es", prompt: P, source: "The children swam in the sea.", answer: "Die Kinder schwammen im Meer.", explanation: "\"Schwimmen → schwamm\", plural \"schwammen\"." },
+      { type: "translate", direction: "en-es", prompt: P, source: "The children swam in the sea.", answer: "Die Kinder schwammen im Meer.", altAnswers: ["Die Kinder badeten im Meer."], explanation: "\"Schwimmen → schwamm\", plural \"schwammen\"." },
       { type: "translate", direction: "en-es", prompt: P, source: "She won the race.", answer: "Sie gewann das Rennen.", explanation: "\"Gewinnen → gewann\"." },
       { type: "translate", direction: "en-es", prompt: P, source: "He got a letter.", answer: "Er bekam einen Brief.", explanation: "\"Bekommen → bekam\"." },
       { type: "translate", direction: "en-es", prompt: P, source: "We flew to Rome.", answer: "Wir flogen nach Rom.", explanation: "\"Fliegen → flog\"." },
@@ -431,7 +431,7 @@ export const DE_B1_U02_EXTRA: Lesson[] = [
     number: 8,
     optional: true,
     title: "Extra Practice: Fix the Paragraph, Invented Forms",
-    summary: "Correct a diary entry full of made-up Präteritum forms.",
+    summary: "Correct a diary entry full of made-up Präteritum forms, sentence by sentence.",
     duration: "10 min",
     sections: [
       {
@@ -451,14 +451,14 @@ export const DE_B1_U02_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Leon wrote: \"*Ich trinkte schnell einen Kaffee.\" Write the corrected sentence.",
+            prompt: "Leon wrote: \"*Ich trinkte schnell einen Kaffee.*\" Write the corrected sentence.",
             source: "I quickly drank a coffee.",
             answer: "Ich trank schnell einen Kaffee.",
             explanation: "\"Trinken\" is strong: \"trank\".",
           },
           {
             type: "fill-blank",
-            prompt: "Leon wrote: \"*Wir sprechten über das Wochenende.\" Write the German for the bold word.",
+            prompt: "Leon wrote: \"*Wir sprechten über das Wochenende.*\" Write the German for the bold word.",
             en: "We [talked] about the weekend.",
             sentence: "Wir ___ über das Wochenende.",
             answer: "sprachen",
@@ -468,18 +468,18 @@ export const DE_B1_U02_EXTRA: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Leon wrote: \"*Heute stehte ich spät auf.\" Write the corrected sentence.", source: "Today I got up late.", answer: "Heute stand ich spät auf.", explanation: "\"Aufstehen → stand ... auf\"." },
-      { type: "translate", direction: "en-es", prompt: "Leon wrote: \"*Ich laufte zum Bus.\" Write the corrected sentence.", source: "I ran to the bus.", answer: "Ich lief zum Bus.", explanation: "\"Laufen → lief\"." },
-      { type: "translate", direction: "en-es", prompt: "Leon wrote: \"*Im Bus seh ich meine Kollegin.\" Write the corrected sentence.", source: "On the bus I saw my colleague.", answer: "Im Bus sah ich meine Kollegin.", explanation: "\"Sehen → sah\"." },
-      { type: "translate", direction: "en-es", prompt: "Leon wrote: \"*Sie denkte, ich war krank.\" Write the corrected sentence.", source: "She thought I was ill.", answer: "Sie dachte, ich war krank.", altAnswers: ["Sie dachte, dass ich krank war."], explanation: "Mixed: \"dachte\"." },
-      { type: "translate", direction: "en-es", prompt: "Leon wrote: \"*Im Büro schreibte ich viele E-Mails.\" Write the corrected sentence.", source: "At the office I wrote a lot of emails.", answer: "Im Büro schrieb ich viele E-Mails.", explanation: "\"Schreiben → schrieb\"." },
-      { type: "translate", direction: "en-es", prompt: "Leon wrote: \"*Mittags esste ich eine Suppe.\" Write the corrected sentence.", source: "At lunchtime I ate a soup.", answer: "Mittags aß ich eine Suppe.", altAnswers: ["Mittags aß ich Suppe."], explanation: "\"Essen → aß\"." },
-      { type: "translate", direction: "en-es", prompt: "Leon wrote: \"*Der Chef gebte mir eine neue Aufgabe.\" Write the corrected sentence.", source: "The boss gave me a new task.", answer: "Der Chef gab mir eine neue Aufgabe.", altAnswers: ["Die Chefin gab mir eine neue Aufgabe."], explanation: "\"Geben → gab\"." },
-      { type: "fill-blank", prompt: "Leon wrote: \"*Ich bleibte bis sechs.\" Write the German for the bold word.", en: "I [stayed] until six.", sentence: "Ich ___ bis sechs.", answer: "blieb", explanation: "\"Bleiben → blieb\"." },
-      { type: "translate", direction: "en-es", prompt: "Leon wrote: \"*Dann fahrte ich nach Hause.\" Write the corrected sentence.", source: "Then I went home.", answer: "Dann fuhr ich nach Hause.", explanation: "\"Fahren → fuhr\"." },
-      { type: "translate", direction: "en-es", prompt: "Leon wrote: \"*Ich wisste nicht, was ich kochen sollte.\" Write the corrected sentence.", source: "I didn't know what to cook.", answer: "Ich wusste nicht, was ich kochen sollte.", explanation: "\"Wissen → wusste\"." },
+      { type: "translate", direction: "en-es", prompt: "Leon wrote: \"*Heute stehte ich spät auf.*\" Write the corrected sentence.", source: "Today I got up late.", answer: "Heute stand ich spät auf.", explanation: "\"Aufstehen → stand ... auf\"." },
+      { type: "translate", direction: "en-es", prompt: "Leon wrote: \"*Ich laufte zum Bus.*\" Write the corrected sentence.", source: "I ran to the bus.", answer: "Ich lief zum Bus.", explanation: "\"Laufen → lief\"." },
+      { type: "translate", direction: "en-es", prompt: "Leon wrote: \"*Im Bus seh ich meine Kollegin.*\" Write the corrected sentence.", source: "On the bus I saw my colleague.", answer: "Im Bus sah ich meine Kollegin.", explanation: "\"Sehen → sah\"." },
+      { type: "translate", direction: "en-es", prompt: "Leon wrote: \"*Sie denkte, ich war krank.*\" Write the corrected sentence.", source: "She thought I was ill.", answer: "Sie dachte, ich war krank.", altAnswers: ["Sie dachte, dass ich krank war."], explanation: "Mixed: \"dachte\"." },
+      { type: "translate", direction: "en-es", prompt: "Leon wrote: \"*Im Büro schreibte ich viele E-Mails.*\" Write the corrected sentence.", source: "At the office I wrote a lot of emails.", answer: "Im Büro schrieb ich viele E-Mails.", explanation: "\"Schreiben → schrieb\"." },
+      { type: "translate", direction: "en-es", prompt: "Leon wrote: \"*Mittags esste ich eine Suppe.*\" Write the corrected sentence.", source: "At lunchtime I ate a soup.", answer: "Mittags aß ich eine Suppe.", altAnswers: ["Mittags aß ich Suppe."], explanation: "\"Essen → aß\"." },
+      { type: "translate", direction: "en-es", prompt: "Leon wrote: \"*Der Chef gebte mir eine neue Aufgabe.*\" Write the corrected sentence.", source: "The boss gave me a new task.", answer: "Der Chef gab mir eine neue Aufgabe.", altAnswers: ["Die Chefin gab mir eine neue Aufgabe."], explanation: "\"Geben → gab\"." },
+      { type: "fill-blank", prompt: "Leon wrote: \"*Ich bleibte bis sechs.*\" Write the German for the bold word.", en: "I [stayed] until six.", sentence: "Ich ___ bis sechs.", answer: "blieb", explanation: "\"Bleiben → blieb\"." },
+      { type: "translate", direction: "en-es", prompt: "Leon wrote: \"*Dann fahrte ich nach Hause.*\" Write the corrected sentence.", source: "Then I went home.", answer: "Dann fuhr ich nach Hause.", explanation: "\"Fahren → fuhr\"." },
+      { type: "translate", direction: "en-es", prompt: "Leon wrote: \"*Ich wisste nicht, was ich kochen sollte.*\" Write the corrected sentence.", source: "I didn't know what to cook.", answer: "Ich wusste nicht, was ich kochen sollte.", explanation: "\"Wissen → wusste\"." },
       { type: "word-order", prompt: "Put the words in order to say: In the end I ordered a pizza.", words: ["Am", "Ende", "bestellte", "ich", "eine", "Pizza."], translation: "In the end I ordered a pizza.", explanation: "Weak \"bestellte\", verb second." },
-      { type: "multiple-choice", question: "Which form is correct?", options: ["ich schlief", "ich schlafte", "ich schlaf", "ich schlüf"], correctIndex: 0, explanation: "\"Schlafen → schlief\"." },
+      { type: "multiple-choice", question: "Leon wants to write: I slept badly. Which is right?", options: ["Ich schlief schlecht.", "Ich schlafte schlecht.", "Ich schlaf schlecht.", "Ich schlüf schlecht."], correctIndex: 0, explanation: "\"Schlafen\" is strong: \"schlief\" (ie group), never \"*schlafte*\". \"Schlaf\" is just the bare stem." },
       { type: "listen-choose", audio: "Im Bus sah ich meine Kollegin.", question: "What does it mean?", options: ["On the bus I saw my colleague.", "On the bus I sat with my colleague.", "On the bus I see my colleague.", "On the bus I called my colleague."], correctIndex: 0, explanation: "\"Sah\": saw." },
       { type: "dictation", audio: "Heute stand ich spät auf.", explanation: "\"Stand ... auf\"." },
       { type: "speak", text: "Ich trank schnell einen Kaffee und lief zum Bus.", prompt: "Say it in German (written past): I quickly drank a coffee and ran to the bus.", explanation: "\"Trank\", \"lief\": strong forms." },
@@ -491,7 +491,7 @@ export const DE_B1_U02_EXTRA: Lesson[] = [
     number: 9,
     optional: true,
     title: "Extra Practice: A Short Biography",
-    summary: "Write the life of a famous German speaker: wurde geboren, studierte, zog nach..., starb.",
+    summary: "Write the life of a famous German speaker with \"wurde ... geboren\", \"studierte\", \"zog nach...\" and \"starb\".",
     duration: "12 min",
     sections: [
       {
@@ -535,7 +535,7 @@ export const DE_B1_U02_EXTRA: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: P, source: "In 1930 she moved to Hollywood.", answer: "1930 zog sie nach Hollywood.", altAnswers: ["Sie zog 1930 nach Hollywood.", "Im Jahr 1930 zog sie nach Hollywood."], explanation: "\"Ziehen → zog\"; verb second after the year." },
       { type: "translate", direction: "en-es", prompt: P, source: "She made many films.", answer: "Sie drehte viele Filme.", altAnswers: ["Sie machte viele Filme."], explanation: "Making films: \"drehen\"." },
       { type: "translate", direction: "en-es", prompt: P, source: "She died in Paris in 1992.", answer: "Sie starb 1992 in Paris.", altAnswers: ["1992 starb sie in Paris."], explanation: "\"Sterben → starb\"." },
-      { type: "translate", direction: "en-es", prompt: P, source: "Goethe was born in Frankfurt.", answer: "Goethe wurde in Frankfurt geboren.", explanation: "\"Wurde ... geboren\"." },
+      { type: "translate", direction: "en-es", prompt: P, source: "Goethe was born in Frankfurt.", answer: "Goethe wurde in Frankfurt geboren.", altAnswers: ["Goethe wurde in Frankfurt am Main geboren."], explanation: "\"Wurde ... geboren\"." },
       { type: "translate", direction: "en-es", prompt: P, source: "He wrote many books.", answer: "Er schrieb viele Bücher.", explanation: "\"Schrieb\"." },
       { type: "translate", direction: "en-es", prompt: P, source: "He worked for the duke in Weimar.", answer: "Er arbeitete für den Herzog in Weimar.", explanation: "\"Arbeitete\" with -ete." },
       { type: "fill-blank", prompt: "Write the German for the bold words.", en: "Mozart [travelled] a lot as a child.", sentence: "Mozart ___ als Kind viel.", answer: "reiste", explanation: "\"Reisen → reiste\"." },
@@ -552,7 +552,7 @@ export const DE_B1_U02_EXTRA: Lesson[] = [
     number: 10,
     optional: true,
     title: "Extra Practice: Stand / Stellte, Hing / Hängte",
-    summary: "Minimal pairs: position verbs vs placing verbs in the past.",
+    summary: "Tell position verbs (\"stand\", \"hing\") from placing verbs (\"stellte\", \"hängte\") in the past.",
     duration: "10 min",
     sections: [
       {
@@ -611,7 +611,7 @@ export const DE_B1_U02_EXTRA: Lesson[] = [
     number: 11,
     optional: true,
     title: "Extra Practice: Dictation, A News Item",
-    summary: "Dictated police and local news where the -te endings are easy to miss.",
+    summary: "Catch the quick -te endings in dictated police and local news, and write them down.",
     duration: "10 min",
     sections: [
       {
@@ -664,7 +664,7 @@ export const DE_B1_U02_EXTRA: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: P, source: "The police searched the forest.", answer: "Die Polizei durchsuchte den Wald.", altAnswers: ["Die Polizei suchte im Wald."], explanation: "\"Durchsuchen\": inseparable, weak." },
       { type: "fill-blank", prompt: "Write the German for the bold words.", en: "The thieves [stole] two bikes.", sentence: "Die Diebe ___ zwei Fahrräder.", answer: "stahlen", explanation: "\"Stehlen → stahl\", plural \"stahlen\"." },
       { type: "translate", direction: "en-es", prompt: P, source: "The driver stopped immediately.", answer: "Der Fahrer hielt sofort an.", altAnswers: ["Der Fahrer stoppte sofort.", "Die Fahrerin hielt sofort an."], explanation: "\"Anhalten → hielt ... an\"." },
-      { type: "word-order", prompt: "Put the words in order to say: On Monday the police reported a burglary.", words: ["Am", "Montag", "meldete", "die", "Polizei", "einen", "Einbruch."], translation: "On Monday the police reported a burglary.", explanation: "Verb second after \"am Montag\"." },
+      { type: "word-order", prompt: "Put the words in order to say: On Monday the police reported a burglary.", words: ["Am", "Montag", "meldete", "die", "Polizei", "einen", "Einbruch."], translation: "On Monday the police reported a burglary.", altOrders: [["Die", "Polizei", "meldete", "am", "Montag", "einen", "Einbruch."]], explanation: "Verb second after \"am Montag\"." },
       { type: "listen-choose", audio: "Die Beamten stoppten das Auto.", question: "What did you hear?", options: ["Die Beamten stoppten das Auto.", "Die Beamten stoppen das Auto.", "Die Beamten stoppten die Autos.", "Der Beamte stoppte das Auto."], correctIndex: 0, explanation: "\"Stoppten\": plural past." },
       { type: "speak", text: "Ein Zeuge beobachtete zwei Männer.", prompt: "Read it like a newsreader: A witness observed two men.", explanation: "\"Beobachtete\": be-ob-ach-te-te." },
     ],
@@ -675,7 +675,7 @@ export const DE_B1_U02_EXTRA: Lesson[] = [
     number: 12,
     optional: true,
     title: "Extra Practice: A Diary from 1989",
-    summary: "Translate diary entries about the fall of the Berlin Wall, sentence by sentence.",
+    summary: "Write a diary of the night the Berlin Wall fell in the Präteritum, sentence by sentence.",
     duration: "12 min",
     sections: [
       {
@@ -689,7 +689,7 @@ export const DE_B1_U02_EXTRA: Lesson[] = [
           { es: "Ich glaubte es zuerst nicht.", en: "At first I didn't believe it." },
           { es: "Wir liefen zur Bornholmer Straße.", en: "We ran to the checkpoint on Bornholmer Strasse." },
           { es: "Tausende Menschen standen vor der Grenze.", en: "Thousands of people were standing at the border." },
-          { es: "Um Mitternacht öffneten die Soldaten das Tor.", en: "At midnight the soldiers opened the gate." },
+          { es: "Kurz vor Mitternacht öffneten die Soldaten das Tor.", en: "Just before midnight the soldiers opened the gate." },
           { es: "Fremde Menschen umarmten uns und weinten.", en: "Strangers hugged us and cried." },
         ],
         checkpoint: [
@@ -705,8 +705,8 @@ export const DE_B1_U02_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "At midnight the soldiers [opened] the gate.",
-            sentence: "Um Mitternacht ___ die Soldaten das Tor.",
+            en: "Just before midnight the soldiers [opened] the gate.",
+            sentence: "Kurz vor Mitternacht ___ die Soldaten das Tor.",
             answer: "öffneten",
             explanation: "\"Öffnen\": consonant + n, so -ete.",
           },
@@ -727,7 +727,7 @@ export const DE_B1_U02_EXTRA: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: P, source: "It was the best night of my life.", answer: "Es war die schönste Nacht meines Lebens.", altAnswers: ["Es war die beste Nacht meines Lebens.", "Das war die schönste Nacht meines Lebens."], explanation: "\"War\" + superlative + genitive \"meines Lebens\"." },
       { type: "word-order", prompt: "Put the words in order to say: Strangers hugged us.", words: ["Fremde", "Menschen", "umarmten", "uns."], translation: "Strangers hugged us.", explanation: "\"Umarmen\": inseparable um-, weak." },
       { type: "listen-choose", audio: "Tausende Menschen standen vor der Grenze.", question: "What does it mean?", options: ["Thousands of people were standing at the border.", "Thousands of people crossed the border.", "Thousands of people stand at the border.", "Thousands of people put up the border."], correctIndex: 0, explanation: "\"Standen\": position, past of \"stehen\"." },
-      { type: "dictation", audio: "Um Mitternacht öffneten die Soldaten das Tor.", explanation: "\"Öffneten\" with ö and -ete." },
+      { type: "dictation", audio: "Kurz vor Mitternacht öffneten die Soldaten das Tor.", explanation: "\"Öffneten\" with ö and -ete." },
       { type: "speak", text: "Es war die schönste Nacht meines Lebens.", prompt: "Say it in German: It was the most wonderful night of my life.", explanation: "\"War\" + superlative + genitive." },
     ],
   },
@@ -737,7 +737,7 @@ export const DE_B1_U02_EXTRA: Lesson[] = [
     number: 13,
     optional: true,
     title: "Extra Practice: The Präteritum in Context",
-    summary: "Mixed practice in short everyday written texts: a postcard, a work report, a blog post.",
+    summary: "Use weak, strong and mixed Präteritum forms together in short everyday texts: a postcard, a work report, a blog post.",
     duration: "10 min",
     sections: [
       {
@@ -784,7 +784,7 @@ export const DE_B1_U02_EXTRA: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: P, source: "My blog had two thousand readers.", answer: "Mein Blog hatte zweitausend Leser.", altAnswers: ["Mein Blog hatte 2000 Leser."], explanation: "\"Hatte\"." },
       { type: "fill-blank", prompt: "Write the German for the bold words.", en: "We [climbed] the mountain.", sentence: "Wir ___ auf den Berg.", answer: "stiegen", explanation: "\"Steigen → stiegen\"." },
       { type: "translate", direction: "en-es", prompt: P, source: "The view was fantastic.", answer: "Die Aussicht war fantastisch.", altAnswers: ["Der Blick war fantastisch."], explanation: "\"War\"." },
-      { type: "word-order", prompt: "Put the words in order to say: In the evening we ate in the harbour.", words: ["Am", "Abend", "aßen", "wir", "im", "Hafen."], translation: "In the evening we ate in the harbour.", explanation: "\"Aßen\" second after \"am Abend\"." },
+      { type: "word-order", prompt: "Put the words in order to say: In the evening we ate in the harbour.", words: ["Am", "Abend", "aßen", "wir", "im", "Hafen."], translation: "In the evening we ate in the harbour.", altOrders: [["Wir", "aßen", "am", "Abend", "im", "Hafen."]], explanation: "\"Aßen\" second after \"am Abend\"." },
       { type: "multiple-choice", question: "Which sentence is written correctly?", options: ["Wir kauften Souvenirs und schickten Postkarten.", "Wir kauften Souvenirs und schicktten Postkarten.", "Wir kaufen Souvenirs und schickten Postkarten.", "Wir kaufte Souvenirs und schickte Postkarten."], correctIndex: 0, explanation: "Both verbs in the wir form: -ten." },
       { type: "listen-choose", audio: "Jeden Morgen brachte uns die Wirtin frische Brötchen.", question: "What does it mean?", options: ["Every morning the landlady brought us fresh rolls.", "Every morning we brought the landlady fresh rolls.", "Every morning the landlady baked fresh rolls.", "This morning the landlady brought us fresh rolls."], correctIndex: 0, explanation: "\"Brachte uns\": brought us." },
       { type: "dictation", audio: "Das Projekt dauerte länger als geplant.", explanation: "\"Dauerte\"; comparative \"länger als\"." },
@@ -797,7 +797,7 @@ export const DE_B1_U02_EXTRA: Lesson[] = [
     number: 14,
     optional: true,
     title: "Extra Practice: Why This Past?",
-    summary: "Choose Perfekt or Präteritum for each sentence and explain the choice by register.",
+    summary: "Choose Perfekt or Präteritum for each situation and explain the choice by register.",
     duration: "10 min",
     sections: [
       {
@@ -846,7 +846,7 @@ export const DE_B1_U02_EXTRA: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into German. Situation: an email to a friend.", source: "We went to Vienna in the summer.", answer: "Wir sind im Sommer nach Wien gefahren.", altAnswers: ["Im Sommer sind wir nach Wien gefahren."], explanation: "Informal email: Perfekt." },
       { type: "fill-blank", prompt: "Situation: a police report. Write the German for the bold words.", en: "The thief [ran away].", sentence: "Der Dieb ___ weg.", answer: "lief", altAnswers: ["rannte"], explanation: "Report: Präteritum \"lief ... weg\"." },
       { type: "multiple-choice", question: "Which sentence would sound odd in a casual chat?", options: ["Gestern aß ich bei Oma und trank danach Kaffee.", "Gestern habe ich bei Oma gegessen.", "Gestern war ich bei Oma.", "Gestern musste ich zu Oma."], correctIndex: 0, explanation: "\"Aß\" and \"trank\" sound literary in a chat; the others are normal speech." },
-      { type: "word-order", prompt: "Situation: a diary. Put the words in order to say: Today I met an old friend.", words: ["Heute", "traf", "ich", "einen", "alten", "Freund."], translation: "Today I met an old friend.", explanation: "Diary: Präteritum \"traf\"." },
+      { type: "word-order", prompt: "Situation: a diary. Put the words in order to say: Today I met an old friend.", words: ["Heute", "traf", "ich", "einen", "alten", "Freund."], translation: "Today I met an old friend.", altOrders: [["Ich", "traf", "heute", "einen", "alten", "Freund."]], explanation: "Diary: Präteritum \"traf\"." },
       { type: "listen-choose", audio: "Wir sind am Wochenende gewandert.", question: "Where would you most likely hear this?", options: ["In a conversation with friends", "In a news broadcast", "In a fairy tale", "In an encyclopedia"], correctIndex: 0, explanation: "Perfekt with a full verb: spoken German." },
       { type: "dictation", audio: "Der König hatte drei Töchter.", explanation: "\"Hatte\"; \"Töchter\" with ö." },
       { type: "speak", text: "Ich habe gestern Lena getroffen!", prompt: "Tell a friend: I bumped into Lena yesterday!", explanation: "Speech: Perfekt." },

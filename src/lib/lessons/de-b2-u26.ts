@@ -68,7 +68,7 @@ export const DE_B2_U26: Lesson[] = [
             source: "I should have carried on.",
             answer: "Ich hätte weitermachen sollen.",
             altAnswers: ["Ich hätte weiterlernen sollen."],
-            explanation: "Double infinitive \"weitermachen sollen\" after \"hätte\". No participle \"*gesollt\".",
+            explanation: "Double infinitive \"weitermachen sollen\" after \"hätte\". No participle \"*gesollt*\".",
           },
           {
             type: "translate",
@@ -104,7 +104,7 @@ export const DE_B2_U26: Lesson[] = [
             source: "I've made great progress.",
             answer: "Ich habe große Fortschritte gemacht.",
             altAnswers: ["Ich habe viele Fortschritte gemacht.", "Ich habe tolle Fortschritte gemacht.", "Ich habe gute Fortschritte gemacht."],
-            explanation: "\"Fortschritte machen\": plural noun with \"machen\". \"*Fortschritt haben\" is an English-style mistake.",
+            explanation: "\"Fortschritte machen\": plural noun with \"machen\", like English make progress. \"*Fortschritt haben*\" is wrong.",
           },
           {
             type: "listen-choose",
@@ -142,7 +142,7 @@ export const DE_B2_U26: Lesson[] = [
         prompt: "Translate into German.",
         source: "Hopefully I'll keep it up.",
         answer: "Hoffentlich halte ich durch.",
-        altAnswers: ["Hoffentlich werde ich durchhalten.", "Ich hoffe, dass ich durchhalte.", "Ich hoffe, ich halte durch."],
+        altAnswers: ["Hoffentlich werde ich durchhalten.", "Ich hoffe, dass ich durchhalte.", "Ich hoffe, ich halte durch.", "Hoffentlich halte ich es durch.", "Hoffentlich halte ich das durch."],
         explanation: "\"Durchhalten\" is separable: \"halte ... durch\". The present tense is enough for the future here.",
       },
       {
@@ -172,9 +172,9 @@ export const DE_B2_U26: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: By summer I'll have finished the book.",
+        prompt: "Put the words in order to say: By summer I'll have read the book.",
         words: ["Bis", "zum", "Sommer", "werde", "ich", "das", "Buch", "gelesen", "haben."],
-        translation: "By summer I'll have finished the book.",
+        translation: "By summer I'll have read the book.",
         altOrders: [["Ich", "werde", "das", "Buch", "bis", "zum", "Sommer", "gelesen", "haben."]],
         explanation: "Futur II: \"werde\" second, \"gelesen haben\" at the end.",
       },
@@ -296,7 +296,7 @@ export const DE_B2_U26: Lesson[] = [
           { es: "Was mich am meisten überrascht hat, war seine Stimme.", en: "What surprised me most was his voice." },
           { es: "Ausgerechnet Tobias, der online so laut ist, ist in Wirklichkeit total ruhig.", en: "Tobias, of all people, who's so loud online, is actually really quiet." },
           { es: "Sogar meine Mutter fand ihn sofort sympathisch.", en: "Even my mother liked him straight away." },
-          { es: "Wir haben uns erst einmal im echten Leben gesehen.", en: "We've only seen each other once in real life so far." },
+          { es: "Wir haben uns bisher erst einmal im echten Leben gesehen.", en: "We've only seen each other once in real life so far." },
           { es: "Gerade weil wir uns online kennengelernt haben, ist die Freundschaft so besonders.", en: "It's precisely because we met online that the friendship is so special." },
         ],
         checkpoint: [
@@ -359,9 +359,9 @@ export const DE_B2_U26: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence says 'We've only met once so far' (and more meetings may follow)?",
-        options: ["Wir haben uns erst einmal getroffen.", "Wir haben uns einmal erst getroffen.", "Wir haben uns nur noch einmal getroffen.", "Wir haben uns schon einmal getroffen."],
+        options: ["Wir haben uns bisher erst einmal getroffen.", "Wir haben uns bisher einmal erst getroffen.", "Wir haben uns nur noch einmal getroffen.", "Wir haben uns schon einmal getroffen."],
         correctIndex: 0,
-        explanation: "\"Erst\" = only so far (implies more to come). \"Schon einmal\" would mean once before, already.",
+        explanation: "\"Erst\" = only so far (implies more to come); \"bisher\" makes it clear, because \"erst einmal\" alone can also mean for now. \"Schon einmal\" would mean once before, already.",
       },
       {
         type: "translate",
@@ -627,7 +627,7 @@ export const DE_B2_U26: Lesson[] = [
         heading: "Sich entwickeln und verbessern",
         body: [
           "\"Sich weiterentwickeln\" (to develop further, grow as a person or professional), \"sich verbessern\" (to improve: \"Mein Deutsch hat sich verbessert\"), \"dazulernen\" (to learn something new, add to your knowledge: \"Man lernt nie aus\" = you live and learn), \"an sich arbeiten\" (to work on yourself).",
-          "Progress: \"Fortschritte machen\" (usually plural, always with \"machen\"; not \"*Fortschritt haben*\"), \"vorankommen\" (to make headway: \"Ich komme gut voran\"), \"sich steigern\" (to step up your performance).",
+          "Progress: \"Fortschritte machen\" (usually plural, with \"machen\", in formal texts also \"erzielen\"; not \"*Fortschritt haben*\"), \"vorankommen\" (to make headway: \"Ich komme gut voran\"), \"sich steigern\" (to step up your performance).",
           "Trap: \"sich verbessern\" also means to correct yourself when speaking (\"Er hat sich sofort verbessert\"). And \"die Entwicklung\" is development; \"die Weiterbildung\" or \"die Fortbildung\" is further training at work.",
         ],
         examples: [
@@ -687,9 +687,9 @@ export const DE_B2_U26: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which sentence means 'She narrowly missed her goal'?",
-            options: ["Sie hat ihr Ziel knapp verfehlt.", "Sie hat ihr Ziel knapp verpasst.", "Sie hat ihr Ziel knapp vermisst.", "Sie hat ihr Ziel knapp verloren."],
+            options: ["Sie hat ihr Ziel knapp verfehlt.", "Sie hat ihr Ziel knapp gefehlt.", "Sie hat ihr Ziel knapp vermisst.", "Sie hat ihr Ziel knapp verloren."],
             correctIndex: 0,
-            explanation: "Goals and targets are \"verfehlt\". \"Vermissen\" is for people; \"verpassen\" for trains and chances.",
+            explanation: "Goals and targets are \"verfehlt\" (in sport and news also \"verpasst\"). \"Vermissen\" is for people you long for, and \"fehlen\" takes no direct object.",
           },
         ],
       },
@@ -916,7 +916,7 @@ export const DE_B2_U26: Lesson[] = [
         heading: "Das Fazit",
         body: [
           "The conclusion (\"das Fazit\") states your position clearly and often uses Konjunktiv II for the proposal: \"Ein freiwilliges, gut bezahltes Gesellschaftsjahr wäre ein guter Kompromiss.\" Formal connectors: \"folglich\", \"somit\" (thus), \"insgesamt\" (overall), \"alles in allem\" (all in all), \"meines Erachtens\" (in my view, formal).",
-          "\"Meiner Meinung nach\" and \"meines Erachtens\" are adverbials in position 1, so the verb follows: \"Meines Erachtens sollte der Staat ...\". Never \"*Meiner Meinung nach, der Staat sollte ...\".",
+          "\"Meiner Meinung nach\" and \"meines Erachtens\" are adverbials in position 1, so the verb follows: \"Meines Erachtens sollte der Staat ...\". Never \"*Meiner Meinung nach, der Staat sollte ...*\".",
           "A strong final sentence often uses \"sollte\" (should) or a passive with a modal: \"Der Dienst sollte nicht erzwungen, sondern attraktiv gemacht werden.\"",
         ],
         examples: [
@@ -1074,7 +1074,7 @@ export const DE_B2_U26: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "[One argument for it] is that it's cheaper.",
+            en: "[One argument for it is] that it's cheaper.",
             sentence: "___, dass es billiger ist.",
             answer: "Dafür spricht",
             explanation: "\"Dafür spricht, dass ...\" / \"Dagegen spricht, dass ...\": the dass-clause is the subject of \"sprechen\".",
@@ -1084,7 +1084,7 @@ export const DE_B2_U26: Lesson[] = [
       {
         heading: "Zustimmen und widersprechen: the dative trap",
         body: [
-          "\"Zustimmen\" (to agree) and \"widersprechen\" (to contradict, disagree) both take the dative: \"Ich stimme dir zu\", \"Da muss ich Ihnen widersprechen.\" English speakers often say \"*Ich stimme dich zu\"; the person is always dative. With a thing: \"Ich stimme dem Vorschlag zu.\"",
+          "\"Zustimmen\" (to agree) and \"widersprechen\" (to contradict, disagree) both take the dative: \"Ich stimme dir zu\", \"Da muss ich Ihnen widersprechen.\" English speakers often say \"*Ich stimme dich zu*\"; the person is always dative. With a thing: \"Ich stimme dem Vorschlag zu.\"",
           "\"Einverstanden sein mit\" + dative is another way to agree: \"Ich bin mit dir einverstanden\" or simply \"Einverstanden!\" (Agreed!).",
           "\"Recht haben\" is how a person is right: \"Da hast du recht\", \"Sie haben völlig recht.\" Not \"*Du bist richtig*\": \"richtig\" describes answers and facts (\"Das ist richtig\"), not people. And in \"Ich bin der Meinung / Ansicht, dass ...\" the \"der\" is a genitive.",
         ],
@@ -1168,7 +1168,7 @@ export const DE_B2_U26: Lesson[] = [
         source: "You're absolutely right. (formal)",
         answer: "Sie haben völlig recht.",
         altAnswers: ["Sie haben absolut recht.", "Sie haben vollkommen recht.", "Da haben Sie völlig recht."],
-        explanation: "\"Recht haben\"; never \"*Sie sind richtig\".",
+        explanation: "\"Recht haben\"; never \"*Sie sind richtig*\".",
       },
       {
         type: "translate",
@@ -1235,6 +1235,7 @@ export const DE_B2_U26: Lesson[] = [
         prompt: "Translate into German.",
         source: "You've convinced me. (to a friend)",
         answer: "Du hast mich überzeugt.",
+        altAnswers: ["Du hast mich davon überzeugt.", "Du hast mich jetzt überzeugt."],
         explanation: "\"Überzeugen\" is inseparable: \"überzeugt\"; the person convinced is accusative.",
       },
       {
@@ -1502,7 +1503,7 @@ export const DE_B2_U26: Lesson[] = [
         body: [
           "Jonas, 18, from Leipzig, wrote his last essay before the Abitur on the topic \"Sollte das Handy in der Schule verboten werden?\" His teacher has underlined one mistake in each sentence. Your job: write the corrected German.",
           "The first paragraph has word-order mistakes after connectors. Remember: an adverb in position 1 (\"deshalb\", \"trotzdem\", \"außerdem\") pulls the verb in front of the subject; \"denn\" and \"aber\" don't; \"weil\" and \"obwohl\" send the verb to the end.",
-          "Jonas wrote: \"*Außerdem viele Schüler sind abgelenkt.\" → \"Außerdem sind viele Schüler abgelenkt.\" And: \"*Viele Schüler benutzen das Handy, weil sie langweilen sich.\" → \"..., weil sie sich langweilen.\"",
+          "Jonas wrote: \"*Außerdem viele Schüler sind abgelenkt.*\" → \"Außerdem sind viele Schüler abgelenkt.\" And: \"*Viele Schüler benutzen das Handy, weil sie langweilen sich.*\" → \"..., weil sie sich langweilen.\"",
         ],
         examples: [
           { es: "Außerdem sind viele Schüler im Unterricht abgelenkt.", en: "Moreover, many pupils are distracted in class." },
@@ -1515,7 +1516,7 @@ export const DE_B2_U26: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Jonas wrote \"*Deshalb manche Lehrer fordern ein Verbot.\" Write the correct German for: That's why some teachers are calling for a ban.",
+            prompt: "Jonas wrote \"*Deshalb manche Lehrer fordern ein Verbot.*\" Write the correct German for: That's why some teachers are calling for a ban.",
             source: "That's why some teachers are calling for a ban.",
             answer: "Deshalb fordern manche Lehrer ein Verbot.",
             altAnswers: ["Deshalb fordern einige Lehrer ein Verbot.", "Darum fordern manche Lehrer ein Verbot.", "Deswegen fordern manche Lehrer ein Verbot.", "Deshalb fordern manche Lehrkräfte ein Verbot."],
@@ -1524,7 +1525,7 @@ export const DE_B2_U26: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Jonas wrote \"*..., weil sie langweilen sich.\" Write the correct German for: Many pupils use their phones because they're bored.",
+            prompt: "Jonas wrote \"*..., weil sie langweilen sich.*\" Write the correct German for: Many pupils use their phones because they're bored.",
             source: "Many pupils use their phones because they're bored.",
             answer: "Viele Schüler benutzen das Handy, weil sie sich langweilen.",
             altAnswers: ["Viele Schüler benutzen ihr Handy, weil sie sich langweilen.", "Viele Schüler nutzen das Handy, weil sie sich langweilen.", "Viele Schüler benutzen ihre Handys, weil sie sich langweilen.", "Viele Schüler benutzen das Handy, weil ihnen langweilig ist."],
@@ -1536,8 +1537,8 @@ export const DE_B2_U26: Lesson[] = [
         heading: "Paragraph 2: the Konjunktiv",
         body: [
           "The second paragraph imagines a school without phones and reports what a study said. Jonas mixed up \"würde\" and \"hätte / wäre\" and forgot Konjunktiv I.",
-          "\"*Wenn das Handy verboten würde gewesen, ...\" → \"Wenn das Handy verboten gewesen wäre, ...\" (the unreal past is built with \"wäre\" / \"hätte\", not \"würde\"). \"*Die Studie sagt, dass die Noten werden besser\" → \"Laut der Studie würden die Noten besser\" / \"Die Studie zeigt, dass die Noten besser werden.\" (\"werden\" Konjunktiv I = indicative, so \"würden\").",
-          "And the double infinitive in a subordinate clause: \"*..., dass die Schule das früher regeln hätte sollen\" → \"..., dass die Schule das früher hätte regeln sollen.\"",
+          "\"*Wenn das Handy verboten würde gewesen, ...*\" → \"Wenn das Handy verboten gewesen wäre, ...\" (the unreal past is built with \"wäre\" / \"hätte\", not \"würde\"). \"*Die Studie sagt, dass die Noten werden besser*\" → \"Laut der Studie würden die Noten besser\" / \"Die Studie zeigt, dass die Noten besser werden.\" (\"werden\" Konjunktiv I = indicative, so \"würden\").",
+          "And the double infinitive in a subordinate clause: \"*..., dass die Schule das früher regeln hätte sollen*\" → \"..., dass die Schule das früher hätte regeln sollen.\"",
         ],
         examples: [
           { es: "Wenn das Handy schon früher verboten gewesen wäre, hätten wir mehr miteinander geredet.", en: "If phones had been banned earlier, we'd have talked to each other more." },
@@ -1550,7 +1551,7 @@ export const DE_B2_U26: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Jonas wrote \"*Wenn das Handy verboten würde gewesen, ...\" Write the correct German for: If phones had been banned, we would have talked more.",
+            prompt: "Jonas wrote \"*Wenn das Handy verboten würde gewesen, ...*\" Write the correct German for: If phones had been banned, we would have talked more.",
             source: "If phones had been banned, we would have talked more.",
             answer: "Wenn das Handy verboten gewesen wäre, hätten wir mehr geredet.",
             altAnswers: ["Wenn das Handy verboten gewesen wäre, hätten wir mehr miteinander geredet.", "Wäre das Handy verboten gewesen, hätten wir mehr geredet.", "Wenn Handys verboten gewesen wären, hätten wir mehr geredet.", "Wenn das Handy verboten worden wäre, hätten wir mehr geredet.", "Wenn das Handy verboten gewesen wäre, hätten wir mehr gesprochen."],
@@ -1568,8 +1569,8 @@ export const DE_B2_U26: Lesson[] = [
       {
         heading: "Paragraph 3: genitive prepositions and relatives",
         body: [
-          "The conclusion has the small, formal mistakes that cost points in exams: \"*trotz dem Verbot\" (written German: \"trotz des Verbots\"), \"*innerhalb zwei Wochen\" (\"innerhalb von zwei Wochen\" or \"innerhalb zweier Wochen\"), \"*während dem Unterricht\" (\"während des Unterrichts\").",
-          "Relative pronouns: \"*die Schule, dessen Regeln ...\" → \"deren Regeln\" (feminine antecedent); \"*das Beste, das wir tun können\" → \"das Beste, was wir tun können\".",
+          "The conclusion has the small, formal mistakes that cost points in exams: \"*trotz dem Verbot*\" (written German: \"trotz des Verbots\"), \"*innerhalb zwei Wochen*\" (\"innerhalb von zwei Wochen\" or \"innerhalb zweier Wochen\"), \"*während dem Unterricht*\" (\"während des Unterrichts\").",
+          "Relative pronouns: \"*die Schule, dessen Regeln ...*\" → \"deren Regeln\" (feminine antecedent); \"*das Beste, das wir tun können*\" → \"das Beste, was wir tun können\".",
           "When there's no article to show the genitive (\"zwei Wochen\"), German uses \"von\" + dative instead: \"innerhalb von zwei Wochen\"; \"*wegen von*\" is wrong, but \"aufgrund von\" is fine.",
         ],
         examples: [
@@ -1583,7 +1584,7 @@ export const DE_B2_U26: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Jonas wrote \"*während dem Unterricht\". Write the correct written German for: During lessons, phones should be switched off.",
+            prompt: "Jonas wrote \"*während dem Unterricht*\". Write the correct written German for: During lessons, phones should be switched off.",
             source: "During lessons, phones should be switched off.",
             answer: "Während des Unterrichts sollten die Handys ausgeschaltet sein.",
             altAnswers: ["Während des Unterrichts sollten Handys ausgeschaltet sein.", "Während des Unterrichts sollten die Handys ausgeschaltet werden.", "Während des Unterrichts sollten Handys ausgeschaltet werden.", "Während des Unterrichts sollte das Handy ausgeschaltet sein."],
@@ -1591,7 +1592,7 @@ export const DE_B2_U26: Lesson[] = [
           },
           {
             type: "fill-blank",
-            prompt: "Jonas wrote \"*die Schule, dessen Regeln ...\". Write the German for the bold word.",
+            prompt: "Jonas wrote \"*die Schule, dessen Regeln ...*\". Write the German for the bold word.",
             en: "Our school, [whose] rules are strict, ...",
             sentence: "Unsere Schule, ___ Regeln streng sind, ...",
             answer: "deren",
@@ -1604,7 +1605,7 @@ export const DE_B2_U26: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct \"*Außerdem viele Schüler sind abgelenkt.\" Write the German for: Moreover, many pupils are distracted.",
+        prompt: "Correct \"*Außerdem viele Schüler sind abgelenkt.*\" Write the German for: Moreover, many pupils are distracted.",
         source: "Moreover, many pupils are distracted.",
         answer: "Außerdem sind viele Schüler abgelenkt.",
         altAnswers: ["Zudem sind viele Schüler abgelenkt.", "Außerdem sind viele Schülerinnen und Schüler abgelenkt."],
@@ -1613,7 +1614,7 @@ export const DE_B2_U26: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct \"*Trotz dem Verbot benutzen viele das Handy.\" Write the written German for: Despite the ban, many use their phones.",
+        prompt: "Correct \"*Trotz dem Verbot benutzen viele das Handy.*\" Write the written German for: Despite the ban, many use their phones.",
         source: "Despite the ban, many use their phones.",
         answer: "Trotz des Verbots benutzen viele das Handy.",
         altAnswers: ["Trotz des Verbots benutzen viele ihr Handy.", "Trotz des Verbotes benutzen viele das Handy.", "Trotz des Verbots benutzen viele ihre Handys.", "Trotz des Verbots nutzen viele ihr Handy."],
@@ -1622,7 +1623,7 @@ export const DE_B2_U26: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct \"*Die Studie sagt, dass die Noten werden besser.\" Write the German for: The study says that marks get better.",
+        prompt: "Correct \"*Die Studie sagt, dass die Noten werden besser.*\" Write the German for: The study says that marks get better.",
         source: "The study says that marks get better.",
         answer: "Die Studie sagt, dass die Noten besser werden.",
         altAnswers: ["Die Studie zeigt, dass die Noten besser werden.", "Laut der Studie werden die Noten besser.", "Die Studie sagt, die Noten würden besser.", "Laut der Studie würden die Noten besser."],
@@ -1630,7 +1631,7 @@ export const DE_B2_U26: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Correct \"*innerhalb zwei Wochen\". Write the German for the bold words.",
+        prompt: "Correct \"*innerhalb zwei Wochen*\". Write the German for the bold words.",
         en: "The rules will be introduced [within two weeks].",
         sentence: "Die Regeln werden ___ eingeführt.",
         answer: "innerhalb von zwei Wochen",
@@ -1640,7 +1641,7 @@ export const DE_B2_U26: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct \"*das Beste, das wir tun können\". Write the German for: The best thing we can do is a compromise.",
+        prompt: "Correct \"*das Beste, das wir tun können*\". Write the German for: The best thing we can do is a compromise.",
         source: "The best thing we can do is a compromise.",
         answer: "Das Beste, was wir tun können, ist ein Kompromiss.",
         altAnswers: ["Das Beste, was wir machen können, ist ein Kompromiss."],
@@ -1656,7 +1657,7 @@ export const DE_B2_U26: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct \"*Ein Verbot ist schwierig, denn ist das Handy auch ein Lernwerkzeug.\" Write the German for: A ban is difficult, because the phone is also a learning tool.",
+        prompt: "Correct \"*Ein Verbot ist schwierig, denn ist das Handy auch ein Lernwerkzeug.*\" Write the German for: A ban is difficult, because the phone is also a learning tool.",
         source: "A ban is difficult, because the phone is also a learning tool.",
         answer: "Ein Verbot ist schwierig, denn das Handy ist auch ein Lernwerkzeug.",
         altAnswers: ["Ein Verbot ist schwierig, weil das Handy auch ein Lernwerkzeug ist.", "Ein Verbot ist schwierig, da das Handy auch ein Lernwerkzeug ist."],
@@ -1665,7 +1666,7 @@ export const DE_B2_U26: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct \"*Die Forscher meinen, die Konzentration ist höher sei.\" Write the German for: The researchers say concentration is higher.",
+        prompt: "Correct \"*Die Forscher meinen, die Konzentration ist höher sei.*\" Write the German for: The researchers say concentration is higher.",
         source: "The researchers say concentration is higher.",
         answer: "Die Forscher meinen, die Konzentration sei höher.",
         altAnswers: ["Die Forscher sagen, die Konzentration sei höher.", "Die Forscher meinen, dass die Konzentration höher sei.", "Die Forscher meinen, dass die Konzentration höher ist.", "Die Forscher sagen, dass die Konzentration höher ist."],
@@ -1811,7 +1812,7 @@ export const DE_B2_U26: Lesson[] = [
             type: "speak",
             text: "Zugabe! Zugabe!",
             prompt: "The concert is over and you want more. Shout it in German!",
-            tip: "Stress the first syllable: ZU-gabe.",
+            tip: "Stress the first syllable of \"Zugabe\": ZU-gabe.",
             explanation: "\"Die Zugabe\" = the encore; audiences shout it to call the performers back.",
           },
         ],
@@ -1852,10 +1853,10 @@ export const DE_B2_U26: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The audience [was] enthusiastic.",
+        en: "The audience [were] enthusiastic.",
         sentence: "Das Publikum ___ begeistert.",
         answer: "war",
-        explanation: "\"Das Publikum\" is grammatically singular, unlike English audience with a plural verb.",
+        explanation: "\"Das Publikum\" is grammatically singular, so \"war\", although British English often uses a plural verb with audience.",
       },
       {
         type: "translate",
@@ -2153,7 +2154,7 @@ export const DE_B2_U26: Lesson[] = [
       {
         heading: "Der Entschluss",
         body: [
-          "Jonas Weber, 38, worked for twelve years as a controller at a bank in Frankfurt. Good salary, company car, but every Sunday evening he felt sick. Last spring he handed in his notice (\"kündigen\") and started an apprenticeship (\"die Ausbildung\") as a carpenter (\"der Tischler\", in the south \"der Schreiner\") in a small workshop in the Taunus.",
+          "Jonas Weber, 38, worked for twelve years as a controller at a bank in Frankfurt. Good salary, company car, but every Sunday evening he felt sick. Last spring he handed in his notice (\"kündigen\") and started an apprenticeship (\"die Ausbildung\") as a carpenter (\"der Tischler\"; in the south and west, including the Taunus, people say \"der Schreiner\") in a small workshop in the Taunus.",
           "His family's reaction, in reported speech: \"Seine Mutter meinte, er sei verrückt geworden. Sein Vater fragte, wovon er denn leben wolle.\" Konjunktiv I for statements, \"ob\" or a question word for questions.",
           "Concession: \"Obwohl er gut verdiente, war er unglücklich.\" \"Trotz des hohen Gehalts kündigte er.\"",
         ],
@@ -2197,7 +2198,7 @@ export const DE_B2_U26: Lesson[] = [
           { es: "Ohne meine Ersparnisse hätte ich mir die Ausbildung nicht leisten können.", en: "Without my savings I couldn't have afforded the apprenticeship." },
           { es: "Wenn ich in der Bank geblieben wäre, wäre ich heute unglücklich.", en: "If I'd stayed at the bank, I'd be unhappy today." },
           { es: "Ich bin froh, dass ich das Risiko eingegangen bin.", en: "I'm glad I took the risk." },
-          { es: "Viele Kollegen sagen, sie hätten nicht den Mut dazu.", en: "Many colleagues say they wouldn't have the courage." },
+          { es: "Viele Kollegen sagen, sie hätten nicht den Mut dazu.", en: "Many colleagues say they don't have the courage." },
         ],
         checkpoint: [
           {
@@ -2325,9 +2326,9 @@ export const DE_B2_U26: Lesson[] = [
         type: "listen-choose",
         audio: "Viele Kollegen sagen, sie hätten nicht den Mut dazu.",
         question: "What does it mean?",
-        options: ["Many colleagues say they wouldn't have the courage.", "Many colleagues said they had no courage before.", "Many colleagues have the courage to say it.", "Many colleagues say he doesn't have the courage."],
+        options: ["Many colleagues say they don't have the courage.", "Many colleagues said they had no courage before.", "Many colleagues have the courage to say it.", "Many colleagues say he doesn't have the courage."],
         correctIndex: 0,
-        explanation: "Reported speech with \"hätten\" (Konjunktiv II replacing \"haben\"); \"den Mut dazu haben\" = to have the courage for it.",
+        explanation: "Reported speech with \"hätten\" (Konjunktiv II replacing \"haben\", which would look like the indicative); \"den Mut dazu haben\" = to have the courage for it.",
       },
       {
         type: "translate",

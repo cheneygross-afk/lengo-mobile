@@ -202,7 +202,7 @@ export const DE_C2_U03: Lesson[] = [
           { left: "die Notaufnahme", right: "A&E, emergency department" },
           { left: "der Notarzt", right: "emergency doctor" },
           { left: "die Krankenkasse", right: "statutory health insurer" },
-          { left: "die Drogerie", right: "chemist's selling no medicines" },
+          { left: "die Drogerie", right: "chemist's with no pharmacy-only medicines" },
         ],
         explanation: "Five words that orient you in the German health system.",
       },
@@ -232,13 +232,13 @@ export const DE_C2_U03: Lesson[] = [
     level: "DE-C2",
     number: 2,
     title: "Medizinisches Deutsch, Part 2 of 6",
-    summary: "Taking a medical history (Anamnese): the doctor's questions, the patient's answers, seit + present tense, and Beschwerden that are symptoms, not complaints.",
+    summary: "Take a medical history (\"die Anamnese\"): ask and answer the doctor's questions, use \"seit\" with the present tense for ongoing symptoms, and read \"Beschwerden\" as symptoms, not complaints.",
     duration: "18 min",
     sections: [
       {
         heading: "Was führt Sie zu mir? The opening questions",
         body: [
-          "The Anamnese (medical history) starts with an open question: \"Was führt Sie zu mir?\" (What brings you here?), \"Was kann ich für Sie tun?\", \"Welche Beschwerden haben Sie?\". Then come the details: \"Seit wann haben Sie die Beschwerden?\" (Since when?), \"Wo genau tut es weh?\" (Where exactly does it hurt?), \"Strahlt der Schmerz aus?\" (Does the pain spread?), \"Ist es eher dauerhaft oder kommt es in Wellen?\".",
+          "\"Die Anamnese\" (medical history) starts with an open question: \"Was führt Sie zu mir?\" (What brings you here?), \"Was kann ich für Sie tun?\", \"Welche Beschwerden haben Sie?\". Then come the details: \"Seit wann haben Sie die Beschwerden?\" (Since when?), \"Wo genau tut es weh?\" (Where exactly does it hurt?), \"Strahlt der Schmerz aus?\" (Does the pain spread?), \"Ist es eher dauerhaft oder kommt es in Wellen?\".",
           "Trap: \"die Beschwerden\" (plural) in a medical context means symptoms, complaints in the medical sense: \"Magenbeschwerden\" (stomach trouble), \"Herzbeschwerden\". In everyday life \"eine Beschwerde\" is a complaint about a service. A doctor asking \"Haben Sie Beschwerden?\" is not inviting you to complain about the waiting room.",
           "Doctors use \"Sie\" and full sentences, and often soften with particles: \"Erzählen Sie mal\", \"Wo tut es denn weh?\". The \"denn\" in questions makes them sound interested rather than interrogating.",
         ],
@@ -457,7 +457,7 @@ export const DE_C2_U03: Lesson[] = [
       {
         heading: "Stechend, brennend, drückend: what kind of pain?",
         body: [
-          "Doctors ask \"Wie würden Sie den Schmerz beschreiben?\" and expect a precise adjective. Most are present participles used as adjectives: \"stechend\" (stabbing, sharp), \"brennend\" (burning), \"drückend\" (pressing, like pressure), \"pochend\" (throbbing, pounding), \"ziehend\" (pulling, dragging, a dull ache that moves), \"krampfartig\" (cramping), \"dumpf\" (dull), \"bohrend\" (boring, drilling).",
+          "Doctors ask \"Wie würden Sie den Schmerz beschreiben?\" and expect a precise adjective. Most are present participles used as adjectives: \"stechend\" (stabbing, sharp), \"brennend\" (burning), \"drückend\" (pressing, like pressure), \"pochend\" (throbbing, pounding), \"ziehend\" (pulling, dragging: a dull ache that seems to pull along a muscle or nerve), \"krampfartig\" (cramping), \"dumpf\" (dull), \"bohrend\" (boring, drilling).",
           "Typical pairings: a migraine is \"pochend\" or \"hämmernd\", heartburn \"brennend\", angina \"drückend\" (\"ein Druck auf der Brust\"), a pulled muscle \"ziehend\", colic \"krampfartig\", appendicitis can start \"dumpf\" and become \"stechend\". These adjectives take normal endings: \"ein stechender Schmerz\", \"brennende Schmerzen\".",
           "\"Der Schmerz\" (singular) is one specific pain; \"die Schmerzen\" (plural) is the general state of being in pain: \"Ich habe starke Schmerzen.\" Both are common.",
         ],
@@ -526,7 +526,7 @@ export const DE_C2_U03: Lesson[] = [
       {
         heading: "Mir tut ... weh, ich habe ...schmerzen, the 0-10 scale",
         body: [
-          "Two ways to say what hurts. \"Mir tut der Rücken weh\" (dative of the person, body part as subject): plural body parts take a plural verb, \"Mir tun die Füße weh\". Or a compound noun: \"Ich habe Rückenschmerzen / Kopfschmerzen / Bauchschmerzen / Halsschmerzen / Ohrenschmerzen\". Not every body part makes a natural compound: say \"Mir tut das Knie weh\" or \"Ich habe Schmerzen im Knie\" (\"Knieschmerzen\" exists but is less common).",
+          "Two ways to say what hurts. \"Mir tut der Rücken weh\" (dative of the person, body part as subject): plural body parts take a plural verb, \"Mir tun die Füße weh\". Or a compound noun: \"Ich habe Rückenschmerzen / Kopfschmerzen / Bauchschmerzen / Halsschmerzen / Ohrenschmerzen\". Compounds exist for most body parts (\"Knieschmerzen\", \"Zahnschmerzen\"), but to say exactly where, use \"Schmerzen in\" + dative: \"Ich habe Schmerzen im linken Knie\", or \"Mir tut das linke Knie weh\".",
           "English speakers often write \"*Ich habe weh*\" or \"*Ich habe Schmerz im Rücken*\". \"Mein Rücken tut (mir) weh\" is correct, but the most idiomatic pattern is \"Mir tut ... weh\".",
           "The pain scale: \"Auf einer Skala von 0 bis 10, wobei 10 der stärkste vorstellbare Schmerz ist, wie stark sind die Schmerzen?\" Answers: \"Etwa eine 6\", \"Zwischen 7 und 8\". Note: numbers as nouns are feminine: \"eine 6\", \"die 10\".",
         ],
@@ -682,7 +682,7 @@ export const DE_C2_U03: Lesson[] = [
       {
         heading: "Scene 1: open questions",
         body: [
-          "Dr. Schneider: \"Guten Morgen, Herr Yılmaz, nehmen Sie Platz. Was führt Sie heute zu mir?\" Herr Yılmaz: \"Ich habe seit ungefähr zwei Wochen so ein Druckgefühl in der Brust, vor allem wenn ich mit dem Rad zur Arbeit fahre.\" Dr. Schneider: \"Erzählen Sie mal genauer. Wie fühlt sich das an?\"",
+          "Dr Schneider: \"Guten Morgen, Herr Yılmaz, nehmen Sie Platz. Was führt Sie heute zu mir?\" Herr Yılmaz: \"Ich habe seit ungefähr zwei Wochen so ein Druckgefühl in der Brust, vor allem wenn ich mit dem Rad zur Arbeit fahre.\" Dr Schneider: \"Erzählen Sie mal genauer. Wie fühlt sich das an?\"",
           "An open question (\"Was führt Sie zu mir?\", \"Erzählen Sie mal\", \"Wie fühlt sich das an?\") lets the patient describe in their own words; good doctors start this way and only then narrow down. \"Mal\" softens the imperative and makes it an invitation.",
           "Notice Herr Yılmaz's spoken features: \"so ein Druckgefühl\" (a sort of pressure), \"ungefähr\". Patients are vague; the doctor's job is to translate vagueness into precise categories.",
         ],
@@ -715,7 +715,7 @@ export const DE_C2_U03: Lesson[] = [
       {
         heading: "Scene 2: closed questions and follow-ups",
         body: [
-          "Dr. Schneider: \"Ist es eher ein Druck oder ein Stechen?\" – \"Eher ein Druck, wie ein Band um die Brust.\" – \"Strahlt das irgendwohin aus, in den Arm oder in den Kiefer?\" – \"Manchmal in den linken Arm, ja.\" – \"Und wenn Sie stehen bleiben, wie lange dauert es, bis es nachlässt?\" – \"Zwei, drei Minuten.\" – \"Hatten Sie das auch schon mal in Ruhe, zum Beispiel nachts?\" – \"Nein, nie.\"",
+          "Dr Schneider: \"Ist es eher ein Druck oder ein Stechen?\" – \"Eher ein Druck, wie ein Band um die Brust.\" – \"Strahlt das irgendwohin aus, in den Arm oder in den Kiefer?\" – \"Manchmal in den linken Arm, ja.\" – \"Und wenn Sie stehen bleiben, wie lange dauert es, bis es nachlässt?\" – \"Zwei, drei Minuten.\" – \"Hatten Sie das auch schon mal in Ruhe, zum Beispiel nachts?\" – \"Nein, nie.\"",
           "Closed questions (yes/no or either/or) narrow the picture: \"Ist es eher ... oder ...?\", \"Hatten Sie das schon mal ...?\". Follow-ups take up the patient's own words: \"Sie sagten, es kommt beim Radfahren. Auch beim Treppensteigen?\". \"Nachlassen\" (to ease off) is the standard verb for pain or symptoms getting better.",
           "Note the conversational \"zwei, drei Minuten\" (two or three minutes) and \"schon mal\" (ever, before) in questions.",
         ],
@@ -759,7 +759,7 @@ export const DE_C2_U03: Lesson[] = [
       {
         heading: "Scene 3: checking understanding and reassuring",
         body: [
-          "Dr. Schneider: \"Habe ich Sie richtig verstanden, dass der Druck nur bei Anstrengung kommt und nach ein paar Minuten Pause wieder weggeht?\" – \"Genau.\" – \"Gut. Das kann verschiedene Ursachen haben, und einiges davon ist harmlos. Ich möchte aber sichergehen, dass es nicht vom Herzen kommt. Deshalb machen wir heute ein EKG, und ich überweise Sie zum Kardiologen für ein Belastungs-EKG.\"",
+          "Dr Schneider: \"Habe ich Sie richtig verstanden, dass der Druck nur bei Anstrengung kommt und nach ein paar Minuten Pause wieder weggeht?\" – \"Genau.\" – \"Gut. Das kann verschiedene Ursachen haben, und einiges davon ist harmlos. Ich möchte aber sichergehen, dass es nicht vom Herzen kommt. Deshalb machen wir heute ein EKG, und ich überweise Sie zum Kardiologen für ein Belastungs-EKG.\"",
           "Herr Yılmaz: \"Muss ich mir Sorgen machen?\" – \"Ich verstehe, dass Sie beunruhigt sind. Wir nehmen das ernst, aber wir klären es Schritt für Schritt. Sollten die Beschwerden plötzlich in Ruhe auftreten oder stärker werden, rufen Sie bitte sofort die 112.\"",
           "Three moves: paraphrase to check (\"Habe ich Sie richtig verstanden, dass ...?\"), acknowledge the feeling (\"Ich verstehe, dass Sie beunruhigt sind\"), and give a clear safety instruction with a verb-first condition (\"Sollten die Beschwerden ...\").",
         ],
@@ -1140,7 +1140,7 @@ export const DE_C2_U03: Lesson[] = [
         body: [
           "The doctor \"verschreibt\" or, more formally, \"verordnet\" a medicine: \"Ich verschreibe Ihnen ein Antibiotikum.\" The prescription is \"das Rezept\" (a false friend: a recipe is also \"Rezept\"). Since 2024, prescriptions for statutory patients are mostly electronic (\"das E-Rezept\"): you insert your card at the pharmacy, or use an app.",
           "Paper prescriptions still exist and their colour matters: pink (\"rosa\") for statutory patients, blue (\"das blaue Rezept\", \"Privatrezept\") for private patients or for medicines the Krankenkasse doesn't cover, green (\"das grüne Rezept\") is only a recommendation for a non-prescription medicine, which you pay yourself, and yellow for strong narcotics (\"Betäubungsmittel\").",
-          "\"Verschreibungspflichtig\" = prescription-only. \"Apothekenpflichtig\" = sold only in pharmacies but without prescription. \"Rezeptfrei\" (or \"frei verkäuflich\") = available without a prescription. Statutory patients pay \"eine Zuzahlung\" (co-payment) of five to ten euros per prescribed item.",
+          "\"Verschreibungspflichtig\" = prescription-only. \"Apothekenpflichtig\" = sold only in pharmacies but without prescription. \"Rezeptfrei\" = available without a prescription (it may still be \"apothekenpflichtig\"); \"frei verkäuflich\" = on open sale, e.g. in a \"Drogerie\" or supermarket. Statutory patients pay \"eine Zuzahlung\" (co-payment) of five to ten euros per prescribed item.",
         ],
         examples: [
           { es: "Ich verschreibe Ihnen ein Antibiotikum.", en: "I'm prescribing you an antibiotic." },
@@ -1472,7 +1472,7 @@ export const DE_C2_U03: Lesson[] = [
         prompt: "Translate into everyday German.",
         source: "The rash is itchy.",
         answer: "Der Ausschlag juckt.",
-        altAnswers: ["Der Hautausschlag juckt.", "Der Ausschlag juckt stark."],
+        altAnswers: ["Der Hautausschlag juckt."],
         explanation: "\"Der Ausschlag\" (everyday) vs \"das Exanthem\" (technical).",
       },
       {
@@ -1890,7 +1890,7 @@ export const DE_C2_U03: Lesson[] = [
             prompt: "Translate into German, in report style with \"erfolgen\".",
             source: "An ultrasound of the abdomen was performed.",
             answer: "Es erfolgte eine Sonographie des Abdomens.",
-            altAnswers: ["Es erfolgte eine Sonografie des Abdomens.", "Es wurde eine Sonographie des Abdomens durchgeführt.", "Es erfolgte ein Ultraschall des Abdomens.", "Es wurde eine Sonografie des Abdomens durchgeführt."],
+            altAnswers: ["Es erfolgte eine Sonografie des Abdomens.", "Es erfolgte ein Ultraschall des Abdomens."],
             explanation: "\"Es erfolgte\" + noun: the action as an event, with \"es\" as placeholder.",
           },
           {
@@ -2532,7 +2532,7 @@ export const DE_C2_U03: Lesson[] = [
       {
         heading: "Modal particles, silence and the next steps",
         body: [
-          "Modal particles carry empathy: \"Das ist ja auch ein Schock.\" (ja = of course, understandably), \"Das ist jetzt sicher sehr viel auf einmal.\", \"Nehmen Sie sich ruhig Zeit.\" (ruhig = feel free, no hurry). They make a sentence sound like a person speaking, not a form.",
+          "Modal particles carry empathy: \"Das ist ja auch ein Schock.\" (\"ja\" = of course, understandably), \"Das ist jetzt sicher sehr viel auf einmal.\", \"Nehmen Sie sich ruhig Zeit.\" (\"ruhig\" = feel free, no hurry). They make a sentence sound like a person speaking, not a form.",
           "Be careful with particles that trivialise: \"Wir schauen uns das mal an\" sounds casual, and \"Das wird schon wieder\" is a promise you cannot keep. Better: \"Wir werden das gemeinsam genau planen.\" and \"Sie sind damit nicht allein.\"",
           "End with structure: what happens next, who to call, when you will meet again. \"Als Nächstes wird der Fall in der Tumorkonferenz besprochen. Ich melde mich am Donnerstag bei Ihnen. Sie können mich jederzeit anrufen, wenn Fragen auftauchen.\" The passive \"wird besprochen\" names the process; \"ich melde mich\" names the person responsible.",
         ],
@@ -2637,7 +2637,7 @@ export const DE_C2_U03: Lesson[] = [
           { left: "Das ist ja auch ein Schock.", right: "showing empathy" },
           { left: "Ich melde mich am Donnerstag.", right: "agreeing next steps" },
         ],
-        explanation: "The order mirrors a tactful conversation: prepare, check, inform, support, plan.",
+        explanation: "The order mirrors a tactful conversation: prepare, check what they know, support, plan.",
       },
       {
         type: "speak",
@@ -3044,7 +3044,7 @@ export const DE_C2_U03: Lesson[] = [
 
 export const DE_C2_U03_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Your father (78) has just been discharged from hospital after a pneumonia. The discharge letter (Arztbrief) is full of technical terms and abbreviations, and he now has a new medication plan, including a cortisone course that must be tapered off. Your two siblings live abroad and asked you what is going on. Write them an email in German: summarise what happened in hospital in plain language, explain the key terms, set out the medication plan clearly, mention what is still uncertain, and say what needs to happen next and who should do what.",
+  prompt: "Your father (78) has just been discharged from hospital after pneumonia. The discharge letter (\"Arztbrief\") is full of technical terms and abbreviations, and he now has a new medication plan, including a cortisone course that must be tapered off. Your two siblings live abroad and asked you what is going on. Write them an email in German: summarise what happened in hospital in plain language, explain the key terms, set out the medication plan clearly, mention what is still uncertain, and say what needs to happen next and who should do what.",
   minWords: 250,
   maxWords: 400,
   rubric: ["Translates technical terms and abbreviations into everyday German (\"Pneumonie\", that is \"Lungenentzündung\"; \"V. a.\" = \"Verdacht auf\")", "Reports what was done in the passive or nominal style (\"es wurde ... durchgeführt\", \"er wurde ... entlassen\")", "Explains dosage clearly with times of day and the tapering plan (\"ausschleichen\", \"ab der zweiten Woche nur noch\")", "Uses Konjunktiv II or cautious modal phrases for what is still uncertain (\"es könnte sein, dass\", \"das müsste eigentlich\")"],

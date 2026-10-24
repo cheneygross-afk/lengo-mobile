@@ -1096,7 +1096,7 @@ export const DE_C2_U07: Lesson[] = [
           {
             type: "speak",
             text: "Und an den Bergen hing die Nacht.",
-            tip: "Read it slowly: four stressed beats, und an den BER-gen HING die NACHT.",
+            tip: "Read it slowly, with four stressed beats: \"und an den Bergen hing die Nacht\" (und AN den BER-gen HING die NACHT).",
             explanation: "Personification: night hangs like a curtain over the mountains.",
           },
         ],
@@ -1189,7 +1189,7 @@ export const DE_C2_U07: Lesson[] = [
     slug: "c2-figurative-spiral-literature",
     level: "DE-C2",
     number: 7,
-    title: "Spiral Review: Stilmittel in Literarischen Texten",
+    title: "Spiral Review: Stilmittel in literarischen Texten",
     summary: "Analyse Eichendorff's \"Mondnacht\" and short prose by Kafka with all the figures so far: name them, explain how they work and judge their effect.",
     duration: "20 min",
     sections: [
@@ -1465,7 +1465,7 @@ export const DE_C2_U07: Lesson[] = [
         body: [
           "\"Die Beschaffenheit\" is the physical nature or condition of something: \"die Beschaffenheit des Bodens\" (the nature of the soil), \"die Beschaffenheit der Oberfläche\". It belongs to technical and scientific German.",
           "\"Die Gesinnung\" is a person's moral or political outlook, their convictions: \"eine demokratische Gesinnung\", \"seine wahre Gesinnung zeigen\". It is often critical (\"Gesinnungsprüfung\", a test of political loyalty; \"Gesinnungsethik\" vs \"Verantwortungsethik\" in Max Weber).",
-          "\"Der Hintergrund\" is background, both literal and figurative: \"vor dem Hintergrund der Krise\" (against the backdrop of the crisis), \"Menschen mit Migrationshintergrund\" (people with a migration background, the official German term), \"in den Hintergrund treten\" (to recede).",
+          "\"Der Hintergrund\" is background, both literal and figurative: \"vor dem Hintergrund der Krise\" (against the backdrop of the crisis), \"Menschen mit Migrationshintergrund\" (people with a migration background, the long-standing official term; statistics now also use \"Einwanderungsgeschichte\"), \"in den Hintergrund treten\" (to recede).",
         ],
         examples: [
           { es: "Die Beschaffenheit des Bodens ist entscheidend.", en: "The nature of the soil is crucial." },

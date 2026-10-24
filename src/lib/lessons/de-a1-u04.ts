@@ -8,14 +8,14 @@ export const DE_A1_U04: Lesson[] = [
     level: "DE-A1",
     number: 1,
     title: "The Verb Werden",
-    summary: "Conjugate werden and use it for becoming and getting: jobs, weather, age and moods.",
+    summary: "Conjugate \"werden\" and use it for becoming and getting: jobs, weather, age and moods.",
     duration: "12 min",
     sections: [
       {
         heading: "Ich werde, du wirst, er wird",
         body: [
           "\"Werden\" means to become or to get (in the sense of become: get cold, get tired). It's irregular in the du and er/sie/es forms: \"ich werde\", \"du wirst\", \"er/sie/es wird\", then regular again: \"wir werden\", \"ihr werdet\", \"sie/Sie werden\".",
-          "In the two odd forms the e becomes i, like \"sprechen\" and \"spricht\": \"du wirst\" also drops the d of the stem (not \"*du werdst\"), and \"er wird\" keeps the d but adds no -t (not \"*er werdet\").",
+          "In the two odd forms the e becomes i, like \"sprechen\" and \"spricht\": \"du wirst\" also drops the d of the stem (not \"*du werdst*\"), and \"er wird\" keeps the d but adds no -t (not \"*er werdet*\").",
           "\"Ihr werdet\" is regular: the stem \"werd-\" ends in d, so it adds -et, like \"ihr arbeitet\".",
         ],
         examples: [
@@ -32,7 +32,7 @@ export const DE_A1_U04: Lesson[] = [
             en: "It's [getting] cold.",
             sentence: "Es ___ kalt.",
             answer: "wird",
-            explanation: "The es form of \"werden\" is \"wird\": e becomes i, and no -t is added (not \"*es werdet\").",
+            explanation: "The es form of \"werden\" is \"wird\": e becomes i, and no -t is added (not \"*es werdet*\").",
           },
           {
             type: "translate",
@@ -122,7 +122,7 @@ export const DE_A1_U04: Lesson[] = [
         prompt: "Translate into German.",
         source: "You're getting nervous. (to a friend)",
         answer: "Du wirst nervös.",
-        explanation: "\"Du wirst\": no d, e becomes i. \"*Du werdst\" is a common slip.",
+        explanation: "\"Du wirst\": no d, e becomes i. \"*Du werdst*\" is a common slip.",
       },
       {
         type: "translate",
@@ -200,20 +200,20 @@ export const DE_A1_U04: Lesson[] = [
     level: "DE-A1",
     number: 2,
     title: "Wissen vs Kennen",
-    summary: "Two verbs for to know: wissen for facts and information, kennen for people, places and things you're familiar with.",
+    summary: "Choose the right verb for to know: \"wissen\" for facts and information, \"kennen\" for people, places and things you're familiar with.",
     duration: "12 min",
     sections: [
       {
         heading: "Wissen: knowing facts",
         body: [
           "\"Wissen\" is knowing a fact or a piece of information: an answer, a time, an address. It's irregular in the singular: \"ich weiß\", \"du weißt\", \"er/sie/es weiß\", then \"wir wissen\", \"ihr wisst\", \"sie/Sie wissen\".",
-          "Notice \"ich weiß\" and \"er weiß\" are identical, with no -t for er: \"*er weißt\" is wrong. This is the same pattern as the modal verbs you'll meet next.",
+          "Notice \"ich weiß\" and \"er weiß\" are identical, with no -t for er: \"*er weißt*\" is wrong. This is the same pattern as the modal verbs you'll meet next.",
           "Very common chunks: \"Ich weiß es nicht\" or just \"Ich weiß nicht\" (I don't know), \"Weißt du das?\" (Do you know that?), \"Das weiß ich\" (I know that), \"Keine Ahnung!\" (No idea!).",
         ],
         examples: [
           { es: "Ich weiß es nicht.", en: "I don't know." },
           { es: "Weißt du das?", en: "Do you know that?" },
-          { es: "Frau Becker weiß das.", en: "Mrs Becker knows that." },
+          { es: "Frau Becker weiß das.", en: "Ms Becker knows that." },
           { es: "Wir wissen es schon.", en: "We already know." },
           { es: "Das weiß ich.", en: "I know that." },
         ],
@@ -230,7 +230,7 @@ export const DE_A1_U04: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "Mrs Becker [knows] that.",
+            en: "Ms Becker [knows] that.",
             sentence: "Frau Becker ___ das.",
             answer: "weiß",
             explanation: "The er/sie form of \"wissen\" is \"weiß\", with no -t.",
@@ -241,14 +241,14 @@ export const DE_A1_U04: Lesson[] = [
         heading: "Kennen: knowing people and places",
         body: [
           "\"Kennen\" is being familiar with someone or something: a person, a city, a restaurant, a film, a song. It's completely regular: \"ich kenne\", \"du kennst\", \"er kennt\".",
-          "\"Kennst du Anna?\" (Do you know Anna?), \"Ich kenne Berlin gut\" (I know Berlin well), \"Kennen Sie das Café?\". You can't \"wissen\" a person: \"*Ich weiß Anna\" is impossible.",
+          "\"Kennst du Anna?\" (Do you know Anna?), \"Ich kenne Berlin gut\" (I know Berlin well), \"Kennen Sie das Café?\". You can't \"wissen\" a person: \"*Ich weiß Anna*\" is impossible.",
           "English know covers both meanings, so every time you want to say know, ask yourself: a fact (\"wissen\") or an acquaintance (\"kennen\")?",
         ],
         examples: [
           { es: "Kennst du Anna?", en: "Do you know Anna?" },
           { es: "Ich kenne Berlin gut.", en: "I know Berlin well." },
-          { es: "Kennen Sie das Café?", en: "Do you know the café? (polite)" },
-          { es: "Wir kennen Frau Becker nicht.", en: "We don't know Mrs Becker." },
+          { es: "Kennen Sie das Café?", en: "Do you know the café? (formal)" },
+          { es: "Wir kennen Frau Becker nicht.", en: "We don't know Ms Becker." },
           { es: "Kennt ihr das Lied?", en: "Do you know the song? (to friends)" },
         ],
         checkpoint: [
@@ -271,7 +271,7 @@ export const DE_A1_U04: Lesson[] = [
             type: "listen-choose",
             audio: "Kennen Sie das Café?",
             question: "What does it mean?",
-            options: ["Do you know the café? (polite)", "Do you know where the café is?", "Can you see the café?", "Do they know the café?"],
+            options: ["Do you know the café? (formal)", "Do you know where the café is?", "Can you see the café?", "Do they know the café?"],
             correctIndex: 0,
             explanation: "\"Kennen\" for familiarity with a place. Where it is would need \"wissen\".",
           },
@@ -280,7 +280,7 @@ export const DE_A1_U04: Lesson[] = [
       {
         heading: "Fact or familiar?",
         body: [
-          "Quick test: if the object is a person, place or work, use \"kennen\". If it's a fact, an answer, or \"das\" or \"es\" referring to information, use \"wissen\". So \"Ich kenne die Antwort\" (I know the answer) is a classic mistake: an answer is a fact, so it's \"Ich weiß die Antwort\".",
+          "Quick test: if the object is a person, place or work, use \"kennen\". If it's a fact, an answer, or \"das\" or \"es\" referring to information, use \"wissen\". With a few nouns for information, such as \"die Antwort\", both verbs are used (\"Ich weiß die Antwort\", \"Ich kenne die Antwort\"), but \"wissen\" never works with a person or a place: \"*Ich weiß Leon*\" is impossible.",
           "Questions starting with where, when, how often go with \"wissen\": \"Weißt du, wo Mia wohnt?\" (Do you know where Mia lives?). The verb goes to the end in that second part; learn it as a chunk for now.",
         ],
         examples: [
@@ -296,7 +296,8 @@ export const DE_A1_U04: Lesson[] = [
             prompt: "Translate into German.",
             source: "I know the answer.",
             answer: "Ich weiß die Antwort.",
-            explanation: "An answer is a fact: \"wissen\". \"*Ich kenne die Antwort\" is the typical slip.",
+            altAnswers: ["Ich kenne die Antwort."],
+            explanation: "An answer is information, so \"wissen\" is the natural choice; \"Ich kenne die Antwort\" is also correct. A person would need \"kennen\".",
           },
           {
             type: "translate",
@@ -330,7 +331,7 @@ export const DE_A1_U04: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "[Do you know] Mrs Schneider? (polite)",
+        en: "[Do you know] Ms Schneider? (formal)",
         sentence: "___ Frau Schneider?",
         answer: "Kennen Sie",
         explanation: "A person: \"kennen\", polite form \"Kennen Sie\".",
@@ -346,9 +347,9 @@ export const DE_A1_U04: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence is wrong?",
-        options: ["Ich kenne die Antwort.", "Ich weiß die Antwort.", "Ich kenne Leon.", "Ich weiß es nicht."],
+        options: ["Ich weiß Leon.", "Ich weiß die Antwort.", "Ich kenne Leon.", "Ich weiß es nicht."],
         correctIndex: 0,
-        explanation: "An answer is a fact, so it needs \"wissen\": \"Ich weiß die Antwort\".",
+        explanation: "A person needs \"kennen\": \"Ich kenne Leon\". \"Wissen\" is only for facts and information, like \"die Antwort\" or \"es\".",
       },
       {
         type: "translate",
@@ -394,7 +395,7 @@ export const DE_A1_U04: Lesson[] = [
     level: "DE-A1",
     number: 3,
     title: "Mögen and Möchte",
-    summary: "Say what you like with mögen and what you'd like with möchte, and order politely in a café.",
+    summary: "Say what you like with \"mögen\" and what you'd like with \"möchte\", and order politely in a café.",
     duration: "12 min",
     sections: [
       {
@@ -409,7 +410,7 @@ export const DE_A1_U04: Lesson[] = [
           { es: "Magst du Hunde?", en: "Do you like dogs?" },
           { es: "Lena mag Leipzig sehr.", en: "Lena really likes Leipzig." },
           { es: "Wir mögen Pizza.", en: "We like pizza." },
-          { es: "Mögen Sie Jazz?", en: "Do you like jazz? (polite)" },
+          { es: "Mögen Sie Jazz?", en: "Do you like jazz? (formal)" },
         ],
         checkpoint: [
           {
@@ -474,7 +475,7 @@ export const DE_A1_U04: Lesson[] = [
       {
         heading: "Mag or möchte?",
         body: [
-          "\"Ich mag Kaffee\" is a general taste: I like coffee. \"Ich möchte einen Kaffee\" is a wish right now: I'd like a coffee. Ordering with \"*Ich mag einen Kaffee, bitte\" sounds like you're telling the waiter about your taste in drinks.",
+          "\"Ich mag Kaffee\" is a general taste: I like coffee. \"Ich möchte einen Kaffee\" is a wish right now: I'd like a coffee. Ordering with \"*Ich mag einen Kaffee, bitte*\" sounds like you're telling the waiter about your taste in drinks.",
           "In shops and cafés, \"möchte\" is the safe, polite choice. \"Ich will\" (I want) exists too, but in a café it sounds pushy, like a child.",
         ],
         examples: [
@@ -516,7 +517,7 @@ export const DE_A1_U04: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Would you like a water? (polite)",
+        source: "Would you like a water? (formal)",
         answer: "Möchten Sie ein Wasser?",
         explanation: "Polite \"Möchten Sie\"; \"das Wasser\" is neuter: \"ein Wasser\".",
       },
@@ -531,7 +532,7 @@ export const DE_A1_U04: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "[Do you like] jazz, Mrs Schneider?",
+        en: "[Do you like] jazz, Ms Schneider?",
         sentence: "___ Jazz, Frau Schneider?",
         answer: "Mögen Sie",
         explanation: "Taste: \"mögen\". Polite: \"Mögen Sie\".",
@@ -587,14 +588,14 @@ export const DE_A1_U04: Lesson[] = [
     level: "DE-A1",
     number: 4,
     title: "Können + Infinitive: The Sentence Bracket",
-    summary: "Say what you can and can't do with können, send the second verb to the end of the sentence, and make polite requests.",
+    summary: "Say what you can and can't do with \"können\", send the second verb to the end of the sentence, and make polite requests.",
     duration: "14 min",
     sections: [
       {
         heading: "Ich kann, du kannst, er kann",
         body: [
           "\"Können\" (can, to be able to) is a modal verb. Modals have their own pattern in the singular: a different vowel, and no ending at all for ich and er/sie/es: \"ich kann\", \"du kannst\", \"er/sie/es kann\". The plural is regular with the umlaut: \"wir können\", \"ihr könnt\", \"sie/Sie können\".",
-          "\"*Er kannt\" is the typical slip: modals never add -t in the er form. You've already seen this no-ending pattern with \"ich weiß / er weiß\" and \"ich mag / er mag\".",
+          "\"*Er kannt*\" is the typical slip: modals never add -t in the er form. You've already seen this no-ending pattern with \"ich weiß / er weiß\" and \"ich mag / er mag\".",
           "\"Können\" can also stand alone for languages and skills: \"Ich kann Deutsch\" (I can speak German), \"Kannst du das?\" (Can you do that?).",
         ],
         examples: [
@@ -611,7 +612,7 @@ export const DE_A1_U04: Lesson[] = [
             en: "Mia [can] cook really well.",
             sentence: "Mia ___ sehr gut kochen.",
             answer: "kann",
-            explanation: "The er/sie form of a modal has no ending: \"sie kann\", never \"*sie kannt\".",
+            explanation: "The er/sie form of a modal has no ending: \"sie kann\", never \"*sie kannt*\".",
           },
           {
             type: "translate",
@@ -628,8 +629,8 @@ export const DE_A1_U04: Lesson[] = [
         heading: "The bracket: modal second, infinitive last",
         body: [
           "When a modal is used with another verb, the modal takes the normal verb slot (second place, with the ending) and the other verb goes to the very end of the sentence in its infinitive form: \"Ich kann heute nicht kommen\". Everything else sits between them, like inside a pair of brackets.",
-          "English keeps the two verbs together: I can't come today. German splits them: \"kann ... kommen\". The longer the middle, the more English speakers are tempted to put the infinitive too early: \"*Ich kann schwimmen gut\" is wrong; it's \"Ich kann gut schwimmen\".",
-          "No \"zu\" with modals: \"*Ich kann zu schwimmen\" is wrong, just as English says I can swim, not I can to swim.",
+          "English keeps the two verbs together: I can't come today. German splits them: \"kann ... kommen\". The longer the middle, the more English speakers are tempted to put the infinitive too early: \"*Ich kann schwimmen gut*\" is wrong; it's \"Ich kann gut schwimmen\".",
+          "No \"zu\" with modals: \"*Ich kann zu schwimmen*\" is wrong, just as English says I can swim, not I can to swim.",
         ],
         examples: [
           { es: "Ich kann heute nicht kommen.", en: "I can't come today." },
@@ -653,7 +654,7 @@ export const DE_A1_U04: Lesson[] = [
             prompt: "Put the words in order to say: Can you swim well?",
             words: ["Kannst", "du", "gut", "schwimmen?"],
             translation: "Can you swim well?",
-            explanation: "In a yes/no question the modal comes first, but the infinitive still goes to the end. \"*Kannst du schwimmen gut\" is wrong.",
+            explanation: "In a yes/no question the modal comes first, but the infinitive still goes to the end. \"*Kannst du schwimmen gut*\" is wrong.",
           },
           {
             type: "multiple-choice",
@@ -682,7 +683,7 @@ export const DE_A1_U04: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "Could you repeat that, please? (polite)",
+            source: "Could you repeat that, please? (formal)",
             answer: "Können Sie das bitte wiederholen?",
             altAnswers: ["Können Sie das wiederholen, bitte?", "Können Sie bitte das wiederholen?", "Bitte können Sie das wiederholen?"],
             explanation: "\"Können Sie\" first, \"wiederholen\" at the end.",
@@ -760,7 +761,7 @@ export const DE_A1_U04: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Could you speak slowly, please? (polite)",
+        source: "Could you speak slowly, please? (formal)",
         answer: "Können Sie bitte langsam sprechen?",
         altAnswers: ["Können Sie langsam sprechen, bitte?", "Können Sie bitte langsamer sprechen?"],
         explanation: "Polite request with \"Können Sie\", infinitive \"sprechen\" last.",
@@ -773,7 +774,7 @@ export const DE_A1_U04: Lesson[] = [
       {
         type: "speak",
         text: "Können Sie das bitte wiederholen?",
-        prompt: "Say it in German: Could you repeat that, please? (polite)",
+        prompt: "Say it in German: Could you repeat that, please? (formal)",
         tip: "Stress \"wiederholen\" on -ho-: wie-der-HO-len.",
         explanation: "The polite request every learner needs.",
       },
@@ -784,7 +785,7 @@ export const DE_A1_U04: Lesson[] = [
     level: "DE-A1",
     number: 5,
     title: "Müssen and Wollen",
-    summary: "Say what you have to do with müssen and what you want to do with wollen, and avoid the will and must not traps.",
+    summary: "Say what you have to do with \"müssen\" and what you want to do with \"wollen\", and avoid the will and must not traps.",
     duration: "12 min",
     sections: [
       {
@@ -975,7 +976,7 @@ export const DE_A1_U04: Lesson[] = [
     level: "DE-A1",
     number: 6,
     title: "Dürfen and Sollen",
-    summary: "Ask for and give permission with dürfen, pass on instructions and make offers with sollen, and state rules with man.",
+    summary: "Ask for and give permission with \"dürfen\", pass on instructions and make offers with \"sollen\", and state rules with \"man\".",
     duration: "14 min",
     sections: [
       {
@@ -1054,7 +1055,7 @@ export const DE_A1_U04: Lesson[] = [
           { es: "Der Arzt sagt, ich soll viel trinken.", en: "The doctor says I should drink a lot." },
           { es: "Soll ich das Fenster öffnen?", en: "Shall I open the window?" },
           { es: "Was soll ich machen?", en: "What should I do?" },
-          { es: "Du sollst Frau Becker anrufen.", en: "You're supposed to call Mrs Becker." },
+          { es: "Du sollst Frau Becker anrufen.", en: "You're supposed to call Ms Becker." },
           { es: "Sollen wir heute kochen?", en: "Shall we cook today?" },
         ],
         checkpoint: [
@@ -1143,7 +1144,7 @@ export const DE_A1_U04: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "You're supposed to call Mrs Becker. (to a friend)",
+        source: "You're supposed to call Ms Becker. (to a friend)",
         answer: "Du sollst Frau Becker anrufen.",
         explanation: "Passing on a message: \"sollen\". \"Anrufen\" stays whole at the end.",
       },
@@ -1166,7 +1167,7 @@ export const DE_A1_U04: Lesson[] = [
     level: "DE-A1",
     number: 7,
     title: "Contrast Clinic: Muss nicht or Darf nicht? Will or Werde?",
-    summary: "Minimal pairs that separate the modals English speakers mix up: muss nicht and darf nicht, will and werde, mag and möchte, kann and darf.",
+    summary: "Separate the modals English speakers mix up: \"muss nicht\" and \"darf nicht\", \"will\" and \"werde\", \"mag\" and \"möchte\", \"kann\" and \"darf\".",
     duration: "14 min",
     sections: [
       {
@@ -1198,7 +1199,7 @@ export const DE_A1_U04: Lesson[] = [
             source: "You mustn't swim here. (to a child)",
             answer: "Du darfst hier nicht schwimmen.",
             altAnswers: ["Hier darfst du nicht schwimmen."],
-            explanation: "A ban: \"nicht dürfen\". \"*Du musst hier nicht schwimmen\" means you don't have to swim.",
+            explanation: "A ban: \"nicht dürfen\". \"*Du musst hier nicht schwimmen*\" means you don't have to swim.",
           },
         ],
       },
@@ -1229,7 +1230,7 @@ export const DE_A1_U04: Lesson[] = [
             source: "I want to become a teacher.",
             answer: "Ich will Lehrer werden.",
             altAnswers: ["Ich will Lehrerin werden.", "Ich möchte Lehrer werden.", "Ich möchte Lehrerin werden."],
-            explanation: "\"Wollen\" + \"werden\" at the end. Not \"*Ich werde Lehrer\", which says it's going to happen.",
+            explanation: "\"Wollen\" + \"werden\" at the end. \"Ich werde Lehrer\" is also correct German, but it says it's going to happen, not that you want it.",
           },
         ],
       },
@@ -1272,7 +1273,7 @@ export const DE_A1_U04: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "You don't have to pay. (polite)",
+        source: "You don't have to pay. (formal)",
         answer: "Sie müssen nicht bezahlen.",
         explanation: "No obligation: \"nicht müssen\".",
       },
@@ -1280,7 +1281,7 @@ export const DE_A1_U04: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "You mustn't smoke here. (polite)",
+        source: "You mustn't smoke here. (formal)",
         answer: "Sie dürfen hier nicht rauchen.",
         altAnswers: ["Hier dürfen Sie nicht rauchen."],
         explanation: "A ban: \"nicht dürfen\".",
@@ -1360,13 +1361,13 @@ export const DE_A1_U04: Lesson[] = [
     level: "DE-A1",
     number: 8,
     title: "Real-World Mission: First Day in Berlin",
-    summary: "Get through a first day at a new job in a new city with werden, wissen, kennen and all the modal verbs, then write a short message home.",
+    summary: "Get through a first day at a new job in a new city with \"werden\", \"wissen\", \"kennen\" and all the modal verbs, then write a short message home.",
     duration: "15 min",
     sections: [
       {
         heading: "Morning: finding the office",
         body: [
-          "Mehmet moves from Köln to Berlin and starts a new job at a start-up today. He has to be there at 9: \"Ich muss um 9 Uhr da sein.\" But he doesn't know the way: \"Ich weiß nicht, wo das Büro ist.\"",
+          "Mehmet moves from Cologne to Berlin and starts a new job at a start-up today. He has to be there at 9: \"Ich muss um 9 Uhr da sein.\" But he doesn't know the way: \"Ich weiß nicht, wo das Büro ist.\"",
           "He asks a woman at the U-Bahn station, politely with \"Sie\": \"Entschuldigung, können Sie mir helfen? Kennen Sie die Torstraße?\" She answers: \"Ja, die kenne ich. Sie müssen nur geradeaus gehen.\"",
           "Notice \"kennen\" for a street (a place), \"wissen\" for where something is, \"können Sie\" for a request, and \"müssen\" for what he has to do.",
         ],
@@ -1439,7 +1440,7 @@ export const DE_A1_U04: Lesson[] = [
       {
         heading: "Evening: a message home",
         body: [
-          "Mehmet writes to his sister Ayşe in Köln: \"Hallo Ayşe! Der erste Tag ist super. Die Kollegen sind sehr nett. Ich muss viel lernen, aber ich kann das. Heute Abend will ich Berlin sehen. Kennst du ein Restaurant in Kreuzberg? Es wird schon dunkel!\"",
+          "Mehmet writes to his sister Ayşe in Cologne: \"Hallo Ayşe! Der erste Tag ist super. Die Kollegen sind sehr nett. Ich muss viel lernen, aber ich kann das. Heute Abend will ich Berlin sehen. Kennst du ein Restaurant in Kreuzberg? Es wird schon dunkel!\"",
           "A short message like this is exactly what the Goethe A1 writing test asks for. Count the verbs: \"sein\", \"müssen\", \"können\", \"wollen\", \"kennen\" and \"werden\".",
         ],
         examples: [
@@ -1540,6 +1541,7 @@ export const DE_A1_U04: Lesson[] = [
         prompt: "Put the words in order to say: You can already read the emails.",
         words: ["Du", "kannst", "schon", "die", "E-Mails", "lesen."],
         translation: "You can already read the emails.",
+        altOrders: [["Du", "kannst", "die", "E-Mails", "schon", "lesen."]],
         explanation: "\"Kannst\" second, \"lesen\" last.",
       },
       {
@@ -1561,7 +1563,7 @@ export const DE_A1_U04: Lesson[] = [
     level: "DE-A1",
     number: 9,
     title: "Core Verbs: Everyday Actions",
-    summary: "Fifteen high-frequency verbs built on patterns you know, from suchen and brauchen to vergessen and bekommen.",
+    summary: "Use fifteen high-frequency verbs built on patterns you know, from \"suchen\" and \"brauchen\" to \"vergessen\" and \"bekommen\".",
     duration: "14 min",
     sections: [
       {
@@ -1569,7 +1571,7 @@ export const DE_A1_U04: Lesson[] = [
         body: [
           "These follow the regular pattern: \"suchen\" (to look for), \"brauchen\" (to need), \"kaufen\" (to buy), \"bezahlen\" (to pay), \"holen\" (to fetch, to get), \"schicken\" (to send), \"bleiben\" (to stay), \"gehen\" (to go, on foot).",
           "\"Suchen\" already contains for: \"Ich suche die Haltestelle\" (I'm looking for the stop), no extra word. \"Bezahlen\" is to pay; \"Ich möchte bezahlen\" is how you ask for the bill.",
-          "\"Bleiben\" is to stay, in a place or a situation: \"Wir bleiben zu Hause\" (We're staying at home), \"Ich bleibe in Berlin\". It never means to leave or to remain in the sense of be left over.",
+          "\"Bleiben\" is to stay, in a place or a situation: \"Wir bleiben zu Hause\" (We're staying at home), \"Ich bleibe in Berlin\". Don't confuse it with English leave: to leave is \"gehen\" or \"fahren\".",
         ],
         examples: [
           { es: "Ich suche die Haltestelle.", en: "I'm looking for the stop." },
@@ -1619,7 +1621,7 @@ export const DE_A1_U04: Lesson[] = [
             prompt: "Translate into German.",
             source: "I'm waiting for Anna.",
             answer: "Ich warte auf Anna.",
-            explanation: "\"Warten auf\" = wait for. \"*Ich warte für Anna\" is a direct translation of English.",
+            explanation: "\"Warten auf\" = wait for. \"*Ich warte für Anna*\" is a direct translation of English.",
           },
           {
             type: "fill-blank",
@@ -1719,7 +1721,7 @@ export const DE_A1_U04: Lesson[] = [
         question: "Your colleague says she's going to be a mother. Which sentence fits?",
         options: ["Ich bekomme ein Kind.", "Ich werde ein Kind.", "Ich bekomme Mutter.", "Ich hole ein Kind."],
         correctIndex: 0,
-        explanation: "To have a baby is \"ein Kind bekommen\". \"Ich werde Mutter\" would also work, but not \"*ich werde ein Kind\".",
+        explanation: "To have a baby is \"ein Kind bekommen\". \"Ich werde Mutter\" would also work, but not \"*ich werde ein Kind*\".",
       },
       {
         type: "translate",
@@ -1775,6 +1777,6 @@ export const DE_A1_U04_WRITING: WriteExercise = {
     "A question with a modal verb, e.g. \"Kannst du...?\" or \"Möchtest du...?\" or \"Sollen wir...?\"",
     "\"kennen\" for a place, e.g. \"Kennst du das Café...?\"",
   ],
-  modelAnswer: "Hallo Jonas, am Samstag kann ich leider nicht, ich muss arbeiten. Aber am Sonntag habe ich Zeit. Ich möchte Fahrrad fahren. Kennst du das Café Rosa? Dort kann man gut frühstücken. Möchtest du auch kommen? Wir können um zehn Uhr da sein. Viele Grüße, Lena",
+  modelAnswer: "Hallo Jonas, am Samstag kann ich leider nicht, ich muss arbeiten. Aber am Sonntag habe ich Zeit. Ich möchte Fahrrad fahren. Kennst du das Café Rosa? Dort kann man gut frühstücken. Möchtest du auch kommen? Wir können um zehn Uhr da sein. Viele Grüße Lena",
   explanation: "The modal verbs (\"kann\", \"muss\", \"möchte\", \"können\") sit in second place and send the infinitive to the end (\"arbeiten\", \"fahren\", \"frühstücken\", \"kommen\", \"sein\"): the sentence bracket. \"Kennen\" is used for a place you're familiar with, \"man kann\" for what is possible in general, and the questions put the modal first.",
 };

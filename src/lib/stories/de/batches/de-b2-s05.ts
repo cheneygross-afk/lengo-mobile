@@ -40,7 +40,7 @@ export const DE_B2_S05_STORIES: Story[] = [
       },
       {
         question: `How did Melanie realise who the Krampus was?`,
-        options: [`He took off his mask.`, `Lena recognised his voice.`, `The Nikolaus told her.`, `She recognised the handwriting in the golden book and saw a grey tank top under the fur.`],
+        options: [`He took off his mask.`, `Lena recognised his voice.`, `St Nicholas told her.`, `She recognised the handwriting in the golden book and saw a grey tank top under the fur.`],
         correctIndex: 3,
         explanation: `The entries were "in einer winzigen, ordentlichen Schrift geschrieben, die aussah wie gedruckt", and under the fur "schaute am Hals ein Stück grauer Pullunder hervor."`,
       },

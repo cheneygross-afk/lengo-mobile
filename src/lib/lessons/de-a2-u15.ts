@@ -8,7 +8,7 @@ export const DE_A2_U15: Lesson[] = [
     level: "DE-A2",
     number: 1,
     title: "The Future with the Present Tense",
-    summary: "German usually talks about the future with the plain present tense plus a time word: Morgen fahre ich nach Wien.",
+    summary: "Talk about plans and the future the usual German way, with the plain present tense plus a time word: \"Morgen fahre ich nach Wien.\"",
     duration: "12 min",
     sections: [
       {
@@ -50,7 +50,7 @@ export const DE_A2_U15: Lesson[] = [
       {
         heading: "Time word first: verb second",
         body: [
-          "Time words like to sit at the start of a German sentence, and then the verb comes second, before the subject: \"Nächste Woche habe ich Urlaub\", \"Übermorgen kommt mein Bruder\". The English order (\"*Nächste Woche ich habe Urlaub\") is the classic mistake.",
+          "Time words like to sit at the start of a German sentence, and then the verb comes second, before the subject: \"Nächste Woche habe ich Urlaub\", \"Übermorgen kommt mein Bruder\". The English order (\"*Nächste Woche ich habe Urlaub*\") is the classic mistake.",
           "You can also put the time word after the verb: \"Ich habe nächste Woche Urlaub\". Both are fine; starting with the time is very common when the time is the new information.",
         ],
         examples: [
@@ -176,14 +176,14 @@ export const DE_A2_U15: Lesson[] = [
     level: "DE-A2",
     number: 2,
     title: "The Future with Werden",
-    summary: "Use werden + infinitive for resolutions, promises and predictions: Ich werde mehr Sport machen, es wird morgen regnen.",
+    summary: "Use \"werden\" + infinitive for resolutions, promises and predictions: \"Ich werde mehr Sport machen\", \"Es wird morgen regnen\".",
     duration: "14 min",
     sections: [
       {
-        heading: "Werden + infinitive at the end",
+        heading: "\"Werden\" + infinitive at the end",
         body: [
           "You know \"werden\" as to become (\"Es wird kalt\"). With an infinitive at the end it makes the future: \"Ich werde mehr Sport machen\" (I'm going to do more sport). It works just like a modal verb: \"werden\" in position 2, the infinitive last.",
-          "The forms: \"ich werde, du wirst, er/sie/es wird, wir werden, ihr werdet, sie/Sie werden\". Watch the irregular \"du wirst\" and \"er wird\" (not \"*er werdet\").",
+          "The forms: \"ich werde, du wirst, er/sie/es wird, wir werden, ihr werdet, sie/Sie werden\". Watch the irregular \"du wirst\" and \"er wird\" (not \"*er werdet*\").",
           "Since the present tense already covers most plans, \"werden\" adds something: a firm intention or resolution (New Year's resolutions are its home), a promise, or a prediction.",
         ],
         examples: [
@@ -248,7 +248,7 @@ export const DE_A2_U15: Lesson[] = [
         ],
       },
       {
-        heading: "Werden in a subordinate clause",
+        heading: "\"Werden\" in a subordinate clause",
         body: [
           "In a weil- or dass-clause \"werden\" is the conjugated verb, so it goes last, after the infinitive: \"Ich spare Geld, weil ich nächstes Jahr umziehen werde\"; \"Ich hoffe, dass es morgen nicht regnen wird\".",
           "That gives you a two-verb end cluster, just like with modals: infinitive, then \"werden\".",
@@ -314,7 +314,7 @@ export const DE_A2_U15: Lesson[] = [
         source: "You won't regret it!",
         answer: "Das wirst du nicht bereuen!",
         altAnswers: ["Du wirst es nicht bereuen!", "Das werden Sie nicht bereuen!", "Sie werden es nicht bereuen!", "Das werdet ihr nicht bereuen!"],
-        explanation: "\"Du wirst\" is irregular: the stem changes to \"wir-\" + -st (not \"*werdst\"). \"Das\" in position 1 sends \"wirst\" before \"du\".",
+        explanation: "\"Du wirst\" is irregular: the stem changes to \"wir-\" + -st (not \"*werdst*\"). \"Das\" in position 1 sends \"wirst\" before \"du\".",
       },
       {
         type: "translate",
@@ -347,7 +347,7 @@ export const DE_A2_U15: Lesson[] = [
         question: "How do you say: He's going to become a teacher. (He has the plan.)",
         options: ["Er wird Lehrer werden.", "Er wird werden Lehrer.", "Er werdet Lehrer werden.", "Er will Lehrer wird."],
         correctIndex: 0,
-        explanation: "Future \"wird\" in position 2 and the infinitive \"werden\" (become) last. \"*werdet\" is the ihr form. The shorter \"Er wird Lehrer\" (he's becoming a teacher) is also fine.",
+        explanation: "Future \"wird\" in position 2 and the infinitive \"werden\" (become) last. \"*werdet*\" is the ihr form. The shorter \"Er wird Lehrer\" (he's becoming a teacher) is also fine.",
       },
       {
         type: "word-order",
@@ -377,11 +377,11 @@ export const DE_A2_U15: Lesson[] = [
     level: "DE-A2",
     number: 3,
     title: "Contrast Clinic: Ich will or Ich werde?",
-    summary: "Ich will means I want, ich werde means I will: untangle the biggest false friend in German grammar, plus werden as become.",
+    summary: "Untangle the biggest false friend in German grammar: \"ich will\" means I want, \"ich werde\" means I will, plus \"werden\" as become.",
     duration: "12 min",
     sections: [
       {
-        heading: "Ich will = I want",
+        heading: "\"Ich will\" = I want",
         body: [
           "\"Ich will\" looks like English I will, but it comes from \"wollen\" and means I want (to): \"Ich will nach Berlin fahren\" = I want to go to Berlin. It's a wish or an intention, not a statement about the future.",
           "So \"Ich will einen Hund\" means I want a dog, not I will a dog. To say what will happen, use \"werden\" or the present: \"Ich werde nach Berlin fahren\" / \"Ich fahre nach Berlin\".",
@@ -414,7 +414,7 @@ export const DE_A2_U15: Lesson[] = [
         ],
       },
       {
-        heading: "Ich werde = I will (or I become)",
+        heading: "\"Ich werde\" = I will (or I become)",
         body: [
           "\"Werden\" + infinitive is the future: \"Ich werde morgen anrufen\" = I'll call tomorrow. On its own, without an infinitive, \"werden\" means to become or get: \"Sie wird Ärztin\" (she's becoming / going to be a doctor), \"Es wird dunkel\" (it's getting dark), \"Er wird 40\" (he's turning 40).",
           "Compare three sentences with \"Ärztin\": \"Sie will Ärztin werden\" (she wants to become a doctor), \"Sie wird Ärztin\" (she's going to be a doctor), \"Sie ist Ärztin\" (she is a doctor).",
@@ -472,7 +472,7 @@ export const DE_A2_U15: Lesson[] = [
         source: "I'll call tomorrow.",
         answer: "Ich werde morgen anrufen.",
         altAnswers: ["Ich rufe morgen an.", "Morgen rufe ich an.", "Morgen werde ich anrufen."],
-        explanation: "Will = \"werden\" + infinitive, or simply the present with \"morgen\". \"*Ich will morgen anrufen\" would mean I want to call.",
+        explanation: "Will = \"werden\" + infinitive, or simply the present with \"morgen\". \"Ich will morgen anrufen\" is correct German, but it means I want to call tomorrow.",
       },
       {
         type: "translate",
@@ -544,13 +544,13 @@ export const DE_A2_U15: Lesson[] = [
     level: "DE-A2",
     number: 4,
     title: "Time Expressions: Nächsten Montag, Montags, Bald",
-    summary: "Say when things happen: accusative time phrases with no preposition, am/im/um, montags vs am Montag, and in vs vor.",
+    summary: "Say when things happen: accusative time phrases with no preposition, \"am\", \"im\" and \"um\", \"montags\" vs \"am Montag\", and \"in\" vs \"vor\".",
     duration: "14 min",
     sections: [
       {
-        heading: "No preposition: nächsten Montag, jeden Tag",
+        heading: "No preposition: \"nächsten Montag\", \"jeden Tag\"",
         body: [
-          "Time phrases with \"nächst-\", \"letzt-\", \"jed-\", \"dies-\" take no preposition at all, and they're in the accusative: \"nächsten Montag\" (der Montag), \"nächste Woche\" (die Woche), \"nächstes Jahr\" (das Jahr), \"jeden Tag\", \"diesen Sommer\", \"letzte Woche\".",
+          "Time phrases with \"nächst-\", \"letzt-\", \"jed-\", \"dies-\" take no preposition at all, and they're in the accusative: \"nächsten Montag\" for \"der Montag\", \"nächste Woche\" for \"die Woche\", \"nächstes Jahr\" for \"das Jahr\", \"jeden Tag\", \"diesen Sommer\", \"letzte Woche\".",
           "English often adds on or in (on Monday, in the summer); German doesn't after these words: \"am nächsten Montag\" exists, but \"nächsten Montag\" is what people normally say. The masculine -en is the giveaway that it's accusative.",
         ],
         examples: [
@@ -581,7 +581,7 @@ export const DE_A2_U15: Lesson[] = [
         ],
       },
       {
-        heading: "Am, im, um and montags",
+        heading: "\"Am\", \"im\", \"um\" and \"montags\"",
         body: [
           "With a preposition: \"am\" for days and parts of the day (\"am Montag\", \"am Wochenende\", \"am Abend\"), \"im\" for months and seasons (\"im Mai\", \"im Winter\"), \"um\" for clock times (\"um acht Uhr\"), \"gegen\" for approximately (\"gegen acht\" = around eight).",
           "\"Am Montag\" is one Monday; \"montags\" (lowercase, with -s) is every Monday, a habit: \"Montags gehe ich schwimmen\". The same pattern gives \"morgens\" (in the mornings), \"abends\" (in the evenings) and \"sonntags\" (on Sundays).",
@@ -743,7 +743,7 @@ export const DE_A2_U15: Lesson[] = [
     level: "DE-A2",
     number: 5,
     title: "Common Words: Goals, Rules and Possibilities",
-    summary: "Talk about goals and plans, what's allowed, forbidden, possible and necessary, and read signs like Rauchen verboten and Eintritt frei.",
+    summary: "Talk about goals and plans, what's allowed, forbidden, possible and necessary, and read signs like \"Rauchen verboten\" and \"Eintritt frei\".",
     duration: "13 min",
     sections: [
       {
@@ -799,7 +799,7 @@ export const DE_A2_U15: Lesson[] = [
             source: "You mustn't smoke here.",
             answer: "Hier darf man nicht rauchen.",
             altAnswers: ["Man darf hier nicht rauchen.", "Hier ist Rauchen verboten.", "Rauchen ist hier verboten."],
-            explanation: "Mustn't = \"darf nicht\". \"*muss nicht\" would mean you don't have to.",
+            explanation: "Mustn't = \"darf nicht\". \"Muss nicht\" is a trap: it means you don't have to.",
           },
           {
             type: "multiple-choice",
@@ -811,7 +811,7 @@ export const DE_A2_U15: Lesson[] = [
         ],
       },
       {
-        heading: "Signs: Rauchen verboten, Eintritt frei",
+        heading: "Signs: \"Rauchen verboten\", \"Eintritt frei\"",
         body: [
           "German signs love short noun phrases: \"Rauchen verboten\" (no smoking), \"Eintritt frei\" (free admission), \"Parken nur für Kunden\" (customer parking only), \"Betreten verboten\" (keep out), \"Hunde erlaubt\".",
           "\"Die Möglichkeit, die Möglichkeiten\" (possibility, option) and \"die Pflicht, die Pflichten\" (duty) round it off: \"Es gibt zwei Möglichkeiten\", \"Das ist deine Pflicht\".",
@@ -885,7 +885,7 @@ export const DE_A2_U15: Lesson[] = [
         prompt: "Translate into German.",
         source: "You can pay by card too.",
         answer: "Man kann auch mit Karte zahlen.",
-        altAnswers: ["Man kann auch mit Karte bezahlen.", "Sie können auch mit Karte zahlen.", "Du kannst auch mit Karte zahlen."],
+        altAnswers: ["Man kann auch mit Karte bezahlen.", "Sie können auch mit Karte zahlen.", "Du kannst auch mit Karte zahlen.", "Ihr könnt auch mit Karte zahlen.", "Sie können auch mit Karte bezahlen."],
         explanation: "\"Mit Karte zahlen\" = to pay by card.",
       },
       {
@@ -936,11 +936,11 @@ export const DE_A2_U15: Lesson[] = [
     level: "DE-A2",
     number: 6,
     title: "Asking for Directions",
-    summary: "Ask strangers the way politely: Wie komme ich zum Bahnhof? Gibt es hier in der Nähe eine Apotheke? Können Sie mir sagen, wo...?",
+    summary: "Ask strangers the way politely: \"Wie komme ich zum Bahnhof?\", \"Gibt es hier in der Nähe eine Apotheke?\", \"Können Sie mir sagen, wo...?\"",
     duration: "13 min",
     sections: [
       {
-        heading: "Wie komme ich zum Bahnhof?",
+        heading: "\"Wie komme ich zum Bahnhof?\"",
         body: [
           "The standard question is \"Wie komme ich zum/zur...?\" (How do I get to...?). \"Zu\" always takes the dative, and it contracts: \"zu dem\" → \"zum\" (masculine and neuter: \"zum Bahnhof\", \"zum Rathaus\"), \"zu der\" → \"zur\" (feminine: \"zur Post\", \"zur Apotheke\").",
           "Start politely with \"Entschuldigung\" (excuse me), and use \"Sie\" with strangers. For a place name with no article, use \"nach\" for towns (\"Wie komme ich nach Potsdam?\") and \"zum\"/\"zur\" for places in town.",
@@ -1131,7 +1131,7 @@ export const DE_A2_U15: Lesson[] = [
     level: "DE-A2",
     number: 7,
     title: "Giving Directions",
-    summary: "Tell someone the way: geradeaus, links abbiegen, an der Ampel, über die Brücke, durch den Park, bis zur Kirche, gegenüber, um die Ecke.",
+    summary: "Tell someone the way: \"geradeaus\", \"links abbiegen\", \"an der Ampel\", \"über die Brücke\", \"durch den Park\", \"bis zur Kirche\", \"gegenüber\", \"um die Ecke\".",
     duration: "14 min",
     sections: [
       {
@@ -1168,7 +1168,7 @@ export const DE_A2_U15: Lesson[] = [
         ],
       },
       {
-        heading: "Landmarks: an der Ampel, über die Brücke",
+        heading: "Landmarks: \"an der Ampel\", \"über die Brücke\"",
         body: [
           "Where you turn: \"an der Ampel\" (at the traffic lights), \"an der Kreuzung\" (at the crossroads), \"an der Kirche\" (at the church): all \"an\" + dative (wo?).",
           "Which way you go: \"über die Brücke\" (over the bridge), \"über den Platz\" (across the square), \"durch den Park\" (through the park): \"über\" for movement takes the accusative, and \"durch\" always does. \"Bis zur Kirche\" / \"bis zum Marktplatz\" (as far as the church / the market square).",
@@ -1201,7 +1201,7 @@ export const DE_A2_U15: Lesson[] = [
         ],
       },
       {
-        heading: "Where it is: gegenüber, um die Ecke",
+        heading: "Where it is: \"gegenüber\", \"um die Ecke\"",
         body: [
           "To describe where the place is: \"auf der linken Seite\" (on the left), \"auf der rechten Seite\", \"gegenüber vom Bahnhof\" or \"gegenüber dem Bahnhof\" (opposite the station), \"um die Ecke\" (round the corner), \"neben der Bank\" (next to the bank), \"an der Ecke\" (on the corner).",
           "Finish with \"Sie können es nicht verfehlen\" (you can't miss it), or the more modest \"Das ist ganz einfach\".",
@@ -1326,7 +1326,7 @@ export const DE_A2_U15: Lesson[] = [
     level: "DE-A2",
     number: 8,
     title: "Build-Up: Giving Directions Step by Step",
-    summary: "Grow one-step directions into a full route with dann, bis zur and und, ending at the right place.",
+    summary: "Grow one-step directions into a full route with \"dann\", \"bis zur\" and \"und\", ending at the right place.",
     duration: "12 min",
     sections: [
       {
@@ -1488,14 +1488,14 @@ export const DE_A2_U15: Lesson[] = [
     level: "DE-A2",
     number: 9,
     title: "Real-World Mission: Lost in Cologne",
-    summary: "Get from Köln Hauptbahnhof to a friend's flat: ask passers-by, follow a message with directions, take a wrong turn and explain where you are.",
+    summary: "Get from \"Köln Hauptbahnhof\" to a friend's flat: ask passers-by, follow a message with directions, take a wrong turn and explain where you are.",
     duration: "15 min",
     sections: [
       {
-        heading: "Step 1: Asking at the Hauptbahnhof",
+        heading: "Step 1: Asking at the \"Hauptbahnhof\"",
         body: [
-          "You've just arrived at Köln Hauptbahnhof, right next to the cathedral (\"der Dom\"). Your friend Mehmet lives in the Ehrenstraße. You ask a passer-by: \"Entschuldigung, können Sie mir sagen, wie ich zur Ehrenstraße komme?\".",
-          "The answer: \"Am besten nehmen Sie die U-Bahn bis zum Rudolfplatz. Das sind nur drei Stationen. Oder Sie gehen zu Fuß, das dauert ungefähr zwanzig Minuten.\" (\"Die Station\" = stop, on the U-Bahn.)",
+          "You've just arrived at \"Köln Hauptbahnhof\", right next to the cathedral (\"der Dom\"). Your friend Mehmet lives in \"Ehrenstraße\". You ask a passer-by: \"Entschuldigung, können Sie mir sagen, wie ich zur Ehrenstraße komme?\".",
+          "The answer: \"Am besten nehmen Sie die U-Bahn bis zum Rudolfplatz. Das sind nur drei Stationen. Oder Sie gehen zu Fuß, das dauert ungefähr zwanzig Minuten.\" (\"Die Station\" = a stop on the \"U-Bahn\".)",
         ],
         examples: [
           { es: "Entschuldigung, können Sie mir sagen, wie ich zur Ehrenstraße komme?", en: "Excuse me, can you tell me how to get to \"Ehrenstraße\"?" },
@@ -1593,7 +1593,7 @@ export const DE_A2_U15: Lesson[] = [
         prompt: "Translate into German.",
         source: "It's best to take the underground to Rudolfplatz.",
         answer: "Am besten nehmen Sie die U-Bahn bis zum Rudolfplatz.",
-        altAnswers: ["Am besten nimmst du die U-Bahn bis zum Rudolfplatz.", "Am besten fahren Sie mit der U-Bahn bis zum Rudolfplatz."],
+        altAnswers: ["Am besten nimmst du die U-Bahn bis zum Rudolfplatz.", "Am besten fahren Sie mit der U-Bahn bis zum Rudolfplatz.", "Am besten fährst du mit der U-Bahn bis zum Rudolfplatz."],
         explanation: "\"Am besten\" first, verb second; \"bis zum\" + masculine.",
       },
       {
@@ -1682,7 +1682,7 @@ export const DE_A2_U15: Lesson[] = [
     level: "DE-A2",
     number: 10,
     title: "Q&A Drill: Ist das weit?",
-    summary: "Answer questions about distance, time and transport: Ist das weit? Wie lange dauert es mit dem Bus? Wo muss ich aussteigen?",
+    summary: "Answer questions about distance, time and transport: \"Ist das weit?\", \"Wie lange dauert es mit dem Bus?\", \"Wo muss ich aussteigen?\"",
     duration: "12 min",
     sections: [
       {
@@ -1706,7 +1706,7 @@ export const DE_A2_U15: Lesson[] = [
             source: "No, only five minutes on foot.",
             answer: "Nein, nur fünf Minuten zu Fuß.",
             altAnswers: ["Nein, nur fünf Minuten zu Fuß entfernt.", "Nein, es sind nur fünf Minuten zu Fuß."],
-            explanation: "On foot = \"zu Fuß\", never \"*mit dem Fuß\".",
+            explanation: "On foot = \"zu Fuß\", never \"*mit dem Fuß*\".",
           },
           {
             type: "translate",
@@ -1768,7 +1768,7 @@ export const DE_A2_U15: Lesson[] = [
         source: "About a kilometre.",
         answer: "Etwa einen Kilometer.",
         altAnswers: ["Ungefähr einen Kilometer.", "Ungefähr ein Kilometer.", "Etwa ein Kilometer."],
-        explanation: "Distances after \"es ist\" or as a short answer are often accusative: \"einen Kilometer\".",
+        explanation: "The usual short answer is accusative, \"einen Kilometer\" (as in \"Es ist einen Kilometer entfernt\"); \"ein Kilometer\" (as in \"Es ist ein Kilometer\") is also heard.",
       },
       {
         type: "translate",

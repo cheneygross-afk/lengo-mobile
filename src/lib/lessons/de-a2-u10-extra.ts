@@ -9,14 +9,14 @@ export const DE_A2_U10_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Comparisons, Part 1 of 3",
-    summary: "Comparatives with and without an umlaut in fresh sentences.",
+    summary: "Practise comparatives with \"als\", with and without an umlaut, in fresh everyday sentences.",
     duration: "10 min",
     sections: [
       {
         heading: "Recap: -er + als, sometimes with an umlaut",
         body: [
           "Every adjective forms its comparative with -er, however long: \"billiger\", \"interessanter\", \"gemütlicher\". Than is \"als\", and a person after it stays nominative: \"als ich\", \"als er\".",
-          "Many short adjectives with a, o, u add an umlaut: \"älter\", \"kälter\", \"größer\", \"jünger\", \"kürzer\", \"länger\", \"wärmer\", \"stärker\". Others don't: \"schneller\", \"lauter\", \"voller\". -el and -er stems drop an e: \"dunkler\", \"teurer\".",
+          "Many short adjectives with a, o, u add an umlaut: \"älter\", \"kälter\", \"größer\", \"jünger\", \"kürzer\", \"länger\", \"wärmer\", \"stärker\". Others don't: \"schneller\", \"lauter\", \"voller\". Stems in -el, and in -er after au or eu, drop an e: \"dunkler\", \"teurer\".",
         ],
         examples: [
           { es: "Das Café ist gemütlicher als die Bar.", en: "The café is cosier than the bar." },
@@ -78,8 +78,8 @@ export const DE_A2_U10_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "My grandma is healthier than me.",
         answer: "Meine Oma ist gesünder als ich.",
-        altAnswers: ["Meine Großmutter ist gesünder als ich."],
-        explanation: "\"Gesund\" → \"gesünder\": a two-syllable adjective that still takes an umlaut.",
+        altAnswers: ["Meine Großmutter ist gesünder als ich.", "Meine Oma ist gesunder als ich."],
+        explanation: "\"Gesund\" → \"gesünder\": a two-syllable adjective that still takes an umlaut (\"gesunder\" is allowed too, but less common).",
       },
       {
         type: "translate",
@@ -165,7 +165,7 @@ export const DE_A2_U10_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Comparisons, Part 2 of 3",
-    summary: "So ... wie and nicht so ... wie about people and places.",
+    summary: "Say that people and places are as good, big or old as each other, or not, with \"so ... wie\" and \"nicht so ... wie\".",
     duration: "10 min",
     sections: [
       {
@@ -321,7 +321,7 @@ export const DE_A2_U10_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Comparisons, Part 3 of 3",
-    summary: "Superlatives and irregular forms in short texts.",
+    summary: "Practise \"am -sten\" superlatives and the irregular forms such as \"am besten\" and \"am liebsten\" in short sentences.",
     duration: "10 min",
     sections: [
       {
@@ -436,9 +436,10 @@ export const DE_A2_U10_EXTRA: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: It's nicest at home when it rains.",
+        prompt: "Put the words in order to say: When it rains, home is the nicest place to be.",
         words: ["Bei", "Regen", "ist", "es", "zu", "Hause", "am", "schönsten."],
         translation: "When it rains, home is the nicest place to be.",
+        altOrders: [["Zu", "Hause", "ist", "es", "bei", "Regen", "am", "schönsten."]],
         explanation: "\"Am schönsten\" at the end of the clause.",
       },
       {
@@ -446,7 +447,7 @@ export const DE_A2_U10_EXTRA: Lesson[] = [
         question: "How do you say: It's hottest in July?",
         options: ["Im Juli ist es am heißesten.", "Im Juli ist es am heißsten.", "Im Juli ist es am heißten.", "Im Juli ist es am heißenste."],
         correctIndex: 0,
-        explanation: "After ß, add -esten: \"am heißesten\". \"Groß\" (am größten) is the one exception.",
+        explanation: "After ß, add -esten: \"am heißesten\". \"Groß\" → \"am größten\" is the one exception.",
       },
       {
         type: "listen-choose",
@@ -475,7 +476,7 @@ export const DE_A2_U10_EXTRA: Lesson[] = [
     number: 4,
     optional: true,
     title: "Extra Practice: Contrast Clinic: Mehr or Mehrere?",
-    summary: "Mehr (more) vs mehrere (several), and weniger (less, fewer).",
+    summary: "Tell \"mehr\" (more) from \"mehrere\" (several), and use \"weniger\" (less, fewer).",
     duration: "10 min",
     sections: [
       {
@@ -785,7 +786,7 @@ export const DE_A2_U10_EXTRA: Lesson[] = [
     number: 6,
     optional: true,
     title: "Extra Practice: Build-Up: The Best, the Longest, the Highest",
-    summary: "Build facts about Germany with comparatives and superlatives: Die Zugspitze ist am höchsten.",
+    summary: "Build facts about Germany step by step with comparatives and superlatives: \"Die Zugspitze ist am höchsten.\"",
     duration: "10 min",
     sections: [
       {
@@ -876,7 +877,7 @@ export const DE_A2_U10_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Bavaria is bigger than Hesse.",
         answer: "Bayern ist größer als Hessen.",
-        explanation: "German names of the states: Bayern, Hessen.",
+        explanation: "Use the German names of the states: \"Bayern\", \"Hessen\". Most state names are neuter and take no article.",
       },
       {
         type: "translate",
@@ -948,7 +949,7 @@ export const DE_A2_U10_EXTRA: Lesson[] = [
     number: 7,
     optional: true,
     title: "Extra Practice: Speed Round: Comparisons Mixed",
-    summary: "Rapid comparative and superlative forms, regular and irregular.",
+    summary: "Produce comparative and superlative forms quickly, regular and irregular.",
     duration: "8 min",
     sections: [
       {
@@ -1112,7 +1113,7 @@ export const DE_A2_U10_EXTRA: Lesson[] = [
     number: 8,
     optional: true,
     title: "Extra Practice: Fix the Paragraph: Comparisons Gone Wrong",
-    summary: "Correct the comparisons in a travel forum post.",
+    summary: "Correct the comparison mistakes in a travel forum post and say why each one is wrong.",
     duration: "10 min",
     sections: [
       {

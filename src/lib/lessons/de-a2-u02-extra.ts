@@ -9,14 +9,14 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
     optional: true,
     number: 1,
     title: "Extra Practice: The Perfekt with Haben, Part 1 of 3",
-    summary: "Fresh sentences with regular participles in every person, positive and negative.",
+    summary: "Use regular participles in every person, in fresh positive and negative sentences.",
     duration: "10 min",
     sections: [
       {
         heading: "Recap: haben + ge-...-(e)t",
         body: [
           "Regular participles: ge- + stem + -t (\"gekauft\", \"gespielt\"), or -et after -t, -d and consonant + m/n (\"gearbeitet\", \"geredet\", \"geöffnet\"). \"Haben\" changes for the person and sits in position 2; the participle never changes and goes last.",
-          "Negation: \"nicht\" right before the participle (or the phrase that goes with it); \"kein\" for ein or no article.",
+          "Negation: \"nicht\" right before the participle (or the phrase that goes with it); \"kein\" for \"ein\" or no article.",
         ],
         examples: [
           { es: "Du hast den Tisch gedeckt.", en: "You set the table." },
@@ -141,15 +141,15 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which is correct for: She didn't need a car.",
-        options: ["Sie hat kein Auto gebraucht.", "Sie hat nicht ein Auto gebraucht.", "Sie hat kein Auto gebrauchtet.", "Sie hat gebraucht kein Auto."],
+        options: ["Sie hat kein Auto gebraucht.", "Sie hat keinen Auto gebraucht.", "Sie hat kein Auto gebrauchtet.", "Sie hat gebraucht kein Auto."],
         correctIndex: 0,
-        explanation: "\"Kein Auto\" + \"gebraucht\" at the end.",
+        explanation: "\"Das Auto\" is neuter, so \"kein Auto\" with no ending (not \"*keinen*\"); \"gebraucht\" takes plain -t and goes at the end.",
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Did you already ask your sister?",
+        prompt: "Put the words in order to say: Have you already asked your sister? (to a friend)",
         words: ["Hast", "du", "deine", "Schwester", "schon", "gefragt?"],
-        translation: "Did you already ask your sister?",
+        translation: "Have you already asked your sister?",
         altOrders: [["Hast", "du", "schon", "deine", "Schwester", "gefragt?"]],
         explanation: "Auxiliary first, participle last.",
       },
@@ -172,7 +172,7 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
     optional: true,
     number: 2,
     title: "Extra Practice: The Perfekt with Haben, Part 2 of 3",
-    summary: "Questions and answers mixing regular and strong participles.",
+    summary: "Ask and answer Perfekt questions, mixing regular and strong participles.",
     duration: "10 min",
     sections: [
       {
@@ -199,7 +199,7 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Answer in German: Habt ihr mit dem Vermieter gesprochen? (Yes, we asked him yesterday.)",
+            prompt: "Answer in German: \"Habt ihr mit dem Vermieter gesprochen?\" (Yes, we asked him yesterday.)",
             source: "Yes, we asked him yesterday.",
             answer: "Ja, wir haben ihn gestern gefragt.",
             altAnswers: ["Ja, gestern haben wir ihn gefragt."],
@@ -220,7 +220,7 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Answer in German: Hast du gut geschlafen? (No, I only slept four hours.)",
+        prompt: "Answer in German: \"Hast du gut geschlafen?\" (No, I only slept four hours.)",
         source: "No, I only slept four hours.",
         answer: "Nein, ich habe nur vier Stunden geschlafen.",
         explanation: "\"Hast du\" → \"ich habe\"; \"nur vier Stunden\" inside the bracket.",
@@ -253,7 +253,7 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Answer in German: Habt ihr den Film gesehen? (No, we haven't seen it yet.)",
+        prompt: "Answer in German: \"Habt ihr den Film gesehen?\" (No, we haven't seen it yet.)",
         source: "No, we haven't seen it yet.",
         answer: "Nein, wir haben ihn noch nicht gesehen.",
         explanation: "\"Den Film\" → \"ihn\"; \"noch nicht\" before \"gesehen\".",
@@ -296,7 +296,7 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Hast du die Zeitung gelesen? Which answer is correct?",
+        question: "A friend asks: \"Hast du die Zeitung gelesen?\" Which answer is correct? (Yes, I've read it.)",
         options: ["Ja, ich habe sie gelesen.", "Ja, ich habe sie geleset.", "Ja, du hast sie gelesen.", "Ja, ich habe gelesen sie."],
         correctIndex: 0,
         explanation: "\"Die Zeitung\" → \"sie\"; \"gelesen\" is strong.",
@@ -330,7 +330,7 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
     optional: true,
     number: 3,
     title: "Extra Practice: The Perfekt with Haben, Part 3 of 3",
-    summary: "The hardest forms (gegessen, gewusst, gebracht, verstanden, bekommen) in short texts.",
+    summary: "Get the hardest forms right in short texts: \"gegessen\", \"gewusst\", \"gebracht\", \"verstanden\", \"bekommen\".",
     duration: "11 min",
     sections: [
       {
@@ -491,7 +491,7 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
     optional: true,
     number: 4,
     title: "Extra Practice: Timeline Builder: What Happened First?",
-    summary: "Put events in order and narrate them in the Perfekt with zuerst and dann.",
+    summary: "Put events in order and narrate them in the Perfekt with \"zuerst\" and \"dann\".",
     duration: "10 min",
     sections: [
       {
@@ -809,7 +809,7 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
     optional: true,
     number: 6,
     title: "Extra Practice: Timeline Drill: Yesterday, Hour by Hour",
-    summary: "Narrate a whole day hour by hour: Um 8 Uhr habe ich Kaffee getrunken...",
+    summary: "Narrate a whole day hour by hour: \"Um 8 Uhr habe ich Kaffee getrunken...\"",
     duration: "10 min",
     sections: [
       {
@@ -939,6 +939,7 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: At eleven I read for a bit.",
         words: ["Um", "elf", "habe", "ich", "ein", "bisschen", "gelesen."],
         translation: "At eleven I read for a bit.",
+        altOrders: [["Ich", "habe", "um", "elf", "ein", "bisschen", "gelesen."]],
         explanation: "\"Ein bisschen\" inside the bracket, \"gelesen\" at the end.",
       },
       {
@@ -1089,7 +1090,7 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your friend asks: Was hast du am Samstag gemacht? Which answer is correct?",
+        question: "Your friend asks: \"Was hast du am Samstag gemacht?\" Which answer is correct?",
         options: ["Ich habe bis zehn geschlafen und dann gelesen.", "Ich schlafe bis zehn und lese dann.", "Ich habe bis zehn geschlaft und dann geleset.", "Ich habe geschlafen bis zehn."],
         correctIndex: 0,
         explanation: "Perfekt with the right strong participles, each at the end.",
@@ -1124,7 +1125,7 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
     optional: true,
     number: 8,
     title: "Extra Practice: Chain Transformations: Change the Person",
-    summary: "Run one Perfekt sentence through every person: ich habe ... → du hast ... → sie haben ...",
+    summary: "Run one Perfekt sentence through every person: \"ich habe ...\" → \"du hast ...\" → \"sie haben ...\"",
     duration: "10 min",
     sections: [
       {
@@ -1156,7 +1157,7 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
             prompt: "Translate into German.",
             source: "You forgot your key. (to friends)",
             answer: "Ihr habt euren Schlüssel vergessen.",
-            explanation: "\"Ihr habt\" and \"euren\" (euer loses its e before an ending).",
+            explanation: "\"Ihr habt\" and \"euren\" (\"euer\" loses its e before an ending).",
           },
         ],
       },
@@ -1230,7 +1231,7 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Did you understand the question? (polite)",
+        source: "Did you understand the question? (formal)",
         answer: "Haben Sie die Frage verstanden?",
         explanation: "Polite \"Sie\" + \"haben\"; \"verstanden\".",
       },
@@ -1244,7 +1245,7 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "My parents lent us a car. Which completes: Meine Eltern ___ uns ein Auto geliehen.",
+        question: "My parents lent us a car. Which completes: \"Meine Eltern ___ uns ein Auto geliehen.\"",
         options: ["haben", "hat", "habt", "hast"],
         correctIndex: 0,
         explanation: "\"Meine Eltern\" = they: \"haben\".",
@@ -1285,7 +1286,7 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
         heading: "Recap and story",
         body: [
           "Ayşe tells her friend what happened on Monday. Before you fill the gaps, decide for each verb: regular (-t), strong (-en), mixed, or no ge-?",
-          "\"Am Montag habe ich im Zug ein Buch gelesen. Dann habe ich mein Handy auf den Sitz gelegt. In Köln habe ich meine Tasche genommen, aber das Handy habe ich vergessen! Zu Hause habe ich es überall gesucht und nicht gefunden. Dann habe ich bei der Bahn angerufen. Eine nette Frau hat mir geholfen. Sie hat gesagt: Wir haben es gefunden! Am nächsten Tag habe ich es im Fundbüro bekommen.\"",
+          "\"Am Montag habe ich im Zug ein Buch gelesen. Dann habe ich mein Handy auf den Sitz gelegt. In Köln habe ich meine Tasche genommen, aber das Handy habe ich vergessen! Zu Hause habe ich es überall gesucht und nicht gefunden. Dann habe ich bei der Bahn angerufen. Eine nette Frau hat mir geholfen. Sie hat gesagt: „Wir haben es gefunden!“ Am nächsten Tag habe ich es im Fundbüro bekommen.\"",
         ],
         examples: [
           { es: "Ich habe mein Handy auf den Sitz gelegt.", en: "I put my phone on the seat." },
@@ -1400,7 +1401,7 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "I phoned the railway. Which fits: Ich habe die Bahn ___.",
+        question: "I phoned the railway. Which fits: \"Ich habe die Bahn ___.\"",
         options: ["angerufen", "geanruft", "anrufen", "angeruft"],
         correctIndex: 0,
         explanation: "\"Anrufen\" → \"angerufen\": strong (-en), with ge- between the separable prefix an- and the stem, so not \"*geanruft*\" or \"*angeruft*\".",
@@ -1434,7 +1435,7 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
     optional: true,
     number: 10,
     title: "Extra Practice: Speed Round: 12 Participles, No Hints",
-    summary: "Twelve rapid-fire sentences with strong, mixed and ge-less participles.",
+    summary: "Produce strong, mixed and ge-less participles at speed in twelve rapid-fire sentences.",
     duration: "9 min",
     sections: [
       {

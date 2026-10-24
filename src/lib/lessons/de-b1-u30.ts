@@ -8,7 +8,7 @@ export const DE_B1_U30: Lesson[] = [
     level: "DE-B1",
     number: 1,
     title: "Survival: Paperwork and Offices",
-    summary: "Deal with the Bürgeramt and the Ausländerbehörde: make an appointment, register, fill in forms and understand the passive with modals (Das Formular muss unterschrieben werden).",
+    summary: "Deal with the \"Bürgeramt\" and the \"Ausländerbehörde\": make an appointment, register, fill in forms and understand official instructions in the passive with modals (\"Das Formular muss unterschrieben werden\").",
     duration: "15 min",
     sections: [
       {
@@ -50,7 +50,7 @@ export const DE_B1_U30: Lesson[] = [
         body: [
           "Official instructions use the passive with modals: \"Das Formular muss vollständig ausgefüllt werden\" (the form must be filled in completely), \"Der Antrag kann online gestellt werden\", \"Hier darf nicht geraucht werden.\"",
           "Structure: modal in position 2, participle + \"werden\" at the end. In a subordinate clause the modal goes last: \"..., dass das Formular unterschrieben werden muss.\"",
-          "Form fields: \"Name\", \"Vorname\" (first name), \"Geburtsdatum\", \"Geburtsort\", \"Staatsangehörigkeit\" (nationality), \"Familienstand\" (marital status: ledig, verheiratet, geschieden), \"Anschrift\" (address).",
+          "Form fields: \"Name\", \"Vorname\" (first name), \"Geburtsdatum\", \"Geburtsort\", \"Staatsangehörigkeit\" (nationality), \"Familienstand\" (marital status: \"ledig\", \"verheiratet\", \"geschieden\"), \"Anschrift\" (address).",
         ],
         examples: [
           { es: "Das Formular muss vollständig ausgefüllt werden.", en: "The form must be filled in completely." },
@@ -160,7 +160,7 @@ export const DE_B1_U30: Lesson[] = [
         question: "On a form: \"Familienstand\". What do they want to know?",
         options: ["Your marital status", "Your family's address", "How many children you have", "Your parents' names"],
         correctIndex: 0,
-        explanation: "\"Der Familienstand\": ledig, verheiratet, geschieden, verwitwet.",
+        explanation: "\"Der Familienstand\": \"ledig\" (single), \"verheiratet\" (married), \"geschieden\" (divorced), \"verwitwet\" (widowed).",
       },
       {
         type: "translate",
@@ -205,7 +205,7 @@ export const DE_B1_U30: Lesson[] = [
     level: "DE-B1",
     number: 2,
     title: "Survival: Complaining Politely",
-    summary: "Make a complaint without being rude: Ich möchte mich über ... beschweren; Leider...; Ich hätte erwartet, dass...; Könnten Sie bitte...?; react to an apology; write a formal complaint email.",
+    summary: "Make a complaint firmly but without being rude (\"Ich möchte mich über ... beschweren\", \"Leider...\", \"Ich hätte erwartet, dass...\", \"Könnten Sie bitte...?\"), ask for a solution and react to an apology.",
     duration: "15 min",
     sections: [
       {
@@ -456,14 +456,14 @@ export const DE_B1_U30: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "First you should talk to your boss. (polite)",
+            source: "First you should talk to your boss. (formal)",
             answer: "Zuerst sollten Sie mit Ihrem Chef sprechen.",
             altAnswers: ["Zuerst sollten Sie mit Ihrem Chef reden.", "Zuerst sollten Sie mit Ihrer Chefin sprechen.", "Sie sollten zuerst mit Ihrem Chef sprechen."],
             explanation: "\"Zuerst\" + verb second; \"sollten\" for advice.",
           },
           {
             type: "multiple-choice",
-            question: "Which is the correct advice?",
+            question: "Which is right for: You could try to work less?",
             options: ["Sie könnten versuchen, weniger zu arbeiten.", "Sie könnten versuchen, weniger arbeiten.", "Sie könnten versuchen zu weniger arbeiten.", "Sie könnten versuchen, zu arbeiten weniger."],
             correctIndex: 0,
             explanation: "\"Versuchen\" + zu-infinitive at the end; no \"zu\" after \"könnten\".",
@@ -522,7 +522,7 @@ export const DE_B1_U30: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "If I were you, I'd introduce fixed finishing times. (polite)",
+        source: "If I were you, I'd introduce fixed finishing times. (formal)",
         answer: "An Ihrer Stelle würde ich feste Feierabendzeiten einführen.",
         altAnswers: ["Wenn ich Sie wäre, würde ich feste Feierabendzeiten einführen.", "An Ihrer Stelle würde ich feste Arbeitszeiten einführen."],
         explanation: "\"An Ihrer Stelle\" for Sie; \"einführen\" = to introduce.",
@@ -594,7 +594,7 @@ export const DE_B1_U30: Lesson[] = [
     level: "DE-B1",
     number: 4,
     title: "Survival: Returning and Exchanging",
-    summary: "Exchange or return goods: umtauschen, zurückgeben, der Kassenbon, die Garantie, the Widerrufsrecht for online orders, and Ich hätte gern mein Geld zurück.",
+    summary: "Exchange or return goods in a shop (\"umtauschen\", \"zurückgeben\", \"der Kassenbon\"), report a fault under guarantee, send back an online order using the \"Widerrufsrecht\" and ask for your money back.",
     duration: "14 min",
     sections: [
       {
@@ -700,7 +700,7 @@ export const DE_B1_U30: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Have you still got the receipt? (polite)",
+        source: "Have you still got the receipt? (formal)",
         answer: "Haben Sie noch den Kassenbon?",
         altAnswers: ["Haben Sie den Kassenbon noch?", "Haben Sie noch die Quittung?", "Haben Sie die Quittung noch?"],
         explanation: "\"Der Kassenbon\" or \"die Quittung\" = receipt.",
@@ -781,7 +781,7 @@ export const DE_B1_U30: Lesson[] = [
     level: "DE-B1",
     number: 5,
     title: "Themed Review: Beating Shyness",
-    summary: "Read about overcoming shyness at a new job, with Angst haben vor, sich trauen, zu-infinitives and advice.",
+    summary: "Read about overcoming shyness at a new job and talk about fears and courage with \"Angst haben vor\", \"sich trauen\", zu-infinitives and advice.",
     duration: "14 min",
     sections: [
       {
@@ -843,8 +843,8 @@ export const DE_B1_U30: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "\"Selbstbewusst\" means:",
-            options: ["Self-confident", "Self-conscious", "Selfish", "Self-employed"],
+            question: "\"Mia ist sehr selbstbewusst.\" What does it mean?",
+            options: ["Mia is very self-confident.", "Mia is very self-conscious.", "Mia is very selfish.", "Mia is self-employed."],
             correctIndex: 0,
             explanation: "A false friend: \"selbstbewusst\" = self-confident. Self-conscious is \"unsicher\" or \"gehemmt\".",
           },
@@ -869,7 +869,7 @@ export const DE_B1_U30: Lesson[] = [
             source: "You don't have to be perfect.",
             answer: "Man muss nicht perfekt sein.",
             altAnswers: ["Du musst nicht perfekt sein.", "Sie müssen nicht perfekt sein.", "Ihr müsst nicht perfekt sein."],
-            explanation: "Don't have to = \"nicht müssen\" (not \"*nicht dürfen\", which means mustn't).",
+            explanation: "Don't have to = \"nicht müssen\" (not \"nicht dürfen\", which means mustn't).",
           },
           {
             type: "listen-choose",
@@ -974,7 +974,7 @@ export const DE_B1_U30: Lesson[] = [
     level: "DE-B1",
     number: 6,
     title: "Fill the Story: How Brezeln Are Made",
-    summary: "A bakery tour in gaps that need the passive in the present, the Präteritum and with modals, and zuerst / danach / zum Schluss.",
+    summary: "Fill the gaps in a bakery tour with the passive (present, Präteritum and with modals) and describe a process step by step with \"zuerst\", \"danach\" and \"zum Schluss\".",
     duration: "13 min",
     sections: [
       {
@@ -1114,6 +1114,7 @@ export const DE_B1_U30: Lesson[] = [
         prompt: "Translate into German.",
         source: "They're baked at 220 degrees.",
         answer: "Sie werden bei 220 Grad gebacken.",
+        altAnswers: ["Sie werden bei zweihundertzwanzig Grad gebacken.", "Die Brezeln werden bei 220 Grad gebacken."],
         explanation: "At a temperature = \"bei\"; participle \"gebacken\".",
       },
       {
@@ -1165,7 +1166,7 @@ export const DE_B1_U30: Lesson[] = [
     level: "DE-B1",
     number: 7,
     title: "Mixed Practice: Travel Plans",
-    summary: "Plan a train trip across Germany: indirect questions, wenn / falls, damit, the Deutschlandticket vs the ICE, connections and delays.",
+    summary: "Plan a train trip across Germany (the \"Deutschlandticket\" or the ICE, connections, delays) with indirect questions, \"wenn\" / \"falls\" and \"damit\".",
     duration: "14 min",
     sections: [
       {
@@ -1357,7 +1358,7 @@ export const DE_B1_U30: Lesson[] = [
     level: "DE-B1",
     number: 8,
     title: "Survival: Breakdowns at Home",
-    summary: "Report a leak or a broken appliance to the Hausmeister or a Handwerker: Die Spülmaschine ist kaputt; Der Wasserhahn tropft; Wann könnte jemand vorbeikommen?; Das muss sofort repariert werden.",
+    summary: "Report a leak or a broken appliance to the \"Hausmeister\" or a \"Handwerker\" (\"Der Wasserhahn tropft\"), ask when someone can come and make the urgency clear (\"Das muss sofort repariert werden\").",
     duration: "14 min",
     sections: [
       {
@@ -1550,7 +1551,7 @@ export const DE_B1_U30: Lesson[] = [
     level: "DE-B1",
     number: 9,
     title: "Themed Review: Teaching and Learning",
-    summary: "Read about the German school system and the Ausbildung, with relative clauses, the passive and the genitive.",
+    summary: "Read about and explain the German school system and the \"Ausbildung\", using relative clauses, the passive and the genitive.",
     duration: "15 min",
     sections: [
       {
@@ -1589,7 +1590,7 @@ export const DE_B1_U30: Lesson[] = [
       {
         heading: "The Ausbildung",
         body: [
-          "About half of young Germans don't go to university but do \"eine Ausbildung\" (vocational training): the \"duale System\" combines work in a company (\"der Betrieb\") with lessons at \"die Berufsschule\". An apprentice is \"der / die Auszubildende\" (\"Azubi\" for short), a nominalised adjective.",
+          "About half of young Germans don't go to university but do \"eine Ausbildung\" (vocational training): \"das duale System\" combines work in a company (\"der Betrieb\") with lessons at \"die Berufsschule\". An apprentice is \"der / die Auszubildende\" (\"Azubi\" for short), a nominalised adjective.",
           "The genitive is common in written descriptions: \"die Dauer der Ausbildung\" (the length of the training), \"die Hälfte der Schüler\" (half of the pupils), \"wegen des Fachkräftemangels\" (because of the skills shortage).",
         ],
         examples: [
@@ -1696,7 +1697,7 @@ export const DE_B1_U30: Lesson[] = [
         question: "What is an \"Azubi\"?",
         options: ["An apprentice", "A university student", "A primary school teacher", "A school inspector"],
         correctIndex: 0,
-        explanation: "\"Azubi\" = \"Auszubildende(r)\", someone doing an Ausbildung.",
+        explanation: "\"Azubi\" = \"Auszubildende(r)\", someone doing an \"Ausbildung\".",
       },
       {
         type: "translate",
@@ -1801,7 +1802,7 @@ export const DE_B1_U30: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is correct?",
+            question: "Which is right for: It's raining, but we're still going jogging?",
             options: ["Es regnet, trotzdem gehen wir joggen.", "Es regnet, trotzdem wir gehen joggen.", "Es regnet, obwohl gehen wir joggen.", "Trotzdem es regnet, gehen wir joggen."],
             correctIndex: 0,
             explanation: "\"Trotzdem\" is an adverb: verb next.",
@@ -1904,7 +1905,7 @@ export const DE_B1_U30: Lesson[] = [
         question: "Which is right for: Is there a possibility?",
         options: ["Gibt es eine Möglichkeit?", "Gibt es einen Möglichkeit?", "Gibt es ein Möglichkeit?", "Gibt es einer Möglichkeit?"],
         correctIndex: 0,
-        explanation: "-keit nouns are always feminine: \"eine Möglichkeit\" (accusative after \"es gibt\"). Likewise -ling is masculine (\"der Lehrling\"), -chen and -ment neuter (\"das Mädchen\", \"das Dokument\").",
+        explanation: "Nouns in \"-keit\" are always feminine: \"eine Möglichkeit\" (accusative after \"es gibt\"). Likewise \"-ling\" is masculine (\"der Lehrling\"), \"-chen\" neuter (\"das Mädchen\") and \"-ment\" usually neuter (\"das Dokument\", but \"der Moment\").",
       },
       {
         type: "word-order",
@@ -1940,14 +1941,14 @@ export const DE_B1_U30: Lesson[] = [
     level: "DE-B1",
     number: 11,
     title: "Survival: The Job Interview",
-    summary: "Das Vorstellungsgespräch: introduce yourself, talk about your Lebenslauf in the Perfekt and Präteritum, strengths and weaknesses, wishes with the Konjunktiv II, and your own questions.",
+    summary: "Get through a job interview (\"das Vorstellungsgespräch\"): present your CV (\"Lebenslauf\") in the Perfekt and Präteritum, talk about strengths and weaknesses, state wishes with the Konjunktiv II and ask your own questions.",
     duration: "15 min",
     sections: [
       {
         heading: "Introducing yourself and your CV",
         body: [
           "A German job interview (\"das Vorstellungsgespräch\") usually starts with \"Erzählen Sie doch mal etwas über sich\" (tell us a bit about yourself). Walk through your \"Lebenslauf\" (CV) chronologically, mixing Perfekt and Präteritum: \"Ich habe in Köln Betriebswirtschaft studiert. Danach war ich drei Jahre bei einer Bank tätig.\"",
-          "Useful phrases: \"Ich habe ... Jahre Erfahrung in...\", \"Zuletzt war ich als ... tätig\" (most recently I worked as), \"Ich bin für ... zuständig\" (I'm responsible for), \"Ich habe mich auf ... spezialisiert.\" The interview is always in Sie.",
+          "Useful phrases: \"Ich habe ... Jahre Erfahrung in...\", \"Zuletzt war ich als ... tätig\" (most recently I worked as), \"Ich bin für ... zuständig\" (I'm responsible for), \"Ich habe mich auf ... spezialisiert.\" The interview is almost always in \"Sie\" (some start-ups use \"du\": follow the interviewer).",
         ],
         examples: [
           { es: "Erzählen Sie doch mal etwas über sich.", en: "Tell us a bit about yourself." },
@@ -2132,7 +2133,7 @@ export const DE_B1_U30: Lesson[] = [
     level: "DE-B1",
     number: 12,
     title: "Mixed Practice: Relatives and Prepositions",
-    summary: "Relative clauses with prepositions and prepositional verbs in work texts: die Stelle, um die ich mich beworben habe; der Kollege, mit dem ich arbeite; alles, worauf ich mich freue.",
+    summary: "Build relative clauses with prepositions and wo-compounds in work texts (\"die Stelle, um die ich mich beworben habe\"; \"alles, worauf ich mich freue\").",
     duration: "15 min",
     sections: [
       {
@@ -2280,7 +2281,7 @@ export const DE_B1_U30: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The appointment we were waiting [for] is finally confirmed.",
+        en: "The appointment [that] we were waiting [for] is finally confirmed.",
         sentence: "Der Termin, ___ wir gewartet haben, ist endlich bestätigt.",
         answer: "auf den",
         explanation: "\"Warten auf\" + accusative; \"der Termin\" → \"auf den\".",
@@ -2335,7 +2336,7 @@ export const DE_B1_U30: Lesson[] = [
     level: "DE-B1",
     number: 13,
     title: "Survival: Hiring a Car and the Petrol Station",
-    summary: "Hire a car (die Vollkasko, der Führerschein), fill up with Super or Diesel, understand the Umweltzone, and get help after a Panne from the ADAC, with polite requests and conditions.",
+    summary: "Hire a car (\"die Vollkasko\", \"der Führerschein\"), fill up with \"Super\" or \"Diesel\", understand the \"Umweltzone\" and get help after a breakdown (\"eine Panne\"), with polite requests and conditions.",
     duration: "15 min",
     sections: [
       {
@@ -2373,7 +2374,7 @@ export const DE_B1_U30: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "\"Die Vollkasko\" is:",
+            question: "At the hire desk you're offered \"die Vollkasko\". What is it?",
             options: ["comprehensive insurance", "a full tank", "the deposit", "the hire contract"],
             correctIndex: 0,
             explanation: "\"Teilkasko\" = partial cover, \"Vollkasko\" = comprehensive cover.",
@@ -2490,7 +2491,7 @@ export const DE_B1_U30: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What do you need to drive into an Umweltzone?",
+        question: "What do you need to drive into an \"Umweltzone\"?",
         options: ["eine grüne Plakette", "eine Vollkasko", "ein Warndreieck", "eine ADAC-Karte"],
         correctIndex: 0,
         explanation: "The green emissions sticker on the windscreen.",
@@ -2609,7 +2610,7 @@ export const DE_B1_U30: Lesson[] = [
       {
         heading: "Dreams and advice with the Konjunktiv II",
         body: [
-          "Dream about the next trip: \"Wenn ich mehr Geld hätte, würde ich durch Südamerika reisen.\" Regret: \"Ich hätte mehr Zeit in Porto verbringen sollen.\" \"Wäre ich nur früher losgefahren!\"",
+          "Dream about the next trip: \"Wenn ich mehr Geld hätte, würde ich durch Südamerika reisen.\" You'll also hear regrets such as \"Ich hätte mehr Zeit in Porto verbringen sollen\" (I should have spent more time in Porto) and \"Wäre ich nur früher losgefahren!\" (if only I'd set off earlier!). Just recognise these for now: the past Konjunktiv II is taught at the Upper-intermediate level.",
           "Give advice to someone travelling alone for the first time: \"An deiner Stelle würde ich die erste Nacht vorher buchen.\" \"Du solltest immer eine Kopie von deinem Pass dabeihaben.\" \"Es wäre gut, wenn du jemandem deine Route schicken würdest.\"",
         ],
         examples: [
@@ -2632,10 +2633,10 @@ export const DE_B1_U30: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "I [should have] spent more time in Porto.",
-            sentence: "Ich ___ mehr Zeit in Porto verbringen sollen.",
-            answer: "hätte",
-            explanation: "Past regret: \"hätte\" + infinitive + \"sollen\".",
+            en: "You [should] book the first night in advance.",
+            sentence: "Du ___ die erste Nacht vorher buchen.",
+            answer: "solltest",
+            explanation: "Advice: \"solltest\" (Konjunktiv II of \"sollen\", same form as the Präteritum), infinitive at the end. Not \"sollst\", which passes on someone else's instruction.",
           },
         ],
       },
@@ -2732,7 +2733,7 @@ export const DE_B1_U30_WRITING: WriteExercise = {
   minWords: 80,
   maxWords: 150,
   rubric: [
-    "Use the formal frame (\"Sehr geehrte Damen und Herren,\" ... \"Mit freundlichen Grüßen\") and Sie throughout.",
+    "Use the formal frame (\"Sehr geehrte Damen und Herren,\" ... \"Mit freundlichen Grüßen\") and \"Sie\" throughout.",
     "Tell what happened in the past tenses: Perfekt and Präteritum, with a Plusquamperfekt for the earlier event.",
     "Use connectors with the right word order: \"obwohl\", \"nachdem\", \"deshalb\", \"trotzdem\".",
     "Make your demand politely with the Konjunktiv II (\"Ich würde Sie bitten...\", \"Ich wäre Ihnen dankbar, wenn...\") and include a relative clause with a preposition.",

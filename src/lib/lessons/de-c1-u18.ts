@@ -179,7 +179,7 @@ export const DE_C1_U18: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "The task says: Erläutern Sie, wie sich das Pendeln auf die Gesundheit auswirkt. What should your answer do?",
+        question: "The task says: \"Erläutern Sie, wie sich das Pendeln auf die Gesundheit auswirkt.\" What should your answer do?",
         options: ["Explain the effects clearly, with examples.", "Give only your personal opinion.", "List the arguments for and against commuting.", "Summarise a text about commuting."],
         correctIndex: 0,
         explanation: "\"Erläutern\" asks for explanation with examples, not an opinion.",
@@ -236,7 +236,7 @@ export const DE_C1_U18: Lesson[] = [
         heading: "Linear or dialectical?",
         body: [
           "A lineare Erörterung follows one line: it answers a question that asks why, how or what (\"Warum ziehen immer mehr junge Menschen in die Städte?\") with a series of reasons, all pointing in the same direction. A dialektische Erörterung (also pro-und-contra-Erörterung) weighs both sides of a yes/no question (\"Sollte das Wahlalter auf 16 gesenkt werden?\") and ends with a judgement.",
-          "You can tell from the question: a W-question (warum, welche Ursachen, wie) usually calls for the linear form; a question that can be answered with ja or nein (Sollte..., Ist es sinnvoll, ...?) calls for the dialectical one. Most Goethe C1 tasks, with their Vor- und Nachteile, are dialectical.",
+          "You can tell from the question: a W-question (warum, welche Ursachen, wie) usually calls for the linear form; a question that can be answered with \"ja\" or \"nein\" (\"Sollte ...?\", \"Ist es sinnvoll, ...?\") calls for the dialectical one. Most Goethe C1 tasks, with their Vor- und Nachteile, are dialectical.",
           "In a linear Erörterung arguments are added with \"zunächst\", \"darüber hinaus\", \"ein weiterer Grund ist\", \"nicht zuletzt\". In a dialectical one you need, in addition, words that turn the argument: \"dagegen\", \"demgegenüber\", \"allerdings\", \"andererseits\".",
         ],
         examples: [
@@ -303,7 +303,7 @@ export const DE_C1_U18: Lesson[] = [
       {
         heading: "Transitions that turn the argument",
         body: [
-          "The turning point of a dialectical text needs a clear signal. The classic Advanced transitions: \"Nachdem die Vorteile dargelegt wurden, sollen nun die Nachteile betrachtet werden.\" (Having set out the advantages, let us now consider the disadvantages.) \"Dem steht entgegen, dass ...\" (This is countered by the fact that ...). \"Demgegenüber ...\", \"Auf der anderen Seite ...\", \"Gegen ... spricht allerdings, dass ...\".",
+          "The turning point of a dialectical text needs a clear signal. The classic C1-level transitions: \"Nachdem die Vorteile dargelegt wurden, sollen nun die Nachteile betrachtet werden.\" (Having set out the advantages, let us now consider the disadvantages.) \"Dem steht entgegen, dass ...\" (This is countered by the fact that ...). \"Demgegenüber ...\", \"Auf der anderen Seite ...\", \"Gegen ... spricht allerdings, dass ...\".",
           "\"Dem steht entgegen\" is worth learning as a block: \"dem\" is the demonstrative referring back to the previous argument, in the dative because \"entgegenstehen\" takes the dative; the subject is the dass-clause. \"Dem steht jedoch entgegen, dass die Kosten erheblich sind.\"",
           "Inside each side, connect with \"zudem\", \"darüber hinaus\", \"hinzu kommt, dass ...\" (in addition there's the fact that) and \"nicht zuletzt\". \"Hinzu kommt\" is another useful block: \"Hinzu kommt, dass viele Familien kein Auto besitzen.\"",
         ],
@@ -432,7 +432,7 @@ export const DE_C1_U18: Lesson[] = [
         heading: "The Hinführung: leading into the topic",
         body: [
           "A German Einleitung does not start with the question itself, and certainly not with an announcement. It starts with a Hinführung, a lead-in that shows why the topic matters now. Three classic openers: a current event (\"Erst kürzlich hat der Stadtrat beschlossen, ...\"), a statistic (\"Laut einer aktuellen Umfrage arbeitet inzwischen jeder vierte Beschäftigte zumindest teilweise von zu Hause.\"), or a quotation (\"Bildung ist die mächtigste Waffe, um die Welt zu verändern, sagte Nelson Mandela.\").",
-          "The trap for English speakers is the opening In this essay I will discuss... German readers find \"In diesem Aufsatz werde ich ... diskutieren\" clumsy and self-centred. If you want to announce the procedure, do it impersonally and after the question: \"Im Folgenden soll erörtert werden, ob ...\".",
+          "The trap for English speakers is the opening 'In this essay I will discuss ...'. German readers find \"In diesem Aufsatz werde ich ... diskutieren\" clumsy and self-centred. If you want to announce the procedure, do it impersonally and after the question: \"Im Folgenden soll erörtert werden, ob ...\".",
           "Keep the Hinführung short (one or two sentences in an exam text) and make sure it leads to your question. A statistic about smartphones doesn't lead into a question about public transport.",
         ],
         examples: [
@@ -465,7 +465,7 @@ export const DE_C1_U18: Lesson[] = [
         heading: "The Fragestellung",
         body: [
           "After the lead-in comes the question your text will answer. Typical forms: \"Inwiefern ...?\" (to what extent), \"Ist es sinnvoll, ...?\", \"Welche Vor- und Nachteile hat ...?\", or as a statement: \"Es stellt sich daher die Frage, ob ...\" or \"Daraus ergibt sich die Frage, inwieweit ...\".",
-          "\"Inwiefern\" and \"inwieweit\" are the Advanced words here: they ask to what extent something is true, inviting a nuanced answer instead of a yes or no. \"Inwiefern trägt das Homeoffice zur Gleichberechtigung bei?\"",
+          "\"Inwiefern\" and \"inwieweit\" are the C1-level words here: they ask to what extent something is true, inviting a nuanced answer instead of a yes or no. \"Inwiefern trägt das Homeoffice zur Gleichberechtigung bei?\"",
           "In indirect form (\"Es stellt sich die Frage, ob ...\") the verb goes to the end and there is no question mark. In direct form it's a real question with the verb first or after the question word: \"Ist es sinnvoll, ein Tempolimit einzuführen?\"",
         ],
         examples: [
@@ -501,7 +501,7 @@ export const DE_C1_U18: Lesson[] = [
         body: [
           "Every argument in the Hauptteil needs three parts. The Behauptung (claim): \"Ein Tempolimit würde die Zahl der Verkehrstoten senken.\" The Begründung (reason): \"..., da bei niedrigeren Geschwindigkeiten der Bremsweg deutlich kürzer ist.\" The Beispiel or Beleg (example, evidence): \"So ist die Zahl der Unfälle auf Strecken mit Tempolimit erfahrungsgemäß niedriger.\"",
           "Claims without reasons sound like opinions; reasons without examples sound abstract. Learners often stop after the claim. Train yourself to ask: \"Warum?\" and \"Zum Beispiel?\"",
-          "The language of examples: \"So zeigt etwa ...\", \"Dies zeigt sich beispielsweise daran, dass ...\", \"Ein Beispiel dafür ist ...\", \"etwa\" and \"beispielsweise\" in the middle field. \"So\" at the start of a sentence often means thus, for example, not so: \"So hat Finnland ...\".",
+          "The language of examples: \"So zeigt etwa ...\", \"Dies zeigt sich beispielsweise daran, dass ...\", \"Ein Beispiel dafür ist ...\", \"etwa\" and \"beispielsweise\" in the middle field. \"So\" at the start of a sentence often means 'thus' or 'for example', not 'so': \"So hat Finnland ...\".",
         ],
         examples: [
           { es: "Ein Tempolimit würde die Zahl der Verkehrstoten senken.", en: "A speed limit would reduce the number of road deaths." },
@@ -580,7 +580,7 @@ export const DE_C1_U18: Lesson[] = [
         prompt: "Translate into German.",
         source: "Finland, for example, has had good experiences with free school meals.",
         answer: "So hat etwa Finnland mit kostenlosen Schulessen gute Erfahrungen gemacht.",
-        altAnswers: ["So hat beispielsweise Finnland mit kostenlosen Schulessen gute Erfahrungen gemacht.", "Finnland hat beispielsweise mit kostenlosen Schulessen gute Erfahrungen gemacht.", "Finnland zum Beispiel hat mit kostenlosem Schulessen gute Erfahrungen gemacht.", "So hat zum Beispiel Finnland mit kostenlosem Schulessen gute Erfahrungen gemacht."],
+        altAnswers: ["So hat beispielsweise Finnland mit kostenlosen Schulessen gute Erfahrungen gemacht.", "Finnland hat beispielsweise mit kostenlosen Schulessen gute Erfahrungen gemacht.", "Finnland zum Beispiel hat mit kostenlosem Schulessen gute Erfahrungen gemacht.", "So hat zum Beispiel Finnland mit kostenlosem Schulessen gute Erfahrungen gemacht.", "Finnland hat zum Beispiel mit kostenlosen Schulessen gute Erfahrungen gemacht."],
         explanation: "\"So\" + \"etwa\" introduces an example; \"Erfahrungen machen mit\" = to have experiences with.",
       },
       {
@@ -630,7 +630,7 @@ export const DE_C1_U18: Lesson[] = [
       {
         heading: "Quick recap before the check",
         body: [
-          "An Erörterung has an Einleitung (Hinführung + Fragestellung), a Hauptteil and a Schluss. W-questions call for a linear structure; yes/no questions for a dialectical one, built as Sanduhr (all contra, then all pro, ending on the strongest argument) or Pingpong (alternating).",
+          "An Erörterung has an Einleitung (Hinführung + Fragestellung), a Hauptteil and a Schluss. W-questions call for a linear structure; yes/no questions for a dialectical one, built as Sanduhr (first the side you reject, then the side you support, ending on your strongest argument) or Pingpong (alternating).",
           "Each argument is Behauptung + Begründung + Beispiel. Transitions: \"Für ... spricht zunächst, dass\", \"Hinzu kommt, dass\", \"Dem steht entgegen, dass\", \"Nachdem die Vorteile dargelegt wurden, ...\". The checks below give you no hints in the questions: decide yourself what each sentence needs.",
         ],
         examples: [
@@ -684,7 +684,7 @@ export const DE_C1_U18: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "This raises the question of to what extent the state should regulate the internet.",
+        source: "This raises the question of how far the state should regulate the internet.",
         answer: "Es stellt sich die Frage, inwiefern der Staat das Internet regulieren sollte.",
         altAnswers: ["Es stellt sich die Frage, inwieweit der Staat das Internet regulieren sollte.", "Daraus ergibt sich die Frage, inwiefern der Staat das Internet regulieren sollte.", "Daraus ergibt sich die Frage, inwieweit der Staat das Internet regulieren sollte.", "Es stellt sich daher die Frage, inwieweit der Staat das Internet regulieren sollte."],
         explanation: "Indirect question with \"inwiefern\" / \"inwieweit\"; the modal \"sollte\" goes last.",
@@ -702,7 +702,7 @@ export const DE_C1_U18: Lesson[] = [
         prompt: "Translate into German.",
         source: "In addition, many young people can no longer afford a flat in the city centre.",
         answer: "Hinzu kommt, dass sich viele junge Menschen keine Wohnung in der Innenstadt mehr leisten können.",
-        altAnswers: ["Hinzu kommt, dass viele junge Menschen sich keine Wohnung in der Innenstadt mehr leisten können.", "Hinzu kommt, dass sich viele junge Menschen keine Wohnung mehr in der Innenstadt leisten können.", "Zudem können sich viele junge Menschen keine Wohnung in der Innenstadt mehr leisten."],
+        altAnswers: ["Hinzu kommt, dass viele junge Menschen sich keine Wohnung in der Innenstadt mehr leisten können.", "Hinzu kommt, dass sich viele junge Menschen keine Wohnung mehr in der Innenstadt leisten können.", "Zudem können sich viele junge Menschen keine Wohnung in der Innenstadt mehr leisten.", "Hinzu kommt, dass sich viele junge Menschen in der Innenstadt keine Wohnung mehr leisten können.", "Darüber hinaus können sich viele junge Menschen keine Wohnung in der Innenstadt mehr leisten."],
         explanation: "\"Sich etwas leisten können\" = to be able to afford; \"kein ... mehr\" = no longer.",
       },
       {
@@ -978,7 +978,7 @@ export const DE_C1_U18: Lesson[] = [
         type: "speak",
         text: "Meines Erachtens überwiegen die Vorteile.",
         prompt: "Say it in German (formal): In my view, the advantages outweigh the disadvantages.",
-        tip: "\"Erachtens\": ER-ach-tens, with the ch of Bach.",
+        tip: "\"Erachtens\": er-ACH-tens (stress on the second syllable), with the ch of Bach.",
         explanation: "\"Meines Erachtens\" (\"m. E.\") is the formal 'in my view', ideal for the Schluss.",
       },
     ],
@@ -994,7 +994,7 @@ export const DE_C1_U18: Lesson[] = [
       {
         heading: "These, Argument, Beleg, Beispiel",
         body: [
-          "German academic writing distinguishes four elements that English often blurs under argument. Die These is the claim you want to prove (the thesis): \"Die These lautet: Ein Tempolimit rettet Leben.\" Das Argument is a reason that supports the thesis: \"..., weil der Bremsweg kürzer ist.\" Der Beleg is the evidence that proves the argument: a study, a statistic, a quotation. Das Beispiel illustrates it with a concrete case.",
+          "German academic writing distinguishes four elements that English often blurs under 'argument'. Die These is the claim you want to prove (the thesis): \"Die These lautet: Ein Tempolimit rettet Leben.\" Das Argument is a reason that supports the thesis: \"..., weil der Bremsweg kürzer ist.\" Der Beleg is the evidence that proves the argument: a study, a statistic, a quotation. Das Beispiel illustrates it with a concrete case.",
           "The difference between Beleg and Beispiel matters: a Beleg proves (\"Laut einer Studie des Umweltbundesamtes ...\"), a Beispiel shows (\"So wie in den Niederlanden ...\"). One example doesn't prove anything; a good argument has at least one Beleg.",
           "Related words: \"der Standpunkt\" or \"die Position\" (the overall stance), \"das Gegenargument\" (counter-argument), \"der Einwand\" (objection: \"Ein häufiger Einwand lautet, dass ...\"), \"die Schlussfolgerung\" (conclusion drawn).",
         ],
@@ -1601,6 +1601,7 @@ export const DE_C1_U18: Lesson[] = [
         prompt: "Put the words in order to say: The internet has, in a sense, become a public space.",
         words: ["Das Internet", "ist", "gewissermaßen", "zum öffentlichen Raum", "geworden."],
         translation: "The internet has, in a sense, become a public space.",
+        altOrders: [["gewissermaßen", "ist", "Das Internet", "zum öffentlichen Raum", "geworden."]],
         explanation: "\"Werden zu\" + dative; \"gewissermaßen\" softens the metaphor.",
       },
       {
@@ -1629,7 +1630,7 @@ export const DE_C1_U18: Lesson[] = [
         heading: "From blunt to hedged",
         body: [
           "Blunt claims are the hallmark of opinion pieces, not of academic texts. The quickest way to hedge is to adjust the quantifiers: \"alle\" → \"viele\", \"ein Großteil\", \"die meisten\"; \"immer\" → \"häufig\", \"in der Regel\"; \"nie\" → \"selten\", \"kaum\"; \"jeder\" → \"zahlreiche\".",
-          "Then soften the verb: \"Homeoffice macht produktiver\" → \"Homeoffice scheint die Produktivität tendenziell zu steigern.\" \"Social Media machen Jugendliche depressiv\" → \"Eine intensive Nutzung sozialer Medien dürfte das Risiko für Depressionen bei Jugendlichen erhöhen.\" Note how the hedged version is also more precise: it says intensive use, risk, not simply causes.",
+          "Then soften the verb: \"Homeoffice macht produktiver\" → \"Homeoffice scheint die Produktivität tendenziell zu steigern.\" \"Social Media machen Jugendliche depressiv\" → \"Eine intensive Nutzung sozialer Medien dürfte das Risiko für Depressionen bei Jugendlichen erhöhen.\" Note how the hedged version is also more precise: it says 'heavy use' and 'risk', not simply 'causes'.",
           "Do it in one or two moves, not five. \"Alle Studierenden arbeiten neben dem Studium\" → \"Die meisten Studierenden arbeiten neben dem Studium\" is already enough.",
         ],
         examples: [
@@ -1697,7 +1698,7 @@ export const DE_C1_U18: Lesson[] = [
       {
         heading: "From over-hedged back to clear",
         body: [
-          "The opposite problem is just as common in Advanced essays: a text so full of \"vielleicht\", \"eventuell\", \"möglicherweise\" and \"könnte\" that it says nothing. \"Es könnte unter Umständen eventuell sein, dass die Mieten möglicherweise steigen\" contains four hedges for one weak claim. Keep one: \"Die Mieten dürften steigen.\"",
+          "The opposite problem is just as common in C1 essays: a text so full of \"vielleicht\", \"eventuell\", \"möglicherweise\" and \"könnte\" that it says nothing. \"Es könnte unter Umständen eventuell sein, dass die Mieten möglicherweise steigen\" contains four hedges for one weak claim. Keep one: \"Die Mieten dürften steigen.\"",
           "When the evidence is solid, state it clearly: \"Die Daten zeigen eindeutig, dass ...\", \"Es steht außer Frage, dass ...\" (it is beyond question), \"Zweifellos ...\". Hedging everything makes a reader doubt the claims that are actually well supported.",
           "A good rule: hedge predictions and interpretations, state facts and your final position clearly. In the Schluss, \"Meines Erachtens überwiegen die Vorteile deutlich\" is better than \"Vielleicht könnten die Vorteile eventuell überwiegen.\"",
         ],
@@ -2295,7 +2296,7 @@ export const DE_C1_U18: Lesson[] = [
         heading: "Handling questions",
         body: [
           "After the presentation the examiners or your partner ask questions. Buy time politely: \"Das ist eine interessante Frage.\" \"Da muss ich kurz überlegen.\" Check understanding: \"Wenn ich Sie richtig verstanden habe, möchten Sie wissen, ob ...\" \"Meinen Sie damit, dass ...?\"",
-          "If you don't know the answer: \"Darüber habe ich mir ehrlich gesagt noch keine Gedanken gemacht, aber ich könnte mir vorstellen, dass ...\" This turns a gap into a hedged answer, which is exactly the Advanced skill.",
+          "If you don't know the answer: \"Darüber habe ich mir ehrlich gesagt noch keine Gedanken gemacht, aber ich könnte mir vorstellen, dass ...\" This turns a gap into a hedged answer, which is exactly the C1 skill.",
           "Asking a question yourself: \"Darf ich kurz nachfragen: ...?\", \"Sie haben vorhin erwähnt, dass ... Könnten Sie das noch etwas ausführen?\" (\"ausführen\" = to elaborate).",
         ],
         examples: [
@@ -2435,6 +2436,7 @@ export const DE_C1_U18: Lesson[] = [
         prompt: "Put the words in order to say: I'm afraid I have to disagree with you there.",
         words: ["Da", "muss", "ich", "Ihnen", "widersprechen."],
         translation: "I'm afraid I have to disagree with you there.",
+        altOrders: [["ich", "muss", "Ihnen", "Da", "widersprechen."]],
         explanation: "\"Widersprechen\" takes the dative \"Ihnen\".",
       },
       {
@@ -2737,6 +2739,7 @@ export const DE_C1_U18: Lesson[] = [
             prompt: "Put the words in order to say: Although the study has weaknesses, it provides important pointers.",
             words: ["Wenngleich", "die Studie", "Schwächen aufweist,", "liefert", "sie", "wichtige Hinweise."],
             translation: "Although the study has weaknesses, it provides important pointers.",
+            altOrders: [["sie", "liefert", "wichtige Hinweise.", "Wenngleich", "die Studie", "Schwächen aufweist,"]],
             explanation: "\"Wenngleich\" sends the verb to the end; the main clause starts with its verb.",
           },
         ],
@@ -2852,6 +2855,7 @@ export const DE_C1_U18: Lesson[] = [
         prompt: "Put the words in order to say: Consequently, the technology itself matters less.",
         words: ["Folglich", "kommt", "es", "weniger", "auf die Technik selbst", "an."],
         translation: "Consequently, the technology itself matters less.",
+        altOrders: [["es", "kommt", "Folglich", "weniger", "auf die Technik selbst", "an."]],
         explanation: "\"Folglich\" + inversion; \"es kommt auf etwas an\" = something matters.",
       },
       {

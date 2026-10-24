@@ -278,7 +278,7 @@ export const DE_B2_U16_EXTRA: Lesson[] = [
         en: "The mayor stated that the bridge [would be] repaired.",
         sentence: "Der Bürgermeister erklärte, die Brücke ___ repariert.",
         answer: "werde",
-        explanation: "Passive future in Konjunktiv I: \"werde repariert\".",
+        explanation: "Konjunktiv I of the passive \"wird repariert\": \"werde repariert\". As in English, the present passive covers the future here; \"werde repariert werden\" would be correct but heavy.",
       },
       {
         type: "fill-blank",

@@ -111,7 +111,7 @@ export const DE_C2_U01: Lesson[] = [
             prompt: "Translate into German.",
             source: "I hereby confirm that I have received the documents.",
             answer: "Hiermit bestätige ich, dass ich die Unterlagen erhalten habe.",
-            altAnswers: ["Hiermit bestätige ich, die Unterlagen erhalten zu haben.", "Ich bestätige hiermit, dass ich die Unterlagen erhalten habe.", "Hiermit bestätige ich, dass ich die Dokumente erhalten habe."],
+            altAnswers: ["Hiermit bestätige ich, die Unterlagen erhalten zu haben.", "Ich bestätige hiermit, die Unterlagen erhalten zu haben.", "Ich bestätige hiermit, dass ich die Unterlagen erhalten habe.", "Hiermit bestätige ich, dass ich die Dokumente erhalten habe."],
             explanation: "\"Hiermit\" in first position, so the verb \"bestätige\" comes second. \"Erhalten\" is the formal word for receive (everyday: \"bekommen\").",
           },
           {
@@ -163,7 +163,7 @@ export const DE_C2_U01: Lesson[] = [
         prompt: "Translate into German.",
         source: "The contract is drawn up in duplicate.",
         answer: "Der Vertrag wird in zweifacher Ausfertigung erstellt.",
-        altAnswers: ["Der Vertrag wird in zweifacher Ausfertigung ausgefertigt.", "Der Vertrag wird zweifach ausgefertigt."],
+        altAnswers: ["Der Vertrag wird in zwei Ausfertigungen erstellt.", "Der Vertrag wird zweifach ausgefertigt."],
         explanation: "\"In zweifacher Ausfertigung\" is the fixed formula for in duplicate: two signed originals, not one original and a photocopy.",
       },
       {
@@ -385,7 +385,7 @@ export const DE_C2_U01: Lesson[] = [
         prompt: "Translate into German.",
         source: "The prosecutor's office has brought charges against him.",
         answer: "Die Staatsanwaltschaft hat Anklage gegen ihn erhoben.",
-        altAnswers: ["Die Staatsanwaltschaft hat ihn angeklagt.", "Die Staatsanwaltschaft erhob Anklage gegen ihn."],
+        altAnswers: ["Die Staatsanwaltschaft hat gegen ihn Anklage erhoben.", "Die Staatsanwaltschaft hat ihn angeklagt.", "Die Staatsanwaltschaft erhob Anklage gegen ihn.", "Die Staatsanwaltschaft erhob gegen ihn Anklage."],
         explanation: "\"Anklage erheben\" is the fixed collocation (not \"*Anklage machen*\"). After the charge he becomes \"der Angeklagte\".",
       },
       {
@@ -484,7 +484,7 @@ export const DE_C2_U01: Lesson[] = [
         heading: "Passive into active, Funktionsverbgefüge into simple verbs",
         body: [
           "The second layer of officialese is the agentless passive: \"Es wird darauf hingewiesen, dass ...\" (Attention is drawn to the fact that ...), \"Die Gebühr wird erhoben\", \"Ihr Antrag konnte nicht berücksichtigt werden\". In plain German the authority speaks as \"wir\": \"Wir weisen Sie darauf hin\", \"Wir verlangen eine Gebühr\", \"Wir konnten Ihren Antrag leider nicht berücksichtigen\".",
-          "The third layer is the Funktionsverbgefüge: a noun plus a weak verb that together mean what a single verb could say. \"Zur Anwendung kommen\" → \"angewendet werden\"; \"in Kraft treten\" → \"gelten\"; \"zur Kenntnis nehmen\" → \"lesen, wahrnehmen\"; \"eine Entscheidung treffen\" → \"entscheiden\"; \"in Rechnung stellen\" → \"berechnen\"; \"Antrag stellen\" → \"beantragen\"; \"zur Verfügung stellen\" → \"geben, bereitstellen\".",
+          "The third layer is the Funktionsverbgefüge: a noun plus a weak verb that together mean what a single verb could say. \"Zur Anwendung kommen\" → \"angewendet werden\"; \"in Kraft treten\" → \"gelten\"; \"zur Kenntnis nehmen\" → \"lesen, wahrnehmen\"; \"eine Entscheidung treffen\" → \"entscheiden\"; \"in Rechnung stellen\" → \"berechnen\"; \"einen Antrag stellen\" → \"beantragen\"; \"zur Verfügung stellen\" → \"geben, bereitstellen\".",
           "Not every Funktionsverbgefüge can or should be dissolved. Some carry a nuance the simple verb lacks: \"in Kraft treten\" names the exact moment a law starts to apply; \"zur Kenntnis nehmen\" means to note something without necessarily agreeing. Plain language is about the reader, not about deleting every noun.",
         ],
         examples: [
@@ -582,7 +582,7 @@ export const DE_C2_U01: Lesson[] = [
         en: "The new rule [applies] from March. (plain)",
         sentence: "Die neue Regel ___ ab März.",
         answer: "gilt",
-        explanation: "\"Gelten\" (to apply, be valid) is the plain equivalent of \"zur Anwendung kommen\" or \"in Kraft sein\". Present tense \"es gilt\".",
+        explanation: "\"Gelten\" (to apply, be valid) is the plain equivalent of \"zur Anwendung kommen\" or \"in Kraft sein\". Present tense with the vowel change e → i: \"sie gilt\" (\"die Regel\").",
       },
       {
         type: "translate",
@@ -947,7 +947,7 @@ export const DE_C2_U01: Lesson[] = [
       {
         heading: "Einspruch, Berufung, Revision einlegen",
         body: [
-          "To challenge a decision you \"legen ... ein\" (lodge) a remedy, and the remedy depends on what you challenge. \"Einspruch einlegen\" against a tax assessment, a fine notice (\"Bußgeldbescheid\") or a penalty order (\"Strafbefehl\"). \"Widerspruch einlegen\" against most other administrative decisions. \"Berufung einlegen\" against a first-instance judgment, asking a higher court to look at the facts and the law again. \"Revision einlegen\" asks the highest courts to check only the law, not the facts.",
+          "To challenge a decision you \"legen ... ein\" (lodge) a remedy, and the remedy depends on what you challenge. \"Einspruch einlegen\" against a tax assessment, a fine notice (\"Bußgeldbescheid\") or a penalty order (\"Strafbefehl\"). \"Widerspruch einlegen\" against most other administrative decisions. \"Berufung einlegen\" against a first-instance judgment, asking a higher court to look at the facts and the law again. \"Revision einlegen\" asks a higher court (often the BGH) to check only the law, not the facts.",
           "All four take the same verb and are used without an article: \"Er hat Berufung eingelegt\", \"Wir legen Einspruch ein\". \"Erheben\" is also possible with \"Einspruch\", \"Widerspruch\" and \"Klage\" (\"Klage erheben\" = to file a lawsuit).",
           "In court dramas you will hear \"Einspruch!\" (Objection!), as in American films, but German trials have no such ritual. The word you need in real life is the written \"Einspruch\" against a tax assessment or a fine notice.",
         ],
@@ -1326,7 +1326,7 @@ export const DE_C2_U01: Lesson[] = [
         ],
         examples: [
           { es: "Die Sängerin erwirkte eine einstweilige Verfügung gegen das Magazin.", en: "The singer obtained an injunction against the magazine." },
-          { es: "Er bekam einen Strafbefehl über 40 Tagessätze.", en: "He received a penalty order for 40 daily rates." },
+          { es: "Er bekam einen Strafbefehl über 40 Tagessätze.", en: "He received a penalty order imposing a fine of 40 daily units." },
           { es: "Der Bescheid der Familienkasse kam nach sechs Wochen.", en: "The family benefits office's decision came after six weeks." },
           { es: "Das Bauamt hat die Genehmigung per Bescheid erteilt.", en: "The building authority granted the permit by formal decision." },
           { es: "Bis zur Entscheidung in der Hauptsache gilt die einstweilige Verfügung.", en: "The injunction applies until the main proceedings are decided." },
@@ -1354,7 +1354,7 @@ export const DE_C2_U01: Lesson[] = [
         heading: "Five German words for appeal",
         body: [
           "Each type of decision has its own remedy, and English appeal or objection covers them all. Against an \"Urteil\": \"Berufung\" (re-examination of facts and law) or \"Revision\" (law only). Against a \"Beschluss\": \"Beschwerde\" (\"sofortige Beschwerde\" when there is a short deadline). Against a \"Bescheid\": \"Widerspruch\", or \"Einspruch\" for tax and fine notices. Against a \"Strafbefehl\": \"Einspruch\", which leads to a full trial.",
-          "\"Die Beschwerde\" also means an everyday complaint (\"eine Beschwerde beim Kundenservice\"), and \"Beschwerden\" in the plural are medical symptoms. In court language it is a specific remedy. \"Die Verfassungsbeschwerde\" is a constitutional complaint to Karlsruhe, which any citizen can bring after exhausting other remedies.",
+          "\"Die Beschwerde\" also means an everyday complaint (\"eine Beschwerde beim Kundenservice\"), and \"Beschwerden\" in the plural are medical symptoms. In court language it is a specific remedy. \"Die Verfassungsbeschwerde\" is a constitutional complaint to Karlsruhe, which anyone whose basic rights are affected can bring after exhausting other remedies.",
           "If you don't know which remedy applies, the safe neutral word is \"das Rechtsmittel\" (legal remedy against a court decision) or \"der Rechtsbehelf\" (any remedy, including against authorities). \"Rechtsmittel einlegen\" = to appeal, generally.",
         ],
         examples: [
@@ -1620,7 +1620,7 @@ export const DE_C2_U01: Lesson[] = [
         prompt: "Translate into German.",
         source: "The calculation did not take into account that I have two children.",
         answer: "Bei der Berechnung wurde nicht berücksichtigt, dass ich zwei Kinder habe.",
-        altAnswers: ["Die Berechnung berücksichtigt nicht, dass ich zwei Kinder habe.", "Bei der Berechnung ist nicht berücksichtigt worden, dass ich zwei Kinder habe.", "Die Berechnung hat nicht berücksichtigt, dass ich zwei Kinder habe."],
+        altAnswers: ["Die Berechnung berücksichtigte nicht, dass ich zwei Kinder habe.", "Bei der Berechnung ist nicht berücksichtigt worden, dass ich zwei Kinder habe.", "Die Berechnung hat nicht berücksichtigt, dass ich zwei Kinder habe."],
         explanation: "The impersonal passive \"wurde nicht berücksichtigt, dass ...\" points at the error without blaming a person.",
       },
       {

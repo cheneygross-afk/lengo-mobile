@@ -170,13 +170,13 @@ export const DE_B2_U18_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Structuring a Presentation",
-    summary: "Goethe B2 Sprechen Teil 1: introduce a topic, structure a short talk and conclude (Zunächst möchte ich ..., Abschließend ...).",
+    summary: "Goethe B2 Sprechen, part 1: introduce a topic, structure a short talk and conclude (\"Zunächst möchte ich ...\", \"Abschließend ...\").",
     duration: "12 min",
     sections: [
       {
         heading: "Recap: the presentation frame",
         body: [
-          "In Sprechen Teil 1 you give a short talk (about four minutes) on a topic, with a structure: introduce the topic, describe the situation (in your country), list advantages and disadvantages, give your opinion, conclude. Signposting phrases carry the structure: \"In meinem Vortrag geht es um ...\", \"Zunächst möchte ich ...\", \"Danach / Anschließend komme ich zu ...\", \"Ein Vorteil ist ...\", \"Ein Nachteil ist allerdings ...\", \"Abschließend möchte ich sagen, ...\", \"Vielen Dank für Ihre Aufmerksamkeit.\"",
+          "In Sprechen, part 1 you give a short talk (about four minutes) on a topic, with a structure: introduce the topic, describe the situation (in your country), list advantages and disadvantages, give your opinion, conclude. Signposting phrases carry the structure: \"In meinem Vortrag geht es um ...\", \"Zunächst möchte ich ...\", \"Danach / Anschließend komme ich zu ...\", \"Ein Vorteil ist ...\", \"Ein Nachteil ist allerdings ...\", \"Abschließend möchte ich sagen, ...\", \"Vielen Dank für Ihre Aufmerksamkeit.\"",
         ],
         examples: [
           { es: "In meinem Vortrag geht es um das Thema Homeoffice.", en: "My talk is about working from home." },
@@ -327,7 +327,7 @@ export const DE_B2_U18_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Discussion Phrases",
-    summary: "Agree, disagree, interrupt politely and find a compromise, as in Goethe B2 Sprechen Teil 2.",
+    summary: "Agree, disagree, interrupt politely and find a compromise, as in Goethe B2 Sprechen, part 2.",
     duration: "12 min",
     sections: [
       {
@@ -450,6 +450,7 @@ export const DE_B2_U18_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: I'm afraid I don't quite agree.",
         words: ["Da", "bin", "ich", "leider", "nicht", "ganz", "einverstanden."],
         translation: "I'm afraid I don't quite agree.",
+        altOrders: [["Ich", "bin", "da", "leider", "nicht", "ganz", "einverstanden."], ["Leider", "bin", "ich", "da", "nicht", "ganz", "einverstanden."]],
         explanation: "\"Einverstanden sein\" = to agree; \"nicht ganz\" softens it.",
       },
       {

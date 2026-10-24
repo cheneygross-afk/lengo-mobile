@@ -82,7 +82,7 @@ export const DE_B2_U24: Lesson[] = [
         heading: "Museums and a final sweep",
         body: [
           "Museums: \"die Restaurierung\" (restoration), \"restaurieren\", \"das Exponat\" (exhibit), \"die Dauerausstellung\" (permanent exhibition) vs \"die Sonderausstellung\" (special exhibition), \"die Leihgabe\" (loan), \"die Erinnerungskultur\" (culture of remembrance), \"das Denkmal\" (monument).",
-          "Final sweep of the level, some words that Upper-intermediate learners still mix up: \"sich erinnern an\" (remember) vs \"erinnern an\" (remind of); \"bekommen\" (receive, not become); \"eventuell\" (possibly, not eventually); \"die Chance\" (chance, prospect) vs \"die Gelegenheit\" (occasion, opportunity to do something); \"aktuell\" (current, not actual).",
+          "Final sweep of the level: some words that Upper-intermediate learners still mix up: \"sich erinnern an\" (remember) vs \"erinnern an\" (remind of); \"bekommen\" (receive, not become); \"eventuell\" (possibly, not eventually); \"die Chance\" (chance, prospect) vs \"die Gelegenheit\" (occasion, opportunity to do something); \"aktuell\" (current, not actual).",
         ],
         examples: [
           { es: "Die Sonderausstellung ist nur noch bis Sonntag zu sehen.", en: "The special exhibition can only be seen until Sunday." },
@@ -132,7 +132,7 @@ export const DE_B2_U24: Lesson[] = [
         prompt: "Translate into German.",
         source: "My aunt left me the house.",
         answer: "Meine Tante hat mir das Haus vererbt.",
-        altAnswers: ["Meine Tante vererbte mir das Haus.", "Meine Tante hat mir das Haus hinterlassen.", "Meine Tante hinterließ mir das Haus."],
+        altAnswers: ["Meine Tante vererbte mir das Haus.", "Meine Tante hat mir das Haus hinterlassen.", "Meine Tante hinterließ mir das Haus.", "Meine Tante hat mir das Haus vermacht."],
         explanation: "\"Vererben\" or \"hinterlassen\": the giver is the subject.",
       },
       {
@@ -396,7 +396,7 @@ export const DE_B2_U24: Lesson[] = [
         prompt: "Translate into German.",
         source: "The author praised by critics is giving a reading in Bremen today.",
         answer: "Die von Kritikern gelobte Autorin liest heute in Bremen.",
-        altAnswers: ["Der von Kritikern gelobte Autor liest heute in Bremen.", "Die Autorin, die von Kritikern gelobt wird, liest heute in Bremen.", "Die von der Kritik gelobte Autorin liest heute in Bremen.", "Die von Kritikern gelobte Autorin gibt heute eine Lesung in Bremen."],
+        altAnswers: ["Der von Kritikern gelobte Autor liest heute in Bremen.", "Die Autorin, die von Kritikern gelobt wird, liest heute in Bremen.", "Die Autorin, die von Kritikern gelobt wurde, liest heute in Bremen.", "Die von der Kritik gelobte Autorin liest heute in Bremen.", "Die von Kritikern gelobte Autorin gibt heute eine Lesung in Bremen."],
         explanation: "\"Lesen\" also means to give a reading; \"eine Lesung\" is the event.",
       },
       {
@@ -588,7 +588,8 @@ export const DE_B2_U24: Lesson[] = [
         en: "Mehmet said he [was] a paediatrician in Mainz.",
         sentence: "Mehmet hat erzählt, er ___ Kinderarzt in Mainz.",
         answer: "sei",
-        explanation: "Konjunktiv I of \"sein\": \"er sei\".",
+        altAnswers: ["wäre"],
+        explanation: "Konjunktiv I of \"sein\": \"er sei\" (the written standard); Konjunktiv II \"wäre\" is common in speech.",
       },
       {
         type: "translate",
@@ -666,13 +667,13 @@ export const DE_B2_U24: Lesson[] = [
     level: "DE-B2",
     number: 4,
     title: "Spiral Review: Dictation: Formal Connectors",
-    summary: "Spaced review of Units 17-18: hear and write jedoch, folglich, zudem and insofern ... als.",
+    summary: "Spaced review of Units 17-18: hear and write \"jedoch\", \"folglich\", \"zudem\" and \"insofern ... als\".",
     duration: "14 min",
     sections: [
       {
         heading: "Contrast and addition: jedoch, zudem",
         body: [
-          "\"Jedoch\" (however) is more formal than \"aber\". It can stand in position 1 with inversion (\"Jedoch fehlte das Geld\") or inside the clause (\"Das Geld fehlte jedoch\"). Unlike \"aber\", it is not followed by a comma.",
+          "\"Jedoch\" (however) is more formal than \"aber\". It can stand in position 1 with inversion (\"Jedoch fehlte das Geld\") or inside the clause (\"Das Geld fehlte jedoch\"). Unlike English 'however', it is not followed by a comma.",
           "\"Zudem\" and \"außerdem\" (moreover, in addition) add an argument. In position 1 the verb follows straight away (\"Zudem ist das Projekt zu teuer\"); they can also sit inside the clause (\"Das Projekt ist zudem zu teuer\"). Formal writing also uses \"darüber hinaus\".",
           "In dictation, listen for the verb right after the connector: \"Zudem ist ...\", \"Jedoch hat ...\". That tells you it counts as position 1.",
         ],
@@ -899,7 +900,7 @@ export const DE_B2_U24: Lesson[] = [
         heading: "Laws and coalitions",
         body: [
           "A law starts as \"ein Gesetzentwurf\" (bill). Parliament \"berät\" (debates) it and \"verabschiedet\" (passes) it. \"Ein Gesetz tritt in Kraft\" = a law comes into force.",
-          "Since no party usually has a majority, parties form \"eine Koalition\". The others are \"die Opposition\". Typical verbs: \"eine Koalition bilden\", \"zurücktreten\" (to resign), \"abstimmen über\" (to vote on).",
+          "Since a single party rarely wins a majority, parties form \"eine Koalition\". The others are \"die Opposition\". Typical verbs: \"eine Koalition bilden\", \"zurücktreten\" (to resign), \"abstimmen über\" (to vote on).",
           "The passive is everywhere in political reporting: \"Das Gesetz wurde verabschiedet, obwohl die Opposition dagegen gestimmt hatte.\"",
         ],
         examples: [
@@ -1144,7 +1145,7 @@ export const DE_B2_U24: Lesson[] = [
             prompt: "Translate into German, using reported speech.",
             source: "She said the doctor was on holiday today.",
             answer: "Sie hat gesagt, die Ärztin sei heute im Urlaub.",
-            altAnswers: ["Sie sagte, die Ärztin sei heute im Urlaub.", "Sie hat gesagt, dass die Ärztin heute im Urlaub sei.", "Sie hat gesagt, der Arzt sei heute im Urlaub.", "Sie sagte, die Ärztin sei heute in Urlaub."],
+            altAnswers: ["Sie sagte, die Ärztin sei heute im Urlaub.", "Sie hat gesagt, dass die Ärztin heute im Urlaub sei.", "Sie hat gesagt, der Arzt sei heute im Urlaub.", "Sie sagte, die Ärztin sei heute in Urlaub.", "Sie sagte, dass die Ärztin heute im Urlaub sei."],
             explanation: "Konjunktiv I \"sei\" for a reported statement.",
           },
           {
@@ -1214,7 +1215,8 @@ export const DE_B2_U24: Lesson[] = [
         en: "She asked [how long he had been ill].",
         sentence: "Sie fragte, ___.",
         answer: "seit wann er krank sei",
-        explanation: "How long (up to now) = \"seit wann\"; verb last.",
+        altAnswers: ["wie lange er schon krank sei", "seit wann er krank ist", "wie lange er schon krank ist"],
+        explanation: "How long (up to now) = \"seit wann\" or \"wie lange schon\"; verb last, Konjunktiv I \"sei\" (indicative \"ist\" in speech).",
       },
       {
         type: "translate",
@@ -1238,7 +1240,7 @@ export const DE_B2_U24: Lesson[] = [
         prompt: "Translate into German, using reported speech.",
         source: "She said we should come immediately if it got worse.",
         answer: "Sie sagte, wir sollten sofort kommen, falls es schlimmer werde.",
-        altAnswers: ["Sie sagte, wir sollten sofort kommen, wenn es schlimmer werde.", "Sie hat gesagt, wir sollten sofort kommen, falls es schlimmer wird.", "Sie sagte, wir sollten sofort kommen, wenn es schlimmer würde.", "Sie hat gesagt, wir sollen sofort kommen, wenn es schlimmer wird."],
+        altAnswers: ["Sie sagte, wir sollten sofort kommen, wenn es schlimmer werde.", "Sie hat gesagt, wir sollten sofort kommen, falls es schlimmer wird.", "Sie sagte, wir sollten sofort kommen, wenn es schlimmer würde.", "Sie hat gesagt, wir sollen sofort kommen, wenn es schlimmer wird.", "Sie sagte, wir sollten sofort kommen, falls es schlimmer würde."],
         explanation: "\"Wir sollen\" looks indicative → Konjunktiv II \"sollten\".",
       },
       {
@@ -1308,7 +1310,7 @@ export const DE_B2_U24: Lesson[] = [
         heading: "Lena's text: the wrong verbs",
         body: [
           "Lena worked in a bank in Stuttgart for ten years. Then she retrained as a carpenter (\"Tischlerin\"). For a careers magazine she wrote a short text about her change, in a formal style. But some Funktionsverbgefüge have the wrong verb.",
-          "Her sentence: \"*Vor drei Jahren habe ich eine wichtige Entscheidung gemacht.\" Correct: \"eine Entscheidung treffen\". The noun carries the meaning; the verb is fixed and must be learnt with it.",
+          "Her sentence: \"*Vor drei Jahren habe ich eine wichtige Entscheidung gemacht.*\" Correct: \"eine Entscheidung treffen\". The noun carries the meaning; the verb is fixed and must be learnt with it.",
           "More fixed pairs: \"einen Antrag stellen\" (not \"machen\"), \"Abschied nehmen von\", \"Einfluss nehmen auf\", \"in Anspruch nehmen\" (to make use of), \"zur Verfügung stehen\", \"in Frage kommen\" (to be an option).",
         ],
         examples: [
@@ -1343,7 +1345,7 @@ export const DE_B2_U24: Lesson[] = [
         heading: "Lena's text: nominal style",
         body: [
           "In formal writing, a verb clause is often turned into a noun phrase: \"Nachdem ich die Ausbildung beendet hatte\" → \"Nach Beendigung der Ausbildung\" or \"Nach Abschluss der Ausbildung\".",
-          "Lena's errors: \"*Nach Beendigung von meiner Ausbildung\" (use the genitive: \"meiner Ausbildung\"), \"*Wegen der Unzufriedenheit mit dem Job von mir\" (use a possessive: \"meiner Unzufriedenheit mit dem Job\"), \"*Bei der Suche von einer Stelle\" (\"nach einer Stelle\": the noun keeps the verb's preposition, suchen nach).",
+          "Lena's errors: \"*Nach Beendigung von meiner Ausbildung*\" (use the genitive: \"meiner Ausbildung\"), \"*Wegen der Unzufriedenheit mit dem Job von mir*\" (use a possessive: \"meiner Unzufriedenheit mit dem Job\"), \"*Bei der Suche von einer Stelle*\" (\"nach einer Stelle\": the noun keeps the verb's preposition, suchen nach).",
         ],
         examples: [
           { es: "Nach Abschluss meiner Ausbildung habe ich eine Werkstatt gefunden.", en: "After completing my training, I found a workshop." },
@@ -1590,7 +1592,7 @@ export const DE_B2_U24: Lesson[] = [
             source: "Exhausted from the trip, she went to bed early.",
             answer: "Von der Reise erschöpft, ging sie früh ins Bett.",
             altAnswers: ["Von der Reise erschöpft ging sie früh ins Bett.", "Erschöpft von der Reise, ging sie früh ins Bett.", "Von der Reise erschöpft, ging sie früh schlafen.", "Erschöpft von der Reise ging sie früh ins Bett."],
-            explanation: "The participle comes at the end of its clause; the main clause starts with the verb.",
+            explanation: "The participle usually ends its clause (\"Erschöpft von der Reise\" is also fine); the main clause then starts with the verb.",
           },
           {
             type: "multiple-choice",
@@ -1666,7 +1668,7 @@ export const DE_B2_U24: Lesson[] = [
         prompt: "Translate into German, using a participle attribute.",
         source: "I'm wearing the jacket I bought yesterday.",
         answer: "Ich trage die gestern gekaufte Jacke.",
-        altAnswers: ["Ich trage die Jacke, die ich gestern gekauft habe.", "Ich habe die gestern gekaufte Jacke an.", "Ich trage die Jacke, die ich gestern gekauft hatte."],
+        altAnswers: ["Ich trage die Jacke, die ich gestern gekauft habe.", "Ich habe die gestern gekaufte Jacke an.", "Ich habe die Jacke an, die ich gestern gekauft habe."],
         explanation: "\"Die gestern gekaufte Jacke\": accusative feminine.",
       },
       {
@@ -1705,8 +1707,8 @@ export const DE_B2_U24: Lesson[] = [
       {
         heading: "Dreams at night and by day",
         body: [
-          "\"Träumen von\" + dative, never \"*träumen über\": \"Ich habe von meiner Großmutter geträumt\", \"Sie träumt von einem Haus am Meer\" (wishes too). \"Der Traum\" (dream), \"der Albtraum\" (nightmare), \"der Tagtraum\" (daydream), \"der Traumjob\", \"traumhaft\" (dreamlike, wonderful).",
-          "\"Einen Albtraum haben\" (not \"*machen\"), \"aus einem Traum aufwachen\", \"Das war wie im Traum.\" \"Nicht im Traum!\" = not in my wildest dreams, no way.",
+          "\"Träumen von\" + dative, not \"*träumen über*\" (a calque of English 'about', heard in casual speech but not standard): \"Ich habe von meiner Großmutter geträumt\", \"Sie träumt von einem Haus am Meer\" (wishes too). \"Der Traum\" (dream), \"der Albtraum\" (nightmare), \"der Tagtraum\" (daydream), \"der Traumjob\", \"traumhaft\" (dreamlike, wonderful).",
+          "\"Einen Albtraum haben\" (not \"*machen*\"), \"aus einem Traum aufwachen\", \"Das war wie im Traum.\" \"Nicht im Traum!\" = not in my wildest dreams, no way.",
           "Wishes with Konjunktiv II: \"Ich träume davon, dass ich eines Tages ein eigenes Café hätte\" or with an infinitive: \"Ich träume davon, ein eigenes Café zu haben.\"",
         ],
         examples: [
@@ -1724,7 +1726,7 @@ export const DE_B2_U24: Lesson[] = [
             source: "I dreamt about my grandmother last night.",
             answer: "Ich habe letzte Nacht von meiner Großmutter geträumt.",
             altAnswers: ["Letzte Nacht habe ich von meiner Großmutter geträumt.", "Ich habe heute Nacht von meiner Großmutter geträumt.", "Ich träumte letzte Nacht von meiner Großmutter.", "Ich habe letzte Nacht von meiner Oma geträumt."],
-            explanation: "\"Träumen von\" + dative, not \"*über\".",
+            explanation: "\"Träumen von\" + dative, not \"*über*\".",
           },
           {
             type: "fill-blank",
@@ -1857,7 +1859,7 @@ export const DE_B2_U24: Lesson[] = [
         question: "Which sentence is correct?",
         options: ["Ich habe von dir geträumt.", "Ich habe über dich geträumt.", "Ich habe dich geträumt.", "Ich habe an dich geträumt."],
         correctIndex: 0,
-        explanation: "Standard German says \"träumen von\" + dative; \"*über*\" is a calque of English \"about\".",
+        explanation: "Standard German says \"träumen von\" + dative; \"über\" is a calque of English 'about', heard in casual speech but not standard. \"An\" and the bare accusative are wrong.",
       },
       {
         type: "translate",
@@ -1918,20 +1920,20 @@ export const DE_B2_U24: Lesson[] = [
     slug: "b2-thematic-review-ein-unerwarteter-mentor",
     level: "DE-B2",
     number: 10,
-    title: "Thematic Review: Ein Unerwarteter Mentor",
+    title: "Thematic Review: Ein unerwarteter Mentor",
     summary: "Follow an old bookbinder and a troubled teenager in Göttingen, and talk about expectations, second chances and regrets with emphasis and Konjunktiv II.",
     duration: "16 min",
     sections: [
       {
         heading: "The workshop in the old town",
         body: [
-          "Herr Lindner, 78, has run a small bookbinding workshop (\"eine Buchbinderei\") in the old town of Göttingen for fifty years. Jonas, 16, has been expelled from school for a term after a fight. The youth welfare office (\"das Jugendamt\") arranges a work placement: three afternoons a week at Herr Lindner's.",
-          "Words: \"der Buchbinder\" (bookbinder), \"binden\" (to bind), \"der Einband\" (binding, cover), \"das Leder\" (leather), \"die Geduld\" (patience), \"das Praktikum\" (placement), \"von der Schule verwiesen werden\" (to be expelled).",
+          "Herr Lindner, 78, has run a small bookbinding workshop (\"eine Buchbinderei\") in the old town of Göttingen for fifty years. Jonas, 16, has been suspended from school for three months after a fight. The youth welfare office (\"das Jugendamt\") arranges a work placement: three afternoons a week at Herr Lindner's.",
+          "Words: \"der Buchbinder\" (bookbinder), \"binden\" (to bind), \"der Einband\" (binding, cover), \"das Leder\" (leather), \"die Geduld\" (patience), \"das Praktikum\" (placement), \"vom Unterricht ausgeschlossen werden\" (to be suspended from school; \"von der Schule verwiesen werden\" is permanent expulsion).",
           "Expectations with modal verbs and Konjunktiv II: \"Niemand hatte erwartet, dass das gut gehen würde.\" \"Jonas dachte, er müsste nur Kartons tragen.\"",
         ],
         examples: [
           { es: "Herr Lindner führt die Buchbinderei seit fünfzig Jahren.", en: "Mr Lindner has run the bookbinding workshop for fifty years." },
-          { es: "Jonas wurde für ein Halbjahr von der Schule verwiesen.", en: "Jonas was expelled from school for a term." },
+          { es: "Jonas wurde für drei Monate vom Unterricht ausgeschlossen.", en: "Jonas was suspended from school for three months." },
           { es: "Niemand hatte erwartet, dass das gut gehen würde.", en: "Nobody had expected that to go well." },
           { es: "Jonas dachte, er müsste nur Kartons tragen.", en: "Jonas thought he'd only have to carry boxes." },
           { es: "Für diese Arbeit braucht man vor allem Geduld.", en: "Above all, this work needs patience." },
@@ -1949,10 +1951,10 @@ export const DE_B2_U24: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "Jonas [was expelled] from school for a term.",
-            sentence: "Jonas ___ für ein Halbjahr von der Schule verwiesen.",
+            en: "Jonas [was] suspended from school for three months.",
+            sentence: "Jonas ___ für drei Monate vom Unterricht ausgeschlossen.",
             answer: "wurde",
-            explanation: "Passive Präteritum: \"wurde verwiesen\".",
+            explanation: "Passive Präteritum: \"wurde ausgeschlossen\" (an action, so \"werden\", not \"war\").",
           },
         ],
       },
@@ -2167,7 +2169,7 @@ export const DE_B2_U24: Lesson[] = [
             en: "If I [were you], I'd accept the offer.",
             sentence: "Wenn ich ___, würde ich das Angebot annehmen.",
             answer: "du wäre",
-            explanation: "\"Wenn ich du wäre\" (not \"*dich\").",
+            explanation: "\"Wenn ich du wäre\" (not \"*dich*\").",
           },
         ],
       },
@@ -2205,7 +2207,7 @@ export const DE_B2_U24: Lesson[] = [
       {
         heading: "Without wenn",
         body: [
-          "Drop \"wenn\" and put the conjugated verb first: \"Hätte ich mehr Zeit, würde ich Gitarre lernen.\" \"Wäre ich früher losgefahren, hätte ich den Zug erwischt.\" The main clause often starts with \"dann\" or \"so\".",
+          "Drop \"wenn\" and put the conjugated verb first: \"Hätte ich mehr Zeit, würde ich Gitarre lernen.\" \"Wäre ich früher losgefahren, hätte ich den Zug erwischt.\" The main clause can start with \"dann\" or \"so\".",
           "For a real condition in formal style, \"sollte\" in first position: \"Sollten Sie Fragen haben, rufen Sie uns an\" (Should you have any questions, ...).",
           "Other options: \"Ohne deine Hilfe hätte ich es nicht geschafft\" (without), \"Bei schlechtem Wetter fällt das Fest aus\" (in case of), \"An deiner Stelle würde ich ...\" (in your place).",
         ],

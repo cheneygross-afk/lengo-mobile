@@ -9,7 +9,7 @@ export const DE_B2_U04_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Ob, Wenn or a W-Word?",
-    summary: "Choose the right conjunction for reported questions and conditions.",
+    summary: "Choose correctly between \"ob\", \"wenn\" and \"wann\" in reported questions, conditions and time clauses.",
     duration: "12 min",
     sections: [
       {
@@ -141,9 +141,9 @@ export const DE_B2_U04_EXTRA: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: I don't know if the shop is open on Sunday.",
+        prompt: "Put the words in order to say: I don't know if the shop is open on Sundays.",
         words: ["Ich", "weiß", "nicht,", "ob", "der", "Laden", "sonntags", "offen", "ist."],
-        translation: "I don't know if the shop is open on Sunday.",
+        translation: "I don't know if the shop is open on Sundays.",
         explanation: "\"Ob\" + verb at the end.",
       },
       {
@@ -157,7 +157,7 @@ export const DE_B2_U04_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "Können Sie mir sagen, ob dieser Platz frei ist?",
-        prompt: "Say it in German: Can you tell me if this seat is free? (polite)",
+        prompt: "Say it in German: Can you tell me if this seat is free? (formal)",
         explanation: "\"Ob\" for if = whether.",
       },
     ],
@@ -213,7 +213,7 @@ export const DE_B2_U04_EXTRA: Lesson[] = [
         prompt: "The conductor said: \"Steigen Sie in Hannover um!\" Translate: The conductor said we should change trains in Hanover.",
         source: "The conductor said we should change trains in Hanover.",
         answer: "Der Schaffner sagte, wir sollten in Hannover umsteigen.",
-        altAnswers: ["Der Schaffner hat gesagt, wir sollen in Hannover umsteigen.", "Der Schaffner sagte, wir sollen in Hannover umsteigen.", "Der Zugbegleiter sagte, wir sollten in Hannover umsteigen."],
+        altAnswers: ["Der Schaffner hat gesagt, wir sollen in Hannover umsteigen.", "Der Schaffner hat gesagt, wir sollten in Hannover umsteigen.", "Der Schaffner sagte, wir sollen in Hannover umsteigen.", "Der Zugbegleiter sagte, wir sollten in Hannover umsteigen."],
         explanation: "\"Wir sollen\" = indicative → formally \"sollten\".",
       },
       {
@@ -240,7 +240,7 @@ export const DE_B2_U04_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "He asked us not to park in front of the garage.",
         answer: "Er bat uns, nicht vor der Garage zu parken.",
-        altAnswers: ["Er hat uns gebeten, nicht vor der Garage zu parken.", "Er sagte, wir sollten nicht vor der Garage parken."],
+        altAnswers: ["Er hat uns gebeten, nicht vor der Garage zu parken.", "Er sagte, wir sollten nicht vor der Garage parken.", "Er hat gesagt, wir sollten nicht vor der Garage parken.", "Er hat gesagt, wir sollen nicht vor der Garage parken."],
         explanation: "\"Nicht\" comes before the zu-infinitive.",
       },
       {
@@ -293,14 +293,15 @@ export const DE_B2_U04_EXTRA: Lesson[] = [
           { left: "Kommst du?", right: "Er fragt, ob ich komme." },
           { left: "Wann kommst du?", right: "Er fragt, wann ich komme." },
         ],
-        explanation: "Orders → sollen, requests → bitten, questions → ob / W-word.",
+        explanation: "Orders → \"sollen\", requests → \"bitten\", questions → \"ob\" / W-word.",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: He asked us not to park here.",
         words: ["Er", "bat", "uns,", "hier", "nicht", "zu", "parken."],
         translation: "He asked us not to park here.",
-        explanation: "\"Nicht\" before \"zu parken\".",
+        altOrders: [["Er", "bat", "uns,", "nicht", "hier", "zu", "parken."]],
+        explanation: "\"Nicht\" before \"zu parken\". (\"nicht hier zu parken\" is also correct and stresses 'here, rather than somewhere else'.)",
       },
       {
         type: "translate",
@@ -550,7 +551,7 @@ export const DE_B2_U04_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "According to the fire brigade, nobody was injured.",
         answer: "Nach Angaben der Feuerwehr sei niemand verletzt worden.",
-        altAnswers: ["Nach Angaben der Feuerwehr wurde niemand verletzt.", "Laut Feuerwehr wurde niemand verletzt.", "Laut Feuerwehr sei niemand verletzt worden.", "Der Feuerwehr zufolge wurde niemand verletzt."],
+        altAnswers: ["Nach Angaben der Feuerwehr wurde niemand verletzt.", "Laut Feuerwehr wurde niemand verletzt.", "Laut Feuerwehr sei niemand verletzt worden.", "Der Feuerwehr zufolge wurde niemand verletzt.", "Der Feuerwehr zufolge sei niemand verletzt worden."],
         explanation: "Source + Konjunktiv I (or indicative, since the source is named).",
       },
       {
@@ -638,7 +639,7 @@ export const DE_B2_U04_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "The company denies that data was stolen.",
         answer: "Der Konzern bestreitet, dass Daten gestohlen worden seien.",
-        altAnswers: ["Die Firma bestreitet, dass Daten gestohlen worden seien.", "Der Konzern bestreitet, dass Daten gestohlen wurden.", "Das Unternehmen bestreitet, dass Daten gestohlen worden seien."],
+        altAnswers: ["Die Firma bestreitet, dass Daten gestohlen worden seien.", "Der Konzern bestreitet, dass Daten gestohlen wurden.", "Der Konzern bestreitet, dass Daten gestohlen worden sind.", "Das Unternehmen bestreitet, dass Daten gestohlen worden seien."],
         explanation: "Passive past in Konjunktiv I: \"gestohlen worden seien\".",
       },
       {

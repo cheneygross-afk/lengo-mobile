@@ -9,7 +9,7 @@ export const DE_A2_U12_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Weak Adjective Endings, Part 1 of 3",
-    summary: "Nominative and accusative endings after der/die/das in fresh sentences.",
+    summary: "Choose the right adjective ending after \"der\", \"die\" and \"das\" in the nominative and accusative, in fresh sentences.",
     duration: "10 min",
     sections: [
       {
@@ -40,7 +40,7 @@ export const DE_A2_U12_EXTRA: Lesson[] = [
             en: "We're visiting [the new] museum.",
             sentence: "Wir besuchen ___ Museum.",
             answer: "das neue",
-            explanation: "Neuter accusative: -e.",
+            explanation: "\"Das Museum\" is neuter, and the neuter accusative looks like the nominative: \"das neue\". Only masculine nouns switch to \"den ...en\".",
           },
         ],
       },
@@ -76,7 +76,7 @@ export const DE_A2_U12_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Do you know the new teacher? (to a friend, a man)",
+        source: "Do you know the new (male) teacher? (to a friend)",
         answer: "Kennst du den neuen Lehrer?",
         explanation: "The teacher is the object of \"kennen\": masculine accusative \"den neuen Lehrer\", not \"der neue\".",
       },
@@ -103,7 +103,7 @@ export const DE_A2_U12_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "We're selling the old car.",
         answer: "Wir verkaufen das alte Auto.",
-        explanation: "Neuter accusative: -e.",
+        explanation: "\"Das Auto\" is neuter: accusative \"das alte\", the same as the nominative. \"*den alten Auto*\" mixes in the masculine form.",
       },
       {
         type: "fill-blank",
@@ -162,7 +162,7 @@ export const DE_A2_U12_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Weak Adjective Endings, Part 2 of 3",
-    summary: "Dative and plural endings after der-words.",
+    summary: "Use the -en ending after der-words in the dative and the plural.",
     duration: "10 min",
     sections: [
       {
@@ -263,10 +263,11 @@ export const DE_A2_U12_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "We live near [the big park].",
-        sentence: "Wir wohnen bei ___.",
-        answer: "dem großen Park",
-        explanation: "\"Bei\" + dative.",
+        en: "We live [near the big park].",
+        sentence: "Wir wohnen ___.",
+        answer: "beim großen Park",
+        altAnswers: ["bei dem großen Park", "in der Nähe vom großen Park", "in der Nähe von dem großen Park"],
+        explanation: "\"Bei\" + dative: \"bei dem\", normally contracted to \"beim\". After \"dem\" the adjective ends in -en: \"beim großen Park\", not \"*beim große Park*\".",
       },
       {
         type: "fill-blank",
@@ -317,7 +318,7 @@ export const DE_A2_U12_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Weak Adjective Endings, Part 3 of 3",
-    summary: "All cases mixed in short texts.",
+    summary: "Follow one adjective through nominative, accusative and dative and pick -e or -en each time.",
     duration: "10 min",
     sections: [
       {
@@ -427,7 +428,8 @@ export const DE_A2_U12_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'm giving the nice waiter the money.",
         answer: "Ich gebe dem netten Kellner das Geld.",
-        explanation: "Dative masculine: \"dem netten\".",
+        altAnswers: ["Ich gebe das Geld dem netten Kellner."],
+        explanation: "The waiter receives, so dative masculine: \"dem netten\" (-en). \"Den netten Kellner\" would be accusative, the case for the thing given (\"das Geld\").",
       },
       {
         type: "word-order",
@@ -470,7 +472,7 @@ export const DE_A2_U12_EXTRA: Lesson[] = [
     number: 4,
     optional: true,
     title: "Extra Practice: Contrast Clinic: Der neue or Den neuen?",
-    summary: "Masculine nominative vs accusative, the one place in the singular where -e becomes -en.",
+    summary: "Tell the masculine subject from the object, the one place in the singular where -e becomes -en.",
     duration: "10 min",
     sections: [
       {
@@ -622,7 +624,7 @@ export const DE_A2_U12_EXTRA: Lesson[] = [
     number: 5,
     optional: true,
     title: "Extra Practice: Real-World Mission: Selling on a Second-Hand Site",
-    summary: "Write short ads for three items with adjectives.",
+    summary: "Write short second-hand ads for three items, with the right adjective endings.",
     duration: "10 min",
     sections: [
       {
@@ -774,7 +776,7 @@ export const DE_A2_U12_EXTRA: Lesson[] = [
     number: 6,
     optional: true,
     title: "Extra Practice: Say It Yourself: My Favourite Clothes",
-    summary: "Guided speaking about clothes you own and love.",
+    summary: "Talk about the clothes you own and love, with the right ending after \"der\", \"die\" and \"das\".",
     duration: "10 min",
     sections: [
       {
@@ -897,7 +899,7 @@ export const DE_A2_U12_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: I only wear the blue suit at weddings.",
         words: ["Den", "blauen", "Anzug", "trage", "ich", "nur", "auf", "Hochzeiten."],
         translation: "I only wear the blue suit at weddings.",
-        altOrders: [["Ich", "trage", "den", "blauen", "Anzug", "nur", "auf", "Hochzeiten."]],
+        altOrders: [["Ich", "trage", "den", "blauen", "Anzug", "nur", "auf", "Hochzeiten."], ["Nur", "auf", "Hochzeiten", "trage", "ich", "den", "blauen", "Anzug."]],
         explanation: "Accusative masculine: \"den blauen\".",
       },
       {
@@ -1021,7 +1023,7 @@ export const DE_A2_U12_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "The next day he took the suitcase back to the airport.",
         answer: "Am nächsten Tag hat er den Koffer zum Flughafen zurückgebracht.",
-        altAnswers: ["Am nächsten Tag brachte er den Koffer zum Flughafen zurück."],
+        altAnswers: ["Am nächsten Tag brachte er den Koffer zum Flughafen zurück.", "Er hat den Koffer am nächsten Tag zum Flughafen zurückgebracht."],
         explanation: "\"Am nächsten Tag\": dative -en.",
       },
       {
@@ -1051,10 +1053,10 @@ export const DE_A2_U12_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which completes the story? \"Jonas hat ___ Koffer nie wieder verwechselt.\" (Jonas never mixed up the right suitcase again.)",
+        question: "Which completes the story? \"Jonas hat ___ Koffer sofort erkannt.\" (Jonas recognised the right suitcase at once.)",
         options: ["den richtigen", "der richtige", "den richtige", "dem richtigen"],
         correctIndex: 0,
-        explanation: "Accusative masculine: \"den richtigen\".",
+        explanation: "The suitcase is the object of \"erkennen\" (\"Jonas\" is the subject), so masculine accusative: \"den richtigen\". \"Der richtige\" is the subject form.",
       },
       {
         type: "listen-choose",
@@ -1083,7 +1085,7 @@ export const DE_A2_U12_EXTRA: Lesson[] = [
     number: 8,
     optional: true,
     title: "Extra Practice: Drill Circuit: Colours and Materials",
-    summary: "Aus Holz, aus Leder: colours, materials and patterns with endings.",
+    summary: "Describe colours, materials (\"aus Holz\", \"aus Leder\") and patterns with the right adjective endings.",
     duration: "10 min",
     sections: [
       {
@@ -1186,9 +1188,10 @@ export const DE_A2_U12_EXTRA: Lesson[] = [
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
         en: "[The black leather jacket] is expensive.",
-        sentence: "___ aus Leder ist teuer.",
-        answer: "Die schwarze Jacke",
-        explanation: "Nominative feminine: -e.",
+        sentence: "___ ist teuer.",
+        answer: "Die schwarze Lederjacke",
+        altAnswers: ["Die schwarze Jacke aus Leder"],
+        explanation: "\"Die Jacke\" is feminine and the subject: \"die schwarze\" (-e). Use the compound \"Lederjacke\" or put \"aus Leder\" after the noun.",
       },
       {
         type: "fill-blank",
@@ -1244,11 +1247,11 @@ export const DE_A2_U12_EXTRA: Lesson[] = [
     number: 9,
     optional: true,
     title: "Extra Practice: Chain Transformations: Nominative → Accusative → Dative",
-    summary: "One noun phrase through three cases.",
+    summary: "Move one noun phrase through nominative, accusative and dative and change the ending each time.",
     duration: "10 min",
     sections: [
       {
-        heading: "Recap: der kleine Hund, den kleinen Hund, dem kleinen Hund",
+        heading: "Recap: \"der kleine Hund\", \"den kleinen Hund\", \"dem kleinen Hund\"",
         body: [
           "Take one phrase and move it through the cases: \"Der kleine Hund schläft\" (nominative) → \"Ich sehe den kleinen Hund\" (accusative) → \"Ich spiele mit dem kleinen Hund\" (dative).",
           "Feminine: \"die kleine Katze\" → \"die kleine Katze\" → \"der kleinen Katze\". Neuter: \"das kleine Kind\" → \"das kleine Kind\" → \"dem kleinen Kind\". Plural: \"die kleinen Kinder\" → \"die kleinen Kinder\" → \"den kleinen Kindern\".",
@@ -1330,7 +1333,8 @@ export const DE_A2_U12_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "We drove to Italy in the old car.",
         answer: "Wir sind mit dem alten Auto nach Italien gefahren.",
-        explanation: "Dative neuter: -en.",
+        altAnswers: ["Wir fuhren mit dem alten Auto nach Italien."],
+        explanation: "\"Mit\" + dative neuter: \"dem alten Auto\" (-en). \"Fahren\" takes \"sein\" in the Perfekt.",
       },
       {
         type: "fill-blank",
@@ -1365,13 +1369,13 @@ export const DE_A2_U12_EXTRA: Lesson[] = [
       },
       {
         type: "matching",
-        instructions: "Match each phrase to its case.",
+        instructions: "Match each phrase to the sentence it fits.",
         pairs: [
-          { left: "der kleine Hund", right: "nominative" },
-          { left: "den kleinen Hund", right: "accusative" },
-          { left: "dem kleinen Hund", right: "dative" },
+          { left: "der kleine Hund", right: "the subject: the little dog is asleep" },
+          { left: "den kleinen Hund", right: "the object: I can see the little dog" },
+          { left: "dem kleinen Hund", right: "after 'mit': I'm playing with the little dog" },
         ],
-        explanation: "Masculine: -e, -en, -en.",
+        explanation: "Masculine: subject \"der kleine\" (-e), object \"den kleinen\" (-en), dative after \"mit\" \"dem kleinen\" (-en).",
       },
       {
         type: "listen-choose",
@@ -1400,7 +1404,7 @@ export const DE_A2_U12_EXTRA: Lesson[] = [
     number: 10,
     optional: true,
     title: "Extra Practice: Build-Up: One Noun, Three Adjectives",
-    summary: "Grow der alte Tisch into den alten braunen Tisch aus Holz.",
+    summary: "Put two adjectives and a detail on one noun: grow \"der alte Tisch\" into \"den alten braunen Tisch aus Holz\".",
     duration: "10 min",
     sections: [
       {
@@ -1414,7 +1418,7 @@ export const DE_A2_U12_EXTRA: Lesson[] = [
           { es: "der alte braune Tisch", en: "the old brown table" },
           { es: "Ich kaufe den alten braunen Tisch aus Holz.", en: "I'm buying the old brown wooden table." },
           { es: "Die kleine weiße Katze schläft.", en: "The little white cat is asleep." },
-          { es: "Wir wohnen in dem schönen alten Haus.", en: "We live in the beautiful old house." },
+          { es: "Wir wohnen im schönen alten Haus.", en: "We live in the beautiful old house." },
         ],
         checkpoint: [
           {
@@ -1552,7 +1556,7 @@ export const DE_A2_U12_EXTRA: Lesson[] = [
     number: 11,
     optional: true,
     title: "Extra Practice: Mixed Practice: Endings and Comparisons",
-    summary: "Combine adjective endings with comparatives: Der billige Laptop ist besser als der teure.",
+    summary: "Combine adjective endings with comparatives: \"Der billige Laptop ist besser als der teure.\"",
     duration: "10 min",
     sections: [
       {
@@ -1706,11 +1710,11 @@ export const DE_A2_U12_EXTRA: Lesson[] = [
     number: 12,
     optional: true,
     title: "Extra Practice: Q&A Drill: In the Shop",
-    summary: "Customer questions with welcher and dieser, answered with endings.",
+    summary: "Ask and answer shop questions with \"welcher\" and \"dieser\" and the right adjective endings.",
     duration: "10 min",
     sections: [
       {
-        heading: "Recap: welcher? dieser! der blaue!",
+        heading: "Recap: \"welcher?\" \"dieser!\" \"der blaue!\"",
         body: [
           "The assistant asks with \"welcher\", you answer with \"dieser\" or with the article + adjective: \"Welchen Mantel möchten Sie? Diesen hier.\" / \"Den grauen.\" Both the question word and the answer carry the case.",
           "Polite shop phrases: \"Kann ich Ihnen helfen?\", \"Ich suche ...\", \"Haben Sie diese Hose auch in Größe 40?\", \"Ich nehme diesen.\"",

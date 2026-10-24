@@ -182,7 +182,7 @@ export const DE_C2_U03_EXTRA: Lesson[] = [
       {
         heading: "Recap: from telegram to sentence",
         body: [
-          "The Arztbrief compresses information into abbreviations and nominal phrases. \"Z. n. Appendektomie\" (Zustand nach) becomes \"Der Patient hatte früher eine Blinddarmoperation.\" \"V. a. Pneumonie\" (Verdacht auf) becomes \"Es besteht der Verdacht auf eine Lungenentzündung.\" \"Abdomen o. B.\" (ohne Befund) becomes \"Der Bauch ist unauffällig.\"",
+          "The Arztbrief compresses information into abbreviations and nominal phrases. \"Z. n. Appendektomie\" (\"Zustand nach\") becomes \"Der Patient hatte früher eine Blinddarmoperation.\" \"V. a. Pneumonie\" (\"Verdacht auf\") becomes \"Es besteht der Verdacht auf eine Lungenentzündung.\" \"Abdomen o. B.\" (\"ohne Befund\") becomes \"Der Bauch ist unauffällig.\"",
           "Nominal phrases are unpacked into verbs: \"Es erfolgte die Einleitung einer Antibiose\" means \"Ein Antibiotikum wurde angesetzt.\" \"Nach Abklingen der Symptome\" means \"nachdem die Beschwerden nachgelassen hatten\". \"Entlassung in stabilem Allgemeinzustand\" means \"Die Patientin wurde in gutem Zustand nach Hause entlassen.\"",
         ],
         examples: [
@@ -219,7 +219,7 @@ export const DE_C2_U03_EXTRA: Lesson[] = [
         prompt: "Translate into report-style German with \"Es erfolgte\".",
         source: "An ultrasound examination was carried out.",
         answer: "Es erfolgte eine Sonographie.",
-        altAnswers: ["Es erfolgte eine Ultraschalluntersuchung.", "Es wurde eine Sonographie durchgeführt.", "Es wurde eine Ultraschalluntersuchung durchgeführt.", "Es erfolgte eine Sonografie.", "Es wurde eine Sonografie durchgeführt."],
+        altAnswers: ["Es erfolgte eine Ultraschalluntersuchung.", "Es erfolgte eine Sonografie."],
         explanation: "\"Es erfolgte\" + noun, or \"es wurde ... durchgeführt\": both are report style.",
       },
       {
@@ -327,7 +327,7 @@ export const DE_C2_U03_EXTRA: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Im Brief steht V. a. Pneumonie, das heißt, man vermutet eine Lungenentzündung.",
+        text: "Im Brief steht „V. a. Pneumonie“, das heißt, man vermutet eine Lungenentzündung.",
         prompt: "Say it in German: The letter says \"V. a. Pneumonie\", which means they suspect pneumonia.",
         explanation: "Quote the abbreviation, then explain it with \"das heißt\".",
       },
@@ -560,7 +560,7 @@ export const DE_C2_U03_EXTRA: Lesson[] = [
         prompt: "Translate into plain German.",
         source: "Hypoglycaemia means low blood sugar.",
         answer: "Hypoglykämie bedeutet Unterzuckerung.",
-        altAnswers: ["Hypoglykämie bedeutet zu niedriger Blutzucker.", "Eine Hypoglykämie ist eine Unterzuckerung.", "Hypoglykämie heißt Unterzuckerung."],
+        altAnswers: ["Hypoglykämie bedeutet zu niedrigen Blutzucker.", "Eine Hypoglykämie ist eine Unterzuckerung.", "Hypoglykämie heißt Unterzuckerung."],
         explanation: "\"Hypo-\" = too little; \"die Unterzuckerung\" is the everyday word.",
       },
       {
@@ -568,9 +568,9 @@ export const DE_C2_U03_EXTRA: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into plain German.",
         source: "Hypotension means low blood pressure.",
-        answer: "Hypotonie bedeutet niedriger Blutdruck.",
-        altAnswers: ["Hypotonie bedeutet zu niedriger Blutdruck.", "Hypotonie heißt niedriger Blutdruck.", "Eine Hypotonie ist ein zu niedriger Blutdruck."],
-        explanation: "\"Hypotonie\" is the opposite of \"Hypertonie\".",
+        answer: "Hypotonie bedeutet niedrigen Blutdruck.",
+        altAnswers: ["Hypotonie bedeutet zu niedrigen Blutdruck.", "Hypotonie heißt niedriger Blutdruck.", "Eine Hypotonie ist ein zu niedriger Blutdruck."],
+        explanation: "\"Hypotonie\" is the opposite of \"Hypertonie\". \"Bedeuten\" takes an accusative object (\"niedrigen Blutdruck\"); after \"heißen\" or \"sein\" the nominative stays (\"ein zu niedriger Blutdruck\").",
       },
       {
         type: "fill-blank",
@@ -659,7 +659,7 @@ export const DE_C2_U03_EXTRA: Lesson[] = [
       {
         heading: "Recap: the fixed structure of a Beipackzettel",
         body: [
-          "Every German package leaflet (\"Beipackzettel\", officially \"Packungsbeilage\") follows the same order: \"Was ist ... und wofür wird es angewendet?\" (Anwendungsgebiete), \"Was sollten Sie vor der Einnahme beachten?\" (Gegenanzeigen, Warnhinweise, Wechselwirkungen), \"Wie ist ... einzunehmen?\" (Dosierung), \"Welche Nebenwirkungen sind möglich?\" and \"Wie ist ... aufzubewahren?\".",
+          "Every German package leaflet (\"Beipackzettel\", officially \"Packungsbeilage\") follows the same order: \"Was ist ... und wofür wird es angewendet?\" (\"Anwendungsgebiete\"), \"Was sollten Sie vor der Einnahme beachten?\" (\"Gegenanzeigen\", \"Warnhinweise\", \"Wechselwirkungen\"), \"Wie ist ... einzunehmen?\" (\"Dosierung\"), \"Welche Nebenwirkungen sind möglich?\" and \"Wie ist ... aufzubewahren?\".",
           "The style is impersonal: \"sein\" + zu-infinitive for instructions (\"Die Tabletten sind unzerkaut einzunehmen\" = must be swallowed whole), the passive (\"darf nicht angewendet werden\") and conditional clauses without \"wenn\" (\"Sollten Sie eine größere Menge eingenommen haben, ...\"). The famous TV warning: \"Zu Risiken und Nebenwirkungen lesen Sie die Packungsbeilage und fragen Sie Ihre Ärztin, Ihren Arzt oder in Ihrer Apotheke.\"",
         ],
         examples: [
@@ -696,7 +696,7 @@ export const DE_C2_U03_EXTRA: Lesson[] = [
         prompt: "Translate into leaflet German, with \"sein\" + zu-infinitive.",
         source: "The tablets are to be swallowed whole.",
         answer: "Die Tabletten sind unzerkaut einzunehmen.",
-        altAnswers: ["Die Tabletten sind unzerkaut zu schlucken.", "Die Tabletten sind im Ganzen zu schlucken.", "Die Tabletten müssen unzerkaut eingenommen werden."],
+        altAnswers: ["Die Tabletten sind unzerkaut zu schlucken.", "Die Tabletten sind im Ganzen zu schlucken."],
         explanation: "\"Sein\" + zu-infinitive = must be done; \"unzerkaut\" = without chewing.",
       },
       {
@@ -896,7 +896,7 @@ export const DE_C2_U03_EXTRA: Lesson[] = [
         prompt: "Expand into a full German sentence.",
         source: "Today he already sat on the edge of the bed.",
         answer: "Er hat heute schon an der Bettkante gesessen.",
-        altAnswers: ["Er hat heute schon am Bettrand gesessen.", "Heute hat er schon an der Bettkante gesessen.", "Er saß heute schon an der Bettkante.", "Er hat heute bereits an der Bettkante gesessen."],
+        altAnswers: ["Er hat heute schon am Bettrand gesessen.", "Heute hat er schon an der Bettkante gesessen.", "Er saß heute schon an der Bettkante.", "Er hat heute bereits an der Bettkante gesessen.", "Er ist heute schon an der Bettkante gesessen."],
         explanation: "\"Sitzen\" takes \"haben\" in the north and \"sein\" in the south of Germany and in Austria.",
       },
       {
@@ -913,6 +913,7 @@ export const DE_C2_U03_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: The patient in room 6 needs to fast from midnight.",
         words: ["Der", "Patient", "in", "Zimmer", "6", "ist", "ab", "Mitternacht", "nüchtern."],
         translation: "The patient in room 6 needs to fast from midnight.",
+        altOrders: [["Ab", "Mitternacht", "ist", "der", "Patient", "in", "Zimmer", "6", "nüchtern."]],
         explanation: "\"Nüchtern sein\" = to have nothing to eat or drink before a procedure.",
       },
       {
@@ -920,13 +921,14 @@ export const DE_C2_U03_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: Her daughter will call again tonight.",
         words: ["Die", "Tochter", "ruft", "heute", "Abend", "noch", "einmal", "an."],
         translation: "Her daughter will call again tonight.",
+        altOrders: [["Heute", "Abend", "ruft", "die", "Tochter", "noch", "einmal", "an."]],
         explanation: "Present tense with future meaning; separable \"anrufen\".",
       },
       {
         type: "matching",
         instructions: "Match the telegraphic phrase to its full meaning.",
         pairs: [
-          { left: "Vitalzeichen stabil", right: "pulse, blood pressure and breathing are normal" },
+          { left: "Vitalzeichen stabil", right: "pulse, blood pressure and breathing are stable" },
           { left: "nüchtern ab 0 Uhr", right: "nothing to eat or drink from midnight" },
           { left: "Schmerzen gut eingestellt", right: "pain well controlled by medication" },
           { left: "Z. n. Sturz", right: "had a fall" },

@@ -8,7 +8,7 @@ export const DE_B1_U19: Lesson[] = [
     level: "DE-B1",
     number: 1,
     title: "Adjective Endings, Part 1 of 2: The System",
-    summary: "The whole system on one page: weak endings after der-words, mixed after ein-words, strong with no article, and -en almost everywhere in the dative and genitive.",
+    summary: "Choose the right adjective ending in front of a noun: weak after der-words, mixed after ein-words, strong with no article, and no ending after \"sein\".",
     duration: "15 min",
     sections: [
       {
@@ -28,7 +28,7 @@ export const DE_B1_U19: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "How do you say: The flat is small?",
             options: ["Die Wohnung ist klein.", "Die Wohnung ist kleine.", "Die klein Wohnung ist teuer.", "Die Wohnung ist kleinen."],
             correctIndex: 0,
             explanation: "After \"sein\" the adjective has no ending. Before a noun it would need one: \"die kleine Wohnung\".",
@@ -48,7 +48,7 @@ export const DE_B1_U19: Lesson[] = [
         body: [
           "After \"der, die, das\" and words that behave like them (\"dieser\", \"jeder\", \"welcher\", \"jener\", \"mancher\", \"alle\"), the article shows everything, so the adjective takes only -e or -en.",
           "-e in five places: nominative singular of all three genders (\"der alte Mann\", \"die alte Frau\", \"das alte Haus\") and accusative feminine and neuter (\"die alte Frau\", \"das alte Haus\"). -en everywhere else: masculine accusative (\"den alten Mann\"), the whole dative (\"dem alten Mann\", \"der alten Frau\"), the whole genitive, and every plural (\"die alten Häuser\").",
-          "A useful picture: the five -e cells form an L-shape in the top-left of the table; everything outside the L takes -en.",
+          "A useful picture: in the usual table (nominative, accusative, dative, genitive; masculine, feminine, neuter, plural) the five -e cells sit together in the top two rows, the whole nominative singular plus feminine and neuter accusative; every other cell takes -en.",
         ],
         examples: [
           { es: "Der neue Kollege kommt aus Graz.", en: "The new colleague is from Graz." },
@@ -216,7 +216,7 @@ export const DE_B1_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which phrase is correct?",
+        question: "How do you say: with my old friend?",
         options: ["mit meinem alten Freund", "mit meinem alter Freund", "mit mein alten Freund", "mit meinen alten Freund"],
         correctIndex: 0,
         explanation: "Dative masculine: \"meinem\" + adjective -en.",
@@ -299,7 +299,7 @@ export const DE_B1_U19: Lesson[] = [
         examples: [
           { es: "Bei schönem Wetter frühstücken wir auf dem Balkon.", en: "When the weather's nice we have breakfast on the balcony." },
           { es: "Ich habe den Artikel mit großem Interesse gelesen.", en: "I read the article with great interest." },
-          { es: "Mit freundlichen Grüßen, Lena Schneider", en: "Kind regards, Lena Schneider" },
+          { es: "Mit freundlichen Grüßen Lena Schneider", en: "Kind regards, Lena Schneider" },
           { es: "Ich frage nur aus reiner Neugier.", en: "I'm only asking out of pure curiosity." },
           { es: "Familien mit kleinen Kindern bekommen einen Rabatt.", en: "Families with small children get a discount." },
         ],
@@ -393,7 +393,7 @@ export const DE_B1_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which phrase is correct?",
+        question: "How do you say: with fresh milk?",
         options: ["mit frischer Milch", "mit frischen Milch", "mit frische Milch", "mit frischem Milch"],
         correctIndex: 0,
         explanation: "No article, feminine dative: -er (like \"der\").",
@@ -753,7 +753,7 @@ export const DE_B1_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which pair is correct?",
+        question: "How do you say: the red jumper / a red jumper?",
         options: ["der rote Pullover / ein roter Pullover", "der roter Pullover / ein rote Pullover", "der rote Pullover / ein rote Pullover", "der roten Pullover / ein roter Pullover"],
         correctIndex: 0,
         explanation: "Masculine nominative: -e after \"der\", -er after \"ein\".",
@@ -926,7 +926,7 @@ export const DE_B1_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which phrase is correct for: with a new car?",
+        question: "How do you say: with a new car?",
         options: ["mit einem neuen Auto", "mit einem neues Auto", "mit neuen Auto", "mit ein neues Auto"],
         correctIndex: 0,
         explanation: "Dative neuter after \"einem\": -en.",
@@ -1039,7 +1039,7 @@ export const DE_B1_U19: Lesson[] = [
       {
         heading: "Spelling changes and invariable adjectives",
         body: [
-          "Adjectives in -el drop the e before an ending: \"dunkel\" → \"eine dunkle Wohnung\", \"flexibel\" → \"flexible Arbeitszeiten\". Adjectives in -er after a diphthong or in common words do the same: \"teuer\" → \"ein teures Auto\", \"sauer\" → \"saure Gurken\". \"Hoch\" loses its c: \"ein hohes Haus\", \"hohe Preise\".",
+          "Adjectives in -el drop the e before an ending: \"dunkel\" → \"eine dunkle Wohnung\", \"flexibel\" → \"flexible Arbeitszeiten\". Adjectives in -er after \"au\" or \"eu\" usually do the same: \"teuer\" → \"ein teures Auto\", \"sauer\" → \"saure Gurken\". \"Hoch\" loses its c: \"ein hohes Haus\", \"hohe Preise\".",
           "A few adjectives never take endings: colours from other languages (\"lila\", \"rosa\", \"beige\", \"orange\" in careful speech: \"ein lila Kleid\") and adjectives made from city names with -er, which are also capitalised: \"das Berliner Wetter\", \"die Kölner Altstadt\", \"der Hamburger Hafen\", \"Wiener Schnitzel\".",
           "Colloquially people say \"ein lilanes Kleid\" or \"orangene Socken\"; it's very common, but in writing use the invariable form or \"ein Kleid in Lila\".",
         ],
@@ -1058,7 +1058,7 @@ export const DE_B1_U19: Lesson[] = [
             prompt: "Translate into German.",
             source: "That's an expensive car.",
             answer: "Das ist ein teures Auto.",
-            explanation: "\"Teuer\" drops its e before an ending: \"teures\", not \"*teueres*\".",
+            explanation: "\"Teuer\" normally drops its e before an ending: \"teures\" (\"teueres\" is rare and old-fashioned).",
           },
           {
             type: "translate",
@@ -1151,7 +1151,7 @@ export const DE_B1_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which phrase is correct?",
+        question: "How do you say: the port of Hamburg?",
         options: ["der Hamburger Hafen", "der Hamburgere Hafen", "der hamburger Hafen", "der Hamburgerische Hafen"],
         correctIndex: 0,
         explanation: "City adjectives in -er: capitalised, no ending.",
@@ -1301,7 +1301,7 @@ export const DE_B1_U19: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'm interested in your old piano.",
         answer: "Ich interessiere mich für Ihr altes Klavier.",
-        altAnswers: ["Ich interessiere mich für dein altes Klavier."],
+        altAnswers: ["Ich interessiere mich für dein altes Klavier.", "Ich interessiere mich für euer altes Klavier."],
         explanation: "Neuter accusative after \"Ihr\": -es.",
       },
       {
@@ -1519,7 +1519,7 @@ export const DE_B1_U19: Lesson[] = [
     level: "DE-B1",
     number: 9,
     title: "Themed Review: Starting Out in a New Country",
-    summary: "A newcomer describes the first weeks: new friends, a small flat, a strange custom; adjective endings in every case.",
+    summary: "Read a newcomer's letter about his first weeks in Leipzig and describe new friends, a flat and strange customs with adjective endings in every case.",
     duration: "14 min",
     sections: [
       {
@@ -1656,7 +1656,7 @@ export const DE_B1_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say: I've met lots of nice people?",
         options: ["Ich habe viele nette Leute kennengelernt.", "Ich habe viele netten Leute kennengelernt.", "Ich habe viele netter Leute kennengelernt.", "Ich habe viel nette Leute kennengelernt."],
         correctIndex: 0,
         explanation: "After \"viele\": strong -e.",
@@ -1689,14 +1689,14 @@ export const DE_B1_U19: Lesson[] = [
     level: "DE-B1",
     number: 10,
     title: "Error Hunt: Adjective Endings",
-    summary: "Find and fix six classic ending mistakes: \"*ein alte Mann*\", \"*mit einem neuen Freundin*\", \"*viele junge Leuten*\", \"*die teuere Wohnung*\", \"*bei schönes Wetter*\", \"*das hoche Haus*\".",
+    summary: "Find and fix six classic ending mistakes: \"*ein alte Mann*\", \"*mit einem neuen Freundin*\", \"*viele junge Leuten*\", \"*eine dunkele Farbe*\", \"*bei schönes Wetter*\", \"*das hoche Haus*\".",
     duration: "13 min",
     sections: [
       {
         heading: "The six classic mistakes",
         body: [
           "1. Missing -er/-es after \"ein\": \"*ein alte Mann*\" → \"ein alter Mann\". 2. Wrong article, not wrong adjective: \"*mit einem neuen Freundin*\" → \"mit einer neuen Freundin\" (feminine). 3. Dative -n on the wrong word: \"*viele junge Leuten*\" → \"viele junge Leute\" (nominative; \"Leuten\" only in the dative).",
-          "4. Keeping the e of -er/-el: \"*die teuere Wohnung*\" → \"die teure Wohnung\"; \"*eine dunkele Farbe*\" → \"eine dunkle Farbe\". 5. Nominative ending in the dative: \"*bei schönes Wetter*\" → \"bei schönem Wetter\". 6. \"Hoch\" before a noun: \"*das hoche Haus*\" → \"das hohe Haus\".",
+          "4. Keeping the e of -el: \"*eine dunkele Farbe*\" → \"eine dunkle Farbe\". With -er after \"au\" / \"eu\" the e normally drops too: \"die teure Wohnung\" (\"teuere\" is rare and sounds old-fashioned). 5. Nominative ending in the dative: \"*bei schönes Wetter*\" → \"bei schönem Wetter\". 6. \"Hoch\" before a noun: \"*das hoche Haus*\" → \"das hohe Haus\".",
           "When you check your writing, find each noun, decide its gender and case, look at the article, then choose the ending. It takes seconds once it's a habit.",
         ],
         examples: [
@@ -1719,10 +1719,10 @@ export const DE_B1_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix: \"*Die teuere Wohnung ist leer.*\" Write: The expensive flat is empty.",
+            prompt: "Improve: \"Die teuere Wohnung ist leer.\" (use the usual short form) Write: The expensive flat is empty.",
             source: "The expensive flat is empty.",
             answer: "Die teure Wohnung ist leer.",
-            explanation: "\"Teuer\" drops its e before an ending: \"teure\".",
+            explanation: "\"Teuer\" normally drops its e before an ending: \"teure\". \"Teuere\" is rare; \"dunkel\" → \"dunkle\" always drops it.",
           },
         ],
       },

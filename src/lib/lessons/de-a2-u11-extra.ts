@@ -9,13 +9,13 @@ export const DE_A2_U11_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Two-Way Prepositions, Part 1 of 3",
-    summary: "Location with the dative in fresh sentences.",
+    summary: "Say where people and things are, with a two-way preposition and the dative, in fresh sentences.",
     duration: "10 min",
     sections: [
       {
         heading: "Recap: wo? + dative",
         body: [
-          "When you say where something is, the two-way prepositions (in, an, auf, über, unter, vor, hinter, neben, zwischen) take the dative: \"dem\" for masculine and neuter, \"der\" for feminine, \"den\" + -n for plural. \"In dem\" → \"im\", \"an dem\" → \"am\".",
+          "When you say where something is, the two-way prepositions \"in\", \"an\", \"auf\", \"über\", \"unter\", \"vor\", \"hinter\", \"neben\" and \"zwischen\" take the dative: \"dem\" for masculine and neuter, \"der\" for feminine, \"den\" + -n for plural. \"In dem\" → \"im\", \"an dem\" → \"am\".",
           "\"Auf\" for horizontal surfaces, \"an\" for vertical ones and edges, \"in\" for inside.",
         ],
         examples: [
@@ -52,7 +52,8 @@ export const DE_A2_U11_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "I like sitting by the window.",
         answer: "Ich sitze gern am Fenster.",
-        explanation: "\"Am Fenster\" = by the window.",
+        altAnswers: ["Ich mag am Fenster sitzen."],
+        explanation: "\"Am Fenster\" = by the window. \"Mögen\" + infinitive is also accepted, but verb + \"gern\" is more natural.",
       },
       {
         type: "translate",
@@ -70,7 +71,7 @@ export const DE_A2_U11_EXTRA: Lesson[] = [
         source: "My bike is in the cellar.",
         answer: "Mein Fahrrad steht im Keller.",
         altAnswers: ["Mein Fahrrad ist im Keller.", "Mein Rad steht im Keller."],
-        explanation: "\"Im Keller\" = in dem Keller.",
+        explanation: "\"Im Keller\" = \"in dem Keller\".",
       },
       {
         type: "translate",
@@ -148,7 +149,7 @@ export const DE_A2_U11_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "Ich sitze gern am Fenster.",
-        explanation: "\"Am\" = an dem.",
+        explanation: "\"Am\" = \"an dem\".",
       },
       {
         type: "speak",
@@ -164,14 +165,14 @@ export const DE_A2_U11_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Two-Way Prepositions, Part 2 of 3",
-    summary: "Direction with the accusative in fresh sentences.",
+    summary: "Say where people and things are going, with a two-way preposition and the accusative, in fresh sentences.",
     duration: "10 min",
     sections: [
       {
         heading: "Recap: wohin? + accusative",
         body: [
           "When something moves to a place, the two-way prepositions take the accusative: \"den\" (masculine), \"die\" (feminine), \"das\" (neuter), \"die\" (plural). \"In das\" → \"ins\", \"an das\" → \"ans\".",
-          "Verbs like \"gehen\", \"fahren\", \"bringen\", \"stellen\", \"legen\", \"hängen\", \"setzen\" usually point to a wohin.",
+          "Verbs like \"gehen\", \"fahren\", \"bringen\", \"stellen\", \"legen\", \"hängen\", \"setzen\" usually answer \"wohin?\".",
         ],
         examples: [
           { es: "Ich gehe in den Supermarkt.", en: "I'm going to the supermarket." },
@@ -225,7 +226,7 @@ export const DE_A2_U11_EXTRA: Lesson[] = [
         source: "We're going to the cinema tonight.",
         answer: "Wir gehen heute Abend ins Kino.",
         altAnswers: ["Heute Abend gehen wir ins Kino."],
-        explanation: "\"Ins Kino\" = in das Kino.",
+        explanation: "\"Ins Kino\" = \"in das Kino\".",
       },
       {
         type: "translate",
@@ -317,7 +318,7 @@ export const DE_A2_U11_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Two-Way Prepositions, Part 3 of 3",
-    summary: "Mixed wo? and wohin? with contractions in short texts.",
+    summary: "Switch between \"wo?\" and \"wohin?\", with the contractions \"im\", \"am\", \"ins\" and \"ans\", in short texts.",
     duration: "10 min",
     sections: [
       {
@@ -348,7 +349,7 @@ export const DE_A2_U11_EXTRA: Lesson[] = [
             en: "Mia goes [into the] bathroom.",
             sentence: "Mia geht ___ Bad.",
             answer: "ins",
-            explanation: "Direction: \"ins\" = in das.",
+            explanation: "Direction: \"ins\" = \"in das\".",
           },
         ],
       },
@@ -386,7 +387,7 @@ export const DE_A2_U11_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "We're going to the seaside.",
         answer: "Wir fahren ans Meer.",
-        explanation: "\"Ans\" = an das.",
+        explanation: "\"Ans\" = \"an das\".",
       },
       {
         type: "translate",
@@ -472,14 +473,14 @@ export const DE_A2_U11_EXTRA: Lesson[] = [
     number: 4,
     optional: true,
     title: "Extra Practice: Contrast Clinic: An, Auf or In?",
-    summary: "Am Meer, auf dem Markt, in der Stadt, an der Haltestelle: which preposition goes with which place.",
+    summary: "Choose the right preposition for each kind of place: \"am Meer\", \"auf dem Markt\", \"in der Stadt\", \"an der Haltestelle\".",
     duration: "10 min",
     sections: [
       {
         heading: "Recap: places have their own preposition",
         body: [
           "\"In\" for enclosed places and areas: \"in der Stadt\", \"im Kino\", \"im Supermarkt\", \"in den Bergen\". \"An\" for edges and water: \"am Meer\", \"am See\", \"am Strand\", \"an der Haltestelle\", \"am Bahnhof\" (by the station). \"Auf\" for open spaces and events: \"auf dem Markt\", \"auf dem Land\" (in the country), \"auf der Party\", \"auf dem Spielplatz\".",
-          "The case rule is unchanged: \"ich bin auf dem Land\" (wo?) vs \"ich fahre aufs Land\" (wohin?).",
+          "The case rule is unchanged: \"ich bin auf dem Land\" (\"wo?\") vs \"ich fahre aufs Land\" (\"wohin?\").",
         ],
         examples: [
           { es: "Wir wohnen auf dem Land.", en: "We live in the country." },
@@ -567,7 +568,7 @@ export const DE_A2_U11_EXTRA: Lesson[] = [
         source: "We're going to the beach.",
         answer: "Wir gehen an den Strand.",
         altAnswers: ["Wir fahren an den Strand.", "Wir gehen zum Strand."],
-        explanation: "Direction: \"an den Strand\" (zum Strand is also common).",
+        explanation: "Direction: \"an den Strand\" (\"zum Strand\" is also common).",
       },
       {
         type: "fill-blank",
@@ -742,10 +743,10 @@ export const DE_A2_U11_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your friend asks: Wo sind die Duschen? Which answer is correct?",
+        question: "Your friend asks: \"Wo sind die Duschen?\" Which answer is correct?",
         options: ["Sie sind neben der Umkleide.", "Sie sind neben die Umkleide.", "Sie gehen neben der Umkleide.", "Sie sind nebens Umkleide."],
         correctIndex: 0,
-        explanation: "Wo? → dative.",
+        explanation: "\"Wo?\" → dative.",
       },
       {
         type: "listen-choose",
@@ -774,7 +775,7 @@ export const DE_A2_U11_EXTRA: Lesson[] = [
     number: 6,
     optional: true,
     title: "Extra Practice: Say It Yourself: My Room",
-    summary: "Guided speaking: describe where everything is in your room.",
+    summary: "Describe aloud where everything is in your room, with position verbs and the dative.",
     duration: "10 min",
     sections: [
       {
@@ -933,7 +934,7 @@ export const DE_A2_U11_EXTRA: Lesson[] = [
         heading: "Recap: Ayşe moves to Cologne",
         body: [
           "Read the story: \"Am Samstag ist Ayşe nach Köln gezogen. Ihre Freunde haben die Kisten in den Flur getragen. Mehmet hat den Schrank ins Schlafzimmer gebracht und neben das Fenster gestellt. Am Abend haben alle auf dem Boden gesessen und Pizza gegessen. Die Kisten stehen noch heute im Flur!\"",
-          "Each preposition phrase answers either wohin? (accusative: \"in den Flur\", \"ins Schlafzimmer\", \"neben das Fenster\") or wo? (dative: \"auf dem Boden\", \"im Flur\").",
+          "Each preposition phrase answers either \"wohin?\" (accusative: \"in den Flur\", \"ins Schlafzimmer\", \"neben das Fenster\") or \"wo?\" (dative: \"auf dem Boden\", \"im Flur\").",
         ],
         examples: [
           { es: "Ihre Freunde haben die Kisten in den Flur getragen.", en: "Her friends carried the boxes into the hall." },
@@ -949,7 +950,7 @@ export const DE_A2_U11_EXTRA: Lesson[] = [
             en: "Her friends carried the boxes [into the] hall.",
             sentence: "Ihre Freunde haben die Kisten ___ Flur getragen.",
             answer: "in den",
-            explanation: "Wohin? → accusative masculine.",
+            explanation: "\"Wohin?\" → accusative masculine.",
           },
           {
             type: "fill-blank",
@@ -957,7 +958,7 @@ export const DE_A2_U11_EXTRA: Lesson[] = [
             en: "In the evening everyone sat [on the] floor.",
             sentence: "Am Abend haben alle ___ Boden gesessen.",
             answer: "auf dem",
-            explanation: "\"Sitzen\" = wo? → dative.",
+            explanation: "\"Sitzen\" = \"wo?\" → dative.",
           },
         ],
       },
@@ -969,7 +970,7 @@ export const DE_A2_U11_EXTRA: Lesson[] = [
         en: "Mehmet took the wardrobe [into the] bedroom.",
         sentence: "Mehmet hat den Schrank ___ Schlafzimmer gebracht.",
         answer: "ins",
-        explanation: "\"Ins\" = in das: direction.",
+        explanation: "\"Ins\" = \"in das\": direction.",
       },
       {
         type: "fill-blank",
@@ -1079,7 +1080,7 @@ export const DE_A2_U11_EXTRA: Lesson[] = [
     number: 8,
     optional: true,
     title: "Extra Practice: Drill Circuit: Stellen, Legen, Hängen in the Perfekt",
-    summary: "Weak action verbs vs strong position verbs in the past.",
+    summary: "Use the weak action verbs (\"gestellt\", \"gelegt\") and the strong position verbs (\"gestanden\", \"gelegen\") correctly in the Perfekt.",
     duration: "10 min",
     sections: [
       {
@@ -1237,14 +1238,14 @@ export const DE_A2_U11_EXTRA: Lesson[] = [
     number: 9,
     optional: true,
     title: "Extra Practice: Speed Round: Dative or Accusative?",
-    summary: "One second per sentence: which case after the preposition?",
+    summary: "Decide in a second whether a two-way preposition needs the dative or the accusative.",
     duration: "8 min",
     sections: [
       {
         heading: "Recap: the one-second test",
         body: [
-          "Ask \"wo?\" or \"wohin?\". Wo? → dative (dem, der, dem, den -n; im, am). Wohin? → accusative (den, die, das, die; ins, ans).",
-          "Position verbs (sein, stehen, liegen, sitzen, wohnen, warten, bleiben) → dative. Movement verbs (gehen, fahren, stellen, legen, setzen, bringen) → accusative.",
+          "Ask \"wo?\" or \"wohin?\". \"Wo?\" → dative: \"dem\", \"der\", \"dem\", \"den\" + -n; \"im\", \"am\". \"Wohin?\" → accusative: \"den\", \"die\", \"das\", \"die\"; \"ins\", \"ans\".",
+          "Verbs of position and staying put, such as \"sein\", \"stehen\", \"liegen\", \"sitzen\", \"wohnen\", \"warten\", \"bleiben\" → dative. Verbs of movement to a place, such as \"gehen\", \"fahren\", \"stellen\", \"legen\", \"setzen\", \"bringen\" → accusative.",
         ],
         examples: [
           { es: "Ich bin in der Schule.", en: "I'm at school." },
@@ -1259,7 +1260,7 @@ export const DE_A2_U11_EXTRA: Lesson[] = [
             en: "He goes out [onto the] balcony.",
             sentence: "Er geht ___ Balkon.",
             answer: "auf den",
-            explanation: "Wohin? → accusative.",
+            explanation: "\"Wohin?\" → accusative.",
           },
           {
             type: "fill-blank",
@@ -1267,7 +1268,7 @@ export const DE_A2_U11_EXTRA: Lesson[] = [
             en: "He's sitting [on the] balcony.",
             sentence: "Er sitzt ___ Balkon.",
             answer: "auf dem",
-            explanation: "Wo? → dative.",
+            explanation: "\"Wo?\" → dative.",
           },
         ],
       },
@@ -1359,7 +1360,7 @@ export const DE_A2_U11_EXTRA: Lesson[] = [
         question: "How do you say: I park in front of the house?",
         options: ["Ich parke vor dem Haus.", "Ich parke vor das Haus.", "Ich parke vors Haus.", "Ich parke vor den Haus."],
         correctIndex: 0,
-        explanation: "\"Parken\" asks wo?: dative.",
+        explanation: "\"Parken\" asks \"wo?\": dative.",
       },
       {
         type: "listen-choose",

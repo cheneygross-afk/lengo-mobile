@@ -135,7 +135,7 @@ export const DE_C2_U27: Lesson[] = [
             prompt: "Put the words in order to say: It is expected that prices will rise.",
             words: ["Es", "wird", "erwartet,", "dass", "die Preise", "steigen."],
             translation: "It is expected that prices will rise.",
-            explanation: "\"Es wird erwartet, dass...\": an impersonal passive; German uses the present tense for the future in the dass-clause.",
+            explanation: "\"Es wird erwartet, dass...\": an impersonal passive; German often uses the present tense for the future in the dass-clause (\"steigen werden\" is also correct).",
           },
         ],
       },
@@ -1167,7 +1167,7 @@ export const DE_C2_U27: Lesson[] = [
         body: [
           "Now give the concerns of the citizens' initiative (\"die Bürgerinitiative\") their due. Attribute them and use Konjunktiv I or II: \"Die Bürgerinitiative befürchtet, die Anlagen gefährdeten seltene Vogelarten.\" Acknowledge them: \"Diese Sorgen sind ernst zu nehmen.\"",
           "Then bring in the other side with connectors that add weight: \"Dem steht gegenüber, dass...\" (this is offset by the fact that...), \"Hinzu kommt, dass...\" (in addition), \"Nicht zuletzt...\" (last but not least), and \"einerseits ... andererseits\".",
-          "Keep facts and evaluations apart: \"Die Gemeinde erhielte jährlich Pachteinnahmen\" is a fact (in Konjunktiv II because it depends on the vote); \"Das wäre ein Gewinn für alle\" is your judgement.",
+          "Keep facts and evaluations apart: \"Die Gemeinde erhielte jährlich Pachteinnahmen\" is a factual claim (in Konjunktiv II because it depends on the vote); \"Das wäre ein Gewinn für alle\" is your judgement.",
         ],
         examples: [
           { es: "Die Bürgerinitiative befürchtet, die Anlagen gefährdeten seltene Vogelarten.", en: "The citizens' initiative fears that the turbines endanger rare bird species." },

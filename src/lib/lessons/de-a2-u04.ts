@@ -8,7 +8,7 @@ export const DE_A2_U04: Lesson[] = [
     level: "DE-A2",
     number: 1,
     title: "The Präteritum, Part 1 of 2",
-    summary: "Say how things were and what you had with war and hatte, the one-word past of sein and haben.",
+    summary: "Say how things were and what you had with \"war\" and \"hatte\", the one-word past of \"sein\" and \"haben\".",
     duration: "13 min",
     sections: [
       {
@@ -68,7 +68,7 @@ export const DE_A2_U04: Lesson[] = [
             source: "I didn't have time.",
             answer: "Ich hatte keine Zeit.",
             altAnswers: ["Ich habe keine Zeit gehabt."],
-            explanation: "\"Hatte\" + \"keine Zeit\" (kein for a noun without an article).",
+            explanation: "\"Hatte\" + \"keine Zeit\" (\"kein\" for a noun without an article).",
           },
           {
             type: "translate",
@@ -169,7 +169,7 @@ export const DE_A2_U04: Lesson[] = [
         en: "[Were you] at the party? (to friends)",
         sentence: "___ auf der Party?",
         answer: "Wart ihr",
-        explanation: "Ihr form of war: \"wart\" (no e, unlike \"hattet\").",
+        explanation: "Ihr form of \"war\": \"wart\" (no e, unlike \"hattet\").",
       },
       {
         type: "multiple-choice",
@@ -213,13 +213,13 @@ export const DE_A2_U04: Lesson[] = [
     level: "DE-A2",
     number: 2,
     title: "Pattern Practice: Ich war, du warst",
-    summary: "Drill war and hatte through every person, and avoid the traps ich wart and er warte.",
+    summary: "Drill \"war\" and \"hatte\" through every person, and avoid the traps \"*ich wart*\" and \"*er warte*\".",
     duration: "10 min",
     sections: [
       {
         heading: "War through every person",
         body: [
-          "ich war, du warst, er/sie/es war, wir waren, ihr wart, sie/Sie waren. Two pairs share a form: \"ich war\" = \"er war\", and \"wir waren\" = \"sie waren\" = \"Sie waren\".",
+          "\"Ich war, du warst, er/sie/es war, wir waren, ihr wart, sie/Sie waren.\" Two pairs share a form: \"ich war\" = \"er war\", and \"wir waren\" = \"sie waren\" = \"Sie waren\".",
           "Trap 1: \"*ich wart*\" or \"*ich warte*\". \"Ich warte\" is a completely different verb: I wait (from \"warten\"). \"Ich war\" has no ending.",
           "Trap 2: \"ihr wart\" ends in -t without an e; \"ihr hattet\" has one. Just learn the two shapes.",
         ],
@@ -229,7 +229,7 @@ export const DE_A2_U04: Lesson[] = [
           { es: "Mein Opa war Bäcker.", en: "My grandad was a baker." },
           { es: "Wir waren Nachbarn.", en: "We were neighbours." },
           { es: "Ihr wart gestern so still.", en: "You were so quiet yesterday. (to friends)" },
-          { es: "Waren Sie schon mal in München?", en: "Have you ever been to Munich? (polite)" },
+          { es: "Waren Sie schon mal in München?", en: "Have you ever been to Munich? (formal)" },
         ],
         checkpoint: [
           {
@@ -253,7 +253,7 @@ export const DE_A2_U04: Lesson[] = [
       {
         heading: "Hatte through every person",
         body: [
-          "ich hatte, du hattest, er/sie/es hatte, wir hatten, ihr hattet, sie/Sie hatten. Stem \"hatt-\" + the endings -e, -est, -e, -en, -et, -en.",
+          "\"Ich hatte, du hattest, er/sie/es hatte, wir hatten, ihr hattet, sie/Sie hatten.\" Stem \"hatt-\" + the endings -e, -est, -e, -en, -et, -en.",
           "Don't drop a t: \"*hate*\", \"*hatest*\" are spelling slips. And don't confuse \"hatte\" (had) with \"hätte\" (would have), which you'll meet at the Intermediate level.",
         ],
         examples: [
@@ -359,7 +359,7 @@ export const DE_A2_U04: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Have you ever been to Munich? (polite)",
+        source: "Have you ever been to Munich? (formal)",
         answer: "Waren Sie schon mal in München?",
         altAnswers: ["Waren Sie schon einmal in München?", "Sind Sie schon mal in München gewesen?"],
         explanation: "Germans use \"war\" for have you ever been.",
@@ -394,7 +394,7 @@ export const DE_A2_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Mia and Leon were at the theatre yesterday. Which completes: Mia und Leon ___ gestern im Theater.",
+        question: "Mia and Leon were at the theatre yesterday. Which completes: \"Mia und Leon ___ gestern im Theater.\"",
         options: ["waren", "war", "wart", "warst"],
         correctIndex: 0,
         explanation: "Two people = they: \"waren\".",
@@ -417,7 +417,7 @@ export const DE_A2_U04: Lesson[] = [
     level: "DE-A2",
     number: 3,
     title: "Drill Circuit: Es gab, ich hatte Hunger, es war kalt",
-    summary: "High-frequency past chunks: es gab (there was/were), ich hatte Hunger, es war kalt, wie war...?",
+    summary: "Use the high-frequency past chunks \"es gab\" (there was/were), \"ich hatte Hunger\", \"es war kalt\" and \"Wie war...?\".",
     duration: "11 min",
     sections: [
       {
@@ -620,7 +620,7 @@ export const DE_A2_U04: Lesson[] = [
     level: "DE-A2",
     number: 4,
     title: "The Präteritum, Part 2 of 2",
-    summary: "The modal verbs in the past: drop the umlaut, add -te: konnte, musste, durfte, mochte, wollte, sollte.",
+    summary: "Put the modal verbs in the past: drop the umlaut, add -te: \"konnte\", \"musste\", \"durfte\", \"mochte\", \"wollte\", \"sollte\".",
     duration: "14 min",
     sections: [
       {
@@ -927,7 +927,7 @@ export const DE_A2_U04: Lesson[] = [
             type: "speak",
             text: "Ich musste lange arbeiten.",
             prompt: "Say it in German: I had to work late.",
-            tip: "Say the -te clearly: MUSS-te.",
+            tip: "Say the -te of \"musste\" clearly: MUSS-te.",
             explanation: "\"Musste\" + infinitive.",
           },
         ],
@@ -1206,7 +1206,7 @@ export const DE_A2_U04: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "As a child I [wasn't allowed to] watch TV.",
+        en: "As a child I [was] not [allowed to] watch TV.",
         sentence: "Als Kind ___ ich nicht fernsehen.",
         answer: "durfte",
         explanation: "Forbidden: \"durfte nicht\".",
@@ -1409,7 +1409,7 @@ export const DE_A2_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Oma says: Wir mussten nicht zur Schule gehen. What does she mean?",
+        question: "Oma says: \"Wir mussten nicht zur Schule gehen.\" What does she mean?",
         options: ["We didn't have to go to school.", "We weren't allowed to go to school.", "We couldn't go to school.", "We didn't want to go to school."],
         correctIndex: 0,
         explanation: "\"Nicht müssen\" = not have to.",
@@ -1450,7 +1450,7 @@ export const DE_A2_U04: Lesson[] = [
     level: "DE-A2",
     number: 8,
     title: "Build-Up: Paint the Scene",
-    summary: "Grow a description of a past scene from war, hatte and es gab, then add a modal.",
+    summary: "Grow a description of a past scene from \"war\", \"hatte\" and \"es gab\", then add a modal.",
     duration: "12 min",
     sections: [
       {

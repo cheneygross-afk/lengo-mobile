@@ -334,7 +334,7 @@ export const DE_B1_S06_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "regnerisch", en: "rainy", forms: ["regnerischen"] },
     { es: "der Ländler", en: "Ländler (Austrian folk dance tune)", forms: ["ländler"] },
     { es: "beibringen", en: "to teach", forms: ["beigebracht"] },
-    { es: "klatschen", en: "to clap", forms: ["klatschte"] },
+    { es: "der Rock", en: "(here) long coat, frock coat (usually: skirt)", forms: ["rock"] },
     { es: "sich verwandeln", en: "to turn into, to transform", forms: ["verwandelte"] },
     { es: "das Studentenwohnheim", en: "student residence, hall of residence", forms: ["studentenwohnheim"] },
   ],

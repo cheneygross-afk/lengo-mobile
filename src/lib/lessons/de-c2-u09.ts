@@ -127,7 +127,7 @@ export const DE_C2_U09: Lesson[] = [
         prompt: "Translate into German.",
         source: "Well I never, I didn't expect to see you here!",
         answer: "Na so was, dich hätte ich hier nicht erwartet!",
-        altAnswers: ["Na so was, mit dir hätte ich hier nicht gerechnet!", "Na so was, Sie hätte ich hier nicht erwartet!", "Na so was, mit Ihnen hätte ich hier nicht gerechnet!", "Na so was, dich hätte ich hier nicht vermutet!"],
+        altAnswers: ["Na so was, mit dir hätte ich hier nicht gerechnet!", "Na so was, Sie hätte ich hier nicht erwartet!", "Na so was, mit Ihnen hätte ich hier nicht gerechnet!", "Na so was, dich hätte ich hier nicht vermutet!", "Na so was, euch hätte ich hier nicht erwartet!"],
         explanation: "\"Na so was!\" = well I never; Konjunktiv II past \"hätte ... erwartet\" for the unexpected.",
       },
       {
@@ -204,7 +204,7 @@ export const DE_C2_U09: Lesson[] = [
         type: "speak",
         text: "Du hast gekündigt? Nicht dein Ernst!",
         prompt: "Say it in German to a friend: You've quit? You can't be serious!",
-        tip: "Stress ERNST and let the voice fall.",
+        tip: "Stress \"Ernst\" and let the voice fall.",
         explanation: "Disbelief with \"Nicht dein Ernst!\".",
       },
     ],
@@ -333,7 +333,7 @@ export const DE_C2_U09: Lesson[] = [
         prompt: "Translate into German.",
         source: "I've had enough! I'm leaving.",
         answer: "Mir reicht's! Ich gehe.",
-        altAnswers: ["Mir reicht es! Ich gehe.", "Jetzt reicht's! Ich gehe.", "Mir reicht's! Ich gehe jetzt.", "Ich hab genug! Ich gehe."],
+        altAnswers: ["Mir reicht es! Ich gehe.", "Jetzt reicht's! Ich gehe.", "Mir reicht's! Ich gehe jetzt.", "Ich hab genug! Ich gehe.", "Ich habe genug! Ich gehe."],
         explanation: "\"Mir reicht es\" (spoken reicht's): dative person + \"reichen\" (to be enough).",
       },
       {
@@ -519,7 +519,7 @@ export const DE_C2_U09: Lesson[] = [
           {
             type: "speak",
             text: "Doch, das stimmt!",
-            tip: "Stress DOCH strongly: it's a contradiction.",
+            tip: "Stress \"doch\" strongly: it's a contradiction.",
             explanation: "Stressed \"doch\" contradicts a negative statement.",
           },
         ],
@@ -638,7 +638,7 @@ export const DE_C2_U09: Lesson[] = [
         heading: "\"Was für ein ...!\" and \"Wie ...!\"",
         body: [
           "\"Was für ein\" + noun expresses amazement: \"Was für ein schöner Tag!\", \"Was für eine Überraschung!\", \"Was für ein Chaos!\". The trap: \"ein\" does not stay nominative. It takes the case of the noun's role in the sentence: \"Was für einen Unsinn du redest!\" (accusative: you talk nonsense), \"Mit was für einem Idioten habe ich da gesprochen!\" (dative after \"mit\"). \"Für\" here is not the preposition that governs the accusative.",
-          "With plurals and uncountables there is no article: \"Was für Leute!\", \"Was für ein Wetter!\" (\"Wetter\" takes \"ein\" in this phrase), \"Was für Glück wir hatten!\". Colloquially \"Was für'n Tag!\".",
+          "Plurals take no article: \"Was für Leute!\". With uncountables both occur, but in exclamations \"ein\" is the norm: \"Was für ein Wetter!\", \"Was für ein Glück wir hatten!\" (\"Was für Glück\" without \"ein\" is rarer). Colloquially \"Was für'n Tag!\".",
           "\"Wie\" + adjective or adverb: \"Wie schön!\", \"Wie nett von dir!\", \"Wie schnell die Zeit vergeht!\" (verb at the end in a full clause). \"Welch\" is the literary variant: \"Welch ein Glück!\", \"Welch schöner Tag!\".",
         ],
         examples: [
@@ -1505,7 +1505,7 @@ export const DE_C2_U09: Lesson[] = [
         body: [
           "Every diminutive in \"-chen\" or \"-lein\" is neuter, whatever the gender of the base noun: \"der Hund\" → \"das Hündchen\", \"die Katze\" → \"das Kätzchen\", \"die Frau\" → \"das Fräulein\". This is why \"das Mädchen\" (from \"Magd\", maid) is neuter, a famous oddity that English speakers find strange. In modern usage the pronoun is often \"sie\" when the girl is older: \"Das Mädchen ... sie\".",
           "The stem vowel usually takes an umlaut: \"Haus\" → \"Häuschen\", \"Buch\" → \"Büchlein\", \"Stadt\" → \"Städtchen\", \"Hund\" → \"Hündchen\". A final \"-e\" drops: \"Tasse\" → \"Tässchen\", \"Katze\" → \"Kätzchen\", \"Blume\" → \"Blümchen\". The plural is the same as the singular: \"ein Häuschen, zwei Häuschen\".",
-          "\"-chen\" is the standard form; \"-lein\" is more literary, southern or poetic (\"Büchlein\", \"Vöglein\", \"Männlein\"). After \"-ch\" and \"-g\", \"-lein\" or \"-elchen\" is used to avoid awkward sounds: \"Buch\" → \"Büchlein\", \"Zug\" → \"Züglein\" (rare), \"Ring\" → \"Ringlein\".",
+          "\"-chen\" is the standard form; \"-lein\" is more literary, southern or poetic (\"Büchlein\", \"Vöglein\", \"Männlein\"). After \"-ch\" (and sometimes \"-g\"), \"-lein\" or \"-elchen\" is used to avoid awkward sounds: \"Buch\" → \"Büchlein\", \"Zug\" → \"Züglein\" (rare), \"Ring\" → \"Ringlein\".",
         ],
         examples: [
           { es: "Sie wohnen in einem kleinen Häuschen am See.", en: "They live in a little cottage by the lake." },
@@ -1626,7 +1626,7 @@ export const DE_C2_U09: Lesson[] = [
         source: "The girl has lost her bike.",
         answer: "Das Mädchen hat ihr Fahrrad verloren.",
         altAnswers: ["Das Mädchen hat sein Fahrrad verloren.", "Das Mädchen hat ihr Rad verloren.", "Das Mädchen hat sein Rad verloren."],
-        explanation: "\"Das Mädchen\" is neuter; the possessive can follow grammar (\"sein\") or natural gender (\"ihr\"), and \"ihr\" is now more common.",
+        explanation: "\"Das Mädchen\" is neuter; the possessive can follow grammar (\"sein\") or natural gender (\"ihr\"); both are correct, and \"ihr\" is very common in speech.",
       },
       {
         type: "fill-blank",
@@ -1936,7 +1936,7 @@ export const DE_C2_U09: Lesson[] = [
             prompt: "Translate into German. (to a friend)",
             source: "Don't be a coward!",
             answer: "Sei kein Feigling!",
-            altAnswers: ["Sei doch kein Feigling!", "Seid keine Feiglinge!", "Seien Sie kein Feigling!"],
+            altAnswers: ["Sei doch kein Feigling!"],
             explanation: "\"Der Feigling\" (from \"feige\", cowardly): \"-ling\" with a pejorative value.",
           },
           {
@@ -1993,7 +1993,7 @@ export const DE_C2_U09: Lesson[] = [
           {
             type: "speak",
             text: "Meine Oma ist steinalt, aber kerngesund.",
-            tip: "Stress the prefixes: STEIN-alt, KERN-gesund.",
+            tip: "Stress the prefixes: \"steinalt\" (STEIN-alt), \"kerngesund\" (KERN-gesund).",
             explanation: "Intensifying prefixes carry the main stress.",
           },
         ],
@@ -2089,7 +2089,7 @@ export const DE_C2_U09: Lesson[] = [
         type: "speak",
         text: "Hör auf mit dem Gejammer!",
         prompt: "Say it in German to a friend: Stop whining!",
-        explanation: "\"Ge-...-er\" noun from \"jammern\": pejorative and neuter.",
+        explanation: "\"Das Gejammer\" (\"Ge-...-e\" from \"jammern\"): pejorative and neuter.",
       },
     ],
   },
@@ -2136,8 +2136,8 @@ export const DE_C2_U09: Lesson[] = [
       {
         heading: "Affection and intensity by register",
         body: [
-          "Affection: \"der Liebling\", \"der Herzensmensch\" (a person close to your heart), \"das Schätzchen\". Intensity: \"todschick\", \"bildschön\", \"stinklangweilig\", \"saukalt\" (bloody cold, vulgar-colloquial), \"arschkalt\" (vulgar), \"mega\", \"voll\" (youth: \"voll gut\").",
-          "Register ladder for very cold: \"sehr kalt\" (neutral) → \"eiskalt\" (colloquial, fine anywhere) → \"bitterkalt\" (literary) → \"saukalt\" (casual, a little coarse) → \"arschkalt\" (vulgar). Choose by audience: \"eiskalt\" is always safe.",
+          "Affection: \"der Liebling\", \"der Herzensmensch\" (a person close to your heart), \"das Schätzchen\". Intensity: \"todschick\", \"bildschön\", \"stinklangweilig\", \"saukalt\" (bloody cold, casual and a bit coarse), \"arschkalt\" (vulgar), \"mega\", \"voll\" (youth: \"voll gut\").",
+          "Register ladder for very cold: \"sehr kalt\" (neutral) → \"eiskalt\" (colloquial, fine anywhere) → \"bitterkalt\" (bitterly cold, common in weather reports and writing) → \"saukalt\" (casual, a little coarse) → \"arschkalt\" (vulgar). Choose by audience: \"eiskalt\" is always safe.",
         ],
         examples: [
           { es: "Heute ist es eiskalt.", en: "It's freezing today." },
@@ -2190,7 +2190,7 @@ export const DE_C2_U09: Lesson[] = [
           {
             type: "speak",
             text: "Das war ein Riesenspaß!",
-            tip: "Stress RIE-sen: the intensifier carries the main stress.",
+            tip: "Stress \"Riesen-\" (RIE-sen): the intensifier carries the main stress.",
             explanation: "\"Riesen-\" + noun: colloquial intensity.",
           },
         ],
@@ -2429,7 +2429,7 @@ export const DE_C2_U09: Lesson[] = [
         en: "The waiter brought [a shot] on the house.",
         sentence: "Der Kellner brachte ___ aufs Haus.",
         answer: "ein Stamperl",
-        altAnswers: ["einen Schnaps", "ein Schnapsglas"],
+        altAnswers: ["einen Schnaps"],
         explanation: "Austrian \"das Stamperl\" (shot glass, a shot); \"aufs Haus\" = free.",
       },
       {

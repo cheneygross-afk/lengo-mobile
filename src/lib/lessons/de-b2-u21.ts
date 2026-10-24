@@ -16,7 +16,7 @@ export const DE_B2_U21: Lesson[] = [
         body: [
           "Formal German has a whole family of prepositions that take the genitive. You already know \"wegen\", \"trotz\" and \"während\", and Unit 12 previewed \"aufgrund\" and \"infolge\". In reports, official letters and the news you'll meet many more, and they are the quickest way to make a sentence sound written rather than spoken: \"aufgrund des Wetters\" (because of the weather), \"infolge des Unfalls\" (as a result of the accident), \"angesichts der Lage\" (in view of the situation).",
           "They are not interchangeable. \"Aufgrund\" gives the reason or basis (due to, on the basis of). \"Infolge\" names an event that has already produced an effect (as a consequence of: accidents, storms, strikes). \"Angesichts\" names a situation you have to face (in view of, given: \"angesichts der hohen Kosten\"). In everyday speech \"wegen\" covers all three.",
-          "Traps: English due to tempts learners into \"*aufgrund zu\" or \"*wegen zu\": there is no zu. \"Aufgrund\" is normally one word (\"auf Grund\" is allowed but rare), and it is a preposition, not a conjunction: before a whole clause you need \"weil\" or \"da\" (\"Er kam zu spät, weil der Bus ausfiel\"), never \"*aufgrund der Bus ausfiel\".",
+          "Traps: English due to tempts learners into \"*aufgrund zu*\" or \"*wegen zu*\": there is no zu. \"Aufgrund\" is normally one word (\"auf Grund\" is allowed but rare), and it is a preposition, not a conjunction: before a whole clause you need \"weil\" or \"da\" (\"Er kam zu spät, weil der Bus ausfiel\"), never \"*aufgrund der Bus ausfiel*\".",
         ],
         examples: [
           { es: "Aufgrund des Wetters fällt das Konzert aus.", en: "The concert is cancelled due to the weather." },
@@ -58,7 +58,7 @@ export const DE_B2_U21: Lesson[] = [
         heading: "Time and place: innerhalb, außerhalb, oberhalb, anlässlich",
         body: [
           "\"Innerhalb\" (within, inside) and \"außerhalb\" (outside) work for both time and place: \"innerhalb eines Monats\" (within a month), \"außerhalb der Öffnungszeiten\" (outside opening hours), \"außerhalb der Stadt\" (outside the town). \"Oberhalb\" and \"unterhalb\" mean above and below, mostly in landscapes and descriptions: \"oberhalb des Dorfes\", \"unterhalb der Burg\".",
-          "When there is no article, the genitive becomes invisible, so German switches to \"von\" + dative: \"innerhalb von drei Tagen\", \"innerhalb von zwei Wochen\", \"außerhalb von Leipzig\" (city names take \"von\" too). \"*Innerhalb zwei Wochen\" is a classic learner mistake; with an article the genitive is fine again: \"innerhalb der nächsten zwei Wochen\".",
+          "When there is no article, the genitive becomes invisible, so German switches to \"von\" + dative: \"innerhalb von drei Tagen\", \"innerhalb von zwei Wochen\", \"außerhalb von Leipzig\" (city names take \"von\" too). \"*Innerhalb zwei Wochen*\" is a classic learner mistake; with an article the genitive is fine again: \"innerhalb der nächsten zwei Wochen\".",
           "\"Anlässlich\" means on the occasion of: \"anlässlich seines 70. Geburtstags\", \"anlässlich des Jubiläums\". It belongs to invitations, speeches and press releases, never to a chat with friends (there you'd say \"zu seinem Geburtstag\").",
         ],
         examples: [
@@ -90,7 +90,7 @@ export const DE_B2_U21: Lesson[] = [
           {
             type: "speak",
             text: "Anlässlich des Jubiläums laden wir Sie herzlich ein.",
-            tip: "Stress the first syllable: AN-läss-lich. The ä is short, like the e in bed.",
+            tip: "Stress the first syllable of \"anlässlich\": AN-läss-lich. The \"ä\" is short, like the e in bed.",
             explanation: "\"Anlässlich\" + genitive \"des Jubiläums\" (neuter, -s). A typical opening for an invitation.",
           },
         ],
@@ -156,7 +156,7 @@ export const DE_B2_U21: Lesson[] = [
         source: "Please pay within two weeks.",
         answer: "Bitte zahlen Sie innerhalb von zwei Wochen.",
         altAnswers: ["Bitte bezahlen Sie innerhalb von zwei Wochen.", "Zahlen Sie bitte innerhalb von zwei Wochen.", "Bitte zahl innerhalb von zwei Wochen.", "Bitte zahlt innerhalb von zwei Wochen.", "Bitte zahlen Sie innerhalb von 14 Tagen."],
-        explanation: "No article before \"zwei Wochen\", so \"innerhalb von\" + dative. \"*Innerhalb zwei Wochen\" is the mistake to avoid.",
+        explanation: "No article before \"zwei Wochen\", so \"innerhalb von\" + dative. \"*Innerhalb zwei Wochen*\" is the mistake to avoid.",
       },
       {
         type: "word-order",
@@ -234,7 +234,7 @@ export const DE_B2_U21: Lesson[] = [
     level: "DE-B2",
     number: 2,
     title: "Pattern Practice: Aufgrund des Wetters, Innerhalb einer Woche",
-    summary: "Drill the genitive endings after formal prepositions: with articles, with adjectives and no article, and with von + Dativ.",
+    summary: "Drill the genitive endings after formal prepositions: with articles, with adjectives and no article, and with \"von\" + Dativ.",
     duration: "14 min",
     sections: [
       {
@@ -242,7 +242,7 @@ export const DE_B2_U21: Lesson[] = [
         body: [
           "The genitive is the case English speakers find least natural, so drill it in one frame: preposition + article + adjective + noun. The articles are \"des\" / \"eines\" for masculine and neuter, \"der\" / \"einer\" for feminine and plural. After any of them the adjective ends in -en: \"aufgrund des starken Regens\", \"innerhalb der nächsten Tage\", \"infolge eines schweren Unfalls\".",
           "Masculine and neuter nouns add -s or -es: short nouns often take -es (\"des Streikes\" or \"des Streiks\", \"des Jahres\"), longer ones -s (\"des Wetters\", \"des Vertrags\"). Feminine and plural nouns add nothing (\"der Lage\", \"der Preise\"). Weak masculine nouns take -n instead: \"des Kunden\", \"des Kollegen\", \"des Präsidenten\".",
-          "Trap: don't forget the -s on the noun. \"*Aufgrund des starken Regen\" looks almost right but sounds wrong to a German reader.",
+          "Trap: don't forget the -s on the noun. \"*Aufgrund des starken Regen*\" looks almost right but sounds wrong to a German reader.",
         ],
         examples: [
           { es: "Aufgrund des starken Regens wurde das Spiel abgesagt.", en: "The match was called off because of the heavy rain." },
@@ -277,7 +277,7 @@ export const DE_B2_U21: Lesson[] = [
         body: [
           "Headlines and announcements often drop the article. Then the adjective has to show the genitive itself, with the strong ending: -er for feminine and plural (\"aufgrund großer Nachfrage\", \"angesichts steigender Preise\", \"innerhalb weniger Minuten\"), -en for masculine and neuter, because the noun's -s already marks the case (\"aufgrund schlechten Wetters\", \"trotz starken Regens\").",
           "This is very much a written style: a railway announcement says \"aufgrund hohen Fahrgastaufkommens\", a newspaper \"angesichts steigender Energiepreise\". Recognise the -er plural ending as a genitive, not as a comparative.",
-          "Trap: English rising prices tempts \"*angesichts steigenden Preise\" (that's a masculine/neuter pattern) or \"*angesichts steigende Preise\". Plural without article: -er, every time.",
+          "Trap: English rising prices tempts \"*angesichts steigenden Preise*\" (that's a masculine/neuter pattern) or \"*angesichts steigende Preise*\". Plural without article: -er, every time.",
         ],
         examples: [
           { es: "Aufgrund großer Nachfrage verlängern wir die Ausstellung.", en: "Due to high demand we're extending the exhibition." },
@@ -318,7 +318,7 @@ export const DE_B2_U21: Lesson[] = [
         heading: "No article, no adjective: von + Dativ",
         body: [
           "If there's no article and no adjective, nothing can show the genitive, so most of these prepositions switch to \"von\" + dative: \"innerhalb von drei Tagen\", \"aufgrund von Bauarbeiten\", \"infolge von Missverständnissen\", \"anstelle von Blumen\", \"außerhalb von Köln\".",
-          "Signs and short notices sometimes simply drop the case: \"Wegen Bauarbeiten gesperrt\" (Closed for building works) is everywhere on German roads. In a full sentence, though, write \"aufgrund von Bauarbeiten\" or \"wegen Bauarbeiten\".",
+          "\"Wegen\" and \"statt\" are the exception: they happily take a bare noun with no visible case. \"Wegen Bauarbeiten gesperrt\" (Closed for building works) is everywhere on German roads, and \"wegen Bauarbeiten\" is fine in a full sentence too. The longer formal prepositions prefer \"von\": \"aufgrund von Bauarbeiten\".",
           "So the rule of thumb is: article or adjective → genitive; bare noun → \"von\" + dative. \"Innerhalb eines Jahres\" but \"innerhalb von zwei Jahren\".",
         ],
         examples: [
@@ -422,7 +422,7 @@ export const DE_B2_U21: Lesson[] = [
         question: "Which sentence is correct written German?",
         options: ["Innerhalb von zwei Wochen erhalten Sie eine Antwort.", "Innerhalb zwei Wochen erhalten Sie eine Antwort.", "Innerhalb zweier Woche erhalten Sie eine Antwort.", "Innerhalb von zwei Woche erhalten Sie eine Antwort."],
         correctIndex: 0,
-        explanation: "A number gives no visible genitive, so use \"von\" + dative plural: \"von zwei Wochen\".",
+        explanation: "A number gives no visible genitive, so use \"von\" + dative plural: \"von zwei Wochen\". (\"Innerhalb zweier Wochen\" exists but is very stiff; \"zweier Woche\" mixes plural and singular.)",
       },
       {
         type: "dictation",
@@ -520,6 +520,7 @@ export const DE_B2_U21: Lesson[] = [
             prompt: "Put the words in order to say: The lead cow, decorated with flowers, walks at the front.",
             words: ["Die", "mit Blumen", "geschmückte", "Leitkuh", "geht", "vorne."],
             translation: "The lead cow, decorated with flowers, walks at the front.",
+            altOrders: [["Vorne", "geht", "die", "mit Blumen", "geschmückte", "Leitkuh."]],
             explanation: "In an extended attribute, \"mit Blumen\" stands between the article and the participle \"geschmückte\".",
           },
           {
@@ -672,7 +673,7 @@ export const DE_B2_U21: Lesson[] = [
         body: [
           "English has one word, whose. German has two, and the choice depends on the person or thing that owns, the antecedent, not on what is owned: \"dessen\" for a masculine or neuter antecedent, \"deren\" for a feminine or plural one. They replace the possessives exactly: where you'd say \"sein\" you get \"dessen\", where you'd say \"ihr\" you get \"deren\".",
           "\"Der Nachbar ist Arzt. Sein Sohn ist mein Freund.\" → \"Der Nachbar, dessen Sohn mein Freund ist, ist Arzt.\" \"Die Nachbarin ist Ärztin. Ihr Sohn ist mein Freund.\" → \"Die Nachbarin, deren Sohn mein Freund ist, ist Ärztin.\" \"Die Nachbarn sind nett. Ihre Kinder ...\" → \"Die Nachbarn, deren Kinder ...\".",
-          "Trap: English speakers look at the possessed noun. \"*Die Frau, dessen Mann ...\" is wrong, even though \"Mann\" is masculine: the antecedent \"die Frau\" is feminine, so \"deren Mann\". Another trap: the question word whose is \"wessen\", never \"dessen\" (\"Wessen Jacke ist das?\").",
+          "Trap: English speakers look at the possessed noun. \"*Die Frau, dessen Mann ...*\" is wrong, even though \"Mann\" is masculine: the antecedent \"die Frau\" is feminine, so \"deren Mann\". Another trap: the question word whose is \"wessen\", never \"dessen\" (\"Wessen Jacke ist das?\").",
         ],
         examples: [
           { es: "Der Nachbar, dessen Sohn mein Freund ist, ist Arzt.", en: "The neighbour whose son is my friend is a doctor." },
@@ -706,11 +707,11 @@ export const DE_B2_U21: Lesson[] = [
         body: [
           "\"Dessen\" or \"deren\" + the noun form one block at the start of the relative clause, and the conjugated verb goes to the end as usual: \"..., dessen Auto vor der Tür steht\".",
           "The block can play any role in its clause: subject (\"dessen Auto vor der Tür steht\"), accusative object (\"dessen Auto ich gekauft habe\"), dative object (\"deren Tochter ich Nachhilfe gebe\"). \"Dessen\" and \"deren\" never change; only an adjective after them shows the case, and it takes the strong ending as if there were no article: \"deren neues Auto\" (nominative), \"mit deren neuem Auto\" (dative), \"dessen alte Freunde\".",
-          "So never \"*dessem\" or \"*derem\": these forms don't exist. And no article between: \"*dessen das Auto\" is wrong.",
+          "So never \"*dessem*\" or \"*derem*\": these forms don't exist. And no article between: \"*dessen das Auto*\" is wrong.",
         ],
         examples: [
           { es: "Das ist der Kollege, dessen Auto ich gekauft habe.", en: "That's the colleague whose car I bought." },
-          { es: "Frau Becker, deren Tochter ich Nachhilfe gebe, wohnt nebenan.", en: "Mrs Becker, whose daughter I tutor, lives next door." },
+          { es: "Frau Becker, deren Tochter ich Nachhilfe gebe, wohnt nebenan.", en: "Ms Becker, whose daughter I tutor, lives next door." },
           { es: "Mehmet, dessen neues Fahrrad rot ist, fährt jeden Tag zur Arbeit.", en: "Mehmet, whose new bike is red, cycles to work every day." },
           { es: "Lena, mit deren neuem Auto wir nach Hamburg gefahren sind, ist sehr großzügig.", en: "Lena, in whose new car we drove to Hamburg, is very generous." },
           { es: "Der Autor, dessen letzten Roman ich gelesen habe, kommt nach Köln.", en: "The author whose last novel I read is coming to Cologne." },
@@ -913,7 +914,7 @@ export const DE_B2_U21: Lesson[] = [
         body: [
           "The two argue in comparisons. \"Als\" after a comparative (\"Techno ist lauter als Schlager\"), \"wie\" after \"so\" + base form (\"Schlager ist nicht so langweilig, wie du denkst\"), \"anders als\" (different from), and \"mehr / weniger als erwartet\".",
           "\"Je ... desto / umso\" links two comparatives: the je-clause has the verb at the end, the desto-part has the comparative first and then the verb: \"Je öfter ich das Lied höre, desto besser gefällt es mir.\"",
-          "Trap: English than is never \"wie\" in standard German (\"*lauter wie\" is regional and marked as wrong in writing), and as ... as is \"so ... wie\", never \"*so ... als\".",
+          "Trap: English than is never \"wie\" in standard German (\"*lauter wie*\" is regional and marked as wrong in writing), and as ... as is \"so ... wie\", never \"*so ... als*\".",
         ],
         examples: [
           { es: "Techno ist viel lauter als Schlager.", en: "Techno is much louder than Schlager." },
@@ -1005,10 +1006,11 @@ export const DE_B2_U21: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "He has a box full of records [that he has been collecting] since the seventies.",
-        sentence: "Er hat eine Kiste voller Schallplatten, ___ seit den Siebzigern.",
-        answer: "die er sammelt",
-        explanation: "\"Die\" (plural, accusative) refers to \"Schallplatten\". German uses the present with \"seit\" for something still going on.",
+        en: "He has a box full of records [that] he has been collecting since the seventies.",
+        sentence: "Er hat eine Kiste voller Schallplatten, ___ er seit den Siebzigern sammelt.",
+        answer: "die",
+        altAnswers: ["welche"],
+        explanation: "\"Die\" (plural, accusative: the object of \"sammelt\") refers to \"Schallplatten\". Note the present \"sammelt\" with \"seit\" for something still going on.",
       },
       {
         type: "multiple-choice",
@@ -1031,6 +1033,7 @@ export const DE_B2_U21: Lesson[] = [
         prompt: "Put the words in order to say: Even her friends know the chorus now.",
         words: ["Sogar", "ihre Freunde", "kennen", "jetzt", "den Refrain."],
         translation: "Even her friends know the chorus now.",
+        altOrders: [["Jetzt", "kennen", "sogar", "ihre Freunde", "den Refrain."]],
         explanation: "\"Sogar\" stands directly before the word it focuses on, and the whole phrase \"sogar ihre Freunde\" fills position 1.",
       },
       {
@@ -1085,7 +1088,7 @@ export const DE_B2_U21: Lesson[] = [
         body: [
           "A preposition can stand in front of the whole whose-block: \"die Kollegin, mit deren Hilfe ich es geschafft habe\" (the colleague with whose help I managed it), \"der Freund, bei dessen Eltern ich wohne\" (the friend whose parents I live with, literally at whose parents).",
           "Three rules. The preposition comes first, before \"dessen\" / \"deren\". \"Dessen\" / \"deren\" still depend only on the antecedent. And the preposition governs the noun after it, which you see when there's an adjective: \"mit deren freundlicher Unterstützung\" (dative feminine, strong -er), \"in dessen großem Garten\" (dative masculine, -em).",
-          "English often hides this structure (the friend whose parents I live with); German can't put the preposition at the end, so you must move it to the front: \"*der Freund, dessen Eltern ich bei wohne\" is impossible.",
+          "English often hides this structure (the friend whose parents I live with); German can't put the preposition at the end, so you must move it to the front: \"*der Freund, dessen Eltern ich bei wohne*\" is impossible.",
         ],
         examples: [
           { es: "Das ist die Kollegin, mit deren Hilfe ich das Projekt geschafft habe.", en: "That's the colleague with whose help I managed the project." },
@@ -1216,7 +1219,7 @@ export const DE_B2_U21: Lesson[] = [
         question: "Which sentence is correct?",
         options: ["Der Freund, bei dessen Eltern ich wohne, studiert Jura.", "Der Freund, dessen Eltern ich bei wohne, studiert Jura.", "Der Freund, bei dessem Eltern ich wohne, studiert Jura.", "Der Freund, bei deren Eltern ich wohne, studiert Jura."],
         correctIndex: 0,
-        explanation: "The preposition goes first, \"dessen\" never changes form (no \"*dessem\"), and the masculine antecedent requires \"dessen\".",
+        explanation: "The preposition goes first, \"dessen\" never changes form (no \"*dessem*\"), and the masculine antecedent requires \"dessen\".",
       },
       {
         type: "fill-blank",
@@ -1333,7 +1336,7 @@ export const DE_B2_U21: Lesson[] = [
         body: [
           "A yes/no question is reported with \"ob\" (whether), a w-question with its question word; both send the verb to the end: \"Sie fragte, ob ich Zeit habe.\" \"Er wollte wissen, wann der Zug abfahre.\"",
           "The mood is again Konjunktiv I in writing and the news, but in everyday speech people often keep the indicative: \"Er hat gefragt, wann der Zug abfährt.\" Both are correct; Konjunktiv I just sounds more distant and formal.",
-          "Trap: English if in reported questions is \"ob\", never \"wenn\": \"*Sie fragte, wenn ich Zeit habe\" means something like she asked when I had time.",
+          "Trap: English if in reported questions is \"ob\", never \"wenn\": \"*Sie fragte, wenn ich Zeit habe*\" is wrong, because \"wenn\" introduces a condition or a repeated time (if, whenever), not a question. And for when it would be \"wann\": \"Sie fragte, wann ich Zeit habe.\"",
         ],
         examples: [
           { es: "Sie fragte, ob ich am Samstag Zeit habe.", en: "She asked if I had time on Saturday." },
@@ -1726,7 +1729,7 @@ export const DE_B2_U21: Lesson[] = [
         body: [
           "Jana Wolff works for the local paper in Kassel. On Monday morning a post goes viral in a local Facebook group: the Hallenbad Nord, the indoor pool where half the city learned to swim, is said to be closing in the autumn. Jana's editor says: \"Erst prüfen, dann schreiben.\" (Check first, then write.)",
           "For hearsay German uses \"sollen\" (Unit 14): \"Das Hallenbad soll im Herbst schließen\" (The pool is supposed to be closing, they say). For the past, the perfect infinitive: \"Der Stadtrat soll das schon beschlossen haben\" (The council is said to have decided already).",
-          "\"Wollen\" reports the subject's own claim, often with doubt: \"Ein Leser will die Pläne gesehen haben\" (A reader claims to have seen the plans). Trap: English is said to never becomes \"*ist gesagt zu\".",
+          "\"Wollen\" reports the subject's own claim, often with doubt: \"Ein Leser will die Pläne gesehen haben\" (A reader claims to have seen the plans). Trap: English is said to never becomes \"*ist gesagt zu*\".",
         ],
         examples: [
           { es: "Das Hallenbad soll im Herbst schließen.", en: "The indoor pool is supposed to be closing in the autumn." },
@@ -1743,7 +1746,7 @@ export const DE_B2_U21: Lesson[] = [
             source: "The pool is said to be closing in the autumn.",
             answer: "Das Schwimmbad soll im Herbst schließen.",
             altAnswers: ["Das Hallenbad soll im Herbst schließen.", "Das Bad soll im Herbst schließen.", "Das Schwimmbad soll im Herbst geschlossen werden.", "Das Hallenbad soll im Herbst geschlossen werden.", "Im Herbst soll das Schwimmbad schließen."],
-            explanation: "Hearsay = \"sollen\" + infinitive. Not \"*ist gesagt\": German has no such construction.",
+            explanation: "Hearsay = \"sollen\" + infinitive. Not \"*ist gesagt*\": German has no such construction.",
           },
           {
             type: "multiple-choice",
@@ -1969,7 +1972,7 @@ export const DE_B2_U21: Lesson[] = [
       {
         heading: "Referring to a whole clause: was, worüber, wodurch",
         body: [
-          "When a relative clause comments on the whole previous sentence, not on one noun, German uses \"was\": \"Er hat die Prüfung bestanden, was mich sehr freut\" (which makes me very happy). English uses which here too; the trap is writing \"*das\" or \"*welches\".",
+          "When a relative clause comments on the whole previous sentence, not on one noun, German uses \"was\": \"Er hat die Prüfung bestanden, was mich sehr freut\" (which makes me very happy). English uses which here too; the trap is writing \"*das*\" or \"*welches*\".",
           "If the verb needs a preposition, \"was\" turns into a wo(r)-form: \"..., worüber sich alle freuen\" (sich freuen über), \"..., wodurch die Kosten stiegen\" (durch: as a result of which), \"..., womit niemand gerechnet hatte\" (rechnen mit), \"..., woran ich mich nicht erinnere\" (sich erinnern an). The r is added before a vowel: wor-über, wor-an.",
           "These wo-forms also replace preposition + \"was\" after \"alles\", \"nichts\" and \"etwas\": \"Das ist etwas, worauf ich mich freue.\"",
         ],
@@ -2136,7 +2139,7 @@ export const DE_B2_U21: Lesson[] = [
         source: "She lost everything she had worked for.",
         answer: "Sie hat alles verloren, wofür sie gearbeitet hatte.",
         altAnswers: ["Sie verlor alles, wofür sie gearbeitet hatte.", "Sie hat alles verloren, wofür sie gearbeitet hat.", "Sie verlor alles, wofür sie gearbeitet hat."],
-        explanation: "\"Arbeiten für\" + \"alles\" → \"wofür\". English drops both the relative and moves the preposition to the end; German can do neither.",
+        explanation: "\"Arbeiten für\" + \"alles\" → \"wofür\". English drops the relative and moves the preposition to the end; German can do neither.",
       },
     ],
   },

@@ -8,7 +8,7 @@ export const DE_B2_U05: Lesson[] = [
     level: "DE-B2",
     number: 1,
     title: "The Zustandspassiv: Die Tür ist geschlossen",
-    summary: "Use sein + Partizip II to describe the result of an action, and tell it apart from the werden-passive.",
+    summary: "Use \"sein\" + Partizip II to describe the result of an action, and tell it apart from the passive with \"werden\".",
     duration: "15 min",
     sections: [
       {
@@ -16,8 +16,8 @@ export const DE_B2_U05: Lesson[] = [
         body: [
           "You know the werden-passive from the Intermediate level: \"Die Tür wird um 20 Uhr geschlossen\" (the door is closed at 8 pm, i.e. someone closes it then). This is the Vorgangspassiv, the passive of a process: something is being done.",
           "German has a second passive for the result: sein + Partizip II. \"Die Tür ist geschlossen\" means the door is shut: the closing happened earlier and now we see the state. This is the Zustandspassiv (Zustand = state).",
-          "English uses is closed for both, so it's ambiguous. German forces you to choose. Ask yourself: am I describing an action happening (at a time, by someone, regularly) or a situation I can see right now? Action → werden. State → sein.",
-          "The participle in the Zustandspassiv behaves almost like an adjective: \"Das Geschäft ist geöffnet\" is close to \"Das Geschäft ist offen.\" That's a good test: if you could swap in an adjective (offen, zu, fertig, kaputt), you need sein.",
+          "English uses is closed for both, so it's ambiguous. German forces you to choose. Ask yourself: am I describing an action happening (at a time, by someone, regularly) or a situation I can see right now? Action → \"werden\". State → \"sein\".",
+          "The participle in the Zustandspassiv behaves almost like an adjective: \"Das Geschäft ist geöffnet\" is close to \"Das Geschäft ist offen.\" That's a good test: if you could swap in an adjective (\"offen\", \"zu\", \"fertig\", \"kaputt\"), you need \"sein\".",
         ],
         examples: [
           { es: "Die Tür wird um 20 Uhr geschlossen.", en: "The door is closed at 8 pm. (someone closes it then)" },
@@ -52,7 +52,7 @@ export const DE_B2_U05: Lesson[] = [
           "The Zustandspassiv is simply sein in any tense + Partizip II at the end. Present: \"Die Fenster sind geputzt.\" Präteritum: \"Das Museum war geschlossen\" (the museum was closed, i.e. it was shut when we got there). In the past, \"war\" is far more natural than any perfect form.",
           "Compare the Präteritum of the two passives: \"Das Museum wurde 1998 geschlossen\" (it was closed down in 1998: the event) vs \"Das Museum war geschlossen\" (it was shut: the state).",
           "With modal verbs the infinitive is Partizip II + sein: \"Die Formulare müssen bis Freitag ausgefüllt sein\" (must be filled in by Friday: the result must exist by then). Compare \"müssen ausgefüllt werden\" (must be filled in: the action).",
-          "In a subordinate clause, sein goes to the end: \"..., weil die Straße gesperrt ist\", \"..., als wir ankamen, war alles schon vorbereitet.\"",
+          "In a subordinate clause, \"sein\" goes to the end: \"..., weil die Straße gesperrt ist\", \"..., dass alles schon vorbereitet war.\"",
         ],
         examples: [
           { es: "Das Museum war geschlossen.", en: "The museum was closed. (when we got there)" },
@@ -93,9 +93,9 @@ export const DE_B2_U05: Lesson[] = [
       {
         heading: "Which verbs work?",
         body: [
-          "Only verbs whose action leaves a visible result make a natural Zustandspassiv: öffnen, schließen, reparieren, streichen (paint), putzen, decken, packen, buchen, bezahlen, verletzen, verkaufen, ausfüllen. \"Die Rechnung ist bezahlt\", \"Der Flug ist gebucht\", \"Er ist verletzt.\"",
-          "Verbs without a lasting result sound odd: \"*Der Brief ist gelesen\" is rare (use \"Ich habe den Brief gelesen\"), and \"*Das Kind ist gelobt\" doesn't work at all.",
-          "Many Zustandspassiv participles are so common they feel like adjectives: verheiratet (married), geschieden (divorced), verletzt (injured), besetzt (taken, engaged), reserviert, ausverkauft (sold out), verboten (forbidden). \"Ist der Platz besetzt?\" is the classic question on a train.",
+          "Only verbs whose action leaves a visible result make a natural Zustandspassiv: \"öffnen\", \"schließen\", \"reparieren\", \"streichen\" (paint), \"putzen\", \"decken\", \"packen\", \"buchen\", \"bezahlen\", \"verletzen\", \"verkaufen\", \"ausfüllen\". \"Die Rechnung ist bezahlt\", \"Der Flug ist gebucht\", \"Er ist verletzt.\"",
+          "Verbs without a lasting result sound odd: \"*Der Brief ist gelesen*\" is rare (use \"Ich habe den Brief gelesen\"), and \"*Das Kind ist gelobt*\" doesn't work at all.",
+          "Many Zustandspassiv participles are so common they feel like adjectives: \"verheiratet\" (married), \"geschieden\" (divorced), \"verletzt\" (injured), \"besetzt\" (taken, engaged), \"reserviert\", \"ausverkauft\" (sold out), \"verboten\" (forbidden). \"Ist der Platz besetzt?\" is the classic question on a train.",
         ],
         examples: [
           { es: "Ist dieser Platz noch frei? – Nein, leider besetzt.", en: "Is this seat free? – No, sorry, it's taken." },
@@ -121,7 +121,7 @@ export const DE_B2_U05: Lesson[] = [
             prompt: "Translate into German.",
             source: "My sister has been married for ten years.",
             answer: "Meine Schwester ist seit zehn Jahren verheiratet.",
-            explanation: "A state lasting until now: present tense \"ist\" + \"seit\", never \"*hat ... verheiratet gewesen\".",
+            explanation: "A state lasting until now: present tense \"ist\" + \"seit\", never \"*hat ... verheiratet gewesen*\".",
           },
         ],
       },
@@ -142,8 +142,8 @@ export const DE_B2_U05: Lesson[] = [
         prompt: "Translate into German.",
         source: "The shop is closed at 6 pm.",
         answer: "Das Geschäft wird um 18 Uhr geschlossen.",
-        altAnswers: ["Der Laden wird um 18 Uhr geschlossen.", "Um 18 Uhr wird das Geschäft geschlossen.", "Das Geschäft wird um sechs Uhr abends geschlossen."],
-        explanation: "A point in time (um 18 Uhr) signals the action of closing: Vorgangspassiv with \"wird\".",
+        altAnswers: ["Der Laden wird um 18 Uhr geschlossen.", "Um 18 Uhr wird das Geschäft geschlossen.", "Das Geschäft wird um sechs Uhr abends geschlossen.", "Das Geschäft schließt um 18 Uhr.", "Der Laden schließt um 18 Uhr."],
+        explanation: "A point in time (\"um 18 Uhr\") signals the action of closing: Vorgangspassiv with \"wird\". In everyday German the active \"Das Geschäft schließt um 18 Uhr\" is just as natural.",
       },
       {
         type: "fill-blank",
@@ -229,7 +229,7 @@ export const DE_B2_U05: Lesson[] = [
           { left: "Die Tür wurde geschlossen.", right: "Someone closed the door." },
           { left: "Die Tür war geschlossen.", right: "The door was shut." },
         ],
-        explanation: "Werden = process; sein = resulting state, in both present and past.",
+        explanation: "\"Werden\" = process; \"sein\" = resulting state, in both present and past.",
       },
       {
         type: "listen-choose",
@@ -263,9 +263,9 @@ export const DE_B2_U05: Lesson[] = [
       {
         heading: "Time phrases decide",
         body: [
-          "The time expression in a sentence is usually your best clue. A point in time or a moment (um 10 Uhr, morgen, gerade, jetzt gleich, jeden Morgen) goes with an action: werden. A period (von 10 bis 18 Uhr, bis 18 Uhr, seit gestern, den ganzen Tag, noch) goes with a state: sein.",
-          "\"Das Museum wird um 10 Uhr geöffnet\" (someone unlocks it at 10). \"Das Museum ist bis 18 Uhr geöffnet\" (it is open until 6). Opening hours are always sein: \"Wir sind montags bis freitags von 9 bis 17 Uhr geöffnet.\"",
-          "\"Seit\" with werden is a typical error: \"*Die Straße wird seit gestern gesperrt\" sounds as if workers have been closing it non-stop since yesterday. Say \"Die Straße ist seit gestern gesperrt.\"",
+          "The time expression in a sentence is usually your best clue. A point in time or a moment (\"um 10 Uhr\", \"morgen\", \"gerade\", \"jetzt gleich\", \"jeden Morgen\") goes with an action: \"werden\". A period (\"von 10 bis 18 Uhr\", \"bis 18 Uhr\", \"seit gestern\", \"den ganzen Tag\", \"noch\") goes with a state: \"sein\".",
+          "\"Das Museum wird um 10 Uhr geöffnet\" (someone unlocks it at 10). \"Das Museum ist bis 18 Uhr geöffnet\" (it is open until 6). Opening hours are always \"sein\" (or \"haben ... geöffnet\"): \"Wir sind montags bis freitags von 9 bis 17 Uhr geöffnet.\"",
+          "\"Seit\" with werden is a typical error: \"*Die Straße wird seit gestern gesperrt*\" sounds as if workers have been closing it non-stop since yesterday. Say \"Die Straße ist seit gestern gesperrt.\"",
         ],
         examples: [
           { es: "Das Museum wird um 10 Uhr geöffnet.", en: "The museum is opened at 10 am." },
@@ -282,7 +282,7 @@ export const DE_B2_U05: Lesson[] = [
             en: "The road [has been] closed since yesterday.",
             sentence: "Die Straße ___ seit gestern gesperrt.",
             answer: "ist",
-            explanation: "\"Seit\" + a lasting situation: present tense of sein. English has been → German ist.",
+            explanation: "\"Seit\" + a lasting situation: present tense of \"sein\". English has been → German \"ist\".",
           },
           {
             type: "fill-blank",
@@ -290,7 +290,7 @@ export const DE_B2_U05: Lesson[] = [
             en: "The road [will be] closed tomorrow.",
             sentence: "Die Straße ___ morgen gesperrt.",
             answer: "wird",
-            explanation: "\"Morgen\": the act of closing happens tomorrow. The present tense of werden covers the future here.",
+            explanation: "\"Morgen\": the act of closing happens tomorrow. The present tense of \"werden\" covers the future here.",
           },
         ],
       },
@@ -354,7 +354,7 @@ export const DE_B2_U05: Lesson[] = [
         source: "The road has been closed since yesterday.",
         answer: "Die Straße ist seit gestern gesperrt.",
         altAnswers: ["Seit gestern ist die Straße gesperrt."],
-        explanation: "\"Seit\" + state: \"ist gesperrt\", never \"*wird seit gestern gesperrt\".",
+        explanation: "\"Seit\" + state: \"ist gesperrt\", never \"*wird seit gestern gesperrt*\".",
       },
       {
         type: "fill-blank",
@@ -431,7 +431,7 @@ export const DE_B2_U05: Lesson[] = [
           { left: "gerade", right: "wird repariert" },
           { left: "schon", right: "ist repariert" },
         ],
-        explanation: "Moments and ongoing actions → werden; periods and results → sein.",
+        explanation: "Moments and ongoing actions → \"werden\"; periods and results → \"sein\".",
       },
       {
         type: "listen-choose",
@@ -459,15 +459,15 @@ export const DE_B2_U05: Lesson[] = [
     level: "DE-B2",
     number: 3,
     title: "Spiral Review: Reporting Verbs with Konjunktiv I",
-    summary: "Review behaupten, zugeben, bestreiten, fragen ob and sollen in reported speech.",
+    summary: "Report claims, admissions, denials, questions and orders with \"behaupten\", \"zugeben\", \"bestreiten\", \"fragen, ob\" and \"sollen\".",
     duration: "12 min",
     sections: [
       {
         heading: "The reporting verbs again",
         body: [
           "The reporting verb tells the reader how to take the statement. \"Behaupten\" (claim) creates distance: \"Er behauptet, er sei krank gewesen.\" \"Zugeben\" (admit) and \"einräumen\" mean the speaker concedes something: \"Sie gab zu, dass sie den Termin vergessen habe.\" \"Bestreiten\" (deny) introduces what the person says is not true: \"Er bestreitet, das Geld genommen zu haben.\"",
-          "Remember the rules from Unit 3: the tense of the original is kept (no backshift), Konjunktiv I where it is distinct (er sei, sie habe, er könne), Konjunktiv II where Konjunktiv I would look like the indicative (sie hätten, wir würden), and the past with habe / sei + Partizip II.",
-          "From Unit 4: questions become \"ob\" or W-clauses, and commands become \"sollen\" (Sie sagt, wir sollen / sollten warten).",
+          "Remember the rules from Unit 3: the tense of the original is kept (no backshift), Konjunktiv I where it is distinct (\"er sei\", \"sie habe\", \"er könne\"), Konjunktiv II where Konjunktiv I would look like the indicative (\"sie hätten\", \"wir würden\"), and the past with \"habe\" / \"sei\" + Partizip II.",
+          "From Unit 4: questions become \"ob\" or W-clauses, and commands become \"sollen\" (\"Sie sagt, wir sollen / sollten warten\").",
         ],
         examples: [
           { es: "Er behauptet, er sei krank gewesen.", en: "He claims he was ill." },
@@ -584,7 +584,7 @@ export const DE_B2_U05: Lesson[] = [
           { left: "Warst du es?", right: "Sie fragt, ob er es gewesen sei." },
           { left: "Sag die Wahrheit!", right: "Sie sagt, er solle die Wahrheit sagen." },
         ],
-        explanation: "Denial, admission, question with ob, command with sollen.",
+        explanation: "Denial, admission, question with \"ob\", command with \"sollen\".",
       },
       {
         type: "listen-choose",
@@ -612,7 +612,7 @@ export const DE_B2_U05: Lesson[] = [
     level: "DE-B2",
     number: 4,
     title: "Circuit: Ist schon erledigt!",
-    summary: "Run through a checklist with the Zustandspassiv, and tell ist repariert from ist repariert worden.",
+    summary: "Run through a checklist with the Zustandspassiv, and tell \"ist repariert\" from \"ist repariert worden\".",
     duration: "15 min",
     sections: [
       {
@@ -656,7 +656,7 @@ export const DE_B2_U05: Lesson[] = [
         body: [
           "Two forms look alike but say different things. \"Das Auto ist repariert\" (Zustandspassiv, present) = the car is fixed now: state. \"Das Auto ist repariert worden\" (Perfekt of the werden-passive) = the car has been repaired: the event happened, maybe yesterday, maybe by whom: \"Das Auto ist gestern von meinem Bruder repariert worden.\"",
           "Quick test: if you can add when or by whom, you need \"worden\". If you're just stating how things are now, \"ist repariert\" is enough.",
-          "Trap: the passive Perfekt uses \"worden\", never \"geworden\". \"*Das Auto ist repariert geworden\" is wrong. \"Geworden\" only appears when werden means become: \"Er ist Lehrer geworden.\"",
+          "Trap: the passive Perfekt uses \"worden\", never \"geworden\". \"*Das Auto ist repariert geworden*\" is wrong. \"Geworden\" only appears when werden means become: \"Er ist Lehrer geworden.\"",
         ],
         examples: [
           { es: "Das Auto ist repariert.", en: "The car is fixed. (it works now)" },
@@ -781,7 +781,7 @@ export const DE_B2_U05: Lesson[] = [
           { left: "Die Wand wird gestrichen.", right: "The wall is being painted." },
           { left: "Die Wand ist weiß geworden.", right: "The wall has turned white." },
         ],
-        explanation: "State, passive event, passive process, and werden meaning become.",
+        explanation: "State, passive event, passive process, and \"werden\" meaning become.",
       },
       {
         type: "listen-choose",
@@ -809,7 +809,7 @@ export const DE_B2_U05: Lesson[] = [
     level: "DE-B2",
     number: 5,
     title: "Passive Alternatives, Part 1 of 2",
-    summary: "Say what is done, what can be done and what must be done with man, sich lassen and sein + zu.",
+    summary: "Say what is done, what can be done and what must be done with \"man\", \"sich lassen\" and \"sein + zu\".",
     duration: "18 min",
     sections: [
       {
@@ -850,7 +850,7 @@ export const DE_B2_U05: Lesson[] = [
         heading: "Sich lassen + infinitive: it can be done",
         body: [
           "\"Sich lassen\" + infinitive expresses possibility in the passive: \"Das Fenster lässt sich nicht öffnen\" = \"Das Fenster kann nicht geöffnet werden\" (the window won't open / can't be opened). \"Das lässt sich reparieren\" = it can be repaired.",
-          "The thing is the subject, \"lassen\" agrees with it, and \"sich\" is the reflexive: \"Die Fenster lassen sich nicht öffnen.\" The infinitive goes to the end with no \"zu\": \"*Das lässt sich nicht zu ändern\" is wrong.",
+          "The thing is the subject, \"lassen\" agrees with it, and \"sich\" is the reflexive: \"Die Fenster lassen sich nicht öffnen.\" The infinitive goes to the end with no \"zu\": \"*Das lässt sich nicht zu ändern*\" is wrong.",
           "It often sounds more natural than \"kann ... werden\", especially with adverbs: \"Das lässt sich leicht erklären\", \"Der Termin lässt sich verschieben.\" In the past: \"Die Tür ließ sich nicht schließen.\"",
         ],
         examples: [
@@ -875,7 +875,7 @@ export const DE_B2_U05: Lesson[] = [
             question: "How do you say: That can't be changed.",
             options: ["Das lässt sich nicht ändern.", "Das lässt sich nicht zu ändern.", "Das lässt nicht sich ändern.", "Das lässt sich nicht geändert."],
             correctIndex: 0,
-            explanation: "Sich lassen + bare infinitive at the end, with no \"zu\" and no participle.",
+            explanation: "\"Sich lassen\" + bare infinitive at the end, with no \"zu\" and no participle.",
           },
         ],
       },
@@ -883,8 +883,8 @@ export const DE_B2_U05: Lesson[] = [
         heading: "Sein + zu + infinitive: it must / can be done",
         body: [
           "\"Sein\" + zu-infinitive is a compact passive with a modal meaning, typical of official texts. Usually it means necessity: \"Der Antrag ist bis Montag einzureichen\" = \"muss bis Montag eingereicht werden.\" \"Die Rechnung ist bis Freitag zu bezahlen.\"",
-          "With \"nicht\" or adverbs like \"leicht, kaum, schwer\" it often means possibility: \"Das ist nicht zu ändern\" (that can't be changed), \"Er ist kaum zu verstehen\" (he can hardly be understood). Context decides.",
-          "Trap 1: \"ist zu bezahlen\" is not is too. \"Zu\" here is the infinitive marker. Trap 2: with separable verbs, zu goes between prefix and stem, written as one word: einreichen → einzureichen, ausfüllen → auszufüllen, abholen → abzuholen.",
+          "With \"nicht\" or adverbs like \"leicht\", \"kaum\", \"schwer\" it often means possibility: \"Das ist nicht zu ändern\" (that can't be changed), \"Er ist kaum zu verstehen\" (he can hardly be understood). Context decides.",
+          "Trap 1: \"ist zu bezahlen\" is not is too. \"Zu\" here is the infinitive marker. Trap 2: with separable verbs, \"zu\" goes between prefix and stem, written as one word: \"einreichen\" → \"einzureichen\", \"ausfüllen\" → \"auszufüllen\", \"abholen\" → \"abzuholen\".",
         ],
         examples: [
           { es: "Der Antrag ist bis Montag einzureichen.", en: "The application must be submitted by Monday." },
@@ -901,7 +901,7 @@ export const DE_B2_U05: Lesson[] = [
             en: "The form [must be filled in] completely.",
             sentence: "Das Formular ist vollständig ___.",
             answer: "auszufüllen",
-            explanation: "Separable verb: aus + zu + füllen, one word.",
+            explanation: "Separable verb: \"aus\" + \"zu\" + \"füllen\", one word.",
           },
           {
             type: "translate",
@@ -910,7 +910,7 @@ export const DE_B2_U05: Lesson[] = [
             source: "The invoice must be paid by Friday.",
             answer: "Die Rechnung ist bis Freitag zu bezahlen.",
             altAnswers: ["Die Rechnung ist bis Freitag zu begleichen."],
-            explanation: "\"Ist zu bezahlen\" = muss bezahlt werden.",
+            explanation: "\"Ist zu bezahlen\" = \"muss bezahlt werden\".",
           },
           {
             type: "listen-choose",
@@ -948,7 +948,7 @@ export const DE_B2_U05: Lesson[] = [
         prompt: "Translate into German with \"sich lassen\".",
         source: "That can be repaired.",
         answer: "Das lässt sich reparieren.",
-        explanation: "\"Sich lassen\" + infinitive = kann ... werden.",
+        explanation: "\"Sich lassen\" + infinitive = \"kann ... werden\".",
       },
       {
         type: "translate",
@@ -957,7 +957,7 @@ export const DE_B2_U05: Lesson[] = [
         source: "The door wouldn't shut.",
         answer: "Die Tür ließ sich nicht schließen.",
         altAnswers: ["Die Tür ließ sich nicht zumachen.", "Die Tür hat sich nicht schließen lassen."],
-        explanation: "Past of sich lassen: \"ließ sich\".",
+        explanation: "Past of \"sich lassen\": \"ließ sich\". The Perfekt \"hat sich nicht schließen lassen\" is also correct.",
       },
       {
         type: "fill-blank",
@@ -990,7 +990,7 @@ export const DE_B2_U05: Lesson[] = [
         en: "Parcels [are to be collected] at the counter.",
         sentence: "Die Pakete sind am Schalter ___.",
         answer: "abzuholen",
-        explanation: "ab + zu + holen.",
+        explanation: "\"ab\" + \"zu\" + \"holen\": one word.",
       },
       {
         type: "word-order",
@@ -1032,7 +1032,7 @@ export const DE_B2_U05: Lesson[] = [
         question: "What does it mean?",
         options: ["The application must be submitted by Monday.", "The application was submitted on Monday.", "The application is too late on Monday.", "The application can't be submitted until Monday."],
         correctIndex: 0,
-        explanation: "\"Ist ... einzureichen\": sein + zu = necessity.",
+        explanation: "\"Ist ... einzureichen\": \"sein + zu\" = necessity.",
       },
       {
         type: "dictation",
@@ -1052,7 +1052,7 @@ export const DE_B2_U05: Lesson[] = [
     level: "DE-B2",
     number: 6,
     title: "Pattern Practice: Das lässt sich machen",
-    summary: "Drill das lässt sich + infinitive with many verbs, and contrast it with lassen meaning have something done.",
+    summary: "Use \"das lässt sich\" + infinitive with many verbs, and contrast it with \"lassen\" meaning have something done.",
     duration: "15 min",
     sections: [
       {
@@ -1060,7 +1060,7 @@ export const DE_B2_U05: Lesson[] = [
         body: [
           "The frame is: subject + lässt / lassen + sich + (adverb / nicht) + infinitive. Fill it with any transitive verb: \"Das lässt sich leicht reparieren / nicht vermeiden / schnell erklären / gut kombinieren.\"",
           "\"Das lässt sich machen\" (that can be done, that's doable) is the everyday phrase for agreeing to a request. \"Darüber lässt sich streiten\" means that's debatable. \"Das lässt sich nicht vermeiden\" means it can't be avoided.",
-          "Plural subjects take \"lassen\": \"Die Schuhe lassen sich gut kombinieren.\" With a modal: \"Das wird sich machen lassen\" (that can probably be done), the double infinitive at the end.",
+          "Plural subjects take \"lassen\": \"Die Schuhe lassen sich gut kombinieren.\" With \"werden\" or a modal: \"Das wird sich machen lassen\" (that can probably be done), the double infinitive at the end.",
         ],
         examples: [
           { es: "Das lässt sich machen.", en: "That can be done." },
@@ -1093,7 +1093,7 @@ export const DE_B2_U05: Lesson[] = [
       {
         heading: "Lassen = have something done",
         body: [
-          "Without \"sich\", lassen + infinitive means have something done by someone else: \"Ich lasse das Auto reparieren\" (I'm having the car repaired). The person who causes it is the subject.",
+          "Without \"sich\", \"lassen\" + infinitive means have something done by someone else: \"Ich lasse das Auto reparieren\" (I'm having the car repaired). The person who causes it is the subject.",
           "If it's done to your body or for you, add a dative reflexive: \"Ich lasse mir die Haare schneiden\" (I'm getting my hair cut). In the Perfekt, the double infinitive from Unit 2 appears: \"Ich habe das Auto reparieren lassen.\"",
           "Compare: \"Das Auto lässt sich reparieren\" (the car can be repaired) vs \"Ich lasse das Auto reparieren\" (I'm getting the car repaired). Same verbs, different subject, different meaning.",
         ],
@@ -1165,7 +1165,7 @@ export const DE_B2_U05: Lesson[] = [
         prompt: "Translate into German with \"sich lassen\".",
         source: "These jeans can be washed at 60 degrees.",
         answer: "Diese Jeans lässt sich bei 60 Grad waschen.",
-        altAnswers: ["Die Jeans lässt sich bei 60 Grad waschen.", "Diese Jeans lassen sich bei 60 Grad waschen.", "Die Jeans lassen sich bei 60 Grad waschen.", "Diese Jeans kann man bei 60 Grad waschen."],
+        altAnswers: ["Die Jeans lässt sich bei 60 Grad waschen.", "Diese Jeans lassen sich bei 60 Grad waschen.", "Die Jeans lassen sich bei 60 Grad waschen."],
         explanation: "One pair of jeans is usually singular in German, \"die Jeans\": \"lässt sich\" (the plural \"lassen sich\" is also used).",
       },
       {
@@ -1199,14 +1199,14 @@ export const DE_B2_U05: Lesson[] = [
         en: "I [had] my hair cut yesterday.",
         sentence: "Ich habe mir gestern die Haare schneiden ___.",
         answer: "lassen",
-        explanation: "Double infinitive: not \"*gelassen\".",
+        explanation: "Double infinitive: not \"*gelassen*\".",
       },
       {
         type: "multiple-choice",
         question: "\"Der Computer lässt sich nicht einschalten.\" What does it mean?",
         options: ["The computer won't switch on.", "I'm having the computer switched on.", "The computer doesn't let itself be bought.", "Don't switch the computer on."],
         correctIndex: 0,
-        explanation: "Sich lassen = can (not) be done.",
+        explanation: "\"Sich lassen\" = can (not) be done.",
       },
       {
         type: "matching",
@@ -1217,7 +1217,7 @@ export const DE_B2_U05: Lesson[] = [
           { left: "Ich repariere die Uhr.", right: "I'm repairing the watch." },
           { left: "Die Uhr ist repariert.", right: "The watch is fixed." },
         ],
-        explanation: "Sich lassen = possibility; lassen = have it done; active; Zustandspassiv.",
+        explanation: "\"Sich lassen\" = possibility; \"lassen\" = have it done; active; Zustandspassiv.",
       },
       {
         type: "listen-choose",
@@ -1253,7 +1253,7 @@ export const DE_B2_U05: Lesson[] = [
         body: [
           "Jana und Tarek haben eine Altbauwohnung in Dresden-Neustadt gekauft: drei Zimmer, hohe Decken, Baujahr 1905. Der Kaufvertrag ist unterschrieben, der Schlüssel ist übergeben. Aber die Wohnung ist seit Jahren nicht renoviert worden.",
           "Notice the mix: \"ist unterschrieben\" and \"ist übergeben\" are Zustandspassiv (results you can see), while \"ist ... nicht renoviert worden\" is the Perfekt of the werden-passive (nobody has carried out a renovation for years).",
-          "Useful words: der Altbau (pre-war building), die Dielen (floorboards), die Leitungen (pipes, wiring), der Handwerker (tradesperson), streichen (to paint walls), abschleifen (to sand), die Baustelle (building site).",
+          "Useful words: \"der Altbau\" (pre-war building), \"die Dielen\" (floorboards), \"die Leitungen\" (pipes, wiring), \"der Handwerker\" (tradesperson), \"streichen\" (to paint walls), \"abschleifen\" (to sand), \"die Baustelle\" (building site).",
         ],
         examples: [
           { es: "Der Kaufvertrag ist unterschrieben.", en: "The purchase contract is signed." },
@@ -1286,7 +1286,7 @@ export const DE_B2_U05: Lesson[] = [
         heading: "Part 2: Die Baustelle",
         body: [
           "Nach drei Wochen sieht es schon besser aus: Die Wände sind gestrichen, die Dielen sind abgeschliffen und das Bad wird gerade gefliest. Aber es gibt Probleme. Die alte Heizung lässt sich nicht reparieren, sie muss komplett ersetzt werden. Und ein Fenster im Schlafzimmer lässt sich nicht mehr schließen.",
-          "Here three structures work together: Zustandspassiv for what is finished (sind gestrichen), werden-passive for what is in progress (wird gerade gefliest), and sich lassen for what is (not) possible (lässt sich nicht reparieren).",
+          "Here three structures work together: Zustandspassiv for what is finished (\"sind gestrichen\"), the \"werden\"-passive for what is in progress (\"wird gerade gefliest\"), and \"sich lassen\" for what is (not) possible (\"lässt sich nicht reparieren\").",
         ],
         examples: [
           { es: "Die Wände sind gestrichen.", en: "The walls are painted." },
@@ -1319,7 +1319,7 @@ export const DE_B2_U05: Lesson[] = [
         heading: "Part 3: Der Brief der Hausverwaltung",
         body: [
           "Dann kommt ein Brief von der Hausverwaltung: \"Bauarbeiten sind nur werktags von 8 bis 18 Uhr gestattet. Der Bauschutt ist bis Freitag aus dem Hof zu entfernen. Die Nachbarn sind rechtzeitig zu informieren.\" Tarek seufzt: \"Das ist nicht zu ändern. Aber bis Freitag? Das lässt sich kaum schaffen.\"",
-          "Official letters love sein + zu (ist zu entfernen, sind zu informieren = must be). In Tarek's reply, \"nicht zu ändern\" means can't be changed: the same structure with the meaning of possibility.",
+          "Official letters love \"sein + zu\" (\"ist zu entfernen\", \"sind zu informieren\" = must be). In Tarek's reply, \"nicht zu ändern\" means can't be changed: the same structure with the meaning of possibility.",
         ],
         examples: [
           { es: "Bauarbeiten sind nur werktags gestattet.", en: "Building work is only permitted on working days." },
@@ -1343,7 +1343,7 @@ export const DE_B2_U05: Lesson[] = [
             question: "What does the letter say?",
             options: ["The rubble must be removed from the courtyard by Friday.", "The rubble was removed on Friday.", "The rubble is too far from the courtyard.", "The rubble can stay until Friday."],
             correctIndex: 0,
-            explanation: "\"Ist ... zu entfernen\" = muss entfernt werden.",
+            explanation: "\"Ist ... zu entfernen\" = \"muss entfernt werden\".",
           },
         ],
       },
@@ -1399,7 +1399,7 @@ export const DE_B2_U05: Lesson[] = [
         source: "The rubble must be removed from the courtyard by Friday.",
         answer: "Der Bauschutt ist bis Freitag aus dem Hof zu entfernen.",
         altAnswers: ["Der Schutt ist bis Freitag aus dem Hof zu entfernen."],
-        explanation: "Sein + zu = muss ... werden.",
+        explanation: "\"Sein + zu\" = \"muss ... werden\".",
       },
       {
         type: "translate",
@@ -1428,7 +1428,7 @@ export const DE_B2_U05: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Why does the story say \"Die Wohnung ist seit Jahren nicht renoviert worden\" and not \"ist seit Jahren nicht renoviert\"?",
-        options: ["It's about the renovation that hasn't taken place, an event, not the state.", "Because \"seit\" always needs \"worden\".", "Because renovieren has no Zustandspassiv.", "Both are wrong; it should be \"wird nicht renoviert\"."],
+        options: ["It's about the renovation that hasn't taken place, an event, not the state.", "Because \"seit\" always needs \"worden\".", "Because \"renovieren\" has no Zustandspassiv.", "Both are wrong; it should be \"wird nicht renoviert\"."],
         correctIndex: 0,
         explanation: "\"Renoviert worden\" focuses on the (missing) action. \"Ist nicht renoviert\" would describe the flat's condition and is also possible, but means something slightly different.",
       },
@@ -1454,13 +1454,13 @@ export const DE_B2_U05: Lesson[] = [
       {
         type: "dictation",
         audio: "Die Nachbarn sind rechtzeitig zu informieren.",
-        explanation: "Sein + zu: \"zu informieren\", two words because informieren has no prefix.",
+        explanation: "\"Sein + zu\": \"zu informieren\", two words because \"informieren\" has no separable prefix.",
       },
       {
         type: "speak",
         text: "Die Wände sind schon gestrichen, aber die Heizung lässt sich nicht reparieren.",
         prompt: "Say it in German: The walls are already painted, but the heating can't be repaired.",
-        explanation: "Zustandspassiv + sich lassen.",
+        explanation: "Zustandspassiv + \"sich lassen\".",
       },
     ],
   },
@@ -1469,15 +1469,15 @@ export const DE_B2_U05: Lesson[] = [
     level: "DE-B2",
     number: 8,
     title: "Quick Round: Ist zu bezahlen = Muss bezahlt werden",
-    summary: "Convert quickly between sein + zu, sich lassen and modal verbs + passive.",
+    summary: "Convert quickly between \"sein + zu\", \"sich lassen\" and modal verbs + passive.",
     duration: "12 min",
     sections: [
       {
         heading: "The conversion table",
         body: [
-          "Sein + zu has two possible modal meanings. Necessity: \"Die Rechnung ist zu bezahlen\" = \"Die Rechnung muss bezahlt werden.\" Possibility (usually with nicht, kaum, leicht, gut): \"Der Fehler ist leicht zu finden\" = \"Der Fehler kann leicht gefunden werden.\"",
-          "Sich lassen only means possibility: \"Das Problem lässt sich lösen\" = \"Das Problem kann gelöst werden.\"",
-          "Going backwards, check the tense and the number. \"Die Formulare müssen unterschrieben werden\" → \"Die Formulare sind zu unterschreiben\" (plural sind). \"Das Paket konnte nicht zugestellt werden\" → \"Das Paket ließ sich nicht zustellen\" or \"war nicht zuzustellen\".",
+          "\"Sein + zu\" has two possible modal meanings. Necessity: \"Die Rechnung ist zu bezahlen\" = \"Die Rechnung muss bezahlt werden.\" Possibility (usually with \"nicht\", \"kaum\", \"leicht\", \"gut\"): \"Der Fehler ist leicht zu finden\" = \"Der Fehler kann leicht gefunden werden.\"",
+          "\"Sich lassen\" only means possibility: \"Das Problem lässt sich lösen\" = \"Das Problem kann gelöst werden.\"",
+          "Going backwards, check the tense and the number. \"Die Formulare müssen unterschrieben werden\" → \"Die Formulare sind zu unterschreiben\" (plural \"sind\"). \"Das Paket konnte nicht zugestellt werden\" → \"Das Paket ließ sich nicht zustellen\" or \"war nicht zuzustellen\".",
         ],
         examples: [
           { es: "Die Rechnung ist zu bezahlen. = Die Rechnung muss bezahlt werden.", en: "The invoice must be paid." },
@@ -1501,7 +1501,7 @@ export const DE_B2_U05: Lesson[] = [
             prompt: "Rewrite with \"können\" + passive: \"Das Problem lässt sich lösen.\"",
             source: "The problem can be solved.",
             answer: "Das Problem kann gelöst werden.",
-            explanation: "Sich lassen = können + passive infinitive.",
+            explanation: "\"Sich lassen\" = \"können\" + passive infinitive.",
           },
         ],
       },
@@ -1514,7 +1514,7 @@ export const DE_B2_U05: Lesson[] = [
         source: "The rent must be transferred at the start of the month.",
         answer: "Die Miete muss am Monatsanfang überwiesen werden.",
         altAnswers: ["Am Monatsanfang muss die Miete überwiesen werden."],
-        explanation: "Ist zu überweisen → muss überwiesen werden.",
+        explanation: "\"Ist zu überweisen\" → \"muss überwiesen werden\".",
       },
       {
         type: "translate",
@@ -1523,7 +1523,7 @@ export const DE_B2_U05: Lesson[] = [
         source: "Tickets must be shown at the entrance.",
         answer: "Die Tickets sind am Eingang vorzuzeigen.",
         altAnswers: ["Die Karten sind am Eingang vorzuzeigen."],
-        explanation: "Plural \"sind\"; separable vorzeigen → \"vorzuzeigen\".",
+        explanation: "Plural \"sind\"; separable \"vorzeigen\" → \"vorzuzeigen\".",
       },
       {
         type: "translate",
@@ -1532,7 +1532,7 @@ export const DE_B2_U05: Lesson[] = [
         source: "The door can't be opened.",
         answer: "Die Tür lässt sich nicht öffnen.",
         altAnswers: ["Die Tür lässt sich nicht aufmachen."],
-        explanation: "Kann nicht ... werden → lässt sich nicht.",
+        explanation: "\"Kann nicht ... werden\" → \"lässt sich nicht\".",
       },
       {
         type: "translate",
@@ -1540,7 +1540,7 @@ export const DE_B2_U05: Lesson[] = [
         prompt: "Rewrite with \"können\" + passive: \"Der Fehler ist leicht zu finden.\"",
         source: "The mistake can easily be found.",
         answer: "Der Fehler kann leicht gefunden werden.",
-        explanation: "With \"leicht\", sein + zu means possibility.",
+        explanation: "With \"leicht\", \"sein + zu\" means possibility.",
       },
       {
         type: "fill-blank",
@@ -1548,7 +1548,7 @@ export const DE_B2_U05: Lesson[] = [
         en: "The parcel [could] not be delivered.",
         sentence: "Das Paket ___ sich nicht zustellen.",
         answer: "ließ",
-        explanation: "Präteritum of lassen: \"ließ\".",
+        explanation: "Präteritum of \"lassen\": \"ließ\".",
       },
       {
         type: "translate",
@@ -1564,7 +1564,7 @@ export const DE_B2_U05: Lesson[] = [
         prompt: "Rewrite with \"müssen\" + passive: \"Der Müll ist zu trennen.\"",
         source: "Rubbish must be separated.",
         answer: "Der Müll muss getrennt werden.",
-        explanation: "Ist zu trennen → muss getrennt werden.",
+        explanation: "\"Ist zu trennen\" → \"muss getrennt werden\".",
       },
       {
         type: "translate",
@@ -1572,13 +1572,13 @@ export const DE_B2_U05: Lesson[] = [
         prompt: "Rewrite with \"sich lassen\": \"Der Termin kann nicht verschoben werden.\"",
         source: "The appointment can't be postponed.",
         answer: "Der Termin lässt sich nicht verschieben.",
-        explanation: "Kann nicht verschoben werden → lässt sich nicht verschieben.",
+        explanation: "\"Kann nicht verschoben werden\" → \"lässt sich nicht verschieben\".",
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The noise can hardly be borne.",
+        prompt: "Put the words in order to say: The noise is almost unbearable.",
         words: ["Der", "Lärm", "ist", "kaum", "zu", "ertragen."],
-        translation: "The noise can hardly be borne.",
+        translation: "The noise is almost unbearable.",
         explanation: "\"Kaum zu ertragen\" = can hardly be borne: possibility.",
       },
       {
@@ -1605,7 +1605,7 @@ export const DE_B2_U05: Lesson[] = [
         question: "What does it mean?",
         options: ["Tickets must be shown at the entrance.", "Tickets can be bought at the entrance.", "Tickets were shown at the entrance.", "Tickets are too expensive at the entrance."],
         correctIndex: 0,
-        explanation: "Sein + zu in a notice = must.",
+        explanation: "\"Sein + zu\" in a notice = must.",
       },
       {
         type: "dictation",
@@ -1615,8 +1615,8 @@ export const DE_B2_U05: Lesson[] = [
       {
         type: "speak",
         text: "Die Rechnung ist bis Freitag zu bezahlen.",
-        prompt: "Say it in German with sein + zu: The invoice must be paid by Friday.",
-        explanation: "Ist zu bezahlen = muss bezahlt werden.",
+        prompt: "Say it in German with \"sein + zu\": The invoice must be paid by Friday.",
+        explanation: "\"Ist zu bezahlen\" = \"muss bezahlt werden\".",
       },
     ],
   },
@@ -1625,14 +1625,14 @@ export const DE_B2_U05: Lesson[] = [
     level: "DE-B2",
     number: 9,
     title: "Passive Alternatives, Part 2 of 2",
-    summary: "Use adjectives in -bar, -lich and -fähig, the reflexive middle and the bekommen-passive.",
+    summary: "Express what can (or can't) be done with adjectives in \"-bar\", \"-lich\" and \"-fähig\", the reflexive middle and the \"bekommen\"-passive.",
     duration: "18 min",
     sections: [
       {
         heading: "-bar, -lich, -fähig",
         body: [
-          "German packs can be done into a single adjective: verb stem + -bar. \"Das ist machbar\" = \"Das kann gemacht werden\" (doable). Others: essbar (edible), trinkbar, waschbar, lieferbar (available for delivery), erreichbar (reachable), bezahlbar (affordable), vorstellbar (imaginable).",
-          "\"Un-\" negates them: unvorstellbar (unimaginable), unbezahlbar (unaffordable, also priceless), unerreichbar. Some adjectives in -lich work the same way: verständlich (understandable), unvermeidlich (unavoidable), unverzeihlich (unforgivable). And -fähig means capable of being: verbesserungsfähig (could be improved, a polite way of saying not good enough), ausbaufähig (has room to grow).",
+          "German packs can be done into a single adjective: verb stem + -bar. \"Das ist machbar\" = \"Das kann gemacht werden\" (doable). Others: \"essbar\" (edible), \"trinkbar\", \"waschbar\", \"lieferbar\" (available for delivery), \"erreichbar\" (reachable), \"bezahlbar\" (affordable), \"vorstellbar\" (imaginable).",
+          "\"Un-\" negates them: \"unvorstellbar\" (unimaginable), \"unbezahlbar\" (unaffordable, also priceless), \"unerreichbar\". Some adjectives in \"-lich\" work the same way: \"verständlich\" (understandable), \"unvermeidlich\" (unavoidable), \"unverzeihlich\" (unforgivable). And \"-fähig\" means capable of being: \"verbesserungsfähig\" (could be improved, a polite way of saying not good enough), \"ausbaufähig\" (has room to grow).",
           "Trap: \"lesbar\" means legible (it can be read), but \"lesenswert\" means worth reading. Likewise \"sehenswert\" (worth seeing). And \"unverzichtbar\" means indispensable (it can't be done without).",
         ],
         examples: [
@@ -1659,7 +1659,7 @@ export const DE_B2_U05: Lesson[] = [
             prompt: "Translate into German.",
             source: "That's unimaginable.",
             answer: "Das ist unvorstellbar.",
-            explanation: "un- + vorstellbar.",
+            explanation: "\"un-\" + \"vorstellbar\": can't be imagined.",
           },
         ],
       },
@@ -1667,7 +1667,7 @@ export const DE_B2_U05: Lesson[] = [
         heading: "The reflexive middle",
         body: [
           "Some verbs are used reflexively to say how something behaves when you do something with it: \"Der Roman liest sich wie ein Krimi\" (the novel reads like a thriller). \"Der Stoff wäscht sich gut\" (the fabric washes well). \"Das Auto fährt sich toll\" (the car drives brilliantly).",
-          "English does the same without a reflexive: it reads well, it sells well. German needs \"sich\": \"Das Buch verkauft sich gut.\" There's normally an adverb (gut, leicht, schwer, wie ...).",
+          "English does the same without a reflexive: it reads well, it sells well. German needs \"sich\": \"Das Buch verkauft sich gut.\" There's normally an adverb (\"gut\", \"leicht\", \"schwer\", \"wie ...\").",
         ],
         examples: [
           { es: "Der Roman liest sich wie ein Krimi.", en: "The novel reads like a thriller." },
@@ -1696,9 +1696,9 @@ export const DE_B2_U05: Lesson[] = [
       {
         heading: "The bekommen-passive",
         body: [
-          "When someone receives something (geschenkt, geliefert, erklärt, erstattet), German can make the receiver the subject with \"bekommen\" + Partizip II: \"Ich bekomme das Paket geliefert\" (I'm having the parcel delivered to me). \"Sie bekam ein Fahrrad geschenkt\" (she was given a bike).",
+          "When someone receives something (\"geschenkt\", \"geliefert\", \"erklärt\", \"erstattet\"), German can make the receiver the subject with \"bekommen\" + Partizip II: \"Ich bekomme das Paket geliefert\" (I'm having the parcel delivered to me). \"Sie bekam ein Fahrrad geschenkt\" (she was given a bike).",
           "Compare the dative werden-passive: \"Ihr wurde ein Fahrrad geschenkt.\" Both are correct, but the bekommen-passive is far more natural in speech. Colloquially you also hear \"kriegen\": \"Ich hab das Geld erstattet gekriegt.\"",
-          "English she was given has no exact German match: \"*Sie wurde ein Fahrrad gegeben\" is wrong because only the accusative object can become the subject of a werden-passive.",
+          "English she was given can't be copied with \"werden\": \"*Sie wurde ein Fahrrad gegeben*\" is wrong because only the accusative object can become the subject of a \"werden\"-passive. Use \"Sie bekam ein Fahrrad\" or \"Ihr wurde ein Fahrrad gegeben\".",
         ],
         examples: [
           { es: "Sie bekam ein Fahrrad geschenkt.", en: "She was given a bike as a present." },
@@ -1722,7 +1722,7 @@ export const DE_B2_U05: Lesson[] = [
             question: "What does it mean?",
             options: ["We got the costs reimbursed.", "We paid the costs back.", "We'll get the costs reimbursed.", "We reimbursed the costs."],
             correctIndex: 0,
-            explanation: "Bekommen-passive in the Perfekt: \"haben ... erstattet bekommen\".",
+            explanation: "\"Bekommen\"-passive in the Perfekt: \"haben ... erstattet bekommen\".",
           },
         ],
       },
@@ -1734,7 +1734,7 @@ export const DE_B2_U05: Lesson[] = [
         prompt: "Translate into German with a -bar adjective.",
         source: "That's doable.",
         answer: "Das ist machbar.",
-        explanation: "\"Machbar\" = kann gemacht werden.",
+        explanation: "\"Machbar\" = \"kann gemacht werden\".",
       },
       {
         type: "translate",
@@ -1743,7 +1743,7 @@ export const DE_B2_U05: Lesson[] = [
         source: "Are these mushrooms edible?",
         answer: "Sind diese Pilze essbar?",
         altAnswers: ["Sind die Pilze essbar?"],
-        explanation: "ess + bar, double s.",
+        explanation: "\"ess\" + \"bar\", double s.",
       },
       {
         type: "translate",
@@ -1768,7 +1768,7 @@ export const DE_B2_U05: Lesson[] = [
         en: "What he said to her was [unforgivable].",
         sentence: "Was er zu ihr gesagt hat, war ___.",
         answer: "unverzeihlich",
-        explanation: "un- + verzeihlich: can't be forgiven.",
+        explanation: "\"un-\" + \"verzeihlich\": can't be forgiven.",
       },
       {
         type: "translate",
@@ -1801,8 +1801,8 @@ export const DE_B2_U05: Lesson[] = [
         prompt: "Translate into German with \"bekommen\".",
         source: "I'm getting the parcel delivered tomorrow.",
         answer: "Ich bekomme das Paket morgen geliefert.",
-        altAnswers: ["Ich kriege das Paket morgen geliefert.", "Morgen bekomme ich das Paket geliefert."],
-        explanation: "Bekommen + Partizip II at the end.",
+        altAnswers: ["Morgen bekomme ich das Paket geliefert."],
+        explanation: "\"Bekommen\" + Partizip II at the end.",
       },
       {
         type: "fill-blank",
@@ -1810,15 +1810,15 @@ export const DE_B2_U05: Lesson[] = [
         en: "He [had] everything explained to him in detail.",
         sentence: "Er ___ alles genau erklärt.",
         answer: "bekam",
-        altAnswers: ["bekommt", "kriegte"],
-        explanation: "Bekommen-passive: the receiver is the subject.",
+        altAnswers: ["kriegte"],
+        explanation: "\"Bekommen\"-passive: the receiver is the subject; past tense \"bekam\" for had.",
       },
       {
         type: "multiple-choice",
         question: "She was given a bike. Which sentence is wrong?",
         options: ["Sie wurde ein Fahrrad geschenkt.", "Sie bekam ein Fahrrad geschenkt.", "Ihr wurde ein Fahrrad geschenkt.", "Sie hat ein Fahrrad geschenkt bekommen."],
         correctIndex: 0,
-        explanation: "\"Sie\" is the receiver (dative); only \"ihr wurde\" or the bekommen-passive work.",
+        explanation: "The receiver is a dative (\"ihr\"), so it can't become the subject \"sie\" of a \"werden\"-passive; only \"Ihr wurde ...\" or the \"bekommen\"-passive work.",
       },
       {
         type: "matching",
@@ -1830,7 +1830,7 @@ export const DE_B2_U05: Lesson[] = [
           { left: "unvermeidlich", right: "unavoidable" },
           { left: "erreichbar", right: "reachable" },
         ],
-        explanation: "-bar / -lich = can be done; -wert = worth doing.",
+        explanation: "\"-bar\" / \"-lich\" = can be done; \"-wert\" = worth doing.",
       },
       {
         type: "listen-choose",
@@ -1838,18 +1838,18 @@ export const DE_B2_U05: Lesson[] = [
         question: "What does it mean?",
         options: ["The novel reads like a thriller.", "The novel is read like a thriller.", "He reads the novel like a thriller.", "The novel is worth reading as a thriller."],
         correctIndex: 0,
-        explanation: "The reflexive middle: how the book is to read.",
+        explanation: "The reflexive middle: how the book reads.",
       },
       {
         type: "dictation",
         audio: "Ihre Handschrift ist kaum lesbar.",
-        explanation: "\"Lesbar\": les + bar.",
+        explanation: "\"Lesbar\": \"les\" + \"bar\".",
       },
       {
         type: "speak",
         text: "Ich habe zum Geburtstag ein Fahrrad geschenkt bekommen.",
         prompt: "Say it in German: I was given a bike for my birthday.",
-        explanation: "Bekommen-passive in the Perfekt.",
+        explanation: "\"Bekommen\"-passive in the Perfekt.",
       },
     ],
   },
@@ -1858,15 +1858,15 @@ export const DE_B2_U05: Lesson[] = [
     level: "DE-B2",
     number: 10,
     title: "Transformations: Five Ways to Say It Without Werden",
-    summary: "Rewrite one passive sentence with man, sich lassen, sein + zu, -bar and the Zustandspassiv, and compare register.",
+    summary: "Rewrite one passive sentence with \"man\", \"sich lassen\", \"sein + zu\", \"-bar\" and the Zustandspassiv, and compare register.",
     duration: "15 min",
     sections: [
       {
         heading: "One sentence, five versions",
         body: [
-          "Start from \"Das Problem kann nicht gelöst werden.\" Then: (1) man: \"Man kann das Problem nicht lösen.\" (2) sich lassen: \"Das Problem lässt sich nicht lösen.\" (3) sein + zu: \"Das Problem ist nicht zu lösen.\" (4) -bar: \"Das Problem ist nicht lösbar\" or \"unlösbar\". (5) Zustandspassiv, if you mean the result: \"Das Problem ist (noch nicht) gelöst.\"",
+          "Start from \"Das Problem kann nicht gelöst werden.\" Then: (1) \"man\": \"Man kann das Problem nicht lösen.\" (2) \"sich lassen\": \"Das Problem lässt sich nicht lösen.\" (3) \"sein + zu\": \"Das Problem ist nicht zu lösen.\" (4) \"-bar\": \"Das Problem ist nicht lösbar\" or \"unlösbar\". (5) Zustandspassiv, if you mean the result: \"Das Problem ist (noch nicht) gelöst.\"",
           "Note that (5) changes the meaning: it says the problem hasn't been solved yet, not that it can't be. Only (1) to (4) are true paraphrases of \"kann nicht gelöst werden\".",
-          "Register: man and sich lassen are neutral and common in speech. Sein + zu and -bar adjectives are more compact and formal: typical of letters, reports and notices. The werden-passive with a modal is neutral but heavy.",
+          "Register: \"man\" and \"sich lassen\" are neutral and common in speech. \"Sein + zu\" and \"-bar\" adjectives are more compact and formal: typical of letters, reports and notices. The werden-passive with a modal is neutral but heavy.",
         ],
         examples: [
           { es: "Das Problem kann nicht gelöst werden.", en: "The problem can't be solved." },
@@ -1884,7 +1884,7 @@ export const DE_B2_U05: Lesson[] = [
             source: "The problem is unsolvable.",
             answer: "Das Problem ist unlösbar.",
             altAnswers: ["Das Problem ist nicht lösbar."],
-            explanation: "un- + lös + -bar.",
+            explanation: "\"un-\" + \"lös\" + \"-bar\".",
           },
           {
             type: "multiple-choice",
@@ -1898,8 +1898,8 @@ export const DE_B2_U05: Lesson[] = [
       {
         heading: "Necessity: fewer options",
         body: [
-          "When the passive sentence has \"müssen\", the options are fewer: \"Der Antrag muss unterschrieben werden\" → \"Man muss den Antrag unterschreiben\" or \"Der Antrag ist zu unterschreiben.\" Sich lassen and -bar express only possibility, so they don't fit here.",
-          "In a formal letter you'd choose sein + zu: \"Der Antrag ist bis zum 15. März zu unterschreiben und zurückzusenden.\" In a chat with a friend: \"Den Antrag musst du bis zum 15. unterschreiben.\"",
+          "When the passive sentence has \"müssen\", the options are fewer: \"Der Antrag muss unterschrieben werden\" → \"Man muss den Antrag unterschreiben\" or \"Der Antrag ist zu unterschreiben.\" \"Sich lassen\" and \"-bar\" express only possibility, so they don't fit here.",
+          "In a formal letter you'd choose \"sein + zu\": \"Der Antrag ist bis zum 15. März zu unterschreiben und zurückzusenden.\" In a chat with a friend: \"Den Antrag musst du bis zum 15. unterschreiben.\"",
         ],
         examples: [
           { es: "Der Antrag muss unterschrieben werden.", en: "The application must be signed." },
@@ -1924,7 +1924,7 @@ export const DE_B2_U05: Lesson[] = [
             sentence: "Der Antrag ist bis zum 15. März zu unterschreiben und ___.",
             answer: "zurückzusenden",
             altAnswers: ["zurückzuschicken"],
-            explanation: "zurück + zu + senden: one word.",
+            explanation: "\"zurück\" + \"zu\" + \"senden\": one word.",
           },
         ],
       },
@@ -1961,7 +1961,7 @@ export const DE_B2_U05: Lesson[] = [
         prompt: "Rewrite with a -bar adjective: \"Die Kosten können nicht genau berechnet werden.\"",
         source: "The costs can't be calculated exactly.",
         answer: "Die Kosten sind nicht genau berechenbar.",
-        explanation: "berechnen → berechenbar (an extra -e- for pronunciation).",
+        explanation: "\"berechnen\" → \"berechenbar\" (the stem \"berechen-\" keeps its -e-).",
       },
       {
         type: "translate",
@@ -1970,7 +1970,7 @@ export const DE_B2_U05: Lesson[] = [
         source: "The bins must be put out the evening before.",
         answer: "Die Mülltonnen sind am Vorabend rauszustellen.",
         altAnswers: ["Die Mülltonnen sind am Vorabend herauszustellen.", "Die Mülltonnen sind am Vorabend bereitzustellen."],
-        explanation: "Necessity → sein + zu; separable verb: \"rauszustellen\".",
+        explanation: "Necessity → \"sein + zu\"; separable verb: \"rauszustellen\".",
       },
       {
         type: "fill-blank",
@@ -1978,7 +1978,7 @@ export const DE_B2_U05: Lesson[] = [
         en: "The text [can] be read easily.",
         sentence: "Der Text ___ sich leicht lesen.",
         answer: "lässt",
-        explanation: "Sich lassen for possibility.",
+        explanation: "\"Sich lassen\" for possibility.",
       },
       {
         type: "translate",
@@ -1995,7 +1995,7 @@ export const DE_B2_U05: Lesson[] = [
         words: ["Das", "lässt", "sich", "nicht", "in", "zwei", "Minuten", "erklären."],
         translation: "That can't be explained in two minutes.",
         altOrders: [["Das", "lässt", "sich", "in", "zwei", "Minuten", "nicht", "erklären."]],
-        explanation: "Sich lassen, infinitive at the end.",
+        explanation: "\"Sich lassen\", infinitive at the end.",
       },
       {
         type: "translate",
@@ -2011,7 +2011,7 @@ export const DE_B2_U05: Lesson[] = [
         question: "Which version suits a formal letter from the tax office best?",
         options: ["Die Unterlagen sind bis zum 31. Juli einzureichen.", "Die Unterlagen musst du bis zum 31. Juli einreichen.", "Die Unterlagen lassen sich bis zum 31. Juli einreichen.", "Die Unterlagen sind bis zum 31. Juli eingereicht."],
         correctIndex: 0,
-        explanation: "Official necessity: sein + zu. Sich lassen is only possibility; the Zustandspassiv states a fact.",
+        explanation: "Official necessity: \"sein + zu\". \"Sich lassen\" is only possibility; the Zustandspassiv states a fact; \"du\" is far too informal.",
       },
       {
         type: "matching",
@@ -2030,7 +2030,7 @@ export const DE_B2_U05: Lesson[] = [
         question: "What does it mean?",
         options: ["The costs can't be calculated exactly.", "The costs mustn't be calculated exactly.", "The costs are too exact to calculate.", "The costs haven't been calculated yet."],
         correctIndex: 0,
-        explanation: "With \"nicht\", sein + zu expresses impossibility.",
+        explanation: "With \"nicht\", \"sein + zu\" expresses impossibility.",
       },
       {
         type: "dictation",
@@ -2040,7 +2040,7 @@ export const DE_B2_U05: Lesson[] = [
       {
         type: "speak",
         text: "Das ist leider nicht zu ändern.",
-        prompt: "Say it in German with sein + zu: Unfortunately, that can't be changed.",
+        prompt: "Say it in German with \"sein + zu\": Unfortunately, that can't be changed.",
         explanation: "\"Nicht zu ändern\" = can't be changed.",
       },
     ],
@@ -2057,7 +2057,7 @@ export const DE_B2_U05: Lesson[] = [
         heading: "Your home",
         body: [
           "Describe what's done and what still needs doing: \"Die Küche ist neu, das Bad ist frisch renoviert, aber die Fenster sind alt und lassen sich schlecht öffnen.\" \"Die Heizung ist schwer zu regulieren.\"",
-          "Wishes and plans fit neatly: \"Die Wand zwischen Küche und Wohnzimmer ließe sich leicht entfernen\" (Konjunktiv II of sich lassen: could easily be removed). \"Ich würde gern den Balkon verglasen lassen.\"",
+          "Wishes and plans fit neatly: \"Die Wand zwischen Küche und Wohnzimmer ließe sich leicht entfernen\" (Konjunktiv II of \"sich lassen\": could easily be removed). \"Ich würde gern den Balkon verglasen lassen.\"",
         ],
         examples: [
           { es: "Das Bad ist frisch renoviert.", en: "The bathroom has just been renovated." },
@@ -2082,7 +2082,7 @@ export const DE_B2_U05: Lesson[] = [
             en: "The wall [could] easily be removed.",
             sentence: "Die Wand ___ sich leicht entfernen.",
             answer: "ließe",
-            explanation: "Konjunktiv II of lassen: \"ließe\" (hypothetical).",
+            explanation: "Konjunktiv II of \"lassen\": \"ließe\" (hypothetical).",
           },
         ],
       },
@@ -2113,7 +2113,7 @@ export const DE_B2_U05: Lesson[] = [
             type: "speak",
             text: "Das Wetter lässt sich leider nicht ändern.",
             prompt: "Say it in German: Unfortunately, the weather can't be changed.",
-            explanation: "Sich lassen for impossibility.",
+            explanation: "\"Sich lassen\" for impossibility.",
           },
         ],
       },
@@ -2126,7 +2126,7 @@ export const DE_B2_U05: Lesson[] = [
         source: "My kitchen is new, but the windows are hard to open.",
         answer: "Meine Küche ist neu, aber die Fenster lassen sich schlecht öffnen.",
         altAnswers: ["Meine Küche ist neu, aber die Fenster sind schwer zu öffnen.", "Meine Küche ist neu, aber die Fenster lassen sich schwer öffnen."],
-        explanation: "Sich lassen or sein + zu with an adverb.",
+        explanation: "\"Sich lassen\" or \"sein + zu\" with an adverb.",
       },
       {
         type: "translate",
@@ -2144,7 +2144,7 @@ export const DE_B2_U05: Lesson[] = [
         source: "I'd like to have the balcony glazed.",
         answer: "Ich würde gern den Balkon verglasen lassen.",
         altAnswers: ["Ich würde den Balkon gern verglasen lassen.", "Ich möchte den Balkon verglasen lassen.", "Ich würde gerne den Balkon verglasen lassen."],
-        explanation: "Lassen = have something done.",
+        explanation: "\"Lassen\" = have something done.",
       },
       {
         type: "translate",
@@ -2180,14 +2180,14 @@ export const DE_B2_U05: Lesson[] = [
         source: "The old town is well preserved, but the station has been a building site for years.",
         answer: "Die Altstadt ist gut erhalten, aber der Bahnhof ist seit Jahren eine Baustelle.",
         altAnswers: ["Die Altstadt ist gut erhalten, doch der Bahnhof ist seit Jahren eine Baustelle."],
-        explanation: "\"Ist gut erhalten\": state; \"ist seit Jahren\": present tense with seit.",
+        explanation: "\"Ist gut erhalten\": state; \"ist seit Jahren\": present tense with \"seit\".",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: Nothing can be done about it.",
         words: ["Da", "ist", "nichts", "zu", "machen."],
         translation: "Nothing can be done about it.",
-        explanation: "A fixed phrase with sein + zu.",
+        explanation: "A fixed phrase with \"sein + zu\".",
       },
       {
         type: "fill-blank",
@@ -2195,14 +2195,14 @@ export const DE_B2_U05: Lesson[] = [
         en: "My commute is long, but that can't be [changed].",
         sentence: "Mein Arbeitsweg ist lang, aber das lässt sich nicht ___.",
         answer: "ändern",
-        explanation: "Sich lassen + infinitive.",
+        explanation: "\"Sich lassen\" + infinitive.",
       },
       {
         type: "multiple-choice",
         question: "A friend complains about her noisy street. Which reply is most natural?",
         options: ["Das lässt sich leider nicht ändern.", "Das ist leider nicht geändert worden.", "Das lässt sich leider nicht zu ändern.", "Das wird leider nicht geändert sein."],
         correctIndex: 0,
-        explanation: "The everyday sigh: sich lassen + bare infinitive.",
+        explanation: "The everyday sigh: \"sich lassen\" + bare infinitive.",
       },
       {
         type: "listen-choose",
@@ -2221,7 +2221,7 @@ export const DE_B2_U05: Lesson[] = [
         type: "speak",
         text: "In meiner Wohnung ist das Bad frisch renoviert, aber die Fenster lassen sich schlecht öffnen.",
         prompt: "Describe your flat: In my flat the bathroom has just been renovated, but the windows are hard to open.",
-        explanation: "Zustandspassiv + sich lassen.",
+        explanation: "Zustandspassiv + \"sich lassen\".",
       },
     ],
   },
@@ -2230,15 +2230,15 @@ export const DE_B2_U05: Lesson[] = [
     level: "DE-B2",
     number: 12,
     title: "Error Hunt: Zustandspassiv and Its Alternatives",
-    summary: "Find and correct the typical mistakes with sein, werden, sich lassen, sein + zu and -bar.",
+    summary: "Find and correct the typical mistakes with \"sein\", \"werden\", \"sich lassen\", \"sein + zu\" and \"-bar\".",
     duration: "15 min",
     sections: [
       {
         heading: "The five classic errors",
         body: [
-          "1. \"*Die Tür wird geschlossen seit gestern\": seit + lasting state needs sein: \"Die Tür ist seit gestern geschlossen.\" 2. \"*Das lässt sich nicht zu ändern\": sich lassen takes a bare infinitive: \"Das lässt sich nicht ändern\" (or \"Das ist nicht zu ändern\"). Learners mix the two structures.",
-          "3. \"*Der Antrag ist zu einreichen\": with separable verbs zu goes inside: \"einzureichen\". 4. \"*Das Auto ist repariert geworden\": the passive participle of werden is \"worden\". 5. \"*Das ist nicht machbar zu sein\": -bar already contains the passive and possibility, so just say \"Das ist nicht machbar.\"",
-          "Two more to watch: \"*Sie wurde ein Buch geschenkt\" (use \"Sie bekam ein Buch geschenkt\" or \"Ihr wurde ein Buch geschenkt\") and \"*Das Buch ist sehr lesbar\" when you mean worth reading (\"lesenswert\").",
+          "1. \"*Die Tür wird geschlossen seit gestern*\": \"seit\" + lasting state needs \"sein\": \"Die Tür ist seit gestern geschlossen.\" 2. \"*Das lässt sich nicht zu ändern*\": \"sich lassen\" takes a bare infinitive: \"Das lässt sich nicht ändern\" (or \"Das ist nicht zu ändern\"). Learners mix the two structures.",
+          "3. \"*Der Antrag ist zu einreichen*\": with separable verbs \"zu\" goes inside: \"einzureichen\". 4. \"*Das Auto ist repariert geworden*\": the passive participle of werden is \"worden\". 5. \"*Das ist nicht machbar zu sein*\": \"-bar\" already contains the passive and possibility, so just say \"Das ist nicht machbar.\"",
+          "Two more to watch: \"*Sie wurde ein Buch geschenkt*\" (use \"Sie bekam ein Buch geschenkt\" or \"Ihr wurde ein Buch geschenkt\") and \"*Das Buch ist sehr lesbar*\" when you mean worth reading (\"lesenswert\").",
         ],
         examples: [
           { es: "Die Tür ist seit gestern geschlossen.", en: "The door has been closed since yesterday." },
@@ -2252,7 +2252,7 @@ export const DE_B2_U05: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Correct the sentence: \"*Das Auto ist repariert geworden.\"",
+            prompt: "Correct the sentence: \"*Das Auto ist repariert geworden.*\"",
             source: "The car has been repaired.",
             answer: "Das Auto ist repariert worden.",
             altAnswers: ["Das Auto wurde repariert."],
@@ -2261,11 +2261,11 @@ export const DE_B2_U05: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Correct the sentence: \"*Das lässt sich nicht zu ändern.\"",
+            prompt: "Correct the sentence: \"*Das lässt sich nicht zu ändern.*\"",
             source: "That can't be changed.",
             answer: "Das lässt sich nicht ändern.",
             altAnswers: ["Das ist nicht zu ändern."],
-            explanation: "Either sich lassen + bare infinitive, or sein + zu. Not a mix.",
+            explanation: "Either \"sich lassen\" + bare infinitive, or \"sein + zu\". Not a mix.",
           },
         ],
       },
@@ -2274,11 +2274,11 @@ export const DE_B2_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct the sentence: \"*Die Tür wird geschlossen seit gestern.\"",
+        prompt: "Correct the sentence: \"*Die Tür wird geschlossen seit gestern.*\"",
         source: "The door has been closed since yesterday.",
         answer: "Die Tür ist seit gestern geschlossen.",
         altAnswers: ["Seit gestern ist die Tür geschlossen."],
-        explanation: "Seit + state → sein; the participle goes at the end.",
+        explanation: "\"Seit\" + state → \"sein\"; the participle goes at the end.",
       },
       {
         type: "fill-blank",
@@ -2286,30 +2286,30 @@ export const DE_B2_U05: Lesson[] = [
         en: "The application must [be submitted] by Monday.",
         sentence: "Der Antrag ist bis Montag ___.",
         answer: "einzureichen",
-        explanation: "Not \"*zu einreichen\": with a separable verb, zu sits between prefix and stem, all one word.",
+        explanation: "Not \"*zu einreichen*\": with a separable verb, \"zu\" sits between prefix and stem, all one word.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct the sentence: \"*Das ist nicht machbar zu sein.\"",
+        prompt: "Correct the sentence: \"*Das ist nicht machbar zu sein.*\"",
         source: "That isn't doable.",
         answer: "Das ist nicht machbar.",
         altAnswers: ["Das ist nicht zu machen.", "Das lässt sich nicht machen."],
-        explanation: "-bar already means can be done.",
+        explanation: "\"-bar\" already means can be done.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct the sentence: \"*Sie wurde ein Buch geschenkt.\"",
+        prompt: "Correct the sentence: \"*Sie wurde ein Buch geschenkt.*\"",
         source: "She was given a book.",
         answer: "Sie bekam ein Buch geschenkt.",
         altAnswers: ["Ihr wurde ein Buch geschenkt.", "Sie hat ein Buch geschenkt bekommen."],
-        explanation: "The receiver is dative: bekommen-passive or \"ihr wurde\".",
+        explanation: "The receiver is dative: \"bekommen\"-passive or \"ihr wurde\".",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct the sentence: \"*Das Buch ist sehr lesbar, du musst es lesen!\"",
+        prompt: "Correct the sentence: \"*Das Buch ist sehr lesbar, du musst es lesen!*\"",
         source: "The book is really worth reading, you have to read it!",
         answer: "Das Buch ist sehr lesenswert, du musst es lesen!",
         altAnswers: ["Das Buch ist wirklich lesenswert, du musst es lesen!", "Das Buch ist sehr lesenswert, Sie müssen es lesen!", "Das Buch ist sehr lesenswert, ihr müsst es lesen!"],
@@ -2318,11 +2318,11 @@ export const DE_B2_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct the sentence: \"*Die Formulare sind auszufüllen worden.\"",
+        prompt: "Correct the sentence: \"*Die Formulare sind auszufüllen worden.*\"",
         source: "The forms must be filled in.",
         answer: "Die Formulare sind auszufüllen.",
         altAnswers: ["Die Formulare müssen ausgefüllt werden."],
-        explanation: "Sein + zu has no \"worden\".",
+        explanation: "\"Sein + zu\" has no \"worden\".",
       },
       {
         type: "fill-blank",
@@ -2330,12 +2330,12 @@ export const DE_B2_U05: Lesson[] = [
         en: "The window [can] not be opened.",
         sentence: "Das Fenster ___ sich nicht öffnen.",
         answer: "lässt",
-        explanation: "Sich lassen + bare infinitive: \"lässt sich nicht öffnen\" (not \"*lässt sich nicht zu öffnen\").",
+        explanation: "\"Sich lassen\" + bare infinitive: \"lässt sich nicht öffnen\" (not \"*lässt sich nicht zu öffnen*\").",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct the sentence: \"*Wir haben das Dach reparieren gelassen.\"",
+        prompt: "Correct the sentence: \"*Wir haben das Dach reparieren gelassen.*\"",
         source: "We had the roof repaired.",
         answer: "Wir haben das Dach reparieren lassen.",
         altAnswers: ["Wir ließen das Dach reparieren."],
@@ -2370,19 +2370,19 @@ export const DE_B2_U05: Lesson[] = [
         type: "listen-choose",
         audio: "Das Auto ist repariert worden.",
         question: "Which statement is true?",
-        options: ["This is correct: it's the passive Perfekt.", "This is wrong: it should be geworden.", "This means the car is being repaired.", "This means the car can be repaired."],
+        options: ["This is correct: it's the passive Perfekt.", "This is wrong: it should be \"geworden\".", "This means the car is being repaired.", "This means the car can be repaired."],
         correctIndex: 0,
         explanation: "\"Worden\" is the passive participle.",
       },
       {
         type: "dictation",
         audio: "Die Straße ist seit Montag gesperrt.",
-        explanation: "\"Straße\" with ß; state with sein.",
+        explanation: "\"Straße\" with ß; state with \"sein\".",
       },
       {
         type: "speak",
         text: "Das lässt sich nicht ändern, das ist nicht zu ändern.",
-        prompt: "Say both correct versions: That can't be changed (with sich lassen, then with sein + zu).",
+        prompt: "Say both correct versions: That can't be changed (with \"sich lassen\", then with \"sein + zu\").",
         explanation: "Two correct structures, not a mix.",
       },
     ],
@@ -2401,5 +2401,5 @@ export const DE_B2_U05_WRITING: WriteExercise = {
     "Distinguishes the event from the state at least once (\"ist repariert worden\" vs \"ist repariert\"), or uses \"lassen\" for having something done.",
   ],
   modelAnswer: "Sehr geehrte Frau Hoffmann,\n\nseit dem 1. Oktober wohne ich nun in der Wohnung in der Lindenstraße 12. Vieles ist sehr schön geworden: Die Wände sind frisch gestrichen, die Dielen sind abgeschliffen und die Küche ist komplett eingebaut.\n\nEinige Dinge sind allerdings noch nicht erledigt. Die Lampen im Flur sind noch nicht montiert, und das Fenster im Schlafzimmer lässt sich nicht richtig schließen. Außerdem ist die Dusche seit Montag nicht benutzbar, weil das Wasser nicht abläuft. Der Handwerker war zwar letzte Woche da, aber das Problem lässt sich offenbar nicht so schnell lösen.\n\nIn Ihrem Brief steht, das Übergabeprotokoll sei bis zum 15. Oktober unterschrieben zurückzusenden. Das ist kein Problem, ich möchte aber die Mängel vorher dort eintragen.\n\nKönnten Sie die Dusche bitte möglichst bald reparieren lassen? Wenn sie repariert worden ist, sage ich Ihnen gern Bescheid, ob alles funktioniert.\n\nMit freundlichen Grüßen\nDaniel Weber",
-  explanation: "The email uses the Zustandspassiv for results (\"sind gestrichen\", \"sind noch nicht montiert\"), \"sich lassen\" and the -bar adjective \"benutzbar\" for what can't be done, and sein + zu for the official deadline (\"zurückzusenden\", with zu inside the separable verb). \"Reparieren lassen\" asks for something to be done by someone else, and \"repariert worden ist\" refers to the repair as an event.",
+  explanation: "The email uses the Zustandspassiv for results (\"sind gestrichen\", \"sind noch nicht montiert\"), \"sich lassen\" and the -bar adjective \"benutzbar\" for what can't be done, and \"sein + zu\" for the official deadline (\"zurückzusenden\", with zu inside the separable verb). \"Reparieren lassen\" asks for something to be done by someone else, and \"repariert worden ist\" refers to the repair as an event.",
 };

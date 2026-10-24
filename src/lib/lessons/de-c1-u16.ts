@@ -83,8 +83,8 @@ export const DE_C1_U16: Lesson[] = [
             prompt: "Translate as a casual chat message (use the fused forms).",
             source: "Have you got time tonight?",
             answer: "Haste heute Abend Zeit?",
-            altAnswers: ["Haste heut Abend Zeit?", "Haste heute Abend mal Zeit?", "Hast du heute Abend Zeit?"],
-            explanation: "\"Hast du\" fuses to \"haste\" in speech and chats.",
+            altAnswers: ["Haste heut Abend Zeit?", "Haste heute Abend mal Zeit?"],
+            explanation: "\"Hast du\" fuses to \"haste\" in speech and chats; the separate \"Hast du\" is correct but not the fused form asked for.",
           },
           {
             type: "translate",
@@ -174,8 +174,8 @@ export const DE_C1_U16: Lesson[] = [
         prompt: "Translate into neutral written German with \"denn\".",
         source: "I'm staying at home because I'm ill.",
         answer: "Ich bleibe zu Hause, denn ich bin krank.",
-        altAnswers: ["Ich bleibe zu Hause, weil ich krank bin.", "Ich bleibe daheim, denn ich bin krank.", "Ich bleibe zuhause, denn ich bin krank."],
-        explanation: "\"Denn\" keeps verb-second order in writing; spoken \"weil ich bin krank\" is not neutral.",
+        altAnswers: ["Ich bleibe daheim, denn ich bin krank.", "Ich bleibe zuhause, denn ich bin krank."],
+        explanation: "\"Denn\" keeps verb-second order in writing; spoken \"weil ich bin krank\" is not neutral. \"Weil ich krank bin\" is also correct, but the task asks for \"denn\".",
       },
       {
         type: "multiple-choice",
@@ -489,7 +489,7 @@ export const DE_C1_U16: Lesson[] = [
             prompt: "Translate into neutral written German with \"weil\".",
             source: "I can't come because I have to work until 6 p.m.",
             answer: "Ich kann nicht kommen, weil ich bis 18 Uhr arbeiten muss.",
-            altAnswers: ["Ich kann leider nicht kommen, weil ich bis 18 Uhr arbeiten muss.", "Ich kann nicht kommen, da ich bis 18 Uhr arbeiten muss.", "Ich kann nicht kommen, weil ich bis 18:00 Uhr arbeiten muss."],
+            altAnswers: ["Ich kann leider nicht kommen, weil ich bis 18 Uhr arbeiten muss.", "Ich kann nicht kommen, weil ich bis 18:00 Uhr arbeiten muss."],
             explanation: "Verb-final after \"weil\": \"arbeiten muss\". \"Da\" is a slightly more formal alternative.",
           },
           {
@@ -504,7 +504,7 @@ export const DE_C1_U16: Lesson[] = [
       {
         heading: "The finished email",
         body: [
-          "Result: \"Betreff: Termin am Freitag, 14. März. Sehr geehrte Frau Becker, leider kann ich den Termin am Freitag nicht wahrnehmen, weil ich an diesem Tag bis 18 Uhr arbeiten muss. Könnten wir ihn auf die nächste Woche verschieben? Außerdem möchte ich Sie darauf hinweisen, dass die Heizung in unserer Wohnung immer noch defekt ist. Ich freue mich auf Ihre Rückmeldung. Mit freundlichen Grüßen, Lukas Brandt\".",
+          "Result: \"Betreff: Termin am Freitag, 14. März. Sehr geehrte Frau Becker, leider kann ich den Termin am Freitag nicht wahrnehmen, weil ich an diesem Tag bis 18 Uhr arbeiten muss. Könnten wir ihn auf die nächste Woche verschieben? Außerdem möchte ich Sie darauf hinweisen, dass die Heizung in unserer Wohnung immer noch defekt ist. Ich freue mich auf Ihre Rückmeldung. Mit freundlichen Grüßen Lukas Brandt\".",
           "Notice the typical neutral verbs: \"einen Termin wahrnehmen\" (attend an appointment), \"jemanden auf etwas hinweisen\" (point something out), \"sich melden\" (get in touch). They carry the same content as the voice message without its tone.",
           "Emotion is not deleted, it is translated: \"voll nervig\" becomes the factual \"immer noch defekt\", and the urgency is carried by \"immer noch\" and \"Außerdem möchte ich Sie darauf hinweisen\".",
         ],
@@ -558,12 +558,12 @@ export const DE_C1_U16: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Write the neutral word for the bold colloquial phrase.",
-        en: "The heating is [still broken].",
+        prompt: "Write the neutral written word for the bold word.",
+        en: "The heating is still [broken].",
         sentence: "Die Heizung ist immer noch ___.",
         answer: "defekt",
-        altAnswers: ["kaputt", "nicht in Ordnung"],
-        explanation: "\"Defekt\" is the neutral written choice; \"kaputt\" is acceptable but more informal.",
+        altAnswers: ["nicht in Ordnung"],
+        explanation: "\"Defekt\" is the neutral written choice; \"kaputt\" is the everyday word from the voice message and sounds informal in a letter.",
       },
       {
         type: "translate",
@@ -690,8 +690,8 @@ export const DE_C1_U16: Lesson[] = [
             prompt: "Translate casually, with \"halt\".",
             source: "That's just the way it is.",
             answer: "Das ist halt so.",
-            altAnswers: ["Das is halt so.", "Das ist eben so.", "Ist halt so.", "Is halt so."],
-            explanation: "\"Halt\" (south and centre) or \"eben\" (north) = it can't be changed.",
+            altAnswers: ["Das is halt so.", "Ist halt so.", "Is halt so."],
+            explanation: "\"Halt\" (south and centre) or \"eben\" (north) = it can't be changed; the task asks for \"halt\".",
           },
           {
             type: "matching",
@@ -881,7 +881,7 @@ export const DE_C1_U16: Lesson[] = [
         body: [
           "\"Digga\" (from Hamburg \"Dicker\", buddy) and \"Alter\" are forms of address and exclamations among friends: \"Digga, wo bist du?\" \"Wallah\" (Arabic, by God) means I swear: \"Wallah, ich war's nicht!\"",
           "\"Ehrenmann\" and \"Ehrenfrau\" praise someone who did something decent: \"Du hast mir Pizza mitgebracht? Ehrenmann!\" The word is often half ironic.",
-          "Never use \"digga\" or \"Alter\" with teachers, older people or strangers: it sounds disrespectful. \"Wallah\" can sound like an imitation of a migrant milieu if you have no connection to it.",
+          "Never use \"Digga\" or \"Alter\" with teachers, older people or strangers: it sounds disrespectful. \"Wallah\" can sound like an imitation of a migrant milieu if you have no connection to it.",
         ],
         examples: [
           { es: "Digga, wo bist du?", en: "Mate, where are you?" },
@@ -1020,7 +1020,7 @@ export const DE_C1_U16: Lesson[] = [
         question: "How does the speaker find the video?",
         options: ["Embarrassing", "Exciting", "Boring but useful", "Frightening"],
         correctIndex: 0,
-        explanation: "\"Cringe\" = peinlich; \"ich bin raus\" = I'm out.",
+        explanation: "\"Cringe\" = \"peinlich\"; \"ich bin raus\" = I'm out.",
       },
       {
         type: "dictation",
@@ -1144,7 +1144,7 @@ export const DE_C1_U16: Lesson[] = [
             en: "Please bring your passport [if necessary].",
             sentence: "Bitte bringen Sie ___ Ihren Reisepass mit.",
             answer: "ggf.",
-            altAnswers: ["gegebenenfalls", "ggf"],
+            altAnswers: ["ggf"],
             explanation: "\"Ggf.\" = \"gegebenenfalls\".",
           },
         ],
@@ -1166,7 +1166,7 @@ export const DE_C1_U16: Lesson[] = [
         prompt: "Translate, using the clipped word.",
         source: "He did his A levels last year.",
         answer: "Er hat letztes Jahr sein Abi gemacht.",
-        altAnswers: ["Er hat letztes Jahr Abi gemacht.", "Er hat im letzten Jahr sein Abi gemacht.", "Er hat letztes Jahr sein Abitur gemacht.", "Letztes Jahr hat er sein Abi gemacht."],
+        altAnswers: ["Er hat letztes Jahr Abi gemacht.", "Er hat im letzten Jahr sein Abi gemacht.", "Letztes Jahr hat er sein Abi gemacht."],
         explanation: "\"Das Abi machen\" = take and pass the Abitur.",
       },
       {
@@ -1175,8 +1175,8 @@ export const DE_C1_U16: Lesson[] = [
         en: "Bring something to drink, [for example] juice or water.",
         sentence: "Bring was zu trinken mit, ___ Saft oder Wasser.",
         answer: "z. B.",
-        altAnswers: ["z.B.", "zum Beispiel", "zB"],
-        explanation: "Officially \"z. B.\" with a small space; it is read \"zum Beispiel\".",
+        altAnswers: ["z.B.", "zB"],
+        explanation: "Officially \"z. B.\" with a small space; it is read \"zum Beispiel\", but the task asks for the written abbreviation.",
       },
       {
         type: "translate",
@@ -1245,7 +1245,7 @@ export const DE_C1_U16: Lesson[] = [
     level: "DE-C1",
     number: 7,
     title: "Contrast Clinic: Same Content, Different Effect",
-    summary: "One message in neutral, colloquial and vulgar German: what changes in effect, and who can say it to whom.",
+    summary: "Compare one message in neutral, colloquial and vulgar German, judge the effect of each version, and choose who you can say it to.",
     duration: "18 min",
     sections: [
       {
@@ -1446,7 +1446,7 @@ export const DE_C1_U16: Lesson[] = [
     level: "DE-C1",
     number: 8,
     title: "Error Hunt: Colloquialisms in the Wrong Place",
-    summary: "Spot and fix register slips: kriegen and Bock in a job application, halt and irgendwie in an essay, digga with a grandparent, geil in a work presentation.",
+    summary: "Spot and fix register slips: \"kriegen\" and \"Bock\" in a job application, \"halt\" and \"irgendwie\" in an essay, \"Digga\" with a grandparent, \"geil\" in a work presentation.",
     duration: "18 min",
     sections: [
       {
@@ -1565,7 +1565,7 @@ export const DE_C1_U16: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate formally with da.",
+        prompt: "Translate formally with \"da\".",
         source: "As I would like to take on more responsibility, I'm applying for this position.",
         answer: "Da ich mehr Verantwortung übernehmen möchte, bewerbe ich mich auf diese Stelle.",
         altAnswers: ["Da ich mehr Verantwortung übernehmen möchte, bewerbe ich mich um diese Stelle.", "Da ich gern mehr Verantwortung übernehmen möchte, bewerbe ich mich auf diese Stelle.", "Da ich mehr Verantwortung übernehmen möchte, bewerbe ich mich für diese Stelle."],
@@ -1703,8 +1703,8 @@ export const DE_C1_U16: Lesson[] = [
             prompt: "Translate with a playful euphemism.",
             source: "What nonsense!",
             answer: "So ein Käse!",
-            altAnswers: ["So ein Quatsch!", "Quatsch mit Soße!", "So ein Unsinn!", "Was für ein Käse!"],
-            explanation: "\"Käse\" and \"Quatsch\" are friendly ways to call something nonsense.",
+            altAnswers: ["So ein Quatsch!", "Quatsch mit Soße!", "Was für ein Käse!"],
+            explanation: "\"Käse\" and \"Quatsch\" are friendly ways to call something nonsense; plain \"Unsinn\" is neutral, not playful.",
           },
           {
             type: "fill-blank",
@@ -1948,8 +1948,7 @@ export const DE_C1_U16: Lesson[] = [
             prompt: "Translate casually with \"voll\".",
             source: "The concert was really good.",
             answer: "Das Konzert war voll gut.",
-            altAnswers: ["Das Konzert war echt gut.", "Das Konzert war mega gut.", "Das Konzert war total gut.", "Das Konzert war richtig gut."],
-            explanation: "\"Voll\" + adjective is typical colloquial intensification.",
+            explanation: "\"Voll\" + adjective is typical colloquial intensification; \"echt\", \"mega\" or \"richtig\" are just as casual, but the task asks for \"voll\".",
           },
         ],
       },
@@ -1979,8 +1978,8 @@ export const DE_C1_U16: Lesson[] = [
         en: "Pizza or pasta? [I don't mind.]",
         sentence: "Pizza oder Pasta? Das ist mir ___.",
         answer: "Wurst",
-        altAnswers: ["wurst", "wurscht", "egal", "Wurscht"],
-        explanation: "\"Das ist mir Wurst\" = \"Das ist mir egal\".",
+        altAnswers: ["wurscht"],
+        explanation: "\"Das ist mir Wurst\" (southern \"wurscht\") = \"Das ist mir egal\"; \"egal\" is the neutral word, not the idiom.",
       },
       {
         type: "translate",
@@ -2073,7 +2072,7 @@ export const DE_C1_U16: Lesson[] = [
             prompt: "Write the neutral subtitle.",
             source: "Have you got money on you? I'm hungry.",
             answer: "Hast du Geld dabei? Ich habe Hunger.",
-            altAnswers: ["Hast du Geld dabei? Ich hab Hunger.", "Hast du Geld bei dir? Ich habe Hunger.", "Hast du Geld dabei? Ich habe großen Hunger.", "Hast du Geld mit? Ich habe Hunger."],
+            altAnswers: ["Hast du Geld dabei? Ich hab Hunger.", "Hast du Geld bei dir? Ich habe Hunger.", "Hast du Geld dabei? Ich habe großen Hunger."],
             explanation: "\"Geld\" and \"Hunger haben\" are understood everywhere.",
           },
           {
@@ -2114,8 +2113,8 @@ export const DE_C1_U16: Lesson[] = [
             prompt: "Write the neutral subtitle.",
             source: "Let's just relax.",
             answer: "Lass uns einfach entspannen.",
-            altAnswers: ["Ruhen wir uns einfach aus.", "Entspannen wir uns einfach.", "Lass uns einfach chillen."],
-            explanation: "Standard \"lass uns\" instead of Kiezdeutsch \"lassma\".",
+            altAnswers: ["Ruhen wir uns einfach aus.", "Entspannen wir uns einfach."],
+            explanation: "Standard \"lass uns\" instead of Kiezdeutsch \"lassma\", and \"entspannen\", which every viewer understands, instead of \"chillen\".",
           },
         ],
       },
@@ -2123,7 +2122,7 @@ export const DE_C1_U16: Lesson[] = [
         heading: "The final line and checking",
         body: [
           "\"Krass. Na ja, is halt so.\" Here \"krass\" expresses surprise or sympathy: \"Oh je.\" or \"Wirklich?\" \"Na ja, is halt so\" becomes \"Das ist eben so\" or \"Da kann man nichts machen\".",
-          "Final check: Would a grandmother in Graz understand every word? Would a teenager in Kiel find it natural? Is anything regional (\"heuer\", \"Semmel\") or youth-specific (\"lost\", \"digga\")? Does each subtitle fit the time on screen?",
+          "Final check: Would a grandmother in Graz understand every word? Would a teenager in Kiel find it natural? Is anything regional (\"heuer\", \"Semmel\") or youth-specific (\"lost\", \"Digga\")? Does each subtitle fit the time on screen?",
           "Finished subtitles: \"Hey, wie geht's? Hast du Geld dabei? Ich habe Hunger.\" / \"Ich bin pleite und weiß nicht weiter. Lass uns einfach entspannen.\" / \"Oh je. Na ja, da kann man nichts machen.\"",
         ],
         examples: [
@@ -2246,7 +2245,7 @@ export const DE_C1_U16: Lesson[] = [
     level: "DE-C1",
     number: 12,
     title: "Spiral Review: Register, Emphasis and Supposition",
-    summary: "Recombines colloquial and neutral German with modal particles, the Vorfeld for focus and expressions of supposition.",
+    summary: "Switch between colloquial and neutral German while using modal particles, the Vorfeld for focus and expressions of supposition (\"dürfte\", \"wird wohl\").",
     duration: "20 min",
     sections: [
       {
@@ -2337,8 +2336,7 @@ export const DE_C1_U16: Lesson[] = [
             prompt: "Translate neutrally with \"dürfte\".",
             source: "That's probably the problem.",
             answer: "Das dürfte das Problem sein.",
-            altAnswers: ["Das ist wahrscheinlich das Problem.", "Das ist vermutlich das Problem.", "Das wird wohl das Problem sein."],
-            explanation: "\"Dürfte\" + infinitive expresses supposition.",
+            explanation: "\"Dürfte\" + infinitive expresses supposition; \"wahrscheinlich\" or \"vermutlich\" would also be neutral, but the task asks for \"dürfte\".",
           },
           {
             type: "translate",
@@ -2346,8 +2344,7 @@ export const DE_C1_U16: Lesson[] = [
             prompt: "Translate neutrally with the future tense and \"wohl\".",
             source: "He's probably stuck in traffic.",
             answer: "Er wird wohl im Stau stehen.",
-            altAnswers: ["Er steht wohl im Stau.", "Er dürfte im Stau stehen.", "Er steht wahrscheinlich im Stau.", "Er steht vermutlich im Stau."],
-            explanation: "Future tense + \"wohl\" expresses a present supposition.",
+            explanation: "Future tense + \"wohl\" expresses a present supposition; \"Er steht wohl im Stau\" is also correct, but the task asks for the future tense.",
           },
         ],
       },
@@ -2359,8 +2356,7 @@ export const DE_C1_U16: Lesson[] = [
         prompt: "Translate neutrally with \"dürfte\".",
         source: "He has probably overslept.",
         answer: "Er dürfte verschlafen haben.",
-        altAnswers: ["Er hat wahrscheinlich verschlafen.", "Er hat vermutlich verschlafen.", "Er wird wohl verschlafen haben.", "Er hat wohl verschlafen."],
-        explanation: "\"Dürfte\" + perfect infinitive for past supposition.",
+        explanation: "\"Dürfte\" + perfect infinitive (\"verschlafen haben\") for past supposition.",
       },
       {
         type: "translate",
@@ -2401,7 +2397,7 @@ export const DE_C1_U16: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which particle works in both colloquial and neutral German?",
-        options: ["wohl", "digga", "halt mal", "lassma"],
+        options: ["wohl", "Digga", "halt mal", "lassma"],
         correctIndex: 0,
         explanation: "\"Wohl\" is a neutral modal particle of supposition.",
       },

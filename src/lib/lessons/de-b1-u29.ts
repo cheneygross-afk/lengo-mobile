@@ -8,7 +8,7 @@ export const DE_B1_U29: Lesson[] = [
     level: "DE-B1",
     number: 1,
     title: "Survival: Asking Politely",
-    summary: "Polite and indirect requests for any service: Könnten Sie mir sagen, ob...; Ich wollte fragen, ob...; Wäre es möglich, dass...?; Entschuldigen Sie die Störung.",
+    summary: "Make polite, indirect requests at any counter or on the phone with \"Könnten Sie mir sagen, ob...\", \"Ich wollte fragen, ob...\", \"Wäre es möglich, dass...?\" and \"Entschuldigen Sie die Störung\".",
     duration: "15 min",
     sections: [
       {
@@ -50,7 +50,7 @@ export const DE_B1_U29: Lesson[] = [
         body: [
           "The politest question is an indirect one: \"Wo ist der Ausgang?\" → \"Könnten Sie mir sagen, wo der Ausgang ist?\". The question word becomes a conjunction and the verb moves to the end.",
           "Yes/no questions become \"ob\"-clauses: \"Ist das Büro heute geöffnet?\" → \"Wissen Sie, ob das Büro heute geöffnet ist?\" English uses if or whether; German always uses \"ob\", never \"wenn\".",
-          "The typical mistake is keeping the question word order: \"*Können Sie mir sagen, wo ist der Ausgang?\" The verb must go last.",
+          "The typical mistake is keeping the question word order: \"*Können Sie mir sagen, wo ist der Ausgang?*\" The verb must go last.",
         ],
         examples: [
           { es: "Könnten Sie mir sagen, wo der Ausgang ist?", en: "Could you tell me where the exit is?" },
@@ -213,7 +213,7 @@ export const DE_B1_U29: Lesson[] = [
     level: "DE-B1",
     number: 2,
     title: "Transformation Chain: Wenn Three Ways",
-    summary: "Wenn + present with an imperative, with a plan for the future and with the Konjunktiv II: Wenn du Zeit hast, ruf an → ..., rufe ich an → Wenn ich Zeit hätte, würde ich anrufen.",
+    summary: "Use \"wenn\" three ways: with an imperative, with a plan for the future and with the Konjunktiv II (\"Wenn du Zeit hast, ruf an!\" → \"Wenn ich Zeit habe, rufe ich an.\" → \"Wenn ich Zeit hätte, würde ich anrufen.\").",
     duration: "14 min",
     sections: [
       {
@@ -243,7 +243,7 @@ export const DE_B1_U29: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "[If you have any questions], please get in touch. (polite)",
+            en: "[If you have any questions], please get in touch. (formal)",
             sentence: "___, melden Sie sich bitte.",
             answer: "Falls Sie Fragen haben",
             altAnswers: ["Wenn Sie Fragen haben"],
@@ -358,7 +358,7 @@ export const DE_B1_U29: Lesson[] = [
         source: "If I pass the exam, I'll throw a party.",
         answer: "Wenn ich die Prüfung bestehe, mache ich eine Party.",
         altAnswers: ["Wenn ich die Prüfung bestehe, feiere ich eine Party.", "Falls ich die Prüfung bestehe, mache ich eine Party.", "Wenn ich die Prüfung bestehe, schmeiße ich eine Party.", "Wenn ich die Prüfung bestehe, gebe ich eine Party."],
-        explanation: "Real possibility → present tense. To pass an exam = \"bestehen\" (not \"*passieren\").",
+        explanation: "Real possibility → present tense. To pass an exam = \"bestehen\" (not \"*passieren*\").",
       },
       {
         type: "translate",
@@ -418,7 +418,7 @@ export const DE_B1_U29: Lesson[] = [
     level: "DE-B1",
     number: 3,
     title: "Themed Review: Keep Going or Turn Back",
-    summary: "A mountain-hiking story with a hard decision, recycling entweder...oder, the Konjunktiv II and the past tenses.",
+    summary: "Follow a mountain-hiking story with a hard decision and retell it, recycling \"entweder ... oder\", the Konjunktiv II and the past tenses.",
     duration: "14 min",
     sections: [
       {
@@ -616,17 +616,17 @@ export const DE_B1_U29: Lesson[] = [
     level: "DE-B1",
     number: 4,
     title: "Themed Review: Volunteering",
-    summary: "Read about volunteering (das Ehrenamt) and practise sich engagieren für, teilnehmen an, helfen bei and the zu-infinitive.",
+    summary: "Read about volunteering (\"das Ehrenamt\") and talk about your own motives, practising \"sich engagieren für\", \"teilnehmen an\", \"helfen bei\" and the zu-infinitive.",
     duration: "14 min",
     sections: [
       {
         heading: "The text: Ehrenamtlich aktiv",
         body: [
           "More than one in three people in Germany volunteers: in sports clubs, the volunteer fire brigade (\"die Freiwillige Feuerwehr\"), food banks (\"die Tafel\"), refugee help, or as reading mentors in schools. Unpaid work is called \"das Ehrenamt\" (literally honour office), and a volunteer works \"ehrenamtlich\".",
-          "Read about Frau Becker, a retired teacher. Key verbs: \"sich engagieren für\" + accusative (to be involved in, to work for a cause), \"teilnehmen an\" + dative, \"helfen bei\" + dative, \"sich kümmern um\".",
+          "Read about Frau Becker, a retired teacher. Key verbs: \"sich engagieren für\" + accusative (to be involved in, to work for a cause), \"teilnehmen an\" + dative, \"helfen bei\" + dative, \"sich kümmern um\" + accusative.",
         ],
         examples: [
-          { es: "Frau Becker engagiert sich seit fünf Jahren für die Tafel.", en: "Mrs Becker has been volunteering for the food bank for five years." },
+          { es: "Frau Becker engagiert sich seit fünf Jahren für die Tafel.", en: "Ms Becker has been volunteering for the food bank for five years." },
           { es: "Jeden Dienstag hilft sie bei der Essensausgabe.", en: "Every Tuesday she helps with handing out food." },
           { es: "Außerdem ist sie Lesepatin in einer Grundschule.", en: "She's also a reading mentor at a primary school." },
           { es: "Dort kümmert sie sich um Kinder, die Probleme beim Lesen haben.", en: "There she looks after children who have trouble reading." },
@@ -800,7 +800,7 @@ export const DE_B1_U29: Lesson[] = [
         type: "listen-choose",
         audio: "Frau Becker engagiert sich für die Tafel.",
         question: "What does it mean?",
-        options: ["Mrs Becker volunteers for the food bank.", "Mrs Becker is engaged to a man called Tafel.", "Mrs Becker hires people for the food bank.", "Mrs Becker cleans the blackboard."],
+        options: ["Ms Becker volunteers for the food bank.", "Ms Becker is engaged to a man called Tafel.", "Ms Becker hires people for the food bank.", "Ms Becker cleans the blackboard."],
         correctIndex: 0,
         explanation: "\"Sich engagieren für\" = to be committed to a cause, not to get engaged (\"sich verloben\").",
       },
@@ -818,7 +818,7 @@ export const DE_B1_U29: Lesson[] = [
     level: "DE-B1",
     number: 5,
     title: "Survival: Phone Calls",
-    summary: "Answer and make calls: Hier ist..., Ich rufe wegen ... an, Könnten Sie mich mit ... verbinden?, leave a message, ask someone to spell, and spell with the German alphabet (Anton, Berta, Cäsar...).",
+    summary: "Answer and make calls (\"Hier ist...\", \"Ich rufe wegen ... an\", \"Könnten Sie mich mit ... verbinden?\"), leave a message, ask someone to spell, and spell with the German word alphabet (\"Anton, Berta, Cäsar\").",
     duration: "15 min",
     sections: [
       {
@@ -842,7 +842,7 @@ export const DE_B1_U29: Lesson[] = [
             source: "Hello, this is Lena Wagner.",
             answer: "Guten Tag, hier ist Lena Wagner.",
             altAnswers: ["Hallo, hier ist Lena Wagner.", "Guten Tag, mein Name ist Lena Wagner.", "Guten Tag, hier spricht Lena Wagner."],
-            explanation: "On the phone, this is = \"hier ist\" (or \"hier spricht\"), never \"*dies ist\".",
+            explanation: "On the phone, this is = \"hier ist\" (or \"hier spricht\"), never \"*dies ist*\".",
           },
           {
             type: "fill-blank",
@@ -900,7 +900,7 @@ export const DE_B1_U29: Lesson[] = [
         heading: "Understanding and spelling",
         body: [
           "Phone lines and fast speakers: \"Wie bitte?\" (sorry?), \"Könnten Sie das bitte wiederholen?\", \"Könnten Sie etwas langsamer sprechen?\", \"Könnten Sie das bitte buchstabieren?\" (spell that).",
-          "Germans spell with a word alphabet (\"Buchstabiertafel\"): A wie Anton, B wie Berta, C wie Cäsar, D wie Dora, E wie Emil, F wie Friedrich, G wie Gustav, H wie Heinrich... Ä wie Ärger, Ö wie Ökonom, Ü wie Übermut, ß is \"Eszett\". A newer official version uses city names (A wie Aachen, B wie Berlin), and you'll hear both.",
+          "Germans spell with a word alphabet (\"Buchstabiertafel\"): \"A wie Anton, B wie Berta, C wie Cäsar, D wie Dora, E wie Emil, F wie Friedrich, G wie Gustav, H wie Heinrich\"... \"Ä wie Ärger, Ö wie Ökonom, Ü wie Übermut\"; ß is \"Eszett\". A newer official version (2022) uses city names (\"A wie Aachen, B wie Berlin\"), and you'll hear both.",
           "\"Wagner, W wie Wilhelm, A wie Anton, G wie Gustav...\". Numbers are read digit by digit (\"null eins sieben sechs\") or in pairs (\"null eins, sechsundsiebzig\").",
         ],
         examples: [
@@ -1023,7 +1023,7 @@ export const DE_B1_U29: Lesson[] = [
     level: "DE-B1",
     number: 6,
     title: "Cumulative Circuit: Zu, Um...zu and Damit",
-    summary: "Rotate the three infinitive and purpose patterns in phone and office situations.",
+    summary: "Choose correctly between \"zu\" + infinitive, \"um ... zu\", \"damit\", \"ohne ... zu\" and \"statt ... zu\" in phone and office situations.",
     duration: "14 min",
     sections: [
       {
@@ -1044,14 +1044,14 @@ export const DE_B1_U29: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "I've been trying to reach you for days. (polite)",
+            source: "I've been trying to reach you for days. (formal)",
             answer: "Ich versuche seit Tagen, Sie zu erreichen.",
             altAnswers: ["Seit Tagen versuche ich, Sie zu erreichen.", "Ich versuche schon seit Tagen, Sie zu erreichen."],
             explanation: "\"Versuchen\" + zu-infinitive; \"seit\" + present for an ongoing action.",
           },
           {
             type: "multiple-choice",
-            question: "Which is correct?",
+            question: "Which is right for: I have to call the bank?",
             options: ["Ich muss die Bank anrufen.", "Ich muss die Bank anzurufen.", "Ich muss zu die Bank anrufen.", "Ich muss, die Bank anzurufen."],
             correctIndex: 0,
             explanation: "No \"zu\" after a modal verb.",
@@ -1226,7 +1226,7 @@ export const DE_B1_U29: Lesson[] = [
     level: "DE-B1",
     number: 7,
     title: "Themed Review: The Energy of the Future",
-    summary: "Read about Germany's Energiewende: solar panels, wind power, the passive and je...desto.",
+    summary: "Read and discuss Germany's \"Energiewende\" (solar panels, wind power, coal) using the passive, \"einerseits ... andererseits\" and \"je ... desto\".",
     duration: "15 min",
     sections: [
       {
@@ -1264,7 +1264,7 @@ export const DE_B1_U29: Lesson[] = [
       {
         heading: "Pros and cons: connectors",
         body: [
-          "Discussions of the Energiewende weigh arguments: \"einerseits ... andererseits\" (on the one hand ... on the other), \"zwar ... aber\", \"außerdem\", \"trotzdem\", \"deshalb\".",
+          "Discussions of the \"Energiewende\" weigh arguments: \"einerseits ... andererseits\" (on the one hand ... on the other), \"zwar ... aber\", \"außerdem\", \"trotzdem\", \"deshalb\".",
           "\"Einerseits\" and \"andererseits\" are adverbs: in position 1 they take the verb next. \"Einerseits ist Windkraft sauber, andererseits stören die Windräder manche Anwohner.\"",
         ],
         examples: [
@@ -1361,7 +1361,7 @@ export const DE_B1_U29: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is correct?",
+        question: "Which is right for: The better a house is insulated, the less energy it uses?",
         options: ["Je besser ein Haus isoliert ist, desto weniger Energie verbraucht es.", "Je besser ein Haus ist isoliert, desto weniger Energie verbraucht es.", "Je besser ein Haus isoliert ist, desto es verbraucht weniger Energie.", "Je besser isoliert ein Haus ist, desto verbraucht es weniger Energie."],
         correctIndex: 0,
         explanation: "\"Je\"-clause with the verb last; \"desto\" + comparative phrase + verb.",
@@ -1386,7 +1386,7 @@ export const DE_B1_U29: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "There's a lot of criticism, but the majority still supports it.",
+        source: "There's a lot of criticism, but the majority still supports it (it = \"die Energiewende\").",
         answer: "Es gibt viel Kritik, trotzdem unterstützt die Mehrheit sie.",
         altAnswers: ["Es gibt viel Kritik, aber die Mehrheit unterstützt sie trotzdem.", "Es gibt viel Kritik, trotzdem unterstützt sie die Mehrheit.", "Es gibt viel Kritik, aber trotzdem unterstützt die Mehrheit sie."],
         explanation: "\"Trotzdem\" (still, nevertheless) + verb second; \"sie\" refers to \"die Energiewende\".",
@@ -1417,7 +1417,7 @@ export const DE_B1_U29: Lesson[] = [
     level: "DE-B1",
     number: 8,
     title: "Quick Round: Hat gemacht, Hatte gemacht, Wurde gemacht",
-    summary: "Rapid recognition and production of the Perfekt, the Plusquamperfekt and the Präteritum passive.",
+    summary: "Quickly tell apart and form the Perfekt (\"hat gemacht\"), the Plusquamperfekt (\"hatte gemacht\") and the Präteritum passive (\"wurde gemacht\").",
     duration: "12 min",
     sections: [
       {
@@ -1499,7 +1499,7 @@ export const DE_B1_U29: Lesson[] = [
         prompt: "Translate into German.",
         source: "The car was repaired yesterday.",
         answer: "Das Auto wurde gestern repariert.",
-        altAnswers: ["Das Auto ist gestern repariert worden.", "Gestern wurde das Auto repariert."],
+        altAnswers: ["Das Auto ist gestern repariert worden.", "Gestern wurde das Auto repariert.", "Gestern ist das Auto repariert worden."],
         explanation: "Passive: \"wurde repariert\" or \"ist repariert worden\".",
       },
       {
@@ -1578,14 +1578,14 @@ export const DE_B1_U29: Lesson[] = [
     level: "DE-B1",
     number: 9,
     title: "Survival: The Bank and Money",
-    summary: "Open an account, use your Girokarte, make a transfer with an IBAN, withdraw cash, set up a standing order and ask politely about a charge.",
+    summary: "Open an account, use your \"Girokarte\", make a transfer with an IBAN, withdraw cash, set up a standing order and ask politely about a charge.",
     duration: "15 min",
     sections: [
       {
         heading: "Opening an account",
         body: [
           "To live in Germany you need a current account (\"das Girokonto\"): your salary, rent and phone contract all go through it. You open an account (\"ein Konto eröffnen\") at a bank or online, usually with your passport and your \"Meldebescheinigung\" (proof of address registration).",
-          "Trap: \"die Bank\" means both bank and bench, but the plurals differ: \"die Banken\" (banks), \"die Bänke\" (benches). And English bill (to pay) is \"die Rechnung\", not \"*der Bill\".",
+          "Trap: \"die Bank\" means both bank and bench, but the plurals differ: \"die Banken\" (banks), \"die Bänke\" (benches). And English bill (to pay) is \"die Rechnung\", not \"*der Bill*\".",
           "The debit card is \"die Girokarte\" (still widely called \"EC-Karte\"); many shops also take credit cards (\"die Kreditkarte\"), but cash (\"das Bargeld\") is still more common than in the UK or US.",
         ],
         examples: [
@@ -1624,7 +1624,7 @@ export const DE_B1_U29: Lesson[] = [
         examples: [
           { es: "Ich habe die Miete schon überwiesen.", en: "I've already transferred the rent." },
           { es: "Könnten Sie mir bitte Ihre IBAN schicken?", en: "Could you send me your IBAN, please?" },
-          { es: "Wo ist hier der nächste Geldautomat?", en: "Where's the nearest cash machine here?" },
+          { es: "Wo ist hier der nächste Geldautomat?", en: "Where's the nearest cash machine round here?" },
           { es: "Ich muss noch Geld abheben.", en: "I still have to withdraw some money." },
           { es: "Für die Miete richte ich einen Dauerauftrag ein.", en: "I'm setting up a standing order for the rent." },
           { es: "Das Geld wurde gestern auf Ihr Konto überwiesen.", en: "The money was transferred to your account yesterday." },
@@ -1720,7 +1720,7 @@ export const DE_B1_U29: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Could you send me your IBAN, please? (polite)",
+        source: "Could you send me your IBAN, please? (formal)",
         answer: "Könnten Sie mir bitte Ihre IBAN schicken?",
         altAnswers: ["Könnten Sie mir Ihre IBAN schicken?", "Können Sie mir bitte Ihre IBAN schicken?", "Würden Sie mir bitte Ihre IBAN schicken?"],
         explanation: "\"Die IBAN\" is feminine: \"Ihre IBAN\".",
@@ -1784,7 +1784,7 @@ export const DE_B1_U29: Lesson[] = [
     level: "DE-B1",
     number: 10,
     title: "Fix the Paragraph: The Class Group Chat",
-    summary: "A parents' group chat with wrong particles, missing commas, auf es instead of darauf and weil with the wrong word order: find the mistakes and rewrite it.",
+    summary: "Find and fix the mistakes in a parents' group chat: misplaced particles, missing commas, \"auf es\" instead of \"darauf\" and the wrong word order after \"weil\".",
     duration: "14 min",
     sections: [
       {
@@ -1797,14 +1797,14 @@ export const DE_B1_U29: Lesson[] = [
           { es: "Weiß jemand, wann das Sommerfest ist?", en: "Does anyone know when the summer party is?" },
           { es: "Ich freue mich schon darauf!", en: "I'm already looking forward to it!" },
           { es: "Wir können nicht kommen, weil wir am Samstag eine Hochzeit haben.", en: "We can't come because we have a wedding on Saturday." },
-          { es: "Bringt doch Salate mit!", en: "Why don't you bring salads!" },
+          { es: "Bringt doch Salate mit!", en: "Why don't you bring some salads?" },
           { es: "Bringt mal Salate mit!", en: "Bring some salads!" },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A parent wrote \"*Ich freue mich schon auf es!\" Translate correctly: I'm already looking forward to it!",
+            prompt: "A parent wrote \"*Ich freue mich schon auf es!*\" Translate correctly: I'm already looking forward to it!",
             source: "I'm already looking forward to it!",
             answer: "Ich freue mich schon darauf!",
             altAnswers: ["Ich freu mich schon darauf!", "Ich freue mich schon drauf!", "Ich freu mich schon drauf!"],
@@ -1813,7 +1813,7 @@ export const DE_B1_U29: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A parent wrote \"*Wir können nicht kommen weil wir haben am Samstag eine Hochzeit.\" Translate correctly: We can't come because we have a wedding on Saturday.",
+            prompt: "A parent wrote \"*Wir können nicht kommen weil wir haben am Samstag eine Hochzeit.*\" Translate correctly: We can't come because we have a wedding on Saturday.",
             source: "We can't come because we have a wedding on Saturday.",
             answer: "Wir können nicht kommen, weil wir am Samstag eine Hochzeit haben.",
             altAnswers: ["Wir können nicht kommen, denn wir haben am Samstag eine Hochzeit.", "Wir können leider nicht kommen, weil wir am Samstag eine Hochzeit haben."],
@@ -1837,7 +1837,7 @@ export const DE_B1_U29: Lesson[] = [
         checkpoint: [
           {
             type: "fill-blank",
-            prompt: "A parent wrote \"*über es\". Write the German for the bold words.",
+            prompt: "A parent wrote \"*über es*\". Write the German for the bold words.",
             en: "I talked to the teacher [about it].",
             sentence: "Ich habe mit der Lehrerin ___ gesprochen.",
             answer: "darüber",
@@ -1882,10 +1882,10 @@ export const DE_B1_U29: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A parent wrote \"*Doch bringt mal Salate mit!\" Translate correctly: Why don't you bring salads! (to the group)",
-        source: "Why don't you bring salads!",
+        prompt: "A parent wrote \"*Doch bringt mal Salate mit!*\" Translate correctly: Why don't you bring some salads? (to the group, informal)",
+        source: "Why don't you bring some salads?",
         answer: "Bringt doch Salate mit!",
-        altAnswers: ["Bringt doch mal Salate mit!", "Bringt mal Salate mit!", "Bringen Sie doch Salate mit!"],
+        altAnswers: ["Bringt doch mal Salate mit!", "Bringt mal Salate mit!"],
         explanation: "Modal particles like \"doch\" and \"mal\" never stand in position 1: the imperative verb comes first, then \"doch\".",
       },
       {
@@ -1943,7 +1943,7 @@ export const DE_B1_U29: Lesson[] = [
       {
         type: "speak",
         text: "Wir können nicht kommen, weil wir am Samstag eine Hochzeit haben.",
-        prompt: "Write to the group, aloud: We can't come because we have a wedding on Saturday.",
+        prompt: "Say it in German for the group: We can't come because we have a wedding on Saturday.",
         explanation: "\"Weil\" + verb at the end.",
       },
     ],
@@ -1953,14 +1953,14 @@ export const DE_B1_U29: Lesson[] = [
     level: "DE-B1",
     number: 11,
     title: "Survival: Renting a Flat",
-    summary: "Flat-hunting vocabulary (Kaltmiete, Warmmiete, Nebenkosten, Kaution, Besichtigung, Mietvertrag, Schufa, WG-Casting) and the questions to ask at a viewing.",
+    summary: "Understand a German flat advert (\"Kaltmiete\", \"Warmmiete\", \"Nebenkosten\", \"Kaution\"), ask the right questions at a viewing and get through a \"WG-Casting\" and a \"Mietvertrag\".",
     duration: "15 min",
     sections: [
       {
         heading: "Reading a flat advert",
         body: [
           "German flat adverts are full of abbreviations and terms. \"Die Kaltmiete\" is the basic rent; add \"die Nebenkosten\" (service charges: water, rubbish, building cleaning, often heating) and you get \"die Warmmiete\". Always ask which one is quoted.",
-          "\"3-Zimmer-Wohnung\" counts the bedrooms and living room, not the kitchen and bathroom. \"EBK\" = \"Einbauküche\" (fitted kitchen); many German flats come without a kitchen! \"Die Kaution\" (deposit) is usually up to three months' Kaltmiete.",
+          "\"3-Zimmer-Wohnung\" counts the bedrooms and living room, not the kitchen and bathroom. \"EBK\" = \"Einbauküche\" (fitted kitchen); many German flats come without a kitchen! \"Die Kaution\" (deposit) is at most three months' basic rent (\"Kaltmiete\").",
           "\"Altbau\" (pre-war building, high ceilings) and \"Neubau\" (new building) are classic categories.",
         ],
         examples: [
@@ -1984,7 +1984,7 @@ export const DE_B1_U29: Lesson[] = [
             question: "The advert says \"Warmmiete: 950 Euro\". What does that include?",
             options: ["Basic rent plus service charges", "Only the basic rent", "Rent plus deposit", "Rent for the summer months"],
             correctIndex: 0,
-            explanation: "\"Warmmiete\" = Kaltmiete + Nebenkosten (often including heating).",
+            explanation: "\"Warmmiete\" = \"Kaltmiete\" + \"Nebenkosten\" (often including heating).",
           },
         ],
       },
@@ -2034,7 +2034,7 @@ export const DE_B1_U29: Lesson[] = [
         heading: "WG-Casting and the contract",
         body: [
           "For a room in a flat-share, you go to a \"WG-Casting\": the flatmates interview several candidates. Expect questions like \"Was machst du so?\", \"Wie stellst du dir das Zusammenleben vor?\" (how do you imagine living together?) and \"Kochst du gern?\". It's always du.",
-          "Once you're accepted, you sign \"der Mietvertrag\" (tenancy agreement): \"Der Vertrag wird für unbefristete Zeit abgeschlossen\" (open-ended). \"Die Kündigungsfrist\" (notice period) for tenants is usually three months.",
+          "Once you're accepted, you sign \"der Mietvertrag\" (tenancy agreement): \"Der Vertrag wird auf unbestimmte Zeit abgeschlossen\" (open-ended). \"Die Kündigungsfrist\" (notice period) for tenants is usually three months.",
         ],
         examples: [
           { es: "Wie stellst du dir das Zusammenleben vor?", en: "How do you imagine living together?" },
@@ -2095,7 +2095,7 @@ export const DE_B1_U29: Lesson[] = [
         source: "The deposit is three months' basic rent.",
         answer: "Die Kaution beträgt drei Kaltmieten.",
         altAnswers: ["Die Kaution sind drei Kaltmieten.", "Die Kaution beträgt drei Monatsmieten.", "Die Kaution ist drei Kaltmieten."],
-        explanation: "\"Die Kaution\" = deposit; counted in Kaltmieten.",
+        explanation: "\"Die Kaution\" = deposit; it is counted in months of basic rent (\"Kaltmieten\").",
       },
       {
         type: "multiple-choice",
@@ -2147,7 +2147,7 @@ export const DE_B1_U29: Lesson[] = [
     level: "DE-B1",
     number: 12,
     title: "Transformation Chain: From Nouns to Pronouns and Da-Compounds",
-    summary: "Replace every noun in a conversation with a pronoun or a da-compound: auf den Vermieter → auf ihn; über die Miete → darüber.",
+    summary: "Replace nouns after prepositions with a pronoun for people or a da-compound for things (\"auf den Vermieter\" → \"auf ihn\"; \"über die Miete\" → \"darüber\").",
     duration: "13 min",
     sections: [
       {
@@ -2188,7 +2188,7 @@ export const DE_B1_U29: Lesson[] = [
         heading: "Things: da-compounds",
         body: [
           "For things and ideas, preposition + pronoun becomes a da-compound: da + preposition, with an extra r before a vowel: \"über die Miete\" → \"darüber\", \"auf die Antwort\" → \"darauf\", \"mit dem Vertrag\" → \"damit\", \"für die Wohnung\" → \"dafür\", \"an den Termin\" → \"daran\".",
-          "\"*Auf es\" and \"*über sie\" (for a thing) are typical learner errors. Questions use wo-compounds: \"Worüber hast du dich beschwert?\", \"Worauf wartest du?\".",
+          "\"*Auf es*\" and \"*über sie*\" (for a thing) are typical learner errors. Questions use wo-compounds: \"Worüber hast du dich beschwert?\", \"Worauf wartest du?\".",
         ],
         examples: [
           { es: "Ich habe mich über die Miete beschwert. → Ich habe mich darüber beschwert.", en: "I complained about the rent. → I complained about it." },
@@ -2341,7 +2341,7 @@ export const DE_B1_U29_WRITING: WriteExercise = {
   minWords: 80,
   maxWords: 150,
   rubric: [
-    "Use the formal frame (\"Sehr geehrter Herr Becker,\" ... \"Mit freundlichen Grüßen\") and Sie throughout.",
+    "Use the formal frame (\"Sehr geehrter Herr Becker,\" ... \"Mit freundlichen Grüßen\") and \"Sie\" throughout.",
     "Ask indirect questions with the verb at the end: \"Könnten Sie mir sagen, ob...\", \"Ich wollte fragen, wann...\".",
     "Use flat vocabulary: \"die Kaltmiete\", \"die Nebenkosten\", \"die Kaution\", \"die Besichtigung\".",
     "Make a polite request with \"Wäre es möglich, ...?\" or \"Könnten Sie...?\", with a wenn / falls clause if useful.",

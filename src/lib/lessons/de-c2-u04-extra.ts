@@ -96,8 +96,8 @@ export const DE_C2_U04_EXTRA: Lesson[] = [
         prompt: "Translate into German, using an idiom.",
         source: "What other people think is none of my business.",
         answer: "Was andere Leute denken, ist nicht mein Bier.",
-        altAnswers: ["Was andere denken, ist nicht mein Bier.", "Was andere Leute denken, geht mich nichts an.", "Was andere denken, geht mich nichts an."],
-        explanation: "\"Nicht mein Bier\" is almost always negated, with a possessive (\"Das ist dein Bier\" = that's your problem).",
+        altAnswers: ["Was andere denken, ist nicht mein Bier.", "Das ist nicht mein Bier, was andere Leute denken."],
+        explanation: "\"Nicht mein Bier\" is usually negated and always has a possessive; the positive \"Das ist dein Bier\" (that's your problem) also exists. The neutral \"geht mich nichts an\" is not an idiom.",
       },
       {
         type: "translate",
@@ -124,7 +124,7 @@ export const DE_C2_U04_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your friend passed an exam by studying hard. Which idiom does NOT fit?",
+        question: "Your friend passed an exam by studying hard. Which reply does NOT fit?",
         options: ["Da hast du Schwein gehabt.", "Das hast du dir verdient.", "Hut ab!", "Das hat sich gelohnt."],
         correctIndex: 0,
         explanation: "\"Schwein haben\" implies luck by chance, which would belittle her work.",
@@ -330,7 +330,7 @@ export const DE_C2_U04_EXTRA: Lesson[] = [
         heading: "Recap: from the pitch to the front page",
         body: [
           "Football gives politics many idioms. \"Ins Abseits geraten\" (to end up offside) means to become isolated or sidelined: \"Die Partei ist ins Abseits geraten.\" \"Den Ball flach halten\" (keep the ball low) means to stay modest, not overreact: \"Der Trainer mahnte, den Ball flach zu halten.\" \"Ein Eigentor schießen\" means to score an own goal, to harm oneself.",
-          "\"Am Ball bleiben\" (to keep at it) is football too. Others come from transport and farming: \"die Notbremse ziehen\" (to pull the emergency brake: to stop something drastic), \"die Kuh vom Eis holen\" (to get the cow off the ice: to solve a tricky situation). They are neutral enough for newspapers and speeches.",
+          "\"Am Ball bleiben\" (to keep at it) is football too. Others come from transport and farming: \"die Notbremse ziehen\" (to pull the emergency brake: to stop something abruptly), \"die Kuh vom Eis holen\" (to get the cow off the ice: to solve a tricky situation). They are neutral enough for newspapers and speeches.",
         ],
         examples: [
           { es: "Die Partei ist mit dieser Forderung ins Abseits geraten.", en: "The party has sidelined itself with this demand." },
@@ -375,7 +375,7 @@ export const DE_C2_U04_EXTRA: Lesson[] = [
         prompt: "Translate into German, using an idiom.",
         source: "We should stay modest.",
         answer: "Wir sollten den Ball flach halten.",
-        altAnswers: ["Wir sollten lieber den Ball flach halten.", "Lasst uns den Ball flach halten.", "Wir sollten bescheiden bleiben."],
+        altAnswers: ["Wir sollten lieber den Ball flach halten.", "Lasst uns den Ball flach halten.", "Lass uns den Ball flach halten.", "Wir sollten mal den Ball flach halten."],
         explanation: "\"Den Ball flach halten\" = don't overreact or boast.",
       },
       {
@@ -482,7 +482,7 @@ export const DE_C2_U04_EXTRA: Lesson[] = [
           { es: "Das Picknick ist ins Wasser gefallen, weil es den ganzen Tag geregnet hat.", en: "The picnic was called off because it rained all day." },
           { es: "Die Präsentation vor dem Vorstand ist gründlich in die Hose gegangen.", en: "The presentation to the board was a complete flop." },
           { es: "Lass mal die Kirche im Dorf, das ist doch nur ein Kratzer.", en: "Let's keep things in proportion, it's only a scratch." },
-          { es: "Das Auto ist Schrott, aber niemand ist verletzt: Glück im Unglück.", en: "The car is a write-off, but nobody is hurt: lucky in our misfortune." },
+          { es: "Das Auto ist Schrott, aber niemand ist verletzt: Glück im Unglück.", en: "The car is a write-off, but nobody is hurt: it could have been much worse." },
         ],
         checkpoint: [
           {
@@ -580,7 +580,7 @@ export const DE_C2_U04_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German, using an idiom.",
-        source: "We were lucky in our misfortune: the flat is damaged, but nobody was hurt.",
+        source: "We had a lucky escape: the flat is damaged, but nobody was hurt.",
         answer: "Wir hatten Glück im Unglück: Die Wohnung ist beschädigt, aber niemand wurde verletzt.",
         altAnswers: ["Wir haben Glück im Unglück gehabt: Die Wohnung ist beschädigt, aber niemand wurde verletzt.", "Wir hatten Glück im Unglück: Die Wohnung ist beschädigt, aber niemand ist verletzt worden.", "Wir haben Glück im Unglück gehabt: Die Wohnung ist beschädigt, aber niemand ist verletzt worden.", "Wir hatten Glück im Unglück: Die Wohnung ist beschädigt, aber keiner wurde verletzt.", "Wir hatten Glück im Unglück, die Wohnung ist beschädigt, aber niemand wurde verletzt."],
         explanation: "Luck inside a misfortune is \"Glück im Unglück\"; \"Schwein haben\" would ignore the damage. A full sentence after a colon starts with a capital.",
@@ -838,13 +838,13 @@ export const DE_C2_U04_EXTRA: Lesson[] = [
     number: 6,
     optional: true,
     title: "Extra Practice: A Political Column Full of Idioms",
-    summary: "Read a satirical local-politics Glosse packed with idioms and restate each one in neutral German.",
+    summary: "Read a satirical local-politics \"Glosse\" packed with idioms and restate each one in neutral German.",
     duration: "20 min",
     sections: [
       {
         heading: "Recap: the Glosse and its neutral translation",
         body: [
-          "A Glosse is a short, ironic newspaper column, and idioms are its fuel: they add colour and a wink without becoming vulgar. Read this one about a fictional mayor, then restate every idiom in plain, neutral German, the register of a news report or a minute.",
+          "A \"Glosse\" is a short, ironic newspaper column, and idioms are its fuel: they add colour and a wink without becoming vulgar. Read this one about a fictional mayor, then restate every idiom in plain, neutral German, the register of a news report or a minute.",
           "Kuh auf dem Eis\n\nMan muss es dem Bürgermeister lassen: Er versteht es, ins Fettnäpfchen zu treten. Kaum hatte er im Frühjahr das Blaue vom Himmel versprochen – ein neues Schwimmbad, kostenlose Busse, schnelles Internet bis in den letzten Keller –, da stellte sich heraus, dass die Stadtkasse leer ist. Die Opposition rieb sich die Hände, und die eigene Partei redete endlich Tacheles. Monatelang hatte man das Haushaltsloch unter den Teppich gekehrt; nun ging die Sache gründlich in die Hose. Der Kämmerer zog die Notbremse, das Schwimmbad fiel ins Wasser, und der Bürgermeister geriet ins Abseits. Wer jetzt meint, der Mann habe nicht alle Tassen im Schrank, sollte allerdings die Kirche im Dorf lassen: Er hat lediglich die Katze im Sack gekauft, als er den Plänen seines Beraters glaubte. Da liegt der Hund begraben. Ob ein Kompromiss mit der Opposition die Kuh noch vom Eis holt, steht in den Sternen. Bis dahin gilt für alle Beteiligten: den Ball flach halten.",
           "Neutral equivalents: \"ins Fettnäpfchen treten\" = \"sich taktlos äußern\"; \"das Blaue vom Himmel versprechen\" = \"unrealistische Versprechungen machen\"; \"sich die Hände reiben\" = \"sich schadenfroh freuen\"; \"Tacheles reden\" = \"offen und deutlich sprechen\"; \"unter den Teppich kehren\" = \"verschweigen\"; \"in die Hose gehen\" = \"scheitern\"; \"die Notbremse ziehen\" = \"etwas abrupt stoppen\"; \"ins Wasser fallen\" = \"abgesagt werden\"; \"ins Abseits geraten\" = \"an Einfluss verlieren\"; \"die Katze im Sack kaufen\" = \"etwas ungeprüft übernehmen\"; \"Da liegt der Hund begraben\" = \"Das ist der Kern des Problems\"; \"die Kuh vom Eis holen\" = \"eine heikle Lage entschärfen\"; \"in den Sternen stehen\" = \"ungewiss sein\"; \"den Ball flach halten\" = \"sich zurückhalten\".",
         ],

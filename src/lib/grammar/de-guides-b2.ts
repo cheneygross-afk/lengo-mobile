@@ -211,14 +211,14 @@ export const DE_B2_GUIDES: DeGrammarGuide[] = [
         body: [
           `Reported questions use "ob" (yes/no) or the question word, with the verb at the end: "Sie fragt, ob ich Zeit habe", "Er wollte wissen, wann der Zug komme".`,
           `Reported commands use "sollen": "Komm her!" becomes "Er sagt, ich solle kommen". Polite requests use "mögen": "Sie bat, man möge leise sein."`,
-          `News German frames attribution with "laut" + dative ("laut Polizei", "laut dem Bericht"), postposed "zufolge" + dative ("dem Bericht zufolge"), "nach Angaben" + genitive ("nach Angaben der Polizei"), and "wie ... mitteilte". The verb that introduces the speech matters too: "behaupten" (claim, with a hint of doubt), "betonen" (stress), "zugeben" (admit), "bestreiten" (deny).`,
+          `News German frames attribution with "laut" + dative or genitive ("laut Polizei", "laut dem Bericht"), postposed "zufolge" + dative ("dem Bericht zufolge"), "nach Angaben" + genitive ("nach Angaben der Polizei"), and "wie ... mitteilte" (often with the indicative, since "wie" already names the source). The verb that introduces the speech matters too: "behaupten" (claim, with a hint of doubt), "betonen" (stress), "zugeben" (admit), "bestreiten" (deny).`,
         ],
         examples: [
           { de: "Sie hat gefragt, ob du heute Abend Zeit hast.", en: "She asked whether you've got time tonight. (spoken: indicative)" },
           { de: "Der Arzt sagt, ich solle mehr trinken.", en: "The doctor says I should drink more." },
           { de: "Dem Bericht zufolge seien drei Personen verletzt worden.", en: "According to the report, three people were injured." },
           { de: "Der Minister bestreitet, von dem Plan gewusst zu haben.", en: "The minister denies having known about the plan." },
-          { de: "Wie die Polizei mitteilte, sei der Täter geflohen.", en: "As the police reported, the culprit had fled." },
+          { de: "Nach Angaben der Polizei sei der Täter geflohen.", en: "According to the police, the culprit has fled." },
         ],
       },
     ],
@@ -407,7 +407,7 @@ export const DE_B2_GUIDES: DeGrammarGuide[] = [
       "How German packs a whole relative clause between the article and the noun: Partizip I and II as attributes, extended participle phrases (der seit Jahren leerstehende Bahnhof), the gerundive (die zu erledigenden Aufgaben) and how to unpack them.",
     level: "B2",
     intro: [
-      `German newspapers, reports and textbooks love a structure English hardly has: a long phrase squeezed between the article and the noun. "Die von ihm gestern geschriebene Mail" is literally the by him yesterday written e-mail, i.e. the e-mail he wrote yesterday.`,
+      `German newspapers, reports and textbooks love a structure English hardly has: a long phrase squeezed between the article and the noun. "Die von ihm gestern geschriebene Mail" is literally the by him yesterday written email, i.e. the email he wrote yesterday.`,
       `These extended attributes are relative clauses in disguise. Once you know how to unpack them, long noun phrases in the press stop being a wall of words. And once you can build them, your written German instantly sounds more advanced.`,
     ],
     sections: [
@@ -462,7 +462,7 @@ export const DE_B2_GUIDES: DeGrammarGuide[] = [
       {
         heading: `Reading strategy: unpack from the outside in`,
         body: [
-          `When you meet an article followed by something that is clearly not the noun ("die von ..."), jump ahead to find the noun: it follows the first participle or adjective with an ending. Read article + noun first, then go back and turn the middle into a relative clause.`,
+          `When you meet an article followed by something that is clearly not the noun ("die von ..."), jump ahead to find the noun that agrees with the article: it follows the last participle or adjective of the block (skip nouns inside the block, such as "Experten" below). Read article + noun first, then go back and turn the middle into a relative clause.`,
           `"Der von vielen Experten seit Langem geforderte Ausbau des Netzes" → "der Ausbau des Netzes, den viele Experten seit Langem gefordert haben" (the expansion of the network which many experts have long called for).`,
         ],
         examples: [
@@ -491,7 +491,7 @@ export const DE_B2_GUIDES: DeGrammarGuide[] = [
       {
         wrong: "die von ihm schreibende Mail",
         right: "die von ihm geschriebene Mail",
-        why: `The e-mail did not write anything; it was written. Passive and completed meaning needs Partizip II.`,
+        why: `The email did not write anything; it was written. Passive and completed meaning needs Partizip II.`,
       },
     ],
     faqs: [
@@ -675,11 +675,11 @@ export const DE_B2_GUIDES: DeGrammarGuide[] = [
         table: {
           headers: ["Certainty", "Modal", "Example"],
           rows: [
-            ["about 95 %", "muss", "Sie muss krank sein."],
-            ["about 80 %", "wird wohl", "Sie wird wohl krank sein."],
-            ["about 75 %", "dürfte", "Sie dürfte krank sein."],
-            ["about 50 %", "kann / könnte", "Sie könnte krank sein."],
-            ["0 %", "kann nicht", "Sie kann nicht krank sein, ich habe sie gerade gesehen."],
+            ["about 95%", "muss", "Sie muss krank sein."],
+            ["about 80%", "wird wohl", "Sie wird wohl krank sein."],
+            ["about 75%", "dürfte", "Sie dürfte krank sein."],
+            ["about 50%", "kann / könnte", "Sie könnte krank sein."],
+            ["0%", "kann nicht", "Sie kann nicht krank sein, ich habe sie gerade gesehen."],
           ],
         },
         examples: [
@@ -1327,7 +1327,7 @@ export const DE_B2_GUIDES: DeGrammarGuide[] = [
         heading: `Politeness and tone`,
         body: [
           `A bare imperative can sound like an order: "Setzen Sie sich." With particles it becomes an invitation: "Setzen Sie sich doch." A bare question can sound like an interrogation: "Wo wohnst du?" With "denn" it sounds interested: "Wo wohnst du denn?"`,
-          `But particles can also sharpen: "Jetzt hör doch mal zu!" is impatient, and "Was willst du denn?" can sound annoyed with the wrong intonation. In writing, particles appear in e-mails and chat, rarely in formal letters.`,
+          `But particles can also sharpen: "Jetzt hör doch mal zu!" is impatient, and "Was willst du denn?" can sound annoyed with the wrong intonation. In writing, particles appear in emails and chat, rarely in formal letters.`,
         ],
         examples: [
           { de: "Nehmen Sie doch Platz.", en: "Do take a seat." },
@@ -1568,7 +1568,7 @@ export const DE_B2_GUIDES: DeGrammarGuide[] = [
           { de: "Der Journalist hat den Politiker interviewt.", en: "The journalist interviewed the politician. (\"Politiker\" is not weak)" },
           { de: "Wir haben dem Kandidaten gratuliert.", en: "We congratulated the candidate." },
           { de: "Sehr geehrter Herr Braun, ...", en: "Dear Mr Braun, ..." },
-          { de: "Ich schreibe Herrn Braun eine E-Mail.", en: "I'm writing Mr Braun an e-mail." },
+          { de: "Ich schreibe Herrn Braun eine E-Mail.", en: "I'm writing Mr Braun an email." },
         ],
       },
       {

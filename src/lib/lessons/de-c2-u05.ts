@@ -16,7 +16,7 @@ export const DE_C2_U05: Lesson[] = [
         body: [
           "German distinguishes two kinds of fixed wisdom. A \"Sprichwort\" is a complete, self-contained sentence that states a general truth or a lesson: \"Übung macht den Meister.\" You quote it whole, it stays in the timeless present, and it can stand alone as a comment on a situation. A \"Redensart\" (or \"Redewendung\", Unit 4) is a phrase you build into your own sentence and conjugate: \"den Nagel auf den Kopf treffen\" becomes \"Du hast den Nagel auf den Kopf getroffen.\"",
           "A quick test: can you say it on its own, as a statement about life? Then it is a \"Sprichwort\". \"Aller Anfang ist schwer\" passes; \"ins Fettnäpfchen treten\" needs a subject and a tense, so it is a \"Redensart\". The boundary is not always sharp, but the distinction matters for grammar: you never change the verb of a Sprichwort to fit the situation, whereas a Redensart lives on being adapted.",
-          "Proverbs rarely translate word for word. \"Übung macht den Meister\" literally says practice makes the master (the \"Meister\" of the old guild system, the craftsman who has finished his training), and the English equivalent is practice makes perfect. The calque \"*Praxis macht perfekt*\" is a classic English-speaker mistake: \"Praxis\" means practical experience or a doctor's surgery. \"Aller Anfang ist schwer\" uses the old uninflected \"aller\" (every) that survives almost only here: the modern paraphrase is \"Jeder Anfang ist schwer.\"",
+          "Proverbs rarely translate word for word. \"Übung macht den Meister\" literally says practice makes the master (the \"Meister\" of the old guild system, the craftsman who has finished his training), and the English equivalent is practice makes perfect. The calque \"*Praxis macht perfekt*\" is a classic English-speaker mistake: \"Praxis\" means practical experience or a doctor's surgery. \"Aller Anfang ist schwer\" uses \"aller\" (strong masculine form of \"all\") with a singular noun in the old sense of every, a use that survives almost only here: the modern paraphrase is \"Jeder Anfang ist schwer.\"",
         ],
         examples: [
           { es: "Keine Sorge, Übung macht den Meister.", en: "Don't worry, practice makes perfect." },
@@ -121,7 +121,7 @@ export const DE_C2_U05: Lesson[] = [
         source: "The first step is always the hardest.",
         answer: "Aller Anfang ist schwer.",
         altAnswers: ["Jeder Anfang ist schwer."],
-        explanation: "The proverb keeps the old uninflected \"aller\" (every). \"Jeder Anfang ist schwer\" is the modern paraphrase and also correct.",
+        explanation: "The proverb keeps the old singular \"aller\" in the sense of every. \"Jeder Anfang ist schwer\" is the modern paraphrase and also correct.",
       },
       {
         type: "translate",
@@ -240,7 +240,7 @@ export const DE_C2_U05: Lesson[] = [
         examples: [
           { es: "Er hat mich ausgelacht, aber wer zuletzt lacht, lacht am besten.", en: "He laughed at me, but he who laughs last laughs best." },
           { es: "Na ja, wer zuletzt lacht ...", en: "Well, he who laughs last ..." },
-          { es: "Lern jetzt Klavier, was Hänschen nicht lernt, lernt Hans nimmermehr.", en: "Learn the piano now; it gets much harder later on." },
+          { es: "Lern jetzt Klavier: Was Hänschen nicht lernt, lernt Hans nimmermehr.", en: "Learn the piano now; it gets much harder later on." },
           { es: "Heb die zwei Cent ruhig auf. Wer den Pfennig nicht ehrt, ist des Talers nicht wert.", en: "Do pick up the two cents. Look after the pennies and the pounds will look after themselves." },
           { es: "Ach, das ist nicht der Rede wert.", en: "Oh, it's not worth mentioning." },
           { es: "Meine Mutter sagt bei jeder Gelegenheit: Was Hänschen nicht lernt ...", en: "My mother says at every opportunity: you can't teach an old dog ..." },
@@ -310,13 +310,13 @@ export const DE_C2_U05: Lesson[] = [
       {
         heading: "Transformations: from the general to the particular",
         body: [
-          "A proverb is generic: \"wer\" means anyone, the tense is timeless. In conversation you often turn it into a statement about a real person and a real time, and then all the grammar has to follow. \"Wer A sagt, muss auch B sagen\" becomes \"Ich habe A gesagt, also muss ich jetzt auch B sagen\": a first person, a Perfekt, \"also\" with inversion. \"Wer zuletzt lacht, lacht am besten\" becomes \"Am Ende hat sie zuletzt gelacht.\"",
+          "A proverb is generic: \"wer\" means anyone, the tense is timeless. In conversation you often turn it into a statement about a real person and a real time, and then all the grammar has to follow. \"Wer A sagt, muss auch B sagen\" becomes \"Ich habe A gesagt, also muss ich jetzt auch B sagen\": a first person, a Perfekt, \"also\" with inversion. \"Wer zuletzt lacht, lacht am besten\" becomes \"Sie hat zuletzt gelacht.\"",
           "\"Was Hänschen nicht lernt\" can become personal too: \"Ich habe als Kind nie schwimmen gelernt, und jetzt mit vierzig ist es wirklich schwer.\" Notice what disappears: the rhyme, the generic subject and the old vocabulary. What stays is the logic. When you transform, check the ripple effects: subject, verb ending, tense, and word order after the opening element.",
           "The reverse also happens: speakers sum up a story by \"returning\" to the proverb in the past tense, often with \"wieder mal\" or \"mal wieder\": \"Da hat sich mal wieder gezeigt: Lügen haben kurze Beine.\" The proverb itself stays in the present; only the frame moves into the past.",
         ],
         examples: [
           { es: "Ich habe A gesagt, also muss ich jetzt auch B sagen.", en: "I've started this, so now I have to see it through." },
-          { es: "Am Ende hat sie zuletzt gelacht: Sie hat den Prozess gewonnen.", en: "In the end she had the last laugh: she won the case." },
+          { es: "Sie hat zuletzt gelacht: Sie hat den Prozess gewonnen.", en: "In the end she had the last laugh: she won the case." },
           { es: "Ich habe als Kind nie schwimmen gelernt, und jetzt mit vierzig ist es wirklich schwer.", en: "I never learned to swim as a child, and now at forty it's really hard." },
           { es: "Da hat sich mal wieder gezeigt: Lügen haben kurze Beine.", en: "It just goes to show once again: lies don't get you far." },
           { es: "Wir haben das Haus gekauft, jetzt müssen wir auch B sagen und renovieren.", en: "We bought the house; now we have to go all the way and renovate it." },
@@ -333,7 +333,7 @@ export const DE_C2_U05: Lesson[] = [
           },
           {
             type: "listen-choose",
-            audio: "Am Ende hat sie zuletzt gelacht.",
+            audio: "Sie hat zuletzt gelacht.",
             question: "What does it mean?",
             options: ["In the end she had the last laugh.", "In the end she laughed loudest.", "She was the last one to laugh at the joke.", "She laughed at the end of the film."],
             correctIndex: 0,
@@ -1258,7 +1258,7 @@ export const DE_C2_U05: Lesson[] = [
         prompt: "Translate into German.",
         source: "I meant to go jogging today. The spirit is willing, but the flesh is weak.",
         answer: "Ich wollte heute joggen gehen. Der Geist ist willig, aber das Fleisch ist schwach.",
-        altAnswers: ["Ich wollte heute joggen. Der Geist ist willig, aber das Fleisch ist schwach.", "Eigentlich wollte ich heute joggen gehen. Der Geist ist willig, aber das Fleisch ist schwach.", "Ich wollte heute joggen gehen, aber der Geist ist willig, das Fleisch ist schwach.", "Ich wollte heute laufen gehen. Der Geist ist willig, aber das Fleisch ist schwach.", "Ich hatte vor, heute joggen zu gehen. Der Geist ist willig, aber das Fleisch ist schwach."],
+        altAnswers: ["Ich wollte heute joggen. Der Geist ist willig, aber das Fleisch ist schwach.", "Eigentlich wollte ich heute joggen gehen. Der Geist ist willig, aber das Fleisch ist schwach.", "Ich wollte heute laufen gehen. Der Geist ist willig, aber das Fleisch ist schwach.", "Ich hatte vor, heute joggen zu gehen. Der Geist ist willig, aber das Fleisch ist schwach."],
         explanation: "\"Wollte\" (Präteritum of \"wollen\") = meant to; the biblical saying follows in its fixed form, today mostly a joke about lost willpower.",
       },
       {
@@ -1616,7 +1616,7 @@ export const DE_C2_U05: Lesson[] = [
             prompt: "Translate into German, to a friend.",
             source: "Don't be so petty, it's two euros!",
             answer: "Sei nicht so kleinlich, es geht um zwei Euro!",
-            altAnswers: ["Sei doch nicht so kleinlich, es geht um zwei Euro!", "Sei nicht so kleinlich, es geht nur um zwei Euro!", "Sei doch nicht so kleinlich, es geht nur um zwei Euro!", "Sei nicht so kleinlich, es sind nur zwei Euro!", "Seid nicht so kleinlich, es geht um zwei Euro!"],
+            altAnswers: ["Sei doch nicht so kleinlich, es geht um zwei Euro!", "Sei nicht so kleinlich, es geht nur um zwei Euro!", "Sei doch nicht so kleinlich, es geht nur um zwei Euro!", "Sei nicht so kleinlich, es sind nur zwei Euro!"],
             explanation: "\"Kleinlich\" = petty; \"es geht um\" = it's about. Imperative of \"sein\": \"sei\".",
           },
           {
@@ -1765,7 +1765,7 @@ export const DE_C2_U05: Lesson[] = [
         type: "speak",
         text: "Die Bürgermeisterin hat in der Krise sehr besonnen reagiert.",
         prompt: "Say it in German: The mayor reacted very calmly and sensibly in the crisis.",
-        tip: "Stress the second syllable: be-SON-nen, with a short o.",
+        tip: "Stress the second syllable of \"besonnen\": be-SON-nen, with a short o.",
         explanation: "\"Besonnen\" works as an adverb without an ending; \"reagieren\" takes \"haben\".",
       },
     ],

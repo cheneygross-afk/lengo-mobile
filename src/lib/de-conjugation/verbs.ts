@@ -461,7 +461,7 @@ braten|to fry, to roast
 brechen|to break|HS
 brennen|to burn
 dreschen|to thresh
-dringen|to penetrate; to urge (auf)|S
+dringen|to penetrate, to force one's way|S
 erlöschen|to go out (fire, light)|S
 erschrecken|to be startled, to get a fright|S
 fechten|to fence
@@ -620,6 +620,24 @@ unterbrechen|to interrupt
 zerbrechen|to break (into pieces)|HS
 verschwinden|to disappear|S
 ertrinken|to drown|S
+zerfallen|to fall apart, to disintegrate|S
+verunglücken|to have an accident|S
+geraten|to get (into), to end up (in)|S
+gelangen|to reach, to get (to)|S
+entgehen|to escape, to elude|S
+missglücken|to fail, to go wrong|S
+erfolgen|to take place, to follow|S
+erfrieren|to freeze to death|S
+verhungern|to starve (to death)|S
+ersticken|to suffocate, to choke|SH
+erwachen|to wake up, to awaken|S
+erkranken|to fall ill|S
+verfallen|to decay; to expire|S
+entfliehen|to escape (from)|S
+verstummen|to fall silent|S
+versinken|to sink|S
+verlaufen|to go, to turn out (of an event)|S prn|to get lost
+entgleisen|to derail, to go off the rails|S
 betrinken|to get drunk|prn!
 verbringen|to spend (time)
 um·bringen|to kill
@@ -679,7 +697,7 @@ aus·ruhen|to rest|prn|to have a rest
 wohl·fühlen|to feel good, to feel at home|prn!
 erledigen|to deal with, to get done
 beleidigen|to insult
-kündigen|to quit, to give notice
+kündigen|to hand in one's notice; to cancel (a contract)
 benötigen|to need
 bestätigen|to confirm
 berücksichtigen|to take into account
@@ -718,7 +736,7 @@ enttäuschen|to disappoint
 gestalten|to design, to shape
 verabreden|to arrange|prn|to arrange to meet
 langweilen|to bore|prn|to be bored
-erkundigen|to inquire, to ask (about)|prn!
+erkundigen|to enquire, to ask (about)|prn!
 schämen|to be ashamed|prn!
 verspäten|to be late|prn!
 sorgen|to care (for)|prn|to worry (about)

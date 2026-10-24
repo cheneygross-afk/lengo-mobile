@@ -9,7 +9,7 @@ export const DE_B2_U14_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: The Perfect Infinitive",
-    summary: "Form the perfect infinitive after modals: gemacht haben or gegangen sein, and the passive gemacht worden sein.",
+    summary: "Form the perfect infinitive after modals: \"gemacht haben\" or \"gegangen sein\", and the passive \"gemacht worden sein\".",
     duration: "12 min",
     sections: [
       {
@@ -163,7 +163,7 @@ export const DE_B2_U14_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Soll or Will?",
-    summary: "Decide who makes the claim: other people (soll) or the subject of the sentence (will).",
+    summary: "Decide who makes the claim: other people (\"soll\") or the subject of the sentence (\"will\").",
     duration: "12 min",
     sections: [
       {
@@ -318,7 +318,7 @@ export const DE_B2_U14_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Celebrity Gossip",
-    summary: "Read and write celebrity rumours with soll and the Konjunktiv I.",
+    summary: "Read and write celebrity rumours with \"soll\" and the Konjunktiv I.",
     duration: "13 min",
     sections: [
       {
@@ -358,7 +358,7 @@ export const DE_B2_U14_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The actor [is said to be planning] a comeback.",
+        en: "The actor [is said to] be planning a comeback.",
         sentence: "Der Schauspieler ___ ein Comeback planen.",
         answer: "soll",
         explanation: "Rumour → \"soll\".",
@@ -374,10 +374,10 @@ export const DE_B2_U14_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The singer [is said to have bought] a castle in Bavaria.",
-        sentence: "Der Sänger ___ ein Schloss in Bayern.",
-        answer: "soll gekauft haben",
-        explanation: "\"Soll\" + perfect infinitive.",
+        en: "The singer is said to [have bought] a castle in Bavaria.",
+        sentence: "Der Sänger soll ein Schloss in Bayern ___.",
+        answer: "gekauft haben",
+        explanation: "\"Soll\" + perfect infinitive, which goes to the very end.",
       },
       {
         type: "fill-blank",

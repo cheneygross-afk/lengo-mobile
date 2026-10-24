@@ -8,7 +8,7 @@ export const DE_A1_U10: Lesson[] = [
     level: "DE-A1",
     number: 1,
     title: "Beginner Comprehensive Review, Part 1 of 3",
-    summary: "Recap Units 1 to 3: sein, articles and plurals, the sounds of German, regular and stem-changing verbs, haben, verb-second and nicht / kein, then a short test.",
+    summary: "Recap Units 1 to 3: \"sein\", articles and plurals, the sounds of German, regular and stem-changing verbs, \"haben\", verb-second and \"nicht\" / \"kein\", then a short test.",
     duration: "15 min",
     sections: [
       {
@@ -33,7 +33,7 @@ export const DE_A1_U10: Lesson[] = [
             prompt: "Translate into German.",
             source: "He's a doctor.",
             answer: "Er ist Arzt.",
-            explanation: "No article before a job after \"sein\": \"*Er ist ein Arzt\" is the classic slip.",
+            explanation: "No article before a job after \"sein\": \"*Er ist ein Arzt*\" is the classic slip.",
           },
           {
             type: "multiple-choice",
@@ -86,7 +86,7 @@ export const DE_A1_U10: Lesson[] = [
           {
             type: "speak",
             text: "Ich spreche ein bisschen Deutsch.",
-            tip: "Sp at the start is shp: SHPRE-che. The ch in ich is soft; in Deutsch the eu is oy.",
+            tip: "Sp at the start of \"spreche\" is shp: SHPRE-che. The ch in \"ich\" is soft; in \"Deutsch\" the eu is oy.",
             explanation: "\"Sprechen\" is stem-changing (\"du sprichst\"), but \"ich spreche\" keeps the e.",
           },
         ],
@@ -96,7 +96,7 @@ export const DE_A1_U10: Lesson[] = [
         body: [
           "Present endings: -e, -st, -t, -en, -t, -en. Stems in -t/-d add an e (\"du arbeitest\"), and stem-changers change in the du and er forms only: \"du sprichst\", \"er liest\", \"sie fährt\".",
           "\"Haben\": \"ich habe\", \"du hast\", \"er hat\". English be hungry, be thirsty become haben: \"Ich habe Hunger\"; but age uses sein: \"Ich bin 25.\"",
-          "The verb is the second element: \"Heute lerne ich Deutsch\", never \"*Heute ich lerne\". Negation: \"kein\" replaces ein or no article (\"Ich habe kein Auto\", \"keine Zeit\"); \"nicht\" negates verbs, adjectives and the rest (\"Ich arbeite heute nicht\").",
+          "The verb is the second element: \"Heute lerne ich Deutsch\", never \"*Heute ich lerne*\". Negation: \"kein\" replaces ein or no article (\"Ich habe kein Auto\", \"keine Zeit\"); \"nicht\" negates verbs, adjectives and the rest (\"Ich arbeite heute nicht\").",
         ],
         examples: [
           { es: "Du arbeitest zu viel.", en: "You work too much." },
@@ -122,7 +122,7 @@ export const DE_A1_U10: Lesson[] = [
             prompt: "Translate into German.",
             source: "I don't have a car.",
             answer: "Ich habe kein Auto.",
-            explanation: "\"Kein\" replaces ein: \"*Ich habe nicht ein Auto\" is wrong.",
+            explanation: "\"Kein\" replaces ein: \"*Ich habe nicht ein Auto*\" is wrong.",
           },
           {
             type: "translate",
@@ -143,7 +143,7 @@ export const DE_A1_U10: Lesson[] = [
         source: "I'm 25.",
         answer: "Ich bin 25.",
         altAnswers: ["Ich bin 25 Jahre alt.", "Ich bin fünfundzwanzig.", "Ich bin fünfundzwanzig Jahre alt."],
-        explanation: "Age uses \"sein\": never \"*Ich habe 25 Jahre\".",
+        explanation: "Age uses \"sein\": never \"*Ich habe 25 Jahre*\".",
       },
       {
         type: "translate",
@@ -151,7 +151,8 @@ export const DE_A1_U10: Lesson[] = [
         prompt: "Translate into German.",
         source: "Are you hungry? (to a friend)",
         answer: "Hast du Hunger?",
-        explanation: "Hungry is \"Hunger haben\", with no article.",
+        altAnswers: ["Bist du hungrig?"],
+        explanation: "Hungry is usually \"Hunger haben\", with no article. \"Bist du hungrig?\" is correct too, just less common.",
       },
       {
         type: "fill-blank",
@@ -207,7 +208,7 @@ export const DE_A1_U10: Lesson[] = [
         prompt: "Translate into German.",
         source: "You work too much. (to a friend)",
         answer: "Du arbeitest zu viel.",
-        explanation: "Stems in -t add an e: \"du arbeitest\", never \"*du arbeitst\".",
+        explanation: "Stems in -t add an e: \"du arbeitest\", never \"*du arbeitst*\".",
       },
       {
         type: "listen-choose",
@@ -235,7 +236,7 @@ export const DE_A1_U10: Lesson[] = [
     level: "DE-A1",
     number: 2,
     title: "Beginner Comprehensive Review, Part 2 of 3",
-    summary: "Recap Units 4 to 6: werden, wissen / kennen, modals and the sentence bracket, questions and doch, the accusative, es gibt, possessives, numbers, time and quantities, then a short test.",
+    summary: "Recap Units 4 to 6: \"werden\", \"wissen\" / \"kennen\", modals and the sentence bracket, questions and \"doch\", the accusative, \"es gibt\", possessives, numbers, time and quantities, then a short test.",
     duration: "15 min",
     sections: [
       {
@@ -302,7 +303,7 @@ export const DE_A1_U10: Lesson[] = [
             prompt: "Translate into German.",
             source: "Where do you live? (to a friend)",
             answer: "Wo wohnst du?",
-            explanation: "W-word first, verb second: never \"*Wo du wohnst?\"",
+            explanation: "W-word first, verb second: never \"*Wo du wohnst?*\"",
           },
           {
             type: "fill-blank",
@@ -325,7 +326,7 @@ export const DE_A1_U10: Lesson[] = [
       {
         heading: "Possessives, numbers, time and quantities",
         body: [
-          "Possessives take the ein endings: \"mein Bruder\", \"meine Schwester\", \"mein Kind\", \"meine Eltern\", and \"meinen Bruder\" as an object. \"Sein\" = his, \"ihr\" = her or their, \"Ihr\" = your (polite).",
+          "Possessives take the ein endings: \"mein Bruder\", \"meine Schwester\", \"mein Kind\", \"meine Eltern\", and \"meinen Bruder\" as an object. \"Sein\" = his, \"ihr\" = her or their, \"Ihr\" = your (formal).",
           "Numbers put the units first: 47 is \"siebenundvierzig\". Prices: 3,50 € is \"drei Euro fünfzig\". Time: \"halb drei\" is 2:30 (half way to three), \"Viertel nach vier\" 4:15, and \"um\" + time for at.",
           "Quantities need no of: \"ein Kilo Äpfel\", \"eine Flasche Wasser\", \"200 Gramm Käse\".",
         ],
@@ -393,7 +394,7 @@ export const DE_A1_U10: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Where is [your] passport? (polite)",
+        en: "Where is [your] passport? (formal)",
         sentence: "Wo ist ___ Pass?",
         answer: "Ihr",
         explanation: "Polite your is \"Ihr\" with a capital I; \"der Pass\" is the subject, so no ending.",
@@ -465,7 +466,7 @@ export const DE_A1_U10: Lesson[] = [
     level: "DE-A1",
     number: 3,
     title: "Beginner Comprehensive Review, Part 3 of 3",
-    summary: "Recap Units 7 to 9: dates, weather, places and the dative prepositions, likes with gern, separable verbs, the imperative, dieser / jeder, accusative pronouns and prepositions of place, then a 32-question final test.",
+    summary: "Recap Units 7 to 9: dates, weather, places and the dative prepositions, likes with \"gern\", separable verbs, the imperative, \"dieser\" / \"jeder\", accusative pronouns and prepositions of place, then a 32-question final test.",
     duration: "20 min",
     sections: [
       {
@@ -609,7 +610,7 @@ export const DE_A1_U10: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'm cold.",
         answer: "Mir ist kalt.",
-        explanation: "The chunk \"Mir ist kalt\"; \"*Ich bin kalt\" means you're a cold person.",
+        explanation: "The chunk \"Mir ist kalt\"; \"*Ich bin kalt*\" means you're a cold person.",
       },
       {
         type: "translate",
@@ -650,7 +651,7 @@ export const DE_A1_U10: Lesson[] = [
         prompt: "Translate into German.",
         source: "I like cooking, but I prefer eating.",
         answer: "Ich koche gern, aber ich esse lieber.",
-        altAnswers: ["Ich koche gerne, aber ich esse lieber."],
+        altAnswers: ["Ich koche gerne, aber ich esse lieber.", "Ich mag kochen, aber ich esse lieber."],
         explanation: "\"Gern\" for liking, \"lieber\" for preferring; \"aber\" doesn't change the word order.",
       },
       {
@@ -793,9 +794,9 @@ export const DE_A1_U10: Lesson[] = [
       {
         heading: "Word order slips",
         body: [
-          "The most common error in all of the Beginner level is \"*Heute ich arbeite\". English allows Today I work; German insists on the verb in second place, so the subject moves after it: \"Heute arbeite ich.\"",
-          "Next come the end-of-sentence rules. A separable prefix goes to the end (\"*Ich aufstehe um sieben\" → \"Ich stehe um sieben auf\"), and after a modal the whole infinitive goes there (\"*Ich muss früh stehe auf\" → \"Ich muss früh aufstehen\"; \"*Ich kann schwimmen gut\" → \"Ich kann gut schwimmen\").",
-          "In W-questions, the verb comes straight after the question word: \"*Wo du wohnst?\" → \"Wo wohnst du?\"",
+          "The most common error in all of the Beginner level is \"*Heute ich arbeite*\". English allows Today I work; German insists on the verb in second place, so the subject moves after it: \"Heute arbeite ich.\"",
+          "Next come the end-of-sentence rules. A separable prefix goes to the end (\"*Ich aufstehe um sieben*\" → \"Ich stehe um sieben auf\"), and after a modal the whole infinitive goes there (\"*Ich muss früh stehe auf*\" → \"Ich muss früh aufstehen\"; \"*Ich kann schwimmen gut*\" → \"Ich kann gut schwimmen\").",
+          "In W-questions, the verb comes straight after the question word: \"*Wo du wohnst?*\" → \"Wo wohnst du?\"",
         ],
         examples: [
           { es: "Heute arbeite ich.", en: "Today I'm working." },
@@ -808,7 +809,7 @@ export const DE_A1_U10: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"*Heute ich arbeite.\" Write it correctly.",
+            prompt: "A learner wrote \"*Heute ich arbeite.*\" Write it correctly.",
             source: "Today I'm working.",
             answer: "Heute arbeite ich.",
             altAnswers: ["Ich arbeite heute."],
@@ -817,7 +818,7 @@ export const DE_A1_U10: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"*Ich aufstehe um sieben.\" Write it correctly.",
+            prompt: "A learner wrote \"*Ich aufstehe um sieben.*\" Write it correctly.",
             source: "I get up at seven.",
             answer: "Ich stehe um sieben auf.",
             altAnswers: ["Ich stehe um sieben Uhr auf.", "Um sieben stehe ich auf.", "Um sieben Uhr stehe ich auf."],
@@ -835,9 +836,9 @@ export const DE_A1_U10: Lesson[] = [
       {
         heading: "Endings, articles and cases",
         body: [
-          "Accusative forgotten: \"*Ich habe ein Bruder\" → \"Ich habe einen Bruder\"; \"*Es gibt ein Park\" → \"Es gibt einen Park\"; \"*Ich kenne er\" → \"Ich kenne ihn\"; \"*für ich\" → \"für mich\".",
-          "Wrong verb form: \"*du sprechst\" → \"du sprichst\" (the e → i change); \"*ihr sind\" → \"ihr seid\"; \"*er fahrt\" → \"er fährt\".",
-          "Wrong gender ending: \"*meine Vater\" → \"mein Vater\" (masculine has no -e); \"*dieses Tisch\" → \"dieser Tisch\".",
+          "Accusative forgotten: \"*Ich habe ein Bruder*\" → \"Ich habe einen Bruder\"; \"*Es gibt ein Park*\" → \"Es gibt einen Park\"; \"*Ich kenne er*\" → \"Ich kenne ihn\"; \"*für ich*\" → \"für mich\".",
+          "Wrong verb form: \"*du sprechst*\" → \"du sprichst\" (the e → i change); \"*ihr sind*\" → \"ihr seid\"; \"*er fahrt*\" → \"er fährt\".",
+          "Wrong gender ending: \"*meine Vater*\" → \"mein Vater\" (masculine has no -e); \"*dieses Tisch*\" → \"dieser Tisch\".",
         ],
         examples: [
           { es: "Ich habe einen Bruder.", en: "I have a brother." },
@@ -851,7 +852,7 @@ export const DE_A1_U10: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"*Ich habe ein Bruder.\" Write it correctly.",
+            prompt: "A learner wrote \"*Ich habe ein Bruder.*\" Write it correctly.",
             source: "I have a brother.",
             answer: "Ich habe einen Bruder.",
             explanation: "\"Der Bruder\" is masculine and the object of \"haben\": \"einen Bruder\".",
@@ -859,7 +860,7 @@ export const DE_A1_U10: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "You [speak] German very well. (a learner wrote: \"*du sprechst\")",
+            en: "You [speak] German very well. (a learner wrote: \"*du sprechst*\")",
             sentence: "Du ___ sehr gut Deutsch.",
             answer: "sprichst",
             explanation: "\"Sprechen\" changes e → i in the du form: \"du sprichst\".",
@@ -876,9 +877,9 @@ export const DE_A1_U10: Lesson[] = [
       {
         heading: "Meaning traps from English",
         body: [
-          "Copying English word for word gives German that's grammatical but wrong: \"*Ich bin kalt\" (I'm a cold person) for \"Mir ist kalt\"; \"*Ich habe 30 Jahre\" for \"Ich bin 30\".",
-          "Time: half three in British English is 3:30, but \"halb drei\" is 2:30. Modals: \"*Hier muss man nicht rauchen\" means you don't have to smoke here; for mustn't say \"Hier darf man nicht rauchen\". And \"ich will\" is I want, never I will.",
-          "Small words: \"*Ich habe nicht Zeit\" → \"Ich habe keine Zeit\"; \"*mit Fuß\" → \"zu Fuß\"; \"*Fährst langsam!\" → \"Fahr langsam!\"",
+          "Copying English word for word gives German that's grammatical but wrong: \"*Ich bin kalt*\" (I'm a cold person) for \"Mir ist kalt\"; \"*Ich habe 30 Jahre*\" for \"Ich bin 30\".",
+          "Time: half three in British English is 3:30, but \"halb drei\" is 2:30. Modals: \"*Hier muss man nicht rauchen*\" means you don't have to smoke here; for mustn't say \"Hier darf man nicht rauchen\". And \"ich will\" is I want, never I will.",
+          "Small words: \"*Ich habe nicht Zeit*\" → \"Ich habe keine Zeit\"; \"*mit Fuß*\" → \"zu Fuß\"; \"*Fährst langsam!*\" → \"Fahr langsam!\"",
         ],
         examples: [
           { es: "Mir ist kalt.", en: "I'm cold." },
@@ -892,15 +893,15 @@ export const DE_A1_U10: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"*Ich bin kalt.\" Write it correctly.",
+            prompt: "A learner wrote \"*Ich bin kalt.*\" Write it correctly.",
             source: "I'm cold.",
             answer: "Mir ist kalt.",
-            explanation: "Feeling cold is \"Mir ist kalt\"; \"*Ich bin kalt\" describes your personality.",
+            explanation: "Feeling cold is \"Mir ist kalt\"; \"*Ich bin kalt*\" describes your personality.",
           },
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"*Es ist halb drei\" for 3:30. Write it correctly.",
+            prompt: "A learner wrote \"*Es ist halb drei*\" for 3:30. Write it correctly.",
             source: "It's half past three.",
             answer: "Es ist halb vier.",
             altAnswers: ["Es ist drei Uhr dreißig.", "Es ist fünfzehn Uhr dreißig."],
@@ -910,7 +911,7 @@ export const DE_A1_U10: Lesson[] = [
             type: "speak",
             text: "Ich habe heute leider keine Zeit.",
             prompt: "Say it in German: Unfortunately I don't have time today.",
-            explanation: "\"Keine Zeit\", not \"*nicht Zeit\": kein negates a noun with no article.",
+            explanation: "\"Keine Zeit\", not \"*nicht Zeit*\": kein negates a noun with no article.",
           },
         ],
       },
@@ -919,7 +920,7 @@ export const DE_A1_U10: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Ich habe 30 Jahre.\" Write it correctly.",
+        prompt: "A learner wrote \"*Ich habe 30 Jahre.*\" Write it correctly.",
         source: "I'm 30.",
         answer: "Ich bin 30.",
         altAnswers: ["Ich bin 30 Jahre alt.", "Ich bin dreißig.", "Ich bin dreißig Jahre alt."],
@@ -928,7 +929,7 @@ export const DE_A1_U10: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Ich muss früh stehe auf.\" Write it correctly.",
+        prompt: "A learner wrote \"*Ich muss früh stehe auf.*\" Write it correctly.",
         source: "I have to get up early.",
         answer: "Ich muss früh aufstehen.",
         explanation: "After a modal, the separable verb goes to the end as one word: \"aufstehen\".",
@@ -936,7 +937,7 @@ export const DE_A1_U10: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Wo du wohnst?\" Write it correctly.",
+        prompt: "A learner wrote \"*Wo du wohnst?*\" Write it correctly.",
         source: "Where do you live?",
         answer: "Wo wohnst du?",
         altAnswers: ["Wo wohnen Sie?", "Wo wohnt ihr?"],
@@ -945,16 +946,16 @@ export const DE_A1_U10: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"Ich mag schwimmen.\" People understand it, but it sounds less natural. Write it the way most Germans say it.",
+        prompt: "A learner wrote \"Ich mag schwimmen.\" It's not wrong, but it sounds less natural. Write it the way most Germans say it.",
         source: "I like swimming.",
         answer: "Ich schwimme gern.",
-        altAnswers: ["Ich schwimme gerne."],
-        explanation: "Liking an activity: verb + \"gern\".",
+        altAnswers: ["Ich schwimme gerne.", "Ich mag schwimmen."],
+        explanation: "Liking an activity: verb + \"gern\" is what most people say. \"Ich mag schwimmen\" is still accepted, because it isn't a mistake.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Fährst langsam!\" to a friend. Write it correctly.",
+        prompt: "A learner wrote \"*Fährst langsam!*\" to a friend. Write it correctly.",
         source: "Drive slowly!",
         answer: "Fahr langsam!",
         altAnswers: ["Fahr bitte langsam!", "Fahre langsam!"],
@@ -963,7 +964,7 @@ export const DE_A1_U10: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "There's [a park] here. (a learner wrote: \"*ein Park\")",
+        en: "There's [a park] here. (a learner wrote: \"*ein Park*\")",
         sentence: "Es gibt hier ___.",
         answer: "einen Park",
         explanation: "\"Es gibt\" + accusative: \"der Park\" → \"einen Park\".",
@@ -971,7 +972,7 @@ export const DE_A1_U10: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Ihr sind sehr nett.\" Write it correctly.",
+        prompt: "A learner wrote \"*Ihr sind sehr nett.*\" Write it correctly.",
         source: "You're very nice. (to friends)",
         answer: "Ihr seid sehr nett.",
         explanation: "The ihr form of sein is \"seid\".",
@@ -979,7 +980,7 @@ export const DE_A1_U10: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Das ist für ich.\" Write it correctly.",
+        prompt: "A learner wrote \"*Das ist für ich.*\" Write it correctly.",
         source: "This is for me.",
         answer: "Das ist für mich.",
         explanation: "\"Für\" takes the accusative: \"mich\".",
@@ -993,7 +994,7 @@ export const DE_A1_U10: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Fix \"*Ich kenne er nicht\". Put the words in order to say: I don't know him.",
+        prompt: "Fix \"*Ich kenne er nicht*\". Put the words in order to say: I don't know him.",
         words: ["Ich", "kenne", "ihn", "nicht."],
         translation: "I don't know him.",
         explanation: "\"Ihn\" is the object form of er, and \"nicht\" comes after it.",
@@ -1001,7 +1002,7 @@ export const DE_A1_U10: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Ich komme mit Fuß.\" Write it correctly.",
+        prompt: "A learner wrote \"*Ich komme mit Fuß.*\" Write it correctly.",
         source: "I'm coming on foot.",
         answer: "Ich komme zu Fuß.",
         altAnswers: ["Ich gehe zu Fuß."],
@@ -1018,13 +1019,13 @@ export const DE_A1_U10: Lesson[] = [
       {
         type: "dictation",
         audio: "Dieser Tisch ist neu.",
-        explanation: "\"Der Tisch\" → \"dieser Tisch\", not \"*dieses Tisch\".",
+        explanation: "\"Der Tisch\" → \"dieser Tisch\", not \"*dieses Tisch*\".",
       },
       {
         type: "speak",
         text: "Am Wochenende fahre ich nach Hamburg.",
         prompt: "Say it in German: At the weekend I'm going to Hamburg.",
-        explanation: "Time first, verb second: \"fahre ich\", never \"*Am Wochenende ich fahre\".",
+        explanation: "Time first, verb second: \"fahre ich\", never \"*Am Wochenende ich fahre*\".",
       },
     ],
   },
@@ -1033,7 +1034,7 @@ export const DE_A1_U10: Lesson[] = [
     level: "DE-A1",
     number: 5,
     title: "Beginner Challenge: Dialogue Marathon",
-    summary: "Four short conversations in a row, choosing du or Sie each time, plus Goethe A1-style speaking tasks: introduce yourself, ask and answer on a topic, make requests.",
+    summary: "Four short conversations in a row, choosing \"du\" or \"Sie\" each time, plus Goethe A1-style speaking tasks: introduce yourself, ask and answer on a topic, make requests.",
     duration: "15 min",
     sections: [
       {
@@ -1297,7 +1298,7 @@ export const DE_A1_U10: Lesson[] = [
             prompt: "Translate into German.",
             source: "I'm cold.",
             answer: "Mir ist kalt.",
-            explanation: "Feeling cold is \"Mir ist kalt\" (literally: to me it is cold). \"*Ich bin kalt\" would describe a cold personality.",
+            explanation: "Feeling cold is \"Mir ist kalt\" (literally: to me it is cold). \"*Ich bin kalt*\" would describe a cold personality.",
           },
           {
             type: "translate",
@@ -1440,7 +1441,8 @@ export const DE_A1_U10: Lesson[] = [
         prompt: "Translate into German.",
         source: "Are you hungry? (to a friend)",
         answer: "Hast du Hunger?",
-        explanation: "\"Hunger haben\".",
+        altAnswers: ["Bist du hungrig?"],
+        explanation: "German usually says have hunger: \"Hunger haben\" (\"Bist du hungrig?\" is also correct).",
       },
       {
         type: "translate",
@@ -1476,7 +1478,7 @@ export const DE_A1_U10: Lesson[] = [
         source: "I want to be a doctor.",
         answer: "Ich will Ärztin werden.",
         altAnswers: ["Ich will Arzt werden.", "Ich möchte Ärztin werden.", "Ich möchte Arzt werden."],
-        explanation: "Want = \"wollen\" (\"ich will\"), and to be(come) = \"werden\" at the end. No article before a job: \"Ärztin\" (woman) or \"Arzt\" (man), not \"*eine Ärztin\".",
+        explanation: "Want = \"wollen\" (\"ich will\"), and to be(come) = \"werden\" at the end. No article before a job: \"Ärztin\" (woman) or \"Arzt\" (man), not \"*eine Ärztin*\".",
       },
       {
         type: "translate",
@@ -1503,7 +1505,7 @@ export const DE_A1_U10: Lesson[] = [
         source: "I'm going by bus.",
         answer: "Ich fahre mit dem Bus.",
         altAnswers: ["Ich nehme den Bus."],
-        explanation: "By bus = \"mit dem Bus\", never \"*bei Bus\".",
+        explanation: "By bus = \"mit dem Bus\", never \"*bei Bus*\".",
       },
       {
         type: "word-order",
@@ -1531,7 +1533,7 @@ export const DE_A1_U10: Lesson[] = [
     level: "DE-A1",
     number: 7,
     title: "Beginner Challenge: Build-a-Sentence",
-    summary: "Build long German sentences from known pieces: the verb second, the infinitive or prefix at the end, nicht in its place and the accusative endings right.",
+    summary: "Build long German sentences from known pieces: the verb second, the infinitive or prefix at the end, \"nicht\" in its place and the accusative endings right.",
     duration: "15 min",
     sections: [
       {
@@ -1558,7 +1560,7 @@ export const DE_A1_U10: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German. Start with Tomorrow.",
+            prompt: "Translate into German. Start with \"Morgen\".",
             source: "Tomorrow I'm calling my mother.",
             answer: "Morgen rufe ich meine Mutter an.",
             explanation: "\"Rufe\" in slot 2, \"an\" at the very end.",
@@ -1658,6 +1660,7 @@ export const DE_A1_U10: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'm not buying this table.",
         answer: "Ich kaufe diesen Tisch nicht.",
+        altAnswers: ["Diesen Tisch kaufe ich nicht."],
         explanation: "A definite object (\"diesen Tisch\") comes before \"nicht\".",
       },
       {
@@ -1689,7 +1692,7 @@ export const DE_A1_U10: Lesson[] = [
         prompt: "Put the words in order to say: Every morning I drink a coffee at the bakery.",
         words: ["Jeden", "Morgen", "trinke", "ich", "einen", "Kaffee", "in", "der", "Bäckerei."],
         translation: "Every morning I drink a coffee at the bakery.",
-        altOrders: [["Ich", "trinke", "jeden", "Morgen", "einen", "Kaffee", "in", "der", "Bäckerei."]],
+        altOrders: [["Ich", "trinke", "jeden", "Morgen", "einen", "Kaffee", "in", "der", "Bäckerei."], ["Ich", "trinke", "jeden", "Morgen", "in", "der", "Bäckerei", "einen", "Kaffee."]],
         explanation: "\"Jeden Morgen\" first, verb second, object, then the place.",
       },
       {
@@ -1847,7 +1850,7 @@ export const DE_A1_U10: Lesson[] = [
             type: "speak",
             text: "Darf man hier fotografieren?",
             prompt: "Say it in German: Are you allowed to take photos here?",
-            tip: "Stress the last syllable of fotografieren: fo-to-gra-FIE-ren.",
+            tip: "Stress the last syllable of \"fotografieren\": fo-to-gra-FIE-ren.",
             explanation: "\"Dürfen\" for permission, with \"man\" for people in general.",
           },
         ],
@@ -1919,7 +1922,7 @@ export const DE_A1_U10: Lesson[] = [
         prompt: "Translate into German.",
         source: "You mustn't take photos here.",
         answer: "Hier darf man nicht fotografieren.",
-        altAnswers: ["Man darf hier nicht fotografieren.", "Sie dürfen hier nicht fotografieren.", "Du darfst hier nicht fotografieren."],
+        altAnswers: ["Man darf hier nicht fotografieren.", "Sie dürfen hier nicht fotografieren.", "Du darfst hier nicht fotografieren.", "Ihr dürft hier nicht fotografieren.", "Hier dürfen Sie nicht fotografieren.", "Hier darfst du nicht fotografieren."],
         explanation: "Must not = \"nicht dürfen\".",
       },
       {
@@ -2167,7 +2170,7 @@ export const DE_A1_U10: Lesson[] = [
     level: "DE-A1",
     number: 10,
     title: "Beginner Challenge: Write Your Introduction",
-    summary: "Put together a complete self-introduction, fill in a form (Goethe A1 Schreiben Teil 1) and write a short invitation or reply (Teil 2).",
+    summary: "Put together a complete self-introduction, fill in a form (Goethe A1 Schreiben, part 1) and write a short invitation or reply (Teil 2).",
     duration: "15 min",
     sections: [
       {
@@ -2207,7 +2210,7 @@ export const DE_A1_U10: Lesson[] = [
       {
         heading: "Schreiben Teil 1: the form",
         body: [
-          "In part 1 of the Goethe A1 writing exam you fill in a form for someone else from a short text. The fields: \"Vorname\" (first name), \"Nachname\" (surname), \"Geburtsdatum\" (date of birth, written 12.03.1995), \"Straße, Hausnummer\", \"Postleitzahl\" (postcode), \"Wohnort\" (town), \"Familienstand\" (marital status: ledig, verheiratet, geschieden), \"Telefonnummer\" and \"Unterschrift\" (signature).",
+          "In part 1 of the Goethe A1 writing exam you fill in a form for someone else from a short text. The fields: \"Vorname\" (first name), \"Nachname\" (surname), \"Geburtsdatum\" (date of birth, written 12.03.1994), \"Straße, Hausnummer\", \"Postleitzahl\" (postcode), \"Wohnort\" (town), \"Familienstand\" (marital status: \"ledig\" (single), \"verheiratet\" (married), \"geschieden\" (divorced)), \"Telefonnummer\" and \"Unterschrift\" (signature).",
           "German addresses put the house number after the street (\"Lindenstraße 12\") and the postcode before the town (\"50667 Köln\").",
         ],
         examples: [
@@ -2307,7 +2310,7 @@ export const DE_A1_U10: Lesson[] = [
         prompt: "Translate into German.",
         source: "In my free time I like playing tennis.",
         answer: "In meiner Freizeit spiele ich gern Tennis.",
-        altAnswers: ["In meiner Freizeit spiele ich gerne Tennis.", "Ich spiele in meiner Freizeit gern Tennis.", "Ich spiele in meiner Freizeit gerne Tennis."],
+        altAnswers: ["In meiner Freizeit spiele ich gerne Tennis.", "Ich spiele in meiner Freizeit gern Tennis.", "Ich spiele in meiner Freizeit gerne Tennis.", "In meiner Freizeit mag ich Tennis spielen."],
         explanation: "\"In meiner Freizeit\" is a useful chunk; verb second after it.",
       },
       {
@@ -2374,7 +2377,7 @@ export const DE_A1_U10: Lesson[] = [
           "Accept or decline with a modal verb (\"Ich komme gern\", \"Leider kann ich nicht...\").",
           "Ask a question with the verb first or a W-word (\"Soll ich etwas mitbringen?\").",
         ],
-        modelAnswer: "Liebe Lena, vielen Dank für die Einladung! Ich komme sehr gern. Soll ich etwas mitbringen? Ich kann einen Kuchen backen oder Getränke kaufen. Bis Samstag! Viele Grüße, Tom",
+        modelAnswer: "Liebe Lena, vielen Dank für die Einladung! Ich komme sehr gern. Soll ich etwas mitbringen? Ich kann einen Kuchen backen oder Getränke kaufen. Bis Samstag! Viele Grüße Tom",
         explanation: "\"Für\" + accusative (\"die Einladung\"), modals with the infinitive at the end (\"Soll ich... mitbringen?\", \"Ich kann... backen\"), and \"einen Kuchen\" as a masculine object.",
       },
     ],
@@ -2589,7 +2592,7 @@ export const DE_A1_U10: Lesson[] = [
             prompt: "Translate into German.",
             source: "She doesn't have a car.",
             answer: "Sie hat kein Auto.",
-            explanation: "\"Kein\" for a noun with ein: never \"*nicht ein Auto\".",
+            explanation: "\"Kein\" for a noun with ein: never \"*nicht ein Auto*\".",
           },
           {
             type: "translate",
@@ -2624,8 +2627,8 @@ export const DE_A1_U10: Lesson[] = [
             prompt: "Translate into German.",
             source: "I like playing football.",
             answer: "Ich spiele gern Fußball.",
-            altAnswers: ["Ich spiele gerne Fußball."],
-            explanation: "Activities you like: verb + \"gern\".",
+            altAnswers: ["Ich spiele gerne Fußball.", "Ich mag Fußball spielen."],
+            explanation: "Activities you like: verb + \"gern\". \"Ich mag Fußball spielen\" is accepted, but less natural.",
           },
           {
             type: "translate",
@@ -2689,7 +2692,7 @@ export const DE_A1_U10: Lesson[] = [
         examples: [
           { es: "Hallo Anna, leider habe ich am Freitag keine Zeit.", en: "Hi Anna, unfortunately I don't have time on Friday." },
           { es: "Hast du am Samstag Zeit?", en: "Are you free on Saturday?" },
-          { es: "Viele Grüße, Leon", en: "Best wishes, Leon" },
+          { es: "Viele Grüße Leon", en: "Best wishes, Leon" },
         ],
         checkpoint: [
           {
@@ -2698,7 +2701,7 @@ export const DE_A1_U10: Lesson[] = [
             en: "Hi Anna, unfortunately I [don't have time] on Friday.",
             sentence: "Hallo Anna, am Freitag habe ich leider ___.",
             answer: "keine Zeit",
-            explanation: "\"Zeit\" has no article, so it's negated with \"keine\": never \"*nicht Zeit\".",
+            explanation: "\"Zeit\" has no article, so it's negated with \"keine\": never \"*nicht Zeit*\".",
           },
           {
             type: "fill-blank",
@@ -2815,7 +2818,7 @@ export const DE_A1_U10: Lesson[] = [
           "Suggest a new day and time (\"Hast du am Samstag um drei Zeit?\").",
           "Keep the verb second in every statement.",
         ],
-        modelAnswer: "Liebe Anna, leider kann ich am Freitag nicht kommen. Ich muss bis 20 Uhr arbeiten. Hast du am Samstag Zeit? Wir können um drei Uhr ins Café gehen. Ist das okay? Viele Grüße, Leon",
+        modelAnswer: "Liebe Anna, leider kann ich am Freitag nicht kommen. Ich muss bis 20 Uhr arbeiten. Hast du am Samstag Zeit? Wir können um drei Uhr ins Café gehen. Ist das okay? Viele Grüße Leon",
         explanation: "Modals with the infinitive at the end (\"kann... kommen\", \"muss... arbeiten\", \"können... gehen\"), yes/no questions with the verb first, and dates and times with \"am\" and \"um\".",
       },
     ],
@@ -2833,6 +2836,6 @@ export const DE_A1_U10_WRITING: WriteExercise = {
     "Suggest a meeting with a time and place (\"am Samstag um drei\", \"im Café\", \"vor dem Bahnhof\").",
     "Ask a question with the verb first (\"Hast du Zeit?\", \"Ist das okay?\") and keep the verb second in statements.",
   ],
-  modelAnswer: "Hallo Lena, ich heiße Tom und bin 26 Jahre alt. Ich komme aus Kanada und wohne jetzt in Berlin. Ich arbeite als Grafiker. Ich spreche Englisch und Französisch und lerne Deutsch. Ich koche gern und spiele Gitarre. Hast du am Samstag um drei Zeit? Wir können im Café am Alexanderplatz Kaffee trinken. Viele Grüße, Tom",
+  modelAnswer: "Hallo Lena, ich heiße Tom und bin 26 Jahre alt. Ich komme aus Kanada und wohne jetzt in Berlin. Ich arbeite als Grafiker. Ich spreche Englisch und Französisch und lerne Deutsch. Ich koche gern und spiele Gitarre. Hast du am Samstag um drei Zeit? Wir können im Café am Alexanderplatz Kaffee trinken. Viele Grüße Tom",
   explanation: "Age with \"sein\", no article with jobs (\"als Grafiker\"), verb + \"gern\" for likes, a yes/no question with the verb first, and \"können\" with the infinitive at the end.",
 };

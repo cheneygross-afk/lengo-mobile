@@ -8,7 +8,7 @@ export const DE_B1_U01: Lesson[] = [
     level: "DE-B1",
     number: 1,
     title: "The Past Tenses Together, Part 1 of 2",
-    summary: "Bring the Elementary pasts back side by side: the Perfekt for telling what happened, and war, hatte and the modals for what it was like.",
+    summary: "Tell what happened in the Perfekt and say what it was like with \"war\", \"hatte\" and the modals, side by side as Germans do in speech.",
     duration: "15 min",
     sections: [
       {
@@ -41,7 +41,7 @@ export const DE_B1_U01: Lesson[] = [
             prompt: "Put the words in order to say: I met my colleague in the park yesterday.",
             words: ["Ich", "habe", "gestern", "im", "Park", "meinen", "Kollegen", "getroffen."],
             translation: "I met my colleague in the park yesterday.",
-            altOrders: [["Gestern", "habe", "ich", "im", "Park", "meinen", "Kollegen", "getroffen."]],
+            altOrders: [["Gestern", "habe", "ich", "im", "Park", "meinen", "Kollegen", "getroffen."], ["Ich", "habe", "meinen", "Kollegen", "gestern", "im", "Park", "getroffen."], ["Im", "Park", "habe", "ich", "gestern", "meinen", "Kollegen", "getroffen."]],
             explanation: "\"Habe\" in position 2, \"getroffen\" at the very end, and time (\"gestern\") before place (\"im Park\") in the middle.",
           },
         ],
@@ -90,7 +90,7 @@ export const DE_B1_U01: Lesson[] = [
         ],
       },
       {
-        heading: "The trap: English 'I went' is not \"*ich ging\"",
+        heading: "The trap: English 'I went' is not always \"ich ging\"",
         body: [
           "English uses its simple past (I went, I saw, I bought) for almost every finished event. If you translate that word for word into a German Präteritum in conversation, you get \"ich ging\", \"ich sah\", \"ich kaufte\", which sound like a novel being read aloud. In speech, say \"ich bin gegangen\", \"ich habe gesehen\", \"ich habe gekauft\".",
           "The rule of thumb for speech: Präteritum for \"sein\", \"haben\", the modals and \"es gab\"; Perfekt for everything else. Part 2 of this lesson adds a few strong verbs that also appear in spoken Präteritum.",
@@ -101,7 +101,7 @@ export const DE_B1_U01: Lesson[] = [
           { es: "Wir haben im Urlaub viel gesehen.", en: "We saw a lot on holiday." },
           { es: "Jonas hat sich ein neues Fahrrad gekauft.", en: "Jonas bought himself a new bike." },
           { es: "Habt ihr den Zug noch bekommen?", en: "Did you still make the train? (to friends)" },
-          { es: "Frau Schneider hat heute Morgen angerufen.", en: "Mrs Schneider called this morning." },
+          { es: "Frau Schneider hat heute Morgen angerufen.", en: "Ms Schneider called this morning." },
         ],
         checkpoint: [
           {
@@ -164,8 +164,8 @@ export const DE_B1_U01: Lesson[] = [
         prompt: "Translate into German.",
         source: "We went to the cinema on Friday.",
         answer: "Wir sind am Freitag ins Kino gegangen.",
-        altAnswers: ["Am Freitag sind wir ins Kino gegangen."],
-        explanation: "Spoken past of \"gehen\": \"sind ... gegangen\" with \"sein\". \"*Wir gingen*\" is correct German but sounds like a written story.",
+        altAnswers: ["Am Freitag sind wir ins Kino gegangen.", "Wir gingen am Freitag ins Kino.", "Am Freitag gingen wir ins Kino."],
+        explanation: "Spoken past of \"gehen\": \"sind ... gegangen\" with \"sein\". \"Wir gingen\" is correct German too, but it sounds like a written story.",
       },
       {
         type: "word-order",
@@ -217,7 +217,7 @@ export const DE_B1_U01: Lesson[] = [
     level: "DE-B1",
     number: 2,
     title: "Pattern Practice: Haben or Sein?",
-    summary: "Drill the Perfekt auxiliary until it's automatic: sein for movement and change, haben for everything else, and the traps in between.",
+    summary: "Choose the Perfekt auxiliary without thinking: \"sein\" for movement and change, \"haben\" for everything else, and the traps in between.",
     duration: "14 min",
     sections: [
       {
@@ -225,7 +225,7 @@ export const DE_B1_U01: Lesson[] = [
         body: [
           "\"Sein\" goes with verbs that describe the subject moving from one place to another (\"gehen\", \"fahren\", \"fliegen\", \"kommen\", \"laufen\", \"reisen\", \"umziehen\") or changing from one state into another (\"aufstehen\", \"einschlafen\", \"aufwachen\", \"werden\", \"sterben\", \"wachsen\"). Think of it as: the subject ends up somewhere or something else.",
           "Three more take \"sein\" without obvious movement: \"sein\" itself (\"ich bin gewesen\"), \"bleiben\" (\"wir sind geblieben\") and \"passieren\" (\"Was ist passiert?\"). Learn them as a trio.",
-          "A useful test: the verbs with \"sein\" never have a direct object. As soon as there is an accusative object, \"haben\" is almost always right.",
+          "A useful test: verbs with \"sein\" hardly ever have a direct object (a distance like \"einen Marathon laufen\" is the main exception). As soon as there is an accusative object, \"haben\" is almost always right.",
         ],
         examples: [
           { es: "Ich bin heute um sechs aufgestanden.", en: "I got up at six today." },
@@ -408,7 +408,7 @@ export const DE_B1_U01: Lesson[] = [
         type: "speak",
         text: "Ich bin gestern früh eingeschlafen.",
         prompt: "Say it in German: I fell asleep early yesterday.",
-        tip: "Stress the prefix: EIN-geschlafen. Separable prefixes always carry the stress.",
+        tip: "Stress the prefix: \"EIN-geschlafen\". Separable prefixes always carry the stress.",
         explanation: "\"Einschlafen\" is a change of state: \"bin ... eingeschlafen\".",
       },
     ],
@@ -418,7 +418,7 @@ export const DE_B1_U01: Lesson[] = [
     level: "DE-B1",
     number: 3,
     title: "Circuit: Strong Participles",
-    summary: "Rotate the high-frequency strong and mixed participles by vowel pattern so they come out without thinking.",
+    summary: "Produce the most frequent strong and mixed participles without thinking, learned in families by vowel pattern.",
     duration: "15 min",
     sections: [
       {
@@ -523,7 +523,7 @@ export const DE_B1_U01: Lesson[] = [
             type: "speak",
             text: "Ich habe dir etwas mitgebracht.",
             prompt: "Say it in German: I've brought you something.",
-            tip: "Stress MIT: separable prefixes are stressed even in the participle.",
+            tip: "Stress \"MIT\": separable prefixes are stressed even in the participle.",
             explanation: "\"Mitbringen → mitgebracht\": mixed verb (vowel change, -t), ge- after the prefix.",
           },
         ],
@@ -536,7 +536,7 @@ export const DE_B1_U01: Lesson[] = [
         prompt: "Translate into German.",
         source: "We drank a bottle of wine.",
         answer: "Wir haben eine Flasche Wein getrunken.",
-        explanation: "i → u: \"trinken → getrunken\". No \"of\" in German quantities: \"eine Flasche Wein\".",
+        explanation: "i → u: \"trinken → getrunken\". No 'of' in German quantities: \"eine Flasche Wein\".",
       },
       {
         type: "translate",
@@ -573,7 +573,7 @@ export const DE_B1_U01: Lesson[] = [
       },
       {
         type: "matching",
-        instructions: "Match each participle to its infinitive.",
+        instructions: "Match each participle to the meaning of its verb.",
         pairs: [
           { left: "geblieben", right: "to stay" },
           { left: "gesungen", right: "to sing" },
@@ -600,7 +600,7 @@ export const DE_B1_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which participle is correct?",
+        question: "How do you say: I brought flowers?",
         options: ["Ich habe Blumen gebracht.", "Ich habe Blumen gebringt.", "Ich habe Blumen gebrungen.", "Ich habe Blumen bracht."],
         correctIndex: 0,
         explanation: "\"Bringen\" is mixed: vowel change and -t, \"gebracht\".",
@@ -625,7 +625,7 @@ export const DE_B1_U01: Lesson[] = [
     level: "DE-B1",
     number: 4,
     title: "Talk About You: Warst du schon mal...?",
-    summary: "Ask and answer about life experiences with schon mal, noch nie and noch nicht.",
+    summary: "Ask and answer about life experiences with \"schon mal\", \"noch nie\" and \"noch nicht\".",
     duration: "13 min",
     sections: [
       {
@@ -638,7 +638,7 @@ export const DE_B1_U01: Lesson[] = [
         examples: [
           { es: "Warst du schon mal in der Schweiz?", en: "Have you ever been to Switzerland?" },
           { es: "Hast du schon mal Sauerkraut gegessen?", en: "Have you ever eaten sauerkraut?" },
-          { es: "Sind Sie schon einmal Ski gefahren?", en: "Have you ever been skiing? (polite)" },
+          { es: "Sind Sie schon einmal Ski gefahren?", en: "Have you ever been skiing? (formal)" },
           { es: "Seid ihr schon mal einen Marathon gelaufen?", en: "Have you ever run a marathon? (to friends)" },
           { es: "Ich war schon zweimal in Österreich.", en: "I've been to Austria twice." },
         ],
@@ -688,7 +688,7 @@ export const DE_B1_U01: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "I haven't read the book [yet].",
+            en: "I [haven't] read the book [yet].",
             sentence: "Ich habe das Buch ___ gelesen.",
             answer: "noch nicht",
             explanation: "Not yet is \"noch nicht\": the reading is expected to happen. \"Noch nie\" would mean never.",
@@ -733,7 +733,7 @@ export const DE_B1_U01: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Have you ever been skiing? (polite)",
+        source: "Have you ever been skiing? (formal)",
         answer: "Sind Sie schon mal Ski gefahren?",
         altAnswers: ["Sind Sie schon einmal Ski gefahren?"],
         explanation: "\"Ski fahren\" uses \"sein\" in the Perfekt; \"schon mal\" or \"schon einmal\" for ever.",
@@ -822,7 +822,7 @@ export const DE_B1_U01: Lesson[] = [
     level: "DE-B1",
     number: 5,
     title: "Minimal Pairs: Er hat / Er hatte, Er ist / Er war",
-    summary: "Hear and say the tiny contrasts that carry tense in fast speech: hat / hatte, ist / war, kann / konnte, müssen / mussten.",
+    summary: "Hear and say the tiny contrasts that carry tense in fast speech: \"hat\" / \"hatte\", \"ist\" / \"war\", \"kann\" / \"konnte\", \"müssen\" / \"mussten\".",
     duration: "12 min",
     sections: [
       {
@@ -896,7 +896,7 @@ export const DE_B1_U01: Lesson[] = [
           {
             type: "speak",
             text: "Wir müssen warten. Wir mussten warten.",
-            tip: "Round your lips for ü (say ee with pursed lips); for u just round them without the ee.",
+            tip: "Round your lips for \"ü\" (say ee with pursed lips); for \"u\" just round them without the ee.",
             explanation: "Present \"müssen\" with ü, past \"mussten\" with u and a t.",
           },
         ],
@@ -1018,7 +1018,7 @@ export const DE_B1_U01: Lesson[] = [
       {
         type: "speak",
         text: "Er hat keine Zeit. Er hatte keine Zeit.",
-        tip: "Give \"hatte\" two clear syllables: HAT-te, with a short a.",
+        tip: "Give \"hatte\" two clear syllables, \"HAT-te\", with a short a.",
         explanation: "One syllable for the present, two for the past.",
       },
     ],
@@ -1028,7 +1028,7 @@ export const DE_B1_U01: Lesson[] = [
     level: "DE-B1",
     number: 6,
     title: "The Past Tenses Together, Part 2 of 2",
-    summary: "The strong verbs people really do use in the spoken Präteritum: es gab, ich kam, ich ging, ich stand, ich wusste, ich dachte.",
+    summary: "Use the strong and mixed verbs people really do say in the Präteritum: \"es gab\", \"ich kam\", \"ich ging\", \"ich stand\", \"ich wusste\", \"ich dachte\".",
     duration: "15 min",
     sections: [
       {
@@ -1187,7 +1187,7 @@ export const DE_B1_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which Präteritum form is correct?",
+        question: "You're telling a story in the Präteritum. How do you say: We went home?",
         options: ["Wir gingen nach Hause.", "Wir gangen nach Hause.", "Wir gehten nach Hause.", "Wir gingten nach Hause."],
         correctIndex: 0,
         explanation: "Strong verb: new vowel, no -te. Plural ending -en: \"gingen\".",
@@ -1236,11 +1236,11 @@ export const DE_B1_U01: Lesson[] = [
     level: "DE-B1",
     number: 7,
     title: "Dialogue Lab: Wie war dein Wochenende?",
-    summary: "Monday morning at work: ask about the weekend, tell what happened, react and link your story with zuerst, dann, danach.",
+    summary: "Monday morning at work: ask about the weekend, tell what happened, react, and link your story with \"zuerst\", \"dann\", \"danach\".",
     duration: "14 min",
     sections: [
       {
-        heading: "Montagmorgen in der Küche",
+        heading: "Monday morning in the office kitchen",
         body: [
           "Lena and Mehmet work in the same office in Köln. It's Monday, nine o'clock, and they meet at the coffee machine. Colleagues of the same age usually say \"du\" in German offices today, especially in younger companies.",
           "The opening question is always the same: \"Wie war dein Wochenende?\" (\"war\", not the Perfekt). Short answers: \"Super!\", \"Ganz gut\", \"Ruhig\", \"Anstrengend\". Then comes the follow-up: \"Was hast du gemacht?\"",
@@ -1521,7 +1521,7 @@ export const DE_B1_U01: Lesson[] = [
           { es: "Ich bin erst seit zwei Wochen in Hamburg.", en: "I've only been in Hamburg for two weeks." },
           { es: "Der Laden macht erst um zehn auf.", en: "The shop doesn't open until ten." },
           { es: "Es ist schon elf Uhr!", en: "It's already eleven o'clock!" },
-          { es: "Frau Becker ist gerade nach Hause gegangen.", en: "Mrs Becker has just gone home." },
+          { es: "Frau Becker ist gerade nach Hause gegangen.", en: "Ms Becker has just gone home." },
           { es: "Ich koche gerade, kann ich dich später anrufen?", en: "I'm cooking right now, can I call you later?" },
         ],
         checkpoint: [
@@ -1651,7 +1651,7 @@ export const DE_B1_U01: Lesson[] = [
     level: "DE-B1",
     number: 9,
     title: "Contrast Clinic: Seit, Vor or Für?",
-    summary: "English 'for' has three German translations: seit for what's still going on, lang for a finished stretch, and für for a planned period.",
+    summary: "Translate English 'for' correctly: \"seit\" for what's still going on, \"lang\" for a finished stretch, \"für\" for a planned period, and \"vor\" for 'ago'.",
     duration: "14 min",
     sections: [
       {
@@ -1848,7 +1848,7 @@ export const DE_B1_U01: Lesson[] = [
     level: "DE-B1",
     number: 10,
     title: "Error Hunt: Past-Tense Slips",
-    summary: "Find and fix the past-tense mistakes English speakers make most: wrong auxiliary, participle in the wrong place, für for seit and broken verb-second.",
+    summary: "Find and fix the past-tense mistakes English speakers make most: wrong auxiliary, participle in the wrong place, \"für\" for \"seit\" and broken verb-second.",
     duration: "14 min",
     sections: [
       {
@@ -1858,17 +1858,17 @@ export const DE_B1_U01: Lesson[] = [
           "The fix is never a different participle, only the auxiliary. If you hesitate, ask: did the subject move or change state, without an object? Then \"sein\".",
         ],
         examples: [
-          { es: "Ich bin gestern früh gegangen.", en: "I left early yesterday. (not: ich habe gegangen)" },
-          { es: "Er hat den ganzen Tag gearbeitet.", en: "He worked all day. (not: er ist gearbeitet)" },
-          { es: "Ich bin um halb sieben aufgestanden.", en: "I got up at half past six. (not: ich habe aufgestanden)" },
-          { es: "Wir haben uns sehr gefreut.", en: "We were very pleased. (not: wir sind uns gefreut)" },
-          { es: "Was ist passiert?", en: "What happened? (not: was hat passiert)" },
+          { es: "Ich bin gestern früh gegangen.", en: "I left early yesterday. (not: \"*ich habe gegangen*\")" },
+          { es: "Er hat den ganzen Tag gearbeitet.", en: "He worked all day. (not: \"*er ist gearbeitet*\")" },
+          { es: "Ich bin um halb sieben aufgestanden.", en: "I got up at half past six. (not: \"*ich habe aufgestanden*\")" },
+          { es: "Wir haben uns sehr gefreut.", en: "We were very pleased. (not: \"*wir sind uns gefreut*\")" },
+          { es: "Was ist passiert?", en: "What happened? (not: \"*was hat passiert*\")" },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote: \"*Ich habe um sieben aufgestanden.\" Write the corrected sentence (I got up at seven).",
+            prompt: "A learner wrote: \"*Ich habe um sieben aufgestanden.*\" Write the corrected sentence (I got up at seven).",
             source: "I got up at seven.",
             answer: "Ich bin um sieben aufgestanden.",
             altAnswers: ["Ich bin um sieben Uhr aufgestanden.", "Um sieben bin ich aufgestanden.", "Um sieben Uhr bin ich aufgestanden."],
@@ -1876,7 +1876,7 @@ export const DE_B1_U01: Lesson[] = [
           },
           {
             type: "fill-blank",
-            prompt: "A learner wrote: \"*Er ist gestern lange gearbeitet.\" Write the German for the bold word.",
+            prompt: "A learner wrote: \"*Er ist gestern lange gearbeitet.*\" Write the German for the bold word.",
             en: "He [worked] late yesterday.",
             sentence: "Er ___ gestern lange gearbeitet.",
             answer: "hat",
@@ -1900,7 +1900,7 @@ export const DE_B1_U01: Lesson[] = [
         checkpoint: [
           {
             type: "word-order",
-            prompt: "A learner wrote: \"*Ich habe gestern gegessen Pizza.\" Put the words in the right order: I ate pizza yesterday.",
+            prompt: "A learner wrote: \"*Ich habe gestern gegessen Pizza.*\" Put the words in the right order: I ate pizza yesterday.",
             words: ["Ich", "habe", "gestern", "Pizza", "gegessen."],
             translation: "I ate pizza yesterday.",
             altOrders: [["Gestern", "habe", "ich", "Pizza", "gegessen."]],
@@ -1935,7 +1935,7 @@ export const DE_B1_U01: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote: \"*Vor drei Jahren ich bin umgezogen.\" Write the corrected sentence (Three years ago I moved).",
+            prompt: "A learner wrote: \"*Vor drei Jahren ich bin umgezogen.*\" Write the corrected sentence (Three years ago I moved).",
             source: "Three years ago I moved.",
             answer: "Vor drei Jahren bin ich umgezogen.",
             altAnswers: ["Ich bin vor drei Jahren umgezogen."],
@@ -1955,7 +1955,7 @@ export const DE_B1_U01: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: \"*Ich habe nach Hause gegangen.\" Write the corrected sentence (I went home).",
+        prompt: "A learner wrote: \"*Ich habe nach Hause gegangen.*\" Write the corrected sentence (I went home).",
         source: "I went home.",
         answer: "Ich bin nach Hause gegangen.",
         explanation: "Movement from A to B: \"sein\".",
@@ -1963,7 +1963,7 @@ export const DE_B1_U01: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: \"*Ich habe gesehen den Film gestern.\" Write the corrected sentence (I saw the film yesterday).",
+        prompt: "A learner wrote: \"*Ich habe gesehen den Film gestern.*\" Write the corrected sentence (I saw the film yesterday).",
         source: "I saw the film yesterday.",
         answer: "Ich habe den Film gestern gesehen.",
         altAnswers: ["Ich habe gestern den Film gesehen.", "Gestern habe ich den Film gesehen."],
@@ -1972,7 +1972,7 @@ export const DE_B1_U01: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: \"*Ich lerne Deutsch für zwei Jahre.\" Write the corrected sentence (I've been learning German for two years).",
+        prompt: "A learner wrote: \"*Ich lerne Deutsch für zwei Jahre.*\" Write the corrected sentence (I've been learning German for two years).",
         source: "I've been learning German for two years.",
         answer: "Ich lerne seit zwei Jahren Deutsch.",
         altAnswers: ["Ich lerne Deutsch seit zwei Jahren.", "Seit zwei Jahren lerne ich Deutsch.", "Ich lerne schon seit zwei Jahren Deutsch."],
@@ -1980,7 +1980,7 @@ export const DE_B1_U01: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "A learner wrote: \"*Gestern ich war krank.\" Write the German for the bold words.",
+        prompt: "A learner wrote: \"*Gestern ich war krank.*\" Write the German for the bold words.",
         en: "Yesterday [I was] ill.",
         sentence: "Gestern ___ krank.",
         answer: "war ich",
@@ -1989,7 +1989,7 @@ export const DE_B1_U01: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: \"*Wir sind uns im Wald verlaufen.\" Write the corrected sentence (We got lost in the forest).",
+        prompt: "A learner wrote: \"*Wir sind uns im Wald verlaufen.*\" Write the corrected sentence (We got lost in the forest).",
         source: "We got lost in the forest.",
         answer: "Wir haben uns im Wald verlaufen.",
         altAnswers: ["Im Wald haben wir uns verlaufen."],
@@ -2005,7 +2005,7 @@ export const DE_B1_U01: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: \"*Er hat gestorben im Jahr 2010.\" Write the corrected sentence (He died in 2010).",
+        prompt: "A learner wrote: \"*Er hat gestorben im Jahr 2010.*\" Write the corrected sentence (He died in 2010).",
         source: "He died in 2010.",
         answer: "Er ist 2010 gestorben.",
         altAnswers: ["Er ist im Jahr 2010 gestorben.", "Er starb 2010.", "Er starb im Jahr 2010."],
@@ -2013,7 +2013,7 @@ export const DE_B1_U01: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "A learner wrote: \"*Letzten Sommer wir haben Oma besucht.\" Put the words in the right order: Last summer we visited Grandma.",
+        prompt: "A learner wrote: \"*Letzten Sommer wir haben Oma besucht.*\" Put the words in the right order: Last summer we visited Grandma.",
         words: ["Letzten", "Sommer", "haben", "wir", "Oma", "besucht."],
         translation: "Last summer we visited Grandma.",
         altOrders: [["Wir", "haben", "letzten", "Sommer", "Oma", "besucht."]],
@@ -2045,14 +2045,14 @@ export const DE_B1_U01: Lesson[] = [
     level: "DE-B1",
     number: 11,
     title: "Fix the Paragraph: Eine Urlaubsmail",
-    summary: "Rewrite a holiday email full of wrong auxiliaries, invented participles and seit/vor slips, sentence by sentence.",
+    summary: "Correct a holiday email sentence by sentence: wrong auxiliaries, invented participles and broken verb-second.",
     duration: "15 min",
     sections: [
       {
         heading: "The email",
         body: [
           "Jonas is on holiday on Rügen, an island in the Baltic, and writes to his colleague Mia. His German is good but rushed. Here is the start: \"Hallo Mia, wir haben vor drei Tagen nach Rügen gefahren. Das Wetter ist super gewesen, aber am ersten Tag es hat geregnet. Wir sind seit Samstag hier und bleiben für eine Woche.\"",
-          "Find the slips: \"gefahren\" with \"haben\" (they travelled themselves, so \"sind ... gefahren\"); \"es hat geregnet\" after \"am ersten Tag\" breaks verb-second (\"hat es geregnet\"); \"ist super gewesen\" is correct but clumsy, \"war super\" is what people write. The seit and für sentence is fine: still there (\"seit\"), planned stay (\"für\").",
+          "Find the slips: \"gefahren\" with \"haben\" (they travelled themselves, so \"sind ... gefahren\"); \"es hat geregnet\" after \"am ersten Tag\" breaks verb-second (\"hat es geregnet\"); \"ist super gewesen\" is correct but clumsy, \"war super\" is what people write. The \"seit\" and \"für\" sentence is fine: still there (\"seit\"), planned stay (\"für\"), though with \"bleiben\" Germans often drop \"für\".",
         ],
         examples: [
           { es: "Hallo Mia, wir sind vor drei Tagen nach Rügen gefahren.", en: "Hi Mia, we went to Rügen three days ago." },
@@ -2064,7 +2064,7 @@ export const DE_B1_U01: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix Jonas's sentence: \"*Wir haben vor drei Tagen nach Rügen gefahren.\" (We went to Rügen three days ago.)",
+            prompt: "Fix Jonas's sentence: \"*Wir haben vor drei Tagen nach Rügen gefahren.*\" (We went to Rügen three days ago.)",
             source: "We went to Rügen three days ago.",
             answer: "Wir sind vor drei Tagen nach Rügen gefahren.",
             altAnswers: ["Vor drei Tagen sind wir nach Rügen gefahren."],
@@ -2072,7 +2072,7 @@ export const DE_B1_U01: Lesson[] = [
           },
           {
             type: "fill-blank",
-            prompt: "Fix Jonas's sentence: \"*Am ersten Tag es hat geregnet.\" Write the German for the bold words.",
+            prompt: "Fix Jonas's sentence: \"*Am ersten Tag es hat geregnet.*\" Write the German for the bold words.",
             en: "On the first day [it rained].",
             sentence: "Am ersten Tag ___ geregnet.",
             answer: "hat es",
@@ -2098,7 +2098,7 @@ export const DE_B1_U01: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix Jonas's sentence: \"*Am Abend wir haben Fisch gegesst.\" (In the evening we ate fish.)",
+            prompt: "Fix Jonas's sentence: \"*Am Abend wir haben Fisch gegesst.*\" (In the evening we ate fish.)",
             source: "In the evening we ate fish.",
             answer: "Am Abend haben wir Fisch gegessen.",
             altAnswers: ["Wir haben am Abend Fisch gegessen."],
@@ -2106,7 +2106,7 @@ export const DE_B1_U01: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Jonas wrote: \"*...und haben am Strand gelegt.\" What should it be?",
+            question: "Jonas wrote: \"*...und haben am Strand gelegt.*\" What should it be?",
             options: ["...und haben am Strand gelegen.", "...und sind am Strand gelegt.", "...und haben am Strand geliegt.", "...und haben am Strand gelagt."],
             correctIndex: 0,
             explanation: "Lying somewhere is \"liegen → gelegen\"; \"gelegt\" comes from \"legen\" (to put something down).",
@@ -2130,7 +2130,7 @@ export const DE_B1_U01: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix Jonas's sentence: \"*Seit gestern ich habe Kopfschmerzen.\" (I've had a headache since yesterday.)",
+            prompt: "Fix Jonas's sentence: \"*Seit gestern ich habe Kopfschmerzen.*\" (I've had a headache since yesterday.)",
             source: "I've had a headache since yesterday.",
             answer: "Seit gestern habe ich Kopfschmerzen.",
             altAnswers: ["Ich habe seit gestern Kopfschmerzen."],
@@ -2241,7 +2241,7 @@ export const DE_B1_U01: Lesson[] = [
     level: "DE-B1",
     number: 12,
     title: "Quick Round: Schon / Noch nicht / Noch nie",
-    summary: "Rapid answers with ja schon, noch nicht and noch nie, and doch to contradict a negative question.",
+    summary: "Give rapid answers with \"ja, schon\", \"noch nicht\" and \"noch nie\", and use \"doch\" to contradict a negative question.",
     duration: "12 min",
     sections: [
       {
@@ -2338,7 +2338,7 @@ export const DE_B1_U01: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Yes I have, last year!",
+        source: "Yes I have, last year! (answering \"Warst du noch nie hier?\")",
         answer: "Doch, letztes Jahr!",
         altAnswers: ["Doch, im letzten Jahr!"],
         explanation: "\"Doch\" answers yes to a negative question like \"Warst du noch nie hier?\".",
@@ -2401,11 +2401,11 @@ export const DE_B1_U01: Lesson[] = [
     level: "DE-B1",
     number: 13,
     title: "Fill the Story: Was für ein Tag!",
-    summary: "A disastrous day told in gaps: choose haben or sein, war or hatte, es gab, and keep the verb second after every time marker.",
+    summary: "Retell a disastrous day by filling gaps: choose \"haben\" or \"sein\", \"war\" or \"hatte\", use \"es gab\", and keep the verb second after every time marker.",
     duration: "15 min",
     sections: [
       {
-        heading: "Der Morgen",
+        heading: "The morning",
         body: [
           "Ayşe tells her friend Lena about the worst Tuesday of her life. Read each part, then fill the gaps. Watch the time markers: \"zuerst\", \"plötzlich\", \"auf einmal\", \"später\", \"am Abend\". Each fills position 1 and pushes the verb right after it.",
           "The morning: \"Zuerst hat mein Wecker nicht geklingelt. Ich bin erst um halb neun aufgewacht. Dann habe ich keinen sauberen Pullover gefunden, und es gab keinen Kaffee mehr.\"",
@@ -2438,7 +2438,7 @@ export const DE_B1_U01: Lesson[] = [
         ],
       },
       {
-        heading: "Unterwegs",
+        heading: "On the way",
         body: [
           "On the way: \"Ich bin zur Haltestelle gerannt, aber der Bus war schon weg. Plötzlich hat es angefangen zu regnen, und ich hatte keinen Schirm. Auf einmal stand mein Nachbar neben mir und hat mich mit dem Auto mitgenommen.\"",
           "Note the tenses: actions in the Perfekt (\"bin gerannt\", \"hat angefangen\", \"hat mitgenommen\"), states in the Präteritum (\"war\", \"hatte\", \"stand\").",
@@ -2469,7 +2469,7 @@ export const DE_B1_U01: Lesson[] = [
         ],
       },
       {
-        heading: "Im Büro und am Abend",
+        heading: "At the office and in the evening",
         body: [
           "At work: \"Im Büro gab es ein Problem mit dem Computer, und ich musste alles noch einmal schreiben. Später hat mein Chef gesagt, dass das Meeting erst morgen ist.\"",
           "And the evening: \"Am Abend wollte ich nur noch schlafen. Aber dann hat meine Mutter angerufen... Was für ein Tag!\"",
@@ -2595,7 +2595,7 @@ export const DE_B1_U01: Lesson[] = [
     level: "DE-B1",
     number: 14,
     title: "Transformation Chain: From Present to Past",
-    summary: "Retell a present-tense story in the past step by step: choose the auxiliary, move the participle, keep sein, haben and the modals in the Präteritum.",
+    summary: "Retell a present-tense story in the past step by step: choose the auxiliary, move the participle, and keep \"sein\", \"haben\" and the modals in the Präteritum.",
     duration: "14 min",
     sections: [
       {
@@ -2796,6 +2796,6 @@ export const DE_B1_U01_WRITING: WriteExercise = {
     "Uses \"vor\" + dative for when it happened and \"seit\" + present for something still going on.",
     "Keeps the verb second after time phrases (\"Am Samstag sind wir...\") and the participle at the end.",
   ],
-  modelAnswer: "Liebe Mia,\n\nwie geht es dir? Vor zwei Wochen bin ich mit Jonas nach Dresden gefahren. Am Samstag haben wir die Altstadt angeschaut und sind an der Elbe spazieren gegangen. Das Wetter war wunderbar, und das Essen hat super geschmeckt. Am Abend wollten wir ins Konzert gehen, aber es gab keine Karten mehr. Wir waren ein bisschen enttäuscht, aber dann haben wir eine tolle Kneipe gefunden. Dort haben wir einen Fotografen aus Leipzig kennengelernt, und er hat uns viele Tipps gegeben. Am Sonntag mussten wir leider schon früh zurück, weil Jonas arbeiten musste. Seit der Reise fotografiere ich viel mehr, und ich habe mir sogar eine neue Kamera gekauft!\n\nViele Grüße\nAnna",
+  modelAnswer: "Liebe Mia,\n\nwie geht es dir? Vor zwei Wochen bin ich mit Jonas nach Dresden gefahren. Am Samstag haben wir uns die Altstadt angeschaut und sind an der Elbe spazieren gegangen. Das Wetter war wunderbar, und das Essen hat super geschmeckt. Am Abend wollten wir ins Konzert gehen, aber es gab keine Karten mehr. Wir waren ein bisschen enttäuscht, aber dann haben wir eine tolle Kneipe gefunden. Dort haben wir einen Fotografen aus Leipzig kennengelernt, und er hat uns viele Tipps gegeben. Am Sonntag mussten wir leider schon früh zurück, weil Jonas arbeiten musste. Seit der Reise fotografiere ich viel mehr, und ich habe mir sogar eine neue Kamera gekauft!\n\nViele Grüße\nAnna",
   explanation: "The model mixes the two spoken pasts the way Germans do: Perfekt for the actions (\"bin gefahren\", \"haben angeschaut\", \"sind spazieren gegangen\", \"haben kennengelernt\"), Präteritum for \"war\", \"wollten\", \"mussten\" and \"es gab\". \"Vor zwei Wochen\" places the trip in the past, while \"seit der Reise\" + present (\"fotografiere\") says the new habit continues. Every fronted time phrase is followed directly by the verb.",
 };

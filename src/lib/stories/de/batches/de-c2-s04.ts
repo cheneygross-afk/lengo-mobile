@@ -30,7 +30,7 @@ export const DE_C2_S04_STORIES: Story[] = [
         question: `Why did Pater Anselm forge the charter?`,
         options: [`To sell it to a museum`, `To prove his skill as a calligrapher`, `To save the abbey and its brewery in a lawsuit over the spring`, `To impress the new abbot`],
         correctIndex: 2,
-        explanation: `A Munich brewery claimed the spring, "die Abtei stand vor dem Ruin", and after Anselm "found" the charter the court "wies die Klage ab".`,
+        explanation: `A Munich brewery claimed the spring, "die Abtei stand vor dem Ruin", and after Anselm 'found' the charter the court "wies die Klage ab".`,
       },
       {
         question: `How does Anselm justify himself in his letter?`,
@@ -123,7 +123,7 @@ export const DE_C2_S04_STORIES: Story[] = [
         explanation: `"der Geruch ist im gesamten Treppenhaus wahrnehmbar." "Wer das wusste, hatte im Treppenhaus gestanden."`,
       },
       {
-        question: `Why does the narrator thank Gerda "for the boredom"?`,
+        question: `Why does the narrator thank Gerda "für die Langeweile" (for the boredom)?`,
         options: [`Because Gerda's visits were always dull`, `Because Gerda never talked about politics`, `Because by writing deliberately dull, harmless reports, Gerda protected her`, `Because Gerda lent her boring books`],
         correctIndex: 2,
         explanation: `The reports called her "politisch unerheblich" and recommended no measures; they were "so unergiebig wie zuverlässig" and kept a more eager informant away. Gerda says "Du warst nämlich gar nicht langweilig."`,

@@ -8,14 +8,14 @@ export const DE_A2_U05: Lesson[] = [
     level: "DE-A2",
     number: 1,
     title: "Perfekt vs Präteritum, Part 1 of 2",
-    summary: "The spoken rule: the Perfekt for almost every verb, but war, hatte, the modals and es gab in the Präteritum, the way a German friend tells a story.",
+    summary: "Tell what happened the way a German friend would: the Perfekt for almost every verb, but \"war\", \"hatte\", the modals and \"es gab\" in the Präteritum.",
     duration: "13 min",
     sections: [
       {
         heading: "In conversation: the Perfekt for almost everything",
         body: [
           "German has two everyday past tenses, and you already know both: the Perfekt (\"ich habe gegessen\", \"ich bin gefahren\") and the Präteritum (\"ich war\", \"ich hatte\", \"ich musste\"). They mean the same thing. The difference is not time but style: which one sounds natural in which situation.",
-          "When Germans talk, in person, on the phone or in a chat message, they use the Perfekt for almost every verb. \"Ich habe ihn gestern gesehen\" is what you say; \"Ich sah ihn gestern\" sounds like a line from a novel. English speakers often reach for the Präteritum because it looks like the English simple past (I saw = ich sah), but in speech that makes you sound like a newsreader.",
+          "When Germans talk, in person, on the phone or in a chat message, they use the Perfekt for almost every verb. \"Ich habe ihn gestern gesehen\" is what you say; \"Ich sah ihn gestern\" sounds like a line from a novel. English speakers often reach for the Präteritum because it looks like the English simple past (I saw = \"ich sah\"), but in speech that makes you sound like a newsreader.",
           "So when you tell a friend what happened, build the Perfekt: \"haben\" or \"sein\" in position 2, the participle at the end. \"Wir sind ins Kino gegangen und haben Popcorn gegessen.\"",
         ],
         examples: [
@@ -117,7 +117,7 @@ export const DE_A2_U05: Lesson[] = [
             prompt: "Put the words in order to say: It was cold, but we went for a walk.",
             words: ["Es", "war", "kalt,", "aber", "wir", "sind", "spazieren", "gegangen."],
             translation: "It was cold, but we went for a walk.",
-            explanation: "\"Es war kalt\" (sein: Präteritum), then \"aber\", which doesn't change word order, and the Perfekt \"sind spazieren gegangen\".",
+            explanation: "\"Es war kalt\" (\"sein\": Präteritum), then \"aber\", which doesn't change word order, and the Perfekt \"sind spazieren gegangen\".",
           },
         ],
       },
@@ -138,7 +138,7 @@ export const DE_A2_U05: Lesson[] = [
         prompt: "Translate into German.",
         source: "We watched a film. (telling a friend)",
         answer: "Wir haben einen Film gesehen.",
-        altAnswers: ["Wir haben einen Film geguckt.", "Wir haben einen Film angeschaut.", "Wir haben einen Film angesehen.", "Wir haben uns einen Film angesehen.", "Wir haben uns einen Film angeschaut."],
+        altAnswers: ["Wir haben einen Film geguckt.", "Wir haben einen Film geschaut.", "Wir haben einen Film angeschaut.", "Wir haben einen Film angesehen.", "Wir haben uns einen Film angesehen.", "Wir haben uns einen Film angeschaut."],
         explanation: "Ordinary action verbs go in the Perfekt when you talk: \"haben ... gesehen\". \"Gucken\" is the casual everyday alternative.",
       },
       {
@@ -163,7 +163,7 @@ export const DE_A2_U05: Lesson[] = [
         question: "A friend asks why you didn't come to the party. Which answer sounds most natural?",
         options: ["Ich hatte Kopfschmerzen und bin früh ins Bett gegangen.", "Ich habe Kopfschmerzen gehabt und ging früh ins Bett.", "Ich hatte Kopfschmerzen und ging früh ins Bett.", "Ich habe Kopfschmerzen und bin früh ins Bett gegangen."],
         correctIndex: 0,
-        explanation: "\"Hatte\" for haben, the Perfekt \"bin ... gegangen\" for the action. \"Ging\" is the written style, and \"habe Kopfschmerzen\" is the present.",
+        explanation: "\"Hatte\" for \"haben\", the Perfekt \"bin ... gegangen\" for the action. \"Ging\" is the written style, and \"habe Kopfschmerzen\" is the present.",
       },
       {
         type: "translate",
@@ -208,7 +208,7 @@ export const DE_A2_U05: Lesson[] = [
       {
         type: "dictation",
         audio: "Wir hatten keine Zeit.",
-        explanation: "\"Wir hatten\": the Präteritum of haben with the -en plural ending, and \"keine Zeit\" for no time.",
+        explanation: "\"Wir hatten\": the Präteritum of \"haben\" with the -en plural ending, and \"keine Zeit\" for no time.",
       },
     ],
   },
@@ -217,7 +217,7 @@ export const DE_A2_U05: Lesson[] = [
     level: "DE-A2",
     number: 2,
     title: "Speed Round: Which Past Would a German Say?",
-    summary: "Rapid choices between the Perfekt and the Präteritum in spoken situations, until war, hatte, konnte and the Perfekt come automatically.",
+    summary: "Make fast choices between the Perfekt and the Präteritum in spoken situations, until \"war\", \"hatte\", \"konnte\" and the Perfekt of other verbs come automatically.",
     duration: "10 min",
     sections: [
       {
@@ -237,25 +237,25 @@ export const DE_A2_U05: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Telling a friend: I was at the dentist's. Which do you say?",
-            options: ["Ich war beim Zahnarzt.", "Ich bin beim Zahnarzt gewesen gehabt.", "Ich hatte beim Zahnarzt.", "Ich habe beim Zahnarzt gewesen."],
+            options: ["Ich war beim Zahnarzt.", "Ich bin beim Zahnarzt.", "Ich hatte beim Zahnarzt.", "Ich habe beim Zahnarzt gewesen."],
             correctIndex: 0,
-            explanation: "\"Sein\" in speech: \"ich war\". \"Ich bin beim Zahnarzt gewesen\" would also be possible, but never with \"habe\".",
+            explanation: "\"Sein\" in speech: \"ich war\". \"Ich bin beim Zahnarzt\" is the present (I'm at the dentist's), and \"hatte\" makes no sense here. \"Ich bin beim Zahnarzt gewesen\" would also be possible, but never with \"habe\".",
           },
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "He went home.",
+            source: "He went home. (telling a friend)",
             answer: "Er ist nach Hause gegangen.",
             explanation: "\"Gehen\" is an ordinary verb, so speech uses the Perfekt with \"sein\": \"ist ... gegangen\". \"Er ging nach Hause\" is written style.",
           },
         ],
       },
       {
-        heading: "Modals: never in the Perfekt when you chat",
+        heading: "Modals: hardly ever in the Perfekt when you chat",
         body: [
           "The Perfekt of a modal verb on its own (\"ich habe es nicht gekonnt\") is rare, and with another verb it needs a double infinitive (\"ich habe nicht kommen können\") that sounds formal and clunky. In everyday speech, use the Präteritum: \"ich konnte\", \"ich musste\", \"ich wollte\", \"ich durfte\", \"ich sollte\", \"ich mochte\".",
-          "Remember: no umlaut in the past (\"können\" → \"konnte\", \"müssen\" → \"musste\", \"dürfen\" → \"durfte\") and no ending for ich and er/sie/es.",
+          "Remember: no umlaut in the past (\"können\" → \"konnte\", \"müssen\" → \"musste\", \"dürfen\" → \"durfte\") and no ending for \"ich\" and \"er\"/\"sie\"/\"es\".",
         ],
         examples: [
           { es: "Ich musste den Bus nehmen.", en: "I had to take the bus." },
@@ -278,7 +278,7 @@ export const DE_A2_U05: Lesson[] = [
             prompt: "Translate into German.",
             source: "We weren't allowed to swim.",
             answer: "Wir durften nicht schwimmen.",
-            explanation: "\"Dürfen\" → \"durften\" (no umlaut, -te + -n for wir). Weren't allowed to = \"durften nicht\".",
+            explanation: "\"Dürfen\" → \"durften\" (no umlaut, -te + -n for \"wir\"). Weren't allowed to = \"durften nicht\".",
           },
         ],
       },
@@ -314,7 +314,7 @@ export const DE_A2_U05: Lesson[] = [
         en: "[Did you want] to come along? (to a friend)",
         sentence: "___ mitkommen?",
         answer: "Wolltest du",
-        explanation: "\"Wollen\" in the Präteritum, du form: \"wolltest\". The verb comes first in a yes/no question; \"mitkommen\" stays at the end.",
+        explanation: "\"Wollen\" in the Präteritum, \"du\" form: \"wolltest\". The verb comes first in a yes/no question; \"mitkommen\" stays at the end.",
       },
       {
         type: "translate",
@@ -354,7 +354,7 @@ export const DE_A2_U05: Lesson[] = [
         prompt: "Put the words in order to say: Were you at home yesterday? (to a friend)",
         words: ["Warst", "du", "gestern", "zu", "Hause?"],
         translation: "Were you at home yesterday?",
-        explanation: "\"Warst du...?\": sein in the Präteritum, du form with -st, first in a yes/no question.",
+        explanation: "\"Warst du...?\": \"sein\" in the Präteritum, \"du\" form with -st, first in a yes/no question.",
       },
       {
         type: "listen-choose",
@@ -410,7 +410,7 @@ export const DE_A2_U05: Lesson[] = [
             question: "You read: \"Der König ging in den Garten.\" How would someone say this in conversation?",
             options: ["Der König ist in den Garten gegangen.", "Der König hat in den Garten gegangen.", "Der König geht in den Garten gegangen.", "Der König war in den Garten gegangen."],
             correctIndex: 0,
-            explanation: "\"Ging\" is the Präteritum of \"gehen\"; in the Perfekt it's \"ist ... gegangen\", with sein for movement.",
+            explanation: "\"Ging\" is the Präteritum of \"gehen\"; in the Perfekt it's \"ist ... gegangen\", with \"sein\" for movement.",
           },
           {
             type: "word-order",
@@ -424,7 +424,7 @@ export const DE_A2_U05: Lesson[] = [
       {
         heading: "Strong verbs: a new vowel, no ending",
         body: [
-          "Strong (irregular) verbs form the Präteritum by changing the vowel, and, like \"war\" and \"konnte\", they have no ending for ich and er/sie/es: \"gehen\" → \"ging\", \"kommen\" → \"kam\", \"sehen\" → \"sah\", \"finden\" → \"fand\", \"nehmen\" → \"nahm\", \"geben\" → \"gab\" (as in \"es gab\"!), \"sprechen\" → \"sprach\", \"schreiben\" → \"schrieb\".",
+          "Strong (irregular) verbs form the Präteritum by changing the vowel, and, like \"war\" and \"konnte\", they have no ending for \"ich\" and \"er\"/\"sie\"/\"es\": \"gehen\" → \"ging\", \"kommen\" → \"kam\", \"sehen\" → \"sah\", \"finden\" → \"fand\", \"nehmen\" → \"nahm\", \"geben\" → \"gab\" (as in \"es gab\"!), \"sprechen\" → \"sprach\", \"schreiben\" → \"schrieb\".",
           "In the plural they add -en: \"wir gingen\", \"sie kamen\", \"sie sahen\". English has the same kind of vowel change (go/went, come/came, see/saw, find/found), and some pairs even match: \"kam\" ~ came, \"fand\" ~ found, \"gab\" ~ gave.",
           "Don't confuse \"ging\" with the participle \"gegangen\", or \"kam\" with \"gekommen\": the Präteritum is a single word, with no auxiliary.",
         ],
@@ -517,7 +517,7 @@ export const DE_A2_U05: Lesson[] = [
         source: "My brother came home late.",
         answer: "Mein Bruder ist spät nach Hause gekommen.",
         altAnswers: ["Mein Bruder kam spät nach Hause."],
-        explanation: "Spoken Perfekt: \"ist ... gekommen\" (sein: movement). The written equivalent is \"Mein Bruder kam spät nach Hause\".",
+        explanation: "Spoken Perfekt: \"ist ... gekommen\" (\"sein\": movement). The written equivalent is \"Mein Bruder kam spät nach Hause\".",
       },
       {
         type: "translate",
@@ -543,7 +543,7 @@ export const DE_A2_U05: Lesson[] = [
         en: "Then the girl [went] into the house.",
         sentence: "Dann ___ das Mädchen ins Haus.",
         answer: "ging",
-        explanation: "In a written story, \"gehen\" is \"ging\" (no ending for er/sie/es). After \"dann\" the verb comes second.",
+        explanation: "In a written story, \"gehen\" is \"ging\" (no ending for \"er\"/\"sie\"/\"es\"). After \"dann\" the verb comes second.",
       },
       {
         type: "listen-choose",
@@ -567,7 +567,7 @@ export const DE_A2_U05: Lesson[] = [
         prompt: "Put the words in order to say: Suddenly she saw a light.",
         words: ["Plötzlich", "sah", "sie", "ein", "Licht."],
         translation: "Suddenly she saw a light.",
-        explanation: "Written narration: \"sah\" (Präteritum of sehen). \"Plötzlich\" takes position 1, so the verb follows immediately.",
+        explanation: "Written narration: \"sah\" (Präteritum of \"sehen\"). \"Plötzlich\" takes position 1, so the verb follows immediately.",
       },
       {
         type: "translate",
@@ -603,7 +603,7 @@ export const DE_A2_U05: Lesson[] = [
     level: "DE-A2",
     number: 4,
     title: "Contrast Clinic: \"I Saw\", \"I Have Seen\", \"I Have Been Living\"",
-    summary: "One German Perfekt for both I saw and I have seen, but the present tense with seit for anything that is still going on.",
+    summary: "Use one German Perfekt for both I saw and I have seen, and the present tense with \"seit\" for anything that is still going on.",
     duration: "13 min",
     sections: [
       {
@@ -683,7 +683,7 @@ export const DE_A2_U05: Lesson[] = [
       {
         heading: "Over or still going? Perfekt vs present + seit",
         body: [
-          "Ask one question: is it still true? If yes, present + \"seit\". If it's finished, Perfekt (or Präteritum for sein and haben), and the length goes in without \"seit\": \"Ich habe drei Jahre in Bonn gewohnt\" (I lived in Bonn for three years: I don't any more).",
+          "Ask one question: is it still true? If yes, present + \"seit\". If it's finished, Perfekt (or Präteritum for \"sein\" and \"haben\"), and the length goes in without \"seit\": \"Ich habe drei Jahre in Bonn gewohnt\" (I lived in Bonn for three years: I don't any more).",
           "Compare the pair: \"Ich wohne seit drei Jahren in Berlin\" (I still do) vs \"Ich habe drei Jahre in Berlin gewohnt\" (I've moved away). In English the difference is have lived vs lived; in German it's present vs Perfekt plus the word \"seit\".",
           "The same goes for \"kennen\" and \"sein\": \"Ich kenne sie seit zehn Jahren\" (I've known her for ten years), \"Er ist seit Montag krank\" (He's been ill since Monday).",
         ],
@@ -724,7 +724,7 @@ export const DE_A2_U05: Lesson[] = [
         source: "Have you ever been to Vienna? (to a friend)",
         answer: "Warst du schon mal in Wien?",
         altAnswers: ["Warst du schon einmal in Wien?", "Bist du schon mal in Wien gewesen?", "Bist du schon einmal in Wien gewesen?"],
-        explanation: "Have you ever been = \"Warst du schon mal...?\": sein in the Präteritum, \"schon mal\" for ever.",
+        explanation: "Have you ever been = \"Warst du schon mal...?\": \"sein\" in the Präteritum, \"schon mal\" for ever.",
       },
       {
         type: "translate",
@@ -750,7 +750,7 @@ export const DE_A2_U05: Lesson[] = [
         source: "He has worked here for a year.",
         answer: "Er arbeitet seit einem Jahr hier.",
         altAnswers: ["Er arbeitet hier seit einem Jahr.", "Seit einem Jahr arbeitet er hier."],
-        explanation: "Still true: \"er arbeitet\" + \"seit einem Jahr\" (seit takes the dative: einem).",
+        explanation: "Still true: \"er arbeitet\" + \"seit einem Jahr\" (\"seit\" takes the dative: \"einem\").",
       },
       {
         type: "multiple-choice",
@@ -884,7 +884,7 @@ export const DE_A2_U05: Lesson[] = [
             question: "What does it mean?",
             options: ["He had a green jacket.", "He has a green jacket.", "He had a grey jacket.", "He bought a green jacket."],
             correctIndex: 0,
-            explanation: "\"Hatte\" is the past of haben, and \"grün\" is green (grey is \"grau\").",
+            explanation: "\"Hatte\" is the past of \"haben\", and \"grün\" is green (grey is \"grau\").",
           },
           {
             type: "translate",
@@ -911,7 +911,7 @@ export const DE_A2_U05: Lesson[] = [
         ],
         examples: [
           { es: "Ein junger Mann hat das Fahrrad gestohlen.", en: "A young man stole the bike." },
-          { es: "Frau Schneider hat alles gesehen.", en: "Mrs Schneider saw everything." },
+          { es: "Frau Schneider hat alles gesehen.", en: "Ms Schneider saw everything." },
           { es: "Die Polizei hat das Fahrrad im Park gefunden.", en: "The police found the bike in the park." },
           { es: "Herr Becker war sehr froh.", en: "Mr Becker was very happy." },
         ],
@@ -920,7 +920,7 @@ export const DE_A2_U05: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "Mrs Schneider saw everything.",
+            source: "Ms Schneider saw everything.",
             answer: "Frau Schneider hat alles gesehen.",
             explanation: "Retelling aloud: Perfekt, \"hat ... gesehen\". \"Alles\" (everything) goes inside the bracket.",
           },
@@ -998,13 +998,13 @@ export const DE_A2_U05: Lesson[] = [
         prompt: "Put the words in order to say: Mr Becker was very happy.",
         words: ["Herr", "Becker", "war", "sehr", "froh."],
         translation: "Mr Becker was very happy.",
-        explanation: "\"War\": sein stays in the Präteritum in speech and writing alike.",
+        explanation: "\"War\": \"sein\" stays in the Präteritum in speech and writing alike.",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "What did you see? (polite, to a witness)",
+        source: "What did you see? (formal, to a witness)",
         answer: "Was haben Sie gesehen?",
         explanation: "Polite \"Sie\" to a stranger, Perfekt for the question: \"Was haben Sie gesehen?\"",
       },
@@ -1043,7 +1043,7 @@ export const DE_A2_U05: Lesson[] = [
         heading: "Stiff but correct: gewesen, gehabt, gekonnt",
         body: [
           "Some mistakes are not errors of grammar but of style. Leon writes to a friend: \"*Ich bin gestern sehr müde gewesen und habe nicht schlafen gekonnt.*\" It's understandable, but nobody talks like that: \"gewesen\" is heavy, and \"*schlafen gekonnt*\" is simply wrong (the Perfekt of a modal + infinitive needs \"können\": \"habe nicht schlafen können\").",
-          "The natural version uses the Präteritum for both: \"Ich war gestern sehr müde und konnte nicht schlafen.\" Whenever you see \"gewesen\", \"gehabt\" or a modal in the Perfekt in a chat, try war, hatte or the -te modal instead.",
+          "The natural version uses the Präteritum for both: \"Ich war gestern sehr müde und konnte nicht schlafen.\" Whenever you see \"gewesen\", \"gehabt\" or a modal in the Perfekt in a chat, try \"war\", \"hatte\" or the -te modal instead.",
         ],
         examples: [
           { es: "Ich war gestern sehr müde und konnte nicht schlafen.", en: "I was very tired yesterday and couldn't sleep." },
@@ -1095,9 +1095,9 @@ export const DE_A2_U05: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which chat message sounds natural?",
-            options: ["Ich habe den Bus verpasst und war zu spät.", "Ich verpasste den Bus und bin zu spät gewesen.", "Ich verpasste den Bus und war zu spät.", "Ich habe den Bus verpasst und bin zu spät gewesen gehabt."],
+            options: ["Ich habe den Bus verpasst und war zu spät.", "Ich verpasste den Bus und bin zu spät gewesen.", "Ich verpasste den Bus und war zu spät.", "Ich hatte den Bus verpasst und war zu spät."],
             correctIndex: 0,
-            explanation: "\"Verpassen\" is an ordinary verb, so Perfekt (\"habe ... verpasst\"); \"sein\" is Präteritum (\"war\").",
+            explanation: "\"Verpassen\" is an ordinary verb, so Perfekt (\"habe ... verpasst\"); \"sein\" is Präteritum (\"war\"). \"Verpasste\" is bookish in a chat, and \"hatte ... verpasst\" is the pluperfect (had missed).",
           },
         ],
       },
@@ -1142,7 +1142,7 @@ export const DE_A2_U05: Lesson[] = [
         source: "I was tired and couldn't sleep.",
         answer: "Ich war müde und konnte nicht schlafen.",
         altAnswers: ["Ich war müde und ich konnte nicht schlafen."],
-        explanation: "\"War\" for sein, \"konnte\" for the modal: both Präteritum, the natural spoken choice.",
+        explanation: "\"War\" for \"sein\", \"konnte\" for the modal: both Präteritum, the natural spoken choice.",
       },
       {
         type: "translate",
@@ -1207,7 +1207,7 @@ export const DE_A2_U05: Lesson[] = [
         prompt: "Put the words in order to say: We had a lot of fun and danced.",
         words: ["Wir", "hatten", "viel", "Spaß", "und", "haben", "getanzt."],
         translation: "We had a lot of fun and danced.",
-        explanation: "\"Hatten\" (haben: Präteritum) + \"haben getanzt\" (action: Perfekt).",
+        explanation: "\"Hatten\" (\"haben\": Präteritum) + \"haben getanzt\" (action: Perfekt).",
       },
       {
         type: "translate",
@@ -1216,7 +1216,7 @@ export const DE_A2_U05: Lesson[] = [
         source: "Lena came at nine and made dinner.",
         answer: "Lena ist um neun gekommen und hat das Essen gemacht.",
         altAnswers: ["Lena ist um neun gekommen und hat Abendessen gemacht.", "Lena ist um neun gekommen und hat das Abendessen gemacht.", "Lena ist um neun gekommen und hat das Essen gekocht.", "Lena ist um neun gekommen und hat gekocht."],
-        explanation: "Two ordinary verbs in a chat: Perfekt for both, \"ist gekommen\" (sein) and \"hat gemacht\" (haben).",
+        explanation: "Two ordinary verbs in a chat: Perfekt for both, \"ist gekommen\" (\"sein\") and \"hat gemacht\" (\"haben\").",
       },
       {
         type: "speak",
@@ -1243,7 +1243,7 @@ export const DE_A2_U05: Lesson[] = [
         heading: "At home: chores and rooms",
         body: [
           "Learn every noun with its article and plural, as one unit: \"die Wohnung, die Wohnungen\" (flat), \"das Zimmer, die Zimmer\" (room), \"die Küche, die Küchen\" (kitchen), \"das Bad, die Bäder\" (bathroom), \"der Müll\" (rubbish, no plural), \"die Wäsche\" (laundry, no plural), \"das Geschirr\" (dishes, no plural).",
-          "The chore verbs: \"putzen\" (to clean), \"aufräumen\" (to tidy up: separable, \"ich habe aufgeräumt\"), \"spülen\" or \"abwaschen\" (to do the dishes), \"waschen\" (to wash: \"gewaschen\"), \"staubsaugen\" (to vacuum: \"ich habe staubgesaugt\"), \"den Müll rausbringen\" (to take out the rubbish).",
+          "The chore verbs: \"putzen\" (to clean), \"aufräumen\" (to tidy up: separable, \"ich habe aufgeräumt\"), \"spülen\" or \"abwaschen\" (to do the dishes), \"waschen\" (to wash: \"gewaschen\"), \"staubsaugen\" (to vacuum: \"ich habe staubgesaugt\" or \"gestaubsaugt\"), \"den Müll rausbringen\" (to take out the rubbish).",
           "Notice that German treats \"Geschirr\" and \"Wäsche\" as singular collective nouns, unlike English dishes: \"Das Geschirr ist sauber\" (The dishes are clean).",
         ],
         examples: [
@@ -1331,7 +1331,7 @@ export const DE_A2_U05: Lesson[] = [
             prompt: "Translate into German.",
             source: "I was scared.",
             answer: "Ich hatte Angst.",
-            explanation: "German says I had fear: \"Ich hatte Angst\". \"Hatte\": haben in the Präteritum.",
+            explanation: "German says I had fear: \"Ich hatte Angst\". \"Hatte\": \"haben\" in the Präteritum.",
           },
           {
             type: "listen-choose",
@@ -1383,9 +1383,9 @@ export const DE_A2_U05: Lesson[] = [
       {
         type: "multiple-choice",
         question: "How do you say: We made two trips to Berlin.",
-        options: ["Wir haben zwei Reisen nach Berlin gemacht.", "Wir haben zwei Reises nach Berlin gemacht.", "Wir haben zwei Reise nach Berlin gemacht.", "Wir haben zwei Räise nach Berlin gemacht."],
+        options: ["Wir haben zwei Reisen nach Berlin gemacht.", "Wir haben zwei Reises nach Berlin gemacht.", "Wir haben zwei Reise nach Berlin gemacht.", "Wir haben zwei Reisungen nach Berlin gemacht."],
         correctIndex: 0,
-        explanation: "\"Die Reise\" is feminine and ends in -e, so the plural adds -n: \"zwei Reisen\". -s is only for loanwords like \"Hotels\".",
+        explanation: "\"Die Reise\" is feminine and ends in -e, so the plural adds -n: \"zwei Reisen\". -s is mainly for loanwords like \"Hotels\", and \"-ungen\" is only for nouns ending in -ung (\"die Wohnungen\").",
       },
       {
         type: "translate",
@@ -1451,7 +1451,7 @@ export const DE_A2_U05: Lesson[] = [
     level: "DE-A2",
     number: 8,
     title: "Common Words: Opinions and Guesses",
-    summary: "Give your opinion and say how sure you are with finden, glauben, denken, meinen, vielleicht, wahrscheinlich, bestimmt and keine Ahnung.",
+    summary: "Give your opinion and say how sure you are with \"finden\", \"glauben\", \"denken\", \"meinen\", \"vielleicht\", \"wahrscheinlich\", \"bestimmt\" and \"keine Ahnung\".",
     duration: "13 min",
     sections: [
       {
@@ -1466,7 +1466,7 @@ export const DE_A2_U05: Lesson[] = [
           { es: "Wie findest du meine neue Jacke?", en: "What do you think of my new jacket?" },
           { es: "Wir finden die Stadt sehr schön.", en: "We think the city's really beautiful." },
           { es: "Ich finde, das ist zu teuer.", en: "I think that's too expensive." },
-          { es: "Wie fanden Sie das Konzert?", en: "How did you like the concert? (polite)" },
+          { es: "Wie fanden Sie das Konzert?", en: "How did you like the concert? (formal)" },
         ],
         checkpoint: [
           {
@@ -1501,7 +1501,7 @@ export const DE_A2_U05: Lesson[] = [
           { es: "Kommt Lena auch? – Ich glaube schon.", en: "Is Lena coming too? – I think so." },
           { es: "Ist das Restaurant gut? – Ich glaube nicht.", en: "Is the restaurant good? – I don't think so." },
           { es: "Was meinst du?", en: "What do you think?" },
-          { es: "Wie meinen Sie das?", en: "What do you mean? (polite)" },
+          { es: "Wie meinen Sie das?", en: "What do you mean? (formal)" },
         ],
         checkpoint: [
           {
@@ -1542,7 +1542,7 @@ export const DE_A2_U05: Lesson[] = [
             prompt: "Put the words in order to say: Maybe it'll snow tomorrow.",
             words: ["Vielleicht", "schneit", "es", "morgen."],
             translation: "Maybe it'll snow tomorrow.",
-            altOrders: [["Es", "schneit", "vielleicht", "morgen."]],
+            altOrders: [["Es", "schneit", "vielleicht", "morgen."], ["Morgen", "schneit", "es", "vielleicht."]],
             explanation: "\"Vielleicht\" in position 1 sends the verb to position 2: \"schneit es\", never \"*vielleicht es schneit*\".",
           },
           {
@@ -1666,7 +1666,7 @@ export const DE_A2_U05: Lesson[] = [
     level: "DE-A2",
     number: 9,
     title: "Common Words: Praise, Complaints and Feelings",
-    summary: "React like a German: super, toll, klasse, schade, so ein Pech, das ärgert mich, ich bin sauer, ich freue mich and das ist mir egal.",
+    summary: "React to good and bad news like a German with \"super\", \"toll\", \"klasse\", \"schade\", \"so ein Pech\", \"das ärgert mich\", \"ich bin sauer\", \"ich freue mich\" and \"das ist mir egal\".",
     duration: "12 min",
     sections: [
       {
@@ -1863,6 +1863,7 @@ export const DE_A2_U05: Lesson[] = [
         prompt: "Put the words in order to say: You did that really well!",
         words: ["Das", "hast", "du", "toll", "gemacht!"],
         translation: "You did that really well!",
+        altOrders: [["Du", "hast", "das", "toll", "gemacht!"]],
         explanation: "\"Das\" fronted for emphasis, then \"hast du\", and the participle \"gemacht\" at the end.",
       },
       {
@@ -1878,14 +1879,14 @@ export const DE_A2_U05: Lesson[] = [
     level: "DE-A2",
     number: 10,
     title: "Mixed Practice: Past Tenses Round 1",
-    summary: "Recombine the Perfekt with haben and sein, separable and ge-less participles, and the Präteritum of sein, haben and the modals in messages and mini-stories.",
+    summary: "Tell your weekend in messages and mini-stories, mixing the Perfekt with \"haben\" and \"sein\", separable and ge-less participles, and the Präteritum of \"sein\", \"haben\" and the modals.",
     duration: "14 min",
     sections: [
       {
         heading: "A message from Mia",
         body: [
           "Mia writes to her friend Jonas about her weekend. Her message mixes everything from Units 1-5: the Perfekt with \"haben\" and \"sein\", separable participles (\"angekommen\", \"eingekauft\"), participles without ge- (\"besucht\", \"verloren\"), and the Präteritum for \"war\", \"hatte\" and the modals.",
-          "Read each line and ask: which auxiliary, and why? Is the verb sein, haben or a modal, so Präteritum?",
+          "Read each line and ask: which auxiliary, and why? Is the verb \"sein\", \"haben\" or a modal, so Präteritum?",
         ],
         examples: [
           { es: "Hallo Jonas, ich bin am Freitagabend in Köln angekommen.", en: "Hi Jonas, I arrived in Cologne on Friday evening." },
@@ -1974,7 +1975,7 @@ export const DE_A2_U05: Lesson[] = [
             prompt: "Put the words in order to say: She fell off her bike.",
             words: ["Sie", "ist", "vom", "Fahrrad", "gefallen."],
             translation: "She fell off her bike.",
-            explanation: "\"Fallen\" is a change of position, so \"sein\": \"ist ... gefallen\". \"Vom\" = von dem.",
+            explanation: "\"Fallen\" is a change of position, so \"sein\": \"ist ... gefallen\". \"Vom\" = \"von dem\".",
           },
         ],
       },
@@ -1996,7 +1997,7 @@ export const DE_A2_U05: Lesson[] = [
         source: "I had a headache and stayed at home.",
         answer: "Ich hatte Kopfschmerzen und bin zu Hause geblieben.",
         altAnswers: ["Ich hatte Kopfschmerzen und ich bin zu Hause geblieben.", "Ich hatte Kopfweh und bin zu Hause geblieben.", "Ich hatte Kopfschmerzen und bin zuhause geblieben."],
-        explanation: "\"Hatte\" for haben; \"bleiben\" takes \"sein\" even though nobody moves: \"bin ... geblieben\".",
+        explanation: "\"Hatte\" for \"haben\"; \"bleiben\" takes \"sein\" even though nobody moves: \"bin ... geblieben\".",
       },
       {
         type: "fill-blank",
@@ -2028,7 +2029,7 @@ export const DE_A2_U05: Lesson[] = [
         question: "Which sentence is correct and natural in speech?",
         options: ["Wir sind spät aufgestanden und hatten keine Zeit.", "Wir haben spät aufgestanden und hatten keine Zeit.", "Wir sind spät geaufstanden und hatten keine Zeit.", "Wir standen spät auf und haben keine Zeit gehabt."],
         correctIndex: 0,
-        explanation: "\"Aufstehen\" takes \"sein\" and puts ge- in the middle: \"aufgestanden\"; \"hatten\" for haben. The last option reverses the spoken pattern.",
+        explanation: "\"Aufstehen\" takes \"sein\" and puts ge- in the middle: \"aufgestanden\"; \"hatten\" for \"haben\". The last option reverses the spoken pattern.",
       },
       {
         type: "translate",
@@ -2073,7 +2074,7 @@ export const DE_A2_U05: Lesson[] = [
       {
         type: "dictation",
         audio: "Wir konnten nicht kochen.",
-        explanation: "\"Konnten\": the Präteritum of können for wir, no umlaut.",
+        explanation: "\"Konnten\": the Präteritum of \"können\" for \"wir\", no umlaut.",
       },
     ],
   },
@@ -2081,12 +2082,12 @@ export const DE_A2_U05: Lesson[] = [
 
 export const DE_A2_U05_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Write a message to a German friend about something unexpected that happened to you last weekend (a small accident, a surprise, a lost or found object). Say what happened, how you felt and what you couldn't or had to do, and mention one thing you've been doing for a while (with seit).",
+  prompt: "Write a message to a German friend about something unexpected that happened to you last weekend (a small accident, a surprise, a lost or found object). Say what happened, how you felt and what you couldn't or had to do, and mention one thing you've been doing for a while (with \"seit\").",
   minWords: 50,
   maxWords: 100,
   rubric: [
     "Uses the Perfekt for actions, with the right auxiliary (\"ich habe ... gesehen\", \"ich bin ... gefahren\")",
-    "Uses the Präteritum for sein, haben and the modals (\"ich war\", \"ich hatte\", \"ich musste\", \"ich konnte\")",
+    "Uses the Präteritum for \"sein\", \"haben\" and the modals (\"ich war\", \"ich hatte\", \"ich musste\", \"ich konnte\")",
     "Uses the present tense with \"seit\" for something still going on (\"ich lerne seit...\")",
     "Reacts or gives an opinion (\"So ein Pech!\", \"ich finde\", \"ich glaube\", \"vielleicht\")",
   ],

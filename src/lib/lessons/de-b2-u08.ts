@@ -8,7 +8,7 @@ export const DE_B2_U08: Lesson[] = [
     level: "DE-B2",
     number: 1,
     title: "Contrast Clinic: Spannend / Gespannt",
-    summary: "The thing causes the feeling (spannend, überraschend), the person feels it (gespannt, überrascht): avoid saying you are boring when you mean bored.",
+    summary: "The thing causes the feeling (\"spannend\", \"überraschend\"), the person feels it (\"gespannt\", \"überrascht\"): avoid saying you are boring when you mean bored.",
     duration: "14 min",
     sections: [
       {
@@ -48,7 +48,7 @@ export const DE_B2_U08: Lesson[] = [
       {
         heading: "Langweilig / gelangweilt: the classic trap",
         body: [
-          "The most famous mistake: \"*Ich bin langweilig\" means I am boring, a confession most people don't intend. I'm bored is \"Mir ist langweilig\" (most common in speech) or \"Ich langweile mich\" or \"Ich bin gelangweilt\" (more formal, also describing an expression or attitude).",
+          "The most famous mistake: \"*Ich bin langweilig*\" means I am boring, a confession most people don't intend. I'm bored is \"Mir ist langweilig\" (most common in speech) or \"Ich langweile mich\" or \"Ich bin gelangweilt\" (more formal, also describing an expression or attitude).",
           "\"Langweilig\" is an -ig adjective, not a participle, but it works like the -end form: the cause. \"Der Vortrag war langweilig\" (the talk was boring). \"Gelangweilt\" is the Partizip II of \"langweilen\" (to bore): \"Die Schüler sahen gelangweilt aus.\"",
           "Similar pairs with \"mir ist\": \"Mir ist kalt\" (I'm cold) vs \"Ich bin kalt\" (I'm a cold person), \"Mir ist schlecht\" (I feel sick). German often puts the person who feels something in the dative.",
         ],
@@ -83,8 +83,8 @@ export const DE_B2_U08: Lesson[] = [
         heading: "More pairs and their prepositions",
         body: [
           "The feeling words often come with fixed prepositions: \"begeistert von\" (enthusiastic about), \"enttäuscht von\" (disappointed in/by), \"überrascht von / über\" (surprised by/at), \"interessiert an\" + Dativ (interested in), \"gespannt auf\" + Akk (eager for).",
-          "And their -end partners describe the thing: \"begeisternd\" (inspiring, though in reviews \"großartig\" or \"mitreißend\" is more common), \"enttäuschend\", \"überraschend\", \"interessant\" (not \"*interessierend!\"), \"anstrengend\" (exhausting) vs \"angestrengt\" (strained, with effort), \"beunruhigend\" (worrying) vs \"beunruhigt\" (worried).",
-          "Note \"interessant\" / \"interessiert\": the cause form is the -ant adjective. \"*Ich bin sehr interessierend\" is a mistake you'll correct in the next lesson.",
+          "And their -end partners describe the thing: \"begeisternd\" (inspiring, though in reviews \"großartig\" or \"mitreißend\" is more common), \"enttäuschend\", \"überraschend\", \"interessant\" (not \"*interessierend*\"), \"anstrengend\" (exhausting) vs \"angestrengt\" (strained, with effort), \"beunruhigend\" (worrying) vs \"beunruhigt\" (worried).",
+          "Note \"interessant\" / \"interessiert\": the cause form is the -ant adjective. \"*Ich bin sehr interessierend*\" is a mistake you'll correct in the next lesson.",
         ],
         examples: [
           { es: "Wir waren von dem Konzert begeistert.", en: "We were thrilled with the concert." },
@@ -219,7 +219,7 @@ export const DE_B2_U08: Lesson[] = [
     level: "DE-B2",
     number: 2,
     title: "Participles as Adverbs and Short Participle Clauses",
-    summary: "Partizip I as an adverb of manner (lächelnd, zögernd), short participle clauses (Im Hotel angekommen, ging sie schlafen) and nominalised participles (der Reisende, die Angestellten).",
+    summary: "Partizip I as an adverb of manner (\"lächelnd\", \"zögernd\"), short participle clauses (\"Im Hotel angekommen, ging sie schlafen\") and nominalised participles (\"der Reisende\", \"die Angestellten\").",
     duration: "16 min",
     sections: [
       {
@@ -263,7 +263,7 @@ export const DE_B2_U08: Lesson[] = [
         body: [
           "A participle with a few words can stand at the start of a sentence as a short clause, usually followed by a comma (it's optional, so \"Laut singend fuhr er ...\" is also correct): \"Im Hotel angekommen, ging sie sofort schlafen\" (having arrived at the hotel, she went straight to bed). \"Laut singend fuhr er durch die Stadt\" (singing loudly, he drove through town). The participle goes at the end of the little clause, and the main clause starts with its verb.",
           "A Partizip II clause usually means after (= nachdem / als): \"In Berlin angekommen, rief er sofort an\" = \"Als er in Berlin angekommen war, rief er sofort an.\" A Partizip I clause means while (= während): \"Vor Wut zitternd verließ sie den Raum\" = \"Während sie vor Wut zitterte, ...\". The subject of the participle clause must be the same as the main clause.",
-          "Word order trap: English puts the participle first (Arriving in Berlin, ...); German puts it last in the little clause: \"In Berlin angekommen, ...\", never \"*Ankommend in Berlin, ...\". These clauses are mostly written style; in speech, use \"als\" or \"nachdem\".",
+          "Word order trap: English puts the participle first (Arriving in Berlin, ...); German puts it last in the little clause: \"In Berlin angekommen, ...\", never \"*Ankommend in Berlin, ...*\". These clauses are mostly written style; in speech, use \"als\" or \"nachdem\".",
         ],
         examples: [
           { es: "Im Hotel angekommen, ging sie sofort schlafen.", en: "Having arrived at the hotel, she went straight to bed." },
@@ -303,7 +303,7 @@ export const DE_B2_U08: Lesson[] = [
         heading: "Nominalised participles: der Reisende, die Angestellten",
         body: [
           "Participles can become nouns, like adjectives can (\"der Deutsche\"). They keep adjective endings: \"der Reisende\" (the traveller), \"ein Reisender\", \"die Reisenden\"; \"die Angestellte\" (the employee, female), \"ein Angestellter\" (male), \"die Angestellten\" (employees); \"das Gesagte\" (what was said), \"die Verletzten\" (the injured).",
-          "The endings change with article and case: \"Ich habe mit einem Angestellten gesprochen\" (dative), \"Die Polizei sucht Zeugen; zwei Verletzte wurden ins Krankenhaus gebracht\" (no article: strong ending -e). This is a classic error: \"*der Angestellter\" mixes the strong ending of \"ein Angestellter\" with the weak ending after \"der\".",
+          "The endings change with article and case: \"Ich habe mit einem Angestellten gesprochen\" (dative), \"Die Polizei sucht Zeugen; zwei Verletzte wurden ins Krankenhaus gebracht\" (no article: strong ending -e). This is a classic error: \"*der Angestellter*\" mixes the strong ending of \"ein Angestellter\" with the weak ending after \"der\".",
           "Common ones: \"der/die Vorsitzende\" (chair), \"der/die Auszubildende\" (trainee, shortened to Azubi), \"der/die Studierende\" (student, gender-neutral plural \"die Studierenden\"), \"der/die Verlobte\" (fiancé/e), \"der/die Bekannte\" (acquaintance), \"das Erreichte\" (what has been achieved).",
         ],
         examples: [
@@ -374,7 +374,7 @@ export const DE_B2_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is correct?",
+        question: "Choose the German for: The employee is ill.",
         options: ["Der Angestellte ist krank.", "Der Angestellter ist krank.", "Ein Angestellte ist krank.", "Der Angestellten ist krank."],
         correctIndex: 0,
         explanation: "After \"der\": weak ending -e. \"Ein Angestellter\" has -er, but never \"der Angestellter\".",
@@ -443,14 +443,14 @@ export const DE_B2_U08: Lesson[] = [
     level: "DE-B2",
     number: 3,
     title: "Error Hunt: Participles",
-    summary: "Correct and explain typical participle mistakes: interessierend, der Angestellter, Ankommend in Berlin, der gekaufte Buch, gelangweilt for things.",
+    summary: "Correct and explain typical participle mistakes: \"*interessierend*\", \"*der Angestellter*\", \"*Ankommend in Berlin*\", \"*der gekaufte Buch*\", \"gelangweilt\" for things.",
     duration: "14 min",
     sections: [
       {
         heading: "Errors 1 and 2: feelings",
         body: [
-          "Error 1: \"*Ich bin sehr interessierend an dem Kurs.\" The person feels the interest, so Partizip II: \"Ich bin sehr an dem Kurs interessiert.\" And for the cause, German uses \"interessant\" (an -ant adjective), not \"*interessierend\": \"Der Kurs ist interessant.\"",
-          "Error 2: \"*Das Buch ist sehr gelangweilt.\" A book can't feel bored. The cause takes the -ig / -end form: \"Das Buch ist sehr langweilig.\" Similarly, \"*Der Film war enttäuscht\" → \"Der Film war enttäuschend\".",
+          "Error 1: \"*Ich bin sehr interessierend an dem Kurs.*\" The person feels the interest, so Partizip II: \"Ich bin sehr an dem Kurs interessiert.\" And for the cause, German uses \"interessant\" (an -ant adjective), not \"*interessierend*\": \"Der Kurs ist interessant.\"",
+          "Error 2: \"*Das Buch ist sehr gelangweilt.*\" A book can't feel bored. The cause takes the -ig / -end form: \"Das Buch ist sehr langweilig.\" Similarly, \"*Der Film war enttäuscht*\" → \"Der Film war enttäuschend\".",
           "Check yourself: can the noun feel? People and animals can (\"gelangweilt, enttäuscht, überrascht\"); books, films, trips and news cannot (\"langweilig, enttäuschend, überraschend\").",
         ],
         examples: [
@@ -464,7 +464,7 @@ export const DE_B2_U08: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Correct the error in \"*Das Buch ist sehr gelangweilt.\" Write: The book is very boring.",
+            prompt: "Correct the error in \"*Das Buch ist sehr gelangweilt.*\" Write: The book is very boring.",
             source: "The book is very boring.",
             answer: "Das Buch ist sehr langweilig.",
             explanation: "The book causes boredom: \"langweilig\". \"Gelangweilt\" is for people.",
@@ -472,7 +472,7 @@ export const DE_B2_U08: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Correct the error in \"*Ich bin sehr interessierend an dem Kurs.\" Write: I'm very interested in the course.",
+            prompt: "Correct the error in \"*Ich bin sehr interessierend an dem Kurs.*\" Write: I'm very interested in the course.",
             source: "I'm very interested in the course.",
             answer: "Ich bin sehr an dem Kurs interessiert.",
             altAnswers: ["Ich bin an dem Kurs sehr interessiert.", "Ich interessiere mich sehr für den Kurs.", "Ich bin sehr am Kurs interessiert."],
@@ -483,9 +483,9 @@ export const DE_B2_U08: Lesson[] = [
       {
         heading: "Errors 3 and 4: endings",
         body: [
-          "Error 3: \"*Der Angestellter hat mir geholfen.\" A nominalised participle takes adjective endings: after \"der\" it's the weak -e: \"Der Angestellte hat mir geholfen.\" The -er ending only appears without an article or after \"ein\": \"ein Angestellter\".",
-          "Error 4: \"*der gestern gekaufte Buch\". The article must agree with the noun at the end of the phrase: \"Buch\" is neuter, so \"das gestern gekaufte Buch\". Learners pick \"der\" because \"gestern\" or the participle seems to be the important word. Always find the noun first.",
-          "Related: \"*mit dem gestern gekaufte Buch\" (missing -n). After \"dem\" the ending is always -en: \"mit dem gestern gekauften Buch\".",
+          "Error 3: \"*Der Angestellter hat mir geholfen.*\" A nominalised participle takes adjective endings: after \"der\" it's the weak -e: \"Der Angestellte hat mir geholfen.\" The -er ending only appears without an article or after \"ein\": \"ein Angestellter\".",
+          "Error 4: \"*der gestern gekaufte Buch*\". The article must agree with the noun at the end of the phrase: \"Buch\" is neuter, so \"das gestern gekaufte Buch\". Learners pick \"der\" because \"gestern\" or the participle seems to be the important word. Always find the noun first.",
+          "Related: \"*mit dem gestern gekaufte Buch*\" (missing -n). After \"dem\" the ending is always -en: \"mit dem gestern gekauften Buch\".",
         ],
         examples: [
           { es: "Der Angestellte hat mir geholfen.", en: "The employee helped me." },
@@ -497,7 +497,7 @@ export const DE_B2_U08: Lesson[] = [
         checkpoint: [
           {
             type: "fill-blank",
-            prompt: "Correct the error in \"*Der Angestellter hat mir geholfen.\" Write the German for the bold words.",
+            prompt: "Correct the error in \"*Der Angestellter hat mir geholfen.*\" Write the German for the bold words.",
             en: "[The employee] helped me.",
             sentence: "___ hat mir geholfen.",
             answer: "Der Angestellte",
@@ -507,7 +507,7 @@ export const DE_B2_U08: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Correct the error in \"*der gestern gekaufte Buch\". Write: The book I bought yesterday is gripping.",
+            prompt: "Correct the error in \"*der gestern gekaufte Buch*\". Write: The book I bought yesterday is gripping.",
             source: "The book I bought yesterday is gripping.",
             answer: "Das gestern gekaufte Buch ist spannend.",
             altAnswers: ["Das Buch, das ich gestern gekauft habe, ist spannend."],
@@ -518,9 +518,9 @@ export const DE_B2_U08: Lesson[] = [
       {
         heading: "Error 5: participle clauses",
         body: [
-          "Error 5: \"*Ankommend in Berlin, rief er seine Mutter an.\" This copies English Arriving in Berlin. Two problems: the participle must come last in its clause, and for a completed arrival you need Partizip II: \"In Berlin angekommen, rief er seine Mutter an.\" Or in speech: \"Als er in Berlin ankam, rief er seine Mutter an.\"",
-          "Another version of the same mistake: \"*In Berlin angekommen, er rief seine Mutter an.\" After the participle clause (position 1), the verb comes next.",
-          "And a subject mismatch: \"*Im Hotel angekommen, war das Zimmer nicht fertig\" would mean the room arrived at the hotel. When the subjects differ, use a full clause: \"Als wir im Hotel ankamen, war das Zimmer nicht fertig.\"",
+          "Error 5: \"*Ankommend in Berlin, rief er seine Mutter an.*\" This copies English Arriving in Berlin. Two problems: the participle must come last in its clause, and for a completed arrival you need Partizip II: \"In Berlin angekommen, rief er seine Mutter an.\" Or in speech: \"Als er in Berlin ankam, rief er seine Mutter an.\"",
+          "Another version of the same mistake: \"*In Berlin angekommen, er rief seine Mutter an.*\" After the participle clause (position 1), the verb comes next.",
+          "And a subject mismatch: \"*Im Hotel angekommen, war das Zimmer nicht fertig*\" would mean the room arrived at the hotel. When the subjects differ, use a full clause: \"Als wir im Hotel ankamen, war das Zimmer nicht fertig.\"",
         ],
         examples: [
           { es: "In Berlin angekommen, rief er seine Mutter an.", en: "On arriving in Berlin, he called his mother." },
@@ -532,7 +532,7 @@ export const DE_B2_U08: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Correct the error in \"*Ankommend in Berlin, rief er seine Mutter an.\" Write: On arriving in Berlin, he called his mother.",
+            prompt: "Correct the error in \"*Ankommend in Berlin, rief er seine Mutter an.*\" Write: On arriving in Berlin, he called his mother.",
             source: "On arriving in Berlin, he called his mother.",
             answer: "In Berlin angekommen, rief er seine Mutter an.",
             altAnswers: ["Als er in Berlin ankam, rief er seine Mutter an.", "Als er in Berlin angekommen war, rief er seine Mutter an.", "In Berlin angekommen, hat er seine Mutter angerufen."],
@@ -562,7 +562,7 @@ export const DE_B2_U08: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct \"*Der Film war enttäuscht.\" Write: The film was disappointing.",
+        prompt: "Correct \"*Der Film war enttäuscht.*\" Write: The film was disappointing.",
         source: "The film was disappointing.",
         answer: "Der Film war enttäuschend.",
         explanation: "A film causes disappointment: \"enttäuschend\".",
@@ -582,11 +582,11 @@ export const DE_B2_U08: Lesson[] = [
         prompt: "Translate into German.",
         source: "The course is interesting.",
         answer: "Der Kurs ist interessant.",
-        explanation: "\"Interessant\", not \"*interessierend\".",
+        explanation: "\"Interessant\", not \"*interessierend*\".",
       },
       {
         type: "fill-blank",
-        prompt: "Correct the error in \"*mit dem gestern gekaufte Buch\". Write the German for the bold words.",
+        prompt: "Correct the error in \"*mit dem gestern gekaufte Buch*\". Write the German for the bold words.",
         en: "I'm reading the book I [bought] yesterday.",
         sentence: "Ich lese in dem gestern ___ Buch.",
         answer: "gekauften",
@@ -620,7 +620,7 @@ export const DE_B2_U08: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct \"*Ich bin langweilig.\" Write: I'm bored.",
+        prompt: "Correct \"*Ich bin langweilig.*\" Write: I'm bored.",
         source: "I'm bored.",
         answer: "Mir ist langweilig.",
         altAnswers: ["Ich langweile mich.", "Ich bin gelangweilt.", "Ich habe Langeweile."],
@@ -660,7 +660,7 @@ export const DE_B2_U08: Lesson[] = [
     level: "DE-B2",
     number: 4,
     title: "Story with Gaps: Der Reisende im Nachtzug",
-    summary: "A night train from Vienna to Hamburg: fill in participles as attributes, adverbs and nouns (der schlafende Mitreisende, laut schnarchend, die Angekommenen).",
+    summary: "A night train from Vienna to Hamburg: fill in participles as attributes, adverbs and nouns (\"der schlafende Mitreisende\", \"laut schnarchend\", \"die Angekommenen\").",
     duration: "15 min",
     sections: [
       {
@@ -873,7 +873,7 @@ export const DE_B2_U08: Lesson[] = [
         body: [
           "A rail spokesperson says: \"Der Nachtzug hat wegen eines Schadens an der Lok zwei Stunden Verspätung.\" In the news, this becomes: \"Eine Sprecherin der Bahn teilte mit, der Nachtzug habe wegen eines Schadens an der Lok zwei Stunden Verspätung.\" Or more compact: \"Laut Bahn hatte der Nachtzug zwei Stunden Verspätung.\"",
           "Three steps: 1. Choose the attribution (\"wie ... mitteilte\", \"laut\", \"zufolge\", \"nach Angaben\"). 2. Put the verb into Konjunktiv I (\"habe\", \"sei\", \"werde\") after a reporting verb (\"sagte\", \"teilte mit\"). 3. Shift persons and possessives (ich → er/sie, wir → sie).",
-          "After \"laut\", \"zufolge\" or a wie-clause (\"Wie die Polizei mitteilte, ...\"), news reports usually use the indicative, because the source is already named. After a reporting verb (\"sagte, ...\", \"teilte mit, ...\"), the Konjunktiv I is standard.",
+          "After \"laut\", \"zufolge\" or a wie-clause (\"Wie die Polizei mitteilte, ...\"), news reports often use the indicative, because the source is already named; the Konjunktiv I is also common there and adds distance (\"Nach Angaben der Polizei sei ...\"). After a reporting verb (\"sagte, ...\", \"teilte mit, ...\"), the Konjunktiv I is standard.",
         ],
         examples: [
           { es: "Eine Sprecherin teilte mit, der Zug habe zwei Stunden Verspätung.", en: "A spokeswoman announced that the train was two hours late." },
@@ -1030,14 +1030,14 @@ export const DE_B2_U08: Lesson[] = [
     level: "DE-B2",
     number: 6,
     title: "Choose and Explain: Translating English -ing",
-    summary: "English -ing has many German equivalents: gern, nach dem Essen, beim Kochen, indem, ohne zu, and only sometimes a Partizip I.",
+    summary: "English -ing has many German equivalents: \"gern\", \"nach dem Essen\", \"beim Kochen\", \"indem\", \"ohne zu\", and only sometimes a Partizip I.",
     duration: "15 min",
     sections: [
       {
         heading: "-ing as a noun or with like",
         body: [
           "English uses -ing everywhere; German has no single equivalent. Partizip I is much rarer than English -ing, so the first rule is: don't reach for it automatically. Choose by function.",
-          "Liking and habits: 'I like swimming' → \"Ich schwimme gern\" (verb + gern), not \"*Ich mag schwimmend\". With \"mögen\" or \"lieben\" you need a noun: \"Ich mag das Schwimmen\" (less common). Activities as subjects or objects: 'Swimming is healthy' → \"Schwimmen ist gesund\" (infinitive as a neuter noun, capitalised).",
+          "Liking and habits: 'I like swimming' → \"Ich schwimme gern\" (verb + gern), not \"*Ich mag schwimmend*\". \"Ich mag schwimmen\" or \"Ich mag das Schwimmen\" is also possible, but verb + \"gern\" is the more natural choice. Activities as subjects or objects: 'Swimming is healthy' → \"Schwimmen ist gesund\" (infinitive as a neuter noun, capitalised).",
           "After verbs that take an infinitive: 'I stopped smoking' → \"Ich habe aufgehört zu rauchen\"; 'She avoids driving at night' → \"Sie vermeidet es, nachts zu fahren\". German uses zu + infinitive where English uses -ing.",
         ],
         examples: [
@@ -1097,7 +1097,7 @@ export const DE_B2_U08: Lesson[] = [
             en: "[After eating] we go for a walk.",
             sentence: "___ gehen wir spazieren.",
             answer: "Nach dem Essen",
-            explanation: "\"Nach dem\" + infinitive noun. Not \"*nach essend\".",
+            explanation: "\"Nach dem\" + infinitive noun. Not \"*nach essend*\".",
           },
         ],
       },
@@ -1106,7 +1106,7 @@ export const DE_B2_U08: Lesson[] = [
         body: [
           "By + -ing (means): 'by working hard' → \"indem ich hart arbeite\" (a clause, which you'll study in Unit 12) or \"durch harte Arbeit\" (a noun). Without + -ing: 'without asking' → \"ohne zu fragen\"; instead of + -ing: 'instead of helping' → \"statt zu helfen\".",
           "Describing a noun: 'a smiling child' → \"ein lächelndes Kind\": here Partizip I is right. 'The man sitting over there' → \"der Mann, der da drüben sitzt\" (in speech) or \"der dort sitzende Mann\" (in writing).",
-          "Ongoing action: 'I'm reading' → \"Ich lese (gerade)\". German has no continuous form; never \"*Ich bin lesend\".",
+          "Ongoing action: 'I'm reading' → \"Ich lese (gerade)\". German has no continuous form; never \"*Ich bin lesend*\".",
         ],
         examples: [
           { es: "Er hat abgenommen, indem er jeden Tag Rad gefahren ist.", en: "He lost weight by cycling every day." },
@@ -1229,8 +1229,8 @@ export const DE_B2_U08: Lesson[] = [
         prompt: "Translate into German.",
         source: "I enjoy cooking.",
         answer: "Kochen macht mir Spaß.",
-        altAnswers: ["Ich koche gern.", "Das Kochen macht mir Spaß."],
-        explanation: "\"Spaß machen\" with the activity as subject, or verb + gern.",
+        altAnswers: ["Ich koche gern.", "Das Kochen macht mir Spaß.", "Ich mag kochen."],
+        explanation: "\"Spaß machen\" with the activity as subject, or verb + gern. \"Ich mag kochen\" is also correct, but \"Ich koche gern\" is more natural.",
       },
       {
         type: "dictation",
@@ -1250,14 +1250,14 @@ export const DE_B2_U08: Lesson[] = [
     level: "DE-B2",
     number: 7,
     title: "Fix the Paragraph: Die Hotelbewertung",
-    summary: "Correct an online hotel review: enttäuschend / enttäuscht, wrong participle endings, -ing calques and missing commas after participle clauses.",
+    summary: "Correct an online hotel review: \"enttäuschend\" / \"enttäuscht\", wrong participle endings, -ing calques and missing commas after participle clauses.",
     duration: "15 min",
     sections: [
       {
         heading: "The review: feelings",
         body: [
           "Mia, an English learner of German, wrote a review of a hotel in Dresden. Here's her first paragraph: \"Wir waren sehr enttäuschend von dem Hotel. Das Zimmer war langweilig eingerichtet und das Frühstück war wirklich enttäuscht. Die Rezeptionistin war aber sehr überraschend freundlich.\"",
-          "Error 1: \"*Wir waren sehr enttäuschend\" → \"Wir waren sehr enttäuscht von dem Hotel\" (we felt the disappointment). Error 2: \"*das Frühstück war enttäuscht\" → \"enttäuschend\" (the breakfast caused it). \"Langweilig eingerichtet\" (boringly furnished) is correct: \"langweilig\" describes the furnishing.",
+          "Error 1: \"*Wir waren sehr enttäuschend*\" → \"Wir waren sehr enttäuscht von dem Hotel\" (we felt the disappointment). Error 2: \"*das Frühstück war enttäuscht*\" → \"enttäuschend\" (the breakfast caused it). \"Langweilig eingerichtet\" (boringly furnished) is correct: \"langweilig\" describes the furnishing.",
           "\"Überraschend freundlich\" is actually correct: surprisingly friendly. Here \"überraschend\" is an adverb modifying \"freundlich\": the friendliness surprised us. Not every -end form is wrong!",
         ],
         examples: [
@@ -1271,7 +1271,7 @@ export const DE_B2_U08: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Correct Mia's sentence \"*Das Frühstück war wirklich enttäuscht.\" Write: The breakfast was really disappointing.",
+            prompt: "Correct Mia's sentence \"*Das Frühstück war wirklich enttäuscht.*\" Write: The breakfast was really disappointing.",
             source: "The breakfast was really disappointing.",
             answer: "Das Frühstück war wirklich enttäuschend.",
             explanation: "The breakfast causes the disappointment: \"enttäuschend\".",
@@ -1290,8 +1290,8 @@ export const DE_B2_U08: Lesson[] = [
         heading: "The review: endings and -ing calques",
         body: [
           "Paragraph 2: \"Das von uns gebuchten Zimmer hatte keinen Balkon. Ich mag nicht duschend mit kaltem Wasser. Nach ankommend haben wir eine Stunde gewartet.\"",
-          "Error 3: \"*Das von uns gebuchten Zimmer\": after \"das\" (nominative), the ending is -e: \"Das von uns gebuchte Zimmer\". Error 4: \"*Ich mag nicht duschend mit kaltem Wasser\" is an -ing calque. German: \"Ich dusche nicht gern kalt\" or \"Kalt duschen mag ich nicht\".",
-          "Error 5: \"*Nach ankommend\" copies after arriving. German: \"Nach der Ankunft\" (noun) or \"Nachdem wir angekommen waren\" (clause). Remember from Lesson 6: after + -ing is never \"nach\" + Partizip I.",
+          "Error 3: \"*Das von uns gebuchten Zimmer*\": after \"das\" (nominative), the ending is -e: \"Das von uns gebuchte Zimmer\". Error 4: \"*Ich mag nicht duschend mit kaltem Wasser*\" is an -ing calque. German: \"Ich dusche nicht gern kalt\" or \"Kalt duschen mag ich nicht\".",
+          "Error 5: \"*Nach ankommend*\" copies after arriving. German: \"Nach der Ankunft\" (noun) or \"Nachdem wir angekommen waren\" (clause). Remember from Lesson 6: after + -ing is never \"nach\" + Partizip I.",
         ],
         examples: [
           { es: "Das von uns gebuchte Zimmer hatte keinen Balkon.", en: "The room we booked had no balcony." },
@@ -1304,7 +1304,7 @@ export const DE_B2_U08: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Correct \"*Das von uns gebuchten Zimmer hatte keinen Balkon.\" Write: The room we booked had no balcony.",
+            prompt: "Correct \"*Das von uns gebuchten Zimmer hatte keinen Balkon.*\" Write: The room we booked had no balcony.",
             source: "The room we booked had no balcony.",
             answer: "Das von uns gebuchte Zimmer hatte keinen Balkon.",
             altAnswers: ["Das Zimmer, das wir gebucht hatten, hatte keinen Balkon.", "Das Zimmer, das wir gebucht haben, hatte keinen Balkon."],
@@ -1312,7 +1312,7 @@ export const DE_B2_U08: Lesson[] = [
           },
           {
             type: "fill-blank",
-            prompt: "Correct \"*Nach ankommend haben wir eine Stunde gewartet.\" Write the German for the bold words.",
+            prompt: "Correct \"*Nach ankommend haben wir eine Stunde gewartet.*\" Write the German for the bold words.",
             en: "[After arriving] we waited for an hour.",
             sentence: "___ haben wir eine Stunde gewartet.",
             answer: "Nach der Ankunft",
@@ -1333,7 +1333,7 @@ export const DE_B2_U08: Lesson[] = [
         heading: "The review: participle clauses and commas",
         body: [
           "Paragraph 3: \"Von der langen Reise erschöpft wir gingen sofort ins Bett. Laut feiernde Gäste weckten uns um zwei Uhr. Trotzdem: Das Personal war hilfsbereit und die Lage ist perfekt.\"",
-          "Error 6: \"*Von der langen Reise erschöpft wir gingen\": after a participle clause in position 1, the verb comes next, and a comma usually separates the clause: \"Von der langen Reise erschöpft, gingen wir sofort ins Bett.\" (With a short participle clause the comma is optional, but it helps readability.)",
+          "Error 6: \"*Von der langen Reise erschöpft wir gingen*\": after a participle clause in position 1, the verb comes next, and a comma usually separates the clause: \"Von der langen Reise erschöpft, gingen wir sofort ins Bett.\" (With a short participle clause the comma is optional, but it helps readability.)",
           "\"Laut feiernde Gäste\" is correct: no article, plural: -e. Corrected review ending: \"Fazit: enttäuschendes Zimmer, aber überraschend nettes Personal und eine perfekte Lage. Drei von fünf Sternen.\"",
         ],
         examples: [
@@ -1366,7 +1366,7 @@ export const DE_B2_U08: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct \"*Wir waren sehr enttäuschend von dem Hotel.\" Write: We were very disappointed with the hotel.",
+        prompt: "Correct \"*Wir waren sehr enttäuschend von dem Hotel.*\" Write: We were very disappointed with the hotel.",
         source: "We were very disappointed with the hotel.",
         answer: "Wir waren sehr enttäuscht von dem Hotel.",
         altAnswers: ["Wir waren von dem Hotel sehr enttäuscht.", "Wir waren vom Hotel sehr enttäuscht.", "Wir waren sehr enttäuscht vom Hotel."],
@@ -1384,11 +1384,11 @@ export const DE_B2_U08: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct \"*Ich mag nicht duschend mit kaltem Wasser.\" Write: I don't like taking cold showers.",
+        prompt: "Correct \"*Ich mag nicht duschend mit kaltem Wasser.*\" Write: I don't like taking cold showers.",
         source: "I don't like taking cold showers.",
         answer: "Ich dusche nicht gern kalt.",
-        altAnswers: ["Ich dusche nicht gerne kalt.", "Kalt duschen mag ich nicht.", "Ich mag es nicht, kalt zu duschen."],
-        explanation: "Verb + \"nicht gern\": no Partizip I.",
+        altAnswers: ["Ich dusche nicht gerne kalt.", "Kalt duschen mag ich nicht.", "Ich mag es nicht, kalt zu duschen.", "Ich mag nicht kalt duschen."],
+        explanation: "Verb + \"nicht gern\": no Partizip I. \"Mögen\" + infinitive (\"Ich mag nicht kalt duschen\") is also correct, but verb + \"gern\" is more natural.",
       },
       {
         type: "translate",
@@ -1648,7 +1648,7 @@ export const DE_B2_U08: Lesson[] = [
         heading: "State or process?",
         body: [
           "Quick recap from Unit 5: \"wird\" + Partizip II is the process (something is being done), \"ist\" + Partizip II is the state (the result). \"Das Museum wird um 10 Uhr geöffnet\" (someone opens it at 10). \"Das Museum ist bis 18 Uhr geöffnet\" (it stays open until 6).",
-          "Time words help: \"um\", \"gerade\", \"jeden Tag\", \"morgen\" usually go with the process (\"wird\"); \"seit\", \"bis\", \"schon\", \"noch\" with the state (\"ist\"). And the Perfekt passive is \"ist ... worden\", never \"*ist ... geworden\": \"Das Fenster ist repariert worden.\"",
+          "Time words help: \"um\", \"gerade\", \"jeden Tag\", \"morgen\" usually go with the process (\"wird\"); \"seit\", \"bis\", \"schon\", \"noch\" with the state (\"ist\"). And the Perfekt passive is \"ist ... worden\", never \"*ist ... geworden*\": \"Das Fenster ist repariert worden.\"",
         ],
         examples: [
           { es: "Das Museum wird um 10 Uhr geöffnet.", en: "The museum is opened at 10." },
@@ -1755,7 +1755,7 @@ export const DE_B2_U08: Lesson[] = [
         source: "The heating has been repaired.",
         answer: "Die Heizung ist repariert worden.",
         altAnswers: ["Die Heizung ist repariert.", "Die Heizung wurde repariert."],
-        explanation: "Event: \"ist repariert worden\"; state: \"ist repariert\". Never \"*geworden\".",
+        explanation: "Event: \"ist repariert worden\"; state: \"ist repariert\". Never \"*geworden*\".",
       },
       {
         type: "word-order",

@@ -21,7 +21,7 @@ export const GOETHE_B2_SPRECHEN: ExamPaper = {
       instructions:
         "Wählen Sie ein Thema (Thema 1 oder Thema 2) und halten Sie einen kurzen Vortrag. Strukturieren Sie Ihren Vortrag mit einer Einleitung, einem Hauptteil und einem Schluss. Sprechen Sie frei; Sie dürfen Ihre Notizen benutzen. Danach stellen Ihnen Ihr Partner / Ihre Partnerin und die Prüfenden Fragen. Dauer: etwa 4 Minuten.",
       instructionsEn:
-        "Choose topic 1 or 2 and give a short talk with an introduction, a main part and a conclusion, speaking freely from your notes. Afterwards your partner and the examiners ask you questions. About 4 minutes. The model answer covers Thema 1.",
+        "Choose topic 1 or 2 and give a short talk with an introduction, a main part and a conclusion, speaking freely from your notes. Afterwards your partner and the examiners ask you questions. About 4 minutes. The model answer covers \"Thema 1\".",
       speak: {
         prompt: "Halten Sie einen Vortrag zu Thema 1 oder Thema 2. Gehen Sie auf alle Punkte ein.",
         material: [

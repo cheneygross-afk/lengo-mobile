@@ -65,7 +65,7 @@ export const DE_C1_U14: Lesson[] = [
         body: [
           "Linguists call German a pluricentric language: it has several centres, each with its own standard. German Standard German (\"bundesdeutsches Hochdeutsch\"), Austrian Standard German (\"österreichisches Deutsch\") and Swiss Standard German (\"Schweizer Hochdeutsch\") are all correct; none is a dialect of the others. English works the same way with British, American and Australian English.",
           "The differences are mostly in vocabulary (Austrian \"Jänner\" for January, Swiss \"Velo\" for bicycle), some grammar (Austrian \"ich bin gesessen\") and spelling (Switzerland has no ß). Austria has its own dictionary, the \"Österreichisches Wörterbuch\", used in schools; Duden marks Austrian and Swiss words as such.",
-          "For learners this means two things: a Viennese or Zurich German is not speaking incorrectly, and you can choose to learn the variety of the country you live in. Mixing a few local words into German Standard German is normal; nobody expects you to switch completely.",
+          "For learners this means two things: someone from Vienna or Zurich is not speaking incorrectly, and you can choose to learn the variety of the country you live in. Mixing a few local words into German Standard German is normal; nobody expects you to switch completely.",
         ],
         examples: [
           { es: "Deutsch ist eine plurizentrische Sprache.", en: "German is a pluricentric language." },
@@ -231,7 +231,7 @@ export const DE_C1_U14: Lesson[] = [
       {
         heading: "How Austrians sound",
         body: [
-          "Austrian Standard German has its own pronunciation norms. Some words are stressed differently: \"Kaffee\" is stressed on the second syllable (ka-FEE), as are \"Tabak\" and \"Platin\"; \"Mathematik\" keeps its final stress but many Austrians say \"Mathe-MA-tik\". Words in -ig end in a k sound: \"König\" sounds like \"Könik\", \"zwanzig\" like \"zwanzik\" (in Germany: \"Könich\", \"zwanzich\").",
+          "Austrian Standard German has its own pronunciation norms. Some words are stressed differently: \"Kaffee\" is stressed on the second syllable (ka-FEE), as are \"Tabak\" and \"Platin\"; \"Mathematik\" keeps its final stress but many Austrians say \"Mathe-MA-tik\". Words in -ig end in a k sound: \"König\" sounds like \"Könik\", \"zwanzig\" like \"zwanzik\" (in northern and central Germany: \"Könich\", \"zwanzich\").",
           "Words of Greek origin starting in ch- are pronounced with k: \"Chemie\" (\"Kemie\"), \"China\" (\"Kina\"), \"Chirurg\". Consonants are softer: the difference between p / b, t / d, k / g is smaller, and the s at the start of a word is usually voiceless (\"Sonne\" with a sharp s).",
           "Austrian speech is often described as more melodic, with a weak r after vowels and a final -er that sounds almost like a (\"Wasser\" close to \"Wassa\"). You don't need to imitate any of this, but recognising it helps you follow Austrian radio, TV and colleagues.",
         ],
@@ -415,7 +415,7 @@ export const DE_C1_U14: Lesson[] = [
         type: "speak",
         text: "Grüß Gott, einen Kaffee, bitte.",
         prompt: "Order a coffee in a Vienna café, the local way.",
-        tip: "Say it the Austrian way: ka-FEE, with the stress on the second syllable.",
+        tip: "Say \"Kaffee\" the Austrian way: ka-FEE, with the stress on the second syllable.",
         explanation: "\"Grüß Gott\" and Austrian final stress on \"Kaffee\".",
       },
     ],
@@ -431,7 +431,7 @@ export const DE_C1_U14: Lesson[] = [
       {
         heading: "Diglossia: dialect for speaking, Hochdeutsch for writing",
         body: [
-          "German-speaking Switzerland lives in diglossia: two forms of German with separate jobs. Schweizerdeutsch (\"Schwiizertüütsch\"), a family of Alemannic dialects, is spoken by everyone in everyday life: at home, at work, in many cantonal parliaments, on local radio, even by professors in office hours. Standard German (\"Schriftdeutsch\" or \"Hochdeutsch\") is used for writing, for the national TV news, in schools as the language of instruction, and with people who don't understand dialect.",
+          "German-speaking Switzerland lives in diglossia: two forms of German with separate jobs. \"Schweizerdeutsch\" (\"Schwiizertüütsch\"), a family of Alemannic dialects, is spoken by everyone in everyday life: at home, at work, in many cantonal parliaments, on local radio, even by professors in office hours. Standard German (\"Schriftdeutsch\" or \"Hochdeutsch\") is used for writing, for the national TV news, in schools as the language of instruction, and with people who don't understand dialect.",
           "For Swiss people Hochdeutsch is almost a first foreign language: they read and write it daily, but many feel slightly stiff speaking it. When a German or a learner joins a conversation, the Swiss often switch to Hochdeutsch politely; if you understand dialect, saying so is much appreciated.",
           "Swiss German dialects are not mutually intelligible with standard German without exposure: \"Chuchichäschtli\" (kitchen cupboard, \"Küchenschränkchen\") is the famous pronunciation test. As a learner you need to recognise a few greetings; the rest you will meet in Hochdeutsch.",
         ],
@@ -496,7 +496,7 @@ export const DE_C1_U14: Lesson[] = [
       {
         heading: "Helvetisms",
         body: [
-          "Swiss vocabulary that differs from Germany is called \"Helvetismen\". Many are verbs in -ieren where Germany uses a plain verb: \"parkieren\" (parken), \"grillieren\" (grillen), \"duschen\" is the same, but \"zügeln\" means to move house (umziehen). Some genders differ: \"das Tram\" (die Straßenbahn / die Tram), \"der Match\" (das Match / das Spiel), \"das Mail\" (die E-Mail), \"der Final\" (das Finale).",
+          "Swiss vocabulary that differs from Germany is called \"Helvetismen\". Many are verbs in -ieren where Germany uses a plain verb: \"parkieren\" (parken), \"grillieren\" (grillen), \"campieren\" (campen). Others are different words altogether: \"zügeln\" means to move house (umziehen). Some genders differ: \"das Tram\" (die Straßenbahn / die Tram), \"der Match\" (das Match / das Spiel), \"das Mail\" (die E-Mail), \"der Final\" (das Finale).",
           "French loans are frequent: \"das Velo\" (Fahrrad), \"das Trottoir\" (Bürgersteig), \"der Perron\" (Bahnsteig), \"merci\" (danke, very common in speech, often \"merci vielmal\"), \"Exgüsi\" (Entschuldigung, from excusez). Other everyday words: \"das Spital\" (Krankenhaus, also Austrian), \"der Estrich\" (Dachboden), \"die Matura\" (Abitur), \"allfällig\" (eventuell, in official language), \"die Pendenz\" (an open task).",
           "Greetings: \"Grüezi\" (hello, to one person you say Sie to), \"Grüezi mitenand\" (to several), \"Hoi\" or \"Sali\" (hi, informal), \"Uf Wiederluege\" (goodbye), \"Tschüss\" or \"Ciao\" (bye). With friends: \"Hoi zäme\" (hi all).",
         ],
@@ -900,8 +900,8 @@ export const DE_C1_U14: Lesson[] = [
         heading: "Grammar and greetings",
         body: [
           "The grammatical transformation is small but telling: \"habe gesessen / gestanden / gelegen\" → \"bin gesessen / gestanden / gelegen\", and Präteritum narratives → Perfekt (\"Wir gingen ins Kino\" → \"Wir sind ins Kino gegangen\"). Genders: \"die E-Mail\" → \"das E-Mail\", \"die Cola\" → \"das Cola\".",
-          "Greetings and fillers: \"Guten Tag\" → \"Grüß Gott\", \"Hallo\" → \"Servus\" or \"Grüß dich\", \"Tschüss\" → \"Baba\" or \"Servus\", \"Na?\" → \"Na, wie geht's?\". \"Oder?\" as a tag question is common everywhere in the south; Austrians also use \"gell?\" (or \"gö?\" in Vienna).",
-          "Going back, from Vienna to Berlin, is the same chain in reverse. Don't overdo it: a German Standard German text with \"Grüß Gott\" and \"Jänner\" is perfectly understandable in Vienna.",
+          "Greetings and fillers: \"Guten Tag\" → \"Grüß Gott\", \"Hallo\" → \"Servus\" or \"Grüß dich\", \"Tschüss\" → \"Baba\" or \"Servus\". \"Oder?\" as a tag question is common everywhere in the south; Austrians also use \"gell?\" (or \"gö?\" in Vienna).",
+          "Going back, from Vienna to Berlin, is the same chain in reverse. Don't overdo it in either direction: a text in German Standard German is perfectly understandable in Vienna, and a few local words such as \"Grüß Gott\" or \"Jänner\" are a friendly touch, not a must.",
         ],
         examples: [
           { es: "Ich habe den ganzen Tag gelegen. → Ich bin den ganzen Tag gelegen.", en: "I was lying down all day." },
@@ -1769,8 +1769,8 @@ export const DE_C1_U14: Lesson[] = [
         prompt: "Translate into standard German.",
         source: "I know that anyway.",
         answer: "Das weiß ich sowieso.",
-        altAnswers: ["Das weiß ich eh.", "Das weiß ich ohnehin.", "Ich weiß das sowieso.", "Ich weiß das eh."],
-        explanation: "Austrian \"eh\" = \"sowieso\" / \"ohnehin\" (anyway); \"eh\" is also common in southern Germany.",
+        altAnswers: ["Das weiß ich ohnehin.", "Ich weiß das sowieso.", "Ich weiß das ohnehin.", "Das weiß ich doch sowieso."],
+        explanation: "Austrian \"eh\" = \"sowieso\" / \"ohnehin\" (anyway). \"Eh\" is also heard in casual speech in southern Germany, but it is not the standard word.",
       },
       {
         type: "multiple-choice",
@@ -1792,8 +1792,8 @@ export const DE_C1_U14: Lesson[] = [
         prompt: "Translate into standard German.",
         source: "Bye, see you tomorrow at the pub!",
         answer: "Tschüss, bis morgen in der Kneipe!",
-        altAnswers: ["Tschüs, bis morgen in der Kneipe!", "Tschüss, bis morgen im Lokal!", "Tschüss, bis morgen im Beisl!", "Ciao, bis morgen in der Kneipe!", "Servus, bis morgen im Beisl!", "Baba, bis morgen im Beisl!"],
-        explanation: "\"Tschüss\" is fine in Vienna too; \"Servus\" or \"Baba\" sound local.",
+        altAnswers: ["Tschüs, bis morgen in der Kneipe!", "Tschüss, bis morgen im Lokal!", "Tschüss, bis morgen im Beisl!", "Ciao, bis morgen in der Kneipe!"],
+        explanation: "\"Tschüss\" is standard and fine in Vienna too; Andi's \"Servus\" or \"Baba\" (and \"Beisl\") are the local Austrian versions.",
       },
       {
         type: "translate",
@@ -1854,7 +1854,7 @@ export const DE_C1_U14: Lesson[] = [
             prompt: "Translate into German as a customer in a Berlin bakery would say it.",
             source: "Two bread rolls and a jam doughnut, please.",
             answer: "Zwei Schrippen und einen Pfannkuchen, bitte.",
-            altAnswers: ["Zwei Schrippen und 'n Pfannkuchen, bitte.", "Zwei Schrippen und nen Pfannkuchen, bitte.", "Zwei Schrippen und einen Berliner, bitte.", "Zwei Schrippen und einen Pfannkuchen bitte."],
+            altAnswers: ["Zwei Schrippen und 'n Pfannkuchen, bitte.", "Zwei Schrippen und nen Pfannkuchen, bitte.", "Zwei Schrippen und einen Pfannkuchen bitte."],
             explanation: "Berlin: \"Schrippe\" for the roll and \"Pfannkuchen\" for the jam doughnut that the rest of Germany calls \"Berliner\".",
           },
           {
@@ -2036,7 +2036,7 @@ export const DE_C1_U14: Lesson[] = [
         heading: "Germany: public broadcasters",
         body: [
           "Germany's public broadcasters are funded by a household fee (\"der Rundfunkbeitrag\"). The ARD network runs \"Das Erste\" and its evening news \"die Tagesschau\" at 8 p.m., the most-watched news programme in the country; ZDF has \"heute\" and \"heute journal\". Deutschlandfunk (DLF) is the national public radio for news and culture, with long interviews in clear standard German.",
-          "Deutsche Welle (DW), the international broadcaster, has a whole learning section: \"Langsam gesprochene Nachrichten\" (news read slowly), \"Top-Thema\" with vocabulary lists, and \"Nicos Weg\". At the Advanced level, the normal-speed Tagesschau and DLF podcasts are your best training ground; the \"Tagesschau in 100 Sekunden\" is a quick daily option.",
+          "Deutsche Welle (DW), the international broadcaster, has a whole learning section: \"Langsam gesprochene Nachrichten\" (news read slowly), \"Top-Thema\" with vocabulary lists, and \"Nicos Weg\". At the Advanced level, the normal-speed \"Tagesschau\" and DLF podcasts are your best training ground; the \"Tagesschau in 100 Sekunden\" is a quick daily option.",
           "Regional broadcasters (NDR, WDR, BR, MDR, SWR) carry regional accents and local topics. BR in Bavaria or MDR in Saxony is a good way to get used to regional standard.",
         ],
         examples: [
@@ -2644,18 +2644,18 @@ export const DE_C1_U14: Lesson[] = [
           "In Bavaria and Austria, \"Grüß Gott\" is fine with everyone; in Berlin it sounds touristy, and in Hamburg you'd say \"Moin\" or \"Guten Tag\".",
         ],
         examples: [
-          { es: "Grüezi, Frau Meier, wie geht es Ihnen?", en: "Hello, Mrs Meier, how are you? (Switzerland, Sie)" },
+          { es: "Grüezi, Frau Meier, wie geht es Ihnen?", en: "Hello, Ms Meier, how are you? (Switzerland, Sie)" },
           { es: "Hoi Nina, wie geht's?", en: "Hi Nina, how are you? (Switzerland, du)" },
           { es: "Servus, Max, alles gut bei dir?", en: "Hi Max, all good with you? (Austria, du)" },
           { es: "Grüß Gott, Herr Magister, haben Sie kurz Zeit?", en: "Hello, sir, do you have a moment? (Austria, Sie, with a title)" },
-          { es: "Moin, Frau Petersen, was kann ich für Sie tun?", en: "Morning, Mrs Petersen, what can I do for you? (north, Sie)" },
+          { es: "Moin, Frau Petersen, was kann ich für Sie tun?", en: "Morning, Ms Petersen, what can I do for you? (north, Sie)" },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Swiss Standard German (to an older neighbour you say Sie to).",
-            source: "Hello, Mrs Meier, how are you?",
+            source: "Hello, Ms Meier, how are you?",
             answer: "Grüezi, Frau Meier, wie geht es Ihnen?",
             altAnswers: ["Grüezi Frau Meier, wie geht es Ihnen?", "Grüezi, Frau Meier, wie geht's Ihnen?", "Grüezi Frau Meier, wie geht's Ihnen?"],
             explanation: "\"Grüezi\" goes with Sie; \"Ihnen\" is the dative of polite Sie.",
@@ -2824,7 +2824,7 @@ export const DE_C1_U14: Lesson[] = [
       {
         type: "speak",
         text: "Grüezi, Frau Meier, wie geht es Ihnen?",
-        prompt: "Greet your older Swiss neighbour, Mrs Meier, politely and ask how she is.",
+        prompt: "Greet your older Swiss neighbour, Ms Meier, politely and ask how she is.",
         explanation: "\"Grüezi\" with Sie and \"Ihnen\".",
       },
     ],

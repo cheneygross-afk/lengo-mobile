@@ -8,7 +8,7 @@ export const DE_B1_U18: Lesson[] = [
     level: "DE-B1",
     number: 1,
     title: "Intermediate Vocabulary Practice, Part 7 of 10",
-    summary: "High-frequency Intermediate vocabulary for travel, hotels and complaining about service.",
+    summary: "Book and cancel a hotel room, complain about problems and talk about train connections with key B1 words (\"stornieren\", \"verpassen\", \"die Erstattung\").",
     duration: "14 min",
     sections: [
       {
@@ -48,7 +48,7 @@ export const DE_B1_U18: Lesson[] = [
       {
         heading: "When things go wrong",
         body: [
-          "Complaints use \"sich beschweren über\" + Akk (\"Ich möchte mich über den Lärm beschweren\"), \"die Beschwerde\" (the complaint), \"funktionieren\" (\"Die Klimaanlage funktioniert nicht\"), \"kaputt\", \"schmutzig\", \"laut\", \"der Mangel\" (defect), \"die Erstattung\" (refund), \"erstatten\", \"der Ersatz\" (replacement), \"der Ärger\" (trouble, annoyance).",
+          "Complaints use \"sich beschweren über\" + accusative (\"Ich möchte mich über den Lärm beschweren\"), \"die Beschwerde\" (the complaint), \"funktionieren\" (\"Die Klimaanlage funktioniert nicht\"), \"kaputt\", \"schmutzig\", \"laut\", \"der Mangel\" (defect), \"die Erstattung\" (refund), \"erstatten\", \"der Ersatz\" (replacement), \"der Ärger\" (trouble, annoyance).",
           "Polite Konjunktiv II makes a complaint more effective: \"Könnten Sie bitte jemanden schicken?\", \"Ich hätte gern ein anderes Zimmer\", \"Wäre es möglich, ...?\".",
           "False friend: \"die Rezeption\" is the hotel's front desk; a reception party is \"der Empfang\".",
         ],
@@ -229,7 +229,7 @@ export const DE_B1_U18: Lesson[] = [
     level: "DE-B1",
     number: 2,
     title: "Quick Round: Where Does the Verb Go?",
-    summary: "Rapid word-order decisions: verb second after adverbs and fronted clauses, verb last in subordinate and relative clauses, zu-infinitive last.",
+    summary: "Decide quickly where the verb goes: second after an adverb or a fronted clause, last in subordinate and relative clauses, and the zu-infinitive at the end.",
     duration: "12 min",
     sections: [
       {
@@ -253,6 +253,7 @@ export const DE_B1_U18: Lesson[] = [
             prompt: "Put the words in order to say: When we arrived, the hotel was full.",
             words: ["Als", "wir", "ankamen,", "war", "das", "Hotel", "voll."],
             translation: "When we arrived, the hotel was full.",
+            altOrders: [["Das", "Hotel", "war", "voll,", "als", "wir", "ankamen."]],
             explanation: "Verb last in the als-clause (\"ankamen\"), then the main-clause verb \"war\" straight after the comma.",
           },
           {
@@ -377,14 +378,14 @@ export const DE_B1_U18: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say: Tomorrow I'm going to Cologne?",
         options: ["Morgen fahre ich nach Köln.", "Morgen ich fahre nach Köln.", "Morgen fahre nach Köln ich.", "Ich morgen fahre nach Köln."],
         correctIndex: 0,
         explanation: "Verb second: \"Morgen fahre ich\".",
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say: I think that he'll come tomorrow?",
         options: ["Ich glaube, dass er morgen kommen wird.", "Ich glaube, dass er wird morgen kommen.", "Ich glaube, dass er morgen wird kommen.", "Ich glaube, dass wird er morgen kommen."],
         correctIndex: 0,
         explanation: "In the dass-clause the conjugated \"wird\" comes last, after the infinitive.",
@@ -651,7 +652,7 @@ export const DE_B1_U18: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "You should rest. (polite)",
+            source: "You should rest. (formal)",
             answer: "Sie sollten sich ausruhen.",
             altAnswers: ["Sie sollten sich schonen."],
             explanation: "\"Sollten\" + reflexive infinitive at the end.",
@@ -708,7 +709,7 @@ export const DE_B1_U18: Lesson[] = [
         prompt: "Translate into German.",
         source: "Take the tablets after meals.",
         answer: "Nehmen Sie die Tabletten nach dem Essen.",
-        altAnswers: ["Nimm die Tabletten nach dem Essen.", "Nehmen Sie die Tabletten nach den Mahlzeiten."],
+        altAnswers: ["Nimm die Tabletten nach dem Essen.", "Nehmt die Tabletten nach dem Essen.", "Nehmen Sie die Tabletten nach den Mahlzeiten."],
         explanation: "Sie-imperative; \"nach dem Essen\" = after meals.",
       },
       {
@@ -758,7 +759,7 @@ export const DE_B1_U18: Lesson[] = [
       {
         type: "speak",
         text: "Sie sollten sich ein paar Tage ausruhen.",
-        prompt: "Say it in German: You should rest for a few days. (polite)",
+        prompt: "Say it in German: You should rest for a few days. (formal)",
         tip: "\"Ausruhen\": au like ow, then a long u.",
         explanation: "\"Sollten\" + reflexive separable verb at the end.",
       },
@@ -778,7 +779,7 @@ export const DE_B1_U18: Lesson[] = [
     level: "DE-B1",
     number: 5,
     title: "Themed Review: The Family Reunion",
-    summary: "A big family gathering, with relatives, als-clauses, da-compounds and Konjunktiv II wishes.",
+    summary: "Talk about a family reunion: name relatives, tell past events with \"als\" and \"wenn\", share memories with da-compounds and make wishes in the Konjunktiv II.",
     duration: "14 min",
     sections: [
       {
@@ -909,7 +910,7 @@ export const DE_B1_U18: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say: When we were children, we often played in the garden?",
         options: ["Als wir Kinder waren, spielten wir oft im Garten.", "Wenn wir Kinder waren, spielten wir oft im Garten.", "Wann wir Kinder waren, spielten wir oft im Garten.", "Als wir Kinder waren, wir spielten oft im Garten."],
         correctIndex: 0,
         explanation: "A past period counts as one time: \"als\"; verb first in the main clause.",

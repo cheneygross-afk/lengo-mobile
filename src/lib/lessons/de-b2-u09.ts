@@ -8,7 +8,7 @@ export const DE_B2_U09: Lesson[] = [
     level: "DE-B2",
     number: 1,
     title: "Nominal Style, Part 1 of 2: Nominalisierung",
-    summary: "Turn verbs into nouns (liefern → die Lieferung, ankommen → die Ankunft), subjects into genitives (die Ankunft des Zuges) and clauses into phrases (wegen des starken Regens).",
+    summary: "Turn verbs into nouns (\"liefern\" → \"die Lieferung\", \"ankommen\" → \"die Ankunft\"), subjects into genitives (\"die Ankunft des Zuges\") and clauses into phrases (\"wegen des starken Regens\").",
     duration: "17 min",
     sections: [
       {
@@ -229,7 +229,7 @@ export const DE_B2_U09: Lesson[] = [
     level: "DE-B2",
     number: 2,
     title: "Pattern Practice: Der Zug kommt an → Die Ankunft des Zuges",
-    summary: "Drill one transformation with many verbs: das Gebäude wird eröffnet → die Eröffnung des Gebäudes, er reist ab → seine Abreise; genitive endings.",
+    summary: "Drill one transformation with many verbs: \"das Gebäude wird eröffnet\" → \"die Eröffnung des Gebäudes\", \"er reist ab\" → \"seine Abreise\"; genitive endings.",
     duration: "14 min",
     sections: [
       {
@@ -237,7 +237,7 @@ export const DE_B2_U09: Lesson[] = [
         body: [
           "The genitive of masculine and neuter nouns is \"des\" + noun + -s or -es: \"des Zuges\", \"des Gebäudes\", \"des Projekts\", \"des Vertrags\". Use -es with one-syllable nouns (often optional: \"des Zugs\" is also fine) and always after s, ß, x, z: \"des Hauses\", \"des Fußes\", \"des Platzes\". Use -s with longer nouns and nouns ending in -e: \"des Gebäudes\", \"des Bahnhofs\", \"des Unternehmens\".",
           "Weak masculine nouns take -n / -en instead: \"des Kunden\", \"des Kollegen\", \"des Studenten\", \"des Präsidenten\". These are the same nouns that take -n in the accusative and dative.",
-          "Pattern: \"Das Gebäude wird eröffnet\" → \"die Eröffnung des Gebäudes\". \"Der Vertrag wird unterschrieben\" → \"die Unterzeichnung des Vertrags\". \"Der Kunde beschwert sich\" → \"die Beschwerde des Kunden\".",
+          "Pattern: \"Das Gebäude wird eröffnet\" → \"die Eröffnung des Gebäudes\". \"Der Vertrag wird unterzeichnet\" → \"die Unterzeichnung des Vertrags\". \"Der Kunde beschwert sich\" → \"die Beschwerde des Kunden\".",
         ],
         examples: [
           { es: "die Eröffnung des Gebäudes", en: "the opening of the building" },
@@ -270,7 +270,7 @@ export const DE_B2_U09: Lesson[] = [
         heading: "Feminine and plural: der, no ending",
         body: [
           "Feminine and plural nouns take \"der\" in the genitive and no ending on the noun: \"die Preise steigen\" → \"der Anstieg der Preise\"; \"die Stadt plant\" → \"die Planung der Stadt\"; \"die Mitarbeiter streiken\" → \"der Streik der Mitarbeiter\".",
-          "Without an article in the plural, the genitive is invisible, so German uses \"von\" + Dativ: \"der Anstieg von Preisen\" (not \"*der Anstieg Preise\"). Or add an adjective: \"der Anstieg hoher Preise\" (the adjective shows the genitive).",
+          "Without an article in the plural, the genitive is invisible, so German uses \"von\" + Dativ: \"der Anstieg von Preisen\" (not \"*der Anstieg Preise*\"). Or add an adjective: \"der Anstieg hoher Preise\" (the adjective shows the genitive).",
           "Possessives replace pronoun subjects: \"er reist ab\" → \"seine Abreise\"; \"wir kommen an\" → \"unsere Ankunft\"; \"sie bewirbt sich\" → \"ihre Bewerbung\".",
         ],
         examples: [
@@ -611,7 +611,7 @@ export const DE_B2_U09: Lesson[] = [
     level: "DE-B2",
     number: 4,
     title: "Minimal Pairs: Das Lesen / Die Lesung / Der Leser",
-    summary: "The infinitive noun is the activity (das Lesen), -ung is an event or result (die Lesung), -er is the person (der Leser); also das Rauchen / der Rauch, das Wohnen / die Wohnung.",
+    summary: "The infinitive noun is the activity (\"das Lesen\"), -ung is an event or result (\"die Lesung\"), -er is the person (\"der Leser\"); also \"das Rauchen\" / \"der Rauch\", \"das Wohnen\" / \"die Wohnung\".",
     duration: "14 min",
     sections: [
       {
@@ -695,7 +695,7 @@ export const DE_B2_U09: Lesson[] = [
         heading: "People: -er, -erin and participle nouns",
         body: [
           "The -er suffix makes the person who does something: \"lesen → der Leser\", \"fahren → der Fahrer\", \"besuchen → der Besucher\", \"verkaufen → der Verkäufer\" (with umlaut). The feminine adds -in: \"die Leserin\", \"die Fahrerin\". Plural masculine -er nouns don't change: \"die Leser\".",
-          "Some people are expressed with participle nouns instead (Unit 8): \"der Reisende\" (not \"*der Reiser\"), \"der Vorsitzende\". And some with other forms: \"der Teilnehmer\" (participant), \"der Bewerber\" (applicant, from sich bewerben).",
+          "Some people are expressed with participle nouns instead (Unit 8): \"der Reisende\" (not \"*der Reiser*\"), \"der Vorsitzende\". And some with other forms: \"der Teilnehmer\" (participant), \"der Bewerber\" (applicant, from sich bewerben).",
           "In nominal style, people often appear as genitives: \"die Zahl der Besucher\" (the number of visitors), \"die Zufriedenheit der Leser\" (reader satisfaction).",
         ],
         examples: [
@@ -829,7 +829,7 @@ export const DE_B2_U09: Lesson[] = [
     level: "DE-B2",
     number: 5,
     title: "Circuit: Weil → Wegen, Als → Bei, Nachdem → Nach",
-    summary: "A rotating drill of conjunction-to-preposition pairs: als er ankam → bei seiner Ankunft, nachdem sie abgeschlossen hatte → nach Abschluss, obwohl es kalt war → trotz der Kälte.",
+    summary: "A rotating drill of conjunction-to-preposition pairs: \"als er ankam\" → \"bei seiner Ankunft\", \"nachdem sie abgeschlossen hatte\" → \"nach Abschluss\", \"obwohl es kalt war\" → \"trotz der Kälte\".",
     duration: "16 min",
     sections: [
       {
@@ -1224,7 +1224,7 @@ export const DE_B2_U09: Lesson[] = [
     level: "DE-B2",
     number: 7,
     title: "Story with Gaps: Der Jahresbericht des Vereins",
-    summary: "A sports club's annual report: fill in nominalisations, genitives and prepositions (Nach der Renovierung des Vereinsheims ..., Trotz des Rückgangs der Mitgliederzahlen ...).",
+    summary: "A sports club's annual report: fill in nominalisations, genitives and prepositions (\"Nach der Renovierung des Vereinsheims ...\", \"Trotz des Rückgangs der Mitgliederzahlen ...\").",
     duration: "15 min",
     sections: [
       {
@@ -1395,7 +1395,7 @@ export const DE_B2_U09: Lesson[] = [
     level: "DE-B2",
     number: 8,
     title: "Quick Round: Der, Die or Das?",
-    summary: "The gender of nominalised verbs in a fast round: die Entscheidung, das Schwimmen, der Besuch, die Abfahrt, der Verlust, die Zunahme, das Ergebnis.",
+    summary: "The gender of nominalised verbs in a fast round: \"die Entscheidung\", \"das Schwimmen\", \"der Besuch\", \"die Abfahrt\", \"der Verlust\", \"die Zunahme\", \"das Ergebnis\".",
     duration: "12 min",
     sections: [
       {
@@ -1563,7 +1563,7 @@ export const DE_B2_U09: Lesson[] = [
     level: "DE-B2",
     number: 9,
     title: "Nominal Style, Part 2 of 2: Verbalisierung",
-    summary: "Unpack noun phrases for clear speech and writing: bei Nichtbeachtung → wenn man nicht beachtet, zur Vermeidung von → damit es keine ... gibt, durch regelmäßiges Üben → indem man übt.",
+    summary: "Unpack noun phrases for clear speech and writing: \"bei Nichtbeachtung\" → \"wenn man nicht beachtet\", \"zur Vermeidung von\" → \"damit es keine ... gibt\", \"durch regelmäßiges Üben\" → \"indem man übt\".",
     duration: "17 min",
     sections: [
       {
@@ -1785,7 +1785,7 @@ export const DE_B2_U09: Lesson[] = [
     level: "DE-B2",
     number: 10,
     title: "Transformations: Unpack the Noun Phrase",
-    summary: "Turn bureaucratic sentences from letters and notices into everyday German, choosing the right conjunction: weil, wenn, nachdem, damit, indem, obwohl.",
+    summary: "Turn bureaucratic sentences from letters and notices into everyday German, choosing the right conjunction: \"weil\", \"wenn\", \"nachdem\", \"damit\", \"indem\", \"obwohl\".",
     duration: "15 min",
     sections: [
       {
@@ -1954,7 +1954,7 @@ export const DE_B2_U09: Lesson[] = [
     level: "DE-B2",
     number: 11,
     title: "Talk About Yourself: Dein Arbeitsalltag in Stichpunkten",
-    summary: "Present your work or study routine in note form (Planung von Projekten, Betreuung von Kunden) and then explain it in full sentences, as in a Lebenslauf and an interview.",
+    summary: "Present your work or study routine in note form (\"Planung von Projekten\", \"Betreuung von Kunden\") and then explain it in full sentences, as in a Lebenslauf and an interview.",
     duration: "15 min",
     sections: [
       {
@@ -2296,15 +2296,15 @@ export const DE_B2_U09: Lesson[] = [
     level: "DE-B2",
     number: 13,
     title: "Error Hunt: Nominal Style",
-    summary: "Correct and explain: wegen dem Regen in formal writing, die Ankunft von dem Zug, nach er angekommen ist, trotz es regnete, das Entscheidung, bei seine Ankunft.",
+    summary: "Correct and explain: \"wegen dem Regen\" in formal writing, \"die Ankunft von dem Zug\", \"*nach er angekommen ist*\", \"*trotz es regnete*\", \"*das Entscheidung*\", \"*bei seine Ankunft*\".",
     duration: "14 min",
     sections: [
       {
         heading: "Errors with cases",
         body: [
-          "Error 1: \"*Wegen dem Regen fiel das Spiel aus\" in a written report. In speech the dative after \"wegen\" is very common and accepted, but formal writing needs the genitive: \"Wegen des Regens fiel das Spiel aus.\" Same for \"trotz\": \"trotz des Regens\".",
-          "Error 2: \"*die Ankunft von dem Zug\". When the noun has an article, use the genitive: \"die Ankunft des Zuges\". \"Von\" + Dativ is only needed when the genitive is invisible (plural without article: \"die Ankunft von Flüchtlingen\") or with names in speech (\"die Wohnung von Paul\" = \"Pauls Wohnung\").",
-          "Error 3: \"*bei seine Ankunft\". \"Bei\" takes the dative: \"bei seiner Ankunft\". Similarly \"nach\", \"vor\", \"seit\", \"zu\" + Dativ; \"durch\" + Akkusativ; \"wegen\", \"trotz\", \"während\", \"aufgrund\" + Genitiv.",
+          "Error 1: \"*Wegen dem Regen fiel das Spiel aus*\" in a written report. In speech the dative after \"wegen\" is very common and accepted, but formal writing needs the genitive: \"Wegen des Regens fiel das Spiel aus.\" Same for \"trotz\": \"trotz des Regens\".",
+          "Error 2: \"*die Ankunft von dem Zug*\". When the noun has an article, use the genitive: \"die Ankunft des Zuges\". \"Von\" + Dativ is only needed when the genitive is invisible (plural without article: \"die Ankunft von Flüchtlingen\") or with names in speech (\"die Wohnung von Paul\" = \"Pauls Wohnung\").",
+          "Error 3: \"*bei seine Ankunft*\". \"Bei\" takes the dative: \"bei seiner Ankunft\". Similarly \"nach\", \"vor\", \"seit\", \"zu\" + Dativ; \"durch\" + Akkusativ; \"wegen\", \"trotz\", \"während\", \"aufgrund\" + Genitiv.",
         ],
         examples: [
           { es: "Wegen des Regens fiel das Spiel aus.", en: "Because of the rain the match was cancelled." },
@@ -2317,7 +2317,7 @@ export const DE_B2_U09: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Correct the error in \"*bei seine Ankunft\". Write: When he arrived it was already dark.",
+            prompt: "Correct the error in \"*bei seine Ankunft*\". Write: When he arrived it was already dark.",
             source: "When he arrived it was already dark.",
             answer: "Bei seiner Ankunft war es schon dunkel.",
             altAnswers: ["Als er ankam, war es schon dunkel.", "Bei seiner Ankunft war es bereits dunkel."],
@@ -2325,7 +2325,7 @@ export const DE_B2_U09: Lesson[] = [
           },
           {
             type: "fill-blank",
-            prompt: "Correct the error in \"*die Ankunft von dem Zug\". Write the German for the bold words.",
+            prompt: "Correct the error in \"*die Ankunft von dem Zug*\". Write the German for the bold words.",
             en: "the arrival [of the train]",
             sentence: "die Ankunft ___",
             answer: "des Zuges",
@@ -2337,9 +2337,9 @@ export const DE_B2_U09: Lesson[] = [
       {
         heading: "Mixing conjunctions and prepositions",
         body: [
-          "Error 4: \"*nach er angekommen ist\". \"Nach\" is a preposition and needs a noun; the conjunction is \"nachdem\": \"Nachdem er angekommen ist\" or \"Nach seiner Ankunft\". English after is both, which causes the confusion.",
-          "Error 5: \"*trotz es regnete\". \"Trotz\" is a preposition; the conjunction is \"obwohl\": \"Obwohl es regnete\" or \"Trotz des Regens\". The same trap: \"*wegen es regnete\" (→ weil), \"*während des er schlief\" (→ während er schlief: here während is both).",
-          "Error 6: \"*das Entscheidung\". All -ung nouns are feminine: \"die Entscheidung\". Learners pick \"das\" because the infinitive noun \"das Entscheiden\" exists. Check the ending!",
+          "Error 4: \"*nach er angekommen ist*\". \"Nach\" is a preposition and needs a noun; the conjunction is \"nachdem\": \"Nachdem er angekommen ist\" or \"Nach seiner Ankunft\". English after is both, which causes the confusion.",
+          "Error 5: \"*trotz es regnete*\". \"Trotz\" is a preposition; the conjunction is \"obwohl\": \"Obwohl es regnete\" or \"Trotz des Regens\". The same trap: \"*wegen es regnete*\" (→ weil), \"*während des er schlief*\" (→ während er schlief: here während is both).",
+          "Error 6: \"*das Entscheidung*\". All -ung nouns are feminine: \"die Entscheidung\". Learners pick \"das\" because the infinitive noun \"das Entscheiden\" exists. Check the ending!",
         ],
         examples: [
           { es: "Nachdem er angekommen ist, rufen wir dich an.", en: "After he's arrived, we'll call you." },
@@ -2352,7 +2352,7 @@ export const DE_B2_U09: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Correct \"*trotz es regnete\". Write: Although it was raining, we went for a walk.",
+            prompt: "Correct \"*trotz es regnete*\". Write: Although it was raining, we went for a walk.",
             source: "Although it was raining, we went for a walk.",
             answer: "Obwohl es regnete, gingen wir spazieren.",
             altAnswers: ["Obwohl es geregnet hat, sind wir spazieren gegangen.", "Trotz des Regens gingen wir spazieren.", "Obwohl es regnete, sind wir spazieren gegangen."],
@@ -2360,7 +2360,7 @@ export const DE_B2_U09: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is correct?",
+            question: "Choose the German for: After he's arrived, we'll call you.",
             options: ["Nachdem er angekommen ist, rufen wir dich an.", "Nach er angekommen ist, rufen wir dich an.", "Nach dem er angekommen ist, rufen wir dich an.", "Nachdem seiner Ankunft rufen wir dich an."],
             correctIndex: 0,
             explanation: "Conjunction \"nachdem\" + clause; preposition \"nach\" + noun.",
@@ -2380,7 +2380,7 @@ export const DE_B2_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct \"*Wegen dem Regen ...\" for a written report. Write: Because of the rain the match was cancelled.",
+        prompt: "Correct \"*Wegen dem Regen ...*\" for a written report. Write: Because of the rain the match was cancelled.",
         source: "Because of the rain the match was cancelled.",
         answer: "Wegen des Regens fiel das Spiel aus.",
         altAnswers: ["Wegen des Regens ist das Spiel ausgefallen.", "Wegen des Regens wurde das Spiel abgesagt.", "Aufgrund des Regens fiel das Spiel aus."],
@@ -2389,7 +2389,7 @@ export const DE_B2_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct \"*nach er angekommen ist\". Write: After his arrival we'll call you.",
+        prompt: "Correct \"*nach er angekommen ist*\". Write: After his arrival we'll call you.",
         source: "After his arrival we'll call you.",
         answer: "Nach seiner Ankunft rufen wir dich an.",
         altAnswers: ["Nach seiner Ankunft rufen wir Sie an.", "Nach seiner Ankunft rufen wir euch an.", "Nachdem er angekommen ist, rufen wir dich an.", "Nachdem er angekommen ist, rufen wir Sie an.", "Nachdem er angekommen ist, rufen wir euch an."],
@@ -2398,7 +2398,7 @@ export const DE_B2_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct \"*das Entscheidung\". Write: The decision was right.",
+        prompt: "Correct \"*das Entscheidung*\". Write: The decision was right.",
         source: "The decision was right.",
         answer: "Die Entscheidung war richtig.",
         explanation: "-ung = feminine.",
@@ -2419,7 +2419,7 @@ export const DE_B2_U09: Lesson[] = [
         source: "Because it was raining, we stayed at home.",
         answer: "Weil es regnete, blieben wir zu Hause.",
         altAnswers: ["Weil es geregnet hat, sind wir zu Hause geblieben.", "Wegen des Regens blieben wir zu Hause.", "Wegen des Regens sind wir zu Hause geblieben.", "Weil es regnete, blieben wir zuhause."],
-        explanation: "Clause → \"weil\" (not \"*wegen es regnete\"); noun → \"wegen des Regens\".",
+        explanation: "Clause → \"weil\" (not \"*wegen es regnete*\"); noun → \"wegen des Regens\".",
       },
       {
         type: "multiple-choice",
@@ -2457,9 +2457,9 @@ export const DE_B2_U09: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "By regular training he improved.",
+        source: "He improved through regular training.",
         answer: "Durch regelmäßiges Training wurde er besser.",
-        altAnswers: ["Durch regelmäßiges Training hat er sich verbessert.", "Durch regelmäßiges Trainieren wurde er besser."],
+        altAnswers: ["Durch regelmäßiges Training hat er sich verbessert.", "Durch regelmäßiges Trainieren wurde er besser.", "Er wurde durch regelmäßiges Training besser.", "Er hat sich durch regelmäßiges Training verbessert.", "Durch regelmäßiges Training verbesserte er sich."],
         explanation: "\"Durch\" + Akkusativ; neuter without article: -es.",
       },
       {

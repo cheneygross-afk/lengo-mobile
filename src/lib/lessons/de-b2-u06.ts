@@ -8,13 +8,13 @@ export const DE_B2_U06: Lesson[] = [
     level: "DE-B2",
     number: 1,
     title: "Dialogue Lab: Anruf bei der Hausverwaltung",
-    summary: "Follow a tenant's call about broken heating and learn to complain, hear the excuses and insist politely, using the Zustandspassiv and sich lassen.",
+    summary: "Follow a tenant's call about broken heating and learn to complain, hear the excuses and insist politely, using the Zustandspassiv and \"sich lassen\".",
     duration: "15 min",
     sections: [
       {
         heading: "Scene 1: Die Heizung ist immer noch nicht repariert",
         body: [
-          "Lena Wagner rents a flat in a large building in Leipzig. Her heating broke a week ago, she reported it, and nothing has happened. She calls the Hausverwaltung (the property management company that runs the building for the owner). In Germany you rarely deal with the landlord directly; you deal with a Hausverwaltung, and calls like this one are part of everyday life.",
+          "Lena Wagner rents a flat in a large building in Leipzig. Her heating broke a week ago, she reported it, and nothing has happened. She calls the \"Hausverwaltung\" (the property management company that runs the building for the owner). In larger rented buildings in Germany you often deal not with the landlord directly but with a \"Hausverwaltung\", and calls like this one are part of everyday life.",
           "Lena: \"Guten Tag, Wagner hier, Wohnung 12 in der Gohliser Straße. Ich habe letzte Woche einen Schaden gemeldet. Die Heizung ist immer noch nicht repariert!\" Notice the Zustandspassiv from Unit 5: \"ist ... repariert\" describes the state right now (it is not in a repaired state). \"Wird repariert\" would describe the process (it is being repaired), which is exactly what Lena would like to hear.",
           "\"Immer noch nicht\" (still not) is the key complaining phrase. Combined with the Zustandspassiv it is precise and slightly sharp: \"Die Fenster sind immer noch nicht abgedichtet\", \"Der Schaden ist immer noch nicht behoben\". \"Einen Schaden melden\" (to report damage or a fault) and \"einen Schaden beheben\" (to fix it) are the standard verbs.",
         ],
@@ -58,8 +58,8 @@ export const DE_B2_U06: Lesson[] = [
         heading: "Scene 2: Das lässt sich leider nicht vor Montag machen",
         body: [
           "Herr Krüger from the Hausverwaltung answers with the stock phrases of the trade: \"Ja, Frau Wagner, ich weiß. Der Handwerker ist schon bestellt. Aber das lässt sich leider nicht vor Montag machen. Das Ersatzteil ist noch nicht geliefert.\"",
-          "Look at how much passive-like German is in his answer. \"Der Handwerker ist schon bestellt\" (Zustandspassiv: the order has been placed, that's done). \"Das lässt sich nicht vor Montag machen\" (sich lassen = it can't be done before Monday). \"Das Ersatzteil ist noch nicht geliefert\" (the state: not delivered). He never says who does what; that's typical of service language, and it conveniently hides who is responsible.",
-          "Other excuses you will hear: \"Das ist leider nicht zu ändern\" (sein + zu: there's nothing to be done about it), \"Da lässt sich im Moment nichts machen\", \"Der Termin ist schon vergeben\" (the slot is already taken). Recognising these structures tells you whether the other person is describing a fact (ist bestellt), a possibility (lässt sich) or an obligation (ist zu).",
+          "Look at how much passive-like German is in his answer. \"Der Handwerker ist schon bestellt\" (Zustandspassiv: the order has been placed, that's done). \"Das lässt sich nicht vor Montag machen\" (\"sich lassen\" = it can't be done before Monday). \"Das Ersatzteil ist noch nicht geliefert\" (the state: not delivered). He never says who does what; that's typical of service language, and it conveniently hides who is responsible.",
+          "Other excuses you will hear: \"Das ist leider nicht zu ändern\" (\"sein + zu\": there's nothing to be done about it), \"Da lässt sich im Moment nichts machen\", \"Der Termin ist schon vergeben\" (the slot is already taken). Recognising these structures tells you whether the other person is describing a fact (\"ist bestellt\"), a possibility (\"lässt sich\") or an obligation (\"ist zu\").",
         ],
         examples: [
           { es: "Der Handwerker ist schon bestellt.", en: "The repairman has already been booked." },
@@ -92,7 +92,7 @@ export const DE_B2_U06: Lesson[] = [
         heading: "Scene 3: Ich muss darauf bestehen, dass ...",
         body: [
           "Lena is polite but firm: \"Herr Krüger, ich habe ein kleines Kind. Ich muss darauf bestehen, dass die Heizung spätestens morgen repariert wird. Können Sie mir wenigstens einen Heizlüfter zur Verfügung stellen?\" Now she needs the werden-passive, because she is talking about the action that has to happen: \"repariert wird\".",
-          "\"Bestehen auf\" + Akkusativ means to insist on. With a clause you need the da-compound: \"Ich bestehe darauf, dass ...\". Polite softeners: \"Ich muss leider darauf bestehen\", \"Ich erwarte, dass ...\", \"Ich möchte Sie dringend bitten, ...\". Note \"bestehen aus\" means to consist of: a different preposition, a different verb in practice.",
+          "\"Bestehen auf\" + dative (\"auf einer Antwort bestehen\") means to insist on. With a clause you need the da-compound: \"Ich bestehe darauf, dass ...\". Polite softeners: \"Ich muss leider darauf bestehen\", \"Ich erwarte, dass ...\", \"Ich möchte Sie dringend bitten, ...\". Note \"bestehen aus\" means to consist of: a different preposition, a different verb in practice.",
           "Herr Krüger concedes: \"Gut, ich schaue, was sich machen lässt. Ein Heizlüfter lässt sich bestimmt organisieren.\" Lena closes the call by confirming in writing: \"Bitte bestätigen Sie mir das per E-Mail.\" Getting things in writing (\"schriftlich\") is standard practice with a Hausverwaltung.",
         ],
         examples: [
@@ -119,7 +119,7 @@ export const DE_B2_U06: Lesson[] = [
             en: "I'll see what [can] be done.",
             sentence: "Ich schaue, was sich machen ___.",
             answer: "lässt",
-            explanation: "\"Was sich machen lässt\": sich lassen for possibility, with \"lässt\" at the end of the subordinate clause.",
+            explanation: "\"Was sich machen lässt\": \"sich lassen\" for possibility, with \"lässt\" at the end of the subordinate clause.",
           },
           {
             type: "speak",
@@ -206,7 +206,7 @@ export const DE_B2_U06: Lesson[] = [
         question: "What does it mean?",
         options: ["I'll see what can be done.", "I'll see what I have to do.", "I'll let someone else do it.", "I'll see what has been done."],
         correctIndex: 0,
-        explanation: "\"Was sich machen lässt\" = what can be done. Sich lassen expresses possibility, not having someone else do it.",
+        explanation: "\"Was sich machen lässt\" = what can be done. \"Sich lassen\" expresses possibility, not having someone else do it.",
       },
       {
         type: "dictation",
@@ -234,7 +234,7 @@ export const DE_B2_U06: Lesson[] = [
         heading: "Four tools, four meanings",
         body: [
           "In Unit 5 you met several ways to avoid the werden-passive. They are not interchangeable: each one adds its own meaning. Think of them as four tools. \"Man\" + active verb makes a general statement about what people do: \"Hier zahlt man an der Kasse\". \"Sich lassen\" + infinitive says something can be done: \"Das Fenster lässt sich nicht öffnen\" (can't be opened).",
-          "\"Sein + zu\" + infinitive says something must be done, or (with nicht, kaum, leicht) whether it can be done: \"Die Miete ist bis zum Dritten zu zahlen\" (must be paid), \"Das ist kaum zu glauben\" (can hardly be believed). \"Sein + Partizip II\" (Zustandspassiv) says what state something is in now: \"Die Miete ist bezahlt\" (it's paid).",
+          "\"Sein + zu\" + infinitive says something must be done, or (with \"nicht\", \"kaum\", \"leicht\") whether it can be done: \"Die Miete ist bis zum Dritten zu zahlen\" (must be paid), \"Das ist kaum zu glauben\" (can hardly be believed). \"Sein + Partizip II\" (Zustandspassiv) says what state something is in now: \"Die Miete ist bezahlt\" (it's paid).",
           "So four sentences about the rent mean four different things: \"Man zahlt die Miete monatlich\" (a general fact), \"Die Miete lässt sich auch bar zahlen\" (it's possible), \"Die Miete ist bis zum Dritten zu zahlen\" (it must be), \"Die Miete ist bezahlt\" (it's done). Choosing the wrong tool changes the message, which is why this lesson asks you to choose and explain.",
         ],
         examples: [
@@ -253,7 +253,7 @@ export const DE_B2_U06: Lesson[] = [
             source: "The rent must be paid by the third of the month.",
             answer: "Die Miete ist bis zum Dritten des Monats zu zahlen.",
             altAnswers: ["Die Miete ist bis zum Dritten des Monats zu bezahlen.", "Die Miete muss bis zum Dritten des Monats gezahlt werden.", "Die Miete muss bis zum Dritten des Monats bezahlt werden."],
-            explanation: "Obligation in a written rule: \"ist ... zu zahlen\" (= muss gezahlt werden). It does not mean too.",
+            explanation: "Obligation in a written rule: \"ist ... zu zahlen\" (= \"muss gezahlt werden\"). Here \"zu\" does not mean too.",
           },
           {
             type: "multiple-choice",
@@ -295,7 +295,7 @@ export const DE_B2_U06: Lesson[] = [
             question: "What does it mean?",
             options: ["The application must be submitted by Friday.", "The application can be submitted until Friday at the latest, if you like.", "The application was submitted on Friday.", "The application is too late for Friday."],
             correctIndex: 0,
-            explanation: "A deadline with \"sein + zu\" means obligation: must be submitted. \"Einzureichen\": zu sits between prefix and stem.",
+            explanation: "A deadline with \"sein + zu\" means obligation: must be submitted. \"Einzureichen\": \"zu\" sits between prefix and stem.",
           },
           {
             type: "fill-blank",
@@ -312,7 +312,7 @@ export const DE_B2_U06: Lesson[] = [
         body: [
           "Explaining why a wrong choice is wrong is the best test of understanding. Take a house rule: \"Der Müll ist zu trennen\" (rubbish must be separated). With \"sich lassen\" it becomes \"Der Müll lässt sich trennen\": it's possible to separate it, which is no rule at all. With the Zustandspassiv, \"Der Müll ist getrennt\": a description that it's already done. With \"man\": \"Man trennt hier den Müll\": a description of local habits, a soft hint rather than a rule.",
           "\"Man\" is the most flexible tool and fits every register, but it needs a modal to express obligation or possibility: \"Man muss den Müll trennen\", \"Man kann den Müll hier abgeben\". On its own it just states what people do: \"In Deutschland trennt man den Müll\".",
-          "A useful self-check: replace the structure with a form of \"werden\" plus a modal. If \"muss ... werden\" fits, you want \"ist zu\". If \"kann ... werden\" fits, \"lässt sich\" (or \"ist zu\" with nicht / leicht / kaum). If it's already done, the Zustandspassiv. If it describes habits, \"man\".",
+          "A useful self-check: replace the structure with a form of \"werden\" plus a modal. If \"muss ... werden\" fits, you want \"ist zu\". If \"kann ... werden\" fits, \"lässt sich\" (or \"ist zu\" with \"nicht\" / \"leicht\" / \"kaum\"). If it's already done, the Zustandspassiv. If it describes habits, \"man\".",
         ],
         examples: [
           { es: "Der Müll ist zu trennen.", en: "Rubbish must be separated." },
@@ -350,7 +350,7 @@ export const DE_B2_U06: Lesson[] = [
         source: "The window can't be opened.",
         answer: "Das Fenster lässt sich nicht öffnen.",
         altAnswers: ["Das Fenster ist nicht zu öffnen.", "Das Fenster kann nicht geöffnet werden.", "Das Fenster geht nicht auf."],
-        explanation: "Possibility: \"lässt sich nicht öffnen\". With nicht, \"ist nicht zu öffnen\" also means can't.",
+        explanation: "Possibility: \"lässt sich nicht öffnen\". With \"nicht\", \"ist nicht zu öffnen\" also means can't.",
       },
       {
         type: "translate",
@@ -368,7 +368,7 @@ export const DE_B2_U06: Lesson[] = [
         source: "The form must be filled in completely.",
         answer: "Das Formular ist vollständig auszufüllen.",
         altAnswers: ["Das Formular muss vollständig ausgefüllt werden.", "Das Formular ist komplett auszufüllen."],
-        explanation: "Obligation in written instructions: \"ist ... auszufüllen\". With a separable verb, zu goes between prefix and stem.",
+        explanation: "Obligation in written instructions: \"ist ... auszufüllen\". With a separable verb, \"zu\" goes between prefix and stem.",
       },
       {
         type: "translate",
@@ -385,7 +385,7 @@ export const DE_B2_U06: Lesson[] = [
         en: "That can hardly be [believed].",
         sentence: "Das ist kaum zu ___.",
         answer: "glauben",
-        explanation: "\"Kaum zu glauben\": sein + zu with kaum expresses near-impossibility.",
+        explanation: "\"Kaum zu glauben\": \"sein + zu\" with \"kaum\" expresses near-impossibility.",
       },
       {
         type: "translate",
@@ -401,7 +401,7 @@ export const DE_B2_U06: Lesson[] = [
         question: "Which sentence states a general habit rather than a rule, a possibility or a state?",
         options: ["Hier grüßt man sich im Treppenhaus.", "Die Haustür ist ab 22 Uhr abzuschließen.", "Die Haustür lässt sich nur mit dem Chip öffnen.", "Die Haustür ist abgeschlossen."],
         correctIndex: 0,
-        explanation: "\"Man\" + active verb describes what people do. The others: obligation (ist abzuschließen), possibility (lässt sich öffnen), state (ist abgeschlossen).",
+        explanation: "\"Man\" + active verb describes what people do. The others: obligation (\"ist abzuschließen\"), possibility (\"lässt sich öffnen\"), state (\"ist abgeschlossen\").",
       },
       {
         type: "word-order",
@@ -409,7 +409,7 @@ export const DE_B2_U06: Lesson[] = [
         words: ["Die", "Haustür", "ist", "ab", "22", "Uhr", "abzuschließen."],
         translation: "The front door must be locked from 10 p.m.",
         altOrders: [["Ab", "22", "Uhr", "ist", "die", "Haustür", "abzuschließen."]],
-        explanation: "\"Ist ... abzuschließen\": obligation, with zu inside the separable verb \"abschließen\".",
+        explanation: "\"Ist ... abzuschließen\": obligation, with \"zu\" inside the separable verb \"abschließen\".",
       },
       {
         type: "dictation",
@@ -420,7 +420,7 @@ export const DE_B2_U06: Lesson[] = [
         type: "speak",
         text: "Das lässt sich machen, aber das ist nicht zu ändern.",
         prompt: "Say it in German: That can be done, but that can't be changed.",
-        explanation: "Two ways of expressing possibility: \"lässt sich machen\" and, with nicht, \"ist nicht zu ändern\".",
+        explanation: "Two ways of expressing possibility: \"lässt sich machen\" and, with \"nicht\", \"ist nicht zu ändern\".",
       },
     ],
   },
@@ -429,7 +429,7 @@ export const DE_B2_U06: Lesson[] = [
     level: "DE-B2",
     number: 3,
     title: "Fix the Paragraph: Die Gebrauchsanweisung",
-    summary: "Correct a badly translated coffee machine manual: wrong auxiliaries, misplaced zu, ist / wird mix-ups and English-style passives.",
+    summary: "Correct a badly translated coffee machine manual: wrong auxiliaries, misplaced \"zu\", \"ist\" / \"wird\" mix-ups and English-style passives.",
     duration: "15 min",
     sections: [
       {
@@ -437,7 +437,7 @@ export const DE_B2_U06: Lesson[] = [
         body: [
           "A start-up in Stuttgart had its coffee machine manual translated in a hurry. Here is the first paragraph, with five mistakes: \"Vor dem ersten Gebrauch das Gerät muss sein gereinigt. Der Wassertank ist mit frischem Wasser zu füllen auf. Die Maschine lässt sich mit der Taste rechts einschalten zu. Wenn das Wasser heiß geworden ist, das Lämpchen wird grün. Danach ist die Maschine benutzt werden.\"",
           "Manuals (\"die Gebrauchsanweisung\", \"die Bedienungsanleitung\") are full of passive alternatives: \"ist zu\" for instructions, \"lässt sich\" for what the device can do, the werden-passive for processes, and very often bare infinitives as commands: \"Gerät vor dem ersten Gebrauch reinigen\". In this lesson you fix each error and explain why.",
-          "Error 1: \"*Das Gerät muss sein gereinigt\" copies English must be cleaned. German puts the infinitive at the end and uses \"werden\" for an action: \"Das Gerät muss gereinigt werden\". And with \"Vor dem ersten Gebrauch\" in position 1, the verb comes second: \"Vor dem ersten Gebrauch muss das Gerät gereinigt werden.\" Or, in manual style: \"ist das Gerät zu reinigen\".",
+          "Error 1: \"*Das Gerät muss sein gereinigt*\" copies English must be cleaned. German puts the infinitive at the end and uses \"werden\" for an action: \"Das Gerät muss gereinigt werden\". And with \"Vor dem ersten Gebrauch\" in position 1, the verb comes second: \"Vor dem ersten Gebrauch muss das Gerät gereinigt werden.\" Or, in manual style: \"ist das Gerät zu reinigen\".",
         ],
         examples: [
           { es: "Vor dem ersten Gebrauch muss das Gerät gereinigt werden.", en: "Before first use, the appliance must be cleaned." },
@@ -454,11 +454,11 @@ export const DE_B2_U06: Lesson[] = [
             source: "Before first use, the appliance must be cleaned.",
             answer: "Vor dem ersten Gebrauch muss das Gerät gereinigt werden.",
             altAnswers: ["Vor dem ersten Gebrauch ist das Gerät zu reinigen.", "Das Gerät muss vor dem ersten Gebrauch gereinigt werden.", "Das Gerät ist vor dem ersten Gebrauch zu reinigen."],
-            explanation: "Modal + passive infinitive at the end: \"muss ... gereinigt werden\", never \"*muss sein gereinigt\". Verb second after the time phrase.",
+            explanation: "Modal + passive infinitive at the end: \"muss ... gereinigt werden\", never \"*muss sein gereinigt*\". Verb second after the time phrase.",
           },
           {
             type: "multiple-choice",
-            question: "Which is the correct version of \"*Das Gerät muss sein gereinigt\"?",
+            question: "Which is the correct version of \"*Das Gerät muss sein gereinigt*\"?",
             options: ["Das Gerät muss gereinigt werden.", "Das Gerät muss gereinigt sein werden.", "Das Gerät muss werden gereinigt.", "Das Gerät wird gereinigt müssen."],
             correctIndex: 0,
             explanation: "Modal in position 2, then participle + \"werden\" at the end: \"muss gereinigt werden\".",
@@ -468,9 +468,9 @@ export const DE_B2_U06: Lesson[] = [
       {
         heading: "Misplaced zu",
         body: [
-          "Errors 2 and 3 are about \"zu\". \"*Der Wassertank ist mit frischem Wasser zu füllen auf\" splits the separable verb \"auffüllen\" as if it were in a main clause. But with \"zu\" the infinitive stays together and \"zu\" goes inside: \"aufzufüllen\". Correct: \"Der Wassertank ist mit frischem Wasser aufzufüllen.\"",
-          "\"*Die Maschine lässt sich mit der Taste rechts einschalten zu\" adds a \"zu\" that doesn't belong. \"Sich lassen\" takes a bare infinitive, like the modal verbs: \"lässt sich einschalten\". Correct: \"Die Maschine lässt sich mit der Taste rechts einschalten.\"",
-          "Summary: \"sein\" + zu + infinitive (\"ist einzuschalten\") but \"sich lassen\" + infinitive without zu (\"lässt sich einschalten\"). And with separable verbs, \"zu\" goes between prefix and stem as one word: \"auf-zu-füllen\", \"ein-zu-schalten\", \"ab-zu-nehmen\".",
+          "Errors 2 and 3 are about \"zu\". \"*Der Wassertank ist mit frischem Wasser zu füllen auf*\" splits the separable verb \"auffüllen\" as if it were in a main clause. But with \"zu\" the infinitive stays together and \"zu\" goes inside: \"aufzufüllen\". Correct: \"Der Wassertank ist mit frischem Wasser aufzufüllen.\"",
+          "\"*Die Maschine lässt sich mit der Taste rechts einschalten zu*\" adds a \"zu\" that doesn't belong. \"Sich lassen\" takes a bare infinitive, like the modal verbs: \"lässt sich einschalten\". Correct: \"Die Maschine lässt sich mit der Taste rechts einschalten.\"",
+          "Summary: \"sein\" + \"zu\" + infinitive (\"ist einzuschalten\") but \"sich lassen\" + infinitive without \"zu\" (\"lässt sich einschalten\"). And with separable verbs, \"zu\" goes between prefix and stem as one word: \"auf-zu-füllen\", \"ein-zu-schalten\", \"ab-zu-nehmen\".",
         ],
         examples: [
           { es: "Der Wassertank ist mit frischem Wasser aufzufüllen.", en: "The water tank must be filled with fresh water." },
@@ -487,7 +487,7 @@ export const DE_B2_U06: Lesson[] = [
             en: "The water tank [must be filled up] with fresh water.",
             sentence: "Der Wassertank ist mit frischem Wasser ___.",
             answer: "aufzufüllen",
-            explanation: "\"Auffüllen\" is separable, so zu goes inside: \"aufzufüllen\", written as one word.",
+            explanation: "\"Auffüllen\" is separable, so \"zu\" goes inside: \"aufzufüllen\", written as one word.",
           },
           {
             type: "translate",
@@ -496,22 +496,22 @@ export const DE_B2_U06: Lesson[] = [
             source: "The machine can be switched on with the button on the right.",
             answer: "Die Maschine lässt sich mit der Taste rechts einschalten.",
             altAnswers: ["Die Maschine lässt sich mit der rechten Taste einschalten.", "Die Maschine kann mit der Taste rechts eingeschaltet werden.", "Die Maschine kann mit der rechten Taste eingeschaltet werden."],
-            explanation: "\"Sich lassen\" + bare infinitive, no zu: \"lässt sich ... einschalten\".",
+            explanation: "\"Sich lassen\" + bare infinitive, no \"zu\": \"lässt sich ... einschalten\".",
           },
           {
             type: "word-order",
             prompt: "Put the words in order to say: The lid must be removed before cleaning.",
             words: ["Der", "Deckel", "ist", "vor", "dem", "Reinigen", "abzunehmen."],
             translation: "The lid must be removed before cleaning.",
-            explanation: "\"Ist ... abzunehmen\": sein + zu for an instruction, zu inside the separable verb.",
+            explanation: "\"Ist ... abzunehmen\": \"sein + zu\" for an instruction, \"zu\" inside the separable verb.",
           },
         ],
       },
       {
         heading: "Ist or wird, and the passive with a modal",
         body: [
-          "Error 4: \"*Wenn das Wasser heiß geworden ist, das Lämpchen wird grün.\" The verb choice is fine (\"werden\" here is the full verb become), but the word order isn't. After a subordinate clause in position 1, the main clause starts with its verb: \"Wenn das Wasser heiß ist, wird das Lämpchen grün.\" English keeps subject before verb here; German doesn't.",
-          "Error 5: \"*Danach ist die Maschine benutzt werden\" mixes \"ist\" and \"werden\". The intended meaning is possibility (the machine can then be used): \"Danach kann die Maschine benutzt werden\" or \"Danach lässt sich die Maschine benutzen\" or simply \"Danach ist die Maschine betriebsbereit\" (ready for use).",
+          "Error 4: \"*Wenn das Wasser heiß geworden ist, das Lämpchen wird grün.*\" The verb choice is fine (\"werden\" here is the full verb become), but the word order isn't. After a subordinate clause in position 1, the main clause starts with its verb: \"Wenn das Wasser heiß ist, wird das Lämpchen grün.\" English keeps subject before verb here; German doesn't.",
+          "Error 5: \"*Danach ist die Maschine benutzt werden*\" mixes \"ist\" and \"werden\". The intended meaning is possibility (the machine can then be used): \"Danach kann die Maschine benutzt werden\" or \"Danach lässt sich die Maschine benutzen\" or simply \"Danach ist die Maschine betriebsbereit\" (ready for use).",
           "Here is the corrected paragraph: \"Vor dem ersten Gebrauch ist das Gerät zu reinigen. Der Wassertank ist mit frischem Wasser aufzufüllen. Die Maschine lässt sich mit der Taste rechts einschalten. Wenn das Wasser heiß ist, wird das Lämpchen grün. Danach kann die Maschine benutzt werden.\" Notice how it alternates the tools, as real manuals do.",
         ],
         examples: [
@@ -538,7 +538,7 @@ export const DE_B2_U06: Lesson[] = [
             source: "After that, the machine can be used.",
             answer: "Danach kann die Maschine benutzt werden.",
             altAnswers: ["Danach lässt sich die Maschine benutzen.", "Danach kann die Maschine verwendet werden.", "Danach lässt sich die Maschine verwenden.", "Dann kann die Maschine benutzt werden."],
-            explanation: "Modal + passive infinitive: \"kann ... benutzt werden\". \"*Ist ... benutzt werden\" mixes two auxiliaries.",
+            explanation: "Modal + passive infinitive: \"kann ... benutzt werden\". \"*Ist ... benutzt werden*\" mixes two auxiliaries.",
           },
         ],
       },
@@ -560,7 +560,7 @@ export const DE_B2_U06: Lesson[] = [
         source: "The plug must be pulled out after use.",
         answer: "Der Stecker ist nach Gebrauch herauszuziehen.",
         altAnswers: ["Der Stecker muss nach Gebrauch herausgezogen werden.", "Nach Gebrauch ist der Stecker herauszuziehen.", "Nach Gebrauch muss der Stecker herausgezogen werden.", "Nach Gebrauch Stecker herausziehen."],
-        explanation: "\"Herausziehen\" is separable: \"herauszuziehen\" with zu inside.",
+        explanation: "\"Herausziehen\" is separable: \"herauszuziehen\" with \"zu\" inside.",
       },
       {
         type: "fill-blank",
@@ -568,7 +568,7 @@ export const DE_B2_U06: Lesson[] = [
         en: "The milk froth [can] be adjusted with the dial.",
         sentence: "Der Milchschaum ___ sich mit dem Regler einstellen.",
         answer: "lässt",
-        explanation: "\"Lässt sich einstellen\" = can be adjusted; sich lassen takes a bare infinitive.",
+        explanation: "\"Lässt sich einstellen\" = can be adjusted; \"sich lassen\" takes a bare infinitive.",
       },
       {
         type: "multiple-choice",
@@ -624,7 +624,7 @@ export const DE_B2_U06: Lesson[] = [
         text: "Der Wassertank ist mit frischem Wasser aufzufüllen.",
         prompt: "Say it in German, as in a manual: The water tank must be filled with fresh water.",
         tip: "In \"aufzufüllen\" stress the prefix: AUF-zu-fül-len.",
-        explanation: "\"Ist ... aufzufüllen\": sein + zu with zu inside the separable verb.",
+        explanation: "\"Ist ... aufzufüllen\": \"sein + zu\" with \"zu\" inside the separable verb.",
       },
     ],
   },
@@ -639,7 +639,7 @@ export const DE_B2_U06: Lesson[] = [
       {
         heading: "Was ist bei euch zu beachten?",
         body: [
-          "Every German apartment building has a Hausordnung (house rules), and Germans love to talk about it: the Ruhezeiten (quiet hours, often 22 to 6 and sometimes at lunchtime), the Kehrwoche in Swabia (the week when it's your turn to clean the stairs), where bikes and prams go, when rubbish is put out. A natural conversation starter is: \"Was ist bei euch im Haus zu beachten?\" (What do you have to watch out for in your building?).",
+          "Almost every German block of flats has a \"Hausordnung\" (house rules), and Germans love to talk about it: the \"Ruhezeiten\" (quiet hours, often 22 to 6 and sometimes at lunchtime), the \"Kehrwoche\" in Swabia (the week when it's your turn to clean the stairs), where bikes and prams go, when rubbish is put out. A natural conversation starter is: \"Was ist bei euch im Haus zu beachten?\" (What do you have to watch out for in your building?).",
           "To talk about your own rules you can mix all the tools from this unit. The written rule uses \"sein + zu\": \"Die Treppe ist jede Woche zu putzen\". When you speak about it, you'd more often say \"man muss\" or \"wir müssen\": \"Bei uns muss man jede Woche die Treppe putzen\". Both are correct; the first sounds like you are quoting the sign.",
           "\"Beachten\" (to observe, pay attention to) and \"einhalten\" (to keep to) go with rules: \"die Ruhezeiten einhalten\", \"die Hausordnung beachten\". Note the separable \"einhalten\": \"Die Ruhezeiten sind einzuhalten\".",
         ],
@@ -675,7 +675,7 @@ export const DE_B2_U06: Lesson[] = [
         heading: "Was darf man nicht? Erlaubt und verboten",
         body: [
           "For permission and prohibition, German has a full set: \"Man darf (nicht) ...\", \"Es ist (nicht) erlaubt, ... zu ...\", \"Es ist verboten, ... zu ...\", and in writing \"... ist (nicht) gestattet\" or \"... ist untersagt\". Remember \"darf nicht\" = must not, while \"muss nicht\" = doesn't have to. English must not and German \"muss nicht\" are false friends.",
-          "With a noun you can be shorter: \"Rauchen ist im Treppenhaus verboten\", \"Haustiere sind erlaubt\", \"Grillen auf dem Balkon ist nicht gestattet\". These are Zustandspassiv-style sentences (sein + Partizip II), and they describe the rule as a fixed state of affairs.",
+          "With a noun you can be shorter: \"Rauchen ist im Treppenhaus verboten\", \"Haustiere sind erlaubt\", \"Grillen auf dem Balkon ist nicht gestattet\". These are Zustandspassiv-style sentences (\"sein\" + Partizip II), and they describe the rule as a fixed state of affairs.",
           "When you describe your own home, it's natural to add a comment: \"Grillen auf dem Balkon ist eigentlich verboten, aber im Sommer macht es trotzdem jeder\" (actually forbidden, but everyone does it anyway). \"Eigentlich\" is the word Germans use to admit a rule is not followed.",
         ],
         examples: [
@@ -701,7 +701,7 @@ export const DE_B2_U06: Lesson[] = [
             source: "It's not permitted to leave prams in the hallway.",
             answer: "Es ist nicht erlaubt, Kinderwagen im Flur abzustellen.",
             altAnswers: ["Es ist nicht gestattet, Kinderwagen im Flur abzustellen.", "Es ist verboten, Kinderwagen im Flur abzustellen.", "Man darf keine Kinderwagen im Flur abstellen.", "Kinderwagen dürfen nicht im Flur abgestellt werden."],
-            explanation: "\"Es ist nicht erlaubt, ... zu\" + infinitive at the end, with zu inside \"abstellen\": \"abzustellen\". Comma before the infinitive clause.",
+            explanation: "\"Es ist nicht erlaubt, ... zu\" + infinitive at the end, with \"zu\" inside \"abstellen\": \"abzustellen\". Comma before the infinitive clause.",
           },
           {
             type: "listen-choose",
@@ -745,7 +745,7 @@ export const DE_B2_U06: Lesson[] = [
             source: "Leave must be requested three weeks in advance.",
             answer: "Urlaub ist drei Wochen vorher zu beantragen.",
             altAnswers: ["Urlaub muss drei Wochen vorher beantragt werden.", "Urlaub ist drei Wochen im Voraus zu beantragen.", "Urlaub muss drei Wochen im Voraus beantragt werden."],
-            explanation: "A workplace rule: \"ist ... zu beantragen\" (= muss beantragt werden). \"Beantragen\" is inseparable, so zu stands before it.",
+            explanation: "A workplace rule: \"ist ... zu beantragen\" (= muss beantragt werden). \"Beantragen\" is inseparable, so \"zu\" stands before it.",
           },
         ],
       },
@@ -767,7 +767,7 @@ export const DE_B2_U06: Lesson[] = [
         source: "Pets are allowed in our building.",
         answer: "Haustiere sind bei uns erlaubt.",
         altAnswers: ["Bei uns sind Haustiere erlaubt.", "In unserem Haus sind Haustiere erlaubt.", "Haustiere sind in unserem Haus erlaubt."],
-        explanation: "\"Sind erlaubt\": sein + Partizip II for a rule that simply holds.",
+        explanation: "\"Sind erlaubt\": \"sein\" + Partizip II for a rule that simply holds.",
       },
       {
         type: "translate",
@@ -793,7 +793,7 @@ export const DE_B2_U06: Lesson[] = [
         source: "I usually stick to the rules.",
         answer: "Ich halte mich meistens an die Regeln.",
         altAnswers: ["Meistens halte ich mich an die Regeln.", "Ich halte mich normalerweise an die Regeln.", "Normalerweise halte ich mich an die Regeln."],
-        explanation: "\"Sich an etwas halten\": reflexive verb + an + Akkusativ.",
+        explanation: "\"Sich an etwas halten\": reflexive verb + \"an\" + Akkusativ.",
       },
       {
         type: "multiple-choice",
@@ -817,12 +817,12 @@ export const DE_B2_U06: Lesson[] = [
         source: "The rule can't always be kept with small children.",
         answer: "Mit kleinen Kindern lässt sich die Regel nicht immer einhalten.",
         altAnswers: ["Die Regel lässt sich mit kleinen Kindern nicht immer einhalten.", "Die Regel ist mit kleinen Kindern nicht immer einzuhalten.", "Mit kleinen Kindern ist die Regel nicht immer einzuhalten.", "Die Regel kann mit kleinen Kindern nicht immer eingehalten werden."],
-        explanation: "Possibility with \"sich lassen\" (\"lässt sich nicht immer einhalten\") or \"sein + zu\" with nicht (\"ist nicht immer einzuhalten\").",
+        explanation: "Possibility with \"sich lassen\" (\"lässt sich nicht immer einhalten\") or \"sein + zu\" with \"nicht\" (\"ist nicht immer einzuhalten\").",
       },
       {
         type: "dictation",
         audio: "Die Ruhezeiten sind einzuhalten.",
-        explanation: "\"Ruhezeiten\" (quiet hours) and \"einzuhalten\", one word with zu inside.",
+        explanation: "\"Ruhezeiten\" (quiet hours) and \"einzuhalten\", one word with \"zu\" inside.",
       },
       {
         type: "speak",
@@ -837,14 +837,14 @@ export const DE_B2_U06: Lesson[] = [
     level: "DE-B2",
     number: 5,
     title: "Dictation: Bekanntmachungen",
-    summary: "Hear and write official notices with sein + zu, the Zustandspassiv and formal verbs like gestatten and einreichen.",
+    summary: "Hear and write official notices with \"sein + zu\", the Zustandspassiv and formal verbs like \"gestatten\" and \"einreichen\".",
     duration: "14 min",
     sections: [
       {
         heading: "The language of notices",
         body: [
-          "A Bekanntmachung is an official notice: from the city, the Hausverwaltung, a school or a company. They are read aloud at stations and in buildings, and pinned up everywhere. Their grammar is compact and impersonal: \"Der Antrag ist bis zum 30. Juni einzureichen\" (must be submitted), \"Die Mülltonnen sind am Vorabend bereitzustellen\" (must be put out the evening before), \"Rauchen ist im gesamten Gebäude nicht gestattet\".",
-          "For dictation, the hard parts are the long infinitives with zu inside: \"einzureichen\", \"bereitzustellen\", \"abzuholen\", \"vorzulegen\". They are written as one word. Listen for the stress: it's always on the prefix, so you hear EIN-zu-rei-chen, and the zu is unstressed in the middle.",
+          "A \"Bekanntmachung\" is an official notice: from the city, the \"Hausverwaltung\", a school or a company. They are read aloud at stations and in buildings, and pinned up everywhere. Their grammar is compact and impersonal: \"Der Antrag ist bis zum 30. Juni einzureichen\" (must be submitted), \"Die Mülltonnen sind am Vorabend bereitzustellen\" (must be put out the evening before), \"Rauchen ist im gesamten Gebäude nicht gestattet\".",
+          "For dictation, the hard parts are the long infinitives with \"zu\" inside: \"einzureichen\", \"bereitzustellen\", \"abzuholen\", \"vorzulegen\". They are written as one word. Listen for the stress: it's always on the prefix, so you hear EIN-zu-rei-chen, and the \"zu\" is unstressed in the middle.",
           "Dates in notices: \"bis zum 30. Juni\" is read \"bis zum dreißigsten Juni\". In writing, the ordinal number gets a dot: \"30.\". \"Bis zum\" = by (a deadline), \"ab dem\" = from, \"vom ... bis zum\" = from ... to.",
         ],
         examples: [
@@ -859,7 +859,7 @@ export const DE_B2_U06: Lesson[] = [
             type: "dictation",
             audio: "Der Antrag ist bis zum 30. Juni einzureichen.",
             altAnswers: ["Der Antrag ist bis zum dreißigsten Juni einzureichen."],
-            explanation: "\"Einzureichen\": one word, zu inside the separable verb \"einreichen\". The date is written \"30.\" with a dot.",
+            explanation: "\"Einzureichen\": one word, \"zu\" inside the separable verb \"einreichen\". The date is written \"30.\" with a dot.",
           },
           {
             type: "translate",
@@ -900,7 +900,7 @@ export const DE_B2_U06: Lesson[] = [
             source: "Passengers are asked to keep an eye on their luggage.",
             answer: "Fahrgäste werden gebeten, auf ihr Gepäck zu achten.",
             altAnswers: ["Die Fahrgäste werden gebeten, auf ihr Gepäck zu achten.", "Fahrgäste werden gebeten, auf ihr Gepäck aufzupassen.", "Die Fahrgäste werden gebeten, auf ihr Gepäck aufzupassen."],
-            explanation: "\"Werden gebeten\" (are asked) + infinitive clause with zu; \"achten auf\" + Akkusativ.",
+            explanation: "\"Werden gebeten\" (are asked) + infinitive clause with \"zu\"; \"achten auf\" + Akkusativ.",
           },
           {
             type: "listen-choose",
@@ -916,7 +916,7 @@ export const DE_B2_U06: Lesson[] = [
         heading: "Writing your own notice",
         body: [
           "You can now write a notice yourself, for example for your building's noticeboard. Keep it impersonal and use the passive alternatives: \"Liebe Nachbarinnen und Nachbarn, am Samstag, den 12. Oktober, wird im Hof ein Flohmarkt veranstaltet. Tische sind selbst mitzubringen. Der Hof ist bis 18 Uhr wieder aufzuräumen. Vielen Dank!\"",
-          "Notice the date format \"am Samstag, den 12. Oktober\" (the den is accusative, a fixed formula), and that German notices open with an inclusive greeting like \"Liebe Nachbarinnen und Nachbarn\" or \"Liebe Mieterinnen und Mieter\".",
+          "Notice the date format \"am Samstag, den 12. Oktober\" (the \"den\" is accusative, a fixed formula), and that German notices open with an inclusive greeting like \"Liebe Nachbarinnen und Nachbarn\" or \"Liebe Mieterinnen und Mieter\".",
           "\"Veranstalten\" (to organise an event) and \"die Veranstaltung\" (event) are the formal words; in conversation you'd say \"Wir machen einen Flohmarkt\".",
         ],
         examples: [
@@ -942,7 +942,7 @@ export const DE_B2_U06: Lesson[] = [
             en: "Please [bring] your own tables.",
             sentence: "Tische sind selbst ___.",
             answer: "mitzubringen",
-            explanation: "\"Mitbringen\" → \"mitzubringen\". Sein + zu turns the request into an impersonal instruction.",
+            explanation: "\"Mitbringen\" → \"mitzubringen\". \"Sein + zu\" turns the request into an impersonal instruction.",
           },
         ],
       },
@@ -1038,7 +1038,7 @@ export const DE_B2_U06: Lesson[] = [
     level: "DE-B2",
     number: 6,
     title: "Spiral Review: Fix the Report in Indirect Speech",
-    summary: "Spaced review of Units 3-4: correct a written report of a tenants' meeting, fixing moods, ob, sollen and person shifts.",
+    summary: "Spaced review of Units 3-4: correct a written report of a tenants' meeting, fixing moods, \"ob\", \"sollen\" and person shifts.",
     duration: "14 min",
     sections: [
       {
@@ -1049,7 +1049,7 @@ export const DE_B2_U06: Lesson[] = [
           "Error 3: \"sie haben\" looks exactly like the indicative, so the substitution rule applies: switch to Konjunktiv II, \"sie hätten seit Wochen Probleme\". Remember: Konjunktiv I is used when it is clearly different from the indicative; otherwise Konjunktiv II replaces it.",
         ],
         examples: [
-          { es: "Herr Krüger sagte, die Heizung sei bald repariert.", en: "The manager said the heating would soon be repaired." },
+          { es: "Herr Krüger sagte, die Heizung sei bald repariert.", en: "Mr Krüger said the heating would soon be repaired." },
           { es: "Er sagte, er habe die Firma schon informiert.", en: "He said he had already informed the company." },
           { es: "Die Mieter sagten, sie hätten seit Wochen Probleme.", en: "The tenants said they had been having problems for weeks." },
           { es: "Frau Yilmaz erklärte, ihr Bad sei feucht.", en: "Ms Yilmaz explained that her bathroom was damp." },
@@ -1076,10 +1076,10 @@ export const DE_B2_U06: Lesson[] = [
         ],
       },
       {
-        heading: "Questions with ob and W-words",
+        heading: "Questions with \"ob\" and W-words",
         body: [
           "Jonas's second paragraph: \"Frau Yilmaz fragte, wenn die Heizung repariert wird. Herr Becker wollte wissen, wann kommt der Handwerker.\" Two classic errors. English if in reported questions is \"ob\", never \"wenn\": \"Frau Yilmaz fragte, ob die Heizung repariert werde.\" And a reported W-question is a subordinate clause, so the verb goes to the end: \"Herr Becker wollte wissen, wann der Handwerker komme.\"",
-          "Note \"repariert werde\": the werden-passive in Konjunktiv I. The third person of werden in Konjunktiv I is \"werde\", distinct from the indicative \"wird\", so it's used in writing.",
+          "Note \"repariert werde\": the werden-passive in Konjunktiv I. The third person of \"werden\" in Konjunktiv I is \"werde\", distinct from the indicative \"wird\", so it's used in writing.",
           "In spoken reporting the indicative is fine: \"Sie hat gefragt, ob die Heizung repariert wird.\" But a written report for the neighbours should sound neutral, so Konjunktiv I is the better choice.",
         ],
         examples: [
@@ -1101,7 +1101,7 @@ export const DE_B2_U06: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which version of \"*Frau Yilmaz fragte, wenn die Heizung repariert wird\" is correct in a written report?",
+            question: "Which version of \"*Frau Yilmaz fragte, wenn die Heizung repariert wird*\" is correct in a written report?",
             options: ["Frau Yilmaz fragte, ob die Heizung repariert werde.", "Frau Yilmaz fragte, wenn die Heizung repariert werde.", "Frau Yilmaz fragte, ob wird die Heizung repariert.", "Frau Yilmaz fragte, dass die Heizung repariert werde."],
             correctIndex: 0,
             explanation: "Reported yes/no questions use \"ob\" (whether), with the verb at the end and Konjunktiv I \"werde\".",
@@ -1109,9 +1109,9 @@ export const DE_B2_U06: Lesson[] = [
         ],
       },
       {
-        heading: "Requests with sollen and mögen",
+        heading: "Requests with \"sollen\" and \"mögen\"",
         body: [
-          "Last paragraph: \"Herr Krüger sagte uns, wir warten noch bis Montag. Er bat die Mieter zu melden alle Schäden.\" Reported commands use \"sollen\": \"Herr Krüger sagte, wir sollten noch bis Montag warten\" (\"wir sollen\" = indicative, so Konjunktiv II \"sollten\" in writing). And the request: \"Er bat die Mieter, alle Schäden zu melden\": comma, then the infinitive clause with zu + infinitive at the end.",
+          "Last paragraph: \"Herr Krüger sagte uns, wir warten noch bis Montag. Er bat die Mieter zu melden alle Schäden.\" Reported commands use \"sollen\": \"Herr Krüger sagte, wir sollten noch bis Montag warten\" (\"wir sollen\" = indicative, so Konjunktiv II \"sollten\" in writing). And the request: \"Er bat die Mieter, alle Schäden zu melden\": comma, then the infinitive clause with \"zu\" + infinitive at the end.",
           "In formal reports, a polite request can also use \"mögen\": \"Er bat, man möge alle Schäden schriftlich melden.\" This sounds very formal, typical of minutes and official letters.",
           "Corrected report: \"Herr Krüger sagte, die Heizung sei bald repariert. Er habe die Firma schon informiert. Die Mieter sagten, sie hätten seit Wochen Probleme. Frau Yilmaz fragte, ob die Heizung bald repariert werde, und Herr Becker wollte wissen, wann der Handwerker komme. Herr Krüger sagte, wir sollten noch bis Montag warten, und bat die Mieter, alle Schäden schriftlich zu melden.\"",
         ],
@@ -1130,7 +1130,7 @@ export const DE_B2_U06: Lesson[] = [
             source: "He asked the tenants to report all damage.",
             answer: "Er bat die Mieter, alle Schäden zu melden.",
             altAnswers: ["Er hat die Mieter gebeten, alle Schäden zu melden.", "Er bat die Mieter darum, alle Schäden zu melden."],
-            explanation: "\"Bitten\" + Akkusativ + zu-infinitive clause. Not \"*fragte die Mieter zu\": asked to = bitten.",
+            explanation: "\"Bitten\" + Akkusativ + zu-infinitive clause. Not \"*fragte die Mieter zu*\": asked to = \"bitten\".",
           },
           {
             type: "translate",
@@ -1210,7 +1210,7 @@ export const DE_B2_U06: Lesson[] = [
         source: "The caretaker stressed that it couldn't be changed immediately.",
         answer: "Der Hausmeister betonte, das lasse sich nicht sofort ändern.",
         altAnswers: ["Der Hausmeister betonte, dass sich das nicht sofort ändern lasse.", "Der Hausmeister betonte, das sei nicht sofort zu ändern.", "Der Hausmeister betonte, das könne nicht sofort geändert werden.", "Der Hausmeister hat betont, das lasse sich nicht sofort ändern."],
-        explanation: "Konjunktiv I of sich lassen: \"lasse sich\" (indicative \"lässt\"). A passive alternative inside indirect speech.",
+        explanation: "Konjunktiv I of \"sich lassen\": \"lasse sich\" (indicative \"lässt\"). A passive alternative inside indirect speech.",
       },
       {
         type: "listen-choose",
@@ -1239,9 +1239,9 @@ export const DE_B2_U06: Lesson[] = [
       {
         heading: "Die Wohnungsanmeldung",
         body: [
-          "Anyone who moves in Germany has to register their new address at the Bürgeramt within two weeks (\"sich ummelden\" or \"sich anmelden\"). It's the perfect topic for questions with \"sein + zu\" and \"sich lassen\": \"Was ist mitzubringen?\", \"Bis wann ist die Anmeldung zu erledigen?\", \"Lässt sich der Termin verschieben?\"",
+          "Anyone who moves in Germany has to register their new address at the \"Bürgeramt\" within two weeks (\"sich ummelden\" or \"sich anmelden\"). It's the perfect topic for questions with \"sein + zu\" and \"sich lassen\": \"Was ist mitzubringen?\", \"Bis wann ist die Anmeldung zu erledigen?\", \"Lässt sich der Termin verschieben?\"",
           "Questions with \"sein + zu\" start with the W-word or the verb: \"Was ist mitzubringen?\" (what has to be brought?), \"Ist eine Gebühr zu zahlen?\" (is there a fee to pay?). The answers usually mirror the structure: \"Mitzubringen sind der Ausweis und die Wohnungsgeberbestätigung.\" Notice the plural verb \"sind\" because there are two things.",
-          "The Wohnungsgeberbestätigung is the landlord's confirmation that you've moved in: one of those famously long German compound nouns. Break it down: Wohnung + Geber (giver) + Bestätigung (confirmation).",
+          "The \"Wohnungsgeberbestätigung\" is the landlord's confirmation that you've moved in: one of those famously long German compound nouns. Break it down: \"Wohnung\" + \"Geber\" (giver) + \"Bestätigung\" (confirmation).",
         ],
         examples: [
           { es: "Was ist zur Anmeldung mitzubringen?", en: "What do you need to bring to register?" },
@@ -1259,7 +1259,7 @@ export const DE_B2_U06: Lesson[] = [
             source: "What do you need to bring to register?",
             answer: "Was ist zur Anmeldung mitzubringen?",
             altAnswers: ["Was muss man zur Anmeldung mitbringen?", "Was muss ich zur Anmeldung mitbringen?", "Was ist für die Anmeldung mitzubringen?", "Was muss man für die Anmeldung mitbringen?"],
-            explanation: "\"Was ist ... mitzubringen?\": a sein + zu question. Spoken alternative: \"Was muss man mitbringen?\"",
+            explanation: "\"Was ist ... mitzubringen?\": a \"sein + zu\" question. Spoken alternative: \"Was muss man mitbringen?\"",
           },
           {
             type: "translate",
@@ -1268,7 +1268,7 @@ export const DE_B2_U06: Lesson[] = [
             source: "Can the appointment be postponed?",
             answer: "Lässt sich der Termin verschieben?",
             altAnswers: ["Kann der Termin verschoben werden?", "Kann man den Termin verschieben?", "Ist der Termin zu verschieben?"],
-            explanation: "Yes/no question with sich lassen: verb first, \"lässt sich ... verschieben\".",
+            explanation: "Yes/no question with \"sich lassen\": verb first, \"lässt sich ... verschieben\".",
           },
         ],
       },
@@ -1295,7 +1295,7 @@ export const DE_B2_U06: Lesson[] = [
             source: "The goods must be returned within 14 days.",
             answer: "Die Ware ist innerhalb von 14 Tagen zurückzusenden.",
             altAnswers: ["Die Ware ist innerhalb von 14 Tagen zurückzuschicken.", "Die Ware muss innerhalb von 14 Tagen zurückgeschickt werden.", "Die Ware muss innerhalb von 14 Tagen zurückgesendet werden."],
-            explanation: "\"Ist ... zurückzusenden\": obligation; zu sits inside the separable verb.",
+            explanation: "\"Ist ... zurückzusenden\": obligation; \"zu\" sits inside the separable verb.",
           },
           {
             type: "multiple-choice",
@@ -1310,7 +1310,7 @@ export const DE_B2_U06: Lesson[] = [
             question: "What does it mean?",
             options: ["The label can be printed online.", "The label must be printed online.", "The label has been printed online.", "Have the label printed online."],
             correctIndex: 0,
-            explanation: "\"Lässt sich ausdrucken\" = can be printed. Sich lassen is about possibility.",
+            explanation: "\"Lässt sich ausdrucken\" = can be printed. \"Sich lassen\" is about possibility.",
           },
         ],
       },
@@ -1345,7 +1345,7 @@ export const DE_B2_U06: Lesson[] = [
             en: "The card then [has to be collected] in person.",
             sentence: "Der Ausweis ist dann persönlich ___.",
             answer: "abzuholen",
-            explanation: "\"Abholen\" → \"abzuholen\": sein + zu for an obligation.",
+            explanation: "\"Abholen\" → \"abzuholen\": \"sein + zu\" for an obligation.",
           },
         ],
       },
@@ -1385,7 +1385,7 @@ export const DE_B2_U06: Lesson[] = [
         sentence: "Wie lässt sich die Ware ___?",
         answer: "zurückschicken",
         altAnswers: ["zurücksenden"],
-        explanation: "\"Sich lassen\" + bare infinitive: \"zurückschicken\", no zu.",
+        explanation: "\"Sich lassen\" + bare infinitive: \"zurückschicken\", no \"zu\".",
       },
       {
         type: "translate",
@@ -1398,7 +1398,7 @@ export const DE_B2_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "At the Bürgeramt you want to ask whether you can postpone your appointment. Which question fits best?",
+        question: "At the \"Bürgeramt\" you want to ask whether you can postpone your appointment. Which question fits best?",
         options: ["Lässt sich mein Termin verschieben?", "Ist mein Termin verschoben?", "Wird mein Termin verschoben?", "Ist mein Termin zu verschieben werden?"],
         correctIndex: 0,
         explanation: "Possibility: \"Lässt sich ... verschieben?\" \"Ist verschoben?\" asks if it already has been, \"wird verschoben?\" if it's going to be.",
@@ -1438,7 +1438,7 @@ export const DE_B2_U06: Lesson[] = [
         text: "Lässt sich das auch online erledigen?",
         prompt: "Say it in German: Can that also be done online?",
         tip: "\"Erledigen\": stress the second syllable, er-LE-di-gen.",
-        explanation: "A yes/no question with sich lassen, verb first.",
+        explanation: "A yes/no question with \"sich lassen\", verb first.",
       },
     ],
   },
@@ -1447,14 +1447,14 @@ export const DE_B2_U06: Lesson[] = [
     level: "DE-B2",
     number: 8,
     title: "Mixed Practice: Schilder, Formulare, Hinweise",
-    summary: "Read and produce signs, form instructions and short notices in the right register, from Zutritt nur für Personal to Nicht Zutreffendes bitte streichen.",
+    summary: "Read and produce signs, form instructions and short notices in the right register, from \"Zutritt nur für Personal\" to \"Nicht Zutreffendes bitte streichen\".",
     duration: "15 min",
     sections: [
       {
         heading: "Signs: the shortest German there is",
         body: [
           "Signs (\"Schilder\") strip German down to the bone. There's no verb at all in \"Zutritt nur für Personal\" (staff only), \"Kein Trinkwasser\" (not drinking water) or \"Ausfahrt freihalten\" (keep the exit clear). Where there is a verb, it's usually a bare infinitive used as a command: \"Bitte nicht rauchen\", \"Tür bitte schließen\", \"Nicht hinauslehnen\".",
-          "The infinitive command is impersonal: it addresses no one in particular, so it avoids choosing between du and Sie. That's why it's everywhere in public spaces. It's more polite than the imperative \"Schließen Sie die Tür!\" and less wordy than \"Die Tür ist zu schließen\".",
+          "The infinitive command is impersonal: it addresses no one in particular, so it avoids choosing between \"du\" and \"Sie\". That's why it's everywhere in public spaces. It's more polite than the imperative \"Schließen Sie die Tür!\" and less wordy than \"Die Tür ist zu schließen\".",
           "The other sign pattern is the participle: \"Geöffnet\" (open), \"Geschlossen\" (closed), \"Betreten verboten\" (no entry), \"Parken nur für Kunden gestattet\". These are shortened Zustandspassiv sentences: the \"ist\" has been dropped. \"Betreten verboten\" = \"Das Betreten ist verboten\".",
         ],
         examples: [
@@ -1488,7 +1488,7 @@ export const DE_B2_U06: Lesson[] = [
         heading: "Forms: Formulare richtig ausfüllen",
         body: [
           "Forms have their own fixed phrases. \"Bitte vollständig ausfüllen\" (please fill in completely), \"Bitte in Druckbuchstaben\" (in block capitals), \"Nicht Zutreffendes bitte streichen\" (delete as applicable, literally: please cross out what does not apply), \"Zutreffendes bitte ankreuzen\" (tick where applicable), \"Pflichtfelder sind mit * gekennzeichnet\" (mandatory fields are marked with *).",
-          "\"Zutreffend\" is a Partizip I (from \"zutreffen\", to apply) used as a noun: das Zutreffende, what applies. \"Nicht Zutreffendes\" is a little phrase you'll see on every German form. Don't let it scare you.",
+          "\"Zutreffend\" is a Partizip I (from \"zutreffen\", to apply) used as a noun: \"das Zutreffende\", what applies. \"Nicht Zutreffendes\" is a little phrase you'll see on every German form. Don't let it scare you.",
           "Instructions on the back of a form use \"sein + zu\": \"Dem Antrag sind folgende Unterlagen beizufügen\" (the following documents must be attached to the application), \"Änderungen sind unverzüglich mitzuteilen\" (changes must be reported without delay). \"Unverzüglich\" (without delay) is the official word for \"sofort\".",
         ],
         examples: [
@@ -1530,9 +1530,9 @@ export const DE_B2_U06: Lesson[] = [
       {
         heading: "Hinweise: notices in the right register",
         body: [
-          "Between the terse sign and the full letter is the \"Hinweis\" (note, notice): a few sentences that explain a rule. Here register matters. A sign in a café could say \"Bitte keine eigenen Speisen verzehren\" (formal, \"verzehren\" = to consume). A handwritten note in the office kitchen would say \"Bitte räumt eure Tassen selbst in die Spülmaschine!\" (du-plural, friendly). The building management writes \"Wir weisen darauf hin, dass ... nicht gestattet ist\" (we would point out that ...).",
+          "Between the terse sign and the full letter is the \"Hinweis\" (note, notice): a few sentences that explain a rule. Here register matters. A sign in a café could say \"Bitte keine eigenen Speisen verzehren\" (formal, \"verzehren\" = to consume). A handwritten note in the office kitchen would say \"Bitte räumt eure Tassen selbst in die Spülmaschine!\" (the friendly \"ihr\"-form). The building management writes \"Wir weisen darauf hin, dass ... nicht gestattet ist\" (we would point out that ...).",
           "\"Darauf hinweisen, dass\" (to point out that) is the classic official opener: \"Wir weisen darauf hin, dass das Abstellen von Fahrrädern im Treppenhaus nicht gestattet ist.\" Notice the nominal style creeping in: \"das Abstellen von Fahrrädern\" instead of \"dass man Fahrräder abstellt\". You'll study this in Unit 9.",
-          "When you write a notice yourself, choose the register for your readers: neighbours you know get \"Liebe Nachbarn, bitte ...\", the general public gets infinitives and sein + zu.",
+          "When you write a notice yourself, choose the register for your readers: neighbours you know get \"Liebe Nachbarn, bitte ...\", the general public gets infinitives and \"sein + zu\".",
         ],
         examples: [
           { es: "Bitte keine eigenen Speisen verzehren.", en: "Please do not consume your own food." },
@@ -1659,7 +1659,7 @@ export const DE_B2_U06: Lesson[] = [
     level: "DE-B2",
     number: 9,
     title: "Upper-Intermediate Vocabulary Practice, Part 2 of 10",
-    summary: "Test the Upper-intermediate vocabulary from Units 4-5: news and police reports, renovation and repairs, forms and deadlines.",
+    summary: "Use the vocabulary of Units 4-5 in context: news and police reports, renovation and repairs, forms and deadlines.",
     duration: "15 min",
     sections: [
       {
@@ -1776,7 +1776,7 @@ export const DE_B2_U06: Lesson[] = [
             question: "What does it mean?",
             options: ["Rents are almost unaffordable.", "Rents are almost paid.", "Rents are almost free.", "Rents are almost due."],
             correctIndex: 0,
-            explanation: "\"Unbezahlbar\" = un + bezahl + bar: cannot be paid, so unaffordable (and, of things, priceless).",
+            explanation: "\"Unbezahlbar\" = \"un\" + \"bezahl\" + \"bar\": cannot be paid, so unaffordable (and, of things, priceless).",
           },
         ],
       },
@@ -1890,15 +1890,15 @@ export const DE_B2_U06: Lesson[] = [
     level: "DE-B2",
     number: 10,
     title: "Spiral Review: Konjunktiv II in the Past",
-    summary: "Spaced review of Units 1-2: hätte / wäre with the participle, the double infinitive and past wishes in a fast round.",
+    summary: "Spaced review of Units 1-2: \"hätte\" / \"wäre\" with the participle, the double infinitive and past wishes in a fast round.",
     duration: "12 min",
     sections: [
       {
         heading: "Hätte or wäre?",
         body: [
-          "A quick reminder from Unit 1: the unreal past is the Perfekt with its auxiliary in Konjunktiv II. \"Ich habe gewartet\" → \"ich hätte gewartet\"; \"ich bin gekommen\" → \"ich wäre gekommen\". Movement, change of state, sein, bleiben, werden and passieren take \"wäre\".",
-          "And it goes in both halves of an unreal condition: \"Wenn ich das gewusst hätte, wäre ich zu Hause geblieben.\" Never \"würde\" in the wenn-clause.",
-          "Today's theme fits this unit: things that would have been different with a better Hausverwaltung, landlord or plumber.",
+          "A quick reminder from Unit 1: the unreal past is the Perfekt with its auxiliary in Konjunktiv II. \"Ich habe gewartet\" → \"ich hätte gewartet\"; \"ich bin gekommen\" → \"ich wäre gekommen\". Movement, change of state, \"sein\", \"bleiben\", \"werden\" and \"passieren\" take \"wäre\".",
+          "And it goes in both halves of an unreal condition: \"Wenn ich das gewusst hätte, wäre ich zu Hause geblieben.\" Don't use \"würde\" in the wenn-clause here.",
+          "Today's theme fits this unit: things that would have been different with a better \"Hausverwaltung\", landlord or plumber.",
         ],
         examples: [
           { es: "Wenn die Heizung funktioniert hätte, wären wir nicht krank geworden.", en: "If the heating had worked, we wouldn't have got ill." },
@@ -1915,7 +1915,7 @@ export const DE_B2_U06: Lesson[] = [
             source: "Without the water damage we would have stayed in the flat.",
             answer: "Ohne den Wasserschaden wären wir in der Wohnung geblieben.",
             altAnswers: ["Wir wären ohne den Wasserschaden in der Wohnung geblieben."],
-            explanation: "\"Bleiben\" takes sein in the Perfekt, so \"wären ... geblieben\".",
+            explanation: "\"Bleiben\" takes \"sein\" in the Perfekt, so \"wären ... geblieben\".",
           },
           {
             type: "translate",
@@ -1924,7 +1924,7 @@ export const DE_B2_U06: Lesson[] = [
             source: "Had I known that, I wouldn't have signed the contract.",
             answer: "Hätte ich das gewusst, hätte ich den Vertrag nicht unterschrieben.",
             altAnswers: ["Wenn ich das gewusst hätte, hätte ich den Vertrag nicht unterschrieben.", "Ich hätte den Vertrag nicht unterschrieben, wenn ich das gewusst hätte."],
-            explanation: "Without wenn, the condition starts with the verb \"Hätte\"; the main clause follows with its verb first.",
+            explanation: "Without \"wenn\", the condition starts with the verb \"Hätte\"; the main clause follows with its verb first.",
           },
         ],
       },
@@ -1949,7 +1949,7 @@ export const DE_B2_U06: Lesson[] = [
             source: "I should have reported the damage earlier.",
             answer: "Ich hätte den Schaden früher melden sollen.",
             altAnswers: ["Ich hätte den Schaden eher melden sollen."],
-            explanation: "Double infinitive at the end: \"melden sollen\", not \"*gemeldet sollen\" or \"*sollte gemeldet haben\".",
+            explanation: "Double infinitive at the end: \"melden sollen\", not \"*gemeldet sollen*\" or \"*sollte gemeldet haben*\".",
           },
           {
             type: "word-order",
@@ -1977,7 +1977,7 @@ export const DE_B2_U06: Lesson[] = [
         source: "If the heating had worked, we wouldn't have got ill.",
         answer: "Wenn die Heizung funktioniert hätte, wären wir nicht krank geworden.",
         altAnswers: ["Hätte die Heizung funktioniert, wären wir nicht krank geworden.", "Wir wären nicht krank geworden, wenn die Heizung funktioniert hätte."],
-        explanation: "\"Funktionieren\" → hätte; \"krank werden\" (change of state) → wäre. Both halves use Konjunktiv II.",
+        explanation: "\"Funktionieren\" → \"hätte\"; \"krank werden\" (change of state) → \"wäre\". Both halves use Konjunktiv II.",
       },
       {
         type: "translate",
@@ -1995,7 +1995,7 @@ export const DE_B2_U06: Lesson[] = [
         source: "That wouldn't have happened if the repairman had come.",
         answer: "Das wäre nicht passiert, wenn der Handwerker gekommen wäre.",
         altAnswers: ["Wenn der Handwerker gekommen wäre, wäre das nicht passiert.", "Das wäre nicht passiert, wäre der Handwerker gekommen."],
-        explanation: "\"Passieren\" and \"kommen\" both take sein, so \"wäre\" in both halves.",
+        explanation: "\"Passieren\" and \"kommen\" both take \"sein\", so \"wäre\" in both halves.",
       },
       {
         type: "fill-blank",
@@ -2003,7 +2003,7 @@ export const DE_B2_U06: Lesson[] = [
         en: "You [could] have told me! (to a friend)",
         sentence: "Du hättest mir Bescheid sagen ___!",
         answer: "können",
-        explanation: "Double infinitive \"sagen können\": the modal stays in the infinitive, not \"*gekonnt\".",
+        explanation: "Double infinitive \"sagen können\": the modal stays in the infinitive, not \"*gekonnt*\".",
       },
       {
         type: "multiple-choice",
@@ -2019,7 +2019,7 @@ export const DE_B2_U06: Lesson[] = [
         source: "If only we hadn't moved into this flat!",
         answer: "Wenn wir bloß nicht in diese Wohnung gezogen wären!",
         altAnswers: ["Wären wir bloß nicht in diese Wohnung gezogen!", "Wenn wir doch nur nicht in diese Wohnung gezogen wären!", "Wären wir doch nur nicht in diese Wohnung gezogen!", "Wenn wir nur nicht in diese Wohnung gezogen wären!", "Wären wir nur nicht in diese Wohnung gezogen!"],
-        explanation: "Past wish with \"bloß / doch nur\": wenn + verb at the end, or verb first.",
+        explanation: "Past wish with \"bloß / doch nur\": \"wenn\" + verb at the end, or verb first.",
       },
       {
         type: "translate",
@@ -2028,7 +2028,7 @@ export const DE_B2_U06: Lesson[] = [
         source: "I would have called earlier if I'd had the number.",
         answer: "Ich hätte früher angerufen, wenn ich die Nummer gehabt hätte.",
         altAnswers: ["Wenn ich die Nummer gehabt hätte, hätte ich früher angerufen.", "Hätte ich die Nummer gehabt, hätte ich früher angerufen."],
-        explanation: "\"Gehabt hätte\" is the unreal past of haben; both halves use \"hätte\".",
+        explanation: "\"Gehabt hätte\" is the unreal past of \"haben\"; both halves use \"hätte\".",
       },
       {
         type: "word-order",
@@ -2054,14 +2054,14 @@ export const DE_B2_U06: Lesson[] = [
 
 export const DE_B2_U06_WRITING: WriteExercise = {
   type: "write",
-  prompt: "The heating and the bathroom window in your rented flat have been broken for two weeks. Write a formal email to your Hausverwaltung: describe what is still not repaired, what you have already done, what can or cannot be done in the flat in this state, and insist politely on a date for the repair.",
+  prompt: "The heating and the bathroom window in your rented flat have been broken for two weeks. Write a formal email to your \"Hausverwaltung\": describe what is still not repaired, what you have already done, what can or cannot be done in the flat in this state, and insist politely on a date for the repair.",
   minWords: 120,
   maxWords: 220,
   rubric: [
     "Describes the current state with the Zustandspassiv (\"ist immer noch nicht repariert\", \"sind nicht abgedichtet\")",
-    "Uses sich lassen or sein + zu for possibility or obligation (\"lässt sich nicht heizen\", \"ist nicht zu ertragen\")",
+    "Uses \"sich lassen\" or \"sein + zu\" for possibility or obligation (\"lässt sich nicht heizen\", \"ist nicht zu ertragen\")",
     "Insists politely with \"Ich muss darauf bestehen, dass ...\" and a werden-passive (\"repariert wird\")",
-    "Keeps a formal register: \"Sehr geehrte Damen und Herren\", Sie, \"Mit freundlichen Grüßen\"",
+    "Keeps a formal register: \"Sehr geehrte Damen und Herren\", \"Sie\", \"Mit freundlichen Grüßen\"",
   ],
   modelAnswer: "Sehr geehrte Damen und Herren,\n\nam 2. November habe ich telefonisch gemeldet, dass die Heizung in meiner Wohnung (Gohliser Straße 14, Wohnung 12) defekt ist. Leider ist sie zwei Wochen später immer noch nicht repariert. Auch das Fenster im Bad ist nach wie vor undicht und nicht abgedichtet.\n\nIch habe mehrmals angerufen, und man hat mir gesagt, der Handwerker sei schon bestellt. Bisher ist jedoch niemand gekommen. Die Wohnung lässt sich nur mit einem kleinen Heizlüfter heizen, und nachts ist die Kälte kaum zu ertragen. Mit einem kleinen Kind ist dieser Zustand nicht zumutbar.\n\nIch muss deshalb darauf bestehen, dass die Heizung spätestens bis Freitag repariert wird. Bitte teilen Sie mir umgehend einen verbindlichen Termin mit. Ich bin werktags ab 16 Uhr zu Hause; ein anderer Termin lässt sich aber sicher auch einrichten.\n\nSollte der Schaden bis Ende der Woche nicht behoben sein, behalte ich mir vor, die Miete zu mindern.\n\nMit freundlichen Grüßen\nLena Wagner",
   explanation: "The email describes states with the Zustandspassiv (\"ist ... nicht repariert\", \"behoben sein\"), possibility with \"lässt sich\" and \"ist kaum zu ertragen\", and demands the action with the werden-passive inside a dass-clause (\"dass die Heizung ... repariert wird\"). The reported claim \"der Handwerker sei schon bestellt\" reuses Konjunktiv I from Unit 3.",

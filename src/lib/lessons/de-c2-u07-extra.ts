@@ -804,7 +804,7 @@ export const DE_C2_U07_EXTRA: Lesson[] = [
         heading: "Recap: how headlines compress",
         body: [
           "German headlines drop articles and verbs and lean on images: metonymy (\"Berlin\", \"Karlsruhe\", \"Wolfsburg\"), compound metaphors (\"Preisschock\", \"Rentenloch\"), idioms taken half-literally (\"Bahn zieht die Notbremse\"), war and water imagery (\"Koalition im Krisenmodus\", \"Welle der Empörung\"). Bild loves exclamation and hyperbole, Spiegel and SZ prefer ironic wordplay.",
-          "To decode: identify the metonymy (who?), unpack the image (what happened?), and restate in a plain sentence: \"Ampel zerlegt sich\" = the coalition is falling apart (\"die Ampel\" = the red-yellow-green coalition, from its party colours).",
+          "To decode: identify the metonymy (who?), unpack the image (what happened?), and restate in a plain sentence: \"Ampel zerlegt sich\" = the coalition is falling apart (\"die Ampel\" = the red-yellow-green coalition of 2021-2024, named after its party colours).",
         ],
         examples: [
           { es: "Bahn zieht die Notbremse.", en: "Rail operator pulls the emergency brake (stops a project)." },

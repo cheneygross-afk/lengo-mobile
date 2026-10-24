@@ -34,7 +34,7 @@ export const DE_B1_U11: Lesson[] = [
             prompt: "Translate into German.",
             source: "I'm trying to sleep more.",
             answer: "Ich versuche, mehr zu schlafen.",
-            explanation: "\"Versuchen\" + zu-infinitive, and \"zu schlafen\" goes to the very end, after \"mehr\". The infinitive never comes straight after the first verb as in English.",
+            explanation: "\"Versuchen\" + zu-infinitive, and \"zu schlafen\" goes to the very end, after \"mehr\". Unlike English (trying to sleep more), the infinitive goes last, after everything else in its clause.",
           },
           {
             type: "word-order",
@@ -219,7 +219,7 @@ export const DE_B1_U11: Lesson[] = [
         question: "Which sentence is correct German?",
         options: ["Ich lasse meine Haare schneiden.", "Ich lasse meine Haare zu schneiden.", "Ich lasse zu schneiden meine Haare.", "Ich lasse, meine Haare zu schneiden."],
         correctIndex: 0,
-        explanation: "\"Lassen\" takes a bare infinitive, like the modals: \"Ich lasse meine Haare schneiden\" (I'm having my hair cut).",
+        explanation: "\"Lassen\" takes a bare infinitive, like the modals: \"Ich lasse meine Haare schneiden\" (I'm having my hair cut). Even more idiomatic is \"Ich lasse mir die Haare schneiden\".",
       },
       {
         type: "listen-choose",
@@ -310,7 +310,7 @@ export const DE_B1_U11: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which form fits? Wir haben vor, das Bad ___ . (We're planning to renovate the bathroom.)",
+            question: "Which form fits? \"Wir haben vor, das Bad ___.\" (We're planning to renovate the bathroom.)",
             options: ["zu renovieren", "renovierenzu", "zurenovieren", "renoviert zu"],
             correctIndex: 0,
             explanation: "Verbs in -ieren never split, so \"zu\" is a separate word in front: \"zu renovieren\".",
@@ -371,7 +371,7 @@ export const DE_B1_U11: Lesson[] = [
         prompt: "Translate into German.",
         source: "It's important to pay the bill on time.",
         answer: "Es ist wichtig, die Rechnung pünktlich zu bezahlen.",
-        altAnswers: ["Es ist wichtig, die Rechnung rechtzeitig zu bezahlen."],
+        altAnswers: ["Es ist wichtig, die Rechnung rechtzeitig zu bezahlen.", "Es ist wichtig, die Rechnung pünktlich zu zahlen.", "Es ist wichtig, die Rechnung rechtzeitig zu zahlen."],
         explanation: "\"Bezahlen\" is inseparable, so \"zu bezahlen\" as two words, at the very end.",
       },
       {
@@ -429,7 +429,7 @@ export const DE_B1_U11: Lesson[] = [
         type: "speak",
         text: "Es war schön, euch wiederzusehen.",
         prompt: "Say it in German, to friends: It was nice to see you again.",
-        tip: "Stress the prefix: WIE-der-zu-se-hen. The zu is light and quick.",
+        tip: "Stress the prefix of \"wiederzusehen\": WIE-der-zu-se-hen. The \"zu\" is light and quick.",
         explanation: "\"Wiedersehen\" is separable, so \"wiederzusehen\" as one word.",
       },
     ],
@@ -512,8 +512,8 @@ export const DE_B1_U11: Lesson[] = [
       {
         heading: "Brauchen + nicht zu: you don't have to",
         body: [
-          "\"Brauchen\" with a negative (\"nicht\", \"kein\", \"nur\") is the usual way to say you don't have to: \"Du brauchst nicht zu kommen\". It takes \"zu\" in careful German. In casual speech you'll hear it without (\"Du brauchst nicht kommen\"), but write it with \"zu\".",
-          "The trap: \"Du musst nicht kommen\" also means you don't have to come, not you mustn't. You mustn't is \"Du darfst nicht\". \"Brauchen nicht zu\" is the clearest and most natural option.",
+          "\"Brauchen\" with a negative (\"nicht\", \"kein\") or with \"nur\" is a common way to say you don't have to: \"Du brauchst nicht zu kommen\". It takes \"zu\" in careful German. In casual speech you'll hear it without (\"Du brauchst nicht kommen\"), but write it with \"zu\".",
+          "The trap: \"Du musst nicht kommen\" also means you don't have to come, not you mustn't. You mustn't is \"Du darfst nicht\". Both \"nicht müssen\" and \"nicht brauchen zu\" are natural; \"brauchen\" can never be misread as mustn't.",
         ],
         examples: [
           { es: "Du brauchst nicht zu kommen.", en: "You don't have to come." },
@@ -581,7 +581,7 @@ export const DE_B1_U11: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "You [don't need to] wait. (formal)",
+        en: "You don't [need] to wait. (formal)",
         sentence: "Sie ___ nicht zu warten.",
         answer: "brauchen",
         explanation: "\"Nicht brauchen\" + zu-infinitive means not having to. Formal \"Sie\" → \"brauchen\".",
@@ -821,7 +821,7 @@ export const DE_B1_U11: Lesson[] = [
     level: "DE-B1",
     number: 5,
     title: "Transformation Chain: From Dass to Zu",
-    summary: "When the subject is the same, a dass-clause can shrink to a zu-infinitive; when the subjects differ, dass has to stay.",
+    summary: "Turn a dass-clause into a zu-infinitive when both clauses share a subject, and keep \"dass\" when the subjects differ.",
     duration: "12 min",
     sections: [
       {
@@ -934,6 +934,7 @@ export const DE_B1_U11: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'm planning to visit my grandparents.",
         answer: "Ich habe vor, meine Großeltern zu besuchen.",
+        altAnswers: ["Ich plane, meine Großeltern zu besuchen."],
         explanation: "Same subject, so a zu-infinitive: \"meine Großeltern zu besuchen\".",
       },
       {
@@ -975,7 +976,7 @@ export const DE_B1_U11: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "I hope [to see you] soon.",
+        en: "I hope to see [you] soon.",
         sentence: "Ich hoffe, ___ bald zu sehen.",
         answer: "dich",
         altAnswers: ["euch", "Sie"],
@@ -1033,7 +1034,7 @@ export const DE_B1_U11: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Ayşe wrote \"*Ich habe vor, mehr lesen.\" Translate the corrected sentence into German: I'm planning to read more.",
+            prompt: "Ayşe wrote \"*Ich habe vor, mehr lesen.*\" Translate the corrected sentence into German: I'm planning to read more.",
             source: "I'm planning to read more.",
             answer: "Ich habe vor, mehr zu lesen.",
             explanation: "\"Vorhaben\" takes a zu-infinitive: \"mehr zu lesen\". Without \"zu\" the clause has no link.",
@@ -1117,7 +1118,7 @@ export const DE_B1_U11: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Ayşe wrote \"*Ich will weniger Süßigkeiten zu essen.\" Translate the corrected sentence into German: I want to eat fewer sweets.",
+        prompt: "Ayşe wrote \"*Ich will weniger Süßigkeiten zu essen.*\" Translate the corrected sentence into German: I want to eat fewer sweets.",
         source: "I want to eat fewer sweets.",
         answer: "Ich will weniger Süßigkeiten essen.",
         altAnswers: ["Ich möchte weniger Süßigkeiten essen."],
@@ -1126,7 +1127,7 @@ export const DE_B1_U11: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Ayşe wrote \"*Ich habe vor, einen Tanzkurs machen.\" Translate the corrected sentence into German: I'm planning to do a dance course.",
+        prompt: "Ayşe wrote \"*Ich habe vor, einen Tanzkurs machen.*\" Translate the corrected sentence into German: I'm planning to do a dance course.",
         source: "I'm planning to do a dance course.",
         answer: "Ich habe vor, einen Tanzkurs zu machen.",
         explanation: "\"Vorhaben\" needs a zu-infinitive: \"einen Tanzkurs zu machen\".",
@@ -1134,7 +1135,7 @@ export const DE_B1_U11: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Ayşe wrote \"*Ich habe versprochen, meinem Bruder beim Umzug zu mithelfen.\" Translate the corrected sentence into German: I promised to help my brother with his move.",
+        prompt: "Ayşe wrote \"*Ich habe versprochen, meinem Bruder beim Umzug zu mithelfen.*\" Translate the corrected sentence into German: I promised to help my brother with his move.",
         source: "I promised to help my brother with his move.",
         answer: "Ich habe versprochen, meinem Bruder beim Umzug zu helfen.",
         altAnswers: ["Ich habe versprochen, meinem Bruder beim Umzug mitzuhelfen.", "Ich habe meinem Bruder versprochen, ihm beim Umzug zu helfen."],
@@ -1143,7 +1144,7 @@ export const DE_B1_U11: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Ayşe wrote \"*Ich habe aufgehört, abends Chips essen.\" Translate the corrected sentence into German: I've stopped eating crisps in the evening.",
+        prompt: "Ayşe wrote \"*Ich habe aufgehört, abends Chips essen.*\" Translate the corrected sentence into German: I've stopped eating crisps in the evening.",
         source: "I've stopped eating crisps in the evening.",
         answer: "Ich habe aufgehört, abends Chips zu essen.",
         altAnswers: ["Ich habe aufgehört, am Abend Chips zu essen."],
@@ -1151,7 +1152,7 @@ export const DE_B1_U11: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Ayşe wrote \"*Ich möchte jeden Sonntag meine Eltern zu besuchen.\" Write the German for the bold words.",
+        prompt: "Ayşe wrote \"*Ich möchte jeden Sonntag meine Eltern zu besuchen.*\" Write the German for the bold words.",
         en: "I'd like [to visit] my parents every Sunday.",
         sentence: "Ich möchte jeden Sonntag meine Eltern ___.",
         answer: "besuchen",
@@ -1159,7 +1160,7 @@ export const DE_B1_U11: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Ayşe wrote \"*Es ist schwer, früh zu einschlafen.\" Write the German for the bold words.",
+        prompt: "Ayşe wrote \"*Es ist schwer, früh zu einschlafen.*\" Write the German for the bold words.",
         en: "It's hard [to fall asleep] early.",
         sentence: "Es ist schwer, früh ___.",
         answer: "einzuschlafen",
@@ -1243,7 +1244,7 @@ export const DE_B1_U11: Lesson[] = [
       {
         heading: "Resolutions and promises",
         body: [
-          "\"Sich vornehmen\" is to make up your mind, to resolve: \"Ich habe mir vorgenommen, jeden Tag zehn Minuten Deutsch zu lernen\". The reflexive pronoun is dative (\"mir\", \"dir\", \"sich\"), because the resolution is something you set yourself.",
+          "\"Sich vornehmen\" is to make up your mind, to resolve: \"Ich habe mir vorgenommen, jeden Tag zehn Minuten Deutsch zu lernen\". The reflexive pronoun is dative (\"mir\", \"dir\", \"sich\"), because the resolution itself (\"etwas\" or the zu-clause) is the accusative object.",
           "\"Versprechen\" (promise) takes the person in the dative: \"Ich habe meiner Tochter versprochen, mit ihr in den Zoo zu gehen\". The participle is \"versprochen\", with no ge-.",
         ],
         examples: [
@@ -1595,7 +1596,7 @@ export const DE_B1_U11: Lesson[] = [
     level: "DE-B1",
     number: 9,
     title: "Intermediate Vocabulary Practice, Part 4 of 10",
-    summary: "High-frequency Intermediate words for leisure, sport and clubs, plus the verbs that most often open a zu-infinitive.",
+    summary: "Talk about leisure, sport and clubs with high-frequency B1 words, and use the verbs that most often open a zu-infinitive.",
     duration: "12 min",
     sections: [
       {
@@ -1785,7 +1786,7 @@ export const DE_B1_U11: Lesson[] = [
         type: "speak",
         text: "Seit drei Jahren bin ich Mitglied in einem Tennisverein.",
         prompt: "Say it in German: I've been a member of a tennis club for three years.",
-        tip: "The v in Verein is pronounced like an f: fer-EIN.",
+        tip: "The v in \"Verein\" is pronounced like an f: fer-EIN.",
         explanation: "\"Seit\" + present tense; \"Mitglied in einem Verein\".",
       },
     ],
@@ -1816,7 +1817,7 @@ export const DE_B1_U11: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"*Ich kann nicht zu schwimmen.\" Translate the corrected sentence into German: I can't swim.",
+            prompt: "A learner wrote \"*Ich kann nicht zu schwimmen.*\" Translate the corrected sentence into German: I can't swim.",
             source: "I can't swim.",
             answer: "Ich kann nicht schwimmen.",
             explanation: "\"Können\" is a modal: bare infinitive, no \"zu\".",
@@ -1824,7 +1825,7 @@ export const DE_B1_U11: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"*Er hat angefangen, zu einkaufen.\" Translate the corrected sentence into German: He has started doing the shopping.",
+            prompt: "A learner wrote \"*Er hat angefangen, zu einkaufen.*\" Translate the corrected sentence into German: He has started doing the shopping.",
             source: "He has started doing the shopping.",
             answer: "Er hat angefangen einzukaufen.",
             explanation: "\"Einkaufen\" is separable: \"einzukaufen\" in one word.",
@@ -1849,7 +1850,7 @@ export const DE_B1_U11: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"*Ich gehe in die Bibliothek, für zu lernen.\" Translate the corrected sentence into German: I'm going to the library to study.",
+            prompt: "A learner wrote \"*Ich gehe in die Bibliothek, für zu lernen.*\" Translate the corrected sentence into German: I'm going to the library to study.",
             source: "I'm going to the library to study.",
             answer: "Ich gehe in die Bibliothek, um zu lernen.",
             explanation: "Purpose with a verb: \"um ... zu\", never \"für ... zu\".",
@@ -1881,7 +1882,7 @@ export const DE_B1_U11: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"*Meine Eltern wollen mich Arzt werden.\" Translate the corrected sentence into German: My parents want me to become a doctor.",
+            prompt: "A learner wrote \"*Meine Eltern wollen mich Arzt werden.*\" Translate the corrected sentence into German: My parents want me to become a doctor.",
             source: "My parents want me to become a doctor.",
             answer: "Meine Eltern wollen, dass ich Arzt werde.",
             altAnswers: ["Meine Eltern wollen, dass ich Ärztin werde.", "Meine Eltern möchten, dass ich Arzt werde.", "Meine Eltern möchten, dass ich Ärztin werde."],
@@ -1900,7 +1901,7 @@ export const DE_B1_U11: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Ich möchte heute Abend zu kochen.\" Translate the corrected sentence into German: I'd like to cook tonight.",
+        prompt: "A learner wrote \"*Ich möchte heute Abend zu kochen.*\" Translate the corrected sentence into German: I'd like to cook tonight.",
         source: "I'd like to cook tonight.",
         answer: "Ich möchte heute Abend kochen.",
         altAnswers: ["Heute Abend möchte ich kochen.", "Ich würde heute Abend gern kochen."],
@@ -1909,7 +1910,7 @@ export const DE_B1_U11: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Es ist wichtig, die Hausaufgaben machen.\" Translate the corrected sentence into German: It's important to do the homework.",
+        prompt: "A learner wrote \"*Es ist wichtig, die Hausaufgaben machen.*\" Translate the corrected sentence into German: It's important to do the homework.",
         source: "It's important to do the homework.",
         answer: "Es ist wichtig, die Hausaufgaben zu machen.",
         explanation: "\"Es ist wichtig\" + zu-infinitive.",
@@ -1917,7 +1918,7 @@ export const DE_B1_U11: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Er hat das Buch gelesen, ohne verstehen es.\" Translate the corrected sentence into German: He read the book without understanding it.",
+        prompt: "A learner wrote \"*Er hat das Buch gelesen, ohne verstehen es.*\" Translate the corrected sentence into German: He read the book without understanding it.",
         source: "He read the book without understanding it.",
         answer: "Er hat das Buch gelesen, ohne es zu verstehen.",
         altAnswers: ["Er las das Buch, ohne es zu verstehen."],
@@ -1926,15 +1927,16 @@ export const DE_B1_U11: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Ich rufe an, um dass ich frage.\" Translate the corrected sentence into German: I'm calling to ask.",
+        prompt: "A learner wrote \"*Ich rufe an, um dass ich frage.*\" Translate the corrected sentence into German: I'm calling to ask.",
         source: "I'm calling to ask.",
         answer: "Ich rufe an, um zu fragen.",
+        altAnswers: ["Ich rufe an, um nachzufragen."],
         explanation: "Same subject: \"um ... zu\", never \"um dass\".",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Statt zu arbeiten, er schläft.\" Translate the corrected sentence into German: Instead of working, he's sleeping.",
+        prompt: "A learner wrote \"*Statt zu arbeiten, er schläft.*\" Translate the corrected sentence into German: Instead of working, he's sleeping.",
         source: "Instead of working, he's sleeping.",
         answer: "Statt zu arbeiten, schläft er.",
         altAnswers: ["Anstatt zu arbeiten, schläft er.", "Er schläft, statt zu arbeiten.", "Er schläft, anstatt zu arbeiten."],
@@ -1942,12 +1944,12 @@ export const DE_B1_U11: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "A learner wrote \"*Vergiss nicht, den Müll zu rausbringen!\" Write the German for the bold words.",
+        prompt: "A learner wrote \"*Vergiss nicht, den Müll zu rausbringen!*\" Write the German for the bold words.",
         en: "Don't forget [to take out] the rubbish!",
         sentence: "Vergiss nicht, den Müll ___!",
         answer: "rauszubringen",
-        altAnswers: ["hinauszubringen"],
-        explanation: "\"Rausbringen\" is separable: \"rauszubringen\".",
+        altAnswers: ["hinauszubringen", "runterzubringen"],
+        explanation: "\"Rausbringen\" is separable: \"rauszubringen\" (people also say \"den Müll runterbringen\"). \"*zu rausbringen*\" puts \"zu\" in the wrong slot.",
       },
       {
         type: "multiple-choice",
@@ -2011,8 +2013,8 @@ export const DE_B1_U11: Lesson[] = [
             prompt: "Translate into German.",
             source: "He saved my life.",
             answer: "Er hat mir das Leben gerettet.",
-            altAnswers: ["Er rettete mir das Leben."],
-            explanation: "German says he saved the life to me: dative \"mir\" + \"das Leben\", not \"*mein Leben*\" (though that is understood).",
+            altAnswers: ["Er rettete mir das Leben.", "Er hat mein Leben gerettet."],
+            explanation: "German usually says he saved the life to me: dative \"mir\" + \"das Leben\". \"Er hat mein Leben gerettet\" is also correct, just less idiomatic.",
           },
           {
             type: "listen-choose",
@@ -2085,7 +2087,7 @@ export const DE_B1_U11: Lesson[] = [
             type: "speak",
             text: "Es war einmal ein armer Ritter.",
             prompt: "Start a fairy tale in German: Once upon a time there was a poor knight.",
-            tip: "The R in Ritter is the throaty German r; the -er at the end is a soft vowel, almost uh.",
+            tip: "The R in \"Ritter\" is the throaty German r; the -er at the end is a soft vowel, almost uh.",
             explanation: "\"Es war einmal\" + nominative: \"ein armer Ritter\" (masculine -er after ein).",
           },
         ],

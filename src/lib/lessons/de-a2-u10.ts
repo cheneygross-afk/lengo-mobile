@@ -8,7 +8,7 @@ export const DE_A2_U10: Lesson[] = [
     level: "DE-A2",
     number: 1,
     title: "Comparisons and Superlatives, Part 1 of 2",
-    summary: "Compare things with -er + als (billiger als, älter als) and say two things are equal with so ... wie.",
+    summary: "Compare things with -er + \"als\", as in \"billiger als\" and \"älter als\", and say two things are equal with \"so ... wie\".",
     duration: "14 min",
     sections: [
       {
@@ -49,7 +49,7 @@ export const DE_A2_U10: Lesson[] = [
         heading: "Short adjectives often add an umlaut",
         body: [
           "Many one-syllable adjectives with a, o or u add an umlaut in the comparative: \"alt\" → \"älter\", \"kalt\" → \"kälter\", \"warm\" → \"wärmer\", \"lang\" → \"länger\", \"groß\" → \"größer\", \"kurz\" → \"kürzer\", \"jung\" → \"jünger\". Think of English old → elder: a vowel change in the comparative isn't new to you.",
-          "Not every short adjective does it: \"schnell\" → \"schneller\", \"laut\" → \"lauter\", \"klar\" → \"klarer\", \"toll\" → \"toller\". Learn the umlaut ones as a group: alt, arm, groß, hart, jung, kalt, klug, kurz, lang, oft, scharf, schwach, stark, warm, gesund.",
+          "Not every short adjective does it: \"schnell\" → \"schneller\", \"laut\" → \"lauter\", \"klar\" → \"klarer\", \"toll\" → \"toller\". Learn the umlaut ones as a group: \"alt\", \"arm\", \"groß\", \"hart\", \"jung\", \"kalt\", \"klug\", \"kurz\", \"lang\", \"oft\", \"scharf\", \"schwach\", \"stark\", \"warm\", and usually \"gesund\", which gives \"gesünder\" (\"gesunder\" is also allowed).",
           "A missing umlaut changes the word: \"älter\" (older) but \"alter\" is just an ending on \"alt\". Writing \"*alter als*\" is a classic slip.",
         ],
         examples: [
@@ -227,7 +227,7 @@ export const DE_A2_U10: Lesson[] = [
     level: "DE-A2",
     number: 2,
     title: "Pattern Practice: Größer als, So groß wie",
-    summary: "Drill comparatives in one frame: with and without umlaut, and the stems in -el and -er that drop an e.",
+    summary: "Drill comparatives in one frame: with and without umlaut, and the stems in -el (and -er after au or eu) that drop an e.",
     duration: "12 min",
     sections: [
       {
@@ -378,7 +378,7 @@ export const DE_A2_U10: Lesson[] = [
           { left: "dunkel", right: "dunkler" },
           { left: "schnell", right: "schneller" },
         ],
-        explanation: "Umlaut (älter), dropped e (teurer, dunkler), changed consonant (höher), or regular (schneller).",
+        explanation: "Umlaut: \"älter\"; dropped e: \"teurer\", \"dunkler\"; changed consonant: \"höher\"; regular: \"schneller\".",
       },
       {
         type: "dictation",
@@ -399,13 +399,13 @@ export const DE_A2_U10: Lesson[] = [
     level: "DE-A2",
     number: 3,
     title: "Comparisons and Superlatives, Part 2 of 2",
-    summary: "Say which is the fastest, the cheapest or the best with am -sten, and learn the irregular forms gut, viel, gern, hoch and nah.",
+    summary: "Say which is the fastest, the cheapest or the best with \"am -sten\", and use the irregular forms of \"gut\", \"viel\", \"gern\", \"hoch\" and \"nah\".",
     duration: "15 min",
     sections: [
       {
         heading: "Am schnellsten: the superlative after a verb",
         body: [
-          "After a verb, German forms the superlative with \"am\" + adjective + -sten: \"Er läuft am schnellsten\" (he runs fastest), \"Dieses Hotel ist am billigsten\" (this hotel is the cheapest). It's one fixed shape for every adjective and every gender: no der, die or das needed.",
+          "After a verb, German forms the superlative with \"am\" + adjective + -sten: \"Er läuft am schnellsten\" (he runs fastest), \"Dieses Hotel ist am billigsten\" (this hotel is the cheapest). It's one fixed shape for every adjective and every gender: no \"der\", \"die\" or \"das\" needed.",
           "The umlaut from the comparative carries over: \"alt, älter, am ältesten\"; \"warm, wärmer, am wärmsten\"; \"jung, jünger, am jüngsten\".",
           "After -t, -d, -s, -ß, -sch, -z, add an extra e for easier pronunciation: \"am ältesten\", \"am kürzesten\", \"am heißesten\", \"am interessantesten\". One exception: \"groß\" → \"am größten\".",
         ],
@@ -612,7 +612,7 @@ export const DE_A2_U10: Lesson[] = [
     level: "DE-A2",
     number: 4,
     title: "Contrast Clinic: Als or Wie?",
-    summary: "Use als after a comparative and wie after so, and don't be fooled by the colloquial größer wie.",
+    summary: "Use \"als\" after a comparative and \"wie\" after \"so\", and don't be fooled by the colloquial \"*größer wie*\".",
     duration: "12 min",
     sections: [
       {
@@ -792,7 +792,7 @@ export const DE_A2_U10: Lesson[] = [
     level: "DE-A2",
     number: 5,
     title: "Drill Circuit: Besser, Lieber or Mehr?",
-    summary: "Choose between besser (better), lieber (rather) and mehr (more), and between gut and gern.",
+    summary: "Choose between \"besser\" (better), \"lieber\" (rather) and \"mehr\" (more), and between \"gut\" and \"gern\".",
     duration: "12 min",
     sections: [
       {
@@ -892,7 +892,8 @@ export const DE_A2_U10: Lesson[] = [
             prompt: "Translate into German.",
             source: "I like cooking, but Mia cooks better.",
             answer: "Ich koche gern, aber Mia kocht besser.",
-            explanation: "Liking = \"gern\"; skill = \"besser\".",
+            altAnswers: ["Ich mag kochen, aber Mia kocht besser."],
+            explanation: "Liking = \"gern\"; skill = \"besser\". \"Mögen\" + infinitive is also accepted, but verb + \"gern\" is more natural.",
           },
           {
             type: "speak",
@@ -943,8 +944,8 @@ export const DE_A2_U10: Lesson[] = [
         prompt: "Translate into German.",
         source: "I like playing football, but I'm not good at it.",
         answer: "Ich spiele gern Fußball, aber nicht gut.",
-        altAnswers: ["Ich spiele gern Fußball, aber ich spiele nicht gut.", "Ich spiele gern Fußball, aber nicht besonders gut."],
-        explanation: "\"Gern\" (like) and \"gut\" (well) side by side.",
+        altAnswers: ["Ich spiele gern Fußball, aber ich spiele nicht gut.", "Ich spiele gern Fußball, aber nicht besonders gut.", "Ich mag Fußball spielen, aber ich spiele nicht gut."],
+        explanation: "\"Gern\" (like) and \"gut\" (well) side by side. \"Mögen\" + infinitive is also accepted, but verb + \"gern\" is more natural.",
       },
       {
         type: "fill-blank",
@@ -973,14 +974,14 @@ export const DE_A2_U10: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order to say: Mia is a very good cook.",
         words: ["Mia", "kocht", "sehr", "gut."],
-        translation: "Mia cooks very well.",
+        translation: "Mia is a very good cook.",
         explanation: "German says she cooks very well: \"kocht sehr gut\".",
       },
       {
         type: "listen-choose",
         audio: "Kommst du mit? Lieber nicht.",
         question: "What does the answer mean?",
-        options: ["I'd rather not.", "Better not.", "Not any more.", "Not really much."],
+        options: ["I'd rather not.", "I'd love to.", "Not any more.", "Not really much."],
         correctIndex: 0,
         explanation: "\"Lieber nicht\" = I'd rather not.",
       },
@@ -1211,7 +1212,7 @@ export const DE_A2_U10: Lesson[] = [
     level: "DE-A2",
     number: 7,
     title: "Error Hunt: Comparisons and Superlatives",
-    summary: "Find and fix the typical comparison mistakes: mehr groß, gröser, am bestens, besser wie and missing umlauts.",
+    summary: "Find and fix the typical comparison mistakes: \"*mehr groß*\", \"*gröser*\", \"*am bestens*\", \"*besser wie*\" and missing umlauts.",
     duration: "13 min",
     sections: [
       {
@@ -1301,7 +1302,7 @@ export const DE_A2_U10: Lesson[] = [
         prompt: "A learner wrote \"*Die Wohnung ist mehr teuer*\". Write the correct German for: The flat is more expensive.",
         source: "The flat is more expensive.",
         answer: "Die Wohnung ist teurer.",
-        explanation: "\"Teurer\": -er, and the e of teuer drops out.",
+        explanation: "\"Teurer\": -er, and the e of \"teuer\" drops out.",
       },
       {
         type: "translate",
@@ -1394,6 +1395,6 @@ export const DE_A2_U10_WRITING: WriteExercise = {
     "Uses a superlative with \"am\" (\"am wichtigsten\", \"am billigsten\", \"am liebsten\").",
     "Uses at least one irregular form correctly (\"besser\", \"lieber\", \"mehr\", \"am besten\").",
   ],
-  modelAnswer: "Hallo Jonas, ich muss mich entscheiden! Die Wohnung in der Stadt ist kleiner als das Haus, aber sie ist viel zentraler, und meine Arbeit ist näher. Das Haus im Dorf ist größer und ruhiger, und der Garten ist sehr schön. Es ist auch billiger, aber die Stadt ist nicht so langweilig wie das Dorf. Mit dem Bus brauche ich vom Dorf eine Stunde, das ist mir zu lang. Am wichtigsten ist mir meine Zeit. Ich wohne lieber in der Stadt, deshalb nehme ich die Wohnung. Was findest du besser? Viele Grüße, Sam",
+  modelAnswer: "Hallo Jonas, ich muss mich entscheiden! Die Wohnung in der Stadt ist kleiner als das Haus, aber sie ist viel zentraler, und meine Arbeit ist näher. Das Haus im Dorf ist größer und ruhiger, und der Garten ist sehr schön. Es ist auch billiger, aber die Stadt ist nicht so langweilig wie das Dorf. Mit dem Bus brauche ich vom Dorf eine Stunde, das ist mir zu lang. Am wichtigsten ist mir meine Zeit. Ich wohne lieber in der Stadt, deshalb nehme ich die Wohnung. Was findest du besser? Viele Grüße Sam",
   explanation: "Comparatives add -er (often with an umlaut on short words: \"größer\", \"näher\") and take \"als\"; equality uses \"so ... wie\" with the plain adjective; after a verb the superlative is \"am -sten\"; \"lieber\" expresses preference, \"besser\" quality.",
 };

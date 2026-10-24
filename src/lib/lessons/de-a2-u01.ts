@@ -8,7 +8,7 @@ export const DE_A2_U01: Lesson[] = [
     level: "DE-A2",
     number: 1,
     title: "The Perfekt with Haben, Part 1 of 2",
-    summary: "Talk about the past with haben + a participle: ich habe gemacht, du hast gekauft, wir haben gespielt.",
+    summary: "Talk about the past with \"haben\" + a participle: \"ich habe gemacht\", \"du hast gekauft\", \"wir haben gespielt\".",
     duration: "12 min",
     sections: [
       {
@@ -16,7 +16,7 @@ export const DE_A2_U01: Lesson[] = [
         body: [
           "English has several ways to talk about the past: I made, I have made, I did make. Spoken German mostly uses just one, the Perfekt: \"ich habe gemacht\". It covers all three, so you never need a separate word for did in questions or negatives.",
           "The Perfekt has two parts: a form of \"haben\" in the present (\"ich habe\", \"du hast\", \"er hat\"...) and the past participle (\"gemacht\", \"gekauft\", \"gespielt\"). You already know \"haben\" from the Beginner level; now it works as a helper verb, like English have in I have made.",
-          "Don't be misled by the look of it: \"Ich habe Pizza gemacht\" is the normal way to say I made pizza last night, even with a time word like \"gestern\" (yesterday). English would never say I have made pizza yesterday, but German happily does.",
+          "Don't be misled by the look of it: \"Ich habe Pizza gemacht\" is the normal way to say I made pizza yesterday, even with a time word like \"gestern\" (yesterday). English would never say I have made pizza yesterday, but German happily does.",
         ],
         examples: [
           { es: "Ich habe Pizza gemacht.", en: "I made pizza. / I've made pizza." },
@@ -211,7 +211,7 @@ export const DE_A2_U01: Lesson[] = [
     level: "DE-A2",
     number: 2,
     title: "Pattern Practice: Ich habe gemacht, du hast gemacht",
-    summary: "Drill one frame through all six persons until habe, hast, hat, haben, habt, haben + ge-...-t comes automatically.",
+    summary: "Drill one frame through all six persons until \"habe\", \"hast\", \"hat\", \"haben\", \"habt\", \"haben\" + ge-...-t comes automatically.",
     duration: "10 min",
     sections: [
       {
@@ -257,7 +257,7 @@ export const DE_A2_U01: Lesson[] = [
           { es: "Wir haben Gemüse gekauft.", en: "We bought vegetables." },
           { es: "Ihr habt zu laut Musik gehört.", en: "You listened to music too loudly. (to friends)" },
           { es: "Sie haben Fußball gespielt.", en: "They played football." },
-          { es: "Haben Sie das gesagt?", en: "Did you say that? (polite)" },
+          { es: "Haben Sie das gesagt?", en: "Did you say that? (formal)" },
           { es: "Meine Eltern haben Fisch gekocht.", en: "My parents cooked fish." },
         ],
         checkpoint: [
@@ -330,7 +330,7 @@ export const DE_A2_U01: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Did you say that? (polite)",
+        source: "Did you say that? (formal)",
         answer: "Haben Sie das gesagt?",
         explanation: "Polite \"Sie\" takes \"haben\", first in the question; \"sagen\" → \"gesagt\".",
       },
@@ -431,6 +431,7 @@ export const DE_A2_U01: Lesson[] = [
             prompt: "Translate into German.",
             source: "We played cards all evening.",
             answer: "Wir haben den ganzen Abend Karten gespielt.",
+            altAnswers: ["Den ganzen Abend haben wir Karten gespielt."],
             explanation: "\"Den ganzen Abend\" (all evening, accusative of time) and \"Karten\" both go between \"haben\" and \"gespielt\".",
           },
         ],
@@ -523,7 +524,7 @@ export const DE_A2_U01: Lesson[] = [
         prompt: "Translate into German.",
         source: "Yesterday I listened to music with Paul.",
         answer: "Gestern habe ich mit Paul Musik gehört.",
-        altAnswers: ["Ich habe gestern mit Paul Musik gehört.", "Gestern habe ich Musik mit Paul gehört."],
+        altAnswers: ["Ich habe gestern mit Paul Musik gehört.", "Gestern habe ich Musik mit Paul gehört.", "Ich habe gestern Musik mit Paul gehört."],
         explanation: "\"Gestern\" first, so \"habe ich\"; \"mit Paul\" and \"Musik\" inside the bracket, \"gehört\" last.",
       },
       {
@@ -594,7 +595,7 @@ export const DE_A2_U01: Lesson[] = [
     level: "DE-A2",
     number: 4,
     title: "The Perfekt with Haben, Part 2 of 2",
-    summary: "Add -et to stems ending in -t, -d or a hard consonant cluster (gearbeitet, gewartet, geöffnet), and place events with past time markers.",
+    summary: "Add -et to stems ending in -t, -d or a hard consonant cluster (\"gearbeitet\", \"gewartet\", \"geöffnet\"), and place events with past time markers.",
     duration: "12 min",
     sections: [
       {
@@ -774,7 +775,7 @@ export const DE_A2_U01: Lesson[] = [
         type: "speak",
         text: "Wir haben eine halbe Stunde gewartet.",
         prompt: "Say it in German: We waited half an hour.",
-        tip: "Pronounce the -et clearly: ge-WAR-tet, three syllables.",
+        tip: "Pronounce the -et of \"gewartet\" clearly: ge-WAR-tet, three syllables.",
         explanation: "\"Gewartet\" with -et because the stem \"wart-\" already ends in t.",
       },
       {
@@ -792,7 +793,7 @@ export const DE_A2_U01: Lesson[] = [
     level: "DE-A2",
     number: 5,
     title: "Negation and Questions in the Perfekt",
-    summary: "Say what you didn't do with nicht and kein, and ask yes/no and W-questions in the Perfekt, with doch to contradict.",
+    summary: "Say what you didn't do with \"nicht\" and \"kein\", and ask yes/no and W-questions in the Perfekt, with \"doch\" to contradict.",
     duration: "13 min",
     sections: [
       {
@@ -830,9 +831,9 @@ export const DE_A2_U01: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which is correct for: I didn't buy a cake.",
-            options: ["Ich habe keinen Kuchen gekauft.", "Ich habe nicht einen Kuchen gekauft.", "Ich habe keinen Kuchen nicht gekauft.", "Ich habe kein Kuchen gekauft."],
+            options: ["Ich habe keinen Kuchen gekauft.", "Ich nicht habe einen Kuchen gekauft.", "Ich habe keinen Kuchen nicht gekauft.", "Ich habe kein Kuchen gekauft."],
             correctIndex: 0,
-            explanation: "\"Ein Kuchen\" becomes \"keinen Kuchen\": \"kein\" with the masculine accusative -en.",
+            explanation: "\"Ein Kuchen\" becomes \"keinen Kuchen\": \"kein\" with the masculine accusative -en, so \"*kein Kuchen*\" lacks the ending. \"Kein\" already negates, so no extra \"nicht\"; and \"nicht\" never comes before the auxiliary.",
           },
         ],
       },
@@ -848,7 +849,7 @@ export const DE_A2_U01: Lesson[] = [
           { es: "Was hast du am Wochenende gemacht?", en: "What did you do at the weekend?" },
           { es: "Wann hast du ihn gefragt?", en: "When did you ask him?" },
           { es: "Wo habt ihr früher gewohnt?", en: "Where did you live before? (to friends)" },
-          { es: "Wie lange haben Sie gewartet?", en: "How long did you wait? (polite)" },
+          { es: "Wie lange haben Sie gewartet?", en: "How long did you wait? (formal)" },
         ],
         checkpoint: [
           {
@@ -884,7 +885,7 @@ export const DE_A2_U01: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Your friend asks: Hast du nicht gearbeitet? You did work. What do you say?",
+            question: "Your friend asks: \"Hast du nicht gearbeitet?\" You did work. What do you say?",
             options: ["Doch, ich habe gearbeitet.", "Ja, ich habe nicht gearbeitet.", "Nein, ich habe gearbeitet.", "Ja, ich habe gearbeitet."],
             correctIndex: 0,
             explanation: "Yes to a negative question is \"doch\". \"Ja\" would sound confused here.",
@@ -892,7 +893,7 @@ export const DE_A2_U01: Lesson[] = [
           {
             type: "speak",
             text: "Doch, ich habe gekocht!",
-            prompt: "Your friend asks: Hast du nicht gekocht? Say: Yes, I did cook!",
+            prompt: "Your friend asks: \"Hast du nicht gekocht?\" Say: Yes, I did cook!",
             tip: "Stress \"doch\" and let the ch sound be the back-of-the-throat sound of Bach.",
             explanation: "\"Doch\" contradicts the negative question, then the full Perfekt answer.",
           },
@@ -936,7 +937,7 @@ export const DE_A2_U01: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "How long did you wait? (polite)",
+        source: "How long did you wait? (formal)",
         answer: "Wie lange haben Sie gewartet?",
         explanation: "\"Wie lange\" = how long; polite \"Sie\" takes \"haben\".",
       },
@@ -950,7 +951,7 @@ export const DE_A2_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Where does nicht go in: We didn't work in the garden.",
+        question: "Which is correct for: We didn't work in the garden.",
         options: ["Wir haben nicht im Garten gearbeitet.", "Wir haben im Garten gearbeitet nicht.", "Wir nicht haben im Garten gearbeitet.", "Nicht wir haben im Garten gearbeitet."],
         correctIndex: 0,
         explanation: "\"Nicht\" comes before the place phrase that goes with the verb, inside the bracket.",
@@ -990,7 +991,7 @@ export const DE_A2_U01: Lesson[] = [
     level: "DE-A2",
     number: 6,
     title: "Schon, Noch nicht, Gestern: Adverbs in the Perfekt",
-    summary: "Fit schon, noch nicht, noch nie, lange and time words inside the sentence bracket.",
+    summary: "Fit \"schon\", \"noch nicht\", \"noch nie\", \"lange\" and time words inside the sentence bracket.",
     duration: "11 min",
     sections: [
       {
@@ -1275,7 +1276,7 @@ export const DE_A2_U01: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Tim says: Ich habe den ganzen Samstag gearbeitet. You're surprised. What do you say?",
+            question: "Tim says: \"Ich habe den ganzen Samstag gearbeitet.\" You're surprised. What do you say?",
             options: ["Echt? Den ganzen Tag?", "Klingt gut!", "Gut, danke!", "Morgen, Tim!"],
             correctIndex: 0,
             explanation: "\"Echt?\" (really?) shows surprise. \"Klingt gut\" would be odd for working all Saturday.",
@@ -1336,7 +1337,7 @@ export const DE_A2_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A colleague asks: Wie war dein Wochenende? What's a natural answer?",
+        question: "A colleague asks: \"Wie war dein Wochenende?\" What's a natural answer?",
         options: ["Gut, danke! Ich habe viel Musik gehört.", "Ich mache Musik.", "Mein Wochenende ist gut.", "Danke, ich habe Wochenende."],
         correctIndex: 0,
         explanation: "Answer with a short verdict and a Perfekt sentence about what you did. The other answers are in the present or don't make sense.",
@@ -1514,7 +1515,7 @@ export const DE_A2_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence has no mistake?",
+        question: "Which sentence has no mistake? (On Monday we talked for a long time.)",
         options: ["Am Montag haben wir lange geredet.", "Am Montag wir haben lange geredet.", "Am Montag haben wir lange geredt.", "Am Montag haben wir geredet lange."],
         correctIndex: 0,
         explanation: "Verb second after the time phrase, \"geredet\" with -et, participle last.",
@@ -1541,7 +1542,7 @@ export const DE_A2_U01: Lesson[] = [
         prompt: "Translate into German.",
         source: "I have to work today, but yesterday I didn't work.",
         answer: "Ich muss heute arbeiten, aber gestern habe ich nicht gearbeitet.",
-        altAnswers: ["Heute muss ich arbeiten, aber gestern habe ich nicht gearbeitet.", "Ich muss heute arbeiten, aber ich habe gestern nicht gearbeitet."],
+        altAnswers: ["Heute muss ich arbeiten, aber gestern habe ich nicht gearbeitet.", "Ich muss heute arbeiten, aber ich habe gestern nicht gearbeitet.", "Heute muss ich arbeiten, aber ich habe gestern nicht gearbeitet."],
         explanation: "Modal + infinitive (\"muss ... arbeiten\") vs haben + participle (\"habe ... gearbeitet\").",
       },
       {
@@ -1750,7 +1751,7 @@ export const DE_A2_U01: Lesson[] = [
     level: "DE-A2",
     number: 10,
     title: "Capital Letters: Nouns, Sie, sie and Ihr",
-    summary: "Capitalise every noun (including verbs used as nouns), and tell Sie from sie and Ihr from ihr in messages and emails.",
+    summary: "Capitalise every noun (including verbs used as nouns), and tell \"Sie\" from \"sie\" and \"Ihr\" from \"ihr\" in messages and emails.",
     duration: "11 min",
     sections: [
       {
@@ -1792,10 +1793,10 @@ export const DE_A2_U01: Lesson[] = [
           "\"Haben Sie gekocht?\" is the polite question to one or more people. \"Hat sie gekocht?\" asks about her. \"Haben sie gekocht?\" asks about them. In speech, context decides; in writing, the capital and the verb do.",
         ],
         examples: [
-          { es: "Haben Sie lange gewartet?", en: "Did you wait long? (polite)" },
+          { es: "Haben Sie lange gewartet?", en: "Did you wait long? (formal)" },
           { es: "Hat sie schon bezahlt?", en: "Has she paid yet?" },
           { es: "Haben sie schon bezahlt?", en: "Have they paid yet?" },
-          { es: "Frau Schneider, haben Sie die Rechnung schon bezahlt?", en: "Mrs Schneider, have you paid the bill yet?" },
+          { es: "Frau Schneider, haben Sie die Rechnung schon bezahlt?", en: "Ms Schneider, have you paid the bill yet?" },
         ],
         checkpoint: [
           {
@@ -1810,7 +1811,7 @@ export const DE_A2_U01: Lesson[] = [
             type: "listen-choose",
             audio: "Haben Sie schon gekocht?",
             question: "Spoken to a guest at your door. What does it mean?",
-            options: ["Have you cooked yet? (polite)", "Has she cooked yet?", "Did they cook?", "Have you cooked yet? (to a friend)"],
+            options: ["Have you cooked yet? (formal)", "Has she cooked yet?", "Did they cook?", "Have you cooked yet? (to a friend)"],
             correctIndex: 0,
             explanation: "Said to someone directly, \"Haben Sie\" is polite you. Has she would be \"Hat sie\".",
           },
@@ -1819,13 +1820,13 @@ export const DE_A2_U01: Lesson[] = [
       {
         heading: "Ihr or ihr? And writing a message",
         body: [
-          "\"Ihr\" with a capital means your (polite): \"Ihr Paket\", \"Ihre Rechnung\". Small \"ihr\" has three jobs: you (plural, informal) as a subject (\"ihr habt\"), her (\"ihr Bruder\") and their (\"ihr Haus\").",
+          "\"Ihr\" with a capital means your (formal): \"Ihr Paket\", \"Ihre Rechnung\". Small \"ihr\" has three jobs: you (plural, informal) as a subject (\"ihr habt\"), her (\"ihr Bruder\") and their (\"ihr Haus\").",
           "Emails and letters show it best. To a friend: \"Liebe Anna, ... dein Jonas\" (small du-words). To a stranger: \"Sehr geehrte Frau Becker, ... Ihr Jonas Weber\" or more commonly \"Mit freundlichen Grüßen\". The polite pronouns \"Sie\", \"Ihnen\", \"Ihr\" always take a capital.",
           "You will also see \"Du\" and \"Dein\" capitalised in letters and emails: that's an allowed courtesy, but small letters are the standard.",
         ],
         examples: [
           { es: "Habt ihr gestern gefeiert?", en: "Did you celebrate yesterday? (to friends)" },
-          { es: "Frau Becker, Ihr Paket ist da.", en: "Mrs Becker, your parcel is here." },
+          { es: "Frau Becker, Ihr Paket ist da.", en: "Ms Becker, your parcel is here." },
           { es: "Lena hat ihr Fahrrad geputzt.", en: "Lena cleaned her bike." },
           { es: "Liebe Anna, wie war dein Wochenende?", en: "Dear Anna, how was your weekend?" },
           { es: "Die Kinder haben ihr Zimmer geputzt.", en: "The children cleaned their room." },
@@ -1835,7 +1836,7 @@ export const DE_A2_U01: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "Mrs Becker, your parcel is here.",
+            source: "Ms Becker, your parcel is here.",
             answer: "Frau Becker, Ihr Paket ist da.",
             altAnswers: ["Frau Becker, Ihr Paket ist hier."],
             explanation: "Polite your = \"Ihr\" with a capital I; \"das Paket\" takes no ending.",
@@ -1846,7 +1847,7 @@ export const DE_A2_U01: Lesson[] = [
             en: "Lena cleaned [her] bike.",
             sentence: "Lena hat ___ Fahrrad geputzt.",
             answer: "ihr",
-            explanation: "Her = small \"ihr\". Capital \"Ihr\" would mean your (polite).",
+            explanation: "Her = small \"ihr\". Capital \"Ihr\" would mean your (formal).",
           },
         ],
       },
@@ -1872,7 +1873,7 @@ export const DE_A2_U01: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Mr Becker, did you buy your ticket? (polite)",
+        source: "Mr Becker, did you buy your ticket? (formal)",
         answer: "Herr Becker, haben Sie Ihre Fahrkarte gekauft?",
         altAnswers: ["Herr Becker, haben Sie Ihr Ticket gekauft?"],
         explanation: "Both polite words take a capital: \"Sie\" and \"Ihre\".",
@@ -1887,7 +1888,7 @@ export const DE_A2_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "In an email: Haben Sie meine Frage gehört? Who is being asked?",
+        question: "In an email: \"Haben Sie die Rechnung schon bezahlt?\" Who is being asked?",
         options: ["The reader, politely (you)", "A woman (she)", "A group being talked about (they)", "Several friends (you all)"],
         correctIndex: 0,
         explanation: "Capital \"Sie\" in the middle of a sentence is always polite you.",
@@ -1904,10 +1905,10 @@ export const DE_A2_U01: Lesson[] = [
         type: "matching",
         instructions: "Match the German to the English.",
         pairs: [
-          { left: "Sie haben", right: "you have (polite)" },
+          { left: "Sie haben", right: "you have (formal)" },
           { left: "sie hat", right: "she has" },
           { left: "ihr habt", right: "you all have (informal)" },
-          { left: "Ihr Auto", right: "your car (polite)" },
+          { left: "Ihr Auto", right: "your car (formal)" },
           { left: "ihr Auto", right: "her or their car" },
         ],
         explanation: "The capital and the verb form tell you who is meant.",
@@ -1929,7 +1930,7 @@ export const DE_A2_U01: Lesson[] = [
       {
         type: "speak",
         text: "Frau Schneider, haben Sie die Rechnung schon bezahlt?",
-        prompt: "Say it in German: Mrs Schneider, have you paid the bill yet?",
+        prompt: "Say it in German: Ms Schneider, have you paid the bill yet?",
         explanation: "Polite \"Sie\" + \"haben\"; \"schon\" for yet, \"bezahlt\" last.",
       },
     ],
@@ -2059,7 +2060,7 @@ export const DE_A2_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which reply fits? Hast du die Fotos schon gezeigt?",
+        question: "Which reply fits? \"Hast du die Fotos schon gezeigt?\" (You haven't shown them yet.)",
         options: ["Nein, noch nicht.", "Nein, noch nie.", "Doch, noch nicht.", "Ja, nicht schon."],
         correctIndex: 0,
         explanation: "\"Schon?\" is answered with \"ja, schon\" or \"nein, noch nicht\".",
@@ -2107,6 +2108,6 @@ export const DE_A2_U01_WRITING: WriteExercise = {
     "Includes a negative with \"nicht\" or \"kein\" (\"Ich habe nicht gekocht\", \"keinen Kuchen gekauft\")",
     "Asks a question in the Perfekt (\"Was hast du gemacht?\", \"Hast du schon...?\")",
   ],
-  modelAnswer: "Hallo Jonas! Wie war dein Wochenende? Am Samstag habe ich lange gearbeitet. Am Abend haben Lena und ich zusammen gekocht und Musik gehört. Am Sonntag hat es den ganzen Tag geregnet. Ich habe die Wohnung geputzt und ein bisschen gechillt. Ich habe keinen Sport gemacht und ich habe noch nicht für Montag gelernt! Und du? Was hast du am Samstag gemacht? Hast du Fußball gespielt? Liebe Grüße, Mia",
+  modelAnswer: "Hallo Jonas! Wie war dein Wochenende? Am Samstag habe ich lange gearbeitet. Am Abend haben Lena und ich zusammen gekocht und Musik gehört. Am Sonntag hat es den ganzen Tag geregnet. Ich habe die Wohnung geputzt und ein bisschen gechillt. Ich habe keinen Sport gemacht und ich habe noch nicht für Montag gelernt! Und du? Was hast du am Samstag gemacht? Hast du Fußball gespielt? Liebe Grüße Mia",
   explanation: "The Perfekt with \"haben\" splits the verb: \"habe\" in second place, the participle (\"gearbeitet\", \"gekocht\", \"geputzt\") at the end. After a time word the subject follows the auxiliary (\"Am Samstag habe ich\"). \"Nicht\" goes before the participle, \"kein\" replaces \"ein\", and questions start with the auxiliary or a question word.",
 };

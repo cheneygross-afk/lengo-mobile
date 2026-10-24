@@ -100,7 +100,7 @@ export const DE_C1_U04: Lesson[] = [
         heading: "Endings throughout",
         body: [
           "Participial attributes and Gerundiv forms are adjectives, so every case and article type matters. Weak endings after der/die/das: \"die zu erledigenden Aufgaben\", \"des zu zahlenden Betrags\". Mixed after ein: \"ein zu lösendes Problem\". Strong without article: \"zu erledigende Aufgaben\".",
-          "Typical errors (more in Lesson 5): \"*die gestern gekaufte Bücher\" (plural after \"die\" needs -en: \"gekauften\"), \"*ein zu lösendes Probleme\" (singular noun!).",
+          "Typical errors (more in Lesson 5): \"*die gestern gekaufte Bücher*\" (plural after \"die\" needs -en: \"gekauften\"), \"*ein zu lösendes Probleme*\" (singular noun!).",
           "Tip: build the phrase without the attribute first (\"die Bücher\"), then insert an adjective (\"die neuen Bücher\"), then replace it with the participle (\"die gestern gekauften Bücher\"). The ending is the same as for \"neu\".",
         ],
         examples: [
@@ -177,7 +177,7 @@ export const DE_C1_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "the books bought yesterday: which is correct?",
+        question: "You want to write: the books bought yesterday. Which is correct?",
         options: ["die gestern gekauften Bücher", "die gestern gekaufte Bücher", "die gestern gekauftes Bücher", "die gekauften gestern Bücher"],
         correctIndex: 0,
         explanation: "Plural after \"die\" needs -en; adverbs go before the participle.",
@@ -292,7 +292,7 @@ export const DE_C1_U04: Lesson[] = [
         heading: "The same-subject rule",
         body: [
           "The implied subject of the participle must be the subject of the main clause. \"Im Büro angekommen, rief sie an\": she arrived, she called. Correct.",
-          "If the subjects differ, the sentence is wrong (a dangling participle): \"*Im Büro angekommen, klingelte das Telefon\" says the phone arrived at the office. English has the same rule, but German writers are strict about it. Fix: \"Als sie im Büro angekommen war, klingelte das Telefon.\"",
+          "If the subjects differ, the sentence is wrong (a dangling participle): \"*Im Büro angekommen, klingelte das Telefon*\" says the phone arrived at the office. English has the same rule, but German writers are strict about it. Fix: \"Als sie im Büro angekommen war, klingelte das Telefon.\"",
           "Check: ask who did the participle, then look at the subject of the main clause. They must match. More practice in the Error Hunt (Lesson 5).",
         ],
         examples: [
@@ -304,7 +304,7 @@ export const DE_C1_U04: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "Which sentence follows the same-subject rule?",
             options: ["Im Büro angekommen, schaltete sie den Computer ein.", "Im Büro angekommen, klingelte das Telefon.", "Im Büro angekommen, wurde ihr ein Kaffee gebracht.", "Im Büro angekommen, war es schon spät."],
             correctIndex: 0,
             explanation: "Only in the first is the subject of the main clause (\"sie\") the one who arrived.",
@@ -822,7 +822,7 @@ export const DE_C1_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "Which sentence follows the same-subject rule?",
         options: ["In Berlin angekommen, nahmen wir ein Taxi.", "In Berlin angekommen, wartete ein Taxi auf uns.", "In Berlin angekommen, regnete es.", "In Berlin angekommen, war das Hotel voll."],
         correctIndex: 0,
         explanation: "Only the first has the same subject (\"wir\") for the participle and the main clause.",
@@ -908,15 +908,15 @@ export const DE_C1_U04: Lesson[] = [
     level: "DE-C1",
     number: 5,
     title: "Error Hunt: Dangling Participles and Wrong Endings",
-    summary: "You'll be able to repair sentences whose participle has the wrong subject (\"*Im Büro angekommen, klingelte das Telefon\") or the wrong ending (\"*die gestern gekaufte Bücher\", \"*ein zu lösendes Probleme\").",
+    summary: "You'll be able to repair sentences whose participle has the wrong subject (\"*Im Büro angekommen, klingelte das Telefon*\") or the wrong ending (\"*die gestern gekaufte Bücher*\", \"*ein zu lösendes Probleme*\").",
     duration: "16 min",
     sections: [
       {
         heading: "Dangling participles",
         body: [
-          "Error 1, from a work email: \"*Im Büro angekommen, klingelte das Telefon.\" The participle's subject (I) isn't the main subject (the phone). Two repairs: change the main clause (\"Im Büro angekommen, hörte ich das Telefon klingeln\") or use a clause (\"Als ich im Büro ankam, klingelte das Telefon\").",
-          "Error 2, from a blog: \"*Krank im Bett liegend, besuchte mich der Arzt.\" The doctor isn't lying in bed. Repair: \"Als ich krank im Bett lag, besuchte mich der Arzt.\"",
-          "Error 3: \"*Nach Hause gekommen, wartete schon das Essen auf mich.\" Repair: \"Als ich nach Hause kam, wartete schon das Essen auf mich\" or \"Nach Hause gekommen, sah ich, dass das Essen schon wartete.\"",
+          "Error 1, from a work email: \"*Im Büro angekommen, klingelte das Telefon.*\" The participle's subject (I) isn't the main subject (the phone). Two repairs: change the main clause (\"Im Büro angekommen, hörte ich das Telefon klingeln\") or use a clause (\"Als ich im Büro ankam, klingelte das Telefon\").",
+          "Error 2, from a blog: \"*Krank im Bett liegend, besuchte mich der Arzt.*\" The doctor isn't lying in bed. Repair: \"Als ich krank im Bett lag, besuchte mich der Arzt.\"",
+          "Error 3: \"*Nach Hause gekommen, wartete schon das Essen auf mich.*\" Repair: \"Als ich nach Hause kam, wartete schon das Essen auf mich\" or \"Nach Hause gekommen, sah ich, dass das Essen schon wartete.\"",
         ],
         examples: [
           { es: "Als ich im Büro ankam, klingelte das Telefon.", en: "When I arrived at the office, the phone rang." },
@@ -933,11 +933,11 @@ export const DE_C1_U04: Lesson[] = [
             source: "When I arrived at the office, the phone rang.",
             answer: "Als ich im Büro ankam, klingelte das Telefon.",
             altAnswers: ["Als ich im Büro angekommen war, klingelte das Telefon.", "Als ich ins Büro kam, klingelte das Telefon.", "Nachdem ich im Büro angekommen war, klingelte das Telefon."],
-            explanation: "Different subjects (\"ich\" / \"das Telefon\") need a clause, not \"*Im Büro angekommen, klingelte ...\".",
+            explanation: "Different subjects (\"ich\" / \"das Telefon\") need a clause, not \"*Im Büro angekommen, klingelte ...*\".",
           },
           {
             type: "multiple-choice",
-            question: "Which repair of \"*Krank im Bett liegend, besuchte mich der Arzt\" is correct?",
+            question: "Which repair of \"*Krank im Bett liegend, besuchte mich der Arzt*\" is correct?",
             options: ["Als ich krank im Bett lag, besuchte mich der Arzt.", "Krank im Bett liegend, der Arzt besuchte mich.", "Krank im Bett liegend, besuchte der Arzt mich.", "Der Arzt, krank im Bett liegend, besuchte mich."],
             correctIndex: 0,
             explanation: "Only the clause makes clear that I was in bed. The other three still attach the participle to the doctor.",
@@ -947,9 +947,9 @@ export const DE_C1_U04: Lesson[] = [
       {
         heading: "Wrong endings",
         body: [
-          "Error 4, from a book review: \"*Die gestern gekaufte Bücher sind toll.\" The participle is an adjective: plural after \"die\" = -en: \"die gestern gekauften Bücher\".",
-          "Error 5: \"*ein zu lösendes Probleme\". The noun is singular: \"ein zu lösendes Problem\". Learners distracted by the long attribute lose track of the noun.",
-          "Error 6: \"*mit der neu eröffnete Bibliothek\" → dative after \"mit\": \"mit der neu eröffneten Bibliothek\". Error 7: \"*eines lange erwartete Berichts\" → genitive: \"eines lange erwarteten Berichts\".",
+          "Error 4, from a book review: \"*Die gestern gekaufte Bücher sind toll.*\" The participle is an adjective: plural after \"die\" = -en: \"die gestern gekauften Bücher\".",
+          "Error 5: \"*ein zu lösendes Probleme*\". The noun is singular: \"ein zu lösendes Problem\". Learners distracted by the long attribute lose track of the noun.",
+          "Error 6: \"*mit der neu eröffnete Bibliothek*\" → dative after \"mit\": \"mit der neu eröffneten Bibliothek\". Error 7: \"*eines lange erwartete Berichts*\" → genitive: \"eines lange erwarteten Berichts\".",
           "Method: cover the attribute with your hand, decide the ending you'd use with a simple adjective (\"die neuen Bücher\", \"mit der neuen Bibliothek\"), then apply it to the participle.",
         ],
         examples: [
@@ -990,9 +990,9 @@ export const DE_C1_U04: Lesson[] = [
       {
         heading: "Gerundiv and participle confusion",
         body: [
-          "Error 8: \"*die zu erledigten Aufgaben\". The Gerundiv uses Partizip I (\"erledigend\"), never Partizip II: \"die zu erledigenden Aufgaben\".",
-          "Error 9: \"*das zu ausfüllende Formular\". With separable verbs, \"zu\" goes inside: \"das auszufüllende Formular\".",
-          "Error 10: \"*die gelesende Zeitung\" (mixing the two participles). Either \"die gelesene Zeitung\" (the newspaper that was read) or \"die lesende Frau\" (the woman who is reading).",
+          "Error 8: \"*die zu erledigten Aufgaben*\". The Gerundiv uses Partizip I (\"erledigend\"), never Partizip II: \"die zu erledigenden Aufgaben\".",
+          "Error 9: \"*das zu ausfüllende Formular*\". With separable verbs, \"zu\" goes inside: \"das auszufüllende Formular\".",
+          "Error 10: \"*die gelesende Zeitung*\" (mixing the two participles). Either \"die gelesene Zeitung\" (the newspaper that was read) or \"die lesende Frau\" (the woman who is reading).",
         ],
         examples: [
           { es: "die zu erledigenden Aufgaben", en: "the tasks to be done" },
@@ -1057,7 +1057,7 @@ export const DE_C1_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "the tasks to be done: which is correct?",
+        question: "You want to write: the tasks to be done. Which is correct?",
         options: ["die zu erledigenden Aufgaben", "die zu erledigten Aufgaben", "die zu erledigende Aufgaben", "die erledigenden zu Aufgaben"],
         correctIndex: 0,
         explanation: "Gerundiv = \"zu\" + Partizip I (\"erledigend\"), never Partizip II; plural after \"die\" = -en.",
@@ -1069,7 +1069,7 @@ export const DE_C1_U04: Lesson[] = [
         source: "While I was waiting at the station, a man spoke to me.",
         answer: "Während ich am Bahnhof wartete, sprach mich ein Mann an.",
         altAnswers: ["Als ich am Bahnhof wartete, sprach mich ein Mann an.", "Während ich am Bahnhof gewartet habe, hat mich ein Mann angesprochen.", "Als ich am Bahnhof wartete, sprach ein Mann mich an."],
-        explanation: "Different subjects, so not \"*Am Bahnhof wartend, sprach mich ein Mann an\".",
+        explanation: "Different subjects, so not \"*Am Bahnhof wartend, sprach mich ein Mann an*\".",
       },
       {
         type: "word-order",
@@ -1440,7 +1440,7 @@ export const DE_C1_U04: Lesson[] = [
         body: [
           "A zu-infinitive needs the same subject as the main clause (or the object, with verbs like \"bitten\", \"erlauben\": \"Ich bitte dich, leise zu sein\"). Different subject → dass-clause: \"Ich hoffe, dass du eingeladen wirst.\"",
           "Many verbs and adjectives use a placeholder (Korrelat) in the main clause: \"es\" (\"Es ist wichtig, pünktlich zu sein\", \"Ich finde es schön, hier zu sein\") or \"da(r)\" + preposition for prepositional verbs (\"Ich freue mich darauf, dich zu sehen\", \"Er denkt nicht daran, aufzuhören\", \"Es kommt darauf an, die Frist einzuhalten\").",
-          "Trap: English I'm looking forward to seeing you. German needs \"darauf\": \"Ich freue mich darauf, dich zu sehen\", not \"*Ich freue mich auf, dich zu sehen\".",
+          "Trap: English I'm looking forward to seeing you. German needs \"darauf\": \"Ich freue mich darauf, dich zu sehen\", not \"*Ich freue mich auf, dich zu sehen*\".",
         ],
         examples: [
           { es: "Es ist wichtig, pünktlich zu sein.", en: "It's important to be on time." },
@@ -1457,7 +1457,7 @@ export const DE_C1_U04: Lesson[] = [
             prompt: "Translate into German.",
             source: "I'm looking forward to seeing you.",
             answer: "Ich freue mich darauf, dich zu sehen.",
-            altAnswers: ["Ich freue mich darauf, Sie zu sehen.", "Ich freue mich darauf, euch zu sehen.", "Ich freue mich darauf, dich wiederzusehen.", "Ich freue mich darauf, Sie wiederzusehen."],
+            altAnswers: ["Ich freue mich darauf, Sie zu sehen.", "Ich freue mich darauf, euch zu sehen.", "Ich freue mich darauf, dich wiederzusehen.", "Ich freue mich darauf, Sie wiederzusehen.", "Ich freue mich darauf, euch wiederzusehen."],
             explanation: "\"Sich freuen auf\" → Korrelat \"darauf\" + zu-infinitive. Without \"darauf\", \"Ich freue mich, dich zu sehen\" means I'm glad to see you (now).",
           },
           {
@@ -1515,7 +1515,7 @@ export const DE_C1_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is correct? (I hope to have finished by Friday.)",
+        question: "You want to say: I hope to have finished by Friday. Which is correct?",
         options: ["Ich hoffe, bis Freitag fertig zu sein.", "Ich hoffe, bis Freitag fertig gewesen zu sein.", "Ich hoffe zu sein bis Freitag fertig.", "Ich hoffe, dass bis Freitag fertig zu sein."],
         correctIndex: 0,
         explanation: "English to have finished by = German present \"fertig zu sein\" (a state). The past infinitive would refer to an earlier time.",
@@ -1631,8 +1631,8 @@ export const DE_C1_U04: Lesson[] = [
         heading: "Brauchen nur / nicht + zu",
         body: [
           "\"Brauchen\" + zu-infinitive replaces \"müssen\" in negative and restrictive sentences: \"Du brauchst nicht zu kommen\" (You don't need to come), \"Du brauchst nur anzurufen\" (You only need to call).",
-          "In speech \"zu\" is very often dropped (\"Du brauchst nicht kommen\"), and many grammars now accept it informally. In writing keep \"zu\".",
-          "Positive \"brauchen\" + infinitive isn't used: say \"Du musst kommen\", not \"*Du brauchst zu kommen\".",
+          "In speech \"zu\" is very often dropped (\"Du brauchst nicht kommen\"); dictionaries such as Duden record this as colloquial. In writing keep \"zu\".",
+          "Positive \"brauchen\" + infinitive isn't used: say \"Du musst kommen\", not \"*Du brauchst zu kommen*\".",
         ],
         examples: [
           { es: "Du brauchst nicht zu kommen.", en: "You don't need to come." },
@@ -1664,7 +1664,7 @@ export const DE_C1_U04: Lesson[] = [
       {
         heading: "The double infinitive in the Perfekt",
         body: [
-          "In the Perfekt, modals and verbs like \"lassen\", \"sehen\", \"hören\" (and optionally \"helfen\") use their infinitive instead of the participle when they have a dependent infinitive: \"Ich habe ihn kommen sehen\" (not \"*gesehen\"), \"Sie hat das Auto reparieren lassen\" (not \"*gelassen\"), \"Wir haben nicht bleiben können\".",
+          "In the Perfekt, modals and verbs like \"lassen\", \"sehen\", \"hören\" (and optionally \"helfen\") use their infinitive instead of the participle when they have a dependent infinitive: \"Ich habe ihn kommen sehen\" (not \"*gesehen*\"), \"Sie hat das Auto reparieren lassen\" (not \"*gelassen*\"), \"Wir haben nicht bleiben können\".",
           "Without a dependent infinitive, the normal participle returns: \"Ich habe ihn gesehen\", \"Sie hat das Auto in der Garage gelassen\".",
           "In subordinate clauses, the auxiliary goes in front of both infinitives (Unit 1): \"..., weil sie das Auto hat reparieren lassen\", \"..., dass ich ihn habe kommen sehen\".",
         ],
@@ -2347,7 +2347,7 @@ export const DE_C1_U04: Lesson[] = [
         heading: "Was tun? Deliberative questions",
         body: [
           "A bare infinitive can form a question about what to do: \"Was tun?\" (What to do?), \"Wohin gehen?\" (Where to go?), \"Wie reagieren?\" These are typical of headlines, essays and inner monologue.",
-          "In a full sentence say \"Was soll ich / sollen wir tun?\". In indirect questions use a clause with \"sollen\": \"Ich weiß nicht, was ich tun soll\" / \"Er wusste nicht, wohin er gehen sollte.\" (Note: \"*Ich weiß nicht, was zu tun\" is an anglicism.)",
+          "In a full sentence say \"Was soll ich / sollen wir tun?\". In indirect questions use a clause with \"sollen\": \"Ich weiß nicht, was ich tun soll\" / \"Er wusste nicht, wohin er gehen sollte.\" (Note: \"*Ich weiß nicht, was zu tun*\" is an anglicism.)",
           "But \"Es gibt viel zu tun\" and \"Was ist zu tun?\" (sein + zu) are standard.",
         ],
         examples: [
@@ -2365,7 +2365,7 @@ export const DE_C1_U04: Lesson[] = [
             source: "I don't know what to do.",
             answer: "Ich weiß nicht, was ich tun soll.",
             altAnswers: ["Ich weiß nicht, was ich machen soll.", "Ich weiß nicht, was zu tun ist."],
-            explanation: "Not \"*was zu tun\": German uses a clause with \"sollen\".",
+            explanation: "Not \"*was zu tun*\": German uses a clause with \"sollen\".",
           },
           {
             type: "translate",
@@ -2464,10 +2464,10 @@ export const DE_C1_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is a German anglicism?",
+        question: "Which sentence is an anglicism, not correct German?",
         options: ["Ich weiß nicht, was zu tun.", "Ich weiß nicht, was ich tun soll.", "Was ist zu tun?", "Es gibt viel zu tun."],
         correctIndex: 0,
-        explanation: "\"*Was zu tun\" after \"wissen\" copies English what to do; use \"was ich tun soll\".",
+        explanation: "\"*Was zu tun*\" after \"wissen\" copies English what to do; use \"was ich tun soll\".",
       },
       {
         type: "translate",
@@ -2587,7 +2587,7 @@ export const DE_C1_U04: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "He had a suit made. Which is correct?",
+            question: "You want to say: He had a suit made. Which is correct?",
             options: ["Er hat sich einen Anzug machen lassen.", "Er hat sich einen Anzug machen gelassen.", "Er hat sich einen Anzug zu machen lassen.", "Er hat sich einen Anzug gemacht lassen."],
             correctIndex: 0,
             explanation: "Double infinitive: \"machen lassen\".",
@@ -2706,8 +2706,8 @@ export const DE_C1_U04: Lesson[] = [
         prompt: "Translate into German.",
         source: "He liked hiking in the Alps.",
         answer: "Er wanderte gern in den Alpen.",
-        altAnswers: ["Er ist gern in den Alpen gewandert.", "Er wanderte gerne in den Alpen."],
-        explanation: "Likes + -ing → verb + \"gern\".",
+        altAnswers: ["Er ist gern in den Alpen gewandert.", "Er wanderte gerne in den Alpen.", "Er mochte in den Alpen wandern."],
+        explanation: "Likes + -ing → verb + \"gern\". \"Er mochte ... wandern\" is accepted, but verb + \"gern\" is more natural.",
       },
       {
         type: "matching",
@@ -2969,7 +2969,7 @@ export const DE_C1_U04: Lesson[] = [
     level: "DE-C1",
     number: 14,
     title: "Spiral Review: Non-Finite Forms and Nominalization",
-    summary: "Switch between participial attributes, relative clauses, zu-infinitives and nominal phrases in a short report.",
+    summary: "You'll be able to switch between participial attributes, relative clauses, zu-infinitives and nominal phrases in a short report.",
     duration: "17 min",
     sections: [
       {
@@ -3196,6 +3196,6 @@ export const DE_C1_U04_WRITING: WriteExercise = {
   minWords: 180,
   maxWords: 300,
   rubric: ["Uses at least three extended participial attributes (\"die von Kunden übermittelten Daten\", \"ein nicht verschlüsseltes Gerät\")", "Uses the Gerundiv or sein + zu for obligation (\"die zu löschenden Dateien\", \"Passwörter sind regelmäßig zu ändern\") and haben + zu", "Uses zu-infinitive clauses including um ... zu, ohne ... zu or (an)statt ... zu, and at least one past or passive infinitive (\"gelöscht zu werden\", \"informiert zu haben\")", "Keeps a consistent formal register with impersonal constructions and no dangling participial phrases"],
-  modelAnswer: "Leitfaden zum Umgang mit Kundendaten\n\nDie von unseren Kunden übermittelten Daten gehören zu den sensibelsten Informationen, mit denen wir arbeiten. Jede Mitarbeiterin und jeder Mitarbeiter hat daher die folgenden Regeln einzuhalten.\n\n1. Speicherung: Kundendaten sind ausschließlich auf den vom Unternehmen bereitgestellten, verschlüsselten Servern zu speichern. Das Kopieren auf private oder nicht verschlüsselte Geräte ist untersagt.\n\n2. Zugang: Passwörter sind alle drei Monate zu ändern und dürfen nicht weitergegeben werden. Wer seinen Arbeitsplatz verlässt, ohne den Bildschirm zu sperren, gefährdet die Sicherheit aller.\n\n3. Löschung: Die nicht mehr benötigten Datensätze sind innerhalb von 30 Tagen zu löschen. Die zu löschenden Dateien werden monatlich von der IT-Abteilung geprüft, um sicherzustellen, dass keine Kopien zurückbleiben.\n\n4. Datenpanne: Ein möglicherweise kompromittiertes Gerät ist unverzüglich vom Netz zu trennen. Statt den Fehler selbst beheben zu wollen, ist sofort der Datenschutzbeauftragte zu informieren. Wer einen Vorfall bemerkt, ohne ihn gemeldet zu haben, riskiert arbeitsrechtliche Konsequenzen.\n\nDiese Regeln scheinen auf den ersten Blick streng zu sein. Sie haben sich jedoch in den vergangenen Jahren bewährt, und kein einziger Kunde hat sich bisher über einen Verlust seiner Daten zu beklagen gehabt. Für Rückfragen steht die IT-Abteilung jederzeit zur Verfügung.",
-  explanation: "The guideline compresses relative clauses into participial attributes (\"die von unseren Kunden übermittelten Daten\", \"auf den vom Unternehmen bereitgestellten, verschlüsselten Servern\", \"die nicht mehr benötigten Datensätze\", \"ein möglicherweise kompromittiertes Gerät\"), uses the Gerundiv \"die zu löschenden Dateien\" and many sein + zu obligations (\"sind ... zu speichern\", \"ist ... zu informieren\"). Haben + zu appears in \"hat ... einzuhalten\" and \"zu beklagen gehabt\". The zu-infinitive clauses \"ohne den Bildschirm zu sperren\", \"um sicherzustellen\", \"statt ... beheben zu wollen\" and the past infinitive \"ohne ihn gemeldet zu haben\" complete the range, and \"scheinen ... streng zu sein\" adds a hedged evaluation.",
+  modelAnswer: "Leitfaden zum Umgang mit Kundendaten\n\nDie von unseren Kunden übermittelten Daten gehören zu den sensibelsten Informationen, mit denen wir arbeiten. Jede Mitarbeiterin und jeder Mitarbeiter hat daher die folgenden Regeln einzuhalten.\n\n1. Speicherung: Kundendaten sind ausschließlich auf den vom Unternehmen bereitgestellten, verschlüsselten Servern zu speichern. Das Kopieren auf private oder nicht verschlüsselte Geräte ist untersagt.\n\n2. Zugang: Passwörter sind alle drei Monate zu ändern und dürfen nicht weitergegeben werden. Wer seinen Arbeitsplatz verlässt, ohne den Bildschirm zu sperren, gefährdet die Sicherheit aller.\n\n3. Löschung: Die nicht mehr benötigten Datensätze sind innerhalb von 30 Tagen zu löschen. Die zu löschenden Dateien werden monatlich von der IT-Abteilung geprüft, um sicherzustellen, dass keine Kopien zurückbleiben.\n\n4. Datenpanne: Ein möglicherweise kompromittiertes Gerät ist unverzüglich vom Netz zu trennen. Anstatt den Fehler selbst zu beheben, hat die betroffene Person sofort den Datenschutzbeauftragten zu informieren. Wer einen Vorfall bemerkt, hat nachzuweisen, ihn unverzüglich gemeldet zu haben.\n\nDiese Regeln scheinen auf den ersten Blick streng zu sein. Sie haben sich jedoch in den vergangenen Jahren bewährt, und kein einziger Kunde hat sich bisher über einen Verlust seiner Daten zu beklagen gehabt. Für Rückfragen steht die IT-Abteilung jederzeit zur Verfügung.",
+  explanation: "The guideline compresses relative clauses into participial attributes (\"die von unseren Kunden übermittelten Daten\", \"auf den vom Unternehmen bereitgestellten, verschlüsselten Servern\", \"die nicht mehr benötigten Datensätze\", \"ein möglicherweise kompromittiertes Gerät\"), uses the Gerundiv \"die zu löschenden Dateien\" and many sein + zu obligations (\"sind ... zu speichern\", \"ist ... vom Netz zu trennen\"). Haben + zu appears in \"hat ... einzuhalten\", \"hat ... zu informieren\", \"hat nachzuweisen\" and \"zu beklagen gehabt\". The zu-infinitive clauses \"ohne den Bildschirm zu sperren\", \"um sicherzustellen\", \"anstatt den Fehler selbst zu beheben\" (same subject as the main clause) and the past infinitive \"ihn unverzüglich gemeldet zu haben\" complete the range, and \"scheinen ... streng zu sein\" adds a hedged evaluation.",
 };

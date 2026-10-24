@@ -68,7 +68,7 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
       {
         heading: `The sentence bracket`,
         body: [
-          `The helper verb is the conjugated verb, so it takes position 2, exactly like any verb in a main clause. The participle goes to the very end. Time phrases, objects, "nicht" and adverbs all go inside the bracket. English speakers instinctively put the participle next to the helper ("I have bought a book"), which German does not allow.`,
+          `The helper verb is the conjugated verb, so it takes position 2, exactly like any verb in a main clause. The participle goes to the very end. Time phrases, objects, "nicht" and adverbs all go inside the bracket. English speakers instinctively put the participle next to the helper ('I have bought a book'), which German does not allow.`,
           `In a question the helper moves to position 1 (yes/no questions) or follows the question word. In a subordinate clause with "weil" or "dass", the helper goes to the very end, after the participle: "..., weil ich lange gearbeitet habe".`,
         ],
         examples: [
@@ -82,7 +82,7 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
       {
         heading: `One German tense, several English ones`,
         body: [
-          `The Perfekt translates the English simple past (I went), the present perfect (I have gone) and the emphatic past (I did go). There is no separate form for "did": "Hast du angerufen?" is did you call, and "Ich habe angerufen" can be I called or I did call.`,
+          `The Perfekt translates the English simple past (I went), the present perfect (I have gone) and the emphatic past (I did go). There is no separate form for 'did': "Hast du angerufen?" is did you call, and "Ich habe angerufen" can be I called or I did call.`,
           `Be careful in the other direction. English uses the present perfect for something still going on (I have lived here for two years); German uses the present tense with "seit" for that: "Ich wohne seit zwei Jahren hier". The Perfekt is only for finished actions.`,
         ],
         examples: [
@@ -123,7 +123,7 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
     faqs: [
       {
         q: `Is the Perfekt the same as the English present perfect?`,
-        a: `It looks the same (helper + participle) but works differently. The German Perfekt is the normal spoken past for finished actions, whether or not they connect to the present. "Ich bin gestern ins Kino gegangen" is perfectly normal, even though "I have gone to the cinema yesterday" is wrong in English.`,
+        a: `It looks the same (helper + participle) but works differently. The German Perfekt is the normal spoken past for finished actions, whether or not they connect to the present. "Ich bin gestern ins Kino gegangen" is perfectly normal, even though 'I have gone to the cinema yesterday' is wrong in English.`,
       },
       {
         q: `How do I learn which participles are irregular?`,
@@ -285,7 +285,7 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
       "What the dative does, the dative articles and pronouns, verbs like helfen and gefallen, the plural -n, and the prepositions that always take the dative.",
     level: "A2",
     intro: [
-      `The dative is the third German case. Its core job is the indirect object, the person something is given to, shown to or done for: "Ich gebe dem Kind ein Buch" (I give the child a book). English marks this with word order or with "to"; German marks it with the article.`,
+      `The dative is the third German case. Its core job is the indirect object, the person something is given to, shown to or done for: "Ich gebe dem Kind ein Buch" (I give the child a book). English marks this with word order or with 'to'; German marks it with the article.`,
       `The dative also follows a set of very common prepositions ("mit", "bei", "zu", "von", "aus", "nach", "seit") and a group of verbs that take a dative where English has a plain object ("helfen", "danken", "gefallen"). Since these are everywhere, the dative turns up in almost every German sentence.`,
     ],
     sections: [
@@ -383,9 +383,9 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
         why: `"Helfen" takes the dative: "dir", not the accusative "dich".`,
       },
       {
-        wrong: "Ich mag der Film. / Der Film gefällt ich.",
+        wrong: "Der Film gefällt ich.",
         right: "Der Film gefällt mir.",
-        why: `With "gefallen", the liked thing is the subject and the person is dative.`,
+        why: `With "gefallen", the liked thing is the subject and the person is dative. ("Ich mag den Film" is also correct.)`,
       },
       {
         wrong: "Ich fahre mit der Bus.",
@@ -515,7 +515,7 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
       {
         wrong: "Ich lege die Flasche in den Kühlschrank.",
         right: "Ich stelle die Flasche in den Kühlschrank.",
-        why: `A bottle stands upright, so German uses "stellen".`,
+        why: `A bottle normally stands upright, so German uses "stellen" ("legen" only if you lay it on its side).`,
       },
       {
         wrong: "Ich habe das Handy auf den Tisch gelegen.",
@@ -646,7 +646,7 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
       {
         wrong: "Ich gebe ihm es.",
         right: "Ich gebe es ihm.",
-        why: `With two pronouns, the accusative comes first.`,
+        why: `With two pronouns, the accusative comes first: "Ich gebe es ihm", "Gib es mir". ("Gib mir's" is heard in speech only.)`,
       },
       {
         wrong: "Der Film ist gut. Ich habe es gesehen.",
@@ -838,7 +838,7 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
         heading: `"Mich" or "mir"?`,
         body: [
           `If the sentence has no other direct object, the reflexive pronoun is accusative: "Ich wasche mich". If there is another direct object (often a body part or a piece of clothing), that takes the accusative and the reflexive pronoun becomes dative: "Ich wasche mir die Hände" (I wash my hands).`,
-          `Note that German uses the reflexive dative plus the definite article ("die", "das"), not a possessive, for body parts: literally I wash to myself the hands. The difference only shows with "ich" and "du": "mich/mir", "dich/dir".`,
+          `Note that German usually uses the reflexive dative plus the definite article ("die", "das") rather than a possessive for body parts ("Ich wasche meine Hände" is possible but less idiomatic): literally I wash to myself the hands. The difference only shows with "ich" and "du": "mich/mir", "dich/dir".`,
         ],
         examples: [
           { de: "Ich ziehe mich an.", en: "I get dressed." },
@@ -1010,7 +1010,7 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
       },
       {
         wrong: "Ich mag besser Kaffee.",
-        right: "Ich trinke lieber Kaffee.",
+        right: "Ich trinke lieber Kaffee. / Ich mag Kaffee lieber.",
         why: `Preferring is "lieber" (from "gern") with the verb, not "besser".`,
       },
     ],
@@ -1153,7 +1153,7 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
       "How to give instructions and make requests in German: the du, ihr and Sie forms of the imperative, separable verbs, sein, and how to soften a command with bitte, doch and mal.",
     level: "A2",
     intro: [
-      `German has three imperative forms, because it has three ways to say you: "du" (one person you know well), "ihr" (several people you know well) and "Sie" (polite, one or more). Choosing the right one matters more than in English, where come here! is the same for everyone.`,
+      `German has three imperative forms, because it has three ways to say you: "du" (one person you know well), "ihr" (several people you know well) and "Sie" (formal, one or more). Choosing the right one matters more than in English, where come here! is the same for everyone.`,
       `On their own, German imperatives can sound abrupt to English ears. Germans soften them with "bitte" and with the little words "mal" and "doch", which turn an order into a friendly request.`,
     ],
     sections: [
@@ -1454,7 +1454,7 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
     faqs: [
       {
         q: `Is time-manner-place a strict rule?`,
-        a: `It is the neutral default. Native speakers shift things for emphasis, and the end of the middle field gets the stress. If you follow time-manner-place, you will always sound natural; deviations will sound marked rather than wrong.`,
+        a: `It is the neutral default. Native speakers shift things for emphasis, and the end of the middle field gets the stress. If you follow time-manner-place, you will sound natural; deviations will sound marked rather than wrong.`,
       },
       {
         q: `Does the same order apply in subordinate clauses?`,

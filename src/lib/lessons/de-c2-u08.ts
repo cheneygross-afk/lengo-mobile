@@ -219,7 +219,7 @@ export const DE_C2_U08: Lesson[] = [
     slug: "c2-euphemism-decode-text-detective",
     level: "DE-C2",
     number: 2,
-    title: "Text Detective: Den Euphemismus Entschlüsseln",
+    title: "Text Detective: Den Euphemismus entschlüsseln",
     summary: "Decode corporate and political euphemisms such as \"Personalanpassung\", \"Preisanpassung\" and \"Kollateralschaden\", and say in plain German what they really mean.",
     duration: "18 min",
     sections: [
@@ -287,7 +287,7 @@ export const DE_C2_U08: Lesson[] = [
             question: "What does it mean, in plain language?",
             options: ["Civilians were killed in the attack.", "Buildings were slightly damaged.", "The attack was a success.", "Soldiers were injured."],
             correctIndex: 0,
-            explanation: "\"Kollateralschäden\" hides civilian casualties; that's why it became the \"Unwort des Jahres\" 1999.",
+            explanation: "\"Kollateralschäden\" hides civilian casualties; that's why it became the \"Unwort des Jahres\" of 1999.",
           },
         ],
       },
@@ -1055,7 +1055,7 @@ export const DE_C2_U08: Lesson[] = [
             prompt: "Translate into German.",
             source: "I would have liked you to tell me sooner.",
             answer: "Ich hätte mir gewünscht, dass du mich früher informierst.",
-            altAnswers: ["Ich hätte mir gewünscht, dass du mich früher informiert hättest.", "Ich hätte mir gewünscht, dass Sie mich früher informieren.", "Ich hätte mir gewünscht, dass du mir früher Bescheid sagst.", "Ich hätte mir gewünscht, dass Sie mir früher Bescheid sagen.", "Ich hätte mir gewünscht, dass Sie mich früher informiert hätten."],
+            altAnswers: ["Ich hätte mir gewünscht, dass du mich früher informiert hättest.", "Ich hätte mir gewünscht, dass Sie mich früher informieren.", "Ich hätte mir gewünscht, dass du mir früher Bescheid sagst.", "Ich hätte mir gewünscht, dass Sie mir früher Bescheid sagen.", "Ich hätte mir gewünscht, dass Sie mich früher informiert hätten.", "Ich hätte mir gewünscht, dass ihr mich früher informiert."],
             explanation: "\"Ich hätte mir gewünscht, dass ...\" (Konjunktiv II past) turns a reproach into an I-message.",
           },
         ],
@@ -1174,7 +1174,7 @@ export const DE_C2_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Why was \"alternativlos\" chosen as \"Unwort des Jahres\" 2010?",
+        question: "Why was \"alternativlos\" chosen as the \"Unwort des Jahres\" of 2010?",
         options: ["It presents a political decision as having no alternative and stifles debate.", "It is grammatically incorrect.", "It is an anglicism.", "It insults a minority group."],
         correctIndex: 0,
         explanation: "The jury criticised it for suggesting that discussion was pointless.",
@@ -1266,7 +1266,7 @@ export const DE_C2_U08: Lesson[] = [
         heading: "Mission 2: the feedback email",
         body: [
           "You lead a team in Hamburg. Mia, a junior colleague, wrote a client report that was late and had errors in the figures. Write her a tactful email. Structure: appreciation, specific observation (I-message), expectation for next time, offer of support.",
-          "Model: \"Liebe Mia, vielen Dank für deinen Bericht zum Projekt Nordlicht. Die Analyse der Kundenwünsche finde ich sehr gelungen. Mir ist allerdings aufgefallen, dass einige Zahlen in Tabelle 3 nicht ganz stimmen und der Bericht zwei Tage später kam als vereinbart. Für den nächsten Bericht wäre es wichtig, dass wir den Termin einhalten und die Zahlen vorher noch einmal gemeinsam prüfen. Lass uns doch am Donnerstag kurz darüber sprechen. Viele Grüße, Lena\"",
+          "Model: \"Liebe Mia, vielen Dank für deinen Bericht zum Projekt Nordlicht. Die Analyse der Kundenwünsche finde ich sehr gelungen. Mir ist allerdings aufgefallen, dass einige Zahlen in Tabelle 3 nicht ganz stimmen und der Bericht zwei Tage später kam als vereinbart. Für den nächsten Bericht wäre es wichtig, dass wir den Termin einhalten und die Zahlen vorher noch einmal gemeinsam prüfen. Lass uns doch am Donnerstag kurz darüber sprechen. Viele Grüße Lena\"",
           "Notice: \"allerdings\" (however) marks the turn gently; \"nicht ganz stimmen\" softens; \"wäre wichtig\" (Konjunktiv II) frames the expectation; \"wir\" and \"gemeinsam\" share responsibility; \"Lass uns doch\" makes a friendly proposal.",
         ],
         examples: [
@@ -1289,7 +1289,7 @@ export const DE_C2_U08: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "It would be important for us to [meet the deadline].",
+            en: "It would be important for us to [meet] the deadline.",
             sentence: "Es wäre wichtig, dass wir den Termin ___.",
             answer: "einhalten",
             explanation: "\"Einen Termin / eine Frist einhalten\" = to meet a deadline; separable, but unsplit at the end of a dass-clause.",
@@ -1366,7 +1366,7 @@ export const DE_C2_U08: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "[We share your grief], Mrs Weber.",
+        en: "[We share your grief], Ms Weber.",
         sentence: "___, Frau Weber.",
         answer: "Wir trauern mit Ihnen",
         explanation: "\"Mit jemandem trauern\" = to grieve with someone; \"Ihnen\" for a person you call Sie.",

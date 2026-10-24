@@ -126,7 +126,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
       },
       {
         q: `Is the Präteritum ever used in speech?`,
-        a: `Always for "sein", "haben", the modals, "es gab", and commonly for "wusste", "dachte", "fand" (I found it, as in an opinion), "ging" (in "es ging", it was okay). In northern Germany it is more common in speech than in the south.`,
+        a: `Yes: regularly for "sein", "haben", the modals and "es gab", and commonly for "wusste", "dachte", "fand" (I found it, as in an opinion), "ging" (in "es ging", it was okay). In northern Germany it is more common in speech than in the south.`,
       },
     ],
     related: ["perfekt-haben-sein", "praeteritum-sein-haben-modals", "plusquamperfekt", "als-wenn-wann"],
@@ -252,7 +252,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
     level: "B1",
     intro: [
       `English uses when for three different jobs, and German uses three different words. "Als" is for a single event or period in the past. "Wenn" is for repeated events (whenever) and for the present or future (when, if). "Wann" is for questions, direct or indirect.`,
-      `Getting this right is one of the clearest signs of a confident Intermediate speaker, and "wenn" where "als" belongs is one of the most frequent errors in Goethe B1 writing.`,
+      `Getting this right is one of the clearest signs of a confident Intermediate speaker, and "wenn" where "als" belongs is one of the most frequent learner errors in writing.`,
     ],
     sections: [
       {
@@ -549,7 +549,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
       {
         heading: `"Wo", "was" and "wer"`,
         body: [
-          `For places, "wo" can replace preposition + pronoun: "die Stadt, wo ich wohne" is as good as "die Stadt, in der ich wohne". After "alles", "nichts", "etwas", "das" and superlatives used as nouns, the relative pronoun is "was": "alles, was ich weiß", "das Beste, was mir passiert ist". "Was" also refers back to a whole clause: "Er hat angerufen, was mich gefreut hat".`,
+          `For places, "wo" can replace preposition + pronoun: "die Stadt, wo ich wohne" is correct, though careful writing often prefers "die Stadt, in der ich wohne". After "alles", "nichts", "etwas", "das" and superlatives used as nouns, the relative pronoun is "was": "alles, was ich weiß", "das Beste, was mir passiert ist". "Was" also refers back to a whole clause: "Er hat angerufen, was mich gefreut hat".`,
           `"Wer" means whoever, those who: "Wer zu spät kommt, muss draußen warten".`,
         ],
         examples: [
@@ -706,7 +706,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
     faqs: [
       {
         q: `Do I need a comma before a zu-infinitive?`,
-        a: `With "um", "ohne", "statt", always. Otherwise it is often optional, but a comma is never wrong when the infinitive clause has more than just "zu" + verb, and it helps readers.`,
+        a: `With "um", "ohne", "statt", always. Otherwise it is often optional, but a comma is almost never wrong when the infinitive clause has more than just "zu" + verb, and it helps readers.`,
       },
       {
         q: `What does "brauchen ... zu" mean?`,
@@ -1103,7 +1103,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
     level: "B1",
     intro: [
       `A group of masculine nouns adds "-n" or "-en" in every form except the nominative singular: "der Student" but "den Studenten", "dem Studenten", "des Studenten". This is the n-declension (also called weak masculine nouns). Forgetting the ending is one of the most common errors at the Intermediate level, and examiners notice it.`,
-      `The good news: the group is easy to recognise from its form and meaning, and almost all of them are male people or animals.`,
+      `The good news: the group is easy to recognise from its form and meaning, and most of them are male people or animals.`,
     ],
     sections: [
       {
@@ -1394,7 +1394,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
       {
         wrong: "Ich freue mich, dich zu sehen am Wochenende.",
         right: "Ich freue mich darauf, dich am Wochenende zu sehen.",
-        why: `Looking forward needs "darauf", and the infinitive goes to the end of its clause.`,
+        why: `"Darauf" makes the looking forward clear ("Ich freue mich, dich zu sehen" usually means I'm glad to see you), and the infinitive goes to the end of its clause.`,
       },
       {
         wrong: "daauf, daüber",

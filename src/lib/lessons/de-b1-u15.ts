@@ -8,7 +8,7 @@ export const DE_B1_U15: Lesson[] = [
     level: "DE-B1",
     number: 1,
     title: "The Passive in the Perfekt: Ist...Worden",
-    summary: "Say what has been done: sein + participle + worden (Das Paket ist gestern geliefert worden), and never geworden in the passive.",
+    summary: "Say what has been done with \"sein\" + participle + \"worden\" (\"Das Paket ist gestern geliefert worden\"), and never \"geworden\" in the passive.",
     duration: "15 min",
     sections: [
       {
@@ -34,7 +34,7 @@ export const DE_B1_U15: Lesson[] = [
       {
         heading: "Worden, never geworden",
         body: [
-          "This is the classic mistake: \"*Das Haus ist gebaut geworden\". \"Geworden\" only appears when \"werden\" is the main verb meaning become: \"Er ist Arzt geworden\" (He became a doctor), \"Es ist kalt geworden\" (It has got cold).",
+          "This is the classic mistake: \"*Das Haus ist gebaut geworden*\". \"Geworden\" only appears when \"werden\" is the main verb meaning become: \"Er ist Arzt geworden\" (He became a doctor), \"Es ist kalt geworden\" (It has got cold).",
           "So the test is simple: is there another participle in the sentence? Then it's \"worden\". Is there an adjective or a noun? Then it's \"geworden\". \"Sie ist krank geworden\" (she fell ill) but \"Sie ist operiert worden\" (she was operated on).",
         ],
         examples: [
@@ -77,7 +77,7 @@ export const DE_B1_U15: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into German with the Perfekt.", source: "We weren't asked.", answer: "Wir sind nicht gefragt worden.", altAnswers: ["Wir wurden nicht gefragt.", "Uns hat niemand gefragt."], explanation: "\"Fragen\" takes the accusative, so \"wir\" can be the subject." },
       { type: "translate", direction: "en-es", prompt: "Translate into German with the Perfekt.", source: "When was the town hall built?", answer: "Wann ist das Rathaus gebaut worden?", altAnswers: ["Wann wurde das Rathaus gebaut?"], explanation: "Question: \"ist\" after the question word." },
       { type: "translate", direction: "en-es", prompt: "Translate into German with the Perfekt.", source: "He says that his car has been damaged.", answer: "Er sagt, dass sein Auto beschädigt worden ist.", altAnswers: ["Er sagt, dass sein Wagen beschädigt worden ist.", "Er sagt, dass sein Auto beschädigt wurde."], explanation: "\"Ist\" at the very end." },
-      { type: "fill-blank", prompt: "Write the German for the bold words.", en: "The letter [has been sent].", sentence: "Der Brief ist abgeschickt ___.", answer: "worden", explanation: "Passive: \"worden\"." },
+      { type: "fill-blank", prompt: "Write the German for the bold words.", en: "The letter has [been] sent.", sentence: "Der Brief ist abgeschickt ___.", answer: "worden", explanation: "Passive: \"worden\"." },
       { type: "fill-blank", prompt: "Write the German for the bold words.", en: "The children have [grown up].", sentence: "Die Kinder sind groß ___.", answer: "geworden", explanation: "Adjective: become." },
       { type: "multiple-choice", question: "Which sentence is correct?", options: ["Die Rechnung ist noch nicht bezahlt worden.", "Die Rechnung hat noch nicht bezahlt worden.", "Die Rechnung ist noch nicht bezahlt geworden.", "Die Rechnung ist noch nicht worden bezahlt."], correctIndex: 0, explanation: "\"Ist\" + participle + \"worden\"." },
       { type: "dictation", audio: "Mein Fahrrad ist gestern gestohlen worden.", explanation: "\"Gestohlen worden\": Perfekt passive." },
@@ -89,7 +89,7 @@ export const DE_B1_U15: Lesson[] = [
     level: "DE-B1",
     number: 2,
     title: "The Passive with Modal Verbs",
-    summary: "Say what must, can or may be done: Die Heizung muss repariert werden; Hier darf nicht geparkt werden; Die Wohnung musste renoviert werden.",
+    summary: "Say what must, can or may be done: \"Die Heizung muss repariert werden\", \"Hier darf nicht geparkt werden\", \"Die Wohnung musste renoviert werden\".",
     duration: "15 min",
     sections: [
       {
@@ -97,7 +97,7 @@ export const DE_B1_U15: Lesson[] = [
         body: [
           "To say something must, can or should be done, put the modal verb in position 2 and the passive infinitive at the end: participle + \"werden\". \"Die Heizung muss repariert werden\" (The heating must be repaired). \"Der Antrag kann online gestellt werden\" (The application can be submitted online).",
           "The modal agrees with the subject: \"Das Fenster muss geputzt werden\", but \"Die Fenster müssen geputzt werden\". \"Werden\" itself never changes: it stays an infinitive at the very end.",
-          "The trap for English speakers: must be repaired is not \"*muss repariert sein\". \"Sein\" would describe a finished state. For something that has to be done, it's always \"werden\".",
+          "The trap for English speakers: must be repaired is not \"*muss repariert sein*\". \"Sein\" would describe a finished state. For something that has to be done, it's always \"werden\".",
         ],
         examples: [
           { es: "Die Heizung muss repariert werden.", en: "The heating must be repaired." },
@@ -169,7 +169,7 @@ export const DE_B1_U15: Lesson[] = [
     level: "DE-B1",
     number: 3,
     title: "Von or Durch?",
-    summary: "Name who did it with von + dative, and what caused it with durch + accusative: Die Stadt wurde durch ein Erdbeben zerstört.",
+    summary: "Name who did it with \"von\" + dative, and what caused it with \"durch\" + accusative: \"Die Stadt wurde durch ein Erdbeben zerstört\".",
     duration: "15 min",
     sections: [
       {
@@ -235,7 +235,7 @@ export const DE_B1_U15: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "Many trees were knocked down by the storm.", answer: "Viele Bäume wurden durch den Sturm umgeworfen.", altAnswers: ["Viele Bäume sind durch den Sturm umgeworfen worden.", "Viele Bäume wurden vom Sturm umgeworfen."], explanation: "\"Durch den Sturm\": accusative." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "The application was rejected by the office.", answer: "Der Antrag wurde vom Amt abgelehnt.", altAnswers: ["Der Antrag ist vom Amt abgelehnt worden."], explanation: "\"Vom\" = \"von dem\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "The church was built by the townspeople.", answer: "Die Kirche wurde von den Bürgern gebaut.", altAnswers: ["Die Kirche ist von den Bürgern gebaut worden."], explanation: "Dative plural: \"den Bürgern\"." },
-      { type: "fill-blank", prompt: "Write the German for the bold words.", en: "The bridge was damaged [by the] flood.", sentence: "Die Brücke wurde ___ das Hochwasser beschädigt.", answer: "durch", explanation: "Cause: \"durch\"." },
+      { type: "fill-blank", prompt: "Write the German for the bold words.", en: "The bridge was damaged [by] the flood.", sentence: "Die Brücke wurde ___ das Hochwasser beschädigt.", answer: "durch", explanation: "Cause: \"durch\"." },
       { type: "fill-blank", prompt: "Write the German for the bold words.", en: "The letter was written [by the] mayor.", sentence: "Der Brief wurde ___ Bürgermeister geschrieben.", answer: "vom", altAnswers: ["von dem"], explanation: "A person: \"vom\"." },
       { type: "word-order", prompt: "Put the words in order to say: He was woken by the noise.", words: ["Er", "wurde", "durch", "den Lärm", "geweckt."], translation: "He was woken by the noise.", explanation: "\"Durch\" + accusative." },
       { type: "dictation", audio: "Das Dach wurde durch den Sturm beschädigt.", explanation: "\"Durch den Sturm\"." },
@@ -247,7 +247,7 @@ export const DE_B1_U15: Lesson[] = [
     level: "DE-B1",
     number: 4,
     title: "Minimal Pairs: Geworden / Worden",
-    summary: "Hear and choose between become (Er ist krank geworden) and the passive (Er ist operiert worden).",
+    summary: "Hear and choose between become (\"Er ist krank geworden\") and the passive (\"Er ist operiert worden\").",
     duration: "15 min",
     sections: [
       {
@@ -292,7 +292,7 @@ export const DE_B1_U15: Lesson[] = [
         heading: "In a subordinate clause",
         body: [
           "At the end of a subordinate clause, \"ist\" follows: \"..., dass er krank geworden ist\" vs \"..., dass er operiert worden ist\". Listen to the two words before \"ist\" and decide.",
-          "In writing, a quick check helps: delete the word before \"worden\" or \"geworden\". If what's left is a participle, it's the passive.",
+          "In writing, a quick check helps: look at the word just before \"worden\" or \"geworden\". If it's a participle, the sentence is passive and needs \"worden\".",
         ],
         examples: [
           { es: "Ich habe gehört, dass er krank geworden ist.", en: "I heard that he's fallen ill." },
@@ -326,7 +326,7 @@ export const DE_B1_U15: Lesson[] = [
     level: "DE-B1",
     number: 5,
     title: "Talk About You: Your City",
-    summary: "Tell your town's history and changes in the passive: Meine Stadt wurde im 12. Jahrhundert gegründet; Der Bahnhof ist neu gebaut worden.",
+    summary: "Tell your town's history and changes in the passive: \"Meine Stadt wurde im 12. Jahrhundert gegründet\", \"Der Bahnhof ist neu gebaut worden\".",
     duration: "15 min",
     sections: [
       {
@@ -391,7 +391,7 @@ export const DE_B1_U15: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "More playgrounds need to be built.", answer: "Mehr Spielplätze müssen gebaut werden.", altAnswers: ["Es müssen mehr Spielplätze gebaut werden."], explanation: "Plural: \"müssen\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "Rents mustn't be raised any further.", answer: "Die Mieten dürfen nicht weiter erhöht werden.", altAnswers: ["Die Mieten dürfen nicht mehr erhöht werden."], explanation: "\"Dürfen nicht\": must not." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "The first factory was built in the 19th century.", answer: "Die erste Fabrik wurde im 19. Jahrhundert gebaut.", altAnswers: ["Im 19. Jahrhundert wurde die erste Fabrik gebaut.", "Die erste Fabrik wurde im neunzehnten Jahrhundert gebaut."], explanation: "\"Im\" + century." },
-      { type: "fill-blank", prompt: "Write the German for the bold words.", en: "Lots of trees have [been planted].", sentence: "Viele Bäume sind gepflanzt ___.", answer: "worden", explanation: "Perfekt passive." },
+      { type: "fill-blank", prompt: "Write the German for the bold words.", en: "Lots of trees have [been] planted.", sentence: "Viele Bäume sind gepflanzt ___.", answer: "worden", explanation: "Perfekt passive." },
       { type: "word-order", prompt: "Put the words in order to say: The old town was rebuilt after the war.", words: ["Die Altstadt", "wurde", "nach dem Krieg", "wieder", "aufgebaut."], translation: "The old town was rebuilt after the war.", explanation: "Participle last." },
       { type: "matching", instructions: "Match the German with the English.", pairs: [{ left: "gründen", right: "to found" }, { left: "zerstören", right: "to destroy" }, { left: "erweitern", right: "to extend" }, { left: "wieder aufbauen", right: "to rebuild" }, { left: "benennen", right: "to name" }], explanation: "Key verbs for town history." },
       { type: "dictation", audio: "Meine Stadt wurde im zwölften Jahrhundert gegründet.", explanation: "Centuries are read as ordinals." },
@@ -403,7 +403,7 @@ export const DE_B1_U15: Lesson[] = [
     level: "DE-B1",
     number: 6,
     title: "Intermediate Vocabulary Practice, Part 6 of 10",
-    summary: "High-frequency Intermediate vocabulary: repairs, tools, damage and insurance (die Versicherung, der Schaden, kaputtgehen).",
+    summary: "Talk about things that break, repairs, tools, damage and insurance with high-frequency words (\"die Versicherung\", \"der Schaden\", \"kaputtgehen\").",
     duration: "15 min",
     sections: [
       {
@@ -466,7 +466,7 @@ export const DE_B1_U15: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "Who broke the lamp?", answer: "Wer hat die Lampe kaputt gemacht?", altAnswers: ["Wer hat die Lampe kaputtgemacht?"], explanation: "Someone did it: \"kaputt machen\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "The plumber is coming tomorrow.", answer: "Der Klempner kommt morgen.", altAnswers: ["Der Installateur kommt morgen."], explanation: "\"Der Klempner\": plumber." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "There's a crack in the wall.", answer: "In der Wand ist ein Riss.", altAnswers: ["Die Wand hat einen Riss.", "Es gibt einen Riss in der Wand."], explanation: "\"Der Riss\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "The heating must be repaired by an electrician.", answer: "Die Heizung muss von einem Elektriker repariert werden.", altAnswers: ["Die Heizung muss von einer Elektrikerin repariert werden."], explanation: "Modal passive + \"von\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "The cooker must be repaired by an electrician.", answer: "Der Herd muss von einem Elektriker repariert werden.", altAnswers: ["Der Herd muss von einer Elektrikerin repariert werden."], explanation: "Modal passive + \"von\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "The damage was paid for by the insurance.", answer: "Der Schaden wurde von der Versicherung bezahlt.", altAnswers: ["Der Schaden ist von der Versicherung bezahlt worden."], explanation: "\"Von der Versicherung\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "My phone broke yesterday.", answer: "Mein Handy ist gestern kaputtgegangen.", altAnswers: ["Gestern ist mein Handy kaputtgegangen."], explanation: "\"Ist ... kaputtgegangen\"." },
       { type: "fill-blank", prompt: "Write the German for the bold words.", en: "Do you have a [screwdriver]?", sentence: "Hast du einen ___?", answer: "Schraubenzieher", altAnswers: ["Schraubendreher"], explanation: "\"Der Schraubenzieher\"." },
@@ -544,8 +544,8 @@ export const DE_B1_U15: Lesson[] = [
     exercises: [
       { type: "fill-blank", prompt: "Write the German for the bold words.", en: "The rennet [is] added.", sentence: "Das Lab ___ dazugegeben.", answer: "wird", explanation: "Present passive." },
       { type: "fill-blank", prompt: "Write the German for the bold words.", en: "The mass is [cut] with a harp.", sentence: "Die Masse wird mit einer Harfe ___.", answer: "geschnitten", explanation: "\"Schneiden\" → \"geschnitten\"." },
-      { type: "fill-blank", prompt: "Write the German for the bold words.", en: "The hut was destroyed [by a] storm.", sentence: "Die Hütte wurde ___ einen Sturm zerstört.", answer: "durch", explanation: "A cause: \"durch\"." },
-      { type: "fill-blank", prompt: "Write the German for the bold words.", en: "It was rebuilt [by the] farmers.", sentence: "Sie wurde ___ den Bauern wieder aufgebaut.", answer: "von", explanation: "People: \"von\" + dative." },
+      { type: "fill-blank", prompt: "Write the German for the bold words.", en: "The hut was destroyed [by] a storm.", sentence: "Die Hütte wurde ___ einen Sturm zerstört.", answer: "durch", explanation: "A cause: \"durch\"." },
+      { type: "fill-blank", prompt: "Write the German for the bold words.", en: "It was rebuilt [by] the farmers.", sentence: "Sie wurde ___ den Bauern wieder aufgebaut.", answer: "von", explanation: "People: \"von\" + dative." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "The milk is brought by the farmers.", answer: "Die Milch wird von den Bauern gebracht.", altAnswers: ["Die Milch wird von den Bauern geliefert."], explanation: "\"Von den Bauern\": dative plural." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "The wheels have to be turned every day.", answer: "Die Laibe müssen jeden Tag gewendet werden.", altAnswers: ["Die Käselaibe müssen jeden Tag gewendet werden.", "Die Laibe müssen täglich gewendet werden."], explanation: "Modal passive." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "Ten years ago the cellar was extended.", answer: "Vor zehn Jahren ist der Keller erweitert worden.", altAnswers: ["Vor zehn Jahren wurde der Keller erweitert."], explanation: "Perfekt passive." },
@@ -561,13 +561,13 @@ export const DE_B1_U15: Lesson[] = [
     level: "DE-B1",
     number: 8,
     title: "Frequent Words: Work, Ideas and Organisation",
-    summary: "Die Besprechung, das Projekt, die Abteilung, der Termin, organisieren, planen, verschieben (verschob, verschoben), absagen, die Frist, erledigen.",
+    summary: "Talk about meetings, projects, appointments and deadlines at work: \"die Besprechung\", \"das Projekt\", \"die Abteilung\", \"der Termin\", \"organisieren\", \"planen\", \"verschieben\", \"absagen\", \"die Frist\", \"erledigen\".",
     duration: "15 min",
     sections: [
       {
         heading: "Meetings and appointments",
         body: [
-          "\"Die Besprechung\" is a work meeting (\"das Meeting\" is also common in offices). \"Der Termin\" is any fixed appointment: at the doctor's, with a client, a deadline date. You \"vereinbaren\" or \"ausmachen\" a Termin, and you can \"verschieben\" it (postpone: \"verschob\", \"hat verschoben\") or \"absagen\" it (cancel).",
+          "\"Die Besprechung\" is a work meeting (\"das Meeting\" is also common in offices). \"Der Termin\" is any fixed appointment: at the doctor's, with a client, a deadline date. You \"vereinbaren\" or \"ausmachen\" a \"Termin\", and you can \"verschieben\" it (postpone: \"verschob\", \"hat verschoben\") or \"absagen\" it (cancel).",
           "In the passive: \"Die Besprechung ist auf Donnerstag verschoben worden\" (The meeting has been moved to Thursday), \"Der Termin wurde abgesagt\".",
         ],
         examples: [

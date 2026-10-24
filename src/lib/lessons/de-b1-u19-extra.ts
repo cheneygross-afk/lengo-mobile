@@ -9,7 +9,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Adjective Endings, Part 1 of 3",
-    summary: "Nominative and accusative endings with der-words, ein-words and no article.",
+    summary: "Practise nominative and accusative adjective endings after der-words, after ein-words and with no article.",
     duration: "12 min",
     sections: [
       {
@@ -141,7 +141,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which phrase is correct for: a long letter (accusative)?",
+        question: "Complete: \"Ich schreibe dir ... .\" (a long letter)",
         options: ["einen langen Brief", "einen langer Brief", "ein langen Brief", "einen lange Brief"],
         correctIndex: 0,
         explanation: "\"Der Brief\": masculine accusative \"einen langen\".",
@@ -169,7 +169,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Adjective Endings, Part 2 of 3",
-    summary: "Dative endings in fresh everyday sentences.",
+    summary: "Practise dative adjective endings, with and without an article, in everyday sentences.",
     duration: "12 min",
     sections: [
       {
@@ -293,7 +293,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which phrase is correct?",
+        question: "How do you say: from a small village?",
         options: ["aus einem kleinen Dorf", "aus einem kleines Dorf", "aus ein kleinen Dorf", "aus einen kleinen Dorf"],
         correctIndex: 0,
         explanation: "\"Aus\" + dative neuter: \"einem kleinen\".",
@@ -329,7 +329,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Adjective Endings, Part 3 of 3",
-    summary: "Genitive endings and phrases with no article.",
+    summary: "Practise genitive adjective endings (\"wegen des schlechten Wetters\", \"trotz starken Regens\") and phrases with no article.",
     duration: "12 min",
     sections: [
       {
@@ -454,7 +454,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which phrase is correct?",
+        question: "How do you say: at the beginning of the new year?",
         options: ["am Anfang des neuen Jahres", "am Anfang des neues Jahres", "am Anfang der neuen Jahres", "am Anfang des neuen Jahr"],
         correctIndex: 0,
         explanation: "Genitive neuter: \"des neuen Jahres\".",
@@ -599,7 +599,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which description is correct?",
+        question: "At the lost property office: \"Es ist ...\" (a big green suitcase). What do you say?",
         options: ["ein großer grüner Koffer", "ein große grüne Koffer", "ein großer grüne Koffer", "ein großen grünen Koffer"],
         correctIndex: 0,
         explanation: "Nominative masculine after \"ein\": both adjectives -er.",
@@ -791,7 +791,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
           { es: "Haben Sie den blauen Pullover auch in Größe M?", en: "Do you have the blue jumper in a medium too?" },
           { es: "Wie viel kostet die schwarze Jacke im Schaufenster?", en: "How much is the black jacket in the window?" },
           { es: "Welchen Mantel meinen Sie? — Den langen grauen.", en: "Which coat do you mean? — The long grey one." },
-          { es: "Die engen Jeans passen mir leider nicht.", en: "The skinny jeans don't fit me, unfortunately." },
+          { es: "Die engen Jeans passen mir leider nicht.", en: "The tight jeans don't fit me, unfortunately." },
           { es: "Ich nehme das grüne Kleid.", en: "I'll take the green dress." },
         ],
         checkpoint: [
@@ -874,7 +874,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Which dress do you mean? — The red one.",
         answer: "Welches Kleid meinen Sie? — Das rote.",
-        altAnswers: ["Welches Kleid meinst du? — Das rote."],
+        altAnswers: ["Welches Kleid meinst du? — Das rote.", "Welches Kleid meint ihr? — Das rote."],
         explanation: "\"Welches\" like \"das\"; the adjective alone keeps its ending: \"das rote\".",
       },
       {
@@ -895,7 +895,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which coat do you mean? Which question is correct?",
+        question: "The shop assistant asks you: Which coat do you mean? What does she say?",
         options: ["Welchen Mantel meinen Sie?", "Welcher Mantel meinen Sie?", "Welches Mantel meinen Sie?", "Welchem Mantel meinen Sie?"],
         correctIndex: 0,
         explanation: "\"Der Mantel\" as object: accusative \"welchen\".",
@@ -927,7 +927,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
     number: 7,
     optional: true,
     title: "Extra Practice: Viele, Alle, Einige",
-    summary: "Strong or weak endings after quantity words.",
+    summary: "Choose strong or weak adjective endings after quantity words: \"viele junge Leute\" but \"alle jungen Leute\".",
     duration: "12 min",
     sections: [
       {
@@ -1043,7 +1043,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is correct?",
+        question: "How do you say: some new ideas / all the new ideas?",
         options: ["einige neue Ideen / alle neuen Ideen", "einige neuen Ideen / alle neue Ideen", "einige neue Ideen / alle neue Ideen", "einige neuen Ideen / alle neuen Ideen"],
         correctIndex: 0,
         explanation: "\"Einige\" → strong -e, \"alle\" → weak -en.",
@@ -1079,13 +1079,13 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
     number: 8,
     optional: true,
     title: "Extra Practice: Dunkle, Teure, Hohe",
-    summary: "Spelling changes in adjective stems before an ending.",
+    summary: "Spell adjective stems correctly before an ending: \"dunkel\" → \"dunkle\", \"teuer\" → \"teure\", \"hoch\" → \"hohe\".",
     duration: "12 min",
     sections: [
       {
         heading: "Recap: dropping letters",
         body: [
-          "-el adjectives always drop the e: \"dunkel → dunkle\", \"eitel → eitle\", \"flexibel → flexible\", \"sensibel → sensible\", \"miserabel → miserable\". -er adjectives drop it after au/eu and usually in \"teuer\" and \"sauer\": \"teure\", \"saure\" (\"andere\", \"bittere\" usually keep it). \"Hoch\" loses c: \"hohe\". Comparatives are not affected: \"höher\" → \"ein höheres Haus\".",
+          "-el adjectives always drop the e: \"dunkel → dunkle\", \"eitel → eitle\", \"flexibel → flexible\", \"sensibel → sensible\", \"miserabel → miserable\". -er adjectives usually drop it after \"au\" / \"eu\": \"teuer\" → \"teure\", \"sauer\" → \"saure\"; others usually keep it (\"andere\", \"bittere\"). \"Hoch\" loses c: \"hohe\". Comparatives are not affected: \"höher\" → \"ein höheres Haus\".",
         ],
         examples: [
           { es: "Sie trägt einen dunklen Mantel.", en: "She's wearing a dark coat." },
@@ -1192,14 +1192,14 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is correct?",
+        question: "How do you say: a dark colour?",
         options: ["eine dunkle Farbe", "eine dunkele Farbe", "eine dunkel Farbe", "eine dunklen Farbe"],
         correctIndex: 0,
         explanation: "\"Dunkel\" + -e → \"dunkle\".",
       },
       {
         type: "multiple-choice",
-        question: "Which is correct?",
+        question: "How do you say: a higher salary?",
         options: ["ein höheres Gehalt", "ein hohres Gehalt", "ein höhres Gehalt", "ein hocheres Gehalt"],
         correctIndex: 0,
         explanation: "The comparative \"höher\" keeps its e: \"ein höheres\".",
@@ -1216,7 +1216,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
         text: "Das ist ein teures Restaurant.",
         prompt: "Say it in German: That's an expensive restaurant.",
         tip: "\"Teures\": eu like oy.",
-        explanation: "\"Teures\" not \"*teueres*\".",
+        explanation: "\"Teures\": the usual form drops the e of \"teuer\" (\"teueres\" is rare).",
       },
       {
         type: "dictation",
@@ -1231,7 +1231,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
     number: 9,
     optional: true,
     title: "Extra Practice: Describe a Person",
-    summary: "Appearance and character in all cases.",
+    summary: "Describe people's appearance and character with the right adjective endings in every case.",
     duration: "12 min",
     sections: [
       {
@@ -1297,7 +1297,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Do you know the woman with the short hair?",
         answer: "Kennst du die Frau mit den kurzen Haaren?",
-        altAnswers: ["Kennen Sie die Frau mit den kurzen Haaren?", "Kennst du die Frau mit dem kurzen Haar?"],
+        altAnswers: ["Kennen Sie die Frau mit den kurzen Haaren?", "Kennt ihr die Frau mit den kurzen Haaren?", "Kennst du die Frau mit dem kurzen Haar?"],
         explanation: "Dative plural: \"den kurzen Haaren\".",
       },
       {
@@ -1345,7 +1345,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is correct?",
+        question: "Complete: \"Herr Becker ist ... .\" (a nice, helpful neighbour)",
         options: ["ein netter, hilfsbereiter Nachbar", "ein nette, hilfsbereite Nachbar", "ein netten, hilfsbereiten Nachbar", "einer netter, hilfsbereiter Nachbar"],
         correctIndex: 0,
         explanation: "Masculine nominative after \"ein\": -er on each adjective.",
@@ -1382,7 +1382,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
     number: 10,
     optional: true,
     title: "Extra Practice: Dictation, A Holiday Postcard",
-    summary: "A dictated holiday postcard full of adjective phrases.",
+    summary: "Write down a dictated holiday postcard and describe a hotel, food and sights with adjective phrases.",
     duration: "12 min",
     sections: [
       {
@@ -1654,7 +1654,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is correct?",
+        question: "How do you say: a faster car?",
         options: ["ein schnelleres Auto", "ein schnellerer Auto", "ein schneller Auto", "ein schnellere Auto"],
         correctIndex: 0,
         explanation: "Comparative \"schneller\" + neuter -es.",
@@ -1829,7 +1829,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
     number: 13,
     optional: true,
     title: "Extra Practice: Twelve Phrases Without Hints",
-    summary: "Free production of noun phrases in given cases.",
+    summary: "Build noun phrases in any case without hints, using a four-step checklist: gender, case, article type, ending.",
     duration: "12 min",
     sections: [
       {
@@ -1959,7 +1959,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which phrase is correct?",
+        question: "How do you say: without a warm coat?",
         options: ["ohne einen warmen Mantel", "ohne einem warmen Mantel", "ohne ein warmer Mantel", "ohne einen warmer Mantel"],
         correctIndex: 0,
         explanation: "\"Ohne\" + accusative: \"einen warmen\".",
@@ -1980,7 +1980,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
     number: 14,
     optional: true,
     title: "Extra Practice: Why This Ending?",
-    summary: "Choose the ending and explain the reason.",
+    summary: "Choose the adjective ending and explain why, from the noun's gender, its case and the article in front of it.",
     duration: "12 min",
     sections: [
       {
@@ -2044,7 +2044,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'm really hungry.",
         answer: "Ich habe großen Hunger.",
-        altAnswers: ["Ich habe richtig Hunger.", "Ich habe einen großen Hunger."],
+        altAnswers: ["Ich habe richtig Hunger.", "Ich habe einen großen Hunger.", "Ich bin sehr hungrig.", "Ich bin richtig hungrig."],
         explanation: "No article, masculine accusative: -en.",
       },
       {

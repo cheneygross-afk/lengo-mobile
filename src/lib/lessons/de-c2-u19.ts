@@ -108,7 +108,7 @@ export const DE_C2_U19: Lesson[] = [
             prompt: "Translate into German, using \"schon\".",
             source: "Who still reads a newspaper these days anyway?",
             answer: "Wer liest heute schon noch Zeitung?",
-            altAnswers: ["Wer liest heute noch Zeitung?", "Wer liest heutzutage schon noch Zeitung?", "Wer liest denn heute noch Zeitung?", "Wer liest heute schon noch eine Zeitung?", "Wer liest heutzutage noch Zeitung?"],
+            altAnswers: ["Wer liest heutzutage schon noch Zeitung?", "Wer liest heute schon noch eine Zeitung?"],
             explanation: "\"Schon\" makes the question rhetorical (nobody does); \"Zeitung lesen\" without article is the usual phrase.",
           },
           {
@@ -504,7 +504,7 @@ export const DE_C2_U19: Lesson[] = [
         body: [
           "\"Eigentlich\" in a question can be gentle (\"Wie heißt du eigentlich?\", by the way, what's your name?) or indignant: \"Was denkst du dir eigentlich?\" (who do you think you are? / what do you think you're doing?), \"Was soll das eigentlich?\". In indignant questions it is often combined with \"denn\": \"Was willst du denn eigentlich?\"",
           "The order of stacked particles is largely fixed: \"denn\" before \"eigentlich\", \"doch\" before \"nicht etwa\" (\"Was machst du denn eigentlich hier?\", \"Du hast doch nicht etwa...?\"). The reverse order sounds odd to native ears.",
-          "Intonation: genuine w-questions in German usually fall at the end; yes/no questions rise. Rhetorical yes/no questions often fall like statements (\"Ist das nicht schön.\"), and indignant questions stress the key word sharply (\"Was DENKST du dir eigentlich?\").",
+          "Intonation: genuine w-questions in German usually fall at the end; yes/no questions rise. Rhetorical yes/no questions often fall like statements (\"Ist das nicht schön.\"), and indignant questions stress the key word sharply (\"Was denkst du dir eigentlich?\", with a hard stress on \"denkst\").",
         ],
         examples: [
           { es: "Wie heißt du eigentlich?", en: "By the way, what's your name?" },
@@ -548,7 +548,7 @@ export const DE_C2_U19: Lesson[] = [
         prompt: "Translate into German, using \"etwa\".",
         source: "You're not ill, are you? (to a friend)",
         answer: "Bist du etwa krank?",
-        altAnswers: ["Du bist doch nicht etwa krank?", "Du bist doch nicht krank, oder?"],
+        altAnswers: ["Du bist doch nicht etwa krank?"],
         explanation: "\"Etwa\": the speaker hopes the answer is no.",
       },
       {

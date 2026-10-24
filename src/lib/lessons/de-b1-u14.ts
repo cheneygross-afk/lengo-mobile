@@ -8,7 +8,7 @@ export const DE_B1_U14: Lesson[] = [
     level: "DE-B1",
     number: 1,
     title: "The Passive, Part 1 of 2: Present",
-    summary: "Say what is done, when the action matters more than who does it: a form of werden + the participle at the end (Das Brot wird jeden Morgen gebacken).",
+    summary: "Say what is done when the action matters more than who does it: a form of \"werden\" + the participle at the end (\"Das Brot wird jeden Morgen gebacken\").",
     duration: "15 min",
     sections: [
       {
@@ -64,7 +64,7 @@ export const DE_B1_U14: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "The windows [are cleaned] every week.",
+            en: "The windows [are] cleaned every week.",
             sentence: "Die Fenster ___ jede Woche geputzt.",
             answer: "werden",
             explanation: "Plural subject \"die Fenster\", so \"werden\".",
@@ -159,7 +159,7 @@ export const DE_B1_U14: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The post [is delivered] at ten.",
+        en: "The post is [delivered] at ten.",
         sentence: "Die Post wird um zehn ___.",
         answer: "gebracht",
         altAnswers: ["geliefert", "zugestellt"],
@@ -168,14 +168,14 @@ export const DE_B1_U14: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The tickets [are checked] on the train.",
+        en: "The tickets [are] checked on the train.",
         sentence: "Die Fahrkarten ___ im Zug kontrolliert.",
         answer: "werden",
         explanation: "Plural subject \"die Fahrkarten\" → \"werden\".",
       },
       {
         type: "multiple-choice",
-        question: "Which is the passive of: Man trinkt hier viel Kaffee?",
+        question: "Which is the passive of \"Man trinkt hier viel Kaffee\"?",
         options: ["Hier wird viel Kaffee getrunken.", "Hier ist viel Kaffee getrunken.", "Hier wird viel Kaffee trinken.", "Hier werden viel Kaffee getrunken."],
         correctIndex: 0,
         explanation: "\"Kaffee\" is singular: \"wird\" + participle \"getrunken\".",
@@ -205,7 +205,7 @@ export const DE_B1_U14: Lesson[] = [
     level: "DE-B1",
     number: 2,
     title: "Pattern Practice: Wird, Werden + Participle",
-    summary: "Drill singular and plural passive subjects and questions: Die Post wird um zehn gebracht; Die Briefe werden um zehn gebracht; Wann wird der Müll abgeholt?",
+    summary: "Drill singular and plural passive subjects and questions: \"Die Post wird um zehn gebracht\", \"Die Briefe werden um zehn gebracht\", \"Wann wird der Müll abgeholt?\"",
     duration: "12 min",
     sections: [
       {
@@ -370,10 +370,10 @@ export const DE_B1_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "Which sentence means: The parents are being informed?",
         options: ["Die Eltern werden informiert.", "Die Eltern wird informiert.", "Die Eltern werden informieren.", "Die Eltern sind informiert worden werden."],
         correctIndex: 0,
-        explanation: "\"Die Eltern\" is plural: \"werden\" + participle \"informiert\".",
+        explanation: "\"Die Eltern\" is plural: \"werden\" + participle \"informiert\". \"Die Eltern werden informieren\" is the active future: the parents will inform someone.",
       },
       {
         type: "word-order",
@@ -453,7 +453,7 @@ export const DE_B1_U14: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "The windows [are fitted].",
+            en: "The windows are [fitted].",
             sentence: "Die Fenster werden ___.",
             answer: "eingebaut",
             explanation: "Separable \"einbauen\" → \"eingebaut\".",
@@ -549,7 +549,7 @@ export const DE_B1_U14: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Then the garden [is laid out].",
+        en: "Then the garden [is] laid out.",
         sentence: "Dann ___ der Garten angelegt.",
         answer: "wird",
         explanation: "Singular \"der Garten\": \"wird\".",
@@ -598,7 +598,7 @@ export const DE_B1_U14: Lesson[] = [
     level: "DE-B1",
     number: 4,
     title: "Transformation Chain: From Active to Passive",
-    summary: "Step by step: find the object, make it the subject, choose wird or werden, move the participle to the end, and drop man or add von + dative.",
+    summary: "Step by step: find the object, make it the subject, choose \"wird\" or \"werden\", move the participle to the end, and drop \"man\" or add \"von\" + dative.",
     duration: "12 min",
     sections: [
       {
@@ -735,7 +735,7 @@ export const DE_B1_U14: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "The meeting is led by Mrs Schneider.",
+        source: "The meeting is led by Ms Schneider.",
         answer: "Die Besprechung wird von Frau Schneider geleitet.",
         altAnswers: ["Das Meeting wird von Frau Schneider geleitet.", "Die Sitzung wird von Frau Schneider geleitet."],
         explanation: "\"Leiten\" → \"geleitet\"; agent with \"von\".",
@@ -759,7 +759,7 @@ export const DE_B1_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the passive of: Man lädt die Kollegen ein?",
+        question: "Which is the passive of \"Man lädt die Kollegen ein\"?",
         options: ["Die Kollegen werden eingeladen.", "Die Kollegen wird eingeladen.", "Die Kollegen werden einladen.", "Den Kollegen werden eingeladen."],
         correctIndex: 0,
         explanation: "Nominative plural subject \"die Kollegen\" + \"werden\" + participle.",
@@ -789,7 +789,7 @@ export const DE_B1_U14: Lesson[] = [
     level: "DE-B1",
     number: 5,
     title: "Circuit: Three Faces of Werden",
-    summary: "Rotate the three jobs of werden: become (werden + adjective or noun), the future (werden + infinitive) and the passive (werden + participle).",
+    summary: "Rotate the three jobs of \"werden\": become (\"werden\" + adjective or noun), the future (\"werden\" + infinitive) and the passive (\"werden\" + participle).",
     duration: "12 min",
     sections: [
       {
@@ -943,7 +943,7 @@ export const DE_B1_U14: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The letter [is being written].",
+        en: "The letter is being [written].",
         sentence: "Der Brief wird ___.",
         answer: "geschrieben",
         explanation: "Passive: participle \"geschrieben\".",
@@ -992,15 +992,15 @@ export const DE_B1_U14: Lesson[] = [
     level: "DE-B1",
     number: 6,
     title: "The Passive, Part 2 of 2: Präteritum and Subordinate Clauses",
-    summary: "Wurde / wurden + participle for past events and history (Die Mauer wurde 1989 geöffnet), and the passive verb cluster at the end of subordinate clauses.",
+    summary: "Use \"wurde\" / \"wurden\" + participle for past events and history (\"Die Mauer wurde 1989 geöffnet\"), and put the passive verb cluster at the end of subordinate clauses.",
     duration: "15 min",
     sections: [
       {
         heading: "Wurde / wurden + participle",
         body: [
           "For the past, put \"werden\" in the Präteritum: \"wurde\" (singular) or \"wurden\" (plural) + participle at the end: \"Der Kölner Dom wurde 1880 fertiggestellt\" (Cologne Cathedral was completed in 1880). \"Die Mauer wurde 1989 geöffnet\".",
-          "The Präteritum passive is the standard form in history, news and reports, and it's common in speech too: \"Mein Fahrrad wurde gestern repariert\". The forms: ich wurde, du wurdest, er/sie/es wurde, wir wurden, ihr wurdet, sie wurden.",
-          "Years take no preposition in German: \"1989\" alone or \"im Jahr 1989\". Copying English in 1989 as \"*in 1989\" is a common mistake.",
+          "The Präteritum passive is the standard form in history, news and reports, and it's common in speech too: \"Mein Fahrrad wurde gestern repariert\". The forms: \"ich wurde\", \"du wurdest\", \"er/sie/es wurde\", \"wir wurden\", \"ihr wurdet\", \"sie wurden\".",
+          "Years take no preposition in German: \"1989\" alone or \"im Jahr 1989\". Copying English in 1989 as \"*in 1989*\" is a common mistake.",
         ],
         examples: [
           { es: "Der Kölner Dom wurde 1880 fertiggestellt.", en: "Cologne Cathedral was completed in 1880." },
@@ -1056,7 +1056,7 @@ export const DE_B1_U14: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "Mozart [was born] in Salzburg.",
+            en: "Mozart [was] born in Salzburg.",
             sentence: "Mozart ___ in Salzburg geboren.",
             answer: "wurde",
             explanation: "For a historical person: \"wurde geboren\".",
@@ -1067,7 +1067,7 @@ export const DE_B1_U14: Lesson[] = [
         heading: "The passive in subordinate clauses",
         body: [
           "In a subordinate clause (weil, dass, wenn, ob, relative clauses) the conjugated verb goes to the end, so the passive ends with participle + werden-form: \"..., weil die Straße gerade repariert wird\", \"..., dass das Konzert abgesagt wurde\".",
-          "Order at the end: participle first, then \"wird\" / \"wurde\". English is the other way round (was cancelled), which is why learners write \"*dass das Konzert wurde abgesagt\".",
+          "Order at the end: participle first, then \"wird\" / \"wurde\". English is the other way round (was cancelled), which is why learners write \"*dass das Konzert wurde abgesagt*\".",
         ],
         examples: [
           { es: "Wir kommen später, weil die Straße gerade repariert wird.", en: "We'll be late because the road is being repaired." },
@@ -1143,7 +1143,7 @@ export const DE_B1_U14: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The telephone [was invented] in the 19th century.",
+        en: "The telephone [was] invented in the 19th century.",
         sentence: "Das Telefon ___ im 19. Jahrhundert erfunden.",
         answer: "wurde",
         explanation: "Singular Präteritum passive: \"wurde\".",
@@ -1188,7 +1188,7 @@ export const DE_B1_U14: Lesson[] = [
     level: "DE-B1",
     number: 7,
     title: "Story Detective: Wer war es?",
-    summary: "A mystery told in passive sentences without agents: reconstruct who did what with active sentences and von + dative.",
+    summary: "Follow a mystery told in passive sentences without agents, then reconstruct who did what with active sentences and \"von\" + dative.",
     duration: "15 min",
     sections: [
       {
@@ -1249,7 +1249,7 @@ export const DE_B1_U14: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "The gardener [was questioned].",
+            en: "The gardener was [questioned].",
             sentence: "Der Gärtner wurde ___.",
             answer: "befragt",
             altAnswers: ["verhört", "vernommen"],
@@ -1338,7 +1338,7 @@ export const DE_B1_U14: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The police [were called] at six.",
+        en: "The police [were] called at six.",
         sentence: "Die Polizei ___ um sechs gerufen.",
         answer: "wurde",
         explanation: "\"Die Polizei\" is singular in German: \"wurde\".",
@@ -1384,7 +1384,7 @@ export const DE_B1_U14: Lesson[] = [
     level: "DE-B1",
     number: 8,
     title: "Minimal Pairs: Wird / Wurde / Würde",
-    summary: "Present passive, past passive or Konjunktiv II: es wird gemacht / es wurde gemacht / ich würde es machen; hear [ɪ], [ʊ] and [ʏ].",
+    summary: "Tell present passive, past passive and Konjunktiv II apart (\"es wird gemacht\", \"es wurde gemacht\", \"ich würde es machen\") and hear [ɪ], [ʊ] and [ʏ].",
     duration: "12 min",
     sections: [
       {
@@ -1425,7 +1425,7 @@ export const DE_B1_U14: Lesson[] = [
         heading: "Passive or Konjunktiv?",
         body: [
           "\"Wurde\" + participle is past passive; \"würde\" + infinitive is Konjunktiv II. The last word confirms what your ear heard: \"Es wurde gemacht\" (it was done) vs \"Ich würde es machen\" (I would do it).",
-          "Watch out in writing: forgetting the umlaut turns a polite \"Würden Sie mir helfen?\" into the past tense \"*Wurden Sie mir helfen?\", which makes no sense as a request.",
+          "Watch out in writing: forgetting the umlaut turns a polite \"Würden Sie mir helfen?\" into the past tense \"*Wurden Sie mir helfen?*\", which makes no sense as a request.",
         ],
         examples: [
           { es: "Es wurde gemacht.", en: "It was done." },
@@ -1479,7 +1479,7 @@ export const DE_B1_U14: Lesson[] = [
             type: "speak",
             text: "Die Straße wird morgen gesperrt, und gestern wurde sie repariert.",
             prompt: "Say it in German: The road is being closed tomorrow, and yesterday it was repaired.",
-            tip: "wird: short i; wurde: oo as in book.",
+            tip: "\"wird\": short i; \"wurde\": oo as in book.",
             explanation: "\"Wird\" for present/future, \"wurde\" for past.",
           },
         ],
@@ -1587,7 +1587,7 @@ export const DE_B1_U14: Lesson[] = [
     level: "DE-B1",
     number: 9,
     title: "Themed Review: Wie wird Brot gemacht?",
-    summary: "A bakery visit: the steps of bread-making in the present passive, ordered with zuerst, danach and zum Schluss.",
+    summary: "Describe the steps of bread-making in the present passive on a bakery visit, ordered with \"zuerst\", \"danach\" and \"zum Schluss\".",
     duration: "15 min",
     sections: [
       {
@@ -1737,7 +1737,7 @@ export const DE_B1_U14: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Then salt [is added].",
+        en: "Then salt is [added].",
         sentence: "Dann wird Salz ___.",
         answer: "dazugegeben",
         altAnswers: ["hinzugefügt", "zugegeben"],
@@ -1787,7 +1787,7 @@ export const DE_B1_U14: Lesson[] = [
         type: "speak",
         text: "Zuerst wird das Mehl abgewogen, dann wird der Teig geknetet.",
         prompt: "Explain in German: First the flour is weighed out, then the dough is kneaded.",
-        tip: "Pronounce the k in geknetet: g-k-n, every consonant.",
+        tip: "Pronounce the k in \"geknetet\": g-k-n, every consonant.",
         explanation: "Two passive steps with step words.",
       },
     ],
@@ -1797,7 +1797,7 @@ export const DE_B1_U14: Lesson[] = [
     level: "DE-B1",
     number: 10,
     title: "Transformations: From Man to Passive and Back",
-    summary: "Man repariert die Brücke ↔ Die Brücke wird repariert: when to keep man (speech, general rules) and when the passive sounds better (official texts, news).",
+    summary: "Switch between \"Man repariert die Brücke\" and \"Die Brücke wird repariert\", and know when to keep \"man\" (speech, general rules) and when the passive sounds better (official texts, news).",
     duration: "12 min",
     sections: [
       {
@@ -1835,7 +1835,7 @@ export const DE_B1_U14: Lesson[] = [
         heading: "Passive → man",
         body: [
           "Going back: \"Die Fenster werden geputzt\" → \"Man putzt die Fenster\". The subject becomes an accusative object again: \"Der Tisch wird gedeckt\" → \"Man deckt den Tisch\" (der → den).",
-          "\"Man\" takes the er/sie/es form of the verb, always singular, even if the meaning is plural (people).",
+          "\"Man\" takes the \"er/sie/es\" form of the verb, always singular, even if the meaning is plural (people).",
         ],
         examples: [
           { es: "Die Fenster werden geputzt. → Man putzt die Fenster.", en: "The windows are cleaned. → Someone cleans the windows." },
@@ -1847,11 +1847,11 @@ export const DE_B1_U14: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, using man.",
+            prompt: "Translate into German, using \"man\".",
             source: "People speak German here.",
             answer: "Hier spricht man Deutsch.",
             altAnswers: ["Man spricht hier Deutsch."],
-            explanation: "\"Man\" + er form: \"spricht\".",
+            explanation: "\"Man\" + \"er\" form: \"spricht\".",
           },
           {
             type: "fill-blank",
@@ -1906,11 +1906,11 @@ export const DE_B1_U14: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using man.",
+        prompt: "Translate into German, using \"man\".",
         source: "People eat a lot of fish in the north.",
         answer: "Im Norden isst man viel Fisch.",
         altAnswers: ["Man isst im Norden viel Fisch."],
-        explanation: "General habit: \"man\" + er form.",
+        explanation: "General habit: \"man\" + \"er\" form.",
       },
       {
         type: "translate",
@@ -1924,7 +1924,7 @@ export const DE_B1_U14: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using man.",
+        prompt: "Translate into German, using \"man\".",
         source: "They repaired the bridge last year.",
         answer: "Man hat die Brücke letztes Jahr repariert.",
         altAnswers: ["Letztes Jahr hat man die Brücke repariert.", "Man reparierte die Brücke letztes Jahr.", "Letztes Jahr reparierte man die Brücke."],
@@ -1952,7 +1952,7 @@ export const DE_B1_U14: Lesson[] = [
         en: "Someone [picks up] the children.",
         sentence: "Man ___ die Kinder ab.",
         answer: "holt",
-        explanation: "\"Man\" + er form: \"holt ... ab\".",
+        explanation: "\"Man\" + \"er\" form: \"holt ... ab\".",
       },
       {
         type: "multiple-choice",
@@ -1986,7 +1986,7 @@ export const DE_B1_U14: Lesson[] = [
     level: "DE-B1",
     number: 11,
     title: "Real-World Mission: Signs and Notices",
-    summary: "Read and write notices in the passive: Hier wird nicht geraucht; Die Bibliothek wird am Montag geschlossen; Der Aufzug wird gewartet; Fahrräder werden entfernt.",
+    summary: "Read and write notices in the passive: \"Hier wird nicht geraucht\", \"Die Bibliothek wird am Montag geschlossen\", \"Der Aufzug wird gewartet\", \"Fahrräder werden entfernt\".",
     duration: "15 min",
     sections: [
       {
@@ -2145,7 +2145,7 @@ export const DE_B1_U14: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The water [will be turned off] tomorrow.",
+        en: "The water will be [turned off] tomorrow.",
         sentence: "Morgen wird das Wasser ___.",
         answer: "abgestellt",
         explanation: "\"Abstellen\" → \"abgestellt\".",
@@ -2201,6 +2201,6 @@ export const DE_B1_U14_WRITING: WriteExercise = {
     "At least one passive in a subordinate clause (\"..., weil / dass ... gebaut wurde\")",
     "At least one agent with \"von\" + dative",
   ],
-  modelAnswer: "Der alte Bahnhof von Lindenberg\n\nDer Bahnhof wurde 1885 gebaut, weil die Stadt eine Verbindung nach München brauchte. Das Gebäude wurde von einem bekannten Architekten aus Augsburg geplant. Im Zweiten Weltkrieg wurde der Bahnhof stark beschädigt, aber er wurde schon 1950 wieder aufgebaut. 1990 wurde die Bahnlinie stillgelegt, und viele Leute dachten, dass das Gebäude abgerissen wird. Heute wird der alte Bahnhof als Kulturzentrum genutzt. Hier werden Konzerte, Lesungen und Sprachkurse angeboten, und im Sommer wird auf dem Bahnsteig ein Flohmarkt organisiert. Im nächsten Jahr wird das Dach renoviert, und ein kleines Café wird eröffnet. Der Bahnhof ist ein Ort, der von allen Generationen geliebt wird.",
-  explanation: "\"Wurde\" + participle for past events (\"wurde gebaut\", \"wurde beschädigt\"), \"wird\" / \"werden\" + participle for the present and planned future, the passive at the end of subordinate clauses (\"dass das Gebäude abgerissen wird\"), and \"von\" + dative for the agent.",
+  modelAnswer: "Der alte Bahnhof von Lindenberg\n\nDer Bahnhof wurde 1885 gebaut, weil die Stadt eine Verbindung nach München brauchte. Das Gebäude wurde von einem bekannten Architekten aus Augsburg geplant. Im Zweiten Weltkrieg wurde der Bahnhof stark beschädigt, aber er wurde schon 1950 wieder aufgebaut. 1990 wurde die Bahnlinie stillgelegt, und viele Leute waren traurig, dass der Bahnhof geschlossen wurde. Heute wird der alte Bahnhof als Kulturzentrum genutzt. Hier werden Konzerte, Lesungen und Sprachkurse angeboten, und im Sommer wird auf dem Bahnsteig ein Flohmarkt organisiert. Im nächsten Jahr wird das Dach renoviert, und ein kleines Café wird eröffnet. Der Bahnhof ist ein Ort, der von allen Generationen geliebt wird.",
+  explanation: "\"Wurde\" + participle for past events (\"wurde gebaut\", \"wurde beschädigt\"), \"wird\" / \"werden\" + participle for the present and planned future, the passive at the end of subordinate clauses (\"dass der Bahnhof geschlossen wurde\"), and \"von\" + dative for the agent.",
 };

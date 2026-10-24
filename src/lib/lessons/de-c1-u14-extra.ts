@@ -192,7 +192,7 @@ export const DE_C1_U14_EXTRA: Lesson[] = [
           { es: "Das Tram fährt alle sieben Minuten.", en: "The tram runs every seven minutes. (Switzerland)" },
           { es: "Wir müssen noch zwei Pendenzen erledigen.", en: "We still have two open tasks to deal with." },
           { es: "Bitte das Velo nicht auf dem Trottoir abstellen.", en: "Please don't leave bikes on the pavement." },
-          { es: "Zum Znacht gibt es Poulet mit Reis.", en: "There's chicken and rice for dinner. (Switzerland)" },
+          { es: "Zum Znacht gibt es Poulet mit Reis.", en: "There's chicken and rice for dinner. (Switzerland: \"Znacht\" = dinner)" },
           { es: "Grüezi, zweimal Zürich retour, bitte.", en: "Hello, two returns to Zurich, please." },
         ],
         checkpoint: [
@@ -443,11 +443,11 @@ export const DE_C1_U14_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in standard German: \"I hob koa Zeit, i muass schaffa.\"",
+        prompt: "Rewrite in standard German: \"I hob koa Zeit, i muass arbatn.\"",
         source: "I don't have time, I have to work.",
         answer: "Ich habe keine Zeit, ich muss arbeiten.",
         altAnswers: ["Ich hab keine Zeit, ich muss arbeiten."],
-        explanation: "A southern dialect mix: \"koa\" = \"keine\" (Bavarian), \"schaffa\" = \"arbeiten\" (Swabian / Alemannic).",
+        explanation: "Bavarian: \"i\" = \"ich\", \"hob\" = \"habe\", \"koa\" = \"keine\", \"muass\" = \"muss\", \"arbatn\" = \"arbeiten\". (A Swabian would say \"I muss schaffa\".)",
       },
       {
         type: "multiple-choice",
@@ -784,7 +784,7 @@ export const DE_C1_U14_EXTRA: Lesson[] = [
         prompt: "Reply to Kathi in standard German.",
         source: "What time shall we meet?",
         answer: "Um wie viel Uhr treffen wir uns?",
-        altAnswers: ["Wann treffen wir uns?", "Um wie viel Uhr sollen wir uns treffen?", "Wann sollen wir uns treffen?", "Um wieviel Uhr treffen wir uns?"],
+        altAnswers: ["Wann treffen wir uns?", "Um wie viel Uhr sollen wir uns treffen?", "Wann sollen wir uns treffen?"],
         explanation: "\"Sich treffen\" is reflexive: \"treffen wir uns\".",
       },
       {
@@ -799,6 +799,7 @@ export const DE_C1_U14_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: I'm on the tram right now. (Vienna)",
         words: ["Ich", "bin", "gerade", "in", "der", "Bim."],
         translation: "I'm on the tram right now.",
+        altOrders: [["Gerade", "bin", "ich", "in", "der", "Bim."]],
         explanation: "\"Die Bim\" is the Viennese tram; \"in der Bim\" = on the tram.",
       },
       {

@@ -49,7 +49,7 @@ export const DE_B1_U17: Lesson[] = [
             question: "Your friend asks: \"Denkst du an den Termin?\" How do you answer: Yes, I'm thinking of it?",
             options: ["Ja, ich denke daran.", "Ja, ich denke an ihn.", "Ja, ich denke an es.", "Ja, ich denke daan."],
             correctIndex: 0,
-            explanation: "\"Der Termin\" is a thing, so an + it becomes \"daran\". \"An ihn\" would be about a person.",
+            explanation: "\"Der Termin\" is a thing, so an + it becomes \"daran\". \"An ihn\" normally refers to a person, and \"*an es*\" is impossible.",
           },
         ],
       },
@@ -63,7 +63,7 @@ export const DE_B1_U17: Lesson[] = [
         examples: [
           { es: "Wartest du auf Jonas? — Ja, ich warte auf ihn.", en: "Are you waiting for Jonas? — Yes, I'm waiting for him." },
           { es: "Wartest du auf den Zug? — Ja, ich warte darauf.", en: "Are you waiting for the train? — Yes, I'm waiting for it." },
-          { es: "Erinnerst du dich an Frau Becker? — Ja, ich erinnere mich gut an sie.", en: "Do you remember Mrs Becker? — Yes, I remember her well." },
+          { es: "Erinnerst du dich an Frau Becker? — Ja, ich erinnere mich gut an sie.", en: "Do you remember Ms Becker? — Yes, I remember her well." },
           { es: "Erinnerst du dich an den Urlaub in Spanien? — Ja, ich erinnere mich gut daran.", en: "Do you remember the holiday in Spain? — Yes, I remember it well." },
           { es: "Ich habe mit meinen Eltern gesprochen und mich mit ihnen versöhnt.", en: "I talked to my parents and made up with them." },
         ],
@@ -169,7 +169,7 @@ export const DE_B1_U17: Lesson[] = [
         prompt: "Translate into German.",
         source: "Don't forget it! (to a friend)",
         answer: "Denk daran!",
-        altAnswers: ["Vergiss es nicht!", "Vergiss das nicht!", "Vergesst es nicht!", "Denkt daran!", "Denk bitte daran!"],
+        altAnswers: ["Vergiss es nicht!", "Vergiss das nicht!", "Denk bitte daran!", "Vergiss es bitte nicht!"],
         explanation: "\"Denk daran!\" (think of it) is the usual German reminder.",
       },
       {
@@ -185,6 +185,7 @@ export const DE_B1_U17: Lesson[] = [
         prompt: "Translate into German.",
         source: "My brother? I often think of him.",
         answer: "Mein Bruder? Ich denke oft an ihn.",
+        altAnswers: ["Mein Bruder? An ihn denke ich oft."],
         explanation: "A person: \"an ihn\", not \"daran\".",
       },
       {
@@ -212,9 +213,9 @@ export const DE_B1_U17: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "I have saved for it for a long time.",
+        source: "I saved up for it for a long time.",
         answer: "Ich habe lange dafür gespart.",
-        altAnswers: ["Dafür habe ich lange gespart."],
+        altAnswers: ["Dafür habe ich lange gespart.", "Ich sparte lange dafür."],
         explanation: "\"Sparen für\" + it = \"dafür\".",
       },
     ],
@@ -224,7 +225,7 @@ export const DE_B1_U17: Lesson[] = [
     level: "DE-B1",
     number: 2,
     title: "Themed Review: Der Jakobsweg",
-    summary: "A pilgrim's diary from the Camino de Santiago, with da-compounds, verbs with prepositions and the Präteritum.",
+    summary: "Read a pilgrim's diary from the Camino de Santiago (\"der Jakobsweg\") and retell it in the Präteritum, with da-compounds for things and preposition + pronoun for people.",
     duration: "14 min",
     sections: [
       {
@@ -377,10 +378,10 @@ export const DE_B1_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
-        options: ["Ich erinnere mich gern daran.", "Ich erinnere mich gern an es.", "Ich erinnere mich gern daan.", "Ich erinnere mich gern dran es."],
+        question: "The walk was wonderful. How do you say: I like remembering it?",
+        options: ["Ich erinnere mich gern daran.", "Ich erinnere mich gern an es.", "Ich erinnere mich gern daan.", "Ich erinnere mich gern an ihm."],
         correctIndex: 0,
-        explanation: "\"An\" + it = \"daran\".",
+        explanation: "\"Sich erinnern an\" + it = \"daran\" (r before the vowel). \"*an es*\" is impossible, and \"an ihm\" is the wrong case.",
       },
       {
         type: "translate",
@@ -418,7 +419,7 @@ export const DE_B1_U17: Lesson[] = [
     level: "DE-B1",
     number: 3,
     title: "Talk About You: Worauf freust du dich?",
-    summary: "Answer questions about your life (Worauf freust du dich? Wofür interessierst du dich?) and reply with da-compounds.",
+    summary: "Understand and answer questions about your life (\"Worauf freust du dich?\", \"Wofür interessierst du dich?\"), adding detail with da-compounds.",
     duration: "13 min",
     sections: [
       {
@@ -710,7 +711,7 @@ export const DE_B1_U17: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "What are you interested in? (polite)",
+        source: "What are you interested in? (formal)",
         answer: "Wofür interessieren Sie sich?",
         explanation: "\"Sich interessieren für\" + a thing → \"wofür\" at the start.",
       },
@@ -728,7 +729,7 @@ export const DE_B1_U17: Lesson[] = [
         prompt: "Translate into German.",
         source: "What did you talk about? (to friends)",
         answer: "Worüber habt ihr gesprochen?",
-        altAnswers: ["Worüber hast du gesprochen?", "Worüber haben Sie gesprochen?", "Worüber habt ihr geredet?"],
+        altAnswers: ["Worüber habt ihr geredet?"],
         explanation: "\"Sprechen über\" + a thing → \"worüber\".",
       },
       {
@@ -743,7 +744,7 @@ export const DE_B1_U17: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Thank you for coming. (polite)",
+        source: "Thank you for coming. (formal)",
         answer: "Danke, dass Sie gekommen sind.",
         altAnswers: ["Danke dafür, dass Sie gekommen sind.", "Vielen Dank, dass Sie gekommen sind."],
         explanation: "English -ing after for becomes a dass-clause; \"dafür\" can announce it.",
@@ -796,7 +797,7 @@ export const DE_B1_U17: Lesson[] = [
         type: "speak",
         text: "Worauf wartest du noch?",
         prompt: "Say it in German: What are you waiting for? (to a friend)",
-        tip: "Stress the first syllable of \"worauf\" in a question: WO-rauf.",
+        tip: "Stress the second syllable of \"worauf\": wo-RAUF; the r runs into it.",
         explanation: "\"Warten auf\" + a thing → \"worauf\".",
       },
     ],
@@ -806,7 +807,7 @@ export const DE_B1_U17: Lesson[] = [
     level: "DE-B1",
     number: 5,
     title: "Mastery Check: Verbs with Prepositions",
-    summary: "A graded check of Unit 16's verbs with nouns, pronouns, da- and wo-compounds.",
+    summary: "Check, in three levels, that you can use Unit 16's verbs with prepositions with nouns and pronouns, replace things with da-compounds and ask with wo-compounds or preposition + \"wen\" / \"wem\".",
     duration: "14 min",
     sections: [
       {
@@ -848,7 +849,7 @@ export const DE_B1_U17: Lesson[] = [
         ],
         examples: [
           { es: "Worüber ärgerst du dich? — Über den Lärm. Ich ärgere mich jeden Tag darüber.", en: "What's annoying you? — The noise. It annoys me every day." },
-          { es: "Mit wem hast du gesprochen? — Mit Frau Schneider. Ich habe lange mit ihr gesprochen.", en: "Who did you talk to? — Mrs Schneider. I talked to her for a long time." },
+          { es: "Mit wem hast du gesprochen? — Mit Frau Schneider. Ich habe lange mit ihr gesprochen.", en: "Who did you talk to? — Ms Schneider. I talked to her for a long time." },
           { es: "Wovon träumst du? — Von einem Hund. Ich träume schon lange davon.", en: "What do you dream of? — A dog. I've dreamed of one for a long time." },
         ],
         checkpoint: [
@@ -959,8 +960,8 @@ export const DE_B1_U17: Lesson[] = [
         prompt: "Translate into German.",
         source: "She has applied for it.",
         answer: "Sie hat sich darum beworben.",
-        altAnswers: ["Sie hat sich dafür beworben."],
-        explanation: "\"Sich bewerben um\" + it = \"darum\".",
+        altAnswers: ["Sie hat sich dafür beworben.", "Sie hat sich darauf beworben."],
+        explanation: "\"Sich bewerben um\" + it = \"darum\". For a job advert, \"sich auf eine Stelle bewerben\" (\"darauf\") is also common.",
       },
       {
         type: "multiple-choice",
@@ -1131,7 +1132,7 @@ export const DE_B1_U17: Lesson[] = [
         prompt: "Translate into German.",
         source: "What does it depend on?",
         answer: "Wovon hängt es ab?",
-        altAnswers: ["Wovon hängt das ab?"],
+        altAnswers: ["Wovon hängt das ab?", "Worauf kommt es an?"],
         explanation: "\"Abhängen von\" + thing → \"wovon\"; \"ab\" at the end.",
       },
       {
@@ -1287,7 +1288,7 @@ export const DE_B1_U17: Lesson[] = [
         en: "Are you taking part in the course? — Yes, I'm taking part [in it].",
         sentence: "Nimmst du an dem Kurs teil? — Ja, ich nehme ___ teil.",
         answer: "daran",
-        explanation: "\"An\" → \"daran\" (here dative meaning, same form).",
+        explanation: "\"Teilnehmen an\" takes the dative, but the da-compound is the same for both cases: \"daran\".",
       },
       {
         type: "multiple-choice",
@@ -1325,7 +1326,7 @@ export const DE_B1_U17: Lesson[] = [
     level: "DE-B1",
     number: 8,
     title: "Error Hunt: Da- and Wo-Compounds",
-    summary: "Find and fix five typical mistakes: preposition + es (\"*an es*\"), a da-compound for a person, a doubled preposition (\"*Worüber sprichst du über?*\"), colloquial \"*Für was...?*\" in writing, and a missing r (\"*daauf*\").",
+    summary: "Find and fix five typical mistakes: preposition + \"es\" (\"*an es*\"), a da-compound for a person, a doubled preposition (\"*Worüber sprichst du über?*\"), colloquial \"*Für was...?*\" in writing, and a missing r (\"*daauf*\").",
     duration: "13 min",
     sections: [
       {
@@ -1377,7 +1378,7 @@ export const DE_B1_U17: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "A colleague suggests a plan. How do you say: I agree with that?",
             options: ["Damit bin ich einverstanden.", "Mit das bin ich einverstanden.", "Mit es bin ich einverstanden.", "Damit bin ich mit einverstanden."],
             correctIndex: 0,
             explanation: "\"Einverstanden mit\" + that = \"damit\".",
@@ -1431,7 +1432,7 @@ export const DE_B1_U17: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Fix (for a written text): \"*Für was interessieren Sie sich?*\" Write the standard German for: What are you interested in?",
-        source: "What are you interested in? (polite)",
+        source: "What are you interested in? (formal)",
         answer: "Wofür interessieren Sie sich?",
         explanation: "Standard written German uses \"wofür\".",
       },
@@ -1471,7 +1472,7 @@ export const DE_B1_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you ask a friend: What are you waiting for?",
         options: ["Worauf wartest du?", "Woauf wartest du?", "Worauf wartest du auf?", "Auf was wartest du auf?"],
         correctIndex: 0,
         explanation: "\"Worauf\" with r, and no second \"auf\".",
@@ -1566,7 +1567,7 @@ export const DE_B1_U17: Lesson[] = [
             type: "speak",
             text: "Ich bin dafür!",
             prompt: "Say it in German: I'm in favour!",
-            tip: "Stress the second syllable: da-FÜR.",
+            tip: "Stress the second syllable of \"dafür\": da-FÜR.",
             explanation: "\"Dafür sein\": to be for it.",
           },
         ],
@@ -1629,7 +1630,7 @@ export const DE_B1_U17: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Are you [looking forward to] it? (to the group)",
+        en: "Are you looking forward [to it]? (to the group)",
         sentence: "Freut ihr euch ___?",
         answer: "darauf",
         explanation: "\"Sich freuen auf\" + it.",
@@ -1687,7 +1688,7 @@ export const DE_B1_U17: Lesson[] = [
         ],
         examples: [
           { es: "Ich habe gemerkt, dass ich vom Handy abhängig bin.", en: "I noticed that I'm addicted to my phone." },
-          { es: "Ich habe mich oft darüber beschwert, dass ich keine Zeit habe.", en: "I often complained that I don't have any time." },
+          { es: "Ich habe mich oft darüber beschwert, dass ich keine Zeit habe.", en: "I often complained that I had no time." },
           { es: "Aber ich habe jeden Tag drei Stunden auf Instagram verbracht.", en: "But I spent three hours a day on Instagram." },
           { es: "Also habe ich beschlossen, eine Woche darauf zu verzichten.", en: "So I decided to go without it for a week." },
           { es: "Am Anfang musste ich mich erst daran gewöhnen, das Handy nicht dauernd zu checken.", en: "At first I had to get used to not checking my phone all the time." },
@@ -1847,7 +1848,7 @@ export const DE_B1_U17: Lesson[] = [
     level: "DE-B1",
     number: 11,
     title: "Fix the Paragraph: Auf es",
-    summary: "A forum post full of preposition + es, da-compounds for people and missing dass-clauses: rewrite it correctly.",
+    summary: "Correct a forum post full of preposition + \"es\" (\"*auf es*\"), da-compounds for people and a missing \"darauf\" before a dass-clause.",
     duration: "13 min",
     sections: [
       {
@@ -1985,7 +1986,7 @@ export const DE_B1_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say: I talked to him (Mehmet) about it (the noise)?",
         options: ["Ich habe mit ihm darüber gesprochen.", "Ich habe damit darüber gesprochen.", "Ich habe mit ihm über es gesprochen.", "Ich habe mit es über ihn gesprochen."],
         correctIndex: 0,
         explanation: "Person → \"mit ihm\"; thing → \"darüber\".",
@@ -2197,7 +2198,7 @@ export const DE_B1_U17: Lesson[] = [
     level: "DE-B1",
     number: 13,
     title: "Dictation: Long Sentences with Prepositional Verbs",
-    summary: "Dictated sentences with forward-pointing da-compounds and dass-clauses, plus translation practice of the same patterns.",
+    summary: "Write down long dictated sentences with forward-pointing da-compounds, dass-clauses and zu-infinitives, and translate the same patterns.",
     duration: "13 min",
     sections: [
       {
@@ -2264,7 +2265,7 @@ export const DE_B1_U17: Lesson[] = [
             type: "speak",
             text: "Sie träumt davon, ein eigenes Restaurant zu haben.",
             prompt: "Say it in German: She dreams of having her own restaurant.",
-            tip: "\"Restaurant\": a French loanword, the final -ant is nasal: res-to-RANG.",
+            tip: "\"Restaurant\": a French loanword, stressed on the last syllable, a nasal vowel with no t: res-to-RAHN (many Germans say res-to-RANG).",
             explanation: "\"Davon\" + zu-infinitive for -ing after of.",
           },
         ],
@@ -2309,9 +2310,9 @@ export const DE_B1_U17: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into German.",
         source: "I insist on paying.",
-        answer: "Ich bestehe darauf zu bezahlen.",
-        altAnswers: ["Ich bestehe darauf, zu bezahlen.", "Ich bestehe darauf, zu zahlen.", "Ich bestehe darauf zu zahlen."],
-        explanation: "\"Darauf\" + zu-infinitive (with a short zu-infinitive the comma is optional).",
+        answer: "Ich bestehe darauf, zu bezahlen.",
+        altAnswers: ["Ich bestehe darauf, zu zahlen."],
+        explanation: "\"Darauf\" + zu-infinitive. Because \"darauf\" points forward to it, the comma is required even before a short zu-infinitive.",
       },
       {
         type: "translate",
@@ -2378,7 +2379,7 @@ export const DE_B1_U17: Lesson[] = [
     level: "DE-B1",
     number: 14,
     title: "Mixed Practice: Prepositional Verbs in Every Tense",
-    summary: "Verbs with prepositions, da- and wo-compounds across the present, Perfekt, Präteritum, passive and Konjunktiv II.",
+    summary: "Use verbs with prepositions, da- and wo-compounds in the present, Perfekt, Präteritum, Plusquamperfekt, passive and Konjunktiv II.",
     duration: "15 min",
     sections: [
       {
@@ -2410,7 +2411,6 @@ export const DE_B1_U17: Lesson[] = [
             prompt: "Translate into German.",
             source: "What did you argue about? (to friends)",
             answer: "Worüber habt ihr euch gestritten?",
-            altAnswers: ["Worüber hast du dich gestritten?", "Worüber haben Sie sich gestritten?"],
             explanation: "\"Sich streiten über\" + thing → \"worüber\"; participle \"gestritten\".",
           },
         ],
@@ -2514,7 +2514,7 @@ export const DE_B1_U17: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "I would [have taken care of it], but I was ill.",
+        en: "I would have [taken care of it], but I was ill.",
         sentence: "Ich hätte mich ___, aber ich war krank.",
         answer: "darum gekümmert",
         explanation: "Past Konjunktiv II: \"hätte ... darum gekümmert\".",
@@ -2529,7 +2529,7 @@ export const DE_B1_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say: I would have been pleased about it?",
         options: ["Ich hätte mich darüber gefreut.", "Ich wäre mich darüber gefreut.", "Ich hätte mich über es gefreut.", "Ich hätte darüber mich gefreut."],
         correctIndex: 0,
         explanation: "Reflexive verbs take \"haben\" (\"hätte\"), \"darüber\" for it, reflexive early.",

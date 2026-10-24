@@ -286,13 +286,13 @@ export const DE_C2_U15: Lesson[] = [
       {
         heading: "Statistic and quote: the safe bets",
         body: [
-          "A statistic is the most reliable hook in a German business or academic setting: it is \"sachlich\" and immediately shows relevance. Give the source (\"Laut Statistischem Bundesamt ...\", \"Einer Studie der Universität Mannheim zufolge ...\") and round sensibly: \"knapp ein Drittel\", \"fast jeder zweite\", \"rund 40 Prozent\".",
+          "A statistic is the most reliable hook in a German business or academic setting: it is \"sachlich\" and immediately shows relevance. Give the source (\"Laut Statistischem Bundesamt ...\", \"Einer aktuellen Studie zufolge ...\") and round sensibly: \"knapp ein Drittel\", \"fast jeder zweite\", \"rund 40 Prozent\".",
           "A quote works if it is short, relevant and properly attributed: \"Schon Goethe wusste: 'Es ist nicht genug zu wissen, man muss auch anwenden.'\" Overused quotes (Einstein, Steve Jobs) make listeners roll their eyes. A quote from a customer or an employee can be fresher.",
           "Link the hook to your topic in the very next sentence: \"Genau darum geht es heute.\" or \"Was bedeutet das für uns?\" Without this bridge, even the best statistic floats in the air.",
         ],
         examples: [
           { es: "Laut Statistischem Bundesamt arbeitet fast jeder vierte Beschäftigte zumindest teilweise im Homeoffice.", en: "According to the Federal Statistical Office, almost one in four employees works from home at least part of the time." },
-          { es: "Einer Studie der Universität Mannheim zufolge lesen nur zehn Prozent der Nutzer die Datenschutzerklärung.", en: "According to a study by the University of Mannheim, only ten per cent of users read the privacy policy." },
+          { es: "Einer aktuellen Studie zufolge lesen nur zehn Prozent der Nutzer die Datenschutzerklärung.", en: "According to a recent study, only ten per cent of users read the privacy policy." },
           { es: "Knapp ein Drittel unserer Aufträge wird zu spät geliefert.", en: "Just under a third of our orders are delivered late." },
           { es: "Ein Kunde schrieb uns letzte Woche: „Ihr Produkt ist gut, Ihr Service ist eine Katastrophe.“", en: "A customer wrote to us last week: 'Your product is good, your service is a disaster.'" },
           { es: "Genau darum geht es heute.", en: "That is exactly what today is about." },
@@ -318,7 +318,7 @@ export const DE_C2_U15: Lesson[] = [
           },
           {
             type: "listen-choose",
-            audio: "Einer Studie der Universität Mannheim zufolge lesen nur zehn Prozent der Nutzer die Datenschutzerklärung.",
+            audio: "Einer aktuellen Studie zufolge lesen nur zehn Prozent der Nutzer die Datenschutzerklärung.",
             question: "What kind of opening is this?",
             options: ["A statistic with a source", "A personal anecdote", "A quote", "A provocative question"],
             correctIndex: 0,
@@ -416,10 +416,10 @@ export const DE_C2_U15: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Almost every second employee works from home.",
+        source: "Almost one in two employees works from home.",
         answer: "Fast jeder zweite Beschäftigte arbeitet im Homeoffice.",
-        altAnswers: ["Fast jeder zweite Mitarbeiter arbeitet im Homeoffice.", "Fast jeder zweite Beschäftigte arbeitet von zu Hause.", "Beinahe jeder zweite Beschäftigte arbeitet im Homeoffice."],
-        explanation: "\"Jeder zweite\" (literally every second, i.e. one in two) is the idiomatic way to say half; \"Beschäftigte\" is an adjectival noun (\"ein Beschäftigter\", \"jeder Beschäftigte\").",
+        altAnswers: ["Fast jeder zweite Mitarbeiter arbeitet im Homeoffice.", "Fast jeder zweite Beschäftigte arbeitet von zu Hause aus.", "Fast die Hälfte der Beschäftigten arbeitet im Homeoffice.", "Beinahe jeder zweite Beschäftigte arbeitet im Homeoffice."],
+        explanation: "\"Jeder zweite\" (literally every second) is the idiomatic German for one in two; \"fast die Hälfte\" also works; \"Beschäftigte\" is an adjectival noun (\"ein Beschäftigter\", \"jeder Beschäftigte\").",
       },
       {
         type: "matching",
@@ -534,7 +534,7 @@ export const DE_C2_U15: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The interest rate goes from 2 % to 3 %. Which statement is correct?",
+            question: "The interest rate goes from 2% to 3%. Which statement is correct?",
             options: ["Der Zinssatz ist um einen Prozentpunkt gestiegen.", "Der Zinssatz ist um ein Prozent gestiegen.", "Der Zinssatz ist auf einen Prozentpunkt gestiegen.", "Der Zinssatz ist um drei Prozent gestiegen."],
             correctIndex: 0,
             explanation: "From 2 to 3 is one percentage point (and a 50 per cent rise).",
@@ -1309,7 +1309,7 @@ export const DE_C2_U15: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Why does Herr Lorenz mention that raw material costs rose by 15 %?",
+        question: "Why does Herr Lorenz mention that raw material costs rose by 15%?",
         options: ["To justify his price with data", "To change the topic", "To insult the buyer", "To end the negotiation"],
         correctIndex: 0,
         explanation: "In German negotiations, arguments backed by figures carry the most weight.",
@@ -1359,7 +1359,7 @@ export const DE_C2_U15: Lesson[] = [
         body: [
           "When positions are fixed, German negotiators often say so openly: \"Da kommen wir nicht zusammen\" (we will not reach agreement on that), \"Hier liegen unsere Positionen noch weit auseinander\", \"Wir drehen uns im Kreis\" (we are going round in circles), \"Wir stecken fest\".",
           "Naming the problem is not aggressive; it is the first step to solving it. A useful follow-up is to separate what is agreed from what is open: \"Einig sind wir uns ja bei der Menge und der Qualität. Offen ist nur noch der Preis.\"",
-          "Formal register for minutes and e-mails: \"In der Frage der Vertragslaufzeit konnte noch keine Einigung erzielt werden.\" \"Eine Einigung erzielen\" is the standard collocation.",
+          "Formal register for minutes and emails: \"In der Frage der Vertragslaufzeit konnte noch keine Einigung erzielt werden.\" \"Eine Einigung erzielen\" is the standard collocation.",
         ],
         examples: [
           { es: "Da kommen wir nicht zusammen.", en: "We are not going to reach agreement on that." },
@@ -1806,7 +1806,7 @@ export const DE_C2_U15: Lesson[] = [
 
 export const DE_C2_U15_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You chaired a difficult negotiation between your company and a key supplier. The supplier wanted a 12 % price increase; your company refused. After a deadlock, both sides reached an agreement in principle. Write a formal e-mail to your managing director that summarises the starting positions, describes how the deadlock was broken, presents the agreed compromise with the key figures, and names the open points and next steps.",
+  prompt: "You chaired a difficult negotiation between your company and a key supplier. The supplier wanted a 12% price increase; your company refused. After a deadlock, both sides reached an agreement in principle. Write a formal email to your managing director that summarises the starting positions, describes how the deadlock was broken, presents the agreed compromise with the key figures, and names the open points and next steps.",
   minWords: 250,
   maxWords: 400,
   rubric: [
@@ -1816,5 +1816,5 @@ export const DE_C2_U15_WRITING: WriteExercise = {
     "A formal, \"sachlich\" register with the Sie-form, a proper \"Anrede\" and closing (\"Sehr geehrter Herr ...\", \"Mit freundlichen Grüßen\")",
   ],
   modelAnswer: "Sehr geehrter Herr Dr. Neumann,\n\nwie vereinbart möchte ich Sie über das Ergebnis der gestrigen Verhandlung mit der Firma Holzwerk Brandt informieren.\n\nZunächst zur Ausgangslage: Holzwerk Brandt hatte angekündigt, die Preise für Spanplatten ab Januar um 12 Prozent zu erhöhen, also von 3,80 auf rund 4,26 Euro pro Quadratmeter. Begründet wurde dies mit den gestiegenen Energie- und Transportkosten. Wir hatten unsererseits signalisiert, dass eine Erhöhung von mehr als 5 Prozent für uns nicht darstellbar ist.\n\nIm ersten Teil der Verhandlung drehten wir uns erwartungsgemäß im Kreis. Nachdem beide Seiten ihre Positionen mehrfach wiederholt hatten, schlug ich vor, einen Schritt zurückzutreten und über die eigentlichen Interessen zu sprechen. Dabei wurde deutlich, dass es Holzwerk Brandt weniger um den Preis an sich geht als um Planungssicherheit: Das Unternehmen muss im Frühjahr in eine neue Anlage investieren und braucht dafür feste Abnahmemengen.\n\nDamit komme ich zum erzielten Kompromiss. Wir haben uns grundsätzlich auf folgende Punkte verständigt:\n– Der Preis steigt um 6 Prozent auf 4,03 Euro pro Quadratmeter.\n– Im Gegenzug sichern wir eine Mindestabnahme von 120.000 Quadratmetern pro Jahr zu, was etwa 10 Prozent mehr ist als im Vorjahr.\n– Der Vertrag läuft zwei Jahre; eine weitere Preiserhöhung ist in dieser Zeit ausgeschlossen, sofern die Energiepreise nicht um mehr als 20 Prozent steigen.\n\nIm Vergleich zur ursprünglichen Forderung sparen wir damit jährlich rund 27.000 Euro. Unter der Bedingung, dass wir die Mindestmenge tatsächlich abnehmen, halte ich das Ergebnis für tragfähig.\n\nOffen sind noch die Zahlungsfristen sowie die genaue Formulierung der Energiepreisklausel. Frau Schäfer aus dem Einkauf klärt diese Details bis zum 20. November mit der Gegenseite. Den Vertragsentwurf lege ich Ihnen anschließend zur Freigabe vor.\n\nAbschließend möchte ich betonen, dass die Gespräche trotz der harten Ausgangslage sachlich und konstruktiv verliefen. Für Rückfragen stehe ich Ihnen selbstverständlich jederzeit zur Verfügung.\n\nMit freundlichen Grüßen\nJulia Hartmann",
-  explanation: "The e-mail is structured with clear signposts (\"Zunächst zur Ausgangslage\", \"Damit komme ich zum erzielten Kompromiss\", \"Abschließend\"). Figures are precise: \"um 12 Prozent\" gives the size of the change and \"auf 4,03 Euro\" the new value, with decimal commas. The negotiation is described with the key vocabulary (\"darstellbar\", \"im Kreis drehen\", \"einen Schritt zurücktreten\", \"im Gegenzug\", \"sich grundsätzlich verständigen\") and conditions (\"sofern\", \"unter der Bedingung, dass\"). The register stays formal and \"sachlich\" throughout, with open points and responsibilities named at the end.",
+  explanation: "The email is structured with clear signposts (\"Zunächst zur Ausgangslage\", \"Damit komme ich zum erzielten Kompromiss\", \"Abschließend\"). Figures are precise: \"um 12 Prozent\" gives the size of the change and \"auf 4,03 Euro\" the new value, with decimal commas. The negotiation is described with the key vocabulary (\"darstellbar\", \"im Kreis drehen\", \"einen Schritt zurücktreten\", \"im Gegenzug\", \"sich grundsätzlich verständigen\") and conditions (\"sofern\", \"unter der Bedingung, dass\"). The register stays formal and \"sachlich\" throughout, with open points and responsibilities named at the end.",
 };
