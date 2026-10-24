@@ -88,7 +88,7 @@ export const DELF_A2_CO: ExamPaper = {
         { n: 8, question: "Le service commence…", options: ["le 1er juin.", "le 1er juillet.", "l'année prochaine."], answer: 0, explanation: "« À partir du premier juin. »" },
         { n: 9, question: "Pour utiliser le service, il faut…", options: ["aller à la mairie.", "acheter une carte à la gare.", "télécharger une application."], answer: 2, explanation: "« Il faut télécharger une application sur son téléphone. »" },
         { n: 10, question: "Qui ne paie pas le premier mois ?", options: ["Les enfants.", "Les étudiants.", "Les personnes âgées."], answer: 1, explanation: "« C'est gratuit pour les étudiants pendant le premier mois. »" },
-        { n: 11, question: "Pourquoi la mairie lance-t-elle ce service ?", options: ["Pour réduire les voitures en ville.", "Pour gagner de l'argent.", "Pour les touristes."], answer: 0, explanation: "« Moins de voitures dans le centre et un air plus propre. »" },
+        { n: 11, question: "Pourquoi la mairie lance-t-elle ce service ?", options: ["Pour réduire le nombre de voitures en ville.", "Pour gagner de l'argent.", "Pour les touristes."], answer: 0, explanation: "« Moins de voitures dans le centre et un air plus propre. »" },
       ],
     },
     {

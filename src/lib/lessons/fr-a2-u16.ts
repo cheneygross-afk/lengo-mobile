@@ -171,7 +171,7 @@ export const FR_A2_U16: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is correct, said to a friend: Look!",
+        question: "How do you tell a friend: Look!",
         options: ["Regarde !", "Regardes !", "Tu regarde !", "Regardez-tu !"],
         correctIndex: 0,
         explanation: "-er verbs drop the -s in the tu imperative.",
@@ -651,7 +651,7 @@ export const FR_A2_U16: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which sentence is correct for: I'm leaving now?",
+            question: "How do you say: I'm leaving now?",
             options: ["Je pars maintenant.", "Je quitte maintenant.", "Je laisse maintenant.", "Je sors maintenant de."],
             correctIndex: 0,
             explanation: "No object → \"partir\". \"Quitter\" needs an object (\"je quitte le bureau\").",
@@ -762,9 +762,9 @@ export const FR_A2_U16: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence means: She left her husband?",
-        options: ["Elle a quitté son mari.", "Elle est partie son mari.", "Elle a laissé son mari.", "Elle est sortie son mari."],
+        options: ["Elle a quitté son mari.", "Elle est partie son mari.", "Elle est quittée son mari.", "Elle est sortie son mari."],
         correctIndex: 0,
-        explanation: "Leaving a person (a relationship) = \"quitter\". \"Laisser son mari\" would mean leave him somewhere.",
+        explanation: "Leaving a person (a relationship) = \"quitter\" + direct object, with avoir: \"elle a quitté\". \"Partir\" and \"sortir\" can't take a direct object here.",
       },
       {
         type: "translate",

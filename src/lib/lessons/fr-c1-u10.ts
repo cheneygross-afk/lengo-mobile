@@ -34,7 +34,7 @@ export const FR_C1_U10: Lesson[] = [
             prompt: "Translate into French.",
             source: "First of all, I'd like to thank you for coming.",
             answer: "Tout d'abord, je voudrais vous remercier d'être venus.",
-            altAnswers: ["Tout d'abord, je voudrais vous remercier d'être venu.", "Tout d'abord, je voudrais vous remercier d'être venue.", "Tout d'abord, je voudrais vous remercier d'être venues.", "Tout d'abord, je tiens à vous remercier d'être venus.", "Tout d'abord, je souhaiterais vous remercier d'être venus."],
+            altAnswers: ["Tout d'abord, je voudrais vous remercier d'être venu.", "Tout d'abord, je voudrais vous remercier d'être venue.", "Tout d'abord, je voudrais vous remercier d'être venues.", "Tout d'abord, je tiens à vous remercier d'être venus.", "Tout d'abord, je souhaiterais vous remercier d'être venus.", "Tout d'abord, je voudrais te remercier d'être venu.", "Tout d'abord, je voudrais te remercier d'être venue."],
             explanation: "\"Tout d'abord\" opens a structured speech; \"remercier de\" + past infinitive.",
           },
           {
@@ -165,7 +165,7 @@ export const FR_C1_U10: Lesson[] = [
         en: "Results are good. [In another respect], the team has grown.",
         sentence: "Les résultats sont bons. ___, l'équipe s'est agrandie.",
         answer: "Par ailleurs",
-        altAnswers: ["D'autre part", "En outre", "De plus"],
+        altAnswers: ["D'autre part"],
         explanation: "\"Par ailleurs\" links two related points on different topics.",
       },
       {
@@ -506,7 +506,7 @@ export const FR_C1_U10: Lesson[] = [
           { es: "C'est la meilleure option, du moins pour l'instant.", en: "It's the best option, at least for now." },
           { es: "Personne n'a été informé, du moins pas officiellement.", en: "Nobody has been informed, at least not officially." },
           { es: "À ma connaissance, aucune décision n'a encore été prise.", en: "To my knowledge, no decision has been taken yet." },
-          { es: "Cette mesure est efficace, dans une certaine mesure.", en: "This measure is effective, to some extent." },
+          { es: "Ce dispositif est efficace, dans une certaine mesure.", en: "This scheme is effective, to some extent." },
           { es: "A priori, la réunion est maintenue.", en: "In principle, the meeting is going ahead." },
         ],
         checkpoint: [
@@ -516,6 +516,7 @@ export const FR_C1_U10: Lesson[] = [
             prompt: "Translate into French.",
             source: "Nobody complained, at least not to my knowledge.",
             answer: "Personne ne s'est plaint, du moins pas à ma connaissance.",
+            altAnswers: ["Personne ne s'est plaint, du moins à ma connaissance."],
             explanation: "\"Du moins\" limits the claim to what you know.",
           },
           {
@@ -1018,7 +1019,7 @@ export const FR_C1_U10: Lesson[] = [
         prompt: "Translate into French.",
         source: "Seeing as you're here, can you help me?",
         answer: "Vu que tu es là, tu peux m'aider ?",
-        altAnswers: ["Puisque tu es là, tu peux m'aider ?", "Vu que tu es là, est-ce que tu peux m'aider ?", "Vu que vous êtes là, vous pouvez m'aider ?", "Puisque vous êtes là, pouvez-vous m'aider ?", "Vu que tu es là, peux-tu m'aider ?"],
+        altAnswers: ["Puisque tu es là, tu peux m'aider ?", "Vu que tu es là, est-ce que tu peux m'aider ?", "Vu que vous êtes là, vous pouvez m'aider ?", "Puisque vous êtes là, pouvez-vous m'aider ?", "Vu que tu es là, peux-tu m'aider ?", "Vu que vous êtes là, pouvez-vous m'aider ?"],
         explanation: "\"Vu que\" is the conversational 'seeing as'.",
       },
       {
@@ -1899,7 +1900,7 @@ export const FR_C1_U10: Lesson[] = [
         prompt: "Translate into French (casual speech).",
         source: "Right, shall we go?",
         answer: "Bon, on y va ?",
-        altAnswers: ["Bon, on part ?", "Bon, on s'en va ?", "Bon, on y va ou pas ?"],
+        altAnswers: ["Bon, on part ?", "Bon, on s'en va ?"],
         explanation: "\"Bon\" opens a new phase; \"on y va ?\" = shall we go?",
       },
       {
@@ -2031,8 +2032,7 @@ export const FR_C1_U10: Lesson[] = [
             prompt: "Translate into French (formal written style, starting with peut-être).",
             source: "Perhaps he is right.",
             answer: "Peut-être a-t-il raison.",
-            altAnswers: ["Peut-être qu'il a raison.", "Il a peut-être raison."],
-            explanation: "Sentence-initial \"peut-être\" + inversion; or \"peut-être que\" + normal order; never \"*Peut-être il a raison\".",
+            explanation: "Formal written style: sentence-initial \"peut-être\" + inversion. \"Peut-être qu'il a raison\" (spoken) and \"Il a peut-être raison\" (neutral) are correct but not what was asked; \"*Peut-être il a raison\" is never correct.",
           },
           {
             type: "multiple-choice",
@@ -2127,8 +2127,7 @@ export const FR_C1_U10: Lesson[] = [
         prompt: "Translate into French (formal written style, starting with sans doute).",
         source: "She has probably already left.",
         answer: "Sans doute est-elle déjà partie.",
-        altAnswers: ["Elle est sans doute déjà partie.", "Sans doute qu'elle est déjà partie."],
-        explanation: "\"Sans doute\" (probably) at the head + inversion.",
+        explanation: "\"Sans doute\" (probably) at the head + inversion: the formal written order. \"Sans doute qu'elle est partie\" is spoken, and \"Elle est sans doute partie\" doesn't start with the adverb.",
       },
       {
         type: "translate",
@@ -2570,7 +2569,7 @@ export const FR_C1_U10: Lesson[] = [
         prompt: "Translate into French.",
         source: "No matter how hard I try, I can't convince him.",
         answer: "J'ai beau essayer, je n'arrive pas à le convaincre.",
-        altAnswers: ["J'ai beau essayer, je ne parviens pas à le convaincre.", "J'ai beau essayer, je n'arrive pas à la convaincre.", "J'ai beau faire, je n'arrive pas à le convaincre."],
+        altAnswers: ["J'ai beau essayer, je ne parviens pas à le convaincre.", "J'ai beau faire, je n'arrive pas à le convaincre."],
         explanation: "\"Avoir beau\" + infinitive.",
       },
       {

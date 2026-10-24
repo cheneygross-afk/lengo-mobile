@@ -101,7 +101,7 @@ export const FR_C2_U11: Lesson[] = [
         heading: "When inference fails: false friends and checking the guess",
         body: [
           "Inference is powerful but dangerous with words that look like English. \"Un mémoire de fin d'études\" is a dissertation, not a memory; \"il a été licencié\" means he was dismissed, not licensed; \"la lecture\" is reading, not a lecture (\"un cours magistral\", \"une conférence\"). If your guess makes the sentence strange, the word may be a false friend.",
-          "Always check the guess against the whole context. \"Après sa garde à vue, il a été relaxé\" might suggest he relaxed; in a legal context it means he was acquitted. \"Les candidats ont été achevés par l'épreuve de maths\": \"achever\" here jokes on 'finish off', which only makes sense if you know \"achever\" means both to complete and to kill.",
+          "Always check the guess against the whole context. \"À l'issue du procès, il a été relaxé\" might suggest he relaxed; in a legal context it means he was acquitted. \"Les candidats ont été achevés par l'épreuve de maths\": \"achever\" here jokes on 'finish off', which only makes sense if you know \"achever\" means both to complete and to kill.",
           "A useful routine: guess, reread the sentence with your guess, check the next sentence for confirmation, and note the word if it comes back. Only reach for the dictionary when the word is central and your guess remains doubtful.",
         ],
         examples: [
@@ -119,8 +119,8 @@ export const FR_C2_U11: Lesson[] = [
             prompt: "Translate into French.",
             source: "The defendant was acquitted.",
             answer: "Le prévenu a été relaxé.",
-            altAnswers: ["Le prévenu a été acquitté.", "L'accusé a été acquitté.", "L'accusé a été relaxé.", "La prévenue a été relaxée."],
-            explanation: "\"Relaxer\" in a criminal court means to acquit (\"acquitter\" is used at the cour d'assises).",
+            altAnswers: ["Le prévenu a été acquitté.", "L'accusé a été acquitté.", "La prévenue a été relaxée."],
+            explanation: "\"Relaxer\" means to acquit \"un prévenu\" (tribunal correctionnel or de police); at the cour d'assises, \"l'accusé\" is \"acquitté\". The press often uses \"acquitté\" for both.",
           },
           {
             type: "translate",

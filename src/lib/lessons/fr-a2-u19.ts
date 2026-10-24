@@ -214,7 +214,7 @@ export const FR_A2_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'My luggage is in the car'?",
+        question: "How do you say: My luggage is in the car?",
         options: ["Mes bagages sont dans la voiture.", "Mes bagage sont dans la voiture.", "Ma bagage est dans la voiture.", "Mes bagages est dans la voiture."],
         correctIndex: 0,
         explanation: "French treats luggage as plural: \"mes bagages sont\".",
@@ -300,7 +300,7 @@ export const FR_A2_U19: Lesson[] = [
         ],
         examples: [
           { es: "Je me suis cassé la jambe au ski.", en: "I broke my leg skiing." },
-          { es: "Il s'est coupé le doigt en faisant la cuisine.", en: "He cut his finger while cooking." },
+          { es: "Il s'est coupé le doigt dans la cuisine.", en: "He cut his finger in the kitchen." },
           { es: "Tu t'es fait mal ?", en: "Did you hurt yourself?" },
           { es: "Elle est tombée de vélo et elle s'est blessée.", en: "She fell off her bike and hurt herself." },
           { es: "Mon frère s'est cassé le bras l'année dernière.", en: "My brother broke his arm last year." },
@@ -360,7 +360,7 @@ export const FR_A2_U19: Lesson[] = [
             type: "speak",
             text: "Bon rétablissement ! Repose-toi bien.",
             prompt: "Say it in French to a friend: Get well soon! Get plenty of rest.",
-            tip: "\"Rétablissement\": five syllables, \"ré-ta-bli-sse-ment\".",
+            tip: "\"Rétablissement\": four spoken syllables, \"ré-ta-blis-ment\"; the e before \"-ment\" is silent.",
             explanation: "\"Bon rétablissement\" is the standard get-well wish; \"repose-toi\" is the tu imperative of \"se reposer\".",
           },
         ],
@@ -551,7 +551,7 @@ export const FR_A2_U19: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The email? I deleted it. Which is right?",
+            question: "How do you say: The email? I deleted it.",
             options: ["Le mail ? Je l'ai supprimé.", "Le mail ? Je lui ai supprimé.", "Le mail ? J'ai le supprimé.", "Le mail ? Je l'ai supprimée."],
             correctIndex: 0,
             explanation: "\"Supprimer\" takes a direct object → \"l'\". \"Le mail\" is masculine: no extra -e.",
@@ -755,7 +755,7 @@ export const FR_A2_U19: Lesson[] = [
         body: [
           "When you do something to your own body, French uses a pronominal verb + the article: \"je me lave les mains\" (I wash my hands), \"tu te brosses les dents\", \"il se rase\", \"elle se maquille\", \"je me lave les cheveux\". The \"me\" already says it's yours, so the possessive would be doubling up.",
           "Who does it to whom? If you wash someone else's hands, drop the \"se\" and use an indirect pronoun for the person: \"je lave les mains de ma fille\" → \"je lui lave les mains\". Same article, different pronoun.",
-          "Routine questions often use \"se\" too: \"Tu te brosses les dents ?\" asked a parent; \"Lave-toi les mains !\" (imperative: the pronoun goes after, as \"toi\").",
+          "Routine questions often use \"se\" too: \"Tu te brosses les dents ?\", as a parent asks; \"Lave-toi les mains !\" (imperative: the pronoun goes after, as \"toi\").",
         ],
         examples: [
           { es: "Je me brosse les dents trois fois par jour.", en: "I brush my teeth three times a day." },
@@ -803,7 +803,7 @@ export const FR_A2_U19: Lesson[] = [
           { es: "Ce matin, je me suis lavé les cheveux.", en: "This morning I washed my hair." },
           { es: "Elle s'est brossé les dents et elle s'est couchée.", en: "She brushed her teeth and went to bed." },
           { es: "Tu t'es lavé les mains ?", en: "Have you washed your hands?" },
-          { es: "Elle s'est tordu la cheville en courant.", en: "She twisted her ankle running." },
+          { es: "Elle s'est tordu la cheville au foot.", en: "She twisted her ankle playing football." },
           { es: "Les enfants se sont habillés tout seuls.", en: "The children got dressed by themselves." },
         ],
         checkpoint: [
@@ -818,7 +818,7 @@ export const FR_A2_U19: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which spelling is right for: She washed her hair?",
+            question: "How do you write: She washed her hair?",
             options: ["Elle s'est lavé les cheveux.", "Elle s'est lavée les cheveux.", "Elle a lavé ses cheveux.", "Elle s'a lavé les cheveux."],
             correctIndex: 0,
             explanation: "The direct object is \"les cheveux\", after the verb, so no agreement: \"lavé\".",
@@ -1243,7 +1243,7 @@ export const FR_A2_U19: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is correct for: in winter?",
+            question: "How do you say: in winter?",
             options: ["en hiver", "au hiver", "dans hiver", "à l'hiver"],
             correctIndex: 0,
             explanation: "\"En hiver\", \"en été\", \"en automne\"; only spring takes \"au\".",
@@ -1497,7 +1497,7 @@ export const FR_A2_U19: Lesson[] = [
       {
         heading: "Part 3: The party and the storm",
         body: [
-          "\"Le soir, il y avait une grande fête dans le jardin. Pendant que les invités dansaient, un orage a éclaté. Il a commencé à pleuvoir très fort et ma tante est tombée dans la piscine ! Mais Manon riait. Elle a dit : « C'est le plus beau jour de ma vie !\" Les mariés sont partis à minuit, sous la pluie. »",
+          "\"Le soir, il y avait une grande fête dans le jardin. Pendant que les invités dansaient, un orage a éclaté. Il a commencé à pleuvoir très fort et ma tante est tombée dans la piscine ! Mais Manon riait. Elle a dit : « C'est le plus beau jour de ma vie ! » Les mariés sont partis à minuit, sous la pluie.\"",
           "\"Pendant que les invités dansaient\" (background) + \"un orage a éclaté\" (event) is the classic interruption. \"Tomber\" and \"partir\" take \"être\" and agree with the subject: \"ma tante est tombée\", \"les mariés sont partis\".",
           "\"Manon riait\" is imparfait: not a single laugh but her state while everything was going wrong.",
         ],
@@ -1677,7 +1677,7 @@ export const FR_A2_U19: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say 'My parents stayed at the hotel'?",
+            question: "How do you say: My parents stayed at the hotel?",
             options: ["Mes parents sont restés à l'hôtel.", "Mes parents ont restés à l'hôtel.", "Mes parents sont resté à l'hôtel.", "Mes parents ont resté à l'hôtel."],
             correctIndex: 0,
             explanation: "\"Rester\" takes \"être\" (it's on the list despite not being movement) and agrees: \"restés\".",
@@ -1837,7 +1837,7 @@ export const FR_A2_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence has no mistake?",
+        question: "How do you write (two women speaking): We went down to the harbour?",
         options: ["Nous sommes descendues au port.", "Nous avons descendu au port.", "Nous sommes descendu au port.", "Nous avons descendues au port."],
         correctIndex: 0,
         explanation: "\"Descendre\" with no object takes \"être\" and agrees with \"nous\" (two women here: \"descendues\").",
@@ -2071,7 +2071,7 @@ export const FR_A2_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence best starts a biography?",
+        question: "How do you start her biography: She was born in Poland in 1867?",
         options: ["Elle est née en Pologne en 1867.", "Elle naissait en Pologne en 1867.", "Elle a né en Pologne en 1867.", "Elle est née à Pologne en 1867."],
         correctIndex: 0,
         explanation: "\"Naître\": \"être\" + \"née\"; feminine countries take \"en\": \"en Pologne\".",
@@ -2840,7 +2840,7 @@ export const FR_A2_U19: Lesson[] = [
           { es: "Aïe ! Ça me fait mal !", en: "Ouch! That hurts!" },
           { es: "Mes nouvelles chaussures me font mal aux pieds.", en: "My new shoes are hurting my feet." },
           { es: "Arrête, tu me fais mal !", en: "Stop it, you're hurting me!" },
-          { es: "Je me suis fait mal au genou en courant.", en: "I hurt my knee running." },
+          { es: "Je me suis fait mal au genou au foot.", en: "I hurt my knee playing football." },
           { es: "Ne vous inquiétez pas, ça ne fait pas mal.", en: "Don't worry, it doesn't hurt." },
         ],
         checkpoint: [

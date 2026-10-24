@@ -128,8 +128,8 @@ export const FR_B2_U28: Lesson[] = [
         prompt: "Decision 3. Translate into French.",
         source: "After she had left, I cried.",
         answer: "Après qu'elle est partie, j'ai pleuré.",
-        altAnswers: ["Après qu'elle était partie, j'ai pleuré.", "Après son départ, j'ai pleuré."],
-        explanation: "\"Après que\" + indicative.",
+        altAnswers: ["Après son départ, j'ai pleuré.", "Une fois qu'elle est partie, j'ai pleuré."],
+        explanation: "\"Après que\" + indicative. With a passé composé main verb, use \"est partie\": English had left doesn't become a plus-que-parfait here.",
       },
       {
         type: "translate",

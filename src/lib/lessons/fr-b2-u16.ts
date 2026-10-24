@@ -421,7 +421,7 @@ export const FR_B2_U16: Lesson[] = [
             prompt: "Translate into French.",
             source: "She asked me what I wanted.",
             answer: "Elle m'a demandé ce que je voulais.",
-            explanation: "« Qu'est-ce que » → \"ce que\"; present → imparfait.",
+            explanation: "\"Qu'est-ce que\" → \"ce que\"; present → imparfait.",
           },
           {
             type: "fill-blank",
@@ -429,7 +429,7 @@ export const FR_B2_U16: Lesson[] = [
             en: "The teacher asked us [what had happened].",
             sentence: "Le prof nous a demandé ___.",
             answer: "ce qui s'était passé",
-            explanation: "« Qu'est-ce qui » → \"ce qui\"; passé composé → plus-que-parfait.",
+            explanation: "\"Qu'est-ce qui\" → \"ce qui\"; passé composé → plus-que-parfait.",
           },
         ],
       },

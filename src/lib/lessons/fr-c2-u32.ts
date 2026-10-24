@@ -5,7 +5,7 @@ import type { Lesson, WriteExercise } from "./types";
 
 export const FR_C2_U32_WRITING: WriteExercise = {
   type: "write",
-  prompt: "A literary magazine is running a short-story competition on the theme « Le retour ». Write a complete short story with a title that matters, a striking incipit, at least one short dialogue exchange, a discreet clue planted early, an ellipsis, and an ending that is either open or a twist. Choose your narrative tense and point of view deliberately and keep them consistent.",
+  prompt: "A literary magazine is running a short-story competition on the theme \"Le retour\". Write a complete short story with a title that matters, a striking incipit, at least one short dialogue exchange, a discreet clue planted early, an ellipsis, and an ending that is either open or a twist. Choose your narrative tense and point of view deliberately and keep them consistent.",
   minWords: 250,
   maxWords: 400,
   rubric: [
@@ -54,7 +54,7 @@ export const FR_C2_U32: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« Trois ans passèrent. » What narrative device is this?",
+            question: "\"Trois ans passèrent.\" What narrative device is this?",
             options: ["une ellipse", "une analepse", "une prolepse", "un dialogue"],
             correctIndex: 0,
             explanation: "Skipping three years in one sentence is an ellipsis.",
@@ -126,7 +126,7 @@ export const FR_C2_U32: Lesson[] = [
             prompt: "Translate into French.",
             source: "That detail gives the game away too early.",
             answer: "Ce détail vend la mèche trop tôt.",
-            altAnswers: ["Ce détail évente la surprise trop tôt.", "Ce détail en dit trop trop tôt."],
+            altAnswers: ["Ce détail évente la surprise trop tôt.", "Ce détail en dit trop, trop tôt."],
             explanation: "\"Vendre la mèche\": to give away a secret.",
           },
           {
@@ -220,7 +220,7 @@ export const FR_C2_U32: Lesson[] = [
       {
         type: "speak",
         text: "Oh ! ma pauvre Mathilde ! Mais la mienne était fausse.",
-        tip: "Let the voice fall on fausse: it is the whole story's punchline.",
+        tip: "Let the voice fall on \"fausse\": it is the whole story's punchline.",
         explanation: "The chute of Maupassant's \"La Parure\" (1884).",
       },
     ],
@@ -432,7 +432,7 @@ export const FR_C2_U32: Lesson[] = [
       {
         type: "speak",
         text: "Toutes signées de la même main. De la sienne.",
-        tip: "A real pause before De la sienne: the twist needs silence.",
+        tip: "A real pause before \"De la sienne\": the twist needs silence.",
         explanation: "Two short fragments for the chute: rhythm creates the shock.",
       },
     ],
@@ -448,7 +448,7 @@ export const FR_C2_U32: Lesson[] = [
       {
         heading: "Who sees, who tells",
         body: [
-          "Before writing, choose your \"point de vue\". \"Un narrateur-personnage\" tells in the first person and knows only what he lived; \"un narrateur extérieur\" (third person) can be omniscient (\"focalisation zéro\"), stay with one character (\"focalisation interne\"), or show only the outside (\"focalisation externe\"). Each choice has a price: internal focalisation creates intimacy but limits information; external focalisation creates mystery but distance.",
+          "Before writing, choose your \"point de vue\". \"Un narrateur-personnage\" tells in the first person and knows only what he has lived through; \"un narrateur extérieur\" (third person) can be omniscient (\"focalisation zéro\"), stay with one character (\"focalisation interne\"), or show only the outside (\"focalisation externe\"). Each choice has a price: internal focalisation creates intimacy but limits information; external focalisation creates mystery but distance.",
           "The most common beginner's error is \"la rupture de point de vue\": in a story told through Léa's eyes, suddenly writing what her brother thinks. If you are in internal focalisation, everything must pass through Léa: not \"Thomas était furieux\" but \"Thomas serrait les mâchoires ; il devait être furieux\" (what she sees, and her inference).",
           "Free indirect style (\"le style indirect libre\") is the great tool of internal focalisation in the third person: the character's thoughts in the narrator's grammar. \"Elle regarda l'horloge. Encore une heure. Comment allait-elle tenir ?\"",
         ],
@@ -472,7 +472,7 @@ export const FR_C2_U32: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« L'homme entra, posa son chapeau et s'assit sans un mot. » Which focalisation is this?",
+            question: "\"L'homme entra, posa son chapeau et s'assit sans un mot.\" Which focalisation is this?",
             options: ["externe", "interne", "zéro", "autofiction"],
             correctIndex: 0,
             explanation: "Only actions, no thoughts: external focalisation, like a camera.",
@@ -656,7 +656,7 @@ export const FR_C2_U32: Lesson[] = [
         heading: "From statement to simile: comme, tel, pareil à, on aurait dit",
         body: [
           "Start with a flat sentence: \"Le lac était calme.\" A simile (\"une comparaison\") links it to something else through a tool word: \"Le lac était calme comme un miroir\" (the cliché), \"Le lac était lisse comme une vitre qu'on vient de laver\" (fresher). The tools: \"comme\", \"tel\" (literary, agreeing with the noun that follows it: \"telle une vitre\"), \"pareil à\", \"semblable à\", \"ainsi que\", \"on aurait dit\" (it looked like), \"avoir l'air de\".",
-          "\"Tel\" agrees with what follows it in modern usage when used without que: \"Elle avançait, telle une ombre\" (tel + ombre, feminine). It gives a more elevated, literary tone than comme. \"On aurait dit\" + noun is lively and conversational: \"On aurait dit un décor de théâtre.\"",
+          "\"Tel\" agrees with what follows it in modern usage when used without \"que\": \"Elle avançait, telle une ombre\" (tel + ombre, feminine). It gives a more elevated, literary tone than \"comme\". \"On aurait dit\" + noun is lively and conversational: \"On aurait dit un décor de théâtre.\"",
           "The rule of freshness: a comparison is only worth something if it is unexpected yet exact. \"Rouge comme une tomate\", \"doux comme un agneau\" are dead images (\"des clichés\", \"des images éculées\"). Look for the precise, observed detail.",
         ],
         examples: [
@@ -671,7 +671,7 @@ export const FR_C2_U32: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into French, using tel / telle.",
+            prompt: "Translate into French, using \"tel\" or \"telle\".",
             source: "She moved forward like a shadow.",
             answer: "Elle avançait, telle une ombre.",
             altAnswers: ["Elle avança, telle une ombre.", "Elle avançait telle une ombre.", "Elle avança telle une ombre."],
@@ -747,7 +747,7 @@ export const FR_C2_U32: Lesson[] = [
           { es: "Il est des parfums frais comme des chairs d'enfants.", en: "There are perfumes cool as children's flesh." },
           { es: "« A noir, E blanc, I rouge, U vert, O bleu : voyelles », écrit Rimbaud.", en: "'A black, E white, I red, U green, O blue: vowels,' writes Rimbaud." },
           { es: "Il avait une voix rugueuse, comme passée au papier de verre.", en: "He had a rough voice, as if sanded down." },
-          { es: "Un silence blanc s'installa entre eux.", en: "A blank, white silence settled between them." },
+          { es: "Un silence blanc s'installa entre eux.", en: "A white silence settled between them." },
           { es: "Les néons jetaient sur la rue des couleurs criardes.", en: "The neon lights cast garish colours over the street." },
         ],
         checkpoint: [
@@ -814,11 +814,11 @@ export const FR_C2_U32: Lesson[] = [
         source: "He had a rough voice.",
         answer: "Il avait une voix rugueuse.",
         altAnswers: ["Il avait une voix râpeuse.", "Il avait la voix rugueuse."],
-        explanation: "Synaesthesia: a texture (rugueux) applied to a sound.",
+        explanation: "Synaesthesia: a texture (\"rugueux\") applied to a sound.",
       },
       {
         type: "multiple-choice",
-        question: "« Des couleurs criardes » is an example of...",
+        question: "\"Des couleurs criardes\" is an example of...",
         options: ["synaesthesia", "a simile", "an ellipsis", "a prolepsis"],
         correctIndex: 0,
         explanation: "\"Criard\" (screaming) applies a sound quality to colours: synaesthesia.",
@@ -847,7 +847,7 @@ export const FR_C2_U32: Lesson[] = [
       {
         type: "speak",
         text: "Il est des parfums frais comme des chairs d'enfants, doux comme les hautbois, verts comme les prairies.",
-        tip: "Three comparisons, three equal beats: frais, doux, verts.",
+        tip: "Three comparisons, three equal beats: \"frais\", \"doux\", \"verts\".",
         explanation: "Baudelaire's \"Correspondances\": touch, sound and sight for a smell.",
       },
     ],
@@ -865,7 +865,7 @@ export const FR_C2_U32: Lesson[] = [
         body: [
           "\"L'Oulipo\" (Ouvroir de littérature potentielle, workshop of potential literature) was founded in 1960 by the writer Raymond Queneau and the mathematician François Le Lionnais. Its idea: a formal constraint, far from limiting the writer, forces new ideas. Members included Georges Perec, Italo Calvino and Jacques Roubaud.",
           "Queneau's \"Exercices de style\" (1947) tells the same trivial anecdote (a man on a Paris bus, a dispute, a button on a coat) ninety-nine times in ninety-nine styles: official letter, dream, onomatopoeia, alexandrines, slang. Here are original variations in that spirit, on our own anecdote. Neutral: \"Ce matin, dans le métro, un homme a marché sur le pied d'une dame, qui l'a traité de rustre.\" Telegraphic: \"Métro. Matin. Pied écrasé. Dame furieuse. Rustre.\" Formal: \"Il m'a été donné d'assister, ce jour, à un incident regrettable au cours duquel un voyageur a foulé le pied d'une passagère.\"",
-          "Perec's novel \"La Disparition\" (1969) is a lipogram: some three hundred pages without a single letter e, the most frequent letter in French. Try it yourself; this original sentence contains no e: « Un soir, à Lyon, un garçon distrait sortit sans anorak. Il plut. Il courut jusqu'à son logis, trop tard : tout son habit gouttait. » The constraint forces surprising word choices: \"logis\" instead of maison, \"habit\" instead of vêtements.",
+          "Perec's novel \"La Disparition\" (1969) is a lipogram: some three hundred pages without a single letter e, the most frequent letter in French. Try it yourself; this original sentence contains no e: « Un soir, à Lyon, un garçon distrait sortit sans anorak. Il plut. Il courut jusqu'à son logis, trop tard : tout son habit gouttait. » The constraint forces surprising word choices: \"logis\" instead of \"maison\", \"habit\" instead of \"vêtements\".",
         ],
         examples: [
           { es: "L'Oulipo a été fondé en 1960 par Raymond Queneau et François Le Lionnais.", en: "The Oulipo was founded in 1960 by Raymond Queneau and the mathematician Le Lionnais." },
@@ -918,7 +918,7 @@ export const FR_C2_U32: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite in French without il y avait.",
+            prompt: "Rewrite in French without \"il y avait\".",
             source: "There was an old woman who was feeding the pigeons.",
             answer: "Une vieille femme nourrissait les pigeons.",
             altAnswers: ["Une vieille dame nourrissait les pigeons.", "Une femme âgée nourrissait les pigeons."],
@@ -990,7 +990,7 @@ export const FR_C2_U32: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in French without il y avait.",
+        prompt: "Rewrite in French without \"il y avait\".",
         source: "There was a dog that was barking in the courtyard.",
         answer: "Un chien aboyait dans la cour.",
         explanation: "Drop the empty \"il y avait... qui\": a direct subject and a precise verb.",
@@ -1015,7 +1015,7 @@ export const FR_C2_U32: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which revision best avoids repeating « la maison »?",
+        question: "Which revision best avoids repeating \"la maison\"?",
         options: [
           "La maison était vieille ; elle sentait l'humidité.",
           "La maison était vieille ; la maison sentait l'humidité.",
@@ -1110,7 +1110,7 @@ export const FR_C2_U32: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does « en l'état » mean in « En l'état, le texte n'est pas publiable »?",
+            question: "What does \"en l'état\" mean in \"En l'état, le texte n'est pas publiable\"?",
             options: ["As it stands", "In the state of mind", "In this country", "In the end"],
             correctIndex: 0,
             explanation: "\"En l'état\": in its current state, as it stands.",
@@ -1322,7 +1322,7 @@ export const FR_C2_U32: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "In « Correspondance », what does the final line suggest?",
+            question: "In \"Correspondance\", what does the final line suggest?",
             options: [
               "The widow is still writing notes to her dead husband.",
               "The husband is still alive.",
@@ -1413,7 +1413,7 @@ export const FR_C2_U32: Lesson[] = [
             prompt: "Put the words in order to say: For forty years, nothing changed.",
             words: ["Durant", "quarante", "ans,", "rien", "ne", "changea."],
             translation: "For forty years, nothing changed.",
-            explanation: "\"Durant\" (literary for pendant) supplies the D of the abecedary.",
+            explanation: "\"Durant\" (literary for \"pendant\") supplies the D of the abecedary.",
           },
         ],
       },
@@ -1455,7 +1455,7 @@ export const FR_C2_U32: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which title for « Correspondance » would be the weakest?",
+        question: "Which title for \"Correspondance\" would be the weakest?",
         options: ["Le deuil d'une veuve", "Pense au pain", "Écailles", "Correspondance"],
         correctIndex: 0,
         explanation: "\"Le deuil d'une veuve\" names the subject and gives the ending away; the others intrigue.",
@@ -1533,7 +1533,7 @@ export const FR_C2_U32: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "In French academic usage, « l'épistémologie » most often refers to...",
+            question: "In French academic usage, \"l'épistémologie\" most often refers to...",
             options: ["the philosophy of science", "the study of being", "the study of ethics", "the study of language"],
             correctIndex: 0,
             explanation: "French \"épistémologie\" is mostly the philosophy of science, narrower than English 'epistemology'.",
@@ -1673,7 +1673,7 @@ export const FR_C2_U32: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Il est en retard parce qu'il n'est pas à l'heure. » This sentence is...",
+        question: "\"Il est en retard parce qu'il n'est pas à l'heure.\" This sentence is...",
         options: ["a tautology", "an aporia", "a dialectic", "an ontology"],
         correctIndex: 0,
         explanation: "It explains something by itself: a tautology.",
@@ -1713,7 +1713,7 @@ export const FR_C2_U32: Lesson[] = [
       {
         type: "speak",
         text: "L'homme n'est qu'un roseau, le plus faible de la nature ; mais c'est un roseau pensant.",
-        tip: "Pause at the semicolon, then stress pensant.",
+        tip: "Pause at the semicolon, then stress \"pensant\".",
         explanation: "Pascal, \"Pensées\": fragility and the dignity of thought.",
       },
     ],
@@ -1780,14 +1780,14 @@ export const FR_C2_U32: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into French, using tenir compte.",
+            prompt: "Translate into French, using \"tenir compte de\".",
             source: "The report doesn't take the latest figures into account.",
             answer: "Le rapport ne tient pas compte des derniers chiffres.",
             explanation: "\"Tenir compte de\" + noun: \"des derniers chiffres\" (de + les).",
           },
           {
             type: "multiple-choice",
-            question: "« Le syndicat prend acte de la proposition. » What is the union doing?",
+            question: "\"Le syndicat prend acte de la proposition.\" What is the union doing?",
             options: [
               "Formally noting the proposal, without endorsing it.",
               "Enthusiastically accepting the proposal.",

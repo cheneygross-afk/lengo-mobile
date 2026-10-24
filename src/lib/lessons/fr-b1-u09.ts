@@ -1732,7 +1732,7 @@ export const FR_B1_U09: Lesson[] = [
           { es: "La tarte au citron de la boulangerie Martin ? Goûte-la !", en: "The lemon tart at the Martin bakery? Try it!" },
           { es: "Les spécialités locales ? Ne les rate pas.", en: "The local specialities? Don't miss them." },
           { es: "Des huîtres ? N'en mange pas en été.", en: "Oysters? Don't eat them in summer." },
-          { es: "Le petit restaurant du port ? Réserves-y une table le vendredi.", en: "The little restaurant at the harbour? Book a table there on Fridays." },
+          { es: "Le petit restaurant du port ? Vas-y le vendredi, il y a de la musique.", en: "The little restaurant at the harbour? Go on a Friday, there's live music." },
         ],
         checkpoint: [
           {

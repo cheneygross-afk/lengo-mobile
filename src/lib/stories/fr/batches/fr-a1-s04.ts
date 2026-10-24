@@ -275,7 +275,7 @@ export const FR_A1_S04_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "le chemin", en: "path", forms: ["chemin"] },
     { es: "monter", en: "to go up, to climb", forms: ["monte"] },
     { es: "avoir soif", en: "to be thirsty", forms: ["soif"] },
-    { es: "avoir mal à", en: "to have a pain in, to hurt", forms: ["mal"] },
+    { es: "avoir mal à", en: "to have a pain in, to hurt; (pas mal) not bad", forms: ["mal"] },
     { es: "le sommet", en: "summit, top", forms: ["sommet"] },
     { es: "en bas", en: "down below", forms: ["bas"] },
   ],

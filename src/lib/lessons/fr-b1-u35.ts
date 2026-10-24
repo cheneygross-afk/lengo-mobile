@@ -141,7 +141,7 @@ export const FR_B1_U35: Lesson[] = [
           {
             type: "speak",
             text: "Il vaut mieux que tu partes en septembre.",
-            tip: "\"Partes\" sounds like \"part\" + a light final consonant: [paʁt].",
+            tip: "\"Partes\" is one syllable, [paʁt]: the t is pronounced and the -es is silent.",
             explanation: "\"Il vaut mieux que\" + subjunctive \"partes\".",
           },
         ],
@@ -1217,7 +1217,7 @@ export const FR_B1_U35: Lesson[] = [
       {
         heading: "The facts: what happened, in the right past",
         body: [
-          "Tell the facts in order and precisely: dates, amounts, references. The passé composé for events (\"le 12 mars, j'ai commandé un canapé\", \"le livreur est arrivé avec trois jours de retard\"), the imparfait for the situation found (\"le tissu était déchiré\", \"la chambre n'était pas propre\"), and the plus-que-parfait for what had been promised or done before (\"votre site indiquait que...\", \"on m'avait assuré que...\", \"j'avais pourtant payé un supplément\").",
+          "Tell the facts in order and precisely: dates, amounts, references. The passé composé for events (\"le 12 mars, j'ai commandé un canapé\", \"le livreur est arrivé avec trois jours de retard\"), the imparfait for the situation found (\"le tissu était déchiré\", \"la chambre n'était pas propre\"), and the plus-que-parfait for what had been promised or done before (\"votre site avait annoncé que...\", \"on m'avait assuré que...\", \"j'avais pourtant payé un supplément\").",
           "The passive and \"on\" let you report without accusing a specific person: \"ma réclamation n'a pas été traitée\", \"on ne m'a jamais rappelé\".",
         ],
         examples: [
@@ -1398,7 +1398,7 @@ export const FR_B1_U35: Lesson[] = [
       {
         heading: "Presenting your point of view",
         body: [
-          "In the DELF B1 oral, the third part is an \"exercice en interaction\" or a monologue defending a point of view on a short document. You introduce the topic, state your position, argue, and conclude. The examiner then challenges you, and you must react.",
+          "In the DELF B1 oral, the third part is the \"expression d'un point de vue\": a short monologue defending a point of view on a document. You introduce the topic, state your position, argue, and conclude. The examiner then challenges you, and you must react.",
           "Openers: \"Le document aborde la question de...\" (the document deals with), \"À mon avis\", \"Selon moi\", \"Personnellement, je trouve que\", \"Je suis convaincu(e) que\". All take the indicative. For a nuanced position: \"Ça dépend\", \"D'un côté... de l'autre...\".",
           "Key vocabulary: \"la qualité de vie\", \"le coût de la vie\", \"le calme\" / \"le bruit\", \"les commerces de proximité\" (local shops), \"les services publics\", \"l'isolement\", \"se déplacer\" (to get around), \"un mode de vie\".",
         ],
@@ -1848,9 +1848,9 @@ export const FR_B1_U35: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence is correct?",
-        options: ["J'espère que vous pourrez venir.", "J'espère que vous puissiez venir.", "J'espère que vous pourriez venir si.", "J'espère vous pouvez venir."],
+        options: ["J'espère que vous pourrez venir.", "J'espère que vous puissiez venir.", "Je souhaite que vous pourrez venir.", "J'espère vous pouvez venir."],
         correctIndex: 0,
-        explanation: "\"Espérer que\" + indicative (here the future).",
+        explanation: "\"Espérer que\" + indicative (here the future). \"Souhaiter que\", unlike \"espérer\", needs the subjunctive (\"puissiez\").",
       },
       {
         type: "translate",

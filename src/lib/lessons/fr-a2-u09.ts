@@ -1095,7 +1095,7 @@ export const FR_A2_U09: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which sentence is written correctly? (Sarah and Inès phoned each other.)",
+            question: "How do you write: Sarah and Inès phoned each other?",
             options: ["Sarah et Inès se sont téléphoné.", "Sarah et Inès se sont téléphonées.", "Sarah et Inès se ont téléphoné.", "Sarah et Inès s'ont téléphoné."],
             correctIndex: 0,
             explanation: "\"Téléphoner à\" takes an indirect object, so no agreement: \"téléphoné\". The auxiliary is \"être\".",

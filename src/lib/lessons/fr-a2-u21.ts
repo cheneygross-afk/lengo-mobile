@@ -61,7 +61,7 @@ export const FR_A2_U21: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence means 'They (two women) arrived yesterday'?",
+            question: "How do you say: They (two women) arrived yesterday?",
             options: ["Elles sont arrivées hier.", "Elles ont arrivé hier.", "Elles sont arrivé hier.", "Elles ont arrivées hier."],
             correctIndex: 0,
             explanation: "\"Arriver\" takes \"être\", and the participle agrees with a feminine plural subject: \"arrivées\".",
@@ -189,7 +189,7 @@ export const FR_A2_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You want to say: We waited for two hours (and then we left). Which is right?",
+        question: "How do you say: We waited for two hours (and then we left)?",
         options: ["Nous avons attendu pendant deux heures.", "Nous avons attendu depuis deux heures.", "Nous attendons pendant deux heures.", "Nous attendions il y a deux heures."],
         correctIndex: 0,
         explanation: "A finished period is \"pendant\" + the passé composé. \"Depuis\" would mean the waiting is still going on (with the present: \"nous attendons depuis deux heures\").",
@@ -402,7 +402,7 @@ export const FR_A2_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Apples? 'I ate three.' Which is right?",
+        question: "Apples? How do you say: I ate three?",
         options: ["J'en ai mangé trois.", "J'en ai mangées trois.", "J'ai mangé trois.", "Je les ai mangé trois."],
         correctIndex: 0,
         explanation: "With a number and no noun, French needs \"en\", and the participle never agrees with \"en\".",
@@ -513,7 +513,7 @@ export const FR_A2_U21: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say 'It's the biggest city in France'?",
+            question: "How do you say: It's the biggest city in France?",
             options: ["C'est la plus grande ville de France.", "C'est la plus grande ville en France.", "C'est la ville plus grande de France.", "C'est la plus grande ville dans la France."],
             correctIndex: 0,
             explanation: "After a superlative, in is \"de\": \"la plus grande ville de France\". If the adjective came after the noun, you'd need the article twice (\"la ville la plus grande\").",
@@ -567,7 +567,7 @@ export const FR_A2_U21: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "My flat is smaller than yours. (to a friend)",
+        source: "My flat is smaller than your house. (to a friend)",
         answer: "Mon appartement est plus petit que ta maison.",
         altAnswers: ["Mon appart est plus petit que ta maison.", "Mon appartement est moins grand que ta maison."],
         explanation: "\"Plus\" + adjective + \"que\": \"plus petit que ta maison\". \"Petit\" agrees with \"mon appartement\" (masculine).",
@@ -600,7 +600,7 @@ export const FR_A2_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct for 'I'm going to go there tomorrow'?",
+        question: "How do you say: I'm going to go there tomorrow?",
         options: ["Je vais y aller demain.", "J'y vais aller demain.", "Je vais aller y demain.", "J'y irai aller demain."],
         correctIndex: 0,
         explanation: "\"Y\" belongs to \"aller\" (the infinitive), so it goes right before it: \"je vais y aller\".",
@@ -714,7 +714,7 @@ export const FR_A2_U21: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "'He goes there every summer.' Which is correct?",
+            question: "How do you say: He goes there every summer?",
             options: ["Il y va tous les étés.", "Il en va tous les étés.", "Il va y tous les étés.", "Il lui va tous les étés."],
             correctIndex: 0,
             explanation: "Fix 5: a destination (à, en, chez...) becomes \"y\", placed before the conjugated verb.",
@@ -831,7 +831,7 @@ export const FR_A2_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'We stayed two days'?",
+        question: "How do you say: We stayed two days?",
         options: ["Nous sommes restés deux jours.", "Nous avons restés deux jours.", "Nous sommes resté deux jours.", "Nous avons resté deux jours."],
         correctIndex: 0,
         explanation: "\"Rester\" takes \"être\" (it's a change-of-state verb in the list), and the participle agrees with nous.",
@@ -1087,7 +1087,7 @@ export const FR_A2_U21: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "'He has been sick since Monday.' Which is right?",
+            question: "How do you say: He has been ill since Monday?",
             options: ["Il est malade depuis lundi.", "Il a été malade depuis lundi.", "Il était malade depuis lundi.", "Il est malade pendant lundi."],
             correctIndex: 0,
             explanation: "He's still sick, so French uses the present with \"depuis\".",
@@ -1231,7 +1231,7 @@ export const FR_A2_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'Her cakes are better than at the bakery'?",
+        question: "How do you say: Her cakes are better than at the bakery?",
         options: ["Ses gâteaux sont meilleurs qu'à la boulangerie.", "Ses gâteaux sont plus bons qu'à la boulangerie.", "Ses gâteaux sont mieux qu'à la boulangerie.", "Ses gâteaux sont meilleur qu'à la boulangerie."],
         correctIndex: 0,
         explanation: "Trap 9: \"meilleur\" for nouns, and it agrees: \"meilleurs\".",
@@ -1300,7 +1300,7 @@ export const FR_A2_U21: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you tell a friend 'I miss you'?",
+            question: "How do you tell a friend: I miss you?",
             options: ["Tu me manques.", "Je te manque.", "Je manque toi.", "Je te manque à toi."],
             correctIndex: 0,
             explanation: "\"Manquer à\" turns the sentence round: the person missed is the subject. \"Tu me manques\" = you are missing to me. \"Je te manque\" means you miss me.",
@@ -1436,7 +1436,7 @@ export const FR_A2_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "The book? 'I didn't give it to him.' Which is correct?",
+        question: "The book? How do you say: I didn't give it to him?",
         options: ["Je ne le lui ai pas donné.", "Je ne lui le ai pas donné.", "Je ne l'ai pas lui donné.", "Je le lui n'ai pas donné."],
         correctIndex: 0,
         explanation: "Order \"le lui\", the block before the auxiliary, and ne... pas around block + auxiliary.",
@@ -1739,7 +1739,7 @@ export const FR_A2_U21: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "'They (two women) got up early.' Which is right?",
+            question: "How do you say: They (two women) got up early?",
             options: ["Elles se sont levées tôt.", "Elles se sont levé tôt.", "Elles ont se levées tôt.", "Elles se levaient tôt hier."],
             correctIndex: 0,
             explanation: "Pronominal verb in the passé composé: \"être\" and agreement, feminine plural \"levées\".",
@@ -1944,7 +1944,7 @@ export const FR_A2_U21: Lesson[] = [
             type: "listen-choose",
             audio: "Ça s'est bien passé ?",
             question: "What does it mean?",
-            options: ["Did it go well?", "Did it happen?", "Is it going well?", "Did you have a good time?"],
+            options: ["Did it go well?", "Did it happen?", "Is it going well?", "Is it over?"],
             correctIndex: 0,
             explanation: "\"Se passer\" = to go / happen; \"ça s'est bien passé\" is the passé composé: it went well.",
           },
@@ -2106,7 +2106,7 @@ export const FR_A2_U21: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "'I've been learning Spanish for a year (and I still am).' Which is right?",
+            question: "How do you say: I've been learning Spanish for a year (and I still am)?",
             options: ["J'apprends l'espagnol depuis un an.", "J'ai appris l'espagnol pendant un an.", "J'ai appris l'espagnol depuis un an.", "J'apprenais l'espagnol pendant un an."],
             correctIndex: 0,
             explanation: "Still going on: \"depuis\" + present. \"J'ai appris... pendant un an\" means you learned it for a year and stopped.",
@@ -2248,12 +2248,12 @@ export const FR_A2_U21: Lesson[] = [
         prompt: "Translate into French.",
         source: "He speaks French better than his brother.",
         answer: "Il parle mieux français que son frère.",
-        altAnswers: ["Il parle français mieux que son frère.", "Il parle mieux le français que son frère."],
+        altAnswers: ["Il parle le français mieux que son frère.", "Il parle mieux le français que son frère."],
         explanation: "Better with a verb: \"mieux\".",
       },
       {
         type: "multiple-choice",
-        question: "'We spent the whole year in Japan.' Which is right?",
+        question: "How do you say: We spent the whole year in Japan?",
         options: ["Nous avons passé toute l'année au Japon.", "Nous avons passé tout l'an au Japon.", "Nous avons passé toute l'an au Japon.", "Nous avons passé tous les ans au Japon."],
         correctIndex: 0,
         explanation: "The year as a duration with content: \"toute l'année\". \"Tous les ans\" means every year.",
@@ -2346,7 +2346,7 @@ export const FR_A2_U21: Lesson[] = [
           { es: "Hier, on a loué des vélos.", en: "Yesterday we hired bikes." },
           { es: "On est allés jusqu'à la frontière espagnole.", en: "We went as far as the Spanish border." },
           { es: "On a vu un spectacle de danse basque : on l'a adoré !", en: "We saw a Basque dance show: we loved it!" },
-          { es: "Des gâteaux basques ? On en a mangé tous les jours.", en: "Basque cakes? We ate them every day." },
+          { es: "Des gâteaux basques ? On en a mangé tous les jours.", en: "Basque cakes? We ate some every day." },
           { es: "D'abord on a visité le port, puis on s'est baignés.", en: "First we visited the harbour, then we went for a swim." },
         ],
         checkpoint: [
@@ -2669,7 +2669,7 @@ export const FR_A2_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct for 'I really like this song'?",
+        question: "How do you say: I really like this song?",
         options: ["J'aime beaucoup cette chanson.", "J'aime très cette chanson.", "Je très aime cette chanson.", "J'aime beaucoup très cette chanson."],
         correctIndex: 0,
         explanation: "With a verb, \"beaucoup\", after the verb; \"très\" only goes before adjectives and adverbs.",

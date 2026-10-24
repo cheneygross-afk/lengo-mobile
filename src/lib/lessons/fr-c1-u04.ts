@@ -355,7 +355,7 @@ export const FR_C1_U04: Lesson[] = [
             prompt: "Translate into French (rewrite in everyday French with une fois): \"Les secours prévenus, l'agent a sécurisé la zone.\"",
             source: "Once the emergency services had been called, the officer secured the area.",
             answer: "Une fois les secours prévenus, l'agent a sécurisé la zone.",
-            altAnswers: ["Une fois que les secours ont été prévenus, l'agent a sécurisé la zone.", "Une fois que les secours ont été appelés, l'agent a sécurisé la zone.", "Quand les secours ont été prévenus, l'agent a sécurisé la zone."],
+            altAnswers: ["Une fois que les secours ont été prévenus, l'agent a sécurisé la zone.", "Une fois que les secours ont été appelés, l'agent a sécurisé la zone."],
             explanation: "\"Une fois\" + absolute clause is the natural spoken form.",
           },
           {
@@ -449,7 +449,7 @@ export const FR_C1_U04: Lesson[] = [
         prompt: "Translate into French (rewrite in everyday French with comme): \"Le magasin étant fermé, nous sommes allés au marché.\"",
         source: "As the shop was closed, we went to the market.",
         answer: "Comme le magasin était fermé, nous sommes allés au marché.",
-        altAnswers: ["Comme le magasin était fermé, on est allés au marché.", "Le magasin était fermé, donc nous sommes allés au marché."],
+        altAnswers: ["Comme le magasin était fermé, on est allés au marché."],
         explanation: "Participle of cause → \"comme\" + imperfect.",
       },
       {
@@ -1029,7 +1029,7 @@ export const FR_C1_U04: Lesson[] = [
         prompt: "A learner wrote: \"Ayant fini mes études, mon père m'a offert un voyage.\" Write a correct version with comme.",
         source: "As I had finished my studies, my father gave me a trip.",
         answer: "Comme j'avais fini mes études, mon père m'a offert un voyage.",
-        altAnswers: ["Comme j'avais terminé mes études, mon père m'a offert un voyage.", "Quand j'ai fini mes études, mon père m'a offert un voyage.", "Quand j'ai terminé mes études, mon père m'a offert un voyage."],
+        altAnswers: ["Comme j'avais terminé mes études, mon père m'a offert un voyage."],
         explanation: "Different subjects: a clause, not \"ayant\".",
       },
       {
@@ -1187,7 +1187,7 @@ export const FR_C1_U04: Lesson[] = [
             prompt: "Translate into French.",
             source: "Where are we up to? (informal)",
             answer: "On en est où ?",
-            altAnswers: ["Où est-ce qu'on en est ?", "Où en est-on ?", "Où en sommes-nous ?"],
+            altAnswers: ["Où est-ce qu'on en est ?", "Où en est-on ?"],
             explanation: "\"En être\" + où = what stage have we reached.",
           },
           {
@@ -1534,7 +1534,7 @@ export const FR_C1_U04: Lesson[] = [
     level: "FR-C1",
     number: 8,
     title: "Participle and Infinitive Constructions, Part 5 of 6",
-    summary: "The infinitive as subject and noun (Fumer tue ; Partir, c'est mourir un peu), in instructions and signs (Laisser reposer 10 minutes ; Ne pas se pencher au dehors), and in deliberative questions (Que faire ? Où aller ?).",
+    summary: "The infinitive as subject and noun (Fumer tue; Partir, c'est mourir un peu), in instructions and signs (Laisser reposer 10 minutes; Ne pas se pencher au dehors), and in deliberative questions (Que faire ? Où aller ?).",
     duration: "18 min",
     sections: [
       {
@@ -1597,7 +1597,7 @@ export const FR_C1_U04: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
-            en: "[Do not exceed] the stated dose.",
+            en: "[Do not exceed] the prescribed dose.",
             sentence: "___ la dose prescrite.",
             answer: "Ne pas dépasser",
             explanation: "Negative infinitive: both parts, \"ne pas\", go before the verb.",
@@ -1635,7 +1635,6 @@ export const FR_C1_U04: Lesson[] = [
             prompt: "Translate into French with a bare infinitive.",
             source: "Who should we believe?",
             answer: "Qui croire ?",
-            altAnswers: ["Qui faut-il croire ?", "Qui devons-nous croire ?"],
             explanation: "Deliberative infinitive: \"Qui croire ?\"",
           },
           {
@@ -1721,7 +1720,6 @@ export const FR_C1_U04: Lesson[] = [
         prompt: "Translate into French with à quoi bon.",
         source: "What's the point of complaining?",
         answer: "À quoi bon se plaindre ?",
-        altAnswers: ["À quoi ça sert de se plaindre ?"],
         explanation: "\"À quoi bon\" + infinitive: a rhetorical question.",
       },
       {
@@ -1753,7 +1751,7 @@ export const FR_C1_U04: Lesson[] = [
         prompt: "Translate into French.",
         source: "Saying no is sometimes necessary.",
         answer: "Dire non est parfois nécessaire.",
-        altAnswers: ["Dire non, c'est parfois nécessaire.", "Savoir dire non est parfois nécessaire.", "Il est parfois nécessaire de dire non."],
+        altAnswers: ["Dire non, c'est parfois nécessaire.", "Il est parfois nécessaire de dire non."],
         explanation: "Infinitive subject, or impersonal \"il est\" + adjective + \"de\".",
       },
       {
@@ -3076,7 +3074,6 @@ export const FR_C1_U04: Lesson[] = [
         prompt: "Translate into French with en raison de.",
         source: "Because of the strike, the flights were cancelled.",
         answer: "En raison de la grève, les vols ont été annulés.",
-        altAnswers: ["À cause de la grève, les vols ont été annulés.", "Du fait de la grève, les vols ont été annulés."],
         explanation: "Nominal cause.",
       },
       {
@@ -3131,7 +3128,7 @@ export const FR_C1_U04: Lesson[] = [
         prompt: "Translate into French.",
         source: "As soon as the results were published, the shares fell.",
         answer: "Dès la publication des résultats, les actions ont chuté.",
-        altAnswers: ["Dès la publication des résultats, les actions ont baissé.", "Les résultats publiés, les actions ont chuté.", "Dès la publication des résultats, l'action a chuté."],
+        altAnswers: ["Dès la publication des résultats, les actions ont baissé.", "Les résultats publiés, les actions ont chuté."],
         explanation: "\"Dès\" + nominal phrase.",
       },
       {

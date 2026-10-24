@@ -688,8 +688,8 @@ export const FR_B1_U12_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Continue the chain: Si je bois trop de café, je ne dormirai pas. Si je ne dors pas, ...",
-        options: ["je serai fatigué demain.", "je serais fatigué demain.", "j'étais fatigué demain.", "je suis fatigué hier."],
+        question: "Continue the chain: \"Si je bois trop de café, je ne dormirai pas. Si je ne dors pas, ...\" How do you say: ... I'll be tired tomorrow?",
+        options: ["je serai fatigué demain.", "je serais fatigué demain.", "j'étais fatigué demain.", "j'avais été fatigué demain."],
         correctIndex: 0,
         explanation: "A real chain: present after si, future result.",
       },
@@ -1046,10 +1046,10 @@ export const FR_B1_U12_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Make it conditional: Dors. (Tu es fatigué.)",
+        question: "How do you say: If you're tired, sleep? (to a friend)",
         options: ["Si tu es fatigué, dors.", "Si tu seras fatigué, dors.", "Si tu étais fatigué, dors.", "Si tu es fatigué, tu dormirais."],
         correctIndex: 0,
-        explanation: "Si + present + imperative.",
+        explanation: "Put \"si\" + present in front of the command: \"Dors\" becomes \"Si tu es fatigué, dors.\"",
       },
       {
         type: "listen-choose",
@@ -1272,10 +1272,10 @@ export const FR_B1_U12_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "If you heat ice, it melts. Which tenses?",
-            options: ["Present + present", "Present + future", "Imparfait + conditional", "Future + future"],
+            question: "How do you say: If you heat ice, it melts?",
+            options: ["Si on chauffe la glace, elle fond.", "Si on chauffe la glace, elle fondrait.", "Si on chauffait la glace, elle fondra.", "Si on chauffera la glace, elle fond."],
             correctIndex: 0,
-            explanation: "A general truth: present in both halves.",
+            explanation: "A general truth: present in both halves (\"chauffe\", \"fond\").",
           },
           {
             type: "translate",
@@ -1395,17 +1395,17 @@ export const FR_B1_U12_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Si tu ___ fatigué, couche-toi.",
-        options: ["es", "seras", "serais", "étais"],
+        question: "How do you say: If you're tired, go to bed? (to a friend)",
+        options: ["Si tu es fatigué, couche-toi.", "Si tu seras fatigué, couche-toi.", "Si tu serais fatigué, couche-toi.", "Si tu étais fatigué, couche-toi."],
         correctIndex: 0,
-        explanation: "Imperative result → present after si.",
+        explanation: "Imperative result → present after si: \"si tu es\".",
       },
       {
         type: "multiple-choice",
-        question: "Si j'avais une voiture, je ___ à la mer.",
-        options: ["irais", "irai", "vais", "allais"],
+        question: "How do you say: If I had a car, I'd go to the seaside?",
+        options: ["Si j'avais une voiture, j'irais à la mer.", "Si j'avais une voiture, j'irai à la mer.", "Si j'avais une voiture, je vais à la mer.", "Si j'avais une voiture, j'allais à la mer."],
         correctIndex: 0,
-        explanation: "Imparfait after si → conditional result.",
+        explanation: "Imparfait after si → conditional result: \"j'irais\".",
       },
       {
         type: "listen-choose",

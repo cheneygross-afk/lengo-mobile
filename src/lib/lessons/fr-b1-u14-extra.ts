@@ -528,8 +528,8 @@ export const FR_B1_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "\"Elle pleurait parce qu'elle ___ son chat.\" (She'd lost it the day before.)",
-        options: ["avait perdu", "a perdu", "perdait", "perdrait"],
+        question: "How do you say: She was crying because she'd lost her cat? (the day before)",
+        options: ["Elle pleurait parce qu'elle avait perdu son chat.", "Elle pleurait parce qu'elle a perdu son chat.", "Elle pleurait parce qu'elle perdait son chat.", "Elle pleurait parce qu'elle perdrait son chat."],
         correctIndex: 0,
         explanation: "Earlier event → PQP.",
       },
@@ -1079,8 +1079,8 @@ export const FR_B1_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Who knew the alarm code? Only someone who ___ in the house before.",
-        options: ["avait travaillé", "travaillera", "travaillerait", "travaille"],
+        question: "Who knew the alarm code? How do you say: Only someone who had worked in the house before?",
+        options: ["Seulement quelqu'un qui avait travaillé dans la maison avant.", "Seulement quelqu'un qui travaillera dans la maison avant.", "Seulement quelqu'un qui travaillerait dans la maison avant.", "Seulement quelqu'un qui travaille dans la maison avant."],
         correctIndex: 0,
         explanation: "Before the burglary → PQP.",
       },
@@ -1274,8 +1274,8 @@ export const FR_B1_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "\"Je ___ qu'il ___ raison.\" (I realised he'd been right.)",
-        options: ["me suis rendu compte / avait eu", "me suis rendu compte / a eu", "m'étais rendu compte / a eu", "me rendais compte / aura"],
+        question: "How do you say: I realised he'd been right?",
+        options: ["Je me suis rendu compte qu'il avait eu raison.", "Je me suis rendu compte qu'il a eu raison.", "Je m'étais rendu compte qu'il a eu raison.", "Je me rendais compte qu'il aura raison."],
         correctIndex: 0,
         explanation: "Realising = event (PC); being right came before (PQP).",
       },
@@ -1447,8 +1447,8 @@ export const FR_B1_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which tense fits? \"Selon la police, l'incendie ___ d'origine criminelle.\" (reportedly)",
-        options: ["serait", "était", "a été", "avait été"],
+        question: "How do you say: According to the police, the fire was reportedly started deliberately?",
+        options: ["Selon la police, l'incendie serait d'origine criminelle.", "Selon la police, l'incendie sera d'origine criminelle.", "Selon la police, l'incendie soit d'origine criminelle.", "Selon la police, l'incendie avait été d'origine criminelle."],
         correctIndex: 0,
         explanation: "Unconfirmed information → conditional of hearsay.",
       },
@@ -1627,7 +1627,7 @@ export const FR_B1_U14_EXTRA: Lesson[] = [
       },
       {
         type: "matching",
-        instructions: "Match each form to its time level.",
+        instructions: "Match the French and the English.",
         pairs: [
           { left: "je descends", right: "I'm going down" },
           { left: "je suis descendu", right: "I went down" },
@@ -1664,6 +1664,7 @@ export const FR_B1_U14_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "Je fais, j'ai fait, j'avais fait.",
+        prompt: "Say it in French: I do, I did, I had done.",
         tip: "The final t of fait is silent.",
         explanation: "Say the three levels as a chant.",
       },
@@ -1803,8 +1804,8 @@ export const FR_B1_U14_EXTRA: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into French.",
         source: "Not yet, she still had one year left.",
-        answer: "Pas encore, il lui restait encore un an.",
-        altAnswers: ["Pas encore, il lui restait un an."],
+        answer: "Pas encore, il lui restait un an.",
+        altAnswers: ["Pas encore, il lui restait encore un an."],
         explanation: "\"Il lui restait\" = she had ... left.",
       },
       {
@@ -2064,8 +2065,8 @@ export const FR_B1_U14_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Why is \"il avait oublié ses lunettes\" in the plus-que-parfait?",
-            options: ["He forgot them before the moment described.", "It's a habit.", "It's the next event in the story.", "It's an action in progress."],
+            question: "\"Il ne voyait rien : il avait oublié ses lunettes.\" When did he forget his glasses?",
+            options: ["Before the moment described.", "Every day, as a habit.", "Just after the moment described.", "While he was trying to see."],
             correctIndex: 0,
             explanation: "PQP = earlier than the reference point.",
           },
@@ -2176,12 +2177,12 @@ export const FR_B1_U14_EXTRA: Lesson[] = [
       },
       {
         type: "matching",
-        instructions: "Match the sentence to the reason for its tense.",
+        instructions: "Match the French and the English.",
         pairs: [
-          { left: "Il pleuvait.", right: "background" },
-          { left: "Il est sorti.", right: "next event" },
-          { left: "Il avait plu.", right: "earlier event" },
-          { left: "Il venait de sortir.", right: "had just happened" },
+          { left: "Il pleuvait.", right: "It was raining." },
+          { left: "Il est sorti.", right: "He went out." },
+          { left: "Il avait plu.", right: "It had rained." },
+          { left: "Il venait de sortir.", right: "He had just gone out." },
         ],
         explanation: "Imparfait, PC, PQP and venir de in the imparfait.",
       },
@@ -2528,8 +2529,8 @@ export const FR_B1_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "\"Quand je suis entré dans l'appartement, je ___ qu'on ___ les murs.\" (I saw they'd painted the walls.)",
-        options: ["ai vu / avait repeint", "voyais / a repeint", "ai vu / repeignait", "avais vu / a repeint"],
+        question: "How do you say: When I went into the flat, I saw they'd repainted the walls?",
+        options: ["Quand je suis entré dans l'appartement, j'ai vu qu'on avait repeint les murs.", "Quand je suis entré dans l'appartement, je voyais qu'on a repeint les murs.", "Quand je suis entré dans l'appartement, j'ai vu qu'on repeignait les murs.", "Quand je suis entré dans l'appartement, j'avais vu qu'on a repeint les murs."],
         correctIndex: 0,
         explanation: "Seeing = event (PC); painting came before (PQP).",
       },

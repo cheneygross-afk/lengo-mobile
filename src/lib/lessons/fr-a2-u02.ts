@@ -953,7 +953,7 @@ export const FR_A2_U02: Lesson[] = [
         examples: [
           { es: "Aujourd'hui, je fais les courses. → Hier, j'ai fait les courses.", en: "Today I'm doing the shopping. → Yesterday I did the shopping." },
           { es: "Il prend le bus. → Il a pris le bus.", en: "He takes the bus. → He took the bus." },
-          { es: "Nous lisons le journal. → Nous avons lu le journal.", en: "We read the paper. → We read the paper." },
+          { es: "Nous lisons le journal. → Nous avons lu le journal.", en: "We're reading the paper. → We read the paper." },
           { es: "Tu bois un café ? → Tu as bu un café ?", en: "Are you having a coffee? → Did you have a coffee?" },
           { es: "Ce soir, elles voient un film. → Hier soir, elles ont vu un film.", en: "Tonight they're seeing a film. → Last night they saw a film." },
         ],
@@ -1456,7 +1456,7 @@ export const FR_A2_U02: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "How do you say: I opened a bottle?",
             options: ["J'ai ouvri une bouteille.", "J'ai ouvré une bouteille.", "J'ai ouvert une bouteille.", "J'ai ouvertu une bouteille."],
             correctIndex: 2,
             explanation: "-vrir verbs → -ert: \"ouvert\".",
@@ -2042,6 +2042,6 @@ export const FR_A2_U02_WRITING: WriteExercise = {
     "Includes a negative in the passé composé (\"je n'ai pas lu\", \"je n'ai rien acheté\").",
     "Organises the day with time markers (\"le matin\", \"l'après-midi\", \"le soir\").",
   ],
-  modelAnswer: "Mardi dernier, j'ai eu une journée très chargée. Le matin, j'ai pris le bus à sept heures et j'ai lu mes mails au bureau. À midi, j'ai vite bu un café et j'ai écrit un long rapport. L'après-midi, il y a eu un problème avec l'ordinateur et j'ai dû attendre le technicien pendant une heure. Le soir, j'ai fait les courses et j'ai reçu un colis de ma sœur : elle m'a offert un livre ! J'ai été très surpris. Je n'ai pas vu le match à la télé, mais j'ai bien dormi.",
-  explanation: "The participles are irregular: \"pris\", \"lu\", \"bu\", \"écrit\", \"dû\", \"fait\", \"reçu\", \"offert\", \"vu\". \"J'ai eu une journée\" and \"il y a eu un problème\" are the past of avoir and il y a; \"j'ai été surpris\" is the past of être. (\"Elle m'a offert\" uses an object pronoun from Unit 7; \"elle a offert un livre\" is fine too.)",
+  modelAnswer: "Mardi dernier, j'ai eu une journée très chargée. Le matin, j'ai pris le bus à sept heures et j'ai lu mes mails au bureau. À midi, j'ai vite bu un café et j'ai écrit un long rapport. L'après-midi, il y a eu un problème avec l'ordinateur et j'ai dû attendre le technicien pendant une heure. Le soir, j'ai fait les courses et j'ai reçu un colis de ma sœur : un livre ! J'ai été très surpris. Je n'ai pas vu le match à la télé, mais j'ai bien dormi.",
+  explanation: "The participles are irregular: \"pris\", \"lu\", \"bu\", \"écrit\", \"dû\", \"fait\", \"reçu\", \"vu\". \"J'ai eu une journée\" and \"il y a eu un problème\" are the past of avoir and il y a; \"j'ai été surpris\" is the past of être.",
 };

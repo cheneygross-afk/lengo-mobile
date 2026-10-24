@@ -132,7 +132,7 @@ export const FR_B1_U27: Lesson[] = [
         heading: "T'as, t'es: tu before a vowel",
         body: [
           "In standard French, \"tu\" never elides. In speech it often does before a vowel: \"tu as\" → \"t'as\", \"tu es\" → \"t'es\", \"tu en veux\" → \"t'en veux\", \"tu y vas\" → \"t'y vas\". \"T'as vu ?\" (did you see?), \"T'es où ?\" (where are you?).",
-          "Again: say it, recognise it, but write \"tu as\" and \"tu es\" in anything formal. Careful: \"t'es\" (you are) sounds exactly like \"thé\" (tea).",
+          "Again: say it, recognise it, but write \"tu as\" and \"tu es\" in anything formal. Careful: \"t'es\" (you are) sounds almost the same as \"thé\" (tea).",
         ],
         examples: [
           { es: "T'as vu le match hier ?", en: "Did you see the match yesterday?" },
@@ -284,7 +284,7 @@ export const FR_B1_U27: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into spoken French.", source: "I can't take any more!", answer: "J'en peux plus !", altAnswers: ["Je n'en peux plus !"], explanation: "\"N'en pouvoir plus\" = to be at the end of your tether; in speech \"ne\" drops: \"j'en peux plus\"." },
-          { type: "fill-blank", prompt: "Write the French for the bold words (spoken).", en: "At night [I can't] get to sleep.", sentence: "Le soir, ___ à dormir.", answer: "j'arrive pas", altAnswers: ["je n'arrive pas", "j'arrive plus"], explanation: "\"Arriver à\" + infinitive = to manage to; spoken negative without \"ne\"." },
+          { type: "fill-blank", prompt: "Write the French for the bold words (spoken).", en: "At night [I can't] get to sleep.", sentence: "Le soir, ___ à dormir.", answer: "j'arrive pas", altAnswers: ["je n'arrive pas"], explanation: "\"Arriver à\" + infinitive = to manage to; spoken negative without \"ne\"." },
         ],
       },
       {
@@ -401,7 +401,7 @@ export const FR_B1_U27: Lesson[] = [
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into spoken French.", source: "We still haven't got any heating, it's ridiculous!", answer: "On a toujours pas de chauffage, c'est n'importe quoi !", altAnswers: ["On n'a toujours pas de chauffage, c'est n'importe quoi !", "On a toujours pas de chauffage, c'est dingue !", "On n'a toujours pas de chauffage, c'est dingue !"], explanation: "Spoken: \"on\", no \"ne\", and an emotional \"c'est n'importe quoi\"." },
           { type: "fill-blank", prompt: "Write the French for the bold words (spoken).", en: "It's not right [that we're] without heating in January.", sentence: "C'est pas normal ___ sans chauffage en janvier.", answer: "qu'on soit", altAnswers: ["que nous soyons", "que l'on soit"], explanation: "\"C'est pas normal que\" + subjunctive, even in speech: \"qu'on soit\"." },
-          { type: "speak", text: "Le proprio répond pas à nos messages.", tip: "Proprio: two syllables, pro-pri-o said fast.", explanation: "\"Proprio\" is spoken short for \"propriétaire\"." },
+          { type: "speak", text: "Le proprio répond pas à nos messages.", tip: "Proprio: three short syllables, pro-pri-o, said fast.", explanation: "\"Proprio\" is spoken short for \"propriétaire\"." },
         ],
       },
     ],
@@ -743,7 +743,7 @@ export const FR_B1_U27: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into spoken French.", source: "There was nobody in town; it was brilliant.", answer: "Y avait personne en ville, c'était génial.", altAnswers: ["Il n'y avait personne en ville, c'était génial.", "Il y avait personne en ville, c'était génial.", "Y avait personne en ville, c'était super."], explanation: "\"Il n'y avait personne\" → \"y avait personne\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into spoken French.", source: "Afterwards we had a picnic by the lake.", answer: "Après, on a fait un pique-nique au bord du lac.", altAnswers: ["Après, nous avons fait un pique-nique au bord du lac.", "Ensuite, on a fait un pique-nique au bord du lac."], explanation: "\"Faire un pique-nique\"; \"au bord du lac\" = by the lake." },
       { type: "fill-blank", prompt: "Write the French for the bold words (spoken).", en: "Actually, [we got back] really late.", sentence: "En fait, ___ super tard.", answer: "on est rentrés", altAnswers: ["on est rentrées", "nous sommes rentrés", "nous sommes rentrées"], explanation: "\"Rentrer\" with être; agreement with the group." },
-      { type: "multiple-choice", question: "Three women tell their weekend. Which is right?", options: ["On est allées à la plage.", "On est allé à la plage.", "On sont allées à la plage.", "On a allées à la plage."], correctIndex: 0, explanation: "\"On est\" (singular verb) + \"allées\" (feminine plural)." },
+      { type: "multiple-choice", question: "Three women tell their weekend. Which is right?", options: ["On est allées à la plage.", "On sommes allées à la plage.", "On sont allées à la plage.", "On a allées à la plage."], correctIndex: 0, explanation: "\"On est\" (singular verb) + \"allées\" (feminine plural)." },
       { type: "translate", direction: "en-es", prompt: "Translate into spoken French.", source: "The concert wasn't great.", answer: "Le concert était pas terrible.", altAnswers: ["Le concert n'était pas terrible.", "Le concert, c'était pas terrible."], explanation: "\"Pas terrible\" = not great (a false friend: not terrible!)." },
       { type: "word-order", prompt: "Put the words in order to say: Anyway, a great weekend, basically.", words: ["Bref,", "un super", "week-end,", "quoi."], translation: "Anyway, a great weekend, basically.", explanation: "\"Bref\" wraps up; final \"quoi\" = basically." },
       { type: "translate", direction: "en-es", prompt: "Translate into spoken French.", source: "So on Sunday we slept till noon.", answer: "Du coup, dimanche, on a dormi jusqu'à midi.", altAnswers: ["Du coup dimanche on a dormi jusqu'à midi.", "Donc dimanche, on a dormi jusqu'à midi.", "Alors dimanche, on a dormi jusqu'à midi."], explanation: "\"Du coup\" = so; \"jusqu'à midi\" = till noon." },

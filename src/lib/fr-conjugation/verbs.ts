@@ -627,25 +627,19 @@ fuir|to flee
 abattre|to knock down, to cut down
 débattre|to debate
 séduire|to seduce, to charm
-introduire|to introduce
 vêtir|to dress, to clothe
 fondre|to melt
-mordre|to bite
 tordre|to twist
 suspendre|to hang, to suspend
 abstenir|to abstain|prn!
 survenir|to occur|E
 provenir|to come from|E
 détenir|to hold, to detain
-soutenir|to support
-appeler|to call
 mentionner|to mention
 préciser|to specify
-indiquer|to indicate
 conseiller|to advise
 accuser|to accuse
 expédier|to send, to ship
-loger|to stay, to house
 plaisanter|to joke
 dévoiler|to unveil
 gâcher|to waste, to spoil

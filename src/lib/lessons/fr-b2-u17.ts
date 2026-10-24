@@ -1325,7 +1325,7 @@ export const FR_B2_U17: Lesson[] = [
           { es: "En arrivant, nous avons tout de suite vu la mer.", en: "When we arrived, we saw the sea straight away." },
           { es: "Ma mère pleurait en regardant le jardin.", en: "My mother was crying as she looked at the garden." },
           { es: "Tout en sachant que la maison n'était plus à nous, j'avais envie d'y entrer.", en: "Even though I knew the house was no longer ours, I wanted to go in." },
-          { es: "En poussant la porte, mon frère a fait tomber un vieux cadre.", en: "By pushing the door, my brother knocked down an old frame." },
+          { es: "En poussant la porte, mon frère a fait tomber un vieux cadre.", en: "As he pushed the door, my brother knocked an old frame over." },
           { es: "On l'a reconnue en voyant le grand pin devant la terrasse.", en: "We recognised it when we saw the big pine in front of the terrace." },
         ],
         checkpoint: [
@@ -1462,10 +1462,10 @@ export const FR_B2_U17: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "My brother knocked down an old frame by pushing the door.",
+        source: "My brother knocked an old frame over as he pushed the door.",
         answer: "Mon frère a fait tomber un vieux cadre en poussant la porte.",
         altAnswers: ["En poussant la porte, mon frère a fait tomber un vieux cadre."],
-        explanation: "\"En poussant\": gérondif of means. 'Knock down' = \"faire tomber\" (causative \"faire\").",
+        explanation: "\"En poussant\": the gérondif for an action at the same moment, by the same subject. 'Knock over' = \"faire tomber\" (causative \"faire\").",
       },
       {
         type: "multiple-choice",

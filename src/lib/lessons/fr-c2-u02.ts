@@ -1187,7 +1187,7 @@ export const FR_C2_U02: Lesson[] = [
         heading: "Help without a lawsuit, and help paying for one",
         body: [
           "Not every dispute needs a judge. \"Le conciliateur de justice\" is a volunteer appointed by the court who helps two parties reach an agreement, for free, in neighbour disputes, consumer problems or small debts; for many small claims an attempt at conciliation is even compulsory before going to court. \"Le médiateur\" does a similar job in a given sector (\"le médiateur de l'énergie\", \"le médiateur de la consommation\").",
-          "\"Le Défenseur des droits\" is an independent constitutional authority created in 2011: you can refer a case to him (\"saisir le Défenseur des droits\") for free if you think a public service has failed you, if you suffered discrimination, or if a child's rights were not respected. He has local delegates in préfectures and town halls.",
+          "\"Le Défenseur des droits\" is an independent constitutional authority created in 2011: you can refer a case to this office (\"saisir le Défenseur des droits\") for free if you think a public service has failed you, if you suffered discrimination, or if a child's rights were not respected. The institution has local delegates in préfectures and town halls.",
           "If you do go to court, \"l'aide juridictionnelle\" pays all or part of the lawyer's and court costs for people on modest incomes. Many home or car insurance policies also include \"une assurance protection juridique\" (legal expenses insurance), which covers fees and often offers legal advice by phone. Check yours before paying a lawyer.",
         ],
         examples: [

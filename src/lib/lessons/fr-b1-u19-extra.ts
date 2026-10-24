@@ -131,7 +131,7 @@ export const FR_B1_U19_EXTRA: Lesson[] = [
         en: "The film [is shown] in the original version.",
         sentence: "Le film ___ en version originale.",
         answer: "est projeté",
-        altAnswers: ["est diffusé", "est montré"],
+        altAnswers: ["est diffusé"],
         explanation: "Present passive for a regular arrangement.",
       },
       {
@@ -1945,7 +1945,7 @@ export const FR_B1_U19_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix Sam's sentence: « J'ai été donné un badge. »",
+            prompt: "Fix Sam's sentence: \"J'ai été donné un badge.\"",
             source: "I was given a badge.",
             answer: "On m'a donné un badge.",
             explanation: "\"Donner à\" → \"on m'a donné\".",
@@ -1953,7 +1953,7 @@ export const FR_B1_U19_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix Sam's sentence: « J'ai été offert un café par mon chef. »",
+            prompt: "Fix Sam's sentence: \"J'ai été offert un café par mon chef.\"",
             source: "My boss bought me a coffee.",
             answer: "Mon chef m'a offert un café.",
             altAnswers: ["Ma cheffe m'a offert un café."],

@@ -295,7 +295,7 @@ export const FR_B2_U01: Lesson[] = [
         heading: "The frame with que: un livre que je puisse lire",
         body: [
           "The same logic works when the relative pronoun is \"que\" (the object). Now a new subject appears inside the clause, and it is that subject's verb that goes into the subjunctive: \"Je cherche un livre que je puisse lire en une soirée\", \"Il nous faut une date que tout le monde puisse retenir.\"",
-          "English often drops the relative pronoun ('a book I can read in one evening'); French never does. Before \"il\", \"elle\", \"on\" and a vowel, \"que\" becomes \"qu'\": \"un cadeau qu'elle aime vraiment\" (here \"aime\" is subjunctive, but looks like the present).",
+          "English often drops the relative pronoun ('a book I can read in one evening'); French never does. Before \"il\", \"elle\", \"on\" and a vowel, \"que\" becomes \"qu'\": \"je cherche un cadeau qu'elle aime vraiment\" (here \"aime\" is subjunctive, but looks like the present).",
           "Another common variant uses \"où\" for places: \"un café où on puisse travailler\". You will drill that more in Unit 2.",
         ],
         examples: [
@@ -413,7 +413,7 @@ export const FR_B2_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence asks for a neighbour who doesn't make noise?",
+        question: "Which sentence asks for neighbours who don't make noise?",
         options: ["Je voudrais des voisins qui ne fassent pas de bruit.", "Je voudrais des voisins qui ne font pas de bruit.", "Je voudrais des voisins qui ne fassent pas du bruit.", "Je voudrais des voisins qui fassent pas de bruit."],
         correctIndex: 0,
         explanation: "Subjunctive \"fassent\", full \"ne... pas\" in written French, and \"pas de\" after the negative.",
@@ -963,7 +963,7 @@ export const FR_B2_U01: Lesson[] = [
       {
         heading: "Le seul, l'unique, le premier, le dernier",
         body: [
-          "After \"le seul\", \"l'unique\", \"le premier\", \"le dernier\" and \"rien que\" the relative clause usually takes the subjunctive: \"C'est le seul restaurant qui soit ouvert le lundi.\" The subjunctive here adds a note of judgement: the speaker presents the uniqueness as their assessment, something remarkable.",
+          "After \"le seul\", \"l'unique\", \"le premier\" and \"le dernier\" the relative clause usually takes the subjunctive: \"C'est le seul restaurant qui soit ouvert le lundi.\" The subjunctive here adds a note of judgement: the speaker presents the uniqueness as their assessment, something remarkable.",
           "When you simply state a fact, especially a past event, the indicative is used: \"C'est le seul qui est venu\" (he's the only one who came, that's just what happened), \"Il a été le premier qui a répondu\". The choice is real, not a rule to apply blindly: subjunctive = evaluation, 'as far as I can tell'; indicative = objective fact.",
           "For an Upper-intermediate learner, a safe guide: present tense + an opinion or a recommendation → subjunctive. A past event that you are reporting → indicative.",
         ],
@@ -971,7 +971,7 @@ export const FR_B2_U01: Lesson[] = [
           { es: "C'est le seul restaurant du quartier qui soit ouvert le lundi.", en: "It's the only restaurant in the area that's open on Mondays." },
           { es: "Tu es la seule personne qui puisse le convaincre.", en: "You're the only person who can convince him." },
           { es: "C'est l'unique hôtel qui accepte les chiens.", en: "It's the only hotel that accepts dogs." },
-          { es: "Elle est la première femme qui ait dirigé cette usine.", en: "She's the first woman to have run this factory." },
+          { es: "Elle est la première femme qui soit à la tête de cette usine.", en: "She's the first woman to head this factory." },
           { es: "Paul est le seul qui est venu à la réunion.", en: "Paul's the only one who came to the meeting." },
           { es: "C'est le dernier train qui parte ce soir pour Nantes.", en: "It's the last train leaving for Nantes tonight." },
         ],
@@ -1116,10 +1116,10 @@ export const FR_B2_U01: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "She's the first woman to have run this factory.",
-        answer: "Elle est la première femme qui ait dirigé cette usine.",
-        altAnswers: ["C'est la première femme qui ait dirigé cette usine.", "Elle est la première femme à avoir dirigé cette usine.", "C'est la première femme à avoir dirigé cette usine."],
-        explanation: "\"La première... qui ait dirigé\" (a fixed pattern you met as a chunk), or \"la première à avoir dirigé\".",
+        source: "She's the first woman to head this factory.",
+        answer: "Elle est la première femme qui soit à la tête de cette usine.",
+        altAnswers: ["C'est la première femme qui soit à la tête de cette usine.", "Elle est la première femme à être à la tête de cette usine.", "C'est la première femme à être à la tête de cette usine.", "Elle est la première femme qui dirige cette usine.", "C'est la première femme qui dirige cette usine.", "Elle est la première femme à diriger cette usine.", "C'est la première femme à diriger cette usine."],
+        explanation: "After \"la première\", the relative clause takes the subjunctive: \"qui soit à la tête de\" (\"qui dirige\" is also subjunctive, but looks like the present). \"La première à diriger\" (à + infinitive) is an equally natural alternative.",
       },
       {
         type: "listen-choose",

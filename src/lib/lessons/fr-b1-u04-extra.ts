@@ -1268,13 +1268,13 @@ export const FR_B1_U04_EXTRA: Lesson[] = [
         audio: "Je suis triste qu'il ait mal au dos.",
         question: "What did you hear?",
         options: [
-          "Je suis triste qu'il est mal au dos.",
+          "Je suis triste qu'ils aient mal au dos.",
           "Je suis triste qu'il aille mal.",
           "Je suis triste d'avoir mal au dos.",
           "Je suis triste qu'il ait mal au dos.",
         ],
         correctIndex: 3,
-        explanation: "\"Ait\" sounds like \"est\", but \"avoir mal\" needs \"avoir\".",
+        explanation: "There's no z liaison before the verb, so it's the singular \"qu'il ait\" (the plural would be \"qu'ils_aient\", with a z sound). \"Avoir mal\" after an emotion takes the subjunctive \"ait\", which sounds just like \"est\".",
       },
       {
         type: "speak",
@@ -1404,7 +1404,7 @@ export const FR_B1_U04_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "I'm sad that our friendship [is suffering].",
+        en: "I'm sad that our friendship [is suffering] from it.",
         sentence: "Je suis triste que notre amitié en ___.",
         answer: "souffre",
         explanation: "\"Souffrir\" → \"souffre\".",

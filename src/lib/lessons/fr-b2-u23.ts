@@ -253,7 +253,7 @@ export const FR_B2_U23: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What is « un contresens »?",
+            question: "What is \"un contresens\"?",
             options: ["A translation that gets the meaning wrong", "A counter-argument", "A one-way street", "A contradiction in a contract"],
             correctIndex: 0,
             explanation: "\"Un contresens\": a translation that misreads or reverses the meaning.",
@@ -625,15 +625,15 @@ export const FR_B2_U23: Lesson[] = [
     level: "FR-B2",
     number: 4,
     title: "Fix the Paragraph: Word Order after Dont",
-    summary: "A short biography full of *\"dont le fils je connais\" and *\"dont son père\": find each error and rewrite the sentence.",
+    summary: "A short biography full of *\"dont le fils je connais\" and *\"dont ses romans\": find each error and rewrite the sentence.",
     duration: "13 min",
     sections: [
       {
         heading: "The biography, with errors",
         body: [
-          "A learner wrote this biography of a painter. Read it and spot the problems: « Berthe Lagarde est une peintre bretonne *dont les tableaux tout le monde connaît. Elle est née dans un village *dont son père était le maire. Elle a épousé un marin *dont la famille elle n'aimait pas. »",
+          "A learner wrote this biography of a painter. Read it and spot the problems: « Berthe Lagarde est une peintre bretonne *dont les tableaux tout le monde connaît. Elle est née dans un village dont son père était le maire. Elle a épousé un marin *dont la famille elle n'aimait pas. »",
           "Two of the errors have the same root: English word order slipping into the \"dont\" clause. Correct versions: \"dont tout le monde connaît les tableaux\", \"dont elle n'aimait pas la famille\". After \"dont\", write subject + verb + object, exactly as in an ordinary sentence.",
-          "The village sentence is a different problem: *\"un village dont son père était le maire\" piles a possessive on top of \"dont\". The simplest fix is a place relative: \"un village où son père était maire\" (a village where her father was mayor). Always ask whether a \"de\" link really exists before reaching for \"dont\".",
+          "The village sentence is a different case. It is not actually wrong: \"dont\" stands for \"du village\" (the mayor of the village), and \"son\" means her, not the village's. But it reads badly, because \"dont son\" looks like the classic mistake and invites the wrong reading. A place relative is clearer: \"un village où son père était maire\" (a village where her father was mayor). Always ask what the \"de\" link is, and what each possessive refers to, before reaching for \"dont\".",
         ],
         examples: [
           { es: "C'est une peintre dont tout le monde connaît les tableaux.", en: "She's a painter whose paintings everyone knows." },

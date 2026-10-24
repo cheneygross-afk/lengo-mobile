@@ -542,7 +542,7 @@ export const FR_B1_U28: Lesson[] = [
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into French (formal, with inversion).", source: "Have you spoken to him?", answer: "Lui avez-vous parlé ?", explanation: "The object pronoun stays first; the auxiliary inverts with \"vous\"." },
           { type: "multiple-choice", question: "Didn't you get my message? (formal)", options: ["N'avez-vous pas reçu mon message ?", "Avez-vous ne pas reçu mon message ?", "N'avez pas-vous reçu mon message ?", "Ne avez-vous pas reçu mon message ?"], correctIndex: 0, explanation: "\"Ne\" before the inverted block, \"pas\" after it." },
-          { type: "speak", text: "L'as-tu vu ?", tip: "L'as-tu: la-tu, three short sounds.", explanation: "Inversion keeps the pronoun before the verb." },
+          { type: "speak", text: "L'as-tu vu ?", tip: "L'as-tu: two quick syllables, la-tu.", explanation: "Inversion keeps the pronoun before the verb." },
         ],
       },
       {
@@ -734,7 +734,7 @@ export const FR_B1_U28: Lesson[] = [
       { type: "dictation", audio: "C'est le voisin qui l'aide.", explanation: "\"Qui l'aide\": the neighbour is the subject." },
       { type: "dictation", audio: "Les lettres que j'ai écrites sont sur la table.", explanation: "\"Écrites\" agrees with \"les lettres\" via \"que\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "You need to be there at eight. (to a friend)", answer: "Il faut que tu sois là à huit heures.", altAnswers: ["Il faut que tu sois là à 8 h.", "Tu dois être là à huit heures.", "Faut que tu sois là à huit heures."], explanation: "\"Sois\" for tu." },
-      { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "It was Paul who found it.", answer: "C'est Paul qui l'a trouvé.", altAnswers: ["C'est Paul qui l'a trouvée.", "C'était Paul qui l'a trouvé.", "C'est Paul qui l'avait trouvé."], explanation: "\"Qui\" + \"l'a\": Paul is the subject." },
+      { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "It was Paul who found it.", answer: "C'est Paul qui l'a trouvé.", altAnswers: ["C'est Paul qui l'a trouvée.", "C'était Paul qui l'a trouvé."], explanation: "\"Qui\" + \"l'a\": Paul is the subject." },
       { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "He needs to call her.", answer: "Il faut qu'il l'appelle.", altAnswers: ["Il doit l'appeler."], explanation: "\"Qu'il\" (que + il) + subjunctive \"l'appelle\"." },
       { type: "fill-blank", prompt: "Write the French for the bold words.", en: "Tomorrow [I'll finish] early.", sentence: "Demain, ___ tôt.", answer: "je finirai", explanation: "Future: \"-ai\" (will)." },
       { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "When I was little, I used to go to the beach.", answer: "Quand j'étais petit, j'allais à la plage.", altAnswers: ["Quand j'étais petite, j'allais à la plage."], explanation: "Habit in the past: imparfait \"-ais\"." },

@@ -65,7 +65,7 @@ export const FR_B1_U13: Lesson[] = [
           { es: "J'aimerais réserver une table pour quatre, s'il vous plaît.", en: "I'd like to book a table for four, please." },
           { es: "Tu devrais te coucher plus tôt.", en: "You should go to bed earlier." },
           { es: "On pourrait aller au cinéma demain soir.", en: "We could go to the cinema tomorrow night." },
-          { es: "Selon le journal, le maire démissionnerait la semaine prochaine.", en: "According to the paper, the mayor is going to resign next week." },
+          { es: "Selon le journal, le maire démissionnerait la semaine prochaine.", en: "According to the paper, the mayor is reportedly going to resign next week." },
           { es: "D'après les témoins, il y aurait plusieurs blessés.", en: "According to witnesses, there are apparently several people injured." },
         ],
         checkpoint: [
@@ -859,6 +859,7 @@ export const FR_B1_U13: Lesson[] = [
         prompt: "Translate into French.",
         source: "If it rains, the match will be cancelled.",
         answer: "S'il pleut, le match sera annulé.",
+        altAnswers: ["S'il pleut, on annulera le match.", "S'il pleut, nous annulerons le match."],
         explanation: "Real condition: present \"pleut\" + future \"sera\". \"Si il\" contracts to \"s'il\".",
       },
       {
@@ -867,6 +868,7 @@ export const FR_B1_U13: Lesson[] = [
         prompt: "Translate into French.",
         source: "If it rained, the match would be cancelled.",
         answer: "S'il pleuvait, le match serait annulé.",
+        altAnswers: ["S'il pleuvait, on annulerait le match.", "S'il pleuvait, nous annulerions le match."],
         explanation: "Hypothetical: imparfait \"pleuvait\" + conditional \"serait\".",
       },
       {
@@ -912,7 +914,7 @@ export const FR_B1_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Turn this into a hypothesis: \"Si tu viens, on ira au restaurant.\"",
+        question: "How do you say: If you came, we'd go to the restaurant? (to a friend)",
         options: [
           "Si tu venais, on irait au restaurant.",
           "Si tu viendrais, on irait au restaurant.",
@@ -1058,6 +1060,7 @@ export const FR_B1_U13: Lesson[] = [
           {
             type: "speak",
             text: "Donne-le-moi. Non, ne me le donne pas.",
+            prompt: "Say it in French: Give it to me. No, don't give it to me. (to a friend)",
             tip: "Stress the last syllable: donne-le-MOI.",
             explanation: "Notice how \"moi\" after the verb becomes \"me\" before it.",
           },
@@ -1354,7 +1357,7 @@ export const FR_B1_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your dress? Which is right?",
+        question: "How do you say: Your dress? I wore it yesterday.",
         options: ["Ta robe ? Je l'ai mise hier.", "Ta robe ? Je l'ai mis hier.", "Ta robe ? Je la suis mise hier.", "Ta robe ? Je l'ai metté hier."],
         correctIndex: 0,
         explanation: "\"L'\" stands for la robe and comes before avoir, so \"mise\".",
@@ -1814,8 +1817,8 @@ export const FR_B1_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which ending fits \"Il est probable que...\"?",
-        options: ["...le train aura du retard.", "...le train ait du retard.", "...le train aurait du retard.", "...le train avoir du retard."],
+        question: "How do you say: The train will probably be late? (use il est probable que)",
+        options: ["Il est probable que le train aura du retard.", "Il est probable que le train ait du retard.", "Il est probable que le train aurait du retard.", "Il est probable que le train avoir du retard."],
         correctIndex: 0,
         explanation: "\"Il est probable que\" takes the indicative.",
       },
@@ -2557,13 +2560,13 @@ export const FR_B1_U13: Lesson[] = [
         checkpoint: [
           {
             type: "matching",
-            instructions: "Match the form of faire to its tense.",
+            instructions: "Match the French and the English.",
             pairs: [
-              { left: "je ferai", right: "future" },
-              { left: "je ferais", right: "conditional" },
-              { left: "que je fasse", right: "subjunctive" },
-              { left: "je faisais", right: "imparfait" },
-              { left: "j'ai fait", right: "passé composé" },
+              { left: "je ferai", right: "I will do" },
+              { left: "je ferais", right: "I would do" },
+              { left: "il faut que je fasse", right: "I have to do" },
+              { left: "je faisais", right: "I used to do" },
+              { left: "j'ai fait", right: "I did" },
             ],
             explanation: "\"Ferai\" and \"ferais\" share the stem fer-; the ending decides future or conditional.",
           },
@@ -2648,6 +2651,7 @@ export const FR_B1_U13: Lesson[] = [
           {
             type: "speak",
             text: "Viens ! Il faut que tu viennes !",
+            prompt: "Say it in French: Come! You have to come! (to a friend)",
             tip: "Viennes rhymes with Vienne.",
             explanation: "Imperative \"viens\" ends in a nasal vowel; subjunctive \"viennes\" ends in a clear n sound, like the city of Vienne.",
           },
@@ -2730,8 +2734,8 @@ export const FR_B1_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which form completes \"Il faut que vous ___ attention\" (pay attention)?",
-        options: ["fassiez", "faites", "ferez", "feriez"],
+        question: "How do you say: You need to pay attention? (polite)",
+        options: ["Il faut que vous fassiez attention.", "Il faut que vous faites attention.", "Il faut que vous ferez attention.", "Il faut que vous feriez attention."],
         correctIndex: 0,
         explanation: "Subjunctive of faire, vous form: \"fassiez\".",
       },

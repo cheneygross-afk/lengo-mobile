@@ -117,7 +117,7 @@ export const FR_A2_U23: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Léa wants to say 'It was the best soup of my life.' Which is right?",
+            question: "Léa wants to say: It was the best soup of my life. What does she say?",
             options: ["C'était la meilleure soupe de ma vie.", "C'était la plus bonne soupe de ma vie.", "C'était la mieux soupe de ma vie.", "C'était la meilleure soupe dans ma vie."],
             correctIndex: 0,
             explanation: "Superlative of \"bon\": \"la meilleure\", then \"de\" (not *dans*).",
@@ -212,7 +212,7 @@ export const FR_A2_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Léa texts: 'The boat stopped and we went swimming.' Which is right?",
+        question: "Léa wants to text: The boat stopped and we went swimming. What does she write?",
         options: ["Le bateau s'est arrêté et on s'est baignés.", "Le bateau a arrêté et on a baigné.", "Le bateau s'arrêtait et on se baignait.", "Le bateau s'est arrêté et on a baignés."],
         correctIndex: 0,
         explanation: "Two events, both pronominal verbs: être in the passé composé.",
@@ -677,7 +677,7 @@ export const FR_A2_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "'Are there any eggs?' — 'Yes, there are six.' Which answer is right?",
+        question: "\"Il y a des œufs ?\" How do you answer: Yes, there are six?",
         options: ["Oui, il y en a six.", "Oui, il en y a six.", "Oui, il y a six.", "Oui, il les y a six."],
         correctIndex: 0,
         explanation: "\"Y\" before \"en\": \"il y en a\", with the number at the end.",
@@ -735,7 +735,7 @@ export const FR_A2_U23: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "'We waited for two hours.' Which is right?",
+            question: "How do you say: We waited for two hours?",
             options: ["Nous avons attendu pendant deux heures.", "Nous attendions pendant deux heures.", "Nous sommes attendus pendant deux heures.", "Nous attendons depuis deux heures."],
             correctIndex: 0,
             explanation: "A closed period (\"pendant deux heures\") takes the passé composé.",
@@ -791,7 +791,7 @@ export const FR_A2_U23: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "How do you say 'She ate an apple'?",
+            question: "How do you say: She ate an apple?",
             options: ["Elle a mangé une pomme.", "Elle a mangée une pomme.", "Elle est mangée une pomme.", "Elle a mangés une pomme."],
             correctIndex: 0,
             explanation: "Avoir, and the object comes after: no agreement.",
@@ -884,7 +884,7 @@ export const FR_A2_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "'Cherries? I ate lots of them.' Which is correct?",
+        question: "How do you say: Cherries? I ate lots of them.",
         options: ["Des cerises ? J'en ai mangé beaucoup.", "Des cerises ? J'en ai mangées beaucoup.", "Des cerises ? Je les ai mangé beaucoup.", "Des cerises ? J'en suis mangé beaucoup."],
         correctIndex: 0,
         explanation: "No agreement with \"en\".",
@@ -983,7 +983,7 @@ export const FR_A2_U23: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "'If it rains tomorrow, we'll stay at home.' Which is right?",
+            question: "How do you say: If it rains tomorrow, we'll stay at home?",
             options: ["S'il pleut demain, on restera à la maison.", "S'il pleuvra demain, on restera à la maison.", "Quand il pleut demain, on restera à la maison.", "S'il pleut demain, on reste à la maison hier."],
             correctIndex: 0,
             explanation: "\"Si\" + present (never the future), then the futur simple.",
@@ -1095,7 +1095,7 @@ export const FR_A2_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'He drives carefully'?",
+        question: "How do you say: He drives carefully?",
         options: ["Il conduit prudemment.", "Il conduit prudentement.", "Il prudemment conduit.", "Il conduit prudentment."],
         correctIndex: 0,
         explanation: "-ent adjectives give -emment adverbs, placed after the verb.",
@@ -1418,7 +1418,7 @@ export const FR_A2_U23: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "'Shall we go (there)?' Which is the everyday French?",
+            question: "How do you say, in everyday French: Shall we go (there)?",
             options: ["On y va ?", "On en va ?", "On va y ?", "On lui va ?"],
             correctIndex: 0,
             explanation: "\"On y va ?\" is the classic let's go; \"y\" = there, before the verb.",
@@ -1538,7 +1538,7 @@ export const FR_A2_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say 'She got up early and took the train'?",
+        question: "How do you say: She got up early and took the train?",
         options: ["Elle s'est levée tôt et elle a pris le train.", "Elle s'a levée tôt et elle a pris le train.", "Elle s'est levé tôt et elle est pris le train.", "Elle se levait tôt et elle a prise le train."],
         correctIndex: 0,
         explanation: "Pronominal → être + agreement (\"s'est levée\"); \"prendre\" → avoir + \"pris\" with no agreement.",

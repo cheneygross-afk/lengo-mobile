@@ -960,7 +960,8 @@ export const FR_B1_U18: Lesson[] = [
         prompt: "Translate into French.",
         source: "Let's hope it doesn't rain!",
         answer: "Pourvu qu'il ne pleuve pas !",
-        explanation: "\"Pourvu que\" + subjunctive of pleuvoir: \"pleuve\".",
+        altAnswers: ["J'espère qu'il ne pleuvra pas !", "J'espère qu'il ne va pas pleuvoir !"],
+        explanation: "\"Pourvu que\" + subjunctive of pleuvoir: \"pleuve\". \"J'espère que\" also works, but it takes the indicative (\"j'espère qu'il ne pleuvra pas\"), never the subjunctive.",
       },
       {
         type: "translate",
@@ -1139,8 +1140,8 @@ export const FR_B1_U18: Lesson[] = [
         prompt: "Translate into French.",
         source: "I caught a cold.",
         answer: "J'ai attrapé un rhume.",
-        altAnswers: ["Je suis enrhumé.", "Je suis enrhumée."],
-        explanation: "\"Attraper un rhume\" or \"être enrhumé\".",
+        altAnswers: ["Je me suis enrhumé.", "Je me suis enrhumée."],
+        explanation: "\"Attraper un rhume\" or \"s'enrhumer\" (passé composé with être: \"je me suis enrhumé\"). \"Je suis enrhumé\" describes the state now (I've got a cold), not the moment you caught it.",
       },
       {
         type: "translate",

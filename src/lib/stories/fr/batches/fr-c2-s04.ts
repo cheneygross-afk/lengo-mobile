@@ -59,7 +59,7 @@ export const FR_C2_S04_STORIES: Story[] = [
       `Le train ralentit. Par la fenêtre, je vis l'hôpital de Saint-Imier, sa façade grise, et au deuxième étage une seule chambre éclairée. Je savais laquelle. Je me levai. J'avais la main sur la poignée de la porte quand je me souvins de ce que je faisais, moi, cette nuit-là, à quatre heures quarante-quatre. Je tenais la main de M. Girardin, quatre-vingt-sept ans, dont les enfants vivaient au Canada et qui avait peur, terriblement peur, de mourir seul. Il était mort à cinq heures moins dix, apaisé, en me demandant si j'étais sa fille. J'avais répondu oui.`,
       `Si je descendais, ma mère ne mourrait pas seule. Mais M. Girardin, si. Je restai debout, la main sur la poignée, pendant les trois minutes les plus longues de ma vie. Puis les portes se refermèrent et le train repartit. Le contrôleur repassa. Il me regarda avec une sorte de respect étonné. « C'est rare, dit-il. La plupart descendent. — Et ceux qui descendent ? » Il ajusta sa casquette. « Ils ne reprennent jamais le train. Ils restent à l'heure qu'ils ont choisie. » Je regardai les autres voyageurs. Le siège de l'homme au bouquet était vide.`,
       `Je me réveillai en gare de Neuchâtel, à cinq heures cinquante-deux, dans un train régional ordinaire, à l'heure exacte, la tête contre la vitre. Personne ne m'avait vue monter. Dans la poche de ma blouse, je trouvai un petit carton jaune poinçonné : Saint-Imier, 4 h 44. En travers, d'une écriture fine, quelqu'un avait ajouté : non utilisé, valable.`,
-      `Je le garde dans mon portefeuille. Je n'ai jamais revu le train. Je ne le cherche pas. Mais certaines nuits, à l'hôpital, quand je tiens la main de quelqu'un qui a peur, je regarde l'horloge du couloir, et il me semble que, quelque part dans la neige, ma mère, elle aussi, tenait la main de quelqu'un.`,
+      `Je le conserve dans mon portefeuille. Je n'ai jamais revu le train. Je ne le cherche pas. Mais certaines nuits, à l'hôpital, quand je tiens la main de quelqu'un qui a peur, je regarde l'horloge du couloir, et il me semble que, quelque part dans la neige, ma mère, elle aussi, tenait la main de quelqu'un.`,
     ],
     questions: [
       {
@@ -321,7 +321,7 @@ export const FR_C2_S04_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "le verrier", en: "glassmaker", forms: ["verrier"] },
     { es: "bullé", en: "bubbled (glass)", forms: ["bullé"] },
     { es: "malhabile", en: "clumsy", forms: ["malhabile"] },
-    { es: "le vers", en: "line of verse", forms: ["vers"] },
+    { es: "le vers", en: "line of verse (also the preposition vers: towards)", forms: ["vers"] },
     { es: "le ver de terre", en: "earthworm", forms: ["ver"] },
     { es: "froncer les sourcils", en: "to frown", forms: ["fronçant"] },
     { es: "le gobelet", en: "tumbler, beaker", forms: ["gobelet"] },

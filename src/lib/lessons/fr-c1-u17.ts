@@ -802,7 +802,7 @@ export const FR_C1_U17: Lesson[] = [
         prompt: "Translate into French.",
         source: "As requested, I am sending you the missing documents.",
         answer: "Suite à votre demande, je vous fais parvenir les documents manquants.",
-        altAnswers: ["Suite à votre demande, je vous adresse les documents manquants.", "Suite à votre demande, je vous envoie les documents manquants.", "Comme suite à votre demande, je vous fais parvenir les documents manquants.", "À la suite de votre demande, je vous fais parvenir les documents manquants.", "Conformément à votre demande, je vous fais parvenir les documents manquants.", "Conformément à votre demande, je vous adresse les documents manquants.", "Comme convenu, je vous fais parvenir les documents manquants."],
+        altAnswers: ["Suite à votre demande, je vous adresse les documents manquants.", "Suite à votre demande, je vous envoie les documents manquants.", "Comme suite à votre demande, je vous fais parvenir les documents manquants.", "À la suite de votre demande, je vous fais parvenir les documents manquants.", "Conformément à votre demande, je vous fais parvenir les documents manquants.", "Conformément à votre demande, je vous adresse les documents manquants."],
         explanation: "As requested isn't \"comme demandé\" in a letter: French anchors it as \"suite à votre demande\" or \"conformément à votre demande\". \"Faire parvenir\" = to send (so that it reaches you).",
       },
       {
@@ -1163,7 +1163,7 @@ export const FR_C1_U17: Lesson[] = [
           {
             type: "speak",
             text: "Je vous remercie de bien vouloir procéder à la résiliation de mon contrat.",
-            tip: "\"Résiliation\" has five syllables: ré-zi-lia-sion.",
+            tip: "\"Résiliation\" has four syllables: ré-zi-lia-sion.",
             explanation: "A request phrased as thanks: firm but polite, and very French.",
           },
         ],
@@ -1305,7 +1305,7 @@ export const FR_C1_U17: Lesson[] = [
         heading: "Anglicisms and false friends",
         body: [
           "Tom's facts paragraph reads: \"J'étais supposé recevoir un technicien le 5 mai, mais personne n'est venu. J'ai réalisé que votre support n'a pas adressé le problème. Je suis très désappointé.\" Four calques in three sentences.",
-          "\"Être supposé\" for supposed to is common in speech but criticised in writing: use \"être censé\" (\"j'étais censé recevoir\"). \"Réaliser\" for to realise is now widespread but still marked as an anglicism by careful writers: \"je me suis rendu compte que\" or \"j'ai constaté que\". \"Adresser le problème\" (to address the problem) is pure calque: in French you \"traitez\", \"réglez\" or \"résolvez\" a problem. \"Désappointé\" exists but is rare and literary; the normal word is \"déçu\".",
+          "\"Être supposé\" for supposed to is common in speech but criticised in writing: use \"être censé\" (\"j'étais censé recevoir\"). \"Réaliser\" for to realise is now widespread but still marked as an anglicism by careful writers: \"je me suis rendu compte que\" or \"j'ai constaté que\". \"Adresser le problème\" (to address the problem) is pure calque: in French a problem is \"traité\", \"réglé\" or \"résolu\". \"Désappointé\" exists but is rare and literary; the normal word is \"déçu\".",
           "Other classic false friends in letters: \"éventuellement\" means possibly, not eventually (\"finalement\", \"à terme\"); \"actuellement\" means currently, not actually (\"en fait\", \"en réalité\"); \"délivrer\" is to issue a document (\"délivrer une attestation\"), while goods are \"livrées\"; and \"une demande\" is a request, not a demand (\"une exigence\").",
         ],
         examples: [
@@ -1516,7 +1516,7 @@ export const FR_C1_U17: Lesson[] = [
         body: [
           "\"Envoyer\" is the neutral verb: to send. \"Adresser\" is its formal, letter-writing version: \"je vous adresse ma candidature\", \"le courrier qui m'a été adressé\". Both describe sending something you produced or own.",
           "\"Transmettre\" adds the idea of passing something on, as an intermediary: you transmit a file to the right department, a message to a colleague, information to the person concerned. \"Je transmets votre demande au service comptabilité\" (I'm passing your request on to accounts). It's also the verb for submitting a document through official channels: \"transmettre son dossier avant le 30 avril\".",
-          "A classic confusion: \"Je vous transmets mes salutations\" is wrong as a closing; but \"Transmettez mes amitiés à votre épouse\" (give my regards to your wife) is a correct, slightly old-fashioned use: you pass on someone else's greetings.",
+          "A classic confusion: \"Je vous transmets mes salutations\" is not a standard closing formula in France (use the closing formulas from earlier in this unit); but \"Transmettez mes amitiés à votre épouse\" (give my regards to your wife) is a correct, slightly old-fashioned use: you pass on someone else's greetings.",
         ],
         examples: [
           { es: "Je vous adresse ci-joint ma candidature au poste d'assistante de direction.", en: "Please find enclosed my application for the post of executive assistant." },

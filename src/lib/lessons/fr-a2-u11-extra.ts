@@ -141,7 +141,7 @@ export const FR_A2_U11_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the future of: vous mettez?",
+        question: "How do you say: you'll put (polite)?",
         options: ["vous mettrez", "vous metterez", "vous mettiez", "vous mettreez"],
         correctIndex: 0,
         explanation: "\"Mettre\" drops the e: \"mettr-\" + \"-ez\".",
@@ -454,8 +454,8 @@ export const FR_A2_U11_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
-        options: ["Quand j'aurai mon permis, j'achèterai une voiture.", "Quand j'ai mon permis, j'achèterai une voiture.", "Si j'aurai mon permis, j'achèterai une voiture.", "Quand je vais avoir mon permis, j'achèterai une voiture."],
+        question: "How do you say: When I have my driving licence, I'll buy a car?",
+        options: ["Quand j'aurai mon permis, j'achèterai une voiture.", "Quand j'ai mon permis, j'achèterai une voiture.", "Si j'aurai mon permis, j'achèterai une voiture.", "Quand j'avais mon permis, j'achèterai une voiture."],
         correctIndex: 0,
         explanation: "\"Quand\" + futur simple; never \"si\" + future.",
       },
@@ -775,7 +775,7 @@ export const FR_A2_U11_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Zoé says she'll be more patient. Which is correct?",
+        question: "Zoé wants to say: I'll be more patient. What does she say?",
         options: ["Je serai plus patiente.", "Je suis plus patiente demain.", "Je serai plus patient.", "J'aurai plus patiente."],
         correctIndex: 0,
         explanation: "\"Ser-\" + agreement for Zoé: \"patiente\".",
@@ -1089,7 +1089,7 @@ export const FR_A2_U11_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which programme line has no mistake?",
+        question: "How do you write: There'll be fireworks at midnight?",
         options: ["Il y aura un feu d'artifice à minuit.", "Il y avera un feu d'artifice à minuit.", "Il y a aura un feu d'artifice à minuit.", "Il y aurai un feu d'artifice à minuit."],
         correctIndex: 0,
         explanation: "\"Il y aura\": third person ending \"-a\".",
@@ -1246,7 +1246,7 @@ export const FR_A2_U11_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the future version of: Hier, j'ai pu partir tôt?",
+        question: "How do you say: Tomorrow I'll be able to leave early?",
         options: ["Demain, je pourrai partir tôt.", "Demain, j'aurai pu partir tôt.", "Demain, je pouvrai partir tôt.", "Demain, je peux partirai tôt."],
         correctIndex: 0,
         explanation: "\"J'ai pu\" → \"je pourrai\".",
@@ -1393,7 +1393,7 @@ export const FR_A2_U11_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "It'll be fine.",
         answer: "Ça ira.",
-        altAnswers: ["Ça va aller.", "Ce sera bien."],
+        altAnswers: ["Ça va aller.", "Ça se passera bien."],
         explanation: "\"Ça ira\": aller → ira.",
       },
       {

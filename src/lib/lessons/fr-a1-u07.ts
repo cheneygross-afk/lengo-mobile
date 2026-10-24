@@ -24,7 +24,7 @@ export const FR_A1_U07: Lesson[] = [
           { es: "Les vacances commencent en juillet.", en: "The holidays start in July." },
           { es: "Il fait froid en février.", en: "It's cold in February." },
           { es: "Mon anniversaire est en août.", en: "My birthday is in August." },
-          { es: "Le marché est au mois de mai.", en: "The market is in the month of May." },
+          { es: "Le festival est au mois de mai.", en: "The festival is in the month of May." },
         ],
         checkpoint: [
           {
@@ -92,7 +92,7 @@ export const FR_A1_U07: Lesson[] = [
       {
         heading: "Lundi or le lundi?",
         body: [
-          "French has no word for 'on' before a day. \"Lundi\" alone means this coming (or this past) Monday: \"Je vais à Lyon lundi\" (I'm going to Lyon on Monday). Do not add \"sur\": that's an English habit.",
+          "French has no word for 'on' before a day. \"Lundi\" alone means this coming (or this past) Monday: \"Je vais à Lyon lundi\" (I'm going to Lyon on Monday). Don't translate 'on' with \"sur\": that's an English habit.",
           "\"Le lundi\" with the article means every Monday, as a habit: \"Le lundi, je fais du sport\" (On Mondays I do sport). The same goes for \"le week-end\" (at weekends) and \"le soir\" (in the evenings). This one little \"le\" is the whole difference between a one-off and a routine.",
         ],
         examples: [
@@ -230,7 +230,7 @@ export const FR_A1_U07: Lesson[] = [
         body: [
           "You've already used \"au cinéma\" as a chunk. Here's the rule behind it: the little word \"à\" (to, at) cannot sit next to \"le\" or \"les\". They melt together: \"à + le\" becomes \"au\", and \"à + les\" becomes \"aux\". You never write or say \"à le\" or \"à les\".",
           "\"À la\" and \"à l'\" do not change: \"à la gare\", \"à la plage\", \"à l'école\", \"à l'hôtel\". So the only thing to check is the article you would normally use: masculine \"le\" gives \"au\", any plural gives \"aux\".",
-          "You need this after verbs of going and being (\"aller au marché\", \"être au bureau\"), after \"parler à\" and \"téléphoner à\" (\"je parle aux enfants\"), and with sports and games: \"jouer au foot\", \"jouer aux cartes\". \"Aux\" links with a z sound before a vowel: \"aux‿enfants\".",
+          "You need this after verbs of going and being (\"aller au marché\", \"être au bureau\"), after \"parler à\" and \"téléphoner à\" (\"je parle aux enfants\"), and with sports and games: \"jouer au foot\", \"jouer aux cartes\". \"Aux\" links with a z sound before a vowel: \"aux_enfants\".",
         ],
         examples: [
           { es: "Je vais au marché.", en: "I'm going to the market." },
@@ -1849,12 +1849,12 @@ export const FR_A1_U07: Lesson[] = [
       {
         heading: "Autre and chaque",
         body: [
-          "\"Autre\" means other: \"un autre café\" (another coffee), \"une autre fois\" (another time), \"l'autre jour\" (the other day). In the plural, \"des autres\" becomes \"d'autres\" before the adjective: \"J'ai d'autres amis à Lyon\" (I have other friends in Lyon).",
+          "\"Autre\" means other: \"un autre café\" (another coffee), \"une autre fois\" (another time), \"l'autre jour\" (the other day). In the plural, \"des\" shortens to \"d'\" before \"autres\": \"J'ai d'autres amis à Lyon\" (I have other friends in Lyon).",
           "\"Chaque\" means each or every, never changes, and always takes a singular noun: \"chaque jour\", \"chaque semaine\", \"chaque enfant\". It doesn't stand alone: 'each one' is \"chacun\" (\"chacune\").",
         ],
         examples: [
           { es: "Un autre café, s'il vous plaît.", en: "Another coffee, please." },
-          { es: "On parle une autre fois.", en: "We'll talk another time." },
+          { es: "Je passe une autre fois.", en: "I'll drop by another time." },
           { es: "Elle a d'autres idées.", en: "She has other ideas." },
           { es: "Chaque matin, je prends le bus.", en: "Every morning I take the bus." },
           { es: "Chaque enfant a un livre.", en: "Each child has a book." },

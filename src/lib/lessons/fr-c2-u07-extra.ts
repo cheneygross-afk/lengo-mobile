@@ -678,7 +678,7 @@ export const FR_C2_U07_EXTRA: Lesson[] = [
           { es: "Le patient est décédé à 6 h 10.", en: "The patient died at 6.10 a.m." },
           { es: "Il a cassé sa pipe à quatre-vingt-quinze ans.", en: "He kicked the bucket at ninety-five." },
           { es: "Elle a été remerciée après dix ans de service.", en: "She was let go after ten years of service." },
-          { es: "Il s'est fait virer comme un malpropre.", en: "He got fired like a nobody." },
+          { es: "Il s'est fait virer comme un malpropre.", en: "He got kicked out like a dog." },
         ],
         checkpoint: [
           {
@@ -759,7 +759,7 @@ export const FR_C2_U07_EXTRA: Lesson[] = [
         prompt: "Translate into French (neutral).",
         source: "He is blind.",
         answer: "Il est aveugle.",
-        altAnswers: ["Il est non-voyant.", "Il est malvoyant."],
+        altAnswers: ["Il est non-voyant."],
         explanation: "\"Aveugle\" is not offensive; \"non-voyant\" is the euphemism, \"malvoyant\" means partially sighted.",
       },
       {

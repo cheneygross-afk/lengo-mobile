@@ -142,8 +142,8 @@ export const FR_B1_U10_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which form is the conditional?",
-        options: ["vous parleriez", "vous parlerez", "vous parliez", "vous parlez"],
+        question: "How do you say: You'd speak French with them? (to a group)",
+        options: ["Vous leur parleriez français.", "Vous leur parlerez français.", "Vous leur parliez français.", "Vous leur parlez français."],
         correctIndex: 0,
         explanation: "Conditional: the r of the future + \"-iez\". \"Parlerez\" is the future, \"parliez\" the imparfait.",
       },
@@ -992,7 +992,7 @@ export const FR_B1_U10_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "The agent says: Je vous conseillerais de partir tôt. What does she mean?",
+        question: "The agent says: \"Je vous conseillerais de partir tôt.\" What does she mean?",
         options: ["I'd advise you to leave early.", "I advised you to leave early.", "I'll advise you to leave early.", "I'd like you to leave early."],
         correctIndex: 0,
         explanation: "\"Conseillerais\": would advise.",
@@ -1348,7 +1348,7 @@ export const FR_B1_U10_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Nicolas says: Mes amis me manqueraient. What does he mean?",
+        question: "Nicolas says: \"Mes amis me manqueraient.\" What does he mean?",
         options: ["I'd miss my friends.", "My friends would miss me.", "I missed my friends.", "My friends will miss me."],
         correctIndex: 0,
         explanation: "With \"manquer\", the thing missed is the subject: my friends would be lacking to me.",
@@ -1398,7 +1398,7 @@ export const FR_B1_U10_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which job does the conditional do in: Je voudrais un renseignement ?",
+            question: "Which job does the conditional do in \"Je voudrais un renseignement\"?",
             options: ["Politeness", "Advice", "Imagination", "A past habit"],
             correctIndex: 0,
             explanation: "\"Je voudrais\" softens a request.",
@@ -1514,14 +1514,14 @@ export const FR_B1_U10_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which job does the conditional do in: Avec plus d'argent, je voyagerais ?",
+        question: "Which job does the conditional do in \"Avec plus d'argent, je voyagerais\"?",
         options: ["Imagination", "Politeness", "Advice", "A past habit"],
         correctIndex: 0,
         explanation: "It describes an unreal situation.",
       },
       {
         type: "multiple-choice",
-        question: "Which job does the conditional do in: À votre place, je prendrais un taxi ?",
+        question: "Which job does the conditional do in \"À votre place, je prendrais un taxi\"?",
         options: ["Advice", "Politeness", "Imagination", "A future plan"],
         correctIndex: 0,
         explanation: "\"À votre place\" + conditional gives advice.",
@@ -1711,7 +1711,7 @@ export const FR_B1_U10_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "The restaurant says: Ce serait à quel nom ? What should you answer?",
+        question: "The restaurant says: \"Ce serait à quel nom ?\" What should you answer?",
         options: ["Au nom de Martin.", "Pour vingt heures.", "Pour deux personnes.", "Oui, avec plaisir."],
         correctIndex: 0,
         explanation: "They're asking for the name for the booking: \"au nom de\" + name.",

@@ -734,7 +734,7 @@ export const FR_B2_GUIDES: FrGrammarGuide[] = [
           { fr: "Il prétend qu'il n'était pas au courant.", en: "He claims he didn't know." },
           { fr: "Elle a avoué qu'elle avait menti.", en: "She confessed she had lied." },
           { fr: "Le suspect nie avoir volé la voiture.", en: "The suspect denies stealing the car." },
-          { fr: "Il s'est plaint que le service était trop lent.", en: "He complained that the service was too slow." },
+          { fr: "Il s'est plaint que le service soit trop lent.", en: "He complained that the service was too slow." },
           { fr: "Le médecin m'a dit de rester au lit.", en: "The doctor told me to stay in bed." },
           { fr: "Elle m'a dit qu'elle restait au lit.", en: "She told me she was staying in bed." },
         ],

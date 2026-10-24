@@ -92,7 +92,7 @@ export const FR_B1_U02_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "They need to pay attention in class.",
+        source: "They need to listen in class.",
         answer: "Il faut qu'ils écoutent en classe.",
         altAnswers: ["Il faut qu'elles écoutent en classe.", "Ils doivent écouter en classe."],
         explanation: "\"Écouter\" for listening, paying attention; \"qu'ils écoutent\".",
@@ -647,7 +647,7 @@ export const FR_B1_U02_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "We [have to sell] the house.",
+        en: "We have to [sell] the house.",
         sentence: "Il faut que nous ___ la maison.",
         answer: "vendions",
         explanation: "Nous vendons → \"vendions\".",
@@ -655,7 +655,7 @@ export const FR_B1_U02_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "You [have to write] a letter. (formal)",
+        en: "You have to [write] a letter. (formal)",
         sentence: "Il faut que vous ___ une lettre.",
         answer: "écriviez",
         explanation: "Vous écrivez → \"écriviez\".",
@@ -663,7 +663,7 @@ export const FR_B1_U02_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "We [have to tell] the truth.",
+        en: "We have to [tell] the truth.",
         sentence: "Il faut que nous ___ la vérité.",
         answer: "disions",
         explanation: "Nous disons → \"disions\".",
@@ -842,7 +842,7 @@ export const FR_B1_U02_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "What [should I say]? Literally: what is it necessary that I say?",
+        en: "What do I have to [say]?",
         sentence: "Qu'est-ce qu'il faut que je ___ ?",
         answer: "dise",
         explanation: "Ils disent → \"que je dise\".",
@@ -900,7 +900,7 @@ export const FR_B1_U02_EXTRA: Lesson[] = [
       {
         heading: "Recap: making a list of demands",
         body: [
-          "Children in France write \"une lettre au Père Noël\". Here a cheeky eight-year-old, Lucas, writes a list of what Père Noël has to do. Use \"il faut que vous\" (most children use \"tu\" with Père Noël, though some write \"vous\") or \"il faut que tu\", and \"il faut qu'il\" for the reindeer and elves.",
+          "Children in France write \"une lettre au Père Noël\". Here a cheeky eight-year-old, Lucas, writes a list of what Père Noël has to do. Most children write to Père Noël with \"tu\" (a few use \"vous\"), so Lucas writes \"il faut que tu...\"; for the reindeer and the elves he uses \"il faut que les rennes / les lutins...\" + the ils form.",
         ],
         examples: [
           { es: "Cher Père Noël, il faut que tu lises toute ma lettre !", en: "Dear Father Christmas, you have to read my whole letter!" },

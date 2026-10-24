@@ -666,7 +666,7 @@ export const FR_B2_U03_EXTRA: Lesson[] = [
         examples: [
           { es: "Je te le montre pour que tu le voies.", en: "I'm showing it to you so you can see it." },
           { es: "Bien qu'il croie tout savoir, il se trompe souvent.", en: "Although he thinks he knows everything, he's often wrong." },
-          { es: "Attends jusqu'à ce qu'ils aient fini de manger.", en: "Wait until they've finished eating." },
+          { es: "Attends jusqu'à ce qu'ils finissent de manger.", en: "Wait until they finish eating." },
           { es: "Je ne sortirai pas avant que tu m'appelles.", en: "I won't go out before you call me." },
           { es: "Même s'il croit tout savoir, il se trompe.", en: "Even if he thinks he knows everything, he's wrong." },
         ],
@@ -822,13 +822,13 @@ export const FR_B2_U03_EXTRA: Lesson[] = [
         heading: "Recap: a note full of conditions and timings",
         body: [
           "You're going out for the evening and leaving a note for Chloé, the babysitter, who looks after Jules (4) and Rose (7). The note uses \"vous\" (a polite relationship) or \"tu\" (a young babysitter you know well); here we use \"tu\".",
-          "Every instruction is a chance for a conjunction: \"Donne-leur le bain avant qu'ils dînent\", \"Reste avec Jules jusqu'à ce qu'il s'endorme\", \"Laisse la porte entrouverte pour que Rose ne fasse pas de cauchemars\", \"Ne les laisse pas regarder la télé sans que tu sois là\".",
+          "Every instruction is a chance for a conjunction: \"Donne-leur le bain avant qu'ils dînent\", \"Reste avec Jules jusqu'à ce qu'il s'endorme\", \"Laisse la porte entrouverte pour que Rose ne fasse pas de cauchemars\", \"Ne les laisse pas sortir sans que nous soyons prévenus\".",
         ],
         examples: [
           { es: "Donne-leur le bain avant qu'ils dînent.", en: "Give them their bath before they have dinner." },
           { es: "Reste avec Jules jusqu'à ce qu'il s'endorme.", en: "Stay with Jules until he falls asleep." },
           { es: "Laisse la porte entrouverte pour que Rose ne fasse pas de cauchemars.", en: "Leave the door ajar so Rose doesn't have nightmares." },
-          { es: "Ne les laisse pas regarder la télé sans que tu sois là.", en: "Don't let them watch TV without you being there." },
+          { es: "Ne les laisse pas sortir sans que nous soyons prévenus.", en: "Don't let them go out without our being told." },
           { es: "Appelle-nous dès qu'il y aura un problème.", en: "Call us as soon as there's a problem." },
         ],
         checkpoint: [
@@ -877,9 +877,9 @@ export const FR_B2_U03_EXTRA: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into French.",
         source: "They can have dessert provided they finish their vegetables.",
-        answer: "Ils peuvent avoir un dessert à condition qu'ils finissent leurs légumes.",
-        altAnswers: ["Ils peuvent avoir un dessert à condition de finir leurs légumes.", "Ils ont droit à un dessert à condition qu'ils finissent leurs légumes.", "Ils peuvent prendre un dessert à condition qu'ils finissent leurs légumes."],
-        explanation: "\"À condition qu'ils finissent\" (or \"à condition de finir\").",
+        answer: "Ils peuvent avoir un dessert à condition de finir leurs légumes.",
+        altAnswers: ["Ils ont droit à un dessert à condition de finir leurs légumes.", "Ils peuvent prendre un dessert à condition de finir leurs légumes.", "Ils peuvent avoir un dessert pourvu qu'ils finissent leurs légumes.", "Ils ont droit à un dessert pourvu qu'ils finissent leurs légumes."],
+        explanation: "Same subject (they have dessert, they finish): \"à condition de\" + infinitive, not \"à condition qu'ils finissent\". \"Pourvu que\" has no infinitive partner, so \"pourvu qu'ils finissent\" also works.",
       },
       {
         type: "translate",
@@ -911,10 +911,11 @@ export const FR_B2_U03_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "Don't let them watch TV [without you being] there.",
-        sentence: "Ne les laisse pas regarder la télé ___ là.",
-        answer: "sans que tu sois",
-        explanation: "\"Sans que tu sois\".",
+        en: "Don't let them go out [without our being told].",
+        sentence: "Ne les laisse pas sortir ___.",
+        answer: "sans que nous soyons prévenus",
+        altAnswers: ["sans que nous soyons prévenues", "sans qu'on soit prévenus", "sans qu'on soit prévenu", "sans que nous soyons avertis"],
+        explanation: "A new subject (we, the parents) after \"sans\", so \"sans que\" + subjunctive \"soyons\"; \"prévenus\" agrees with \"nous\".",
       },
       {
         type: "fill-blank",

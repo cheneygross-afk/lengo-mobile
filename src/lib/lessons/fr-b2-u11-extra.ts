@@ -485,7 +485,7 @@ export const FR_B2_U11_EXTRA: Lesson[] = [
       {
         heading: "Recap: each step adds a layer",
         body: [
-          "In the game known in France as \"le téléphone arabe\" (Chinese whispers), a message is whispered from person to person. Here it happens by text message. Each person reports what the previous one said, so the tenses and pronouns shift each time, and the content drifts.",
+          "In the game known in France as \"le téléphone arabe\" (Chinese whispers), a message is whispered from person to person (many people now prefer the name \"le téléphone sans fil\"). Here it happens by text message. Each person reports what the previous one said, so the tenses and pronouns shift each time, and the content drifts.",
           "Original message from Camille: \"« Je fais une fête samedi chez moi. Apportez des boissons ! »\" Hugo to Nina: \"Camille a dit qu'elle faisait une fête samedi chez elle et qu'il fallait apporter des boissons.\" Nina to Marc: \"Hugo m'a dit que Camille organisait une fête et qu'on devait apporter à manger...\"",
         ],
         examples: [
@@ -717,8 +717,8 @@ export const FR_B2_U11_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "The suspect denied being at the scene.",
         answer: "Le suspect a nié avoir été sur les lieux.",
-        altAnswers: ["Le suspect a nié qu'il était sur les lieux.", "Le suspect a nié être sur les lieux.", "Le suspect a nié avoir été sur place."],
-        explanation: "\"Nier avoir été\": past infinitive.",
+        altAnswers: ["Le suspect a nié qu'il était sur les lieux.", "Le suspect a nié avoir été sur place.", "Le suspect a nié qu'il ait été sur les lieux."],
+        explanation: "\"Nier avoir été\": past infinitive, because being at the scene came before the denial. \"Nier être sur les lieux\" would deny being there now.",
       },
       {
         type: "translate",
@@ -1052,8 +1052,8 @@ export const FR_B2_U11_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "I assured her that it was no problem for me.",
         answer: "Je lui ai assuré que ça ne me posait aucun problème.",
-        altAnswers: ["Je lui ai assuré que ce n'était pas un problème pour moi.", "Je l'ai assurée que ça ne me posait aucun problème."],
-        explanation: "\"Assurer à quelqu'un que\".",
+        altAnswers: ["Je lui ai assuré que ce n'était pas un problème pour moi."],
+        explanation: "\"Assurer à quelqu'un que\": an indirect object, so \"je lui ai assuré\". The direct-object pattern belongs to \"assurer quelqu'un de quelque chose\" (\"je l'ai assurée de mon soutien\").",
       },
       {
         type: "fill-blank",

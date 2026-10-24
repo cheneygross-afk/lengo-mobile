@@ -1615,7 +1615,7 @@ export const FR_C2_U03: Lesson[] = [
         heading: "Warnings and checking understanding",
         body: [
           "Before he leaves, give the warnings that matter, and only those: \"Pas d'alcool pendant le traitement, ce n'est pas une bonne idée avec la fièvre.\" \"Si vous voyez des plaques rouges qui grattent, vous arrêtez l'antibiotique et vous appelez le médecin.\" \"Si la fièvre ne baisse pas au bout de trois jours, il faut reconsulter.\" (\"Reconsulter\" = see the doctor again.) Note the structure: \"si\" + present, then present or imperative; and \"au bout de\" + duration (after).",
-          "Then check understanding without making him feel tested. The best technique is \"la reformulation\" by the patient (teach-back): \"Pour être sûr que je me suis bien fait comprendre, vous pouvez me redire comment vous allez prendre l'antibiotique ?\" The pharmacist puts the responsibility on her own explanation (\"que je me suis bien fait comprendre\"), not on his understanding. With the daughter present, you can involve her: \"Et vous, Madame, ça vous paraît clair ?\"",
+          "Then check understanding without making him feel tested. The best technique is \"la reformulation\" by the patient (teach-back): \"Pour être sûre que je me suis bien fait comprendre, vous pouvez me redire comment vous allez prendre l'antibiotique ?\" The pharmacist puts the responsibility on her own explanation (\"que je me suis bien fait comprendre\"), not on his understanding. With the daughter present, you can involve her: \"Et vous, Madame, ça vous paraît clair ?\"",
           "Close warmly: \"N'hésitez pas à repasser ou à nous appeler si vous avez la moindre question. Bon rétablissement, Monsieur Faure !\" \"Bon rétablissement\" (get well soon) is the standard wish; \"Soignez-vous bien\" is another.",
         ],
         examples: [
@@ -1947,7 +1947,7 @@ export const FR_C2_U03: Lesson[] = [
         prompt: "Put the words in order to say: The head of department does the round at ten.",
         words: ["Le chef de service", "fait", "la visite", "à dix", "heures."],
         translation: "The head of department does the round at ten.",
-        explanation: "\"Faire la visite\": the daily ward round; you can also say \"le médecin passe pour la visite\".",
+        explanation: "\"Faire la visite\": the daily ward round; patients also say simply \"le médecin passe\" (the doctor comes round).",
       },
       {
         type: "dictation",
@@ -1956,9 +1956,9 @@ export const FR_C2_U03: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Excusez-moi, à quelle heure passe le médecin pour la visite ?",
-        prompt: "Ask in French on the ward: Excuse me, what time does the doctor do the round?",
-        explanation: "\"La visite\" is the daily ward round; inversion \"passe le médecin\" after the question word.",
+        text: "Excusez-moi, à quelle heure passe le médecin ?",
+        prompt: "Ask in French on the ward: Excuse me, what time does the doctor come round?",
+        explanation: "\"Passer\" is the everyday verb for the doctor's daily round (\"la visite\"); stylistic inversion \"passe le médecin\" after the question word.",
       },
       {
         type: "translate",
@@ -2857,7 +2857,7 @@ export const FR_C2_U03: Lesson[] = [
         prompt: "Translate into French, using a precise verb.",
         source: "The meeting took on a dramatic character.",
         answer: "La réunion a revêtu un caractère dramatique.",
-        altAnswers: ["La réunion a pris un caractère dramatique.", "La réunion a revêtu une tournure dramatique.", "La réunion a pris une tournure dramatique."],
+        altAnswers: ["La réunion a pris un caractère dramatique.", "La réunion a pris une tournure dramatique."],
         explanation: "\"Revêtir un caractère\" (formal) or \"prendre une tournure\" (more neutral).",
       },
       {
@@ -2877,7 +2877,7 @@ export const FR_C2_U03: Lesson[] = [
         type: "speak",
         text: "Cette question revêt une importance capitale pour l'avenir de l'hôpital.",
         prompt: "Say it in French: This issue is of paramount importance for the hospital's future.",
-        tip: "\"Revêt\" ends in a silent t; link \"importance capitale\" smoothly.",
+        tip: "The t of \"revêt\" is silent, though careful speakers may link it to \"une\" (revê-t-une); keep \"importance capitale\" as one smooth group.",
         explanation: "\"Revêtir une importance\" is a hallmark of formal written and spoken French.",
       },
     ],

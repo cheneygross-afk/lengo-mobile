@@ -240,8 +240,8 @@ export const FR_B1_U10: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which form is the conditional of envoyer for je?",
-        options: ["j'enverrais", "j'envoyerais", "j'envoierais", "j'enverais"],
+        question: "How do you say: I'd send you a postcard? (to a friend)",
+        options: ["Je t'enverrais une carte postale.", "Je t'envoyerais une carte postale.", "Je t'envoierais une carte postale.", "Je t'enverais une carte postale."],
         correctIndex: 0,
         explanation: "\"Envoyer\" has the irregular stem \"enverr-\" with two r's, as in the future \"j'enverrai\".",
       },
@@ -1035,7 +1035,7 @@ export const FR_B1_U10: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Someone asks you: Ça vous dérangerait de vous pousser un peu ? You don't mind. What do you answer?",
+            question: "Someone asks you: \"Ça vous dérangerait de vous pousser un peu ?\" You don't mind. What do you answer?",
             options: ["Non, pas du tout.", "Oui, pas du tout.", "Oui, bien sûr, ça me dérange.", "Non, ça me dérangerait."],
             correctIndex: 0,
             explanation: "The question is would it bother you, so no means you don't mind.",
@@ -1456,7 +1456,7 @@ export const FR_B1_U10: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The receptionist says: Il nous resterait une chambre au troisième. What does she mean?",
+            question: "The receptionist says: \"Il nous resterait une chambre au troisième.\" What does she mean?",
             options: [
               "We have one room left on the third floor.",
               "We would rest on the third floor.",
@@ -1868,7 +1868,7 @@ export const FR_B1_U10: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your friend says: Sans mon portable, je serais perdue. What does she mean?",
+        question: "Your friend says: \"Sans mon portable, je serais perdue.\" What does she mean?",
         options: ["Without my phone, I'd be lost.", "Without my phone, I was lost.", "I lost my phone.", "I'll be lost without my phone."],
         correctIndex: 0,
         explanation: "\"Serais perdue\": would be lost.",

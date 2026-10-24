@@ -1099,7 +1099,7 @@ export const FR_A2_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say: I didn't like the film?",
         options: ["Je n'ai pas aimé le film.", "Je n'ai aimé pas le film.", "Je ne pas ai aimé le film.", "Je n'ai pas aimer le film."],
         correctIndex: 0,
         explanation: "\"Ne...pas\" around the helper \"ai\", then the participle \"aimé\".",
@@ -1240,7 +1240,7 @@ export const FR_A2_U01: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "How do you say: He phoned yesterday?",
             options: ["Il a téléphoné hier.", "Il a hier téléphoné.", "Il hier a téléphoné.", "Il a téléphoné déjà hier."],
             correctIndex: 0,
             explanation: "Time words like \"hier\" go at the end or the start, never between the helper and the participle.",
@@ -1596,7 +1596,7 @@ export const FR_A2_U01: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "How do you write: Yesterday I watched a film?",
             options: ["Hier, j'ai regardé un film.", "Hier, j'ai regarder un film.", "Hier, j'ai regardez un film.", "Hier, je regardé un film."],
             correctIndex: 0,
             explanation: "After \"avoir\" → participle -é. Swap test: \"j'ai vendu\".",
@@ -1745,7 +1745,7 @@ export const FR_A2_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you write: Did you watch the match? (polite)",
         options: ["Vous avez regardez le match ?", "Vous avé regardé le match ?", "Vous avez regardé le match ?", "Vous avez regarder le match ?"],
         correctIndex: 2,
         explanation: "\"Vous avez\" + participle -é.",
@@ -1961,7 +1961,7 @@ export const FR_A2_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence has the layers in the right order?",
+        question: "How do you say: On Saturday I worked a lot at the office?",
         options: [
           "Samedi, j'ai beaucoup travaillé au bureau.",
           "Samedi, j'ai travaillé beaucoup au bureau.",
@@ -2195,7 +2195,7 @@ export const FR_A2_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is spelled correctly?",
+        question: "How do you write: Where did you have dinner on Saturday? (to a friend)",
         options: [
           "Ou est-ce que tu as dîné samedi ?",
           "Où est-ce que tu as dîné samedi ?",

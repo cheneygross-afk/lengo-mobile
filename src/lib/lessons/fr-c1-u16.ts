@@ -30,7 +30,7 @@ export const FR_C1_U16: Lesson[] = [
       {
         heading: "Where did the ne go?",
         body: [
-          "In everyday spoken French, the \"ne\" of negation almost disappears. Studies of conversational French estimate that it's dropped in well over 80% of negations, by all social classes and ages. \"Je sais pas\", \"c'est pas grave\", \"il vient pas\" are not mistakes in speech: they're the norm. Keeping every \"ne\" in a chat with friends sounds careful, even a little stiff.",
+          "In everyday spoken French, the \"ne\" of negation almost disappears. Studies of conversational French find it dropped in the large majority of negations: often more than 80% in casual conversation, and even more among younger speakers. Speakers of every social class drop it. \"Je sais pas\", \"c'est pas grave\", \"il vient pas\" are not mistakes in speech: they're the norm. Keeping every \"ne\" in a chat with friends sounds careful, even a little stiff.",
           "In writing, the rule reverses. In an email, an essay, a report or any public text, the \"ne\" is obligatory: \"je ne sais pas\", \"ce n'est pas grave\". Leaving it out in writing signals a text message, a novel's dialogue or deliberate familiarity.",
           "The \"pas\" carries the negation, so it's never dropped: \"je sais\" and \"je sais pas\" are opposites. The same goes for the other negative words: \"j'ai rien vu\", \"je vois personne\", \"il fume plus\", \"on y va jamais\".",
           "Listen for liaisons and elisions that the missing \"ne\" leaves behind. In \"on n'a pas\" vs \"on a pas\", the two sound identical in speech, which is why even native writers sometimes forget the \"n'\" after \"on\".",
@@ -181,7 +181,7 @@ export const FR_C1_U16: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Write it in neutral French with inversion or est-ce que.",
+        prompt: "Write it in neutral French, with the question word first.",
         source: "Who is the man in blue?",
         answer: "Qui est l'homme en bleu ?",
         altAnswers: ["Qui est cet homme en bleu ?", "Qui est le monsieur en bleu ?", "Qui est-ce, l'homme en bleu ?"],
@@ -272,7 +272,6 @@ export const FR_C1_U16: Lesson[] = [
             en: "Where are we [eating] tonight?",
             sentence: "On ___ où ce soir ?",
             answer: "bouffe",
-            altAnswers: ["mange"],
             explanation: "\"Bouffer\" = \"manger\" (fam.).",
           },
         ],
@@ -804,7 +803,7 @@ export const FR_C1_U16: Lesson[] = [
         en: "[Well]… I made pancakes.",
         sentence: "___… j'ai fait des crêpes.",
         answer: "Bah",
-        altAnswers: ["Ben", "Euh"],
+        altAnswers: ["Ben"],
         explanation: "\"Bah\" or \"ben\" introduce an awkward or obvious answer.",
       },
       {
@@ -1423,7 +1422,7 @@ export const FR_C1_U16: Lesson[] = [
         en: "I'm [fed up].",
         sentence: "J'en ai ___.",
         answer: "marre",
-        altAnswers: ["ras le bol", "assez", "plein le dos"],
+        altAnswers: ["ras le bol", "plein le dos"],
         explanation: "\"En avoir marre\" (fam.), \"en avoir assez\" (neutral).",
       },
       {
@@ -1543,7 +1542,7 @@ export const FR_C1_U16: Lesson[] = [
             prompt: "Fix « Y a eu genre trois grandes étapes » for an essay.",
             source: "Three main stages can be distinguished.",
             answer: "On peut distinguer trois grandes étapes.",
-            altAnswers: ["Trois grandes étapes peuvent être distinguées.", "On distingue trois grandes étapes.", "Il y a eu trois grandes étapes.", "On peut dégager trois grandes étapes."],
+            altAnswers: ["Trois grandes étapes peuvent être distinguées.", "On distingue trois grandes étapes.", "On peut dégager trois grandes étapes."],
             explanation: "Impersonal \"on peut distinguer\" is standard in academic French.",
           },
           {
@@ -1826,7 +1825,7 @@ export const FR_C1_U16: Lesson[] = [
         en: "Are you [kidding]? He really quit?",
         sentence: "Tu ___ ? Il a vraiment démissionné ?",
         answer: "déconnes",
-        altAnswers: ["rigoles", "plaisantes"],
+        altAnswers: ["rigoles"],
         explanation: "\"Tu déconnes ?\" (fam.) = \"tu plaisantes ?\" (neutral).",
       },
       {
@@ -1966,7 +1965,6 @@ export const FR_C1_U16: Lesson[] = [
             en: "I'm [starving], when are we eating?",
             sentence: "J'ai ___, on mange quand ?",
             answer: "la dalle",
-            altAnswers: ["trop faim", "grave faim", "super faim"],
             explanation: "\"Avoir la dalle\" = avoir très faim.",
           },
           {
@@ -2840,7 +2838,7 @@ export const FR_C1_U16: Lesson[] = [
             prompt: "Write it as a casual text message, with ellipsis.",
             source: "Couldn't come, sorry.",
             answer: "Pas pu venir, désolé.",
-            altAnswers: ["Pas pu venir, désolée.", "J'ai pas pu venir, désolé.", "J'ai pas pu venir, désolée."],
+            altAnswers: ["Pas pu venir, désolée."],
             explanation: "Subject and \"ne\" disappear in texting.",
           },
         ],
@@ -2928,7 +2926,7 @@ export const FR_C1_U16: Lesson[] = [
         prompt: "Answer casually, with ellipsis.",
         source: "Not hungry, thanks.",
         answer: "Pas faim, merci.",
-        altAnswers: ["J'ai pas faim, merci.", "Pas faim, merci !"],
+        altAnswers: ["Pas faim, merci !"],
         explanation: "Ellipsis of \"je n'ai\".",
       },
       {

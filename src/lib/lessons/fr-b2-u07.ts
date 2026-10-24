@@ -739,7 +739,7 @@ export const FR_B2_U07: Lesson[] = [
         prompt: "Translate into French.",
         source: "You look exhausted, as if you hadn't slept. (to a female friend)",
         answer: "Tu as l'air épuisée, comme si tu n'avais pas dormi.",
-        altAnswers: ["Tu as l'air épuisé, comme si tu n'avais pas dormi."],
+        altAnswers: ["Tu sembles épuisée, comme si tu n'avais pas dormi."],
         explanation: "\"Comme si\" + negative plus-que-parfait.",
       },
       {
@@ -1199,6 +1199,7 @@ export const FR_B2_U07: Lesson[] = [
             prompt: "Translate into French.",
             source: "Fingers crossed the train isn't late!",
             answer: "Pourvu que le train ne soit pas en retard !",
+            altAnswers: ["Pourvu que le train n'ait pas de retard !"],
             explanation: "\"Pourvu que\" + subjunctive \"ne soit pas\".",
           },
           {
@@ -1338,7 +1339,7 @@ export const FR_B2_U07: Lesson[] = [
       {
         heading: "Même si, et si, si seulement",
         body: [
-          "Three compounds of si keep its tense rules. \"Même si\" (even if) + present for a real possibility, + imparfait for a hypothesis: \"même si j'étais riche, je continuerais à travailler\". Never the subjunctive after même si, even though it means much the same as bien que.",
+          "Three compounds of si keep its tense rules. \"Même si\" (even if) + present for a real possibility, + imparfait for a hypothesis: \"même si j'étais riche, je continuerais à travailler\". Never the subjunctive after même si, even though it can come close to bien que (although) in meaning.",
           "\"Et si\" + imparfait makes a suggestion, with no result clause: \"Et si on allait au cinéma ?\" (How about going to the cinema?). It's softer than \"on va au cinéma ?\" and very common. \"Et si\" + present asks a worried question: \"Et s'il ne vient pas ?\" (What if he doesn't come?).",
           "\"Si seulement\" + imparfait expresses a wish about now: \"si seulement il faisait moins chaud !\".",
         ],

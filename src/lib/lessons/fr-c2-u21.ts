@@ -77,8 +77,8 @@ export const FR_C2_U21: Lesson[] = [
             prompt: "Translate into French (in an interview).",
             source: "Since I had already worked in Spain, I was given the Spanish market.",
             answer: "Comme j'avais déjà travaillé en Espagne, on m'a confié le marché espagnol.",
-            altAnswers: ["Comme j'avais déjà travaillé en Espagne, on m'a confié le marché de l'Espagne.", "Ayant déjà travaillé en Espagne, je me suis vu confier le marché espagnol.", "Comme j'avais déjà travaillé en Espagne, je me suis vu confier le marché espagnol.", "Comme j'avais déjà travaillé en Espagne, je me suis vue confier le marché espagnol.", "Étant donné que j'avais déjà travaillé en Espagne, on m'a confié le marché espagnol."],
-            explanation: "The earlier background takes the plus-que-parfait (\"j'avais travaillé\"), the event the passé composé. French prefers \"on m'a confié\" or \"je me suis vu confier\" to a passive with I as subject.",
+            altAnswers: ["Comme j'avais déjà travaillé en Espagne, on m'a confié le marché de l'Espagne.", "Ayant déjà travaillé en Espagne, je me suis vu confier le marché espagnol.", "Comme j'avais déjà travaillé en Espagne, je me suis vu confier le marché espagnol.", "Étant donné que j'avais déjà travaillé en Espagne, on m'a confié le marché espagnol."],
+            explanation: "The earlier background takes the plus-que-parfait (\"j'avais travaillé\"), the event the passé composé. French prefers \"on m'a confié\" or \"je me suis vu confier\" to a passive with I as subject. \"Vu\" stays invariable here even for a woman, because the subject does not do the confiding.",
           },
           {
             type: "speak",
@@ -196,7 +196,7 @@ export const FR_C2_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "The interviewer, about 28, says « Bon, présentez-vous ». Which opening is the right register?",
+        question: "The interviewer, about 28, says \"Bon, présentez-vous\". Which opening is the right register?",
         options: ["Je vais vous présenter brièvement mon parcours.", "Du coup, ben, je vais te raconter un peu mon parcours.", "Alors genre, moi, j'ai fait plein de trucs.", "Je vais te présenter mon CV que tu as déjà."],
         correctIndex: 0,
         explanation: "Stay in \"vous\" and in a neutral-formal register whatever the recruiter's age; \"du coup\", \"ben\" and \"genre\" are fillers to avoid.",
@@ -228,7 +228,7 @@ export const FR_C2_U21: Lesson[] = [
         prompt: "Translate into French.",
         source: "Since I had done my internship in Canada, I was given the North American clients.",
         answer: "Comme j'avais fait mon stage au Canada, on m'a confié les clients nord-américains.",
-        altAnswers: ["Comme j'avais effectué mon stage au Canada, on m'a confié les clients nord-américains.", "Ayant fait mon stage au Canada, je me suis vu confier les clients nord-américains.", "Comme j'avais fait mon stage au Canada, je me suis vu confier les clients nord-américains.", "Comme j'avais fait mon stage au Canada, je me suis vue confier les clients nord-américains.", "Comme j'avais effectué mon stage au Canada, je me suis vu confier les clients nord-américains.", "Comme j'avais effectué mon stage au Canada, je me suis vue confier les clients nord-américains."],
+        altAnswers: ["Comme j'avais effectué mon stage au Canada, on m'a confié les clients nord-américains.", "Ayant fait mon stage au Canada, je me suis vu confier les clients nord-américains.", "Comme j'avais fait mon stage au Canada, je me suis vu confier les clients nord-américains.", "Comme j'avais effectué mon stage au Canada, je me suis vu confier les clients nord-américains."],
         explanation: "Plus-que-parfait for the earlier background, passé composé for the step. \"Effectuer un stage\" is more formal than \"faire un stage\".",
       },
       {
@@ -360,7 +360,7 @@ export const FR_C2_U21: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is the best rewrite of « Je suis le meilleur commercial de France » ?",
+            question: "Which is the best rewrite of \"Je suis le meilleur commercial de France\" ?",
             options: ["Je crois avoir un vrai sens commercial : l'an dernier, j'ai dépassé mes objectifs de 30 %.", "Je suis sans doute le meilleur commercial de France.", "Je ne suis pas très bon, mais j'essaie.", "Tout le monde dit que je suis le meilleur, donc c'est vrai."],
             correctIndex: 0,
             explanation: "The rewrite keeps the strength, moderates it with \"je crois\", and lets a fact (30 % above target) carry the weight.",
@@ -414,7 +414,7 @@ export const FR_C2_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Asked about her strengths, a candidate says: « Oh, je ne sais pas trop, je fais comme tout le monde. » What's the problem?",
+        question: "Asked about her strengths, a candidate says: \"Oh, je ne sais pas trop, je fais comme tout le monde.\" What's the problem?",
         options: ["False modesty: it gives nothing and sounds unprepared.", "Boasting: she sounds arrogant.", "Wrong register: she uses tu.", "Nothing: it's the ideal French answer."],
         correctIndex: 0,
         explanation: "\"La fausse modestie\" is as damaging as boasting. \"Je ne sais pas trop\" is also too casual for an interview.",
@@ -1191,7 +1191,7 @@ export const FR_C2_U21: Lesson[] = [
         type: "speak",
         text: "Si c'était à refaire, j'impliquerais l'équipe beaucoup plus tôt.",
         prompt: "Say it in French: If I had to do it again, I'd involve the team much earlier.",
-        tip: "\"Impliquerais\": im-pli-que-rè, four clear syllables.",
+        tip: "\"Impliquerais\": the e after qu is usually silent in speech, im-pli-krè, three syllables.",
         explanation: "The lessons-learned formula \"si c'était à refaire\" + conditional.",
       },
     ],
@@ -1267,7 +1267,7 @@ export const FR_C2_U21: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which version of the background sentence fits best before « On m'a confié la coordination du dossier » ?",
+            question: "Which version of the background sentence fits best before \"On m'a confié la coordination du dossier\" ?",
             options: ["Nous n'avions jamais répondu à ce type de marché.", "Nous n'avons jamais répondu à ce type de marché.", "Nous ne répondions jamais à ce type de marché.", "Nous n'aurons jamais répondu à ce type de marché."],
             correctIndex: 0,
             explanation: "The fact is prior to the story's moment, so plus-que-parfait: \"nous n'avions jamais répondu\".",
@@ -1452,7 +1452,7 @@ export const FR_C2_U21: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A friend in Paris says her new job pays « 39 K sur treize mois ». What does she earn per month (gross), excluding the December bonus?",
+            question: "A friend in Paris says her new job pays \"39 K sur treize mois\". What does she earn per month (gross), excluding the December bonus?",
             options: ["3 000 euros brut", "3 250 euros brut", "3 900 euros brut", "3 000 euros net"],
             correctIndex: 0,
             explanation: "39 000 ÷ 13 = 3 000 euros gross a month, plus a thirteenth payment in December. Net would be roughly 2 300 euros.",
@@ -1689,7 +1689,7 @@ export const FR_C2_U21: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "M. Lambert asks « Avez-vous des questions ? ». What's the best reply?",
+            question: "M. Lambert asks \"Avez-vous des questions ?\". What's the best reply?",
             options: ["Oui, j'en ai quelques-unes. Quelles seraient mes priorités les premiers mois ?", "Non, tout est clair, merci.", "Oui : combien de jours de congé j'aurai ?", "Oui : est-ce que j'ai le poste ?"],
             correctIndex: 0,
             explanation: "A prepared question in the conditional shows interest without presumption. \"J'en ai quelques-unes\": \"en\" replaces \"des questions\", and \"quelques-unes\" agrees with the feminine noun.",
@@ -1879,7 +1879,7 @@ export const FR_C2_U21: Lesson[] = [
 
 export const FR_C2_U21_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You have a second-round interview for a senior post at a French company. The recruiter has sent three questions to prepare in writing beforehand: « Présentez votre parcours », « Parlez-moi d'une situation où vous avez dû surmonter une difficulté importante » and « Quelles sont vos prétentions salariales ? ». Write your answers as one continuous text in sustained vouvoiement: a career path in the narrative tenses, a STAR story with a lesson learned, and a poised salary answer with a range.",
+  prompt: "You have a second-round interview for a senior post at a French company. The recruiter has sent three questions to prepare in writing beforehand: \"Présentez votre parcours\", \"Parlez-moi d'une situation où vous avez dû surmonter une difficulté importante\" and \"Quelles sont vos prétentions salariales ?\". Write your answers as one continuous text in sustained vouvoiement: a career path in the narrative tenses, a STAR story with a lesson learned, and a poised salary answer with a range.",
   minWords: 250,
   maxWords: 400,
   rubric: [

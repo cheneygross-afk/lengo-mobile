@@ -506,6 +506,10 @@ function notesFor(c: FrConjugation, rules: SpellRule[]): string[] {
     }
   }
   for (const r of rules) {
+    if (c.impersonal && (r === "cer" || r === "ger")) {
+      n.push(`${r === "cer" ? "c becomes ç" : "g becomes ge"} before a and o, to keep the soft sound: il ${first(t.impf.il)}.`);
+      continue;
+    }
     if (r === "cer") n.push(`c becomes ç before a and o, to keep the soft sound: nous ${first(t.pres.nous).replace(/^nous /, "")}, ${je(t.impf.je)}.`);
     if (r === "ger") n.push(`g becomes ge before a and o, to keep the soft sound: nous ${first(t.pres.nous).replace(/^nous /, "")}, ${je(t.impf.je)}.`);
     if (r === "egrave") n.push(`e becomes è before a silent ending and in the future: ${je(t.pres.je)}, ils ${first(t.pres.ils)}, ${je(t.fut.je)} (but nous ${first(t.pres.nous)}).`);
@@ -514,6 +518,7 @@ function notesFor(c: FrConjugation, rules: SpellRule[]): string[] {
     if (r === "yer") n.push(`y becomes i before a silent ending and in the future: ${je(t.pres.je)}, ${je(t.fut.je)} (but nous ${first(t.pres.nous)}).`);
     if (r === "ayer") n.push(`y may become i before a silent ending; both spellings are correct: ${je(t.pres.je)} or ${je((t.pres.je ?? "").split(" / ")[1])}.`);
   }
+  if (c.base === "demeurer") n.push("Meaning to remain, it takes être: elle est demeurée silencieuse. Meaning to live (formal), it takes avoir: il a demeuré à Lyon.");
   if (c.base === "asseoir") n.push("Also correct, and common in speech: je m'assois, nous nous assoyons, je m'assoirai.");
   if (c.base === "envoyer" || c.base === "renvoyer") n.push(`Regular except the future and conditional: ${je(t.fut.je)}, ${je(t.cond.je)}.`);
   return n;

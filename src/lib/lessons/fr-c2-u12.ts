@@ -727,7 +727,7 @@ export const FR_C2_U12: Lesson[] = [
             prompt: "Translate into French.",
             source: "The mayors are looking for a way to fight back.",
             answer: "Les maires cherchent la parade.",
-            altAnswers: ["Les maires cherchent une parade.", "Les maires cherchent la riposte.", "Les maires cherchent une riposte."],
+            altAnswers: ["Les maires cherchent une parade.", "Les maires cherchent une riposte."],
             explanation: "\"Chercher la parade\" (from fencing): to look for a counter-move.",
           },
         ],
@@ -1432,7 +1432,7 @@ export const FR_C2_U12: Lesson[] = [
             en: "[That amounts to saying] the reform has failed.",
             sentence: "___ que la réforme a échoué.",
             answer: "Cela revient à dire",
-            altAnswers: ["Ça revient à dire", "Autrement dit, on peut dire"],
+            altAnswers: ["Ça revient à dire"],
             explanation: "\"Cela revient à dire que\" reformulates an idea in its consequences.",
           },
           {
@@ -1812,7 +1812,7 @@ export const FR_C2_U12: Lesson[] = [
         heading: "Hopes, doubts and decisions",
         body: [
           "A collocation is a habitual pairing of words. A Mastery speaker is recognised less by rare words than by the right verb with a common noun. \"Nourrir des espoirs\" (to cherish hopes, literally feed), \"caresser un projet\" (to toy with a plan), \"émettre des doutes\" or \"des réserves\" (to express doubts, reservations), \"formuler une critique\", \"soulever une question\" (to raise).",
-          "Decisions: \"prendre une décision\" (never \"*faire une décision\", a calque), \"prendre des mesures\" (to take measures: usually plural; \"*prendre une mesure\" in the singular sounds odd where French says \"prendre des mesures\", though \"une mesure\" exists as a noun: \"cette mesure est impopulaire\"), \"trancher une question\" (to settle), \"arrêter une date\" (to fix).",
+          "Decisions: \"prendre une décision\" (never \"*faire une décision\", a calque), \"prendre des mesures\" (to take measures: usually plural, though \"prendre une mesure\" is correct for one specific measure: \"le gouvernement a pris une mesure impopulaire\"), \"trancher une question\" (to settle), \"arrêter une date\" (to fix).",
           "Learning the noun with its verb as one chunk is the only efficient method. When you meet a noun in the press, note the verb in front of it.",
         ],
         examples: [

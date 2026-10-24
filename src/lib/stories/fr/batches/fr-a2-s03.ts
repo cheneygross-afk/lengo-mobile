@@ -283,7 +283,7 @@ export const FR_A2_S03_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "la panne de courant", en: "power cut, blackout", forms: ["panne", "courant"] },
     { es: "neiger", en: "to snow", forms: ["neigeait"] },
     { es: "un ado", en: "teenager (informal)", forms: ["ados"] },
-    { es: "s'éteindre", en: "to go off, to go out", forms: ["éteint"] },
+    { es: "éteindre, s'éteindre", en: "to switch off; (s'éteindre) to go off, to go out", forms: ["éteint"] },
     { es: "la couverture", en: "blanket", forms: ["couvertures"] },
     { es: "le jeu de société", en: "board game", forms: ["jeu", "société"] },
     { es: "le placard", en: "cupboard", forms: ["placard"] },

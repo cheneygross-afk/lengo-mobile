@@ -33,6 +33,7 @@ export const FR_B2_U11: Lesson[] = [
             prompt: "Translate into French.",
             source: "She tells me she won't come.",
             answer: "Elle me dit qu'elle ne viendra pas.",
+            altAnswers: ["Elle me dit qu'elle ne va pas venir."],
             explanation: "Present reporting verb: the future \"viendra\" stays. \"Que\" can't be dropped, and \"me\" goes before \"dit\".",
           },
           {
@@ -200,9 +201,9 @@ export const FR_B2_U11: Lesson[] = [
       {
         type: "multiple-choice",
         question: "\"« J'ai trouvé un appartement »\", a dit Sophie. Which report is correct?",
-        options: ["Sophie a dit qu'elle avait trouvé un appartement.", "Sophie a dit qu'elle a trouvé un appartement hier soir.", "Sophie a dit que j'avais trouvé un appartement.", "Sophie a dit qu'elle trouverait un appartement."],
+        options: ["Sophie a dit qu'elle avait trouvé un appartement.", "Sophie a dit qu'elle trouvait un appartement.", "Sophie a dit que j'avais trouvé un appartement.", "Sophie a dit qu'elle trouverait un appartement."],
         correctIndex: 0,
-        explanation: "Passé composé → plus-que-parfait, and \"je\" → \"elle\".",
+        explanation: "Passé composé → plus-que-parfait, and \"je\" → \"elle\". \"Trouvait\" would report a present (« je trouve »), and \"trouverait\" a future.",
       },
       {
         type: "word-order",
@@ -1697,8 +1698,8 @@ export const FR_B2_U11: Lesson[] = [
         prompt: "Translate into French.",
         source: "We were told not to park here.",
         answer: "On nous a dit de ne pas nous garer ici.",
-        altAnswers: ["On nous a dit de ne pas stationner ici.", "On nous a dit de ne pas se garer ici."],
-        explanation: "\"On\" for an unspecified they; \"de ne pas\" + pronominal infinitive.",
+        altAnswers: ["On nous a dit de ne pas stationner ici."],
+        explanation: "\"On\" for an unspecified they; \"de ne pas\" + pronominal infinitive. The reflexive pronoun matches the people told (nous), so \"nous garer\", not \"se garer\".",
       },
       {
         type: "translate",
@@ -2438,9 +2439,9 @@ export const FR_B2_U11: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which sentence is correct in modern French?",
-            options: ["Je doutais qu'il vienne.", "Je doutais qu'il venait.", "Je doutais qu'il viendrait.", "Je doutais qu'il vînt hier."],
+            options: ["Je doutais qu'il vienne.", "Je doutais qu'il venait.", "Je doutais qu'il viendrait.", "Je doutais qu'il vient."],
             correctIndex: 0,
-            explanation: "\"Douter que\" + present subjunctive, whatever the tense of \"douter\". \"Vînt\" is literary.",
+            explanation: "\"Douter que\" + present subjunctive, whatever the tense of \"douter\". \"Venait\", \"viendrait\" and \"vient\" are indicative or conditional forms. (Novels may use the literary \"qu'il vînt\", which you only need to recognise.)",
           },
         ],
       },

@@ -231,7 +231,7 @@ export const FR_A1_S01_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "seul, seule", en: "alone", forms: ["seul"] },
     { es: "le rez-de-chaussée", en: "ground floor", forms: ["rez-de-chaussée"] },
     { es: "la cour", en: "courtyard", forms: ["cour"] },
-    { es: "roux, rousse", en: "ginger, red-haired", forms: ["roux"] },
+    { es: "roux, rousse", en: "ginger, red-haired (also a surname: Madame Roux)", forms: ["roux"] },
     { es: "la queue", en: "tail", forms: ["queue"] },
     { es: "miauler", en: "to meow", forms: ["miaule"] },
     { es: "le canapé", en: "sofa", forms: ["canapé"] },

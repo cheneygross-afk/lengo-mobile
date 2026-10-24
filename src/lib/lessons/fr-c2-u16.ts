@@ -16,7 +16,7 @@ export const FR_C2_U16: Lesson[] = [
         heading: "La voix: débit, intonation, silences",
         body: [
           "French has precise words for the components of delivery. \"Le débit\" is the rate of speech: \"un débit trop rapide\" is the most common fault of nervous speakers. \"L'intonation\" is the melody, \"la diction\" or \"l'articulation\" the clarity of each syllable, \"le volume\" or \"la projection\" the power of the voice. \"Marquer une pause\" or \"ménager un silence\" (to leave a deliberate silence) is a skill in itself.",
-          "French intonation is flatter than English inside a sentence and rises at the end of each rhythmic group, then falls at the very end of a statement. English speakers who stress individual words (this is VERY important) sound odd in French, where emphasis is better carried by word choice, a pause, or stressing the first syllable for emotion (\"c'est IN-acceptable\"), a feature called \"l'accent d'insistance\".",
+          "French intonation is flatter than English inside a sentence and rises at the end of each rhythmic group, then falls at the very end of a statement. English speakers who stress individual words (this is VERY important) sound odd in French, where emphasis is better carried by word choice, a pause, or an emphatic stress near the start of the word, a feature called \"l'accent d'insistance\" (\"c'est IN-acceptable\" or \"c'est in-AC-ceptable\"; in words beginning with a vowel it often falls on the first syllable that starts with a consonant, as in \"c'est im-PO-ssible\").",
           "Silences are powerful in French presentations: a pause before a key figure (\"le chiffre est le suivant... vingt pour cent\") or after a question creates attention. \"Il a su ménager ses effets\" is high praise for a speaker who controls his pauses.",
         ],
         examples: [
@@ -123,7 +123,7 @@ export const FR_C2_U16: Lesson[] = [
           {
             type: "speak",
             text: "Elle a haussé les épaules, l'air de dire : je n'y peux rien.",
-            tip: "\"Haussé\": the h is silent and does not allow liaison: \"a / haussé\".",
+            tip: "\"Hausser\" has an aspirate h: it is silent but blocks elision and liaison, so keep \"a / haussé\" as two separate vowels (and say \"les / haussements\", never \"les-z-haussements\").",
             explanation: "\"Hausser les épaules\" (to shrug); \"l'air de dire\" (as if to say).",
           },
         ],
@@ -222,9 +222,9 @@ export const FR_C2_U16: Lesson[] = [
       {
         type: "speak",
         text: "C'est in-ac-cep-table !",
-        prompt: "Say it in French with emphatic stress on the first syllable: It's unacceptable!",
-        tip: "Stress the first syllable \"in\" and detach the others: this is \"l'accent d'insistance\".",
-        explanation: "French emphasis falls on the first syllable for emotion, not on the usual final syllable.",
+        prompt: "Say it in French with emphatic stress (\"l'accent d'insistance\"): It's unacceptable!",
+        tip: "Hit an early syllable hard (\"IN\" or \"AC\") and detach the others: this is \"l'accent d'insistance\".",
+        explanation: "For emotion, French adds a stress near the start of the word (the first syllable, or in a vowel-initial word often the first syllable that starts with a consonant), on top of the usual final-syllable stress.",
       },
     ],
   },

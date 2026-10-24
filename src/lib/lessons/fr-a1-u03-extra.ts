@@ -427,8 +427,7 @@ export const FR_A1_U03_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "The course doesn't start on Monday.",
         answer: "Le cours ne commence pas lundi.",
-        altAnswers: ["Le cours ne commence pas le lundi."],
-        explanation: "\"Commence\": no cedilla before e.",
+        explanation: "\"Commence\": no cedilla before e. \"Lundi\" alone is this Monday; \"le lundi\" would mean on Mondays in general.",
       },
       {
         type: "translate",

@@ -480,9 +480,9 @@ export const FR_B2_U16_EXTRA: Lesson[] = [
       },
       {
         type: "listen-choose",
-        audio: "En arrivant à Lyon, il a fait venir sa famille, et la ville est vite devenue chez lui.",
+        audio: "En arrivant à Lyon, il a fait venir sa famille, et la ville est vite devenue la sienne.",
         question: "What does it mean?",
-        options: ["When he arrived in Lyon, he had his family come over, and the city quickly became home.", "When his family arrived in Lyon, he left, and the city became too expensive.", "Before arriving in Lyon, he visited his family, and the city quickly changed.", "When he arrived in Lyon, his family made him leave the city quickly."],
+        options: ["When he arrived in Lyon, he had his family come over, and it quickly became his city.", "When his family arrived in Lyon, he left, and the city became too expensive.", "Before arriving in Lyon, he visited his family, and the city quickly changed.", "When he arrived in Lyon, his family made him leave the city quickly."],
         correctIndex: 0,
         explanation: "Gérondif \"en arrivant\", causative \"faire venir\", change with \"devenir\".",
       },

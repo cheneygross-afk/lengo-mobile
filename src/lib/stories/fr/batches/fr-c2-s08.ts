@@ -332,7 +332,7 @@ export const FR_C2_S08_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "le faubourg", en: "district (here the aristocratic Faubourg Saint-Germain)", forms: ["faubourg"] },
     { es: "taciturne", en: "taciturn, silent", forms: ["taciturne"] },
     { es: "dérober", en: "to steal, to rob", forms: ["dérober"] },
-    { es: "en connaissance de cause", en: "with full knowledge of the facts", forms: ["connaissance"] },
+    { es: "en connaissance de cause", en: "with full knowledge of the facts (une connaissance: an acquaintance)", forms: ["connaissance"] },
     { es: "déguster", en: "to savour", forms: ["dégustait"] },
     { es: "se crisper", en: "to tighten, to tense", forms: ["crispa"] },
     { es: "l'éventail", en: "fan", forms: ["éventail"] },

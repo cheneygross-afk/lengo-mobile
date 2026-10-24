@@ -405,7 +405,7 @@ export const FR_B2_U26: Lesson[] = [
         prompt: "Translate into French.",
         source: "He admitted to me that he had been scared.",
         answer: "Il m'a avoué qu'il avait eu peur.",
-                altAnswers: ["Il m'a avoué avoir eu peur."],
+        altAnswers: ["Il m'a avoué avoir eu peur."],
         explanation: "\"Avouer\" + plus-que-parfait for an earlier feeling; or \"avouer\" + infinitif passé.",
       },
       {
@@ -1649,7 +1649,7 @@ export const FR_B2_U26: Lesson[] = [
         en: "You can work from home [or] at the office.",
         sentence: "On peut travailler chez soi ___ au bureau.",
         answer: "ou",
-        explanation: "English or is \"ou\"; \"or\" means now, yet in an argument.",
+        explanation: "The English word or is \"ou\". French \"or\" is a different word: it means now, yet, in an argument.",
       },
       {
         type: "translate",
@@ -1740,7 +1740,7 @@ export const FR_B2_U26: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does « Il est comédien » usually mean?",
+            question: "What does \"Il est comédien\" usually mean?",
             options: ["He's an actor.", "He's a stand-up comedian.", "He's a playwright.", "He's a clown."],
             correctIndex: 0,
             explanation: "\"Comédien\" = actor; a comedian is \"un humoriste\".",
@@ -1751,7 +1751,7 @@ export const FR_B2_U26: Lesson[] = [
         heading: "La première et le public",
         body: [
           "\"La première\" is the opening night (\"la première a eu lieu au Théâtre de l'Odéon\"). \"Une représentation\" is a performance (of a play), \"un concert\" a concert, \"un spectacle\" any show (theatre, dance, circus). \"Jouer\" is to perform, to play a role: \"elle joue le rôle de Phèdre\".",
-          "The audience is \"le public\" or \"les spectateurs\"; \"une salle comble\" is a packed house, \"jouer à guichets fermés\" to play to sold-out houses. They \"applaudir\" (applaud), give \"une ovation\" or \"une standing ovation\", call for \"un rappel\" (an encore, a curtain call).",
+          "The audience is \"le public\" or \"les spectateurs\"; \"une salle comble\" is a packed house, \"jouer à guichets fermés\" to play to sold-out houses. They applaud (\"applaudir\"), give \"une ovation\" or \"une standing ovation\", call for \"un rappel\" (an encore, a curtain call).",
           "Success and failure: \"faire un tabac\" (to be a huge hit, informal), \"un succès\", \"un triomphe\"; \"un échec\", \"un four\" (a flop, informal). \"Le spectacle a fait un tabac\" is everyday French.",
         ],
         examples: [
@@ -1887,7 +1887,7 @@ export const FR_B2_U26: Lesson[] = [
         question: "You loved the way the actress performed. What do you exclaim?",
         options: ["Qu'est-ce qu'elle joue bien !", "Comment elle joue bien !", "Quelle elle joue bien !", "Qu'elle joue bien ?"],
         correctIndex: 0,
-        explanation: "\"Qu'est-ce que\" + clause is an exclamation of degree; *\"comment\" here is an anglicism.",
+        explanation: "\"Qu'est-ce que\" + clause is an exclamation of degree (so is \"Comme elle joue bien !\"); \"comment\" can't introduce an exclamation.",
       },
       {
         type: "word-order",
@@ -1982,7 +1982,7 @@ export const FR_B2_U26: Lesson[] = [
             prompt: "Translate into French.",
             source: "If you'd taken your umbrella, you wouldn't be wet now.",
             answer: "Si tu avais pris ton parapluie, tu ne serais pas mouillé maintenant.",
-            altAnswers: ["Si tu avais pris ton parapluie, tu ne serais pas trempé maintenant.", "Si tu avais pris ton parapluie, tu ne serais pas mouillée maintenant.", "Si tu avais pris ton parapluie, tu ne serais pas trempée maintenant.", "Si vous aviez pris votre parapluie, vous ne seriez pas mouillé maintenant.", "Si vous aviez pris votre parapluie, vous ne seriez pas trempé maintenant.", "Si vous aviez pris votre parapluie, vous ne seriez pas mouillés maintenant."],
+            altAnswers: ["Si tu avais pris ton parapluie, tu ne serais pas trempé maintenant.", "Si tu avais pris ton parapluie, tu ne serais pas mouillée maintenant.", "Si tu avais pris ton parapluie, tu ne serais pas trempée maintenant.", "Si vous aviez pris votre parapluie, vous ne seriez pas mouillé maintenant.", "Si vous aviez pris votre parapluie, vous ne seriez pas trempé maintenant.", "Si vous aviez pris votre parapluie, vous ne seriez pas mouillés maintenant.", "Si vous aviez pris votre parapluie, vous ne seriez pas trempés maintenant.", "Si vous aviez pris votre parapluie, vous ne seriez pas mouillée maintenant.", "Si vous aviez pris votre parapluie, vous ne seriez pas trempée maintenant."],
             explanation: "Mixed conditional: past condition (plus-que-parfait), present result (conditionnel présent).",
           },
           {

@@ -55,7 +55,7 @@ export const FR_C2_U30: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A friend says she read « un roman » on the beach. What do you know about the book?",
+            question: "A friend says she read \"un roman\" on the beach. What do you know about the book?",
             options: ["It's a novel, of any kind.", "It's a love story.", "It's a historical romance.", "It's a short story."],
             correctIndex: 0,
             explanation: "\"Un roman\" is simply a novel. A romance would be \"un roman d'amour\" or \"à l'eau de rose\".",
@@ -184,7 +184,7 @@ export const FR_C2_U30: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« On ne connaît ni les pensées ni les sentiments des personnages : on ne voit que leurs gestes. » Which focalisation is this?",
+        question: "\"On ne connaît ni les pensées ni les sentiments des personnages : on ne voit que leurs gestes.\" Which focalisation is this?",
         options: ["la focalisation externe", "la focalisation interne", "la focalisation zéro", "l'autofiction"],
         correctIndex: 0,
         explanation: "Only outward actions, no access to minds: \"focalisation externe\", like a camera.",
@@ -261,7 +261,7 @@ export const FR_C2_U30: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A sports headline reads « Coup de théâtre à Roland-Garros ». What happened?",
+            question: "A sports headline reads \"Coup de théâtre à Roland-Garros\". What happened?",
             options: ["A sudden, spectacular surprise.", "A play was performed at the stadium.", "A violent incident.", "A boring match."],
             correctIndex: 0,
             explanation: "\"Un coup de théâtre\" is any dramatic, unexpected reversal, in or out of the theatre.",
@@ -320,7 +320,7 @@ export const FR_C2_U30: Lesson[] = [
         heading: "Structures: huis clos, mise en abyme",
         body: [
           "\"Un huis clos\" (behind closed doors, from the old word \"huis\", door) is a story confined to one place with a few characters who cannot leave. Sartre made the expression famous with his 1944 play \"Huis clos\", in which three dead souls are locked in a room. It also has a legal meaning: a trial \"à huis clos\" is held in camera. Note: \"le huis clos\", with an aspirate h (no elision).",
-          "\"La mise en abyme\" (from heraldry: a small shield inside a shield) is a work reflecting itself within itself: a play within the play, a novel about a writer writing the novel, a painting containing the painting. Hamlet's play-within-the-play is the classic example; Gide theorised the term in his \"Journal\" in 1893, and his \"Les Faux-monnayeurs\" (1925) has a novelist writing a novel called Les Faux-monnayeurs. Spelling: \"abyme\" with a y in this sense.",
+          "\"La mise en abyme\" (from heraldry: a small shield inside a shield) is a work reflecting itself within itself: a play within the play, a novel about a writer writing the novel, a painting containing the painting. Hamlet's play-within-the-play is the classic example; Gide theorised the term in his \"Journal\" in 1893, and his \"Les Faux-monnayeurs\" (1925) has a novelist writing a novel called \"Les Faux-monnayeurs\". Spelling: \"abyme\" with a y in this sense.",
           "Both terms are now everyday critical vocabulary for films and series: \"un huis clos étouffant dans un sous-marin\", \"une vertigineuse mise en abyme du tournage\".",
         ],
         examples: [
@@ -430,7 +430,7 @@ export const FR_C2_U30: Lesson[] = [
       {
         type: "speak",
         text: "Longtemps, je me suis couché de bonne heure.",
-        tip: "A soft pause after Longtemps; de bonne heure flows as one group.",
+        tip: "A soft pause after \"Longtemps\"; \"de bonne heure\" flows as one group.",
         explanation: "The incipit of Proust's \"À la recherche du temps perdu\" (1913).",
       },
     ],
@@ -605,7 +605,7 @@ export const FR_C2_U30: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Who is « le directeur de la photographie »?",
+        question: "Who is \"le directeur de la photographie\"?",
         options: ["The cinematographer.", "The film director.", "The producer.", "The head of the photo agency."],
         correctIndex: 0,
         explanation: "It is the one director-like job called directeur; the film director is \"le réalisateur\".",
@@ -674,7 +674,7 @@ export const FR_C2_U30: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "In « une tension sourde s'installe, dont on ne dira rien ici », what is the critic doing?",
+            question: "In \"une tension sourde s'installe, dont on ne dira rien ici\", what is the critic doing?",
             options: [
               "Refusing to reveal what happens, to avoid spoilers.",
               "Saying the tension is inaudible.",
@@ -1049,7 +1049,7 @@ export const FR_C2_U30: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Un camaïeu de bleus » describes...",
+        question: "\"Un camaïeu de bleus\" describes...",
         options: ["a range of shades of a single colour, blue", "a cameo portrait in blue", "a blue frame", "a group of blue paintings"],
         correctIndex: 0,
         explanation: "\"Un camaïeu\" is a monochrome range of tones of one colour.",
@@ -1111,7 +1111,7 @@ export const FR_C2_U30: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A critic calls a film « honorable ». What does that suggest?",
+            question: "A critic calls a film \"honorable\". What does that suggest?",
             options: [
               "It is decent but unremarkable.",
               "It is a masterpiece.",
@@ -1171,7 +1171,7 @@ export const FR_C2_U30: Lesson[] = [
         heading: "Litotes: saying less to mean more (or less)",
         body: [
           "Litotes is the French critic's favourite understatement: denying the opposite. \"Ce n'est pas sans charme\" (it is not without charm) concedes some charm, rather reluctantly. \"Ce n'est pas désagréable\" means it's fairly pleasant. \"Le film n'est pas dénué d'intérêt\" (not devoid of interest) is faint praise. \"Ce n'est pas mal du tout\" in conversation is real praise.",
-          "The famous classical example is in Corneille's \"Le Cid\" (1637), where Chimène tells Rodrigue, whose father has killed hers: « Va, je ne te hais point. » 'I do not hate you' means 'I love you', which she cannot say. The effect of litotes depends on context: it can intensify (Chimène) or attenuate (\"pas sans charme\").",
+          "The famous classical example is in Corneille's \"Le Cid\" (1637), where Chimène tells Rodrigue, who has killed her father in a duel: « Va, je ne te hais point. » 'I do not hate you' means 'I love you', which she cannot say. The effect of litotes depends on context: it can intensify (Chimène) or attenuate (\"pas sans charme\").",
           "In reviews, watch for the double edge: \"un film qui ne manque pas d'ambition\" may praise the ambition and suggest the result falls short. \"On ne s'ennuie pas\" (you're not bored) is a lukewarm compliment; \"on ne s'ennuie pas une seconde\" is warm.",
         ],
         examples: [
@@ -1194,7 +1194,7 @@ export const FR_C2_U30: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« Va, je ne te hais point. » What does Chimène really mean?",
+            question: "\"Va, je ne te hais point.\" What does Chimène really mean?",
             options: ["I love you.", "I'm indifferent to you.", "I hate you a little.", "Go away, I don't care."],
             correctIndex: 0,
             explanation: "Corneille's famous litotes: she says less than she feels.",
@@ -1297,7 +1297,7 @@ export const FR_C2_U30: Lesson[] = [
         heading: "Step 1: the facts and the synopsis, without spoilers",
         body: [
           "A 150-word review has no room to waste. Open with the facts in an apposition or a nominal sentence: title, author or director, genre, sometimes the publisher or the release date. \"Cinquième roman de Julien Marchal, Les Phares (éditions du Levant, 2025) se déroule sur une île du Finistère.\" Then a synopsis of two or three sentences, in the present.",
-          "The rule: \"sans dévoiler la fin\". French has several ways to say 'spoiler': \"divulgâcher\" (a Québec coinage from \"divulguer\" + \"gâcher\", now recommended in France too), \"spoiler\" (the common anglicism), \"le divulgâchage\". To protect the reader, stop the synopsis at the turning point and use the future or a vague formula: \"Nous n'en dirons pas plus\", \"le lecteur découvrira\", \"un secret qu'on se gardera de révéler\", \"rien ne se passera comme prévu\".",
+          "The rule: \"sans dévoiler la fin\". French has several ways to say 'spoiler': \"divulgâcher\" (a Québec coinage from \"divulguer\" + \"gâcher\", increasingly used in France too), \"spoiler\" (the common anglicism), \"le divulgâchage\". To protect the reader, stop the synopsis at the turning point and use the future or a vague formula: \"Nous n'en dirons pas plus\", \"le lecteur découvrira\", \"un secret qu'on se gardera de révéler\", \"rien ne se passera comme prévu\".",
           "The future here is a promise to the reader: it projects the discovery into their own reading or viewing. The conditional can tease: \"Et si le gardien n'était pas celui qu'il prétend ?\"",
         ],
         examples: [
@@ -1320,7 +1320,7 @@ export const FR_C2_U30: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which word, coined in Québec, is recommended as a French equivalent of 'to spoil' a plot?",
+            question: "Which word, coined in Québec and recommended there, is a French equivalent of 'to spoil' a plot?",
             options: ["divulgâcher", "gâchiver", "spoilifier", "dévoilir"],
             correctIndex: 0,
             explanation: "\"Divulgâcher\" blends \"divulguer\" (to disclose) and \"gâcher\" (to spoil).",
@@ -1524,7 +1524,7 @@ export const FR_C2_U30: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« C'est la bérézina pour la Bourse de Paris. » What happened?",
+            question: "\"C'est la bérézina pour la Bourse de Paris.\" What happened?",
             options: ["A crushing collapse.", "A slight dip.", "A record high.", "A merger."],
             correctIndex: 0,
             explanation: "\"Une bérézina\", from Napoleon's 1812 disaster, is a catastrophic defeat.",
@@ -1659,7 +1659,7 @@ export const FR_C2_U30: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Nouveau couac au sein du gouvernement » means...",
+        question: "\"Nouveau couac au sein du gouvernement\" means...",
         options: [
           "Another embarrassing blunder or contradiction within the government.",
           "A new minister has joined the government.",

@@ -17,7 +17,7 @@ export const FR_C2_U10: Lesson[] = [
         body: [
           "Educated French uses more Latin phrases than English does, and in more ordinary situations: a manager says \"grosso modo\" (roughly) in a meeting, a newspaper writes \"le statu quo\" in a headline. They are invariable, normally written in italics in print, and they follow French pronunciation rules: every letter is pronounced, \"u\" sounds like French u in \"statu\", and final consonants are sounded (\"ad hoc\" [adɔk]).",
           "\"Grosso modo\" means roughly, broadly speaking: \"grosso modo, le projet coûtera deux millions\". \"Ad hoc\" means set up for the purpose: \"une commission ad hoc\", \"une solution ad hoc\". \"Le statu quo\" is the existing state of affairs: \"maintenir le statu quo\". Trap: French writes \"statu quo\", not English \"status quo\" (from Latin \"in statu quo\", in the state in which).",
-          "\"Le quorum\" is the minimum number of members needed for a vote: \"le quorum n'est pas atteint\". It is pronounced [kɔʁɔm], like \"corps-homme\", not with an English 'kw'. \"Un lapsus\" is a slip of the tongue (\"un lapsus révélateur\", a Freudian slip); its plural is invariable: \"des lapsus\".",
+          "\"Le quorum\" is the minimum number of members needed for a vote: \"le quorum n'est pas atteint\". It is usually pronounced [kɔʁɔm], like \"corps-homme\" ([kwɔʁɔm] is also heard), with two open French o sounds rather than an English '-um'. \"Un lapsus\" is a slip of the tongue (\"un lapsus révélateur\", a Freudian slip); its plural is invariable: \"des lapsus\".",
         ],
         examples: [
           { es: "Grosso modo, il nous faudra six mois pour terminer le chantier.", en: "Roughly speaking, we'll need six months to finish the building work." },
@@ -43,7 +43,7 @@ export const FR_C2_U10: Lesson[] = [
             en: "[Roughly speaking], it'll cost ten thousand euros.",
             sentence: "___, ça coûtera dix mille euros.",
             answer: "Grosso modo",
-            altAnswers: ["En gros", "À peu près"],
+            altAnswers: ["En gros"],
             explanation: "\"Grosso modo\" (roughly) is a Latin phrase; \"en gros\" is the everyday French equivalent.",
           },
           {
@@ -1139,7 +1139,7 @@ export const FR_C2_U10: Lesson[] = [
         heading: "Crisis: sauver les meubles, éteindre l'incendie, jeter l'éponge",
         body: [
           "When things go wrong, French business talk turns to firefighting and boxing. \"Éteindre l'incendie\" (to put out the fire) is to deal with an urgent crisis; a manager who does nothing else \"passe son temps à éteindre des incendies\". \"Sauver les meubles\" (to save the furniture) is to salvage what can be salvaged from a disaster: \"on a perdu le client, mais on a sauvé les meubles en gardant la filiale belge\".",
-          "\"Jeter l'éponge\" (to throw in the sponge) is to give up, from boxing, where English throws in the towel. \"*Jeter la serviette\" is a calque. \"Mettre la clé sous la porte\" (to put the key under the door) is to close down a business, usually after bankruptcy: \"le restaurant a mis la clé sous la porte\". Note the fixed articles: \"la clé\", \"la porte\"; also spelt \"clef\".",
+          "\"Jeter l'éponge\" (to throw in the sponge) is to give up, from boxing, where English throws in the towel. \"*Jeter la serviette\" is a calque in France (Quebec French does use it). \"Mettre la clé sous la porte\" (to put the key under the door) is to close down a business, usually after bankruptcy: \"le restaurant a mis la clé sous la porte\". Note the fixed articles: \"la clé\", \"la porte\"; also spelt \"clef\".",
           "\"En avoir sous le pied\" (to have some left under the foot, from cycling) means to have reserves, not to have given everything yet: \"le groupe en a encore sous le pied\". The pronoun \"en\" is part of the idiom and never changes.",
         ],
         examples: [
@@ -1210,7 +1210,7 @@ export const FR_C2_U10: Lesson[] = [
             prompt: "Translate into French.",
             source: "She joined the project halfway through.",
             answer: "Elle a pris le train en marche.",
-            altAnswers: ["Elle a pris le projet en marche.", "Elle a rejoint le projet en cours de route.", "Elle a pris le train en marche sur ce projet."],
+            altAnswers: ["Elle a rejoint le projet en cours de route.", "Elle a pris le train en marche sur ce projet."],
             explanation: "\"Prendre le train en marche\": to join something already under way.",
           },
         ],
@@ -1308,7 +1308,7 @@ export const FR_C2_U10: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which is the correct French idiom for 'to throw in the towel'?",
-        options: ["jeter l'éponge", "jeter la serviette", "lancer la serviette", "jeter le torchon"],
+        options: ["jeter l'éponge", "jeter le chiffon", "lancer la serviette", "jeter le torchon"],
         correctIndex: 0,
         explanation: "French boxing throws in the sponge: \"jeter l'éponge\".",
       },

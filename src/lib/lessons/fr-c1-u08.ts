@@ -189,7 +189,7 @@ export const FR_C1_U08: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "[I've lost track], can you explain again?",
+        en: "I don't know [where I'm up to] any more, can you explain again?",
         sentence: "Je ne sais plus ___, tu peux réexpliquer ?",
         answer: "où j'en suis",
         explanation: "\"Ne plus savoir où on en est\" = to have lost track.",
@@ -1617,7 +1617,7 @@ export const FR_C1_U08: Lesson[] = [
         body: [
           "\"C'est que\" introduces an explanation, often after a question or an implied objection: \"Tu ne manges pas ? — C'est que je n'ai pas faim.\" (Well, the thing is I'm not hungry.) The negative \"ce n'est pas que... c'est que\" sets aside one explanation for another, and \"ce n'est pas que\" takes the subjunctive: \"Ce n'est pas que je refuse, c'est que je n'ai pas le temps.\"",
           "\"Si... c'est que\" draws a conclusion: \"S'il ne répond pas, c'est qu'il dort\" (if he isn't answering, he must be asleep).",
-          "\"Voilà\" + duration + \"que\" is a more expressive version of \"ça fait... que\" and \"il y a... que\": \"Voilà deux heures que j'attends !\" It carries a note of impatience or emphasis, and it works in the past too: \"Voilà trois ans qu'il était parti quand...\"",
+          "\"Voilà\" + duration + \"que\" is a more expressive version of \"ça fait... que\" and \"il y a... que\": \"Voilà deux heures que j'attends !\" It carries a note of impatience or emphasis and is anchored in the present moment; for the past, switch to \"ça faisait\" or \"il y avait\": \"Ça faisait trois ans qu'il était parti quand...\"",
         ],
         examples: [
           { es: "Tu ne manges pas ? — C'est que je n'ai pas faim.", en: "Aren't you eating? — The thing is, I'm not hungry." },
@@ -1884,7 +1884,7 @@ export const FR_C1_U08: Lesson[] = [
         prompt: "Translate into French.",
         source: "That film looks good, shall we go tonight?",
         answer: "Ce film a l'air bien, on y va ce soir ?",
-        altAnswers: ["Ce film a l'air bien, on va le voir ce soir ?", "Ce film a l'air bon, on y va ce soir ?"],
+        altAnswers: ["Ce film a l'air bien, on va le voir ce soir ?"],
         explanation: "Appearance: \"avoir l'air\".",
       },
       {
@@ -2049,14 +2049,14 @@ export const FR_C1_U08: Lesson[] = [
       {
         heading: "Swapping être, avoir and faire",
         body: [
-          "Many ideas can be expressed with more than one core verb. \"Il a l'air fatigué\" = \"Il fait fatigué\" (spoken). \"Ce sac est à moi\" = \"Ce sac m'appartient\". \"Il a vingt ans\" = \"Il est âgé de vingt ans\" (formal). \"Il fait 1,80 m\" = \"Il mesure 1,80 m\". \"J'ai du mal à comprendre\" = \"Je comprends difficilement\".",
+          "Many ideas can be expressed with more than one core verb. \"Il a l'air jeune\" = \"Il fait jeune\" (spoken). \"Ce sac est à moi\" = \"Ce sac m'appartient\". \"Il a vingt ans\" = \"Il est âgé de vingt ans\" (formal). \"Il fait 1,80 m\" = \"Il mesure 1,80 m\". \"J'ai du mal à comprendre\" = \"Je comprends difficilement\".",
           "These transformations are what examiners look for in reformulation tasks (DALF C1 synthesis): show that you can say the same thing in a more formal or a more natural way.",
           "Note the register direction: \"être âgé de\", \"appartenir à\", \"avoir lieu\" and \"mesurer\" move up; \"faire\" + adjective and \"ça fait... que\" move down.",
         ],
         examples: [
           { es: "Ce sac est à moi. → Ce sac m'appartient.", en: "This bag is mine. → This bag belongs to me." },
           { es: "Il a vingt ans. → Il est âgé de vingt ans.", en: "He is twenty. → He is twenty years of age." },
-          { es: "Il a l'air fatigué. → Il fait fatigué.", en: "He looks tired. → He looks tired (spoken)." },
+          { es: "Il a l'air jeune. → Il fait jeune.", en: "He looks young. → He looks young (spoken)." },
           { es: "J'ai du mal à le comprendre. → Je le comprends difficilement.", en: "I have trouble understanding him. → I understand him with difficulty." },
           { es: "La victime, âgée de 45 ans, a été hospitalisée.", en: "The victim, aged 45, was taken to hospital." },
         ],
@@ -2472,7 +2472,7 @@ export const FR_C1_U08: Lesson[] = [
             type: "listen-choose",
             audio: "Le magasin ferme à 19 h.",
             question: "What does it say?",
-            options: ["The shop closes at 7 pm.", "The shop is closed since 7 pm.", "The shop closed at 7 am.", "The shop is open until 9 pm."],
+            options: ["The shop closes at 7 pm.", "The shop has been closed since 7 pm.", "The shop closed at 7 am.", "The shop is open until 9 pm."],
             correctIndex: 0,
             explanation: "\"Fermer\" in the present: a scheduled action.",
           },

@@ -1751,8 +1751,8 @@ export const FR_B2_U09: Lesson[] = [
             prompt: "Translate into French.",
             source: "If I'd left him alone, I would never have forgiven myself.",
             answer: "Si je l'avais laissé seul, je ne me le serais jamais pardonné.",
-            altAnswers: ["Je ne me le serais jamais pardonné si je l'avais laissé seul.", "Si je l'avais laissée seule, je ne me le serais jamais pardonné."],
-            explanation: "\"Se pardonner quelque chose\": the reflexive is an indirect object, so \"pardonné\" stays invariable. Note the order \"me le\".",
+            altAnswers: ["Je ne me le serais jamais pardonné si je l'avais laissé seul."],
+            explanation: "\"Se pardonner quelque chose\": the reflexive is an indirect object, so \"pardonné\" stays invariable. Note the order \"me le\". \"L'\" is him (his father), so \"laissé seul\" is masculine: \"laissée seule\" would mean her.",
           },
           {
             type: "listen-choose",

@@ -280,7 +280,7 @@ export const FR_C2_S03_GLOSSES: Record<string, StoryGloss[]> = {
   ],
   "fr-c2-l-homme-qui-perdait-ses-mots": [
     { es: "remuer", en: "to stir", forms: ["remuer", "remua"] },
-    { es: "le manche", en: "handle", forms: ["manche"] },
+    { es: "le manche", en: "handle (la manche: sleeve)", forms: ["manche"] },
     { es: "attraper au vol", en: "to catch on the fly", forms: ["vol"] },
     { es: "fébrilement", en: "feverishly", forms: ["fébrilement"] },
     { es: "la drache", en: "downpour (Belgian)", forms: ["drache"] },
@@ -308,7 +308,7 @@ export const FR_C2_S03_GLOSSES: Record<string, StoryGloss[]> = {
   "fr-c2-le-mot-de-la-fin": [
     { es: "le sociétaire", en: "full member (of the Comédie-Française)", forms: ["sociétaire"] },
     { es: "raturer", en: "to cross out", forms: ["raturées"] },
-    { es: "arrêter", en: "to settle on, fix", forms: ["arrêter"] },
+    { es: "arrêter", en: "to settle on, fix; to stop", forms: ["arrêter"] },
     { es: "l'entracte", en: "interval, intermission", forms: ["l'entracte"] },
     { es: "l'habilleuse", en: "dresser (theatre)", forms: ["habilleuse", "l'habilleuse"] },
     { es: "le verglas", en: "black ice", forms: ["verglas"] },

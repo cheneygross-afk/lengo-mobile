@@ -119,9 +119,9 @@ export const FR_B2_U08_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "A reader is thinking of lending money to a cousin who never pays back. Which advice is correctly written?",
-        options: ["À votre place, je ne lui prêterais rien.", "À votre place, je ne lui prête rien.", "Si j'étais à vous, je ne lui prêterais rien.", "Si je serais vous, je ne lui prêterais rien."],
+        options: ["À votre place, je ne lui prêterais rien.", "À votre place, je ne lui prêtais rien.", "Si j'étais à vous, je ne lui prêterais rien.", "Si je serais vous, je ne lui prêterais rien."],
         correctIndex: 0,
-        explanation: "\"À votre place\" + conditional.",
+        explanation: "\"À votre place\" + conditional \"prêterais\" (not the imparfait \"prêtais\"). \"Si j'étais à vous\" means if I belonged to you, and si never takes the conditional.",
       },
       {
         type: "translate",

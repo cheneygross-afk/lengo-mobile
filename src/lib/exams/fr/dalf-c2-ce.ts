@@ -120,7 +120,7 @@ export const DALF_C2_CE: ExamPaper = {
           ],
           answer: 2,
           explanation:
-            "Le carbone absorbé, « sur laquelle la France comptait pour atteindre ses objectifs climatiques », a presque été divisé par deux. Que la forêt cesse de jouer son rôle n'est envisagé que dans « les scénarios les plus sombres ».",
+            "La quantité de carbone absorbée, « sur laquelle la France comptait pour atteindre ses objectifs climatiques », a presque été divisée par deux. Que la forêt cesse de jouer son rôle n'est envisagé que dans « les scénarios les plus sombres ».",
         },
         {
           n: 4,

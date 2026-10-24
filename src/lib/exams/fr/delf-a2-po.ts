@@ -45,7 +45,7 @@ export const DELF_A2_PO: ExamPaper = {
     {
       title: "Partie 2 : Monologue suivi",
       instructions:
-        "Vous parlez du sujet choisi pendant environ 2 minutes. L'examinateur peut ensuite vous poser quelques questions.",
+        "Vous parlez du sujet ci-dessous pendant environ 2 minutes. L'examinateur peut ensuite vous poser quelques questions.",
       instructionsEn:
         "Talk about the subject for about 2 minutes. The examiner may then ask you a few questions.",
       speak: {

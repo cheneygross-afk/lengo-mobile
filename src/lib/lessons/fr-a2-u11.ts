@@ -397,7 +397,7 @@ export const FR_A2_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the future of: nous attendons?",
+        question: "How do you say: we'll wait?",
         options: ["nous attendrons", "nous attenderons", "nous attendions", "nous attendreons"],
         correctIndex: 0,
         explanation: "Drop the e of \"attendre\", add \"-ons\". \"Attendions\" is the imparfait.",
@@ -517,7 +517,7 @@ export const FR_A2_U11: Lesson[] = [
           "\"Payer\" and \"essayer\" can change y to i: \"je paierai\" or \"je payerai\" (both correct; \"paierai\" is more common). \"Préférer\" keeps é in the standard spelling: \"je préférerai\".",
         ],
         examples: [
-          { es: "J'achèterai le pain en rentrant.", en: "I'll buy the bread on the way home." },
+          { es: "J'achèterai le pain ce soir.", en: "I'll buy the bread tonight." },
           { es: "Je t'appellerai après la réunion.", en: "I'll call you after the meeting." },
           { es: "Demain, nous nous lèverons à six heures.", en: "Tomorrow we'll get up at six." },
           { es: "Je paierai par carte.", en: "I'll pay by card." },
@@ -837,7 +837,7 @@ export const FR_A2_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which form is correct for: I'll do?",
+        question: "How do you write: I'll do?",
         options: ["je ferai", "je fairai", "je faisrai", "je ferais"],
         correctIndex: 0,
         explanation: "\"Faire\" → \"fer-\". \"Je ferais\" is the conditional.",
@@ -1048,7 +1048,7 @@ export const FR_A2_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say: If it's nice, we'll go to the beach?",
         options: ["S'il fait beau, nous irons à la plage.", "S'il fera beau, nous irons à la plage.", "Quand il fait beau demain, nous irons à la plage.", "Si il fait beau, nous allerons à la plage."],
         correctIndex: 0,
         explanation: "\"S'il\" + present, \"irons\" for the future.",
@@ -1253,7 +1253,7 @@ export const FR_A2_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the futur simple version of: Je vais lui écrire?",
+        question: "How do you say, using the futur simple: I'll write to him?",
         options: ["Je lui écrirai.", "Je vais lui écrirai.", "Je écrirai lui.", "J'écrirai à lui."],
         correctIndex: 0,
         explanation: "The pronoun moves before the one-word verb.",

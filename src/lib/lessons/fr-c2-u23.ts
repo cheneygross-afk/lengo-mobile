@@ -107,7 +107,7 @@ export const FR_C2_U23: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite « Tu oublies toujours de me prévenir » without toujours: translate the English into French.",
+            prompt: "Rewrite \"Tu oublies toujours de me prévenir\" without toujours: translate the English into French.",
             source: "Sometimes you forget to let me know.",
             answer: "Il arrive que tu oublies de me prévenir.",
             altAnswers: ["Il t'arrive d'oublier de me prévenir.", "Parfois, tu oublies de me prévenir.", "Tu oublies parfois de me prévenir.", "Il arrive que tu oublies de m'avertir.", "Il t'arrive d'oublier de m'avertir."],
@@ -279,7 +279,7 @@ export const FR_C2_U23: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite « Vous ne rendez jamais rien à temps ! » as an observation: translate the English into French.",
+            prompt: "Rewrite \"Vous ne rendez jamais rien à temps !\" as an observation: translate the English into French.",
             source: "Of the last four reports, three were submitted late.",
             answer: "Sur les quatre derniers rapports, trois ont été rendus en retard.",
             altAnswers: ["Sur les quatre derniers rapports, trois ont été remis en retard.", "Des quatre derniers rapports, trois ont été rendus en retard.", "Sur les quatre derniers rapports, trois ont été rendus après la date prévue.", "Sur les quatre derniers rapports, trois ont été rendus hors délai."],
@@ -377,7 +377,7 @@ export const FR_C2_U23: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite « Tu cries toujours ! » as an observation: translate the English into French.",
+        prompt: "Rewrite \"Tu cries toujours !\" as an observation: translate the English into French.",
         source: "You raised your voice twice during dinner.",
         answer: "Tu as élevé la voix deux fois pendant le dîner.",
         altAnswers: ["Tu as élevé la voix à deux reprises pendant le dîner.", "Tu as haussé le ton deux fois pendant le dîner.", "Tu as haussé le ton à deux reprises pendant le dîner.", "Tu as crié deux fois pendant le dîner.", "Tu as élevé la voix deux fois pendant le repas."],
@@ -402,7 +402,7 @@ export const FR_C2_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which « feeling » is likely to reignite the conflict?",
+        question: "Which \"feeling\" is likely to reignite the conflict?",
         options: ["Je me sens manipulé.", "Je me sens inquiet.", "Je me sens fatigué.", "Je me sens découragé."],
         correctIndex: 0,
         explanation: "\"Manipulé\" implies someone manipulated you: it's an accusation disguised as a feeling.",
@@ -419,7 +419,7 @@ export const FR_C2_U23: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite « Arrête de me couper la parole ! » positively: translate the English into French.",
+        prompt: "Rewrite \"Arrête de me couper la parole !\" positively: translate the English into French.",
         source: "I'd like you to let me finish my sentences.",
         answer: "J'aimerais que tu me laisses finir mes phrases.",
         altAnswers: ["J'aimerais que vous me laissiez finir mes phrases.", "Je voudrais que tu me laisses finir mes phrases.", "J'aimerais que tu me laisses terminer mes phrases.", "J'aimerais que vous me laissiez terminer mes phrases.", "J'aimerais que tu me laisses aller au bout de mes phrases."],
@@ -499,7 +499,7 @@ export const FR_C2_U23: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Your colleague says « Je suis épuisée, je gère toutes les urgences seule depuis un mois. » Which reformulation is best?",
+            question: "Your colleague says \"Je suis épuisée, je gère toutes les urgences seule depuis un mois.\" Which reformulation is best?",
             options: ["Tu as le sentiment de gérer seule toutes les urgences depuis un mois, et tu es épuisée.", "Tu es juste un peu fatiguée.", "Tu reproches à toute l'équipe d'être paresseuse.", "Moi aussi, je suis épuisée, tu sais."],
             correctIndex: 0,
             explanation: "It keeps her key words and adds no interpretation. The others minimise, interpret, or shift the focus to yourself.",
@@ -737,7 +737,7 @@ export const FR_C2_U23: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Antoine says « si on ne fait rien, on va mettre la clé sous la porte ». Which reply acknowledges without conceding?",
+            question: "Antoine says \"si on ne fait rien, on va mettre la clé sous la porte\". Which reply acknowledges without conceding?",
             options: ["J'entends ce que tu dis. Cela dit, je ne suis pas sûre que le café soit la solution.", "Tu exagères toujours, comme d'habitude.", "Bon, d'accord, fais ce que tu veux.", "Ce n'est pas mon problème."],
             correctIndex: 0,
             explanation: "Acknowledgement (\"j'entends ce que tu dis\"), then the pivot (\"cela dit\") and her own position.",
@@ -957,7 +957,7 @@ export const FR_C2_U23: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does « compromettre le projet » mean?",
+            question: "What does \"compromettre le projet\" mean?",
             options: ["To jeopardise the project.", "To reach a compromise on the project.", "To promise the project.", "To complete the project."],
             correctIndex: 0,
             explanation: "\"Compromettre\" = to jeopardise. To compromise (meet halfway) is \"trouver un compromis\" or \"transiger\".",
@@ -1204,7 +1204,7 @@ export const FR_C2_U23: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Lucas says « Je joue la journée, donc j'en ai le droit. » What's the accurate answer?",
+            question: "Lucas says \"Je joue la journée, donc j'en ai le droit.\" What's the accurate answer?",
             options: ["Daytime noise can also be sanctioned if it's repetitive or intense.", "He's right: only night-time noise is regulated.", "Drums are banned in all French apartment buildings.", "Only the syndic can decide."],
             correctIndex: 0,
             explanation: "\"Le trouble anormal de voisinage\" applies day and night; the time of day isn't a blanket right.",
@@ -1277,7 +1277,7 @@ export const FR_C2_U23: Lesson[] = [
             source: "Mr Bernard undertakes not to play before 3 p.m.",
             answer: "Monsieur Bernard s'engage à ne pas jouer avant 15 heures.",
             altAnswers: ["M. Bernard s'engage à ne pas jouer avant 15 heures.", "Monsieur Bernard s'engage à ne pas jouer avant 15 h.", "M. Bernard s'engage à ne pas jouer avant 15 h.", "Monsieur Bernard s'engage à ne jouer qu'après 15 heures."],
-            explanation: "\"S'engager à\" + infinitive (the deontic present of agreements); \"ne pas\" both go before an infinitive.",
+            explanation: "\"S'engager à\" + infinitive (the deontic present of agreements); both parts of \"ne pas\" go before an infinitive.",
           },
           {
             type: "listen-choose",
@@ -1578,7 +1578,7 @@ export const FR_C2_U23: Lesson[] = [
         source: "I'm sorry I didn't call you back sooner.",
         answer: "Désolé de ne pas t'avoir rappelé plus tôt.",
         altAnswers: ["Désolée de ne pas t'avoir rappelé plus tôt.", "Désolé de ne pas t'avoir rappelée plus tôt.", "Désolée de ne pas t'avoir rappelée plus tôt.", "Je suis désolé de ne pas t'avoir rappelé plus tôt.", "Je suis désolée de ne pas t'avoir rappelée plus tôt.", "Je suis désolé de ne pas vous avoir rappelé plus tôt.", "Je suis désolée de ne pas vous avoir rappelée plus tôt."],
-        explanation: "\"Ne pas\" both before \"avoir\"; \"rappeler\" = to call back.",
+        explanation: "Both parts of \"ne pas\" go before \"avoir\"; \"rappeler\" = to call back.",
       },
       {
         type: "translate",
@@ -1662,7 +1662,7 @@ export const FR_C2_U23: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite « Je suis désolée que tu l'aies mal pris » as a real apology: translate the English into French.",
+            prompt: "Rewrite \"Je suis désolée que tu l'aies mal pris\" as a real apology: translate the English into French.",
             source: "I'm sorry I made fun of you in front of your friends.",
             answer: "Je suis désolée de m'être moquée de toi devant tes amis.",
             altAnswers: ["Je suis désolé de m'être moqué de toi devant tes amis.", "Je suis désolée de m'être moquée de toi devant tes amies.", "Je suis désolé de m'être moqué de toi devant tes amies.", "Désolée de m'être moquée de toi devant tes amis.", "Désolé de m'être moqué de toi devant tes amis."],
@@ -1689,7 +1689,7 @@ export const FR_C2_U23: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite « Des erreurs ont été commises » as a real apology: translate the English into French.",
+            prompt: "Rewrite \"Des erreurs ont été commises\" as a real apology: translate the English into French.",
             source: "I made a mistake, and I take responsibility for it.",
             answer: "J'ai commis une erreur, et j'en assume la responsabilité.",
             altAnswers: ["J'ai commis une erreur et j'en assume la responsabilité.", "J'ai fait une erreur, et j'en assume la responsabilité.", "J'ai fait une erreur et j'en assume la responsabilité.", "J'ai commis une erreur, et j'en prends la responsabilité.", "J'ai commis une erreur, et je l'assume."],
@@ -1753,7 +1753,7 @@ export const FR_C2_U23: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite « Je suis désolé que tu te sois senti exclu » as a real apology: translate the English into French.",
+        prompt: "Rewrite \"Je suis désolé que tu te sois senti exclu\" as a real apology: translate the English into French.",
         source: "I'm sorry I didn't invite you.",
         answer: "Je suis désolé de ne pas t'avoir invité.",
         altAnswers: ["Je suis désolé de ne pas t'avoir invitée.", "Je suis désolée de ne pas t'avoir invité.", "Je suis désolée de ne pas t'avoir invitée.", "Désolé de ne pas t'avoir invité.", "Désolée de ne pas t'avoir invitée."],
@@ -1795,7 +1795,7 @@ export const FR_C2_U23: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite « Si j'ai pu te vexer... » without the condition: translate the English into French.",
+        prompt: "Rewrite \"Si j'ai pu te vexer...\" without the condition: translate the English into French.",
         source: "I upset you, and I'm sorry.",
         answer: "Je t'ai vexé, et j'en suis désolé.",
         altAnswers: ["Je t'ai vexée, et j'en suis désolé.", "Je t'ai vexé, et j'en suis désolée.", "Je t'ai vexée, et j'en suis désolée.", "Je t'ai vexé et j'en suis désolé.", "Je t'ai fait de la peine, et j'en suis désolé.", "Je t'ai fait de la peine, et j'en suis désolée."],
@@ -1982,7 +1982,7 @@ export const FR_C2_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What is « l'entretien préalable »?",
+        question: "What is \"l'entretien préalable\"?",
         options: ["The compulsory meeting before a dismissal or serious sanction.", "The first job interview.", "The annual performance review.", "A meeting with the occupational doctor."],
         correctIndex: 0,
         explanation: "\"L'entretien préalable\" is required by law before a dismissal or significant disciplinary measure.",
@@ -2087,7 +2087,7 @@ export const FR_C2_U23: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Bruno says « Elle m'a humilié... elle fait toujours ça ». What does the mediator do in her reformulation?",
+            question: "Bruno says \"Elle m'a humilié... elle fait toujours ça\". What does the mediator do in her reformulation?",
             options: ["She keeps the date and his feeling, and drops « toujours » and the accusation.", "She agrees that Sophie always does it.", "She corrects Bruno's version of events.", "She asks Sophie to apologise."],
             correctIndex: 0,
             explanation: "\"Vous avez vécu... comme une humiliation\" turns a verdict about Sophie into a description of Bruno's experience.",
@@ -2171,7 +2171,7 @@ export const FR_C2_U23: Lesson[] = [
           {
             type: "listen-choose",
             audio: "Si je résume ce que vous avez construit, les chiffres seront relus ensemble la veille.",
-            question: "Why does the mediator say « ce que vous avez construit »?",
+            question: "Why does the mediator say \"ce que vous avez construit\"?",
             options: ["To credit the parties with the agreement.", "To praise the engineers' buildings.", "To remind them of their contracts.", "To show she wrote the agreement herself."],
             correctIndex: 0,
             explanation: "The parties own the solution: the mediator summarises rather than decides.",
@@ -2605,7 +2605,7 @@ export const FR_C2_U23: Lesson[] = [
             type: "speak",
             text: "Sans rancune !",
             prompt: "Say it in French: No hard feelings!",
-            tip: "Two nasals, san and ran; the end is oral: ran-kun-e, rhyming with \"lune\".",
+            tip: "Two nasals, san and ran; the end is oral: ran-kun, rhyming with \"lune\" (the final e is silent).",
             explanation: "A warm way to close a disagreement.",
           },
         ],
@@ -2737,7 +2737,7 @@ export const FR_C2_U23: Lesson[] = [
         type: "speak",
         text: "Il fallait crever l'abcès : on en a parlé franchement.",
         prompt: "Say it in French: We had to clear the air: we talked about it frankly.",
-        tip: "\"Abcès\": ab-sè, the s is silent.",
+        tip: "\"Abcès\": ab-sè, the final s is silent.",
         explanation: "\"Crever l'abcès\": to bring a festering problem into the open.",
       },
     ],
@@ -2777,7 +2777,7 @@ export const FR_C2_U23: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A British colleague says « That's a very interesting idea » and means I disagree. How might a French colleague misread it?",
+            question: "A British colleague says 'That's a very interesting idea' and means I disagree. How might a French colleague misread it?",
             options: ["As genuine interest or approval.", "As an insult.", "As a request to repeat.", "As an apology."],
             correctIndex: 0,
             explanation: "French speakers tend to take words at face value; British understatement can be read as approval or vagueness.",
@@ -2820,7 +2820,7 @@ export const FR_C2_U23: Lesson[] = [
           {
             type: "speak",
             text: "Non mais c'est vrai que la réunion était trop longue.",
-            prompt: "Say it in French, with « non mais » as a filler: Well, it's true that the meeting was too long.",
+            prompt: "Say it in French, with \"non mais\" as a filler: Well, it's true that the meeting was too long.",
             tip: "Say \"non mais\" quickly and flat: it's a filler, not a refusal.",
             explanation: "\"Non mais\" opens many French replies that actually agree.",
           },
@@ -2884,7 +2884,7 @@ export const FR_C2_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What does « Il y a pas mal de choses à revoir » mean?",
+        question: "What does \"Il y a pas mal de choses à revoir\" mean?",
         options: ["There's quite a lot to rework.", "There's nothing bad to rework.", "There's not much to rework.", "Things are not bad, no rework needed."],
         correctIndex: 0,
         explanation: "\"Pas mal de\" + noun = quite a lot of; \"pas mal\" alone = good.",
@@ -3316,7 +3316,7 @@ export const FR_C2_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What's the difference between « la rémission » and « la guérison »?",
+        question: "What's the difference between \"la rémission\" and \"la guérison\"?",
         options: ["Remission means the signs have reduced or disappeared; cure means the disease is gone for good.", "They mean exactly the same.", "Remission means the disease has come back.", "Cure is temporary, remission is permanent."],
         correctIndex: 0,
         explanation: "\"La rémission\" is cautious: signs have receded. \"La guérison\" is the cure. Recurrence is \"la récidive\".",

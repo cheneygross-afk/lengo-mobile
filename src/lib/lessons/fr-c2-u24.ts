@@ -441,7 +441,7 @@ export const FR_C2_U24: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "In « Deux jours plus tard, le roi abdiquait », what does the imparfait do?",
+            question: "In \"Deux jours plus tard, le roi abdiquait\", what does the imparfait do?",
             options: ["It narrates a single completed event and gives it weight.", "It describes a habit of abdicating.", "It shows the king was abdicating but didn't finish.", "It's a grammatical mistake."],
             correctIndex: 0,
             explanation: "With a precise time marker (\"deux jours plus tard\"), the imparfait narratif presents a complete event as a dramatic close-up.",
@@ -646,12 +646,12 @@ export const FR_C2_U24: Lesson[] = [
           { es: "Il fut ensuite déporté sur l'île du Diable, en Guyane.", en: "He was then deported to Devil's Island, in French Guiana." },
           { es: "Le véritable coupable était le commandant Esterhazy.", en: "The real culprit was Major Esterhazy." },
           { es: "L'état-major refusa de reconnaître l'erreur.", en: "The general staff refused to acknowledge the mistake." },
-          { es: "Selon certains historiens, l'état-major aurait sciemment couvert l'erreur.", en: "According to some historians, the general staff knowingly covered up the error." },
+          { es: "Selon certains historiens, l'état-major aurait sciemment couvert l'erreur.", en: "According to some historians, the general staff allegedly covered up the error knowingly." },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "« Après qu'il ait été dégradé, il fut déporté. » What's wrong?",
+            question: "\"Après qu'il ait été dégradé, il fut déporté.\" What's wrong?",
             options: ["« Après que » takes the indicative: « après qu'il eut été dégradé » or « après avoir été dégradé ».", "« Dégradé » should agree in the feminine.", "« Fut déporté » should be in the subjunctive.", "Nothing is wrong."],
             correctIndex: 0,
             explanation: "\"Après que\" introduces a fact that has happened, so it takes the indicative. The subjunctive is a widespread error, even among natives, by analogy with \"avant que\".",
@@ -659,7 +659,7 @@ export const FR_C2_U24: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Correct « Après qu'il ait été dégradé, il fut déporté »: translate the English into French.",
+            prompt: "Correct \"Après qu'il ait été dégradé, il fut déporté\": translate the English into French.",
             source: "After being stripped of his rank, he was deported.",
             answer: "Après avoir été dégradé, il fut déporté.",
             altAnswers: ["Après qu'il eut été dégradé, il fut déporté.", "Après sa dégradation, il fut déporté.", "Une fois dégradé, il fut déporté."],
@@ -686,7 +686,7 @@ export const FR_C2_U24: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Correct « Le coupable eut été identifié dès 1896 »: translate the English into French.",
+            prompt: "Correct \"Le coupable eut été identifié dès 1896\": translate the English into French.",
             source: "The real culprit had been identified as early as 1896.",
             answer: "Le véritable coupable avait été identifié dès 1896.",
             altAnswers: ["Le vrai coupable avait été identifié dès 1896.", "Le véritable coupable avait été démasqué dès 1896.", "Le vrai coupable avait été démasqué dès 1896."],
@@ -704,7 +704,7 @@ export const FR_C2_U24: Lesson[] = [
             type: "speak",
             text: "Dès qu'il eut appris la vérité, Picquart alerta ses supérieurs.",
             prompt: "Say it in French: As soon as he had learned the truth, Picquart alerted his superiors.",
-            tip: "\"Eut\" sounds like \"u\": il-u-a-pri.",
+            tip: "\"Eut\" sounds like \"u\"; in careful reading the t often links: il-u-ta-pri.",
             explanation: "\"Dès que\" + passé antérieur, then passé simple in the main clause.",
           },
         ],
@@ -726,7 +726,7 @@ export const FR_C2_U24: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "« Selon certains historiens, le ministre aurait menti ; c'est donc la preuve qu'il était coupable. » What's wrong?",
+            question: "\"Selon certains historiens, le ministre aurait menti ; c'est donc la preuve qu'il était coupable.\" What's wrong?",
             options: ["The conditional reports a claim, so it can't serve as proof.", "« Aurait menti » should be « avait menti » after selon.", "« Selon » takes the subjunctive.", "Nothing: the conditional states a fact."],
             correctIndex: 0,
             explanation: "The hearsay conditional signals distance; concluding \"c'est donc la preuve\" contradicts it.",
@@ -747,7 +747,7 @@ export const FR_C2_U24: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct « Après qu'ils aient signé le traité, ils rentrèrent »: translate the English into French.",
+        prompt: "Correct \"Après qu'ils aient signé le traité, ils rentrèrent\": translate the English into French.",
         source: "After they had signed the treaty, they went home.",
         answer: "Après qu'ils eurent signé le traité, ils rentrèrent.",
         altAnswers: ["Après avoir signé le traité, ils rentrèrent.", "Une fois le traité signé, ils rentrèrent.", "Après la signature du traité, ils rentrèrent.", "Après avoir signé le traité, ils rentrèrent chez eux.", "Après qu'ils eurent signé le traité, ils rentrèrent chez eux."],
@@ -1041,7 +1041,7 @@ export const FR_C2_U24: Lesson[] = [
         type: "speak",
         text: "Après que le roi eut abdiqué, la République fut proclamée.",
         prompt: "Say it in French: After the king had abdicated, the Republic was proclaimed.",
-        tip: "\"Eut abdiqué\": u-ab-di-ké, no liaison problem.",
+        tip: "\"Eut abdiqué\": u-ab-di-ké, or with the optional liaison of careful reading, u-tab-di-ké.",
         explanation: "\"Après que\" + passé antérieur (indicative), never the subjunctive.",
       },
     ],
@@ -1187,7 +1187,7 @@ export const FR_C2_U24: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "In a past narrative, how do you say « the day before »?",
+        question: "In a past narrative, which expression means the day before?",
         options: ["la veille", "hier", "avant-hier", "le jour d'avant-hier"],
         correctIndex: 0,
         explanation: "\"La veille\" is relative to the story; \"hier\" is relative to the moment of speaking.",
@@ -1370,7 +1370,7 @@ export const FR_C2_U24: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« Cette rencontre devait changer le cours de sa vie. » In a historical narrative, this means:",
+            question: "\"Cette rencontre devait changer le cours de sa vie.\" In a historical narrative, this means:",
             options: ["This meeting was to change the course of his life.", "This meeting had to change the course of his life.", "This meeting should have changed his life.", "This meeting must have changed his life."],
             correctIndex: 0,
             explanation: "\"Devoir\" in the imparfait + infinitive = future in the past, with a sense of destiny.",
@@ -1483,7 +1483,7 @@ export const FR_C2_U24: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Ce soir-là, personne ne se doutait que la guerre allait éclater. » What does « allait éclater » add compared with « éclaterait »?",
+        question: "\"Ce soir-là, personne ne se doutait que la guerre allait éclater.\" What does \"allait éclater\" add compared with \"éclaterait\"?",
         options: ["Imminence: the war was about to break out", "Doubt: the war might break out", "Obligation: the war had to break out", "Repetition: wars kept breaking out"],
         correctIndex: 0,
         explanation: "\"Aller\" in the imparfait + infinitive is a near future in the past.",
@@ -1514,7 +1514,7 @@ export const FR_C2_U24: Lesson[] = [
         type: "speak",
         text: "Il ne sait pas encore qu'il mourra six ans plus tard à Sainte-Hélène.",
         prompt: "Say it in French: He does not yet know that he will die six years later on Saint Helena.",
-        tip: "\"Mourra\": hold the r a little longer than in \"mourait\"; that is the only difference you hear.",
+        tip: "\"Mourra\": mou-ra, ending in a. In careful speech the double r is held a little longer, which is the only difference between \"mourrait\" and \"mourait\".",
         explanation: "Present base, future flash-forward.",
       },
     ],
@@ -1545,7 +1545,7 @@ export const FR_C2_U24: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "In Version A, why is « il ne reverrait jamais la France » in the conditional?",
+            question: "In Version A, why is \"il ne reverrait jamais la France\" in the conditional?",
             options: ["It is a future seen from a past point (futur dans le passé).", "It is a hypothesis: he might not see France again.", "It is reported speech after a verb of saying.", "It expresses politeness."],
             correctIndex: 0,
             explanation: "With a passé simple base, a flash-forward goes into the conditional. No condition is implied.",
@@ -1623,7 +1623,7 @@ export const FR_C2_U24: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Converting to the présent de narration, « S'il avait gagné à Waterloo, il serait resté sur le trône » becomes:",
+            question: "Converting to the présent de narration, \"S'il avait gagné à Waterloo, il serait resté sur le trône\" becomes:",
             options: ["S'il avait gagné à Waterloo, il serait resté sur le trône. (unchanged)", "S'il a gagné à Waterloo, il restera sur le trône.", "S'il gagne à Waterloo, il sera resté sur le trône.", "S'il aura gagné à Waterloo, il restera sur le trône."],
             correctIndex: 0,
             explanation: "A counterfactual is a real hypothesis, not a future in the past: it doesn't move with the base tense.",
@@ -1840,7 +1840,7 @@ export const FR_C2_U24: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "« On eût dit un fantôme. » What does « eût dit » correspond to in modern French?",
+            question: "\"On eût dit un fantôme.\" What does \"eût dit\" correspond to in modern French?",
             options: ["on aurait dit", "on avait dit", "on eut dit (passé antérieur)", "on ait dit"],
             correctIndex: 0,
             explanation: "The pluperfect subjunctive used as \"conditionnel passé deuxième forme\" = past conditional.",
@@ -1953,7 +1953,7 @@ export const FR_C2_U24: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Il attendit qu'elle eût compris. » Which form is « eût compris »?",
+        question: "\"Il attendit qu'elle eût compris.\" Which form is \"eût compris\"?",
         options: ["Pluperfect subjunctive", "Passé antérieur", "Plus-que-parfait (indicative)", "Past conditional"],
         correctIndex: 0,
         explanation: "\"Attendre que\" takes the subjunctive; with the circumflex, \"eût compris\" is the pluperfect subjunctive. \"Eut compris\" (no accent) would be the passé antérieur.",
@@ -2057,7 +2057,7 @@ export const FR_C2_U24: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "In the model text, why is « Fallait-il continuer la guerre... ? » a question with no reporting verb?",
+            question: "In the model text, why is \"Fallait-il continuer la guerre... ?\" a question with no reporting verb?",
             options: ["It is free indirect style: the ministers' dilemma in their own terms.", "It is a question the narrator asks the reader about the present.", "It is direct speech with missing quotation marks.", "It is a grammatical error."],
             correctIndex: 0,
             explanation: "A question in the imparfait with no \"ils se demandaient si\": free indirect style, as in the previous lesson.",
@@ -2186,7 +2186,7 @@ export const FR_C2_U24: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Cependant, à Londres, un général inconnu préparait un discours. » What does « cependant » mean here?",
+        question: "\"Cependant, à Londres, un général inconnu préparait un discours.\" What does \"cependant\" mean here?",
         options: ["Meanwhile", "However", "Therefore", "Afterwards"],
         correctIndex: 0,
         explanation: "The old temporal meaning of \"cependant\" (pendant ce temps) survives in literary and historical narrative.",

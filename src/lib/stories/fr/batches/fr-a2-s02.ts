@@ -125,7 +125,7 @@ export const FR_A2_S02_STORIES: Story[] = [
       `Le grand soir, il a dit à Margaux : « Mets ta belle robe, on sort ! » Ils ont pris le tram jusqu'à la salle de concert, à l'autre bout de Montpellier. Margaux posait des questions, mais Théo ne répondait pas. Il souriait.`,
       `Devant la salle, il n'y avait personne. Pas de file d'attente, pas de musique, pas de lumières. Un gardien fermait la porte. Théo lui a montré les billets. Le gardien a lu, puis il a secoué la tête. « Monsieur, ce concert, c'était hier soir. »`,
       `Théo est devenu tout pâle. Il a confondu le vendredi et le samedi. Il voulait disparaître. Mais Margaux a pris les billets et elle a commencé à rire. Elle riait si fort qu'elle pleurait.`,
-      `« Tu as gardé ce secret pendant quatre mois ? C'est adorable. » Ils ont fini la soirée dans un petit restaurant de la place de la Comédie. Margaux a mis la chanson préférée du groupe sur son téléphone, et ils ont dansé dans la rue. Les billets sont maintenant sur leur frigo.`,
+      `« Tu as gardé ce secret pendant quatre mois ? C'est adorable. » Ils ont fini la soirée dans un petit restaurant de la place de la Comédie. Margaux a mis sa chanson préférée du groupe sur son téléphone, et ils ont dansé dans la rue. Les billets sont maintenant sur leur frigo.`,
     ],
     questions: [
       {
@@ -224,7 +224,7 @@ export const FR_A2_S02_ENGLISH: Record<string, string[]> = {
     `On the big night, he said to Margaux: "Put on your nice dress, we're going out!" They took the tram to the concert hall, on the other side of Montpellier. Margaux asked questions, but Théo didn't answer. He just smiled.`,
     `Outside the hall, there was nobody. No line, no music, no lights. A guard was locking the door. Théo showed him the tickets. The guard read them, then shook his head. "Sir, this concert was last night."`,
     `Théo went very pale. He had mixed up Friday and Saturday. He wanted to disappear. But Margaux took the tickets and started to laugh. She laughed so hard that she cried.`,
-    `"You kept this secret for four months? That's adorable." They finished the evening in a little restaurant on the Place de la Comédie. Margaux put the band's best-loved song on her phone, and they danced in the street. The tickets are now on their fridge.`,
+    `"You kept this secret for four months? That's adorable." They finished the evening in a little restaurant on the Place de la Comédie. Margaux put her favorite song by the band on her phone, and they danced in the street. The tickets are now on their fridge.`,
   ],
   "fr-a2-un-mail-a-camille": [
     `Dear Camille,`,

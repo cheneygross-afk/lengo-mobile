@@ -985,7 +985,7 @@ export const FR_A2_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence has NO mistake?",
+        question: "How do you write: Cherries? I bought two kilos?",
         options: ["Des cerises ? J'en ai acheté deux kilos.", "Des cerises ? J'en ai achetées deux kilos.", "Des cerises ? J'ai acheté deux kilos d'en.", "Des cerises ? Je les ai acheté deux kilos."],
         correctIndex: 0,
         explanation: "En before the auxiliary, the measure at the end, and no agreement with en.",

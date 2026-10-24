@@ -881,7 +881,7 @@ export const FR_A2_U03_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence from the postcard is correct?",
+        question: "How does Emma write: The children stayed at the pool?",
         options: [
           "Les enfants sont restés à la piscine.",
           "Les enfants ont restés à la piscine.",
@@ -1503,12 +1503,14 @@ export const FR_A2_U03_EXTRA: Lesson[] = [
         source: "We arrived first.",
         answer: "On est arrivés les premiers.",
         altAnswers: [
-          "On est arrivé les premiers.",
           "Nous sommes arrivés les premiers.",
           "Nous sommes arrivées les premières.",
           "On est arrivées les premières.",
           "On est arrivés en premier.",
+          "On est arrivées en premier.",
+          "On est arrivé en premier.",
           "Nous sommes arrivés en premier.",
+          "Nous sommes arrivées en premier.",
         ],
         explanation: "Agree with the real people: \"arrivés les premiers\" (men or mixed), \"arrivées les premières\" (women only): \"premier\" agrees too. \"En premier\" never changes.",
       },

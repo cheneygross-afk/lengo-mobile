@@ -124,9 +124,9 @@ export const FR_C2_S05_STORIES: Story[] = [
       },
       {
         question: `What does the final, routine-looking line of the entry mean?`,
-        options: [`That the ferryman was robbed`, `That the crossing was cancelled because of fog`, `That Mathurin was later fined`, `That neither passenger nor ferryman "paid": the man paid no fare, and Mathurin escaped any penalty or blessing`],
+        options: [`That the ferryman was robbed`, `That the crossing was cancelled because of fog`, `That Mathurin was later fined`, `That neither of them "paid": the man paid no fare, and Mathurin took nothing for the crossing, neither money nor blessing`],
         correctIndex: 3,
-        explanation: `"Un passager. N'a pas payé. Moi non plus." echoes his refusal of money and blessing, and the fact that he was never denounced.`,
+        explanation: `"Un passager. N'a pas payé. Moi non plus." The routine wording echoes his refusal of both money and blessing: "J'ai refusé l'un et l'autre."`,
       },
     ],
   },

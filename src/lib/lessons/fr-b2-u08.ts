@@ -1339,7 +1339,7 @@ export const FR_B2_U08: Lesson[] = [
         heading: "Putting yourself in their shoes",
         body: [
           "\"À ta place, je...\" and \"si j'étais toi, je...\" are the friendliest frames: you don't tell the person what to do, you say what you would do. Both take the conditional: \"à ta place, je prendrais quelques jours de congé\". With vous: \"à votre place\", \"si j'étais vous\".",
-          "The trap: *\"si j'étais à toi\" means if I belonged to you. It's \"si j'étais toi\". And \"à ta place\" can't take the present: *\"à ta place, je prends\" sounds wrong.",
+          "The trap: *\"si j'étais à toi\" means if I belonged to you. It's \"si j'étais toi\". And keep the conditional after \"à ta place\": \"à ta place, je prendrais\" is the standard advice form (a present, \"à ta place, je prends\", is only casual speech).",
         ],
         examples: [
           { es: "À ta place, je prendrais quelques jours de congé.", en: "If I were you, I'd take a few days off." },
@@ -1361,9 +1361,9 @@ export const FR_B2_U08: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which sentence is correct?",
-            options: ["Si j'étais toi, je l'appellerais.", "Si j'étais à toi, je l'appellerais.", "Si je serais toi, je l'appellerais.", "À ta place, je l'appelle."],
+            options: ["Si j'étais toi, je l'appellerais.", "Si j'étais à toi, je l'appellerais.", "Si je serais toi, je l'appellerais.", "Si j'étais toi, je l'appelais."],
             correctIndex: 0,
-            explanation: "\"Si j'étais toi\" + conditional.",
+            explanation: "\"Si j'étais toi\" + conditional \"appellerais\". \"Si j'étais à toi\" means if I belonged to you, \"si je serais\" puts a conditional after si, and \"je l'appelais\" is an imparfait, not a conditional.",
           },
         ],
       },

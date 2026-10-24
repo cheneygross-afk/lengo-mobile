@@ -338,7 +338,7 @@ export const FR_B2_U18_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "D'une part, la mode rapide pollue énormément.",
-        explanation: "\"D'une part\" with an apostrophe; \"énormément\" with three é.",
+        explanation: "\"D'une part\" with an apostrophe; \"énormément\" with two é.",
       },
       {
         type: "speak",

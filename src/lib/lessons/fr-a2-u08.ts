@@ -183,7 +183,7 @@ export const FR_A2_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say: I'm going to the cinema with him?",
         options: ["Je vais au cinéma avec lui.", "Je vais au cinéma avec il.", "Je vais au cinéma avec le.", "Je vais au cinéma avec lui-il."],
         correctIndex: 0,
         explanation: "After \"avec\", always the stressed form: \"lui\".",
@@ -295,7 +295,7 @@ export const FR_A2_U08: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is correct for 'I say hello to them'?",
+            question: "How do you say: I say hello to them?",
             options: ["Je leur dis bonjour.", "Je leurs dis bonjour.", "Je les dis bonjour.", "Je dis leur bonjour."],
             correctIndex: 0,
             explanation: "The pronoun \"leur\" has no -s and goes before the verb. \"Les\" is for direct objects.",
@@ -396,7 +396,7 @@ export const FR_A2_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "\"Je parle à Sophie.\" How do you replace Sophie?",
+        question: "\"Je parle à Sophie.\" How do you say: I'm talking to her?",
         options: ["Je lui parle.", "Je la parle.", "Je parle elle.", "Je leur parle."],
         correctIndex: 0,
         explanation: "\"Parler à\" takes an indirect object: \"lui\" (for a woman too).",
@@ -441,7 +441,7 @@ export const FR_A2_U08: Lesson[] = [
           { es: "Je lui donne un livre.", en: "I'm giving him a book." },
           { es: "Je lui offre des fleurs.", en: "I'm giving her flowers." },
           { es: "Je leur prête ma voiture.", en: "I'm lending them my car." },
-          { es: "Le grand-père leur offre un vélo.", en: "Their grandfather is giving them a bike." },
+          { es: "Leur grand-père leur offre un vélo.", en: "Their grandfather is giving them a bike." },
           { es: "Tu lui prêtes ton stylo ?", en: "Will you lend him your pen?" },
         ],
         checkpoint: [
@@ -809,7 +809,7 @@ export const FR_A2_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which pair is correct?",
+        question: "How do you say: I see her / I talk to her?",
         options: ["Je la vois / Je lui parle", "Je lui vois / Je la parle", "Je la vois / Je la parle", "Je lui vois / Je lui parle"],
         correctIndex: 0,
         explanation: "\"Voir\" is direct (la), \"parler à\" is indirect (lui).",
@@ -1032,7 +1032,7 @@ export const FR_A2_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say: I didn't talk to him?",
         options: ["Je ne lui ai pas parlé.", "Je n'ai lui pas parlé.", "Je lui n'ai pas parlé.", "Je ne ai pas lui parlé."],
         correctIndex: 0,
         explanation: "The pronoun sits inside ne, right before the auxiliary.",
@@ -1244,7 +1244,7 @@ export const FR_A2_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say: I'm helping her?",
         options: ["Je l'aide.", "Je lui aide.", "J'aide lui.", "J'aide à lui."],
         correctIndex: 0,
         explanation: "\"Aider\" takes a direct object in French.",
@@ -2291,7 +2291,7 @@ export const FR_A2_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence uses \"comme\" correctly?",
+        question: "How do you say: Since I'm tired, I'm staying here?",
         options: ["Comme je suis fatigué, je reste ici.", "Je reste ici comme je suis fatigué.", "Je reste ici, comme donc je suis fatigué.", "Comme parce que je suis fatigué, je reste ici."],
         correctIndex: 0,
         explanation: "\"Comme\" meaning since goes at the start of the sentence.",
@@ -2504,7 +2504,7 @@ export const FR_A2_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is correct for 'in the middle of the living room'?",
+        question: "How do you say: in the middle of the living room?",
         options: ["au milieu du salon", "au milieu de le salon", "à milieu du salon", "en milieu de salon"],
         correctIndex: 0,
         explanation: "\"De + le\" contracts to \"du\".",
@@ -2547,6 +2547,6 @@ export const FR_A2_U08_WRITING: WriteExercise = {
     "Use a stressed pronoun after a preposition (\"avec eux\", \"pour elle\", \"chez lui\").",
     "Use \"plaire\" or \"manquer\" correctly (\"le cadeau lui a plu\", \"tu nous as manqué\").",
   ],
-  modelAnswer: "Salut Karim ! Tu nous as manqué samedi ! La fête pour Sophie était géniale. Ses parents lui ont offert un vélo et nous, on lui a acheté des places de concert. Je les ai cachées dans une boîte de chocolats ! Thomas m'a aidée : il a appelé ses amis de l'université et il leur a envoyé l'invitation. Sophie n'a rien vu : elle pensait qu'elle allait juste dîner chez ses parents, seule avec eux. Les cadeaux lui ont beaucoup plu. Je lui ai dit que tu pensais à elle. Bisous, Julie",
+  modelAnswer: "Salut Karim ! Tu nous as manqué samedi ! La fête pour Sophie était géniale. Ses parents lui ont offert un vélo et nous, on lui a acheté des places de concert. Je les ai cachées dans une boîte de chocolats ! Thomas m'a aidée : il a appelé ses amis de l'université et il leur a envoyé l'invitation. Sophie ne savait rien : elle pensait qu'elle allait juste dîner chez ses parents, seule avec eux. Les cadeaux lui ont beaucoup plu. Je lui ai dit que tu pensais à elle. Bisous, Julie",
   explanation: "Indirect \"lui\" / \"leur\" mark who receives (\"ses parents lui ont offert\", \"il leur a envoyé\"), with no agreement; direct \"les\" and \"m'\" trigger agreement (\"je les ai cachées\", \"Thomas m'a aidée\"). \"Avec eux\" and \"à elle\" use stressed pronouns, and \"plaire\" / \"manquer\" take the thing or person liked or missed as their subject (\"les cadeaux lui ont plu\", \"tu nous as manqué\").",
 };

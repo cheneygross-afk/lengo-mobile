@@ -758,12 +758,12 @@ export const FR_B1_U16_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "matching",
-            instructions: "Match each sentence to its pronoun.",
+            instructions: "Match the English and the French.",
             pairs: [
-              { left: "the film that made me cry", right: "qui" },
-              { left: "the film I saw", right: "que" },
-              { left: "the film I told you about", right: "dont" },
-              { left: "the colleague whose photo I showed you", right: "dont la photo" },
+              { left: "the film that made me cry", right: "le film qui m'a fait pleurer" },
+              { left: "the film I saw", right: "le film que j'ai vu" },
+              { left: "the film I told you about", right: "le film dont je t'ai parlé" },
+              { left: "the colleague whose photo I showed you", right: "la collègue dont je t'ai montré la photo" },
             ],
             explanation: "Subject → qui; object → que; de → dont.",
           },
@@ -887,8 +887,8 @@ export const FR_B1_U16_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "\"C'est un sujet ___ je ne connais rien.\"",
-        options: ["dont", "que", "qui", "où"],
+        question: "How do you say: It's a subject I know nothing about?",
+        options: ["C'est un sujet dont je ne connais rien.", "C'est un sujet que je ne connais rien.", "C'est un sujet qui je ne connais rien.", "C'est un sujet où je ne connais rien."],
         correctIndex: 0,
         explanation: "\"Ne rien connaître de\" → \"dont\".",
       },
@@ -1253,7 +1253,7 @@ export const FR_B1_U16_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Join: \"C'est une amie. Je suis fier de cette amie.\"",
+        question: "How do you say: She's a friend I'm proud of? (a man speaking)",
         options: [
           "C'est une amie dont je suis fier.",
           "C'est une amie que je suis fier.",
@@ -1433,8 +1433,8 @@ export const FR_B1_U16_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "\"C'est le livre ___ j'utilise en cours.\"",
-        options: ["que", "dont", "qui", "où"],
+        question: "How do you say: It's the book I use in class? (use utiliser)",
+        options: ["C'est le livre que j'utilise en cours.", "C'est le livre dont j'utilise en cours.", "C'est le livre qui j'utilise en cours.", "C'est le livre où j'utilise en cours."],
         correctIndex: 0,
         explanation: "\"Utiliser\" takes a direct object → \"que\" (compare \"se servir de\" → dont).",
       },
@@ -1986,8 +1986,8 @@ export const FR_B1_U16_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "\"C'est le coin ___ ma mère s'asseyait pour lire.\" (where)",
-        options: ["où", "que", "dont", "qui"],
+        question: "How do you say: It's the corner where my mother used to sit and read?",
+        options: ["C'est le coin où ma mère s'asseyait pour lire.", "C'est le coin que ma mère s'asseyait pour lire.", "C'est le coin dont ma mère s'asseyait pour lire.", "C'est le coin qui ma mère s'asseyait pour lire."],
         correctIndex: 0,
         explanation: "Place → \"où\": \"le coin où\" = the corner where.",
       },
@@ -2043,8 +2043,8 @@ export const FR_B1_U16_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "\"C'est le jour ___ j'attendais.\"",
-            options: ["que", "où", "dont", "qui"],
+            question: "How do you say: It's the day I was waiting for?",
+            options: ["C'est le jour que j'attendais.", "C'est le jour où j'attendais.", "C'est le jour dont j'attendais.", "C'est le jour qui j'attendais."],
             correctIndex: 0,
             explanation: "\"Attendre ce jour\": the day is the object → \"que\".",
           },
@@ -2166,8 +2166,8 @@ export const FR_B1_U16_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "\"Les vacances ___ on a passées à Nice étaient géniales.\"",
-        options: ["que", "où", "dont", "qui"],
+        question: "How do you say: The holiday we spent in Nice was great?",
+        options: ["Les vacances que on a passées à Nice étaient géniales.", "Les vacances où on a passées à Nice étaient géniales.", "Les vacances dont on a passées à Nice étaient géniales.", "Les vacances qui on a passées à Nice étaient géniales."],
         correctIndex: 0,
         explanation: "\"Passer des vacances\": the holiday is the object → \"que\", hence the agreement \"passées\".",
       },
@@ -2347,8 +2347,8 @@ export const FR_B1_U16_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "\"Voilà le dossier ___ tu dois t'occuper.\"",
-        options: ["dont", "que", "où", "qui"],
+        question: "How do you say: Here's the file you have to deal with? (to a colleague you say tu to)",
+        options: ["Voilà le dossier dont tu dois t'occuper.", "Voilà le dossier que tu dois t'occuper.", "Voilà le dossier où tu dois t'occuper.", "Voilà le dossier qui tu dois t'occuper."],
         correctIndex: 0,
         explanation: "\"S'occuper de\" → \"dont\".",
       },

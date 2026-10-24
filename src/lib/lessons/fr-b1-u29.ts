@@ -669,7 +669,7 @@ export const FR_B1_U29: Lesson[] = [
       {
         type: "dictation",
         audio: "Il vaudrait mieux qu'on redescende.",
-        explanation: "\"Qu'on redescende\": the subjunctive after \"il vaudrait mieux que\"; it sounds like the present, \"redescend\", but is written with -e.",
+        explanation: "\"Qu'on redescende\": the subjunctive after \"il vaudrait mieux que\"; unlike the indicative \"on redescend\", the final d is pronounced: redescen-de.",
       },
       {
         type: "speak",
@@ -976,7 +976,7 @@ export const FR_B1_U29: Lesson[] = [
           { es: "Vous pouvez me joindre au 01 45 67 89 10.", en: "You can reach me on 01 45 67 89 10." },
           { es: "Leroy, L-E-R-O-Y, L comme Louis.", en: "Leroy, L-E-R-O-Y, L as in Louis." },
           { es: "Mallet, avec deux L et deux T.", en: "Mallet, with two Ls and two Ts." },
-          { es: "Hélène, avec un e accent aigu puis un e accent grave.", en: "An acute accent on the first e, then a grave accent on the second." },
+          { es: "Hélène, avec un e accent aigu puis un e accent grave.", en: "With an acute accent on the first e, then a grave accent on the second." },
           { es: "Pouvez-vous m'épeler votre nom, s'il vous plaît ?", en: "Can you spell your name for me, please?" },
         ],
         checkpoint: [
@@ -1321,7 +1321,7 @@ export const FR_B1_U29: Lesson[] = [
         type: "speak",
         text: "Il vaut mieux que tu prennes un parapluie.",
         prompt: "Say it in French, to a friend: You'd better take an umbrella.",
-        explanation: "\"Il vaut mieux que\" + the subjunctive \"prennes\" (the nn sound is short, like in \"prenne\").",
+        explanation: "\"Il vaut mieux que\" + the subjunctive \"prennes\" (it sounds exactly like \"prenne\": the -s is silent).",
       },
       {
         type: "translate",
@@ -1329,7 +1329,7 @@ export const FR_B1_U29: Lesson[] = [
         prompt: "Translate into French.",
         source: "It's essential to sleep well before an exam.",
         answer: "Il est essentiel de bien dormir avant un examen.",
-        altAnswers: ["C'est essentiel de bien dormir avant un examen.", "Il est essentiel de dormir bien avant un examen."],
+        altAnswers: ["C'est essentiel de bien dormir avant un examen."],
         explanation: "No specific subject, so \"il est\" + adjective + \"de\" + infinitive.",
       },
     ],
@@ -1739,7 +1739,7 @@ export const FR_B1_U29: Lesson[] = [
       {
         heading: "Opening an account",
         body: [
-          "To live in France you need \"un compte bancaire\": \"un compte courant\" (a current account) and often \"un livret A\" (a tax-free savings account everyone has). You \"ouvrez un compte\" with \"un conseiller\" / \"une conseillère\" (your bank adviser), usually by appointment.",
+          "To live in France you need \"un compte bancaire\": \"un compte courant\" (a current account) and often \"un livret A\" (a tax-free savings account everyone has). You open an account (\"ouvrir un compte\") with \"un conseiller\" / \"une conseillère\" (your bank adviser), usually by appointment.",
           "The bank will say \"Il faut que vous fournissiez une pièce d'identité et un justificatif de domicile\" (proof of address: an electricity bill or a rent receipt). Then you'll get \"une carte bancaire\" (often called \"une carte bleue\" or \"une CB\") with \"un code confidentiel\" (PIN), and your \"RIB\" (relevé d'identité bancaire), the sheet with your bank details. Every employer, landlord and utility company will ask you for \"votre RIB\".",
         ],
         examples: [
@@ -1858,7 +1858,7 @@ export const FR_B1_U29: Lesson[] = [
             prompt: "Translate into French.",
             source: "I haven't got any money on me.",
             answer: "Je n'ai pas d'argent sur moi.",
-                        explanation: "Money is \"l'argent\"; after a negative, \"de l'argent\" becomes \"d'argent\". \"Monnaie\" would mean change.",
+            explanation: "Money is \"l'argent\"; after a negative, \"de l'argent\" becomes \"d'argent\". \"Monnaie\" would mean change.",
           },
           {
             type: "speak",
@@ -2208,7 +2208,7 @@ export const FR_B1_U29: Lesson[] = [
         heading: "The visit: asking the right questions",
         body: [
           "On the visit, ask with polite forms: \"Est-ce que les charges sont comprises ?\", \"Qu'est-ce qui est compris dans les charges ?\", \"Le chauffage est individuel ou collectif ?\" (own boiler or building heating), \"Le logement est disponible à partir de quand ?\", \"Le quartier est calme ?\".",
-          "Money questions: \"le dépôt de garantie\" (security deposit, often called \"la caution\" in everyday speech; legally one month's rent excluding charges for unfurnished, two for furnished), \"les frais d'agence\" (agency fees). And: \"Est-ce qu'il faut un garant ?\" (Do I need a guarantor?). In France, \"un garant\" is someone, often a parent, who signs to pay the rent if you can't.",
+          "Money questions: \"le dépôt de garantie\" (security deposit, often called \"la caution\" in everyday speech; legally at most one month's rent excluding charges for unfurnished, two for furnished), \"les frais d'agence\" (agency fees). And: \"Est-ce qu'il faut un garant ?\" (Do I need a guarantor?). In France, \"un garant\" is someone, often a parent, who signs to pay the rent if you can't.",
           "Note the double meaning of \"la caution\": in everyday speech the deposit, but strictly speaking it's the guarantee given by the guarantor.",
         ],
         examples: [
@@ -2335,7 +2335,7 @@ export const FR_B1_U29: Lesson[] = [
       {
         type: "multiple-choice",
         question: "At a visit, you want to know if heating is extra. What do you ask?",
-        options: ["Est-ce que le chauffage est compris dans les charges ?", "Est-ce que le chauffage est comprendre dans les charges ?", "Est-ce que le chauffage est compris dans le bail ?", "Est-ce que le chauffage comprend les charges ?"],
+        options: ["Est-ce que le chauffage est compris dans les charges ?", "Est-ce que le chauffage est comprendre dans les charges ?", "Est-ce que le chauffage est compris dans l'état des lieux ?", "Est-ce que le chauffage comprend les charges ?"],
         correctIndex: 0,
         explanation: "\"Être compris dans\" means to be included in; heating is often part of \"les charges\".",
       },
@@ -2355,8 +2355,8 @@ export const FR_B1_U29: Lesson[] = [
         type: "speak",
         text: "Est-ce que les charges sont comprises ?",
         prompt: "Say it in French: Are the charges included?",
-        tip: "Comprises: the final s is pronounced as z because of the feminine -e.",
-        explanation: "The feminine plural participle \"comprises\" makes the s audible.",
+        tip: "Comprises: the s before the feminine -e is heard as z, com-pri-ze; the plural s is silent.",
+        explanation: "The feminine ending makes the s of \"compris\" audible: \"comprises\" sounds like \"comprise\".",
       },
       {
         type: "translate",

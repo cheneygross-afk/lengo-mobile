@@ -14,7 +14,7 @@ export const FR_A1_S03_STORIES: Story[] = [
       `Arthur habite à Nantes. Il travaille dans une librairie, de l'autre côté de la Loire. Le trajet dure vingt minutes. Arthur adore ce moment : il regarde le fleuve, les bateaux et les oiseaux.`,
       `Ce matin, le ciel est gris. Arthur n'a pas de parapluie, mais il part quand même. Au milieu du pont, il pleut. Il pleut beaucoup !`,
       `Arthur arrive à la librairie. Il est mouillé de la tête aux pieds. Sa collègue, Lucie, rit. « Arthur, tu ressembles à un poisson ! »`,
-      `Elle donne une serviette et un thé chaud à Arthur. Arthur rit aussi. « Demain, je prends le tram ! » Mais Lucie ne le croit pas. Elle connaît Arthur et son vélo bleu.`,
+      `Elle donne une serviette et un thé chaud à Arthur. Arthur rit aussi. « Demain, je prends le tram ! » Mais Lucie ne croit pas Arthur. Elle connaît Arthur et son vélo bleu.`,
     ],
     questions: [
       {
@@ -165,7 +165,7 @@ export const FR_A1_S03_STORIES: Story[] = [
       `Aujourd'hui, c'est un grand match. Les Petites Vertes jouent contre les Lionnes, la meilleure équipe de la ville. Les Lionnes sont grandes et rapides.`,
       `Les parents sont sur le bord du terrain. Le père de Lina crie : « Allez, Lina ! Allez, les Vertes ! » Lina a un peu peur.`,
       `Les Lionnes attaquent, encore et encore. Mais Lina arrête tous les ballons. À la dernière minute, son amie Zoé marque un but. Un à zéro !`,
-      `Après le match, l'entraîneur embrasse Lina. « Tu es une championne ! » Le soir, Lina est très fatiguée, mais elle est la plus heureuse du monde.`,
+      `Après le match, l'entraîneur embrasse Lina. « Tu es une championne ! » Le soir, Lina est très fatiguée, mais elle est très, très heureuse.`,
     ],
     questions: [
       {
@@ -224,7 +224,7 @@ export const FR_A1_S03_ENGLISH: Record<string, string[]> = {
     `Today is a big match. The Little Greens are playing against the Lionesses, the best team in town. The Lionesses are tall and fast.`,
     `The parents are on the side of the pitch. Lina's father shouts: "Come on, Lina! Come on, Greens!" Lina is a little scared.`,
     `The Lionesses attack, again and again. But Lina stops every ball. In the last minute, her friend Zoé scores a goal. One-nil!`,
-    `After the match, the coach hugs Lina. "You're a champion!" In the evening, Lina is very tired, but she is the happiest girl in the world.`,
+    `After the match, the coach hugs Lina. "You're a champion!" In the evening, Lina is very tired, but she is very, very happy.`,
   ],
 };
 

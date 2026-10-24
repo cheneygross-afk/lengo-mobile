@@ -14,7 +14,7 @@ export const FR_B1_U01_WRITING: WriteExercise = {
     "Uses at least two time expressions correctly: \"il y a\" + passé composé, \"pendant\", \"depuis\" + present",
     "Makes participles agree after être (\"elle est partie\", \"nous sommes rentrés\")",
   ],
-  modelAnswer: "Salut Camille ! Il y a deux semaines, nous sommes partis à Biarritz pour le week-end. Il faisait un temps magnifique et l'hôtel était juste en face de la plage. Le samedi matin, j'étais en train de prendre mon petit-déjeuner quand Julien a vu que sa voiture n'était plus dans la rue ! On a appelé la police et on a passé trois heures au commissariat. En fait, la voiture était à la fourrière : on venait de se garer devant une sortie de garage. Ensuite, on a marché sur la plage pendant tout l'après-midi et on a très bien mangé le soir. Depuis, Julien vérifie tous les panneaux avant de se garer ! Et toi, tu as passé un bon week-end ? Bises, Léa",
+  modelAnswer: "Salut Camille ! Il y a deux semaines, nous sommes partis à Biarritz pour le week-end. Il faisait un temps magnifique et l'hôtel était juste en face de la plage. Samedi matin, j'étais en train de prendre mon petit-déjeuner quand Julien a vu que sa voiture n'était plus dans la rue ! On a appelé la police et on a passé trois heures au commissariat. En fait, la voiture était à la fourrière : on venait de se garer devant une sortie de garage. Ensuite, on a marché sur la plage pendant tout l'après-midi et on a très bien mangé le soir. Depuis, Julien vérifie tous les panneaux avant de se garer ! Et toi, tu as passé un bon week-end ? Bises, Léa",
   explanation: "The imparfait sets the scene (\"il faisait\", \"l'hôtel était\", \"j'étais en train de\") and the passé composé moves the story on (\"nous sommes partis\", \"Julien a vu\", \"on a appelé\"). \"Il y a deux semaines\" + passé composé means ago, \"pendant tout l'après-midi\" is a closed duration, \"on venait de se garer\" is the recent past seen from the past, and \"depuis\" + present describes what is still true.",
 };
 
@@ -926,6 +926,7 @@ export const FR_B1_U01: Lesson[] = [
           "Nous allions souvent en Italie.",
           "On allait souvent en Italie.",
           "Nous sommes souvent allées en Italie.",
+          "On est souvent allées en Italie.",
         ],
         explanation: "With the passé composé, \"souvent\" goes between auxiliary and participle. As a past habit, the imparfait also works.",
       },
@@ -1763,7 +1764,7 @@ export const FR_B1_U01: Lesson[] = [
             options: [
               "Tu as attendu depuis combien de temps ?",
               "Tu attendais pendant combien de temps ?",
-              "Il y a combien de temps tu attends ?",
+              "Tu attends il y a combien de temps ?",
               "Tu attends depuis combien de temps ?",
             ],
             correctIndex: 3,

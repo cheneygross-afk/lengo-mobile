@@ -161,7 +161,7 @@ export const FR_C2_U20: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Où sont les clés ? — Qu'est-ce que j'en sais, moi ? » What does the second speaker mean?",
+        question: "\"Où sont les clés ? — Qu'est-ce que j'en sais, moi ?\" What does the second speaker mean?",
         options: ["I have no idea, and it's not my job to know.", "I know exactly where they are.", "What do I know about keys in general?", "Tell me what you know."],
         correctIndex: 0,
         explanation: "A deflecting rhetorical question: it refuses the responsibility, with irritation.",
@@ -238,7 +238,7 @@ export const FR_C2_U20: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Léa snaps « Tu crois que j'ai que ça à faire ? » Which reply defuses best?",
+            question: "Léa snaps \"Tu crois que j'ai que ça à faire ?\" Which reply defuses best?",
             options: ["Non, pardon, tu as eu une journée épuisante. Je m'en occupe.", "Non, je ne crois pas que tu n'aies que ça à faire.", "Bon, tu le vides, ce lave-vaisselle ?", "Et moi, tu crois que j'ai que ça à faire ?"],
             correctIndex: 0,
             explanation: "Answer the emotion (exhaustion), not the literal question; the literal answer sounds sarcastic and the counter-question escalates.",
@@ -271,7 +271,7 @@ export const FR_C2_U20: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Mme Perrin: « Est-ce que quelqu'un, dans cette équipe, lit encore ses mails ? » Which reply is the most professional?",
+            question: "Mme Perrin: \"Est-ce que quelqu'un, dans cette équipe, lit encore ses mails ?\" Which reply is the most professional?",
             options: ["Oui, je les lis. Si vous parlez de votre message de vendredi, je vous envoie les chiffres dans l'heure.", "Et vous, vous lisez les nôtres ?", "(silence)", "C'est une blague ?"],
             correctIndex: 0,
             explanation: "Answering literally with facts and a commitment removes the sting; counter-attack or silence makes things worse.",
@@ -375,7 +375,7 @@ export const FR_C2_U20: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "In a public debate, someone asks « Qui peut croire que ce projet est financé ? » and you have the exact figures. Which strategy is strongest?",
+        question: "In a public debate, someone asks \"Qui peut croire que ce projet est financé ?\" and you have the exact figures. Which strategy is strongest?",
         options: ["Take it up and answer with the figures.", "Ignore it completely.", "Reply « Et alors ? »", "Ask « C'est une blague ? »"],
         correctIndex: 0,
         explanation: "When you have the facts, treating the rhetorical question as a real one (\"vous posez la question, je vais y répondre\") disarms it.",
@@ -886,7 +886,7 @@ export const FR_C2_U20: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« Les crédits ont été gelés ; aussi la médiathèque a-t-elle fermé le samedi. » What does « aussi » mean here?",
+            question: "\"Les crédits ont été gelés ; aussi la médiathèque a-t-elle fermé le samedi.\" What does \"aussi\" mean here?",
             options: ["therefore", "also", "too much", "as well as"],
             correctIndex: 0,
             explanation: "At the head of a clause with inversion, \"aussi\" means therefore, a classic trap for English speakers.",
@@ -1142,7 +1142,7 @@ export const FR_C2_U20: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« À vaincre sans péril, on triomphe sans gloire. » Which figure dominates?",
+            question: "\"À vaincre sans péril, on triomphe sans gloire.\" Which figure dominates?",
             options: ["antithesis (danger vs glory in a balanced line)", "prétérition", "interpellation", "hypophora"],
             correctIndex: 0,
             explanation: "Two balanced halves oppose the absence of danger and the absence of glory.",
@@ -1238,7 +1238,7 @@ export const FR_C2_U20: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« C'est un roc !... c'est un pic !... c'est un cap ! Que dis-je, c'est un cap ?... C'est une péninsule ! » What do the terms form?",
+        question: "\"C'est un roc !... c'est un pic !... c'est un cap ! Que dis-je, c'est un cap ?... C'est une péninsule !\" What do the terms form?",
         options: ["a rising gradation ending in hyperbole", "a chiasmus", "a prétérition", "an interpellation"],
         correctIndex: 0,
         explanation: "Each term is bigger than the last; \"que dis-je\" corrects upwards to the absurd \"péninsule\".",
@@ -1543,7 +1543,7 @@ export const FR_C2_U20: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« Elle a dix ans d'expérience en laboratoire. » What does « expérience » mean here?",
+            question: "\"Elle a dix ans d'expérience en laboratoire.\" What does \"expérience\" mean here?",
             options: ["experience (professional practice)", "experiment", "experimentation on animals", "an expert report"],
             correctIndex: 0,
             explanation: "\"Dix ans d'expérience\" = ten years' experience; an experiment would be \"une expérience\" with an article and a topic (\"une expérience sur...\").",

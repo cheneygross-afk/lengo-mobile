@@ -71,10 +71,10 @@ export const FR_B2_U23_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "He's a teacher whose pupils love him.",
-        answer: "C'est un professeur dont les élèves l'adorent.",
-        altAnswers: ["C'est un prof dont les élèves l'adorent.", "C'est un professeur que ses élèves adorent.", "C'est un prof que ses élèves adorent."],
-        explanation: "\"Dont les élèves\" (whose pupils) or \"que ses élèves adorent\".",
+        source: "He's a teacher his pupils adore.",
+        answer: "C'est un professeur que ses élèves adorent.",
+        altAnswers: ["C'est un prof que ses élèves adorent.", "C'est un enseignant que ses élèves adorent."],
+        explanation: "The teacher is the object of \"adorer\" → \"que ses élèves adorent\". Avoid *\"dont les élèves l'adorent\": it refers to the teacher twice, once with \"dont\" and again with \"l'\".",
       },
       {
         type: "translate",
@@ -375,7 +375,7 @@ export const FR_B2_U23_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is the formal version of « On sait pas quand on arrive » ?",
+            question: "Which is the formal version of « On sait pas quand on arrive »?",
             options: ["Nous ne savons pas quand nous arriverons.", "On ne sait pas quand on arrive, quoi.", "Nous savons pas quand nous arrivons.", "Ça, on le sait pas, quand on arrive."],
             correctIndex: 0,
             explanation: "\"Nous\", full negation, future.",
@@ -457,7 +457,7 @@ export const FR_B2_U23_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the formal version of « Ce dossier, faut qu'on le finisse » ?",
+        question: "Which is the formal version of « Ce dossier, faut qu'on le finisse »?",
         options: ["Il faut que nous terminions ce dossier.", "Ce dossier, il faut le finir quand même.", "Faut finir ce dossier, nous.", "On doit le finir, ce dossier, hein."],
         correctIndex: 0,
         explanation: "Plain order, \"il faut que nous\" + subjunctive.",

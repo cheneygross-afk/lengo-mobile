@@ -233,7 +233,7 @@ export const FR_C2_U29: Lesson[] = [
         type: "speak",
         text: "Je suis soulagée qu'il parte. Et pourtant, il va me manquer.",
         prompt: "Say it in French (as a woman): I'm relieved he's leaving. And yet I'll miss him.",
-        tip: "Pause before et pourtant, and let your voice rise on it.",
+        tip: "Pause before \"et pourtant\", and let your voice rise on it.",
         explanation: "Present subjunctive \"parte\" after the emotion; \"il va me manquer\" because the missed person is the subject of manquer.",
       },
     ],
@@ -395,7 +395,7 @@ export const FR_C2_U29: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What does « Tu es de mauvaise foi » mean?",
+        question: "What does \"Tu es de mauvaise foi\" mean?",
         options: ["You're arguing dishonestly.", "You have lost your faith.", "You're in a bad mood.", "You have bad luck."],
         correctIndex: 0,
         explanation: "\"Être de mauvaise foi\" is to argue in bad faith, refusing to admit what you know to be true.",
@@ -458,7 +458,7 @@ export const FR_C2_U29: Lesson[] = [
         heading: "Mélancolie, nostalgie, spleen, ennui: the literary shades",
         body: [
           "\"La mélancolie\" is a lasting, diffuse sadness with no precise cause, often tinged with a certain sweetness or reverie; in medicine it was once the old name for severe depression, and the adjective \"mélancolique\" keeps that dignity. \"La nostalgie\" is the longing for a past or a place that is gone (from Greek 'return' + 'pain'): you are nostalgic for something specific, \"la nostalgie de l'enfance\", \"la nostalgie des années 80\".",
-          "\"Le spleen\" was borrowed from English in the eighteenth century and made famous by Baudelaire's \"Les Fleurs du mal\" (1857), whose section \"Spleen et Idéal\" sets the poet's longing for beauty against a heavy, almost physical despair. The opening of his fourth poem titled Spleen gives the feeling its image: « Quand le ciel bas et lourd pèse comme un couvercle / Sur l'esprit gémissant en proie aux longs ennuis ». Today \"avoir le spleen\" is a slightly literary, slightly ironic way to say you feel low.",
+          "\"Le spleen\" was borrowed from English in the eighteenth century and made famous by Baudelaire's \"Les Fleurs du mal\" (1857), whose section \"Spleen et Idéal\" sets the poet's longing for beauty against a heavy, almost physical despair. The opening of his fourth poem titled \"Spleen\" gives the feeling its image: « Quand le ciel bas et lourd pèse comme un couvercle / Sur l'esprit gémissant en proie aux longs ennuis ». Today \"avoir le spleen\" is a slightly literary, slightly ironic way to say you feel low.",
           "\"L'ennui\" is the false friend of the family. In everyday French it is boredom, but in literature it is far deeper: an existential emptiness, the sense that nothing has meaning. Flaubert's Emma Bovary suffers from it: « Mais elle, sa vie était froide comme un grenier dont la lucarne est au nord, et l'ennui, araignée silencieuse, filait sa toile dans l'ombre à tous les coins de son cœur. » Note also that in the plural, \"des ennuis\" are troubles, problems: \"avoir des ennuis avec la police\".",
         ],
         examples: [
@@ -481,7 +481,7 @@ export const FR_C2_U29: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "In a review of a novel you read: « Le héros est accablé par l'ennui. » What is meant?",
+            question: "In a review of a novel you read: \"Le héros est accablé par l'ennui.\" What is meant?",
             options: [
               "The hero is crushed by an existential emptiness.",
               "The hero is a little bored.",
@@ -658,7 +658,7 @@ export const FR_C2_U29: Lesson[] = [
       {
         type: "speak",
         text: "Quand le ciel bas et lourd pèse comme un couvercle",
-        tip: "Keep the twelve syllables even: bas et lourd is three slow beats.",
+        tip: "Keep the twelve syllables even: \"bas et lourd\" is three slow beats.",
         explanation: "The first line of Baudelaire's fourth Spleen: the low sky as a lid on the mind, the image that defines the French spleen.",
       },
     ],
@@ -868,7 +868,7 @@ export const FR_C2_U29: Lesson[] = [
         type: "speak",
         text: "Mes amis d'enfance me manquent.",
         prompt: "Say it in French: I miss my childhood friends.",
-        tip: "manquent: the -ent is silent, so it sounds just like manque.",
+        tip: "\"Manquent\": the -ent is silent, so it sounds just like \"manque\".",
         explanation: "Plural subject \"mes amis\" → \"manquent\"; \"me\" is the person who misses.",
       },
     ],
@@ -1074,13 +1074,13 @@ export const FR_C2_U29: Lesson[] = [
       {
         type: "dictation",
         audio: "Il faut savoir lâcher prise.",
-        explanation: "The verb \"lâcher prise\" has no hyphen; mind the circumflex on lâcher.",
+        explanation: "The verb \"lâcher prise\" has no hyphen; mind the circumflex on \"lâcher\".",
       },
       {
         type: "speak",
         text: "Elle est suivie par une psychiatre depuis six mois.",
         prompt: "Say it in French: She's been seeing a psychiatrist (a woman) for six months.",
-        tip: "psychiatre: the p is pronounced, psi-kja-tr.",
+        tip: "\"Psychiatre\": the p is pronounced, psi-kja-tr.",
         explanation: "\"Être suivie par\" + \"depuis\" + present: an ongoing treatment.",
       },
     ],
@@ -1120,7 +1120,7 @@ export const FR_C2_U29: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Nadia says « C'est compliqué ». Which reply is the most open, helping her to be more precise?",
+            question: "Nadia says \"C'est compliqué\". Which reply is the most open, helping her to be more precise?",
             options: [
               "Compliqué de quelle façon ?",
               "C'est le travail ?",
@@ -1248,7 +1248,7 @@ export const FR_C2_U29: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "The therapist simply repeats « Transparente. » What is she doing?",
+        question: "The therapist simply repeats \"Transparente.\" What is she doing?",
         options: [
           "Inviting the patient to develop the word she chose.",
           "Correcting the patient's vocabulary.",
@@ -1458,7 +1458,7 @@ export const FR_C2_U29: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What does « l'écriture plate » refer to in Annie Ernaux's work?",
+        question: "What does \"l'écriture plate\" refer to in Annie Ernaux's work?",
         options: [
           "A deliberately bare, factual style that avoids lyricism.",
           "A dull, badly written style.",
@@ -1501,7 +1501,7 @@ export const FR_C2_U29: Lesson[] = [
       {
         type: "speak",
         text: "Un plaisir délicieux m'avait envahi, isolé, sans la notion de sa cause.",
-        tip: "Let the sentence breathe on the commas: envahi, isolé, then the long final phrase.",
+        tip: "Let the sentence breathe on the commas: \"envahi\", \"isolé\", then the long final phrase.",
         explanation: "Proust's madeleine: a joy without a known cause, the opposite of nostalgia.",
       },
     ],
@@ -1710,7 +1710,7 @@ export const FR_C2_U29: Lesson[] = [
         type: "speak",
         text: "Tenons-nous-en aux faits.",
         prompt: "Say it in French: Let's stick to the facts.",
-        tip: "Link nous-en with a z sound: nou-zen.",
+        tip: "Link \"nous-en\" with a z sound: nou-zen.",
         explanation: "Imperative of \"s'en tenir à\" with pronouns after the verb.",
       },
     ],
@@ -1879,7 +1879,7 @@ export const FR_C2_U29: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A Swiss colleague says « Je t'envoie un message sur ton natel ». What is a natel?",
+        question: "A Swiss colleague says \"Je t'envoie un message sur ton natel\". What is a natel?",
         options: ["a mobile phone", "a laptop", "a pager", "an answering machine"],
         correctIndex: 0,
         explanation: "\"Le natel\" is the Swiss word for a mobile phone, originally the name of a network.",
@@ -2044,7 +2044,7 @@ export const FR_C2_U29: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does « Le lait a tourné » mean?",
+            question: "What does \"Le lait a tourné\" mean?",
             options: ["The milk has gone off.", "The milk has been stirred.", "The milk has turned white.", "The milk has spilled."],
             correctIndex: 0,
             explanation: "\"Tourner\" said of milk or wine means to go off, to turn sour.",

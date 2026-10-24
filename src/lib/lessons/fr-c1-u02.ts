@@ -873,9 +873,9 @@ export const FR_C1_U02: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order to say: However expensive it is, the trip is worth it.",
-        words: ["Si cher", "qu'il", "soit,", "le voyage", "en vaut la peine."],
+        words: ["Quelque cher", "qu'il", "soit,", "le voyage", "en vaut la peine."],
         translation: "However expensive it is, the trip is worth it.",
-        explanation: "\"Si\" + adjective + \"que\" + subjunctive (Part 3) = however. \"En valoir la peine\" = to be worth it.",
+        explanation: "\"Quelque\" + adjective + \"que\" + subjunctive = however; before an adjective \"quelque\" is invariable (*\"quelques cher\"). \"En valoir la peine\" = to be worth it.",
       },
       {
         type: "translate",
@@ -979,7 +979,7 @@ export const FR_C1_U02: Lesson[] = [
             prompt: "Translate into French with aussi... que.",
             source: "However well paid she is, she isn't happy.",
             answer: "Aussi bien payée qu'elle soit, elle n'est pas heureuse.",
-            altAnswers: ["Si bien payée qu'elle soit, elle n'est pas heureuse.", "Pour bien payée qu'elle soit, elle n'est pas heureuse.", "Quelque bien payée qu'elle soit, elle n'est pas heureuse."],
+            altAnswers: ["Aussi bien payée qu'elle soit, elle n'est pas contente.", "Aussi bien payée qu'elle soit, elle n'est pas épanouie."],
             explanation: "\"Aussi\" + adjective phrase + \"que\" + subjunctive; \"payée\" agrees with \"elle\".",
           },
           {
@@ -1013,7 +1013,7 @@ export const FR_C1_U02: Lesson[] = [
             prompt: "Translate into French with tout... que.",
             source: "Famous though he is, he's very modest.",
             answer: "Tout célèbre qu'il est, il est très modeste.",
-            altAnswers: ["Tout célèbre qu'il soit, il est très modeste.", "Si célèbre qu'il soit, il est très modeste.", "Aussi célèbre qu'il soit, il est très modeste."],
+            altAnswers: ["Tout célèbre qu'il soit, il est très modeste."],
             explanation: "\"Tout + adjective + que\" + indicative (\"il est\") for an established fact.",
           },
           {
@@ -1034,7 +1034,7 @@ export const FR_C1_U02: Lesson[] = [
         prompt: "Translate into French with si... que.",
         source: "However hard the exam is, we'll pass it.",
         answer: "Si difficile que soit l'examen, nous le réussirons.",
-        altAnswers: ["Si difficile que soit l'examen, on le réussira.", "Aussi difficile que soit l'examen, nous le réussirons.", "Aussi difficile que soit l'examen, on le réussira.", "Si difficile que soit l'examen, nous l'aurons.", "Aussi difficile que soit l'examen, on l'aura."],
+        altAnswers: ["Si difficile que soit l'examen, on le réussira.", "Si difficile que soit l'examen, nous l'aurons.", "Si difficile que soit l'examen, on l'aura."],
         explanation: "\"Si\" + adjective + \"que\" + subjunctive, subject inverted.",
       },
       {
@@ -1082,7 +1082,7 @@ export const FR_C1_U02: Lesson[] = [
         prompt: "Translate into French with pour... que.",
         source: "Brilliant as the plan may be, it's too expensive.",
         answer: "Pour brillant que soit le projet, il est trop cher.",
-        altAnswers: ["Pour brillant que soit le plan, il est trop cher.", "Si brillant que soit le projet, il est trop cher.", "Aussi brillant que soit le projet, il est trop cher.", "Pour brillant que soit le projet, il coûte trop cher.", "Si brillant que soit le plan, il est trop cher."],
+        altAnswers: ["Pour brillant que soit le plan, il est trop cher.", "Pour brillant que soit le projet, il coûte trop cher.", "Pour brillant que soit le plan, il coûte trop cher."],
         explanation: "\"Pour + adjective + que\" + subjunctive (literary).",
       },
       {
@@ -1312,7 +1312,7 @@ export const FR_C1_U02: Lesson[] = [
         prompt: "Translate into French with avoir beau.",
         source: "You can say what you like, I'm not coming. (to a friend)",
         answer: "Tu as beau dire, je ne viens pas.",
-        altAnswers: ["Tu auras beau dire, je ne viendrai pas.", "Tu peux dire ce que tu veux, je ne viens pas.", "Tu as beau dire, je ne viendrai pas."],
+        altAnswers: ["Tu auras beau dire, je ne viendrai pas.", "Tu as beau dire, je ne viendrai pas."],
         explanation: "\"Tu as beau dire\" is a set phrase: say what you like.",
       },
       {
@@ -1351,7 +1351,6 @@ export const FR_C1_U02: Lesson[] = [
         prompt: "Translate into French with avoir beau.",
         source: "He could beg her all he liked, she wouldn't give in. (hypothetical)",
         answer: "Il aurait beau la supplier, elle ne céderait pas.",
-        altAnswers: ["Il pourrait la supplier, elle ne céderait pas.", "Quand bien même il la supplierait, elle ne céderait pas."],
         explanation: "Conditional: \"il aurait beau\" + infinitive, conditional in the main clause.",
       },
     ],
@@ -1455,7 +1454,7 @@ export const FR_C1_U02: Lesson[] = [
             prompt: "Translate into French (rewrite with pourtant, placed after the auxiliary): \"Bien qu'elle ait beaucoup révisé, elle a échoué.\"",
             source: "She revised a lot; yet she failed.",
             answer: "Elle a beaucoup révisé ; elle a pourtant échoué.",
-            altAnswers: ["Elle a beaucoup révisé ; pourtant, elle a échoué.", "Elle a beaucoup révisé, pourtant elle a échoué.", "Elle a beaucoup révisé, et pourtant elle a échoué.", "Elle a pourtant beaucoup révisé ; elle a échoué."],
+            altAnswers: ["Elle a beaucoup révisé, elle a pourtant échoué."],
             explanation: "Two independent clauses in the indicative; \"pourtant\" between auxiliary and participle is elegant.",
           },
           {
@@ -1498,7 +1497,7 @@ export const FR_C1_U02: Lesson[] = [
         prompt: "Translate into French with si... que.",
         source: "However expensive the hotel was, the room was tiny.",
         answer: "Si cher que soit l'hôtel, la chambre était minuscule.",
-        altAnswers: ["Si cher qu'ait été l'hôtel, la chambre était minuscule.", "Aussi cher que soit l'hôtel, la chambre était minuscule.", "Aussi cher qu'ait été l'hôtel, la chambre était minuscule."],
+        altAnswers: ["Si cher qu'ait été l'hôtel, la chambre était minuscule."],
         explanation: "\"Si + adjective + que\" + subjunctive, noun subject inverted.",
       },
       {
@@ -1534,7 +1533,7 @@ export const FR_C1_U02: Lesson[] = [
         prompt: "Translate into formal French with néanmoins after the verb.",
         source: "The results are encouraging; the situation nevertheless remains fragile.",
         answer: "Les résultats sont encourageants ; la situation reste néanmoins fragile.",
-        altAnswers: ["Les résultats sont encourageants ; néanmoins, la situation reste fragile.", "Les résultats sont encourageants ; la situation demeure néanmoins fragile."],
+        altAnswers: ["Les résultats sont encourageants ; la situation demeure néanmoins fragile.", "Les résultats sont encourageants, la situation reste néanmoins fragile."],
         explanation: "\"Néanmoins\" after the verb: formal and elegant.",
       },
       {
@@ -1929,7 +1928,7 @@ export const FR_C1_U02: Lesson[] = [
         prompt: "Translate into French with tandis que.",
         source: "The north is rainy, while the south is sunny.",
         answer: "Le nord est pluvieux, tandis que le sud est ensoleillé.",
-        altAnswers: ["Le nord est pluvieux, alors que le sud est ensoleillé.", "Dans le nord il pleut, tandis que le sud est ensoleillé."],
+        altAnswers: ["Dans le nord il pleut, tandis que le sud est ensoleillé.", "Le Nord est pluvieux, tandis que le Sud est ensoleillé."],
         explanation: "\"Tandis que\" + indicative = while, whereas.",
       },
       {
@@ -2118,8 +2117,8 @@ export const FR_C1_U02: Lesson[] = [
             prompt: "Translate into French.",
             source: "All in all, even if the service is slow, the restaurant is worth the trip.",
             answer: "En somme, même si le service est lent, le restaurant mérite le détour.",
-            altAnswers: ["Au final, même si le service est lent, le restaurant mérite le détour.", "En somme, même si le service est lent, le restaurant vaut le détour.", "Au final, même si le service est lent, le restaurant vaut le détour.", "Bref, même si le service est lent, le restaurant mérite le détour."],
-            explanation: "\"En somme\" for the conclusion; \"même si\" + indicative; \"mériter / valoir le détour\".",
+            altAnswers: ["En somme, même si le service est lent, le restaurant vaut le détour.", "Bref, même si le service est lent, le restaurant mérite le détour.", "Bref, même si le service est lent, le restaurant vaut le détour.", "Tout compte fait, même si le service est lent, le restaurant mérite le détour."],
+            explanation: "\"En somme\" (or \"bref\") for the conclusion; \"même si\" + indicative; \"mériter / valoir le détour\". \"Au final\" is common in speech but frowned on in a written review.",
           },
           {
             type: "speak",

@@ -262,7 +262,7 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
         prompt: "Translate into formal written French, with the ne explétif.",
         source: "We'll sign tomorrow, unless the bank refuses.",
         answer: "Nous signerons demain, à moins que la banque ne refuse.",
-        altAnswers: ["Nous signerons demain à moins que la banque ne refuse.", "Nous signerons demain, à moins que la banque refuse."],
+        altAnswers: ["Nous signerons demain à moins que la banque ne refuse."],
         explanation: "\"À moins que\" + subjunctive, with formal \"ne\".",
       },
       {
@@ -987,7 +987,7 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
         prompt: "Translate into formal written French, with the ne explétif.",
         source: "I'm afraid the results may be disappointing.",
         answer: "Je crains que les résultats ne soient décevants.",
-        altAnswers: ["J'ai peur que les résultats ne soient décevants.", "Je crains que les résultats soient décevants."],
+        altAnswers: ["J'ai peur que les résultats ne soient décevants."],
         explanation: "Fear + subjunctive + expletive \"ne\".",
       },
       {
@@ -1022,7 +1022,7 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "Il est normal que tu sois stressé avant un examen.",
-        prompt: "Say it in French to a male friend: It's normal to be stressed before an exam.",
+        prompt: "Say it in French to a male friend: It's normal for you to be stressed before an exam.",
         explanation: "Evaluation \"il est normal que\" → subjunctive \"sois\".",
       },
     ],

@@ -476,7 +476,7 @@ export const FR_C1_U03_EXTRA: Lesson[] = [
         prompt: "Translate into French (turn into a noun phrase): \"Le vote a été reporté à mardi.\"",
         source: "The postponement of the vote to Tuesday",
         answer: "Le report du vote à mardi",
-                explanation: "\"Reporter à\" → \"le report à\".",
+        explanation: "\"Reporter à\" → \"le report à\".",
       },
       {
         type: "listen-choose",
@@ -917,8 +917,8 @@ export const FR_C1_U03_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "Most of the guests left before midnight.",
         answer: "La plupart des invités sont partis avant minuit.",
-        altAnswers: ["L'essentiel des invités est parti avant minuit.", "L'essentiel des invités sont partis avant minuit."],
-        explanation: "\"L'essentiel de\" or \"la plupart de\" = most of.",
+        altAnswers: ["La majorité des invités sont partis avant minuit.", "La majorité des invités est partie avant minuit."],
+        explanation: "\"La plupart de\" or \"la majorité de\" = most of (people). \"L'essentiel de\" is for things, not people.",
       },
       {
         type: "translate",

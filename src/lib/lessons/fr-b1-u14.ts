@@ -528,7 +528,7 @@ export const FR_B1_U14: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Why is \"avait perdu sa voix\" in the plus-que-parfait?",
+            question: "\"Lucas avait perdu sa voix.\" What does this tell you?",
             options: [
               "He lost his voice before the evening of the show.",
               "He was losing his voice slowly during the show.",
@@ -649,8 +649,8 @@ export const FR_B1_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "\"Quand le rideau s'est levé, Lucas ___ sa voix.\" (He had got it back an hour earlier.)",
-        options: ["avait retrouvé", "a retrouvé", "retrouvait", "retrouverait"],
+        question: "How do you say: When the curtain went up, Lucas had got his voice back? (an hour earlier)",
+        options: ["Quand le rideau s'est levé, Lucas avait retrouvé sa voix.", "Quand le rideau s'est levé, Lucas a retrouvé sa voix.", "Quand le rideau s'est levé, Lucas retrouvait sa voix.", "Quand le rideau s'est levé, Lucas retrouverait sa voix."],
         correctIndex: 0,
         explanation: "An earlier event than the curtain rising → plus-que-parfait.",
       },
@@ -1908,7 +1908,7 @@ export const FR_B1_U14: Lesson[] = [
           { es: "Au Sénégal, elle travaillait dans un petit hôpital.", en: "In Senegal, she worked in a small hospital." },
           { es: "Elle vivait avec une famille du village.", en: "She lived with a family from the village." },
           { es: "Elle a vécu trois ans au Sénégal.", en: "She lived in Senegal for three years." },
-          { es: "Chaque week-end, elle apprenait le wolof.", en: "Every weekend, she was learning Wolof." },
+          { es: "Chaque week-end, elle apprenait le wolof.", en: "Every weekend, she studied Wolof." },
         ],
         checkpoint: [
           {
@@ -2271,8 +2271,8 @@ export const FR_B1_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Shift back: \"Le film a commencé.\" → \"Quand on est entrés, le film ___.\"",
-        options: ["avait commencé", "a commencé", "commençait", "aurait commencé"],
+        question: "How do you say: When we went in, the film had started?",
+        options: ["Quand on est entrés, le film avait commencé.", "Quand on est entrés, le film a commencé.", "Quand on est entrés, le film commençait.", "Quand on est entrés, le film aurait commencé."],
         correctIndex: 0,
         explanation: "The start of the film came before entering → PQP.",
       },
@@ -2481,7 +2481,7 @@ export const FR_B1_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Soften \"Éteins la télé !\" as a suggestion.",
+        question: "How do you say: How about switching off the TV? (to a friend)",
         options: ["Si tu éteignais la télé ?", "Si tu éteins la télé ?", "Si tu éteindrais la télé ?", "Que tu éteignes la télé ?"],
         correctIndex: 0,
         explanation: "Si + imparfait (\"éteignais\") is the gentle suggestion.",

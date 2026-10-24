@@ -55,7 +55,7 @@ export const FR_C2_U17: Lesson[] = [
           "\"[sic]\" (Latin for thus, in italics in print) signals that an error, an odd spelling or a shocking word really is in the source and is not yours: « Les résultats sont encourageant [sic] ». Use it sparingly: a string of [sic] after a political opponent's every slip reads as a sneer, and French readers notice the intention.",
         ],
         examples: [
-          { es: "« Tant qu'il existera [...] une damnation sociale [...], des livres de la nature de celui-ci pourront ne pas être inutiles. »", en: "'So long as there shall exist [...] a social condemnation [...], books like this one cannot be useless.' (Hugo, preface to his great novel of 1862)" },
+          { es: "« Tant qu'il existera [...] une damnation sociale [...], des livres de la nature de celui-ci pourront ne pas être inutiles. »", en: "'So long as there shall exist [...] a social condemnation [...], books like this one may not be useless.' (Hugo, preface to his great novel of 1862)" },
           { es: "Le préfet a précisé qu'« il [le projet] ne serait pas abandonné ».", en: "The prefect stated that 'it [the project] would not be abandoned'." },
           { es: "Le communiqué évoque « une baisse des effectifs sans précédant [sic] ».", en: "The press release mentions 'an unprecedented [sic] fall in staff numbers', with the misspelling in the original." },
           { es: "L'auteur parle d'une « crise *morale* avant d'être économique » [nous soulignons].", en: "The author speaks of a 'crisis that is *moral* before it is economic' [emphasis added]." },
@@ -282,7 +282,7 @@ export const FR_C2_U17: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "In 2026 you report a speech of 1998: « Nous voterons cette loi l'an prochain. » Which version is right?",
+            question: "In 2026 you report a speech of 1998: \"Nous voterons cette loi l'an prochain.\" Which version is right?",
             options: ["L'oratrice affirmait qu'ils voteraient cette loi l'année suivante.", "L'oratrice affirmait que nous voterons cette loi l'an prochain.", "L'oratrice affirmait qu'ils voteront cette loi l'an prochain.", "L'oratrice affirmait qu'ils votaient cette loi l'année suivante."],
             correctIndex: 0,
             explanation: "Three shifts: \"nous\" → \"ils\", future → conditional \"voteraient\", \"l'an prochain\" → \"l'année suivante\".",
@@ -429,7 +429,7 @@ export const FR_C2_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Original: « Bon, d'accord, nous avons sous-estimé les coûts. » Which report captures the tone best?",
+        question: "Original: \"Bon, d'accord, nous avons sous-estimé les coûts.\" Which report captures the tone best?",
         options: ["Les dirigeants ont reconnu qu'ils avaient sous-estimé les coûts.", "Les dirigeants ont prétendu qu'ils avaient sous-estimé les coûts.", "Les dirigeants ont exigé qu'ils aient sous-estimé les coûts.", "Les dirigeants ont dit que nous avons sous-estimé les coûts."],
         correctIndex: 0,
         explanation: "\"Bon, d'accord\" signals a reluctant admission: \"reconnaître que\". \"Prétendre\" casts doubt; the last option forgets the shifts.",
@@ -453,7 +453,7 @@ export const FR_C2_U17: Lesson[] = [
         type: "speak",
         text: "La ministre a déclaré qu'elle ne céderait pas.",
         prompt: "Say it in French: The minister said she would not give in.",
-        tip: "\"Céderait\" has an open è in the second syllable: cé-de-rè.",
+        tip: "\"Céderait\": the middle e is usually silent and the ending -rait is an open è: cé-d'rè.",
         explanation: "The conditional \"céderait\" is the future in the past: the original \"je ne céderai pas\" shifts one step back after \"a déclaré\".",
       },
     ],
@@ -1251,8 +1251,8 @@ export const FR_C2_U17: Lesson[] = [
         prompt: "Translate into French.",
         source: "The novel bears an epigraph from Hugo.",
         answer: "Le roman porte en exergue une phrase de Hugo.",
-        altAnswers: ["Le roman porte en exergue une citation de Hugo.", "Le roman porte en épigraphe une phrase de Hugo.", "Le roman porte en épigraphe une citation de Hugo.", "Le roman a pour épigraphe une phrase de Hugo."],
-        explanation: "\"En exergue\" or \"en épigraphe\": the quotation set at the head of a work. \"De Hugo\": the h of Hugo is usually treated as aspirated, so no elision.",
+        altAnswers: ["Le roman porte en exergue une citation de Hugo.", "Le roman porte en épigraphe une phrase de Hugo.", "Le roman porte en épigraphe une citation de Hugo.", "Le roman a pour épigraphe une phrase de Hugo.", "Le roman porte en exergue une phrase d'Hugo.", "Le roman porte en exergue une citation d'Hugo.", "Le roman porte en épigraphe une phrase d'Hugo.", "Le roman porte en épigraphe une citation d'Hugo.", "Le roman a pour épigraphe une phrase d'Hugo."],
+        explanation: "\"En exergue\" or \"en épigraphe\": the quotation set at the head of a work. Careful writing often avoids elision before a surname (\"de Hugo\"), but \"d'Hugo\" is just as common; the h of Hugo is mute, so both are correct.",
       },
       {
         type: "translate",
@@ -1398,7 +1398,7 @@ export const FR_C2_U17: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Original: « Les réseaux sociaux ont profondément modifié la manière dont les jeunes s'informent. » Which rewrite is a legitimate paraphrase?",
+            question: "Original: \"Les réseaux sociaux ont profondément modifié la manière dont les jeunes s'informent.\" Which rewrite is a legitimate paraphrase?",
             options: ["Selon Martin, les jeunes ne s'informent plus du tout comme avant depuis l'essor des réseaux sociaux.", "Les réseaux sociaux ont fortement changé la façon dont les jeunes s'informent.", "Les réseaux sociaux ont profondément modifié la manière dont les adolescents s'informent.", "Les médias sociaux ont nettement transformé la façon dont les jeunes s'informent (Martin)."],
             correctIndex: 0,
             explanation: "Only the first changes structure (the young become the subject, the networks a complement) and names the source. The others swap words in the same skeleton; adding a name to a servile paraphrase doesn't fix it.",
@@ -1679,7 +1679,7 @@ export const FR_C2_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Le télétravail a exposé les inégalités au grand jour. » What is the main problem if this sentence translates an uncited English blog?",
+        question: "\"Le télétravail a exposé les inégalités au grand jour.\" What is the main problem if this sentence translates an uncited English blog?",
         options: ["It is plagiarism (an unreferenced translation), and \"exposer\" is a calque.", "It should use the passé simple.", "It needs [sic] after inégalités.", "Nothing: translation is always original work."],
         correctIndex: 0,
         explanation: "Translating a source without naming it is plagiarism; \"mettre au jour\" or \"révéler\" is the idiomatic verb.",
@@ -1760,6 +1760,6 @@ export const FR_C2_U17_WRITING: WriteExercise = {
     "Reporting verbs chosen for stance: at least three of \"affirmer\", \"soutenir\", \"avancer\", \"reconnaître\", \"prétendre\", \"souligner\", plus the hearsay conditional once.",
     "A reference in French format (\"NOM Prénom, Titre, lieu, éditeur, année, p.\") or a note using \"ibid.\" or \"op. cit.\".",
   ],
-  modelAnswer: "Longtemps conçue comme un sanctuaire du silence, la bibliothèque de quartier a profondément changé de vocation au cours des deux dernières décennies. Claire Leroux, qui a enquêté dans une vingtaine d'établissements lyonnais, souligne que « les usagers ne viennent plus [...] chercher seulement des livres, mais la présence des autres »¹. Elle va jusqu'à qualifier la médiathèque de « salon public », formule qui a fait date. Cette lecture ne fait pourtant pas l'unanimité. Pour Karim Benali, la transformation des bibliothèques en lieux de sociabilité serait moins le fruit d'une demande des habitants que d'une politique municipale soucieuse de justifier ses budgets². L'auteur reconnaît certes que la fréquentation a augmenté depuis l'ouverture le dimanche, mais il avance que cette hausse concerne surtout les publics déjà familiers des lieux. Le désaccord porte donc moins sur les faits que sur leur interprétation : là où Leroux voit l'expression d'un besoin collectif, Benali discerne une stratégie institutionnelle. Il nous semble que ces deux analyses, loin de s'exclure, se complètent : la demande de lien social existe, mais l'offre la façonne autant qu'elle y répond. Encore faudrait-il, pour trancher, disposer d'enquêtes portant sur les non-usagers, qu'aucune des deux études ne prend en compte.\n\n¹ LEROUX Claire, « Les bibliothèques de quartier face au numérique », Revue des sciences sociales, n° 42, 2023, p. 21.\n² BENALI Karim, Lire en ville, Lyon, Presses universitaires, 2021, p. 58-60.",
+  modelAnswer: "Longtemps conçue comme un sanctuaire du silence, la bibliothèque de quartier a profondément changé de vocation au cours des deux dernières décennies. Claire Leroux, qui a enquêté dans une vingtaine d'établissements lyonnais, souligne que « les usagers ne viennent plus [...] chercher seulement des livres, mais la présence des autres »¹. Elle va jusqu'à qualifier la médiathèque de « salon public », formule qui a fait date. Cette lecture ne fait pourtant pas l'unanimité. Pour Karim Benali, la transformation des bibliothèques en lieux de sociabilité serait moins le fruit d'une demande des habitants que d'une politique municipale soucieuse de justifier ses budgets². L'auteur reconnaît certes que la fréquentation a augmenté depuis l'ouverture le dimanche, mais il avance que cette hausse concerne surtout les publics déjà familiers des lieux. Le désaccord porte donc moins sur les faits que sur leur interprétation : là où Leroux voit l'expression d'un besoin collectif, Benali discerne une stratégie institutionnelle. Il nous semble que ces deux analyses, loin de s'exclure, se complètent : la demande de lien social existe, mais l'offre la façonne autant qu'elle y répond. Encore faudrait-il, pour trancher, disposer d'enquêtes portant sur les non-usagers, qu'aucune des deux études ne prend en compte.\n\n¹ LEROUX Claire, « Les bibliothèques de quartier face au numérique », Revue des sciences sociales, n° 42, 2023, p. 21.\n² BENALI Karim, « Lire en ville », in MARTIN Sophie (dir.), Les Lecteurs urbains, Lyon, Presses universitaires, 2021, p. 58-60.",
   explanation: "The quotation is woven into the sentence with « » and a cut [...]; the note call follows the closing guillemet. Benali's view is paraphrased with nominalisation (\"la transformation des bibliothèques\") and the hearsay conditional \"serait\" to report a claim without endorsing it. Stance verbs vary (\"souligne\", \"reconnaît\", \"avance\"), and the footnotes follow the French format with surnames in capitals.",
 };

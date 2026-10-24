@@ -172,7 +172,7 @@ export const DELF_B2_CE: ExamPaper = {
           n: 12,
           question: "Comment l'auteur répond-il à l'argument selon lequel le monde est plus dangereux ?",
           options: [
-            "Il le rejette en affirmant que c'est surtout la perception du danger qui a changé.",
+            "Il le rejette : c'est surtout la perception du danger qui a changé.",
             "Il l'accepte entièrement.",
             "Il dit qu'il manque de statistiques pour juger.",
           ],
@@ -225,7 +225,7 @@ export const DELF_B2_CE: ExamPaper = {
           options: [
             "Parce que les enfants refusent de sortir seuls.",
             "Parce que la loi interdit aux enfants de circuler seuls.",
-            "Parce qu'un parent isolé est jugé par les autres ; il faut une action collective.",
+            "Parce qu'un parent qui agit seul est mal jugé par les autres.",
           ],
           answer: 2,
           explanation: "Le parent qui laisse son enfant seul « passe pour irresponsable » : villes, écoles et parents doivent agir ensemble.",

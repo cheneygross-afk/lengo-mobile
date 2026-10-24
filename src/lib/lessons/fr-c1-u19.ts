@@ -203,7 +203,7 @@ export const FR_C1_U19: Lesson[] = [
         prompt: "A learner wrote: \"C'est genre le seul événement qui rassemble tout le monde.\" Translate into written French.",
         source: "It's the only event that brings everyone together.",
         answer: "C'est le seul événement qui rassemble tout le monde.",
-        altAnswers: ["C'est le seul événement qui rassemble toutes les générations.", "C'est le seul événement qui réunisse tout le monde.", "C'est le seul événement qui rassemble tous les publics.", "C'est le seul événement qui réunit tout le monde.", "C'est le seul événement qui rassemble chacun."],
+        altAnswers: ["C'est le seul événement qui réunisse tout le monde.", "C'est le seul événement qui rassemble tous les publics.", "C'est le seul événement qui réunit tout le monde.", "C'est le seul événement qui rassemble chacun."],
         explanation: "Drop the filler \"genre\". After \"le seul... qui\", the indicative states a fact; the subjunctive (\"réunisse\") adds a subjective judgement: both are possible.",
       },
       {
@@ -269,16 +269,16 @@ export const FR_C1_U19: Lesson[] = [
       {
         heading: "Complaining about noise",
         body: [
-          "Content: your neighbour's music is too loud at night. Familier, to a neighbour you know well: \"Dis, ta musique hier soir, c'était un peu chaud, j'ai pas fermé l'œil ! Tu peux baisser un peu après 22 h ?\" (\"c'était chaud\" = it was a bit much, \"j'ai pas fermé l'œil\" = I didn't sleep a wink).",
+          "Content: your neighbour's music is too loud at night. Familier, to a neighbour you know well: \"Dis, ta musique hier soir, c'était un peu abusé, j'ai pas fermé l'œil ! Tu peux baisser un peu après 22 h ?\" (\"c'était abusé\" = it was a bit much, \"j'ai pas fermé l'œil\" = I didn't sleep a wink).",
           "Courant, a note to a neighbour you don't know: \"Bonjour, je me permets de vous signaler que la musique était assez forte hier soir, après minuit. Serait-il possible de baisser le volume à partir de 22 h ? Merci d'avance, Clara (3e étage).\"",
           "Soutenu, a letter to the building manager (\"le syndic\") after repeated nuisance: \"Je me vois dans l'obligation de vous signaler les nuisances sonores répétées en provenance de l'appartement 12, lesquelles perturbent gravement le repos des occupants. Je vous saurais gré de bien vouloir rappeler à l'intéressé les termes du règlement de copropriété.\" Note \"lesquelles\" (formal relative), \"l'intéressé\" (the person concerned), and the nominalised \"nuisances sonores\".",
         ],
         examples: [
-          { es: "Ta musique hier soir, c'était un peu chaud, j'ai pas fermé l'œil !", en: "Your music last night was a bit much, I didn't sleep a wink! (informal)" },
+          { es: "Ta musique hier soir, c'était un peu abusé, j'ai pas fermé l'œil !", en: "Your music last night was a bit much, I didn't sleep a wink! (informal)" },
           { es: "Je me permets de vous signaler que la musique était assez forte hier soir.", en: "I just wanted to let you know that the music was rather loud last night." },
           { es: "Serait-il possible de baisser le volume à partir de 22 h ?", en: "Would it be possible to turn the volume down after 10 p.m.?" },
           { es: "Je me vois dans l'obligation de vous signaler des nuisances sonores répétées.", en: "I find myself obliged to report repeated noise disturbance to you." },
-          { es: "Ces nuisances, lesquelles perturbent le repos des occupants, durent depuis un mois.", en: "This disturbance, which disrupts the residents' rest, has been going on for a month." },
+          { es: "Les nuisances provenant de l'appartement 12, lesquelles perturbent le repos des occupants, durent depuis un mois.", en: "The noise from flat 12, which disrupts the residents' rest, has been going on for a month." },
           { es: "Je vous saurais gré de rappeler à l'intéressé les termes du règlement de copropriété.", en: "I would be grateful if you would remind the person concerned of the terms of the building regulations." },
         ],
         checkpoint: [
@@ -390,9 +390,9 @@ export const FR_C1_U19: Lesson[] = [
           { left: "J'suis grave à la bourre.", right: "familier" },
           { left: "Je suis un peu en retard.", right: "courant" },
           { left: "Je vous prie de bien vouloir excuser ce retard.", right: "soutenu" },
-          { left: "Ta zique, c'était chaud hier.", right: "familier (slang)" },
+          { left: "Ta zique, c'était abusé hier.", right: "familier (slang)" },
         ],
-        explanation: "\"Grave\", \"à la bourre\", \"zique\" and \"c'est chaud\" are colloquial; \"je vous prie de bien vouloir\" is formal.",
+        explanation: "\"Grave\", \"à la bourre\", \"zique\" and \"abusé\" are colloquial; \"je vous prie de bien vouloir\" is formal.",
       },
       {
         type: "translate",
@@ -520,7 +520,7 @@ export const FR_C1_U19: Lesson[] = [
             prompt: "Translate into French (to a stranger).",
             source: "Whoever you are, you have to wait your turn.",
             answer: "Qui que vous soyez, vous devez attendre votre tour.",
-            altAnswers: ["Qui que vous soyez, il faut attendre votre tour.", "Qui que vous soyez, vous devez attendre comme tout le monde.", "Qui que vous soyez, vous êtes tenu d'attendre votre tour."],
+            altAnswers: ["Qui que vous soyez, il faut attendre votre tour.", "Qui que vous soyez, vous êtes tenu d'attendre votre tour."],
             explanation: "Concessive whoever: \"qui que\" + subjunctive \"soyez\".",
           },
           {
@@ -2437,7 +2437,7 @@ export const FR_C1_U19: Lesson[] = [
       {
         heading: "Belgium and Switzerland",
         body: [
-          "The second message: \"Salut, c'est Lise ! Dis, tu sais venir au kot ce soir ? Il drache depuis midi, prends ton parapluie. Le loyer, c'est septante-cinq euros chacun, une fois. À tantôt !\" Belgian markers: \"savoir\" for pouvoir (\"tu sais venir ?\" = can you come?), \"un kot\" (a student room), \"il drache\" (it's pouring), \"septante\" (70) and \"nonante\" (90), \"une fois\" as a softening particle, \"à tantôt\" (see you later today), \"un GSM\" (mobile phone).",
+          "The second message: \"Salut, c'est Lise ! Dis, tu sais venir au kot ce soir ? Il drache depuis midi, prends ton parapluie. Le loyer, c'est septante-cinq euros chacun. Passe une fois, on en parlera. À tantôt !\" Belgian markers: \"savoir\" for pouvoir (\"tu sais venir ?\" = can you come?), \"un kot\" (a student room), \"il drache\" (it's pouring), \"septante\" (70) and \"nonante\" (90), \"une fois\" as a softening particle after an imperative (\"passe une fois\"), \"à tantôt\" (see you later today), \"un GSM\" (mobile phone).",
           "The third: \"Salut, c'est Noé. Ça joue pour samedi ? On se retrouve à huitante mètres de la gare, j'ai pas de natel, alors sois à l'heure. Merci ! – Service !\" Swiss markers: \"ça joue ?\" (does it work for you?, is that OK?), \"huitante\" (80, in Vaud, Valais and Fribourg), \"le natel\" (mobile phone), \"service !\" (you're welcome), and \"adieu\" used as a greeting in some areas.",
           "Numbers are the quickest clue: \"septante-cinq\" is Belgian or Swiss, \"huitante\" is Swiss, \"soixante-quinze\" is France (and Québec).",
         ],
@@ -2477,7 +2477,7 @@ export const FR_C1_U19: Lesson[] = [
       {
         heading: "West Africa, and choosing the right address",
         body: [
-          "A fourth message, from Dakar: \"On dit quoi, grand frère ? Tonton Amadou est arrivé, il te salue. Ce soir on va au maquis, présentement je suis à l'essencerie. Ma voiture est gâtée, il faut que je trouve un mécanicien.\" Markers: \"on dit quoi ?\" (what's up?), \"grand frère\", \"tonton\", \"tata\" as respectful address terms for older people who aren't relatives, \"le maquis\" (open-air restaurant, Côte d'Ivoire especially), \"présentement\" (right now), \"l'essencerie\" (petrol station, Senegal), \"gâté\" (broken), \"enjailler\" (to have fun, Ivorian), \"une go\" (a girl, girlfriend).",
+          "A fourth message, from Dakar: \"On dit quoi, grand frère ? Tonton Amadou est arrivé, il te salue. Ce soir on va à la dibiterie, présentement je suis à l'essencerie. Ma voiture est gâtée, il faut que je trouve un mécanicien.\" Markers: \"on dit quoi ?\" (what's up?), \"grand frère\", \"tonton\", \"tata\" as respectful address terms for older people who aren't relatives, \"la dibiterie\" (grilled-meat eatery, Senegal), \"le maquis\" (open-air restaurant, Côte d'Ivoire especially), \"présentement\" (right now), \"l'essencerie\" (petrol station, Senegal), \"gâté\" (broken), \"enjailler\" (to have fun, Ivorian), \"une go\" (a girl, girlfriend).",
           "Forms of address vary more than vocabulary. In much of francophone Africa, respect for age is marked by address terms rather than by vous alone: calling an older man \"tonton\" or \"papa\" is polite, not childish. Greetings are longer: asking after the family is part of the ritual.",
           "The Advanced skill is adaptation: understand all of these, and adjust your own French to the situation (vous with an older Belgian landlord, tu with a Montréal flatmate, \"grand frère\" for a friend's older brother in Abidjan), while keeping your own standard French. Imitating a variety you don't master can sound mocking; understanding it and responding naturally sounds respectful.",
         ],

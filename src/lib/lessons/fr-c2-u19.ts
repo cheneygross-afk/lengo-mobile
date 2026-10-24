@@ -30,7 +30,7 @@ export const FR_C2_U19: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "In a speech, the mayor says « Qui pourrait reprocher à ces familles de vouloir rester ? » What does she mean?",
+            question: "In a speech, the mayor says \"Qui pourrait reprocher à ces familles de vouloir rester ?\" What does she mean?",
             options: ["Nobody can blame these families for wanting to stay.", "She wants to know who blames the families.", "Someone has blamed the families for staying.", "The families blame someone for making them stay."],
             correctIndex: 0,
             explanation: "A positive rhetorical question asserts the negative: \"qui pourrait...\" = nobody could.",
@@ -171,7 +171,7 @@ export const FR_C2_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What does « Avons-nous vraiment le choix ? » assert?",
+        question: "What does \"Avons-nous vraiment le choix ?\" assert?",
         options: ["We have no choice.", "We have many choices.", "We need to vote on the choice.", "We don't know whether we have a choice."],
         correctIndex: 0,
         explanation: "A positive rhetorical question asserts the negative.",
@@ -376,7 +376,7 @@ export const FR_C2_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A teacher looks at Lucas and says « Qui a encore oublié son cahier ? » What is she doing?",
+        question: "A teacher looks at Lucas and says \"Qui a encore oublié son cahier ?\" What is she doing?",
         options: ["Reproaching Lucas", "Asking for information", "Making a polite request", "Deliberating aloud"],
         correctIndex: 0,
         explanation: "\"Encore\" and the context (she's looking at the usual culprit) make it a reproach.",
@@ -470,7 +470,7 @@ export const FR_C2_U19: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« Pourquoi cette réforme échoue-t-elle ? Pour une raison simple : personne ne l'a expliquée. » What device is this?",
+            question: "\"Pourquoi cette réforme échoue-t-elle ? Pour une raison simple : personne ne l'a expliquée.\" What device is this?",
             options: ["L'hypophore: the speaker asks and answers.", "A real question to the audience.", "A reproach to the listener.", "A polite request."],
             correctIndex: 0,
             explanation: "The speaker supplies the answer immediately: hypophora.",
@@ -681,7 +681,7 @@ export const FR_C2_U19: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which hypophora actually adds something to the claim « Le projet coûtera cher » ?",
+            question: "Which hypophora actually adds something to the claim \"Le projet coûtera cher\" ?",
             options: ["Combien coûtera ce projet ? Trois fois l'estimation initiale.", "Ce projet coûtera-t-il cher ? Oui, il coûtera cher.", "Êtes-vous assez naïfs pour croire qu'il sera bon marché ?", "Le projet ? Cher."],
             correctIndex: 0,
             explanation: "The answer must bring evidence; repeating the claim or mocking the audience doesn't persuade.",
@@ -1011,7 +1011,7 @@ export const FR_C2_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "In « N'ai-je donc tant vécu que pour cette infamie ? », what does « ne... que » express?",
+        question: "In \"N'ai-je donc tant vécu que pour cette infamie ?\", what does \"ne... que\" express?",
         options: ["only: have I lived this long only for this disgrace?", "not: have I not lived for this disgrace?", "than: have I lived longer than this disgrace?", "nothing: I have lived for nothing but glory."],
         correctIndex: 0,
         explanation: "\"Ne... que\" = only; the rhetorical question voices the dreaded answer: yes, only for this.",
@@ -1076,7 +1076,7 @@ export const FR_C2_U19: Lesson[] = [
         body: [
           "Here is the flat ending of a speech to a town council: \"Il faut garder la médiathèque ouverte, car elle est utile aux habitants.\" True, and forgettable. The workshop: turn it into a closing series that the council will remember.",
           "Step 1, choose a frame that you can repeat: \"Où iront... ?\" works, because the closure is about people losing a place. Step 2, fill it with concrete groups, from the most obvious to the most moving: \"Où iront les lycéens qui révisent le soir ? Où iront les retraités qui lisent le journal au chaud ? Où iront les enfants dont les parents n'ont pas de livres à la maison ?\" Step 3, turn towards the decision-makers: \"Et vous, mesdames et messieurs les élus, où irez-vous leur expliquer votre choix ?\"",
-          "Notice that each question is longer than the previous one, and that the last group (children without books at home) is the most vulnerable: the escalation is both rhythmic and emotional. Victor Hugo's speeches to the Assemblée use the same mechanics with assertions rather than questions, hammering \"Vous n'avez rien fait, tant que...\" until the chamber erupts.",
+          "Notice that each question is longer than the previous one, and that the last group (children without books at home) is the most vulnerable: the escalation is both rhythmic and emotional. Victor Hugo's speech on poverty to the Assemblée (1849) uses the same mechanics with assertions rather than questions, hammering \"Vous n'avez rien fait tant que le peuple souffre !\" and its variations until the chamber erupts.",
         ],
         examples: [
           { es: "Il faut garder la médiathèque ouverte, car elle est utile aux habitants.", en: "The library must stay open, because it is useful to residents. (the flat version)" },
@@ -1461,7 +1461,7 @@ export const FR_C2_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Je ne parlerai pas des 300 000 euros dépensés en réceptions. » What device is this?",
+        question: "\"Je ne parlerai pas des 300 000 euros dépensés en réceptions.\" What device is this?",
         options: ["la prétérition", "l'interpellation", "la dubitation", "l'hypophore"],
         correctIndex: 0,
         explanation: "Announcing you won't mention something while mentioning it is a prétérition.",
@@ -1576,7 +1576,7 @@ export const FR_C2_U19: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "« Est-ce vraiment important ? Passons. » What is the speaker doing?",
+            question: "\"Est-ce vraiment important ? Passons.\" What is the speaker doing?",
             options: ["Dismissing the point as unimportant", "Asking the audience to vote on its importance", "Hesitating about what to say next", "Interpellating the chair"],
             correctIndex: 0,
             explanation: "No pause for an answer and an immediate \"passons\": a dismissive rhetorical question.",
@@ -1672,7 +1672,7 @@ export const FR_C2_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Comment qualifier cette décision ? D'irresponsable. » Which device is this?",
+        question: "\"Comment qualifier cette décision ? D'irresponsable.\" Which device is this?",
         options: ["dubitation (staged doubt)", "interpellation", "real hesitation", "prétérition"],
         correctIndex: 0,
         explanation: "The speaker pretends to search, then lands on a strong, precise word.",

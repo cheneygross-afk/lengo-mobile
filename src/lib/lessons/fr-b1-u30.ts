@@ -755,7 +755,7 @@ export const FR_B1_U30: Lesson[] = [
           {
             type: "speak",
             text: "Les articles soldés ne sont ni repris ni échangés.",
-            tip: "Soldés: the o is closed, like in mot.",
+            tip: "Soldés: sol-dés, with an open o as in sol.",
             explanation: "\"Ni... ni...\" negates both verbs: neither taken back nor exchanged.",
           },
         ],
@@ -1099,7 +1099,7 @@ export const FR_B1_U30: Lesson[] = [
       {
         heading: "In the vat: rennet, curd and heat",
         body: [
-          "Marc continues: « On chauffe le lait à environ 32 degrés, puis on ajoute la présure (rennet), qui fait cailler le lait. Au bout de quarante minutes, le lait s'est transformé en caillé (curd). Le caillé est découpé en grains de la taille d'un grain de riz, puis il est chauffé à 54 degrés en étant brassé (stirred) sans arrêt. »",
+          "Marc continues: \"On chauffe le lait à environ 32 degrés, puis on ajoute la présure (rennet), qui fait cailler le lait. Au bout de quarante minutes, le lait s'est transformé en caillé (curd). Le caillé est découpé en grains de la taille d'un grain de riz, puis il est chauffé à 54 degrés en étant brassé (stirred) sans arrêt.\"",
           "Notice the time markers that structure a process: \"d'abord\", \"puis\", \"ensuite\", \"au bout de\" (after, at the end of a period), \"une fois que\" + passé composé or futur antérieur, \"enfin\". And \"faire\" + infinitive for what makes something happen: \"la présure fait cailler le lait\" (makes the milk curdle).",
         ],
         examples: [
@@ -1132,7 +1132,7 @@ export const FR_B1_U30: Lesson[] = [
       {
         heading: "Pressing, salting and the long wait in the cellar",
         body: [
-          "« Les meules sont pressées pendant une journée, puis elles sont plongées dans de la saumure (brine) ou frottées au sel. Ensuite, elles sont affinées (matured) en cave pendant au moins quatre mois, parfois plus de trois ans. Pendant l'affinage, elles sont retournées et frottées régulièrement. »",
+          "\"Les meules sont pressées pendant une journée, puis elles sont plongées dans de la saumure (brine) ou frottées au sel. Ensuite, elles sont affinées (matured) en cave pendant au moins quatre mois, parfois plus de trois ans. Pendant l'affinage, elles sont retournées et frottées régulièrement.\"",
           "\"Se conserver\" (to keep), \"se vendre\" (to sell), \"se manger\" (to be eaten) are pronominal passives common in food talk: \"Le comté se conserve plusieurs semaines au frigo\", \"Il se mange à l'apéritif ou en fondue\", \"Les meules se vendent jusqu'à 2 000 euros\".",
         ],
         examples: [
@@ -1551,7 +1551,7 @@ export const FR_B1_U30: Lesson[] = [
           {
             type: "speak",
             text: "Ça fait trois jours qu'on n'a pas d'eau chaude.",
-            tip: "Qu'on n'a: say the n twice lightly, kon-na.",
+            tip: "Qu'on n'a: the nasal on runs into the n of the negation, kon-na. Make that n heard.",
             explanation: "\"Ça fait... que\" + present for a situation still going on.",
           },
         ],
@@ -2107,7 +2107,7 @@ export const FR_B1_U30: Lesson[] = [
         heading: "Answering well: experience, motivation, the future",
         body: [
           "For your background, combine the passé composé and the plus-que-parfait: \"J'ai travaillé trois ans chez Airbus. Avant, j'avais fait un stage dans une PME\" (a small business). For motivation, the conditional and \"ce qui\": \"Ce qui m'attire dans ce poste, c'est...\", \"J'aimerais mettre mes compétences au service de...\", \"Ce poste me permettrait de...\".",
-          "The trap: experience. \"Une expérience professionnelle\" (work experience) is countable: \"J'ai une première expérience dans la vente\" (I have some initial experience in sales), \"J'ai cinq ans d'expérience dans le marketing\". Don't calque *je suis expérimenté en*: say \"j'ai de l'expérience dans\" / \"en\". And careful with \"actuellement\" (currently), not *actually*: \"Je suis actuellement en poste chez...\" (I currently work at...).",
+          "The trap: experience. \"Une expérience professionnelle\" (work experience) is countable: \"J'ai une première expérience dans la vente\" (I have some initial experience in sales), \"J'ai cinq ans d'expérience dans le marketing\". \"Je suis expérimenté en\" exists but sounds stiff in speech; say \"j'ai de l'expérience dans\" / \"en\". And careful with \"actuellement\" (currently), not *actually*: \"Je suis actuellement en poste chez...\" (I currently work at...).",
         ],
         examples: [
           { es: "J'ai cinq ans d'expérience dans le marketing.", en: "I have five years' experience in marketing." },
@@ -2126,7 +2126,7 @@ export const FR_B1_U30: Lesson[] = [
             source: "I have five years' experience in marketing.",
             answer: "J'ai cinq ans d'expérience dans le marketing.",
             altAnswers: ["J'ai cinq ans d'expérience en marketing.", "J'ai une expérience de cinq ans dans le marketing.", "J'ai une expérience de cinq ans en marketing."],
-            explanation: "\"Avoir X ans d'expérience dans / en\": no *je suis expérimenté en*.",
+            explanation: "\"Avoir X ans d'expérience dans / en\" is more natural than \"je suis expérimenté en\".",
           },
           {
             type: "fill-blank",
@@ -2187,9 +2187,9 @@ export const FR_B1_U30: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence is natural French for 'I have experience in sales'?",
-        options: ["J'ai de l'expérience dans la vente.", "Je suis expérimenté en vente.", "J'ai une expérience en ventes faites.", "Je suis expériencé dans la vente."],
+        options: ["J'ai de l'expérience dans la vente.", "J'ai d'expérience dans la vente.", "J'ai une expérience en ventes faites.", "Je suis expériencé dans la vente."],
         correctIndex: 0,
-        explanation: "\"Avoir de l'expérience dans\" is the natural phrase; the others are calques or don't exist.",
+        explanation: "\"Avoir de l'expérience dans\" is the natural phrase, with the partitive \"de l'\"; the others are calques or don't exist.",
       },
       {
         type: "translate",
@@ -2389,9 +2389,9 @@ export const FR_B1_U30: Lesson[] = [
       {
         type: "multiple-choice",
         question: "\"Des chiffres ?\" Which answer means 'I haven't received any yet'?",
-        options: ["Je n'en ai pas encore reçu.", "Je ne les ai pas encore reçu.", "Je n'y ai pas encore reçu.", "Je n'en ai pas encore reçus."],
+        options: ["Je n'en ai pas encore reçu.", "Je ne les ai pas encore reçu.", "Je n'y ai pas encore reçu.", "J'en n'ai pas encore reçu."],
         correctIndex: 0,
-        explanation: "\"En\" for an indefinite quantity; the participle doesn't agree with \"en\".",
+        explanation: "\"En\" for an indefinite quantity, placed after \"ne\"; the participle normally doesn't agree with \"en\".",
       },
       {
         type: "word-order",
@@ -2503,7 +2503,7 @@ export const FR_B1_U30: Lesson[] = [
       {
         heading: "Tolls and breakdowns",
         body: [
-          "Most French motorways are paying: \"le péage\" (the toll, and the toll booth). Lanes: \"t\" for télépéage (electronic tag), a card symbol for cards, a green arrow for all payments. \"Prendre un ticket\" when you get on, \"payer au péage\" when you get off.",
+          "Most French motorways have tolls: \"le péage\" (the toll, and the toll booth). Lanes: \"t\" for télépéage (electronic tag), a card symbol for cards, a green arrow for all payments. \"Prendre un ticket\" when you get on, \"payer au péage\" when you get off.",
           "Trouble on the road: \"une crevaison\" (a puncture: \"j'ai crevé\", I've got a flat), \"la roue de secours\" (spare wheel), \"la batterie est à plat\" (the battery's flat), \"tomber en panne\", \"la dépanneuse\" (the breakdown truck), \"appeler l'assistance\". On a motorway you must use \"une borne d'appel d'urgence\" (an emergency phone) or 112, and put on \"le gilet jaune\" (the high-vis vest) before getting out.",
         ],
         examples: [
@@ -2636,7 +2636,7 @@ export const FR_B1_U30: Lesson[] = [
       {
         heading: "The plan: ce que j'avais prévu",
         body: [
-          "Manon, 28, spent three weeks travelling alone around Corsica. Her story uses the whole Intermediate toolkit. She starts with the plan she had made, in the plus-que-parfait: \"J'avais tout prévu: j'avais réservé les ferries, j'avais imprimé les billets et j'avais téléchargé des cartes\".",
+          "Manon, 28, spent three weeks travelling alone around Corsica. Her story uses the whole Intermediate toolkit. She starts with the plan she had made, in the plus-que-parfait: \"J'avais tout prévu : j'avais réservé les ferries, j'avais imprimé les billets et j'avais téléchargé des cartes\".",
           "Her feelings before leaving go in the imparfait, with the subjunctive after emotion and fear: \"Ma mère avait peur qu'il m'arrive quelque chose\" (was afraid something would happen to me), \"J'étais impatiente de partir\", \"Mes amis ne comprenaient pas que je veuille partir seule\".",
         ],
         examples: [
@@ -2818,7 +2818,7 @@ export const FR_B1_U30: Lesson[] = [
         prompt: "Translate into French.",
         source: "What stays with me is how kind people were.",
         answer: "Ce que je retiens, c'est la gentillesse des gens.",
-        altAnswers: ["Ce dont je me souviens, c'est la gentillesse des gens.", "Ce que je retiens, c'est que les gens étaient gentils."],
+        altAnswers: ["Ce dont je me souviens, c'est de la gentillesse des gens.", "Ce que je retiens, c'est que les gens étaient gentils."],
         explanation: "\"Ce que\" + \"c'est\" highlights the main point; \"la gentillesse\" is kindness.",
       },
     ],

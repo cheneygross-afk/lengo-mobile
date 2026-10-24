@@ -72,7 +72,7 @@ export const FR_B1_U20: Lesson[] = [
         examples: [
           { es: "« Bon appétit », ça se dit au travail ?", en: "Do people say 'enjoy your meal' at work?" },
           { es: "Ça ne se fait pas d'arriver les mains vides.", en: "It isn't done to turn up empty-handed." },
-          { es: "Ça ne se dit pas, c'est très vulgaire.", en: "You don't say that, it's very rude." },
+          { es: "Ça ne se dit pas, c'est très vulgaire.", en: "You don't say that, it's really crude." },
           { es: "Tu es fatigué ? Ça se voit.", en: "You're tired? It shows." },
           { es: "Il est marseillais, ça s'entend.", en: "He's from Marseille, you can hear it." },
           { es: "Elle est déçue, ça se comprend.", en: "She's disappointed, which is understandable." },
@@ -373,7 +373,7 @@ export const FR_B1_U20: Lesson[] = [
         prompt: "Translate into French.",
         source: "Have you had your flu jab? (to a friend)",
         answer: "Tu t'es fait vacciner contre la grippe ?",
-        altAnswers: ["Est-ce que tu t'es fait vacciner contre la grippe ?", "Tu t'es fait vacciner ?"],
+        altAnswers: ["Est-ce que tu t'es fait vacciner contre la grippe ?"],
         explanation: "\"Se faire vacciner\" = to get vaccinated.",
       },
       {
@@ -1535,7 +1535,7 @@ export const FR_B1_U20: Lesson[] = [
       {
         heading: "Hearing the difference",
         body: [
-          "For many verbs the two moods sound different: \"vient\" / \"vienne\" (vyè / vyèn), \"fait\" / \"fasse\", \"est\" / \"soit\", \"a\" / \"ait\" (an a sound vs an è sound), \"va\" / \"aille\", \"part\" / \"parte\" (you hear the t). For -er verbs they often sound the same: \"il appelle\" / \"qu'il appelle\".",
+          "For many verbs the two moods sound different: \"vient\" / \"vienne\" (a nasal vowel vs a clear n at the end), \"fait\" / \"fasse\", \"est\" / \"soit\", \"a\" / \"ait\" (an a sound vs an è sound), \"va\" / \"aille\", \"part\" / \"parte\" (you hear the t). For -er verbs they often sound the same: \"il appelle\" / \"qu'il appelle\".",
           "Ask yourself: is the speaker reporting what someone says (indicative) or relaying an instruction (subjunctive)? \"Il dit qu'il part\" (he says he's leaving) vs \"Dis-lui qu'il parte\" (tell him to leave).",
         ],
         examples: [
@@ -1703,7 +1703,7 @@ export const FR_B1_U20: Lesson[] = [
         heading: "At the table: ça se fait, ça ne se fait pas",
         body: [
           "Table manners: \"Le pain se pose sur la table, pas dans l'assiette\", \"Le fromage se mange avant le dessert\", \"Ça ne se fait pas de commencer avant que tout le monde soit servi\" (avant que + subjunctive, recognised here).",
-          "Language has its rules too: \"Bon appétit\" is said very often, although some people consider it old-fashioned at a formal dinner. And \"Je suis plein\" is never said for I'm full (it suggests being drunk or, for an animal, pregnant): say \"J'ai bien mangé\" or \"Je n'ai plus faim\".",
+          "Language has its rules too: \"Bon appétit\" is said very often, although etiquette guides consider it bad form at a formal dinner. And \"Je suis plein\" is best avoided for I'm full: \"être plein\" is slang for being drunk, and \"pleine\" is used for a pregnant animal. Say \"J'ai bien mangé\" or \"Je n'ai plus faim\".",
         ],
         examples: [
           { es: "Le pain se pose directement sur la table.", en: "Bread goes straight on the table." },

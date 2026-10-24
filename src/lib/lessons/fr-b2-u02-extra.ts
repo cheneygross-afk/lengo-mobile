@@ -103,7 +103,7 @@ export const FR_B2_U02_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "There were ten guests, [among whom] my boss.",
+        en: "There were ten guests, [including] my boss.",
         sentence: "Il y avait dix invités, ___ mon patron.",
         answer: "parmi lesquels",
         altAnswers: ["dont"],
@@ -616,7 +616,7 @@ export const FR_B2_U02_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "There were thirty runners, among whom my sister.",
+        source: "There were thirty runners, including my sister.",
         answer: "Il y avait trente coureurs, parmi lesquels ma sœur.",
         altAnswers: ["Il y avait trente coureurs, dont ma sœur.", "Il y avait trente coureurs, parmi lesquels il y avait ma sœur."],
         explanation: "\"Parmi lesquels\" even for people.",

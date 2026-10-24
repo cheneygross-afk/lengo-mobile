@@ -423,7 +423,7 @@ export const FR_B1_U24: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "I'm about to go there.", answer: "Je suis sur le point d'y aller.", altAnswers: ["Je vais y aller.", "J'y vais."], explanation: "\"Y\" before \"aller\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "I'm about to go there.", answer: "Je suis sur le point d'y aller.", altAnswers: ["Je vais y aller."], explanation: "\"Y\" before \"aller\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "I'm writing it to you right now. (to a friend)", answer: "Je suis en train de te l'écrire.", explanation: "\"Te l'\" before the infinitive." },
       { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "I had just told him when you arrived. (to a friend)", answer: "Je venais de le lui dire quand tu es arrivé.", altAnswers: ["Je venais de le lui dire quand tu es arrivée.", "Je venais de lui dire quand tu es arrivé."], explanation: "\"Venais de\" = had just." },
       { type: "fill-blank", prompt: "Write the French for the bold words.", en: "We're [about to send them to them].", sentence: "On est ___.", answer: "sur le point de les leur envoyer", explanation: "\"Les leur\" before the infinitive." },
@@ -595,7 +595,7 @@ export const FR_B1_U24: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "I save two hours of commuting a day.", answer: "Je gagne deux heures de trajet par jour.", altAnswers: ["J'économise deux heures de trajet par jour."], explanation: "\"Gagner du temps\" = to save time." },
-      { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "My colleagues, I never see them any more!", answer: "Mes collègues, je ne les vois plus !", altAnswers: ["Mes collègues, je ne les vois jamais !"], explanation: "\"Ne... plus\" around \"les vois\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "My colleagues, I never see them any more!", answer: "Mes collègues, je ne les vois plus !", altAnswers: ["Mes collègues, je ne les vois plus jamais !"], explanation: "\"Ne... plus\" around \"les vois\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "I get bored there.", answer: "Je m'y ennuie.", explanation: "Reflexive \"m'\" then \"y\"." },
       { type: "fill-blank", prompt: "Write the French for the bold words.", en: "In the evening, I find it hard [to switch off from it].", sentence: "Le soir, j'ai du mal à ___.", answer: "m'en déconnecter", explanation: "\"Se déconnecter de\" → \"m'en déconnecter\"." },
       { type: "multiple-choice", question: "I'd rather not stay there every day. Which is right?", options: ["Je préfère ne pas y rester tous les jours.", "Je préfère n'y pas rester tous les jours.", "Je préfère y ne pas rester tous les jours.", "Je n'y préfère pas rester tous les jours."], correctIndex: 0, explanation: "\"Ne pas\" together before \"y\" + infinitive." },
@@ -679,7 +679,7 @@ export const FR_B1_U24: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "Show it to me. (the photo, to a friend)", answer: "Montre-la-moi.", explanation: "\"La\" before \"moi\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "Don't show it to me. (the photo, to a friend)", answer: "Ne me la montre pas.", explanation: "Negative: \"me la\" before the verb." },
-      { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "I left without giving them to him. (the keys, a woman speaking)", answer: "Je suis partie sans les lui donner.", altAnswers: ["Je suis partie sans les lui rendre."], explanation: "\"Sans\" + \"les lui\" + infinitive." },
+      { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "I left without giving them to him. (the keys, a woman speaking)", answer: "Je suis partie sans les lui donner.", explanation: "\"Sans\" + \"les lui\" + infinitive." },
       { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "Try not to lose them. (to a friend)", answer: "Essaie de ne pas les perdre.", altAnswers: ["Essaye de ne pas les perdre."], explanation: "Negative infinitive: \"ne pas les perdre\"." },
       { type: "fill-blank", prompt: "Write the French for the bold words.", en: "[Give it back to them]! (the ball, to a child)", sentence: "___ !", answer: "Rends-le-leur", explanation: "\"Le\" then \"leur\" after the verb." },
       { type: "multiple-choice", question: "Which sentence has no mistake?", options: ["Ne t'inquiète pas.", "Ne t'inquiète-toi pas.", "Ne inquiète-toi pas.", "T'inquiète-toi pas."], correctIndex: 0, explanation: "One reflexive pronoun, before the verb, in the negative." },
@@ -737,7 +737,7 @@ export const FR_B1_U24: Lesson[] = [
           { es: "Ces parcs sont de vrais îlots de fraîcheur en été.", en: "These parks are real cool spots in summer." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "It's going to plant as many again.", answer: "Elle va en planter encore autant.", altAnswers: ["Elle va en planter autant.", "Elle en plantera encore autant."], explanation: "\"En\" before the infinitive \"planter\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "It's going to plant as many again.", answer: "Elle va en planter encore autant.", altAnswers: ["Elle en plantera encore autant."], explanation: "\"En\" before the infinitive \"planter\"." },
           { type: "multiple-choice", question: "Green roofs? It's installed them on all the schools. Which is right?", options: ["Elle en a installé sur toutes les écoles.", "Elle en a installés sur toutes les écoles.", "Elle a en installé sur toutes les écoles.", "Elle les en a installé sur toutes les écoles."], correctIndex: 0, explanation: "\"En\" before the auxiliary, no agreement." },
         ],
       },
@@ -768,7 +768,7 @@ export const FR_B1_U24: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "Herbs? Take some, there's enough for everyone. (to visitors)", answer: "Des herbes ? Prenez-en, il y en a pour tout le monde.", altAnswers: ["Des herbes ? Servez-vous, il y en a pour tout le monde."], explanation: "\"Prenez-en\" and \"il y en a\"." },
       { type: "fill-blank", prompt: "Write the French for the bold words.", en: "The compost? [Help yourselves].", sentence: "Le compost ? ___.", answer: "Servez-vous-en", altAnswers: ["Servez-vous"], explanation: "\"Se servir de\" → \"servez-vous-en\"." },
       { type: "multiple-choice", question: "Children, keep an eye on them near the pond. Which is right?", options: ["Les enfants, surveillez-les près de la mare.", "Les enfants, les surveillez près de la mare.", "Les enfants, surveillez-leur près de la mare.", "Les enfants, surveillez-y près de la mare."], correctIndex: 0, explanation: "\"Surveiller\" takes a direct object: \"surveillez-les\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "The flowers, don't pull them up.", answer: "Les fleurs, ne les arrachez pas.", altAnswers: ["Les fleurs, ne les arrache pas.", "Les fleurs, ne les cueillez pas."], explanation: "Negative: \"les\" before the verb." },
+      { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "The flowers, don't pull them up.", answer: "Les fleurs, ne les arrachez pas.", altAnswers: ["Les fleurs, ne les arrache pas."], explanation: "Negative: \"les\" before the verb." },
       { type: "word-order", prompt: "Put the words in order to say: Each member looks after their plot.", words: ["Chaque", "membre", "s'occupe", "de", "sa parcelle."], translation: "Each member looks after their plot.", explanation: "\"S'occuper de\"; \"chaque\" takes a singular verb." },
       { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "The town hall planted 5,000 trees.", answer: "La mairie a planté 5 000 arbres.", altAnswers: ["La mairie a planté cinq mille arbres."], explanation: "French writes thousands with a space: \"5 000\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "Don't throw anything in there. (to the public)", answer: "N'y jetez rien.", explanation: "\"Y\" before the verb, \"ne... rien\"." },

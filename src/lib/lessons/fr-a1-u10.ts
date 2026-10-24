@@ -69,7 +69,7 @@ export const FR_A1_U10: Lesson[] = [
           {
             type: "speak",
             text: "Les enfants ont un chien.",
-            tip: "Two liaisons: \"lé-zan-fan\" and \"on-tun\".",
+            tip: "Two liaisons: 'lé-zan-fan' and 'on-tun'.",
             explanation: "The s of \"les\" sounds like z before a vowel, and \"ont un\" links with a t sound.",
           },
         ],
@@ -236,7 +236,7 @@ export const FR_A1_U10: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say I know Marseille well?",
+            question: "How do you say: I know Marseille well?",
             options: ["Je connais bien Marseille.", "Je sais bien Marseille.", "Je connais bien à Marseille.", "Je sais Marseille bien."],
             correctIndex: 0,
             explanation: "Places and people take \"connaître\"; \"savoir\" is for facts and skills.",
@@ -363,7 +363,7 @@ export const FR_A1_U10: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the right way to say I don't know anybody here?",
+        question: "Which is the right way to say: I don't know anybody here?",
         options: ["Je ne connais personne ici.", "Je ne connais pas personne ici.", "Je connais personne pas ici.", "Je ne personne connais ici."],
         correctIndex: 0,
         explanation: "\"Ne... personne\" wraps the verb like \"ne... pas\", and replaces \"pas\": never \"pas personne\".",
@@ -437,7 +437,7 @@ export const FR_A1_U10: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say It's cold today?",
+            question: "How do you say: It's cold today?",
             options: ["Il fait froid aujourd'hui.", "Il est froid aujourd'hui.", "C'est froid aujourd'hui.", "J'ai froid aujourd'hui."],
             correctIndex: 0,
             explanation: "Weather uses \"il fait\". \"J'ai froid\" is about you, not the weather.",
@@ -646,11 +646,11 @@ export const FR_A1_U10: Lesson[] = [
         source: "She's reading a book and he's writing an email.",
         answer: "Elle lit un livre et il écrit un mail.",
         altAnswers: ["Elle lit un livre et il écrit un e-mail.", "Elle lit un livre et il écrit un courriel."],
-        explanation: "\"Lire\": elle lit; \"écrire\": il écrit. One present for is reading.",
+        explanation: "\"Lire\": elle lit; \"écrire\": il écrit. French uses its one present tense for is reading.",
       },
       {
         type: "multiple-choice",
-        question: "How do you say I'm putting on a jumper?",
+        question: "How do you say: I'm putting on a jumper?",
         options: ["Je mets un pull.", "Je porte un pull.", "Je mettre un pull.", "Je met un pull."],
         correctIndex: 0,
         explanation: "Putting on is \"mettre\": \"je mets\" with an s. \"Je porte\" means I'm wearing.",
@@ -1237,7 +1237,7 @@ export const FR_A1_U10: Lesson[] = [
         type: "listen-choose",
         audio: "Et avec ceci ?",
         question: "What is the stallholder asking?",
-        options: ["Anything else?", "Is that all?", "With a bag?", "Is it for here?"],
+        options: ["Anything else?", "Do you want a receipt?", "With a bag?", "Is it for here?"],
         correctIndex: 0,
         explanation: "\"Et avec ceci ?\" is the shopkeeper's anything else?",
       },

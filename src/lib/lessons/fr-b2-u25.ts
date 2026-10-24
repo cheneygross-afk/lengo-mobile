@@ -414,9 +414,9 @@ export const FR_B2_U25: Lesson[] = [
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
         en: "[What] the village needs is young families.",
-        sentence: "___ le village a besoin, ce sont des jeunes familles.",
+        sentence: "___ le village a besoin, c'est de jeunes familles.",
         answer: "Ce dont",
-        explanation: "\"Avoir besoin de\" → \"ce dont\". *\"Ce que le village a besoin\" is the classic mistake.",
+        explanation: "\"Avoir besoin de\" → \"ce dont\", and careful French repeats the \"de\" after \"c'est\". *\"Ce que le village a besoin\" is the classic mistake.",
       },
       {
         type: "dictation",
@@ -467,7 +467,7 @@ export const FR_B2_U25: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does « une ordonnance » mean at the pharmacy?",
+            question: "What does \"une ordonnance\" mean at the pharmacy?",
             options: ["a prescription", "an order of goods", "a local law", "a delivery note"],
             correctIndex: 0,
             explanation: "\"Une ordonnance\" is the doctor's prescription; a local law would be \"un arrêté\" and an order of goods \"une commande\".",
@@ -667,8 +667,8 @@ export const FR_B2_U25: Lesson[] = [
             prompt: "Translate into French.",
             source: "They had met on a forum two years earlier.",
             answer: "Ils s'étaient rencontrés sur un forum deux ans plus tôt.",
-            altAnswers: ["Ils s'étaient rencontrés sur un forum deux ans auparavant.", "Ils s'étaient connus sur un forum deux ans plus tôt.", "Ils s'étaient connus sur un forum deux ans auparavant."],
-            explanation: "Past of the past → plus-que-parfait with \"être\" for the reflexive \"se rencontrer\"; earlier is \"plus tôt\" or \"auparavant\", not \"avant\" alone after a duration.",
+            altAnswers: ["Ils s'étaient rencontrés sur un forum deux ans auparavant.", "Ils s'étaient connus sur un forum deux ans plus tôt.", "Ils s'étaient connus sur un forum deux ans auparavant.", "Ils s'étaient rencontrés sur un forum deux ans avant.", "Ils s'étaient connus sur un forum deux ans avant."],
+            explanation: "Past of the past → plus-que-parfait with \"être\" for the reflexive \"se rencontrer\"; earlier is \"plus tôt\" or \"auparavant\" (\"avant\" also works after a duration, but never \"il y a\", which counts back from now).",
           },
           {
             type: "fill-blank",
@@ -1459,7 +1459,7 @@ export const FR_B2_U25: Lesson[] = [
         prompt: "Translate into French.",
         source: "What I can't get used to is the rent.",
         answer: "Ce à quoi je ne m'habitue pas, c'est le loyer.",
-        altAnswers: ["Ce à quoi je n'arrive pas à m'habituer, c'est le loyer.", "Ce à quoi je ne m'habitue pas, ce sont les loyers.", "Ce à quoi je ne m'habitue pas, c'est le prix des loyers."],
+        altAnswers: ["Ce à quoi je n'arrive pas à m'habituer, c'est le loyer.", "Ce à quoi je ne m'habitue pas, ce sont les loyers.", "Ce à quoi je ne m'habitue pas, c'est le prix des loyers.", "Ce à quoi je ne m'habitue pas, c'est au loyer.", "Ce à quoi je n'arrive pas à m'habituer, c'est au loyer."],
         explanation: "\"S'habituer à\" → \"ce à quoi\".",
       },
       {
@@ -1769,7 +1769,7 @@ export const FR_B2_U25: Lesson[] = [
             prompt: "Translate into French.",
             source: "It's a tool you use to cut wood.",
             answer: "C'est un outil dont on se sert pour couper du bois.",
-            altAnswers: ["C'est un outil qu'on utilise pour couper du bois.", "C'est un outil dont on se sert pour couper le bois.", "C'est un outil qu'on utilise pour couper le bois.", "C'est un outil que l'on utilise pour couper du bois.", "C'est un outil dont l'on se sert pour couper du bois."],
+            altAnswers: ["C'est un outil qu'on utilise pour couper du bois.", "C'est un outil dont on se sert pour couper le bois.", "C'est un outil qu'on utilise pour couper le bois.", "C'est un outil que l'on utilise pour couper du bois."],
             explanation: "\"Se servir de\" → \"dont\"; \"utiliser\" (direct object) → \"que\".",
           },
           {
@@ -1882,7 +1882,7 @@ export const FR_B2_U25: Lesson[] = [
         en: "It's a colander: a utensil [that you use] to drain pasta.",
         sentence: "C'est une passoire : un ustensile ___ pour égoutter les pâtes.",
         answer: "qu'on utilise",
-        altAnswers: ["que l'on utilise", "dont on se sert", "dont l'on se sert"],
+        altAnswers: ["que l'on utilise", "dont on se sert"],
         explanation: "\"Utiliser\" takes a direct object, so \"que\"; with \"se servir de\" it would be \"dont\".",
       },
       {

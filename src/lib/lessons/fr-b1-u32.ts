@@ -191,7 +191,7 @@ export const FR_B1_U32: Lesson[] = [
         source: "Finely chop the garlic. (to a friend)",
         answer: "Hache finement l'ail.",
         altAnswers: ["Hache l'ail finement.", "Émince finement l'ail."],
-        explanation: "\"Hacher\" = to chop finely; the h is aspirated, but that only matters for elision: \"je hache\".",
+        explanation: "\"Hacher\" = to chop finely; the h is aspirated, so there is no elision: \"je hache\", not *j'hache*.",
       },
       {
         type: "multiple-choice",
@@ -238,7 +238,7 @@ export const FR_B1_U32: Lesson[] = [
           "\"Gaspiller\" is to waste (\"gaspiller son argent\"), \"une dépense\" an expense, \"le budget\", \"les fins de mois difficiles\" (struggling to get to the end of the month). Familiar: \"le fric\", \"les sous\", \"être fauché\" (to be broke), \"ça coûte les yeux de la tête\" (it costs an arm and a leg).",
         ],
         examples: [
-          { es: "Elle gagne bien sa vie depuis qu'elle a changé de poste.", en: "She's earned a good living since she changed jobs." },
+          { es: "Elle gagne bien sa vie depuis qu'elle a changé de poste.", en: "She's been earning a good living since she changed jobs." },
           { es: "J'ai dépensé tout mon salaire en une semaine.", en: "I spent my whole salary in a week." },
           { es: "On a passé le week-end à faire des comptes.", en: "We spent the weekend doing the accounts." },
           { es: "Je suis fauché jusqu'à la fin du mois.", en: "I'm broke until the end of the month." },
@@ -1096,7 +1096,7 @@ export const FR_B1_U32: Lesson[] = [
           {
             type: "speak",
             text: "J'ai obtenu une bourse pour mon master.",
-            tip: "Bourse: the ou is a long oo sound, not like English bourse.",
+            tip: "Bourse: ou as in food, then a French r; one syllable, bourss.",
             explanation: "\"Une bourse\" = a grant; it's also the stock exchange (\"la Bourse\").",
           },
         ],
@@ -1675,7 +1675,7 @@ export const FR_B1_U32: Lesson[] = [
         examples: [
           { es: "Le conducteur aurait perdu le contrôle de son véhicule.", en: "The driver reportedly lost control of his vehicle." },
           { es: "Il y aurait trois blessés, dont un grave.", en: "There are said to be three injured, one seriously." },
-          { es: "Selon les témoins, le suspect serait un homme d'une trentaine d'années.", en: "According to witnesses, the suspect is a man in his thirties." },
+          { es: "Selon les témoins, le suspect serait un homme d'une trentaine d'années.", en: "According to witnesses, the suspect is said to be a man in his thirties." },
           { es: "Le feu serait parti d'une cigarette mal éteinte.", en: "The fire is thought to have started from a cigarette that wasn't properly put out." },
           { es: "D'après la gendarmerie, les cambrioleurs seraient entrés par le garage.", en: "According to the gendarmerie, the burglars allegedly got in through the garage." },
         ],
@@ -1788,7 +1788,7 @@ export const FR_B1_U32: Lesson[] = [
         prompt: "Translate into French.",
         source: "The accident left two people slightly injured.",
         answer: "L'accident a fait deux blessés légers.",
-        altAnswers: ["L'accident a fait deux blessés.", "Il y a eu deux blessés légers dans l'accident."],
+        altAnswers: ["Il y a eu deux blessés légers dans l'accident."],
         explanation: "\"Faire\" + victims is the standard news phrase: \"l'accident a fait deux blessés\".",
       },
     ],
