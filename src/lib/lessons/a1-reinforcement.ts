@@ -97,12 +97,12 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         ],
         "Each reply reuses the verb or idea of its question: llamas → llamo, eres → soy."
       ),
-      fb(
+      { ...fb(
         "Complete the introduction.",
         "Hola, yo ___ Marta y soy de Madrid.",
         "soy",
-        "Yo takes soy. You can also say me llamo Marta — but only soy fits this blank on its own."
-      ),
+        "Yo takes soy. \"Yo me llamo Marta\" would also fit, but this exercise practises ser."
+      ), altAnswers: ["me llamo"] },
       mc(
         "You're introducing two friends to your teacher. How do you say \"They are from Mexico\"?",
         ["Ellos son de México.", "Ellos es de México.", "Ellos somos de México.", "Ellos eres de México."],
@@ -846,7 +846,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         "Ser aburrido = to be boring (a trait); estar aburrido = to be bored (a state)."
       ),
       toEs("The bank is next to the school.", "El banco está al lado de la escuela.", "Location → estar. De + el contracts to del only with el — here it's de la.", ["El banco está junto a la escuela."]),
-      wo("La clase es en el aula número cinco.", "The class is an event → ser for where it takes place.", "The class is in classroom number five."),
+      wo("La clase es en el aula número cinco.", "The class is an event → ser for where it takes place. (Aula is feminine but takes el because it starts with a stressed a: el aula.)", "The class is in classroom number five."),
     ]
   ),
   L(
@@ -1248,7 +1248,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         "Answer: \"Viajamos a México.\" What was the question?",
         ["¿Adónde viajan ustedes?", "¿Dónde están ustedes?", "¿De dónde son ustedes?", "¿Cuándo viajan ustedes?"],
         0,
-        "Viajamos a México is movement toward a place, so ¿Adónde viajan? \"¿Dónde están?\" asks location, \"¿De dónde son?\" asks origin, and \"¿Cuándo viajan?\" would need a time."
+        "Viajamos a México tells where you are travelling to, so the question is ¿Adónde viajan ustedes? (adónde = a + dónde, 'to where', used with verbs of movement). \"¿Dónde están?\" asks location, \"¿De dónde son?\" asks origin, and \"¿Cuándo viajan?\" would need a time."
       ),
       toEs("Why are you (informal) studying Spanish?", "¿Por qué estudias español?", "Por qué (two words, accent) asks why.", ["¿Por qué tú estudias español?", "¿Por qué estás estudiando español?"]),
       wo("¿Cuántas personas hay en tu familia?", "Cuántas agrees with personas.", "How many people are there in your family?"),
@@ -1383,7 +1383,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
     "gustar-mastery-check",
     "a1r-dialogue-me-too-me-neither",
     "Dialogue Lab: Me Too, Me Neither",
-    "Agree and disagree about likes — and learn why \"yo también\" is wrong after gustar.",
+    "Agree and disagree about likes — and learn why a mí también (not yo también) is the standard reply after gustar.",
     "7 min",
     [
       sec(
@@ -1433,7 +1433,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         "To agree with a positive statement, use también, even with nosotros: a nosotros también. \"Tampoco\" is for agreeing with a negative, and \"sí\" and \"no\" alone would disagree."
       ),
       mc(
-        "Why is \"Yo también\" wrong as a reply to \"Me gusta el té\"?",
+        "Why is \"A mí también\", not \"Yo también\", the standard reply to \"Me gusta el té\"?",
         [
           "Gustar's person is expressed with a mí, so the reply mirrors a mí.",
           "Yo is too informal.",
@@ -1441,7 +1441,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
           "It isn't wrong at all.",
         ],
         0,
-        "The original sentence has no yo; it has me (a mí), so the reply mirrors it: A mí también. It's not about formality, and también can follow yo with ordinary verbs (Yo también como)."
+        "The original sentence has no yo; it has me (a mí), so the standard reply mirrors it: A mí también. Yo también is heard in everyday speech, but it is not the model reply, and with ordinary verbs yo también is fine (Yo también como)."
       ),
       toEs("I don't like tomatoes. — Me neither.", "No me gustan los tomates. —A mí tampoco.", "Plural thing → gustan; agreeing with a negative → tampoco.", ["No me gustan los tomates. A mí tampoco."]),
       toEn("—Me encanta bailar. —¡A mí no!", "I love dancing. — I don't!", "Encantar works like gustar and means \"to love\" (a thing or activity).", ["I love to dance. I don't!", "I love dancing. Not me!"]),
@@ -1481,7 +1481,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Complete the interview question.", "¿___ es tu comida favorita?", "Cuál", "Picking one option from many → ¿Cuál es…?"),
+      fb("Complete the interview question.", "¿___ es tu comida favorita?", "Cuál", "¿Qué es…? asks for a definition (What is paella?); asking which one among many (favorite food, number, address) takes ¿Cuál es…?"),
       fb("Complete with ser or estar.", "Mi comida favorita ___ la paella.", "es", "Identifying or defining something takes ser: mi comida favorita es la paella."),
       fb("Complete with gusta or gustan.", "¿Te ___ los deportes?", "gustan", "Los deportes → plural → gustan."),
       mc(
@@ -2118,7 +2118,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
       ),
       sec(
         "Gran vs. grande",
-        "Grande after the noun means big. Before any singular noun it becomes gran and means great.",
+        "Grande after the noun means big. Before a singular noun it becomes gran and usually means great or impressive (with some nouns it can also mean large, as in un gran problema).",
         [
           ["una casa grande", "a big house"],
           ["una gran casa", "a great house"],
@@ -2154,10 +2154,10 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         "Bueno shortens to buen before a masculine singular noun, so \"un bueno restaurante\" is wrong. Gran ciudad and buenos amigos are correct."
       ),
       mc(
-        "\"Madrid is a big city\" (about size) is…",
-        ["Madrid es una ciudad grande.", "Madrid es una gran ciudad.", "Madrid es una grande ciudad.", "Madrid es una ciudad gran."],
+        "\"My neighbor is a big man\" (about size) is…",
+        ["Mi vecino es un hombre grande.", "Mi vecino es un gran hombre.", "Mi vecino es un grande hombre.", "Mi vecino es un hombre gran."],
         0,
-        "About size, grande goes after the noun: una ciudad grande. \"Una gran ciudad\" means a great city, \"grande\" shortens to gran before a noun, and \"gran\" can't go after one."
+        "About size, grande goes after the noun: un hombre grande. \"Un gran hombre\" means a great man, \"grande\" shortens to gran before a noun, and \"gran\" can't go after one."
       ),
       toEs("He is a good teacher and a great person.", "Es un buen profesor y una gran persona.", "Buen before masculine profesor; gran before persona.", ["Él es un buen profesor y una gran persona."]),
       wo("Hoy es el primer día de clase.", "Primero → primer before día.", "Today is the first day of class."),
@@ -2527,7 +2527,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
     "gustar-drill-3",
     "a1r-mission-dinner-for-friends",
     "Real-World Mission: Planning a Dinner for Friends",
-    "Your friends each have likes, dislikes and allergies. Use gustar, encantar and interesar to plan a menu everyone can eat.",
+    "Your friends each have likes and dislikes. Use gustar, encantar and interesar to plan a menu everyone can eat.",
     "8 min",
     [
       sec(
@@ -2536,7 +2536,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         [
           ["A Marta le encanta el pescado.", "Marta loves fish."],
           ["A Luis no le gustan las verduras.", "Luis doesn't like vegetables."],
-          ["A los gemelos les gusta todo, pero no comen carne.", "The twins like everything, but they don't eat meat."],
+          ["A los gemelos les gusta todo, menos la carne.", "The twins like everything except meat."],
         ],
         [
           mc(
@@ -3101,7 +3101,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
       fb("Complete with al or a la.", "Los domingos vamos ___ iglesia.", "a la", "Iglesia is feminine → a la."),
       mc("Odd one out:", ["hospital", "farmacia", "montaña", "doctor"], 3, "Hospital, farmacia and montaña are places; doctor is a person."),
       mc(
-        "Where do you go para comprar medicinas?",
+        "Where do you go to buy medicine?",
         ["a la farmacia", "al museo", "al gimnasio", "a la playa"],
         0,
         "You buy medicine at the farmacia (pharmacy). You don't buy it at a museum, gym or beach."
@@ -3369,7 +3369,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "Hambre is a feminine noun, so mucha hambre, and it goes with tener. \"Mucho hambre\" is masculine, \"estoy\" is the wrong verb, and \"hambre mucha\" is the wrong order."
       ),
-      fb("Finish the sentence.", "Hoy hace frío, ___ voy a llevar un abrigo.", "así que", "Así que (so, as a result) introduces a consequence: hace frío, así que voy a llevar un abrigo."),
+      { ...fb("Finish the sentence.", "Hoy hace frío, ___ voy a llevar un abrigo.", "así que", "Así que (so, as a result) introduces a consequence: hace frío, así que voy a llevar un abrigo."), altAnswers: ["entonces", "por eso"] },
     ]
   ),
   L(

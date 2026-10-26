@@ -534,15 +534,14 @@ const A1_BASE_LESSONS: Lesson[] = [
             "type": "word-order",
             "prompt": "Put the words in the right order.",
             "words": [
-              "una",
-              "flor",
-              "bonita",
+              "las",
+              "flores",
               "en",
               "la",
               "mesa"
             ],
-            "translation": "a pretty flower on the table",
-            "explanation": "In Spanish, the article comes first, then the noun, then the adjective: \"una flor bonita\"."
+            "translation": "the flowers on the table",
+            "explanation": "Flor ends in a consonant, so the plural adds -es: las flores. En la mesa = on the table."
           }
         ]
       }
@@ -1228,7 +1227,7 @@ const A1_BASE_LESSONS: Lesson[] = [
             "right": "inteligente"
           }
         ],
-        "explanation": "-o/-a adjectives change for gender; -e adjectives like \"inteligente\" stay the same."
+        "explanation": "-o/-a adjectives change for gender; -e adjectives like \"inteligente\" stay the same; adjectives ending in -dor, like trabajador, add -a (trabajadora)."
       },
       {
         "type": "translate",
@@ -1861,7 +1860,7 @@ const A1_BASE_LESSONS: Lesson[] = [
                 "right": "to share"
               }
             ],
-            "explanation": "Correr, comprender, and vender follow the -er pattern; describir, recibir, and compartir follow -ir."
+            "explanation": "Correr and comprender follow the -er pattern; recibir and compartir follow -ir."
           }
         ]
       }
@@ -3335,7 +3334,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "body": [
           "To ask what time it is, use ¿Qué hora es? This phrase never changes, no matter what time it actually is.",
           "To answer, Spanish uses two different verb forms depending on the hour: the singular es for one o'clock, and the plural son for every other hour.",
-          "Use Es la una only for 1:00 — think of \"la una\" as a singular noun that es agrees with.",
+          "Use Es la una for 1:00, and keep the singular es for the whole one o'clock hour (Es la una y media) — think of \"la una\" as a singular noun that es agrees with.",
           "For every other hour, use Son las + the number: Son las dos, Son las tres, Son las diez, and so on."
         ],
         "examples": [
@@ -4021,7 +4020,7 @@ const A1_BASE_LESSONS: Lesson[] = [
     "level": "A1",
     "number": 20,
     "title": "Review: Possessives, Prepositions & Question Words, Part 1 of 2",
-    "summary": "No new material -- the densest review yet, combining question words, possessives, and prepositions with everything from earlier lessons.",
+    "summary": "No new material -- mixed review of question words, possessives and prepositions (part 1 of 2).",
     "duration": "6 min",
     "sections": [],
     "exercises": [
@@ -4100,7 +4099,7 @@ const A1_BASE_LESSONS: Lesson[] = [
     "level": "A1",
     "number": 21,
     "title": "Review: Possessives, Prepositions & Question Words, Part 2 of 2",
-    "summary": "No new material -- the densest review yet, combining question words, possessives, and prepositions with everything from earlier lessons.",
+    "summary": "No new material -- mixed review of question words, possessives and prepositions (part 2 of 2).",
     "duration": "6 min",
     "sections": [],
     "exercises": [
@@ -5672,7 +5671,7 @@ const A1_BASE_LESSONS: Lesson[] = [
     "level": "A1",
     "number": 30,
     "title": "Ser vs. Estar: Extra Practice, Part 2 of 3",
-    "summary": "A rapid-fire workout drilling ser and estar in every context — no new rules, just reps.",
+    "summary": "Drill estar for states and feelings, the adjectives that change meaning with ser/estar (aburrido, listo, malo, rico), and estar + gerund.",
     "duration": "8 min",
     "sections": [
       {
@@ -5841,6 +5840,10 @@ const A1_BASE_LESSONS: Lesson[] = [
         "prompt": "Translate to Spanish.",
         "source": "This soup tastes delicious.",
         "answer": "Esta sopa está rica.",
+        "altAnswers": [
+          "Esta sopa está deliciosa.",
+          "Esta sopa está muy rica."
+        ],
         "explanation": "Estar rico/a with a dish you're eating = it tastes good; ser rico about a person means wealthy."
       },
       {
@@ -6160,7 +6163,7 @@ const A1_BASE_LESSONS: Lesson[] = [
     "level": "A1",
     "number": 33,
     "title": "Present Tense Verbs: Extra Practice, Part 2 of 3",
-    "summary": "A drill-only lesson mixing regular -ar, -er, and -ir verbs across every subject pronoun.",
+    "summary": "Drill -ir verbs, the vosotros forms of all three verb groups, and choosing the right ending for mixed verbs.",
     "duration": "8 min",
     "sections": [
       {
@@ -7777,7 +7780,7 @@ const A1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Por qué vs. para qué",
         "body": [
-          "Por qué digs for a reason or cause ('why'), while para qué asks about a purpose or goal ('what for')."
+          "Por qué asks for a reason or cause ('why'), while para qué asks about a purpose or goal ('what for')."
         ],
         "examples": [
           {
@@ -8268,15 +8271,23 @@ const A1_BASE_LESSONS: Lesson[] = [
         "type": "word-order",
         "prompt": "Put the words in the right order.",
         "words": [
-          "A",
-          "mí",
-          "me",
+          "Me",
           "duele",
           "la",
           "espalda."
         ],
+        "altOrders": [
+          [
+            "A",
+            "mí",
+            "me",
+            "duele",
+            "la",
+            "espalda."
+          ]
+        ],
         "translation": "My back hurts.",
-        "explanation": "\"A mí\" adds emphasis, and la espalda is singular → duele."
+        "explanation": "\"Me\" is who feels the pain, and la espalda is singular → duele. (\"A mí me duele…\" adds emphasis.)"
       }
     ]
   },
@@ -8285,7 +8296,7 @@ const A1_BASE_LESSONS: Lesson[] = [
     "level": "A1",
     "number": 45,
     "title": "Gustar & Similar Verbs: Extra Practice, Part 2 of 3",
-    "summary": "Heavy repetition drills on gustar, the pronouns, agreement, and lookalike verbs — no new teaching, just reps.",
+    "summary": "Drill clarifying with a + person, and encantar, interesar, molestar, importar, doler and faltar, which work like gustar.",
     "duration": "8 min",
     "sections": [
       {
@@ -8581,8 +8592,8 @@ const A1_BASE_LESSONS: Lesson[] = [
         "type": "translate",
         "direction": "es-en",
         "prompt": "Translate this sentence to English.",
-        "source": "A nosotros nos falta tiempo, pero a ellos les sobra.",
-        "answer": "We're short on time, but they have plenty.",
+        "source": "A nosotros nos falta tiempo, pero a ellos les falta dinero.",
+        "answer": "We're short on time, but they're short on money.",
         "explanation": "\"A nosotros\" and \"a ellos\" clarify who nos and les refer to."
       },
       {
@@ -8854,7 +8865,7 @@ const A1_BASE_LESSONS: Lesson[] = [
     "level": "A1",
     "number": 48,
     "title": "Tener, Ir, Hacer & Hay: Extra Practice, Part 2 of 3",
-    "summary": "Drill tener, ir, hacer, and hay until the conjugations and set expressions are automatic.",
+    "summary": "Drill ir a + infinitive and hacer, including weather and hace + time + que.",
     "duration": "8 min",
     "sections": [
       {
@@ -9208,7 +9219,7 @@ const A1_BASE_LESSONS: Lesson[] = [
     "level": "A1",
     "number": 50,
     "title": "Numbers & Time: Extra Practice, Part 1 of 3",
-    "summary": "A drill-only workout combining numbers 0-1,000,000+ and telling time — heavy repetition, minimal explanation.",
+    "summary": "Drill numbers 0 to 1,000,000+: the fused 16-29, y in 31-99, cien/ciento, and un/una and the hundreds agreeing with the noun.",
     "duration": "8 min",
     "sections": [
       {
@@ -9428,7 +9439,7 @@ const A1_BASE_LESSONS: Lesson[] = [
     "level": "A1",
     "number": 51,
     "title": "Numbers & Time: Extra Practice, Part 2 of 3",
-    "summary": "A drill-only workout combining numbers 0-1,000,000+ and telling time — heavy repetition, minimal explanation.",
+    "summary": "Drill ordinals (primer, tercer) and telling time on the hour, half hour, quarter hour and minutes.",
     "duration": "8 min",
     "sections": [
       {
@@ -9495,7 +9506,7 @@ const A1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Telling time on the hour",
         "body": [
-          "Reminder: use es la una only for 1:00; every other hour uses son las."
+          "Reminder: es la una is the singular form for the one o'clock hour; every other hour uses son las."
         ],
         "examples": [
           {
@@ -9660,7 +9671,7 @@ const A1_BASE_LESSONS: Lesson[] = [
     "level": "A1",
     "number": 52,
     "title": "Numbers & Time: Extra Practice, Part 3 of 3",
-    "summary": "A drill-only workout combining numbers 0-1,000,000+ and telling time — heavy repetition, minimal explanation.",
+    "summary": "Drill parts of the day (de la mañana/tarde/noche), asking ¿A qué hora...?, and mixing numbers with time.",
     "duration": "7 min",
     "sections": [
       {
@@ -9754,13 +9765,13 @@ const A1_BASE_LESSONS: Lesson[] = [
         "type": "multiple-choice",
         "question": "How do you say \"It's 12:00 noon\"?",
         "options": [
-          "Son las doce.",
+          "Es las doce.",
           "Es mediodía.",
           "Es medianoche.",
           "Son las doce de la noche."
         ],
         "correctIndex": 1,
-        "explanation": "Mediodía is singular, so es: es mediodía. \"Es medianoche\" is midnight, \"Son las doce de la noche\" is also midnight, and plain \"Son las doce\" doesn't say which twelve."
+        "explanation": "Mediodía is singular, so es: es mediodía. \"Es medianoche\" is midnight, \"Son las doce de la noche\" is also midnight, and \"Es las doce\" is wrong because every hour except one o'clock uses son las."
       },
       {
         "type": "fill-blank",
@@ -11002,7 +11013,7 @@ const A1_BASE_LESSONS: Lesson[] = [
     "level": "A1",
     "number": 57,
     "title": "Beginner Comprehensive Review, Part 1 of 3",
-    "summary": "Recap every grammar principle from the Beginner level, then test yourself on each one.",
+    "summary": "Recap subject pronouns and ser, gender and articles, adjective agreement and -ar verbs, then test yourself on each one.",
     "duration": "9 min",
     "sections": [
       {
@@ -11178,7 +11189,7 @@ const A1_BASE_LESSONS: Lesson[] = [
     "level": "A1",
     "number": 58,
     "title": "Beginner Comprehensive Review, Part 2 of 3",
-    "summary": "Recap every grammar principle from the Beginner level, then test yourself on each one.",
+    "summary": "Recap -er and -ir verbs, ser vs. estar, and possessives and prepositions, then test yourself on each one.",
     "duration": "9 min",
     "sections": [
       {
@@ -11348,7 +11359,7 @@ const A1_BASE_LESSONS: Lesson[] = [
     "level": "A1",
     "number": 59,
     "title": "Beginner Comprehensive Review, Part 3 of 3",
-    "summary": "Recap every grammar principle from the Beginner level, then test yourself on each one.",
+    "summary": "Recap question words, gustar, and tener, ir, hacer and hay, then test yourself on each one.",
     "duration": "8 min",
     "sections": [
       {
@@ -12647,7 +12658,7 @@ const A1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Lectura",
         "body": [
-          "Iker vive en una ciudad donde nunca nieva. Un día de invierno, su familia se muda a un pueblo en las montañas. Iker escucha que allí a veces nieva mucho. Él nunca ha visto la nieve en persona.",
+          "Iker vive en una ciudad donde nunca nieva. Un día de invierno, su familia se muda a un pueblo en las montañas. Iker escucha que allí a veces nieva mucho. Él no conoce la nieve en persona.",
           "Una noche, el cielo está muy gris y hace mucho frío. Iker se duerme pensando en la posibilidad de nieve. A la mañana siguiente, pasa algo diferente cuando abre los ojos. La luz que entra por la ventana es muy blanca y brillante.",
           "Iker corre a la ventana y no puede creer lo que ve. ¡Todo el pueblo está cubierto de nieve blanca! Los árboles, los techos y las calles están completamente blancos. Iker grita de alegría y despierta a toda su familia.",
           "Rápidamente, Iker se pone un abrigo, botas y guantes calientes. Sale al jardín y siente la nieve fría bajo sus pies por primera vez. Su hermana pequeña sale también con una sonrisa enorme. Los dos deciden construir un muñeco de nieve juntos.",
@@ -14296,7 +14307,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "Cuando es el turno de Pablo, él lee el texto del zorro. Habla con voz fuerte y clara. Sus compañeros escuchan con atención.",
           "La profesora sonríe después de la audición de Pablo. \"Tienes mucho talento\", dice ella. Pablo está muy sorprendido.",
           "Al día siguiente, la profesora anuncia los papeles. Pablo va a ser el zorro en la obra. Sus compañeros lo felicitan.",
-          "Pablo llama a su familia con la buena noticia. Está muy feliz y un poco nervioso también. Ahora practica sus líneas cada noche."
+          "Pablo llama a su familia con la buena noticia. Está muy feliz y un poco nervioso también. Ahora practica su texto cada noche."
         ]
       }
     ],
@@ -14347,7 +14358,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "Plays video games"
         ],
         "correctIndex": 2,
-        "explanation": "The text ends with \"Ahora practica sus líneas cada noche\" (Now he practices his lines every night)."
+        "explanation": "The text ends with \"Ahora practica su texto cada noche\" (Now he practices his lines every night)."
       }
     ]
   },
@@ -15298,7 +15309,7 @@ const A1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Lectura",
         "body": [
-          "Diego y su familia pasan unas vacaciones en una ciudad grande. Se quedan en un hotel cerca del centro. Diego nunca ha visto edificios tan altos.",
+          "Diego y su familia pasan unas vacaciones en una ciudad grande. Se quedan en un hotel cerca del centro. Diego ve edificios muy altos por primera vez.",
           "El primer día, ellos caminan por las calles llenas de gente. Hay tiendas, restaurantes y músicos en las esquinas. Diego mira todo con los ojos muy abiertos.",
           "Su mamá quiere visitar un museo de arte famoso. Diego prefiere ver los carros y los autobuses de la ciudad. Al final, la familia decide visitar el museo por la mañana.",
           "En el museo, hay pinturas enormes de muchos colores. Un guía explica la historia de cada pintura. Diego encuentra una pintura de un perro y sonríe.",
@@ -15371,7 +15382,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "heading": "Lectura",
         "body": [
           "La clase de Rosa visita el acuario de la ciudad. Todos los estudiantes están muy emocionados. El acuario tiene peces de muchos colores.",
-          "Primero, los estudiantes ven un tanque enorme con tiburones. Los tiburones nadan lento y tranquilo. Rosa está un poco nerviosa, pero también fascinada.",
+          "Primero, los estudiantes ven un tanque enorme con tiburones. Los tiburones nadan despacio y tranquilos. Rosa está un poco nerviosa, pero también fascinada.",
           "Después, caminan hacia una sala con pulpos. Un pulpo cambia de color frente a los estudiantes. \"¡Es mágico!\", dice Rosa muy sorprendida.",
           "En otra sala, hay un tanque especial donde los niños pueden tocar estrellas de mar. Rosa toca una estrella de mar con mucho cuidado. La estrella se siente dura y un poco áspera.",
           "Un guía del acuario habla sobre los pingüinos. Los pingüinos nadan rápido en el agua fría. Rosa ríe cuando un pingüino salta fuera del agua.",

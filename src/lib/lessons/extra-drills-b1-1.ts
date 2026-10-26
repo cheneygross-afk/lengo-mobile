@@ -240,8 +240,8 @@ export const DRILLS_B1_1: Record<string, Exercise[]> = {
 
   "b1d-cadena-preterito-perfecto": [
     fe("Ayer abrí la tienda a las nueve. → Hoy la ___ a las diez.", "he abierto", "Yesterday I opened the shop at nine. → Today I [have opened] it at ten.", "Hoy → pretérito perfecto; abrir → abierto."),
-    fe("Ayer nos devolvieron el dinero. → Hoy nos ___ las llaves.", "han devuelto", "Yesterday they gave us back the money. → Today they [have given] us back the keys.", "Devolvieron → han devuelto; el «nos» sigue delante."),
-    fe("La semana pasada no hice deporte. → Esta semana tampoco ___ deporte.", "he hecho", "Last week I didn't do any sports. → This week I [haven't done] any sports either.", "Esta semana → he hecho; tampoco ya aporta la negación."),
+    fe("Ayer nos devolvieron el dinero. → Hoy nos ___ las llaves.", "han devuelto", "Yesterday they gave us back the money. → Today they [have returned] the keys to us.", "Devolvieron → han devuelto; el «nos» sigue delante."),
+    fe("La semana pasada no hice deporte. → Esta semana tampoco ___ deporte.", "he hecho", "Last week I didn't do any sports. → This week I [haven't done] any sports either.", "Esta semana → he hecho; «tampoco» ya lleva la negación, así que no se añade «no»: esta semana tampoco he hecho deporte."),
     fe("Hoy me he puesto la chaqueta azul. → Ayer me ___ la verde.", "puse", "Today I've put on the blue jacket. → Yesterday I [put on] the green one.", "Ayer → indefinido: me puse."),
     fe("Este mes hemos escrito dos artículos. → El mes pasado ___ cinco.", "escribimos", "This month we've written two articles. → Last month we [wrote] five.", "El mes pasado → indefinido: escribimos."),
     toEs("Yesterday I saw her at the market; today I've seen her at the gym.", "Ayer la vi en el mercado; hoy la he visto en el gimnasio.", "Ayer → la vi; hoy → la he visto, con el pronombre delante de he.", ["Ayer la vi en el mercado y hoy la he visto en el gimnasio."]),
@@ -495,7 +495,7 @@ export const DRILLS_B1_1: Record<string, Exercise[]> = {
     fe("Después de la mala noticia, Ana necesita ___.", "desahogarse", "After the bad news, Ana needs [to vent].", "Desahogarse = to vent, to get something off one's chest."),
     fe("Su respuesta me ha ___ mucho.", "decepcionado", "His answer has [disappointed] me a lot.", "Decepcionar = to disappoint; con haber, participio en -o."),
     fe("Con tanto trabajo, me siento ___.", "agobiado", "With so much work, I feel [overwhelmed].", "Sentirse agobiado = to feel overwhelmed.", ["agobiada"]),
-    toEs("I'm thankful for your (tú) help.", "Te agradezco la ayuda.", "Agradecer algo (sin «por» con el objeto directo): te agradezco la ayuda.", ["Te agradezco tu ayuda.", "Agradezco tu ayuda."]),
+    toEs("I'm thankful for your (tú) help.", "Te agradezco la ayuda.", "Agradecer algo (sin «por» con el objeto directo): te agradezco la ayuda.", ["Te agradezco tu ayuda.", "Agradezco tu ayuda.", "Estoy agradecido por tu ayuda.", "Estoy agradecida por tu ayuda.", "Estoy agradecido por la ayuda.", "Estoy agradecida por la ayuda."]),
     toEs("It makes me feel sorry to see the dog alone.", "Me da pena ver al perro solo.", "Dar pena = to make one feel sorry; funciona como gustar: me da pena.", ["Me da pena ver solo al perro."]),
     toEs("The movie moved us a lot.", "La película nos conmovió mucho.", "Conmover = to move (emotionally).", ["La película nos ha conmovido mucho."]),
     mc("¿Qué significa «el alivio»?", ["relief", "amazement", "pride", "sadness"], 0, "El alivio = relief; amazement es el asombro y pride es el orgullo."),

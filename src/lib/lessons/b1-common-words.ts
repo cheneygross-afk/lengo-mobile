@@ -286,7 +286,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
             0,
             "«Santo» se acorta a «san» delante de casi todos los nombres masculinos: San Pedro. Excepciones: Santo Tomás, Santo Domingo. «Santa» es para mujeres y «Sante» no existe."
           ),
-          fb("Completa.", "Aunque todo va mal, no pierdo la ___.", "fe", "No perder la fe = not to lose faith."),
+          { ...fb("Completa.", "Aunque todo va mal, no pierdo la ___.", "fe", "No perder la fe = not to lose faith."), altAnswers: ["esperanza"] },
         ]
       ),
       sec(
@@ -328,7 +328,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
         ],
         [
           fb("Completa con el artículo.", "Dicen que en esta casa vive ___ fantasma.", "un", "«Fantasma» es masculino: un fantasma, el fantasma."),
-          fb("Completa.", "Mi hijo tiene miedo de un ___ verde que vive en el armario.", "monstruo", "Un monstruo = a monster (ojo a la r después de la t: mons-truo)."),
+          { ...fb("Completa.", "Mi hijo tiene miedo de un ___ verde que vive en el armario.", "monstruo", "Un monstruo = a monster (ojo a la r después de la t: mons-truo)."), altAnswers: ["fantasma"] },
         ]
       ),
     ],
@@ -346,7 +346,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
       ),
       fb("Completa.", "La ___ de este lugar es increíble: montañas, lagos y bosques.", "belleza", "La belleza = beauty; es el sustantivo de «bello»."),
       fb("Completa.", "No sé cómo lo hizo; fue como por arte de ___.", "magia", "Como por arte de magia = as if by magic."),
-      fb("Completa.", "Es difícil, pero hay que tener ___ en el futuro.", "fe", "Tener fe en algo = to have faith in something."),
+      { ...fb("Completa.", "Es difícil, pero hay que tener ___ en el futuro.", "fe", "Tener fe en algo = to have faith in something."), altAnswers: ["confianza"] },
       fb("Completa.", "Mi abuela se llama Teresa y celebra el día de ___ Teresa.", "Santa", "«Santa» nunca se acorta: Santa Teresa, Santa Ana."),
       mc(
         "¿Cuál es correcto?",
@@ -415,7 +415,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
           ["No cantes victoria todavía: el partido no ha terminado.", "Don't celebrate yet: the game isn't over."],
         ],
         [
-          fb("Completa.", "Mi abuelo tuvo que ___ en la guerra cuando tenía veinte años.", "luchar", "Tener que + infinitivo: tuvo que luchar."),
+          { ...fb("Completa.", "Mi abuelo tuvo que ___ en la guerra cuando tenía veinte años.", "luchar", "Tener que + infinitivo: tuvo que luchar."), altAnswers: ["pelear"] },
           mc(
             "Completa: «Los soldados tenían que luchar ___ el enemigo.»",
             ["contra", "por", "de", "en"],
@@ -460,10 +460,10 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
         ],
         "Vocabulario de los cuentos y las aventuras."
       ),
-      fb("Completa.", "El ___ salvó a la princesa y todos lo aplaudieron.", "héroe", "El héroe = the hero (con tilde en la «e»)."),
+      { ...fb("Completa.", "El ___ salvó a la princesa y todos lo aplaudieron.", "héroe", "El héroe = the hero (con tilde en la «e»)."), altAnswers: ["caballero", "príncipe"] },
       fb("Completa.", "El equipo celebró la ___ en la plaza.", "victoria", "La victoria = the victory, the win."),
       fb("Completa.", "Los bomberos llegaron a tiempo para ___ a la familia.", "salvar", "Para + infinitivo expresa finalidad; salvar = to save (a alguien de un peligro)."),
-      fb("Completa.", "La ___ final fue en el valle, cerca del río.", "batalla", "La batalla = the battle; es un sustantivo femenino."),
+      { ...fb("Completa.", "La ___ final fue en el valle, cerca del río.", "batalla", "La batalla = the battle; es un sustantivo femenino."), altAnswers: ["lucha"] },
       mc(
         "¿Cuál es el contrario de «victoria»?",
         ["derrota", "batalla", "lucha", "libertad"],
@@ -875,7 +875,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
     "b1-vocabulary-practice-8",
     "b1-common-words-outdoors",
     "Palabras frecuentes: al aire libre",
-    "Piedras, polvo, agujeros y un campamento junto al río: palabras del campo y las conversaciones alrededor del fuego.",
+    "Aprende palabras frecuentes del campo y de la conversación (piedra, polvo, agujero, cerdo, rayos, campamento, lugares, interior, relaciones, asuntos) y expresiones como quedarse de piedra o estar hecho polvo.",
     "9 min",
     [
       sec(

@@ -157,10 +157,10 @@ export const LEVEL_TEST_B1: LevelTest = {
         fe("Esta semana ___ mucho.", "he trabajado", "This week [I have worked] a lot.", "Esta semana (un periodo que no ha terminado) pide en España el pretérito perfecto: he trabajado; en gran parte de América se usa el indefinido: trabajé.", ["trabajé"]),
         fe(
           "¿Alguna vez ___ a México?",
-          "has estado",
+          "has ido",
           "[Have you] ever [been] to Mexico?",
-          "Experiencias: en España, pretérito perfecto, has estado o has ido (usted ha estado); en gran parte de América, el indefinido: ¿alguna vez fuiste a México?",
-          ["has ido", "ha estado", "ha ido", "fuiste", "fue"]
+          "Experiencias: en España, pretérito perfecto, has ido (usted ha ido; «estar» pediría «en México», no «a México»); en gran parte de América, el indefinido: ¿alguna vez fuiste a México?",
+          ["ha ido", "fuiste", "fue"]
         ),
         fe(
           "Cuando llegué, la película ya ___.",

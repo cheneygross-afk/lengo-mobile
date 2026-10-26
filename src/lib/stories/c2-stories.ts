@@ -16,7 +16,7 @@ export const C2_BAND_STORIES: Story[] = [
       "Lo leyó dos veces antes de entender. El narrador describía cómo, en una ciudad sin nombre, unos hombres de civil se llevaban de madrugada a un vecino, y cómo los demás inquilinos del edificio, tras los visillos, fingían dormir. No había en el pasaje nada que no se hubiera escrito antes sobre cualquier dictadura. Pero en la Buenos Aires de 1978 aquellas quince líneas habrían podido leerse como una crónica, y ella, que entonces tenía treinta y tantos años y una hija pequeña, lo había suprimido sin consultar a nadie.",
       "Lo más inquietante no fue descubrir la censura, sino constatar que la había olvidado por completo. Había contado muchas veces, en entrevistas y en clases, que su generación había resistido desde la trinchera de las palabras. Lo había creído sinceramente. Y ahí estaba, en la página doscientos doce, la prueba de que también ella había hecho lo que el narrador reprochaba a los vecinos: cerrar los ojos y esperar a que pasara.",
       "Durante varios días no tocó el manuscrito. Pensó en restituir el párrafo sin más, como si se tratara de una errata, y comprendió que eso equivaldría a una segunda censura, más sutil que la primera. Pensó en renunciar al encargo. Finalmente, escribió a la editora y le propuso algo que en cincuenta años de oficio había evitado siempre por principio: una nota de la traductora.",
-      "La redactó con la misma minuciosidad con la que había traducido el resto. En ella explicaba que la edición de 1978 había omitido un fragmento, que la omisión había sido decisión suya y no de la editorial, y que la tomó por miedo. No se justificaba ni se flagelaba; se limitaba a dejar constancia. «Restituyo ahora el pasaje», concluía, «sabiendo que no repara nada, salvo, quizá, la exactitud».",
+      "La redactó con la misma minuciosidad con la que había traducido el resto. En ella explicaba que la edición de 1978 había omitido un fragmento, que la omisión había sido decisión suya y no de la editorial, y que la había tomado por miedo. No se justificaba ni se flagelaba; se limitaba a dejar constancia. «Restituyo ahora el pasaje», concluía, «sabiendo que no repara nada, salvo, quizá, la exactitud».",
       "La editora le respondió que la nota era más valiosa que la traducción misma, y Elena, que conocía el gremio, sospechó que en esa frase había tanto elogio como olfato comercial. No le importó. La nueva edición salió en octubre. En la presentación, una estudiante le preguntó si no le daba vergüenza haber confesado algo así a su edad. Elena se tomó su tiempo para contestar. «Me habría dado más vergüenza», dijo, «morirme con la página doscientos doce tal como estaba».",
     ],
     questions: [
@@ -397,7 +397,7 @@ export const C2_BAND_STORIES: Story[] = [
       "En La Habana llaman almendrones a los viejos carros americanos que siguen circulando sesenta o setenta años después de haber salido de Detroit, y Eusebio Lorenzo tenía uno que era la envidia de medio Centro Habana: un Chevrolet Bel Air de 1953, azul cielo, con el motor original reemplazado por uno de camión soviético, el diferencial de un Lada, los frenos de un Peugeot y unas luces traseras que alguien le había traído de Miami escondidas en una maleta. De Chevrolet, como decía su nieto, ya solo le quedaba la nostalgia.",
       "Eusebio había sido mecánico toda la vida, primero en un taller del Estado y después, cuando se permitió, por cuenta propia, en un garaje a medias con un vecino. El almendrón era su orgullo y su sustento: lo alquilaba a un chofer que hacía de taxi colectivo por la calle Neptuno y, en los buenos tiempos, a turistas que querían retratarse con él frente al Capitolio. En los malos, que eran más frecuentes, pasaba semanas parado por falta de gasolina o de alguna pieza que había que inventar.",
       "Inventar es el verbo que más se oía en aquel garaje. Eusebio era capaz de fabricar una junta con la suela de un zapato y un trozo de cámara de bicicleta, de adaptar una bomba de agua de una lavadora o de afinar un carburador de oído, sin más instrumento que la experiencia. Su nieto Yasmany, que había crecido entre grasa y herramientas, decía que su abuelo no arreglaba carros, sino que los convencía de seguir andando.",
-      "Yasmany tenía veinticuatro años, un título de ingeniero mecánico que no le servía para vivir y un sueldo que no le alcanzaba para comer más de dos semanas al mes. Desde hacía un año, como tantos amigos suyos, vendía cosas, reparaba celulares y hablaba poco del futuro. Una noche de enero, mientras ayudaban a cambiar el aceite del almendrón con una linterna porque se había ido la corriente, le dijo a su abuelo que se iba. Tenía un primo en Tampa que lo esperaba y había reunido, a base de mil gestiones, el dinero para el viaje.",
+      "Yasmany tenía veinticuatro años, un título de ingeniero mecánico que no le servía para vivir y un sueldo que no le alcanzaba para comer más de dos semanas al mes. Desde hacía un año, como tantos amigos suyos, vendía cosas, reparaba celulares y hablaba poco del futuro. Una noche de enero, mientras cambiaban el aceite del almendrón con una linterna porque se había ido la corriente, le dijo a su abuelo que se iba. Tenía un primo en Tampa que lo esperaba y había reunido, a base de mil gestiones, el dinero para el viaje.",
       "Eusebio no dijo nada durante un buen rato. Siguió apretando una tuerca que ya estaba apretada. Había visto irse a dos hijos, a varios sobrinos, a medio barrio. Había visto irse a gente en balsa en el noventa y cuatro, a gente en avión, a gente que juraba que volvería y no volvía. Siempre se había dicho que el que se queda también decide algo, y que él había decidido quedarse por razones que no siempre sabía explicar, ni siquiera a sí mismo. Pero con Yasmany era distinto. Yasmany era el que iba a heredar el carro.",
       "«¿Y quién va a convencer al Chevrolet cuando yo no pueda?», preguntó por fin, sin mirarlo. Yasmany había preparado muchas respuestas, todas razonables, pero ninguna para esa pregunta. Le dijo que podían enseñar a otro, que el vecino del garaje tenía un hijo, que él mandaría piezas desde allá. Eusebio asintió a todo con una cortesía que dolía más que un reproche.",
       "Los últimos dos meses los pasaron casi enteros en el garaje. Eusebio le enseñó a Yasmany cosas que nunca le había enseñado, no porque fueran secretas, sino porque daba por hecho que tendrían tiempo: el ruido exacto que hace la correa antes de romperse, el truco para arrancar en frío los días de humedad, la forma de hablarle a un inspector de tránsito. Yasmany lo apuntaba todo en un cuaderno, aunque sabía que en Tampa no le iba a servir de nada. Los dos sabían que no se trataba de mecánica.",
@@ -833,7 +833,7 @@ export const C2_BAND_STORIES: Story[] = [
       "Los segundos de silencio se le hicieron eternos. Oyó, como desde muy lejos, la respiración del pabellón, una tos aislada, el zumbido de los focos. Pensó en todos los recursos que había ensayado: la ironía, el giro inesperado, la rima difícil que arranca aplausos. Los descartó uno por uno. Y empezó a cantar, por primera vez en una competición, sin saber exactamente cómo iba a terminar la estrofa.",
       "Lo que cantó no fue brillante ni técnicamente perfecto. La tercera rima era pobre y uno de los versos tenía una sílaba de más, cosa que el jurado, con razón, penalizó. Pero cantó sobre una mujer que aprende a poner la mesa para uno menos sin dejar de contar los platos, y sobre la extraña generosidad de desear que alguien a quien quieres sea feliz lejos de ti. Cuando terminó, el pabellón tardó un segundo largo en reaccionar. Luego vino una ovación que los cronistas compararon con las de las finales históricas.",
       "No ganó. El título fue para su rival, un veterano de cuarenta y tantos años que cantó con una precisión impecable y que, al recibir la txapela, la boina que se entrega al campeón, se acercó a ella y le dijo al oído algo que ninguna cámara recogió. Leire no lo contó nunca. Los periodistas especularon durante semanas.",
-      "Aquella noche, ya en el pueblo, su madre la esperaba despierta en la cocina. No le dijo nada sobre la final, ni sobre el tema, ni sobre la estrofa que medio País Vasco había escuchado. Le sirvió un plato de sopa y se sentó frente a ella. Luego, mientras recogía, Leire se dio cuenta de que había puesto la mesa para tres, como siempre. Pero había un cuarto plato, limpio, apartado en la encimera, y un móvil apoyado contra el frutero con una videollamada a Australia que acababa de terminar.",
+      "Aquella noche, ya en el pueblo, su madre la esperaba despierta en la cocina. No le dijo nada sobre la final, ni sobre el tema, ni sobre la estrofa que medio País Vasco había escuchado. Le sirvió un plato de sopa y se sentó frente a ella. Luego, mientras su madre recogía, Leire se dio cuenta de que esta había puesto la mesa para tres, como siempre. Pero había un cuarto plato, limpio, apartado en la encimera, y un móvil apoyado contra el frutero con una videollamada a Australia que acababa de terminar.",
     ],
     questions: [
       {
@@ -862,7 +862,7 @@ export const C2_BAND_STORIES: Story[] = [
         options: ["Her mother was angry", "Her mother had just spoken to her son, perhaps moved by the verse", "Her brother had come home", "Leire was leaving too"],
         correctIndex: 1,
         explanation:
-          "\"Una videollamada a Australia que acababa de terminar.\"",
+          "\"Un cuarto plato, limpio, apartado en la encimera, y un móvil apoyado contra el frutero con una videollamada a Australia que acababa de terminar\": the extra plate is her brother's place and the call has just ended, so her mother has just spoken to her son.",
       },
     ],
   },
@@ -889,21 +889,21 @@ export const C2_BAND_STORIES: Story[] = [
         options: ["Tourists", "What isn't visible from cruise ships, especially illegal fishing", "Volcanoes", "Climate change only"],
         correctIndex: 1,
         explanation:
-          "\"Sobre todo, la pesca ilegal.\"",
+          "\"lo que no se veía desde los barcos de crucero... y, sobre todo, la pesca ilegal\".",
       },
       {
         question: "Who turned out to be behind the boat?",
         options: ["A foreign company", "The brother of a local councillor who publicly championed conservation", "The fishermen themselves", "The navy"],
         correctIndex: 1,
         explanation:
-          "\"Uno de los mayores defensores públicos de la conservación del archipiélago.\"",
+          "\"el hermano de un concejal de Puerto Ayora... uno de los mayores defensores públicos de la conservación del archipiélago\".",
       },
       {
         question: "What pressure did Wilson face?",
         options: ["A pay cut", "Social coldness and an anonymous call to his wife", "A lawsuit", "Nothing"],
         correctIndex: 1,
         explanation:
-          "\"Su mujer recibió una llamada anónima.\"",
+          "\"un conocido que dejaba de saludarlo en el mercado... Su mujer recibió una llamada anónima\".",
       },
       {
         question: "What did Wilson realise about his past work?",

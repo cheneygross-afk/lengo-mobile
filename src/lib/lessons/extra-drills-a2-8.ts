@@ -291,7 +291,7 @@ export const DRILLS_A2_8: Record<string, Exercise[]> = {
   "future-tense-drill-2": [
     toEs("We will be able to rest on Sunday.", "Podremos descansar el domingo.", "Poder drops the e: podr- + emos.", ["El domingo podremos descansar."]),
     toEs("They won't want to come.", "No querrán venir.", "Querer → querr- (double r).", ["Ellos no querrán venir.", "Ellas no querrán venir."]),
-    fe("¿A qué hora ___ ustedes del trabajo?", "saldrán", "What time [will] you all [leave] work?", "Salir → saldr-: saldrán, not 'salirán'."),
+    fe("¿A qué hora ___ ustedes del trabajo?", "saldrán", "What time [will] you all [leave] work?", "Salir → saldr-: saldrán, not 'salirán'.", ["saldréis"]),
     toEs("There will be a party on Friday.", "Habrá una fiesta el viernes.", "Haber → habr-: habrá.", ["El viernes habrá una fiesta."]),
     toEs("I will put the keys on the table.", "Pondré las llaves en la mesa.", "Poner → pondr-."),
     fe("Mi jefe nos ___ la respuesta el lunes.", "dirá", "My boss [will tell] us the answer on Monday.", "Decir → dir-: dirá."),

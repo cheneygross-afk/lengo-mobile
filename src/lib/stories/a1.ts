@@ -764,7 +764,7 @@ export const A1_STORIES: Story[] = [
     subtitle:
       "A boy who has never seen snow before wakes up to a white world and builds his first snowman.",
     paragraphs: [
-      "Iker vive en una ciudad donde nunca nieva. Un día de invierno, su familia se muda a un pueblo en las montañas. Iker escucha que allí a veces nieva mucho. Él nunca ha visto la nieve en persona.",
+      "Iker vive en una ciudad donde nunca nieva. Un día de invierno, su familia se muda a un pueblo en las montañas. Iker escucha que allí a veces nieva mucho. Él no conoce la nieve en persona.",
       "Una noche, el cielo está muy gris y hace mucho frío. Iker se duerme pensando en la posibilidad de nieve. A la mañana siguiente, pasa algo diferente cuando abre los ojos. La luz que entra por la ventana es muy blanca y brillante.",
       "Iker corre a la ventana y no puede creer lo que ve. ¡Todo el pueblo está cubierto de nieve blanca! Los árboles, los techos y las calles están completamente blancos. Iker grita de alegría y despierta a toda su familia.",
       "Rápidamente, Iker se pone un abrigo, botas y guantes calientes. Sale al jardín y siente la nieve fría bajo sus pies por primera vez. Su hermana pequeña sale también con una sonrisa enorme. Los dos deciden construir un muñeco de nieve juntos.",
@@ -1821,7 +1821,7 @@ export const A1_STORIES: Story[] = [
       "Cuando es el turno de Pablo, él lee el texto del zorro. Habla con voz fuerte y clara. Sus compañeros escuchan con atención.",
       "La profesora sonríe después de la audición de Pablo. \"Tienes mucho talento\", dice ella. Pablo está muy sorprendido.",
       "Al día siguiente, la profesora anuncia los papeles. Pablo va a ser el zorro en la obra. Sus compañeros lo felicitan.",
-      "Pablo llama a su familia con la buena noticia. Está muy feliz y un poco nervioso también. Ahora practica sus líneas cada noche.",
+      "Pablo llama a su familia con la buena noticia. Está muy feliz y un poco nervioso también. Ahora practica su texto cada noche.",
     ],
     questions: [
       {
@@ -1850,7 +1850,7 @@ export const A1_STORIES: Story[] = [
         options: ["Sleeps early", "Watches television", "Practices his lines", "Plays video games"],
         correctIndex: 2,
         explanation:
-          "The text ends with \"Ahora practica sus líneas cada noche\" (Now he practices his lines every night).",
+          "The text ends with \"Ahora practica su texto cada noche\" (Now he practices his lines every night).",
       },
     ],
   },
@@ -2299,7 +2299,7 @@ export const A1_STORIES: Story[] = [
           "The text says her list has \"dos panes y unos pasteles pequeños\" (two breads and some small pastries).",
       },
       {
-        question: "What does Lucía do carefully with the money?",
+        question: "What does Lucía do with the money?",
         options: ["She loses it", "She counts it carefully", "She forgets it at home", "She gives it all without counting"],
         correctIndex: 1,
         explanation:
@@ -2459,7 +2459,7 @@ export const A1_STORIES: Story[] = [
     subtitle:
       "Diego explores a big city on vacation, visiting an art museum and riding an open-top tour bus.",
     paragraphs: [
-      "Diego y su familia pasan unas vacaciones en una ciudad grande. Se quedan en un hotel cerca del centro. Diego nunca ha visto edificios tan altos.",
+      "Diego y su familia pasan unas vacaciones en una ciudad grande. Se quedan en un hotel cerca del centro. Diego ve edificios muy altos por primera vez.",
       "El primer día, ellos caminan por las calles llenas de gente. Hay tiendas, restaurantes y músicos en las esquinas. Diego mira todo con los ojos muy abiertos.",
       "Su mamá quiere visitar un museo de arte famoso. Diego prefiere ver los carros y los autobuses de la ciudad. Al final, la familia decide visitar el museo por la mañana.",
       "En el museo, hay pinturas enormes de muchos colores. Un guía explica la historia de cada pintura. Diego encuentra una pintura de un perro y sonríe.",
@@ -2506,7 +2506,7 @@ export const A1_STORIES: Story[] = [
       "Rosa's class visits the aquarium and sees sharks, an octopus, penguins, and sea turtles.",
     paragraphs: [
       "La clase de Rosa visita el acuario de la ciudad. Todos los estudiantes están muy emocionados. El acuario tiene peces de muchos colores.",
-      "Primero, los estudiantes ven un tanque enorme con tiburones. Los tiburones nadan lento y tranquilo. Rosa está un poco nerviosa, pero también fascinada.",
+      "Primero, los estudiantes ven un tanque enorme con tiburones. Los tiburones nadan despacio y tranquilos. Rosa está un poco nerviosa, pero también fascinada.",
       "Después, caminan hacia una sala con pulpos. Un pulpo cambia de color frente a los estudiantes. \"¡Es mágico!\", dice Rosa muy sorprendida.",
       "En otra sala, hay un tanque especial donde los niños pueden tocar estrellas de mar. Rosa toca una estrella de mar con mucho cuidado. La estrella se siente dura y un poco áspera.",
       "Un guía del acuario habla sobre los pingüinos. Los pingüinos nadan rápido en el agua fría. Rosa ríe cuando un pingüino salta fuera del agua.",
@@ -2691,7 +2691,7 @@ export const A1_STORIES: Story[] = [
     paragraphs: [
       "Hoy es un día especial para la familia de Carla. Es el día de la mudanza. La familia va a vivir en una casa nueva en otra parte de la ciudad.",
       "Hay muchas cajas en la casa vieja. Hay cajas en la cocina, en la sala y en los dormitorios. Carla pone sus libros, su ropa y sus juguetes en tres cajas grandes. En cada caja escribe: \"CARLA\".",
-      "Carla está triste. Ella ama su casa vieja. Su dormitorio es pequeño, pero tiene una ventana bonita. Desde la ventana, ella ve un árbol grande con pájaros.",
+      "Carla está triste. Le gusta mucho su casa vieja. Su dormitorio es pequeño, pero tiene una ventana bonita. Desde la ventana, ella ve un árbol grande con pájaros.",
       "Un camión grande llega a las nueve. Dos hombres fuertes llevan las cajas y los muebles al camión. Papá ayuda con el sofá. Mamá lleva las plantas en el coche.",
       "La casa nueva es amarilla y tiene un jardín. El dormitorio nuevo de Carla es grande y tiene paredes azules. ¡El azul es su color favorito! Y delante de la ventana hay un árbol también.",
       "Por la tarde, una niña llama a la puerta. Se llama Inés y vive en la casa de al lado. Tiene ocho años, como Carla. Inés trae un plato de galletas de su mamá.",
@@ -3180,7 +3180,7 @@ export const A1_STORIES: Story[] = [
       "Por la mañana, papá sale de casa muy temprano. Emma todavía duerme. Él lleva la bolsa de la comida y una gran sonrisa.",
       "Por la tarde, Emma y su mamá van a la parada del autobús número doce. Esperan cinco minutos. Luego, llega un autobús grande y verde. ¡Papá es el conductor!",
       "Emma sube al autobús y paga su billete. Papá le guiña un ojo. Emma se sienta delante y mira a su papá. Él conduce con cuidado y saluda a todas las personas.",
-      "Esa noche, papá cuenta su día. \"En la comida encontré tu nota\", le dice a Emma. \"La tengo aquí, en mi bolsillo.\" Emma está muy orgullosa de su papá.",
+      "Esa noche, papá cuenta su día. \"En la comida veo tu nota\", le dice a Emma. \"La tengo aquí, en mi bolsillo.\" Emma está muy orgullosa de su papá.",
     ],
     questions: [
       {
@@ -3264,7 +3264,7 @@ export const A1_STORIES: Story[] = [
       "Gabriel pone las camisas blancas de papá en la lavadora. También pone las sábanas blancas y sus calcetines blancos del colegio. No ve un calcetín rojo pequeño dentro de una sábana.",
       "Gabriel pone el jabón y aprieta el botón. La lavadora hace ruido y el agua da vueltas. Gabriel está orgulloso. \"¡Qué fácil!\", piensa.",
       "Una hora después, Gabriel abre la lavadora. ¡Sorpresa! Toda la ropa está rosa. Las camisas de papá están rosas. Las sábanas están rosas. En el fondo, está el calcetín rojo.",
-      "Mamá regresa con el pan y ve la ropa rosa. Gabriel tiene miedo. Pero mamá se ríe mucho. \"El calcetín rojo, ¿verdad? A mí también me pasó una vez\", dice.",
+      "Mamá regresa con el pan y ve la ropa rosa. Gabriel tiene miedo. Pero mamá se ríe mucho. \"El calcetín rojo, ¿verdad? A mí también me pasa a veces\", dice.",
       "Papá vuelve a casa y ve sus camisas rosas. Se pone una y dice: \"¡Me gusta! Es un color alegre.\" Desde ese día, Gabriel siempre mira dentro de las sábanas antes de lavar la ropa.",
     ],
     questions: [
@@ -3349,7 +3349,7 @@ export const A1_STORIES: Story[] = [
       "En una caja, Javier ve un libro viejo con una portada verde. El título es \"La isla de los piratas\". Las páginas son amarillas, pero el libro está en buenas condiciones. Javier paga su euro.",
       "En casa, Javier empieza a leer en su cama. La historia es muy emocionante. En la página cincuenta, encuentra un papel pequeño y doblado.",
       "Es una nota escrita a mano. Dice: \"Hola, lector. Este libro es mi favorito. Espero que te guste también. Si te gusta, escribe tu nombre aquí y pasa el libro a otra persona. Firma: Andrés, 1998.\"",
-      "Debajo del nombre de Andrés, hay otros nombres: \"Laura, 2005\", \"Samir, 2012\", \"Beatriz, 2019\". ¡Muchas personas han leído este libro! Javier está muy sorprendido.",
+      "Debajo del nombre de Andrés, hay otros nombres: \"Laura, 2005\", \"Samir, 2012\", \"Beatriz, 2019\". ¡Este libro tiene muchos lectores! Javier está muy sorprendido.",
       "Javier termina el libro en tres días. Le encanta. Escribe con cuidado: \"Javier, 2026\". Luego, regala el libro a su amigo Hugo. \"Lee la nota en la página cincuenta\", le dice con una sonrisa.",
     ],
     questions: [
@@ -3396,7 +3396,7 @@ export const A1_STORIES: Story[] = [
       "Entonces, Elisa, de siete años, habla. \"Yo tengo un plan\", dice. Ella va a la cocina y vuelve con un vaso y una hoja de papel.",
       "Elisa entra en el baño despacio. Pone el vaso sobre la araña. Luego, pasa el papel debajo del vaso con mucho cuidado. La araña está dentro del vaso.",
       "Elisa camina a la puerta de la casa con el vaso y el papel. Abre la puerta y deja la araña en el jardín. \"Adiós, señora araña\", dice. La araña camina hacia las plantas.",
-      "Mamá, papá y Rubén aplauden. \"¿Dónde aprendiste eso?\", pregunta papá. \"En la escuela\", responde Elisa. \"Las arañas comen mosquitos. Son buenas para el jardín.\" Ahora Elisa es la experta en arañas de la familia.",
+      "Mamá, papá y Rubén aplauden. \"¿Cómo sabes eso?\", pregunta papá. \"En la escuela\", responde Elisa. \"Las arañas comen mosquitos. Son buenas para el jardín.\" Ahora Elisa es la experta en arañas de la familia.",
     ],
     questions: [
       {
@@ -3526,7 +3526,7 @@ export const A1_STORIES: Story[] = [
       "Mamá busca cajas de cartón en el garaje. Hay una caja grande y una caja pequeña. También hay papel de aluminio, pintura blanca y dos botellas de plástico vacías.",
       "Álex y su mamá trabajan toda la tarde. La caja grande es el cuerpo del traje. La caja pequeña es el casco. Pintan todo de blanco y ponen papel de aluminio. Las botellas son los tanques de oxígeno.",
       "El traje no es perfecto. Es un poco grande y hace ruido cuando Álex camina. Pero Álex se mira en el espejo y dice: \"¡Soy un astronauta de verdad!\"",
-      "El viernes, en la fiesta, todos los niños miran a Álex. \"¿Dónde compraste ese disfraz?\", pregunta su amigo Iván. \"No lo compré. Lo hice con mi mamá\", responde Álex.",
+      "El viernes, en la fiesta, todos los niños miran a Álex. \"¿De dónde es ese disfraz?\", pregunta su amigo Iván. \"No es de la tienda. Mi mamá y yo lo hacemos en casa\", responde Álex.",
       "Al final de la fiesta, la profesora da un premio al disfraz más original. El premio es para Álex. Él está muy feliz. En casa, pone el casco en su estantería, al lado de la foto de su mamá.",
     ],
     questions: [
@@ -3608,7 +3608,7 @@ export const A1_STORIES: Story[] = [
     paragraphs: [
       "Todos los años, en septiembre, Lucas va al médico para una revisión. Lucas tiene diez años. No está enfermo, pero su mamá dice que las revisiones son importantes.",
       "El médico se llama doctor Gómez. Es un hombre alto con gafas y una bata blanca. Lucas lo conoce desde bebé. \"¡Hola, Lucas! ¡Qué grande estás!\", dice el doctor.",
-      "Primero, el doctor mide a Lucas. Lucas se pone de pie contra la pared, sin zapatos. \"Un metro y cuarenta centímetros\", dice el doctor. ¡Lucas ha crecido seis centímetros en un año!",
+      "Primero, el doctor mide a Lucas. Lucas se pone de pie contra la pared, sin zapatos. \"Un metro y cuarenta centímetros\", dice el doctor. ¡Lucas crece seis centímetros en un año!",
       "Después, el doctor pesa a Lucas en una báscula. Luego, escucha su corazón con el estetoscopio. \"Respira profundo\", dice. Lucas respira. El estetoscopio está frío.",
       "El doctor también mira sus ojos, sus oídos y su garganta. \"Di 'aaa'\", dice. Lucas abre la boca y dice \"aaa\" muy fuerte. El doctor se ríe.",
       "Al final, el doctor habla con la mamá de Lucas. \"Lucas está muy sano\", dice. \"Pero necesita dormir más y comer más verduras.\" Lucas hace una cara triste. No le gustan las verduras.",
@@ -3623,11 +3623,11 @@ export const A1_STORIES: Story[] = [
           "\"Todos los años, en septiembre, Lucas va al médico para una revisión. No está enfermo.\"",
       },
       {
-        question: "How much has Lucas grown in one year?",
+        question: "How much does Lucas grow in one year?",
         options: ["Six centimeters", "One meter", "Forty centimeters", "Two centimeters"],
         correctIndex: 0,
         explanation:
-          "\"¡Lucas ha crecido seis centímetros en un año!\"",
+          "\"¡Lucas crece seis centímetros en un año!\"",
       },
       {
         question: "What does the doctor say Lucas needs?",

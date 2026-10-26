@@ -241,10 +241,10 @@ export const B1_NONFICTION: Story[] = [
       "Greetings, sign-offs and the tone that works in a work email in Spanish, with the most common mistakes English speakers make.",
     paragraphs: [
       "Escribir un correo de trabajo en otro idioma da miedo: no sabemos si sonamos demasiado formales o, al contrario, demasiado directos. En español hay algunas fórmulas que facilitan mucho la tarea.",
-      "Para empezar, el saludo. Si no conoces a la persona o la situación es formal, usa «Estimado señor García:» o «Estimada Sra. López:». Fíjate en que en español el saludo termina con dos puntos, no con coma. Si ya tenéis confianza, basta con «Hola, Marta:» o simplemente «Buenos días:».",
+      "Para empezar, el saludo. Si no conoces a la persona o la situación es formal, usa «Estimado señor García:» o «Estimada Sra. López:». Fíjate en que en español el saludo suele terminar con dos puntos, no con coma. Si ya tenéis confianza, basta con «Hola, Marta:» o simplemente «Buenos días:».",
       "Después del saludo, conviene explicar enseguida el motivo del correo. Frases como «Le escribo para…», «Me pongo en contacto con usted para…» o, en un tono más cercano, «Te escribo porque…» ayudan al lector a saber qué esperar.",
       "Cuando pides algo, el condicional suaviza la petición: «¿Podría enviarme el informe antes del viernes?» suena más amable que «Envíeme el informe». También es muy común usar «le agradecería que» seguido de subjuntivo: «Le agradecería que me confirmara la fecha».",
-      "Para despedirte, las fórmulas más habituales son «Un saludo» o «Saludos cordiales» en un tono neutro, y «Atentamente» en uno muy formal. Entre compañeros, basta con «Un abrazo» o incluso «Gracias». Evita «Sinceramente», que es una traducción directa del inglés y no se usa así en español.",
+      "Para despedirte, las fórmulas más habituales son «Un saludo» o «Saludos cordiales» en un tono neutro, y «Atentamente» en uno muy formal. Entre compañeros, basta con «Un abrazo» o incluso «Gracias». Evita «Sinceramente», que suena a traducción directa del inglés y se usa poco así en español.",
       "Por último, cuidado con el «tú» y el «usted». En España, muchos correos de trabajo usan el tú desde el principio; en buena parte de América Latina, el usted es más frecuente. Si dudas, sigue el ejemplo de la otra persona: contesta con la misma forma que ella use contigo.",
     ],
     questions: [
@@ -253,7 +253,7 @@ export const B1_NONFICTION: Story[] = [
         options: ["A comma", "A colon", "A full stop", "Nothing"],
         correctIndex: 1,
         explanation:
-          "\"En español el saludo termina con dos puntos, no con coma.\"",
+          "\"En español el saludo suele terminar con dos puntos, no con coma.\"",
       },
       {
         question: "How does the text suggest softening a request?",
@@ -267,7 +267,7 @@ export const B1_NONFICTION: Story[] = [
         options: ["Un saludo", "Atentamente", "Sinceramente", "Un abrazo"],
         correctIndex: 2,
         explanation:
-          "\"Evita «Sinceramente», que es una traducción directa del inglés.\"",
+          "\"Evita «Sinceramente», que suena a traducción directa del inglés.\"",
       },
       {
         question: "What should you do if unsure about tú or usted?",

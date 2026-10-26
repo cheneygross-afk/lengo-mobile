@@ -467,7 +467,7 @@ export function conjugate(input: string): (Conjugation & { known: boolean; en: s
 
   const notes: string[] = [];
   if (spec.note) notes.push(spec.note);
-  if (pronominal && base === "ir") notes.push("Vosotros command: idos (iros is common in speech).");
+  if (pronominal && base === "ir") notes.push("Vosotros command: idos (iros is heard in colloquial speech but is not recommended).");
 
   const result = {
     infinitive: pronominal ? `${base}se` : base,

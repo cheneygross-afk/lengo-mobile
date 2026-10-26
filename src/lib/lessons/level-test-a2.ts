@@ -98,7 +98,7 @@ export const LEVEL_TEST_A2: LevelTest = {
             [
               1,
               "What does he suggest?",
-              ["Meeting at the station café at ten tomorrow", "Meeting tonight at eight", "Going to Laura's house", "Sending them by post"],
+              ["Meeting at the station café at ten tomorrow", "Meeting tonight at eight", "Going to Laura's house", "Meeting at the station café tomorrow at eight"],
               "\"¿Quedamos en la cafetería de la estación a las diez?\" -- tomorrow morning.",
             ],
           ]
@@ -167,13 +167,13 @@ export const LEVEL_TEST_A2: LevelTest = {
         fe("No conozco ___ aquí.", "a nadie", "I don't know [anyone] here.", "Nadie is a person, so it takes the personal a; after no, Spanish uses nadie (double negative)."),
         fe("Ella habla ___.", "rápidamente", "She speaks [quickly].", "Rápida + -mente keeps the accent: rápidamente. Rápido is also used as an adverb.", ["rápido"]),
         fe(
-          "___ a la derecha y sigue todo recto.",
-          "Gira",
-          "[Turn] right and go straight on.",
-          "Tú command of girar: gira (doblar → dobla also works).",
-          ["Dobla", "Gire", "Doble", "Tuerce"]
+          "___ a la derecha y siga todo recto.",
+          "Gire",
+          "[Turn] right and go straight on. (usted)",
+          "Usted command of girar: gire (doblar → doble also works), as used to give directions to a stranger.",
+          ["Doble"]
         ),
-        fe("¿La ventana? ___, por favor.", "Ciérrala", "The window? [Close it], please.", "Affirmative tú command + pronoun attached, with an accent: ciérrala.", ["Ciérrela"]),
+        fe("¿La ventana? Esta mañana ___.", "la cerré", "The window? I [closed it] this morning.", "The pronoun la replaces la ventana and goes before the conjugated verb: la cerré."),
         fe(
           "Mi abuela me ___ cuentos cuando era pequeña.",
           "contaba",

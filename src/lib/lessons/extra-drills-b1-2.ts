@@ -29,7 +29,7 @@ export const DRILLS_B1_2: Record<string, Exercise[]> = {
   ],
 
   "b1d-patron-creo-no-creo": [
-    fe("No creo que mi hermano ___ la verdad.", "diga", "I don't think my brother [is telling] the truth.", "No creo que niega la opinión: subjuntivo (diga). «Dice» es el error típico."),
+    fe("No creo que mi hermano ___ la verdad.", "diga", "I don't think my brother [is telling] the truth.", "«No creo que» niega la opinión: subjuntivo (diga). «Dice» es el error típico."),
     toEs("I think the train leaves at six.", "Creo que el tren sale a las seis.", "Creo que en afirmativo expresa certeza: indicativo (sale).", ["Pienso que el tren sale a las seis."]),
     toEs("We don't think the hotel has a pool.", "No creemos que el hotel tenga piscina.", "Creer en negativo pide subjuntivo: tenga.", ["No pensamos que el hotel tenga piscina.", "No creemos que el hotel tenga alberca.", "No creemos que el hotel tenga pileta."]),
     toEs("I'm sure Lucía knows the way.", "Estoy seguro de que Lucía sabe el camino.", "Estar seguro de que = certeza: indicativo (sabe).", ["Estoy segura de que Lucía sabe el camino."]),
@@ -146,7 +146,7 @@ export const DRILLS_B1_2: Record<string, Exercise[]> = {
 
   "b1d-corrige-disparadores": [
     fe("Espero que mis padres ___ el viaje. (el mensaje dice: disfrutan)", "disfruten", "I hope my parents [enjoy] the trip.", "Esperar que + otro sujeto: subjuntivo. «Disfrutan» es indicativo."),
-    fe("No creo que el examen ___ mañana. (el mensaje dice: es)", "sea", "I don't think the exam [is] tomorrow.", "No creo que niega la opinión: subjuntivo (sea)."),
+    fe("No creo que el examen ___ mañana. (el mensaje dice: es)", "sea", "I don't think the exam [is] tomorrow.", "«No creo que» niega la opinión: subjuntivo (sea)."),
     fe("Creo que mi hermana ___ razón. (el mensaje dice: tenga)", "tiene", "I think my sister [is] right.", "Creo que afirma: indicativo. El subjuntivo solo va con no creo que."),
     fe("Me alegro de que tus hijos ___ bien. (el mensaje dice: están)", "estén", "I'm glad your children [are] well.", "Me alegro de que es una emoción: subjuntivo (estén)."),
     fe("Estoy seguro de que el concierto ___ un éxito. (el mensaje dice: sea)", "será", "I'm sure the concert [will be] a success.", "Estar seguro de que expresa certeza: indicativo (será).", ["va a ser"]),
@@ -378,7 +378,7 @@ export const DRILLS_B1_2: Record<string, Exercise[]> = {
     toEs("I'm glad you take such good photos. (tú)", "Me alegro de que saques tan buenas fotos.", "Sacar → saques: -car → -que.", ["Me alegra que saques tan buenas fotos.", "Me alegro de que saques fotos tan buenas.", "Me alegra que saques fotos tan buenas."]),
     mc("«No quiero que ___ el coche aquí.» (aparcar, tú)", ["aparques", "aparkes", "aparcas", "aparces"], 0, "-car → -que en el subjuntivo: aparques."),
     mc("«Quiero que me ___ antes de irte.» (abrazar, tú)", ["abraces", "abrazes", "abrases", "abrazas"], 0, "-zar → -ce: abraces. Delante de e se escribe c, no z."),
-    wo("Es necesario que avancemos más rápido con el proyecto", "Avanzar → avancemos: -zar → -ce delante de e.", "We need to move forward faster with the project"),
+    wo("Es necesario que avancemos más rápido con el proyecto", "Avanzar → avancemos: -zar → -ce delante de e.", "It's necessary that we move forward faster with the project"),
     wo("Mi jefe quiere que llegue antes de las ocho", "Llegar → llegue (-gar → -gue).", "My boss wants me to arrive before eight"),
     toEs("The coach wants us to start earlier and to practice more on weekends.", "El entrenador quiere que empecemos antes y que practiquemos más los fines de semana.", "Empezar → empecemos (-zar → -ce); practicar → practiquemos (-car → -que).", ["El entrenador quiere que empecemos más temprano y que practiquemos más los fines de semana.", "El entrenador quiere que empecemos antes y practiquemos más los fines de semana.", "El entrenador quiere que comencemos antes y que practiquemos más los fines de semana.", "La entrenadora quiere que empecemos antes y que practiquemos más los fines de semana."]),
   ],
@@ -427,7 +427,7 @@ export const DRILLS_B1_2: Record<string, Exercise[]> = {
 
   "b1r-tema-miedo-escenico": [
     fe("Me da miedo que el público no ___ mis chistes.", "entienda", "I'm scared the audience [won't understand] my jokes.", "Me da miedo que + subjuntivo: entienda (el público es singular)."),
-    fe("Me pone nerviosa que mi profesora ___ en primera fila.", "esté", "It makes me nervous that my teacher [is] in the front row.", "Me pone nerviosa que + subjuntivo: esté.", ["se siente"]),
+    fe("Me pone nerviosa que mi profesora ___ en primera fila.", "esté", "It makes me nervous that my teacher [is] in the front row.", "Me pone nerviosa que + subjuntivo: esté."),
     fe("___ hondo antes de salir al escenario.", "Respira", "[Breathe] deeply before going out on stage. (tú)", "Consejo directo: imperativo de tú (respira)."),
     fe("No ___ nervioso; lo vas a hacer muy bien.", "te pongas", "[Don't get] nervous; you're going to do really well. (tú)", "El imperativo negativo usa el subjuntivo: no te pongas."),
     toEs("I'm afraid of going blank on stage.", "Tengo miedo de quedarme en blanco en el escenario.", "Mismo sujeto: infinitivo (quedarme en blanco).", ["Me da miedo quedarme en blanco en el escenario."]),
@@ -447,7 +447,7 @@ export const DRILLS_B1_2: Record<string, Exercise[]> = {
   ],
 
   "b1-common-words-justice": [
-    toEs("The prosecutor says the suspect is lying. (a woman)", "La fiscal dice que el sospechoso miente.", "«Fiscal» no cambia de forma: la fiscal, el fiscal.", ["La fiscal dice que el sospechoso está mintiendo."]),
+    toEs("The prosecutor (a woman) says the suspect (a man) is lying.", "La fiscal dice que el sospechoso miente.", "«Fiscal» no cambia de forma: la fiscal, el fiscal.", ["La fiscal dice que el sospechoso está mintiendo."]),
     toEs("The police found a clue near the river.", "La policía encontró una pista cerca del río.", "Pista = clue; la policía es singular (encontró)."),
     fe("Lo condenaron a quince años de ___.", "prisión", "He was sentenced to fifteen years in [prison].", "En las sentencias se dice «años de prisión»; «cárcel» también es posible.", ["cárcel"]),
     wo("La jueza quiere averiguar la verdad", "Averiguar = to find out.", "The judge wants to find out the truth"),
@@ -508,7 +508,7 @@ export const DRILLS_B1_2: Record<string, Exercise[]> = {
     fe("Ojalá que el autobús ___ pronto.", "llegue", "I hope the bus [arrives] soon.", "Ojalá que + subjuntivo; llegar → llegue (-gar → -gue).", ["venga", "pase"]),
     fe("Ojalá que mi hijo ___ el examen de conducir.", "apruebe", "I hope my son [passes] his driving test.", "Ojalá que + subjuntivo: apruebe (o → ue)."),
     fe("Ojalá ___ tiempo para visitar el museo.", "tengamos", "Hopefully we['ll have] time to visit the museum.", "Ojalá + subjuntivo (tengamos), nunca futuro."),
-    fe("Ojalá que el avión no se ___.", "retrase", "I hope the plane [isn't delayed].", "Ojalá que + subjuntivo: se retrase."),
+    fe("Ojalá que el avión no se ___.", "retrase", "I hope the plane [isn't delayed].", "Ojalá que + subjuntivo: se retrase.", ["demore"]),
     fe("Ojalá mis amigos ___ a mi cumpleaños.", "vengan", "I hope my friends [come] to my birthday.", "Ojalá es invariable; el verbo concuerda con mis amigos: vengan."),
     toEs("I hope you sleep well tonight. (tú)", "Ojalá duermas bien esta noche.", "Ojalá + subjuntivo: duermas (o → ue).", ["Ojalá que duermas bien esta noche."], OJALA),
     toEs("I hope the store has my size.", "Ojalá la tienda tenga mi talla.", "Ojalá + subjuntivo: tenga.", ["Ojalá que la tienda tenga mi talla."], OJALA),

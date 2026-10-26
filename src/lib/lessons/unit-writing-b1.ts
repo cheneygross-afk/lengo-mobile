@@ -173,7 +173,7 @@ export const B1_UNIT_WRITING: Record<string, WriteExercise> = {
     "Vosotros afirmativo: infinitivo con -d (escuchad, venid, id). Con os la d desaparece: lavaos, acostaos. El negativo usa el subjuntivo: no corráis, no os olvidéis."
   ),
   "b1r-spiral-b1-first-half": t(
-    "Escribe un mensaje al grupo de amigos para organizar un viaje en España: qué queréis que haga cada uno, condiciones con si y mandatos de vosotros.",
+    "Escribe un mensaje al grupo de amigos para organizar un viaje en España: qué queréis que haga cada uno, condiciones con si, mandatos de vosotros y un consejo con condicional (yo que vosotros…).",
     ["Mandatos de vosotros (reservad, traed…)", "Quiero que / es importante que + subjuntivo", "Si + presente", "Una frase con condicional"],
     "¡Hola, chicos! Ya tenemos fecha: del 10 al 14 de julio en Cádiz. Reservad los billetes de tren esta semana, porque luego suben. Quiero que Marta busque el apartamento y que Luis organice las excursiones. Si hace calor, iremos a la playa todos los días. Traed crema y no os olvidéis del DNI. Yo que vosotros compraría las entradas del concierto ya.",
     "Mandatos de vosotros (reservad, traed, no os olvidéis), quiero que + subjuntivo, si + presente con futuro y un consejo en condicional."

@@ -63,7 +63,7 @@ export const A2_STORY_ENGLISH: Record<string, string[]> = {
     "When the host says her name, Valentina walks onto the stage very slowly. She looks at the audience and sees Camila in the front row, smiling and giving her a thumbs-up. That gives her a little confidence.",
     "The music starts, and Valentina opens her mouth to sing. At first her voice shakes a little, but then she relaxes and sings with all her heart. The audience listens in silence, and some people start to smile.",
     "When the song ends, the whole auditorium claps loudly. Some people stand up from their seats. Valentina can't believe what is happening. She comes off the stage with a huge smile on her face.",
-    "After the show, Camila runs to hug her. \"You were amazing!\" she says. Valentina answers, \"I couldn't have done it without you.\" That night, Valentina decides she wants to sing in more shows in the future, and she isn't so afraid of the stage anymore.",
+    "After the show, Camila runs to hug her. \"You were amazing!\" she says. Valentina answers, \"Thanks to you, I was able to do it.\" That night, Valentina decides she wants to sing in more shows in the future, and she isn't so afraid of the stage anymore.",
   ],
   "science-fair-project": [
     "Andrés and his classmate Julia have to do a project for the science fair. They decide to study how plants grow with different kinds of light. They buy three small plants and put them in different places in Andrés's house.",
@@ -103,7 +103,7 @@ export const A2_STORY_ENGLISH: Record<string, string[]> = {
     "Leo finds out about Emma's problem by text message. Without thinking twice, he decides to invite Emma to cook at his house. \"Let's both go to my house to cook,\" Leo says.",
     "Emma and Leo spend the afternoon in Leo's kitchen. They make the chocolate cake and the lemon cookies together, helping each other. They laugh a lot and also taste a little of the dough before baking everything.",
     "On the day of the competition, Emma and Leo arrive with their two desserts. Lots of students buy the cake and the cookies, and everyone says they're delicious. At the end of the day, the principal announces that Leo's cookies have won first prize.",
-    "Emma is happy for her friend, no hard feelings at all. \"Thanks for helping me. Without you, I couldn't have finished my cake,\" Emma says. Leo answers, \"And you helped me a lot with the cookie dough.\" The two of them decide that next year they are going to compete together, as one team.",
+    "Emma is happy for her friend, no hard feelings at all. \"Thanks for helping me. With your help, I was able to finish my cake,\" Emma says. Leo answers, \"And you helped me a lot with the cookie dough.\" The two of them decide that next year they are going to compete together, as one team.",
   ],
   "chess-club-hobby": [
     "Iker sees his neighbor, Mr. Ortiz, playing chess in the park every Sunday. One day, Iker goes over and asks, \"What's that game?\" Mr. Ortiz smiles and explains that it's chess, a very old game.",
@@ -471,7 +471,7 @@ export const A2_STORY_ENGLISH: Record<string, string[]> = {
     "Emilio was eleven years old and lived in a small town. His cousin Valentina lived in the city, two hours away by train. That weekend, Emilio was going to travel alone by train for the first time to visit her.",
     "His mom took him to the train station very early. \"You have to get off at the third stop, Central Station,\" she explained. \"Valentina is going to wait for you there with a sign with your name on it.\"",
     "Emilio got on the train with his backpack and sat by the window. During the trip, he looked at the scenery: mountains, rivers and small towns. He was excited, but he was also carefully counting the stops.",
-    "After two hours, the train arrived at a big station with lots of people. Emilio thought it was Central Station, so he got off the train quickly. But when he looked at the sign, he saw that it wasn't the right stop.",
+    "After an hour and a half, the train arrived at a big station with lots of people. Emilio thought it was Central Station, so he got off the train quickly. But when he looked at the sign, he saw that it wasn't the right stop.",
     "Emilio panicked for a moment. He didn't know what to do. Then he remembered his mom's words: \"If you have a problem, look for a train employee in uniform.\"",
     "Emilio found an employee and explained his problem. The woman was very kind and helped him get on the next train to Central Station. She told him, \"Don't worry, this happens to lots of people.\"",
     "Twenty minutes later, Emilio finally arrived at Central Station. He saw Valentina with a big sign with his name on it. They hugged, and Emilio told her about the whole adventure, laughing at his mistake.",
@@ -774,7 +774,7 @@ export const A2_STORY_ENGLISH: Record<string, string[]> = {
     "The girls talked and laughed until two in the morning, and then they fell asleep peacefully. The next day, Julia told her mom everything. \"Sometimes the things that embarrass us most are the things we have in common with other people,\" her mom told her.",
   ],
   "sandcastle-contest": [
-    "Every summer, on the beach in Salou, there was a sandcastle contest for kids. That year, the cousins Adrián and Laia decided to enter together. They were eleven and ten, and they had been practicing for a week.",
+    "Every summer, on La Lanzada beach in Galicia, there was a sandcastle contest for kids. That year, the cousins Adrián and Laia decided to enter together. They were eleven and ten, and they had been practicing for a week.",
     "On the day of the contest, they got to the beach at nine in the morning with buckets, shovels, a small rake and a water spray bottle. Each team had a two-meter space and three hours to build.",
     "Adrián and Laia had a plan: a castle with four towers, a bridge and a moat full of water. Adrián knew the sand had to be wet so it wouldn't fall apart. Laia was very good with details: she made small windows with a little stick.",
     "They worked nonstop. By eleven, the castle already had three towers and the bridge. Other kids came to look at it. But then Laia noticed something: the seawater was getting closer and closer. The tide was coming in!",

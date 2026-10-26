@@ -332,7 +332,7 @@ export const FREQUENCY_A2: DeckCard[] = [
   {"rank":825,"es":"la pista","en":"clue; track; court","pos":"n.","exEs":"El detective encontró una pista importante en el coche.","exEn":"The detective found an important clue in the car."},
   {"rank":826,"es":"controlar","en":"to control","pos":"v.","exEs":"No puedo controlar mis nervios.","exEn":"I can't control my nerves."},
   {"rank":827,"es":"el árbol","en":"tree","pos":"n.","exEs":"El animal había subido a un árbol dos días antes.","exEn":"The animal had climbed a tree two days earlier."},
-  {"rank":828,"es":"la mirada","en":"look, gaze","pos":"n.","exEs":"Mirad el grupo de mensajes esta noche.","exEn":"Check the group chat tonight."},
+  {"rank":828,"es":"la mirada","en":"look, gaze","pos":"n.","exEs":"Mirad el chat del grupo esta noche.","exEn":"Check the group chat tonight."},
   {"rank":829,"es":"el entrenador / la entrenadora","en":"coach, trainer","pos":"n.","exEs":"Si ellos hubieran entrenado más, habrían ganado.","exEn":"If they had trained more, they would have won."},
   {"rank":830,"es":"la carne","en":"meat; flesh","pos":"n.","exEs":"Antes comía carne; ahora soy vegetariano.","exEn":"I used to eat meat; now I'm vegetarian."},
   {"rank":831,"es":"la máquina","en":"machine","pos":"n.","exEs":"No sé usar esta máquina.","exEn":"I don't know how to use this machine."},

@@ -14,7 +14,7 @@ const B1_FICTION: Story[] = [
       "El cielo estaba despejado y el sol brillaba sobre los picos nevados. Caminaron por el sendero principal durante casi dos horas, sacando fotos y riendo. Valentina, que siempre llevaba la cámara, quería encontrar el mirador perfecto para fotografiar el lago turquesa que se veía a lo lejos.",
       "Cuando vio un pequeño camino que se separaba del sendero oficial, Valentina dijo que probablemente llevaba a una vista mejor. \"Solo será un momento\", prometió. Sus amigos, curiosos, la siguieron sin pensarlo mucho. El camino era estrecho y estaba cubierto de piedras sueltas, pero ellos siguieron avanzando entre los árboles.",
       "Después de veinte minutos, Diego se dio cuenta de que ya no había señales ni marcadores en los árboles. \"Creo que nos hemos alejado demasiado del sendero principal\", dijo, mirando su teléfono, que no tenía señal. El grupo se detuvo, y por primera vez sintieron un poco de miedo.",
-      "\"Esto es tu culpa\", le dijo Diego a Valentina, un poco enojado. Ella se defendió diciendo que todos habían decidido seguir el camino juntos. Mateo, que normalmente era tranquilo, pidió que dejaran de discutir. \"Pelear no nos va a ayudar a salir de aquí\", explicó con calma.",
+      "\"Esto es culpa tuya\", le dijo Diego a Valentina, un poco enojado. Ella se defendió diciendo que todos habían decidido seguir el camino juntos. Mateo, que normalmente era tranquilo, pidió que dejaran de discutir. \"Pelear no nos va a ayudar a salir de aquí\", explicó con calma.",
       "Camila, que había hecho muchas excursiones con su padre cuando era niña, recordó un consejo importante: si te pierdes en la montaña, es mejor buscar un río o un arroyo, porque el agua siempre baja hacia los valles, donde suele haber caminos y gente. \"Escuchen\", dijo, \"oigo agua correr hacia la izquierda\".",
       "Siguieron el sonido del agua durante casi una hora. El terreno era difícil, con rocas resbaladizas y ramas que les cortaban el paso. Empezó a hacer más frío, y unas nubes grises cubrieron el cielo. Todos estaban cansados, pero nadie quería parar hasta encontrar el camino correcto.",
       "Cuando llegaron al arroyo, tuvieron que cruzarlo saltando de piedra en piedra. Mateo resbaló y se mojó un pie, pero no se lastimó. Diego lo ayudó a levantarse y, por primera vez en horas, todos se rieron un poco, aliviados de que no hubiera sido algo peor.",
@@ -98,7 +98,7 @@ const B1_FICTION: Story[] = [
     subtitle:
       "A curious teenager investigates who has been secretly leaving small gifts on neighbors' doorsteps in her small town.",
     paragraphs: [
-      "En el pequeño pueblo de Villaflor, en el sur de España, empezaron a suceder cosas extrañas durante el invierno. Cada mañana, algunos vecinos encontraban pequeños regalos frente a sus puertas: una bufanda tejida a mano, una canasta de frutas, un dibujo hecho por un niño, o incluso una nota con palabras de ánimo.",
+      "En el pequeño pueblo de Villaflor, en el sur de España, empezaron a suceder cosas extrañas durante el invierno. Cada mañana, algunos vecinos encontraban pequeños regalos frente a sus puertas: una bufanda tejida a mano, una cesta de fruta, un dibujo hecho por un niño, o incluso una nota con palabras de ánimo.",
       "Lucía, una estudiante de quince años que vivía con su madre en la calle principal del pueblo, se sintió muy intrigada por el misterio. Todos en el pueblo hablaban del tema en la panadería y en la plaza, pero nadie sabía quién dejaba los regalos ni por qué lo hacía.",
       "Algunos vecinos, como el señor Antúnez, pensaban que era una broma de mal gusto. Otros creían que era una señal de buena suerte. Lucía, sin embargo, quería descubrir la verdad. Decidió que investigaría el misterio como si fuera una verdadera detective.",
       "Empezó a anotar en un cuaderno los días y las horas en que aparecían los regalos, además de las casas donde aparecían. Notó un patrón: los regalos siempre aparecían los martes y los viernes por la mañana, muy temprano, antes de que saliera el sol.",
@@ -549,7 +549,7 @@ const B1_FICTION: Story[] = [
       "Sin embargo, hubo un momento difícil cuando Camila, distraída por un perro que cruzó la calle, frenó demasiado tarde y estuvo a punto de chocar contra el auto de adelante. Marcelo, a pesar de su promesa, no pudo evitar gritar \"¡Frena!\" en ese momento de verdadero peligro.",
       "Después de ese susto, en lugar de enojarse, padre e hija hablaron con calma sobre lo que había pasado. Camila admitió que se había distraído, y Marcelo reconoció que, en momentos de peligro real, es normal y necesario que un instructor hable con firmeza.",
       "Con esa experiencia, ambos entendieron mejor los límites del nuevo sistema: silencio durante la conducción normal, pero comunicación clara y rápida cuando surgiera un peligro verdadero. Esta combinación funcionó mucho mejor para los dos.",
-      "El día del examen de conducir, Camila aprobó sin ningún problema. Cuando salió de la oficina de tránsito con su nuevo permiso en la mano, abrazó a su padre y le agradeció por finalmente haber aprendido a confiar en ella detrás del volante.",
+      "El día del examen de conducir, Camila aprobó sin ningún problema. Cuando salió de la oficina de tránsito con su nuevo permiso en la mano, abrazó a su padre y le agradeció que por fin hubiera aprendido a confiar en ella detrás del volante.",
     ],
     questions: [
       {
@@ -767,9 +767,9 @@ const B1_FICTION: Story[] = [
       "Al principio, Ramón se frustraba fácilmente. Olvidaba constantemente cómo abrir las aplicaciones y a veces presionaba botones equivocados sin darse cuenta. Un día, incluso llegó a decir que prefería regresar a su teléfono viejo, ya que sentía que nunca aprendería a usar el nuevo correctamente.",
       "Camila, sin embargo, no se rindió. Le explicó que ella también había tenido que aprender cosas nuevas y difíciles, como las costumbres de su nueva escuela en España, y que al principio todo parece imposible hasta que uno practica lo suficiente. Sus palabras animaron a Ramón a seguir intentándolo.",
       "Practicaron todos los días durante las tres semanas de la visita de Camila. Ella le enseñó cómo hacer videollamadas, cómo tomar fotografías y hasta cómo mandar mensajes con emojis, algo que a Ramón le pareció particularmente divertido una vez que entendió cómo funcionaba.",
-      "El día antes de que Camila regresara a España, hicieron una videollamada de prueba con los padres de Camila. Cuando Ramón vio la cara de su hija en la pantalla del teléfono, moviéndose en tiempo real, se emocionó tanto que casi se le caen las lágrimas frente a Camila.",
+      "El día antes de que Camila regresara a España, hicieron una videollamada de prueba con los padres de Camila. Cuando Ramón vio la cara de su hijo en la pantalla del teléfono, moviéndose en tiempo real, se emocionó tanto que casi se le caen las lágrimas frente a Camila.",
       "Después de que Camila regresó a España, ambos mantuvieron su promesa de hacer videollamadas cada domingo por la tarde. Ramón, con el tiempo, se fue sintiendo mucho más cómodo con el teléfono y hasta empezó a mandarle fotografías de su jardín y de la comida que cocinaba cada semana.",
-      "Un año después, durante otra visita de Camila, Ramón le mostró orgulloso que había aprendido a usar varias aplicaciones nuevas por su cuenta, incluyendo una para jugar juegos simples de palabras. Le agradeció a su nieta por haberle abierto una nueva forma de sentirse cerca de su familia, sin importar la distancia.",
+      "Un año después, durante otra visita de Camila, Ramón le mostró orgulloso que había aprendido a usar varias aplicaciones nuevas por su cuenta, incluyendo una para jugar juegos simples de palabras. Le agradeció a su nieta que le hubiera abierto una nueva forma de sentirse cerca de su familia, sin importar la distancia.",
     ],
     questions: [
       {
@@ -1972,7 +1972,7 @@ const B1_FICTION: Story[] = [
       "El primer martes, Ramón se puso un delantal y empezó a cortar verduras junto a otros voluntarios. La coordinadora le explicó las reglas: \"Sirve con una sonrisa y trata a todos con respeto, sin importar su situación\". Ramón, que había sido cocinero durante treinta años, se sintió útil por primera vez en meses.",
       "Entre las personas que iban a cenar cada semana, había un joven llamado Iker que siempre se sentaba solo, cerca de la puerta. Ramón notó que Iker apenas hablaba con nadie y que a veces se quedaba mirando el plato sin comer. Una noche, Ramón se sentó a su lado y le preguntó cómo estaba, algo que nadie parecía haberle preguntado en mucho tiempo.",
       "Poco a poco, Iker empezó a contarle su historia: había perdido su trabajo y, después, su piso, y ahora dormía en casa de un amigo. \"Es difícil que la gente entienda lo rápido que puede cambiar todo\", le dijo Iker una noche. Ramón lo escuchaba sin interrumpir, recordando lo solo que él mismo se había sentido antes de empezar a ir al comedor.",
-      "Ramón había trabajado toda su vida en restaurantes, así que le ofreció a Iker enseñarle algunas recetas básicas los sábados por la mañana. Al principio, Iker dudaba de que fuera capaz de aprender, pero Ramón insistió: \"Prueba primero, ya verás que puedes\". Con el tiempo, Iker empezó a ayudar también en la cocina del comedor los martes.",
+      "Ramón había trabajado treinta años en restaurantes, así que le ofreció a Iker enseñarle algunas recetas básicas los sábados por la mañana. Al principio, Iker dudaba de que fuera capaz de aprender, pero Ramón insistió: \"Prueba primero, ya verás que puedes\". Con el tiempo, Iker empezó a ayudar también en la cocina del comedor los martes.",
       "Un día, un pequeño restaurante del barrio buscaba a alguien para trabajar en la cocina, y Ramón le habló de Iker al dueño, a quien conocía desde hacía años. Le dijeron a Iker que fuera a una entrevista, y esa misma semana consiguió el trabajo. Ramón nunca había sentido tanto orgullo por alguien que no fuera de su propia familia.",
       "Meses después, Iker seguía yendo al comedor los martes, pero ya no como comensal, sino como voluntario, igual que Ramón. Los dos cocinaban juntos, riéndose de sus propios errores en la cocina. \"Si alguien me hubiera dicho que un comedor social me daría un amigo así, no lo habría creído\", pensaba Ramón cada martes, mientras cerraba la puerta del local.",
     ],
@@ -2200,7 +2200,7 @@ const B1_FICTION: Story[] = [
     paragraphs: [
       "Cuatro amigos de la universidad decidieron reunirse después de varios años sin verse para subir juntos al Teide, el volcán más alto de España. Habían planeado la ruta durante meses: saldrían de madrugada para ver el amanecer desde la cumbre. Todos estaban emocionados, aunque ninguno tenía mucha experiencia en montañas tan altas.",
       "Empezaron a caminar a las tres de la madrugada, con linternas frontales y mochilas llenas de agua y comida. Los primeros kilómetros fueron fáciles, entre risas y recuerdos de la universidad. Pero a medida que subían, el aire se hacía más frío y más difícil de respirar.",
-      "Hacia las cinco de la mañana, Teresa, una de los cuatro amigos, empezó a sentirse mareada y con dolor de cabeza. \"Es normal que a esta altura te sientas así\", le dijo Marcos, que había subido montañas antes, \"pero avísanos si empeora\". Teresa intentó seguir caminando, aunque cada paso le costaba más que el anterior.",
+      "Hacia las cinco de la mañana, Teresa, una de los cuatro amigos, empezó a sentirse mareada y con dolor de cabeza. \"Es normal que a esta altitud te sientas así\", le dijo Marcos, que había subido montañas antes, \"pero avísanos si empeora\". Teresa intentó seguir caminando, aunque cada paso le costaba más que el anterior.",
       "A dos horas de la cumbre, Teresa se detuvo completamente y admitió que no podía continuar. Los otros tres se miraron sin saber qué hacer: si seguían subiendo, llegarían a tiempo para el amanecer, pero dejarían a Teresa sola en la montaña. \"No la vamos a dejar aquí\", dijo Marcos, \"bajaremos con ella, la cumbre estará ahí otro día\".",
       "Teresa se sintió culpable por arruinar el plan de sus amigos, pero ellos insistieron en que su seguridad era lo más importante. Bajaron juntos, despacio, deteniéndose cada pocos minutos para que Teresa descansara. \"Nunca me había sentido tan mal en una montaña\", les confesó Teresa, mientras bajaban en silencio bajo las primeras luces del día.",
       "Ya en la base de la montaña, sentados en el coche, los cuatro amigos vieron el amanecer de todos modos, aunque desde mucho más abajo de lo planeado. \"Fue distinto a lo que habíamos imaginado\", dijo Laura, la cuarta amiga, \"pero fue igual de bonito\". Teresa, ya recuperada, sonrió y dijo que algún día volvería para terminar lo que había empezado.",
@@ -3180,7 +3180,7 @@ const B1_FICTION: Story[] = [
       "El chico, Dani, conducía la primera parte. Emilio, que había sido camionero durante treinta años, le daba consejos sobre la carretera. La inglesa, Kate, practicaba su español con todos y se reía de sus propios errores. Rocío se encargó de la música y de encontrar gasolineras abiertas en plena noche.",
       "A las tres de la mañana, en un área de servicio de Albacete, pararon a tomar un café. Emilio les enseñó fotos de su familia y les habló de su mujer, que había muerto hacía poco. Dani confesó que volvía a casa por primera vez en dos años, después de una pelea con su padre. Nadie juzgó a nadie.",
       "Llegaron a Sevilla a las siete de la mañana del día 24, cansados pero felices. Dejaron a Emilio en la puerta del hospital, donde su hija lo esperaba con el bebé en brazos. Los otros tres se bajaron del coche para verlo. Emilio tomó a su nieto y lloró de emoción, y ellos también.",
-      "Antes de despedirse, los cuatro se hicieron una foto y crearon un grupo de mensajes llamado \"Los del coche\". Cada Navidad, desde entonces, se escriben para felicitarse las fiestas. Y Dani les contó, semanas después, que había hecho las paces con su padre. —Diez horas en un coche con ustedes me dieron el valor —escribió.",
+      "Antes de despedirse, los cuatro se hicieron una foto y crearon un grupo de mensajes llamado \"Los del coche\". Cada Navidad, desde entonces, se escriben para felicitarse las fiestas. Y Dani les contó, semanas después, que había hecho las paces con su padre. —Diez horas en un coche con vosotros me dieron el valor —escribió.",
     ],
     questions: [
       {
@@ -3209,7 +3209,7 @@ const B1_FICTION: Story[] = [
         options: ["A new job", "A girlfriend", "Money", "The courage to make peace with his father"],
         correctIndex: 3,
         explanation:
-          "He had made peace with his father: \"Diez horas en un coche con ustedes me dieron el valor.\"",
+          "He had made peace with his father: \"Diez horas en un coche con vosotros me dieron el valor.\"",
       },
     ],
   },
@@ -3467,7 +3467,7 @@ const B1_FICTION: Story[] = [
     questions: [
       {
         question: "Why did everyone in Valdemora fear a fire that summer?",
-        options: ["There had been fires every year", "It was the hottest summer on record, with no rain since April and dry rivers", "The fire station had closed", "Someone had threatened to start one"],
+        options: ["There had been fires every year", "It was the hottest summer anyone could remember, with no rain since April and dry rivers", "The fire station had closed", "Someone had threatened to start one"],
         correctIndex: 1,
         explanation:
           "\"El verano de aquel año fue el más caluroso que se recordaba... No había llovido desde abril, los ríos estaban casi secos.\"",
@@ -3743,7 +3743,7 @@ const B1_FICTION: Story[] = [
       "Su abuelo, que había sido actor de teatro en su juventud, notó que estaba nerviosa y le preguntó qué le pasaba. Julia le contó todo. Él la escuchó con atención y luego le dio dos consejos. El primero: no intentar ser otra persona, sino hablar como hablaba con sus amigos. El segundo: contar la verdad, aunque fuera incómoda.",
       "—¿Y cuál es la verdad? —le preguntó Julia. —Eso tienes que descubrirlo tú —respondió el abuelo—. Pero te doy una pista: seguramente no eres la única persona en ese salón que tiene miedo. Esa noche, Julia rompió su discurso y empezó uno nuevo desde cero.",
       "El día de la graduación, el salón de actos estaba lleno: más de trescientas personas entre alumnos, profesores y familias. Cuando dijeron su nombre, Julia subió al escenario con las piernas temblando. Se colocó delante del micrófono, miró al público y, durante unos segundos que parecieron eternos, no dijo nada.",
-      "Luego empezó: —Tengo que confesarles algo. Me da pánico hablar en público. En tercero salí corriendo de una presentación, y algunos de ustedes estaban allí. Se oyeron algunas risas cariñosas. Julia continuó hablando de los miedos que todos habían tenido durante esos años: a suspender, a no encajar, a decepcionar a sus padres, a no saber qué hacer con su vida. Y de cómo, a pesar de todo, estaban allí.",
+      "Luego empezó: —Tengo que confesaros algo. Me da pánico hablar en público. En tercero salí corriendo de una presentación, y algunos de vosotros estabais allí. Se oyeron algunas risas cariñosas. Julia continuó hablando de los miedos que todos habían tenido durante esos años: a suspender, a no encajar, a decepcionar a sus padres, a no saber qué hacer con su vida. Y de cómo, a pesar de todo, estaban allí.",
       "Cuando terminó, hubo un momento de silencio y después todo el salón se puso de pie para aplaudir. Varios compañeros se le acercaron después para decirle que ellos también tenían miedo y que nunca lo habían dicho. Julia todavía se pone nerviosa cuando habla en público, pero ahora sabe algo importante: el miedo compartido pesa mucho menos.",
     ],
     questions: [

@@ -822,7 +822,7 @@ export const B1_WRITING_TASKS: UnitWriting = {
   "b1r-tema-estres": [
     {
       "type": "write",
-      "prompt": "Eres profesor y tus alumnos tienen exámenes finales la semana que viene. Escribe un breve discurso para la clase con consejos para no estresarse. Usa mandatos de vosotros.",
+      "prompt": "Eres profesor y tus alumnos tienen exámenes finales la semana que viene. Escribe un breve discurso para la clase con consejos para no estresarse. Usa mandatos de vosotros y al menos dos consejos con «os recomiendo que» o «es mejor que» + subjuntivo.",
       "minWords": 50,
       "maxWords": 90,
       "rubric": [

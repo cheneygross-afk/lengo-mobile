@@ -66,7 +66,7 @@ export const B1_SKILLS: Record<string, Exercise[]> = {
     spk("El pueblo donde crecí está en las montañas.", "Crecí: seseo «cre-SÍ» o distinción «cre-ZÍ»; las dos son correctas.", "Donde como relativo de lugar."),
   ],
   "b1d-habla-de-ti-instrucciones-grupo": [
-    spk("Llevad zapatos cómodos y no olvidéis el agua.", "La d final de llevad es muy suave, casi no se oye.", "Mandatos de vosotros (España): afirmativo llevad, negativo no olvidéis."),
+    spk("Llevad zapatos cómodos y traed agua.", "La d final de llevad es muy suave, casi no se oye.", "Mandatos de vosotros (España): afirmativo llevad, traed."),
     spk("Llamadme si os perdéis.", "Llamadme: la d antes de m es suave; la ll suena como y.", "Pronombre pegado al imperativo de vosotros: llamadme."),
   ],
   "b1d-habla-de-ti-deseos": [

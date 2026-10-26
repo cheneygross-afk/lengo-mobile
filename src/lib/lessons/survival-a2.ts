@@ -30,7 +30,7 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         "Dialogue: in a clothes shop",
         [
           "Read the dialogue. Clara wants a jacket she saw in the window.",
-          "Notice the chunks: ¿Qué talla usa? (what size do you take?), ¿Me la puedo probar? (can I try it on?), los probadores (the fitting rooms), me queda grande (it's too big on me).",
+          "Notice the chunks: ¿Qué talla usas? (what size do you take?), ¿Me la puedo probar? (can I try it on?), los probadores (the fitting rooms), me queda grande (it's too big on me).",
         ],
         [
           ["— Hola, ¿te puedo ayudar en algo?", "Hi, can I help you with anything?"],
@@ -423,7 +423,7 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
       fe(
         "¿Le viene ___ el jueves a las cuatro?",
         "bien",
-        "Does Thursday at four [suit] you?",
+        "Does Thursday at four work [well] for you?",
         "Venir bien = to suit, to be convenient. It works like gustar: ¿le viene bien...?"
       ),
       fe(

@@ -91,7 +91,7 @@ export const A1_IRREGULARS: AnchoredLesson[] = [
   L(
     "a1-irregulars-tengo-vengo-digo-oigo",
     "Yo-Go Plus a Vowel Change: Tengo, Vengo, Digo, Oigo",
-    "Tener, venir, decir and oír: a -go yo form plus the boot-shaped vowel change you already know.",
+    "Tener, venir, decir and oír: a -go yo form plus the boot-shaped vowel change (tener, venir, decir) and the y-forms of oír (oyes, oye, oyen).",
     "10 min",
     [
       sec(

@@ -26,7 +26,7 @@ export const DRILLS_B1_11: Record<string, Exercise[]> = {
   ],
 
   "b1d-rep-perfecto-ronda-final": [
-    fe("Este año ___ tres libros en español.", "he leído", "This year [I have read] three books in Spanish.", "«Este año» es un periodo que incluye el presente: pretérito perfecto, no «leí»."),
+    fe("Este año ___ tres libros en español.", "he leído", "This year [I have read] three books in Spanish.", "«Este año» es un periodo que incluye el presente: pretérito perfecto en España; en América Latina «leí» también es posible.", ["leí"]),
     fe("Ayer ___ a mis abuelos.", "visité", "Yesterday [I visited] my grandparents.", "«Ayer» es un tiempo terminado: indefinido «visité», no «he visitado»."),
     fe("Cuando llegamos al cine, la película ya ___.", "había empezado", "When we arrived at the cinema, the film [had] already [started].", "La película empezó antes que otra acción pasada (llegar): pluscuamperfecto."),
     toEs("Have you ever eaten paella? (tú)", "¿Alguna vez has comido paella?", "Experiencia hasta hoy: pretérito perfecto. En América Latina también se dice «¿Alguna vez comiste paella?», que se acepta.", ["¿Has comido paella alguna vez?", "¿Has comido alguna vez paella?", "¿Alguna vez comiste paella?", "¿Comiste paella alguna vez?"]),

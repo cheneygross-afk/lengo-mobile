@@ -23,7 +23,7 @@ export const C1_BAND_STORIES: Story[] = [
     questions: [
       {
         question: "Why does Clara want to sell the flat quickly?",
-        options: ["She wants to move in", "She has financial pressures and thinks the market is favorable", "She dislikes Madrid", "Her brother asked her to"],
+        options: ["She wants to move in", "She has financial pressures and thinks it is now or never given the market", "She dislikes Madrid", "Her brother asked her to"],
         correctIndex: 1,
         explanation:
           "She has two children at university and a mortgage, and says \"Es ahora o nunca. El mercado está como está\".",
@@ -309,7 +309,7 @@ export const C1_BAND_STORIES: Story[] = [
       "Hubo algo en la manera en que lo dijo, una precisión de folleto turístico, que despertó la sospecha de Rocío. Decidió tantear el terreno. «Lo peor para mí son las bajadas», comentó. «Me destrozan las rodillas». Andrés se apresuró a darle la razón. «Sí, sí, las bajadas son terribles», dijo, y luego, tras una pausa, añadió: «¿Las bajadas son cuando vas hacia abajo, no?».",
       "Rocío se quedó mirándolo. Él se puso rojo hasta las orejas. Durante un segundo pareció que la cita iba a terminar ahí, en un silencio insoportable entre dos personas adultas pilladas en una mentira absurda. Entonces ella soltó una carcajada tan fuerte que los turistas de la mesa de al lado se volvieron.",
       "—No he subido una montaña en mi vida —confesó Andrés, tapándose la cara con las manos—. Mi hermana me dijo que a las mujeres de nuestra edad les gustaban los hombres activos.",
-      "—Y a mí mi hija me dijo que a los hombres de vuestra edad les gustaban las mujeres deportistas —respondió ella, todavía riéndose—. Odio el senderismo. Me salen ampollas solo de mirar unas botas.",
+      "—Y a mí mi hija me dijo que a los hombres de tu edad les gustaban las mujeres deportistas —respondió ella, todavía riéndose—. Odio el senderismo. Me salen ampollas solo de mirar unas botas.",
       "A partir de ahí, la conversación cambió por completo. Ya sin la necesidad de impresionar, hablaron de lo que de verdad les gustaba: él, de las novelas policíacas nórdicas y de cocinar guisos los domingos; ella, del cine en blanco y negro y de las tardes de sofá con una manta. Pidieron otra ronda, y luego una tercera. Cuando cerraron la terraza, seguían hablando.",
       "Tres meses después, siguen viéndose. No han subido ninguna montaña. Pero los domingos, a veces, dan un paseo corto por la orilla del Guadalquivir, sin prisa y sin pretensiones, hasta que a alguno de los dos le duelen los pies y deciden, de mutuo acuerdo, que ya está bien de deporte.",
     ],
@@ -792,7 +792,7 @@ export const C1_BAND_STORIES: Story[] = [
       "Wilmer tenía sus dudas. No sobre el fantasma, en el que no creía, sino sobre lo que había visto aquella noche. Al revisar la habitación, había notado que la ventana del baño, que daba a la calle, estaba abierta, y que desde ella se veía, en el edificio de enfrente, otra ventana con una luz encendida. Al día siguiente, por curiosidad, cruzó la calle.",
       "En el edificio de enfrente vivía doña Remedios, una señora de ochenta y tantos años, viuda, insomne y muy coqueta. Cada noche, a eso de las tres, se levantaba, se ponía uno de sus viejos camisones de encaje y se peinaba largamente frente a un espejo enorme colocado justo delante de su ventana. Con el ángulo adecuado, su reflejo se proyectaba en el cristal de la ventana del baño de la habitación 7, que en ese momento hacía de espejo. Desde la cama, cualquiera habría jurado que la mujer estaba dentro del cuarto.",
       "Wilmer se lo explicó a don Ramiro con todo detalle. El dueño lo escuchó, se quedó pensativo y luego le pidió, con mucha amabilidad, que no se lo contara a nadie. La placa se instaló, la ruta de leyendas se puso en marcha y la habitación 7 se convirtió en la más solicitada del hotel. Los huéspedes dejaban comentarios entusiastas, aunque la mayoría reconocía, algo decepcionada, que no había visto nada.",
-      "Wilmer, por su parte, llegó a un acuerdo propio. Cada semana, cuando hacía el turno de noche, cruzaba la calle con una bolsa de pandebonos calientes y subía a tomar un tinto con doña Remedios, que no sabía nada de su fama póstuma y anticipada. Le contaba historias del hotel y ella le contaba las suyas, que eran muchas y mejores. Nunca le dijo por qué lo hacía. Le pareció que, si alguien estaba haciendo trabajar a aquella mujer cada noche, lo mínimo era hacerle compañía.",
+      "Wilmer, por su parte, llegó a un acuerdo propio. Cada semana, cuando hacía el turno de noche, cruzaba la calle con una bolsa de pandebonos calientes y subía a tomar un tinto con doña Remedios, que no sabía nada de su fama de fantasma. Le contaba historias del hotel y ella le contaba las suyas, que eran muchas y mejores. Nunca le dijo por qué lo hacía. Le pareció que, si alguien estaba haciendo trabajar a aquella mujer cada noche, lo mínimo era hacerle compañía.",
     ],
     questions: [
       {
