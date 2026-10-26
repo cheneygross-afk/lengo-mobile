@@ -44,8 +44,12 @@ const round1 = (n: number) => Math.round(n * 10) / 10;
 
 export function scoreAutoPaper(paper: ExamPaper, answers: ExamAnswers): PaperScore {
   const items = paperItems(paper);
-  const correct = items.filter(({ key, item }) => answers[key] === item.answer).length;
-  return { points: items.length ? round1((correct / items.length) * PAPER_POINTS) : 0, correct, total: items.length };
+  const right = items.filter(({ key, item }) => answers[key] === item.answer);
+  // Items count equally unless they carry their own weight (`points`).
+  const weight = (item: ExamItem) => item.points ?? 1;
+  const all = items.reduce((s, { item }) => s + weight(item), 0);
+  const got = right.reduce((s, { item }) => s + weight(item), 0);
+  return { points: all ? round1((got / all) * PAPER_POINTS) : 0, correct: right.length, total: items.length };
 }
 
 /** Descriptors for the 1-5 mark given to a writing or speaking task. */
@@ -60,10 +64,11 @@ export const TASK_MARKS: { mark: number; label: string; hint: string }[] = [
 /** A writing or speaking paper's points from its tasks' 1-5 marks
  * (tasks without a mark yet count as not done). */
 export function scoreRatedPaper(paper: ExamPaper, marks: (number | undefined)[]): PaperScore {
-  const n = paper.tasks.length;
-  if (!n) return { points: 0 };
-  const sum = paper.tasks.reduce((s, _t, i) => s + Math.min(5, Math.max(0, marks[i] ?? 0)), 0);
-  return { points: round1((sum / (5 * n)) * PAPER_POINTS) };
+  if (!paper.tasks.length) return { points: 0 };
+  // Tasks count equally unless they carry their own weight (`points`).
+  const all = paper.tasks.reduce((s, t) => s + (t.points ?? 1), 0);
+  const sum = paper.tasks.reduce((s, t, i) => s + (t.points ?? 1) * Math.min(5, Math.max(0, marks[i] ?? 0)), 0);
+  return { points: round1((sum / (5 * all)) * PAPER_POINTS) };
 }
 
 export type GroupResult = {

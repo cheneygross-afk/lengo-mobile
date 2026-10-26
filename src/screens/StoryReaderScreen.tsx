@@ -8,7 +8,7 @@ import ExerciseBlock from "@/components/ExerciseBlock";
 import HighlightableText from "@/components/HighlightableText";
 import { langForLevelPath, readAloud, speechChunks, stopReadAloud } from "@/lib/speech";
 import { glossKey, glossLookup, storyGlosses, storyKeyWords } from "@/lib/stories/glosses";
-import TapText from "@/components/TapText";
+import TapText, { OLD_HANGUL } from "@/components/TapText";
 import type { StoryGloss } from "@/lib/stories/types";
 import { useAuth } from "@/lib/auth/AuthContext";
 import { supabase } from "@/lib/supabase/client";
@@ -41,8 +41,9 @@ type Props = NativeStackScreenProps<AppStackParamList, "StoryReader">;
 // story, so this reuses it exactly as-is (same table, same columns).
 export default function StoryReaderScreen({ route, navigation }: Props) {
   const { slug } = route.params;
-  // A French- or German-course story (slug "fr-..."/"de-...", levelPath
-  // "fr/a1"/"de/a1" ...) comes from that course's stories, loaded on demand
+  // A French-, German-, Portuguese- or Korean-course story (slug
+  // "fr-..."/"de-..."/"pt-..."/"ko-...", levelPath "fr/a1" ...) comes from
+  // that course's stories, loaded on demand
   // (stories/courseStories.ts): text in the course language and
   // English questions.
   const storyCourse = storyCourseOf(slug, route.params.levelPath);
@@ -92,9 +93,19 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
         : [],
     [story, glosses, courseConfig]
   );
+  // Old Hangul is shown but never voiced (TapText's OLD_HANGUL rule), so
+  // Listen skips any Korean sentence with it.
+  const korean = storyCourse === "ko";
   const chunks = useMemo(
-    () => (story ? story.paragraphs.flatMap((p, pi) => speechChunks(p).map((text) => ({ text, pi }))) : []),
-    [story]
+    () =>
+      story
+        ? story.paragraphs.flatMap((p, pi) =>
+            speechChunks(p)
+              .filter((text) => !(korean && OLD_HANGUL.test(text)))
+              .map((text) => ({ text, pi }))
+          )
+        : [],
+    [story, korean]
   );
   // No translation of the whole text (user decision, 2026-10-12): readers
   // tap any word for its meaning instead -- a dotted word's gloss, any
@@ -304,11 +315,12 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
     <View style={s.container}>
       <ScrollView style={s.container} contentContainerStyle={s.content}>
         <Text style={s.kicker}>
-          {story.band ?? story.level} · {storyKind(story)}
+          {/* Korean levels by name ("Beginner" ...), never the code. */}
+          {courseConfig?.namedLevels && found && "levelLabel" in found ? found.levelLabel : story.band ?? story.level} · {storyKind(story)}
           {readinessLabel(story.slug) ? ` · ${readinessLabel(story.slug)}` : ""}
         </Text>
         {courseConfig ? (
-          // French and German titles are in the course language: tap to hear.
+          // The courses' titles are in the course language: tap to hear.
           <TapText text={story.title} lang={courseConfig.lang} mode="target" style={s.title} />
         ) : (
           <Text style={s.title}>{story.title}</Text>

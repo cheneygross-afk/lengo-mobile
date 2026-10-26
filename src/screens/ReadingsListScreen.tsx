@@ -23,10 +23,12 @@ export default function ReadingsListScreen(props: Props) {
   if (props.route.params?.germanLevel) return <CourseStoriesList {...props} course="de" path={props.route.params.germanLevel} />;
   if (props.route.params?.portugueseLevel)
     return <CourseStoriesList {...props} course="pt" path={props.route.params.portugueseLevel} />;
+  // The Korean beta's (gated to the beta account in RootNavigator).
+  if (props.route.params?.koreanLevel) return <CourseStoriesList {...props} course="ko" path={props.route.params.koreanLevel} />;
   return <SpanishReadingsList {...props} />;
 }
 
-// One French, German or Portuguese level's stories (lib/stories/courseStories.ts), read ones ticked.
+// One French, German, Portuguese or Korean level's stories (lib/stories/courseStories.ts), read ones ticked.
 function CourseStoriesList({ navigation, course, path }: Props & { course: StoryCourse; path: string }) {
   const config = STORY_COURSES[course];
   const [data, setData] = useState<CourseStories | null>(config.ifLoaded);
@@ -60,11 +62,9 @@ function CourseStoriesList({ navigation, course, path }: Props & { course: Story
       keyExtractor={(story) => story.slug}
       ListHeaderComponent={
         <View style={styles.sectionHeader}>
-          <Text style={styles.sectionTitle}>
-            {level.label} · {level.name}
-          </Text>
+          <Text style={styles.sectionTitle}>{config.namedLevels ? level.label : `${level.label} · ${level.name}`}</Text>
           <Text style={styles.sectionSubtitle}>
-            {level.stories.length} stories with audio{course === "pt" ? "" : ", translation"} and questions
+            {level.stories.length} stories with audio{course === "pt" || course === "ko" ? "" : ", translation"} and questions
           </Text>
         </View>
       }

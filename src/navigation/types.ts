@@ -8,10 +8,12 @@ import type { GermanStoryLevel } from "@/lib/stories/de";
 import type { PortugueseLevelKey } from "@/lib/lessons/portuguese";
 import type { KoreanLevelKey } from "@/lib/lessons/korean";
 import type { PortugueseStoryLevel } from "@/lib/stories/pt";
+import type { KoreanStoryLevel } from "@/lib/stories/ko";
 
 type FrenchStoryLevelPath = FrenchStoryLevel["path"];
 type GermanStoryLevelPath = GermanStoryLevel["path"];
 type PortugueseStoryLevelPath = PortugueseStoryLevel["path"];
+type KoreanStoryLevelPath = KoreanStoryLevel["path"];
 
 // The course a shared screen (review, flashcards, study tools) is showing.
 // "pt" is the Brazilian Portuguese course, open to every account; "ko" the
@@ -71,7 +73,8 @@ export type AppStackParamList = {
   // lang "fr" shows the French course's stories (src/lib/stories/fr), "de"
   // the German course's (src/lib/stories/de).
   // "pt" the Portuguese course's (src/lib/stories/pt).
-  ReadingLevels: { lang?: ToolsLang } | undefined;
+  // "ko" the Korean beta's (src/lib/stories/ko; gated, see withKoreanBeta).
+  ReadingLevels: { lang?: ToolsLang | "ko" } | undefined;
   // levelPath defaults to "a1" when omitted; French levels are "fr/a1" ...,
   // German ones germanLevel.
   ReadingsList:
@@ -80,6 +83,7 @@ export type AppStackParamList = {
         frenchLevel?: FrenchStoryLevelPath;
         germanLevel?: GermanStoryLevelPath;
         portugueseLevel?: PortugueseStoryLevelPath;
+        koreanLevel?: KoreanStoryLevelPath;
       }
     | undefined;
   // levelPath is passed for French and German stories, whose slugs live in their own

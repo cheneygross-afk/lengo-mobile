@@ -41,10 +41,11 @@ const VIDEO_MAX_MINUTES = 40;
 export const STREAK_MIN_FLASHCARDS = 5;
 export const STREAK_MIN_REVIEW_QUESTIONS = 5;
 
-/** Spanish words in a text: letters, accented letters and apostrophes.
+/** Spanish words in a text: letters, accented letters and apostrophes
+ * (and Hangul, so a Korean story's 어절 count too, as on the website).
  * Explicit Unicode ranges (no \p{L}) so it runs on Hermes too. */
 export function countWords(text: string): number {
-  return text.match(/[A-Za-zÀ-ɏ´']+/g)?.length ?? 0;
+  return text.match(/[A-Za-zÀ-ɏ´'가-힣]+/g)?.length ?? 0;
 }
 
 function roundMinutes(m: number): number {
@@ -54,8 +55,8 @@ function roundMinutes(m: number): number {
 /** A story: its words at the level's reading speed, plus its questions. */
 export function storyMinutes(paragraphs: string[], level: string, questionCount: number): number {
   const words = paragraphs.reduce((sum, p) => sum + countWords(p), 0);
-  // French-, German- and Portuguese-course stories ("FR-A1", "DE-A1", "PT-A1" ...) read at the same speeds by level.
-  const wpm = READING_WPM[level] ?? READING_WPM[level.replace(/^(FR|DE|PT)-/, "")] ?? 170;
+  // French-, German-, Portuguese- and Korean-course stories ("FR-A1", "DE-A1", "PT-A1", "KO-A1" ...) read at the same speeds by level.
+  const wpm = READING_WPM[level] ?? READING_WPM[level.replace(/^(FR|DE|PT|KO)-/, "")] ?? 170;
   return roundMinutes(Math.max(1, words / wpm + questionCount * QUESTION_MINUTES));
 }
 
