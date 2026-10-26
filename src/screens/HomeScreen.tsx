@@ -29,20 +29,24 @@ import { courseOfLevelPath } from "@/lib/courses";
 import { FRENCH_LEVELS, loadFrenchLevel, nextFrenchLesson } from "@/lib/lessons/french";
 import { GERMAN_LEVELS, loadGermanLevel, nextGermanLesson } from "@/lib/lessons/german";
 import { PORTUGUESE_LEVELS, loadPortugueseLevel, nextPortugueseLesson } from "@/lib/lessons/portuguese";
+import { KOREAN_PATH_LEVELS, loadKoreanLevel, nextKoreanLesson } from "@/lib/lessons/korean";
 
 type Props = NativeStackScreenProps<AppStackParamList, "Home">;
 
-type Language = "es" | "fr" | "de" | "pt" | "ja" | "zh";
+// "ko" (Korean) is a private beta: its pill, cards and counts appear only
+// for the beta account (useAuth().koreanBeta, lib/koreanBeta.ts).
+type Language = "es" | "fr" | "de" | "pt" | "ja" | "zh" | "ko";
 
 // French's, German's and Portuguese's "Continue" card: the next lesson on
 // its path, worked out only while that course is selected (its lessons
 // load on demand, lessons/french.ts, lessons/german.ts, lessons/portuguese.ts).
 type CourseNext = { slug: string; levelPath: string; label: string; number: number; title: string } | null;
 
-type LazyCourse = "fr" | "de" | "pt";
+type LazyCourse = "fr" | "de" | "pt" | "ko";
 
 async function loadCourseNext(course: LazyCourse, fromCloud: boolean): Promise<CourseNext> {
-  const levels: { levelPath: string }[] = course === "fr" ? FRENCH_LEVELS : course === "de" ? GERMAN_LEVELS : PORTUGUESE_LEVELS;
+  const levels: { levelPath: string }[] =
+    course === "fr" ? FRENCH_LEVELS : course === "de" ? GERMAN_LEVELS : course === "pt" ? PORTUGUESE_LEVELS : KOREAN_PATH_LEVELS;
   const maps = await Promise.all(
     levels.map((l) => (fromCloud ? syncCompletedMapFromCloud(l.levelPath) : getCompletedMap(l.levelPath)))
   );
@@ -52,14 +56,18 @@ async function loadCourseNext(course: LazyCourse, fromCloud: boolean): Promise<C
       ? await nextFrenchLesson(completed)
       : course === "de"
         ? await nextGermanLesson(completed)
-        : await nextPortugueseLesson(completed);
+        : course === "pt"
+          ? await nextPortugueseLesson(completed)
+          : await nextKoreanLesson(completed);
   if (!found) return null;
   const data =
     course === "fr"
       ? await loadFrenchLevel(found.level.key as Parameters<typeof loadFrenchLevel>[0])
       : course === "de"
         ? await loadGermanLevel(found.level.key as Parameters<typeof loadGermanLevel>[0])
-        : await loadPortugueseLevel(found.level.key as Parameters<typeof loadPortugueseLevel>[0]);
+        : course === "pt"
+          ? await loadPortugueseLevel(found.level.key as Parameters<typeof loadPortugueseLevel>[0])
+          : await loadKoreanLevel(found.level.key as Parameters<typeof loadKoreanLevel>[0]);
   return {
     slug: found.lesson.slug,
     levelPath: found.level.levelPath,
@@ -98,6 +106,7 @@ async function loadSummary(fromCloud: boolean): Promise<Summary> {
   const cards = Object.values(await loadFlashcards());
   const ja = cards.filter((c) => courseOfLevelPath(c.levelPath) === "ja");
   const zh = cards.filter((c) => courseOfLevelPath(c.levelPath) === "zh");
+  const ko = cards.filter((c) => courseOfLevelPath(c.levelPath) === "ko");
   const study = fromCloud ? await syncStudyDays() : await getStudySummary();
   // Lessons finished before the daily review mix existed (or on the
   // website) join it once their completions are here.
@@ -113,6 +122,7 @@ async function loadSummary(fromCloud: boolean): Promise<Summary> {
       pt: todaysReviewTotal(await getPortugueseReviewCounts()),
       ja: (await getDueCardsForToday(ja, prefs)).length,
       zh: (await getDueCardsForToday(zh, prefs)).length,
+      ko: (await getDueCardsForToday(ko, prefs)).length,
     },
     streak: study.streak.current,
     studiedToday: study.streak.studiedToday,
@@ -121,17 +131,22 @@ async function loadSummary(fromCloud: boolean): Promise<Summary> {
 }
 
 export default function HomeScreen({ navigation }: Props) {
-  const { session } = useAuth();
+  const { session, koreanBeta } = useAuth();
   const [language, setLanguage] = useState<Language>("es");
 
   useFocusEffect(
     useCallback(() => {
       readJSON<Language>(LANGUAGE_STORAGE_KEY, "es").then((saved) => {
         // Every course is open to every account (lessons are gated one by
-        // one, with a free opening).
-        setLanguage(saved === "ja" || saved === "zh" || saved === "fr" || saved === "de" || saved === "pt" ? saved : "es");
+        // one, with a free opening) -- except the Korean beta, which a saved
+        // "ko" opens only for the beta account.
+        setLanguage(
+          saved === "ja" || saved === "zh" || saved === "fr" || saved === "de" || saved === "pt" || (saved === "ko" && koreanBeta)
+            ? saved
+            : "es"
+        );
       });
-    }, [])
+    }, [koreanBeta])
   );
 
   const [summary, setSummary] = useState<Summary | null>(null);
@@ -173,7 +188,7 @@ export default function HomeScreen({ navigation }: Props) {
   const courseSyncedRef = useRef<Record<string, boolean>>({});
   useFocusEffect(
     useCallback(() => {
-      if (language !== "fr" && language !== "de" && language !== "pt") return;
+      if (language !== "fr" && language !== "de" && language !== "pt" && language !== "ko") return;
       const course = language;
       let cancelled = false;
       (async () => {
@@ -226,6 +241,7 @@ export default function HomeScreen({ navigation }: Props) {
             <LangPill label="Portuguese" active={language === "pt"} onPress={() => selectLanguage("pt")} />
             <LangPill label="Japanese" active={language === "ja"} onPress={() => selectLanguage("ja")} />
             <LangPill label="Chinese" active={language === "zh"} onPress={() => selectLanguage("zh")} />
+            {koreanBeta && <LangPill label="Korean" active={language === "ko"} onPress={() => selectLanguage("ko")} />}
           </View>
 
           {summary && language === "es" && (
@@ -261,7 +277,13 @@ export default function HomeScreen({ navigation }: Props) {
                 label="All caught up"
                 title="Every required lesson from beginner to mastery is done."
                 onPress={() => navigation.navigate(
-                    courseNext.course === "fr" ? "FrenchLevels" : courseNext.course === "de" ? "GermanLevels" : "PortugueseLevels"
+                    courseNext.course === "fr"
+                      ? "FrenchLevels"
+                      : courseNext.course === "de"
+                        ? "GermanLevels"
+                        : courseNext.course === "pt"
+                          ? "PortugueseLevels"
+                          : "KoreanLevels"
                   )}
               />
             )
@@ -323,6 +345,8 @@ export default function HomeScreen({ navigation }: Props) {
               <NavCard icon="lessons" title="Lessons" body="Structured lessons, from beginner to mastery." onPress={() => navigation.navigate("GermanLevels")} />
             ) : language === "pt" ? (
               <NavCard icon="lessons" title="Lessons" body="Structured lessons, from beginner to mastery." onPress={() => navigation.navigate("PortugueseLevels")} />
+            ) : language === "ko" ? (
+              <NavCard icon="lessons" title="Lessons" body="Hangul, then lessons from beginner to mastery. Beta." onPress={() => navigation.navigate("KoreanLevels")} />
             ) : language === "ja" ? (
               <NavCard icon="lessons" title="Lessons" body="Hiragana and katakana, then lessons level by level." onPress={() => navigation.navigate("JapaneseLevels")} />
             ) : (
@@ -383,13 +407,17 @@ export default function HomeScreen({ navigation }: Props) {
 
             {/* Writing practice in every language, like the website's
                 Writing tile on each course page. */}
-            <NavCard
-              icon="writing"
-              tint="saffron"
-              title="Writing"
-              body="Write a few sentences or a couple of pages and get instant AI feedback at your level."
-              onPress={() => navigation.navigate("Writing", { lang: language })}
-            />
+            {/* Not for the Korean beta yet: its writing tasks are in each
+                unit's review lesson. */}
+            {language !== "ko" && (
+              <NavCard
+                icon="writing"
+                tint="saffron"
+                title="Writing"
+                body="Write a few sentences or a couple of pages and get instant AI feedback at your level."
+                onPress={() => navigation.navigate("Writing", { lang: language })}
+              />
+            )}
 
             {/* Grammar guides, verb conjugation, exam practice and the
                 glossary -- grouped behind one card, like the website's
@@ -421,7 +449,7 @@ export default function HomeScreen({ navigation }: Props) {
           squeezing this screen's own layout -- nothing here needs to
           react to it opening. */}
       {/* The translator covers Spanish, French, German, Portuguese and Japanese. */}
-      {language !== "zh" && <TranslateBar language={language} />}
+      {language !== "zh" && language !== "ko" && <TranslateBar language={language} />}
     </View>
   );
 }
