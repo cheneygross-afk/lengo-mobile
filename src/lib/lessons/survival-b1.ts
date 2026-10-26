@@ -123,7 +123,7 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
         "Podría",
         "[Could you] tell me where the exit is?",
         "Condicional de poder para una petición educada a usted. Con tú: ¿podrías?",
-        ["Podrías", "Puede", "Puedes"]
+        ["Podrías"]
       ),
       fe(
         "¿Le importa que ___ la ventana? Hace mucho calor.",

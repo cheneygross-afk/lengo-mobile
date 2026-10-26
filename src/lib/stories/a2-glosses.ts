@@ -317,7 +317,7 @@ export const A2_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "andar en bicicleta", en: "to ride a bike", forms: ["andar"] },
     { es: "bajito", en: "very softly", forms: ["bajito"] },
     { es: "crecer", en: "to grow", forms: ["creció"] },
-    { es: "deber", en: "should", forms: ["debía"] },
+    { es: "deber", en: "to have to, must", forms: ["debía"] },
     { es: "embarazada", en: "pregnant", forms: ["embarazada"] },
     { es: "orgulloso", en: "proud", forms: ["orgulloso"] },
     { es: "sentirse", en: "to feel", forms: ["sintió"] },
@@ -364,7 +364,7 @@ export const A2_STORY_GLOSSES: Record<string, StoryGloss[]> = {
   "el-tobillo-torcido": [
     { es: "la patineta", en: "skateboard", forms: ["patineta"] },
     { es: "la muleta", en: "crutch", forms: ["muletas"] },
-    { es: "andar", en: "to ride (andar en patineta = to skateboard); to walk, go", forms: ["anda", "andar"] },
+    { es: "andar", en: "to ride (andar en patineta=to skateboard); to walk, go", forms: ["anda", "andar"] },
     { es: "sentir", en: "to feel", forms: ["sintió"] },
     { es: "caer", en: "to fall", forms: ["cayó"] },
     { es: "desaparecer", en: "to disappear", forms: ["desapareció"] },

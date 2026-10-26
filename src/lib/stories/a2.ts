@@ -224,7 +224,7 @@ const A2_FICTION: Story[] = [
       "Cuando el presentador dice su nombre, Valentina camina hacia el escenario muy despacio. Mira al público y ve a Camila en la primera fila, sonriendo y levantando el pulgar. Eso le da un poco de confianza.",
       "La música empieza, y Valentina abre la boca para cantar. Al principio, su voz tiembla un poco, pero luego se relaja y canta con todo su corazón. El público escucha en silencio y algunos empiezan a sonreír.",
       "Cuando termina la canción, todo el auditorio aplaude fuerte. Algunas personas se levantan de sus sillas. Valentina no puede creer lo que está pasando. Baja del escenario con una sonrisa enorme en la cara.",
-      "Después del show, Camila corre a abrazarla. \"¡Estuviste increíble!\", dice. Valentina responde: \"No habría podido hacerlo sin ti.\" Esa noche, Valentina decide que quiere cantar en más shows en el futuro, y ya no tiene tanto miedo del escenario.",
+      "Después del show, Camila corre a abrazarla. \"¡Estuviste increíble!\", dice. Valentina responde: \"Gracias a ti pude hacerlo.\" Esa noche, Valentina decide que quiere cantar en más shows en el futuro, y ya no tiene tanto miedo del escenario.",
     ],
     questions: [
       {
@@ -384,7 +384,7 @@ const A2_FICTION: Story[] = [
       "Leo se entera del problema de Emma por mensaje de texto. Sin pensarlo mucho, decide invitar a Emma a cocinar en su casa. \"Vamos a mi casa a cocinar los dos\", dice Leo.",
       "Emma y Leo pasan la tarde en la cocina de Leo. Preparan el pastel de chocolate y las galletas de limón juntos, ayudándose el uno al otro. Se ríen mucho y también prueban un poco de la masa antes de hornear todo.",
       "El día de la competencia, Emma y Leo llegan con sus dos postres. Muchos estudiantes compran el pastel y las galletas, y todos dicen que están deliciosos. Al final del día, el director anuncia que las galletas de Leo ganan el primer premio.",
-      "Emma se alegra por su amigo, sin ningún problema. \"Gracias por ayudarme. Sin ti, no habría podido terminar mi pastel\", dice Emma. Leo responde: \"Y tú me ayudaste mucho con la masa de las galletas.\" Los dos deciden que el próximo año van a competir juntos, como un solo equipo.",
+      "Emma se alegra por su amigo, sin ningún problema. \"Gracias por ayudarme. Con tu ayuda pude terminar mi pastel\", dice Emma. Leo responde: \"Y tú me ayudaste mucho con la masa de las galletas.\" Los dos deciden que el próximo año van a competir juntos, como un solo equipo.",
     ],
     questions: [
       {
@@ -469,7 +469,7 @@ const A2_FICTION: Story[] = [
     questions: [
       {
         question: "Why does Nora think Bea ignored her?",
-        options: ["Bea said something mean at school", "Bea didn't come over or reply to her invitation message", "Bea canceled plans out loud", "Bea moved to a new house"],
+        options: ["Bea said something mean at school", "Bea didn't come over or reply to her invitation message", "Bea told her she was busy", "Bea moved to a new house"],
         correctIndex: 1,
         explanation:
           "\"Bea nunca llega ni responde el mensaje\" — Bea never arrives or responds to the message.",
@@ -503,7 +503,7 @@ const A2_FICTION: Story[] = [
       "El día del cumpleaños, el papá lleva a su esposa a comer a un restaurante especial, mientras Dani y Paula preparan la casa con la ayuda de sus abuelos. Cuelgan globos de colores, ponen una mesa larga y hacen un cartel grande que dice \"¡Feliz cumpleaños, mamá!\"",
       "Paula intenta hacer un pastel de vainilla, pero se le olvida poner un ingrediente importante y el pastel no sube bien en el horno. Dani la ayuda a arreglarlo con un poco de crema y frutas encima, y el pastel se ve bonito de todas formas.",
       "A las siete de la tarde, todos los invitados llegan a la casa y se esconden detrás del sofá. Cuando el papá y la mamá entran por la puerta, todos gritan \"¡Sorpresa!\" al mismo tiempo. La mamá se lleva las manos a la cara, sorprendida y emocionada.",
-      "\"No puedo creer que hayan hecho todo esto\", dice la mamá con lágrimas de felicidad. Abraza a Dani y a Paula muy fuerte. Todos cantan la canción de cumpleaños y comen el pastel, que sabe mejor de lo que parece.",
+      "\"No puedo creer todo lo que hicieron\", dice la mamá con lágrimas de felicidad. Abraza a Dani y a Paula muy fuerte. Todos cantan la canción de cumpleaños y comen el pastel, que sabe mejor de lo que parece.",
       "Después de la fiesta, la mamá les da las gracias a sus hijos por el esfuerzo y el cariño. \"Este es el mejor cumpleaños que he tenido en años\", dice. Dani y Paula deciden que van a organizar una fiesta sorpresa cada año a partir de ahora.",
     ],
     questions: [
@@ -657,14 +657,14 @@ const A2_FICTION: Story[] = [
     subtitle:
       "A girl with the lead role in her school play forgets her lines at a rehearsal, but practice and a friend's help save opening night.",
     paragraphs: [
-      "La escuela de Alicia prepara una obra de teatro sobre un reino mágico. Alicia consigue el papel principal: una princesa valiente que salva su reino. Al principio, está muy emocionada, pero después empieza a sentir miedo de olvidar sus líneas.",
+      "La escuela de Alicia prepara una obra de teatro sobre un reino mágico. Alicia consigue el papel principal: una princesa valiente que salva su reino. Al principio, está muy emocionada, pero después empieza a sentir miedo de olvidar su texto.",
       "Los ensayos empiezan tres semanas antes de la función. Cada tarde, los estudiantes practican en el auditorio de la escuela. Alicia lee su guion muchas veces en casa, pero cuando está en el escenario, se pone nerviosa y olvida las palabras.",
       "Durante un ensayo importante, Alicia olvida completamente una parte larga de su diálogo. Se queda parada en silencio frente a sus compañeros, sin saber qué decir. Algunos estudiantes se ríen un poco, y Alicia siente ganas de llorar.",
       "El profesor de teatro, el señor Cabrera, para el ensayo y habla con Alicia en privado. \"A todos nos pasa esto al principio\", le dice con calma. \"Vamos a practicar tu parte más despacio, paso a paso.\" Alicia respira profundo y decide seguir intentándolo.",
-      "Su amigo Diego, que también actúa en la obra, le ofrece ayuda. Todas las tardes después de los ensayos, los dos practican las líneas de Alicia en el patio de la escuela. Diego actúa como los otros personajes para ayudarla a recordar cuándo debe hablar.",
-      "Poco a poco, Alicia mejora mucho. Empieza a recordar sus líneas sin mirar el guion y se mueve por el escenario con más confianza. El señor Cabrera nota el cambio y le dice: \"Estás lista para la función.\"",
+      "Su amigo Diego, que también actúa en la obra, le ofrece ayuda. Todas las tardes después de los ensayos, los dos practican el texto de Alicia en el patio de la escuela. Diego actúa como los otros personajes para ayudarla a recordar cuándo debe hablar.",
+      "Poco a poco, Alicia mejora mucho. Empieza a recordar su texto sin mirar el guion y se mueve por el escenario con más confianza. El señor Cabrera nota el cambio y le dice: \"Estás lista para la función.\"",
       "La noche de la función, el auditorio está lleno de padres y estudiantes. Alicia espera detrás del telón con el corazón acelerado, pero también recuerda las palabras de Diego: \"Tú puedes hacerlo, solo respira.\" Cuando sale al escenario, se siente más tranquila de lo que esperaba.",
-      "Alicia actúa toda la obra sin olvidar ni una sola línea. Al final, el público aplaude fuerte y ella hace una reverencia con una sonrisa enorme. Después de la función, abraza a Diego. \"Gracias por ayudarme tanto\", dice Alicia, feliz y orgullosa de sí misma.",
+      "Alicia actúa toda la obra sin olvidar ni una sola frase. Al final, el público aplaude fuerte y ella hace una reverencia con una sonrisa enorme. Después de la función, abraza a Diego. \"Gracias por ayudarme tanto\", dice Alicia, feliz y orgullosa de sí misma.",
     ],
     questions: [
       {
@@ -686,7 +686,7 @@ const A2_FICTION: Story[] = [
         options: ["The teacher, Mr. Cabrera", "Her friend Diego", "Her parents", "Nobody, she practices alone"],
         correctIndex: 1,
         explanation:
-          "\"los dos practican las líneas de Alicia en el patio de la escuela\" — Diego and Alicia practice her lines together in the school yard.",
+          "\"los dos practican el texto de Alicia en el patio de la escuela\" — Diego and Alicia practice her lines together in the school yard.",
       },
     ],
   },
@@ -1243,7 +1243,7 @@ const A2_FICTION: Story[] = [
       "En la cena de Navidad, la abuela de Paula preparó un plato nuevo con camarones. Paula nunca había comido camarones, así que quería probarlos.",
       "Después de comer unos camarones, Paula sintió que la boca le picaba un poco. Unos minutos después, le salieron manchas rojas en el cuello y los brazos. Le costaba respirar bien.",
       "Su papá vio las manchas y se asustó mucho. \"Vamos al hospital ahora mismo\", dijo, y todos salieron rápido de la casa. En el carro, Paula tenía miedo porque nunca se había sentido así.",
-      "En el hospital, un doctor le dio una medicina rápidamente para bajar la reacción. Poco a poco, la picazón desapareció y Paula pudo respirar mejor. El doctor le explicó que era alérgica a los mariscos.",
+      "En el hospital, un doctor le dio una medicina rápidamente para controlar la reacción. Poco a poco, la picazón desapareció y Paula pudo respirar mejor. El doctor le explicó que era alérgica a los mariscos.",
       "\"Debes evitar los camarones y otros mariscos para siempre\", le dijo el doctor. También le dio una tarjeta con información sobre su alergia, para llevarla siempre. Sus papás escucharon todo con mucha atención.",
       "De vuelta en casa, la abuela se sintió muy mal por lo que pasó. \"No lo sabíamos\", le dijo a Paula, y la abrazó fuerte. Paula le dijo que no era culpa de nadie.",
       "Desde ese día, la familia siempre le pregunta al mesero en los restaurantes si la comida tiene mariscos. Paula aprendió a leer las etiquetas de los alimentos con cuidado. Su mamá guarda la tarjeta del doctor en su bolso siempre.",
@@ -1285,7 +1285,7 @@ const A2_FICTION: Story[] = [
     level: "A2",
     title: "La muela del juicio",
     subtitle:
-      "Óscar has been avoiding the dentist for months, until a wisdom tooth makes the decision for him.",
+      "Óscar has been avoiding the dentist for four years, until a wisdom tooth makes the decision for him.",
     paragraphs: [
       "Óscar tenía treinta y cinco años y tenía miedo del dentista. No iba desde hacía cuatro años. Cuando le dolía un poco la boca, tomaba una pastilla y no pensaba más en eso.",
       "Pero un lunes por la mañana, en el trabajo, empezó a dolerle mucho una muela del fondo. No podía beber café ni concentrarse en sus correos. Su compañera Elena lo miró y le dijo: «Tienes la cara hinchada».",
@@ -1570,7 +1570,7 @@ const A2_FICTION: Story[] = [
     paragraphs: [
       "Una familia nueva se mudó a la casa de al lado el mes pasado. Emilia los veía desde su ventana, pero era demasiado tímida para saludarlos. Tenían una hija más o menos de su edad.",
       "Un día, mientras Emilia jugaba sola en el jardín, escuchó una voz al otro lado de la cerca. \"Hola, me llamo Zoe. ¿Quieres jugar?\" Emilia se puso nerviosa, pero le respondió que sí.",
-      "Zoe le contó que su familia se mudó desde otra ciudad por el trabajo de su papá. Extrañaba a sus amigos antiguos y no conocía a nadie en el barrio todavía. Emilia le dijo que ella podía ser su nueva amiga.",
+      "Zoe le contó que su familia se mudó desde otra ciudad por el trabajo de su papá. Extrañaba a sus amigos de antes y no conocía a nadie en el barrio todavía. Emilia le dijo que ella podía ser su nueva amiga.",
       "Las dos niñas empezaron a jugar juntas casi todos los días después de la escuela. Emilia le enseñó a Zoe los mejores lugares del parque cercano. Zoe le enseñó a Emilia un juego nuevo con cartas.",
       "Un fin de semana, la mamá de Zoe invitó a Emilia y a su familia a cenar. Comieron comida diferente a la que Emilia conocía, con especias que Emilia nunca había probado.",
       "Durante la cena, las dos familias hablaron y se rieron mucho. Los papás de Emilia y de Zoe descubrieron que trabajaban cerca uno del otro. Todos se sintieron muy cómodos, como si se conocieran desde hacía tiempo.",
@@ -2081,7 +2081,7 @@ const A2_FICTION: Story[] = [
       "Emilio tenía once años y vivía en un pueblo pequeño. Su prima Valentina vivía en la ciudad, a dos horas en tren. Ese fin de semana, Emilio iba a viajar solo en tren por primera vez para visitarla.",
       "Su mamá lo llevó a la estación de tren muy temprano. —Tienes que bajar en la tercera parada, la estación central —le explicó—. Valentina te va a esperar allí con un cartel con tu nombre.",
       "Emilio subió al tren con su mochila y se sentó junto a la ventana. Durante el viaje, miraba el paisaje: montañas, ríos y pueblos pequeños. Estaba emocionado, pero también contaba las paradas con cuidado.",
-      "Después de dos horas, el tren llegó a una estación grande con mucha gente. Emilio pensó que era la estación central, así que bajó del tren rápidamente. Pero cuando miró el letrero, vio que no era la parada correcta.",
+      "Después de una hora y media, el tren llegó a una estación grande con mucha gente. Emilio pensó que era la estación central, así que bajó del tren rápidamente. Pero cuando miró el letrero, vio que no era la parada correcta.",
       "Emilio sintió pánico por un momento. No sabía qué hacer. Entonces recordó las palabras de su mamá: —Si tienes un problema, busca a un empleado del tren con uniforme.",
       "Emilio encontró a una empleada y le explicó su problema. La mujer fue muy amable y lo ayudó a subir al próximo tren hacia la estación central. Ella le dijo: —No te preocupes, esto les pasa a muchas personas.",
       "Veinte minutos después, Emilio por fin llegó a la estación central. Vio a Valentina con un cartel grande que decía su nombre. Se abrazaron y Emilio le contó toda la aventura, riéndose de su error.",
@@ -2398,7 +2398,7 @@ const A2_FICTION: Story[] = [
     level: "A2",
     title: "Las cuentas del café",
     subtitle:
-      "Tomás opens a café and discovers he hates the numbers, until an old friend who works as an accountant teaches him to love a spreadsheet.",
+      "Tomás opens a café and discovers he hates the numbers, until an old friend who works as an accountant teaches him to use a spreadsheet without fear.",
     paragraphs: [
       "Tomás siempre había querido tener un café. A los cuarenta años, dejó su trabajo en un supermercado y abrió un local pequeño en su barrio de Málaga. Hacía unas tartas excelentes y los clientes estaban contentos.",
       "Pero había un problema: los números. Tomás guardaba todas las facturas en una caja de zapatos. No sabía cuánto gastaba en harina, en leche o en electricidad. Cada mes tenía menos dinero en el banco y no sabía por qué.",
@@ -3628,7 +3628,7 @@ const A2_FICTION: Story[] = [
     subtitle:
       "Two cousins enter a sandcastle contest and race against the rising tide.",
     paragraphs: [
-      "Cada verano, en la playa de Salou, había un concurso de castillos de arena para niños. Ese año, los primos Adrián y Laia decidieron participar juntos. Tenían once y diez años, y llevaban una semana practicando.",
+      "Cada verano, en la playa de la Lanzada, en Galicia, había un concurso de castillos de arena para niños. Ese año, los primos Adrián y Laia decidieron participar juntos. Tenían once y diez años, y llevaban una semana practicando.",
       "El día del concurso, llegaron a la playa a las nueve de la mañana con cubos, palas, un rastrillo pequeño y un pulverizador de agua. Cada equipo tenía un espacio de dos metros y tres horas para construir.",
       "Adrián y Laia tenían un plan: un castillo con cuatro torres, un puente y un foso lleno de agua. Adrián sabía que la arena tenía que estar mojada para no romperse. Laia era muy buena con los detalles: hacía ventanas pequeñas con un palito.",
       "Trabajaron sin parar. A las once, el castillo ya tenía tres torres y el puente. Otros niños venían a mirarlo. Pero entonces, Laia notó algo: el agua del mar estaba cada vez más cerca. ¡Estaba subiendo la marea!",

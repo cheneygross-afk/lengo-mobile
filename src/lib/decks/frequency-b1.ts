@@ -19,7 +19,7 @@ export const FREQUENCY_B1: DeckCard[] = [
   {"rank":1012,"es":"el camión","en":"truck","pos":"n.","exEs":"Cuando llegó el camión, ya habíamos empaquetado todo.","exEn":"When the truck arrived, we had already packed everything."},
   {"rank":1013,"es":"el vistazo","en":"glance, look","pos":"n.","exEs":"¿Puedes echar un vistazo a mi informe?","exEn":"Can you take a look at my report?"},
   {"rank":1014,"es":"interior","en":"inside, interior","pos":"adj.","exEs":"El interior de la casa es muy moderno.","exEn":"The interior of the house is very modern."},
-  {"rank":1015,"es":"el asiento","en":"seat","pos":"n.","exEs":"Perdona, creo que ese asiento es el nuestro.","exEn":"Excuse me, I think that seat is ours."},
+  {"rank":1015,"es":"el asiento","en":"seat","pos":"n.","exEs":"Perdona, creo que ese asiento es el nuestro.","exEn":"Excuse me, I think that seat is the one that's ours."},
   {"rank":1016,"es":"el estilo","en":"style","pos":"n.","exEs":"Estilo directo: —No volveré —dijo Ana.","exEn":"Direct: \"I won't come back,\" said Ana."},
   {"rank":1017,"es":"informar","en":"to inform","pos":"v.","exEs":"Las cámaras fueron instaladas sin informar a los vecinos.","exEn":"The cameras were installed without informing the residents."},
   {"rank":1018,"es":"doble","en":"double","pos":"adj.","exEs":"¿Hay una habitación doble libre para esta noche?","exEn":"Is there a double room free for tonight?"},

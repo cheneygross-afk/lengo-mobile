@@ -163,7 +163,7 @@ export const A1_STORY_ENGLISH: Record<string, string[]> = {
     "At the next lesson, Diego plays the song for Rafael. His teacher smiles and claps very enthusiastically. \"Excellent work, Diego!\" Rafael says happily. That night, Diego plays the song for his whole family in the living room.",
   ],
   "the-first-snow": [
-    "Iker lives in a city where it never snows. One winter day, his family moves to a town in the mountains. Iker hears that it sometimes snows a lot there. He has never seen snow in person before.",
+    "Iker lives in a city where it never snows. One winter day, his family moves to a town in the mountains. Iker hears that it sometimes snows a lot there. He doesn't know snow in person.",
     "One night, the sky is very gray and it's very cold. Iker falls asleep thinking about the chance of snow. The next morning, something is different when he opens his eyes. The light coming in through the window is very white and bright.",
     "Iker runs to the window and can't believe what he sees. The whole town is covered in white snow! The trees, the roofs and the streets are completely white. Iker shouts with joy and wakes up his whole family.",
     "Quickly, Iker puts on a coat, boots and warm gloves. He goes out into the yard and feels the cold snow under his feet for the first time. His little sister comes out too with a huge smile. The two of them decide to build a snowman together.",
@@ -496,7 +496,7 @@ export const A1_STORY_ENGLISH: Record<string, string[]> = {
     "The family gets off the train and walks toward the station exit. Elena already wants to explore the new city. The train trip is a perfect adventure.",
   ],
   "vacaciones-en-la-ciudad": [
-    "Diego and his family are spending a vacation in a big city. They stay in a hotel near downtown. Diego has never seen such tall buildings.",
+    "Diego and his family are spending a vacation in a big city. They stay in a hotel near downtown. Diego sees very tall buildings for the first time.",
     "On the first day, they walk through streets full of people. There are shops, restaurants and musicians on the corners. Diego looks at everything with wide eyes.",
     "His mom wants to visit a famous art museum. Diego would rather see the city's cars and buses. In the end, the family decides to visit the museum in the morning.",
     "In the museum, there are huge, colorful paintings. A guide explains the history of each painting. Diego finds a painting of a dog and smiles.",
@@ -543,7 +543,7 @@ export const A1_STORY_ENGLISH: Record<string, string[]> = {
   "moving-day": [
     "Today is a special day for Carla's family. It's moving day. The family is going to live in a new house in another part of the city.",
     "There are lots of boxes in the old house. There are boxes in the kitchen, in the living room and in the bedrooms. Carla puts her books, her clothes and her toys in three big boxes. On each box she writes: \"CARLA.\"",
-    "Carla is sad. She loves her old house. Her bedroom is small, but it has a pretty window. From the window, she can see a big tree with birds.",
+    "Carla is sad. She likes her old house a lot. Her bedroom is small, but it has a pretty window. From the window, she can see a big tree with birds.",
     "A big truck arrives at nine. Two strong men carry the boxes and the furniture to the truck. Dad helps with the sofa. Mom takes the plants in the car.",
     "The new house is yellow and has a yard. Carla's new bedroom is big and has blue walls. Blue is her favorite color! And there's a tree outside the window too.",
     "In the afternoon, a girl knocks on the door. Her name is Inés and she lives next door. She is eight years old, like Carla. Inés brings a plate of cookies from her mom.",
@@ -646,7 +646,7 @@ export const A1_STORY_ENGLISH: Record<string, string[]> = {
     "In the morning, Dad leaves the house very early. Emma is still asleep. He takes the lunch bag and a big smile.",
     "In the afternoon, Emma and her mom go to the stop for the number twelve bus. They wait five minutes. Then a big green bus arrives. Dad is the driver!",
     "Emma gets on the bus and pays for her ticket. Dad winks at her. Emma sits at the front and watches her dad. He drives carefully and says hello to everyone.",
-    "That night, Dad tells them about his day. \"I found your note in my lunch,\" he tells Emma. \"I have it right here, in my pocket.\" Emma is very proud of her dad.",
+    "That night, Dad tells them about his day. \"I see your note in my lunch,\" he tells Emma. \"I have it right here, in my pocket.\" Emma is very proud of her dad.",
   ],
   "my-little-brother": [
     "My name is Isabel and I am eleven years old. I have a little brother. His name is Pablo and he is four. Pablo is sweet, but sometimes he is very annoying.",
@@ -663,7 +663,7 @@ export const A1_STORY_ENGLISH: Record<string, string[]> = {
     "Gabriel puts Dad's white shirts in the washing machine. He also puts in the white sheets and his white school socks. He doesn't see a small red sock inside a sheet.",
     "Gabriel puts in the soap and presses the button. The washing machine makes noise and the water spins around. Gabriel is proud. \"How easy!\" he thinks.",
     "An hour later, Gabriel opens the washing machine. Surprise! All the clothes are pink. Dad's shirts are pink. The sheets are pink. At the bottom is the red sock.",
-    "Mom comes back with the bread and sees the pink laundry. Gabriel is scared. But Mom laughs a lot. \"The red sock, right? It happened to me once too,\" she says.",
+    "Mom comes back with the bread and sees the pink laundry. Gabriel is scared. But Mom laughs a lot. \"The red sock, right? It happens to me sometimes too,\" she says.",
     "Dad comes home and sees his pink shirts. He puts one on and says, \"I like it! It's a cheerful color.\" From that day on, Gabriel always looks inside the sheets before he does the laundry.",
   ],
   "painting-class-in-the-park": [
@@ -681,7 +681,7 @@ export const A1_STORY_ENGLISH: Record<string, string[]> = {
     "In a box, Javier sees an old book with a green cover. The title is \"Pirate Island.\" The pages are yellow, but the book is in good condition. Javier pays his euro.",
     "At home, Javier starts reading in bed. The story is very exciting. On page fifty, he finds a small folded piece of paper.",
     "It's a handwritten note. It says: \"Hello, reader. This book is my favorite. I hope you like it too. If you like it, write your name here and pass the book on to someone else. Signed: Andrés, 1998.\"",
-    "Under Andrés's name there are other names: \"Laura, 2005,\" \"Samir, 2012,\" \"Beatriz, 2019.\" Lots of people have read this book! Javier is very surprised.",
+    "Under Andrés's name there are other names: \"Laura, 2005,\" \"Samir, 2012,\" \"Beatriz, 2019.\" This book has lots of readers! Javier is very surprised.",
     "Javier finishes the book in three days. He loves it. He carefully writes: \"Javier, 2026.\" Then he gives the book to his friend Hugo. \"Read the note on page fifty,\" he tells him with a smile.",
   ],
   "spider-in-the-bathroom": [
@@ -691,7 +691,7 @@ export const A1_STORY_ENGLISH: Record<string, string[]> = {
     "Then seven-year-old Elisa speaks up. \"I have a plan,\" she says. She goes to the kitchen and comes back with a glass and a sheet of paper.",
     "Elisa walks slowly into the bathroom. She puts the glass over the spider. Then she slides the paper under the glass very carefully. The spider is inside the glass.",
     "Elisa walks to the front door with the glass and the paper. She opens the door and leaves the spider in the yard. \"Goodbye, Mrs. Spider,\" she says. The spider walks toward the plants.",
-    "Mom, Dad and Rubén clap. \"Where did you learn that?\" Dad asks. \"At school,\" Elisa answers. \"Spiders eat mosquitoes. They're good for the garden.\" Now Elisa is the family's spider expert.",
+    "Mom, Dad and Rubén clap. \"How do you know that?\" Dad asks. \"At school,\" Elisa answers. \"Spiders eat mosquitoes. They're good for the garden.\" Now Elisa is the family's spider expert.",
   ],
   "a-night-of-stars": [
     "Tonight is special. On TV they say there is going to be a meteor shower. Sara lives in the city, but tonight she is sleeping at her grandfather's house in the country.",
@@ -717,7 +717,7 @@ export const A1_STORY_ENGLISH: Record<string, string[]> = {
     "Mom looks for cardboard boxes in the garage. There is a big box and a small box. There is also aluminum foil, white paint and two empty plastic bottles.",
     "Álex and his mom work all afternoon. The big box is the body of the suit. The small box is the helmet. They paint everything white and add aluminum foil. The bottles are the oxygen tanks.",
     "The suit isn't perfect. It's a little big and it makes noise when Álex walks. But Álex looks in the mirror and says, \"I'm a real astronaut!\"",
-    "On Friday, at the party, all the children look at Álex. \"Where did you buy that costume?\" asks his friend Iván. \"I didn't buy it. I made it with my mom,\" Álex answers.",
+    "On Friday, at the party, all the children look at Álex. \"Where is that costume from?\" asks his friend Iván. \"It isn't from the store. My mom and I make it at home,\" Álex answers.",
     "At the end of the party, the teacher gives a prize for the most original costume. The prize goes to Álex. He is very happy. At home, he puts the helmet on his shelf, next to the photo of his mom.",
   ],
   "the-forgotten-umbrella": [
@@ -732,7 +732,7 @@ export const A1_STORY_ENGLISH: Record<string, string[]> = {
   "checkup-at-the-doctor": [
     "Every year, in September, Lucas goes to the doctor for a checkup. Lucas is ten years old. He isn't sick, but his mom says checkups are important.",
     "The doctor's name is Dr. Gómez. He is a tall man with glasses and a white coat. Lucas has known him since he was a baby. \"Hi, Lucas! You've gotten so big!\" the doctor says.",
-    "First, the doctor measures Lucas. Lucas stands against the wall without his shoes. \"One meter and forty centimeters,\" the doctor says. Lucas has grown six centimeters in a year!",
+    "First, the doctor measures Lucas. Lucas stands against the wall without his shoes. \"One meter and forty centimeters,\" the doctor says. Lucas grows six centimeters in a year!",
     "Next, the doctor weighs Lucas on a scale. Then he listens to his heart with the stethoscope. \"Take a deep breath,\" he says. Lucas breathes in. The stethoscope is cold.",
     "The doctor also looks at his eyes, his ears and his throat. \"Say 'aaah,'\" he says. Lucas opens his mouth and says \"aaah\" very loudly. The doctor laughs.",
     "At the end, the doctor talks to Lucas's mom. \"Lucas is very healthy,\" he says. \"But he needs to sleep more and eat more vegetables.\" Lucas makes a sad face. He doesn't like vegetables.",

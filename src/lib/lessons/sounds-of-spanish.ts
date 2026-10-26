@@ -239,7 +239,7 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
         "Listen. What does the sentence mean?",
         ["He had a problem.", "A tube is a problem.", "He has a problem.", "We had a problem."],
         0,
-        "Tuvo (he had) and tubo (tube) sound exactly the same, because b = v. The grammar tells you: tuvo un problema is \"he had a problem\". \"He has\" would be tiene, and \"we had\" tuvimos."
+        "Tuvo (he/she had, a past form of tener you will meet later) and tubo (tube) sound exactly the same, because b = v. Only meaning tells them apart: tuvo un problema is \"he had a problem\". \"He has\" would be tiene, and \"we had\" tuvimos."
       ),
       lc(
         "Vivo en Venezuela.",

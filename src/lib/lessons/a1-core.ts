@@ -73,7 +73,7 @@ export const A1_CORE: AnchoredLesson[] = [
           ["No consigo abrir la puerta.", "I can't manage to open the door."],
         ],
         [
-          fe("¿Me ___ el problema, por favor?", "explicas", "Can you [explain] the problem to me, please?", "explicar → explicas (tú). A present-tense question works as a polite request."),
+          fe("¿Me ___ el problema, por favor?", "explicas", "Can you [explain] the problem to me, please?", "explicar → explicas (tú) or explica (usted). A present-tense question works as a polite request.", ["explica"]),
         ]
       ),
     ],
@@ -482,7 +482,7 @@ export const A1_CORE: AnchoredLesson[] = [
           ["Hace frío, así que me pongo el abrigo.", "It's cold, so I put on my coat."],
         ],
         [
-          fe("Siempre ___ vaqueros al trabajo.", "llevo", "I always [wear] jeans to work.", "llevar = to wear."),
+          fe("Siempre ___ vaqueros al trabajo.", "llevo", "I always [wear] jeans to work.", "llevar = to wear (usar is also common in Latin America).", ["uso"]),
         ]
       ),
       sec(
@@ -507,7 +507,7 @@ export const A1_CORE: AnchoredLesson[] = [
     ],
     [
       fe("Me ___ los zapatos y salgo.", "pongo", "I [put on] my shoes and go out.", "Me pongo = I put on."),
-      fe("Mi jefe siempre ___ corbata.", "lleva", "My boss always [wears] a tie.", "llevar → lleva."),
+      fe("Mi jefe siempre ___ corbata.", "lleva", "My boss always [wears] a tie.", "llevar → lleva (usa is also common in Latin America).", ["usa"]),
       fe("Necesito un ___ para el invierno.", "abrigo", "I need a [coat] for the winter.", "el abrigo = the coat."),
       toEs("I'm wearing black trousers and a white shirt.", "Llevo pantalones negros y una camisa blanca.", "llevar = to wear; the colors agree.", ["Llevo unos pantalones negros y una camisa blanca.", "Yo llevo pantalones negros y una camisa blanca."]),
       toEs("These boots are very old.", "Estas botas son muy viejas.", "Botas is feminine plural → estas, viejas.", []),

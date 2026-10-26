@@ -653,7 +653,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
         0,
         "¡Qué locura! means that's crazy! \"¡Qué sorpresa!\" is what a surprise, \"¡Qué broma!\" what a joke, and \"¡Qué paz!\" how peaceful."
       ),
-      toEs("It's not your fault.", "No es tu culpa.", "Culpa = fault. You can also say No es culpa tuya.", ["No es culpa tuya.", "No es culpa tuya", "No es tu culpa"]),
+      toEs("It's not your fault.", "No es tu culpa.", "Culpa = fault. You can also say No es culpa tuya.", ["No es culpa tuya."]),
       toEn("Lo lamento, no puedo ir a tu fiesta.", "I'm sorry, I can't go to your party.", "Lo lamento means I'm sorry (for bad news or a refusal), a little more formal than lo siento.", ["I am sorry, I can't go to your party.", "I'm sorry, I cannot go to your party."]),
       wo("Mis amigos me prepararon una fiesta sorpresa.", "Una fiesta sorpresa = a surprise party; sorpresa goes after fiesta.", "My friends prepared a surprise party for me."),
       toEn("No lo dije en serio, fue una broma.", "I didn't mean it, it was a joke.", "En serio = seriously; una broma = a joke.", ["I didn't say it seriously, it was a joke.", "I wasn't serious, it was a joke."]),

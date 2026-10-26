@@ -368,7 +368,7 @@ export const A2_GAPS: AnchoredLesson[] = [
         ["¿Tú sabes qué hora es?", "¿Sabe qué hora es?", "¿Usted sabe qué hora es?", "¿Sabe usted qué hora es?"]
       ),
       toEs(
-        "This coffee is for me and the tea is for you.",
+        "This coffee is for me and the tea is for you (tú).",
         "Este café es para mí y el té es para ti.",
         "Mí after para takes an accent; ti never does (no other ti to confuse it with). Té (tea) is accented; te is the pronoun.",
         ["Este café es para mí, y el té es para ti.", "Este café es para mí y el té para ti."]
@@ -834,7 +834,7 @@ export const A2_GAPS: AnchoredLesson[] = [
         "momentito",
         "Can you wait [just a moment] for me? I'm almost ready.",
         "Momento → momentito, a very common way to soften \"a moment\". In Spain you'll also hear momentillo.",
-        ["momento", "momentillo", "momentico"]
+        ["momentillo", "momentico"]
       ),
       toEs(
         "Just a little bit, please.",
@@ -1185,9 +1185,9 @@ export const A2_GAPS: AnchoredLesson[] = [
       ),
       ms(
         "Which are correct?",
-        ["muy bien", "mucho bien", "mucha gente", "muy gente", "mucho peor"],
+        ["muy bien", "mucho rápido", "mucha gente", "muy gente", "mucho peor"],
         [0, 2, 4],
-        "Muy + adverb (muy bien), mucha + noun (mucha gente), mucho + comparative (mucho peor). \"Mucho bien\" and \"muy gente\" mix them up."
+        "Muy + adverb (muy bien), mucha + noun (mucha gente), mucho + comparative (mucho peor). \"Mucho rápido\" and \"muy gente\" mix them up."
       ),
     ]
   ),

@@ -13,7 +13,7 @@ export const DRILLS_B1_7: Record<string, Exercise[]> = {
     toEs("Have you ever moved to another country? (tú)", "¿Alguna vez te has mudado de país?", "«Mudarse» es pronominal: «te has mudado». En Latinoamérica también se oye el indefinido: «¿alguna vez te mudaste?».", ["¿Te has mudado de país alguna vez?", "¿Alguna vez te has mudado a otro país?", "¿Te has mudado a otro país alguna vez?", "¿Alguna vez te mudaste de país?", "¿Te mudaste de país alguna vez?", "¿Alguna vez te mudaste a otro país?"]),
     fe("Hasta ahora, mi mayor ___ ha sido terminar la carrera.", "logro", "So far, my greatest [achievement] has been finishing my degree.", "«El logro» es lo que has conseguido con esfuerzo; no confundas con «el lujo» ni con «el éxito» (success)."),
     toEs("I haven't overcome my fear of flying yet.", "Todavía no he superado mi miedo a volar.", "«Superar un miedo» es la colocación fija; con «todavía no» va el pretérito perfecto.", ["Aún no he superado mi miedo a volar.", "No he superado todavía mi miedo a volar.", "Todavía no he superado el miedo a volar.", "Aún no he superado el miedo a volar."]),
-    wo("Ha sido una experiencia inolvidable", "«Inolvidable» va detrás de «experiencia» porque la especifica; el pretérito perfecto «ha sido» valora una experiencia que llega hasta hoy.", "It has been an unforgettable experience"),
+    wo("Ha sido una experiencia inolvidable", "«Inolvidable» suele ir detrás de «experiencia»; el pretérito perfecto «ha sido» valora una experiencia que llega hasta hoy.", "It has been an unforgettable experience"),
     fe("Siempre ___ las oportunidades que me da la vida.", "aprovecho", "I always [take advantage of] the opportunities life gives me.", "«Aprovechar» es transitivo: no lleva «de», aunque en inglés digas «take advantage of»."),
     toEs("She graduated recently and has already started her own business.", "Se tituló hace poco y ya ha emprendido su propio negocio.", "«Titularse» es pronominal y «hace poco» pide indefinido; «ya» + perfecto para el logro reciente.", ["Hace poco se tituló y ya ha emprendido su propio negocio.", "Se tituló hace poco y ya emprendió su propio negocio.", "Hace poco se tituló y ya emprendió su propio negocio.", "Se graduó hace poco y ya ha emprendido su propio negocio.", "Hace poco se graduó y ya ha emprendido su propio negocio.", "Se graduó hace poco y ya ha empezado su propio negocio.", "Se graduó hace poco y ya ha abierto su propio negocio.", "Se tituló hace poco y ya ha empezado su propio negocio.", "Se tituló hace poco y ya ha abierto su propio negocio.", "Se graduó hace poco y ya emprendió su propio negocio."]),
     toEs("To date, nobody has climbed this mountain in winter.", "Hasta la fecha, nadie ha subido esta montaña en invierno.", "«Hasta la fecha» marca un periodo que llega al presente, por eso el pretérito perfecto.", ["Hasta la fecha, nadie ha escalado esta montaña en invierno.", "Hasta la fecha nadie ha subido esta montaña en invierno.", "Hasta la fecha, nadie ha subido a esta montaña en invierno."]),
@@ -244,7 +244,7 @@ export const DRILLS_B1_7: Record<string, Exercise[]> = {
   ],
 
   "b1r-tema-inmigracion": [
-    fe("Al principio ___ mucho a mis amigos.", "echaba de menos", "At first I [missed] my friends a lot.", "Sentimiento que duraba en el pasado → imperfecto: «echaba de menos».", ["extrañaba"]),
+    fe("Al principio ___ a mis amigos.", "echaba mucho de menos", "At first I [really missed] my friends.", "Sentimiento que duraba en el pasado → imperfecto: «echaba mucho de menos».", ["echaba de menos", "extrañaba mucho", "extrañaba"]),
     fe("Desde que llegué, ___ muchas cosas nuevas.", "he aprendido", "Since I arrived, I['ve learned] a lot of new things.", "Lo conseguido hasta hoy va en pretérito perfecto."),
     toEs("I miss my grandparents a lot.", "Echo mucho de menos a mis abuelos.", "«Echar de menos» + «a» delante de personas.", ["Echo de menos a mis abuelos mucho.", "Echo de menos mucho a mis abuelos.", "Extraño mucho a mis abuelos."]),
     toEs("When I arrived, it was raining and I didn't understand anything.", "Cuando llegué, llovía y no entendía nada.", "Hecho puntual en indefinido («llegué») y descripción en imperfecto («llovía», «no entendía»).", ["Cuando llegué, estaba lloviendo y no entendía nada."]),
@@ -324,7 +324,7 @@ export const DRILLS_B1_7: Record<string, Exercise[]> = {
 
   "b1d-rep-si-mandato-consejo": [
     fe("Si ___ hambre, para en el mercado central.", "tienes", "If you['re] hungry, stop at the central market. (tú)", "Tras «si» real va presente de indicativo; en español se «tiene» hambre."),
-    fe("Si vas al puerto, ___ una foto del faro.", "haz", "If you go to the port, [take] a photo of the lighthouse. (tú)", "Imperativo irregular de «hacer»: «haz».", ["saca"]),
+    fe("Si vas al puerto, ___ una foto del faro.", "haz", "If you go to the port, [take] a photo of the lighthouse. (tú)", "Imperativo irregular de «hacer»: «haz».", ["saca", "toma"]),
     toEs("If it rains, visit the museums. (tú)", "Si llueve, visita los museos.", "Si + presente y luego un imperativo de tú.", []),
     mc("«Si ___ el autobús 5, llegarás a la playa.» (tú, coger)", ["coges", "cojas", "cogerás", "coge"], 0, "En una condición real, después de «si» va presente de indicativo, nunca presente de subjuntivo ni futuro."),
     fe("Si te gusta la música, ___ al festival de jazz.", "ve", "If you like music, [go] to the jazz festival. (tú)", "Imperativo de «ir» para tú: «ve»."),
@@ -387,7 +387,7 @@ export const DRILLS_B1_7: Record<string, Exercise[]> = {
 
   "b1d-rep-deseo-pares-decir": [
     fe("Mi hermano dice que ___ hambre.", "tiene", "My brother says he['s] hungry.", "«Decir» informa → indicativo."),
-    fe("Mi hermano dice que ___ la cena ya.", "prepares", "My brother says you should [make] dinner now. (tú)", "«Decir» pide → subjuntivo: «prepares»."),
+    fe("Mi hermano dice que ___ la cena ya.", "prepares", "My brother says you should [make] dinner now. (tú)", "«Decir» pide → subjuntivo: «prepares».", ["hagas"]),
     toEs("Lucía says she is coming to the party.", "Lucía dice que viene a la fiesta.", "Informa de un hecho → indicativo.", ["Lucía dice que va a venir a la fiesta.", "Lucía dice que vendrá a la fiesta."]),
     toEs("Lucía says you should come to the party. (tú)", "Lucía dice que vengas a la fiesta.", "Es una petición → subjuntivo: «vengas».", []),
     mc("«Mi madre me escribe que ___ el abrigo.» (me lo pide)", ["lleve", "llevo", "llevar", "llevaré"], 0, "«Escribir» con valor de pedir → subjuntivo."),
@@ -455,13 +455,13 @@ export const DRILLS_B1_7: Record<string, Exercise[]> = {
     toEs("In ten years we will have paid off the house.", "Dentro de diez años habremos pagado la casa.", "«Dentro de» + futuro perfecto: estará terminado antes de ese momento.", ["En diez años habremos pagado la casa.", "Dentro de diez años ya habremos pagado la casa.", "En diez años ya habremos pagado la casa."]),
     wo("Para el verano habrán terminado las obras del metro", "«Para» + fecha y futuro perfecto: algo acabado antes del verano.", "By summer they will have finished the work on the metro"),
     toEs("The streets are wet; it has probably rained.", "Las calles están mojadas; habrá llovido.", "Suposición sobre algo que acaba de pasar → futuro perfecto, sin necesidad de «probablemente».", ["Las calles están mojadas, habrá llovido."]),
-    toEs("Who can have eaten my chocolate? I'm sure I left it here. (a man)", "¿Quién se habrá comido mi chocolate? Estoy seguro de que lo dejé aquí.", "Pregunta de suposición con futuro perfecto; el «se» va delante de «habrá».", ["¿Quién habrá comido mi chocolate? Estoy seguro de que lo dejé aquí."]),
+    toEs("Who could have eaten my chocolate? I'm sure I left it here. (a man)", "¿Quién se habrá comido mi chocolate? Estoy seguro de que lo dejé aquí.", "Pregunta de suposición con futuro perfecto; el «se» va delante de «habrá».", ["¿Quién habrá comido mi chocolate? Estoy seguro de que lo dejé aquí."]),
   ],
 
   "b1d-rep-perfecto-corrige": [
     fe("Esta mañana ___ al dentista.", "he ido", "This morning I [went] to the dentist.", "«Esta mañana» incluye el presente: en el uso peninsular, pretérito perfecto; en Latinoamérica es normal «fui».", ["fui"]),
     fe("El sábado pasado ___ con mis primos.", "cené", "Last Saturday I [had dinner] with my cousins.", "«El sábado pasado» es un tiempo terminado → indefinido."),
-    toEs("This week I have worked a lot.", "Esta semana he trabajado mucho.", "«Esta semana» no ha terminado → pretérito perfecto.", []),
+    toEs("This week I have worked a lot.", "Esta semana he trabajado mucho.", "«Esta semana» no ha terminado → pretérito perfecto.", ["Esta semana trabajé mucho."]),
     toEs("Last week I worked a lot.", "La semana pasada trabajé mucho.", "«La semana pasada» ya terminó → indefinido.", []),
     mc("¿Qué frase es correcta?", ["Este verano hemos viajado a Grecia.", "El verano pasado hemos viajado a Grecia.", "En 2015 hemos viajado a Grecia.", "Hace dos años hemos viajado a Grecia."], 0, "Solo «este verano» incluye el presente; las demás expresiones piden indefinido."),
     toEs("Corrige: «Hace tres días he perdido el móvil.»", "Hace tres días perdí el móvil.", "«Hace tres días» señala un momento terminado → indefinido.", ["Hace tres días perdí el celular.", "Perdí el móvil hace tres días.", "Perdí el celular hace tres días."]),

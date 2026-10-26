@@ -543,7 +543,7 @@ export const B1_GUIDES: GrammarGuide[] = [
       {
         heading: "The -d drops before os",
         body: [
-          "With reflexive verbs, the -d disappears before os: levantad + os = levantaos. -ir verbs add an accent on the í: vestíos, divertíos. Irse is the one exception that keeps the d: idos (no accent; iros is now also accepted). In speech, many people in Spain use the infinitive instead (¡Sentaros!), which is common but considered incorrect in writing.",
+          "With reflexive verbs, the -d disappears before os: levantad + os = levantaos. -ir verbs add an accent on the í: vestíos, divertíos. Irse is the one exception that keeps the d: idos (no accent; iros is heard in colloquial speech, but the RAE recommends idos). In speech, many people in Spain use the infinitive instead (¡Sentaros!), which is common but considered incorrect in writing.",
         ],
         examples: [
           { es: "Levantaos, que es tarde.", en: "Get up, it's late." },

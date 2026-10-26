@@ -137,10 +137,10 @@ export const A2_UNIT_WRITING: Record<string, WriteExercise> = {
     "Four tenses together: imperfect (hacía, estaba), preterite (fui, cantó), present perfect (he vuelto) and future (iré)."
   ),
   "a2d-cumulative-circuit-3": t(
-    "Your little brother keeps borrowing your things. Write a short message telling him what to do with each thing, using commands with pronouns, and say what he did last time.",
-    ["Commands with pronouns (devuélvemelo, ponla…)", "A past tense for what he did (la última vez…)", "Object pronouns in the right place", "At least six sentences"],
-    "Javi: la última vez cogiste mi cámara y la dejaste en el coche. Esta vez, por favor, devuélvemela antes del viernes. Mis auriculares, déjalos en mi mesa. Si necesitas el cargador, pídemelo primero. Y la chaqueta azul, ponla en mi armario después. Gracias.",
-    "Pronouns go before a conjugated verb (la dejaste) and attach to affirmative commands (devuélvemela, déjalos, ponla)."
+    "Your little brother keeps borrowing your things. Write a short message telling him what you will and won't lend him this time, using object pronouns, and say what he did last time.",
+    ["Future and present with object pronouns (te la prestaré, no te los dejo…)", "A past tense for what he did (la última vez…)", "Object pronouns in the right place", "At least six sentences"],
+    "Javi: la última vez cogiste mi cámara y la dejaste en el coche. Esta vez te la prestaré, pero me la devolverás antes del viernes. Los auriculares no te los dejo. El cargador te lo daré si me lo pides primero. La chaqueta azul la necesito yo. Gracias.",
+    "Pronouns go before a conjugated verb (la dejaste, te la prestaré, me lo pides)."
   ),
   "a2r-challenge-buenos-aires-1": t(
     "Imagine you spent a week in Buenos Aires. Write a postcard to a friend: what the city was like, three things you did, what you liked most and what you're going to do next time.",

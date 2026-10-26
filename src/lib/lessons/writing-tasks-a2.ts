@@ -268,7 +268,7 @@ export const A2_WRITING_TASKS: UnitWriting = {
       "maxWords": 60,
       "rubric": [
         "Reflexive verbs in the preterite (me desperté, me vestí…)",
-        "One reflexive with an infinitive (ducharme)",
+        "One reflexive verb used with an infinitive (optional: you'll practise attached pronouns like ducharme later)",
         "Imperfect for the background (había, era…)",
         "An ending"
       ],

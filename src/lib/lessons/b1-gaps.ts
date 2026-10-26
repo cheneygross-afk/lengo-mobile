@@ -145,10 +145,10 @@ export const B1_GAPS: AnchoredLesson[] = [
         ["Para el lunes ya habré leído el libro.", "El lunes ya habré leído el libro.", "Antes del lunes habré leído el libro."]
       ),
       toEs(
-        "They've probably left already.",
+        "They must have left already.",
         "Ya se habrán ido.",
         "Suposición sobre el pasado reciente: futuro perfecto. Irse → se habrán ido.",
-        ["Se habrán ido ya.", "Ya habrán salido.", "Habrán salido ya.", "Ya se habrán marchado.", "Seguramente ya se han ido.", "Probablemente ya se han ido."]
+        ["Se habrán ido ya.", "Ya habrán salido.", "Habrán salido ya.", "Ya se habrán marchado."]
       ),
       toEn(
         "Dentro de dos horas habremos llegado a Valencia.",
@@ -331,7 +331,7 @@ export const B1_GAPS: AnchoredLesson[] = [
       sec(
         "Ir a y acabar de: justo antes y justo después",
         [
-          "Ya conoces ir a + infinitivo para planes e intenciones: Voy a llamar a mi madre. En el pasado, iba a + infinitivo es un plan que no se cumplió: Iba a llamarte, pero se me hizo tarde.",
+          "Ya conoces ir a + infinitivo para planes e intenciones: Voy a llamar a mi madre. En el pasado, iba a + infinitivo expresa un plan o una intención, muchas veces uno que al final no se cumplió: Iba a llamarte, pero se me hizo tarde.",
           "Acabar de + infinitivo significa que algo ha pasado hace muy poco: Acabo de llegar = I've just arrived. En pasado: Acababa de salir cuando empezó a llover (I had just gone out).",
           "Cuidado: acabar + gerundio o acabar por + infinitivo significan «terminar haciendo algo»: Acabé comprando el más caro.",
         ],
@@ -438,7 +438,7 @@ export const B1_GAPS: AnchoredLesson[] = [
         "I've just finished the book.",
         "Acabo de terminar el libro.",
         "Acabar de + infinitivo en presente para algo muy reciente.",
-        ["Acabo de acabar el libro.", "Justo he terminado el libro.", "Acabo de terminarme el libro.", "Recién terminé el libro."]
+        ["Acabo de acabar el libro.", "Acabo de terminarme el libro.", "Recién terminé el libro."]
       ),
       toEs(
         "It won't happen again.",
@@ -706,8 +706,8 @@ export const B1_GAPS: AnchoredLesson[] = [
         [
           ["Tengo un compañero que", "habla cuatro idiomas."],
           ["Busco un compañero que", "hable cuatro idiomas."],
-          ["No hay ningún compañero que", "hable cuatro idiomas."],
-          ["¿Hay algún compañero que", "hable cuatro idiomas?"],
+          ["No hay ningún compañero que", "sepa la respuesta."],
+          ["¿Hay algún compañero que", "pueda ayudarme?"],
         ],
         "Indicativo si el antecedente existe y es conocido; subjuntivo si se busca, se pregunta por él o se niega."
       ),
@@ -891,16 +891,16 @@ export const B1_GAPS: AnchoredLesson[] = [
         "Ir a + infinitivo con el se accidental: se te va a caer."
       ),
       toEs(
-        "I lost my keys.",
+        "My keys got lost on me (it wasn't my fault).",
         "Se me perdieron las llaves.",
-        "Llaves es plural: se me perdieron. También es correcto «Perdí las llaves».",
-        ["Perdí las llaves.", "Perdí mis llaves.", "He perdido las llaves.", "Se me han perdido las llaves."]
+        "Llaves es plural: se me perdieron. El se accidental presenta la pérdida como algo que no fue culpa tuya.",
+        ["Se me han perdido las llaves.", "Se me perdieron mis llaves."]
       ),
       toEs(
-        "We forgot to buy water.",
+        "We forgot to buy water (it slipped our minds).",
         "Se nos olvidó comprar agua.",
         "Con infinitivo, el verbo va en singular: se nos olvidó.",
-        ["Nos olvidamos de comprar agua.", "Olvidamos comprar agua.", "Se nos ha olvidado comprar agua.", "Se nos olvidó comprar el agua."]
+        ["Se nos ha olvidado comprar agua.", "Se nos olvidó comprar el agua.", "Se nos pasó comprar agua."]
       ),
       toEn(
         "Se me ocurrió una idea genial.",

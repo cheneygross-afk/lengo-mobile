@@ -76,7 +76,7 @@ export const A1_SKILLS: Record<string, Exercise[]> = {
   "days-months-dates": [
     lc("Mi cumpleaños es el doce de mayo.", "Listen. When is the birthday?", ["May 12", "May 2", "March 12", "December 5"], 0, "El doce de mayo is May 12. Spanish says the day first, then de + month. Marzo is March, diciembre December."),
     dict("Hoy es lunes.", "Hoy es lunes -- \"Today is Monday.\" Days of the week are written with a small letter in Spanish."),
-    dict("Mi cumpleaños es en enero.", "Mi cumpleaños es en enero -- \"My birthday is in January.\" Months also take a small letter, and cumpleaños keeps its ñ and accent."),
+    dict("Mi cumpleaños es en enero.", "Mi cumpleaños es en enero -- \"My birthday is in January.\" Months also take a small letter, and cumpleaños keeps its ñ (and has no written accent)."),
   ],
   "a1r-word-web-family-people": [
     wr(

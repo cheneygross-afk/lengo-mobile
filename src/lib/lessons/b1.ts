@@ -1737,7 +1737,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 8,
     "title": "Commands: Tú, Usted, Nosotros & Negatives, Part 1 of 2",
-    "summary": "Give instructions, make requests, and issue friendly suggestions with the imperative mood.",
+    "summary": "Learn the imperative: commands for tú, usted/ustedes and nosotros, affirmative and negative, to give instructions and make requests.",
     "duration": "6 min",
     "sections": [
       {
@@ -2226,17 +2226,19 @@ const B1_BASE_LESSONS: Lesson[] = [
           "la",
           "cebolla",
           "y",
-          "fríela",
+          "fríe",
+          "las",
+          "patatas",
           "a",
           "fuego",
           "lento."
         ],
-        "explanation": "Mandatos de tú en una receta: picar → pica, freír → fríe. En el mandato afirmativo el pronombre va pegado al final: fríela.",
-        "translation": "Chop the onion and fry it over low heat."
+        "explanation": "Mandatos de tú en una receta: picar → pica, freír → fríe (tú, e → í).",
+        "translation": "Chop the onion and fry the potatoes over low heat. (tú)"
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cómo se dice \"let's go\"?",
+        "question": "¿Cuál es la forma más común de decir \"let's go\"?",
         "options": [
           "Vamos",
           "Vayamos",
@@ -2423,11 +2425,11 @@ const B1_BASE_LESSONS: Lesson[] = [
         "options": [
           "Quiero",
           "Querría",
-          "Quería",
+          "Querré",
           "Quiero que"
         ],
         "correctIndex": 1,
-        "explanation": "«Querría» es condicional y traduce «I would like»; suena más educado que «quiero». «Quería» es imperfecto (I wanted), aunque también se usa por cortesía, y «quiero que» necesitaría otra cláusula con subjuntivo."
+        "explanation": "«Querría» es condicional y traduce «I would like»; suena más educado que «quiero». «Querré» es futuro (I will want) y «quiero que» necesitaría otra cláusula con subjuntivo."
       },
       {
         "type": "fill-blank",
@@ -2738,10 +2740,10 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "es-en",
-        "prompt": "Translate this sentence to English.",
+        "prompt": "Traduce al inglés.",
         "source": "En tu situación, yo hablaría con el jefe primero.",
         "answer": "In your situation, I would talk to the boss first.",
-        "explanation": "Hablaría is the conditional of hablar, used here for advice."
+        "explanation": "Hablaría es el condicional de hablar; aquí da un consejo."
       }
     ]
   },
@@ -3203,7 +3205,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     ],
     "exercises": [
       {
-        "type": "multi-select",
+        "type": "multiple-choice",
         "question": "¿Qué palabra introduce una rutina segura, no una condición incierta?",
         "options": [
           "si",
@@ -3211,9 +3213,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "ojalá",
           "tal vez"
         ],
-        "correctIndexes": [
-          1
-        ],
+        "correctIndex": 1,
         "explanation": "\"Cuando\" con presente indicativo describe una rutina; \"si\" describe una condición incierta."
       },
       {
@@ -4822,7 +4822,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Translate to Spanish.",
+        "prompt": "Traduce al español.",
         "source": "The house that we bought last year needs repairs.",
         "answer": "La casa que compramos el año pasado necesita reparaciones.",
         "altAnswers": [
@@ -4833,7 +4833,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "es-en",
-        "prompt": "Translate to English.",
+        "prompt": "Traduce al inglés.",
         "source": "Lo que me molesta es la impuntualidad.",
         "answer": "What bothers me is a lack of punctuality.",
         "altAnswers": [
@@ -4969,7 +4969,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Translate to Spanish.",
+        "prompt": "Traduce al español.",
         "source": "The colleague with whom I traveled speaks four languages.",
         "answer": "La colega con la que viajé habla cuatro idiomas.",
         "altAnswers": [
@@ -5632,7 +5632,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "mucha",
           "paciencia"
         ],
-        "translation": "I explained it to her/him with a lot of patience.",
+        "translation": "I explained it (the lesson) to her/him with a lot of patience.",
         "explanation": "El pronombre combinado 'se la' (le + la) va antes del verbo conjugado 'expliqué'."
       }
     ]
@@ -5908,7 +5908,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           {
             "type": "fill-blank",
             "prompt": "Reescribe la oración evitando la ambigüedad de 'las suyas'.",
-            "sentence": "Pedro y Marta perdieron sus llaves. Encontramos las de Marta, pero no ___ (las de Pedro).",
+            "sentence": "Pedro y Marta perdieron sus llaves. Encontramos las de Marta, pero no ___ (las llaves de Pedro: usa de + pronombre).",
             "answer": "las de él",
             "explanation": "En vez de 'las suyas' (que podría referirse a Marta o a Pedro), se usa 'las de él' para especificar con claridad el poseedor."
           }
@@ -6137,7 +6137,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "heading": "Verbos reflexivos: se pierde la -d (excepto irse)",
         "body": [
           "Cuando el mandato afirmativo de vosotros se combina con un verbo reflexivo, el pronombre 'os' se pega al final, pero la -d final del verbo desaparece antes de añadir '-os'. Así, levantar + os no da 'levantados', sino 'levantaos'. Lo mismo ocurre con sentaos (sentar) y vestíos (vestir, con tilde porque la i queda sola formando hiato).",
-          "La gran excepción es el verbo irse, cuyo mandato de vosotros es idos, que sí conserva la -d (en el habla es muy frecuente iros, que hoy la RAE también admite)."
+          "La gran excepción es el verbo irse, cuyo mandato de vosotros es idos, que sí conserva la -d (en el habla coloquial es muy frecuente iros, pero la RAE recomienda idos)."
         ],
         "examples": [
           {
@@ -6319,7 +6319,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 29,
     "title": "Formación del Subjuntivo: Práctica Extra, Part 1 of 3",
-    "summary": "Práctica adicional para reforzar la formación del subjuntivo presente en todas sus variantes: verbos regulares, con cambios ortográficos, con cambio de raíz e irregulares.",
+    "summary": "Practica la formación del subjuntivo presente con verbos regulares (-ar, -er, -ir) y con cambios ortográficos (-car, -gar, -zar).",
     "duration": "8 min",
     "sections": [
       {
@@ -6494,7 +6494,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 30,
     "title": "Formación del Subjuntivo: Práctica Extra, Part 2 of 3",
-    "summary": "Práctica adicional para reforzar la formación del subjuntivo presente en todas sus variantes: verbos regulares, con cambios ortográficos, con cambio de raíz e irregulares.",
+    "summary": "Practica el subjuntivo presente con verbos de cambio de raíz (pensar, volver, pedir, dormir) y con los seis irregulares (ser, estar, ir, saber, dar, haber).",
     "duration": "9 min",
     "sections": [
       {
@@ -6704,7 +6704,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 31,
     "title": "Formación del Subjuntivo: Práctica Extra, Part 3 of 3",
-    "summary": "Práctica adicional para reforzar la formación del subjuntivo presente en todas sus variantes: verbos regulares, con cambios ortográficos, con cambio de raíz e irregulares.",
+    "summary": "Practica el subjuntivo presente con verbos irregulares en yo (tener, hacer, conocer, salir, decir, oír) y con práctica mixta de todos los tipos.",
     "duration": "7 min",
     "sections": [
       {
@@ -6874,7 +6874,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 32,
     "title": "Subjuntivo con Deseos, Duda y Emoción: Práctica Extra, Part 1 of 3",
-    "summary": "Esta lección es práctica adicional para repasar el subjuntivo con verbos de deseo, duda y emoción ya estudiados.",
+    "summary": "Practica elegir subjuntivo o indicativo con verbos de deseo (querer que), duda y negación (dudar que, no creer que) y emoción (alegrarse de que).",
     "duration": "8 min",
     "sections": [
       {
@@ -7073,7 +7073,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 33,
     "title": "Subjuntivo con Deseos, Duda y Emoción: Práctica Extra, Part 2 of 3",
-    "summary": "Esta lección es práctica adicional para repasar el subjuntivo con verbos de deseo, duda y emoción ya estudiados.",
+    "summary": "Practica el subjuntivo con expresiones impersonales de emoción y valoración (es una lástima que) y decide entre infinitivo (mismo sujeto) y que + subjuntivo (sujeto distinto).",
     "duration": "7 min",
     "sections": [
       {
@@ -7238,7 +7238,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 34,
     "title": "Subjuntivo con Deseos, Duda y Emoción: Práctica Extra, Part 3 of 3",
-    "summary": "Esta lección es práctica adicional para repasar el subjuntivo con verbos de deseo, duda y emoción ya estudiados.",
+    "summary": "Practica la mezcla de deseo, duda, emoción y certeza: decide entre indicativo y subjuntivo y conjuga (ojalá que, no creo que, sé que...).",
     "duration": "7 min",
     "sections": [
       {
@@ -7415,7 +7415,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 35,
     "title": "Subjuntivo con Expresiones Impersonales y Ojalá: Práctica Extra, Part 1 of 3",
-    "summary": "Esta lección ofrece práctica adicional para reforzar el uso del subjuntivo con expresiones impersonales y con ojalá.",
+    "summary": "Practica el subjuntivo con expresiones impersonales de necesidad (es necesario que, hace falta que) y de posibilidad (es probable que, puede que).",
     "duration": "7 min",
     "sections": [
       {
@@ -7576,7 +7576,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 36,
     "title": "Subjuntivo con Expresiones Impersonales y Ojalá: Práctica Extra, Part 2 of 3",
-    "summary": "Esta lección ofrece práctica adicional para reforzar el uso del subjuntivo con expresiones impersonales y con ojalá.",
+    "summary": "Practica el contraste entre certeza (es verdad que + indicativo) y duda o deseo (puede que, ojalá que + subjuntivo).",
     "duration": "7 min",
     "sections": [
       {
@@ -7749,7 +7749,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 37,
     "title": "Subjuntivo con Expresiones Impersonales y Ojalá: Práctica Extra, Part 3 of 3",
-    "summary": "Esta lección ofrece práctica adicional para reforzar el uso del subjuntivo con expresiones impersonales y con ojalá.",
+    "summary": "Practicarás el subjuntivo con expresiones impersonales y ojalá: quizás y tal vez + subjuntivo, el infinitivo frente a que + subjuntivo y cuándo usar indicativo o subjuntivo.",
     "duration": "8 min",
     "sections": [
       {
@@ -7770,7 +7770,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Qué forma expresa más duda? Quizás ella ___ (venir) a la fiesta.",
+            "question": "¿Qué forma expresa más duda? Quizás ella ___ (venir) a la fiesta de mañana.",
             "options": [
               "venga",
               "viene",
@@ -7946,7 +7946,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 38,
     "title": "Los Mandatos: Práctica Extra, Part 1 of 3",
-    "summary": "Esta lección es práctica adicional para reforzar los mandatos afirmativos y negativos con tú, usted, ustedes y nosotros, incluyendo la colocación de pronombres.",
+    "summary": "Practica los mandatos con tú: afirmativos regulares e irregulares (ven, ten, sal, pon, haz, di, ve, sé) y negativos con subjuntivo.",
     "duration": "9 min",
     "sections": [
       {
@@ -8205,7 +8205,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "el",
               "mercado"
             ],
-            "translation": "Buy it at the market.",
+            "translation": "Buy it at the market. (tú)",
             "explanation": "En los mandatos afirmativos el pronombre 'lo' se une al final del verbo: 'Cómpralo'."
           }
         ]
@@ -8367,7 +8367,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "lo",
           "des"
         ],
-        "translation": "Don't give it to me.",
+        "translation": "Don't give it to me. (tú)",
         "explanation": "En los mandatos negativos el pronombre va antes del verbo conjugado: 'No me lo des'."
       },
       {
@@ -10663,7 +10663,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "sentence": "¿De quién es este paraguas? Es ___. (de él)",
         "answer": "suyo",
         "hint": "posesivo tónico masculino singular",
-        "explanation": "El pronombre tónico 'suyo' (de él) sustituye a 'paraguas' (masculino singular) y concuerda con él, no con el poseedor."
+        "explanation": "El pronombre tónico 'suyo' (de él) sustituye a 'paraguas' (masculino singular) y concuerda con 'paraguas', no con el poseedor."
       },
       {
         "type": "translate",
@@ -13123,10 +13123,10 @@ const B1_BASE_LESSONS: Lesson[] = [
         "type": "translate",
         "direction": "en-es",
         "prompt": "Traduce al español.",
-        "source": "an experience you lived through",
-        "answer": "la vivencia",
-        "altAnswers": ["la experiencia vivida", "una vivencia", "una experiencia vivida"],
-        "explanation": "\"La vivencia\" significa \"an experience you lived through\" (una experiencia vivida)."
+        "source": "the news item",
+        "answer": "la noticia",
+        "altAnswers": ["una noticia"],
+        "explanation": "\"La noticia\" significa \"the news item\" (una información reciente)."
       }
     ]
   },
@@ -13696,7 +13696,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Subjunctive with Wishes, Doubt & Emotion",
         "body": [
-          "Verbos de deseo (querer que), duda (dudar que) y emoción (alegrarse de que) requieren subjuntivo en la cláusula siguiente, si el sujeto cambia."
+          "Verbos de deseo (querer que), duda (dudar que) y emoción (alegrarse de que) requieren subjuntivo en la cláusula siguiente (deseo y emoción cuando cambia el sujeto; con dudar que, siempre)."
         ]
       },
       {
@@ -14104,7 +14104,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "El cielo estaba despejado y el sol brillaba sobre los picos nevados. Caminaron por el sendero principal durante casi dos horas, sacando fotos y riendo. Valentina, que siempre llevaba la cámara, quería encontrar el mirador perfecto para fotografiar el lago turquesa que se veía a lo lejos.",
           "Cuando vio un pequeño camino que se separaba del sendero oficial, Valentina dijo que probablemente llevaba a una vista mejor. \"Solo será un momento\", prometió. Sus amigos, curiosos, la siguieron sin pensarlo mucho. El camino era estrecho y estaba cubierto de piedras sueltas, pero ellos siguieron avanzando entre los árboles.",
           "Después de veinte minutos, Diego se dio cuenta de que ya no había señales ni marcadores en los árboles. \"Creo que nos hemos alejado demasiado del sendero principal\", dijo, mirando su teléfono, que no tenía señal. El grupo se detuvo, y por primera vez sintieron un poco de miedo.",
-          "\"Esto es tu culpa\", le dijo Diego a Valentina, un poco enojado. Ella se defendió diciendo que todos habían decidido seguir el camino juntos. Mateo, que normalmente era tranquilo, pidió que dejaran de discutir. \"Pelear no nos va a ayudar a salir de aquí\", explicó con calma.",
+          "\"Esto es culpa tuya\", le dijo Diego a Valentina, un poco enojado. Ella se defendió diciendo que todos habían decidido seguir el camino juntos. Mateo, que normalmente era tranquilo, pidió que dejaran de discutir. \"Pelear no nos va a ayudar a salir de aquí\", explicó con calma.",
           "Camila, que había hecho muchas excursiones con su padre cuando era niña, recordó un consejo importante: si te pierdes en la montaña, es mejor buscar un río o un arroyo, porque el agua siempre baja hacia los valles, donde suele haber caminos y gente. \"Escuchen\", dijo, \"oigo agua correr hacia la izquierda\".",
           "Siguieron el sonido del agua durante casi una hora. El terreno era difícil, con rocas resbaladizas y ramas que les cortaban el paso. Empezó a hacer más frío, y unas nubes grises cubrieron el cielo. Todos estaban cansados, pero nadie quería parar hasta encontrar el camino correcto.",
           "Cuando llegaron al arroyo, tuvieron que cruzarlo saltando de piedra en piedra. Mateo resbaló y se mojó un pie, pero no se lastimó. Diego lo ayudó a levantarse y, por primera vez en horas, todos se rieron un poco, aliviados de que no hubiera sido algo peor.",
@@ -14230,7 +14230,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Lectura",
         "body": [
-          "En el pequeño pueblo de Villaflor, en el sur de España, empezaron a suceder cosas extrañas durante el invierno. Cada mañana, algunos vecinos encontraban pequeños regalos frente a sus puertas: una bufanda tejida a mano, una canasta de frutas, un dibujo hecho por un niño, o incluso una nota con palabras de ánimo.",
+          "En el pequeño pueblo de Villaflor, en el sur de España, empezaron a suceder cosas extrañas durante el invierno. Cada mañana, algunos vecinos encontraban pequeños regalos frente a sus puertas: una bufanda tejida a mano, una cesta de fruta, un dibujo hecho por un niño, o incluso una nota con palabras de ánimo.",
           "Lucía, una estudiante de quince años que vivía con su madre en la calle principal del pueblo, se sintió muy intrigada por el misterio. Todos en el pueblo hablaban del tema en la panadería y en la plaza, pero nadie sabía quién dejaba los regalos ni por qué lo hacía.",
           "Algunos vecinos, como el señor Antúnez, pensaban que era una broma de mal gusto. Otros creían que era una señal de buena suerte. Lucía, sin embargo, quería descubrir la verdad. Decidió que investigaría el misterio como si fuera una verdadera detective.",
           "Empezó a anotar en un cuaderno los días y las horas en que aparecían los regalos, además de las casas donde aparecían. Notó un patrón: los regalos siempre aparecían los martes y los viernes por la mañana, muy temprano, antes de que saliera el sol.",
@@ -14891,7 +14891,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Sin embargo, hubo un momento difícil cuando Camila, distraída por un perro que cruzó la calle, frenó demasiado tarde y estuvo a punto de chocar contra el auto de adelante. Marcelo, a pesar de su promesa, no pudo evitar gritar \"¡Frena!\" en ese momento de verdadero peligro.",
           "Después de ese susto, en lugar de enojarse, padre e hija hablaron con calma sobre lo que había pasado. Camila admitió que se había distraído, y Marcelo reconoció que, en momentos de peligro real, es normal y necesario que un instructor hable con firmeza.",
           "Con esa experiencia, ambos entendieron mejor los límites del nuevo sistema: silencio durante la conducción normal, pero comunicación clara y rápida cuando surgiera un peligro verdadero. Esta combinación funcionó mucho mejor para los dos.",
-          "El día del examen de conducir, Camila aprobó sin ningún problema. Cuando salió de la oficina de tránsito con su nuevo permiso en la mano, abrazó a su padre y le agradeció por finalmente haber aprendido a confiar en ella detrás del volante."
+          "El día del examen de conducir, Camila aprobó sin ningún problema. Cuando salió de la oficina de tránsito con su nuevo permiso en la mano, abrazó a su padre y le agradeció que por fin hubiera aprendido a confiar en ella detrás del volante."
         ]
       }
     ],
@@ -15214,9 +15214,9 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Al principio, Ramón se frustraba fácilmente. Olvidaba constantemente cómo abrir las aplicaciones y a veces presionaba botones equivocados sin darse cuenta. Un día, incluso llegó a decir que prefería regresar a su teléfono viejo, ya que sentía que nunca aprendería a usar el nuevo correctamente.",
           "Camila, sin embargo, no se rindió. Le explicó que ella también había tenido que aprender cosas nuevas y difíciles, como las costumbres de su nueva escuela en España, y que al principio todo parece imposible hasta que uno practica lo suficiente. Sus palabras animaron a Ramón a seguir intentándolo.",
           "Practicaron todos los días durante las tres semanas de la visita de Camila. Ella le enseñó cómo hacer videollamadas, cómo tomar fotografías y hasta cómo mandar mensajes con emojis, algo que a Ramón le pareció particularmente divertido una vez que entendió cómo funcionaba.",
-          "El día antes de que Camila regresara a España, hicieron una videollamada de prueba con los padres de Camila. Cuando Ramón vio la cara de su hija en la pantalla del teléfono, moviéndose en tiempo real, se emocionó tanto que casi se le caen las lágrimas frente a Camila.",
+          "El día antes de que Camila regresara a España, hicieron una videollamada de prueba con los padres de Camila. Cuando Ramón vio la cara de su hijo en la pantalla del teléfono, moviéndose en tiempo real, se emocionó tanto que casi se le caen las lágrimas frente a Camila.",
           "Después de que Camila regresó a España, ambos mantuvieron su promesa de hacer videollamadas cada domingo por la tarde. Ramón, con el tiempo, se fue sintiendo mucho más cómodo con el teléfono y hasta empezó a mandarle fotografías de su jardín y de la comida que cocinaba cada semana.",
-          "Un año después, durante otra visita de Camila, Ramón le mostró orgulloso que había aprendido a usar varias aplicaciones nuevas por su cuenta, incluyendo una para jugar juegos simples de palabras. Le agradeció a su nieta por haberle abierto una nueva forma de sentirse cerca de su familia, sin importar la distancia."
+          "Un año después, durante otra visita de Camila, Ramón le mostró orgulloso que había aprendido a usar varias aplicaciones nuevas por su cuenta, incluyendo una para jugar juegos simples de palabras. Le agradeció a su nieta que le hubiera abierto una nueva forma de sentirse cerca de su familia, sin importar la distancia."
         ]
       }
     ],
@@ -17080,7 +17080,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "El primer martes, Ramón se puso un delantal y empezó a cortar verduras junto a otros voluntarios. La coordinadora le explicó las reglas: \"Sirve con una sonrisa y trata a todos con respeto, sin importar su situación\". Ramón, que había sido cocinero durante treinta años, se sintió útil por primera vez en meses.",
           "Entre las personas que iban a cenar cada semana, había un joven llamado Iker que siempre se sentaba solo, cerca de la puerta. Ramón notó que Iker apenas hablaba con nadie y que a veces se quedaba mirando el plato sin comer. Una noche, Ramón se sentó a su lado y le preguntó cómo estaba, algo que nadie parecía haberle preguntado en mucho tiempo.",
           "Poco a poco, Iker empezó a contarle su historia: había perdido su trabajo y, después, su piso, y ahora dormía en casa de un amigo. \"Es difícil que la gente entienda lo rápido que puede cambiar todo\", le dijo Iker una noche. Ramón lo escuchaba sin interrumpir, recordando lo solo que él mismo se había sentido antes de empezar a ir al comedor.",
-          "Ramón había trabajado toda su vida en restaurantes, así que le ofreció a Iker enseñarle algunas recetas básicas los sábados por la mañana. Al principio, Iker dudaba de que fuera capaz de aprender, pero Ramón insistió: \"Prueba primero, ya verás que puedes\". Con el tiempo, Iker empezó a ayudar también en la cocina del comedor los martes.",
+          "Ramón había trabajado treinta años en restaurantes, así que le ofreció a Iker enseñarle algunas recetas básicas los sábados por la mañana. Al principio, Iker dudaba de que fuera capaz de aprender, pero Ramón insistió: \"Prueba primero, ya verás que puedes\". Con el tiempo, Iker empezó a ayudar también en la cocina del comedor los martes.",
           "Un día, un pequeño restaurante del barrio buscaba a alguien para trabajar en la cocina, y Ramón le habló de Iker al dueño, a quien conocía desde hacía años. Le dijeron a Iker que fuera a una entrevista, y esa misma semana consiguió el trabajo. Ramón nunca había sentido tanto orgullo por alguien que no fuera de su propia familia.",
           "Meses después, Iker seguía yendo al comedor los martes, pero ya no como comensal, sino como voluntario, igual que Ramón. Los dos cocinaban juntos, riéndose de sus propios errores en la cocina. \"Si alguien me hubiera dicho que un comedor social me daría un amigo así, no lo habría creído\", pensaba Ramón cada martes, mientras cerraba la puerta del local."
         ]
@@ -17438,7 +17438,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "body": [
           "Cuatro amigos de la universidad decidieron reunirse después de varios años sin verse para subir juntos al Teide, el volcán más alto de España. Habían planeado la ruta durante meses: saldrían de madrugada para ver el amanecer desde la cumbre. Todos estaban emocionados, aunque ninguno tenía mucha experiencia en montañas tan altas.",
           "Empezaron a caminar a las tres de la madrugada, con linternas frontales y mochilas llenas de agua y comida. Los primeros kilómetros fueron fáciles, entre risas y recuerdos de la universidad. Pero a medida que subían, el aire se hacía más frío y más difícil de respirar.",
-          "Hacia las cinco de la mañana, Teresa, una de los cuatro amigos, empezó a sentirse mareada y con dolor de cabeza. \"Es normal que a esta altura te sientas así\", le dijo Marcos, que había subido montañas antes, \"pero avísanos si empeora\". Teresa intentó seguir caminando, aunque cada paso le costaba más que el anterior.",
+          "Hacia las cinco de la mañana, Teresa, una de los cuatro amigos, empezó a sentirse mareada y con dolor de cabeza. \"Es normal que a esta altitud te sientas así\", le dijo Marcos, que había subido montañas antes, \"pero avísanos si empeora\". Teresa intentó seguir caminando, aunque cada paso le costaba más que el anterior.",
           "A dos horas de la cumbre, Teresa se detuvo completamente y admitió que no podía continuar. Los otros tres se miraron sin saber qué hacer: si seguían subiendo, llegarían a tiempo para el amanecer, pero dejarían a Teresa sola en la montaña. \"No la vamos a dejar aquí\", dijo Marcos, \"bajaremos con ella, la cumbre estará ahí otro día\".",
           "Teresa se sintió culpable por arruinar el plan de sus amigos, pero ellos insistieron en que su seguridad era lo más importante. Bajaron juntos, despacio, deteniéndose cada pocos minutos para que Teresa descansara. \"Nunca me había sentido tan mal en una montaña\", les confesó Teresa, mientras bajaban en silencio bajo las primeras luces del día.",
           "Ya en la base de la montaña, sentados en el coche, los cuatro amigos vieron el amanecer de todos modos, aunque desde mucho más abajo de lo planeado. \"Fue distinto a lo que habíamos imaginado\", dijo Laura, la cuarta amiga, \"pero fue igual de bonito\". Teresa, ya recuperada, sonrió y dijo que algún día volvería para terminar lo que había empezado.",

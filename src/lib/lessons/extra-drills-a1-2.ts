@@ -177,7 +177,7 @@ export const DRILLS_A1_2: Record<string, Exercise[]> = {
     toEs("At what time is the math class?", "¿A qué hora es la clase de matemáticas?", "¿A qué hora...? for when an event happens."),
     fe("La clase de música es ___ la una y cuarto.", "a", "The music class is [at] a quarter past one.", "'At' a time is a la / a las; la una stays singular."),
     fe("—¿Qué hora es? —___ la una y diez.", "Es", "What time is it? — [It's] 1:10.", "Times with la una are singular: es."),
-    fe("—¿A qué hora sale el autobús? —___ las seis y media.", "A", "What time does the bus leave? — [At] 6:30.", "A ¿A qué hora? question is answered with a las."),
+    fe("—¿A qué hora sale el autobús? —___ las seis y media.", "A", "What time does the bus leave? — [At] 6:30.", "An ¿A qué hora...? question is answered with a + the time (a las seis y media; a la una for one o'clock)."),
     toEs("The bus leaves at 7:15.", "El autobús sale a las siete y cuarto.", "A las + time for when something happens.", ["El autobús sale a las siete y quince."]),
     toEs("The science class is at 1:20.", "La clase de ciencias es a la una y veinte.", "A la una (singular) + y veinte."),
     mc("Someone asks '¿Qué hora es?'. Which answer fits?", ["A las cuatro.", "Son las cuatro.", "Es las cuatro.", "A la cuatro."], 1, "This asks the time now, so answer with son las, not a las."),

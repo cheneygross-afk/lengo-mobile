@@ -39,7 +39,7 @@ export const DRILLS_B1_12: Record<string, Exercise[]> = {
     toEs("Lend it to me until Monday. (vosotros; it = el coche)", "Prestádmelo hasta el lunes.", "Vosotros afirmativo: «prestad» + me + lo, con tilde en la a.", []),
     toEs("Don't lend it to them. (vosotros; it = el coche)", "No se lo prestéis.", "Vosotros negativo: subjuntivo «prestéis» con «se lo» delante.", []),
     fe("Si el niño tiene hambre, ___.", "dásela", "If the child is hungry, [give it to him]. (tú; it = la merienda)", "«Le la» es imposible: se convierte en «se la», pegado al imperativo «da»."),
-    mc("(usted, enviar a ellos los documentos) «___ hoy.»", ["Envíeselos", "Envíelesos", "Envíeleslos", "Se los envíe"], 0, "Les + los → se los, pegados al final en afirmativo; «se los envíe» solo es posible con «no»."),
+    mc("(usted; send them the documents) «___ hoy.»", ["Envíeselos", "Envíelesos", "Envíeleslos", "Se los envíe"], 0, "Les + los → se los, pegados al final en afirmativo; «se los envíe» solo es posible con «no»."),
     wo("No se lo cuentes a nadie", "En negativo los pronombres van antes del verbo en subjuntivo.", "Don't tell it to anyone (tú)"),
     toEs("Explain them to us again, please. (usted; them = las normas)", "Explíquenoslas otra vez, por favor.", "Usted afirmativo: «explique» + nos + las; recuerda la qu de «explique».", ["Explíquenoslas de nuevo, por favor."]),
     fe("No ___ hasta mañana.", "nos lo devolváis", "Don't [return it to us] until tomorrow. (vosotros; it = el dinero)", "Vosotros negativo: «nos lo» delante del subjuntivo «devolváis»."),
@@ -270,7 +270,7 @@ export const DRILLS_B1_12: Record<string, Exercise[]> = {
   ],
 
   "subjunctive-formation-drill-1": [
-    fe("Es importante que ___ agua durante el día.", "tomes", "It's important that you [drink] water during the day. (tú)", "Verbo -ar regular: tomo → tome → «tomes».", ["bebas"]),
+    fe("Es importante que ___ agua durante el día.", "tomes", "It's important that you [drink] water during the day. (tú)", "Tomar (-ar) → tomes; beber (-er) → bebas: los verbos -ar toman terminaciones en -e y los -er en -a.", ["bebas"]),
     toEs("I want you to help me with the dishes. (tú)", "Quiero que me ayudes con los platos.", "-ar regular: ayudo → «ayudes» con terminación en -e.", ["Quiero que me ayudes a lavar los platos."]),
     fe("Ojalá que mis vecinos no ___ tan alto.", "hablen", "I hope my neighbors don't [talk] so loudly.", "-ar regular: terminación -en para ellos; «hablan» es indicativo."),
     toEs("It's necessary that we practice every day.", "Es necesario que practiquemos todos los días.", "-car cambia c → qu para conservar el sonido: «practiquemos».", ["Es necesario que practiquemos cada día."]),
@@ -408,7 +408,7 @@ export const DRILLS_B1_12: Record<string, Exercise[]> = {
     fe("Ojalá que no ___ cola en el museo. (error típico: hayga)", "haya", "I hope there [isn't] a queue at the museum.", "«Hayga» no existe: el subjuntivo de haber es «haya»."),
     fe("Es importante que ___ el pasaporte. (error típico: llevas)", "lleves", "It's important that you [take] your passport. (tú)", "-ar → -e: «lleves»; «llevas» es indicativo."),
     fe("Quiero que ___ a mi abuela. (error típico: conoces)", "conozcas", "I want you [to meet] my grandmother. (tú)", "Conozco → conozca: «conozcas»."),
-    fe("Espero que ___ un buen hotel. (error típico: escogas)", "escojas", "I hope you [choose] a good hotel. (tú)", "-ger → -ja: «escojas»; «escogas» cambiaría el sonido."),
+    fe("Espero que ___ un buen hotel. (error típico: escogas)", "escojas", "I hope you [choose] a good hotel. (tú)", "-ger → -ja: «escojas»; «escogas» cambiaría el sonido.", ["elijas"]),
     fe("Ojalá que no ___ el vuelo. (error típico: perdas)", "pierdas", "I hope you don't [miss] the flight. (tú)", "«Perder» diptonga en tú: «pierdas»."),
     toEs("I want you to tell me everything tomorrow. (tú)", "Quiero que mañana me lo cuentes todo.", "«Contar» diptonga: «cuentes», no «contes».", ["Quiero que me lo cuentes todo mañana.", "Quiero que me cuentes todo mañana.", "Quiero que mañana me cuentes todo."]),
     toEs("I hope you know the way to the hotel. (tú)", "Espero que sepas el camino al hotel.", "«Saber» es irregular: «sepas», no «sabas».", ["Espero que sepas el camino hasta el hotel.", "Espero que sepas cómo llegar al hotel."]),

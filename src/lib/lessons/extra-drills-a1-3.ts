@@ -7,7 +7,7 @@ const { toEs, toEn, fe, wo, mc } = authoring("en");
 // Extra drills, A1 batch 3 (extra-drills.ts).
 export const DRILLS_A1_3: Record<string, Exercise[]> = {
   "a1r-word-web-house": [
-    toEs("There is a bed in the bedroom.", "Hay una cama en el dormitorio.", "Use hay for 'there is'; don't use está with an indefinite noun like una cama.", ["En el dormitorio hay una cama."]),
+    toEs("There is a bed in the bedroom.", "Hay una cama en el dormitorio.", "Use hay for 'there is'; don't use está with an indefinite noun like una cama.", ["En el dormitorio hay una cama.", "Hay una cama en el cuarto.", "Hay una cama en la habitación.", "Hay una cama en la recámara."]),
     toEs("The sofa is in the living room.", "El sofá está en la sala.", "Estar gives the location of a specific thing; es would be wrong here.", ["El sofá está en el salón."]),
     fe("Hay una cama y un armario en el ___.", "dormitorio", "There is a bed and a wardrobe in the [bedroom].", "A bed and a wardrobe belong in el dormitorio (bedroom), not el baño.", ["cuarto"]),
     toEs("The rug is under the bed.", "La alfombra está debajo de la cama.", "Debajo de + la cama; 'debajo la cama' without de is a common slip."),
@@ -416,7 +416,7 @@ export const DRILLS_A1_3: Record<string, Exercise[]> = {
     toEs("the third house", "la tercera casa", "Casa is feminine, so tercera doesn't shorten; only masculine singular gets tercer."),
     toEs("My father is a good man and a great teacher.", "Mi padre es un buen hombre y un gran profesor.", "Buen and gran before masculine singular nouns.", ["Mi papá es un buen hombre y un gran profesor.", "Mi padre es un buen hombre y un gran maestro.", "Mi papá es un buen hombre y un gran maestro."]),
     wo("Es mi primer día y es un mal día", "Primer and mal both shorten before the masculine singular día.", "It's my first day and it's a bad day"),
-    wo("Es una gran ciudad pero no es una ciudad grande", "Gran before = great; grande after = big.", "It's a great city but it's not a big city"),
+    wo("Es un gran hombre pero no es un hombre grande", "Gran before = great; grande after = big.", "He's a great man but he's not a big man"),
   ],
   "possessives-prepositions-drill-1": [
     toEs("my house", "mi casa", "Mi doesn't change for gender."),

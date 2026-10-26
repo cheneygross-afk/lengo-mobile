@@ -731,7 +731,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
     "indirect-object-pronouns-2",
     "a2r-contrast-lo-le",
     "Contrast Clinic: Lo/La vs. Le",
-    "Direct or indirect? The verb decides — and choosing wrong is one of the most common Elementary slips.",
+    "Direct or indirect? You'll learn to choose between lo/la and le/les, including tricky verbs such as esperar, buscar, preguntar and contestar.",
     "7 min",
     [
       sec(
@@ -1002,9 +1002,9 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
       fb("Fix the comparison.", "Mi coche es ___ que el tuyo. (learner wrote: más bueno)", "mejor", "For quality, bueno has the irregular comparative mejor, not más bueno."),
       ms(
         "Which sentences contain an error?",
-        ["No tengo tanto dinero como tú.", "Juan corre más rápido que Luis.", "Es la chica más inteligente en su clase.", "Este libro es peor que el otro."],
+        ["No tengo tanto dinero como tú.", "Juan corre más rápido que Luis.", "Es la chica más inteligente que su clase.", "Este libro es peor que el otro."],
         [2],
-        "In a superlative, the group is introduced by de: la chica más inteligente de su clase, so \"en su clase\" is the error. The other three are correct."
+        "A superlative names its group with de (la chica más inteligente de su clase), not with que, so \"que su clase\" is the error. The other three are correct."
       ),
       mc(
         "Which is correct?",
@@ -1134,7 +1134,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         "Past events go with past time words and future ones with future words. \"Mañana fui\" mixes tomorrow with a preterite; it should be iré or voy a ir."
       ),
       toEs("I used to live in Lima, now I live in Quito, and next year I'll live in Madrid.", "Antes vivía en Lima, ahora vivo en Quito y el año que viene viviré en Madrid.", "Antes takes the imperfect (vivía), ahora the present (vivo), and el año que viene the future (viviré).", ["Antes vivía en Lima, ahora vivo en Quito y el próximo año viviré en Madrid."]),
-      wo("Cuando tenía diez años decidí que sería médico.", "Imperfect (age) + preterite (decision). Sería = would be (you'll meet this conditional form in the Intermediate level).", "When I was ten I decided I would be a doctor."),
+      wo("Cuando tenía diez años decidí ser médico.", "Imperfect (age) + preterite (decision). Decidí + infinitive = I decided to do something.", "When I was ten I decided to be a doctor."),
     ]
   ),
   L(
@@ -1281,9 +1281,9 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
       fb("Complete with the direct object pronoun.", "¿La tarta? ___ traerá mi hermano.", "La", "La tarta → la, before the conjugated verb."),
       ms(
         "Which sentences are correct?",
-        ["Le compré un regalo a mi jefe.", "Me ducho por la mañana.", "Las vi ayer en el parque.", "Es la tienda más barata en el barrio."],
+        ["Le compré un regalo a mi jefe.", "Me ducho por la mañana.", "Las vi ayer en el parque.", "Es la tienda más barata que el barrio."],
         [0, 1, 2],
-        "In a superlative, the group takes de: la tienda más barata del barrio, so \"en el barrio\" is wrong. The other three are correct."
+        "A superlative names its group with de (la tienda más barata del barrio), not with que, so \"que el barrio\" is wrong. The other three are correct."
       ),
       mc(
         "\"I'll call her tomorrow to invite her.\"",
@@ -1787,7 +1787,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         "Each heading summarizes the day's main events in the preterite."
       ),
       toEs("We could not see the mountain because of the fog.", "No pudimos ver la montaña por la niebla.", "Poder → pudimos; por for cause.", ["No pudimos ver la montaña a causa de la niebla."]),
-      wo("¿Alguna vez estuviste en Perú?", "Alguna vez = ever; estar → estuviste.", "Have you ever been to Peru?"),
+      wo("¿Estuviste en Perú el año pasado?", "Estar in the preterite: estuviste, for a finished stay at a definite time (el año pasado).", "Were you in Peru last year?"),
     ]
   ),
   L(
@@ -1841,9 +1841,9 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
       ),
       ms(
         "Which sentences are logical?",
-        ["Antes trabajaba de noche; ahora trabajo de día.", "Antes trabajé de noche todos los días.", "Ya no vivo en Chile.", "Todavía estudio español."],
+        ["Antes trabajaba de noche; ahora trabajo de día.", "Antes vivo en Madrid; ahora vivía en Lima.", "Ya no vivo en Chile.", "Todavía estudio español."],
         [0, 2, 3],
-        "A repeated past habit (todos los días) takes the imperfect: trabajaba, not \"trabajé\". The other three are logical."
+        "Antes goes with the imperfect and ahora with the present; \"Antes vivo... ahora vivía\" swaps them. The other three are logical."
       ),
       toEs("I used to hate vegetables, but now I love them.", "Antes odiaba las verduras, pero ahora me encantan.", "Imperfect for the old feeling; present for the current one.", ["Antes odiaba las verduras pero ahora me encantan."]),
       wo("Cuando era estudiante no tenía dinero para viajar.", "Imperfect for a past stage of life and ongoing situation.", "When I was a student I didn't have money to travel."),
@@ -1962,7 +1962,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         "No había luz and el perro tenía miedo set the scene, so imperfect. Finding and lighting the candles are plot events, so preterite."
       ),
       toEs("It was dark and my little brother was scared.", "Estaba oscuro y mi hermanito tenía miedo.", "Descriptions and feelings in the background → imperfect.", ["Estaba oscuro y mi hermano pequeño tenía miedo.", "Estaba oscuro y mi hermano menor tenía miedo."]),
-      wo("Nunca olvidaré la noche en que se fue la luz.", "Future (olvidaré) + preterite (se fue) for a specific event.", "I'll never forget the night the power went out."),
+      wo("Nunca voy a olvidar la noche en que se fue la luz.", "Ir a + infinitive (voy a olvidar) for the promise, and the preterite (se fue) for the specific event.", "I'm never going to forget the night the power went out."),
     ]
   ),
   L(
@@ -2114,7 +2114,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         "Match the pronoun to what's being replaced."
       ),
       toEs("I haven't read it yet, but I'll read it today. (the email)", "Todavía no lo leí, pero lo leeré hoy.", "Lo replaces el correo in both clauses.", ["Todavía no lo he leído, pero lo leeré hoy.", "Aún no lo leí, pero lo leeré hoy.", "Todavía no lo leí, pero lo voy a leer hoy."]),
-      wo("Te agradezco la ayuda y te mando un saludo.", "Te before each conjugated verb.", "Thank you for the help, and best regards."),
+      wo("Te agradezco la ayuda y te mando un saludo.", "Te before each conjugated verb.", "I thank you for the help and send you a greeting."),
     ]
   ),
   L(
@@ -2524,8 +2524,8 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         "Para points to a goal or recipient; por points to a cause or a path."
       ),
       fb("Complete with por or para.", "Te llamo ___ teléfono esta noche.", "por", "Means of communication take por: por teléfono."),
-      fb("Complete with por or para.", "___ ser tan joven, habla muy bien.", "Para", "Para + comparison with expectations: for someone so young."),
-      fb("Complete with por or para.", "Me multaron ___ aparcar mal.", "por", "Por gives the reason: me multaron por aparcar mal."),
+      fb("Complete with por or para.", "Trabajo ___ ganar dinero.", "para", "Para + infinitive gives the goal: trabajo para ganar dinero."),
+      fb("Complete with por or para.", "Me multaron ___ el ruido.", "por", "Por gives the reason: me multaron por el ruido."),
       ms(
         "In which sentences is para correct?",
         ["Estudio para ser enfermera.", "Gracias para la invitación.", "Este regalo es para Luis.", "Viajé para toda Europa."],
@@ -2834,7 +2834,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         "\"The screen of my phone broke.\"",
         ["Se me rompió la pantalla del móvil.", "Me rompí la pantalla del móvil a mí.", "Rompió la pantalla del móvil me.", "La pantalla me rompió del móvil."],
         0,
-        "Se me rompió means it broke on me (by accident), with la pantalla as the subject. The other options put me or a mí in the wrong place or make it sound like you broke it on purpose."
+        "This is the accidental 'se' pattern (a preview; you'll study it fully at Intermediate): se me rompió = it broke on me, with la pantalla as the subject. The other options put me or a mí in the wrong place or make it sound like you broke it on purpose."
       ),
       toEs("Can you (informal) send me the photo by email?", "¿Me puedes mandar la foto por correo?", "Me (to me); por correo = by email.", ["¿Me puedes enviar la foto por correo?", "¿Puedes mandarme la foto por correo?", "¿Me mandas la foto por correo electrónico?", "¿Me puedes mandar la foto por email?", "¿Me puedes mandar la foto por correo electrónico?", "¿Me puedes enviar la foto por correo electrónico?", "¿Puedes mandarme la foto por correo electrónico?", "¿Puedes enviarme la foto por correo electrónico?", "¿Puedes enviarme la foto por correo?"]),
       toEn("No tengo cobertura aquí, te llamo luego.", "I don't have signal here, I'll call you later.", "Cobertura means cell coverage or signal; te llamo luego = I'll call you later.", ["I have no signal here, I'll call you later."]),
@@ -2997,7 +2997,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
     "a2-comprehensive-review-3",
     "a2r-challenge-big-error-hunt",
     "Elementary Challenge: The Big Error Hunt",
-    "The final Elementary challenge series begins. One error per sentence, from every corner of the Elementary level.",
+    "Spot and fix one error per sentence across every Elementary topic: tenses, irregular stems, pronouns, por/para, comparisons, personal a and double negatives.",
     "9 min",
     [
       sec(
@@ -3164,7 +3164,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
     ],
     [
       wo("Le regalé a mi madre las flores que compré en el mercado.", "Indirect object doubled (le … a mi madre) + relative clause.", "I gave my mother the flowers I bought at the market."),
-      wo("Nunca había visto tanta gente en la plaza.", "Nunca + pluperfect (you'll see this in the Intermediate level) + tanta agreeing with gente.", "I had never seen so many people in the square."),
+      wo("Nunca he visto tanta gente en la plaza.", "Nunca + present perfect (he visto) + tanta agreeing with gente.", "I have never seen so many people in the square."),
       wo("Este verano iremos a la costa para descansar un poco.", "Future + destination + para + infinitive.", "This summer we'll go to the coast to rest a bit."),
       wo("Mi abuela cocina mejor que nadie en la familia.", "Mejor que nadie = better than anyone.", "My grandmother cooks better than anyone in the family."),
       wo("¿Por qué no me dijiste que te ibas a mudar?", "Preterite dijiste + imperfect of ir a for a past plan.", "Why didn't you tell me you were going to move?"),
@@ -3371,7 +3371,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         "Marco meets Sofía, a local who helps him.",
         [
           ["Sofía me llevó a un café y me invitó a una empanada.", "Sofía took me to a café and treated me to an empanada."],
-          ["Hablamos por horas; nadie me había tratado tan bien.", "We talked for hours; nobody had treated me so well."],
+          ["Hablamos por horas; nadie me trató tan bien en todo el viaje.", "We talked for hours; nobody treated me so well on the whole trip."],
         ],
         [
           fb("Complete.", "Sofía ___ presentó a sus amigos esa noche. (me/te/le)", "me", "She introduced me → me presentó."),
@@ -3428,7 +3428,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
     [
       fb("Replace «mi bici» and «a mis primos» with pronouns.", "Presté mi bici a mis primos. → ___ la presté.", "Se", "Les (to my cousins) can't stand before la (my bike), so it becomes se: se la presté."),
       fb("Replace the object.", "¿Viste las noticias? → Sí, ___ vi.", "las", "Las noticias is feminine plural, so las."),
-      fb("Add the reflexive pronoun.", "Mis padres ___ casaron en 1990.", "se", "Casarse with ellos takes se: se casaron."),
+      fb("Add the reflexive pronoun.", "Mis padres ___ en 1990.", "se casaron", "Casarse with ellos takes se: se casaron."),
       fb("Attach the pronoun.", "Voy a comprar el vestido. → Voy a ___.", "comprarlo", "El vestido is masculine, so lo, attached to the infinitive: comprarlo."),
       ms(
         "Which are correct?",
@@ -3443,7 +3443,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         "Me (to me) comes before los (the shoes): me los compró. \"Los me\" has the wrong order, \"se los... a mí\" uses se for me, and \"les\" is not a direct object pronoun for the shoes."
       ),
       toEs("I'm going to give it to her tomorrow. (the gift)", "Se lo voy a dar mañana.", "Le + lo → se lo, before the conjugated verb or attached.", ["Voy a dárselo mañana.", "Se lo daré mañana.", "Mañana se lo voy a dar."]),
-      wo("¿Las llaves? Me las dejé en la oficina.", "Reflexive dejarse (to leave behind) + las.", "The keys? I left them at the office."),
+      wo("¿Las llaves? Las dejé en la oficina.", "Las replaces las llaves and goes before the conjugated verb; dejé is a single completed action.", "The keys? I left them at the office."),
     ]
   ),
   L(

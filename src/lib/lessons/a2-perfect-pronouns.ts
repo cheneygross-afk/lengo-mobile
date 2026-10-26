@@ -71,9 +71,9 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
     ],
     [
       fe("¿___ el correo de la jefa?", "Has leído", "[Have you read] the boss's email? (tú)", "haber (has) + leído. Leído takes an accent so the í is its own syllable."),
-      fe("Mis padres ___ a Madrid esta mañana.", "han llegado", "My parents [have arrived] in Madrid this morning.", "han + llegado."),
-      fe("Este mes ___ dos kilos.", "he perdido", "This month [I've lost] two kilos.", "he + perdido: -er verbs take -ido."),
-      fe("¿Ustedes ya ___ el museo?", "han visitado", "[Have you visited] the museum yet? (ustedes)", "han + visitado."),
+      fe("Mis padres ___ a Madrid esta mañana.", "han llegado", "My parents [have arrived] in Madrid this morning.", "han + llegado.", ["llegaron"]),
+      fe("Este mes ___ dos kilos.", "he perdido", "This month [I've lost] two kilos.", "he + perdido: -er verbs take -ido.", ["perdí"]),
+      fe("¿Ustedes ya ___ el museo?", "han visitado", "[Have you visited] the museum yet? (ustedes)", "han + visitado.", ["visitaron"]),
       toEs("Today I've eaten too much.", "Hoy he comido demasiado.", "Hoy is a time that isn't over → present perfect: he comido.", ["He comido demasiado hoy.", "Hoy comí demasiado."]),
       toEs("Have you slept well?", "¿Has dormido bien?", "has + dormido; nothing between them.", ["¿Ha dormido bien?", "¿Dormiste bien?"]),
       toEs("This week we've worked a lot.", "Esta semana hemos trabajado mucho.", "esta semana → present perfect.", ["Hemos trabajado mucho esta semana.", "Esta semana trabajamos mucho."]),
@@ -172,7 +172,7 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
           ["Ya he terminado.", "I've already finished."],
           ["Todavía no he comido.", "I haven't eaten yet."],
           ["¿Ya has pagado? —No, aún no.", "Have you paid already? — No, not yet."],
-          ["Han apagado las luces y han salido.", "They've turned off the lights and gone out."],
+          ["Ya han apagado las luces.", "They've already turned off the lights."],
         ],
         [
           fe("___ he hecho la compra.", "Ya", "I've [already] done the shopping.", "ya = already."),
@@ -185,7 +185,7 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
           ["¿Alguna vez has estado en México?", "Have you ever been to Mexico?"],
           ["Nunca he probado el pulpo.", "I've never tried octopus."],
           ["He estado en Perú dos veces.", "I've been to Peru twice."],
-          ["¿Has disfrutado del viaje?", "Have you enjoyed the trip?"],
+          ["¿Has probado alguna vez el pulpo?", "Have you ever tried octopus?"],
         ],
         [
           mc(
@@ -294,7 +294,7 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
       ),
     ],
     [
-      fe("¿Ya ___ los billetes?", "has comprado", "[Have you bought] the tickets yet? (tú)", "has + comprado."),
+      fe("¿Ya ___ los billetes?", "has comprado", "[Have you bought] the tickets yet? (tú)", "has + comprado.", ["compraste"]),
       fe("Nosotros nunca ___ un accidente.", "hemos tenido", "We [have] never [had] an accident.", "hemos + tenido.", ["tuvimos"]),
       fe("¿Quién ha ___ la puerta?", "abierto", "Who has [opened] the door?", "abrir → abierto."),
       fe("El año pasado ___ a Japón.", "viajé", "Last year I [traveled] to Japan.", "A finished time → preterite."),
@@ -321,7 +321,7 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
         "Radio and TV in Spain report today's events in the present perfect.",
         [
           ["La policía ha detenido a dos sospechosos del robo del banco.", "Police have arrested two suspects in the bank robbery."],
-          ["Un testigo ha visto a los ladrones huir en un coche negro.", "A witness saw the thieves flee in a black car."],
+          ["Un testigo ha visto a los ladrones huir en un coche negro.", "A witness has seen the thieves flee in a black car."],
           ["Según el juez, los dos hombres son inocentes hasta el juicio.", "According to the judge, the two men are innocent until the trial."],
           ["La víctima, un cajero del banco, no ha sufrido heridas graves.", "The victim, a bank teller, hasn't suffered serious injuries."],
         ],
@@ -592,7 +592,7 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
       ),
     ],
     [
-      fe("Abrimos todos los días ___ el domingo.", "excepto", "We're open every day [except] Sunday.", "excepto = except. Menos works too.", ["menos"]),
+      fe("Abrimos todos los días ___ el domingo.", "excepto", "We're open every day [except] Sunday.", "excepto = except. Menos and salvo work too.", ["menos", "salvo"]),
       fe("___ duermo cinco horas.", "Apenas", "I [barely] sleep five hours.", "apenas = hardly, barely."),
       fe("¿Puedes ___ la hora de la reunión?", "averiguar", "Can you [find out] the time of the meeting?", "averiguar = to find out."),
       fe("Esta bici ___ a mi hermano.", "pertenece", "This bike [belongs] to my brother.", "pertenecer a = to belong to."),

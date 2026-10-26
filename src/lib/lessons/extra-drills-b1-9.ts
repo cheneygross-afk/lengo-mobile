@@ -175,7 +175,7 @@ export const DRILLS_B1_9: Record<string, Exercise[]> = {
   "b1d-rep-perfecto-pluscuam-cuento": [
     fe("Hoy ___ mi primer día en la empresa.", "ha sido", "Today [has been] my first day at the company.", "«Hoy» es un tiempo no terminado: pretérito perfecto."),
     fe("Cuando llegamos a la estación, el tren ya ___.", "había salido", "When we got to the station, the train [had] already [left].", "Acción anterior a otra pasada: pluscuamperfecto."),
-    toEs("This week we have painted the whole flat.", "Esta semana hemos pintado todo el piso.", "«Esta semana» no ha terminado: pretérito perfecto.", ["Esta semana hemos pintado el piso entero.", "Esta semana hemos pintado todo el apartamento.", "Esta semana hemos pintado todo el departamento."]),
+    toEs("This week we have painted the whole flat.", "Esta semana hemos pintado todo el piso.", "«Esta semana» no ha terminado: pretérito perfecto.", ["Esta semana pintamos todo el piso.", "Esta semana hemos pintado el piso entero.", "Esta semana hemos pintado todo el apartamento.", "Esta semana hemos pintado todo el departamento."]),
     toEs("Yesterday the plane landed at midnight.", "Ayer el avión aterrizó a medianoche.", "«Ayer» es tiempo terminado: indefinido, no «ha aterrizado».", ["El avión aterrizó ayer a medianoche."]),
     toEs("When I woke up, my brother had already made breakfast.", "Cuando me desperté, mi hermano ya había hecho el desayuno.", "El desayuno se hizo antes de despertarme: pluscuamperfecto.", ["Cuando me desperté, mi hermano ya había preparado el desayuno."]),
     mc("«Esta mañana ___ al dentista.» (uso de España)", ["he ido", "había ido", "iba", "iré"], 0, "«Esta mañana» es parte de hoy: pretérito perfecto en España."),
@@ -347,7 +347,7 @@ export const DRILLS_B1_9: Record<string, Exercise[]> = {
     toEs("It bothers me that your dog barks when you're not at home. (tú)", "Me molesta que tu perro ladre cuando no estás en casa.", "Queja con «me molesta que» → subjuntivo (ladre); «cuando no estás» es un hecho habitual → indicativo."),
     mc("¿Qué frase es una petición educada?", ["¿Podrías bajar el volumen, por favor?", "Baja el volumen ya.", "Tienes que bajar el volumen.", "Quiero que bajas el volumen."], 0, "El condicional y «por favor» suavizan la petición; la última además tiene un error de modo."),
     toEs("Could you not park in front of the garage? (usted)", "¿Podría no aparcar delante del garaje?", "«Podría» + infinitivo es una petición cortés con usted.", ["¿Podría no estacionar delante del garaje?", "¿Podría no aparcar enfrente del garaje?", "¿Podría no estacionar enfrente del garaje?", "¿Podría no aparcar frente al garaje?", "¿Podría no estacionar frente al garaje?"]),
-    fe("¿Te importaría no ___ la lavadora después de las diez?", "poner", "Would you mind not [running] the washing machine after ten?", "«¿Te importaría…?» + infinitivo cuando el sujeto es el mismo."),
+    fe("¿Te importaría no ___ la lavadora después de las diez?", "poner", "Would you mind not [running] the washing machine after ten?", "«¿Te importaría…?» + infinitivo cuando el sujeto es el mismo.", ["usar", "encender"]),
     toEs("Sorry to bother you so early, but there's water on my ceiling. (usted)", "Perdone que le moleste tan temprano, pero hay agua en mi techo.", "«Perdone que» + subjuntivo: moleste.", ["Disculpe que le moleste tan temprano, pero hay agua en mi techo.", "Perdone que lo moleste tan temprano, pero hay agua en mi techo.", "Perdone que la moleste tan temprano, pero hay agua en mi techo.", "Perdone que le moleste tan pronto, pero hay agua en mi techo."]),
     wo("No se puede tender la ropa en el balcón", "Norma impersonal con «se» + infinitivo: verbo en singular.", "You can't hang the washing on the balcony"),
     toEs("It's necessary that everyone closes the lift door.", "Es necesario que todos cierren la puerta del ascensor.", "«Es necesario que» + subjuntivo: cierren (e → ie).", ["Es necesario que todo el mundo cierre la puerta del ascensor."]),
@@ -396,7 +396,7 @@ export const DRILLS_B1_9: Record<string, Exercise[]> = {
   "b1d-preguntas-de-quien-es": [
     fe("—¿Es tuyo este cuaderno? —Sí, es ___.", "mío", "—Is this notebook yours? —Yes, it's [mine].", "Tras «ser», forma larga sin artículo, masculino por «cuaderno»."),
     fe("—¿Son de ustedes estas bicicletas? —Sí, son ___.", "nuestras", "—Are these bicycles yours (ustedes)? —Yes, they're [ours].", "Concuerda con «bicicletas» (femenino plural)."),
-    toEs("—Whose is this sweater? —It's mine.", "—¿De quién es este jersey? —Es mío.", "«¿De quién es?» se responde con la forma larga sin artículo.", ["—¿De quién es este suéter? —Es mío.", "—¿De quién es este jersey? —Es el mío.", "—¿De quién es este suéter? —Es el mío."]),
+    toEs("—Whose is this sweater? —It's mine.", "—¿De quién es este jersey? —Es mío.", "«¿De quién es?» se responde con la forma larga sin artículo.", ["—¿De quién es este suéter? —Es mío."]),
     toEs("—Are these coins yours? (tú) —No, they aren't mine.", "—¿Son tuyas estas monedas? —No, no son mías.", "Monedas es femenino plural: tuyas, mías.", ["—¿Estas monedas son tuyas? —No, no son mías."]),
     fe("—¿Cuáles son los asientos de ustedes? —___ son los de la ventana.", "Los nuestros", "—Which are your seats (ustedes)? —[Ours] are the window ones.", "Como sujeto y eligiendo entre varios: artículo + posesivo, en masculino plural por «asientos»."),
     mc("—¿Es de Marta este bolso? —Sí, es ___.", ["suyo", "suya", "su", "sus"], 0, "Concuerda con «bolso» (masculino), no con Marta."),
@@ -492,7 +492,7 @@ export const DRILLS_B1_9: Record<string, Exercise[]> = {
     toEs("—How much did the dress cost? —It probably cost about two hundred euros. (use the conditional)", "—¿Cuánto costó el vestido? —Costaría unos doscientos euros.", "Cantidad aproximada en el pasado: condicional.", ["—¿Cuánto costó el vestido? —Valdría unos doscientos euros.", "—¿Cuánto costó el vestido? —Costaría alrededor de doscientos euros."]),
     wo("Se quedaría dormido y por eso no vino", "Condicional para suponer la causa de algo pasado.", "He probably fell asleep and that's why he didn't come"),
     toEs("They probably didn't want to bother us so late. (use the conditional)", "No querrían molestarnos tan tarde.", "Condicional irregular de querer: querrían.", ["No nos querrían molestar tan tarde."]),
-    toEs("—Why was the street wet? —It had probably rained during the night. (use the conditional)", "—¿Por qué estaba mojada la calle? —Habría llovido por la noche.", "Suposición sobre algo anterior a otro pasado: condicional compuesto.", ["—¿Por qué estaba mojada la calle? —Habría llovido durante la noche.", "—¿Por qué estaba la calle mojada? —Habría llovido por la noche."]),
+    toEs("—Why was the street wet? —It probably rained during the night. (use the conditional)", "—¿Por qué estaba mojada la calle? —Llovería por la noche.", "Suposición sobre el pasado: condicional simple (llovería).", ["—¿Por qué estaba mojada la calle? —Llovería durante la noche.", "—¿Por qué estaba la calle mojada? —Llovería por la noche."]),
   ],
 
   "vosotros-commands-1": [

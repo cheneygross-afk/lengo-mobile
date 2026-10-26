@@ -418,7 +418,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "verano",
           "pasado"
         ],
-        "explanation": "The sentence follows subject–verb–object–time word order.",
+        "explanation": "The sentence follows subject, verb, destination, time word order: nosotros, viajamos, a México, el verano pasado.",
         "translation": "We traveled to Mexico last summer."
       },
       {
@@ -2326,7 +2326,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "hacer fila",
-            "en": "to wait in line"
+            "en": "to wait in line (Latin America; in Spain: hacer cola)"
           },
           {
             "es": "la caja",
@@ -4771,7 +4771,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "personal-a",
     "level": "A2",
     "number": 23,
-    "title": "La \"a\" Personal",
+    "title": "The Personal \"a\"",
     "summary": "Learn when to put the personal a before a direct object that is a specific person (or a named pet).",
     "duration": "10 min",
     "sections": [
@@ -5088,7 +5088,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "negation-words-1",
     "level": "A2",
     "number": 24,
-    "title": "Palabras Negativas y la Doble Negación, Part 1 of 2",
+    "title": "Negative Words and the Double Negative, Part 1 of 2",
     "summary": "Master nunca, nadie, nada and ninguno, and the double negative Spanish requires (no + verb + negative word).",
     "duration": "7 min",
     "sections": [
@@ -5206,12 +5206,13 @@ const A2_BASE_LESSONS: Lesson[] = [
         "type": "translate",
         "direction": "en-es",
         "prompt": "Translate this sentence to Spanish.",
-        "source": "I don't want dessert, and I don't want coffee either.",
-        "answer": "No quiero postre, y tampoco quiero café.",
+        "source": "I don't want anything, and I don't know anybody here.",
+        "answer": "No quiero nada y no conozco a nadie aquí.",
         "altAnswers": [
-          "No quiero postre y no quiero café tampoco."
+          "No quiero nada, y no conozco a nadie aquí.",
+          "No quiero nada y no conozco a nadie."
         ],
-        "explanation": "Tampoco is the negative counterpart of también: use it to add a second, related negative (not...either)."
+        "explanation": "With the negative word after the verb, Spanish keeps no before the verb: no quiero nada, no conozco a nadie (with the personal a)."
       }
     ]
   },
@@ -5219,7 +5220,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "negation-words-2",
     "level": "A2",
     "number": 25,
-    "title": "Palabras Negativas y la Doble Negación, Part 2 of 2",
+    "title": "Negative Words and the Double Negative, Part 2 of 2",
     "summary": "Practice tampoco and ni...ni, and learn the affirmative/negative word pairs (siempre/nunca, algo/nada, alguien/nadie).",
     "duration": "6 min",
     "sections": [
@@ -5422,7 +5423,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "mente-adverbs-1",
     "level": "A2",
     "number": 26,
-    "title": "Adverbios en -mente, Part 1 of 2",
+    "title": "Adverbs in -mente, Part 1 of 2",
     "summary": "Form adverbs of manner from adjectives with -mente and learn how written accents carry over.",
     "duration": "6 min",
     "sections": [
@@ -5553,7 +5554,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "mente-adverbs-2",
     "level": "A2",
     "number": 27,
-    "title": "Adverbios en -mente, Part 2 of 2",
+    "title": "Adverbs in -mente, Part 2 of 2",
     "summary": "Learn to join two -mente adverbs (clara y lentamente) and practice the most common -mente adverbs.",
     "duration": "5 min",
     "sections": [
@@ -5768,7 +5769,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "asking-giving-directions-1",
     "level": "A2",
     "number": 28,
-    "title": "Cómo Pedir y Dar Indicaciones, Part 1 of 2",
+    "title": "How to Ask for and Give Directions, Part 1 of 2",
     "summary": "Learn to ask for directions politely and give them with formal usted commands (siga, gire, cruce, tome).",
     "duration": "5 min",
     "sections": [
@@ -5912,7 +5913,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "asking-giving-directions-2",
     "level": "A2",
     "number": 29,
-    "title": "Cómo Pedir y Dar Indicaciones, Part 2 of 2",
+    "title": "How to Ask for and Give Directions, Part 2 of 2",
     "summary": "Say where places are with al lado de, enfrente de, detrás de, entre and a dos cuadras de, and use landmarks like la esquina and el semáforo.",
     "duration": "6 min",
     "sections": [
@@ -6265,19 +6266,19 @@ const A2_BASE_LESSONS: Lesson[] = [
             "right": "The check, please."
           },
           {
-            "left": "Soy alérgico a los mariscos.",
-            "right": "I'm allergic to shellfish."
+            "left": "Tengo una reserva a nombre de Ana.",
+            "right": "I have a reservation under the name of Ana."
           },
           {
-            "left": "¿Está incluida la propina?",
-            "right": "Is the tip included?"
+            "left": "¿Nos puede traer la carta, por favor?",
+            "right": "Could you bring us the menu, please?"
           },
           {
-            "left": "¿Podemos dividir la cuenta?",
-            "right": "Can we split the check?"
+            "left": "Yo quisiera el pescado a la plancha.",
+            "right": "I would like the grilled fish."
           }
         ],
-        "explanation": "These are essential phrases for paying and for explaining dietary restrictions in a restaurant."
+        "explanation": "These are the key phrases from this lesson for arriving at a restaurant and ordering."
       }
     ]
   },
@@ -8003,7 +8004,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 41,
     "title": "Direct and Indirect Object Pronouns: Extra Practice, Part 1 of 3",
-    "summary": "Extra practice choosing and placing direct and indirect object pronouns (lo, la, le, les, se lo) before, after and attached to verbs.",
+    "summary": "Practise choosing lo/la/los/las or le/les and placing the pronoun right before a conjugated verb.",
     "duration": "7 min",
     "sections": [
       {
@@ -8155,7 +8156,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 42,
     "title": "Direct and Indirect Object Pronouns: Extra Practice, Part 2 of 3",
-    "summary": "Extra practice choosing and placing direct and indirect object pronouns (lo, la, le, les, se lo) before, after and attached to verbs.",
+    "summary": "Practise attaching object pronouns to infinitives, gerunds and affirmative commands (llamarte, estoy leyéndolo, ¡cómpralo!).",
     "duration": "7 min",
     "sections": [
       {
@@ -8215,7 +8216,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "type": "translate",
             "direction": "en-es",
             "prompt": "Translate to Spanish.",
-            "source": "Call her! (a tu hermana)",
+            "source": "Call her! (tú; your sister)",
             "answer": "¡Llámala!",
             "explanation": "In affirmative commands, the pronoun attaches to the end and the verb takes a written accent: llámala."
           }
@@ -8243,7 +8244,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "abuela"
         ],
         "explanation": "Le changes to se before la, and the indirect pronoun comes before the direct one: se la explico.",
-        "translation": "I explain it to my grandmother."
+        "translation": "I explain it to my grandmother. (the lesson)"
       },
       {
         "type": "word-order",
@@ -8310,7 +8311,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 43,
     "title": "Direct and Indirect Object Pronouns: Extra Practice, Part 3 of 3",
-    "summary": "Extra practice choosing and placing direct and indirect object pronouns (lo, la, le, les, se lo) before, after and attached to verbs.",
+    "summary": "Practise combining indirect + direct pronouns (me lo, te la) and changing le/les to se (se lo, se las), clarified with a + person.",
     "duration": "8 min",
     "sections": [
       {
@@ -8460,7 +8461,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "primos"
         ],
         "explanation": "Les changes to se before los, and the indirect pronoun comes before the direct one: se los regalé.",
-        "translation": "I gave them to my cousins."
+        "translation": "I gave them to my cousins. (the gifts)"
       }
     ]
   },
@@ -8469,7 +8470,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 44,
     "title": "Reflexive Verbs and Daily Routine: Extra Practice, Part 1 of 3",
-    "summary": "Extra practice with reflexive pronouns, their placement with infinitives and gerunds, reflexive verbs in the preterite, and reciprocal nos/se.",
+    "summary": "Practise choosing the right reflexive pronoun (me, te, se, nos, os) and placing it before a conjugated verb or on an infinitive or gerund.",
     "duration": "8 min",
     "sections": [
       {
@@ -8662,7 +8663,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 45,
     "title": "Reflexive Verbs and Daily Routine: Extra Practice, Part 2 of 3",
-    "summary": "Extra practice with reflexive pronouns, their placement with infinitives and gerunds, reflexive verbs in the preterite, and reciprocal nos/se.",
+    "summary": "Practise daily-routine reflexive verbs (despertarse, vestirse, acostarse) in the present and the preterite.",
     "duration": "7 min",
     "sections": [
       {
@@ -8841,7 +8842,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 46,
     "title": "Reflexive Verbs and Daily Routine: Extra Practice, Part 3 of 3",
-    "summary": "Extra practice with reflexive pronouns, their placement with infinitives and gerunds, reflexive verbs in the preterite, and reciprocal nos/se.",
+    "summary": "Practise verbs that change meaning with se (ir/irse, dormir/dormirse, poner/ponerse) and reciprocal nos/se for \"each other\".",
     "duration": "7 min",
     "sections": [
       {
@@ -9019,7 +9020,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 47,
     "title": "Comparisons and Superlatives: Extra Practice, Part 1 of 3",
-    "summary": "Extra practice with más/menos… que, tan/tanto… como, mejor/peor/mayor/menor, el más… de and -ísimo.",
+    "summary": "Practise comparing with más/menos… que, tan… como and tanto… como, and the irregular mejor, peor, mayor and menor.",
     "duration": "6 min",
     "sections": [
       {
@@ -9144,7 +9145,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 48,
     "title": "Comparisons and Superlatives: Extra Practice, Part 2 of 3",
-    "summary": "Extra practice with más/menos… que, tan/tanto… como, mejor/peor/mayor/menor, el más… de and -ísimo.",
+    "summary": "Practise tan/tanto… como, the irregular mejor/peor/mayor/menor and the superlative el/la más… de.",
     "duration": "9 min",
     "sections": [
       {
@@ -9309,7 +9310,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 49,
     "title": "Comparisons and Superlatives: Extra Practice, Part 3 of 3",
-    "summary": "Extra practice with más/menos… que, tan/tanto… como, mejor/peor/mayor/menor, el más… de and -ísimo.",
+    "summary": "Practise the absolute superlative in -ísimo and choosing the right comparison or superlative for each sentence.",
     "duration": "7 min",
     "sections": [
       {
@@ -9468,7 +9469,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 50,
     "title": "The Future: Extra Practice, Part 1 of 3",
-    "summary": "Extra practice with ir a + infinitive and the simple future, including the irregular stems (tendr-, saldr-, har-, dir-…) and the future of probability.",
+    "summary": "Practise ir a + infinitive and the regular simple future, with a first look at irregular stems such as podr-, tendr- and har-.",
     "duration": "7 min",
     "sections": [
       {
@@ -9610,7 +9611,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 51,
     "title": "The Future: Extra Practice, Part 2 of 3",
-    "summary": "Extra practice with ir a + infinitive and the simple future, including the irregular stems (tendr-, saldr-, har-, dir-…) and the future of probability.",
+    "summary": "Practise the irregular future stems (podr-, sabr-, querr-, habr-, tendr-, pondr-, saldr-, vendr-, dir-, har-).",
     "duration": "8 min",
     "sections": [
       {
@@ -9744,10 +9745,10 @@ const A2_BASE_LESSONS: Lesson[] = [
         "type": "translate",
         "direction": "en-es",
         "prompt": "Translate to Spanish.",
-        "source": "I will call you (tú) as soon as I arrive.",
-        "answer": "Te llamaré en cuanto llegue.",
-        "altAnswers": ["Te llamaré tan pronto como llegue.", "Te llamaré apenas llegue."],
-        "explanation": "Llamaré is the simple future of llamar. After en cuanto with a future meaning, Spanish uses the subjunctive (llegue); learn en cuanto llegue as a chunk for now."
+        "source": "I will call you (tú) tomorrow at six.",
+        "answer": "Te llamaré mañana a las seis.",
+        "altAnswers": ["Te llamaré mañana a las 6.", "Mañana a las seis te llamaré."],
+        "explanation": "Llamaré is the simple future of llamar: the -é ending is added to the whole infinitive, and te goes before the verb."
       },
       {
         "type": "word-order",
@@ -9795,7 +9796,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 52,
     "title": "The Future: Extra Practice, Part 3 of 3",
-    "summary": "Extra practice with ir a + infinitive and the simple future, including the irregular stems (tendr-, saldr-, har-, dir-…) and the future of probability.",
+    "summary": "Practise the future of probability and predictions, and choosing between ir a + infinitive and the simple future.",
     "duration": "7 min",
     "sections": [
       {
@@ -9959,7 +9960,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 53,
     "title": "Por vs. Para: Extra Practice, Part 1 of 3",
-    "summary": "Extra practice with por (duration, cause, price, route, means) and para (deadline, destination, purpose, recipient).",
+    "summary": "Practise por for duration, cause and price/exchange (por tres años, por la lluvia, por diez euros).",
     "duration": "9 min",
     "sections": [
       {
@@ -10130,7 +10131,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 54,
     "title": "Por vs. Para: Extra Practice, Part 2 of 3",
-    "summary": "Extra practice with por (duration, cause, price, route, means) and para (deadline, destination, purpose, recipient).",
+    "summary": "Practise por for routes and means (por el parque, por teléfono) and para for deadlines, destinations and recipients.",
     "duration": "8 min",
     "sections": [
       {
@@ -10308,7 +10309,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 55,
     "title": "Por vs. Para: Extra Practice, Part 3 of 3",
-    "summary": "Extra practice with por (duration, cause, price, route, means) and para (deadline, destination, purpose, recipient).",
+    "summary": "Practise para for destination, purpose and recipient, plus fixed expressions such as por fin, por favor and para nada.",
     "duration": "7 min",
     "sections": [
       {
@@ -10397,6 +10398,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Translate to English.",
         "source": "Fuimos al mercado por pan.",
         "answer": "We went to the market for bread.",
+        "altAnswers": ["We went to the market to get bread.", "We went to the market to buy bread."],
         "explanation": "Ir por algo means to go and get something; por gives the reason for the trip."
       },
       {
@@ -10444,7 +10446,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 56,
     "title": "Personal A, Negation and -mente Adverbs: Extra Practice, Part 1 of 3",
-    "summary": "Extra practice with the personal a, negative words and double negation, and -mente adverbs.",
+    "summary": "Practise when to use the personal a (specific people) and when to leave it out (tener, non-specific people).",
     "duration": "8 min",
     "sections": [
       {
@@ -10480,7 +10482,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "Necesito a dinero para el viaje."
             ],
             "correctIndex": 1,
-            "explanation": "Mi médico is a specific person, so llamo a mi médico. \"El gato\" (usually no a with an animal here), \"un libro\" and \"dinero\" are not people, and \"a el\" would have to contract anyway."
+            "explanation": "Mi médico is a specific person, so llamo a mi médico. \"Veo a el gato\" fails because a + el must contract to al (the personal a is used with a pet or named animal), while \"un libro\" and \"dinero\" are not people."
           }
         ]
       },
@@ -10621,7 +10623,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 57,
     "title": "Personal A, Negation and -mente Adverbs: Extra Practice, Part 2 of 3",
-    "summary": "Extra practice with the personal a, negative words and double negation, and -mente adverbs.",
+    "summary": "Practise negative words and double negation (no… nada/nadie/nunca/ningún) and the first -mente adverbs.",
     "duration": "7 min",
     "sections": [
       {
@@ -10767,7 +10769,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 58,
     "title": "Personal A, Negation and -mente Adverbs: Extra Practice, Part 3 of 3",
-    "summary": "Extra practice with the personal a, negative words and double negation, and -mente adverbs.",
+    "summary": "Practise negative words before the verb (nadie, nunca), forming -mente adverbs, and dropping -mente on the first of two adverbs joined by y.",
     "duration": "9 min",
     "sections": [
       {
@@ -10848,7 +10850,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Two -mente adverbs joined by y",
         "body": [
-          "When two -mente adverbs are joined by y, only the second one keeps the -mente ending."
+          "When two -mente adverbs are joined by y, usually only the second one keeps the -mente ending (repeating it on both is heavy but not wrong)."
         ],
         "examples": [
           {
@@ -11644,7 +11646,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "¿Qué palabra significa \"the umbrella\"?",
+        "question": "Which word means \"the umbrella\"?",
         "options": [
           "la sombra",
           "el paraguas",
@@ -13182,7 +13184,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "right": "vine"
           }
         ],
-        "explanation": "These five irregular preterite stems come up constantly in storytelling."
+        "explanation": "These yo forms have irregular stems (tuv-, hic-, dij-, estuv-, vin-) and no accent: tuve, hice, dije, estuve, vine."
       }
     ]
   },
@@ -13509,7 +13511,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Cuando el presentador dice su nombre, Valentina camina hacia el escenario muy despacio. Mira al público y ve a Camila en la primera fila, sonriendo y levantando el pulgar. Eso le da un poco de confianza.",
           "La música empieza, y Valentina abre la boca para cantar. Al principio, su voz tiembla un poco, pero luego se relaja y canta con todo su corazón. El público escucha en silencio y algunos empiezan a sonreír.",
           "Cuando termina la canción, todo el auditorio aplaude fuerte. Algunas personas se levantan de sus sillas. Valentina no puede creer lo que está pasando. Baja del escenario con una sonrisa enorme en la cara.",
-          "Después del show, Camila corre a abrazarla. \"¡Estuviste increíble!\", dice. Valentina responde: \"No habría podido hacerlo sin ti.\" Esa noche, Valentina decide que quiere cantar en más shows en el futuro, y ya no tiene tanto miedo del escenario."
+          "Después del show, Camila corre a abrazarla. \"¡Estuviste increíble!\", dice. Valentina responde: \"Gracias a ti pude hacerlo.\" Esa noche, Valentina decide que quiere cantar en más shows en el futuro, y ya no tiene tanto miedo del escenario."
         ]
       }
     ],
@@ -13753,7 +13755,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Leo se entera del problema de Emma por mensaje de texto. Sin pensarlo mucho, decide invitar a Emma a cocinar en su casa. \"Vamos a mi casa a cocinar los dos\", dice Leo.",
           "Emma y Leo pasan la tarde en la cocina de Leo. Preparan el pastel de chocolate y las galletas de limón juntos, ayudándose el uno al otro. Se ríen mucho y también prueban un poco de la masa antes de hornear todo.",
           "El día de la competencia, Emma y Leo llegan con sus dos postres. Muchos estudiantes compran el pastel y las galletas, y todos dicen que están deliciosos. Al final del día, el director anuncia que las galletas de Leo ganan el primer premio.",
-          "Emma se alegra por su amigo, sin ningún problema. \"Gracias por ayudarme. Sin ti, no habría podido terminar mi pastel\", dice Emma. Leo responde: \"Y tú me ayudaste mucho con la masa de las galletas.\" Los dos deciden que el próximo año van a competir juntos, como un solo equipo."
+          "Emma se alegra por su amigo, sin ningún problema. \"Gracias por ayudarme. Con tu ayuda pude terminar mi pastel\", dice Emma. Leo responde: \"Y tú me ayudaste mucho con la masa de las galletas.\" Los dos deciden que el próximo año van a competir juntos, como un solo equipo."
         ]
       }
     ],
@@ -13886,7 +13888,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "options": [
           "Bea said something mean at school",
           "Bea didn't come over or reply to her invitation message",
-          "Bea canceled plans out loud",
+          "Bea told her she was busy",
           "Bea moved to a new house"
         ],
         "correctIndex": 1,
@@ -13935,7 +13937,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "El día del cumpleaños, el papá lleva a su esposa a comer a un restaurante especial, mientras Dani y Paula preparan la casa con la ayuda de sus abuelos. Cuelgan globos de colores, ponen una mesa larga y hacen un cartel grande que dice \"¡Feliz cumpleaños, mamá!\"",
           "Paula intenta hacer un pastel de vainilla, pero se le olvida poner un ingrediente importante y el pastel no sube bien en el horno. Dani la ayuda a arreglarlo con un poco de crema y frutas encima, y el pastel se ve bonito de todas formas.",
           "A las siete de la tarde, todos los invitados llegan a la casa y se esconden detrás del sofá. Cuando el papá y la mamá entran por la puerta, todos gritan \"¡Sorpresa!\" al mismo tiempo. La mamá se lleva las manos a la cara, sorprendida y emocionada.",
-          "\"No puedo creer que hayan hecho todo esto\", dice la mamá con lágrimas de felicidad. Abraza a Dani y a Paula muy fuerte. Todos cantan la canción de cumpleaños y comen el pastel, que sabe mejor de lo que parece.",
+          "\"No puedo creer todo lo que hicieron\", dice la mamá con lágrimas de felicidad. Abraza a Dani y a Paula muy fuerte. Todos cantan la canción de cumpleaños y comen el pastel, que sabe mejor de lo que parece.",
           "Después de la fiesta, la mamá les da las gracias a sus hijos por el esfuerzo y el cariño. \"Este es el mejor cumpleaños que he tenido en años\", dice. Dani y Paula deciden que van a organizar una fiesta sorpresa cada año a partir de ahora."
         ]
       }
@@ -14173,14 +14175,14 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Lectura",
         "body": [
-          "La escuela de Alicia prepara una obra de teatro sobre un reino mágico. Alicia consigue el papel principal: una princesa valiente que salva su reino. Al principio, está muy emocionada, pero después empieza a sentir miedo de olvidar sus líneas.",
+          "La escuela de Alicia prepara una obra de teatro sobre un reino mágico. Alicia consigue el papel principal: una princesa valiente que salva su reino. Al principio, está muy emocionada, pero después empieza a sentir miedo de olvidar su texto.",
           "Los ensayos empiezan tres semanas antes de la función. Cada tarde, los estudiantes practican en el auditorio de la escuela. Alicia lee su guion muchas veces en casa, pero cuando está en el escenario, se pone nerviosa y olvida las palabras.",
           "Durante un ensayo importante, Alicia olvida completamente una parte larga de su diálogo. Se queda parada en silencio frente a sus compañeros, sin saber qué decir. Algunos estudiantes se ríen un poco, y Alicia siente ganas de llorar.",
           "El profesor de teatro, el señor Cabrera, para el ensayo y habla con Alicia en privado. \"A todos nos pasa esto al principio\", le dice con calma. \"Vamos a practicar tu parte más despacio, paso a paso.\" Alicia respira profundo y decide seguir intentándolo.",
-          "Su amigo Diego, que también actúa en la obra, le ofrece ayuda. Todas las tardes después de los ensayos, los dos practican las líneas de Alicia en el patio de la escuela. Diego actúa como los otros personajes para ayudarla a recordar cuándo debe hablar.",
-          "Poco a poco, Alicia mejora mucho. Empieza a recordar sus líneas sin mirar el guion y se mueve por el escenario con más confianza. El señor Cabrera nota el cambio y le dice: \"Estás lista para la función.\"",
+          "Su amigo Diego, que también actúa en la obra, le ofrece ayuda. Todas las tardes después de los ensayos, los dos practican el texto de Alicia en el patio de la escuela. Diego actúa como los otros personajes para ayudarla a recordar cuándo debe hablar.",
+          "Poco a poco, Alicia mejora mucho. Empieza a recordar su texto sin mirar el guion y se mueve por el escenario con más confianza. El señor Cabrera nota el cambio y le dice: \"Estás lista para la función.\"",
           "La noche de la función, el auditorio está lleno de padres y estudiantes. Alicia espera detrás del telón con el corazón acelerado, pero también recuerda las palabras de Diego: \"Tú puedes hacerlo, solo respira.\" Cuando sale al escenario, se siente más tranquila de lo que esperaba.",
-          "Alicia actúa toda la obra sin olvidar ni una sola línea. Al final, el público aplaude fuerte y ella hace una reverencia con una sonrisa enorme. Después de la función, abraza a Diego. \"Gracias por ayudarme tanto\", dice Alicia, feliz y orgullosa de sí misma."
+          "Alicia actúa toda la obra sin olvidar ni una sola frase. Al final, el público aplaude fuerte y ella hace una reverencia con una sonrisa enorme. Después de la función, abraza a Diego. \"Gracias por ayudarme tanto\", dice Alicia, feliz y orgullosa de sí misma."
         ]
       }
     ],
@@ -14219,7 +14221,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Nobody, she practices alone"
         ],
         "correctIndex": 1,
-        "explanation": "\"los dos practican las líneas de Alicia en el patio de la escuela\" — Diego and Alicia practice her lines together in the school yard."
+        "explanation": "\"los dos practican el texto de Alicia en el patio de la escuela\" — Diego and Alicia practice her lines together in the school yard."
       }
     ]
   },
@@ -15077,7 +15079,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "En la cena de Navidad, la abuela de Paula preparó un plato nuevo con camarones. Paula nunca había comido camarones, así que quería probarlos.",
           "Después de comer unos camarones, Paula sintió que la boca le picaba un poco. Unos minutos después, le salieron manchas rojas en el cuello y los brazos. Le costaba respirar bien.",
           "Su papá vio las manchas y se asustó mucho. \"Vamos al hospital ahora mismo\", dijo, y todos salieron rápido de la casa. En el carro, Paula tenía miedo porque nunca se había sentido así.",
-          "En el hospital, un doctor le dio una medicina rápidamente para bajar la reacción. Poco a poco, la picazón desapareció y Paula pudo respirar mejor. El doctor le explicó que era alérgica a los mariscos.",
+          "En el hospital, un doctor le dio una medicina rápidamente para controlar la reacción. Poco a poco, la picazón desapareció y Paula pudo respirar mejor. El doctor le explicó que era alérgica a los mariscos.",
           "\"Debes evitar los camarones y otros mariscos para siempre\", le dijo el doctor. También le dio una tarjeta con información sobre su alergia, para llevarla siempre. Sus papás escucharon todo con mucha atención.",
           "De vuelta en casa, la abuela se sintió muy mal por lo que pasó. \"No lo sabíamos\", le dijo a Paula, y la abrazó fuerte. Paula le dijo que no era culpa de nadie.",
           "Desde ese día, la familia siempre le pregunta al mesero en los restaurantes si la comida tiene mariscos. Paula aprendió a leer las etiquetas de los alimentos con cuidado. Su mamá guarda la tarjeta del doctor en su bolso siempre.",
@@ -15587,7 +15589,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "body": [
           "Una familia nueva se mudó a la casa de al lado el mes pasado. Emilia los veía desde su ventana, pero era demasiado tímida para saludarlos. Tenían una hija más o menos de su edad.",
           "Un día, mientras Emilia jugaba sola en el jardín, escuchó una voz al otro lado de la cerca. \"Hola, me llamo Zoe. ¿Quieres jugar?\" Emilia se puso nerviosa, pero le respondió que sí.",
-          "Zoe le contó que su familia se mudó desde otra ciudad por el trabajo de su papá. Extrañaba a sus amigos antiguos y no conocía a nadie en el barrio todavía. Emilia le dijo que ella podía ser su nueva amiga.",
+          "Zoe le contó que su familia se mudó desde otra ciudad por el trabajo de su papá. Extrañaba a sus amigos de antes y no conocía a nadie en el barrio todavía. Emilia le dijo que ella podía ser su nueva amiga.",
           "Las dos niñas empezaron a jugar juntas casi todos los días después de la escuela. Emilia le enseñó a Zoe los mejores lugares del parque cercano. Zoe le enseñó a Emilia un juego nuevo con cartas.",
           "Un fin de semana, la mamá de Zoe invitó a Emilia y a su familia a cenar. Comieron comida diferente a la que Emilia conocía, con especias que Emilia nunca había probado.",
           "Durante la cena, las dos familias hablaron y se rieron mucho. Los papás de Emilia y de Zoe descubrieron que trabajaban cerca uno del otro. Todos se sintieron muy cómodos, como si se conocieran desde hacía tiempo.",
@@ -16384,7 +16386,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Emilio tenía once años y vivía en un pueblo pequeño. Su prima Valentina vivía en la ciudad, a dos horas en tren. Ese fin de semana, Emilio iba a viajar solo en tren por primera vez para visitarla.",
           "Su mamá lo llevó a la estación de tren muy temprano. —Tienes que bajar en la tercera parada, la estación central —le explicó—. Valentina te va a esperar allí con un cartel con tu nombre.",
           "Emilio subió al tren con su mochila y se sentó junto a la ventana. Durante el viaje, miraba el paisaje: montañas, ríos y pueblos pequeños. Estaba emocionado, pero también contaba las paradas con cuidado.",
-          "Después de dos horas, el tren llegó a una estación grande con mucha gente. Emilio pensó que era la estación central, así que bajó del tren rápidamente. Pero cuando miró el letrero, vio que no era la parada correcta.",
+          "Después de una hora y media, el tren llegó a una estación grande con mucha gente. Emilio pensó que era la estación central, así que bajó del tren rápidamente. Pero cuando miró el letrero, vio que no era la parada correcta.",
           "Emilio sintió pánico por un momento. No sabía qué hacer. Entonces recordó las palabras de su mamá: —Si tienes un problema, busca a un empleado del tren con uniforme.",
           "Emilio encontró a una empleada y le explicó su problema. La mujer fue muy amable y lo ayudó a subir al próximo tren hacia la estación central. Ella le dijo: —No te preocupes, esto les pasa a muchas personas.",
           "Veinte minutos después, Emilio por fin llegó a la estación central. Vio a Valentina con un cartel grande que decía su nombre. Se abrazaron y Emilio le contó toda la aventura, riéndose de su error."

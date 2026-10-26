@@ -242,7 +242,7 @@ export const DRILLS_A1_1: Record<string, Exercise[]> = {
     toEs("Does your girlfriend swim? Yes, she swims every day.", "¿Tu novia nada? Sí, nada todos los días.", "Third person in both: nada.", ["¿Nada tu novia? Sí, nada todos los días.", "¿Su novia nada? Sí, nada todos los días.", "¿Nada su novia? Sí, nada todos los días."]),
     wo("¿Ustedes entrenan juntos los domingos?", "Ustedes takes entrenan; time phrases often go at the end.", "Do you all train together on Sundays?"),
     toEs("Do you (informal) sing? No, but I play the guitar.", "¿Cantas? No, pero toco la guitarra.", "Cantas (tú) in the question; toco (yo) in the answer. 'Play' an instrument is tocar."),
-    toEs("Do you all (Latin America) travel a lot? No, we never travel.", "¿Ustedes viajan mucho? No, nunca viajamos.", "Ustedes question → nosotros answer: viajamos. Nunca goes before the verb.", ["¿Viajan ustedes mucho? No, nunca viajamos.", "¿Ustedes viajan mucho? No, no viajamos nunca.", "¿Viajan ustedes mucho? No, no viajamos nunca."]),
+    toEs("Do you all (Latin America) travel a lot? No, we never travel.", "¿Ustedes viajan mucho? No, nunca viajamos.", "Ustedes question → nosotros answer: viajamos. Nunca can go before the verb (nunca viajamos) or after it with no (no viajamos nunca).", ["¿Viajan ustedes mucho? No, nunca viajamos.", "¿Ustedes viajan mucho? No, no viajamos nunca.", "¿Viajan ustedes mucho? No, no viajamos nunca."]),
   ],
   "vocabulary-practice-1": [
     toEs("the neighbor (woman)", "la vecina", "Vecino → vecina for a woman, with la."),
