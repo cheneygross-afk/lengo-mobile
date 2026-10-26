@@ -44,9 +44,11 @@ import PortugueseLevelsScreen from "@/screens/PortugueseLevelsScreen";
 import PortuguesePlacementTestScreen from "@/screens/PortuguesePlacementTestScreen";
 import PortugueseConjugationScreen from "@/screens/PortugueseConjugationScreen";
 import PortugueseGlossaryScreen from "@/screens/PortugueseGlossaryScreen";
+import KoreanLevelsScreen from "@/screens/KoreanLevelsScreen";
 import WritingScreen from "@/screens/WritingScreen";
 import StudyToolsScreen from "@/screens/StudyToolsScreen";
 import { withPlan } from "@/components/withPlan";
+import { withKoreanBeta } from "@/components/withKoreanBeta";
 import PlanLock from "@/components/PlanLock";
 import { courseOfLevelPath } from "@/lib/courses";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
@@ -70,6 +72,17 @@ function UnitTestPaid(props: NativeStackScreenProps<AppStackParamList, "UnitTest
   if (!planCovers(lessonsCourses, course)) return <PlanLock course={course} />;
   return <UnitTestScreen {...props} />;
 }
+
+// The Korean beta (withKoreanBeta.tsx): its own screen, and the shared ones
+// when opened with Korean params, are "not found" for every account but the
+// beta's. Other params pass straight through, so no other course changes.
+const KoreanLevels = withKoreanBeta(KoreanLevelsScreen, true);
+const LessonList = withKoreanBeta(LessonListScreen);
+const LessonRunner = withKoreanBeta(LessonRunnerScreen);
+const UnitTest = withKoreanBeta(UnitTestPaid);
+const ReviewList = withKoreanBeta(ReviewListScreen);
+const ReviewDrill = withKoreanBeta(ReviewDrillScreen);
+const Flashcards = withKoreanBeta(FlashcardsScreen);
 
 const AuthStack = createNativeStackNavigator<AuthStackParamList>();
 const AppStack = createNativeStackNavigator<AppStackParamList>();
@@ -100,7 +113,8 @@ function AppNavigator() {
       <AppStack.Screen name="FrenchLevels" component={FrenchLevelsScreen} options={{ title: "French" }} />
       <AppStack.Screen name="GermanLevels" component={GermanLevelsScreen} options={{ title: "German" }} />
       <AppStack.Screen name="PortugueseLevels" component={PortugueseLevelsScreen} options={{ title: "Portuguese" }} />
-      <AppStack.Screen name="LessonList" component={LessonListScreen} options={{ title: "Lessons" }} />
+      <AppStack.Screen name="KoreanLevels" component={KoreanLevels} options={{ title: "Korean" }} />
+      <AppStack.Screen name="LessonList" component={LessonList} options={{ title: "Lessons" }} />
       <AppStack.Screen name="JapaneseLevels" component={JapaneseLevelsScreen} options={{ title: "Japanese" }} />
       <AppStack.Screen name="ChineseLevels" component={ChineseLevelsScreen} options={{ title: "Chinese" }} />
       <AppStack.Screen name="ChineseReview" component={ChineseReviewScreen} options={{ title: "Today's review" }} />
@@ -109,14 +123,14 @@ function AppNavigator() {
       <AppStack.Screen name="Onboarding" component={OnboardingScreen} options={{ title: "Welcome" }} />
       <AppStack.Screen
         name="LessonRunner"
-        component={LessonRunnerScreen}
+        component={LessonRunner}
         options={{ title: "" }}
       />
-      <AppStack.Screen name="Review" component={ReviewListScreen} options={{ title: "Review" }} />
-      <AppStack.Screen name="ReviewDrill" component={ReviewDrillScreen} options={{ title: "Review" }} />
+      <AppStack.Screen name="Review" component={ReviewList} options={{ title: "Review" }} />
+      <AppStack.Screen name="ReviewDrill" component={ReviewDrill} options={{ title: "Review" }} />
       <AppStack.Screen name="TodayReview" component={TodayReviewScreen} options={{ title: "Today's review" }} />
-      <AppStack.Screen name="UnitTest" component={UnitTestPaid} options={{ title: "Test out" }} />
-      <AppStack.Screen name="Flashcards" component={FlashcardsScreen} options={{ title: "Flashcards" }} />
+      <AppStack.Screen name="UnitTest" component={UnitTest} options={{ title: "Test out" }} />
+      <AppStack.Screen name="Flashcards" component={Flashcards} options={{ title: "Flashcards" }} />
       <AppStack.Screen name="FrequencyDecks" component={FrequencyDecksScreen} options={{ title: "Frequency decks" }} />
       <AppStack.Screen name="Exams" component={ExamsScreen} options={{ title: "Exam practice" }} />
       <AppStack.Screen

@@ -10,16 +10,24 @@ import { courseOfLevelPath } from "@/lib/courses";
 import { FRENCH_LEVEL_PATHS } from "@/lib/lessons/french";
 import { GERMAN_LEVEL_PATHS } from "@/lib/lessons/german";
 import { PORTUGUESE_LEVEL_PATHS } from "@/lib/lessons/portuguese";
+import { KOREAN_PATH_LEVELS } from "@/lib/lessons/korean";
 import { loadLazyLevel } from "@/lib/lessons/lazyLevels";
 
 type Saved = { lesson: Lesson; levelPath: string };
 
 /** A course's saved lessons, with the levelPath each was saved under. */
 async function loadSaved(lang: string): Promise<Saved[]> {
-  if (lang === "fr" || lang === "de" || lang === "pt") {
-    // French, German and Portuguese slugs can repeat a Spanish one, so each
+  if (lang === "fr" || lang === "de" || lang === "pt" || lang === "ko") {
+    // French, German, Portuguese and Korean slugs can repeat a Spanish one, so each
     // is looked up in its own level (loaded only when something there was saved).
-    const levelPaths: string[] = lang === "fr" ? FRENCH_LEVEL_PATHS : lang === "de" ? GERMAN_LEVEL_PATHS : PORTUGUESE_LEVEL_PATHS;
+    const levelPaths: string[] =
+      lang === "fr"
+        ? FRENCH_LEVEL_PATHS
+        : lang === "de"
+          ? GERMAN_LEVEL_PATHS
+          : lang === "pt"
+            ? PORTUGUESE_LEVEL_PATHS
+            : KOREAN_PATH_LEVELS.map((l) => l.levelPath);
     const lists = await Promise.all(levelPaths.map((lp) => getReviewSlugs(lp)));
     const out: Saved[] = [];
     for (const [i, levelPath] of levelPaths.entries()) {
@@ -98,7 +106,7 @@ export default function ReviewListScreen({ navigation, route }: Props) {
               onPress={() =>
                 navigation.navigate(
                   "LessonRunner",
-                  lang === "fr" || lang === "de" || lang === "pt" ? { slug: item.lesson.slug, levelPath: item.levelPath } : { slug: item.lesson.slug }
+                  lang === "fr" || lang === "de" || lang === "pt" || lang === "ko" ? { slug: item.lesson.slug, levelPath: item.levelPath } : { slug: item.lesson.slug }
                 )
               }
             >

@@ -23,7 +23,8 @@ import { isSpanishText, spanishVoicer } from "@/lib/spanishVoice";
 type Mode = "target" | "english" | "mixed";
 
 // Explicit ranges rather than \p{L}, which Hermes doesn't reliably support.
-const WORD = /[A-Za-z0-9\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u024F\u3040-\u30FF\u3400-\u9FFF\uFF66-\uFF9F'’-]+/g;
+// Hangul (syllables and jamo) is a word character too, for the Korean beta.
+const WORD = /[A-Za-z0-9\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u024F\u3040-\u30FF\u3400-\u9FFF\uFF66-\uFF9F\u1100-\u11FF\u3130-\u318F\uA960-\uA97F\uAC00-\uD7FF'’-]+/g;
 const SPANISH_LETTERS = /[áéíóúüñ¿¡]/i;
 const SPANISH_INFINITIVE = /^[a-záéíóúñ]{2,}(ar|ir|arse|irse|erse)$/i;
 const ENGLISH_AR_IR = new Set([
@@ -55,11 +56,20 @@ const GERMAN_LETTERS = /[äöüß]/i;
 // Portuguese too, and the course's English never writes them).
 const PORTUGUESE_LETTERS = /[ãõâêôàçáéíóú]/i;
 
+// Hangul (syllables and jamo): in the Korean beta any of it is Korean.
+const HANGUL = /[\u1100-\u11FF\u3130-\u318F\uA960-\uA97F\uAC00-\uD7FF]/;
+
+// Old Hangul (conjoining jamo, archaic letters such as ㆍ): the voice
+// can't say it, so such a word is shown but never voiced. Same rule as
+// the website's TapText.
+export const OLD_HANGUL = /[\u1100-\u11FF\uA960-\uA97F\uD7B0-\uD7FF\u3165-\u318E]/;
+
 /** Whether a word in mixed text is (probably) in the target language. */
 function looksTargetWord(word: string, lang: SpeechLang): boolean {
   if (lang === "fr-FR") return FRENCH_LETTERS.test(word);
   if (lang === "de-DE") return GERMAN_LETTERS.test(word);
   if (lang === "pt-BR") return PORTUGUESE_LETTERS.test(word);
+  if (lang === "ko-KR") return HANGUL.test(word);
   return looksSpanishWord(word);
 }
 
@@ -116,8 +126,9 @@ function pieces(text: string, lang: SpeechLang, mode: Mode, boldBrackets: boolea
       wordLang =
         inSpan || (LATIN_SCRIPT_TARGETS.includes(lang) && looksTargetWord(word, lang)) ? lang : ENGLISH_LANG;
     }
-    // Only the language being learned is voiced.
-    push(word, mode !== "english" && wordLang === lang ? wordLang : null, start);
+    // Only the language being learned is voiced, and never Old Hangul.
+    const voiced = mode !== "english" && wordLang === lang && !(lang === "ko-KR" && OLD_HANGUL.test(word));
+    push(word, voiced ? wordLang : null, start);
     pos = start + word.length;
   }
   if (pos < plain.length) push(plain.slice(pos), null, pos);
@@ -146,6 +157,8 @@ export function voiceFor(text: string, lang: SpeechLang): SpeechLang {
 /** Whether a short string (an answer option, a matching card) is in the
  * language being learned, so tapping it should play it. */
 export function isTargetText(text: string, lang: SpeechLang): boolean {
+  // Old Hangul is shown but never voiced (see OLD_HANGUL).
+  if (lang === "ko-KR" && OLD_HANGUL.test(text)) return false;
   return voiceFor(text, lang) === lang;
 }
 

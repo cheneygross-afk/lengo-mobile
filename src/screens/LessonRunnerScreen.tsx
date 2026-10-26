@@ -306,12 +306,16 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [lesson?.slug, loggedIn, levelPath]);
 
-  // A French, German or Portuguese lesson's highlights are its levelPath's; a
+  // A French, German, Portuguese or Korean lesson's highlights are its levelPath's; a
   // Spanish one never shows one of theirs that happens to share its slug.
   async function loadHighlights(lessonSlug: string): Promise<LessonHighlight[]> {
     if (lazyPath) return loadLessonHighlights(lessonSlug, levelPath);
     return (await loadLessonHighlights(lessonSlug)).filter(
-      (h) => !h.levelPath.startsWith("fr/") && !h.levelPath.startsWith("de/") && !h.levelPath.startsWith("pt/")
+      (h) =>
+        !h.levelPath.startsWith("fr/") &&
+        !h.levelPath.startsWith("de/") &&
+        !h.levelPath.startsWith("pt/") &&
+        !h.levelPath.startsWith("ko/")
     );
   }
 

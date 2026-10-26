@@ -6,6 +6,7 @@ import type { ExamCourse } from "@/components/exams/examCourse";
 import type { GermanLevelKey } from "@/lib/lessons/german";
 import type { GermanStoryLevel } from "@/lib/stories/de";
 import type { PortugueseLevelKey } from "@/lib/lessons/portuguese";
+import type { KoreanLevelKey } from "@/lib/lessons/korean";
 import type { PortugueseStoryLevel } from "@/lib/stories/pt";
 
 type FrenchStoryLevelPath = FrenchStoryLevel["path"];
@@ -13,8 +14,10 @@ type GermanStoryLevelPath = GermanStoryLevel["path"];
 type PortugueseStoryLevelPath = PortugueseStoryLevel["path"];
 
 // The course a shared screen (review, flashcards, study tools) is showing.
-// "pt" is the Brazilian Portuguese course, open to every account.
-export type CourseLang = "es" | "ja" | "zh" | "fr" | "de" | "pt";
+// "pt" is the Brazilian Portuguese course, open to every account; "ko" the
+// Korean beta, for the beta account only (RootNavigator's withKoreanBeta
+// turns everyone else away).
+export type CourseLang = "es" | "ja" | "zh" | "fr" | "de" | "pt" | "ko";
 // The courses with stories, Today's review and Study Tools of their own.
 export type ToolsLang = "es" | "fr" | "de" | "pt";
 
@@ -34,13 +37,23 @@ export type AppStackParamList = {
   // The Brazilian Portuguese course's level picker (A1-C2) -- see
   // PortugueseLevelsScreen. Open to every account, like German.
   PortugueseLevels: undefined;
+  // The Korean beta's level picker (Hangul, Beginner ... Mastery, and the
+  // Culture bonus) -- see KoreanLevelsScreen. Only the beta account
+  // (lib/koreanBeta.ts).
+  KoreanLevels: undefined;
   // A Spanish/Japanese/Chinese module by moduleKey, a French level by
   // frenchLevel or a German level by germanLevel (French and German lessons
   // load on demand, see lessons/french.ts and lessons/german.ts).
   LessonList:
-    | { moduleKey?: LessonModuleKey; frenchLevel?: FrenchLevelKey; germanLevel?: GermanLevelKey; portugueseLevel?: PortugueseLevelKey }
+    | {
+        moduleKey?: LessonModuleKey;
+        frenchLevel?: FrenchLevelKey;
+        germanLevel?: GermanLevelKey;
+        portugueseLevel?: PortugueseLevelKey;
+        koreanLevel?: KoreanLevelKey;
+      }
     | undefined;
-  // levelPath is passed for French and German lessons ("fr/a1", "de/a1" ...):
+  // levelPath is passed for French, German, Portuguese and Korean lessons ("fr/a1", "de/a1", "ko/hangul" ...):
   // their slugs can repeat a Spanish lesson's, and their level is loaded on demand.
   LessonRunner: { slug: string; levelPath?: string };
   // lang defaults to "es" when omitted, so every existing "Review"

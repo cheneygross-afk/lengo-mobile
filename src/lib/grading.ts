@@ -22,7 +22,10 @@ export type GradeResult = { correct: boolean; note?: string };
 // and ae/oe/ue or a missing umlaut as a slip with a note.
 // "pt" (Brazilian Portuguese) gets the plain rules: a missing accent or
 // tilde is a slip with a note.
-export type AnswerLanguage = "es" | "en" | "zh" | "fr" | "de" | "pt" | "other";
+// "ko" (Korean) is compared in Hangul ignoring spaces and punctuation: a
+// spacing difference is right with a note showing the model spacing, and
+// anything else (a different particle, ending or letter) is wrong.
+export type AnswerLanguage = "es" | "en" | "zh" | "fr" | "de" | "pt" | "ko" | "other";
 
 /** Share of a lesson's questions that must be right the first time for the lesson to count as complete. */
 export const LESSON_PASS_PERCENT = 70;
@@ -329,6 +332,40 @@ function variantsOf(answer: string, typedClean: string, opts: GradeOptions): str
   return [...out];
 }
 
+// ---- Korean ----------------------------------------------------------
+
+// Hangul syllables and jamo, Latin letters (PC방, KTX) and digits: what a
+// Korean answer is compared on. Everything else (punctuation, quotes,
+// ~ and ·) is ignored.
+const KOREAN_KEEP = /[^\u1100-\u11FF\u3130-\u318F\uA960-\uA97F\uAC00-\uD7FFA-Za-z0-9\s]/g;
+
+/** A Korean answer ready to compare: NFC (some keyboards send decomposed
+ * jamo, which NFC joins back into syllables), lowercase Latin letters, no
+ * punctuation, single spaces. */
+export function cleanKorean(s: string): string {
+  return s.normalize("NFC").toLowerCase().replace(KOREAN_KEEP, " ").replace(/\s+/g, " ").trim();
+}
+
+/**
+ * Korean typed answers. Spacing (띄어쓰기) isn't what a lesson tests, so
+ * an answer that's right but for its spaces counts, with a note showing
+ * the model spacing ("Spacing: 학교에 가요."). There's no typo tolerance:
+ * one jamo is often a different particle or ending (에 / 의, 가요 / 가오),
+ * so anything else is wrong.
+ */
+function gradeKoreanAnswer(value: string, answers: string[]): GradeResult {
+  const typed = cleanKorean(value);
+  if (!typed) return { correct: false };
+  const dense = typed.replace(/ /g, "");
+  let spacing: string | undefined;
+  for (const answer of answers) {
+    const model = cleanKorean(answer);
+    if (typed === model) return { correct: true };
+    if (spacing === undefined && dense === model.replace(/ /g, "")) spacing = answer.normalize("NFC").trim();
+  }
+  return spacing !== undefined ? { correct: true, note: `Spacing: ${spacing}` } : { correct: false };
+}
+
 /**
  * Grades a typed answer against the accepted answers. Right (ignoring
  * case, punctuation and spacing) is correct; right but for a missing or
@@ -339,6 +376,7 @@ function variantsOf(answer: string, typedClean: string, opts: GradeOptions): str
  */
 export function gradeFreeText(value: string, answers: string[], opts: GradeOptions): GradeResult {
   if (opts.lang === "zh") return gradeChineseAnswer(value, answers);
+  if (opts.lang === "ko") return gradeKoreanAnswer(value, answers);
   const prep = (s: string) =>
     opts.lang === "en"
       ? contractEnglish(cleanAnswer(s))
@@ -360,12 +398,13 @@ export function gradeFreeText(value: string, answers: string[], opts: GradeOptio
   return best.rank > 0 ? { correct: true, note: best.note } : { correct: false };
 }
 
-/** "es-ES" -> "es", "zh-CN" -> "zh", "fr-FR" -> "fr", "de-DE" -> "de", anything else (Japanese) -> "other". */
+/** "es-ES" -> "es", "zh-CN" -> "zh", "fr-FR" -> "fr", "de-DE" -> "de", "pt-BR" -> "pt", "ko-KR" -> "ko", anything else (Japanese) -> "other". */
 export function answerLanguageFor(speechLang: string): AnswerLanguage {
   if (speechLang.startsWith("zh")) return "zh";
   if (speechLang.startsWith("fr")) return "fr";
   if (speechLang.startsWith("de")) return "de";
   if (speechLang.startsWith("pt")) return "pt";
+  if (speechLang.startsWith("ko")) return "ko";
   return speechLang.startsWith("es") ? "es" : "other";
 }
 
