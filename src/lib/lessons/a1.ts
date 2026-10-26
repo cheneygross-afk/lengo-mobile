@@ -8276,16 +8276,6 @@ const A1_BASE_LESSONS: Lesson[] = [
           "la",
           "espalda."
         ],
-        "altOrders": [
-          [
-            "A",
-            "mí",
-            "me",
-            "duele",
-            "la",
-            "espalda."
-          ]
-        ],
         "translation": "My back hurts.",
         "explanation": "\"Me\" is who feels the pain, and la espalda is singular → duele. (\"A mí me duele…\" adds emphasis.)"
       }
