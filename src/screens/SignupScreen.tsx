@@ -15,12 +15,18 @@ import { supabase } from "@/lib/supabase/client";
 
 type Props = NativeStackScreenProps<AuthStackParamList, "Signup">;
 
+// The website sends the one-time welcome email (its
+// src/lib/welcomeEmail.ts); it accepts this session's access token as a
+// bearer token, same as /api/translate.
+const WELCOME_EMAIL_API_URL = "https://deependspanish.com/api/auth/welcome-email";
+
 // Same Supabase project/account as the web app and LoginScreen --
 // supabase.auth.signUp creates the user and (depending on the project's
 // email-confirmation setting) either signs them straight in or leaves
 // them to confirm via email first, in which case we tell them to check
 // their inbox and drop them back on Login.
 export default function SignupScreen({ navigation }: Props) {
+  const [firstName, setFirstName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
@@ -39,11 +45,24 @@ export default function SignupScreen({ navigation }: Props) {
       return;
     }
     setSubmitting(true);
-    const { data, error } = await supabase.auth.signUp({ email, password });
+    // first_name is optional; it personalizes the welcome email.
+    const { data, error } = await supabase.auth.signUp({
+      email,
+      password,
+      options: firstName.trim() ? { data: { first_name: firstName.trim() } } : undefined,
+    });
     setSubmitting(false);
     if (error) {
       setError(error.message);
       return;
+    }
+    // Fire-and-forget: never hold up signup on it. Without a session
+    // (email confirmation on) the website's hourly run sends it instead.
+    if (data.session) {
+      fetch(WELCOME_EMAIL_API_URL, {
+        method: "POST",
+        headers: { Authorization: `Bearer ${data.session.access_token}` },
+      }).catch(() => {});
     }
     // If email confirmation is required, signUp succeeds but returns no
     // session -- AuthProvider won't see a session change, so tell the
@@ -81,6 +100,16 @@ export default function SignupScreen({ navigation }: Props) {
         </View>
 
         <View style={styles.form}>
+          <TextInput
+            style={styles.input}
+            placeholder="First name (optional)"
+            placeholderTextColor="#2A151355"
+            autoCapitalize="words"
+            autoComplete="given-name"
+            maxLength={40}
+            value={firstName}
+            onChangeText={setFirstName}
+          />
           <TextInput
             style={styles.input}
             placeholder="you@example.com"
