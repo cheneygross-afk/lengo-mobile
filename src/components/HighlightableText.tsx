@@ -13,7 +13,7 @@ import {
 } from "react-native";
 import type { LessonHighlight } from "@/lib/highlights";
 import { speak, type SpeechLang } from "@/lib/speech";
-import { targetWordTest } from "@/components/TapText";
+import { OLD_HANGUL, targetWordTest } from "@/components/TapText";
 
 // Mobile has no equivalent of the web app's window.getSelection() (see
 // src/components/lessons/HighlightableText.tsx there), so this builds
@@ -131,12 +131,14 @@ export default function HighlightableText({
 
   const tokens = useMemo(() => tokenize(text), [text]);
   const words = useMemo(() => tokens.filter((t) => t.isWord), [tokens]);
-  // Which words tap-to-hear plays: only the language being learned.
+  // Which words tap-to-hear plays: only the language being learned, and
+  // never a word with old Hangul (see TapText's OLD_HANGUL).
   const voiced = useMemo(() => {
     if (!lang) return () => false;
-    if (!mixed) return () => true;
+    const sayable = (t: Token) => !(lang === "ko-KR" && OLD_HANGUL.test(t.value));
+    if (!mixed) return sayable;
     const isTarget = targetWordTest(text, lang);
-    return (t: Token) => isTarget(t.start, t.end);
+    return (t: Token) => sayable(t) && isTarget(t.start, t.end);
   }, [text, lang, mixed]);
 
   function measureOrigin(cb?: () => void) {

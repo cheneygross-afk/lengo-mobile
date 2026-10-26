@@ -23,6 +23,10 @@ export type ExamItem = {
   /** Which recording (task.audio index) or text (task.texts index) the
    * item belongs to, when a task has several. */
   source?: number;
+  /** The item's weight when items aren't all worth the same (TOPIK I:
+   * 2, 3 or 4 points); default 1. The paper's points are the weighted
+   * share of what was answered right. */
+  points?: number;
 };
 
 /** One line of a recording. Dialogue lines alternate voices so a
@@ -91,6 +95,9 @@ export type ExamTask = {
   layout?: "choice" | "select";
   write?: ExamWriteOption[];
   speak?: ExamSpeakTask;
+  /** The task's weight in a writing or speaking paper when tasks aren't
+   * all worth the same (TOPIK II writing: 10, 10, 30, 50); default 1. */
+  points?: number;
 };
 
 export type ExamPaperKind = "reading" | "listening" | "writing" | "speaking";

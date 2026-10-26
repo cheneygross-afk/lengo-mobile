@@ -48,7 +48,8 @@ import KoreanLevelsScreen from "@/screens/KoreanLevelsScreen";
 import WritingScreen from "@/screens/WritingScreen";
 import StudyToolsScreen from "@/screens/StudyToolsScreen";
 import { withPlan } from "@/components/withPlan";
-import { withKoreanBeta } from "@/components/withKoreanBeta";
+import { paramsAreKorean, withKoreanBeta } from "@/components/withKoreanBeta";
+import { isKoreanStorySlug } from "@/lib/stories/korean";
 import PlanLock from "@/components/PlanLock";
 import { courseOfLevelPath } from "@/lib/courses";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
@@ -83,6 +84,13 @@ const UnitTest = withKoreanBeta(UnitTestPaid);
 const ReviewList = withKoreanBeta(ReviewListScreen);
 const ReviewDrill = withKoreanBeta(ReviewDrillScreen);
 const Flashcards = withKoreanBeta(FlashcardsScreen);
+const ReadingLevels = withKoreanBeta(ReadingLevelsScreen);
+const ReadingsList = withKoreanBeta(ReadingsListScreen);
+// A Korean story is Korean by its "ko/..." levelPath or its "ko-" slug.
+const StoryReader = withKoreanBeta(
+  StoryReaderScreen,
+  (params) => paramsAreKorean(params) || isKoreanStorySlug((params as { slug?: string } | undefined)?.slug ?? "")
+);
 
 const AuthStack = createNativeStackNavigator<AuthStackParamList>();
 const AppStack = createNativeStackNavigator<AppStackParamList>();
@@ -148,10 +156,10 @@ function AppNavigator() {
         })}
       />
       <AppStack.Screen name="ExamPaper" component={ExamPaperScreen} options={{ title: "" }} />
-      <AppStack.Screen name="ReadingLevels" component={ReadingLevelsScreen} options={{ title: "Readings" }} />
+      <AppStack.Screen name="ReadingLevels" component={ReadingLevels} options={{ title: "Readings" }} />
       <AppStack.Screen
         name="ReadingsList"
-        component={ReadingsListScreen}
+        component={ReadingsList}
         options={({ route }) => ({
           title: route.params?.frenchLevel
             ? `${route.params.frenchLevel.toUpperCase()} Stories`
@@ -162,7 +170,7 @@ function AppNavigator() {
                 : `${getReadingLevel(route.params?.levelPath ?? "a1").code} Readings`,
         })}
       />
-      <AppStack.Screen name="StoryReader" component={StoryReaderScreen} options={{ title: "" }} />
+      <AppStack.Screen name="StoryReader" component={StoryReader} options={{ title: "" }} />
       <AppStack.Screen name="Writing" component={WritingScreen} options={{ title: "Writing" }} />
       <AppStack.Screen name="StudyTools" component={StudyToolsScreen} options={{ title: "Study tools" }} />
       <AppStack.Screen name="Grammar" component={GrammarListScreen} options={{ title: "Grammar" }} />

@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Copies lesson, story, reading, grammar-guide, placement-test, conjugation, glossary, deck, exam and French-, German- and Portuguese-tools content from the website repo
+// Copies lesson, story, reading, grammar-guide, placement-test, conjugation, glossary, deck, exam Korean-stories and French-, German- and Portuguese-tools content from the website repo
 // (cheneygross-afk/lengo) into this app, so the two can't drift apart.
 // The website is the single source of truth for course content: edit a
 // lesson there, then run this script (or let the website's "Sync content
@@ -80,6 +80,10 @@ const DIRS = {
     "lessons.ts", // static import of the full lesson list for the website's server pages
   ],
   "src/lib/pt-tools/data": [],
+  // The Korean course's stories (with their glosses), shown in the app
+  // behind the owner-only Korean beta gate.
+  "src/lib/stories/ko": [],
+  "src/lib/stories/ko/batches": [],
 };
 
 // Directories whose .json files sync too. JSON can't carry the "Synced

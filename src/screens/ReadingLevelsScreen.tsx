@@ -13,7 +13,7 @@ type Props = NativeStackScreenProps<AppStackParamList, "ReadingLevels">;
 // card layout as SpanishLevelsScreen.
 export default function ReadingLevelsScreen(props: Props) {
   const lang = props.route.params?.lang;
-  return lang === "fr" || lang === "de" || lang === "pt" ? (
+  return lang === "fr" || lang === "de" || lang === "pt" || lang === "ko" ? (
     <CourseStoryLevels {...props} course={lang} key={lang} />
   ) : (
     <SpanishReadingLevels {...props} />
@@ -48,9 +48,11 @@ function SpanishReadingLevels({ navigation }: Props) {
   );
 }
 
-// The French or German course's or the Portuguese course's stories
-// (lib/stories/courseStories.ts), level by level, as on the website's
-// /lessons/fr/stories, /lessons/de/stories and /lessons/pt/stories: graded
+// The French or German course's, the Portuguese course's or the Korean
+// beta's stories (lib/stories/courseStories.ts), level by level, as on the
+// website's /lessons/fr/stories, /lessons/de/stories, /lessons/pt/stories
+// and /lessons/ko/stories (Korean levels by name only: Beginner ...
+// Mastery; gated to the beta account in RootNavigator): graded
 // original stories with audio and glosses (no whole-text translation: tap
 // any word for its meaning). No book picks for these courses.
 function CourseStoryLevels({ navigation, course }: Props & { course: StoryCourse }) {
@@ -82,6 +84,8 @@ function CourseStoryLevels({ navigation, course }: Props & { course: StoryCourse
       <Text style={styles.subtitle}>
         {course === "pt"
           ? "Original Brazilian Portuguese stories for every level, with audio and comprehension questions. Tap any word for its meaning."
+          : course === "ko"
+          ? "Original Korean stories for every level, from Beginner to Mastery, with audio and comprehension questions. Tap any word for its meaning."
           : `Original ${config.name} stories for every level, with audio, an English translation and comprehension questions.`}
       </Text>
       <View style={styles.cards}>
@@ -92,13 +96,19 @@ function CourseStoryLevels({ navigation, course }: Props & { course: StoryCourse
             onPress={() =>
               navigation.navigate(
                 "ReadingsList",
-                course === "fr" ? { frenchLevel: lvl.path } : course === "pt" ? { portugueseLevel: lvl.path } : { germanLevel: lvl.path }
+                course === "fr"
+                  ? { frenchLevel: lvl.path }
+                  : course === "pt"
+                  ? { portugueseLevel: lvl.path }
+                  : course === "ko"
+                  ? { koreanLevel: lvl.path }
+                  : { germanLevel: lvl.path }
               )
             }
           >
             <View style={styles.cardTop}>
               <Text style={styles.cardCode}>{lvl.label}</Text>
-              <Text style={styles.cardName}>{lvl.name}</Text>
+              {config.namedLevels ? null : <Text style={styles.cardName}>{lvl.name}</Text>}
             </View>
             <Text style={styles.cardMeta}>{lvl.stories.length} stories</Text>
           </Pressable>

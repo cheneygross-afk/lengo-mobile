@@ -564,7 +564,8 @@ export function speechChunks(paragraph: string): string[] {
       chunks.push(rest.slice(0, at).trim());
       rest = rest.slice(at).trim();
     }
-    if (/[A-Za-zÁÉÍÓÚÜÑáéíóúüñÄÖäöß\u3040-\u30ff\u4e00-\u9fff]/.test(rest)) chunks.push(rest);
+    // Hangul too, for the Korean beta's stories.
+    if (/[A-Za-zÁÉÍÓÚÜÑáéíóúüñÄÖäöß\u3040-\u30ff\u4e00-\u9fff\u3130-\u318f\uac00-\ud7af]/.test(rest)) chunks.push(rest);
   }
   return chunks;
 }
