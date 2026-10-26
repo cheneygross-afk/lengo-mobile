@@ -1,5 +1,7 @@
-import { useLayoutEffect, useState } from "react";
-import { View, Text, Pressable, StyleSheet, ScrollView } from "react-native";
+import { useEffect, useLayoutEffect, useState } from "react";
+import { View, Text, Pressable, StyleSheet, ScrollView, ActivityIndicator } from "react-native";
+import TapText from "@/components/TapText";
+import { loadKoWriting, type KoWritingLevel } from "@/lib/ko-tools/data";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 import { Write } from "@/components/SkillExercises";
@@ -10,7 +12,7 @@ import type { WriteExercise } from "@/lib/lessons/types";
 import { longPrompts, longRange, type PromptLevel } from "@/lib/writingPrompts";
 
 type Props = NativeStackScreenProps<AppStackParamList, "Writing">;
-type Lang = "es" | "fr" | "de" | "pt" | "ja" | "zh";
+type Lang = "es" | "fr" | "de" | "pt" | "ja" | "zh" | "ko";
 
 // Writing practice: the website's Writing page (/writing,
 // /lessons/<course>/tools/writing) for the app. Open writing tasks for
@@ -25,6 +27,7 @@ const COURSE: Record<Lang, { name: string; speech: SpeechLang; prefix: string }>
   pt: { name: "Portuguese", speech: "pt-BR", prefix: "PT-" },
   ja: { name: "Japanese", speech: "ja-JP", prefix: "JA-" },
   zh: { name: "Chinese", speech: "zh-CN", prefix: "ZH-" },
+  ko: { name: "Korean", speech: "ko-KR", prefix: "KO-" },
 };
 
 const LEVELS: { level: PromptLevel; label: string }[] = [
@@ -36,7 +39,12 @@ const LEVELS: { level: PromptLevel; label: string }[] = [
   { level: "c2", label: "Mastery" },
 ];
 
-export default function WritingScreen({ route, navigation }: Props) {
+export default function WritingScreen(props: Props) {
+  if (props.route.params?.lang === "ko") return <KoreanWriting {...props} />;
+  return <CourseWriting {...props} />;
+}
+
+function CourseWriting({ route, navigation }: Props) {
   const lang: Lang = route.params?.lang ?? "es";
   const course = COURSE[lang];
   const { lessonsCourses } = useAuth();
@@ -122,6 +130,134 @@ export default function WritingScreen({ route, navigation }: Props) {
   );
 }
 
+// The Korean beta's writing practice (the website's
+// /lessons/ko/tools/writing): the open tasks every course shares, by level
+// (Beginner ... Mastery), and every writing task from the Korean lessons,
+// unit by unit, Culture included (src/lib/ko-tools/data/writing.json,
+// loaded when the screen opens). Marked by the AI writing feedback at the
+// "KO-" level; Korean in a task is tap-to-hear.
+type KoChoice = PromptLevel | "culture";
+
+const KO_LEVELS: { level: KoChoice; label: string }[] = [
+  ...LEVELS.map((l) => ({ level: l.level as KoChoice, label: l.label })),
+  { level: "culture", label: "Culture" },
+];
+
+function KoreanWriting({ navigation }: Props) {
+  const [level, setLevel] = useState<KoChoice>("a1");
+  const [lessonTasks, setLessonTasks] = useState<KoWritingLevel[] | null>(null);
+  const [open, setOpen] = useState<string | null>(null);
+  const [attempt, setAttempt] = useState(0);
+  const [done, setDone] = useState(false);
+
+  useLayoutEffect(() => {
+    navigation.setOptions({ title: "Korean writing" });
+  }, [navigation]);
+  useEffect(() => {
+    let live = true;
+    void loadKoWriting().then((l) => live && setLessonTasks(l));
+    return () => {
+      live = false;
+    };
+  }, []);
+
+  function pick(id: string | null) {
+    setOpen(id);
+    setDone(false);
+    setAttempt((n) => n + 1);
+  }
+
+  const task = (id: string, exercise: WriteExercise, gradeLevel: string, meta: string, heading?: string) => {
+    const isOpen = open === id;
+    return (
+      <View key={id} style={styles.card}>
+        <Pressable onPress={() => pick(isOpen ? null : id)}>
+          <Text style={styles.meta}>{meta}</Text>
+          {heading ? <TapText text={heading} lang="ko-KR" style={styles.cardHeading} /> : null}
+          {!isOpen && <TapText text={exercise.prompt} lang="ko-KR" style={styles.cardBody} />}
+        </Pressable>
+        {isOpen && (
+          <View style={{ marginTop: 12 }}>
+            <Write key={attempt} exercise={exercise} lang="ko-KR" level={gradeLevel} checked={done} submit={() => setDone(true)} />
+            {done && (
+              <Pressable
+                style={styles.again}
+                onPress={() => {
+                  setDone(false);
+                  setAttempt((n) => n + 1);
+                }}
+              >
+                <Text style={styles.againText}>Write it again</Text>
+              </Pressable>
+            )}
+          </View>
+        )}
+      </View>
+    );
+  };
+
+  const fromLessons = lessonTasks?.find((l) => l.path === level);
+  const [minWords, maxWords] = level === "culture" ? [0, 0] : longRange(level, false);
+
+  return (
+    <ScrollView style={styles.container} contentContainerStyle={styles.content} keyboardShouldPersistTaps="handled">
+      <Text style={styles.subtitle}>
+        Write anything from a few sentences to a couple of pages in Korean and get instant feedback: a score, corrections with
+        reasons, and a check against what the task asks for. Your phone&apos;s Korean keyboard is all you need.
+      </Text>
+
+      <View style={styles.levels}>
+        {KO_LEVELS.map((l) => (
+          <Pressable
+            key={l.level}
+            onPress={() => {
+              setLevel(l.level);
+              pick(null);
+            }}
+            style={[styles.chip, l.level === level && styles.chipOn]}
+          >
+            <Text style={[styles.chipText, l.level === level && styles.chipTextOn]}>{l.label}</Text>
+          </Pressable>
+        ))}
+      </View>
+
+      {level !== "culture" && (
+        <>
+          <Text style={styles.section}>Open tasks</Text>
+          <View style={styles.list}>
+            {longPrompts(level).map((p) =>
+              task(
+                p.id,
+                { type: "write", prompt: p.prompt, rubric: p.rubric, minWords, maxWords, modelAnswer: "", explanation: "" },
+                `KO-${level.toUpperCase()}`,
+                `${p.genre} · ${minWords}–${maxWords} words`
+              )
+            )}
+          </View>
+        </>
+      )}
+
+      <Text style={styles.section}>From the lessons</Text>
+      {!lessonTasks ? (
+        <ActivityIndicator style={{ marginTop: 12 }} />
+      ) : !fromLessons ? (
+        <Text style={styles.subtitle}>No writing tasks at this level yet.</Text>
+      ) : (
+        fromLessons.units.map((u) => (
+          <View key={u.label} style={{ marginBottom: 14 }}>
+            <TapText text={u.label} lang="ko-KR" style={styles.unit} />
+            <View style={styles.list}>
+              {u.tasks.map((t) =>
+                task(t.id, t.exercise, t.gradeLevel, `${t.exercise.minWords}–${t.exercise.maxWords} words`, t.heading)
+              )}
+            </View>
+          </View>
+        ))
+      )}
+    </ScrollView>
+  );
+}
+
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: "#FAF7F2" },
   content: { padding: 20, paddingBottom: 60 },
@@ -137,4 +273,7 @@ const styles = StyleSheet.create({
   cardBody: { fontSize: 14.5, color: "#2A1513", lineHeight: 20 },
   again: { marginTop: 10, alignSelf: "flex-start", borderWidth: 1, borderColor: "#2A151340", borderRadius: 999, paddingVertical: 6, paddingHorizontal: 12 },
   againText: { fontSize: 13, color: "#2A1513" },
+  section: { fontSize: 13, fontWeight: "800", color: "#2A151366", letterSpacing: 0.5, textTransform: "uppercase", marginTop: 8, marginBottom: 10 },
+  unit: { fontSize: 15, fontWeight: "700", color: "#2A1513", marginBottom: 8 },
+  cardHeading: { fontSize: 15, fontWeight: "700", color: "#2A1513", marginBottom: 4 },
 });

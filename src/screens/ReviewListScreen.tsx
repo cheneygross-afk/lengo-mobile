@@ -10,7 +10,7 @@ import { courseOfLevelPath } from "@/lib/courses";
 import { FRENCH_LEVEL_PATHS } from "@/lib/lessons/french";
 import { GERMAN_LEVEL_PATHS } from "@/lib/lessons/german";
 import { PORTUGUESE_LEVEL_PATHS } from "@/lib/lessons/portuguese";
-import { KOREAN_PATH_LEVELS } from "@/lib/lessons/korean";
+import { KOREAN_LEVEL_PATHS } from "@/lib/lessons/korean";
 import { loadLazyLevel } from "@/lib/lessons/lazyLevels";
 
 type Saved = { lesson: Lesson; levelPath: string };
@@ -27,7 +27,7 @@ async function loadSaved(lang: string): Promise<Saved[]> {
           ? GERMAN_LEVEL_PATHS
           : lang === "pt"
             ? PORTUGUESE_LEVEL_PATHS
-            : KOREAN_PATH_LEVELS.map((l) => l.levelPath);
+            : KOREAN_LEVEL_PATHS; // Hangul ... Mastery and the Culture module
     const lists = await Promise.all(levelPaths.map((lp) => getReviewSlugs(lp)));
     const out: Saved[] = [];
     for (const [i, levelPath] of levelPaths.entries()) {

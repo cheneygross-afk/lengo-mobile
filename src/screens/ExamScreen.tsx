@@ -16,9 +16,10 @@ import {
   goetheResult,
 } from "@/lib/exams/de/scoring";
 import { CELPE_BANDS, celpePassMarkExplanation, celpeResult, isPractice } from "@/lib/exams/pt/scoring";
+import { SECTION_POINTS, TOPIK_LEVELS, sectionScore, topikKind, topikPassMarkExplanation, topikResult } from "@/lib/exams/ko/scoring";
 import { useCourseExams } from "@/components/exams/useCourseExams";
 import TapText from "@/components/TapText";
-import { GERMAN_LANG, PORTUGUESE_LANG } from "@/lib/speech";
+import { GERMAN_LANG, KOREAN_LANG, PORTUGUESE_LANG } from "@/lib/speech";
 import type { Exam } from "@/lib/exams/types";
 
 type Props = NativeStackScreenProps<AppStackParamList, "Exam">;
@@ -34,7 +35,111 @@ export default function ExamScreen(props: Props) {
   if (course === "fr") return <FrenchExamScreen {...props} />;
   if (course === "de") return <GermanExamScreen {...props} />;
   if (course === "pt") return <PortugueseExamScreen {...props} />;
+  if (course === "ko") return <KoreanExamScreen {...props} />;
   return <SpanishExamScreen {...props} />;
+}
+
+// A TOPIK practice test of the Korean beta (the website's
+// /lessons/ko/tools/topik/[slug]): its sections (TOPIK II in two sittings,
+// 교시), how the real test is scored -- each section out of 100, only the
+// total deciding the level -- and the latest scores (the website's
+// TopikResults).
+function KoreanExamScreen({ navigation, route }: Props) {
+  const exams = useCourseExams("ko");
+  const exam: Exam | undefined = exams?.find((e) => e.slug === route.params.slug);
+  const [scores, setScores] = useState<Record<string, number | undefined>>({});
+
+  useFocusEffect(
+    useCallback(() => {
+      if (exam) void loadExamScores(exam.slug).then(setScores);
+    }, [exam])
+  );
+
+  if (!exams) {
+    return (
+      <View style={[s.screen, s.loading]}>
+        <ActivityIndicator />
+      </View>
+    );
+  }
+  if (!exam) {
+    return (
+      <View style={s.screen}>
+        <Text style={[s.intro, { padding: 20 }]}>This test isn&apos;t available.</Text>
+      </View>
+    );
+  }
+
+  const periods = new Set(exam.papers.map((p) => p.group)).size;
+  const result = topikResult(exam, scores);
+  const anyScore = Object.keys(scores).length > 0;
+  const lowest = TOPIK_LEVELS[result.kind][0];
+  const verdict = result.complete
+    ? result.level
+      ? `Level ${result.level} (${result.level}급): ${result.total} of ${result.max} points.`
+      : `${result.total} of ${result.max} points: below the ${lowest.from} needed for level ${lowest.level}.`
+    : `Finish all ${exam.papers.length} sections for a level: only the total counts.`;
+
+  return (
+    <ScrollView style={s.screen} contentContainerStyle={s.content}>
+      <Text style={s.h1}>{exam.title}</Text>
+      <TapText text={exam.description} lang={KOREAN_LANG} mode="mixed" style={s.intro} />
+
+      {exam.papers.map((paper, i) => {
+        const questions = paperItems(paper).length;
+        const points = scores[paper.id];
+        return (
+          <Pressable
+            key={paper.id}
+            style={s.card}
+            onPress={() => navigation.navigate("ExamPaper", { slug: exam.slug, paperId: paper.id, course: "ko" })}
+          >
+            <Text style={s.overline}>
+              TOPIK {topikKind(exam)} · {periods > 1 ? `${paper.group}교시 · ` : ""}SECTION {i + 1} · {KIND_LABEL[paper.kind].toUpperCase()}
+            </Text>
+            <TapText text={paper.title} lang={KOREAN_LANG} mode="target" style={s.title} />
+            <Text style={s.meta}>
+              {formatMinutes(paper.minutes)} · {questions ? `${questions} questions` : `${paper.tasks.length} questions (51-54)`} ·{" "}
+              {SECTION_POINTS} points
+            </Text>
+            {points !== undefined ? (
+              <Text style={s.score}>
+                Last attempt: {sectionScore(points)}/{SECTION_POINTS}
+              </Text>
+            ) : null}
+          </Pressable>
+        );
+      })}
+
+      {anyScore ? (
+        <View style={s.card}>
+          <Text style={s.h2}>Your results</Text>
+          <Text style={s.body}>
+            Total: {result.total}/{result.max}
+          </Text>
+          {result.sections.map(({ paper, score }) => (
+            <Text key={paper.id} style={s.body}>
+              <TapText text={paper.title} lang={KOREAN_LANG} mode="target" style={s.body} />:{" "}
+              {score === null ? "not done yet" : `${score}/${SECTION_POINTS}`}
+            </Text>
+          ))}
+          <TapText text={verdict} lang={KOREAN_LANG} mode="mixed" style={[s.body, s.bold]} />
+        </View>
+      ) : null}
+
+      <Text style={s.h2}>How it&apos;s scored</Text>
+      <Text style={s.body}>{topikPassMarkExplanation(exam)}</Text>
+      {exam.papers.some((p) => p.kind === "writing") ? (
+        <Text style={s.body}>
+          Here, each writing answer gets a mark from 1 to 5 from the feedback, which you can keep or change after comparing with the
+          model answer; the mark&apos;s share of 5 gives the question&apos;s points. A question you don&apos;t mark counts as 0.
+          Scores are saved on this device.
+        </Text>
+      ) : (
+        <Text style={s.body}>Every question is marked automatically. Scores are saved on this device.</Text>
+      )}
+    </ScrollView>
+  );
 }
 
 const celpeEnLevel = (level: string | null) => CELPE_BANDS.find((b) => b.level === level)?.en;

@@ -152,6 +152,14 @@ export default function KoreanLevelsScreen({ navigation }: Props) {
         </>
       )}
       <View style={styles.links}>
+        <Pressable style={styles.link} onPress={() => navigation.navigate("TodayReview", { lang: "ko" })}>
+          <Text style={styles.linkTitle}>Today's review</Text>
+          <Text style={styles.linkBody}>The questions you missed in Korean lessons, then your Korean flashcards.</Text>
+        </Pressable>
+        <Pressable style={styles.link} onPress={() => navigation.navigate("StudyTools", { lang: "ko" })}>
+          <Text style={styles.linkTitle}>Study tools</Text>
+          <Text style={styles.linkBody}>Grammar guides, verb conjugation, vocabulary, TOPIK practice, writing and a placement test.</Text>
+        </Pressable>
         <Pressable style={styles.link} onPress={() => navigation.navigate("ReadingLevels", { lang: "ko" })}>
           <Text style={styles.linkTitle}>Stories</Text>
           <Text style={styles.linkBody}>

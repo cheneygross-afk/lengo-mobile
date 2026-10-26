@@ -3,15 +3,17 @@ import { EXAMS } from "@/lib/exams";
 import { frenchExamsIfLoaded, loadFrenchExams } from "@/lib/exams/french";
 import { germanExamsIfLoaded, loadGermanExams } from "@/lib/exams/german";
 import { loadPortugueseExams, portugueseExamsIfLoaded } from "@/lib/exams/portuguese";
+import { koreanExamsIfLoaded, loadKoreanExams } from "@/lib/exams/korean";
 import type { Exam } from "@/lib/exams/types";
 import type { ExamCourse } from "./examCourse";
 
 /** A course's practice exams: the DELE ones right away, the DELF/DALF,
- * Goethe-Zertifikat and Celpe-Bras ones once loaded (null until then). */
+ * Goethe-Zertifikat, Celpe-Bras and TOPIK ones once loaded (null until then). */
 export function useCourseExams(course: ExamCourse): Exam[] | null {
   const [french, setFrench] = useState<Exam[] | null>(frenchExamsIfLoaded);
   const [german, setGerman] = useState<Exam[] | null>(germanExamsIfLoaded);
   const [portuguese, setPortuguese] = useState<Exam[] | null>(portugueseExamsIfLoaded);
+  const [korean, setKorean] = useState<Exam[] | null>(koreanExamsIfLoaded);
   useEffect(() => {
     if (course !== "fr" || french) return;
     let cancelled = false;
@@ -42,5 +44,15 @@ export function useCourseExams(course: ExamCourse): Exam[] | null {
       cancelled = true;
     };
   }, [course, portuguese]);
-  return course === "fr" ? french : course === "de" ? german : course === "pt" ? portuguese : EXAMS;
+  useEffect(() => {
+    if (course !== "ko" || korean) return;
+    let cancelled = false;
+    loadKoreanExams().then((exams) => {
+      if (!cancelled) setKorean(exams);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [course, korean]);
+  return course === "fr" ? french : course === "de" ? german : course === "pt" ? portuguese : course === "ko" ? korean : EXAMS;
 }

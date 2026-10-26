@@ -1,18 +1,19 @@
 // What changes between the Spanish (DELE), French (DELF/DALF), German
-// (Goethe-Zertifikat) and Brazilian Portuguese (Celpe-Bras) practice exams in the shared exam components -- the app's port of the website's
+// (Goethe-Zertifikat), Brazilian Portuguese (Celpe-Bras) and Korean (TOPIK) practice exams in the shared exam components -- the app's port of the website's
 // src/components/exams/examCourse.ts: the voice and tap-to-hear language,
 // the level sent to the writing feedback, the 1-5 mark descriptors and the
 // few target-language labels. The UI chrome stays in English for all of them.
 // Screens provide the course with ExamCourseContext; without one it's "es",
 // so the Spanish exam screens are unchanged.
 import { createContext, useContext } from "react";
-import { FRENCH_LANG, GERMAN_LANG, PORTUGUESE_LANG, SPANISH_LANG, type SpeechLang } from "@/lib/speech";
+import { FRENCH_LANG, GERMAN_LANG, KOREAN_LANG, PORTUGUESE_LANG, SPANISH_LANG, type SpeechLang } from "@/lib/speech";
 import { TASK_MARKS } from "@/lib/exams/scoring";
 import { FR_TASK_MARKS } from "@/lib/exams/fr/scoring";
 import { DE_TASK_MARKS } from "@/lib/exams/de/scoring";
 import { PT_TASK_MARKS } from "@/lib/exams/pt/scoring";
+import { KO_TASK_MARKS } from "@/lib/exams/ko/scoring";
 
-export type ExamCourse = "es" | "fr" | "de" | "pt";
+export type ExamCourse = "es" | "fr" | "de" | "pt" | "ko";
 
 export type ExamCourseConfig = {
   lang: SpeechLang;
@@ -22,6 +23,8 @@ export type ExamCourseConfig = {
   transcript: string;
   she: string;
   he: string;
+  /** What a paper is shown out of, when not the shared 25 points (TOPIK: 100 per section). */
+  paperMax?: number;
 };
 
 export const EXAM_COURSES: Record<ExamCourse, ExamCourseConfig> = {
@@ -56,6 +59,16 @@ export const EXAM_COURSES: Record<ExamCourse, ExamCourseConfig> = {
     transcript: "TRANSCRIÇÃO",
     she: "Ela: ",
     he: "Ele: ",
+  },
+  // The Korean beta's TOPIK practice tests: each section shown out of 100.
+  ko: {
+    lang: KOREAN_LANG,
+    writeLevel: (level) => `KO-${level}`,
+    taskMarks: KO_TASK_MARKS,
+    transcript: "듣기 대본",
+    she: "여자: ",
+    he: "남자: ",
+    paperMax: 100,
   },
 };
 

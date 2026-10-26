@@ -45,6 +45,10 @@ import PortuguesePlacementTestScreen from "@/screens/PortuguesePlacementTestScre
 import PortugueseConjugationScreen from "@/screens/PortugueseConjugationScreen";
 import PortugueseGlossaryScreen from "@/screens/PortugueseGlossaryScreen";
 import KoreanLevelsScreen from "@/screens/KoreanLevelsScreen";
+import KoreanPlacementTestScreen from "@/screens/KoreanPlacementTestScreen";
+import KoreanConjugationScreen from "@/screens/KoreanConjugationScreen";
+import KoreanGlossaryScreen from "@/screens/KoreanGlossaryScreen";
+import { KoreanRootsScreen, KoreanRootsLevelScreen } from "@/screens/KoreanRootsScreen";
 import WritingScreen from "@/screens/WritingScreen";
 import StudyToolsScreen from "@/screens/StudyToolsScreen";
 import { withPlan } from "@/components/withPlan";
@@ -65,6 +69,8 @@ const GermanConjugationPaid = withPlan(GermanConjugationScreen, "de");
 const GermanGlossaryPaid = withPlan(GermanGlossaryScreen, "de");
 const PortugueseConjugationPaid = withPlan(PortugueseConjugationScreen, "pt");
 const PortugueseGlossaryPaid = withPlan(PortugueseGlossaryScreen, "pt");
+const KoreanConjugationPaid = withPlan(KoreanConjugationScreen, "ko");
+const KoreanGlossaryPaid = withPlan(KoreanGlossaryScreen, "ko");
 
 // Testing out of a unit is part of the plan for that unit's course.
 function UnitTestPaid(props: NativeStackScreenProps<AppStackParamList, "UnitTest">) {
@@ -86,6 +92,19 @@ const ReviewDrill = withKoreanBeta(ReviewDrillScreen);
 const Flashcards = withKoreanBeta(FlashcardsScreen);
 const ReadingLevels = withKoreanBeta(ReadingLevelsScreen);
 const ReadingsList = withKoreanBeta(ReadingsListScreen);
+const TodayReview = withKoreanBeta(TodayReviewScreen);
+const StudyTools = withKoreanBeta(StudyToolsScreen);
+const GrammarList = withKoreanBeta(GrammarListScreen);
+const GrammarGuide = withKoreanBeta(GrammarGuideScreen);
+const Exams = withKoreanBeta(ExamsScreen);
+const Exam = withKoreanBeta(ExamScreen);
+const ExamPaper = withKoreanBeta(ExamPaperScreen);
+const Writing = withKoreanBeta(WritingScreen);
+const KoreanPlacement = withKoreanBeta(KoreanPlacementTestScreen, true);
+const KoreanConjugation = withKoreanBeta(KoreanConjugationPaid, true);
+const KoreanGlossary = withKoreanBeta(KoreanGlossaryPaid, true);
+const KoreanRoots = withKoreanBeta(KoreanRootsScreen, true);
+const KoreanRootsLevel = withKoreanBeta(KoreanRootsLevelScreen, true);
 // A Korean story is Korean by its "ko/..." levelPath or its "ko-" slug.
 const StoryReader = withKoreanBeta(
   StoryReaderScreen,
@@ -136,14 +155,14 @@ function AppNavigator() {
       />
       <AppStack.Screen name="Review" component={ReviewList} options={{ title: "Review" }} />
       <AppStack.Screen name="ReviewDrill" component={ReviewDrill} options={{ title: "Review" }} />
-      <AppStack.Screen name="TodayReview" component={TodayReviewScreen} options={{ title: "Today's review" }} />
+      <AppStack.Screen name="TodayReview" component={TodayReview} options={{ title: "Today's review" }} />
       <AppStack.Screen name="UnitTest" component={UnitTest} options={{ title: "Test out" }} />
       <AppStack.Screen name="Flashcards" component={Flashcards} options={{ title: "Flashcards" }} />
       <AppStack.Screen name="FrequencyDecks" component={FrequencyDecksScreen} options={{ title: "Frequency decks" }} />
-      <AppStack.Screen name="Exams" component={ExamsScreen} options={{ title: "Exam practice" }} />
+      <AppStack.Screen name="Exams" component={Exams} options={{ title: "Exam practice" }} />
       <AppStack.Screen
         name="Exam"
-        component={ExamScreen}
+        component={Exam}
         options={({ route }) => ({
           title:
             route.params.course === "fr"
@@ -152,10 +171,12 @@ function AppNavigator() {
                 ? "Goethe-Zertifikat practice"
                 : route.params.course === "pt"
                   ? "Celpe-Bras practice"
-                  : "DELE practice",
+                  : route.params.course === "ko"
+                    ? "TOPIK practice"
+                    : "DELE practice",
         })}
       />
-      <AppStack.Screen name="ExamPaper" component={ExamPaperScreen} options={{ title: "" }} />
+      <AppStack.Screen name="ExamPaper" component={ExamPaper} options={{ title: "" }} />
       <AppStack.Screen name="ReadingLevels" component={ReadingLevels} options={{ title: "Readings" }} />
       <AppStack.Screen
         name="ReadingsList"
@@ -171,10 +192,10 @@ function AppNavigator() {
         })}
       />
       <AppStack.Screen name="StoryReader" component={StoryReader} options={{ title: "" }} />
-      <AppStack.Screen name="Writing" component={WritingScreen} options={{ title: "Writing" }} />
-      <AppStack.Screen name="StudyTools" component={StudyToolsScreen} options={{ title: "Study tools" }} />
-      <AppStack.Screen name="Grammar" component={GrammarListScreen} options={{ title: "Grammar" }} />
-      <AppStack.Screen name="GrammarGuide" component={GrammarGuideScreen} options={{ title: "" }} />
+      <AppStack.Screen name="Writing" component={Writing} options={{ title: "Writing" }} />
+      <AppStack.Screen name="StudyTools" component={StudyTools} options={{ title: "Study tools" }} />
+      <AppStack.Screen name="Grammar" component={GrammarList} options={{ title: "Grammar" }} />
+      <AppStack.Screen name="GrammarGuide" component={GrammarGuide} options={{ title: "" }} />
       <AppStack.Screen name="Placement" component={PlacementTestScreen} options={{ title: "Placement test" }} />
       <AppStack.Screen name="Conjugation" component={ConjugationPaid} options={{ title: "Verb conjugation" }} />
       <AppStack.Screen name="Glossary" component={GlossaryPaid} options={{ title: "Glossary" }} />
@@ -187,6 +208,15 @@ function AppNavigator() {
       <AppStack.Screen name="PortuguesePlacement" component={PortuguesePlacementTestScreen} options={{ title: "Portuguese placement test" }} />
       <AppStack.Screen name="PortugueseConjugation" component={PortugueseConjugationPaid} options={{ title: "Portuguese verb conjugation" }} />
       <AppStack.Screen name="PortugueseGlossary" component={PortugueseGlossaryPaid} options={{ title: "Portuguese glossary" }} />
+      <AppStack.Screen name="KoreanPlacement" component={KoreanPlacement} options={{ title: "Korean placement test" }} />
+      <AppStack.Screen name="KoreanConjugation" component={KoreanConjugation} options={{ title: "Korean verb conjugation" }} />
+      <AppStack.Screen
+        name="KoreanGlossary"
+        component={KoreanGlossary}
+        options={({ route }) => ({ title: route.params?.level ? "Korean vocabulary" : "Korean glossary" })}
+      />
+      <AppStack.Screen name="KoreanRoots" component={KoreanRoots} options={{ title: "Word Roots" }} />
+      <AppStack.Screen name="KoreanRootsLevel" component={KoreanRootsLevel} options={{ title: "Word Roots" }} />
     </AppStack.Navigator>
   );
 }

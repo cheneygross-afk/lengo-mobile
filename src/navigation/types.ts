@@ -22,6 +22,9 @@ type KoreanStoryLevelPath = KoreanStoryLevel["path"];
 export type CourseLang = "es" | "ja" | "zh" | "fr" | "de" | "pt" | "ko";
 // The courses with stories, Today's review and Study Tools of their own.
 export type ToolsLang = "es" | "fr" | "de" | "pt";
+// The same, with the Korean beta (only the beta account; RootNavigator's
+// withKoreanBeta turns everyone else away from a "ko" lang).
+export type ToolsLangKo = ToolsLang | "ko";
 
 export type AppStackParamList = {
   Home: undefined;
@@ -114,17 +117,19 @@ export type AppStackParamList = {
   // (dailyReview.ts) -- see TodayReviewScreen. Spanish only.
   // lang "fr": the French course's own (missed questions + flashcards).
   // lang "de": the German course's, the same way.
-  TodayReview: { lang?: ToolsLang } | undefined;
+  // lang "ko": the Korean beta's (missed questions, then Korean flashcards).
+  TodayReview: { lang?: ToolsLangKo } | undefined;
   // Hub for the Spanish reference/practice tools below (grammar,
   // conjugation, DELE practice, glossary) plus the placement test.
   // lang "fr": the French course's tools (grammar, conjugation, DELF/DALF,
   // glossary, placement); lang "de" the German course's (Goethe-Zertifikat);
   // lang "pt" the Portuguese course's (Celpe-Bras).
-  StudyTools: { lang?: ToolsLang } | undefined;
+  // lang "ko": the Korean beta's tools (KoreanStudyTools below the hub).
+  StudyTools: { lang?: ToolsLangKo } | undefined;
   // Grammar guides (src/lib/grammar, synced from the website) -- the
   // list, then one guide by slug.
-  Grammar: { lang?: ToolsLang } | undefined;
-  GrammarGuide: { slug: string; lang?: ToolsLang };
+  Grammar: { lang?: ToolsLangKo } | undefined;
+  GrammarGuide: { slug: string; lang?: ToolsLangKo };
   // The website's placement test, with its results screen.
   Placement: undefined;
   // The French course's placement test (src/lib/fr-placementTest.ts).
@@ -133,6 +138,8 @@ export type AppStackParamList = {
   GermanPlacement: undefined;
   // The Portuguese course's placement test (src/lib/pt-placementTest.ts).
   PortuguesePlacement: undefined;
+  // The Korean beta's placement test (src/lib/ko-placementTest.ts).
+  KoreanPlacement: undefined;
   // "Test out" of a unit (units.ts) -- see UnitTestScreen.
   UnitTest: { levelPath: string; unitId: string };
   // Reference tools (src/lib/conjugation, src/lib/glossary, synced from
@@ -150,15 +157,23 @@ export type AppStackParamList = {
   // The Portuguese course's counterparts (src/lib/pt-conjugation, src/lib/pt-tools).
   PortugueseConjugation: { verb?: string } | undefined;
   PortugueseGlossary: undefined;
+  // The Korean beta's counterparts (src/lib/ko-conjugation, src/lib/ko-tools):
+  // the conjugator and the glossary, which also lists a level's vocabulary
+  // (level: "a1" ... "c2", "culture"). And the optional Word Roots
+  // (src/lib/ko-roots), the only screens with Hanja.
+  KoreanConjugation: { verb?: string } | undefined;
+  KoreanGlossary: { level?: string } | undefined;
+  KoreanRoots: undefined;
+  KoreanRootsLevel: { level: "a1" | "a2" | "b1" | "b2" | "c1" | "c2" };
   // DELE practice exams (src/lib/exams, synced from the website): the
   // list, one exam's overview and results, and one paper.
   // course "fr": the DELF/DALF practice exams (src/lib/exams/fr); "de" the
   // Goethe-Zertifikat ones (src/lib/exams/de); "pt" the Celpe-Bras ones
-  // (src/lib/exams/pt).
+  // (src/lib/exams/pt); "ko" the Korean beta's TOPIK ones (src/lib/exams/ko).
   Exams: { course?: ExamCourse } | undefined;
   // Writing practice (the website's Writing page): open writing tasks per
   // level, marked by the AI writing feedback.
-  Writing: { lang?: "es" | "fr" | "de" | "pt" | "ja" | "zh" } | undefined;
+  Writing: { lang?: "es" | "fr" | "de" | "pt" | "ja" | "zh" | "ko" } | undefined;
   Exam: { slug: string; course?: ExamCourse };
   ExamPaper: { slug: string; paperId: string; course?: ExamCourse };
 };

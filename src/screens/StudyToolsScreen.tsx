@@ -11,7 +11,9 @@ function toolLook(title: string): { icon: IconName; tint: Tint } {
   const t = title.toLowerCase();
   if (t.includes("grammar")) return { icon: "grammar", tint: "rose" };
   if (t.includes("conjugation")) return { icon: "conjugation", tint: "saffron" };
-  if (t.includes("exam")) return { icon: "exam", tint: "sea" };
+  if (t.includes("exam") || t.includes("topik")) return { icon: "exam", tint: "sea" };
+  if (t.includes("writing")) return { icon: "writing", tint: "saffron" };
+  if (t.includes("roots")) return { icon: "lessons", tint: "rose" };
   if (t.includes("glossary")) return { icon: "glossary", tint: "rose" };
   if (t.includes("placement")) return { icon: "placement", tint: "sea" };
   return { icon: "vocab", tint: "saffron" };
@@ -97,6 +99,48 @@ const PORTUGUESE_TOOLS: CourseTool[] = [
   },
 ];
 
+// The Korean beta's (the website's /lessons/ko/tools): the Portuguese
+// course's tools plus writing practice (Home has no Korean Writing card),
+// vocabulary by level, and the optional Word Roots -- the only screens in
+// the course that show Hanja.
+const KOREAN_TOOLS: CourseTool[] = [
+  {
+    title: "Grammar Guides",
+    body: "Short explanations of the grammar points learners get stuck on, from particles and speech levels to the written style, plus the pronunciation rules.",
+    open: (n) => n.navigate("Grammar", { lang: "ko" }),
+  },
+  {
+    title: "Verb Conjugation",
+    body: "Every form of a verb or adjective in every speech level, with the irregular forms marked, plus drills.",
+    open: (n) => n.navigate("KoreanConjugation"),
+  },
+  {
+    title: "Writing Practice",
+    body: "Write anything from a few sentences to a couple of pages and get instant AI feedback at your level.",
+    open: (n) => n.navigate("Writing", { lang: "ko" }),
+  },
+  {
+    title: "TOPIK Practice",
+    body: "Practice tests in the format of the Test of Proficiency in Korean, TOPIK I and TOPIK II, scored like the real test.",
+    open: (n) => n.navigate("Exams", { course: "ko" }),
+  },
+  {
+    title: "Vocabulary by Level",
+    body: "Every word and phrase the course teaches, Beginner to Mastery and the culture lessons, with audio and meanings.",
+    open: (n) => n.navigate("KoreanGlossary", { level: "a1" }),
+  },
+  {
+    title: "Glossary",
+    body: "Look up any word taught in the course, in Korean or English, with its meaning and the lesson it comes from.",
+    open: (n) => n.navigate("KoreanGlossary"),
+  },
+  {
+    title: "Word Roots",
+    body: "Optional: the Sino-Korean roots behind thousands of words, each with its Chinese character (Hanja) and the words you know from the course.",
+    open: (n) => n.navigate("KoreanRoots"),
+  },
+];
+
 // Mobile port of the website's /tools hub: the Spanish reference and
 // practice tools behind one "Study Tools" card on Home, plus the
 // placement test (most learners take it once, so it lives here and in
@@ -121,7 +165,9 @@ export default function StudyToolsScreen({ navigation, route }: Props) {
         ? { name: "German", tools: GERMAN_TOOLS, placement: "GermanPlacement" as const }
         : lang === "pt"
           ? { name: "Portuguese", tools: PORTUGUESE_TOOLS, placement: "PortuguesePlacement" as const }
-          : null;
+          : lang === "ko"
+            ? { name: "Korean", tools: KOREAN_TOOLS, placement: "KoreanPlacement" as const }
+            : null;
   useLayoutEffect(() => {
     if (course) navigation.setOptions({ title: `${course.name} study tools` });
   }, [navigation, course?.name]);
@@ -137,7 +183,13 @@ export default function StudyToolsScreen({ navigation, route }: Props) {
           ))}
         </View>
         <Text style={styles.sectionHeader}>YOUR LEVEL</Text>
-        <NavCard icon="placement" tint="sea" title="Placement Test" body="Find your level, retake anytime." onPress={() => navigation.navigate(course.placement)} />
+        <NavCard
+          icon="placement"
+          tint="sea"
+          title="Placement Test"
+          body={lang === "ko" ? "Find your level, from Hangul to Mastery. Retake anytime." : "Find your level, retake anytime."}
+          onPress={() => navigation.navigate(course.placement)}
+        />
       </ScrollView>
     );
   }

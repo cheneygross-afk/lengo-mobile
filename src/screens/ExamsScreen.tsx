@@ -5,7 +5,8 @@ import type { AppStackParamList } from "@/navigation/types";
 import { useCourseExams } from "@/components/exams/useCourseExams";
 import { formatMinutes } from "@/lib/exams/scoring";
 import TapText from "@/components/TapText";
-import { PORTUGUESE_LANG } from "@/lib/speech";
+import { KOREAN_LANG, PORTUGUESE_LANG } from "@/lib/speech";
+import { COURSE_FOR_LEVEL, TOPIK_LEVELS, paperItems, topikKind } from "@/lib/exams/ko/scoring";
 import type { Exam } from "@/lib/exams/types";
 
 type Props = NativeStackScreenProps<AppStackParamList, "Exams">;
@@ -26,6 +27,7 @@ export default function ExamsScreen({ navigation, route }: Props) {
     if (course === "fr") navigation.setOptions({ title: "DELF & DALF practice" });
     if (course === "de") navigation.setOptions({ title: "Goethe-Zertifikat practice" });
     if (course === "pt") navigation.setOptions({ title: "Celpe-Bras practice" });
+    if (course === "ko") navigation.setOptions({ title: "TOPIK practice" });
   }, [navigation, course]);
   if (!exams) {
     return (
@@ -34,6 +36,7 @@ export default function ExamsScreen({ navigation, route }: Props) {
       </View>
     );
   }
+  if (course === "ko") return <KoreanExams exams={exams} onOpen={(slug) => navigation.navigate("Exam", { slug, course: "ko" })} />;
   if (course === "pt") return <PortugueseExams exams={exams} onOpen={(slug) => navigation.navigate("Exam", { slug, course: "pt" })} />;
   return (
     <ScrollView style={s.screen} contentContainerStyle={s.content}>
@@ -122,6 +125,54 @@ function PortugueseExams({ exams, onOpen }: { exams: Exam[]; onOpen: (slug: stri
       <Text style={s.note}>
         The Celpe-Bras is an exam of Inep, for Brazil&apos;s Ministry of Education. These practice exams are written by Deep End and
         are not official exam material.
+      </Text>
+    </ScrollView>
+  );
+}
+
+// The Korean beta's TOPIK practice (the website's /lessons/ko/tools/topik):
+// two full TOPIK I tests (levels 1-2) and two full TOPIK II tests (levels
+// 3-6), each level shown beside the course level that teaches up to it.
+function KoreanExams({ exams, onOpen }: { exams: Exam[]; onOpen: (slug: string) => void }) {
+  const card = (exam: Exam) => {
+    const minutes = exam.papers.reduce((m, p) => m + p.minutes, 0);
+    const questions = exam.papers.reduce((m, p) => m + paperItems(p).length, 0);
+    const writing = exam.papers.some((p) => p.kind === "writing");
+    const levels = TOPIK_LEVELS[topikKind(exam)].map((l) => l.level);
+    return (
+      <Pressable key={exam.slug} style={s.card} onPress={() => onOpen(exam.slug)}>
+        <Text style={s.kicker}>
+          TOPIK {topikKind(exam)} · levels {levels[0]}-{levels[levels.length - 1]} · {levels.map((l) => COURSE_FOR_LEVEL[l].name).join(", ")}
+        </Text>
+        <Text style={s.title}>{exam.title}</Text>
+        <TapText text={exam.description} lang={KOREAN_LANG} mode="mixed" style={s.description} />
+        <Text style={s.meta}>
+          {exam.papers.length} sections · about {formatMinutes(minutes)} · {questions} questions{writing ? " and 4 writing tasks" : ""}
+        </Text>
+      </Pressable>
+    );
+  };
+  return (
+    <ScrollView style={s.screen} contentContainerStyle={s.content}>
+      <Text style={s.intro}>
+        Full-length practice tests in the format of the TOPIK, the Test of Proficiency in Korean: the same sections, the same kinds
+        of questions in the same order, the same timings and the same scoring. TOPIK I tests listening and reading for levels 1 and
+        2; TOPIK II adds writing and certifies levels 3 to 6.
+      </Text>
+      <Text style={s.intro}>
+        Every question is marked for you with an explanation in English, and your writing answers get feedback with a model answer
+        to compare. Take a section untimed to practise, or switch on timed mode: the clock runs and each recording plays as often
+        as in the test.
+      </Text>
+      <Text style={s.section}>TOPIK I (levels 1-2)</Text>
+      <Text style={s.intro}>For the course&apos;s Beginner and Elementary levels: listening and reading, 200 points.</Text>
+      {exams.filter((e) => topikKind(e) === "I").map(card)}
+      <Text style={s.section}>TOPIK II (levels 3-6)</Text>
+      <Text style={s.intro}>From the course&apos;s Intermediate level up: listening, writing and reading, 300 points.</Text>
+      {exams.filter((e) => topikKind(e) === "II").map(card)}
+      <Text style={s.note}>
+        The TOPIK is run by the National Institute for International Education (NIIED) of Korea&apos;s Ministry of Education. These
+        practice tests are written by Deep End and are not official test material.
       </Text>
     </ScrollView>
   );
