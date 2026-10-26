@@ -19,7 +19,7 @@ import { buildUnitReview, quoted, tooClose, type Copy, type ReviewProfile, type 
 // Hangul by its script, lib/targetSpans.ts), English meanings in 'single
 // quotes', as docs/korean-course/authoring.md asks.
 
-export type KoreanLevelCode = "A1" | "A2" | "B1" | "B2" | "C1" | "C2";
+export type KoreanLevelCode = "A1" | "A2" | "B1" | "B2" | "C1" | "C2" | "Culture";
 
 const ENGLISH_WORD = /\b(the|an|i|you|he|she|it|we|they|is|are|was|were|to|of|and|in|on|my|your|this|that|be|have|has|do|does|will|would|can|not|for)\b/i;
 const HANGUL = /[ᄀ-ᇿ㄰-㆏ꥠ-꥿가-퟿]/;

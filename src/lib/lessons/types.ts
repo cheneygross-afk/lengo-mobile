@@ -196,7 +196,7 @@ export type Lesson = {
     | "FR-A1" | "FR-A2" | "FR-B1" | "FR-B2" | "FR-C1" | "FR-C2" | "FR-Culture"
     | "DE-A1" | "DE-A2" | "DE-B1" | "DE-B2" | "DE-C1" | "DE-C2" | "DE-Culture"
     | "PT-A1" | "PT-A2" | "PT-B1" | "PT-B2" | "PT-C1" | "PT-C2"
-    | "KO-Hangul" | "KO-A1" | "KO-A2" | "KO-B1" | "KO-B2" | "KO-C1" | "KO-C2";
+    | "KO-Hangul" | "KO-A1" | "KO-A2" | "KO-B1" | "KO-B2" | "KO-C1" | "KO-C2" | "KO-Culture";
   number: number;
   title: string;
   summary: string;
