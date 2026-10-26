@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Copies lesson, story, reading, grammar-guide, placement-test, conjugation, glossary, deck, exam Korean-stories and French-, German- and Portuguese-tools content from the website repo
+// Copies lesson, story, reading, grammar-guide, placement-test, conjugation, glossary, deck, exam, Korean-stories and French-, German-, Portuguese- and Korean-tools content from the website repo
 // (cheneygross-afk/lengo) into this app, so the two can't drift apart.
 // The website is the single source of truth for course content: edit a
 // lesson there, then run this script (or let the website's "Sync content
@@ -84,11 +84,23 @@ const DIRS = {
   // behind the owner-only Korean beta gate.
   "src/lib/stories/ko": [],
   "src/lib/stories/ko/batches": [],
+  // The Korean course's study tools, behind the same gate: TOPIK practice
+  // tests, the conjugation engine and word list, the vocabulary, lesson and
+  // writing tables the tools read (the website's build writes them from the
+  // lessons; synced as-is, see JSON_DIRS), and the optional Word Roots
+  // (the only place the course shows Hanja).
+  "src/lib/exams/ko": [],
+  "src/lib/ko-conjugation": [],
+  "src/lib/ko-tools": [
+    "lessons.ts", // static import of the full lesson list for the website's server pages
+  ],
+  "src/lib/ko-tools/data": [],
+  "src/lib/ko-roots": [],
 };
 
 // Directories whose .json files sync too. JSON can't carry the "Synced
 // from" header, so these are only hash-checked (src/content-sync.json).
-const JSON_DIRS = new Set(["src/lib/fr-tools/data", "src/lib/de-tools/data", "src/lib/pt-tools/data"]);
+const JSON_DIRS = new Set(["src/lib/fr-tools/data", "src/lib/de-tools/data", "src/lib/pt-tools/data", "src/lib/ko-tools/data"]);
 
 // The website's rebuilt Japanese course (furigana markup, A1-C2 units,
 // stories, guides, videos) is web-only for now: it's ~34MB and imports
@@ -102,7 +114,7 @@ const webOnly = (dir, name) =>
 
 // Single website files mirrored to the same path here (pure data that
 // doesn't live in one of the directories above).
-const FILES = ["src/lib/placementTest.ts", "src/lib/fr-placementTest.ts", "src/lib/de-placementTest.ts", "src/lib/pt-placementTest.ts"];
+const FILES = ["src/lib/placementTest.ts", "src/lib/fr-placementTest.ts", "src/lib/de-placementTest.ts", "src/lib/pt-placementTest.ts", "src/lib/ko-placementTest.ts"];
 
 const header = (rel) =>
   `// Synced from ${SOURCE_REPO}:${rel} by scripts/sync-content.mjs -- edit it there, not here.\n`;

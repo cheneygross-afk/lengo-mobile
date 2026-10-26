@@ -31,7 +31,8 @@ type Props = NativeStackScreenProps<AppStackParamList, "ExamPaper">;
 // Timed mode runs the paper's real time limit and, in listening, allows
 // each recording two plays (or the recording's own limit), as in the exam.
 // With course "fr" it runs a DELF/DALF paper and with "de" a
-// Goethe-Zertifikat paper: the same runner, in that language (see
+// Goethe-Zertifikat paper, with "pt" a Celpe-Bras one and with "ko" a TOPIK
+// section (shown out of 100): the same runner, in that language (see
 // components/exams/examCourse.ts).
 export default function ExamPaperScreen({ route, navigation }: Props) {
   const course = route.params.course ?? "es";
@@ -66,7 +67,9 @@ export default function ExamPaperScreen({ route, navigation }: Props) {
 }
 
 function Runner({ exam, paper, onRestart, onBack }: { exam: Exam; paper: ExamPaper; onRestart: () => void; onBack: () => void }) {
-  const LANG = useExamCourse().lang;
+  const { lang: LANG, paperMax = PAPER_POINTS } = useExamCourse();
+  // A paper's 25 points on the course's own scale (TOPIK: 100 per section).
+  const shown = (p: number) => (paperMax === PAPER_POINTS ? p : Math.round((p * paperMax) / PAPER_POINTS));
   const auto = isAutoMarked(paper);
   const scroll = useRef<ScrollView>(null);
   const [answers, setAnswers] = useState<ExamAnswers>({});
@@ -139,12 +142,12 @@ function Runner({ exam, paper, onRestart, onBack }: { exam: Exam; paper: ExamPap
         {marked ? <StudyCreditNote result={credit} /> : null}
         {previous !== null && !marked ? (
           <Text style={s.muted}>
-            Last attempt: {previous}/{PAPER_POINTS}
+            Last attempt: {shown(previous)}/{paperMax}
           </Text>
         ) : null}
         {marked ? (
           <Text style={s.result}>
-            {points}/{PAPER_POINTS} points{score ? ` · ${score.correct}/${score.total} right` : ""}
+            {shown(points ?? 0)}/{paperMax} points{score ? ` · ${score.correct}/${score.total} right` : ""}
           </Text>
         ) : timerEnds !== null ? (
           <View style={s.row}>
@@ -203,7 +206,7 @@ function Runner({ exam, paper, onRestart, onBack }: { exam: Exam; paper: ExamPap
         {marked ? (
           <>
             <Text style={s.body}>
-              {points}/{PAPER_POINTS} points. Your score is saved on this device.
+              {shown(points ?? 0)}/{paperMax} points. Your score is saved on this device.
             </Text>
             <View style={s.row}>
               <Pressable style={s.secondaryBtn} onPress={onRestart}>

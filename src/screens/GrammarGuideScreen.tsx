@@ -16,6 +16,13 @@ import type { PortugueseLevelKey } from "@/lib/lessons/portuguese";
 import type { FrenchStoryLevel } from "@/lib/stories/fr";
 import type { GermanStoryLevel } from "@/lib/stories/de";
 import type { PortugueseStoryLevel } from "@/lib/stories/pt";
+import type { KoreanStoryLevel } from "@/lib/stories/ko";
+import type { KoreanLevelKey } from "@/lib/lessons/korean";
+import { loadKoreanGuides } from "@/lib/grammar/korean";
+import type { KoGrammarGuide } from "@/lib/grammar/ko-types";
+import { KOREAN_LANG } from "@/lib/speech";
+import { loadKoLessons, koToolLevel, type KoLessonRow } from "@/lib/ko-tools/data";
+import { koGuideLevelLabel } from "./GrammarListScreen";
 
 type Props = NativeStackScreenProps<AppStackParamList, "GrammarGuide">;
 
@@ -33,6 +40,7 @@ const LESSONS_FOR_LEVEL: Record<string, LessonModuleKey> = {
 // word by word in whichever language each word is in.
 export default function GrammarGuideScreen(props: Props) {
   const lang = props.route.params.lang;
+  if (lang === "ko") return <KoreanGrammarGuideScreen {...props} />;
   return lang === "fr" || lang === "de" || lang === "pt" ? (
     <CourseGrammarGuideScreen {...props} course={lang} />
   ) : (
@@ -41,7 +49,12 @@ export default function GrammarGuideScreen(props: Props) {
 }
 
 // What the guide layout below needs, whichever course the guide is from.
-type GuideBody = Pick<GrammarGuide, "title" | "level" | "intro" | "sections" | "mistakes" | "faqs">;
+// (A Korean mistake can be a register slip rather than an error: shown as
+// "less natural here", not crossed out.)
+type GuideBody = Pick<GrammarGuide, "title" | "intro" | "sections" | "faqs"> & {
+  level: string;
+  mistakes: (GrammarGuide["mistakes"][number] & { register?: boolean })[];
+};
 
 function SpanishGrammarGuideScreen({ route, navigation }: Props) {
   const guide = GRAMMAR_GUIDES.find((g) => g.slug === route.params.slug);
@@ -153,8 +166,69 @@ function CourseGrammarGuideScreen({ route, navigation, course }: Props & { cours
   );
 }
 
+// A Korean grammar guide (the website's /lessons/ko/tools/grammar/[slug],
+// loaded on demand): the same layout, every Korean word read in the ko-KR
+// voice (old Hangul shown but never voiced, see TapText), the level by name
+// with its TOPIK level, and links into the Korean lessons that teach it
+// (looked up in the small lesson list, src/lib/ko-tools) and its stories.
+function KoreanGrammarGuideScreen({ route, navigation }: Props) {
+  const [data, setData] = useState<{ guides: KoGrammarGuide[]; lessons: KoLessonRow[] } | null>(null);
+  useEffect(() => {
+    let cancelled = false;
+    Promise.all([loadKoreanGuides(), loadKoLessons()]).then(([guides, lessons]) => {
+      if (!cancelled) setData({ guides, lessons });
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+  if (!data) {
+    return (
+      <View style={[s.screen, s.loading]}>
+        <ActivityIndicator />
+      </View>
+    );
+  }
+  const guide = data.guides.find((g) => g.slug === route.params.slug);
+  if (!guide) {
+    return (
+      <View style={s.screen}>
+        <Text style={[s.body, { padding: 20 }]}>This guide isn’t available.</Text>
+      </View>
+    );
+  }
+  const bySlug = new Map(data.lessons.map((l) => [l[0], l]));
+  const first = guide.lessons.map((slug) => bySlug.get(slug)).find((l): l is KoLessonRow => !!l);
+  const levelKey = guide.level.toLowerCase() as KoreanLevelKey;
+  const levelName = guide.level === "Hangul" ? "Hangul" : (koToolLevel(levelKey)?.name ?? "");
+  const related = guide.related
+    .map((slug) => data.guides.find((g) => g.slug === slug))
+    .filter((g): g is KoGrammarGuide => !!g);
+  return (
+    <GuideLayout
+      guide={{
+        ...guide,
+        sections: guide.sections.map((sec) => ({ ...sec, examples: sec.examples?.map((ex) => ({ es: ex.ko, en: ex.en })) })),
+      }}
+      kicker={koGuideLevelLabel(guide.level)}
+      lang={KOREAN_LANG}
+      practiceLabel={first ? "Practice this in lessons" : `Go to the ${levelName} lessons`}
+      onPractice={() =>
+        first
+          ? navigation.navigate("LessonRunner", { slug: first[0], levelPath: `ko/${first[2]}` })
+          : navigation.navigate("LessonList", { koreanLevel: levelKey })
+      }
+      storyLabel={guide.level === "Hangul" ? undefined : `Read a ${levelName} story`}
+      onStory={() => navigation.navigate("ReadingsList", { koreanLevel: levelKey as KoreanStoryLevel["path"] })}
+      related={related}
+      onRelated={(slug) => navigation.push("GrammarGuide", { slug, lang: "ko" })}
+    />
+  );
+}
+
 function GuideLayout({
   guide,
+  kicker,
   lang,
   practiceLabel,
   onPractice,
@@ -164,17 +238,20 @@ function GuideLayout({
   onRelated,
 }: {
   guide: GuideBody;
+  /** The level line; "Level A1" when not given. */
+  kicker?: string;
   lang: SpeechLang;
   practiceLabel: string;
   onPractice: () => void;
-  storyLabel: string;
+  /** No story button when not given. */
+  storyLabel?: string;
   onStory: () => void;
   related: { slug: string; title: string }[];
   onRelated: (slug: string) => void;
 }) {
   return (
     <ScrollView style={s.screen} contentContainerStyle={s.content}>
-      <Text style={s.kicker}>Level {guide.level}</Text>
+      <Text style={s.kicker}>{kicker ?? `Level ${guide.level}`}</Text>
       <TapText text={guide.title} lang={lang} style={s.title} />
       {guide.intro.map((p, i) => (
         <TapText key={i} text={p} lang={lang} style={s.body} />
@@ -222,7 +299,14 @@ function GuideLayout({
           <TapText text="Common mistakes" lang={lang} mode="english" style={s.heading} />
           {guide.mistakes.map((m) => (
             <View key={m.wrong} style={s.example}>
-              <TapText text={m.wrong} lang={lang} mode="target" style={s.wrong} />
+              {m.register ? (
+                <Text style={s.registerRow}>
+                  <Text style={s.registerLabel}>Less natural here: </Text>
+                  <TapText text={m.wrong} lang={lang} mode="target" style={s.register} />
+                </Text>
+              ) : (
+                <TapText text={m.wrong} lang={lang} mode="target" style={s.wrong} />
+              )}
               <TapText text={m.right} lang={lang} mode="target" style={s.right} />
               <TapText text={m.why} lang={lang} style={s.exampleEn} />
             </View>
@@ -245,9 +329,11 @@ function GuideLayout({
       <Pressable style={s.bigBtn} onPress={onPractice}>
         <Text style={s.bigBtnText}>{practiceLabel}</Text>
       </Pressable>
-      <Pressable style={s.secondaryBtn} onPress={onStory}>
-        <Text style={s.secondaryBtnText}>{storyLabel}</Text>
-      </Pressable>
+      {storyLabel ? (
+        <Pressable style={s.secondaryBtn} onPress={onStory}>
+          <Text style={s.secondaryBtnText}>{storyLabel}</Text>
+        </Pressable>
+      ) : null}
 
       {related.length > 0 && (
         <View style={s.section}>
@@ -291,6 +377,9 @@ const s = StyleSheet.create({
   exampleEs: { fontSize: 15, fontWeight: "600", color: "#2A1513" },
   exampleEn: { fontSize: 13.5, color: "#2A151399", marginTop: 2, lineHeight: 19 },
   wrong: { fontSize: 14, color: "#b91c1c", textDecorationLine: "line-through" },
+  registerRow: { fontSize: 14 },
+  registerLabel: { fontSize: 12, color: "#2A151380" },
+  register: { fontSize: 14, color: "#b45309" },
   right: { fontSize: 15, fontWeight: "600", color: "#15803d", marginTop: 2 },
   faqQ: { fontSize: 15, fontWeight: "700", color: "#2A1513", marginBottom: 4 },
   bigBtn: { backgroundColor: "#8B0000", borderRadius: 999, paddingVertical: 15, alignItems: "center", marginTop: 28 },

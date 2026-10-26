@@ -31,6 +31,7 @@ import {
   getFrenchReviewCounts,
   getGermanReviewCounts,
   getPortugueseReviewCounts,
+  getKoreanReviewCounts,
   getTodaysReviewCounts,
   loadSchedule,
   saveSchedule,
@@ -40,10 +41,11 @@ import { creditStudy, type CreditResult } from "@/lib/studyDays";
 import { QUESTION_MINUTES, STREAK_MIN_REVIEW_QUESTIONS } from "@/lib/studyCredit";
 import { buildUnifiedReview, recordAttempt, syncAttempts, unifiedReviewEnabled } from "@/lib/attempts";
 import { lessonConceptId } from "@/lib/curriculum/items";
-import { FRENCH_LANG, GERMAN_LANG, PORTUGUESE_LANG, langForLevelPath } from "@/lib/speech";
+import { FRENCH_LANG, GERMAN_LANG, KOREAN_LANG, PORTUGUESE_LANG, langForLevelPath } from "@/lib/speech";
 import { FRENCH_LEVEL_PATHS } from "@/lib/lessons/french";
 import { GERMAN_LEVEL_PATHS } from "@/lib/lessons/german";
 import { PORTUGUESE_LEVEL_PATHS } from "@/lib/lessons/portuguese";
+import { KOREAN_LEVEL_PATHS } from "@/lib/lessons/korean";
 
 type Props = NativeStackScreenProps<AppStackParamList, "TodayReview">;
 
@@ -95,7 +97,7 @@ async function buildUnifiedQueue(): Promise<Item[]> {
 
 type Phase = "loading" | "intro" | "drilling" | "complete";
 
-/** The French, German or Portuguese course's review (as on the website): the questions
+/** The French, German, Portuguese or Korean course's review (as on the website): the questions
  * missed in its lessons that are due, oldest due first. */
 async function buildCourseQueue(levelPaths: string[]): Promise<Item[]> {
   const now = Date.now();
@@ -173,12 +175,13 @@ async function buildQueue(): Promise<{ items: Item[]; mixLeft: Record<string, { 
 }
 
 export default function TodayReviewScreen({ navigation, route }: Props) {
-  // "fr" / "de" / "pt": the French, German or Portuguese course's own review -- its missed questions, then its
-  // flashcards. Otherwise Spanish, as before.
+  // "fr" / "de" / "pt" / "ko": the French, German, Portuguese or Korean course's own review -- its missed
+  // questions, then its flashcards. Otherwise Spanish, as before.
   const course = route.params?.lang ?? "es";
   const french = course === "fr";
   const german = course === "de";
   const portuguese = course === "pt";
+  const korean = course === "ko";
   const [phase, setPhase] = useState<Phase>("loading");
   const [counts, setCounts] = useState<TodaysReviewCounts | null>(null);
   const [queue, setQueue] = useState<Item[]>([]);
@@ -208,9 +211,13 @@ export default function TodayReviewScreen({ navigation, route }: Props) {
       setCounts(await getPortugueseReviewCounts());
       return;
     }
+    if (korean) {
+      setCounts(await getKoreanReviewCounts());
+      return;
+    }
     await seedScheduleFromCompletions();
     setCounts(await getTodaysReviewCounts());
-  }, [french, german, portuguese]);
+  }, [french, german, portuguese, korean]);
 
   useFocusEffect(
     useCallback(() => {
@@ -227,6 +234,8 @@ export default function TodayReviewScreen({ navigation, route }: Props) {
         ? { items: await buildCourseQueue(GERMAN_LEVEL_PATHS), mixLeft: {} }
         : portuguese
           ? { items: await buildCourseQueue(PORTUGUESE_LEVEL_PATHS), mixLeft: {} }
+          : korean
+          ? { items: await buildCourseQueue(KOREAN_LEVEL_PATHS), mixLeft: {} }
           : (await unifiedReviewEnabled())
           ? { items: await buildUnifiedQueue(), mixLeft: {} }
           : await buildQueue();
@@ -348,8 +357,8 @@ export default function TodayReviewScreen({ navigation, route }: Props) {
                 <Text style={s.title}>{todaysReviewTotal(counts)} due today</Text>
                 <Text style={s.body}>{todaysReviewBreakdown(counts)}</Text>
                 <Text style={s.muted}>
-                  {french || german || portuguese
-                    ? `Questions you missed in your ${french ? "French" : german ? "German" : "Portuguese"} lessons, until you get them right. Then your flashcards.`
+                  {french || german || portuguese || korean
+                    ? `Questions you missed in your ${french ? "French" : german ? "German" : portuguese ? "Portuguese" : "Korean"} lessons, until you get them right. Then your flashcards.`
                     : "Questions you missed, plus a few from lessons you finished earlier, so older grammar keeps coming back at longer and longer gaps. Then your flashcards."}
                 </Text>
                 {questionCount > 0 && (
@@ -387,7 +396,7 @@ export default function TodayReviewScreen({ navigation, route }: Props) {
               index={0}
               hideIndexLabel
               showInlineFeedback={false}
-              lang={current.kind === "concept" ? langForLevelPath(current.levelPath) : french ? FRENCH_LANG : german ? GERMAN_LANG : portuguese ? PORTUGUESE_LANG : LANG}
+              lang={current.kind === "concept" ? langForLevelPath(current.levelPath) : french ? FRENCH_LANG : german ? GERMAN_LANG : portuguese ? PORTUGUESE_LANG : korean ? KOREAN_LANG : LANG}
               onChecked={(correct, explanation) => handleChecked(current, correct, explanation)}
             />
           </View>

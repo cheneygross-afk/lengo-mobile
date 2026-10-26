@@ -5,6 +5,9 @@ import type { AppStackParamList } from "@/navigation/types";
 import { GRAMMAR_GUIDES } from "@/lib/grammar/guides";
 import { GUIDE_COURSES, type CourseGuide, type GuideCourse } from "@/lib/grammar/courseGuides";
 import TapText from "@/components/TapText";
+import { loadKoreanGuides } from "@/lib/grammar/korean";
+import { KO_LEVEL_ORDER, TOPIK_FOR_LEVEL, type KoGrammarGuide, type KoLevel } from "@/lib/grammar/ko-types";
+import { KOREAN_LANG } from "@/lib/speech";
 
 type Props = NativeStackScreenProps<AppStackParamList, "Grammar">;
 
@@ -14,6 +17,7 @@ const LEVEL_ORDER = ["A1", "A2", "B1", "B2", "C1", "C2"] as const;
 // (src/lib/grammar, synced from the website), grouped by level.
 export default function GrammarListScreen(props: Props) {
   const lang = props.route.params?.lang;
+  if (lang === "ko") return <KoreanGrammarList {...props} />;
   return lang === "fr" || lang === "de" || lang === "pt" ? (
     <CourseGrammarList {...props} course={lang} key={lang} />
   ) : (
@@ -80,6 +84,67 @@ function CourseGrammarList({ navigation, course }: Props & { course: GuideCourse
               </Text>
             </>
           )}
+        </Pressable>
+      )}
+      ItemSeparatorComponent={() => <View style={{ height: 10 }} />}
+    />
+  );
+}
+
+/** "Beginner · TOPIK 1"; the Hangul module's guides are "Hangul and Pronunciation". */
+export function koGuideLevelLabel(level: KoLevel): string {
+  const name = { Hangul: "Hangul and Pronunciation", A1: "Beginner", A2: "Elementary", B1: "Intermediate", B2: "Upper-intermediate", C1: "Advanced", C2: "Mastery" }[level];
+  return TOPIK_FOR_LEVEL[level] ? `${name} · ${TOPIK_FOR_LEVEL[level]}` : name;
+}
+
+// The Korean beta's grammar guides (the website's /lessons/ko/tools/grammar,
+// loaded on demand): the sound system first, then Beginner ... Mastery,
+// each level shown by name with its TOPIK level, never the code. Every
+// Korean word in a title or description plays when tapped.
+function KoreanGrammarList({ navigation }: Props) {
+  const [guides, setGuides] = useState<KoGrammarGuide[] | null>(null);
+  useLayoutEffect(() => {
+    navigation.setOptions({ title: "Korean grammar" });
+  }, [navigation]);
+  useEffect(() => {
+    let cancelled = false;
+    loadKoreanGuides().then((g) => {
+      if (!cancelled) setGuides(g);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+  if (!guides) {
+    return (
+      <View style={[styles.container, styles.loading]}>
+        <ActivityIndicator />
+      </View>
+    );
+  }
+  const sections = KO_LEVEL_ORDER.map((level) => ({
+    title: koGuideLevelLabel(level),
+    data: guides.filter((g) => g.level === level),
+  })).filter((s) => s.data.length > 0);
+  return (
+    <SectionList
+      style={styles.container}
+      contentContainerStyle={styles.content}
+      sections={sections}
+      keyExtractor={(g) => g.slug}
+      stickySectionHeadersEnabled={false}
+      ListHeaderComponent={
+        <TapText
+          text={`${guides.length} short explanations of the grammar points learners get stuck on, each with tables, examples and the mistakes English speakers make. Pronunciation is shown in Hangul brackets: 읽다 [익따]. Tap any Korean word to hear it.`}
+          lang={KOREAN_LANG}
+          style={styles.subtitle}
+        />
+      }
+      renderSectionHeader={({ section }) => <Text style={styles.sectionHeader}>{section.title}</Text>}
+      renderItem={({ item }) => (
+        <Pressable style={styles.card} onPress={() => navigation.navigate("GrammarGuide", { slug: item.slug, lang: "ko" })}>
+          <TapText text={item.title} lang={KOREAN_LANG} style={styles.cardTitle} />
+          <TapText text={item.description} lang={KOREAN_LANG} style={styles.cardBody} />
         </Pressable>
       )}
       ItemSeparatorComponent={() => <View style={{ height: 10 }} />}
