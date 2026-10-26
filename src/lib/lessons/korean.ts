@@ -115,9 +115,7 @@ export const KOREAN_LEVELS: KoreanLevelInfo[] = [
     label: "Korean Culture & Everyday Life",
     topik: null,
     kind: "bonus",
-    // The website's ko-culture.ts isn't in the app's content sync yet; once
-    // it is, add its case to importLevel() below and set this to true.
-    available: false,
+    available: true,
     description:
       "Age and how to address people, 눈치 and saying things indirectly, food and drinking etiquette, holidays and family rites, school and work life, internet culture, Konglish, K-culture words, regional Korea and Korean history in brief. Opens from Elementary.",
   },
@@ -177,9 +175,10 @@ async function importLevel(key: KoreanLevelKey): Promise<{ lessons: Lesson[]; un
       const m = await import("./ko-c2");
       return { lessons: m.KO_C2_LESSONS, units: m.KO_C2_UNITS };
     }
-    case "culture":
-      // Not synced yet (see KOREAN_LEVELS); never reached while available is false.
-      return { lessons: [], units: [] };
+    case "culture": {
+      const m = await import("./ko-culture");
+      return { lessons: m.KO_CULTURE_LESSONS, units: m.KO_CULTURE_UNITS };
+    }
   }
 }
 
