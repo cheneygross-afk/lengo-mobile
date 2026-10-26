@@ -26,6 +26,23 @@ function japaneseSpans(text: string): Span[] {
   return spans;
 }
 
+// Hangul syllables and jamo, and the spaces and punctuation between them:
+// any such run is Korean (nothing else in this app is written in
+// Hangul), so the Korean course needs no quote marks, the way Japanese
+// works. TapText still splits a run into its spaced words. Same rule as
+// the website's targetSpans.ts.
+const KOREAN_RUN =
+  /[\u1100-\u11FF\u3130-\u318F\uA960-\uA97F\uAC00-\uD7FF]+(?:[\s,.?!…~·]*[\u1100-\u11FF\u3130-\u318F\uA960-\uA97F\uAC00-\uD7FF]+)*[.?!]?/g;
+
+function koreanSpans(text: string): Span[] {
+  const spans: Span[] = [];
+  for (const m of text.matchAll(KOREAN_RUN)) {
+    if (m.index === undefined) continue;
+    spans.push({ start: m.index, end: m.index + m[0].length, text: m[0] });
+  }
+  return spans;
+}
+
 // Spanish shares the Latin alphabet with the English framing text these
 // questions are written in, so there's no script to detect by -- instead,
 // any span inside double quotes (straight or curly) is a deliberately
@@ -106,6 +123,7 @@ function chineseSpans(text: string): Span[] {
 export function targetSpans(text: string, lang: SpeechLang): Span[] {
   if (lang === "ja-JP") return japaneseSpans(text);
   if (lang === "zh-CN") return chineseSpans(text);
+  if (lang === "ko-KR") return koreanSpans(text);
   // French, like Spanish, shares the English script: quoted spans, or the
   // whole string when it has no English framing.
   if (lang === "es-ES" || lang === "fr-FR") {

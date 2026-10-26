@@ -21,7 +21,7 @@ import {
 } from "@/lib/pronunciationVoice";
 import { getSpanishVariety, loadSpanishVariety, spanishSpeechLang } from "@/lib/spanishVariety";
 
-export type SpeechLang = "es-ES" | "es-US" | "ja-JP" | "en-US" | "zh-CN" | "fr-FR" | "de-DE" | "pt-BR";
+export type SpeechLang = "es-ES" | "es-US" | "ja-JP" | "en-US" | "zh-CN" | "fr-FR" | "de-DE" | "pt-BR" | "ko-KR";
 
 // Screens ask for Spanish as SPANISH_LANG (es-ES); the learner's "Spanish
 // I want to learn" setting decides which voice actually speaks it --
@@ -38,14 +38,17 @@ export const FRENCH_LANG: SpeechLang = "fr-FR";
 export const GERMAN_LANG: SpeechLang = "de-DE";
 // The Brazilian Portuguese course (lessons/pt-*.ts), spoken by Google's pt-BR voices.
 export const PORTUGUESE_LANG: SpeechLang = "pt-BR";
+// The Korean beta (lessons/ko-*.ts), spoken by Google's ko-KR voices.
+export const KOREAN_LANG: SpeechLang = "ko-KR";
 
 // The course languages taught in English (French, German, Portuguese,
-// Japanese, Chinese) name their language in English input hints; the
+// Korean, Japanese, Chinese) name their language in English input hints; the
 // Spanish course and the English course keep their Spanish hints.
 const ENGLISH_TAUGHT_NAMES: Partial<Record<SpeechLang, string>> = {
   "fr-FR": "French",
   "de-DE": "German",
   "pt-BR": "Portuguese",
+  "ko-KR": "Korean",
   "ja-JP": "Japanese",
   "zh-CN": "Chinese",
 };
@@ -63,6 +66,7 @@ export function langForLevelPath(levelPath: string): SpeechLang {
   if (levelPath === "fr" || levelPath.startsWith("fr/")) return FRENCH_LANG;
   if (levelPath === "de" || levelPath.startsWith("de/")) return GERMAN_LANG;
   if (levelPath === "pt" || levelPath.startsWith("pt/")) return PORTUGUESE_LANG;
+  if (levelPath === "ko" || levelPath.startsWith("ko/")) return KOREAN_LANG;
   return levelPath.startsWith("ja") ? JAPANESE_LANG : SPANISH_LANG;
 }
 
@@ -71,6 +75,7 @@ export function langForLevel(level: string): SpeechLang {
   if (level.startsWith("FR-")) return FRENCH_LANG;
   if (level.startsWith("DE-")) return GERMAN_LANG;
   if (level.startsWith("PT-")) return PORTUGUESE_LANG;
+  if (level.startsWith("KO-")) return KOREAN_LANG;
   return level.startsWith("JA") ? JAPANESE_LANG : SPANISH_LANG;
 }
 
@@ -208,11 +213,11 @@ function loadPronunciationPrefs(): Promise<void> {
   return prefsLoadPromise;
 }
 
-// Only the course languages (Spanish, Japanese, Chinese, French, German, Brazilian Portuguese) get generated cloud audio -- English UI text
+// Only the course languages (Spanish, Japanese, Chinese, French, German, Brazilian Portuguese, Korean) get generated cloud audio -- English UI text
 // (flashcard backs, glosses, etc.) always uses the device voice, which is
 // already fine for English and isn't worth paying to regenerate.
 function hasCloudVoice(lang: SpeechLang): boolean {
-  return lang === "es-ES" || lang === "es-US" || lang === JAPANESE_LANG || lang === CHINESE_LANG || lang === FRENCH_LANG || lang === GERMAN_LANG || lang === PORTUGUESE_LANG;
+  return lang === "es-ES" || lang === "es-US" || lang === JAPANESE_LANG || lang === CHINESE_LANG || lang === FRENCH_LANG || lang === GERMAN_LANG || lang === PORTUGUESE_LANG || lang === KOREAN_LANG;
 }
 
 function voiceLang(lang: SpeechLang): SpeechLang {
