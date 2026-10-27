@@ -280,13 +280,13 @@ export const EN_B2_U01_EXTRA: Lesson[] = [
     level: "EN-B2",
     number: 2,
     title: "Extra Practice: The Past Before the Past",
-    summary: "Drill the past perfect for earlier events (\"the film had started\"), translate «ya se había ido» and «nunca había visto», and learn when NOT to use it.",
+    summary: "Drill the past perfect for earlier events (\"the movie had started\"), translate «ya se había ido» and «nunca había visto», and learn when NOT to use it.",
     duration: "10 min",
     sections: [
       {
         heading: "Quick recap: the flashback tense",
         body: [
-          "The past perfect (\"had\" + past participle) jumps back to an event that happened before another past event: \"When we got there, the film had started\". Without it, English tells the events in order: \"When we got there, the film started\" means it started as we arrived.",
+          "The past perfect (\"had\" + past participle) jumps back to an event that happened before another past event: \"When we got there, the movie had started\". Without it, English tells the events in order: \"When we got there, the movie started\" means it started as we arrived.",
           "The participle is the third form of the verb: \"had seen\", \"had gone\", \"had eaten\". *Had saw, *had went and *had ate are common mistakes; the second form (\"saw\", \"went\") is never used after \"had\".",
           "Do not overuse it. If you tell events in the order they happened, the past simple is enough: \"I got up, took a shower and left\". «Ya» goes between \"had\" and the participle: \"had already left\".",
         ],
@@ -1510,7 +1510,7 @@ export const EN_B2_U01_EXTRA: Lesson[] = [
           "Everyone was crying at the end of the movie.",
           "Everyone was crying at the end of the film.",
         ],
-        explanation: "Here «al final de» marks the last part of the film, so \"at the end of\", not \"in the end\".",
+        explanation: "Here «al final de» marks the last part of the movie, so \"at the end of\", not \"in the end\".",
       },
       {
         type: "dictation",

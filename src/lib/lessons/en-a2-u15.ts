@@ -76,7 +76,7 @@ export const EN_A2_U15: Lesson[] = [
         heading: "\"That\": el comodín, y por qué no es \"what\"",
         body: [
           "\"That\" vale para personas y para cosas, y en el inglés hablado de Estados Unidos es muy frecuente: \"the woman that lives next door\", \"the book that I bought\". Si dudas, \"that\" casi nunca falla en este tipo de frases.",
-          "Lo que nunca se usa es \"what\". Como «que» se parece a «qué», muchos hispanohablantes dicen \"the film what I saw\". Lo correcto es \"the film that I saw\" o \"the film which I saw\".",
+          "Lo que nunca se usa es \"what\". Como «que» se parece a «qué», muchos hispanohablantes dicen \"the movie what I saw\". Lo correcto es \"the movie that I saw\" o \"the movie which I saw\".",
           "\"What\" significa «lo que» y no lleva ningún sustantivo delante: \"I know what you want\" («sé lo que quieres»), \"This is what I need\" («esto es lo que necesito»).",
         ],
         examples: [
@@ -2004,7 +2004,7 @@ export const EN_A2_U15: Lesson[] = [
       {
         heading: "Repaso: relativos",
         body: [
-          "Personas: \"who\" o \"that\". Cosas: \"which\" o \"that\". Nunca \"what\": *the film what I saw → \"the film that I saw\". Y nunca \"which\" para personas: *the man which... → \"the man who...\".",
+          "Personas: \"who\" o \"that\". Cosas: \"which\" o \"that\". Nunca \"what\": *the movie what I saw → \"the movie that I saw\". Y nunca \"which\" para personas: *the man which... → \"the man who...\".",
           "El pronombre ya ocupa su lugar: no repitas el sujeto (\"the man who he lives here\") ni el objeto (\"the book that I bought it\").",
           "Lugares con \"where\" (\"the town where I was born\") y posesión con \"whose\" (\"the girl whose dad is a pilot\").",
         ],
@@ -2114,15 +2114,15 @@ export const EN_A2_U15: Lesson[] = [
     exercises: [
       {
         type: "multiple-choice",
-        question: "Corrige: *The film what I saw was great.",
+        question: "Corrige: *The movie what I saw was great.",
         options: [
-          "The film I saw was great.",
-          "The film which I saw it was great.",
-          "The film who I saw was great.",
-          "The film what I saw it was great.",
+          "The movie I saw was great.",
+          "The movie which I saw it was great.",
+          "The movie who I saw was great.",
+          "The movie what I saw it was great.",
         ],
         correctIndex: 0,
-        explanation: "\"What\" no va después de un sustantivo. Como \"the film\" es el objeto de \"saw\", el pronombre se puede quitar.",
+        explanation: "\"What\" no va después de un sustantivo. Como \"the movie\" es el objeto de \"saw\", el pronombre se puede quitar.",
       },
       {
         type: "translate",

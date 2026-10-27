@@ -1738,7 +1738,7 @@ export const EN_A2_U12: Lesson[] = [
         prompt: "Traduce al inglés.",
         source: "Suelo ir a nadar dos veces por semana.",
         answer: "I go swimming twice a week.",
-        altAnswers: ["I go swimming two times a week."],
+        altAnswers: ["I go swimming two times a week.", "I usually go swimming twice a week.", "I usually go swimming two times a week."],
         explanation: "Actividad de ocio: \"go swimming\". «Dos veces por semana» es \"twice a week\".",
       },
       {

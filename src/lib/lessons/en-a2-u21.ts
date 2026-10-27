@@ -40,7 +40,7 @@ export const EN_A2_U21: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "La dependienta te pregunta \"Can I help you?\" y solo quieres mirar. ¿Qué dices?",
+            question: "La vendedora te pregunta \"Can I help you?\" y solo quieres mirar. ¿Qué dices?",
             options: ["I'm just looking, thanks.", "I'm only watching, thanks.", "No, I see only.", "I'm just seeing, thanks."],
             correctIndex: 0,
             explanation: "Mirar en una tienda es \"look\": \"I'm just looking\". \"Watch\" es mirar algo que se mueve (la tele, un partido) y \"see\" es ver sin intención.",
@@ -344,7 +344,7 @@ export const EN_A2_U21: Lesson[] = [
             question: "¿Cómo preguntas si necesitas receta del médico?",
             options: ["Do I need a prescription?", "Do I need a recipe?", "Do I need a receipt?", "Do I need a revenue?"],
             correctIndex: 0,
-            explanation: "La receta médica es \"prescription\". \"Recipe\" es una receta de cocina y \"receipt\" es el ticket de compra.",
+            explanation: "La receta médica es \"prescription\". \"Recipe\" es una receta de cocina y \"receipt\" es el recibo de compra.",
           },
         ],
       },
@@ -1298,7 +1298,7 @@ export const EN_A2_U21: Lesson[] = [
         ],
         examples: [
           { es: "Excuse me, I'm afraid this soup is cold.", en: "Perdone, pero la sopa está fría." },
-          { es: "I'm sorry, but this isn't what I ordered.", en: "Perdone, pero esto no es lo que he pedido." },
+          { es: "I'm sorry, but this isn't what I ordered.", en: "Perdone, pero esto no es lo que pedí." },
           { es: "The steak is a bit overcooked.", en: "La carne está un poco pasada." },
           { es: "I'm afraid there's a mistake on the check.", en: "Me temo que hay un error en la cuenta." },
           { es: "Excuse me, we've been waiting for forty minutes.", en: "Perdone, llevamos cuarenta minutos esperando." },
@@ -1334,7 +1334,7 @@ export const EN_A2_U21: Lesson[] = [
           { es: "It's broken.", en: "Está roto." },
           { es: "This shirt has a hole in it.", en: "Esta camisa tiene un agujero." },
           { es: "I'd like to make a complaint.", en: "Quiero poner una reclamación." },
-          { es: "You charged me twice.", en: "Me han cobrado dos veces." },
+          { es: "You charged me twice.", en: "Me cobraron dos veces." },
         ],
         checkpoint: [
           {
@@ -1440,7 +1440,7 @@ export const EN_A2_U21: Lesson[] = [
         instructions: "Une cada frase con su significado.",
         pairs: [
           { left: "a refund", right: "un reembolso" },
-          { left: "the receipt", right: "el ticket de compra" },
+          { left: "the receipt", right: "el recibo de compra" },
           { left: "It's broken.", right: "Está roto." },
           { left: "the manager", right: "el encargado" },
         ],
@@ -1449,10 +1449,10 @@ export const EN_A2_U21: Lesson[] = [
       {
         type: "listen-choose",
         audio: "Do you have the receipt?",
-        question: "¿Qué te pide el dependiente?",
-        options: ["El ticket de compra.", "La receta del médico.", "Tu documento de identidad.", "La tarjeta de crédito."],
+        question: "¿Qué te pide el vendedor?",
+        options: ["El recibo de compra.", "La receta del médico.", "Tu documento de identidad.", "La tarjeta de crédito."],
         correctIndex: 0,
-        explanation: "\"Receipt\" es el ticket de compra. La receta médica es \"prescription\".",
+        explanation: "\"Receipt\" es el recibo de compra. La receta médica es \"prescription\".",
       },
       {
         type: "speak",
@@ -1647,7 +1647,7 @@ export const EN_A2_U21: Lesson[] = [
     level: "EN-A2",
     number: 9,
     title: "Supervivencia: hacer planes e invitar",
-    summary: "Proponer planes, aceptar y rechazar con amabilidad y fijar hora y lugar: \"Are you free on Saturday?\", \"I'd love to, but I can't\", \"Shall we meet at eight?\".",
+    summary: "Proponer planes, aceptar y rechazar con amabilidad y fijar hora y lugar: \"Are you free on Saturday?\", \"I'd love to, but I can't\", \"Should we meet at eight?\".",
     duration: "11 min",
     sections: [
       {
@@ -1746,7 +1746,7 @@ export const EN_A2_U21: Lesson[] = [
         ],
         examples: [
           { es: "What time should we meet?", en: "¿A qué hora nos vemos?" },
-          { es: "Shall we meet at eight?", en: "¿Nos vemos a las ocho?" },
+          { es: "Should we meet at eight?", en: "¿Nos vemos a las ocho?" },
           { es: "Let's meet outside the movie theater.", en: "Veámonos en la puerta del cine." },
           { es: "Where should we meet?", en: "¿Dónde nos vemos?" },
           { es: "See you on Saturday!", en: "¡Nos vemos el sábado!" },
@@ -1819,9 +1819,9 @@ export const EN_A2_U21: Lesson[] = [
       {
         type: "word-order",
         prompt: "Ordena las palabras.",
-        words: ["Shall", "we", "meet", "at", "eight?"],
+        words: ["Should", "we", "meet", "at", "eight?"],
         translation: "¿Nos vemos a las ocho?",
-        explanation: "\"Shall we\" + verbo propone algo. En Estados Unidos es más común \"Should we\".",
+        explanation: "\"Should we\" + verbo propone algo. En inglés británico también se dice \"Shall we\".",
       },
       {
         type: "matching",

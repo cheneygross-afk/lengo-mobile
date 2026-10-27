@@ -137,12 +137,12 @@ export const EN_B2_U01: Lesson[] = [
         heading: "Going back: the past perfect",
         body: [
           "Use the past perfect when you are already telling a story in the past and need to mention something that happened before that point: \"I didn't recognize him. He had changed a lot\".",
-          "Spanish uses «había» + participle in the same way, so the form is easy. The problem is that Spanish speakers often skip it after \"when\" or \"already\": *When I arrived, the film already started should be \"the film had already started\".",
+          "Spanish uses «había» + participle in the same way, so the form is easy. The problem is that Spanish speakers often skip it after \"when\" or \"already\": *When I arrived, the movie already started should be \"the movie had already started\".",
           "If \"before\" or \"after\" already makes the order clear, the past simple is fine too: \"After I finished my homework, I went out\" and \"After I had finished my homework, I went out\" are both correct.",
         ],
         examples: [
           { es: "I didn't recognize him. He had changed a lot.", en: "No lo reconocí. Había cambiado mucho." },
-          { es: "When I arrived, the film had already started.", en: "Cuando llegué, la película ya había empezado." },
+          { es: "When I arrived, the movie had already started.", en: "Cuando llegué, la película ya había empezado." },
           { es: "She was nervous because she had never flown before.", en: "Estaba nerviosa porque nunca había volado." },
           { es: "After I finished my homework, I went out.", en: "Después de terminar la tarea, salí." },
           { es: "We realized we had taken the wrong train.", en: "Nos dimos cuenta de que habíamos tomado el tren equivocado." },
@@ -167,7 +167,7 @@ export const EN_B2_U01: Lesson[] = [
               "The film had already started when we arrived at the cinema.",
               "The movie had already started when we arrived at the movie theater.",
             ],
-            explanation: "The film started before we arrived, so \"had already started\". *The film already started is a common Spanish-speaker error.",
+            explanation: "The movie started before we arrived, so \"had already started\". *The movie already started is a common Spanish-speaker error.",
           },
         ],
       },
@@ -774,12 +774,12 @@ export const EN_B2_U01: Lesson[] = [
       {
         heading: "Error 1: the missing flashback",
         body: [
-          "Read this: *When I arrived the film already started. A native speaker understands, but it sounds wrong. \"Already\" tells us the film started before I arrived, so English needs the past perfect: \"When I arrived, the film had already started\".",
+          "Read this: *When I arrived the movie already started. A native speaker understands, but it sounds wrong. \"Already\" tells us the movie started before I arrived, so English needs the past perfect: \"When I arrived, the movie had already started\".",
           "The same happens with \"never\", \"just\" and \"before\" when they look back from a past moment: \"I had never seen snow before that trip\", \"She had just gone out when I called\".",
           "Spanish speakers often skip the past perfect because spoken Spanish sometimes allows «cuando llegué, la película ya empezó». English does not.",
         ],
         examples: [
-          { es: "When I arrived, the film had already started.", en: "Cuando llegué, la película ya había empezado. (incorrecto: *the film already started)" },
+          { es: "When I arrived, the movie had already started.", en: "Cuando llegué, la película ya había empezado. (incorrecto: *the movie already started)" },
           { es: "I had never seen snow before that trip.", en: "Nunca había visto la nieve antes de ese viaje." },
           { es: "She had just gone out when I called.", en: "Acababa de salir cuando llamé." },
           { es: "I knew the city well because I had lived there.", en: "Conocía bien la ciudad porque había vivido allí." },
@@ -865,7 +865,7 @@ export const EN_B2_U01: Lesson[] = [
         ],
         examples: [
           { es: "She had gone to bed early.", en: "Se había acostado temprano. (incorrecto: *had went)" },
-          { es: "I had seen that film before.", en: "Ya había visto esa película." },
+          { es: "I had seen that movie before.", en: "Ya había visto esa película." },
           { es: "Suddenly, the lights went out.", en: "De repente, se fue la luz." },
           { es: "Last summer I was in Paris and I visited the Louvre.", en: "El verano pasado estuve en París y visité el Louvre." },
         ],
@@ -885,15 +885,15 @@ export const EN_B2_U01: Lesson[] = [
     exercises: [
       {
         type: "multiple-choice",
-        question: "Find the correct version of: *When I arrived the film already started.",
+        question: "Find the correct version of: *When I arrived the movie already started.",
         options: [
-          "When I arrived, the film had already started.",
-          "When I arrived, the film was already starting.",
-          "When I arrived, the film has already started.",
-          "When I had arrived, the film already started.",
+          "When I arrived, the movie had already started.",
+          "When I arrived, the movie was already starting.",
+          "When I arrived, the movie has already started.",
+          "When I had arrived, the movie already started.",
         ],
         correctIndex: 0,
-        explanation: "The film started first, so it takes the past perfect. My arrival, the later event, stays in the past simple.",
+        explanation: "The movie started first, so it takes the past perfect. My arrival, the later event, stays in the past simple.",
       },
       {
         type: "multiple-choice",
@@ -1971,7 +1971,7 @@ export const EN_B2_U01: Lesson[] = [
         ],
         examples: [
           { es: "I saw him yesterday.", en: "Lo vi ayer." },
-          { es: "I've seen that film three times.", en: "He visto esa película tres veces." },
+          { es: "I've seen that movie three times.", en: "He visto esa película tres veces." },
           { es: "She's lived here since May.", en: "Vive aquí desde mayo." },
           { es: "When did you arrive?", en: "¿Cuándo llegaste?" },
           { es: "Have you ever been to Peru? Yes, I went there in 2018.", en: "¿Has estado alguna vez en Perú? Sí, fui en 2018." },

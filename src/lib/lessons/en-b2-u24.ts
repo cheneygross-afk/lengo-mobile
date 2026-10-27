@@ -25,7 +25,7 @@ export const EN_B2_U24: Lesson[] = [
           { es: "He's looking for a job.", en: "Está buscando trabajo." },
           { es: "I'll call you after work.", en: "Te llamo después del trabajo." },
           { es: "She's at work until six.", en: "Está en el trabajo hasta las seis." },
-          { es: "Thanks, you did a great job.", en: "Gracias, has hecho un trabajo estupendo." },
+          { es: "Thanks, you did a great job.", en: "Gracias, hiciste un trabajo estupendo." },
           { es: "It's a work of art.", en: "Es una obra de arte." },
         ],
         checkpoint: [
@@ -321,7 +321,7 @@ export const EN_B2_U24: Lesson[] = [
           { es: "We've been doing business with them for years.", en: "Llevamos años haciendo negocios con ellos." },
           { es: "It's a pleasure doing business with you.", en: "Es un placer hacer negocios con usted." },
           { es: "We finally closed the deal.", en: "Por fin cerramos el trato." },
-          { es: "The shop went out of business last year.", en: "La tienda cerró el año pasado." },
+          { es: "The store went out of business last year.", en: "La tienda cerró el año pasado." },
           { es: "That's none of your business.", en: "Eso no es asunto tuyo." },
         ],
         checkpoint: [
@@ -450,9 +450,9 @@ export const EN_B2_U24: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Muchas tiendas pequeñas cerraron durante la crisis.",
-        answer: "Many small shops went out of business during the crisis.",
+        answer: "Many small stores went out of business during the crisis.",
         altAnswers: [
-          "Many small stores went out of business during the crisis.",
+          "Many small shops went out of business during the crisis.",
           "A lot of small shops went out of business during the crisis.",
           "A lot of small stores went out of business during the crisis.",
           "Many small shops closed during the crisis.",
@@ -614,7 +614,7 @@ export const EN_B2_U24: Lesson[] = [
           { es: "We can't afford to go on vacation this year.", en: "Este año no nos podemos permitir ir de vacaciones." },
           { es: "I can't afford it.", en: "No me lo puedo permitir." },
           { es: "What's your budget for the wedding?", en: "¿Qué presupuesto tienen para la boda?" },
-          { es: "I'm saving for a new laptop.", en: "Estoy ahorrando para un portátil nuevo." },
+          { es: "I'm saving for a new laptop.", en: "Estoy ahorrando para una laptop nueva." },
           { es: "Sorry, I'm broke this month.", en: "Lo siento, este mes estoy sin dinero." },
         ],
         checkpoint: [
@@ -763,7 +763,7 @@ export const EN_B2_U24: Lesson[] = [
       {
         heading: "Good deals and bad deals",
         body: [
-          "A \"bargain\" is something you buy for much less than its real value («una ganga», «un chollo»): \"This jacket was a real bargain.\" The verb \"bargain\" (or \"haggle\") means to argue about the price («regatear»).",
+          "A \"bargain\" is something you buy for much less than its real value («una ganga»): \"This jacket was a real bargain.\" The verb \"bargain\" (or \"haggle\") means to argue about the price («regatear»).",
           "The opposite is a \"rip-off\" (informal): something far too expensive. \"Twelve dollars for a coffee? What a rip-off!\" The verb is \"rip someone off\": \"They ripped us off.\"",
           "Other useful words: \"a sale\" («rebajas»: \"The shoes were on sale\"), \"a discount\" («descuento»), and \"a deal\" (a special offer: \"buy one, get one free\").",
         ],
@@ -804,7 +804,7 @@ export const EN_B2_U24: Lesson[] = [
           { es: "Do you have the receipt?", en: "¿Tiene el recibo?" },
           { es: "I'd like a refund, please.", en: "Quisiera que me devolvieran el dinero, por favor." },
           { es: "Can I exchange this for a smaller size?", en: "¿Puedo cambiar esto por una talla más pequeña?" },
-          { es: "The laptop is still under warranty.", en: "El portátil todavía está en garantía." },
+          { es: "The laptop is still under warranty.", en: "La laptop todavía está en garantía." },
           { es: "They refunded the full price.", en: "Me devolvieron el precio íntegro." },
         ],
         checkpoint: [
@@ -842,7 +842,7 @@ export const EN_B2_U24: Lesson[] = [
       {
         heading: "How we buy: impulse buys and brand loyalty",
         body: [
-          "An \"impulse buy\" is something you buy without planning, because you suddenly want it («compra impulsiva»). Shops put sweets near the checkout to encourage impulse buying.",
+          "An \"impulse buy\" is something you buy without planning, because you suddenly want it («compra impulsiva»). Stores put candy near the checkout to encourage impulse buying.",
           "\"Brand loyalty\" is when customers keep buying the same brand («fidelidad a la marca»). A \"brand\" is the company name on a product (Nike, Coca-Cola); don't confuse it with \"mark\" («señal», «nota»).",
           "Other consumer words: \"consumer\" (a person who buys), \"consumerism\" (a culture focused on buying things), \"shop around\" (compare prices in different places) and \"window-shopping\" (looking without buying).",
         ],
@@ -1282,8 +1282,8 @@ export const EN_B2_U24: Lesson[] = [
             sentence: "She's going to ___ mayor next year.",
             answer: "run for",
             altAnswers: ["stand for"],
-            en: "Se va a [presentar a] alcaldesa el año que viene.",
-            explanation: "«Presentarse a» an election or office is \"run for\" (US) or \"stand for\" (UK). *Present herself is wrong.",
+            en: "Se va a [postular para] alcaldesa el año que viene.",
+            explanation: "«Postularse para» (Spain: «presentarse a») an election or office is \"run for\" (US) or \"stand for\" (UK). *Present herself is wrong.",
           },
           {
             type: "translate",
@@ -1466,7 +1466,7 @@ export const EN_B2_U24: Lesson[] = [
         body: [
           "You \"commit\" a crime, never \"make\" or \"do\" one: \"He committed a serious crime.\" Also \"commit murder\", \"commit fraud\", \"commit an offense\".",
           "\"Crime\" can be countable (one illegal act: \"a crime\") or uncountable (crime in general, «la delincuencia»): \"Crime is falling in the city.\" A person who commits crimes is a \"criminal\"; someone who breaks the law is an \"offender\".",
-          "Other crimes: \"fraud\" («estafa», «fraude»), \"vandalism\", \"shoplifting\" (stealing from a shop), \"drug dealing\", \"murder\" («asesinato»).",
+          "Other crimes: \"fraud\" («estafa», «fraude»), \"vandalism\", \"shoplifting\" (stealing from a store), \"drug dealing\", \"murder\" («asesinato»).",
         ],
         examples: [
           { es: "He committed the crime when he was eighteen.", en: "Cometió el delito cuando tenía dieciocho años." },
@@ -2508,7 +2508,7 @@ export const EN_B2_U24: Lesson[] = [
         ],
         examples: [
           { es: "The economy grew by two percent last year.", en: "La economía creció un dos por ciento el año pasado." },
-          { es: "She studied economics at university.", en: "Estudió Economía en la universidad." },
+          { es: "She studied economics in college.", en: "Estudió Economía en la universidad." },
           { es: "The country is in a recession.", en: "El país está en recesión." },
           { es: "Inflation has fallen to three percent.", en: "La inflación ha bajado al tres por ciento." },
           { es: "The central bank raised interest rates.", en: "El banco central subió las tasas de interés." },
@@ -2537,7 +2537,7 @@ export const EN_B2_U24: Lesson[] = [
         heading: "Linkers of result",
         body: [
           "To connect a cause and its consequence, use \"so\" (neutral, inside one sentence), or more formal linkers that usually start a new sentence: \"As a result,\", \"Therefore,\", \"Consequently,\" («por lo tanto», «en consecuencia»).",
-          "\"Therefore\" can also go in the middle: \"Prices rose and, therefore, sales fell.\" \"As a result of\" + noun: \"As a result of the crisis, many shops closed.\"",
+          "\"Therefore\" can also go in the middle: \"Prices rose and, therefore, sales fell.\" \"As a result of\" + noun: \"As a result of the crisis, many stores closed.\"",
           "Careful: \"so\" is not used at the start of a formal written sentence to mean «por lo tanto». And «así que» is \"so\", never \"so that\" (which means «para que»).",
         ],
         examples: [

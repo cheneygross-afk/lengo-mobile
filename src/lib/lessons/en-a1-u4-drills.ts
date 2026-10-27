@@ -901,6 +901,7 @@ export const EN_A1_U4_DRILLS: Lesson[] = [
       {
         heading: "Qué hay y qué están haciendo",
         body: [
+          "Para decir «hay» se usa \"there is\" (singular) y \"there are\" (plural): \"There is a man\", \"There are two dogs\". Aquí los usarás para describir; los estudiarás a fondo más adelante en este nivel.",
           "Para describir una foto, primero dices qué hay (\"There is a man\", \"There are two girls\") y luego qué hacen, en continuo y con sujeto: \"He is reading\". Para el lugar: \"on the left\", \"on the right\", \"in the middle\".",
           "Las posturas también van en continuo: \"She's sitting\", \"They're standing\", \"He's lying on the sofa\". Pero para decir dónde estás basta \"be\": \"I'm at work\", \"I'm on the train\".",
         ],
@@ -1224,7 +1225,7 @@ export const EN_A1_U4_DRILLS: Lesson[] = [
         examples: [
           { es: "I need a new pair of shoes.", en: "Necesito un par de zapatos nuevos." },
           { es: "He's wearing a black T-shirt and jeans.", en: "Lleva una camiseta negra y jeans." },
-          { es: "We're having a great time at the beach.", en: "Lo estamos pasando genial en la playa." },
+          { es: "We're having a great time at the beach.", en: "La estamos pasando genial en la playa." },
         ],
       },
     ],
@@ -1386,7 +1387,7 @@ export const EN_A1_U4_DRILLS: Lesson[] = [
         type: "word-order",
         prompt: "Ordena las palabras.",
         words: ["We", "are", "having", "a", "great", "time", "here."],
-        translation: "Lo estamos pasando genial aquí.",
+        translation: "La estamos pasando genial aquí.",
         explanation: "\"Have a great time\" es una acción: puede ir en continuo.",
       },
       {

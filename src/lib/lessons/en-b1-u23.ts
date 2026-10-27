@@ -15,7 +15,7 @@ export const EN_B1_U23: Lesson[] = [
       {
         heading: "Direct and indirect questions",
         body: [
-          "A direct question goes straight to the point: \"Where is the station?\". It's fine with friends, but with strangers, in shops or at work it can sound a little abrupt.",
+          "A direct question goes straight to the point: \"Where is the station?\". It's fine with friends, but with strangers, in stores or at work it can sound a little abrupt.",
           "An indirect question starts with a polite opener, like \"Could you tell me...?\" or \"Do you know...?\", and then puts the real question inside: \"Could you tell me where the station is?\".",
           "Spanish does the same thing («¿Me podría decir dónde está la estación?»), so the idea is easy. The problem is the word order, which changes in English.",
         ],

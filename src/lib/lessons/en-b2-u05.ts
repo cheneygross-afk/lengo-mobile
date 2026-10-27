@@ -554,8 +554,8 @@ export const EN_B2_U05: Lesson[] = [
         ],
         examples: [
           { es: "If I win the race, I'll buy everyone a drink.", en: "Si gano la carrera, invitaré a todos a un trago." },
-          { es: "If I won the race, I'd buy everyone a drink.", en: "Si ganara la carrera, invitaría a todos a una copa." },
-          { es: "If I had won the race, I'd have bought everyone a drink.", en: "Si hubiera ganado la carrera, habría invitado a todos a una copa." },
+          { es: "If I won the race, I'd buy everyone a drink.", en: "Si ganara la carrera, invitaría a todos a un trago." },
+          { es: "If I had won the race, I'd have bought everyone a drink.", en: "Si hubiera ganado la carrera, habría invitado a todos a un trago." },
         ],
         checkpoint: [
           {
@@ -866,7 +866,7 @@ export const EN_B2_U05: Lesson[] = [
         heading: "Otherwise",
         body: [
           "\"Otherwise\" means «si no», «de lo contrario» or «de otro modo». It refers back to the sentence before: \"Hurry up, otherwise we'll miss the train.\"",
-          "It usually starts a new clause after a comma, a semicolon or a full stop, and it is followed by a normal result (will, would, would have): \"I'm glad you called; otherwise I would have worried.\"",
+          "It usually starts a new clause after a comma, a semicolon or a period, and it is followed by a normal result (will, would, would have): \"I'm glad you called; otherwise I would have worried.\"",
           "In speech, \"or\" and \"or else\" do the same job: \"Hurry up, or we'll miss the train.\"",
         ],
         examples: [
@@ -1398,7 +1398,7 @@ export const EN_B2_U05: Lesson[] = [
         source: "Si a Lucia no se le hubieran olvidado las llaves, no habría tenido que llamar a un cerrajero.",
         answer: "If Lucia hadn't left her keys behind, she wouldn't have had to call a locksmith.",
         altAnswers: ["If Lucia hadn't forgotten her keys, she wouldn't have had to call a locksmith.", "If Lucia hadn't left her keys, she wouldn't have had to call a locksmith.", "If Lucia hadn't left her keys at home, she wouldn't have had to call a locksmith.", "Lucia wouldn't have had to call a locksmith if she hadn't forgotten her keys.", "Lucia wouldn't have had to call a locksmith if she hadn't left her keys behind."],
-        explanation: "«Dejarse algo» (forget to take it) is \"leave something behind\" or \"forget\". «Habría tenido que» is \"would have had to\".",
+        explanation: "«Olvidársele algo a alguien» is simply \"forget\" or \"leave something behind\". «Habría tenido que» is \"would have had to\".",
       },
       {
         type: "translate",
@@ -2146,7 +2146,7 @@ export const EN_B2_U05: Lesson[] = [
         ],
         examples: [
           { es: "I won't buy it unless it's on sale.", en: "No lo compraré a menos que esté rebajado." },
-          { es: "Take some water in case you get thirsty.", en: "Llévate agua por si te entra sed." },
+          { es: "Take some water in case you get thirsty.", en: "Llévate agua por si te da sed." },
           { es: "If there's a problem, call me.", en: "En caso de que haya algún problema, llámame." },
         ],
         checkpoint: [

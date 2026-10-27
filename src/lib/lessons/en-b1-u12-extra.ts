@@ -186,7 +186,7 @@ export const EN_B1_U12_EXTRA: Lesson[] = [
         type: "matching",
         instructions: "Match each sentence with its meaning.",
         pairs: [
-          { left: "I could swim when I was four.", right: "Sabía nadar con cuatro años." },
+          { left: "I could swim when I was four.", right: "Sabía nadar a los cuatro años." },
           { left: "I managed to swim to the island.", right: "Conseguí llegar nadando a la isla." },
           { left: "I couldn't swim because of the waves.", right: "No pude nadar por las olas." },
           { left: "I could see fish in the water.", right: "Se veían peces en el agua." },
@@ -724,10 +724,10 @@ export const EN_B1_U12_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Debiste de pasarlo muy bien en Japón.",
+        source: "Debiste de pasarla muy bien en Japón.",
         answer: "You must have had a great time in Japan.",
         altAnswers: ["You must have had a really good time in Japan.", "You must have had a very good time in Japan.", "You must have had a lot of fun in Japan.", "You must have had a wonderful time in Japan.", "You must have had a good time in Japan.", "You must have enjoyed Japan a lot.", "You must have enjoyed yourself in Japan."],
-        explanation: "«Pasarlo bien» = \"have a good time\"; the participle is \"had\": \"must have had\". The double \"have had\" is correct.",
+        explanation: "«Pasarla bien» = \"have a good time\"; the participle is \"had\": \"must have had\". The double \"have had\" is correct.",
       },
       {
         type: "translate",

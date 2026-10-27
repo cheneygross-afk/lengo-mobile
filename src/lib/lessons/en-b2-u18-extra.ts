@@ -906,7 +906,7 @@ export const EN_B2_U18_EXTRA: Lesson[] = [
           "Gives an example with \"For example,\" or \"For instance,\".",
           "Introduces the opposing view with \"On the other hand,\" or \"However,\".",
         ],
-        modelAnswer: "In my view, cities should ban cars from their centers. Firstly, traffic is the main cause of air pollution in most big cities. For example, when several European cities restricted cars in their centers, pollution levels dropped noticeably. In addition, streets without cars are safer and more pleasant for walking, so local shops often get more customers. On the other hand, some people argue that a ban would make life difficult for elderly people and delivery drivers. However, this problem can be solved with good public transport and special permits. All things considered, the benefits of car-free centers clearly outweigh the drawbacks.",
+        modelAnswer: "In my view, cities should ban cars from their centers. Firstly, traffic is the main cause of air pollution in most big cities. For example, when several European cities restricted cars in their centers, pollution levels dropped noticeably. In addition, streets without cars are safer and more pleasant for walking, so local stores often get more customers. On the other hand, some people argue that a ban would make life difficult for elderly people and delivery drivers. However, this problem can be solved with good public transport and special permits. All things considered, the benefits of car-free centers clearly outweigh the drawbacks.",
         explanation: "Check that every signpost is followed by a comma and that you only use \"according to\" for other people's views.",
       },
     ],

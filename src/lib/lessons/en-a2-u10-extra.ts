@@ -719,9 +719,9 @@ export const EN_A2_U10_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Un amigo quiere dejar el trabajo sin tener otro. Quieres aconsejarle que no lo haga. ¿Qué dices?",
-        options: ["I don't think you should quit yet.", "I think you shouldn't quit yet.", "You must quit yet.", "You don't have to think."],
+        options: ["I don't think you should quit yet.", "I don't think you should to quit yet.", "You must quit yet.", "You don't have to think."],
         correctIndex: 0,
-        explanation: "La forma natural es \"I don't think you should\". \"I think you shouldn't\" se entiende, pero no es lo que dice un nativo.",
+        explanation: "La forma natural es \"I don't think you should\" + verbo base, sin \"to\": *should to quit es un error. \"You must quit\" sería una orden, lo contrario de tu consejo.",
       },
       {
         type: "matching",

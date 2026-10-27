@@ -162,7 +162,7 @@ export const EN_B1_U25_DRILLS: Lesson[] = [
       dc("We went to church and then had lunch at home.",
         "Three places with no article: \"church\" (to pray), \"lunch\" (a meal) and \"home\" (after \"at\")."),
       sp("Sorry, I can't talk now. I'm at work.", "\"At work\" with no article, like \"at home\" and \"at school\".",
-        "Stress \"can't\" and \"work\".", "Say it in English: Perdón, no puedo hablar ahora. Estoy en el trabajo."),
+        "Stress \"can't\" and \"work\".", "Say it in English: «Perdón, no puedo hablar ahora. Estoy en el trabajo»"),
       // Traps: general vs specific mixed with places
       tr("La gente que trabaja en el hospital es muy amable.", "The people {who|that} work {at|in} the hospital are very {kind|friendly|nice}.",
         "Three traps at once: these are specific people (\"who work at the hospital\"), so \"the people\"; \"people\" takes a plural verb (\"are\"); and the hospital here is a workplace, so \"the\"."),
@@ -173,7 +173,7 @@ export const EN_B1_U25_DRILLS: Lesson[] = [
       fb("___ is very important to me.", ["Family", "My family"], "[La familia] es muy importante para mí.",
         "Family as an idea, in general: no article. \"My family\" also works if you mean your own. *The family is important sounds like a specific family."),
       sp("Children learn languages faster than adults.", "Three general plurals, no article: \"children\", \"languages\", \"adults\".",
-        "Link \"learn languages\" smoothly.", "Say it in English: Los niños aprenden idiomas más rápido que los adultos."),
+        "Link \"learn languages\" smoothly.", "Say it in English: «Los niños aprenden idiomas más rápido que los adultos»"),
       tr("Mañana no hay clases, así que los niños se quedan en casa.", ["There's no school tomorrow, so the {kids|children} {are staying|will stay|stay} {at home|home}.", "There are no classes tomorrow, so the {kids|children} {are staying|will stay|stay} {at home|home}."],
         "\"No school\" (no article, the institution), \"the kids\" (our specific kids) and \"at home\" or simply \"home\" (no article). Never *in the house for «en casa» here."),
     ],
@@ -246,12 +246,12 @@ export const EN_B1_U25_DRILLS: Lesson[] = [
         "School subjects ending in -s are singular: \"Math is\", \"Physics is\". And no article: subjects in general."),
       fb("My family ___ from Ecuador.", "is", "Mi familia [es] de Ecuador.",
         "In American English, group nouns like \"family\" and \"team\" usually take a singular verb: \"My family is\"."),
-      lc("The staff are really friendly here.", [
+      lc("The staff is really friendly here.", [
         "El personal es muy amable aquí.",
         "Los empleados son muy amigos aquí.",
         "La plantilla es muy grande aquí.",
         "Las personas de aquí son ruidosas.",
-      ], "\"Staff\" is a group noun for the people who work somewhere; it can take a plural verb (\"are\") and never adds -s. \"Friendly\" is «amable», not «amigos»."),
+      ], "\"Staff\" is a group noun for the people who work somewhere; American English usually gives it a singular verb (\"is\"; British English often uses \"are\"), and it never adds -s. \"Friendly\" is «amable», not «amigos»."),
       dc("The police have closed the road near the school.",
         "\"The police have\": plural verb. \"The road\" and \"the school\" here are specific places, so they take \"the\"."),
       mt("Match the Spanish with the English. Watch the articles.", [
@@ -267,7 +267,7 @@ export const EN_B1_U25_DRILLS: Lesson[] = [
       wo("Many endangered species live in the Amazon.", "Muchas especies en peligro de extinción viven en el Amazonas.",
         "\"Species\" is the same in singular and plural, so \"many species\" needs no -s added. \"The Amazon\" takes \"the\", like all rivers."),
       sp("Recycling is easy, but people don't do it.", "\"Recycling\" in general (no article) and \"people\" (plural verb: \"don't\").",
-        "Stress \"easy\" and \"don't\".", "Say it in English: Reciclar es fácil, pero la gente no lo hace."),
+        "Stress \"easy\" and \"don't\".", "Say it in English: «Reciclar es fácil, pero la gente no lo hace»"),
       // Traps: the whole unit
       tr("Mi hermano es policía y trabaja de noche dos veces a la semana.", "My brother is a {police officer|policeman|cop} and {|he} works {at night|nights} twice a week.",
         "One person is \"a police officer\" (never *a police), with \"a\" because it's a job. And the rate: \"twice a week\"."),
@@ -284,7 +284,7 @@ export const EN_B1_U25_DRILLS: Lesson[] = [
       tr("La gente piensa que los científicos no tienen pruebas.", ["People think {that |}scientists don't have any evidence.", "People think {that |}scientists have no evidence."],
         "\"People\" (no article, plural verb), \"scientists\" in general (no article), and \"evidence\" is uncountable: no plural, \"any evidence\"."),
       sp("My clothes are still wet.", "\"Clothes\" is plural-only: \"are\", never *is. Spanish «ropa» is singular, which is why this is easy to get wrong.",
-        "\"Clothes\" sounds like \"close\", one syllable.", "Say it in English: Mi ropa todavía está mojada."),
+        "\"Clothes\" sounds like \"close\", one syllable.", "Say it in English: «Mi ropa todavía está mojada»"),
     ],
   ),
 ];

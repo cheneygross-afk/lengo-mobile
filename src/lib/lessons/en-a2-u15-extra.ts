@@ -11,14 +11,14 @@ export const EN_A2_U15_EXTRA: Lesson[] = [
     level: "EN-A2",
     number: 1,
     title: "Práctica extra: who, which y that",
-    summary: "Práctica intensiva de \"who\", \"which\", \"that\" y \"where\" en las oraciones de relativo, con los errores típicos: *the man which, *the book who y *the film what.",
+    summary: "Práctica intensiva de \"who\", \"which\", \"that\" y \"where\" en las oraciones de relativo, con los errores típicos: *the man which, *the book who y *the movie what.",
     duration: "10 min",
     sections: [
       {
         heading: "Recordatorio: elige la palabra según el sustantivo",
         body: [
           "El «que» español se reparte en inglés: \"who\" para personas, \"which\" para cosas y animales, y \"that\" para las dos. Para lugares donde pasa algo, \"where\" («donde»).",
-          "Dos errores muy frecuentes: usar \"which\" con personas (*the man which works here) y usar \"what\" como relativo (*the film what I saw). \"What\" significa «lo que» y nunca va después de un sustantivo: \"I know what you mean\".",
+          "Dos errores muy frecuentes: usar \"which\" con personas (*the man which works here) y usar \"what\" como relativo (*the movie what I saw). \"What\" significa «lo que» y nunca va después de un sustantivo: \"I know what you mean\".",
         ],
         examples: [
           { es: "The nurse who helped me was very kind.", en: "La enfermera que me ayudó fue muy amable." },

@@ -54,7 +54,7 @@ export const EN_B2_U20: Lesson[] = [
           { es: "It's the price that worries me, not the size.", en: "Lo que me preocupa es el precio, no el tamaño." },
           { es: "It was in Lisbon that they first met.", en: "Fue en Lisboa donde se conocieron." },
           { es: "It wasn't me who left the door open.", en: "No fui yo quien dejó la puerta abierta." },
-          { es: "It was only yesterday that I heard the news.", en: "Fue ayer cuando me enteré de la noticia." },
+          { es: "It was only yesterday that I heard the news.", en: "No fue sino hasta ayer que me enteré de la noticia." },
           { es: "Is it Carlos who's organizing the trip?", en: "¿Es Carlos quien está organizando el viaje?" },
         ],
         checkpoint: [
@@ -96,7 +96,7 @@ export const EN_B2_U20: Lesson[] = [
           { es: "What I don't understand is why she left.", en: "Lo que no entiendo es por qué se fue." },
           { es: "What we need is more time.", en: "Lo que necesitamos es más tiempo." },
           { es: "What I did was call the police.", en: "Lo que hice fue llamar a la policía." },
-          { es: "What happened was that the bus broke down.", en: "Lo que pasó fue que se averió el autobús." },
+          { es: "What happened was that the bus broke down.", en: "Lo que pasó fue que se descompuso el autobús." },
           { es: "What I love about this city is the light.", en: "Lo que me encanta de esta ciudad es la luz." },
         ],
         checkpoint: [
@@ -784,13 +784,13 @@ export const EN_B2_U20: Lesson[] = [
       {
         heading: "So ... that, such ... that",
         body: [
-          "To say that something was extreme enough to cause a result, use so + adjective/adverb + (that) or such + (a) + noun + (that): \"It was so cold that we stayed home\", \"It was such a long film that I fell asleep\". This is Spanish «tan... que» and «tal... que».",
+          "To say that something was extreme enough to cause a result, use so + adjective/adverb + (that) or such + (a) + noun + (that): \"It was so cold that we stayed home\", \"It was such a long movie that I fell asleep\". This is Spanish «tan... que» and «tal... que».",
           "In conversation, \"that\" is usually dropped: \"I was so tired I went straight to bed\".",
           "The same rules as before apply: so + adjective, such + noun phrase, so much/many + noun: \"There were so many people that we couldn't get in\".",
         ],
         examples: [
           { es: "It was so cold that we stayed home.", en: "Hacía tanto frío que nos quedamos en casa." },
-          { es: "It was such a long film that I fell asleep.", en: "Era una película tan larga que me dormí." },
+          { es: "It was such a long movie that I fell asleep.", en: "Era una película tan larga que me dormí." },
           { es: "I was so tired I went straight to bed.", en: "Estaba tan cansado que me fui directo a la cama." },
           { es: "There were so many people that we couldn't get in.", en: "Había tanta gente que no pudimos entrar." },
           { es: "She spoke so fast that nobody understood her.", en: "Habló tan rápido que nadie la entendió." },
@@ -1346,12 +1346,12 @@ export const EN_B2_U20: Lesson[] = [
       {
         heading: "So and such errors",
         body: [
-          "*It was so a good film and *a so big house: \"so\" can't go before \"a\" + noun. Fix: \"such a good film\", \"such a big house\".",
+          "*It was so a good movie and *a so big house: \"so\" can't go before \"a\" + noun. Fix: \"such a good movie\", \"such a big house\".",
           "*Such nice day: with a singular countable noun, \"such\" needs \"a\". Fix: \"such a nice day\". With plural or uncountable nouns there is no \"a\": \"such nice people\", \"such good weather\".",
           "*So much tired: \"so much\" only goes before nouns and comparatives. Fix: \"so tired\".",
         ],
         examples: [
-          { es: "It was such a good film.", en: "Fue una película tan buena. (incorrecto: *It was so a good film)" },
+          { es: "It was such a good movie.", en: "Fue una película tan buena. (incorrecto: *It was so a good movie)" },
           { es: "They live in such a big house.", en: "Viven en una casa tan grande. (incorrecto: *a so big house)" },
           { es: "It's such a nice day.", en: "Hace un día tan bonito. (incorrecto: *such nice day)" },
           { es: "I'm so tired.", en: "Estoy tan cansado. (incorrecto: *so much tired)" },
@@ -1360,10 +1360,10 @@ export const EN_B2_U20: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English.",
-            sentence: "It was ___ good film that we watched it twice.",
+            sentence: "It was ___ good movie that we watched it twice.",
             answer: "such a",
             en: "Era una película [tan] buena que la vimos dos veces.",
-            explanation: "Before \"good film\" (a singular noun phrase) you need \"such a\".",
+            explanation: "Before \"good movie\" (a singular noun phrase) you need \"such a\".",
           },
         ],
       },
@@ -1551,7 +1551,7 @@ export const EN_B2_U20: Lesson[] = [
           { es: "The ending surprised me. What surprised me was the ending.", en: "Lo que me sorprendió fue el final." },
           { es: "I called the police. What I did was call the police.", en: "Lo que hice fue llamar a la policía." },
           { es: "What you should do is apologize.", en: "Lo que deberías hacer es pedir perdón." },
-          { es: "What happened was that the bus broke down.", en: "Lo que pasó fue que se averió el autobús." },
+          { es: "What happened was that the bus broke down.", en: "Lo que pasó fue que se descompuso el autobús." },
         ],
         checkpoint: [
           {
@@ -1581,7 +1581,7 @@ export const EN_B2_U20: Lesson[] = [
           { es: "All I want is peace.", en: "Lo único que quiero es tranquilidad." },
           { es: "The only thing I want is peace.", en: "Lo único que quiero es tranquilidad." },
           { es: "The person who helped me most was my aunt.", en: "Quien más me ayudó fue mi tía." },
-          { es: "The place where we met was Lisbon.", en: "El sitio donde nos conocimos fue Lisboa." },
+          { es: "The place where we met was Lisbon.", en: "El lugar donde nos conocimos fue Lisboa." },
           { es: "The reason I left was that I was bored.", en: "Me fui porque estaba aburrido." },
         ],
         checkpoint: [
@@ -1611,7 +1611,7 @@ export const EN_B2_U20: Lesson[] = [
         examples: [
           { es: "I locked it. I did lock it.", en: "Lo cerré con llave. → Sí que lo cerré con llave." },
           { es: "It was a very nice day. It was such a nice day.", en: "Fue un día tan bonito." },
-          { es: "The film was very long. The film was so long.", en: "La película era tan larga." },
+          { es: "The movie was very long. The movie was so long.", en: "La película era tan larga." },
           { es: "I was very tired. I was completely exhausted.", en: "Estaba agotadísimo." },
         ],
         checkpoint: [
@@ -1946,7 +1946,7 @@ export const EN_B2_U20: Lesson[] = [
           "Emphatic do/did + base form",
           "A clarifying frame (What I meant was... / It's not that..., it's that...)",
         ],
-        modelAnswer: "Hi Lucia, I think there's been a small misunderstanding. I did book the room for Thursday; I have the confirmation here. It wasn't me who canceled it, but someone changed the booking yesterday. What I meant in my last message was that we should check the system together, not that it was your fault. Shall we call IT this afternoon? Best, Diego",
+        modelAnswer: "Hi Lucia, I think there's been a small misunderstanding. I did book the room for Thursday; I have the confirmation here. It wasn't me who canceled it, but someone changed the booking yesterday. What I meant in my last message was that we should check the system together, not that it was your fault. Should we call IT this afternoon? Best, Diego",
         explanation: "Emphasis helps you correct the facts while the polite frames keep the relationship friendly.",
       },
     ],
@@ -2253,7 +2253,7 @@ export const EN_B2_U20: Lesson[] = [
           "Very/extremely + gradable (very cold); absolutely/completely + extreme (absolutely freezing). Really goes with both, and before verbs: I really like it.",
         ],
         examples: [
-          { es: "It was such a long film that I fell asleep.", en: "Era una película tan larga que me dormí." },
+          { es: "It was such a long movie that I fell asleep.", en: "Era una película tan larga que me dormí." },
           { es: "She isn't old enough to vote.", en: "No tiene edad para votar." },
           { es: "I'm absolutely starving.", en: "Me muero de hambre." },
         ],

@@ -114,8 +114,8 @@ export const EN_B2_U21_DRILLS: Lesson[] = [
       fb("Rent in this neighborhood is ___ expensive as downtown.", "twice as", "El alquiler en este barrio es [el doble de] caro que en el centro.",
         "Multiples go before the first \"as\": \"twice as expensive as\" («el doble de caro que»), \"three times as big as\", \"half as long as\"."),
       tr("El examen no fue ni de lejos tan difícil como pensaba.", [
-        "The exam {wasn't|was not} {nearly|nowhere near} as {difficult|hard} as I {thought|expected}.",
-        "The test {wasn't|was not} {nearly|nowhere near} as {difficult|hard} as I {thought|expected}.",
+        "The exam {wasn't nearly|was not nearly|wasn't anywhere near|was nowhere near} as {difficult|hard} as I {thought|expected}.",
+        "The test {wasn't nearly|was not nearly|wasn't anywhere near|was nowhere near} as {difficult|hard} as I {thought|expected}.",
       ], "«Ni de lejos tan ... como» = \"not nearly as ... as\": a big difference. \"Not quite as\" would mean only a small difference."),
       mc("Which sentence is correct?", [
         "My sister is almost as tall as my dad.",
@@ -429,8 +429,8 @@ export const EN_B2_U21_DRILLS: Lesson[] = [
       fb("Their new apartment is ___ huge.", ["absolutely", "really"], "Su departamento nuevo es [realmente] enorme.",
         "\"Huge\" is extreme, so \"absolutely\" or \"really\". *Very huge doesn't work."),
       tr("Me muero de hambre. ¿Pedimos una pizza?", [
-        "I'm starving. {Shall we|Should we|Can we|Why don't we} order a pizza?",
-        "I'm absolutely starving. {Shall we|Should we|Can we|Why don't we} order a pizza?",
+        "I'm starving. {Should we|Shall we|Can we|Why don't we} order a pizza?",
+        "I'm absolutely starving. {Should we|Shall we|Can we|Why don't we} order a pizza?",
       ], "«Me muero de hambre» = \"I'm starving\", an extreme adjective. Don't translate word for word (*I'm dying of hunger sounds dramatic)."),
       mc("Which sentence is correct?", [
         "Their new house is much bigger than ours.",

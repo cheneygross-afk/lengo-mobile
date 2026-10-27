@@ -539,9 +539,9 @@ export const EN_B2_U06: Lesson[] = [
       {
         heading: "Post 2: \"If you will need help...\"",
         body: [
-          "Lucia offers help to a new member: \"If you will need help with your CV, send me a message.\" In Spanish, «si necesitas ayuda» is present, and English is the same. After \"if\" with a future meaning, use the present: \"If you need help\".",
+          "Lucia offers help to a new member: \"If you will need help with your resume, send me a message.\" In Spanish, «si necesitas ayuda» is present, and English is the same. After \"if\" with a future meaning, use the present: \"If you need help\".",
           "The same rule works with \"when\", \"as soon as\", \"unless\", \"as long as\", \"provided\" and \"in case\": \"when you finish\", \"unless it rains\", never *when you will finish.",
-          "Corrected: \"If you need help with your CV, send me a message.\"",
+          "Corrected: \"If you need help with your resume, send me a message.\"",
         ],
         examples: [
           { es: "If you need help with your resume, send me a message.", en: "Si necesitas ayuda con tu currículum, mándame un mensaje." },

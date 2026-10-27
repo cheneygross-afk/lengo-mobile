@@ -270,11 +270,11 @@ export const EN_B1_U16_EXTRA: Lesson[] = [
       {
         heading: "Quick recap: object yes, subject no",
         body: [
-          "If a new subject comes right after the relative word, the relative word is the OBJECT and you can leave it out: \"the film (that) I saw\", \"the people (who) we met\". Native speakers usually drop it in conversation.",
+          "If a new subject comes right after the relative word, the relative word is the OBJECT and you can leave it out: \"the movie (that) I saw\", \"the people (who) we met\". Native speakers usually drop it in conversation.",
           "If a verb comes right after the relative word, it is the SUBJECT and must stay: \"the man who lives next door\". *The man lives next door is a doctor is wrong, because English needs a word to join the two parts.",
         ],
         examples: [
-          { es: "The film I saw last night was great.", en: "La película que vi anoche fue genial." },
+          { es: "The movie I saw last night was great.", en: "La película que vi anoche fue genial." },
           { es: "The people we met in Rome were very kind.", en: "La gente que conocimos en Roma era muy amable." },
           { es: "The man who lives next door is a doctor.", en: "El hombre que vive al lado es médico." },
           { es: "Is this the phone you want?", en: "¿Es este el teléfono que quieres?" },

@@ -76,7 +76,7 @@ export const EN_B2_U04_DRILLS: Lesson[] = [
       "«Podré» is \"I'll be able to\" and «tendré que» is \"I'll have to\". «Esperar» is \"wait for\", \"expect\" or \"hope\". At work: \"When is it due?\", \"When do you need it by?\", \"I'm off tomorrow\", \"push the deadline back\".",
     ],
     [
-      ["I'm meeting Carlos at eight.", "Quedé con Carlos a las ocho."],
+      ["I'm meeting Carlos at eight.", "Quedé de verme con Carlos a las ocho."],
       ["Do you want me to carry that?", "¿Te llevo eso?"],
       ["You'll be able to see the volcano from the hotel.", "Podrás ver el volcán desde el hotel."],
       ["The report is due on Friday.", "El informe es para el viernes."],
@@ -112,7 +112,7 @@ export const EN_B2_U04_DRILLS: Lesson[] = [
         "An offer as a question: \"Should I...?\" (American) or \"Shall I...?\" (British). The Spanish present «¿abro?» doesn't translate as *Do I open?"),
       fb("Send it ___ Friday, please.", "by", "Mándalo [para el] viernes, por favor.",
         "A deadline (that day or earlier) is \"by\". \"Until\" would mean a continuous period."),
-      tr("No lo tendré hasta el viernes.", "I won't have it until Friday.",
+      tr("No lo tendré hasta el viernes.", "I won't {have|get} it {until|till} Friday.",
         "«No ... hasta» = \"not ... until\": you'll get it on Friday, not before."),
       mc("«Mañana a esta hora estoy en el avión.» Which is correct?", [
         "This time tomorrow I'll be on the plane.",
@@ -147,7 +147,7 @@ export const EN_B2_U04_DRILLS: Lesson[] = [
         "«¿Para cuándo es?» = \"When is it due?\" or \"When do you need it by?\". Not *For when is it?"),
       fb("When do you need it ___?", "by", "¿[Para] cuándo lo necesitas?",
         "English puts the preposition at the end of the question, and the deadline preposition is \"by\": not *For when do you need it?"),
-      tr("Mañana tengo el día libre.", ["I'm off tomorrow.", "I {have|'ve got} the day off tomorrow.", "I'm taking the day off tomorrow."],
+      tr("Mañana tengo el día libre.", ["I'm off tomorrow.", "{I have|I've got} the day off tomorrow.", "I'm taking the day off tomorrow."],
         "\"I'm off tomorrow\" is the natural way to say you're not working."),
       fb("I'll be out of the office ___ Monday.", "until", "Estaré fuera de la oficina [hasta el] lunes.",
         "The whole period up to Monday: \"until\". \"By Monday\" would be a deadline."),

@@ -55,7 +55,7 @@ export const EN_B2_U25: Lesson[] = [
           "The classic solution is to \"restart\" the device: \"Have you tried restarting it?\". \"Reboot\" means the same, but sounds more technical.",
         ],
         examples: [
-          { es: "My laptop crashed and I lost two hours of work.", en: "El portátil se colgó y perdí dos horas de trabajo." },
+          { es: "My laptop crashed and I lost two hours of work.", en: "La laptop se colgó y perdí dos horas de trabajo." },
           { es: "The screen froze, so I had to restart the computer.", en: "La pantalla se quedó congelada, así que tuve que reiniciar la computadora." },
           { es: "The bank's website has been down all morning.", en: "La web del banco lleva caída toda la mañana." },
           { es: "Sorry I didn't call you back. My phone died.", en: "Perdona que no te devolviera la llamada. Me quedé sin batería." },
@@ -116,7 +116,7 @@ export const EN_B2_U25: Lesson[] = [
           "And «técnico» as a person is \"technician\": \"A technician came to fix the internet.\"",
         ],
         examples: [
-          { es: "She studied computer science at university.", en: "Estudió informática en la universidad." },
+          { es: "She studied computer science in college.", en: "Estudió informática en la universidad." },
           { es: "Call IT if your password doesn't work.", en: "Llama a informática si tu contraseña no funciona." },
           { es: "My brother works in IT.", en: "Mi hermano trabaja en informática." },
           { es: "It's a new technique for treating cancer.", en: "Es una nueva técnica para tratar el cáncer." },
@@ -181,7 +181,7 @@ export const EN_B2_U25: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El portátil se colgó y perdí todo el trabajo.",
+        source: "La laptop se colgó y perdí todo el trabajo.",
         answer: "The laptop crashed and I lost all my work.",
         altAnswers: ["My laptop crashed and I lost all my work.", "The laptop crashed and I lost all the work.", "My laptop crashed and I lost all the work.", "The laptop froze and I lost all my work.", "My laptop froze and I lost all my work.", "The laptop crashed and I lost all of my work.", "My laptop crashed and I lost all of my work."],
         explanation: "A computer that stops working \"crashes\" or \"freezes\". \"Work\" here is uncountable: \"all my work\", never *all my works.",
@@ -498,7 +498,7 @@ export const EN_B2_U25: Lesson[] = [
             sentence: "I have ___ for you: you got the job!",
             answer: "some great news",
             altAnswers: ["great news", "some good news", "good news", "some fantastic news", "fantastic news", "some wonderful news", "wonderful news"],
-            en: "Tengo [una noticia buenísima] para ti: ¡te han dado el trabajo!",
+            en: "Tengo [una noticia buenísima] para ti: ¡te dieron el trabajo!",
             explanation: "«Una noticia» is \"some news\" or \"a piece of news\", never *a news. With an adjective: \"some great news\", \"great news\".",
           },
         ],
@@ -542,13 +542,13 @@ export const EN_B2_U25: Lesson[] = [
         body: [
           "\"Fake news\" is false information presented as news. It is uncountable too: \"There is a lot of fake news online\", not \"many fake news\". \"Misinformation\" is false information in general; \"disinformation\" is false information spread on purpose.",
           "A newspaper that is not neutral is \"biased\", and a fair one is \"impartial\" or \"objective\". \"Sensationalist\" news exaggerates to attract readers, and \"clickbait\" is a headline designed only to make you click.",
-          "A story or video that spreads very fast online \"goes viral\" (past: \"went viral\"). \"Broadcast\" means to send out a program on TV or radio (past: \"broadcast\"); a \"live broadcast\" is «una retransmisión en directo».",
+          "A story or video that spreads very fast online \"goes viral\" (past: \"went viral\"). \"Broadcast\" means to send out a program on TV or radio (past: \"broadcast\"); a \"live broadcast\" is «una transmisión en vivo».",
         ],
         examples: [
           { es: "There's a lot of fake news on social media.", en: "Hay muchas noticias falsas en las redes sociales." },
           { es: "I think that newspaper is very biased.", en: "Creo que ese periódico es muy parcial." },
           { es: "The video went viral in a few hours.", en: "El video se hizo viral en pocas horas." },
-          { es: "The match will be broadcast live.", en: "El partido se retransmitirá en directo." },
+          { es: "The match will be broadcast live.", en: "El partido se transmitirá en vivo." },
           { es: "Don't believe that headline. It's just clickbait.", en: "No te creas ese titular. Es solo un cebo para que hagas clic." },
         ],
         checkpoint: [
@@ -614,7 +614,7 @@ export const EN_B2_U25: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El partido se retransmitirá en directo.",
+        source: "El partido se transmitirá en vivo.",
         answer: "The match will be broadcast live.",
         altAnswers: ["The game will be broadcast live.", "The match will be shown live.", "The game will be shown live.", "The match is going to be broadcast live.", "The game is going to be broadcast live.", "The match will be televised live.", "The game will be televised live.", "The match will be aired live.", "The game will be aired live."],
         explanation: "«Se retransmitirá» is passive in English: \"will be broadcast\". \"Broadcast\" usually has the same form in the past and participle. \"Live\" here rhymes with \"five\".",
@@ -714,7 +714,7 @@ export const EN_B2_U25: Lesson[] = [
             source: "La bloqueé porque me enviaba mensajes todo el tiempo.",
             answer: "I blocked her because she kept sending me messages.",
             altAnswers: ["I blocked her because she was sending me messages all the time.", "I blocked her because she kept messaging me.", "I blocked her because she was messaging me all the time.", "I blocked her because she kept sending me messages all the time.", "I blocked her because she was always sending me messages.", "I blocked her because she was constantly sending me messages."],
-            explanation: "«Todo el rato» with a repeated action is very naturally \"kept\" + -ing (\"she kept sending\") or the past continuous with \"all the time\".",
+            explanation: "«Todo el tiempo» with a repeated action is very naturally \"kept\" + -ing (\"she kept sending\") or the past continuous with \"all the time\".",
           },
           {
             type: "multiple-choice",
@@ -1450,7 +1450,7 @@ export const EN_B2_U25: Lesson[] = [
         examples: [
           { es: "Can you turn on the light, please?", en: "¿Puedes encender la luz, por favor?" },
           { es: "Turn the volume down. It's too loud.", en: "Baja el volumen. Está demasiado alto." },
-          { es: "Plug your laptop in before the battery dies.", en: "Enchufa el portátil antes de que se le acabe la batería." },
+          { es: "Plug your laptop in before the battery dies.", en: "Conecta la laptop antes de que se le acabe la batería." },
           { es: "I need to charge my phone.", en: "Tengo que cargar el celular." },
           { es: "Shut down your computer before you leave.", en: "Apaga la computadora antes de irte." },
         ],

@@ -674,7 +674,7 @@ export const EN_A2_U20: Lesson[] = [
             prompt: "Traduce al inglés.",
             source: "Suelo ir a nadar dos veces a la semana.",
             answer: "I go swimming twice a week.",
-            altAnswers: ["I swim twice a week."],
+            altAnswers: ["I swim twice a week.", "I usually go swimming twice a week.", "I usually swim twice a week."],
             explanation: "«Dos veces» es \"twice\", y «a la semana» es \"a week\", sin preposición.",
           },
           {

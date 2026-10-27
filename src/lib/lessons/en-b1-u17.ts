@@ -695,7 +695,7 @@ export const EN_B1_U17: Lesson[] = [
       {
         heading: "Pronoun options",
         body: [
-          "Defining clauses (no commas): \"who\" or \"that\" for people, \"which\" or \"that\" for things. If the pronoun is the object, you can leave it out: \"the man (who) I saw\", \"the film (that) we watched\".",
+          "Defining clauses (no commas): \"who\" or \"that\" for people, \"which\" or \"that\" for things. If the pronoun is the object, you can leave it out: \"the man (who) I saw\", \"the movie (that) we watched\".",
           "Non-defining clauses (with commas): only \"who\" for people and \"which\" for things. No \"that\", and the pronoun is never left out: \"Ana, who I saw yesterday, ...\".",
           "\"Where\" and \"whose\" work in both types, and \"whose\" can never be left out.",
         ],
@@ -703,13 +703,13 @@ export const EN_B1_U17: Lesson[] = [
           { es: "The man (who) I saw was tall.", en: "El hombre que vi era alto." },
           { es: "The man that I saw was tall.", en: "El hombre que vi era alto." },
           { es: "Ana, who I saw yesterday, says hello.", en: "Ana, a la que vi ayer, te manda saludos." },
-          { es: "The film (that) we watched was boring.", en: "La película que vimos era aburrida." },
+          { es: "The movie (that) we watched was boring.", en: "La película que vimos era aburrida." },
           { es: "Titanic, which we watched last night, is very long.", en: "Titanic, que vimos anoche, es muy larga." },
         ],
         checkpoint: [
           {
             type: "multi-select",
-            question: "Which pronouns can complete \"The film ___ we watched was boring\"? Choose all that work.",
+            question: "Which pronouns can complete \"The movie ___ we watched was boring\"? Choose all that work.",
             options: ["that", "which", "(nothing)", "what", "who"],
             correctIndexes: [0, 1, 2],
             explanation: "A defining clause about a thing: \"that\", \"which\", or nothing, because the pronoun is the object. Never \"what\" after a noun.",
@@ -771,7 +771,7 @@ export const EN_B1_U17: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "The film ___ we watched was boring.",
+        sentence: "The movie ___ we watched was boring.",
         answer: "that",
         altAnswers: ["which"],
         en: "La película [que] vimos era aburrida.",
@@ -863,7 +863,7 @@ export const EN_B1_U17: Lesson[] = [
         ],
         examples: [
           { es: "The doctor who helped me was very kind.", en: "El médico que me atendió fue muy amable." },
-          { es: "The shop where I work is closing.", en: "La tienda donde trabajo va a cerrar." },
+          { es: "The store where I work is closing.", en: "La tienda donde trabajo va a cerrar." },
           { es: "The girl whose bag was stolen called the police.", en: "La chica a la que le robaron el bolso llamó a la policía." },
           { es: "My laptop, which I bought last year, is already broken.", en: "Mi laptop, que compré el año pasado, ya está rota." },
         ],
@@ -873,8 +873,8 @@ export const EN_B1_U17: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "La tienda donde trabajo va a cerrar.",
-            answer: "The shop where I work is going to close.",
-            altAnswers: ["The store where I work is going to close.", "The shop where I work is closing.", "The store where I work is closing.", "The shop where I work is going to shut.", "The store where I work is going to shut down.", "The shop I work at is going to close.", "The store I work at is going to close.", "The shop I work at is closing.", "The store I work at is closing."],
+            answer: "The store where I work is going to close.",
+            altAnswers: ["The shop where I work is going to close.", "The shop where I work is closing.", "The store where I work is closing.", "The shop where I work is going to shut.", "The store where I work is going to shut down.", "The shop I work at is going to close.", "The store I work at is going to close.", "The shop I work at is closing.", "The store I work at is closing."],
             explanation: "A place: \"where\" (or \"the shop I work at\"). «Va a cerrar» can be \"is going to close\" or \"is closing\".",
           },
         ],
@@ -1770,7 +1770,7 @@ export const EN_B1_U17: Lesson[] = [
         body: [
           "When you start a band («un grupo»), you need to describe the people you are looking for. Defining clauses do this: \"We're looking for someone who can play the drums.\"",
           "Non-defining clauses add information about people you already know: \"My friend Diego, who plays bass, wants to join.\"",
-          "Useful words: \"band\" («grupo de música»), \"lead singer\" («cantante principal»), \"drummer\" («batería», the person), \"drums\" («batería», the instrument), \"rehearse\" («ensayar») and \"gig\" («concierto», informal).",
+          "Useful words: \"band\" («grupo de música»), \"lead singer\" («cantante principal»), \"drummer\" («baterista», the person), \"drums\" («batería», the instrument), \"rehearse\" («ensayar») and \"gig\" («concierto», informal).",
         ],
         examples: [
           { es: "We're looking for someone who can play the drums.", en: "Buscamos a alguien que sepa tocar la batería." },
@@ -1799,7 +1799,7 @@ export const EN_B1_U17: Lesson[] = [
           "\"Unless\" means «a menos que»: \"Unless we practice more, we won't be ready.\"",
         ],
         examples: [
-          { es: "If we find a drummer, we'll start rehearsing next month.", en: "Si encontramos batería, empezaremos a ensayar el mes que viene." },
+          { es: "If we find a drummer, we'll start rehearsing next month.", en: "Si encontramos baterista, empezaremos a ensayar el mes que viene." },
           { es: "If I could sing, I'd be the lead singer.", en: "Si supiera cantar, sería el cantante." },
           { es: "If we had more money, we'd buy better speakers.", en: "Si tuviéramos más dinero, compraríamos mejores bocinas." },
           { es: "Unless we practice more, we won't be ready.", en: "A menos que ensayemos más, no estaremos listos." },
@@ -1817,7 +1817,7 @@ export const EN_B1_U17: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Si encontramos batería, empezaremos a ensayar el mes que viene.",
+            source: "Si encontramos baterista, empezaremos a ensayar el mes que viene.",
             answer: "If we find a drummer, we'll start rehearsing next month.",
             altAnswers: ["If we find a drummer, we'll start to rehearse next month.", "If we find a drummer, we'll start practicing next month.", "If we find a drummer, we'll start to practice next month.", "We'll start rehearsing next month if we find a drummer.", "We'll start practicing next month if we find a drummer."],
             explanation: "First conditional: present after \"if\" (\"find\"), \"will\" in the result. «El mes que viene» = \"next month\", without \"the\".",
@@ -1947,10 +1947,10 @@ export const EN_B1_U17: Lesson[] = [
         audio: "If we find a drummer, we'll start rehearsing next month.",
         question: "What did you hear?",
         options: [
-          "Si encontramos batería, empezaremos a ensayar el mes que viene.",
-          "Si encontráramos batería, empezaríamos a ensayar el mes que viene.",
-          "Encontramos batería y empezamos a ensayar el mes pasado.",
-          "Si no encontramos batería, no ensayaremos.",
+          "Si encontramos baterista, empezaremos a ensayar el mes que viene.",
+          "Si encontráramos baterista, empezaríamos a ensayar el mes que viene.",
+          "Encontramos baterista y empezamos a ensayar el mes pasado.",
+          "Si no encontramos baterista, no ensayaremos.",
         ],
         correctIndex: 0,
         explanation: "\"Find\" (present) + \"we'll\" (will): a real possibility, first conditional.",

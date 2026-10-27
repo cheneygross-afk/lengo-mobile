@@ -78,7 +78,7 @@ export const EN_B1_U31: Lesson[] = [
             prompt: "Translate into English.",
             source: "Mi pasaporte vence el mes que viene.",
             answer: "My passport expires next month.",
-            explanation: "«Caducar» for documents is \"expire\". Note: \"next month\" has no \"the\" in front.",
+            explanation: "«Vencer» for documents is \"expire\". Note: \"next month\" has no \"the\" in front.",
           },
         ],
       },
@@ -202,9 +202,9 @@ export const EN_B1_U31: Lesson[] = [
         audio: "Please fill out the form in block capitals.",
         question: "What did you hear?",
         options: [
-          "Rellene el formulario en mayúsculas, por favor.",
+          "Llene el formulario en mayúsculas, por favor.",
           "Firme el formulario, por favor.",
-          "Rellene el formulario con bolígrafo azul, por favor.",
+          "Llene el formulario con bolígrafo azul, por favor.",
           "Entregue el formulario en la ventanilla, por favor.",
         ],
         correctIndex: 0,
@@ -231,12 +231,12 @@ export const EN_B1_U31: Lesson[] = [
         body: [
           "English speakers usually complain indirectly. Instead of \"The room is dirty\", they say \"I'm afraid there's a problem with the room.\" \"I'm afraid\" here doesn't mean fear: it means «me temo» or «lo siento, pero».",
           "Other polite openings: \"Excuse me, I'm sorry to bother you, but...\", \"I'd like to make a complaint.\", \"I wonder if you could help me.\"",
-          "«Poner una reclamación» is \"make a complaint\" (not *put a complaint). The verb is \"complain about\" something: \"I want to complain about the noise.\"",
+          "«Poner una queja» is \"make a complaint\" (not *put a complaint). The verb is \"complain about\" something: \"I want to complain about the noise.\"",
         ],
         examples: [
           { es: "I'm afraid there's a problem with my room.", en: "Me temo que hay un problema con mi habitación." },
           { es: "Sorry to bother you, but the air conditioning isn't working.", en: "Siento molestarle, pero el aire acondicionado no funciona." },
-          { es: "I'd like to make a complaint.", en: "Quería poner una reclamación." },
+          { es: "I'd like to make a complaint.", en: "Quería poner una queja." },
           { es: "I want to complain about the noise.", en: "Quiero quejarme del ruido." },
           { es: "I wonder if you could help me.", en: "Me preguntaba si podría ayudarme." },
         ],
@@ -255,7 +255,7 @@ export const EN_B1_U31: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "I'd like to ___ a complaint.",
             answer: "make",
-            en: "Quería [poner] una reclamación.",
+            en: "Quería [poner] una queja.",
             explanation: "The collocation is \"make a complaint\". *Put a complaint is a translation from Spanish.",
           },
         ],
@@ -1181,7 +1181,7 @@ export const EN_B1_U31: Lesson[] = [
           "Types of fuel: \"regular\" or \"unleaded\" («gasolina sin plomo») and \"diesel\" («diésel»).",
         ],
         examples: [
-          { es: "Do I have to return it with a full tank?", en: "¿Lo tengo que devolver con el depósito lleno?" },
+          { es: "Do I have to return it with a full tank?", en: "¿Lo tengo que devolver con el tanque lleno?" },
           { es: "The fuel policy is full to full.", en: "La política de combustible es lleno-lleno." },
           { es: "Does it take diesel or unleaded?", en: "¿Usa diésel o sin plomo?" },
           { es: "We're almost out of gas.", en: "Casi no nos queda gasolina." },
@@ -1304,7 +1304,7 @@ export const EN_B1_U31: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["Do", "I", "have", "to", "return", "it", "with", "a", "full", "tank?"],
-        translation: "¿Lo tengo que devolver con el depósito lleno?",
+        translation: "¿Lo tengo que devolver con el tanque lleno?",
         explanation: "\"Do I have to...?\" asks about an obligation. «Depósito lleno» is \"a full tank\".",
       },
       {
@@ -1312,8 +1312,8 @@ export const EN_B1_U31: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Tengo una llanta ponchada.",
-        answer: "I've got a flat tire.",
-        altAnswers: ["I have a flat tire.", "I've got a flat tyre.", "I have a flat tyre."],
+        answer: "I have a flat tire.",
+        altAnswers: ["I've got a flat tire.", "I've got a flat tyre.", "I have a flat tyre."],
         explanation: "A «llanta ponchada» is a \"flat tire\" (UK spelling: \"tyre\").",
       },
       {
@@ -1405,7 +1405,7 @@ export const EN_B1_U31: Lesson[] = [
           "Ask for a solution: \"Could you take it back, please?\", \"Could I have another one?\" And for slow service: \"We've been waiting for forty minutes.\"",
         ],
         examples: [
-          { es: "Excuse me, this isn't what I ordered.", en: "Perdone, esto no es lo que he pedido." },
+          { es: "Excuse me, this isn't what I ordered.", en: "Perdone, esto no es lo que pedí." },
           { es: "My steak is undercooked.", en: "Mi filete está crudo por dentro." },
           { es: "I asked for medium, but it's well done.", en: "Lo pedí al punto, pero está bien cocido." },
           { es: "Could you take it back, please?", en: "¿Se lo podría llevar, por favor?" },
@@ -1416,7 +1416,7 @@ export const EN_B1_U31: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Perdone, esto no es lo que he pedido.",
+            source: "Perdone, esto no es lo que pedí.",
             answer: "Excuse me, this isn't what I ordered.",
             altAnswers: ["Excuse me, this is not what I ordered.", "Sorry, this isn't what I ordered.", "Excuse me, this isn't what I asked for.", "Sorry, this isn't what I asked for.", "Excuse me, this isn't what I've ordered."],
             explanation: "«Lo que» is \"what\": \"what I ordered\". American English uses the past simple here.",
@@ -1575,7 +1575,7 @@ export const EN_B1_U31: Lesson[] = [
           { es: "In my opinion, the price is too high.", en: "En mi opinión, el precio es demasiado alto." },
           { es: "According to the report, sales went up.", en: "Según el informe, las ventas subieron." },
           { es: "What do you think, Emma?", en: "¿Tú qué opinas, Emma?" },
-          { es: "We're currently working on a new website.", en: "Actualmente estamos trabajando en una web nueva." },
+          { es: "We're currently working on a new website.", en: "Actualmente estamos trabajando en un sitio web nuevo." },
         ],
         checkpoint: [
           {
@@ -1859,7 +1859,7 @@ export const EN_B1_U31: Lesson[] = [
         ],
         examples: [
           { es: "I can't log in to my account.", en: "No puedo entrar en mi cuenta." },
-          { es: "I forgot my password.", en: "He olvidado mi contraseña." },
+          { es: "I forgot my password.", en: "Olvidé mi contraseña." },
           { es: "I'd like to update my address.", en: "Quisiera actualizar mi dirección." },
           { es: "I'd like to cancel my subscription.", en: "Quisiera darme de baja de la suscripción." },
           { es: "I signed up last month.", en: "Me di de alta el mes pasado." },
@@ -1953,7 +1953,7 @@ export const EN_B1_U31: Lesson[] = [
         sentence: "I ___ my password.",
         answer: "forgot",
         altAnswers: ["have forgotten", "'ve forgotten"],
-        en: "[He olvidado] mi contraseña.",
+        en: "[Olvidé] mi contraseña.",
         explanation: "American English often uses the past simple here: \"I forgot my password\". \"I've forgotten\" is also correct.",
       },
       {
@@ -1975,7 +1975,7 @@ export const EN_B1_U31: Lesson[] = [
           { left: "be missing", right: "faltar" },
           { left: "replacement", right: "reposición / sustituto" },
         ],
-        explanation: "These phrases appear in almost every online shop.",
+        explanation: "These phrases appear in almost every online store.",
       },
       {
         type: "word-order",

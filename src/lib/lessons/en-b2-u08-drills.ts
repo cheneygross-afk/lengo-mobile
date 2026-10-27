@@ -406,12 +406,12 @@ export const EN_B2_U08_DRILLS: Lesson[] = [
       ),
       tr(
         "Se suponía que el paquete llegaba ayer.",
-        "The package was supposed to arrive yesterday.",
+        "The package was {supposed|meant} to arrive yesterday.",
         "\"Was supposed to\" = a plan or expectation that didn't happen. Pronounced \"su-POSED-tuh\".",
       ),
       tr(
         "¡Tenías que llamarme!",
-        "You were supposed to call me!",
+        "You were {supposed|meant} to call me!",
         "«Tenías que» for something someone failed to do is \"were supposed to\". \"You had to call me\" would mean it was necessary and you did it.",
       ),
       wo(
@@ -494,7 +494,7 @@ export const EN_B2_U08_DRILLS: Lesson[] = [
       ),
       tr(
         "Seguro que fue caro.",
-        "It must have been expensive.",
+        ["{It|That} must have been expensive.", "I'm sure it was expensive."],
         "\"I'm sure it was\" → \"It must have been\": \"was\" becomes \"have been\".",
       ),
       mt(
@@ -767,7 +767,7 @@ export const EN_B2_U08_DRILLS: Lesson[] = [
       ),
       tr(
         "No hacía falta que lavaras los platos, pero gracias; deben de haberte llevado una hora.",
-        ["You needn't have washed the dishes, but thanks; they must have taken you an hour.", "You didn't have to wash the dishes, but thanks; they must have taken you an hour.", "You didn't need to wash the dishes, but thank you; they must have taken you an hour.", "You needn't have done the dishes, but thanks; they must have taken you an hour."],
+        ["You needn't have {washed|done} the dishes, but {thanks|thank you}; {they|it} must have taken you an hour.", "You didn't {have|need} to {wash|do} the dishes, but {thanks|thank you}; {they|it} must have taken you an hour."],
         "You did it but it wasn't necessary: \"needn't have washed\" / \"didn't have to wash\". Then a past deduction: \"must have taken\" (take, took, taken).",
       ),
       sp(

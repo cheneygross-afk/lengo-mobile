@@ -54,7 +54,7 @@ export const EN_B1_U34: Lesson[] = [
           "Don't confuse \"used to do\" (a past habit) with \"be used to doing\" (be accustomed): \"I'm used to getting up early\" = «Estoy acostumbrado a madrugar». And Spanish «soler» in the present is \"usually\": «Suelo cenar tarde» = \"I usually have dinner late\", never *I use to have dinner late.",
         ],
         examples: [
-          { es: "I was having a shower when the phone rang.", en: "Me estaba duchando cuando sonó el teléfono." },
+          { es: "I was taking a shower when the phone rang.", en: "Me estaba duchando cuando sonó el teléfono." },
           { es: "When we arrived, the movie had already started.", en: "Cuando llegamos, la película ya había empezado." },
           { es: "I used to play the guitar.", en: "Antes tocaba la guitarra." },
           { es: "Every Sunday my grandmother would make paella.", en: "Todos los domingos mi abuela hacía paella." },
@@ -334,8 +334,8 @@ export const EN_B1_U34: Lesson[] = [
             type: "fill-blank",
             prompt: "Write the bold words in English.",
             sentence: "Last week I ___.",
-            answer: "had my eyes tested",
-            altAnswers: ["got my eyes tested", "had my eyes checked", "got my eyes checked", "had my eyes examined", "got my eyes examined"],
+            answer: "had my eyes checked",
+            altAnswers: ["got my eyes tested", "had my eyes tested", "got my eyes checked", "had my eyes examined", "got my eyes examined"],
             en: "La semana pasada [me revisaron la vista].",
             explanation: "Someone else did it for you, so use \"have/get\" + object + past participle: \"I had my eyes tested\".",
           },
@@ -652,8 +652,8 @@ export const EN_B1_U34: Lesson[] = [
             sentence: "The meeting has been ___ until next week.",
             answer: "put off",
             altAnswers: ["postponed", "pushed back"],
-            en: "La reunión se ha [aplazado] hasta la semana que viene.",
-            explanation: "\"Put off\" is the everyday phrasal verb for «aplazar»; \"postpone\" is more formal.",
+            en: "La reunión se ha [pospuesto] hasta la semana que viene.",
+            explanation: "\"Put off\" is the everyday phrasal verb for «posponer»; \"postpone\" is more formal.",
           },
         ],
       },
@@ -743,7 +743,7 @@ export const EN_B1_U34: Lesson[] = [
           { left: "look for", right: "buscar" },
           { left: "find out", right: "enterarse" },
           { left: "give up", right: "rendirse" },
-          { left: "put off", right: "aplazar" },
+          { left: "put off", right: "posponer" },
         ],
         explanation: "Phrasal verbs are more common than their one-word synonyms in everyday English.",
       },
@@ -778,7 +778,7 @@ export const EN_B1_U34: Lesson[] = [
           { es: "We used to have a dog called Toby.", en: "Teníamos un perro que se llamaba Toby." },
           { es: "Did you use to come here as a child?", en: "¿Venías aquí de pequeño?" },
           { es: "We didn't use to have a TV in the house.", en: "Antes no teníamos tele en la casa." },
-          { es: "My cousins and I would play in the garden for hours.", en: "Mis primos y yo jugábamos en el jardín durante horas." },
+          { es: "My cousins and I would play in the yard for hours.", en: "Mis primos y yo jugábamos en el jardín durante horas." },
         ],
         checkpoint: [
           {
@@ -808,7 +808,7 @@ export const EN_B1_U34: Lesson[] = [
         ],
         examples: [
           { es: "When we arrived, Uncle Pedro had already started the barbecue.", en: "Cuando llegamos, el tío Pedro ya había empezado la barbacoa." },
-          { es: "While the adults were talking, the kids were playing in the garden.", en: "Mientras los adultos hablaban, los niños jugaban en el jardín." },
+          { es: "While the adults were talking, the kids were playing in the yard.", en: "Mientras los adultos hablaban, los niños jugaban en el jardín." },
           { es: "We were having lunch when it started to rain.", en: "Estábamos comiendo cuando empezó a llover." },
           { es: "I hadn't seen my cousin Diego for ten years.", en: "Hacía diez años que no veía a mi primo Diego." },
           { es: "Everyone was laughing when Grandma stood up to speak.", en: "Todos se estaban riendo cuando la abuela se levantó para hablar." },
@@ -1048,7 +1048,7 @@ export const EN_B1_U34: Lesson[] = [
           "So Carlos tells his friend: \"My boss advised me to ask for feedback. She admitted making a difficult decision, and she promised to keep me in mind for the next position.\"",
         ],
         examples: [
-          { es: "My boss advised me to ask for feedback.", en: "Mi jefa me aconsejó que pidiera una valoración." },
+          { es: "My boss advised me to ask for feedback.", en: "Mi jefa me aconsejó que pidiera retroalimentación." },
           { es: "She suggested taking a leadership course.", en: "Me sugirió hacer un curso de liderazgo." },
           { es: "She promised to keep me in mind.", en: "Prometió tenerme en cuenta." },
           { es: "He refused to congratulate her.", en: "Se negó a felicitarla." },
@@ -1189,7 +1189,7 @@ export const EN_B1_U34: Lesson[] = [
           { es: "Could you keep the noise down after ten?", en: "¿Podrían hacer menos ruido a partir de las diez?" },
           { es: "I was wondering if you could close the window at night.", en: "Quería preguntarle si podría cerrar la ventana por la noche." },
           { es: "Do you mind if I knock on your door?", en: "¿Le importa si llamo a su puerta?" },
-          { es: "Sorry to bother you, but it's very late.", en: "Siento molestarle, pero es muy tarde." },
+          { es: "Sorry to bother you, but it's very late.", en: "Disculpe la molestia, pero es muy tarde." },
         ],
         checkpoint: [
           {
@@ -1297,7 +1297,7 @@ export const EN_B1_U34: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Siento molestarle, pero el perro lleva toda la tarde ladrando.",
+        source: "Disculpe la molestia, pero el perro lleva toda la tarde ladrando.",
         answer: "Sorry to bother you, but the dog has been barking all afternoon.",
         altAnswers: ["I'm sorry to bother you, but the dog has been barking all afternoon.", "Sorry to bother you, but your dog has been barking all afternoon.", "I'm sorry to bother you, but your dog has been barking all afternoon.", "Sorry to disturb you, but the dog has been barking all afternoon.", "I'm sorry to disturb you, but the dog has been barking all afternoon."],
         explanation: "«Llevar toda la tarde» + -ndo is the present perfect continuous: \"has been barking all afternoon\".",
@@ -1511,7 +1511,7 @@ export const EN_B1_U34: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "There's ___ space in my kitchen for three bins.",
+        sentence: "There's ___ space in my kitchen for three trash cans.",
         answer: "not enough",
         altAnswers: ["too little", "not much", "very little"],
         en: "[No hay suficiente] espacio en mi cocina para tres botes de basura.",
@@ -2049,7 +2049,7 @@ export const EN_B1_U34: Lesson[] = [
         examples: [
           { es: "Students used to stand up when the teacher came in.", en: "Los alumnos se ponían de pie cuando entraba el profesor." },
           { es: "Teachers would write everything on the board.", en: "Los profesores lo escribían todo en el pizarrón." },
-          { es: "I taught history for forty years.", en: "Di clase de historia durante cuarenta años." },
+          { es: "I taught history for forty years.", en: "Enseñé historia durante cuarenta años." },
           { es: "There didn't use to be computers in the classroom.", en: "Antes no había computadoras en el aula." },
           { es: "I usually prepare my lessons on Sunday.", en: "Suelo preparar las clases el domingo." },
         ],

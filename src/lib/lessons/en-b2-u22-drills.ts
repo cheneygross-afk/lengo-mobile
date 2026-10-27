@@ -300,7 +300,7 @@ export const EN_B2_U22_DRILLS: Lesson[] = [
         "Dinner in Mexico is later than in the {US|United States|U.S.}.",
       ], "English has no single verb for «cenar»: \"have dinner\" or \"eat dinner\". General statements about people take no article: \"Mexicans\", not *the Mexicans."),
       tr("El té de aquí no es ni de lejos tan bueno como el de Londres.", [
-        "The tea here {isn't|is not} {nearly|nowhere near} as good as {the tea |}in London.",
+        "The tea here {isn't nearly|is not nearly|isn't anywhere near|is nowhere near} as good as {the tea |}in London.",
       ], "«Ni de lejos tan ... como» = \"not nearly as ... as\" or \"nowhere near as ... as\": a big difference."),
       mc("Which sentence is correct?", [
         "Americans usually have dinner early.",
@@ -315,7 +315,7 @@ export const EN_B2_U22_DRILLS: Lesson[] = [
       fb("The village is quiet. On the other ___, there's nothing to do at night.", "hand", "El pueblo es tranquilo. [Por otro lado], no hay nada que hacer de noche.",
         "\"On the other hand\" starts a new sentence and needs a comma. Never *in the other hand or *on the other side."),
       tr("Apenas hay tiendas en mi barrio.", [
-        "There are hardly any {shops|stores} in my neighborhood.",
+        "There are hardly any {stores|shops} in my neighborhood.",
       ], "«Apenas hay» = \"there are hardly any\". The verb stays positive because \"hardly\" is already negative."),
       wo("Although the town is small, it has plenty of restaurants.", "Aunque el pueblo es pequeño, tiene restaurantes de sobra.",
         "\"Although\" + full clause; \"plenty of\" = more than enough."),

@@ -1082,11 +1082,11 @@ export const EN_A2_U17: Lesson[] = [
           "Es un error muy común decir *I'm interested in learn English o *She's good at cook: tras una preposición, el verbo lleva -ing. En español, en cambio, usamos el infinitivo: «harto de esperar».",
         ],
         examples: [
-          { es: "He's good at cooking.", en: "Se le da bien cocinar." },
+          { es: "He's good at cooking.", en: "Es bueno para cocinar." },
           { es: "I'm interested in learning Japanese.", en: "Me interesa aprender japonés." },
           { es: "She's afraid of flying.", en: "Le da miedo volar." },
           { es: "We're tired of waiting.", en: "Estamos hartos de esperar." },
-          { es: "I'm not very good at dancing.", en: "No se me da muy bien bailar." },
+          { es: "I'm not very good at dancing.", en: "No soy muy bueno para bailar." },
         ],
         checkpoint: [
           {
@@ -1101,9 +1101,9 @@ export const EN_A2_U17: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Traduce al inglés.",
-            source: "Se me da bien dibujar.",
+            source: "Soy bueno para dibujar.",
             answer: "I'm good at drawing.",
-            explanation: "«Se me da bien» = \"I'm good at\", y el verbo que sigue va en -ing: \"drawing\".",
+            explanation: "«Ser bueno para» = \"I'm good at\", y el verbo que sigue va en -ing: \"drawing\".",
           },
         ],
       },
@@ -1657,9 +1657,9 @@ export const EN_A2_U17: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Me dejé la chaqueta en el autobús.",
+        source: "Dejé la chaqueta en el autobús.",
         answer: "I left my jacket on the bus.",
-        explanation: "El autobús lleva \"on\". Y «me dejé la chaqueta» usa el posesivo: \"my jacket\".",
+        explanation: "El autobús lleva \"on\". Y «dejé la chaqueta» usa el posesivo: \"my jacket\".",
       },
       {
         type: "word-order",

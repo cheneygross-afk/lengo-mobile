@@ -324,7 +324,7 @@ export const EN_A2_U08_DRILLS: Lesson[] = [
         type: "word-order",
         prompt: "Ordena las palabras.",
         words: ["Who", "is", "the", "oldest", "person", "in", "your", "family?"],
-        translation: "¿Quién es la persona mayor de tu familia?",
+        translation: "¿Quién es la persona de más edad de tu familia?",
         explanation: "Superlativo con \"the oldest\" e \"in your family\" (un grupo de personas lleva \"in\").",
       },
     ],

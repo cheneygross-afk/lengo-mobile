@@ -537,7 +537,7 @@ export const EN_A1_U7_MORE: Lesson[] = [
           { es: "There is a lot of traffic today.", en: "Hoy hay mucho tráfico." },
           { es: "There are three people in the car.", en: "Hay tres personas en el carro." },
           { es: "There is a lot of noise on this street.", en: "En esta calle hay mucho ruido." },
-          { es: "There are some good shops downtown.", en: "En el centro hay algunas tiendas buenas." },
+          { es: "There are some good stores downtown.", en: "En el centro hay algunas tiendas buenas." },
         ],
         checkpoint: [
           {
@@ -1644,7 +1644,7 @@ export const EN_A1_U7_MORE: Lesson[] = [
       {
         heading: "Errores con like",
         body: [
-          "*I like play football está mal: detrás de \"like\" no puede ir un verbo en forma base. Se dice \"I like playing soccer\" o \"I like to play soccer\".",
+          "*I like play soccer está mal: detrás de \"like\" no puede ir un verbo en forma base. Se dice \"I like playing soccer\" o \"I like to play soccer\".",
           "*She like dancing también está mal: con he/she/it, \"likes\". Y en negativa, \"She doesn't like\", nunca *She don't like ni *She doesn't likes.",
           "Recuerda que en inglés la persona es el sujeto: «me gusta» es \"I like\", nunca *Me like ni *It likes me.",
         ],
@@ -2040,11 +2040,11 @@ export const EN_A1_U7_MORE: Lesson[] = [
       },
       {
         type: "listen-choose",
-        audio: "There aren't many shops in my neighborhood.",
+        audio: "There aren't many stores in my neighborhood.",
         question: "¿Qué has oído?",
         options: ["En mi barrio no hay muchas tiendas.", "En mi barrio hay muchas tiendas.", "En mi barrio no hay tiendas.", "¿Hay muchas tiendas en tu barrio?"],
         correctIndex: 0,
-        explanation: "\"There aren't many\" es «no hay muchos/muchas». «No hay tiendas» sería \"There aren't any shops\".",
+        explanation: "\"There aren't many\" es «no hay muchos/muchas». «No hay tiendas» sería \"There aren't any stores\".",
       },
       {
         type: "write",

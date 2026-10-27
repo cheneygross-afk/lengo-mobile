@@ -1433,7 +1433,7 @@ export const EN_B2_U16: Lesson[] = [
         examples: [
           { es: "My cousin suggested going to the coast.", en: "Mi primo sugirió ir a la costa. (incorrecto: *suggested to go)" },
           { es: "She suggested that we take the train.", en: "Sugirió que fuéramos en tren." },
-          { es: "The old town is worth seeing.", en: "Vale la pena ver el casco antiguo. (incorrecto: *worth to see)" },
+          { es: "The old town is worth seeing.", en: "Vale la pena ver el centro histórico. (incorrecto: *worth to see)" },
           { es: "It's not worth waiting for him.", en: "No vale la pena esperarlo." },
           { es: "I can't stand waiting in long lines.", en: "No soporto hacer filas largas." },
         ],
@@ -2348,7 +2348,7 @@ export const EN_B2_U16: Lesson[] = [
         heading: "Part 1: The cold and the hours",
         body: [
           "Emma: \"So, how's life in Toronto? Are you used to the cold yet?\" Diego: \"Not really. I'm getting used to it, slowly. Back home I used to wear a T-shirt in March!\"",
-          "Emma: \"And the hours? Dinner at six must be strange.\" Diego: \"It was at first, but I'm used to eating early now. What I can't get used to is shops closing so early on Sundays.\"",
+          "Emma: \"And the hours? Dinner at six must be strange.\" Diego: \"It was at first, but I'm used to eating early now. What I can't get used to is stores closing so early on Sundays.\"",
           "Notice how Diego combines the three structures: \"used to\" + base form (the past), \"be used to\" + -ing (normal now) and \"get used to\" (the process).",
         ],
         examples: [
@@ -2356,7 +2356,7 @@ export const EN_B2_U16: Lesson[] = [
           { es: "I'm getting used to it, slowly.", en: "Me estoy acostumbrando, poco a poco." },
           { es: "Back home I used to wear a T-shirt in March!", en: "¡En mi país llevaba camiseta en marzo!" },
           { es: "I'm used to eating early now.", en: "Ya estoy acostumbrado a cenar temprano." },
-          { es: "What I can't get used to is shops closing so early.", en: "A lo que no me acostumbro es a que las tiendas cierren tan temprano." },
+          { es: "What I can't get used to is stores closing so early.", en: "A lo que no me acostumbro es a que las tiendas cierren tan temprano." },
         ],
         checkpoint: [
           {
@@ -2407,7 +2407,7 @@ export const EN_B2_U16: Lesson[] = [
         ],
         examples: [
           { es: "Do you regret moving?", en: "¿Te arrepientes de haberte mudado?" },
-          { es: "I remember feeling really lonely the first week.", en: "Recuerdo sentirme muy solo la primera semana." },
+          { es: "I remember feeling really lonely the first week.", en: "Recuerdo que me sentía muy solo la primera semana." },
           { es: "Remember to send me photos of the snow!", en: "¡Acuérdate de mandarme fotos de la nieve!" },
           { es: "I'm really looking forward to seeing you in the summer.", en: "Tengo muchas ganas de verte en verano." },
         ],
@@ -2515,7 +2515,7 @@ export const EN_B2_U16: Lesson[] = [
       {
         type: "dictation",
         audio: "I remember feeling really lonely the first week.",
-        explanation: "\"Remember\" + -ing for a memory: «recuerdo sentirme muy solo la primera semana».",
+        explanation: "\"Remember\" + -ing for a memory: «recuerdo que me sentía muy solo la primera semana».",
       },
       {
         type: "translate",
@@ -2742,7 +2742,7 @@ export const EN_B2_U16: Lesson[] = [
           { es: "Remember to call me.", en: "Acuérdate de llamarme." },
           { es: "I'll never forget meeting you.", en: "Nunca olvidaré cuando te conocí." },
           { es: "I look forward to seeing you.", en: "Tengo ganas de verte." },
-          { es: "I heard them leave.", en: "Los oí marcharse." },
+          { es: "I heard them leave.", en: "Los oí irse." },
         ],
         checkpoint: [
           {

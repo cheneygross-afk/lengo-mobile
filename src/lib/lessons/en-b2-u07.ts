@@ -549,7 +549,7 @@ export const EN_B2_U07: Lesson[] = [
           { es: "We wish you a merry Christmas.", en: "Les deseamos una feliz Navidad." },
           { es: "I wish you luck.", en: "Te deseo suerte." },
           { es: "I wish you all the best.", en: "Te deseo lo mejor." },
-          { es: "I hope you have a good time.", en: "Que lo pases bien. (incorrecto: *I wish you have a good time)" },
+          { es: "I hope you have a good time.", en: "Que te diviertas. (incorrecto: *I wish you have a good time)" },
           { es: "I wish to make a complaint.", en: "Deseo presentar una queja. (muy formal)" },
         ],
         checkpoint: [
@@ -1265,7 +1265,7 @@ export const EN_B2_U07: Lesson[] = [
         examples: [
           { es: "Emma: Well, that didn't go as planned.", en: "Emma: Bueno, eso no salió como esperábamos." },
           { es: "Carlos: No. We should have tested the app with real users.", en: "Carlos: No. Deberíamos haber probado la app con usuarios reales." },
-          { es: "Emma: I know. I wish we hadn't rushed the launch.", en: "Emma: Ya. Ojalá no hubiéramos lanzado tan apresuradamente." },
+          { es: "Emma: I know. I wish we hadn't rushed the launch.", en: "Emma: Ya sé. Ojalá no hubiéramos lanzado tan apresuradamente." },
           { es: "Carlos: If we had waited a month, we would have fixed the bugs.", en: "Carlos: Si hubiéramos esperado un mes, habríamos arreglado los fallos." },
           { es: "Emma: And marketing could have helped us more.", en: "Emma: Y marketing podría habernos ayudado más." },
           { es: "Carlos: Honestly, I think it's time we changed the whole process.", en: "Carlos: Sinceramente, creo que ya es hora de que cambiemos todo el proceso." },

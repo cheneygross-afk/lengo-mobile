@@ -80,7 +80,7 @@ export const EN_B1_U16_DRILLS: Lesson[] = [
     [
       ["The doctor who saw me was very young.", "La doctora que me atendió era muy joven."],
       ["The shoes I bought online are too big.", "Los zapatos que compré por internet me quedan grandes."],
-      ["She's the neighbor whose cat sleeps in our garden.", "Es la vecina cuyo gato duerme en nuestro jardín."],
+      ["She's the neighbor whose cat sleeps in our yard.", "Es la vecina cuyo gato duerme en nuestro jardín."],
       ["That's the apartment we're moving into.", "Ese es el departamento al que nos vamos a mudar."],
     ],
     [

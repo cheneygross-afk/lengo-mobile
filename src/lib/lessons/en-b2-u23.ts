@@ -1484,7 +1484,7 @@ export const EN_B2_U23: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Este portátil es bastante más rápido que el anterior.",
+        source: "Esta laptop es bastante más rápida que la anterior.",
         answer: "This laptop is quite a lot faster than the previous one.",
         altAnswers: [
           "This laptop is much faster than the previous one.",

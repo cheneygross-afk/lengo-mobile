@@ -192,7 +192,7 @@ export const EN_B2_U18_DRILLS: Lesson[] = [
     "Recap: reference words, evaluation and impersonal facts",
     [
       "Paragraphs: put the main idea first, avoid repeating nouns with \"this decision\", \"these changes\", \"such a + noun\" (never *a such) and \"the former / the latter\", and avoid comma splices. Every sentence needs a subject: \"It is important to...\".",
-      "Reviews: the story is the \"plot\" (not *argument); the film is \"disappointing\", you are \"disappointed\"; \"worth\" + -ing (never *worth to see); \"I recommend seeing it\", not *I recommend you to see. Reports: \"It was found that...\" (never *Was found that), \"most people\" (not *the most of people), \"It is recommended that the store open earlier\".",
+      "Reviews: the story is the \"plot\" (not *argument); the movie is \"disappointing\", you are \"disappointed\"; \"worth\" + -ing (never *worth to see); \"I recommend seeing it\", not *I recommend you to see. Reports: \"It was found that...\" (never *Was found that), \"most people\" (not *the most of people), \"It is recommended that the store open earlier\".",
     ],
     [
       ["The town built a new bridge. This project took three years.", "El pueblo construyó un puente nuevo. Este proyecto tomó tres años."],
@@ -395,7 +395,7 @@ export const EN_B2_U18_DRILLS: Lesson[] = [
       sp("Unless I receive a reply within ten days, I will contact a consumer organization.",
         "\"Unless\" + positive present for a firm deadline.",
         "Stress \"unless\" on the second syllable: un-LESS."),
-      tr("Asistí a uno de sus cursos el año pasado, pero no recibí el certificado.", ["I attended one of your courses last year, but I {did not|never} receive the certificate.", "I attended one of your courses last year, but I didn't {receive|get} the certificate.", "I attended one of your courses last year; however, I {did not|didn't} receive the certificate."],
+      tr("Asistí a uno de sus cursos el año pasado, pero no recibí el certificado.", ["I attended one of your courses last year, but I {did not receive|never received} the certificate.", "I attended one of your courses last year, but I didn't {receive|get} the certificate.", "I attended one of your courses last year; however, I {did not|didn't} receive the certificate."],
         "Trap mix: \"attended\" (not *assisted to), \"but\" after a comma, or \"however\" after a semicolon or period."),
       tr("Me interesa este puesto porque me gustaría desarrollar mi carrera en una empresa internacional.", ["I am interested in this position because I would like to develop my career in an international company.", "I'm interested in this {position|job|role} because I'd like to {develop|build|grow} my career {in|at|with} an international company."],
         "Trap mix: \"interested in\" (not *for), and here «carrera» really is \"career\" (professional life)."),

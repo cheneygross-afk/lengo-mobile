@@ -89,12 +89,12 @@ export const EN_B1_U19: Lesson[] = [
         heading: "Past and present perfect become past perfect",
         body: [
           "The present perfect moves back to the past perfect: \"I've finished\" becomes \"he said he had finished\". This is just like Spanish: «he terminado» becomes «dijo que había terminado».",
-          "The past simple can also move back to the past perfect: \"I saw the film\" becomes \"she said she had seen the film\". In everyday conversation, people often keep the past simple: \"She said she saw the film\" is also correct.",
+          "The past simple can also move back to the past perfect: \"I saw the movie\" becomes \"she said she had seen the movie\". In everyday conversation, people often keep the past simple: \"She said she saw the movie\" is also correct.",
           "\"Had\" + past participle is the same for every person: \"I had\", \"she had\", \"they had\". The short form is \"'d\": \"he'd finished\".",
         ],
         examples: [
           { es: "Carlos said he had finished the report.", en: "Carlos dijo que había terminado el informe." },
-          { es: "She said she had seen the film.", en: "Dijo que había visto la película." },
+          { es: "She said she had seen the movie.", en: "Dijo que había visto la película." },
           { es: "They said they had never been to Mexico.", en: "Dijeron que nunca habían estado en México." },
           { es: "He told me he had lost his keys.", en: "Me dijo que había perdido las llaves." },
           { es: "Sofia said she'd already eaten.", en: "Sofia dijo que ya había comido." },
@@ -112,7 +112,7 @@ export const EN_B1_U19: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English.",
-            sentence: "Sofia said she ___ the film.",
+            sentence: "Sofia said she ___ the movie.",
             answer: "had seen",
             en: "Sofia dijo que [había visto] la película.",
             explanation: "«Había visto» is \"had seen\": \"had\" + the past participle of \"see\". Not *had saw.",

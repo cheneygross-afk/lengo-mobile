@@ -457,7 +457,7 @@ export const EN_B2_U15: Lesson[] = [
           "got the roof repaired",
           "got the roof fixed",
         ],
-        en: "El mes pasado [nos arreglaron el tejado].",
+        en: "El mes pasado [nos arreglaron el techo].",
         explanation: "«Nos arreglaron» with no clear subject is the causative in English: \"had our roof repaired\".",
       },
       {
@@ -491,7 +491,7 @@ export const EN_B2_U15: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["The", "minister", "is", "said", "to", "have", "resigned."],
-        translation: "Se dice que el ministro ha dimitido.",
+        translation: "Se dice que el ministro renunció.",
         explanation: "Personal passive + perfect infinitive: \"is said to have resigned\".",
       },
       {

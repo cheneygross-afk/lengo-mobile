@@ -417,7 +417,7 @@ export const EN_A2_U12_EXTRA: Lesson[] = [
         body: [
           "Con \"-ing\": \"enjoy\", \"mind\", \"finish\", \"stop\", \"avoid\", \"practice\", \"suggest\", \"can't stand\", \"keep\", \"give up\". Con \"to\": \"want\", \"need\", \"decide\", \"hope\", \"plan\", \"promise\", \"learn\", \"try\", \"forget\", \"expect\", \"offer\".",
           "\"Like\", \"love\", \"hate\" y \"prefer\" admiten las dos en inglés americano: \"I like swimming\" = \"I like to swim\". Pero nunca las dos a la vez: *I like to swimming no existe.",
-          "\"Would like\" («me gustaría», «quisiera») es diferente: solo admite \"to\": \"I'd like to swim\". *I would like swimming es un error frecuente porque \"like\" solo sí admite \"-ing\".",
+          "\"Would like\" («me gustaría», «quisiera») es diferente: solo admite \"to\": \"I'd like to swim\". *I would like swimming es un error frecuente porque \"like\" (sin \"would\") sí admite \"-ing\".",
         ],
         examples: [
           { es: "I like swimming.", en: "Me gusta nadar." },
@@ -487,7 +487,7 @@ export const EN_A2_U12_EXTRA: Lesson[] = [
         question: "Alguien dice *I would like going to the concert. ¿Cuál es la corrección?",
         options: ["I would like to go to the concert.", "I would like go to the concert.", "I would like that go to the concert.", "I would like to going to the concert."],
         correctIndex: 0,
-        explanation: "\"Would like\" + \"to\" + verbo. Aunque \"like\" solo acepta \"-ing\", \"would like\" nunca.",
+        explanation: "\"Would like\" + \"to\" + verbo. Aunque \"like\" (sin \"would\") admite \"-ing\", \"would like\" nunca.",
       },
       {
         type: "translate",
@@ -579,7 +579,7 @@ export const EN_A2_U12_EXTRA: Lesson[] = [
           { left: "would like", right: "solo to + verbo" },
           { left: "like", right: "-ing o to + verbo" },
         ],
-        explanation: "\"Enjoy\": \"-ing\"; \"want\": \"to\"; \"like\": las dos; \"would like\": solo \"to\".",
+        explanation: "\"Enjoy\" y \"stop\": \"-ing\"; \"like\": las dos; \"would like\": solo \"to\".",
       },
       {
         type: "listen-choose",
@@ -1010,7 +1010,7 @@ export const EN_A2_U12_EXTRA: Lesson[] = [
         examples: [
           { es: "Thanks for helping me.", en: "Gracias por ayudarme. (incorrecto: *for help me)" },
           { es: "I'm interested in learning Japanese.", en: "Me interesa aprender japonés." },
-          { es: "She's good at fixing things.", en: "Se le da bien arreglar cosas." },
+          { es: "She's good at fixing things.", en: "Es buena para arreglar cosas." },
           { es: "Brush your teeth before going to bed.", en: "Lávate los dientes antes de acostarte." },
           { es: "He left without saying goodbye.", en: "Se fue sin despedirse." },
           { es: "Running is my favorite sport.", en: "Correr es mi deporte favorito. (más natural que \"To run is\")" },
@@ -1191,7 +1191,7 @@ export const EN_A2_U12_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "I'm not very good at dancing.",
-        explanation: "\"Good at\" + \"-ing\": \"good at dancing\". «No se me da muy bien bailar».",
+        explanation: "\"Good at\" + \"-ing\": \"good at dancing\". «No soy muy bueno para bailar».",
       },
     ],
   },

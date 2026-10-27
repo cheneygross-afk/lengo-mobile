@@ -283,7 +283,7 @@ export const EN_B2_U13_DRILLS: Lesson[] = [
         "A negative question shows surprise: you expected the person to be done. \"Yet\" goes at the end."),
       fb("Turn the music down, ___?", ["will you", "would you", "could you", "can you"], "Baja la música, [¿quieres?]",
         "After an imperative, the tag \"will you?\" turns an order into a request; \"would you?\" and \"could you?\" are more polite."),
-      fb("Let's order a pizza, ___?", "shall we", "Pidamos una pizza, [¿sí?]",
+      fb("Let's order a pizza, ___?", ["shall we", "OK", "okay"], "Pidamos una pizza, [¿sí?]",
         "After \"Let's\", the tag is \"shall we?\". Many Americans just say \"OK?\"."),
       tr("Salgamos temprano mañana, ¿sí?", "Let's leave early tomorrow, {shall we|OK|okay}?",
         "\"Let's\" + base form, and the tag \"shall we?\" (or a casual \"OK?\")."),

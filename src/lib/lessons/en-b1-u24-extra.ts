@@ -127,7 +127,7 @@ export const EN_B1_U24_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Mi hermano no es lo bastante alto para jugar al baloncesto.",
+        source: "Mi hermano no es lo bastante alto para jugar básquetbol.",
         answer: "My brother isn't tall enough to play basketball.",
         altAnswers: ["My brother is not tall enough to play basketball."],
         explanation: "\"Tall enough\" + \"to\" + verb. Not *enough tall, and not *for play.",
@@ -233,13 +233,13 @@ export const EN_B1_U24_EXTRA: Lesson[] = [
       {
         heading: "Quick recap: so or such?",
         body: [
-          "Spanish uses «tan» and «tanto/tal» in many ways. English is simpler: \"so\" + adjective or adverb (\"so tired\", \"so fast\"); \"such\" + noun, usually with an adjective (\"such a good film\", \"such nice people\").",
+          "Spanish uses «tan» and «tanto/tal» in many ways. English is simpler: \"so\" + adjective or adverb (\"so tired\", \"so fast\"); \"such\" + noun, usually with an adjective (\"such a good movie\", \"such nice people\").",
           "With a singular countable noun, use \"such a/an\": \"such a mess\", \"such an expensive car\". With plural or uncountable nouns there's no \"a\": \"such expensive shoes\", \"such bad weather\".",
-          "Typical mistakes: *such tired (no noun, so use \"so\"), *so a good film (with a noun, use \"such\"), *such an expensive shoes (plural, so no \"an\"). With \"much\" and \"many\", use \"so\": \"so much money\", \"so many people\".",
+          "Typical mistakes: *such tired (no noun, so use \"so\"), *so a good movie (with a noun, use \"such\"), *such an expensive shoes (plural, so no \"an\"). With \"much\" and \"many\", use \"so\": \"so much money\", \"so many people\".",
         ],
         examples: [
           { es: "I'm so tired.", en: "Estoy tan cansado." },
-          { es: "It was such a good film.", en: "Fue una película tan buena." },
+          { es: "It was such a good movie.", en: "Fue una película tan buena." },
           { es: "They're such nice people.", en: "Son personas tan agradables." },
           { es: "What a mess! Your room is such a mess.", en: "¡Qué desorden! Tu cuarto es un desastre." },
           { es: "We had such bad weather.", en: "Tuvimos un tiempo tan malo." },

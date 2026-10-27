@@ -432,7 +432,7 @@ export const EN_B2_U26: Lesson[] = [
           "Use \"get\" for a change of feeling: \"get upset\", \"get angry\", \"get nervous\" («ponerse nervioso»). With \"feel\", there is no reflexive pronoun: \"I feel nervous\", not *I feel me nervous.",
         ],
         examples: [
-          { es: "I'm so excited about the concert tonight!", en: "¡Qué ilusión me hace el concierto de esta noche!" },
+          { es: "I'm so excited about the concert tonight!", en: "¡Qué emoción el concierto de esta noche!" },
           { es: "She was absolutely furious with him.", en: "Estaba furiosa con él." },
           { es: "They were thrilled with the news.", en: "Estaban encantados con la noticia." },
           { es: "I always get nervous before an interview.", en: "Siempre me pongo nervioso antes de una entrevista." },
@@ -444,7 +444,7 @@ export const EN_B2_U26: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Me hace mucha ilusión el viaje.",
+            source: "Estoy muy emocionado por el viaje.",
             answer: "I'm really excited about the trip.",
             altAnswers: [
               "I'm very excited about the trip.",

@@ -93,6 +93,7 @@ export const EN_B2_U06_DRILLS: Lesson[] = [
         "I wouldn't speak French if I hadn't moved to Canada",
         "No hablaría francés si no me hubiera mudado a Canadá.",
         "The move is past, the French is now: mixed conditional. Trust the Spanish: «hablaría» = \"would speak\", not \"would have spoken\".",
+        ["If I hadn't moved to Canada I wouldn't speak French"],
       ),
       tr(
         "Si no fuera tan desorganizado, habría terminado la tesis el año pasado.",
@@ -122,7 +123,7 @@ export const EN_B2_U06_DRILLS: Lesson[] = [
       ),
       tr(
         "Si lo hubiera sabido, te lo hubiera dicho.",
-        "If I had known, I would have told you.",
+        ["If I had known{| about it| that}, I would have told you.", "I would have told you if I had known."],
         "Spoken Spanish uses «hubiera» twice, but English splits the halves: \"had known\" after \"if\", \"would have told\" in the result. *If I would have known is wrong in careful English.",
       ),
       tr(
@@ -463,13 +464,13 @@ export const EN_B2_U06_DRILLS: Lesson[] = [
       ),
       tr(
         "Si no se hubiera construido el canal, el comercio habría sido mucho más lento.",
-        "If the canal hadn't been built, trade would have been much slower.",
+        ["If the canal hadn't been built, trade would have been much slower.", "Trade would have been much slower if the canal hadn't been built.", "If they hadn't built the canal, trade would have been much slower."],
         "Passive if-clause (\"hadn't been built\") and a past result with \"would have been\".",
       ),
       fb(
         "Without the treaty, the war might ___ by the other side.",
         "have been won",
-        "Sin el tratado, la guerra [podría haber sido ganada] por el otro lado.",
+        "Sin el tratado, la guerra [podría haber sido ganada] por el otro bando.",
         "Passive with a modal: \"might have been won\". The order never changes: modal + have + been + participle.",
       ),
       tr(
@@ -527,6 +528,7 @@ export const EN_B2_U06_DRILLS: Lesson[] = [
         "I wouldn't have accepted the offer even if they had doubled my salary",
         "No habría aceptado la oferta aunque me hubieran duplicado el sueldo.",
         "\"Even if\" + past perfect for an imaginary past: «aunque me hubieran duplicado».",
+        ["Even if they had doubled my salary I wouldn't have accepted the offer"],
       ),
       sp(
         "If I found a wallet in the street, I'd try to find the owner.",

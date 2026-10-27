@@ -523,7 +523,7 @@ export const EN_A2_U13_EXTRA: Lesson[] = [
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "We ___ to the airport two hours early.",
         answer: "got",
-        en: "[Llegamos] al aeropuerto con dos horas de antelación.",
+        en: "[Llegamos] al aeropuerto con dos horas de anticipación.",
         explanation: "\"Get to\" + lugar es «llegar a». Si usas \"arrive\", la preposición es \"at\": \"arrived at the airport\", nunca *arrived to.",
       },
       {
@@ -856,7 +856,7 @@ export const EN_A2_U13_EXTRA: Lesson[] = [
         source: "Enciéndela, por favor. Quiero ver las noticias.",
         answer: "Turn it on, please. I want to watch the news.",
         altAnswers: ["Please turn it on. I want to watch the news.", "Turn it on, please. I want to see the news.", "Switch it on, please. I want to watch the news."],
-        explanation: "«Enciéndela» (la tele) es \"turn it on\", con \"it\" en medio. La tele se \"watch\", no se \"see\".",
+        explanation: "«Enciéndela» (la tele) es \"turn it on\", con \"it\" en medio. Con la tele lo normal es \"watch\" (\"see the news\" también se oye).",
       },
       {
         type: "dictation",

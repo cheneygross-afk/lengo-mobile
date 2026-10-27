@@ -651,7 +651,7 @@ export const EN_B2_U27: Lesson[] = [
           { es: "The old factory has been turned into apartments.", en: "La vieja fábrica se ha convertido en apartamentos." },
           { es: "A new metro line is being built.", en: "Se está construyendo una nueva línea de metro." },
           { es: "The area has been completely gentrified.", en: "La zona se ha gentrificado por completo." },
-          { es: "Many local shops were forced to close.", en: "Muchas tiendas del barrio se vieron obligadas a cerrar." },
+          { es: "Many local stores were forced to close.", en: "Muchas tiendas del barrio se vieron obligadas a cerrar." },
           { es: "There isn't enough affordable housing in the city.", en: "No hay suficiente vivienda asequible en la ciudad." },
           { es: "Rents have doubled in ten years.", en: "Los alquileres se han duplicado en diez años." },
         ],
@@ -1411,7 +1411,7 @@ export const EN_B2_U27: Lesson[] = [
         heading: "Recipe, receipt, prescription",
         body: [
           "Spanish «receta» has two meanings, and English has a different word for each. Instructions for cooking a dish are a \"recipe\" (REH-sih-pee, three syllables). A doctor's «receta» is a \"prescription\".",
-          "Then there is \"receipt\" (rih-SEET, the p is silent): the piece of paper you get when you pay, «el ticket» or «el recibo». Mixing up \"recipe\" and \"receipt\" is one of the most common Spanish-speaker errors: *Can I have the recipe? at a shop checkout causes confusion.",
+          "Then there is \"receipt\" (rih-SEET, the p is silent): the piece of paper you get when you pay, «el ticket» or «el recibo». Mixing up \"recipe\" and \"receipt\" is one of the most common Spanish-speaker errors: *Can I have the recipe? at a store checkout causes confusion.",
           "The things you need for a recipe are the \"ingredients\". A \"cook\" is a person who cooks; a \"cooker\" is the British word for a stove. So «es muy buen cocinero» is \"He's a very good cook\", never *a good cooker.",
         ],
         examples: [

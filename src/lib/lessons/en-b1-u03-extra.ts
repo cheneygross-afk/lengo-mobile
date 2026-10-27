@@ -790,7 +790,7 @@ export const EN_B1_U03_EXTRA: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "My feet hurt because I ___ all day.",
             answer: "had been walking",
-            altAnswers: ["had been walking around", "had been standing", "had walked"],
+            altAnswers: ["had been walking around", "had walked"],
             en: "Me dolían los pies porque [había estado caminando] todo el día.",
             explanation: "An activity that continued up to that moment and explains a result: \"had been walking\".",
           },

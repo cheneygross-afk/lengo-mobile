@@ -165,7 +165,7 @@ export const EN_A2_U08_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "«Este auto es más grande.» ¿Cuál está bien escrita?",
+        question: "«Este carro es más grande.» ¿Cuál está bien escrita?",
         options: ["This car is bigger.", "This car is biger.", "This car is more big.", "This car is more bigger."],
         correctIndex: 0,
         explanation: "\"Big\" duplica la consonante final: \"bigger\". *More big y *more bigger son calcos del español.",
@@ -796,7 +796,7 @@ export const EN_A2_U08_EXTRA: Lesson[] = [
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "My car is older than yours. = Your car isn't ___ mine.",
         answer: "as old as",
-        en: "Mi auto es más viejo que el tuyo. = Tu auto no es [tan viejo como] el mío.",
+        en: "Mi carro es más viejo que el tuyo. = Tu carro no es [tan viejo como] el mío.",
         explanation: "\"Older than\" se puede decir al revés con \"not as old as\". Fíjate: con \"as... as\" se usa \"old\", no \"older\".",
       },
       {

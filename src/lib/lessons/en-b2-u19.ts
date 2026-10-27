@@ -169,7 +169,7 @@ export const EN_B2_U19: Lesson[] = [
           { es: "What was the hardest thing to get used to?", en: "¿A qué te costó más acostumbrarte?" },
           { es: "The hardest thing to get used to was the food.", en: "Lo que más me costó fue acostumbrarme a la comida." },
           { es: "I've stopped going out so much since I had the baby.", en: "He dejado de salir tanto desde que tuve al bebé." },
-          { es: "I remember feeling completely lost on my first day.", en: "Recuerdo sentirme completamente perdido el primer día." },
+          { es: "I remember feeling completely lost on my first day.", en: "Recuerdo que me sentía completamente perdido el primer día." },
           { es: "Now I'm used to it, and I even enjoy it.", en: "Ahora ya estoy acostumbrado, e incluso lo disfruto." },
         ],
         checkpoint: [
@@ -185,7 +185,7 @@ export const EN_B2_U19: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Recuerdo sentirme completamente perdida el primer día.",
+            source: "Recuerdo que me sentía completamente perdida el primer día.",
             answer: "I remember feeling completely lost on my first day.",
             altAnswers: [
               "I remember feeling completely lost on the first day.",
@@ -415,7 +415,7 @@ export const EN_B2_U19: Lesson[] = [
         heading: "«Dejar de», «acordarse de», «olvidarse de»",
         body: [
           "«Dejar de» + infinitive is \"stop\" + -ing: «he dejado de tomar café» = \"I've stopped drinking coffee\". For bad habits you can also say \"quit\" or \"give up\" + -ing.",
-          "«Acordarse de» + a duty is \"remember\" + to: «acuérdate de llamar» = \"remember to call\". «Acordarse de» + a past experience is \"remember\" + -ing: «me acuerdo de conocerla» = \"I remember meeting her\". «Olvidarse de» works the same way with \"forget\".",
+          "«Acordarse de» + a duty is \"remember\" + to: «acuérdate de llamar» = \"remember to call\". «Acordarse de» + a past experience is \"remember\" + -ing: «me acuerdo de haberla conocido» = \"I remember meeting her\". «Olvidarse de» works the same way with \"forget\".",
           "The Spanish «de» disappears: not *remember of, not *forget of. And «acordarse» is never \"agree\" or \"accord\".",
         ],
         examples: [

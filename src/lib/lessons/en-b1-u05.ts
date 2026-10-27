@@ -110,7 +110,7 @@ export const EN_B1_U05: Lesson[] = [
               "Tomorrow I'm going to go to the movies.",
               "Tomorrow I'm going to go to the cinema.",
             ],
-            explanation: "The Spanish present «voy» becomes the present continuous \"I'm going\" for a future plan. *Tomorrow I go to the cinema is a classic Spanish-speaker mistake.",
+            explanation: "The Spanish present «voy» becomes the present continuous \"I'm going\" for a future plan. *Tomorrow I go to the movies is a classic Spanish-speaker mistake.",
           },
           {
             type: "multiple-choice",
@@ -234,8 +234,8 @@ export const EN_B1_U05: Lesson[] = [
       {
         heading: "Timetables use the present simple",
         body: [
-          "In the last lesson you saw that the present simple is wrong for personal plans: *Tomorrow I go to the cinema. But there is one important exception: timetables and official schedules.",
-          "When something happens because a timetable, a calendar or a program says so (trains, flights, classes, movies, shops, events), English uses the present simple: \"The train leaves at 8\", \"The course starts on Monday\".",
+          "In the last lesson you saw that the present simple is wrong for personal plans: *Tomorrow I go to the movies. But there is one important exception: timetables and official schedules.",
+          "When something happens because a timetable, a calendar or a program says so (trains, flights, classes, movies, stores, events), English uses the present simple: \"The train leaves at 8\", \"The course starts on Monday\".",
           "Here English and Spanish work the same way: «el tren sale a las ocho» is \"The train leaves at eight\". Remember the third-person -s: \"leaves\", \"starts\", \"opens\".",
         ],
         examples: [
@@ -597,8 +597,8 @@ export const EN_B1_U05: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "¿Qué hacemos esta noche?",
-        answer: "What shall we do tonight?",
-        altAnswers: ["What should we do tonight?", "What are we doing tonight?", "What do you want to do tonight?", "What do we do tonight?"],
+        answer: "What should we do tonight?",
+        altAnswers: ["What shall we do tonight?", "What are we doing tonight?", "What do you want to do tonight?", "What do we do tonight?"],
         explanation: "To ask for suggestions, \"What shall we do?\" or \"What should we do?\" is natural.",
       },
       {
@@ -862,7 +862,7 @@ export const EN_B1_U05: Lesson[] = [
         body: [
           "\"Will you be using the car tonight?\" is a very polite way to ask about someone's plans. You are not asking them to do anything; you just want information, often because you want something yourself.",
           "Compare: \"Will you help me tomorrow?\" is a request: you ask the person to help. \"Will you be helping at the event tomorrow?\" just asks about their plans. It sounds softer and less direct.",
-          "In Spanish we would say «¿vas a usar el carro esta noche?» or «¿vas a venir a la fiesta?». \"Are you going to use the car?\" is also correct, but \"Will you be using...?\" sounds more polite and is very common in shops, offices and hotels.",
+          "In Spanish we would say «¿vas a usar el carro esta noche?» or «¿vas a venir a la fiesta?». \"Are you going to use the car?\" is also correct, but \"Will you be using...?\" sounds more polite and is very common in stores, offices and hotels.",
         ],
         examples: [
           { es: "Will you be using the car tonight?", en: "¿Vas a usar el carro esta noche?" },
@@ -886,7 +886,7 @@ export const EN_B1_U05: Lesson[] = [
             question: "A hotel receptionist wants to know your plans. What does she most likely say?",
             options: ["How will you be paying?", "How you will pay?", "How do you pay will?", "How will you paying?"],
             correctIndex: 0,
-            explanation: "Staff in hotels and shops often use the future continuous because it is polite: \"How will you be paying?\".",
+            explanation: "Staff in hotels and stores often use the future continuous because it is polite: \"How will you be paying?\".",
           },
         ],
       },
@@ -1965,13 +1965,13 @@ export const EN_B1_U05: Lesson[] = [
       {
         heading: "Devices and things on them",
         body: [
-          "Common nouns: \"device\" (dispositivo), \"phone\" or \"cell phone\" (US) / \"mobile\" (UK), \"laptop\" (portátil), \"tablet\", \"screen\" (pantalla), \"battery\", \"charger\" (cargador), \"app\", \"password\" (contraseña), \"Wi-Fi\".",
+          "Common nouns: \"device\" (dispositivo), \"phone\" or \"cell phone\" (US) / \"mobile\" (UK), \"laptop\" (computadora portátil), \"tablet\", \"screen\" (pantalla), \"battery\", \"charger\" (cargador), \"app\", \"password\" (contraseña), \"Wi-Fi\".",
           "\"AI\" is \"artificial intelligence\", pronounced as two letters: \"ay-eye\". In English the letters are \"A\" and \"I\", so it is \"AI\", not «IA» as in Spanish.",
           "\"Screen time\" is the time you spend looking at screens: \"I want to reduce my screen time\".",
         ],
         examples: [
           { es: "My laptop battery is dead.", en: "La batería de mi laptop está descargada." },
-          { es: "I forgot my password.", en: "He olvidado mi contraseña." },
+          { es: "I forgot my password.", en: "Olvidé mi contraseña." },
           { es: "Where's my charger?", en: "¿Dónde está mi cargador?" },
           { es: "I want to reduce my screen time.", en: "Quiero reducir el tiempo que paso delante de las pantallas." },
           { es: "AI will change many jobs.", en: "La IA cambiará muchos trabajos." },

@@ -1550,7 +1550,7 @@ export const EN_A2_U23: Lesson[] = [
         ],
         examples: [
           { es: "I've lost my phone!", en: "¡He perdido el teléfono!" },
-          { es: "I think I left it in a taxi.", en: "Creo que me lo dejé en un taxi." },
+          { es: "I think I left it in a taxi.", en: "Creo que lo dejé en un taxi." },
           { es: "Could you help me, please?", en: "¿Me podría ayudar, por favor?" },
           { es: "Is there a lost and found here?", en: "¿Hay una oficina de objetos perdidos aquí?" },
           { es: "It's a black phone with a red case.", en: "Es un teléfono negro con una funda roja." },
@@ -1561,7 +1561,7 @@ export const EN_A2_U23: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Traduce al inglés.",
-            source: "Creo que me dejé la cartera en el taxi.",
+            source: "Creo que dejé la cartera en el taxi.",
             answer: "I think I left my wallet in the taxi.",
             altAnswers: ["I think I left my wallet in the cab.", "I think I left my purse in the taxi.", "I think I left my purse in the cab."],
             explanation: "«Dejarse algo» olvidado en un sitio es \"leave\" (pasado \"left\"). Y en inglés se usa el posesivo: \"my wallet\".",
@@ -1863,7 +1863,7 @@ export const EN_A2_U23: Lesson[] = [
         heading: "\"Will\", \"going to\" y presente continuo",
         body: [
           "\"Going to\": planes ya decididos y predicciones con pruebas (\"Look at those clouds. It's going to rain\"). \"Will\": decisiones del momento, ofrecimientos, promesas y predicciones de opinión (\"I think you'll like it\"). Presente continuo: citas y planes organizados (\"I'm meeting Ana at six\").",
-          "El error típico es usar el presente simple para ofrecerse o decidir: «Ya contesto yo» es \"I'll get it\", no *I get it. Y para ofrecerte en pregunta, \"Shall I...?\": «¿Abro la ventana?» = \"Shall I open the window?\".",
+          "El error típico es usar el presente simple para ofrecerse o decidir: «Ya contesto yo» es \"I'll get it\", no *I get it. Y para ofrecerte en pregunta, \"Should I...?\" (en inglés británico, \"Shall I...?\"): «¿Abro la ventana?» = \"Should I open the window?\".",
         ],
         examples: [
           { es: "Look at those clouds. It's going to rain.", en: "Mira esas nubes. Va a llover." },
@@ -1871,7 +1871,7 @@ export const EN_A2_U23: Lesson[] = [
           { es: "I'm meeting Ana at six.", en: "Voy a ver a Ana a las seis." },
           { es: "We're going to paint the kitchen this weekend.", en: "Vamos a pintar la cocina este fin de semana." },
           { es: "I think you'll like this movie.", en: "Creo que te gustará esta película." },
-          { es: "Shall I open the window?", en: "¿Abro la ventana?" },
+          { es: "Should I open the window?", en: "¿Abro la ventana?" },
         ],
         checkpoint: [
           {
@@ -2458,7 +2458,7 @@ export const EN_A2_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "«Me hice daño.» ¿Cómo se dice?",
+        question: "«Me lastimé.» ¿Cómo se dice?",
         options: ["I hurt myself.", "I hurt me.", "I made myself damage.", "I did me hurt."],
         correctIndex: 0,
         explanation: "Cuando sujeto y objeto son la misma persona, se usa el reflexivo: \"myself\".",

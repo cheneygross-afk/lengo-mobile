@@ -146,7 +146,7 @@ export const EN_B1_U26_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["She", "filled", "in", "the", "form."],
-        translation: "Rellenó el formulario.",
+        translation: "Llenó el formulario.",
         altOrders: [["She", "filled", "the", "form", "in."]],
         explanation: "With a noun object, both orders are possible.",
       },
@@ -254,7 +254,7 @@ export const EN_B1_U26_EXTRA: Lesson[] = [
           "In \"look forward to\", \"to\" is a preposition, so the next verb takes -ing: \"I'm looking forward to seeing you\", never *to see you.",
         ],
         examples: [
-          { es: "I'm looking forward to the holidays.", en: "Tengo ganas de que lleguen las vacaciones." },
+          { es: "I'm looking forward to my vacation.", en: "Tengo ganas de que lleguen las vacaciones." },
           { es: "I'm looking forward to seeing you.", en: "Tengo ganas de verte." },
           { es: "We ran out of time.", en: "Se nos acabó el tiempo." },
         ],
@@ -327,9 +327,9 @@ export const EN_B1_U26_EXTRA: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Me llevo muy bien con mi suegra.",
-        answer: "I get on very well with my mother-in-law.",
-        altAnswers: ["I get along very well with my mother-in-law.", "I get on really well with my mother-in-law.", "I get along really well with my mother-in-law."],
-        explanation: "«Llevarse bien con» is \"get on (well) with\" (UK and US) or \"get along with\" (more US).",
+        answer: "I get along very well with my mother-in-law.",
+        altAnswers: ["I get on very well with my mother-in-law.", "I get on really well with my mother-in-law.", "I get along really well with my mother-in-law."],
+        explanation: "«Llevarse bien con» is \"get along (well) with\" in American English; British English often says \"get on (well) with\".",
       },
       {
         type: "fill-blank",
@@ -451,10 +451,10 @@ export const EN_B1_U26_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "How do you say «Hicimos cola durante una hora»?",
+            question: "How do you say «Hicimos fila durante una hora»?",
             options: ["We waited in line for an hour.", "We made a line for an hour.", "We did a queue for an hour.", "We made queue for an hour."],
             correctIndex: 0,
-            explanation: "«Hacer cola» is \"wait in line\" in American English and \"queue\" in British English, never make or do.",
+            explanation: "«Hacer fila» is \"wait in line\" in American English and \"queue\" in British English, never make or do.",
           },
         ],
       },
@@ -710,7 +710,7 @@ export const EN_B1_U26_EXTRA: Lesson[] = [
         question: "Which verb can replace \"get\" in \"Can you get some bread on your way home?\"",
         options: ["buy", "become", "arrive", "understand"],
         correctIndex: 0,
-        explanation: "Get + a thing from a shop = buy.",
+        explanation: "Get + a thing from a store = buy.",
       },
       {
         type: "fill-blank",

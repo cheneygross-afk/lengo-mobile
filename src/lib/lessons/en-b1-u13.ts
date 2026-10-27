@@ -1184,7 +1184,7 @@ export const EN_B1_U13: Lesson[] = [
       {
         heading: "Possibility and certainty",
         body: [
-          "Exams like Cambridge B1 Preliminary and B2 First often ask you to rewrite a sentence without changing the meaning. Modals are a favorite, because one modal can replace a whole phrase.",
+          "Many international English exams ask you to rewrite a sentence without changing the meaning. Modals are a favorite, because one modal can replace a whole phrase.",
           "Possibility: \"It's possible that she's sick\" = \"She might be sick\" = \"She may be sick\" = \"She could be sick\". Spanish «puede que esté enferma» or «a lo mejor está enferma» works the same way. Don't write *Maybe she might be sick: one is enough.",
           "Certainty: \"I'm sure he's at home\" = \"He must be at home\". \"I'm sure he isn't at home\" = \"He can't be at home\". For deductions, the opposite of \"must\" is \"can't\", not \"mustn't\".",
         ],
@@ -2277,7 +2277,7 @@ export const EN_B1_U13: Lesson[] = [
           { es: "It might be a deer.", en: "Puede que sea un ciervo." },
           { es: "It can't be a bear.", en: "No puede ser un oso." },
           { es: "It might have been a fox.", en: "Puede que fuera un zorro." },
-          { es: "Something must have eaten our food.", en: "Algo se ha debido de comer nuestra comida." },
+          { es: "Something must have eaten our food.", en: "Algo debe de haberse comido nuestra comida." },
           { es: "It can't have been Tom; he was asleep.", en: "No puede haber sido Tom; estaba dormido." },
         ],
         checkpoint: [
@@ -2295,7 +2295,7 @@ export const EN_B1_U13: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "Something ___ our food!",
             answer: "must have eaten",
-            en: "¡Algo [se ha debido de comer] nuestra comida!",
+            en: "¡Algo [debe de haberse comido] nuestra comida!",
             explanation: "A confident guess about the past: \"must have\" + past participle (\"eaten\").",
           },
         ],

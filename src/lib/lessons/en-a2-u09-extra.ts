@@ -686,8 +686,8 @@ export const EN_A2_U09_EXTRA: Lesson[] = [
         sentence: "Don't eat so fast. You ___ sick.",
         answer: "are going to be",
         altAnswers: ["are going to get", "are going to feel", "will be", "will get", "will feel"],
-        en: "No comas tan rápido. [Te vas a poner] malo.",
-        explanation: "Lo que ves ahora (come muy rápido) lleva a una consecuencia: \"going to\". «Ponerse malo» es \"be\" o \"get sick\".",
+        en: "No comas tan rápido. [Te vas a enfermar].",
+        explanation: "Lo que ves ahora (come muy rápido) lleva a una consecuencia: \"going to\". «Enfermarse» es \"be\" o \"get sick\".",
       },
       {
         type: "fill-blank",
@@ -1042,9 +1042,9 @@ export const EN_A2_U09_EXTRA: Lesson[] = [
           "Para ofrecerte con una pregunta, el español usa el presente («¿te ayudo?», «¿abro la ventana?»). En inglés NO se dice *Do I help you?: se usa \"Shall I help you?\" (algo formal o británico), \"Do you want me to help you?\" o \"Can I help you?\". Todas valen.",
         ],
         examples: [
-          { es: "Shall I help you?", en: "¿Te ayudo? (incorrecto: *Do I help you?)" },
+          { es: "Should I help you?", en: "¿Te ayudo? (incorrecto: *Do I help you?)" },
           { es: "Do you want me to open the window?", en: "¿Abro la ventana?" },
-          { es: "Shall I call a taxi?", en: "¿Llamo a un taxi?" },
+          { es: "Should I call a taxi?", en: "¿Llamo a un taxi?" },
           { es: "Can I carry that for you?", en: "¿Te llevo eso?" },
         ],
         checkpoint: [
@@ -1209,11 +1209,11 @@ export const EN_A2_U09_EXTRA: Lesson[] = [
       },
       {
         type: "listen-choose",
-        audio: "Shall I carry that for you?",
+        audio: "Should I carry that for you?",
         question: "¿Qué hace quien habla?",
         options: ["Se ofrece a llevar algo.", "Pide que le lleven algo.", "Promete llevar algo mañana.", "Pregunta si alguien llevó algo."],
         correctIndex: 0,
-        explanation: "\"Shall I...?\" es un ofrecimiento: «¿Te llevo eso?».",
+        explanation: "\"Should I...?\" es un ofrecimiento: «¿Te llevo eso?».",
       },
       {
         type: "dictation",

@@ -669,7 +669,7 @@ export const EN_A2_U01: Lesson[] = [
         ],
         examples: [
           { es: "I stopped.", en: "Paré. (/t/)" },
-          { es: "She washed the car.", en: "Lavó el auto. (/t/)" },
+          { es: "She washed the car.", en: "Lavó el carro. (/t/)" },
           { es: "We watched TV.", en: "Vimos la tele. (/t/)" },
           { es: "He called me.", en: "Me llamó. (/d/)" },
           { es: "They cleaned the house.", en: "Limpiaron la casa. (/d/)" },
@@ -1282,7 +1282,7 @@ export const EN_A2_U01: Lesson[] = [
           { es: "I moved to Miami in 2019.", en: "Me mudé a Miami en 2019." },
           { es: "She started on Monday.", en: "Empezó el lunes." },
           { es: "The party started at nine.", en: "La fiesta empezó a las nueve." },
-          { es: "We visited them last May.", en: "Los visitamos en mayo del año pasado." },
+          { es: "We visited them last May.", en: "Los visitamos en mayo pasado." },
         ],
         checkpoint: [
           {

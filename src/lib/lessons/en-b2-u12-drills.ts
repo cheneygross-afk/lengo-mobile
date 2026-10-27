@@ -176,7 +176,7 @@ export const EN_B2_U12_DRILLS: Lesson[] = [
         "She explained me the problem.",
         "She said the manager the problem.",
       ], "\"Explain something to someone\". \"Explain\" and \"say\" never take the person directly; only verbs like \"tell\", \"ask\" and \"show\" do."),
-      tr("Negó haber dicho eso.", ["{He|She} denied {saying|having said} that.", "{He|She} denied that {he|she} had said that."],
+      tr("Negó haber dicho eso.", ["{He|She} denied {saying|having said} that.", "He denied that he had said that.", "She denied that she had said that."],
         "Trap: *denied to say. \"Deny\" + -ing, or \"deny that\" + clause."),
       tr("Me convenció de que me inscribiera en el curso.", "{He|She} {persuaded|convinced} me to {sign up for|enroll in|register for|join|take} the course.",
         "Trap: Spanish «de que» + subjunctive, English person + to-infinitive: \"persuaded me to sign up\"."),
@@ -298,7 +298,7 @@ export const EN_B2_U12_DRILLS: Lesson[] = [
       dc("They asked us if we were enjoying the trip.",
         "\"Asked us if\" + statement order: \"we were enjoying\"."),
       sp("I asked the receptionist where the elevator was.", "Reported question: statement order (\"the elevator was\"), and \"ask\" + person with no \"to\".",
-        "Stress \"RECEPtionist\" and \"ELevator\".", "Say it in English: Le pregunté a la recepcionista dónde estaba el elevador."),
+        "Stress \"reCEPtionist\" and \"ELevator\".", "Say it in English: Le pregunté a la recepcionista dónde estaba el elevador."),
       tr("Ayer me dijo que hoy vendría.", ["{He|She} told me yesterday {that |}{he|she} would come today.", "Yesterday {he|she} told me {that |}{he|she} would come today."],
         "Trap: use logic, not a table. It was said yesterday about today, and today is still today, so \"today\" stays. \"Will\" → \"would\"."),
     ],
@@ -326,8 +326,8 @@ export const EN_B2_U12_DRILLS: Lesson[] = [
     [
       fb("\"I'll definitely be there at eight.\" He ___ there at eight.", "promised to be", "[Prometió estar] allí a las ocho.",
         "A promise: \"promise to\" + base verb. \"Definitely\" disappears because \"promise\" already carries that meaning."),
-      fb("\"Shall I drive you home?\" She ___ me home.", ["offered to drive", "offered to take"], "[Se ofreció a llevarme] a casa.",
-        "\"Shall I...?\" is an offer: \"offered to\" + base verb. The question form disappears in the report."),
+      fb("\"Should I drive you home?\" She ___ me home.", ["offered to drive", "offered to take"], "[Se ofreció a llevarme] a casa.",
+        "\"Should I...?\" is an offer: \"offered to\" + base verb. The question form disappears in the report."),
       fb("\"No way, I'm not lending you my car.\" He ___ me his car.", "refused to lend", "[Se negó a prestarme] su carro.",
         "\"No way, I'm not...\" is a refusal: \"refused to\" + base verb."),
       mc("\"If I were you, I'd talk to a lawyer.\" Which report is correct?", [

@@ -358,7 +358,7 @@ export const EN_A2_U19: Lesson[] = [
       {
         heading: "Las lesiones: \"I broke my arm\"",
         body: [
-          "Para los accidentes se usan verbos como \"break\" (romper), \"sprain\" (torcer), \"cut\" (cortar), \"burn\" (quemar) y \"hurt\" (hacerse daño): \"I broke my arm\", \"She sprained her ankle\", \"I cut my finger\", \"He hurt his back\".",
+          "Para los accidentes se usan verbos como \"break\" (romper), \"sprain\" (torcer), \"cut\" (cortar), \"burn\" (quemar) y \"hurt\" (lastimarse): \"I broke my arm\", \"She sprained her ankle\", \"I cut my finger\", \"He hurt his back\".",
           "Fíjate en el posesivo. En español decimos «me rompí el brazo», con «el». En inglés la parte del cuerpo lleva siempre posesivo: \"I broke my arm\", no *I broke the arm. Y el verbo no es reflexivo: nada de *I broke me the arm.",
           "\"Hurt\" también significa «doler»: \"My back hurts\" (me duele la espalda). Es irregular y no cambia en pasado: \"hurt, hurt, hurt\".",
         ],
@@ -366,7 +366,7 @@ export const EN_A2_U19: Lesson[] = [
           { es: "I broke my arm when I was ten.", en: "Me rompí el brazo cuando tenía diez años." },
           { es: "She sprained her ankle playing tennis.", en: "Se torció el tobillo jugando al tenis." },
           { es: "I cut my finger.", en: "Me corté el dedo." },
-          { es: "He hurt his back at work.", en: "Se hizo daño en la espalda en el trabajo." },
+          { es: "He hurt his back at work.", en: "Se lastimó la espalda en el trabajo." },
           { es: "My knee hurts.", en: "Me duele la rodilla." },
         ],
         checkpoint: [
@@ -693,9 +693,9 @@ export const EN_A2_U19: Lesson[] = [
         type: "listen-choose",
         audio: "He quit his job and started his own company.",
         question: "¿Qué has oído?",
-        options: ["Dejó el trabajo y montó su propia empresa.", "Lo despidieron y buscó otro trabajo.", "Lo ascendieron en su empresa.", "Se jubiló y vendió su empresa."],
+        options: ["Dejó el trabajo y abrió su propia empresa.", "Lo despidieron y buscó otro trabajo.", "Lo ascendieron en su empresa.", "Se jubiló y vendió su empresa."],
         correctIndex: 0,
-        explanation: "\"Quit his job\" es «dejó el trabajo»; \"started his own company\", «montó su propia empresa».",
+        explanation: "\"Quit his job\" es «dejó el trabajo»; \"started his own company\", «abrió su propia empresa».",
       },
       {
         type: "speak",
@@ -723,7 +723,7 @@ export const EN_A2_U19: Lesson[] = [
         examples: [
           { es: "Can I use your phone?", en: "¿Puedo usar tu celular?" },
           { es: "I need to charge my phone.", en: "Tengo que cargar el celular." },
-          { es: "My battery is dead.", en: "Me he quedado sin batería." },
+          { es: "My battery is dead.", en: "Me quedé sin batería." },
           { es: "Do you have a charger?", en: "¿Tienes un cargador?" },
           { es: "The screen is broken.", en: "La pantalla está rota." },
           { es: "I'll text you later.", en: "Te escribo luego." },
@@ -836,7 +836,7 @@ export const EN_A2_U19: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Me he quedado sin batería.",
+        source: "Me quedé sin batería.",
         answer: "My battery is dead.",
         altAnswers: ["My phone died.", "My phone is dead.", "My battery died.", "My battery has died.", "My phone has died."],
         explanation: "«Quedarse sin batería» se dice con \"dead\" o \"die\": \"My battery is dead\", \"My phone died\".",
@@ -1380,7 +1380,7 @@ export const EN_A2_U19: Lesson[] = [
           { es: "He goes to a school near our house.", en: "Va a un colegio cerca de casa." },
           { es: "She's in college.", en: "Está en la universidad." },
           { es: "My favorite subject is history.", en: "Mi asignatura favorita es la historia." },
-          { es: "I was bad at math.", en: "Se me daban mal las matemáticas." },
+          { es: "I was bad at math.", en: "Era malo para las matemáticas." },
         ],
         checkpoint: [
           {

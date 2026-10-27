@@ -356,7 +356,7 @@ export const EN_B2_U09_EXTRA: Lesson[] = [
         sentence: "A: I failed my driving test. B: You ___ more. You only had two lessons!",
         answer: "should have practiced",
         altAnswers: ["ought to have practiced"],
-        en: "A: Reprobé el examen de manejo. B: [Deberías haber practicado] más. ¡Solo diste dos clases!",
+        en: "A: Reprobé el examen de manejo. B: [Deberías haber practicado] más. ¡Solo tomaste dos clases!",
         explanation: "Criticism of the past: \"should have\" + participle. \"Practice\" (American) and \"practise\" (British verb) are both accepted.",
       },
       {

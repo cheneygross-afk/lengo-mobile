@@ -165,7 +165,7 @@ export const EN_B2_U07_DRILLS: Lesson[] = [
       ),
       tr(
         "Ojalá dejara de llover.",
-        "I wish it would stop raining.",
+        ["{I wish|If only} it would stop raining.", "{I wish|If only} the rain would stop."],
         "A situation you want to change but can't control: \"I wish it would stop\". \"Stop\" + -ing: \"stop raining\".",
       ),
       tr(
@@ -211,12 +211,12 @@ export const EN_B2_U07_DRILLS: Lesson[] = [
       ),
       tr(
         "Espero que hayas tenido un buen viaje.",
-        "I hope you had a good trip.",
+        "I hope {you|you've} had a {good|nice} trip.",
         "\"Hope\" can look at the past when you don't know what happened. It's real, so no backshift: \"you had\". Never *I wait that.",
       ),
       tr(
         "Ojalá apruebes el examen.",
-        "I hope you pass the {exam|test}.",
+        ["I hope you pass the {exam|test}.", "I hope you'll pass the {exam|test}.", "Hopefully {you|you'll} pass the {exam|test}."],
         "«Ojalá» + present subjunctive is a realistic wish: \"hope\" + present. «Ojalá aprobaras» would be \"wish\".",
       ),
       mc(
@@ -442,7 +442,7 @@ export const EN_B2_U07_DRILLS: Lesson[] = [
       ),
       tr(
         "No ahorré nada. Debería haber ahorrado más.",
-        "I didn't save anything. I should have saved more.",
+        "I didn't save {anything|any money}. I {should|ought to} have saved more.",
         "The same regret with \"should have\": it sounds more like a judgment about the right thing to do.",
       ),
       fb(
@@ -527,7 +527,7 @@ export const EN_B2_U07_DRILLS: Lesson[] = [
         "You should have seen the view from the top.",
         "\"You should have seen...\" is also a fixed expression to say something was amazing.",
         "Fast speech: \"You shoulda seen the view.\"",
-        "Say in English: «Hubieras visto la vista desde arriba.»",
+        "Say in English: «¡Hubieras visto el paisaje desde arriba!»",
       ),
       sp(
         "I wish my neighbors wouldn't park in front of my garage.",
@@ -608,7 +608,7 @@ export const EN_B2_U07_DRILLS: Lesson[] = [
       ),
       tr(
         "Preferiría que vinieras el lunes.",
-        "I'd rather you came on Monday.",
+        ["I'd rather you came on Monday.", "I'd prefer it if you came on Monday.", "I'd prefer you to come on Monday."],
         "«Que vinieras» (another person) = \"you came\": the past simple refers to the future here.",
       ),
       mc(
@@ -696,7 +696,7 @@ export const EN_B2_U07_DRILLS: Lesson[] = [
       ),
       tr(
         "Ojalá no tuviera que trabajar mañana.",
-        "I wish I didn't have to work tomorrow.",
+        "{I wish|If only} I didn't have to work tomorrow.",
         "Unreal present (or future you can't change): \"wish\" + past simple: \"didn't have to\".",
       ),
       tr(

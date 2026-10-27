@@ -233,7 +233,7 @@ export const EN_B1_U29: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order.",
-        words: ["She", "asked", "me", "not", "to", "tell", "anyone"],
+        words: ["She", "asked", "me", "not", "to", "tell", "anyone."],
         translation: "Me pidió que no se lo dijera a nadie.",
         explanation: "A negative request: \"ask\" + person + \"not to\" + infinitive.",
       },
@@ -267,7 +267,7 @@ export const EN_B1_U29: Lesson[] = [
         body: [
           "To be polite, we often start a question with \"Do you know...\", \"Could you tell me...\" or \"I wonder...\". After these openings, the rest has statement order and no \"do/does/did\": \"Do you know where the bank is?\", not *where is the bank.",
           "Spanish keeps the same order in both («¿Sabes dónde está el banco?»), so learners copy the direct question. Think of it as two pieces: the opening is the question, the second part is a normal sentence.",
-          "For yes/no questions, use \"if\": \"Could you tell me if the shop is open?\".",
+          "For yes/no questions, use \"if\": \"Could you tell me if the store is open?\".",
         ],
         examples: [
           { es: "Do you know where the bank is?", en: "¿Sabes dónde está el banco?" },
@@ -460,14 +460,14 @@ export const EN_B1_U29: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order.",
-        words: ["Do", "you", "know", "what", "time", "the", "train", "leaves"],
+        words: ["Do", "you", "know", "what", "time", "the", "train", "leaves?"],
         translation: "¿Sabes a qué hora sale el tren?",
         explanation: "Opening question (\"Do you know\") + statement order: \"what time the train leaves\".",
       },
       {
         type: "listen-choose",
         audio: "Only a few people came, but we had such a great time.",
-        question: "¿Qué dice?",
+        question: "What does it mean?",
         options: ["Vino poca gente, pero la pasamos genial.", "No vino nadie y fue aburrido.", "Vino mucha gente y la pasamos genial.", "Vinieron algunos amigos, pero se fueron pronto."],
         correctIndex: 0,
         explanation: "\"Only a few people\" means a small number; \"such a great time\" means we had a great time.",
@@ -494,7 +494,7 @@ export const EN_B1_U29: Lesson[] = [
       {
         heading: "Phrasal verbs, make and do",
         body: [
-          "Phrasal verbs are everywhere in spoken English: \"find out\" («enterarse»), \"give up\" («dejar», «rendirse»), \"look for\" («buscar»), \"turn down\" («rechazar», «bajar»), \"get on with\" («llevarse bien con»). With an object pronoun, separable verbs put it in the middle: \"turn it off\", not *turn off it.",
+          "Phrasal verbs are everywhere in spoken English: \"find out\" («enterarse»), \"give up\" («dejar», «rendirse»), \"look for\" («buscar»), \"turn down\" («rechazar», «bajar»), \"get along with\" («llevarse bien con»). With an object pronoun, separable verbs put it in the middle: \"turn it off\", not *turn off it.",
           "\"Make\" is for creating or producing something: \"make a cake\", \"make a mistake\", \"make a decision\", \"make money\", \"make noise\". \"Do\" is for tasks and activities: \"do homework\", \"do the dishes\", \"do exercise\", \"do someone a favor\".",
           "Spanish «hacer» covers both, so learners say *do a mistake. And some «hacer» expressions use other verbs: «hacer una pregunta» is \"ask a question\", «hacer una fiesta» is \"have a party\".",
         ],
@@ -701,7 +701,7 @@ export const EN_B1_U29: Lesson[] = [
         pairs: [
           { left: "give up", right: "rendirse" },
           { left: "look for", right: "buscar" },
-          { left: "get on with", right: "llevarse bien con" },
+          { left: "get along with", right: "llevarse bien con" },
           { left: "turn down", right: "rechazar" },
           { left: "find out", right: "enterarse" },
         ],
@@ -730,7 +730,7 @@ export const EN_B1_U29: Lesson[] = [
         minWords: 40,
         maxWords: 80,
         rubric: ["Uses \"although\" with a clause or \"despite\" with a noun or -ing", "Uses a comparison (\"better than\", \"not as ... as\", \"much more\")", "Uses an -ed or -ing adjective correctly", "Uses past tenses correctly"],
-        modelAnswer: "Last summer we went to the coast for a weekend. Although it rained on Saturday, we had a great time. The hotel was much smaller than in the photos, but the staff were really friendly. On Sunday the sun came out and we went to the beach. It wasn't as relaxing as we had hoped, but it was never boring.",
+        modelAnswer: "Last summer we went to the coast for a weekend. Although it rained on Saturday, we had a great time. The hotel was much smaller than in the photos, but the staff was really friendly. On Sunday the sun came out and we went to the beach. It wasn't as relaxing as we had hoped, but it was never boring.",
         explanation: "Check your linkers: \"although\" + clause, \"despite\" + noun. Check comparisons: \"smaller than\", not *more small that.",
       },
     ],
@@ -948,14 +948,14 @@ export const EN_B1_U29: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "Sorry, I ___.",
         answer: "made a mistake",
-        en: "Perdón, [me he equivocado].",
+        en: "Perdón, [me equivoqué].",
         altAnswers: ["have made a mistake", "was wrong"],
         explanation: "«Equivocarse» is often \"make a mistake\" (never *do a mistake) or \"be wrong\".",
       },
       {
         type: "word-order",
         prompt: "Put the words in order.",
-        words: ["Who", "told", "you", "the", "news"],
+        words: ["Who", "told", "you", "the", "news?"],
         translation: "¿Quién te contó la noticia?",
         explanation: "\"Who\" is the subject, so no \"did\": \"Who told you the news?\".",
       },
@@ -1248,7 +1248,7 @@ export const EN_B1_U29: Lesson[] = [
           {
             type: "listen-choose",
             audio: "She said she'd call.",
-            question: "¿Qué oyes?",
+            question: "What do you hear?",
             options: ["She said she'd call.", "She says she calls.", "She said she called.", "She said she'll call."],
             correctIndex: 0,
             explanation: "\"She'd\" (/shid/) here is \"she would\": the reported form of \"I'll call\".",
@@ -1373,7 +1373,7 @@ export const EN_B1_U29: Lesson[] = [
       {
         type: "listen-choose",
         audio: "Although she was nervous, she answered every question calmly.",
-        question: "¿Cómo estaba Sofia y cómo contestó?",
+        question: "How did Sofia feel, and how did she answer?",
         options: ["Nerviosa, pero contestó con calma.", "Tranquila, y contestó con calma.", "Nerviosa, y no contestó a todo.", "Cansada, y contestó muy rápido."],
         correctIndex: 0,
         explanation: "\"Although\" shows a contrast: she was nervous, but she answered calmly.",
@@ -1381,7 +1381,7 @@ export const EN_B1_U29: Lesson[] = [
       {
         type: "listen-choose",
         audio: "Sofia didn't know what to say, so she asked him to give her a day.",
-        question: "¿Qué hizo Sofia?",
+        question: "What did Sofia do?",
         options: ["Pidió un día para pensarlo.", "Dijo que sí enseguida.", "Dijo que no le interesaba.", "Le pidió más dinero."],
         correctIndex: 0,
         explanation: "\"She asked him to give her a day\": she asked for time.",
@@ -1437,7 +1437,7 @@ export const EN_B1_U29: Lesson[] = [
         ],
         examples: [
           { es: "I'm in a meeting until three.", en: "Estoy en una reunión hasta las tres." },
-          { es: "We had to postpone the meeting.", en: "Tuvimos que aplazar la reunión." },
+          { es: "We had to postpone the meeting.", en: "Tuvimos que posponer la reunión." },
           { es: "The deadline is next Friday.", en: "El plazo termina el próximo viernes." },
           { es: "We missed the deadline.", en: "No llegamos a tiempo para la fecha límite." },
           { es: "The project is behind schedule.", en: "El proyecto va con retraso." },
@@ -1536,7 +1536,7 @@ export const EN_B1_U29: Lesson[] = [
         body: [
           "\"Assist\" means «ayudar», not «asistir». To go to a meeting or a class is \"attend\": \"I attended the meeting\". «Asistí a la reunión» is never *I assisted the meeting.",
           "\"Realize\" means «darse cuenta», not «realizar». To «realizar» a task is \"carry out\" or \"do\": \"We carried out a survey\".",
-          "\"Career\" is your professional life (\"a career in law\"), not «la carrera» at university, which is \"degree\": «estudié la carrera de Derecho» is \"I did a law degree\" or \"I studied law\".",
+          "\"Career\" is your professional life (\"a career in law\"), not «la carrera» at university, which is \"degree\": «estudié la carrera de Derecho» is \"I studied law\" or \"I got a law degree\".",
         ],
         examples: [
           { es: "I attended a conference in Boston.", en: "Asistí a un congreso en Boston." },
@@ -1691,7 +1691,7 @@ export const EN_B1_U29: Lesson[] = [
           {
             type: "multiple-choice",
             question: "«¿Vamos en carro o en tren? Tú decides.» Which is the most natural?",
-            options: ["Shall we go by car or by train? It's up to you.", "Shall we go by car or by train? You decide it.", "Shall we go by car or by train? It's on you.", "Shall we go by car or by train? It depends of you."],
+            options: ["Should we go by car or by train? It's up to you.", "Should we go by car or by train? You decide it.", "Should we go by car or by train? It's on you.", "Should we go by car or by train? It depends of you."],
             correctIndex: 0,
             explanation: "\"It's up to you\" means the decision is yours. \"It's on you\" means you are responsible or you pay.",
           },
@@ -1854,7 +1854,7 @@ export const EN_B1_U29: Lesson[] = [
       {
         type: "listen-choose",
         audio: "Never mind, it's not your fault.",
-        question: "¿Qué quiere decir?",
+        question: "What does it mean?",
         options: ["No pasa nada, no es culpa tuya.", "No me importa nunca lo que hagas.", "No te preocupes, es culpa mía.", "Nunca te acuerdas de nada."],
         correctIndex: 0,
         explanation: "\"Never mind\" here means «no pasa nada» or «no importa», not «nunca».",
@@ -1980,7 +1980,7 @@ export const EN_B1_U29: Lesson[] = [
         heading: "After the video call: reporting",
         body: [
           "After a meeting, we often report what people said. The manager's words \"We're changing the remote work policy\" become \"The manager said they were changing the remote work policy\".",
-          "Use exact reporting verbs: \"She asked us to turn on our cameras\", \"He suggested having fewer meetings\", \"She promised to send the slides\", \"They reminded us to fill in the form\".",
+          "Use exact reporting verbs: \"She asked us to turn on our cameras\", \"He suggested having fewer meetings\", \"She promised to send the slides\", \"They reminded us to fill out the form\".",
           "Questions become statements: \"Can everyone hear me?\" becomes \"She asked if everyone could hear her\".",
         ],
         examples: [
@@ -2086,7 +2086,7 @@ export const EN_B1_U29: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order.",
-        words: ["I", "work", "from", "home", "whereas", "my", "sister", "goes", "to", "the", "office"],
+        words: ["I", "work", "from", "home,", "whereas", "my", "sister", "goes", "to", "the", "office."],
         translation: "Yo teletrabajo, mientras que mi hermana va a la oficina.",
         altOrders: [["Whereas", "my", "sister", "goes", "to", "the", "office", "I", "work", "from", "home"]],
         explanation: "\"Whereas\" contrasts two people or facts in one sentence.",
@@ -2094,7 +2094,7 @@ export const EN_B1_U29: Lesson[] = [
       {
         type: "listen-choose",
         audio: "If the internet goes down again, I'll have to go to the office.",
-        question: "¿Qué pasará si se cae internet?",
+        question: "What will happen if the internet goes down?",
         options: ["Tendrá que ir a la oficina.", "Se tomará el día libre.", "Llamará al técnico.", "Trabajará desde una cafetería."],
         correctIndex: 0,
         explanation: "First conditional, a real possibility: \"If it goes down, I'll have to go to the office\".",
@@ -2336,7 +2336,7 @@ export const EN_B1_U29: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order.",
-        words: ["Parents", "should", "teach", "their", "children", "to", "use", "the", "internet", "safely"],
+        words: ["Parents", "should", "teach", "their", "children", "to", "use", "the", "internet", "safely."],
         translation: "Los padres deberían enseñar a sus hijos a usar internet de forma segura.",
         explanation: "\"Should\" + bare infinitive, then \"teach\" + person + \"to\". \"Safely\" (how) goes at the end.",
       },

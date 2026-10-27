@@ -49,14 +49,14 @@ export const EN_B1_U25: Lesson[] = [
         body: [
           "When you mean a whole group or category (all cats, all teachers, all smartphones), use the plural with no article: \"Cats sleep a lot\", \"Teachers work hard\", \"Smartphones are expensive\".",
           "Ask yourself: am I talking about ALL of them, or about some specific ones we can identify? If you mean all of them, don't use \"the\".",
-          "This is very common with verbs of opinion and feeling: \"I like cats\", \"She hates spiders\", \"We love horror films\". Spanish says «me gustan los gatos», but English says \"I like cats\".",
+          "This is very common with verbs of opinion and feeling: \"I like cats\", \"She hates spiders\", \"We love horror movies\". Spanish says «me gustan los gatos», but English says \"I like cats\".",
         ],
         examples: [
           { es: "Cats sleep a lot.", en: "Los gatos duermen mucho." },
           { es: "Teachers work very hard.", en: "Los profesores trabajan mucho." },
           { es: "I like cats.", en: "Me gustan los gatos." },
           { es: "She hates spiders.", en: "Odia las arañas." },
-          { es: "We love horror films.", en: "Nos encantan las películas de terror." },
+          { es: "We love horror movies.", en: "Nos encantan las películas de terror." },
           { es: "Electric cars are quiet.", en: "Los carros eléctricos son silenciosos." },
         ],
         checkpoint: [
@@ -233,21 +233,21 @@ export const EN_B1_U25: Lesson[] = [
     level: "EN-B1",
     number: 2,
     title: "Articles in Generalizations, Part 2 of 2",
-    summary: "When \"the\" comes back: specific things (the music in this film, the people next door) and the + singular for species and inventions.",
+    summary: "When \"the\" comes back: specific things (the music in this movie, the people next door) and the + singular for species and inventions.",
     duration: "10 min",
     sections: [
       {
         heading: "Specific things need \"the\"",
         body: [
-          "In Part 1 you learned that things in general take no article: \"Music relaxes me\". But as soon as the noun becomes specific, \"the\" comes back: \"The music in this film is amazing\".",
+          "In Part 1 you learned that things in general take no article: \"Music relaxes me\". But as soon as the noun becomes specific, \"the\" comes back: \"The music in this movie is amazing\".",
           "A noun becomes specific when the listener knows exactly which one you mean. Very often, the words after the noun tell us: \"the people next door\", \"the coffee you made\", \"the water in this bottle\", \"the books on the table\".",
           "So the question is not «does Spanish use an article?» (it almost always does). The question is: general or specific?",
         ],
         examples: [
           { es: "Music relaxes me.", en: "La música me relaja." },
-          { es: "The music in this film is amazing.", en: "La música de esta película es increíble." },
+          { es: "The music in this movie is amazing.", en: "La música de esta película es increíble." },
           { es: "The people next door are very noisy.", en: "Los vecinos de al lado son muy ruidosos." },
-          { es: "The coffee you made is delicious.", en: "El café que has hecho está buenísimo." },
+          { es: "The coffee you made is delicious.", en: "El café que hiciste está buenísimo." },
           { es: "The books on the table are mine.", en: "Los libros de la mesa son míos." },
         ],
         checkpoint: [
@@ -256,9 +256,9 @@ export const EN_B1_U25: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "La música de esta película es increíble.",
-            answer: "The music in this film is amazing.",
-            altAnswers: ["The music in this movie is amazing.", "The music in this film is incredible.", "The music in this movie is incredible.", "The music of this film is amazing.", "The music of this movie is amazing.", "This film's music is amazing.", "This movie's music is amazing."],
-            explanation: "\"In this film\" makes the music specific, so it takes \"the\". Music in general would have no article.",
+            answer: "The music in this movie is amazing.",
+            altAnswers: ["The music in this film is amazing.", "The music in this film is incredible.", "The music in this movie is incredible.", "The music of this film is amazing.", "The music of this movie is amazing.", "This film's music is amazing.", "This movie's music is amazing."],
+            explanation: "\"In this movie\" makes the music specific, so it takes \"the\". Music in general would have no article.",
           },
           {
             type: "multiple-choice",
@@ -384,7 +384,7 @@ export const EN_B1_U25: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El café que has hecho está buenísimo.",
+        source: "El café que hiciste está buenísimo.",
         answer: "The coffee you made is delicious.",
         altAnswers: ["The coffee you've made is delicious.", "The coffee that you made is delicious.", "The coffee you made is really good.", "The coffee you made is very good.", "The coffee that you've made is delicious."],
         explanation: "\"You made\" tells us which coffee, so it's specific: \"the coffee\".",
@@ -1272,7 +1272,7 @@ export const EN_B1_U25: Lesson[] = [
           { es: "Physics is difficult.", en: "La física es difícil." },
           { es: "My family is very big.", en: "Mi familia es muy grande." },
           { es: "The team is playing well.", en: "El equipo está jugando bien." },
-          { es: "The staff are very friendly.", en: "El personal es muy amable." },
+          { es: "The staff is very friendly.", en: "El personal es muy amable." },
         ],
         checkpoint: [
           {
@@ -1392,7 +1392,7 @@ export const EN_B1_U25: Lesson[] = [
       {
         heading: "Recap: the or nothing?",
         body: [
-          "Things in general take no article: \"Life is short\", \"I like cats\", \"People are friendly here\". Specific things take \"the\": \"the people next door\", \"the music in this film\".",
+          "Things in general take no article: \"Life is short\", \"I like cats\", \"People are friendly here\". Specific things take \"the\": \"the people next door\", \"the music in this movie\".",
           "Institutions used for their purpose take no article (\"go to school\", \"in prison\", \"go to bed\", \"at work\", \"at home\"), but American English says \"in the hospital\".",
           "Most countries, cities and single mountains or lakes have no article; rivers, seas, mountain ranges and plural country names take \"the\".",
         ],
@@ -1751,7 +1751,7 @@ export const EN_B1_U25: Lesson[] = [
       {
         heading: "I like cats / I like the cats",
         body: [
-          "In English, adding or removing \"the\" can change the meaning of a sentence. \"I like cats\" means cats in general. \"I like the cats\" means some specific cats, for example your neighbor's cats or the cats in a film.",
+          "In English, adding or removing \"the\" can change the meaning of a sentence. \"I like cats\" means cats in general. \"I like the cats\" means some specific cats, for example your neighbor's cats or the cats in a movie.",
           "In Spanish both are «me gustan los gatos», so you need to think about the meaning: general or specific?",
           "Other pairs work the same way: \"Children are noisy\" (all children) and \"The children are noisy\" (these children, today).",
         ],

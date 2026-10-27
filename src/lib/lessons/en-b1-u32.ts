@@ -17,7 +17,7 @@ export const EN_B1_U32: Lesson[] = [
         body: [
           "In Spanish, «las noticias» is plural. In English, \"the news\" looks plural but it is uncountable and takes a singular verb: \"The news is on at nine.\" Never say *the news are or *a news.",
           "For «una noticia», say \"some news\", \"a piece of news\" or \"a news story\". \"I have some good news\" can mean «tengo una buena noticia» or «tengo buenas noticias».",
-          "A \"newspaper\" is «un periódico». It has \"headlines\" («titulares») and \"articles\" («artículos»). A \"magazine\" is «una revista», not a shop («almacén»).",
+          "A \"newspaper\" is «un periódico». It has \"headlines\" («titulares») and \"articles\" («artículos»). A \"magazine\" is «una revista», not a store («almacén»).",
         ],
         examples: [
           { es: "The news is really bad today.", en: "Las noticias son muy malas hoy." },
@@ -59,7 +59,7 @@ export const EN_B1_U32: Lesson[] = [
           { es: "My sister is a journalist.", en: "Mi hermana es periodista." },
           { es: "A reporter spoke to the people in the street.", en: "Un reportero habló con la gente en la calle." },
           { es: "The interview was broadcast last night.", en: "La entrevista se emitió anoche." },
-          { es: "The match will be broadcast live.", en: "El partido se retransmitirá en vivo." },
+          { es: "The game will be broadcast live.", en: "El partido se transmitirá en vivo." },
           { es: "The story was in all the media.", en: "La noticia salió en todos los medios." },
           { es: "The president spoke to the press.", en: "El presidente habló con la prensa." },
         ],
@@ -122,14 +122,14 @@ export const EN_B1_U32: Lesson[] = [
         heading: "Fake news, sources and going viral",
         body: [
           "\"Fake news\" is «noticias falsas», and like \"news\" it is uncountable: \"That's fake news\", \"a fake news story\". \"Fake\" means not real, made to trick people (a fake photo); \"false\" means not true (false information).",
-          "Before you \"share\" («compartir») a story, \"check the source\" («comprobar la fuente»). When a story spreads very fast online, it \"goes viral\" («se hace viral»).",
+          "Before you \"share\" («compartir») a story, \"check the source\" («verificar la fuente»). When a story spreads very fast online, it \"goes viral\" («se hace viral»).",
           "A \"post\" is «una publicación» on social media, and a \"follower\" is «un seguidor».",
         ],
         examples: [
           { es: "That story is fake news.", en: "Esa noticia es falsa." },
           { es: "The photo was fake.", en: "La foto era falsa (un montaje)." },
           { es: "This information is false.", en: "Esta información es falsa." },
-          { es: "Always check the source before you share something.", en: "Comprueba siempre la fuente antes de compartir algo." },
+          { es: "Always check the source before you share something.", en: "Verifica siempre la fuente antes de compartir algo." },
           { es: "Her video went viral in a few hours.", en: "Su video se hizo viral en pocas horas." },
           { es: "He has thousands of followers.", en: "Tiene miles de seguidores." },
         ],
@@ -353,12 +353,12 @@ export const EN_B1_U32: Lesson[] = [
         body: [
           "A \"law\" is «una ley». Something illegal is \"against the law\". When parliament approves a law, it \"passes\" it: \"The law was passed last year.\" And «estudiar Derecho» is \"study law\".",
           "«Derechos» are \"rights\": \"human rights\", \"the right to vote\" («el derecho a votar»). A \"citizen\" is «un ciudadano».",
-          "«Impuestos» are \"taxes\". You \"pay taxes\" (never *impost). A \"protest\" is «una protesta» or «una manifestación»; people \"protest against\" something, or \"go on a protest\" (UK: \"a demonstration\"). A \"strike\" is «una huelga».",
+          "«Impuestos» are \"taxes\". You \"pay taxes\" (never *impost). A \"protest\" is «una protesta» or «una manifestación»; people \"protest against\" something, or \"go to a protest\" (also \"a demonstration\"). A \"strike\" is «una huelga».",
         ],
         examples: [
           { es: "Smoking in bars is against the law.", en: "Fumar en los bares está prohibido por ley." },
           { es: "The new law was passed last year.", en: "La nueva ley se aprobó el año pasado." },
-          { es: "She's studying law at university.", en: "Estudia Derecho en la universidad." },
+          { es: "She's studying law in college.", en: "Estudia Derecho en la universidad." },
           { es: "Everyone has the right to vote.", en: "Todo el mundo tiene derecho a votar." },
           { es: "Citizens pay taxes.", en: "Los ciudadanos pagan impuestos." },
           { es: "Thousands of people protested against the new law.", en: "Miles de personas protestaron contra la nueva ley." },
@@ -533,7 +533,7 @@ export const EN_B1_U32: Lesson[] = [
           "The forms: win, won, won (\"won\" sounds like \"one\"); beat, beat, beaten. The opposite of win is \"lose\" (lose, lost, lost). Don't confuse \"lose\" with \"loose\" («suelto»).",
         ],
         examples: [
-          { es: "We won the match.", en: "Ganamos el partido." },
+          { es: "We won the game.", en: "Ganamos el partido." },
           { es: "We beat them 3-1.", en: "Les ganamos 3 a 1." },
           { es: "Spain beat France in the final.", en: "España le ganó a Francia en la final." },
           { es: "Who won the race?", en: "¿Quién ganó la carrera?" },
@@ -575,7 +575,7 @@ export const EN_B1_U32: Lesson[] = [
           { es: "He scored two goals.", en: "Marcó dos goles." },
           { es: "We drew 2-2.", en: "Empatamos 2 a 2. (inglés británico)" },
           { es: "We tied 2-2.", en: "Empatamos 2 a 2. (inglés americano)" },
-          { es: "The match ended in a draw.", en: "El partido terminó en empate." },
+          { es: "The game ended in a tie.", en: "El partido terminó en empate." },
           { es: "They won 1-0.", en: "Ganaron 1 a 0." },
         ],
         checkpoint: [
@@ -690,9 +690,9 @@ export const EN_B1_U32: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "¿Quién ganó el partido?",
-        answer: "Who won the match?",
-        altAnswers: ["Who won the game?"],
-        explanation: "You \"win\" a match. No \"did\" here, because \"who\" is the subject.",
+        answer: "Who won the game?",
+        altAnswers: ["Who won the match?"],
+        explanation: "You \"win\" a game or a match. No \"did\" here, because \"who\" is the subject.",
       },
       {
         type: "fill-blank",
@@ -708,8 +708,8 @@ export const EN_B1_U32: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "El partido terminó en empate.",
-        answer: "The match ended in a draw.",
-        altAnswers: ["The game ended in a tie.", "The match ended in a tie.", "The game ended in a draw.", "The match was a draw.", "The game was a tie."],
+        answer: "The game ended in a tie.",
+        altAnswers: ["The match ended in a draw.", "The match ended in a tie.", "The game ended in a draw.", "The match was a draw.", "The game was a tie."],
         explanation: "«Empate» is \"a draw\" (UK) or \"a tie\" (US). \"End in\" a draw.",
       },
       {
@@ -771,7 +771,7 @@ export const EN_B1_U32: Lesson[] = [
       },
       {
         type: "speak",
-        text: "We won the match, but we didn't beat the champions.",
+        text: "We won the game, but we didn't beat the champions.",
         tip: "\"Won\" sounds exactly like \"one\". \"Beat\" has a long /i:/, like \"meet\".",
         explanation: "Practice both verbs together to remember the difference.",
       },
@@ -846,7 +846,7 @@ export const EN_B1_U32: Lesson[] = [
             question: "«El argumento de la película es muy complicado.» Which word means «argumento» here?",
             options: ["plot", "argument", "discussion", "review"],
             correctIndex: 0,
-            explanation: "The story of a film is the \"plot\". \"Argument\" is a false friend: it means «discusión».",
+            explanation: "The story of a movie is the \"plot\". \"Argument\" is a false friend: it means «discusión».",
           },
           {
             type: "translate",
@@ -995,7 +995,7 @@ export const EN_B1_U32: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Write a short review of a film or series you have seen recently. Say what the plot is about, what you thought of the cast and the ending, and whether you recommend it.",
+        prompt: "Write a short review of a movie or series you have seen recently. Say what the plot is about, what you thought of the cast and the ending, and whether you recommend it.",
         minWords: 60,
         maxWords: 110,
         rubric: [
@@ -1256,7 +1256,7 @@ export const EN_B1_U32: Lesson[] = [
       {
         heading: "Reacting to bad news",
         body: [
-          "When someone tells you bad news, English speakers react with a short phrase. «¡Qué pena!» or «¡Qué lástima!» is \"What a shame!\" or \"What a pity!\". Don't forget \"a\": *What shame! is wrong, and \"What a pain!\" means «¡qué rollo!», not «¡qué pena!».",
+          "When someone tells you bad news, English speakers react with a short phrase. «¡Qué pena!» or «¡Qué lástima!» is \"What a shame!\" or \"What a pity!\". Don't forget \"a\": *What shame! is wrong, and \"What a pain!\" means «¡qué lata!», not «¡qué pena!».",
           "For more serious news, say \"I'm sorry to hear that\" («lo siento mucho»). \"Oh no!\" and \"That's terrible!\" are also common. For small problems, \"That's too bad\" or \"Poor you!\" («¡pobrecito!») sound friendly.",
           "You can add a sentence after \"What a shame\" or \"It's a shame\": \"What a shame you can't come!\" («¡Qué pena que no puedas venir!»).",
         ],
@@ -1295,7 +1295,7 @@ export const EN_B1_U32: Lesson[] = [
           "\"Congratulations!\" is «¡enhorabuena!» or «¡felicidades!» for an achievement, but on someone's birthday say \"Happy birthday!\". \"That's a relief!\" is «¡qué alivio!»: you were worried and now you aren't.",
         ],
         examples: [
-          { es: "I passed my driving test! - Good for you!", en: "¡He aprobado el examen de manejo! - ¡Me alegro por ti!" },
+          { es: "I passed my driving test! - Good for you!", en: "¡Aprobé el examen de manejo! - ¡Me alegro por ti!" },
           { es: "Lucky you! I never win anything.", en: "¡Qué suerte! Yo nunca gano nada." },
           { es: "Congratulations on your new job!", en: "¡Felicidades por tu nuevo trabajo!" },
           { es: "That's great news!", en: "¡Qué buena noticia!" },
@@ -1416,7 +1416,7 @@ export const EN_B1_U32: Lesson[] = [
         sentence: "I got the job! - ___! You deserve it.",
         answer: "Good for you",
         altAnswers: ["Congratulations", "Well done", "Congrats"],
-        en: "¡Me han dado el trabajo! - ¡[Me alegro por ti]! Te lo mereces.",
+        en: "¡Me dieron el trabajo! - ¡[Me alegro por ti]! Te lo mereces.",
         explanation: "\"Good for you!\" celebrates something the other person achieved.",
       },
       {
@@ -2005,7 +2005,7 @@ export const EN_B1_U32: Lesson[] = [
           "And remember: never *make sport (\"exercise\", \"play sports\", \"work out\").",
         ],
         examples: [
-          { es: "We won the match and beat the champions.", en: "Ganamos el partido y les ganamos a los campeones." },
+          { es: "We won the game and beat the champions.", en: "Ganamos el partido y les ganamos a los campeones." },
           { es: "Who did you vote for?", en: "¿A quién votaste?" },
           { es: "He committed a crime.", en: "Cometió un delito." },
           { es: "The film got excellent reviews.", en: "La película tuvo críticas excelentes." },
@@ -2263,7 +2263,7 @@ export const EN_B1_U32: Lesson[] = [
       {
         heading: "The campaign: linkers",
         body: [
-          "The neighbors started a campaign («una campaña») and a petition («una recogida de firmas»): people \"sign a petition\" («firman»). Linkers help you tell the story clearly.",
+          "The neighbors started a campaign («una campaña») and a petition («una recolección de firmas»): people \"sign a petition\" («firman»). Linkers help you tell the story clearly.",
           "\"However\" («sin embargo») starts a new sentence: \"The council wanted the parking lot. However, the neighbors said no.\" \"Although\" («aunque») joins two ideas in one sentence: \"Although it was raining, 3,000 people came.\"",
           "\"Because of\" + noun («debido a», «por»): \"because of the protest\". \"So\" («así que») gives a result, and \"As a result\" («como resultado») starts a new sentence.",
         ],
@@ -2271,7 +2271,7 @@ export const EN_B1_U32: Lesson[] = [
           { es: "More than 5,000 people signed the petition.", en: "Más de 5.000 personas firmaron la petición." },
           { es: "Although it was raining, 3,000 people came to the protest.", en: "Aunque llovía, 3.000 personas acudieron a la protesta." },
           { es: "The council wanted the parking lot. However, the neighbors said no.", en: "El ayuntamiento quería el estacionamiento. Sin embargo, los vecinos dijeron que no." },
-          { es: "The plan was stopped because of the protests.", en: "El plan se paró debido a las protestas." },
+          { es: "The plan was stopped because of the protests.", en: "El plan se detuvo debido a las protestas." },
           { es: "The story went viral, so the mayor had to answer.", en: "La noticia se hizo viral, así que el alcalde tuvo que responder." },
         ],
         checkpoint: [
@@ -2389,7 +2389,7 @@ export const EN_B1_U32: Lesson[] = [
         pairs: [
           { left: "city council", right: "ayuntamiento" },
           { left: "cut down", right: "talar" },
-          { left: "petition", right: "recogida de firmas" },
+          { left: "petition", right: "recolección de firmas" },
           { left: "green spaces", right: "zonas verdes" },
           { left: "wildlife", right: "fauna" },
         ],

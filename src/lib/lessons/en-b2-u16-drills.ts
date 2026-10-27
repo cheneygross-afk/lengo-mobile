@@ -71,7 +71,7 @@ export const EN_B2_U16_DRILLS: Lesson[] = [
     "You will be able to choose -ing or to after remember, forget, stop, try, regret, go on and mean, use -ing after prepositions (including look forward to), and use having done, being told and see someone do.",
     "Recap: think about time and meaning",
     [
-      "\"Remember/forget to do\": the action comes after («acordarse de hacer»). \"Remember doing\": a memory of something done. \"Stop doing\" = quit; \"stop to do\" = pause in order to do. \"Try to do\" = make an effort; \"try doing\" = experiment («intentar», «probar»). \"Regret doing\" looks back; \"regret to inform\" gives bad news. \"Go on doing\" = continue; \"go on to do\" = move to the next thing. \"Mean doing\" = involve; \"mean to\" = intend.",
+      "\"Remember/forget to do\": the action comes after («acordarse de hacer»). \"Remember doing\": a memory of something done. \"Stop doing\" = quit; \"stop to do\" = pause in order to do. \"Try to do\" = make an effort («intentar»); \"try doing\" = experiment («probar» + infinitive). \"Regret doing\" looks back; \"regret to inform\" gives bad news. \"Go on doing\" = continue; \"go on to do\" = move to the next thing. \"Mean doing\" = involve; \"mean to\" = intend.",
       "After any preposition, -ing: \"without saying\", \"by watching\". In \"look forward to\", \"be committed to\" and \"object to\", \"to\" is a preposition, so -ing too. \"Having done\" stresses an earlier action, \"being told\" is passive, and \"see/hear someone do\" or \"doing\" never takes \"to\".",
     ],
     [

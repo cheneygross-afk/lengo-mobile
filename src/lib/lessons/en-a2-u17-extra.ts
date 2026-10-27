@@ -706,7 +706,7 @@ export const EN_A2_U17_EXTRA: Lesson[] = [
           "Si detrás de la preposición va un verbo, lleva -ing: \"good at cooking\", \"afraid of flying\", \"tired of waiting\", \"interested in learning\". El español usa el infinitivo («harto de esperar»), pero el inglés no: *tired of wait y *interested in to learn son incorrectos.",
         ],
         examples: [
-          { es: "She's good at fixing things.", en: "Se le da bien arreglar cosas." },
+          { es: "She's good at fixing things.", en: "Es buena para arreglar cosas." },
           { es: "I'm tired of cleaning.", en: "Estoy harta de limpiar." },
           { es: "He's afraid of making mistakes.", en: "Tiene miedo de cometer errores." },
         ],
@@ -716,7 +716,7 @@ export const EN_A2_U17_EXTRA: Lesson[] = [
             prompt: "Escribe en inglés las palabras en negrita.",
             sentence: "She's not very good at ___ in English.",
             answer: "writing",
-            en: "No se le da muy bien [escribir] en inglés.",
+            en: "No es muy buena para [escribir] en inglés.",
             explanation: "Detrás de \"at\" el verbo va en -ing: \"writing\", no \"write\" ni *to write.",
           },
         ],
@@ -839,7 +839,7 @@ export const EN_A2_U17_EXTRA: Lesson[] = [
         question: "¿Qué has oído?",
         options: ["No canto muy bien, pero me interesa la música.", "Canto muy bien, pero no me interesa la música.", "No me interesa ni cantar ni la música.", "Soy bueno cantando y también en música."],
         correctIndex: 0,
-        explanation: "\"Not very good at singing\" (no se me da bien cantar) e \"interested in music\" (me interesa la música).",
+        explanation: "\"Not very good at singing\" (no soy muy bueno para cantar) e \"interested in music\" (me interesa la música).",
       },
       {
         type: "translate",
@@ -856,7 +856,7 @@ export const EN_A2_U17_EXTRA: Lesson[] = [
         sentence: "Ana is really good ___ languages.",
         answer: "at",
         en: "Ana es muy buena [para] los idiomas.",
-        explanation: "\"Good at\" + aquello que se te da bien. Nunca *good in languages.",
+        explanation: "\"Good at\" + aquello en lo que eres bueno. Nunca *good in languages.",
       },
       {
         type: "multiple-choice",
@@ -1318,7 +1318,7 @@ export const EN_A2_U17_EXTRA: Lesson[] = [
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "I left my phone ___ the taxi.",
         answer: "in",
-        en: "Me dejé el teléfono [en] el taxi.",
+        en: "Dejé el teléfono [en] el taxi.",
         explanation: "Carro y taxi llevan \"in\"; autobús, tren y avión llevan \"on\".",
       },
       {

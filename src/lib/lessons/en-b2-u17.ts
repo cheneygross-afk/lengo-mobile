@@ -812,14 +812,14 @@ export const EN_B2_U17: Lesson[] = [
         body: [
           "To change \"although\" into \"despite\", turn the clause into a noun phrase or an -ing form. With the same subject, -ing is the easiest route: \"Although he was tired\" becomes \"Despite being tired\".",
           "Sometimes there is a ready-made noun: \"it rained\" becomes \"the rain\", \"she was ill\" becomes \"her illness\", \"it was cold\" becomes \"the cold\", \"they had no money\" becomes \"their lack of money\".",
-          "When the subjects are different, or you can't find a noun, use \"despite the fact that\" + clause: \"Despite the fact that the shop was closed, the lights were on\".",
+          "When the subjects are different, or you can't find a noun, use \"despite the fact that\" + clause: \"Despite the fact that the store was closed, the lights were on\".",
           "For a negative, put \"not\" before the -ing: \"Despite not having a ticket, he got in\".",
         ],
         examples: [
           { es: "Despite being tired, he finished the race.", en: "A pesar de estar cansado, terminó la carrera." },
           { es: "In spite of her illness, she kept working.", en: "A pesar de su enfermedad, siguió trabajando." },
           { es: "Despite their lack of money, they were happy.", en: "A pesar de su falta de dinero, eran felices." },
-          { es: "Despite the fact that the shop was closed, the lights were on.", en: "A pesar de que la tienda estaba cerrada, las luces estaban encendidas." },
+          { es: "Despite the fact that the store was closed, the lights were on.", en: "A pesar de que la tienda estaba cerrada, las luces estaban encendidas." },
           { es: "Despite not having a ticket, he got in.", en: "A pesar de no tener entrada, consiguió entrar." },
         ],
         checkpoint: [
@@ -1517,12 +1517,12 @@ export const EN_B2_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Find the correct version of: *Due to it was a holiday, the shops were closed.",
+        question: "Find the correct version of: *Due to it was a holiday, the stores were closed.",
         options: [
-          "Because it was a holiday, the shops were closed.",
-          "Due to it was a holiday, so the shops were closed.",
-          "Due to was a holiday, the shops were closed.",
-          "Because of it was a holiday, the shops were closed.",
+          "Because it was a holiday, the stores were closed.",
+          "Due to it was a holiday, so the stores were closed.",
+          "Due to was a holiday, the stores were closed.",
+          "Because of it was a holiday, the stores were closed.",
         ],
         correctIndex: 0,
         explanation: "A clause (\"it was a holiday\") needs a conjunction: \"because\". \"Due to the holiday\" would also be correct.",

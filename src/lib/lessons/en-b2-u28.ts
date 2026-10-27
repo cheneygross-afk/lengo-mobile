@@ -1342,7 +1342,7 @@ export const EN_B2_U28: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Lo pasamos genial en la boda.",
+            source: "La pasamos genial en la boda.",
             answer: "We had a great time at the wedding.",
             altAnswers: [
               "We had a lot of fun at the wedding.",

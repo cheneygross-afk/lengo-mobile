@@ -395,7 +395,7 @@ export const EN_B2_U14_DRILLS: Lesson[] = [
         "\"Born in...\" at the start, followed by a comma and the subject it describes."),
       tr("El hombre que admitió haber roto la ventana pagó la reparación.", "The man {who|that} admitted {breaking|having broken} the window paid for the {repair|repairs}.",
         "Inside the relative clause, \"admit\" keeps its pattern: \"admit\" + -ing. Never *admitted to break."),
-      fb("The waiter, who had promised ___ us a table by the window, forgot.", ["to give", "to save", "to get", "to keep"], "El mesero, que había prometido [darnos] una mesa junto a la ventana, se olvidó.",
+      fb("The waiter, who had promised ___ us a table by the window, forgot.", ["to give"], "El mesero, que había prometido [darnos] una mesa junto a la ventana, se olvidó.",
         "\"Promise\" takes \"to\" + base form, also inside a relative clause."),
       tr("La persona a la que envié el paquete no lo recibió.", ["The person {|who |that }I sent the package to {didn't receive it|never received it|never got it|didn't get it}.", "The person to whom I sent the package {didn't receive it|never received it|never got it|didn't get it}."],
         "Everyday: \"the person I sent the package to\". Formal: \"the person to whom I sent the package\"."),

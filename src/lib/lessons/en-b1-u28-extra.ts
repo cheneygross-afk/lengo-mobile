@@ -28,7 +28,7 @@ export const EN_B1_U28_EXTRA: Lesson[] = [
         examples: [
           { es: "Although he was tired, he kept working.", en: "Aunque estaba cansado, siguió trabajando. (incorrecto: *Although ..., but ...)" },
           { es: "Despite the rain, we played the game.", en: "A pesar de la lluvia, jugamos el partido." },
-          { es: "In spite of being ill, she went to work.", en: "A pesar de estar enferma, fue a trabajar." },
+          { es: "In spite of being sick, she went to work.", en: "A pesar de estar enferma, fue a trabajar." },
           { es: "Despite the fact that it was late, they stayed.", en: "A pesar de que era tarde, se quedaron." },
           { es: "The job is interesting. However, the pay is low.", en: "El trabajo es interesante. Sin embargo, el sueldo es bajo." },
         ],
@@ -416,7 +416,7 @@ export const EN_B1_U28_EXTRA: Lesson[] = [
         altAnswers: [
           "Sales went down. Therefore, the company closed two stores.",
           "Sales dropped. Therefore, the company closed two stores.",
-          "Sales fell. Therefore, the company closed two shops.",
+          "Sales fell. Therefore, the company closed two stores.",
           "Sales fell. As a result, the company closed two stores.",
           "Sales fell; therefore, the company closed two stores.",
           "Sales fell. Consequently, the company closed two stores.",
@@ -483,8 +483,8 @@ export const EN_B1_U28_EXTRA: Lesson[] = [
       },
       {
         type: "listen-choose",
-        audio: "The match was canceled due to heavy rain.",
-        question: "Why was the match canceled?",
+        audio: "The game was canceled due to heavy rain.",
+        question: "Why was the game canceled?",
         options: ["Because of heavy rain.", "Because of the heat.", "Because nobody came.", "Because of a strike."],
         correctIndex: 0,
         explanation: "\"Due to\" + noun gives the reason: \"heavy rain\" («lluvia intensa»).",
@@ -544,7 +544,7 @@ export const EN_B1_U28_EXTRA: Lesson[] = [
         examples: [
           { es: "Speak slowly so that everyone can understand you.", en: "Habla despacio para que todos te entiendan." },
           { es: "I'll leave the light on so that you don't fall.", en: "Dejaré la luz encendida para que no te caigas." },
-          { es: "She wrote it down so that she wouldn't forget.", en: "Lo apuntó para no olvidarlo." },
+          { es: "She wrote it down so that she wouldn't forget.", en: "Lo anotó para no olvidarlo." },
           { es: "I gave him a map so he could find the hotel.", en: "Le di un mapa para que encontrara el hotel." },
         ],
         checkpoint: [
@@ -753,14 +753,14 @@ export const EN_B1_U28_EXTRA: Lesson[] = [
     level: "EN-B1",
     number: 4,
     title: "Extra Practice: Linking Sentences Cleanly",
-    summary: "Drill on punctuation with linkers: no comma splices (*It was late, we went home), a full stop or semicolon before \"however\" / \"therefore\" / \"moreover\", and fewer \"and\"s in long sentences.",
+    summary: "Drill on punctuation with linkers: no comma splices (*It was late, we went home), a period or semicolon before \"however\" / \"therefore\" / \"moreover\", and fewer \"and\"s in long sentences.",
     duration: "11 min",
     sections: [
       {
         heading: "Quick recap: one comma is not enough",
         body: [
           "In English, two complete sentences cannot be joined with only a comma. *It was late, we went home is called a comma splice. Spanish writing often allows long chains of clauses with commas, so this is a very common mistake.",
-          "Fix it in one of three ways: a full stop (\"It was late. We went home.\"), a linking word after the comma (\"It was late, so we went home.\"), or a semicolon (\"It was late; we went home.\").",
+          "Fix it in one of three ways: a period (\"It was late. We went home.\"), a linking word after the comma (\"It was late, so we went home.\"), or a semicolon (\"It was late; we went home.\").",
           "Short linkers that join two clauses inside one sentence are \"and\", \"but\", \"so\" and \"or\". They usually have a comma before them when both clauses are long.",
         ],
         examples: [
@@ -783,7 +783,7 @@ export const EN_B1_U28_EXTRA: Lesson[] = [
         heading: "Quick recap: however, therefore, moreover",
         body: [
           "\"However\", \"therefore\", \"moreover\" and \"in addition\" are not like \"but\" or \"so\". They can't join two clauses with only a comma: *The hotel was cheap, however it was dirty is wrong.",
-          "Put a full stop (or a semicolon) before them and a comma after them: \"The hotel was cheap. However, it was dirty.\" or \"The hotel was cheap; however, it was dirty.\"",
+          "Put a period (or a semicolon) before them and a comma after them: \"The hotel was cheap. However, it was dirty.\" or \"The hotel was cheap; however, it was dirty.\"",
           "In the middle of one clause, \"however\" goes between two commas: \"The hotel, however, was dirty.\" Also, avoid long chains of \"and ... and ... and\": two or three shorter sentences are clearer in English.",
         ],
         examples: [
@@ -799,7 +799,7 @@ export const EN_B1_U28_EXTRA: Lesson[] = [
             question: "Which sentence is correctly punctuated?",
             options: ["It's a great city. However, it's very expensive.", "It's a great city, however, it's very expensive.", "It's a great city, however it's very expensive.", "It's a great city however, it's very expensive."],
             correctIndex: 0,
-            explanation: "\"However\" between two sentences needs a full stop (or semicolon) before it and a comma after it.",
+            explanation: "\"However\" between two sentences needs a period (or semicolon) before it and a comma after it.",
           },
         ],
       },
@@ -810,7 +810,7 @@ export const EN_B1_U28_EXTRA: Lesson[] = [
         question: "Find the mistake: *I love this song, I listen to it every day. Which is the best correction?",
         options: ["I love this song. I listen to it every day.", "I love this song, I listen to it, every day.", "I love this song however I listen to it every day.", "I love this song, therefore, I listen to it every day."],
         correctIndex: 0,
-        explanation: "Two complete sentences: separate them with a full stop (or join them with \"and\" / \"so\").",
+        explanation: "Two complete sentences: separate them with a period (or join them with \"and\" / \"so\").",
       },
       {
         type: "translate",
@@ -828,14 +828,14 @@ export const EN_B1_U28_EXTRA: Lesson[] = [
         answer: "However",
         altAnswers: ["Still", "Even so", "Nevertheless", "But"],
         en: "El departamento es pequeño. [Sin embargo], tiene mucha luz.",
-        explanation: "After a full stop: \"However\" + comma.",
+        explanation: "After a period: \"However\" + comma.",
       },
       {
         type: "multiple-choice",
         question: "Which sentence is NOT correct?",
         options: ["The tickets were expensive, however we bought them.", "The tickets were expensive. However, we bought them.", "The tickets were expensive; however, we bought them.", "The tickets were expensive, but we bought them."],
         correctIndex: 0,
-        explanation: "\"However\" can't join two clauses with just a comma. Use a full stop or semicolon, or change it to \"but\".",
+        explanation: "\"However\" can't join two clauses with just a comma. Use a period or semicolon, or change it to \"but\".",
       },
       {
         type: "translate",
@@ -882,7 +882,7 @@ export const EN_B1_U28_EXTRA: Lesson[] = [
           "There were no buses. Consequently, we had to walk.",
           "There were no buses. That's why we had to walk.",
         ],
-        explanation: "\"Therefore\" after a full stop, with a comma after it. *There were no buses, therefore we had to walk is a comma splice.",
+        explanation: "\"Therefore\" after a period, with a comma after it. *There were no buses, therefore we had to walk is a comma splice.",
       },
       {
         type: "fill-blank",
@@ -890,7 +890,7 @@ export const EN_B1_U28_EXTRA: Lesson[] = [
         sentence: "I texted him, ___ he didn't reply.",
         answer: "but",
         en: "Le escribí un mensaje, [pero] no respondió.",
-        explanation: "\"But\" can join two clauses after a comma. \"However\" couldn't, because it needs a full stop or semicolon before it.",
+        explanation: "\"But\" can join two clauses after a comma. \"However\" couldn't, because it needs a period or semicolon before it.",
       },
       {
         type: "multiple-choice",
@@ -919,7 +919,7 @@ export const EN_B1_U28_EXTRA: Lesson[] = [
           "I like the job. However, the schedule is very long.",
           "I like the job. However, the hours are long.",
         ],
-        explanation: "\"However\" after a full stop or semicolon. «Horario» (of a job) is usually \"the hours\" in English.",
+        explanation: "\"However\" after a period or semicolon. «Horario» (of a job) is usually \"the hours\" in English.",
       },
       {
         type: "word-order",
@@ -934,7 +934,7 @@ export const EN_B1_U28_EXTRA: Lesson[] = [
         question: "Which pair of linkers can join two clauses with just a comma before them?",
         options: ["but / so", "however / therefore", "moreover / however", "therefore / in addition"],
         correctIndex: 0,
-        explanation: "\"And\", \"but\", \"so\" and \"or\" join clauses after a comma. \"However\", \"therefore\", \"moreover\" need a full stop or a semicolon before them.",
+        explanation: "\"And\", \"but\", \"so\" and \"or\" join clauses after a comma. \"However\", \"therefore\", \"moreover\" need a period or a semicolon before them.",
       },
       {
         type: "translate",
@@ -968,12 +968,12 @@ export const EN_B1_U28_EXTRA: Lesson[] = [
         question: "Which is a comma splice (a mistake)?",
         options: ["She's very kind, everybody likes her.", "She's very kind, and everybody likes her.", "She's very kind. Everybody likes her.", "She's very kind, so everybody likes her."],
         correctIndex: 0,
-        explanation: "Two complete sentences joined only by a comma. Add \"and\" or \"so\", or use a full stop.",
+        explanation: "Two complete sentences joined only by a comma. Add \"and\" or \"so\", or use a period.",
       },
       {
         type: "dictation",
         audio: "The test was difficult. However, most students passed.",
-        explanation: "Full stop, then \"However\" with a capital letter and a comma after it.",
+        explanation: "Period, then \"However\" with a capital letter and a comma after it.",
       },
       {
         type: "write",
@@ -981,7 +981,7 @@ export const EN_B1_U28_EXTRA: Lesson[] = [
         minWords: 50,
         maxWords: 100,
         rubric: [
-          "Uses \"however\", \"therefore\" or \"moreover\" after a full stop or semicolon, with a comma after it",
+          "Uses \"however\", \"therefore\" or \"moreover\" after a period or semicolon, with a comma after it",
           "Joins two clauses with \", so\" or \", but\" at least once",
           "No comma splices (two complete sentences joined by just a comma)",
           "No long chains of \"and ... and ... and\"",

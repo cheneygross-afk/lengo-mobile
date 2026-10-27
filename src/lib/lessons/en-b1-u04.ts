@@ -2269,7 +2269,7 @@ export const EN_B1_U04: Lesson[] = [
         body: [
           "\"Chores\" or \"housework\" are the jobs you do at home. \"Housework\" is uncountable: \"a lot of housework\", never *houseworks.",
           "Many chores use \"do\": \"do the laundry\" («lavar la ropa»), \"do the dishes\" («lavar los platos»), \"do the housework\". British English also says \"do the washing\" and \"do the washing-up\".",
-          "Others have their own verb: \"vacuum\" («pasar la aspiradora»), \"mop the floor\" («trapear» / «fregar el piso»), \"tidy up\" («ordenar»), \"make the bed\" («hacer la cama»), \"take out the trash\" («sacar la basura»; British: \"take out the rubbish\").",
+          "Others have their own verb: \"vacuum\" («pasar la aspiradora»), \"mop the floor\" («trapear» / «limpiar el piso»), \"tidy up\" («ordenar»), \"make the bed\" («hacer la cama»), \"take out the trash\" («sacar la basura»; British: \"take out the rubbish\").",
         ],
         examples: [
           { es: "I do the laundry on Saturdays.", en: "Lavo la ropa los sábados." },
@@ -2473,7 +2473,7 @@ export const EN_B1_U04: Lesson[] = [
         sentence: "I need to ___ the kitchen floor.",
         answer: "mop",
         en: "Tengo que [trapear] el piso de la cocina.",
-        explanation: "\"Mop\" is to clean the floor with water and a mop («trapear», «fregar»).",
+        explanation: "\"Mop\" is to clean the floor with water and a mop («trapear», «limpiar el piso»).",
       },
       {
         type: "translate",

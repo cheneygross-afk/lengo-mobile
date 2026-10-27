@@ -108,7 +108,7 @@ export const EN_A2_U08: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "«Mi auto es más grande que el tuyo.» ¿Cuál es correcta?",
+            question: "«Mi carro es más grande que el tuyo.» ¿Cuál es correcta?",
             options: [
               "My car is bigger than yours.",
               "My car is more big than yours.",
@@ -1446,16 +1446,16 @@ export const EN_A2_U08: Lesson[] = [
           "Resumen: «más grande que» es \"bigger than\"; «tan grande como» es \"as big as\"; «lo mismo que» es \"the same as\".",
         ],
         examples: [
-          { es: "Your car is bigger than mine.", en: "Tu auto es más grande que el mío." },
-          { es: "Your car is as big as mine.", en: "Tu auto es tan grande como el mío." },
-          { es: "Your car is the same as mine.", en: "Tu auto es igual que el mío." },
+          { es: "Your car is bigger than mine.", en: "Tu carro es más grande que el mío." },
+          { es: "Your car is as big as mine.", en: "Tu carro es tan grande como el mío." },
+          { es: "Your car is the same as mine.", en: "Tu carro es igual que el mío." },
           { es: "Tea is better than coffee.", en: "El té es mejor que el café." },
           { es: "Tea isn't as strong as coffee.", en: "El té no es tan fuerte como el café." },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "«Tu auto es igual que el mío.» ¿Qué palabra falta? \"Your car is the same ___ mine.\"",
+            question: "«Tu carro es igual que el mío.» ¿Qué palabra falta? \"Your car is the same ___ mine.\"",
             options: ["as", "than", "that", "like"],
             correctIndex: 0,
             explanation: "Después de \"the same\" va \"as\". \"Than\" solo va después de un comparativo.",
@@ -1549,7 +1549,7 @@ export const EN_A2_U08: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Tu auto es tan grande como el mío.",
+        source: "Tu carro es tan grande como el mío.",
         answer: "Your car is as big as mine.",
         altAnswers: ["Your car is as large as mine."],
         explanation: "«Tan... como» es \"as... as\".",

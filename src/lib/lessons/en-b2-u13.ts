@@ -15,7 +15,7 @@ export const EN_B2_U13: Lesson[] = [
       {
         heading: "Why English loves indirect questions",
         body: [
-          "A direct question like \"Where is the station?\" is perfectly correct, but with strangers, at work or in shops, English speakers often wrap it in a polite opening: \"Could you tell me where the station is?\". This is an indirect question, and it sounds softer and more respectful.",
+          "A direct question like \"Where is the station?\" is perfectly correct, but with strangers, at work or in stores, English speakers often wrap it in a polite opening: \"Could you tell me where the station is?\". This is an indirect question, and it sounds softer and more respectful.",
           "Spanish does this too («¿Me podría decir dónde está la estación?»), but English uses it far more. A string of direct questions to a receptionist or a stranger can sound abrupt, even rude, in English.",
           "You met indirect questions at the Independence level. At the Upper Intermediate level the goal is to use a wider range of openings and to get the word order right automatically, even in long sentences: \"Could you tell me...\", \"Can you tell me...\", \"Do you know...\", \"Do you happen to know...\" and \"Would you happen to know...\".",
         ],
@@ -1420,7 +1420,7 @@ export const EN_B2_U13: Lesson[] = [
           { es: "You couldn't send someone up, could you?", en: "¿No podría mandar a alguien a la habitación?" },
           { es: "Do you know how long it will take?", en: "¿Sabe cuánto tardará?" },
           { es: "Is there any chance I could get a late checkout?", en: "¿Habría alguna posibilidad de dejar la habitación más tarde?" },
-          { es: "Shall I send someone up right away?", en: "¿Le mando a alguien ahora mismo?" },
+          { es: "Should I send someone up right away?", en: "¿Le mando a alguien ahora mismo?" },
         ],
         checkpoint: [
           {
@@ -1531,8 +1531,8 @@ export const EN_B2_U13: Lesson[] = [
         audio: "You're checking out on Sunday, aren't you?",
         question: "With a falling tone, what is the receptionist doing?",
         options: [
-          "Confirming something she thinks is true",
-          "Asking because she has no idea",
+          "Confirming something he thinks is true",
+          "Asking because he has no idea",
           "Telling the guest to leave",
           "Complaining about the guest",
         ],
@@ -1892,7 +1892,7 @@ export const EN_B2_U13: Lesson[] = [
           "Vary your reporting verbs: \"said\", \"told me\" (with a person), \"admitted\", \"claimed\", \"explained\". \"Told\" needs an object: \"They told me\", not *They told that.",
         ],
         examples: [
-          { es: "Most people said they checked their phones first thing in the morning.", en: "La mayoría dijo que miraba el celular nada más despertarse." },
+          { es: "Most people said they checked their phones first thing in the morning.", en: "La mayoría dijo que miraba el celular en cuanto se despertaba." },
           { es: "Seven out of ten admitted they used their phones in bed.", en: "Siete de cada diez admitieron que usaban el celular en la cama." },
           { es: "Only a few said they had ever turned off notifications.", en: "Solo unos pocos dijeron que alguna vez habían desactivado las notificaciones." },
           { es: "Nobody said they could live without the internet.", en: "Nadie dijo que pudiera vivir sin internet." },

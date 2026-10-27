@@ -55,7 +55,7 @@ export const EN_B1_U28: Lesson[] = [
           { es: "We went for a walk although it was raining.", en: "Fuimos a dar un paseo aunque llovía." },
           { es: "Even though I was exhausted, I couldn't sleep.", en: "Aunque estaba agotado, no podía dormir." },
           { es: "Although she's only sixteen, she speaks four languages.", en: "Aunque solo tiene dieciséis años, habla cuatro idiomas." },
-          { es: "I enjoyed the film, though it was a bit long.", en: "Me gustó la película, aunque era un poco larga." },
+          { es: "I enjoyed the movie, though it was a bit long.", en: "Me gustó la película, aunque era un poco larga." },
           { es: "It was raining, but we went for a walk.", en: "Llovía, pero fuimos a dar un paseo." },
         ],
         checkpoint: [
@@ -189,7 +189,7 @@ export const EN_B1_U28: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "___ he was ill, he went to work.",
+        sentence: "___ he was sick, he went to work.",
         answer: "Although",
         altAnswers: ["Even though", "Though"],
         en: "[Aunque] estaba enfermo, fue a trabajar.",
@@ -287,13 +287,13 @@ export const EN_B1_U28: Lesson[] = [
       {
         heading: "Despite and in spite of + noun",
         body: [
-          "\"Despite\" and \"in spite of\" both mean «a pesar de». They are followed by a noun, not by a clause: \"Despite the rain, we played the match.\"",
+          "\"Despite\" and \"in spite of\" both mean «a pesar de». They are followed by a noun, not by a clause: \"Despite the rain, we played the game.\"",
           "Because Spanish says «a pesar DE», many learners write *despite of. This is wrong: \"despite\" never takes \"of\". The long form is \"in spite of\", and it always needs \"of\". So: \"despite the rain\" or \"in spite of the rain\".",
           "Like \"although\", they can go at the start (with a comma) or in the middle of the sentence.",
         ],
         examples: [
-          { es: "Despite the rain, we played the match.", en: "A pesar de la lluvia, jugamos el partido." },
-          { es: "In spite of the rain, we played the match.", en: "A pesar de la lluvia, jugamos el partido." },
+          { es: "Despite the rain, we played the game.", en: "A pesar de la lluvia, jugamos el partido." },
+          { es: "In spite of the rain, we played the game.", en: "A pesar de la lluvia, jugamos el partido." },
           { es: "She went to work despite her cold.", en: "Fue a trabajar a pesar del resfriado." },
           { es: "Despite his age, he runs every day.", en: "A pesar de su edad, corre todos los días." },
           { es: "We had a great time in spite of the problems.", en: "La pasamos genial a pesar de los problemas." },
@@ -405,7 +405,7 @@ export const EN_B1_U28: Lesson[] = [
           { es: "Living in the city is exciting. On the other hand, it's very expensive.", en: "Vivir en la ciudad es emocionante. Por otro lado, es muy caro." },
           { es: "On the one hand, the job pays well. On the other hand, the hours are long.", en: "Por un lado, el trabajo está bien pagado. Por otro, el horario es muy largo." },
           { es: "Trains are fast. On the other hand, buses are cheaper.", en: "Los trenes son rápidos. En cambio, los autobuses son más baratos." },
-          { es: "He isn't lazy. On the contrary, he works very hard.", en: "No es vago. Al contrario, trabaja muchísimo." },
+          { es: "He isn't lazy. On the contrary, he works very hard.", en: "No es perezoso. Al contrario, trabaja muchísimo." },
         ],
         checkpoint: [
           {
@@ -873,7 +873,7 @@ export const EN_B1_U28: Lesson[] = [
         examples: [
           { es: "We left early in order to avoid the traffic.", en: "Salimos temprano para evitar el tráfico." },
           { es: "You need a password in order to log in.", en: "Necesitas una contraseña para iniciar sesión." },
-          { es: "I wrote it down so as not to forget it.", en: "Lo apunté para no olvidarlo." },
+          { es: "I wrote it down so as not to forget it.", en: "Lo anoté para no olvidarlo." },
           { es: "He spoke quietly in order not to wake the baby.", en: "Habló bajito para no despertar al bebé." },
         ],
         checkpoint: [
@@ -883,7 +883,7 @@ export const EN_B1_U28: Lesson[] = [
             sentence: "I wrote it down ___ forget it.",
             answer: "so as not to",
             altAnswers: ["in order not to", "so I wouldn't", "so that I wouldn't", "so I didn't", "so that I didn't"],
-            en: "Lo apunté [para no] olvidarlo.",
+            en: "Lo anoté [para no] olvidarlo.",
             explanation: "«Para no» + verb is \"so as not to\" or \"in order not to\". \"Not\" goes before \"to\".",
           },
         ],
@@ -1151,7 +1151,7 @@ export const EN_B1_U28: Lesson[] = [
         examples: [
           { es: "The apartment is cheap. What's more, it's near the beach.", en: "El apartamento es barato. Además, está cerca de la playa." },
           { es: "I don't want to go out. Besides, I have no money.", en: "No quiero salir. Además, no tengo dinero." },
-          { es: "In addition, the company offers free training.", en: "Además, la empresa ofrece formación gratuita." },
+          { es: "In addition, the company offers free training.", en: "Además, la empresa ofrece capacitación gratuita." },
           { es: "Besides English, she speaks Arabic.", en: "Además de inglés, habla árabe." },
           { es: "In addition to working full-time, he studies at night.", en: "Además de trabajar a tiempo completo, estudia por las noches." },
           { es: "She sat beside me.", en: "Se sentó a mi lado." },
@@ -1428,8 +1428,9 @@ export const EN_B1_U28: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Aunque estaba lloviendo, jugaron el partido.",
-        answer: "Although it was raining, they played the match.",
+        answer: "Although it was raining, they played the game.",
         altAnswers: [
+          "Although it was raining, they played the match.",
           "Even though it was raining, they played the match.",
           "Though it was raining, they played the match.",
           "Although it was raining, they played the game.",
@@ -1626,12 +1627,12 @@ export const EN_B1_U28: Lesson[] = [
         heading: "Mistake 2: *Despite of and *despite it was",
         body: [
           "Wrong: *despite of the rain. \"Despite\" never takes \"of\"; \"in spite of\" always does.",
-          "Wrong: *despite it was raining. \"Despite\" can't take a clause. Use a noun (\"despite the rain\"), an -ing form (\"despite being ill\") or \"although\" + clause.",
+          "Wrong: *despite it was raining. \"Despite\" can't take a clause. Use a noun (\"despite the rain\"), an -ing form (\"despite being sick\") or \"although\" + clause.",
         ],
         examples: [
           { es: "Despite the rain, we had fun.", en: "A pesar de la lluvia, nos divertimos." },
           { es: "In spite of the rain, we had fun.", en: "A pesar de la lluvia, nos divertimos." },
-          { es: "Despite being ill, she came to the meeting.", en: "A pesar de estar enferma, vino a la reunión." },
+          { es: "Despite being sick, she came to the meeting.", en: "A pesar de estar enferma, vino a la reunión." },
           { es: "Although it was raining, we had fun.", en: "Aunque llovía, nos divertimos." },
         ],
         checkpoint: [
@@ -1909,7 +1910,7 @@ export const EN_B1_U28: Lesson[] = [
           "Friendly linkers: \"Anyway,\" («bueno», «en fin») changes the topic or starts to finish; \"By the way,\" («por cierto») adds something you just remembered.",
         ],
         examples: [
-          { es: "Guess what? I've got a new job!", en: "¿A que no sabes qué? ¡Tengo trabajo nuevo!" },
+          { es: "Guess what? I've got a new job!", en: "¿Sabes qué? ¡Tengo trabajo nuevo!" },
           { es: "How's work? What about the new apartment?", en: "¿Qué tal el trabajo? ¿Y el departamento nuevo?" },
           { es: "By the way, do you remember Diego?", en: "Por cierto, ¿te acuerdas de Diego?" },
           { es: "Anyway, I have to go now.", en: "Bueno, ahora tengo que irme." },
@@ -1938,7 +1939,7 @@ export const EN_B1_U28: Lesson[] = [
         heading: "Shorter sentences",
         body: [
           "Spanish writing often joins many ideas with commas in one long sentence. In English this looks messy, and two full sentences joined only with a comma are a mistake: *I went to Rome, it was amazing.",
-          "Fix it with a full stop (\"I went to Rome. It was amazing.\") or with a linker (\"I went to Rome, and it was amazing.\"). Keep most sentences short and clear, with one or two ideas each.",
+          "Fix it with a period (\"I went to Rome. It was amazing.\") or with a linker (\"I went to Rome, and it was amazing.\"). Keep most sentences short and clear, with one or two ideas each.",
         ],
         examples: [
           { es: "I went to Rome last month. It was amazing.", en: "El mes pasado fui a Roma, fue increíble." },
@@ -1956,7 +1957,7 @@ export const EN_B1_U28: Lesson[] = [
               "I started a new course it's really interesting.",
             ],
             correctIndex: 0,
-            explanation: "Two full sentences need a full stop or a linker (\"and\", \"but\", \"so\") between them, not just a comma.",
+            explanation: "Two full sentences need a period or a linker (\"and\", \"but\", \"so\") between them, not just a comma.",
           },
         ],
       },
@@ -2090,7 +2091,7 @@ export const EN_B1_U28: Lesson[] = [
         maxWords: 130,
         rubric: [
           "\"Hi Tom,\" (not \"Dear friend\") and a friendly first line.",
-          "Contractions and short sentences, with a full stop or a linker between ideas.",
+          "Contractions and short sentences, with a period or a linker between ideas.",
           "At least three linkers (\"but\", \"so\", \"because\", \"anyway\", \"by the way\"...).",
           "An invitation (\"Would you like to...?\" / \"Why don't you...?\").",
           "A closing line and an informal sign-off (\"Take care,\" / \"Love,\" + name).",
@@ -2445,11 +2446,11 @@ export const EN_B1_U28: Lesson[] = [
       {
         heading: "Arguments, examples and the other side",
         body: [
-          "Order your arguments with \"Firstly,\" / \"First of all,\", \"Secondly,\", \"In addition,\" and \"Finally,\". Support them with \"For example,\" or \"For instance,\" (never *per example) or with \"such as\" before a list of nouns.",
+          "Order your arguments with \"First,\" / \"First of all,\", \"Second,\", \"In addition,\" and \"Finally,\". Support them with \"For example,\" or \"For instance,\" (never *per example) or with \"such as\" before a list of nouns.",
           "To show the other side, use the contrast linkers from this unit: \"On the one hand... On the other hand...\", \"However,\", \"Although...\".",
         ],
         examples: [
-          { es: "Firstly, working from home saves time.", en: "En primer lugar, trabajar desde casa ahorra tiempo." },
+          { es: "First, working from home saves time.", en: "En primer lugar, trabajar desde casa ahorra tiempo." },
           { es: "For example, you don't have to travel to the office.", en: "Por ejemplo, no tienes que desplazarte a la oficina." },
           { es: "Some jobs, such as nursing, can't be done from home.", en: "Algunos trabajos, como el de enfermero, no se pueden hacer desde casa." },
           { es: "On the one hand, it's cheaper. On the other hand, it can be lonely.", en: "Por un lado, es más barato. Por otro, puede ser solitario." },
@@ -2596,7 +2597,7 @@ export const EN_B1_U28: Lesson[] = [
           { left: "For instance,", right: "dar un ejemplo" },
           { left: "On the other hand,", right: "presentar el otro lado" },
           { left: "In conclusion,", right: "empezar la conclusión" },
-          { left: "Firstly,", right: "presentar el primer argumento" },
+          { left: "First,", right: "presentar el primer argumento" },
         ],
         explanation: "Each paragraph has its own typical phrases. Using them makes the structure clear to the reader.",
       },
@@ -2614,11 +2615,11 @@ export const EN_B1_U28: Lesson[] = [
         rubric: [
           "Four clear paragraphs, each with a topic sentence.",
           "Opinion phrases used correctly (\"In my opinion\", \"I think\", \"I agree\"; no *I am agree or *According to me).",
-          "Sequencing and examples (\"Firstly\", \"In addition\", \"For example\").",
+          "Sequencing and examples (\"First\", \"In addition\", \"For example\").",
           "Contrast linkers (\"However\", \"On the other hand\", \"Although\") with correct punctuation.",
           "A conclusion starting with \"In conclusion,\" or \"To sum up,\" that repeats your opinion.",
         ],
-        modelAnswer: "Nowadays, many children have a cell phone before they are twelve. Some parents think this is necessary, while others believe it is dangerous.\n\nOn the one hand, a phone can be very useful. Firstly, children can call their parents if there is a problem. In addition, some apps can help them with their homework.\n\nOn the other hand, there are serious disadvantages. For example, many children spend hours on social media instead of playing outside. What's more, they can see content that is not suitable for their age.\n\nIn conclusion, although phones have some advantages, I believe children under twelve should not have their own smartphone. In my opinion, a simple phone for calls is the best option.",
+        modelAnswer: "Nowadays, many children have a cell phone before they are twelve. Some parents think this is necessary, while others believe it is dangerous.\n\nOn the one hand, a phone can be very useful. First, children can call their parents if there is a problem. In addition, some apps can help them with their homework.\n\nOn the other hand, there are serious disadvantages. For example, many children spend hours on social media instead of playing outside. What's more, they can see content that is not suitable for their age.\n\nIn conclusion, although phones have some advantages, I believe children under twelve should not have their own smartphone. In my opinion, a simple phone for calls is the best option.",
         explanation: "A clear essay: introduction, one side, the other side, and a conclusion with your opinion, all joined with linkers.",
       },
     ],
@@ -2678,7 +2679,7 @@ export const EN_B1_U28: Lesson[] = [
         heading: "Moving the story forward",
         body: [
           "Sequencers tell the reader when things happen: \"One day,\", \"At first,\", \"Then\", \"After that,\" / \"Afterwards,\", \"Suddenly,\", \"As soon as\", \"In the end,\".",
-          "Two traps for Spanish speakers. First, «después», used alone, is \"after that\" or \"afterwards\", not \"after\": *After, we went home is wrong. Second, «al final» meaning «finalmente» is \"in the end\". \"At the end\" needs \"of\": \"at the end of the film\".",
+          "Two traps for Spanish speakers. First, «después», used alone, is \"after that\" or \"afterwards\", not \"after\": *After, we went home is wrong. Second, «al final» meaning «finalmente» is \"in the end\". \"At the end\" needs \"of\": \"at the end of the movie\".",
         ],
         examples: [
           { es: "One day, I found an old letter in the attic.", en: "Un día encontré una carta antigua en el ático." },
@@ -2686,7 +2687,7 @@ export const EN_B1_U28: Lesson[] = [
           { es: "After that, we called the police.", en: "Después, llamamos a la policía." },
           { es: "As soon as I saw her, I knew something was wrong.", en: "En cuanto la vi, supe que algo iba mal." },
           { es: "In the end, everything was fine.", en: "Al final, todo salió bien." },
-          { es: "At the end of the film, everybody was crying.", en: "Al final de la película, todo el mundo estaba llorando." },
+          { es: "At the end of the movie, everybody was crying.", en: "Al final de la película, todo el mundo estaba llorando." },
         ],
         checkpoint: [
           {

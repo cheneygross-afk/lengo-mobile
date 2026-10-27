@@ -102,7 +102,7 @@ export const EN_B2_U05_DRILLS: Lesson[] = [
       fb(
         "If she had asked me, I ___ her with the move.",
         "would have helped",
-        "Si me hubiera pedido, la [habría ayudado] con la mudanza.",
+        "Si me lo hubiera pedido, la [habría ayudado] con la mudanza.",
         "The result of an imaginary past is would have + past participle: \"would have helped\" = «habría ayudado». Never *would had helped: after a modal, \"have\" doesn't change.",
       ),
       tr(
@@ -112,13 +112,14 @@ export const EN_B2_U05_DRILLS: Lesson[] = [
       ),
       tr(
         "Si no hubiera llovido, habríamos ido a la playa.",
-        "If it hadn't rained, we would have gone to the beach.",
+        ["If it hadn't rained, we would have gone to the beach.", "We would have gone to the beach if it hadn't rained."],
         "English needs the subject \"it\" with weather verbs: \"If it hadn't rained\". The participle of \"go\" is \"gone\", so \"would have gone\", not *would have went.",
       ),
       wo(
         "I would have called you if I had known",
         "Te habría llamado si lo hubiera sabido.",
         "When the result comes first, no comma is needed. \"Would have called\" is the result; \"if I had known\" is the condition. Spanish «lo» disappears in English.",
+        ["If I had known I would have called you"],
       ),
       mc(
         "Which sentence is correct?",
@@ -184,6 +185,7 @@ export const EN_B2_U05_DRILLS: Lesson[] = [
         "He would still have his job if he hadn't lied",
         "Todavía tendría su trabajo si no hubiera mentido.",
         "Present result (\"would still have\") and past cause (\"if he hadn't lied\"). \"Still\" goes after \"would\": \"would still have\".",
+        ["If he hadn't lied he would still have his job"],
       ),
       fb(
         "If Marta ___ allergic to cats, she would have adopted the kitten.",
@@ -264,6 +266,7 @@ export const EN_B2_U05_DRILLS: Lesson[] = [
         "We will stay home if it snows tonight",
         "Nos quedaremos en casa si nieva esta noche.",
         "First conditional: \"will\" in the result, the present simple after \"if\": \"if it snows\", not *if it will snow.",
+        ["If it snows tonight we will stay home"],
       ),
       tr(
         "Si me hubieras llamado, te habría recogido en el aeropuerto.",
@@ -308,7 +311,7 @@ export const EN_B2_U05_DRILLS: Lesson[] = [
       ),
       tr(
         "Si lo hubiera visto, te lo habría dicho.",
-        "If I had seen it, I would have told you.",
+        ["If I had seen it, I would have told you.", "I would have told you if I had seen it."],
         "«Lo... te lo» become \"it... you\": English doesn't repeat the object in the result. And again: \"had seen\" after \"if\", never *would have seen.",
       ),
     ],
@@ -394,8 +397,9 @@ export const EN_B2_U05_DRILLS: Lesson[] = [
       ),
       wo(
         "You can come with us as long as you are ready by eight",
-        "Puedes venir con nosotros siempre que estés listo a las ocho.",
+        "Puedes venir con nosotros siempre que estés listo para las ocho.",
         "\"As long as\" introduces the condition, with the present simple: \"as long as you are ready\".",
+        ["As long as you are ready by eight you can come with us"],
       ),
       lc(
         "I'll take my umbrella in case it rains.",
@@ -458,7 +462,7 @@ export const EN_B2_U05_DRILLS: Lesson[] = [
       ),
       tr(
         "Perdí el autobús porque me quedé dormido. Si no me hubiera quedado dormido, no lo habría perdido.",
-        "I missed the bus because I overslept. If I hadn't overslept, I wouldn't have missed it.",
+        "I missed the bus because I overslept. If I hadn't overslept, I wouldn't have missed {it|the bus}.",
         "With \"because\", the cause is the part after \"because\" (\"I overslept\"). Flip it into the if-clause (\"hadn't overslept\") and flip the result (\"wouldn't have missed\").",
       ),
       wo(
@@ -483,7 +487,7 @@ export const EN_B2_U05_DRILLS: Lesson[] = [
       ),
       fb(
         "___ you need any further information, please let us know.",
-        "Should",
+        ["Should", "If"],
         "[Si] necesita más información, avísenos.",
         "In formal emails, \"Should you need\" = \"If you need\". The verb after \"should\" is the base form: \"Should you need\", not *Should you needed.",
       ),
@@ -541,7 +545,7 @@ export const EN_B2_U05_DRILLS: Lesson[] = [
       ),
       tr(
         "Si no hubieras olvidado las llaves, no estaríamos esperando afuera.",
-        "If you hadn't forgotten the keys, we wouldn't be waiting outside.",
+        "If you hadn't forgotten {the|your} keys, we wouldn't be waiting outside.",
         "Mixed conditional with a continuous result: past cause (\"hadn't forgotten\"), present situation in progress (\"wouldn't be waiting\"). Participle: \"forgotten\", not *forgot.",
       ),
       dc(

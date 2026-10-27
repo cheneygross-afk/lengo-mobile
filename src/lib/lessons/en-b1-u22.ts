@@ -262,7 +262,7 @@ export const EN_B1_U22: Lesson[] = [
         heading: "Try to do vs try doing",
         body: [
           "\"Try to do\" means make an effort to do something difficult, which you may not manage: «intentar hacer algo». \"I tried to open the window, but it was stuck.\"",
-          "\"Try doing\" means do something as an experiment, to see if it helps: «probar a hacer algo». \"If you can't sleep, try drinking warm milk.\"",
+          "\"Try doing\" means do something as an experiment, to see if it helps: «probar hacer algo» (to see if it works). \"If you can't sleep, try drinking warm milk.\"",
           "Ask yourself: is the action itself difficult? Use \"to\". Is the action easy, and the question is whether it solves the problem? Use -ing. That's why advice often uses \"try\" + -ing.",
         ],
         examples: [
@@ -270,7 +270,7 @@ export const EN_B1_U22: Lesson[] = [
           { es: "She's trying to learn Chinese.", en: "Está intentando aprender chino." },
           { es: "Try to be on time tomorrow.", en: "Intenta llegar a tiempo mañana." },
           { es: "If you can't sleep, try drinking warm milk.", en: "Si no puedes dormir, prueba a tomar leche caliente." },
-          { es: "Try restarting your computer.", en: "Prueba a reiniciar la computadora." },
+          { es: "Try restarting your computer.", en: "Prueba reiniciar la computadora." },
           { es: "Have you tried adding more salt?", en: "¿Has probado a ponerle más sal?" },
         ],
         checkpoint: [
@@ -1887,7 +1887,7 @@ export const EN_B1_U22: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English.",
-            sentence: "Do you fancy ___ a movie?",
+            sentence: "Do you feel like ___ a movie?",
             answer: "watching",
             altAnswers: ["seeing"],
             en: "¿Tienes ganas de [ver] una película?",

@@ -1052,7 +1052,7 @@ export const EN_B2_U03: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "I'll reply as soon as I ___ your email.",
         answer: "get",
-        altAnswers: ["receive", "have received", "have gotten", "read", "have read"],
+        altAnswers: ["receive", "have received", "have gotten"],
         en: "Contestaré en cuanto [reciba] tu correo.",
         explanation: "After \"as soon as\", use the present (\"get\") or present perfect (\"have received\"), never *will get.",
       },

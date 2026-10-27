@@ -17,7 +17,7 @@ export const EN_B2_U29: Lesson[] = [
         body: [
           "A good story in English uses four past tenses. The past simple moves the action forward (\"I opened the door\"). The past continuous sets the scene or shows an action in progress (\"It was raining\"). The past perfect goes back to an earlier past (\"Someone had left the window open\"). The past perfect continuous says how long something had been going on (\"She had been waiting for an hour\").",
           "Spanish speakers tend to overuse the past continuous, because the Spanish imperfect also covers states and habits. In English, finished states and habits take the past simple or \"used to\": «Vivía en Lima» is \"I lived in Lima\" or \"I used to live in Lima\". \"I was living in Lima\" suggests a temporary situation.",
-          "The other classic slip is skipping the past perfect. In English, \"When I arrived, the film started\" means it started after you arrived. If it started before, you need \"When I arrived, the film had started\".",
+          "The other classic slip is skipping the past perfect. In English, \"When I arrived, the movie started\" means it started after you arrived. If it started before, you need \"When I arrived, the movie had started\".",
         ],
         examples: [
           { es: "We were having dinner when the lights went out.", en: "Estábamos cenando cuando se fue la luz." },
@@ -46,7 +46,7 @@ export const EN_B2_U29: Lesson[] = [
               "The movie had already started when we got there.",
               "The film had already started when we got there.",
             ],
-            explanation: "The film started before you arrived, so it takes the past perfect (\"had started\"). With the past simple (\"started\") it would have begun after you arrived.",
+            explanation: "The movie started before you arrived, so it takes the past perfect (\"had started\"). With the past simple (\"started\") it would have begun after you arrived.",
           },
           {
             type: "multiple-choice",
@@ -70,7 +70,7 @@ export const EN_B2_U29: Lesson[] = [
           "After \"when\", \"as soon as\", \"before\", \"until\" and \"if\", English uses a present tense for the future where Spanish uses the subjunctive: «cuando llegues» is \"when you arrive\", never *when you will arrive.",
         ],
         examples: [
-          { es: "I'm meeting Ana for lunch tomorrow.", en: "Mañana como con Ana (ya hemos quedado)." },
+          { es: "I'm meeting Ana for lunch tomorrow.", en: "Mañana como con Ana (ya lo acordamos)." },
           { es: "The movie starts at eight.", en: "La película empieza a las ocho." },
           { es: "This time next week I'll be lying on a beach.", en: "La semana que viene a estas horas estaré acostado en una playa." },
           { es: "By the end of the year, we'll have saved enough money.", en: "Para final de año habremos ahorrado suficiente dinero." },
@@ -1408,7 +1408,7 @@ export const EN_B2_U29: Lesson[] = [
           "Other frequent gaps: \"as\" in comparisons (\"as tall as\"), \"the\" in \"the more..., the better\", dummy \"it\" (\"It is important to...\") and \"there\" (\"There is no need to...\"). Spanish has no word for these subjects, so they are easy to forget.",
         ],
         examples: [
-          { es: "It was such a good film that we watched it twice.", en: "La película era tan buena que la vimos dos veces." },
+          { es: "It was such a good movie that we watched it twice.", en: "La película era tan buena que la vimos dos veces." },
           { es: "The coffee was too hot to drink.", en: "El café estaba demasiado caliente para bebérselo." },
           { es: "Is the water warm enough to swim?", en: "¿El agua está lo bastante caliente para nadar?" },
           { es: "It is important to drink enough water.", en: "Es importante beber suficiente agua." },
