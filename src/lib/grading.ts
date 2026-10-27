@@ -359,11 +359,21 @@ function gradeKoreanAnswer(value: string, answers: string[]): GradeResult {
   const dense = typed.replace(/ /g, "");
   let spacing: string | undefined;
   for (const answer of answers) {
-    const model = cleanKorean(answer);
-    if (typed === model) return { correct: true };
-    if (spacing === undefined && dense === model.replace(/ /g, "")) spacing = answer.normalize("NFC").trim();
+    for (const model of withOptionalTopicI(cleanKorean(answer))) {
+      if (typed === model) return { correct: true };
+      if (spacing === undefined && dense === model.replace(/ /g, "")) spacing = answer.normalize("NFC").trim();
+    }
   }
   return spacing !== undefined ? { correct: true, note: `Spacing: ${spacing}` } : { correct: false };
+}
+
+/** Korean drops 'I' whenever context allows, so a sentence answer that
+ * starts with 저는 / 나는 is also right without it. (Not the other way round:
+ * a subjectless answer can mean 'he' or 'she', so adding 저는 could change the
+ * meaning.) One-word answers (fill-blanks) are left alone. */
+function withOptionalTopicI(model: string): string[] {
+  const m = model.match(/^(저는|나는) (.+)$/);
+  return m ? [model, m[2]] : [model];
 }
 
 /**
