@@ -736,7 +736,7 @@ export const EN_B2_U04: Lesson[] = [
         body: [
           "*I wait you is missing a preposition: you \"wait for\" someone or something. «Te espero en la puerta» is \"I'll wait for you at the door\".",
           "But «esperar» has two other meanings in English. \"Expect\" is to think something will happen or someone will come: «esperamos unos veinte invitados» is \"We're expecting about twenty guests\". \"Hope\" is to want something to happen: «espero que te guste Madrid» is \"I hope you like Madrid\".",
-          "Sofia also wrote *I hope you to like the city. \"Hope\" is followed by a clause (\"I hope you like it\") or by \"to\" + verb with the same subject (\"I hope to see you soon\"), never by object + \"to\".",
+          "Another typical error in emails like Sofia's is *I hope you to like the city. \"Hope\" is followed by a clause (\"I hope you like it\") or by \"to\" + verb with the same subject (\"I hope to see you soon\"), never by object + \"to\".",
         ],
         examples: [
           { es: "I'll wait for you at the door.", en: "Te espero en la puerta." },
@@ -1033,7 +1033,7 @@ export const EN_B2_U04: Lesson[] = [
           { es: "I'm about to send it.", en: "Estoy a punto de enviarlo." },
           { es: "I was just about to call you!", en: "¡Justo iba a llamarte!" },
           { es: "The meeting is due to start at ten.", en: "Está previsto que la reunión empiece a las diez." },
-          { es: "I'm on it.", en: "Ya me pongo con ello. / Estoy en ello." },
+          { es: "I'm on it.", en: "Ya me encargo. / Estoy en eso." },
           { es: "It'll be ready in five minutes.", en: "Estará listo en cinco minutos." },
         ],
         checkpoint: [
@@ -1577,7 +1577,7 @@ export const EN_B2_U04: Lesson[] = [
             type: "matching",
             instructions: "Match each sentence with its use.",
             pairs: [
-              { left: "The film starts at eight.", right: "horario" },
+              { left: "The movie starts at eight.", right: "horario" },
               { left: "Look at those clouds. It's going to rain.", right: "predicción con pruebas" },
               { left: "I'll carry that for you.", right: "ofrecimiento" },
               { left: "We're flying to Rome on Friday.", right: "plan acordado" },
@@ -1954,7 +1954,7 @@ export const EN_B2_U04: Lesson[] = [
         sentence: "I'll take some snacks ___ hungry on the bus.",
         answer: "in case we get",
         altAnswers: ["in case we're", "in case we are", "just in case we get"],
-        en: "Llevaré algo de picar [por si nos entra] hambre en el autobús.",
+        en: "Llevaré algo de picar [por si nos da] hambre en el autobús.",
         explanation: "«Por si» = \"in case\" + present simple.",
       },
       {
@@ -2646,7 +2646,7 @@ export const EN_B2_U04: Lesson[] = [
           "A future form for the new plan",
           "At least one time clause with the present (when, as soon as, until)",
         ],
-        modelAnswer: "Last spring I was going to move to Berlin. I had found a job there and I was looking for an apartment when my father got sick. I decided to stay in Valencia to help my family. It was a hard decision, but I don't regret it. Now he's much better, and I'm going to try again next year. I've already started German classes, and as soon as I reach an Independence level, I'll start applying for jobs. By this time next year, I hope I'll be living in Germany.",
+        modelAnswer: "Last spring I was going to move to Berlin. I had found a job there and I was looking for an apartment when my father got sick. I decided to stay in Valencia to help my family. It was a hard decision, but I don't regret it. Now he's much better, and I'm going to try again next year. I've already started German classes, and as soon as my German is good enough, I'll start applying for jobs. By this time next year, I hope I'll be living in Germany.",
         explanation: "Moving between past and future is easier when you anchor every verb to the timeline.",
       },
     ],

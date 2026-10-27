@@ -1258,7 +1258,7 @@ export const EN_B1_U11: Lesson[] = [
         examples: [
           { es: "We had to go.", en: "Tuvimos que ir. (incorrecto: *We had to went)" },
           { es: "I didn't have to pay.", en: "No tuve que pagar. (incorrecto: *I didn't had to pay)" },
-          { es: "She had to leave early.", en: "Tuvo que irse pronto. (incorrecto: *She musted leave)" },
+          { es: "She had to leave early.", en: "Tuvo que irse temprano. (incorrecto: *She musted leave)" },
           { es: "You should have told me.", en: "Me lo tendrías que haber dicho. (incorrecto: *You should told me)" },
         ],
         checkpoint: [
@@ -1897,7 +1897,7 @@ export const EN_B1_U11: Lesson[] = [
           { es: "I cut my finger.", en: "Me corté el dedo." },
           { es: "He burned his hand.", en: "Se quemó la mano." },
           { es: "I have a rash on my back.", en: "Tengo un sarpullido en la espalda." },
-          { es: "Where did you get that bruise?", en: "¿Cómo te has hecho ese moretón?" },
+          { es: "Where did you get that bruise?", en: "¿Cómo te hiciste ese moretón?" },
         ],
         checkpoint: [
           {
@@ -2020,7 +2020,7 @@ export const EN_B1_U11: Lesson[] = [
         type: "listen-choose",
         audio: "I think I caught a cold.",
         question: "What does it mean?",
-        options: ["Creo que me he resfriado.", "Creo que tengo frío.", "Creo que he tomado algo frío.", "Creo que estoy estreñido."],
+        options: ["Creo que me resfrié.", "Creo que tengo frío.", "Creo que he tomado algo frío.", "Creo que estoy estreñido."],
         correctIndex: 0,
         explanation: "\"Catch a cold\" = «resfriarse». \"I'm cold\" would be «tengo frío».",
       },

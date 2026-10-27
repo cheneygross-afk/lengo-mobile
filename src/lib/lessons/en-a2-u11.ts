@@ -329,7 +329,7 @@ export const EN_A2_U11: Lesson[] = [
       {
         heading: "\"Was able to\": lo que conseguiste hacer",
         body: [
-          "\"Could\" habla de una habilidad general en el pasado. Pero para contar que conseguiste hacer algo concreto en un momento concreto, se usa \"was able to\" o \"were able to\": \"The car broke down, but I was able to fix it\" («el carro se averió, pero pude arreglarlo»).",
+          "\"Could\" habla de una habilidad general en el pasado. Pero para contar que conseguiste hacer algo concreto en un momento concreto, se usa \"was able to\" o \"were able to\": \"The car broke down, but I was able to fix it\" («el carro se descompuso, pero pude arreglarlo»).",
           "En español las dos ideas son «poder», y por eso muchos dicen \"I could fix it\" en este caso. En la afirmativa, para un logro puntual, lo natural es \"was able to\". También se oye \"managed to\" («logré»).",
           "En la negativa no hay problema: \"couldn't\" y \"wasn't able to\" sirven en los dos casos: \"I couldn't fix it\" o \"I wasn't able to fix it\".",
         ],

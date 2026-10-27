@@ -1042,7 +1042,7 @@ export const EN_A2_U04: Lesson[] = [
         ],
         examples: [
           { es: "Diego used to live in a small town in Colombia.", en: "Diego antes vivía en un pueblo pequeño de Colombia." },
-          { es: "He used to work in his father's shop.", en: "Solía trabajar en la tienda de su padre." },
+          { es: "He used to work in his father's store.", en: "Solía trabajar en la tienda de su padre." },
           { es: "One day in 2019, he was reading the newspaper when he saw a job ad.", en: "Un día de 2019, estaba leyendo el periódico cuando vio un anuncio de trabajo." },
           { es: "First, he called the company.", en: "Primero, llamó a la empresa." },
           { es: "Then he traveled to Bogota for an interview.", en: "Luego viajó a Bogotá para una entrevista." },
@@ -1060,7 +1060,7 @@ export const EN_A2_U04: Lesson[] = [
           {
             type: "multiple-choice",
             question: "¿Qué hacía Diego cuando vio el anuncio?",
-            options: ["He was reading the newspaper.", "He was working in the shop.", "He was traveling to Bogota.", "He was calling the company."],
+            options: ["He was reading the newspaper.", "He was working in the store.", "He was traveling to Bogota.", "He was calling the company."],
             correctIndex: 0,
             explanation: "\"He was reading the newspaper when he saw a job ad\": el continuo es la escena, \"saw\" el hecho que la interrumpe.",
           },
@@ -1073,7 +1073,7 @@ export const EN_A2_U04: Lesson[] = [
           "El fondo va primero: \"used to\" para la vida de antes y pasado continuo para la escena. Luego vienen los hechos, en pasado simple y con conectores.",
         ],
         examples: [
-          { es: "Background: He used to work in his father's shop.", en: "Fondo: Solía trabajar en la tienda de su padre." },
+          { es: "Background: He used to work in his father's store.", en: "Fondo: Solía trabajar en la tienda de su padre." },
           { es: "Scene: He was reading the newspaper.", en: "Escena: Estaba leyendo el periódico." },
           { es: "Event: He saw a job ad.", en: "Hecho: Vio un anuncio de trabajo." },
         ],
@@ -1082,7 +1082,7 @@ export const EN_A2_U04: Lesson[] = [
             type: "matching",
             instructions: "Une cada parte de la historia con su función.",
             pairs: [
-              { left: "He used to work in a shop.", right: "La vida de antes" },
+              { left: "He used to work in a store.", right: "La vida de antes" },
               { left: "He was reading the newspaper.", right: "La escena" },
               { left: "He saw a job ad.", right: "Un hecho" },
               { left: "Now he lives in Bogota.", right: "El presente" },
@@ -1199,7 +1199,7 @@ export const EN_A2_U04: Lesson[] = [
           "Usa el pasado continuo para la escena y el pasado simple para los hechos.",
           "Ordena los hechos con al menos tres conectores (\"first\", \"then\", \"after that\", \"in the end\"...).",
         ],
-        modelAnswer: "Diego used to live in a small town and he used to work in his father's shop. One day he was reading the newspaper when he saw a job ad. First, he called the company. Then he traveled to Bogota for an interview. Two weeks later, they offered him the job. In the end, he moved to the city.",
+        modelAnswer: "Diego used to live in a small town and he used to work in his father's store. One day he was reading the newspaper when he saw a job ad. First, he called the company. Then he traveled to Bogota for an interview. Two weeks later, they offered him the job. In the end, he moved to the city.",
         explanation: "Revisa que el fondo vaya antes que los hechos y que cada verbo irregular esté en pasado.",
       },
     ],

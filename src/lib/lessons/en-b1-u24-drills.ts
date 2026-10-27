@@ -291,7 +291,7 @@ export const EN_B1_U24_DRILLS: Lesson[] = [
     [
       ["I need a little help with this.", "Necesito un poco de ayuda con esto."],
       ["Both of my sisters work in a hospital.", "Mis dos hermanas trabajan en un hospital."],
-      ["Neither of the hotels has a pool.", "Ninguno de los dos hoteles tiene alberca."],
+      ["Neither of the hotels has a pool.", "Ninguno de los dos hoteles tiene piscina."],
       ["Everyone in the office is talking about it.", "Todos en la oficina están hablando de eso."],
     ],
     [
@@ -313,7 +313,7 @@ export const EN_B1_U24_DRILLS: Lesson[] = [
         "Without \"a\", \"few\" is negative: not enough. \"A few people came\" would sound positive.",
       ),
       tr(
-        "Hay muy poca leche en el refri.",
+        "Hay muy poca leche en el refrigerador.",
         ["There's very little milk in the {fridge|refrigerator}.", "There isn't much milk in the {fridge|refrigerator}."],
         "«Muy poca» (uncountable) = \"very little\", or \"not much\" in conversation. Not *very few milk.",
       ),

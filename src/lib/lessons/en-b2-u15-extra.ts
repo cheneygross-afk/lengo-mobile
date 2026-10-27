@@ -27,7 +27,7 @@ export const EN_B2_U15_EXTRA: Lesson[] = [
         examples: [
           { es: "A thousand tickets were sold in an hour.", en: "Se vendieron mil entradas en una hora." },
           { es: "The minister is said to be very ill.", en: "Se dice que el ministro está muy enfermo." },
-          { es: "He resigned, which surprised everyone.", en: "Dimitió, lo que sorprendió a todos." },
+          { es: "He resigned, which surprised everyone.", en: "Renunció, lo que sorprendió a todos." },
           { es: "It's a firm whose clients include three banks.", en: "Es una empresa entre cuyos clientes hay tres bancos." },
           { es: "My manager asked me to stay late.", en: "Mi jefa me pidió que me quedara hasta tarde." },
         ],
@@ -250,9 +250,9 @@ export const EN_B2_U15_EXTRA: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Ganaron el partido, lo cual nadie esperaba.",
-        answer: "They won the match, which nobody expected.",
+        answer: "They won the game, which nobody expected.",
         altAnswers: [
-          "They won the game, which nobody expected.",
+          "They won the match, which nobody expected.",
           "They won the match, which no one expected.",
           "They won the game, which no one expected.",
           "They won the match, which nobody had expected.",

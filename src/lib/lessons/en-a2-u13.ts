@@ -1002,7 +1002,7 @@ export const EN_A2_U13: Lesson[] = [
         heading: "Salir, volver y apurarse",
         body: [
           "\"Go out\" es «salir», sobre todo para divertirse: \"We go out on Saturdays\". \"Come back\" es «volver» (hacia donde está quien habla) y \"go back\", «volver» a otro lugar.",
-          "\"Hurry up!\" es «¡apúrate!» o «¡date prisa!». Se usa mucho en imperativo.",
+          "\"Hurry up!\" es «¡apúrate!». Se usa mucho en imperativo.",
           "En pasado solo cambia el verbo, nunca la partícula: \"went out\", \"came back\", \"got up\", \"woke up\".",
         ],
         examples: [
@@ -1028,7 +1028,7 @@ export const EN_A2_U13: Lesson[] = [
             sentence: "___! We're late.",
             answer: "Hurry up",
             en: "¡[Apúrate]! Llegamos tarde.",
-            explanation: "«¡Apúrate!» o «¡date prisa!» es \"Hurry up!\".",
+            explanation: "«¡Apúrate!» es \"Hurry up!\".",
           },
         ],
       },
@@ -1924,7 +1924,7 @@ export const EN_A2_U13: Lesson[] = [
             prompt: "Traduce al inglés.",
             source: "Tomamos una foto.",
             answer: "We take a photo.",
-            altAnswers: ["We take a picture.", "We're taking a photo.", "We're taking a picture.", "Let's take a photo.", "Let's take a picture."],
+            altAnswers: ["We took a photo.", "We took a picture.", "We take a picture.", "We're taking a photo.", "We're taking a picture.", "Let's take a photo.", "Let's take a picture."],
             explanation: "«Tomar» o «sacar una foto» es \"take a photo\" o \"take a picture\", nunca *make a photo.",
           },
         ],

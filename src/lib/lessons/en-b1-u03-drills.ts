@@ -211,7 +211,7 @@ export const EN_B1_U03_DRILLS: Lesson[] = [
     [
       fb("We ___ for forty minutes when the waiter finally came.", "had been waiting", "[Llevábamos] cuarenta minutos [esperando] cuando por fin vino el mesero.",
         "«Llevábamos + tiempo + gerundio» = \"had been\" + -ing + \"for\". It is the present perfect continuous moved one step back in time."),
-      fb("His clothes were wet because he ___ in the rain.", ["had been walking", "had been running", "had been standing", "had been playing"], "Tenía la ropa mojada porque [había estado caminando] bajo la lluvia.",
+      fb("His clothes were wet because he ___ in the rain.", ["had been walking"], "Tenía la ropa mojada porque [había estado caminando] bajo la lluvia.",
         "A visible result at a past moment (wet clothes) explained by an earlier activity: \"had been\" + -ing."),
       mc("Which sentence is correct?", [
         "She had been living in Rome for a year when she met Marco.",
@@ -223,7 +223,7 @@ export const EN_B1_U03_DRILLS: Lesson[] = [
         "«Llevaba + tiempo + gerundio» = \"had been\" + -ing. The interruption is in the past simple: \"broke down\" («se descompuso»)."),
       tr("Hacía meses que estudiaba para ese examen.", "I had been {studying|preparing} for that {exam|test} for months.",
         "«Hacía X que + imperfecto» = \"had been\" + -ing + \"for X\". Note the two \"for\"s: \"study for an exam\" and \"for months\"."),
-      fb("How long ___ there when the bus came?", ["had you been waiting", "had you been standing"], "¿Cuánto tiempo [llevabas esperando] ahí cuando llegó el autobús?",
+      fb("How long ___ there when the bus came?", ["had you been waiting"], "¿Cuánto tiempo [llevabas esperando] ahí cuando llegó el autobús?",
         "Question: \"How long had you been\" + -ing? \"Had\" goes before the subject; there is no \"did\"."),
       tr("Mi hijo estaba agotado porque había estado jugando al fútbol toda la tarde.", "My son was {exhausted|really tired|very tired} because he had been playing soccer {all afternoon|the whole afternoon}.",
         "The past perfect continuous explains a past state (exhausted) with a long earlier activity. «Fútbol» is \"soccer\" in American English."),

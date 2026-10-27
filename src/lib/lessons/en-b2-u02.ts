@@ -187,15 +187,15 @@ export const EN_B2_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence means that the film started BEFORE we arrived?",
+        question: "Which sentence means that the movie started BEFORE we arrived?",
         options: [
-          "When we arrived, the film had started.",
-          "When we arrived, the film started.",
-          "When we arrived, the film was starting.",
-          "When we arrived, the film has started.",
+          "When we arrived, the movie had started.",
+          "When we arrived, the movie started.",
+          "When we arrived, the movie was starting.",
+          "When we arrived, the movie has started.",
         ],
         correctIndex: 0,
-        explanation: "\"Had started\" puts the start before our arrival. \"The film started\" suggests it started at the moment we arrived (or because we arrived).",
+        explanation: "\"Had started\" puts the start before our arrival. \"The movie started\" suggests it started at the moment we arrived (or because we arrived).",
       },
       {
         type: "listen-choose",
@@ -529,7 +529,7 @@ export const EN_B2_U02: Lesson[] = [
               "Toby saved us.",
             ],
             correctIndexes: [0, 1],
-            explanation: "\"When I was a child\" needs \"a\", and \"have\" (possession) is a state verb, so it is \"I had a dog\". The last two sentences are correct.",
+            explanation: "\"When I was a child\" needs \"a\", and \"have\" (possession) is a state verb, so it is \"I had a dog\". \"Toby started to bark\" and \"Toby saved us\" are correct.",
           },
         ],
       },
@@ -772,8 +772,8 @@ export const EN_B2_U02: Lesson[] = [
         examples: [
           { es: "I'd gone home.", en: "Me había ido a casa. (\"I had gone\")" },
           { es: "I'd go home.", en: "Me iría a casa. (\"I would go\")" },
-          { es: "She'd seen the film.", en: "Había visto la película. (\"she had seen\")" },
-          { es: "She'd see the film.", en: "Vería la película. (\"she would see\")" },
+          { es: "She'd seen the movie.", en: "Había visto la película. (\"she had seen\")" },
+          { es: "She'd see the movie.", en: "Vería la película. (\"she would see\")" },
           { es: "They'd been there before.", en: "Habían estado allí antes. (\"they had been\")" },
           { es: "They'd be there by six.", en: "Estarían allí a las seis. (\"they would be\")" },
         ],
@@ -1153,16 +1153,16 @@ export const EN_B2_U02: Lesson[] = [
         ],
         examples: [
           { es: "By the time I got home, everyone had gone to bed.", en: "Para cuando llegué a casa, todos se habían acostado." },
-          { es: "By the time we arrived, the film had started.", en: "Cuando llegamos, la película ya había empezado." },
+          { es: "By the time we arrived, the movie had started.", en: "Cuando llegamos, la película ya había empezado." },
           { es: "By the time she called, I had already left.", en: "Para cuando llamó, yo ya me había ido." },
           { es: "By the time the doctor came, the pain had gone.", en: "Para cuando vino el médico, el dolor ya se me había pasado." },
-          { es: "The shops had closed by the time we finished work.", en: "Las tiendas ya habían cerrado cuando terminamos de trabajar." },
+          { es: "The stores had closed by the time we finished work.", en: "Las tiendas ya habían cerrado cuando terminamos de trabajar." },
         ],
         checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English.",
-            sentence: "By the time we arrived, the film ___.",
+            sentence: "By the time we arrived, the movie ___.",
             answer: "had started",
             altAnswers: ["had already started", "had begun", "had already begun"],
             en: "Cuando llegamos, la película [ya había empezado].",
@@ -1332,9 +1332,9 @@ export const EN_B2_U02: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order.",
-        words: ["The", "shops", "had", "closed", "by", "the", "time", "we", "finished", "work."],
+        words: ["The", "stores", "had", "closed", "by", "the", "time", "we", "finished", "work."],
         translation: "Las tiendas ya habían cerrado cuando terminamos de trabajar.",
-        altOrders: [["By", "the", "time", "we", "finished", "work", "the", "shops", "had", "closed."]],
+        altOrders: [["By", "the", "time", "we", "finished", "work", "the", "stores", "had", "closed."]],
         explanation: "\"By the time\" can go first or second. The clause with \"by the time\" always takes the past simple.",
       },
       {

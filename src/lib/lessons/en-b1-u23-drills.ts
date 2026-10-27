@@ -418,12 +418,12 @@ export const EN_B1_U23_DRILLS: Lesson[] = [
       ),
       tr(
         "—¿Va a venir Pedro? —Creo que no.",
-        ["I don't think so.", "{Is Pedro coming|Is Pedro going to come|Will Pedro come}? {No, I|I} don't think so."],
-        "«Creo que no» = \"I don't think so\". Not *I think no and not *I think not (which is very formal).",
+        ["{Is Pedro coming|Is Pedro going to come|Will Pedro come}? {I|No, I} don't think so.", "I don't think so."],
+        "«Creo que no» = \"I don't think so\": English makes \"think\" negative. Not *I think no. (\"I think not\" exists, but it sounds very formal.)",
       ),
       tr(
         "—¿Va a llover el día de la boda? —Espero que no.",
-        ["I hope not.", "{Is it going to rain|Will it rain} on the wedding day? I hope not."],
+        ["{Is it going to rain|Will it rain} on the wedding day? I hope not.", "I hope not."],
         "«Espero que no» = \"I hope not\". Not *I don't hope so.",
       ),
       dc(

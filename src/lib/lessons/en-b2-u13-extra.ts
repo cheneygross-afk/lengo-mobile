@@ -214,7 +214,7 @@ export const EN_B2_U13_EXTRA: Lesson[] = [
         body: [
           "If \"who\", \"what\", \"which\" + noun or \"how many\" + noun is the SUBJECT (the one doing the action), the question keeps normal statement order and has no \"do / does / did\": \"Who called you?\" (someone called you), \"What happened?\", \"How many people came?\".",
           "If the question word is the OBJECT (the one receiving the action), you need the auxiliary as usual: \"Who did you call?\" (you called someone), \"What did she say?\".",
-          "Spanish marks the difference with «a»: «¿Quién te llamó?» vs «¿A quién llamaste?». Use that «a» as your clue: no «a» and the question word is the subject, so no \"did\". Typical errors: *Who did call you?, *What did happen?, and, the other way round, *Who you saw?",
+          "Spanish marks the difference with «a»: «¿Quién te llamó?» vs «¿A quién llamaste?». With «quién», use that «a» as your clue: no «a» means \"who\" is the subject, so no \"did\". With «qué», ask whether \"what\" did the action. Typical errors: *Who did call you?, *What did happen?, and, the other way round, *Who you saw?",
         ],
         examples: [
           { es: "Who called you?", en: "¿Quién te llamó? (incorrecto: *Who did call you?)" },
@@ -903,7 +903,7 @@ export const EN_B2_U13_EXTRA: Lesson[] = [
         sentence: "Lucia passed her driving test. ___? That's great news!",
         answer: "Did she",
         altAnswers: ["Really"],
-        en: "Lucia ha aprobado el examen de manejo. [¿En serio?] ¡Qué buena noticia!",
+        en: "Lucia aprobó el examen de manejo. [¿En serio?] ¡Qué buena noticia!",
         explanation: "\"Passed\" is past simple: reply with \"Did she?\".",
       },
       {

@@ -100,7 +100,7 @@ export const EN_B1_U28_DRILLS: Lesson[] = [
         "I studied all weekend, however I failed the test.",
         "I studied all weekend however, I failed the test.",
         "I studied all weekend however I failed the test.",
-      ], "Between two clauses, \"however\" needs a semicolon (or a full stop) before it and a comma after it. A comma alone is a common mistake."),
+      ], "Between two clauses, \"however\" needs a semicolon (or a period) before it and a comma after it. A comma alone is a common mistake."),
       wo("The room was small but very clean.", "La habitación era pequeña pero muy limpia.",
         "Between two adjectives, \"but\" needs no comma."),
       lc("It's a great city. It's a bit expensive, though.", [
@@ -132,7 +132,7 @@ export const EN_B1_U28_DRILLS: Lesson[] = [
       mc("Complete: \"He isn't shy. ___, he loves talking to strangers.\"", ["On the contrary", "On the other hand", "In the other hand", "Despite"],
         "\"On the contrary\" says the opposite of what came before is true. \"On the other hand\" would add a contrasting point, not deny the first one."),
       sp("Despite being tired, I couldn't sleep.", "\"Despite\" + -ing: \"being tired\".",
-        "Stress \"tired\" and \"sleep\".", "Say it in English: A pesar de estar cansado, no podía dormir."),
+        "Stress \"tired\" and \"sleep\".", "Say it in English: «A pesar de estar cansado, no podía dormir»"),
       fb("We canceled the picnic ___ the storm.", ["because of", "due to"], "Cancelamos el picnic [por] la tormenta.",
         "Before a noun (\"the storm\"), use \"because of\" or \"due to\". «Por» giving a reason is usually \"because of\"."),
       fb("I didn't go to the party ___ I had to work.", ["because", "as", "since"], "No fui a la fiesta [porque] tenía que trabajar.",
@@ -181,7 +181,7 @@ export const EN_B1_U28_DRILLS: Lesson[] = [
       dc("The rooms were tiny. The view, however, was amazing.",
         "\"However\" in the middle of a sentence always goes between two commas."),
       sp("I was exhausted, but I couldn't sleep because of the noise.", "\"But\" for the contrast, \"because of\" + noun for the reason.",
-        "Pause slightly after \"exhausted\".", "Say it in English: Estaba agotado, pero no pude dormir por el ruido."),
+        "Pause slightly after \"exhausted\".", "Say it in English: «Estaba agotado, pero no pude dormir por el ruido»"),
     ],
   ),
 
@@ -222,7 +222,7 @@ export const EN_B1_U28_DRILLS: Lesson[] = [
         "In the past, \"so that\" usually takes \"could\" (or \"would\"): \"so that he could call me\"."),
       tr("Paramos para tomar un café.", "We stopped {for a coffee|for coffee|to have a coffee|to get a coffee|to get coffee}.",
         "\"For\" + noun (\"for a coffee\") or \"to\" + verb (\"to have a coffee\"). Both are correct; *for have a coffee is not."),
-      wo("Write it down so that you don't forget it.", "Apúntalo para que no se te olvide.",
+      wo("Write it down so that you don't forget it.", "Anótalo para que no se te olvide.",
         "\"So that\" + subject + verb: \"so that you don't forget it\"."),
       fb("She plays the violin. She ___ sings in a choir.", "also", "Toca el violín. [También] canta en un coro.",
         "\"Also\" goes before the main verb: \"She also sings\". At the end you would use \"too\": \"She sings in a choir too\"."),
@@ -287,7 +287,7 @@ export const EN_B1_U28_DRILLS: Lesson[] = [
       tr("Después, fuimos a cenar a un restaurante.", "{After that|Afterwards|Then}, we went {to a restaurant for dinner|out for dinner|to have dinner at a restaurant|to eat at a restaurant}.",
         "«Después» alone is \"after that\" or \"afterwards\". *After, we went... is a common mistake."),
       sp("She told me she was exhausted.", "Reported speech: \"told\" + person, and the tense moves back (\"I'm\" becomes \"she was\"). Never *She said me.",
-        "Link \"told me\" smoothly.", "Say it in English: Me dijo que estaba agotada."),
+        "Link \"told me\" smoothly.", "Say it in English: «Me dijo que estaba agotada»"),
       // Traps: the whole unit
       tr("Ahorro todos los meses para que mis hijos puedan ir a la universidad.", "I save {|money} every month so {that |}my {kids|children} can go to {college|university}.",
         "«Para que» + another subject = \"so that\" + subject + \"can\". *For that my kids can go is the typical error. \"Go to college\" with no article: it's an institution."),
@@ -308,7 +308,7 @@ export const EN_B1_U28_DRILLS: Lesson[] = [
       dc("Despite the delay, we got there in time to see the start.",
         "\"Despite\" + noun, then \"to\" + verb for the purpose: \"in time to see\"."),
       sp("I am writing to apply for the position of sales assistant.", "The formal opening \"I am writing to\" + verb, with no contraction.",
-        "Say \"I am\" in full; it sounds more formal.", "Say it in English: Le escribo para solicitar el puesto de vendedor."),
+        "Say \"I am\" in full; it sounds more formal.", "Say it in English: «Le escribo para solicitar el puesto de vendedor»"),
     ],
   ),
 ];

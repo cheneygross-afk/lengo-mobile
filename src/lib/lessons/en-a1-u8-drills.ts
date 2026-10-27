@@ -767,7 +767,7 @@ export const EN_A1_U8_DRILLS: Lesson[] = [
       {
         type: "dictation",
         audio: "Let's meet at seven o'clock.",
-        explanation: "\"Let's\" + verbo base para quedar. \"O'clock\" para la hora en punto.",
+        explanation: "\"Let's\" + verbo base para proponer un plan. \"O'clock\" para la hora en punto.",
       },
       {
         type: "listen-choose",

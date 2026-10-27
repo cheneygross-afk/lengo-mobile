@@ -136,7 +136,7 @@ export const EN_A1_U3_EXTRA: Lesson[] = [
         source: "La tienda abre a las ocho.",
         answer: "The store opens at eight.",
         altAnswers: ["The shop opens at eight.", "The store opens at eight o'clock.", "The shop opens at eight o'clock."],
-        explanation: "\"The shop\" es \"it\": el verbo lleva -s, \"opens\".",
+        explanation: "\"The store\" es \"it\": el verbo lleva -s, \"opens\".",
       },
       {
         type: "translate",

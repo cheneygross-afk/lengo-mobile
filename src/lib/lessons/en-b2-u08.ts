@@ -2043,7 +2043,7 @@ export const EN_B2_U08: Lesson[] = [
     level: "EN-B2",
     number: 8,
     title: "Real Mission: Describe and Speculate",
-    summary: "Describe scenes in photos and speculate about what is happening and what has happened, as in the Cambridge B2 speaking test, with look, look like, seem to have and modals.",
+    summary: "Describe scenes in photos and speculate about what is happening and what has happened, as in the Cambridge First speaking test, with look, look like, seem to have and modals.",
     duration: "12 min",
     sections: [
       {
@@ -2697,7 +2697,7 @@ export const EN_B2_U08: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Seguro que lo pasaron genial.",
+        source: "Seguro que se la pasaron genial.",
         answer: "They must have had a great time.",
         altAnswers: [
           "I bet they had a great time.",

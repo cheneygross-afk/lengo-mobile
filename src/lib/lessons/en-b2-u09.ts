@@ -2304,7 +2304,7 @@ export const EN_B2_U09: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Si no fuera tan cabezota, me habría pedido perdón.",
+        source: "Si no fuera tan terco, me habría pedido perdón.",
         answer: "If he weren't so stubborn, he would have apologized to me.",
         altAnswers: [
           "If he wasn't so stubborn, he would have apologized to me.",

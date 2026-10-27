@@ -845,7 +845,7 @@ export const EN_B2_U14: Lesson[] = [
           { es: "I don't understand what you're saying.", en: "No entiendo lo que dices." },
           { es: "Tell me what happened.", en: "Cuéntame lo que pasó." },
           { es: "She did what she could.", en: "Hizo lo que pudo." },
-          { es: "I can't believe what he told me.", en: "No me puedo creer lo que me dijo." },
+          { es: "I can't believe what he told me.", en: "No puedo creer lo que me dijo." },
           { es: "Everything she said was true.", en: "Todo lo que dijo era verdad. (incorrecto: *Everything what she said)" },
         ],
         checkpoint: [
@@ -1052,7 +1052,7 @@ export const EN_B2_U14: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "No me puedo creer lo que me dijo.",
+        source: "No puedo creer lo que me dijo.",
         answer: "I can't believe what he told me.",
         altAnswers: ["I can't believe what she told me.", "I can't believe what he said to me.", "I can't believe what she said to me.", "I can't believe what he said.", "I can't believe what she said."],
         explanation: "«Lo que me dijo» is \"what he told me\". Remember: \"tell\" takes a person directly (\"told me\"), \"say\" needs \"to\" (\"said to me\").",
@@ -2708,7 +2708,7 @@ export const EN_B2_U14: Lesson[] = [
           "After we had read the reviews, we decided not to go.",
           "After having read the reviews, we decided not to go.",
         ],
-        explanation: "\"Having read\" or \"After reading\": the subject of both parts is \"we\". «Críticas» of a film or restaurant are \"reviews\", not \"critics\" (people).",
+        explanation: "\"Having read\" or \"After reading\": the subject of both parts is \"we\". «Críticas» of a movie or restaurant are \"reviews\", not \"critics\" (people).",
       },
       {
         type: "multiple-choice",

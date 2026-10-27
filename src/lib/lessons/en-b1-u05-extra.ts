@@ -400,8 +400,8 @@ export const EN_B1_U05_EXTRA: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "¿Qué hacemos con estas cajas?",
-        answer: "What shall we do with these boxes?",
-        altAnswers: ["What should we do with these boxes?", "What are we going to do with these boxes?", "What do we do with these boxes?"],
+        answer: "What should we do with these boxes?",
+        altAnswers: ["What shall we do with these boxes?", "What are we going to do with these boxes?", "What do we do with these boxes?"],
         explanation: "Asking for a decision together: \"What shall we do...?\" or \"What should we do...?\". (\"What do we do with these boxes?\" is also possible when you are asking for instructions.)",
       },
       {
@@ -487,7 +487,7 @@ export const EN_B1_U05_EXTRA: Lesson[] = [
       {
         heading: "Polite questions about plans",
         body: [
-          "\"Will you be using the car tonight?\" asks about someone's plans without pressure; it is softer than \"Are you going to use the car?\" and much softer than \"Will you lend me the car?\". You hear it in shops and hotels too: \"Will you be paying by card?\".",
+          "\"Will you be using the car tonight?\" asks about someone's plans without pressure; it is softer than \"Are you going to use the car?\" and much softer than \"Will you lend me the car?\". You hear it in stores and hotels too: \"Will you be paying by card?\".",
           "Compare: \"Will you help me?\" is a request; \"Will you be helping at the event?\" just asks what the person's plan is.",
         ],
         examples: [

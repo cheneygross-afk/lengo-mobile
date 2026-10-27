@@ -1309,9 +1309,9 @@ export const EN_B2_U10: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "El cuadro lo pintó una niña de diez años.",
-            answer: "The painting was painted by a ten-year-old girl.",
+            answer: "The picture was painted by a ten-year-old girl.",
             altAnswers: [
-              "The picture was painted by a ten-year-old girl.",
+              "The painting was painted by a ten-year-old girl.",
               "The painting was done by a ten-year-old girl.",
               "The picture was done by a ten-year-old girl.",
               "A ten-year-old girl painted the picture.",

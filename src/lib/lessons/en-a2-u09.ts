@@ -853,7 +853,7 @@ export const EN_A2_U09: Lesson[] = [
           { es: "I'll help you.", en: "Te ayudo." },
           { es: "That bag looks heavy. I'll carry it.", en: "Esa bolsa parece pesada. Yo la llevo." },
           { es: "Do you want me to help you?", en: "¿Quieres que te ayude?" },
-          { es: "Shall I open the window?", en: "¿Abro la ventana?" },
+          { es: "Should I open the window?", en: "¿Abro la ventana?" },
           { es: "I'll drive you to the airport.", en: "Te llevo al aeropuerto." },
         ],
         checkpoint: [
@@ -1151,7 +1151,7 @@ export const EN_A2_U09: Lesson[] = [
         question: "\"Why are you wearing your running shoes?\" \"Because ___ for a run.\"",
         options: ["I'm going to go", "I'll go", "I go", "I will to go"],
         correctIndex: 0,
-        explanation: "Ya lo tenías decidido (por eso te pusiste las zapatillas): \"going to\".",
+        explanation: "Ya lo tenías decidido (por eso te pusiste los tenis): \"going to\".",
       },
       {
         type: "translate",

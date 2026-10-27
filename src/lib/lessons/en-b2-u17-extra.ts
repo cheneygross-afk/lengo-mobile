@@ -1210,7 +1210,7 @@ export const EN_B2_U17_EXTRA: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "Since it was a holiday, most of the shops were closed.",
+        audio: "Since it was a holiday, most of the stores were closed.",
         explanation: "\"Since\" at the start gives a known reason («como», «ya que»). Here it does not mean time.",
       },
       {

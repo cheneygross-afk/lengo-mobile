@@ -87,7 +87,7 @@ export const EN_B1_UNIT_WRITING: Record<string, WriteExercise> = {
       "The present simple or continuous for their life now",
       "At least one future form (\"is going to\", \"will\", \"is starting\")",
     ],
-    "My aunt Ana is the person I admire most. She grew up on a farm, and when she was fifteen she was working in a shop after school to help her parents. Later she moved to the city and studied nursing.\n\nShe has worked in the same hospital for thirty years, and she has helped thousands of people. For the last two years she has been teaching young nurses, and she loves it. Now she lives in a small house with a garden and two dogs.\n\nNext year she's going to retire, but she won't stop. She's planning to volunteer for a charity in Africa. I think she'll be great at it.",
+    "My aunt Ana is the person I admire most. She grew up on a farm, and when she was fifteen she was working in a store after school to help her parents. Later she moved to the city and studied nursing.\n\nShe has worked in the same hospital for thirty years, and she has helped thousands of people. For the last two years she has been teaching young nurses, and she loves it. Now she lives in a small house with a garden and two dogs.\n\nNext year she's going to retire, but she won't stop. She's planning to volunteer for a charity in Africa. I think she'll be great at it.",
     "Choose the tense by the time you are talking about: finished past (\"she grew up\"), life up to now (\"she has worked there for thirty years\"), now (\"she lives\") and the future (\"she's going to retire\"). Don't use the present for a duration: not *she works there for thirty years."
   ),
   u08: t(
@@ -274,7 +274,7 @@ export const EN_B1_UNIT_WRITING: Record<string, WriteExercise> = {
       "Quantifiers: \"a few\", \"a little\", \"few\", \"little\", \"plenty of\" or \"hardly any\"",
       "\"so... that\" or \"such... that\" for a result",
     ],
-    "Last month we stayed at a hotel by the beach, and it was such a disappointment. The room was too small for three people, and there weren't enough towels. The walls were so thin that we could hear our neighbors all night.\n\nThe breakfast had very little choice: a few pieces of bread, a little cheese and hardly any fruit. Few guests seemed happy. The pool was nice, but it wasn't big enough for everyone, so it was always full.\n\nThe staff were very kind, and there were plenty of restaurants nearby. But for such a high price, I expected much more.",
+    "Last month we stayed at a hotel by the beach, and it was such a disappointment. The room was too small for three people, and there weren't enough towels. The walls were so thin that we could hear our neighbors all night.\n\nThe breakfast had very little choice: a few pieces of bread, a little cheese and hardly any fruit. Few guests seemed happy. The pool was nice, but it wasn't big enough for everyone, so it was always full.\n\nThe staff was very kind, and there were plenty of restaurants nearby. But for such a high price, I expected much more.",
     "\"enough\" goes after an adjective (\"big enough\") but before a noun (\"enough towels\"). Use \"so\" with adjectives (\"so thin\") and \"such a\" with nouns (\"such a disappointment\"), not *so disappointment."
   ),
   u25: t(
@@ -307,7 +307,7 @@ export const EN_B1_UNIT_WRITING: Record<string, WriteExercise> = {
       "Advanced comparisons (\"much bigger\", \"not as... as\", \"the more..., the more...\")",
       "At least two adverbs (\"quickly\", \"hard\", \"well\")",
     ],
-    "I've lived in two very different cities: Madrid and a small town in Ireland. Madrid is much bigger and far more exciting. There's always something interesting to do, and people stay out late. But it's not as relaxing as the town, and I was often tired after work.\n\nThe Irish town was quiet. I lived in a lovely old stone house near a beautiful green park. At first I was a bit bored, because the shops closed early. But the more time I spent there, the more I liked it. People spoke slowly and smiled a lot.\n\nIn the end, I prefer the town. My life there was simpler and much healthier.",
+    "I've lived in two very different cities: Madrid and a small town in Ireland. Madrid is much bigger and far more exciting. There's always something interesting to do, and people stay out late. But it's not as relaxing as the town, and I was often tired after work.\n\nThe Irish town was quiet. I lived in a lovely old stone house near a beautiful green park. At first I was a bit bored, because the stores closed early. But the more time I spent there, the more I liked it. People spoke slowly and smiled a lot.\n\nIn the end, I prefer the town. My life there was simpler and much healthier.",
     "\"bored\" describes how you feel and \"boring\" describes what causes the feeling: \"I was bored\", not *I was boring (unless you mean you were a dull person!). Opinion adjectives go before size, age, color and material: \"a lovely old stone house\"."
   ),
   u28: t(
@@ -329,7 +329,7 @@ export const EN_B1_UNIT_WRITING: Record<string, WriteExercise> = {
       "An indirect or tag question",
       "Correct use of uncountable nouns and articles (\"work\", \"information\", \"the office\")",
     ],
-    "Dear Editor,\n\nI'd like to share my opinion about working from home. Last year my company let us choose, and I decided to stay at home three days a week. I enjoy avoiding the traffic, and I have more time for my family.\n\nHowever, not everyone agrees. A colleague told me she felt lonely and that she missed the office. My manager said that communication had become harder, because people don't share information as easily.\n\nI think a mix is the best solution. But I wonder whether companies will really listen to their workers. That's the important question, isn't it?\n\nYours faithfully,\nAna Lopez",
+    "Dear Editor,\n\nI'd like to share my opinion about working from home. Last year my company let us choose, and I decided to stay at home three days a week. I enjoy avoiding the traffic, and I have more time for my family.\n\nHowever, not everyone agrees. A colleague told me she felt lonely and that she missed the office. My manager said that communication had become harder, because people don't share information as easily.\n\nI think a mix is the best solution. But I wonder whether companies will really listen to their workers. That's the important question, isn't it?\n\nSincerely,\nAna Lopez",
     "This task mixes the second half of the Independence level: reported speech moves the tense back (\"she felt lonely\"), \"let\" takes the base verb, and \"information\" is uncountable, so never *informations."
   ),
   u30: t(
@@ -341,7 +341,7 @@ export const EN_B1_UNIT_WRITING: Record<string, WriteExercise> = {
       "A polite closing and a suggested time or solution",
     ],
     "Hello Mrs. Wilson,\n\nI moved into the apartment on Monday, and I'm very happy with it. However, the heating hasn't worked since I arrived, and it's very cold at night. Could you send a plumber this week? I'm at home every afternoon after four.\n\nAlso, I paid the deposit by bank transfer last Friday. Would you mind checking that you have received it? My bank still hasn't sent my new card, so I can't pay the first month's rent by card yet, but I can transfer it.\n\nThank you for your help.\n\nBest wishes,\nDiego\n\nNote: call the bank tomorrow at nine. Ask when the card will arrive.",
-    "In real situations, be clear and polite: describe the problem (\"the heating hasn't worked since I arrived\"), make a request (\"Could you send...?\") and offer a time. Remember: \"assist\" is a false friend; to say «asistir» use \"attend\"."
+    "In real situations, be clear and polite: describe the problem (\"the heating hasn't worked since I arrived\"), make a request (\"Could you send...?\") and offer a time. Remember: \"since\" goes with a starting point (\"since Monday\") and \"for\" with a length of time (\"for three days\")."
   ),
   u31: t(
     "You bought a laptop online and it arrived broken. Write a complaint email to the customer service department. Explain the problem, say what you want and stay polite.",
@@ -351,7 +351,7 @@ export const EN_B1_UNIT_WRITING: Record<string, WriteExercise> = {
       "A polite but firm request (\"I would like a refund\", \"I would be grateful if...\")",
       "A formal closing (\"I look forward to hearing from you\")",
     ],
-    "Subject: Damaged laptop, order number 45821\n\nDear Sir or Madam,\n\nI am writing to complain about a laptop I ordered from your website on May 3rd. It arrived yesterday, but the screen was broken and the box was damaged. I have tried to turn it on several times, but it does not work.\n\nI have attached some photos of the damage. I would like a full refund or a replacement as soon as possible. I would be grateful if you could also arrange for someone to collect the broken laptop.\n\nI look forward to hearing from you.\n\nYours faithfully,\nSofia Martin",
+    "Subject: Damaged laptop, order number 45821\n\nDear Sir or Madam,\n\nI am writing to complain about a laptop I ordered from your website on May 3rd. It arrived yesterday, but the screen was broken and the box was damaged. I have tried to turn it on several times, but it does not work.\n\nI have attached some photos of the damage. I would like a full refund or a replacement as soon as possible. I would be grateful if you could also arrange for someone to collect the broken laptop.\n\nI look forward to hearing from you.\n\nSincerely,\nSofia Martin",
     "Formal emails avoid contractions and use soft but firm phrases: \"I would like...\", \"I would be grateful if you could...\". Remember: \"I look forward to hearing\" takes -ing, not *I look forward to hear."
   ),
   u32: t(
@@ -395,7 +395,7 @@ export const EN_B1_UNIT_WRITING: Record<string, WriteExercise> = {
       "A relative clause, a passive and reported speech",
       "Connectors of contrast and result (\"however\", \"although\", \"so\", \"as a result\")",
     ],
-    "The most important lesson I have learned is that asking for help is not a weakness.\n\nWhen I started university, I was living alone in a new city. I had always been a good student, so I didn't want anyone to know I was struggling. I was failing two subjects, but I didn't tell anyone. One day a teacher who had noticed my problems asked me to stay after class. She told me that many students felt the same way. I was given extra classes, and as a result I passed everything.\n\nIf she hadn't spoken to me, I would have left university. Although it was hard, I now ask for help when I need it, and I will always do so.",
+    "The most important lesson I have learned is that asking for help is not a weakness.\n\nWhen I started college, I was living alone in a new city. I had always been a good student, so I didn't want anyone to know I was struggling. I was failing two subjects, but I didn't tell anyone. One day a teacher who had noticed my problems asked me to stay after class. She told me that many students felt the same way. I was given extra classes, and as a result I passed everything.\n\nIf she hadn't spoken to me, I would have left university. Although it was hard, I now ask for help when I need it, and I will always do so.",
     "A good Independence essay combines structure and grammar: narrative tenses for the story (\"I was living\", \"I had always been\"), a third conditional for reflection and connectors to link ideas. Check every verb before you finish."
   ),
 };

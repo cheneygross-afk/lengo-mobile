@@ -393,14 +393,14 @@ export const EN_A2_U22: Lesson[] = [
       {
         heading: "Pedir, ofrecer y encadenar verbos",
         body: [
-          "Para pedir algo con educación se usa \"Can you...?\" o, más cortés, \"Could you...?\". Para ofrecer: \"Would you like...?\" («¿quieres...?», «¿te gustaría...?»), \"Shall I...?\" o \"I'll...\".",
+          "Para pedir algo con educación se usa \"Can you...?\" o, más cortés, \"Could you...?\". Para ofrecer: \"Would you like...?\" («¿quieres...?», «¿te gustaría...?»), \"Should I...?\" o \"I'll...\".",
           "Algunos verbos van seguidos de \"-ing\" (\"enjoy\", \"finish\", \"mind\", \"stop\") y otros de \"to\" (\"want\", \"need\", \"decide\", \"hope\", \"learn\"). Después de una preposición va siempre \"-ing\": \"I'm good at cooking\".",
           "«Quiero que vengas» no lleva \"that\" en inglés: es \"I want you to come\", con la estructura \"want\" + persona + \"to\" + verbo. *I want that you come es uno de los errores más típicos.",
         ],
         examples: [
           { es: "Could you open the window, please?", en: "¿Podrías abrir la ventana, por favor?" },
           { es: "Would you like some coffee?", en: "¿Quieres un café?" },
-          { es: "Shall I carry that for you?", en: "¿Quieres que te lleve eso?" },
+          { es: "Should I carry that for you?", en: "¿Quieres que te lleve eso?" },
           { es: "I enjoy reading in bed.", en: "Disfruto leyendo en la cama." },
           { es: "We decided to stay home.", en: "Decidimos quedarnos en casa." },
           { es: "My parents want me to study law.", en: "Mis padres quieren que estudie Derecho." },
@@ -1879,7 +1879,7 @@ export const EN_A2_U22: Lesson[] = [
               "Hello Ana. Are free on Saturday?",
             ],
             correctIndex: 0,
-            explanation: "En un mensaje a un amigo: saludo corto y pregunta directa. La segunda opción tiene errores (*for ask) y es demasiado formal; la tercera es de carta oficial; a la cuarta le falta el sujeto \"you\".",
+            explanation: "En un mensaje a un amigo: saludo corto y pregunta directa. \"Dear friend, I write to you for ask...\" tiene errores (*for ask) y es demasiado formal; \"Dear Ana, I am writing to inform you...\" es de carta oficial; a \"Hello Ana. Are free...?\" le falta el sujeto \"you\".",
           },
         ],
       },

@@ -728,14 +728,14 @@ export const EN_A1_U7: Lesson[] = [
       {
         heading: "¿Hay...? No hay...",
         body: [
-          "Para preguntar se invierte el orden: \"Is there a bank near here?\", \"Are there any shops?\". Las respuestas cortas son \"Yes, there is\", \"No, there isn't\", \"Yes, there are\" y \"No, there aren't\".",
+          "Para preguntar se invierte el orden: \"Is there a bank near here?\", \"Are there any stores?\". Las respuestas cortas son \"Yes, there is\", \"No, there isn't\", \"Yes, there are\" y \"No, there aren't\".",
           "La negativa es \"there isn't\" y \"there aren't\". Con plurales, en negativas y preguntas se suele añadir \"any\": \"There aren't any chairs\" (no hay sillas). También se puede decir \"There are no chairs\".",
           "Para preguntar cuántos hay: \"How many... are there?\": \"How many students are there?\".",
         ],
         examples: [
           { es: "Is there a bank near here?", en: "¿Hay un banco cerca de aquí?" },
           { es: "Yes, there is.", en: "Sí, hay." },
-          { es: "Are there any shops?", en: "¿Hay tiendas?" },
+          { es: "Are there any stores?", en: "¿Hay tiendas?" },
           { es: "No, there aren't.", en: "No, no hay." },
           { es: "There isn't a hospital in my town.", en: "No hay hospital en mi pueblo." },
           { es: "How many students are there?", en: "¿Cuántos estudiantes hay?" },

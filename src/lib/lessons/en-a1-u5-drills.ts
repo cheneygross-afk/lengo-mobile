@@ -1539,7 +1539,7 @@ export const EN_A1_U5_DRILLS: Lesson[] = [
         answer: "fifth",
         altAnswers: ["5th"],
         en: "Nuestra oficina está en el [quinto] piso.",
-        explanation: "\"Fifth\" viene de \"five\", pero cambia la v por f: «fifz».",
+        explanation: "\"Fifth\" viene de \"five\", pero cambia la v por f y termina en \"th\", con la lengua entre los dientes.",
       },
       {
         type: "matching",

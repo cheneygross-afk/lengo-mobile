@@ -525,9 +525,9 @@ export const EN_B2_U22_EXTRA: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Cada vez hay más turistas y menos tiendas de barrio.",
-        answer: "There are more and more tourists and fewer and fewer local shops.",
+        answer: "There are more and more tourists and fewer and fewer local stores.",
         altAnswers: [
-          "There are more and more tourists and fewer and fewer local stores.",
+          "There are more and more tourists and fewer and fewer local shops.",
           "There are more and more tourists and fewer and fewer neighborhood shops.",
           "There are more and more tourists and fewer and fewer neighborhood stores.",
         ],

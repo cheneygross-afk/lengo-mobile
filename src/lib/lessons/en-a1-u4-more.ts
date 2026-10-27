@@ -222,6 +222,7 @@ export const EN_A1_U4_MORE: Lesson[] = [
       {
         heading: "En esta foto...",
         body: [
+          "Para decir «hay» se usa \"there is\" (singular) y \"there are\" (plural): \"There is a man\", \"There are two dogs\". Aquí los usarás para describir; los estudiarás a fondo más adelante en este nivel.",
           "Para describir una foto o una escena se usa el presente continuo, porque hablas de lo que está pasando en la imagen. Se suele empezar con \"In this photo\" o \"In this picture\" (en esta foto).",
           "Primero dices qué hay con \"there is\" (singular) o \"there are\" (plural), y luego qué hace cada persona: \"There is a woman in the kitchen. She is cooking.\" No olvides el sujeto: «Está cocinando» es \"She is cooking\", nunca *Is cooking.",
           "Para decir dónde: \"on the left\" (a la izquierda), \"on the right\" (a la derecha), \"in the middle\" (en el centro).",
@@ -255,16 +256,16 @@ export const EN_A1_U4_MORE: Lesson[] = [
         ],
       },
       {
-        heading: "Sentado, de pie, tumbado",
+        heading: "Sentado, de pie, acostado",
         body: [
-          "En español decimos «está sentado», «está de pie» o «está tumbado» (o «acostado»). En inglés estas posturas se dicen con el continuo: \"He is sitting\", \"She is standing\", \"They are lying on the grass\".",
+          "En español decimos «está sentado», «está de pie» o «está acostado» (o «tumbado»). En inglés estas posturas se dicen con el continuo: \"He is sitting\", \"She is standing\", \"They are lying on the grass\".",
           "Un error frecuente es traducir palabra por palabra: \"He is sat\". Eso solo se oye en el inglés británico coloquial, y \"He is seated\" es muy formal. Lo normal es \"He is sitting\".",
           "\"Lie\" (estar tumbado) y \"lie\" (mentir) se escriben igual y las dos hacen \"lying\". El contexto lo aclara: \"She is lying on the sofa\".",
         ],
         examples: [
           { es: "A woman is sitting on a bench.", en: "Una mujer está sentada en un banco." },
           { es: "Two men are standing at the door.", en: "Dos hombres están de pie en la puerta." },
-          { es: "The cat is lying on the bed.", en: "El gato está tumbado en la cama." },
+          { es: "The cat is lying on the bed.", en: "El gato está acostado en la cama." },
           { es: "We are sitting at the table.", en: "Estamos sentados a la mesa." },
           { es: "Everybody is standing.", en: "Todos están de pie." },
         ],
@@ -284,8 +285,8 @@ export const EN_A1_U4_MORE: Lesson[] = [
             sentence: "My grandfather ___ on the sofa.",
             answer: "is lying",
             altAnswers: ["is lying down"],
-            en: "Mi abuelo [está tumbado] en el sofá.",
-            explanation: "«Estar tumbado» es \"be lying\". \"Lie\" cambia \"-ie\" por \"-y\": \"lying\".",
+            en: "Mi abuelo [está acostado] en el sofá.",
+            explanation: "«Estar acostado» es \"be lying\". \"Lie\" cambia \"-ie\" por \"-y\": \"lying\".",
           },
         ],
       },
@@ -366,7 +367,7 @@ export const EN_A1_U4_MORE: Lesson[] = [
         pairs: [
           { left: "sitting", right: "sentado" },
           { left: "standing", right: "de pie" },
-          { left: "lying", right: "tumbado" },
+          { left: "lying", right: "acostado" },
           { left: "walking", right: "caminando" },
         ],
         explanation: "El español usa participios («sentado», «tumbado»), pero el inglés usa \"-ing\": \"sitting\", \"lying\".",
@@ -550,7 +551,7 @@ export const EN_A1_U4_MORE: Lesson[] = [
         heading: "Have: tener o hacer algo",
         body: [
           "\"Have\" con el sentido de tener (cosas, familia, rasgos) va en presente simple: \"I have two sisters\", \"She has long hair\". *I'm having a car es incorrecto.",
-          "Pero \"have\" también forma expresiones de acción, y esas sí van en continuo: \"have breakfast\" (desayunar), \"have dinner\" (cenar), \"have a shower\" (ducharse), \"have a good time\" (pasarlo bien).",
+          "Pero \"have\" también forma expresiones de acción, y esas sí van en continuo: \"have breakfast\" (desayunar), \"have dinner\" (cenar), \"have a shower\" (ducharse), \"have a good time\" (pasarla bien).",
           "En inglés británico se oye mucho \"have got\" para tener: \"I've got two sisters\" significa lo mismo que \"I have two sisters\".",
         ],
         examples: [
@@ -558,7 +559,7 @@ export const EN_A1_U4_MORE: Lesson[] = [
           { es: "She has long hair.", en: "Ella tiene el pelo largo." },
           { es: "Do you have a pen?", en: "¿Tienes un bolígrafo?" },
           { es: "We're having breakfast.", en: "Estamos desayunando." },
-          { es: "They're having a great time.", en: "Lo están pasando genial." },
+          { es: "They're having a great time.", en: "La están pasando genial." },
         ],
         checkpoint: [
           {
@@ -700,14 +701,14 @@ export const EN_A1_U4_MORE: Lesson[] = [
         heading: "La ropa básica",
         body: [
           "\"Clothes\" (ropa) es siempre plural y no tiene singular: \"My clothes are wet\". Se pronuncia en una sola sílaba, casi como el verbo \"close\" (cerrar).",
-          "Algunas prendas: \"shirt\" (camisa), \"T-shirt\" (camiseta), \"sweater\" (suéter, jersey), \"dress\" (vestido), \"skirt\" (falda), \"jacket\" (chaqueta), \"coat\" (abrigo), \"hat\" (sombrero, gorro), \"shoes\" (zapatos) y \"sneakers\" (zapatillas deportivas o tenis; en Reino Unido, \"trainers\").",
+          "Algunas prendas: \"shirt\" (camisa), \"T-shirt\" (camiseta), \"sweater\" (suéter, jersey), \"dress\" (vestido), \"skirt\" (falda), \"jacket\" (chaqueta), \"coat\" (abrigo), \"hat\" (sombrero, gorro), \"shoes\" (zapatos) y \"sneakers\" (tenis o zapatillas deportivas; en Reino Unido, \"trainers\").",
           "El color va delante del nombre y nunca lleva plural: \"a red dress\", \"black shoes\". *A dress red o *blacks shoes son errores típicos.",
           "Falsos amigos: \"carpet\" no es carpeta (es alfombra), y \"robe\" no es ropa (es una bata).",
         ],
         examples: [
           { es: "I need a new coat.", en: "Necesito un abrigo nuevo." },
           { es: "She has a blue dress.", en: "Ella tiene un vestido azul." },
-          { es: "These are my new sneakers.", en: "Estas son mis zapatillas nuevas." },
+          { es: "These are my new sneakers.", en: "Estos son mis tenis nuevos." },
           { es: "My clothes are on the bed.", en: "Mi ropa está en la cama." },
           { es: "I like your black jacket.", en: "Me gusta tu chaqueta negra." },
           { es: "He has a white shirt and a gray sweater.", en: "Él tiene una camisa blanca y un suéter gris." },
@@ -742,7 +743,7 @@ export const EN_A1_U4_MORE: Lesson[] = [
           { es: "My jeans are new.", en: "Mis jeans son nuevos." },
           { es: "Where are my glasses?", en: "¿Dónde están mis lentes?" },
           { es: "I need a pair of black pants.", en: "Necesito unos pantalones negros." },
-          { es: "She has three pairs of sneakers.", en: "Ella tiene tres pares de zapatillas." },
+          { es: "She has three pairs of sneakers.", en: "Ella tiene tres pares de tenis." },
           { es: "These shorts are too big.", en: "Estos pantalones cortos son demasiado grandes." },
         ],
         checkpoint: [
@@ -887,7 +888,7 @@ export const EN_A1_U4_MORE: Lesson[] = [
         type: "word-order",
         prompt: "Ordena las palabras.",
         words: ["My", "new", "sneakers", "are", "very", "comfortable."],
-        translation: "Mis zapatillas nuevas son muy cómodas.",
+        translation: "Mis tenis nuevos son muy cómodos.",
         explanation: "El adjetivo \"new\" va delante del nombre, y \"sneakers\" va con \"are\".",
       },
       {

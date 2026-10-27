@@ -97,7 +97,7 @@ export const EN_B2_U11: Lesson[] = [
           { es: "The house is said to have belonged to a famous writer.", en: "Se dice que la casa perteneció a un escritor famoso." },
           { es: "The fire is thought to have started in the kitchen.", en: "Se cree que el incendio empezó en la cocina." },
           { es: "He was believed to have died in the war.", en: "Se creía que había muerto en la guerra." },
-          { es: "Three people are reported to have been injured.", en: "Se informa de que tres personas han resultado heridas." },
+          { es: "Three people are reported to have been injured.", en: "Se informa que tres personas han resultado heridas." },
         ],
         checkpoint: [
           {
@@ -270,7 +270,7 @@ export const EN_B2_U11: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Se informa de que dos personas han resultado heridas.",
+        source: "Se informa que dos personas han resultado heridas.",
         answer: "Two people are reported to have been injured.",
         altAnswers: [
           "It is reported that two people have been injured.",
@@ -910,7 +910,7 @@ export const EN_B2_U11: Lesson[] = [
           { es: "He is said to have lied to the police.", en: "Se dice que mintió a la policía." },
           { es: "The painting is believed to have been stolen in 1990.", en: "Se cree que el cuadro fue robado en 1990." },
           { es: "The factory is expected to close next year.", en: "Se espera que la fábrica cierre el año que viene." },
-          { es: "The ship is reported to have sunk near the coast.", en: "Se informa de que el barco se hundió cerca de la costa." },
+          { es: "The ship is reported to have sunk near the coast.", en: "Se informa que el barco se hundió cerca de la costa." },
         ],
         checkpoint: [
           {
@@ -1217,7 +1217,7 @@ export const EN_B2_U11: Lesson[] = [
           { es: "I had my car serviced yesterday.", en: "Ayer me revisaron el carro." },
           { es: "I've had my car serviced.", en: "Ya me han revisado el carro." },
           { es: "I've gotten my car serviced.", en: "Ya me han revisado el carro. (inglés americano)" },
-          { es: "We'll have the documents translated.", en: "Mandaremos traducir los documentos." },
+          { es: "We'll have the documents translated.", en: "Mandaremos a traducir los documentos." },
         ],
         checkpoint: [
           {
@@ -1609,7 +1609,7 @@ export const EN_B2_U11: Lesson[] = [
           "Gives a price or time with \"it costs\" or \"it takes\"",
           "Friendly, informal tone",
         ],
-        modelAnswer: "Hi Diego! Welcome to the neighborhood. If you need to get your hair cut, try the barber on Pine Street. It costs about $20. You can get your phone fixed at the little shop next to the bank; they do it while you wait. And do you need to get keys copied for your roommate? The hardware store does it in five minutes.",
+        modelAnswer: "Hi Diego! Welcome to the neighborhood. If you need to get your hair cut, try the barber on Pine Street. It costs about $20. You can get your phone fixed at the little store next to the bank; they do it while you wait. And do you need to get keys copied for your roommate? The hardware store does it in five minutes.",
         explanation: "Notice how \"get\" + object + participle is the natural way to talk about services in conversation.",
       },
     ],
@@ -1633,7 +1633,7 @@ export const EN_B2_U11: Lesson[] = [
           { es: "We're going to pack the books ourselves.", en: "Los libros los vamos a empaquetar nosotros." },
           { es: "We're having the furniture delivered on Saturday.", en: "El sábado nos traen los muebles." },
           { es: "We're going to get the walls painted.", en: "Vamos a mandar a pintar las paredes." },
-          { es: "OK, I'll get the carpets cleaned too.", en: "Está bien, también mandaré limpiar las alfombras." },
+          { es: "OK, I'll get the carpets cleaned too.", en: "Está bien, también mandaré a limpiar las alfombras." },
           { es: "We'll paint the kitchen ourselves to save money.", en: "La cocina la pintaremos nosotros para ahorrar dinero." },
         ],
         checkpoint: [
@@ -2191,10 +2191,10 @@ export const EN_B2_U11: Lesson[] = [
         ],
         examples: [
           { es: "The old factory has been turned into apartments.", en: "Han convertido la antigua fábrica en departamentos." },
-          { es: "The main square has been pedestrianized.", en: "Se ha peatonalizado la plaza mayor." },
+          { es: "The main square has been pedestrianized.", en: "Se ha peatonalizado la plaza principal." },
           { es: "Several bike lanes have been added.", en: "Se han agregado varias ciclovías." },
           { es: "The station is being renovated.", en: "Están renovando la estación." },
-          { es: "A lot of old shops have been replaced by cafes.", en: "Muchas tiendas antiguas han sido sustituidas por cafeterías." },
+          { es: "A lot of old stores have been replaced by cafes.", en: "Muchas tiendas antiguas han sido sustituidas por cafeterías." },
         ],
         checkpoint: [
           {
@@ -2223,14 +2223,14 @@ export const EN_B2_U11: Lesson[] = [
         body: [
           "To tell the story of a neighborhood, combine narrative tenses: \"When I was growing up, the river was polluted. The docks had been closed for years, and nobody went there at night\".",
           "The past perfect passive shows what had happened before the time you are describing: \"By the 1990s, most of the factories had been abandoned\". The past continuous passive describes work in progress at a past moment: \"When we moved in, the street was being dug up\".",
-          "Remember \"used to\" for past habits and states: \"There used to be a cinema here\". Not *Here was a cinema before or *Before there was a cinema with no time reference.",
+          "Remember \"used to\" for past habits and states: \"There used to be a movie theater here\". Not *Here was a movie theater before or *Before there was a movie theater with no time reference.",
         ],
         examples: [
           { es: "When I was growing up, the river was polluted.", en: "Cuando yo era pequeño, el río estaba contaminado." },
           { es: "The docks had been closed for years.", en: "Los muelles llevaban años cerrados." },
           { es: "By the 1990s, most of the factories had been abandoned.", en: "Para los años noventa, la mayoría de las fábricas habían sido abandonadas." },
           { es: "When we moved in, the street was being dug up.", en: "Cuando nos mudamos, estaban levantando la calle." },
-          { es: "There used to be a cinema on this corner.", en: "Antes había un cine en esta esquina." },
+          { es: "There used to be a movie theater on this corner.", en: "Antes había un cine en esta esquina." },
         ],
         checkpoint: [
           {
@@ -2347,10 +2347,10 @@ export const EN_B2_U11: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Muchas tiendas pequeñas han sido sustituidas por cadenas.",
-        answer: "Many small shops have been replaced by chains.",
+        answer: "Many small stores have been replaced by chains.",
         altAnswers: [
           "A lot of small shops have been replaced by chains.",
-          "Many small stores have been replaced by chains.",
+          "Many small shops have been replaced by chains.",
           "A lot of small stores have been replaced by chains.",
           "Many small shops have been replaced by chain stores.",
           "Many small stores have been replaced by chain stores.",

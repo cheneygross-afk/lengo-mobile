@@ -974,7 +974,7 @@ export const EN_B2_U18: Lesson[] = [
           "\"Such\" means «este tipo de» or «tal»: \"such a decision\", \"such measures\". Note the word order: \"such a\" + singular noun (\"such a policy\"), never *a such policy (from «una tal política»).",
         ],
         examples: [
-          { es: "The city banned cars from the center. This decision angered many shop owners.", en: "La ciudad prohibió los carros en el centro. Esta decisión enojó a muchos comerciantes." },
+          { es: "The city banned cars from the center. This decision angered many store owners.", en: "La ciudad prohibió los carros en el centro. Esta decisión enojó a muchos comerciantes." },
           { es: "Rents have doubled in five years. This situation is forcing young people to leave.", en: "Los alquileres se han duplicado en cinco años. Esta situación está obligando a los jóvenes a irse." },
           { es: "The school introduced shorter classes and more breaks. These changes were popular.", en: "El colegio introdujo clases más cortas y más descansos. Estos cambios tuvieron buena acogida." },
           { es: "Such measures are expensive.", en: "Medidas de este tipo son caras." },
@@ -984,7 +984,7 @@ export const EN_B2_U18: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English.",
-            sentence: "Many shops closed last year. ___ affected the whole neighborhood.",
+            sentence: "Many stores closed last year. ___ affected the whole neighborhood.",
             answer: "This situation",
             altAnswers: ["This", "This problem", "This change"],
             en: "Muchas tiendas cerraron el año pasado. [Esta situación] afectó a todo el barrio.",
@@ -1207,7 +1207,7 @@ export const EN_B2_U18: Lesson[] = [
     level: "EN-B2",
     number: 5,
     title: "Writing a Review",
-    summary: "Review films, books and restaurants with precise evaluative adjectives (gripping, overrated, disappointing), recommend with \"I'd highly recommend...\" and \"It's well worth...\", and criticize in a balanced way.",
+    summary: "Review movies, books and restaurants with precise evaluative adjectives (gripping, overrated, disappointing), recommend with \"I'd highly recommend...\" and \"It's well worth...\", and criticize in a balanced way.",
     duration: "12 min",
     sections: [
       {
@@ -1215,14 +1215,14 @@ export const EN_B2_U18: Lesson[] = [
         body: [
           "A review informs and evaluates. A typical structure: a catchy opening or title, a brief description (what it is, who is in it, where it is), your evaluation of the strong and weak points, and a recommendation.",
           "Reviews are semi-formal: they can use contractions, direct questions to the reader (\"Looking for a feel-good movie?\") and lively vocabulary. The key is precise adjectives instead of \"good\", \"bad\" and \"nice\".",
-          "Watch out for a false friend: the story of a film or book is the \"plot\", not the \"argument\" («argumento»). An \"argument\" is a reason in a debate or a fight between people. And the \"performance\" of an actor is «actuación».",
+          "Watch out for a false friend: the story of a movie or book is the \"plot\", not the \"argument\" («argumento»). An \"argument\" is a reason in a debate or a fight between people. And the \"performance\" of an actor is «actuación».",
         ],
         examples: [
           { es: "The plot is simple but very moving.", en: "El argumento es sencillo pero muy conmovedor. (incorrecto: *The argument)" },
-          { es: "The film stars Emma Stone as a young musician.", en: "La película está protagonizada por Emma Stone en el papel de una joven música." },
+          { es: "The movie stars Emma Stone as a young musician.", en: "La película está protagonizada por Emma Stone en el papel de una joven música." },
           { es: "The novel is set in New York in the 1920s.", en: "La novela está ambientada en Nueva York en los años veinte." },
           { es: "The lead actor gives an outstanding performance.", en: "El protagonista hace una actuación excepcional." },
-          { es: "Looking for a quiet place to have dinner?", en: "¿Buscas un sitio tranquilo para cenar?" },
+          { es: "Looking for a quiet place to have dinner?", en: "¿Buscas un lugar tranquilo para cenar?" },
         ],
         checkpoint: [
           {
@@ -1248,7 +1248,7 @@ export const EN_B2_U18: Lesson[] = [
         body: [
           "Positive: \"gripping\" (it holds your attention: «trepidante», «absorbente»), \"moving\" (emotional), \"hilarious\" (very funny), \"breathtaking\" (visually stunning), \"thought-provoking\" (makes you think), \"well-written\", \"mouth-watering\" (food).",
           "Negative: \"disappointing\", \"predictable\", \"far-fetched\" (hard to believe), \"slow-paced\", \"overrated\" (less good than people say), \"bland\" (food with no flavor), \"overpriced\".",
-          "Be careful with -ed and -ing adjectives: the film is \"disappointing\" or \"boring\"; you are \"disappointed\" or \"bored\". \"I was very boring in the film\" means that YOU were the dull one. And \"sensible\" means «sensato»; «sensible» is \"sensitive\".",
+          "Be careful with -ed and -ing adjectives: the movie is \"disappointing\" or \"boring\"; you are \"disappointed\" or \"bored\". \"I was very boring in the film\" means that YOU were the dull one. And \"sensible\" means «sensato»; «sensible» is \"sensitive\".",
         ],
         examples: [
           { es: "It's a gripping thriller from start to finish.", en: "Es un thriller trepidante de principio a fin." },
@@ -1272,10 +1272,10 @@ export const EN_B2_U18: Lesson[] = [
             type: "multiple-choice",
             question: "Which sentence is correct?",
             options: [
-              "I was bored because the film was so slow.",
-              "I was boring because the film was so slow.",
-              "I was bored because the film was so slowly.",
-              "I was boring because the film was so bored.",
+              "I was bored because the movie was so slow.",
+              "I was boring because the movie was so slow.",
+              "I was bored because the movie was so slowly.",
+              "I was boring because the movie was so bored.",
             ],
             correctIndex: 0,
             explanation: "People feel \"bored\" (-ed); things are \"boring\" (-ing). \"Slow\" is the adjective after \"was\".",
@@ -1303,9 +1303,9 @@ export const EN_B2_U18: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "Vale la pena leer el libro antes de ver la película.",
-            answer: "It's worth reading the book before seeing the film.",
+            answer: "It's worth reading the book before seeing the movie.",
             altAnswers: [
-              "It's worth reading the book before seeing the movie.",
+              "It's worth reading the book before seeing the film.",
               "It's worth reading the book before you see the film.",
               "It's worth reading the book before you see the movie.",
               "It's worth reading the book before watching the film.",
@@ -1351,7 +1351,7 @@ export const EN_B2_U18: Lesson[] = [
         examples: [
           { es: "The only drawback is the noise.", en: "El único inconveniente es el ruido." },
           { es: "Although the service was slow, the food was excellent.", en: "Aunque el servicio fue lento, la comida era excelente." },
-          { es: "Despite its slow start, the film becomes really gripping.", en: "A pesar de su comienzo lento, la película se vuelve realmente trepidante." },
+          { es: "Despite its slow start, the movie becomes really gripping.", en: "A pesar de su comienzo lento, la película se vuelve realmente trepidante." },
           { es: "If I had to find fault, it would be the length.", en: "Si tuviera que ponerle un pero, sería la duración." },
           { es: "The ending is somewhat predictable.", en: "El final es algo predecible." },
         ],
@@ -1430,7 +1430,7 @@ export const EN_B2_U18: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence about a film is correct?",
+        question: "Which sentence about a movie is correct?",
         options: [
           "The plot is predictable, but the acting is superb.",
           "The argument is predictable, but the acting is superb.",
@@ -1445,9 +1445,9 @@ export const EN_B2_U18: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Aunque el final es algo predecible, la película vale la pena.",
-        answer: "Although the ending is somewhat predictable, the film is worth seeing.",
+        answer: "Although the ending is somewhat predictable, the movie is worth seeing.",
         altAnswers: [
-          "Although the ending is somewhat predictable, the movie is worth seeing.",
+          "Although the ending is somewhat predictable, the film is worth seeing.",
           "Although the ending is somewhat predictable, the film is worth watching.",
           "Although the ending is somewhat predictable, the movie is worth watching.",
           "Although the ending is a little predictable, the film is worth seeing.",
@@ -1506,12 +1506,12 @@ export const EN_B2_U18: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "Despite its flaws, the film is well worth seeing.",
+        audio: "Despite its flaws, the movie is well worth seeing.",
         explanation: "\"Despite\" + noun phrase, then \"well worth\" + -ing: two key structures for a balanced review.",
       },
       {
         type: "write",
-        prompt: "Write a short review (70–100 words) of a restaurant, film or book you know. Describe it briefly, give one strength and one weakness, and make a recommendation.",
+        prompt: "Write a short review (70–100 words) of a restaurant, movie or book you know. Describe it briefly, give one strength and one weakness, and make a recommendation.",
         minWords: 70,
         maxWords: 100,
         rubric: [
@@ -1521,7 +1521,7 @@ export const EN_B2_U18: Lesson[] = [
           "Ends with a recommendation (\"I'd highly recommend...\", \"It's well worth...\")",
           "No \"worth to\" or \"I recommend you to\"",
         ],
-        modelAnswer: "Last weekend I finally watched \"Past Lives\", a quiet drama about two childhood friends who meet again in New York after more than twenty years. The performances are outstanding, and the final scene is one of the most moving I have seen in years. The only drawback is that the first half is somewhat slow, so it may not suit viewers who want action. Despite this, the film is beautifully written and thought-provoking. I'd highly recommend it to anyone who enjoys romantic stories without a predictable happy ending.",
+        modelAnswer: "Last weekend I finally watched \"Past Lives\", a quiet drama about two childhood friends who meet again in New York after more than twenty years. The performances are outstanding, and the final scene is one of the most moving I have seen in years. The only drawback is that the first half is somewhat slow, so it may not suit viewers who want action. Despite this, the movie is beautifully written and thought-provoking. I'd highly recommend it to anyone who enjoys romantic stories without a predictable happy ending.",
         explanation: "A good review combines description, evaluation with precise adjectives, balanced criticism and a clear recommendation.",
       },
     ],
@@ -2853,10 +2853,10 @@ export const EN_B2_U18: Lesson[] = [
             type: "multiple-choice",
             question: "Which sentence is correctly punctuated?",
             options: [
-              "Sales fell; therefore, the shop closed.",
-              "Sales fell, therefore, the shop closed.",
-              "Sales fell, therefore the shop closed.",
-              "Sales fell therefore, the shop closed.",
+              "Sales fell; therefore, the store closed.",
+              "Sales fell, therefore, the store closed.",
+              "Sales fell, therefore the store closed.",
+              "Sales fell therefore, the store closed.",
             ],
             correctIndex: 0,
             explanation: "\"Therefore\" joins two clauses only after a semicolon (or starts a new sentence), with a comma after it.",
@@ -3092,7 +3092,7 @@ export const EN_B2_U18: Lesson[] = [
         ],
         examples: [
           { es: "Whereas my brother loves cities, I prefer the countryside.", en: "Mientras que a mi hermano le encantan las ciudades, yo prefiero el campo." },
-          { es: "Even though it was late, the shop was still open.", en: "Aunque era tarde, la tienda seguía abierta." },
+          { es: "Even though it was late, the store was still open.", en: "Aunque era tarde, la tienda seguía abierta." },
           { es: "In spite of the cost, the project was approved.", en: "A pesar del costo, el proyecto se aprobó." },
         ],
       },
@@ -3103,10 +3103,10 @@ export const EN_B2_U18: Lesson[] = [
           "Result: \"so\" (inside the sentence), \"Therefore,\", \"Consequently,\", \"As a result,\" (new sentence), and \"so\" + adjective + \"that\" / \"such a\" + adjective + noun + \"that\".",
         ],
         examples: [
-          { es: "I left early so as not to miss the train.", en: "Salí pronto para no perder el tren." },
+          { es: "I left early so as not to miss the train.", en: "Salí temprano para no perder el tren." },
           { es: "She saved money so that she could travel.", en: "Ahorró dinero para poder viajar." },
-          { es: "The film was so long that I fell asleep.", en: "La película era tan larga que me quedé dormido." },
-          { es: "It was such a long film that I fell asleep.", en: "Era una película tan larga que me quedé dormido." },
+          { es: "The movie was so long that I fell asleep.", en: "La película era tan larga que me quedé dormido." },
+          { es: "It was such a long movie that I fell asleep.", en: "Era una película tan larga que me quedé dormido." },
         ],
       },
       {

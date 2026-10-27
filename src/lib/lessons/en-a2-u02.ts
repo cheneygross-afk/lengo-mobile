@@ -1739,7 +1739,7 @@ export const EN_A2_U02: Lesson[] = [
           { es: "I walked to work yesterday.", en: "Ayer fui caminando al trabajo." },
           { es: "She works in a bank.", en: "Trabaja en un banco." },
           { es: "She's working from home today.", en: "Hoy está trabajando desde casa." },
-          { es: "She worked in a shop two years ago.", en: "Hace dos años trabajaba en una tienda." },
+          { es: "She worked in a store two years ago.", en: "Hace dos años trabajaba en una tienda." },
         ],
         checkpoint: [
           {

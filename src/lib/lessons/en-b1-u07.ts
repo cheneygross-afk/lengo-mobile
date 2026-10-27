@@ -57,7 +57,7 @@ export const EN_B1_U07: Lesson[] = [
           { es: "We moved to Lima two years ago.", en: "Nos mudamos a Lima hace dos años." },
           { es: "I saw Ana this morning.", en: "Esta mañana vi a Ana (dicho por la tarde)." },
           { es: "Have you ever been to Mexico? Yes, I went there in 2019.", en: "¿Has estado alguna vez en México? Sí, fui en 2019." },
-          { es: "When did you arrive?", en: "¿Cuándo llegaste? / ¿Cuándo has llegado?" },
+          { es: "When did you arrive?", en: "¿Cuándo llegaste?" },
         ],
         checkpoint: [
           {
@@ -81,13 +81,13 @@ export const EN_B1_U07: Lesson[] = [
         heading: "Telling a story: three pasts",
         body: [
           "In a story, the past simple tells the main events, one after another: \"I opened the door and saw a dog\". The past continuous gives the background, what was happening at that moment: \"It was raining\". The past perfect goes back to something earlier: \"Someone had left the door open\".",
-          "Compare \"When I arrived, the film started\" (it started at that moment) with \"When I arrived, the film had started\" (it started before I arrived). One small word changes the story.",
+          "Compare \"When I arrived, the movie started\" (it started at that moment) with \"When I arrived, the movie had started\" (it started before I arrived). One small word changes the story.",
           "Watch the forms: \"had\" + past participle, so \"had gone\", not *had went. And state verbs like \"know\" are not continuous: \"I knew him\", not *I was knowing him.",
         ],
         examples: [
           { es: "It was raining when I left the office.", en: "Llovía cuando salí de la oficina." },
-          { es: "When I arrived, the film had started.", en: "Cuando llegué, la película ya había empezado." },
-          { es: "When I arrived, the film started.", en: "Cuando llegué, empezó la película." },
+          { es: "When I arrived, the movie had started.", en: "Cuando llegué, la película ya había empezado." },
+          { es: "When I arrived, the movie started.", en: "Cuando llegué, empezó la película." },
           { es: "I was nervous because I had never flown before.", en: "Estaba nervioso porque nunca había volado." },
           { es: "While we were having dinner, the lights went out.", en: "Mientras cenábamos, se fue la luz." },
         ],
@@ -412,7 +412,7 @@ export const EN_B1_U07: Lesson[] = [
         ],
         examples: [
           { es: "I've just arrived in Lima.", en: "Acabo de llegar a Lima." },
-          { es: "The flight was long.", en: "El vuelo fue largo. / El vuelo ha sido largo." },
+          { es: "The flight was long.", en: "El vuelo fue largo." },
           { es: "We left two hours late.", en: "Salimos con dos horas de retraso." },
           { es: "Tomorrow I'm visiting my aunt.", en: "Mañana voy a ver a mi tía." },
           { es: "If the weather is nice, we'll go to the beach.", en: "Si hace buen tiempo, iremos a la playa." },
@@ -437,10 +437,8 @@ export const EN_B1_U07: Lesson[] = [
               "Salimos dos horas tarde.",
               "Hemos salido con dos horas de retraso.",
               "Hemos salido dos horas tarde.",
-              "Salieron con dos horas de retraso.",
-              "Salieron dos horas tarde.",
             ],
-            explanation: "\"Left\" is the past simple of \"leave\". Spanish can use «salimos» or «hemos salido» here; English only uses the past simple for a finished detail like this.",
+            explanation: "\"Left\" is the past simple of \"leave\". Latin American Spanish says «salimos» (Spain also uses «hemos salido»); English only uses the past simple for a finished detail like this.",
           },
         ],
       },
@@ -1842,7 +1840,7 @@ export const EN_B1_U07: Lesson[] = [
       {
         heading: "-ed or -ing?",
         body: [
-          "Adjectives with -ed describe how a person feels: \"I'm bored\", \"I'm worried\", \"I'm disappointed\". Adjectives with -ing describe the thing that causes the feeling: \"The film is boring\", \"The news is worrying\".",
+          "Adjectives with -ed describe how a person feels: \"I'm bored\", \"I'm worried\", \"I'm disappointed\". Adjectives with -ing describe the thing that causes the feeling: \"The movie is boring\", \"The news is worrying\".",
           "So \"I'm boring\" means «soy aburrido» (people find you boring!). If you mean «estoy aburrido», say \"I'm bored\". The same with \"annoyed\" / \"annoying\" and \"embarrassed\" / \"embarrassing\" (remember: «embarazada» is \"pregnant\").",
         ],
         examples: [
@@ -2194,7 +2192,7 @@ export const EN_B1_U07: Lesson[] = [
     slug: "b1-themed-review-moving-house",
     level: "EN-B1",
     number: 10,
-    title: "Themed Review: Moving House",
+    title: "Themed Review: Moving to a New Home",
     summary: "A spiral review around moving: household vocabulary, used to for life before, get used to for adapting and time clauses for moving day.",
     duration: "12 min",
     sections: [

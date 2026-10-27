@@ -145,10 +145,10 @@ export const EN_B2_U11_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Se espera que el ministro dimita.",
+        source: "Se espera que el ministro renuncie.",
         answer: "The minister is expected to resign.",
         altAnswers: ["It is expected that the minister will resign.", "The minister is expected to step down.", "It is expected that the minister will step down."],
-        explanation: "\"Expect\" refers to the future, so the simple infinitive \"to resign\". «Dimitir» is \"resign\" or \"step down\".",
+        explanation: "\"Expect\" refers to the future, so the simple infinitive \"to resign\". «Renunciar» (a un cargo) is \"resign\" or \"step down\".",
       },
       {
         type: "translate",
@@ -392,7 +392,7 @@ export const EN_B2_U11_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "«Me corté el pelo yo mismo y quedó fatal.» Which is correct?",
+        question: "«Me corté el pelo yo mismo y quedó horrible.» Which is correct?",
         options: ["I cut my hair myself and it looked terrible.", "I had my hair cut myself and it looked terrible.", "I had cut my hair myself and it looked terrible.", "I got cut my hair myself and it looked terrible."],
         correctIndex: 0,
         explanation: "You did it yourself, so no causative: \"I cut my hair myself\".",
@@ -420,14 +420,14 @@ export const EN_B2_U11_EXTRA: Lesson[] = [
         sentence: "You should get that tooth ___.",
         answer: "looked at",
         altAnswers: ["checked", "checked out", "seen to"],
-        en: "Deberías hacerte [mirar] esa muela.",
+        en: "Deberías hacerte [revisar] esa muela.",
         explanation: "\"Get\" + object + participle: \"get that tooth looked at\". \"Look at\" keeps its preposition.",
       },
       {
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Nos están arreglando el tejado.",
+        source: "Nos están arreglando el techo.",
         answer: "We're having the roof repaired.",
         altAnswers: [
           "We're having the roof fixed.",
@@ -536,7 +536,7 @@ export const EN_B2_U11_EXTRA: Lesson[] = [
         heading: "get + participle",
         body: [
           "In everyday English \"get\" + participle often replaces \"be\" for unexpected or unwelcome events: \"got fired\", \"got hurt\", \"got stuck\", \"got lost\", \"got arrested\", \"My bike got stolen\".",
-          "Many of these match Spanish reflexive verbs: «perderse» (get lost), «lastimarse» (get hurt), «quedarse atascado» (get stuck), «casarse» (get married). Do not translate the «se» as *himself.",
+          "Many of these match Spanish reflexive verbs: «perderse» (get lost), «lastimarse» (get hurt), «quedarse atascado» (get stuck), «casarse» (get married). Usually the «se» needs no \"himself\": \"He got lost\", not *He lost himself (though \"He hurt himself\" is fine for «se lastimó»).",
         ],
         examples: [
           { es: "We got lost in the old town.", en: "Nos perdimos en el casco antiguo." },
@@ -897,7 +897,7 @@ export const EN_B2_U11_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "That film always ___ me cry.",
+        sentence: "That movie always ___ me cry.",
         answer: "makes",
         en: "Esa película siempre me [hace] llorar.",
         explanation: "\"Make\" for a cause: \"makes me cry\". Not *does me cry.",
@@ -974,7 +974,7 @@ export const EN_B2_U11_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "Two prisoners are thought to have escaped.", en: "Se cree que dos presos se han escapado." },
-          { es: "The minister is expected to resign today.", en: "Se espera que la ministra dimita hoy." },
+          { es: "The minister is expected to resign today.", en: "Se espera que la ministra renuncie hoy." },
           { es: "The singer is reported to be recovering in the hospital.", en: "Según informan, el cantante se recupera en el hospital." },
           { es: "A 45-year-old man has been arrested.", en: "Ha sido detenido un hombre de 45 años." },
           { es: "The mayor allegedly accepted bribes.", en: "El alcalde presuntamente aceptó sobornos." },
@@ -1031,7 +1031,7 @@ export const EN_B2_U11_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Se espera que la ministra dimita hoy.",
+        source: "Se espera que la ministra renuncie hoy.",
         answer: "The minister is expected to resign today.",
         altAnswers: ["It is expected that the minister will resign today.", "The minister is expected to step down today.", "It is expected that the minister will step down today."],
         explanation: "Future event: \"is expected to\" + base form. English \"minister\" has no gender form.",

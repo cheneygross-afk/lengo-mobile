@@ -346,7 +346,7 @@ export const EN_B2_U12_EXTRA: Lesson[] = [
         sentence: "The mechanic suggested that I ___ the tires.",
         answer: "change",
         altAnswers: ["should change", "replace", "should replace", "changed", "replaced"],
-        en: "El mecánico me sugirió que [cambiara] los neumáticos.",
+        en: "El mecánico me sugirió que [cambiara] las llantas.",
         explanation: "After \"suggest that\", American English uses the base form (\"I change\") or \"should change\"; British English also allows the past (\"I changed\").",
       },
       {
@@ -624,7 +624,7 @@ export const EN_B2_U12_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Felicité a Sofia por aprobar las oposiciones.",
+        source: "Felicité a Sofia por aprobar el examen de servicio civil.",
         answer: "I congratulated Sofia on passing the civil service exam.",
         altAnswers: ["I congratulated Sofia on passing her civil service exams.", "I congratulated Sofia on passing the civil service exams.", "I congratulated Sofia on passing her exams.", "I congratulated Sofia on passing the exam.", "I congratulated Sofia on passing the public exam.", "I congratulated Sofia on passing the state exam."],
         explanation: "\"Congratulate on\" + -ing. «Oposiciones» has no exact English equivalent; \"civil service exam\" is the usual explanation.",
@@ -691,7 +691,7 @@ export const EN_B2_U12_EXTRA: Lesson[] = [
           { es: "She said she would finish it the next day.", en: "Dijo que lo terminaría al día siguiente." },
           { es: "He said he had seen her the day before.", en: "Dijo que la había visto el día anterior." },
           { es: "They told us they had moved there two years before.", en: "Nos dijeron que se habían mudado allí dos años antes." },
-          { es: "She said she was leaving the following week.", en: "Dijo que se marchaba la semana siguiente." },
+          { es: "She said she was leaving the following week.", en: "Dijo que se iba la semana siguiente." },
         ],
         checkpoint: [
           {
@@ -825,7 +825,7 @@ export const EN_B2_U12_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["She", "said", "she", "was", "leaving", "the", "next", "day"],
-        translation: "Dijo que se marchaba al día siguiente.",
+        translation: "Dijo que se iba al día siguiente.",
         explanation: "Present continuous \"I'm leaving tomorrow\" becomes \"she was leaving the next day\".",
       },
       {
@@ -873,7 +873,7 @@ export const EN_B2_U12_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "She asked me where I was going.", en: "Me preguntó adónde iba. (incorrecto: *where was I going)" },
-          { es: "He asked what time the film started.", en: "Preguntó a qué hora empezaba la película." },
+          { es: "He asked what time the movie started.", en: "Preguntó a qué hora empezaba la película." },
           { es: "They asked if we had a reservation.", en: "Preguntaron si teníamos reserva." },
           { es: "She asked whether I could help her.", en: "Me preguntó si podía ayudarla. (incorrecto: *if I could to help)" },
           { es: "The officer asked whether or not we had seen anything.", en: "El agente preguntó si habíamos visto algo o no." },
@@ -1212,7 +1212,7 @@ export const EN_B2_U12_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "The guard ___ open their bags.",
+        sentence: "The guard ___ open our bags.",
         answer: "asked us to",
         altAnswers: ["told us to"],
         en: "El vigilante [nos pidió que] abriéramos las bolsas.",

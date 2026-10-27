@@ -17,7 +17,7 @@ export const EN_A1_U1_MORE: Lesson[] = [
         body: [
           "En español respondemos «sí» o «no» y ya está. En inglés eso suena seco, a veces brusco. Lo natural es una respuesta corta: \"yes\" o \"no\" + pronombre + el mismo verbo de la pregunta. \"Is the museum open?\" — \"Yes, it is.\"",
           "En la respuesta cambia el punto de vista: a \"Are you...?\" respondes con \"I\" (o con \"we\" si son varios), y a \"Am I...?\" con \"you\".",
-          "Los nombres se convierten en pronombres: \"your brother\" → \"he\", \"the museum\" → \"it\", \"the shops\" → \"they\".",
+          "Los nombres se convierten en pronombres: \"your brother\" → \"he\", \"the museum\" → \"it\", \"the stores\" → \"they\".",
         ],
         examples: [
           { es: "Are you married? Yes, I am.", en: "¿Estás casado? Sí." },
@@ -161,8 +161,8 @@ export const EN_A1_U1_MORE: Lesson[] = [
         direction: "es-en",
         prompt: "Traduce al inglés.",
         source: "Las tiendas no están abiertas.",
-        answer: "The shops aren't open.",
-        altAnswers: ["The stores aren't open."],
+        answer: "The stores aren't open.",
+        altAnswers: ["The shops aren't open."],
         explanation: "Sujeto plural + \"aren't\". En Estados Unidos «tienda» suele ser \"store\"; \"shop\" se usa más en el Reino Unido.",
       },
       {

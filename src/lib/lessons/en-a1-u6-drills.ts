@@ -615,7 +615,7 @@ export const EN_A1_U6_DRILLS: Lesson[] = [
         ],
         examples: [
           { es: "My aunt is short and very funny.", en: "Mi tía es baja y muy graciosa." },
-          { es: "He has brown eyes.", en: "Tiene los ojos marrones." },
+          { es: "He has brown eyes.", en: "Tiene los ojos cafés." },
           { es: "She is a quiet student.", en: "Es una estudiante callada." },
           { es: "What is your boss like?", en: "¿Cómo es tu jefe?" },
         ],
@@ -1635,7 +1635,7 @@ export const EN_A1_U6_DRILLS: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Mi mamá tiene el pelo corto y los ojos marrones.",
+        source: "Mi mamá tiene el pelo corto y los ojos cafés.",
         answer: "My mom has short hair and brown eyes.",
         altAnswers: ["My mother has short hair and brown eyes.", "My mum has short hair and brown eyes."],
         explanation: "\"Has\" + adjetivo + \"hair\" / \"eyes\", sin artículo.",

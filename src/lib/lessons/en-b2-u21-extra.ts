@@ -39,7 +39,7 @@ export const EN_B2_U21_EXTRA: Lesson[] = [  // ---------------------------------
           "Don't double the comparative: \"better\", not *more better; \"bigger\", not *more big. Short adjectives take -er, long ones take \"more\": \"far more comfortable\".",
         ],
         examples: [
-          { es: "This laptop is much better than the old one.", en: "Este portátil es mucho mejor que el viejo. (incorrecto: *more better, *very better)" },
+          { es: "This laptop is much better than the old one.", en: "Esta laptop es mucho mejor que la vieja. (incorrecto: *more better, *very better)" },
           { es: "The new stadium is far bigger.", en: "El estadio nuevo es muchísimo más grande." },
           { es: "Today is slightly warmer than yesterday.", en: "Hoy hace un poco más de calor que ayer." },
           { es: "The train is a lot more comfortable than the bus.", en: "El tren es mucho más cómodo que el autobús." },
@@ -87,7 +87,7 @@ export const EN_B2_U21_EXTRA: Lesson[] = [  // ---------------------------------
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Este portátil es mucho mejor que el anterior.",
+        source: "Esta laptop es mucho mejor que la anterior.",
         answer: "This laptop is much better than the previous one.",
         altAnswers: alts(
           "This laptop is much better than the previous one.",

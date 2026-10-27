@@ -106,7 +106,7 @@ export const EN_B1_U07_DRILLS: Lesson[] = [
         "The past continuous gives the background activity (\"was making dinner\"), and the past simple gives the short event that interrupted it (\"called\")."),
       tr("Cuando llegamos al cine, la película ya había empezado.",
         "When we {got to|arrived at} the {movie theater|movies|cinema}, the {movie|film} had {already started|started already}.",
-        "The film started first, so it takes the past perfect: \"had already started\". \"When we arrived, the movie started\" would mean it started at that moment. Remember \"arrive at\" a place, never *arrive to."),
+        "The movie started first, so it takes the past perfect: \"had already started\". \"When we arrived, the movie started\" would mean it started at that moment. Remember \"arrive at\" a place, never *arrive to."),
       lc("When I got to the station, the train had left.", [
         "Cuando llegué a la estación, el tren ya se había ido.",
         "Cuando llegué a la estación, salió el tren.",

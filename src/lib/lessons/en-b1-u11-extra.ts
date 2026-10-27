@@ -335,7 +335,7 @@ export const EN_B1_U11_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "The shop is closed. We ___ come back tomorrow.",
+        sentence: "The store is closed. We ___ come back tomorrow.",
         answer: "will have to",
         altAnswers: ["'ll have to"],
         en: "La tienda está cerrada. [Tendremos que] volver mañana.",
@@ -615,7 +615,7 @@ export const EN_B1_U11_EXTRA: Lesson[] = [
         pairs: [
           { left: "I've got a toothache.", right: "You should see a dentist." },
           { left: "I can't sleep at night.", right: "You shouldn't drink coffee after six." },
-          { left: "The film starts in ten minutes.", right: "We'd better leave now." },
+          { left: "The movie starts in ten minutes.", right: "We'd better leave now." },
           { left: "I forgot my mom's birthday.", right: "You ought to call her and apologize." },
         ],
         explanation: "Advice uses \"should\" or \"ought to\"; urgent warnings use \"had better\".",

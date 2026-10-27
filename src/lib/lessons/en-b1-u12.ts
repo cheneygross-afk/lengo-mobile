@@ -826,7 +826,7 @@ export const EN_B1_U12: Lesson[] = [
           "Uses \"will\" or \"going to\" for things that are certain",
           "Doesn't use \"can\" for one specific possibility",
         ],
-        modelAnswer: "On Saturday morning I'm going to play tennis with my sister. In the afternoon I might go shopping, but I'm not sure. If the weather is nice, we may have a barbecue in the garden. My friend Carlos could come too. On Sunday I might not do anything at all. I'll probably just stay at home and read.",
+        modelAnswer: "On Saturday morning I'm going to play tennis with my sister. In the afternoon I might go shopping, but I'm not sure. If the weather is nice, we may have a barbecue in the backyard. My friend Carlos could come too. On Sunday I might not do anything at all. I'll probably just stay at home and read.",
         explanation: "Mix certainty (\"going to\", \"will\") with possibility (\"might\", \"may\", \"could\").",
       },
     ],

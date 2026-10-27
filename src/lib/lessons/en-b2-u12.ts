@@ -1547,12 +1547,12 @@ export const EN_B2_U12: Lesson[] = [
         heading: "Report the intention, not the words",
         body: [
           "A good report does not repeat every word. It asks: what was the speaker doing with these words? Promising, offering, refusing, warning, admitting? Then it picks the verb that names that action and uses its pattern.",
-          "\"I'll definitely call you tomorrow\" is a promise: \"He promised to call me the next day\". \"Shall I carry that for you?\" is an offer: \"She offered to carry it for me\". \"No way, I'm not cleaning that\" is a refusal: \"He refused to clean it\".",
+          "\"I'll definitely call you tomorrow\" is a promise: \"He promised to call me the next day\". \"Should I carry that for you?\" is an offer: \"She offered to carry it for me\". \"No way, I'm not cleaning that\" is a refusal: \"He refused to clean it\".",
           "Notice what disappears: \"definitely\", \"no way\", the question form. The reporting verb already carries that meaning, so you don't need to translate every word.",
         ],
         examples: [
           { es: "\"I'll definitely call you tomorrow.\" He promised to call me the next day.", en: "Prometió llamarme al día siguiente." },
-          { es: "\"Shall I carry that for you?\" She offered to carry it for me.", en: "Se ofreció a llevármelo." },
+          { es: "\"Should I carry that for you?\" She offered to carry it for me.", en: "Se ofreció a llevármelo." },
           { es: "\"No way, I'm not cleaning that.\" He refused to clean it.", en: "Se negó a limpiarlo." },
           { es: "\"Okay, I'll lend you the car.\" Dad agreed to lend me the car.", en: "Papá accedió a prestarme el carro." },
           { es: "\"Pay now or I'll call the police.\" He threatened to call the police.", en: "Amenazó con llamar a la policía." },
@@ -1777,7 +1777,7 @@ export const EN_B2_U12: Lesson[] = [
         instructions: "Match each quote with the best reporting verb.",
         pairs: [
           { left: "\"I didn't do it!\"", right: "deny" },
-          { left: "\"Shall I help you?\"", right: "offer" },
+          { left: "\"Should I help you?\"", right: "offer" },
           { left: "\"Well done on passing!\"", right: "congratulate" },
           { left: "\"Let's go out tonight.\"", right: "suggest" },
           { left: "\"I'm sorry I shouted.\"", right: "apologize" },
@@ -1855,7 +1855,7 @@ export const EN_B2_U12: Lesson[] = [
           "In real conversation, people mix tenses more freely than in writing. Emma sometimes keeps the present (\"She says she's moving\") because the news is still true and still fresh.",
         ],
         examples: [
-          { es: "Emma: Did you hear what Kate told me last night?", en: "¿Te has enterado de lo que me contó Kate anoche?" },
+          { es: "Emma: Did you hear what Kate told me last night?", en: "¿Te enteraste de lo que me contó Kate anoche?" },
           { es: "Sofia: No! What did she say?", en: "¡No! ¿Qué dijo?" },
           { es: "Emma: She said she was quitting her job. She's moving to Lisbon!", en: "Dijo que iba a dejar el trabajo. ¡Se muda a Lisboa!" },
           { es: "Sofia: No way! Did she say why?", en: "¡No me digas! ¿Dijo por qué?" },
@@ -2448,7 +2448,7 @@ export const EN_B2_U12: Lesson[] = [
         ],
         examples: [
           { es: "She refused to discuss it.", en: "Se negó a hablar de ello." },
-          { es: "He warned us not to drink the tap water.", en: "Nos advirtió que no bebiéramos agua del grifo." },
+          { es: "He warned us not to drink the tap water.", en: "Nos advirtió que no tomáramos agua de la llave." },
           { es: "They denied knowing anything about it.", en: "Negaron saber nada del asunto." },
           { es: "The coach blamed the referee for the defeat.", en: "El entrenador culpó al árbitro de la derrota." },
           { es: "She warned me that the roads were icy.", en: "Me advirtió de que las carreteras estaban heladas." },
@@ -2576,9 +2576,9 @@ export const EN_B2_U12: Lesson[] = [
           "Conversation: \"Did you hear? The boss quit! Apparently she told the board on Friday, and they were like, what?\" Simple verbs, present tense for fresh news, \"apparently\" for things you heard from others, and informal shortcuts.",
         ],
         examples: [
-          { es: "The CEO is reported to have resigned.", en: "Según las informaciones, la directora ejecutiva ha dimitido." },
+          { es: "The CEO is reported to have resigned.", en: "Según las informaciones, la directora ejecutiva ha renunciado." },
           { es: "It is understood that the board will meet on Monday.", en: "Se tiene entendido que el consejo se reunirá el lunes." },
-          { es: "Ms. Lopez confirmed that she had resigned.", en: "La Sra. Lopez confirmó que había dimitido." },
+          { es: "Ms. Lopez confirmed that she had resigned.", en: "La Sra. Lopez confirmó que había renunciado." },
           { es: "Apparently, she told the board on Friday.", en: "Por lo visto, se lo dijo al consejo el viernes." },
         ],
         checkpoint: [
@@ -2802,7 +2802,7 @@ export const EN_B2_U12: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Se dice que el alcalde va a dimitir.",
+            source: "Se dice que el alcalde va a renunciar.",
             answer: "The mayor is said to be resigning.",
             altAnswers: [
               "The mayor is said to be going to resign.",

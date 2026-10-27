@@ -94,7 +94,7 @@ export const EN_B1_U33: Lesson[] = [
           { es: "He was fired for being late every day.", en: "Lo despidieron por llegar tarde todos los días." },
           { es: "The factory laid off two hundred workers.", en: "La fábrica despidió a doscientos trabajadores." },
           { es: "She got promoted to manager last month.", en: "La ascendieron a gerente el mes pasado." },
-          { es: "I quit my job to start my own business.", en: "Dejé mi trabajo para montar mi propio negocio." },
+          { es: "I quit my job to start my own business.", en: "Dejé mi trabajo para poner mi propio negocio." },
           { es: "The minister resigned yesterday.", en: "El ministro renunció ayer." },
         ],
         checkpoint: [
@@ -124,8 +124,8 @@ export const EN_B1_U33: Lesson[] = [
           "To «lanzar» a new product is to \"launch\" it: \"They launched a new app.\" The noun is the same: \"the launch of the new phone\".",
         ],
         examples: [
-          { es: "She runs a small restaurant downtown.", en: "Lleva un pequeño restaurante en el centro." },
-          { es: "They set up the company in 2019.", en: "Montaron la empresa en 2019." },
+          { es: "She runs a small restaurant downtown.", en: "Administra un pequeño restaurante en el centro." },
+          { es: "They set up the company in 2019.", en: "Fundaron la empresa en 2019." },
           { es: "The business made a profit in its first year.", en: "El negocio obtuvo ganancias en su primer año." },
           { es: "We lost money last year.", en: "Perdimos dinero el año pasado." },
           { es: "They're launching a new product in May.", en: "Lanzan un producto nuevo en mayo." },
@@ -262,8 +262,8 @@ export const EN_B1_U33: Lesson[] = [
         ],
         examples: [
           { es: "We live in a two-bedroom apartment.", en: "Vivimos en un departamento de dos habitaciones." },
-          { es: "They live in a block of flats near the station.", en: "Viven en un edificio de departamentos cerca de la estación." },
-          { es: "My parents have a detached house with a garden.", en: "Mis padres tienen un chalet con jardín." },
+          { es: "They live in an apartment building near the station.", en: "Viven en un edificio de departamentos cerca de la estación." },
+          { es: "My parents have a detached house with a garden.", en: "Mis padres tienen una casa independiente con jardín." },
           { es: "It's a semi-detached house on a quiet street.", en: "Es una casa pareada en una calle tranquila." },
           { es: "I rent a small studio downtown.", en: "Alquilo un estudio pequeño en el centro." },
         ],
@@ -329,7 +329,7 @@ export const EN_B1_U33: Lesson[] = [
           "«Compartir departamento» is \"share an apartment\" (US) or \"share a flat\" (UK). The person you live with is a \"roommate\" (US) or \"flatmate\" (UK).",
         ],
         examples: [
-          { es: "We moved to a bigger place last year.", en: "Nos mudamos a un sitio más grande el año pasado." },
+          { es: "We moved to a bigger place last year.", en: "Nos mudamos a un lugar más grande el año pasado." },
           { es: "When are you moving in?", en: "¿Cuándo te mudas (a la casa nueva)?" },
           { es: "I moved out of my parents' house at twenty-two.", en: "Me fui de casa de mis padres a los veintidós." },
           { es: "She's moving in with her boyfriend.", en: "Se va a vivir con su novio." },
@@ -509,7 +509,7 @@ export const EN_B1_U33: Lesson[] = [
           { es: "I commute to work by train.", en: "Voy al trabajo en tren." },
           { es: "My commute takes about forty minutes.", en: "Tardo unos cuarenta minutos en llegar al trabajo." },
           { es: "The roads are always busy at rush hour.", en: "Las carreteras siempre están llenas en hora pico." },
-          { es: "Sorry I'm late. I got stuck in traffic.", en: "Perdón por el retraso. Me quedé atascado en el tráfico." },
+          { es: "Sorry I'm late. I got stuck in traffic.", en: "Perdón por el retraso. Me quedé atorado en el tráfico." },
           { es: "There was a huge traffic jam on the highway.", en: "Había un embotellamiento enorme en la autopista." },
           { es: "There's a lot of traffic today.", en: "Hay mucho tráfico hoy." },
         ],
@@ -743,7 +743,7 @@ export const EN_B1_U33: Lesson[] = [
         ],
         examples: [
           { es: "It was very generous of you to pay for dinner.", en: "Fue muy generoso de tu parte pagar la cena." },
-          { es: "He's so stingy; he never buys anyone a drink.", en: "Es tan tacaño que nunca invita a nadie a una copa." },
+          { es: "He's so stingy; he never buys anyone a drink.", en: "Es tan tacaño que nunca invita a nadie a un trago." },
           { es: "Stop being mean to your brother!", en: "¡Deja de ser malo con tu hermano!" },
           { es: "She's very kind to everyone.", en: "Es muy amable con todo el mundo." },
           { es: "Don't be so selfish.", en: "No seas tan egoísta." },
@@ -1044,7 +1044,7 @@ export const EN_B1_U33: Lesson[] = [
           "«Cuidar» a pet is \"look after\" or \"take care of\": \"Who's going to look after the dog?\" «Sacar al perro» is \"walk the dog\" or \"take the dog for a walk\".",
         ],
         examples: [
-          { es: "Did you feed the fish?", en: "¿Les has dado de comer a los peces?" },
+          { es: "Did you feed the fish?", en: "¿Les diste de comer a los peces?" },
           { es: "Please do not feed the animals.", en: "Por favor, no den de comer a los animales." },
           { es: "My neighbor looks after our cat when we go away.", en: "Mi vecina nos cuida al gato cuando nos vamos." },
           { es: "I walk the dog every morning.", en: "Saco al perro todas las mañanas." },
@@ -1249,7 +1249,7 @@ export const EN_B1_U33: Lesson[] = [
           { es: "Let's grab a coffee sometime.", en: "A ver si tomamos un café un día." },
           { es: "Can I buy you a drink?", en: "¿Te invito a algo?" },
           { es: "Put your wallet away; it's on me.", en: "Guarda la cartera; invito yo." },
-          { es: "I only had one drink.", en: "Solo me tomé una copa." },
+          { es: "I only had one drink.", en: "Solo me tomé un trago." },
         ],
         checkpoint: [
           {
@@ -1335,8 +1335,8 @@ export const EN_B1_U33: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "¿Salimos a tomar algo esta noche?",
-        answer: "Shall we go out for a drink tonight?",
-        altAnswers: ["Do you want to go out for a drink tonight?", "Should we go out for a drink tonight?", "Why don't we go out for a drink tonight?", "Let's go out for a drink tonight.", "Do you want to go for a drink tonight?", "Shall we go for a drink tonight?", "Should we go for a drink tonight?", "Do you want to go out for drinks tonight?", "Shall we go out for drinks tonight?"],
+        answer: "Should we go out for a drink tonight?",
+        altAnswers: ["Do you want to go out for a drink tonight?", "Shall we go out for a drink tonight?", "Why don't we go out for a drink tonight?", "Let's go out for a drink tonight.", "Do you want to go for a drink tonight?", "Shall we go for a drink tonight?", "Should we go for a drink tonight?", "Do you want to go out for drinks tonight?", "Shall we go out for drinks tonight?"],
         explanation: "«Salir a tomar algo» is \"go out for a drink\". A suggestion uses \"Shall we\", \"Should we\" or \"Do you want to\".",
       },
       {
@@ -1363,8 +1363,8 @@ export const EN_B1_U33: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["Let", "me", "buy", "you", "a", "drink."],
-        translation: "Déjame invitarte a una copa.",
-        explanation: "\"Buy someone a drink\" is «invitar a alguien a una copa».",
+        translation: "Déjame invitarte a un trago.",
+        explanation: "\"Buy someone a drink\" is «invitar a alguien a un trago».",
       },
       {
         type: "listen-choose",
@@ -1435,7 +1435,7 @@ export const EN_B1_U33: Lesson[] = [
             sentence: "The furniture was covered in ___.",
             answer: "dust",
             en: "Los muebles estaban cubiertos de [polvo].",
-            explanation: "Dry dirt on surfaces is \"dust\". \"Powder\" is for things like talcum powder or washing powder.",
+            explanation: "Dry dirt on surfaces is \"dust\". \"Powder\" is for things like baby powder or laundry powder.",
           },
           {
             type: "translate",
@@ -1627,7 +1627,7 @@ export const EN_B1_U33: Lesson[] = [
       {
         type: "dictation",
         audio: "We put up the tent on a small hill near the stream.",
-        explanation: "\"Put up\" a tent is «montar»; \"put\" has the same form in the past.",
+        explanation: "\"Put up\" a tent is «armar»; \"put\" has the same form in the past.",
       },
       {
         type: "speak",
@@ -1688,7 +1688,7 @@ export const EN_B1_U33: Lesson[] = [
           { es: "She got promoted and now earns a much better salary.", en: "La ascendieron y ahora gana un sueldo mucho mejor." },
           { es: "We're moving out at the end of the month.", en: "Dejamos el departamento a final de mes." },
           { es: "I missed the bus, so my neighbor gave me a ride.", en: "Perdí el autobús, así que mi vecino me llevó en carro." },
-          { es: "The rent went up again this year.", en: "El alquiler ha vuelto a subir este año." },
+          { es: "The rent went up again this year.", en: "El alquiler volvió a subir este año." },
         ],
         checkpoint: [
           {
@@ -1706,7 +1706,7 @@ export const EN_B1_U33: Lesson[] = [
             sentence: "They ___ the business ten years ago.",
             answer: "started",
             altAnswers: ["set up", "founded", "opened"],
-            en: "[Montaron] el negocio hace diez años.",
+            en: "[Abrieron] el negocio hace diez años.",
             explanation: "«Montar» a business is \"start\" or \"set up\" (\"set up\" has the same form in the past).",
           },
         ],
@@ -1972,8 +1972,8 @@ export const EN_B1_U33: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "Ayer me corté el pelo en la peluquería.",
-            answer: "I had my hair cut at the hairdresser's yesterday.",
-            altAnswers: ["I got my hair cut at the hairdresser's yesterday.", "Yesterday I had my hair cut at the hairdresser's.", "Yesterday I got my hair cut at the hairdresser's.", "I got a haircut at the hairdresser's yesterday.", "I had my hair cut at the hair salon yesterday.", "I got my hair cut at the hair salon yesterday.", "I had my hair cut at the salon yesterday.", "I got my hair cut at the salon yesterday.", "I got my hair cut at the barber's yesterday.", "I had my hair cut at the barber's yesterday."],
+            answer: "I had my hair cut at the salon yesterday.",
+            altAnswers: ["I got my hair cut at the hairdresser's yesterday.", "Yesterday I had my hair cut at the hairdresser's.", "Yesterday I got my hair cut at the hairdresser's.", "I got a haircut at the hairdresser's yesterday.", "I had my hair cut at the hair salon yesterday.", "I got my hair cut at the hair salon yesterday.", "I had my hair cut at the hairdresser's yesterday.", "I got my hair cut at the salon yesterday.", "I got my hair cut at the barber's yesterday.", "I had my hair cut at the barber's yesterday."],
             explanation: "When someone else does it, English uses \"have/get something done\": \"I had my hair cut\". \"I cut my hair\" means you did it yourself.",
           },
           {
@@ -1998,7 +1998,7 @@ export const EN_B1_U33: Lesson[] = [
           { es: "What I need is a vacation.", en: "Lo que necesito son unas vacaciones." },
           { es: "He told me he was leaving.", en: "Me dijo que se iba." },
           { es: "Could you tell me where the bank is?", en: "¿Me podría decir dónde está el banco?" },
-          { es: "I enjoy cooking for friends.", en: "Disfruto cocinando para mis amigos." },
+          { es: "I enjoy cooking for friends.", en: "Me gusta mucho cocinar para mis amigos." },
           { es: "My parents want me to study law.", en: "Mis padres quieren que estudie Derecho." },
         ],
         checkpoint: [
@@ -2050,7 +2050,7 @@ export const EN_B1_U33: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "No le dejan salir por la noche.",
+        source: "No lo dejan salir por la noche.",
         answer: "They don't let him go out at night.",
         altAnswers: ["They don't let her go out at night.", "He isn't allowed to go out at night.", "She isn't allowed to go out at night.", "They don't allow him to go out at night.", "They don't allow her to go out at night.", "They won't let him go out at night.", "They won't let her go out at night."],
         explanation: "\"Let\" + person + verb with no \"to\"; \"allow\" + person + \"to\" + verb. Never *let him to go.",

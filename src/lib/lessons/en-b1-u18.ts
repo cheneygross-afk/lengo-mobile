@@ -130,7 +130,7 @@ export const EN_B1_U18: Lesson[] = [
         heading: "Talking about the future",
         body: [
           "English chooses the future form by meaning. Use \"going to\" for plans and intentions (\"I'm going to study medicine\") and for predictions with evidence (\"Look at those clouds. It's going to rain\"). Use the present continuous for fixed arrangements: \"I'm meeting Ana at six.\"",
-          "Use \"will\" for decisions you make right now, offers and promises: \"I'll help you\". Spanish uses the present («¿te ayudo?», «ya voy»), but English needs \"will\" or \"shall\": *I help you is wrong.",
+          "Use \"will\" for decisions you make right now, offers and promises: \"I'll help you\". Spanish uses the present («¿te ayudo?», «ya voy»), but English needs \"will\": *I help you is wrong.",
           "\"Will be\" + -ing is an action in progress at a future time (\"This time tomorrow I'll be flying to Rome\"), and \"will have\" + participle is an action completed before a deadline, usually with \"by\": \"By June I'll have finished my degree.\"",
         ],
         examples: [
@@ -145,9 +145,9 @@ export const EN_B1_U18: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Your friend is carrying a heavy box. You want to say «¿te ayudo?». What do you say?",
-            options: ["Shall I help you?", "Do I help you?", "I help you?", "Am I helping you?"],
+            options: ["Do you want me to help you?", "Do I help you?", "I help you?", "Am I helping you?"],
             correctIndex: 0,
-            explanation: "Offers take \"shall I\" or \"I'll\": \"Shall I help you?\", \"I'll help you\". The Spanish present («¿te ayudo?») can't be translated with the English present.",
+            explanation: "Offers take \"I'll\" or \"Do you want me to...?\": \"I'll help you\", \"Do you want me to help you?\". The Spanish present («¿te ayudo?») can't be translated with the English present.",
           },
           {
             type: "translate",

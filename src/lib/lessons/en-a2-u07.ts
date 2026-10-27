@@ -313,7 +313,7 @@ export const EN_A2_U07: Lesson[] = [
           { es: "I don't have much time.", en: "No tengo mucho tiempo." },
           { es: "Do you have many friends here?", en: "¿Tienes muchos amigos aquí?" },
           { es: "There isn't much milk.", en: "No hay mucha leche. / Hay poca leche." },
-          { es: "There aren't many shops in my town.", en: "No hay muchas tiendas en mi pueblo." },
+          { es: "There aren't many stores in my town.", en: "No hay muchas tiendas en mi pueblo." },
           { es: "Did you buy much food?", en: "¿Compraste mucha comida?" },
         ],
         checkpoint: [

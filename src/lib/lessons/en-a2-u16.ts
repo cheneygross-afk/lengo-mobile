@@ -453,18 +453,18 @@ export const EN_A2_U16: Lesson[] = [
     level: "EN-A2",
     number: 3,
     title: "¿Dónde va el adverbio?",
-    summary: "\"I like football very much\", \"She speaks English well\": el adverbio nunca separa el verbo de su objeto. Y repaso de always, never y compañía.",
+    summary: "\"I like soccer very much\", \"She speaks English well\": el adverbio nunca separa el verbo de su objeto. Y repaso de always, never y compañía.",
     duration: "10 min",
     sections: [
       {
         heading: "Verbo + objeto: no se separan",
         body: [
           "En español decimos «me gusta mucho el fútbol» o «habla bien inglés», con el adverbio entre el verbo y lo que viene después. En inglés eso no se puede hacer: el verbo y su objeto van juntos, y el adverbio va detrás.",
-          "Por eso se dice \"I like football very much\" y no *I like very much football, y \"She speaks English well\" y no *She speaks well English.",
-          "Con \"like\" y \"love\" también puedes poner \"really\" delante del verbo: \"I really like football\". Es muy natural y evita el problema.",
+          "Por eso se dice \"I like soccer very much\" y no *I like very much soccer, y \"She speaks English well\" y no *She speaks well English.",
+          "Con \"like\" y \"love\" también puedes poner \"really\" delante del verbo: \"I really like soccer\". Es muy natural y evita el problema.",
         ],
         examples: [
-          { es: "I like football very much.", en: "Me gusta mucho el fútbol." },
+          { es: "I like soccer very much.", en: "Me gusta mucho el fútbol." },
           { es: "I really like soccer.", en: "Me gusta mucho el fútbol." },
           { es: "She speaks English well.", en: "Habla bien inglés." },
           { es: "He plays the guitar badly.", en: "Toca mal la guitarra." },
@@ -579,9 +579,9 @@ export const EN_A2_U16: Lesson[] = [
       {
         type: "multiple-choice",
         question: "¿Cuál es correcta?",
-        options: ["I like football very much.", "I like very much football.", "I very much like football very.", "I like football much very."],
+        options: ["I like soccer very much.", "I like very much soccer.", "I very much like soccer very.", "I like soccer much very."],
         correctIndex: 0,
-        explanation: "\"Very much\" va al final, detrás del objeto. *I like very much football es el error típico del hispanohablante.",
+        explanation: "\"Very much\" va al final, detrás del objeto. *I like very much soccer es el error típico del hispanohablante.",
       },
       {
         type: "translate",
@@ -859,7 +859,7 @@ export const EN_A2_U16: Lesson[] = [
           "Usa al menos dos adjetivos en \"-ing\" para describir lo que pasó (\"boring\", \"exciting\", \"interesting\"…).",
           "Usa el pasado (\"was\", \"were\" y verbos en pasado).",
         ],
-        modelAnswer: "Last summer I went to a football final with my brother. I was really excited before the game. The first half was boring and we were a bit disappointed, but the second half was amazing. The last ten minutes were so exciting! After the game we were very tired, but happy.",
+        modelAnswer: "Last summer I went to a soccer final with my brother. I was really excited before the game. The first half was boring and we were a bit disappointed, but the second half was amazing. The last ten minutes were so exciting! After the game we were very tired, but happy.",
         explanation: "\"-ed\" para cómo te sientes, \"-ing\" para lo que lo provoca.",
       },
     ],
@@ -1797,11 +1797,11 @@ export const EN_A2_U16: Lesson[] = [
       {
         heading: "Error 2: el adverbio en mal sitio, y *look tiredly",
         body: [
-          "*I like very much football y *She speaks well English son calcos del español. El verbo y su objeto no se separan: \"I like football very much\", \"She speaks English well\".",
+          "*I like very much soccer y *She speaks well English son calcos del español. El verbo y su objeto no se separan: \"I like soccer very much\", \"She speaks English well\".",
           "*You look tiredly y *I feel badly también son incorrectos: \"look\" (parecer) y \"feel\" van con adjetivo: \"You look tired\", \"I feel bad\".",
         ],
         examples: [
-          { es: "I like football very much.", en: "Me gusta mucho el fútbol." },
+          { es: "I like soccer very much.", en: "Me gusta mucho el fútbol." },
           { es: "She speaks English well.", en: "Habla bien inglés." },
           { es: "You look tired.", en: "Pareces cansado." },
           { es: "I feel bad about it.", en: "Me siento mal por ello." },

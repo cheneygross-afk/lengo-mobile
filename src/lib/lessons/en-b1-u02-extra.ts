@@ -717,7 +717,7 @@ export const EN_B1_U02_EXTRA: Lesson[] = [
         heading: "Reminder: gone, been or went?",
         body: [
           "\"Has gone to\": the person went and is STILL THERE (or on the way): \"Tom has gone to the bank\" explains why Tom is not here. \"Has been to\": the person went and CAME BACK, so it is used for experiences and repeated visits: \"Tom has been to Paris twice\".",
-          "As soon as you say WHEN, both become the past simple \"went\": \"Tom went to Paris in May\". Spanish «ha ido» covers all three, so the typical slips are *I have gone to London twice (you are not in London now: \"I've been\") and *She has been to the shop for someone who is still out (\"She's gone\").",
+          "As soon as you say WHEN, both become the past simple \"went\": \"Tom went to Paris in May\". Spanish «ha ido» covers all three, so the typical slips are *I have gone to London twice (you are not in London now: \"I've been\") and *She has been to the store for someone who is still out (\"She's gone\").",
         ],
         examples: [
           { es: "Lucia has gone to the dentist. She'll be back at five.", en: "Lucia ha ido al dentista. Vuelve a las cinco." },

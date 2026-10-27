@@ -9,13 +9,13 @@ export const EN_B1_U30: Lesson[] = [
     level: "EN-B1",
     number: 1,
     title: "Survival: Polite Requests",
-    summary: "Asking for things in shops, offices and public places: I'd like..., Could I...?, Could I possibly...?, Would it be OK if...? Why «quiero» is not \"I want\".",
+    summary: "Asking for things in stores, offices and public places: I'd like..., Could I...?, Could I possibly...?, Would it be OK if...? Why «quiero» is not \"I want\".",
     duration: "10 min",
     sections: [
       {
         heading: "I'd like... instead of I want...",
         body: [
-          "In Spanish, «Quiero un café» or «Me da un café» is completely normal in a bar. In English, \"I want a coffee\" sounds direct, even a little rude or childish. Waiters, shop assistants and receptionists expect softer phrases.",
+          "In Spanish, «Quiero un café» or «Me da un café» is completely normal in a bar. In English, \"I want a coffee\" sounds direct, even a little rude or childish. Waiters, store clerks and receptionists expect softer phrases.",
           "The safest choice is \"I'd like\" + noun (\"I'd like a coffee, please\") or \"I'd like to\" + verb (\"I'd like to return this\"). \"I'd\" is short for \"I would\". Another very common option, especially in the US, is \"Can I get...?\" or \"Can I have...?\".",
           "Add \"please\" at the end. English uses \"please\" and \"thank you\" much more often than Spanish, and leaving them out can sound cold, even if your grammar is perfect.",
         ],
@@ -23,7 +23,7 @@ export const EN_B1_U30: Lesson[] = [
           { es: "I'd like a large coffee, please.", en: "Un café grande, por favor." },
           { es: "I'd like to return these shoes.", en: "Quería devolver estos zapatos." },
           { es: "Can I get a glass of water, please?", en: "¿Me das un vaso de agua, por favor?" },
-          { es: "Could I have the bill, please?", en: "¿Me trae la cuenta, por favor?" },
+          { es: "Could I have the check, please?", en: "¿Me trae la cuenta, por favor?" },
           { es: "I'd like to make an appointment.", en: "Quería pedir una cita." },
           { es: "We'd like a table for four, please.", en: "Queríamos una mesa para cuatro, por favor." },
         ],
@@ -35,7 +35,7 @@ export const EN_B1_U30: Lesson[] = [
             source: "Quería devolver esta camisa.",
             answer: "I'd like to return this shirt.",
             altAnswers: ["I would like to return this shirt.", "I'd like to bring back this shirt.", "I'd like to bring this shirt back.", "Can I return this shirt?", "Could I return this shirt?"],
-            explanation: "In shops, «quería» or «quiero» + verb is \"I'd like to\" + verb. \"I want to return this shirt\" is grammatically fine but sounds demanding.",
+            explanation: "In stores, «quería» or «quiero» + verb is \"I'd like to\" + verb. \"I want to return this shirt\" is grammatically fine but sounds demanding.",
           },
           {
             type: "multiple-choice",
@@ -186,7 +186,7 @@ export const EN_B1_U30: Lesson[] = [
           { left: "Do you mind if I...?", right: "¿Te importa si...?" },
           { left: "Would you mind...?", right: "¿Le importaría...?" },
         ],
-        explanation: "These four phrases cover almost every request you need in shops, offices and public places.",
+        explanation: "These four phrases cover almost every request you need in stores, offices and public places.",
       },
       {
         type: "listen-choose",
@@ -200,7 +200,7 @@ export const EN_B1_U30: Lesson[] = [
         type: "speak",
         text: "Hi, I'd like to return this, please. I have the receipt.",
         tip: "\"I'd\" sounds like \"eyed\". In \"receipt\" the p is silent: re-SEET.",
-        explanation: "A complete, polite request for a shop: \"I'd like to\" + verb + \"please\".",
+        explanation: "A complete, polite request for a store: \"I'd like to\" + verb + \"please\".",
       },
     ],
   },
@@ -285,13 +285,13 @@ export const EN_B1_U30: Lesson[] = [
       {
         heading: "Taking and leaving messages",
         body: [
-          "If the person isn't available, you will hear: \"I'm afraid she's not available right now\" or \"He's in a meeting\". Then: \"Can I take a message?\" (= «¿Quiere dejarle un recado?»). Notice: you TAKE a message for someone, and you LEAVE a message for someone.",
+          "If the person isn't available, you will hear: \"I'm afraid she's not available right now\" or \"He's in a meeting\". Then: \"Can I take a message?\" (= «¿Quiere dejarle un mensaje?»). Notice: you TAKE a message for someone, and you LEAVE a message for someone.",
           "To leave a message, say who you are and what you want: \"Could you ask her to call me back?\" \"Call back\" = «devolver la llamada». Then give your number digit by digit. In English, 0 is often said \"oh\", and 55 is \"double five\" (UK) or \"five five\" (US).",
           "Two useful phrases for bad connections: \"Sorry, you're breaking up\" (= «Se corta») and \"I can't hear you very well\". To spell a name, use \"That's A for apple, N for...\".",
         ],
         examples: [
           { es: "I'm afraid she's not available right now.", en: "Lo siento, ahora mismo no está disponible." },
-          { es: "Can I take a message?", en: "¿Quiere dejarle un recado?" },
+          { es: "Can I take a message?", en: "¿Quiere dejarle un mensaje?" },
           { es: "Could you ask him to call me back?", en: "¿Le podría decir que me devuelva la llamada?" },
           { es: "My number is 555 0193.", en: "Mi número es el 555 0193." },
           { es: "Sorry, you're breaking up.", en: "Perdona, se corta." },
@@ -309,7 +309,7 @@ export const EN_B1_U30: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "«¿Quiere dejarle un recado?» What does the receptionist say?",
+            question: "«¿Quiere dejarle un mensaje?» What does the receptionist say?",
             options: ["Can I take a message?", "Can I leave a message?", "Do you want to let a message?", "Can I make a message?"],
             correctIndex: 0,
             explanation: "The receptionist TAKES the message; the caller LEAVES it. \"Let\" means «dejar» only in the sense of «permitir».",
@@ -375,7 +375,7 @@ export const EN_B1_U30: Lesson[] = [
           { left: "Who's calling?", right: "¿De parte de quién?" },
           { left: "I'll put you through.", right: "Le paso." },
           { left: "The line is busy.", right: "Está ocupado." },
-          { left: "Can I take a message?", right: "¿Quiere dejar un recado?" },
+          { left: "Can I take a message?", right: "¿Quiere dejar un mensaje?" },
         ],
         explanation: "These are the phrases receptionists use most often on the phone.",
       },
@@ -403,7 +403,7 @@ export const EN_B1_U30: Lesson[] = [
           "Makes a polite request with \"Could you...?\" or \"I'd like to...\"",
           "Asks them to call you back and gives your number",
         ],
-        modelAnswer: "Hi, this is Ana Lopez. I have an appointment with Dr. Smith on Thursday at ten, but I'm afraid I can't make it because I have to work. I'd like to change it to next week, if possible. Could you call me back on 555 0193? Thanks very much. Bye.",
+        modelAnswer: "Hi, this is Ana Lopez. I have an appointment with Dr. Smith on Thursday at ten, but I'm afraid I can't make it because I have to work. I'd like to change it to next week, if possible. Could you call me back at 555 0193? Thanks very much. Bye.",
         explanation: "A good voicemail is short: who you are, why you are calling, what you want, and how to call you back.",
       },
     ],
@@ -460,7 +460,7 @@ export const EN_B1_U30: Lesson[] = [
         examples: [
           { es: "I've forgotten my PIN.", en: "Se me ha olvidado el PIN." },
           { es: "My card has been blocked.", en: "Me han bloqueado la tarjeta." },
-          { es: "The ATM kept my card.", en: "El cajero se ha tragado mi tarjeta." },
+          { es: "The ATM kept my card.", en: "El cajero se tragó mi tarjeta." },
           { es: "I'd like to cancel my card. It's been stolen.", en: "Quería cancelar mi tarjeta. Me la han robado." },
           { es: "There's a payment on my account that I don't recognize.", en: "Hay un cargo en mi cuenta que no reconozco." },
           { es: "Can I get a new card?", en: "¿Me pueden dar una tarjeta nueva?" },
@@ -565,7 +565,7 @@ export const EN_B1_U30: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El cajero se ha tragado mi tarjeta.",
+        source: "El cajero se tragó mi tarjeta.",
         answer: "The ATM kept my card.",
         altAnswers: ["The ATM has kept my card.", "The ATM swallowed my card.", "The ATM has swallowed my card.", "The cash machine kept my card.", "The cash machine has kept my card.", "The cash machine swallowed my card.", "The cash machine has swallowed my card.", "The ATM ate my card.", "The ATM has eaten my card.", "The machine kept my card.", "The machine swallowed my card.", "The machine ate my card."],
         explanation: "«Cajero automático» is \"ATM\" (US) or \"cash machine\" (UK). \"Kept\", \"swallowed\" or informally \"ate\" all work.",
@@ -628,7 +628,7 @@ export const EN_B1_U30: Lesson[] = [
           { es: "Is it still available?", en: "¿Sigue disponible?" },
           { es: "Could I come and see the apartment on Saturday?", en: "¿Podría ir a ver el departamento el sábado?" },
           { es: "My landlord lives in the same building.", en: "Mi casero vive en el mismo edificio." },
-          { es: "I share a flat with two flatmates.", en: "Comparto departamento con dos compañeros." },
+          { es: "I share an apartment with two roommates.", en: "Comparto departamento con dos compañeros." },
         ],
         checkpoint: [
           {
@@ -768,7 +768,7 @@ export const EN_B1_U30: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence is correct?",
-        options: ["The flat has a lot of furniture.", "The flat has a lot of furnitures.", "The flat has many furnitures.", "The flat has much furnitures."],
+        options: ["The apartment has a lot of furniture.", "The apartment has a lot of furnitures.", "The apartment has many furnitures.", "The apartment has much furnitures."],
         correctIndex: 0,
         explanation: "\"Furniture\" is uncountable, like \"information\" and \"advice\". For one item, say \"a piece of furniture\".",
       },
@@ -785,7 +785,7 @@ export const EN_B1_U30: Lesson[] = [
         type: "matching",
         instructions: "Match each word with its meaning.",
         pairs: [
-          { left: "landlord", right: "casero" },
+          { left: "landlord", right: "arrendador, dueño" },
           { left: "tenant", right: "inquilino" },
           { left: "lease", right: "contrato de alquiler" },
           { left: "deposit", right: "depósito" },
@@ -837,7 +837,7 @@ export const EN_B1_U30: Lesson[] = [
           "The receptionist may ask: \"What's the problem?\", \"Is it urgent?\" or \"What's your date of birth?\". A \"walk-in clinic\" (US) is a place where you can see a doctor without an appointment.",
         ],
         examples: [
-          { es: "I'd like to register with a GP.", en: "Quería darme de alta en un médico de cabecera." },
+          { es: "I need to find a primary care doctor.", en: "Necesito buscar un médico de cabecera." },
           { es: "I'd like to make an appointment, please.", en: "Quería pedir cita, por favor." },
           { es: "Is there anything available today?", en: "¿Hay alguna cita disponible hoy?" },
           { es: "It's not urgent, but I'd like to see a doctor this week.", en: "No es urgente, pero me gustaría ver a un médico esta semana." },
@@ -1074,7 +1074,7 @@ export const EN_B1_U30: Lesson[] = [
         examples: [
           { es: "Would it be possible to change rooms?", en: "¿Sería posible cambiar de habitación?" },
           { es: "The room is very noisy because it's next to the elevator.", en: "La habitación tiene mucho ruido porque está al lado del ascensor." },
-          { es: "It smells of smoke.", en: "Huele a tabaco." },
+          { es: "It smells like smoke.", en: "Huele a tabaco." },
           { es: "The room hasn't been cleaned.", en: "No han limpiado la habitación." },
           { es: "Could you send someone up to take a look?", en: "¿Podría mandar a alguien a echarle un vistazo?" },
           { es: "Could I have some extra towels, please?", en: "¿Me podrían dar más toallas, por favor?" },
@@ -1174,8 +1174,8 @@ export const EN_B1_U30: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "La habitación huele a tabaco.",
-        answer: "The room smells of smoke.",
-        altAnswers: ["The room smells like smoke.", "The room smells of cigarettes.", "The room smells like cigarettes.", "The room smells of cigarette smoke.", "The room smells like cigarette smoke.", "The room smells of tobacco.", "The room smells like tobacco."],
+        answer: "The room smells like smoke.",
+        altAnswers: ["The room smells of smoke.", "The room smells of cigarettes.", "The room smells like cigarettes.", "The room smells of cigarette smoke.", "The room smells like cigarette smoke.", "The room smells of tobacco.", "The room smells like tobacco."],
         explanation: "«Oler a» is \"smell of\" or \"smell like\" (more common in the US). Not *smells to.",
       },
       {
@@ -1524,8 +1524,8 @@ export const EN_B1_U30: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "¿Dónde puedo recargar la tarjeta?",
-            answer: "Where can I top up my card?",
-            altAnswers: ["Where can I reload my card?", "Where can I add money to my card?", "Where can I top up the card?", "Where can I reload the card?", "Where can I recharge my card?", "Where can I put money on my card?", "Where can I add money to the card?"],
+            answer: "Where can I reload my card?",
+            altAnswers: ["Where can I top up my card?", "Where can I add money to my card?", "Where can I top up the card?", "Where can I reload the card?", "Where can I recharge my card?", "Where can I put money on my card?", "Where can I add money to the card?"],
             explanation: "«Recargar» a travel card is \"top up\" (UK) or \"reload\" / \"add money to\" (US). English prefers \"my card\" where Spanish says «la tarjeta».",
           },
           {
@@ -1578,8 +1578,8 @@ export const EN_B1_U30: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "¿Dónde tengo que hacer transbordo para ir al aeropuerto?",
-        answer: "Where do I need to change for the airport?",
-        altAnswers: ["Where do I have to change for the airport?", "Where do I change for the airport?", "Where do I need to transfer for the airport?", "Where do I have to transfer for the airport?", "Where do I transfer for the airport?", "Where do I need to change to get to the airport?", "Where do I have to change to get to the airport?", "Where do I need to transfer to get to the airport?", "Where do I have to transfer to get to the airport?", "Where do I need to change trains for the airport?", "Where do I have to change trains to go to the airport?", "Where do I have to change to go to the airport?"],
+        answer: "Where do I need to transfer for the airport?",
+        altAnswers: ["Where do I need to change for the airport?", "Where do I have to change for the airport?", "Where do I change for the airport?", "Where do I need to transfer for the airport?", "Where do I have to transfer for the airport?", "Where do I transfer for the airport?", "Where do I need to change to get to the airport?", "Where do I have to change to get to the airport?", "Where do I need to transfer to get to the airport?", "Where do I have to transfer to get to the airport?", "Where do I need to change trains for the airport?", "Where do I have to change trains to go to the airport?", "Where do I have to change to go to the airport?"],
         explanation: "«Hacer transbordo» is \"change\" (UK) or \"transfer\" (US). \"Change for\" + destination is very common.",
       },
       {
@@ -1707,7 +1707,7 @@ export const EN_B1_U30: Lesson[] = [
           { es: "Yeah, it was great. We went to the beach.", en: "Sí, genial. Fuimos a la playa." },
           { es: "That sounds great!", en: "¡Qué bien!" },
           { es: "Anyway, I'd better get going.", en: "Bueno, me tengo que ir." },
-          { es: "Nice talking to you. See you around!", en: "Me ha gustado hablar contigo. ¡Nos vemos!" },
+          { es: "Nice talking to you. See you around!", en: "Qué gusto hablar contigo. ¡Nos vemos!" },
         ],
         checkpoint: [
           {
@@ -1874,7 +1874,7 @@ export const EN_B1_U30: Lesson[] = [
           { es: "A man has been hit by a car.", en: "Han atropellado a un hombre." },
           { es: "He's injured and he's bleeding a lot.", en: "Está herido y sangra mucho." },
           { es: "She's unconscious, but she's breathing.", en: "Está inconsciente, pero respira." },
-          { es: "Someone stole my wallet on the subway.", en: "Me han robado la cartera en el metro." },
+          { es: "Someone stole my wallet on the subway.", en: "Me robaron la cartera en el metro." },
           { es: "I've been robbed.", en: "Me han robado." },
           { es: "Our apartment has been broken into.", en: "Han entrado a robar en nuestro departamento." },
         ],

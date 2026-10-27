@@ -61,8 +61,8 @@ export const EN_B1_U24: Lesson[] = [
           { es: "It's much too expensive.", en: "Es carísimo, demasiado caro." },
           { es: "We arrived far too late.", en: "Llegamos tardísimo." },
           { es: "The music is way too loud.", en: "La música está altísima." },
-          { es: "These pants are a bit too tight.", en: "Estos pantalones me quedan un poco demasiado ajustados." },
-          { es: "The room is a little too small for us.", en: "La habitación es un poco demasiado pequeña para nosotros." },
+          { es: "These pants are a bit too tight.", en: "Estos pantalones me quedan un poco apretados de más." },
+          { es: "The room is a little too small for us.", en: "La habitación es un poco pequeña de más para nosotros." },
         ],
         checkpoint: [
           {
@@ -550,14 +550,14 @@ export const EN_B1_U24: Lesson[] = [
       {
         heading: "So + adjective or adverb",
         body: [
-          "\"So\" means «tan» and goes before an adjective or an adverb with NO noun after it: \"She's so nice\", \"You speak so fast\", \"The film was so boring.\"",
+          "\"So\" means «tan» and goes before an adjective or an adverb with NO noun after it: \"She's so nice\", \"You speak so fast\", \"The movie was so boring.\"",
           "In conversation, \"so\" is also a strong, emotional \"very\": \"I'm so happy for you!\", \"Thank you so much!\" Unlike \"too\", it is positive or neutral, so it's perfect for compliments: \"You look so elegant.\"",
           "\"So\" can't go before \"a\" + noun. You can't say \"so beautiful day\" or \"so a beautiful day\". For that you need \"such\" (next section).",
         ],
         examples: [
           { es: "She's so nice.", en: "Es tan simpática." },
           { es: "You speak so fast!", en: "¡Hablas tan rápido!" },
-          { es: "The film was so boring.", en: "La película fue aburridísima." },
+          { es: "The movie was so boring.", en: "La película fue aburridísima." },
           { es: "I'm so happy for you!", en: "¡Me alegro muchísimo por ti!" },
           { es: "Your house is so beautiful.", en: "Tu casa es preciosa." },
           { es: "Thank you so much!", en: "¡Muchísimas gracias!" },
@@ -642,13 +642,13 @@ export const EN_B1_U24: Lesson[] = [
       {
         heading: "So ... that / such ... that: the result",
         body: [
-          "To say the result, add \"that\" + a sentence: \"It was so cold that we stayed home\", \"It was such a good film that I saw it twice.\" This is like Spanish «tan... que».",
-          "The same rule applies: \"so\" + adjective (no noun), \"such (a)\" + adjective + noun. \"The film was so good that...\" and \"It was such a good film that...\" mean the same.",
+          "To say the result, add \"that\" + a sentence: \"It was so cold that we stayed home\", \"It was such a good movie that I saw it twice.\" This is like Spanish «tan... que».",
+          "The same rule applies: \"so\" + adjective (no noun), \"such (a)\" + adjective + noun. \"The movie was so good that...\" and \"It was such a good movie that...\" mean the same.",
           "In speaking, \"that\" is often left out: \"I was so tired I fell asleep on the bus.\"",
         ],
         examples: [
           { es: "It was so cold that we stayed home.", en: "Hacía tanto frío que nos quedamos en casa." },
-          { es: "It was such a good film that I saw it twice.", en: "Era una película tan buena que la vi dos veces." },
+          { es: "It was such a good movie that I saw it twice.", en: "Era una película tan buena que la vi dos veces." },
           { es: "I was so tired I fell asleep on the bus.", en: "Estaba tan cansado que me dormí en el autobús." },
           { es: "They were such nice people that we invited them to dinner.", en: "Eran personas tan amables que los invitamos a cenar." },
           { es: "There was so much noise that I couldn't hear anything.", en: "Había tanto ruido que no oía nada." },
@@ -666,7 +666,7 @@ export const EN_B1_U24: Lesson[] = [
           {
             type: "word-order",
             prompt: "Put the words in order.",
-            words: ["It", "was", "such", "a", "good", "film", "that", "I", "saw", "it", "twice."],
+            words: ["It", "was", "such", "a", "good", "movie", "that", "I", "saw", "it", "twice."],
             translation: "Era una película tan buena que la vi dos veces.",
             explanation: "\"Such a\" + adjective + noun + \"that\" + result.",
           },
@@ -1983,7 +1983,7 @@ export const EN_B1_U24: Lesson[] = [
         heading: "Saying what was wrong",
         body: [
           "Most complaints in reviews use the language of this unit: \"The room was too small\", \"The bed wasn't big enough\", \"There weren't enough towels\", \"There was hardly any hot water.\"",
-          "\"Not ... enough\" and \"a bit too\" sound fairer and more polite than \"too\" alone, so readers trust you more: \"The breakfast was a bit too expensive\", \"The staff weren't helpful enough.\"",
+          "\"Not ... enough\" and \"a bit too\" sound fairer and more polite than \"too\" alone, so readers trust you more: \"The breakfast was a bit too expensive\", \"The staff wasn't helpful enough.\"",
           "\"Staff\" means all the people who work there («el personal»). Americans usually use a singular verb (\"The staff was friendly\"); British people often use a plural one (\"The staff were friendly\"). Both are fine.",
         ],
         examples: [
@@ -1991,7 +1991,7 @@ export const EN_B1_U24: Lesson[] = [
           { es: "There weren't enough towels.", en: "No había suficientes toallas." },
           { es: "There was hardly any hot water in the morning.", en: "Por la mañana casi no había agua caliente." },
           { es: "The walls were too thin, so we could hear everything.", en: "Las paredes eran demasiado finas y se oía todo." },
-          { es: "The breakfast was a bit too expensive.", en: "El desayuno era un poco demasiado caro." },
+          { es: "The breakfast was a bit too expensive.", en: "El desayuno salió un poco caro de más." },
           { es: "The staff wasn't helpful enough.", en: "El personal no ayudaba lo suficiente." },
         ],
         checkpoint: [
@@ -2169,7 +2169,7 @@ export const EN_B1_U24: Lesson[] = [
           "Uses \"hardly any\" or \"plenty of\" at least once",
           "Ends with a recommendation using \"recommend ... to\" or \"wouldn't recommend\"",
         ],
-        modelAnswer: "Great location, but too noisy. We stayed at the Hotel Sol for four nights in August. The location was perfect: there are plenty of restaurants and shops nearby, and the staff were so friendly. However, our room was a bit too small for three people, and there weren't enough towels. The walls were so thin that we could hear our neighbors every night. Overall, it was a good place for a short stay, and I'd recommend it to couples, but not to families.",
+        modelAnswer: "Great location, but too noisy. We stayed at the Hotel Sol for four nights in August. The location was perfect: there are plenty of restaurants and stores nearby, and the staff was so friendly. However, our room was a bit too small for three people, and there weren't enough towels. The walls were so thin that we could hear our neighbors every night. Overall, it was a good place for a short stay, and I'd recommend it to couples, but not to families.",
         explanation: "Check \"too small for three people\", \"enough towels\", \"so thin that...\", \"plenty of\" and \"recommend it to\".",
       },
       {
@@ -2239,7 +2239,7 @@ export const EN_B1_U24: Lesson[] = [
         heading: "In the kitchen: oven, stove, saucepan",
         body: [
           "The \"oven\" is «el horno»; the \"stove\" (British: \"cooker\") is «la cocina» or «los fogones» where you put pans; the \"microwave\" is «el microondas».",
-          "Pans: a \"saucepan\" or \"pot\" is deep, for boiling («cazo», «olla»); a \"frying pan\" (American: also \"skillet\") is flat, for frying («sartén»). You also need a \"knife\", a \"cutting board\" («tabla de cortar») and a \"bowl\" («cuenco», «bol»).",
+          "Pans: a \"saucepan\" or \"pot\" is deep, for boiling («cazo», «olla»); a \"frying pan\" (American: also \"skillet\") is flat, for frying («sartén»). You also need a \"knife\", a \"cutting board\" («tabla de cortar») and a \"bowl\" («tazón», «bol»).",
           "Big trap: a \"cooker\" is a machine, not a person! The person who cooks is a \"cook\" (or a \"chef\" in a restaurant). \"My mother is a great cook\" means she cooks very well.",
         ],
         examples: [
@@ -2279,7 +2279,7 @@ export const EN_B1_U24: Lesson[] = [
         body: [
           "Spanish «cocina» has three English words: the room is the \"kitchen\", the machine is the \"stove\", and the style of food of a country is \"cuisine\" or simply \"food\": \"Mexican cuisine\", \"I love Thai food.\"",
           "Spanish «plato» has two: the object you eat from is a \"plate\", and the food itself is a \"dish\": \"Paella is a typical Spanish dish.\" A part of a meal is a \"course\": \"main course\" («segundo plato» or «plato fuerte»).",
-          "A \"recipe\" (/ˈresəpi/, three syllables) is «una receta» for cooking. A doctor's «receta» is a \"prescription\", and a \"receipt\" is «un tique» or «un recibo» from a store.",
+          "A \"recipe\" (/ˈresəpi/, three syllables) is «una receta» for cooking. A doctor's «receta» is a \"prescription\", and a \"receipt\" is «un recibo» or «un comprobante» from a store.",
         ],
         examples: [
           { es: "We need a bigger kitchen.", en: "Necesitamos una cocina más grande." },

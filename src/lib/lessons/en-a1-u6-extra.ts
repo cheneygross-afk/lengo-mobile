@@ -946,7 +946,7 @@ export const EN_A1_U6_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Mi hijo tiene los ojos marrones y el pelo liso.",
+        source: "Mi hijo tiene los ojos cafés y el pelo liso.",
         answer: "My son has brown eyes and straight hair.",
         explanation: "Un solo \"has\" para las dos cosas, sin \"the\" y con el adjetivo delante.",
       },

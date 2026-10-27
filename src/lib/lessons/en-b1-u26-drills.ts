@@ -96,7 +96,7 @@ export const EN_B1_U26_DRILLS: Lesson[] = [
       wo("She picked her keys up from the table.", "Agarró las llaves de la mesa.",
         "With a noun object, both orders are fine: \"picked her keys up\" or \"picked up her keys\".",
         ["She picked up her keys from the table."]),
-      tr("Le presté mi libro y todavía no me lo ha devuelto.", "I lent {him|her} my book and {he|she} still hasn't given it back{| to me}.",
+      tr("Le presté mi libro y todavía no me lo ha devuelto.", ["I lent him my book and he still hasn't given it back{| to me}.", "I lent her my book and she still hasn't given it back{| to me}."],
         "«Devolver» something to its owner is \"give back\", separable: \"given it back\". The present perfect with \"still\" goes with «todavía no»."),
       lc("The plane took off an hour late.", [
         "El avión despegó con una hora de retraso.",
@@ -139,8 +139,8 @@ export const EN_B1_U26_DRILLS: Lesson[] = [
       ], "\"Sort out\" means «solucionar» or «arreglar» a problem. With \"it\", the pronoun goes in the middle: \"sort it out\"."),
       fb("After dinner, the kids ___ and I take out the trash.", ["do the dishes", "wash the dishes"], "Después de cenar, los niños [lavan los platos] y yo saco la basura.",
         "American English says \"do the dishes\" (or \"wash the dishes\"). \"Wash up\" means «lavarse las manos» in the US, so avoid it here."),
-      tr("Me llevo muy bien con mi jefa.", "I get {on|along} {really |very |}well with my boss.",
-        "«Llevarse bien con» is \"get on with\" (\"get along with\" in the US), a three-part verb: the person goes at the end."),
+      tr("Me llevo muy bien con mi jefa.", "I get {along|on} {really |very |}well with my boss.",
+        "«Llevarse bien con» is \"get along with\" (British English also says \"get on with\"), a three-part verb: the person goes at the end."),
       fb("They ___ after five years together.", "broke up", "[Rompieron] después de cinco años juntos.",
         "«Romper» or «cortar» a relationship is \"break up\". Never *they cut or *they broke. To say who with: \"break up with someone\"."),
       tr("¿Por qué no la invitas a salir?", "Why don't you ask her out?",
@@ -151,8 +151,8 @@ export const EN_B1_U26_DRILLS: Lesson[] = [
         "I can't put my neighbor up with.",
         "I can't put up my neighbor.",
       ], "«Soportar» (tolerate) is \"put up with\", never split. \"Support\" is a false friend: it means «apoyar»."),
-      fb("Please ___ this form and sign it at the bottom.", ["fill in", "fill out"], "Por favor, [llene] este formulario y fírmelo abajo.",
-        "\"Fill in\" or \"fill out\" a form (\"fill out\" is more American). Both are separable: \"fill it in\"."),
+      fb("Please ___ this form and sign it at the bottom.", ["fill out", "fill in"], "Por favor, [llene] este formulario y fírmelo abajo.",
+        "\"Fill out\" (American) or \"fill in\" (British) a form. Both are separable: \"fill it out\"."),
       tr("Tengo que entregar el informe el lunes.", "I have to {hand in the report|hand the report in|turn in the report|turn the report in} on Monday.",
         "«Entregar» homework or a report is \"hand in\" (or \"turn in\" in the US). With a noun, the object can go in the middle or at the end."),
       mt("Match each phrasal verb with its meaning.", [
@@ -164,7 +164,7 @@ export const EN_B1_U26_DRILLS: Lesson[] = [
       dc("Who's going to take over when the manager retires?",
         "\"Take over\" (hacerse cargo) with no object here. Listen for the linking: \"take over\" sounds like \"tay-kover\"."),
       sp("I'm looking forward to meeting your parents.", "\"Looking forward to\" + -ing: \"meeting\", not *meet.",
-        "Stress \"forward\" and \"parents\".", "Say it in English: Tengo ganas de conocer a tus papás."),
+        "Stress \"forward\" and \"parents\".", "Say it in English: «Tengo ganas de conocer a tus papás»"),
       // Traps: the whole first half combined
       tr("No encuentro mis lentes. ¿Me ayudas a buscarlos?", "I can't find my glasses. {Can|Could|Will} you help me look for them?",
         "Two traps: «buscar» something lost is \"look for\" (inseparable, \"look for them\"), not \"look up\"; and \"glasses\" is plural, so \"them\", never *it."),
@@ -183,7 +183,7 @@ export const EN_B1_U26_DRILLS: Lesson[] = [
       dc("Could you fill it in and give it back to me?",
         "Two separable verbs, two pronouns in the middle: \"fill it in\", \"give it back\"."),
       sp("Turn it off and put it in your bag.", "\"Turn it off\": the pronoun goes in the middle of the separable verb.",
-        "Link \"turn it off\" smoothly: \"tur-ni-toff\".", "Say it in English: Apágalo y guárdalo en tu bolso."),
+        "Link \"turn it off\" smoothly: \"tur-ni-toff\".", "Say it in English: «Apágalo y guárdalo en tu bolso»"),
     ],
   ),
 
@@ -271,7 +271,7 @@ export const EN_B1_U26_DRILLS: Lesson[] = [
       wo("She took part in a marathon last year.", "Participó en un maratón el año pasado.",
         "«Participar en» is \"take part in\". Don't forget \"in\"."),
       sp("I'll give you a call when I get home.", "\"Give someone a call\" (llamar) and \"get home\" with no \"to\".",
-        "Stress \"call\" and \"home\".", "Say it in English: Te llamo cuando llegue a casa."),
+        "Stress \"call\" and \"home\".", "Say it in English: «Te llamo cuando llegue a casa»"),
       fb("We had to ___ the trip until July.", ["put off", "postpone"], "Tuvimos que [aplazar] el viaje hasta julio.",
         "\"Put off\" is the everyday word for «aplazar»; \"postpone\" is correct but more formal."),
       tr("Le ofrecieron un ascenso, pero lo rechazó.", "{They offered him|He was offered} a promotion, but he {turned it down|refused it|rejected it}.",
@@ -284,7 +284,7 @@ export const EN_B1_U26_DRILLS: Lesson[] = [
       ], "\"Find out\" is «enterarse» or «averiguar». It's the natural, everyday choice instead of \"discover\"."),
       // Traps: the whole unit
       tr("Me tomé el día libre para hacer las compras y lavar la ropa.", ["I took the day off to do the {shopping|grocery shopping} and the laundry.", "I took the day off to do the {shopping|grocery shopping} and do the laundry."],
-        "«Hacer la compra» and «lavar la ropa» are both \"do\": \"do the shopping\", \"do the laundry\". \"Take the day off\" for «tomarse el día libre»."),
+        "«Hacer las compras» and «lavar la ropa» are both \"do\": \"do the shopping\", \"do the laundry\". \"Take the day off\" for «tomarse el día libre»."),
       mc("Which sentence is correct?", [
         "I made a mistake, so I'm taking the test again.",
         "I did a mistake, so I'm taking the test again.",
@@ -302,7 +302,7 @@ export const EN_B1_U26_DRILLS: Lesson[] = [
       fb("I'm really looking forward to ___ a break next week.", ["taking", "having"], "Tengo muchas ganas de [tomarme] un descanso la semana que viene.",
         "Two rules together: \"look forward to\" + -ing, and \"take a break\". So \"to taking\", not *to take."),
       sp("Take a deep breath and don't get nervous.", "\"Take a breath\" and \"get nervous\" (ponerse nervioso).",
-        "Stress \"deep\" and \"nervous\".", "Say it in English: Respira hondo y no te pongas nervioso."),
+        "Stress \"deep\" and \"nervous\".", "Say it in English: «Respira hondo y no te pongas nervioso»"),
     ],
   ),
 ];

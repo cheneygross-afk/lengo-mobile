@@ -297,7 +297,7 @@ export const EN_B1_U35: Lesson[] = [
         heading: "Turn 1: Making plans with a friend",
         body: [
           "For plans already arranged, English uses the present continuous: \"I'm meeting Ana on Saturday\". For a decision made at the moment of speaking, use \"will\": \"OK, I'll come with you\". For an intention, use \"going to\": \"I'm going to stay home tonight\".",
-          "To make suggestions, use \"Why don't we...?\", \"Shall we...?\" or \"How about\" + -ing. Spanish speakers often say *Do we go to the cinema? for «¿Vamos al cine?», but that is not a suggestion in English.",
+          "To make suggestions, use \"Why don't we...?\", \"Should we...?\" or \"How about\" + -ing. Spanish speakers often say *Do we go to the movies? for «¿Vamos al cine?», but that is not a suggestion in English.",
           "To accept or refuse politely: \"Sounds great!\", \"I'd love to\", \"I'm afraid I can't\", \"Maybe another time\".",
         ],
         examples: [
@@ -320,9 +320,9 @@ export const EN_B1_U35: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Your friend says: «¿Vamos a la playa?» How do you say it in English?",
-            options: ["Shall we go to the beach?", "Do we go to the beach?", "We go to the beach?", "Go we to the beach?"],
+            options: ["Should we go to the beach?", "Do we go to the beach?", "We go to the beach?", "Go we to the beach?"],
             correctIndex: 0,
-            explanation: "Suggestions use \"Shall we...?\", \"Why don't we...?\" or \"Let's...\". The present simple question *Do we go...? asks about a habit.",
+            explanation: "Suggestions use \"Should we...?\", \"Why don't we...?\" or \"Let's...\". The present simple question *Do we go...? asks about a habit.",
           },
         ],
       },
@@ -1578,7 +1578,7 @@ export const EN_B1_U35: Lesson[] = [
           { es: "I've seen five flats so far.", en: "He visto cinco departamentos hasta ahora." },
           { es: "The second one was bigger, but it wasn't as bright.", en: "El segundo era más grande, pero no tan luminoso." },
           { es: "I'm looking for a flat that has a balcony.", en: "Busco un departamento que tenga balcón." },
-          { es: "When can I move in?", en: "¿Cuándo puedo entrar a vivir?" },
+          { es: "When can I move in?", en: "¿Cuándo me puedo mudar?" },
         ],
         checkpoint: [
           {
@@ -1620,7 +1620,7 @@ export const EN_B1_U35: Lesson[] = [
         examples: [
           { es: "I've been working as a receptionist for three years.", en: "Llevo tres años trabajando de recepcionista." },
           { es: "In 2021 I worked in a hotel in Madrid.", en: "En 2021 trabajé en un hotel en Madrid." },
-          { es: "I'm good at dealing with customers.", en: "Se me da bien tratar con clientes." },
+          { es: "I'm good at dealing with customers.", en: "Soy buena para tratar con clientes." },
           { es: "I was responsible for a team of five people.", en: "Era responsable de un equipo de cinco personas." },
           { es: "Could you tell me what the working hours are?", en: "¿Me podría decir cuál es el horario?" },
         ],
@@ -2347,7 +2347,7 @@ export const EN_B1_U35: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English.",
-            sentence: "In a village there are ___ shops and restaurants.",
+            sentence: "In a village there are ___ stores and restaurants.",
             answer: "fewer",
             en: "En un pueblo hay [menos] tiendas y restaurantes.",
             explanation: "With plural nouns, \"fewer\"; with uncountable nouns, \"less\".",
@@ -2860,7 +2860,7 @@ export const EN_B1_U35: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English.",
-            sentence: "I need to ___ what time the shop closes.",
+            sentence: "I need to ___ what time the store closes.",
             answer: "find out",
             altAnswers: ["check"],
             en: "Tengo que [averiguar] a qué hora cierra la tienda.",

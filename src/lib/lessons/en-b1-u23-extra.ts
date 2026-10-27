@@ -534,7 +534,7 @@ export const EN_B1_U23_EXTRA: Lesson[] = [
         prompt: "Translate into English.",
         source: "Vamos a pedir una pizza, ¿te parece?",
         answer: "Let's order a pizza, shall we?",
-        altAnswers: ["Let's get a pizza, shall we?", "Let's order pizza, shall we?"],
+        altAnswers: ["Let's get a pizza, shall we?", "Let's order pizza, shall we?", "Let's order a pizza, okay?", "Let's get a pizza, okay?"],
         explanation: "After \"Let's...\" the tag is \"shall we?\".",
       },
       {

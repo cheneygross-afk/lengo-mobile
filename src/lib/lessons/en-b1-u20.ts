@@ -558,7 +558,7 @@ export const EN_B1_U20: Lesson[] = [
         body: [
           "A polite request (\"Could you help me?\", \"Please close the door\") is reported with \"ask\" + person + \"to\" + verb: \"She asked me to help her\", \"He asked me to close the door\".",
           "Here \"ask\" means «pedir», not «preguntar». So «Me pidió que lo ayudara» is \"He asked me to help him\". The negative works the same: \"He asked me not to call\" is «Me pidió que no llamara».",
-          "Don't use \"ask for\" with a verb: *She asked for me to help is unnatural. \"Ask for\" is for things: \"She asked for help\", \"He asked for the bill\".",
+          "Don't use \"ask for\" with a verb: *She asked for me to help is unnatural. \"Ask for\" is for things: \"She asked for help\", \"He asked for the check\".",
         ],
         examples: [
           { es: "She asked me to help her.", en: "Me pidió que la ayudara." },
@@ -674,7 +674,7 @@ export const EN_B1_U20: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "He ___ the bill.",
+        sentence: "He ___ the check.",
         answer: "asked for",
         en: "[Pidió] la cuenta.",
         explanation: "To ask for a thing, use \"ask for\". \"Ask\" + person + \"to\" is for actions.",
@@ -1667,12 +1667,12 @@ export const EN_B1_U20: Lesson[] = [
         body: [
           "\"Ask\" covers both «preguntar» and «pedir». \"Ask\" + question/person = «preguntar»: \"Can I ask you a question?\", \"Ask the teacher.\" \"Ask about\" = «preguntar por»: \"She asked about your new job.\"",
           "\"Ask for\" + thing = «pedir» something: \"ask for help\", \"ask for the bill\". \"Ask\" + person + \"for\" + thing: \"I asked my dad for money.\" \"Ask\" + person + \"to\" + verb = «pedir que haga»: \"I asked him to wait.\"",
-          "Careful: \"I asked for the bill\" (I requested it), but *I asked the bill means nothing. And in a restaurant, «pedir» food is \"order\": \"I ordered the fish.\"",
+          "Careful: \"I asked for the check\" (I requested it), but *I asked the check means nothing. And in a restaurant, «pedir» food is \"order\": \"I ordered the fish.\"",
         ],
         examples: [
           { es: "Can I ask you a question?", en: "¿Te puedo hacer una pregunta?" },
           { es: "She asked about your new job.", en: "Preguntó por tu nuevo trabajo." },
-          { es: "We asked for the bill.", en: "Pedimos la cuenta." },
+          { es: "We asked for the check.", en: "Pedimos la cuenta." },
           { es: "I asked my dad for money.", en: "Le pedí dinero a mi padre." },
           { es: "I asked him to wait.", en: "Le pedí que esperara." },
           { es: "I ordered the fish.", en: "Pedí el pescado." },

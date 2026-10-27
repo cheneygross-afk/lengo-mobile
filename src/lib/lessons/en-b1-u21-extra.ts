@@ -26,7 +26,7 @@ export const EN_B1_U21_EXTRA: Lesson[] = [
         examples: [
           { es: "I enjoy walking in the rain.", en: "Disfruto caminando bajo la lluvia." },
           { es: "She avoids driving downtown.", en: "Evita manejar por el centro." },
-          { es: "Would you mind waiting outside?", en: "¿Le importaría esperar fuera?" },
+          { es: "Would you mind waiting outside?", en: "¿Le importaría esperar afuera?" },
           { es: "He suggested ordering pizza.", en: "Propuso pedir pizza." },
           { es: "My phone keeps freezing.", en: "Mi teléfono no para de bloquearse." },
           { es: "I'm considering moving to Canada.", en: "Estoy pensando en mudarme a Canadá." },

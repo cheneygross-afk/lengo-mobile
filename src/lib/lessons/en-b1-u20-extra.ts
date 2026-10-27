@@ -478,7 +478,7 @@ export const EN_B1_U20_EXTRA: Lesson[] = [
         body: [
           "Spanish reports orders with «que» + subjunctive: «Me dijo que esperara». English uses an infinitive: \"He told me to wait\". There is no \"that\" and no subjunctive: *He told me that I wait is wrong.",
           "Use \"tell\" for orders and \"ask\" for polite requests: \"She asked me to close the window\" («Me pidió que cerrara la ventana»), not *She asked me that I close.",
-          "Both verbs need the person: \"told me\", \"asked us\", \"told the kids\". «Pedir» here is \"ask\", not *ask for: \"ask for\" is for things (\"ask for the bill\").",
+          "Both verbs need the person: \"told me\", \"asked us\", \"told the kids\". «Pedir» here is \"ask\", not *ask for: \"ask for\" is for things (\"ask for the check\").",
         ],
         examples: [
           { es: "He told me to wait.", en: "Me dijo que esperara. (incorrecto: *told me that I wait)" },
@@ -625,11 +625,11 @@ export const EN_B1_U20_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "Carlos asked the waiter ___ the bill.",
+        sentence: "Carlos asked the waiter ___ the check.",
         answer: "to bring",
         altAnswers: ["for"],
         en: "Carlos le pidió al mesero [que trajera] la cuenta.",
-        explanation: "\"Asked the waiter to bring the bill\". (\"Asked the waiter for the bill\" is also natural: \"ask for\" + thing.)",
+        explanation: "\"Asked the waiter to bring the check\". (\"Asked the waiter for the check\" is also natural: \"ask for\" + thing.)",
       },
       {
         type: "translate",

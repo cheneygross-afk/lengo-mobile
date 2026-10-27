@@ -1234,7 +1234,7 @@ export const EN_B2_U22: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order.",
-        words: ["It", "was", "such", "a", "good", "film", "that", "I", "saw", "it", "twice."],
+        words: ["It", "was", "such", "a", "good", "movie", "that", "I", "saw", "it", "twice."],
         translation: "Era una película tan buena que la vi dos veces.",
         explanation: "\"Such a\" + adjective + noun + \"that\" + result.",
       },
@@ -1594,13 +1594,13 @@ export const EN_B2_U22: Lesson[] = [
         heading: "Fewer cars, less noise",
         body: [
           "Compare amounts with \"more\", \"fewer\" (countable) and \"less\" (uncountable): \"fewer cars\", \"less pollution\", \"more green space\". \"Less cars\" is common in speech, but \"fewer\" is the correct choice in writing.",
-          "Other useful quantifiers: \"plenty of\" (more than enough), \"hardly any\" (almost none), \"not many\" / \"not much\", \"too many\" / \"too much\". «Apenas hay tiendas» is \"There are hardly any shops\".",
+          "Other useful quantifiers: \"plenty of\" (more than enough), \"hardly any\" (almost none), \"not many\" / \"not much\", \"too many\" / \"too much\". «Apenas hay tiendas» is \"There are hardly any stores\".",
           "Watch the Spanish singulars: «mucha gente» is \"a lot of people\" and takes a plural verb (\"people are\"); «hay mucho tráfico» is \"there's a lot of traffic\" (uncountable, singular).",
         ],
         examples: [
           { es: "There are fewer cars and less pollution.", en: "Hay menos carros y menos contaminación." },
           { es: "There's plenty of green space.", en: "Hay muchos espacios verdes." },
-          { es: "There are hardly any shops in the village.", en: "Apenas hay tiendas en el pueblo." },
+          { es: "There are hardly any stores in the village.", en: "Apenas hay tiendas en el pueblo." },
           { es: "There are too many tourists in the center.", en: "Hay demasiados turistas en el centro." },
           { es: "People are friendlier in small towns.", en: "La gente es más simpática en los pueblos. (incorrecto: *people is)" },
         ],

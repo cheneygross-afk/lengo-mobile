@@ -263,7 +263,7 @@ export const EN_A2_U16_EXTRA: Lesson[] = [
     level: "EN-A2",
     number: 2,
     title: "Práctica extra: el orden de la frase",
-    summary: "Práctica del orden de las palabras: el verbo y su objeto no se separan (\"I like football very much\"), los adverbios de frecuencia van delante del verbo principal y el tiempo va al final o al principio.",
+    summary: "Práctica del orden de las palabras: el verbo y su objeto no se separan (\"I like soccer very much\"), los adverbios de frecuencia van delante del verbo principal y el tiempo va al final o al principio.",
     duration: "10 min",
     sections: [
       {
@@ -459,8 +459,8 @@ export const EN_A2_U16_EXTRA: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "We often play football in the park on Sundays.",
-        explanation: "\"Often\" delante del verbo, luego objeto (\"football\"), lugar (\"in the park\") y tiempo (\"on Sundays\").",
+        audio: "We often play soccer in the park on Sundays.",
+        explanation: "\"Often\" delante del verbo, luego objeto (\"soccer\"), lugar (\"in the park\") y tiempo (\"on Sundays\").",
       },
       {
         type: "translate",

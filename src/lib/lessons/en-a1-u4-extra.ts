@@ -676,6 +676,7 @@ export const EN_A1_U4_EXTRA: Lesson[] = [
       {
         heading: "Recordatorio: qué hay y qué hacen",
         body: [
+          "Para decir «hay» se usa \"there is\" (singular) y \"there are\" (plural): \"There is a man\", \"There are two dogs\". Aquí los usarás para describir; los estudiarás a fondo más adelante en este nivel.",
           "Para describir una foto, primero di qué hay (\"There is a man...\", \"There are two girls...\") y después qué hace cada persona, en continuo: \"He is reading\", \"They are laughing\".",
           "Usa el continuo, no el simple: en la foto «una mujer lleva una bolsa» es \"A woman is carrying a bag\", no *A woman carries a bag. Y no olvides el sujeto en la segunda frase: \"She is smiling\", nunca *Is smiling.",
         ],
@@ -844,7 +845,7 @@ export const EN_A1_U4_EXTRA: Lesson[] = [
           { left: "coat", right: "abrigo" },
           { left: "skirt", right: "falda" },
           { left: "sweater", right: "suéter" },
-          { left: "sneakers", right: "zapatillas deportivas" },
+          { left: "sneakers", right: "tenis" },
           { left: "dress", right: "vestido" },
         ],
         explanation: "Ropa básica para tus descripciones. En Reino Unido, \"sneakers\" son \"trainers\".",

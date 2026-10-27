@@ -28,7 +28,7 @@ export const EN_B2_U14_EXTRA: Lesson[] = [
           { es: "My father, who is a doctor, works in Lima.", en: "Mi padre, que es médico, trabaja en Lima. (incorrecto: *My father, that is a doctor)" },
           { es: "The doctor who saw me was very kind.", en: "El médico que me atendió fue muy amable." },
           { es: "Madrid, which is the capital, has more than three million people.", en: "Madrid, que es la capital, tiene más de tres millones de habitantes." },
-          { es: "The car that I bought last year has already broken down.", en: "El carro que compré el año pasado ya se ha averiado." },
+          { es: "The car that I bought last year has already broken down.", en: "El carro que compré el año pasado ya se descompuso." },
           { es: "Our teacher, whose husband is Irish, speaks with a slight accent.", en: "Nuestra profesora, cuyo marido es irlandés, habla con un ligero acento." },
         ],
         checkpoint: [
@@ -312,7 +312,7 @@ export const EN_B2_U14_EXTRA: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "The bus broke down, ___ meant we had to walk.",
             answer: "which",
-            en: "El autobús se averió, [lo que] significó que tuvimos que caminar.",
+            en: "El autobús se descompuso, [lo que] significó que tuvimos que caminar.",
             explanation: "«Lo que» refers to the whole previous sentence (the bus broke down): comma + \"which\".",
           },
           {
@@ -1329,18 +1329,18 @@ export const EN_B2_U14_EXTRA: Lesson[] = [
     level: "EN-B2",
     number: 6,
     title: "Extra Practice: When Can You Drop that?",
-    summary: "Drill leaving out \"that / who / which\" when it is the object (\"the film I saw\") but never when it is the subject, and never add an extra pronoun (*the book that I read it).",
+    summary: "Drill leaving out \"that / who / which\" when it is the object (\"the movie I saw\") but never when it is the subject, and never add an extra pronoun (*the book that I read it).",
     duration: "10 min",
     sections: [
       {
         heading: "Quick recap: object yes, subject no",
         body: [
-          "Spanish always needs «que». English can leave out the relative pronoun in a defining clause when it is the OBJECT of the verb, that is, when another subject follows it: \"the film (that) I saw\", \"the man (who) we met\". Native speakers drop it most of the time in conversation.",
+          "Spanish always needs «que». English can leave out the relative pronoun in a defining clause when it is the OBJECT of the verb, that is, when another subject follows it: \"the movie (that) I saw\", \"the man (who) we met\". Native speakers drop it most of the time in conversation.",
           "When the pronoun is the SUBJECT (a verb follows it directly), it must stay: \"the man who lives next door\", never *the man lives next door is my teacher.",
           "The pronoun already stands for the object, so do not repeat it: *the book that I read it, *the woman who I met her. And you can never drop it in a non-defining clause (with commas).",
         ],
         examples: [
-          { es: "The film we saw last night was great.", en: "La película que vimos anoche era genial." },
+          { es: "The movie we saw last night was great.", en: "La película que vimos anoche era genial." },
           { es: "The man who lives next door is a pilot.", en: "El hombre que vive al lado es piloto. (incorrecto: *The man lives next door is a pilot)" },
           { es: "Is this the book you lent me?", en: "¿Es este el libro que me prestaste? (incorrecto: *the book that you lent me it)" },
           { es: "Everything she cooks is delicious.", en: "Todo lo que cocina está buenísimo." },
@@ -1384,13 +1384,13 @@ export const EN_B2_U14_EXTRA: Lesson[] = [
         type: "multiple-choice",
         question: "Which sentence is NOT correct?",
         options: [
-          "The woman works in that shop is my aunt.",
-          "The woman who works in that shop is my aunt.",
-          "The woman that works in that shop is my aunt.",
-          "The woman you saw in that shop is my aunt.",
+          "The woman works in that store is my aunt.",
+          "The woman who works in that store is my aunt.",
+          "The woman that works in that store is my aunt.",
+          "The woman you saw in that store is my aunt.",
         ],
         correctIndex: 0,
-        explanation: "\"Who\" is the subject of \"works\", so it cannot be dropped. In \"The woman you saw in that shop\", \"you\" is the subject, so dropping is fine.",
+        explanation: "\"Who\" is the subject of \"works\", so it cannot be dropped. In \"The woman you saw in that store\", \"you\" is the subject, so dropping is fine.",
       },
       {
         type: "translate",

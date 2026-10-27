@@ -1756,7 +1756,7 @@ export const EN_A1_U6_MORE: Lesson[] = [
         ],
         examples: [
           { es: "My niece is tall and very funny.", en: "Mi sobrina es alta y muy graciosa." },
-          { es: "My partner has brown eyes.", en: "Mi pareja tiene los ojos marrones." },
+          { es: "My partner has brown eyes.", en: "Mi pareja tiene los ojos cafés." },
           { es: "What does your cousin look like?", en: "¿Cómo es tu primo físicamente?" },
         ],
         checkpoint: [
@@ -1764,7 +1764,7 @@ export const EN_A1_U6_MORE: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Traduce al inglés.",
-            source: "Mi pareja tiene los ojos marrones.",
+            source: "Mi pareja tiene los ojos cafés.",
             answer: "My partner has brown eyes.",
             explanation: "\"Has\" + color + \"eyes\", sin \"the\". «Pareja» es \"partner\", no \"couple\".",
           },

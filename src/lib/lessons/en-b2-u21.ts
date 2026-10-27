@@ -111,7 +111,7 @@ export const EN_B2_U21: Lesson[] = [
         ],
         examples: [
           { es: "The sequel is just as good as the first movie.", en: "La secuela es igual de buena que la primera película." },
-          { es: "My new phone is nearly as expensive as a laptop.", en: "Mi teléfono nuevo es casi tan caro como un portátil." },
+          { es: "My new phone is nearly as expensive as a laptop.", en: "Mi teléfono nuevo es casi tan caro como una laptop." },
           { es: "The test wasn't quite as hard as I expected.", en: "El examen no fue tan difícil como esperaba." },
           { es: "This city isn't nearly as safe as it used to be.", en: "Esta ciudad no es ni de lejos tan segura como antes." },
           { es: "Rent here is twice as expensive as in my hometown.", en: "El alquiler aquí es el doble de caro que en mi ciudad." },
@@ -256,10 +256,10 @@ export const EN_B2_U21: Lesson[] = [
         audio: "This laptop is twice as expensive as that one.",
         question: "What did you hear?",
         options: [
-          "Este portátil es el doble de caro que ese.",
-          "Este portátil es la mitad de caro que ese.",
-          "Este portátil es casi tan caro como ese.",
-          "Este portátil es un poco más caro que ese.",
+          "Esta laptop es el doble de cara que esa.",
+          "Esta laptop es la mitad de cara que esa.",
+          "Esta laptop es casi tan cara como esa.",
+          "Esta laptop es un poco más cara que esa.",
         ],
         correctIndex: 0,
         explanation: "\"Twice as expensive as\" means «el doble de caro que». \"Half as\" would be «la mitad de».",
@@ -2095,7 +2095,7 @@ export const EN_B2_U21: Lesson[] = [
         answer: "There are fewer and fewer stores downtown.",
         altAnswers: alts(
           "There are fewer and fewer stores downtown.",
-          "There are fewer and fewer {shops|stores} {downtown|in the center|in the city center|in the town center|in town}.",
+          "There are fewer and fewer {stores|shops} {downtown|in the center|in the city center|in the town center|in town}.",
         ),
         explanation: "«Cada vez menos» + countable noun is \"fewer and fewer\". With an uncountable noun it would be \"less and less\".",
       },

@@ -734,13 +734,13 @@ export const EN_B1_U27: Lesson[] = [
       {
         heading: "By far the best",
         body: [
-          "To make a superlative stronger, use \"by far\": \"It's by far the best restaurant in town\" («es con diferencia el mejor restaurante»). You can also put it at the end: \"It's the best restaurant in town by far\".",
+          "To make a superlative stronger, use \"by far\": \"It's by far the best restaurant in town\" («es por mucho el mejor restaurante»). You can also put it at the end: \"It's the best restaurant in town by far\".",
           "Remember that the superlative needs \"the\": \"the best\", \"the most beautiful\". After a superlative, places take \"in\", not \"of\": \"the tallest building in the world\", never *of the world.",
           "«Uno de los mejores» is \"one of the best\" + a PLURAL noun: \"one of the best players\", not *one of the best player.",
         ],
         examples: [
-          { es: "It's by far the best pizza in town.", en: "Es con diferencia la mejor pizza de la ciudad." },
-          { es: "She's by far the smartest student in the class.", en: "Es con diferencia la alumna más lista de la clase." },
+          { es: "It's by far the best pizza in town.", en: "Es por mucho la mejor pizza de la ciudad." },
+          { es: "She's by far the smartest student in the class.", en: "Es por mucho la alumna más inteligente de la clase." },
           { es: "It's the tallest building in the world.", en: "Es el edificio más alto del mundo." },
           { es: "He's one of the best players on the team.", en: "Es uno de los mejores jugadores del equipo." },
         ],
@@ -872,10 +872,10 @@ export const EN_B1_U27: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Es con diferencia la mejor película del año.",
+        source: "Es por mucho la mejor película del año.",
         answer: "It's by far the best movie of the year.",
         altAnswers: ["It's the best movie of the year by far.", "It's by far the best film of the year.", "It's the best film of the year by far.", "It is by far the best movie of the year."],
-        explanation: "«Con diferencia» is \"by far\". With periods of time, English uses \"of\": \"the best movie of the year\".",
+        explanation: "«Por mucho» is \"by far\". With periods of time, English uses \"of\": \"the best movie of the year\".",
       },
       {
         type: "fill-blank",
@@ -1012,7 +1012,7 @@ export const EN_B1_U27: Lesson[] = [
           { es: "It was the least interesting part of the trip.", en: "Fue la parte menos interesante del viaje." },
           { es: "He's less patient than his sister.", en: "Es menos paciente que su hermana." },
           { es: "It's the best day of my life.", en: "Es el mejor día de mi vida." },
-          { es: "Today was worse than yesterday.", en: "Hoy ha sido peor que ayer." },
+          { es: "Today was worse than yesterday.", en: "Hoy fue peor que ayer." },
         ],
         checkpoint: [
           {
@@ -1929,7 +1929,7 @@ export const EN_B1_U27: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Tiene una chaqueta de cuero marrón.",
+        source: "Tiene una chaqueta de cuero café.",
         answer: "She has a brown leather jacket.",
         altAnswers: ["He has a brown leather jacket.", "She's got a brown leather jacket.", "He's got a brown leather jacket."],
         explanation: "Color before material, and no «de»: \"a brown leather jacket\".",
@@ -2444,7 +2444,7 @@ export const EN_B1_U27: Lesson[] = [
           "Uses agree correctly (I agree, I don't agree), never I am agree",
           "Uses at least two extreme adjectives with absolutely or really, not very",
         ],
-        modelAnswer: "In my opinion, cities should have fewer cars in the center, but I don't agree with banning them completely. The traffic in my city is absolutely awful: every morning the streets are full and the noise is terrible. When I get to work I'm already exhausted. Personally, I think better buses and more bike lanes are the answer. Some people say that shops will lose customers. I see what they mean, but I'm not sure about that. A quiet center with no cars would be absolutely amazing.",
+        modelAnswer: "In my opinion, cities should have fewer cars in the center, but I don't agree with banning them completely. The traffic in my city is absolutely awful: every morning the streets are full and the noise is terrible. When I get to work I'm already exhausted. Personally, I think better buses and more bike lanes are the answer. Some people say that stores will lose customers. I see what they mean, but I'm not sure about that. A quiet center with no cars would be absolutely amazing.",
         explanation: "Check that \"agree\" never has \"am\" before it, and that extreme adjectives go with \"absolutely\" or \"really\".",
       },
     ],
