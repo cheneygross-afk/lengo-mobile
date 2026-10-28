@@ -1,0 +1,653 @@
+// Synced from cheneygross-afk/lengo:src/lib/lessons/it-a2-u17.ts by scripts/sync-content.mjs -- edit it there, not here.
+import type { Lesson, WriteExercise } from "./types";
+
+// Italian A2 Unit 17: Time and Duration. Da + present, fa, per, tra / fra,
+// stare + gerund, stare per, appena and finalmente.
+// Conventions: docs/italian-course/authoring.md.
+export const IT_A2_U17: Lesson[] = [
+  {
+    slug: "a2-da-with-present",
+    level: "IT-A2",
+    number: 1,
+    title: "Since and For: Da with the Present",
+    summary: "Say how long something has been going on with da + the present: abito qui da tre anni.",
+    duration: "15 min",
+    sections: [
+      {
+        heading: "Still going on: present + da",
+        body: [
+          "For something that started in the past and is still true now, English uses the present perfect (I have lived here for three years). Italian uses the present tense + \"da\": \"Abito qui da tre anni\". The logic: I live here, and have done since three years ago.",
+          "This is one of the biggest traps for English speakers. \"Ho abitato qui per tre anni\" means I lived here for three years, and implies you don't any more. If it's still true, use the present.",
+        ],
+        examples: [
+          { es: "Abito a Bologna da tre anni.", en: "I've lived in Bologna for three years." },
+          { es: "Studio italiano da sei mesi.", en: "I've been studying Italian for six months." },
+          { es: "Lavoriamo insieme da molto tempo.", en: "We've been working together for a long time." },
+          { es: "Ti aspetto da mezz'ora!", en: "I've been waiting for you for half an hour!" },
+          { es: "Non lo vedo da anni.", en: "I haven't seen him for years." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I've been studying Italian for six months.", answer: "Studio italiano da sei mesi.", altAnswers: ["Studio l'italiano da sei mesi.", "Io studio italiano da sei mesi."], explanation: "Still going on → present + \"da\"." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I've been waiting for you] for half an hour!", sentence: "___ da mezz'ora!", answer: "Ti aspetto", explanation: "Present \"aspetto\" + \"da\"." },
+          { type: "multiple-choice", question: "You still live in Rome. How do you say I've lived in Rome for two years?", options: ["Abito a Roma da due anni.", "Ho abitato a Roma per due anni.", "Ho abitato a Roma da due anni.", "Abito a Roma per due anni."], correctIndex: 0, explanation: "Still true → present + \"da\"." },
+        ],
+      },
+      {
+        heading: "Since: da + a starting point",
+        body: [
+          "\"Da\" covers both English for (a length of time) and since (a starting point): \"da tre anni\" (for three years), \"da gennaio\" (since January), \"dal 2020\" (since 2020), \"da lunedì\" (since Monday), \"da quando ero piccolo\" (since I was little).",
+          "Note \"dal\" with years and dates: \"da\" + \"il 2020\" → \"dal 2020\"; \"dal 3 marzo\" (since 3 March).",
+        ],
+        examples: [
+          { es: "Sono a dieta da lunedì.", en: "I've been on a diet since Monday." },
+          { es: "Vivono in Italia dal 2020.", en: "They've lived in Italy since 2020." },
+          { es: "Piove dal 3 marzo!", en: "It's been raining since 3 March!" },
+          { es: "Suono il piano da quando ero piccola.", en: "I've played the piano since I was little." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They've lived in Italy since 2020.", answer: "Vivono in Italia dal 2020.", altAnswers: ["Abitano in Italia dal 2020.", "Loro vivono in Italia dal 2020."], explanation: "\"Dal\" + year." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I've been on a diet since Monday.", answer: "Sono a dieta da lunedì.", altAnswers: ["Faccio la dieta da lunedì."], explanation: "\"Da\" + starting day." },
+        ],
+      },
+      {
+        heading: "Da quanto tempo?",
+        body: [
+          "To ask how long, use \"Da quanto tempo\" + present: \"Da quanto tempo studi italiano?\" (how long have you been studying Italian?). In speech it's often shortened: \"Da quanto abiti qui?\". \"Da quando?\" asks since when.",
+        ],
+        examples: [
+          { es: "Da quanto tempo lavori qui?", en: "How long have you been working here?" },
+          { es: "Da quanto abiti a Milano?", en: "How long have you lived in Milan?" },
+          { es: "Da quando hai la febbre?", en: "Since when have you had a temperature?" },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "How long have you been working here? (to a colleague you call tu)", answer: "Da quanto tempo lavori qui?", altAnswers: ["Da quanto lavori qui?", "Da quanto tempo lavori qua?"], explanation: "\"Da quanto tempo\" + present." },
+          { type: "listen-choose", audio: "Da quando hai la febbre?", question: "What does the doctor ask?", options: ["Since when have you had a temperature?", "When did your temperature go?", "How high is your temperature?", "Will you have a temperature?"], correctIndex: 0, explanation: "\"Da quando\" + present." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I've lived in Bologna for three years.", answer: "Abito a Bologna da tre anni.", altAnswers: ["Vivo a Bologna da tre anni.", "Io abito a Bologna da tre anni."], explanation: "Present + \"da\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We've been working together for a long time.", answer: "Lavoriamo insieme da molto tempo.", altAnswers: ["Lavoriamo insieme da tanto tempo.", "Lavoriamo insieme da tanto."], explanation: "Present + \"da\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I haven't seen him for years.", answer: "Non lo vedo da anni.", explanation: "Negative + present + \"da\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "How long have you lived in Milan? (to a friend)", answer: "Da quanto tempo abiti a Milano?", altAnswers: ["Da quanto abiti a Milano?", "Da quanto tempo vivi a Milano?", "Da quanto vivi a Milano?"], explanation: "\"Da quanto tempo\" + present." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's been raining since this morning.", answer: "Piove da stamattina.", altAnswers: ["Piove da questa mattina."], explanation: "\"Da\" + starting point." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I've played the piano since I was little.", answer: "Suono il piano da quando ero piccola.", altAnswers: ["Suono il piano da quando ero piccolo.", "Suono il pianoforte da quando ero piccolo.", "Suono il pianoforte da quando ero piccola."], explanation: "\"Da quando\" + imperfetto." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[She's had] this car since 2015.", sentence: "___ questa macchina dal 2015.", answer: "Ha", explanation: "Present \"ha\" + \"dal\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "We've known each other [for] ten years.", sentence: "Ci conosciamo ___ dieci anni.", answer: "da", explanation: "Still true → \"da\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I've been studying Italian [since January].", sentence: "Studio italiano ___.", answer: "da gennaio", explanation: "\"Da\" + month." },
+      { type: "word-order", prompt: "Put the words in order to say: I've been waiting for you for half an hour!", words: ["Ti", "aspetto", "da", "mezz'ora!"], translation: "I've been waiting for you for half an hour!", explanation: "Present + \"da\"." },
+      { type: "dictation", audio: "Da quanto tempo studi italiano? Da sei mesi.", explanation: "\"Da quanto tempo\" + present." },
+      { type: "speak", text: "Abito a Torino da due anni e studio italiano da otto mesi.", prompt: "Say it in Italian: I've lived in Turin for two years and I've been studying Italian for eight months.", tip: "Resist the past tense: both verbs are present.", explanation: "Present + \"da\" twice." },
+    ],
+  },
+  {
+    slug: "a2-fa-per-tra",
+    level: "IT-A2",
+    number: 2,
+    title: "Ago, For, In: Fa, Per, Tra",
+    summary: "Say tre anni fa, ho lavorato lì per due anni and tra un'ora, and choose between da, fa, per and tra.",
+    duration: "15 min",
+    sections: [
+      {
+        heading: "Fa = ago",
+        body: [
+          "\"Fa\" means ago and comes after the time, exactly like English: \"tre anni fa\" (three years ago), \"due giorni fa\", \"poco fa\" (a little while ago), \"molto tempo fa\". The verb is in a past tense: \"Sono arrivato a Roma tre anni fa\".",
+          "Don't put \"fa\" first: \"fa tre anni\" sounds like it's been three years, and isn't what you mean. To ask when: \"Quanto tempo fa?\" (how long ago?).",
+        ],
+        examples: [
+          { es: "Sono arrivata a Roma tre anni fa.", en: "I arrived in Rome three years ago." },
+          { es: "L'ho visto poco fa.", en: "I saw him a little while ago." },
+          { es: "Ci siamo conosciuti dieci anni fa.", en: "We met ten years ago." },
+          { es: "Quanto tempo fa hai cambiato lavoro?", en: "How long ago did you change jobs?" },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We met ten years ago.", answer: "Ci siamo conosciuti dieci anni fa.", altAnswers: ["Ci siamo conosciute dieci anni fa.", "Dieci anni fa ci siamo conosciuti."], explanation: "\"Fa\" after the time; past tense." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I saw him [a little while ago].", sentence: "L'ho visto ___.", answer: "poco fa", explanation: "\"Poco fa\" = a little while ago." },
+        ],
+      },
+      {
+        heading: "Per = for a finished period",
+        body: [
+          "\"Per\" + a length of time describes a period that is over: \"Ho lavorato a Londra per due anni\" (I worked in London for two years, and don't now). It goes with the passato prossimo. The \"per\" is often dropped: \"Ho dormito otto ore\".",
+          "Compare: \"Lavoro qui da due anni\" (I still do) and \"Ho lavorato qui per due anni\" (I don't any more). One small word changes the whole story.",
+        ],
+        examples: [
+          { es: "Ho lavorato a Londra per due anni.", en: "I worked in London for two years." },
+          { es: "Abbiamo aspettato per un'ora.", en: "We waited for an hour." },
+          { es: "Ho dormito otto ore.", en: "I slept for eight hours." },
+          { es: "Lavoro qui da due anni.", en: "I've been working here for two years." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I worked in London for two years.", answer: "Ho lavorato a Londra per due anni.", altAnswers: ["Ho lavorato a Londra due anni."], explanation: "Finished period → passato prossimo + \"per\"." },
+          { type: "multiple-choice", question: "Which sentence means I still work here?", options: ["Lavoro qui da due anni.", "Ho lavorato qui per due anni.", "Ho lavorato qui due anni fa.", "Lavorerò qui per due anni."], correctIndex: 0, explanation: "Present + \"da\" = still true." },
+        ],
+      },
+      {
+        heading: "Tra / fra = in (the future)",
+        body: [
+          "\"Tra\" or \"fra\" (they're the same) + time means in, from now: \"Arrivo tra dieci minuti\" (I'll be there in ten minutes), \"Ci vediamo fra una settimana\". Not \"in dieci minuti\", which means within ten minutes, how long something takes.",
+        ],
+        examples: [
+          { es: "Arrivo tra dieci minuti.", en: "I'll be there in ten minutes." },
+          { es: "Il treno parte fra un quarto d'ora.", en: "The train leaves in a quarter of an hour." },
+          { es: "Ci vediamo tra una settimana.", en: "See you in a week." },
+          { es: "Ho fatto tutto in dieci minuti.", en: "I did it all in ten minutes." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll be there in ten minutes.", answer: "Arrivo tra dieci minuti.", altAnswers: ["Arrivo fra dieci minuti.", "Arriverò tra dieci minuti.", "Arriverò fra dieci minuti."], explanation: "\"Tra\" / \"fra\" = in, from now." },
+          { type: "listen-choose", audio: "Il treno parte fra un quarto d'ora.", question: "When does the train leave?", options: ["in fifteen minutes", "fifteen minutes ago", "at quarter past", "every fifteen minutes"], correctIndex: 0, explanation: "\"Fra un quarto d'ora\"." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I arrived in Rome three years ago.", answer: "Sono arrivato a Roma tre anni fa.", altAnswers: ["Sono arrivata a Roma tre anni fa.", "Tre anni fa sono arrivato a Roma.", "Tre anni fa sono arrivata a Roma."], explanation: "\"Fa\" + past." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We waited for an hour.", answer: "Abbiamo aspettato per un'ora.", altAnswers: ["Abbiamo aspettato un'ora."], explanation: "Finished → \"per\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "See you in a week.", answer: "Ci vediamo tra una settimana.", altAnswers: ["Ci vediamo fra una settimana."], explanation: "\"Tra\" / \"fra\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "How long ago did you change jobs? (to a friend)", answer: "Quanto tempo fa hai cambiato lavoro?", explanation: "\"Quanto tempo fa\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I slept for eight hours.", answer: "Ho dormito otto ore.", altAnswers: ["Ho dormito per otto ore."], explanation: "\"Per\" can be dropped." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The film starts [in five minutes].", sentence: "Il film comincia ___.", answer: "tra cinque minuti", altAnswers: ["fra cinque minuti"], explanation: "Future point → \"tra\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I bought this car [two years ago].", sentence: "Ho comprato questa macchina ___.", answer: "due anni fa", explanation: "\"Fa\" after the time." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I've had this car [for two years].", sentence: "Ho questa macchina ___.", answer: "da due anni", explanation: "Still true → \"da\"." },
+      { type: "word-order", prompt: "Put the words in order to say: I worked in London for two years.", words: ["Ho", "lavorato", "a", "Londra", "per", "due", "anni."], translation: "I worked in London for two years.", explanation: "Finished period." },
+      { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "da tre anni", right: "for three years (and still)" }, { left: "tre anni fa", right: "three years ago" }, { left: "per tre anni", right: "for three years (finished)" }, { left: "tra tre anni", right: "in three years' time" }], explanation: "Four small words, four meanings." },
+      { type: "dictation", audio: "Sono arrivata due ore fa e riparto tra un'ora.", explanation: "\"Fa\" for the past, \"tra\" for the future." },
+      { type: "speak", text: "Ho lavorato a Parigi per tre anni. Sono tornato in Italia un anno fa e tra un mese cambio casa.", prompt: "Say it in Italian: I worked in Paris for three years. I came back to Italy a year ago and in a month I'm moving house.", tip: "\"Fa\" always after the time: un anno FA.", explanation: "\"Per\", \"fa\" and \"tra\" in one story." },
+    ],
+  },
+  {
+    slug: "a2-stare-gerund",
+    level: "IT-A2",
+    number: 3,
+    title: "Right Now: Stare + Gerund",
+    summary: "Say what's happening right now with stare + gerund: sto mangiando, stai dormendo?, stavo uscendo.",
+    duration: "15 min",
+    sections: [
+      {
+        heading: "The gerund: -ando, -endo",
+        body: [
+          "The gerund is the Italian -ing form. -are verbs take \"-ando\" (\"parlando\", \"mangiando\"), -ere and -ire verbs take \"-endo\" (\"prendendo\", \"dormendo\", \"finendo\"). It never changes for gender or number.",
+          "A few verbs build it from an older stem: \"fare\" → \"facendo\", \"dire\" → \"dicendo\", \"bere\" → \"bevendo\". The stress always falls on the ending: par-LAN-do, fa-CEN-do.",
+        ],
+        examples: [
+          { es: "Sto mangiando, ti richiamo dopo.", en: "I'm eating, I'll call you back later." },
+          { es: "Stai dormendo?", en: "Are you sleeping?" },
+          { es: "Che cosa stai facendo?", en: "What are you doing?" },
+          { es: "Stiamo arrivando!", en: "We're on our way!" },
+          { es: "Cosa stanno bevendo?", en: "What are they drinking?" },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "What are you doing? (to a friend)", answer: "Che cosa stai facendo?", altAnswers: ["Cosa stai facendo?", "Che stai facendo?", "Che fai?", "Cosa fai?"], explanation: "\"Fare\" → \"facendo\"." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[We're on our way]!", sentence: "___!", answer: "Stiamo arrivando", explanation: "\"Stare\" + \"arrivando\"." },
+          { type: "multiple-choice", question: "What's the gerund of \"dire\"?", options: ["dicendo", "dirando", "diendo", "detto"], correctIndex: 0, explanation: "From the old stem \"dic-\": \"dicendo\"." },
+        ],
+      },
+      {
+        heading: "Only for right now",
+        body: [
+          "\"Stare\" + gerund is narrower than English be + -ing. Use it for an action in progress at this very moment: \"Sto lavorando, non posso parlare\" (I'm working, I can't talk). For habits, plans or general truths, Italian uses the simple present: \"Lavoro in banca\" (I work / I'm working in a bank these days).",
+          "In the past, \"stavo\" + gerund (the imperfetto of \"stare\") describes what you were in the middle of: \"Stavo uscendo quando hai chiamato\" (I was going out when you called).",
+        ],
+        examples: [
+          { es: "Sto lavorando, non posso parlare.", en: "I'm working, I can't talk." },
+          { es: "Stavo uscendo quando hai chiamato.", en: "I was going out when you called." },
+          { es: "Cosa stavi dicendo?", en: "What were you saying?" },
+          { es: "Stavamo guardando un film.", en: "We were watching a film." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I was going out when you called.", answer: "Stavo uscendo quando hai chiamato.", altAnswers: ["Stavo uscendo quando mi hai chiamato.", "Stavo per uscire quando hai chiamato."], explanation: "\"Stavo\" + gerund for an action in progress." },
+          { type: "listen-choose", audio: "Cosa stavi dicendo?", question: "What does it mean?", options: ["What were you saying?", "What are you saying?", "What did you say?", "What will you say?"], correctIndex: 0, explanation: "\"Stavi\" = were (imperfetto)." },
+        ],
+      },
+      {
+        heading: "Pronouns with stare + gerund",
+        body: [
+          "Pronouns go before \"stare\" or attach to the gerund: \"Lo sto facendo\" or \"Sto facendolo\" (I'm doing it). The first is more common in speech. Reflexives too: \"Mi sto preparando\" (I'm getting ready).",
+        ],
+        examples: [
+          { es: "Lo sto facendo adesso.", en: "I'm doing it now." },
+          { es: "Mi sto preparando, arrivo!", en: "I'm getting ready, I'm coming!" },
+          { es: "Ti sto aspettando da mezz'ora.", en: "I've been waiting for you for half an hour." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm doing it now.", answer: "Lo sto facendo adesso.", altAnswers: ["Sto facendolo adesso.", "Lo sto facendo ora."], explanation: "Pronoun before \"stare\" or on the gerund." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I'm getting ready], I'm coming!", sentence: "___, arrivo!", answer: "Mi sto preparando", altAnswers: ["Sto preparandomi"], explanation: "Reflexive pronoun before \"sto\"." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm eating, I'll call you back later.", answer: "Sto mangiando, ti richiamo dopo.", altAnswers: ["Sto mangiando, ti richiamo più tardi."], explanation: "In progress → \"sto\" + gerund." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Are you sleeping? (to a friend)", answer: "Stai dormendo?", altAnswers: ["Dormi?"], explanation: "\"Dormire\" → \"dormendo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We were watching a film.", answer: "Stavamo guardando un film.", altAnswers: ["Guardavamo un film."], explanation: "\"Stavamo\" + gerund." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "What are they drinking?", answer: "Cosa stanno bevendo?", altAnswers: ["Che cosa stanno bevendo?", "Che stanno bevendo?", "Cosa bevono?"], explanation: "\"Bere\" → \"bevendo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm working, I can't talk.", answer: "Sto lavorando, non posso parlare.", explanation: "Right now → \"sto lavorando\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[She's finishing] her homework.", sentence: "___ i compiti.", answer: "Sta finendo", explanation: "-ire → \"-endo\": \"finendo\", no -isc-." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "What [were you saying]? (to a friend)", sentence: "Cosa ___?", answer: "stavi dicendo", explanation: "\"Dire\" → \"dicendo\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I'm doing it] now.", sentence: "___ adesso.", answer: "Lo sto facendo", altAnswers: ["Sto facendolo"], explanation: "Pronoun before \"sto\"." },
+      { type: "word-order", prompt: "Put the words in order to say: I was going out when you called.", words: ["Stavo", "uscendo", "quando", "hai", "chiamato."], translation: "I was going out when you called.", explanation: "Imperfetto of \"stare\" + gerund, then passato prossimo." },
+      { type: "multiple-choice", question: "Your friend asks \"Dove lavori?\". You work at a bank. What do you say?", options: ["Lavoro in una banca.", "Sto lavorando in una banca.", "Sto lavoro in una banca.", "Lavorando in una banca."], correctIndex: 0, explanation: "A general fact, not this moment: simple present." },
+      { type: "dictation", audio: "Cosa stai facendo? Sto cucinando.", explanation: "\"Facendo\", \"cucinando\"." },
+      { type: "speak", text: "Scusa, non posso parlare: sto guidando. Ti richiamo tra dieci minuti.", prompt: "Answer the phone in Italian: Sorry, I can't talk: I'm driving. I'll call you back in ten minutes.", tip: "gui-DAN-do: stress on the ending.", explanation: "\"Sto guidando\" for right now." },
+    ],
+  },
+  {
+    slug: "a2-stare-per",
+    level: "IT-A2",
+    number: 4,
+    title: "About To: Stare Per",
+    summary: "Say what's about to happen with stare per + infinitive, and use appena and finalmente.",
+    duration: "15 min",
+    sections: [
+      {
+        heading: "Sto per uscire",
+        body: [
+          "\"Stare per\" + infinitive means to be about to: \"Sto per uscire\" (I'm about to go out), \"Il treno sta per partire\" (the train is about to leave). It's a close cousin of \"stare\" + gerund: one says it's happening, the other says it's just about to.",
+          "In the past, \"stavo per\" means I was about to, often with an interruption: \"Stavo per chiamarti!\" (I was just about to call you!).",
+        ],
+        examples: [
+          { es: "Sto per uscire, ti chiamo dopo.", en: "I'm about to go out, I'll call you later." },
+          { es: "Il treno sta per partire.", en: "The train is about to leave." },
+          { es: "Sta per piovere.", en: "It's about to rain." },
+          { es: "Stavo per chiamarti!", en: "I was just about to call you!" },
+          { es: "Il film sta per cominciare.", en: "The film is about to start." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The train is about to leave.", answer: "Il treno sta per partire.", explanation: "\"Stare per\" + infinitive." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I was just about to call you! (to a friend)", answer: "Stavo per chiamarti!", altAnswers: ["Ti stavo per chiamare!", "Stavo proprio per chiamarti!"], explanation: "\"Stavo per\" + infinitive." },
+          { type: "listen-choose", audio: "Sta per piovere.", question: "What's happening?", options: ["It's about to rain.", "It's raining.", "It rained.", "It's stopped raining."], correctIndex: 0, explanation: "\"Sta per\" = is about to." },
+        ],
+      },
+      {
+        heading: "Appena: just",
+        body: [
+          "For something that has just happened, use \"appena\" between the auxiliary and the participle: \"Sono appena arrivato\" (I've just arrived), \"Ho appena mangiato\" (I've just eaten). Not \"giusto\", which means right, correct.",
+          "\"Appena\" at the start of a clause means as soon as: \"Appena arrivo, ti chiamo\" (as soon as I arrive, I'll call you).",
+        ],
+        examples: [
+          { es: "Sono appena arrivata in stazione.", en: "I've just arrived at the station." },
+          { es: "Ho appena finito di lavorare.", en: "I've just finished work." },
+          { es: "Il treno è appena partito.", en: "The train has just left." },
+          { es: "Appena arrivo, ti chiamo.", en: "As soon as I arrive, I'll call you." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The train has just left.", answer: "Il treno è appena partito.", explanation: "\"Appena\" between \"è\" and \"partito\"." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I've just finished] work.", sentence: "___ di lavorare.", answer: "Ho appena finito", explanation: "\"Ho appena\" + participle." },
+        ],
+      },
+      {
+        heading: "Finalmente",
+        body: [
+          "\"Finalmente\" means at last, finally, after waiting: \"Finalmente sei arrivato!\" (at last, you're here!). It's not the English finally in a list (first ... finally), which is \"alla fine\" or \"infine\".",
+        ],
+        examples: [
+          { es: "Finalmente sei arrivato!", en: "At last, you're here!" },
+          { es: "Finalmente è venerdì!", en: "Finally, it's Friday!" },
+          { es: "Alla fine abbiamo preso un taxi.", en: "In the end we took a taxi." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "At last, you're here! (to a friend)", answer: "Finalmente sei arrivato!", altAnswers: ["Finalmente sei arrivata!", "Finalmente sei qui!", "Finalmente!"], explanation: "\"Finalmente\" = at last." },
+          { type: "multiple-choice", question: "How do you say in the end we took a taxi?", options: ["Alla fine abbiamo preso un taxi.", "Finalmente abbiamo preso un taxi.", "Appena abbiamo preso un taxi.", "Per fine abbiamo preso un taxi."], correctIndex: 0, explanation: "In the end = \"alla fine\"; \"finalmente\" = at last, with relief." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm about to go out, I'll call you later.", answer: "Sto per uscire, ti chiamo dopo.", altAnswers: ["Sto per uscire, ti chiamo più tardi."], explanation: "\"Sto per\" + infinitive." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's about to rain.", answer: "Sta per piovere.", explanation: "\"Sta per piovere\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I've just arrived at the station.", answer: "Sono appena arrivato in stazione.", altAnswers: ["Sono appena arrivata in stazione.", "Sono appena arrivato alla stazione.", "Sono appena arrivata alla stazione."], explanation: "\"Appena\" + participle." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "As soon as I arrive, I'll call you.", answer: "Appena arrivo, ti chiamo.", altAnswers: ["Appena arrivo ti chiamo.", "Appena arriverò, ti chiamerò."], explanation: "\"Appena\" = as soon as." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Finally, it's Friday!", answer: "Finalmente è venerdì!", explanation: "\"Finalmente\" = at last." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The film [is about to start].", sentence: "Il film ___ cominciare.", answer: "sta per", explanation: "\"Sta per\" + infinitive." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "We [were about to leave] when it started to rain.", sentence: "___ quando ha cominciato a piovere.", answer: "Stavamo per partire", altAnswers: ["Stavamo per uscire", "Stavamo per andare via"], explanation: "\"Stavamo per\" + infinitive." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I've just eaten], thanks.", sentence: "___, grazie.", answer: "Ho appena mangiato", explanation: "\"Ho appena\" + participle." },
+      { type: "word-order", prompt: "Put the words in order to say: The train has just left.", words: ["Il", "treno", "è", "appena", "partito."], translation: "The train has just left.", explanation: "\"Appena\" between auxiliary and participle." },
+      { type: "multiple-choice", question: "\"Sto per finire\" means ...", options: ["I'm about to finish.", "I'm finishing for you.", "I've just finished.", "I'm finishing now."], correctIndex: 0, explanation: "\"Stare per\" = to be about to." },
+      { type: "dictation", audio: "Stavo per chiamarti! Sono appena tornata.", explanation: "\"Stavo per\" and \"appena\"." },
+      { type: "speak", text: "Finalmente! Sono appena arrivato e il concerto sta per cominciare.", prompt: "Say it in Italian: At last! I've just arrived and the concert is about to start.", tip: "fi-nal-MEN-te: stress on MEN.", explanation: "\"Finalmente\", \"appena\", \"stare per\"." },
+    ],
+  },
+  {
+    slug: "a2-drill-da-fa-per",
+    level: "IT-A2",
+    number: 5,
+    title: "Drill: Da, Fa, Per, Tra",
+    summary: "Choose and produce da, fa, per and tra in fresh sentences about time.",
+    duration: "22 min",
+    kind: "drill",
+    sections: [
+      {
+        heading: "Four time words",
+        body: [
+          "Still true: present + \"da\" (\"lavoro qui da un anno\"). Ago: past + time + \"fa\" (\"un anno fa\"). Finished period: past + \"per\" (\"ho lavorato lì per un anno\"). From now: \"tra\" / \"fra\" (\"tra un anno\").",
+        ],
+        examples: [
+          { es: "Conosco Giulia da vent'anni.", en: "I've known Giulia for twenty years." },
+          { es: "L'ho conosciuta vent'anni fa.", en: "I met her twenty years ago." },
+          { es: "Siamo state coinquiline per tre anni.", en: "We were flatmates for three years." },
+          { es: "Si sposa tra due mesi.", en: "She's getting married in two months." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I've known Giulia for twenty years.", answer: "Conosco Giulia da vent'anni.", altAnswers: ["Conosco Giulia da venti anni."], explanation: "Still true → present + \"da\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She's getting married in two months.", answer: "Si sposa tra due mesi.", altAnswers: ["Si sposa fra due mesi.", "Si sposerà tra due mesi.", "Si sposerà fra due mesi."], explanation: "\"Tra\" / \"fra\"." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I met her twenty years ago.", answer: "L'ho conosciuta vent'anni fa.", altAnswers: ["L'ho conosciuta venti anni fa."], explanation: "\"Fa\" + past." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We were flatmates for three years.", answer: "Siamo stati coinquilini per tre anni.", altAnswers: ["Siamo state coinquiline per tre anni.", "Siamo stati coinquilini tre anni."], explanation: "Finished → \"per\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I've had a headache since this morning.", answer: "Ho mal di testa da stamattina.", altAnswers: ["Ho mal di testa da questa mattina."], explanation: "Still true → present + \"da\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The shop opened two weeks ago.", answer: "Il negozio ha aperto due settimane fa.", altAnswers: ["Il negozio è stato aperto due settimane fa.", "Il negozio è stato inaugurato due settimane fa."], explanation: "\"Fa\" + past." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The shop closes in an hour.", answer: "Il negozio chiude tra un'ora.", altAnswers: ["Il negozio chiude fra un'ora."], explanation: "\"Tra\" = in." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They lived in Spain for five years.", answer: "Hanno vissuto in Spagna per cinque anni.", altAnswers: ["Hanno abitato in Spagna per cinque anni.", "Hanno vissuto in Spagna cinque anni."], explanation: "Finished → \"per\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "How long have you been waiting? (to friends)", answer: "Da quanto tempo aspettate?", altAnswers: ["Da quanto aspettate?", "Da quanto tempo state aspettando?"], explanation: "\"Da quanto tempo\" + present." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll be back in a moment.", answer: "Torno tra un attimo.", altAnswers: ["Torno fra un attimo.", "Torno tra un momento.", "Torno fra un momento."], explanation: "\"Tra un attimo\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "She's been ill [since Tuesday].", sentence: "È malata ___.", answer: "da martedì", explanation: "\"Da\" + day." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I called you [an hour ago].", sentence: "Ti ho chiamato ___.", answer: "un'ora fa", explanation: "\"Fa\" after." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "We danced [for] three hours.", sentence: "Abbiamo ballato ___ tre ore.", answer: "per", explanation: "Finished → \"per\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The exam is [in two weeks].", sentence: "L'esame è ___.", answer: "tra due settimane", altAnswers: ["fra due settimane"], explanation: "\"Tra\" / \"fra\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I haven't smoked] for a year.", sentence: "___ da un anno.", answer: "Non fumo", explanation: "Still true → present." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[How long ago] did you leave?", sentence: "___ sei partito?", answer: "Quanto tempo fa", explanation: "\"Quanto tempo fa\"." },
+      { type: "multiple-choice", question: "Which one means I've been a teacher for ten years (and still am)?", options: ["Faccio l'insegnante da dieci anni.", "Ho fatto l'insegnante per dieci anni.", "Ho fatto l'insegnante dieci anni fa.", "Faccio l'insegnante tra dieci anni."], correctIndex: 0, explanation: "Present + \"da\"." },
+      { type: "dictation", audio: "Abito qui da un anno, sono arrivato un anno fa.", explanation: "\"Da\" vs \"fa\"." },
+      { type: "dictation", audio: "Ho studiato per due ore, l'esame è tra un'ora.", explanation: "\"Per\" vs \"tra\"." },
+      { type: "speak", text: "Conosco Marco da dieci anni. L'ho conosciuto a Bologna, dove abbiamo studiato insieme per tre anni.", prompt: "Say it in Italian: I've known Marco for ten years. I met him in Bologna, where we studied together for three years.", tip: "da DIE-ci AN-ni: keep \"da\" light.", explanation: "\"Da\" with the present, \"per\" with the past." },
+    ],
+  },
+  {
+    slug: "a2-drill-gerund",
+    level: "IT-A2",
+    number: 6,
+    title: "Drill: Gerunds",
+    summary: "Produce stare + gerund in the present and the past with regular and irregular gerunds.",
+    duration: "22 min",
+    kind: "drill",
+    sections: [
+      {
+        heading: "Sto, stavo + -ando / -endo",
+        body: [
+          "-are → \"-ando\"; -ere, -ire → \"-endo\". Irregular: \"facendo\", \"dicendo\", \"bevendo\". Present: \"sto, stai, sta, stiamo, state, stanno\". Past: \"stavo, stavi, stava, stavamo, stavate, stavano\".",
+        ],
+        examples: [
+          { es: "Sto scrivendo una email.", en: "I'm writing an email." },
+          { es: "Stavano dormendo.", en: "They were sleeping." },
+          { es: "State cucinando voi?", en: "Are you cooking? (plural)" },
+          { es: "Stava piovendo.", en: "It was raining." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm writing an email.", answer: "Sto scrivendo una email.", altAnswers: ["Sto scrivendo un'email.", "Sto scrivendo una mail."], explanation: "\"Scrivere\" → \"scrivendo\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It was raining.", answer: "Stava piovendo.", altAnswers: ["Pioveva."], explanation: "\"Stava\" + \"piovendo\"." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They were sleeping.", answer: "Stavano dormendo.", altAnswers: ["Dormivano."], explanation: "\"Stavano\" + gerund." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Are you cooking? (to friends)", answer: "State cucinando voi?", altAnswers: ["State cucinando?", "Cucinate voi?"], explanation: "\"State\" + \"cucinando\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "What are you reading? (to a friend)", answer: "Cosa stai leggendo?", altAnswers: ["Che cosa stai leggendo?", "Che stai leggendo?", "Cosa leggi?"], explanation: "\"Leggere\" → \"leggendo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The children are playing in the garden.", answer: "I bambini stanno giocando in giardino.", altAnswers: ["I bambini giocano in giardino."], explanation: "\"Stanno giocando\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I was telling the truth.", answer: "Stavo dicendo la verità.", altAnswers: ["Dicevo la verità."], explanation: "\"Dire\" → \"dicendo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We're having breakfast.", answer: "Stiamo facendo colazione.", explanation: "\"Fare colazione\" → \"facendo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She was drinking a coffee.", answer: "Stava bevendo un caffè.", altAnswers: ["Beveva un caffè."], explanation: "\"Bere\" → \"bevendo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Are you listening to me? (to a friend)", answer: "Mi stai ascoltando?", altAnswers: ["Stai ascoltandomi?", "Mi ascolti?"], explanation: "Pronoun before \"stai\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I'm leaving] now.", sentence: "___ adesso.", answer: "Sto partendo", altAnswers: ["Sto uscendo", "Sto andando via"], explanation: "\"Partire\" → \"partendo\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[They were waiting] for the bus.", sentence: "___ l'autobus.", answer: "Stavano aspettando", altAnswers: ["Aspettavano"], explanation: "\"Stavano\" + \"aspettando\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I'm cleaning] the kitchen.", sentence: "___ la cucina.", answer: "Sto pulendo", explanation: "\"Pulire\" → \"pulendo\", no -isc-." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "What [are you doing]? (to friends)", sentence: "Cosa ___?", answer: "state facendo", altAnswers: ["fate"], explanation: "\"Fare\" → \"facendo\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I was getting dressed] when the doorbell rang.", sentence: "___ quando ha suonato il campanello.", answer: "Mi stavo vestendo", altAnswers: ["Stavo vestendomi", "Mi vestivo"], explanation: "Reflexive pronoun before \"stavo\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[He's saying] something.", sentence: "___ qualcosa.", answer: "Sta dicendo", explanation: "\"Dicendo\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[We were watching] the match.", sentence: "___ la partita.", answer: "Stavamo guardando", altAnswers: ["Guardavamo"], explanation: "\"Stavamo guardando\"." },
+      { type: "listen-choose", audio: "Stavo bevendo un tè.", question: "What did you hear?", options: ["Stavo bevendo un tè.", "Sto bevendo un tè.", "Stavo vedendo un tè.", "Ho bevuto un tè."], correctIndex: 0, explanation: "\"Stavo\" = past." },
+      { type: "dictation", audio: "Sto lavorando, stavo per chiamarti.", explanation: "Gerund and \"stare per\"." },
+      { type: "speak", text: "Stavo facendo la doccia quando hai chiamato. Adesso sto uscendo!", prompt: "Say it in Italian: I was having a shower when you called. Now I'm going out!", tip: "fa-CEN-do, u-SCEN-do: stress on the ending.", explanation: "Past and present progressive." },
+    ],
+  },
+  {
+    slug: "a2-contrast-present-progressive",
+    level: "IT-A2",
+    number: 7,
+    title: "Contrast Clinic: Mangio or Sto Mangiando?",
+    summary: "Decide when Italian uses the simple present for English -ing and when stare + gerund is better.",
+    duration: "15 min",
+    sections: [
+      {
+        heading: "The simple present does most of the work",
+        body: [
+          "English uses be + -ing for many things that Italian puts in the simple present: temporary situations (\"Abito da un'amica questo mese\", I'm staying with a friend this month), near plans (\"Domani parto\", I'm leaving tomorrow) and even casual questions (\"Cosa fai?\" \"Leggo\", what are you doing? reading).",
+          "\"Stare\" + gerund adds emphasis: right now, in the middle of it, don't interrupt. \"Sto leggendo!\" means I'm busy reading!",
+        ],
+        examples: [
+          { es: "Cosa fai? Leggo un libro.", en: "What are you doing? I'm reading a book." },
+          { es: "Sto leggendo, lasciami in pace!", en: "I'm reading, leave me alone!" },
+          { es: "Questo mese abito da un'amica.", en: "This month I'm staying with a friend." },
+          { es: "Domani parto per Napoli.", en: "I'm leaving for Naples tomorrow." },
+          { es: "Studio legge all'università.", en: "I'm studying law at university." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm leaving for Naples tomorrow.", answer: "Domani parto per Napoli.", altAnswers: ["Parto per Napoli domani."], explanation: "A plan → simple present, never \"sto partendo domani\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm studying law at university.", answer: "Studio legge all'università.", explanation: "A general situation → simple present." },
+          { type: "multiple-choice", question: "Your friend keeps talking while you're doing your accounts. What do you say?", options: ["Sto lavorando, scusa!", "Lavoro domani, scusa!", "Lavorando, scusa!", "Sto lavorare, scusa!"], correctIndex: 0, explanation: "Right now, busy → \"sto lavorando\"." },
+        ],
+      },
+      {
+        heading: "Never for plans or states",
+        body: [
+          "Don't use \"stare\" + gerund for the future (\"*sto andando a Roma domani\" → \"vado a Roma domani\") or with verbs of state like \"essere\", \"avere\", \"sapere\", \"volere\": \"Ho fame\" (I'm hungry), not \"sto avendo fame\".",
+          "In the past, the imperfetto alone often does the job of was + -ing: \"Mentre dormivo\" (while I was sleeping). \"Stavo dormendo\" stresses the moment.",
+        ],
+        examples: [
+          { es: "Vado a Roma domani.", en: "I'm going to Rome tomorrow." },
+          { es: "Ho fame, mangiamo?", en: "I'm hungry, shall we eat?" },
+          { es: "Mentre dormivo, è arrivato un pacco.", en: "While I was sleeping, a parcel arrived." },
+          { es: "Stavo dormendo quando hai suonato.", en: "I was (right in the middle of) sleeping when you rang." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm going to Rome tomorrow.", answer: "Vado a Roma domani.", altAnswers: ["Domani vado a Roma."], explanation: "Plans → simple present." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I'm hungry], shall we eat?", sentence: "___, mangiamo?", answer: "Ho fame", explanation: "State → \"ho fame\"." },
+          { type: "listen-choose", audio: "Mentre dormivo, è arrivato un pacco.", question: "What happened?", options: ["A parcel arrived while the speaker was sleeping.", "The speaker slept while waiting for a parcel.", "The speaker is sleeping now.", "A parcel will arrive tonight."], correctIndex: 0, explanation: "Imperfetto for background." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "What are you doing? I'm reading a book. (to a friend)", answer: "Cosa fai? Leggo un libro.", altAnswers: ["Che fai? Leggo un libro.", "Cosa stai facendo? Sto leggendo un libro.", "Che cosa fai? Leggo un libro."], explanation: "Simple present is normal." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm reading, leave me alone!", answer: "Sto leggendo, lasciami in pace!", explanation: "Busy right now → \"sto leggendo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "This month I'm staying with a friend.", answer: "Questo mese abito da un'amica.", altAnswers: ["Questo mese sto da un'amica.", "Questo mese abito da un amico.", "Questo mese sto da un amico."], explanation: "Temporary situation → simple present." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Are you coming tonight? (to a friend)", answer: "Vieni stasera?", altAnswers: ["Stasera vieni?"], explanation: "Plan → simple present." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm thirsty.", answer: "Ho sete.", explanation: "State → \"avere\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Quiet! [The baby is sleeping]!", sentence: "Silenzio! ___!", answer: "Il bambino sta dormendo", altAnswers: ["Il bambino dorme"], explanation: "Right now; \"dorme\" also works." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[We're having] dinner at Marco's on Saturday.", sentence: "Sabato ___ da Marco.", answer: "ceniamo", explanation: "Plan → present." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "While [I was cooking], the phone rang.", sentence: "Mentre ___, è squillato il telefono.", answer: "cucinavo", altAnswers: ["stavo cucinando"], explanation: "Imperfetto for background." },
+      { type: "word-order", prompt: "Put the words in order to say: I'm going to Rome tomorrow.", words: ["Domani", "vado", "a", "Roma."], translation: "I'm going to Rome tomorrow.", explanation: "Plan → \"vado\"." },
+      { type: "multiple-choice", question: "Which sentence is natural Italian?", options: ["Domani parto alle otto.", "Domani sto partendo alle otto.", "Domani sto per partendo alle otto.", "Domani partendo alle otto."], correctIndex: 0, explanation: "Future plans: simple present." },
+      { type: "dictation", audio: "Cosa fai stasera? Esco con Giulia.", explanation: "Plans in the simple present." },
+      { type: "speak", text: "Adesso sto cucinando, ma stasera esco. Domani parto per Torino.", prompt: "Say it in Italian: Right now I'm cooking, but tonight I'm going out. Tomorrow I'm leaving for Turin.", tip: "Only the first verb needs \"sto\".", explanation: "Progressive for now, present for plans." },
+    ],
+  },
+  {
+    slug: "a2-error-hunt-time",
+    level: "IT-A2",
+    number: 8,
+    title: "Error Hunt: Time Expressions",
+    summary: "Fix the time mistakes English speakers make: per for since, fa in the wrong place, sto andando for plans.",
+    duration: "15 min",
+    sections: [
+      {
+        heading: "Da, per, fa",
+        body: [
+          "\"Studio italiano per due anni\" translates English for word by word but means I'll study for two years. If you're still studying, write \"Studio italiano da due anni\". \"Ho studiato italiano da due anni\" mixes the two: past tense with \"da\" doesn't work here.",
+          "\"Ho visto Marco fa tre giorni\" puts \"fa\" first. It always follows the time: \"tre giorni fa\". \"Sono qui da ieri\" (I've been here since yesterday), on the other hand, is perfectly correct.",
+        ],
+        examples: [
+          { es: "Studio italiano da due anni.", en: "I've been studying Italian for two years." },
+          { es: "Ho visto Marco tre giorni fa.", en: "I saw Marco three days ago." },
+          { es: "Sono qui da ieri.", en: "I've been here since yesterday." },
+          { es: "Ho studiato francese per cinque anni a scuola.", en: "I studied French for five years at school." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "A learner wrote \"Studio italiano per due anni\" meaning they still study. Write it correctly: I've been studying Italian for two years.", source: "I've been studying Italian for two years.", answer: "Studio italiano da due anni.", altAnswers: ["Studio l'italiano da due anni."], explanation: "Still true → \"da\"." },
+          { type: "translate", direction: "en-es", prompt: "A learner wrote \"Ho visto Marco fa tre giorni\". Write it correctly: I saw Marco three days ago.", source: "I saw Marco three days ago.", answer: "Ho visto Marco tre giorni fa.", altAnswers: ["Tre giorni fa ho visto Marco."], explanation: "\"Fa\" after the time." },
+          { type: "multiple-choice", question: "Which sentence is correct?", options: ["Sono qui da ieri.", "Sono stato qui da ieri.", "Sono qui per ieri.", "Sono qui ieri fa."], correctIndex: 0, explanation: "Still here → present + \"da\"." },
+        ],
+      },
+      {
+        heading: "Sto andando for plans",
+        body: [
+          "\"Sto andando a Roma domani\" copies English I'm going. Italian uses the simple present for plans: \"Vado a Roma domani\". Keep \"stare\" + gerund for what is happening at this moment: \"Sto andando in stazione\" (I'm on my way to the station now).",
+          "Also check \"in\" vs \"tra\": \"Arrivo in dieci minuti\" is common in speech but \"tra dieci minuti\" is the standard for in ten minutes' time.",
+        ],
+        examples: [
+          { es: "Vado a Roma domani.", en: "I'm going to Rome tomorrow." },
+          { es: "Sto andando in stazione adesso.", en: "I'm on my way to the station now." },
+          { es: "Arrivo tra dieci minuti.", en: "I'll be there in ten minutes." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "A learner wrote \"Sto andando a Roma domani\". Write it correctly: I'm going to Rome tomorrow.", source: "I'm going to Rome tomorrow.", answer: "Vado a Roma domani.", altAnswers: ["Domani vado a Roma."], explanation: "Plans → simple present." },
+          { type: "listen-choose", audio: "Sto andando in stazione adesso.", question: "What is the speaker doing?", options: ["on the way to the station now", "going to the station tomorrow", "just back from the station", "waiting at the station"], correctIndex: 0, explanation: "Right now → \"sto andando\"." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Ho lavorato qui da cinque anni\" (still working). Write it correctly: I've been working here for five years.", source: "I've been working here for five years.", answer: "Lavoro qui da cinque anni.", explanation: "Present + \"da\"." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Sono arrivato fa un'ora\". Write it correctly: I arrived an hour ago.", source: "I arrived an hour ago.", answer: "Sono arrivato un'ora fa.", altAnswers: ["Sono arrivata un'ora fa."], explanation: "\"Fa\" after." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Sto uscendo stasera con Luca\". Write it correctly: I'm going out with Luca tonight.", source: "I'm going out with Luca tonight.", answer: "Stasera esco con Luca.", altAnswers: ["Esco con Luca stasera."], explanation: "Plan → present." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Conosco Anna per anni\". Write it correctly: I've known Anna for years.", source: "I've known Anna for years.", answer: "Conosco Anna da anni.", explanation: "Still true → \"da\"." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Sto avendo fame\". Write it correctly: I'm hungry.", source: "I'm hungry.", answer: "Ho fame.", explanation: "States don't take \"stare\" + gerund." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Ho vissuto a Bari da tre anni\" (no longer there). Write it correctly: I lived in Bari for three years.", source: "I lived in Bari for three years.", answer: "Ho vissuto a Bari per tre anni.", altAnswers: ["Ho abitato a Bari per tre anni.", "Ho vissuto a Bari tre anni."], explanation: "Finished → \"per\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'll call you [in an hour].", sentence: "Ti chiamo ___.", answer: "tra un'ora", altAnswers: ["fra un'ora"], explanation: "\"Tra\" for in, from now." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I've just] arrived.", sentence: "Sono ___ arrivato.", answer: "appena", explanation: "\"Appena\" between auxiliary and participle." },
+      { type: "word-order", prompt: "Put the words in order to say: I've been here since yesterday.", words: ["Sono", "qui", "da", "ieri."], translation: "I've been here since yesterday.", explanation: "Present + \"da\"." },
+      { type: "multiple-choice", question: "Which sentence is correct?", options: ["Lavoro qui da cinque anni.", "Lavoro qui per cinque anni.", "Ho lavorato qui da cinque anni.", "Sto lavorando qui da cinque anni fa."], correctIndex: 0, explanation: "Still true → present + \"da\"." },
+      { type: "dictation", audio: "Studio italiano da un anno e domani parto per Roma.", explanation: "Present + \"da\"; present for a plan." },
+      { type: "speak", text: "Lavoro qui da cinque anni. Prima ho lavorato a Milano per due anni.", prompt: "Say it in Italian: I've been working here for five years. Before that I worked in Milan for two years.", tip: "Present then past: lavoro / ho lavorato.", explanation: "\"Da\" with the present, \"per\" with the past." },
+    ],
+  },
+  {
+    slug: "a2-dialogue-lab-phone-call",
+    level: "IT-A2",
+    number: 9,
+    title: "Dialogue Lab: Where Are You?",
+    summary: "Follow a phone call between friends meeting in Napoli: cosa stai facendo?, sto arrivando, sono qui da mezz'ora!",
+    duration: "15 min",
+    sections: [
+      {
+        heading: "Waiting in Piazza del Plebiscito",
+        body: [
+          "Chiara is waiting for her friend Matteo in Piazza del Plebiscito in Napoli. He's late, so she calls: \"Pronto, Matteo? Dove sei? Sono qui da mezz'ora!\" (I've been here for half an hour!). Matteo: \"Scusa, scusa, sto arrivando!\".",
+          "\"Sto arrivando\" is the classic Italian excuse: it can mean I'm almost there or I've just left home.",
+        ],
+        examples: [
+          { es: "Pronto, Matteo? Dove sei?", en: "Hello, Matteo? Where are you?" },
+          { es: "Sono qui da mezz'ora!", en: "I've been here for half an hour!" },
+          { es: "Scusa, sto arrivando!", en: "Sorry, I'm on my way!" },
+          { es: "Ma cosa stavi facendo?", en: "But what were you doing?" },
+          { es: "Stavo cercando parcheggio.", en: "I was looking for a parking space." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I've been here for half an hour!", answer: "Sono qui da mezz'ora!", explanation: "Still here → present + \"da\"." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Sorry, [I'm on my way]!", sentence: "Scusa, ___!", answer: "sto arrivando", explanation: "\"Stare\" + \"arrivando\"." },
+          { type: "listen-choose", audio: "Stavo cercando parcheggio.", question: "Why is Matteo late?", options: ["He was looking for a parking space.", "He was looking for his keys.", "He was waiting for the bus.", "He was sleeping."], correctIndex: 0, explanation: "\"Cercare parcheggio\" = to look for a parking space." },
+        ],
+      },
+      {
+        heading: "Five more minutes",
+        body: [
+          "Matteo promises: \"Arrivo tra cinque minuti, giuro!\" (I'll be there in five minutes, I swear!). Chiara: \"Va bene, ma il museo sta per chiudere\" (OK, but the museum is about to close). \"Ho appena comprato i biglietti\" (I've just bought the tickets).",
+          "When he finally arrives: \"Finalmente! Dai, entriamo\".",
+        ],
+        examples: [
+          { es: "Arrivo tra cinque minuti, giuro!", en: "I'll be there in five minutes, I swear!" },
+          { es: "Il museo sta per chiudere.", en: "The museum is about to close." },
+          { es: "Ho appena comprato i biglietti.", en: "I've just bought the tickets." },
+          { es: "Finalmente! Dai, entriamo.", en: "At last! Come on, let's go in." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The museum is about to close.", answer: "Il museo sta per chiudere.", explanation: "\"Stare per\" + infinitive." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll be there in five minutes, I swear!", answer: "Arrivo tra cinque minuti, giuro!", altAnswers: ["Arrivo fra cinque minuti, giuro!"], explanation: "\"Tra\" = in, from now." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Hello, Matteo? Where are you?", answer: "Pronto, Matteo? Dove sei?", explanation: "\"Pronto\" on the phone." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "But what were you doing? (to a friend)", answer: "Ma cosa stavi facendo?", altAnswers: ["Ma che cosa stavi facendo?", "Ma che stavi facendo?", "Ma cosa facevi?"], explanation: "\"Stavi\" + \"facendo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I was looking for a parking space.", answer: "Stavo cercando parcheggio.", altAnswers: ["Cercavo parcheggio.", "Stavo cercando un parcheggio."], explanation: "\"Stavo\" + gerund." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I've just bought the tickets.", answer: "Ho appena comprato i biglietti.", altAnswers: ["Ho appena preso i biglietti."], explanation: "\"Appena\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "At last! Come on, let's go in.", answer: "Finalmente! Dai, entriamo.", explanation: "\"Finalmente\" + \"entriamo\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'll be there [in five minutes].", sentence: "Arrivo ___.", answer: "tra cinque minuti", altAnswers: ["fra cinque minuti"], explanation: "\"Tra\" / \"fra\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I've been waiting [for half an hour]!", sentence: "Ti aspetto ___!", answer: "da mezz'ora", explanation: "\"Da\" + time." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[What are you doing]? Are you still at home? (to a friend)", sentence: "___? Sei ancora a casa?", answer: "Cosa stai facendo", altAnswers: ["Che stai facendo", "Che cosa stai facendo", "Cosa fai", "Che fai"], explanation: "Right now." },
+      { type: "word-order", prompt: "Put the words in order to say: The museum is about to close.", words: ["Il", "museo", "sta", "per", "chiudere."], translation: "The museum is about to close.", explanation: "\"Sta per\" + infinitive." },
+      { type: "multiple-choice", question: "Chiara says \"Sono qui da mezz'ora!\". What does she mean?", options: ["She's been waiting half an hour.", "She'll be there in half an hour.", "She arrived half an hour ago and left.", "She's leaving in half an hour."], correctIndex: 0, explanation: "Present + \"da\": still there." },
+      { type: "dictation", audio: "Dove sei? Sono qui da mezz'ora!", explanation: "\"Da mezz'ora\"." },
+      { type: "speak", text: "Scusa, sto arrivando! Stavo cercando parcheggio. Arrivo tra cinque minuti!", prompt: "Apologise on the phone in Italian: Sorry, I'm on my way! I was looking for a parking space. I'll be there in five minutes!", tip: "Natural pace: sto-arri-VAN-do.", explanation: "Progressive present and past, and \"tra\"." },
+    ],
+  },
+  {
+    slug: "a2-mission-cv-summary",
+    level: "IT-A2",
+    number: 10,
+    title: "Real-World Mission: A Short CV",
+    summary: "Write a short CV summary in Italian: where you've worked and studied, and for how long.",
+    duration: "15 min",
+    kind: "review",
+    sections: [
+      {
+        heading: "Past jobs and studies",
+        body: [
+          "An Italian CV (\"il curriculum\", or CV) starts with a short profile. Finished jobs and studies go in the passato prossimo with \"per\" or with dates: \"Ho studiato economia all'Università di Padova\", \"Ho lavorato come cameriere per due anni\", \"Dal 2018 al 2020 ho lavorato in un hotel\".",
+          "\"Come\" + job means as: \"come cameriere\" (as a waiter), \"come insegnante\". No article, unlike English.",
+        ],
+        examples: [
+          { es: "Ho studiato economia all'Università di Padova.", en: "I studied economics at the University of Padua." },
+          { es: "Mi sono laureata nel 2019.", en: "I graduated in 2019." },
+          { es: "Ho lavorato come cameriere per due anni.", en: "I worked as a waiter for two years." },
+          { es: "Dal 2018 al 2020 ho lavorato in un hotel a Londra.", en: "From 2018 to 2020 I worked in a hotel in London." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I worked as a waiter for two years.", answer: "Ho lavorato come cameriere per due anni.", altAnswers: ["Ho lavorato come cameriera per due anni.", "Ho fatto il cameriere per due anni."], explanation: "\"Come\" + job, no article; \"per\" for a finished period." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I graduated] in 2019.", sentence: "___ nel 2019.", answer: "Mi sono laureata", altAnswers: ["Mi sono laureato"], explanation: "\"Laurearsi\" = to graduate." },
+        ],
+      },
+      {
+        heading: "What you do now",
+        body: [
+          "Your current job takes the present + \"da\": \"Lavoro come project manager da tre anni\", \"Studio italiano da un anno\". Add skills: \"Parlo inglese e spagnolo\", \"So usare Excel\". Finish with plans: \"Tra un anno vorrei lavorare in Italia\".",
+        ],
+        examples: [
+          { es: "Dal 2021 lavoro come insegnante d'inglese.", en: "Since 2021 I've been working as an English teacher." },
+          { es: "Studio italiano da un anno.", en: "I've been studying Italian for a year." },
+          { es: "So usare bene Excel.", en: "I can use Excel well." },
+          { es: "Tra un anno vorrei lavorare in Italia.", en: "In a year I'd like to work in Italy." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Since 2021 I've been working as an English teacher.", answer: "Dal 2021 lavoro come insegnante d'inglese.", altAnswers: ["Lavoro come insegnante d'inglese dal 2021.", "Dal 2021 lavoro come insegnante di inglese."], explanation: "Present + \"dal\"." },
+          { type: "listen-choose", audio: "Tra un anno vorrei lavorare in Italia.", question: "What's the plan?", options: ["to work in Italy in a year's time", "to work in Italy for a year", "worked in Italy a year ago", "to work in Italy every year"], correctIndex: 0, explanation: "\"Tra un anno\" = in a year." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I studied economics at the University of Padua.", answer: "Ho studiato economia all'Università di Padova.", altAnswers: ["Ho studiato economia all'università di Padova."], explanation: "Finished → passato prossimo." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "From 2018 to 2020 I worked in a hotel.", answer: "Dal 2018 al 2020 ho lavorato in un hotel.", altAnswers: ["Dal 2018 al 2020 ho lavorato in un albergo."], explanation: "\"Dal ... al\" for a finished period." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I've been studying Italian for a year.", answer: "Studio italiano da un anno.", altAnswers: ["Studio l'italiano da un anno."], explanation: "Present + \"da\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I can use Excel well.", answer: "So usare bene Excel.", altAnswers: ["So usare Excel bene."], explanation: "\"Sapere\" + infinitive for skills." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I worked as a nurse for six years.", answer: "Ho lavorato come infermiera per sei anni.", altAnswers: ["Ho lavorato come infermiere per sei anni.", "Ho fatto l'infermiera per sei anni.", "Ho fatto l'infermiere per sei anni."], explanation: "\"Come\" + job." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I've been working] as a designer since 2022.", sentence: "___ come grafico dal 2022.", answer: "Lavoro", explanation: "Still true → present." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I graduated [five years ago].", sentence: "Mi sono laureato ___.", answer: "cinque anni fa", explanation: "\"Fa\" after." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[In two years] I'd like to open a restaurant.", sentence: "___ vorrei aprire un ristorante.", answer: "Tra due anni", altAnswers: ["Fra due anni"], explanation: "\"Tra\" = in." },
+      { type: "word-order", prompt: "Put the words in order to say: I worked as a waiter for two years.", words: ["Ho", "lavorato", "come", "cameriere", "per", "due", "anni."], translation: "I worked as a waiter for two years.", explanation: "\"Come\" + job." },
+      { type: "multiple-choice", question: "You still teach. Which CV line is right?", options: ["Insegno inglese dal 2020.", "Ho insegnato inglese dal 2020.", "Insegno inglese per il 2020.", "Insegnavo inglese dal 2020 fa."], correctIndex: 0, explanation: "Present + \"dal\"." },
+      { type: "dictation", audio: "Lavoro come infermiera da quattro anni.", explanation: "Present + \"da\"." },
+      { type: "speak", text: "Mi chiamo Emma. Ho studiato legge a Londra e ho lavorato in uno studio per tre anni. Dal 2022 lavoro come traduttrice.", prompt: "Introduce yourself at a job interview in Italian: My name is Emma. I studied law in London and worked in a law firm for three years. Since 2022 I've been working as a translator.", tip: "tra-dut-TRI-ce: double t.", explanation: "Past for finished jobs, present + \"dal\" for the current one." },
+    ],
+  },
+];
+
+export const IT_A2_U17_WRITING: WriteExercise = {
+  type: "write",
+  prompt: "An Italian language school asks new students to write a short profile. Say where you live and how long you've lived there, what you studied and when, your past jobs and for how long, what you're doing now, how long you've been studying Italian, and one plan for the future.",
+  minWords: 50,
+  maxWords: 100,
+  rubric: [
+    "Uses the present + da for situations still going on (abito qui da, studio italiano da)",
+    "Uses the passato prossimo + per or fa for finished periods and past events",
+    "Uses tra / fra for the future",
+    "Uses stare + gerund or stare per only where it means right now or about to",
+  ],
+  modelAnswer: "Mi chiamo Daniel e abito a Manchester da sei anni. Ho studiato ingegneria a Leeds e mi sono laureato otto anni fa. Ho lavorato in una fabbrica per due anni, poi ho cambiato lavoro. Dal 2020 lavoro come tecnico in un ospedale. Studio italiano da un anno, perché mia moglie è di Bari. In questo periodo sto preparando l'esame CILS A2. Tra due anni vorremmo trasferirci in Puglia!",
+  explanation: "\"Abito ... da sei anni\", \"lavoro ... dal 2020\" and \"studio ... da un anno\" use the present because they're still true; \"ho lavorato per due anni\" and \"mi sono laureato otto anni fa\" are finished. \"Tra due anni\" points to the future, and \"sto preparando\" stresses something in progress now.",
+};

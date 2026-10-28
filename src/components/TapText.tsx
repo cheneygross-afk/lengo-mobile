@@ -56,6 +56,11 @@ const GERMAN_LETTERS = /[äöüß]/i;
 // Portuguese too, and the course's English never writes them).
 const PORTUGUESE_LETTERS = /[ãõâêôàçáéíóú]/i;
 
+// And the accented vowels Italian writes (è, perché, città), for the
+// Italian beta. Shared with French and Portuguese, but each course only
+// ever checks its own. Same rule as the website's TapText.
+const ITALIAN_LETTERS = /[àèéìòù]/i;
+
 // Hangul (syllables and jamo): in the Korean beta any of it is Korean.
 const HANGUL = /[\u1100-\u11FF\u3130-\u318F\uA960-\uA97F\uAC00-\uD7FF]/;
 
@@ -70,6 +75,7 @@ function looksTargetWord(word: string, lang: SpeechLang): boolean {
   if (lang === "de-DE") return GERMAN_LETTERS.test(word);
   if (lang === "pt-BR") return PORTUGUESE_LETTERS.test(word);
   if (lang === "ko-KR") return HANGUL.test(word);
+  if (lang === "it-IT") return ITALIAN_LETTERS.test(word);
   return looksSpanishWord(word);
 }
 
@@ -79,7 +85,7 @@ function looksTargetWord(word: string, lang: SpeechLang): boolean {
 // (lib/spanishVoice.ts), the same rule as the website.
 const isSpanishLang = (lang: SpeechLang) => lang === "es-ES" || lang === "es-US";
 
-const LATIN_SCRIPT_TARGETS: SpeechLang[] = ["es-ES", "fr-FR", "de-DE", "pt-BR"];
+const LATIN_SCRIPT_TARGETS: SpeechLang[] = ["es-ES", "fr-FR", "de-DE", "pt-BR", "it-IT"];
 
 type Piece = { text: string; lang: SpeechLang | null; bold: boolean };
 

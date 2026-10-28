@@ -7,6 +7,7 @@ import type { GermanLevelKey } from "@/lib/lessons/german";
 import type { GermanStoryLevel } from "@/lib/stories/de";
 import type { PortugueseLevelKey } from "@/lib/lessons/portuguese";
 import type { KoreanLevelKey } from "@/lib/lessons/korean";
+import type { ItalianLevelKey } from "@/lib/lessons/italian";
 import type { PortugueseStoryLevel } from "@/lib/stories/pt";
 import type { KoreanStoryLevel } from "@/lib/stories/ko";
 
@@ -18,13 +19,17 @@ type KoreanStoryLevelPath = KoreanStoryLevel["path"];
 // The course a shared screen (review, flashcards, study tools) is showing.
 // "pt" is the Brazilian Portuguese course, open to every account; "ko" the
 // Korean beta, for the beta account only (RootNavigator's withKoreanBeta
-// turns everyone else away).
-export type CourseLang = "es" | "ja" | "zh" | "fr" | "de" | "pt" | "ko";
+// turns everyone else away); "it" the Italian beta, the same way
+// (withItalianBeta).
+export type CourseLang = "es" | "ja" | "zh" | "fr" | "de" | "pt" | "ko" | "it";
 // The courses with stories, Today's review and Study Tools of their own.
 export type ToolsLang = "es" | "fr" | "de" | "pt";
 // The same, with the Korean beta (only the beta account; RootNavigator's
 // withKoreanBeta turns everyone else away from a "ko" lang).
 export type ToolsLangKo = ToolsLang | "ko";
+// And with the Italian beta, for the screens it has so far (Today's review
+// and Study Tools; withItalianBeta turns everyone else away from "it").
+export type ToolsLangBeta = ToolsLangKo | "it";
 
 export type AppStackParamList = {
   Home: undefined;
@@ -46,6 +51,10 @@ export type AppStackParamList = {
   // Culture bonus) -- see KoreanLevelsScreen. Only the beta account
   // (lib/koreanBeta.ts).
   KoreanLevels: undefined;
+  // The Italian beta's level picker (Beginner ... Mastery, and the Culture
+  // bonus) -- see ItalianLevelsScreen. Only the beta accounts
+  // (lib/italianBeta.ts).
+  ItalianLevels: undefined;
   // A Spanish/Japanese/Chinese module by moduleKey, a French level by
   // frenchLevel or a German level by germanLevel (French and German lessons
   // load on demand, see lessons/french.ts and lessons/german.ts).
@@ -56,9 +65,10 @@ export type AppStackParamList = {
         germanLevel?: GermanLevelKey;
         portugueseLevel?: PortugueseLevelKey;
         koreanLevel?: KoreanLevelKey;
+        italianLevel?: ItalianLevelKey;
       }
     | undefined;
-  // levelPath is passed for French, German, Portuguese and Korean lessons ("fr/a1", "de/a1", "ko/hangul" ...):
+  // levelPath is passed for French, German, Portuguese, Korean and Italian lessons ("fr/a1", "de/a1", "ko/hangul", "it/a1" ...):
   // their slugs can repeat a Spanish lesson's, and their level is loaded on demand.
   LessonRunner: { slug: string; levelPath?: string };
   // lang defaults to "es" when omitted, so every existing "Review"
@@ -118,14 +128,16 @@ export type AppStackParamList = {
   // lang "fr": the French course's own (missed questions + flashcards).
   // lang "de": the German course's, the same way.
   // lang "ko": the Korean beta's (missed questions, then Korean flashcards).
-  TodayReview: { lang?: ToolsLangKo } | undefined;
+  // lang "it": the Italian beta's, the same way.
+  TodayReview: { lang?: ToolsLangBeta } | undefined;
   // Hub for the Spanish reference/practice tools below (grammar,
   // conjugation, DELE practice, glossary) plus the placement test.
   // lang "fr": the French course's tools (grammar, conjugation, DELF/DALF,
   // glossary, placement); lang "de" the German course's (Goethe-Zertifikat);
   // lang "pt" the Portuguese course's (Celpe-Bras).
   // lang "ko": the Korean beta's tools (KoreanStudyTools below the hub).
-  StudyTools: { lang?: ToolsLangKo } | undefined;
+  // lang "it": the Italian beta's (only the tools whose data the app has).
+  StudyTools: { lang?: ToolsLangBeta } | undefined;
   // Grammar guides (src/lib/grammar, synced from the website) -- the
   // list, then one guide by slug.
   Grammar: { lang?: ToolsLangKo } | undefined;
@@ -173,7 +185,7 @@ export type AppStackParamList = {
   Exams: { course?: ExamCourse } | undefined;
   // Writing practice (the website's Writing page): open writing tasks per
   // level, marked by the AI writing feedback.
-  Writing: { lang?: "es" | "fr" | "de" | "pt" | "ja" | "zh" | "ko" } | undefined;
+  Writing: { lang?: "es" | "fr" | "de" | "pt" | "ja" | "zh" | "ko" | "it" } | undefined;
   Exam: { slug: string; course?: ExamCourse };
   ExamPaper: { slug: string; paperId: string; course?: ExamCourse };
 };

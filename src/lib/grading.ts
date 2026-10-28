@@ -25,7 +25,11 @@ export type GradeResult = { correct: boolean; note?: string };
 // "ko" (Korean) is compared in Hangul ignoring spaces and punctuation: a
 // spacing difference is right with a note showing the model spacing, and
 // anything else (a different particle, ending or letter) is wrong.
-export type AnswerLanguage = "es" | "en" | "zh" | "fr" | "de" | "pt" | "ko" | "other";
+// "it" (Italian) gets the plain rules plus: "E'" is right for "È" (the
+// usual keyboard workaround) and an apostrophe for another final accent
+// ("perche'") is a slip with a note; a missing or extra double consonant
+// ("nono" for "nonno", "caro" for "carro") is never a typo, it's wrong.
+export type AnswerLanguage = "es" | "en" | "zh" | "fr" | "de" | "pt" | "ko" | "it" | "other";
 
 /** Share of a lesson's questions that must be right the first time for the lesson to count as complete. */
 export const LESSON_PASS_PERCENT = 70;
@@ -251,6 +255,15 @@ export function contractEnglish(cleaned: string): string {
 
 type Match = { rank: number; note?: string }; // 3 exact, 2 accent slip, 1 typo, 0 wrong
 
+// Italian one-syllable words that the accent alone tells apart ("e" and,
+// "è" is): leaving the accent off writes a different word, so it's wrong.
+const ITALIAN_ACCENT_PAIRS = new Set(["è", "dà", "là", "lì", "sì", "né", "sé", "tè"]);
+
+/** "nonno" -> "nono": Italian double consonants made single. */
+function singleConsonants(s: string): string {
+  return s.replace(/([b-df-hj-np-tv-z])\1/g, "$1");
+}
+
 /** "Mädchen" -> "maedchen": German umlauts written out. */
 function foldUmlauts(s: string): string {
   return s.replace(/ä/g, "ae").replace(/ö/g, "oe").replace(/ü/g, "ue");
@@ -271,17 +284,24 @@ function compare(typedClean: string, candidateClean: string, display: string, la
     const t = typed[i];
     const c = cand[i];
     if (t === c) continue;
+    // German: "ae" for "ä" (the standard keyboard-less spelling).
+    if (lang === "de" && foldUmlauts(t) === foldUmlauts(c)) {
+      accentSlips++;
+      continue;
+    }
+    if (lang === "it" && t.endsWith("'") && /[àèéìòù]$/.test(c) && t.slice(0, -1) === stripAccents(c)) {
+      // "e'" is how Italians type "è" without the key; "perche'" is a slip.
+      if (c !== "è") accentSlips++;
+      continue;
+    }
     const tl = stripAccents(t);
     const cl = stripAccents(c);
+    if (lang === "it" && tl !== cl && singleConsonants(tl) === singleConsonants(cl)) return { rank: 0 };
+    if (lang === "it" && ITALIAN_ACCENT_PAIRS.has(c)) return { rank: 0 };
     // A real word is never a slip for another one: "esta" for "está",
     // "hablo" for "habló", "quiere" for "quiera", "pero" for "perro".
     if (lang === "es" && isKnownSpanishWord(t)) return { rank: 0 };
     if (tl === cl) {
-      accentSlips++;
-      continue;
-    }
-    // German: "ae" for "ä" (the standard keyboard-less spelling).
-    if (lang === "de" && foldUmlauts(t) === foldUmlauts(c)) {
       accentSlips++;
       continue;
     }
@@ -408,13 +428,14 @@ export function gradeFreeText(value: string, answers: string[], opts: GradeOptio
   return best.rank > 0 ? { correct: true, note: best.note } : { correct: false };
 }
 
-/** "es-ES" -> "es", "zh-CN" -> "zh", "fr-FR" -> "fr", "de-DE" -> "de", "pt-BR" -> "pt", "ko-KR" -> "ko", anything else (Japanese) -> "other". */
+/** "es-ES" -> "es", "zh-CN" -> "zh", "fr-FR" -> "fr", "de-DE" -> "de", "pt-BR" -> "pt", "ko-KR" -> "ko", "it-IT" -> "it", anything else (Japanese) -> "other". */
 export function answerLanguageFor(speechLang: string): AnswerLanguage {
   if (speechLang.startsWith("zh")) return "zh";
   if (speechLang.startsWith("fr")) return "fr";
   if (speechLang.startsWith("de")) return "de";
   if (speechLang.startsWith("pt")) return "pt";
   if (speechLang.startsWith("ko")) return "ko";
+  if (speechLang.startsWith("it")) return "it";
   return speechLang.startsWith("es") ? "es" : "other";
 }
 

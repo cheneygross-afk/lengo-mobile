@@ -21,6 +21,7 @@ import { frenchLevelIfLoaded, frenchLevelInfo, loadFrenchLevel } from "@/lib/les
 import { germanLevelIfLoaded, germanLevelInfo, loadGermanLevel } from "@/lib/lessons/german";
 import { loadPortugueseLevel, portugueseLevelIfLoaded, portugueseLevelInfo } from "@/lib/lessons/portuguese";
 import { koreanLevelIfLoaded, koreanLevelInfo, loadKoreanLevel } from "@/lib/lessons/korean";
+import { italianLevelIfLoaded, italianLevelInfo, loadItalianLevel } from "@/lib/lessons/italian";
 import { planCovers, useAuth } from "@/lib/auth/AuthContext";
 import { courseOfLevelPath } from "@/lib/courses";
 import { freeSlugs } from "@/lib/freeLessons";
@@ -54,12 +55,14 @@ type Section = { key: string; unit?: ModuleUnit; title: string; data: Row[] };
 // its units the same way, once its lessons have loaded (lessons/french.ts,
 // lessons/german.ts, lessons/portuguese.ts). A Korean beta level
 // (koreanLevel) the same way (lessons/korean.ts); its Hangul module has no
-// units, so it's one flat list like the Japanese kana.
+// units, so it's one flat list like the Japanese kana. An Italian beta
+// level (italianLevel) the same way (lessons/italian.ts).
 export default function LessonListScreen({ navigation, route }: Props) {
   const frenchKey = route.params?.frenchLevel ?? null;
   const germanKey = route.params?.germanLevel ?? null;
   const portugueseKey = route.params?.portugueseLevel ?? null;
   const koreanKey = route.params?.koreanLevel ?? null;
+  const italianKey = route.params?.italianLevel ?? null;
   // The French, German or Portuguese level shown, if any: "fr/a1", "de/b2", "pt/c1" ...
   const lazyInfo = frenchKey
     ? frenchLevelInfo(frenchKey)
@@ -69,7 +72,9 @@ export default function LessonListScreen({ navigation, route }: Props) {
         ? portugueseLevelInfo(portugueseKey)
         : koreanKey
           ? koreanLevelInfo(koreanKey)
-          : null;
+          : italianKey
+            ? italianLevelInfo(italianKey)
+            : null;
   const lazyLevelPath = lazyInfo?.levelPath ?? null;
   // Unused for a French or German level (its data comes from lazyData below).
   const moduleKey: LessonModuleKey = route.params?.moduleKey ?? "a1";
@@ -82,7 +87,9 @@ export default function LessonListScreen({ navigation, route }: Props) {
           ? portugueseLevelIfLoaded(portugueseKey) ?? null
           : koreanKey
             ? koreanLevelIfLoaded(koreanKey) ?? null
-            : null
+            : italianKey
+              ? italianLevelIfLoaded(italianKey) ?? null
+              : null
   );
   useEffect(() => {
     if (!lazyLevelPath || lazyData?.levelPath === lazyLevelPath) return;
@@ -95,14 +102,16 @@ export default function LessonListScreen({ navigation, route }: Props) {
           ? loadPortugueseLevel(portugueseKey)
           : koreanKey
             ? loadKoreanLevel(koreanKey)
-            : null;
+            : italianKey
+              ? loadItalianLevel(italianKey)
+              : null;
     load?.then((data) => {
       if (!cancelled) setLazyData(data);
     });
     return () => {
       cancelled = true;
     };
-  }, [frenchKey, germanKey, portugueseKey, koreanKey, lazyLevelPath, lazyData?.levelPath]);
+  }, [frenchKey, germanKey, portugueseKey, koreanKey, italianKey, lazyLevelPath, lazyData?.levelPath]);
   const source: Pick<LessonSource, "levelPath" | "title" | "lessons" | "units" | "canDo"> = useMemo(() => {
     if (!lazyInfo) return LESSON_SOURCES[moduleKey];
     // A level with no units (Korean Hangul) is one flat list.

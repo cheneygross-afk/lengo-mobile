@@ -22,6 +22,7 @@ import { FRENCH_LEVEL_PATHS } from "@/lib/lessons/french";
 import { GERMAN_LEVEL_PATHS } from "@/lib/lessons/german";
 import { PORTUGUESE_LEVEL_PATHS } from "@/lib/lessons/portuguese";
 import { KOREAN_LEVEL_PATHS } from "@/lib/lessons/korean";
+import { ITALIAN_LEVEL_PATHS } from "@/lib/lessons/italian";
 
 /** Spanish tracks Today's review covers, in course order. */
 export const SPANISH_REVIEW_TRACKS = ["a1", "a2", "b1", "b2", "c1", "c2", "cosas-coloquiales"];
@@ -70,6 +71,19 @@ export async function getPortugueseReviewCounts(now: number = Date.now()): Promi
 export async function getKoreanReviewCounts(now: number = Date.now()): Promise<TodaysReviewCounts> {
   const missedLists = await Promise.all(KOREAN_LEVEL_PATHS.map((lp) => getDueMissedQuestions(lp, now)));
   const cards = Object.values(await loadFlashcards()).filter((c) => courseOfLevelPath(c.levelPath) === "ko");
+  return {
+    missed: missedLists.reduce((n, l) => n + l.length, 0),
+    mix: 0,
+    cards: (await getDueCardsForToday(cards)).length,
+  };
+}
+
+/** The Italian beta's own Today's review, the same way (/lessons/it/review
+ * on the website): the questions missed in its lessons, Beginner through
+ * Mastery and the Culture module, then its flashcards. */
+export async function getItalianReviewCounts(now: number = Date.now()): Promise<TodaysReviewCounts> {
+  const missedLists = await Promise.all(ITALIAN_LEVEL_PATHS.map((lp) => getDueMissedQuestions(lp, now)));
+  const cards = Object.values(await loadFlashcards()).filter((c) => courseOfLevelPath(c.levelPath) === "it");
   return {
     missed: missedLists.reduce((n, l) => n + l.length, 0),
     mix: 0,

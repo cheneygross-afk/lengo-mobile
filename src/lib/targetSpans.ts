@@ -99,6 +99,16 @@ function looksEnglishNotPortuguese(text: string): boolean {
   return words.some((w) => ENGLISH_FUNCTION_WORDS.has(w) && !SHARED_WITH_PORTUGUESE.has(w));
 }
 
+// English function words that are also everyday Italian words ("a Roma",
+// "in centro", "do" = I give). Same as the website's.
+const SHARED_WITH_ITALIAN = new Set(["a", "in", "do"]);
+
+function looksEnglishNotItalian(text: string): boolean {
+  if (/[àèéìòù]/i.test(text)) return false;
+  const words = text.toLowerCase().match(/[a-z]+/g) ?? [];
+  return words.some((w) => ENGLISH_FUNCTION_WORDS.has(w) && !SHARED_WITH_ITALIAN.has(w));
+}
+
 // Returns the tappable target-language spans within `text`. For Japanese,
 // that's every run of Japanese script. For Spanish -- which shares a
 // script with the English framing text -- quoted spans first, or (when
@@ -145,6 +155,13 @@ export function targetSpans(text: string, lang: SpeechLang): Span[] {
     const quoted = quotedSpans(text);
     if (quoted.length > 0) return quoted;
     if (text.trim() && !looksEnglishNotPortuguese(text)) return [{ start: 0, end: text.length, text }];
+    return [];
+  }
+  // The Italian beta the same way ("a", "in", "do" are Italian words too).
+  if (lang === "it-IT") {
+    const quoted = quotedSpans(text);
+    if (quoted.length > 0) return quoted;
+    if (text.trim() && !looksEnglishNotItalian(text)) return [{ start: 0, end: text.length, text }];
     return [];
   }
   return [];

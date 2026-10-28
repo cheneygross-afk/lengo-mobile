@@ -1,0 +1,183 @@
+// Synced from cheneygross-afk/lengo:src/lib/lessons/it-a2-u06-extra.ts by scripts/sync-content.mjs -- edit it there, not here.
+import type { Lesson } from "./types";
+
+// Italian A2 Unit 6 Extra Practice: Passato Prossimo or Imperfetto?
+// Optional lessons folded away under the unit (docs/italian-course/authoring.md).
+export const IT_A2_U06_EXTRA: Lesson[] = [
+  {
+    slug: "a2-two-pasts-extra-1",
+    level: "IT-A2",
+    number: 1,
+    title: "Extra Practice: Event or Background?",
+    summary: "Fresh two-clause sentences: one verb sets the scene, the other tells what happened.",
+    duration: "14 min",
+    optional: true,
+    kind: "drill",
+    sections: [
+      {
+        heading: "Scene first, then the event",
+        body: [
+          "Same test as in the unit: background (states, weather, feelings, things going on) in the imperfetto; events (things that happened, started or ended) in the passato prossimo. New words: \"la nebbia\" (fog), \"rompersi\" (to break), \"il vigile\" (traffic police officer), \"la multa\" (fine).",
+        ],
+        examples: [
+          { es: "C'era la nebbia, così abbiamo guidato piano.", en: "It was foggy, so we drove slowly." },
+          { es: "Ero in ritardo e ho preso una multa.", en: "I was late and got a fine." },
+          { es: "Il bar era chiuso, quindi abbiamo bevuto il caffè a casa.", en: "The bar was closed, so we had coffee at home." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It was foggy, so we drove slowly.", answer: "C'era la nebbia, così abbiamo guidato piano.", altAnswers: ["C'era nebbia, così abbiamo guidato piano.", "C'era la nebbia, quindi abbiamo guidato piano.", "C'era la nebbia, così abbiamo guidato lentamente."], explanation: "Weather: imperfetto; driving that day: event." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I was late and [I got] a fine.", sentence: "Ero in ritardo e ___ una multa.", answer: "ho preso", explanation: "\"Prendere una multa\" = to get a fine." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The bar was closed, so we had coffee at home.", answer: "Il bar era chiuso, quindi abbiamo bevuto il caffè a casa.", altAnswers: ["Il bar era chiuso, così abbiamo bevuto il caffè a casa.", "Il bar era chiuso, quindi abbiamo preso il caffè a casa."], explanation: "State, then event." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The traffic officer was very kind, so I didn't get a fine.", answer: "Il vigile era molto gentile, così non ho preso la multa.", altAnswers: ["Il vigile era gentilissimo, così non ho preso la multa.", "Il vigile era molto gentile, quindi non ho preso la multa.", "Il vigile era molto gentile, così non ho preso una multa."], explanation: "The officer's manner: background; the result: event." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "My phone was old and it broke.", answer: "Il mio telefono era vecchio e si è rotto.", altAnswers: ["Il mio cellulare era vecchio e si è rotto."], explanation: "\"Rompersi\": \"si è rotto\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I was thirsty, so I drank a glass of water.", answer: "Avevo sete, così ho bevuto un bicchiere d'acqua.", altAnswers: ["Avevo sete, quindi ho bevuto un bicchiere d'acqua.", "Avevo sete e ho bevuto un bicchiere d'acqua."], explanation: "\"Avevo sete\": state." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The sea was rough, so we didn't swim.", answer: "Il mare era mosso, così non abbiamo fatto il bagno.", altAnswers: ["Il mare era mosso, quindi non abbiamo fatto il bagno.", "Il mare era mosso, così non abbiamo nuotato.", "Il mare era agitato, così non abbiamo fatto il bagno."], explanation: "\"Fare il bagno\" = to swim (in the sea)." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "When we got to the cinema, the film was just starting.", answer: "Quando siamo arrivati al cinema, il film stava cominciando.", altAnswers: ["Quando siamo arrivati al cinema, il film cominciava.", "Quando siamo arrivate al cinema, il film stava cominciando.", "Quando siamo arrivati al cinema, il film stava iniziando.", "Quando siamo arrivate al cinema, il film cominciava."], explanation: "Arrival: event; the film starting: in progress." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "There was a long queue, so we left.", answer: "C'era una lunga fila, così siamo andati via.", altAnswers: ["C'era una lunga coda, così siamo andati via.", "C'era una fila lunga, così siamo andati via.", "C'era una lunga fila, quindi siamo andati via.", "C'era una lunga fila, così siamo andate via."], explanation: "\"C'era\": background." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Giulia was sad, so I called her mother.", answer: "Giulia era triste, così ho chiamato sua madre.", altAnswers: ["Giulia era triste, quindi ho chiamato sua madre.", "Giulia era triste, così ho telefonato a sua madre."], explanation: "Feeling: imperfetto." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The shops [were] open, so we bought some bread.", sentence: "I negozi ___ aperti, così abbiamo comprato del pane.", answer: "erano", explanation: "State: \"erano aperti\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It was snowing, so we [stayed] at home.", sentence: "Nevicava, così ___ a casa.", answer: "siamo rimasti", altAnswers: ["siamo rimaste", "siamo restati", "siamo restate"], explanation: "\"Rimanere\": essere." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The room [was] dark, so I switched on the light.", sentence: "La stanza ___ buia, così ho acceso la luce.", answer: "era", explanation: "Description: \"era\"." },
+      { type: "word-order", prompt: "Put the words in order to say: It was cold, so I put on a jumper.", words: ["Faceva", "freddo,", "così", "ho", "messo", "un", "maglione."], translation: "It was cold, so I put on a jumper.", explanation: "Weather, then action." },
+      { type: "multiple-choice", question: "Choose the right pair: Il treno ___ pieno, così ___ in piedi.", options: ["era / sono rimasto", "è stato / rimanevo", "era / rimanevo", "è stato / sono rimasto"], correctIndex: 0, explanation: "State in the imperfetto, the result in the passato prossimo." },
+      { type: "dictation", audio: "C'era la nebbia, così abbiamo guidato piano.", explanation: "\"C'era\" + \"abbiamo guidato\"." },
+      { type: "speak", text: "Avevo fame, ma il frigo era vuoto, così sono andata al supermercato.", prompt: "Say it in Italian: I was hungry, but the fridge was empty, so I went to the supermarket. (a woman speaking)", tip: "Two states, one event.", explanation: "\"Avevo\", \"era\", \"sono andata\"." },
+    ],
+  },
+  {
+    slug: "a2-two-pasts-extra-2",
+    level: "IT-A2",
+    number: 2,
+    title: "Extra Practice: Interrupted Actions",
+    summary: "Mentre and quando stories: something was going on, then something else happened.",
+    duration: "14 min",
+    optional: true,
+    kind: "drill",
+    sections: [
+      {
+        heading: "Mentre ..., quando ...",
+        body: [
+          "\"Mentre\" + imperfetto sets up the action in progress; the main clause brings the interruption in the passato prossimo. With \"quando\", it's the other way round: \"Stavo uscendo quando ha telefonato Laura.\" \"Stavo\" + gerund stresses that you were right in the middle of it.",
+        ],
+        examples: [
+          { es: "Mentre facevo la doccia, è finita l'acqua calda.", en: "While I was having a shower, the hot water ran out." },
+          { es: "Stavo uscendo quando ha telefonato Laura.", en: "I was going out when Laura phoned." },
+          { es: "Mentre attraversavo la strada, ho perso una scarpa.", en: "While I was crossing the road, I lost a shoe." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I was going out when Laura phoned.", answer: "Stavo uscendo quando ha telefonato Laura.", altAnswers: ["Stavo uscendo quando Laura ha telefonato.", "Uscivo quando ha telefonato Laura.", "Uscivo quando Laura ha telefonato.", "Stavo uscendo quando ha chiamato Laura."], explanation: "In progress, then the interruption." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "While I was having a shower, the hot water [ran out].", sentence: "Mentre facevo la doccia, ___ l'acqua calda.", answer: "è finita", explanation: "\"Finire\" without an object: essere." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "While I was crossing the road, I lost a shoe.", answer: "Mentre attraversavo la strada, ho perso una scarpa.", altAnswers: ["Mentre stavo attraversando la strada, ho perso una scarpa."], explanation: "Background with \"mentre\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "While we were having lunch, it started to rain.", answer: "Mentre pranzavamo, ha cominciato a piovere.", altAnswers: ["Mentre pranzavamo, ha iniziato a piovere.", "Mentre pranzavamo, è cominciato a piovere.", "Mentre stavamo pranzando, ha cominciato a piovere.", "Mentre mangiavamo, ha cominciato a piovere."], explanation: "The rain starts: event." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I was studying when my brother came in.", answer: "Studiavo quando è entrato mio fratello.", altAnswers: ["Stavo studiando quando è entrato mio fratello.", "Studiavo quando mio fratello è entrato.", "Stavo studiando quando mio fratello è entrato."], explanation: "\"Entrare\": essere." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "While she was driving, she saw a deer.", answer: "Mentre guidava, ha visto un cervo.", altAnswers: ["Mentre stava guidando, ha visto un cervo.", "Mentre lei guidava, ha visto un cervo."], explanation: "\"Il cervo\" = deer." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We were watching TV when the power went off.", answer: "Guardavamo la TV quando è andata via la luce.", altAnswers: ["Guardavamo la televisione quando è andata via la luce.", "Stavamo guardando la TV quando è andata via la luce.", "Stavamo guardando la televisione quando è andata via la luce.", "Guardavamo la tv quando è andata via la luce."], explanation: "\"È andata via la luce\" = the power went off." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "While I was waiting for the train, I met an old friend.", answer: "Mentre aspettavo il treno, ho incontrato un vecchio amico.", altAnswers: ["Mentre aspettavo il treno, ho incontrato una vecchia amica.", "Mentre stavo aspettando il treno, ho incontrato un vecchio amico."], explanation: "\"Aspettare\" takes no preposition." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The baby was sleeping when the dog started barking.", answer: "Il bambino dormiva quando il cane ha cominciato ad abbaiare.", altAnswers: ["Il bambino dormiva quando il cane ha iniziato ad abbaiare.", "Il bambino stava dormendo quando il cane ha cominciato ad abbaiare.", "La bambina dormiva quando il cane ha cominciato ad abbaiare."], explanation: "\"Cominciare a\" becomes \"ad\" before \"a\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "While Paolo was cooking, the pasta fell on the floor.", answer: "Mentre Paolo cucinava, la pasta è caduta per terra.", altAnswers: ["Mentre Paolo cucinava, la pasta è caduta a terra.", "Mentre Paolo stava cucinando, la pasta è caduta per terra."], explanation: "\"Cadere per terra\" = to fall on the floor." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I [was writing] an email when the computer switched off.", sentence: "___ una mail quando il computer si è spento.", answer: "Scrivevo", altAnswers: ["Stavo scrivendo"], explanation: "In progress: imperfetto." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "While they were dancing, the music [stopped].", sentence: "Mentre ballavano, la musica ___.", answer: "si è fermata", altAnswers: ["è finita"], explanation: "Interruption: passato prossimo." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "We were going out when [it started] to snow.", sentence: "Stavamo uscendo quando ___ a nevicare.", answer: "ha cominciato", altAnswers: ["ha iniziato", "è cominciato"], explanation: "Weather verbs can take avere or essere here." },
+      { type: "word-order", prompt: "Put the words in order to say: While I was reading, someone knocked at the door.", words: ["Mentre", "leggevo,", "qualcuno", "ha", "bussato", "alla", "porta."], translation: "While I was reading, someone knocked at the door.", explanation: "\"Bussare alla porta\"." },
+      { type: "multiple-choice", question: "Which sentence is correct?", options: ["Mentre parlavo al telefono, il treno è partito.", "Mentre ho parlato al telefono, il treno partiva.", "Mentre ho parlato al telefono, il treno è partito.", "Mentre parlavo al telefono, il treno partiva all'improvviso."], correctIndex: 0, explanation: "\"Mentre\" + imperfetto, then the event." },
+      { type: "listen-choose", audio: "Stavo uscendo quando ha telefonato Laura.", question: "What was the speaker doing when Laura phoned?", options: ["going out", "having a shower", "sleeping", "cooking"], correctIndex: 0, explanation: "\"Stavo uscendo\" = I was going out." },
+      { type: "speak", text: "Mentre facevo la doccia, è finita l'acqua calda.", prompt: "Say it in Italian: While I was having a shower, the hot water ran out.", tip: "Background with mentre, then the event.", explanation: "\"Facevo\" + \"è finita\"." },
+    ],
+  },
+  {
+    slug: "a2-two-pasts-extra-3",
+    level: "IT-A2",
+    number: 3,
+    title: "Extra Practice: Meaning Changers",
+    summary: "More practice with conoscere, sapere and the modals, where the tense changes the meaning.",
+    duration: "14 min",
+    optional: true,
+    kind: "drill",
+    sections: [
+      {
+        heading: "Knew, met, found out, managed, refused",
+        body: [
+          "\"Conoscevo\" = I knew (someone, a place); \"ho conosciuto\" = I met. \"Sapevo\" = I knew (a fact); \"ho saputo\" = I found out. \"Volevo\" = I wanted; \"non ho voluto\" = I refused. \"Potevo\" = I could; \"ho potuto\" = I managed to. \"Dovevo\" = I was supposed to; \"ho dovuto\" / \"sono dovuto\" = I had to and did.",
+        ],
+        examples: [
+          { es: "Non conoscevo nessuno alla festa.", en: "I didn't know anyone at the party." },
+          { es: "Ho saputo la notizia stamattina.", en: "I heard the news this morning." },
+          { es: "Dovevamo cenare insieme, ma Sara ha avuto un problema.", en: "We were supposed to have dinner together, but Sara had a problem." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I didn't know anyone at the party.", answer: "Non conoscevo nessuno alla festa.", altAnswers: ["Alla festa non conoscevo nessuno."], explanation: "A state: \"conoscevo\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I heard the news this morning.", answer: "Ho saputo la notizia stamattina.", altAnswers: ["Stamattina ho saputo la notizia.", "Ho saputo la notizia questa mattina."], explanation: "Found out = \"ho saputo\"." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We were supposed to have dinner together, but Sara had a problem.", answer: "Dovevamo cenare insieme, ma Sara ha avuto un problema.", altAnswers: ["Dovevamo cenare insieme, però Sara ha avuto un problema."], explanation: "\"Dovevamo\" = were supposed to." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I met my husband in Venice.", answer: "Ho conosciuto mio marito a Venezia.", explanation: "Met for the first time: \"ho conosciuto\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Did you know that Marco was getting married? (to a friend)", answer: "Sapevi che Marco si sposava?", altAnswers: ["Tu sapevi che Marco si sposava?", "Lo sapevi che Marco si sposava?"], explanation: "Already knew: \"sapevi\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "When did you find out? (to a friend)", answer: "Quando hai saputo?", altAnswers: ["Quando l'hai saputo?", "Tu quando hai saputo?"], explanation: "\"Hai saputo\" = found out." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The children refused to go to bed.", answer: "I bambini non hanno voluto andare a letto.", altAnswers: ["I bambini non sono voluti andare a letto."], explanation: "\"Non hanno voluto\" = refused." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I wanted to buy the shoes, but they were too expensive.", answer: "Volevo comprare le scarpe, ma erano troppo care.", altAnswers: ["Volevo comprare quelle scarpe, ma erano troppo care."], explanation: "A wish not fulfilled." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Luckily we managed to catch the last train.", answer: "Per fortuna abbiamo potuto prendere l'ultimo treno.", altAnswers: ["Per fortuna siamo riusciti a prendere l'ultimo treno.", "Per fortuna siamo riuscite a prendere l'ultimo treno.", "Fortunatamente abbiamo potuto prendere l'ultimo treno."], explanation: "Managed to: \"abbiamo potuto\" (or \"siamo riusciti\")." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I knew Rome well because I used to live there.", answer: "Conoscevo bene Roma perché ci abitavo.", altAnswers: ["Conoscevo bene Roma perché ci vivevo.", "Conoscevo Roma bene perché ci abitavo."], explanation: "Knowing a place: \"conoscevo\"; \"ci\" = there." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "She [had to] go back home. (and she did)", sentence: "___ tornare a casa.", answer: "È dovuta", explanation: "Modal + \"tornare\": essere." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "From the terrace [we could] see the whole city.", sentence: "Dalla terrazza ___ vedere tutta la città.", answer: "potevamo", explanation: "A general possibility: imperfetto." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I didn't know] the answer.", sentence: "___ la risposta.", answer: "Non sapevo", explanation: "A state of not knowing." },
+      { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "dovevo", right: "I was supposed to" }, { left: "ho dovuto", right: "I had to (and did)" }, { left: "potevo", right: "I could" }, { left: "ho potuto", right: "I managed to" }, { left: "volevo", right: "I wanted" }], explanation: "Imperfetto = state or plan; passato prossimo = what actually happened." },
+      { type: "multiple-choice", question: "\"Ho conosciuto Paolo nel 2019.\" What does it mean?", options: ["I met Paolo in 2019.", "I knew Paolo in 2019.", "I found out about Paolo in 2019.", "I wanted to meet Paolo in 2019."], correctIndex: 0, explanation: "\"Ho conosciuto\" = met." },
+      { type: "dictation", audio: "Volevo venire, ma non ho potuto.", explanation: "Wanted, but couldn't." },
+      { type: "speak", text: "Sapevo che era difficile, ma ho voluto provare.", prompt: "Say it in Italian: I knew it was difficult, but I wanted to try (and did).", tip: "Sapevo: state; ho voluto: wanted and did.", explanation: "Two meaning changers in one sentence." },
+    ],
+  },
+  {
+    slug: "a2-two-pasts-extra-4",
+    level: "IT-A2",
+    number: 4,
+    title: "Extra Practice: Story Retelling",
+    summary: "Retell three short stories in the past, with the scene in the imperfetto and the events in the passato prossimo.",
+    duration: "14 min",
+    optional: true,
+    kind: "drill",
+    sections: [
+      {
+        heading: "Three short stories",
+        body: [
+          "Story 1, the keys: \"Era tardi e pioveva. Sono arrivato a casa, ma non avevo le chiavi!\" Story 2, the concert: \"Il concerto era all'aperto. Mentre cantava, il cantante è caduto dal palco.\" Story 3, the dog: \"Il cane della vicina era piccolo e nero. Un giorno è entrato in casa nostra e ha mangiato la torta.\"",
+        ],
+        examples: [
+          { es: "Sono arrivato a casa, ma non avevo le chiavi!", en: "I got home, but I didn't have my keys!" },
+          { es: "Mentre cantava, il cantante è caduto dal palco.", en: "While he was singing, the singer fell off the stage." },
+          { es: "Un giorno il cane è entrato in casa nostra.", en: "One day the dog came into our house." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I got home, but I didn't have my keys! (a man speaking)", answer: "Sono arrivato a casa, ma non avevo le chiavi!", altAnswers: ["Sono tornato a casa, ma non avevo le chiavi!"], explanation: "Event, then a state." },
+          { type: "listen-choose", audio: "Mentre cantava, il cantante è caduto dal palco.", question: "What happened to the singer?", options: ["He fell off the stage.", "He lost his voice.", "He stopped singing.", "He arrived late."], correctIndex: 0, explanation: "\"È caduto dal palco\"." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It was late and it was raining.", answer: "Era tardi e pioveva.", explanation: "Two background verbs." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I rang the bell, but nobody answered.", answer: "Ho suonato il campanello, ma nessuno ha risposto.", altAnswers: ["Ho suonato il campanello, ma non ha risposto nessuno.", "Ho suonato, ma nessuno ha risposto."], explanation: "Two events." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In the end I slept at a friend's place.", answer: "Alla fine ho dormito da un amico.", altAnswers: ["Alla fine ho dormito da un'amica.", "Alla fine ho dormito a casa di un amico.", "Alla fine ho dormito a casa di un'amica."], explanation: "\"Da\" + person = at someone's place." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The concert was outdoors and there were thousands of people.", answer: "Il concerto era all'aperto e c'erano migliaia di persone.", explanation: "Scene: \"era\", \"c'erano\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Luckily he didn't hurt himself, and he went on singing.", answer: "Per fortuna non si è fatto male e ha continuato a cantare.", altAnswers: ["Per fortuna non si è fatto niente e ha continuato a cantare.", "Fortunatamente non si è fatto male e ha continuato a cantare."], explanation: "\"Farsi male\" = to hurt oneself." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The neighbour's dog was small and black.", answer: "Il cane della vicina era piccolo e nero.", altAnswers: ["Il cane del vicino era piccolo e nero."], explanation: "Description: \"era\"; \"di + la\" = \"della\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "One day it came into our house and ate the cake.", answer: "Un giorno è entrato in casa nostra e ha mangiato la torta.", altAnswers: ["Un giorno è entrato a casa nostra e ha mangiato la torta."], explanation: "Two events: essere, then avere." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "My mother was furious, but then she laughed.", answer: "Mia madre era furiosa, ma poi ha riso.", altAnswers: ["Mia mamma era furiosa, ma poi ha riso.", "Mia madre era arrabbiatissima, ma poi ha riso."], explanation: "Feeling, then event." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "While the singer was singing, [he fell] off the stage.", sentence: "Mentre il cantante cantava, ___ dal palco.", answer: "è caduto", explanation: "\"Cadere\": essere." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The door [was] closed and I didn't have my keys.", sentence: "La porta ___ chiusa e non avevo le chiavi.", answer: "era", explanation: "Description: \"era chiusa\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[We were] in the garden when the dog came in.", sentence: "___ in giardino quando è entrato il cane.", answer: "Eravamo", explanation: "Where you were: imperfetto." },
+      { type: "word-order", prompt: "Put the words in order to say: When we came back, the cake wasn't there anymore.", words: ["Quando", "siamo", "tornati,", "la", "torta", "non", "c'era", "più."], translation: "When we came back, the cake wasn't there anymore.", explanation: "Event, then the state you found." },
+      { type: "multiple-choice", question: "Story: \"Era sabato. ___ al mercato e ho comprato delle pesche.\" Which verb fits?", options: ["Sono andata", "Andavo", "Vado", "Ero andando"], correctIndex: 0, explanation: "A single event, followed by another." },
+      { type: "dictation", audio: "Era tardi e pioveva. Sono arrivato a casa, ma non avevo le chiavi!", explanation: "Scene, event, state." },
+      { type: "speak", text: "Il cane della vicina è entrato in casa nostra e ha mangiato la torta!", prompt: "Retell it in Italian: The neighbour's dog came into our house and ate the cake!", tip: "Two events: essere, then avere.", explanation: "\"È entrato\", \"ha mangiato\"." },
+    ],
+  },
+];

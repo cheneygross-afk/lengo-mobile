@@ -11,14 +11,15 @@ import { FRENCH_LEVEL_PATHS } from "@/lib/lessons/french";
 import { GERMAN_LEVEL_PATHS } from "@/lib/lessons/german";
 import { PORTUGUESE_LEVEL_PATHS } from "@/lib/lessons/portuguese";
 import { KOREAN_LEVEL_PATHS } from "@/lib/lessons/korean";
+import { ITALIAN_LEVEL_PATHS } from "@/lib/lessons/italian";
 import { loadLazyLevel } from "@/lib/lessons/lazyLevels";
 
 type Saved = { lesson: Lesson; levelPath: string };
 
 /** A course's saved lessons, with the levelPath each was saved under. */
 async function loadSaved(lang: string): Promise<Saved[]> {
-  if (lang === "fr" || lang === "de" || lang === "pt" || lang === "ko") {
-    // French, German, Portuguese and Korean slugs can repeat a Spanish one, so each
+  if (lang === "fr" || lang === "de" || lang === "pt" || lang === "ko" || lang === "it") {
+    // French, German, Portuguese, Korean and Italian slugs can repeat a Spanish one, so each
     // is looked up in its own level (loaded only when something there was saved).
     const levelPaths: string[] =
       lang === "fr"
@@ -27,7 +28,9 @@ async function loadSaved(lang: string): Promise<Saved[]> {
           ? GERMAN_LEVEL_PATHS
           : lang === "pt"
             ? PORTUGUESE_LEVEL_PATHS
-            : KOREAN_LEVEL_PATHS; // Hangul ... Mastery and the Culture module
+            : lang === "ko"
+              ? KOREAN_LEVEL_PATHS // Hangul ... Mastery and the Culture module
+              : ITALIAN_LEVEL_PATHS; // Beginner ... Mastery and the Culture module
     const lists = await Promise.all(levelPaths.map((lp) => getReviewSlugs(lp)));
     const out: Saved[] = [];
     for (const [i, levelPath] of levelPaths.entries()) {
@@ -106,7 +109,7 @@ export default function ReviewListScreen({ navigation, route }: Props) {
               onPress={() =>
                 navigation.navigate(
                   "LessonRunner",
-                  lang === "fr" || lang === "de" || lang === "pt" || lang === "ko" ? { slug: item.lesson.slug, levelPath: item.levelPath } : { slug: item.lesson.slug }
+                  lang === "fr" || lang === "de" || lang === "pt" || lang === "ko" || lang === "it" ? { slug: item.lesson.slug, levelPath: item.levelPath } : { slug: item.lesson.slug }
                 )
               }
             >

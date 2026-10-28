@@ -1,0 +1,735 @@
+// Synced from cheneygross-afk/lengo:src/lib/lessons/it-c2-u03.ts by scripts/sync-content.mjs -- edit it there, not here.
+import type { Lesson, WriteExercise } from "./types";
+
+// Italian C2 Unit 3: Leopardi and the Language of Poetry. L'infinito and
+// A Silvia with notes, poetic forms (troncamento, elisione, inversione),
+// poetic vocabulary, metre and figures, other public-domain poets.
+// Conventions: docs/italian-course/authoring.md.
+export const IT_C2_U03: Lesson[] = [
+  {
+    slug: "c2-leopardi-infinito",
+    level: "IT-C2",
+    number: 1,
+    title: "Leopardi: L'infinito",
+    summary: "Read Leopardi's L'infinito line by line with notes and understand how fifteen lines move from a hedge to infinity.",
+    duration: "19 min",
+    sections: [
+      {
+        heading: "The hill and the hedge",
+        body: [
+          "Giacomo Leopardi (1798-1837) wrote \"L'infinito\" in 1819, aged twenty-one, in Recanati, the small town in the Marche he longed to escape. The poem is fifteen \"endecasillabi sciolti\" (unrhymed eleven-syllable lines), and Italians learn it by heart at school. It begins: \"Sempre caro mi fu quest'ermo colle, / e questa siepe, che da tanta parte / dell'ultimo orizzonte il guardo esclude.\"",
+          "Notes: \"ermo\" is a poetic word for solitary, lonely (from the same root as \"eremita\"); \"il guardo\" is the gaze, the poetic form of \"lo sguardo\"; \"da tanta parte\" means from so much of. The hedge blocks the view of the farthest horizon. Note the inverted order: \"Sempre caro mi fu\" puts the predicate first, and \"il guardo esclude\" puts the verb last.",
+          "Watch the demonstratives: \"questo\" for what is near (this hill, this hedge, these plants) and later \"quello\" for what is imagined and far. The whole poem moves between the two, and \"questo\" wins in the last line.",
+        ],
+        examples: [
+          { es: "Sempre caro mi fu quest'ermo colle", en: "This lonely hill was always dear to me" },
+          { es: "e questa siepe, che da tanta parte / dell'ultimo orizzonte il guardo esclude", en: "and this hedge, which shuts out the gaze from so much of the farthest horizon" },
+          { es: "Questo colle solitario mi è sempre stato caro.", en: "This solitary hill has always been dear to me. (paraphrase)" },
+          { es: "La siepe impedisce allo sguardo di vedere l'orizzonte.", en: "The hedge stops the eye from seeing the horizon." },
+          { es: "Leopardi scrisse L'infinito a ventun anni.", en: "Leopardi wrote L'infinito at twenty-one." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "This solitary hill has always been dear to me.", answer: "Questo colle solitario mi è sempre stato caro.", altAnswers: ["Questa collina solitaria mi è sempre stata cara.", "Mi è sempre stato caro questo colle solitario.", "Ho sempre amato questo colle solitario."], explanation: "\"Essere caro a qualcuno\" with the indirect \"mi\"; \"ermo\" = solitario." },
+          { type: "multiple-choice", question: "\"Il guardo\" in poetry means ...", options: ["the gaze, the eye", "the guard", "the garden", "the hedge"], correctIndex: 0, explanation: "Poetic \"guardo\" = \"sguardo\"." },
+        ],
+      },
+      {
+        heading: "Imagining infinity",
+        body: [
+          "\"Ma sedendo e mirando, interminati / spazi di là da quella, e sovrumani / silenzi, e profondissima quiete / io nel pensier mi fingo; ove per poco / il cor non si spaura.\" Sitting and gazing, the poet imagines endless spaces beyond the hedge, superhuman silences and deepest quiet, so that his heart is almost afraid.",
+          "Notes: \"mirando\" is gazing, the poetic \"guardare\"; \"interminati\" means endless; \"mi fingo\" is Latin \"fingere\", to shape, imagine, never pretend here; \"ove\" is where, here with a sense of so that; \"per poco ... non\" means almost (\"per poco non cadevo\" = I nearly fell, still used today); \"si spaura\" is a rare form of \"si spaventa\". Look at the enjambements: \"interminati / spazi\", \"sovrumani / silenzi\": the adjective is cut off from its noun at the end of the line, so the sentence itself overflows its limit, as the mind overflows the hedge.",
+        ],
+        examples: [
+          { es: "Ma sedendo e mirando, interminati / spazi di là da quella", en: "But sitting and gazing, endless spaces beyond it" },
+          { es: "e sovrumani / silenzi, e profondissima quiete / io nel pensier mi fingo", en: "and superhuman silences, and deepest quiet I shape in my thought" },
+          { es: "ove per poco / il cor non si spaura", en: "so that my heart is almost afraid" },
+          { es: "Per poco non perdevo il treno.", en: "I nearly missed the train." },
+          { es: "L'enjambement separa l'aggettivo dal sostantivo.", en: "The enjambement separates the adjective from the noun." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I nearly missed the train.", answer: "Per poco non perdevo il treno.", altAnswers: ["Per poco non ho perso il treno.", "Ho quasi perso il treno.", "Stavo per perdere il treno."], explanation: "\"Per poco non\" + imperfect or \"passato prossimo\" = almost; the \"non\" is not negative." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I imagine] endless spaces.", sentence: "___ spazi interminabili.", answer: "Immagino", altAnswers: ["Mi immagino", "Mi figuro"], explanation: "Leopardi's \"mi fingo\" = \"mi immagino\", from Latin \"fingere\"." },
+          { type: "listen-choose", audio: "Ove per poco il cor non si spaura.", question: "What does the poet feel?", options: ["His heart is almost frightened.", "His heart is not afraid at all.", "He is a little sad.", "He feels at home."], correctIndex: 0, explanation: "\"Per poco ... non\" = almost." },
+        ],
+      },
+      {
+        heading: "Sweet shipwreck",
+        body: [
+          "The wind rustles the plants, and the poet compares that voice with the infinite silence: \"E come il vento / odo stormir tra queste piante, io quello / infinito silenzio a questa voce / vo comparando: e mi sovvien l'eterno, / e le morte stagioni, e la presente / e viva, e il suon di lei.\" \"Stormir\" is the rustle of leaves; \"vo comparando\" is \"vado paragonando\"; \"mi sovvien\" (it comes to my mind) is the poetic \"mi viene in mente\"; \"le morte stagioni\" are past ages, \"la presente\" the present one.",
+          "The end: \"Così tra questa / immensità s'annega il pensier mio: / e il naufragar m'è dolce in questo mare.\" Thought drowns in immensity, and the shipwreck is sweet. Note \"questa immensità\" and \"questo mare\": the infinite, once \"quello\", is now near. \"Naufragar\" is an infinitive used as a noun (\"il naufragare\", the shipwrecking), a construction you know from formal prose.",
+        ],
+        examples: [
+          { es: "E come il vento / odo stormir tra queste piante", en: "And as I hear the wind rustle among these plants" },
+          { es: "e mi sovvien l'eterno, / e le morte stagioni", en: "and eternity comes to my mind, and the dead seasons" },
+          { es: "Così tra questa / immensità s'annega il pensier mio", en: "So in this immensity my thought drowns" },
+          { es: "E il naufragar m'è dolce in questo mare.", en: "And shipwreck is sweet to me in this sea." },
+          { es: "Mi viene in mente quell'estate al mare.", en: "That summer at the seaside comes to mind." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "And shipwreck is sweet to me in this sea.", answer: "E il naufragare mi è dolce in questo mare.", altAnswers: ["E naufragare mi è dolce in questo mare.", "E il naufragio mi è dolce in questo mare.", "E naufragare in questo mare mi è dolce."], explanation: "Infinitive as noun: \"il naufragare\"; \"m'è\" → \"mi è\"." },
+          { type: "word-order", prompt: "Put the words in order to say: My thought drowns in this immensity.", words: ["Il", "mio", "pensiero", "annega", "in questa", "immensità."], translation: "My thought drowns in this immensity.", explanation: "Modern order for \"tra questa immensità s'annega il pensier mio\"." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The hedge shuts out the view of the horizon.", answer: "La siepe esclude la vista dell'orizzonte.", altAnswers: ["La siepe impedisce la vista dell'orizzonte.", "La siepe nasconde la vista dell'orizzonte.", "La siepe toglie la vista dell'orizzonte."], explanation: "Leopardi: \"il guardo esclude\", with the verb last." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "That summer at the seaside comes to mind.", answer: "Mi viene in mente quell'estate al mare.", altAnswers: ["Mi torna in mente quell'estate al mare.", "Mi ricordo di quell'estate al mare.", "Mi sovviene quell'estate al mare."], explanation: "\"Mi sovvien\" (poetic) = \"mi viene in mente\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I hear the wind rustling among the plants.", answer: "Sento il vento stormire tra le piante.", altAnswers: ["Odo il vento stormire tra le piante.", "Sento il vento che stormisce tra le piante.", "Sento stormire il vento tra le piante."], explanation: "\"Stormire\" = to rustle (of leaves); \"sentire\" + infinitive." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The poem is made of fifteen unrhymed lines.", answer: "La poesia è composta da quindici endecasillabi sciolti.", altAnswers: ["La poesia è composta di quindici versi sciolti.", "La poesia è formata da quindici endecasillabi sciolti.", "Il componimento è formato da quindici endecasillabi sciolti.", "La poesia è composta da quindici versi sciolti."], explanation: "\"Sciolti\" = unrhymed (literally loose)." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[This lonely hill] was always dear to me.", sentence: "Sempre caro mi fu ___.", answer: "quest'ermo colle", altAnswers: ["questo ermo colle"], explanation: "\"Ermo\" = solitary; \"quest'\" elided before a vowel." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Sitting and gazing], I imagine endless spaces.", sentence: "___, immagino spazi interminati.", answer: "Sedendo e guardando", altAnswers: ["Sedendo e mirando", "Stando seduto e guardando"], explanation: "Leopardi's \"mirando\" = \"guardando\", gazing." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I [go comparing] that silence to this voice.", sentence: "___ quel silenzio a questa voce.", answer: "Vado paragonando", altAnswers: ["Vado comparando", "Sto paragonando"], explanation: "\"Vo comparando\": \"andare\" + gerund, gradual action." },
+      { type: "matching", instructions: "Match Leopardi's word to its meaning.", pairs: [{ left: "ermo", right: "solitary" }, { left: "il guardo", right: "the gaze" }, { left: "mi fingo", right: "I imagine" }, { left: "mi sovvien", right: "it comes to my mind" }, { left: "stormir", right: "to rustle" }], explanation: "Five keys to the poem." },
+      { type: "multiple-choice", question: "Why are \"interminati / spazi\" split across two lines?", options: ["The enjambement makes the sentence overflow the line, as thought overflows the hedge.", "To make a rhyme.", "Because the line was too long to print.", "To separate two different ideas."], correctIndex: 0, explanation: "Form imitates meaning: the limit of the line is crossed." },
+      { type: "dictation", audio: "E il naufragar m'è dolce in questo mare.", explanation: "\"Naufragar\" cut; \"m'è\" elided." },
+      { type: "speak", text: "Sempre caro mi fu quest'ermo colle, e questa siepe, che da tanta parte dell'ultimo orizzonte il guardo esclude.", tip: "Read through the line ends without stopping: Leopardi's sentences overflow.", explanation: "The opening three lines, one sentence." },
+    ],
+  },
+  {
+    slug: "c2-leopardi-silvia",
+    level: "IT-C2",
+    number: 2,
+    title: "Leopardi: A Silvia",
+    summary: "Read A Silvia with notes and follow its parallel between a girl who died young and the hopes of youth.",
+    duration: "19 min",
+    sections: [
+      {
+        heading: "Silvia, do you remember?",
+        body: [
+          "\"A Silvia\" (1828) is addressed to a girl of Recanati, traditionally identified as Teresa Fattorini, daughter of the Leopardi family's coachman, who died of tuberculosis in 1818. It opens with a question: \"Silvia, rimembri ancora / quel tempo della tua vita mortale, / quando beltà splendea / negli occhi tuoi ridenti e fuggitivi, / e tu, lieta e pensosa, il limitare / di gioventù salivi?\"",
+          "Notes: \"rimembri\" is the poetic \"ricordi\"; \"beltà\" is \"bellezza\"; \"splendea\" is \"splendeva\" without the v; \"fuggitivi\" describes eyes that glance away shyly, and also foreshadows a life that will flee; \"il limitare\" is the threshold. \"Lieta e pensosa\" is an oxymoron in the gentlest sense: cheerful and thoughtful at once, as young people are.",
+          "The poem is a \"canzone libera\": stanzas of free length mixing endecasillabi and settenari, with rhymes placed freely. Leopardi invented this form, which opened the way to modern free verse.",
+        ],
+        examples: [
+          { es: "Silvia, rimembri ancora / quel tempo della tua vita mortale", en: "Silvia, do you still remember that time of your mortal life" },
+          { es: "quando beltà splendea / negli occhi tuoi ridenti e fuggitivi", en: "when beauty shone in your laughing, fleeting eyes" },
+          { es: "e tu, lieta e pensosa, il limitare / di gioventù salivi?", en: "and you, happy and thoughtful, were climbing the threshold of youth?" },
+          { es: "Silvia, ti ricordi ancora di quel periodo della tua vita?", en: "Silvia, do you still remember that time of your life? (paraphrase)" },
+          { es: "La canzone libera alterna endecasillabi e settenari.", en: "The free canzone alternates eleven- and seven-syllable lines." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Silvia, do you still remember that time?", answer: "Silvia, ti ricordi ancora di quel tempo?", altAnswers: ["Silvia, ricordi ancora quel tempo?", "Silvia, ti ricordi ancora quel tempo?", "Silvia, ricordi ancora quel periodo?"], explanation: "\"Rimembri\" (poetic) = \"ricordi\" / \"ti ricordi di\"." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "When [beauty shone] in your eyes.", sentence: "Quando ___ nei tuoi occhi.", answer: "la bellezza splendeva", altAnswers: ["la bellezza brillava"], explanation: "\"Beltà splendea\" → \"la bellezza splendeva\"." },
+        ],
+      },
+      {
+        heading: "Two youths in parallel",
+        body: [
+          "Silvia sings at her loom in May, \"assai contenta / di quel vago avvenir che in mente avevi\" (content with that lovely, vague future you had in mind). The poet, at his studies, \"le sudate carte\" (the pages sweated over), listens from the balcony of his father's house. The poem sets their two youths side by side: hers ended by death, his hopes ended by \"il vero\", the truth of adult life.",
+          "Then the accusation: \"O natura, o natura, / perché non rendi poi / quel che prometti allor? perché di tanto / inganni i figli tuoi?\" Nature promises happiness to the young and does not deliver it. \"Allor\" is \"allora\", \"rendi\" is give back, keep (a promise), \"di tanto\" means so much. This is Leopardi's \"pessimismo cosmico\" in four lines.",
+          "Silvia dies \"pria che l'erbe inaridisse il verno\" (before winter withered the grass): \"pria\" is \"prima\", \"il verno\" is the poetic \"inverno\". Note that \"il verno\" is the subject, placed at the end.",
+        ],
+        examples: [
+          { es: "Assai contenta / di quel vago avvenir che in mente avevi", en: "Content enough with that vague, lovely future you had in mind" },
+          { es: "O natura, o natura, / perché non rendi poi / quel che prometti allor?", en: "O nature, nature, why do you not give back later what you promise then?" },
+          { es: "Perché di tanto / inganni i figli tuoi?", en: "Why do you deceive your children so?" },
+          { es: "Tu pria che l'erbe inaridisse il verno, / ... perivi, o tenerella.", en: "Before winter withered the grass, you died, poor tender girl." },
+          { es: "La natura promette e non mantiene.", en: "Nature promises and does not keep its word." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Why do you deceive your children so much?", answer: "Perché inganni tanto i tuoi figli?", altAnswers: ["Perché inganni così tanto i tuoi figli?", "Perché inganni a tal punto i tuoi figli?"], explanation: "Modern order for \"perché di tanto inganni i figli tuoi?\"." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Nature promises and [does not keep its word].", sentence: "La natura promette e ___.", answer: "non mantiene", altAnswers: ["non mantiene le promesse", "non mantiene la parola"], explanation: "\"Mantenere\" = to keep (a promise)." },
+          { type: "multiple-choice", question: "In \"pria che l'erbe inaridisse il verno\", what is the subject of \"inaridisse\"?", options: ["il verno (winter)", "l'erbe (the grass)", "Silvia", "the poet"], correctIndex: 0, explanation: "Subject at the end: winter withered the grass." },
+        ],
+      },
+      {
+        heading: "The appearing of truth",
+        body: [
+          "The last stanza addresses hope itself, which dies like Silvia: \"All'apparir del vero / tu, misera, cadesti: e con la mano / la fredda morte ed una tomba ignuda / mostravi di lontano.\" At the appearing of truth you fell, poor thing, and with your hand pointed from afar to cold death and a bare tomb.",
+          "\"All'apparir del vero\" uses the infinitive as noun once more: at the appearing. \"Ignuda\" is \"nuda\" with a prothetic i, a literary variant (\"ignudo\"). The \"tu\" has shifted from Silvia to \"speranza\" without warning: the girl and the hope have become one figure. This is the interpretive key a commentary must state.",
+        ],
+        examples: [
+          { es: "All'apparir del vero / tu, misera, cadesti", en: "When truth appeared, you fell, poor thing" },
+          { es: "la fredda morte ed una tomba ignuda / mostravi di lontano", en: "you pointed from afar to cold death and a bare tomb" },
+          { es: "Quando apparve la verità, la speranza cadde.", en: "When truth appeared, hope fell. (paraphrase)" },
+          { es: "Silvia e la speranza diventano una sola figura.", en: "Silvia and hope become one single figure." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "When truth appeared, hope fell.", answer: "Quando apparve la verità, la speranza cadde.", altAnswers: ["Quando è apparsa la verità, la speranza è caduta.", "All'apparire della verità, la speranza cadde.", "Quando apparve il vero, la speranza cadde."], explanation: "\"All'apparir del vero\" → \"quando apparve la verità\"." },
+          { type: "dictation", audio: "All'apparir del vero tu, misera, cadesti.", explanation: "\"Apparir\" cut; \"cadesti\": \"passato remoto\", tu form." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Silvia died young of an illness.", answer: "Silvia morì giovane di una malattia.", altAnswers: ["Silvia è morta giovane di una malattia.", "Silvia morì giovane per una malattia.", "Silvia morì giovane a causa di una malattia."], explanation: "\"Morire di\" + cause." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The poet listened to her singing from the balcony.", answer: "Il poeta la ascoltava cantare dal balcone.", altAnswers: ["Il poeta l'ascoltava cantare dal balcone.", "Il poeta ascoltava il suo canto dal balcone.", "Dal balcone il poeta la ascoltava cantare."], explanation: "\"Ascoltare qualcuno\" + infinitive; Leopardi says \"d'in su i veroni\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She was content with the future she had in mind.", answer: "Era contenta del futuro che aveva in mente.", altAnswers: ["Era contenta dell'avvenire che aveva in mente.", "Era soddisfatta del futuro che aveva in mente."], explanation: "\"Avvenir\" → \"avvenire\" / \"futuro\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Silvia and hope become a single figure.", answer: "Silvia e la speranza diventano un'unica figura.", altAnswers: ["Silvia e la speranza diventano una sola figura.", "Silvia e la speranza si fondono in un'unica figura."], explanation: "\"Un'unica\" with apostrophe before a feminine vowel." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Happy and thoughtful], you were crossing the threshold of youth.", sentence: "___, varcavi la soglia della giovinezza.", answer: "Lieta e pensosa", altAnswers: ["Felice e pensierosa", "Allegra e pensosa"], explanation: "A gentle oxymoron at the heart of the portrait." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Why don't you give back [later] what you promise [then]?", sentence: "Perché non dai ___ quel che prometti allora?", answer: "poi", altAnswers: ["dopo"], explanation: "\"Poi\" and \"allor\": later and then, the two times of life." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "She died before [winter] withered the grass.", sentence: "Morì prima che ___ seccasse l'erba.", answer: "l'inverno", altAnswers: ["il verno"], explanation: "Poetic \"verno\" = \"inverno\"." },
+      { type: "word-order", prompt: "Put the words in order to say: Nature promises and does not keep its word.", words: ["La", "natura", "promette", "e", "non", "mantiene."], translation: "Nature promises and does not keep its word.", explanation: "\"Mantenere\" without object = to keep one's promise." },
+      { type: "matching", instructions: "Match the poetic form to the everyday one.", pairs: [{ left: "rimembri", right: "ricordi" }, { left: "beltà", right: "bellezza" }, { left: "pria", right: "prima" }, { left: "il verno", right: "l'inverno" }, { left: "ignuda", right: "nuda" }], explanation: "Poetic vocabulary from A Silvia." },
+      { type: "listen-choose", audio: "O natura, o natura, perché non rendi poi quel che prometti allor?", question: "What is the poet accusing nature of?", options: ["Not keeping the promises it makes to the young", "Taking Silvia's beauty", "Making winter too long", "Being silent"], correctIndex: 0, explanation: "Leopardi's cosmic pessimism: nature deceives its children." },
+      { type: "speak", text: "Silvia, rimembri ancora quel tempo della tua vita mortale, quando beltà splendea negli occhi tuoi ridenti e fuggitivi?", tip: "\"Beltà\" and \"splendea\": stress on TÀ and DE-a.", explanation: "The opening question, one breath across three lines." },
+    ],
+  },
+  {
+    slug: "c2-poetic-vocabulary",
+    level: "IT-C2",
+    number: 3,
+    title: "Poetic Vocabulary",
+    summary: "Recognise the words and forms of Italian poetic language, from augelli and speme to troncamento and inversion.",
+    duration: "19 min",
+    sections: [
+      {
+        heading: "A separate vocabulary",
+        body: [
+          "Until the twentieth century Italian poetry used a vocabulary distinct from prose, drawn from Petrarca, Latin and earlier poets. A reader of the 1800s expected \"augelli\" for \"uccelli\", \"speme\" for \"speranza\", \"rimembrare\" for \"ricordare\", \"beltà\" or \"beltade\" for \"bellezza\", \"duolo\" for \"dolore\", \"alma\" for \"anima\", \"desio\" for \"desiderio\", \"aere\" for \"aria\", \"lume\" for light or eyes, \"loco\" for \"luogo\".",
+          "Some function words are poetic too: \"ove\" (dove), \"onde\" (from which, whereby, therefore; never waves in this sense), \"ognor\" (always), \"pria\" (prima), \"talor\" (talvolta), \"sovente\" (spesso), \"guari\" (much, long). When you meet \"onde\", ask whether it means waves or from which: \"l'onde del mare\" are waves; \"il dolore onde piango\" is the grief from which I weep.",
+          "Modern Italians recognise these words and use them ironically: \"la speme è l'ultima a morire\" plays on the proverb \"la speranza è l'ultima a morire\" (hope dies last), and \"o mia diletta\" is mock-romantic.",
+        ],
+        examples: [
+          { es: "Odo augelli far festa.", en: "I hear the birds rejoicing." },
+          { es: "La speme è l'ultima a morire.", en: "Hope is the last to die. (mock-poetic)" },
+          { es: "Rimembro il tempo felice.", en: "I remember the happy time." },
+          { es: "Il duolo dell'alma non ha fine.", en: "The soul's grief has no end." },
+          { es: "Il dolore onde piango è antico.", en: "The grief that makes me weep is old." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I hear the birds rejoicing.", answer: "Sento gli uccelli fare festa.", altAnswers: ["Sento gli uccelli che fanno festa.", "Odo gli uccelli fare festa.", "Sento gli uccelli festeggiare."], explanation: "\"Augelli\" → \"uccelli\"; \"odo\" → \"sento\"." },
+          { type: "multiple-choice", question: "In \"il dolore onde piango\", \"onde\" means ...", options: ["from which", "waves", "where", "always"], correctIndex: 0, explanation: "Poetic \"onde\" = from which, because of which." },
+        ],
+      },
+      {
+        heading: "Cutting and joining words",
+        body: [
+          "Poets shape words to fit the metre. \"Troncamento\" (apocope) drops a final vowel or syllable before a consonant: \"cor\" (cuore), \"amor\", \"pensier\", \"mar\", \"fior\", \"vo\" (vado), \"fe'\" (fece). Unlike in prose, poetry also cuts at the end of a line or before a pause, and can cut plurals: \"i bei vermigli fior\". \"Elisione\" drops a vowel before another vowel, marked with an apostrophe: \"m'è dolce\", \"quest'ermo\", \"ch'or\".",
+          "Some forms add sounds: \"ignudo\" (nudo), \"istesso\" (stesso), \"in sul calar del sole\". Others are syncopated: \"spirto\" (spirito), \"medesmo\". Imperfects drop the v: \"splendea\", \"avea\", \"sedea\". The future and conditional have poetic forms: \"fia\" (sarà), \"fora\" (sarebbe), \"potria\" (potrebbe), \"saria\" (sarebbe).",
+          "In prose, troncamento survives in fixed cases: \"un\", \"buon\", \"bel\", \"gran\", \"san\", \"signor\" + name, and infinitives before a pronoun-less noun in set phrases (\"aver paura\", \"far finta\"). Do not cut freely in an essay; the effect is instantly poetic or archaic.",
+        ],
+        examples: [
+          { es: "Il mio cor non trova pace.", en: "My heart finds no peace. (troncamento: cor)" },
+          { es: "E il naufragar m'è dolce in questo mare.", en: "Shipwreck is sweet to me in this sea. (elisione: m'è)" },
+          { es: "In sul calar del sole", en: "As the sun goes down" },
+          { es: "Uno spirto celeste, un vivo sole", en: "A heavenly spirit, a living sun" },
+          { es: "Il bel tempo e il buon umore", en: "Fine weather and good humour (prose troncamento)" },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "My heart finds no peace.", answer: "Il mio cuore non trova pace.", altAnswers: ["Il mio cuore non trova la pace."], explanation: "\"Cor\" is poetic troncamento; prose writes \"cuore\"." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[As the sun goes down], the girl comes back from the fields.", sentence: "___, la ragazza torna dai campi.", answer: "Al calar del sole", altAnswers: ["Al tramonto", "Quando cala il sole", "Mentre cala il sole"], explanation: "Leopardi's \"in sul calar del sole\"; the infinitive as noun is still natural: \"al calar del sole\"." },
+        ],
+      },
+      {
+        heading: "Inversion",
+        body: [
+          "\"Inversione\" (also \"anastrofe\") is any departure from normal word order: the adjective before the noun (\"i più deserti campi\"), the possessive after (\"il pensier mio\", \"gli occhi tuoi\"), the verb at the end (\"il guardo esclude\"), the object first (\"Silvia, rimembri\"). When the displaced word is far from its partner, the figure is called \"iperbato\".",
+          "Inversion gives weight to the word it moves. \"Il pensier mio\" stresses mine; \"i più deserti campi\" makes deserted the first thing we see. A paraphrase must undo it, but a commentary should say what it achieves: \"la posposizione del possessivo dà rilievo all'io\" (placing the possessive after gives prominence to the self).",
+        ],
+        examples: [
+          { es: "S'annega il pensier mio.", en: "My thought drowns." },
+          { es: "Negli occhi tuoi ridenti e fuggitivi", en: "In your laughing, fleeting eyes" },
+          { es: "La posposizione del possessivo dà rilievo all'io.", en: "Placing the possessive after the noun gives prominence to the self." },
+          { es: "Il mio pensiero annega.", en: "My thought drowns. (normal order)" },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Placing the possessive after gives prominence to the self.", answer: "La posposizione del possessivo dà rilievo all'io.", altAnswers: ["La posposizione del possessivo mette in rilievo l'io.", "Posporre il possessivo dà rilievo all'io."], explanation: "\"Dare rilievo a\" = to give prominence to." },
+          { type: "word-order", prompt: "Put the words in order to say: In your laughing eyes.", words: ["Nei", "tuoi", "occhi", "ridenti"], translation: "In your laughing eyes.", explanation: "Normal order: possessive before the noun." },
+          { type: "listen-choose", audio: "Il pensier mio s'annega.", question: "What did you hear?", options: ["Il pensier mio s'annega.", "Il pensiero mio si nega.", "Il pensier mio si annoia.", "Il pensier mio s'avvia."], correctIndex: 0, explanation: "\"S'annega\" = drowns; troncamento \"pensier\" and inverted possessive." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Hope is the last to die.", answer: "La speranza è l'ultima a morire.", explanation: "The everyday proverb behind the mock-poetic \"la speme\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The soul's grief has no end.", answer: "Il dolore dell'anima non ha fine.", altAnswers: ["Il dolore dell'anima è senza fine.", "Il dolore dell'anima non finisce mai."], explanation: "\"Duolo\" → \"dolore\", \"alma\" → \"anima\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I remember the happy time.", answer: "Ricordo il tempo felice.", altAnswers: ["Mi ricordo del tempo felice.", "Ricordo i tempi felici.", "Mi ricordo il tempo felice."], explanation: "\"Rimembrare\" → \"ricordare\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He would be happy if he could.", answer: "Sarebbe felice se potesse.", altAnswers: ["Lui sarebbe felice se potesse."], explanation: "Poetic \"saria\" / \"fora\" → \"sarebbe\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The [birds] sing on the roof.", sentence: "Gli ___ cantano sul tetto.", answer: "uccelli", explanation: "Poetic \"augelli\" → \"uccelli\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I [often] think of you.", sentence: "Penso ___ a te.", answer: "spesso", altAnswers: ["sovente"], explanation: "\"Sovente\" survives in formal prose; \"spesso\" is neutral." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The [desire] of the soul.", sentence: "Il ___ dell'anima.", answer: "desiderio", altAnswers: ["desio"], explanation: "\"Desio\" is the poetic form." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The town [where] I was born.", sentence: "Il paese ___ sono nato.", answer: "dove", altAnswers: ["in cui", "ove"], explanation: "\"Ove\" (poetic, formal) = \"dove\"." },
+      { type: "word-order", prompt: "Put the words in order to say: Hope is the last to die.", words: ["La", "speranza", "è", "l'ultima", "a morire."], translation: "Hope is the last to die.", explanation: "\"L'ultimo / l'ultima a\" + infinitive." },
+      { type: "matching", instructions: "Match the poetic word to its everyday form.", pairs: [{ left: "augelli", right: "uccelli" }, { left: "speme", right: "speranza" }, { left: "alma", right: "anima" }, { left: "aere", right: "aria" }, { left: "ognor", right: "sempre" }, { left: "talor", right: "talvolta" }], explanation: "The core of the poetic lexicon." },
+      { type: "dictation", audio: "Odo augelli far festa, e la gallina tornata in su la via.", explanation: "Leopardi, \"La quiete dopo la tempesta\": \"augelli\", \"odo\", \"in su la via\"." },
+      { type: "speak", text: "La speme è l'ultima a morire, diceva il nonno con un sorriso.", prompt: "Say it in Italian, playfully: 'Hope is the last to die,' Grandpa used to say with a smile.", tip: "\"Speme\": SPE-me, open e.", explanation: "Poetic vocabulary used with a wink." },
+    ],
+  },
+  {
+    slug: "c2-metre-and-figures",
+    level: "IT-C2",
+    number: 4,
+    title: "Metre and Figures",
+    summary: "Count Italian syllables, recognise the endecasillabo and settenario, and name the main figures of speech in Italian.",
+    duration: "19 min",
+    sections: [
+      {
+        heading: "Counting syllables",
+        body: [
+          "Italian metre counts syllables up to the last stressed one, plus one. A line ending in a word stressed on the second-to-last syllable (\"parola piana\": \"vita\", \"oscura\") is the normal case; if the line ends on a stressed final syllable (\"tronca\": \"città\", \"amor\") you add one; if it ends on a word stressed three from the end (\"sdrucciola\": \"tenero\") you subtract one. So the \"endecasillabo\" always has its last stress on the tenth syllable, the \"settenario\" on the sixth.",
+          "Vowels across words normally merge: \"sinalefe\" (\"selva oscura\" = \"sel-vao-scu-ra\"). Inside a word, two vowels can count as one (\"sineresi\") or be split into two (\"dieresi\", marked with ¨: \"quïete\", \"orïental\"). These choices are the poet's, and marked editions show them.",
+          "Count \"Sempre caro mi fu quest'ermo colle\": \"Sem-pre-ca-ro-mi-fu-que-ster-mo-col-le\", eleven syllables, last stress on \"col\" (tenth). The main stresses fall on 6 and 10, the most common pattern. A \"settenario\": \"in sul calar del sole\", \"in-sul-ca-lar-del-so-le\", seven, last stress on \"so\" (sixth).",
+        ],
+        examples: [
+          { es: "Sempre caro mi fu quest'ermo colle", en: "An endecasillabo: eleven syllables, stress on the tenth" },
+          { es: "In sul calar del sole", en: "A settenario: seven syllables, stress on the sixth" },
+          { es: "Mi ritrovai per una selva oscura", en: "Sinalefe: \"selva oscura\" merges into four syllables" },
+          { es: "Dolce color d'orïental zaffiro", en: "Dieresi: \"o-ri-en-tal\" gains a syllable" },
+          { es: "Il verso termina con una parola tronca.", en: "The line ends with a word stressed on the last syllable." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The line ends with a word stressed on the last syllable.", answer: "Il verso termina con una parola tronca.", altAnswers: ["Il verso finisce con una parola tronca.", "Il verso si chiude con una parola tronca."], explanation: "\"Parola tronca\": stressed on the last syllable (\"città\")." },
+          { type: "multiple-choice", question: "How many syllables does \"in sul calar del sole\" count?", options: ["seven", "six", "eight", "eleven"], correctIndex: 0, explanation: "A settenario: last stress on the sixth syllable, plus one." },
+        ],
+      },
+      {
+        heading: "Line and sentence",
+        body: [
+          "The \"enjambement\" (Italian uses the French word, or \"inarcatura\") happens when the sentence runs over the end of the line, separating words that belong together: \"interminati / spazi\", \"il limitare / di gioventù\". It creates suspense and stresses the words on either side of the break. The opposite, a line that ends with a pause, is an \"end-stopped\" line, which Italian simply calls \"verso con pausa forte\".",
+          "The \"cesura\" is the pause inside a line, usually after the fourth or sixth syllable of an endecasillabo: \"Nel mezzo del cammin / di nostra vita\". Reading aloud, you breathe at the cesura and glide over the enjambement.",
+          "Rhymes: \"rima\" is identity of sound from the last stressed vowel on (\"cuore / amore\"); \"assonanza\" repeats only the vowels (\"mare / sale\"); \"consonanza\" only the consonants (\"mare / muro\"). \"Versi sciolti\" have no rhyme.",
+        ],
+        examples: [
+          { es: "L'enjambement separa «interminati» da «spazi».", en: "The enjambement separates 'interminati' from 'spazi'." },
+          { es: "Nel mezzo del cammin / di nostra vita", en: "The caesura falls after \"cammin\"." },
+          { es: "«Cuore» e «amore» fanno rima.", en: "'Cuore' and 'amore' rhyme." },
+          { es: "«Mare» e «sale» sono in assonanza.", en: "'Mare' and 'sale' are in assonance." },
+          { es: "L'infinito è scritto in versi sciolti.", en: "L'infinito is written in unrhymed verse." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "L'infinito is written in unrhymed verse.", answer: "L'infinito è scritto in versi sciolti.", altAnswers: ["L'infinito è composto in versi sciolti.", "L'infinito è in versi sciolti."], explanation: "\"Versi sciolti\" = unrhymed lines." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "'Cuore' and 'amore' [rhyme].", sentence: "«Cuore» e «amore» ___.", answer: "fanno rima", altAnswers: ["rimano"], explanation: "\"Fare rima\" or \"rimare\"." },
+        ],
+      },
+      {
+        heading: "Figures of speech",
+        body: [
+          "Italian school terms, with their trap. \"Metafora\": an implicit comparison (\"il naufragar\" for losing oneself). \"Similitudine\": explicit, with \"come\" or \"quale\". \"Sineddoche\": the part for the whole or vice versa (\"le vele\" for ships, \"il tetto\" for home). \"Metonimia\": a related thing for the thing (\"leggere Leopardi\" for his works, \"bere un bicchiere\"). \"Ossimoro\": two contradictory terms fused (\"dolce naufragio\", \"lieta e pensosa\" loosely). \"Anafora\": repetition at the start. \"Allitterazione\": repeated sounds. \"Sinestesia\": mixing senses (\"urlo nero\", \"voce chiara\").",
+          "Two false friends for English speakers: \"figura retorica\" is neutral, a figure of speech (not empty rhetoric), and \"retorico\" can mean bombastic only in context. And the Italian plural of \"il sinonimo\" is \"i sinonimi\", while \"la metafora\" becomes \"le metafore\".",
+        ],
+        examples: [
+          { es: "Il «naufragar» è una metafora dell'abbandono.", en: "The 'shipwreck' is a metaphor for self-abandonment." },
+          { es: "«Cento vele» per cento navi è una sineddoche.", en: "'A hundred sails' for a hundred ships is a synecdoche." },
+          { es: "«Leggere Leopardi» è una metonimia.", en: "'Reading Leopardi' is a metonymy." },
+          { es: "«Urlo nero» è una sinestesia.", en: "'Black scream' is synaesthesia." },
+          { es: "La figura retorica più frequente è l'enjambement.", en: "The most frequent figure of speech is enjambement." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "'A hundred sails' for a hundred ships is a synecdoche.", answer: "«Cento vele» per cento navi è una sineddoche.", altAnswers: ["«Cento vele» al posto di cento navi è una sineddoche.", "Dire «cento vele» per cento navi è una sineddoche."], explanation: "Part for the whole: \"sineddoche\", feminine." },
+          { type: "multiple-choice", question: "\"Ho letto tutto Leopardi\" contains ...", options: ["una metonimia", "una sineddoche", "un ossimoro", "una sinestesia"], correctIndex: 0, explanation: "The author for his works: metonymy." },
+          { type: "listen-choose", audio: "Il naufragar m'è dolce in questo mare.", question: "Which figure is at the heart of this line?", options: ["metaphor (shipwreck for losing oneself)", "simile", "synecdoche", "anaphora"], correctIndex: 0, explanation: "No ship, no sea: the shipwreck is a metaphor." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The caesura falls after the sixth syllable.", answer: "La cesura cade dopo la sesta sillaba.", altAnswers: ["La cesura si trova dopo la sesta sillaba."], explanation: "\"Cadere\" is the usual verb for stresses and pauses." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The enjambement creates suspense.", answer: "L'enjambement crea attesa.", altAnswers: ["L'enjambement crea suspense.", "L'enjambement crea sospensione.", "L'enjambement genera attesa."], explanation: "\"Attesa\" or \"sospensione\" for suspense." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "'Mare' and 'sale' are in assonance.", answer: "«Mare» e «sale» sono in assonanza.", altAnswers: ["«Mare» e «sale» formano un'assonanza."], explanation: "Same vowels, different consonants." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The line has eleven syllables.", answer: "Il verso ha undici sillabe.", altAnswers: ["Il verso conta undici sillabe.", "Il verso è di undici sillabe."], explanation: "\"Contare\" also works: the line counts eleven syllables." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The last stress of the endecasillabo falls on [the tenth syllable].", sentence: "L'ultimo accento dell'endecasillabo cade sulla ___.", answer: "decima sillaba", altAnswers: ["decima"], explanation: "The defining rule of the line." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Two vowels across words [merge] in synaloepha.", sentence: "Nella sinalefe due vocali ___.", answer: "si fondono", altAnswers: ["si uniscono"], explanation: "\"Fondersi\" = to merge." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "'Black scream' is [a synaesthesia].", sentence: "«Urlo nero» è ___.", answer: "una sinestesia", explanation: "Sound described with a colour." },
+      { type: "word-order", prompt: "Put the words in order to say: The most frequent figure is enjambement.", words: ["La", "figura", "più", "frequente", "è", "l'enjambement."], translation: "The most frequent figure is enjambement.", explanation: "Relative superlative: \"la figura più frequente\"." },
+      { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "la sineddoche", right: "part for the whole" }, { left: "la metonimia", right: "a related thing for the thing" }, { left: "l'ossimoro", right: "contradictory terms fused" }, { left: "la sinestesia", right: "mixing the senses" }, { left: "la dieresi", right: "splitting a diphthong" }], explanation: "Figures and metrical terms." },
+      { type: "dictation", audio: "Dolce color d'orïental zaffiro.", explanation: "The diaeresis on \"orïental\" gives the eleventh syllable." },
+      { type: "speak", text: "Nel mezzo del cammin di nostra vita mi ritrovai per una selva oscura.", prompt: "Read the line with a pause at the caesura after \"cammin\".", tip: "Breathe at the caesura, glide over \"selva oscura\".", explanation: "Cesura and sinalefe in practice." },
+    ],
+  },
+  {
+    slug: "c2-drill-poetic-language",
+    level: "IT-C2",
+    number: 5,
+    title: "Drill: Poetic Language",
+    summary: "Turn poetic words, cut forms and inverted lines into everyday Italian, at speed.",
+    duration: "25 min",
+    kind: "drill",
+    sections: [
+      {
+        heading: "Words and forms",
+        body: [
+          "Replace each poetic form: \"augelli\" → \"uccelli\", \"speme\" → \"speranza\", \"rimembrare\" → \"ricordare\", \"beltà\" → \"bellezza\", \"duolo\" → \"dolore\", \"alma\" → \"anima\", \"aere\" → \"aria\", \"desio\" → \"desiderio\", \"verno\" → \"inverno\", \"pria\" → \"prima\", \"ove\" → \"dove\", \"cor\" → \"cuore\", \"splendea\" → \"splendeva\".",
+        ],
+        examples: [
+          { es: "La beltà splendea. → La bellezza splendeva.", en: "Beauty shone." },
+          { es: "Rimembro il verno. → Ricordo l'inverno.", en: "I remember the winter." },
+          { es: "Il desio del cor → Il desiderio del cuore", en: "The heart's desire" },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Beauty shone.", answer: "La bellezza splendeva.", altAnswers: ["La bellezza brillava.", "Splendeva la bellezza."], explanation: "\"Beltà splendea\" → \"la bellezza splendeva\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I remember the winter.", answer: "Ricordo l'inverno.", altAnswers: ["Mi ricordo l'inverno.", "Mi ricordo dell'inverno."], explanation: "\"Rimembro il verno\" → \"ricordo l'inverno\"." },
+        ],
+      },
+      {
+        heading: "Lines",
+        body: [
+          "Now restore the order: possessive before the noun, verb in the middle, subject first.",
+        ],
+        examples: [
+          { es: "Il pensier mio s'annega. → Il mio pensiero annega.", en: "My thought drowns." },
+          { es: "Gli occhi tuoi ridenti → I tuoi occhi ridenti", en: "Your laughing eyes" },
+          { es: "Il guardo esclude. → Esclude lo sguardo.", en: "It shuts out the gaze." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "My thought drowns.", answer: "Il mio pensiero annega.", altAnswers: ["Il mio pensiero si annega.", "Il mio pensiero naufraga."], explanation: "Possessive before the noun in prose." },
+          { type: "dictation", audio: "Il mio pensiero annega in questa immensità.", explanation: "Everyday order and forms." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The birds are singing.", answer: "Gli uccelli cantano.", altAnswers: ["Gli uccelli stanno cantando."], explanation: "\"Augelli\" → \"uccelli\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Hope is not dead.", answer: "La speranza non è morta.", explanation: "\"Speme\" → \"speranza\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The soul's grief.", answer: "Il dolore dell'anima.", explanation: "\"Duolo dell'alma\" → \"dolore dell'anima\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The air is clear.", answer: "L'aria è limpida.", altAnswers: ["L'aria è chiara.", "L'aria è tersa."], explanation: "\"Aere\" → \"aria\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Before winter comes.", answer: "Prima che arrivi l'inverno.", altAnswers: ["Prima che venga l'inverno.", "Prima che l'inverno arrivi."], explanation: "\"Pria che\" → \"prima che\" + subjunctive." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The heart's desire.", answer: "Il desiderio del cuore.", explanation: "\"Desio del cor\" → \"desiderio del cuore\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Your laughing eyes.", answer: "I tuoi occhi ridenti.", explanation: "\"Occhi tuoi\" → \"tuoi occhi\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The place where I was born.", answer: "Il luogo dove sono nato.", altAnswers: ["Il luogo in cui sono nato.", "Il luogo dove sono nata.", "Il luogo in cui sono nata."], explanation: "\"Loco ove\" → \"luogo dove\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Beauty] fades.", sentence: "La ___ svanisce.", answer: "bellezza", explanation: "\"Beltà\" → \"bellezza\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I [remember] that day.", sentence: "___ quel giorno.", answer: "Ricordo", altAnswers: ["Mi ricordo"], explanation: "\"Rimembro\" → \"ricordo\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The light [shone] in her eyes.", sentence: "La luce ___ nei suoi occhi.", answer: "splendeva", altAnswers: ["brillava"], explanation: "\"Splendea\" → \"splendeva\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Always] alone.", sentence: "___ solo.", answer: "Sempre", explanation: "\"Ognor\" → \"sempre\"." },
+      { type: "word-order", prompt: "Put the words in order to say: My heart finds no peace.", words: ["Il", "mio", "cuore", "non", "trova", "pace."], translation: "My heart finds no peace.", explanation: "\"Il cor mio\" → \"il mio cuore\"." },
+      { type: "word-order", prompt: "Put the words in order to say: Beauty shone in your eyes.", words: ["La", "bellezza", "splendeva", "nei", "tuoi", "occhi."], translation: "Beauty shone in your eyes.", explanation: "Everyday forms and order." },
+      { type: "listen-choose", audio: "La speme è l'ultima a morire.", question: "What did you hear?", options: ["La speme è l'ultima a morire.", "La spesa è l'ultima a morire.", "La spene è l'ultima a morire.", "La speme è l'ultima a partire."], correctIndex: 0, explanation: "\"Speme\": the poetic word for hope." },
+      { type: "speak", text: "Ricordo l'inverno, quando la bellezza splendeva nei tuoi occhi.", prompt: "Say it in everyday Italian: I remember the winter, when beauty shone in your eyes.", tip: "\"Splendeva\": three clear syllables, splen-DE-va.", explanation: "Poetic \"rimembro il verno ... beltà splendea\" in prose." },
+    ],
+  },
+  {
+    slug: "c2-other-poets",
+    level: "IT-C2",
+    number: 6,
+    title: "Other Poets",
+    summary: "Read short passages by Foscolo, Carducci, Pascoli and D'Annunzio and recognise each poet's voice.",
+    duration: "19 min",
+    sections: [
+      {
+        heading: "Foscolo and Carducci",
+        body: [
+          "Ugo Foscolo (1778-1827), born on the Greek island of Zakynthos, wrote neoclassical sonnets of exile and death. \"Alla sera\" opens: \"Forse perché della fatal quïete / tu sei l'immago a me sì cara vieni / o Sera!\" (perhaps because you are the image of the fated quiet, death, you come so dear to me, O Evening). \"Immago\" is a Latinate \"immagine\"; the address to the evening is an apostrophe. \"A Zacinto\" begins \"Né più mai toccherò le sacre sponde / ove il mio corpo fanciulletto giacque\" (never again shall I touch the sacred shores where my body lay as a child).",
+          "Giosuè Carducci (1835-1907), the first Italian Nobel laureate in literature, combined classical forms with public themes. His most famous poem is private: \"Pianto antico\", for his son who died aged three: \"L'albero a cui tendevi / la pargoletta mano, / il verde melograno / da' bei vermigli fior\". \"Pargoletta\" is a tender diminutive of \"pargolo\" (small child); \"fior\" is a cut plural. The pomegranate blooms again; the child will not.",
+        ],
+        examples: [
+          { es: "Forse perché della fatal quïete / tu sei l'immago a me sì cara vieni / o Sera!", en: "Perhaps because you are the image of death's quiet, you come so dear to me, O Evening!" },
+          { es: "Né più mai toccherò le sacre sponde / ove il mio corpo fanciulletto giacque", en: "Never again shall I touch the sacred shores where my body lay as a child" },
+          { es: "L'albero a cui tendevi / la pargoletta mano, / il verde melograno / da' bei vermigli fior", en: "The tree you stretched your little hand towards, the green pomegranate with its lovely red flowers" },
+          { es: "Carducci fu il primo italiano a vincere il Nobel per la letteratura.", en: "Carducci was the first Italian to win the Nobel Prize in Literature." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Carducci was the first Italian to win the Nobel Prize in Literature.", answer: "Carducci fu il primo italiano a vincere il Nobel per la letteratura.", altAnswers: ["Carducci è stato il primo italiano a vincere il Nobel per la letteratura.", "Carducci fu il primo italiano a vincere il premio Nobel per la letteratura.", "Carducci è stato il primo italiano a vincere il premio Nobel per la letteratura."], explanation: "\"Il primo a\" + infinitive." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The tree you [stretched out] your little hand towards.", sentence: "L'albero verso cui ___ la manina.", answer: "tendevi", explanation: "\"Tendere la mano\" = to stretch out one's hand; imperfect for a repeated past gesture." },
+        ],
+      },
+      {
+        heading: "Pascoli",
+        body: [
+          "Giovanni Pascoli (1855-1912) wrote of small things, nature and grief, in a language full of sound: birdsong rendered in letters, precise names of plants, and sudden symbolic depths. His father was shot on the 10th of August 1867, the night of Saint Lawrence's falling stars, and \"X Agosto\" begins: \"San Lorenzo, io lo so perché tanto / di stelle per l'aria tranquilla / arde e cade, perché sì gran pianto / nel concavo cielo sfavilla.\" The shooting stars are the sky's tears.",
+          "\"Lavandare\" shows his technique: \"Nel campo mezzo grigio e mezzo nero / resta un aratro senza buoi, che pare / dimenticato, tra il vapor leggero.\" A plough left in a field becomes an image of abandonment. Critics call his language \"fonosimbolico\": the sounds themselves carry meaning.",
+        ],
+        examples: [
+          { es: "San Lorenzo, io lo so perché tanto / di stelle per l'aria tranquilla / arde e cade", en: "Saint Lawrence, I know why so many stars burn and fall through the still air" },
+          { es: "perché sì gran pianto / nel concavo cielo sfavilla", en: "why such great weeping sparkles in the hollow sky" },
+          { es: "Nel campo mezzo grigio e mezzo nero / resta un aratro senza buoi", en: "In the field, half grey, half black, a plough without oxen remains" },
+          { es: "Le stelle cadenti sono le lacrime del cielo.", en: "The shooting stars are the sky's tears." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The shooting stars are the sky's tears.", answer: "Le stelle cadenti sono le lacrime del cielo.", altAnswers: ["Le stelle cadenti sono il pianto del cielo."], explanation: "\"Stelle cadenti\" = shooting stars, a present participle used as adjective." },
+          { type: "listen-choose", audio: "Nel campo mezzo grigio e mezzo nero resta un aratro senza buoi.", question: "What remains in the field?", options: ["a plough without oxen", "a farmer without a horse", "a black ox", "a grey house"], correctIndex: 0, explanation: "\"Aratro\" = plough; \"buoi\" is the plural of \"bue\" (ox)." },
+        ],
+      },
+      {
+        heading: "D'Annunzio",
+        body: [
+          "Gabriele D'Annunzio (1863-1938) is the poet of sensual music and grand gestures. \"La pioggia nel pineto\" imagines rain in a pine wood transforming the poet and his companion into part of nature: \"Taci. Su le soglie / del bosco non odo / parole che dici / umane; ma odo / parole più nuove / che parlano gocciole e foglie / lontane.\" Short lines, enjambements and repeated sounds imitate the rain.",
+          "Note the inversion \"parole che dici umane\" (human words that you speak), with the adjective pushed past the line end, and the personification: drops and leaves speak. The word \"dannunziano\" today means florid, theatrical, aesthetic to excess: \"uno stile dannunziano\", \"un gesto dannunziano\".",
+        ],
+        examples: [
+          { es: "Taci. Su le soglie / del bosco non odo / parole che dici / umane", en: "Hush. On the threshold of the wood I do not hear the human words you speak" },
+          { es: "ma odo / parole più nuove / che parlano gocciole e foglie / lontane", en: "but I hear newer words spoken by distant drops and leaves" },
+          { es: "Il suo discorso aveva un tono dannunziano.", en: "His speech had a theatrical, D'Annunzio-like tone." },
+          { es: "I versi brevi imitano il ritmo della pioggia.", en: "The short lines imitate the rhythm of the rain." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The short lines imitate the rhythm of the rain.", answer: "I versi brevi imitano il ritmo della pioggia.", altAnswers: ["I versi corti imitano il ritmo della pioggia.", "I versi brevi riproducono il ritmo della pioggia."], explanation: "\"Versi brevi\" = short lines." },
+          { type: "multiple-choice", question: "\"Un discorso dannunziano\" is ...", options: ["florid and theatrical", "short and dry", "sad and quiet", "scientific"], correctIndex: 0, explanation: "After D'Annunzio's lavish style and gestures." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Never again shall I touch the sacred shores.", answer: "Non toccherò mai più le sacre sponde.", altAnswers: ["Mai più toccherò le sacre sponde.", "Non toccherò più le sacre sponde."], explanation: "Foscolo's \"Né più mai toccherò\" in modern order." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The pomegranate has flowered again.", answer: "Il melograno è rifiorito.", altAnswers: ["Il melograno ha rifiorito.", "Il melograno è fiorito di nuovo."], explanation: "\"Rifiorire\" takes \"essere\" or \"avere\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "His father was killed on the 10th of August.", answer: "Suo padre fu ucciso il 10 agosto.", altAnswers: ["Suo padre è stato ucciso il 10 agosto.", "Suo padre venne ucciso il 10 agosto.", "Suo padre fu ucciso il dieci agosto."], explanation: "Dates without \"di\": \"il 10 agosto\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The drops and the leaves are speaking.", answer: "Parlano le gocce e le foglie.", altAnswers: ["Le gocce e le foglie parlano.", "Le gocciole e le foglie parlano.", "Parlano le gocciole e le foglie."], explanation: "D'Annunzio uses \"gocciole\", a diminutive of \"gocce\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "You come [so dear] to me, O Evening.", sentence: "Mi vieni ___, o Sera.", answer: "così cara", altAnswers: ["tanto cara", "sì cara"], explanation: "Foscolo's \"sì cara\": poetic \"sì\" = \"così\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "A plough [without oxen] remains in the field.", sentence: "Nel campo resta un aratro ___.", answer: "senza buoi", explanation: "\"Bue\" → plural \"buoi\": irregular." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I know why] so many stars fall.", sentence: "___ cadono tante stelle.", answer: "So perché", altAnswers: ["Io so perché", "Io lo so perché"], explanation: "Pascoli's \"io lo so perché\": the pleonastic \"lo\" anticipates the clause." },
+      { type: "word-order", prompt: "Put the words in order to say: The shooting stars are the sky's tears.", words: ["Le", "stelle", "cadenti", "sono", "le lacrime", "del cielo."], translation: "The shooting stars are the sky's tears.", explanation: "Pascoli's metaphor in prose." },
+      { type: "matching", instructions: "Match the poet to the line.", pairs: [{ left: "Foscolo", right: "Forse perché della fatal quïete" }, { left: "Carducci", right: "L'albero a cui tendevi" }, { left: "Pascoli", right: "San Lorenzo, io lo so perché tanto" }, { left: "D'Annunzio", right: "Taci. Su le soglie del bosco" }], explanation: "Four voices of the 1800s and early 1900s." },
+      { type: "dictation", audio: "L'albero a cui tendevi la pargoletta mano.", explanation: "Carducci, \"Pianto antico\": \"pargoletta\" = tiny." },
+      { type: "speak", text: "Taci. Su le soglie del bosco non odo parole che dici umane; ma odo parole più nuove.", tip: "Short lines: pause lightly at each break, like drops falling.", explanation: "D'Annunzio's music in a few lines." },
+    ],
+  },
+  {
+    slug: "c2-poetry-commentary",
+    level: "IT-C2",
+    number: 7,
+    title: "Writing a Poetry Commentary",
+    summary: "Structure a commentary on a lyric poem and use the vocabulary Italian critics use for the speaking voice, themes and key words.",
+    duration: "19 min",
+    sections: [
+      {
+        heading: "The plan",
+        body: [
+          "A poetry commentary follows the same four moves as a commentary on Dante, but the analysis weighs more. A useful plan: \"presentazione\" (author, collection, date, form: \"L'infinito, composto nel 1819 e pubblicato negli Idilli, è un componimento di quindici endecasillabi sciolti\"); \"parafrasi\" or \"sintesi del contenuto\"; \"analisi formale\" (metre, sound, syntax, figures); \"analisi tematica\" (themes and key words); \"interpretazione e contestualizzazione\" (the poem in the author's thought and its time).",
+          "The speaking voice is \"l'io lirico\" (the lyric I), not \"il narratore\" and not, automatically, the author. Write \"l'io lirico contempla\", \"il poeta\" only when you mean the historical person. The addressee is \"il destinatario\" or \"il tu\": \"il tu del componimento è Silvia\".",
+          "Avoid \"il messaggio della poesia\": Italian teachers dislike it as much as English ones dislike 'the moral'. Speak of \"il tema\", \"il nucleo tematico\", \"la riflessione\", \"la visione del mondo\".",
+        ],
+        examples: [
+          { es: "L'infinito è un componimento di quindici endecasillabi sciolti.", en: "L'infinito is a poem of fifteen unrhymed eleven-syllable lines." },
+          { es: "L'io lirico contempla un paesaggio limitato.", en: "The lyric I contemplates a limited landscape." },
+          { es: "Il tu del componimento è Silvia.", en: "The 'you' of the poem is Silvia." },
+          { es: "Il nucleo tematico è il rapporto tra finito e infinito.", en: "The thematic core is the relation between the finite and the infinite." },
+          { es: "La poesia fa parte della raccolta degli Idilli.", en: "The poem is part of the collection of the Idylls." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The lyric I contemplates a limited landscape.", answer: "L'io lirico contempla un paesaggio limitato.", altAnswers: ["L'io lirico osserva un paesaggio limitato.", "L'io lirico contempla un paesaggio circoscritto."], explanation: "\"L'io lirico\": the voice of the poem, not automatically the author." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[The thematic core] is the relation between finite and infinite.", sentence: "___ è il rapporto tra finito e infinito.", answer: "Il nucleo tematico", altAnswers: ["Il tema centrale"], explanation: "Prefer \"nucleo tematico\" to \"messaggio\"." },
+        ],
+      },
+      {
+        heading: "Key words and semantic fields",
+        body: [
+          "Italian commentaries track \"parole chiave\" (key words) and \"campi semantici\" (semantic fields). In L'infinito two fields oppose each other: the finite, near and concrete (\"colle\", \"siepe\", \"piante\", \"vento\", \"questo\") and the infinite, far and abstract (\"interminati spazi\", \"sovrumani silenzi\", \"l'eterno\", \"immensità\", \"quello\"). The movement of the poem is the shift of \"questo\" from the first field to the second.",
+          "Useful verbs: \"prevale\" (prevails), \"si contrappone a\" (is opposed to), \"si intreccia con\" (is interwoven with), \"ricorre\" (recurs), \"culmina in\" (culminates in). A sentence that does real work: \"Il campo semantico del limite si contrappone a quello dell'illimitato, e il deittico «questo» passa dall'uno all'altro.\"",
+          "Note \"deittico\" (deictic: words like \"questo\", \"qui\", \"ora\" that point to the speaker's situation): a technical word Italian school commentaries use freely.",
+        ],
+        examples: [
+          { es: "Il campo semantico del limite si contrappone a quello dell'illimitato.", en: "The semantic field of limits is opposed to that of the limitless." },
+          { es: "Il deittico «questo» passa dal finito all'infinito.", en: "The deictic 'questo' moves from the finite to the infinite." },
+          { es: "La parola «silenzio» ricorre due volte.", en: "The word 'silenzio' recurs twice." },
+          { es: "Il componimento culmina nell'immagine del naufragio.", en: "The poem culminates in the image of shipwreck." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The poem culminates in the image of shipwreck.", answer: "Il componimento culmina nell'immagine del naufragio.", altAnswers: ["La poesia culmina nell'immagine del naufragio.", "Il componimento culmina con l'immagine del naufragio."], explanation: "\"Culminare in\" = to culminate in." },
+          { type: "multiple-choice", question: "Which word belongs to the semantic field of the infinite in L'infinito?", options: ["immensità", "siepe", "colle", "piante"], correctIndex: 0, explanation: "The hedge, hill and plants are near and finite." },
+          { type: "listen-choose", audio: "La parola silenzio ricorre due volte.", question: "What does it mean?", options: ["The word 'silence' recurs twice.", "The silence lasts two seconds.", "There are two silences.", "Silence comes back again."], correctIndex: 0, explanation: "\"Ricorrere\" = to recur." },
+        ],
+      },
+      {
+        heading: "Connecting to the author's thought",
+        body: [
+          "The interpretation places the poem in a wider frame: for Leopardi, his \"teoria del piacere\", the idea that humans desire an infinite pleasure that reality cannot give, so imagination supplies it when sight is blocked. You can cite the author's own prose: \"Leopardi stesso, nello Zibaldone, osserva che l'immaginazione supplisce a ciò che la vista non raggiunge.\"",
+          "Close with a judgement, hedged and specific: \"A nostro avviso, la forza del testo sta nel fatto che l'esperienza dell'infinito nasce da un limite concreto.\" Note \"sta nel fatto che\" (lies in the fact that) + indicative, and \"nasce da\" (arises from): two formulas that make an ending sound finished.",
+        ],
+        examples: [
+          { es: "L'immaginazione supplisce a ciò che la vista non raggiunge.", en: "Imagination makes up for what sight cannot reach." },
+          { es: "La forza del testo sta nel fatto che l'infinito nasce da un limite.", en: "The strength of the text lies in the fact that the infinite arises from a limit." },
+          { es: "Secondo la teoria del piacere, l'uomo desidera un piacere infinito.", en: "According to the theory of pleasure, humans desire an infinite pleasure." },
+          { es: "Leopardi stesso lo osserva nello Zibaldone.", en: "Leopardi himself observes this in the Zibaldone." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Imagination makes up for what sight cannot reach.", answer: "L'immaginazione supplisce a ciò che la vista non raggiunge.", altAnswers: ["L'immaginazione supplisce a quello che la vista non raggiunge.", "L'immaginazione compensa ciò che la vista non raggiunge.", "L'immaginazione supplisce a ciò che lo sguardo non raggiunge."], explanation: "\"Supplire a\" = to make up for." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The strength of the text [lies in the fact that] the infinite arises from a limit.", sentence: "La forza del testo ___ l'infinito nasce da un limite.", answer: "sta nel fatto che", altAnswers: ["consiste nel fatto che", "risiede nel fatto che"], explanation: "\"Stare nel fatto che\" + indicative." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The 'you' of the poem is Silvia.", answer: "Il tu del componimento è Silvia.", altAnswers: ["Il tu della poesia è Silvia.", "Il destinatario del componimento è Silvia.", "Il destinatario della poesia è Silvia."], explanation: "\"Il tu\": the addressee, used as a noun." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The word 'silence' recurs twice.", answer: "La parola «silenzio» ricorre due volte.", altAnswers: ["La parola «silenzio» compare due volte.", "La parola «silenzio» torna due volte."], explanation: "\"Ricorrere\" = to recur." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The poem is part of the collection of the Idylls.", answer: "La poesia fa parte della raccolta degli Idilli.", altAnswers: ["Il componimento fa parte della raccolta degli Idilli.", "La poesia appartiene alla raccolta degli Idilli."], explanation: "\"Fare parte di\" = to be part of." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Leopardi himself observes this in the Zibaldone.", answer: "Leopardi stesso lo osserva nello Zibaldone.", altAnswers: ["Lo stesso Leopardi lo osserva nello Zibaldone.", "Leopardi stesso osserva questo nello Zibaldone."], explanation: "\"Lo Zibaldone\": \"lo\" before z." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The field of the limit [is opposed to] that of the limitless.", sentence: "Il campo del limite ___ quello dell'illimitato.", answer: "si contrappone a", altAnswers: ["si oppone a"], explanation: "\"Contrapporsi a\" = to be opposed to." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The theme of memory [is interwoven with] that of hope.", sentence: "Il tema della memoria ___ quello della speranza.", answer: "si intreccia con", altAnswers: ["s'intreccia con"], explanation: "\"Intrecciarsi con\" = to be interwoven with." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[The lyric I] contemplates the hedge.", sentence: "___ contempla la siepe.", answer: "L'io lirico", explanation: "The speaking voice of a poem." },
+      { type: "word-order", prompt: "Put the words in order to say: The deictic moves from the finite to the infinite.", words: ["Il", "deittico", "passa", "dal finito", "all'infinito."], translation: "The deictic moves from the finite to the infinite.", explanation: "\"Passare da ... a\"." },
+      { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "l'io lirico", right: "the speaking voice" }, { left: "il campo semantico", right: "semantic field" }, { left: "la parola chiave", right: "key word" }, { left: "il deittico", right: "a pointing word like questo or qui" }, { left: "la raccolta", right: "collection" }], explanation: "Vocabulary for poetry commentary." },
+      { type: "dictation", audio: "L'immaginazione supplisce a ciò che la vista non raggiunge.", explanation: "\"Supplisce\": -isc- verb." },
+      { type: "speak", text: "A nostro avviso, la forza del testo sta nel fatto che l'esperienza dell'infinito nasce da un limite concreto.", prompt: "Close your commentary aloud: In our view, the strength of the text lies in the fact that the experience of the infinite arises from a concrete limit.", tip: "\"Avviso\": double v; \"concreto\": con-CRE-to.", explanation: "A hedged, specific final judgement." },
+    ],
+  },
+  {
+    slug: "c2-listening-lab-poetry",
+    level: "IT-C2",
+    number: 8,
+    title: "Listening Lab: Poetry Read Aloud",
+    summary: "Understand Leopardi and Pascoli read aloud, catching their images, sounds and moods by ear.",
+    duration: "19 min",
+    sections: [
+      {
+        heading: "Leopardi's evenings",
+        body: [
+          "Leopardi is a poet of evenings and moonlight. \"La sera del dì di festa\" opens: \"Dolce e chiara è la notte e senza vento, / e queta sovra i tetti e in mezzo agli orti / posa la luna\". \"Queta\" is \"quieta\"; \"sovra\" is \"sopra\"; the subject \"la luna\" waits until the end. In the \"Canto notturno di un pastore errante dell'Asia\" a shepherd asks the moon: \"Che fai tu, luna, in ciel? dimmi, che fai, / silenziosa luna?\"",
+          "When you listen, hold the verb \"posa\" in mind until \"la luna\" arrives: poetry trains the patience that long Italian sentences demand.",
+        ],
+        examples: [
+          { es: "Dolce e chiara è la notte e senza vento", en: "Sweet and clear is the night, and windless" },
+          { es: "e queta sovra i tetti e in mezzo agli orti / posa la luna", en: "and quietly over the roofs and among the gardens the moon rests" },
+          { es: "Che fai tu, luna, in ciel? dimmi, che fai, / silenziosa luna?", en: "What are you doing, moon, in the sky? Tell me, what are you doing, silent moon?" },
+          { es: "La luna si posa tranquilla sui tetti.", en: "The moon rests quietly on the roofs. (paraphrase)" },
+        ],
+        checkpoint: [
+          { type: "listen-choose", audio: "Dolce e chiara è la notte e senza vento.", question: "What is the night like?", options: ["sweet, clear and windless", "dark and stormy", "cold and windy", "short and noisy"], correctIndex: 0, explanation: "\"Senza vento\" = windless." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "What are you doing in the sky, moon?", answer: "Che fai in cielo, luna?", altAnswers: ["Cosa fai in cielo, luna?", "Che cosa fai in cielo, luna?", "Luna, che fai in cielo?"], explanation: "\"Ciel\" → \"cielo\"." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The moon [rests quietly] over the roofs.", sentence: "La luna ___ sopra i tetti.", answer: "si posa tranquilla", altAnswers: ["posa quieta", "si posa quieta", "posa tranquilla"], explanation: "Leopardi's \"queta ... posa\"." },
+        ],
+      },
+      {
+        heading: "Pascoli's sounds",
+        body: [
+          "Pascoli writes for the ear. In \"X Agosto\" a swallow returning to its nest is killed: \"Ritornava una rondine al tetto: / l'uccisero: cadde tra spini\", and its chicks wait in vain. The parallel with his murdered father is unspoken but clear. In \"Novembre\" the clear autumn air deceives: \"Gemmea l'aria, il sole così chiaro / che tu ricerchi gli albicocchi in fiore\" (the air like a gem, the sun so bright that you look for apricot trees in flower). \"Gemmea\" is a rare adjective: jewel-like.",
+        ],
+        examples: [
+          { es: "Ritornava una rondine al tetto: / l'uccisero: cadde tra spini", en: "A swallow was returning to the roof: they killed it: it fell among thorns" },
+          { es: "Gemmea l'aria, il sole così chiaro / che tu ricerchi gli albicocchi in fiore", en: "The air like a jewel, the sun so bright you look for apricot trees in blossom" },
+          { es: "Il parallelo con il padre ucciso resta implicito.", en: "The parallel with the murdered father remains implicit." },
+          { es: "L'aria limpida sembra primavera, ma è novembre.", en: "The clear air seems like spring, but it is November." },
+        ],
+        checkpoint: [
+          { type: "listen-choose", audio: "Ritornava una rondine al tetto: l'uccisero: cadde tra spini.", question: "What happens to the swallow?", options: ["It is killed and falls among thorns.", "It builds a nest on the roof.", "It flies south.", "It sings among the thorns."], correctIndex: 0, explanation: "\"L'uccisero\" = they killed it." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The parallel with the murdered father remains implicit.", answer: "Il parallelo con il padre ucciso resta implicito.", altAnswers: ["Il parallelo con il padre assassinato resta implicito.", "Il parallelo con il padre ucciso rimane implicito.", "Il parallelo col padre ucciso resta implicito."], explanation: "\"Implicito\" = unstated." },
+          { type: "speak", text: "Gemmea l'aria, il sole così chiaro che tu ricerchi gli albicocchi in fiore.", tip: "\"Gemmea\": GEM-me-a, double m, three syllables.", explanation: "Pascoli's November that looks like spring." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "listen-choose", audio: "Che fai tu, luna, in ciel? dimmi, che fai, silenziosa luna?", question: "Who is the shepherd addressing?", options: ["the moon", "his flock", "a friend", "God"], correctIndex: 0, explanation: "The \"Canto notturno\" is a dialogue with a silent moon." },
+      { type: "listen-choose", audio: "Gemmea l'aria, il sole così chiaro che tu ricerchi gli albicocchi in fiore.", question: "What illusion does the November day create?", options: ["It seems like spring.", "It seems like night.", "It seems like winter snow.", "It seems like a storm."], correctIndex: 0, explanation: "You look for blossom that isn't there: autumn disguised as spring." },
+      { type: "listen-choose", audio: "E queta sovra i tetti e in mezzo agli orti posa la luna.", question: "Where does the moon rest?", options: ["over the roofs and among the gardens", "on the sea", "behind the mountains", "in the church tower"], correctIndex: 0, explanation: "\"Orti\" = vegetable gardens." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Sweet and clear is the night, and windless.", answer: "La notte è dolce e chiara e senza vento.", altAnswers: ["Dolce e chiara è la notte, e senza vento.", "La notte è dolce, chiara e senza vento."], explanation: "Modern order puts the subject first." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "A swallow was returning to its nest.", answer: "Una rondine tornava al suo nido.", altAnswers: ["Una rondine ritornava al nido.", "Una rondine tornava al nido.", "Una rondine stava tornando al nido."], explanation: "Imperfect for an action in progress." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The shepherd asks the moon what it is doing.", answer: "Il pastore chiede alla luna che cosa fa.", altAnswers: ["Il pastore chiede alla luna cosa fa.", "Il pastore domanda alla luna che cosa faccia.", "Il pastore chiede alla luna che cosa faccia.", "Il pastore domanda alla luna cosa fa."], explanation: "Indirect question: indicative or, more formal, subjunctive." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You look for apricot trees in blossom.", answer: "Cerchi gli albicocchi in fiore.", altAnswers: ["Tu cerchi gli albicocchi in fiore.", "Cerchi gli albicocchi fioriti."], explanation: "\"Albicocco\" is the tree, \"albicocca\" the fruit." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[They killed it]: it fell among thorns.", sentence: "___: cadde tra le spine.", answer: "La uccisero", altAnswers: ["L'uccisero", "L'hanno uccisa"], explanation: "\"Rondine\" is feminine: \"la\" / \"l'\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Tell me], silent moon.", sentence: "___, silenziosa luna.", answer: "Dimmi", explanation: "\"Di'\" + \"mi\" doubles the m: \"dimmi\"." },
+      { type: "word-order", prompt: "Put the words in order to say: The moon rests quietly over the roofs.", words: ["La", "luna", "si posa", "tranquilla", "sopra", "i tetti."], translation: "The moon rests quietly over the roofs.", explanation: "\"Sovra\" → \"sopra\"; \"queta\" → \"tranquilla\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The November air seems like spring.", answer: "L'aria di novembre sembra primavera.", altAnswers: ["L'aria di novembre sembra quella di primavera.", "L'aria di novembre sembra di primavera."], explanation: "Months are lower-case: \"novembre\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The swallow's chicks wait in vain.", answer: "I piccoli della rondine aspettano invano.", altAnswers: ["I rondinini aspettano invano.", "I piccoli della rondine attendono invano."], explanation: "\"Invano\" = in vain, one word." },
+      { type: "dictation", audio: "Che fai tu, luna, in ciel? Dimmi, che fai?", explanation: "\"Ciel\" cut; \"dimmi\" with double m." },
+      { type: "speak", text: "Dolce e chiara è la notte e senza vento, e queta sovra i tetti e in mezzo agli orti posa la luna.", tip: "Hold the sentence open until \"la luna\": no pause before it.", explanation: "Leopardi's suspended subject." },
+    ],
+  },
+  {
+    slug: "c2-mission-write-a-poem",
+    level: "IT-C2",
+    number: 9,
+    title: "Real-World Mission: Write a Poem",
+    summary: "Write a short poem in Italian, choosing metre or free verse and using poetic devices with restraint.",
+    duration: "19 min",
+    sections: [
+      {
+        heading: "Choose your form",
+        body: [
+          "Your task: a poetry workshop in Florence (\"un laboratorio di scrittura poetica\") asks each participant for a short poem, eight to fourteen lines, on a place that matters to them. You can write \"versi liberi\" (free verse, as most Italian poets have since the early 1900s), or try settenari and endecasillabi. Settenari are easier: seven syllables, last stress on the sixth, like \"in sul calar del sole\" or \"la sera torna piano\".",
+          "Count with care: merge vowels across words (\"la sera è chiara\" = \"la-se-rae-chia-ra\", five). Prefer \"parole piane\" at line ends, and if you want rhyme, make it occasional: Italian has so many rhymes in -are, -ore, -ire that systematic rhyme quickly sounds like a greeting card.",
+        ],
+        examples: [
+          { es: "La sera torna piano", en: "Evening returns slowly (a settenario)" },
+          { es: "sul porto di Genova, deserto", en: "over the port of Genoa, deserted" },
+          { es: "Scrivo in versi liberi, senza rima.", en: "I write in free verse, without rhyme." },
+          { es: "Le rime in -are e in -ore sono troppo facili.", en: "Rhymes in -are and -ore are too easy." },
+          { es: "Conta le sillabe fino all'ultimo accento.", en: "Count the syllables up to the last stress." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I write in free verse, without rhyme.", answer: "Scrivo in versi liberi, senza rima.", altAnswers: ["Scrivo in versi liberi, senza rime.", "Scrivo versi liberi, senza rima."], explanation: "\"Versi liberi\" = free verse." },
+          { type: "multiple-choice", question: "Which line is a settenario?", options: ["La sera torna piano", "La sera torna piano sul mare di Liguria", "Torna la sera", "La sera"], correctIndex: 0, explanation: "\"La-se-ra-tor-na-pia-no\": seven, last stress on \"pia\" (sixth)." },
+        ],
+      },
+      {
+        heading: "Images, not adjectives",
+        body: [
+          "The commonest weakness in learners' poems is a pile of abstract adjectives (\"bello\", \"triste\", \"meraviglioso\"). Italian poetry since Pascoli prefers precise nouns and concrete images: not \"un albero\" but \"un fico\", not \"un uccello\" but \"una rondine\". Name things exactly: \"le persiane verdi\", \"il campanile\", \"l'odore di bucato\".",
+          "Use one or two devices with intention: an enjambement to suspend a key word, an anaphora to build rhythm, a synaesthesia to surprise. Avoid the old poetic lexicon (\"augelli\", \"speme\") unless you want irony: a contemporary poem in \"augelli\" sounds like a costume. End on an image, not on an explanation.",
+        ],
+        examples: [
+          { es: "Non un albero: un fico, contro il muro.", en: "Not a tree: a fig tree, against the wall." },
+          { es: "L'odore di bucato sale dalle persiane verdi.", en: "The smell of fresh laundry rises from the green shutters." },
+          { es: "Il campanile batte un'ora gialla.", en: "The bell tower strikes a yellow hour." },
+          { es: "Chiudi con un'immagine, non con una spiegazione.", en: "End with an image, not an explanation." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "End with an image, not an explanation.", answer: "Chiudi con un'immagine, non con una spiegazione.", altAnswers: ["Termina con un'immagine, non con una spiegazione.", "Finisci con un'immagine, non con una spiegazione."], explanation: "\"Un'immagine\": apostrophe, feminine." },
+          { type: "listen-choose", audio: "Il campanile batte un'ora gialla.", question: "Which device does the line use?", options: ["synaesthesia (a sound given a colour)", "anaphora", "rhyme", "simile"], correctIndex: 0, explanation: "An hour, heard as a bell, is yellow: senses mixed." },
+          { type: "word-order", prompt: "Put the words in order to say: The smell of laundry rises from the green shutters.", words: ["L'odore", "di bucato", "sale", "dalle", "persiane", "verdi."], translation: "The smell of laundry rises from the green shutters.", explanation: "Precise nouns: \"bucato\", \"persiane\"." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Count the syllables up to the last stress.", answer: "Conta le sillabe fino all'ultimo accento.", altAnswers: ["Conta le sillabe fino all'ultima sillaba accentata."], explanation: "The rule of Italian metre." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Not a tree: a fig tree, against the wall.", answer: "Non un albero: un fico, contro il muro.", altAnswers: ["Non un albero, ma un fico, contro il muro."], explanation: "\"Fico\" = fig tree and fig." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Evening returns slowly over the deserted port.", answer: "La sera torna piano sul porto deserto.", altAnswers: ["La sera ritorna piano sul porto deserto.", "La sera torna lentamente sul porto deserto."], explanation: "\"Piano\" = slowly, softly." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "A poem in 'augelli' sounds like a costume.", answer: "Una poesia in «augelli» sembra un travestimento.", altAnswers: ["Una poesia con «augelli» sembra un travestimento.", "Una poesia in «augelli» sembra un costume.", "Una poesia piena di «augelli» sembra un travestimento."], explanation: "\"Travestimento\" = disguise, costume." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Rhymes in -are [are too easy].", sentence: "Le rime in -are ___.", answer: "sono troppo facili", explanation: "Systematic rhyme in Italian risks banality." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Use [an enjambement] to suspend a key word.", sentence: "Usa ___ per sospendere una parola chiave.", answer: "un enjambement", altAnswers: ["un'inarcatura"], explanation: "Italian also says \"inarcatura\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Not 'a bird' but [a swallow].", sentence: "Non «un uccello» ma ___.", answer: "una rondine", explanation: "Precise nouns, as in Pascoli." },
+      { type: "word-order", prompt: "Put the words in order to say: Evening returns slowly.", words: ["La", "sera", "torna", "piano."], translation: "Evening returns slowly.", explanation: "A settenario: la-se-ra-tor-na-pia-no." },
+      { type: "multiple-choice", question: "Which revision follows the advice of this lesson?", options: ["Le persiane verdi, l'odore di bucato.", "Un posto molto bello e meraviglioso.", "O augelli, o speme mia!", "È un luogo triste e molto bello."], correctIndex: 0, explanation: "Concrete nouns instead of abstract adjectives or old poeticisms." },
+      { type: "dictation", audio: "Il campanile batte un'ora gialla sulle persiane verdi.", explanation: "\"Un'ora\" with apostrophe; \"persiane\" = shutters." },
+      { type: "speak", text: "La sera torna piano sul porto deserto. Non un albero: un fico, contro il muro.", prompt: "Read your opening lines aloud: Evening returns slowly over the deserted port. Not a tree: a fig tree, against the wall.", tip: "Pause at the colon; let \"fico\" land.", explanation: "Concrete images in a measured rhythm." },
+    ],
+  },
+  {
+    slug: "c2-reading-lab-leopardi-prose",
+    level: "IT-C2",
+    number: 10,
+    title: "Reading Lab: Leopardi's Prose",
+    summary: "Read Leopardi's Dialogue of an Almanac Seller and a Passer-by and follow its ironic argument about happiness.",
+    duration: "19 min",
+    sections: [
+      {
+        heading: "The dialogue",
+        body: [
+          "The \"Operette morali\" (1827) are short philosophical prose pieces, often dialogues, in which Leopardi sets out his view of human unhappiness with irony. The \"Dialogo di un venditore d'almanacchi e di un passeggere\" is set on New Year's Eve. A street seller offers almanacs: \"Almanacchi, almanacchi nuovi; lunari nuovi. Bisognano, signore, almanacchi?\" A passer-by asks: \"Credete che sarà felice quest'anno nuovo?\" The seller answers: \"Oh illustrissimo sì, certo.\"",
+          "Notes: \"lunari\" are popular calendars; \"bisognano\" means are needed, a construction still heard in Tuscany and the South; \"illustrissimo\" is an exaggerated honorific, like 'your honour'. The passer-by then asks whether the seller would live his past years again, exactly as they were. No, the seller admits: not even one of them.",
+        ],
+        examples: [
+          { es: "Almanacchi, almanacchi nuovi; lunari nuovi.", en: "Almanacs, new almanacs; new calendars." },
+          { es: "Bisognano, signore, almanacchi?", en: "Do you need almanacs, sir?" },
+          { es: "Credete che sarà felice quest'anno nuovo?", en: "Do you think this new year will be happy?" },
+          { es: "Oh illustrissimo sì, certo.", en: "Oh yes, your honour, certainly." },
+          { es: "Rivivrebbe la sua vita esattamente com'è stata?", en: "Would he live his life again exactly as it was?" },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Do you think this new year will be happy?", answer: "Credete che quest'anno nuovo sarà felice?", altAnswers: ["Credete che sarà felice quest'anno nuovo?", "Pensate che quest'anno nuovo sarà felice?", "Credete che quest'anno nuovo sia felice?", "Credi che quest'anno nuovo sarà felice?", "Crede che quest'anno nuovo sarà felice?"], explanation: "After \"credere che\", the future indicative is fine for a future event; \"voi\" is the old polite address." },
+          { type: "listen-choose", audio: "Bisognano, signore, almanacchi?", question: "What is the seller asking?", options: ["Whether the gentleman needs almanacs", "Whether the gentleman sells almanacs", "Where the almanacs are", "How much the almanacs cost"], correctIndex: 0, explanation: "\"Bisognare\" with a plural subject: are almanacs needed?" },
+        ],
+      },
+      {
+        heading: "The argument",
+        body: [
+          "The passer-by draws the conclusion: no one would live their past again, because the pleasure of life lies in what we do not yet know. His key sentence: \"Quella vita ch'è una cosa bella, non è la vita che si conosce, ma quella che non si conosce; non la vita passata, ma la futura.\" The seller, who has agreed to everything, replies simply: \"Speriamo.\" The passer-by buys the most beautiful almanac.",
+          "Leopardi's irony works through politeness: the seller never contradicts, and his \"speriamo\" (let's hope) is both a seller's reflex and the human condition. Notice the parallel structure of the key sentence, \"non ... ma ...; non ... ma ...\", and the impersonal \"si conosce\". These are exactly the tools of an argumentative essay.",
+        ],
+        examples: [
+          { es: "Quella vita ch'è una cosa bella, non è la vita che si conosce, ma quella che non si conosce", en: "The life that is a beautiful thing is not the life one knows, but the one one does not know" },
+          { es: "non la vita passata, ma la futura", en: "not the past life, but the future one" },
+          { es: "Speriamo.", en: "Let's hope so." },
+          { es: "Nessuno rivivrebbe il proprio passato.", en: "No one would live their past again." },
+          { es: "L'ironia nasce dalla cortesia del venditore.", en: "The irony comes from the seller's politeness." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "No one would live their past again.", answer: "Nessuno rivivrebbe il proprio passato.", altAnswers: ["Nessuno vorrebbe rivivere il proprio passato.", "Nessuno rivivrebbe il suo passato."], explanation: "\"Proprio\" for one's own with an indefinite subject." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The beautiful life is [not the past one, but the future one].", sentence: "La vita bella è ___.", answer: "non quella passata, ma quella futura", altAnswers: ["non la passata, ma la futura", "non la vita passata, ma la futura"], explanation: "\"Non ... ma\" with the pronoun \"quella\"." },
+          { type: "multiple-choice", question: "Why is the seller's \"Speriamo\" ironic?", options: ["It is both a polite reflex and an admission that happiness is only hope.", "He doesn't want to sell the almanac.", "He is mocking the passer-by.", "He knows the future."], correctIndex: 0, explanation: "Hope, not happiness, is what remains: Leopardi's point." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The beautiful life is not the one we know, but the one we don't know.", answer: "La vita bella non è quella che si conosce, ma quella che non si conosce.", altAnswers: ["La vita bella non è quella che conosciamo, ma quella che non conosciamo.", "La vita che è bella non è quella che si conosce, ma quella che non si conosce."], explanation: "The impersonal \"si conosce\" generalises; \"conosciamo\" is also natural." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The irony comes from the seller's politeness.", answer: "L'ironia nasce dalla cortesia del venditore.", altAnswers: ["L'ironia deriva dalla cortesia del venditore.", "L'ironia nasce dalla gentilezza del venditore."], explanation: "\"Nascere da\" = to arise from." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The dialogue is set on New Year's Eve.", answer: "Il dialogo è ambientato la notte di Capodanno.", altAnswers: ["Il dialogo si svolge la vigilia di Capodanno.", "Il dialogo è ambientato a San Silvestro.", "Il dialogo si svolge l'ultimo giorno dell'anno."], explanation: "\"San Silvestro\" (31 December) and \"Capodanno\" (1 January)." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Would you live your past years again?", answer: "Rivivreste i vostri anni passati?", altAnswers: ["Rivivresti i tuoi anni passati?", "Rivivrebbe i Suoi anni passati?", "Vorreste rivivere gli anni passati?", "Vorresti rivivere gli anni passati?"], explanation: "Conditional of \"rivivere\": \"rivivrei, rivivresti, rivivrebbe...\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The seller [never contradicts] the passer-by.", sentence: "Il venditore ___ il passeggero.", answer: "non contraddice mai", explanation: "\"Contraddire\" conjugates like \"dire\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The passer-by [buys] the most beautiful almanac.", sentence: "Il passeggero ___ l'almanacco più bello.", answer: "compra", altAnswers: ["acquista"], explanation: "Present tense for the plot." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The Operette morali are [short philosophical prose pieces].", sentence: "Le Operette morali sono ___.", answer: "brevi prose filosofiche", altAnswers: ["brevi testi filosofici in prosa"], explanation: "\"Prosa\" can be countable: \"le prose\"." },
+      { type: "word-order", prompt: "Put the words in order to say: Not the past life, but the future one.", words: ["Non", "la vita", "passata,", "ma", "la futura."], translation: "Not the past life, but the future one.", explanation: "Leopardi's parallel \"non ... ma\"." },
+      { type: "multiple-choice", question: "What does \"lunari\" mean in the seller's cry?", options: ["popular calendars", "moons", "lunatics", "lamps"], correctIndex: 0, explanation: "A \"lunario\" is a calendar with moon phases." },
+      { type: "listen-choose", audio: "Quella vita ch'è una cosa bella, non è la vita che si conosce, ma quella che non si conosce.", question: "According to the passer-by, which life is beautiful?", options: ["the unknown, future one", "the life we remember", "the life of the rich", "the present moment"], correctIndex: 0, explanation: "Happiness lives only in expectation." },
+      { type: "dictation", audio: "Credete che sarà felice quest'anno nuovo?", explanation: "\"Quest'anno\" with elision; \"voi\" as old polite address." },
+      { type: "speak", text: "Almanacchi, almanacchi nuovi; lunari nuovi. Bisognano, signore, almanacchi?", prompt: "Play the street seller: Almanacs, new almanacs; new calendars. Do you need almanacs, sir?", tip: "A street cry: stress al-ma-NAC-chi, lu-NA-ri.", explanation: "The opening of the dialogue." },
+    ],
+  },
+];
+
+export const IT_C2_U03_WRITING: WriteExercise = {
+  type: "write",
+  prompt: "Write a commentary (in Italian) on the first eight lines of Leopardi's L'infinito (\"Sempre caro mi fu quest'ermo colle ... il cor non si spaura\"). Present the poem (date, collection, form), give a short paraphrase, analyse metre and at least three features of language (poetic vocabulary, enjambement, deictics, inversion) and interpret the passage within Leopardi's thought.",
+  minWords: 250,
+  maxWords: 380,
+  rubric: [
+    "Presents the poem with date, collection and form (endecasillabi sciolti) and refers to l'io lirico",
+    "Paraphrases the lines in modern Italian (ermo, guardo, mi fingo, per poco ... non)",
+    "Analyses at least three features: enjambement, the deictics questo / quello, poetic vocabulary, inversion, semantic fields",
+    "Interprets with hedging (si può leggere, sembra che + subjunctive, a nostro avviso) and links to the theory of pleasure or imagination",
+    "Uses analytical verbs precisely (si contrappone a, mette in rilievo, culmina in) and the present tense for the text",
+  ],
+  modelAnswer: "L'infinito, composto da Leopardi a Recanati nel 1819 e pubblicato tra gli Idilli, è un componimento di quindici endecasillabi sciolti. I primi otto versi ne costituiscono la prima parte.\n\nParafrasi: questo colle solitario mi è sempre stato caro, e anche questa siepe, che impedisce allo sguardo di vedere gran parte dell'orizzonte. Ma, stando seduto e guardando, immagino spazi senza fine al di là della siepe, silenzi che superano ogni esperienza umana e una quiete profondissima, tanto che il mio cuore per poco non si spaventa.\n\nSul piano formale spiccano gli enjambement: «interminati / spazi», «sovrumani / silenzi». L'aggettivo, separato dal nome a fine verso, fa traboccare la frase oltre il limite metrico, così come il pensiero oltrepassa la siepe. Il lessico è quello della tradizione poetica: «ermo», «guardo», «mirando», «cor». Particolarmente denso è il verbo «mi fingo», usato nel senso latino di plasmare con l'immaginazione.\n\nDecisivi sono anche i deittici. «Quest'ermo colle» e «questa siepe» indicano ciò che è vicino e concreto, mentre «di là da quella» apre lo spazio immaginato. Il campo semantico del limite si contrappone così a quello dell'illimitato.\n\nSi può leggere il passo alla luce della teoria del piacere: l'uomo desidera un piacere infinito che la realtà non può dargli, e l'immaginazione supplisce a ciò che la vista non raggiunge. Sembra che la siepe, ostacolo allo sguardo, diventi la condizione stessa dell'esperienza dell'infinito. A nostro avviso, la forza di questi versi sta nel fatto che l'immensità nasce da un limite piccolo e quotidiano, e che lo sgomento del cuore ne è il segno più umano.",
+  explanation: "The model presents the poem, paraphrases it (\"impedisce allo sguardo\", \"immagino\", \"per poco non si spaventa\"), analyses enjambement, poetic vocabulary, the Latin sense of \"mi fingo\" and the deictics, and interprets with \"si può leggere\", \"sembra che\" + subjunctive \"diventi\" and \"a nostro avviso\".",
+};
