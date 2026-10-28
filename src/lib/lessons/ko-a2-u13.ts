@@ -21,7 +21,7 @@ export const KO_A2_U13: Lesson[] = [
         heading: "-아 / 어 보다: do it and see",
         body: [
           "Add 보다 'to see' after the -아 / 어 form of a verb and you get 'try doing it, do it and see what it's like': 먹어 보다 'try eating', 입어 보다 'try on', 타 보다 'try riding'. Build it like -아야 돼요 in Unit 7: take the polite form, drop 요, then add 보다. 먹어요 → 먹어 봐요, 가요 → 가 봐요, 해요 → 해 봐요.",
-          "This 'try' means testing something out, not making an effort. English uses one word for both; Korean doesn't. 'I tried hard to get up early' is about effort, and 먹어 봤어요 would never translate it.",
+          "This 'try' means testing something out, not making an effort. English uses one word for both; Korean doesn't. 'I tried hard to get up early' is about effort, and 일찍 일어나 봤어요 would not translate it.",
           "Write it as two words: 먹어 보다, 입어 봐요. Only 보다 changes for tense and politeness; the first verb keeps its 아 / 어 form.",
         ],
         examples: [
@@ -153,9 +153,9 @@ export const KO_A2_U13: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which means 'I tried hard, but I couldn't get up early.'?",
-        options: ["열심히 노력했어요. 그런데 일찍 못 일어났어요.", "일찍 일어나 봤어요.", "일찍 일어나 보세요.", "일찍 일어나 볼게요."],
+        options: ["일찍 일어나려고 노력했지만 못 일어났어요.", "일찍 일어나 봤어요.", "일찍 일어나 보세요.", "일찍 일어나 볼게요."],
         correctIndex: 0,
-        explanation: "-아 / 어 보다 is 'try it and see', never 'make an effort'. Effort is 노력하다.",
+        explanation: "-아 / 어 보다 is 'try it and see', not 'make an effort'. Effort is 노력하다, here with -(으)려고 (Unit 12) and -지만 (Unit 3).",
       },
       {
         type: "translate",
@@ -262,7 +262,7 @@ export const KO_A2_U13: Lesson[] = [
       {
         heading: "보다 itself: 봤어요, not 봐 봤어요",
         body: [
-          "For seeing and watching, don't stack 보다 on 보다. 'Have you seen this film?' is just 이 영화 봤어요?, or 본 적 있어요? from the next lesson. *봐 봤어요 sounds clumsy. (봐 봐 'have a look' is common in casual commands, but not for experience.)",
+          "For seeing and watching, don't stack 보다 on 보다. 'Have you seen this film?' is just 이 영화 봤어요?, or 본 적 있어요? from the next lesson. 봐 봤어요 sounds clumsy. (봐 봐 'have a look' is common in casual commands, but not for experience.)",
           "Irregular verbs take their usual 아 / 어 form before 보다: 들어 봤어요 'I've heard it', 불러 봤어요 'I've sung it', 걸어 봤어요 'I've walked it', 만들어 봤어요 'I've made it'.",
         ],
         examples: [
@@ -279,7 +279,7 @@ export const KO_A2_U13: Lesson[] = [
             source: "Have you seen this film?",
             answer: "이 영화 봤어요?",
             altAnswers: ["이 영화를 봤어요?", "이 영화 본 적 있어요?", "이 영화를 본 적 있어요?", "이 영화 본 적이 있어요?", "이 영화를 본 적이 있어요?", "이 영화 보셨어요?", "이 영화를 보셨어요?"],
-            explanation: "With 보다 itself, the past 봤어요 already means 'have you seen'. *봐 봤어요 sounds clumsy.",
+            explanation: "With 보다 itself, the past 봤어요 already means 'have you seen'. 봐 봤어요 sounds clumsy.",
           },
           {
             type: "listen-choose",
@@ -423,7 +423,7 @@ export const KO_A2_U13: Lesson[] = [
         heading: "-(으)ㄴ 적이 있어요: there has been a time",
         body: [
           "적 is a noun meaning 'a time, an occasion'. Put the past modifier from Unit 11 in front of it and add 있어요 or 없어요: 본 적이 있어요 'there is a time I saw it', so 'I have seen it'; 간 적이 없어요 'I have never been'. It is the closest Korean has to 'have you ever ...?'.",
-          "The modifier must be past: 먹은 적, 간 적, 놓친 적. *먹는 적 or *먹을 적 don't work for experience. 적 is a separate word, so it is spaced: 본 적이 있어요.",
+          "The modifier must be past: 먹은 적, 간 적, 놓친 적. *먹는 적 is wrong, and 먹을 적 means 'when (I) eat', not experience. 적 is a separate word, so it is spaced: 본 적이 있어요.",
           "Don't translate 'ever' and 'never' as separate words. The whole phrase carries them: 있어요? is 'have you ever', 없어요 is 'never'.",
         ],
         examples: [
@@ -524,8 +524,8 @@ export const KO_A2_U13: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I've seen a Korean film.",
         answer: "한국 영화를 본 적이 있어요.",
-        altAnswers: ["한국 영화를 본 적 있어요.", "한국 영화 본 적 있어요.", "한국 영화 본 적이 있어요.", "한국 영화를 봤어요.", "저는 한국 영화를 본 적이 있어요."],
-        explanation: "보다 → 본 + 적이 있어요. Not *봐 본 적: 보다 doesn't need another 보다.",
+        altAnswers: ["한국 영화를 본 적 있어요.", "한국 영화 본 적 있어요.", "한국 영화 본 적이 있어요.", "한국 영화를 봤어요.", "한국 영화 봤어요.", "저는 한국 영화를 본 적이 있어요."],
+        explanation: "보다 → 본 + 적이 있어요. 봐 본 적 is clumsy: 보다 doesn't need another 보다.",
       },
       {
         type: "translate",
@@ -549,6 +549,7 @@ export const KO_A2_U13: Lesson[] = [
         en: "I've [got lost] before.",
         sentence: "길을 ___ 적이 있어요.",
         answer: "잃은",
+        altAnswers: ["잃어버린"],
         explanation: "길을 잃다 'get lost': 잃 + 은 → 잃은 적이 있어요.",
       },
       {
@@ -590,14 +591,14 @@ export const KO_A2_U13: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "Have you ever been to a jjimjilbang?",
         answer: "찜질방에 가 본 적 있어요?",
-        altAnswers: ["찜질방에 가 본 적이 있어요?", "찜질방에 간 적이 있어요?", "찜질방에 간 적 있어요?", "찜질방에 가 봤어요?", "찜질방 가 봤어요?", "찜질방 가 본 적 있어요?"],
+        altAnswers: ["찜질방에 가 본 적이 있어요?", "찜질방에 간 적이 있어요?", "찜질방에 간 적 있어요?", "찜질방에 가 봤어요?", "찜질방 가 봤어요?", "찜질방 가 본 적 있어요?", "찜질방 간 적 있어요?"],
         explanation: "가 본 적 있어요? is the everyday 'have you ever been?', with 이 dropped.",
       },
       {
         type: "listen-choose",
         audio: "외국에서 산 적이 있어요?",
         question: "What does it mean?",
-        options: ["Have you ever lived abroad?", "Have you bought it abroad?", "Do you live abroad?", "Do you want to live abroad?"],
+        options: ["Have you ever lived abroad?", "I've never lived abroad.", "Do you live abroad?", "Do you want to live abroad?"],
         correctIndex: 0,
         explanation: "산 can come from 사다 or 살다, but 외국에서 + 적 points to 살다: 'ever lived abroad'.",
       },
@@ -638,7 +639,7 @@ export const KO_A2_U13: Lesson[] = [
             prompt: "Translate into Korean.",
             source: "It's my first time in Korea.",
             answer: "한국은 처음이에요.",
-            altAnswers: ["한국은 처음 왔어요.", "한국에 처음 왔어요.", "저는 한국이 처음이에요.", "한국이 처음이에요.", "저는 한국은 처음이에요."],
+            altAnswers: ["한국은 처음 왔어요.", "한국에 처음 왔어요.", "한국에는 처음 왔어요.", "저는 한국이 처음이에요.", "한국이 처음이에요.", "저는 한국은 처음이에요."],
             explanation: "처음 is a noun, so it takes 이에요: 한국은 처음이에요. 한국에 처음 왔어요 says the same with a verb.",
           },
           {
@@ -687,7 +688,7 @@ export const KO_A2_U13: Lesson[] = [
         heading: "아직 and 한 번도: not yet, never once",
         body: [
           "'I haven't eaten yet' is 아직 안 먹었어요: 아직 + 안 or 못 + the past. English uses 'haven't', so learners write the present, *아직 안 먹어요, which means 'I'm still not eating'. The short answer 'Not yet' is 아직이요, or 아직 안 했어요.",
-          "한 번도 'not even once' always needs a negative: 한 번도 안 가 봤어요 'I've never been', 한 번도 못 먹어 봤어요. With 아직 + present, 아직 means 'still': 아직 자고 있어요.",
+          "한 번도 'not even once' needs a negative: 한 번도 안 가 봤어요 'I've never been', 한 번도 못 먹어 봤어요. With 아직 + present, 아직 means 'still': 아직 자고 있어요.",
         ],
         examples: [
           { es: "아직 점심을 안 먹었어요.", en: "I haven't had lunch yet." },
@@ -1035,7 +1036,6 @@ export const KO_A2_U13: Lesson[] = [
         en: "I [haven't been able to choose] a present yet.",
         sentence: "아직 선물을 ___.",
         answer: "못 골랐어요",
-        altAnswers: ["안 골랐어요"],
         explanation: "고르다 is 르 irregular: 골랐어요. 못 = not managed.",
       },
       {
@@ -1085,7 +1085,7 @@ export const KO_A2_U13: Lesson[] = [
         sentence: "한국어로 길을 ___ 적이 없어요.",
         answer: "물어본",
         altAnswers: ["물은"],
-        explanation: "묻다 is ㄷ irregular: 물어보다 → 물어본 적.",
+        explanation: "물어보다 'ask' → 물어본 적. With 묻다 (ㄷ irregular) it is 물은 적.",
       },
       {
         type: "translate",
@@ -1310,10 +1310,10 @@ export const KO_A2_U13: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Korean for the bold words.",
-        en: "[Give it a try].",
+        en: "[Go ahead and] try it.",
         sentence: "___ 먹어 보세요.",
         answer: "한번",
-        explanation: "Not a count, so one word: 한번.",
+        explanation: "Not a count, so one word: 한번 'give it a go'. 한 번 would mean 'one time'.",
       },
       {
         type: "translate",
@@ -1427,7 +1427,7 @@ export const KO_A2_U13: Lesson[] = [
       {
         heading: "봐 봤어요 and spacing",
         body: [
-          "*그 영화 봐 봤어요 stacks 보다 on 보다. Say 그 영화 봤어요 or 본 적 있어요.",
+          "그 영화 봐 봤어요 stacks 보다 on 보다 and sounds clumsy. Say 그 영화 봤어요 or 본 적 있어요.",
           "Spacing: 적 is a separate noun, so *먹은적이 있어요 should be 먹은 적이 있어요. 먹어 봤어요 is written as two words by the main rule; you will also see 먹어봤어요, which the rules allow, but keep them apart. And 'I've been once' counts, so 한 번 가 봤어요, not *한번.",
         ],
         examples: [
@@ -1440,7 +1440,7 @@ export const KO_A2_U13: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote *그 드라마 봐 봤어요? Write it correctly: Have you seen that drama?",
+            prompt: "A learner wrote 그 드라마 봐 봤어요? (clumsy). Write it naturally: Have you seen that drama?",
             source: "Have you seen that drama?",
             answer: "그 드라마 봤어요?",
             altAnswers: ["그 드라마를 봤어요?", "그 드라마 본 적 있어요?", "그 드라마를 본 적 있어요?", "그 드라마 본 적이 있어요?", "그 드라마를 본 적이 있어요?", "그 드라마 보셨어요?", "그 드라마를 보셨어요?"],
@@ -1458,7 +1458,7 @@ export const KO_A2_U13: Lesson[] = [
       {
         heading: "있었어요 and 처음 때",
         body: [
-          "*먹은 적이 있었어요 for 'I've eaten it' adds a second past. 있어요 means 'there is such a time (in my life)'. 있었어요 shifts that whole fact into the past, 'by then there had been', which you rarely need. For 'have you ever', use 있어요.",
+          "먹은 적이 있었어요 for 'I've eaten it' is not wrong, but it adds a second past. 있어요 means 'there is such a time (in my life)'. 있었어요 shifts that whole fact into the past, 'by then there had been', which you rarely need. For 'have you ever', use 있어요.",
           "*처음 때 for 'at first': 때 must follow a verb. Say 처음에, or 처음 왔을 때 'when I first came'.",
         ],
         examples: [
@@ -1498,7 +1498,7 @@ export const KO_A2_U13: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *먹은 적이 있었어요. Write it correctly: I've had tteokbokki.",
+        prompt: "A learner wrote 떡볶이를 먹은 적이 있었어요 (less natural). Write it naturally: I've had tteokbokki.",
         source: "I've had tteokbokki.",
         answer: "떡볶이를 먹은 적이 있어요.",
         altAnswers: ["떡볶이를 먹은 적 있어요.", "떡볶이 먹은 적 있어요.", "떡볶이 먹은 적이 있어요.", "떡볶이를 먹어 봤어요.", "떡볶이 먹어 봤어요.", "떡볶이를 먹어 본 적이 있어요.", "떡볶이를 먹어 본 적 있어요."],
@@ -1515,10 +1515,10 @@ export const KO_A2_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
-        options: ["지갑을 잃어버린 적이 있어요.", "지갑을 잃어버려 봤어요.", "지갑을 한 번도 잃어버렸어요.", "지갑을 잃어버린 적이 있었어요."],
+        question: "Which is the natural way to say 'I've lost my wallet before'?",
+        options: ["지갑을 잃어버린 적이 있어요.", "지갑을 잃어버려 봤어요.", "지갑을 한 번도 잃어버렸어요.", "지갑을 잃어버리는 적이 있어요."],
         correctIndex: 0,
-        explanation: "Accidents take 적; 한 번도 needs a negative; 있었어요 adds an unneeded past.",
+        explanation: "Accidents take 적, not 보다; 한 번도 needs a negative; 적 needs the past modifier 잃어버린, not 잃어버리는.",
       },
       {
         type: "translate",
@@ -1565,7 +1565,7 @@ export const KO_A2_U13: Lesson[] = [
         source: "I haven't had dinner yet.",
         answer: "아직 저녁을 안 먹었어요.",
         altAnswers: ["아직 저녁 안 먹었어요.", "저녁을 아직 안 먹었어요.", "저녁 아직 안 먹었어요.", "아직 저녁을 못 먹었어요.", "저녁을 아직 못 먹었어요.", "아직 저녁 못 먹었어요."],
-        explanation: "'Yet' in a negative is 아직, never 벌써.",
+        explanation: "'Yet' in a negative is 아직, not 벌써 ('already').",
       },
       {
         type: "speak",
@@ -1620,7 +1620,7 @@ export const KO_A2_U13: Lesson[] = [
         heading: "Hallasan and black pork",
         body: [
           "하준 asks about the famous things to do. 한라산 [할라산], the mountain in the middle of the island, and 흑돼지 'black pork' are the two every visitor is asked about. 수빈 climbed the mountain for the first time last year: 처음 올라가 봤어요.",
-          "She ends with the strongest recommendation Korean has: 꼭 먹어 보세요 'you have to try it'.",
+          "She ends with a strong recommendation: 꼭 먹어 보세요 'you have to try it'.",
         ],
         examples: [
           { es: "한라산에 올라가 봤어요?", en: "Have you climbed Hallasan? (하준)" },
@@ -1691,7 +1691,7 @@ export const KO_A2_U13: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Korean for the bold words.",
-        en: "Have you tried the black pork [too]?",
+        en: "Have you tried [the black pork too]?",
         sentence: "___ 먹어 봤어요?",
         answer: "흑돼지도",
         explanation: "도 'too' replaces 를: 흑돼지도.",
@@ -1710,7 +1710,7 @@ export const KO_A2_U13: Lesson[] = [
         source: "You have to try it. (polite recommendation)",
         answer: "꼭 먹어 보세요.",
         altAnswers: ["꼭 한번 먹어 보세요.", "꼭 드셔 보세요.", "꼭 한번 드셔 보세요.", "한번 꼭 먹어 보세요."],
-        explanation: "꼭 + 먹어 보세요: the strongest friendly recommendation.",
+        explanation: "꼭 + 먹어 보세요: a strong, friendly recommendation.",
       },
       {
         type: "word-order",
@@ -1990,7 +1990,7 @@ export const KO_A2_U13: Lesson[] = [
             prompt: "Translate into Korean.",
             source: "I went to the Jeonju Hanok Village last year.",
             answer: "저는 작년에 전주 한옥마을에 가 봤어요.",
-            altAnswers: ["작년에 전주 한옥마을에 가 봤어요.", "작년에 전주 한옥마을에 갔어요.", "저는 작년에 전주 한옥마을에 갔어요.", "작년에 전주 한옥마을에 가 본 적이 있어요.", "작년에 한옥마을에 가 봤어요."],
+            altAnswers: ["작년에 전주 한옥마을에 가 봤어요.", "작년에 전주 한옥마을에 갔어요.", "저는 작년에 전주 한옥마을에 갔어요.", "작년에 한옥마을에 가 봤어요.", "저는 작년에 한옥마을에 가 봤어요."],
             explanation: "가 봤어요 shares the experience. 작년에 is a known time, so -아 봤어요 or plain 갔어요, not 적.",
           },
           {

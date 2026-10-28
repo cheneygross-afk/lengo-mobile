@@ -50,7 +50,7 @@ export const KO_A1_S03_STORIES: Story[] = [
     title: `한라산은 어디에 있어요?`,
     subtitle: `Haeun finally takes a holiday on Jeju to see Hallasan, but the weather has other plans.`,
     paragraphs: [
-      `저는 하은이에요. 일이 너무 많아요. 그래서 휴가는 일 년에 한 번 있어요. 올해 휴가에 제주도에 갔어요. 한라산에 가고 싶었어요. 한라산은 한국에서 제일 높아요.`,
+      `저는 하은이에요. 일이 너무 많아요. 그래서 휴가는 일 년에 한 번 있어요. 올해 휴가에 제주도에 갔어요. 한라산에 가고 싶었어요. 한라산은 남한에서 제일 높아요.`,
       `그런데 첫날에 비가 왔어요. 둘째 날에도 비가 왔어요. 바람도 많이 불었어요. 그래서 산에 못 갔어요. 창문 밖에 산이 안 보였어요. 구름만 보였어요.`,
       `셋째 날에도 비가 왔어요. 저는 바다 옆 카페에 갔어요. “사장님, 한라산 사진 있어요?” 사장님은 웃고 휴대폰 사진을 보여 주셨어요. 저는 그 사진을 보고 산을 그렸어요. 하루 종일 그렸어요.`,
       `넷째 날 아침에 비행기를 탔어요. 저는 제 그림을 보고 조금 슬펐어요. 진짜 한라산을 못 봤어요.`,
@@ -220,6 +220,7 @@ export const KO_A1_S03_GLOSSES: Record<string, StoryGloss[]> = {
   ],
   "ko-three-rainy-days-on-jeju": [
     { es: "휴가", en: "holiday, time off work", forms: ["휴가는", "휴가에"] },
+    { es: "남한", en: "South Korea", forms: ["남한에서"] },
     { es: "제일", en: "the most", forms: ["제일"] },
     { es: "높다", en: "to be high, tall", forms: ["높아요", "높고"] },
     { es: "바람이 불다", en: "the wind blows", forms: ["바람도", "불었어요"] },

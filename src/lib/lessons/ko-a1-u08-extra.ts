@@ -523,6 +523,7 @@ export const KO_A1_U08_EXTRA: Lesson[] = [
             prompt: "Translate into Korean.",
             source: "Change at City Hall Station.",
             answer: "시청역에서 갈아타요.",
+            altAnswers: ["시청역에서 갈아타세요."],
             explanation: "갈아타다 'to change (trains)' → 갈아타요, at the station: 에서.",
           },
           {

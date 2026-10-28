@@ -83,9 +83,9 @@ export const KO_A2_U02: Lesson[] = [
           {
             type: "multiple-choice",
             question: "You're babysitting your 8-year-old cousin and want her to wait a moment. What do you say in 반말?",
-            options: ["잠깐만 기다려.", "잠깐만 기다리세.", "잠깐만 기다리어.", "잠깐만 기다리세요."],
+            options: ["잠깐만 기다려.", "잠깐만 기다리세.", "잠깐만 기다리십시오.", "잠깐만 기다리세요."],
             correctIndex: 0,
-            explanation: "기다려요 → 기다려. 기다리세요 is polite, too stiff for a child; *기다리세 and *기다리어 don't exist in speech.",
+            explanation: "기다려요 → 기다려. 기다리세요 is polite and 기다리십시오 formal, both too stiff for a child; *기다리세 isn't a form at all: there's no 반말 version of -세요.",
           },
         ],
       },
@@ -498,6 +498,7 @@ export const KO_A2_U02: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "Minsu, did you see that film? (to a friend)",
         answer: "민수야, 그 영화 봤어?",
+        altAnswers: ["민수야, 너 그 영화 봤어?"],
         explanation: "민수 ends in a vowel, so 민수야; 봤어요? → 봤어?.",
       },
       {
@@ -586,7 +587,7 @@ export const KO_A2_U02: Lesson[] = [
             prompt: "Translate into Korean.",
             source: "Is this yours? (to a friend)",
             answer: "이거 네 거야?",
-            altAnswers: ["이게 네 거야?", "이거 너의 거야?"],
+            altAnswers: ["이게 네 거야?", "이건 네 거야?", "이거 너의 거야?"],
             explanation: "'Your' is 네, said [니]; 거야? asks 'is it (the thing)?'. 너의 is correct but stiff in speech.",
           },
           {
@@ -677,7 +678,6 @@ export const KO_A2_U02: Lesson[] = [
         type: "dictation",
         audio: "나도 배고파.",
         answer: "나도 배고파.",
-        altAnswers: ["나도 배 고파."],
         explanation: "나도 'me too' with the casual 배고파.",
       },
       {
@@ -846,7 +846,6 @@ export const KO_A2_U02: Lesson[] = [
         en: "This is [expensive]. (to a friend)",
         sentence: "이거 ___.",
         answer: "비싸",
-        altAnswers: ["너무 비싸", "진짜 비싸"],
         explanation: "비싸요 → 비싸.",
       },
       {
@@ -1169,7 +1168,7 @@ export const KO_A2_U02: Lesson[] = [
           { es: "말 놓으세요.", en: "Please talk casually with me." },
           { es: "말 편하게 하세요.", en: "Feel free to speak casually." },
           { es: "저 사람한테 반말하지 마세요.", en: "Don't use 반말 with that person." },
-          { es: "식당에서는 항상 존댓말을 써요.", en: "In restaurants, always use polite speech." },
+          { es: "식당에서는 항상 존댓말을 써요.", en: "In restaurants, people always use polite speech." },
         ],
         checkpoint: [
           {
@@ -1478,7 +1477,6 @@ export const KO_A2_U02: Lesson[] = [
         type: "dictation",
         audio: "응, 알았어.",
         answer: "응, 알았어.",
-        altAnswers: ["응 알았어."],
         explanation: "알았어요 → 알았어, heard [아라써].",
       },
       {
@@ -1635,7 +1633,6 @@ export const KO_A2_U02: Lesson[] = [
             type: "dictation",
             audio: "아니, 안 먹었어.",
             answer: "아니, 안 먹었어.",
-            altAnswers: ["아니 안 먹었어."],
             explanation: "Heard [아니, 안 머거써]: 아니 with no 요.",
           },
         ],
@@ -2375,7 +2372,6 @@ export const KO_A2_U02: Lesson[] = [
         type: "dictation",
         audio: "하준아, 잘 지내?",
         answer: "하준아, 잘 지내?",
-        altAnswers: ["하준아 잘 지내?"],
         explanation: "Heard [하주나]: the ㄴ links to 아.",
       },
       {

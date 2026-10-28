@@ -766,10 +766,10 @@ export const KO_A1_U04_EXTRA: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Two puppy toys, that's 20,000 won?",
+        prompt: "Put the words in order to say: Two stuffed toy puppies, that's 20,000 won?",
         words: ["강아지", "인형", "두", "개,", "이만", "원이에요?"],
-        translation: "Two puppy toys, that's 20,000 won?",
-        explanation: "A toy is a thing, so 개; the price is Sino-Korean 이만 원.",
+        translation: "Two stuffed toy puppies, that's 20,000 won?",
+        explanation: "강아지 인형 is a stuffed toy puppy, a thing, so 개 (not 마리); the price is Sino-Korean 이만 원.",
       },
       {
         type: "translate",

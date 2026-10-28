@@ -99,9 +99,9 @@ export const KO_CULTURE_U05_EXTRA: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into Korean. (polite, to your friend's mother)",
         source: "I hope your son does well on 수능!",
-        answer: "아드님 수능 대박 나실 거예요!",
-        altAnswers: ["아드님 수능 잘 보실 거예요!", "아드님이 수능 잘 볼 거예요!", "아드님 수능 대박 나세요!", "아드님이 수능 대박 날 거예요!"],
-        explanation: "아드님 is the honorific 'your son'; 대박 나실 거예요 'it'll be a big success'.",
+        answer: "아드님 수능 잘 보실 거예요!",
+        altAnswers: ["아드님이 수능 잘 보실 거예요!", "아드님 수능 대박 나실 거예요!", "아드님이 수능 잘 볼 거예요!", "아드님이 수능 대박 날 거예요!"],
+        explanation: "아드님 is the honorific 'your son', and -시- in 잘 보실 거예요 'he'll do well' honours him for his mother's sake. 대박 나세요 would wish the mother herself success, so it doesn't fit here.",
       },
       {
         type: "fill-blank",
@@ -131,9 +131,9 @@ export const KO_CULTURE_U05_EXTRA: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order to say: Which club are you in?",
-        words: ["무슨", "동아리에", "있어요?"],
+        words: ["무슨", "동아리", "해요?"],
         translation: "Which club are you in?",
-        explanation: "동아리에 있어요? 'are you in a club?'; 무슨 'which kind'.",
+        explanation: "Koreans 'do' a club: 동아리(를) 하다, so 무슨 동아리 해요?. 동아리에 있어요? is understood but sounds translated from English.",
       },
       {
         type: "matching",
@@ -183,7 +183,7 @@ export const KO_CULTURE_U05_EXTRA: Lesson[] = [
         type: "speak",
         prompt: "Say it in Korean: I entered in 2024. What year did you enter?",
         text: "저는 24학번이에요. 몇 학번이세요?",
-        tip: "24학번 is [이십사 학뻔].",
+        tip: "24학번 is [이십싸 학뻔]: ㅂ makes the next ㅅ and ㅂ tense.",
         explanation: "Give your 학번 first, then ask politely with -이세요?.",
       },
     ],
@@ -266,7 +266,7 @@ export const KO_CULTURE_U05_EXTRA: Lesson[] = [
         prompt: "Translate into Korean. (formal)",
         source: "General manager, could you sign off this document, please?",
         answer: "부장님, 이 서류 결재 좀 부탁드립니다.",
-        altAnswers: ["부장님, 이 서류 결재 부탁드립니다.", "부장님, 이 서류 결재 좀 부탁드려요.", "부장님, 이 서류 결재 부탁드려요.", "부장님, 이 서류 결재해 주시겠습니까?", "부장님, 이 서류 결재해 주시겠어요?", "부장님, 이 서류 결재 좀 해 주세요.", "부장님, 이 서류 결재해 주세요.", "부장님, 이 서류에 결재 부탁드립니다."],
+        altAnswers: ["부장님, 이 서류 결재 부탁드립니다.", "부장님, 이 서류 결재해 주시겠습니까?", "부장님, 이 서류에 결재 부탁드립니다.", "부장님, 이 서류 결재 좀 해 주시겠습니까?"],
         explanation: "결재 부탁드립니다 is the set phrase; 좀 softens it.",
       },
       {

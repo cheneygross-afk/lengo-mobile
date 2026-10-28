@@ -339,7 +339,7 @@ export const KO_A2_U08_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "코트를 벗고 손을 씻었어요.", en: "I took off my coat and washed my hands." },
-          { es: "문을 닫아서 안 들려요.", en: "The door is closed, so I can't hear." },
+          { es: "문을 닫아서 안 들려요.", en: "I closed the door, so I can't hear." },
           { es: "짐이 무거워서 친구가 도와줬어요.", en: "My luggage was heavy, so a friend helped." },
           { es: "동생이 웃으면서 선물을 받았어요.", en: "My sibling took the present with a smile." },
         ],
@@ -431,7 +431,7 @@ export const KO_A2_U08_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Korean for the bold words.",
-        en: "The door [is closed, so] I can't hear.",
+        en: "I [closed] the door, [so] I can't hear.",
         sentence: "문을 ___ 안 들려요.",
         answer: "닫아서",
         explanation: "닫다 is regular: 닫아서.",

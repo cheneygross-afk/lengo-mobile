@@ -129,8 +129,8 @@ export const KO_CULTURE_U03: Lesson[] = [
         prompt: "Translate into Korean (to a senior colleague who paid).",
         source: "Thank you for dinner today.",
         answer: "오늘 잘 먹었습니다.",
-        altAnswers: ["오늘 잘 먹었어요.", "잘 먹었습니다.", "오늘 정말 잘 먹었습니다.", "오늘 저녁 잘 먹었습니다.", "선배님, 오늘 잘 먹었습니다."],
-        explanation: "잘 먹었습니다 thanks the person who paid as well as the cook. Koreans don't say 감사합니다 for the meal alone; this is the phrase.",
+        altAnswers: ["오늘 잘 먹었어요.", "잘 먹었습니다.", "오늘 정말 잘 먹었습니다.", "오늘 저녁 잘 먹었습니다.", "선배님, 오늘 잘 먹었습니다.", "오늘 잘 먹었습니다. 감사합니다."],
+        explanation: "잘 먹었습니다 thanks the person who paid as well as the cook. 감사합니다 can follow it, but on its own it misses the set phrase Koreans expect after a meal.",
       },
       {
         type: "multiple-choice",
@@ -174,7 +174,7 @@ export const KO_CULTURE_U03: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "You eat rice with a spoon.",
         answer: "밥은 숟가락으로 먹어요.",
-        altAnswers: ["밥은 숟가락으로 먹습니다.", "밥은 숟가락으로 드세요.", "밥은 숟가락으로 먹어.", "밥은 숟가락으로 먹어야 돼요."],
+        altAnswers: ["밥은 숟가락으로 먹습니다.", "밥은 숟가락으로 드세요.", "밥은 숟가락으로 먹어야 돼요."],
         explanation: "(으)로 marks the tool: 숟가락으로. Rice and soup take the spoon, 반찬 the chopsticks, and the bowl stays on the table.",
       },
       {
@@ -192,7 +192,7 @@ export const KO_CULTURE_U03: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "You eat side dishes with chopsticks.",
         answer: "반찬은 젓가락으로 먹어요.",
-        altAnswers: ["반찬은 젓가락으로 먹습니다.", "반찬은 젓가락으로 드세요.", "반찬은 젓가락으로 먹어."],
+        altAnswers: ["반찬은 젓가락으로 먹습니다.", "반찬은 젓가락으로 드세요."],
         explanation: "(으)로 marks the tool: 젓가락으로 'with chopsticks'. 반찬은 sets side dishes against rice, which takes the spoon.",
       },
       {
@@ -671,14 +671,14 @@ export const KO_CULTURE_U03: Lesson[] = [
             sentence: "한 사람당 ___이에요.",
             answer: "만 오천 원",
             altAnswers: ["15,000원", "1만 5천 원"],
-            explanation: "Money takes Sino-Korean numbers, and Koreans count in units of 10,000 (만): 15,000 is 만 오천, never 일만 오천 in speech.",
+            explanation: "Money takes Sino-Korean numbers, and Koreans count in units of 10,000 (만): 15,000 is 만 오천; 일만 오천 is not said in everyday speech.",
           },
         ],
       },
       {
         heading: "Paying at the counter",
         body: [
-          "In most Korean restaurants you don't wait for a bill at the table: you take the receipt (or just your table number) to the counter by the door and pay there. Tipping is not expected. 계산해 주세요 'please ring us up' works at any counter; add 같이 for one bill or 따로 for separate ones.",
+          "In most Korean restaurants you don't wait for a bill at the table: you take the receipt (or just your table number) to the counter by the door and pay there, though more and more places now let you order and pay on a table tablet or kiosk. Tipping is not expected. 계산해 주세요 'please ring us up' works at any counter; add 같이 for one bill or 따로 for separate ones.",
           "At the counter you'll also hear friends play-fighting over who pays, each trying to get there first. It looks dramatic, but it is a show of warmth, and someone always wins.",
         ],
         examples: [
@@ -1642,7 +1642,7 @@ export const KO_CULTURE_U03: Lesson[] = [
         prompt: "Translate into Korean (greeting your friend's parents at the door).",
         source: "Hello, it's nice to meet you. I'm Jieun's friend.",
         answer: "안녕하세요, 처음 뵙겠습니다. 지은 씨 친구예요.",
-        altAnswers: ["안녕하세요, 처음 뵙겠습니다. 저는 지은 씨 친구예요.", "안녕하세요, 처음 뵙겠습니다. 지은 씨 친구입니다.", "안녕하세요, 처음 뵙겠습니다. 저는 지은 씨 친구입니다.", "처음 뵙겠습니다. 지은 씨 친구예요.", "처음 뵙겠습니다. 저는 지은 씨 친구입니다.", "안녕하세요, 처음 뵙겠습니다. 지은이 친구예요."],
+        altAnswers: ["안녕하세요, 처음 뵙겠습니다. 저는 지은 씨 친구예요.", "안녕하세요, 처음 뵙겠습니다. 지은 씨 친구입니다.", "안녕하세요, 처음 뵙겠습니다. 저는 지은 씨 친구입니다.", "처음 뵙겠습니다. 지은 씨 친구예요.", "처음 뵙겠습니다. 저는 지은 씨 친구입니다.", "안녕하세요, 처음 뵙겠습니다. 지은이 친구예요.", "안녕하세요, 처음 뵙겠습니다. 저는 지은 친구예요."],
         explanation: "처음 뵙겠습니다 is the formal first-meeting chunk. Saying whose friend you are matters more here than your own name.",
       },
       {

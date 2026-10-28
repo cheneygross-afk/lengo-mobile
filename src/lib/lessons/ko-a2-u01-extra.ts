@@ -579,9 +579,9 @@ export const KO_A2_U01_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "A bank clerk calls you to the counter. Which line would she say?",
-        options: ["고객님, 이쪽으로 오십시오.", "고객님, 이쪽으로 와.", "고객님, 이쪽으로 갑시다.", "고객님, 이쪽으로 옵니까?"],
+        options: ["고객님, 이쪽으로 오십시오.", "고객님, 이쪽으로 왔습니다.", "고객님, 이쪽으로 갑시다.", "고객님, 이쪽으로 옵니까?"],
         correctIndex: 0,
-        explanation: "A bank is a formal service setting: 오십시오 (or the everyday 오세요). 갑시다 would be 'let's go'.",
+        explanation: "A bank is a formal service setting: 오십시오 (or the everyday 오세요). 왔습니다 only reports that someone came, 갑시다 would be 'let's go', and 옵니까? asks a question.",
       },
       {
         type: "multiple-choice",

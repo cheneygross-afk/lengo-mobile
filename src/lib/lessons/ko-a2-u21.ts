@@ -235,7 +235,7 @@ export const KO_A2_U21: Lesson[] = [
         heading: "Noun + 이 / 가 되다: become a doctor",
         body: [
           "To become something, Korean uses 되다, and the new role takes the subject particle 이 / 가: 의사가 됐어요 'He became a doctor'. It works like 아니에요 (의사가 아니에요): the noun is what you are, not something you act on.",
-          "English 'become a doctor' makes doctor look like an object, so learners write *의사를 됐어요. 'Turn into' tempts *의사에 됐어요. Neither is Korean: always 이 / 가 before 되다.",
+          "English 'become a doctor' makes doctor look like an object, so learners write *의사를 됐어요. 'Turn into' tempts *의사에 됐어요. Neither is Korean: the new role takes 이 / 가.",
           "Wanting to become uses -고 싶다: 선생님이 되고 싶어요 'I want to be a teacher'. English says 'be', but Korean must say 되다, since 이고 싶어요 is not possible.",
         ],
         examples: [
@@ -356,7 +356,7 @@ export const KO_A2_U21: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Korean for the bold words.",
-        en: "It's [already twelve o'clock].",
+        en: "It's [already] twelve o'clock.",
         sentence: "___ 열두 시가 됐어요.",
         answer: "벌써",
         explanation: "벌써 'already' adds surprise that time has passed; the time itself takes 가 + 됐어요.",
@@ -395,9 +395,9 @@ export const KO_A2_U21: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into Korean.",
         source: "What do you want to be when you grow up?",
-        answer: "어른이 되면 뭐가 되고 싶어요?",
-        altAnswers: ["커서 뭐가 되고 싶어요?", "어른이 되면 무엇이 되고 싶어요?", "나중에 뭐가 되고 싶어요?"],
-        explanation: "'What do you want to be' is 뭐가 되고 싶어요?: even the question word takes 가 before 되다.",
+        answer: "커서 뭐가 되고 싶어요?",
+        altAnswers: ["나중에 커서 뭐가 되고 싶어요?", "커서 무엇이 되고 싶어요?", "어른이 되면 뭐가 되고 싶어요?", "어른이 되면 무엇이 되고 싶어요?", "나중에 뭐가 되고 싶어요?"],
+        explanation: "'What do you want to be' is 뭐가 되고 싶어요?: even the question word takes 가 before 되다. 커서 (크다 + -어서) is the everyday 'when you grow up'.",
       },
       {
         type: "translate",
@@ -710,7 +710,7 @@ export const KO_A2_U21: Lesson[] = [
             source: "Come quickly!",
             answer: "빨리 오세요!",
             altAnswers: ["빨리 와요!", "빨리 와 주세요!"],
-            explanation: "The everyday 'quickly, hurry' is 빨리. *빠르게 오세요 sounds odd: 빠르게 describes a rate of change.",
+            explanation: "The everyday 'quickly, hurry' is 빨리. 빠르게 오세요 sounds odd: 빠르게 describes a rate of change.",
           },
           {
             type: "speak",
@@ -723,7 +723,7 @@ export const KO_A2_U21: Lesson[] = [
       {
         heading: "Sound focus: 맑게 [말께], 맑다 [막따]",
         body: [
-          "In Unit 8 you met double finals before a consonant: only one letter is said, as in 짧다 [짤따]. ㄺ is the odd one. Before most consonants it is read [ㄱ]: 맑다 [막따], 읽다 [익따], 닭 [닥]. Before ㄱ, though, it is read [ㄹ], and the ㄱ turns tense: 맑게 [말께], 밝게 [발께], 읽게 [일께], 읽고 [일꼬]. Before a vowel both letters are heard: 맑아요 [말가요].",
+          "In Unit 8 you met double finals before a consonant: only one letter is said, as in 짧다 [짤따]. ㄺ is the odd one. Before most consonants and at the end of a word it is read [ㄱ]: 맑다 [막따], 읽다 [익따], 닭 [닥]. Before ㄱ, though, it is read [ㄹ], and the ㄱ turns tense: 맑게 [말께], 밝게 [발께], 읽게 [일께], 읽고 [일꼬]. Before a vowel both letters are heard: 맑아요 [말가요].",
           "This unit's 게 brings the rule up often: 밝게 웃어요 [발께 우서요] 'smiles brightly', 책을 읽게 됐어요 'came to read books'. The spelling never changes.",
         ],
         examples: [
@@ -931,7 +931,7 @@ export const KO_A2_U21: Lesson[] = [
             prompt: "Translate into Korean.",
             source: "I've lived in this neighborhood for ten years.",
             answer: "십 년 동안 이 동네에서 살아 왔어요.",
-            altAnswers: ["10년 동안 이 동네에서 살아 왔어요.", "이 동네에서 십 년 동안 살아 왔어요.", "이 동네에서 10년 동안 살아 왔어요.", "십 년 동안 이 동네에 살아 왔어요.", "10년 동안 이 동네에 살아 왔어요.", "십 년 동안 이 동네에서 살았어요.", "10년 동안 이 동네에서 살았어요.", "이 동네에서 십 년 동안 살았어요.", "이 동네에서 10년 동안 살았어요."],
+            altAnswers: ["저는 십 년 동안 이 동네에서 살아 왔어요.", "10년 동안 이 동네에서 살아 왔어요.", "이 동네에서 십 년 동안 살아 왔어요.", "이 동네에서 10년 동안 살아 왔어요.", "십 년 동안 이 동네에 살아 왔어요.", "10년 동안 이 동네에 살아 왔어요.", "십 년 동안 이 동네에서 살았어요.", "10년 동안 이 동네에서 살았어요.", "이 동네에서 십 년 동안 살았어요.", "이 동네에서 10년 동안 살았어요."],
             explanation: "Years take Sino-Korean numbers: 십 년. 살아 왔어요 stresses that the ten years run up to today.",
           },
           {
@@ -1024,7 +1024,7 @@ export const KO_A2_U21: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "Until now I've studied Korean on my own.",
         answer: "지금까지 혼자 한국어를 공부해 왔어요.",
-        altAnswers: ["지금까지 혼자서 한국어를 공부해 왔어요.", "지금까지 한국어를 혼자 공부해 왔어요.", "지금까지 혼자 한국어를 공부했어요.", "지금까지 혼자서 한국어를 공부했어요.", "지금까지 한국어를 혼자 공부했어요."],
+        altAnswers: ["저는 지금까지 혼자 한국어를 공부해 왔어요.", "지금까지 혼자서 한국어를 공부해 왔어요.", "지금까지 한국어를 혼자 공부해 왔어요.", "지금까지 혼자 한국어를 공부했어요.", "지금까지 혼자서 한국어를 공부했어요.", "지금까지 한국어를 혼자 공부했어요."],
         explanation: "공부해 왔어요 links the past to now; 혼자 or 혼자서 is 'on my own'.",
       },
       {
@@ -1272,7 +1272,7 @@ export const KO_A2_U21: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I got a job at this company.",
         answer: "이 회사에 취직하게 됐어요.",
-        altAnswers: ["이 회사에서 일하게 됐어요.", "이 회사에 취직했어요.", "이 회사에 들어가게 됐어요.", "이 회사에 취직하게 되었어요."],
+        altAnswers: ["저는 이 회사에 취직하게 됐어요.", "이 회사에서 일하게 됐어요.", "이 회사에 취직했어요.", "이 회사에 들어가게 됐어요.", "이 회사에 취직하게 되었어요."],
         explanation: "취직하다 'to get a job' + 게 됐어요 announces it modestly.",
       },
       {
@@ -1462,7 +1462,7 @@ export const KO_A2_U21: Lesson[] = [
       {
         heading: "빨리 vs 빠르게",
         body: [
-          "빨리 is the everyday 'quickly, soon, hurry': 빨리 오세요, 빨리 먹었어요. 빠르게 'at a fast rate' describes the speed of a process or a change and sounds more written: 시간이 빠르게 지나가요, 서울이 빠르게 변하고 있어요. In requests and commands, use 빨리; *빠르게 오세요 sounds odd.",
+          "빨리 is the everyday 'quickly, soon, hurry': 빨리 오세요, 빨리 먹었어요. 빠르게 'at a fast rate' describes the speed of a process or a change and sounds more written: 시간이 빠르게 지나가요, 서울이 빠르게 변하고 있어요. In requests and commands, use 빨리; 빠르게 오세요 sounds odd.",
         ],
         examples: [
           { es: "빨리 와!", en: "Come quick!" },
@@ -1563,7 +1563,7 @@ export const KO_A2_U21: Lesson[] = [
         prompt: "Translate into Korean (to a friend).",
         source: "Come quick!",
         answer: "빨리 와!",
-        altAnswers: ["빨리 와 줘!", "빨리 오세요!"],
+        altAnswers: ["빨리 와 줘!"],
         explanation: "Commands take 빨리; 와 is the 반말 form of 오다.",
       },
       {
@@ -2188,7 +2188,7 @@ export const KO_A2_U21: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I've studied Korean for two years.",
         answer: "이 년 동안 한국어를 공부해 왔어요.",
-        altAnswers: ["2년 동안 한국어를 공부해 왔어요.", "한국어를 이 년 동안 공부해 왔어요.", "한국어를 2년 동안 공부해 왔어요.", "이 년 동안 한국어를 공부했어요.", "2년 동안 한국어를 공부했어요.", "한국어를 공부한 지 이 년 됐어요.", "한국어를 공부한 지 2년 됐어요.", "한국어를 공부한 지 이 년이 됐어요.", "한국어를 공부한 지 2년이 됐어요."],
+        altAnswers: ["저는 이 년 동안 한국어를 공부해 왔어요.", "2년 동안 한국어를 공부해 왔어요.", "한국어를 이 년 동안 공부해 왔어요.", "한국어를 2년 동안 공부해 왔어요.", "이 년 동안 한국어를 공부했어요.", "2년 동안 한국어를 공부했어요.", "한국어를 공부한 지 이 년 됐어요.", "한국어를 공부한 지 2년 됐어요.", "한국어를 공부한 지 이 년이 됐어요.", "한국어를 공부한 지 2년이 됐어요."],
         explanation: "공부해 왔어요 runs from the past up to now; years use Sino-Korean 이 년.",
       },
       {
@@ -2221,6 +2221,6 @@ export const KO_A2_U21_WRITING: WriteExercise = {
     "Says what someone became or wants to become with noun + 이 / 가 되다 (회사원이 됐어요, 선생님이 되고 싶어요), with 이 / 가 and 돼 / 되 spelled correctly",
     "Uses at least one -게 adverb or set adverb for how something is done (재미있게, 쉽게, 일찍, 천천히), plus 점점, 요즘 or 갑자기",
   ],
-  modelAnswer: "오 년 전에 저는 대학생이었어요. 그때 한국 드라마를 보고 한국어를 배우게 됐어요. 그리고 작년에 회사 일 때문에 서울에 살게 됐어요. 요즘 한국어가 점점 쉬워졌어요. 한국 친구도 많아졌어요. 하지만 일이 많아서 많이 바빠졌어요. 지금은 회사원이 됐어요. 나중에 한국어 선생님이 되고 싶어요. 요즘은 아침에 일찍 일어나서 한국 뉴스를 천천히 읽어요. 매일 재미있게 공부하고 있어요.",
+  modelAnswer: "오 년 전에 저는 대학생이었어요. 그때 한국 드라마를 보고 한국어를 배우게 됐어요. 그리고 작년에 회사 일 때문에 서울에 살게 됐어요. 요즘 한국어가 점점 쉬워지고 있어요. 한국 친구도 많아졌어요. 하지만 일이 많아서 많이 바빠졌어요. 지금은 회사원이 됐어요. 나중에 한국어 선생님이 되고 싶어요. 요즘은 아침에 일찍 일어나서 한국 뉴스를 천천히 읽어요. 매일 재미있게 공부하고 있어요.",
   explanation: "쉬워졌어요, 많아졌어요 and 바빠졌어요 describe changes; 배우게 됐어요 and 살게 됐어요 tell how things came about; 회사원이 됐어요 and 선생님이 되고 싶어요 take 이 before 되다; 일찍, 천천히 and 재미있게 say how.",
 };

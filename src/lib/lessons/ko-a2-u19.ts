@@ -903,7 +903,7 @@ export const KO_A2_U19: Lesson[] = [
             prompt: "Translate into Korean (formal, at work).",
             source: "I'll do it.",
             answer: "제가 하겠습니다.",
-            altAnswers: ["제가 해 보겠습니다."],
+            altAnswers: ["하겠습니다.", "제가 해 보겠습니다."],
             explanation: "제가 + -겠습니다 with an action verb is intention, the formal 'I'll do it'.",
           },
         ],
@@ -1058,7 +1058,7 @@ export const KO_A2_U19: Lesson[] = [
       {
         heading: "아마 ... -(으)ㄹ 거예요: probably",
         body: [
-          "The A1 future -(으)ㄹ 거예요 is also a guess about someone else: 아마 늦을 거예요 'He'll probably be late', 아마 집에 있을 거예요 'She's probably at home'. 아마 'probably' flags the guess, and it needs a guessing ending: *아마 늦어요 states a fact and adds a stray 'probably'.",
+          "The A1 future -(으)ㄹ 거예요 is also a guess about someone else: 아마 늦을 거예요 'He'll probably be late', 아마 집에 있을 거예요 'She's probably at home'. 아마 'probably' flags the guess, and it wants a guessing ending: 아마 늦어요 sounds less natural, a plain fact with a stray 'probably'.",
           "For a guess about the past, put -았 / 었- in front: 지금쯤 도착했을 거예요 'He'll have arrived by now'. 아마 also goes with 것 같아요. -(으)ㄹ 거예요 sounds a little surer, a prediction from what you know; 것 같아요 sounds more like an impression.",
         ],
         examples: [
@@ -1114,9 +1114,9 @@ export const KO_A2_U19: Lesson[] = [
           {
             type: "multiple-choice",
             question: "How do you say 'She's probably at home'?",
-            options: ["아마 집에 있을 거예요.", "혹시 집에 있어요.", "아마 집에 있어요.", "혹시 집에 있을 거예요."],
+            options: ["아마 집에 있을 거예요.", "혹시 집에 있어요.", "아마 집에 있었어요.", "혹시 집에 있을 거예요."],
             correctIndex: 0,
-            explanation: "'Probably' is 아마, with a guessing ending. 혹시 belongs in questions and if-clauses.",
+            explanation: "'Probably' is 아마, with a guessing ending. 혹시 belongs in questions and if-clauses, and 있었어요 is about the past.",
           },
         ],
       },
@@ -1179,9 +1179,9 @@ export const KO_A2_U19: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Someone asks if Minsu is coming to the party. You think so, but you aren't sure. What do you say?",
-        options: ["아마 올 거예요.", "아마 와요.", "혹시 올 거예요.", "아마 왔어요."],
+        options: ["아마 올 거예요.", "아마 올까요?", "혹시 올 거예요.", "아마 왔어요."],
         correctIndex: 0,
-        explanation: "아마 + -(으)ㄹ 거예요. 아마 와요 states a fact with a 'probably' that doesn't fit.",
+        explanation: "아마 + -(으)ㄹ 거예요. 올까요? asks instead of answering, 혹시 doesn't go in statements, and 왔어요 is the past.",
       },
       {
         type: "listen-choose",
@@ -1784,7 +1784,7 @@ export const KO_A2_U19: Lesson[] = [
             prompt: "A learner wrote *피곤하는 것 같아요. Write it correctly: I think I'm a bit tired today.",
             source: "I think I'm a bit tired today.",
             answer: "오늘 좀 피곤한 것 같아요.",
-            altAnswers: ["오늘 조금 피곤한 것 같아요.", "오늘은 좀 피곤한 것 같아요.", "좀 피곤한 것 같아요.", "저 오늘 좀 피곤한 것 같아요.", "오늘 좀 피곤한 거 같아요.", "오늘 조금 피곤한 거 같아요.", "오늘은 좀 피곤한 거 같아요.", "좀 피곤한 거 같아요.", "저 오늘 좀 피곤한 거 같아요."],
+            altAnswers: ["오늘 조금 피곤한 것 같아요.", "오늘은 좀 피곤한 것 같아요.", "좀 피곤한 것 같아요.", "저 오늘 좀 피곤한 것 같아요.", "저는 오늘 좀 피곤한 것 같아요.", "제가 오늘 좀 피곤한 것 같아요.", "오늘 좀 피곤한 거 같아요.", "오늘 조금 피곤한 거 같아요.", "오늘은 좀 피곤한 거 같아요.", "좀 피곤한 거 같아요.", "저 오늘 좀 피곤한 거 같아요."],
             explanation: "피곤하다 is an adjective: present modifier -(으)ㄴ, 피곤한.",
           },
           {
@@ -1810,11 +1810,11 @@ export const KO_A2_U19: Lesson[] = [
       {
         heading: "Verbs with 보이다, and double hedges",
         body: [
-          "*먹어 보여요: -아 / 어 보이다 only takes adjectives. To guess what someone is doing, use 것 같아요: 맛있게 먹는 것 같아요. *맛있어 보이는 것 같아요 stacks two hedges, 'it seems that it looks tasty'; one is enough: 맛있어 보여요 or 맛있는 것 같아요.",
+          "*먹어 보여요: -아 / 어 보이다 only takes adjectives. To guess what someone is doing, use 것 같아요: 맛있게 먹는 것 같아요. 맛있어 보이는 것 같아요 isn't wrong, but it stacks two hedges, 'it seems that it looks tasty', and sounds less natural; one is enough: 맛있어 보여요 or 맛있는 것 같아요.",
         ],
         examples: [
           { es: "민수 씨가 맛있게 먹는 것 같아요.", en: "Minsu seems to be enjoying his food. (not *먹어 보여요)" },
-          { es: "이 케이크 맛있어 보여요.", en: "This cake looks delicious. (not *맛있어 보이는 것 같아요)" },
+          { es: "이 케이크 맛있어 보여요.", en: "This cake looks delicious. (more natural than 맛있어 보이는 것 같아요)" },
           { es: "피곤해 보여요.", en: "You look tired." },
         ],
         checkpoint: [
@@ -1830,7 +1830,7 @@ export const KO_A2_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote *맛있어 보이는 것 같아요. Write it correctly: This cake looks delicious.",
+            prompt: "A learner wrote 맛있어 보이는 것 같아요 (a double hedge). Write it more naturally: This cake looks delicious.",
             source: "This cake looks delicious.",
             answer: "이 케이크 맛있어 보여요.",
             altAnswers: ["이 케이크는 맛있어 보여요.", "이 케이크가 맛있어 보여요.", "이 케이크 맛있겠어요.", "이 케이크는 맛있겠어요.", "이 케이크 맛있어 보이네요."],
@@ -1841,17 +1841,17 @@ export const KO_A2_U19: Lesson[] = [
       {
         heading: "아마 with a fact ending",
         body: [
-          "*아마 늦어요 puts 'probably' on a plain statement. 아마 needs a guessing ending: 아마 늦을 거예요 or 아마 늦을 것 같아요. And 혹시 is not 'maybe' in a statement: it belongs in questions and if-clauses.",
+          "아마 늦어요 puts 'probably' on a plain statement and sounds less natural. 아마 wants a guessing ending: 아마 늦을 거예요 or 아마 늦을 것 같아요. And 혹시 is not 'maybe' in a statement: it belongs in questions and if-clauses.",
         ],
         examples: [
-          { es: "민수 씨는 아마 늦을 거예요.", en: "Minsu will probably be late. (not *아마 늦어요)" },
+          { es: "민수 씨는 아마 늦을 거예요.", en: "Minsu will probably be late. (more natural than 아마 늦어요)" },
           { es: "혹시 늦으면 전화 주세요.", en: "If by any chance you're late, give me a call." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote *아마 늦어요. Write it correctly: Minsu will probably be late.",
+            prompt: "A learner wrote 아마 늦어요. Write it more naturally: Minsu will probably be late.",
             source: "Minsu will probably be late.",
             answer: "민수 씨는 아마 늦을 거예요.",
             altAnswers: ["아마 민수 씨는 늦을 거예요.", "민수 씨가 아마 늦을 거예요.", "민수 씨는 아마 늦을 것 같아요.", "아마 민수 씨가 늦을 거예요.", "민수 씨는 아마 늦을 거 같아요."],
@@ -1922,7 +1922,7 @@ export const KO_A2_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *아마 집에 있어요. Write it correctly: She's probably at home.",
+        prompt: "A learner wrote 아마 집에 있어요. Write it more naturally, as a guess: She's probably at home.",
         source: "She's probably at home.",
         answer: "아마 집에 있을 거예요.",
         altAnswers: ["아마 집에 있을 것 같아요.", "아마 집에 계실 거예요.", "아마 집에 있을 거 같아요."],
@@ -1939,7 +1939,7 @@ export const KO_A2_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "On the phone, a learner wrote *목소리가 아파 보여요. Write it correctly: You sound sick.",
+        prompt: "On the phone, a learner said 아파 보여요, which is wrong for the situation (you can't see her). Write it correctly: You sound sick.",
         source: "You sound sick.",
         answer: "목소리가 아픈 것 같아요.",
         altAnswers: ["아픈 것 같아요.", "아프신 것 같아요.", "목소리가 아프신 것 같아요.", "목소리가 아픈 거 같아요.", "아픈 거 같아요.", "아프신 거 같아요.", "목소리가 아프신 거 같아요."],

@@ -508,7 +508,7 @@ export const KO_A2_U09_EXTRA: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I walked to school.",
         answer: "학교까지 걸어갔어요.",
-        altAnswers: ["학교까지 걸어서 갔어요.", "학교에 걸어서 갔어요.", "학교에 걸어갔어요."],
+        altAnswers: ["학교까지 걸어서 갔어요.", "학교에 걸어서 갔어요.", "학교에 걸어갔어요.", "저는 학교까지 걸어갔어요."],
         explanation: "걷 + 어 → 걸어: ㄷ becomes ㄹ before a vowel.",
       },
       {
@@ -553,7 +553,7 @@ export const KO_A2_U09_EXTRA: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I'm busy, so I'll go tomorrow.",
         answer: "바빠서 내일 갈 거예요.",
-        altAnswers: ["바쁘니까 내일 갈 거예요.", "바빠서 내일 가요.", "바쁘니까 내일 가요.", "오늘은 바빠서 내일 갈 거예요."],
+        altAnswers: ["바쁘니까 내일 갈 거예요.", "바빠서 내일 가요.", "바쁘니까 내일 가요.", "오늘은 바빠서 내일 갈 거예요.", "저는 바빠서 내일 갈 거예요."],
         explanation: "바쁘 + 아서 → 바빠서, or 바쁘니까 with no change.",
       },
       {
@@ -580,7 +580,7 @@ export const KO_A2_U09_EXTRA: Lesson[] = [
         en: "Please [help] me.",
         sentence: "저 좀 ___.",
         answer: "도와주세요",
-                explanation: "돕다 → 도와: ㅂ becomes 오 here, one of two exceptions with 곱다.",
+        explanation: "돕다 → 도와: ㅂ becomes 오 here, one of two exceptions with 곱다.",
       },
       {
         type: "matching",

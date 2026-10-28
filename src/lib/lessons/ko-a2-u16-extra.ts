@@ -246,10 +246,10 @@ export const KO_A2_U16_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "At a hospital desk, a nurse asks an elderly patient's age. What does she say?",
+        question: "At a hospital desk, a nurse asks an elderly patient's age. What is the respectful way to ask?",
         options: ["연세가 어떻게 되세요?", "나이가 몇 살이세요?", "연세가 몇 살이에요?", "나이가 어떻게 돼요?"],
         correctIndex: 0,
-        explanation: "연세 for an elder's age, and the polite question 어떻게 되세요?",
+        explanation: "연세 for an elder's age, and the polite question 어떻게 되세요?. 나이가 몇 살이세요? sounds blunt to an elder, and 연세 doesn't combine with 몇 살.",
       },
       {
         type: "translate",

@@ -32,8 +32,8 @@ export const KO_CULTURE_U01_EXTRA: Lesson[] = [
             prompt: "Translate into Korean (formal). To your professor:",
             source: "Professor, I have a question.",
             answer: "교수님, 질문이 있습니다.",
-            altAnswers: ["교수님, 질문 있습니다.", "교수님, 질문이 있어요.", "교수님, 질문 있어요.", "교수님, 여쭤볼 것이 있습니다.", "교수님, 여쭤볼 게 있습니다."],
-            explanation: "Professors are 교수님. Students often switch to 합니다 with them.",
+            altAnswers: ["교수님, 질문 있습니다.", "교수님, 여쭤볼 것이 있습니다.", "교수님, 여쭤볼 게 있습니다."],
+            explanation: "Professors are 교수님. Students often switch to 합니다 with them, so (formal) means 있습니다 rather than 있어요.",
           },
           {
             type: "multiple-choice",
@@ -61,7 +61,7 @@ export const KO_CULTURE_U01_EXTRA: Lesson[] = [
             prompt: "Translate into Korean (polite). You meet your friend 지은's mother:",
             source: "Hello. I'm Jieun's friend.",
             answer: "어머님, 안녕하세요. 저는 지은 씨 친구예요.",
-            altAnswers: ["안녕하세요. 저는 지은 씨 친구예요.", "어머님, 안녕하세요. 지은 씨 친구예요.", "안녕하세요. 지은 씨 친구예요.", "어머님, 안녕하세요. 저는 지은이 친구예요.", "안녕하세요. 저는 지은이 친구예요.", "안녕하세요, 어머님. 저는 지은 씨 친구예요.", "안녕하세요. 저는 지은 씨 친구입니다.", "어머님, 안녕하세요. 저는 지은 씨 친구입니다."],
+            altAnswers: ["안녕하세요. 저는 지은 씨 친구예요.", "어머님, 안녕하세요. 지은 씨 친구예요.", "안녕하세요. 지은 씨 친구예요.", "어머님, 안녕하세요. 저는 지은이 친구예요.", "안녕하세요. 저는 지은이 친구예요.", "안녕하세요, 어머님. 저는 지은 씨 친구예요.", "안녕하세요. 저는 지은 씨 친구입니다.", "어머님, 안녕하세요. 저는 지은 씨 친구입니다.", "어머님, 안녕하세요. 저는 지은 친구예요.", "안녕하세요. 저는 지은 친구예요."],
             explanation: "A friend's mother is 어머님. Talking to her, her daughter can be 지은 씨 or, if you're close friends, 지은이.",
           },
           {
@@ -218,7 +218,7 @@ export const KO_CULTURE_U01_EXTRA: Lesson[] = [
       {
         heading: "Three levels, three kinds of moment",
         body: [
-          "합니다 is for formal moments: a job interview, a presentation, reporting to a boss in a meeting, announcements. 해요 is the everyday polite level: older people, colleagues, staff, and anyone you haven't agreed to switch with. 반말 is for close friends your age, younger friends who've agreed, children and family members younger than you. When in doubt, 해요 is never wrong.",
+          "합니다 is for formal moments: a job interview, a presentation, reporting to a boss in a meeting, announcements. 해요 is the everyday polite level: older people, colleagues, staff, and anyone you haven't agreed to switch with. 반말 is for close friends your age, younger friends who've agreed, children and family members younger than you. When in doubt, 해요 is rarely wrong.",
           "The same person can get different levels on different days: your team leader hears 합니다 in a meeting and 해요 over lunch.",
         ],
         examples: [
@@ -234,7 +234,7 @@ export const KO_CULTURE_U01_EXTRA: Lesson[] = [
             prompt: "Translate into Korean (formal, in a meeting with your boss).",
             source: "I'll prepare the meeting materials.",
             answer: "회의 자료는 제가 준비하겠습니다.",
-            altAnswers: ["회의 자료는 제가 준비할게요.", "제가 회의 자료를 준비하겠습니다.", "회의 자료는 제가 준비하도록 하겠습니다.", "제가 회의 자료 준비하겠습니다."],
+            altAnswers: ["제가 회의 자료를 준비하겠습니다.", "회의 자료는 제가 준비하도록 하겠습니다.", "제가 회의 자료 준비하겠습니다."],
             explanation: "-겠습니다 is the formal 'I will' that suits a meeting; 제가 is the humble 'I'.",
           },
           {

@@ -311,7 +311,8 @@ function build(word: KoWord, irr: IrrClass): Forms {
   set("neunde", [verbLike ? attachN(stem, irr, "는데") : eu("ㄴ데")]);
   set("myeonseo", [eu("면서")]);
   if (verb) {
-    set("reo", [eu("러")]);
+    // -(으)러 names a purpose you go somewhere for: not with involuntary verbs (*끝나러, *모르러).
+    if (!word.noCommand) set("reo", [eu("러")]);
     set("ryeogo", [eu("려고")]);
   }
 
@@ -335,7 +336,7 @@ function build(word: KoWord, irr: IrrClass): Forms {
   if (verb || exist) set("can", [eu("ㄹ") + " 수 있어요"]);
   set("must", [...A.map((x) => x + "야 해요"), ...A.map((x) => x + "야 돼요")]);
   set("seems", [eu("ㄹ") + " 것 같아요"]);
-  if (word.pos === "adj" && !DEMONSTRATIVES.includes(word.dict)) set("become", A.map((x) => x + "져요"));
+  if (word.pos === "adj" && !word.honSelf && !DEMONSTRATIVES.includes(word.dict)) set("become", A.map((x) => x + "져요"));
 
   // Requests and commands.
   if (doing || (exist && word.hon && !word.hon.neg)) {

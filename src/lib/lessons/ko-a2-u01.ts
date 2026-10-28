@@ -378,7 +378,7 @@ export const KO_A2_U01: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order to say: The plane has just arrived in Jeju.",
         words: ["비행기가", "방금", "제주에", "도착했습니다."],
-        altOrders: [["방금", "비행기가", "제주에", "도착했습니다."]],
+        altOrders: [["방금", "비행기가", "제주에", "도착했습니다."], ["비행기가", "제주에", "방금", "도착했습니다."]],
         translation: "The plane has just arrived in Jeju.",
         explanation: "도착했습니다 is the formal past, and the verb stays last.",
       },
@@ -1090,7 +1090,7 @@ export const KO_A2_U01: Lesson[] = [
         type: "dictation",
         audio: "다음 역은 강남역입니다.",
         answer: "다음 역은 강남역입니다.",
-        explanation: "Said [강남여김니다]: ㄱ links to 입, and ㅂ becomes [ㅁ] before ㄴ.",
+        explanation: "Said [강남녀김니다]: station names add an [ㄴ] before 역 (강남역 [강남녁]), ㄱ links to 입, and ㅂ becomes [ㅁ] before ㄴ.",
       },
       {
         type: "dictation",
@@ -1184,7 +1184,7 @@ export const KO_A2_U01: Lesson[] = [
       {
         type: "speak",
         text: "이번 역은 시청역입니다.",
-        tip: "시청역입니다 is [시청여김니다].",
+        tip: "시청역입니다 is [시청녀김니다]: an [ㄴ] slips in before 역.",
         explanation: "The station name, then 입니다.",
       },
     ],

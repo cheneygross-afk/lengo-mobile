@@ -16,7 +16,7 @@ export const LEVEL_NAMES: Record<LevelCode, string> = {
   A1: "Beginner",
   A2: "Elementary",
   B1: "Intermediate",
-  B2: "Upper-intermediate",
+  B2: "Upper Intermediate",
   C1: "Advanced",
   C2: "Mastery",
 };

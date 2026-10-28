@@ -7,15 +7,15 @@
 import type { KoRoot } from "./types";
 
 export const KO_ROOTS_A1: KoRoot[] = [
-  {"h": "一", "r": "일", "m": "one", "words": [{"ko": "일월", "en": "January"}, {"ko": "일요일", "en": "Sunday"}, {"ko": "일주일", "en": "a week"}, {"ko": "제일", "en": "the most, number one"}, {"ko": "통일", "en": "unification"}, {"ko": "일등", "en": "first place"}]},
+  {"h": "一", "r": "일", "m": "one", "words": [{"ko": "일월", "en": "January"}, {"ko": "일층", "en": "the first floor"}, {"ko": "일주일", "en": "a week"}, {"ko": "제일", "en": "the most, number one"}, {"ko": "통일", "en": "unification"}, {"ko": "일등", "en": "first place"}]},
   {"h": "二", "r": "이", "m": "two", "words": [{"ko": "이월", "en": "February"}, {"ko": "이십", "en": "twenty"}, {"ko": "이중", "en": "double"}]},
   {"h": "三", "r": "삼", "m": "three", "words": [{"ko": "삼월", "en": "March"}, {"ko": "삼십", "en": "thirty"}, {"ko": "삼일절", "en": "Independence Movement Day"}]},
   {"h": "四", "r": "사", "m": "four", "words": [{"ko": "사월", "en": "April"}, {"ko": "사십", "en": "forty"}, {"ko": "사계절", "en": "the four seasons"}, {"ko": "사거리", "en": "crossroads"}]},
   {"h": "五", "r": "오", "m": "five", "words": [{"ko": "오월", "en": "May"}, {"ko": "오십", "en": "fifty"}, {"ko": "오백", "en": "five hundred"}, {"ko": "오천", "en": "five thousand"}, {"ko": "오만", "en": "fifty thousand"}]},
   {"h": "十", "r": "십", "forms": ["시"], "m": "ten", "words": [{"ko": "시월", "en": "October"}, {"ko": "십이월", "en": "December"}, {"ko": "수십", "en": "dozens"}, {"ko": "십대", "en": "teens"}], "note": "In 시월 (October) the ㅂ of 십 drops out of the spelling."},
-  {"h": "百", "r": "백", "m": "hundred", "words": [{"ko": "백화점", "en": "department store"}, {"ko": "백만", "en": "a million"}, {"ko": "수백", "en": "hundreds"}, {"ko": "백년", "en": "a hundred years"}]},
-  {"h": "千", "r": "천", "m": "thousand", "words": [{"ko": "천만", "en": "ten million"}, {"ko": "수천", "en": "thousands"}, {"ko": "천원", "en": "a thousand won"}]},
-  {"h": "萬", "r": "만", "m": "ten thousand; all", "words": [{"ko": "만원", "en": "ten thousand won"}, {"ko": "만일", "en": "if, in case"}, {"ko": "만약", "en": "if, supposing"}, {"ko": "만세", "en": "hurray, long live"}, {"ko": "수만", "en": "tens of thousands"}]},
+  {"h": "百", "r": "백", "m": "hundred", "words": [{"ko": "백화점", "en": "department store"}, {"ko": "백만", "en": "a million"}, {"ko": "수백", "en": "hundreds"}, {"ko": "백 년", "en": "a hundred years"}]},
+  {"h": "千", "r": "천", "m": "thousand", "words": [{"ko": "천만", "en": "ten million"}, {"ko": "수천", "en": "thousands"}, {"ko": "천 원", "en": "a thousand won"}]},
+  {"h": "萬", "r": "만", "m": "ten thousand; all", "words": [{"ko": "만 원", "en": "ten thousand won"}, {"ko": "만일", "en": "if, in case"}, {"ko": "만약", "en": "if, supposing"}, {"ko": "만세", "en": "hurray, long live"}, {"ko": "수만", "en": "tens of thousands"}]},
   {"h": "年", "r": "년", "m": "year", "words": [{"ko": "작년", "en": "last year"}, {"ko": "내년", "en": "next year"}, {"ko": "매년", "en": "every year"}, {"ko": "연말", "en": "end of the year"}, {"ko": "연세", "en": "age (honorific)"}, {"ko": "청소년", "en": "teenager"}], "initial": "연"},
   {"h": "月", "r": "월", "m": "month; moon", "words": [{"ko": "월요일", "en": "Monday"}, {"ko": "매월", "en": "every month"}, {"ko": "월급", "en": "monthly salary"}, {"ko": "월세", "en": "monthly rent"}, {"ko": "개월", "en": "months (counter)"}]},
   {"h": "日", "r": "일", "m": "day; sun", "words": [{"ko": "일요일", "en": "Sunday"}, {"ko": "생일", "en": "birthday"}, {"ko": "매일", "en": "every day"}, {"ko": "내일", "en": "tomorrow"}, {"ko": "휴일", "en": "day off"}, {"ko": "평일", "en": "weekday"}]},

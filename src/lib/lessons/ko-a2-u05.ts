@@ -118,7 +118,7 @@ export const KO_A2_U05: Lesson[] = [
             prompt: "Your friend is waiting at the café. Text her: I'm on my way (already moving).",
             source: "I'm on my way.",
             answer: "지금 가고 있어요.",
-            altAnswers: ["가고 있어요.", "지금 가고 있어."],
+            altAnswers: ["가고 있어요.", "지금 가고 있어.", "가고 있어."],
             explanation: "가고 있어요 stresses that you're already travelling. 지금 가요 can also mean you're only just leaving.",
           },
         ],
@@ -654,7 +654,7 @@ export const KO_A2_U05: Lesson[] = [
             prompt: "Translate into Korean.",
             source: "I watch TV while eating.",
             answer: "밥을 먹으면서 TV를 봐요.",
-            altAnswers: ["저는 밥을 먹으면서 TV를 봐요.", "밥 먹으면서 TV 봐요.", "밥을 먹으면서 텔레비전을 봐요.", "먹으면서 TV를 봐요."],
+            altAnswers: ["저는 밥을 먹으면서 TV를 봐요.", "밥 먹으면서 TV 봐요.", "밥을 먹으면서 텔레비전을 봐요.", "먹으면서 TV를 봐요.", "밥 먹으면서 TV를 봐요.", "밥을 먹으면서 TV 봐요."],
             explanation: "먹 ends in a consonant, so 먹으면서. The main action, 봐요, comes last and carries the ending.",
           },
           {
@@ -737,9 +737,9 @@ export const KO_A2_U05: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence is correct Korean?",
-        options: ["저는 일하면서 공부해요.", "제가 일하면서 동생이 공부해요.", "저는 일했으면서 공부했어요.", "저는 일하면서요 공부해요."],
+        options: ["저는 일하면서 공부해요.", "제가 일하면서 동생이 공부해요.", "저는 일해면서 공부해요.", "저는 일하면서요 공부해요."],
         correctIndex: 0,
-        explanation: "One subject, no tense or 요 on the 면서 verb. Two different people can't share 면서.",
+        explanation: "One subject, no 요 on the 면서 verb, and 면서 joins the bare stem (일하면서, not 일해면서). Two different people can't share 면서.",
       },
       {
         type: "translate",
@@ -809,7 +809,7 @@ export const KO_A2_U05: Lesson[] = [
         heading: "From always to never",
         body: [
           "The frequency words, from most to least: 항상 or 늘 'always', 자주 'often', 보통 'usually', 가끔 'sometimes', 거의 안 'hardly ever', 전혀 안 'never, not at all'. They usually go just before the verb phrase: 저는 아침에 보통 빵을 먹어요.",
-          "전혀 always needs a negative verb: 고기를 전혀 안 먹어요, 운전을 전혀 못 해요. *전혀 먹어요 sounds broken, like 별로 without 안. 거의 means 'almost', so 'hardly ever' is 거의 안: 술을 거의 안 마셔요. Without 안 it means 'almost': 거의 매일 'almost every day'.",
+          "전혀 needs a negative: 안, 못 or a negative word like 없다, 모르다: 고기를 전혀 안 먹어요, 운전을 전혀 못 해요. *전혀 먹어요 sounds broken, like 별로 without 안. 거의 means 'almost', so 'hardly ever' is 거의 안: 술을 거의 안 마셔요. Without 안 it means 'almost': 거의 매일 'almost every day'.",
           "Where English puts 'always' or 'often' mid-sentence, Korean keeps the time and topic first and the frequency word close to the verb: 주말에 자주 등산을 가요. To ask, 보통 works well in questions: 보통 몇 시에 자요? 'What time do you usually go to bed?'",
         ],
         examples: [
@@ -837,7 +837,7 @@ export const KO_A2_U05: Lesson[] = [
             question: "Which sentence says 'I don't eat meat at all'?",
             options: ["고기를 전혀 안 먹어요.", "고기를 전혀 먹어요.", "고기를 가끔 안 먹어요.", "고기를 항상 먹어요."],
             correctIndex: 0,
-            explanation: "전혀 always comes with a negative: 전혀 안 먹어요. 가끔 안 먹어요 would mean 'sometimes I skip it'.",
+            explanation: "전혀 needs a negative: 전혀 안 먹어요. 가끔 안 먹어요 would mean 'sometimes I skip it'.",
           },
           {
             type: "fill-blank",
@@ -854,7 +854,7 @@ export const KO_A2_U05: Lesson[] = [
         heading: "Counting times: 일주일에 두 번",
         body: [
           "For 'X times a day / week / month', put the period with 에 and count with native numbers and 번 'time': 하루에 세 번 'three times a day', 일주일에 두 번 'twice a week', 한 달에 한 번 'once a month', 일 년에 한 번 'once a year'.",
-          "To ask, say 얼마나 자주 ...? 'how often' or 일주일에 몇 번 ...? Words with 매 'every' take no 에: 매일, 매주, 매달, 매년. Don't add 마다 to them (*매일마다, Unit 4); 주말마다 and 날마다 are the 마다 versions.",
+          "To ask, say 얼마나 자주 ...? 'how often' or 일주일에 몇 번 ...? Words with 매 'every' take no 에: 매일, 매주, 매달, 매년. Adding 마다 to them (매일마다) is redundant (Unit 4); 주말마다 and 날마다 are the 마다 versions.",
         ],
         examples: [
           { es: "이 약은 하루에 세 번 드세요.", en: "Take this medicine three times a day." },
@@ -1772,7 +1772,7 @@ export const KO_A2_U05: Lesson[] = [
         heading: "Two subjects, missing negatives",
         body: [
           "*제가 운전하면서 친구가 전화했어요 → 면서 needs one subject for both verbs. Split it: 운전하고 있었어요. 그런데 친구가 전화했어요.",
-          "*고기를 전혀 먹어요 → 전혀 안 먹어요, and *술을 거의 마셔요 → 거의 안 마셔요: 전혀 always needs 안 or 못, and 거의 needs 안 to mean 'hardly ever'.",
+          "*고기를 전혀 먹어요 → 전혀 안 먹어요, and *술을 거의 마셔요 → 거의 안 마셔요: 전혀 needs a negative such as 안 or 못, and 거의 needs 안 to mean 'hardly ever'.",
         ],
         examples: [
           { es: "운전하고 있었어요. 그런데 친구가 전화했어요.", en: "I was driving. Then a friend called. (not *제가 운전하면서 친구가 전화했어요)" },

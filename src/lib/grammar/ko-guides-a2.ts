@@ -41,7 +41,7 @@ export const KO_A2_GUIDES: KoGrammarGuide[] = [
       {
         heading: `Commands, suggestions and -겠-`,
         body: [
-          `The formal command is -(으)십시오 (앉으십시오, 기다려 주십시오) and its negative -지 마십시오. The formal 'let's' is -(으)ㅂ시다 (갑시다, 시작합시다), used by a speaker to a group, by seniors to juniors or among equals; never say it to your boss, where 같이 가시죠 or 같이 가시겠어요? is the polite version.`,
+          `The formal command is -(으)십시오 (앉으십시오, 기다려 주십시오) and its negative -지 마십시오. The formal 'let's' is -(으)ㅂ시다 (갑시다, 시작합시다), used by a speaker to a group, by seniors to juniors or among equals; don't say it to your boss, where 같이 가시죠 or 같이 가시겠어요? is the polite version.`,
           `-겠- in the formal style shows the speaker's intention or a humble readiness: 제가 하겠습니다 (I'll do it), 내일 다시 오겠습니다 (I'll come back tomorrow). It also lives in set phrases you should learn whole: 알겠습니다 (understood), 모르겠습니다 (I'm not sure), 잘 먹겠습니다 (said before eating), 처음 뵙겠습니다.`,
         ],
         examples: [
@@ -410,7 +410,7 @@ export const KO_A2_GUIDES: KoGrammarGuide[] = [
       },
       {
         q: `Which one do I use in an essay?`,
-        a: `-기 때문에 and 때문이다 (…기 때문이다, 'it is because …') are the written workhorses. -(으)므로 is even more formal, taught at the Upper-intermediate level.`,
+        a: `-기 때문에 and 때문이다 (…기 때문이다, 'it is because …') are the written workhorses. -(으)므로 is even more formal, taught at the Upper Intermediate level.`,
       },
     ],
     related: ["linking-go-aseo-jiman", "attitude-endings", "nominalisers-gi-geot", "reasons-and-results"],
@@ -1331,7 +1331,7 @@ export const KO_A2_GUIDES: KoGrammarGuide[] = [
       {
         heading: `Building relative clauses`,
         body: [
-          `Any clause can go before a noun: 제가 어제 명동에서 산 가방 (the bag I bought in Myeongdong yesterday). Inside the clause, the subject takes 이 / 가, not 은 / 는: 친구가 추천한 식당 (the restaurant my friend recommended). The noun after the clause can be anything: a person, a place, a time (제가 태어난 해), or 것 (thing): 제가 좋아하는 것.`,
+          `Any clause can go before a noun: 제가 어제 명동에서 산 가방 (the bag I bought in Myeongdong yesterday). Inside the clause, the subject normally takes 이 / 가, not 은 / 는: 친구가 추천한 식당 (the restaurant my friend recommended). The noun after the clause can be anything: a person, a place, a time (제가 태어난 해), or 것 (thing): 제가 좋아하는 것.`,
           `Because Korean has no relative pronoun, the same kind of clause can relate to the noun in different ways: 제가 만난 사람 (the person I met: the noun is the object), 친구를 만난 카페 (the café where I met a friend: the noun is the place), 제가 사는 집 (the house I live in). Context and common sense decide.`,
         ],
         examples: [
@@ -1361,7 +1361,7 @@ export const KO_A2_GUIDES: KoGrammarGuide[] = [
       {
         wrong: "제가는 좋아하는 노래",
         right: "제가 좋아하는 노래",
-        why: `Inside a modifier clause, the subject takes 이 / 가, not 은 / 는 (and never both).`,
+        why: `Inside a modifier clause, the subject takes 이 / 가, and 가 and 는 never stack. (은 / 는 appears there only for a strong contrast.)`,
       },
       {
         wrong: "추운은 날씨",
@@ -1652,7 +1652,8 @@ export const KO_A2_GUIDES: KoGrammarGuide[] = [
       {
         wrong: "가장 제일 좋아요.",
         right: "제일 좋아요.",
-        why: `제일 and 가장 mean the same; use one.`,
+        why: `제일 and 가장 mean the same; using both is redundant.`,
+        register: true,
       },
     ],
     faqs: [
@@ -1747,7 +1748,7 @@ export const KO_A2_GUIDES: KoGrammarGuide[] = [
     faqs: [
       {
         q: `How do I say 'if I were you' or 'if I had known'?`,
-        a: `Unreal conditions use -다면 and -았더라면: 내가 너라면 (if I were you), 알았더라면 (if I had known). They are taught at the Intermediate and Upper-intermediate levels.`,
+        a: `Unreal conditions use -다면 and -았더라면: 내가 너라면 (if I were you), 알았더라면 (if I had known). They are taught at the Intermediate and Upper Intermediate levels.`,
       },
       {
         q: `Is -(으)면 the same as -(으)ㄹ 때?`,
@@ -1962,7 +1963,8 @@ export const KO_A2_GUIDES: KoGrammarGuide[] = [
       {
         wrong: "민수 씨가 할게요.",
         right: "민수 씨가 할 거예요.",
-        why: `-(으)ㄹ게요 is a promise by the speaker. For others, use -(으)ㄹ 거예요.`,
+        why: `-(으)ㄹ게요 is a promise by the speaker, so this sounds as if you were promising on Minsu's behalf. For what someone else will do, use -(으)ㄹ 거예요.`,
+        register: true,
       },
       {
         wrong: "펜 좀 빌리세요.",
@@ -2070,7 +2072,8 @@ export const KO_A2_GUIDES: KoGrammarGuide[] = [
       {
         wrong: "저는 학생이네요.",
         right: "저는 학생이에요.",
-        why: `-네요 expresses noticing something new. You don't discover that you're a student.`,
+        why: `-네요 expresses noticing something new. Unless you have just discovered it (on an old ID card, say), stating who you are takes the plain ending.`,
+        register: true,
       },
       {
         wrong: "부장님, 제가 말했잖아요.",
@@ -2208,7 +2211,7 @@ export const KO_A2_GUIDES: KoGrammarGuide[] = [
       },
       {
         q: `Are there other guessing forms?`,
-        a: `Yes: -나 보다 and -(으)ㄴ가 보다 (it seems, from evidence), -(으)ㄹ 텐데 (it must be, so ...) and -(으)ㄴ 모양이다 (apparently). They come at the Intermediate and Upper-intermediate levels.`,
+        a: `Yes: -나 보다 and -(으)ㄴ가 보다 (it seems, from evidence), -(으)ㄹ 텐데 (it must be, so ...) and -(으)ㄴ 모양이다 (apparently). They come at the Intermediate and Upper Intermediate levels.`,
       },
     ],
     related: ["noun-modifiers", "attitude-endings", "guessing-na-boda-tende"],
@@ -2289,7 +2292,8 @@ export const KO_A2_GUIDES: KoGrammarGuide[] = [
       {
         wrong: "책을 읽는 것 시작했어요.",
         right: "책을 읽기 시작했어요.",
-        why: `-기 시작하다 is the whole pattern: start doing.`,
+        why: `-기 시작하다 is the natural pattern for 'start doing'. 읽는 것(을) 시작했어요 is understood but sounds translated.`,
+        register: true,
       },
       {
         wrong: "운동하는 게를 좋아해요.",

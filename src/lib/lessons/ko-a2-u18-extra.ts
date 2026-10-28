@@ -123,9 +123,9 @@ export const KO_A2_U18_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Your friend shows you a photo of her new puppy, which you've never seen. What do you say?",
-        options: ["와, 너무 귀엽네요!", "와, 너무 귀엽잖아요!", "와, 너무 귀엽군요!", "와, 너무 귀엽거든요!"],
+        options: ["와, 너무 귀엽네요!", "와, 너무 귀엽잖아요!", "와, 너무 귀엽죠?", "와, 너무 귀엽거든요!"],
         correctIndex: 0,
-        explanation: "You see it yourself for the first time: -네요.",
+        explanation: "You see it yourself for the first time: -네요. -잖아요 and -죠? claim you knew already, and -거든요 explains something she didn't know.",
       },
       {
         type: "multiple-choice",

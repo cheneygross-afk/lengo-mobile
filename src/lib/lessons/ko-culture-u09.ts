@@ -1218,7 +1218,7 @@ export const KO_CULTURE_U09: Lesson[] = [
       {
         heading: "강원도: mountains and the East Sea",
         body: [
-          "East of Seoul, 강원도 is mountains and sea. It's famous for 감자 (potatoes): try 감자전, a crispy potato pancake. 설악산 is one of the best-loved national parks, at its busiest in October when the leaves turn (단풍). In winter, skiers head for the resorts around 평창, which hosted the 2018 Winter Olympics.",
+          "East of Seoul, 강원도 (officially 강원특별자치도 since 2023, but everyone still says 강원도) is mountains and sea. It's famous for 감자 (potatoes): try 감자전, a crispy potato pancake. 설악산 is one of the best-loved national parks, at its busiest in October when the leaves turn (단풍). In winter, skiers head for the resorts around 평창, which hosted the 2018 Winter Olympics.",
           "On the coast, 강릉 is known for its coffee street (강릉 커피 거리), a row of cafés facing the beach, and many people drive to the East Sea (동해) to watch the sunrise, 해돋이. Use -(으)면 for what you'd do there: 강릉에 가면 해돋이를 보고 싶어요.",
         ],
         examples: [
@@ -1485,7 +1485,7 @@ export const KO_CULTURE_U09: Lesson[] = [
         heading: "In 부산: a dialect answer",
         body: [
           "At 부산역 마크 wants to go to 자갈치 시장, a few subway stops away, and asks an older woman: 실례지만, 자갈치 시장에 어떻게 가요?. She answers in 부산 speech: 지하철 타믄 금방 간데이. 타믄 is 타면 'if you take', and -데이 ends a friendly casual statement (간다 + 이), so it means 지하철을 타면 금방 간다 'take the subway and you'll be there in no time'.",
-          "Then: 역은 저짝으로 쭉 가이소. 저짝 is 저쪽 'that way', and -이소 is the polite command -(으)세요, so this is 역은 저쪽으로 쭉 가세요 'for the station, go straight that way'. 마크 answers in plain standard Korean, 네, 감사합니다!, which is exactly right.",
+          "Then: 역은 저짝으로 쭉 가이소. 저짝 is 저쪽 'that way', and -이소 is the polite command -(으)세요, so this is 역은 저쪽으로 쭉 가세요 'for the station, go straight that way'. Older locals often mix a casual line with a polite one like this; it sounds warm, not rude. 마크 answers in plain standard Korean, 네, 감사합니다!, which is exactly right.",
         ],
         examples: [
           { es: "마크: 실례지만, 자갈치 시장에 어떻게 가요?", en: "Mark: Excuse me, how do I get to 자갈치 시장?" },

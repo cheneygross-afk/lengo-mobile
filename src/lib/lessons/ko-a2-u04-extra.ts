@@ -28,7 +28,7 @@ export const KO_A2_U04_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into Korean.",
+            prompt: "Translate into Korean (polite).",
             source: "There's nothing but milk in the fridge.",
             answer: "냉장고에 우유밖에 없어요.",
             altAnswers: ["냉장고에는 우유밖에 없어요.", "냉장고에 우유만 있어요."],
@@ -49,7 +49,7 @@ export const KO_A2_U04_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean.",
+        prompt: "Translate into Korean (polite).",
         source: "I only bought ramyeon.",
         answer: "라면만 샀어요.",
         altAnswers: ["저는 라면만 샀어요."],
@@ -58,7 +58,7 @@ export const KO_A2_U04_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean.",
+        prompt: "Translate into Korean (polite).",
         source: "Do you have juice or milk?",
         answer: "주스나 우유 있어요?",
         altAnswers: ["주스나 우유가 있어요?"],
@@ -67,7 +67,7 @@ export const KO_A2_U04_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean.",
+        prompt: "Translate into Korean (polite).",
         source: "I only have one umbrella.",
         answer: "우산이 하나밖에 없어요.",
         altAnswers: ["우산이 하나만 있어요.", "우산이 한 개밖에 없어요.", "우산이 한 개만 있어요.", "우산 하나밖에 없어요."],
@@ -76,7 +76,7 @@ export const KO_A2_U04_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean.",
+        prompt: "Translate into Korean (polite).",
         source: "I bought three umbrellas!",
         answer: "우산을 세 개나 샀어요.",
         altAnswers: ["저는 우산을 세 개나 샀어요."],
@@ -101,7 +101,7 @@ export const KO_A2_U04_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean.",
+        prompt: "Translate into Korean (polite).",
         source: "This coffee costs a whole eight thousand won.",
         answer: "이 커피가 팔천 원이나 해요.",
         altAnswers: ["이 커피는 팔천 원이나 해요."],
@@ -110,7 +110,7 @@ export const KO_A2_U04_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean.",
+        prompt: "Translate into Korean (polite).",
         source: "Only Junho bought a ticket.",
         answer: "준호 씨만 표를 샀어요.",
         altAnswers: ["준호 씨만 티켓을 샀어요."],
@@ -126,7 +126,7 @@ export const KO_A2_U04_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean.",
+        prompt: "Translate into Korean (polite).",
         source: "I only shop online.",
         answer: "인터넷에서만 쇼핑해요.",
         altAnswers: ["저는 인터넷에서만 쇼핑해요.", "온라인으로만 쇼핑해요.", "인터넷으로만 쇼핑해요.", "인터넷에서만 물건을 사요."],
@@ -142,7 +142,7 @@ export const KO_A2_U04_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean.",
+        prompt: "Translate into Korean (polite).",
         source: "Just a little, please.",
         answer: "조금만 주세요.",
         altAnswers: ["조금만 주시겠어요?", "조금만요."],
@@ -194,7 +194,7 @@ export const KO_A2_U04_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into Korean.",
+            prompt: "Translate into Korean (polite).",
             source: "I'm going to Jeju by plane.",
             answer: "제주도에 비행기로 가요.",
             altAnswers: ["비행기로 제주도에 가요.", "제주도에 비행기를 타고 가요.", "제주에 비행기로 가요.", "비행기 타고 제주도에 가요."],
@@ -216,7 +216,7 @@ export const KO_A2_U04_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean. (said by a man)",
+        prompt: "Translate into Korean (polite, said by a man).",
         source: "I gave my older sister flowers.",
         answer: "누나한테 꽃을 줬어요.",
         altAnswers: ["누나에게 꽃을 줬어요.", "누나한테 꽃 줬어요."],
@@ -225,7 +225,7 @@ export const KO_A2_U04_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean.",
+        prompt: "Translate into Korean (polite).",
         source: "I got a text from the bank.",
         answer: "은행에서 문자가 왔어요.",
         altAnswers: ["은행에서 문자 왔어요."],
@@ -234,7 +234,7 @@ export const KO_A2_U04_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean.",
+        prompt: "Translate into Korean (polite).",
         source: "I got a text from my older brother.",
         answer: "형한테서 문자가 왔어요.",
         altAnswers: ["오빠한테서 문자가 왔어요.", "형한테 문자가 왔어요.", "오빠한테 문자가 왔어요.", "형에게서 문자가 왔어요.", "오빠에게서 문자가 왔어요.", "형한테서 문자 왔어요.", "오빠한테서 문자 왔어요."],
@@ -261,7 +261,7 @@ export const KO_A2_U04_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean.",
+        prompt: "Translate into Korean (polite).",
         source: "I got money from my grandmother.",
         answer: "할머니께 용돈을 받았어요.",
         altAnswers: ["할머니한테서 용돈을 받았어요.", "할머니한테 용돈을 받았어요.", "할머니께 돈을 받았어요.", "할머니한테서 돈을 받았어요.", "할머니한테 돈을 받았어요.", "할머니에게서 돈을 받았어요.", "할머니에게서 용돈을 받았어요."],
@@ -270,7 +270,7 @@ export const KO_A2_U04_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean.",
+        prompt: "Translate into Korean (polite).",
         source: "Go up to the second floor.",
         answer: "2층으로 올라가세요.",
         altAnswers: ["2층으로 올라가 주세요."],
@@ -279,7 +279,7 @@ export const KO_A2_U04_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean.",
+        prompt: "Translate into Korean (polite).",
         source: "Please change it to a different color.",
         answer: "다른 색으로 바꿔 주세요.",
         altAnswers: ["다른 색깔로 바꿔 주세요."],
@@ -295,7 +295,7 @@ export const KO_A2_U04_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean.",
+        prompt: "Translate into Korean (polite).",
         source: "I wash it with cold water.",
         answer: "찬물로 씻어요.",
         altAnswers: ["차가운 물로 씻어요.", "찬물로 빨아요."],
@@ -312,7 +312,7 @@ export const KO_A2_U04_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean.",
+        prompt: "Translate into Korean (polite).",
         source: "This bus goes to Gangnam.",
         answer: "이 버스는 강남으로 가요.",
         altAnswers: ["이 버스는 강남에 가요.", "이 버스 강남으로 가요.", "이 버스는 강남까지 가요."],
@@ -365,7 +365,7 @@ export const KO_A2_U04_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into Korean.",
+            prompt: "Translate into Korean (polite).",
             source: "I like summer. I hate winter.",
             answer: "여름은 좋아해요. 겨울은 싫어해요.",
             altAnswers: ["여름은 좋아하는데 겨울은 싫어해요.", "여름은 좋아하지만 겨울은 싫어해요.", "저는 여름은 좋아해요. 겨울은 싫어해요.", "여름은 좋아해요. 겨울은 안 좋아해요."],
@@ -386,7 +386,7 @@ export const KO_A2_U04_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean.",
+        prompt: "Translate into Korean (polite).",
         source: "In Seoul I'm busy. In Jeju I'm relaxed.",
         answer: "서울에서는 바빠요. 제주에서는 느긋해요.",
         altAnswers: ["서울에서는 바쁜데 제주에서는 느긋해요.", "서울에서는 바빠요. 제주도에서는 느긋해요.", "서울에서는 바빠요. 제주에서는 여유로워요."],
@@ -395,7 +395,7 @@ export const KO_A2_U04_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean.",
+        prompt: "Translate into Korean (polite).",
         source: "It's easy for my brother. For me it's hard.",
         answer: "형한테는 쉬워요. 저한테는 어려워요.",
         altAnswers: ["오빠한테는 쉬워요. 저한테는 어려워요.", "형한테는 쉬운데 저한테는 어려워요.", "오빠한테는 쉬운데 저한테는 어려워요."],
@@ -404,7 +404,7 @@ export const KO_A2_U04_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean.",
+        prompt: "Translate into Korean (polite).",
         source: "On weekdays I'm busy. At weekends I'm free.",
         answer: "평일에는 바빠요. 주말에는 한가해요.",
         altAnswers: ["평일에는 바쁘고 주말에는 한가해요.", "평일에는 바빠요. 주말에는 시간이 있어요.", "주중에는 바빠요. 주말에는 한가해요."],
@@ -421,7 +421,7 @@ export const KO_A2_U04_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean.",
+        prompt: "Translate into Korean (polite).",
         source: "Kimchi I eat. Raw fish I can't eat.",
         answer: "김치는 먹어요. 회는 못 먹어요.",
         altAnswers: ["김치는 잘 먹어요. 회는 못 먹어요.", "김치는 먹는데 회는 못 먹어요.", "김치는 먹지만 회는 못 먹어요."],
@@ -437,7 +437,7 @@ export const KO_A2_U04_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean.",
+        prompt: "Translate into Korean (polite).",
         source: "In Korea I take the subway. In America I drove.",
         answer: "한국에서는 지하철을 타요. 미국에서는 운전했어요.",
         altAnswers: ["한국에서는 지하철을 타요. 미국에서는 차를 운전했어요.", "한국에서는 지하철로 다녀요. 미국에서는 운전했어요.", "한국에서는 지하철을 타는데 미국에서는 운전했어요."],
@@ -453,7 +453,7 @@ export const KO_A2_U04_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean.",
+        prompt: "Translate into Korean (polite).",
         source: "Lunch I eat at the office. Dinner I eat at home.",
         answer: "점심은 회사에서 먹어요. 저녁은 집에서 먹어요.",
         altAnswers: ["점심은 회사에서 먹고 저녁은 집에서 먹어요.", "점심은 회사에서 먹는데 저녁은 집에서 먹어요."],
@@ -462,7 +462,7 @@ export const KO_A2_U04_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean.",
+        prompt: "Translate into Korean (polite).",
         source: "I go too.",
         answer: "저도 가요.",
         explanation: "도 replaces 는: 저도.",
@@ -470,7 +470,7 @@ export const KO_A2_U04_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean.",
+        prompt: "Translate into Korean (polite).",
         source: "I don't drink coffee (but I drink tea).",
         answer: "커피는 안 마셔요.",
         altAnswers: ["저는 커피는 안 마셔요.", "커피는 안 마셔요. 차는 마셔요.", "커피는 안 마시는데 차는 마셔요."],
@@ -534,7 +534,7 @@ export const KO_A2_U04_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into Korean.",
+            prompt: "Translate into Korean (polite).",
             source: "The room is spacious.",
             answer: "방이 넓어요.",
             altAnswers: ["방이 커요."],
@@ -562,7 +562,7 @@ export const KO_A2_U04_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into Korean.",
+            prompt: "Translate into Korean (polite).",
             source: "There's only one seat.",
             answer: "자리가 하나밖에 없어요.",
             altAnswers: ["자리가 하나만 있어요.", "자리가 한 개밖에 없어요.", "자리 하나밖에 없어요."],
@@ -609,7 +609,7 @@ export const KO_A2_U04_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean.",
+        prompt: "Translate into Korean (polite).",
         source: "My hair is short.",
         answer: "머리가 짧아요.",
         altAnswers: ["제 머리가 짧아요.", "저는 머리가 짧아요."],
@@ -618,7 +618,7 @@ export const KO_A2_U04_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean.",
+        prompt: "Translate into Korean (polite).",
         source: "The boss is young.",
         answer: "사장님은 젊어요.",
         altAnswers: ["사장님이 젊어요.", "사장님은 젊으세요.", "사장님이 젊으세요."],
@@ -627,7 +627,7 @@ export const KO_A2_U04_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean.",
+        prompt: "Translate into Korean (polite).",
         source: "The sky is clear today.",
         answer: "오늘은 하늘이 맑아요.",
         altAnswers: ["오늘 하늘이 맑아요.", "오늘은 날씨가 맑아요.", "오늘 날씨가 맑아요."],
@@ -636,7 +636,7 @@ export const KO_A2_U04_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean.",
+        prompt: "Translate into Korean (polite).",
         source: "I'm boiling water.",
         answer: "물을 끓여요.",
         altAnswers: ["물을 끓이고 있어요.", "물 끓여요."],
@@ -645,7 +645,7 @@ export const KO_A2_U04_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean.",
+        prompt: "Translate into Korean (polite).",
         source: "I only read the newspaper on weekends.",
         answer: "주말에만 신문을 읽어요.",
         altAnswers: ["신문은 주말에만 읽어요.", "저는 주말에만 신문을 읽어요."],
@@ -654,7 +654,7 @@ export const KO_A2_U04_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean.",
+        prompt: "Translate into Korean (polite).",
         source: "There are a lot of people.",
         answer: "사람이 많아요.",
         altAnswers: ["사람들이 많아요."],
@@ -680,10 +680,10 @@ export const KO_A2_U04_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean.",
+        prompt: "Translate into Korean (polite).",
         source: "I don't like it.",
         answer: "싫어요.",
-        altAnswers: ["안 좋아해요.", "저는 싫어요.", "별로 안 좋아해요."],
+        altAnswers: ["싫어해요.", "안 좋아해요.", "저는 싫어요.", "별로 안 좋아해요."],
         explanation: "싫다 has ㅀ: 싫어요 [시러요].",
       },
       {

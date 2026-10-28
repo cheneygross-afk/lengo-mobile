@@ -295,7 +295,7 @@ export const KO_A1_U02_EXTRA: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "My name is Jieun.",
         answer: "제 이름은 지은이에요.",
-        altAnswers: ["저의 이름은 지은이에요."],
+        altAnswers: ["저의 이름은 지은이에요.", "저는 지은이에요.", "지은이에요."],
         explanation: "제 = 저의. No 씨 on your own name.",
       },
       {
@@ -432,7 +432,7 @@ export const KO_A1_U02_EXTRA: Lesson[] = [
             source: "Is this Gangnam Station?",
             answer: "여기가 강남역이에요?",
             altAnswers: ["여기 강남역이에요?", "여기는 강남역이에요?"],
-            explanation: "Where you are standing is 여기; 강남역 ends in ㄱ, so 이에요 [강나며기에요].",
+            explanation: "Where you are standing is 여기; 강남역 ends in ㄱ, so 이에요 [강남녀기에요]: like 서울역 [서울력], 역 is said [녁] after 강남.",
           },
           {
             type: "listen-choose",

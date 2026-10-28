@@ -426,6 +426,7 @@ export const KO_A1_U06_EXTRA: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "Two coffees, please.",
         answer: "커피 두 잔 주세요.",
+        altAnswers: ["커피 둘 주세요."],
         explanation: "Noun, native number, counter 잔, 주세요.",
       },
       {

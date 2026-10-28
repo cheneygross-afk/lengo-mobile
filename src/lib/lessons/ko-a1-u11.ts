@@ -90,7 +90,7 @@ export const KO_A1_U11: Lesson[] = [
       {
         heading: "What other people want: -고 싶어 해요",
         body: [
-          "Korean treats wanting as an inner feeling, and you can't state someone else's feelings as plain fact. For other people, add 해요 to 싶어: 싶어 해요, roughly 'shows that they want to'. 민수 씨는 부산에 가고 싶어 해요 'Minsu wants to go to Busan'. *민수 씨는 가고 싶어요 sounds as if you were inside Minsu's head.",
+          "Korean treats wanting as an inner feeling, and you can't state someone else's feelings as plain fact. For other people, add 해요 to 싶어: 싶어 해요, roughly 'shows that they want to'. 민수 씨는 부산에 가고 싶어 해요 'Minsu wants to go to Busan'. Stated as plain fact, 민수 씨는 가고 싶어요 sounds as if you were inside Minsu's head.",
           "Use 싶어요 for yourself and in questions to the person you're talking to; use 싶어 해요 for everyone else. Note the space: 싶어 해요.",
         ],
         examples: [
@@ -723,7 +723,7 @@ export const KO_A1_U11: Lesson[] = [
       {
         heading: "Plan or timetable?",
         body: [
-          "The present tense still works for the future, as in Unit 7: 내일 부산에 가요. Use it for things that are fixed or on a schedule, especially events with 있어요: 내일 회의가 있어요 'I have a meeting tomorrow'. *회의가 있을 거예요 sounds like a guess: 'there'll probably be a meeting'.",
+          "The present tense still works for the future, as in Unit 7: 내일 부산에 가요. Use it for things that are fixed or on a schedule, especially events with 있어요: 내일 회의가 있어요 'I have a meeting tomorrow'. 회의가 있을 거예요 sounds like a guess instead: 'there'll probably be a meeting'.",
           "-(으)ㄹ 거예요 puts the weight on your intention: 내일 부산에 갈 거예요 'I'm going to go to Busan tomorrow'. For your own plans, both are common.",
         ],
         examples: [
@@ -748,7 +748,7 @@ export const KO_A1_U11: Lesson[] = [
             prompt: "Translate into Korean.",
             source: "I have an exam next week.",
             answer: "다음 주에 시험이 있어요.",
-            altAnswers: ["다음 주에 시험 있어요.", "다음 주에는 시험이 있어요."],
+            altAnswers: ["저는 다음 주에 시험이 있어요.", "다음 주에 시험 있어요.", "다음 주에는 시험이 있어요."],
             explanation: "다음 주에 (two words), and the present 있어요 for a fixed event.",
           },
         ],
@@ -770,7 +770,7 @@ export const KO_A1_U11: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I'm not going to exercise next week.",
         answer: "다음 주에는 운동 안 할 거예요.",
-        altAnswers: ["다음 주에 운동 안 할 거예요.", "다음 주에는 운동을 안 할 거예요.", "다음 주에 운동을 안 할 거예요."],
+        altAnswers: ["저는 다음 주에는 운동 안 할 거예요.", "다음 주에 운동 안 할 거예요.", "다음 주에는 운동을 안 할 거예요.", "다음 주에 운동을 안 할 거예요."],
         explanation: "With a 하다 verb, 안 goes before 하: 운동 안 할 거예요. *안 운동할 거예요 is the Unit 8 trap.",
       },
       {
@@ -1069,7 +1069,7 @@ export const KO_A1_U11: Lesson[] = [
             prompt: "Translate into Korean.",
             source: "I'm going to the bookstore to buy a book.",
             answer: "책을 사러 서점에 가요.",
-            altAnswers: ["서점에 책을 사러 가요.", "책 사러 서점에 가요.", "서점에 책 사러 가요.", "책을 사러 서점에 갈 거예요.", "서점에 책을 사러 갈 거예요."],
+            altAnswers: ["저는 책을 사러 서점에 가요.", "서점에 책을 사러 가요.", "책 사러 서점에 가요.", "서점에 책 사러 가요.", "책을 사러 서점에 갈 거예요.", "서점에 책을 사러 갈 거예요."],
             explanation: "사 is a vowel stem, so 사러; the movement verb 가요 comes last.",
           },
           {
@@ -1128,7 +1128,7 @@ export const KO_A1_U11: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I'm going out to eat.",
         answer: "밥 먹으러 가요.",
-        altAnswers: ["밥을 먹으러 가요.", "밥 먹으러 갈 거예요.", "밥을 먹으러 갈 거예요."],
+        altAnswers: ["저는 밥 먹으러 가요.", "밥을 먹으러 가요.", "밥 먹으러 갈 거예요.", "밥을 먹으러 갈 거예요."],
         explanation: "먹 ends in a consonant, so 먹으러.",
       },
       {
@@ -1169,7 +1169,7 @@ export const KO_A1_U11: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I want to go to the Han River to take photos.",
         answer: "사진을 찍으러 한강에 가고 싶어요.",
-        altAnswers: ["한강에 사진을 찍으러 가고 싶어요.", "사진 찍으러 한강에 가고 싶어요.", "한강에 사진 찍으러 가고 싶어요."],
+        altAnswers: ["저는 사진을 찍으러 한강에 가고 싶어요.", "한강에 사진을 찍으러 가고 싶어요.", "사진 찍으러 한강에 가고 싶어요.", "한강에 사진 찍으러 가고 싶어요."],
         explanation: "찍 is a consonant stem: 찍으러. The wish goes on the movement verb: 가고 싶어요.",
       },
       {
@@ -1406,7 +1406,7 @@ export const KO_A1_U11: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I'm going to watch a movie with Minsu.",
         answer: "민수 씨하고 같이 영화를 볼 거예요.",
-        altAnswers: ["민수 씨랑 같이 영화를 볼 거예요.", "민수 씨하고 영화를 볼 거예요.", "민수 씨랑 영화를 볼 거예요.", "민수 씨하고 같이 영화 볼 거예요.", "민수 씨랑 같이 영화 볼 거예요."],
+        altAnswers: ["저는 민수 씨하고 같이 영화를 볼 거예요.", "민수 씨랑 같이 영화를 볼 거예요.", "민수 씨하고 영화를 볼 거예요.", "민수 씨랑 영화를 볼 거예요.", "민수 씨하고 같이 영화 볼 거예요.", "민수 씨랑 같이 영화 볼 거예요."],
         explanation: "씨 ends in a vowel, so 랑; 하고 works too.",
       },
       {
@@ -1581,7 +1581,7 @@ export const KO_A1_U11: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I'm going to Myeongdong to go shopping.",
         answer: "명동에 쇼핑하러 가요.",
-        altAnswers: ["쇼핑하러 명동에 가요.", "명동에 쇼핑하러 갈 거예요.", "쇼핑하러 명동에 갈 거예요."],
+        altAnswers: ["저는 명동에 쇼핑하러 가요.", "쇼핑하러 명동에 가요.", "명동에 쇼핑하러 갈 거예요.", "쇼핑하러 명동에 갈 거예요."],
         explanation: "쇼핑하 + 러, then 가요.",
       },
       {
@@ -1621,7 +1621,7 @@ export const KO_A1_U11: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I'm going to have lunch with my mom.",
         answer: "엄마하고 점심을 먹을 거예요.",
-        altAnswers: ["엄마랑 점심을 먹을 거예요.", "엄마하고 같이 점심을 먹을 거예요.", "엄마랑 같이 점심을 먹을 거예요.", "엄마하고 점심 먹을 거예요.", "엄마랑 점심 먹을 거예요."],
+        altAnswers: ["저는 엄마하고 점심을 먹을 거예요.", "엄마랑 점심을 먹을 거예요.", "엄마하고 같이 점심을 먹을 거예요.", "엄마랑 같이 점심을 먹을 거예요.", "엄마하고 점심 먹을 거예요.", "엄마랑 점심 먹을 거예요."],
         explanation: "In speech, 하고 or 랑 for 'with'; 엄마 ends in a vowel, so 랑.",
       },
       {
@@ -1630,7 +1630,7 @@ export const KO_A1_U11: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I'm not going to go to the party. I want to rest.",
         answer: "파티에 안 갈 거예요. 쉬고 싶어요.",
-        altAnswers: ["파티에 안 갈 거예요. 집에서 쉬고 싶어요.", "파티에 안 가요. 쉬고 싶어요."],
+        altAnswers: ["저는 파티에 안 갈 거예요. 쉬고 싶어요.", "파티에 안 갈 거예요. 집에서 쉬고 싶어요.", "파티에 안 가요. 쉬고 싶어요."],
         explanation: "A decision (안 갈 거예요), then the wish behind it (쉬고 싶어요).",
       },
       {
@@ -1975,7 +1975,7 @@ export const KO_A1_U11: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I'm going to go to Jagalchi Market to eat raw fish.",
         answer: "회를 먹으러 자갈치 시장에 갈 거예요.",
-        altAnswers: ["자갈치 시장에 회를 먹으러 갈 거예요.", "회 먹으러 자갈치 시장에 갈 거예요.", "자갈치 시장에 회 먹으러 갈 거예요."],
+        altAnswers: ["저는 회를 먹으러 자갈치 시장에 갈 거예요.", "자갈치 시장에 회를 먹으러 갈 거예요.", "회 먹으러 자갈치 시장에 갈 거예요.", "자갈치 시장에 회 먹으러 갈 거예요."],
         explanation: "회 'raw fish', 먹으러 for the purpose, 갈 거예요 for the plan.",
       },
       {
@@ -2031,7 +2031,7 @@ export const KO_A1_U11: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I'm not going to study in the holidays!",
         answer: "방학 때는 공부 안 할 거예요!",
-        altAnswers: ["방학 때 공부 안 할 거예요!", "방학 때는 공부를 안 할 거예요!", "방학 때 공부를 안 할 거예요!"],
+        altAnswers: ["저는 방학 때는 공부 안 할 거예요!", "방학 때 공부 안 할 거예요!", "방학 때는 공부를 안 할 거예요!", "방학 때 공부를 안 할 거예요!"],
         explanation: "With 공부하다, 안 goes before 하: 공부 안 할 거예요.",
       },
       {

@@ -445,9 +445,9 @@ export const KO_A2_U14_EXTRA: Lesson[] = [
         prompt: "Write the Korean for the bold words.",
         en: "My friend [encouraged] me a lot.",
         sentence: "친구가 많이 ___.",
-        answer: "격려해 줬어요",
-        altAnswers: ["격려해 주었어요", "격려했어요"],
-        explanation: "격려 'encouragement' is said [경녀].",
+        answer: "격려했어요",
+        altAnswers: ["격려해 줬어요", "격려해 주었어요"],
+        explanation: "격려하다 'encourage'; 격려 is said [경녀]: ㄹ → [ㄴ], then ㄱ → [ㅇ].",
       },
       {
         type: "fill-blank",

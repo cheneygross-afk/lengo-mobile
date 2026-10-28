@@ -128,7 +128,7 @@ export const KO_A2_U09: Lesson[] = [
             prompt: "Translate into Korean. (formal)",
             source: "I don't know.",
             answer: "모릅니다.",
-            altAnswers: ["잘 모릅니다.", "모르겠습니다.", "저는 모릅니다."],
+            altAnswers: ["잘 모릅니다.", "모르겠습니다.", "저는 모릅니다.", "저는 잘 모릅니다.", "저는 모르겠습니다."],
             explanation: "-ㅂ니다 starts with a consonant, so 르 doesn't change: 모르 + ㅂ니다 → 모릅니다. 모르겠습니다 is the softer set phrase.",
           },
         ],
@@ -141,7 +141,7 @@ export const KO_A2_U09: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I don't know Jieun's address.",
         answer: "지은 씨 주소를 몰라요.",
-        altAnswers: ["지은 씨 주소 몰라요.", "저는 지은 씨 주소를 몰라요.", "지은 씨 주소를 모르겠어요.", "지은 씨의 주소를 몰라요."],
+        altAnswers: ["지은 씨 주소 몰라요.", "저는 지은 씨 주소를 몰라요.", "지은 씨 주소를 모르겠어요.", "지은 씨의 주소를 몰라요.", "저는 지은 씨 주소 몰라요."],
         explanation: "모르다 → 몰라요. Possessive 의 is usually dropped after a name in speech.",
       },
       {
@@ -204,7 +204,7 @@ export const KO_A2_U09: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I was thirsty, so I drank water.",
         answer: "목이 말라서 물을 마셨어요.",
-        altAnswers: ["목이 말라서 물 마셨어요.", "목말라서 물을 마셨어요.", "목말라서 물 마셨어요."],
+        altAnswers: ["목이 말라서 물 마셨어요.", "목말라서 물을 마셨어요.", "목말라서 물 마셨어요.", "저는 목이 말라서 물을 마셨어요."],
         explanation: "마르 + 아서 → 말라서. No past tense before -아서; 마셨어요 carries it.",
       },
       {
@@ -459,8 +459,7 @@ export const KO_A2_U09: Lesson[] = [
         prompt: "Translate into Korean. (formal announcement)",
         source: "Please don't hurry.",
         answer: "서두르지 마십시오.",
-        altAnswers: ["서두르지 마세요."],
-        explanation: "-지 starts with a consonant: 서두르지 마십시오.",
+        explanation: "-지 starts with a consonant: 서두르지 마십시오. 서두르지 마세요 is polite 해요 style, not the formal announcement style.",
       },
       {
         type: "translate",
@@ -486,7 +485,7 @@ export const KO_A2_U09: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I poured water into the cup.",
         answer: "컵에 물을 따랐어요.",
-        altAnswers: ["컵에 물 따랐어요.", "물을 컵에 따랐어요."],
+        altAnswers: ["컵에 물 따랐어요.", "물을 컵에 따랐어요.", "저는 컵에 물을 따랐어요."],
         explanation: "따르다 is the odd one out: 따라요, 따랐어요, never *딸랐어요.",
       },
       {
@@ -854,7 +853,7 @@ export const KO_A2_U09: Lesson[] = [
             prompt: "Translate into Korean.",
             source: "I'm going to hang out with friends this weekend.",
             answer: "이번 주말에 친구들하고 놀 거예요.",
-            altAnswers: ["이번 주말에 친구하고 놀 거예요.", "이번 주말에 친구들이랑 놀 거예요.", "이번 주말에 친구랑 놀 거예요.", "이번 주말에는 친구들하고 놀 거예요.", "이번 주말에 친구들과 놀 거예요."],
+            altAnswers: ["이번 주말에 친구하고 놀 거예요.", "이번 주말에 친구들이랑 놀 거예요.", "이번 주말에 친구랑 놀 거예요.", "이번 주말에는 친구들하고 놀 거예요.", "이번 주말에 친구들과 놀 거예요.", "저는 이번 주말에 친구들하고 놀 거예요."],
             explanation: "놀 + ㄹ 거예요 → 놀 거예요, not *놀을 거예요.",
           },
         ],
@@ -896,7 +895,7 @@ export const KO_A2_U09: Lesson[] = [
         en: "The library [is far, so] take the bus.",
         sentence: "도서관이 ___ 버스를 타세요.",
         answer: "머니까",
-        explanation: "멀 + 니까 → 머니까. *멀으니까 adds an 으; *멀어서 can't come before a request.",
+        explanation: "멀 + 니까 → 머니까. *멀으니까 adds an 으, and -아서 (멀어서) isn't used before a request.",
       },
       {
         type: "multiple-choice",
@@ -968,7 +967,7 @@ export const KO_A2_U09: Lesson[] = [
         source: "My hair is long, so please cut it a bit.",
         answer: "머리가 기니까 좀 잘라 주세요.",
         altAnswers: ["머리가 기니까 잘라 주세요.", "머리가 기니까 조금 잘라 주세요."],
-        explanation: "길 + 니까 → 기니까. *길어서 can't come before a request like 잘라 주세요.",
+        explanation: "길 + 니까 → 기니까. -아서 (길어서) isn't used before a request like 잘라 주세요.",
       },
       {
         type: "speak",
@@ -1540,7 +1539,7 @@ export const KO_A2_U09: Lesson[] = [
         prompt: "Translate into Korean. (formal)",
         source: "Seoul is far from here.",
         answer: "서울은 여기에서 멉니다.",
-        altAnswers: ["서울은 여기서 멉니다.", "여기에서 서울은 멉니다.", "여기서 서울은 멉니다.", "서울은 여기에서 멀어요."],
+        altAnswers: ["서울은 여기서 멉니다.", "여기에서 서울은 멉니다.", "여기서 서울은 멉니다."],
         explanation: "멀 + ㅂ니다 → 멉니다.",
       },
       {
@@ -1549,7 +1548,7 @@ export const KO_A2_U09: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I can't make kimchi.",
         answer: "김치를 만들 수 없어요.",
-        altAnswers: ["김치 만들 수 없어요.", "김치를 못 만들어요.", "김치 못 만들어요.", "김치를 만들 줄 몰라요.", "김치 만들 줄 몰라요.", "김치를 만들지 못해요."],
+        altAnswers: ["김치 만들 수 없어요.", "김치를 못 만들어요.", "김치 못 만들어요.", "김치를 만들 줄 몰라요.", "김치 만들 줄 몰라요.", "김치를 만들지 못해요.", "저는 김치를 만들 수 없어요."],
         explanation: "만들 + ㄹ 수 → 만들 수, never *만들을 수.",
       },
       {
@@ -1664,7 +1663,7 @@ export const KO_A2_U09: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I turned off my phone.",
         answer: "휴대폰을 껐어요.",
-        altAnswers: ["핸드폰을 껐어요.", "휴대폰 껐어요.", "핸드폰 껐어요.", "전화기를 껐어요.", "폰을 껐어요."],
+        altAnswers: ["핸드폰을 껐어요.", "휴대폰 껐어요.", "핸드폰 껐어요.", "전화기를 껐어요.", "폰을 껐어요.", "저는 휴대폰을 껐어요."],
         explanation: "끄 + 었어요 → 껐어요.",
       },
       {
@@ -1763,7 +1762,7 @@ export const KO_A2_U09: Lesson[] = [
       {
         heading: "ㅎ: 좋아요 or 그래요?",
         body: [
-          "좋다 and 그렇다 both end in ㅎ, but 좋다 is regular (좋아요, 좋아서, 좋으니까) and 그렇다 is irregular (그래요, 그래서, 그러니까). The irregular ones are a closed group: the colour words and 이렇다, 그렇다, 저렇다, 어떻다. Every other ㅎ verb you know (좋다, 많다, 싫다, 놓다, 넣다) is regular.",
+          "좋다 and 그렇다 both end in ㅎ, but 좋다 is regular (좋아요, 좋아서, 좋으니까) and 그렇다 is irregular (그래요, 그래서, 그러니까). The irregular ones are adjectives: the colour words, 이렇다, 그렇다, 저렇다, 어떻다 (and a few like 동그랗다 'be round'). 좋다 is the one ㅎ adjective that stays regular; 많다 and 싫다 end in a double consonant, and 놓다, 넣다 are action verbs, so they are regular too.",
           "So *좋애요 and *많애요 are wrong, and so are *그렇어요 and *빨갛아요.",
         ],
         examples: [
@@ -1877,7 +1876,7 @@ export const KO_A2_U09: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I sang along while listening to music.",
         answer: "음악을 들으면서 노래를 불렀어요.",
-        altAnswers: ["음악을 들으면서 노래 불렀어요.", "노래를 들으면서 따라 불렀어요.", "음악 들으면서 노래 불렀어요."],
+        altAnswers: ["음악을 들으면서 노래 불렀어요.", "노래를 들으면서 따라 불렀어요.", "음악 들으면서 노래 불렀어요.", "저는 음악을 들으면서 노래를 불렀어요."],
         explanation: "들으면서 (ㄷ irregular before 으) and 불렀어요 (르 irregular).",
       },
       {
@@ -2127,7 +2126,7 @@ export const KO_A2_U09: Lesson[] = [
         prompt: "A learner wrote 머리가 아프어서 쉬었어요. Write it correctly: I had a headache, so I rested.",
         source: "I had a headache, so I rested.",
         answer: "머리가 아파서 쉬었어요.",
-        altAnswers: ["머리가 아파서 좀 쉬었어요.", "머리가 아파서 집에서 쉬었어요."],
+        altAnswers: ["머리가 아파서 좀 쉬었어요.", "머리가 아파서 집에서 쉬었어요.", "저는 머리가 아파서 쉬었어요."],
         explanation: "아프 + 아서 → 아파서.",
       },
       {
@@ -2149,7 +2148,7 @@ export const KO_A2_U09: Lesson[] = [
       {
         heading: "In the department store: 해요 → 합니다",
         body: [
-          "A department-store clerk speaks to customers in 합니다; a 동대문 stallholder usually uses 해요. To go from 해요 to 합니다, go back to the stem and add -ㅂ니다 / -습니다. Because these endings start with a consonant, most irregular changes simply disappear: 달라요 → 다릅니다, 빨개요 → 빨갛습니다, 더워요 → 덥습니다, 바빠요 → 바쁩니다.",
+          "A department-store clerk often uses 합니다 with customers; a 동대문 stallholder usually uses 해요. To go from 해요 to 합니다, go back to the stem and add -ㅂ니다 / -습니다. Because these endings start with a consonant, most irregular changes simply disappear: 달라요 → 다릅니다, 빨개요 → 빨갛습니다, 더워요 → 덥습니다, 바빠요 → 바쁩니다.",
           "The exception is the ㄹ stems, which drop ㄹ before ㅂ: 길어요 → 깁니다, 팔아요 → 팝니다, 만들어요 → 만듭니다.",
         ],
         examples: [
@@ -2285,7 +2284,7 @@ export const KO_A2_U09: Lesson[] = [
         prompt: "Translate into Korean. (formal)",
         source: "It's cold outside, so please wear a coat.",
         answer: "밖이 추우니까 코트를 입으십시오.",
-        altAnswers: ["밖은 추우니까 코트를 입으십시오.", "밖이 추우니까 코트를 입으세요.", "밖은 추우니까 코트를 입으세요.", "날씨가 추우니까 코트를 입으십시오."],
+        altAnswers: ["밖은 추우니까 코트를 입으십시오.", "날씨가 추우니까 코트를 입으십시오."],
         explanation: "추우니까 is ㅂ irregular before 으; 입다 is regular: 입으십시오.",
       },
       {

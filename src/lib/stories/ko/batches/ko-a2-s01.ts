@@ -57,7 +57,7 @@ export const KO_A2_S01_STORIES: Story[] = [
     ],
     questions: [
       {
-        question: `What did the narrator do the night after he got the message?`,
+        question: `What did the narrator do that night, after he got the message?`,
         options: [`He called the other Kim Jihoon.`, `He wrote a letter apologising for his mistakes.`, `He looked for a new job.`, `He went out drinking with friends.`],
         correctIndex: 1,
         explanation: `"그날 밤 저는 잠을 못 자고 반성문을 썼어요."`,

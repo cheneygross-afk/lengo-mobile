@@ -62,9 +62,9 @@ export const KO_A1_U12: Lesson[] = [
           {
             type: "multiple-choice",
             question: "A guest comes into your home and stands by the sofa. How do you invite them to sit?",
-            options: ["앉으세요.", "앉세요.", "앉아요.", "앉으요."],
+            options: ["앉으세요.", "앉세요.", "앉어요.", "앉으요."],
             correctIndex: 0,
-            explanation: "앉 ends in a consonant, so 으세요: 앉으세요. 앉아요 is 'I sit / you sit', a statement, not an invitation.",
+            explanation: "앉 ends in a consonant, so 으세요: 앉으세요. *앉세요 drops the 으, *앉으요 drops the 세, and *앉어요 has the wrong vowel (앉 has ㅏ, so the plain form is 앉아요).",
           },
           {
             type: "translate",
@@ -254,7 +254,7 @@ export const KO_A1_U12: Lesson[] = [
         heading: "Respect for others, never for yourself",
         body: [
           "The respect goes to whoever does the action, so it's used for a teacher, a boss or a grandparent too: 선생님이 오세요 'The teacher is coming'. Nouns take 이세요 after a consonant and 세요 after a vowel: 학생이세요? 'Are you a student?', 의사세요? 'Are you a doctor?'.",
-          "Never put it on yourself: *저는 학생이세요 sounds like you're honouring yourself. Answer an honorific question with the ordinary form: 어디 가세요? 회사에 가요.",
+          "Never put it on yourself: 저는 학생이세요 is wrong for the setting, because it sounds like you're honouring yourself. Answer an honorific question with the ordinary form: 어디 가세요? 회사에 가요.",
         ],
         examples: [
           { es: "선생님이 오세요.", en: "The teacher is coming." },
@@ -497,7 +497,7 @@ export const KO_A1_U12: Lesson[] = [
             question: "You're paying at a shop and need a moment to find your card. What do you say to the clerk?",
             options: ["잠깐만 기다려 주세요.", "잠깐만 기다리세요.", "잠깐만 기다려요.", "잠깐만 기다렸어요."],
             correctIndex: 0,
-            explanation: "You're asking a favour for yourself, so -아 / 어 주세요. 기다리세요 sounds like an order to the clerk.",
+            explanation: "You're asking a favour for yourself, so -아 / 어 주세요. 기다리세요 sounds like an order to the clerk, 기다려요 is a blunt 'wait', and 기다렸어요 is past.",
           },
           {
             type: "translate",
@@ -727,7 +727,7 @@ export const KO_A1_U12: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "Please don't run.",
         answer: "뛰지 마세요.",
-        explanation: "뛰다 'to run' + 지 마세요. Seen on every escalator.",
+        explanation: "뛰다 'to run' + 지 마세요. You'll see it on escalator and platform signs.",
       },
       {
         type: "translate",
@@ -869,8 +869,8 @@ export const KO_A1_U12: Lesson[] = [
           "Among close friends Koreans use 나 instead of 저: 나는, 내가 (not *나가), 나를, and 내 'my'. You'll hear them in dramas and songs. Recognise them for now; casual speech comes in Elementary. With strangers and colleagues, stay with 저, 제가, 저를, 제.",
         ],
         examples: [
-          { es: "내가 할 거야.", en: "I'll do it. (casual)" },
-          { es: "내 친구야.", en: "He's my friend. (casual)" },
+          { es: "내가 할 거야.", en: "I'll do it. (casual: 거야 is the casual form of 거예요)" },
+          { es: "내 친구야.", en: "He's my friend. (casual: 야 is the casual form of 예요)" },
           { es: "제가 할 거예요.", en: "I'll do it. (polite)" },
         ],
         checkpoint: [
@@ -1429,7 +1429,7 @@ export const KO_A1_U12: Lesson[] = [
       {
         heading: "Paying",
         body: [
-          "The meter shows the fare in figures: 12,800 is 만 이천팔백 원. Most taxis take cards and T머니 transit cards: ask 카드 돼요?. Then 영수증 주세요 if you need a receipt, and 감사합니다 as you get out.",
+          "The meter shows the fare in figures: 12,800 is 만 이천팔백 원. Most taxis take cards and 티머니 transit cards: ask 카드 돼요?. Then 영수증 주세요 if you need a receipt, and 감사합니다 as you get out.",
         ],
         examples: [
           { es: "얼마예요?", en: "How much is it?" },
@@ -1607,7 +1607,7 @@ export const KO_A1_U12: Lesson[] = [
             prompt: "Translate into Korean.",
             source: "My throat hurts.",
             answer: "목이 아파요.",
-            altAnswers: ["목 아파요."],
+            altAnswers: ["저는 목이 아파요.", "목 아파요."],
             explanation: "목 'throat' is the subject: 목이 아파요. 아프다 drops its 으: 아파요.",
           },
           {
@@ -1616,7 +1616,7 @@ export const KO_A1_U12: Lesson[] = [
             prompt: "Translate into Korean.",
             source: "I have a fever.",
             answer: "열이 있어요.",
-            altAnswers: ["열이 나요.", "열 있어요."],
+            altAnswers: ["저는 열이 있어요.", "열이 나요.", "열 있어요."],
             explanation: "Fever is something you 'have': 열이 있어요. 열이 나요 is also common.",
           },
         ],
@@ -1674,7 +1674,7 @@ export const KO_A1_U12: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I've been coughing since yesterday.",
         answer: "어제부터 기침을 해요.",
-        altAnswers: ["어제부터 기침해요."],
+        altAnswers: ["저는 어제부터 기침을 해요.", "어제부터 기침해요."],
         explanation: "Korean uses the present for something still going on: 어제부터 기침을 해요.",
       },
       {

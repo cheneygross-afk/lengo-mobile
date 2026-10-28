@@ -97,9 +97,9 @@ export const KO_A1_U07_EXTRA: Lesson[] = [
         type: "fill-blank",
         prompt: "Write the Korean for the bold words.",
         en: "I study [at a study café].",
-        sentence: "스터디 ___ 공부해요.",
-        answer: "카페에서",
-        explanation: "Studying is an action: 카페에서.",
+        sentence: "___ 공부해요.",
+        answer: "스터디 카페에서",
+        explanation: "Studying is an action: 스터디 카페에서. 카페에 공부해요 would use the 'being / going' particle.",
       },
       {
         type: "fill-blank",
@@ -173,10 +173,10 @@ export const KO_A1_U07_EXTRA: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: I buy kimbap at the convenience store.",
+        prompt: "Put the words in order to say: I buy gimbap at the convenience store.",
         words: ["편의점에서", "김밥을", "사요."],
         altOrders: [["김밥을", "편의점에서", "사요."]],
-        translation: "I buy kimbap at the convenience store.",
+        translation: "I buy gimbap at the convenience store.",
         explanation: "Buying is an action: 편의점에서.",
       },
       {

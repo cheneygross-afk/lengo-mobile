@@ -277,7 +277,7 @@ export const KO_A2_U16: Lesson[] = [
         heading: "Future and formal: 가실 거예요, 가십니다",
         body: [
           "The future is -(으)실 거예요: 가실 거예요, 읽으실 거예요, 만드실 거예요. In 합니다 speech the forms are -(으)십니다, -(으)셨습니다, -(으)실 겁니다, and the questions -(으)십니까? and -(으)셨습니까?",
-          "-시- with 합니다 is the most respectful combination Korean has, so you hear it from staff, drivers and announcers: 손님, 어디로 가십니까? 'Where to, sir?'. At work, 어제 잘 들어가셨어요? 'Did you get home all right yesterday?' is a standard morning greeting.",
+          "-시- with 합니다 is a very respectful combination, so you hear it from staff, drivers and announcers: 손님, 어디로 가십니까? 'Where to, sir?'. At work, 어제 잘 들어가셨어요? 'Did you get home all right yesterday?' is a standard morning greeting.",
         ],
         examples: [
           { es: "선생님이 내일 오실 거예요.", en: "The teacher will come tomorrow." },
@@ -1010,7 +1010,7 @@ export const KO_A2_U16: Lesson[] = [
       {
         heading: "말씀하시다, 돌아가시다, 편찮으시다",
         body: [
-          "말하다 → 말씀하시다: 천천히 말씀해 주세요 'Please speak slowly'. 죽다 → 돌아가시다 'pass away', the only respectful way to say an elder died: 할아버지는 작년에 돌아가셨어요. 아프다 → 편찮으시다 'be unwell': 어머니가 요즘 편찮으세요. For one body part, 아프시다 is used: 할머니가 다리가 아프세요.",
+          "말하다 → 말씀하시다: 천천히 말씀해 주세요 'Please speak slowly'. 죽다 → 돌아가시다 'pass away', the usual respectful way to say an elder died: 할아버지는 작년에 돌아가셨어요. 아프다 → 편찮으시다 'be unwell': 어머니가 요즘 편찮으세요. For one body part, 아프시다 is used: 할머니가 다리가 아프세요.",
         ],
         examples: [
           { es: "선생님, 다시 한번 말씀해 주세요.", en: "Could you say that again, please?" },
@@ -1266,7 +1266,7 @@ export const KO_A2_U16: Lesson[] = [
         source: "How old is your grandmother?",
         answer: "할머니 연세가 어떻게 되세요?",
         altAnswers: ["할머니는 연세가 어떻게 되세요?", "할머니께서는 연세가 어떻게 되세요?", "할머니 연세는 어떻게 되세요?"],
-        explanation: "연세 is the honorific of 나이, and 어떻게 되세요? asks politely. *몇 살이세요? would be odd for a grandmother.",
+        explanation: "연세 is the honorific of 나이, and 어떻게 되세요? asks politely. 몇 살이세요? would sound odd for a grandmother.",
       },
       {
         type: "translate",
@@ -1570,12 +1570,12 @@ export const KO_A2_U16: Lesson[] = [
       {
         heading: "Forgetting the special verb",
         body: [
-          "*사장님이 사무실에 있으세요 → 계세요: a senior who is somewhere takes 계시다. *할머니가 자세요 → 주무세요 and *할아버지가 저녁을 먹으세요 → 드세요: adding -시- to 자다 and 먹다 sounds wrong because they have their own honorific words. And *살으세요 → 사세요.",
+          "*사장님이 사무실에 있으세요 → 계세요: a senior who is somewhere takes 계시다. 할머니가 자세요 and 할아버지가 저녁을 먹으세요 are grammatical but wrong for an elder: 자다 and 먹다 have their own honorific words, so say 주무세요 and 드세요. And *살으세요 → 사세요.",
         ],
         examples: [
           { es: "사장님이 사무실에 계세요.", en: "The boss is in the office. (not *있으세요)" },
-          { es: "할머니가 방에서 주무세요.", en: "Grandma is sleeping in her room. (not *자세요)" },
-          { es: "할아버지가 저녁을 드세요.", en: "Grandpa is having dinner. (not *먹으세요)" },
+          { es: "할머니가 방에서 주무세요.", en: "Grandma is sleeping in her room. (not 자세요)" },
+          { es: "할아버지가 저녁을 드세요.", en: "Grandpa is having dinner. (not 먹으세요)" },
           { es: "선생님은 학교 근처에 사세요.", en: "The teacher lives near the school. (not *살으세요)" },
         ],
         checkpoint: [

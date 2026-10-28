@@ -19,7 +19,7 @@ export const KO_A2_U11: Lesson[] = [
         heading: "본, 먹은: the past before a noun",
         body: [
           "In Unit 10, -는 put a verb before a noun for something happening now or usually: 자주 가는 카페. For something that already happened, action verbs take -(으)ㄴ instead: ㄴ after a vowel stem (보다 → 본, 사다 → 산), 은 after a consonant stem (먹다 → 먹은, 읽다 → 읽은). 어제 본 영화 is 'the movie I saw yesterday'.",
-          "The modifier carries the past by itself: *봤은 영화 is not Korean. The verb at the end keeps its own tense, so 어제 본 영화가 재미있었어요 has two pasts in two places. As in Unit 10, the doer inside the clause takes 이 / 가: 제가 산 옷, never *저는 산 옷.",
+          "The modifier carries the past by itself: *봤은 영화 is not Korean. The verb at the end keeps its own tense, so 어제 본 영화가 재미있었어요 has two pasts in two places. As in Unit 10, the doer inside the clause takes 이 / 가: 제가 산 옷, not *저는 산 옷.",
         ],
         examples: [
           { es: "어제 본 영화가 정말 재미있었어요.", en: "The movie I saw yesterday was really fun." },
@@ -341,7 +341,7 @@ export const KO_A2_U11: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I'm looking for a place to live in Seoul.",
         answer: "서울에서 살 집을 찾고 있어요.",
-        altAnswers: ["서울에서 살 곳을 찾고 있어요.", "서울에서 살 집을 찾아요.", "서울에서 살 곳을 찾아요.", "서울에 살 집을 찾고 있어요.", "서울에 살 곳을 찾고 있어요."],
+        altAnswers: ["서울에서 살 곳을 찾고 있어요.", "서울에서 살 집을 찾아요.", "서울에서 살 곳을 찾아요.", "서울에 살 집을 찾고 있어요.", "서울에 살 곳을 찾고 있어요.", "저는 서울에서 살 집을 찾고 있어요."],
         explanation: "살다 is an ㄹ stem, so it keeps one ㄹ: 살 집, said [살 찝].",
       },
       {
@@ -680,8 +680,8 @@ export const KO_A2_U11: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "What number is the bus you'll take?",
         answer: "탈 버스가 몇 번이에요?",
-        altAnswers: ["타는 버스가 몇 번이에요?", "몇 번 버스를 탈 거예요?", "탈 버스는 몇 번이에요?"],
-        explanation: "타다 → 탈 버스, said [탈 뻐스].",
+        altAnswers: ["몇 번 버스를 탈 거예요?", "몇 번 버스 탈 거예요?", "탈 버스는 몇 번이에요?"],
+        explanation: "타다 → 탈 버스, said [탈 뻐스]. 타는 버스 is the bus you usually take, not the one you're about to take.",
       },
       {
         type: "translate",
@@ -809,7 +809,7 @@ export const KO_A2_U11: Lesson[] = [
       {
         heading: "방학 때: nouns with 때",
         body: [
-          "Events and periods take 때 directly: 방학 때, 휴가 때, 크리스마스 때, 시험 때, 고등학교 때. Times of day, days and dates take 에 instead: 아침에, 월요일에, 주말에. *아침 때 is a typical slip; 'in the morning' is simply 아침에.",
+          "Events and periods take 때 directly: 방학 때, 휴가 때, 크리스마스 때, 시험 때, 고등학교 때. Times of day, days and dates take 에 instead: 아침에, 월요일에, 주말에. *아침 때 is a typical slip; 'in the morning' is simply 아침에. (점심때 and 저녁때 'at lunchtime, in the evening' are set words, written as one.)",
         ],
         examples: [
           { es: "방학 때 제주도에 갈 거예요.", en: "I'll go to Jeju during the school vacation." },
@@ -1483,7 +1483,7 @@ export const KO_A2_U11: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I want to eat the food I ate in Busan again.",
         answer: "부산에서 먹은 음식을 또 먹고 싶어요.",
-        altAnswers: ["부산에서 먹은 음식을 다시 먹고 싶어요.", "부산에서 먹은 음식 또 먹고 싶어요."],
+        altAnswers: ["부산에서 먹은 음식을 다시 먹고 싶어요.", "부산에서 먹은 음식 또 먹고 싶어요.", "저는 부산에서 먹은 음식을 또 먹고 싶어요."],
         explanation: "먹은 for the past meal, then -고 싶어요 for the wish.",
       },
       {
@@ -1563,7 +1563,7 @@ export const KO_A2_U11: Lesson[] = [
             prompt: "A learner wrote 어제 보는 영화가 좋았어요. Write it correctly: I liked the movie I saw yesterday.",
             source: "I liked the movie I saw yesterday.",
             answer: "어제 본 영화가 좋았어요.",
-            altAnswers: ["어제 본 영화는 좋았어요.", "어제 본 영화가 재미있었어요.", "어제 본 영화가 재밌었어요.", "어제 본 영화가 마음에 들었어요."],
+            altAnswers: ["어제 본 영화는 좋았어요.", "어제 본 영화가 재미있었어요.", "어제 본 영화가 재밌었어요.", "어제 본 영화가 마음에 들었어요.", "저는 어제 본 영화가 좋았어요."],
             explanation: "The viewing is finished, so 본. 보는 영화 would be one you're watching now or regularly.",
           },
           {
@@ -1597,7 +1597,7 @@ export const KO_A2_U11: Lesson[] = [
             prompt: "A learner wrote 밥을 먹기 후에 산책했어요. Write it correctly: I took a walk after eating.",
             source: "I took a walk after eating.",
             answer: "밥을 먹은 후에 산책했어요.",
-            altAnswers: ["밥을 먹은 다음에 산책했어요.", "밥을 먹은 뒤에 산책했어요.", "밥을 먹고 나서 산책했어요.", "밥 먹은 후에 산책했어요.", "식사 후에 산책했어요.", "밥을 먹은 후에 산책을 했어요."],
+            altAnswers: ["밥을 먹은 다음에 산책했어요.", "밥을 먹은 뒤에 산책했어요.", "밥을 먹고 나서 산책했어요.", "밥 먹은 후에 산책했어요.", "식사 후에 산책했어요.", "밥을 먹은 후에 산책을 했어요.", "저는 밥을 먹은 후에 산책했어요."],
             explanation: "After takes the past modifier: 먹은 후에. -기 goes only with 전에.",
           },
           {
@@ -1606,7 +1606,7 @@ export const KO_A2_U11: Lesson[] = [
             prompt: "A learner wrote 한국에 갈 때 사진을 많이 찍었어요. Write it correctly: I took lots of photos when I was in Korea.",
             source: "I took lots of photos when I was in Korea.",
             answer: "한국에 갔을 때 사진을 많이 찍었어요.",
-            altAnswers: ["한국에 있을 때 사진을 많이 찍었어요.", "한국에 있었을 때 사진을 많이 찍었어요.", "한국에 갔을 때 사진 많이 찍었어요.", "한국에 있는 동안 사진을 많이 찍었어요."],
+            altAnswers: ["한국에 있을 때 사진을 많이 찍었어요.", "한국에 있었을 때 사진을 많이 찍었어요.", "한국에 갔을 때 사진 많이 찍었어요.", "한국에 있는 동안 사진을 많이 찍었어요.", "저는 한국에 갔을 때 사진을 많이 찍었어요."],
             explanation: "Once you'd arrived: 갔을 때 (or 있을 때 'while I was there'). 갈 때 is on the way.",
           },
         ],
@@ -1810,7 +1810,7 @@ export const KO_A2_U11: Lesson[] = [
       {
         heading: "The same in 반말",
         body: [
-          "Modifiers don't change in 반말; only the end of the sentence and the pronouns do. 제가 becomes 내가, 'you' is 네가 (said [니가]), and 거예요 becomes 거야: 이거 네가 만든 거야? 'Did you make this?'",
+          "Modifiers don't change in 반말; only the end of the sentence and the pronouns do. 제가 becomes 내가, 'you' is 네가 (often said 니가 in casual speech), and 거예요 becomes 거야: 이거 네가 만든 거야? 'Did you make this?'",
         ],
         examples: [
           { es: "어제 본 영화 재밌었어.", en: "The movie I saw yesterday was fun." },
@@ -1871,7 +1871,7 @@ export const KO_A2_U11: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I'm looking for a café to go to this weekend.",
         answer: "주말에 갈 카페를 찾고 있어요.",
-        altAnswers: ["이번 주말에 갈 카페를 찾고 있어요.", "주말에 갈 카페를 찾아요.", "이번 주말에 갈 카페를 찾아요.", "주말에 갈 카페 찾고 있어요."],
+        altAnswers: ["이번 주말에 갈 카페를 찾고 있어요.", "주말에 갈 카페를 찾아요.", "이번 주말에 갈 카페를 찾아요.", "주말에 갈 카페 찾고 있어요.", "저는 주말에 갈 카페를 찾고 있어요."],
         explanation: "Still to come: 갈 카페, said [갈 카페] (ㅋ is already aspirated).",
       },
       {
@@ -2192,7 +2192,7 @@ export const KO_A2_U11: Lesson[] = [
             prompt: "Translate into Korean.",
             source: "I laughed a lot while watching the movie.",
             answer: "영화를 보는 동안 많이 웃었어요.",
-            altAnswers: ["영화를 보면서 많이 웃었어요.", "영화를 보는 동안 정말 많이 웃었어요.", "영화 보는 동안 많이 웃었어요.", "영화 보면서 많이 웃었어요.", "영화를 볼 때 많이 웃었어요."],
+            altAnswers: ["영화를 보면서 많이 웃었어요.", "영화를 보는 동안 정말 많이 웃었어요.", "영화 보는 동안 많이 웃었어요.", "영화 보면서 많이 웃었어요.", "영화를 볼 때 많이 웃었어요.", "저는 영화를 보는 동안 많이 웃었어요."],
             explanation: "보는 동안 'the whole time I watched'. With one person, 보면서 works too.",
           },
           {
@@ -2243,7 +2243,7 @@ export const KO_A2_U11: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I cried when I watched the last scene.",
         answer: "마지막 장면을 볼 때 울었어요.",
-        altAnswers: ["마지막 장면을 봤을 때 울었어요.", "마지막 장면 볼 때 울었어요.", "마지막 장면을 보면서 울었어요.", "마지막 장면에서 울었어요."],
+        altAnswers: ["마지막 장면을 봤을 때 울었어요.", "마지막 장면 볼 때 울었어요.", "마지막 장면을 보면서 울었어요.", "마지막 장면에서 울었어요.", "저는 마지막 장면을 볼 때 울었어요."],
         explanation: "볼 때 (or 봤을 때) 'when I watched'; the past is on 울었어요.",
       },
       {
@@ -2252,7 +2252,7 @@ export const KO_A2_U11: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I read the whole book my friend recommended over the weekend.",
         answer: "친구가 추천한 책을 주말에 다 읽었어요.",
-        altAnswers: ["주말에 친구가 추천한 책을 다 읽었어요.", "친구가 추천한 책을 주말 동안 다 읽었어요.", "주말 동안 친구가 추천한 책을 다 읽었어요."],
+        altAnswers: ["주말에 친구가 추천한 책을 다 읽었어요.", "친구가 추천한 책을 주말 동안 다 읽었어요.", "주말 동안 친구가 추천한 책을 다 읽었어요.", "저는 친구가 추천한 책을 주말에 다 읽었어요."],
         explanation: "추천한 책 'the book (my friend) recommended'; 다 읽었어요 'read it all'.",
       },
       {
@@ -2316,7 +2316,7 @@ export const KO_A2_U11: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I'm looking for a book to read on the subway.",
         answer: "지하철에서 읽을 책을 찾고 있어요.",
-        altAnswers: ["지하철에서 읽을 책을 찾아요.", "지하철에서 읽을 책 찾고 있어요."],
+        altAnswers: ["지하철에서 읽을 책을 찾아요.", "지하철에서 읽을 책 찾고 있어요.", "저는 지하철에서 읽을 책을 찾고 있어요."],
         explanation: "A book still to be read: 읽을 책, said [일글 책].",
       },
       {

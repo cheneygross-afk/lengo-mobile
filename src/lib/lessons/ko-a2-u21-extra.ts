@@ -535,8 +535,8 @@ export const KO_A2_U21_EXTRA: Lesson[] = [
         prompt: "Translate into Korean (to a friend).",
         source: "Sleep well!",
         answer: "잘 자!",
-        altAnswers: ["푹 자!", "잘 자요!"],
-        explanation: "'Well' is 잘; in 반말, 자요 drops 요.",
+        altAnswers: ["푹 자!"],
+        explanation: "'Well' is 잘; in 반말, 자요 drops 요. 잘 자요 is polite, too formal for a friend.",
       },
       {
         type: "fill-blank",

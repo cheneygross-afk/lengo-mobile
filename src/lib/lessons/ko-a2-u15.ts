@@ -19,7 +19,7 @@ export const KO_A2_U15: Lesson[] = [
       {
         heading: "-(으)면: the 'if' ending",
         body: [
-          "English puts 'if' in front of the clause; Korean glues -(으)면 to the end of the verb, and the 'if' clause always comes first: 시간이 있으면 같이 가요 'If you have time, let's go together'. You met it in 먹으면 안 돼요 in Unit 7; now it works on its own.",
+          "English puts 'if' in front of the clause; Korean glues -(으)면 to the end of the verb, and the 'if' clause normally comes first: 시간이 있으면 같이 가요 'If you have time, let's go together'. You met it in 먹으면 안 돼요 in Unit 7; now it works on its own.",
           "The shape follows the stem: 으면 after a consonant (있으면, 먹으면, 좋으면), 면 after a vowel (가면, 오면, 비싸면, 공부하면). ㄹ stems take plain 면 and keep their ㄹ: 만들면, 살면, 멀면. *만들으면 and *살으면 are the classic slips.",
           "The tense goes on the main clause, not on -(으)면: 비가 오면 집에 있을 거예요 'If it rains, I'll stay home'. English says 'if it rains' in the present for a future event, and so does Korean.",
         ],
@@ -463,7 +463,7 @@ export const KO_A2_U15: Lesson[] = [
       {
         heading: "-(으)면 좋겠어요: I wish, I hope",
         body: [
-          "'It would be good if ...': 주말에 날씨가 좋으면 좋겠어요 'I hope the weather's nice at the weekend'. This is how Koreans say 'I hope' or 'I wish' about things they can't control. The -겠- here is the soft guess you know from 알겠어요.",
+          "'It would be good if ...': 주말에 날씨가 좋으면 좋겠어요 'I hope the weather's nice at the weekend'. This is how Koreans say 'I hope' or 'I wish' about things they can't control. Learn 좋겠어요 as a set ending for now; the guessing -겠- behind it comes in Unit 19.",
           "You'll hear the past form just as often: 빨리 나았으면 좋겠어요 'I hope you get better soon'. It means the same; past 았 / 었 makes the wish sound a little more heartfelt. 좋겠다 can't be swapped for 원해요, which sounds like a translated 'want'.",
         ],
         examples: [
@@ -661,7 +661,7 @@ export const KO_A2_U15: Lesson[] = [
         heading: "What the main clause does",
         body: [
           "Because -(으)려면 names a goal, the second half is usually an instruction (-(으)세요), a need (필요해요) or an obligation (-아야 돼요): 한국어를 잘하려면 매일 연습해야 돼요 'To get good at Korean, you have to practise every day'. -(으)면 돼요 fits too: 환불하려면 영수증을 가져오면 돼요.",
-          "To ask how to do something, put the goal first and a question after it: 표를 사려면 어디로 가야 돼요? 'Where do I go to buy a ticket?', 강남역에 가려면 어떻게 가야 돼요? Learners often try 'to' with -러 (사러 가요): -(으)러 goes only with 가다 / 오다, so it can't open a sentence like this.",
+          "To ask how to do something, put the goal first and a question after it: 표를 사려면 어디로 가야 돼요? 'Where do I go to buy a ticket?', 강남역에 가려면 어떻게 가야 돼요? Learners often try 'to' with -러 (사러 가요): -(으)러 goes with movement verbs like 가다 / 오다, so it can't open a sentence like this.",
         ],
         examples: [
           { es: "한국어를 잘하려면 매일 연습해야 돼요.", en: "To get good at Korean, you have to practise every day." },
@@ -690,7 +690,7 @@ export const KO_A2_U15: Lesson[] = [
           {
             type: "speak",
             text: "강남역에 가려면 어떻게 가야 돼요?",
-            tip: "Say 강남역에 as [강남여게]: the ㄱ links to 에.",
+            tip: "Say 강남역에 as [강남녀게]: the added ㄴ from Unit 13, and the ㄱ links to 에.",
             explanation: "The standard way to ask for directions: goal with -(으)려면, then 어떻게 가야 돼요?.",
           },
         ],
@@ -728,7 +728,7 @@ export const KO_A2_U15: Lesson[] = [
         question: "Which means 'If you want to live in Seoul, you need a lot of money'?",
         options: ["서울에 살려면 돈이 많이 필요해요.", "서울에 살으려면 돈이 많이 필요해요.", "서울에 살면 돈이 많이 필요해요.", "서울에 살러 돈이 많이 필요해요."],
         correctIndex: 0,
-        explanation: "ㄹ stem: 살려면. 살면 'if you live' is close but loses the 'want to'; -러 only goes with 가다 / 오다.",
+        explanation: "ㄹ stem: 살려면. 살면 'if you live' is close but loses the 'want to'; -러 needs a movement verb like 가다 / 오다.",
       },
       {
         type: "translate",
@@ -1318,8 +1318,8 @@ export const KO_A2_U15: Lesson[] = [
       {
         heading: "'If you go' or 'to get there': 가면 or 가려면?",
         body: [
-          "가면 means 'if you go': you are already going, and here's what happens. 가려면 means 'if you want to go, to get there': you aren't there yet, and here's how. 명동에 가면 사람이 많아요 'If you go to Myeongdong, there are lots of people' describes what you'll find; 명동에 가려면 4호선을 타세요 tells you how to get there.",
-          "English 'to get to X, take Y' always needs -(으)려면. *명동에 가면 4호선을 타세요 sounds like 'once you've gone to Myeongdong, take Line 4', which is the wrong order of events.",
+          "가면 means 'if you go': once you are there, here's what happens. 가려면 means 'if you want to go, to get there': you aren't there yet, and here's how. 명동에 가면 사람이 많아요 'If you go to Myeongdong, there are lots of people' describes what you'll find; 명동에 가려면 4호선을 타세요 tells you how to get there.",
+          "English 'to get to X, take Y' needs -(으)려면. *명동에 가면 4호선을 타세요 sounds like 'once you've gone to Myeongdong, take Line 4', which is the wrong order of events.",
         ],
         examples: [
           { es: "명동에 가면 사람이 많아요.", en: "If you go to Myeongdong, there are lots of people." },
@@ -1536,7 +1536,7 @@ export const KO_A2_U15: Lesson[] = [
             prompt: "A learner wrote *도착하거든 전화했어요. Write it correctly: When I arrived, I called.",
             source: "When I arrived, I called.",
             answer: "도착했을 때 전화했어요.",
-            altAnswers: ["도착해서 전화했어요.", "도착하고 전화했어요.", "도착한 후에 전화했어요.", "도착하고 나서 전화했어요."],
+            altAnswers: ["도착해서 전화했어요.", "도착하고 전화했어요.", "도착한 후에 전화했어요.", "도착한 다음에 전화했어요.", "도착하고 나서 전화했어요."],
             explanation: "A past event can't follow -거든. Use -았을 때 or -아서.",
           },
           {
@@ -1681,7 +1681,7 @@ export const KO_A2_U15: Lesson[] = [
         heading: "Checking the details",
         body: [
           "Emma checks how long it takes and what to do if she gets lost. The staff member uses -(으)면 for conditions: 잘 모르면 다시 물어보세요 'If you're not sure, ask again'. Notice 모르면: no change, because 르 verbs only change before 아 / 어.",
-          "Emma ends with a wish: 빨리 도착하면 좋겠어요, and thanks the staff: 감사합니다.",
+          "Emma thanks the staff with 고맙습니다 and ends with a wish: 빨리 도착하면 좋겠어요.",
         ],
         examples: [
           { es: "얼마나 걸려요?", en: "How long does it take?" },
@@ -1796,7 +1796,7 @@ export const KO_A2_U15: Lesson[] = [
         type: "speak",
         prompt: "Say it in Korean: Excuse me. How do I get to Gangnam Station?",
         text: "실례합니다. 강남역에 가려면 어떻게 가야 돼요?",
-        tip: "Say 강남역에 as [강남여게] and 실례합니다 as [실례함니다].",
+        tip: "Say 강남역에 as [강남녀게] (added ㄴ, Unit 13) and 실례합니다 as [실례함니다].",
         explanation: "Goal + question: the standard way to ask for directions.",
       },
     ],
@@ -1813,7 +1813,7 @@ export const KO_A2_U15: Lesson[] = [
         heading: "Arriving and checking in",
         body: [
           "You help 수빈 run a small guesthouse in 전주, and she asks you to write the guide for foreign guests who are learning Korean. A guide like this is mostly instructions, so it leans on -(으)려면 'to do X', -(으)면 돼요 'just do Y' and -(으)세요.",
-          "Start with arrival: 체크인하려면 이 층 카운터로 오세요 'To check in, come to the desk on this floor'; 늦게 도착하거든 문자 주세요 'If you arrive late, send a text'. 문자 주세요 is the everyday 'text me'.",
+          "Start with arrival: 체크인하려면 일 층 카운터로 오세요 'To check in, come to the desk on the first floor'; 늦게 도착하거든 문자 주세요 'If you arrive late, send a text'. 문자 주세요 is the everyday 'text me'.",
         ],
         examples: [
           { es: "체크인하려면 일 층 카운터로 오세요.", en: "To check in, come to the desk on the first floor." },
