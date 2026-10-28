@@ -453,10 +453,10 @@ export const IT_B1_U28: Lesson[] = [
       {
         heading: "Finding a compromise",
         body: [
-          "Sofia proposes a compromise with the conditional: \"E se i telefoni si lasciassero in una scatola all'ingresso?\" Chiara concedes: \"Su questo ti do ragione, potrebbe funzionare\". Davide agrees: \"Va bene, la penso come Sofia\". Italians often end a heated discussion laughing: \"Insomma, siamo d'accordo almeno sul dolce?\"",
+          "Sofia proposes a compromise: \"Perché non lasciamo i telefoni in una scatola all'ingresso?\" Chiara concedes: \"Su questo ti do ragione, potrebbe funzionare\". Davide agrees: \"Va bene, la penso come Sofia\". Italians often end a heated discussion laughing: \"Insomma, siamo d'accordo almeno sul dolce?\"",
         ],
         examples: [
-          { es: "E se i telefoni si lasciassero in una scatola all'ingresso?", en: "What if phones were left in a box at the entrance?" },
+          { es: "Perché non lasciamo i telefoni in una scatola all'ingresso?", en: "Why don't we leave phones in a box at the entrance?" },
           { es: "Su questo ti do ragione, potrebbe funzionare.", en: "I'll grant you that, it could work." },
           { es: "Va bene, la penso come Sofia.", en: "OK, I agree with Sofia." },
           { es: "Insomma, siamo d'accordo almeno sul dolce?", en: "Well, do we at least agree on dessert?" },
@@ -474,10 +474,10 @@ export const IT_B1_U28: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I want my son to be able to call me.", answer: "Voglio che mio figlio possa chiamarmi.", altAnswers: ["Voglio che mio figlio mi possa chiamare."], explanation: "\"Volere che\" + subjunctive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "OK, I agree with Sofia.", answer: "Va bene, la penso come Sofia.", altAnswers: ["Va bene, sono d'accordo con Sofia.", "D'accordo, la penso come Sofia."], explanation: "\"Pensarla come\" + person." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Do we at least agree on dessert?", answer: "Siamo d'accordo almeno sul dolce?", altAnswers: ["Almeno sul dolce siamo d'accordo?", "Siamo almeno d'accordo sul dolce?"], explanation: "\"D'accordo su\" + topic." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "What if phones [were left] at the entrance?", sentence: "E se i telefoni ___ all'ingresso?", answer: "si lasciassero", altAnswers: ["venissero lasciati"], explanation: "\"E se\" + imperfect subjunctive = what if." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Phones [could be left] at the entrance.", sentence: "I telefoni ___ all'ingresso.", answer: "si potrebbero lasciare", altAnswers: ["potrebbero essere lasciati"], explanation: "Conditional \"si potrebbero\" for a proposal." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I'll grant you that], it could work.", sentence: "___, potrebbe funzionare.", answer: "Su questo ti do ragione", altAnswers: ["Ti do ragione"], explanation: "\"Dare ragione a\"." },
       { type: "word-order", prompt: "Put the words in order to say: Kids can't concentrate any more.", words: ["I", "ragazzi", "non", "si", "concentrano", "più."], translation: "Kids can't concentrate any more.", explanation: "\"Non ... più\" = not any more." },
-      { type: "multiple-choice", question: "What role does Sofia play in the debate?", options: ["She proposes a compromise.", "She agrees with Chiara completely.", "She refuses to talk.", "She attacks Davide."], correctIndex: 0, explanation: "\"E se ...?\" introduces her compromise." },
+      { type: "multiple-choice", question: "What role does Sofia play in the debate?", options: ["She proposes a compromise.", "She agrees with Chiara completely.", "She refuses to talk.", "She attacks Davide."], correctIndex: 0, explanation: "\"Perché non ...?\" introduces her compromise." },
       { type: "listen-choose", audio: "Scusa se ti interrompo, ma può chiamarti all'uscita.", question: "What is Chiara's counter-argument?", options: ["The girl can call when she leaves school.", "The girl doesn't need a phone.", "Davide should call the school.", "Phones are too expensive."], correctIndex: 0, explanation: "\"All'uscita\" = when coming out." },
       { type: "speak", text: "È vero che i ragazzi si distraggono, però il telefono serve anche per la sicurezza.", prompt: "Argue Davide's point: It's true kids get distracted, but the phone is also needed for safety.", tip: "Rise on \"distraggono\", pause, then fall on \"sicurezza\".", explanation: "Concession + counter-argument." },
     ],

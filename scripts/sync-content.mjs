@@ -99,10 +99,11 @@ const DIRS = {
   "src/lib/ko-roots": [],
   // The Italian beta's counterparts of the Portuguese course's, behind the
   // owner-only Italian gate (withItalianBeta.tsx): stories, CILS practice
-  // tests, the conjugation engine and the study tools' tables. The website
-  // has none of them yet (its Italian lessons, it-*.ts, sync with the
-  // lessons above, and its grammar guides would sync with src/lib/grammar),
-  // so these are OPTIONAL_DIRS: skipped until they exist there.
+  // tests, the conjugation engine and the study tools' tables (its lessons,
+  // it-*.ts, and grammar guides sync with src/lib/lessons and
+  // src/lib/grammar above). The website has all but the CILS tests now;
+  // they stay OPTIONAL_DIRS, skipped while missing there, so a website
+  // checkout from before them still syncs.
   "src/lib/stories/it": [],
   "src/lib/stories/it/batches": [],
   "src/lib/exams/it": [],

@@ -46,6 +46,9 @@ import PortugueseConjugationScreen from "@/screens/PortugueseConjugationScreen";
 import PortugueseGlossaryScreen from "@/screens/PortugueseGlossaryScreen";
 import KoreanLevelsScreen from "@/screens/KoreanLevelsScreen";
 import ItalianLevelsScreen from "@/screens/ItalianLevelsScreen";
+import ItalianPlacementTestScreen from "@/screens/ItalianPlacementTestScreen";
+import ItalianConjugationScreen from "@/screens/ItalianConjugationScreen";
+import ItalianGlossaryScreen from "@/screens/ItalianGlossaryScreen";
 import KoreanPlacementTestScreen from "@/screens/KoreanPlacementTestScreen";
 import KoreanConjugationScreen from "@/screens/KoreanConjugationScreen";
 import KoreanGlossaryScreen from "@/screens/KoreanGlossaryScreen";
@@ -54,8 +57,9 @@ import WritingScreen from "@/screens/WritingScreen";
 import StudyToolsScreen from "@/screens/StudyToolsScreen";
 import { withPlan } from "@/components/withPlan";
 import { paramsAreKorean, withKoreanBeta } from "@/components/withKoreanBeta";
-import { withItalianBeta } from "@/components/withItalianBeta";
+import { paramsAreItalian, withItalianBeta } from "@/components/withItalianBeta";
 import { isKoreanStorySlug } from "@/lib/stories/korean";
+import { isItalianStorySlug } from "@/lib/stories/italian";
 import PlanLock from "@/components/PlanLock";
 import { courseOfLevelPath } from "@/lib/courses";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
@@ -73,6 +77,8 @@ const PortugueseConjugationPaid = withPlan(PortugueseConjugationScreen, "pt");
 const PortugueseGlossaryPaid = withPlan(PortugueseGlossaryScreen, "pt");
 const KoreanConjugationPaid = withPlan(KoreanConjugationScreen, "ko");
 const KoreanGlossaryPaid = withPlan(KoreanGlossaryScreen, "ko");
+const ItalianConjugationPaid = withPlan(ItalianConjugationScreen, "it");
+const ItalianGlossaryPaid = withPlan(ItalianGlossaryScreen, "it");
 
 // Testing out of a unit is part of the plan for that unit's course.
 function UnitTestPaid(props: NativeStackScreenProps<AppStackParamList, "UnitTest">) {
@@ -109,10 +115,17 @@ const KoreanConjugation = withKoreanBeta(KoreanConjugationPaid, true);
 const KoreanGlossary = withKoreanBeta(KoreanGlossaryPaid, true);
 const KoreanRoots = withKoreanBeta(KoreanRootsScreen, true);
 const KoreanRootsLevel = withKoreanBeta(KoreanRootsLevelScreen, true);
-// A Korean story is Korean by its "ko/..." levelPath or its "ko-" slug.
-const StoryReader = withKoreanBeta(
-  StoryReaderScreen,
-  (params) => paramsAreKorean(params) || isKoreanStorySlug((params as { slug?: string } | undefined)?.slug ?? "")
+const ItalianPlacement = withItalianBeta(ItalianPlacementTestScreen, true);
+const ItalianConjugation = withItalianBeta(ItalianConjugationPaid, true);
+const ItalianGlossary = withItalianBeta(ItalianGlossaryPaid, true);
+// A Korean story is Korean by its "ko/..." levelPath or its "ko-" slug; an
+// Italian one by its "it/..." levelPath or its "it-" slug.
+const StoryReader = withItalianBeta(
+  withKoreanBeta(
+    StoryReaderScreen,
+    (params) => paramsAreKorean(params) || isKoreanStorySlug((params as { slug?: string } | undefined)?.slug ?? "")
+  ),
+  (params) => paramsAreItalian(params) || isItalianStorySlug((params as { slug?: string } | undefined)?.slug ?? "")
 );
 
 const AuthStack = createNativeStackNavigator<AuthStackParamList>();
@@ -193,7 +206,9 @@ function AppNavigator() {
               ? `${route.params.germanLevel.toUpperCase()} Stories`
               : route.params?.portugueseLevel
                 ? `${route.params.portugueseLevel.toUpperCase()} Stories`
-                : `${getReadingLevel(route.params?.levelPath ?? "a1").code} Readings`,
+                : route.params?.italianLevel
+                  ? "Italian stories"
+                  : `${getReadingLevel(route.params?.levelPath ?? "a1").code} Readings`,
         })}
       />
       <AppStack.Screen name="StoryReader" component={StoryReader} options={{ title: "" }} />
@@ -222,6 +237,13 @@ function AppNavigator() {
       />
       <AppStack.Screen name="KoreanRoots" component={KoreanRoots} options={{ title: "Word Roots" }} />
       <AppStack.Screen name="KoreanRootsLevel" component={KoreanRootsLevel} options={{ title: "Word Roots" }} />
+      <AppStack.Screen name="ItalianPlacement" component={ItalianPlacement} options={{ title: "Italian placement test" }} />
+      <AppStack.Screen name="ItalianConjugation" component={ItalianConjugation} options={{ title: "Italian verb conjugation" }} />
+      <AppStack.Screen
+        name="ItalianGlossary"
+        component={ItalianGlossary}
+        options={({ route }) => ({ title: route.params?.level ? "Italian vocabulary" : "Italian glossary" })}
+      />
     </AppStack.Navigator>
   );
 }

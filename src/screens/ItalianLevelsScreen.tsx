@@ -162,6 +162,12 @@ export default function ItalianLevelsScreen({ navigation }: Props) {
             <Text style={styles.linkBody}>{italianToolsSummary()}</Text>
           </Pressable>
         )}
+        <Pressable style={styles.link} onPress={() => navigation.navigate("ReadingLevels", { lang: "it" })}>
+          <Text style={styles.linkTitle}>Stories</Text>
+          <Text style={styles.linkBody}>
+            Original Italian stories from Beginner to Mastery, with audio and questions. Tap any word for its meaning.
+          </Text>
+        </Pressable>
         <Pressable style={styles.link} onPress={() => navigation.navigate("Flashcards", { lang: "it" })}>
           <Text style={styles.linkTitle}>Flashcards</Text>
           <Text style={styles.linkBody}>Star a word or sentence in any lesson to add it to your Italian flashcards.</Text>

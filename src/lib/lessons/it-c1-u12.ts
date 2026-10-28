@@ -50,7 +50,7 @@ export const IT_C1_U12: Lesson[] = [
           { es: "Non vuol prender moglie.", en: "He doesn't want to take a wife." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into modern Italian.", source: "I couldn't believe my eyes.", answer: "Non credevo ai miei occhi.", altAnswers: ["Io non credevo ai miei occhi."], explanation: "\"Io non credeva a' miei occhi\" modernised: \"credevo\", \"ai\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into modern Italian.", source: "I couldn't believe my eyes.", answer: "Non credevo ai miei occhi.", altAnswers: ["Io non credevo ai miei occhi."], explanation: "\"Io non credeva a' miei occhi\" modernized: \"credevo\", \"ai\"." },
           { type: "translate", direction: "en-es", prompt: "Translate into modern Italian.", source: "One of the thugs came up to him.", answer: "Uno dei bravi gli si avvicinò.", altAnswers: ["Uno dei bravi si avvicinò a lui.", "Uno dei bravi gli si è avvicinato."], explanation: "\"De'\" = \"dei\". \"Bravo\" as a noun meant a hired thug in 1600s Lombardy." },
           { type: "listen-choose", audio: "Era un giovine di vent'anni.", question: "What does it mean?", options: ["He was a young man of twenty.", "He was a giant of twenty.", "He had been young for twenty years.", "He was the youngest of twenty."], correctIndex: 0, explanation: "\"Giovine\" = \"giovane\"." },
         ],
@@ -192,17 +192,17 @@ export const IT_C1_U12: Lesson[] = [
         body: [
           "Chapter 1 introduces the village priest: \"Per una di queste stradicciole, tornava bel bello dalla passeggiata verso casa, sulla sera del giorno 7 novembre dell'anno 1628, don Abbondio, curato d'una delle terre accennate di sopra\". The subject arrives last, after the route, the manner and the date: a deliberate delay that makes his entrance comic.",
           "\"Bel bello\" means calmly, taking his time; \"stradicciola\" is a little lane (the suffix -icciola diminishes and slightly belittles); \"curato\" is a parish priest; \"le terre accennate di sopra\" are the villages mentioned above.",
-          "He is reading his breviary when he sees two men waiting where the path forks. Manzoni comments: what displeased don Abbondio most was realising \"che l'aspettato era lui\" (that the one being waited for was him). \"L'aspettato\" is a past participle used as a noun.",
+          "He is reading his breviary when he sees two men waiting where the path forks. Manzoni comments: what displeased don Abbondio most was realizing \"che l'aspettato era lui\" (that the one being waited for was him). \"L'aspettato\" is a past participle used as a noun.",
         ],
         examples: [
           { es: "Tornava bel bello dalla passeggiata verso casa don Abbondio.", en: "Don Abbondio was strolling home from his walk." },
-          { es: "Era la sera del 7 novembre 1628.", en: "It was the evening of 7 November 1628." },
+          { es: "Era la sera del 7 novembre 1628.", en: "It was the evening of November 7, 1628." },
           { es: "Due uomini stavano ad aspettare qualcuno.", en: "Two men were waiting for someone." },
-          { es: "Si accorse che l'aspettato era lui.", en: "He realised that he was the one they were waiting for." },
+          { es: "Si accorse che l'aspettato era lui.", en: "He realized that he was the one they were waiting for." },
           { es: "Per quella stradicciola passava ogni sera.", en: "He walked along that little lane every evening." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He realised that the two men were waiting for him.", answer: "Si accorse che i due uomini aspettavano lui.", altAnswers: ["Si rese conto che i due uomini aspettavano lui.", "Si accorse che i due uomini stavano aspettando lui.", "Si è accorto che i due uomini aspettavano lui.", "Si accorse che i due uomini lo aspettavano."], explanation: "\"Accorgersi\" = to notice, to realise (never \"realizzare\"). The stressed \"lui\" puts weight on him." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He realized that the two men were waiting for him.", answer: "Si accorse che i due uomini aspettavano lui.", altAnswers: ["Si rese conto che i due uomini aspettavano lui.", "Si accorse che i due uomini stavano aspettando lui.", "Si è accorto che i due uomini aspettavano lui.", "Si accorse che i due uomini lo aspettavano."], explanation: "\"Accorgersi\" = to notice, to realize (never \"realizzare\"). The stressed \"lui\" puts weight on him." },
           { type: "multiple-choice", question: "Why does Manzoni put \"don Abbondio\" at the end of his first sentence about him?", options: ["To delay and slightly mock his entrance", "Because Italian requires the subject last", "Because the priest is unimportant", "To hide who is walking"], correctIndex: 0, explanation: "The inversion builds a leisurely, ironic portrait before the threat." },
         ],
       },
@@ -248,11 +248,11 @@ export const IT_C1_U12: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Don Abbondio isn't a villain, only a coward.", answer: "Don Abbondio non è un malvagio, è solo un vigliacco.", altAnswers: ["Don Abbondio non è cattivo, è solo un vigliacco.", "Don Abbondio non è un cattivo, ma solo un vigliacco.", "Don Abbondio non è un malvagio, ma solo un codardo.", "Don Abbondio non è un cattivo, è solo un codardo.", "Don Abbondio non è un malvagio, è solo un codardo."], explanation: "\"Vigliacco\" or \"codardo\" = coward." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The thugs work for don Rodrigo.", answer: "I bravi lavorano per don Rodrigo.", altAnswers: ["I bravi sono al servizio di don Rodrigo."], explanation: "\"I bravi\": the hired men of a lord in the 1600s." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He was like an earthenware pot among iron pots.", answer: "Era come un vaso di terracotta tra vasi di ferro.", altAnswers: ["Era come un vaso di terra cotta tra vasi di ferro.", "Era come un vaso di coccio tra vasi di ferro.", "Era come un vaso di terracotta fra vasi di ferro."], explanation: "Manzoni's famous image of the weak among the powerful." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He realised that [he was the one they were waiting for].", sentence: "Si accorse che ___.", answer: "l'aspettato era lui", altAnswers: ["aspettavano lui", "aspettavano proprio lui"], explanation: "Manzoni's \"l'aspettato era lui\": a participle used as a noun." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He realized that [he was the one they were waiting for].", sentence: "Si accorse che ___.", answer: "l'aspettato era lui", altAnswers: ["aspettavano lui", "aspettavano proprio lui"], explanation: "Manzoni's \"l'aspettato era lui\": a participle used as a noun." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He was walking home [calmly].", sentence: "Tornava a casa ___.", answer: "bel bello", altAnswers: ["con calma", "tranquillamente", "tranquillo"], explanation: "\"Bel bello\" = slowly, unhurried." },
       { type: "word-order", prompt: "Put the words in order to say: The narrator comments on the events with irony.", words: ["Il", "narratore", "commenta", "i", "fatti", "con", "ironia."], translation: "The narrator comments on the events with irony.", explanation: "\"Commentare\" takes a direct object." },
       { type: "multiple-choice", question: "\"Non s'ha da fare\" corresponds to which modern form?", options: ["non si deve fare", "non si ha fatto", "non si fa da sé", "non ha niente da fare"], correctIndex: 0, explanation: "\"Avere da\" + infinitive = \"dovere\"." },
-      { type: "multiple-choice", question: "Your colleague says \"Questa riunione non s'ha da fare!\" about a meeting cancelled for the third time. What is she doing?", options: ["Joking with a quotation from Manzoni", "Giving a formal order", "Speaking a northern dialect", "Making a grammar mistake"], correctIndex: 0, explanation: "The line is quoted humorously about anything that keeps being blocked." },
+      { type: "multiple-choice", question: "Your colleague says \"Questa riunione non s'ha da fare!\" about a meeting canceled for the third time. What is she doing?", options: ["Joking with a quotation from Manzoni", "Giving a formal order", "Speaking a northern dialect", "Making a grammar mistake"], correctIndex: 0, explanation: "The line is quoted humorously about anything that keeps being blocked." },
       { type: "dictation", audio: "Il coraggio, uno non se lo può dare.", explanation: "Don Abbondio's excuse, now a proverb." },
       { type: "speak", text: "Questo matrimonio non s'ha da fare, né domani, né mai.", prompt: "Say the bravo's threat aloud, slowly and menacingly.", tip: "Stress the rhythm: né do-MA-ni, né MAI.", explanation: "The most quoted line of the novel." },
     ],
@@ -359,7 +359,7 @@ export const IT_C1_U12: Lesson[] = [
       {
         heading: "C'era una volta un pezzo di legno",
         body: [
-          "Carlo Lorenzini (1826-1890) took his pen name from Collodi, his mother's village in Tuscany. Le avventure di Pinocchio came out in instalments in a children's magazine from 1881 and as a book in 1883. It is one of the most translated books in the world.",
+          "Carlo Lorenzini (1826-1890) took his pen name from Collodi, his mother's village in Tuscany. Le avventure di Pinocchio came out in installments in a children's magazine from 1881 and as a book in 1883. It is one of the most translated books in the world.",
           "It begins by playing with the reader: \"C'era una volta... – Un re! – diranno subito i miei piccoli lettori. – No, ragazzi, avete sbagliato. C'era una volta un pezzo di legno.\" The narrator talks to children directly, guesses their reaction and corrects it, and the tone is lively and spoken.",
           "The wood is nothing special: \"Non era un legno di lusso, ma un semplice pezzo da catasta, di quelli che d'inverno si mettono nelle stufe\". Note \"da catasta\" (for the woodpile): \"da\" + noun expresses purpose, as in \"legna da ardere\".",
         ],
@@ -380,7 +380,7 @@ export const IT_C1_U12: Lesson[] = [
         heading: "Maestro Ciliegia and Geppetto",
         body: [
           "The wood falls into the hands of a carpenter, maestro Antonio, whom everyone calls \"maestro Ciliegia\" because the tip of his nose is always shiny and purple, like a ripe cherry. When he tries to carve it, the wood cries out. Terrified, he gives it to his friend Geppetto, who wants to make a wonderful puppet and travel the world with it.",
-          "The children of the neighbourhood call Geppetto \"Polendina\" because his yellow wig looks like polenta, and he flies into a rage at the nickname. The two old men end up fighting on the floor, then make peace. This slapstick comes straight from Tuscan popular comedy.",
+          "The children of the neighborhood call Geppetto \"Polendina\" because his yellow wig looks like polenta, and he flies into a rage at the nickname. The two old men end up fighting on the floor, then make peace. This slapstick comes straight from Tuscan popular comedy.",
           "Collodi writes the Italian of Florence in his time: \"babbo\" (dad, still used in Tuscany), \"uscio\" (door), \"garbare\" (to please), \"punto\" for at all (\"non mi garba punto\" = I don't like it one bit), \"codesto\" (that, near you).",
         ],
         examples: [
@@ -443,12 +443,12 @@ export const IT_C1_U12: Lesson[] = [
     level: "IT-C1",
     number: 6,
     title: "Drill: Literary Forms",
-    summary: "Recognise and modernise the forms of 1800s prose at speed: enclitics, shortened words, old spellings and the old imperfetto.",
+    summary: "Recognize and modernize the forms of 1800s prose at speed: enclitics, shortened words, old spellings and the old imperfetto.",
     duration: "25 min",
     kind: "drill",
     sections: [
       {
-        heading: "Peel, restore, modernise",
+        heading: "Peel, restore, modernize",
         body: [
           "Enclitic → pronoun in front: \"dissegli\" = \"gli disse\". Shortened → full: \"vien\" = \"viene\". Apostrophe → article: \"de'\" = \"dei\". Old spelling → modern: \"lagrime\" = \"lacrime\". Old imperfetto → modern: \"io era\" = \"io ero\".",
         ],
@@ -537,7 +537,7 @@ export const IT_C1_U12: Lesson[] = [
           "Write the commentary in the present tense, even about a book from 1840: \"Manzoni descrive il lago\", \"Verga denuncia lo sfruttamento dei bambini\". The present is the tense of analysis; keep the past for biography (\"Verga nacque a Catania nel 1840\").",
         ],
         examples: [
-          { es: "Verga denuncia lo sfruttamento del lavoro minorile.", en: "Verga exposes the exploitation of child labour." },
+          { es: "Verga denuncia lo sfruttamento del lavoro minorile.", en: "Verga exposes the exploitation of child labor." },
           { es: "Dal testo emerge una visione pessimistica.", en: "A pessimistic vision emerges from the text." },
           { es: "L'immagine evoca la fragilità dell'uomo.", en: "The image evokes human fragility." },
           { es: "Verga nacque a Catania nel 1840.", en: "Verga was born in Catania in 1840." },
@@ -708,7 +708,7 @@ export const IT_C1_U12: Lesson[] = [
           { es: "Per una di queste stradicciole tornava bel bello verso casa don Abbondio.", en: "Along one of these little lanes don Abbondio was strolling home. (Manzoni)" },
           { es: "Malpelo si chiamava così perché aveva i capelli rossi.", en: "Malpelo was called that because he had red hair. (Verga)" },
           { es: "Babbo, babbo, aprimi!", en: "Dad, dad, let me in! (Collodi)" },
-          { es: "Il curato si accorse che l'aspettato era lui.", en: "The priest realised he was the one being waited for. (Manzoni)" },
+          { es: "Il curato si accorse che l'aspettato era lui.", en: "The priest realized he was the one being waited for. (Manzoni)" },
         ],
         checkpoint: [
           { type: "listen-choose", audio: "Babbo, babbo, aprimi! Sono io, il tuo Pinocchio!", question: "Who is speaking, and to whom?", options: ["Pinocchio, to Geppetto", "Geppetto, to Pinocchio", "Don Abbondio, to a bravo", "Malpelo, to his mother"], correctIndex: 0, explanation: "\"Babbo\" and \"Pinocchio\" give it away." },
@@ -742,7 +742,7 @@ export const IT_C1_U12: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He was walking home [calmly].", sentence: "Tornava a casa ___.", answer: "bel bello", altAnswers: ["con calma", "tranquillamente"], explanation: "Manzoni's \"bel bello\"." },
       { type: "word-order", prompt: "Put the words in order to say: People are made like the fingers of a hand.", words: ["Gli", "uomini", "sono", "fatti", "come", "le", "dita", "della", "mano."], translation: "People are made like the fingers of a hand.", explanation: "\"Le dita\": irregular feminine plural of \"il dito\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The reader hears the voice of the village.", answer: "Il lettore sente la voce del paese.", altAnswers: ["Il lettore sente la voce del villaggio.", "Il lettore ascolta la voce del paese."], explanation: "\"Il paese\" also means village." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The priest realised [he was the one being waited for].", sentence: "Il curato si accorse che ___.", answer: "l'aspettato era lui", altAnswers: ["aspettavano lui", "aspettavano proprio lui"], explanation: "Manzoni's participle used as a noun." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The priest realized [he was the one being waited for].", sentence: "Il curato si accorse che ___.", answer: "l'aspettato era lui", altAnswers: ["aspettavano lui", "aspettavano proprio lui"], explanation: "Manzoni's participle used as a noun." },
       { type: "multiple-choice", question: "A reading has short clauses, a proverb and Sicilian fishermen. Who is the most likely author?", options: ["Verga", "Manzoni", "Collodi", "Svevo"], correctIndex: 0, explanation: "Verga's verismo." },
       { type: "dictation", audio: "Il lettore, che ha avuto la pazienza di seguirci, ci perdonerà.", explanation: "A relative clause between commas." },
       { type: "speak", text: "Per una di queste stradicciole, tornava bel bello dalla passeggiata verso casa don Abbondio.", prompt: "Read Manzoni's sentence aloud, slowly, with a pause at the comma.", tip: "Stra-dic-CIO-le: double c, soft.", explanation: "The subject arrives last." },

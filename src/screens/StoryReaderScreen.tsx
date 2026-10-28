@@ -41,8 +41,8 @@ type Props = NativeStackScreenProps<AppStackParamList, "StoryReader">;
 // story, so this reuses it exactly as-is (same table, same columns).
 export default function StoryReaderScreen({ route, navigation }: Props) {
   const { slug } = route.params;
-  // A French-, German-, Portuguese- or Korean-course story (slug
-  // "fr-..."/"de-..."/"pt-..."/"ko-...", levelPath "fr/a1" ...) comes from
+  // A French-, German-, Portuguese-, Korean- or Italian-course story (slug
+  // "fr-..."/"de-..."/"pt-..."/"ko-..."/"it-...", levelPath "fr/a1" ...) comes from
   // that course's stories, loaded on demand
   // (stories/courseStories.ts): text in the course language and
   // English questions.
@@ -315,7 +315,7 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
     <View style={s.container}>
       <ScrollView style={s.container} contentContainerStyle={s.content}>
         <Text style={s.kicker}>
-          {/* Korean levels by name ("Beginner" ...), never the code. */}
+          {/* Korean and Italian levels by name ("Beginner" ...), never the code. */}
           {courseConfig?.namedLevels && found && "levelLabel" in found ? found.levelLabel : story.band ?? story.level} · {storyKind(story)}
           {readinessLabel(story.slug) ? ` · ${readinessLabel(story.slug)}` : ""}
         </Text>

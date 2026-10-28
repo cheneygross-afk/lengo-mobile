@@ -1,17 +1,20 @@
 // The French and German courses', the Brazilian Portuguese course's and the
-// Korean beta's stories behind one interface, for the shared story screens
-// (ReadingLevels, ReadingsList, StoryReader). Each course's stories load on
-// demand (stories/french.ts, stories/german.ts, stories/portuguese.ts,
-// stories/korean.ts): only that course's readers need them.
+// Korean and Italian betas' stories behind one interface, for the shared
+// story screens (ReadingLevels, ReadingsList, StoryReader). Each course's
+// stories load on demand (stories/french.ts, stories/german.ts,
+// stories/portuguese.ts, stories/korean.ts, stories/italian.ts): only that
+// course's readers need them.
 import type { Story, StoryGloss } from "./types";
 import { findFrenchStory, frenchStoriesIfLoaded, isFrenchStorySlug, loadFrenchStories } from "./french";
 import { findGermanStory, germanStoriesIfLoaded, isGermanStorySlug, loadGermanStories } from "./german";
 import { findPortugueseStory, isPortugueseStorySlug, loadPortugueseStories, portugueseStoriesIfLoaded } from "./portuguese";
 import { findKoreanStory, isKoreanStorySlug, koreanStoriesIfLoaded, loadKoreanStories } from "./korean";
-import { FRENCH_LANG, GERMAN_LANG, KOREAN_LANG, PORTUGUESE_LANG, type SpeechLang } from "@/lib/speech";
+import { findItalianStory, isItalianStorySlug, italianStoriesIfLoaded, loadItalianStories } from "./italian";
+import { FRENCH_LANG, GERMAN_LANG, ITALIAN_LANG, KOREAN_LANG, PORTUGUESE_LANG, type SpeechLang } from "@/lib/speech";
 
-// "ko" is the Korean beta: its screens are gated (withKoreanBeta.tsx).
-export type StoryCourse = "fr" | "de" | "pt" | "ko";
+// "ko" is the Korean beta: its screens are gated (withKoreanBeta.tsx); "it"
+// the Italian beta, the same way (withItalianBeta.tsx).
+export type StoryCourse = "fr" | "de" | "pt" | "ko" | "it";
 
 export type CourseStoryLevel = {
   path: "a1" | "a2" | "b1" | "b2" | "c1" | "c2";
@@ -27,13 +30,13 @@ export type CourseStories = {
 
 export type StoryCourseConfig = {
   course: StoryCourse;
-  /** "French", "German", "Portuguese", "Korean". */
+  /** "French", "German", "Portuguese", "Korean", "Italian". */
   name: string;
   lang: SpeechLang;
   /** The translator direction for a tapped word. */
-  direction: "fr-en" | "de-en" | "pt-en" | "ko-en";
+  direction: "fr-en" | "de-en" | "pt-en" | "ko-en" | "it-en";
   /** Levels are shown by name only ("Beginner" ... "Mastery"), never by
-   * code: the Korean course's. */
+   * code: the Korean and Italian courses'. */
   namedLevels: boolean;
   /** The story levels whose key words are listed under the text. */
   keyWordLevels: string[];
@@ -96,6 +99,19 @@ export const STORY_COURSES: Record<StoryCourse, StoryCourseConfig> = {
     isSlug: isKoreanStorySlug,
     namedLevels: true,
   },
+  it: {
+    course: "it",
+    name: "Italian",
+    lang: ITALIAN_LANG,
+    direction: "it-en",
+    // The key-word box under the first two levels' texts, as for Portuguese.
+    keyWordLevels: ["IT-A1", "IT-A2"],
+    load: loadItalianStories,
+    ifLoaded: italianStoriesIfLoaded,
+    find: findItalianStory,
+    isSlug: isItalianStorySlug,
+    namedLevels: true,
+  },
 };
 
 /** The course a story belongs to, from its slug or levelPath; null for a
@@ -105,5 +121,6 @@ export function storyCourseOf(slug: string, levelPath?: string): StoryCourse | n
   if (isGermanStorySlug(slug) || levelPath?.startsWith("de/")) return "de";
   if (isPortugueseStorySlug(slug) || levelPath?.startsWith("pt/")) return "pt";
   if (isKoreanStorySlug(slug) || levelPath?.startsWith("ko/")) return "ko";
+  if (isItalianStorySlug(slug) || levelPath?.startsWith("it/")) return "it";
   return null;
 }

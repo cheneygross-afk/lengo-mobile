@@ -17,7 +17,7 @@ export const IT_C1_U14: Lesson[] = [
       {
         heading: "Three men, three ideas of Italy",
         body: [
-          "\"Il Risorgimento\" (the resurgence) is the movement that unified Italy in the 1800s. Before it, the peninsula was divided: the Kingdom of Sardinia (Piedmont and Sardinia, under the Savoy family), Austrian Lombardy and Veneto, the Papal States in the centre, the Kingdom of the Two Sicilies in the south, and several duchies.",
+          "\"Il Risorgimento\" (the resurgence) is the movement that unified Italy in the 1800s. Before it, the peninsula was divided: the Kingdom of Sardinia (Piedmont and Sardinia, under the Savoy family), Austrian Lombardy and Veneto, the Papal States in the center, the Kingdom of the Two Sicilies in the south, and several duchies.",
           "Three figures shaped it. Giuseppe Mazzini, a Genoese idealist, founded \"la Giovine Italia\" in 1831 and dreamed of a republic born from the people. Camillo Benso, conte di Cavour, prime minister of Piedmont, was a pragmatic diplomat who won French support against Austria. Giuseppe Garibaldi, a soldier and adventurer, led volunteers into battle. \"Giovine\" is the older form of \"giovane\" that you met in the literature unit.",
           "History books narrate in the passato remoto: \"Mazzini fondò\", \"Cavour ottenne\", \"Garibaldi guidò\". The imperfetto describes situations: \"l'Italia era divisa\".",
         ],
@@ -30,7 +30,7 @@ export const IT_C1_U14: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian (history book style).", source: "Mazzini founded Young Italy in 1831.", answer: "Mazzini fondò la Giovine Italia nel 1831.", altAnswers: ["Nel 1831 Mazzini fondò la Giovine Italia.", "Mazzini ha fondato la Giovine Italia nel 1831."], explanation: "Passato remoto for a completed historical event; \"nel\" + year." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Before unification Italy was divided into several states.", answer: "Prima dell'unificazione l'Italia era divisa in più Stati.", altAnswers: ["Prima dell'unificazione l'Italia era divisa in vari Stati.", "Prima dell'unità l'Italia era divisa in più Stati.", "Prima dell'unificazione l'Italia era divisa in diversi Stati.", "Prima dell'unificazione l'Italia era divisa in più stati."], explanation: "Imperfetto for a situation; \"Stato\" is often capitalised for a political state." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Before unification Italy was divided into several states.", answer: "Prima dell'unificazione l'Italia era divisa in più Stati.", altAnswers: ["Prima dell'unificazione l'Italia era divisa in vari Stati.", "Prima dell'unità l'Italia era divisa in più Stati.", "Prima dell'unificazione l'Italia era divisa in diversi Stati.", "Prima dell'unificazione l'Italia era divisa in più stati."], explanation: "Imperfetto for a situation; \"Stato\" is often capitalized for a political state." },
           { type: "multiple-choice", question: "Which statement about Cavour is correct?", options: ["He was a pragmatic prime minister of Piedmont who sought French support.", "He founded Young Italy.", "He led the Thousand to Sicily.", "He wanted a republic born from the people."], correctIndex: 0, explanation: "Mazzini = ideals, Cavour = diplomacy, Garibaldi = action." },
         ],
       },
@@ -38,32 +38,32 @@ export const IT_C1_U14: Lesson[] = [
         heading: "La spedizione dei Mille: the historic present",
         body: [
           "Documentaries and many history books switch to the present to make events vivid: \"il presente storico\". \"Il 5 maggio 1860 Garibaldi parte da Quarto, vicino a Genova, con poco più di mille volontari. L'11 maggio sbarca a Marsala.\" Read it as past; in English you'd usually use the past tense.",
-          "In a few months the Thousand conquer Sicily and march north to Naples. On 26 October 1860, at Teano, Garibaldi meets King Vittorio Emanuele II and hands over the conquered South. The Kingdom of Italy is proclaimed on 17 March 1861, with Turin as capital.",
+          "In a few months the Thousand conquer Sicily and march north to Naples. On October 26, 1860, at Teano, Garibaldi meets King Vittorio Emanuele II and hands over the conquered South. The Kingdom of Italy is proclaimed on March 17, 1861, with Turin as capital.",
           "Choose one system and keep it: either passato remoto throughout, or historic present throughout. Mixing them in one paragraph is a common error in student writing.",
         ],
         examples: [
-          { es: "Il 5 maggio 1860 Garibaldi parte da Quarto con poco più di mille volontari.", en: "On 5 May 1860 Garibaldi set off from Quarto with just over a thousand volunteers." },
-          { es: "L'11 maggio i Mille sbarcano a Marsala.", en: "On 11 May the Thousand landed at Marsala." },
+          { es: "Il 5 maggio 1860 Garibaldi parte da Quarto con poco più di mille volontari.", en: "On May 5, 1860 Garibaldi set off from Quarto with just over a thousand volunteers." },
+          { es: "L'11 maggio i Mille sbarcano a Marsala.", en: "On May 11 the Thousand landed at Marsala." },
           { es: "A Teano Garibaldi incontra il re e gli consegna il Sud.", en: "At Teano Garibaldi met the king and handed the South over to him." },
-          { es: "Il Regno d'Italia fu proclamato il 17 marzo 1861.", en: "The Kingdom of Italy was proclaimed on 17 March 1861." },
+          { es: "Il Regno d'Italia fu proclamato il 17 marzo 1861.", en: "The Kingdom of Italy was proclaimed on March 17, 1861." },
           { es: "La prima capitale fu Torino.", en: "The first capital was Turin." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian using the historic present.", source: "On 11 May the Thousand land at Marsala.", answer: "L'11 maggio i Mille sbarcano a Marsala.", altAnswers: ["Il giorno 11 maggio i Mille sbarcano a Marsala."], explanation: "\"L'11\": elision before \"undici\"; historic present \"sbarcano\"." },
-          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The Kingdom of Italy [was proclaimed] on 17 March 1861.", sentence: "Il Regno d'Italia ___ il 17 marzo 1861.", answer: "fu proclamato", altAnswers: ["venne proclamato", "è stato proclamato", "viene proclamato"], explanation: "Passive in the passato remoto: \"fu\" or \"venne\" + participle." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian using the historic present.", source: "On May 11 the Thousand land at Marsala.", answer: "L'11 maggio i Mille sbarcano a Marsala.", altAnswers: ["Il giorno 11 maggio i Mille sbarcano a Marsala."], explanation: "\"L'11\": elision before \"undici\"; historic present \"sbarcano\"." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The Kingdom of Italy [was proclaimed] on March 17, 1861.", sentence: "Il Regno d'Italia ___ il 17 marzo 1861.", answer: "fu proclamato", altAnswers: ["venne proclamato", "è stato proclamato", "viene proclamato"], explanation: "Passive in the passato remoto: \"fu\" or \"venne\" + participle." },
           { type: "listen-choose", audio: "Il 5 maggio 1860 Garibaldi parte da Quarto con poco più di mille volontari.", question: "What does the sentence describe?", options: ["Garibaldi leaving with about a thousand volunteers in 1860", "Garibaldi arriving in Rome in 1870", "A battle in May 1861", "Garibaldi meeting the king"], correctIndex: 0, explanation: "Historic present: \"parte\" = he set off." },
         ],
       },
       {
         heading: "Completing unity",
         body: [
-          "Veneto joined in 1866, after a war against Austria. During that war Garibaldi, ordered to withdraw when he was winning, answered with one word: \"Obbedisco\" (I obey), a famous example of discipline. Rome, protected by French troops, was taken on 20 September 1870 through the \"breccia di Porta Pia\", and became the capital in 1871.",
+          "Veneto joined in 1866, after a war against Austria. During that war Garibaldi, ordered to withdraw when he was winning, answered with one word: \"Obbedisco\" (I obey), a famous example of discipline. Rome, protected by French troops, was taken on September 20, 1870 through the \"breccia di Porta Pia\", and became the capital in 1871.",
           "The phrase \"Abbiamo fatto l'Italia, ora dobbiamo fare gli italiani\" (we have made Italy, now we must make Italians), traditionally attributed to Massimo d'Azeglio, sums up the problem of the new state: different dialects, economies and loyalties. When a quotation's source is uncertain, write \"attribuita a\".",
         ],
         examples: [
           { es: "Il Veneto fu annesso nel 1866.", en: "Veneto was annexed in 1866." },
           { es: "Garibaldi rispose con una sola parola: «Obbedisco».", en: "Garibaldi answered with a single word: 'I obey.'" },
-          { es: "Le truppe italiane entrarono a Roma il 20 settembre 1870.", en: "Italian troops entered Rome on 20 September 1870." },
+          { es: "Le truppe italiane entrarono a Roma il 20 settembre 1870.", en: "Italian troops entered Rome on September 20, 1870." },
           { es: "Roma divenne capitale nel 1871.", en: "Rome became the capital in 1871." },
           { es: "La frase è tradizionalmente attribuita a Massimo d'Azeglio.", en: "The phrase is traditionally attributed to Massimo d'Azeglio." },
         ],
@@ -78,7 +78,7 @@ export const IT_C1_U14: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Cavour obtained France's support against Austria.", answer: "Cavour ottenne l'appoggio della Francia contro l'Austria.", altAnswers: ["Cavour ottenne il sostegno della Francia contro l'Austria.", "Cavour ha ottenuto l'appoggio della Francia contro l'Austria."], explanation: "\"Ottenere\" → \"ottenne\"; countries take the article." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian using the historic present.", source: "At Teano Garibaldi meets the king.", answer: "A Teano Garibaldi incontra il re.", altAnswers: ["Garibaldi incontra il re a Teano."], explanation: "Historic present." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Veneto was annexed in 1866.", answer: "Il Veneto fu annesso nel 1866.", altAnswers: ["Il Veneto venne annesso nel 1866.", "Il Veneto è stato annesso nel 1866."], explanation: "Regions take the article: \"il Veneto\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Italian troops entered Rome on 20 September 1870.", answer: "Le truppe italiane entrarono a Roma il 20 settembre 1870.", altAnswers: ["Il 20 settembre 1870 le truppe italiane entrarono a Roma.", "Le truppe italiane sono entrate a Roma il 20 settembre 1870."], explanation: "\"Il\" + day + month, lower case." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Italian troops entered Rome on September 20, 1870.", answer: "Le truppe italiane entrarono a Roma il 20 settembre 1870.", altAnswers: ["Il 20 settembre 1870 le truppe italiane entrarono a Roma.", "Le truppe italiane sono entrate a Roma il 20 settembre 1870."], explanation: "\"Il\" + day + month, lower case." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Mazzini [dreamed of] a republic.", sentence: "Mazzini ___ una repubblica.", answer: "sognava", explanation: "Imperfetto for a lasting wish; \"sognare\" takes a direct object." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Garibaldi answered [with a single word].", sentence: "Garibaldi rispose ___.", answer: "con una sola parola", altAnswers: ["con un'unica parola"], explanation: "\"Solo\" before the noun = single." },
       { type: "word-order", prompt: "Put the words in order to say: The first capital was Turin.", words: ["La", "prima", "capitale", "fu", "Torino."], translation: "The first capital was Turin.", altOrders: [["Torino", "fu", "la", "prima", "capitale."]], explanation: "Passato remoto of \"essere\": \"fu\"." },
@@ -129,19 +129,19 @@ export const IT_C1_U14: Lesson[] = [
       {
         heading: "War, the 8th of September and the Resistenza",
         body: [
-          "Italy entered the Second World War on 10 June 1940 alongside Nazi Germany. After the Allied landing in Sicily, Mussolini was removed on 25 July 1943. On 8 September 1943 the armistice with the Allies was announced; the king fled south, the army was left without orders, and German troops occupied the centre and north. \"L'otto settembre\" still means collapse and confusion.",
-          "Then came \"la Resistenza\": partisan groups of very different political views fought the Germans and the fascists of the Repubblica Sociale. On 25 April 1945 the National Liberation Committee called a general insurrection in the north; \"il 25 aprile\" is today's \"Festa della Liberazione\".",
+          "Italy entered the Second World War on June 10, 1940 alongside Nazi Germany. After the Allied landing in Sicily, Mussolini was removed on July 25, 1943. On September 8, 1943 the armistice with the Allies was announced; the king fled south, the army was left without orders, and German troops occupied the center and north. \"L'otto settembre\" still means collapse and confusion.",
+          "Then came \"la Resistenza\": partisan groups of very different political views fought the Germans and the fascists of the Repubblica Sociale. On April 25, 1945 the National Liberation Committee called a general insurrection in the north; \"il 25 aprile\" is today's \"Festa della Liberazione\".",
         ],
         examples: [
-          { es: "L'Italia entrò nella Seconda guerra mondiale il 10 giugno 1940.", en: "Italy entered the Second World War on 10 June 1940." },
-          { es: "Il 25 luglio 1943 Mussolini fu destituito.", en: "On 25 July 1943 Mussolini was removed from office." },
-          { es: "Dopo l'8 settembre l'esercito rimase senza ordini.", en: "After 8 September the army was left without orders." },
+          { es: "L'Italia entrò nella Seconda guerra mondiale il 10 giugno 1940.", en: "Italy entered the Second World War on June 10, 1940." },
+          { es: "Il 25 luglio 1943 Mussolini fu destituito.", en: "On July 25, 1943 Mussolini was removed from office." },
+          { es: "Dopo l'8 settembre l'esercito rimase senza ordini.", en: "After September 8 the army was left without orders." },
           { es: "I partigiani combatterono contro i tedeschi e i fascisti.", en: "The partisans fought against the Germans and the fascists." },
-          { es: "Il 25 aprile si festeggia la Liberazione.", en: "On 25 April Italians celebrate the Liberation." },
+          { es: "Il 25 aprile si festeggia la Liberazione.", en: "On April 25 Italians celebrate the Liberation." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "After 8 September the army was left without orders.", answer: "Dopo l'8 settembre l'esercito rimase senza ordini.", altAnswers: ["Dopo l'otto settembre l'esercito rimase senza ordini.", "Dopo l'8 settembre l'esercito restò senza ordini.", "Dopo l'8 settembre l'esercito è rimasto senza ordini."], explanation: "\"L'8\": elision before \"otto\"; \"rimanere senza\" = to be left without." },
-          { type: "listen-choose", audio: "Il 25 aprile si festeggia la Liberazione dal nazifascismo.", question: "What is celebrated on 25 April?", options: ["The Liberation", "The Republic", "Unification", "The Constitution"], correctIndex: 0, explanation: "\"Festa della Liberazione\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "After September 8 the army was left without orders.", answer: "Dopo l'8 settembre l'esercito rimase senza ordini.", altAnswers: ["Dopo l'otto settembre l'esercito rimase senza ordini.", "Dopo l'8 settembre l'esercito restò senza ordini.", "Dopo l'8 settembre l'esercito è rimasto senza ordini."], explanation: "\"L'8\": elision before \"otto\"; \"rimanere senza\" = to be left without." },
+          { type: "listen-choose", audio: "Il 25 aprile si festeggia la Liberazione dal nazifascismo.", question: "What is celebrated on April 25?", options: ["The Liberation", "The Republic", "Unification", "The Constitution"], correctIndex: 0, explanation: "\"Festa della Liberazione\"." },
         ],
       },
       {
@@ -165,7 +165,7 @@ export const IT_C1_U14: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Italy entered the war in 1915.", answer: "L'Italia entrò in guerra nel 1915.", altAnswers: ["L'Italia è entrata in guerra nel 1915.", "Nel 1915 l'Italia entrò in guerra."], explanation: "\"Entrare in guerra\" with \"essere\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "After the March on Rome, Mussolini formed the government.", answer: "Dopo la marcia su Roma, Mussolini formò il governo.", altAnswers: ["Dopo la marcia su Roma Mussolini formò il governo.", "Dopo la marcia su Roma, Mussolini ha formato il governo."], explanation: "\"Formare il governo\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "On 25 July 1943 Mussolini was removed from office.", answer: "Il 25 luglio 1943 Mussolini fu destituito.", altAnswers: ["Il 25 luglio 1943 Mussolini venne destituito.", "Il 25 luglio 1943 Mussolini fu deposto.", "Il 25 luglio 1943 Mussolini è stato destituito."], explanation: "\"Destituire\" = to remove from office." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "On July 25, 1943 Mussolini was removed from office.", answer: "Il 25 luglio 1943 Mussolini fu destituito.", altAnswers: ["Il 25 luglio 1943 Mussolini venne destituito.", "Il 25 luglio 1943 Mussolini fu deposto.", "Il 25 luglio 1943 Mussolini è stato destituito."], explanation: "\"Destituire\" = to remove from office." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The partisans fought against the Germans.", answer: "I partigiani combatterono contro i tedeschi.", altAnswers: ["I partigiani hanno combattuto contro i tedeschi."], explanation: "\"Combattere\" → \"combatterono\"; nationalities lower case." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In the 1960s incomes grew rapidly.", answer: "Negli anni Sessanta il reddito crebbe rapidamente.", altAnswers: ["Negli anni Sessanta i redditi crebbero rapidamente.", "Negli anni '60 il reddito crebbe rapidamente.", "Negli anni Sessanta il reddito è cresciuto rapidamente."], explanation: "\"Crescere\" → \"crebbe\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The regime [established] a dictatorship.", sentence: "Il regime ___ una dittatura.", answer: "instaurò", altAnswers: ["impose", "ha instaurato"], explanation: "\"Instaurare\" = to establish (a regime)." },
@@ -183,7 +183,7 @@ export const IT_C1_U14: Lesson[] = [
         ],
         explanation: "Key dates of the century.",
       },
-      { type: "multiple-choice", question: "\"Si è sentito come un otto settembre\" suggests that he felt ...", options: ["abandoned and lost", "victorious", "patriotic", "on holiday"], correctIndex: 0, explanation: "8 September 1943 = collapse and confusion." },
+      { type: "multiple-choice", question: "\"Si è sentito come un otto settembre\" suggests that he felt ...", options: ["abandoned and lost", "victorious", "patriotic", "on vacation"], correctIndex: 0, explanation: "September 8, 1943 = collapse and confusion." },
       { type: "dictation", audio: "Il 25 aprile si festeggia la Liberazione.", explanation: "\"Si festeggia\": impersonal." },
       { type: "speak", text: "Negli anni Sessanta l'Italia si trasformò: milioni di persone lasciarono il Sud per le fabbriche del Nord.", prompt: "Say it in Italian: In the 1960s Italy transformed itself: millions of people left the South for the factories of the North.", tip: "Las-cia-RO-no: stress on RO in the passato remoto plural.", explanation: "The boom in one sentence." },
     ],
@@ -193,22 +193,22 @@ export const IT_C1_U14: Lesson[] = [
     level: "IT-C1",
     number: 3,
     title: "The Republic of 1946",
-    summary: "Tell the story of the referendum of 2 June 1946, the vote for women and the Constituent Assembly.",
+    summary: "Tell the story of the referendum of June 2, 1946, the vote for women and the Constituent Assembly.",
     duration: "19 min",
     sections: [
       {
         heading: "Monarchia o repubblica?",
         body: [
-          "After the war, Italians had to decide whether to keep the Savoy monarchy, which had accepted fascism, or to become a republic. On 2 and 3 June 1946 they voted in a \"referendum istituzionale\". The republic won with about 54 per cent; the monarchy took about 46 per cent. The North voted mostly for the republic, much of the South for the monarchy.",
+          "After the war, Italians had to decide whether to keep the Savoy monarchy, which had accepted fascism, or to become a republic. On 2 and June 3, 1946 they voted in a \"referendum istituzionale\". The republic won with about 54 per cent; the monarchy took about 46 per cent. The North voted mostly for the republic, much of the South for the monarchy.",
           "King Umberto II, who had reigned for barely a month (he is remembered as \"il re di maggio\"), left Italy for exile in Portugal. The 2nd of June became \"la Festa della Repubblica\", a national holiday with a parade in Rome.",
           "Percentages in Italian: \"il 54 per cento\" or \"il 54%\", with the article; decimals with a comma: \"il 54,3 per cento\". \"La maggioranza\" (majority) and \"la minoranza\" take a singular verb: \"la maggioranza votò\".",
         ],
         examples: [
-          { es: "Il 2 giugno 1946 gli italiani scelsero la repubblica.", en: "On 2 June 1946 Italians chose the republic." },
+          { es: "Il 2 giugno 1946 gli italiani scelsero la repubblica.", en: "On June 2, 1946 Italians chose the republic." },
           { es: "La repubblica vinse con circa il 54 per cento dei voti.", en: "The republic won with about 54 per cent of the vote." },
           { es: "La maggioranza del Sud votò per la monarchia.", en: "The majority in the South voted for the monarchy." },
           { es: "Umberto II partì per l'esilio in Portogallo.", en: "Umberto II left for exile in Portugal." },
-          { es: "Il 2 giugno è la Festa della Repubblica.", en: "2 June is Republic Day." },
+          { es: "Il 2 giugno è la Festa della Repubblica.", en: "June 2 is Republic Day." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The republic won with about 54 per cent of the vote.", answer: "La repubblica vinse con circa il 54 per cento dei voti.", altAnswers: ["La repubblica ha vinto con circa il 54 per cento dei voti.", "La repubblica vinse con circa il 54% dei voti.", "La repubblica ha vinto con circa il 54% dei voti."], explanation: "Percentages take the article: \"il 54 per cento\"." },
@@ -219,7 +219,7 @@ export const IT_C1_U14: Lesson[] = [
       {
         heading: "Women vote",
         body: [
-          "1946 was also the first time Italian women voted in a national election (they had voted in some local elections a few months earlier). Newspapers reported long queues and women dressed in their best clothes. The vote, \"il suffragio universale\", had been granted by a decree in 1945.",
+          "1946 was also the first time Italian women voted in a national election (they had voted in some local elections a few months earlier). Newspapers reported long lines and women dressed in their best clothes. The vote, \"il suffragio universale\", had been granted by a decree in 1945.",
           "On the same day Italians elected the \"Assemblea Costituente\", which would write the Constitution. Of its 556 members, 21 were women: today they are remembered as \"le madri costituenti\", alongside the more familiar \"padri costituenti\".",
           "Notice the vocabulary of voting: \"votare\", \"il voto\", \"l'elettore / l'elettrice\", \"le urne\" (the ballot boxes: \"andare alle urne\" = to go to the polls), \"la scheda elettorale\" (ballot paper), \"l'affluenza\" (turnout).",
         ],
@@ -237,13 +237,13 @@ export const IT_C1_U14: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "On 2 June 1946 Italians chose the republic.", answer: "Il 2 giugno 1946 gli italiani scelsero la repubblica.", altAnswers: ["Il 2 giugno 1946 gli italiani hanno scelto la repubblica."], explanation: "\"Scegliere\" → \"scelsero\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "On June 2, 1946 Italians chose the republic.", answer: "Il 2 giugno 1946 gli italiani scelsero la repubblica.", altAnswers: ["Il 2 giugno 1946 gli italiani hanno scelto la repubblica."], explanation: "\"Scegliere\" → \"scelsero\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The king left for exile in Portugal.", answer: "Il re partì per l'esilio in Portogallo.", altAnswers: ["Il re andò in esilio in Portogallo.", "Il re è partito per l'esilio in Portogallo."], explanation: "\"Partire per\" + destination." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Universal suffrage had been introduced in 1945.", answer: "Il suffragio universale era stato introdotto nel 1945.", altAnswers: ["Il suffragio universale fu introdotto nel 1945."], explanation: "Trapassato passive for an earlier event." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Twenty-one women were elected to the Assembly.", answer: "Ventuno donne furono elette all'Assemblea.", altAnswers: ["Ventuno donne vennero elette all'Assemblea.", "Ventuno donne sono state elette all'Assemblea.", "21 donne furono elette all'Assemblea."], explanation: "\"Ventuno donne\": agreement \"elette\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Many Italians went to the polls in their best clothes.", answer: "Molti italiani andarono alle urne con il vestito della festa.", altAnswers: ["Molti italiani andarono alle urne con i vestiti migliori.", "Molti italiani sono andati alle urne con il vestito della festa.", "Molti italiani andarono a votare con il vestito della festa."], explanation: "\"Il vestito della festa\" = Sunday best." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The monarchy took [about 46 per cent].", sentence: "La monarchia ottenne ___.", answer: "circa il 46 per cento", altAnswers: ["circa il 46%", "il 46 per cento circa"], explanation: "Article before the percentage." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "2 June is [Republic Day].", sentence: "Il 2 giugno è la ___.", answer: "Festa della Repubblica", explanation: "The national holiday." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "June 2 is [Republic Day].", sentence: "Il 2 giugno è la ___.", answer: "Festa della Repubblica", explanation: "The national holiday." },
       { type: "word-order", prompt: "Put the words in order to say: The North voted mostly for the republic.", words: ["Il", "Nord", "votò", "soprattutto", "per", "la", "repubblica."], translation: "The North voted mostly for the republic.", explanation: "\"Votare per\"." },
       {
         type: "matching",
@@ -257,9 +257,9 @@ export const IT_C1_U14: Lesson[] = [
         ],
         explanation: "The vocabulary of elections.",
       },
-      { type: "multiple-choice", question: "Who were \"le madri costituenti\"?", options: ["The 21 women elected to the Constituent Assembly", "The queens of the Savoy family", "The mothers of the partisans", "The first women judges"], correctIndex: 0, explanation: "Elected on 2 June 1946." },
+      { type: "multiple-choice", question: "Who were \"le madri costituenti\"?", options: ["The 21 women elected to the Constituent Assembly", "The queens of the Savoy family", "The mothers of the partisans", "The first women judges"], correctIndex: 0, explanation: "Elected on June 2, 1946." },
       { type: "dictation", audio: "Nel 1946 le donne votarono per la prima volta.", explanation: "\"Votarono\": passato remoto plural." },
-      { type: "speak", text: "Il 2 giugno 1946 gli italiani scelsero la repubblica, e le donne votarono per la prima volta.", prompt: "Say it in Italian: On 2 June 1946 Italians chose the republic, and women voted for the first time.", tip: "\"Scelsero\": SCEL-se-ro.", explanation: "The two meanings of 2 June 1946." },
+      { type: "speak", text: "Il 2 giugno 1946 gli italiani scelsero la repubblica, e le donne votarono per la prima volta.", prompt: "Say it in Italian: On June 2, 1946 Italians chose the republic, and women voted for the first time.", tip: "\"Scelsero\": SCEL-se-ro.", explanation: "The two meanings of June 2, 1946." },
     ],
   },
   {
@@ -273,7 +273,7 @@ export const IT_C1_U14: Lesson[] = [
       {
         heading: "Article 1: a Republic founded on work",
         body: [
-          "The Constitution was approved by the Constituent Assembly in December 1947 and came into force on 1 January 1948. Its first twelve articles are \"i principi fondamentali\". Article 1 reads: \"L'Italia è una Repubblica democratica, fondata sul lavoro. La sovranità appartiene al popolo, che la esercita nelle forme e nei limiti della Costituzione.\"",
+          "The Constitution was approved by the Constituent Assembly in December 1947 and came into force on January 1, 1948. Its first twelve articles are \"i principi fondamentali\". Article 1 reads: \"L'Italia è una Repubblica democratica, fondata sul lavoro. La sovranità appartiene al popolo, che la esercita nelle forme e nei limiti della Costituzione.\"",
           "Notice the style: present tense for permanent statements, short declarative sentences, the past participle as adjective (\"fondata\"), and the relative \"che\" with a pronoun (\"che la esercita\": which exercises it, \"la\" = sovereignty). \"Appartenere a\" means to belong to.",
           "Why \"fondata sul lavoro\"? The phrase was a compromise between Catholic, liberal and left-wing members: work, not privilege or birth, is the basis of citizenship.",
         ],
@@ -281,31 +281,31 @@ export const IT_C1_U14: Lesson[] = [
           { es: "L'Italia è una Repubblica democratica, fondata sul lavoro.", en: "Italy is a democratic Republic founded on work." },
           { es: "La sovranità appartiene al popolo.", en: "Sovereignty belongs to the people." },
           { es: "Il popolo la esercita nelle forme e nei limiti della Costituzione.", en: "The people exercise it in the forms and within the limits of the Constitution." },
-          { es: "La Costituzione entrò in vigore il 1° gennaio 1948.", en: "The Constitution came into force on 1 January 1948." },
+          { es: "La Costituzione entrò in vigore il 1° gennaio 1948.", en: "The Constitution came into force on January 1, 1948." },
           { es: "I primi dodici articoli sono i principi fondamentali.", en: "The first twelve articles are the fundamental principles." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Sovereignty belongs to the people.", answer: "La sovranità appartiene al popolo.", explanation: "\"Appartenere a\" = to belong to." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The Constitution came into force on 1 January 1948.", answer: "La Costituzione entrò in vigore il 1° gennaio 1948.", altAnswers: ["La Costituzione è entrata in vigore il 1° gennaio 1948.", "La Costituzione entrò in vigore il primo gennaio 1948.", "La Costituzione è entrata in vigore il primo gennaio 1948.", "La Costituzione entrò in vigore il 1 gennaio 1948."], explanation: "\"Entrare in vigore\" = to come into force; the first of the month is \"il primo\" (1°)." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The Constitution came into force on January 1, 1948.", answer: "La Costituzione entrò in vigore il 1° gennaio 1948.", altAnswers: ["La Costituzione è entrata in vigore il 1° gennaio 1948.", "La Costituzione entrò in vigore il primo gennaio 1948.", "La Costituzione è entrata in vigore il primo gennaio 1948.", "La Costituzione entrò in vigore il 1 gennaio 1948."], explanation: "\"Entrare in vigore\" = to come into force; the first of the month is \"il primo\" (1°)." },
           { type: "listen-choose", audio: "L'Italia è una Repubblica democratica, fondata sul lavoro.", question: "What is the Republic founded on, according to Article 1?", options: ["work", "the family", "the Church", "the army"], correctIndex: 0, explanation: "\"Fondata sul lavoro\"." },
         ],
       },
       {
         heading: "Articles 2, 3 and 4: rights, equality, work",
         body: [
-          "Article 2: \"La Repubblica riconosce e garantisce i diritti inviolabili dell'uomo\" and asks of everyone \"l'adempimento dei doveri inderogabili di solidarietà\" (the fulfilment of the binding duties of solidarity). Rights and duties come together.",
+          "Article 2: \"La Repubblica riconosce e garantisce i diritti inviolabili dell'uomo\" and asks of everyone \"l'adempimento dei doveri inderogabili di solidarietà\" (the fulfillment of the binding duties of solidarity). Rights and duties come together.",
           "Article 3 is the equality article: \"Tutti i cittadini hanno pari dignità sociale e sono eguali davanti alla legge, senza distinzione di sesso, di razza, di lingua, di religione, di opinioni politiche, di condizioni personali e sociali.\" Its second paragraph goes further: the Republic must remove the economic and social obstacles that limit equality in fact. \"Eguali\" is an older spelling of \"uguali\".",
-          "Article 4 recognises \"a tutti i cittadini il diritto al lavoro\". Legal Italian prefers nouns (\"l'adempimento\", \"la distinzione\") and formal verbs (\"riconosce\", \"garantisce\", \"promuove\", \"tutela\").",
+          "Article 4 recognizes \"a tutti i cittadini il diritto al lavoro\". Legal Italian prefers nouns (\"l'adempimento\", \"la distinzione\") and formal verbs (\"riconosce\", \"garantisce\", \"promuove\", \"tutela\").",
         ],
         examples: [
-          { es: "La Repubblica riconosce e garantisce i diritti inviolabili dell'uomo.", en: "The Republic recognises and guarantees the inviolable rights of the person." },
+          { es: "La Repubblica riconosce e garantisce i diritti inviolabili dell'uomo.", en: "The Republic recognizes and guarantees the inviolable rights of the person." },
           { es: "Tutti i cittadini hanno pari dignità sociale e sono eguali davanti alla legge.", en: "All citizens have equal social dignity and are equal before the law." },
           { es: "Senza distinzione di sesso, di razza, di lingua, di religione.", en: "Without distinction of sex, race, language or religion." },
-          { es: "La Repubblica riconosce a tutti i cittadini il diritto al lavoro.", en: "The Republic recognises the right of all citizens to work." },
+          { es: "La Repubblica riconosce a tutti i cittadini il diritto al lavoro.", en: "The Republic recognizes the right of all citizens to work." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "All citizens are equal before the law.", answer: "Tutti i cittadini sono uguali davanti alla legge.", altAnswers: ["Tutti i cittadini sono eguali davanti alla legge."], explanation: "\"Uguali\" (modern) or \"eguali\" (the Constitution's spelling)." },
-          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The Republic [recognises and guarantees] inviolable rights.", sentence: "La Repubblica ___ i diritti inviolabili.", answer: "riconosce e garantisce", explanation: "Formal legal verbs, present tense." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The Republic [recognizes and guarantees] inviolable rights.", sentence: "La Repubblica ___ i diritti inviolabili.", answer: "riconosce e garantisce", explanation: "Formal legal verbs, present tense." },
         ],
       },
       {
@@ -332,7 +332,7 @@ export const IT_C1_U14: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The first twelve articles are the fundamental principles.", answer: "I primi dodici articoli sono i principi fondamentali.", altAnswers: ["I primi 12 articoli sono i principi fondamentali."], explanation: "\"Principi\" (plural of \"principio\") is the usual spelling." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The Republic promotes the development of culture.", answer: "La Repubblica promuove lo sviluppo della cultura.", explanation: "\"Lo sviluppo\": \"lo\" before s + consonant." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Without distinction of sex, language or religion.", answer: "Senza distinzione di sesso, di lingua, di religione.", altAnswers: ["Senza distinzione di sesso, lingua o religione.", "Senza distinzione di sesso, di lingua o di religione."], explanation: "The Constitution repeats \"di\" before each noun." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The flag is green, white and red.", answer: "La bandiera è verde, bianca e rossa.", altAnswers: ["La bandiera è verde, bianco e rosso."], explanation: "Colours agree with \"bandiera\" (\"bianca\", \"rossa\"); as colour names in a list, \"bianco\" and \"rosso\" are also used." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The flag is green, white and red.", answer: "La bandiera è verde, bianca e rossa.", altAnswers: ["La bandiera è verde, bianco e rosso."], explanation: "Colors agree with \"bandiera\" (\"bianca\", \"rossa\"); as color names in a list, \"bianco\" and \"rosso\" are also used." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The law [came into force] in 1948.", sentence: "La legge ___ nel 1948.", answer: "entrò in vigore", altAnswers: ["è entrata in vigore"], explanation: "\"Entrare in vigore\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The people exercise sovereignty [within the limits of] the Constitution.", sentence: "Il popolo esercita la sovranità ___ Costituzione.", answer: "nei limiti della", altAnswers: ["entro i limiti della"], explanation: "\"Nei limiti di\" = within the limits of." },
       { type: "word-order", prompt: "Put the words in order to say: Sovereignty belongs to the people.", words: ["La", "sovranità", "appartiene", "al", "popolo."], translation: "Sovereignty belongs to the people.", explanation: "Article 1, second sentence." },
@@ -344,7 +344,7 @@ export const IT_C1_U14: Lesson[] = [
           { left: "garantire", right: "to guarantee" },
           { left: "ripudiare", right: "to repudiate" },
           { left: "promuovere", right: "to promote" },
-          { left: "riconoscere", right: "to recognise" },
+          { left: "riconoscere", right: "to recognize" },
         ],
         explanation: "The verbs of the fundamental principles.",
       },
@@ -370,12 +370,12 @@ export const IT_C1_U14: Lesson[] = [
         examples: [
           { es: "Nel 1861 fu proclamato il Regno d'Italia.", en: "In 1861 the Kingdom of Italy was proclaimed." },
           { es: "La guerra finì nel 1918.", en: "The war ended in 1918." },
-          { es: "Il 2 giugno 1946 nacque la Repubblica.", en: "On 2 June 1946 the Republic was born." },
+          { es: "Il 2 giugno 1946 nacque la Repubblica.", en: "On June 2, 1946 the Republic was born." },
           { es: "Il paese era povero e diviso.", en: "The country was poor and divided." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian (history book style).", source: "The war ended in 1918.", answer: "La guerra finì nel 1918.", altAnswers: ["La guerra terminò nel 1918.", "La guerra è finita nel 1918."], explanation: "\"Finire\" → \"finì\"." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian (history book style).", source: "On 2 June 1946 the Republic was born.", answer: "Il 2 giugno 1946 nacque la Repubblica.", altAnswers: ["Il 2 giugno 1946 è nata la Repubblica.", "La Repubblica nacque il 2 giugno 1946."], explanation: "\"Nascere\" → \"nacque\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian (history book style).", source: "On June 2, 1946 the Republic was born.", answer: "Il 2 giugno 1946 nacque la Repubblica.", altAnswers: ["Il 2 giugno 1946 è nata la Repubblica.", "La Repubblica nacque il 2 giugno 1946."], explanation: "\"Nascere\" → \"nacque\"." },
         ],
       },
     ],
@@ -392,7 +392,7 @@ export const IT_C1_U14: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The racial laws [were enacted] in 1938.", sentence: "Le leggi razziali ___ nel 1938.", answer: "furono promulgate", altAnswers: ["vennero promulgate", "furono emanate"], explanation: "Feminine plural agreement." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Mussolini [took power] in 1922.", sentence: "Mussolini ___ nel 1922.", answer: "prese il potere", altAnswers: ["andò al potere", "salì al potere"], explanation: "\"Prendere\" → \"prese\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The war [broke out] in 1940 for Italy.", sentence: "Per l'Italia la guerra ___ nel 1940.", answer: "cominciò", altAnswers: ["iniziò", "scoppiò"], explanation: "\"Scoppiare\" = to break out." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[On 25 April] Italy celebrates the Liberation.", sentence: "___ l'Italia festeggia la Liberazione.", answer: "Il 25 aprile", explanation: "\"Il\" + day + month." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[On April 25] Italy celebrates the Liberation.", sentence: "___ l'Italia festeggia la Liberazione.", answer: "Il 25 aprile", explanation: "\"Il\" + day + month." },
       { type: "listen-choose", audio: "Nel 1871 Roma divenne capitale del Regno.", question: "What happened in 1871?", options: ["Rome became the capital.", "Rome was founded.", "Rome was occupied by France.", "The capital moved to Turin."], correctIndex: 0, explanation: "\"Divenne\" = became." },
       { type: "dictation", audio: "I Mille conquistarono la Sicilia in pochi mesi.", explanation: "Passato remoto plural." },
       { type: "speak", text: "Nel 1860 Garibaldi partì da Quarto, sbarcò a Marsala e conquistò la Sicilia.", prompt: "Say it in Italian: In 1860 Garibaldi set off from Quarto, landed at Marsala and conquered Sicily.", tip: "par-TÌ, sbar-CÒ, con-qui-STÒ: three stressed final syllables.", explanation: "Three events in the passato remoto." },
@@ -410,7 +410,7 @@ export const IT_C1_U14: Lesson[] = [
         heading: "Il Trecento is the fourteenth century",
         body: [
           "Italian has two ways to name a century. The ordinal: \"il quattordicesimo secolo\", usually written \"il XIV secolo\". And the hundreds name, used above all for art, literature and history from 1200 on: \"il Duecento\" (1200s), \"il Trecento\" (1300s), \"il Quattrocento\", \"il Cinquecento\", \"il Seicento\", \"il Settecento\", \"l'Ottocento\", \"il Novecento\", and now \"il Duemila\".",
-          "The trap: \"il Trecento\" is the 1300s, which is the fourteenth century, not the thirteenth. English speakers often slip by one hundred. Think 'tre' = the 1300s, then convert. Capitalise these names: \"il Rinascimento fiorì nel Quattrocento\".",
+          "The trap: \"il Trecento\" is the 1300s, which is the fourteenth century, not the thirteenth. English speakers often slip by one hundred. Think 'tre' = the 1300s, then convert. Capitalize these names: \"il Rinascimento fiorì nel Quattrocento\".",
           "\"Il primo Novecento\" means the early 1900s; \"la seconda metà dell'Ottocento\" the second half of the 1800s; \"a cavallo tra\" (straddling): \"a cavallo tra Ottocento e Novecento\".",
         ],
         examples: [
@@ -436,7 +436,7 @@ export const IT_C1_U14: Lesson[] = [
           { es: "Negli anni Sessanta l'Italia visse il boom economico.", en: "In the sixties Italy lived through the economic boom." },
           { es: "Il Sessantotto cambiò la scuola e l'università.", en: "1968 changed schools and universities." },
           { es: "Cesare fu ucciso nel 44 a.C.", en: "Caesar was killed in 44 BC." },
-          { es: "Il 1° maggio è la Festa dei lavoratori.", en: "1 May is Labour Day." },
+          { es: "Il 1° maggio è la Festa dei lavoratori.", en: "May 1 is Labor Day." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In the sixties Italy lived through the economic boom.", answer: "Negli anni Sessanta l'Italia visse il boom economico.", altAnswers: ["Negli anni Sessanta l'Italia ha vissuto il boom economico.", "Negli anni '60 l'Italia visse il boom economico."], explanation: "\"Negli anni\" + decade." },
@@ -466,7 +466,7 @@ export const IT_C1_U14: Lesson[] = [
         ],
         explanation: "Hundreds name = ordinal minus one, in English terms.",
       },
-      { type: "dictation", audio: "Negli anni Sessanta l'Italia visse il boom economico.", explanation: "\"Anni Sessanta\" capitalised, \"negli\"." },
+      { type: "dictation", audio: "Negli anni Sessanta l'Italia visse il boom economico.", explanation: "\"Anni Sessanta\" capitalized, \"negli\"." },
       { type: "speak", text: "Il Rinascimento fiorì nel Quattrocento, cioè nel quindicesimo secolo.", prompt: "Say it in Italian: The Renaissance flourished in the 1400s, that is, in the fifteenth century.", tip: "Quat-tro-CEN-to; quin-di-CE-si-mo.", explanation: "Both names of the century." },
     ],
   },
@@ -475,7 +475,7 @@ export const IT_C1_U14: Lesson[] = [
     level: "IT-C1",
     number: 7,
     title: "Reading Lab: A History Text",
-    summary: "Read an original history text about the emigration of Italians, 1876-1915, and analyse its structure, numbers and tenses.",
+    summary: "Read an original history text about the emigration of Italians, 1876-1915, and analyze its structure, numbers and tenses.",
     duration: "19 min",
     sections: [
       {
@@ -541,12 +541,12 @@ export const IT_C1_U14: Lesson[] = [
         heading: "Dates and centuries",
         body: [
           "A student wrote a short essay on Italian history. Each sentence has one mistake. 1. \"Dante visse nel Duecento e scrisse la Commedia nel Quattrocento.\" The Commedia dates from the early 1300s: \"nel Trecento\". 2. \"L'Italia fu unificata in 1861.\" Years take \"nel\". 3. \"La Repubblica nacque il 2 Giugno 1946.\" Months are lower case: \"giugno\".",
-          "4. \"Negli anni sessanta\" is acceptable, but Italian publishers normally capitalise the decade: \"negli anni Sessanta\". 5. \"Nel diciannovesimo secolo, cioè nel Novecento\": the nineteenth century is \"l'Ottocento\".",
+          "4. \"Negli anni sessanta\" is acceptable, but Italian publishers normally capitalize the decade: \"negli anni Sessanta\". 5. \"Nel diciannovesimo secolo, cioè nel Novecento\": the nineteenth century is \"l'Ottocento\".",
         ],
         examples: [
           { es: "Dante scrisse la Commedia nel Trecento.", en: "Dante wrote the Comedy in the fourteenth century." },
           { es: "L'Italia fu unificata nel 1861.", en: "Italy was unified in 1861." },
-          { es: "La Repubblica nacque il 2 giugno 1946.", en: "The Republic was born on 2 June 1946." },
+          { es: "La Repubblica nacque il 2 giugno 1946.", en: "The Republic was born on June 2, 1946." },
           { es: "Nel diciannovesimo secolo, cioè nell'Ottocento.", en: "In the nineteenth century, that is, in the 1800s." },
         ],
         checkpoint: [
@@ -576,7 +576,7 @@ export const IT_C1_U14: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Fix \"Dante scrisse la Commedia nel Quattrocento\" and write: Dante wrote the Comedy in the fourteenth century.", source: "Dante wrote the Comedy in the fourteenth century.", answer: "Dante scrisse la Commedia nel Trecento.", altAnswers: ["Dante scrisse la Commedia nel XIV secolo.", "Dante ha scritto la Commedia nel Trecento."], explanation: "1300s = Trecento." },
-      { type: "translate", direction: "en-es", prompt: "Fix \"La Repubblica nacque il 2 Giugno 1946\" and write: The Republic was born on 2 June 1946.", source: "The Republic was born on 2 June 1946.", answer: "La Repubblica nacque il 2 giugno 1946.", altAnswers: ["La Repubblica è nata il 2 giugno 1946.", "Il 2 giugno 1946 nacque la Repubblica."], explanation: "Months lower case." },
+      { type: "translate", direction: "en-es", prompt: "Fix \"La Repubblica nacque il 2 Giugno 1946\" and write: The Republic was born on June 2, 1946.", source: "The Republic was born on June 2, 1946.", answer: "La Repubblica nacque il 2 giugno 1946.", altAnswers: ["La Repubblica è nata il 2 giugno 1946.", "Il 2 giugno 1946 nacque la Repubblica."], explanation: "Months lower case." },
       { type: "translate", direction: "en-es", prompt: "Fix \"Garibaldi parte da Quarto e sbarcò a Marsala\" and write: Garibaldi set off from Quarto and landed at Marsala.", source: "Garibaldi set off from Quarto and landed at Marsala.", answer: "Garibaldi partì da Quarto e sbarcò a Marsala.", altAnswers: ["Garibaldi parte da Quarto e sbarca a Marsala."], explanation: "One tense system." },
       { type: "translate", direction: "en-es", prompt: "Fix \"Nel 1946 le donne hanno votato per la prima volta e fu una svolta\" and write: In 1946 women voted for the first time and it was a turning point.", source: "In 1946 women voted for the first time and it was a turning point.", answer: "Nel 1946 le donne votarono per la prima volta e fu una svolta.", altAnswers: ["Nel 1946 le donne hanno votato per la prima volta ed è stata una svolta.", "Nel 1946 le donne votarono per la prima volta: fu una svolta."], explanation: "Don't mix prossimo and remoto." },
       { type: "translate", direction: "en-es", prompt: "Fix \"Mentre Garibaldi combatté, Cavour trattava\" and write: While Garibaldi was fighting, Cavour was negotiating.", source: "While Garibaldi was fighting, Cavour was negotiating.", answer: "Mentre Garibaldi combatteva, Cavour trattava.", altAnswers: ["Mentre Garibaldi combatteva, Cavour negoziava."], explanation: "Two simultaneous backgrounds: imperfetto." },
@@ -607,18 +607,18 @@ export const IT_C1_U14: Lesson[] = [
           { es: "In quel periodo l'Italia usciva da una guerra disastrosa.", en: "At that time Italy was emerging from a disastrous war." },
           { es: "Pochi mesi dopo fu eletta l'Assemblea Costituente.", en: "A few months later the Constituent Assembly was elected." },
           { es: "Ciò portò alla nascita della Repubblica.", en: "This led to the birth of the Republic." },
-          { es: "Da allora il 2 giugno è festa nazionale.", en: "Since then 2 June has been a national holiday." },
+          { es: "Da allora il 2 giugno è festa nazionale.", en: "Since then June 2 has been a national holiday." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "This led to the birth of the Republic.", answer: "Ciò portò alla nascita della Repubblica.", altAnswers: ["Questo portò alla nascita della Repubblica.", "Ciò ha portato alla nascita della Repubblica."], explanation: "\"Portare a\" = to lead to." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Since then 2 June has been a national holiday.", answer: "Da allora il 2 giugno è festa nazionale.", altAnswers: ["Da allora il 2 giugno è una festa nazionale."], explanation: "\"Da allora\" + present for something still true." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Since then June 2 has been a national holiday.", answer: "Da allora il 2 giugno è festa nazionale.", altAnswers: ["Da allora il 2 giugno è una festa nazionale."], explanation: "\"Da allora\" + present for something still true." },
         ],
       },
       {
         heading: "Writing for a general reader",
         body: [
           "Explain names the first time: \"Giuseppe Garibaldi, il generale che guidò la spedizione dei Mille\". Gloss Italian terms if your reader may not know them: \"la Resistenza, cioè la lotta armata contro l'occupazione tedesca\". Give a few precise numbers, not many.",
-          "Finish with significance in the present tense, and a hedge if the judgement is debatable: \"Secondo molti storici, ...\", \"Si può dire che...\".",
+          "Finish with significance in the present tense, and a hedge if the judgment is debatable: \"Secondo molti storici, ...\", \"Si può dire che...\".",
         ],
         examples: [
           { es: "La Resistenza, cioè la lotta contro l'occupazione tedesca, coinvolse migliaia di giovani.", en: "The Resistance, that is the fight against the German occupation, involved thousands of young people." },
@@ -627,7 +627,7 @@ export const IT_C1_U14: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "According to many historians, it was the beginning of modern Italy.", answer: "Secondo molti storici, fu l'inizio dell'Italia moderna.", altAnswers: ["Secondo molti storici fu l'inizio dell'Italia moderna.", "Secondo molti storici, è stato l'inizio dell'Italia moderna."], explanation: "\"Secondo\" + source." },
-          { type: "listen-choose", audio: "Si può dire che quel voto cambiò il paese per sempre.", question: "What is the speaker's claim?", options: ["That vote changed the country forever.", "Nobody remembers that vote.", "The vote was cancelled.", "The country changed before the vote."], correctIndex: 0, explanation: "\"Per sempre\" = forever." },
+          { type: "listen-choose", audio: "Si può dire che quel voto cambiò il paese per sempre.", question: "What is the speaker's claim?", options: ["That vote changed the country forever.", "Nobody remembers that vote.", "The vote was canceled.", "The country changed before the vote."], correctIndex: 0, explanation: "\"Per sempre\" = forever." },
         ],
       },
     ],
@@ -642,7 +642,7 @@ export const IT_C1_U14: Lesson[] = [
       { type: "word-order", prompt: "Put the words in order to say: Since then the day has been a national holiday.", words: ["Da", "allora", "il", "giorno", "è", "festa", "nazionale."], translation: "Since then the day has been a national holiday.", explanation: "\"Da allora\" + present." },
       { type: "multiple-choice", question: "Which sentence belongs in \"le conseguenze\"?", options: ["Ne derivò una profonda trasformazione della società.", "L'Italia era un paese povero.", "Il 2 giugno 1946 si votò.", "Garibaldi era nato a Nizza."], correctIndex: 0, explanation: "\"Ne derivò\" = from this followed." },
       { type: "dictation", audio: "Da allora il 2 giugno è festa nazionale.", explanation: "\"Da allora\" with the present." },
-      { type: "speak", text: "Secondo molti storici, il voto del 1946 fu l'inizio dell'Italia moderna.", prompt: "Say it in Italian: According to many historians, the 1946 vote was the beginning of modern Italy.", tip: "STO-ri-ci: stress on the first syllable.", explanation: "A hedged judgement." },
+      { type: "speak", text: "Secondo molti storici, il voto del 1946 fu l'inizio dell'Italia moderna.", prompt: "Say it in Italian: According to many historians, the 1946 vote was the beginning of modern Italy.", tip: "STO-ri-ci: stress on the first syllable.", explanation: "A hedged judgment." },
     ],
   },
   {
@@ -673,18 +673,18 @@ export const IT_C1_U14: Lesson[] = [
       {
         heading: "Witnesses",
         body: [
-          "The witnesses describe their new lives: work shifts at the factory, rented rooms shared with other workers, signs saying that flats were not let to southerners, the first television bought in instalments (\"a rate\"). The documentary contrasts progress and prejudice.",
-          "Listen for \"a rate\" (in instalments), \"il turno\" (shift), \"in affitto\" (rented), \"il pregiudizio\" (prejudice), \"la nostalgia\" (homesickness).",
+          "The witnesses describe their new lives: work shifts at the factory, rented rooms shared with other workers, signs saying that apartments were not let to southerners, the first television bought in installments (\"a rate\"). The documentary contrasts progress and prejudice.",
+          "Listen for \"a rate\" (in installments), \"il turno\" (shift), \"in affitto\" (rented), \"il pregiudizio\" (prejudice), \"la nostalgia\" (homesickness).",
         ],
         examples: [
           { es: "Facevamo i turni di notte in fabbrica.", en: "We worked night shifts at the factory." },
           { es: "Dormivamo in quattro in una stanza in affitto.", en: "Four of us slept in one rented room." },
-          { es: "Abbiamo comprato la televisione a rate.", en: "We bought the television in instalments." },
-          { es: "Sui portoni c'era scritto che non si affittava ai meridionali.", en: "Signs on the doors said flats were not let to southerners." },
+          { es: "Abbiamo comprato la televisione a rate.", en: "We bought the television in installments." },
+          { es: "Sui portoni c'era scritto che non si affittava ai meridionali.", en: "Signs on the doors said apartments were not let to southerners." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We bought the television in instalments.", answer: "Abbiamo comprato la televisione a rate.", altAnswers: ["Abbiamo comprato il televisore a rate.", "Comprammo la televisione a rate."], explanation: "\"A rate\" = in instalments." },
-          { type: "listen-choose", audio: "Dormivamo in quattro in una stanza in affitto, vicino alla fabbrica.", question: "How did the witness live?", options: ["Sharing a rented room with three others", "Alone in a big flat", "In a house he owned", "At the factory"], correctIndex: 0, explanation: "\"In quattro\" = four of us." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We bought the television in installments.", answer: "Abbiamo comprato la televisione a rate.", altAnswers: ["Abbiamo comprato il televisore a rate.", "Comprammo la televisione a rate."], explanation: "\"A rate\" = in installments." },
+          { type: "listen-choose", audio: "Dormivamo in quattro in una stanza in affitto, vicino alla fabbrica.", question: "How did the witness live?", options: ["Sharing a rented room with three others", "Alone in a big apartment", "In a house he owned", "At the factory"], correctIndex: 0, explanation: "\"In quattro\" = four of us." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "We worked [night shifts].", sentence: "Facevamo ___.", answer: "i turni di notte", altAnswers: ["il turno di notte", "turni di notte"], explanation: "\"Il turno\" = shift." },
         ],
       },
@@ -701,7 +701,7 @@ export const IT_C1_U14: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Many families bought their first fridge.", answer: "Molte famiglie comprarono il primo frigorifero.", altAnswers: ["Molte famiglie hanno comprato il primo frigorifero.", "Molte famiglie comprarono il loro primo frigorifero.", "Molte famiglie acquistarono il primo frigorifero."], explanation: "\"Il frigorifero\" (colloquially \"il frigo\")." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Turin is growing [at an unprecedented rate].", sentence: "Torino cresce ___.", answer: "a un ritmo mai visto", altAnswers: ["a un ritmo senza precedenti"], explanation: "\"Mai visto\" = never seen before." },
       { type: "multiple-choice", question: "What does the documentary contrast?", options: ["Economic progress and prejudice", "North and South football", "Fascism and democracy", "Cinema and television"], correctIndex: 0, explanation: "Growth and discrimination." },
-      { type: "dictation", audio: "Abbiamo comprato la prima televisione a rate.", explanation: "\"A rate\" = in instalments." },
+      { type: "dictation", audio: "Abbiamo comprato la prima televisione a rate.", explanation: "\"A rate\" = in installments." },
       { type: "speak", text: "Siamo nel 1958. In pochi anni Torino supera il milione di abitanti: è l'inizio del miracolo economico.", prompt: "Narrate it like a documentary: It's 1958. In a few years Turin passes a million inhabitants: it's the beginning of the economic miracle.", tip: "Slow and steady, with a pause after the date.", explanation: "Documentary narration in the historic present." },
     ],
   },
@@ -709,7 +709,7 @@ export const IT_C1_U14: Lesson[] = [
 
 export const IT_C1_U14_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Write a 250-word summary of a key event in Italian history (for example the expedition of the Thousand, 8 September 1943, the referendum of 2 June 1946 or the economic boom) for a general reader. Include context, events, consequences and significance today.",
+  prompt: "Write a 250-word summary of a key event in Italian history (for example the expedition of the Thousand, September 8, 1943, the referendum of June 2, 1946 or the economic boom) for a general reader. Include context, events, consequences and significance today.",
   minWords: 200,
   maxWords: 300,
   rubric: [

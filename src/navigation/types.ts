@@ -10,11 +10,13 @@ import type { KoreanLevelKey } from "@/lib/lessons/korean";
 import type { ItalianLevelKey } from "@/lib/lessons/italian";
 import type { PortugueseStoryLevel } from "@/lib/stories/pt";
 import type { KoreanStoryLevel } from "@/lib/stories/ko";
+import type { ItalianStoryLevel } from "@/lib/stories/it";
 
 type FrenchStoryLevelPath = FrenchStoryLevel["path"];
 type GermanStoryLevelPath = GermanStoryLevel["path"];
 type PortugueseStoryLevelPath = PortugueseStoryLevel["path"];
 type KoreanStoryLevelPath = KoreanStoryLevel["path"];
+type ItalianStoryLevelPath = ItalianStoryLevel["path"];
 
 // The course a shared screen (review, flashcards, study tools) is showing.
 // "pt" is the Brazilian Portuguese course, open to every account; "ko" the
@@ -27,8 +29,8 @@ export type ToolsLang = "es" | "fr" | "de" | "pt";
 // The same, with the Korean beta (only the beta account; RootNavigator's
 // withKoreanBeta turns everyone else away from a "ko" lang).
 export type ToolsLangKo = ToolsLang | "ko";
-// And with the Italian beta, for the screens it has so far (Today's review
-// and Study Tools; withItalianBeta turns everyone else away from "it").
+// And with the Italian beta (withItalianBeta turns everyone else away from
+// "it").
 export type ToolsLangBeta = ToolsLangKo | "it";
 
 export type AppStackParamList = {
@@ -87,7 +89,8 @@ export type AppStackParamList = {
   // the German course's (src/lib/stories/de).
   // "pt" the Portuguese course's (src/lib/stories/pt).
   // "ko" the Korean beta's (src/lib/stories/ko; gated, see withKoreanBeta).
-  ReadingLevels: { lang?: ToolsLang | "ko" } | undefined;
+  // "it" the Italian beta's (src/lib/stories/it; gated, see withItalianBeta).
+  ReadingLevels: { lang?: ToolsLangBeta } | undefined;
   // levelPath defaults to "a1" when omitted; French levels are "fr/a1" ...,
   // German ones germanLevel.
   ReadingsList:
@@ -97,6 +100,7 @@ export type AppStackParamList = {
         germanLevel?: GermanStoryLevelPath;
         portugueseLevel?: PortugueseStoryLevelPath;
         koreanLevel?: KoreanStoryLevelPath;
+        italianLevel?: ItalianStoryLevelPath;
       }
     | undefined;
   // levelPath is passed for French and German stories, whose slugs live in their own
@@ -136,12 +140,12 @@ export type AppStackParamList = {
   // glossary, placement); lang "de" the German course's (Goethe-Zertifikat);
   // lang "pt" the Portuguese course's (Celpe-Bras).
   // lang "ko": the Korean beta's tools (KoreanStudyTools below the hub).
-  // lang "it": the Italian beta's (only the tools whose data the app has).
+  // lang "it": the Italian beta's (lib/italianTools.ts).
   StudyTools: { lang?: ToolsLangBeta } | undefined;
   // Grammar guides (src/lib/grammar, synced from the website) -- the
   // list, then one guide by slug.
-  Grammar: { lang?: ToolsLangKo } | undefined;
-  GrammarGuide: { slug: string; lang?: ToolsLangKo };
+  Grammar: { lang?: ToolsLangBeta } | undefined;
+  GrammarGuide: { slug: string; lang?: ToolsLangBeta };
   // The website's placement test, with its results screen.
   Placement: undefined;
   // The French course's placement test (src/lib/fr-placementTest.ts).
@@ -152,6 +156,9 @@ export type AppStackParamList = {
   PortuguesePlacement: undefined;
   // The Korean beta's placement test (src/lib/ko-placementTest.ts).
   KoreanPlacement: undefined;
+  // The Italian beta's placement test (src/lib/it-placementTest.ts), only
+  // reached from the Italian Study Tools (never required).
+  ItalianPlacement: undefined;
   // "Test out" of a unit (units.ts) -- see UnitTestScreen.
   UnitTest: { levelPath: string; unitId: string };
   // Reference tools (src/lib/conjugation, src/lib/glossary, synced from
@@ -177,6 +184,13 @@ export type AppStackParamList = {
   KoreanGlossary: { level?: string } | undefined;
   KoreanRoots: undefined;
   KoreanRootsLevel: { level: "a1" | "a2" | "b1" | "b2" | "c1" | "c2" };
+  // The Italian beta's counterparts (src/lib/it-conjugation, src/lib/it-tools):
+  // the conjugator and drills, and the glossary, which also lists a level's
+  // vocabulary (level: "a1" ... "c2", "culture"; opened that way it's
+  // "Vocabulary by Level") and has the grammar terms and false friends as
+  // its other sections.
+  ItalianConjugation: { verb?: string } | undefined;
+  ItalianGlossary: { level?: string; section?: "words" | "terms" | "falseFriends" } | undefined;
   // DELE practice exams (src/lib/exams, synced from the website): the
   // list, one exam's overview and results, and one paper.
   // course "fr": the DELF/DALF practice exams (src/lib/exams/fr); "de" the

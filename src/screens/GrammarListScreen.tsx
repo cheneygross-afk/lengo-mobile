@@ -3,7 +3,7 @@ import { View, Text, Pressable, StyleSheet, SectionList, ActivityIndicator } fro
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 import { GRAMMAR_GUIDES } from "@/lib/grammar/guides";
-import { GUIDE_COURSES, type CourseGuide, type GuideCourse } from "@/lib/grammar/courseGuides";
+import { GUIDE_COURSES, guideLevelName, type CourseGuide, type GuideCourse } from "@/lib/grammar/courseGuides";
 import TapText from "@/components/TapText";
 import { loadKoreanGuides } from "@/lib/grammar/korean";
 import { KO_LEVEL_ORDER, TOPIK_FOR_LEVEL, type KoGrammarGuide, type KoLevel } from "@/lib/grammar/ko-types";
@@ -18,17 +18,19 @@ const LEVEL_ORDER = ["A1", "A2", "B1", "B2", "C1", "C2"] as const;
 export default function GrammarListScreen(props: Props) {
   const lang = props.route.params?.lang;
   if (lang === "ko") return <KoreanGrammarList {...props} />;
-  return lang === "fr" || lang === "de" || lang === "pt" ? (
+  return lang === "fr" || lang === "de" || lang === "pt" || lang === "it" ? (
     <CourseGrammarList {...props} course={lang} key={lang} />
   ) : (
     <SpanishGrammarList {...props} />
   );
 }
 
-// The French or German course's or the Portuguese course's grammar guides
-// (lib/grammar/courseGuides.ts, loaded on demand), by level, as on the
-// website's /lessons/fr/tools/grammar, /lessons/de/tools/grammar and
-// /lessons/pt/tools/grammar.
+// The French or German course's, the Portuguese course's or the Italian
+// beta's grammar guides (lib/grammar/courseGuides.ts, loaded on demand), by
+// level, as on the website's /lessons/fr/tools/grammar,
+// /lessons/de/tools/grammar, /lessons/pt/tools/grammar and
+// /lessons/it/tools/grammar (Italian levels by name, never by code, with
+// the pinned guides first in a "Start here" group).
 function CourseGrammarList({ navigation, course }: Props & { course: GuideCourse }) {
   const config = GUIDE_COURSES[course];
   const [guides, setGuides] = useState<CourseGuide[] | null>(null);
@@ -51,27 +53,35 @@ function CourseGrammarList({ navigation, course }: Props & { course: GuideCourse
       </View>
     );
   }
-  const sections = LEVEL_ORDER.map((level) => ({
-    title: config.diploma[level] ? `${level} · ${config.diploma[level]}` : level,
-    data: guides.filter((g) => g.level === level),
-  })).filter((s) => s.data.length > 0);
+  const pinned = guides.filter((g) => g.pinned);
+  const sections = [
+    ...(pinned.length ? [{ title: "Start here", data: pinned }] : []),
+    ...LEVEL_ORDER.map((level) => {
+      const name = guideLevelName(config, level);
+      return {
+        title: config.diploma[level] ? `${name} · ${config.diploma[level]}` : name,
+        data: guides.filter((g) => g.level === level),
+      };
+    }),
+  ].filter((s) => s.data.length > 0);
+  const range = config.levelNames ? `${config.levelNames.A1} to ${config.levelNames.C2}` : "A1 to C2";
   return (
     <SectionList
       style={styles.container}
       contentContainerStyle={styles.content}
       sections={sections}
-      keyExtractor={(g) => g.slug}
+      keyExtractor={(g, i) => `${g.slug}-${i}`}
       stickySectionHeadersEnabled={false}
       ListHeaderComponent={
         <Text style={styles.subtitle}>
-          Clear explanations of {config.name} grammar from A1 to C2, with tables, examples and the mistakes to avoid.
+          Clear explanations of {config.name} grammar from {range}, with tables, examples and the mistakes to avoid.
         </Text>
       }
       renderSectionHeader={({ section }) => <Text style={styles.sectionHeader}>{section.title}</Text>}
       renderItem={({ item }) => (
         <Pressable style={styles.card} onPress={() => navigation.navigate("GrammarGuide", { slug: item.slug, lang: course })}>
-          {course === "pt" ? (
-            // The Portuguese course: its words in the titles are tap-to-hear too.
+          {course === "pt" || course === "it" ? (
+            // The Portuguese and Italian courses: their words in the titles are tap-to-hear too.
             <>
               <TapText text={item.title} lang={config.lang} style={styles.cardTitle} />
               <TapText text={item.description} lang={config.lang} style={styles.cardBody} />

@@ -9,13 +9,16 @@ import { findLessonBySlug } from "@/lib/lessons/registry";
 import TapText from "@/components/TapText";
 import { ENGLISH_LANG, SPANISH_LANG, type SpeechLang } from "@/lib/speech";
 import type { GrammarGuide } from "@/lib/grammar/types";
-import { GUIDE_COURSES, type CourseGuide, type GuideCourse } from "@/lib/grammar/courseGuides";
+import { GUIDE_COURSES, guideLevelName, type CourseGuide, type GuideCourse } from "@/lib/grammar/courseGuides";
 import type { FrenchLevelKey } from "@/lib/lessons/french";
 import type { GermanLevelKey } from "@/lib/lessons/german";
 import type { PortugueseLevelKey } from "@/lib/lessons/portuguese";
+import type { ItalianLevelKey } from "@/lib/lessons/italian";
+import { loadItLessons } from "@/lib/it-tools/data";
 import type { FrenchStoryLevel } from "@/lib/stories/fr";
 import type { GermanStoryLevel } from "@/lib/stories/de";
 import type { PortugueseStoryLevel } from "@/lib/stories/pt";
+import type { ItalianStoryLevel } from "@/lib/stories/it";
 import type { KoreanStoryLevel } from "@/lib/stories/ko";
 import type { KoreanLevelKey } from "@/lib/lessons/korean";
 import { loadKoreanGuides } from "@/lib/grammar/korean";
@@ -41,7 +44,7 @@ const LESSONS_FOR_LEVEL: Record<string, LessonModuleKey> = {
 export default function GrammarGuideScreen(props: Props) {
   const lang = props.route.params.lang;
   if (lang === "ko") return <KoreanGrammarGuideScreen {...props} />;
-  return lang === "fr" || lang === "de" || lang === "pt" ? (
+  return lang === "fr" || lang === "de" || lang === "pt" || lang === "it" ? (
     <CourseGrammarGuideScreen {...props} course={lang} />
   ) : (
     <SpanishGrammarGuideScreen {...props} />
@@ -92,22 +95,32 @@ function SpanishGrammarGuideScreen({ route, navigation }: Props) {
   );
 }
 
-// A French, German or Portuguese grammar guide (lib/grammar/courseGuides.ts,
-// loaded on demand): the same layout, read in that course's voice, with links into
-// its own lessons and stories.
+// A French, German, Portuguese or Italian grammar guide
+// (lib/grammar/courseGuides.ts, loaded on demand): the same layout, read in
+// that course's voice, with links into its own lessons and stories. The
+// Italian course is still being written, so its guides link only the
+// lessons that exist (the small lesson list, src/lib/it-tools), as the
+// website's do, and show levels by name.
 function CourseGrammarGuideScreen({ route, navigation, course }: Props & { course: GuideCourse }) {
   const config = GUIDE_COURSES[course];
   const [guides, setGuides] = useState<CourseGuide[] | null>(null);
+  // Italian only: the lessons written so far, slug -> level path ("a1").
+  const [itLessons, setItLessons] = useState<Map<string, string> | null>(null);
   useEffect(() => {
     let cancelled = false;
     config.load().then((g) => {
       if (!cancelled) setGuides(g);
     });
+    if (course === "it") {
+      loadItLessons()
+        .then((rows) => !cancelled && setItLessons(new Map(rows.map((r) => [r[0], r[2]]))))
+        .catch(() => !cancelled && setItLessons(new Map()));
+    }
     return () => {
       cancelled = true;
     };
-  }, [config]);
-  if (!guides) {
+  }, [config, course]);
+  if (!guides || (course === "it" && !itLessons)) {
     return (
       <View style={[s.screen, s.loading]}>
         <ActivityIndicator />
@@ -124,19 +137,28 @@ function CourseGrammarGuideScreen({ route, navigation, course }: Props & { cours
   }
   const key = guide.level.toLowerCase();
   const levelPath = `${course}/${key}`;
-  const firstLesson = guide.lessons[0];
+  const levelName = guideLevelName(config, guide.level);
+  const firstLesson = itLessons ? guide.lessons.find((slug) => itLessons.has(slug)) : guide.lessons[0];
   // Portuguese lesson slugs start with their own level ("a1-daily-routine"),
-  // which a guide one level up can link to.
+  // which a guide one level up can link to; an Italian lesson's level comes
+  // from the lesson list.
   const lessonLevelPath =
-    course === "pt" && firstLesson && /^(a1|a2|b1|b2|c1|c2)-/.test(firstLesson) ? `pt/${firstLesson.slice(0, 2)}` : levelPath;
+    itLessons && firstLesson
+      ? `it/${itLessons.get(firstLesson)}`
+      : course === "pt" && firstLesson && /^(a1|a2|b1|b2|c1|c2)-/.test(firstLesson)
+        ? `pt/${firstLesson.slice(0, 2)}`
+        : levelPath;
   const related = guide.related
     .map((slug) => guides.find((g) => g.slug === slug))
     .filter((g): g is CourseGuide => !!g);
   return (
     <GuideLayout
       guide={guide}
+      kicker={
+        config.levelNames ? (config.diploma[guide.level] ? `${levelName} · ${config.diploma[guide.level]}` : levelName) : undefined
+      }
       lang={config.lang}
-      practiceLabel={firstLesson ? "Practice this in lessons" : `Practice with the ${guide.level} lessons`}
+      practiceLabel={firstLesson ? "Practice this in lessons" : `Practice with the ${levelName} lessons`}
       onPractice={() =>
         firstLesson
           ? navigation.navigate("LessonRunner", { slug: firstLesson, levelPath: lessonLevelPath })
@@ -146,10 +168,12 @@ function CourseGrammarGuideScreen({ route, navigation, course }: Props & { cours
                 ? { frenchLevel: key as FrenchLevelKey }
                 : course === "pt"
                   ? { portugueseLevel: key as PortugueseLevelKey }
-                  : { germanLevel: key as GermanLevelKey }
+                  : course === "it"
+                    ? { italianLevel: key as ItalianLevelKey }
+                    : { germanLevel: key as GermanLevelKey }
             )
       }
-      storyLabel={`Read a ${guide.level} story`}
+      storyLabel={`Read a ${levelName} story`}
       onStory={() =>
         navigation.navigate(
           "ReadingsList",
@@ -157,7 +181,9 @@ function CourseGrammarGuideScreen({ route, navigation, course }: Props & { cours
             ? { frenchLevel: key as FrenchStoryLevel["path"] }
             : course === "pt"
               ? { portugueseLevel: key as PortugueseStoryLevel["path"] }
-              : { germanLevel: key as GermanStoryLevel["path"] }
+              : course === "it"
+                ? { italianLevel: key as ItalianStoryLevel["path"] }
+                : { germanLevel: key as GermanStoryLevel["path"] }
         )
       }
       related={related}

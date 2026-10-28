@@ -1,7 +1,7 @@
 // Synced from cheneygross-afk/lengo:src/lib/lessons/it-c1-u15-extra.ts by scripts/sync-content.mjs -- edit it there, not here.
 import type { Lesson } from "./types";
 
-// Italian C1 Unit 15 Extra Practice: Film and Theatre Language. Optional
+// Italian C1 Unit 15 Extra Practice: Film and Theater Language. Optional
 // lessons folded away under the unit (docs/italian-course/authoring.md).
 export const IT_C1_U15_EXTRA: Lesson[] = [
   {
@@ -9,7 +9,7 @@ export const IT_C1_U15_EXTRA: Lesson[] = [
     level: "IT-C1",
     number: 1,
     title: "Extra Practice: Plot Summaries",
-    summary: "Summarise three invented films in the present tense, with clear sequencing and no spoilers.",
+    summary: "Summarize three invented films in the present tense, with clear sequencing and no spoilers.",
     duration: "20 min",
     optional: true,
     kind: "drill",
@@ -36,7 +36,7 @@ export const IT_C1_U15_EXTRA: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (plot summary).", source: "At first he wants to leave again immediately.", answer: "All'inizio vuole ripartire subito.", altAnswers: ["All'inizio vuole ripartire immediatamente.", "Inizialmente vuole ripartire subito."], explanation: "\"Ripartire\" = to leave again." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (plot summary).", source: "He comes back to sell his parents' house.", answer: "Torna per vendere la casa dei genitori.", altAnswers: ["Torna per vendere la casa dei suoi genitori.", "Ritorna per vendere la casa dei genitori."], explanation: "\"Per\" + infinitive = purpose." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian (plot summary).", source: "The neighbour keeps his mother's letters.", answer: "La vicina conserva le lettere di sua madre.", altAnswers: ["La vicina conserva le lettere della madre.", "La vicina tiene le lettere di sua madre."], explanation: "\"Conservare\" = to keep, preserve." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian (plot summary).", source: "The neighbor keeps his mother's letters.", answer: "La vicina conserva le lettere di sua madre.", altAnswers: ["La vicina conserva le lettere della madre.", "La vicina tiene le lettere di sua madre."], explanation: "\"Conservare\" = to keep, preserve." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (plot summary).", source: "A team of girls is preparing for a rowing race.", answer: "Una squadra di ragazze si prepara a una gara di canottaggio.", altAnswers: ["Una squadra di ragazze si sta preparando a una gara di canottaggio.", "Una squadra di ragazze si prepara per una gara di canottaggio."], explanation: "\"Prepararsi a / per\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (plot summary).", source: "A family stops talking to each other.", answer: "Una famiglia smette di parlarsi.", explanation: "\"Parlarsi\" = to talk to each other." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (plot summary).", source: "Until one day someone knocks at the door.", answer: "Finché un giorno qualcuno bussa alla porta.", altAnswers: ["Fino a quando un giorno qualcuno bussa alla porta.", "Finché un giorno qualcuno non bussa alla porta."], explanation: "\"Finché\" + present for a cliffhanger." },
@@ -47,9 +47,9 @@ export const IT_C1_U15_EXTRA: Lesson[] = [
       { type: "word-order", prompt: "Put the words in order to say: He has been living in Berlin for twenty years.", words: ["Vive", "a", "Berlino", "da", "vent'anni."], translation: "He has been living in Berlin for twenty years.", explanation: "\"Da\" + present." },
       { type: "multiple-choice", question: "Which sentence avoids a spoiler?", options: ["Ma un giorno arriva una lettera che cambia tutto.", "Alla fine Franco muore e la casa viene venduta.", "L'allenatrice è in realtà la madre di una ragazza.", "Nell'ultima scena scopriamo che era tutto un sogno."], correctIndex: 0, explanation: "A hint, not the outcome." },
       { type: "multiple-choice", question: "Which tense is standard for a plot summary?", options: ["the present", "the passato remoto", "the imperfetto", "the future"], correctIndex: 0, explanation: "As in literary analysis." },
-      { type: "listen-choose", audio: "All'inizio vuole ripartire subito; poi incontra la vicina.", question: "What happens after he arrives?", options: ["He wants to leave, then meets the neighbour.", "He stays and buys the house.", "He meets his mother.", "He sells the house immediately."], correctIndex: 0, explanation: "\"All'inizio... poi\"." },
+      { type: "listen-choose", audio: "All'inizio vuole ripartire subito; poi incontra la vicina.", question: "What happens after he arrives?", options: ["He wants to leave, then meets the neighbor.", "He stays and buys the house.", "He meets his mother.", "He sells the house immediately."], correctIndex: 0, explanation: "\"All'inizio... poi\"." },
       { type: "dictation", audio: "Finché un giorno qualcuno bussa alla porta.", explanation: "The classic cliffhanger." },
-      { type: "speak", text: "Dopo vent'anni all'estero, Franco torna nel suo paese per vendere la casa dei genitori. All'inizio vuole ripartire subito.", prompt: "Summarise the plot aloud: After twenty years abroad, Franco returns to his village to sell his parents' house. At first he wants to leave again immediately.", tip: "Keep a steady present-tense rhythm.", explanation: "A plot opening." },
+      { type: "speak", text: "Dopo vent'anni all'estero, Franco torna nel suo paese per vendere la casa dei genitori. All'inizio vuole ripartire subito.", prompt: "Summarize the plot aloud: After twenty years abroad, Franco returns to his village to sell his parents' house. At first he wants to leave again immediately.", tip: "Keep a steady present-tense rhythm.", explanation: "A plot opening." },
     ],
   },
   {
@@ -57,7 +57,7 @@ export const IT_C1_U15_EXTRA: Lesson[] = [
     level: "IT-C1",
     number: 2,
     title: "Extra Practice: Theatre",
-    summary: "Talk about Italian theatre beyond the commedia dell'arte: Pirandello on stage and Eduardo De Filippo's Naples.",
+    summary: "Talk about Italian theater beyond the commedia dell'arte: Pirandello on stage and Eduardo De Filippo's Naples.",
     duration: "20 min",
     optional: true,
     kind: "drill",
@@ -67,7 +67,7 @@ export const IT_C1_U15_EXTRA: Lesson[] = [
         body: [
           "In Pirandello's Sei personaggi in cerca d'autore (1921), a company rehearsing a play is interrupted by six characters abandoned by their author, who demand to have their drama performed. The audience at the Rome premiere shouted \"Manicomio!\" (madhouse!); it became one of the most influential plays of the century.",
           "Eduardo De Filippo (1900-1984) wrote and acted in comedies about Neapolitan families. In Natale in casa Cupiello, Luca Cupiello obsessively builds his nativity scene and keeps asking his son \"Te piace 'o presepe?\" (do you like the crib?). In Napoli milionaria! (1945) the closing line, \"Ha da passà 'a nuttata\" (the night must pass), became a national expression of hope after hard times.",
-          "Theatre words: \"il palcoscenico\" (stage), \"la prova\" (rehearsal), \"il sipario\" (curtain), \"la prima\" (opening night), \"il copione\" (script), \"la messa in scena\" (staging).",
+          "Theater words: \"il palcoscenico\" (stage), \"la prova\" (rehearsal), \"il sipario\" (curtain), \"la prima\" (opening night), \"il copione\" (script), \"la messa in scena\" (staging).",
         ],
         examples: [
           { es: "Sei personaggi interrompono le prove di una compagnia.", en: "Six characters interrupt a company's rehearsal." },
@@ -96,7 +96,7 @@ export const IT_C1_U15_EXTRA: Lesson[] = [
       { type: "multiple-choice", question: "When an Italian says \"Ha da passà 'a nuttata\" about a crisis, she means ...", options: ["We must wait for hard times to pass.", "We should go out tonight.", "The night is too long.", "Let's stay awake."], correctIndex: 0, explanation: "Eduardo's line of hope." },
       {
         type: "matching",
-        instructions: "Match the theatre word to its meaning.",
+        instructions: "Match the theater word to its meaning.",
         pairs: [
           { left: "il sipario", right: "the curtain" },
           { left: "la prova", right: "the rehearsal" },
@@ -104,10 +104,10 @@ export const IT_C1_U15_EXTRA: Lesson[] = [
           { left: "il copione", right: "the script" },
           { left: "il palcoscenico", right: "the stage" },
         ],
-        explanation: "Theatre vocabulary.",
+        explanation: "Theater vocabulary.",
       },
-      { type: "listen-choose", audio: "Sei personaggi abbandonati dal loro autore cercano qualcuno che rappresenti il loro dramma.", question: "What do the six characters want?", options: ["Someone to stage their drama", "A new author to kill them", "To leave the theatre", "To watch the rehearsal"], correctIndex: 0, explanation: "\"Cercano qualcuno che\" + subjunctive." },
-      { type: "dictation", audio: "Si alza il sipario e comincia la prova.", explanation: "Theatre vocabulary." },
+      { type: "listen-choose", audio: "Sei personaggi abbandonati dal loro autore cercano qualcuno che rappresenti il loro dramma.", question: "What do the six characters want?", options: ["Someone to stage their drama", "A new author to kill them", "To leave the theater", "To watch the rehearsal"], correctIndex: 0, explanation: "\"Cercano qualcuno che\" + subjunctive." },
+      { type: "dictation", audio: "Si alza il sipario e comincia la prova.", explanation: "Theater vocabulary." },
       { type: "speak", text: "Ha da passà 'a nuttata: dobbiamo solo resistere ancora un po'.", prompt: "Comfort a friend: The night must pass: we just have to hold on a bit longer.", tip: "Say the Neapolitan line slowly, then switch to standard Italian.", explanation: "Eduardo's line in everyday use." },
     ],
   },
