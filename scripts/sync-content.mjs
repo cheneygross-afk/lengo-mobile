@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-// Copies lesson, story, reading, grammar-guide, placement-test, conjugation, glossary, deck, exam, Korean-stories and French-, German-, Portuguese- and Korean-tools content from the website repo
+// Copies lesson, story, reading, grammar-guide, placement-test, conjugation, glossary, deck, exam, Korean-stories and French-, German-, Portuguese- and Korean-tools content
+// (and the Italian beta's stories and tools, once the website has them) from the website repo
 // (cheneygross-afk/lengo) into this app, so the two can't drift apart.
 // The website is the single source of truth for course content: edit a
 // lesson there, then run this script (or let the website's "Sync content
@@ -96,11 +97,36 @@ const DIRS = {
   ],
   "src/lib/ko-tools/data": [],
   "src/lib/ko-roots": [],
+  // The Italian beta's counterparts of the Portuguese course's, behind the
+  // owner-only Italian gate (withItalianBeta.tsx): stories, CILS practice
+  // tests, the conjugation engine and the study tools' tables. The website
+  // has none of them yet (its Italian lessons, it-*.ts, sync with the
+  // lessons above, and its grammar guides would sync with src/lib/grammar),
+  // so these are OPTIONAL_DIRS: skipped until they exist there.
+  "src/lib/stories/it": [],
+  "src/lib/stories/it/batches": [],
+  "src/lib/exams/it": [],
+  "src/lib/it-conjugation": [],
+  "src/lib/it-tools": [
+    "lessons.ts", // static import of the full lesson list for the website's server pages
+  ],
+  "src/lib/it-tools/data": [],
 };
+
+// Directories above that the website may not have yet: skipped (not an
+// error) while they're missing there.
+const OPTIONAL_DIRS = new Set([
+  "src/lib/stories/it",
+  "src/lib/stories/it/batches",
+  "src/lib/exams/it",
+  "src/lib/it-conjugation",
+  "src/lib/it-tools",
+  "src/lib/it-tools/data",
+]);
 
 // Directories whose .json files sync too. JSON can't carry the "Synced
 // from" header, so these are only hash-checked (src/content-sync.json).
-const JSON_DIRS = new Set(["src/lib/fr-tools/data", "src/lib/de-tools/data", "src/lib/pt-tools/data", "src/lib/ko-tools/data"]);
+const JSON_DIRS = new Set(["src/lib/fr-tools/data", "src/lib/de-tools/data", "src/lib/pt-tools/data", "src/lib/ko-tools/data", "src/lib/it-tools/data"]);
 
 // The website's rebuilt Japanese course (furigana markup, A1-C2 units,
 // stories, guides, videos) is web-only for now: it's ~34MB and imports
@@ -114,7 +140,9 @@ const webOnly = (dir, name) =>
 
 // Single website files mirrored to the same path here (pure data that
 // doesn't live in one of the directories above).
-const FILES = ["src/lib/placementTest.ts", "src/lib/fr-placementTest.ts", "src/lib/de-placementTest.ts", "src/lib/pt-placementTest.ts", "src/lib/ko-placementTest.ts"];
+const FILES = ["src/lib/placementTest.ts", "src/lib/fr-placementTest.ts", "src/lib/de-placementTest.ts", "src/lib/pt-placementTest.ts", "src/lib/ko-placementTest.ts", "src/lib/it-placementTest.ts"];
+// Files above that the website may not have yet (the Italian beta's placement test).
+const OPTIONAL_FILES = new Set(["src/lib/it-placementTest.ts"]);
 
 const header = (rel) =>
   `// Synced from ${SOURCE_REPO}:${rel} by scripts/sync-content.mjs -- edit it there, not here.\n`;
@@ -182,6 +210,7 @@ function sync(from, adopt) {
   const next = {};
   const writes = new Map();
   for (const [dir, excluded] of Object.entries(DIRS)) {
+    if (OPTIONAL_DIRS.has(dir) && !fs.existsSync(path.join(src, dir))) continue;
     for (const name of fs.readdirSync(path.join(src, dir)).sort()) {
       const json = JSON_DIRS.has(dir) && name.endsWith(".json");
       if (!(name.endsWith(".ts") || json) || excluded.includes(name) || webOnly(dir, name)) continue;
@@ -197,6 +226,7 @@ function sync(from, adopt) {
     }
   }
   for (const rel of FILES) {
+    if (OPTIONAL_FILES.has(rel) && !fs.existsSync(path.join(src, rel))) continue;
     const dest = path.join(ROOT, rel);
     if (!adopt && fs.existsSync(dest) && !(rel in old.files) && !fs.readFileSync(dest, "utf8").startsWith(HEADER_PREFIX)) {
       console.error(`Refusing to overwrite ${rel}: it exists here but isn't a synced file.`);

@@ -12,14 +12,15 @@ import type { WriteExercise } from "@/lib/lessons/types";
 import { longPrompts, longRange, type PromptLevel } from "@/lib/writingPrompts";
 
 type Props = NativeStackScreenProps<AppStackParamList, "Writing">;
-type Lang = "es" | "fr" | "de" | "pt" | "ja" | "zh" | "ko";
+type Lang = "es" | "fr" | "de" | "pt" | "ja" | "zh" | "ko" | "it";
 
 // Writing practice: the website's Writing page (/writing,
 // /lessons/<course>/tools/writing) for the app. Open writing tasks for
 // each level, from a few sentences to a couple of pages, marked by the AI
 // writing feedback. src/lib/writingPrompts.ts is a copy of the website's
 // file. Spanish, French, German and Portuguese need a plan, like on the
-// website (planCovers).
+// website (planCovers); the Italian beta is open to its accounts (and
+// RootNavigator's withItalianBeta turns everyone else away).
 const COURSE: Record<Lang, { name: string; speech: SpeechLang; prefix: string }> = {
   es: { name: "Spanish", speech: "es-ES", prefix: "" },
   fr: { name: "French", speech: "fr-FR", prefix: "FR-" },
@@ -28,6 +29,7 @@ const COURSE: Record<Lang, { name: string; speech: SpeechLang; prefix: string }>
   ja: { name: "Japanese", speech: "ja-JP", prefix: "JA-" },
   zh: { name: "Chinese", speech: "zh-CN", prefix: "ZH-" },
   ko: { name: "Korean", speech: "ko-KR", prefix: "KO-" },
+  it: { name: "Italian", speech: "it-IT", prefix: "IT-" },
 };
 
 const LEVELS: { level: PromptLevel; label: string }[] = [

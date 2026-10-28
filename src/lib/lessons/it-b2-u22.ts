@@ -1,0 +1,778 @@
+// Synced from cheneygross-afk/lengo:src/lib/lessons/it-b2-u22.ts by scripts/sync-content.mjs -- edit it there, not here.
+import type { Lesson, WriteExercise } from "./types";
+
+// Italian Upper Intermediate (B2) Unit 22: Arts and Heritage. Paintings,
+// architecture, art history and film; review in context of relative
+// clauses, the passive and the passato remoto.
+// Conventions: docs/italian-course/authoring.md.
+export const IT_B2_U22: Lesson[] = [
+  {
+    slug: "b2-describing-a-painting",
+    level: "IT-B2",
+    number: 1,
+    title: "Describing a Painting",
+    summary: "Describe what a painting shows, where things are, how the light and colour work and what it makes you feel.",
+    duration: "16 min",
+    sections: [
+      {
+        heading: "Where things are",
+        body: [
+          "Start with the subject: \"il quadro rappresenta\" or \"raffigura\" (depicts) a scene. Then place things: \"in primo piano\" (in the foreground), \"sullo sfondo\" (in the background), \"al centro\", \"a destra\", \"a sinistra\", \"in alto\", \"in basso\", \"nell'angolo in alto a destra\". Left and right are from the viewer's point of view unless you say \"alla sua destra\" (on his or her right).",
+          "The impersonal \"si vede\" agrees with what is seen: \"si vede una donna\" but \"si vedono due figure\". \"C'è\" and \"ci sono\" work too, but \"si vede\" sounds more like an art guide. Avoid \"la pittura\" for a single work: that's painting as an art, or paint. A painting is \"un quadro\" or \"un dipinto\", and a portrait \"un ritratto\".",
+          "Portraits have their own terms: \"a mezzo busto\" (half-length), \"a figura intera\" (full-length), \"di profilo\" (in profile), \"di tre quarti\" (three-quarter view).",
+        ],
+        examples: [
+          { es: "Il quadro rappresenta la nascita di Venere.", en: "The painting depicts the birth of Venus." },
+          { es: "Al centro si vede la dea su una conchiglia.", en: "In the centre you can see the goddess on a shell." },
+          { es: "A sinistra si vedono due figure che soffiano.", en: "On the left you can see two figures blowing." },
+          { es: "Sullo sfondo c'è il mare, calmo e luminoso.", en: "In the background there's the sea, calm and bright." },
+          { es: "In primo piano c'è un cesto di frutta.", en: "In the foreground there's a basket of fruit." },
+          { es: "Nell'angolo in basso a destra c'è la firma del pittore.", en: "In the bottom right-hand corner there's the painter's signature." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In the background you can see the sea.", answer: "Sullo sfondo si vede il mare.", altAnswers: ["Sullo sfondo c'è il mare.", "Sullo sfondo si intravede il mare."], explanation: "\"Sullo sfondo\" = in the background; \"si vede\" agrees with \"il mare\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "On the left you can see two figures.", answer: "A sinistra si vedono due figure.", altAnswers: ["A sinistra ci sono due figure.", "Sulla sinistra si vedono due figure."], explanation: "Plural subject, plural verb: \"si vedono\"." },
+          { type: "multiple-choice", question: "Which word means a painting, as one work hanging on a wall?", options: ["un dipinto", "una pittura", "una vernice", "un pittore"], correctIndex: 0, explanation: "\"Un dipinto\" or \"un quadro\"; \"la pittura\" is the art or the paint." },
+        ],
+      },
+      {
+        heading: "Light and colour",
+        body: [
+          "Colours can be \"caldi\" (warm) or \"freddi\", \"accesi\" (bright) or \"spenti\" (dull), and tones \"chiari\" or \"scuri\". Some colour adjectives never change: \"blu\", \"rosa\", \"viola\", \"beige\": \"un mantello blu\", \"due vesti rosa\". To describe a shade, use \"di un\": \"il cielo è di un azzurro intenso\".",
+          "Light is the heart of Italian painting talk: \"la luce proviene da destra\" (comes from the right), \"illumina il volto\", \"crea un forte contrasto\" with \"le ombre\". \"Il chiaroscuro\" is the play of light and dark that Caravaggio pushed to the extreme; his figures seem to step out of the darkness.",
+          "Compound shades stay invariable too: \"una gonna verde scuro\", \"occhi azzurro chiaro\", never \"*verdi scure\".",
+        ],
+        examples: [
+          { es: "Il pittore usa colori caldi e accesi.", en: "The painter uses warm, bright colours." },
+          { es: "La Madonna indossa un mantello blu.", en: "The Madonna is wearing a blue cloak." },
+          { es: "Il cielo è di un azzurro intenso.", en: "The sky is an intense blue." },
+          { es: "La luce proviene dall'alto a destra e illumina il volto del santo.", en: "The light comes from the top right and lights up the saint's face." },
+          { es: "Le figure sembrano uscire dal buio.", en: "The figures seem to emerge from the darkness." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The light comes from the right and lights up her face.", answer: "La luce proviene da destra e le illumina il volto.", altAnswers: ["La luce viene da destra e le illumina il volto.", "La luce proviene da destra e illumina il suo volto.", "La luce viene da destra e illumina il suo volto.", "La luce arriva da destra e le illumina il viso."], explanation: "\"Provenire da\" = to come from; Italian often uses an indirect pronoun with body parts: \"le illumina il volto\"." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The angel wears [pink robes].", sentence: "L'angelo indossa ___.", answer: "vesti rosa", explanation: "\"Rosa\" is invariable: \"vesti rosa\", never \"rose\"." },
+          { type: "listen-choose", audio: "Le figure sembrano uscire dal buio.", question: "What does it mean?", options: ["The figures seem to emerge from the darkness.", "The figures seem to go out into the light.", "The figures are leaving the room.", "The figures look tired."], correctIndex: 0, explanation: "\"Uscire dal buio\" = emerge from the darkness." },
+        ],
+      },
+      {
+        heading: "Meaning and impression",
+        body: [
+          "Move from what you see to what it means: \"simboleggia\" (symbolises), \"allude a\", \"il cane simboleggia la fedeltà\". Express interpretation with care: \"sembra che\" + subjunctive (\"sembra che la donna stia aspettando qualcuno\"), \"forse\", \"probabilmente\".",
+          "Then your response: \"il quadro trasmette\" (conveys) \"serenità\" or \"inquietudine\"; \"mi colpisce lo sguardo\" (the gaze strikes me), with the thing that strikes you as subject. \"Mi colpisce\" works like \"mi piace\": \"mi colpiscono i colori\".",
+          "Art talk often uses the present for what a painter does in the work: \"Caravaggio sceglie il momento della sorpresa\", \"il pittore ci mostra la scena dall'alto\".",
+        ],
+        examples: [
+          { es: "Il cane ai piedi della coppia simboleggia la fedeltà.", en: "The dog at the couple's feet symbolises fidelity." },
+          { es: "Sembra che la donna stia aspettando qualcuno.", en: "The woman seems to be waiting for someone." },
+          { es: "Il quadro trasmette un senso di calma.", en: "The painting conveys a sense of calm." },
+          { es: "Mi colpisce soprattutto lo sguardo del ragazzo.", en: "What strikes me most is the boy's gaze." },
+          { es: "Mi colpiscono i colori, così vivi dopo cinque secoli.", en: "I'm struck by the colours, so vivid after five centuries." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The woman seems to be waiting for someone.", answer: "Sembra che la donna stia aspettando qualcuno.", altAnswers: ["Sembra che la donna aspetti qualcuno.", "La donna sembra aspettare qualcuno."], explanation: "\"Sembra che\" + subjunctive; \"stia aspettando\" for an action in progress." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I'm struck by] the colours.", sentence: "___ i colori.", answer: "Mi colpiscono", explanation: "Like \"piacere\": the colours do the striking, so the verb is plural." },
+          { type: "speak", text: "Il quadro trasmette un senso di calma, e mi colpisce soprattutto lo sguardo del ragazzo.", prompt: "Give your impression: The painting conveys a sense of calm, and what strikes me most is the boy's gaze.", tip: "SGUAR-do: one syllable for gua.", explanation: "\"Trasmettere\" for the effect, \"mi colpisce\" for your reaction." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The painting depicts a family at dinner.", answer: "Il quadro rappresenta una famiglia a cena.", altAnswers: ["Il dipinto rappresenta una famiglia a cena.", "Il quadro raffigura una famiglia a cena.", "Il dipinto raffigura una famiglia a cena."], explanation: "\"Rappresentare\" or \"raffigurare\" = to depict." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In the foreground there's a basket of fruit.", answer: "In primo piano c'è un cesto di frutta.", altAnswers: ["In primo piano si vede un cesto di frutta.", "In primo piano c'è una cesta di frutta.", "In primo piano c'è un canestro di frutta."], explanation: "\"In primo piano\" = in the foreground." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The Madonna is wearing a blue cloak.", answer: "La Madonna indossa un mantello blu.", altAnswers: ["La Madonna porta un mantello blu.", "La Madonna ha un mantello blu."], explanation: "\"Blu\" never changes; \"indossare\" = to wear." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The painter uses warm colours.", answer: "Il pittore usa colori caldi.", altAnswers: ["Il pittore utilizza colori caldi.", "Il pittore usa dei colori caldi."], explanation: "\"Caldi\" agrees with \"colori\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The dog symbolises fidelity.", answer: "Il cane simboleggia la fedeltà.", altAnswers: ["Il cane rappresenta la fedeltà."], explanation: "\"Simboleggiare\"; abstract nouns take the article: \"la fedeltà\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The sky is [an intense blue].", sentence: "Il cielo è ___.", answer: "di un azzurro intenso", altAnswers: ["di un blu intenso"], explanation: "\"Di un\" + colour noun describes a shade." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[In the bottom right-hand corner] there's the signature.", sentence: "___ c'è la firma.", answer: "Nell'angolo in basso a destra", explanation: "\"In basso a destra\" = bottom right." },
+      { type: "word-order", prompt: "Put the words in order to say: The light creates a strong contrast with the shadows.", words: ["La luce", "crea", "un forte", "contrasto", "con le", "ombre."], translation: "The light creates a strong contrast with the shadows.", explanation: "\"Un forte contrasto\": \"forte\" often goes before the noun." },
+      { type: "multiple-choice", question: "You want to say that two figures can be seen on the right. Which is correct?", options: ["A destra si vedono due figure.", "A destra si vede due figure.", "A destra si vedano due figure.", "A destra se vedono due figure."], correctIndex: 0, explanation: "The verb agrees with the plural subject: \"si vedono\"." },
+      { type: "dictation", audio: "Sullo sfondo si vede il mare, calmo e luminoso.", explanation: "\"Sullo sfondo\": \"su\" + \"lo\"." },
+      { type: "speak", text: "Al centro si vede una donna con un mantello blu; la luce proviene da sinistra.", prompt: "Describe it aloud: In the centre you can see a woman in a blue cloak; the light comes from the left.", tip: "pro-VIE-ne: stress on vie.", explanation: "\"Si vede\" for the singular subject; \"provenire da\" for the light source." },
+    ],
+  },
+  {
+    slug: "b2-architecture",
+    level: "IT-B2",
+    number: 2,
+    title: "Architecture",
+    summary: "Name the parts of a church or palazzo, recognise Romanesque, Gothic, Renaissance and Baroque, and talk about centuries the Italian way.",
+    duration: "17 min",
+    sections: [
+      {
+        heading: "The parts of a building",
+        body: [
+          "Outside a church: \"la facciata\" (façade), \"il portale\" (main doorway), \"il rosone\" (rose window), \"la cupola\" (dome) and \"il campanile\" (bell tower), which in Italy often stands apart. Inside: \"la navata\" (nave; \"a tre navate\" = with a nave and two aisles), \"le colonne\", \"gli archi\", \"l'altare\", \"l'abside\" (apse), \"la cripta\". A monastery has \"il chiostro\" (cloister).",
+          "Materials take \"in\" or \"di\": \"in mattoni\" (brick), \"in pietra\", \"in marmo\", \"di legno\". A building \"sorge\" (stands) somewhere and \"si affaccia su\" (looks onto) a square or street.",
+          "A palazzo is not necessarily a palace: \"palazzo\" is any large building, including a block of flats (\"abito in un palazzo di sei piani\"). A noble palazzo has \"il cortile\" (courtyard), \"lo scalone\" (grand staircase) and rooms called \"sale\". Trap: \"il duomo\" is the main church of a town, often the cathedral; English dome is \"la cupola\".",
+        ],
+        examples: [
+          { es: "La facciata è in marmo bianco e verde.", en: "The façade is in white and green marble." },
+          { es: "Il campanile si trova accanto alla chiesa, non sopra.", en: "The bell tower stands next to the church, not on top of it." },
+          { es: "La chiesa è a tre navate, con colonne di granito.", en: "The church has a nave and two aisles, with granite columns." },
+          { es: "Dal chiostro si accede al refettorio dei monaci.", en: "From the cloister you reach the monks' refectory." },
+          { es: "Il duomo di Firenze è famoso per la sua cupola.", en: "Florence cathedral is famous for its dome." },
+          { es: "Abitiamo in un palazzo degli anni Sessanta.", en: "We live in a building from the sixties." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Florence cathedral is famous for its dome.", answer: "Il duomo di Firenze è famoso per la sua cupola.", altAnswers: ["Il Duomo di Firenze è famoso per la cupola.", "La cattedrale di Firenze è famosa per la sua cupola.", "Il duomo di Firenze è celebre per la sua cupola."], explanation: "\"Il duomo\" = the main church; a dome is \"la cupola\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We live in a building from the sixties.", answer: "Abitiamo in un palazzo degli anni Sessanta.", altAnswers: ["Viviamo in un palazzo degli anni Sessanta.", "Abitiamo in un palazzo degli anni '60.", "Viviamo in un palazzo degli anni '60."], explanation: "\"Palazzo\" = any large building, not only a palace." },
+          { type: "multiple-choice", question: "What is \"il chiostro\"?", options: ["a cloister", "a choir", "a crypt", "a bell tower"], correctIndex: 0, explanation: "\"Il chiostro\" = the arcaded courtyard of a monastery." },
+        ],
+      },
+      {
+        heading: "Four styles",
+        body: [
+          "\"Romanico\" (Romanesque, 11th-12th century): thick walls, small windows, round arches (\"archi a tutto sesto\"). \"Gotico\": pointed arches (\"archi a sesto acuto\"), height and light; the Duomo di Milano is the great Italian example. \"Rinascimentale\" (Renaissance): proportion, symmetry and classical columns, born in Florence with Brunelleschi. \"Barocco\": curves, movement, theatrical effects, as in Bernini's and Borromini's Rome or the golden stone of Lecce.",
+          "Italians name centuries by their hundreds: \"il Duecento\" is the 1200s, the thirteenth century; \"il Quattrocento\" the 1400s, the fifteenth century. It's a classic trap: \"il Quattrocento\" is not the fourth century. In writing you also see Roman numerals: \"il XV secolo\", read \"il quindicesimo secolo\". Style adjectives are lower case: \"una chiesa gotica\".",
+        ],
+        examples: [
+          { es: "La basilica è un esempio di romanico lombardo.", en: "The basilica is an example of Lombard Romanesque." },
+          { es: "Gli archi a sesto acuto sono tipici del gotico.", en: "Pointed arches are typical of Gothic." },
+          { es: "Brunelleschi è il padre dell'architettura rinascimentale.", en: "Brunelleschi is the father of Renaissance architecture." },
+          { es: "Nel Seicento Roma si riempì di chiese barocche.", en: "In the seventeenth century Rome filled up with Baroque churches." },
+          { es: "Il Quattrocento è il secolo di Botticelli.", en: "The fifteenth century is Botticelli's century." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian, naming the century the Italian way.", source: "the fifteenth century", answer: "il Quattrocento", altAnswers: ["il XV secolo", "il quindicesimo secolo"], explanation: "\"Il Quattrocento\" = the 1400s = the fifteenth century." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Pointed arches are typical of Gothic.", answer: "Gli archi a sesto acuto sono tipici del gotico.", altAnswers: ["Gli archi a sesto acuto sono tipici dello stile gotico.", "Gli archi acuti sono tipici del gotico."], explanation: "\"Arco a sesto acuto\" = pointed arch; \"tipici\" agrees with \"archi\"." },
+          { type: "listen-choose", audio: "Nel Seicento Roma si riempì di chiese barocche.", question: "When did Rome fill up with Baroque churches?", options: ["in the seventeenth century", "in the sixth century", "in the sixteenth century", "in the 1960s"], correctIndex: 0, explanation: "\"Il Seicento\" = the 1600s = the seventeenth century." },
+        ],
+      },
+      {
+        heading: "Describing a building",
+        body: [
+          "Guidebooks pack information into relative clauses: \"la chiesa, che fu costruita nel XII secolo, conserva...\", \"il palazzo, la cui facciata fu rifatta nell'Ottocento\" (whose façade), \"l'architetto al quale fu affidato il progetto\" (to whom the project was entrusted). Use \"il cui\" with the article of the thing owned: \"la cui facciata\", \"i cui affreschi\".",
+          "Combine with the passive and \"risalire a\" (to date back to): \"il chiostro risale al Trecento\", \"la cupola fu completata nel 1436\".",
+          "For location, guidebooks prefer \"si trova\" and \"sorge\" to \"è\": \"la chiesa sorge su una collina\", \"il palazzo si affaccia sulla piazza principale\".",
+        ],
+        examples: [
+          { es: "Il chiostro risale al Trecento.", en: "The cloister dates back to the fourteenth century." },
+          { es: "La cupola fu completata nel 1436.", en: "The dome was completed in 1436." },
+          { es: "È un palazzo la cui facciata fu rifatta nell'Ottocento.", en: "It's a palazzo whose façade was rebuilt in the nineteenth century." },
+          { es: "L'architetto al quale fu affidato il progetto aveva solo trent'anni.", en: "The architect who was given the project was only thirty." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The cloister dates back to the fourteenth century.", answer: "Il chiostro risale al Trecento.", altAnswers: ["Il chiostro risale al XIV secolo.", "Il chiostro risale al quattordicesimo secolo."], explanation: "\"Risalire a\"; the 1300s = \"il Trecento\"." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It's a palazzo [whose façade] was rebuilt.", sentence: "È un palazzo ___ fu rifatta.", answer: "la cui facciata", explanation: "\"Il cui\" takes the article of the thing owned: \"la cui facciata\"." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The bell tower stands next to the church.", answer: "Il campanile si trova accanto alla chiesa.", altAnswers: ["Il campanile è accanto alla chiesa.", "Il campanile sta accanto alla chiesa.", "Il campanile si trova vicino alla chiesa."], explanation: "\"Accanto a\" = next to." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The façade is in white marble.", answer: "La facciata è in marmo bianco.", altAnswers: ["La facciata è di marmo bianco."], explanation: "Material: \"in\" or \"di\" + noun." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The dome was completed in 1436.", answer: "La cupola fu completata nel 1436.", altAnswers: ["La cupola venne completata nel 1436.", "La cupola è stata completata nel 1436."], explanation: "Passato remoto passive, normal in history; \"nel\" + year." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian, naming the century the Italian way.", source: "It's a Baroque church from the seventeenth century.", answer: "È una chiesa barocca del Seicento.", altAnswers: ["È una chiesa barocca del XVII secolo.", "È una chiesa barocca del diciassettesimo secolo."], explanation: "The 1600s = \"il Seicento\"; \"barocca\" lower case." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Brunelleschi is the father of Renaissance architecture.", answer: "Brunelleschi è il padre dell'architettura rinascimentale.", explanation: "\"Rinascimentale\" = Renaissance (adjective)." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The church has [a nave and two aisles].", sentence: "La chiesa è ___.", answer: "a tre navate", explanation: "Italian counts all three: \"a tre navate\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The architect [to whom the project was entrusted] was young.", sentence: "L'architetto ___ era giovane.", answer: "al quale fu affidato il progetto", altAnswers: ["a cui fu affidato il progetto", "al quale venne affidato il progetto", "a cui venne affidato il progetto"], explanation: "\"Al quale\" or \"a cui\" after \"affidare a\"." },
+      { type: "word-order", prompt: "Put the words in order to say: Pointed arches are typical of Gothic.", words: ["Gli archi", "a sesto", "acuto", "sono tipici", "del gotico."], translation: "Pointed arches are typical of Gothic.", explanation: "\"A sesto acuto\" = pointed." },
+      { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "la facciata", right: "the façade" }, { left: "la cupola", right: "the dome" }, { left: "il rosone", right: "the rose window" }, { left: "il chiostro", right: "the cloister" }, { left: "la navata", right: "the nave" }], explanation: "The parts of an Italian church." },
+      { type: "dictation", audio: "Il chiostro risale al Trecento e la facciata al Cinquecento.", explanation: "\"Trecento\" = 1300s; \"Cinquecento\" = 1500s." },
+      { type: "speak", text: "Il duomo è in stile gotico, ma la cupola fu aggiunta nel Rinascimento.", prompt: "Say it in Italian: The cathedral is Gothic, but the dome was added in the Renaissance.", tip: "ri-na-sci-MEN-to: sc before i is sh.", explanation: "Passato remoto passive \"fu aggiunta\"." },
+    ],
+  },
+  {
+    slug: "b2-art-history-language",
+    level: "IT-B2",
+    number: 3,
+    title: "Art History Language",
+    summary: "Use the passato remoto and its passive (fu dipinto, venne commissionato) to tell an artist's life and the story of a work.",
+    duration: "17 min",
+    sections: [
+      {
+        heading: "The passato remoto of artists' lives",
+        body: [
+          "Art history is written in the passato remoto, the tense of the finished, distant past. You know it for reading; now produce it. Regular endings in the third person: \"lavorò\" (-are), \"ricevette\" or \"ricevé\" (-ere), \"partì\" (-ire); plural \"lavorarono\", \"ricevettero\", \"partirono\". The stress falls on the final vowel in the singular: la-vo-RÒ, par-TÌ.",
+          "The verbs of a biography are mostly irregular: \"nacque\" (was born), \"visse\" (lived), \"morì\", \"fu\", \"ebbe\", \"fece\", \"dipinse\", \"scolpì\" (regular, sculpted), \"venne\" (came), \"prese\", \"mise\", \"vide\". Plurals: \"nacquero\", \"vissero\", \"dipinsero\", \"furono\", \"ebbero\", \"fecero\".",
+          "About your own visit last week you still say \"ho visto\": the passato remoto belongs to the history you tell, not to your trip.",
+        ],
+        examples: [
+          { es: "Michelangelo nacque nel 1475 a Caprese, in Toscana.", en: "Michelangelo was born in 1475 in Caprese, in Tuscany." },
+          { es: "Visse quasi novant'anni e morì a Roma.", en: "He lived almost ninety years and died in Rome." },
+          { es: "Raffaello morì giovanissimo, a trentasette anni.", en: "Raphael died very young, at thirty-seven." },
+          { es: "Caravaggio ebbe una vita violenta e fuggì da Roma nel 1606.", en: "Caravaggio had a violent life and fled Rome in 1606." },
+          { es: "Giotto dipinse gli affreschi della Cappella degli Scrovegni.", en: "Giotto painted the frescoes in the Scrovegni Chapel." },
+          { es: "I due artisti si conobbero a Firenze e diventarono rivali.", en: "The two artists met in Florence and became rivals." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian, in the passato remoto.", source: "Raphael died at thirty-seven.", answer: "Raffaello morì a trentasette anni.", altAnswers: ["Raffaello morì a 37 anni.", "Raffaello morì all'età di trentasette anni."], explanation: "\"Morì\": regular -ire, stress on the last syllable." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian, in the passato remoto.", source: "Giotto painted the frescoes in the chapel.", answer: "Giotto dipinse gli affreschi della cappella.", altAnswers: ["Giotto dipinse gli affreschi nella cappella."], explanation: "\"Dipingere\" → \"dipinse\" (irregular)." },
+          { type: "multiple-choice", question: "Which is the passato remoto of \"nascere\" for he?", options: ["nacque", "nascé", "nascette", "nasque"], correctIndex: 0, explanation: "\"Nacque\", with cq; plural \"nacquero\"." },
+        ],
+      },
+      {
+        heading: "Fu dipinto, venne commissionato",
+        body: [
+          "The passive in art history uses \"fu\" or \"venne\" + participle: \"il ciclo fu dipinto tra il 1303 e il 1305\", \"l'opera venne commissionata dal duca\". The participle agrees with the subject: \"la cappella fu affrescata\", \"le statue furono scolpite\". \"Venne\" stresses the action; \"fu\" is the default.",
+          "Who ordered and paid for a work matters: \"il committente\" is the patron, \"commissionare\" to commission. \"Affidare\" is to entrust (\"il lavoro fu affidato a Michelangelo\"), and \"realizzare\" to make or carry out a work.",
+          "The \"si\" passive also appears in history: \"si decise di rifare la facciata\" (it was decided), \"si costruirono nuove chiese\", with the verb agreeing with a plural noun.",
+        ],
+        examples: [
+          { es: "La volta della Cappella Sistina fu dipinta tra il 1508 e il 1512.", en: "The Sistine Chapel ceiling was painted between 1508 and 1512." },
+          { es: "L'opera venne commissionata da papa Giulio II.", en: "The work was commissioned by Pope Julius II." },
+          { es: "La cappella fu affrescata da Giotto per Enrico Scrovegni.", en: "The chapel was frescoed by Giotto for Enrico Scrovegni." },
+          { es: "Il lavoro fu affidato a un giovane scultore.", en: "The job was entrusted to a young sculptor." },
+          { es: "Le statue furono scolpite in marmo di Carrara.", en: "The statues were carved in Carrara marble." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian, in the passato remoto.", source: "The work was commissioned by the duke.", answer: "L'opera fu commissionata dal duca.", altAnswers: ["L'opera venne commissionata dal duca."], explanation: "\"L'opera\" is feminine: \"commissionata\"." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words, in the passato remoto.", en: "The statues [were carved] in marble.", sentence: "Le statue ___ in marmo.", answer: "furono scolpite", altAnswers: ["vennero scolpite"], explanation: "Plural \"furono\" + feminine plural \"scolpite\"." },
+          { type: "listen-choose", audio: "La volta della Cappella Sistina fu dipinta tra il 1508 e il 1512.", question: "When was the Sistine Chapel ceiling painted?", options: ["between 1508 and 1512", "between 1512 and 1518", "in 1508", "between 1408 and 1412"], correctIndex: 0, explanation: "\"Tra il 1508 e il 1512\": years take the article." },
+        ],
+      },
+      {
+        heading: "Telling the story of a work",
+        body: [
+          "A paragraph of art history mixes tenses: the passato remoto for events, the imperfect for background (\"Leonardo lavorava allora a Milano\"), the trapassato for what came before (\"aveva già dipinto\"). Time expressions: \"nel 1495\", \"tra il ... e il ...\", \"a partire dal\" (from ... onwards), \"all'età di vent'anni\", \"pochi anni dopo\".",
+          "The present is used for the work as it is now: \"oggi l'affresco si trova a Milano\", \"è considerato un capolavoro\".",
+          "Reading tip: some passato remoto forms look like other words. \"Chiese\" is he asked as well as churches, \"prese\" he took as well as sockets, \"diede\" (or \"dette\") he gave, \"rimase\" he stayed. Context decides.",
+        ],
+        examples: [
+          { es: "Leonardo lavorava allora alla corte di Ludovico il Moro.", en: "At the time Leonardo was working at the court of Ludovico il Moro." },
+          { es: "Dipinse l'Ultima Cena con una tecnica sperimentale, che si rovinò presto.", en: "He painted the Last Supper with an experimental technique, which soon deteriorated." },
+          { es: "Oggi l'opera è considerata un capolavoro.", en: "Today the work is considered a masterpiece." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Today the work is considered a masterpiece.", answer: "Oggi l'opera è considerata un capolavoro.", altAnswers: ["Oggi l'opera viene considerata un capolavoro."], explanation: "Present for the work today; \"considerata\" agrees with \"l'opera\"." },
+          { type: "speak", text: "Leonardo dipinse l'Ultima Cena a Milano, dove lavorava alla corte degli Sforza.", prompt: "Say it in Italian: Leonardo painted the Last Supper in Milan, where he was working at the Sforza court.", tip: "di-PIN-se: stress on pin.", explanation: "Passato remoto for the event, imperfect for the background." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian, in the passato remoto.", source: "Michelangelo was born in 1475.", answer: "Michelangelo nacque nel 1475.", explanation: "\"Nacque\" + \"nel\" + year." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian, in the passato remoto.", source: "He lived in Rome for many years.", answer: "Visse a Roma per molti anni.", altAnswers: ["Visse molti anni a Roma.", "Visse per molti anni a Roma."], explanation: "\"Vivere\" → \"visse\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian, in the passato remoto.", source: "Caravaggio fled Rome in 1606.", answer: "Caravaggio fuggì da Roma nel 1606.", altAnswers: ["Caravaggio scappò da Roma nel 1606."], explanation: "\"Fuggire\" → \"fuggì\": regular -ire." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian, in the passato remoto.", source: "The chapel was frescoed by Giotto.", answer: "La cappella fu affrescata da Giotto.", altAnswers: ["La cappella venne affrescata da Giotto."], explanation: "Passive \"fu\" + agreeing participle + \"da\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian, in the passato remoto.", source: "The two artists met in Florence.", answer: "I due artisti si conobbero a Firenze.", altAnswers: ["I due artisti si incontrarono a Firenze."], explanation: "\"Conoscersi\" → \"si conobbero\" = they met (for the first time)." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian, in the passato remoto.", source: "The job was entrusted to a young sculptor.", answer: "Il lavoro fu affidato a un giovane scultore.", altAnswers: ["Il lavoro venne affidato a un giovane scultore.", "L'incarico fu affidato a un giovane scultore."], explanation: "\"Affidare a\" = to entrust to." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words, in the passato remoto.", en: "The painters [had] many pupils.", sentence: "I pittori ___ molti allievi.", answer: "ebbero", explanation: "\"Avere\" → \"ebbe\", \"ebbero\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words, in the passato remoto.", en: "Leonardo [made] many drawings of machines.", sentence: "Leonardo ___ molti disegni di macchine.", answer: "fece", explanation: "\"Fare\" → \"fece\"." },
+      { type: "word-order", prompt: "Put the words in order to say: The work was commissioned by Pope Julius II.", words: ["L'opera", "venne", "commissionata", "da papa", "Giulio II."], translation: "The work was commissioned by Pope Julius II.", explanation: "\"Venne\" + participle: passive in the passato remoto." },
+      { type: "dictation", audio: "Raffaello nacque a Urbino e morì a Roma.", explanation: "\"Nacque\" and \"morì\": passato remoto." },
+      { type: "speak", text: "Michelangelo nacque nel 1475, visse quasi novant'anni e morì a Roma.", prompt: "Tell his life in one sentence: Michelangelo was born in 1475, lived almost ninety years and died in Rome.", tip: "NAC-que: the cq is a long k sound.", explanation: "Three passato remoto forms in a row." },
+    ],
+  },
+  {
+    slug: "b2-film-reviews",
+    level: "IT-B2",
+    number: 4,
+    title: "Reviewing a Film",
+    summary: "Say what a film is about, talk about direction, acting and music, and give a reasoned verdict.",
+    duration: "16 min",
+    sections: [
+      {
+        heading: "What it's about",
+        body: [
+          "A review starts with the setting and the story: \"il film è ambientato a Napoli negli anni Cinquanta\" (is set in), \"racconta la storia di\" (tells the story of), \"il protagonista\" or \"la protagonista\" (the main character), \"la trama\" (the plot). If it comes from a book, it's \"tratto da un romanzo\" (based on a novel). Tell the plot in the present, as Italian reviews do.",
+          "Genres: \"una commedia\", \"un dramma\", \"un film d'animazione\", \"un documentario\", \"un horror\" and \"un giallo\" (a crime or mystery story, from the yellow covers of a famous series of crime paperbacks). Warn the reader with \"senza rivelare il finale\" or, more casually, \"senza fare spoiler\".",
+          "\"Trattare di\" means to be about: \"il film tratta del rapporto tra padre e figlio\". The impersonal \"si tratta di\" has no subject: \"si tratta di una commedia\", never \"*il film si tratta di\".",
+        ],
+        examples: [
+          { es: "Il film è ambientato a Napoli negli anni Cinquanta.", en: "The film is set in Naples in the fifties." },
+          { es: "Racconta la storia di un operaio a cui rubano la bicicletta.", en: "It tells the story of a worker whose bicycle is stolen." },
+          { es: "La protagonista è una giovane avvocata che torna nel suo paese.", en: "The main character is a young lawyer who returns to her home town." },
+          { es: "È tratto da un romanzo degli anni Trenta.", en: "It's based on a novel from the thirties." },
+          { es: "È un giallo ambientato in un piccolo paese della Puglia.", en: "It's a crime story set in a small village in Puglia." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The film is set in Naples in the fifties.", answer: "Il film è ambientato a Napoli negli anni Cinquanta.", altAnswers: ["Il film è ambientato a Napoli negli anni '50.", "Il film è ambientato nella Napoli degli anni Cinquanta."], explanation: "\"Essere ambientato\" = to be set; \"negli anni Cinquanta\" = in the fifties." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's based on a novel.", answer: "È tratto da un romanzo.", altAnswers: ["È basato su un romanzo.", "Il film è tratto da un romanzo."], explanation: "\"Tratto da\" is the standard phrase; \"basato su\" is also used." },
+          { type: "multiple-choice", question: "A friend says the film is \"un giallo\". What kind of film is it?", options: ["a crime or mystery film", "a comedy", "a film shot in sepia", "a cartoon"], correctIndex: 0, explanation: "\"Giallo\" = crime or mystery, from the yellow covers of crime paperbacks." },
+        ],
+      },
+      {
+        heading: "How it's made",
+        body: [
+          "\"La regia\" is the direction and \"il regista\" or \"la regista\" the director; \"diretto da\" = directed by. The actors give \"un'interpretazione\" (a performance), and a role is \"interpretato da\" someone (played by). Behind the camera: \"la sceneggiatura\" (screenplay), \"la fotografia\" (cinematography), \"il montaggio\" (editing), \"la colonna sonora\" (soundtrack, score). A film is \"girato\" (shot) somewhere.",
+          "Classic example: \"Ladri di biciclette\", diretto da Vittorio De Sica nel 1948, fu girato per le strade di Roma con attori non professionisti. Trap: \"il direttore\" is a manager or a conductor (\"il direttore d'orchestra\"), never a film director.",
+        ],
+        examples: [
+          { es: "Il film è stato diretto da una regista esordiente.", en: "The film was directed by a first-time director." },
+          { es: "Il ruolo del padre è interpretato da un attore teatrale.", en: "The father is played by a stage actor." },
+          { es: "Fu girato per le strade di Roma con attori non professionisti.", en: "It was shot on the streets of Rome with non-professional actors." },
+          { es: "La fotografia è splendida, soprattutto nelle scene notturne.", en: "The cinematography is superb, especially in the night scenes." },
+          { es: "La colonna sonora accompagna perfettamente le immagini.", en: "The score goes perfectly with the images." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The film was directed by a young director. (a woman)", answer: "Il film è stato diretto da una giovane regista.", altAnswers: ["Il film è stato diretto da una regista giovane.", "Il film fu diretto da una giovane regista."], explanation: "\"Diretto da\"; a film director is \"il / la regista\", never \"direttore\"." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The father [is played by] a stage actor.", sentence: "Il padre ___ un attore teatrale.", answer: "è interpretato da", explanation: "\"Interpretare\" = to play a role; agent with \"da\"." },
+          { type: "listen-choose", audio: "La fotografia è splendida, soprattutto nelle scene notturne.", question: "What is praised?", options: ["the cinematography", "the photos in the programme", "the soundtrack", "the editing"], correctIndex: 0, explanation: "\"La fotografia\" of a film = cinematography." },
+        ],
+      },
+      {
+        heading: "Your verdict",
+        body: [
+          "Your reaction works like \"piacere\": \"mi ha colpito\" (it struck me), \"mi ha commosso\" (it moved me), \"mi ha deluso\" (it disappointed me), \"mi ha lasciato perplesso\" (it left me puzzled). With a plural subject the verb is plural: \"mi hanno colpito i dialoghi\".",
+          "Adjectives that judge: \"coinvolgente\" (gripping), \"commovente\" (moving), \"prevedibile\" (predictable), \"lento\", \"esilarante\" (hilarious). Close with a recommendation: \"da non perdere\" (not to be missed), \"vale la pena vederlo\" (it's worth seeing), \"ve lo consiglio\". The subjunctive gives nuance: \"credo che sia il suo film migliore\", \"è il film più bello che abbia visto quest'anno\".",
+          "Release talk: a film \"esce\" (comes out) on a day (\"esce giovedì\"), it is \"in sala\" (in cinemas) or \"su una piattaforma\" (streaming).",
+        ],
+        examples: [
+          { es: "Mi ha colpito soprattutto il finale.", en: "What struck me most was the ending." },
+          { es: "Mi hanno commosso le scene tra padre e figlio.", en: "The scenes between father and son moved me." },
+          { es: "La trama è un po' prevedibile, ma gli attori sono bravissimi.", en: "The plot is a bit predictable, but the actors are excellent." },
+          { es: "È il film più bello che abbia visto quest'anno.", en: "It's the best film I've seen this year." },
+          { es: "Vale la pena vederlo al cinema.", en: "It's worth seeing at the cinema." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's the best film I've seen this year.", answer: "È il film più bello che abbia visto quest'anno.", altAnswers: ["È il film migliore che abbia visto quest'anno.", "È il più bel film che abbia visto quest'anno.", "È il film più bello che io abbia visto quest'anno."], explanation: "After a superlative, the subjunctive in careful writing: \"che abbia visto\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The scenes between father and son moved me.", answer: "Mi hanno commosso le scene tra padre e figlio.", altAnswers: ["Le scene tra padre e figlio mi hanno commosso.", "Mi hanno commossa le scene tra padre e figlio.", "Le scene tra padre e figlio mi hanno commossa.", "Mi hanno commosso le scene fra padre e figlio."], explanation: "\"Le scene\" is the subject, so \"hanno\"." },
+          { type: "speak", text: "La trama è un po' prevedibile, ma vale la pena vederlo al cinema.", prompt: "Give your verdict: The plot is a bit predictable, but it's worth seeing at the cinema.", tip: "pre-ve-DI-bi-le: stress on di.", explanation: "A balanced verdict: criticism, then recommendation." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It tells the story of a family in Sicily.", answer: "Racconta la storia di una famiglia in Sicilia.", altAnswers: ["Il film racconta la storia di una famiglia in Sicilia.", "Racconta la storia di una famiglia siciliana."], explanation: "\"Raccontare la storia di\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The film was shot in Matera.", answer: "Il film è stato girato a Matera.", altAnswers: ["Il film fu girato a Matera.", "Il film è girato a Matera."], explanation: "\"Girare\" = to shoot a film." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The soundtrack is beautiful.", answer: "La colonna sonora è bellissima.", altAnswers: ["La colonna sonora è molto bella.", "La colonna sonora è splendida."], explanation: "\"La colonna sonora\" = soundtrack, score." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The ending disappointed me.", answer: "Il finale mi ha deluso.", altAnswers: ["Mi ha deluso il finale.", "Il finale mi ha delusa.", "Mi ha delusa il finale."], explanation: "\"Deludere\" → \"deluso\"; the ending is the subject." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I think it's her best film.", answer: "Credo che sia il suo film migliore.", altAnswers: ["Penso che sia il suo film migliore.", "Credo che sia il suo miglior film.", "Penso che sia il suo miglior film."], explanation: "\"Credere che\" + subjunctive \"sia\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It's a film [not to be missed].", sentence: "È un film ___.", answer: "da non perdere", explanation: "\"Da\" + infinitive = to be ...ed." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The plot is [gripping] from start to finish.", sentence: "La trama è ___ dall'inizio alla fine.", answer: "coinvolgente", altAnswers: ["avvincente", "appassionante"], explanation: "\"Coinvolgente\" = gripping, involving." },
+      { type: "word-order", prompt: "Put the words in order to say: The main character is a young lawyer.", words: ["La", "protagonista", "è una", "giovane", "avvocata."], translation: "The main character is a young lawyer.", explanation: "\"Avvocata\" is now the usual feminine form; \"avvocato\" is also used for women." },
+      { type: "multiple-choice", question: "Which sentence is correct?", options: ["Il film è diretto da una regista famosa.", "Il film è diretto da una direttrice famosa.", "Il film è diretto di una regista famosa.", "Il film è registrato da una regista famosa."], correctIndex: 0, explanation: "\"Regista\" for a film director, \"da\" for the agent." },
+      { type: "dictation", audio: "Il film è tratto da un romanzo ed è ambientato a Torino.", explanation: "\"Tratto da\", \"ambientato a\"; \"ed\" before a vowel." },
+      { type: "speak", text: "Mi ha colpito soprattutto l'interpretazione della protagonista: ve lo consiglio.", prompt: "Recommend it: What struck me most was the lead actress's performance. I recommend it to you all.", tip: "in-ter-pre-ta-ZIO-ne: stress on zio.", explanation: "\"Mi ha colpito\" + subject; \"ve lo consiglio\" = I recommend it to you (plural)." },
+    ],
+  },
+  {
+    slug: "b2-drill-art-vocabulary",
+    level: "IT-B2",
+    number: 5,
+    title: "Drill: Art Vocabulary",
+    summary: "High-repetition production of the words for paintings, buildings and films.",
+    duration: "22 min",
+    kind: "drill",
+    sections: [
+      {
+        heading: "Painting and architecture",
+        body: [
+          "Recall: \"il quadro\", \"il dipinto\", \"il ritratto\", \"l'affresco\", \"la tela\" (canvas), \"lo sfondo\", \"il primo piano\", \"la facciata\", \"la cupola\", \"il campanile\", \"il chiostro\", \"la navata\". New: \"la pala d'altare\" (altarpiece), \"la scultura\", \"il capolavoro\" (masterpiece, plural \"i capolavori\").",
+        ],
+        examples: [
+          { es: "L'affresco è stato restaurato nel 2010.", en: "The fresco was restored in 2010." },
+          { es: "La pala d'altare è tornata nella sua chiesa.", en: "The altarpiece has returned to its church." },
+          { es: "È un ritratto a olio su tela.", en: "It's an oil portrait on canvas." },
+          { es: "Questa scultura è considerata un capolavoro.", en: "This sculpture is considered a masterpiece." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The fresco was restored in 2010.", answer: "L'affresco è stato restaurato nel 2010.", altAnswers: ["L'affresco fu restaurato nel 2010.", "L'affresco venne restaurato nel 2010."], explanation: "\"L'affresco\", masculine: \"restaurato\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's an oil portrait on canvas.", answer: "È un ritratto a olio su tela.", altAnswers: ["È un ritratto ad olio su tela."], explanation: "\"A olio\" = in oils; \"su tela\" = on canvas." },
+        ],
+      },
+      {
+        heading: "Film",
+        body: [
+          "Recall: \"la trama\", \"la regia\", \"il / la regista\", \"la sceneggiatura\", \"la fotografia\", \"il montaggio\", \"la colonna sonora\", \"girare\", \"interpretare\", \"ambientato\", \"tratto da\". New: \"la sala\" (cinema auditorium), \"i sottotitoli\", \"in versione originale\", \"doppiato\" (dubbed).",
+        ],
+        examples: [
+          { es: "Preferisco vedere i film in versione originale con i sottotitoli.", en: "I prefer to watch films in the original language with subtitles." },
+          { es: "In Italia quasi tutti i film stranieri sono doppiati.", en: "In Italy almost all foreign films are dubbed." },
+          { es: "La sala era piena.", en: "The cinema was full." },
+          { es: "La sceneggiatura è stata scritta da due donne.", en: "The screenplay was written by two women." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In Italy almost all foreign films are dubbed.", answer: "In Italia quasi tutti i film stranieri sono doppiati.", altAnswers: ["In Italia quasi tutti i film stranieri vengono doppiati."], explanation: "\"Doppiare\" = to dub; \"film\" is invariable." },
+          { type: "listen-choose", audio: "Preferisco vedere i film in versione originale con i sottotitoli.", question: "How does the speaker like to watch films?", options: ["in the original language with subtitles", "dubbed into Italian", "at home without subtitles", "in the original language without subtitles"], correctIndex: 0, explanation: "\"In versione originale con i sottotitoli\"." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "This sculpture is considered a masterpiece.", answer: "Questa scultura è considerata un capolavoro.", altAnswers: ["Questa scultura viene considerata un capolavoro."], explanation: "\"Considerata\" agrees with \"scultura\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The museum has three masterpieces by Caravaggio.", answer: "Il museo ha tre capolavori di Caravaggio.", altAnswers: ["Il museo possiede tre capolavori di Caravaggio.", "Il museo conserva tre capolavori di Caravaggio."], explanation: "\"Capolavoro\" → \"capolavori\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The altarpiece has returned to its church.", answer: "La pala d'altare è tornata nella sua chiesa.", altAnswers: ["La pala d'altare è tornata alla sua chiesa."], explanation: "\"Tornare\" takes \"essere\": \"è tornata\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The dome is visible from the whole city.", answer: "La cupola è visibile da tutta la città.", altAnswers: ["La cupola si vede da tutta la città."], explanation: "\"Da tutta la città\" = from the whole city." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The screenplay was written by two women.", answer: "La sceneggiatura è stata scritta da due donne.", altAnswers: ["La sceneggiatura fu scritta da due donne."], explanation: "\"Scritta\" agrees with \"la sceneggiatura\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The editing is too slow.", answer: "Il montaggio è troppo lento.", explanation: "\"Il montaggio\" = editing." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I prefer films with subtitles.", answer: "Preferisco i film con i sottotitoli.", altAnswers: ["Preferisco i film sottotitolati."], explanation: "\"I sottotitoli\" = subtitles." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The cloister is open to the public.", answer: "Il chiostro è aperto al pubblico.", explanation: "\"Aperto al pubblico\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The church has [a beautiful rose window].", sentence: "La chiesa ha ___.", answer: "un bellissimo rosone", altAnswers: ["un bel rosone", "un rosone bellissimo"], explanation: "\"Il rosone\" = rose window." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The film [was shot] in Sicily.", sentence: "Il film ___ in Sicilia.", answer: "è stato girato", altAnswers: ["fu girato"], explanation: "\"Girare\" = to shoot." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[In the background] there are mountains.", sentence: "___ ci sono delle montagne.", answer: "Sullo sfondo", explanation: "\"Sullo sfondo\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The film is [dubbed] into Italian.", sentence: "Il film è ___ in italiano.", answer: "doppiato", explanation: "\"Doppiato\" = dubbed." },
+      { type: "dictation", audio: "Il ritratto è a olio su tela e risale al Cinquecento.", explanation: "\"A olio su tela\"; \"il Cinquecento\" = the 1500s." },
+      { type: "speak", text: "Questa pala d'altare è considerata un capolavoro del Rinascimento.", prompt: "Say it in Italian: This altarpiece is considered a masterpiece of the Renaissance.", tip: "ca-po-LA-vo-ro: stress on la.", explanation: "\"Considerata\" agrees with \"pala\"." },
+    ],
+  },
+  {
+    slug: "b2-drill-describing",
+    level: "IT-B2",
+    number: 6,
+    title: "Drill: Description",
+    summary: "High-repetition production of descriptive sentences: si vede, relative clauses, colours and impressions.",
+    duration: "22 min",
+    kind: "drill",
+    sections: [
+      {
+        heading: "What you see",
+        body: [
+          "Patterns: \"si vede\" / \"si vedono\" + subject; place phrase first (\"in primo piano\", \"sullo sfondo\"); colours that never change (\"blu\", \"rosa\", \"viola\"); \"di un\" + colour for a shade.",
+        ],
+        examples: [
+          { es: "In primo piano si vedono due bambini che giocano.", en: "In the foreground you can see two children playing." },
+          { es: "Sullo sfondo si vede una città sul mare.", en: "In the background you can see a city by the sea." },
+          { es: "La ragazza indossa un vestito viola.", en: "The girl is wearing a purple dress." },
+          { es: "Il mare è di un verde profondo.", en: "The sea is a deep green." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In the foreground you can see two children playing.", answer: "In primo piano si vedono due bambini che giocano.", altAnswers: ["In primo piano ci sono due bambini che giocano."], explanation: "\"Si vedono\" for a plural subject; \"che giocano\" = playing." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The girl is wearing a purple dress.", answer: "La ragazza indossa un vestito viola.", altAnswers: ["La ragazza porta un vestito viola.", "La ragazza ha un vestito viola."], explanation: "\"Viola\" is invariable." },
+        ],
+      },
+      {
+        heading: "Linking and interpreting",
+        body: [
+          "Patterns: \"che\" and \"in cui\" (in which), \"il cui\" (whose), \"sembra che\" + subjunctive, \"trasmette\" + noun, \"mi colpisce\" / \"mi colpiscono\".",
+        ],
+        examples: [
+          { es: "È una stanza in cui entra pochissima luce.", en: "It's a room that very little light gets into." },
+          { es: "C'è un uomo il cui volto è nascosto nell'ombra.", en: "There's a man whose face is hidden in shadow." },
+          { es: "Sembra che i due personaggi stiano litigando.", en: "The two figures seem to be arguing." },
+          { es: "Il paesaggio trasmette malinconia.", en: "The landscape conveys melancholy." },
+        ],
+        checkpoint: [
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "There's a man [whose face] is hidden.", sentence: "C'è un uomo ___ è nascosto.", answer: "il cui volto", altAnswers: ["il cui viso"], explanation: "\"Il cui\" + masculine noun." },
+          { type: "listen-choose", audio: "Sembra che i due personaggi stiano litigando.", question: "What does it mean?", options: ["The two figures seem to be arguing.", "The two figures seem to be talking quietly.", "The two figures are leaving.", "The two figures look alike."], correctIndex: 0, explanation: "\"Litigare\" = to argue." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In the background you can see a city by the sea.", answer: "Sullo sfondo si vede una città sul mare.", altAnswers: ["Sullo sfondo c'è una città sul mare.", "Sullo sfondo si vede una città in riva al mare."], explanation: "\"Sul mare\" = by the sea." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The sea is a deep green.", answer: "Il mare è di un verde profondo.", altAnswers: ["Il mare è di un verde intenso."], explanation: "\"Di un\" + colour noun." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's a room that very little light gets into.", answer: "È una stanza in cui entra pochissima luce.", altAnswers: ["È una stanza nella quale entra pochissima luce.", "È una stanza dove entra pochissima luce."], explanation: "\"In cui\" or \"nella quale\" = in which." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The landscape conveys melancholy.", answer: "Il paesaggio trasmette malinconia.", altAnswers: ["Il paesaggio trasmette un senso di malinconia.", "Il paesaggio trasmette una certa malinconia."], explanation: "\"Trasmettere\" = to convey." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The two women seem to be talking.", answer: "Sembra che le due donne stiano parlando.", altAnswers: ["Sembra che le due donne parlino.", "Le due donne sembrano parlare."], explanation: "\"Sembra che\" + progressive subjunctive." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The colours strike me.", answer: "Mi colpiscono i colori.", altAnswers: ["I colori mi colpiscono."], explanation: "Plural subject: \"colpiscono\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In the centre there's a woman in a pink dress.", answer: "Al centro c'è una donna con un vestito rosa.", altAnswers: ["Al centro si vede una donna con un vestito rosa.", "Al centro c'è una donna vestita di rosa."], explanation: "\"Rosa\" doesn't change." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The light comes from a window on the left.", answer: "La luce proviene da una finestra a sinistra.", altAnswers: ["La luce viene da una finestra a sinistra.", "La luce entra da una finestra a sinistra.", "La luce proviene da una finestra sulla sinistra."], explanation: "\"Provenire da\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[On the right you can see] some trees.", sentence: "___ degli alberi.", answer: "A destra si vedono", altAnswers: ["Sulla destra si vedono", "A destra ci sono"], explanation: "Plural subject: \"si vedono\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It's a painting [in which] nothing happens.", sentence: "È un quadro ___ non succede niente.", answer: "in cui", altAnswers: ["nel quale"], explanation: "\"In cui\" = in which." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The angels wear [blue robes].", sentence: "Gli angeli indossano ___.", answer: "vesti blu", explanation: "\"Blu\" is invariable." },
+      { type: "word-order", prompt: "Put the words in order to say: There's a man whose face is hidden in shadow.", words: ["C'è", "un uomo", "il cui", "volto", "è nascosto", "nell'ombra."], translation: "There's a man whose face is hidden in shadow.", explanation: "\"Il cui\" + noun." },
+      { type: "dictation", audio: "In primo piano si vedono due bambini che giocano.", explanation: "\"Si vedono\" agrees with \"due bambini\"." },
+      { type: "speak", text: "Sullo sfondo si vede una città sul mare, e il cielo è di un azzurro intenso.", prompt: "Describe it: In the background you can see a city by the sea, and the sky is an intense blue.", tip: "az-ZUR-ro: double z and double r.", explanation: "Place phrase + \"si vede\"; \"di un\" + colour." },
+    ],
+  },
+  {
+    slug: "b2-reading-lab-museum",
+    level: "IT-B2",
+    number: 7,
+    title: "Reading Lab: A Museum Guide",
+    summary: "Read the visitor information and a room panel from a small civic museum, and pick out the rules, the history and the art.",
+    duration: "17 min",
+    sections: [
+      {
+        heading: "Visitor information",
+        body: [
+          "The first page of the guide to the Museo di Palazzo Ducci, a civic museum in a small Tuscan town, gives practical information. Notices like this use the impersonal and \"andare\" + participle for rules: \"gli zaini vanno lasciati al guardaroba\" (backpacks must be left in the cloakroom). \"È vietato\" + infinitive means it is forbidden to.",
+          "Ticket words: \"il biglietto intero\" (full price), \"ridotto\" (reduced), \"gratuito\" (free), \"l'ultimo ingresso\" (last admission). \"I minori di 18 anni\" are under-18s. Dates are written \"il 1° gennaio\": the first of the month is the only ordinal in Italian dates.",
+        ],
+        examples: [
+          { es: "Il museo è aperto dal martedì alla domenica, dalle 9:00 alle 19:00.", en: "The museum is open from Tuesday to Sunday, from 9 a.m. to 7 p.m." },
+          { es: "Ultimo ingresso alle 18:00. Chiuso il lunedì e il 1° gennaio.", en: "Last admission at 6 p.m. Closed on Mondays and on 1 January." },
+          { es: "Biglietto intero 10 euro, ridotto 2 euro; gratuito per i minori di 18 anni.", en: "Full ticket 10 euros, reduced 2 euros; free for under-18s." },
+          { es: "La prima domenica del mese l'ingresso è gratuito per tutti.", en: "On the first Sunday of the month admission is free for everyone." },
+          { es: "Gli zaini vanno lasciati al guardaroba.", en: "Backpacks must be left in the cloakroom." },
+          { es: "È vietato fotografare con il flash.", en: "Flash photography is forbidden." },
+        ],
+        checkpoint: [
+          { type: "multiple-choice", question: "You arrive at the museum on a Monday at 11:00. What happens?", options: ["It's closed.", "You can go in until 18:00.", "Admission is free.", "You pay the reduced price."], correctIndex: 0, explanation: "\"Chiuso il lunedì\" = closed on Mondays." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian, in notice style.", source: "Backpacks must be left in the cloakroom.", answer: "Gli zaini vanno lasciati al guardaroba.", altAnswers: ["Gli zaini devono essere lasciati al guardaroba.", "Gli zaini vanno lasciati nel guardaroba."], explanation: "\"Andare\" + participle = must be; \"lasciati\" agrees with \"zaini\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian, in notice style.", source: "Flash photography is forbidden.", answer: "È vietato fotografare con il flash.", altAnswers: ["È vietato fare foto con il flash.", "Vietato fotografare con il flash.", "È vietato fotografare col flash."], explanation: "\"È vietato\" + infinitive." },
+        ],
+      },
+      {
+        heading: "Room 4: the seventeenth century",
+        body: [
+          "The room panel tells the history of one altarpiece. Follow the tenses: the passato remoto for events (\"fu commissionata\", \"rimase\", \"passarono\"), the passive for what was done to the work, and relative clauses that add information (\"che rimase nella chiesa fino al 1866\").",
+          "\"Attribuito a\" (attributed to) is the honest label for a work whose painter isn't certain; \"la bottega\" is an artist's workshop, and \"un allievo\" a pupil.",
+        ],
+        examples: [
+          { es: "In questa sala sono esposte opere del Seicento toscano.", en: "This room displays seventeenth-century Tuscan works." },
+          { es: "La grande pala d'altare fu commissionata nel 1620 da una confraternita locale.", en: "The large altarpiece was commissioned in 1620 by a local confraternity." },
+          { es: "Rimase nella chiesa di San Francesco fino al 1866.", en: "It stayed in the church of San Francesco until 1866." },
+          { es: "Quell'anno gli ordini religiosi furono soppressi e i loro beni passarono allo Stato.", en: "That year religious orders were dissolved and their property passed to the State." },
+          { es: "Il piccolo ritratto di donna è attribuito a un allievo di Caravaggio.", en: "The small portrait of a woman is attributed to a pupil of Caravaggio." },
+        ],
+        checkpoint: [
+          { type: "multiple-choice", question: "Why did the altarpiece leave the church?", options: ["Religious orders were dissolved and their property went to the State.", "It was sold to a collector.", "The church was destroyed.", "It was moved for restoration."], correctIndex: 0, explanation: "\"Gli ordini religiosi furono soppressi e i loro beni passarono allo Stato\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian, in the passato remoto.", source: "The altarpiece was commissioned in 1620.", answer: "La pala d'altare fu commissionata nel 1620.", altAnswers: ["La pala d'altare venne commissionata nel 1620.", "La pala fu commissionata nel 1620."], explanation: "\"Commissionata\" agrees with \"la pala\"." },
+          { type: "listen-choose", audio: "Il piccolo ritratto di donna è attribuito a un allievo di Caravaggio.", question: "Who painted the small portrait?", options: ["probably a pupil of Caravaggio", "Caravaggio himself", "an unknown woman", "Caravaggio's teacher"], correctIndex: 0, explanation: "\"Attribuito a un allievo\" = attributed to a pupil: not certain." },
+        ],
+      },
+      {
+        heading: "Reading the label",
+        body: [
+          "Each work has \"una didascalia\" (a label): artist, title, date, technique, and where it came from. \"Olio su tela\" (oil on canvas), \"tempera su tavola\" (tempera on panel), \"affresco staccato\" (detached fresco), \"proveniente da\" (from), \"in deposito da\" (on loan from).",
+          "Dates with \"circa\" (c.) and \"post\" or \"ante\" are common: \"circa 1620\" = around 1620.",
+        ],
+        examples: [
+          { es: "Olio su tela, circa 1620, proveniente dalla chiesa di San Francesco.", en: "Oil on canvas, c. 1620, from the church of San Francesco." },
+          { es: "Tempera su tavola, in deposito da una collezione privata.", en: "Tempera on panel, on loan from a private collection." },
+          { es: "Affresco staccato e trasportato su tela.", en: "Detached fresco, transferred to canvas." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate the label into Italian.", source: "Oil on canvas, c. 1620.", answer: "Olio su tela, circa 1620.", explanation: "\"Olio su tela\"; \"circa\" before the year." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Tempera on panel, [on loan from] a private collection.", sentence: "Tempera su tavola, ___ una collezione privata.", answer: "in deposito da", explanation: "\"In deposito da\" = on loan from." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "multiple-choice", question: "A family of four visits on the first Sunday of the month. How much do they pay?", options: ["Nothing: admission is free for everyone that day.", "10 euros each.", "2 euros each.", "Only the adults pay."], correctIndex: 0, explanation: "\"La prima domenica del mese l'ingresso è gratuito per tutti\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The museum is open from Tuesday to Sunday.", answer: "Il museo è aperto dal martedì alla domenica.", altAnswers: ["Il museo è aperto da martedì a domenica."], explanation: "\"Dal ... alla\" with days for a regular range." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Last admission is at six.", answer: "L'ultimo ingresso è alle sei.", altAnswers: ["L'ultimo ingresso è alle 18:00.", "L'ultimo ingresso è alle diciotto.", "Ultimo ingresso alle 18."], explanation: "\"L'ultimo ingresso\" = last admission." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Admission is free for under-18s.", answer: "L'ingresso è gratuito per i minori di 18 anni.", altAnswers: ["L'ingresso è gratuito per i minori di diciotto anni.", "L'ingresso è gratis per i minori di 18 anni.", "L'ingresso è gratuito per i minorenni."], explanation: "\"I minori di 18 anni\" = under-18s." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian, in the passato remoto.", source: "It stayed in the church until 1866.", answer: "Rimase nella chiesa fino al 1866.", altAnswers: ["Restò nella chiesa fino al 1866.", "Rimase in chiesa fino al 1866."], explanation: "\"Rimanere\" → \"rimase\"; \"fino al\" + year." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "This room displays seventeenth-century works.", answer: "In questa sala sono esposte opere del Seicento.", altAnswers: ["In questa sala sono esposte opere del XVII secolo.", "In questa sala si trovano opere del Seicento.", "Questa sala ospita opere del Seicento."], explanation: "\"Sono esposte\" agrees with \"opere\"; the 1600s = \"il Seicento\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The portrait [is attributed to] a pupil of Caravaggio.", sentence: "Il ritratto ___ un allievo di Caravaggio.", answer: "è attribuito a", explanation: "\"Attribuito a\" = attributed to." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words, in the passato remoto.", en: "Their property [passed] to the State.", sentence: "I loro beni ___ allo Stato.", answer: "passarono", explanation: "Regular -are: \"passarono\"." },
+      { type: "word-order", prompt: "Put the words in order to say: On the first Sunday of the month admission is free.", words: ["La prima", "domenica", "del mese", "l'ingresso", "è gratuito."], translation: "On the first Sunday of the month admission is free.", explanation: "Time phrase with the article and no preposition: \"la prima domenica\"." },
+      { type: "dictation", audio: "Gli zaini vanno lasciati al guardaroba.", explanation: "\"Vanno lasciati\" = must be left." },
+      { type: "speak", text: "Scusi, il museo è aperto anche il lunedì?", prompt: "Ask at the ticket office: Excuse me, is the museum open on Mondays too?", tip: "Rising tone at the end.", explanation: "\"Scusi\" for a stranger; \"il lunedì\" = on Mondays." },
+    ],
+  },
+  {
+    slug: "b2-listening-lab-guided-tour",
+    level: "IT-B2",
+    number: 8,
+    title: "Listening Lab: A Guided Tour",
+    summary: "Follow a guide around the basilica of Santa Croce in Florence: its history, its tombs and Giotto's chapels.",
+    duration: "17 min",
+    sections: [
+      {
+        heading: "Outside the basilica",
+        body: [
+          "A guide meets a group in Piazza Santa Croce. She speaks to them as \"voi\" and uses a mix of tenses: the passato remoto for history, the present for what you see. Listen for \"a partire da\" (starting from) and \"però\" introducing a surprise.",
+          "\"I francescani\" are the Franciscan friars; a Franciscan church is often large and plain inside, built for preaching to crowds.",
+        ],
+        examples: [
+          { es: "Buongiorno a tutti e benvenuti in piazza Santa Croce.", en: "Good morning, everyone, and welcome to Piazza Santa Croce." },
+          { es: "La basilica fu costruita dai francescani a partire dalla fine del Duecento.", en: "The basilica was built by the Franciscans from the end of the thirteenth century." },
+          { es: "La facciata che vedete, però, è molto più recente.", en: "The façade you can see, though, is much more recent." },
+          { es: "Fu completata solo nell'Ottocento.", en: "It was only completed in the nineteenth century." },
+        ],
+        checkpoint: [
+          { type: "listen-choose", audio: "La facciata che vedete, però, è molto più recente. Fu completata solo nell'Ottocento.", question: "What does the guide say about the façade?", options: ["It was only finished in the 1800s.", "It dates from the 1200s.", "It was destroyed in the 1800s.", "It was designed by Giotto."], correctIndex: 0, explanation: "\"Nell'Ottocento\" = in the nineteenth century." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The façade you can see is much more recent.", answer: "La facciata che vedete è molto più recente.", altAnswers: ["La facciata che vedete è molto più moderna.", "La facciata che vedi è molto più recente."], explanation: "\"Molto più\" + adjective = much more." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian, in the passato remoto.", source: "The basilica was built by the Franciscans.", answer: "La basilica fu costruita dai francescani.", altAnswers: ["La basilica venne costruita dai francescani."], explanation: "\"Dai\" = \"da\" + \"i\": agent of the passive." },
+        ],
+      },
+      {
+        heading: "The tombs",
+        body: [
+          "Inside, the guide points things out with \"qui a destra\", \"poco più avanti\" (a bit further on), \"di fronte\" (opposite). Santa Croce holds the tombs of many famous Italians, so listen for \"è sepolto\" (is buried) and \"la tomba\".",
+          "The guide corrects a common mistake: the monument to Dante is not his tomb. \"Non ... ma\" sets up the correction.",
+        ],
+        examples: [
+          { es: "Entriamo. Come vedete, la chiesa è enorme, con un soffitto in legno.", en: "Let's go in. As you can see, the church is huge, with a wooden ceiling." },
+          { es: "Qui a destra c'è la tomba di Michelangelo, progettata da Vasari.", en: "Here on the right is Michelangelo's tomb, designed by Vasari." },
+          { es: "Poco più avanti c'è il monumento a Dante.", en: "A little further on is the monument to Dante." },
+          { es: "Attenzione, però: Dante non è sepolto qui, ma a Ravenna.", en: "Careful, though: Dante isn't buried here, but in Ravenna." },
+          { es: "Di fronte, sulla parete sinistra, c'è la tomba di Galileo.", en: "Opposite, on the left wall, is Galileo's tomb." },
+        ],
+        checkpoint: [
+          { type: "listen-choose", audio: "Attenzione, però: Dante non è sepolto qui, ma a Ravenna.", question: "Where is Dante buried?", options: ["in Ravenna", "in Santa Croce", "in Florence cathedral", "nobody knows"], correctIndex: 0, explanation: "\"Non è sepolto qui, ma a Ravenna\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Here on the right is Michelangelo's tomb.", answer: "Qui a destra c'è la tomba di Michelangelo.", altAnswers: ["Qui sulla destra c'è la tomba di Michelangelo.", "Qui a destra si trova la tomba di Michelangelo."], explanation: "\"C'è\" + noun to point something out." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Galileo [is buried] here.", sentence: "Galileo ___ qui.", answer: "è sepolto", explanation: "\"Seppellire\" → \"sepolto\"; \"è sepolto\" = is buried." },
+        ],
+      },
+      {
+        heading: "Giotto and free time",
+        body: [
+          "The tour ends at two chapels painted by Giotto, then the guide gives practical instructions: \"avete mezz'ora di tempo libero\", \"ci ritroviamo qui\" (we'll meet back here), and the classic \"mi raccomando\" (please make sure, don't forget), which Italians put before or after an important request.",
+        ],
+        examples: [
+          { es: "In fondo, accanto all'altare maggiore, ci sono due cappelle affrescate da Giotto.", en: "At the end, next to the high altar, there are two chapels frescoed by Giotto." },
+          { es: "Avete mezz'ora di tempo libero.", en: "You have half an hour of free time." },
+          { es: "Ci ritroviamo qui alle undici e mezza. Mi raccomando, niente flash!", en: "We'll meet back here at half past eleven. And please, no flash!" },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We'll meet back here at half past eleven.", answer: "Ci ritroviamo qui alle undici e mezza.", altAnswers: ["Ci ritroviamo qui alle undici e mezzo.", "Ci ritroviamo qui alle 11:30.", "Ci rivediamo qui alle undici e mezza."], explanation: "\"Ritrovarsi\" = to meet up again; the present for a plan." },
+          { type: "speak", text: "Avete mezz'ora di tempo libero. Mi raccomando, niente flash!", prompt: "You're the guide: You have half an hour of free time. And please, no flash!", tip: "mezz'ORA: the z is voiced, like dz.", explanation: "\"Mi raccomando\" softens and stresses a request." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "listen-choose", audio: "In fondo, accanto all'altare maggiore, ci sono due cappelle affrescate da Giotto.", question: "Where are Giotto's frescoes?", options: ["in two chapels next to the high altar", "on the façade", "in the cloister", "on Michelangelo's tomb"], correctIndex: 0, explanation: "\"Due cappelle accanto all'altare maggiore\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Good morning, everyone, and welcome.", answer: "Buongiorno a tutti e benvenuti.", altAnswers: ["Buongiorno a tutti, e benvenuti."], explanation: "\"Benvenuti\" agrees with a mixed group." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "As you can see, the church is huge. (to a group)", answer: "Come vedete, la chiesa è enorme.", altAnswers: ["Come potete vedere, la chiesa è enorme."], explanation: "\"Voi\" to the group: \"vedete\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian, in the passato remoto.", source: "It was only completed in the nineteenth century.", answer: "Fu completata solo nell'Ottocento.", altAnswers: ["Fu completata soltanto nell'Ottocento.", "Venne completata solo nell'Ottocento.", "Fu completata solo nel XIX secolo."], explanation: "\"L'Ottocento\" = the 1800s." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The tomb was designed by Vasari.", answer: "La tomba è stata progettata da Vasari.", altAnswers: ["La tomba fu progettata da Vasari.", "La tomba venne progettata da Vasari."], explanation: "\"Progettare\" = to design (buildings, monuments)." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Dante isn't buried here, but in Ravenna.", answer: "Dante non è sepolto qui, ma a Ravenna.", explanation: "\"Non ... ma\" for a correction." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "A little further on is the monument to Dante.", answer: "Poco più avanti c'è il monumento a Dante.", altAnswers: ["Un po' più avanti c'è il monumento a Dante."], explanation: "\"Il monumento a\" + person." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The church has a [wooden ceiling].", sentence: "La chiesa ha un ___.", answer: "soffitto in legno", altAnswers: ["soffitto di legno"], explanation: "Material with \"in\" or \"di\"." },
+      { type: "word-order", prompt: "Put the words in order to say: You have half an hour of free time.", words: ["Avete", "mezz'ora", "di tempo", "libero."], translation: "You have half an hour of free time.", explanation: "\"Mezz'ora\": \"mezza\" elides before \"ora\"." },
+      { type: "dictation", audio: "Di fronte, sulla parete sinistra, c'è la tomba di Galileo.", explanation: "\"Di fronte\" = opposite." },
+      { type: "speak", text: "Questa basilica fu costruita dai francescani, ma la facciata è dell'Ottocento.", prompt: "Summarise for a friend: This basilica was built by the Franciscans, but the façade is nineteenth-century.", tip: "ba-SI-li-ca: stress on si.", explanation: "Passato remoto passive, then the present for what you see now." },
+    ],
+  },
+  {
+    slug: "b2-error-hunt-art",
+    level: "IT-B2",
+    number: 9,
+    title: "Error Hunt: Art Language",
+    summary: "Fix the classic mistakes in talking about art: irregular participles, pittura for a painting, di for da, and centuries.",
+    duration: "16 min",
+    sections: [
+      {
+        heading: "Dipinto, not pinto",
+        body: [
+          "A learner wrote \"*il quadro è stato pinto nel 1610\". The verb is \"dipingere\" and its participle is \"dipinto\": \"è stato dipinto\", \"fu dipinto\". Two more participles that learners regularise wrongly: \"scolpire → scolpito\" (not \"*scolputo\") and \"costruire → costruito\" (not \"*costrutto\").",
+          "Choose the right verb for painting too: \"dipingere\" is for art; walls are \"pitturati\" or \"imbiancati\" (painted white), and a door or a car is \"verniciata\". So a house painter is \"un imbianchino\", not \"un pittore\".",
+        ],
+        examples: [
+          { es: "Il quadro è stato dipinto nel 1610.", en: "The painting was painted in 1610." },
+          { es: "La statua fu scolpita in un unico blocco di marmo.", en: "The statue was carved from a single block of marble." },
+          { es: "Il ponte fu costruito in soli due anni.", en: "The bridge was built in only two years." },
+          { es: "Abbiamo fatto imbiancare la cucina.", en: "We had the kitchen painted." },
+          { es: "Hanno verniciato il cancello di verde.", en: "They've painted the gate green." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "A learner wrote \"*il quadro è stato pinto\". Write it correctly: The painting was painted in 1610.", source: "The painting was painted in 1610.", answer: "Il quadro è stato dipinto nel 1610.", altAnswers: ["Il quadro fu dipinto nel 1610.", "Il dipinto è stato realizzato nel 1610.", "Il quadro venne dipinto nel 1610."], explanation: "\"Dipingere\" → \"dipinto\"." },
+          { type: "fill-blank", prompt: "A learner wrote \"*scolputa\". Write the Italian for the bold words.", en: "The statue [was carved] from a single block.", sentence: "La statua ___ in un unico blocco.", answer: "fu scolpita", altAnswers: ["è stata scolpita", "venne scolpita"], explanation: "\"Scolpire\" is a regular -ire verb: \"scolpito\", \"scolpita\"." },
+          { type: "multiple-choice", question: "You want someone to paint your living room walls. Who do you call?", options: ["un imbianchino", "un pittore", "un ritrattista", "un verniciatore d'arte"], correctIndex: 0, explanation: "\"L'imbianchino\" paints walls; \"il pittore\" is an artist." },
+        ],
+      },
+      {
+        heading: "Un dipinto, not una pittura",
+        body: [
+          "\"*Ho visto una pittura di Caravaggio\" sounds wrong: \"la pittura\" is painting as an art (\"la pittura del Seicento\") or the paint itself (\"pittura fresca\" = wet paint). A single work is \"un dipinto\", \"un quadro\" or \"un'opera\". A wall painting is \"un affresco\".",
+          "Another slip: \"*il quadro è nel Uffizi\". The Uffizi is plural (\"gli Uffizi\", the offices), so \"agli Uffizi\" or \"alla Galleria degli Uffizi\". The same goes for \"i Musei Vaticani\": \"ai Musei Vaticani\".",
+        ],
+        examples: [
+          { es: "Ho visto un quadro di Caravaggio a Roma.", en: "I saw a painting by Caravaggio in Rome." },
+          { es: "La pittura del Seicento è piena di contrasti.", en: "Seventeenth-century painting is full of contrasts." },
+          { es: "Attenzione: pittura fresca!", en: "Careful: wet paint!" },
+          { es: "La Nascita di Venere è agli Uffizi.", en: "The Birth of Venus is in the Uffizi." },
+          { es: "Siamo stati ai Musei Vaticani.", en: "We went to the Vatican Museums." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "A learner wrote \"*una pittura di Caravaggio\". Write it correctly: I saw a painting by Caravaggio.", source: "I saw a painting by Caravaggio.", answer: "Ho visto un quadro di Caravaggio.", altAnswers: ["Ho visto un dipinto di Caravaggio.", "Ho visto un'opera di Caravaggio."], explanation: "One work = \"un quadro\" or \"un dipinto\"." },
+          { type: "translate", direction: "en-es", prompt: "A learner wrote \"*nel Uffizi\". Write it correctly: The painting is in the Uffizi.", source: "The painting is in the Uffizi.", answer: "Il quadro è agli Uffizi.", altAnswers: ["Il dipinto è agli Uffizi.", "Il quadro si trova agli Uffizi.", "Il dipinto si trova agli Uffizi.", "Il quadro è alla Galleria degli Uffizi."], explanation: "\"Gli Uffizi\" is plural: \"agli Uffizi\"." },
+          { type: "listen-choose", audio: "Attenzione: pittura fresca!", question: "What does the sign warn you about?", options: ["wet paint", "a fresh painting for sale", "a cold room", "a new exhibition"], correctIndex: 0, explanation: "\"Pittura fresca\" = wet paint." },
+        ],
+      },
+      {
+        heading: "Da for the agent, and centuries",
+        body: [
+          "\"*Il film è stato diretto di Fellini\": after a passive, the person who did it takes \"da\": \"diretto da Fellini\", \"dipinto da Botticelli\". But \"di\" is right for authorship without a passive: \"un film di Fellini\", \"un quadro di Botticelli\".",
+          "\"*Nel quindici secolo\" is wrong twice: centuries are ordinal (\"nel quindicesimo secolo\", \"nel XV secolo\") or, more often, \"nel Quattrocento\".",
+        ],
+        examples: [
+          { es: "Il film è stato diretto da Fellini.", en: "The film was directed by Fellini." },
+          { es: "È un film di Fellini del 1960.", en: "It's a 1960 Fellini film." },
+          { es: "La cupola fu costruita nel Quattrocento.", en: "The dome was built in the fifteenth century." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "A learner wrote \"*diretto di Fellini\". Write it correctly: The film was directed by Fellini.", source: "The film was directed by Fellini.", answer: "Il film è stato diretto da Fellini.", altAnswers: ["Il film fu diretto da Fellini."], explanation: "Passive agent: \"da\"." },
+          { type: "fill-blank", prompt: "A learner wrote \"*nel quindici secolo\". Write the Italian for the bold words.", en: "The dome was built [in the fifteenth century].", sentence: "La cupola fu costruita ___.", answer: "nel Quattrocento", altAnswers: ["nel XV secolo", "nel quindicesimo secolo"], explanation: "\"Nel Quattrocento\" = in the 1400s." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Fix \"*Il ritratto è stato pinto da Raffaello\" and write: The portrait was painted by Raphael.", source: "The portrait was painted by Raphael.", answer: "Il ritratto è stato dipinto da Raffaello.", altAnswers: ["Il ritratto fu dipinto da Raffaello.", "Il ritratto venne dipinto da Raffaello."], explanation: "\"Dipinto\" + \"da\" for the agent." },
+      { type: "translate", direction: "en-es", prompt: "Fix \"*Ho comprato una pittura al mercato\" and write: I bought a painting at the market.", source: "I bought a painting at the market.", answer: "Ho comprato un quadro al mercato.", altAnswers: ["Ho comprato un dipinto al mercato."], explanation: "\"Un quadro\" = one painting." },
+      { type: "translate", direction: "en-es", prompt: "Fix \"*Il ponte fu costrutto nel Cinquecento\" and write: The bridge was built in the sixteenth century.", source: "The bridge was built in the sixteenth century.", answer: "Il ponte fu costruito nel Cinquecento.", altAnswers: ["Il ponte è stato costruito nel Cinquecento.", "Il ponte fu costruito nel XVI secolo.", "Il ponte venne costruito nel Cinquecento."], explanation: "\"Costruire\" → \"costruito\"; the 1500s = \"il Cinquecento\"." },
+      { type: "translate", direction: "en-es", prompt: "Fix \"*Siamo stati al Musei Vaticani\" and write: We went to the Vatican Museums.", source: "We went to the Vatican Museums.", answer: "Siamo stati ai Musei Vaticani.", altAnswers: ["Siamo andati ai Musei Vaticani.", "Siamo state ai Musei Vaticani."], explanation: "\"I Musei Vaticani\" is plural: \"a\" + \"i\" = \"ai\"." },
+      { type: "translate", direction: "en-es", prompt: "Fix \"*Abbiamo dipinto la cucina\" (we're not artists) and write: We had the kitchen painted.", source: "We had the kitchen painted.", answer: "Abbiamo fatto imbiancare la cucina.", altAnswers: ["Abbiamo fatto pitturare la cucina.", "Abbiamo fatto tinteggiare la cucina."], explanation: "Walls are \"imbiancati\" or \"pitturati\"; \"fare\" + infinitive = to have something done." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's a film by Fellini.", answer: "È un film di Fellini.", explanation: "Authorship without a passive: \"di\"." },
+      { type: "fill-blank", prompt: "Fix \"*dipinto di Botticelli\" and write the Italian for the bold words.", en: "The work [was painted by] Botticelli.", sentence: "L'opera ___ Botticelli.", answer: "fu dipinta da", altAnswers: ["è stata dipinta da", "venne dipinta da"], explanation: "\"L'opera\" is feminine: \"dipinta da\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Seventeenth-century painting] is full of contrasts.", sentence: "___ è piena di contrasti.", answer: "La pittura del Seicento", altAnswers: ["La pittura del XVII secolo"], explanation: "Here \"la pittura\" is right: painting as an art." },
+      { type: "word-order", prompt: "Put the words in order to say: The statue was carved from a single block of marble.", words: ["La statua", "fu", "scolpita", "in un unico", "blocco", "di marmo."], translation: "The statue was carved from a single block of marble.", explanation: "\"Scolpita\": regular participle, agreeing with \"la statua\"." },
+      { type: "multi-select", question: "Which sentences are correct? Choose all that apply.", options: ["Il quadro fu dipinto da Tiziano.", "Il quadro fu pinto da Tiziano.", "È un quadro di Tiziano.", "Il quadro fu dipinto di Tiziano.", "La pittura veneziana del Cinquecento usa colori caldi."], correctIndexes: [0, 2, 4], explanation: "\"Dipinto da\" in the passive, \"di\" for authorship, \"la pittura\" for the art." },
+      { type: "dictation", audio: "Il film è stato diretto da Fellini nel 1960.", explanation: "\"Diretto da\": agent with \"da\"." },
+      { type: "speak", text: "Ho visto un quadro di Caravaggio agli Uffizi: fu dipinto alla fine del Cinquecento.", prompt: "Fix it and say it: a learner said \"Ho visto una pittura di Caravaggio nel Uffizi: fu pinto alla fine del quindici secolo.\"", tip: "UF-fi-zi: stress on the first syllable.", explanation: "Four fixes: \"un quadro\", \"agli Uffizi\", \"dipinto\", \"Cinquecento\"." },
+    ],
+  },
+  {
+    slug: "b2-mission-review-an-exhibition",
+    level: "IT-B2",
+    number: 10,
+    title: "Real-World Mission: Review an Exhibition",
+    summary: "Write a review of an art exhibition for a cultural blog: present it, judge the works and the display, and give practical advice.",
+    duration: "17 min",
+    kind: "review",
+    sections: [
+      {
+        heading: "Present the exhibition",
+        body: [
+          "Your mission: review \"Luce e ombra. Caravaggio e i caravaggeschi\", an exhibition at Palazzo Reale in Milan, for a cultural blog. Start with the facts: title, venue, dates (\"fino al 15 marzo\"), the curator (\"a cura di\"), what it brings together (\"la mostra riunisce quaranta opere provenienti da musei di tutta Europa\") and how it's organised (\"il percorso si articola in cinque sezioni\").",
+          "\"La mostra\" is the exhibition, \"l'esposizione\" a more formal synonym; \"il percorso\" is the route through the rooms. \"I caravaggeschi\" are Caravaggio's followers: \"-eschi\" turns a name into a school or style.",
+        ],
+        examples: [
+          { es: "La mostra resterà aperta fino al 15 marzo.", en: "The exhibition will be open until 15 March." },
+          { es: "La mostra riunisce quaranta opere provenienti da musei di tutta Europa.", en: "The exhibition brings together forty works from museums all over Europe." },
+          { es: "Il percorso si articola in cinque sezioni.", en: "The route is divided into five sections." },
+          { es: "È una mostra a cura di due storiche dell'arte.", en: "It's an exhibition curated by two art historians." },
+          { es: "Accanto ai quadri di Caravaggio sono esposte le opere dei suoi seguaci.", en: "Alongside Caravaggio's paintings, works by his followers are on display." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The exhibition brings together forty works.", answer: "La mostra riunisce quaranta opere.", altAnswers: ["La mostra raccoglie quaranta opere.", "La mostra riunisce 40 opere.", "La mostra raccoglie 40 opere."], explanation: "\"Riunire\" or \"raccogliere\" = to bring together." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The route [is divided into] five sections.", sentence: "Il percorso ___ cinque sezioni.", answer: "si articola in", altAnswers: ["è diviso in", "è suddiviso in"], explanation: "\"Articolarsi in\" = to be organised into, a reviewer's phrase." },
+          { type: "listen-choose", audio: "La mostra resterà aperta fino al 15 marzo.", question: "What do you learn?", options: ["The exhibition closes on 15 March.", "The exhibition opens on 15 March.", "The exhibition is closed until 15 March.", "The exhibition is open on 15 March only."], correctIndex: 0, explanation: "\"Fino al\" = until." },
+        ],
+      },
+      {
+        heading: "Judge the works and the display",
+        body: [
+          "Pick out the highlight: \"il pezzo forte\" (the star piece) or \"spicca\" (stands out): \"spicca la Cena in Emmaus, prestata dalla Pinacoteca di Brera\". Then judge \"l'allestimento\" (the display, the way the show is set up): lighting, walls, labels. \"Le didascalie sono chiare\", \"l'illuminazione valorizza i contrasti\" (brings out the contrasts).",
+          "Balance praise and criticism with \"peccato che\" + subjunctive (\"peccato che le sale siano così affollate\") and concessive connectors: \"pur essendo breve, la mostra è ricca\", \"anche se alcune attribuzioni sono discutibili\".",
+        ],
+        examples: [
+          { es: "Il pezzo forte è senza dubbio la Cena in Emmaus.", en: "The star piece is without doubt the Supper at Emmaus." },
+          { es: "L'allestimento è sobrio ed elegante.", en: "The display is restrained and elegant." },
+          { es: "L'illuminazione valorizza i contrasti di luce e ombra.", en: "The lighting brings out the contrasts of light and shadow." },
+          { es: "Peccato che le sale siano così affollate.", en: "It's a shame the rooms are so crowded." },
+          { es: "Pur essendo breve, la mostra è ricchissima.", en: "Although it's short, the exhibition is very rich." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's a shame the rooms are so crowded.", answer: "Peccato che le sale siano così affollate.", altAnswers: ["È un peccato che le sale siano così affollate.", "Peccato che le sale siano tanto affollate."], explanation: "\"Peccato che\" + subjunctive \"siano\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Although it's short, the exhibition is very rich.", answer: "Pur essendo breve, la mostra è ricchissima.", altAnswers: ["Anche se è breve, la mostra è ricchissima.", "Sebbene sia breve, la mostra è ricchissima.", "Pur essendo breve, la mostra è molto ricca.", "Benché sia breve, la mostra è ricchissima."], explanation: "\"Pur\" + gerund = although; or \"sebbene\" + subjunctive." },
+        ],
+      },
+      {
+        heading: "Practical advice and verdict",
+        body: [
+          "End with advice and a verdict: \"conviene prenotare online\" (it's best to book online), \"meglio andare in settimana\" (better to go on a weekday), \"un'audioguida è inclusa nel biglietto\". The verdict uses the language of film reviews: \"da non perdere\", \"vale la pena\", or, for a weak show, \"una mostra che delude le aspettative\".",
+          "A score out of five is common on blogs: \"voto: 4 su 5\".",
+        ],
+        examples: [
+          { es: "Conviene prenotare online per evitare la fila.", en: "It's best to book online to avoid the queue." },
+          { es: "Meglio andare in settimana, la mattina presto.", en: "Better to go on a weekday, early in the morning." },
+          { es: "Nel complesso, una mostra da non perdere. Voto: 4 su 5.", en: "All in all, an exhibition not to be missed. Score: 4 out of 5." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's best to book online to avoid the queue.", answer: "Conviene prenotare online per evitare la fila.", altAnswers: ["Conviene prenotare online per evitare la coda.", "È meglio prenotare online per evitare la fila.", "È meglio prenotare online per evitare la coda."], explanation: "\"Conviene\" + infinitive = it's best to." },
+          { type: "speak", text: "Nel complesso, è una mostra da non perdere, anche se le sale sono affollate.", prompt: "Give your verdict: All in all, it's an exhibition not to be missed, even if the rooms are crowded.", tip: "af-fol-LA-te: two double consonants.", explanation: "\"Anche se\" + indicative." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The exhibition will be open until 15 March.", answer: "La mostra resterà aperta fino al 15 marzo.", altAnswers: ["La mostra rimarrà aperta fino al 15 marzo.", "La mostra sarà aperta fino al 15 marzo."], explanation: "\"Fino al\" + date; months lower case." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The star piece is the Supper at Emmaus.", answer: "Il pezzo forte è la Cena in Emmaus.", explanation: "\"Il pezzo forte\" = the highlight." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The display is restrained and elegant.", answer: "L'allestimento è sobrio ed elegante.", altAnswers: ["L'allestimento è sobrio e elegante."], explanation: "\"L'allestimento\" = the display; \"ed\" before a vowel." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The labels are clear.", answer: "Le didascalie sono chiare.", explanation: "\"La didascalia\" = label, caption." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Better to go on a weekday.", answer: "Meglio andare in settimana.", altAnswers: ["È meglio andare in settimana.", "Meglio andarci in settimana.", "È meglio andarci in settimana."], explanation: "\"In settimana\" = on a weekday." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The lighting [brings out] the contrasts.", sentence: "L'illuminazione ___ i contrasti.", answer: "valorizza", altAnswers: ["esalta", "mette in risalto"], explanation: "\"Valorizzare\" = to bring out, enhance." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It's an exhibition [curated by] two art historians.", sentence: "È una mostra ___ due storiche dell'arte.", answer: "a cura di", explanation: "\"A cura di\" = curated by, edited by." },
+      { type: "word-order", prompt: "Put the words in order to say: Alongside the paintings, his followers' works are on display.", words: ["Accanto ai", "quadri", "sono esposte", "le opere", "dei suoi", "seguaci."], translation: "Alongside the paintings, his followers' works are on display.", explanation: "\"Sono esposte\" agrees with \"le opere\"." },
+      { type: "multiple-choice", question: "Which sentence fits a balanced review best?", options: ["Peccato che le didascalie siano troppo brevi, ma la selezione delle opere è eccellente.", "La mostra è bella. Andate.", "Le didascalie fanno schifo.", "Peccato che le didascalie sono troppo brevi, ma bella."], correctIndex: 0, explanation: "Criticism with \"peccato che\" + subjunctive, then praise." },
+      { type: "dictation", audio: "Il percorso si articola in cinque sezioni.", explanation: "\"Articolarsi in\" = to be organised into." },
+      { type: "speak", text: "Conviene prenotare online: la mostra riunisce quaranta opere ed è sempre affollata.", prompt: "Give advice: It's best to book online: the exhibition brings together forty works and it's always crowded.", tip: "pre-no-TA-re: stress on ta.", explanation: "\"Conviene\" + infinitive; \"ed\" before \"è\"." },
+    ],
+  },
+];
+
+export const IT_B2_U22_WRITING: WriteExercise = {
+  type: "write",
+  prompt: "Write a review for an Italian cultural blog of an exhibition, a building or a film you've seen recently. Present it (what, where, who made or curated it), describe one work or scene in detail, judge it with at least one criticism and one strong point, and end with practical advice and a score.",
+  minWords: 150,
+  maxWords: 220,
+  rubric: [
+    "Presents the facts with art or film vocabulary (la mostra, a cura di, diretto da, ambientato, si articola in)",
+    "Describes one work or scene precisely (in primo piano, sullo sfondo, la luce, si vede / si vedono, colours that agree or don't)",
+    "Uses the passive with da for the agent and correct irregular participles (dipinto, scolpito, costruito), with the passato remoto for history",
+    "Balances praise and criticism (peccato che + subjunctive, pur + gerund, anche se) and ends with advice and a verdict",
+  ],
+  modelAnswer: "Fino al 15 marzo Palazzo Reale ospita \"Luce e ombra\", una mostra a cura di due storiche dell'arte che riunisce quaranta opere di Caravaggio e dei suoi seguaci, provenienti da musei di tutta Europa. Il percorso si articola in cinque sezioni, dalla Roma di fine Cinquecento alla Napoli del Seicento. Il pezzo forte è la Cena in Emmaus, dipinta da Caravaggio nel 1606. Al centro si vede Cristo che benedice il pane; intorno al tavolo, i discepoli sembrano uscire dal buio. La luce arriva da un lato e illumina i volti, mentre lo sfondo resta quasi nero. Mi ha colpito soprattutto il silenzio della scena. L'allestimento è sobrio ed elegante e l'illuminazione valorizza i contrasti. Peccato che le didascalie siano così brevi: chi non conosce il periodo rischia di perdersi. Inoltre, pur essendo interessanti, alcune opere dei caravaggeschi sembrano scelte solo per riempire le sale. Consiglio di prenotare online e di andare in settimana, la mattina presto, perché nel fine settimana le sale sono affollatissime. Nel complesso, una mostra da non perdere. Voto: 4 su 5.",
+  explanation: "The review opens with the facts (\"a cura di\", \"riunisce\", \"si articola in\"), describes one painting with \"al centro si vede\", \"sembrano\", \"la luce arriva da\", and uses \"dipinta da\" for the agent. \"Peccato che ... siano\" and \"pur essendo\" balance the criticism, and \"consiglio di\" + infinitive gives the practical advice.",
+};

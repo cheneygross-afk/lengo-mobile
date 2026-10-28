@@ -1,0 +1,160 @@
+// Synced from cheneygross-afk/lengo:src/lib/lessons/it-a1-u11-extra.ts by scripts/sync-content.mjs -- edit it there, not here.
+import type { Lesson } from "./types";
+
+// Italian A1 Unit 11 Extra Practice: My Day: Reflexive Verbs.
+// Optional lessons folded away under the unit (docs/italian-course/authoring.md).
+export const IT_A1_U11_EXTRA: Lesson[] = [
+  {
+    slug: "a1-routine-extra-1",
+    level: "IT-A1",
+    number: 1,
+    title: "Extra Practice: Reflexive Verbs",
+    summary: "Fresh routines in every person with reflexive verbs.",
+    duration: "12 min",
+    optional: true,
+    kind: "drill",
+    sections: [
+      {
+        heading: "Three routines",
+        body: [
+          "A nurse on nights, a student and a retired couple. New verbs: \"sedersi\" (to sit down: \"mi siedo\", irregular), \"mettersi\" (to put on: \"mi metto il cappotto\"), \"fermarsi\" (to stop), \"sbrigarsi\" (to hurry up).",
+        ],
+        examples: [
+          { es: "Chiara si sveglia alle due del pomeriggio.", en: "Chiara wakes up at two in the afternoon." },
+          { es: "Mi metto il cappotto ed esco.", en: "I put my coat on and go out." },
+          { es: "I nonni si fermano al bar.", en: "My grandparents stop at the bar." },
+          { es: "Sbrigati, è tardi!", en: "Hurry up, it's late!" },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I put my coat on and go out.", answer: "Mi metto il cappotto ed esco.", altAnswers: ["Mi metto il cappotto e esco."], explanation: "\"Mettersi\" + article, not \"mio\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Chiara wakes up at two in the afternoon.", answer: "Chiara si sveglia alle due del pomeriggio.", altAnswers: ["Chiara si sveglia alle due di pomeriggio.", "Chiara si sveglia alle 14."], explanation: "\"Si sveglia\"." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "My grandparents stop at the bar.", answer: "I nonni si fermano al bar.", altAnswers: ["I miei nonni si fermano al bar."], explanation: "\"Si\" + loro." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We hurry up in the morning.", answer: "La mattina ci sbrighiamo.", altAnswers: ["Ci sbrighiamo la mattina."], explanation: "\"Sbrigarsi\": h before i, \"sbrighiamo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Do you put on a jacket? (to a friend)", answer: "Ti metti una giacca?", altAnswers: ["Tu ti metti una giacca?", "Ti metti la giacca?"], explanation: "\"Ti metti\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The student falls asleep in class.", answer: "Lo studente si addormenta in classe.", altAnswers: ["La studentessa si addormenta in classe."], explanation: "\"Lo studente\"; \"si addormenta\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They never get bored.", answer: "Non si annoiano mai.", altAnswers: ["Loro non si annoiano mai."], explanation: "\"Non si\" + verb + \"mai\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Are you getting ready? (plural)", answer: "Vi preparate?", altAnswers: ["Voi vi preparate?"], explanation: "\"Vi preparate\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I wash my face with cold water.", answer: "Mi lavo la faccia con l'acqua fredda.", altAnswers: ["Mi lavo il viso con l'acqua fredda.", "Mi lavo la faccia con acqua fredda."], explanation: "Article with body parts." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Chiara [works] at night and [rests] in the morning.", sentence: "Chiara lavora di notte e ___ la mattina.", answer: "si riposa", explanation: "Only the second verb is reflexive." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[We have fun] at the party.", sentence: "___ alla festa.", answer: "Ci divertiamo", altAnswers: ["Noi ci divertiamo"], explanation: "\"Ci divertiamo\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Do you get up] early, madam?", sentence: "___ presto, signora?", answer: "Si alza", altAnswers: ["Lei si alza"], explanation: "Lei: \"si alza\"." },
+      { type: "word-order", prompt: "Put the words in order to say: The children get dressed and brush their teeth.", words: ["I", "bambini", "si", "vestono", "e", "si", "lavano", "i", "denti."], translation: "The children get dressed and brush their teeth.", explanation: "\"Si\" before each verb." },
+      { type: "multiple-choice", question: "Which is right for we wake up?", options: ["ci svegliamo", "si svegliamo", "ci sveglia", "noi svegliamo"], correctIndex: 0, explanation: "\"Ci\" + \"-iamo\"." },
+      { type: "listen-choose", audio: "Vi alzate presto?", question: "Who is asked?", options: ["you (plural)", "one friend", "they", "we"], correctIndex: 0, explanation: "\"Vi\" + \"-ate\"." },
+      { type: "dictation", audio: "Mi alzo, mi lavo e mi metto le scarpe.", explanation: "Three reflexives." },
+      {
+        type: "speak",
+        text: "I miei nonni si alzano presto, si fanno una passeggiata e si fermano al bar.",
+        prompt: "Say it in Italian: My grandparents get up early, go for a walk and stop at the bar.",
+        tip: "si FER-ma-no: stress on fer.",
+        explanation: "Loro reflexives.",
+      },
+    ],
+  },
+  {
+    slug: "a1-routine-extra-2",
+    level: "IT-A1",
+    number: 2,
+    title: "Extra Practice: How Often and When",
+    summary: "Frequency words, days and parts of the day in fresh sentences.",
+    duration: "12 min",
+    optional: true,
+    kind: "drill",
+    sections: [
+      {
+        heading: "Habits and plans",
+        body: [
+          "Habits: \"il lunedì, la mattina, di sera, sempre, di solito, spesso, qualche volta, non ... mai, ogni giorno, tutti i giorni\". One-offs: \"lunedì, stamattina, stasera, domani, dopodomani\".",
+        ],
+        examples: [
+          { es: "Il martedì e il giovedì faccio yoga.", en: "On Tuesdays and Thursdays I do yoga." },
+          { es: "Di solito il venerdì sera usciamo.", en: "We usually go out on Friday evenings." },
+          { es: "Domani non lavoro.", en: "I'm not working tomorrow." },
+          { es: "Non guardo mai la TV la mattina.", en: "I never watch TV in the morning." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "On Tuesdays and Thursdays I do yoga.", answer: "Il martedì e il giovedì faccio yoga.", altAnswers: ["Faccio yoga il martedì e il giovedì."], explanation: "Habits: article + day." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm not working tomorrow.", answer: "Domani non lavoro.", altAnswers: ["Non lavoro domani."], explanation: "\"Domani\" + present." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We usually go out on Friday evenings.", answer: "Di solito il venerdì sera usciamo.", altAnswers: ["Di solito usciamo il venerdì sera.", "Il venerdì sera di solito usciamo."], explanation: "\"Di solito\" + habit." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I never watch TV in the morning.", answer: "Non guardo mai la TV la mattina.", altAnswers: ["La mattina non guardo mai la TV."], explanation: "\"Non ... mai\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I often call my mother.", answer: "Telefono spesso a mia madre.", altAnswers: ["Chiamo spesso mia madre.", "Spesso telefono a mia madre."], explanation: "\"Spesso\" after the verb." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "This evening we're eating at home.", answer: "Stasera mangiamo a casa.", altAnswers: ["Stasera ceniamo a casa.", "Mangiamo a casa stasera."], explanation: "\"Stasera\": one-off." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Every day I walk to the station.", answer: "Ogni giorno vado alla stazione a piedi.", altAnswers: ["Tutti i giorni vado alla stazione a piedi."], explanation: "\"Ogni giorno\" = \"tutti i giorni\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Sometimes I have lunch at the bar.", answer: "Qualche volta pranzo al bar.", altAnswers: ["A volte pranzo al bar.", "Pranzo al bar qualche volta."], explanation: "\"Qualche volta\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The day after tomorrow is Sunday.", answer: "Dopodomani è domenica.", explanation: "No capital." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I [rarely] eat meat.", sentence: "Mangio ___ la carne.", answer: "raramente", explanation: "\"Raramente\" = rarely." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[On Sundays] the bakery is closed.", sentence: "___ il forno è chiuso.", answer: "La domenica", explanation: "Every Sunday." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[This morning] I'm late.", sentence: "___ sono in ritardo.", answer: "Stamattina", explanation: "Today's morning." },
+      { type: "word-order", prompt: "Put the words in order to say: In the evenings I always read a bit.", words: ["La", "sera", "leggo", "sempre", "un", "po'."], translation: "In the evenings I always read a bit.", explanation: "\"Sempre\" after the verb." },
+      { type: "multiple-choice", question: "Which sentence describes a habit?", options: ["Il sabato vado al mercato.", "Sabato vado al mercato.", "Stamattina vado al mercato.", "Domani vado al mercato."], correctIndex: 0, explanation: "Article + day = every week." },
+      { type: "listen-choose", audio: "Di solito mi alzo alle sette, ma domani mi alzo alle sei.", question: "When will the speaker get up tomorrow?", options: ["at six", "at seven", "at eight", "at half past six"], correctIndex: 0, explanation: "\"Domani ... alle sei\"." },
+      { type: "dictation", audio: "Il lunedì vado sempre in piscina.", explanation: "\"Il lunedì\", \"sempre\"." },
+      {
+        type: "speak",
+        text: "Di solito il sabato mi alzo tardi, ma questo sabato lavoro.",
+        prompt: "Say it in Italian: I usually get up late on Saturdays, but this Saturday I'm working.",
+        tip: "\"Questo sabato\": stress SA-ba-to.",
+        explanation: "Habit vs one-off.",
+      },
+    ],
+  },
+  {
+    slug: "a1-routine-extra-3",
+    level: "IT-A1",
+    number: 3,
+    title: "Extra Practice: Questions by Intonation",
+    summary: "Hear the difference between statements and questions, and answer.",
+    duration: "12 min",
+    optional: true,
+    kind: "drill",
+    sections: [
+      {
+        heading: "Rise or fall?",
+        body: [
+          "A rising voice turns the same words into a yes / no question. Answer with \"sì\" or \"no\" + the statement: \"Ti alzi presto?\" \"Sì, mi alzo alle sei.\" / \"No, non mi alzo mai presto.\" Change the pronoun and ending when you answer: \"ti\" → \"mi\", \"vi\" → \"ci\".",
+        ],
+        examples: [
+          { es: "Ti alzi presto? Sì, mi alzo alle sei.", en: "Do you get up early? Yes, I get up at six." },
+          { es: "Vi divertite? Sì, ci divertiamo molto.", en: "Are you having fun? Yes, we're having a great time." },
+          { es: "Lavori domenica? No, non lavoro.", en: "Are you working on Sunday? No, I'm not." },
+          { es: "Si riposa, signora? Sì, grazie.", en: "Are you resting, madam? Yes, thank you." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Answer \"Vi divertite?\": Yes, we're having a great time.", source: "Yes, we're having a great time.", answer: "Sì, ci divertiamo molto.", altAnswers: ["Sì, ci divertiamo tanto."], explanation: "\"Vi\" in the question → \"ci\" in the answer." },
+          { type: "listen-choose", audio: "Lavori domenica?", question: "Is it a question or a statement?", options: ["a question", "a statement", "an order", "a greeting"], correctIndex: 0, explanation: "Rising voice." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Answer \"Ti alzi presto?\": Yes, I get up at six.", source: "Yes, I get up at six.", answer: "Sì, mi alzo alle sei.", altAnswers: ["Sì, io mi alzo alle sei."], explanation: "\"Ti\" → \"mi\"." },
+      { type: "translate", direction: "en-es", prompt: "Answer \"Lavori domenica?\": No, I'm not working.", source: "No, I'm not working.", answer: "No, non lavoro.", altAnswers: ["No, domenica non lavoro."], explanation: "\"No\" + \"non\"." },
+      { type: "translate", direction: "en-es", prompt: "Answer \"Ti annoi?\": No, I never get bored.", source: "No, I never get bored.", answer: "No, non mi annoio mai.", explanation: "\"Non mi\" + verb + \"mai\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Are you going out tonight? (to a friend)", answer: "Esci stasera?", altAnswers: ["Stasera esci?", "Tu esci stasera?"], explanation: "Rising voice." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Is Sofia coming on Friday?", answer: "Sofia viene venerdì?", altAnswers: ["Viene Sofia venerdì?", "Venerdì viene Sofia?"], explanation: "Same order as the statement." },
+      { type: "translate", direction: "en-es", prompt: "Answer \"Vi alzate tardi?\": Yes, on Sundays we get up late.", source: "Yes, on Sundays we get up late.", answer: "Sì, la domenica ci alziamo tardi.", altAnswers: ["Sì, ci alziamo tardi la domenica."], explanation: "\"Vi\" → \"ci\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Do you have breakfast at home? [Yes, always.]", sentence: "Fai colazione a casa? ___", answer: "Sì, sempre.", explanation: "Short answer." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Do you ever go to the gym? [Never!]", sentence: "Vai mai in palestra? ___", answer: "Mai!", explanation: "\"Mai\" alone = never." },
+      { type: "listen-choose", audio: "Ti piace il caffè.", question: "Is it a question or a statement?", options: ["a statement", "a question", "an order", "a greeting"], correctIndex: 0, explanation: "Falling voice." },
+      { type: "listen-choose", audio: "Si alza presto?", question: "What is being asked?", options: ["whether someone gets up early", "what time someone gets up", "that someone gets up early", "why someone gets up early"], correctIndex: 0, explanation: "A yes / no question." },
+      { type: "listen-choose", audio: "Venite con noi?", question: "Is it a question or a statement?", options: ["a question", "a statement", "an order", "a goodbye"], correctIndex: 0, explanation: "Rising voice." },
+      { type: "dictation", audio: "Ti alzi presto? No, mai!", explanation: "Question, then a short answer." },
+      { type: "dictation", audio: "Vi divertite? Sì, molto!", explanation: "\"Vi divertite\"." },
+      { type: "word-order", prompt: "Put the words in order to say: Do you have a shower in the morning?", words: ["Ti", "fai", "la", "doccia", "la", "mattina?"], translation: "Do you have a shower in the morning?", explanation: "Same order as a statement." },
+      {
+        type: "speak",
+        text: "Ti alzi presto? Sì, mi alzo alle sei.",
+        prompt: "Ask, then answer: Do you get up early? Yes, I get up at six.",
+        tip: "Rise on the question, fall on the answer.",
+        explanation: "Intonation does the work.",
+      },
+    ],
+  },
+];

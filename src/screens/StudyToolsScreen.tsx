@@ -5,6 +5,7 @@ import type { AppStackParamList } from "@/navigation/types";
 import NavCard from "@/ui/NavCard";
 import type { IconName, Tint } from "@/ui/Icon";
 import { colors } from "@/ui/theme";
+import { ITALIAN_TOOLS } from "@/lib/italianTools";
 
 // Each tool's icon and tile color, picked from its title.
 function toolLook(title: string): { icon: IconName; tint: Tint } {
@@ -167,7 +168,10 @@ export default function StudyToolsScreen({ navigation, route }: Props) {
           ? { name: "Portuguese", tools: PORTUGUESE_TOOLS, placement: "PortuguesePlacement" as const }
           : lang === "ko"
             ? { name: "Korean", tools: KOREAN_TOOLS, placement: "KoreanPlacement" as const }
-            : null;
+            : lang === "it"
+              ? // The Italian beta: only the tools whose data the app has (lib/italianTools.ts), and no placement test yet.
+                { name: "Italian", tools: ITALIAN_TOOLS, placement: null }
+              : null;
   useLayoutEffect(() => {
     if (course) navigation.setOptions({ title: `${course.name} study tools` });
   }, [navigation, course?.name]);
@@ -182,14 +186,20 @@ export default function StudyToolsScreen({ navigation, route }: Props) {
             <NavCard key={t.title} {...toolLook(t.title)} title={t.title} body={t.body} onPress={() => t.open(navigation)} />
           ))}
         </View>
-        <Text style={styles.sectionHeader}>YOUR LEVEL</Text>
-        <NavCard
-          icon="placement"
-          tint="sea"
-          title="Placement Test"
-          body={lang === "ko" ? "Find your level, from Hangul to Mastery. Retake anytime." : "Find your level, retake anytime."}
-          onPress={() => navigation.navigate(course.placement)}
-        />
+        {course.placement && (
+          <>
+            <Text style={styles.sectionHeader}>YOUR LEVEL</Text>
+            <NavCard
+              icon="placement"
+              tint="sea"
+              title="Placement Test"
+              body={lang === "ko" ? "Find your level, from Hangul to Mastery. Retake anytime." : "Find your level, retake anytime."}
+              onPress={() => {
+                if (course.placement) navigation.navigate(course.placement);
+              }}
+            />
+          </>
+        )}
       </ScrollView>
     );
   }

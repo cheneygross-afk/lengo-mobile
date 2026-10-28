@@ -1,0 +1,162 @@
+// Synced from cheneygross-afk/lengo:src/lib/lessons/it-a1-u10-extra.ts by scripts/sync-content.mjs -- edit it there, not here.
+import type { Lesson } from "./types";
+
+// Italian A1 Unit 10 Extra Practice: Likes and Dislikes.
+// Optional lessons folded away under the unit (docs/italian-course/authoring.md).
+export const IT_A1_U10_EXTRA: Lesson[] = [
+  {
+    slug: "a1-likes-extra-1",
+    level: "IT-A1",
+    number: 1,
+    title: "Extra Practice: Piace and Piacciono",
+    summary: "Fresh likes and dislikes with every pronoun.",
+    duration: "12 min",
+    optional: true,
+    kind: "drill",
+    sections: [
+      {
+        heading: "Who and how many",
+        body: [
+          "Who likes it: \"mi, ti, gli, le, Le, ci, vi\", or \"a\" + name. What's liked: one thing or a verb → \"piace\"; several things → \"piacciono\". \"Non\" goes before the pronoun: \"Non gli piace\".",
+        ],
+        examples: [
+          { es: "A Chiara piacciono le canzoni di Natale.", en: "Chiara likes Christmas songs." },
+          { es: "Non gli piace aspettare.", en: "He doesn't like waiting." },
+          { es: "Vi piace il nuovo appartamento?", en: "Do you like the new flat? (plural)" },
+          { es: "Le piacciono i fiori, signora?", en: "Do you like flowers, madam?" },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He doesn't like waiting.", answer: "Non gli piace aspettare.", altAnswers: ["A lui non piace aspettare."], explanation: "\"Non\" before \"gli\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Do you like flowers, madam?", answer: "Le piacciono i fiori, signora?", altAnswers: ["Signora, Le piacciono i fiori?"], explanation: "Formal \"Le\" + plural." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Chiara likes Christmas songs.", answer: "A Chiara piacciono le canzoni di Natale.", explanation: "Plural: \"piacciono\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Do you like the new flat? (plural)", answer: "Vi piace il nuovo appartamento?", altAnswers: ["Vi piace l'appartamento nuovo?", "A voi piace il nuovo appartamento?"], explanation: "\"Vi\" + singular." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We like walking in the mountains.", answer: "Ci piace camminare in montagna.", altAnswers: ["A noi piace camminare in montagna."], explanation: "Infinitive: \"piace\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She doesn't like spiders.", answer: "Non le piacciono i ragni.", altAnswers: ["A lei non piacciono i ragni."], explanation: "\"Le\" + plural." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Do you like this song? (to a friend)", answer: "Ti piace questa canzone?", altAnswers: ["A te piace questa canzone?"], explanation: "Singular." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "My parents like the countryside.", answer: "Ai miei genitori piace la campagna.", explanation: "a + i = \"ai\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I like Saturdays.", answer: "Mi piace il sabato.", altAnswers: ["Mi piacciono i sabati."], explanation: "\"Il sabato\" = Saturdays in general." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They don't like the rain.", answer: "Non gli piace la pioggia.", altAnswers: ["A loro non piace la pioggia."], explanation: "\"Gli\" = to them in speech." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Matteo likes] cooking.", sentence: "___ cucinare.", answer: "A Matteo piace", explanation: "\"A\" + name + \"piace\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Do you like the earrings? [I like them] a lot!", sentence: "Ti piacciono gli orecchini? ___ molto!", answer: "Mi piacciono", explanation: "Plural." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Do you like] Naples, sir?", sentence: "___ Napoli, signore?", answer: "Le piace", altAnswers: ["A Lei piace"], explanation: "Formal \"Le\"." },
+      { type: "word-order", prompt: "Put the words in order to say: We don't like the city, we prefer the sea.", words: ["Non", "ci", "piace", "la", "città,", "preferiamo", "il", "mare."], translation: "We don't like the city, we prefer the sea.", explanation: "\"Ci piace\" and \"preferiamo\"." },
+      { type: "listen-choose", audio: "Non le piacciono i ragni.", question: "What doesn't she like?", options: ["spiders", "frogs", "rain", "cats"], correctIndex: 0, explanation: "\"Ragni\" = spiders." },
+      { type: "dictation", audio: "Ci piace molto la casa nuova.", explanation: "\"Ci piace\" + singular." },
+      {
+        type: "speak",
+        text: "A mio padre piace il calcio, a mia madre piacciono i libri.",
+        prompt: "Say it in Italian: My father likes football, my mother likes books.",
+        tip: "Watch the switch: piace, then piacciono.",
+        explanation: "Two people, singular and plural.",
+      },
+    ],
+  },
+  {
+    slug: "a1-likes-extra-2",
+    level: "IT-A1",
+    number: 2,
+    title: "Extra Practice: Me Too, Me Neither",
+    summary: "Agree and disagree in twelve short conversations.",
+    duration: "12 min",
+    optional: true,
+    kind: "drill",
+    sections: [
+      {
+        heading: "Four replies",
+        body: [
+          "After \"mi piace\": agree \"Anche a me\", disagree \"A me no\". After \"non mi piace\": agree \"Neanche a me\", disagree \"A me sì\". After an ordinary verb (\"lavoro qui\"): \"Anche io\" / \"Io no\"; after a negative one (\"non fumo\"): \"Neanche io\" / \"Io sì\".",
+        ],
+        examples: [
+          { es: "Mi piace l'estate. A me no.", en: "I like summer. I don't." },
+          { es: "Non mi piace l'inverno. A me sì!", en: "I don't like winter. I do!" },
+          { es: "Non fumo. Neanche io.", en: "I don't smoke. Me neither." },
+          { es: "Parlo francese. Io no.", en: "I speak French. I don't." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Your friend says \"Non fumo\". Translate: Me neither.", source: "Me neither.", answer: "Neanche io.", altAnswers: ["Nemmeno io.", "Neppure io."], explanation: "Ordinary verb: \"neanche io\"." },
+          { type: "translate", direction: "en-es", prompt: "Your friend says \"Non mi piace l'inverno\". Translate: I do!", source: "I do!", answer: "A me sì!", explanation: "Piacere, disagreeing with a negative." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "\"Mi piace l'estate.\" Agree: Me too!", source: "Me too!", answer: "Anche a me!", explanation: "\"Anche a me\"." },
+      { type: "translate", direction: "en-es", prompt: "\"Mi piace l'estate.\" Disagree: I don't.", source: "I don't.", answer: "A me no.", explanation: "\"A me no\"." },
+      { type: "translate", direction: "en-es", prompt: "\"Non mi piacciono i musei.\" Agree: Me neither.", source: "Me neither.", answer: "Neanche a me.", altAnswers: ["Nemmeno a me.", "Neppure a me."], explanation: "\"Neanche a me\"." },
+      { type: "translate", direction: "en-es", prompt: "\"Abito a Roma.\" Agree: Me too!", source: "Me too!", answer: "Anche io!", altAnswers: ["Anch'io!"], explanation: "Ordinary verb." },
+      { type: "translate", direction: "en-es", prompt: "\"Parlo francese.\" Disagree: I don't.", source: "I don't.", answer: "Io no.", explanation: "Ordinary verb: \"io no\"." },
+      { type: "translate", direction: "en-es", prompt: "\"Non guido.\" Disagree: I do.", source: "I do.", answer: "Io sì.", explanation: "Ordinary verb: \"io sì\"." },
+      { type: "translate", direction: "en-es", prompt: "\"Ci piace ballare.\" Agree for both of you: Us too!", source: "Us too!", answer: "Anche a noi!", explanation: "\"Anche a noi\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I don't like rain. [Me neither.]", sentence: "Non mi piace la pioggia. ___", answer: "Neanche a me.", altAnswers: ["Nemmeno a me."], explanation: "Negative + agree." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I like jazz. [You don't?]", sentence: "Mi piace il jazz. ___", answer: "A te no?", explanation: "Stressed \"a te\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Marco likes it, [Luca doesn't].", sentence: "A Marco piace, ___.", answer: "a Luca no", explanation: "\"A\" + name + \"no\"." },
+      { type: "word-order", prompt: "Put the words in order to say: I don't like opera. I, on the other hand, do!", words: ["Non", "mi", "piace", "l'opera.", "A", "me", "invece", "sì!"], translation: "I don't like opera. I, on the other hand, do!", explanation: "\"Invece\" for contrast." },
+      { type: "multiple-choice", question: "\"Mi piacciono i cani.\" You agree. What do you say?", options: ["Anche a me!", "Anche io!", "Neanche a me!", "Io sì!"], correctIndex: 0, explanation: "Piacere: \"anche a me\"." },
+      { type: "multiple-choice", question: "\"Non lavoro il sabato.\" You do work. What do you say?", options: ["Io sì.", "A me sì.", "Anche io.", "Neanche io."], correctIndex: 0, explanation: "Ordinary verb: \"io sì\"." },
+      { type: "listen-choose", audio: "Non mi piace l'inverno. A me sì!", question: "Does the second person like winter?", options: ["Yes", "No", "Not much", "We don't know"], correctIndex: 0, explanation: "\"A me sì\" = I do." },
+      { type: "dictation", audio: "Mi piace il mare. Anche a me!", explanation: "\"Anche a me\"." },
+      {
+        type: "speak",
+        text: "Non mi piace l'inverno. E a te?",
+        prompt: "Say it in Italian, then ask back: I don't like winter. And you?",
+        tip: "\"L'inverno\": no pause between l' and inverno.",
+        explanation: "A dislike and a question back.",
+      },
+    ],
+  },
+  {
+    slug: "a1-likes-extra-3",
+    level: "IT-A1",
+    number: 3,
+    title: "Extra Practice: Gn by Ear",
+    summary: "Dictation of gn words and the contrast with n + g.",
+    duration: "12 min",
+    optional: true,
+    kind: "drill",
+    sections: [
+      {
+        heading: "Gn or n + g?",
+        body: [
+          "Gn is one soft sound: \"bagno, sogno, ogni, lasagne, gnocchi, Bologna, signora, insegnante, compagno\" (companion), \"montagna, Spagna, lavagna\" (blackboard). N + g keeps both sounds: \"vengo, lungo, inglese, fungo\" (mushroom).",
+        ],
+        examples: [
+          { es: "In montagna c'è la neve.", en: "There's snow in the mountains." },
+          { es: "La lavagna è in classe.", en: "The blackboard is in the classroom." },
+          { es: "Il mio compagno è spagnolo.", en: "My partner is Spanish." },
+          { es: "Un fungo nel bosco.", en: "A mushroom in the woods." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "My partner is Spanish.", answer: "Il mio compagno è spagnolo.", altAnswers: ["La mia compagna è spagnola."], explanation: "\"Compagno\", \"spagnolo\": gn." },
+          { type: "listen-choose", audio: "la montagna", question: "What did you hear?", options: ["la montagna", "la montana", "la montanga", "la mondana"], correctIndex: 0, explanation: "mon-TA-gna." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "There's snow in the mountains.", answer: "In montagna c'è la neve.", altAnswers: ["C'è la neve in montagna.", "In montagna c'è neve."], explanation: "\"Montagna\": gn." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm going to Spain.", answer: "Vado in Spagna.", altAnswers: ["Io vado in Spagna."], explanation: "\"Spagna\": gn." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The teacher writes on the blackboard.", answer: "L'insegnante scrive alla lavagna.", altAnswers: ["L'insegnante scrive sulla lavagna."], explanation: "Two gn sounds." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "A pizza with mushrooms.", answer: "Una pizza ai funghi.", altAnswers: ["Una pizza con i funghi."], explanation: "n + g: FUN-ghi." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Every day I study English.", answer: "Ogni giorno studio inglese.", altAnswers: ["Studio inglese ogni giorno.", "Ogni giorno studio l'inglese."], explanation: "\"Ogni\" gn, \"inglese\" n + g." },
+      { type: "listen-choose", audio: "il sogno", question: "What did you hear?", options: ["il sogno", "il sonno", "il segno", "il songo"], correctIndex: 0, explanation: "SO-gno: dream." },
+      { type: "listen-choose", audio: "lungo", question: "What did you hear?", options: ["lungo", "lugno", "luogo", "lunga"], correctIndex: 0, explanation: "n + g: LUN-go." },
+      { type: "dictation", audio: "Il bagno è a destra, signora.", explanation: "\"Bagno\", \"signora\"." },
+      { type: "dictation", audio: "Ogni domenica mangiamo gli gnocchi.", explanation: "\"Ogni\", \"gnocchi\"." },
+      { type: "dictation", audio: "Vengo in Spagna con il mio compagno.", explanation: "\"Vengo\" n + g; \"Spagna\", \"compagno\" gn." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The teacher from Bologna is kind.", answer: "L'insegnante di Bologna è gentile.", explanation: "\"Insegnante\", \"Bologna\": gn." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Good morning, madam! Are you coming too?", answer: "Buongiorno, signora! Viene anche Lei?", altAnswers: ["Buongiorno, signora! Lei viene?", "Buongiorno, signora! Viene anche lei?"], explanation: "\"Signora\" gn; \"viene\" n alone." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It's a [dream]!", sentence: "È un ___!", answer: "sogno", explanation: "gn." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Where's [the bathroom]?", sentence: "Dov'è ___?", answer: "il bagno", explanation: "gn." },
+      { type: "word-order", prompt: "Put the words in order to say: Every summer I go to the mountains.", words: ["Ogni", "estate", "vado", "in", "montagna."], translation: "Every summer I go to the mountains.", explanation: "Two gn sounds." },
+      {
+        type: "speak",
+        text: "Ogni anno vado in montagna in Spagna con il mio compagno.",
+        prompt: "Read aloud: Every year I go to the mountains in Spain with my partner.",
+        tip: "Four gn sounds: soft and long each time.",
+        explanation: "gn in ogni, montagna, Spagna, compagno.",
+      },
+    ],
+  },
+];

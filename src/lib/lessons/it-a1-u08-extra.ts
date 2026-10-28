@@ -1,0 +1,172 @@
+// Synced from cheneygross-afk/lengo:src/lib/lessons/it-a1-u08-extra.ts by scripts/sync-content.mjs -- edit it there, not here.
+import type { Lesson } from "./types";
+
+// Italian A1 Unit 8 Extra Practice: Where Things Are.
+// Optional lessons folded away under the unit (docs/italian-course/authoring.md).
+export const IT_A1_U08_EXTRA: Lesson[] = [
+  {
+    slug: "a1-places-extra-1",
+    level: "IT-A1",
+    number: 1,
+    title: "Extra Practice: A or In?",
+    summary: "Thirty places and cities with a, in or a contraction.",
+    duration: "12 min",
+    optional: true,
+    kind: "drill",
+    sections: [
+      {
+        heading: "Quick choices",
+        body: [
+          "Cities and small islands: \"a\". Countries, regions, big islands: \"in\". \"In\" with no article: \"banca, farmacia, centro, ufficio, palestra, biblioteca, piscina, montagna, campagna, chiesa\". \"A\" with no article: \"casa, scuola, teatro, letto\". With an article: \"al bar, al mare, al parco, alla stazione, all'aeroporto\".",
+        ],
+        examples: [
+          { es: "La domenica vado in chiesa.", en: "On Sundays I go to church." },
+          { es: "Mia sorella è in Germania, a Berlino.", en: "My sister is in Germany, in Berlin." },
+          { es: "Siamo in piscina.", en: "We're at the swimming pool." },
+          { es: "Ci vediamo al parco.", en: "See you at the park." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "My sister is in Germany, in Berlin.", answer: "Mia sorella è in Germania, a Berlino.", explanation: "Country \"in\", city \"a\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "On Sundays I go to church.", answer: "La domenica vado in chiesa.", altAnswers: ["Vado in chiesa la domenica."], explanation: "\"In chiesa\": no article." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We're at the swimming pool.", answer: "Siamo in piscina.", altAnswers: ["Noi siamo in piscina."], explanation: "\"In piscina\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm going to Lombardy.", answer: "Vado in Lombardia.", altAnswers: ["Io vado in Lombardia."], explanation: "Region: \"in\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They live in Genoa.", answer: "Abitano a Genova.", altAnswers: ["Vivono a Genova.", "Loro abitano a Genova."], explanation: "City: \"a\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The children are at the theatre.", answer: "I bambini sono a teatro.", explanation: "\"A teatro\": no article." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm at the airport.", answer: "Sono all'aeroporto.", altAnswers: ["Io sono all'aeroporto.", "Sono in aeroporto."], explanation: "\"All'aeroporto\" (also \"in aeroporto\")." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm going to the seaside, to Rimini.", answer: "Vado al mare, a Rimini.", altAnswers: ["Vado al mare a Rimini.", "Io vado al mare, a Rimini."], explanation: "\"Al mare\", \"a Rimini\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Chiara works in the United States.", answer: "Chiara lavora negli Stati Uniti.", explanation: "Plural country: in + gli = \"negli\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm going home by underground.", answer: "Torno a casa in metro.", altAnswers: ["Vado a casa in metro.", "Torno a casa con la metro."], explanation: "\"A casa\", \"in metro\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Paolo is [in Sardinia].", sentence: "Paolo è ___.", answer: "in Sardegna", explanation: "Big island: \"in\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "We study [at school].", sentence: "Studiamo ___.", answer: "a scuola", explanation: "\"A scuola\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Anna is [at the bar].", sentence: "Anna è ___.", answer: "al bar", explanation: "a + il = \"al\"." },
+      {
+        type: "matching",
+        instructions: "Match the Italian to the English.",
+        pairs: [
+          { left: "in montagna", right: "in the mountains" },
+          { left: "al mare", right: "at the seaside" },
+          { left: "in campagna", right: "in the countryside" },
+          { left: "a letto", right: "in bed" },
+          { left: "in centro", right: "downtown" },
+        ],
+        explanation: "Learn each place with its preposition.",
+      },
+      { type: "multiple-choice", question: "Which is correct?", options: ["Vado in Sicilia.", "Vado a Sicilia.", "Vado alla Sicilia.", "Vado nella Sicilia."], correctIndex: 0, explanation: "Big island: \"in\"." },
+      { type: "dictation", audio: "D'estate vado al mare, d'inverno in montagna.", explanation: "\"Al mare\", \"in montagna\"." },
+      {
+        type: "speak",
+        text: "Abito a Genova, in Liguria. Il sabato vado al mare o in montagna.",
+        prompt: "Say it in Italian: I live in Genoa, in Liguria. On Saturdays I go to the seaside or to the mountains.",
+        tip: "GE-no-va: stress on the first syllable.",
+        explanation: "City, region and two places.",
+      },
+    ],
+  },
+  {
+    slug: "a1-places-extra-2",
+    level: "IT-A1",
+    number: 2,
+    title: "Extra Practice: Directions",
+    summary: "Follow and give directions on a small town map.",
+    duration: "12 min",
+    optional: true,
+    kind: "drill",
+    sections: [
+      {
+        heading: "A small town map",
+        body: [
+          "Picture the map: the station is at the bottom. Straight up the main street there's a square, with the church on the left and the town hall (\"il municipio\") on the right. The pharmacy is next to the church, the bank opposite it. The museum is behind the town hall.",
+        ],
+        examples: [
+          { es: "Dalla stazione vada dritto fino alla piazza.", en: "From the station go straight on as far as the square." },
+          { es: "La chiesa è a sinistra.", en: "The church is on the left." },
+          { es: "Il museo è dietro il municipio.", en: "The museum is behind the town hall." },
+          { es: "La farmacia è accanto alla chiesa.", en: "The pharmacy is next to the church." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The church is on the left.", answer: "La chiesa è a sinistra.", explanation: "\"A sinistra\" = on the left." },
+          { type: "listen-choose", audio: "Il museo è dietro il municipio.", question: "Where is the museum?", options: ["behind the town hall", "in front of the town hall", "next to the church", "opposite the bank"], correctIndex: 0, explanation: "\"Dietro\" = behind." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The town hall is on the right.", answer: "Il municipio è a destra.", explanation: "\"A destra\" = on the right." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The bank is opposite the pharmacy.", answer: "La banca è di fronte alla farmacia.", explanation: "\"Di fronte a\" + la." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Go straight on as far as the square.", answer: "Vada dritto fino alla piazza.", altAnswers: ["Vada diritto fino alla piazza."], explanation: "\"Fino a\" = as far as." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Excuse me, where's the museum?", answer: "Scusi, dov'è il museo?", altAnswers: ["Scusi, dove è il museo?", "Scusa, dov'è il museo?"], explanation: "\"Dov'è\" + specific place." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Turn left after the church.", answer: "Giri a sinistra dopo la chiesa.", explanation: "\"Dopo\" = after." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Is the pharmacy near the station?", answer: "La farmacia è vicino alla stazione?", altAnswers: ["La farmacia è vicina alla stazione?"], explanation: "\"Vicino a\" + la." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Take] the first street on the right.", sentence: "___ la prima strada a destra.", answer: "Prenda", explanation: "Lei command." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The museum is [behind] the town hall.", sentence: "Il museo è ___ il municipio.", answer: "dietro", explanation: "\"Dietro\" = behind." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Cross] the square.", sentence: "___ la piazza.", answer: "Attraversi", explanation: "Lei command." },
+      { type: "word-order", prompt: "Put the words in order to say: The pharmacy is next to the church.", words: ["La", "farmacia", "è", "accanto", "alla", "chiesa."], translation: "The pharmacy is next to the church.", explanation: "\"Accanto a\" + la." },
+      { type: "multiple-choice", question: "On the map, what's opposite the pharmacy?", options: ["the bank", "the museum", "the station", "the town hall"], correctIndex: 0, explanation: "\"La banca è di fronte alla farmacia\"." },
+      { type: "multiple-choice", question: "You hear \"giri a destra\". What do you do?", options: ["turn right", "turn left", "go straight on", "go back"], correctIndex: 0, explanation: "\"Destra\" = right." },
+      { type: "dictation", audio: "Prenda la prima strada a destra.", explanation: "\"Prima\" = first." },
+      { type: "dictation", audio: "Il municipio è in piazza.", explanation: "\"Municipio\" = town hall." },
+      {
+        type: "speak",
+        text: "Dalla stazione vada dritto fino alla piazza. Il museo è dietro il municipio.",
+        prompt: "Give directions: From the station go straight on as far as the square. The museum is behind the town hall.",
+        tip: "mu-ni-CI-pio: stress on ci.",
+        explanation: "A Lei command and a location.",
+      },
+    ],
+  },
+  {
+    slug: "a1-places-extra-3",
+    level: "IT-A1",
+    number: 3,
+    title: "Extra Practice: Z by Ear",
+    summary: "Hear and write words with [ts] and [dz].",
+    duration: "12 min",
+    optional: true,
+    kind: "drill",
+    sections: [
+      {
+        heading: "Two z sounds",
+        body: [
+          "[ts]: \"piazza, pizza, grazie, stazione, lezione, colazione, Venezia, ragazzo, marzo, senza\". [dz]: \"zero, zanzara, mezzo, romanzo, azzurro, pranzo\". Initial z varies by region (\"zio, zucchero, zaino\"). In \"-zione\" it's always [ts].",
+        ],
+        examples: [
+          { es: "il ragazzo senza zaino", en: "the boy without a backpack" },
+          { es: "Il pranzo è a mezzogiorno.", en: "Lunch is at noon." },
+          { es: "un cielo azzurro", en: "a blue sky" },
+          { es: "A marzo vado a Venezia.", en: "In March I'm going to Venice." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Lunch is at noon.", answer: "Il pranzo è a mezzogiorno.", explanation: "Two [dz]: \"pranzo\", \"mezzogiorno\"." },
+          { type: "listen-choose", audio: "il ragazzo", question: "What did you hear?", options: ["il ragazzo", "il razzo", "la ragazza", "il ragazo"], correctIndex: 0, explanation: "ra-GAZ-zo: double z." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In March I'm going to Venice.", answer: "A marzo vado a Venezia.", altAnswers: ["Vado a Venezia a marzo."], explanation: "\"Marzo\", \"Venezia\": [ts]." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "A pizza without cheese.", answer: "Una pizza senza formaggio.", explanation: "\"Pizza\", \"senza\": [ts]." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The boy is at the station.", answer: "Il ragazzo è alla stazione.", altAnswers: ["Il ragazzo è in stazione."], explanation: "\"Ragazzo\", \"stazione\": [ts]." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Breakfast and lunch.", answer: "Colazione e pranzo.", altAnswers: ["La colazione e il pranzo."], explanation: "[ts] then [dz]." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The sea is blue.", answer: "Il mare è azzurro.", altAnswers: ["Il mare è blu."], explanation: "\"Azzurro\": [ddz]." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It's [half past] eight.", sentence: "Sono le otto e ___.", answer: "mezza", altAnswers: ["mezzo"], explanation: "\"Mezza\": [ddz]." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Thank you] very much!", sentence: "___ mille!", answer: "Grazie", explanation: "\"Grazie\": [ts]." },
+      { type: "listen-choose", audio: "zero", question: "What did you hear?", options: ["zero", "sero", "cero", "tsero"], correctIndex: 0, explanation: "[dz]: ZE-ro." },
+      { type: "listen-choose", audio: "la lezione", question: "What did you hear?", options: ["la lezione", "la legione", "la lesione", "la elezione"], correctIndex: 0, explanation: "le-TSIO-ne." },
+      { type: "dictation", audio: "Grazie, la pizza è buona.", explanation: "Two [ts] sounds." },
+      { type: "dictation", audio: "Il pranzo è a mezzogiorno.", explanation: "[dz] in \"pranzo\" and \"mezzogiorno\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The station is in Piazza Garibaldi.", answer: "La stazione è in piazza Garibaldi.", altAnswers: ["La stazione è in Piazza Garibaldi."], explanation: "\"Stazione\", \"piazza\": [ts]." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "My uncle has a blue backpack.", answer: "Mio zio ha uno zaino azzurro.", altAnswers: ["Mio zio ha uno zaino blu."], explanation: "\"Uno zaino\" before z; \"azzurro\" with [ddz]." },
+      { type: "dictation", audio: "Ho uno zaino azzurro.", explanation: "\"Uno zaino\" before z; \"azzurro\" double z." },
+      { type: "word-order", prompt: "Put the words in order to say: The girl reads a novel in the square.", words: ["La", "ragazza", "legge", "un", "romanzo", "in", "piazza."], translation: "The girl reads a novel in the square.", explanation: "[ts] in \"ragazza\" and \"piazza\", [dz] in \"romanzo\"." },
+      {
+        type: "speak",
+        text: "Grazie! La stazione è in piazza, a mezzo chilometro.",
+        prompt: "Say it in Italian: Thanks! The station is in the square, half a kilometre away.",
+        tip: "[ts] in grazie, stazione, piazza; [ddz] in mezzo.",
+        explanation: "Both z sounds in one sentence.",
+      },
+    ],
+  },
+];

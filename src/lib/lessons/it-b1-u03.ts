@@ -1,0 +1,659 @@
+// Synced from cheneygross-afk/lengo:src/lib/lessons/it-b1-u03.ts by scripts/sync-content.mjs -- edit it there, not here.
+import type { Lesson, WriteExercise } from "./types";
+
+// Italian B1 Unit 3: Pronouns with Infinitives, Modals and Commands.
+// Attached pronouns (farlo, dirtelo), modals (te lo voglio dire / voglio
+// dirtelo), commands (dimmelo, non dirmelo, me lo dica), gerunds (vedendola).
+// Conventions: docs/italian-course/authoring.md.
+export const IT_B1_U03: Lesson[] = [
+  {
+    slug: "b1-pronouns-infinitives",
+    level: "IT-B1",
+    number: 1,
+    title: "Pronouns with Infinitives",
+    summary: "Attach pronouns to the end of an infinitive: per farlo, prima di vederla, è difficile spiegarlo.",
+    duration: "17 min",
+    sections: [
+      {
+        heading: "Fare + lo = farlo",
+        body: [
+          "With a conjugated verb the pronoun goes in front: \"Lo faccio\". With an infinitive it goes at the end, written as one word, and the infinitive loses its final -e: \"fare\" + \"lo\" = \"farlo\", \"vedere\" + \"la\" = \"vederla\", \"dire\" + \"mi\" = \"dirmi\".",
+          "This happens after prepositions (\"per farlo\", \"prima di vederla\", \"senza dirmi niente\") and after expressions like \"è difficile\", \"è inutile\", \"ho voglia di\": \"È difficile spiegarlo\" (it's hard to explain it).",
+          "The stress doesn't move: \"fare\" is FA-re and \"farlo\" is FAR-lo. Only the -e falls away; the stressed syllable stays where it was.",
+        ],
+        examples: [
+          { es: "Ho bisogno di un'ora per farlo.", en: "I need an hour to do it." },
+          { es: "Prima di vederla, ero nervoso.", en: "Before seeing her, I was nervous." },
+          { es: "È difficile spiegarlo.", en: "It's hard to explain." },
+          { es: "È uscito senza dirmi niente.", en: "He went out without telling me anything." },
+          { es: "Non ho voglia di chiamarlo.", en: "I don't feel like calling him." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's hard to explain.", answer: "È difficile spiegarlo.", altAnswers: ["È difficile da spiegare."], explanation: "\"Spiegare\" + \"lo\" = \"spiegarlo\"; Italian keeps the it." },
+          { type: "multiple-choice", question: "How do you say: I don't feel like calling him?", options: ["Non ho voglia di chiamarlo.", "Non ho voglia di lo chiamare.", "Non lo ho voglia di chiamare.", "Non ho voglia di chiamarelo."], correctIndex: 0, explanation: "Attached to the infinitive, which drops its -e." },
+        ],
+      },
+      {
+        heading: "Two pronouns at the end",
+        body: [
+          "Clusters attach too, in the same order as before: \"dire\" + \"te lo\" = \"dirtelo\", \"dare\" + \"glielo\" = \"darglielo\", \"portare\" + \"ce ne\" = \"portarcene\". The whole chunk is one word.",
+          "\"Ci\" and \"ne\" attach as well: \"Ho deciso di andarci\" (I've decided to go there), \"Non c'è bisogno di parlarne\" (there's no need to talk about it).",
+        ],
+        examples: [
+          { es: "Ho deciso di dirtelo.", en: "I've decided to tell you." },
+          { es: "È ora di darglielo.", en: "It's time to give it to him." },
+          { es: "Non c'è bisogno di parlarne.", en: "There's no need to talk about it." },
+          { es: "Ho deciso di andarci a giugno.", en: "I've decided to go there in June." },
+          { es: "Grazie per avermelo detto.", en: "Thanks for telling me." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I've decided to tell you.", answer: "Ho deciso di dirtelo.", explanation: "\"Dire\" + \"te\" + \"lo\" = \"dirtelo\": one word." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "There's no need [to talk about it].", sentence: "Non c'è bisogno di ___.", answer: "parlarne", explanation: "\"Parlare\" + \"ne\"." },
+        ],
+      },
+      {
+        heading: "Dopo averlo fatto",
+        body: [
+          "\"Dopo\" + the past infinitive (\"avere\" or \"essere\" + participle) means after doing: \"dopo averlo fatto\" (after doing it). The pronoun attaches to \"avere\", which drops its -e: \"aver\" + \"lo\" = \"averlo\". You'll meet this fully later; for now, recognise \"dopo averglielo detto\" (after telling him) and \"Grazie per avermelo detto\".",
+        ],
+        examples: [
+          { es: "Dopo averlo fatto, mi sono sentito meglio.", en: "After doing it, I felt better." },
+          { es: "Dopo averglielo detto, sono andata via.", en: "After telling him, I left." },
+          { es: "Grazie per avercelo spiegato.", en: "Thanks for explaining it to us." },
+        ],
+        checkpoint: [
+          { type: "listen-choose", audio: "Dopo averglielo detto, sono andata via.", question: "What happened first?", options: ["She told him.", "She left.", "He told her.", "They left together."], correctIndex: 0, explanation: "\"Dopo averglielo detto\" = after telling him." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Thanks for explaining it to us.", answer: "Grazie per avercelo spiegato.", altAnswers: ["Grazie di avercelo spiegato."], explanation: "\"Aver\" + \"ce\" + \"lo\" + participle." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I need an hour to do it.", answer: "Ho bisogno di un'ora per farlo.", altAnswers: ["Mi serve un'ora per farlo.", "Mi ci vuole un'ora per farlo."], explanation: "\"Per\" + \"farlo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He went out without telling me anything.", answer: "È uscito senza dirmi niente.", altAnswers: ["È uscito senza dirmi nulla."], explanation: "\"Senza\" + infinitive + pronoun." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Before seeing her, I was nervous.", answer: "Prima di vederla, ero nervoso.", altAnswers: ["Prima di vederla, ero nervosa.", "Prima di vederla ero agitato.", "Prima di vederla ero agitata."], explanation: "\"Prima di\" + \"vederla\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's time to give it to him.", answer: "È ora di darglielo.", altAnswers: ["È il momento di darglielo."], explanation: "\"Dare\" + \"glielo\" = \"darglielo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I've decided to go there in June.", answer: "Ho deciso di andarci a giugno.", altAnswers: ["Ho deciso di andarci in giugno."], explanation: "\"Andare\" + \"ci\" = \"andarci\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Thanks for telling me.", answer: "Grazie per avermelo detto.", altAnswers: ["Grazie di avermelo detto.", "Grazie per avermi avvisato.", "Grazie per avermi avvisata."], explanation: "\"Lo\" = what you told me." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It's useless [to call her]: she doesn't answer.", sentence: "È inutile ___: non risponde.", answer: "chiamarla", explanation: "\"Chiamare\" + \"la\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Have you got time [to explain it to me]?", sentence: "Hai tempo di ___?", answer: "spiegarmelo", explanation: "\"Spiegare\" + \"me\" + \"lo\"." },
+      { type: "word-order", prompt: "Put the words in order to say: There's no need to talk about it.", words: ["Non", "c'è", "bisogno", "di", "parlarne."], translation: "There's no need to talk about it.", explanation: "\"Parlarne\": one tile, one word." },
+      { type: "multiple-choice", question: "Which is the correct spelling of to give it to her?", options: ["dargliela", "dare gliela", "darlegliela", "dargli la"], correctIndex: 0, explanation: "\"Dar\" + \"gliela\": one word." },
+      { type: "dictation", audio: "Ho deciso di dirtelo prima di partire.", explanation: "\"Dirtelo\": one word." },
+      { type: "speak", text: "È difficile spiegarlo, ma provo a farlo lo stesso.", prompt: "Say it in Italian: It's hard to explain, but I'll try to do it anyway.", tip: "spie-GAR-lo, FAR-lo: the stress stays where it was in the infinitive.", explanation: "Two infinitives with \"lo\" attached." },
+    ],
+  },
+  {
+    slug: "b1-pronouns-modals",
+    level: "IT-B1",
+    number: 2,
+    title: "Pronouns with Modal Verbs",
+    summary: "With volere, potere, dovere and sapere put pronouns before the modal or on the infinitive: te lo voglio dire / voglio dirtelo.",
+    duration: "17 min",
+    sections: [
+      {
+        heading: "Two correct orders",
+        body: [
+          "Modal verbs (\"volere, potere, dovere\", and \"sapere\" meaning can, know how to) give you a free choice: the pronoun goes before the modal or on the end of the infinitive. \"Lo devo fare\" = \"Devo farlo\" (I have to do it). \"Te lo voglio dire\" = \"Voglio dirtelo\".",
+          "Both are standard; the first is a little more spoken, the second a little more written. What you can't do is put the pronoun in the middle: \"voglio lo fare\" is wrong. Either before everything, or glued to the infinitive.",
+          "\"Ci\" and \"ne\" follow the same rule: \"Ci possiamo andare\" / \"Possiamo andarci\", \"Ne voglio parlare\" / \"Voglio parlarne\".",
+        ],
+        examples: [
+          { es: "Lo devo fare entro venerdì. / Devo farlo entro venerdì.", en: "I have to do it by Friday." },
+          { es: "Te lo voglio dire. / Voglio dirtelo.", en: "I want to tell you." },
+          { es: "Ci possiamo andare a piedi. / Possiamo andarci a piedi.", en: "We can walk there." },
+          { es: "Non ne voglio parlare. / Non voglio parlarne.", en: "I don't want to talk about it." },
+          { es: "La sai usare? / Sai usarla?", en: "Do you know how to use it?" },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I have to do it by Friday.", answer: "Devo farlo entro venerdì.", altAnswers: ["Lo devo fare entro venerdì."], explanation: "Both orders are correct." },
+          { type: "multiple-choice", question: "Which sentence is wrong?", options: ["Voglio lo fare.", "Lo voglio fare.", "Voglio farlo.", "Non lo voglio fare."], correctIndex: 0, explanation: "The pronoun can't sit between the modal and the infinitive." },
+        ],
+      },
+      {
+        heading: "Clusters and negatives",
+        body: [
+          "Clusters move as one block: \"Glielo posso dire\" / \"Posso dirglielo\". Never split them: \"lo posso dirgli\" is wrong.",
+          "\"Non\" always goes before the conjugated verb, with the block either in front of the modal or attached: \"Non te lo posso dire\" / \"Non posso dirtelo\" (I can't tell you).",
+        ],
+        examples: [
+          { es: "Non te lo posso dire. / Non posso dirtelo.", en: "I can't tell you." },
+          { es: "Glielo devi restituire. / Devi restituirglielo.", en: "You have to give it back to him." },
+          { es: "Me la puoi prestare? / Puoi prestarmela?", en: "Can you lend it to me?" },
+          { es: "Ce ne vuoi dare un po'? / Vuoi darcene un po'?", en: "Will you give us some?" },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I can't tell you.", answer: "Non posso dirtelo.", altAnswers: ["Non te lo posso dire."], explanation: "\"Non\" first; the cluster before \"posso\" or on \"dire\"." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The book? [You have to give it back to him].", sentence: "Il libro? ___.", answer: "Devi restituirglielo", altAnswers: ["Glielo devi restituire"], explanation: "The block moves as one." },
+        ],
+      },
+      {
+        heading: "In the past: l'ho dovuta chiamare",
+        body: [
+          "In the passato prossimo the same choice exists. If the pronoun comes before the auxiliary, the participle agrees with it: \"L'ho dovuta chiamare\" (I had to call her). If it's attached to the infinitive, no agreement: \"Ho dovuto chiamarla\".",
+          "With movement verbs the auxiliary can change too: \"Ci sono dovuto andare\" (pronoun in front, \"essere\" like \"andare\") but \"Ho dovuto andarci\". The second order is simpler, so use it when in doubt.",
+        ],
+        examples: [
+          { es: "L'ho dovuta chiamare. / Ho dovuto chiamarla.", en: "I had to call her." },
+          { es: "Li abbiamo potuti vedere. / Abbiamo potuto vederli.", en: "We were able to see them." },
+          { es: "Ci sono dovuto andare. / Ho dovuto andarci.", en: "I had to go there." },
+          { es: "Non l'ho voluto dire. / Non ho voluto dirlo.", en: "I didn't want to say it." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I had to call her.", answer: "Ho dovuto chiamarla.", altAnswers: ["L'ho dovuta chiamare."], explanation: "Attached: no agreement; in front: \"dovuta\"." },
+          { type: "listen-choose", audio: "Ci sono dovuto andare.", question: "What does it mean?", options: ["I had to go there.", "I wanted to go there.", "I could go there.", "I have to go there."], correctIndex: 0, explanation: "\"Dovuto\" = had to; \"ci\" = there." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I want to tell you.", answer: "Voglio dirtelo.", altAnswers: ["Te lo voglio dire."], explanation: "Before the modal or attached." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We can walk there.", answer: "Possiamo andarci a piedi.", altAnswers: ["Ci possiamo andare a piedi."], explanation: "\"Ci\" moves like any pronoun." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I don't want to talk about it.", answer: "Non voglio parlarne.", altAnswers: ["Non ne voglio parlare."], explanation: "\"Ne\" before \"voglio\" or on \"parlare\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Can you lend it to me? (the bike, to a friend)", answer: "Puoi prestarmela?", altAnswers: ["Me la puoi prestare?", "Potresti prestarmela?", "Me la potresti prestare?"], explanation: "\"Me la\" as one block." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Do you know how to use it? (the coffee machine: la macchinetta)", answer: "Sai usarla?", altAnswers: ["La sai usare?"], explanation: "\"Sapere\" + infinitive = know how to." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We were able to see them.", answer: "Abbiamo potuto vederli.", altAnswers: ["Li abbiamo potuti vedere.", "Siamo riusciti a vederli."], explanation: "In front: agreement (\"potuti\")." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Biscuits? [Will you give us] some?", sentence: "Biscotti? ___ un po'?", answer: "Ce ne vuoi dare", altAnswers: ["Vuoi darcene"], explanation: "\"Ce ne\" as a block." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I didn't want to say it].", sentence: "___.", answer: "Non ho voluto dirlo", altAnswers: ["Non l'ho voluto dire"], explanation: "\"Non\" before the auxiliary." },
+      { type: "word-order", prompt: "Put the words in order to say: You have to give it back to him.", words: ["Devi", "restituirglielo."], translation: "You have to give it back to him.", altOrders: [["restituirglielo.", "Devi"]], explanation: "\"Restituirglielo\": one word." },
+      { type: "multiple-choice", question: "Which sentence is correct?", options: ["Non te lo posso dire.", "Non posso te lo dire.", "Te non lo posso dire.", "Non posso dire te lo."], correctIndex: 0, explanation: "Block before the modal, \"non\" first." },
+      { type: "dictation", audio: "Non posso dirtelo, ma te lo voglio dire.", explanation: "Both positions in one sentence." },
+      { type: "speak", text: "Lo devo fare entro venerdì, ma non so farlo da solo.", prompt: "Say it in Italian: I have to do it by Friday, but I don't know how to do it on my own.", tip: "Stress stays on the verb: DE-vo, FAR-lo.", explanation: "Both positions are correct." },
+    ],
+  },
+  {
+    slug: "b1-pronouns-commands",
+    level: "IT-B1",
+    number: 3,
+    title: "Pronouns with Commands",
+    summary: "Attach pronouns to tu, noi and voi commands (dimmelo, fallo, diamoglielo), handle the negative, and put them in front with Lei (me lo dica).",
+    duration: "17 min",
+    sections: [
+      {
+        heading: "Tu, noi, voi: attach",
+        body: [
+          "With \"tu\", \"noi\" and \"voi\" commands, pronouns go on the end, as one word: \"Mandami la foto!\" → \"Mandamela!\" (send it to me!), \"Portiamoglielo!\" (let's take it to him!), \"Spiegatecelo!\" (explain it to us!).",
+          "The verb keeps its stress, so the long word stresses an early syllable: MAN-da-me-la, por-TIA-mo-glie-lo, spie-GA-te-ce-lo. English speakers tend to stress the end; don't.",
+        ],
+        examples: [
+          { es: "La foto? Mandamela stasera!", en: "The photo? Send it to me tonight!" },
+          { es: "Il regalo? Portiamoglielo insieme!", en: "The present? Let's take it to him together!" },
+          { es: "Spiegatecelo di nuovo, per favore.", en: "Explain it to us again, please." },
+          { es: "Prendilo pure, è tuo.", en: "Go ahead and take it, it's yours." },
+          { es: "Chiamatemi quando arrivate.", en: "Call me when you arrive." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The photo? Send it to me tonight! (to a friend)", answer: "La foto? Mandamela stasera!", explanation: "\"Manda\" + \"me\" + \"la\": one word." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Call me when you arrive. (to two friends)", answer: "Chiamatemi quando arrivate.", explanation: "Voi command + \"mi\"." },
+        ],
+      },
+      {
+        heading: "Short commands double the consonant",
+        body: [
+          "The one-syllable commands \"da'\", \"di'\", \"fa'\", \"sta'\", \"va'\" double the first consonant of the pronoun: \"dammi\" (give me), \"dimmi\" (tell me), \"fallo\" (do it), \"stammi bene\" (take care), \"vacci\" (go there). With a cluster: \"dimmelo\", \"fammelo vedere\", \"dallo a lei\".",
+          "The only exception is \"gli\": \"digli\", \"dagli\", \"fagli\" (tell him, give him, do for him), with no double g. And \"diglielo\" (tell him).",
+        ],
+        examples: [
+          { es: "Dimmi la verità. Dimmela!", en: "Tell me the truth. Tell me!" },
+          { es: "Dammi una mano, per favore.", en: "Give me a hand, please." },
+          { es: "Fammelo vedere!", en: "Let me see it!" },
+          { es: "Fallo subito.", en: "Do it right away." },
+          { es: "Digli di chiamarmi. Anzi, diglielo tu.", en: "Tell him to call me. Actually, you tell him." },
+        ],
+        checkpoint: [
+          { type: "multiple-choice", question: "How do you say: Tell me! (to a friend)", options: ["Dimmi!", "Dimi!", "Di' mi!", "Mi di'!"], correctIndex: 0, explanation: "\"Di'\" + \"mi\" doubles the m: \"dimmi\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Let me see it! (the ring: l'anello)", answer: "Fammelo vedere!", explanation: "\"Fa'\" + \"me\" + \"lo\" → \"fammelo\"." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Tell him] to call me.", sentence: "___ di chiamarmi.", answer: "Digli", explanation: "No doubling with \"gli\"." },
+        ],
+      },
+      {
+        heading: "Negative and Lei commands",
+        body: [
+          "The negative \"tu\" command is \"non\" + infinitive, and the pronoun can go either side: \"Non dirmelo!\" or \"Non me lo dire!\" (don't tell me!). Both are everyday Italian.",
+          "With \"Lei\" the pronoun always goes in front: \"Me lo dica\" (tell me), \"Lo faccia pure\" (go ahead and do it), \"Glielo porti\" (take it to him). Never attach: \"dicamelo\" doesn't exist.",
+        ],
+        examples: [
+          { es: "Non dirmelo! / Non me lo dire!", en: "Don't tell me!" },
+          { es: "Non toccarlo! / Non lo toccare!", en: "Don't touch it!" },
+          { es: "Mi dica, signora.", en: "How can I help you, madam?" },
+          { es: "Me lo dica con calma.", en: "Tell me calmly." },
+          { es: "Lo faccia pure.", en: "Go ahead and do it." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Don't tell me! (to a friend)", answer: "Non dirmelo!", altAnswers: ["Non me lo dire!"], explanation: "\"Non\" + infinitive, pronoun on either side." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Tell me calmly. (polite)", answer: "Me lo dica con calma.", explanation: "Lei command: pronouns in front." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Tell me the truth! (to a friend)", answer: "Dimmi la verità!", explanation: "\"Dimmi\": double m." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Give me a hand, please. (to a friend)", answer: "Dammi una mano, per favore.", altAnswers: ["Per favore, dammi una mano."], explanation: "\"Da'\" + \"mi\" = \"dammi\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Explain it to us again, please. (to a group)", answer: "Spiegatecelo di nuovo, per favore.", altAnswers: ["Spiegatecelo ancora, per favore."], explanation: "Voi + \"ce\" + \"lo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The present? Let's take it to him together!", answer: "Il regalo? Portiamoglielo insieme!", explanation: "Noi command + \"glielo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Don't touch it! (to a child)", answer: "Non toccarlo!", altAnswers: ["Non lo toccare!"], explanation: "Negative tu: \"non\" + infinitive." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Go ahead and do it. (polite)", answer: "Lo faccia pure.", explanation: "Lei: pronoun before the verb." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Do it right away! (to a friend)", answer: "Fallo subito!", explanation: "\"Fa'\" + \"lo\" = \"fallo\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The keys? [Give them to me]! (to a friend)", sentence: "Le chiavi? ___!", answer: "Dammele", explanation: "\"Da'\" + \"me\" + \"le\": double m." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The document? [Take it to him] tomorrow, please. (polite)", sentence: "Il documento? ___ domani, per favore.", answer: "Glielo porti", explanation: "Lei command: block in front." },
+      { type: "word-order", prompt: "Put the words in order to say: Don't tell me, I don't want to know!", words: ["Non", "me", "lo", "dire,", "non", "voglio", "saperlo!"], translation: "Don't tell me, I don't want to know!", altOrders: [["Non", "voglio", "saperlo,", "non", "me", "lo", "dire!"]], explanation: "Negative tu with the cluster in front." },
+      { type: "dictation", audio: "Dimmelo subito! Non me lo dire domani.", explanation: "Attached, then in front with \"non\"." },
+      { type: "speak", text: "Dai, dimmelo! Non dirlo a nessuno, ma dimmelo.", prompt: "Say it in Italian: Come on, tell me! Don't tell anyone, but tell me.", tip: "DIM-me-lo: the stress stays on the first syllable.", explanation: "\"Dimmelo\" and \"non dirlo\"." },
+    ],
+  },
+  {
+    slug: "b1-pronouns-gerund",
+    level: "IT-B1",
+    number: 4,
+    title: "Pronouns with the Gerund",
+    summary: "Attach pronouns to the gerund (vedendola, parlandogli) and place them with stare + gerund (lo sto facendo / sto facendolo).",
+    duration: "17 min",
+    sections: [
+      {
+        heading: "Vedendola, parlandogli",
+        body: [
+          "The gerund (\"parlando, vedendo, facendo\") behaves like the infinitive: pronouns attach to the end, as one word. \"Vedendola, ho capito tutto\" (seeing her, I understood everything). \"Parlandogli, ho scoperto che...\" (talking to him, I found out that...).",
+          "On its own the gerund often means while, by or since: \"Leggendolo, ho imparato molto\" (by reading it, I learned a lot). English uses -ing in the same way, so the idea is familiar; only the pronoun position is new.",
+          "Nothing drops from the gerund: \"facendo\" + \"lo\" = \"facendolo\", stressed fa-CEN-do-lo.",
+        ],
+        examples: [
+          { es: "Vedendola, ho capito tutto.", en: "When I saw her, I understood everything." },
+          { es: "Parlandogli, ho scoperto che è di Bari.", en: "Talking to him, I found out he's from Bari." },
+          { es: "Leggendolo, ho imparato molto.", en: "By reading it, I learned a lot." },
+          { es: "Ascoltandoti, mi è venuta un'idea.", en: "Listening to you, I had an idea." },
+          { es: "Facendolo ogni giorno, diventa facile.", en: "If you do it every day, it gets easy." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "By reading it, I learned a lot. (the book)", answer: "Leggendolo, ho imparato molto.", explanation: "\"Leggendo\" + \"lo\": one word." },
+          { type: "multiple-choice", question: "Which means: Talking to him, I found out he's from Bari?", options: ["Parlandogli, ho scoperto che è di Bari.", "Gli parlando, ho scoperto che è di Bari.", "Parlando gli, ho scoperto che è di Bari.", "Parlandolo, ho scoperto che è di Bari."], correctIndex: 0, explanation: "\"Parlare a\" → \"gli\", attached to the gerund." },
+        ],
+      },
+      {
+        heading: "Stare + gerund: two orders",
+        body: [
+          "With \"stare\" + gerund you have the same choice as with modals: \"Lo sto facendo\" or \"Sto facendolo\" (I'm doing it). The first is far more common in speech; the second is correct but sounds more formal.",
+          "Clusters behave the same: \"Te lo sto dicendo\" / \"Sto dicendotelo\". With \"stavo\" in the past it works the same: \"La stavo chiamando\" / \"Stavo chiamandola\" (I was calling her).",
+        ],
+        examples: [
+          { es: "Lo sto facendo adesso.", en: "I'm doing it now." },
+          { es: "Ci sto pensando.", en: "I'm thinking about it." },
+          { es: "Te lo sto dicendo da un'ora!", en: "I've been telling you for an hour!" },
+          { es: "La stavo chiamando proprio ora.", en: "I was just calling her." },
+          { es: "Ne stiamo parlando in riunione.", en: "We're talking about it in the meeting." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm thinking about it.", answer: "Ci sto pensando.", altAnswers: ["Sto pensandoci.", "Ci penso."], explanation: "\"Ci\" before \"sto\" is the everyday order." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I was just calling her].", sentence: "___ proprio ora.", answer: "La stavo chiamando", altAnswers: ["Stavo chiamandola"], explanation: "Before \"stavo\" or on the gerund." },
+          { type: "listen-choose", audio: "Te lo sto dicendo da un'ora!", question: "How does the speaker feel?", options: ["impatient: they've been saying it for an hour", "happy to say it again", "confused about the time", "sorry for being late"], correctIndex: 0, explanation: "\"Da un'ora\" = for an hour (and still going)." },
+        ],
+      },
+      {
+        heading: "Reflexives and clusters on the gerund",
+        body: [
+          "Reflexive pronouns attach too, and they change with the person: \"alzandomi\" (getting up, me), \"alzandoti\" (you), \"alzandosi\" (him, her). \"Alzandomi alle sei, riesco a fare tutto\" (by getting up at six, I manage to do everything).",
+          "Clusters are one word: \"dandoglielo\" (giving it to him), \"spiegandomelo\" (explaining it to me). They look long, but the stress stays on the -an- or -en- of the gerund: DAN-do-glie-lo, spie-GAN-do-me-lo.",
+        ],
+        examples: [
+          { es: "Alzandomi alle sei, riesco a fare tutto.", en: "By getting up at six, I manage to do everything." },
+          { es: "Spiegandomelo con calma, mi ha aiutato molto.", en: "By explaining it to me calmly, she helped me a lot." },
+          { es: "Dandoglielo subito, eviti problemi.", en: "If you give it to him straight away, you avoid problems." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "By getting up at six, I manage to do everything.", answer: "Alzandomi alle sei, riesco a fare tutto.", altAnswers: ["Se mi alzo alle sei, riesco a fare tutto."], explanation: "Reflexive \"mi\" attached to the gerund." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "When I saw her, I understood everything.", answer: "Vedendola, ho capito tutto.", altAnswers: ["Quando l'ho vista, ho capito tutto."], explanation: "\"Vedendo\" + \"la\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Listening to you, I had an idea.", answer: "Ascoltandoti, mi è venuta un'idea.", altAnswers: ["Ascoltandoti, ho avuto un'idea."], explanation: "\"Mi è venuta un'idea\" = an idea came to me." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm doing it now.", answer: "Lo sto facendo adesso.", altAnswers: ["Sto facendolo adesso.", "Lo sto facendo ora.", "Lo faccio adesso."], explanation: "\"Lo\" before \"sto\" is the most natural." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I've been telling you for an hour!", answer: "Te lo sto dicendo da un'ora!", altAnswers: ["Te lo dico da un'ora!", "Sto dicendotelo da un'ora!"], explanation: "\"Da\" + present for something still going on." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We're talking about it in the meeting.", answer: "Ne stiamo parlando in riunione.", altAnswers: ["Stiamo parlandone in riunione."], explanation: "\"Ne\" before \"stiamo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If you do it every day, it gets easy.", answer: "Facendolo ogni giorno, diventa facile.", altAnswers: ["Se lo fai ogni giorno, diventa facile.", "Facendolo tutti i giorni, diventa facile."], explanation: "The gerund replaces the if-clause." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Writing to her] every week, he stayed in touch.", sentence: "___ ogni settimana, è rimasto in contatto.", answer: "Scrivendole", explanation: "\"Scrivere a lei\" → \"le\", attached." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The bags? [I'm taking them] upstairs.", sentence: "Le borse? ___ di sopra.", answer: "Le sto portando", altAnswers: ["Sto portandole"], explanation: "Before \"sto\" or on the gerund." },
+      { type: "word-order", prompt: "Put the words in order to say: I was just calling her.", words: ["La", "stavo", "chiamando", "proprio", "ora."], translation: "I was just calling her.", explanation: "\"La\" before \"stavo\"." },
+      { type: "multiple-choice", question: "Which sentence is wrong?", options: ["Sto lo facendo.", "Lo sto facendo.", "Sto facendolo.", "Facendolo, ho capito."], correctIndex: 0, explanation: "The pronoun can't sit between \"sto\" and the gerund." },
+      { type: "dictation", audio: "Ci sto pensando, te lo dico domani.", explanation: "\"Ci sto pensando\" = I'm thinking about it." },
+      { type: "speak", text: "Lo sto facendo adesso: guardandolo bene, non è così difficile.", prompt: "Say it in Italian: I'm doing it now: looking at it closely, it's not that hard.", tip: "guar-DAN-do-lo: the stress stays on -dan-.", explanation: "\"Lo sto facendo\" and \"guardandolo\"." },
+    ],
+  },
+  {
+    slug: "b1-drill-pronoun-position",
+    level: "IT-B1",
+    number: 5,
+    title: "Drill: Where Does the Pronoun Go?",
+    summary: "Put pronouns in every position: before a verb, on an infinitive, with modals, on commands and gerunds.",
+    duration: "22 min",
+    kind: "drill",
+    sections: [
+      {
+        heading: "The map",
+        body: [
+          "Before: conjugated verbs (\"lo faccio\") and Lei commands (\"lo faccia\"). Attached: infinitives (\"farlo\"), gerunds (\"facendolo\"), tu / noi / voi commands (\"fallo\", \"facciamolo\", \"fatelo\"). Either: modals and \"stare\" + gerund (\"lo devo fare / devo farlo\"), and negative tu commands (\"non lo fare / non farlo\").",
+        ],
+        examples: [
+          { es: "Lo faccio. Lo faccia. Fallo.", en: "I'll do it. Do it (polite). Do it (friend)." },
+          { es: "Devo farlo. Lo devo fare.", en: "I have to do it." },
+          { es: "Facciamolo insieme.", en: "Let's do it together." },
+          { es: "Non farlo. Non lo fare.", en: "Don't do it." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Let's do it together.", answer: "Facciamolo insieme.", explanation: "Noi command: attached." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Do it, please. (polite)", answer: "Lo faccia, per favore.", altAnswers: ["Per favore, lo faccia."], explanation: "Lei command: in front." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Write to me when you arrive. (to a friend)", answer: "Scrivimi quando arrivi.", explanation: "Tu command: attached." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Write to me when you arrive. (polite)", answer: "Mi scriva quando arriva.", explanation: "Lei command: in front." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I want to buy it. (the dress: il vestito)", answer: "Voglio comprarlo.", altAnswers: ["Lo voglio comprare."], explanation: "Either position with a modal." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Don't open it! (the door, to a friend)", answer: "Non aprirla!", altAnswers: ["Non la aprire!", "Non l'aprire!"], explanation: "Negative tu: either side." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Let's go there tomorrow.", answer: "Andiamoci domani.", altAnswers: ["Domani andiamoci.", "Andiamo lì domani."], explanation: "Noi command + \"ci\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Before buying it, I want to see it.", answer: "Prima di comprarlo, voglio vederlo.", altAnswers: ["Prima di comprarlo, lo voglio vedere.", "Prima di comprarla, voglio vederla.", "Prima di comprarla, la voglio vedere."], explanation: "Infinitive after \"di\": attached." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm writing it now. (the email)", answer: "La sto scrivendo adesso.", altAnswers: ["Sto scrivendola adesso.", "La sto scrivendo ora."], explanation: "\"La mail\" → \"la\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Give it to him! (the money, to a friend)", answer: "Daglieli!", altAnswers: ["Dagli i soldi!"], explanation: "\"I soldi\" → \"li\"; \"da'\" + \"glieli\" (no doubling with gli)." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Can you call me back? (polite)", answer: "Mi può richiamare?", altAnswers: ["Può richiamarmi?", "Mi potrebbe richiamare?", "Potrebbe richiamarmi?"], explanation: "Modal: either position." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Tell us everything! (to a group)", answer: "Diteci tutto!", explanation: "Voi command: no doubling (\"dite\" is two syllables)." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The music? [Turn it down], please! (to a friend)", sentence: "La musica? ___, per favore!", answer: "Abbassala", explanation: "Tu command + \"la\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Seeing them] together, I was happy.", sentence: "___ insieme, ero contento.", answer: "Vedendoli", explanation: "Gerund + \"li\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Come in, sir, [take a seat].", sentence: "Entri pure, signore, ___.", answer: "si accomodi", explanation: "Lei command: \"si\" in front." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I have to remember [to tell her].", sentence: "Devo ricordarmi di ___.", answer: "dirglielo", altAnswers: ["dirlo a lei", "dirle"], explanation: "Infinitive + \"glielo\"." },
+      { type: "dictation", audio: "Fallo adesso, non farlo domani.", explanation: "\"Fallo\": double l." },
+      { type: "dictation", audio: "Me lo può ripetere? Sì, glielo ripeto.", explanation: "Modal: block in front." },
+      { type: "speak", text: "Dimmelo adesso, non voglio saperlo domani.", prompt: "Say it in Italian: Tell me now, I don't want to find out tomorrow.", tip: "DIM-me-lo, sa-PER-lo.", explanation: "Command and infinitive: both attached." },
+    ],
+  },
+  {
+    slug: "b1-contrast-before-after",
+    level: "IT-B1",
+    number: 6,
+    title: "Contrast Clinic: Before or After?",
+    summary: "Pairs that isolate pronoun position: lo voglio fare / voglio farlo, dimmelo / me lo dica, non farlo / non lo fare.",
+    duration: "17 min",
+    sections: [
+      {
+        heading: "Tu or Lei: dimmelo or me lo dica?",
+        body: [
+          "The same request flips position when you switch from \"tu\" to \"Lei\": \"Dimmelo\" (tell me, friend) vs \"Me lo dica\" (tell me, polite). \"Aspettami\" vs \"Mi aspetti\". \"Fallo\" vs \"Lo faccia\".",
+          "Watch out: \"Mi aspetti\" can also be a question to a friend (are you waiting for me?). The Lei command looks like the tu present. Context and intonation decide.",
+        ],
+        examples: [
+          { es: "Dimmelo. / Me lo dica.", en: "Tell me. (friend / polite)" },
+          { es: "Aspettami qui. / Mi aspetti qui.", en: "Wait for me here. (friend / polite)" },
+          { es: "Fallo pure. / Lo faccia pure.", en: "Go ahead and do it. (friend / polite)" },
+          { es: "Chiamalo. / Lo chiami.", en: "Call him. (friend / polite)" },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Wait for me here. (polite)", answer: "Mi aspetti qui.", explanation: "Lei command: pronoun in front." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Wait for me here. (to a friend)", answer: "Aspettami qui.", explanation: "Tu command: attached." },
+        ],
+      },
+      {
+        heading: "Free choice, fixed choice",
+        body: [
+          "With modals and negative tu commands both orders are right: \"lo voglio fare / voglio farlo\", \"non lo fare / non farlo\". With a plain infinitive after a preposition there's no choice: \"per farlo\", never \"per lo fare\".",
+          "And with a conjugated verb alone, the pronoun is always in front: \"lo faccio\", never \"faccio lo\".",
+        ],
+        examples: [
+          { es: "Lo voglio fare. / Voglio farlo.", en: "I want to do it." },
+          { es: "Non lo fare. / Non farlo.", en: "Don't do it." },
+          { es: "Sono venuto per vederti.", en: "I came to see you." },
+          { es: "Ti vedo domani.", en: "I'll see you tomorrow." },
+        ],
+        checkpoint: [
+          { type: "multi-select", question: "Which are correct? Choose all that apply.", options: ["Voglio farlo.", "Lo voglio fare.", "Voglio lo fare.", "per farlo", "per lo fare", "Non lo fare."], correctIndexes: [0, 1, 3, 5], explanation: "Modals and negative tu: either; after a preposition: attached only." },
+          { type: "listen-choose", audio: "Non lo fare!", question: "What did you hear?", options: ["Non lo fare!", "Non farlo!", "Non lo faccia!", "Non lo fa!"], correctIndex: 0, explanation: "Negative tu with the pronoun in front." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Call him. (to a friend)", answer: "Chiamalo.", explanation: "Tu command: attached." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Call him. (polite)", answer: "Lo chiami.", explanation: "Lei command: in front." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Tell me, madam.", answer: "Mi dica, signora.", explanation: "\"Mi dica\": standard shop and office phrase." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I came to see you. (to a friend)", answer: "Sono venuto per vederti.", altAnswers: ["Sono venuta per vederti.", "Sono venuto a vederti.", "Sono venuta a vederti."], explanation: "After a preposition: attached." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Don't do it! (to a friend)", answer: "Non farlo!", altAnswers: ["Non lo fare!"], explanation: "Either order." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Don't do it! (polite)", answer: "Non lo faccia!", explanation: "Lei: always in front." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The form? [Fill it in] here, please. (polite)", sentence: "Il modulo? ___ qui, per favore.", answer: "Lo compili", explanation: "Lei command + \"lo\" in front." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The form? [Fill it in] here. (to a friend)", sentence: "Il modulo? ___ qui.", answer: "Compilalo", explanation: "Tu command: attached." },
+      { type: "word-order", prompt: "Put the words in order to say: I want to tell you, but I can't.", words: ["Te", "lo", "voglio", "dire,", "ma", "non", "posso."], translation: "I want to tell you, but I can't.", explanation: "Block before the modal." },
+      { type: "multiple-choice", question: "A customer asks where the station is. You'd like them to follow you. Which is right?", options: ["Mi segua.", "Seguami.", "Mi segui.", "Segua mi."], correctIndex: 0, explanation: "Lei command: \"Mi segua\"." },
+      { type: "dictation", audio: "Me lo dica, signora. Dimmelo, Marco.", explanation: "Same request, Lei then tu." },
+      { type: "speak", text: "Aspettami qui, Luca. Signora, mi aspetti qui, per favore.", prompt: "Say it in Italian: Wait for me here, Luca. Madam, wait for me here, please.", tip: "as-PET-ta-mi / mi as-PET-ti: same stress, different ending.", explanation: "Tu attached, Lei in front." },
+    ],
+  },
+  {
+    slug: "b1-error-hunt-pronoun-position",
+    level: "IT-B1",
+    number: 7,
+    title: "Error Hunt: Pronoun Position",
+    summary: "Fix the classic pronoun position errors: voglio lo fare, dimi, non dirlomi, fai lo!, lo dimmi.",
+    duration: "17 min",
+    sections: [
+      {
+        heading: "In the middle, at the wrong end",
+        body: [
+          "\"Voglio lo fare\" follows English word order (I want to do it). Italian allows only \"Lo voglio fare\" or \"Voglio farlo\". \"Fai lo!\" splits a command: attach the pronoun to the short form \"fa'\" and double the consonant: \"Fallo!\".",
+          "\"Lo dimmi\" puts a pronoun in front and another behind. All the pronouns go on the same side: \"Dimmelo\".",
+        ],
+        examples: [
+          { es: "Voglio farlo. (not: voglio lo fare)", en: "I want to do it." },
+          { es: "Fallo! (not: fai lo!)", en: "Do it!" },
+          { es: "Dimmelo. (not: lo dimmi)", en: "Tell me." },
+          { es: "Devo chiamarla. (not: devo la chiamare)", en: "I have to call her." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "A learner wrote \"Devo la chiamare\". Write it correctly: I have to call her.", source: "I have to call her.", answer: "Devo chiamarla.", altAnswers: ["La devo chiamare."], explanation: "Before the modal or attached, never in the middle." },
+          { type: "translate", direction: "en-es", prompt: "A learner wrote \"Lo dimmi\". Write it correctly: Tell me! (it)", source: "Tell me!", answer: "Dimmelo!", explanation: "All pronouns on one side, with the double m." },
+        ],
+      },
+      {
+        heading: "Spelling and order",
+        body: [
+          "\"Dimi\" forgets the double consonant: \"dimmi\", \"dammi\", \"fammi\". \"Non dirlomi\" gets the order inside the cluster wrong: indirect first, so \"non dirmelo\" (or \"non me lo dire\").",
+          "A Lei command with an attached pronoun, \"Dicamelo\", is also wrong: \"Me lo dica\".",
+        ],
+        examples: [
+          { es: "Dimmi la verità. (not: dimi)", en: "Tell me the truth." },
+          { es: "Non dirmelo. (not: non dirlomi)", en: "Don't tell me." },
+          { es: "Me lo dica. (not: dicamelo)", en: "Tell me. (polite)" },
+          { es: "Fammi vedere la foto. (not: fami vedere)", en: "Let me see the photo." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "A learner wrote \"Non dirlomi!\". Write it correctly: Don't tell me!", source: "Don't tell me!", answer: "Non dirmelo!", altAnswers: ["Non me lo dire!"], explanation: "\"Me\" before \"lo\"." },
+          { type: "multiple-choice", question: "Which is correct for: Let me see! (to a friend)", options: ["Fammi vedere!", "Fami vedere!", "Mi fa' vedere!", "Fa' mi vedere!"], correctIndex: 0, explanation: "\"Fa'\" + \"mi\" = \"fammi\"." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Voglio lo comprare\". Write it correctly: I want to buy it.", source: "I want to buy it.", answer: "Voglio comprarlo.", altAnswers: ["Lo voglio comprare."], explanation: "Not in the middle." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Fai lo subito!\". Write it correctly: Do it right away!", source: "Do it right away!", answer: "Fallo subito!", explanation: "\"Fa'\" + \"lo\" = \"fallo\"." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Dicamelo, signora\". Write it correctly: Tell me, madam.", source: "Tell me, madam.", answer: "Me lo dica, signora.", explanation: "Lei command: in front." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Dami il sale\". Write it correctly: Give me the salt.", source: "Give me the salt.", answer: "Dammi il sale.", altAnswers: ["Passami il sale."], explanation: "Double m." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Per lo fare, ci vuole tempo\". Write it correctly: To do it, you need time.", source: "To do it, you need time.", answer: "Per farlo, ci vuole tempo.", explanation: "After a preposition: attached." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Sto lo leggendo\". Write it correctly: I'm reading it.", source: "I'm reading it.", answer: "Lo sto leggendo.", altAnswers: ["Sto leggendolo."], explanation: "Before \"sto\" or on the gerund." },
+      { type: "fill-blank", prompt: "A learner wrote \"Diggli di venire\". Write the Italian for the bold words.", en: "[Tell him] to come.", sentence: "___ di venire.", answer: "Digli", explanation: "No doubling with \"gli\"." },
+      { type: "fill-blank", prompt: "A learner wrote \"Mandalomi\". Write the Italian for the bold words.", en: "The file? [Send it to me]!", sentence: "Il file? ___!", answer: "Mandamelo", explanation: "Indirect first: \"me\" + \"lo\"." },
+      { type: "word-order", prompt: "Put the words in order to say: I can't tell you now.", words: ["Non", "posso", "dirtelo", "adesso."], translation: "I can't tell you now.", explanation: "\"Dirtelo\": one word." },
+      { type: "multi-select", question: "Which are correct? Choose all that apply.", options: ["Dimmelo!", "Lo dimmi!", "Non me lo dire!", "Dicamelo!", "Voglio farlo.", "Fai lo!"], correctIndexes: [0, 2, 4], explanation: "One side only; Lei in front; never in the middle." },
+      { type: "dictation", audio: "Dammi il telefono, fammi vedere.", explanation: "Double m in both." },
+      { type: "speak", text: "Non dirmelo! Voglio scoprirlo da solo.", prompt: "Say it in Italian: Don't tell me! I want to find out on my own.", tip: "dir-ME-lo? No: DIR-me-lo, stress on dir.", explanation: "Negative tu and an infinitive with \"lo\"." },
+    ],
+  },
+  {
+    slug: "b1-dialogue-lab-secret",
+    level: "IT-B1",
+    number: 8,
+    title: "Dialogue Lab: Can You Keep a Secret?",
+    summary: "Two friends in Rome trade a secret: dai, dimmelo!, non posso dirtelo, te lo dico se prometti di non dirlo a nessuno.",
+    duration: "17 min",
+    sections: [
+      {
+        heading: "Dai, dimmelo!",
+        body: [
+          "Francesca and Matteo are having an aperitivo in Trastevere. Francesca has news about their friend Sofia, and Matteo wants to know. Every line has a pronoun on a command, an infinitive or a modal.",
+          "\"Dai!\" here isn't give: it's come on!, the most common way to push someone. \"Dai, dimmelo!\" = come on, tell me!",
+        ],
+        examples: [
+          { es: "Ho una notizia su Sofia, ma non posso dirtela.", en: "I've got some news about Sofia, but I can't tell you." },
+          { es: "Dai, dimmela!", en: "Come on, tell me!" },
+          { es: "Te la dico se prometti di non dirla a nessuno.", en: "I'll tell you if you promise not to tell anyone." },
+          { es: "Promesso. Non lo dico a nessuno, giuro.", en: "Promise. I won't tell anyone, I swear." },
+          { es: "Va bene, ma non farmi pentire.", en: "All right, but don't make me regret it." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll tell you if you promise not to tell anyone. (the news)", answer: "Te la dico se prometti di non dirla a nessuno.", altAnswers: ["Te la dico se mi prometti di non dirla a nessuno."], explanation: "\"La notizia\" → \"la\"; attached to \"dire\" after \"di non\"." },
+          { type: "listen-choose", audio: "Dai, dimmela!", question: "What does Matteo mean?", options: ["Come on, tell me!", "Give it to me!", "Tell her!", "Don't tell me!"], correctIndex: 0, explanation: "\"Dai\" = come on; \"dimmela\" = tell it (the news) to me." },
+        ],
+      },
+      {
+        heading: "The secret is out",
+        body: [
+          "Francesca: \"Sofia si sposa! Ma lui non lo sa ancora: glielo vuole dire lei a cena\". Matteo, of course, wants to tell someone: \"Posso dirlo a Luca?\" \"No! Non dirglielo!\"",
+          "Notice \"glielo vuole dire\" (she wants to tell him) and \"Non dirglielo!\" (don't tell him!): the same cluster, before a modal and on a negative command.",
+        ],
+        examples: [
+          { es: "Sofia si sposa! Ma lui non lo sa ancora.", en: "Sofia is getting married! But he doesn't know yet." },
+          { es: "Glielo vuole dire lei a cena.", en: "She wants to tell him herself at dinner." },
+          { es: "Posso dirlo a Luca?", en: "Can I tell Luca?" },
+          { es: "No! Non dirglielo, per carità!", en: "No! Don't tell him, for heaven's sake!" },
+          { es: "Va bene, acqua in bocca!", en: "All right, my lips are sealed!" },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "No! Don't tell him!", answer: "No! Non dirglielo!", altAnswers: ["No! Non glielo dire!"], explanation: "Negative tu: \"non\" + \"dirglielo\" or \"glielo dire\"." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[She wants to tell him] herself at dinner.", sentence: "___ lei a cena.", answer: "Glielo vuole dire", altAnswers: ["Vuole dirglielo"], explanation: "Modal: block in front or attached." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I've got some news, but I can't tell you.", answer: "Ho una notizia, ma non posso dirtela.", altAnswers: ["Ho una notizia, ma non te la posso dire."], explanation: "\"La notizia\" → \"te la\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Come on, tell me! (the secret: il segreto)", answer: "Dai, dimmelo!", explanation: "\"Il segreto\" → \"lo\"; \"di'\" + \"me lo\" = \"dimmelo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I won't tell anyone, I swear.", answer: "Non lo dico a nessuno, giuro.", altAnswers: ["Non lo dirò a nessuno, giuro.", "Non lo dico a nessuno, lo giuro."], explanation: "\"Non ... nessuno\": double negative." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Can I tell Luca?", answer: "Posso dirlo a Luca?", altAnswers: ["Lo posso dire a Luca?"], explanation: "Modal: either position." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "All right, I won't say it to anyone: my lips are sealed!", answer: "Va bene, non lo dico a nessuno: acqua in bocca!", altAnswers: ["Va bene, non lo dirò a nessuno: acqua in bocca!"], explanation: "\"Acqua in bocca\" (literally water in your mouth) = keep it secret." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Don't make me regret it! (to a friend)", answer: "Non farmi pentire!", altAnswers: ["Non mi far pentire!", "Non mi fare pentire!"], explanation: "Negative tu: either side." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He doesn't know yet: [she wants to tell him] at dinner.", sentence: "Non lo sa ancora: ___ a cena.", answer: "vuole dirglielo", altAnswers: ["glielo vuole dire"], explanation: "\"Glielo\" with a modal." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Who told you? [Tell me the truth]!", sentence: "Chi te l'ha detto? ___!", answer: "Dimmi la verità", explanation: "\"Dimmi\": double m." },
+      { type: "word-order", prompt: "Put the words in order to say: Promise me you won't tell her.", words: ["Promettimi", "di", "non", "dirglielo."], translation: "Promise me you won't tell her.", explanation: "\"Promettimi\" (tu command) + \"di non\" + infinitive." },
+      { type: "multiple-choice", question: "Matteo wants to tell Luca. Francesca says don't! Which is NOT correct?", options: ["Non dirgli lo!", "Non dirglielo!", "Non glielo dire!", "Non dirlo a Luca!"], correctIndex: 0, explanation: "\"Glielo\" is one word." },
+      { type: "dictation", audio: "Te lo dico solo se prometti di non dirlo a nessuno.", explanation: "\"Te lo\" in front, \"dirlo\" attached." },
+      { type: "speak", text: "Dai, dimmelo! Prometto che non lo dico a nessuno.", prompt: "Say it in Italian: Come on, tell me! I promise I won't tell anyone.", tip: "DAI, DIM-me-lo: two strong beats.", explanation: "Command with a cluster." },
+    ],
+  },
+  {
+    slug: "b1-drill-pronouns-mixed-tenses",
+    level: "IT-B1",
+    number: 9,
+    title: "Drill: Pronouns in Every Tense",
+    summary: "Produce pronouns and clusters across the present, past, future, conditional and commands.",
+    duration: "22 min",
+    kind: "drill",
+    sections: [
+      {
+        heading: "Same pronoun, different tense",
+        body: [
+          "Present, future and conditional: in front (\"te lo do\", \"te lo darò\", \"te lo darei\"). Passato prossimo: in front of the auxiliary, with agreement (\"te l'ho data\"). Commands, infinitives, gerunds: attached (\"dammelo\", \"per dartelo\", \"dandotelo\").",
+        ],
+        examples: [
+          { es: "Te lo do. Te lo darò. Te lo darei.", en: "I give it to you. I'll give it to you. I'd give it to you." },
+          { es: "Te l'ho dato ieri.", en: "I gave it to you yesterday." },
+          { es: "Dammelo!", en: "Give it to me!" },
+          { es: "Te lo davo sempre.", en: "I always used to give it to you." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'd give it to you, but I need it.", answer: "Te lo darei, ma mi serve.", altAnswers: ["Te lo darei, ma ne ho bisogno."], explanation: "Conditional: block in front." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll give it to you tomorrow.", answer: "Te lo darò domani.", altAnswers: ["Domani te lo darò.", "Te lo do domani."], explanation: "Future: in front." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Grandma always used to tell it to us. (the story)", answer: "La nonna ce la raccontava sempre.", altAnswers: ["Ce la raccontava sempre la nonna."], explanation: "Imperfetto: in front." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll send it to you tonight. (the address)", answer: "Te lo manderò stasera.", altAnswers: ["Te lo mando stasera.", "Stasera te lo mando."], explanation: "\"L'indirizzo\" → \"lo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Would you lend it to me? (the car, to a friend)", answer: "Me la presteresti?", explanation: "Conditional: block in front." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They brought them to us. (the chairs)", answer: "Ce le hanno portate.", explanation: "\"Le sedie\" → \"le\" + \"portate\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Bring them to us! (the chairs, to a friend)", answer: "Portacele!", explanation: "Tu command + \"ce le\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Bring them to us, please. (polite)", answer: "Ce le porti, per favore.", altAnswers: ["Per favore, ce le porti."], explanation: "Lei command: in front." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'd tell him, but he won't listen.", answer: "Glielo direi, ma non ascolta.", altAnswers: ["Glielo direi, ma non mi ascolta."], explanation: "Conditional + \"glielo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "When will you give it back to me? (the book)", answer: "Quando me lo restituirai?", altAnswers: ["Quando me lo restituisci?", "Quando me lo ridai?", "Quando me lo ridarai?"], explanation: "Future or present." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We were talking about it when you arrived.", answer: "Ne stavamo parlando quando sei arrivato.", altAnswers: ["Ne stavamo parlando quando sei arrivata.", "Ne parlavamo quando sei arrivato.", "Ne parlavamo quando sei arrivata."], explanation: "\"Ne\" before \"stavamo\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The photos? [Show them to me]! (to a friend)", sentence: "Le foto? ___!", answer: "Fammele vedere", altAnswers: ["Mostramele"], explanation: "\"Fa'\" + \"me le\": double m." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The pizza? [We ordered it] an hour ago.", sentence: "La pizza? ___ un'ora fa.", answer: "L'abbiamo ordinata", explanation: "Agreement with \"la pizza\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The truth? [I'll tell it to them] tomorrow.", sentence: "La verità? ___ domani.", answer: "Gliela dirò", altAnswers: ["Gliela dico"], explanation: "\"Gliela\" + future." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The flat? [We'd buy it] if we could.", sentence: "L'appartamento? ___ se potessimo.", answer: "Lo compreremmo", explanation: "Conditional + \"lo\"." },
+      { type: "dictation", audio: "Te l'avevo detto! Dimmelo la prossima volta.", explanation: "\"Te l'avevo detto\" = I told you so." },
+      { type: "dictation", audio: "Ce la raccontava sempre, me la ricordo bene.", explanation: "\"Ricordarsi\" + \"la\" = \"me la ricordo\"." },
+      { type: "speak", text: "Te l'ho già detto e te lo ripeterò: dammelo domani!", prompt: "Say it in Italian: I've already told you and I'll say it again: give it to me tomorrow!", tip: "Three positions: te l'ho, te lo ripeterò, dammelo.", explanation: "Past, future, command." },
+    ],
+  },
+  {
+    slug: "b1-mission-instructions-for-a-colleague",
+    level: "IT-B1",
+    number: 10,
+    title: "Real-World Mission: Handover Notes",
+    summary: "Write handover notes for a colleague who covers your job while you're on holiday, with commands and attached pronouns.",
+    duration: "17 min",
+    kind: "review",
+    sections: [
+      {
+        heading: "What to do and when",
+        body: [
+          "Your mission: you work in an office in Turin and you're going on holiday for two weeks. Your colleague Davide will cover for you. Between colleagues of the same level, Italian offices use \"tu\", so your notes are full of tu commands with attached pronouns.",
+          "Organise by task: the thing first, then the instruction. \"La fattura del cliente Bianchi: mandagliela entro lunedì\". \"Il signor Conti: chiamalo se non risponde all'email\".",
+        ],
+        examples: [
+          { es: "La fattura di Bianchi: mandagliela entro lunedì.", en: "Bianchi's invoice: send it to him by Monday." },
+          { es: "Il signor Conti: chiamalo se non risponde all'email.", en: "Mr Conti: call him if he doesn't answer the email." },
+          { es: "Le chiavi dell'archivio: te le lascio nel primo cassetto.", en: "The archive keys: I'm leaving them for you in the top drawer." },
+          { es: "Se hai dubbi, scrivimi pure.", en: "If you have any doubts, feel free to message me." },
+          { es: "Il report mensile: fallo il 30, non prima.", en: "The monthly report: do it on the 30th, not before." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Bianchi's invoice: send it to him by Monday.", answer: "La fattura di Bianchi: mandagliela entro lunedì.", altAnswers: ["La fattura di Bianchi: inviagliela entro lunedì."], explanation: "\"Manda\" + \"gliela\": one word." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If you have any doubts, feel free to message me.", answer: "Se hai dubbi, scrivimi pure.", altAnswers: ["Se hai dei dubbi, scrivimi pure.", "Se hai dubbi, scrivimi."], explanation: "\"Pure\" softens the command: feel free." },
+        ],
+      },
+      {
+        heading: "What not to do",
+        body: [
+          "Negative instructions: \"Non dargli lo sconto\" or \"Non gli dare lo sconto\" (don't give him the discount). For things that must happen before something else: \"Prima di mandarla, falla controllare a Sara\" (before sending it, get Sara to check it).",
+        ],
+        examples: [
+          { es: "Non dargli lo sconto: l'ha già avuto.", en: "Don't give him the discount: he's already had it." },
+          { es: "Prima di mandarla, falla controllare a Sara.", en: "Before sending it, get Sara to check it." },
+          { es: "Il codice della porta? Non dirlo a nessuno.", en: "The door code? Don't tell anyone." },
+          { es: "Se ti chiama il capo, digli che torno il 20.", en: "If the boss calls you, tell him I'm back on the 20th." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Don't give him the discount: he's already had it.", answer: "Non dargli lo sconto: l'ha già avuto.", altAnswers: ["Non gli dare lo sconto: l'ha già avuto."], explanation: "Negative tu: \"gli\" either side." },
+          { type: "listen-choose", audio: "Se ti chiama il capo, digli che torno il 20.", question: "When is the writer coming back?", options: ["on the 20th", "on the 2nd", "in 20 days", "on the 12th"], correctIndex: 0, explanation: "\"Il 20\" = the 20th." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Mr Conti: call him if he doesn't answer the email.", answer: "Il signor Conti: chiamalo se non risponde all'email.", altAnswers: ["Il signor Conti: chiamalo se non risponde alla mail."], explanation: "Tu command + \"lo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The archive keys: I'm leaving them for you in the top drawer.", answer: "Le chiavi dell'archivio: te le lascio nel primo cassetto.", explanation: "\"Te le\" before \"lascio\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The monthly report: do it on the 30th, not before.", answer: "Il report mensile: fallo il 30, non prima.", altAnswers: ["Il rapporto mensile: fallo il 30, non prima."], explanation: "\"Fallo\": double l." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The door code? Don't tell anyone.", answer: "Il codice della porta? Non dirlo a nessuno.", altAnswers: ["Il codice della porta? Non lo dire a nessuno."], explanation: "Negative tu." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If the boss calls you, tell him I'm back on the 20th.", answer: "Se ti chiama il capo, digli che torno il 20.", altAnswers: ["Se il capo ti chiama, digli che torno il 20."], explanation: "\"Digli\": no doubling with \"gli\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The parcel for Bari: send it today.", answer: "Il pacco per Bari: spediscilo oggi.", altAnswers: ["Il pacco per Bari: mandalo oggi."], explanation: "\"Spedisci\" + \"lo\": the -isc- verb keeps its form." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The contract? [Before sending it], get Sara to check it.", sentence: "Il contratto? ___, fallo controllare a Sara.", answer: "Prima di mandarlo", altAnswers: ["Prima di spedirlo", "Prima di inviarlo"], explanation: "\"Prima di\" + infinitive + \"lo\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The samples? [Give them to the director] on Thursday.", sentence: "I campioni? ___ giovedì.", answer: "Dalli al direttore", explanation: "\"Da'\" + \"li\" = \"dalli\"." },
+      { type: "word-order", prompt: "Put the words in order to say: Send them to me on WhatsApp if there's a problem.", words: ["Mandameli", "su", "WhatsApp", "se", "c'è", "un", "problema."], translation: "Send them to me on WhatsApp if there's a problem.", altOrders: [["Se", "c'è", "un", "problema,", "mandameli", "su", "WhatsApp."]], explanation: "\"Mandameli\": tu command + \"me li\"." },
+      { type: "multiple-choice", question: "Which note says: The plants? Water them on Mondays!", options: ["Le piante? Annaffiale il lunedì!", "Le piante? Le annaffia il lunedì!", "Le piante? Annaffia le il lunedì!", "Le piante? Annaffiali il lunedì!"], correctIndex: 0, explanation: "\"Le piante\" → \"le\", attached to the tu command." },
+      { type: "dictation", audio: "Chiamalo domani e mandagli il preventivo.", explanation: "\"Mandagli\": no doubling with \"gli\"." },
+      { type: "speak", text: "Davide, la fattura mandagliela lunedì, e se hai dubbi scrivimi pure.", prompt: "Leave Davide a voice note: Davide, send him the invoice on Monday, and if you have any doubts, feel free to message me.", tip: "man-DA-glie-la: the stress stays on -da-.", explanation: "Two tu commands with attached pronouns." },
+    ],
+  },
+];
+
+export const IT_B1_U03_WRITING: WriteExercise = {
+  type: "write",
+  prompt: "You're going on holiday and your colleague Chiara will cover your job. Write her handover notes: at least four tasks, each with an instruction (send, call, check, give...), one thing she must NOT do, and where you've left something for her. Use tu commands with attached pronouns (mandaglielo, chiamalo, non dirglielo...) and at least one modal with a pronoun.",
+  minWords: 60,
+  maxWords: 130,
+  rubric: [
+    "Uses tu commands with attached pronouns, doubling after short forms where needed (fallo, dammi, digli)",
+    "Writes clusters as one word on commands and infinitives (mandagliela, prima di spedirlo)",
+    "Uses a negative command correctly (non dirglielo / non glielo dire)",
+    "Places pronouns correctly with modals (lo devi fare / devi farlo) and in the present (te le lascio)",
+  ],
+  modelAnswer: "Ciao Chiara, ecco le cose da fare mentre sono via. La fattura del cliente Rossi: mandagliela entro lunedì, ma prima di spedirla falla controllare a Marco. Il signor Galli aspetta una risposta sul preventivo: chiamalo martedì mattina e digli che lo sconto glielo possiamo fare solo fino a venerdì. Il report mensile devi farlo il 30. Le chiavi dell'archivio te le lascio nel primo cassetto. Non dare il codice della porta a nessuno! Se hai dubbi, scrivimi pure. Grazie mille, a presto! Luca",
+  explanation: "\"Mandagliela\", \"falla\", \"chiamalo\" and \"digli\" are tu commands with attached pronouns (\"fa'\" doubles the l; \"gli\" never doubles). \"Prima di spedirla\" attaches \"la\" to the infinitive. \"Glielo possiamo fare\" and \"devi farlo\" show both positions with modals, and \"te le lascio\" puts the cluster before a conjugated verb.",
+};
