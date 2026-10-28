@@ -65,6 +65,21 @@ Files without that header (`registry.ts`, `review.ts`,
 A new level still needs adding to `src/lib/lessons/registry.ts` once its
 file arrives.
 
+## Building for Google Play
+
+The production profile in `eas.json` builds an Android App Bundle (.aab),
+which is what Play Console accepts. From this folder:
+
+    npx eas-cli@latest login
+    npx eas-cli@latest build --platform android --profile production
+
+On the first build, let EAS generate and keep the Android signing key
+(answer "Yes"). EAS bumps the Android versionCode on every production
+build. The public Supabase URL and anon key are set in `eas.json` because
+`.env` is not uploaded to the build servers. The `preview` profile makes
+an .apk you can install straight onto an Android phone for testing.
+Play Store listing images live in the project files `play-store/` folder.
+
 ## Building for TestFlight
 
 Needs an Apple Developer account and EAS (`npx eas build --platform ios`,
