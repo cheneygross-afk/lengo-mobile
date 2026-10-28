@@ -271,7 +271,7 @@ export const IT_CULTURE_U05: Lesson[] = [
         heading: "Superstitions",
         body: [
           "The same horns, pointed down, ward off bad luck: \"fare le corna\" or \"facciamo le corna\" when someone mentions a danger. Italians touch iron, not wood: \"tocca ferro!\". A red horn-shaped charm, \"il cornetto\" or \"cornicello\", hangs in Neapolitan cars and shops.",
-          "Black cats crossing the road, spilled oil and the number 17 are unlucky; Friday the 17th, not the 13th, is the bad day. Never put a hat on a bed, and avoid wishing \"buona fortuna\" to an actor: say \"in bocca al lupo\", and they answer \"crepi!\".",
+          "Black cats crossing the road, spilled oil and the number 17 are unlucky; Friday the 17th, not the 13th, is the bad day. Many people never put a hat on a bed. Before an exam or an interview, Italians rarely say \"buona fortuna\": they say \"in bocca al lupo\", and the traditional answer is \"crepi!\".",
         ],
         examples: [
           { es: "Tocca ferro!", en: "Knock on wood!" },
@@ -287,7 +287,7 @@ export const IT_CULTURE_U05: Lesson[] = [
       {
         heading: "Innocent but confusing",
         body: [
-          "Italians count on their fingers starting from the thumb: thumb is one, thumb and index are two. Hold up your index and middle finger to order two coffees and the barista may read three. Beckoning with a palm-up curled finger can look rude; Italians call people over with the palm down, fingers scooping toward them.",
+          "Italians count on their fingers starting from the thumb: thumb is one, thumb and index are two. Hold up your index and middle finger to order two coffees and the barista may read three. Italians usually call people over with the palm down, fingers scooping toward them; a palm-up curled finger is understood but can feel brusque or cheeky.",
           "A thumbs-up is fine, and so is the OK circle. When in doubt, use words.",
         ],
         examples: [
@@ -308,7 +308,7 @@ export const IT_CULTURE_U05: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Come here!", answer: "Vieni qui!", altAnswers: ["Vieni qua!", "Venga qui!", "Venga qua!"], explanation: "\"Qui\" and \"qua\" have no accent." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He took offense.", answer: "Si è offeso.", altAnswers: ["Lui si è offeso.", "Si è arrabbiato."], explanation: "\"Offendersi\" takes \"essere\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I couldn't care less.", answer: "Non me ne importa niente.", altAnswers: ["Non me ne importa nulla.", "Non mi importa niente."], explanation: "The words behind the chin flick." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Good luck! [Thanks!]", sentence: "In bocca al lupo! ___!", answer: "Crepi", altAnswers: ["Crepi il lupo"], explanation: "Never \"grazie\" to \"in bocca al lupo\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Good luck! [Thanks!]", sentence: "In bocca al lupo! ___!", answer: "Crepi", altAnswers: ["Crepi il lupo"], explanation: "The traditional answer to \"in bocca al lupo\" is \"crepi\" (may the wolf die), not \"grazie\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "A black cat [brings bad luck].", sentence: "Un gatto nero ___.", answer: "porta sfortuna", altAnswers: ["porta male", "porta iella"], explanation: "\"Portare sfortuna\" = to bring bad luck." },
       { type: "word-order", prompt: "Put the words in order to say: Never put a hat on the bed.", words: ["Non", "mettere", "mai", "il", "cappello", "sul", "letto."], translation: "Never put a hat on the bed.", explanation: "\"Non... mai\" around the infinitive." },
       { type: "multiple-choice", question: "You want two coffees and show your thumb and index finger. What does the barista understand?", options: ["two", "three", "one", "OK"], correctIndex: 0, explanation: "Italians count from the thumb, so thumb + index = two." },

@@ -34,7 +34,7 @@ export const IT_B2_U09_EXTRA: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "After parking, we looked for the museum.", answer: "Dopo aver parcheggiato, abbiamo cercato il museo.", altAnswers: ["Dopo avere parcheggiato, abbiamo cercato il museo."], explanation: "\"Aver parcheggiato\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He left without letting us know.", answer: "È partito senza averci avvisato.", altAnswers: ["È partito senza avvisarci.", "Se n'è andato senza averci avvisato.", "È partito senza averci avvisati."], explanation: "\"Ci\" on \"avere\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "After moving to Florence, they opened a bookshop.", answer: "Dopo essersi trasferiti a Firenze, hanno aperto una libreria.", altAnswers: ["Dopo essersi trasferite a Firenze, hanno aperto una libreria."], explanation: "\"Essersi trasferiti\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "After moving to Florence, they opened a bookstore.", answer: "Dopo essersi trasferiti a Firenze, hanno aperto una libreria.", altAnswers: ["Dopo essersi trasferite a Firenze, hanno aperto una libreria."], explanation: "\"Essersi trasferiti\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm sorry I lost your umbrella. (to a friend)", answer: "Mi dispiace di aver perso il tuo ombrello.", altAnswers: ["Mi dispiace di avere perso il tuo ombrello.", "Mi dispiace aver perso il tuo ombrello."], explanation: "\"Di aver perso\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "After listening to the news, Grandma turned off the radio.", answer: "Dopo aver ascoltato il telegiornale, la nonna ha spento la radio.", altAnswers: ["Dopo aver ascoltato le notizie, la nonna ha spento la radio.", "Dopo aver ascoltato il giornale radio, la nonna ha spento la radio."], explanation: "\"Aver ascoltato\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She was praised for having solved the problem.", answer: "È stata lodata per aver risolto il problema.", altAnswers: ["È stata elogiata per aver risolto il problema.", "L'hanno lodata per aver risolto il problema."], explanation: "\"Per aver risolto\"." },
@@ -68,7 +68,7 @@ export const IT_B2_U09_EXTRA: Lesson[] = [
           { es: "Avendo dimenticato l'ombrello, mi sono bagnato.", en: "Having forgotten my umbrella, I got wet." },
           { es: "Essendo nata in Sardegna, ama il mare.", en: "Having been born in Sardinia, she loves the sea." },
           { es: "Chiusa la porta, ha spento la luce.", en: "Having closed the door, he switched off the light." },
-          { es: "Arrivate le vacanze, la città si svuota.", en: "Once the holidays arrive, the city empties." },
+          { es: "Arrivate le vacanze, la città si svuota.", en: "Once vacation season arrives, the city empties." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Having forgotten my umbrella, I got wet. (a man speaking)", answer: "Avendo dimenticato l'ombrello, mi sono bagnato.", altAnswers: ["Essendomi dimenticato l'ombrello, mi sono bagnato."], explanation: "\"Avendo dimenticato\"." },
@@ -78,7 +78,7 @@ export const IT_B2_U09_EXTRA: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Having been born in Sardinia, she loves the sea.", answer: "Essendo nata in Sardegna, ama il mare.", altAnswers: ["Nata in Sardegna, ama il mare."], explanation: "\"Nascere\" → \"essendo nata\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Once the holidays arrive, the city empties.", answer: "Arrivate le vacanze, la città si svuota.", altAnswers: ["Una volta arrivate le vacanze, la città si svuota."], explanation: "\"Arrivate\" agrees with \"le vacanze\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Once vacation season arrives, the city empties.", answer: "Arrivate le vacanze, la città si svuota.", altAnswers: ["Una volta arrivate le vacanze, la città si svuota."], explanation: "\"Arrivate\" agrees with \"le vacanze\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Having trained hard, the team won the final.", answer: "Essendosi allenata duramente, la squadra ha vinto la finale.", altAnswers: ["Essendosi allenata tanto, la squadra ha vinto la finale.", "Essendosi allenata molto, la squadra ha vinto la finale."], explanation: "Reflexive past gerund: \"essendosi allenata\" agrees with \"la squadra\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Once the cake was baked, we let it cool.", answer: "Cotta la torta, l'abbiamo lasciata raffreddare.", altAnswers: ["Una volta cotta la torta, l'abbiamo lasciata raffreddare.", "Cotta la torta, l'abbiamo fatta raffreddare."], explanation: "\"Cotta\" agrees with \"la torta\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Not having found a hotel, we slept in the car.", answer: "Non avendo trovato un albergo, abbiamo dormito in macchina.", altAnswers: ["Non avendo trovato un hotel, abbiamo dormito in macchina.", "Non avendo trovato un albergo, abbiamo dormito in auto."], explanation: "\"Non avendo trovato\"." },
@@ -111,7 +111,7 @@ export const IT_B2_U09_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "Dopo averglielo detto, mi sono sentito meglio.", en: "After telling him, I felt better." },
-          { es: "Avendolo già visto, non è venuta al cinema.", en: "Having already seen it, she didn't come to the cinema." },
+          { es: "Avendolo già visto, non è venuta al cinema.", en: "Having already seen it, she didn't come to the movies." },
           { es: "Salutati gli amici, siamo partiti.", en: "Having said goodbye to our friends, we left." },
           { es: "Dopo che Luca è arrivato, abbiamo cominciato.", en: "After Luca arrived, we started." },
         ],
@@ -122,7 +122,7 @@ export const IT_B2_U09_EXTRA: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Having already seen it, she didn't come to the cinema.", answer: "Avendolo già visto, non è venuta al cinema.", altAnswers: ["Avendo già visto il film, non è venuta al cinema."], explanation: "\"Lo\" on \"avendo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Having already seen it, she didn't come to the movies.", answer: "Avendolo già visto, non è venuta al cinema.", altAnswers: ["Avendo già visto il film, non è venuta al cinema."], explanation: "\"Lo\" on \"avendo\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Having said goodbye to our friends, we left.", answer: "Salutati gli amici, siamo partiti.", altAnswers: ["Dopo aver salutato gli amici, siamo partiti.", "Salutati gli amici, siamo partite.", "Salutati gli amici, ce ne siamo andati."], explanation: "\"Salutati\" agrees with \"gli amici\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "After writing to her, I waited for an answer.", answer: "Dopo averle scritto, ho aspettato una risposta.", altAnswers: ["Dopo averle scritto, ho atteso una risposta."], explanation: "\"Le\" (to her): no agreement." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Once the film was over, everyone applauded.", answer: "Finito il film, tutti hanno applaudito.", altAnswers: ["Una volta finito il film, tutti hanno applaudito.", "Finito il film, hanno applaudito tutti."], explanation: "\"Finito\" agrees with \"il film\"." },
@@ -134,7 +134,7 @@ export const IT_B2_U09_EXTRA: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Having lent it to her], I no longer have the car.", sentence: "___, non ho più la macchina.", answer: "Avendogliela prestata", explanation: "\"Le\" + \"la\" → \"gliela\"; agreement with \"la\"." },
       { type: "multi-select", question: "Which sentences are correct?", options: ["Dopo averlo visto, l'ho chiamato.", "Dopo che ho visto lui, l'ho chiamato.", "Dopo vederlo, l'ho chiamato.", "Vistolo, l'ho chiamato."], correctIndexes: [0, 1, 3], explanation: "\"Dopo vederlo\" needs the past infinitive." },
       { type: "multiple-choice", question: "Which form sounds most natural in everyday conversation?", options: ["Dopo aver mangiato, siamo usciti.", "Essendo stati mangiati, siamo usciti.", "Mangiatolo, siamo usciti.", "Avendo noi mangiato, uscimmo."], correctIndex: 0, explanation: "\"Dopo aver\" is common in speech." },
-      { type: "listen-choose", audio: "Non avendo mai guidato a Roma, ero nervosissima.", question: "Why was the speaker nervous?", options: ["She'd never driven in Rome.", "She'd lost her licence.", "She was late.", "Her car was new."], correctIndex: 0, explanation: "\"Non avendo mai guidato\"." },
+      { type: "listen-choose", audio: "Non avendo mai guidato a Roma, ero nervosissima.", question: "Why was the speaker nervous?", options: ["She'd never driven in Rome.", "She'd lost her license.", "She was late.", "Her car was new."], correctIndex: 0, explanation: "\"Non avendo mai guidato\"." },
       { type: "dictation", audio: "Trovate le chiavi, ha aperto la porta ed è entrata.", explanation: "\"Trovate\": agreement." },
       { type: "speak", text: "Dopo averglielo detto, mi sono sentito meglio, e, finita la cena, siamo andati a fare due passi.", prompt: "Say it in Italian (a man speaking): After telling him, I felt better, and once dinner was over, we went for a stroll.", tip: "\"Fare due passi\" = to go for a short walk.", explanation: "Pronouns + absolute participle." },
     ],

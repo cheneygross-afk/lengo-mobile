@@ -46,7 +46,7 @@ export const IT_A2_U22: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "When I was little, I [used to play] in the street.", sentence: "Quando ero piccolo, ___ in strada.", answer: "giocavo", explanation: "A habit → imperfetto." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "We [met] in 2015.", sentence: "___ nel 2015.", answer: "Ci siamo conosciuti", altAnswers: ["Ci siamo conosciute"], explanation: "\"Conoscersi\" in the passato prossimo = to meet." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I [had to] work on Sunday.", sentence: "___ lavorare domenica.", answer: "Ho dovuto", explanation: "Modal + \"lavorare\" → \"avere\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The film [had already started].", sentence: "Il film ___ già cominciato.", answer: "era", explanation: "\"Era già cominciato\": the film had already begun." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The film [has] already started.", sentence: "Il film ___ già cominciato.", answer: "è", altAnswers: ["ha"], explanation: "\"Cominciare\" with no object usually takes \"essere\": \"è già cominciato\" (\"ha\" is also heard)." },
       { type: "word-order", prompt: "Put the words in order to say: While I was cooking, the phone rang.", words: ["Mentre", "cucinavo,", "è", "squillato", "il", "telefono."], translation: "While I was cooking, the phone rang.", explanation: "\"Mentre\" + imperfetto, then passato prossimo." },
       { type: "multiple-choice", question: "Which is right for when I was young I lived in Rome (no end date)?", options: ["Da giovane abitavo a Roma.", "Da giovane ho abitato a Roma.", "Da giovane abito a Roma.", "Da giovane abiterò a Roma."], correctIndex: 0, explanation: "Background situation → imperfetto." },
       { type: "listen-choose", audio: "Quando sono arrivata, tutti dormivano.", question: "What was happening when she arrived?", options: ["Everyone was asleep.", "Everyone was leaving.", "Everyone woke up.", "Nobody was home."], correctIndex: 0, explanation: "\"Dormivano\" = were sleeping." },
@@ -97,7 +97,7 @@ export const IT_A2_U22: Lesson[] = [
       { type: "multiple-choice", question: "\"Hai telefonato alla nonna?\" – \"Sì, ___ ho telefonato.\"", options: ["le", "la", "l'", "ne"], correctIndex: 0, explanation: "\"Telefonare a\" → indirect \"le\"." },
       { type: "listen-choose", audio: "Il libro? Non l'ho ancora letto, ma ne ho sentito parlare.", question: "What does she say about the book?", options: ["She hasn't read it yet, but she's heard about it.", "She read it and liked it.", "She lent it to a friend.", "She's never heard of it."], correctIndex: 0, explanation: "\"Ne ho sentito parlare\" = I've heard of it." },
       { type: "dictation", audio: "Le ho scritto ieri, ma non mi ha ancora risposto.", explanation: "Indirect \"le\", no agreement." },
-      { type: "speak", text: "Il regalo per Anna? L'ho comprato ieri e gliel'ho già dato.", prompt: "Say it in Italian: The present for Anna? I bought it yesterday and I've already given it to her.", tip: "\"Gliel'ho\": glie-LO, one smooth word.", explanation: "\"Gli\" + \"lo\" → \"glielo\" → \"gliel'\"." },
+      { type: "speak", text: "Il regalo per Anna? L'ho comprato ieri e le ho già scritto un biglietto.", prompt: "Say it in Italian: The present for Anna? I bought it yesterday and I've already written her a card.", tip: "\"L'ho\" is one syllable: LO.", explanation: "Direct \"l'\" for the present, indirect \"le\" for Anna." },
     ],
   },
   {
@@ -247,7 +247,7 @@ export const IT_A2_U22: Lesson[] = [
     slug: "a2-dialogue-lab-new-neighbours",
     level: "IT-A2",
     number: 6,
-    title: "Dialogue Lab: New Neighbours",
+    title: "Dialogue Lab: New Neighbors",
     summary: "Meet the neighbours in a condominio in Turin: introductions, house rules and offers of help.",
     duration: "15 min",
     sections: [

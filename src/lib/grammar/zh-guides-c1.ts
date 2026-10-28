@@ -44,7 +44,7 @@ export const ZH_GUIDES_C1: ZhGrammarGuide[] = [
       {
         heading: "与其…不如 and 宁可…也不",
         body: [
-          "与其 A，不如 B (yǔqí A, bùrú B) weighs two options and prefers the second: 'rather than A, it's better to B'. 与其在家发愁，不如出去走走 (rather than worrying at home, you'd be better off going out). The preferred option comes second, the reverse of English 'I'd rather B than A'.",
+          "与其 A，不如 B (yǔqí A, bùrú B) weighs two options and prefers the second: 'rather than A, it's better to B'. 与其在家发愁，不如出去走走 (rather than worrying at home, you'd be better off going out). The preferred option comes second, the reverse of English 'I'd rather B than A'. A subject can go before 与其 or right before 不如 (与其抱怨，我们不如想想办法), and 还不如 adds 'you might as well'. 与其说 A，不如说 B relabels rather than chooses: 'it's not so much A as B' (与其说他懒，不如说他太累了).",
           "宁可 A，也不 B (nìngkě A, yě bù B) expresses a firm choice of a hard option to avoid a worse one: 'would rather A than B'. 我宁可走路，也不坐他的车 (I'd rather walk than ride in his car). Here the chosen option comes first. 宁愿 (nìngyuàn) is a near synonym.",
         ],
         table: {
@@ -71,10 +71,10 @@ export const ZH_GUIDES_C1: ZhGrammarGuide[] = [
     ],
     mistakes: [
       {
-        wrong: "与其坐车，我不如走路。",
+        wrong: "与其走路，不如坐车。 (meaning: I'd rather walk than take the bus)",
         right: "与其坐车，不如走路。",
         rightPinyin: "Yǔqí zuò chē, bùrú zǒu lù.",
-        why: "不如 opens the second clause with no subject before it. If you need a subject, put it before 与其: 我与其坐车，不如走路.",
+        why: "The option you reject goes after 与其 and the one you recommend after 不如. English 'I'd rather walk than take the bus' names the preferred option first, so learners copy that order and end up recommending the opposite.",
       },
       {
         wrong: "我宁可走路，不坐出租车。",
@@ -581,7 +581,7 @@ export const ZH_GUIDES_C1: ZhGrammarGuide[] = [
       {
         heading: "Choosing the passive marker",
         body: [
-          "被 (bèi) is neutral and the only one that can drop the agent: 他被批评了. 叫 (jiào) and 让 (ràng) are spoken and need an agent. 给 (gěi) is spoken and can drop the agent.",
+          "被 (bèi) is neutral and can drop the agent: 他被批评了. 叫 (jiào) and 让 (ràng) are spoken and always need an agent (叫人偷了, never 叫偷了). 给 (gěi) is spoken and, like 被, can drop the agent: 钱包给偷了.",
           "为…所 (wéi … suǒ) and 被…所 are written: 为人们所熟悉 (be familiar to people). The verb after 所 is usually two syllables, and nothing follows it: no 了, no result complement.",
         ],
         table: {
@@ -595,7 +595,7 @@ export const ZH_GUIDES_C1: ZhGrammarGuide[] = [
         },
         examples: [
           { zh: "这种观点已经为大多数人所接受。", pinyin: "Zhè zhǒng guāndiǎn yǐjīng wéi dàduōshù rén suǒ jiēshòu.", en: "This view has been accepted by most people." },
-          { zh: "他的作品深受读者喜爱，被许多人所熟悉。", pinyin: "Tā de zuòpǐn shēn shòu dúzhě xǐ'ài, bèi xǔduō rén suǒ shúxī.", en: "His work is much loved by readers and familiar to many." },
+          { zh: "他的作品深受读者喜爱，被许多人所熟知。", pinyin: "Tā de zuòpǐn shēn shòu dúzhě xǐ'ài, bèi xǔduō rén suǒ shúzhī.", en: "His work is much loved by readers and widely known." },
         ],
       },
       {
@@ -761,7 +761,7 @@ export const ZH_GUIDES_C1: ZhGrammarGuide[] = [
       {
         heading: "于 and 将",
         body: [
-          "于 (yú) is a written preposition with several meanings: 'at, in, on' (会议于明天举行, the meeting will be held tomorrow), 'from' (毕业于北京大学, graduated from Peking University), 'than' (大于, greater than), 'to' (有利于, beneficial to). It usually follows the verb, unlike spoken 在.",
+          "于 (yú) is a written preposition with several meanings: 'at, in, on' (会议于明天举行, the meeting will be held tomorrow), 'from' (毕业于北京大学, graduated from Peking University), 'than' (大于, greater than), 'to' (有利于, beneficial to). For time and place it can come before the verb, as in 会议于明天举行; in the other meanings it follows the verb or adjective (毕业于, 大于, 有利于), where spoken Chinese would use a different word or order (在北京大学毕业, 比…大).",
           "将 (jiāng) has two written meanings: 'will, is going to' (会议将于下周召开) and the written 把 (将文件发送给我, send me the file).",
         ],
         examples: [
@@ -862,7 +862,7 @@ export const ZH_GUIDES_C1: ZhGrammarGuide[] = [
       {
         heading: "Prohibitions and strong advice",
         body: [
-          "禁止 (jìnzhǐ, prohibited) and 严禁 (yánjìn, strictly prohibited) appear on signs and in rules. 不得 (bùdé) means 'must not' in regulations and contracts: 不得转让 (may not be transferred). 不准 (bùzhǔn) is a spoken 'not allowed'.",
+          "禁止 (jìnzhǐ, prohibited) and 严禁 (yánjìn, strictly prohibited) appear on signs and in rules. 不得 (bùdé) means 'must not' in regulations and contracts: 不得转让 (may not be transferred). 不准 (bùzhǔn) is the plainer, more everyday 'not allowed' (不准停车 on a hand-written sign, 妈妈不准我去 at home).",
           "务必 (wùbì) means 'must, be sure to' in formal requests: 请务必准时参加. 千万 (qiānwàn) is the spoken 'whatever you do', usually with 别 or 要. 切记 (qièjì) means 'be sure to remember'.",
           "Contracts also use 应 (yīng, shall), 须 (xū, must) and 有权 (yǒuquán, be entitled to).",
         ],

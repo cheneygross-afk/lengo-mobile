@@ -89,7 +89,7 @@ export const IT_C2_U03_EXTRA: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Is the sleep of death less hard?", answer: "Il sonno della morte è meno duro?", altAnswers: ["È meno duro il sonno della morte?"], explanation: "\"Men\" → \"meno\"." },
-          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The fog [rises] towards the hills.", sentence: "La nebbia ___ verso le colline.", answer: "sale", explanation: "Carducci puts \"sale\" at the end of the line." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The fog [rises] toward the hills.", sentence: "La nebbia ___ verso le colline.", answer: "sale", explanation: "Carducci puts \"sale\" at the end of the line." },
         ],
       },
       {

@@ -22,7 +22,7 @@ export const IT_B2_U18_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "Innanzitutto, la moda veloce inquina molto.", en: "First of all, fast fashion pollutes a great deal." },
-          { es: "Infatti, produrre una maglietta richiede migliaia di litri d'acqua.", en: "Indeed, producing one T-shirt takes thousands of litres of water." },
+          { es: "Infatti, produrre una maglietta richiede migliaia di litri d'acqua.", en: "Indeed, producing one T-shirt takes thousands of liters of water." },
           { es: "D'altra parte, permette a molti di vestirsi spendendo poco.", en: "On the other hand, it lets many people dress cheaply." },
           { es: "In definitiva, bisognerebbe comprare meno e meglio.", en: "Ultimately, we should buy less and better." },
         ],
@@ -31,7 +31,7 @@ export const IT_B2_U18_EXTRA: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Italian.",
-            source: "Indeed, producing one T-shirt takes thousands of litres of water.",
+            source: "Indeed, producing one T-shirt takes thousands of liters of water.",
             answer: "Infatti, produrre una maglietta richiede migliaia di litri d'acqua.",
             altAnswers: ["Infatti, per produrre una maglietta servono migliaia di litri d'acqua.", "Infatti, produrre una maglietta richiede migliaia di litri di acqua."],
             explanation: "\"Migliaia di\" = thousands of.",
@@ -49,7 +49,7 @@ export const IT_B2_U18_EXTRA: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "First of all, fast fashion pollutes a great deal.", answer: "Innanzitutto, la moda veloce inquina molto.", altAnswers: ["In primo luogo, la moda veloce inquina molto.", "Innanzitutto, il fast fashion inquina molto."], explanation: "\"Innanzitutto\" opens the list." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "First of all, fast fashion pollutes a great deal.", answer: "Innanzitutto, la moda veloce inquina molto.", altAnswers: ["In primo luogo, la moda veloce inquina molto.", "Innanzitutto, il fast fashion inquina molto.", "Innanzitutto, la fast fashion inquina molto."], explanation: "\"Innanzitutto\" opens the list." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "On the other hand, it lets many people dress cheaply.", answer: "D'altra parte, permette a molti di vestirsi spendendo poco.", altAnswers: ["D'altra parte, permette a molte persone di vestirsi spendendo poco.", "D'altro canto, permette a molti di vestirsi spendendo poco."], explanation: "\"Permettere a qualcuno di\" + infinitive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Secondly, workers are often underpaid.", answer: "In secondo luogo, i lavoratori sono spesso sottopagati.", altAnswers: ["In secondo luogo, spesso i lavoratori sono sottopagati."], explanation: "\"Sottopagato\" = underpaid." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "What's more, clothes last less and less.", answer: "Per di più, i vestiti durano sempre meno.", altAnswers: ["Inoltre, i vestiti durano sempre meno.", "Per di più, i capi durano sempre meno."], explanation: "\"Sempre meno\" = less and less." },
@@ -153,20 +153,20 @@ export const IT_B2_U18_EXTRA: Lesson[] = [
       {
         heading: "Fresh topics",
         body: [
-          "Three topics: school uniforms (\"la divisa scolastica\"), cars in city centres (\"le auto nei centri storici\"), a four-day working week (\"la settimana lavorativa di quattro giorni\"). For each, write a thesis, two arguments, one counterargument with an answer, and a one-line conclusion.",
+          "Three topics: school uniforms (\"la divisa scolastica\"), cars in city centers (\"le auto nei centri storici\"), a four-day working week (\"la settimana lavorativa di quattro giorni\"). For each, write a thesis, two arguments, one counterargument with an answer, and a one-line conclusion.",
         ],
         examples: [
-          { es: "A mio avviso, le auto andrebbero vietate nei centri storici.", en: "In my view, cars should be banned from historic centres." },
+          { es: "A mio avviso, le auto andrebbero vietate nei centri storici.", en: "In my view, cars should be banned from historic centers." },
           { es: "In primo luogo, l'inquinamento danneggia i monumenti.", en: "Firstly, pollution damages monuments." },
           { es: "Qualcuno potrebbe obiettare che i negozi perderebbero clienti.", en: "Some might object that shops would lose customers." },
-          { es: "In realtà, nelle zone pedonali i negozi lavorano di più.", en: "In fact, shops do more business in pedestrian areas." },
+          { es: "In realtà, nelle zone pedonali i negozi lavorano di più.", en: "In fact, stores do more business in pedestrian areas." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Italian.",
-            source: "In my view, cars should be banned from historic centres.",
+            source: "In my view, cars should be banned from historic centers.",
             answer: "A mio avviso, le auto andrebbero vietate nei centri storici.",
             altAnswers: ["A mio avviso, le auto dovrebbero essere vietate nei centri storici.", "A mio avviso, bisognerebbe vietare le auto nei centri storici."],
             explanation: "\"Andrebbero vietate\" = should be banned.",
@@ -191,10 +191,10 @@ export const IT_B2_U18_EXTRA: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Write a thesis in Italian.", source: "In my view, a four-day week would improve quality of life.", answer: "A mio avviso, la settimana di quattro giorni migliorerebbe la qualità della vita.", altAnswers: ["A mio avviso, la settimana lavorativa di quattro giorni migliorerebbe la qualità della vita."], explanation: "Conditional for a hypothetical change." },
       { type: "translate", direction: "en-es", prompt: "Write an argument in Italian.", source: "According to some experiments, productivity would remain the same.", answer: "Secondo alcuni esperimenti, la produttività resterebbe la stessa.", altAnswers: ["Secondo alcune sperimentazioni, la produttività resterebbe la stessa.", "Secondo alcuni esperimenti, la produttività rimarrebbe invariata."], explanation: "Conditional of hearsay." },
       { type: "translate", direction: "en-es", prompt: "Write a conclusion in Italian.", source: "In conclusion, it would be worth trying.", answer: "In conclusione, varrebbe la pena provare.", altAnswers: ["In conclusione, varrebbe la pena di provare.", "In conclusione, sarebbe utile provare."], explanation: "\"Valere la pena\" in the conditional." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[In fact], shops do more business in pedestrian areas.", sentence: "___, nelle zone pedonali i negozi lavorano di più.", answer: "In realtà", explanation: "\"In realtà\" corrects an assumption." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[In fact], stores do more business in pedestrian areas.", sentence: "___, nelle zone pedonali i negozi lavorano di più.", answer: "In realtà", explanation: "\"In realtà\" corrects an assumption." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Pollution [damages] monuments.", sentence: "L'inquinamento ___ i monumenti.", answer: "danneggia", explanation: "\"Danneggiare\" = to damage." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[It would be worth] trying.", sentence: "___ provare.", answer: "Varrebbe la pena", altAnswers: ["Varrebbe la pena di"], explanation: "Conditional of \"valere\"." },
-      { type: "word-order", prompt: "Put the words in order to say: Cars should be banned from historic centres.", words: ["Le", "auto", "andrebbero", "vietate", "nei", "centri", "storici."], translation: "Cars should be banned from historic centres.", explanation: "\"Andare\" + participle." },
+      { type: "word-order", prompt: "Put the words in order to say: Cars should be banned from historic centers.", words: ["Le", "auto", "andrebbero", "vietate", "nei", "centri", "storici."], translation: "Cars should be banned from historic centers.", explanation: "\"Andare\" + participle." },
       { type: "multiple-choice", question: "Which sentence is a counterargument?", options: ["Qualcuno potrebbe obiettare che costa troppo.", "In primo luogo, riduce il traffico.", "In conclusione, è una buona idea.", "Negli ultimi anni se ne parla molto."], correctIndex: 0, explanation: "\"Qualcuno potrebbe obiettare\"." },
       { type: "multiple-choice", question: "Which order is a complete essay plan?", options: ["Thesis, two arguments, counterargument and answer, conclusion", "Two conclusions and a thesis", "Only arguments", "Counterargument, then nothing"], correctIndex: 0, explanation: "All five parts." },
       { type: "listen-choose", audio: "Qualcuno potrebbe obiettare che i negozi perderebbero clienti. In realtà, nelle zone pedonali lavorano di più.", question: "How does the speaker answer the objection?", options: ["With a fact that contradicts it", "By agreeing", "By changing topic", "By ignoring it"], correctIndex: 0, explanation: "\"In realtà\" + a fact." },
@@ -202,7 +202,7 @@ export const IT_B2_U18_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "A mio avviso, le auto andrebbero vietate nei centri storici. In primo luogo, l'inquinamento danneggia i monumenti. In conclusione, varrebbe la pena provare.",
-        prompt: "Outline an essay aloud: In my view, cars should be banned from historic centres. Firstly, pollution damages monuments. In conclusion, it would be worth trying.",
+        prompt: "Outline an essay aloud: In my view, cars should be banned from historic centers. Firstly, pollution damages monuments. In conclusion, it would be worth trying.",
         tip: "\"Danneggia\": dan-NED-ja, double n and double g.",
         explanation: "Thesis, argument, conclusion.",
       },

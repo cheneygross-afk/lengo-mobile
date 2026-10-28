@@ -12,7 +12,7 @@ export const IT_C1_U02: Lesson[] = [
     number: 1,
     title: "The Trapassato Remoto",
     summary: "Form the trapassato remoto (ebbe finito, fu partito) and use it after dopo che, appena and quando with a passato remoto main clause.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Form: auxiliary in the passato remoto",
@@ -24,7 +24,7 @@ export const IT_C1_U02: Lesson[] = [
           { es: "Quando ebbe finito di mangiare, si alzò.", en: "When he had finished eating, he got up." },
           { es: "Appena fu arrivata, si mise a scrivere.", en: "As soon as she had arrived, she began to write." },
           { es: "Dopo che furono partiti, la casa tornò silenziosa.", en: "After they had left, the house fell silent again." },
-          { es: "Appena l'ebbe vista, la riconobbe.", en: "As soon as he had seen her, he recognised her." },
+          { es: "Appena l'ebbe vista, la riconobbe.", en: "As soon as he had seen her, he recognized her." },
           { es: "Dopo che si fu seduto, chiese un bicchiere d'acqua.", en: "After he had sat down, he asked for a glass of water." },
         ],
         checkpoint: [
@@ -38,6 +38,7 @@ export const IT_C1_U02: Lesson[] = [
           "The trapassato remoto has three conditions. It appears in a time clause introduced by \"dopo che\", \"(non) appena\", \"quando\" or, in older prose, \"come\" (as soon as) and \"allorché\". The main clause is in the passato remoto. And the action in the time clause is completed immediately before the main event. If any of these is missing, use something else.",
           "So \"*Ebbe finito il lavoro\" as a main clause is wrong: write \"Aveva finito il lavoro\". With a main clause in the passato prossimo, use the trapassato prossimo or an implicit form: \"Dopo che aveva finito, è uscito\" is spoken; \"Dopo aver finito, è uscito\" is better.",
           "In modern writing the trapassato remoto is rare even in novels: authors prefer \"dopo aver finito\", \"finito il pranzo\" or \"appena finito\". You need it to read the classics and to write a convincing literary pastiche, not for emails.",
+          "Watch the subject when you choose the modern alternative. \"Dopo aver\" + participle needs the same subject as the main clause: \"*Dopo aver mangiato, il cameriere portò il caffè\" says that the waiter ate. With two different subjects, keep a full clause (\"Dopo che gli ospiti ebbero mangiato, il cameriere portò il caffè\") or use an absolute participle with its own subject (\"Mangiato il dolce, gli ospiti si alzarono\").",
         ],
         examples: [
           { es: "Non appena ebbero ricevuto la notizia, partirono.", en: "As soon as they had received the news, they set off." },
@@ -45,6 +46,7 @@ export const IT_C1_U02: Lesson[] = [
           { es: "Aveva finito il lavoro e guardava fuori dalla finestra.", en: "He had finished the work and was looking out of the window." },
           { es: "Dopo aver finito, uscì.", en: "After finishing, he went out." },
           { es: "Finito il pranzo, i bambini uscirono in giardino.", en: "Lunch over, the children went out into the garden." },
+          { es: "Dopo che gli ospiti ebbero mangiato, il cameriere portò il caffè.", en: "After the guests had eaten, the waiter brought the coffee." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian (literary narrative: trapassato remoto + passato remoto).", source: "As soon as they had received the news, they set off.", answer: "Non appena ebbero ricevuto la notizia, partirono.", altAnswers: ["Appena ebbero ricevuto la notizia, partirono.", "Non appena ebbero ricevuto la notizia, si misero in viaggio.", "Appena ebbero ricevuto la notizia, si misero in viaggio."], explanation: "Time clause with \"non appena\" + trapassato remoto, main clause in the passato remoto." },
@@ -56,12 +58,14 @@ export const IT_C1_U02: Lesson[] = [
         body: [
           "Compare: \"Quando ebbe letto la lettera, la bruciò\" (one event right after another, a sequence) and \"Quando arrivò, Marta aveva già letto la lettera\" (an earlier state, seen from a later point). The trapassato remoto gives the sense of one thing completing and the next following at once; the trapassato prossimo looks back.",
           "With \"appena\" the sequence is especially tight: \"Appena ebbe detto quelle parole, se ne pentì\" (no sooner had she said those words than she regretted them). English uses no sooner... than or hardly... when; Italian needs only \"appena\".",
+          "Modal verbs and the passive are possible but heavy. \"Appena ebbe potuto\" (as soon as he had been able to) occurs in nineteenth-century prose; a passive like \"dopo che fu stato firmato\" is so clumsy that even classic authors avoid it, preferring \"firmato il trattato\" or \"dopo la firma del trattato\". When the trapassato remoto sounds forced, it usually is.",
         ],
         examples: [
           { es: "Quando ebbe letto la lettera, la bruciò.", en: "When she had read the letter, she burned it." },
           { es: "Quando Marta arrivò, lui aveva già letto la lettera.", en: "When Marta arrived, he had already read the letter." },
           { es: "Appena ebbe detto quelle parole, se ne pentì.", en: "No sooner had she said those words than she regretted them." },
           { es: "Dopo che ebbero cenato, il vecchio raccontò la sua storia.", en: "After they had dined, the old man told his story." },
+          { es: "Firmato il trattato, le truppe lasciarono la città.", en: "Once the treaty had been signed, the troops left the city." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian (literary narrative: trapassato remoto + passato remoto).", source: "No sooner had she said those words than she regretted them.", answer: "Appena ebbe detto quelle parole, se ne pentì.", altAnswers: ["Non appena ebbe detto quelle parole, se ne pentì."], explanation: "\"Appena\" + trapassato remoto renders no sooner... than." },
@@ -71,7 +75,7 @@ export const IT_C1_U02: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (literary narrative: trapassato remoto + passato remoto).", source: "After they had left, the house fell silent again.", answer: "Dopo che furono partiti, la casa tornò silenziosa.", altAnswers: ["Dopo che furono partiti, la casa ritornò silenziosa.", "Dopo che se ne furono andati, la casa tornò silenziosa."], explanation: "\"Partire\" takes \"essere\": \"furono partiti\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian (literary narrative: trapassato remoto + passato remoto).", source: "As soon as he had seen her, he recognised her.", answer: "Appena l'ebbe vista, la riconobbe.", altAnswers: ["Non appena l'ebbe vista, la riconobbe."], explanation: "Agreement with the preceding \"la\": \"l'ebbe vista\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian (literary narrative: trapassato remoto + passato remoto).", source: "As soon as he had seen her, he recognized her.", answer: "Appena l'ebbe vista, la riconobbe.", altAnswers: ["Non appena l'ebbe vista, la riconobbe."], explanation: "Agreement with the preceding \"la\": \"l'ebbe vista\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (literary narrative: trapassato remoto + passato remoto).", source: "After he had sat down, he asked for a glass of water.", answer: "Dopo che si fu seduto, chiese un bicchiere d'acqua.", explanation: "Reflexive verbs take \"essere\": \"si fu seduto\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (literary narrative: trapassato remoto + passato remoto).", source: "When she had read the letter, she burned it.", answer: "Quando ebbe letto la lettera, la bruciò.", explanation: "Sequence: \"ebbe letto\", then \"bruciò\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (literary narrative: trapassato remoto + passato remoto).", source: "After they had dined, the old man told his story.", answer: "Dopo che ebbero cenato, il vecchio raccontò la sua storia.", explanation: "\"Cenare\" takes \"avere\": \"ebbero cenato\"." },
@@ -89,15 +93,16 @@ export const IT_C1_U02: Lesson[] = [
     level: "IT-C1",
     number: 2,
     title: "Egli, Ella, Esso",
-    summary: "Recognise the literary subject pronouns egli, ella, esso, essa, essi, esse and costui, and know where they still appear today.",
-    duration: "19 min",
+    summary: "Recognize the literary subject pronouns egli, ella, esso, essa, essi, esse and costui, and know where they still appear today.",
+    duration: "20 min",
     sections: [
       {
         heading: "Egli and ella",
         body: [
           "Older grammars taught that \"lui\", \"lei\" and \"loro\" were object pronouns and that the subject forms were \"egli\" (he), \"ella\" (she) and \"essi\" / \"esse\" (they). Modern Italian uses \"lui\", \"lei\" and \"loro\" as subjects, and has done so in speech for centuries; Manzoni used \"lui\" as a subject in \"I promessi sposi\" in 1840.",
-          "You will still meet \"egli\" in formal writing: legal texts, older academic prose, encyclopaedias, some journalism (\"Egli dichiarò che...\"). It refers only to a male person and only as a subject. \"Ella\" is much rarer: today it sounds archaic or poetic and appears mainly in literature before 1950 and in very formal speeches. Don't use \"ella\" in your own writing unless you are imitating an older style.",
+          "You will still meet \"egli\" in formal writing: legal texts, older academic prose, encyclopedias, some journalism (\"Egli dichiarò che...\"). It refers only to a male person and only as a subject. \"Ella\" is much rarer: today it sounds archaic or poetic and appears mainly in literature before 1950 and in very formal speeches. Don't use \"ella\" in your own writing unless you are imitating an older style.",
           "Note: \"egli\" never follows a preposition (\"*con egli\" is wrong: \"con lui\") and is never an object.",
+          "Poetry shortened \"egli\" further to \"ei\" or \"e'\". The most famous example opens Manzoni's ode on the death of Napoleon, \"Il cinque maggio\" (1821): \"Ei fu.\" (He was, meaning he is no more). Some Italian schoolteachers still steer students toward \"egli\" in essays, and you may be corrected that way; modern grammars accept \"lui\" as a subject in every register, and most newspapers use it.",
         ],
         examples: [
           { es: "Egli sostenne che il contratto era nullo.", en: "He maintained that the contract was void." },
@@ -105,6 +110,8 @@ export const IT_C1_U02: Lesson[] = [
           { es: "Egli nacque a Genova nel 1805.", en: "He was born in Genoa in 1805." },
           { es: "Partii con lui il giorno dopo.", en: "I left with him the next day." },
           { es: "Lei non rispose.", en: "She didn't answer." },
+          { es: "Ei fu.", en: "He was. (Manzoni, on Napoleon's death: he is no more)" },
+          { es: "Ella non rispose e abbassò gli occhi.", en: "She did not answer and lowered her eyes. (old literary style)" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian (formal written style, with egli).", source: "He maintained that the contract was void.", answer: "Egli sostenne che il contratto era nullo.", altAnswers: ["Egli sostenne che il contratto fosse nullo."], explanation: "\"Egli\": formal subject pronoun for a man." },
@@ -116,6 +123,7 @@ export const IT_C1_U02: Lesson[] = [
         body: [
           "\"Esso\" and \"essa\" are subject pronouns for things and animals (it): \"Il documento è stato firmato; esso entrerà in vigore domani\". \"Essi\" and \"esse\" are the plurals and, in older or formal texts, can also refer to people (they). In modern Italian they survive mainly in legal, technical and administrative writing.",
           "After prepositions \"esso\" and its forms are still common in formal prose: \"con esso\", \"su di essa\", \"tra essi\". Here \"con lui\" would wrongly suggest a person; in speech Italians prefer \"ci\" or the noun itself: \"ci ho lavorato\" rather than \"ho lavorato su di esso\". In everyday Italian the subject is usually just left out: \"Il documento è firmato ed entrerà in vigore domani\".",
+          "A trap for English speakers: \"esso\" translates it, so learners use it for every it. But Italian rarely needs a subject pronoun for a thing (\"È rotto\", not \"*Esso è rotto\"), and \"esso\" for a person in modern Italian sounds like you are calling them an object. Keep \"essi\" for people to legal texts (\"i lavoratori e le famiglie da essi dipendenti\").",
         ],
         examples: [
           { es: "Il regolamento è stato approvato; esso entrerà in vigore a gennaio.", en: "The regulation has been approved; it will come into force in January." },
@@ -123,6 +131,7 @@ export const IT_C1_U02: Lesson[] = [
           { es: "I cittadini e i diritti di cui essi godono.", en: "Citizens and the rights they enjoy." },
           { es: "Il cane era vecchio, ma esso seguiva ancora il padrone.", en: "The dog was old, but it still followed its master." },
           { es: "Il contratto è firmato ed entrerà in vigore domani.", en: "The contract is signed and will come into force tomorrow." },
+          { es: "Il computer non si accende: è rotto.", en: "The computer won't turn on: it's broken." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian (formal administrative style).", source: "The regulation has been approved; it will come into force in January.", answer: "Il regolamento è stato approvato; esso entrerà in vigore a gennaio.", altAnswers: ["Il regolamento è stato approvato; esso entrerà in vigore in gennaio.", "Il regolamento è stato approvato ed entrerà in vigore a gennaio."], explanation: "\"Esso\" for a thing, in formal writing; or drop it." },
@@ -148,7 +157,7 @@ export const IT_C1_U02: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian (encyclopaedia style, with egli).", source: "He was born in Genoa in 1805.", answer: "Egli nacque a Genova nel 1805.", altAnswers: ["Nacque a Genova nel 1805."], explanation: "\"Egli\" + passato remoto: classic encyclopaedia style." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian (encyclopedia style, with egli).", source: "He was born in Genoa in 1805.", answer: "Egli nacque a Genova nel 1805.", altAnswers: ["Nacque a Genova nel 1805."], explanation: "\"Egli\" + passato remoto: classic encyclopedia style." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (modern style).", source: "He maintained that the contract was void.", answer: "Lui sostenne che il contratto era nullo.", altAnswers: ["Sostenne che il contratto era nullo.", "Sostenne che il contratto fosse nullo.", "Lui sostenne che il contratto fosse nullo."], explanation: "Modern Italian uses \"lui\" or drops the subject." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (formal style).", source: "Citizens and the rights they enjoy.", answer: "I cittadini e i diritti di cui essi godono.", altAnswers: ["I cittadini e i diritti di cui godono."], explanation: "\"Essi\" as a formal plural subject." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (formal notice).", source: "The one who wins will receive a scholarship.", answer: "Colui che vince riceverà una borsa di studio.", altAnswers: ["Chi vince riceverà una borsa di studio.", "Colui che vincerà riceverà una borsa di studio."], explanation: "\"Colui che\" or simply \"chi\"." },
@@ -179,7 +188,7 @@ export const IT_C1_U02: Lesson[] = [
     number: 3,
     title: "Affittasi, Vendesi, Dicesi",
     summary: "Read and use the enclitic fossils of signs, ads and formal definitions: affittasi, vendesi, cercasi, dicesi, trattasi.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Signs and small ads",
@@ -189,16 +198,16 @@ export const IT_C1_U02: Lesson[] = [
           "Fossils don't conjugate: never \"*affittavasi\" in modern writing. And they belong to a written telegraphic register: you don't say \"Vendesi la mia macchina\" to a friend.",
         ],
         examples: [
-          { es: "Affittasi bilocale arredato, zona stazione.", en: "Furnished one-bedroom flat for rent, station area." },
+          { es: "Affittasi bilocale arredato, zona stazione.", en: "Furnished one-bedroom apartment for rent, station area." },
           { es: "Vendesi Fiat Panda, ottime condizioni.", en: "Fiat Panda for sale, excellent condition." },
-          { es: "Cercasi commessa con esperienza.", en: "Experienced shop assistant wanted." },
+          { es: "Cercasi commessa con esperienza.", en: "Experienced salesclerk wanted." },
           { es: "Regalasi gattini a famiglie amanti degli animali.", en: "Kittens free to animal-loving families." },
-          { es: "Si affittano camere a studenti.", en: "Rooms to let to students." },
+          { es: "Si affittano camere a studenti.", en: "Rooms for rent to students." },
           { es: "Vendo la mia macchina, ti interessa?", en: "I'm selling my car, are you interested?" },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian (shop window sign).", source: "Experienced shop assistant wanted.", answer: "Cercasi commessa con esperienza.", altAnswers: ["Cercasi commesso con esperienza.", "Cercasi commessa esperta.", "Cercasi commesso esperto."], explanation: "\"Cercasi\" = wanted, on signs." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian (modern sentence, not a sign).", source: "Rooms to let to students.", answer: "Si affittano camere a studenti.", altAnswers: ["Si affittano camere agli studenti.", "Si affittano stanze a studenti."], explanation: "Modern si passivante: plural verb with a plural subject." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian (shop window sign).", source: "Experienced salesclerk wanted.", answer: "Cercasi commessa con esperienza.", altAnswers: ["Cercasi commesso con esperienza.", "Cercasi commessa esperta.", "Cercasi commesso esperto."], explanation: "\"Cercasi\" = wanted, on signs." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian (modern sentence, not a sign).", source: "Rooms for rent to students.", answer: "Si affittano camere a studenti.", altAnswers: ["Si affittano camere agli studenti.", "Si affittano stanze a studenti."], explanation: "Modern si passivante: plural verb with a plural subject." },
         ],
       },
       {
@@ -206,12 +215,15 @@ export const IT_C1_U02: Lesson[] = [
         body: [
           "Two fossils live in formal prose. \"Dicesi\" opens definitions in old textbooks and is still used, half-jokingly, to define something: \"Dicesi triangolo un poligono con tre lati\" (a polygon with three sides is called a triangle). \"Trattasi di\" (it is a matter of, we are dealing with) is common in bureaucratic and journalistic Italian: \"Trattasi di un errore materiale\".",
           "Both have modern equivalents that sound less stiff: \"Si chiama triangolo...\", \"Si tratta di un errore\". Use \"trattasi\" if you are imitating an official letter; use \"si tratta di\" otherwise. Overusing fossils is a typical feature of the bureaucratic style you will study in Unit 4.",
+          "Two more are alive in formal and academic writing. \"Vedasi\" (see) sends the reader to another passage: \"vedasi l'allegato B\", alongside the more modern \"si veda\" and plain \"vedi\". \"Dicasi\" turns up in the set phrase \"lo stesso dicasi per...\" (the same goes for...), which educated Italians use naturally, even in speech. These are subjunctive forms with the pronoun attached, not indicatives like \"dicesi\": don't mix them up.",
         ],
         examples: [
           { es: "Dicesi triangolo un poligono con tre lati.", en: "A polygon with three sides is called a triangle." },
           { es: "Trattasi di un errore materiale.", en: "This is a clerical error." },
           { es: "Si tratta di un errore materiale.", en: "It's a clerical error. (modern)" },
           { es: "Dicesi amicizia quella cosa che ti fa rispondere al telefono alle tre di notte.", en: "Friendship is what makes you answer the phone at three in the morning. (playful)" },
+          { es: "Per i dettagli tecnici, vedasi l'allegato B.", en: "For the technical details, see Annex B." },
+          { es: "Le bollette sono aumentate del dieci per cento; lo stesso dicasi per gli affitti.", en: "Utility bills have gone up by ten percent; the same goes for rents." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian (official letter style).", source: "This is a clerical error.", answer: "Trattasi di un errore materiale.", altAnswers: ["Si tratta di un errore materiale."], explanation: "\"Trattasi di\": bureaucratic fossil of \"si tratta di\"." },
@@ -221,13 +233,13 @@ export const IT_C1_U02: Lesson[] = [
       {
         heading: "Other fossils in documents",
         body: [
-          "Official documents keep a few more frozen forms. \"Addì\" (on the day) opens dates in minutes and certificates: \"Addì 3 marzo 2025\". \"Suddetto\" and \"sopraccitato\" (aforementioned) refer back. \"Lì\" after a place in letter dates means \"on\": \"Bologna, lì 5 maggio 2025\". In literary prose you will also see enclitics on imperfects and passati remoti: \"diceasi\", \"vedevasi\", \"fecesi\", which modern writers use only for comic effect.",
-          "Recognise all of these; produce only \"affittasi\", \"vendesi\", \"cercasi\" on signs and \"trattasi\" in deliberately formal writing.",
+          "Official documents keep a few more frozen forms. \"Addì\" (on the day) opens dates in minutes and certificates: \"Addì 3 marzo 2025\". \"Suddetto\" and \"sopraccitato\" (aforementioned) refer back. \"Li\" after a place in letter dates (often written \"lì\", though the Accademia della Crusca prefers no accent) is a fossil of an old plural article, roughly the: \"Bologna, li 5 maggio 2025\". In literary prose you will also see enclitics on imperfects and passati remoti: \"diceasi\", \"vedevasi\", \"fecesi\", which modern writers use only for comic effect.",
+          "Recognize all of these; produce only \"affittasi\", \"vendesi\", \"cercasi\" on signs and \"trattasi\" in deliberately formal writing.",
         ],
         examples: [
-          { es: "Addì 3 marzo 2025, presso la sede comunale.", en: "On 3 March 2025, at the town hall." },
-          { es: "Bologna, lì 5 maggio 2025", en: "Bologna, 5 May 2025" },
-          { es: "Il suddetto signor Bianchi dichiara quanto segue.", en: "The aforementioned Mr Bianchi declares the following." },
+          { es: "Addì 3 marzo 2025, presso la sede comunale.", en: "On March 3, 2025, at the town hall." },
+          { es: "Bologna, li 5 maggio 2025", en: "Bologna, May 5, 2025" },
+          { es: "Il suddetto signor Bianchi dichiara quanto segue.", en: "The aforementioned Mr. Bianchi declares the following." },
           { es: "Vedevasi in lontananza un campanile.", en: "In the distance a bell tower could be seen. (old literary)" },
         ],
         checkpoint: [
@@ -238,12 +250,12 @@ export const IT_C1_U02: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (sign).", source: "Fiat Panda for sale, excellent condition.", answer: "Vendesi Fiat Panda, ottime condizioni.", altAnswers: ["Vendesi Fiat Panda in ottime condizioni."], explanation: "\"Vendesi\" on signs and ads." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian (sign).", source: "Furnished flat for rent.", answer: "Affittasi appartamento arredato.", altAnswers: ["Affittasi appartamento ammobiliato."], explanation: "\"Affittasi\" + noun, no article." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian (sign).", source: "Furnished apartment for rent.", answer: "Affittasi appartamento arredato.", altAnswers: ["Affittasi appartamento ammobiliato."], explanation: "\"Affittasi\" + noun, no article." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (said to a friend).", source: "I'm selling my car, are you interested?", answer: "Vendo la mia macchina, ti interessa?", altAnswers: ["Vendo la macchina, ti interessa?", "Vendo la mia auto, ti interessa?"], explanation: "In conversation, no fossils: just \"vendo\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (modern style).", source: "It's a clerical error.", answer: "Si tratta di un errore materiale.", explanation: "\"Si tratta di\": the modern form of \"trattasi di\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (modern sentence).", source: "Houses are sold here.", answer: "Qui si vendono case.", altAnswers: ["Si vendono case qui."], explanation: "Plural subject, plural verb: \"si vendono\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Puppies [free to a good home].", sentence: "___ cuccioli.", answer: "Regalasi", explanation: "\"Regalasi\" = given away free, on ads." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[On the day] 10 April 2025, the assembly met.", sentence: "___ 10 aprile 2025, si è riunita l'assemblea.", answer: "Addì", explanation: "\"Addì\" opens dates in official minutes." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[On the day] April 10, 2025, the assembly met.", sentence: "___ 10 aprile 2025, si è riunita l'assemblea.", answer: "Addì", explanation: "\"Addì\" opens dates in official minutes." },
       { type: "word-order", prompt: "Put the words in order to say: A polygon with three sides is called a triangle.", words: ["Dicesi", "triangolo", "un", "poligono", "con", "tre", "lati."], translation: "A polygon with three sides is called a triangle.", explanation: "The classic textbook definition with \"dicesi\"." },
       { type: "multiple-choice", question: "Which is the purist plural on an old sign?", options: ["Affittansi camere", "Affittasi camere", "Affittano camere", "Affittatesi camere"], correctIndex: 0, explanation: "\"Affittansi\" agrees with \"camere\"; \"affittasi camere\" is the common modern sign." },
       {
@@ -258,7 +270,7 @@ export const IT_C1_U02: Lesson[] = [
         ],
         explanation: "Fossils and formulas of signs and documents.",
       },
-      { type: "speak", text: "Affittasi bilocale arredato, zona stazione, a referenziati.", prompt: "Read the ad aloud: Furnished one-bedroom flat for rent, station area, to applicants with references.", tip: "af-fit-TA-si: stress as in \"affitta\".", explanation: "\"A referenziati\" = to people with references." },
+      { type: "speak", text: "Affittasi bilocale arredato, zona stazione, a referenziati.", prompt: "Read the ad aloud: Furnished one-bedroom apartment for rent, station area, to applicants with references.", tip: "af-fit-TA-si: stress as in \"affitta\".", explanation: "\"A referenziati\" = to people with references." },
     ],
   },
   {
@@ -267,7 +279,7 @@ export const IT_C1_U02: Lesson[] = [
     number: 4,
     title: "Literary Narration",
     summary: "See how a novel combines the imperfetto, passato remoto, both past perfects, the future in the past and the historical present.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "The tense map of a novel",
@@ -275,6 +287,7 @@ export const IT_C1_U02: Lesson[] = [
           "A classic Italian novel is built on a map of tenses, each with a fixed job. The passato remoto carries the main events; the imperfetto paints the background; the trapassato prossimo looks back to earlier events; the trapassato remoto appears only in time clauses right before a passato remoto. Dialogue, inside quotation marks, uses the tenses of speech: present, passato prossimo, future.",
           "Read this short passage and label each verb: \"Era una mattina di marzo. Lucia, che non aveva dormito, si affacciò alla finestra. Quando ebbe visto la carrozza, capì. 'Sono venuti a prendermi', disse.\" Background, earlier event, main event, sequence, main events, then speech in the passato prossimo.",
           "Learners often worry that the passato prossimo inside dialogue breaks the rule of one event tense. It doesn't: the narrator's voice and the characters' voices are separate layers.",
+          "The speech verbs that frame dialogue are part of the narrator's layer, so they are passati remoti: \"disse\", \"rispose\", \"esclamò\", \"mormorò\", \"replicò\", and the very literary \"soggiunse\" (added). Italian novels mark dialogue with dashes or with angle quotes (« »), and when the speech verb follows the quotation, the subject comes after it: \"«Vieni», disse la madre\", never \"*la madre disse\" in that position.",
         ],
         examples: [
           { es: "Era una mattina di marzo.", en: "It was a March morning." },
@@ -282,6 +295,7 @@ export const IT_C1_U02: Lesson[] = [
           { es: "Quando ebbe visto la carrozza, capì.", en: "When she had seen the carriage, she understood." },
           { es: "\"Sono venuti a prendermi\", disse.", en: "\"They've come to fetch me\", she said." },
           { es: "\"Che cosa hai fatto?\" gli chiese la madre.", en: "\"What have you done?\" his mother asked him." },
+          { es: "\"Torneremo\", soggiunse il vecchio a bassa voce.", en: "\"We'll come back\", the old man added quietly." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian (literary narrative).", source: "Lucia, who had not slept, looked out of the window.", answer: "Lucia, che non aveva dormito, si affacciò alla finestra.", explanation: "\"Aveva dormito\" looks back; \"si affacciò\" is the event." },
@@ -310,7 +324,7 @@ export const IT_C1_U02: Lesson[] = [
         heading: "Historical present and narrative imperfetto",
         body: [
           "Two special effects. The historical present switches the narration into the present for drama: \"Cammina da ore. All'improvviso sente un rumore, si volta: nessuno.\" Once you switch, stay in the present until the scene ends. Many contemporary novels are written entirely in the present.",
-          "The narrative imperfetto uses the imperfetto for a single completed event, usually at the end of a story or in journalism: \"Due giorni dopo, moriva a Roma\" (two days later, he died in Rome). It slows the event down, like a camera lingering. Recognise it; in your own writing use it sparingly, for endings.",
+          "The narrative imperfetto uses the imperfetto for a single completed event, usually at the end of a story or in journalism: \"Due giorni dopo, moriva a Roma\" (two days later, he died in Rome). It slows the event down, like a camera lingering. Recognize it; in your own writing use it sparingly, for endings.",
         ],
         examples: [
           { es: "Cammina da ore. All'improvviso sente un rumore, si volta: nessuno.", en: "He has been walking for hours. Suddenly he hears a noise, turns round: nobody." },
@@ -343,7 +357,7 @@ export const IT_C1_U02: Lesson[] = [
     level: "IT-C1",
     number: 5,
     title: "Drill: Literary Tenses",
-    summary: "Produce the trapassato remoto, the passato remoto and the future in the past at speed, and recognise literary forms.",
+    summary: "Produce the trapassato remoto, the passato remoto and the future in the past at speed, and recognize literary forms.",
     duration: "25 min",
     kind: "drill",
     sections: [
@@ -376,7 +390,7 @@ export const IT_C1_U02: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (formal style, with egli).", source: "He refused the offer.", answer: "Egli rifiutò l'offerta.", explanation: "\"Egli\" + passato remoto." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "After the soldiers [had crossed] the bridge, they blew it up.", sentence: "Dopo che i soldati ___ attraversato il ponte, lo fecero saltare.", answer: "ebbero", explanation: "\"Ebbero attraversato\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "When the guests [had gone], she sat down.", sentence: "Quando gli ospiti ___ andati via, si sedette.", answer: "furono", explanation: "\"Andare\" with \"essere\": \"furono andati\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "As soon as [I had understood], I apologised.", sentence: "Appena ___, chiesi scusa.", answer: "ebbi capito", explanation: "\"Ebbi capito\", io form." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "As soon as [I had understood], I apologized.", sentence: "Appena ___, chiesi scusa.", answer: "ebbi capito", explanation: "\"Ebbi capito\", io form." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "We didn't imagine that the war [would last] so long.", sentence: "Non immaginavamo che la guerra ___ così tanto.", answer: "sarebbe durata", explanation: "Future in the past; \"durare\" with \"essere\", agreeing with \"guerra\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Those who] arrive late will not be admitted.", sentence: "___ arrivano in ritardo non saranno ammessi.", answer: "Coloro che", altAnswers: ["Quelli che"], explanation: "\"Coloro che\": formal those who." },
       { type: "multiple-choice", question: "Which sentence is correct?", options: ["Appena fu partito, la casa si svuotò.", "Appena ebbe partito, la casa si svuotò.", "Appena fu partito, la casa si è svuotata.", "Fu partito e la casa si svuotò."], correctIndex: 0, explanation: "\"Partire\" takes \"essere\", and the main verb is in the passato remoto." },
@@ -397,12 +411,12 @@ export const IT_C1_U02: Lesson[] = [
         heading: "Quel ramo del lago di Como",
         body: [
           "\"I promessi sposi\" (The Betrothed) by Alessandro Manzoni (1785-1873) is the most famous Italian novel. Set in Lombardy in 1628-1630, it follows Renzo and Lucia, two young silk workers whose wedding is blocked by a local tyrant, Don Rodrigo. Every Italian reads it at school; its lines are part of everyday speech.",
-          "It opens with a long description of the landscape around Lecco. The first words are known to every Italian: \"Quel ramo del lago di Como, che volge a mezzogiorno, tra due catene non interrotte di monti...\". Note the imperfetto-like timelessness of the description: Manzoni uses the present for the landscape that still exists. The lines below, after the first, are adapted into modern Italian.",
+          "It opens with a long description of the landscape around Lecco. The first words are known to every Italian: \"Quel ramo del lago di Como, che volge a mezzogiorno, tra due catene non interrotte di monti...\". Note the timeless present of the description: Manzoni uses the present tense for a landscape that still exists. The lines below, after the first, are adapted into modern Italian.",
           "Glosses: \"il ramo\" (the branch, arm of a lake), \"volgere a mezzogiorno\" (to turn south; \"mezzogiorno\" = south, in old usage), \"il curato\" (the parish priest), \"il breviario\" (the prayer book).",
         ],
         examples: [
           { es: "Quel ramo del lago di Como, che volge a mezzogiorno, tra due catene non interrotte di monti...", en: "That branch of Lake Como which turns south, between two unbroken chains of mountains..." },
-          { es: "La sera del 7 novembre 1628, don Abbondio, curato di un paesino, tornava a casa.", en: "On the evening of 7 November 1628, Don Abbondio, priest of a small village, was walking home." },
+          { es: "La sera del 7 novembre 1628, don Abbondio, curato di un paesino, tornava a casa.", en: "On the evening of November 7, 1628, Don Abbondio, priest of a small village, was walking home." },
           { es: "Camminava lentamente e leggeva il breviario.", en: "He was walking slowly and reading his prayer book." },
           { es: "A una svolta della strada vide due uomini che lo aspettavano.", en: "At a bend in the road he saw two men who were waiting for him." },
         ],
@@ -415,7 +429,7 @@ export const IT_C1_U02: Lesson[] = [
         heading: "The bravi",
         body: [
           "The two men are \"bravi\", armed thugs in the service of Don Rodrigo. Their message to Don Abbondio is one of the most quoted lines in Italian: \"Questo matrimonio non s'ha da fare, né domani, né mai\". Italians use it jokingly whenever someone tries to block a plan.",
-          "Note \"non s'ha da fare\": \"avere da\" + infinitive is an old way of saying must; modern Italian would write \"non si deve fare\". Don Abbondio, a coward, tries to argue, then gives in. Glosses: \"il bravo\" (hired thug), \"cedere\" (to give in), \"tremare\" (to tremble).",
+          "The bravo's question below is adapted (Manzoni wrote \"maritar\", the old verb for to marry a couple); the threat itself is quoted word for word. Note \"non s'ha da fare\": \"avere da\" + infinitive is an old way of saying must; modern Italian would write \"non si deve fare\". Don Abbondio, a coward, tries to argue, then gives in. Glosses: \"il bravo\" (hired thug), \"cedere\" (to give in), \"tremare\" (to tremble).",
         ],
         examples: [
           { es: "Uno dei due gli si piantò davanti.", en: "One of the two planted himself in front of him." },
@@ -431,7 +445,7 @@ export const IT_C1_U02: Lesson[] = [
       {
         heading: "The priest's courage",
         body: [
-          "Later in the novel, scolded by a cardinal for his cowardice, Don Abbondio offers his own defence: \"Il coraggio, uno non se lo può dare\" (courage is not something you can give yourself). It is another line Italians quote, half in sympathy, when someone admits they were afraid.",
+          "Later in the novel, scolded by a cardinal for his cowardice, Don Abbondio offers his own defense: \"Il coraggio, uno non se lo può dare\" (courage is not something you can give yourself). It is another line Italians quote, half in sympathy, when someone admits they were afraid.",
           "Notice the dislocation: \"il coraggio\" is placed first and repeated by \"lo\". This spoken structure, which you studied at Upper Intermediate level, gives the line its colloquial strength, inside a novel otherwise written in careful literary prose. Manzoni deliberately rewrote the novel between 1827 and 1840 to bring its language closer to the spoken Florentine of educated people, a choice that shaped modern standard Italian.",
         ],
         examples: [
@@ -447,7 +461,7 @@ export const IT_C1_U02: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian (literary narrative).", source: "On the evening of 7 November 1628, Don Abbondio was walking home.", answer: "La sera del 7 novembre 1628, don Abbondio tornava a casa.", altAnswers: ["La sera del 7 novembre 1628 don Abbondio tornava a casa.", "La sera del 7 novembre 1628, don Abbondio rientrava a casa."], explanation: "Background: imperfetto \"tornava\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian (literary narrative).", source: "On the evening of November 7, 1628, Don Abbondio was walking home.", answer: "La sera del 7 novembre 1628, don Abbondio tornava a casa.", altAnswers: ["La sera del 7 novembre 1628 don Abbondio tornava a casa.", "La sera del 7 novembre 1628, don Abbondio rientrava a casa."], explanation: "Background: imperfetto \"tornava\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (literary narrative).", source: "One of the two planted himself in front of him.", answer: "Uno dei due gli si piantò davanti.", explanation: "\"Piantarsi davanti a qualcuno\" = to plant oneself in front of someone." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (literary narrative).", source: "Don Abbondio was trembling and couldn't answer.", answer: "Don Abbondio tremava e non riuscì a rispondere.", explanation: "State (\"tremava\") + event (\"non riuscì\")." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (polite question, Lei).", source: "Do you intend to marry Renzo and Lucia tomorrow?", answer: "Lei ha intenzione di sposare domani Renzo e Lucia?", altAnswers: ["Ha intenzione di sposare domani Renzo e Lucia?", "Ha intenzione di sposare Renzo e Lucia domani?", "Lei ha intenzione di sposare Renzo e Lucia domani?"], explanation: "\"Sposare\" a couple = to marry them, said of the priest." },
@@ -467,7 +481,7 @@ export const IT_C1_U02: Lesson[] = [
         explanation: "Key words of the first chapter.",
       },
       { type: "multiple-choice", question: "Today an Italian says \"Questo matrimonio non s'ha da fare!\" about a business merger. What do they mean?", options: ["They will stop it at any cost (jokingly).", "They are officiating at it.", "It has been postponed.", "It's a happy event."], correctIndex: 0, explanation: "The quotation is used ironically to oppose any plan." },
-      { type: "dictation", audio: "Il coraggio, uno non se lo può dare.", explanation: "Don Abbondio's defence, with dislocation." },
+      { type: "dictation", audio: "Il coraggio, uno non se lo può dare.", explanation: "Don Abbondio's defense, with dislocation." },
       { type: "speak", text: "Quel ramo del lago di Como, che volge a mezzogiorno, tra due catene non interrotte di monti.", prompt: "Read Manzoni's opening aloud: That branch of Lake Como which turns south, between two unbroken chains of mountains.", tip: "Pause at each comma; \"catene\" and \"interrotte\": clear double t.", explanation: "The most famous opening in Italian literature." },
     ],
   },
@@ -556,7 +570,7 @@ export const IT_C1_U02: Lesson[] = [
       {
         heading: "Tenses and time clauses",
         body: [
-          "To give a modern text a classic literary flavour, start with the verbs. Every passato prossimo of the narrator becomes a passato remoto; \"dopo aver\" + participle or \"quando ha finito\" can become a trapassato remoto: \"Dopo aver chiuso la porta, è uscito\" → \"Dopo che ebbe chiuso la porta, uscì\".",
+          "To give a modern text a classic literary flavor, start with the verbs. Every passato prossimo of the narrator becomes a passato remoto; \"dopo aver\" + participle or \"quando ha finito\" can become a trapassato remoto: \"Dopo aver chiuso la porta, è uscito\" → \"Dopo che ebbe chiuso la porta, uscì\".",
           "The imperfetto stays, but literary style likes the descriptive imperfetto at length, with several verbs in a row: \"Il sole calava, le campane suonavano il vespro e dai camini saliva un fumo leggero\". One sentence of this kind before the first event sets the tone of a nineteenth-century novel.",
         ],
         examples: [
@@ -662,7 +676,7 @@ export const IT_C1_U02: Lesson[] = [
         heading: "The arrival",
         body: [
           "Then the event that starts the story: a stranger, a letter, a death, a return. Use the passato remoto and one trapassato remoto: \"Appena il campanile ebbe battuto le nove, una carrozza si fermò davanti alla locanda. Ne scese un uomo alto, avvolto in un mantello nero.\" Note \"ne scese\" (got out of it): \"ne\" stands for \"dalla carrozza\".",
-          "Characterise briefly through details, not adjectives piled up: the coat, the hands, a scar, a way of speaking.",
+          "Characterize briefly through details, not adjectives piled up: the coat, the hands, a scar, a way of speaking.",
         ],
         examples: [
           { es: "Appena il campanile ebbe battuto le nove, una carrozza si fermò davanti alla locanda.", en: "As soon as the bell tower had struck nine, a carriage stopped in front of the inn." },
@@ -717,7 +731,7 @@ export const IT_C1_U02: Lesson[] = [
       {
         heading: "C'era una volta...",
         body: [
-          "Carlo Collodi (1826-1890) published \"Le avventure di Pinocchio\" in instalments from 1881 and as a book in 1883. Its opening is a game with the reader: it starts like a fairy tale, then breaks the expectation. Listen to each line before reading it. The text is Collodi's own, slightly abridged.",
+          "Carlo Collodi (1826-1890) published \"Le avventure di Pinocchio\" in installments from 1881 and as a book in 1883. Its opening is a game with the reader: it starts like a fairy tale, then breaks the expectation. Listen to each line before reading it. Most lines are Collodi's own words, lightly abridged; lines marked (adapted) retell his longer sentences more simply.",
           "The narrator speaks directly to his \"piccoli lettori\" and predicts their answer with a future: \"diranno subito\" (they'll say at once). The passato prossimo \"avete sbagliato\" belongs to his conversation with the children; the story itself will run in the passato remoto. Glosses: \"il legno\" (wood), \"la catasta\" (woodpile), \"la stufa\" (stove).",
         ],
         examples: [
@@ -741,7 +755,7 @@ export const IT_C1_U02: Lesson[] = [
           { es: "Un bel giorno questo pezzo di legno capitò nella bottega di un vecchio falegname.", en: "One fine day this piece of wood ended up in the workshop of an old carpenter." },
           { es: "Il quale aveva nome mastr'Antonio.", en: "Whose name was Master Antonio." },
           { es: "Tutti lo chiamavano maestro Ciliegia.", en: "Everyone called him Master Cherry." },
-          { es: "La punta del suo naso era sempre lustra e paonazza, come una ciliegia matura.", en: "The tip of his nose was always shiny and purple, like a ripe cherry." },
+          { es: "La punta del suo naso era sempre lustra e paonazza, come una ciliegia matura.", en: "The tip of his nose was always shiny and purple, like a ripe cherry. (adapted)" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian (passato remoto).", source: "One fine day this piece of wood ended up in an old carpenter's workshop.", answer: "Un bel giorno questo pezzo di legno capitò nella bottega di un vecchio falegname.", explanation: "\"Capitare\" = to end up somewhere by chance: \"capitò\"." },
@@ -752,17 +766,17 @@ export const IT_C1_U02: Lesson[] = [
         heading: "The talking wood",
         body: [
           "The third passage contains a trapassato remoto, exactly as you studied it: \"Appena maestro Ciliegia ebbe visto quel pezzo di legno, si rallegrò tutto\". Then the carpenter decides to make a table leg, raises his axe and hears a tiny voice: \"Non mi picchiar tanto forte!\" (don't hit me so hard!).",
-          "\"Picchiar\" is \"picchiare\" with the final e dropped, common in older Tuscan and in poetry. In the negative tu imperative the infinitive is used: \"non picchiare\". Glosses: \"rallegrarsi\" (to cheer up, be delighted), \"la scure\" (the axe), \"una vocina sottile\" (a thin little voice).",
+          "\"Picchiar\" is \"picchiare\" with the final e dropped, common in older Tuscan and in poetry. In the negative tu imperative the infinitive is used: \"non picchiare\". Glosses: \"rallegrarsi\" (to cheer up, be delighted), \"l'ascia\" (the axe), \"una vocina sottile\" (a thin little voice).",
         ],
         examples: [
           { es: "Appena maestro Ciliegia ebbe visto quel pezzo di legno, si rallegrò tutto.", en: "As soon as Master Cherry had seen that piece of wood, he was delighted." },
           { es: "Voglio servirmene per fare una gamba di tavolino.", en: "I want to use it to make a table leg." },
-          { es: "Prese la scure e alzò il braccio.", en: "He took the axe and raised his arm." },
+          { es: "Prese l'ascia e alzò il braccio.", en: "He took the axe and raised his arm. (adapted)" },
           { es: "Sentì una vocina sottile sottile: \"Non mi picchiar tanto forte!\"", en: "He heard a tiny, tiny voice: \"Don't hit me so hard!\"" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian (literary narrative).", source: "As soon as he had seen that piece of wood, he was delighted.", answer: "Appena ebbe visto quel pezzo di legno, si rallegrò tutto.", altAnswers: ["Appena ebbe visto quel pezzo di legno, si rallegrò."], explanation: "Trapassato remoto after \"appena\", then the passato remoto." },
-          { type: "dictation", audio: "Prese la scure e alzò il braccio.", explanation: "\"Prese\" (irregular), \"alzò\" (regular)." },
+          { type: "dictation", audio: "Prese l'ascia e alzò il braccio.", explanation: "\"Prese\" (irregular), \"alzò\" (regular)." },
         ],
       },
     ],
@@ -772,7 +786,7 @@ export const IT_C1_U02: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It wasn't fine wood, just a plain piece of wood.", answer: "Non era un legno di lusso, ma un semplice pezzo di legno.", altAnswers: ["Non era legno di lusso, ma un semplice pezzo di legno."], explanation: "\"Di lusso\" = luxury, fine." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Everyone called him Master Cherry.", answer: "Tutti lo chiamavano maestro Ciliegia.", explanation: "Habit: imperfetto." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I want to use it to make a table leg.", answer: "Voglio servirmene per fare una gamba di tavolino.", altAnswers: ["Voglio usarlo per fare una gamba di tavolino.", "Me ne voglio servire per fare una gamba di tavolino."], explanation: "\"Servirsi di\" → \"servirmene\": pronoun attached to the infinitive." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian (passato remoto).", source: "He took the axe and raised his arm.", answer: "Prese la scure e alzò il braccio.", explanation: "Two events: \"prese\", \"alzò\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian (passato remoto).", source: "He took the axe and raised his arm.", answer: "Prese l'ascia e alzò il braccio.", altAnswers: ["Prese la scure e alzò il braccio."], explanation: "Two events: \"prese\", \"alzò\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (passato remoto).", source: "He heard a tiny voice.", answer: "Sentì una vocina sottile.", altAnswers: ["Sentì una vocina.", "Udì una vocina sottile."], explanation: "\"Sentì\": regular -ire; \"udire\" is the literary to hear." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The tip of his nose was always [shiny and purple].", sentence: "La punta del suo naso era sempre ___.", answer: "lustra e paonazza", explanation: "Both adjectives agree with \"punta\"." },
       { type: "word-order", prompt: "Put the words in order to say: Once upon a time there was a piece of wood.", words: ["C'era", "una", "volta", "un", "pezzo", "di", "legno."], translation: "Once upon a time there was a piece of wood.", explanation: "The famous twist on the fairy-tale opening." },

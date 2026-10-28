@@ -11,7 +11,7 @@ export const IT_C1_U05: Lesson[] = [
     number: 1,
     title: "The Academic Voice",
     summary: "Write in the impersonal academic voice: si ritiene, è possibile osservare, il presente lavoro si propone di, and the academic noi.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Who is speaking? Almost nobody",
@@ -19,17 +19,20 @@ export const IT_C1_U05: Lesson[] = [
           "Italian academic writing avoids \"io\" much more strictly than English. Where an English paper says I argue that, an Italian one writes \"si sostiene\", \"si intende dimostrare\", \"il presente lavoro si propone di\" or uses the academic \"noi\": \"In questo studio analizziamo...\". The effect is a voice that seems to belong to the discipline rather than to a person.",
           "Three tools do most of the work. The impersonal \"si\": \"si ritiene che\" (it is believed that), \"si osserva\", \"si può affermare\". The passive: \"è stato dimostrato che\", \"i dati sono stati raccolti\". And impersonal phrases: \"è possibile osservare\", \"occorre sottolineare\", \"va notato che\", \"è opportuno precisare\".",
           "Note the subjunctive after \"si ritiene che\" and \"si ipotizza che\", which present opinions, but the indicative after \"è stato dimostrato che\" and \"si osserva che\", which present facts.",
+          "Two mechanics of the impersonal trip learners up. With a plural object the verb is plural: \"si analizzano i dati\", not \"*si analizza i dati\". And a reflexive verb needs \"ci si\", because \"si si\" is impossible: \"ci si chiede\" (one wonders), \"ci si occupa di\" (one deals with), \"ci si limita a\" (we confine ourselves to).",
         ],
         examples: [
-          { es: "Il presente lavoro si propone di analizzare l'uso del dialetto tra i giovani.", en: "This paper aims to analyse the use of dialect among young people." },
-          { es: "In questo studio analizziamo un corpus di trecento interviste.", en: "In this study we analyse a corpus of three hundred interviews." },
+          { es: "Il presente lavoro si propone di analizzare l'uso del dialetto tra i giovani.", en: "This paper aims to analyze the use of dialect among young people." },
+          { es: "In questo studio analizziamo un corpus di trecento interviste.", en: "In this study we analyze a corpus of three hundred interviews." },
           { es: "Si ritiene che il fenomeno sia in crescita.", en: "The phenomenon is believed to be growing." },
-          { es: "È stato dimostrato che l'esposizione precoce favorisce l'apprendimento.", en: "It has been shown that early exposure favours learning." },
+          { es: "È stato dimostrato che l'esposizione precoce favorisce l'apprendimento.", en: "It has been shown that early exposure favors learning." },
           { es: "Si osserva che i parlanti più giovani usano meno il dialetto.", en: "It can be observed that younger speakers use dialect less." },
           { es: "Va notato che il campione è limitato.", en: "It should be noted that the sample is limited." },
+          { es: "Ci si chiede se il fenomeno sia reversibile.", en: "One wonders whether the phenomenon is reversible." },
+          { es: "Nel primo capitolo si analizzano i dati quantitativi.", en: "The first chapter analyzes the quantitative data." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into academic Italian.", source: "This paper aims to analyse the use of dialect among young people.", answer: "Il presente lavoro si propone di analizzare l'uso del dialetto tra i giovani.", altAnswers: ["Il presente studio si propone di analizzare l'uso del dialetto tra i giovani.", "Questo lavoro si propone di analizzare l'uso del dialetto tra i giovani.", "Il presente lavoro si propone di analizzare l'uso del dialetto fra i giovani."], explanation: "\"Si propone di\" = aims to; no \"io\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into academic Italian.", source: "This paper aims to analyze the use of dialect among young people.", answer: "Il presente lavoro si propone di analizzare l'uso del dialetto tra i giovani.", altAnswers: ["Il presente studio si propone di analizzare l'uso del dialetto tra i giovani.", "Questo lavoro si propone di analizzare l'uso del dialetto tra i giovani.", "Il presente lavoro si propone di analizzare l'uso del dialetto fra i giovani."], explanation: "\"Si propone di\" = aims to; no \"io\"." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[The phenomenon is believed] to be growing.", sentence: "___ il fenomeno sia in crescita.", answer: "Si ritiene che", explanation: "\"Si ritiene che\" + subjunctive: an opinion." },
         ],
       },
@@ -41,14 +44,14 @@ export const IT_C1_U05: Lesson[] = [
         ],
         examples: [
           { es: "I dati sono stati raccolti tra il 2021 e il 2023.", en: "The data were collected between 2021 and 2023." },
-          { es: "Sono stati intervistati 120 studenti di tre licei milanesi.", en: "120 students from three Milan secondary schools were interviewed." },
+          { es: "Sono stati intervistati 120 studenti di tre licei milanesi.", en: "120 students from three Milan high schools were interviewed." },
           { es: "I risultati mostrano una correlazione significativa.", en: "The results show a significant correlation." },
           { es: "Dall'analisi emerge un quadro complesso.", en: "A complex picture emerges from the analysis." },
           { es: "Ne risulta che le variabili sono indipendenti.", en: "It follows that the variables are independent." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into academic Italian.", source: "The data were collected between 2021 and 2023.", answer: "I dati sono stati raccolti tra il 2021 e il 2023.", altAnswers: ["I dati sono stati raccolti fra il 2021 e il 2023.", "I dati furono raccolti tra il 2021 e il 2023."], explanation: "Passive: no actor named." },
-          { type: "listen-choose", audio: "Dall'analisi emerge un quadro complesso.", question: "What does it mean?", options: ["A complex picture emerges from the analysis.", "The analysis is too complex.", "The picture was analysed.", "The analysis has not been completed."], correctIndex: 0, explanation: "\"Emergere da\" = to emerge from." },
+          { type: "listen-choose", audio: "Dall'analisi emerge un quadro complesso.", question: "What does it mean?", options: ["A complex picture emerges from the analysis.", "The analysis is too complex.", "The picture was analyzed.", "The analysis has not been completed."], correctIndex: 0, explanation: "\"Emergere da\" = to emerge from." },
         ],
       },
       {
@@ -56,6 +59,7 @@ export const IT_C1_U05: Lesson[] = [
         body: [
           "Academic Italian marks logic explicitly. Consequence: \"pertanto\", \"dunque\", \"ne consegue che\", \"di conseguenza\". Addition and focus: \"inoltre\", \"a tal proposito\" (in this regard), \"in tal senso\" (in this sense). Contrast: \"tuttavia\", \"d'altro canto\", \"ciononostante\". Reformulation: \"in altri termini\", \"vale a dire\", \"ossia\".",
           "Don't confuse \"pertanto\" (therefore) with English pertaining, and use \"dunque\" mid-sentence in writing (\"Il campione è dunque rappresentativo\"). \"Quindi\" is fine too, but slightly less formal.",
+          "The classic false friend here is \"infatti\". It only confirms what you have just said (indeed, as expected): \"Il fenomeno è recente: infatti, i primi dati risalgono al 2010\". English in fact can also correct a statement; for that Italian uses \"in realtà\": \"Si pensava che fosse un fenomeno urbano; in realtà riguarda anche le campagne\". Spoken fillers like \"comunque\", \"cioè\" and \"tipo\" have no place in a paper.",
         ],
         examples: [
           { es: "Il campione è ridotto; pertanto i risultati vanno interpretati con cautela.", en: "The sample is small; therefore the results must be interpreted with caution." },
@@ -63,6 +67,8 @@ export const IT_C1_U05: Lesson[] = [
           { es: "A tal proposito, occorre ricordare il contributo di De Mauro.", en: "In this regard, De Mauro's contribution should be recalled." },
           { es: "Ne consegue che l'ipotesi iniziale va rivista.", en: "It follows that the initial hypothesis must be revised." },
           { es: "In altri termini, il dialetto non scompare, ma cambia funzione.", en: "In other words, dialect isn't disappearing but changing its function." },
+          { es: "Il fenomeno è recente: infatti, i primi dati risalgono al 2010.", en: "The phenomenon is recent: indeed, the first data go back to 2010." },
+          { es: "Si pensava che fosse un fenomeno urbano; in realtà riguarda anche le campagne.", en: "It was thought to be an urban phenomenon; in fact it also affects the countryside." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into academic Italian.", source: "The sample is small; therefore the results must be interpreted with caution.", answer: "Il campione è ridotto; pertanto i risultati vanno interpretati con cautela.", altAnswers: ["Il campione è ridotto; pertanto i risultati devono essere interpretati con cautela.", "Il campione è limitato; pertanto i risultati vanno interpretati con cautela.", "Il campione è ridotto, pertanto i risultati vanno interpretati con cautela."], explanation: "\"Pertanto\" = therefore; \"vanno interpretati\" = must be interpreted." },
@@ -71,8 +77,8 @@ export const IT_C1_U05: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into academic Italian (academic we).", source: "In this study we analyse a corpus of three hundred interviews.", answer: "In questo studio analizziamo un corpus di trecento interviste.", altAnswers: ["Nel presente studio analizziamo un corpus di trecento interviste."], explanation: "The academic \"noi\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into academic Italian.", source: "It has been shown that early exposure favours learning.", answer: "È stato dimostrato che l'esposizione precoce favorisce l'apprendimento.", explanation: "A demonstrated fact: indicative." },
+      { type: "translate", direction: "en-es", prompt: "Translate into academic Italian (academic we).", source: "In this study we analyze a corpus of three hundred interviews.", answer: "In questo studio analizziamo un corpus di trecento interviste.", altAnswers: ["Nel presente studio analizziamo un corpus di trecento interviste."], explanation: "The academic \"noi\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into academic Italian.", source: "It has been shown that early exposure favors learning.", answer: "È stato dimostrato che l'esposizione precoce favorisce l'apprendimento.", explanation: "A demonstrated fact: indicative." },
       { type: "translate", direction: "en-es", prompt: "Translate into academic Italian.", source: "It should be noted that the sample is limited.", answer: "Va notato che il campione è limitato.", altAnswers: ["Occorre notare che il campione è limitato.", "Va sottolineato che il campione è limitato.", "Si noti che il campione è limitato."], explanation: "\"Va notato che\": impersonal obligation." },
       { type: "translate", direction: "en-es", prompt: "Translate into academic Italian.", source: "120 students were interviewed.", answer: "Sono stati intervistati 120 studenti.", altAnswers: ["Sono stati intervistati centoventi studenti."], explanation: "Passive with the subject after the verb." },
       { type: "translate", direction: "en-es", prompt: "Translate into academic Italian.", source: "The results show a significant correlation.", answer: "I risultati mostrano una correlazione significativa.", altAnswers: ["I risultati evidenziano una correlazione significativa.", "I risultati indicano una correlazione significativa."], explanation: "Neutral result verb." },
@@ -82,7 +88,7 @@ export const IT_C1_U05: Lesson[] = [
       { type: "word-order", prompt: "Put the words in order to say: A complex picture emerges from the analysis.", words: ["Dall'analisi", "emerge", "un", "quadro", "complesso."], translation: "A complex picture emerges from the analysis.", explanation: "\"Emergere da\", subject after the verb." },
       { type: "multiple-choice", question: "Which sentence suits an Italian academic article?", options: ["Il presente lavoro intende dimostrare che...", "Io voglio dimostrare che...", "In questo lavoro ti mostro che...", "Allora, qui si vede che..."], correctIndex: 0, explanation: "Impersonal subject: \"il presente lavoro\"." },
       { type: "dictation", audio: "Si ritiene che il fenomeno sia in crescita.", explanation: "\"Si ritiene che\" + subjunctive." },
-      { type: "speak", text: "Il presente lavoro si propone di analizzare l'uso del dialetto tra i giovani. I dati sono stati raccolti tra il 2021 e il 2023.", prompt: "Present your paper: This paper aims to analyse the use of dialect among young people. The data were collected between 2021 and 2023.", tip: "Read the years as \"duemilaventuno\", \"duemilaventitré\".", explanation: "Aim and method in the academic voice." },
+      { type: "speak", text: "Il presente lavoro si propone di analizzare l'uso del dialetto tra i giovani. I dati sono stati raccolti tra il 2021 e il 2023.", prompt: "Present your paper: This paper aims to analyze the use of dialect among young people. The data were collected between 2021 and 2023.", tip: "Read the years as \"duemilaventuno\", \"duemilaventitré\".", explanation: "Aim and method in the academic voice." },
     ],
   },
   {
@@ -91,7 +97,7 @@ export const IT_C1_U05: Lesson[] = [
     number: 2,
     title: "Hedging",
     summary: "Soften academic claims with the conditional, impersonal hedges and modal adverbs: sembrerebbe, si potrebbe ipotizzare, in una certa misura.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "The conditional of caution",
@@ -99,16 +105,19 @@ export const IT_C1_U05: Lesson[] = [
           "Academic writing rarely claims certainty. Italian hedges first with the conditional: \"I dati sembrerebbero indicare...\" (the data would seem to indicate), \"Si potrebbe ipotizzare che...\", \"Parrebbe che...\", \"Ciò porterebbe a pensare che...\". The conditional turns a claim into a careful suggestion.",
           "It is the same conditional you met in journalism for unconfirmed news (\"sarebbe stato arrestato\"), but here it expresses the writer's caution, not distance from a source. \"Sembrerebbe che\" and \"si potrebbe ipotizzare che\" take the subjunctive: \"Sembrerebbe che il fenomeno sia più diffuso al Sud\".",
           "Avoid stacking hedges: \"Sembrerebbe forse possibile ipotizzare\" says nothing. One hedge per claim is enough.",
+          "Mind the modal verbs, because English may, might and should map onto them unevenly. \"Può\" states a real possibility (\"il dato può variare\", the figure can vary); \"potrebbe\" is the cautious might. \"Dovrebbe\" is ambiguous: \"i risultati dovrebbero essere confermati\" can mean they are expected to be confirmed or they ought to be. If the difference matters, write \"è probabile che vengano confermati\" or \"sarebbe opportuno confermarli\".",
         ],
         examples: [
           { es: "I dati sembrerebbero indicare una tendenza opposta.", en: "The data would seem to indicate the opposite trend." },
-          { es: "Si potrebbe ipotizzare che il fattore decisivo sia l'età.", en: "One might hypothesise that age is the decisive factor." },
+          { es: "Si potrebbe ipotizzare che il fattore decisivo sia l'età.", en: "One might hypothesize that age is the decisive factor." },
           { es: "Sembrerebbe che il fenomeno sia più diffuso al Sud.", en: "It would seem that the phenomenon is more widespread in the South." },
           { es: "Ciò porterebbe a pensare che il campione non sia omogeneo.", en: "This would suggest that the sample is not homogeneous." },
           { es: "Parrebbe che l'effetto diminuisca nel tempo.", en: "It would appear that the effect decreases over time." },
+          { es: "Il dato può variare da una regione all'altra.", en: "The figure can vary from one region to another." },
+          { es: "Sarebbe opportuno confermare i risultati su un campione più ampio.", en: "The results ought to be confirmed on a larger sample." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into academic Italian.", source: "One might hypothesise that age is the decisive factor.", answer: "Si potrebbe ipotizzare che il fattore decisivo sia l'età.", altAnswers: ["Si potrebbe ipotizzare che l'età sia il fattore decisivo."], explanation: "Conditional hedge + subjunctive." },
+          { type: "translate", direction: "en-es", prompt: "Translate into academic Italian.", source: "One might hypothesize that age is the decisive factor.", answer: "Si potrebbe ipotizzare che il fattore decisivo sia l'età.", altAnswers: ["Si potrebbe ipotizzare che l'età sia il fattore decisivo."], explanation: "Conditional hedge + subjunctive." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The data [would seem to indicate] the opposite trend.", sentence: "I dati ___ una tendenza opposta.", answer: "sembrerebbero indicare", explanation: "Conditional of \"sembrare\": caution." },
         ],
       },
@@ -117,6 +126,7 @@ export const IT_C1_U05: Lesson[] = [
         body: [
           "Adverbs and phrases limit the scope of a claim: \"in una certa misura\" (to some extent), \"in parte\", \"tendenzialmente\" (generally, by tendency), \"presumibilmente\" (presumably), \"con ogni probabilità\" (in all likelihood), \"almeno in parte\", \"nella maggior parte dei casi\".",
           "Impersonal phrases with the subjunctive also hedge: \"non è da escludere che\" (it cannot be ruled out that), \"è plausibile che\", \"è probabile che\". \"Non è da escludere che il dato sia influenzato dal metodo\" is a typical concession of a limitation.",
+          "Two more hedges limit a claim to what is known: \"allo stato attuale delle conoscenze\" (in the current state of knowledge) and \"per quanto è dato sapere\" (as far as we know). They protect the writer without weakening the finding itself.",
         ],
         examples: [
           { es: "Il risultato è, in una certa misura, prevedibile.", en: "The result is, to some extent, predictable." },
@@ -124,6 +134,7 @@ export const IT_C1_U05: Lesson[] = [
           { es: "Con ogni probabilità il testo risale al Quattrocento.", en: "In all likelihood the text dates back to the fifteenth century." },
           { es: "Non è da escludere che il dato sia influenzato dal metodo.", en: "It cannot be ruled out that the figure is influenced by the method." },
           { es: "È plausibile che la differenza dipenda dal contesto.", en: "It is plausible that the difference depends on the context." },
+          { es: "Allo stato attuale delle conoscenze, la causa resta incerta.", en: "In the current state of knowledge, the cause remains uncertain." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into academic Italian.", source: "It cannot be ruled out that the figure is influenced by the method.", answer: "Non è da escludere che il dato sia influenzato dal metodo.", altAnswers: ["Non si può escludere che il dato sia influenzato dal metodo."], explanation: "\"Non è da escludere che\" + subjunctive." },
@@ -135,12 +146,14 @@ export const IT_C1_U05: Lesson[] = [
         body: [
           "Hedging has an opposite: boosters, for claims you can support. \"È evidente che\", \"è indubbio che\", \"risulta chiaro che\", \"senza dubbio\", \"indubbiamente\". \"È evidente che\" and \"risulta chiaro che\" take the indicative, because they state facts: \"È evidente che il campione è troppo piccolo\".",
           "Good academic style balances the two: boost what the data show, hedge what you infer. \"I dati mostrano chiaramente un calo; si potrebbe ipotizzare che sia legato alla scolarizzazione.\"",
+          "One booster to avoid: \"ovviamente\". In an Italian paper it sounds dismissive, as if the reader should have known. For shared knowledge use \"com'è noto\" or \"come è stato ampiamente documentato\"; for your own strong claim, let the data speak with \"i dati confermano\".",
         ],
         examples: [
           { es: "È evidente che il campione è troppo piccolo.", en: "It is clear that the sample is too small." },
           { es: "Risulta chiaro che le due variabili sono collegate.", en: "It is clear that the two variables are linked." },
           { es: "Indubbiamente, il contributo di Manzoni fu decisivo.", en: "Undoubtedly, Manzoni's contribution was decisive." },
-          { es: "I dati mostrano chiaramente un calo; si potrebbe ipotizzare che sia legato alla scuola.", en: "The data clearly show a decline; one might hypothesise that it is linked to schooling." },
+          { es: "Com'è noto, l'unificazione linguistica fu lenta.", en: "As is well known, linguistic unification was slow." },
+          { es: "I dati mostrano chiaramente un calo; si potrebbe ipotizzare che sia legato alla scuola.", en: "The data clearly show a decline; one might hypothesize that it is linked to schooling." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into academic Italian.", source: "It is clear that the sample is too small.", answer: "È evidente che il campione è troppo piccolo.", altAnswers: ["Risulta chiaro che il campione è troppo piccolo.", "È chiaro che il campione è troppo piccolo.", "È evidente che il campione è troppo ridotto."], explanation: "A booster with the indicative." },
@@ -157,10 +170,10 @@ export const IT_C1_U05: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into academic Italian.", source: "Undoubtedly, Manzoni's contribution was decisive.", answer: "Indubbiamente, il contributo di Manzoni fu decisivo.", altAnswers: ["Indubbiamente, il contributo di Manzoni è stato decisivo.", "Senza dubbio, il contributo di Manzoni fu decisivo."], explanation: "A booster for a well-established claim." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[In all likelihood] the text dates back to the fifteenth century.", sentence: "___ il testo risale al Quattrocento.", answer: "Con ogni probabilità", altAnswers: ["Probabilmente", "Presumibilmente"], explanation: "A strong hedge." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It would appear that the effect [decreases] over time.", sentence: "Parrebbe che l'effetto ___ nel tempo.", answer: "diminuisca", explanation: "\"Parrebbe che\" + subjunctive." },
-      { type: "word-order", prompt: "Put the words in order to say: One might hypothesise that age is decisive.", words: ["Si", "potrebbe", "ipotizzare", "che", "l'età", "sia", "decisiva."], translation: "One might hypothesise that age is decisive.", explanation: "Hedge + subjunctive." },
+      { type: "word-order", prompt: "Put the words in order to say: One might hypothesize that age is decisive.", words: ["Si", "potrebbe", "ipotizzare", "che", "l'età", "sia", "decisiva."], translation: "One might hypothesize that age is decisive.", explanation: "Hedge + subjunctive." },
       { type: "multiple-choice", question: "Which sentence over-hedges?", options: ["Sembrerebbe forse possibile ipotizzare che il dato sia, in una certa misura, rilevante.", "Il dato sembrerebbe rilevante.", "Si potrebbe ipotizzare che il dato sia rilevante.", "Il dato è, in parte, rilevante."], correctIndex: 0, explanation: "Four hedges in one claim: the sentence says nothing." },
       { type: "dictation", audio: "Non è da escludere che il dato sia influenzato dal metodo.", explanation: "\"Non è da escludere che\" + subjunctive." },
-      { type: "speak", text: "I dati mostrano chiaramente un calo; si potrebbe ipotizzare che sia legato alla scolarizzazione.", prompt: "Say it in Italian: The data clearly show a decline; one might hypothesise that it is linked to schooling.", tip: "Firm voice on the fact, softer on the hypothesis.", explanation: "Boost the data, hedge the inference." },
+      { type: "speak", text: "I dati mostrano chiaramente un calo; si potrebbe ipotizzare che sia legato alla scolarizzazione.", prompt: "Say it in Italian: The data clearly show a decline; one might hypothesize that it is linked to schooling.", tip: "Firm voice on the fact, softer on the hypothesis.", explanation: "Boost the data, hedge the inference." },
     ],
   },
   {
@@ -169,13 +182,14 @@ export const IT_C1_U05: Lesson[] = [
     number: 3,
     title: "Citing Sources",
     summary: "Cite and report sources in Italian academic style: secondo, come sostiene, a parere di, cfr., ibid., and the reporting verbs that position you.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Attributing ideas",
         body: [
-          "To attribute an idea, Italian academic prose uses \"secondo\" + author (\"Secondo Rossi (2019), il dialetto...\"), \"come sostiene\" / \"come osserva\" / \"come sottolinea\" + author, \"a parere di\" (in the opinion of) and \"stando a\" (according to, slightly informal). The verb after \"secondo\" is in the indicative: you report the author's claim, not your doubt.",
+          "To attribute an idea, Italian academic prose uses \"secondo\" + author (\"Secondo Rossi (2019), il dialetto...\"), \"come sostiene\" / \"come osserva\" / \"come sottolinea\" + author, \"a parere di\" (in the opinion of) and \"stando a\" (according to, going by). The verb after \"secondo\" is in the indicative: you report the author's claim, not your doubt.",
           "Quotations go in «caporali» (the Italian angle quotes) or double quotes, with the page: \"Come scrive Rossi, «il dialetto non muore, si trasforma» (2019: 45)\". In the text, the author's surname alone is enough; first names and titles (\"il professor Rossi\") are not used.",
+          "For your own opinion, academic Italian avoids \"secondo me\", which is conversational; it prefers \"a nostro avviso\" or, more neutrally, \"si ritiene\". To refer to your own earlier pages, write \"come si è visto\" (as we have seen) or \"come si è detto nel paragrafo 2\"; to send the reader elsewhere, \"si veda\" or \"vedi\".",
         ],
         examples: [
           { es: "Secondo Rossi (2019), il dialetto conserva una funzione identitaria.", en: "According to Rossi (2019), dialect retains a role in identity." },
@@ -183,6 +197,8 @@ export const IT_C1_U05: Lesson[] = [
           { es: "Come scrive Rossi, «il dialetto non muore, si trasforma» (2019: 45).", en: "As Rossi writes, \"dialect does not die, it transforms\" (2019: 45)." },
           { es: "A parere di alcuni studiosi, il fenomeno è sovrastimato.", en: "In the opinion of some scholars, the phenomenon is overestimated." },
           { es: "Stando ai dati ISTAT, l'uso esclusivo del dialetto è in calo.", en: "According to ISTAT data, exclusive use of dialect is declining." },
+          { es: "A nostro avviso, il fenomeno è sottovalutato.", en: "In our view, the phenomenon is underestimated." },
+          { es: "Come si è visto nel paragrafo 2, i dati sono incompleti.", en: "As we saw in section 2, the data are incomplete." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into academic Italian.", source: "As Bianchi argues, schooling accelerated the spread of Italian.", answer: "Come sostiene Bianchi, la scuola ha accelerato l'italianizzazione.", altAnswers: ["Come sostiene Bianchi, la scuola ha accelerato la diffusione dell'italiano.", "Come sostiene Bianchi, la scolarizzazione ha accelerato la diffusione dell'italiano."], explanation: "\"Come sostiene\" + surname." },
@@ -193,12 +209,14 @@ export const IT_C1_U05: Lesson[] = [
         heading: "Reporting verbs that position you",
         body: [
           "The verb you choose shows your stance. Neutral: \"afferma\", \"scrive\", \"osserva\", \"rileva\". Supportive: \"dimostra\", \"mette in luce\" (highlights), \"chiarisce\". Distancing: \"sostiene\" (claims, can be neutral or slightly distancing), \"ritiene\", \"ipotizza\". Critical: \"mette in discussione\" (questions), \"confuta\" (refutes), \"respinge\" (rejects).",
-          "Present tense is the norm for reporting a text, even an old one: \"Bembo sostiene, nelle Prose, che...\". The passato prossimo is used for the history of a debate: \"Negli anni Settanta, De Mauro ha mostrato che...\".",
+          "Present tense is the norm for reporting a text, even an old one: \"Bembo sostiene, nelle Prose, che...\". The passato prossimo is used for the history of a debate: \"Negli anni Sessanta, De Mauro ha mostrato che...\".",
+          "Watch three false friends. To argue (a thesis) is \"sostenere\", never \"argomentare\" alone (which means to support with arguments) and never \"discutere\" (to discuss) or \"litigare\" (to quarrel). \"Rilevare\" (to note, point out) is not \"rivelare\" (to reveal). And \"evidenziare\" means to highlight, not to give evidence for.",
         ],
         examples: [
           { es: "De Mauro mette in luce il ruolo della televisione.", en: "De Mauro highlights the role of television." },
           { es: "Bianchi mette in discussione questa interpretazione.", en: "Bianchi questions this interpretation." },
           { es: "Lo studio confuta l'ipotesi della scomparsa dei dialetti.", en: "The study refutes the hypothesis that dialects are disappearing." },
+          { es: "L'autrice rileva una contraddizione nei dati.", en: "The author points out a contradiction in the data." },
           { es: "Bembo sostiene, nelle Prose della volgar lingua, che il modello sia il fiorentino del Trecento.", en: "Bembo argues, in his Prose della volgar lingua, that the model should be fourteenth-century Florentine." },
           { es: "Negli anni Sessanta, De Mauro ha mostrato quanto pochi parlassero italiano nel 1861.", en: "In the 1960s, De Mauro showed how few people spoke Italian in 1861." },
         ],
@@ -212,12 +230,14 @@ export const IT_C1_U05: Lesson[] = [
         body: [
           "Italian footnotes and references use their own abbreviations: \"cfr.\" (confronta: compare, see), \"ivi\" (in the same work, different page) and \"ibid.\" or \"ibidem\" (same work, same page), \"op. cit.\" (the work already cited), \"p.\" / \"pp.\" (page / pages), \"et al.\" (and others), \"a cura di\" (edited by), \"trad.\" (translation, translated by).",
           "\"Cfr.\" is by far the most frequent: \"Cfr. Rossi 2019, pp. 40-52\". Note that Italian writes \"pp. 40-52\" with a hyphen, and the decimal comma in numbers: \"il 12,5%\".",
+          "Inside quotations, \"[...]\" marks a cut, \"(corsivo mio)\" means emphasis mine, and \"[sic]\" flags an error in the original. Longer quotations (more than three lines) are set off as a separate indented block without quotation marks. Copying without quotation marks is \"plagio\", and Italian universities check theses with software.",
         ],
         examples: [
           { es: "Cfr. Rossi 2019, pp. 40-52.", en: "See Rossi 2019, pp. 40-52." },
           { es: "Ivi, p. 48.", en: "Same work, p. 48." },
           { es: "Il volume, a cura di Ferri, raccoglie dieci saggi.", en: "The volume, edited by Ferri, collects ten essays." },
           { es: "Il 12,5% degli intervistati parla solo dialetto in famiglia.", en: "12.5% of respondents speak only dialect at home." },
+          { es: "«Il dialetto [...] resta la lingua degli affetti» (corsivo mio).", en: "\"Dialect [...] remains the language of feelings\" (emphasis mine)." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into academic Italian.", source: "The volume, edited by Ferri, collects ten essays.", answer: "Il volume, a cura di Ferri, raccoglie dieci saggi.", explanation: "\"A cura di\" = edited by." },
@@ -255,15 +275,16 @@ export const IT_C1_U05: Lesson[] = [
     slug: "c1-summarising",
     level: "IT-C1",
     number: 4,
-    title: "Summarising and Paraphrasing",
-    summary: "Summarise a text and paraphrase its ideas with the standard formulas: il testo tratta di, l'autore sostiene che, il saggio si articola in.",
-    duration: "19 min",
+    title: "Summarizing and Paraphrasing",
+    summary: "Summarize a text and paraphrase its ideas with the standard formulas: il testo tratta di, l'autore sostiene che, il saggio si articola in.",
+    duration: "20 min",
     sections: [
       {
         heading: "Opening a summary",
         body: [
           "The \"riassunto\" is a core skill in Italian schools and universities, and CILS exams test it. A summary opens by naming the text, the author and the topic: \"Il saggio di Ferri, pubblicato nel 2020, tratta del rapporto tra lingua e identità\". Useful verbs: \"trattare di\" (to deal with), \"affrontare\" (to tackle), \"occuparsi di\", \"esaminare\", \"prendere in esame\".",
           "Then the thesis: \"L'autrice sostiene che...\", \"La tesi centrale è che...\". Summaries are written in the present tense and the third person, never in the first person of the original. Keep \"io\" out of it: the summary reports, it doesn't judge.",
+          "Vary the reporting verbs. The learner's summary that repeats \"l'autore dice... poi dice... infine dice\" is the most common weakness teachers mark. Rotate \"afferma\", \"osserva\", \"sottolinea\", \"ricorda\", \"conclude\", and choose the one that matches what the author is doing in that passage.",
         ],
         examples: [
           { es: "Il saggio di Ferri tratta del rapporto tra lingua e identità.", en: "Ferri's essay deals with the relationship between language and identity." },
@@ -271,6 +292,7 @@ export const IT_C1_U05: Lesson[] = [
           { es: "L'autrice sostiene che il bilinguismo sia una risorsa.", en: "The author argues that bilingualism is an asset." },
           { es: "La tesi centrale è che la scuola debba valorizzare i dialetti.", en: "The central thesis is that schools should value dialects." },
           { es: "Il volume prende in esame cinquant'anni di politica linguistica.", en: "The book examines fifty years of language policy." },
+          { es: "L'autore ricorda che la legge sulle minoranze linguistiche risale al 1999.", en: "The author points out that the law on linguistic minorities dates from 1999." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into academic Italian.", source: "Ferri's essay deals with the relationship between language and identity.", answer: "Il saggio di Ferri tratta del rapporto tra lingua e identità.", altAnswers: ["Il saggio di Ferri si occupa del rapporto tra lingua e identità.", "Il saggio di Ferri affronta il rapporto tra lingua e identità.", "Il saggio di Ferri tratta il rapporto tra lingua e identità."], explanation: "\"Trattare di\" + topic." },
@@ -282,30 +304,34 @@ export const IT_C1_U05: Lesson[] = [
         body: [
           "Describe the structure of the source, not every sentence: \"Il saggio si articola in tre parti\" (is divided into three parts), \"Nella prima parte l'autore ricostruisce...\", \"Nella seconda...\", \"Infine...\". Connectors of sequence keep the summary readable: \"in primo luogo\", \"successivamente\", \"in seguito\", \"in conclusione\".",
           "A summary keeps the logic but changes the words. Replace examples with categories (\"numerosi esempi tratti dalla stampa\" instead of the examples themselves), cut repetition, and turn quotations into reported statements.",
+          "Italian distinguishes the \"riassunto\" (a faithful condensed version, often a quarter or a third of the original) from the \"sintesi\" (a shorter account of the essentials) and the \"abstract\" (the 150 to 250 words at the top of a paper). A school riassunto keeps the order of the original; an academic sintesi may regroup ideas by theme.",
         ],
         examples: [
           { es: "Il saggio si articola in tre parti.", en: "The essay is divided into three parts." },
           { es: "Nella prima parte l'autore ricostruisce la storia del dibattito.", en: "In the first part the author reconstructs the history of the debate." },
-          { es: "Successivamente analizza numerosi esempi tratti dalla stampa.", en: "He then analyses numerous examples taken from the press." },
+          { es: "Successivamente analizza numerosi esempi tratti dalla stampa.", en: "He then analyzes numerous examples taken from the press." },
           { es: "Infine propone alcune soluzioni didattiche.", en: "Finally he proposes some teaching solutions." },
+          { es: "Il riassunto non deve superare un terzo del testo originale.", en: "The summary must not exceed a third of the original text." },
           { es: "In conclusione, l'autore invita a superare la contrapposizione tra lingua e dialetto.", en: "In conclusion, the author calls for moving beyond the opposition between language and dialect." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into academic Italian.", source: "The essay is divided into three parts.", answer: "Il saggio si articola in tre parti.", altAnswers: ["Il saggio è diviso in tre parti.", "Il saggio si divide in tre parti."], explanation: "\"Articolarsi in\" = to be structured in." },
-          { type: "translate", direction: "en-es", prompt: "Translate into academic Italian.", source: "In the first part the author reconstructs the history of the debate.", answer: "Nella prima parte l'autore ricostruisce la storia del dibattito.", explanation: "Present tense for summarising." },
+          { type: "translate", direction: "en-es", prompt: "Translate into academic Italian.", source: "In the first part the author reconstructs the history of the debate.", answer: "Nella prima parte l'autore ricostruisce la storia del dibattito.", explanation: "Present tense for summarizing." },
         ],
       },
       {
         heading: "Paraphrase",
         body: [
           "A paraphrase restates one idea in your own words, keeping its meaning and attribution. Change the structure, not just the vocabulary: \"«La scuola italiana ha a lungo considerato il dialetto un ostacolo»\" → \"Secondo l'autore, per molto tempo il sistema scolastico ha visto nel dialetto un impedimento all'apprendimento\".",
-          "Tools: synonyms (\"ostacolo\" → \"impedimento\"), nominalisation or its reverse (\"considerare\" → \"vedere in\"), voice change (active → passive), and a reporting frame (\"secondo l'autore\", \"l'autore osserva che\"). A paraphrase that only swaps two words is still a quotation.",
+          "Tools: synonyms (\"ostacolo\" → \"impedimento\"), nominalization or its reverse (\"considerare\" → \"vedere in\"), voice change (active → passive), and a reporting frame (\"secondo l'autore\", \"l'autore osserva che\"). A paraphrase that only swaps two words is still a quotation.",
+          "The typical slip is keeping the original's point of view. If the source says \"noi italiani\" or \"il nostro paese\", your paraphrase says \"gli italiani\" and \"l'Italia\"; if the author writes in the first person, you switch to \"l'autore\" or \"l'autrice\" and the third person.",
         ],
         examples: [
           { es: "«La scuola italiana ha a lungo considerato il dialetto un ostacolo.»", en: "\"Italian schools long considered dialect an obstacle.\"" },
           { es: "Secondo l'autore, per molto tempo la scuola ha visto nel dialetto un impedimento.", en: "According to the author, for a long time schools saw dialect as a hindrance." },
           { es: "Il dialetto è stato a lungo considerato un ostacolo dalla scuola.", en: "Dialect was long considered an obstacle by schools." },
           { es: "L'autore osserva che oggi l'atteggiamento è cambiato.", en: "The author observes that attitudes have changed today." },
+          { es: "«Il nostro paese ha sempre diffidato dei dialetti.» → Secondo l'autrice, l'Italia ha sempre diffidato dei dialetti.", en: "\"Our country has always mistrusted dialects.\" → According to the author, Italy has always mistrusted dialects." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Paraphrase in academic Italian.", source: "According to the author, for a long time schools saw dialect as a hindrance.", answer: "Secondo l'autore, per molto tempo la scuola ha visto nel dialetto un impedimento.", altAnswers: ["Secondo l'autore, per molto tempo la scuola ha considerato il dialetto un impedimento.", "Secondo l'autore, a lungo la scuola ha visto nel dialetto un impedimento."], explanation: "\"Vedere in\" + noun = to see as." },
@@ -318,11 +344,11 @@ export const IT_C1_U05: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into academic Italian.", source: "The book examines fifty years of language policy.", answer: "Il volume prende in esame cinquant'anni di politica linguistica.", altAnswers: ["Il libro prende in esame cinquant'anni di politica linguistica.", "Il volume esamina cinquant'anni di politica linguistica."], explanation: "\"Prendere in esame\" = to examine." },
       { type: "translate", direction: "en-es", prompt: "Translate into academic Italian.", source: "Finally he proposes some teaching solutions.", answer: "Infine propone alcune soluzioni didattiche.", altAnswers: ["Infine l'autore propone alcune soluzioni didattiche."], explanation: "\"Didattico\" = relating to teaching." },
       { type: "translate", direction: "en-es", prompt: "Translate into academic Italian.", source: "The central thesis is that schools should value dialects.", answer: "La tesi centrale è che la scuola debba valorizzare i dialetti.", altAnswers: ["La tesi centrale è che la scuola dovrebbe valorizzare i dialetti.", "La tesi principale è che la scuola debba valorizzare i dialetti."], explanation: "\"La tesi è che\" + subjunctive." },
-      { type: "translate", direction: "en-es", prompt: "Translate into academic Italian.", source: "He then analyses numerous examples taken from the press.", answer: "Successivamente analizza numerosi esempi tratti dalla stampa.", altAnswers: ["In seguito analizza numerosi esempi tratti dalla stampa.", "Successivamente analizza molti esempi tratti dalla stampa."], explanation: "\"Tratti da\" = taken from." },
+      { type: "translate", direction: "en-es", prompt: "Translate into academic Italian.", source: "He then analyzes numerous examples taken from the press.", answer: "Successivamente analizza numerosi esempi tratti dalla stampa.", altAnswers: ["In seguito analizza numerosi esempi tratti dalla stampa.", "Successivamente analizza molti esempi tratti dalla stampa."], explanation: "\"Tratti da\" = taken from." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "In conclusion, the author [calls for] moving beyond the opposition.", sentence: "In conclusione, l'autore ___ superare la contrapposizione.", answer: "invita a", explanation: "\"Invitare a\" + infinitive." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Dialect [was long considered] an obstacle by schools.", sentence: "Il dialetto ___ un ostacolo dalla scuola.", answer: "è stato a lungo considerato", explanation: "Paraphrase by changing the voice." },
       { type: "word-order", prompt: "Put the words in order to say: The essay deals with language and identity.", words: ["Il", "saggio", "tratta", "di", "lingua", "e", "identità."], translation: "The essay deals with language and identity.", explanation: "\"Trattare di\" opens a summary." },
-      { type: "multiple-choice", question: "Which sentence belongs in a summary?", options: ["L'autore sostiene che il dialetto sia una risorsa.", "Io penso che il dialetto sia una risorsa.", "Il dialetto, secondo me, è bellissimo.", "Come dico sempre, il dialetto è una risorsa."], correctIndex: 0, explanation: "Third person, present tense, no personal judgement." },
+      { type: "multiple-choice", question: "Which sentence belongs in a summary?", options: ["L'autore sostiene che il dialetto sia una risorsa.", "Io penso che il dialetto sia una risorsa.", "Il dialetto, secondo me, è bellissimo.", "Come dico sempre, il dialetto è una risorsa."], correctIndex: 0, explanation: "Third person, present tense, no personal judgment." },
       { type: "dictation", audio: "Il saggio si articola in tre parti.", explanation: "\"Articolarsi in\" = to be structured in." },
       { type: "speak", text: "Il saggio di Ferri tratta del rapporto tra lingua e identità. L'autrice sostiene che il bilinguismo sia una risorsa.", prompt: "Open your summary aloud: Ferri's essay deals with the relationship between language and identity. The author argues that bilingualism is an asset.", tip: "\"Autrice\": stress on -tri-.", explanation: "Topic, then thesis." },
     ],
@@ -378,7 +404,7 @@ export const IT_C1_U05: Lesson[] = [
     level: "IT-C1",
     number: 6,
     title: "Reading Lab: An Academic Article",
-    summary: "Read extracts from an article on young people and dialect, identify aim, method, results and hedges, and summarise it.",
+    summary: "Read extracts from an article on young people and dialect, identify aim, method, results and hedges, and summarize it.",
     duration: "19 min",
     sections: [
       {
@@ -458,7 +484,7 @@ export const IT_C1_U05: Lesson[] = [
       },
       { type: "multiple-choice", question: "What is the article's main finding?", options: ["Dialect is not disappearing among the young but has an expressive role.", "Young people no longer know any dialect.", "Dialect is used only in Milan.", "Messages are written entirely in dialect."], correctIndex: 0, explanation: "\"Lungi dallo scomparire, assume una funzione espressiva\"." },
       { type: "dictation", audio: "Il presente contributo intende colmare questa lacuna.", explanation: "\"Colmare\" = to fill." },
-      { type: "speak", text: "L'articolo tratta dell'uso del dialetto tra i giovani. Dai dati emerge che il dialetto, lungi dallo scomparire, assume una funzione espressiva.", prompt: "Summarise the article in two sentences: The article deals with the use of dialect among young people. The data show that dialect, far from disappearing, takes on an expressive function.", tip: "\"Lungi\": stress on the first syllable.", explanation: "Topic and main finding." },
+      { type: "speak", text: "L'articolo tratta dell'uso del dialetto tra i giovani. Dai dati emerge che il dialetto, lungi dallo scomparire, assume una funzione espressiva.", prompt: "Summarize the article in two sentences: The article deals with the use of dialect among young people. The data show that dialect, far from disappearing, takes on an expressive function.", tip: "\"Lungi\": stress on the first syllable.", explanation: "Topic and main finding." },
     ],
   },
   {
@@ -494,12 +520,12 @@ export const IT_C1_U05: Lesson[] = [
         ],
         examples: [
           { es: "È evidente che il campione è piccolo.", en: "It is clear that the sample is small." },
-          { es: "Si potrebbe ipotizzare che il fattore sia l'età.", en: "One might hypothesise that the factor is age." },
+          { es: "Si potrebbe ipotizzare che il fattore sia l'età.", en: "One might hypothesize that the factor is age." },
           { es: "Si ritiene che il dato sia affidabile.", en: "The figure is considered reliable." },
           { es: "È stato dimostrato che il metodo funziona.", en: "It has been shown that the method works." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "A student wrote \"Si potrebbe ipotizzare che il fattore è l'età\". Write it correctly: One might hypothesise that the factor is age.", source: "One might hypothesise that the factor is age.", answer: "Si potrebbe ipotizzare che il fattore sia l'età.", explanation: "Hedge + subjunctive." },
+          { type: "translate", direction: "en-es", prompt: "A student wrote \"Si potrebbe ipotizzare che il fattore è l'età\". Write it correctly: One might hypothesize that the factor is age.", source: "One might hypothesize that the factor is age.", answer: "Si potrebbe ipotizzare che il fattore sia l'età.", explanation: "Hedge + subjunctive." },
           { type: "multiple-choice", question: "Which sentence is correct?", options: ["È evidente che il campione è piccolo.", "È evidente che il campione sia piccolo.", "È evidente che il campione fosse piccolo.", "È evidente che il campione sarebbe piccolo."], correctIndex: 0, explanation: "A booster states a fact: indicative." },
         ],
       },
@@ -564,14 +590,14 @@ export const IT_C1_U05: Lesson[] = [
         heading: "The causes of change",
         body: [
           "The lecturer lists the factors that spread Italian in the following century: compulsory schooling, military service, internal migration from South to North, the bureaucracy of the new state and, above all, the mass media. Listen for the enumeration markers: \"in primo luogo\", \"poi\", \"un altro fattore\", \"ma soprattutto\".",
-          "Television, which began broadcasting in 1954, is often called the great teacher of Italian. The lecturer mentions \"Non è mai troppo tardi\", a RAI programme of the 1960s that taught reading and writing to adults.",
+          "Television, which began broadcasting in 1954, is often called the great teacher of Italian. The lecturer mentions \"Non è mai troppo tardi\", a RAI program of the 1960s that taught reading and writing to adults.",
         ],
         examples: [
           { es: "In primo luogo, la scuola obbligatoria.", en: "First, compulsory schooling." },
           { es: "Un altro fattore è il servizio militare, che mescolava giovani di regioni diverse.", en: "Another factor is military service, which mixed young men from different regions." },
           { es: "Le migrazioni interne portarono milioni di persone dal Sud al Nord.", en: "Internal migration brought millions of people from the South to the North." },
           { es: "Ma soprattutto la televisione, che iniziò le trasmissioni nel 1954.", en: "But above all television, which began broadcasting in 1954." },
-          { es: "Il programma insegnava a leggere e a scrivere agli adulti.", en: "The programme taught adults to read and write." },
+          { es: "Il programma insegnava a leggere e a scrivere agli adulti.", en: "The program taught adults to read and write." },
         ],
         checkpoint: [
           { type: "listen-choose", audio: "Un altro fattore è il servizio militare, che mescolava giovani di regioni diverse.", question: "Why did military service help?", options: ["It mixed young men from different regions.", "It taught grammar lessons.", "It banned dialects.", "It sent soldiers abroad."], correctIndex: 0, explanation: "\"Mescolava\" = mixed." },
@@ -603,13 +629,13 @@ export const IT_C1_U05: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into academic Italian.", source: "Illiteracy was over 75%.", answer: "L'analfabetismo superava il 75%.", altAnswers: ["L'analfabetismo era superiore al 75%."], explanation: "\"Superare\" = to exceed; article before the percentage." },
       { type: "translate", direction: "en-es", prompt: "Translate into academic Italian.", source: "The everyday language was dialect.", answer: "La lingua di tutti i giorni era il dialetto.", altAnswers: ["La lingua quotidiana era il dialetto."], explanation: "\"Di tutti i giorni\" = everyday." },
       { type: "translate", direction: "en-es", prompt: "Translate into academic Italian.", source: "Today almost all Italians speak Italian.", answer: "Oggi quasi tutti gli italiani parlano italiano.", altAnswers: ["Oggi quasi tutti gli italiani parlano l'italiano."], explanation: "Nationalities in lower case." },
-      { type: "translate", direction: "en-es", prompt: "Translate into academic Italian.", source: "The programme taught adults to read and write.", answer: "Il programma insegnava a leggere e a scrivere agli adulti.", altAnswers: ["Il programma insegnava agli adulti a leggere e a scrivere.", "Il programma insegnava agli adulti a leggere e scrivere."], explanation: "\"Insegnare a qualcuno a\" + infinitive." },
+      { type: "translate", direction: "en-es", prompt: "Translate into academic Italian.", source: "The program taught adults to read and write.", answer: "Il programma insegnava a leggere e a scrivere agli adulti.", altAnswers: ["Il programma insegnava agli adulti a leggere e a scrivere.", "Il programma insegnava agli adulti a leggere e scrivere."], explanation: "\"Insegnare a qualcuno a\" + infinitive." },
       { type: "translate", direction: "en-es", prompt: "Translate into academic Italian.", source: "Dialects are not necessarily destined to disappear.", answer: "I dialetti non sono necessariamente destinati a scomparire.", altAnswers: ["I dialetti non sono per forza destinati a scomparire.", "Non necessariamente i dialetti sono destinati a scomparire."], explanation: "\"Destinato a\" + infinitive = destined to." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[First], compulsory schooling.", sentence: "___, la scuola obbligatoria.", answer: "In primo luogo", altAnswers: ["Innanzitutto", "Prima di tutto"], explanation: "Enumeration marker." },
       { type: "word-order", prompt: "Put the words in order to say: Many alternate Italian and dialect.", words: ["Molti", "alternano", "italiano", "e", "dialetto."], translation: "Many alternate Italian and dialect.", explanation: "\"Alternare\" + two nouns." },
       { type: "multiple-choice", question: "Which factor does the lecturer stress most?", options: ["Television", "The army", "The church", "Newspapers"], correctIndex: 0, explanation: "\"Ma soprattutto la televisione\"." },
       { type: "dictation", audio: "In primo luogo, la scuola obbligatoria.", explanation: "Note-taking: one factor per line." },
-      { type: "speak", text: "Nel 1861 pochi italiani parlavano italiano; la scuola, le migrazioni e soprattutto la televisione hanno diffuso la lingua.", prompt: "Summarise the lecture: In 1861 few Italians spoke Italian; schooling, migration and above all television spread the language.", tip: "\"Milleottocentosessantuno\": take your time.", explanation: "The lecture in one sentence." },
+      { type: "speak", text: "Nel 1861 pochi italiani parlavano italiano; la scuola, le migrazioni e soprattutto la televisione hanno diffuso la lingua.", prompt: "Summarize the lecture: In 1861 few Italians spoke Italian; schooling, migration and above all television spread the language.", tip: "\"Milleottocentosessantuno\": take your time.", explanation: "The lecture in one sentence." },
     ],
   },
   {
@@ -648,11 +674,11 @@ export const IT_C1_U05: Lesson[] = [
         examples: [
           { es: "La motivazione personale prevale su quella strumentale.", en: "Personal motivation prevails over instrumental motivation." },
           { es: "Il 65% degli intervistati studia l'italiano per motivi familiari o culturali.", en: "65% of respondents study Italian for family or cultural reasons." },
-          { es: "Si potrebbe ipotizzare che ciò dipenda dall'età media del campione.", en: "One might hypothesise that this depends on the average age of the sample." },
+          { es: "Si potrebbe ipotizzare che ciò dipenda dall'età media del campione.", en: "One might hypothesize that this depends on the average age of the sample." },
           { es: "Due terzi del campione dichiarano di studiare da soli.", en: "Two thirds of the sample say they study on their own." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into academic Italian.", source: "One might hypothesise that this depends on the average age of the sample.", answer: "Si potrebbe ipotizzare che ciò dipenda dall'età media del campione.", altAnswers: ["Si potrebbe ipotizzare che questo dipenda dall'età media del campione."], explanation: "Hedge + subjunctive." },
+          { type: "translate", direction: "en-es", prompt: "Translate into academic Italian.", source: "One might hypothesize that this depends on the average age of the sample.", answer: "Si potrebbe ipotizzare che ciò dipenda dall'età media del campione.", altAnswers: ["Si potrebbe ipotizzare che questo dipenda dall'età media del campione."], explanation: "Hedge + subjunctive." },
           { type: "listen-choose", audio: "Il 65% degli intervistati studia l'italiano per motivi familiari o culturali.", question: "Why do most respondents study Italian?", options: ["For family or cultural reasons", "For work", "For exams", "Because it's compulsory"], correctIndex: 0, explanation: "\"Per motivi familiari o culturali\"." },
         ],
       },
@@ -692,7 +718,7 @@ export const IT_C1_U05: Lesson[] = [
     level: "IT-C1",
     number: 10,
     title: "Transformations: Informal to Academic",
-    summary: "Rewrite spoken opinions as academic prose: impersonal voice, precise vocabulary, hedges, connectors and nominalisation.",
+    summary: "Rewrite spoken opinions as academic prose: impersonal voice, precise vocabulary, hedges, connectors and nominalization.",
     duration: "19 min",
     sections: [
       {
@@ -706,7 +732,7 @@ export const IT_C1_U05: Lesson[] = [
           { es: "Si potrebbe sostenere che i social network incidano sulla competenza linguistica dei giovani.", en: "It could be argued that social media affect young people's linguistic competence." },
           { es: "Tutti i ragazzi scrivono male.", en: "All kids write badly. (spoken)" },
           { es: "Una parte consistente degli adolescenti mostra difficoltà nella scrittura.", en: "A substantial proportion of adolescents show difficulties in writing." },
-          { es: "È possibile ipotizzare che la lettura favorisca la competenza ortografica.", en: "It is possible to hypothesise that reading favours spelling competence." },
+          { es: "È possibile ipotizzare che la lettura favorisca la competenza ortografica.", en: "It is possible to hypothesize that reading favors spelling competence." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Rewrite \"Tutti i ragazzi scrivono male\" in academic style: A substantial proportion of adolescents show difficulties in writing.", source: "A substantial proportion of adolescents show difficulties in writing.", answer: "Una parte consistente degli adolescenti mostra difficoltà nella scrittura.", altAnswers: ["Una parte consistente degli adolescenti presenta difficoltà nella scrittura.", "Una parte consistente degli adolescenti mostra difficoltà di scrittura."], explanation: "Measured quantity instead of \"tutti\"." },
@@ -714,10 +740,10 @@ export const IT_C1_U05: Lesson[] = [
         ],
       },
       {
-        heading: "Nominalise with judgement",
+        heading: "Nominalize with judgment",
         body: [
-          "Academic Italian uses more nouns than speech, and moderate nominalisation is a mark of the register: \"Quando i ragazzi leggono di più, scrivono meglio\" → \"Una maggiore frequenza di lettura è associata a una migliore qualità della scrittura\". The noun phrases (\"frequenza di lettura\", \"qualità della scrittura\") become measurable concepts.",
-          "Don't overdo it: after Unit 4, you know where nominal style leads. One or two nominalised concepts per sentence, connected by a clear verb (\"è associata a\", \"comporta\", \"determina\").",
+          "Academic Italian uses more nouns than speech, and moderate nominalization is a mark of the register: \"Quando i ragazzi leggono di più, scrivono meglio\" → \"Una maggiore frequenza di lettura è associata a una migliore qualità della scrittura\". The noun phrases (\"frequenza di lettura\", \"qualità della scrittura\") become measurable concepts.",
+          "Don't overdo it: after Unit 4, you know where nominal style leads. One or two nominalized concepts per sentence, connected by a clear verb (\"è associata a\", \"comporta\", \"determina\").",
         ],
         examples: [
           { es: "Quando i ragazzi leggono di più, scrivono meglio.", en: "When kids read more, they write better. (spoken)" },
@@ -726,7 +752,7 @@ export const IT_C1_U05: Lesson[] = [
           { es: "L'uso prolungato dello smartphone comporta una riduzione delle ore di sonno.", en: "Prolonged smartphone use leads to a reduction in hours of sleep." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Rewrite \"Quando i ragazzi leggono di più, scrivono meglio\" academically: A higher frequency of reading is associated with better quality of writing.", source: "A higher frequency of reading is associated with better quality of writing.", answer: "Una maggiore frequenza di lettura è associata a una migliore qualità della scrittura.", altAnswers: ["Una maggiore frequenza di lettura è associata a una qualità migliore della scrittura."], explanation: "Two nominalised concepts linked by \"è associata a\"." },
+          { type: "translate", direction: "en-es", prompt: "Rewrite \"Quando i ragazzi leggono di più, scrivono meglio\" academically: A higher frequency of reading is associated with better quality of writing.", source: "A higher frequency of reading is associated with better quality of writing.", answer: "Una maggiore frequenza di lettura è associata a una migliore qualità della scrittura.", altAnswers: ["Una maggiore frequenza di lettura è associata a una qualità migliore della scrittura."], explanation: "Two nominalized concepts linked by \"è associata a\"." },
           { type: "listen-choose", audio: "L'uso prolungato dello smartphone comporta una riduzione delle ore di sonno.", question: "What does prolonged smartphone use lead to?", options: ["Less sleep", "Better grades", "More reading", "Longer days"], correctIndex: 0, explanation: "\"Riduzione delle ore di sonno\"." },
         ],
       },
@@ -750,8 +776,8 @@ export const IT_C1_U05: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Rewrite \"Secondo me i social rovinano l'italiano dei ragazzi\" academically: It could be argued that social media affect young people's linguistic competence.", source: "It could be argued that social media affect young people's linguistic competence.", answer: "Si potrebbe sostenere che i social network incidano sulla competenza linguistica dei giovani.", altAnswers: ["Si potrebbe sostenere che i social network influiscano sulla competenza linguistica dei giovani.", "Si potrebbe sostenere che i social incidano sulla competenza linguistica dei giovani."], explanation: "Impersonal hedge, precise verb, subjunctive." },
-      { type: "translate", direction: "en-es", prompt: "Rewrite \"Se si usa molto il telefono, si dorme meno\" academically: Prolonged smartphone use leads to a reduction in hours of sleep.", source: "Prolonged smartphone use leads to a reduction in hours of sleep.", answer: "L'uso prolungato dello smartphone comporta una riduzione delle ore di sonno.", altAnswers: ["L'uso prolungato dello smartphone determina una riduzione delle ore di sonno."], explanation: "Nominalisation with \"comporta\"." },
-      { type: "translate", direction: "en-es", prompt: "Rewrite \"Penso che leggere aiuti a scrivere bene\" academically: It is possible to hypothesise that reading favours writing skills.", source: "It is possible to hypothesise that reading favours writing skills.", answer: "È possibile ipotizzare che la lettura favorisca le competenze di scrittura.", altAnswers: ["È possibile ipotizzare che la lettura favorisca la competenza di scrittura.", "Si può ipotizzare che la lettura favorisca le competenze di scrittura."], explanation: "\"Penso che\" → \"è possibile ipotizzare che\"." },
+      { type: "translate", direction: "en-es", prompt: "Rewrite \"Se si usa molto il telefono, si dorme meno\" academically: Prolonged smartphone use leads to a reduction in hours of sleep.", source: "Prolonged smartphone use leads to a reduction in hours of sleep.", answer: "L'uso prolungato dello smartphone comporta una riduzione delle ore di sonno.", altAnswers: ["L'uso prolungato dello smartphone determina una riduzione delle ore di sonno."], explanation: "Nominalization with \"comporta\"." },
+      { type: "translate", direction: "en-es", prompt: "Rewrite \"Penso che leggere aiuti a scrivere bene\" academically: It is possible to hypothesize that reading favors writing skills.", source: "It is possible to hypothesize that reading favors writing skills.", answer: "È possibile ipotizzare che la lettura favorisca le competenze di scrittura.", altAnswers: ["È possibile ipotizzare che la lettura favorisca la competenza di scrittura.", "Si può ipotizzare che la lettura favorisca le competenze di scrittura."], explanation: "\"Penso che\" → \"è possibile ipotizzare che\"." },
       { type: "translate", direction: "en-es", prompt: "Rewrite \"I ragazzi non leggono mai\" academically: Adolescents read relatively little.", source: "Adolescents read relatively little.", answer: "Gli adolescenti leggono relativamente poco.", altAnswers: ["Gli adolescenti leggono piuttosto poco.", "I giovani leggono relativamente poco."], explanation: "Measured claim instead of \"mai\"." },
       { type: "translate", direction: "en-es", prompt: "Rewrite \"Cioè, il problema è la scuola\" academically: In other words, the problem lies with the school system.", source: "In other words, the problem lies with the school system.", answer: "In altri termini, il problema risiede nel sistema scolastico.", altAnswers: ["In altre parole, il problema risiede nel sistema scolastico.", "In altri termini, il problema riguarda il sistema scolastico."], explanation: "\"Risiedere in\" = to lie in." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[However], the extent of the phenomenon should not be overestimated.", sentence: "___, la portata del fenomeno non va sopravvalutata.", answer: "Tuttavia", explanation: "Formal contrast." },

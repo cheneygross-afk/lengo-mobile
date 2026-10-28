@@ -318,7 +318,7 @@ export const IT_A2_U14: Lesson[] = [
         heading: "Mi piacerebbe",
         body: [
           "\"Piacere\" in the conditional gives the most natural way to talk about wishes: \"Mi piacerebbe vivere a Venezia\" (I'd like to live in Venice). As with \"mi piace\", the person is an indirect pronoun: \"ti piacerebbe\", \"gli piacerebbe\", \"le piacerebbe\", \"ci piacerebbe\".",
-          "With a plural noun the verb is plural: \"Mi piacerebbero due figli\" (I'd like two children). With an infinitive it's always singular. Never say \"mi piacerei\": that means I would be liked.",
+          "With a plural noun the verb is plural: \"Mi piacerebbero due figli\" (I'd like two children). With an infinitive it's always singular. Never say \"mi piacerei\": that would mean I'd like myself.",
         ],
         examples: [
           { es: "Mi piacerebbe vivere a Venezia.", en: "I'd like to live in Venice." },
@@ -624,7 +624,7 @@ export const IT_A2_U14: Lesson[] = [
         heading: "Wrong forms",
         body: [
           "\"Dovrebbi\" mixes up the endings: the tu form is \"dovresti\", the lui / lei form \"dovrebbe\". Learn the endings as a chant: \"-ei, -esti, -ebbe, -emmo, -este, -ebbero\".",
-          "\"Mi piacerei\" means I would be liked by myself. Like \"mi piace\", the verb agrees with the thing you like: \"Mi piacerebbe\" (+ singular or infinitive), \"Mi piacerebbero\" (+ plural).",
+          "\"Mi piacerei\" would mean I'd like myself. Like \"mi piace\", the verb agrees with the thing you like: \"Mi piacerebbe\" (+ singular or infinitive), \"Mi piacerebbero\" (+ plural).",
         ],
         examples: [
           { es: "Dovresti chiamarla.", en: "You should call her." },

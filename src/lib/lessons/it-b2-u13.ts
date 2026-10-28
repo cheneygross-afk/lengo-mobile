@@ -18,17 +18,17 @@ export const IT_B2_U13: Lesson[] = [
       {
         heading: "What it's for: occhiali da sole",
         body: [
-          "You know \"da\" for from, at someone's place (\"da Marco\", \"dal medico\") and since (\"da due anni\"). Between two nouns, \"da\" also says what something is for: \"occhiali da sole\" (sunglasses), \"scarpe da ginnastica\" (trainers), \"macchina da scrivere\" (typewriter), \"camera da letto\" (bedroom).",
+          "You know \"da\" for from, at someone's place (\"da Marco\", \"dal medico\") and since (\"da due anni\"). Between two nouns, \"da\" also says what something is for: \"occhiali da sole\" (sunglasses), \"scarpe da ginnastica\" (sneakers), \"macchina da scrivere\" (typewriter), \"camera da letto\" (bedroom).",
           "Compare \"di\", which says what something is made of or contains: \"un bicchiere di vetro\" (a glass made of glass), \"un bicchiere di vino\" (a glass of wine), but \"un bicchiere da vino\" (a wine glass, possibly empty). English just puts the nouns together, so learners guess; the question is always: purpose (\"da\") or material and content (\"di\")?",
-          "\"Da\" also gives the value of a coin, a note or a ticket: \"una banconota da 50 euro\", \"un francobollo da un euro\", \"una bottiglia da un litro\".",
+          "\"Da\" also gives the value of a coin, a bill or a ticket: \"una banconota da 50 euro\", \"un francobollo da un euro\", \"una bottiglia da un litro\".",
         ],
         examples: [
           { es: "Ho dimenticato gli occhiali da sole in macchina.", en: "I left my sunglasses in the car." },
-          { es: "Mi servono scarpe da ginnastica nuove.", en: "I need new trainers." },
+          { es: "Mi servono scarpe da ginnastica nuove.", en: "I need new sneakers." },
           { es: "Mio nonno scriveva ancora con la macchina da scrivere.", en: "My grandfather still wrote on a typewriter." },
           { es: "Passami un bicchiere da vino, per favore.", en: "Pass me a wine glass, please." },
           { es: "Vorrei un bicchiere di vino rosso.", en: "I'd like a glass of red wine." },
-          { es: "Ha pagato con una banconota da 50 euro.", en: "He paid with a 50-euro note." },
+          { es: "Ha pagato con una banconota da 50 euro.", en: "He paid with a 50-euro bill." },
         ],
         checkpoint: [
           {
@@ -50,7 +50,7 @@ export const IT_B2_U13: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Italian for the bold words.",
-            en: "He paid with [a 50-euro note].",
+            en: "He paid with [a 50-euro bill].",
             sentence: "Ha pagato con ___.",
             answer: "una banconota da 50 euro",
             altAnswers: ["una banconota da cinquanta euro", "un biglietto da 50 euro"],
@@ -135,21 +135,21 @@ export const IT_B2_U13: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I need new trainers.", answer: "Mi servono scarpe da ginnastica nuove.", altAnswers: ["Ho bisogno di scarpe da ginnastica nuove.", "Mi servono delle scarpe da ginnastica nuove.", "Mi servono nuove scarpe da ginnastica."], explanation: "Purpose: \"scarpe da ginnastica\"; \"servono\" agrees with the plural." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I need new sneakers.", answer: "Mi servono scarpe da ginnastica nuove.", altAnswers: ["Ho bisogno di scarpe da ginnastica nuove.", "Mi servono delle scarpe da ginnastica nuove.", "Mi servono nuove scarpe da ginnastica."], explanation: "Purpose: \"scarpe da ginnastica\"; \"servono\" agrees with the plural." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'd like a glass of red wine.", answer: "Vorrei un bicchiere di vino rosso.", explanation: "Content: \"di vino\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "What do you want to be when you grow up? (to a child)", answer: "Cosa vuoi fare da grande?", altAnswers: ["Che cosa vuoi fare da grande?", "Che vuoi fare da grande?", "Cosa vuoi diventare da grande?"], explanation: "\"Da grande\" = when you grow up; Italians ask what you'll do." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I've got a lot to do today.", answer: "Ho tanto da fare oggi.", altAnswers: ["Oggi ho tanto da fare.", "Ho molto da fare oggi.", "Oggi ho molto da fare.", "Oggi ho un sacco da fare."], explanation: "\"Da\" + infinitive = to be done." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "A man with a white beard was selling chestnuts.", answer: "Un uomo dalla barba bianca vendeva castagne.", altAnswers: ["Un uomo con la barba bianca vendeva castagne.", "Un uomo dalla barba bianca vendeva le castagne."], explanation: "\"Dalla barba bianca\": a distinctive feature." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He behaved like a true friend.", answer: "Si è comportato da vero amico.", explanation: "\"Da\" + role = as a real one." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'd like [a one-euro stamp], please.", sentence: "Vorrei ___, per favore.", answer: "un francobollo da un euro", altAnswers: ["un francobollo da 1 euro"], explanation: "Value: \"da\" + amount." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The flat has two [bedrooms].", sentence: "L'appartamento ha due ___.", answer: "camere da letto", explanation: "\"Camera\" = room; \"da letto\" says what it's for." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "They went on holiday [on their own].", sentence: "Sono andati in vacanza ___.", answer: "da soli", explanation: "\"Da soli\" agrees with the plural subject." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The apartment has two [bedrooms].", sentence: "L'appartamento ha due ___.", answer: "camere da letto", explanation: "\"Camera\" = room; \"da letto\" says what it's for." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "They went on vacation [on their own].", sentence: "Sono andati in vacanza ___.", answer: "da soli", explanation: "\"Da soli\" agrees with the plural subject." },
       { type: "word-order", prompt: "Put the words in order to say: Sofia has energy to spare.", words: ["Sofia", "ha", "energia", "da", "vendere."], translation: "Sofia has energy to spare.", explanation: "\"Da vendere\" = in abundance." },
       { type: "dictation", audio: "Da bambina passavo l'estate dai nonni.", explanation: "\"Da bambina\" (as a child) and \"dai nonni\" (at my grandparents')." },
       {
         type: "speak",
         text: "Da bambino non avevo scarpe da ginnastica, giocavo a calcio con le scarpe da scuola.",
-        prompt: "Say it in Italian: As a child I didn't have trainers, I played football in my school shoes.",
+        prompt: "Say it in Italian: As a child I didn't have sneakers, I played soccer in my school shoes.",
         tip: "\"Ginnastica\": the gn is the ny of canyon, gin-NA-sti-ca.",
         explanation: "\"Da bambino\" for the stage of life, \"da\" for what the shoes are for.",
       },
@@ -308,6 +308,7 @@ export const IT_B2_U13: Lesson[] = [
         body: [
           "\"Pensare a\" means to think about, to have in mind: \"Penso a te\" (I'm thinking of you), \"Pensa al lavoro anche in vacanza.\" \"Pensare di\" + infinitive means to plan to, to intend: \"Penso di partire domani\" (I'm thinking of leaving tomorrow). For an opinion, \"pensare di\" + noun is the question: \"Che ne pensi?\", \"Cosa pensi di questo film?\"",
           "\"Credere a\" means to believe what someone says, or to believe a story: \"Non credo a una parola\", \"Gli credi?\" \"Credere in\" means to have faith in: \"Credo in te\", \"credere in Dio\", \"credere nella giustizia\".",
+          "For things whose existence or truth you accept, Italian usually says \"a\" where English says in: \"credere ai fantasmi\", \"Credi agli oroscopi?\", \"Non credo ai miracoli.\" Keep \"in\" for faith and values: \"credere in Dio\", \"nella democrazia\", \"in se stessi\". With pronouns the difference shows: \"credere a\" becomes an indirect object (\"Gli credi?\", \"Non le credo\"), while \"credere in\" keeps its preposition (\"Credo in lui\").",
         ],
         examples: [
           { es: "Penso sempre a te.", en: "I'm always thinking of you." },
@@ -315,6 +316,7 @@ export const IT_B2_U13: Lesson[] = [
           { es: "Cosa pensi di questo film?", en: "What do you think of this film?" },
           { es: "Non credo a una parola di quello che dice.", en: "I don't believe a word he says." },
           { es: "Credo in te: ce la farai.", en: "I believe in you: you'll make it." },
+          { es: "Non credo agli oroscopi.", en: "I don't believe in horoscopes." },
         ],
         checkpoint: [
           {
@@ -343,6 +345,7 @@ export const IT_B2_U13: Lesson[] = [
           "English depends on, Italian depends from: \"dipendere da\": \"Dipende da te\", \"Dipende dal tempo\". \"Fidarsi di\" = to trust: \"Mi fido di lei\", \"Non fidarti di nessuno.\" English speakers reach for \"su\" in both, and both are wrong.",
           "\"Interessarsi di\" = to be interested in, to deal with a field: \"Si interessa di politica.\" \"Interessarsi a\" is a person's interest in something specific: \"Si è interessato al progetto.\" Meanwhile \"essere interessato a\" (to be interested in) takes \"a\": \"Sono interessata al corso.\"",
           "Other frequent pairs: \"innamorarsi di\", \"occuparsi di\" (to look after, deal with), \"partecipare a\", \"rinunciare a\" (to give up), \"sognare di\" (to dream of), \"ringraziare per\" or \"di\".",
+          "Watch the verbs where the two languages swap. English waits for, looks for, listens to and looks at; Italian uses a direct object: \"aspettare il treno\", \"cercare le chiavi\", \"ascoltare la radio\", \"guardare il mare\". The reverse happens with \"telefonare a\", \"rispondere a\", \"chiedere a\" and \"somigliare a\", which take \"a\" where English has a direct object. This decides the pronoun: \"Ho telefonato a Marta\" becomes \"Le ho telefonato\", never \"l'ho telefonata\"; \"Assomiglia a suo padre\" becomes \"Gli assomiglia\".",
         ],
         examples: [
           { es: "Dipende da te.", en: "It depends on you." },
@@ -351,6 +354,7 @@ export const IT_B2_U13: Lesson[] = [
           { es: "Sono interessata al corso di fotografia.", en: "I'm interested in the photography course." },
           { es: "Si è innamorato di una ragazza di Cagliari.", en: "He fell in love with a girl from Cagliari." },
           { es: "Chi si occupa dei bambini stasera?", en: "Who's looking after the children tonight?" },
+          { es: "Ho telefonato a Marta, ma non mi ha risposto.", en: "I called Marta, but she didn't answer me." },
         ],
         checkpoint: [
           {
@@ -454,7 +458,7 @@ export const IT_B2_U13: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "As a student I lived in Padua.", answer: "Da studente abitavo a Padova.", altAnswers: ["Da studentessa abitavo a Padova.", "Da studente vivevo a Padova.", "Da studentessa vivevo a Padova."], explanation: "\"Da\" + role / stage = when I was." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The children went to school on their own.", answer: "I bambini sono andati a scuola da soli.", altAnswers: ["I ragazzi sono andati a scuola da soli.", "Le bambine sono andate a scuola da sole."], explanation: "\"Da soli\" agrees with \"bambini\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She plays like a professional.", answer: "Gioca da professionista.", altAnswers: ["Gioca come una professionista.", "Lei gioca da professionista.", "Suona da professionista."], explanation: "\"Da\" + role = as a real one." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Where are the [swimming costumes]?", sentence: "Dove sono i costumi ___?", answer: "da bagno", explanation: "\"Costume da bagno\" = swimsuit." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Where are the [swimsuits]?", sentence: "Dove sono i costumi ___?", answer: "da bagno", explanation: "\"Costume da bagno\" = swimsuit." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "We need a new [dining room] table.", sentence: "Ci serve un nuovo tavolo ___.", answer: "da pranzo", explanation: "Purpose: \"tavolo da pranzo\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[The boy with] glasses is my cousin.", sentence: "___ occhiali è mio cugino.", answer: "Il ragazzo dagli", altAnswers: ["Il ragazzo con gli"], explanation: "\"Da\" + \"gli\" = \"dagli\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Have you got anything [to read]?", sentence: "Hai qualcosa ___?", answer: "da leggere", explanation: "\"Da\" + infinitive." },
@@ -465,7 +469,7 @@ export const IT_B2_U13: Lesson[] = [
       {
         type: "speak",
         text: "Da piccolo passavo le vacanze dai nonni e giravo il paese da solo in bici.",
-        prompt: "Say it in Italian: When I was little I spent the holidays at my grandparents' and rode around the village on my own on my bike.",
+        prompt: "Say it in Italian: When I was little I spent my vacations at my grandparents' and rode around the village on my own on my bike.",
         tip: "\"Passavo\": double s, pas-SA-vo.",
         explanation: "Three uses of \"da\" in one sentence.",
       },
@@ -521,7 +525,7 @@ export const IT_B2_U13: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She's a woman of about fifty.", answer: "È una donna sui cinquant'anni.", altAnswers: ["È una donna sulla cinquantina.", "È una donna di circa cinquant'anni."], explanation: "\"Sui\" + age = roughly." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's a film about the war.", answer: "È un film sulla guerra.", explanation: "Topic: \"su\" + \"la\" = \"sulla\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I sent the message by mistake.", answer: "Ho mandato il messaggio per sbaglio.", altAnswers: ["Ho inviato il messaggio per sbaglio.", "Ho mandato per sbaglio il messaggio."], explanation: "\"Per sbaglio\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm thinking about my holidays.", answer: "Penso alle vacanze.", altAnswers: ["Penso alle mie vacanze.", "Sto pensando alle vacanze.", "Sto pensando alle mie vacanze."], explanation: "\"Pensare a\" + \"le\" = \"alle\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm thinking about my vacation.", answer: "Penso alle vacanze.", altAnswers: ["Penso alle mie vacanze.", "Sto pensando alle vacanze.", "Sto pensando alle mie vacanze."], explanation: "\"Pensare a\" + \"le\" = \"alle\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We're planning to buy a house.", answer: "Pensiamo di comprare una casa.", altAnswers: ["Pensiamo di comprarci una casa.", "Stiamo pensando di comprare una casa."], explanation: "\"Pensare di\" + infinitive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Do you believe him? (to a friend)", answer: "Gli credi?", altAnswers: ["Tu gli credi?", "Credi a lui?"], explanation: "\"Credere a\" + person → \"gli\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The price [depends on the] season.", sentence: "Il prezzo ___ stagione.", answer: "dipende dalla", explanation: "\"Dipendere da\" + \"la\"." },
@@ -555,6 +559,7 @@ export const IT_B2_U13: Lesson[] = [
           "\"Pensare a\" + noun or person: to think about, to have on your mind (\"Penso a mia madre\"). It also means to take care of: \"Ci penso io\", \"Pensa ai bambini mentre esco.\"",
           "\"Pensare di\" + infinitive: to intend, to plan (\"Penso di tornare a giugno\"). \"Pensare di\" + noun or \"che ne pensi?\": an opinion about something (\"Cosa pensi di Marco?\" = what's your opinion of Marco?).",
           "\"Pensare che\" + subjunctive: to think that, an opinion about a fact (\"Penso che abbia ragione\"). With the same subject, use \"di\" + infinitive instead: \"Penso di avere ragione\", not \"penso che io abbia ragione\".",
+          "The pronouns follow the preposition. \"A\" + a thing becomes \"ci\": \"Pensaci bene\", \"Non ci pensare\", \"Ci penso io\". \"Di\" + a thing becomes \"ne\": \"Che ne pensi?\" With people, keep the stressed pronoun after \"a\" (\"Penso a lei\"), or use the affectionate \"Ti penso\" (I'm thinking of you), where \"pensare\" takes a direct object. A short answer uses \"di\": \"Penso di sì\", \"Penso di no\" (I think so, I don't think so).",
         ],
         examples: [
           { es: "Penso spesso a mia nonna.", en: "I often think about my grandmother." },
@@ -562,6 +567,7 @@ export const IT_B2_U13: Lesson[] = [
           { es: "Pensiamo di tornare a giugno.", en: "We're planning to come back in June." },
           { es: "Cosa pensi di Marco?", en: "What do you think of Marco?" },
           { es: "Penso che Marco abbia ragione.", en: "I think Marco is right." },
+          { es: "Pensaci bene prima di rispondere.", en: "Think it over before you answer." },
           { es: "Penso di avere ragione.", en: "I think I'm right." },
         ],
         checkpoint: [
@@ -597,13 +603,15 @@ export const IT_B2_U13: Lesson[] = [
         body: [
           "Read the pairs aloud. Only the preposition changes, and the meaning flips: \"Penso a cambiare casa\" (I'm thinking about moving, it's on my mind) vs \"Penso di cambiare casa\" (I'm planning to move). Most Italians would use the second for a plan.",
           "\"Credere\" works the same way: \"Credo a Luca\" (I believe what Luca says), \"Credo in Luca\" (I have faith in him), \"Credo che Luca venga\" (I think he's coming), \"Credo di aver capito\" (I think I've understood).",
+          "Tense adds nuance. \"Pensavo di\" + infinitive softens a proposal (\"Pensavo di invitare anche Luca\"), and \"ho pensato di\" means it occurred to me, I decided: \"Ho pensato di farti una sorpresa\" (I thought I'd surprise you). After \"penso che\", careful Italian keeps the subjunctive; you will hear \"Penso che ha ragione\" in casual speech, but it still sounds sloppy in writing. With a future meaning the indicative is normal: \"Penso che verrà.\"",
         ],
         examples: [
-          { es: "Penso di cambiare casa.", en: "I'm planning to move house." },
+          { es: "Penso di cambiare casa.", en: "I'm planning to move." },
           { es: "Penso sempre alla casa al mare.", en: "I'm always thinking about the house by the sea." },
           { es: "Credo a Luca: non mente mai.", en: "I believe Luca: he never lies." },
           { es: "Credo in Luca: ce la farà.", en: "I have faith in Luca: he'll make it." },
           { es: "Credo di aver capito.", en: "I think I've understood." },
+          { es: "Ho pensato di farti una sorpresa.", en: "I thought I'd surprise you." },
         ],
         checkpoint: [
           {
@@ -666,11 +674,11 @@ export const IT_B2_U13: Lesson[] = [
       {
         heading: "Fix the noun phrases",
         body: [
-          "Each sentence was written by a learner and has one mistake. \"Una macchina di corsa\" should say what the car is for: \"una macchina da corsa\" (a racing car). \"Un bicchiere da latte\" when you mean one full of milk should be \"un bicchiere di latte\".",
+          "Each sentence was written by a learner and has one mistake. \"Una macchina di corsa\" should say what the car is for: \"una macchina da corsa\" (a race car). \"Un bicchiere da latte\" when you mean one full of milk should be \"un bicchiere di latte\".",
           "\"Come un bambino, abitavo a Roma\" translates as a child word for word, but \"come\" means like: \"Da bambino abitavo a Roma.\" And \"una ragazza di occhi azzurri\" needs \"dagli\" (or \"con gli\"): \"una ragazza dagli occhi azzurri\".",
         ],
         examples: [
-          { es: "Ha sempre sognato una macchina da corsa.", en: "He's always dreamed of a racing car." },
+          { es: "Ha sempre sognato una macchina da corsa.", en: "He's always dreamed of a race car." },
           { es: "Bevo un bicchiere di latte prima di dormire.", en: "I drink a glass of milk before bed." },
           { es: "Da bambino abitavo a Roma.", en: "As a child I lived in Rome." },
           { es: "Ho conosciuto una ragazza dagli occhi azzurri.", en: "I met a girl with blue eyes." },
@@ -688,7 +696,7 @@ export const IT_B2_U13: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "A learner wrote \"una macchina di corsa\". Write the Italian for the bold words.",
-            en: "He's always dreamed of [a racing car].",
+            en: "He's always dreamed of [a race car].",
             sentence: "Ha sempre sognato ___.",
             answer: "una macchina da corsa",
             altAnswers: ["un'auto da corsa"],
@@ -747,7 +755,7 @@ export const IT_B2_U13: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Fix \"Un libro di Roma antica\" (meaning about it) and write: A book about ancient Rome.", source: "A book about ancient Rome.", answer: "Un libro sulla Roma antica.", altAnswers: ["Un libro sull'antica Roma.", "Un libro su Roma antica."], explanation: "Topic: \"su\"." },
       { type: "translate", direction: "en-es", prompt: "Fix \"Lo faccio sola\" and write: I'll do it by myself. (a woman speaking)", source: "I'll do it by myself.", answer: "Lo faccio da sola.", altAnswers: ["Lo faccio io da sola.", "Lo farò da sola."], explanation: "\"Da sola\" = without help; plain \"sola\" means alone, on my own in the sense of lonely." },
       { type: "fill-blank", prompt: "A learner wrote \"Penso a partire\". Write the Italian for the bold words.", en: "[I'm planning to leave] on Monday.", sentence: "___ lunedì.", answer: "Penso di partire", altAnswers: ["Ho intenzione di partire", "Pensavo di partire"], explanation: "Plan: \"pensare di\"." },
-      { type: "fill-blank", prompt: "A learner wrote \"un biglietto di 20 euro\" for the banknote. Write the Italian for the bold words.", en: "Have you got change for [a 20-euro note]?", sentence: "Hai da cambiare ___?", answer: "un biglietto da 20 euro", altAnswers: ["una banconota da 20 euro", "una banconota da venti euro", "un biglietto da venti euro"], explanation: "Value: \"da\"." },
+      { type: "fill-blank", prompt: "A learner wrote \"un biglietto di 20 euro\" for the banknote. Write the Italian for the bold words.", en: "Have you got change for [a 20-euro bill]?", sentence: "Hai da cambiare ___?", answer: "un biglietto da 20 euro", altAnswers: ["una banconota da 20 euro", "una banconota da venti euro", "un biglietto da venti euro"], explanation: "Value: \"da\"." },
       { type: "fill-blank", prompt: "A learner wrote \"di estate\". Write the Italian for the bold word.", en: "[In summer] it's very hot here.", sentence: "___ qui fa molto caldo.", answer: "D'estate", altAnswers: ["In estate"], explanation: "\"Di\" elides before a vowel: \"d'estate\"." },
       { type: "multiple-choice", question: "Which sentence is correct?", options: ["Si è innamorato di Giulia.", "Si è innamorato con Giulia.", "Si è innamorato a Giulia.", "Si è innamorato in Giulia."], correctIndex: 0, explanation: "\"Innamorarsi di\"." },
       { type: "dictation", audio: "Da ragazzo sognavo una macchina da corsa.", explanation: "\"Da ragazzo\" and \"da corsa\"." },
@@ -775,10 +783,10 @@ export const IT_B2_U13: Lesson[] = [
           "\"Da più di cent'anni\" (for more than a hundred years) uses \"da\" because the shop is still open. \"Scaffali di legno\" are shelves made of wood; \"barattoli da cucina\" are jars made for the kitchen.",
         ],
         examples: [
-          { es: "In una stradina del centro di Palermo c'è una drogheria aperta da più di cent'anni.", en: "In a little street in the centre of Palermo there's a grocer's that has been open for more than a hundred years." },
+          { es: "In una stradina del centro di Palermo c'è una drogheria aperta da più di cent'anni.", en: "In a little street in the center of Palermo there's a grocery store that has been open for more than a hundred years." },
           { es: "Alle pareti ci sono scaffali di legno scuro pieni di barattoli da cucina.", en: "On the walls there are dark wooden shelves full of kitchen jars." },
-          { es: "Sul bancone, tra una bilancia antica e un vaso di fiori, c'è sempre un piatto di mandorle.", en: "On the counter, between an old pair of scales and a vase of flowers, there's always a plate of almonds." },
-          { es: "Il proprietario è un signore sui settant'anni, dai baffi bianchi e dalla voce gentile.", en: "The owner is a gentleman of about seventy, with a white moustache and a kind voice." },
+          { es: "Sul bancone, tra una bilancia antica e un vaso di fiori, c'è sempre un piatto di mandorle.", en: "On the counter, between an old scale and a vase of flowers, there's always a plate of almonds." },
+          { es: "Il proprietario è un signore sui settant'anni, dai baffi bianchi e dalla voce gentile.", en: "The owner is a gentleman of about seventy, with a white mustache and a kind voice." },
         ],
         checkpoint: [
           {
@@ -814,7 +822,7 @@ export const IT_B2_U13: Lesson[] = [
           "\"Per abitudine\" (out of habit) and \"per curiosità\" (out of curiosity) give a reason with \"per\" + noun, as in \"per sbaglio\".",
         ],
         examples: [
-          { es: "Di mattina arrivano le signore del quartiere, che vengono da lui per abitudine.", en: "In the morning the women of the neighbourhood arrive; they come to his shop out of habit." },
+          { es: "Di mattina arrivano le signore del quartiere, che vengono da lui per abitudine.", en: "In the morning the women of the neighborhood arrive; they come to his shop out of habit." },
           { es: "Di pomeriggio entrano i turisti, spesso solo per curiosità.", en: "In the afternoon the tourists come in, often just out of curiosity." },
           { es: "Il signor Vito racconta storie sulla Palermo di una volta.", en: "Signor Vito tells stories about the Palermo of the past." },
           { es: "Nessuno esce dal negozio a mani vuote.", en: "Nobody leaves the shop empty-handed." },
@@ -841,11 +849,11 @@ export const IT_B2_U13: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "There's a grocer's that has been open for more than a hundred years.", answer: "C'è una drogheria aperta da più di cent'anni.", altAnswers: ["C'è una drogheria che è aperta da più di cent'anni.", "C'è un negozio di alimentari aperto da più di cent'anni."], explanation: "Still open: \"da\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "There's a grocery store that has been open for more than a hundred years.", answer: "C'è una drogheria aperta da più di cent'anni.", altAnswers: ["C'è una drogheria che è aperta da più di cent'anni.", "C'è un negozio di alimentari aperto da più di cent'anni.", "C'è un alimentari aperto da più di cent'anni."], explanation: "Still open: \"da\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "There's always a plate of almonds on the counter.", answer: "Sul bancone c'è sempre un piatto di mandorle.", altAnswers: ["C'è sempre un piatto di mandorle sul bancone."], explanation: "Content: \"un piatto di\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The women of the neighbourhood come to his shop out of habit.", answer: "Le signore del quartiere vengono da lui per abitudine.", altAnswers: ["Le signore del quartiere vanno da lui per abitudine.", "Le donne del quartiere vengono da lui per abitudine."], explanation: "\"Da lui\" = to his place; \"per abitudine\" = out of habit." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The women of the neighborhood come to his shop out of habit.", answer: "Le signore del quartiere vengono da lui per abitudine.", altAnswers: ["Le signore del quartiere vanno da lui per abitudine.", "Le donne del quartiere vengono da lui per abitudine."], explanation: "\"Da lui\" = to his place; \"per abitudine\" = out of habit." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Nobody leaves the shop empty-handed.", answer: "Nessuno esce dal negozio a mani vuote.", explanation: "\"Uscire da\" + \"il\" = \"dal\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "A gentleman [with a white moustache].", sentence: "Un signore ___.", answer: "dai baffi bianchi", altAnswers: ["con i baffi bianchi", "coi baffi bianchi"], explanation: "Feature: \"da\" + \"i\" = \"dai\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "A gentleman [with a white mustache].", sentence: "Un signore ___.", answer: "dai baffi bianchi", altAnswers: ["con i baffi bianchi", "coi baffi bianchi"], explanation: "Feature: \"da\" + \"i\" = \"dai\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Between] the scales and the vase there's a plate.", sentence: "___ la bilancia e il vaso c'è un piatto.", answer: "Tra", altAnswers: ["Fra"], explanation: "\"Tra\" / \"fra\" = between." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[In the afternoon] the tourists come in.", sentence: "___ entrano i turisti.", answer: "Di pomeriggio", altAnswers: ["Il pomeriggio", "Nel pomeriggio"], explanation: "\"Di\" + time of day." },
       { type: "word-order", prompt: "Put the words in order to say: The shelves are full of kitchen jars.", words: ["Gli", "scaffali", "sono", "pieni", "di", "barattoli", "da", "cucina."], translation: "The shelves are full of kitchen jars.", explanation: "\"Pieno di\" + content; \"da cucina\" = purpose." },
@@ -854,7 +862,7 @@ export const IT_B2_U13: Lesson[] = [
       {
         type: "speak",
         text: "Il proprietario è un signore sui settant'anni, dai baffi bianchi, che racconta storie sulla città.",
-        prompt: "Describe the owner: The owner is a gentleman of about seventy, with a white moustache, who tells stories about the city.",
+        prompt: "Describe the owner: The owner is a gentleman of about seventy, with a white mustache, who tells stories about the city.",
         tip: "\"Settant'anni\": link the words, set-tan-TAN-ni.",
         explanation: "\"Su\" for roughly and topic, \"da\" for a feature.",
       },
@@ -934,7 +942,7 @@ export const IT_B2_U13: Lesson[] = [
           {
             type: "listen-choose",
             audio: "Da Milano a La Spezia ci vogliono tre ore di treno.",
-            question: "How long is the train journey?",
+            question: "How long is the train ride?",
             options: ["Three hours.", "Two hours.", "Thirty minutes.", "Three days."],
             correctIndex: 0,
             explanation: "\"Ci vogliono tre ore\".",
@@ -975,21 +983,21 @@ export const IT_B2_U13: Lesson[] = [
       {
         heading: "Appearance",
         body: [
-          "A local magazine in Bologna runs a column called \"Un personaggio del quartiere\" (a neighbourhood character). Write about someone memorable: a neighbour, a teacher, a shopkeeper.",
+          "A local magazine in Bologna runs a column called \"Un personaggio del quartiere\" (a neighborhood character). Write about someone memorable: a neighbor, a teacher, a shopkeeper.",
           "Start with the appearance: age with \"sui\" (\"una signora sugli ottant'anni\"), features with \"da\" or \"con\" (\"dagli occhi vivaci\", \"con i capelli raccolti\"), clothes with \"di\" for material (\"un cappotto di lana\") and \"da\" for purpose (\"scarpe da ginnastica\").",
         ],
         examples: [
           { es: "La signora Rina è una donna sugli ottant'anni, dagli occhi vivaci.", en: "Signora Rina is a woman of about eighty, with lively eyes." },
-          { es: "Porta sempre un cappotto di lana blu e scarpe da ginnastica.", en: "She always wears a blue wool coat and trainers." },
+          { es: "Porta sempre un cappotto di lana blu e scarpe da ginnastica.", en: "She always wears a blue wool coat and sneakers." },
           { es: "Ha i capelli bianchi raccolti in una crocchia.", en: "She has white hair tied up in a bun." },
-          { es: "Gira il quartiere con una borsa della spesa di stoffa.", en: "She goes around the neighbourhood with a cloth shopping bag." },
+          { es: "Gira il quartiere con una borsa della spesa di stoffa.", en: "She goes around the neighborhood with a cloth shopping bag." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Italian.",
-            source: "She always wears a blue wool coat and trainers.",
+            source: "She always wears a blue wool coat and sneakers.",
             answer: "Porta sempre un cappotto di lana blu e scarpe da ginnastica.",
             altAnswers: ["Indossa sempre un cappotto di lana blu e scarpe da ginnastica.", "Porta sempre un cappotto blu di lana e scarpe da ginnastica.", "Porta sempre un cappotto di lana blu e delle scarpe da ginnastica."],
             explanation: "Material \"di lana\", purpose \"da ginnastica\"; \"blu\" never changes.",
@@ -1009,21 +1017,21 @@ export const IT_B2_U13: Lesson[] = [
         heading: "Life and character",
         body: [
           "Then her story and her personality: \"Da giovane faceva la sarta\" (as a young woman she was a dressmaker), \"Abita nel quartiere da sessant'anni\". Use verbs with their prepositions: \"si occupa dei gatti del cortile\", \"tutti si fidano di lei\".",
-          "End with what she means to the neighbourhood: \"Senza di lei il quartiere non sarebbe lo stesso.\"",
+          "End with what she means to the neighborhood: \"Senza di lei il quartiere non sarebbe lo stesso.\"",
         ],
         examples: [
           { es: "Da giovane faceva la sarta.", en: "As a young woman she was a dressmaker." },
-          { es: "Abita nel quartiere da sessant'anni.", en: "She's lived in the neighbourhood for sixty years." },
+          { es: "Abita nel quartiere da sessant'anni.", en: "She's lived in the neighborhood for sixty years." },
           { es: "Si occupa dei gatti del cortile.", en: "She looks after the cats in the courtyard." },
           { es: "Tutti si fidano di lei.", en: "Everyone trusts her." },
-          { es: "Senza di lei il quartiere non sarebbe lo stesso.", en: "Without her the neighbourhood wouldn't be the same." },
+          { es: "Senza di lei il quartiere non sarebbe lo stesso.", en: "Without her the neighborhood wouldn't be the same." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Italian.",
-            source: "She's lived in the neighbourhood for sixty years.",
+            source: "She's lived in the neighborhood for sixty years.",
             answer: "Abita nel quartiere da sessant'anni.",
             altAnswers: ["Vive nel quartiere da sessant'anni.", "Abita nel quartiere da sessanta anni."],
             explanation: "Still true: present + \"da\".",
@@ -1040,7 +1048,7 @@ export const IT_B2_U13: Lesson[] = [
           {
             type: "speak",
             text: "Tutti si fidano di lei. Senza di lei il quartiere non sarebbe lo stesso.",
-            prompt: "Say it in Italian: Everyone trusts her. Without her the neighbourhood wouldn't be the same.",
+            prompt: "Say it in Italian: Everyone trusts her. Without her the neighborhood wouldn't be the same.",
             tip: "\"Quartiere\": kwar-TIE-re.",
             explanation: "\"Fidarsi di\" and \"senza di\" + pronoun.",
           },
@@ -1053,7 +1061,7 @@ export const IT_B2_U13: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Everyone trusts her.", answer: "Tutti si fidano di lei.", explanation: "\"Fidarsi di\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She has white hair tied up in a bun.", answer: "Ha i capelli bianchi raccolti in una crocchia.", altAnswers: ["Ha i capelli bianchi raccolti in uno chignon."], explanation: "\"Capelli\" is plural: \"raccolti\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "She goes around with a [cloth shopping bag].", sentence: "Gira con una ___.", answer: "borsa della spesa di stoffa", altAnswers: ["borsa di stoffa per la spesa"], explanation: "\"Di stoffa\" = material." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Without her] the neighbourhood wouldn't be the same.", sentence: "___ il quartiere non sarebbe lo stesso.", answer: "Senza di lei", explanation: "\"Senza di\" + pronoun." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Without her] the neighborhood wouldn't be the same.", sentence: "___ il quartiere non sarebbe lo stesso.", answer: "Senza di lei", explanation: "\"Senza di\" + pronoun." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Everyone [goes to her place] for advice.", sentence: "Tutti ___ per un consiglio.", answer: "vanno da lei", explanation: "\"Da\" + person = to their place." },
       { type: "word-order", prompt: "Put the words in order to say: As a young woman she was a dressmaker.", words: ["Da", "giovane", "faceva", "la", "sarta."], translation: "As a young woman she was a dressmaker.", explanation: "\"Da giovane\" + \"fare\" + profession." },
       { type: "multiple-choice", question: "Which phrase describes a coat made of wool?", options: ["un cappotto di lana", "un cappotto da lana", "un cappotto su lana", "un cappotto per lana"], correctIndex: 0, explanation: "Material: \"di\"." },
@@ -1061,7 +1069,7 @@ export const IT_B2_U13: Lesson[] = [
       {
         type: "speak",
         text: "Il signor Bruno è un uomo sui settant'anni, dalla barba grigia. Da giovane faceva il fornaio, e ancora oggi pensa a tutti noi.",
-        prompt: "Describe a neighbour: Signor Bruno is a man of about seventy, with a grey beard. As a young man he was a baker, and he still looks after all of us today.",
+        prompt: "Describe a neighbor: Signor Bruno is a man of about seventy, with a gray beard. As a young man he was a baker, and he still looks after all of us today.",
         tip: "\"Fornaio\": for-NA-io, three syllables.",
         explanation: "\"Sui\", \"dalla\", \"da giovane\" and \"pensare a\".",
       },
@@ -1071,7 +1079,7 @@ export const IT_B2_U13: Lesson[] = [
 
 export const IT_B2_U13_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Write a short portrait (for a blog called Persone che ricordo) of someone from your childhood: a teacher, a grandparent, a neighbour. Describe their appearance and clothes, what they were like, what you did together, and what you think of them now.",
+  prompt: "Write a short portrait (for a blog called Persone che ricordo) of someone from your childhood: a teacher, a grandparent, a neighbor. Describe their appearance and clothes, what they were like, what you did together, and what you think of them now.",
   minWords: 100,
   maxWords: 180,
   rubric: [

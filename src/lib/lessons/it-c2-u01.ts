@@ -57,7 +57,7 @@ export const IT_C2_U01: Lesson[] = [
         heading: "How the Commedia is built",
         body: [
           "The poem has three \"cantiche\": \"Inferno\", \"Purgatorio\" and \"Paradiso\". Each has 33 \"canti\", plus one opening canto, which makes 100. The verse is the \"endecasillabo\" (a line of eleven syllables, stressed on the tenth), grouped in \"terzine\" (three-line stanzas) linked by \"rima incatenata\": ABA BCB CDC. The middle rhyme of each stanza sets the outer rhymes of the next, so the poem keeps moving forward.",
-          "Dante called the poem simply \"Comedia\": a story that starts in misery and ends well, written in a middle style. The adjective \"divina\" came from Boccaccio's praise and first appeared on a title page in 1555. The journey happens at Easter 1300: Virgil guides Dante through Hell and Purgatory, Beatrice leads him through Paradise, and Saint Bernard prepares him for the final vision.",
+          "Dante called the poem simply \"Comedia\": a story that starts in misery and ends well, told in a plainer, humbler style than tragedy (so Dante explains in a Latin letter traditionally attributed to him). The adjective \"divina\" came from Boccaccio's praise and first appeared on a title page in 1555. The journey happens at Easter 1300: Virgil guides Dante through Hell and Purgatory, Beatrice leads him through Paradise, and Saint Bernard prepares him for the final vision.",
           "Learn the terms in Italian, because you will need them to write about the poem: \"il canto\" (the canto), \"la cantica\" (one of the three parts), \"la terzina\", \"il verso\" (the line; never \"la linea\").",
         ],
         examples: [
@@ -131,7 +131,7 @@ export const IT_C2_U01: Lesson[] = [
         body: [
           "The second and third stanzas: \"Ahi quanto a dir qual era è cosa dura / esta selva selvaggia e aspra e forte / che nel pensier rinova la paura! / Tant'è amara che poco è più morte; / ma per trattar del ben ch'i' vi trovai, / dirò de l'altre cose ch'i' v'ho scorte.\" Paraphrase: How hard it is to say what that wood was like, so wild, harsh and dense that the thought of it renews my fear! It is so bitter that death is hardly worse; but to tell of the good I found there, I will speak of the other things I saw.",
           "The forms to notice: \"esta\" is an old form of \"questa\"; \"rinova\" has the old single vowel where modern Italian has \"rinnova\" with a double n; \"i'\" is \"io\" shortened before a consonant; \"vi\" and \"v'\" mean there (modern \"ci\"); \"scorte\" is the past participle of \"scorgere\" (to make out, glimpse), agreeing with \"cose\" because the object comes first. \"Dir\", \"pensier\" and \"trattar\" are cut infinitives and nouns, the same \"troncamento\".",
-          "Look also at the rhetoric: \"selva selvaggia\" plays on the same root, and \"e aspra e forte\" repeats \"e\" (polysyndeton), slowing the line as the wood slows the traveller.",
+          "Look also at the rhetoric: \"selva selvaggia\" plays on the same root, and \"e aspra e forte\" repeats \"e\" (polysyndeton), slowing the line as the wood slows the traveler.",
         ],
         examples: [
           { es: "Ahi quanto a dir qual era è cosa dura", en: "Ah, how hard a thing it is to tell what it was like" },
@@ -148,7 +148,7 @@ export const IT_C2_U01: Lesson[] = [
       {
         heading: "The hill, the beasts and Virgil",
         body: [
-          "Dante sees a hill lit by the sun and tries to climb it, but three beasts block him: a \"lonza\" (a leopard-like cat, often read as lust), a \"leone\" (pride) and a \"lupa\" (a she-wolf, greed). Pushed back towards the dark, he meets a figure who answers: \"Non omo, omo già fui\" (not a man; once I was a man). It is Virgil, the Latin poet of the Aeneid.",
+          "Dante sees a hill lit by the sun and tries to climb it, but three beasts block him: a \"lonza\" (a leopard-like cat, often read as lust), a \"leone\" (pride) and a \"lupa\" (a she-wolf, greed). Pushed back toward the dark, he meets a figure who answers: \"Non omo, omo già fui\" (not a man; once I was a man). It is Virgil, the Latin poet of the Aeneid.",
           "Dante greets him: \"Or se' tu quel Virgilio e quella fonte / che spandi di parlar sì largo fiume?\" and then \"Tu se' lo mio maestro e 'l mio autore\". Here \"or\" is \"ora\" (now, so), \"se'\" is \"sei\", \"omo\" is \"uomo\" without the diphthong, \"lo mio\" uses \"lo\" before a consonant, normal in the Trecento, and \"'l\" is \"il\" after a vowel. The question is a rhetorical marvel: Virgil is both a spring and the river of eloquence flowing from it.",
           "Old Italian also allows word order that modern prose avoids: \"omo già fui\" puts the complement first for emphasis. In a paraphrase restore the modern order: \"Un tempo fui un uomo.\"",
         ],
@@ -244,7 +244,7 @@ export const IT_C2_U01: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "That day we read no further.", answer: "Quel giorno non leggemmo più avanti.", altAnswers: ["Quel giorno non abbiamo letto più avanti.", "Quel giorno non leggemmo oltre.", "Quel giorno non abbiamo letto oltre."], explanation: "Modern order: \"non\" before the verb, \"più avanti\" after; Dante writes \"più non vi leggemmo avante\"." },
-          { type: "listen-choose", audio: "Galeotto fu il corso di tango.", question: "What does it mean?", options: ["The tango class brought them together.", "The tango class was a prison.", "The tango class was cancelled.", "They met a sailor at tango class."], correctIndex: 0, explanation: "\"Galeotto\" = go-between, from Inferno V; the everyday \"galeotto\" (convict) is a different word." },
+          { type: "listen-choose", audio: "Galeotto fu il corso di tango.", question: "What does it mean?", options: ["The tango class brought them together.", "The tango class was a prison.", "The tango class was canceled.", "They met a sailor at tango class."], correctIndex: 0, explanation: "\"Galeotto\" = go-between, from Inferno V; the everyday \"galeotto\" (convict) is a different word." },
         ],
       },
     ],
@@ -266,7 +266,7 @@ export const IT_C2_U01: Lesson[] = [
     level: "IT-C2",
     number: 4,
     title: "Reading Old Italian",
-    summary: "Recognise the spellings, pronouns, verb forms and word order of Trecento Italian and turn them into modern prose.",
+    summary: "Recognize the spellings, pronouns, verb forms and word order of Trecento Italian and turn them into modern prose.",
     duration: "19 min",
     sections: [
       {
@@ -274,14 +274,14 @@ export const IT_C2_U01: Lesson[] = [
         body: [
           "Trecento Florentine is close enough to modern Italian that you can read it, but its spelling was not fixed. Four patterns cover most surprises. First, many words lack the diphthong that modern Italian has: \"core\" (cuore), \"foco\" (fuoco), \"loco\" (luogo), \"omo\" (uomo), \"novo\" (nuovo). Poetry kept these forms until the twentieth century, so you will meet \"core\" in opera libretti and old songs too.",
           "Second, single and double consonants vary: \"rinova\" (rinnova), \"femina\" (femmina), \"imagine\" (immagine), \"publico\". Third, Latin spellings survive in manuscripts and old editions: \"et\" for \"e\", an etymological h (\"huomo\", \"honore\", \"hora\"), \"ti\" for the z sound (\"gratia\", \"vitio\"). Fourth, some vowels differ: \"sanza\" (senza), \"ogne\" (ogni), \"dimandare\" (domandare), \"nui\" and \"vui\" in rhyme (noi, voi).",
-          "Modern editions of Dante usually modernise the Latin spellings but keep the forms that affect metre and rhyme. When you paraphrase, modernise everything: a paraphrase is prose in today's Italian, not a lightly dusted copy.",
+          "Modern editions of Dante usually modernize the Latin spellings but keep the forms that affect meter and rhyme. When you paraphrase, modernize everything: a paraphrase is prose in today's Italian, not a lightly dusted copy.",
         ],
         examples: [
           { es: "Il mio core arde come foco.", en: "My heart burns like fire. (old forms: cuore, fuoco)" },
           { es: "Ogne omo dee morire.", en: "Every man must die. (modern: ogni uomo deve morire)" },
           { es: "Sanza dubbio, la via è lunga.", en: "Without doubt, the way is long. (sanza = senza)" },
           { es: "E più non dimandare.", en: "And ask no more. (dimandare = domandare)" },
-          { es: "L'huomo d'honore mantiene la parola.", en: "A man of honour keeps his word. (old spelling: uomo, onore)" },
+          { es: "L'huomo d'honore mantiene la parola.", en: "A man of honor keeps his word. (old spelling: uomo, onore)" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Every man must die.", answer: "Ogni uomo deve morire.", altAnswers: ["Ogni uomo è destinato a morire.", "Ogni essere umano deve morire."], explanation: "Modern forms of \"ogne\", \"omo\" and \"dee\": \"ogni\", \"uomo\", \"deve\"." },
@@ -374,17 +374,17 @@ export const IT_C2_U01: Lesson[] = [
         body: [
           "\"Il bel paese\" for Italy comes from Inferno XXXIII, \"del bel paese là dove 'l sì suona\": the beautiful land where \"sì\" is heard (Dante classified languages by their word for yes). Journalists use \"il Belpaese\", often ironically, when reporting bad news: \"Nel Belpaese i treni regionali restano in ritardo.\"",
           "\"Una bolgia\" is one of the ten ditches of the eighth circle (Malebolge); today it is any noisy, crowded chaos: \"Il centro commerciale il sabato è una bolgia.\" \"Dantesco\" means grand and terrifying: \"una scena dantesca\" after a fire or a flood. \"Lasciate ogni speranza, voi ch'entrate\", written over the gate of Hell, is pinned as a joke over office doors and exam halls.",
-          "When Francesca starts her story, Dante writes \"Ora incomincian le dolenti note\" (now the sorrowful notes begin). \"Le dolenti note\" now announce the unpleasant part: the bill, the exam results, the tax return. \"E ora veniamo alle dolenti note: il conto.\"",
+          "As Dante enters the second circle, just before he meets Francesca, he writes \"Or incomincian le dolenti note / a farmisi sentire\" (now the sorrowful notes begin to make themselves heard). \"Le dolenti note\" now announce the unpleasant part: the bill, the exam results, the tax return. \"E ora veniamo alle dolenti note: il conto.\"",
         ],
         examples: [
           { es: "Nel Belpaese la burocrazia resta un problema.", en: "In Italy bureaucracy is still a problem." },
-          { es: "Il centro commerciale il sabato è una bolgia.", en: "The shopping centre on Saturdays is pandemonium." },
+          { es: "Il centro commerciale il sabato è una bolgia.", en: "The shopping center on Saturdays is pandemonium." },
           { es: "Dopo l'alluvione la scena era dantesca.", en: "After the flood the scene was apocalyptic." },
           { es: "E ora veniamo alle dolenti note: il conto.", en: "And now for the painful part: the bill." },
           { es: "Sulla porta dell'aula qualcuno ha scritto: «Lasciate ogni speranza, voi ch'entrate».", en: "On the classroom door someone wrote: 'Abandon all hope, ye who enter.'" },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The shopping centre on Saturdays is pandemonium.", answer: "Il centro commerciale il sabato è una bolgia.", altAnswers: ["Il sabato il centro commerciale è una bolgia.", "Il centro commerciale di sabato è una bolgia."], explanation: "\"Una bolgia\": a crowded, noisy chaos, from Dante's Malebolge." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The shopping center on Saturdays is pandemonium.", answer: "Il centro commerciale il sabato è una bolgia.", altAnswers: ["Il sabato il centro commerciale è una bolgia.", "Il centro commerciale di sabato è una bolgia."], explanation: "\"Una bolgia\": a crowded, noisy chaos, from Dante's Malebolge." },
           { type: "listen-choose", audio: "E ora veniamo alle dolenti note: il conto.", question: "What does the speaker mean?", options: ["Now for the unpleasant part: the bill.", "Now let's listen to some sad music.", "Now we write the account.", "Now let's take some notes."], correctIndex: 0, explanation: "\"Le dolenti note\" (Inferno V) = the painful part." },
           { type: "multiple-choice", question: "A journalist writes \"il Belpaese\". What is meant?", options: ["Italy", "Tuscany", "the countryside", "a cheese"], correctIndex: 0, explanation: "From Dante's \"bel paese là dove 'l sì suona\"." },
         ],
@@ -393,7 +393,7 @@ export const IT_C2_U01: Lesson[] = [
         heading: "Choices and their consequences",
         body: [
           "Among the neutrals Dante glimpses \"colui / che fece per viltade il gran rifiuto\", traditionally Pope Celestine V, who resigned. \"Il gran rifiuto\" now means turning down a great opportunity or office: \"Ha fatto il gran rifiuto e ha detto no alla nazionale.\" Note the truncated \"gran\" before a consonant, still standard.",
-          "\"Cosa fatta capo ha\", spoken in Inferno XXVIII, means what's done is done, and also once you act, things follow: it is said to justify a decision that can no longer be reversed. \"E quindi uscimmo a riveder le stelle\", the last line of the Inferno, is quoted when a long ordeal ends: a thesis submitted, a house move finished.",
+          "\"Cosa fatta capo ha\" was already a proverb when Dante put it in the mouth of Mosca dei Lamberti in Inferno XXVIII, in the inverted order \"Capo ha cosa fatta\" (a deed once done has its conclusion). Mosca used it to urge a murder; today it means what's done is done, and it is said to justify a decision that can no longer be reversed. \"E quindi uscimmo a riveder le stelle\", the last line of the Inferno, is quoted when a long ordeal ends: a thesis submitted, a house move finished.",
           "Finally \"mi fa tremare le vene e i polsi\" (Inferno I) means something frightens or overwhelms me, and \"non mi tange\" (Inferno II: \"la vostra miseria non mi tange\") means it doesn't touch me, I don't care. Both are high-register and slightly ironic in conversation: you are showing that you know your Dante.",
         ],
         examples: [
@@ -435,7 +435,7 @@ export const IT_C2_U01: Lesson[] = [
       {
         heading: "Forms",
         body: [
-          "Modernise each form: \"core\" → \"cuore\", \"omo\" → \"uomo\", \"avea\" → \"aveva\", \"sanza\" → \"senza\", \"ogne\" → \"ogni\", \"fia\" → \"sarà\", \"dee\" → \"deve\", \"puote\" → \"può\", \"se'\" → \"sei\", \"i'\" → \"io\", \"lo mio\" → \"il mio\", \"ei\" / \"elli\" → \"egli\" or \"lui\".",
+          "Modernize each form: \"core\" → \"cuore\", \"omo\" → \"uomo\", \"avea\" → \"aveva\", \"sanza\" → \"senza\", \"ogne\" → \"ogni\", \"fia\" → \"sarà\", \"dee\" → \"deve\", \"puote\" → \"può\", \"se'\" → \"sei\", \"i'\" → \"io\", \"lo mio\" → \"il mio\", \"ei\" / \"elli\" → \"egli\" or \"lui\".",
           "Then restore the order: clitic before the verb (\"dissemi\" → \"mi disse\"), \"non\" before the verb, subject first unless emphasis demands otherwise.",
         ],
         examples: [
@@ -452,7 +452,7 @@ export const IT_C2_U01: Lesson[] = [
       {
         heading: "Lines",
         body: [
-          "Now whole lines. Find the verb, put the subject first, modernise every form, and keep the meaning, not the music.",
+          "Now whole lines. Find the verb, put the subject first, modernize every form, and keep the meaning, not the music.",
         ],
         examples: [
           { es: "Amor condusse noi ad una morte. → L'amore ci condusse a un'unica morte.", en: "Love led us to one death." },
@@ -496,7 +496,7 @@ export const IT_C2_U01: Lesson[] = [
         heading: "Three crowns and a gold coin",
         body: [
           "Around 1300 Italy had dozens of written vernaculars: Sicilian poets at Frederick II's court, Venetian merchants' letters, Bolognese law notes. Florentine won for two reasons that reinforced each other. The first is literary prestige: Dante, Petrarca and Boccaccio, \"le Tre Corone\" (the Three Crowns), produced in one city and one century the poem, the lyric and the prose that everyone else wanted to imitate. Copies of the Commedia and the Decameron circulated from Sicily to Lombardy.",
-          "The second is money. Florence was a banking power: its gold coin, the \"fiorino\", minted from 1252, was accepted across Europe, and Florentine merchants and their account books travelled with it. A language spreads when people need to read it, and many people needed to read Florentine contracts.",
+          "The second is money. Florence was a banking power: its gold coin, the \"fiorino\", minted from 1252, was accepted across Europe, and Florentine merchants and their account books traveled with it. A language spreads when people need to read it, and many people needed to read Florentine contracts.",
           "When printing arrived and editors needed a single norm, the choice was already half made. In 1525 Pietro Bembo proposed Petrarca as the model for poetry and Boccaccio for prose, and the Accademia della Crusca, founded in Florence in 1583, built its dictionary on the same authors. Italian is, in this sense, a language chosen by readers before it was spoken by a nation.",
         ],
         examples: [
@@ -514,7 +514,7 @@ export const IT_C2_U01: Lesson[] = [
       {
         heading: "A conservative dialect",
         body: [
-          "Linguists add a third reason: Tuscan stayed close to Latin, so it was easy to read for anyone educated in Latin, and it sat between the very different dialects of North and South. Northern dialects drop final vowels (\"pan\", \"vin\", \"fradel\"), voice consonants between vowels (\"fradello\" for \"fratello\", \"formiga\") and simplify double consonants. Southern dialects close or blur final vowels and change \"-ll-\" into \"-dd-\" (Sicilian \"beddu\"). Florentine kept clear final vowels, double consonants and voiceless stops: \"fratello\", \"bello\", \"formica\".",
+          "Linguists add a third reason: Tuscan stayed close to Latin, so it was easy to read for anyone educated in Latin, and it sat between the very different dialects of North and South. Northern dialects drop final vowels (\"pan\", \"vin\"), voice consonants between vowels (Lombard \"fradel\" for \"fratello\", Venetian \"formiga\" for \"formica\") and simplify double consonants. Southern dialects close or blur final vowels and change \"-ll-\" into \"-dd-\" (Sicilian \"beddu\"). Florentine kept clear final vowels, double consonants and voiceless stops: \"fratello\", \"bello\", \"formica\".",
           "Tuscan also shows changes that became standard: the diphthongs in \"fuoco\" and \"piede\" from Latin \"focum\" and \"pedem\"; Latin \"-cl-\" becoming \"chi\" (\"clavem\" → \"chiave\"); Latin \"pl-\" becoming \"pi\" (\"plenum\" → \"pieno\").",
           "None of this made Tuscan better than other dialects. It made it a good compromise: a form of speech that a Venetian and a Neapolitan could both read with effort but without despair.",
         ],
@@ -574,7 +574,7 @@ export const IT_C2_U01: Lesson[] = [
       {
         heading: "The four moves of a commentary",
         body: [
-          "Italian schools teach \"l'analisi del testo\" in four moves. \"Contestualizzazione\": where the passage sits (\"Il passo si colloca nel canto V dell'Inferno\"). \"Parafrasi\": what it says, in plain modern prose. \"Analisi\": how it says it, with metre, figures and lexis. \"Interpretazione\": what it means within the work and beyond. A good commentary keeps these distinct, then lets the last one gather the others.",
+          "Italian schools teach \"l'analisi del testo\" in four moves. \"Contestualizzazione\": where the passage sits (\"Il passo si colloca nel canto V dell'Inferno\"). \"Parafrasi\": what it says, in plain modern prose. \"Analisi\": how it says it, with meter, figures and lexis. \"Interpretazione\": what it means within the work and beyond. A good commentary keeps these distinct, then lets the last one gather the others.",
           "Write about literature in the present tense, as English does: \"Francesca racconta\", \"Dante sviene\". Use the \"passato remoto\" only for the author's life or real history: \"Dante scrisse la Commedia in esilio.\" Mixing the two is the commonest flaw in learners' commentaries.",
           "Distinguish \"Dante personaggio\" (the pilgrim inside the story) from \"Dante autore\" or \"Dante poeta\" (who writes it, years later). The pilgrim faints with pity; the poet has placed Francesca in Hell. Much of the interest lies in that gap.",
         ],
@@ -619,14 +619,14 @@ export const IT_C2_U01: Lesson[] = [
         ],
         examples: [
           { es: "Sembra che Dante voglia mostrare la forza seduttiva della letteratura.", en: "Dante seems to want to show the seductive power of literature." },
-          { es: "A nostro avviso, la pietà del personaggio non annulla il giudizio dell'autore.", en: "In our view, the character's pity doesn't cancel the author's judgement." },
+          { es: "A nostro avviso, la pietà del personaggio non annulla il giudizio dell'autore.", en: "In our view, the character's pity doesn't cancel the author's judgment." },
           { es: "Secondo una lettura diffusa, il libro è il vero colpevole.", en: "According to a common reading, the book is the real culprit." },
           { es: "Ne consegue che la condanna resta, ma diventa umana.", en: "It follows that the condemnation remains, but becomes human." },
-          { es: "Ai vv. 100-102 l'anafora raggiunge il culmine.", en: "In lines 100-102 the anaphora reaches its climax." },
+          { es: "Ai vv. 106-108 l'anafora raggiunge il culmine.", en: "In lines 106-108 the anaphora reaches its climax." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Dante seems to want to show the power of literature.", answer: "Sembra che Dante voglia mostrare il potere della letteratura.", altAnswers: ["Dante sembra voler mostrare il potere della letteratura.", "Sembra che Dante voglia mostrare la forza della letteratura.", "Dante sembra voler mostrare la forza della letteratura."], explanation: "\"Sembra che\" + subjunctive (\"voglia\"), or \"sembra\" + infinitive with the same subject." },
-          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[In our view], the author's judgement remains.", sentence: "___, il giudizio dell'autore resta.", answer: "A nostro avviso", altAnswers: ["Secondo noi", "A nostro parere"], explanation: "\"A nostro avviso\": the impersonal academic way to give an opinion." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[In our view], the author's judgment remains.", sentence: "___, il giudizio dell'autore resta.", answer: "A nostro avviso", altAnswers: ["Secondo noi", "A nostro parere"], explanation: "\"A nostro avviso\": the impersonal academic way to give an opinion." },
         ],
       },
     ],
@@ -640,7 +640,7 @@ export const IT_C2_U01: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The enjambement between the two lines [stands out].", sentence: "___ l'enjambement tra i due versi.", answer: "Spicca", altAnswers: ["Risalta"], explanation: "\"Spiccare\" = to stand out; the subject follows the verb, as often in analysis." },
       { type: "word-order", prompt: "Put the words in order to say: The canto closes with a memorable line.", words: ["Il", "canto", "si", "chiude", "con", "un", "verso", "memorabile."], translation: "The canto closes with a memorable line.", explanation: "\"Chiudersi con\" = to end with; \"verso\" = line." },
       { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "l'anafora", right: "repetition at the start of lines" }, { left: "la similitudine", right: "an explicit comparison" }, { left: "il chiasmo", right: "a crossed ABBA order" }, { left: "la parafrasi", right: "a plain-prose restatement" }, { left: "l'allitterazione", right: "repeated sounds" }], explanation: "The core terms of \"l'analisi del testo\"." },
-      { type: "listen-choose", audio: "Secondo una lettura diffusa, il libro è il vero colpevole.", question: "What is the speaker doing?", options: ["Reporting a common interpretation", "Giving a personal certainty", "Quoting the poem", "Summarising the plot"], correctIndex: 0, explanation: "\"Secondo una lettura diffusa\" attributes the view to others: hedged interpretation." },
+      { type: "listen-choose", audio: "Secondo una lettura diffusa, il libro è il vero colpevole.", question: "What is the speaker doing?", options: ["Reporting a common interpretation", "Giving a personal certainty", "Quoting the poem", "Summarizing the plot"], correctIndex: 0, explanation: "\"Secondo una lettura diffusa\" attributes the view to others: hedged interpretation." },
       { type: "speak", text: "Il passo si colloca nel canto quinto dell'Inferno, nel cerchio dei lussuriosi.", prompt: "Open a commentary aloud: The passage is in the fifth canto of the Inferno, in the circle of the lustful.", tip: "\"Lussuriosi\": double s, stress on RIO.", explanation: "The \"contestualizzazione\" sentence that opens every commentary." },
     ],
   },
@@ -655,7 +655,7 @@ export const IT_C2_U01: Lesson[] = [
       {
         heading: "Hearing the endecasillabo",
         body: [
-          "Italians have read Dante aloud since Boccaccio lectured on the Commedia in Florence in 1373; public readings, \"letture dantesche\", still fill piazzas and theatres. To follow them, you need to hear the line. An \"endecasillabo\" has its last stress on the tenth syllable, with a main inner stress usually on the fourth or the sixth.",
+          "Italians have read Dante aloud since Boccaccio lectured on the Commedia in Florence in 1373; public readings, \"letture dantesche\", still fill piazzas and theaters. To follow them, you need to hear the line. An \"endecasillabo\" has its last stress on the tenth syllable, with a main inner stress usually on the fourth or the sixth.",
           "Vowels at a word boundary merge into one syllable (\"sinalefe\"): \"mi ritrovai per una selva oscura\" is counted \"mi-ri-tro-vai-per-u-na-sel-va o-scu-ra\", with \"va o\" as one syllable. Readers glide the vowels together, so expect words to run into each other. A diaeresis (\"dieresi\") does the opposite and splits a diphthong to gain a syllable: \"disïato\", \"grazïoso\".",
           "Listen first for the rhythm, then for the verbs. The stressed syllables carry the meaning words, and the unstressed ones are the articles and prepositions you can reconstruct.",
         ],
@@ -719,7 +719,7 @@ export const IT_C2_U01: Lesson[] = [
         heading: "The method",
         body: [
           "Your task: a friend in Bologna is preparing the \"maturità\" exam and asks you to check her paraphrase of a tercet. A paraphrase is not a translation into English and not a summary. It restates every element of the original in modern prose, in the same order of ideas, with no added interpretation.",
-          "Work in four steps. Find the main verb and its subject. Restore normal word order. Modernise every form (\"sanza\" → \"senza\", \"core\" → \"cuore\", \"fia\" → \"sarà\"). Make implicit links explicit with connectives (\"perché\", \"infatti\", \"così che\"). Keep the tense of the original when it tells a story; turn \"ché\" into \"perché\" or \"poiché\".",
+          "Work in four steps. Find the main verb and its subject. Restore normal word order. Modernize every form (\"sanza\" → \"senza\", \"core\" → \"cuore\", \"fia\" → \"sarà\"). Make implicit links explicit with connectives (\"perché\", \"infatti\", \"così che\"). Keep the tense of the original when it tells a story; turn \"ché\" into \"perché\" or \"poiché\".",
           "The phrase to introduce it: \"Parafrasi: ...\". If you explain a word, do it in a note, not in the paraphrase: \"(semenza = origine)\".",
         ],
         examples: [
@@ -754,8 +754,8 @@ export const IT_C2_U01: Lesson[] = [
       {
         heading: "Practice: Paradiso XVII",
         body: [
-          "In Paradiso XVII Dante's ancestor Cacciaguida foretells the exile: \"Tu proverai sì come sa di sale / lo pane altrui, e come è duro calle / lo scendere e 'l salir per l'altrui scale.\" \"Proverai\" is future: you will learn by experience. \"Sa di sale\" means tastes of salt: Tuscan bread is made without salt, so other people's bread tastes strange and bitter. \"Calle\" is a path; \"altrui\" means belonging to others.",
-          "Paraphrase: \"Sperimenterai quanto sia amaro il pane degli altri e quanto sia faticoso salire e scendere le scale delle case altrui.\" The subjunctive \"sia\" follows \"quanto\" in an indirect question, the register of good written Italian. Then, in a note, explain the salt: without it, your reader will miss the most Tuscan detail in the Commedia.",
+          "In Paradiso XVII Dante's ancestor Cacciaguida foretells the exile: \"Tu proverai sì come sa di sale / lo pane altrui, e come è duro calle / lo scendere e 'l salir per l'altrui scale.\" \"Proverai\" is future: you will learn by experience. \"Sa di sale\" means tastes of salt, that is, bitter: the bread you eat at someone else's table. A popular gloss adds that Florentine bread was and is baked without salt, so other people's salted bread would taste foreign; commentators debate this, so present it as a reading, not a fact. \"Calle\" is a path; \"altrui\" means belonging to others.",
+          "Paraphrase: \"Sperimenterai quanto sia amaro il pane degli altri e quanto sia faticoso salire e scendere le scale delle case altrui.\" The subjunctive \"sia\" follows \"quanto\" in an indirect question, the register of good written Italian. Then, in a note, explain the salt: \"sa di sale\" = è amaro; you may add the unsalted Tuscan bread as a traditional reading.",
         ],
         examples: [
           { es: "Tu proverai sì come sa di sale / lo pane altrui", en: "You will learn how salt the bread of others tastes" },
@@ -787,7 +787,7 @@ export const IT_C2_U01: Lesson[] = [
 
 export const IT_C2_U01_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Write a short literary commentary (in Italian) on the tercet \"Amor, ch'a nullo amato amar perdona, / mi prese del costui piacer sì forte, / che, come vedi, ancor non m'abbandona\" (Inferno V, vv. 103-105). Place the passage, give a modern paraphrase, analyse at least two features of form (anaphora, word order, Old Italian forms) and offer a hedged interpretation of Dante's attitude to Francesca.",
+  prompt: "Write a short literary commentary (in Italian) on the tercet \"Amor, ch'a nullo amato amar perdona, / mi prese del costui piacer sì forte, / che, come vedi, ancor non m'abbandona\" (Inferno V, vv. 103-105). Place the passage, give a modern paraphrase, analyze at least two features of form (anaphora, word order, Old Italian forms) and offer a hedged interpretation of Dante's attitude to Francesca.",
   minWords: 250,
   maxWords: 380,
   rubric: [

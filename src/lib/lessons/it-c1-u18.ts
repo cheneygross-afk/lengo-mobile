@@ -13,7 +13,7 @@ export const IT_C1_U18: Lesson[] = [
     number: 1,
     title: "Phrasal Verbs",
     summary: "Translate English phrasal verbs into single Italian verbs: give up, find out, run out, put off, turn down, carry on, set up, bring up.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "One Italian verb for two English words",
@@ -21,6 +21,7 @@ export const IT_C1_U18: Lesson[] = [
           "English builds meaning with verb + particle; Italian usually has one verb. Translating the particle (*'dare su' for 'give up') is the commonest translation error. Learn the pairs as units: 'give up' = \"rinunciare a\" (a plan, a right) or \"smettere di\" (a habit); 'find out' = \"scoprire\" or \"venire a sapere\"; 'put off' = \"rimandare\" or \"rinviare\"; 'carry on' = \"continuare\" or \"andare avanti\".",
           "'Run out' depends on the subject. When the thing is the subject, use \"finire\" or \"esaurirsi\" with \"essere\": \"È finito il latte\", \"I posti si sono esauriti\". When the person is the subject, use \"finire\" with \"avere\": \"Abbiamo finito il latte\". 'Run out of time' is \"non avere più tempo\" or \"il tempo stringe\" (time is running short).",
           "A few phrasal verbs do keep a particle in Italian, but a different one: 'go back' = \"tornare indietro\", 'take away' = \"portare via\", 'throw away' = \"buttare via\", 'come in' = \"entrare\" (never *'venire dentro'). These \"verbi sintagmatici\" (\"andare avanti\", \"tirare fuori\", \"mettere giù\") are colloquial; formal Italian prefers one verb: \"proseguire\", \"estrarre\", \"riagganciare\".",
+          "Many phrasal verbs wrap a plain meaning in a figure that Italian simply states: 'figure out' = \"capire\" or \"risolvere\"; 'work out' = \"funzionare\" (a plan), \"allenarsi\" (at the gym) or \"calcolare\" (a sum); 'look after' = \"occuparsi di\" or \"badare a\"; 'get over' = \"superare\" or \"riprendersi da\"; 'come up with' = \"farsi venire in mente\" or \"proporre\". When the Italian verb takes a preposition, the pronoun changes with it: \"Me ne occupo io\" (I'll take care of it, from \"occuparsi di\"), \"Ci rinuncio\" (I give up on it, from \"rinunciare a\").",
         ],
         examples: [
           { es: "Ha rinunciato al viaggio per motivi di salute.", en: "She gave up the trip for health reasons." },
@@ -30,6 +31,10 @@ export const IT_C1_U18: Lesson[] = [
           { es: "È finito il latte.", en: "We've run out of milk." },
           { es: "I biglietti si sono esauriti in un'ora.", en: "The tickets ran out in an hour." },
           { es: "Andiamo avanti, siamo quasi arrivati.", en: "Let's carry on, we're nearly there." },
+          { es: "Chi si occupa del cane quando sei via?", en: "Who looks after the dog when you're away?" },
+          { es: "Me ne occupo io.", en: "I'll take care of it." },
+          { es: "Non riesco a capire come funziona.", en: "I can't figure out how it works." },
+          { es: "Ci ha messo un anno a superare la delusione.", en: "It took her a year to get over the disappointment." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I gave up smoking three years ago.", answer: "Ho smesso di fumare tre anni fa.", explanation: "'Give up' a habit = \"smettere di\"." },
@@ -42,6 +47,7 @@ export const IT_C1_U18: Lesson[] = [
         body: [
           "Many phrasal verbs have several meanings, each with its own Italian verb. 'Turn down' an offer = \"rifiutare\"; 'turn down' the volume = \"abbassare\". 'Set up' a company = \"fondare\" or \"avviare\"; 'set up' a meeting = \"organizzare\"; 'set up' equipment = \"installare\" or \"montare\". 'Bring up' a child = \"crescere\" or \"allevare\"; 'bring up' a topic = \"sollevare\" or \"tirare fuori\".",
           "'Look forward to' has no direct verb: \"non vedere l'ora di\" (informal) or \"attendere con piacere\" (formal email). 'Make up' a story = \"inventare\"; 'make up' after a quarrel = \"fare pace\". Translate the meaning in context, never the dictionary's first entry.",
+          "Register matters too. Phrasal verbs are often informal, while the Italian equivalent may be formal: 'find out' in a news story = \"apprendere\" (\"si è appreso che\"), 'set up' an inquiry = \"istituire\", 'put forward' a proposal = \"avanzare\", 'call off' a strike = \"revocare\". In a work email, 'Let me look into it' = \"Verifico e Le faccio sapere\"; 'I'll get back to you' = \"Le farò sapere\" or \"La ricontatto\".",
         ],
         examples: [
           { es: "Ha rifiutato un'offerta di lavoro a Londra.", en: "He turned down a job offer in London." },
@@ -50,6 +56,8 @@ export const IT_C1_U18: Lesson[] = [
           { es: "Mi ha cresciuto mia nonna.", en: "My grandmother brought me up." },
           { es: "Non vedo l'ora di vederti.", en: "I'm looking forward to seeing you." },
           { es: "Si è inventato tutto.", en: "He made the whole thing up." },
+          { es: "Lo sciopero è stato revocato.", en: "The strike has been called off." },
+          { es: "Verifico e Le faccio sapere.", en: "Let me look into it and get back to you." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He turned down a job offer in London.", answer: "Ha rifiutato un'offerta di lavoro a Londra.", altAnswers: ["Ha rifiutato un'offerta di lavoro di Londra.", "Ha detto di no a un'offerta di lavoro a Londra."], explanation: "'Turn down' an offer = \"rifiutare\"." },
@@ -90,7 +98,7 @@ export const IT_C1_U18: Lesson[] = [
     number: 2,
     title: "-ing Forms",
     summary: "Translate English -ing forms as an infinitive, a gerund, a noun, a participle or a clause, and avoid the false gerund.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Infinitive or noun",
@@ -98,6 +106,7 @@ export const IT_C1_U18: Lesson[] = [
           "The English -ing form does many jobs, and the Italian \"gerundio\" (\"-ando\", \"-endo\") does only a few. The trap is to translate every -ing with \"-ando\". As a subject or object, -ing becomes an infinitive: 'Swimming is good for you' = \"Nuotare fa bene\"; 'I love cooking' = \"Adoro cucinare\". Formal Italian can add the article: \"Il viaggiare stanca\".",
           "After a preposition, Italian also uses the infinitive: 'before leaving' = \"prima di partire\", 'without saying a word' = \"senza dire una parola\", 'instead of complaining' = \"invece di lamentarsi\", 'after eating' = \"dopo aver mangiato\" (\"dopo\" takes the past infinitive).",
           "Many -ing words are simply nouns in Italian: 'smoking' = \"il fumo\", 'reading' = \"la lettura\", 'shopping' = \"la spesa\" (food) or \"gli acquisti\", 'training' = \"la formazione\" (at work) or \"l'allenamento\" (sport), 'the meeting' = \"la riunione\". 'No smoking' is \"Vietato fumare\".",
+          "Some verbs change meaning between -ing and 'to', and Italian marks the difference another way. 'I remember locking the door' = \"Mi ricordo di aver chiuso la porta\" (past infinitive), but 'Remember to lock the door' = \"Ricordati di chiudere la porta\". 'He stopped smoking' = \"Ha smesso di fumare\", but 'He stopped to smoke' = \"Si è fermato a fumare\". 'It's worth + -ing' = \"vale la pena di\" + infinitive (\"Vale la pena di visitarlo\"), and 'I'm used to getting up early' = \"Sono abituato ad alzarmi presto\".",
         ],
         examples: [
           { es: "Nuotare fa bene alla schiena.", en: "Swimming is good for your back." },
@@ -106,6 +115,10 @@ export const IT_C1_U18: Lesson[] = [
           { es: "Dopo aver mangiato, siamo andati a fare due passi.", en: "After eating, we went for a stroll." },
           { es: "Invece di lamentarti, proponi una soluzione.", en: "Instead of complaining, suggest a solution." },
           { es: "La formazione del personale dura due giorni.", en: "The staff training lasts two days." },
+          { es: "Mi ricordo di aver chiuso la porta.", en: "I remember locking the door." },
+          { es: "Ricordati di chiudere la porta.", en: "Remember to lock the door." },
+          { es: "Si è fermato a fumare una sigaretta.", en: "He stopped to smoke a cigarette." },
+          { es: "Vale la pena di visitare il museo.", en: "The museum is worth visiting." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Swimming is good for your back.", answer: "Nuotare fa bene alla schiena.", altAnswers: ["Il nuoto fa bene alla schiena."], explanation: "-ing subject = infinitive or noun, never *\"Nuotando\"." },
@@ -119,6 +132,7 @@ export const IT_C1_U18: Lesson[] = [
           "The real \"gerundio\" translates 'by' + -ing and -ing clauses of manner, time or cause: 'You learn by making mistakes' = \"Sbagliando s'impara\"; 'Walking home, I met Luca' = \"Tornando a casa, ho incontrato Luca\". Its subject must be the same as the main verb's.",
           "After verbs of perception, Italian uses the infinitive or \"che\" + indicative: 'I saw him leaving' = \"L'ho visto uscire\" or \"L'ho visto che usciva\". An -ing that describes a noun becomes a relative clause or past participle: 'the man sitting by the window' = \"l'uomo seduto vicino alla finestra\"; 'a woman carrying a suitcase' = \"una donna che porta una valigia\".",
           "The English progressive often becomes the simple present: 'What are you doing tonight?' = \"Che fai stasera?\" Use \"stare\" + gerund only for an action in progress right now: \"Sto scrivendo, ti richiamo\".",
+          "Two gerund traps in writing. A gerund with no stated subject takes the subject of the main clause: *\"Essendo malato, il medico mi ha visitato\" says the doctor was sick. Write \"Poiché ero malato, il medico è venuto a visitarmi\". And English letter endings such as 'Thanking you in advance' or 'Looking forward to hearing from you' read better as full sentences: \"La ringrazio in anticipo\", \"Resto in attesa di un Suo riscontro\". The bureaucratic \"Ringraziando anticipatamente\" still exists, but it sounds old-fashioned.",
         ],
         examples: [
           { es: "Sbagliando s'impara.", en: "You learn by making mistakes." },
@@ -127,6 +141,8 @@ export const IT_C1_U18: Lesson[] = [
           { es: "L'uomo seduto vicino alla finestra è mio zio.", en: "The man sitting by the window is my uncle." },
           { es: "Una donna che portava una valigia è salita sul treno.", en: "A woman carrying a suitcase got on the train." },
           { es: "Che fai stasera?", en: "What are you doing tonight?" },
+          { es: "Poiché ero malato, il medico è venuto a visitarmi.", en: "Since I was sick, the doctor came to examine me." },
+          { es: "La ringrazio in anticipo.", en: "Thank you in advance." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I saw him leaving the bank.", answer: "L'ho visto uscire dalla banca.", altAnswers: ["L'ho visto che usciva dalla banca.", "Lo ho visto uscire dalla banca."], explanation: "Perception verb + infinitive." },
@@ -157,13 +173,14 @@ export const IT_C1_U18: Lesson[] = [
     number: 3,
     title: "The English Passive",
     summary: "Translate the English passive with si, venire, andare, an impersonal third person plural or an active rewrite, and handle 'I was told'.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Five ways to render a passive",
         body: [
           "English uses the passive far more than Italian. Copying it with \"essere\" + participle is grammatical but often heavy. Choose: 1. \"Si passivante\" for general facts: 'English is spoken here' = \"Qui si parla inglese\"; 'Houses are built differently now' = \"Oggi le case si costruiscono diversamente\". 2. \"Venire\" + participle for a single action, in simple tenses only: 'The bridge is being repaired' = \"Il ponte viene riparato\".",
           "3. \"Andare\" + participle for obligation: 'The form must be signed' = \"Il modulo va firmato\". 4. Third person plural with no subject, for unknown agents: 'My bike has been stolen' = \"Mi hanno rubato la bici\". 5. An active sentence when the agent is known: 'The novel was written by a nurse' = \"Il romanzo l'ha scritto un'infermiera\" or keep \"è stato scritto da\".",
+          "Three warnings. \"Venire\" cannot form compound tenses: 'The letter has been sent' = \"La lettera è stata spedita\", never *\"è venuta spedita\". \"Andare\" + participle means loss, not obligation, with \"perdere\", \"smarrire\" and \"distruggere\": \"Il bagaglio è andato perso\" (the luggage got lost). And with the \"si passivante\" the verb agrees with the thing: \"Si vendono appartamenti\", not *\"Si vende appartamenti\", a mistake you will still see on signs.",
         ],
         examples: [
           { es: "Qui si parla inglese.", en: "English is spoken here." },
@@ -172,6 +189,9 @@ export const IT_C1_U18: Lesson[] = [
           { es: "Il modulo va firmato e restituito.", en: "The form must be signed and returned." },
           { es: "Mi hanno rubato la bici.", en: "My bike has been stolen." },
           { es: "Il romanzo l'ha scritto un'infermiera.", en: "The novel was written by a nurse." },
+          { es: "La lettera è stata spedita ieri.", en: "The letter was sent yesterday." },
+          { es: "Il mio bagaglio è andato perso.", en: "My luggage got lost." },
+          { es: "Si vendono appartamenti in centro.", en: "Apartments for sale downtown." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian (use andare).", source: "The form must be signed and returned.", answer: "Il modulo va firmato e restituito.", altAnswers: ["Il modulo deve essere firmato e restituito.", "Il modulo va firmato e riconsegnato."], explanation: "\"Andare\" + participle = must be." },
@@ -184,6 +204,7 @@ export const IT_C1_U18: Lesson[] = [
         body: [
           "English can make the indirect object the subject of a passive: 'I was told', 'She was given a prize', 'We were asked to wait'. Italian cannot: *\"Io sono stato detto\" is wrong. Keep the person as an indirect object and use the impersonal \"loro\" or a passive of the thing: 'I was told' = \"Mi hanno detto\" or \"Mi è stato detto\"; 'She was given a prize' = \"Le hanno dato un premio\" or \"Le è stato assegnato un premio\"; 'We were asked to wait' = \"Ci hanno chiesto di aspettare\".",
           "'It is said that' and 'he is believed to' become \"si dice che\" and \"si pensa che\" + subjunctive, or the conditional of hearsay: 'He is believed to be in Spain' = \"Si pensa che sia in Spagna\" or \"Sarebbe in Spagna\". Newspapers love that conditional.",
+          "News reports keep the real passive when the agent is obvious: 'He was arrested at dawn' = \"È stato arrestato all'alba\". 'Two people were injured' is usually \"Due persone sono rimaste ferite\": \"rimanere\" + participle stresses the resulting state. 'It has been announced that' = \"È stato annunciato che\" or \"Si è appreso che\". Choose the form by asking what the reader needs to know: the action, the result or the agent.",
         ],
         examples: [
           { es: "Mi hanno detto di aspettare qui.", en: "I was told to wait here." },
@@ -191,6 +212,8 @@ export const IT_C1_U18: Lesson[] = [
           { es: "Ci hanno chiesto di non fare foto.", en: "We were asked not to take photos." },
           { es: "Si dice che il palazzo sia infestato.", en: "The building is said to be haunted." },
           { es: "Il ricercato sarebbe all'estero.", en: "The wanted man is believed to be abroad." },
+          { es: "Due persone sono rimaste ferite nell'incidente.", en: "Two people were injured in the accident." },
+          { es: "Il sospettato è stato arrestato all'alba.", en: "The suspect was arrested at dawn." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I was told to wait here.", answer: "Mi hanno detto di aspettare qui.", altAnswers: ["Mi è stato detto di aspettare qui.", "Mi hanno detto di aspettare qua."], explanation: "Never *\"Sono stato detto\"." },
@@ -201,7 +224,7 @@ export const IT_C1_U18: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "English is spoken here.", answer: "Qui si parla inglese.", altAnswers: ["Si parla inglese.", "Qui si parla l'inglese."], explanation: "\"Si passivante\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian (use venire).", source: "The bridge is being repaired at night.", answer: "Il ponte viene riparato di notte.", altAnswers: ["Il ponte viene riparato la notte.", "Il ponte lo riparano di notte.", "Il ponte si ripara di notte."], explanation: "\"Venire\" + participle = action in progress." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian (use venire).", source: "The bridge is being repaired at night.", answer: "Il ponte viene riparato di notte.", altAnswers: ["Il ponte viene riparato la notte.", "Il ponte lo riparano di notte."], explanation: "\"Venire\" + participle = action in progress." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She was given a prize for her research.", answer: "Le è stato assegnato un premio per la ricerca.", altAnswers: ["Le hanno dato un premio per la sua ricerca.", "Le hanno assegnato un premio per la ricerca.", "Le hanno dato un premio per la ricerca."], explanation: "The thing becomes the subject; she stays \"le\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The building is said to be haunted.", answer: "Si dice che il palazzo sia infestato.", altAnswers: ["Si dice che il palazzo sia infestato dai fantasmi.", "Dicono che il palazzo sia infestato."], explanation: "\"Si dice che\" + subjunctive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Houses are built differently now.", answer: "Oggi le case si costruiscono diversamente.", altAnswers: ["Oggi le case si costruiscono in modo diverso.", "Ora le case si costruiscono diversamente."], explanation: "General fact: \"si passivante\"." },
@@ -220,7 +243,7 @@ export const IT_C1_U18: Lesson[] = [
     number: 4,
     title: "Noun Stacks",
     summary: "Unpack English compounds and possessives into Italian: reverse the order, add di, da, per or a, and turn stacks into adjectives or clauses.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Reading the stack backwards",
@@ -228,6 +251,7 @@ export const IT_C1_U18: Lesson[] = [
           "English piles nouns up, with the head noun last: 'customer service team leader'. Italian puts the head first and links the rest with prepositions, so you read the English from the right: 'leader' first, then whose team, then what service. \"Il responsabile del team di assistenza clienti\". Each extra noun usually adds a \"di\" or another preposition.",
           "The preposition depends on the relationship. \"Di\" for material, content or belonging: 'a wool sweater' = \"un maglione di lana\", 'a history book' = \"un libro di storia\". \"Da\" for purpose: 'a tea cup' = \"una tazza da tè\", 'running shoes' = \"scarpe da corsa\". \"Per\" for intended users: 'a children's menu' = \"un menù per bambini\". \"A\" for mechanism or feature: 'a gas boiler' = \"una caldaia a gas\", 'a striped shirt' = \"una camicia a righe\". Note the difference: \"una tazza da tè\" (a tea cup) vs \"una tazza di tè\" (a cup of tea).",
           "Measures move after the noun with \"di\": 'a two-hour meeting' = \"una riunione di due ore\", 'a ten-euro bill' = \"una banconota da dieci euro\" (\"da\" for value).",
+          "Many English compounds are single words in Italian, so there is nothing to unpack: 'toothbrush' = \"lo spazzolino\", 'parking lot' = \"il parcheggio\", 'bookstore' = \"la libreria\", 'dishwasher' = \"la lavastoviglie\". Italian builds its own compounds from verb + noun: \"il portafoglio\", \"l'apriscatole\" (can opener), \"il cavatappi\" (corkscrew). A few noun + noun pairs exist too, mostly fixed: \"la parola chiave\", \"il treno merci\", \"la busta paga\" (pay stub), \"il vagone letto\". Learn them as units; don't imitate the pattern with new pairs.",
         ],
         examples: [
           { es: "Il responsabile del team di assistenza clienti.", en: "The customer service team leader." },
@@ -236,7 +260,9 @@ export const IT_C1_U18: Lesson[] = [
           { es: "Ho comprato delle scarpe da corsa.", en: "I bought some running shoes." },
           { es: "C'è un menù per bambini?", en: "Is there a children's menu?" },
           { es: "Abbiamo avuto una riunione di due ore.", en: "We had a two-hour meeting." },
-          { es: "Hai una banconota da dieci euro?", en: "Have you got a ten-euro bill?" },
+          { es: "Hai una banconota da dieci euro?", en: "Do you have a ten-euro bill?" },
+          { es: "Non trovo l'apriscatole.", en: "I can't find the can opener." },
+          { es: "Qual è la parola chiave?", en: "What's the keyword?" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The customer service team leader.", answer: "Il responsabile del team di assistenza clienti.", altAnswers: ["Il responsabile del team assistenza clienti.", "La responsabile del team di assistenza clienti.", "Il responsabile del servizio clienti.", "Il capo del team di assistenza clienti."], explanation: "Head noun first, then outward." },
@@ -247,8 +273,9 @@ export const IT_C1_U18: Lesson[] = [
       {
         heading: "Adjectives, clauses and the possessive 's",
         body: [
-          "Long stacks read better with an adjective or a clause. 'Government housing policy' = \"la politica abitativa del governo\" (\"abitativo\" from \"abitazione\"); 'energy price increases' = \"i rincari energetici\" or \"l'aumento dei prezzi dell'energia\"; 'a staff training program' = \"un programma di formazione per il personale\". Italian has many relational adjectives: \"sanitario\" (health), \"scolastico\" (school), \"ferroviario\" (railway), \"comunale\" (city council).",
+          "Long stacks read better with an adjective or a clause. 'Government housing policy' = \"la politica abitativa del governo\" (\"abitativo\" from \"abitazione\"); 'energy price increases' = \"i rincari energetici\" or \"l'aumento dei prezzi dell'energia\"; 'a staff training program' = \"un programma di formazione per il personale\". Italian has many relational adjectives: \"sanitario\" (health), \"scolastico\" (school), \"ferroviario\" (rail), \"comunale\" (municipal, city).",
           "The possessive 's becomes \"di\" and the order flips: 'the government's new policy' = \"la nuova politica del governo\"; 'my sister's friend's car' = \"la macchina dell'amica di mia sorella\". Time expressions: 'yesterday's paper' = \"il giornale di ieri\"; 'a week's vacation' = \"una settimana di ferie\".",
+          "Headlines are where stacks are densest. 'City Council Budget Vote Delayed' becomes \"Slitta il voto sul bilancio comunale\" or \"Bilancio del Comune, rinviato il voto\": Italian headlines put the verb first (\"Slitta\", \"Arriva\", \"Torna\") or use a noun phrase, a comma and a participle. Idioms with 's need their own Italian image: 'a stone's throw from the station' = \"a due passi dalla stazione\".",
         ],
         examples: [
           { es: "La nuova politica abitativa del governo.", en: "The government's new housing policy." },
@@ -257,6 +284,9 @@ export const IT_C1_U18: Lesson[] = [
           { es: "La rete ferroviaria regionale.", en: "The regional rail network." },
           { es: "La macchina dell'amica di mia sorella.", en: "My sister's friend's car." },
           { es: "Hai letto il giornale di ieri?", en: "Have you read yesterday's paper?" },
+          { es: "Slitta il voto sul bilancio comunale.", en: "City council budget vote delayed." },
+          { es: "L'albergo è a due passi dalla stazione.", en: "The hotel is a stone's throw from the station." },
+          { es: "Ho perso lo spazzolino.", en: "I've lost my toothbrush." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The government's new housing policy.", answer: "La nuova politica abitativa del governo.", altAnswers: ["La nuova politica per la casa del governo.", "La nuova politica abitativa del Governo."], explanation: "Relational adjective \"abitativa\"." },
@@ -268,14 +298,14 @@ export const IT_C1_U18: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "A wool sweater.", answer: "Un maglione di lana.", explanation: "\"Di\" for material." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Is there a children's menu?", answer: "C'è un menù per bambini?", altAnswers: ["Avete un menù per bambini?", "C'è un menu per bambini?", "Avete un menu per bambini?"], explanation: "\"Per\" for intended users." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Have you got a ten-euro bill?", answer: "Hai una banconota da dieci euro?", altAnswers: ["Ha una banconota da dieci euro?", "Hai una banconota da 10 euro?", "Ha una banconota da 10 euro?"], explanation: "\"Da\" for value." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Do you have a ten-euro bill?", answer: "Hai una banconota da dieci euro?", altAnswers: ["Ha una banconota da dieci euro?", "Hai una banconota da 10 euro?", "Ha una banconota da 10 euro?"], explanation: "\"Da\" for value." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "A staff training program.", answer: "Un programma di formazione per il personale.", altAnswers: ["Un programma di formazione del personale."], explanation: "Unpack with \"di\" and \"per\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Have you read yesterday's paper?", answer: "Hai letto il giornale di ieri?", altAnswers: ["Ha letto il giornale di ieri?"], explanation: "Time 's = \"di\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "A gas boiler.", answer: "Una caldaia a gas.", explanation: "\"A\" for the mechanism." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The school canteen menu.", answer: "Il menù della mensa scolastica.", altAnswers: ["Il menu della mensa scolastica.", "Il menù della mensa della scuola."], explanation: "Head first + relational adjective." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Energy price increases] are worrying families.", sentence: "___ preoccupa le famiglie.", answer: "L'aumento dei prezzi dell'energia", altAnswers: ["Il rincaro dell'energia", "L'aumento del prezzo dell'energia"], explanation: "Three nouns, two \"di\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I bought some [running shoes].", sentence: "Ho comprato delle ___.", answer: "scarpe da corsa", altAnswers: ["scarpe da running"], explanation: "\"Da\" for purpose." },
-      { type: "word-order", prompt: "Put the words in order to say: The city council parking lot.", words: ["Il", "parcheggio", "comunale."], translation: "The city council parking lot.", explanation: "\"Comunale\" replaces 'city council'." },
+      { type: "word-order", prompt: "Put the words in order to say: The municipal parking lot.", words: ["Il", "parcheggio", "comunale."], translation: "The municipal parking lot.", explanation: "\"Comunale\" replaces 'municipal' or 'city'." },
       { type: "multiple-choice", question: "'A striped shirt' is ...", options: ["una camicia a righe", "una camicia di righe", "una righe camicia", "una camicia da righe"], correctIndex: 0, explanation: "\"A\" for patterns and features." },
       { type: "dictation", audio: "Il responsabile del team di assistenza clienti.", explanation: "Head noun first." },
       { type: "speak", text: "Abbiamo avuto una riunione di due ore sulla nuova politica abitativa del governo.", prompt: "Say it in Italian: We had a two-hour meeting on the government's new housing policy.", tip: "Group it: una riunione di due ore / sulla nuova politica abitativa / del governo.", explanation: "Two stacks unpacked." },
@@ -299,7 +329,7 @@ export const IT_C1_U18: Lesson[] = [
           { es: "Abbiamo rimandato il viaggio.", en: "We've put off the trip." },
           { es: "Correre mi rilassa.", en: "Running relaxes me." },
           { es: "La lettera va spedita oggi.", en: "The letter must be sent today." },
-          { es: "Un corso di cucina per principianti.", en: "A beginners' cookery course." },
+          { es: "Un corso di cucina per principianti.", en: "A cooking course for beginners." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Running relaxes me.", answer: "Correre mi rilassa.", altAnswers: ["La corsa mi rilassa."], explanation: "Infinitive as subject." },
@@ -331,7 +361,7 @@ export const IT_C1_U18: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "How long have you been living here?", answer: "Da quanto tempo abiti qui?", altAnswers: ["Da quanto abiti qui?", "Da quanto tempo vivi qui?", "Da quanto tempo abita qui?", "Da quanto tempo abitate qui?"], explanation: "\"Da quanto tempo\" + present." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You never know.", answer: "Non si sa mai.", explanation: "Impersonal \"si\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I was told the office is closed.", answer: "Mi hanno detto che l'ufficio è chiuso.", altAnswers: ["Mi è stato detto che l'ufficio è chiuso.", "Mi hanno detto che l'ufficio era chiuso."], explanation: "Not *\"Sono stato detto\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "A beginners' cookery course.", answer: "Un corso di cucina per principianti.", explanation: "Head first: \"corso\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "A cooking course for beginners.", answer: "Un corso di cucina per principianti.", explanation: "Head first: \"corso\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She found out the truth by reading his emails.", answer: "Ha scoperto la verità leggendo le sue email.", altAnswers: ["Ha scoperto la verità leggendo le sue mail.", "Ha scoperto la verità leggendo le sue e-mail."], explanation: "'Find out' + 'by' -ing = gerund." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The tickets have run out.", answer: "I biglietti sono esauriti.", altAnswers: ["I biglietti sono finiti.", "I biglietti si sono esauriti.", "I biglietti sono andati esauriti."], explanation: "\"Esaurito\" = sold out." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Houses are built differently here.", answer: "Qui le case si costruiscono diversamente.", altAnswers: ["Qui le case si costruiscono in modo diverso.", "Le case qui si costruiscono diversamente."], explanation: "\"Si passivante\"." },
@@ -350,7 +380,7 @@ export const IT_C1_U18: Lesson[] = [
     number: 6,
     title: "Advanced False Friends",
     summary: "Master the false friends that trip up even advanced translators: argomento, eventualmente, attualmente, sensibile, preservativo, morbido, rumore and more.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Words that look English",
@@ -358,6 +388,7 @@ export const IT_C1_U18: Lesson[] = [
           "\"Argomento\" is a topic or subject ('L'argomento della tesi'); an 'argument' is \"una discussione\" or \"una lite\" (a quarrel), or \"un ragionamento\" / \"una tesi\" (in logic). \"Eventualmente\" is 'if need be'; 'eventually' is \"alla fine\". \"Attualmente\" is 'currently'; 'actually' is \"in realtà\".",
           "\"Sensibile\" is 'sensitive' (\"una pelle sensibile\"); 'sensible' is \"sensato\" or \"ragionevole\". \"Preservativo\" is a condom; 'preservative' is \"conservante\". \"Morbido\" is 'soft' (\"un cuscino morbido\"); 'morbid' is \"morboso\". \"Rumore\" is 'noise'; a 'rumor' is \"una voce\" or \"una diceria\" (\"Gira voce che...\": rumor has it that).",
           "More: \"comprensivo\" = 'understanding' (a person), 'comprehensive' = \"completo\" or \"esauriente\"; \"pretendere\" = 'to demand, expect', 'to pretend' = \"fingere\"; \"editore\" = 'publisher', 'editor' = \"redattore\" or \"curatore\"; \"educato\" = 'polite', 'educated' = \"istruito\" or \"colto\".",
+          "Others catch out even professionals: \"libreria\" = bookstore or bookcase ('library' = \"biblioteca\"); \"fattoria\" = farm ('factory' = \"fabbrica\"); \"parenti\" = relatives ('parents' = \"genitori\"); \"lettura\" = reading ('lecture' = \"lezione\" or \"conferenza\"); \"confrontare\" = to compare ('to confront' = \"affrontare\"); \"assumere\" = to hire, or to take on a responsibility ('to assume' = \"supporre\" or \"dare per scontato\").",
         ],
         examples: [
           { es: "Abbiamo avuto una discussione sull'argomento della riunione.", en: "We had an argument about the topic of the meeting." },
@@ -368,6 +399,10 @@ export const IT_C1_U18: Lesson[] = [
           { es: "Gira voce che il direttore si dimetta.", en: "Rumor has it that the director is resigning." },
           { es: "Mio padre è stato molto comprensivo.", en: "My father was very understanding." },
           { es: "Pretende che arriviamo alle otto.", en: "He expects us to arrive at eight." },
+          { es: "Ci vediamo in biblioteca, non in libreria.", en: "See you at the library, not the bookstore." },
+          { es: "I miei parenti vivono in Calabria, i miei genitori a Torino.", en: "My relatives live in Calabria, my parents in Turin." },
+          { es: "Hanno assunto due ingegneri.", en: "They've hired two engineers." },
+          { es: "Do per scontato che tu venga.", en: "I assume you're coming." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It seems a sensible proposal to me.", answer: "Mi sembra una proposta sensata.", altAnswers: ["Mi pare una proposta sensata.", "Mi sembra una proposta ragionevole."], explanation: "'Sensible' = \"sensato\", not \"sensibile\"." },
@@ -379,6 +414,7 @@ export const IT_C1_U18: Lesson[] = [
         heading: "Choosing in context",
         body: [
           "False friends cause the worst mistakes in formal texts. 'A comprehensive report' = \"una relazione esauriente\" (not *\"comprensiva\"). 'The editor of the anthology' = \"il curatore dell'antologia\". 'Please don't pretend you didn't know' = \"Non fingere di non saperlo\". 'An educated woman' = \"una donna colta\". 'There was a loud noise' = \"C'è stato un forte rumore\".",
+          "Some false friends are only half false. \"Realizzare\" means 'to carry out' (\"realizzare un progetto\"); its use for 'to realize' is now common in speech and listed in dictionaries, but careful writers still prefer \"rendersi conto\". \"Supportare\" is spreading from tech jargon, but you 'support' a cause or a candidate with \"sostenere\". \"Addizionale\" is mainly a noun for a surcharge or local tax (\"l'addizionale regionale\"); 'additional' is usually \"ulteriore\" or \"aggiuntivo\".",
           "Check every word that looks English, especially in titles and first lines, where a false friend is most visible.",
         ],
         examples: [
@@ -387,6 +423,8 @@ export const IT_C1_U18: Lesson[] = [
           { es: "Non fingere di non saperlo.", en: "Don't pretend you didn't know." },
           { es: "È una donna colta e molto educata.", en: "She's an educated and very polite woman." },
           { es: "C'è stato un forte rumore in cortile.", en: "There was a loud noise in the courtyard." },
+          { es: "Abbiamo realizzato il progetto in sei mesi.", en: "We carried out the project in six months." },
+          { es: "Confronta i due preventivi prima di firmare.", en: "Compare the two estimates before signing." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Don't pretend you didn't know.", answer: "Non fingere di non saperlo.", altAnswers: ["Non far finta di non saperlo.", "Non fare finta di non saperlo.", "Non finga di non saperlo."], explanation: "'Pretend' = \"fingere\" / \"fare finta\"." },
@@ -428,7 +466,7 @@ export const IT_C1_U18: Lesson[] = [
     number: 7,
     title: "Translating Tone",
     summary: "Keep register and humor when translating: choosing tu, Lei or voi, rendering understatement, idioms and jokes, and matching formality.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Register: you, please and understatement",
@@ -436,6 +474,7 @@ export const IT_C1_U18: Lesson[] = [
           "English 'you' hides a choice Italian must make: \"tu\", \"Lei\" or \"voi\". Decide from context before you write a word: a bank letter is \"Lei\", an app is \"tu\", a shop sign to all customers is \"voi\" or impersonal. Changing halfway is the commonest tone error in translations.",
           "English politeness formulas rarely translate word for word. 'Please do not hesitate to contact us' = \"Non esiti a contattarci\" or \"Restiamo a disposizione\". 'Would you mind closing the door?' = \"Le dispiacerebbe chiudere la porta?\" 'Cheers' at the end of an email = \"Grazie\" or \"Un saluto\", never *\"Salute\". 'Hi guys' to colleagues = \"Ciao a tutti\".",
           "British understatement needs care. 'Not bad' often means 'very good': \"niente male\" or \"mica male\". 'It's a bit of a problem' may be a serious problem: \"È un bel problema\" (note the ironic \"bel\"). 'I'm not entirely convinced' = \"Non sono del tutto convinto\", which in Italian is already a clear objection.",
+          "Formality also lives in vocabulary. English uses the same words in a letter and a chat; Italian shifts: 'get' = \"ricevere\" (formal) or \"avere\"; 'need' = \"necessitare\" (bureaucratic), \"avere bisogno di\" (neutral), \"servire\" (spoken: \"Mi serve una penna\"); 'buy' = \"acquistare\" (formal) or \"comprare\". Translating a formal English letter, raise the register; translating dialogue, lower it: \"Abbiamo ricevuto la Sua richiesta\" vs \"Ho avuto il tuo messaggio\".",
         ],
         examples: [
           { es: "Non esiti a contattarci per qualsiasi domanda.", en: "Please do not hesitate to contact us with any questions." },
@@ -444,6 +483,9 @@ export const IT_C1_U18: Lesson[] = [
           { es: "Il tuo risotto? Niente male!", en: "Your risotto? Not bad at all!" },
           { es: "È un bel problema.", en: "It's a bit of a problem." },
           { es: "Non sono del tutto convinto.", en: "I'm not entirely convinced." },
+          { es: "Abbiamo ricevuto la Sua richiesta.", en: "We have received your request." },
+          { es: "Mi serve una penna, ce l'hai?", en: "I need a pen, do you have one?" },
+          { es: "Il biglietto può essere acquistato online.", en: "The ticket can be bought online." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian (bank letter).", source: "Please do not hesitate to contact us.", answer: "Non esiti a contattarci.", altAnswers: ["Non esiti a contattarci per qualsiasi domanda.", "Restiamo a disposizione.", "Non esitate a contattarci."], explanation: "Formal \"Lei\": \"non esiti\"." },
@@ -454,15 +496,18 @@ export const IT_C1_U18: Lesson[] = [
       {
         heading: "Idioms and humor",
         body: [
-          "Idioms are translated by function, not by image. 'It's raining cats and dogs' = \"Piove a catinelle\"; 'break a leg' = \"In bocca al lupo\" (the answer is \"Crepi!\"); 'a piece of cake' = \"un gioco da ragazzi\"; 'the elephant in the room' = \"il problema di cui nessuno vuole parlare\" (no fixed Italian image); 'to kill two birds with one stone' = \"prendere due piccioni con una fava\".",
+          "Idioms are translated by function, not by image. 'It's raining cats and dogs' = \"Piove a catinelle\"; 'good luck' before an exam, an interview or a show (where English actors say 'break a leg') = \"In bocca al lupo\" (the answer is \"Crepi!\"); 'a piece of cake' = \"un gioco da ragazzi\"; 'the elephant in the room' = \"il problema di cui nessuno vuole parlare\" (no fixed Italian image); 'to kill two birds with one stone' = \"prendere due piccioni con una fava\".",
           "Puns usually die in translation. Look for an Italian pun with the same effect, even if the words change, or let the joke go and keep the tone light elsewhere. Swearing and slang should keep the same level of strength, not the same literal meaning.",
+          "Cultural references and formats need decisions too. Thanksgiving or the Super Bowl may need a short gloss (\"il giorno del Ringraziamento\") in a practical text; in a novel, keep them and trust the reader. Practical texts also convert units and formats: miles become kilometers, Fahrenheit becomes Celsius, and dates go day-month, so '4/7' in an American text is \"7 aprile\".",
         ],
         examples: [
           { es: "Piove a catinelle.", en: "It's raining cats and dogs." },
-          { es: "In bocca al lupo per l'esame! Crepi!", en: "Break a leg in the exam! Thanks!" },
+          { es: "In bocca al lupo per l'esame! Crepi!", en: "Good luck on the exam! Thanks!" },
           { es: "Per lei è un gioco da ragazzi.", en: "For her it's a piece of cake." },
           { es: "Così prendiamo due piccioni con una fava.", en: "That way we kill two birds with one stone." },
           { es: "C'è un problema di cui nessuno vuole parlare.", en: "There's an elephant in the room." },
+          { es: "Ci vediamo il giorno del Ringraziamento.", en: "See you on Thanksgiving." },
+          { es: "La temperatura è salita a 35 gradi.", en: "The temperature climbed to 95 degrees." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian (idiom).", source: "That way we kill two birds with one stone.", answer: "Così prendiamo due piccioni con una fava.", altAnswers: ["Così prendiamo due piccioni con una fava!", "In questo modo prendiamo due piccioni con una fava."], explanation: "Same function, Italian image." },
@@ -476,14 +521,14 @@ export const IT_C1_U18: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Your risotto? Not bad at all!", answer: "Il tuo risotto? Niente male!", altAnswers: ["Il tuo risotto? Mica male!", "Il Suo risotto? Niente male!"], explanation: "Understatement: \"niente male\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (a man speaking).", source: "I'm not entirely convinced.", answer: "Non sono del tutto convinto.", altAnswers: ["Non sono completamente convinto.", "Non sono proprio convinto."], explanation: "In Italian this is a clear objection." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (email to colleagues).", source: "Hi guys, I'm forwarding you the schedule.", answer: "Ciao a tutti, vi giro il programma.", altAnswers: ["Ciao a tutti, vi inoltro il programma.", "Ciao ragazzi, vi giro il programma."], explanation: "\"Girare\" = to forward (informal)." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian (idiom).", source: "Break a leg in the exam!", answer: "In bocca al lupo per l'esame!", altAnswers: ["In bocca al lupo per l'esame."], explanation: "Function, not image." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian (idiom).", source: "Good luck on your exam!", answer: "In bocca al lupo per l'esame!", altAnswers: ["In bocca al lupo per l'esame.", "Buona fortuna per l'esame!"], explanation: "The idiomatic Italian wish; 'break a leg' would only suit a performance." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (app, tu).", source: "Enter your password to continue.", answer: "Inserisci la password per continuare.", altAnswers: ["Inserisci la tua password per continuare.", "Digita la password per continuare."], explanation: "Apps address the user as \"tu\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Would you mind] closing the door? (formal)", sentence: "___ chiudere la porta?", answer: "Le dispiacerebbe", altAnswers: ["Le dispiace"], explanation: "Polite conditional." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Thanks for everything. [Cheers], Marco", sentence: "Grazie di tutto. ___, Marco", answer: "Un saluto", altAnswers: ["Ciao", "A presto", "Saluti"], explanation: "Never \"Salute\" in an email." },
       { type: "word-order", prompt: "Put the words in order to say: It's a bit of a problem.", words: ["È", "un", "bel", "problema."], translation: "It's a bit of a problem.", explanation: "Ironic \"bel\"." },
       { type: "multiple-choice", question: "You're translating a bank's letter to a customer. Which form do you use throughout?", options: ["Lei", "tu", "voi", "a mix of tu and Lei"], correctIndex: 0, explanation: "Formal and consistent." },
       { type: "dictation", audio: "Piove a catinelle.", explanation: "Idiom by function." },
-      { type: "speak", text: "In bocca al lupo per l'esame! Vedrai, per te sarà un gioco da ragazzi.", prompt: "Encourage a friend: Break a leg in the exam! You'll see, it'll be a piece of cake for you.", tip: "Warm tone; \"in bocca al lupo\" in one breath.", explanation: "Two idioms by function." },
+      { type: "speak", text: "In bocca al lupo per l'esame! Vedrai, per te sarà un gioco da ragazzi.", prompt: "Encourage a friend: Good luck on your exam! You'll see, it'll be a piece of cake for you.", tip: "Warm tone; \"in bocca al lupo\" in one breath.", explanation: "Two idioms by function." },
     ],
   },
   {
@@ -517,7 +562,7 @@ export const IT_C1_U18: Lesson[] = [
         heading: "Word choice and collocation",
         body: [
           "6. \"Ha fatto una decisione\" ('made a decision'): \"Ha preso una decisione\". 7. \"Non fa senso\" ('it doesn't make sense'): \"Non ha senso\". 8. \"Ho preso una doccia\" ('I took a shower'): \"Ho fatto la doccia\". 9. \"Sei giusto\" ('you're right'): \"Hai ragione\".",
-          "10. \"Ho realizzato che era tardi\" ('I realized it was late'): \"Mi sono reso conto che era tardi\". 11. \"In accordo con il rapporto\" ('according to the report'): \"Secondo il rapporto\". 12. \"Ha speso tre ore a cucinare\" ('spent three hours cooking'): \"Ha passato tre ore a cucinare\"; \"spendere\" is for money only.",
+          "10. \"Ho realizzato che era tardi\" ('I realized it was late'): common in speech, but careful writers prefer \"Mi sono reso conto che era tardi\". 11. \"In accordo con il rapporto\" ('according to the report'): \"Secondo il rapporto\". 12. \"Ha speso tre ore a cucinare\" ('spent three hours cooking'): \"Ha passato tre ore a cucinare\"; \"spendere\" is for money only.",
         ],
         examples: [
           { es: "Ha preso una decisione difficile.", en: "She made a difficult decision." },
@@ -530,7 +575,7 @@ export const IT_C1_U18: Lesson[] = [
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Fix \"Non fa senso\" and write: It doesn't make sense to wait.", source: "It doesn't make sense to wait.", answer: "Non ha senso aspettare.", explanation: "\"Avere senso\"." },
           { type: "translate", direction: "en-es", prompt: "Fix \"in accordo con\" and write: According to the report, sales have fallen.", source: "According to the report, sales have fallen.", answer: "Secondo il rapporto, le vendite sono calate.", altAnswers: ["Secondo il rapporto le vendite sono calate.", "Secondo il rapporto, le vendite sono diminuite.", "Stando al rapporto, le vendite sono calate."], explanation: "'According to' = \"secondo\"." },
-          { type: "listen-choose", audio: "Ha passato tre ore a cucinare.", question: "What does it mean?", options: ["He spent three hours cooking.", "He spent money on cooking.", "He cooked for three people.", "He passed his cookery exam."], correctIndex: 0, explanation: "Time is \"passato\", money is \"speso\"." },
+          { type: "listen-choose", audio: "Ha passato tre ore a cucinare.", question: "What does it mean?", options: ["He spent three hours cooking.", "He spent money on cooking.", "He cooked for three people.", "He passed his cooking exam."], correctIndex: 0, explanation: "Time is \"passato\", money is \"speso\"." },
         ],
       },
     ],
@@ -653,7 +698,7 @@ export const IT_C1_U18: Lesson[] = [
         heading: "Version B",
         body: [
           "Version B: \"Quando arrivò alla stazione, l'ultimo treno era già partito. Rimase sul binario deserto a fissare il tabellone degli orari, come se potesse ripensarci. Da qualche parte abbaiava un cane. Non si era mai sentita così lontana da casa.\"",
-          "Version B reads like Italian prose. 'By the time' becomes \"Quando\" + past perfect: the order of events is clear without a calque. \"Passato remoto\" (\"arrivò\", \"rimase\") suits a novel. 'Platform' is \"binario\" (track number) in everyday Italian; \"deserto\" is stronger than \"vuoto\". 'Change its mind' becomes \"ripensarci\" (to have second thoughts), which keeps the humor of a timetable with feelings. The subject pronouns disappear, and the dog moves after its verb for rhythm.",
+          "Version B reads like Italian prose. 'By the time' becomes \"Quando\" + past perfect: the order of events is clear without a calque. \"Passato remoto\" (\"arrivò\", \"rimase\") suits a novel. For 'platform', everyday Italian says \"binario\" (literally the track: \"il treno parte dal binario 3\"); \"banchina\" is correct but more technical. \"Deserto\" is stronger than \"vuoto\". 'Change its mind' becomes \"ripensarci\" (to have second thoughts), which keeps the humor of a timetable with feelings. The subject pronouns disappear, and the dog moves after its verb for rhythm.",
         ],
         examples: [
           { es: "Quando arrivò alla stazione, l'ultimo treno era già partito.", en: "By the time she got to the station, the last train had already left." },

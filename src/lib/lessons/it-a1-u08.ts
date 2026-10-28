@@ -443,7 +443,7 @@ export const IT_A1_U08: Lesson[] = [
           { es: "la colazione", en: "breakfast" },
         ],
         checkpoint: [
-          { type: "listen-choose", audio: "la stazione", question: "What did you hear?", options: ["la stazione", "la stagione", "la sezione", "la station"], correctIndex: 0, explanation: "\"-zione\" = [tsio-ne]." },
+          { type: "listen-choose", audio: "la stazione", question: "What did you hear?", options: ["la stazione", "la stagione", "la sezione", "la frazione"], correctIndex: 0, explanation: "\"-zione\" = [tsio-ne]." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The station is in the square.", answer: "La stazione è in piazza.", altAnswers: ["La stazione è nella piazza."], explanation: "Two [ts] sounds." },
         ],
       },
@@ -625,10 +625,10 @@ export const IT_A1_U08: Lesson[] = [
       {
         heading: "Scusi, per Piazza San Marco?",
         body: [
-          "Kate is lost near the Rialto bridge. She stops a man: \"Scusi, per andare a Piazza San Marco?\" Venice has no cars, so every answer is on foot: \"Vada dritto, attraversi il ponte e poi giri a destra\". Venetians say \"calle\" for a narrow street and \"campo\" for a small square.",
+          "Kate is lost near the Rialto bridge. She stops a man: \"Scusi, per andare in Piazza San Marco?\" (a named square takes \"in\") Venice has no cars, so every answer is on foot: \"Vada dritto, attraversi il ponte e poi giri a destra\". Venetians say \"calle\" for a narrow street and \"campo\" for a small square.",
         ],
         examples: [
-          { es: "Scusi, per andare a Piazza San Marco?", en: "Excuse me, how do I get to St Mark's Square?" },
+          { es: "Scusi, per andare in Piazza San Marco?", en: "Excuse me, how do I get to St Mark's Square?" },
           { es: "È facile. Vada dritto.", en: "It's easy. Go straight on." },
           { es: "Attraversi il ponte e poi giri a destra.", en: "Cross the bridge and then turn right." },
           { es: "È lontano?", en: "Is it far?" },
@@ -657,7 +657,7 @@ export const IT_A1_U08: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Excuse me, how do I get to St Mark's Square?", answer: "Scusi, per andare a Piazza San Marco?", altAnswers: ["Scusi, per Piazza San Marco?", "Scusi, dov'è Piazza San Marco?"], explanation: "\"Per andare a\" + place name." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Excuse me, how do I get to St Mark's Square?", answer: "Scusi, per andare in Piazza San Marco?", altAnswers: ["Scusi, per andare a Piazza San Marco?", "Scusi, per andare a San Marco?", "Scusi, per Piazza San Marco?", "Scusi, dov'è Piazza San Marco?"], explanation: "\"Per andare\" + place: a named square usually takes \"in\" (\"in Piazza San Marco\"), though you'll also hear \"a\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Is it far?", answer: "È lontano?", explanation: "\"Lontano\" = far." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's next to the bar.", answer: "È accanto al bar.", explanation: "\"Accanto a\" + il." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Take the number one.", answer: "Prenda il numero uno.", altAnswers: ["Prenda il numero 1."], explanation: "\"Prenda\": Lei command." },
@@ -744,7 +744,7 @@ export const IT_A1_U08: Lesson[] = [
     slug: "a1-mission-describe-your-town",
     level: "IT-A1",
     number: 11,
-    title: "Real-World Mission: Your Neighbourhood",
+    title: "Real-World Mission: Your Neighborhood",
     summary: "Tell a guest how to get from the station to your place and what there is nearby.",
     duration: "15 min",
     kind: "review",

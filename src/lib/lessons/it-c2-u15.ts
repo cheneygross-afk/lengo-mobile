@@ -61,6 +61,7 @@ export const IT_C2_U15: Lesson[] = [
           "Some spellings trip up Italians because of regional pronunciation. *Propio for \"proprio\" and *pultroppo for \"purtroppo\" copy a common spoken simplification. Double consonants vary across Italy: southern speakers may double where the standard doesn't (*subbito for \"subito\"), northern speakers may single where it doubles (*machina for \"macchina\"). Always check \"accelerare\" (one l), \"eccezione\" (one z), \"soddisfare\" (two d, one f), \"obiettivo\" (or \"obbiettivo\", both accepted).",
           "\"C'è\" (there is) is \"ci\" + \"è\" elided; *cè and *c'e are wrong. \"Ce\" without an apostrophe is the pronoun \"ci\" before another pronoun: \"Ce l'ho\" (I've got it), \"Ce ne sono tre\" (there are three of them).",
           "-cie- or -ce-? After c, keep the i in \"cielo\", \"società\", \"sufficiente\", \"efficiente\", \"coscienza\", \"specie\", \"superficie\", and in the plural of nouns in -cia with a consonant before: \"provincia\" → \"province\", but \"farmacia\" → \"farmacie\" (stressed i).",
+          "Two more traps. The z of \"-zione\" is pronounced long but written single (\"nazione\", \"attenzione\", \"eccezione\"), so spellings that follow the sound, like *attenzzione, are a typical slip of fast writers. And verbs in -gnare keep the i of the ending: \"sogniamo\", \"insegniamo\", \"disegniate\"; the i is silent after gn, which is why so many people drop it. Grammars still record the i as the standard spelling, and an editor restores it.",
         ],
         examples: [
           { es: "È proprio quello che cercavo.", en: "It's exactly what I was looking for." },
@@ -114,7 +115,7 @@ export const IT_C2_U15: Lesson[] = [
       {
         heading: "Se sarei and the hypothetical period",
         body: [
-          "The most stigmatised error in Italian is the conditional after \"se\": *se sarei ricco, *se avrei saputo. It is heard in some regions and is a social marker: an Italian reader who sees it in a CV or an email judges the writer harshly. The standard is \"se\" + subjunctive, conditional in the main clause: \"Se fossi ricco, viaggerei\", \"Se l'avessi saputo, sarei venuto\".",
+          "The most stigmatized error in Italian is the conditional after \"se\": *se sarei ricco, *se avrei saputo. It is heard in some regions and is a social marker: an Italian reader who sees it in a CV or an email judges the writer harshly. The standard is \"se\" + subjunctive, conditional in the main clause: \"Se fossi ricco, viaggerei\", \"Se l'avessi saputo, sarei venuto\".",
           "The spoken imperfect version (\"Se lo sapevo, venivo\") is not an error in the same way: it is informal Italian, accepted in speech and in dialogue, but out of place in edited prose. Correct it in a report; leave it in a character's mouth.",
           "\"Se\" meaning whether takes the indicative or the subjunctive, and the conditional is fine there: \"Non so se verrebbe\" (I don't know whether he would come). Editors who blindly replace every conditional after \"se\" create a new error.",
         ],
@@ -133,12 +134,13 @@ export const IT_C2_U15: Lesson[] = [
       {
         heading: "Pronouns: a me mi, gli for le, che for cui",
         body: [
-          "*A me mi piace doubles the pronoun. In speech it is common and expressive (Manzoni himself defended it in dialogue), but in writing choose one: \"A me piace\" (emphatic) or \"Mi piace\" (neutral).",
+          "*A me mi piace doubles the pronoun. In speech it is common and expressive, and novelists use it in dialogue to sound natural, but in edited prose choose one: \"A me piace\" (emphatic) or \"Mi piace\" (neutral).",
           "\"Gli\" for to them is now accepted in all but the most formal registers (\"Ho visto i ragazzi e gli ho detto...\"); \"loro\" after the verb remains the formal choice. But \"gli\" for to her is an error: \"Ho visto Giulia e le ho detto\", never *gli ho detto. Editors correct it every time.",
           "The \"che polivalente\" of speech replaces any relative: *La ragazza che ti ho parlato, *Il paese che ci sono nato. In writing use the right relative: \"la ragazza di cui ti ho parlato\", \"il paese in cui sono nato\" (or \"dove\"). The error is easy to spot: the verb after \"che\" needs a preposition.",
+          "Two related slips. *Ci ho detto for \"gli ho detto\" or \"le ho detto\" is common in popular speech in several regions, and never acceptable in writing. And \"di cui\" already contains the of it, so a following \"ne\" doubles it: *il libro di cui ne abbiamo parlato → \"il libro di cui abbiamo parlato\". The same doubling hides in *è lì che ci abito (\"è lì che abito\").",
         ],
         examples: [
-          { es: "A me piace molto questo quartiere.", en: "I really like this neighbourhood." },
+          { es: "A me piace molto questo quartiere.", en: "I really like this neighborhood." },
           { es: "Ho visto Giulia e le ho detto tutto.", en: "I saw Giulia and told her everything." },
           { es: "Ho visto i ragazzi e gli ho detto di aspettare.", en: "I saw the boys and told them to wait." },
           { es: "È la ragazza di cui ti ho parlato.", en: "She's the girl I told you about." },
@@ -147,25 +149,25 @@ export const IT_C2_U15: Lesson[] = [
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "The draft says *Ho visto Giulia e gli ho detto tutto. Write the correct Italian for: I saw Giulia and told her everything.", source: "I saw Giulia and told her everything.", answer: "Ho visto Giulia e le ho detto tutto.", altAnswers: ["Ho visto Giulia e le ho raccontato tutto.", "Ho incontrato Giulia e le ho detto tutto."], explanation: "To her = \"le\". \"Gli\" for a woman is a mistake." },
           { type: "translate", direction: "en-es", prompt: "The draft says *la ragazza che ti ho parlato. Write the correct Italian for: She's the girl I told you about.", source: "She's the girl I told you about.", answer: "È la ragazza di cui ti ho parlato.", altAnswers: ["È la ragazza della quale ti ho parlato.", "Lei è la ragazza di cui ti ho parlato."], explanation: "\"Parlare di\" → \"di cui\"." },
-          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I [really like] this neighbourhood. (emphatic: me, at least)", sentence: "A me ___ questo quartiere.", answer: "piace molto", explanation: "\"A me\" alone, without \"mi\", in writing." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I [really like] this neighborhood. (emphatic: me, at least)", sentence: "A me ___ questo quartiere.", answer: "piace molto", explanation: "\"A me\" alone, without \"mi\", in writing." },
         ],
       },
       {
         heading: "Piuttosto che, vadi and dasse",
         body: [
-          "\"Piuttosto che\" used to mean or in a list (*Puoi pagare con carta piuttosto che bancomat piuttosto che contanti) spread from northern business talk in the 1980s and is now condemned by every grammar: it should mean rather than (\"Preferisco camminare piuttosto che prendere l'autobus\"). Using it as or can even create ambiguity: does the speaker exclude the second option or not?",
-          "Popular verb forms that editors correct: *vadi and *facci for \"vada\" and \"faccia\" (present subjunctive of \"andare\" and \"fare\"); *dasse and *stasse for \"desse\" and \"stesse\" (imperfect subjunctive of \"dare\" and \"stare\"); *potrebbi for \"potresti\". They are heard widely, especially in central and southern speech, and they are firmly non-standard.",
+          "\"Piuttosto che\" used to mean or in a list (*Puoi pagare con carta piuttosto che bancomat piuttosto che contanti) spread from northern Italy in recent decades and is criticized by grammarians and by the Accademia della Crusca: it should mean rather than (\"Preferisco camminare piuttosto che prendere l'autobus\"). Using it as or can even create ambiguity: does the speaker exclude the second option or not?",
+          "Popular verb forms that editors correct: *vadi and *facci for \"vada\" and \"faccia\" (present subjunctive of \"andare\" and \"fare\"); *dasse and *stasse for \"desse\" and \"stesse\" (imperfect subjunctive of \"dare\" and \"stare\"); *potrebbi for \"potresti\". They are heard in many regions, and they are firmly non-standard.",
           "Also watch the comparative: *più meglio, *più peggio and *il più migliore double the comparison. \"Meglio\", \"peggio\", \"migliore\", \"peggiore\" are already comparatives.",
         ],
         examples: [
           { es: "Puoi pagare con carta, bancomat o contanti.", en: "You can pay by credit card, debit card or cash." },
           { es: "Preferisco camminare piuttosto che prendere l'autobus.", en: "I'd rather walk than take the bus." },
-          { es: "Bisogna che vada subito in farmacia.", en: "I need to go to the chemist's right away." },
+          { es: "Bisogna che vada subito in farmacia.", en: "I need to go to the pharmacy right away." },
           { es: "Se mi desse retta, starebbe meglio.", en: "If he listened to me, he'd be better off." },
           { es: "Questa soluzione è migliore dell'altra.", en: "This solution is better than the other." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "The draft says *bisogna che vadi. Write the correct Italian for: I need to go to the chemist's right away.", source: "I need to go to the chemist's right away.", answer: "Bisogna che vada subito in farmacia.", altAnswers: ["Devo andare subito in farmacia.", "Bisogna che io vada subito in farmacia."], explanation: "Present subjunctive of \"andare\": \"vada\"." },
+          { type: "translate", direction: "en-es", prompt: "The draft says *bisogna che vadi. Write the correct Italian for: I need to go to the pharmacy right away.", source: "I need to go to the pharmacy right away.", answer: "Bisogna che vada subito in farmacia.", altAnswers: ["Devo andare subito in farmacia.", "Bisogna che io vada subito in farmacia."], explanation: "Present subjunctive of \"andare\": \"vada\"." },
           { type: "translate", direction: "en-es", prompt: "The draft says *Se mi dasse retta. Write the correct Italian for: If he listened to me, he'd be better off.", source: "If he listened to me, he'd be better off.", answer: "Se mi desse retta, starebbe meglio.", altAnswers: ["Se mi ascoltasse, starebbe meglio.", "Se lui mi desse retta, starebbe meglio."], explanation: "\"Desse\", imperfect subjunctive of \"dare\"; \"dare retta a\" = to listen to, heed." },
           { type: "listen-choose", audio: "Preferisco camminare piuttosto che prendere l'autobus.", question: "What does the speaker prefer?", options: ["Walking instead of taking the bus", "Either walking or taking the bus", "Taking the bus", "Neither"], correctIndex: 0, explanation: "\"Piuttosto che\" correctly used: rather than." },
         ],
@@ -202,7 +204,7 @@ export const IT_C2_U15: Lesson[] = [
     level: "IT-C2",
     number: 3,
     title: "Hypercorrection",
-    summary: "Recognise over-correct forms: subjunctives where the indicative is required, avoided gli, tra io e te, egli in speech, and other errors born of trying too hard.",
+    summary: "Recognize over-correct forms: subjunctives where the indicative is required, avoided gli, tra io e te, egli in speech, and other errors born of trying too hard.",
     duration: "19 min",
     sections: [
       {
@@ -210,7 +212,7 @@ export const IT_C2_U15: Lesson[] = [
         body: [
           "\"L'ipercorrettismo\" is an error made by someone trying to avoid an error. Since Italians are told the subjunctive is elegant, some put it everywhere. But verbs and connectors of certainty take the indicative: \"So che è vero\" (not *so che sia vero), \"È evidente che ha sbagliato\", \"Sono sicuro che arriverà\". Knowledge and certainty are facts, and facts are indicative.",
           "Causal and temporal connectors also take the indicative: \"dato che\", \"siccome\", \"poiché\", \"visto che\" (*siccome sia tardi → \"siccome è tardi\"); \"dopo che\" (*dopo che sia arrivato → \"dopo che è arrivato\"). \"Prima che\" takes the subjunctive, \"dopo che\" doesn't: learners and natives mix them up.",
-          "\"Anche se\" with a real fact takes the indicative (\"Anche se piove, esco\"); turning it into a subjunctive (*anche se piova) is a classic overcorrection by those who have just learnt \"benché\" + subjunctive.",
+          "\"Anche se\" with a real fact takes the indicative (\"Anche se piove, esco\"); turning it into a subjunctive (*anche se piova) is a classic overcorrection by those who have just learned \"benché\" + subjunctive.",
         ],
         examples: [
           { es: "So che è vero, ma non voglio crederci.", en: "I know it's true, but I don't want to believe it." },
@@ -229,9 +231,10 @@ export const IT_C2_U15: Lesson[] = [
       {
         heading: "Pronouns: tra me e te, egli, loro",
         body: [
-          "After a preposition Italian uses the stressed object pronouns: \"tra me e te\", \"per me\", \"secondo te\". *Tra io e te is a hypercorrection modelled on the English worry about between you and me. As a subject, though, \"io e te\" is now widely heard in speech (\"io e te andiamo\"); the careful written form is \"io e tu\" or, better, a rephrase: \"tu e io\", \"noi due\".",
+          "After a preposition Italian uses the stressed object pronouns: \"tra me e te\", \"per me\", \"secondo te\". *Tra io e te is a hypercorrection by speakers who feel that \"io\" sounds more correct than \"me\". As a subject, though, \"io e te\" is now widely heard in speech (\"io e te andiamo\"); the careful written form is \"io e tu\" or, better, a rephrase: \"tu e io\", \"noi due\".",
           "\"Egli\" and \"ella\" in speech or in an informal email are hypercorrect: they belong to written, formal prose, and even there \"lui\" and \"lei\" are standard today. A Roman who says \"egli è uscito\" in a bar sounds like a parody.",
           "Some writers avoid \"gli\" for to them so carefully that they produce \"loro\" in the wrong place: *Loro ho detto (should be \"Ho detto loro\"). \"Loro\" as an indirect object always follows the verb.",
+          "Not every school rule is a rule, and \"correcting\" real Italian is hypercorrection too. Agreement by sense is accepted by the grammars: \"la maggior parte degli studenti sono arrivati\" stands beside the safer \"è arrivata\"; so does \"un gruppo di turisti hanno chiesto\". Starting a sentence with \"E\" or \"Ma\" is discouraged at school but perfectly good written Italian when it adds weight. An editor who flattens all of these into one pattern makes a text stiffer, not more correct.",
         ],
         examples: [
           { es: "Che resti tra me e te.", en: "Let's keep it between you and me." },
@@ -250,7 +253,7 @@ export const IT_C2_U15: Lesson[] = [
         body: [
           "Overcorrection also hits spelling. Writers who know that \"qual è\" has no apostrophe sometimes remove apostrophes everywhere: *un altra (should be \"un'altra\"), *nessun'altro (should be \"nessun altro\"). The test is gender: feminine elides, masculine truncates.",
           "Others add accents to look careful: *qui, *qua and *su with accents, *fà for \"fa\", *stà for \"sta\", *sò for \"so\". None of these monosyllables has a twin to distinguish from, so none takes an accent.",
-          "Finally the \"d eufonica\": *ad Andrea, *ed ora, *od un are fine but old-fashioned; *ad ottobre and *ed infatti are overcorrections against the modern rule (only before the same vowel). In fixed phrases like \"ad esempio\" and \"ad oggi\" it is accepted.",
+          "Finally the \"d eufonica\". The modern rule puts the d only before the same vowel: \"ad Andrea\", \"ed era\". Before a different vowel it is not wrong but old-fashioned (\"ed ora\"; \"od\" is practically extinct), and writers who scatter *ad ottobre and *ed infatti everywhere think they sound correct when they sound dated. In fixed phrases like \"ad esempio\" and \"ad oggi\" it is accepted.",
         ],
         examples: [
           { es: "Ci vediamo un'altra volta.", en: "Let's meet another time." },
@@ -324,14 +327,14 @@ export const IT_C2_U15: Lesson[] = [
         heading: "Register: tu, Lei and capitals",
         body: [
           "Mixing \"tu\" and \"Lei\" in one message is the most noticeable inconsistency in Italian emails: \"Gentile signora, Le scrivo per... Fammi sapere\" jars. Choose one and check every verb, pronoun and possessive: \"Mi faccia sapere\", \"la Sua richiesta\".",
-          "Capitalising \"Lei\", \"La\", \"Le\", \"Suo\" in formal letters is a choice; many style guides now recommend lower case except in very formal correspondence. Whatever you choose, apply it to every occurrence, including pronouns attached to verbs (\"inviarLe\" or \"inviarle\").",
+          "Capitalizing \"Lei\", \"La\", \"Le\", \"Suo\" in formal letters is a choice; many style guides now recommend lower case except in very formal correspondence. Whatever you choose, apply it to every occurrence, including pronouns attached to verbs (\"inviarLe\" or \"inviarle\").",
           "Register also covers vocabulary: an email that opens with \"Egregio Dottore\" and closes with \"Un abbraccio\" is inconsistent. Match greeting, body and closing: \"Gentile dottor Bianchi ... Cordiali saluti\"; \"Ciao Marco ... A presto\".",
         ],
         examples: [
           { es: "Gentile signora, Le scrivo per confermare l'appuntamento.", en: "Dear Madam, I'm writing to confirm the appointment." },
           { es: "Mi faccia sapere se l'orario Le va bene.", en: "Let me know if the time suits you." },
           { es: "Resto a disposizione per qualsiasi chiarimento.", en: "I remain available for any clarification." },
-          { es: "Gentile dottor Bianchi, ... Cordiali saluti.", en: "Dear Dr Bianchi, ... Kind regards." },
+          { es: "Gentile dottor Bianchi, ... Cordiali saluti.", en: "Dear Dr. Bianchi, ... Best regards." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "The draft says *Gentile signora... Fammi sapere. Write the consistent formal Italian for: Let me know if the time suits you.", source: "Let me know if the time suits you.", answer: "Mi faccia sapere se l'orario Le va bene.", altAnswers: ["Mi faccia sapere se l'orario le va bene.", "Mi faccia sapere se l'orario Le è comodo.", "Mi faccia sapere se l'orario le è comodo."], explanation: "Lei imperative \"mi faccia\" and \"Le\" for you." },
@@ -344,10 +347,11 @@ export const IT_C2_U15: Lesson[] = [
           "In technical, legal or business texts, use the same term for the same thing throughout. If page 1 says \"il fornitore\", page 3 shouldn't say \"il venditore\" for the same party: the reader may think it's someone else. This is the one place where Italian's dislike of repetition must give way.",
           "Numbers and dates: pick one convention and keep it. \"3 marzo 2025\" or \"03/03/2025\", not both; \"10%\" or \"10 per cento\"; numbers one to ten in words in running prose, figures above, unless the style guide says otherwise. Units: \"5 km\", \"20 °C\", with a space.",
           "Formatting: titles of works in italics or in guillemets, consistently; abbreviations defined at first use (\"Agenzia delle Entrate (AdE)\"); lists all in the same grammatical form, all nouns or all infinitives: \"verificare, aggiornare, inviare\", not \"verifica, aggiornare, l'invio\".",
+          "Foreign words and names need a policy too. Loanwords normally take no plural -s in Italian (\"i film\", \"i computer\", \"le email\"), so \"i films\" on one page and \"i film\" on the next looks careless; italics for foreign words are optional, but all or none. For place names, choose the Italian exonym or the local form and keep it: \"Pechino\" or \"Beijing\", and \"Monaco di Baviera\" rather than bare \"Monaco\" when you mean Munich, since \"Monaco\" alone is also the principality.",
         ],
         examples: [
           { es: "Il fornitore si impegna a consegnare la merce entro trenta giorni.", en: "The supplier undertakes to deliver the goods within thirty days." },
-          { es: "La riunione si terrà il 3 marzo 2025 alle 10:00.", en: "The meeting will be held on 3 March 2025 at 10:00." },
+          { es: "La riunione si terrà il 3 marzo 2025 alle 10:00.", en: "The meeting will be held on March 3, 2025, at 10:00." },
           { es: "La temperatura ha raggiunto i 38 °C.", en: "The temperature reached 38 °C." },
           { es: "Compiti: verificare i dati, aggiornare il file, inviare il report.", en: "Tasks: check the data, update the file, send the report." },
         ],
@@ -360,7 +364,7 @@ export const IT_C2_U15: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I thought he'd already left.", answer: "Pensavo che fosse già partito.", altAnswers: ["Credevo che fosse già partito.", "Pensavo che fosse già andato via."], explanation: "Concordanza: past + pluperfect subjunctive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I remain available for any clarification.", answer: "Resto a disposizione per qualsiasi chiarimento.", altAnswers: ["Rimango a disposizione per qualsiasi chiarimento.", "Resto a disposizione per eventuali chiarimenti.", "Rimango a disposizione per eventuali chiarimenti."], explanation: "A stock formal closing line." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The meeting will be held on 3 March at 10:00.", answer: "La riunione si terrà il 3 marzo alle 10:00.", altAnswers: ["La riunione si terrà il 3 marzo alle 10.", "La riunione si svolgerà il 3 marzo alle 10:00.", "La riunione si terrà il 3 marzo alle ore 10:00."], explanation: "\"Tenersi\" = to be held; day-month, 24-hour time." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The meeting will be held on March 3 at 10:00.", answer: "La riunione si terrà il 3 marzo alle 10:00.", altAnswers: ["La riunione si terrà il 3 marzo alle 10.", "La riunione si svolgerà il 3 marzo alle 10:00.", "La riunione si terrà il 3 marzo alle ore 10:00."], explanation: "\"Tenersi\" = to be held; day-month, 24-hour time." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, in the historic present.", source: "In 1861 Italy becomes a unified state.", answer: "Nel 1861 l'Italia diventa uno Stato unitario.", explanation: "Historic present: keep it for the whole paragraph." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "She hoped we [would come].", sentence: "Sperava che ___.", answer: "venissimo", explanation: "Past main verb → imperfect subjunctive." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Dear Madam, I'm writing [to send you] the documents.", sentence: "Gentile signora, Le scrivo per ___ i documenti.", answer: "inviarLe", altAnswers: ["inviarle", "mandarLe", "mandarle"], explanation: "Match the capital choice you made for \"Le\"." },
@@ -449,7 +453,7 @@ export const IT_C2_U15: Lesson[] = [
         explanation: "Forms editors check.",
       },
       { type: "dictation", audio: "Se fossi in te, le chiederei scusa.", explanation: "\"Se fossi\" and \"le\" for to her." },
-      { type: "speak", text: "Se fossi in te, le chiederei scusa perché ha ragione lei.", prompt: "Say it in Italian: If I were you, I'd apologise to her because she's right.", tip: "\"Le\", not \"gli\": make it audible.", explanation: "Three checks in one sentence." },
+      { type: "speak", text: "Se fossi in te, le chiederei scusa perché ha ragione lei.", prompt: "Say it in Italian: If I were you, I'd apologize to her because she's right.", tip: "\"Le\", not \"gli\": make it audible.", explanation: "Three checks in one sentence." },
     ],
   },
   {
@@ -468,7 +472,7 @@ export const IT_C2_U15: Lesson[] = [
           "Also note \"i condomini\" (residents of the building, stress con-DO-mi-ni) vs \"il condominio\" (the building itself). The notice is otherwise typical: impersonal \"si avvisano\", \"si prega di\", \"pertanto\".",
         ],
         examples: [
-          { es: "Si avvisano i condomini che lunedì 12 maggio verrà effettuata la pulizia delle scale.", en: "Residents are informed that the stairs will be cleaned on Monday 12 May." },
+          { es: "Si avvisano i condomini che lunedì 12 maggio verrà effettuata la pulizia delle scale.", en: "Residents are informed that the stairs will be cleaned on Monday, May 12." },
           { es: "Si prega di non lasciare né biciclette né scarpe sui pianerottoli.", en: "Please leave neither bicycles nor shoes on the landings." },
           { es: "Qualora qualcuno avesse delle domande, può rivolgersi all'amministratore.", en: "Should anyone have any questions, they may contact the building manager." },
           { es: "L'amministratore risponderà al più presto.", en: "The building manager will reply as soon as possible." },
@@ -483,12 +487,12 @@ export const IT_C2_U15: Lesson[] = [
         body: [
           "A blog post by an enthusiastic home cook: *Ieri ho provato una ricetta che me l'ha data mia nonna, e devo dire che è venuta più meglio del previsto. *Ho usato pomodori freschi piuttosto che pelati piuttosto che passata, dipende cosa avete in casa. *Se lo sapevo prima, la facevo tutte le domeniche!",
           "Corrections: \"una ricetta che mi ha dato mia nonna\" (the \"che\" is the object; \"me l'ha\" doubles it); \"è venuta meglio del previsto\" (no \"più\"); \"pomodori freschi, pelati o passata\" (\"piuttosto che\" as or); \"dipende da cosa avete\" (\"dipendere da\"); and \"Se l'avessi saputo prima, l'avrei fatta\" in edited prose. In a chatty blog, the last one may be left as a deliberate spoken touch; the others are errors in any register.",
-          "This is the editor's judgement at C2: separate real errors from informal choices that suit the genre.",
+          "This is the editor's judgment at C2: separate real errors from informal choices that suit the genre.",
         ],
         examples: [
           { es: "Ieri ho provato una ricetta che mi ha dato mia nonna.", en: "Yesterday I tried a recipe my grandmother gave me." },
           { es: "È venuta meglio del previsto.", en: "It turned out better than expected." },
-          { es: "Potete usare pomodori freschi, pelati o passata.", en: "You can use fresh tomatoes, tinned ones or passata." },
+          { es: "Potete usare pomodori freschi, pelati o passata.", en: "You can use fresh tomatoes, canned ones or passata." },
           { es: "Dipende da cosa avete in casa.", en: "It depends on what you have at home." },
           { es: "Se l'avessi saputo prima, l'avrei fatta tutte le domeniche.", en: "If I'd known before, I'd have made it every Sunday." },
         ],
@@ -511,7 +515,7 @@ export const IT_C2_U15: Lesson[] = [
           { es: "Ti segnalo un paio di frasi da riformulare.", en: "I'm flagging a couple of sentences to rephrase." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I made the dates and capitals consistent.", answer: "Ho uniformato le date e le maiuscole.", altAnswers: ["Ho reso uniformi le date e le maiuscole.", "Ho uniformato date e maiuscole."], explanation: "\"Uniformare\" = to standardise, make consistent." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I made the dates and capitals consistent.", answer: "Ho uniformato le date e le maiuscole.", altAnswers: ["Ho reso uniformi le date e le maiuscole.", "Ho uniformato date e maiuscole."], explanation: "\"Uniformare\" = to standardize, make consistent." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'm [flagging] a couple of sentences to rephrase.", sentence: "Ti ___ un paio di frasi da riformulare.", answer: "segnalo", explanation: "\"Segnalare\" = to point out, flag." },
         ],
       },
@@ -521,8 +525,8 @@ export const IT_C2_U15: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "The blog says *più meglio. Write the correct Italian for: It turned out better than expected.", source: "It turned out better than expected.", answer: "È venuta meglio del previsto.", altAnswers: ["È riuscita meglio del previsto.", "È venuto meglio del previsto."], explanation: "\"Meglio\" is already comparative." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I kept the conversational tone, which suits the blog.", answer: "Ho lasciato il tono colloquiale, adatto al blog.", altAnswers: ["Ho mantenuto il tono colloquiale, che è adatto al blog.", "Ho lasciato il tono colloquiale, che è adatto al blog.", "Ho mantenuto il tono colloquiale, adatto al blog."], explanation: "\"Adatto a\" = suited to." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I corrected some spelling mistakes.", answer: "Ho corretto alcuni errori di ortografia.", altAnswers: ["Ho corretto alcuni errori ortografici.", "Ho corretto qualche errore di ortografia."], explanation: "\"Qualche\" + singular is also correct." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Residents are informed that the stairs will be cleaned on [Monday 12 May].", sentence: "Si avvisano i condomini che ___ verrà effettuata la pulizia delle scale.", answer: "lunedì 12 maggio", explanation: "Lower case for days and months." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "You can use fresh tomatoes, tinned ones [or] passata.", sentence: "Potete usare pomodori freschi, pelati ___ passata.", answer: "o", altAnswers: ["oppure"], explanation: "\"O\", not \"piuttosto che\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Residents are informed that the stairs will be cleaned on [Monday, May 12].", sentence: "Si avvisano i condomini che ___ verrà effettuata la pulizia delle scale.", answer: "lunedì 12 maggio", explanation: "Lower case for days and months." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "You can use fresh tomatoes, canned ones [or] passata.", sentence: "Potete usare pomodori freschi, pelati ___ passata.", answer: "o", altAnswers: ["oppure"], explanation: "\"O\", not \"piuttosto che\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If I'd known before, [I'd have made it] every Sunday.", sentence: "Se l'avessi saputo prima, ___ tutte le domeniche.", answer: "l'avrei fatta", explanation: "Past conditional; \"fatta\" agrees with \"la\" (the recipe)." },
       { type: "word-order", prompt: "Put the words in order to say: Please do not leave bicycles on the landings.", words: ["Si", "prega", "di", "non", "lasciare", "biciclette", "sui", "pianerottoli."], translation: "Please do not leave bicycles on the landings.", explanation: "\"Si prega di\" + infinitive: the notice formula." },
       { type: "multiple-choice", question: "In a chatty blog, which form could an editor leave as a deliberate spoken touch?", options: ["Se lo sapevo prima, la facevo tutte le domeniche!", "È venuta più meglio del previsto.", "Una ricetta che me l'ha data mia nonna.", "Dipende cosa avete in casa."], correctIndex: 0, explanation: "The imperfect in hypotheses is informal but not an error; the others are." },
@@ -554,7 +558,7 @@ export const IT_C2_U15: Lesson[] = [
         heading: "The trade and its words",
         body: [
           "Italian publishing distinguishes \"la revisione\" (substantive editing: structure, clarity, consistency), \"il copyediting\" or \"redazione\" (line editing for language and house style) and \"la correzione di bozze\" (proofreading the final layout). \"Il redattore\" or \"la redattrice\" edits; \"l'editore\" is the publisher, a false friend for English speakers.",
-          "Most organisations have \"le norme redazionali\" (a house style sheet): how to write dates, numbers, titles, foreign words, abbreviations. A good editor applies them silently and flags only real choices: \"Ho applicato le norme redazionali dell'ufficio\".",
+          "Most organizations have \"le norme redazionali\" (a house style sheet): how to write dates, numbers, titles, foreign words, abbreviations. A good editor applies them silently and flags only real choices: \"Ho applicato le norme redazionali dell'ufficio\".",
           "In Word documents, Italians talk about \"le revisioni\" (tracked changes) and \"i commenti a margine\". A comment should be brief and specific: \"Frase ambigua: chi è il soggetto?\" is useful; \"Non si capisce\" is not.",
         ],
         examples: [
@@ -586,7 +590,7 @@ export const IT_C2_U15: Lesson[] = [
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We identified three main causes.", answer: "Abbiamo individuato tre cause principali.", altAnswers: ["Abbiamo identificato tre cause principali.", "Abbiamo trovato tre cause principali."], explanation: "Active voice with a clear agent." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The problem mainly [affects] the North-East.", sentence: "Il problema ___ soprattutto il Nord-Est.", answer: "riguarda", altAnswers: ["interessa", "colpisce"], explanation: "\"Riguardare\" = to concern, affect." },
-          { type: "listen-choose", audio: "Si evidenzia come sia stata posta in essere un'attività di monitoraggio.", question: "What does this heavy sentence actually say?", options: ["Some monitoring was done.", "Monitoring was cancelled.", "The monitoring found no problems.", "Someone must start monitoring."], correctIndex: 0, explanation: "\"Porre in essere un'attività di monitoraggio\" = to carry out monitoring." },
+          { type: "listen-choose", audio: "Si evidenzia come sia stata posta in essere un'attività di monitoraggio.", question: "What does this heavy sentence actually say?", options: ["Some monitoring was done.", "Monitoring was canceled.", "The monitoring found no problems.", "Someone must start monitoring."], correctIndex: 0, explanation: "\"Porre in essere un'attività di monitoraggio\" = to carry out monitoring." },
         ],
       },
       {
@@ -644,11 +648,11 @@ export const IT_C2_U15: Lesson[] = [
       {
         heading: "The email",
         body: [
-          "Davide, a sales manager in Verona, writes to a client, Dr Ferri (a woman), after a delayed delivery. His draft (errors marked with an asterisk): *Gentile Dott.ssa Ferri, mi scuso per il ritardo, purtroppo il corriere ci ha comunicato solo ieri che la merce era ferma in magazzino. *Gli assicuro che faremo il possibile perché arriva entro venerdì. *Se avrebbe bisogno di altre informazioni, non esiti a contattarmi, piuttosto che il mio collega Andrea.",
+          "Davide, a sales manager in Verona, writes to a client, Dr. Ferri (a woman), after a delayed delivery. His draft (errors marked with an asterisk): *Gentile Dott.ssa Ferri, mi scuso per il ritardo, purtroppo il corriere ci ha comunicato solo ieri che la merce era ferma in magazzino. *Gli assicuro che faremo il possibile perché arriva entro venerdì. *Se avrebbe bisogno di altre informazioni, non esiti a contattarmi, piuttosto che il mio collega Andrea.",
           "Count the errors before reading on. There are five: a comma splice after \"ritardo\"; \"gli\" for to her (\"Le\"); \"perché\" meaning so that takes the subjunctive (\"arrivi\"); \"se\" + conditional (\"se avesse\"); and \"piuttosto che\" for or (\"oppure\"). The register (\"Gentile\", \"non esiti\") is right and consistent: keep it.",
         ],
         examples: [
-          { es: "Gentile dottoressa Ferri, mi scuso per il ritardo.", en: "Dear Dr Ferri, I apologise for the delay." },
+          { es: "Gentile dottoressa Ferri, mi scuso per il ritardo.", en: "Dear Dr. Ferri, I apologize for the delay." },
           { es: "Purtroppo il corriere ci ha comunicato solo ieri che la merce era ferma in magazzino.", en: "Unfortunately the courier only told us yesterday that the goods were stuck in the warehouse." },
           { es: "Le assicuro che faremo il possibile perché arrivi entro venerdì.", en: "I assure you we'll do our best to make sure it arrives by Friday." },
           { es: "Se avesse bisogno di altre informazioni, non esiti a contattarmi.", en: "Should you need further information, don't hesitate to contact me." },
@@ -666,15 +670,15 @@ export const IT_C2_U15: Lesson[] = [
           "Note the shift from \"mi scuso\" to \"ci scusiamo\": the company speaks. \"Il disagio\" (the inconvenience) is the standard noun in Italian apologies, from railway announcements to banks. And the abbreviation \"Dott.ssa\" in a salutation is acceptable, but many style guides prefer the full word: \"Gentile dottoressa\".",
         ],
         examples: [
-          { es: "Ci scusiamo per il disagio.", en: "We apologise for the inconvenience." },
+          { es: "Ci scusiamo per il disagio.", en: "We apologize for the inconvenience." },
           { es: "Abbiamo già organizzato un ritiro diretto.", en: "We've already arranged a direct collection." },
           { es: "La consegna è prevista per venerdì mattina.", en: "Delivery is scheduled for Friday morning." },
           { es: "Restiamo a Sua disposizione.", en: "We remain at your disposal." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We apologise for the inconvenience.", answer: "Ci scusiamo per il disagio.", altAnswers: ["Ci scusiamo per l'inconveniente.", "Ci scusiamo per i disagi."], explanation: "\"Il disagio\": the standard word in apologies." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We apologize for the inconvenience.", answer: "Ci scusiamo per il disagio.", altAnswers: ["Ci scusiamo per l'inconveniente.", "Ci scusiamo per i disagi."], explanation: "\"Il disagio\": the standard word in apologies." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Delivery [is scheduled for] Friday morning.", sentence: "La consegna ___ venerdì mattina.", answer: "è prevista per", explanation: "\"Essere previsto per\" = to be scheduled for." },
-          { type: "listen-choose", audio: "Abbiamo già organizzato un ritiro diretto: la consegna è prevista per venerdì mattina.", question: "What has the company done?", options: ["Arranged a direct collection; delivery Friday morning", "Cancelled the order", "Refunded the client", "Asked the client to collect the goods"], correctIndex: 0, explanation: "\"Un ritiro diretto\" = a direct pick-up." },
+          { type: "listen-choose", audio: "Abbiamo già organizzato un ritiro diretto: la consegna è prevista per venerdì mattina.", question: "What has the company done?", options: ["Arranged a direct collection; delivery Friday morning", "Canceled the order", "Refunded the client", "Asked the client to collect the goods"], correctIndex: 0, explanation: "\"Un ritiro diretto\" = a direct pick-up." },
         ],
       },
       {
@@ -690,20 +694,20 @@ export const IT_C2_U15: Lesson[] = [
           { es: "Comunque, ti aggiorno domani.", en: "Anyway, I'll update you tomorrow." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "The text says *digli che arriva venerdì (about Dr Ferri). Write the correct Italian for: If she calls, tell her it arrives on Friday.", source: "If she calls, tell her it arrives on Friday.", answer: "Se chiama, dille che arriva venerdì.", altAnswers: ["Se chiama, dille che arriverà venerdì.", "Se ti chiama, dille che arriva venerdì."], explanation: "\"Dille\" = tell her; \"digli\" = tell him (or them)." },
+          { type: "translate", direction: "en-es", prompt: "The text says *digli che arriva venerdì (about Dr. Ferri). Write the correct Italian for: If she calls, tell her it arrives on Friday.", source: "If she calls, tell her it arrives on Friday.", answer: "Se chiama, dille che arriva venerdì.", altAnswers: ["Se chiama, dille che arriverà venerdì.", "Se ti chiama, dille che arriva venerdì."], explanation: "\"Dille\" = tell her; \"digli\" = tell him (or them)." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If the supplier calls, [tell him] to call back.", sentence: "Se chiama il fornitore, ___ di richiamare.", answer: "digli", explanation: "\"Di'\" + \"gli\" = \"digli\" (one word, no apostrophe)." },
         ],
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Dear Dr Ferri, I apologise for the delay.", answer: "Gentile dottoressa Ferri, mi scuso per il ritardo.", altAnswers: ["Gentile dottoressa Ferri, Le chiedo scusa per il ritardo.", "Gentile dott.ssa Ferri, mi scuso per il ritardo."], explanation: "Formal salutation, \"scusarsi per\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Dear Dr. Ferri, I apologize for the delay.", answer: "Gentile dottoressa Ferri, mi scuso per il ritardo.", altAnswers: ["Gentile dottoressa Ferri, Le chiedo scusa per il ritardo.", "Gentile dott.ssa Ferri, mi scuso per il ritardo."], explanation: "Formal salutation, \"scusarsi per\"." },
       { type: "translate", direction: "en-es", prompt: "The draft says *non esiti a contattarmi, piuttosto che il mio collega. Write the correct Italian for: You can contact me or my colleague Andrea.", source: "You can contact me or my colleague Andrea. (polite)", answer: "Può rivolgersi a me oppure al mio collega Andrea.", altAnswers: ["Può rivolgersi a me o al mio collega Andrea.", "Può contattare me o il mio collega Andrea.", "Può contattare me oppure il mio collega Andrea."], explanation: "\"Oppure\" / \"o\" for alternatives." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We remain at your disposal. (formal)", answer: "Restiamo a Sua disposizione.", altAnswers: ["Restiamo a sua disposizione.", "Rimaniamo a Sua disposizione.", "Rimaniamo a sua disposizione.", "Restiamo a disposizione."], explanation: "Capital \"Sua\" is optional; be consistent." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Unfortunately the courier only told us yesterday.", answer: "Purtroppo il corriere ce l'ha comunicato solo ieri.", altAnswers: ["Purtroppo il corriere ci ha avvisato solo ieri.", "Purtroppo il corriere ce lo ha comunicato solo ieri.", "Purtroppo il corriere ci ha informato solo ieri."], explanation: "\"Ce l'ha comunicato\" = told it to us." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "We've already [arranged] a direct collection.", sentence: "Abbiamo già ___ un ritiro diretto.", answer: "organizzato", explanation: "\"Organizzare\": double z." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'll do everything [so that you receive it] in time.", sentence: "Farò di tutto ___ in tempo.", answer: "perché Lei lo riceva", altAnswers: ["perché lo riceva", "affinché lo riceva", "perché lei lo riceva"], explanation: "Purpose \"perché\" + subjunctive." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If she calls, [tell her] it arrives on Friday.", sentence: "Se chiama, ___ che arriva venerdì.", answer: "dille", explanation: "Imperative \"di'\" + \"le\" = \"dille\", double l." },
-      { type: "word-order", prompt: "Put the words in order to say: We apologise for the inconvenience.", words: ["Ci", "scusiamo", "per", "il", "disagio."], translation: "We apologise for the inconvenience.", explanation: "The company's voice: \"ci scusiamo\"." },
+      { type: "word-order", prompt: "Put the words in order to say: We apologize for the inconvenience.", words: ["Ci", "scusiamo", "per", "il", "disagio."], translation: "We apologize for the inconvenience.", explanation: "The company's voice: \"ci scusiamo\"." },
       { type: "multiple-choice", question: "Which line is acceptable in a chat between colleagues but not in the client email?", options: ["Cmq ti aggiorno domani.", "Gli ho scritto alla Ferri.", "Se avrebbe bisogno, chiami.", "Dille che arriva."], correctIndex: 0, explanation: "\"Cmq\" is a chat abbreviation; the other errors are errors anywhere (except \"dille\", which is correct but informal)." },
       {
         type: "matching",
@@ -712,12 +716,12 @@ export const IT_C2_U15: Lesson[] = [
           { left: "dille", right: "tell her" },
           { left: "digli", right: "tell him" },
           { left: "Le assicuro", right: "I assure you (formal)" },
-          { left: "ci scusiamo", right: "we apologise" },
+          { left: "ci scusiamo", right: "we apologize" },
         ],
         explanation: "Pronouns that natives mix up.",
       },
       { type: "dictation", audio: "Le assicuro che faremo il possibile perché arrivi entro venerdì.", explanation: "\"Le\" and \"arrivi\": the two key corrections." },
-      { type: "speak", text: "Gentile dottoressa Ferri, ci scusiamo per il disagio: la consegna è prevista per venerdì mattina.", prompt: "Read the corrected opening aloud: Dear Dr Ferri, we apologise for the inconvenience: delivery is scheduled for Friday morning.", tip: "dot-to-RES-sa: double t and double s.", explanation: "Formal, clear, and correct." },
+      { type: "speak", text: "Gentile dottoressa Ferri, ci scusiamo per il disagio: la consegna è prevista per venerdì mattina.", prompt: "Read the corrected opening aloud: Dear Dr. Ferri, we apologize for the inconvenience: delivery is scheduled for Friday morning.", tip: "dot-to-RES-sa: double t and double s.", explanation: "Formal, clear, and correct." },
     ],
   },
   {
@@ -737,14 +741,14 @@ export const IT_C2_U15: Lesson[] = [
           "Notice the editing choices: lower case for days and months; a full stop instead of a comma splice; \"in caso di maltempo\" replaces the faulty hypothesis with a cleaner phrase that a leaflet needs anyway.",
         ],
         examples: [
-          { es: "La Sagra della Castagna si terrà sabato 18 e domenica 19 ottobre.", en: "The Chestnut Festival will take place on Saturday 18 and Sunday 19 October." },
+          { es: "La Sagra della Castagna si terrà sabato 18 e domenica 19 ottobre.", en: "The Chestnut Festival will take place on Saturday, October 18, and Sunday, October 19." },
           { es: "In caso di maltempo, ci sposteremo al palazzetto dello sport.", en: "In case of bad weather, we'll move to the sports hall." },
           { es: "Quest'anno la sagra compie 40 anni.", en: "This year the festival turns 40." },
           { es: "Vi aspettiamo numerosi!", en: "We hope to see lots of you!" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In case of bad weather, we'll move to the sports hall.", answer: "In caso di maltempo, ci sposteremo al palazzetto dello sport.", altAnswers: ["In caso di maltempo ci sposteremo al palazzetto dello sport.", "In caso di maltempo, ci trasferiremo al palazzetto dello sport.", "In caso di brutto tempo, ci sposteremo al palazzetto dello sport."], explanation: "A noun phrase avoids the faulty \"se ... sarebbe\"." },
-          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The festival will take place on [Saturday 18 and Sunday 19 October].", sentence: "La sagra si terrà ___.", answer: "sabato 18 e domenica 19 ottobre", explanation: "Lower case for days and months." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The festival will take place on [Saturday, October 18, and Sunday, October 19].", sentence: "La sagra si terrà ___.", answer: "sabato 18 e domenica 19 ottobre", explanation: "Lower case for days and months." },
         ],
       },
       {
@@ -803,13 +807,13 @@ export const IT_C2_U15: Lesson[] = [
     level: "IT-C2",
     number: 10,
     title: "Listening Lab: Spoken Errors",
-    summary: "Recognise non-standard forms in natural speech, tell regional or informal usage from real errors, and give the standard version.",
+    summary: "Recognize non-standard forms in natural speech, tell regional or informal usage from real errors, and give the standard version.",
     duration: "19 min",
     sections: [
       {
         heading: "Informal but accepted",
         body: [
-          "Spoken Italian tolerates many forms that edited writing doesn't: \"se lo sapevo, venivo\" (imperfect in hypotheses), \"gli\" for to them, \"a me mi\", the dislocation \"il caffè lo prendo amaro\", \"cosa\" for \"che cosa\", \"c'ho\" (written informally for \"ci ho\", I've got). Recognise them; don't copy them into formal writing.",
+          "Spoken Italian tolerates many forms that edited writing doesn't: \"se lo sapevo, venivo\" (imperfect in hypotheses), \"gli\" for to them, \"a me mi\", the dislocation \"il caffè lo prendo amaro\", \"cosa\" for \"che cosa\", \"c'ho\" (written informally for \"ci ho\", I've got). Recognize them; don't copy them into formal writing.",
           "In this lab you hear native speakers in everyday situations. Your job is to understand them and, when asked, give the standard written version. Remember that a C2 speaker can use informal forms deliberately; the point is choice, not avoidance.",
         ],
         examples: [
@@ -827,7 +831,7 @@ export const IT_C2_U15: Lesson[] = [
         heading: "Regional forms and real errors",
         body: [
           "Some forms are regional: Tuscan \"noi si va\" (we go), southern \"stare\" for \"essere\" (\"sto stanco\"), \"tenere\" for \"avere\" (\"tengo fame\"), northern \"la Giulia\" (article with names). They are part of Italian's richness and sound natural in their area; in standard writing use \"andiamo\", \"sono stanco\", \"ho fame\", \"Giulia\".",
-          "Real errors heard in speech: \"se sarebbe\", \"vadi\", \"dasse\", \"gli\" for to her, \"più meglio\". They mark the speaker socially; a C2 learner should recognise them without being thrown by them.",
+          "Real errors heard in speech: \"se sarebbe\", \"vadi\", \"dasse\", \"gli\" for to her, \"più meglio\". They mark the speaker socially; a C2 learner should recognize them without being thrown by them.",
         ],
         examples: [
           { es: "Domani noi si va al mare.", en: "Tomorrow we're going to the seaside. (Tuscan)" },
@@ -861,8 +865,8 @@ export const IT_C2_U15: Lesson[] = [
     ],
     exercises: [
       { type: "listen-choose", audio: "A me mi sembra una buona idea, ma decidi tu.", question: "What does the speaker think?", options: ["It seems a good idea, but you decide.", "It's a bad idea.", "They decided already.", "They don't care."], correctIndex: 0, explanation: "\"A me mi\": spoken doubling, meaning \"mi sembra\"." },
-      { type: "listen-choose", audio: "Gli ho detto alla mamma che torno tardi.", question: "Who did the speaker tell?", options: ["Mum", "Dad", "a brother", "the teacher"], correctIndex: 0, explanation: "\"Alla mamma\": the \"gli\" is a non-standard doubling; standard: \"Ho detto alla mamma\"." },
-      { type: "translate", direction: "en-es", prompt: "Write the standard version of: I told Mum I'll be back late.", source: "I told Mum I'll be back late.", answer: "Ho detto alla mamma che torno tardi.", altAnswers: ["Ho detto a mamma che torno tardi.", "Ho detto alla mamma che tornerò tardi.", "Ho detto a mia madre che torno tardi."], explanation: "No pronoun doubling in writing." },
+      { type: "listen-choose", audio: "Gli ho detto alla mamma che torno tardi.", question: "Who did the speaker tell?", options: ["Mom", "Dad", "a brother", "the teacher"], correctIndex: 0, explanation: "\"Alla mamma\": the \"gli\" is a non-standard doubling; standard: \"Ho detto alla mamma\"." },
+      { type: "translate", direction: "en-es", prompt: "Write the standard version of: I told Mom I'll be back late.", source: "I told Mom I'll be back late.", answer: "Ho detto alla mamma che torno tardi.", altAnswers: ["Ho detto a mamma che torno tardi.", "Ho detto alla mamma che tornerò tardi.", "Ho detto a mia madre che torno tardi."], explanation: "No pronoun doubling in writing." },
       { type: "translate", direction: "en-es", prompt: "Write the standard version of: It seems a good idea to me.", source: "It seems a good idea to me.", answer: "Mi sembra una buona idea.", altAnswers: ["A me sembra una buona idea.", "Mi pare una buona idea."], explanation: "\"Mi\" or \"a me\", not both." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Tomorrow we're going to the seaside.", answer: "Domani andiamo al mare.", altAnswers: ["Domani noi andiamo al mare.", "Domani andremo al mare."], explanation: "Standard \"andiamo\" for Tuscan \"si va\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "OK, we'll talk tomorrow.", answer: "Va bene, ci sentiamo domani.", altAnswers: ["Vabbè, ci sentiamo domani.", "D'accordo, ci sentiamo domani.", "Ok, ci sentiamo domani."], explanation: "\"Vabbè\" is the spoken contraction of \"va bene\"." },

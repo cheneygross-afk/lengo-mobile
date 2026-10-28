@@ -17,11 +17,11 @@ export const IT_C2_U06: Lesson[] = [
         heading: "Where you live",
         body: [
           "At C2 the question is no longer 'what is the word?' but 'which of the five words?'. Near-synonyms differ along three axes: register (everyday, formal, literary, bureaucratic), connotation (warm, neutral, negative) and collocation (which words they combine with).",
-          "\"Casa\" is the everyday, warm word: home and house at once (\"torno a casa\"). \"Abitazione\" is neutral and technical, the word of estate agents, statistics and the police (\"un'abitazione di cento metri quadri\", \"perquisire l'abitazione\"). \"Dimora\" is literary or solemn: \"una dimora storica\", \"l'ultima dimora\" (the grave). \"Alloggio\" is somewhere to stay, often temporary or provided: \"vitto e alloggio\" (board and lodging), \"alloggi per studenti\". \"Domicilio\" and \"residenza\" are legal: your \"residenza\" is where you are registered, your \"domicilio\" where you actually live; \"consegna a domicilio\" is home delivery.",
+          "\"Casa\" is the everyday, warm word: home and house at once (\"torno a casa\"). \"Abitazione\" is neutral and technical, the word of real estate agents, statistics and the police (\"un'abitazione di cento metri quadri\", \"perquisire l'abitazione\"). \"Dimora\" is literary or solemn: \"una dimora storica\", \"l'ultima dimora\" (the grave). \"Alloggio\" is somewhere to stay, often temporary or provided: \"vitto e alloggio\" (board and lodging), \"alloggi per studenti\". \"Domicilio\" and \"residenza\" are legal: your \"residenza\" is where you are registered, your \"domicilio\" where you actually live; \"consegna a domicilio\" is home delivery.",
         ],
         examples: [
           { es: "Stasera resto a casa.", en: "I'm staying home tonight." },
-          { es: "L'abitazione è di cento metri quadri.", en: "The dwelling is one hundred square metres." },
+          { es: "L'abitazione è di cento metri quadri.", en: "The dwelling is one hundred square meters." },
           { es: "La villa è una dimora storica del Settecento.", en: "The villa is an eighteenth-century historic residence." },
           { es: "Il lavoro offre vitto e alloggio.", en: "The job offers board and lodging." },
           { es: "Ho la residenza a Bologna ma il domicilio a Milano.", en: "I'm registered in Bologna but I actually live in Milan." },
@@ -36,7 +36,7 @@ export const IT_C2_U06: Lesson[] = [
       {
         heading: "Degrees of fear",
         body: [
-          "The fear set is graded by intensity and by time. \"Paura\" is the general word (\"ho paura dei cani\"). \"Timore\" is milder, more rational and more formal; it often looks ahead to something feared (\"nel timore di sbagliare\", \"i timori degli investitori\"). \"Spavento\" is a sudden fright, a single event: \"che spavento!\", \"prendersi uno spavento\". \"Terrore\" is extreme and overwhelming (\"il terrore della guerra\"), and \"panico\" is fear that paralyses or spreads in a crowd.",
+          "The fear set is graded by intensity and by time. \"Paura\" is the general word (\"ho paura dei cani\"). \"Timore\" is milder, more rational and more formal; it often looks ahead to something feared (\"nel timore di sbagliare\", \"i timori degli investitori\"). \"Spavento\" is a sudden fright, a single event: \"che spavento!\", \"prendersi uno spavento\". \"Terrore\" is extreme and overwhelming (\"il terrore della guerra\"), and \"panico\" is fear that paralyzes or spreads in a crowd.",
           "Two more belong nearby: \"ansia\" (anxiety, diffuse and lasting) and \"angoscia\" (anguish, deeper, often existential). A useful test: you can \"prendersi uno spavento\" but not \"prendersi un timore\"; you can \"nutrire timori\" but not \"nutrire spaventi\".",
         ],
         examples: [
@@ -57,6 +57,7 @@ export const IT_C2_U06: Lesson[] = [
         body: [
           "Mistakes: \"errore\" is the general and formal word (\"un errore di calcolo\"); \"sbaglio\" is everyday and often lighter (\"scusa, è stato uno sbaglio\"); \"svista\" is an oversight, a slip of attention; \"strafalcione\" is a howler, a gross and comic error; \"sbaglio\" can be forgiven, a \"colpa\" is a fault you are morally responsible for.",
           "Journeys: \"viaggio\" is any journey or trip; \"gita\" a short outing, often for pleasure or with the school (\"gita scolastica\"); \"escursione\" an excursion on foot or to a natural site; \"tragitto\" the stretch you cover from A to B (\"il tragitto casa-lavoro\"); \"percorso\" a route, a course, also figurative (\"un percorso di studi\").",
+          "Work is another crowded set. \"Lavoro\" is the everyday word for both the activity and the job (\"cerco lavoro\", \"un lavoro faticoso\"). \"Impiego\" is a salaried post, often office or public-sector work, and sounds bureaucratic (\"un impiego statale\", \"centro per l'impiego\"). \"Occupazione\" is the statistical and economic word (\"il tasso di occupazione\"), and also any activity that fills your time. \"Mestiere\" is a trade learned with the hands or by experience (\"il mestiere del falegname\", \"i ferri del mestiere\"), and \"conoscere il mestiere\" praises craft in any field. \"Professione\" is a qualified career (\"la professione medica\", \"libero professionista\"). On a form, \"professione\" is what you write; in a bar, you say what \"lavoro\" you do.",
         ],
         examples: [
           { es: "C'è un errore di calcolo nella tabella.", en: "There's a calculation error in the table." },
@@ -119,7 +120,7 @@ export const IT_C2_U06: Lesson[] = [
         heading: "Ways of saying",
         body: [
           "\"Dire\" is neutral. \"Affermare\" states something as true, often formally (\"il ministro ha affermato che\"). \"Sostenere\" maintains a thesis, perhaps against others (\"sostiene di essere innocente\"). \"Dichiarare\" makes an official statement (\"dichiarare il reddito\", \"ha dichiarato alla stampa\"). \"Ribadire\" repeats with emphasis (\"ha ribadito la sua posizione\"). \"Ammettere\" concedes something unwelcome; \"insinuare\" suggests something negative indirectly; \"lasciar intendere\" implies.",
-          "Journalists use these verbs to colour a quotation without seeming to comment. \"Ha detto che non si dimetterà\" is neutral; \"ha ribadito\" suggests insistence; \"ha ammesso\" suggests a concession; \"ha insinuato\" suggests malice. Read Italian news with that in mind.",
+          "Journalists use these verbs to color a quotation without seeming to comment. \"Ha detto che non si dimetterà\" is neutral; \"ha ribadito\" suggests insistence; \"ha ammesso\" suggests a concession; \"ha insinuato\" suggests malice. Read Italian news with that in mind.",
         ],
         examples: [
           { es: "Il ministro ha affermato che i conti sono in ordine.", en: "The minister stated that the accounts are in order." },
@@ -138,6 +139,8 @@ export const IT_C2_U06: Lesson[] = [
         heading: "Ways of ending",
         body: [
           "\"Finire\" is general and works with or without an object (\"ho finito il libro\", \"il film finisce alle dieci\"). \"Terminare\" is more formal (\"la seduta è terminata\"). \"Concludere\" ends by bringing to a result (\"concludere un affare\", \"concludere un discorso\"). \"Ultimare\" means completing work (\"ultimare i lavori\"). \"Smettere\" means to stop doing something habitual or ongoing (\"ho smesso di fumare\"), and needs \"di\" + infinitive. \"Cessare\" is formal or bureaucratic (\"cessare l'attività\", \"il fuoco è cessato\").",
+          "Compare \"ho finito di mangiare\" (the meal is over, the plate is empty) with \"ho smesso di mangiare\" (I stopped, perhaps halfway, perhaps for good). \"Interrompere\" breaks something off before its natural end (\"interrompere una riunione\", \"scusa se ti interrompo\"); \"sospendere\" pauses it, with the idea that it may resume (\"sospendere i lavori\", \"sospendere un pagamento\"); \"troncare\" cuts it off abruptly and for good (\"troncare una relazione\"). \"Porre fine a\" and \"mettere fine a\" are the formal, often political versions: \"porre fine al conflitto\". \"Chiudere\" is the everyday all-rounder: \"chiudere un discorso\", \"chiudere un conto\", \"chiudere con qualcuno\" (to be done with someone).",
+          "A last pair from the senses: \"sentire\" is to hear, passively, whereas \"ascoltare\" is to listen, with attention (\"ti sento ma non ti ascolto\"). \"Origliare\" is to eavesdrop, ear to the door.",
         ],
         examples: [
           { es: "Ho finito il libro ieri sera.", en: "I finished the book last night." },
@@ -178,7 +181,7 @@ export const IT_C2_U06: Lesson[] = [
       {
         heading: "Shades of beauty",
         body: [
-          "\"Bello\" covers everything. \"Carino\" is pretty, cute, a little informal (\"una casa carina\", \"che carino!\"). \"Grazioso\" is graceful and delicate, often for small things or young women (\"un paesino grazioso\"). \"Avvenente\" is physically attractive, said of adults, slightly formal and a little old-fashioned: it is a word of novels and newspapers. \"Leggiadro\" is literary: light, airy grace, the word of Petrarch and Leopardi. \"Affascinante\" is charming, attractive beyond looks. \"Splendido\" and \"stupendo\" are superlatives of admiration.",
+          "\"Bello\" covers everything. \"Carino\" is pretty, cute, a little informal (\"una casa carina\", \"che carino!\"). \"Grazioso\" is graceful and delicate, often for small things or young women (\"un paesino grazioso\"). \"Avvenente\" is physically attractive, said of adults, slightly formal and a little old-fashioned: it is a word of novels and newspapers. \"Leggiadro\" is literary: light, airy grace, the word of Petrarca and Leopardi. \"Affascinante\" is charming, attractive beyond looks. \"Splendido\" and \"stupendo\" are superlatives of admiration.",
           "Collocations and register matter more than dictionaries suggest. \"Una donna avvenente\" sounds like a journalist; \"una ragazza leggiadra\" sounds like a poem; \"un uomo affascinante\" is compliment-ready in any register. Of a landscape you say \"splendido\" or \"suggestivo\", not \"avvenente\".",
         ],
         examples: [
@@ -218,6 +221,8 @@ export const IT_C2_U06: Lesson[] = [
         heading: "Shades of age",
         body: [
           "\"Vecchio\" is plain and can be blunt about people; \"anziano\" is the respectful word for elderly people (\"le persone anziane\"). \"Attempato\" is getting on in years, slightly ironic. For things: \"antico\" is old and valuable or historic (\"un mobile antico\"); \"vecchio\" is simply old, perhaps worn; \"vetusto\" is literary and venerable, often ironic (\"un vetusto regolamento\"); \"datato\" is dated, out of fashion; \"obsoleto\" is technically outdated (\"un software obsoleto\"); \"usato\" is second-hand.",
+          "For people there is a whole scale of tact. \"Di una certa età\" is the polite euphemism; \"maturo\" is mature, middle-aged and can be flattering (\"un uomo maturo\"); \"giovanile\" means youthful-looking, said of someone who is not young (\"una signora giovanile\"), while \"giovane\" states the fact. \"Antiquato\" is old-fashioned, said of ideas, habits or people who cling to them, and it is never a compliment.",
+          "Position changes meaning too. \"Un vecchio amico\" is a friend of long standing; \"un amico vecchio\" is an elderly friend. The same split runs through other common adjectives: \"un grande uomo\" (a great man) versus \"un uomo grande\" (a big man), \"una povera donna\" (a poor woman, to be pitied) versus \"una donna povera\" (a woman without money), \"un certo fascino\" (a certain charm) versus \"una cosa certa\" (a sure thing). Before the noun the adjective tends to be figurative or evaluative; after it, literal and distinguishing.",
         ],
         examples: [
           { es: "Le persone anziane hanno la precedenza.", en: "Elderly people have priority." },
@@ -279,7 +284,7 @@ export const IT_C2_U06: Lesson[] = [
         heading: "Adjective and noun",
         body: [
           "Intensity has its own pairs. Italian says \"pioggia battente\" (driving rain), \"fame da lupi\" (ravenous hunger), \"sonno profondo\", \"silenzio assoluto\" or \"tombale\", \"grave errore\", \"profondo rispetto\", \"netta maggioranza\", \"forte accento\", \"caffè forte\" but \"tè carico\", \"traffico intenso\", \"un fumatore accanito\", \"un lettore vorace\", \"un tifoso sfegatato\".",
-          "Adverbs also pair: \"altamente improbabile\", \"strettamente necessario\", \"gravemente ferito\", \"profondamente convinto\", \"vivamente consigliato\", \"assolutamente vietato\". English 'heavy' is a good test: 'heavy rain' is \"pioggia forte\" or \"battente\", 'heavy traffic' is \"traffico intenso\", 'a heavy smoker' is \"un fumatore accanito\": never \"pesante\".",
+          "Adverbs also pair: \"altamente improbabile\", \"strettamente necessario\", \"gravemente ferito\", \"profondamente convinto\", \"vivamente consigliato\", \"assolutamente vietato\". English 'heavy' is a good test: 'heavy rain' is \"pioggia forte\" or \"battente\", 'heavy traffic' is \"traffico intenso\", 'a heavy smoker' is \"un fumatore accanito\" or \"un gran fumatore\". \"Pesante\" here sounds like a calque from English.",
         ],
         examples: [
           { es: "Siamo usciti sotto una pioggia battente.", en: "We went out in driving rain." },
@@ -299,6 +304,8 @@ export const IT_C2_U06: Lesson[] = [
         heading: "Where English misleads",
         body: [
           "Some pairs are traps because English uses another verb. 'Take a photo' is \"fare una foto\" (or \"scattare\"); 'take an exam' is \"dare\" or \"sostenere un esame\"; 'pay attention' is \"fare\" or \"prestare attenzione\"; 'give a speech' is \"tenere un discorso\"; 'make a mistake' is \"fare un errore\" or \"commettere un errore\"; 'have a shower' is \"fare la doccia\"; 'run a risk' is \"correre un rischio\"; 'keep a promise' is \"mantenere una promessa\"; 'break a record' is \"battere un record\".",
+          "More of the same: 'pay a visit' is \"fare visita a\"; 'make friends' is \"fare amicizia\"; 'take place' is \"avere luogo\" or \"svolgersi\"; 'tell a lie' is \"dire una bugia\"; 'set an example' is \"dare l'esempio\"; 'catch a cold' is \"prendere un raffreddore\". 'It makes sense' is \"ha senso\": \"mi fa senso\" means something quite different, 'it gives me the creeps'. A calque like \"fa senso\" for 'it makes sense' is common among bilinguals and immediately marks a text as translated.",
+          "Collocations also fix register. \"Fare una domanda\" is right everywhere, but in a formal letter \"porre un quesito\" or \"sottoporre una richiesta\" fits better; \"dare una mano\" is friendly, \"prestare assistenza\" is institutional. When in doubt, check a collocation dictionary (Zanichelli publishes one, edited by Paola Tiberii) or search the exact phrase in quotation marks and see whether Italian newspapers use it.",
         ],
         examples: [
           { es: "Ci fai una foto?", en: "Will you take a photo of us?" },
@@ -315,7 +322,7 @@ export const IT_C2_U06: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "May I put a question to the speaker?", answer: "Posso porre una domanda al relatore?", altAnswers: ["Posso fare una domanda al relatore?", "Potrei porre una domanda al relatore?", "Posso rivolgere una domanda al relatore?"], explanation: "\"Porre\" is formal; \"fare\" everyday." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "This book fills a gap.", answer: "Questo libro colma una lacuna.", altAnswers: ["Questo libro riempie una lacuna.", "Questo libro colma un vuoto."], explanation: "\"Colmare una lacuna\": a reviewer's favourite." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "This book fills a gap.", answer: "Questo libro colma una lacuna.", altAnswers: ["Questo libro riempie una lacuna.", "Questo libro colma un vuoto."], explanation: "\"Colmare una lacuna\": a reviewer's favorite." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I don't want to run any risks.", answer: "Non voglio correre rischi.", altAnswers: ["Non voglio correre nessun rischio.", "Non voglio correre alcun rischio."], explanation: "\"Correre un rischio\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He's a voracious reader.", answer: "È un lettore vorace.", altAnswers: ["Lui è un lettore vorace.", "È un lettore accanito."], explanation: "\"Vorace\" or \"accanito\" with \"lettore\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Attendance is strongly recommended.", answer: "La presenza è vivamente consigliata.", altAnswers: ["La partecipazione è vivamente consigliata.", "La presenza è fortemente consigliata.", "La presenza è vivamente raccomandata."], explanation: "\"Vivamente\" with verbs of advising." },
@@ -427,7 +434,7 @@ export const IT_C2_U06: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[When the postman turned] the corner.", sentence: "___ l'angolo.", answer: "Quando il postino svoltò", altAnswers: ["Quando il postino girò"], explanation: "\"Svoltare l'angolo\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "A slow, [almost graceful] gesture.", sentence: "Un gesto lento, ___.", answer: "quasi leggiadro", explanation: "\"Quasi\" softens the literary adjective." },
       { type: "word-order", prompt: "Put the words in order to say: None could be replaced without loss.", words: ["Nessuna", "poteva", "essere", "sostituita", "senza", "perdite."], translation: "None could be replaced without loss.", explanation: "Passive infinitive after \"potere\"." },
-      { type: "multiple-choice", question: "What does \"fissò\" suggest about the woman's feelings towards the postman?", options: ["silent accusation", "admiration", "indifference", "curiosity about his uniform"], correctIndex: 0, explanation: "A fixed stare as if he were responsible." },
+      { type: "multiple-choice", question: "What does \"fissò\" suggest about the woman's feelings toward the postman?", options: ["silent accusation", "admiration", "indifference", "curiosity about his uniform"], correctIndex: 0, explanation: "A fixed stare as if he were responsible." },
       { type: "multiple-choice", question: "Why \"angoscia\" rather than \"ansia\"?", options: ["It conveys a deeper, long-lasting anguish.", "It is more informal.", "It means a sudden fright.", "It is the only word for fear."], correctIndex: 0, explanation: "Months of waiting: \"angoscia\"." },
       { type: "dictation", audio: "Non c'era lettera. Lei non disse nulla.", explanation: "Short sentences for emotional weight." },
       { type: "speak", text: "Ogni parola poteva avere un sinonimo, ma nessuna poteva essere sostituita.", prompt: "Sum up the analysis: Every word could have had a synonym, but none could be replaced.", tip: "Stress \"ogni\" and \"nessuna\".", explanation: "The lesson's conclusion." },
@@ -460,7 +467,7 @@ export const IT_C2_U06: Lesson[] = [
         ],
       },
       {
-        heading: "Wrong colour",
+        heading: "Wrong color",
         body: [
           "Connotation errors are subtler. \"Mia nonna è molto vetusta\" → \"molto anziana\": \"vetusto\" is for buildings and regulations, ironically. \"Complimenti, sei proprio furbo!\" to a colleague who solved a problem → \"sei proprio in gamba\" or \"sei geniale\": \"furbo\" hints at trickery. \"La polizia ha perquisito la dimora del sospettato\" → \"l'abitazione\": \"dimora\" is too solemn. \"Ho avuto un terrore quando ha suonato il telefono\" → \"mi sono preso uno spavento\": a sudden fright, not terror.",
           "\"Il medico fissava i sintomi\" → \"osservava\". \"Ha smesso il libro\" → \"ha finito il libro\": \"smettere\" is for activities you stop, not objects you complete. \"Un panorama avvenente\" → \"un panorama splendido\".",
@@ -607,7 +614,7 @@ export const IT_C2_U06: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "One precise adjective is better than three vague ones.", answer: "Un aggettivo preciso è meglio di tre vaghi.", altAnswers: ["Un aggettivo preciso vale più di tre vaghi.", "Meglio un aggettivo preciso che tre vaghi."], explanation: "\"Meglio di\" before a noun phrase." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The house smelled [of wax].", sentence: "La casa sapeva ___.", answer: "di cera", explanation: "\"Sapere di\" = to smell or taste of." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[The creaking] of the parquet woke me.", sentence: "___ del parquet mi ha svegliato.", answer: "Lo scricchiolio", explanation: "\"Scricchiolio\": creak; \"lo\" before \"sc\"." },
-      { type: "word-order", prompt: "Put the words in order to say: A leaden light came through the window.", words: ["Una", "luce", "livida", "entrava", "dalla", "finestra."], translation: "A leaden light came through the window.", explanation: "\"Livido\": bluish-grey, gloomy." },
+      { type: "word-order", prompt: "Put the words in order to say: A leaden light came through the window.", words: ["Una", "luce", "livida", "entrava", "dalla", "finestra."], translation: "A leaden light came through the window.", explanation: "\"Livido\": bluish-gray, gloomy." },
       { type: "matching", instructions: "Match the precise verb to the English.", pairs: [{ left: "arrancare", right: "to trudge" }, { left: "serpeggiare", right: "to wind" }, { left: "sferzare", right: "to lash" }, { left: "incedere", right: "to walk solemnly" }], explanation: "Verbs that show instead of tell." },
       { type: "listen-choose", audio: "Il vecchio arrancava sulla salita.", question: "How was the old man walking?", options: ["with effort", "quickly", "proudly", "happily"], correctIndex: 0, explanation: "\"Arrancare\" = to struggle along." },
       { type: "dictation", audio: "Il fiume serpeggiava tra i campi.", explanation: "\"Serpeggiare\": from \"serpe\", snake." },
@@ -655,7 +662,7 @@ export const IT_C2_U06: Lesson[] = [
         ],
         checkpoint: [
           { type: "listen-choose", audio: "Un vecchio amico è un amico di lunga data.", question: "What does \"un vecchio amico\" mean?", options: ["a long-standing friend", "an elderly friend", "a former friend", "an ancient friend"], correctIndex: 0, explanation: "Before the noun, \"vecchio\" = of long standing." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Nobody would say that.", answer: "Nessuno lo direbbe.", altAnswers: ["Nessuno direbbe così.", "Nessuno direbbe una cosa del genere."], explanation: "Conditional for a hypothetical judgement." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Nobody would say that.", answer: "Nessuno lo direbbe.", altAnswers: ["Nessuno direbbe così.", "Nessuno direbbe una cosa del genere."], explanation: "Conditional for a hypothetical judgment." },
           { type: "speak", text: "Un vecchio amico non è per forza un amico anziano.", tip: "Contrast \"vecchio\" and \"anziano\" with your voice.", explanation: "Position and meaning." },
         ],
       },
@@ -684,7 +691,7 @@ export const IT_C2_U06_WRITING: WriteExercise = {
   minWords: 260,
   maxWords: 360,
   rubric: [
-    "Describes a single place or person with a clear focus and a recognisable atmosphere",
+    "Describes a single place or person with a clear focus and a recognizable atmosphere",
     "Uses precise near-synonyms rather than generic words (e.g. scrutare, arrancare, livido, dimora) with appropriate connotation",
     "Uses natural collocations and avoids calques (e.g. pioggia battente, brusio della piazza)",
     "Appeals to at least two senses besides sight (sounds, smells, touch)",

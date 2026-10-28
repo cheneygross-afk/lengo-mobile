@@ -11,13 +11,13 @@ export const IT_C1_U11: Lesson[] = [
     number: 1,
     title: "Voices: Milano",
     summary: "Recognize the Italian spoken in Milan, from la Giulia and ghe pensi mi to the trendy piuttosto che, and turn it into Standard Italian.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "La Giulia, il Marco: northern grammar and sound",
         body: [
           "In Milan, and across most of the North, people put the article before first names, especially women's names: \"la Giulia\", \"il Marco\", \"ho sentito la Chiara\". Standard Italian uses a bare first name (\"Ho sentito Chiara\"), so this is the first marker to drop when you write or speak formally. With surnames of famous people the article is standard everywhere: \"il Manzoni\", \"la Deledda\".",
-          "The North never uses the passato remoto in speech. A Milanese tells you about 1985 with \"sono andato\" and \"ho conosciuto\", however distant the event; \"andai\" sounds bookish or southern to them. In writing you choose by the rules of Unit 1; in a Milanese conversation, expect only the passato prossimo.",
+          "The North almost never uses the passato remoto in speech. A Milanese tells you about 1985 with \"sono andato\" and \"ho conosciuto\", however distant the event; \"andai\" sounds bookish or southern to them. In writing you choose by the rules of Unit 1; in a Milanese conversation, expect only the passato prossimo.",
           "The sounds shift too. An s between vowels is voiced, so \"casa\" sounds like 'caza'; double consonants are lighter than in Rome, so listen hard for \"anno\" against \"ano\"; and the open and closed e are often swapped, so \"perché\" can come out with the open è of \"caffè\". None of this is wrong in conversation; it simply says northern.",
         ],
         examples: [
@@ -78,7 +78,7 @@ export const IT_C1_U11: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Don't worry, I'll take care of it. (to a man)", answer: "Tranquillo, ci penso io.", altAnswers: ["Non preoccuparti, ci penso io.", "Non ti preoccupare, ci penso io.", "Tranquillo, me ne occupo io."], explanation: "\"Ci penso io\" is the standard for \"ghe pensi mi\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "This concert is so cool!", answer: "Che figata questo concerto!", altAnswers: ["Questo concerto è fighissimo!", "Che bello questo concerto!", "Questo concerto è bellissimo!", "Questo concerto è proprio figo!"], explanation: "\"Che figata!\" started in the North and is now informal Italian everywhere." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Marco is always late.", answer: "Marco arriva sempre in ritardo.", altAnswers: ["Marco è sempre in ritardo."], explanation: "Standard Italian drops the northern \"il\" before \"Marco\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We can go to the cinema or out to dinner.", answer: "Possiamo andare al cinema o a cena.", altAnswers: ["Possiamo andare al cinema oppure a cena.", "Possiamo andare al cinema o andare a cena.", "Possiamo andare al cinema o a cena fuori.", "Possiamo andare al cinema oppure a cena fuori."], explanation: "For 'or' write \"o\" or \"oppure\", never the Milanese \"piuttosto che\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We can go to the movies or out to dinner.", answer: "Possiamo andare al cinema o a cena.", altAnswers: ["Possiamo andare al cinema oppure a cena.", "Possiamo andare al cinema o andare a cena.", "Possiamo andare al cinema o a cena fuori.", "Possiamo andare al cinema oppure a cena fuori."], explanation: "For 'or' write \"o\" or \"oppure\", never the Milanese \"piuttosto che\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Tomorrow I have a [meeting] with the director.", sentence: "Domani ho una ___ con il direttore.", answer: "riunione", explanation: "\"La riunione\" is the Italian for the office \"meeting\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Leave me alone], I'm busy!", sentence: "___, sono occupato!", answer: "Lasciami stare", altAnswers: ["Lasciami in pace"], explanation: "The standard, still informal, version of \"va' a ciapà i ratt\"." },
       { type: "word-order", prompt: "Put the words in order to say: The posh lady on the third floor always complains.", words: ["La", "sciura", "del", "terzo", "piano", "si", "lamenta", "sempre."], translation: "The posh lady on the third floor always complains.", explanation: "\"Sciura\" is Milanese; \"lamentarsi\" is reflexive." },
@@ -105,7 +105,7 @@ export const IT_C1_U11: Lesson[] = [
     number: 2,
     title: "Voices: Roma",
     summary: "Recognize Roman Italian at speed, from er, annamo and daje to stare a + infinitive, and rewrite it as Standard Italian.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Er Colosseo, annamo, fijo: the Roman sound",
@@ -131,7 +131,7 @@ export const IT_C1_U11: Lesson[] = [
         heading: "Daje, mo', aò: particles and words",
         body: [
           "\"Daje!\" is Rome's all-purpose encouragement: come on!, go for it!, well done! \"Aò!\" calls for attention (hey!). \"Mo'\" means now (\"mo' arrivo\" = I'm coming now), and you'll hear it in Naples too. \"Ammazza!\" (literally kill!) is plain amazement: wow!",
-          "Some Roman words have gone national: \"rosicare\" (to be bitter about losing), \"l'abbiocco\" (the drowsiness after a big lunch), \"sbroccare\" (to lose it, blow up), \"stai sereno\" (relax; with irony, beware). Others remain local: \"pischello\" (kid), \"'na cifra\" (a lot), \"burino\" (a country bumpkin).",
+          "Some Roman words have gone national: \"rosicare\" (to be bitter about losing), \"l'abbiocco\" (the drowsiness after a big lunch), \"sbroccare\" (to lose it, blow up). \"Manco\" (not even) is central and southern but heard everywhere in informal speech: \"manco per sogno!\" (not on your life!); the standard is \"neanche\" or \"nemmeno\". Others remain local: \"pischello\" (kid), \"'na cifra\" (a lot), \"burino\" (a country bumpkin).",
           "In Standard Italian these become \"forza!\", \"ehi!\", \"adesso\" or \"ora\", \"accidenti!\" or \"caspita!\", \"essere invidioso\", \"la sonnolenza\", \"arrabbiarsi\", \"ragazzino\" and \"moltissimo\". Choose the standard word in writing and with strangers; the Roman one in a Roman bar is a sign you belong.",
         ],
         examples: [
@@ -140,6 +140,7 @@ export const IT_C1_U11: Lesson[] = [
           { es: "Ammazza quanto costa!", en: "Wow, it's expensive!" },
           { es: "Hanno perso il derby e mo' rosicano.", en: "They lost the derby and now they're sore about it." },
           { es: "Dopo la carbonara m'è venuto un abbiocco tremendo.", en: "After the carbonara I got terribly drowsy." },
+          { es: "Prestargli la macchina? Manco per sogno!", en: "Lend him the car? Not on your life!" },
         ],
         checkpoint: [
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Come on], you can do it!", sentence: "___, ce la puoi fare!", answer: "Forza", altAnswers: ["Dai", "Daje", "Coraggio"], explanation: "\"Forza\" or \"dai\" are national; \"daje\" is the Roman version." },
@@ -197,7 +198,7 @@ export const IT_C1_U11: Lesson[] = [
     number: 3,
     title: "Voices: Napoli",
     summary: "Recognize Neapolitan Italian: tenere for avere, stare for essere, the a before people, mo' and the fading final vowels.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Tenere and stare: two verbs that change jobs",
@@ -225,12 +226,14 @@ export const IT_C1_U11: Lesson[] = [
           "Southern Italian often puts \"a\" before a person who is the direct object: \"ho chiamato a Mario\", \"saluta a tua madre\". Standard Italian has no preposition there: \"ho chiamato Mario\", \"saluta tua madre\". It's one of the most common southern features in learners' input, and one of the first that teachers correct in essays.",
           "The same speakers may double a pronoun for emphasis (\"a me mi piace\"), which is also common in colloquial speech everywhere. In writing choose one: \"a me piace\" or \"mi piace\".",
           "Neapolitan words in everyday Italian include \"guaglione\" (boy, lad), \"uè\" (hey), \"jamme\" (let's go), \"accussì\" (like this), \"'o\" and \"'a\" for the articles (\"'o mare\", \"'a pizza\"), and \"scetate!\" (wake up!).",
+          "Two more southern habits you will hear constantly. Names and titles are cut short when calling someone: \"Mari'!\" for Maria, \"dotto'\" for dottore, \"signo'\" for signora (Rome does it too). And \"pure\" replaces \"anche\": \"vengo pure io\" (I'm coming too), which the standard writes \"vengo anch'io\".",
         ],
         examples: [
           { es: "Ieri ho incontrato a Gennaro al porto.", en: "Yesterday I ran into Gennaro at the port. (southern)" },
           { es: "Ieri ho incontrato Gennaro al porto.", en: "Yesterday I ran into Gennaro at the port. (standard)" },
           { es: "Saluta a tua madre da parte mia.", en: "Say hello to your mother from me. (southern)" },
           { es: "Uè guaglio', jamme, che è tardi!", en: "Hey, lad, let's go, it's late! (Neapolitan)" },
+          { es: "Dotto', vengo pure io alla riunione?", en: "Doctor, shall I come to the meeting too? (southern)" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Standard Italian.", source: "Say hello to your mother from me.", answer: "Saluta tua madre da parte mia.", altAnswers: ["Salutami tua madre.", "Saluta tua madre per me.", "Salutami tua mamma.", "Saluta tua mamma da parte mia."], explanation: "No \"a\" before a direct object: \"saluta tua madre\"." },
@@ -261,7 +264,7 @@ export const IT_C1_U11: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Standard Italian.", source: "Yesterday I ran into Gennaro at the port.", answer: "Ieri ho incontrato Gennaro al porto.", altAnswers: ["Ho incontrato Gennaro al porto ieri.", "Ieri ho visto Gennaro al porto."], explanation: "No \"a\" before a direct-object person." },
       { type: "translate", direction: "en-es", prompt: "Translate into Standard Italian.", source: "My cousin is in Milan for work.", answer: "Mio cugino è a Milano per lavoro.", altAnswers: ["Mia cugina è a Milano per lavoro."], explanation: "\"Essere\" for location; Naples would say \"sta a Milano\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Standard Italian.", source: "What's wrong with you? You look tired.", answer: "Che hai? Sembri stanco.", altAnswers: ["Che cos'hai? Sembri stanco.", "Cos'hai? Sembri stanco.", "Che hai? Sembri stanca.", "Che cos'hai? Sembri stanca.", "Cos'hai? Sembri stanca.", "Cosa c'è? Sembri stanco.", "Cosa c'è? Sembri stanca."], explanation: "\"Che hai?\" is the standard for the Neapolitan \"che tieni?\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "After a week like this, a holiday [is fair enough].", sentence: "Dopo una settimana così, una vacanza ___.", answer: "ci sta", altAnswers: ["è giusta", "ci vuole"], explanation: "\"Ci sta\" in this sense has spread from the South into informal Italian everywhere." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "After a week like this, a vacation [is fair enough].", sentence: "Dopo una settimana così, una vacanza ___.", answer: "ci sta", altAnswers: ["è giusta", "ci vuole"], explanation: "\"Ci sta\" in this sense has spread from the South into informal Italian everywhere." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I like] the sea more than the mountains.", sentence: "___ il mare più della montagna.", answer: "Mi piace", altAnswers: ["A me piace"], explanation: "Choose one pronoun in writing: \"a me mi piace\" doubles it." },
       { type: "word-order", prompt: "Put the words in order to say (standard): Hold the door, please.", words: ["Tieni", "la", "porta,", "per", "favore."], translation: "Hold the door, please.", explanation: "Here \"tenere\" has its standard meaning, to hold." },
       { type: "multiple-choice", question: "Which sentence is standard Italian?", options: ["Ho visto Maria al mercato.", "Ho visto a Maria al mercato.", "Tengo visto Maria al mercato.", "Sto visto Maria al mercato."], correctIndex: 0, explanation: "No \"a\" before the person, and \"avere\" as the auxiliary." },
@@ -288,7 +291,7 @@ export const IT_C1_U11: Lesson[] = [
     number: 4,
     title: "Voices: Palermo",
     summary: "Recognize Sicilian Italian: the verb at the end, the spoken passato remoto, che fu? and the words that Palermo shares with crime fiction.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Siciliano sono: the verb goes last",
@@ -296,6 +299,7 @@ export const IT_C1_U11: Lesson[] = [
           "Sicilian Italian often puts the verb at the end of a short sentence, after the word that carries the news: \"Siciliano sono\" (I'm Sicilian), \"Stanco sei?\" (are you tired?), \"A casa vado\" (I'm going home). Readers of Sicilian crime fiction know the detective who answers the phone with his name followed by \"sono\". The stressed word comes first; the verb is an afterthought.",
           "In Standard Italian the neutral order is subject, verb, complement: \"Sono siciliano\", \"Sei stanco?\", \"Vado a casa\". Putting a word first is possible in Standard Italian too, but only for contrast (\"Stanco no, ma affamato sì\"), not as the everyday order.",
           "When you rewrite a Sicilian speaker, simply move the verb back. The meaning doesn't change; only the regional color goes.",
+          "The sound you'll notice first is the Sicilian tr and str: \"treno\" and \"strada\" are said with the tongue curled back, close to the start of English 'tree'. The double dd of dialect words such as \"bedda\" (beautiful) is made the same way. One word to recognize but never use: \"minchia\", an extremely common Sicilian expletive that is vulgar everywhere.",
         ],
         examples: [
           { es: "Siciliano sono, e me ne vanto.", en: "I'm Sicilian, and proud of it. (Sicilian Italian)" },
@@ -303,6 +307,7 @@ export const IT_C1_U11: Lesson[] = [
           { es: "Stanca sei? Siediti un attimo.", en: "Are you tired? Sit down for a moment. (Sicilian Italian)" },
           { es: "Al mare andiamo, domenica?", en: "Are we going to the beach on Sunday? (Sicilian Italian)" },
           { es: "Pronto, il commissario sono.", en: "Hello, it's the inspector speaking. (Sicilian Italian)" },
+          { es: "Prendo il treno delle tre per Trapani.", en: "I'm taking the three o'clock train to Trapani." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Standard Italian.", source: "Are you tired? Sit down for a moment. (to a woman)", answer: "Sei stanca? Siediti un attimo.", altAnswers: ["Sei stanca? Siediti un momento.", "Sei stanca? Siediti un po'.", "Sei stanca? Mettiti seduta un attimo."], explanation: "Verb first in the standard: \"sei stanca?\", not \"stanca sei?\"." },
@@ -381,24 +386,26 @@ export const IT_C1_U11: Lesson[] = [
     number: 5,
     title: "Voices: Ticino",
     summary: "Recognize the Italian of Swiss Ticino: azione, natel, licenza di condurre, riservazione and the other words shaped by French and German.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Italian in Switzerland",
         body: [
           "Italian is one of Switzerland's four national languages, spoken in the canton of Ticino (Lugano, Bellinzona, Locarno, Mendrisio) and in parts of the Grigioni. Swiss Italian is fully standard in grammar; what differs is vocabulary for everyday institutions, because Swiss life runs in German and French too, and Swiss official language translates from them.",
-          "A shop sign saying \"azione\" means special offer (Italy: \"offerta\", \"promozione\"). Your mobile is \"il natel\" (Italy: \"il cellulare\"), your driving license \"la licenza di condurre\" (Italy: \"la patente\"), and a booking \"la riservazione\" (Italy: \"la prenotazione\").",
+          "A shop sign saying \"azione\" means special offer (Italy: \"offerta\", \"promozione\"). Your cell phone is \"il natel\" (Italy: \"il cellulare\"), your driver's license \"la licenza di condurre\" (Italy: \"la patente\"), and a reservation \"la riservazione\" (Italy: \"la prenotazione\").",
           "These are not mistakes: they are the official Italian of a state, used in Swiss laws and newspapers. If you live in Lugano, use them; if you write for readers in Italy, switch to the Italian words.",
+          "Numbers are standard Italian (Ticino never borrowed the Swiss French \"septante\"), but they are written the Swiss way: an apostrophe for thousands (\"1'500 franchi\") and a dash for round prices (\"fr. 25.–\"). Italy writes \"1.500\" and \"25 euro\".",
         ],
         examples: [
           { es: "Questa settimana il formaggio è in azione.", en: "The cheese is on special offer this week. (Swiss Italian)" },
           { es: "Questa settimana il formaggio è in offerta.", en: "The cheese is on special offer this week. (Italy)" },
-          { es: "Mi dai il tuo numero di natel?", en: "Can you give me your mobile number? (Swiss Italian)" },
-          { es: "Ho perso la licenza di condurre.", en: "I've lost my driving license. (Swiss Italian)" },
-          { es: "Ho fatto una riservazione per quattro persone.", en: "I've made a booking for four people. (Swiss Italian)" },
+          { es: "Mi dai il tuo numero di natel?", en: "Can you give me your cell phone number? (Swiss Italian)" },
+          { es: "Ho perso la licenza di condurre.", en: "I've lost my driver's license. (Swiss Italian)" },
+          { es: "Ho fatto una riservazione per quattro persone.", en: "I've made a reservation for four people. (Swiss Italian)" },
+          { es: "L'affitto è di 1'500 franchi al mese.", en: "The rent is 1,500 francs a month. (Swiss spelling)" },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into the Italian of Italy.", source: "I've lost my driving license.", answer: "Ho perso la patente.", altAnswers: ["Ho perso la mia patente."], explanation: "\"La patente\" in Italy; \"la licenza di condurre\" in Ticino." },
+          { type: "translate", direction: "en-es", prompt: "Translate into the Italian of Italy.", source: "I've lost my driver's license.", answer: "Ho perso la patente.", altAnswers: ["Ho perso la mia patente."], explanation: "\"La patente\" in Italy; \"la licenza di condurre\" in Ticino." },
           { type: "translate", direction: "en-es", prompt: "Translate into the Italian of Italy.", source: "I've booked a table for four people.", answer: "Ho prenotato un tavolo per quattro persone.", altAnswers: ["Ho fatto una prenotazione per quattro persone.", "Ho riservato un tavolo per quattro persone."], explanation: "\"Prenotare\" and \"la prenotazione\" in Italy; Ticino says \"la riservazione\"." },
           { type: "multiple-choice", question: "In a supermarket in Lugano you see \"Pasta in azione\". What does it mean?", options: ["Pasta on special offer", "Pasta being made now", "Pasta for sale soon", "Pasta out of stock"], correctIndex: 0, explanation: "\"Azione\" = \"offerta\" in Swiss Italian." },
         ],
@@ -406,19 +413,19 @@ export const IT_C1_U11: Lesson[] = [
       {
         heading: "Bucalettere, classatore, autopostale",
         body: [
-          "Many Swiss words fill gaps around the house and office: \"il bucalettere\" (letterbox; Italy: \"la cassetta delle lettere\"), \"il classatore\" (ring binder; Italy: \"il raccoglitore\"), \"l'autopostale\" (the yellow post bus that reaches the valleys), \"la cassa malati\" (health insurance fund).",
+          "Many Swiss words fill gaps around the house and office: \"il bucalettere\" (mailbox; Italy: \"la cassetta delle lettere\"), \"il classatore\" (ring binder; Italy: \"il raccoglitore\"), \"l'autopostale\" (the yellow post bus that reaches the valleys), \"la cassa malati\" (health insurance fund).",
           "Work and civic life have their own words: \"lavorare all'80 per cento\" (to work four days a week; Swiss jobs are advertised by percentage), \"il frontaliere\" (a worker who lives in Italy and crosses the border daily), \"la votazione\" (a popular vote, which the Swiss hold several times a year), \"il franco\" (the currency).",
           "Many of these mirror German or French: \"natel\" is a Swiss brand name turned common noun, \"azione\" copies German \"Aktion\", \"riservazione\" copies French \"réservation\". Spotting the model language helps you guess new ones.",
         ],
         examples: [
-          { es: "C'è una lettera per te nel bucalettere.", en: "There's a letter for you in the letterbox. (Swiss Italian)" },
+          { es: "C'è una lettera per te nel bucalettere.", en: "There's a letter for you in the mailbox. (Swiss Italian)" },
           { es: "Metti i documenti nel classatore blu.", en: "Put the documents in the blue binder. (Swiss Italian)" },
           { es: "Per salire in valle prendiamo l'autopostale.", en: "We'll take the post bus up the valley." },
           { es: "Lavoro all'80 per cento: il venerdì sono libera.", en: "I work four days a week: I'm off on Fridays." },
           { es: "Molti frontalieri arrivano ogni mattina da Como e Varese.", en: "Many cross-border workers arrive every morning from Como and Varese." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into the Italian of Italy.", source: "There's a letter for you in the letterbox. (to a friend)", answer: "C'è una lettera per te nella cassetta delle lettere.", altAnswers: ["C'è una lettera per te nella cassetta della posta.", "Nella cassetta delle lettere c'è una lettera per te."], explanation: "\"Cassetta delle lettere\" in Italy; \"bucalettere\" in Ticino." },
+          { type: "translate", direction: "en-es", prompt: "Translate into the Italian of Italy.", source: "There's a letter for you in the mailbox. (to a friend)", answer: "C'è una lettera per te nella cassetta delle lettere.", altAnswers: ["C'è una lettera per te nella cassetta della posta.", "Nella cassetta delle lettere c'è una lettera per te."], explanation: "\"Cassetta delle lettere\" in Italy; \"bucalettere\" in Ticino." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Put the documents in the blue [ring binder]. (Italy)", sentence: "Metti i documenti nel ___ blu.", answer: "raccoglitore", altAnswers: ["classatore"], explanation: "\"Raccoglitore\" in Italy; \"classatore\" in Ticino." },
         ],
       },
@@ -431,23 +438,23 @@ export const IT_C1_U11: Lesson[] = [
         ],
         examples: [
           { es: "Si invita la popolazione a partecipare alla votazione del 14 giugno.", en: "The public is invited to take part in the vote on June 14." },
-          { es: "Le scrivo perché il mio natel non funziona più.", en: "I'm writing to you because my mobile no longer works. (Swiss Italian)" },
-          { es: "Le scrivo perché il mio cellulare non funziona più.", en: "I'm writing to you because my mobile no longer works. (Italy)" },
+          { es: "Le scrivo perché il mio natel non funziona più.", en: "I'm writing to you because my cell phone no longer works. (Swiss Italian)" },
+          { es: "Le scrivo perché il mio cellulare non funziona più.", en: "I'm writing to you because my cell phone no longer works. (Italy)" },
           { es: "Il prezzo è di 25 franchi, IVA inclusa.", en: "The price is 25 francs, VAT included." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into the Italian of Italy.", source: "I'm writing to you because my mobile no longer works. (formal)", answer: "Le scrivo perché il mio cellulare non funziona più.", altAnswers: ["Le scrivo perché il cellulare non funziona più.", "Le scrivo perché il mio telefonino non funziona più."], explanation: "For a reader in Italy: \"cellulare\", not the Swiss \"natel\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into the Italian of Italy.", source: "I'm writing to you because my cell phone no longer works. (formal)", answer: "Le scrivo perché il mio cellulare non funziona più.", altAnswers: ["Le scrivo perché il cellulare non funziona più.", "Le scrivo perché il mio telefonino non funziona più."], explanation: "For a reader in Italy: \"cellulare\", not the Swiss \"natel\"." },
           { type: "listen-choose", audio: "La pasta è in azione: costa due franchi.", question: "What did you learn?", options: ["The pasta is on offer for two francs.", "The pasta is being cooked for two people.", "The pasta has gone up by two francs.", "There are two kinds of pasta."], correctIndex: 0, explanation: "\"In azione\" = on special offer, in Swiss Italian." },
         ],
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into the Italian of Italy.", source: "Can you give me your mobile number? (to a friend)", answer: "Mi dai il tuo numero di cellulare?", altAnswers: ["Mi dai il numero di cellulare?", "Mi puoi dare il tuo numero di cellulare?", "Mi dai il tuo numero di telefono?"], explanation: "\"Cellulare\" in Italy; \"natel\" in Switzerland." },
+      { type: "translate", direction: "en-es", prompt: "Translate into the Italian of Italy.", source: "Can you give me your cell phone number? (to a friend)", answer: "Mi dai il tuo numero di cellulare?", altAnswers: ["Mi dai il numero di cellulare?", "Mi puoi dare il tuo numero di cellulare?", "Mi dai il tuo numero di telefono?"], explanation: "\"Cellulare\" in Italy; \"natel\" in Switzerland." },
       { type: "translate", direction: "en-es", prompt: "Translate into the Italian of Italy.", source: "The cheese is on special offer this week.", answer: "Questa settimana il formaggio è in offerta.", altAnswers: ["Il formaggio è in offerta questa settimana.", "Questa settimana il formaggio è in promozione."], explanation: "\"In offerta\"; Ticino writes \"in azione\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into the Italian of Italy.", source: "I've made a booking for four people.", answer: "Ho fatto una prenotazione per quattro persone.", altAnswers: ["Ho prenotato per quattro persone.", "Ho prenotato un tavolo per quattro persone."], explanation: "\"Prenotazione\"; \"riservazione\" is Swiss." },
+      { type: "translate", direction: "en-es", prompt: "Translate into the Italian of Italy.", source: "I've made a reservation for four people.", answer: "Ho fatto una prenotazione per quattro persone.", altAnswers: ["Ho prenotato per quattro persone.", "Ho prenotato un tavolo per quattro persone."], explanation: "\"Prenotazione\"; \"riservazione\" is Swiss." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I work four days a week: I'm off on Fridays. (Swiss style, a woman speaking)", answer: "Lavoro all'80 per cento: il venerdì sono libera.", altAnswers: ["Lavoro all'ottanta per cento: il venerdì sono libera.", "Lavoro all'80%: il venerdì sono libera."], explanation: "Swiss jobs are counted in percentages: 80 per cento = four days." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Many cross-border workers arrive every morning from Como.", answer: "Molti frontalieri arrivano ogni mattina da Como.", altAnswers: ["Ogni mattina molti frontalieri arrivano da Como.", "Molti frontalieri arrivano da Como ogni mattina."], explanation: "\"Il frontaliere\", plural \"i frontalieri\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I renewed my [driving license] in Milan.", sentence: "Ho rinnovato la ___ a Milano.", answer: "patente", explanation: "In Milan you write \"patente\"; in Lugano the office says \"licenza di condurre\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I renewed my [driver's license] in Milan.", sentence: "Ho rinnovato la ___ a Milano.", answer: "patente", explanation: "In Milan you write \"patente\"; in Lugano the office says \"licenza di condurre\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "To go up the valley we take [the post bus].", sentence: "Per salire in valle prendiamo ___.", answer: "l'autopostale", altAnswers: ["l'autobus postale", "la corriera"], explanation: "The yellow \"autopostale\" is a Swiss institution." },
       { type: "word-order", prompt: "Put the words in order to say: The public is invited to vote on June 14.", words: ["La", "popolazione", "è", "invitata", "a", "votare", "il", "14", "giugno."], translation: "The public is invited to vote on June 14.", explanation: "Official style, Swiss or Italian." },
       {
@@ -456,13 +463,13 @@ export const IT_C1_U11: Lesson[] = [
         pairs: [
           { left: "il natel", right: "cell phone (Italy: il cellulare)" },
           { left: "l'azione", right: "special offer (Italy: l'offerta)" },
-          { left: "la licenza di condurre", right: "driving license (Italy: la patente)" },
-          { left: "la riservazione", right: "booking (Italy: la prenotazione)" },
-          { left: "il bucalettere", right: "letterbox (Italy: la cassetta delle lettere)" },
+          { left: "la licenza di condurre", right: "driver's license (Italy: la patente)" },
+          { left: "la riservazione", right: "reservation (Italy: la prenotazione)" },
+          { left: "il bucalettere", right: "mailbox (Italy: la cassetta delle lettere)" },
         ],
         explanation: "Same grammar, different institutional words.",
       },
-      { type: "listen-choose", audio: "Ho perso la licenza di condurre e il natel nello stesso giorno.", question: "What did the speaker lose?", options: ["A driving license and a cell phone", "A booking and a letter", "A job and a car", "A ticket and a wallet"], correctIndex: 0, explanation: "Two Swiss words: \"licenza di condurre\" and \"natel\"." },
+      { type: "listen-choose", audio: "Ho perso la licenza di condurre e il natel nello stesso giorno.", question: "What did the speaker lose?", options: ["A driver's license and a cell phone", "A booking and a letter", "A job and a car", "A ticket and a wallet"], correctIndex: 0, explanation: "Two Swiss words: \"licenza di condurre\" and \"natel\"." },
       { type: "dictation", audio: "Ho prenotato un tavolo in un grotto vicino a Lugano.", explanation: "\"Un grotto\" is a rustic Ticino restaurant; the verb \"prenotare\" is the Italian one." },
       { type: "speak", text: "Abito a Bellinzona, lavoro all'ottanta per cento e il venerdì prendo l'autopostale per andare in montagna.", prompt: "Say it in Italian: I live in Bellinzona, I work four days a week and on Fridays I take the post bus to go to the mountains.", tip: "Bel-lin-ZO-na: hold the double l; \"ottanta\" has a double t.", explanation: "A Ticino week, with Swiss words." },
     ],
@@ -486,7 +493,7 @@ export const IT_C1_U11: Lesson[] = [
           { es: "Nun ce vado. → Non ci vado.", en: "I'm not going." },
           { es: "Tieni sonno? → Hai sonno?", en: "Are you sleepy?" },
           { es: "Stanco sono. → Sono stanco.", en: "I'm tired." },
-          { es: "Ho perso il natel. → Ho perso il cellulare.", en: "I've lost my mobile." },
+          { es: "Ho perso il natel. → Ho perso il cellulare.", en: "I've lost my cell phone." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Standard Italian.", source: "Giulia arrives tomorrow.", answer: "Giulia arriva domani.", altAnswers: ["Domani arriva Giulia."], explanation: "No article before the first name." },
@@ -563,12 +570,12 @@ export const IT_C1_U11: Lesson[] = [
         ],
         examples: [
           { es: "Uè, scusi, ha visto la Paola? Doveva salire a Bologna.", en: "Hey, excuse me, have you seen Paola? She was supposed to get on at Bologna." },
-          { es: "Aò, signo', io mo' so' salito a Firenze, nun ho visto nessuno.", en: "Hey, madam, I've only just got on at Florence, I haven't seen anyone." },
+          { es: "Aò, signo', io mo' so' salito a Firenze, nun ho visto nessuno.", en: "Hey, madam, I've only just gotten on at Florence, I haven't seen anyone." },
           { es: "Scusi, ha visto Paola? Doveva salire a Bologna.", en: "Standard version of the signora's question." },
           { es: "Signora, io sono appena salito a Firenze, non ho visto nessuno.", en: "Standard version of the young man's answer." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Standard Italian.", source: "Madam, I've only just got on at Florence, I haven't seen anyone.", answer: "Signora, sono appena salito a Firenze, non ho visto nessuno.", altAnswers: ["Signora, io sono appena salito a Firenze, non ho visto nessuno.", "Signora, sono appena salito a Firenze e non ho visto nessuno."], explanation: "\"So'\" = \"sono\", \"nun\" = \"non\", \"mo'\" here = just now, \"appena\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Standard Italian.", source: "Madam, I've only just gotten on at Florence, I haven't seen anyone.", answer: "Signora, sono appena salito a Firenze, non ho visto nessuno.", altAnswers: ["Signora, io sono appena salito a Firenze, non ho visto nessuno.", "Signora, sono appena salito a Firenze e non ho visto nessuno."], explanation: "\"So'\" = \"sono\", \"nun\" = \"non\", \"mo'\" here = just now, \"appena\"." },
           { type: "multiple-choice", question: "Where is the young man from?", options: ["Rome", "Milan", "Naples", "Palermo"], correctIndex: 0, explanation: "\"Aò\", \"mo'\", \"nun\" and \"signo'\" are Roman." },
         ],
       },
@@ -598,7 +605,7 @@ export const IT_C1_U11: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The narrator speaks as a villager would.", answer: "Il narratore parla come parlerebbe un abitante del villaggio.", altAnswers: ["Il narratore parla come un abitante del paese.", "Il narratore parla come parlerebbe un abitante del paese."], explanation: "\"Come parlerebbe\": the conditional for a hypothetical comparison." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "All three understand each other perfectly.", answer: "Tutti e tre si capiscono perfettamente.", altAnswers: ["Si capiscono perfettamente tutti e tre.", "Tutti e tre si capiscono benissimo."], explanation: "\"Tutti e tre\" with \"e\"; \"capirsi\" is reciprocal." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Regional Italian is [a shared language] with local color.", sentence: "L'italiano regionale è ___ con un colore locale.", answer: "una lingua comune", altAnswers: ["una lingua condivisa"], explanation: "\"Comune\" = shared, common." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Madam, [I've just got on].", sentence: "Signora, ___.", answer: "sono appena salito", altAnswers: ["sono appena salita", "io sono appena salito"], explanation: "\"Appena\" between auxiliary and participle." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Madam, [I've just gotten on].", sentence: "Signora, ___.", answer: "sono appena salito", altAnswers: ["sono appena salita", "io sono appena salito"], explanation: "\"Appena\" between auxiliary and participle." },
       { type: "word-order", prompt: "Put the words in order to say: How cool, a train full of dialects!", words: ["Che", "figata,", "un", "treno", "pieno", "di", "dialetti!"], translation: "How cool, a train full of dialects!", explanation: "\"Pieno di\" = full of." },
       { type: "multiple-choice", question: "\"Aggia scrivere 'na cosa.\" What does \"aggia\" correspond to?", options: ["devo", "voglio", "posso", "ho"], correctIndex: 0, explanation: "Neapolitan \"aggia\" + infinitive = \"devo\" + infinitive." },
       { type: "multiple-choice", question: "What does the scene suggest about regional Italian?", options: ["Speakers from different regions understand each other easily.", "Speakers from different regions need a translator.", "Only older people speak regional Italian.", "Regional Italian is dying out on trains."], correctIndex: 0, explanation: "Regional color, one shared language." },
@@ -682,13 +689,13 @@ export const IT_C1_U11: Lesson[] = [
         ],
         examples: [
           { es: "Ho parlato con la dottoressa Ferri e con Luca dell'ufficio personale.", en: "I spoke to Dr. Ferri and to Luca from the HR office." },
-          { es: "Le posso inviare il curriculum per email o per posta.", en: "I can send you my CV by email or by mail." },
+          { es: "Le posso inviare il curriculum per email o per posta.", en: "I can send you my résumé by email or by mail." },
           { es: "Ho cinque anni di esperienza nel settore.", en: "I have five years' experience in the sector." },
           { es: "La dottoressa Ferri mi ha chiesto di scriverLe.", en: "Dr. Ferri asked me to write to you." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Fix \"Tengo cinque anni di esperienza nel settore\" and write: I have five years' experience in the sector.", source: "I have five years' experience in the sector.", answer: "Ho cinque anni di esperienza nel settore.", altAnswers: ["Ho cinque anni d'esperienza nel settore.", "Ho un'esperienza di cinque anni nel settore."], explanation: "\"Avere\" for possession; \"tenere\" in this sense is southern." },
-          { type: "translate", direction: "en-es", prompt: "Fix \"Le posso inviare il curriculum per email piuttosto che per posta\" and write: I can send you my CV by email or by mail.", source: "I can send you my CV by email or by mail.", answer: "Le posso inviare il curriculum per email o per posta.", altAnswers: ["Posso inviarLe il curriculum per email o per posta.", "Posso inviarle il curriculum per email o per posta.", "Le posso inviare il curriculum per email oppure per posta.", "Posso inviarLe il curriculum via email o per posta."], explanation: "\"O\" for or; \"piuttosto che\" would mean rather than." },
+          { type: "translate", direction: "en-es", prompt: "Fix \"Le posso inviare il curriculum per email piuttosto che per posta\" and write: I can send you my résumé by email or by mail.", source: "I can send you my résumé by email or by mail.", answer: "Le posso inviare il curriculum per email o per posta.", altAnswers: ["Posso inviarLe il curriculum per email o per posta.", "Posso inviarle il curriculum per email o per posta.", "Le posso inviare il curriculum per email oppure per posta.", "Posso inviarLe il curriculum via email o per posta."], explanation: "\"O\" for or; \"piuttosto che\" would mean rather than." },
         ],
       },
       {
@@ -741,12 +748,12 @@ export const IT_C1_U11: Lesson[] = [
         ],
         examples: [
           { es: "Gennaro ha detto che in quel momento avevano poco personale.", en: "Gennaro said that at the moment they were short-staffed." },
-          { es: "Ha aggiunto che c'era un problema con le ferie.", en: "He added that there was a problem with the holidays." },
+          { es: "Ha aggiunto che c'era un problema con le ferie.", en: "He added that there was a problem with vacation schedules." },
           { es: "Rosalia ha detto che il giorno prima aveva firmato il contratto.", en: "Rosalia said she had signed the contract the day before." },
           { es: "Ha detto che era contenta.", en: "She said she was happy." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Gennaro said that there was a problem with the holidays.", answer: "Gennaro ha detto che c'era un problema con le ferie.", altAnswers: ["Gennaro ha detto che c'era un problema per le ferie."], explanation: "\"Ci sta\" → \"c'è\", then shifted to the imperfetto: \"c'era\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Gennaro said that there was a problem with vacation schedules.", answer: "Gennaro ha detto che c'era un problema con le ferie.", altAnswers: ["Gennaro ha detto che c'era un problema per le ferie."], explanation: "\"Ci sta\" → \"c'è\", then shifted to the imperfetto: \"c'era\"." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Rosalia said she had signed the contract the day before.", answer: "Rosalia ha detto che aveva firmato il contratto il giorno prima.", altAnswers: ["Rosalia ha detto di aver firmato il contratto il giorno prima.", "Rosalia ha detto che il giorno prima aveva firmato il contratto.", "Rosalia ha detto di avere firmato il contratto il giorno prima."], explanation: "\"Firmai\" → trapassato \"aveva firmato\"; \"ieri\" → \"il giorno prima\"." },
         ],
       },

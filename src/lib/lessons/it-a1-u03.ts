@@ -1117,7 +1117,7 @@ export const IT_A1_U03: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[These are] the cousins from Milan.", sentence: "___ le cugine di Milano.", answer: "Queste sono", explanation: "Feminine plural: \"queste sono\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Elena is [very nice].", sentence: "Elena è ___.", answer: "molto simpatica", explanation: "\"Simpatica\" agrees with Elena; \"molto\" doesn't change." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "That's [the uncle] from Naples.", sentence: "Quello è ___ di Napoli.", answer: "lo zio", explanation: "\"Lo zio\": z takes \"lo\"." },
-      { type: "word-order", prompt: "Put the words in order to say: Who's this girl? This is the sister of Marco.", words: ["Chi", "è", "questa", "ragazza?", "È", "la", "sorella", "di", "Marco."], translation: "Who's this girl? It's Marco's sister.", explanation: "\"Chi è\" asks; \"è la sorella di\" answers." },
+      { type: "word-order", prompt: "Put the words in order to say: Who's this girl? It's Marco's sister.", words: ["Chi", "è", "questa", "ragazza?", "È", "la", "sorella", "di", "Marco."], translation: "Who's this girl? It's Marco's sister.", explanation: "\"Chi è\" asks; \"è la sorella di\" answers." },
       { type: "multiple-choice", question: "Tom asks: \"Di dove sono gli zii?\" Which answer fits?", options: ["Sono di Torino.", "È di Torino.", "Sono Torino.", "Siamo di Torino."], correctIndex: 0, explanation: "\"Gli zii\" is plural: \"sono di\"." },
       { type: "dictation", audio: "Questa è mia sorella e questi sono i nonni.", explanation: "\"Questa è\" for one woman, \"questi sono\" for a plural." },
       {

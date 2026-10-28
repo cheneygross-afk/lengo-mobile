@@ -19,7 +19,7 @@ export const IT_CULTURE_U04: Lesson[] = [
       {
         heading: "La vigilia",
         body: [
-          "The season starts on 8 December, the Immaculate Conception, \"l'Immacolata\", a public holiday when families put up the tree and the nativity scene. The big meal of Christmas Eve, \"la vigilia\", is \"il cenone\", and in much of the Centre and South it's meatless: fish, seafood, fried vegetables. In Naples eel, \"il capitone\", is a tradition. Many families go to midnight Mass.",
+          "The season starts on 8 December, the Immaculate Conception, \"l'Immacolata\", a public holiday when families put up the tree and the nativity scene. The big meal of Christmas Eve, \"la vigilia\", is \"il cenone\", and in much of the Center and South it's meatless: fish, seafood, fried vegetables. In Naples eel, \"il capitone\", is a tradition. Many families go to midnight Mass.",
           "On 25 December comes the long lunch, \"il pranzo di Natale\": in the North often tortellini or cappelletti in broth, then roasts. A saying sums up the season: \"Natale con i tuoi, Pasqua con chi vuoi\", Christmas with your family, Easter with whoever you like.",
         ],
         examples: [
@@ -140,7 +140,7 @@ export const IT_CULTURE_U04: Lesson[] = [
         heading: "Befana, Babbo Natale e Santa Lucia",
         body: [
           "Today most children get presents from \"Babbo Natale\" at Christmas and a stocking from the Befana. In some northern cities, such as Bergamo, Brescia and Verona, gifts come from \"Santa Lucia\" on the night of 12 December, riding a donkey.",
-          "A Befana costume is a classic joke: calling someone \"una befana\" means an ugly old woman, so use it only about the real one.",
+          "Careful with the word itself: calling someone \"una befana\" means she's an ugly old woman, so keep it for the real one.",
         ],
         examples: [
           { es: "Che cosa ti ha portato Babbo Natale?", en: "What did Santa bring you?" },
@@ -179,7 +179,7 @@ export const IT_CULTURE_U04: Lesson[] = [
       {
         heading: "Venezia e Viareggio",
         body: [
-          "\"Il Carnevale\" is the season of masks and jokes before Lent. It ends on \"martedì grasso\", Fat Tuesday, which in 2026 fell on 17 February. Venice has the most famous Carnival, with masks like \"la bauta\", a white mask that covers the whole face, and \"la Colombina\", which covers only the eyes, plus costumed crowds in Piazza San Marco.",
+          "\"Il Carnevale\" is the season of masks and jokes before Lent. It ends on \"martedì grasso\", Fat Tuesday, which in 2026 fell on 17 February. Venice has the most famous Carnival, with masks like \"la bauta\", a white mask that covers the whole face, and \"la Colombina\", a half mask around the eyes, plus costumed crowds in Piazza San Marco.",
           "\"Viareggio\", on the Tuscan coast, is known for giant papier-mâché floats, \"i carri di cartapesta\", that parade along the seafront and mock politicians; its Carnival dates from 1873. In Ivrea, in Piedmont, teams fight a famous battle with oranges.",
         ],
         examples: [
@@ -346,7 +346,7 @@ export const IT_CULTURE_U04: Lesson[] = [
         heading: "Città vuote",
         body: [
           "In mid-August big cities empty out. Shops and bakeries hang the sign \"chiuso per ferie\", and those who stay enjoy free parking and quiet streets, but have to hunt for an open pharmacy. Newspapers call the departures \"l'esodo\", the exodus, and the return at the end of the month \"il controesodo\".",
-          "On the busiest days the motorways are marked \"bollino nero\", a black dot, on traffic forecasts: expect long queues. Italians leave at dawn or at night to avoid them.",
+          "On the busiest days the motorways are marked \"bollino nero\", a black dot, on traffic forecasts: expect long traffic jams. Italians leave at dawn or at night to avoid them.",
         ],
         examples: [
           { es: "Ad agosto Milano è vuota.", en: "In August Milan is empty." },
@@ -362,7 +362,7 @@ export const IT_CULTURE_U04: Lesson[] = [
       {
         heading: "Buon Ferragosto!",
         body: [
-          "People wish each other \"Buon Ferragosto!\". By the sea there are bonfires and midnight swims; in the mountains, lunch at a \"rifugio\" (a mountain hut). Many towns hold a festival for \"l'Assunta\", with a procession and a fair.",
+          "People wish each other \"Buon Ferragosto!\". By the sea there are late-night parties and midnight swims (beach bonfires are now banned in many places); in the mountains, lunch at a \"rifugio\" (a mountain hut). Many towns hold a festival for \"l'Assunta\", with a procession and a fair.",
           "After Ferragosto the summer starts to end: Italians say \"dopo Ferragosto\" to mean late summer, when the first storms arrive and people return to work.",
         ],
         examples: [
@@ -498,7 +498,7 @@ export const IT_CULTURE_U04: Lesson[] = [
       {
         heading: "Le feste civili",
         body: [
-          "Italy has four civic holidays. 25 April, \"la Festa della Liberazione\", marks the liberation from Nazi occupation and Fascism in 1945. 1 May is \"la Festa dei Lavoratori\", Labor Day, with a huge free concert in Rome. 2 June is \"la Festa della Repubblica\": on 2 and 3 June 1946 Italians voted in a referendum to replace the monarchy with a republic, so 2026 was the eightieth anniversary. Rome holds a military parade, and the air force team, \"le Frecce Tricolori\", draws the flag in the sky.",
+          "Italy has four big civic dates. 25 April, \"la Festa della Liberazione\", marks the liberation from Nazi occupation and Fascism in 1945. 1 May is \"la Festa dei Lavoratori\", Labor Day, with a huge free concert in Rome. 2 June is \"la Festa della Repubblica\": on 2 and 3 June 1946 Italians voted in a referendum to replace the monarchy with a republic, so 2026 was the eightieth anniversary. Rome holds a military parade, and the air force team, \"le Frecce Tricolori\", draws the flag in the sky.",
           "4 November, the Day of National Unity and the Armed Forces, remembers the end of the First World War for Italy in 1918. It's a day of ceremonies, but since 1977 it's not a day off.",
         ],
         examples: [
@@ -532,7 +532,7 @@ export const IT_CULTURE_U04: Lesson[] = [
       {
         heading: "Fare il ponte",
         body: [
-          "When a holiday falls on a Tuesday or Thursday, many Italians take the day in between off as well: \"fare il ponte\", to make a bridge. In 2026, with 2 June and 8 December on Tuesdays, plenty of people took Monday off for a four-day weekend.",
+          "When a holiday falls on a Tuesday or Thursday, many Italians take the day in between off as well: \"fare il ponte\", to make a bridge. In 2026 2 June fell on a Tuesday, so plenty of people took Monday 1 June off for a four-day weekend; 8 December 2026 is a Tuesday too.",
           "Schools often close for the ponte too, and trains and motorways fill up. Ask colleagues early: \"Fai il ponte?\".",
         ],
         examples: [
@@ -556,7 +556,7 @@ export const IT_CULTURE_U04: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If it falls on a Sunday, [the holiday is lost].", sentence: "Se cade di domenica, ___.", answer: "la festa si perde", explanation: "\"Si perde\" = is lost." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "November 1 is [All Saints' Day].", sentence: "Il primo novembre è ___.", answer: "Ognissanti", altAnswers: ["la festa di Ognissanti", "Tutti i Santi"], explanation: "\"Ognissanti\" = All Saints." },
       { type: "word-order", prompt: "Put the words in order to say: Saint Francis is the patron saint of Italy.", words: ["San", "Francesco", "è", "il", "patrono", "d'Italia."], translation: "Saint Francis is the patron saint of Italy.", explanation: "Since 2026 his day, 4 October, is a holiday again." },
-      { type: "multiple-choice", question: "Which of these was NOT a day off in Italy in 2026?", options: ["4 novembre", "2 giugno", "25 aprile", "8 dicembre"], correctIndex: 0, explanation: "4 November is commemorated but hasn't been a day off since 1977." },
+      { type: "multiple-choice", question: "Which of these is NOT a day off in Italy in 2026?", options: ["4 novembre", "2 giugno", "25 aprile", "8 dicembre"], correctIndex: 0, explanation: "4 November is commemorated but hasn't been a day off since 1977." },
       { type: "dictation", audio: "Il 2 giugno è la Festa della Repubblica.", explanation: "\"Giugno\": gn like the ny in canyon." },
       { type: "speak", text: "Il 2 giugno cade di martedì, quindi faccio il ponte e vado al mare.", prompt: "Say it in Italian: June 2 falls on a Tuesday, so I'm taking the bridge day and going to the beach.", tip: "GIU-gno: soft g, then gn.", explanation: "\"Quindi\" = so." },
     ],
@@ -606,7 +606,7 @@ export const IT_CULTURE_U04: Lesson[] = [
       {
         heading: "Le domande",
         body: [
-          "Over coffee, the questions start. Zia: \"E tu che lavoro fai?\" \"Da quanto tempo state insieme?\" \"E quando vi sposate?\" It's curiosity, not rudeness; answer with humor: \"Con calma!\". At three the men may drift to the TV for the football.",
+          "Over coffee, the questions start. Zia: \"E tu che lavoro fai?\" \"Da quanto tempo state insieme?\" \"E quando vi sposate?\" It's curiosity, not rudeness; answer with humor: \"Con calma!\". At three the men may drift to the TV for the soccer.",
           "Leaving takes half an hour, and you won't go empty-handed. Mamma: \"Portati un po' di ragù a casa!\" You: \"Grazie di tutto, è stato un pranzo fantastico.\"",
         ],
         examples: [
@@ -649,6 +649,6 @@ export const IT_CULTURE_U04_WRITING: WriteExercise = {
     "Compares the two traditions (invece, anche, più... di, come)",
     "Uses holiday greetings and expressions correctly (Buon Natale, Buona Pasqua, auguri, fare il ponte, andare fuori porta)",
   ],
-  modelAnswer: "Cara Sofia, da noi la festa più importante è il Ringraziamento, a fine novembre: tutta la famiglia mangia il tacchino e guarda il football. È un po' come il pranzo della domenica da voi, ma più lungo! Mi ha incuriosito molto la vostra Befana. Da noi i regali arrivano solo a Natale, invece in Italia i bambini ricevono anche la calza il 6 gennaio. Mi piacerebbe passare la Pasqua con te: vorrei vedere una processione, mangiare la colomba e poi, a Pasquetta, fare una gita fuori porta con i tuoi amici. Natale con i tuoi, Pasqua con chi vuoi, no? Un abbraccio e tanti auguri!",
+  modelAnswer: "Cara Sofia, da noi la festa più importante è il Ringraziamento, a fine novembre: tutta la famiglia mangia il tacchino e guarda il football americano. È un po' come il pranzo della domenica da voi, ma più lungo! Mi ha incuriosito molto la vostra Befana. Da noi i regali arrivano solo a Natale, invece in Italia i bambini ricevono anche la calza il 6 gennaio. Mi piacerebbe passare la Pasqua con te: vorrei vedere una processione, mangiare la colomba e poi, a Pasquetta, fare una gita fuori porta con i tuoi amici. Natale con i tuoi, Pasqua con chi vuoi, no? Un abbraccio e tanti auguri!",
   explanation: "\"Il 6 gennaio\" and \"a fine novembre\" write dates correctly; \"la calza\", \"la colomba\" and \"Pasquetta\" are accurate; \"come\" and \"invece\" compare traditions; the proverb and \"fare una gita fuori porta\" use the unit's expressions naturally.",
 };

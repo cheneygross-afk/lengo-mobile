@@ -11,14 +11,15 @@ export const IT_B2_U15: Lesson[] = [
     level: "IT-B2",
     number: 1,
     title: "Allora, Dai, Insomma",
-    summary: "Use the small words that organise spoken Italian: allora, dai, insomma, cioè, tipo, boh, mah, beh, guarda, senti, figurati.",
+    summary: "Use the small words that organize spoken Italian: allora, dai, insomma, cioè, tipo, boh, mah, beh, guarda, senti, figurati.",
     duration: "18 min",
     sections: [
       {
         heading: "Starting and moving on: allora, beh, ecco",
         body: [
-          "Spoken Italian is full of small words that carry no information but organise the conversation. \"Allora\" opens a topic or a decision: \"Allora, cosa prendiamo?\" (So, what are we having?). It also marks a conclusion: \"Allora vengo anch'io\" (In that case I'm coming too).",
+          "Spoken Italian is full of small words that carry no information but organize the conversation. \"Allora\" opens a topic or a decision: \"Allora, cosa prendiamo?\" (So, what are we having?). It also marks a conclusion: \"Allora vengo anch'io\" (In that case I'm coming too).",
           "\"Beh\" (or \"be'\") buys time or softens an answer: \"Beh, non lo so\" (Well, I don't know). \"Ecco\" points to something or closes a point: \"Ecco, appunto\" (There you go, exactly). \"Dunque\" does the same job as \"allora\" but sounds more formal.",
+          "\"Allora\" and \"quindi\" can both mean so, but they work differently. \"Quindi\" draws a logical conclusion and is at home in writing: \"Piove, quindi resto a casa.\" \"Allora\" reacts to what was just said or to the situation: \"Piove? Allora resto a casa.\" That is why waiters, doctors and teachers open with \"allora\": it signals that the business is starting. In an essay, prefer \"quindi\" or \"perciò\".",
         ],
         examples: [
           { es: "Allora, cosa prendiamo?", en: "So, what are we having?" },
@@ -26,6 +27,7 @@ export const IT_B2_U15: Lesson[] = [
           { es: "Beh, non lo so, devo pensarci.", en: "Well, I don't know, I need to think about it." },
           { es: "Ecco, è proprio quello che volevo dire.", en: "There you go, that's exactly what I wanted to say." },
           { es: "Dunque, dove eravamo rimasti?", en: "Right, where were we?" },
+          { es: "Piove, quindi resto a casa.", en: "It's raining, so I'm staying home." },
         ],
         checkpoint: [
           {
@@ -52,10 +54,10 @@ export const IT_B2_U15: Lesson[] = [
         heading: "Getting attention and pushing: senti, guarda, dai",
         body: [
           "\"Senti\" and \"guarda\" (formal \"senta\", \"guardi\") are imperatives that no longer mean listen and look. They grab attention before a request or an opinion: \"Senti, mi fai un favore?\", \"Guarda, secondo me hai ragione.\"",
-          "\"Dai\" (from \"dare\") pushes someone: \"Dai, vieni anche tu!\" (Come on, come too!). Said with falling intonation, \"Ma dai!\" expresses surprise or disbelief: Really? No way! \"Su\" and \"forza\" encourage too: \"Su, sbrigati!\"",
+          "\"Dai\" (from \"dare\") pushes someone: \"Dai, vieni anche tu!\" (Come on, come too!). As an exclamation, \"Ma dai!\" expresses surprise or disbelief: Really? No way! \"Su\" and \"forza\" encourage too: \"Su, sbrigati!\"",
         ],
         examples: [
-          { es: "Senti, mi fai un favore?", en: "Listen, can you do me a favour?" },
+          { es: "Senti, mi fai un favore?", en: "Listen, can you do me a favor?" },
           { es: "Guarda, secondo me hai ragione.", en: "Look, I think you're right." },
           { es: "Senta, scusi, sa dov'è la stazione?", en: "Excuse me, do you know where the station is?" },
           { es: "Dai, vieni anche tu!", en: "Come on, you come too!" },
@@ -66,7 +68,7 @@ export const IT_B2_U15: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Italian.",
-            source: "Listen, can you do me a favour? (to a friend)",
+            source: "Listen, can you do me a favor? (to a friend)",
             answer: "Senti, mi fai un favore?",
             altAnswers: ["Senti, mi puoi fare un favore?", "Senti, puoi farmi un favore?"],
             explanation: "\"Senti\" = hey, listen.",
@@ -94,6 +96,7 @@ export const IT_B2_U15: Lesson[] = [
         body: [
           "\"Insomma\" sums up (in short) or shows mild impatience: \"Insomma, è andata bene\"; \"Insomma, ti decidi?\" Alone, as an answer, it means so-so: \"Com'è andato l'esame?\" \"Insomma...\" \"Cioè\" reformulates (I mean): \"Arrivo alle otto, cioè, alle otto e mezza.\"",
           "\"Tipo\" is like, very informal: \"Era tipo enorme.\" \"Boh\" is a shrug: I've no idea. \"Mah\" expresses doubt. \"Figurati\" answers thanks or apologies (don't mention it), and \"appunto\" agrees: exactly, that's my point.",
+          "Intonation turns markers into questions or commands. \"Cioè?\" on its own, rising, asks for an explanation (meaning what?), and \"Tipo?\" asks for an example (like what?). \"Insomma!\" with a sharp fall is impatience: \"Insomma, basta!\" (Come on, that's enough!). \"Mah\" can also stand alone as a skeptical answer: \"Ti piace il nuovo capo?\" \"Mah...\" (I'm not so sure.)",
         ],
         examples: [
           { es: "Insomma, alla fine è andata bene.", en: "In short, it went well in the end." },
@@ -101,7 +104,8 @@ export const IT_B2_U15: Lesson[] = [
           { es: "Arrivo alle otto, cioè, alle otto e mezza.", en: "I'll arrive at eight, I mean, half past eight." },
           { es: "Dov'è Luca? Boh!", en: "Where's Luca? No idea!" },
           { es: "Grazie mille! Figurati!", en: "Thanks a lot! Don't mention it!" },
-          { es: "C'era tipo un'ora di fila.", en: "There was like an hour's queue." },
+          { es: "C'era tipo un'ora di fila.", en: "There was like an hour-long line." },
+          { es: "Insomma, basta! Smettetela di litigare.", en: "Come on, that's enough! Stop arguing." },
         ],
         checkpoint: [
           {
@@ -133,7 +137,7 @@ export const IT_B2_U15: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Where's Luca? No idea!", answer: "Dov'è Luca? Boh!", altAnswers: ["Dove è Luca? Boh!", "Dov'è Luca? Boh, non lo so!", "Dov'è Luca? Non ne ho idea!"], explanation: "\"Boh\" = a verbal shrug." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They're getting married? No way!", answer: "Si sposano? Ma dai!", altAnswers: ["Si sposano? Dai!", "Si sposano? Ma davvero?"], explanation: "\"Ma dai!\" = surprise." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Right], where were we?", sentence: "___, dove eravamo rimasti?", answer: "Dunque", altAnswers: ["Allora"], explanation: "\"Dunque\" or \"allora\" to restart." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "There was [like] an hour's queue.", sentence: "C'era ___ un'ora di fila.", answer: "tipo", explanation: "\"Tipo\" = like (very informal)." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "There was [like] an hour-long line.", sentence: "C'era ___ un'ora di fila.", answer: "tipo", explanation: "\"Tipo\" = like (very informal)." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "\"He's always late.\" \"[Exactly], that's why I didn't wait.\"", sentence: "\"È sempre in ritardo.\" \"___, per questo non l'ho aspettato.\"", answer: "Appunto", altAnswers: ["Ecco"], explanation: "\"Appunto\" = that's my point." },
       { type: "multiple-choice", question: "Someone asks how your weekend was. It was neither good nor bad. What do you say?", options: ["Insomma...", "Figurati!", "Ma dai!", "Appunto!"], correctIndex: 0, explanation: "\"Insomma\" alone = so-so." },
       { type: "listen-choose", audio: "Ti ringrazio tantissimo per l'aiuto! Figurati, è stato un piacere.", question: "What does \"figurati\" mean here?", options: ["Don't mention it", "Imagine that", "Look at me", "No way"], correctIndex: 0, explanation: "After thanks, \"figurati\" = don't mention it." },
@@ -143,7 +147,7 @@ export const IT_B2_U15: Lesson[] = [
         text: "Allora, insomma, la festa è stata bella. Cioè, c'era tipo troppa gente, ma dai, ci siamo divertiti.",
         prompt: "Tell a friend about a party: So, in short, the party was nice. I mean, there were like too many people, but come on, we had fun.",
         tip: "\"Cioè\": two syllables, cho-È, stress on the final open è.",
-        explanation: "Markers organise the story; they carry no content.",
+        explanation: "Markers organize the story; they carry no content.",
       },
     ],
   },
@@ -158,15 +162,17 @@ export const IT_B2_U15: Lesson[] = [
       {
         heading: "Left dislocation: the topic first",
         body: [
-          "In speech, Italians often move the object to the front to make it the topic, then repeat it with a pronoun: \"Il caffè lo prendo dopo\" (The coffee, I'll have it later). The pronoun is obligatory: \"Il caffè prendo dopo\" is wrong.",
+          "In speech, Italians often move the object to the front to make it the topic, then repeat it with a pronoun: \"Il caffè lo prendo dopo\" (The coffee, I'll have it later). The pronoun is obligatory in this pattern: in a neutral sentence, \"Il caffè prendo dopo\" is wrong.",
           "The pronoun agrees with the noun: \"La pizza la mangio dopo\", \"I libri li ho lasciati a casa\", \"Le chiavi le hai tu?\" In compound tenses the participle agrees, as with any \"lo, la, li, le\": \"La lettera l'ho spedita ieri.\"",
+          "Why move it? Conversation works topic first, comment second: you name what you are talking about, then say something about it. \"E il gatto?\" \"Il gatto l'ho portato da mia madre.\" Dislocation is also the natural way to contrast two things: \"Il vino lo porto io, il dolce lo porta Anna.\" It is a feature of informal speech and of fiction that imitates it, not a mistake.",
         ],
         examples: [
           { es: "Il caffè lo prendo dopo.", en: "I'll have the coffee later." },
           { es: "La pizza la mangio domani.", en: "I'll eat the pizza tomorrow." },
           { es: "I libri li ho lasciati in macchina.", en: "I left the books in the car." },
           { es: "Le chiavi le hai tu?", en: "Have you got the keys?" },
-          { es: "La lettera l'ho spedita ieri.", en: "I posted the letter yesterday." },
+          { es: "E il gatto? Il gatto l'ho portato da mia madre.", en: "And the cat? I took the cat to my mother's." },
+          { es: "La lettera l'ho spedita ieri.", en: "I mailed the letter yesterday." },
         ],
         checkpoint: [
           {
@@ -192,7 +198,7 @@ export const IT_B2_U15: Lesson[] = [
         heading: "With ne and ci",
         body: [
           "The same works with \"ne\" for quantities and \"di\" phrases, and with \"ci\" for places and \"a\" phrases: \"Di pane ne compro un chilo\", \"Di questo ne parliamo domani\", \"A Roma ci vado a maggio\", \"A questo non ci avevo pensato.\"",
-          "With an indirect object, standard Italian says \"A Marco ho detto tutto\" or \"Gli ho detto tutto\". You will often hear \"A Marco gli ho detto tutto\" and \"A me mi piace\": recognise them, but avoid them in writing.",
+          "With an indirect object, standard Italian says \"A Marco ho detto tutto\" or \"Gli ho detto tutto\". You will often hear \"A Marco gli ho detto tutto\" and \"A me mi piace\": recognize them, but avoid them in writing.",
         ],
         examples: [
           { es: "Di pane ne compro un chilo.", en: "I'll buy a kilo of bread." },
@@ -227,12 +233,14 @@ export const IT_B2_U15: Lesson[] = [
         body: [
           "The topic can also come last, after a pronoun that announces it: \"L'hai visto, il film?\" (Have you seen it, the film?). This is typical of questions and of afterthoughts: you start the sentence and then make clear what you mean.",
           "Right dislocation is common with \"ne\" and \"ci\" too: \"Ne vuoi ancora, di torta?\", \"Ci sei mai stato, a Napoli?\" In writing, keep the plain order: \"Hai visto il film?\"",
+          "A fronted object without a pronoun is something different: a contrastive focus, with heavy stress on the fronted word. \"Un caffè voglio, non un tè!\" means it's a coffee I want, not a tea. This is correct but marked; the neutral, everyday pattern is still the dislocation with a pronoun. That is why \"Il caffè prendo dopo\", said flatly, sounds wrong.",
         ],
         examples: [
           { es: "L'hai visto, il film?", en: "Have you seen the film?" },
           { es: "Lo conosci, mio fratello?", en: "Do you know my brother?" },
           { es: "Ne vuoi ancora, di torta?", en: "Do you want some more cake?" },
           { es: "Ci sei mai stato, a Napoli?", en: "Have you ever been to Naples?" },
+          { es: "Un caffè voglio, non un tè!", en: "It's a coffee I want, not a tea!" },
         ],
         checkpoint: [
           {
@@ -256,7 +264,7 @@ export const IT_B2_U15: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Put the topic first: The pizza, I'll eat it tomorrow.", source: "The pizza, I'll eat it tomorrow.", answer: "La pizza la mangio domani.", explanation: "\"La pizza\" → \"la\"." },
-      { type: "translate", direction: "en-es", prompt: "Put the topic first: The letter, I posted it yesterday.", source: "The letter, I posted it yesterday.", answer: "La lettera l'ho spedita ieri.", altAnswers: ["La lettera l'ho mandata ieri."], explanation: "\"L'\" + agreement \"spedita\"." },
+      { type: "translate", direction: "en-es", prompt: "Put the topic first: The letter, I mailed it yesterday.", source: "The letter, I mailed it yesterday.", answer: "La lettera l'ho spedita ieri.", altAnswers: ["La lettera l'ho mandata ieri."], explanation: "\"L'\" + agreement \"spedita\"." },
       { type: "translate", direction: "en-es", prompt: "Put the topic first: Have you got the keys? (to a friend)", source: "The keys, have you got them?", answer: "Le chiavi le hai tu?", altAnswers: ["Le chiavi ce le hai tu?", "Le chiavi le hai?"], explanation: "\"Le chiavi\" → \"le\"." },
       { type: "translate", direction: "en-es", prompt: "Put the topic first: We'll talk about this tomorrow.", source: "We'll talk about this tomorrow.", answer: "Di questo ne parliamo domani.", altAnswers: ["Di questo parliamo domani."], explanation: "\"Ne\" repeats \"di questo\"." },
       { type: "translate", direction: "en-es", prompt: "Put the topic last: Do you know him, my brother? (to a friend)", source: "Do you know him, my brother?", answer: "Lo conosci, mio fratello?", explanation: "Right dislocation in a question." },
@@ -289,12 +297,14 @@ export const IT_B2_U15: Lesson[] = [
         body: [
           "A cleft sentence splits a statement in two to highlight one element: \"Ha chiamato Marco\" becomes \"È Marco che ha chiamato\" (It was Marco who called, not someone else). Use \"è\" with a singular element and \"sono\" with a plural one: \"Sono loro che hanno sbagliato.\"",
           "With a pronoun, Italian uses the stressed form and agrees the verb: \"Sono io che pago\", \"Sei tu che devi decidere.\" Note that English says it was, but Italian often keeps the present \"è\" even for past events: \"È Marco che ha chiamato.\"",
+          "A very frequent relative of the cleft is \"non è che\". It softens a request (\"Non è che mi presti la macchina?\" = you wouldn't lend me the car, would you?) and corrects a wrong assumption: \"Non è che non voglio, è che non posso\" (It's not that I don't want to, it's that I can't). In careful style the verb after \"non è che\" goes into the subjunctive: \"Non è che non voglia\".",
         ],
         examples: [
           { es: "È Marco che ha chiamato, non Luca.", en: "It was Marco who called, not Luca." },
           { es: "Sono loro che hanno sbagliato.", en: "They're the ones who got it wrong." },
           { es: "Sono io che pago stasera.", en: "I'm the one paying tonight." },
           { es: "Sei tu che devi decidere.", en: "You're the one who has to decide." },
+          { es: "Non è che non voglio, è che non posso.", en: "It's not that I don't want to, it's that I can't." },
         ],
         checkpoint: [
           {
@@ -326,7 +336,7 @@ export const IT_B2_U15: Lesson[] = [
         examples: [
           { es: "È stato lui a rompere il vaso.", en: "He's the one who broke the vase." },
           { es: "È stata Giulia a trovare la soluzione.", en: "It was Giulia who found the solution." },
-          { es: "Sono stati i vicini a chiamare la polizia.", en: "It was the neighbours who called the police." },
+          { es: "Sono stati i vicini a chiamare la polizia.", en: "It was the neighbors who called the police." },
           { es: "Sei stato tu a dirglielo?", en: "Were you the one who told him?" },
         ],
         checkpoint: [
@@ -342,7 +352,7 @@ export const IT_B2_U15: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Italian for the bold words.",
-            en: "[It was the neighbours who] called the police.",
+            en: "[It was the neighbors who] called the police.",
             sentence: "___ chiamare la polizia.",
             answer: "Sono stati i vicini a",
             explanation: "Plural: \"sono stati\".",
@@ -354,6 +364,7 @@ export const IT_B2_U15: Lesson[] = [
         body: [
           "The focus can be a reason, place or time: \"È per questo che sono arrivato tardi\" (That's why I was late), \"È qui che ci siamo conosciuti\" (This is where we met), \"È stato allora che ho capito\" (That's when I understood).",
           "In questions, a cleft adds emphasis or impatience: \"Chi è che ha lasciato la porta aperta?\", \"Cos'è che non va?\" (What's wrong?), \"Quand'è che parti?\" These are very frequent in speech.",
+          "Writing prefers another kind of focus, the pseudo-cleft with \"quello che\": \"Quello che mi preoccupa è il prezzo\" (What worries me is the price), \"Quello che non capisco è perché non abbia chiamato.\" It builds suspense and puts the key information last. \"L'unica cosa che...\" and \"Il motivo per cui...\" work the same way: \"Il motivo per cui ti chiamo è un altro.\"",
         ],
         examples: [
           { es: "È per questo che sono arrivato tardi.", en: "That's why I was late." },
@@ -361,6 +372,7 @@ export const IT_B2_U15: Lesson[] = [
           { es: "È stato allora che ho capito tutto.", en: "That's when I understood everything." },
           { es: "Chi è che ha lasciato la porta aperta?", en: "Who left the door open?" },
           { es: "Cos'è che non va?", en: "What's wrong?" },
+          { es: "Quello che non capisco è perché non abbia chiamato.", en: "What I don't understand is why he didn't call." },
         ],
         checkpoint: [
           {
@@ -400,7 +412,7 @@ export const IT_B2_U15: Lesson[] = [
       {
         type: "speak",
         text: "Non è stato Marco a rompere il vaso, sono stato io. È per questo che sono venuto a scusarmi.",
-        prompt: "Own up (a man speaking): It wasn't Marco who broke the vase, it was me. That's why I've come to apologise.",
+        prompt: "Own up (a man speaking): It wasn't Marco who broke the vase, it was me. That's why I've come to apologize.",
         tip: "\"Scusarmi\": stress on the second syllable, sku-SAR-mi.",
         explanation: "Two cleft structures.",
       },
@@ -419,6 +431,7 @@ export const IT_B2_U15: Lesson[] = [
         body: [
           "The easiest exclamation is \"che\" + adjective: \"Che bello!\", \"Che strano!\", \"Che buono!\". With a noun, it expresses a reaction to a situation: \"Che peccato!\" (What a shame!), \"Che fortuna!\", \"Che sfortuna!\", \"Che noia!\", \"Che schifo!\" (Gross!).",
           "\"Che\" + noun + adjective describes something: \"Che bella giornata!\" (What a lovely day!). \"Come\" and \"quanto\" + verb also exclaim: \"Come sei cresciuto!\", \"Quanto sei gentile!\"",
+          "English what a + noun becomes \"che\" + noun with no article: \"Che giornata!\", \"Che idea!\", never \"che una giornata\". \"Che\" goes with nouns and adjectives, \"come\" and \"quanto\" with verbs: \"Come parla bene!\", \"Quanto costa!\" An exclamation can also introduce a whole clause with \"che\": \"Che bello che sei venuto!\" (How nice that you came!)",
         ],
         examples: [
           { es: "Che bello rivederti!", en: "How lovely to see you again!" },
@@ -426,6 +439,7 @@ export const IT_B2_U15: Lesson[] = [
           { es: "Che bella giornata!", en: "What a lovely day!" },
           { es: "Come sei cresciuto!", en: "How you've grown!" },
           { es: "Quanto sei gentile!", en: "How kind of you!" },
+          { es: "Che bello che sei venuto!", en: "How nice that you came!" },
         ],
         checkpoint: [
           {
@@ -453,6 +467,7 @@ export const IT_B2_U15: Lesson[] = [
         body: [
           "\"Ma dai!\" = No way! Really? (surprise). \"Figurati!\" has two uses: after thanks, don't mention it; after a question, of course not, as if: \"Ti ha aiutato?\" \"Figurati!\" (Helped me? As if!). \"Magari!\" = If only! I wish!: \"Hai vinto?\" \"Magari!\"",
           "Strong feelings: \"Mamma mia!\" (Oh my goodness!), \"Accidenti!\" (Damn! or Wow!), \"Meno male!\" (Thank goodness!), \"Che rabbia!\" (It makes me so angry!), \"Uffa!\" (impatience, ugh!).",
+          "\"Magari\" changes with its position: alone it means if only, before a verb it means maybe (\"Magari vengo più tardi\"), and with the imperfect subjunctive it is a wish: \"Magari fosse vero!\" (If only it were true!). For mild swearing, \"accidenti\", \"mannaggia\" (originally southern, now heard everywhere) and \"cavolo!\" (cabbage, standing in for a ruder word) are safe among friends.",
         ],
         examples: [
           { es: "Ha lasciato il lavoro? Ma dai!", en: "He quit his job? No way!" },
@@ -461,6 +476,8 @@ export const IT_B2_U15: Lesson[] = [
           { es: "Mamma mia, che caldo!", en: "Oh my goodness, it's so hot!" },
           { es: "Hai trovato il portafoglio? Meno male!", en: "You found your wallet? Thank goodness!" },
           { es: "Uffa, ancora pioggia!", en: "Ugh, rain again!" },
+          { es: "Magari fosse vero!", en: "If only it were true!" },
+          { es: "Cavolo, è già mezzanotte!", en: "Wow, it's already midnight!" },
         ],
         checkpoint: [
           {
@@ -523,7 +540,7 @@ export const IT_B2_U15: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "\"Did he pay?\" \"[As if!]\"", sentence: "\"Ha pagato lui?\" \"___!\"", answer: "Figurati", altAnswers: ["Ma figurati"], explanation: "\"Figurati!\" = of course not." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Ugh], rain again!", sentence: "___, ancora pioggia!", answer: "Uffa", explanation: "\"Uffa\" = impatience." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Damn], I've missed the train!", sentence: "___, ho perso il treno!", answer: "Accidenti", altAnswers: ["Mannaggia"], explanation: "\"Accidenti\" = damn (not rude)." },
-      { type: "multiple-choice", question: "A friend thanks you for a lift. What do you say?", options: ["Figurati!", "Magari!", "Uffa!", "Ma dai!"], correctIndex: 0, explanation: "After thanks: \"figurati\"." },
+      { type: "multiple-choice", question: "A friend thanks you for a ride. What do you say?", options: ["Figurati!", "Magari!", "Uffa!", "Ma dai!"], correctIndex: 0, explanation: "After thanks: \"figurati\"." },
       { type: "listen-choose", audio: "Andiamo in vacanza alle Maldive? Magari!", question: "What does the speaker mean?", options: ["I wish we could", "Of course not", "Maybe later", "What a shame"], correctIndex: 0, explanation: "\"Magari!\" alone = if only." },
       { type: "dictation", audio: "Che peccato! Ma come, non vieni alla festa?", explanation: "An exclamation and a \"ma\" question." },
       {
@@ -554,7 +571,7 @@ export const IT_B2_U15: Lesson[] = [
           { es: "Senti, stasera che facciamo?", en: "Listen, what shall we do tonight?" },
           { es: "Beh, insomma, poteva andare meglio.", en: "Well, all in all, it could have gone better." },
           { es: "Hai passato l'esame? Meno male!", en: "You passed the exam? Thank goodness!" },
-          { es: "Grazie, signora! Si figuri!", en: "Thank you, madam! Not at all!" },
+          { es: "Grazie, signora! Si figuri!", en: "Thank you, ma'am! Not at all!" },
           { es: "Ma sei sicura che sia chiuso?", en: "Are you really sure it's closed?" },
         ],
         checkpoint: [
@@ -571,7 +588,7 @@ export const IT_B2_U15: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Italian.",
-            source: "Thank you, madam! Not at all!",
+            source: "Thank you, ma'am! Not at all!",
             answer: "Grazie, signora! Si figuri!",
             altAnswers: ["Grazie, signora! Prego!", "Grazie, signora! Si figuri, di niente!"],
             explanation: "Formal \"si figuri\".",
@@ -580,13 +597,13 @@ export const IT_B2_U15: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Well, all in all, it could have gone better.", answer: "Beh, insomma, poteva andare meglio.", altAnswers: ["Beh, insomma, sarebbe potuta andare meglio.", "Insomma, poteva andare meglio."], explanation: "\"Beh\" + \"insomma\" = hesitant judgement." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Well, all in all, it could have gone better.", answer: "Beh, insomma, poteva andare meglio.", altAnswers: ["Beh, insomma, sarebbe potuta andare meglio.", "Insomma, poteva andare meglio."], explanation: "\"Beh\" + \"insomma\" = hesitant judgment." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You passed the exam? Thank goodness!", answer: "Hai passato l'esame? Meno male!", altAnswers: ["Hai superato l'esame? Meno male!"], explanation: "\"Meno male\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Are you really sure it's closed? (to a woman)", answer: "Ma sei sicura che sia chiuso?", altAnswers: ["Ma sei sicura che è chiuso?", "Sei sicura che sia chiuso?"], explanation: "\"Ma\" adds doubt; \"sicuro che\" + subjunctive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "So, are we leaving or not?", answer: "Allora, partiamo o no?", altAnswers: ["Insomma, partiamo o no?", "Allora, andiamo o no?", "Insomma, andiamo o no?"], explanation: "\"Insomma\" here = impatience." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Look, I don't agree. (to a friend)", answer: "Guarda, non sono d'accordo.", altAnswers: ["Senti, non sono d'accordo.", "Guarda, io non sono d'accordo."], explanation: "\"Guarda\" introduces an opinion." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Did he say sorry? As if!", answer: "Ti ha chiesto scusa? Figurati!", altAnswers: ["Ha chiesto scusa? Figurati!", "Si è scusato? Figurati!", "Ti ha chiesto scusa? Ma figurati!"], explanation: "\"Figurati!\" = of course not." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Are you going on holiday? I wish!", answer: "Vai in vacanza? Magari!", altAnswers: ["Vai in ferie? Magari!", "Parti per le vacanze? Magari!"], explanation: "\"Magari!\" = if only." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Are you going on vacation? I wish!", answer: "Vai in vacanza? Magari!", altAnswers: ["Vai in ferie? Magari!", "Parti per le vacanze? Magari!"], explanation: "\"Magari!\" = if only." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Damn, I forgot my keys!", answer: "Accidenti, ho dimenticato le chiavi!", altAnswers: ["Accidenti, mi sono dimenticato le chiavi!", "Accidenti, mi sono dimenticata le chiavi!", "Mannaggia, ho dimenticato le chiavi!"], explanation: "\"Accidenti\" = damn (polite enough)." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm coming at nine, I mean, around nine.", answer: "Vengo alle nove, cioè, verso le nove.", altAnswers: ["Vengo alle nove, cioè verso le nove.", "Arrivo alle nove, cioè, verso le nove.", "Arrivo alle nove, cioè verso le nove."], explanation: "\"Cioè\" = I mean." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[What a shame] you can't come!", sentence: "___ che non puoi venire!", answer: "Peccato", altAnswers: ["Che peccato"], explanation: "\"(Che) peccato che\" + clause." },
@@ -664,7 +681,7 @@ export const IT_B2_U15: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "That's why I'm leaving.", answer: "È per questo che parto.", altAnswers: ["È per questo che me ne vado.", "Per questo parto."], explanation: "\"È per questo che\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The tickets, [I bought them] online.", sentence: "I biglietti ___ online.", answer: "li ho comprati", explanation: "\"Li\" + \"comprati\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Who is it that] keeps calling?", sentence: "___ continua a chiamare?", answer: "Chi è che", explanation: "Cleft question." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[We're the ones who] have to apologise.", sentence: "___ dobbiamo scusarci.", answer: "Siamo noi che", explanation: "\"Siamo noi che\" + \"dobbiamo\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[We're the ones who] have to apologize.", sentence: "___ dobbiamo scusarci.", answer: "Siamo noi che", explanation: "\"Siamo noi che\" + \"dobbiamo\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[It was my father who] taught me to swim.", sentence: "___ insegnarmi a nuotare.", answer: "È stato mio padre a", explanation: "\"È stato\" + subject + \"a\"." },
       { type: "word-order", prompt: "Put the words in order to say: I've already told you about this.", words: ["Di", "questo", "te", "ne", "ho", "già", "parlato."], translation: "I've already told you about this.", explanation: "\"Te ne\" repeats \"di questo\"." },
       { type: "word-order", prompt: "Put the words in order to say: This is where I was born.", words: ["È", "qui", "che", "sono", "nato."], translation: "This is where I was born.", explanation: "Cleft with a place." },
@@ -730,7 +747,7 @@ export const IT_B2_U15: Lesson[] = [
         examples: [
           { es: "Il corso era piuttosto lungo.", en: "The course was rather long." },
           { es: "Non sono sicuro della data.", en: "I'm not sure about the date." },
-          { es: "Ho ricevuto il pacco ieri.", en: "I received the parcel yesterday." },
+          { es: "Ho ricevuto il pacco ieri.", en: "I received the package yesterday." },
           { es: "In sintesi, il servizio è stato soddisfacente.", en: "In short, the service was satisfactory." },
         ],
         checkpoint: [
@@ -746,8 +763,8 @@ export const IT_B2_U15: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"Il pacco l'ho ricevuto ieri\" in a formal email. Rewrite it in plain order: I received the parcel yesterday.",
-            source: "I received the parcel yesterday.",
+            prompt: "A learner wrote \"Il pacco l'ho ricevuto ieri\" in a formal email. Rewrite it in plain order: I received the package yesterday.",
+            source: "I received the package yesterday.",
             answer: "Ho ricevuto il pacco ieri.",
             altAnswers: ["Ieri ho ricevuto il pacco."],
             explanation: "Plain order in writing.",
@@ -795,7 +812,7 @@ export const IT_B2_U15: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "A learner told a friend \"Io ritengo che tu abbia ragione\". Say it naturally: I think you're right.", source: "I think you're right.", answer: "Secondo me hai ragione.", altAnswers: ["Penso che tu abbia ragione.", "Secondo me, hai ragione.", "Credo che tu abbia ragione."], explanation: "\"Secondo me\" is natural among friends." },
       { type: "fill-blank", prompt: "A learner wrote \"Ma è possibile cambiare la data?\" in a formal email. Write the Italian for the bold words.", en: "[Is it possible] to change the date?", sentence: "___ cambiare la data?", answer: "È possibile", altAnswers: ["Sarebbe possibile"], explanation: "Drop the \"ma\" in writing." },
       { type: "fill-blank", prompt: "A learner wrote \"tipo\" in an essay. Write the Italian for the bold words.", en: "The project, [that is to say] the new park, will cost a lot.", sentence: "Il progetto, ___ il nuovo parco, costerà molto.", answer: "ovvero", altAnswers: ["vale a dire", "ossia", "cioè"], explanation: "\"Ovvero\" or \"vale a dire\" sound more written; \"cioè\" is acceptable too." },
-      { type: "fill-blank", prompt: "A learner answered a friend's thanks with \"Non c'è di che\". Write the Italian for the bold words.", en: "\"Thanks for the lift!\" \"[Don't mention it!]\"", sentence: "\"Grazie del passaggio!\" \"___!\"", answer: "Figurati", altAnswers: ["Di niente", "Ma figurati"], explanation: "Warmer among friends." },
+      { type: "fill-blank", prompt: "A learner answered a friend's thanks with \"Non c'è di che\". Write the Italian for the bold words.", en: "\"Thanks for the ride!\" \"[Don't mention it!]\"", sentence: "\"Grazie del passaggio!\" \"___!\"", answer: "Figurati", altAnswers: ["Di niente", "Ma figurati"], explanation: "Warmer among friends." },
       { type: "multiple-choice", question: "Which sentence is right for a formal email?", options: ["Ho ricevuto il pacco ieri.", "Il pacco l'ho ricevuto ieri.", "L'ho ricevuto ieri, il pacco.", "Il pacco, tipo, l'ho ricevuto ieri."], correctIndex: 0, explanation: "Plain order in formal writing." },
       { type: "multiple-choice", question: "Which sentence would sound natural to a friend?", options: ["Guarda, secondo me sbagli.", "Mi permetto di farle notare che sbaglia.", "Ritengo che Lei sia in errore.", "Desidererei segnalarti un errore."], correctIndex: 0, explanation: "\"Guarda\" + \"secondo me\"." },
       { type: "listen-choose", audio: "A me mi sa che domani piove.", question: "How would you write this in standard Italian?", options: ["Secondo me domani piove.", "A me mi sembra domani piove.", "Mi me sa che domani piove.", "A me so che domani piove."], correctIndex: 0, explanation: "\"Mi sa che\" is colloquial; \"secondo me\" works everywhere." },
@@ -814,13 +831,13 @@ export const IT_B2_U15: Lesson[] = [
     level: "IT-B2",
     number: 8,
     title: "Listening Lab: A Real Conversation",
-    summary: "Follow a natural, overlapping conversation between three flatmates and pick out who says what.",
+    summary: "Follow a natural, overlapping conversation between three roommates and pick out who says what.",
     duration: "18 min",
     sections: [
       {
-        heading: "The flatmates' meeting",
+        heading: "The roommates' meeting",
         body: [
-          "Elena, Davide and Sofia share a flat in Bologna and are deciding who does what. In real speech, people interrupt, restart and leave sentences unfinished: \"No, aspetta, cioè...\", \"Sì, ma...\", \"Eh, appunto!\". Don't try to catch every word: follow the markers.",
+          "Elena, Davide and Sofia share an apartment in Bologna and are deciding who does what. In real speech, people interrupt, restart and leave sentences unfinished: \"No, aspetta, cioè...\", \"Sì, ma...\", \"Eh, appunto!\". Don't try to catch every word: follow the markers.",
           "\"Allora\" opens the meeting, \"aspetta\" or \"scusa\" interrupts, \"appunto\" agrees, \"sì, però\" objects, \"va be'\" gives up. These tell you who is winning the argument.",
         ],
         examples: [
@@ -854,7 +871,7 @@ export const IT_B2_U15: Lesson[] = [
         heading: "The deal",
         body: [
           "In the second part, they reach a deal. Listen for the cleft that settles who does what (\"Sei tu che...\", \"È Elena a...\") and the exclamations that close the discussion: \"Finalmente!\", \"Meno male!\", \"Perfetto, dai!\".",
-          "Notice the speed and the reductions: \"va be'\" for \"va bene\", \"'sta settimana\" for \"questa settimana\". Recognise them; don't write them.",
+          "Notice the speed and the reductions: \"va be'\" for \"va bene\", \"'sta settimana\" for \"questa settimana\". Recognize them; don't write them.",
         ],
         examples: [
           { es: "Questa settimana sei tu che pulisci la cucina, Davide.", en: "This week you're the one cleaning the kitchen, Davide." },
@@ -899,7 +916,7 @@ export const IT_B2_U15: Lesson[] = [
       {
         type: "speak",
         text: "Allora, facciamo così: questa settimana la cucina la pulisco io, e tu fai la spesa. Va bene?",
-        prompt: "Propose a deal to a flatmate: Right, let's do this: this week I'll clean the kitchen, and you do the shopping. OK?",
+        prompt: "Propose a deal to a roommate: Right, let's do this: this week I'll clean the kitchen, and you do the shopping. OK?",
         tip: "\"Facciamo così\": fat-CHA-mo ko-SÌ.",
         explanation: "\"Allora\" plus a dislocation.",
       },
@@ -1021,7 +1038,7 @@ export const IT_B2_U15: Lesson[] = [
       {
         heading: "Opening and news",
         body: [
-          "Your mission: write the script of a voice message (a \"vocale\") to a friend, then say it. Voice messages have a recognisable shape: greeting and marker (\"Ciao Marta, allora...\"), the news, a reaction or question, a plan, a goodbye.",
+          "Your mission: write the script of a voice message (a \"vocale\") to a friend, then say it. Voice messages have a recognizable shape: greeting and marker (\"Ciao Marta, allora...\"), the news, a reaction or question, a plan, a goodbye.",
           "Make it sound spoken: open with \"allora\" or \"senti\", use a dislocation (\"La cena la facciamo da me\"), react with an exclamation (\"Che bello!\"). But don't overdo it: two or three markers are natural, ten are not.",
         ],
         examples: [
@@ -1113,11 +1130,11 @@ export const IT_B2_U15_WRITING: WriteExercise = {
   minWords: 80,
   maxWords: 140,
   rubric: [
-    "Opens and organises the message with a few discourse markers (allora, senti, guarda, insomma, cioè) without overusing them",
+    "Opens and organizes the message with a few discourse markers (allora, senti, guarda, insomma, cioè) without overusing them",
     "Uses at least one left or right dislocation (la cena la facciamo da me; lo sai, di Paolo?) and one cleft (è stata lei a ..., è per questo che ...)",
     "Reacts with natural exclamations (che bello!, ma dai!, magari!, beato lui!) and closes with a request and a goodbye (fammi sapere, ci sentiamo)",
     "Stays informal with tu, but keeps grammar correct: no a me mi, no che polivalente",
   ],
   modelAnswer: "Ciao Fede! Allora, ti devo raccontare una cosa: mi hanno preso per il lavoro a Torino! Sì, quello che ti dicevo. Cioè, non ci credo ancora. È stata la mia ex collega a parlarmi del posto, quindi le devo una cena. Insomma, parto il primo marzo, ed è per questo che ti mando questo messaggio: prima di partire ci vediamo, no? Guarda, sabato sera sono libera. La pizza la offro io, ovviamente! Ah, dimenticavo: Giulia si è fidanzata, ma acqua in bocca, eh! Dai, fammi sapere quando puoi. Un bacio!",
-  explanation: "\"Allora\", \"cioè\", \"insomma\" and \"guarda\" organise the message. \"La pizza la offro io\" is a left dislocation; \"È stata la mia ex collega a parlarmi\" and \"è per questo che\" are clefts. \"Ah, dimenticavo\" adds the afterthought, and \"fammi sapere\" and \"un bacio\" close it.",
+  explanation: "\"Allora\", \"cioè\", \"insomma\" and \"guarda\" organize the message. \"La pizza la offro io\" is a left dislocation; \"È stata la mia ex collega a parlarmi\" and \"è per questo che\" are clefts. \"Ah, dimenticavo\" adds the afterthought, and \"fammi sapere\" and \"un bacio\" close it.",
 };

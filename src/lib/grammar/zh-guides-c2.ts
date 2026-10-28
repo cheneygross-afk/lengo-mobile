@@ -37,7 +37,7 @@ export const ZH_GUIDES_C2: ZhGrammarGuide[] = [
           "乃 (nǎi) is a literary 'is, is indeed': 胜败乃兵家常事 (victory and defeat are a normal part of war). It appears mainly in set phrases and elevated rhetoric.",
         ],
         examples: [
-          { zh: "农历正月初一，即春节，是中国最重要的节日。", pinyin: "Nónglì zhēngyuè chū yī, jí Chūn Jié, shì Zhōngguó zuì zhòngyào de jiérì.", en: "The first day of the first lunar month, that is, Spring Festival, is China's most important holiday." },
+          { zh: "农历正月初一，即春节，是中国最重要的节日。", pinyin: "Nónglì zhēngyuè chū yī, jí Chūnjié, shì Zhōngguó zuì zhòngyào de jiérì.", en: "The first day of the first lunar month, that is, Spring Festival, is China's most important holiday." },
           { zh: "失败乃成功之母。", pinyin: "Shībài nǎi chénggōng zhī mǔ.", en: "Failure is the mother of success." },
         ],
       },
@@ -132,7 +132,7 @@ export const ZH_GUIDES_C2: ZhGrammarGuide[] = [
       {
         heading: "之 as a pronoun and in fixed phrases",
         body: [
-          "Besides its C1 role as a written 的, 之 (zhī) can be an object pronoun meaning 'it, him, them': 取而代之 (take its place), 总而言之 (to sum it up), 久而久之 (over time), 置之不理 (ignore it). It also links a subject and verb into a noun phrase: 大道之行也.",
+          "Besides its C1 role as a written 的, 之 (zhī) can be an object pronoun meaning 'it, him, them': 取而代之 (take its place), 总而言之 (to sum it up), 久而久之 (over time), 置之不理 (ignore it). It also links a subject and verb into a noun phrase: 大道之行也 (when the Great Way prevails), where 之 turns 'the Great Way prevails' into 'the prevailing of the Great Way'.",
         ],
         examples: [
           { zh: "他每天熬夜，久而久之身体就垮了。", pinyin: "Tā měi tiān áo yè, jiǔ'érjiǔzhī shēntǐ jiù kuǎ le.", en: "He stayed up late every night, and over time his health broke down." },
@@ -147,7 +147,7 @@ export const ZH_GUIDES_C2: ZhGrammarGuide[] = [
         ],
         examples: [
           { zh: "杭州以西湖而闻名。", pinyin: "Hángzhōu yǐ Xīhú ér wénmíng.", en: "Hangzhou is famous for the West Lake." },
-          { zh: "比赛时间以通知为准。", pinyin: "Bǐsài shíjiān yǐ tōngzhī wéi zhǔn.", en: "The match times given in the notice are definitive." },
+          { zh: "比赛时间以通知为准。", pinyin: "Bǐsài shíjiān yǐ tōngzhī wéi zhǔn.", en: "For match times, the official notice is what counts." },
           { zh: "我们将增加班次，以满足乘客的需求。", pinyin: "Wǒmen jiāng zēngjiā bāncì, yǐ mǎnzú chéngkè de xūqiú.", en: "We will add more services to meet passenger demand." },
         ],
       },
@@ -212,7 +212,7 @@ export const ZH_GUIDES_C2: ZhGrammarGuide[] = [
       {
         heading: "则, 且, 亦, 皆 and 均",
         body: [
-          "则 (zé) means 'then' in conditions (如有问题，则应及时报告, if there is a problem, it should be reported promptly) and 'whereas, as for' in contrasts (前者重理论，后者则重实践). It follows the subject.",
+          "则 (zé) means 'then' in conditions (如有问题，则应及时报告, if there is a problem, it should be reported promptly) and 'whereas, as for' in contrasts (前者重理论，后者则重实践). In a contrast it comes after the second subject, right before the verb; in a condition it opens the result clause and can come before that clause's subject (若一方违约，则另一方有权终止合同), which 就 can't.",
           "且 (qiě) means 'and also, moreover': 既…且… (both … and), 并且, 而且. 亦 (yì) is the written 也. 皆 (jiē) and 均 (jūn) are the written 都: 人人皆知 (everyone knows), 均已完成 (all completed).",
         ],
         table: {
@@ -645,7 +645,7 @@ export const ZH_GUIDES_C2: ZhGrammarGuide[] = [
       {
         heading: "Reframing and conceding",
         body: [
-          "与其说 A，不如说 B (yǔqí shuō A, bùrú shuō B) means 'it's less A than B, it would be truer to say B': 与其说他是老师，不如说他是朋友. Unlike C1 与其…不如 (a choice between actions), this one is about how to describe something.",
+          "与其说 A，不如说 B (yǔqí shuō A, bùrú shuō B) means 'it's less A than B, it would be truer to say B': 与其说他是老师，不如说他是朋友. Unlike 与其…不如 (a choice between actions, C1), this one is about how to describe something; you met it briefly in the C1 与其 lesson, and at C2 it becomes a standard tool for correcting a label in an argument.",
           "诚然 (chéngrán) concedes a point before countering it, like a formal 固然: 诚然，…，但是…. 不可否认 (bùkě fǒurèn, it's undeniable that) and 尽管如此 (jǐnguǎn rúcǐ, even so) serve the same structure.",
         ],
         examples: [
@@ -669,7 +669,7 @@ export const ZH_GUIDES_C2: ZhGrammarGuide[] = [
         heading: "Rebutting and concluding",
         body: [
           "To disagree politely in writing: 此说法值得商榷 (this view is open to debate), 这种观点忽略了… (this view overlooks…). Avoid blunt 这是错的 in academic prose.",
-          "To conclude: 由此可见 (from this it can be seen), 综上所述 (zōngshàng suǒ shù, to sum up the above), 总而言之 (in short), 因此我们认为… (we therefore conclude…). 综上所述 can only open the final paragraph, after the evidence.",
+          "To conclude: 由此可见 (from this it can be seen), 综上所述 (zōngshàng suǒ shù, to sum up the above), 总而言之 (in short), 因此我们认为… (we therefore conclude…). 综上所述 belongs at the start of the conclusion, after the evidence: it sums up what has already been said.",
         ],
         examples: [
           { zh: "综上所述，保护环境需要每个人的参与。", pinyin: "Zōngshàng suǒ shù, bǎohù huánjìng xūyào měi ge rén de cānyù.", en: "To sum up, protecting the environment requires everyone's participation." },
@@ -725,7 +725,7 @@ export const ZH_GUIDES_C2: ZhGrammarGuide[] = [
       {
         heading: "Southern Mandarin features",
         body: [
-          "有 + verb for a completed action: 我有去过 (I did go) instead of 我去过. 先 at the end of a clause, from Cantonese: 你走先 (you go first) for 你先走. 给 used as a passive or causative, as in Cantonese and Min: 别给他跑了 (don't let him get away). 好 + adjective / verb as a strong 'very': 好开心. Speakers also often merge zh / z, ch / c, sh / s and n / l.",
+          "有 + verb for a completed action: 我有去过 (I did go) instead of 我去过. 先 at the end of a clause, from Cantonese: 你走先 (you go first) for 你先走. 给 for causative 让 'let', as in Cantonese and Min: 别给他跑了 (don't let him get away); 给 as a passive marker (钱包给偷了), by contrast, is ordinary colloquial Mandarin everywhere. 好 + adjective for a plain 'very' in ordinary statements (今天好开心, 这个好好吃), where northern speech prefers 很 or 真 and keeps 好 mostly for exclamations (好漂亮啊！). Speakers also often merge zh / z, ch / c, sh / s and n / l.",
         ],
         table: {
           headers: ["Southern usage", "Standard Mandarin", "Meaning"],
@@ -751,7 +751,7 @@ export const ZH_GUIDES_C2: ZhGrammarGuide[] = [
       {
         heading: "Colloquial frames",
         body: [
-          "Spoken Mandarin has productive frames with repeated or paired verbs. V来V去 (想来想去, after thinking it over and over): repeated action without result. 东 V 西 V (东找西找, search all over): scattered action. 不 V 白不 V (不吃白不吃, it's free, so you'd be a fool not to): taking advantage of something free. 越 V 越… and 一 V 就… you already know.",
+          "Spoken Mandarin has productive frames with repeated or paired verbs. V来V去 (想来想去, after thinking it over and over): repeated back-and-forth action, often getting nowhere or leading up to a conclusion (想来想去，还是决定不去). 东 V 西 V (东找西找, search all over): scattered action. 不 V 白不 V (不吃白不吃, it's free, so you'd be a fool not to): taking advantage of something free. 越 V 越… and 一 V 就… you already know.",
         ],
         examples: [
           { zh: "我想来想去，还是决定不去了。", pinyin: "Wǒ xiǎng lái xiǎng qù, háishi juédìng bú qù le.", en: "After thinking it over and over, I decided not to go after all." },
@@ -773,10 +773,10 @@ export const ZH_GUIDES_C2: ZhGrammarGuide[] = [
         why: "Final 先 comes from Cantonese. Standard Mandarin puts 先 before the verb.",
       },
       {
-        wrong: "我找来找去找到了。",
-        right: "我找来找去也没找到。",
-        rightPinyin: "Wǒ zhǎo lái zhǎo qù yě méi zhǎodào.",
-        why: "V来V去 implies repeated effort without a clear result. With a successful outcome, say 找了半天，终于找到了.",
+        wrong: "反正是免费的，不吃不白吃。",
+        right: "反正是免费的，不吃白不吃。",
+        rightPinyin: "Fǎnzhèng shì miǎnfèi de, bù chī bái bù chī.",
+        why: "The frame is 不 V 白不 V: 白 ('for nothing, a wasted chance') sits right before the second 不, so it reads 'not eating = wasting the chance'. Moving 白 after 不 breaks the fixed frame, a common slip because English 'you'd be a fool not to' has no matching word order.",
       },
     ],
     faqs: [

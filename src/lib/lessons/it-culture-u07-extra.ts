@@ -115,7 +115,7 @@ export const IT_CULTURE_U07_EXTRA: Lesson[] = [
         ],
         explanation: "Pop music vocabulary.",
       },
-      { type: "multiple-choice", question: "Where is the free Concertone held every 1 May?", options: ["in Piazza San Giovanni in Rome", "in the Arena di Verona", "at La Scala", "in Sanremo"], correctIndex: 0, explanation: "It is organized by the unions for Labor Day." },
+      { type: "multiple-choice", question: "In which city is the free Concertone held every 1 May?", options: ["in Rome", "in Verona", "in Milan", "in Sanremo"], correctIndex: 0, explanation: "The unions organize it for Labor Day, traditionally in Piazza San Giovanni." },
       { type: "listen-choose", audio: "Abbiamo ballato fino alle due di notte.", question: "What did they do?", options: ["They danced until 2 a.m.", "They slept until 2 p.m.", "They sang for two hours.", "They left at two."], correctIndex: 0, explanation: "\"Ballare\" = to dance." },
       { type: "dictation", audio: "Hai sentito la nuova canzone?", explanation: "\"Canzone\": z sounds like ts." },
       { type: "speak", text: "Questa canzone mi è rimasta in testa e non riesco a smettere di cantarla.", prompt: "Say it in Italian: This song got stuck in my head and I can't stop singing it.", tip: "\"Riesco\": ri-ES-co.", explanation: "\"Riuscire a\" = to manage to." },

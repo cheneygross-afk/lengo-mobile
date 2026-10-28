@@ -17,20 +17,20 @@ export const IT_B2_U26: Lesson[] = [
       {
         heading: "Verb + noun: tools and objects",
         body: [
-          "Italian builds many everyday words by joining a verb stem and a noun: \"apri-\" + \"scatole\" gives \"l'apriscatole\" (tin opener), \"cava-\" + \"tappi\" gives \"il cavatappi\" (corkscrew), \"asciuga-\" + \"capelli\" gives \"l'asciugacapelli\" (hairdryer). The verb part is the \"tu\" imperative form, and the whole word is usually masculine, whatever the gender of the noun inside: \"il portacenere\" (ashtray), although \"la cenere\" is feminine.",
-          "These compounds are easy to guess once you know the verb: \"lo stuzzicadenti\" (toothpick: \"stuzzicare\", to poke, + \"denti\"), \"il portaombrelli\" (umbrella stand), \"il tagliaerba\" (lawnmower). The stem \"porta-\" (carries, holds) is especially productive: \"il portachiavi\" (keyring), \"il portamonete\" (coin purse), \"il portapenne\" (pencil case).",
+          "Italian builds many everyday words by joining a verb stem and a noun: \"apri-\" + \"scatole\" gives \"l'apriscatole\" (can opener), \"cava-\" + \"tappi\" gives \"il cavatappi\" (corkscrew), \"asciuga-\" + \"capelli\" gives \"l'asciugacapelli\" (hairdryer). The verb part is the \"tu\" imperative form, and the whole word is usually masculine, whatever the gender of the noun inside: \"il portacenere\" (ashtray), although \"la cenere\" is feminine.",
+          "These compounds are easy to guess once you know the verb: \"lo stuzzicadenti\" (toothpick: \"stuzzicare\", to poke, + \"denti\"), \"il portaombrelli\" (umbrella stand), \"il tagliaerba\" (lawnmower). The stem \"porta-\" (carries, holds) is especially productive: \"il portachiavi\" (key ring), \"il portamonete\" (coin purse), \"il portapenne\" (pencil case).",
           "If the noun inside is already plural, the compound doesn't change in the plural: \"il cavatappi\" → \"i cavatappi\", \"l'apriscatole\" → \"gli apriscatole\", \"la lavastoviglie\" → \"le lavastoviglie\" (one of the few feminine ones, from \"la macchina lavastoviglie\").",
         ],
         examples: [
           { es: "Hai visto il cavatappi? Non riesco ad aprire il vino.", en: "Have you seen the corkscrew? I can't open the wine." },
           { es: "In albergo c'era l'asciugacapelli in bagno.", en: "At the hotel there was a hairdryer in the bathroom." },
-          { es: "Abbiamo due apriscatole, ma nessuno funziona.", en: "We have two tin openers, but neither works." },
+          { es: "Abbiamo due apriscatole, ma nessuno funziona.", en: "We have two can openers, but neither works." },
           { es: "Metti i piatti nella lavastoviglie.", en: "Put the plates in the dishwasher." },
-          { es: "I portachiavi erano in offerta al mercato.", en: "The keyrings were on offer at the market." },
+          { es: "I portachiavi erano in offerta al mercato.", en: "The key rings were on sale at the market." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Have you seen the corkscrew? (to a friend)", answer: "Hai visto il cavatappi?", explanation: "\"Cava-\" (cavare, to pull out) + \"tappi\" (corks)." },
-          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "We have two [tin openers].", sentence: "Abbiamo due ___.", answer: "apriscatole", explanation: "The noun inside is plural, so the compound doesn't change." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "We have two [can openers].", sentence: "Abbiamo due ___.", answer: "apriscatole", explanation: "The noun inside is plural, so the compound doesn't change." },
           { type: "multiple-choice", question: "What's the plural of \"il cavatappi\"?", options: ["i cavatappi", "i cavatappis", "i cavatappii", "le cavatappi"], correctIndex: 0, explanation: "Invariable: the noun part is already plural." },
         ],
       },
@@ -39,19 +39,19 @@ export const IT_B2_U26: Lesson[] = [
         body: [
           "When the noun inside is masculine singular, the compound takes a normal plural: \"il grattacielo\" → \"i grattacieli\" (skyscrapers), \"il passaporto\" → \"i passaporti\", \"il portafoglio\" → \"i portafogli\". When it's feminine singular, the compound is invariable: \"l'aspirapolvere\" → \"gli aspirapolvere\" (vacuum cleaners), \"il portacenere\" → \"i portacenere\" (ashtrays).",
           "Noun + noun compounds usually change only the end: \"l'arcobaleno\" → \"gli arcobaleni\", \"il capolavoro\" → \"i capolavori\" (masterpieces). Noun + adjective compounds change both parts: \"la cassaforte\" → \"le casseforti\" (safes).",
-          "A few compounds are written as two separate words: \"la parola chiave\" → \"le parole chiave\" (keywords), \"il treno merci\" → \"i treni merci\" (goods trains), \"la pausa pranzo\" → \"le pause pranzo\". Here only the first noun takes the plural, because the second one works like a description.",
+          "A few compounds are written as two separate words: \"la parola chiave\" → \"le parole chiave\" (keywords), \"il treno merci\" → \"i treni merci\" (freight trains), \"la pausa pranzo\" → \"le pause pranzo\". Here only the first noun takes the plural, because the second one works like a description.",
         ],
         examples: [
           { es: "New York è famosa per i grattacieli.", en: "New York is famous for its skyscrapers." },
           { es: "Ho perso il portafoglio con tutti i documenti.", en: "I lost my wallet with all my documents." },
           { es: "Al controllo ci chiesero i passaporti.", en: "At the check they asked for our passports." },
           { es: "Gli Uffizi sono pieni di capolavori.", en: "The Uffizi is full of masterpieces." },
-          { es: "Le casseforti delle camere sono nell'armadio.", en: "The room safes are in the wardrobe." },
+          { es: "Le casseforti delle camere sono nell'armadio.", en: "The room safes are in the closet." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I lost my wallet.", answer: "Ho perso il portafoglio.", altAnswers: ["Ho perso il mio portafoglio.", "Ho perso il portafogli."], explanation: "\"Il portafoglio\": plural \"i portafogli\"." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The Uffizi is full of masterpieces.", answer: "Gli Uffizi sono pieni di capolavori.", altAnswers: ["Gli Uffizi sono pieni zeppi di capolavori.", "La Galleria degli Uffizi è piena di capolavori."], explanation: "\"Gli Uffizi\" is plural; \"capolavoro\" → \"capolavori\"." },
-          { type: "listen-choose", audio: "Le casseforti delle camere sono nell'armadio.", question: "Where are the safes?", options: ["in the wardrobe", "at reception", "under the bed", "in the bathroom"], correctIndex: 0, explanation: "\"Nell'armadio\"; \"casseforti\" changes both parts." },
+          { type: "listen-choose", audio: "Le casseforti delle camere sono nell'armadio.", question: "Where are the safes?", options: ["in the closet", "at reception", "under the bed", "in the bathroom"], correctIndex: 0, explanation: "\"Nell'armadio\"; \"casseforti\" changes both parts." },
         ],
       },
       {
@@ -82,13 +82,13 @@ export const IT_B2_U26: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "There are two [rainbows] in the sky!", sentence: "Ci sono due ___ nel cielo!", answer: "arcobaleni", explanation: "Noun + noun: only the end changes." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The room [safes] don't work.", sentence: "Le ___ delle camere non funzionano.", answer: "casseforti", explanation: "Noun + adjective: both parts change." },
       { type: "word-order", prompt: "Put the words in order to say: At the hotel there was a hairdryer in the bathroom.", words: ["In albergo", "c'era", "l'asciugacapelli", "in bagno."], translation: "At the hotel there was a hairdryer in the bathroom.", explanation: "\"Asciuga-\" + \"capelli\"." },
-      { type: "matching", instructions: "Match the compound to its meaning.", pairs: [{ left: "il cavatappi", right: "corkscrew" }, { left: "l'apriscatole", right: "tin opener" }, { left: "il grattacielo", right: "skyscraper" }, { left: "il portafoglio", right: "wallet" }, { left: "il capolavoro", right: "masterpiece" }], explanation: "Verb + noun and noun + noun compounds." },
+      { type: "matching", instructions: "Match the compound to its meaning.", pairs: [{ left: "il cavatappi", right: "corkscrew" }, { left: "l'apriscatole", right: "can opener" }, { left: "il grattacielo", right: "skyscraper" }, { left: "il portafoglio", right: "wallet" }, { left: "il capolavoro", right: "masterpiece" }], explanation: "Verb + noun and noun + noun compounds." },
       { type: "dictation", audio: "Ho perso il portafoglio e i passaporti alla stazione.", explanation: "\"Passaporti\": regular plural." },
-      { type: "speak", text: "Gli asciugacapelli e gli apriscatole non cambiano al plurale.", prompt: "State the rule: Hairdryers and tin openers don't change in the plural.", tip: "a-sciu-ga-CA-pel-li: stress on the noun part.", explanation: "Invariable compounds." },
+      { type: "speak", text: "Gli asciugacapelli e gli apriscatole non cambiano al plurale.", prompt: "State the rule: Hairdryers and can openers don't change in the plural.", tip: "a-sciu-ga-CA-pel-li: stress on the noun part.", explanation: "Invariable compounds." },
     ],
   },
   {
-    slug: "b2-nominalisation-verbs",
+    slug: "b2-nominalization-verbs",
     level: "IT-B2",
     number: 2,
     title: "Verbs into Nouns",
@@ -124,15 +124,15 @@ export const IT_B2_U26: Lesson[] = [
         ],
         examples: [
           { es: "La crescita economica è stata lenta.", en: "Economic growth has been slow." },
-          { es: "Le vendite sono calate del dieci per cento.", en: "Sales have fallen by ten per cent." },
-          { es: "La chiusura del negozio è prevista per giugno.", en: "The closure of the shop is planned for June." },
+          { es: "Le vendite sono calate del dieci per cento.", en: "Sales have fallen by ten percent." },
+          { es: "La chiusura del negozio è prevista per giugno.", en: "The closure of the store is planned for June." },
           { es: "Hai fatto una buona scelta.", en: "You made a good choice." },
           { es: "Le spese di spedizione sono incluse.", en: "Shipping costs are included." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Economic growth has been slow.", answer: "La crescita economica è stata lenta.", explanation: "\"Crescere\" → \"la crescita\"." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You made a good choice. (to a friend)", answer: "Hai fatto una buona scelta.", altAnswers: ["Hai fatto un'ottima scelta."], explanation: "\"Scegliere\" → \"scelto\" → \"la scelta\"." },
-          { type: "listen-choose", audio: "Le vendite sono calate del dieci per cento.", question: "What happened to sales?", options: ["They fell by ten per cent.", "They rose by ten per cent.", "They fell by two per cent.", "They stayed the same."], correctIndex: 0, explanation: "\"Calare\" = to fall; \"del\" for the amount." },
+          { type: "listen-choose", audio: "Le vendite sono calate del dieci per cento.", question: "What happened to sales?", options: ["They fell by ten percent.", "They rose by ten percent.", "They fell by two percent.", "They stayed the same."], correctIndex: 0, explanation: "\"Calare\" = to fall; \"del\" for the amount." },
         ],
       },
       {
@@ -156,7 +156,7 @@ export const IT_B2_U26: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Payment must be made by the end of the month.", answer: "Il pagamento va effettuato entro fine mese.", altAnswers: ["Il pagamento va effettuato entro la fine del mese.", "Il pagamento deve essere effettuato entro fine mese.", "Il pagamento va fatto entro fine mese."], explanation: "\"Pagare\" → \"il pagamento\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The tax cut has been postponed.", answer: "La riduzione delle tasse è stata rinviata.", altAnswers: ["La riduzione delle tasse è stata rimandata.", "Il taglio delle tasse è stato rinviato."], explanation: "\"Ridurre\" → \"la riduzione\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The closure of the shop is planned for June.", answer: "La chiusura del negozio è prevista per giugno.", altAnswers: ["La chiusura del negozio è prevista a giugno."], explanation: "\"Chiudere\" → \"la chiusura\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The closure of the store is planned for June.", answer: "La chiusura del negozio è prevista per giugno.", altAnswers: ["La chiusura del negozio è prevista a giugno."], explanation: "\"Chiudere\" → \"la chiusura\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Shipping costs are included.", answer: "Le spese di spedizione sono incluse.", altAnswers: ["Le spese di spedizione sono comprese."], explanation: "\"Spendere\" → \"la spesa\"; plural \"le spese\" = costs." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The birth of the baby changed everything.", answer: "La nascita del bambino ha cambiato tutto.", altAnswers: ["La nascita della bambina ha cambiato tutto."], explanation: "\"Nascere\" → \"la nascita\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The company has recorded a loss.", answer: "L'azienda ha registrato una perdita.", altAnswers: ["La società ha registrato una perdita.", "L'azienda ha avuto una perdita."], explanation: "\"Perdere\" → \"la perdita\"." },
@@ -169,7 +169,7 @@ export const IT_B2_U26: Lesson[] = [
     ],
   },
   {
-    slug: "b2-nominalisation-adjectives",
+    slug: "b2-nominalization-adjectives",
     level: "IT-B2",
     number: 3,
     title: "Adjectives into Nouns",
@@ -182,6 +182,7 @@ export const IT_B2_U26: Lesson[] = [
           "The ending \"-ità\" makes feminine, invariable nouns with a stressed final syllable: \"felice\" → \"la felicità\", \"libero\" → \"la libertà\", \"facile\" → \"la facilità\", \"serio\" → \"la serietà\", \"possibile\" → \"la possibilità\", \"utile\" → \"l'utilità\", \"vero\" → \"la verità\". The plural is the same: \"le possibilità\".",
           "The final \"à\" always has an accent, and many of these words look like English nouns in -ity: \"l'università\", \"la qualità\", \"la quantità\", \"la curiosità\". That makes them easy to understand, but beware of false friends: \"la sensibilità\" is sensitivity, and \"la comodità\" is comfort or convenience, not a commodity (\"una merce\").",
           "Adjectives in \"-bile\" become \"-bilità\": \"responsabile\" → \"la responsabilità\", \"disponibile\" → \"la disponibilità\" (availability, willingness).",
+          "Watch the article. When English uses an abstract noun in a general sense, it drops the article; Italian keeps it: \"la libertà è preziosa\" (freedom is precious), \"la pazienza è una virtù\" (patience is a virtue), \"la verità fa male\" (the truth hurts, where English happens to keep it). Leave the article out only after \"con\", \"senza\" and \"per\" in set phrases: \"con pazienza\", \"senza difficoltà\", \"per curiosità\".",
         ],
         examples: [
           { es: "La libertà di stampa è un diritto fondamentale.", en: "Freedom of the press is a fundamental right." },
@@ -285,14 +286,14 @@ export const IT_B2_U26: Lesson[] = [
         ],
         examples: [
           { es: "In seguito alla decisione del governo, le scuole resteranno chiuse.", en: "Following the government's decision, schools will remain closed." },
-          { es: "A causa dello sciopero, molti treni sono stati cancellati.", en: "Because of the strike, many trains were cancelled." },
+          { es: "A causa dello sciopero, molti treni sono stati cancellati.", en: "Because of the strike, many trains were canceled." },
           { es: "In caso di pioggia, il concerto si terrà al chiuso.", en: "If it rains, the concert will be held indoors." },
           { es: "In vista dell'estate, il Comune ha aumentato i controlli.", en: "Ahead of the summer, the council has stepped up checks." },
           { es: "Grazie all'intervento dei vigili del fuoco, nessuno è rimasto ferito.", en: "Thanks to the firefighters, nobody was hurt." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian, in nominal style.", source: "If it rains, the concert will be held indoors.", answer: "In caso di pioggia, il concerto si terrà al chiuso.", altAnswers: ["In caso di pioggia il concerto si terrà al chiuso.", "In caso di maltempo, il concerto si terrà al chiuso."], explanation: "\"Se piove\" → \"in caso di pioggia\"." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian, in nominal style.", source: "Because of the strike, many trains were cancelled.", answer: "A causa dello sciopero, molti treni sono stati cancellati.", altAnswers: ["A causa dello sciopero, molti treni sono stati soppressi.", "A causa dello sciopero molti treni sono stati cancellati."], explanation: "\"A causa di\" + noun." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian, in nominal style.", source: "Because of the strike, many trains were canceled.", answer: "A causa dello sciopero, molti treni sono stati cancellati.", altAnswers: ["A causa dello sciopero, molti treni sono stati soppressi.", "A causa dello sciopero molti treni sono stati cancellati."], explanation: "\"A causa di\" + noun." },
           { type: "listen-choose", audio: "In seguito alla decisione del governo, le scuole resteranno chiuse.", question: "Why will schools stay closed?", options: ["because the government decided so", "because of a strike", "because of the weather", "because of repairs"], correctIndex: 0, explanation: "\"In seguito alla decisione del governo\"." },
         ],
       },
@@ -303,13 +304,13 @@ export const IT_B2_U26: Lesson[] = [
           "Typical headline vocabulary: \"il via libera\" (the green light), \"lo stop\" (halt), \"la stretta su\" (crackdown on), \"il caos\". A comma or a colon separates topic and news: \"Treni, nuovo sciopero venerdì\", \"Scuola: via libera alla riforma\". To read headlines, mentally put the verb back: \"è stato dato il via libera alla riforma\".",
         ],
         examples: [
-          { es: "Chiusura dell'autostrada per lavori nel fine settimana.", en: "Motorway closed for roadworks at the weekend." },
-          { es: "Rinvio della partita per maltempo.", en: "Match postponed because of bad weather." },
+          { es: "Chiusura dell'autostrada per lavori nel fine settimana.", en: "Highway closed for road work on the weekend." },
+          { es: "Rinvio della partita per maltempo.", en: "Game postponed because of bad weather." },
           { es: "È prevista la riapertura della biblioteca a settembre.", en: "The library is expected to reopen in September." },
           { es: "È vietata la sosta su entrambi i lati.", en: "Parking is prohibited on both sides." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian, as a headline.", source: "Match postponed because of bad weather.", answer: "Rinvio della partita per maltempo.", altAnswers: ["Partita rinviata per maltempo.", "Rinvio della partita a causa del maltempo."], explanation: "Headline style: noun, no verb." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian, as a headline.", source: "Game postponed because of bad weather.", answer: "Rinvio della partita per maltempo.", altAnswers: ["Partita rinviata per maltempo.", "Rinvio della partita a causa del maltempo."], explanation: "Headline style: noun, no verb." },
           { type: "speak", text: "È prevista la riapertura della biblioteca a settembre.", prompt: "Read the notice: The library is expected to reopen in September.", tip: "ri-a-per-TU-ra: stress on tu.", explanation: "\"È prevista\" + noun." },
         ],
       },
@@ -319,7 +320,7 @@ export const IT_B2_U26: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, in nominal style.", source: "While the bridge is being built, the road will stay closed.", answer: "Durante la costruzione del ponte, la strada resterà chiusa.", altAnswers: ["Durante la costruzione del ponte la strada resterà chiusa.", "Durante i lavori di costruzione del ponte, la strada resterà chiusa.", "Durante la costruzione del ponte, la strada rimarrà chiusa."], explanation: "\"Durante\" + noun." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, in nominal style.", source: "Following the government's decision, schools will remain closed.", answer: "In seguito alla decisione del governo, le scuole resteranno chiuse.", altAnswers: ["In seguito alla decisione del governo le scuole resteranno chiuse.", "In seguito alla decisione del governo, le scuole rimarranno chiuse."], explanation: "\"In seguito a\" = following." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, in nominal style.", source: "Thanks to the firefighters, nobody was hurt.", answer: "Grazie all'intervento dei vigili del fuoco, nessuno è rimasto ferito.", altAnswers: ["Grazie ai vigili del fuoco, nessuno è rimasto ferito.", "Grazie all'intervento dei pompieri, nessuno è rimasto ferito."], explanation: "\"L'intervento\" makes the action a noun." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian, as a headline.", source: "Motorway closed for roadworks.", answer: "Chiusura dell'autostrada per lavori.", altAnswers: ["Autostrada chiusa per lavori."], explanation: "Headline: noun phrase." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian, as a headline.", source: "Highway closed for road work.", answer: "Chiusura dell'autostrada per lavori.", altAnswers: ["Autostrada chiusa per lavori."], explanation: "Headline: noun phrase." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, as a notice.", source: "Parking is prohibited on both sides.", answer: "È vietata la sosta su entrambi i lati.", altAnswers: ["Divieto di sosta su entrambi i lati.", "Sosta vietata su entrambi i lati."], explanation: "\"La sosta\" from \"sostare\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words, in nominal style.", en: "[When it is signed], the contract becomes valid.", sentence: "___, il contratto diventa valido.", answer: "Al momento della firma", explanation: "\"Al momento di\" + noun." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words, in nominal style.", en: "[Ahead of the summer], checks have been stepped up.", sentence: "___, sono stati aumentati i controlli.", answer: "In vista dell'estate", explanation: "\"In vista di\" = in view of, ahead of." },
@@ -419,13 +420,13 @@ export const IT_B2_U26: Lesson[] = [
           "Pattern: \"perché\" + verb → \"per\" / \"a causa di\" + noun; \"per\" + infinitive → \"per\" / \"ai fini di\" + noun. \"Per ridurre i costi\" → \"per la riduzione dei costi\"; \"per iscriversi\" → \"ai fini dell'iscrizione\" (bureaucratic).",
         ],
         examples: [
-          { es: "Il negozio è chiuso per ferie.", en: "The shop is closed for the holidays." },
-          { es: "Sono necessari due documenti ai fini dell'iscrizione.", en: "Two documents are needed to enrol." },
-          { es: "Il volo è stato cancellato per un guasto tecnico.", en: "The flight was cancelled because of a technical fault." },
+          { es: "Il negozio è chiuso per ferie.", en: "The store is closed for vacation." },
+          { es: "Sono necessari due documenti ai fini dell'iscrizione.", en: "Two documents are needed to enroll." },
+          { es: "Il volo è stato cancellato per un guasto tecnico.", en: "The flight was canceled because of a technical fault." },
           { es: "Il piano prevede la riduzione dei costi.", en: "The plan involves cutting costs." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian, in nominal style.", source: "The flight was cancelled because of a technical fault.", answer: "Il volo è stato cancellato per un guasto tecnico.", altAnswers: ["Il volo è stato cancellato a causa di un guasto tecnico."], explanation: "\"Per\" + noun for the cause." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian, in nominal style.", source: "The flight was canceled because of a technical fault.", answer: "Il volo è stato cancellato per un guasto tecnico.", altAnswers: ["Il volo è stato cancellato a causa di un guasto tecnico."], explanation: "\"Per\" + noun for the cause." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian, in nominal style.", source: "The plan involves cutting costs.", answer: "Il piano prevede la riduzione dei costi.", altAnswers: ["Il piano prevede il taglio dei costi."], explanation: "\"Prevedere\" + noun." },
         ],
       },
@@ -433,8 +434,8 @@ export const IT_B2_U26: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, in nominal style.", source: "After the polling stations close, the count begins.", answer: "Dopo la chiusura dei seggi, inizia lo spoglio.", altAnswers: ["Dopo la chiusura dei seggi inizia lo spoglio.", "Dopo la chiusura dei seggi, comincia lo spoglio."], explanation: "\"Chiudere\" → \"la chiusura\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, in nominal style.", source: "Photography is forbidden during the visit.", answer: "Durante la visita è vietato fotografare.", altAnswers: ["Durante la visita è vietato scattare fotografie.", "Durante la visita è vietato fare fotografie."], explanation: "\"Durante\" + noun." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian, in nominal style.", source: "The shop is closed for the holidays.", answer: "Il negozio è chiuso per ferie.", explanation: "\"Per ferie\": a fixed notice phrase." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian, in nominal style.", source: "Two documents are needed to enrol.", answer: "Sono necessari due documenti ai fini dell'iscrizione.", altAnswers: ["Sono necessari due documenti per l'iscrizione.", "Per l'iscrizione sono necessari due documenti."], explanation: "\"Iscriversi\" → \"l'iscrizione\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian, in nominal style.", source: "The store is closed for vacation.", answer: "Il negozio è chiuso per ferie.", explanation: "\"Per ferie\": a fixed notice phrase." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian, in nominal style.", source: "Two documents are needed to enroll.", answer: "Sono necessari due documenti ai fini dell'iscrizione.", altAnswers: ["Sono necessari due documenti per l'iscrizione.", "Per l'iscrizione sono necessari due documenti."], explanation: "\"Iscriversi\" → \"l'iscrizione\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, in nominal style.", source: "When the results are published, we will contact you.", answer: "Alla pubblicazione dei risultati, La contatteremo.", altAnswers: ["Alla pubblicazione dei risultati, la contatteremo.", "Dopo la pubblicazione dei risultati, La contatteremo.", "Dopo la pubblicazione dei risultati, la contatteremo.", "Al momento della pubblicazione dei risultati, La contatteremo."], explanation: "\"Pubblicare\" → \"la pubblicazione\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, in nominal style.", source: "Following the complaints, the price was lowered.", answer: "In seguito ai reclami, il prezzo è stato abbassato.", altAnswers: ["In seguito alle lamentele, il prezzo è stato abbassato.", "In seguito ai reclami il prezzo è stato ridotto."], explanation: "\"In seguito a\" + noun." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, in nominal style.", source: "Because the road is being repaired, buses will take a detour.", answer: "Per lavori di riparazione della strada, gli autobus faranno una deviazione.", altAnswers: ["A causa della riparazione della strada, gli autobus faranno una deviazione.", "Per la riparazione della strada, gli autobus faranno una deviazione.", "A causa dei lavori sulla strada, gli autobus faranno una deviazione."], explanation: "\"Riparare\" → \"la riparazione\"; \"deviare\" → \"la deviazione\"." },
@@ -463,7 +464,7 @@ export const IT_B2_U26: Lesson[] = [
         ],
         examples: [
           { es: "Nel cassetto ci sono due portafogli vecchi.", en: "There are two old wallets in the drawer." },
-          { es: "Gli apriscatole sono nel secondo cassetto.", en: "The tin openers are in the second drawer." },
+          { es: "Gli apriscatole sono nel secondo cassetto.", en: "The can openers are in the second drawer." },
           { es: "I capistazione hanno scioperato ieri.", en: "The station masters went on strike yesterday." },
           { es: "Le casseforti sono state forzate.", en: "The safes were broken into." },
         ],
@@ -499,7 +500,7 @@ export const IT_B2_U26: Lesson[] = [
         examples: [
           { es: "La felicità non si compra.", en: "Happiness can't be bought." },
           { es: "La bellezza salverà il mondo, dicono.", en: "Beauty will save the world, they say." },
-          { es: "Il 25 aprile si festeggia la Liberazione.", en: "On 25 April Italy celebrates Liberation Day." },
+          { es: "Il 25 aprile si festeggia la Liberazione.", en: "On April 25 Italy celebrates Liberation Day." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Happiness can't be bought.", answer: "La felicità non si compra.", altAnswers: ["La felicità non si può comprare."], explanation: "\"Felice\" → \"la felicità\"." },
@@ -508,7 +509,7 @@ export const IT_B2_U26: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The tin openers are in the second drawer.", answer: "Gli apriscatole sono nel secondo cassetto.", explanation: "Invariable compound." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The can openers are in the second drawer.", answer: "Gli apriscatole sono nel secondo cassetto.", explanation: "Invariable compound." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The station masters went on strike yesterday.", answer: "I capistazione hanno scioperato ieri.", altAnswers: ["Ieri i capistazione hanno scioperato.", "I capistazione ieri hanno scioperato."], explanation: "People: \"capi\" + \"stazione\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Milan has many skyscrapers now.", answer: "Milano ha molti grattacieli ormai.", altAnswers: ["Ormai Milano ha molti grattacieli.", "Adesso Milano ha molti grattacieli.", "Milano ora ha molti grattacieli."], explanation: "\"Grattacielo\" → \"grattacieli\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm still waiting for an answer.", answer: "Aspetto ancora una risposta.", altAnswers: ["Sto ancora aspettando una risposta."], explanation: "\"Rispondere\" → \"risposto\" → \"la risposta\"." },
@@ -519,7 +520,7 @@ export const IT_B2_U26: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Freedom] of speech matters.", sentence: "___ di parola è importante.", answer: "La libertà", explanation: "Not \"liberazione\", which is liberation." },
       { type: "multi-select", question: "Which forms are correct?", options: ["i portafogli", "la scelta", "la creschita", "le casseforti", "i capostazioni"], correctIndexes: [0, 1, 3], explanation: "Correct: \"portafogli\", \"scelta\", \"casseforti\". The others should be \"crescita\" and \"capistazione\"." },
       { type: "dictation", audio: "È stata una scelta difficile, ma la crescita è ripartita.", explanation: "\"Scelta\" and \"crescita\"." },
-      { type: "speak", text: "I portafogli e gli apriscatole sono nel cassetto.", prompt: "Say where they are: The wallets and the tin openers are in the drawer.", tip: "por-ta-FO-gli: gli as in million.", explanation: "Two compound plurals." },
+      { type: "speak", text: "I portafogli e gli apriscatole sono nel cassetto.", prompt: "Say where they are: The wallets and the can openers are in the drawer.", tip: "por-ta-FO-gli: gli as in million.", explanation: "Two compound plurals." },
     ],
   },
   {
@@ -527,7 +528,7 @@ export const IT_B2_U26: Lesson[] = [
     level: "IT-B2",
     number: 8,
     title: "Reading Lab: A Formal Text",
-    summary: "Read a town council notice about roadworks and spot the nominalisations that make it formal.",
+    summary: "Read a town council notice about road work and spot the nominalizations that make it formal.",
     duration: "17 min",
     sections: [
       {
@@ -538,13 +539,13 @@ export const IT_B2_U26: Lesson[] = [
         ],
         examples: [
           { es: "Oggetto: lavori di rifacimento della pavimentazione di via Garibaldi.", en: "Subject: resurfacing works in via Garibaldi." },
-          { es: "A partire dal 3 marzo è prevista la chiusura al traffico del tratto compreso tra piazza Dante e via Verdi.", en: "From 3 March the stretch between piazza Dante and via Verdi will be closed to traffic." },
+          { es: "A partire dal 3 marzo è prevista la chiusura al traffico del tratto compreso tra piazza Dante e via Verdi.", en: "From March 3 the stretch between piazza Dante and via Verdi will be closed to traffic." },
           { es: "La durata dei lavori è stimata in sei settimane.", en: "The works are expected to last six weeks." },
           { es: "Durante l'esecuzione dei lavori è vietata la sosta su entrambi i lati.", en: "While the works are carried out, parking is prohibited on both sides." },
         ],
         checkpoint: [
-          { type: "multiple-choice", question: "What is happening in via Garibaldi?", options: ["The road surface is being redone.", "A new car park is being built.", "The street is being renamed.", "A market is being set up."], correctIndex: 0, explanation: "\"Rifacimento della pavimentazione\" = resurfacing." },
-          { type: "multiple-choice", question: "How long will the works last?", options: ["about six weeks", "three months", "until 3 March", "six days"], correctIndex: 0, explanation: "\"Stimata in sei settimane\"." },
+          { type: "multiple-choice", question: "What is happening in via Garibaldi?", options: ["The road surface is being redone.", "A new parking lot is being built.", "The street is being renamed.", "A market is being set up."], correctIndex: 0, explanation: "\"Rifacimento della pavimentazione\" = resurfacing." },
+          { type: "multiple-choice", question: "How long will the works last?", options: ["about six weeks", "three months", "until March 3", "six days"], correctIndex: 0, explanation: "\"Stimata in sei settimane\"." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian, in nominal style.", source: "The works are expected to last six weeks.", answer: "La durata dei lavori è stimata in sei settimane.", altAnswers: ["La durata dei lavori è prevista in sei settimane.", "La durata prevista dei lavori è di sei settimane."], explanation: "\"Durare\" → \"la durata\"." },
         ],
       },
@@ -584,7 +585,7 @@ export const IT_B2_U26: Lesson[] = [
     exercises: [
       { type: "multiple-choice", question: "Can you park in via Garibaldi during the works?", options: ["No, on neither side.", "Yes, on one side.", "Only residents can.", "Only at night."], correctIndex: 0, explanation: "\"È vietata la sosta su entrambi i lati\"." },
       { type: "multiple-choice", question: "Which word in the notice is NOT a noun formed from a verb?", options: ["residenti", "chiusura", "deviazione", "riapertura"], correctIndex: 0, explanation: "\"Residenti\" is a person noun from an adjective; the others are action nouns." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian, in nominal style.", source: "From 3 March the road will be closed to traffic.", answer: "A partire dal 3 marzo è prevista la chiusura della strada al traffico.", altAnswers: ["Dal 3 marzo è prevista la chiusura della strada al traffico.", "A partire dal 3 marzo è prevista la chiusura al traffico della strada."], explanation: "\"È prevista la chiusura\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian, in nominal style.", source: "From March 3 the road will be closed to traffic.", answer: "A partire dal 3 marzo è prevista la chiusura della strada al traffico.", altAnswers: ["Dal 3 marzo è prevista la chiusura della strada al traffico.", "A partire dal 3 marzo è prevista la chiusura al traffico della strada."], explanation: "\"È prevista la chiusura\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, in nominal style.", source: "Access will be guaranteed for residents.", answer: "Sarà garantito l'accesso ai residenti.", altAnswers: ["L'accesso ai residenti sarà garantito.", "Sarà comunque garantito l'accesso ai residenti."], explanation: "\"Accedere\" → \"l'accesso\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, in nominal style.", source: "Parking is prohibited during the works.", answer: "Durante i lavori è vietata la sosta.", altAnswers: ["È vietata la sosta durante i lavori.", "Durante l'esecuzione dei lavori è vietata la sosta."], explanation: "\"Sostare\" → \"la sosta\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The stop will be temporarily suspended.", answer: "La fermata sarà temporaneamente sospesa.", altAnswers: ["La fermata verrà temporaneamente sospesa.", "La fermata sarà sospesa temporaneamente."], explanation: "Future passive." },
@@ -593,7 +594,7 @@ export const IT_B2_U26: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The routes will [be diverted].", sentence: "Le linee ___.", answer: "subiranno una deviazione", altAnswers: ["saranno deviate", "verranno deviate"], explanation: "Nominal: \"subire una deviazione\"." },
       { type: "word-order", prompt: "Put the words in order to say: The works are expected to last six weeks.", words: ["La durata", "dei lavori", "è stimata", "in sei", "settimane."], translation: "The works are expected to last six weeks.", explanation: "\"Stimare in\" = to estimate at." },
       { type: "dictation", audio: "Durante l'esecuzione dei lavori è vietata la sosta su entrambi i lati.", explanation: "\"L'esecuzione\" and \"la sosta\"." },
-      { type: "speak", text: "Hanno chiuso via Garibaldi per sei settimane: rifanno la strada e gli autobus fanno un giro diverso.", prompt: "Tell a neighbour in plain speech: They've closed via Garibaldi for six weeks: they're redoing the road and the buses go a different way.", tip: "ri-FAN-no: double n.", explanation: "The same news without the nominal style." },
+      { type: "speak", text: "Hanno chiuso via Garibaldi per sei settimane: rifanno la strada e gli autobus fanno un giro diverso.", prompt: "Tell a neighbor in plain speech: They've closed via Garibaldi for six weeks: they're redoing the road and the buses go a different way.", tip: "ri-FAN-no: double n.", explanation: "The same news without the nominal style." },
     ],
   },
   {
@@ -601,14 +602,14 @@ export const IT_B2_U26: Lesson[] = [
     level: "IT-B2",
     number: 9,
     title: "Dialogue Lab: What Do You Call It?",
-    summary: "Describe objects you can't name in a hardware shop, and learn the compound names the assistant gives you.",
+    summary: "Describe objects you can't name in a hardware store, and learn the compound names the assistant gives you.",
     duration: "17 min",
     sections: [
       {
         heading: "I don't know the word",
         body: [
-          "Sophie has just moved into a flat in Turin and goes to \"la ferramenta\" (the hardware shop) with a list but without the words. She uses the classic strategies: \"come si chiama quella cosa che\" + verb, \"è una specie di\" (it's a kind of), \"serve per\" / \"si usa per\" + infinitive (it's used for), and the vague nouns \"il coso\" and \"l'aggeggio\" (the thingy, the gadget).",
-          "The shop owner helps with \"intende\" (do you mean), \"forse cerca\" and \"ah, ho capito\".",
+          "Sophie has just moved into an apartment in Turin and goes to \"la ferramenta\" (the hardware store) with a list but without the words. She uses the classic strategies: \"come si chiama quella cosa che\" + verb, \"è una specie di\" (it's a kind of), \"serve per\" / \"si usa per\" + infinitive (it's used for), and the vague nouns \"il coso\" and \"l'aggeggio\" (the thingy, the gadget).",
+          "The store owner helps with \"intende\" (do you mean), \"forse cerca\" and \"ah, ho capito\".",
         ],
         examples: [
           { es: "Buongiorno, cerco una cosa ma non so come si chiama.", en: "Good morning, I'm looking for something but I don't know what it's called." },
@@ -635,7 +636,7 @@ export const IT_B2_U26: Lesson[] = [
           { es: "E quell'aggeggio con tanti buchi per scolare la pasta.", en: "And that gadget with lots of holes for draining pasta." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian, to the shop owner.", source: "It's wooden and it goes on the wall.", answer: "È di legno e si attacca al muro.", altAnswers: ["È di legno e si appende al muro.", "È di legno e va attaccato al muro."], explanation: "\"Di\" + material." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian, to the store owner.", source: "It's wooden and it goes on the wall.", answer: "È di legno e si attacca al muro.", altAnswers: ["È di legno e si appende al muro.", "È di legno e va attaccato al muro."], explanation: "\"Di\" + material." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Then you need [a coat rack].", sentence: "Allora le serve ___.", answer: "un attaccapanni", explanation: "\"Attacca\" (hang) + \"panni\" (clothes)." },
           { type: "listen-choose", audio: "E quell'aggeggio con tanti buchi per scolare la pasta.", question: "What is Sophie describing?", options: ["a colander", "a grater", "a ladle", "a sieve for flour"], correctIndex: 0, explanation: "\"Per scolare la pasta\" → \"lo scolapasta\"." },
         ],
@@ -643,32 +644,32 @@ export const IT_B2_U26: Lesson[] = [
       {
         heading: "Checking out",
         body: [
-          "At the till, Sophie repeats the new words to fix them: \"quindi: lo schiaccianoci, l'attaccapanni, lo spremiagrumi e lo scolapasta\". The owner adds a tip and a joke: \"Le serve anche un portaombrelli? A Torino piove spesso!\"",
+          "At the register, Sophie repeats the new words to fix them: \"quindi: lo schiaccianoci, l'attaccapanni, lo spremiagrumi e lo scolapasta\". The owner adds a tip and a joke: \"Le serve anche un portaombrelli? A Torino piove spesso!\"",
         ],
         examples: [
           { es: "Quindi: lo schiaccianoci, l'attaccapanni, lo spremiagrumi e lo scolapasta.", en: "So: the nutcracker, the coat rack, the citrus squeezer and the colander." },
           { es: "Le serve anche un portaombrelli?", en: "Do you need an umbrella stand too?" },
-          { es: "Grazie, oggi ho imparato quattro parole nuove!", en: "Thanks, today I've learnt four new words!" },
+          { es: "Grazie, oggi ho imparato quattro parole nuove!", en: "Thanks, today I've learned four new words!" },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian, as the shop owner.", source: "Do you need an umbrella stand too?", answer: "Le serve anche un portaombrelli?", altAnswers: ["Le occorre anche un portaombrelli?", "Ha bisogno anche di un portaombrelli?"], explanation: "\"Porta\" + \"ombrelli\": invariable." },
-          { type: "speak", text: "Grazie, oggi ho imparato quattro parole nuove!", prompt: "Thank the owner: Thanks, today I've learnt four new words!", tip: "im-pa-RA-to: stress on ra.", explanation: "Passato prossimo with \"oggi\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian, as the store owner.", source: "Do you need an umbrella stand too?", answer: "Le serve anche un portaombrelli?", altAnswers: ["Le occorre anche un portaombrelli?", "Ha bisogno anche di un portaombrelli?"], explanation: "\"Porta\" + \"ombrelli\": invariable." },
+          { type: "speak", text: "Grazie, oggi ho imparato quattro parole nuove!", prompt: "Thank the owner: Thanks, today I've learned four new words!", tip: "im-pa-RA-to: stress on ra.", explanation: "Passato prossimo with \"oggi\"." },
         ],
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian, as the shop owner.", source: "Ah, you mean a nutcracker!", answer: "Ah, intende uno schiaccianoci!", altAnswers: ["Ah, vuole dire uno schiaccianoci!", "Ah, intende lo schiaccianoci!"], explanation: "\"Intende\" = do you mean (Lei)." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian, as the store owner.", source: "Ah, you mean a nutcracker!", answer: "Ah, intende uno schiaccianoci!", altAnswers: ["Ah, vuole dire uno schiaccianoci!", "Ah, intende lo schiaccianoci!"], explanation: "\"Intende\" = do you mean (Lei)." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I need a metal thing for squeezing lemons.", answer: "Mi serve una cosa di metallo per spremere i limoni.", altAnswers: ["Ho bisogno di una cosa di metallo per spremere i limoni.", "Mi serve un aggeggio di metallo per spremere i limoni."], explanation: "\"Mi serve\" = I need." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You hang coats on it.", answer: "Ci si appendono i cappotti.", altAnswers: ["Ci si appendono le giacche.", "Ci appendi i cappotti."], explanation: "\"Ci\" (on it) + impersonal \"si\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's round and made of plastic.", answer: "È rotondo e di plastica.", altAnswers: ["È rotondo ed è di plastica.", "È rotonda e di plastica."], explanation: "\"Di\" + material." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian, to the shop owner.", source: "What's that thing called that you use to open bottles?", answer: "Come si chiama quella cosa che si usa per aprire le bottiglie?", altAnswers: ["Come si chiama quella cosa che serve per aprire le bottiglie?", "Come si chiama quella cosa che serve ad aprire le bottiglie?"], explanation: "It's \"l'apribottiglie\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Today I've learnt four new words.", answer: "Oggi ho imparato quattro parole nuove.", altAnswers: ["Oggi ho imparato quattro nuove parole."], explanation: "Passato prossimo." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian, to the store owner.", source: "What's that thing called that you use to open bottles?", answer: "Come si chiama quella cosa che si usa per aprire le bottiglie?", altAnswers: ["Come si chiama quella cosa che serve per aprire le bottiglie?", "Come si chiama quella cosa che serve ad aprire le bottiglie?"], explanation: "It's \"l'apribottiglie\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Today I've learned four new words.", answer: "Oggi ho imparato quattro parole nuove.", altAnswers: ["Oggi ho imparato quattro nuove parole."], explanation: "Passato prossimo." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'd like [a citrus squeezer], please.", sentence: "Vorrei ___, per favore.", answer: "uno spremiagrumi", explanation: "\"Spremi\" + \"agrumi\": \"uno\" before s + consonant." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It's [a kind of] pincer.", sentence: "È ___ pinza.", answer: "una specie di", altAnswers: ["un tipo di"], explanation: "\"Una specie di\" = a kind of." },
       { type: "word-order", prompt: "Put the words in order to say: It's a kind of pincer that's used for opening walnuts.", words: ["È una specie", "di pinza", "che serve", "per aprire", "le noci."], translation: "It's a kind of pincer that's used for opening walnuts.", explanation: "\"Servire per\" + infinitive." },
       { type: "matching", instructions: "Match the compound to what it does.", pairs: [{ left: "lo schiaccianoci", right: "cracks walnuts" }, { left: "l'attaccapanni", right: "holds coats" }, { left: "lo spremiagrumi", right: "squeezes citrus fruit" }, { left: "il portaombrelli", right: "holds umbrellas" }, { left: "l'apribottiglie", right: "opens bottles" }], explanation: "Verb + noun compounds." },
       { type: "dictation", audio: "È una specie di pinza che serve per aprire le noci.", explanation: "Describing an object by its use." },
-      { type: "speak", text: "Cerco quell'aggeggio con tanti buchi che serve per scolare la pasta.", prompt: "Ask in the shop: I'm looking for that gadget with lots of holes that you use to drain pasta.", tip: "ag-GEG-gio: two double g sounds.", explanation: "It's \"lo scolapasta\"." },
+      { type: "speak", text: "Cerco quell'aggeggio con tanti buchi che serve per scolare la pasta.", prompt: "Ask in the store: I'm looking for that gadget with lots of holes that you use to drain pasta.", tip: "ag-GEG-gio: two double g sounds.", explanation: "It's \"lo scolapasta\"." },
     ],
   },
   {
@@ -676,14 +677,14 @@ export const IT_B2_U26: Lesson[] = [
     level: "IT-B2",
     number: 10,
     title: "Real-World Mission: A Formal Summary",
-    summary: "Summarise a plain-language text in formal nominal style, as for a report, a newsletter or a notice.",
+    summary: "Summarize a plain-language text in formal nominal style, as for a report, a newsletter or a notice.",
     duration: "18 min",
     kind: "review",
     sections: [
       {
         heading: "The plain text",
         body: [
-          "You work for a cultural association and must summarise this email from the town council for the members' newsletter. First, the plain version: \"Abbiamo deciso di ristrutturare la biblioteca di via Roma. Cominceremo a giugno e finiremo, speriamo, a dicembre. Mentre lavoriamo, i libri si potranno prendere in prestito nella sala civica. Quando riapriremo, ci sarà anche una sala studio più grande.\"",
+          "You work for a cultural association and must summarize this email from the town council for the members' newsletter. First, the plain version: \"Abbiamo deciso di ristrutturare la biblioteca di via Roma. Cominceremo a giugno e finiremo, speriamo, a dicembre. Mentre lavoriamo, i libri si potranno prendere in prestito nella sala civica. Quando riapriremo, ci sarà anche una sala studio più grande.\"",
         ],
         examples: [
           { es: "Abbiamo deciso di ristrutturare la biblioteca di via Roma.", en: "We have decided to renovate the library in via Roma." },
@@ -740,14 +741,14 @@ export const IT_B2_U26: Lesson[] = [
       { type: "word-order", prompt: "Put the words in order to say: Work is due to start in June.", words: ["L'inizio", "dei lavori", "è previsto", "per giugno."], translation: "Work is due to start in June.", explanation: "\"Previsto\" agrees with \"l'inizio\"." },
       { type: "multiple-choice", question: "Which is the best nominal version of \"quando riapriremo\"?", options: ["in occasione della riapertura", "quando si riaprirà", "riaprendo", "dopo che abbiamo riaperto"], correctIndex: 0, explanation: "A noun phrase replaces the clause." },
       { type: "dictation", audio: "Il termine dei lavori è previsto, salvo imprevisti, per dicembre.", explanation: "Nominal style with a formal hedge." },
-      { type: "speak", text: "L'inizio dei lavori è previsto per giugno e la riapertura per dicembre.", prompt: "Summarise aloud: Work is due to start in June and the reopening is planned for December.", tip: "pre-VI-sto: stress on vi.", explanation: "Two nouns, one participle each." },
+      { type: "speak", text: "L'inizio dei lavori è previsto per giugno e la riapertura per dicembre.", prompt: "Summarize aloud: Work is due to start in June and the reopening is planned for December.", tip: "pre-VI-sto: stress on vi.", explanation: "Two nouns, one participle each." },
     ],
   },
 ];
 
 export const IT_B2_U26_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Your neighbourhood association received this message: \"Abbiamo deciso di chiudere il parco giochi di piazza Verdi perché dobbiamo sostituire le altalene e rifare il pavimento. Cominciamo il 10 aprile e speriamo di finire a fine maggio. Mentre lavoriamo, i bambini possono andare al parco di via Monti. Quando riapriamo, ci saranno anche nuove panchine.\" Write a formal summary for the association's notice board in nominal style: a headline, then the decision, the reasons, the dates, the alternative and the reopening.",
+  prompt: "Your neighborhood association received this message: \"Abbiamo deciso di chiudere il parco giochi di piazza Verdi perché dobbiamo sostituire le altalene e rifare il pavimento. Cominciamo il 10 aprile e speriamo di finire a fine maggio. Mentre lavoriamo, i bambini possono andare al parco di via Monti. Quando riapriamo, ci saranno anche nuove panchine.\" Write a formal summary for the association's notice board in nominal style: a headline, then the decision, the reasons, the dates, the alternative and the reopening.",
   minWords: 80,
   maxWords: 150,
   rubric: [

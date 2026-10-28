@@ -18,6 +18,7 @@ export const IT_B1_U21: Lesson[] = [
         body: [
           "To say what people in general do, Italian uses \"si\" + the third person singular: \"In Italia si cena tardi\" (in Italy people have dinner late), \"Qui si sta bene\" (it's nice here, literally one is well here), \"In questo ristorante si mangia benissimo\".",
           "English uses you, people, one or we for this. Italian \"si\" covers them all, and the verb is always singular when there's no object: \"si lavora\", \"si dorme\", \"si parte\".",
+          "The classic slip is a plural verb because people feels plural: \"in Italia si cenano tardi\" is wrong. \"Non\" goes before \"si\": \"Qui non si fuma\". In Tuscany you'll also hear \"noi si va\", \"noi si mangia\" meaning we go, we eat: it's regional, so understand it but don't copy it.",
         ],
         examples: [
           { es: "In Italia si cena tardi.", en: "In Italy people have dinner late." },
@@ -53,7 +54,7 @@ export const IT_B1_U21: Lesson[] = [
         heading: "Uno, la gente, tu",
         body: [
           "Italians also use other ways to talk in general. \"Uno\" (one, someone) is common in speech: \"Uno non sa mai cosa dire\". \"La gente\" (people) takes a singular verb: \"La gente parla troppo\". And, as in English, \"tu\": \"Quando sei in Italia, mangi bene\".",
-          "\"Si\" is the most neutral; \"tu\" is conversational; \"la gente\" is a bit judgemental.",
+          "\"Si\" is the most neutral; \"tu\" is conversational; \"la gente\" is a bit judgmental.",
         ],
         examples: [
           { es: "Uno non sa mai cosa dire.", en: "You never know what to say." },
@@ -94,11 +95,12 @@ export const IT_B1_U21: Lesson[] = [
         body: [
           "When \"si\" is followed by \"essere\" (or \"diventare\", \"sembrare\", \"restare\") and an adjective, the verb stays singular but the adjective goes plural: \"Quando si è giovani, si è felici\" (when you're young, you're happy).",
           "It seems odd, but it makes sense: \"si\" refers to people in general, so the description is plural. The masculine plural is the default: \"Quando si è stanchi, si sbaglia\".",
+          "Only adjectives and nouns change; adverbs never do. So \"Qui si sta bene\" (adverb, no change) but \"Qui si è contenti\" (adjective, plural). Learners tend to write \"si è stanco\" because the verb looks singular: check the word after the verb, not the verb itself.",
         ],
         examples: [
           { es: "Quando si è giovani, si è felici.", en: "When you're young, you're happy." },
           { es: "Quando si è stanchi, si sbaglia.", en: "When you're tired, you make mistakes." },
-          { es: "Si è più tranquilli dopo una vacanza.", en: "You're calmer after a holiday." },
+          { es: "Si è più tranquilli dopo una vacanza.", en: "You're calmer after a vacation." },
           { es: "Non si è mai abbastanza preparati.", en: "You're never prepared enough." },
           { es: "Quando si diventa vecchi, si dorme meno.", en: "When you get old, you sleep less." },
         ],
@@ -140,12 +142,12 @@ export const IT_B1_U21: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "When you're young, you're happy.", answer: "Quando si è giovani, si è felici.", altAnswers: ["Quando si è giovani si è felici."], explanation: "Plural adjectives." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You're calmer after a holiday.", answer: "Si è più tranquilli dopo una vacanza.", altAnswers: ["Dopo una vacanza si è più tranquilli.", "Si è più rilassati dopo una vacanza."], explanation: "\"Tranquilli\": plural." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You're calmer after a vacation.", answer: "Si è più tranquilli dopo una vacanza.", altAnswers: ["Dopo una vacanza si è più tranquilli.", "Si è più rilassati dopo una vacanza."], explanation: "\"Tranquilli\": plural." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You're never prepared enough.", answer: "Non si è mai abbastanza preparati.", altAnswers: ["Non si è mai preparati abbastanza."], explanation: "\"Preparati\": plural." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "When you're a student, you've got little money.", answer: "Quando si è studenti, si hanno pochi soldi.", altAnswers: ["Quando si è studenti, si hanno pochi soldi in tasca."], explanation: "Plural noun; \"si hanno\" agrees with \"soldi\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "When you get old, you sleep less.", answer: "Quando si diventa vecchi, si dorme meno.", altAnswers: ["Quando si invecchia, si dorme meno.", "Quando si diventa anziani, si dorme meno."], explanation: "\"Si diventa\" + plural." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "When you're happy, time flies.", answer: "Quando si è felici, il tempo vola.", explanation: "\"Felici\": plural (same form)." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "When [you're ill], you need rest.", sentence: "Quando ___, serve riposo.", answer: "si è malati", explanation: "\"Malati\": plural." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "When [you're sick], you need rest.", sentence: "Quando ___, serve riposo.", answer: "si è malati", explanation: "\"Malati\": plural." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[You're more relaxed] at the seaside.", sentence: "Al mare ___.", answer: "si è più rilassati", altAnswers: ["si è più tranquilli"], explanation: "Plural adjective." },
       { type: "word-order", prompt: "Put the words in order to say: When you're in love, you're always happy.", words: ["Quando", "si", "è", "innamorati,", "si", "è", "sempre", "contenti."], translation: "When you're in love, you're always happy.", explanation: "Plural adjectives twice." },
       { type: "multiple-choice", question: "Choose the right form: \"Quando si è ___, si mangia di più.\"", options: ["nervosi", "nervoso", "nervosa", "nervose"], correctIndex: 0, explanation: "Masculine plural by default." },
@@ -166,12 +168,13 @@ export const IT_B1_U21: Lesson[] = [
         body: [
           "Reflexive verbs already have a \"si\" (\"alzarsi\", \"divertirsi\"). Italian can't say \"si si\", so the reflexive one becomes \"ci\": \"In campagna ci si alza presto\" (in the country people get up early), \"A quella festa ci si diverte sempre\".",
           "The order is always \"ci si\" + singular verb: \"ci si veste\", \"ci si sveglia\", \"ci si annoia\".",
+          "Two more combinations come up often. With \"ne\", \"si\" becomes \"se\": \"Se ne parla molto\" (people talk about it a lot). With the \"ci\" that means there, Italian can't say \"ci ci si\", so one \"ci\" does the job: \"A Roma ci si va in treno\" (you get there by train). This \"ci\" never means us here: \"ci si alza\" is people get up, not we get ourselves up.",
         ],
         examples: [
           { es: "In campagna ci si alza presto.", en: "In the country people get up early." },
           { es: "A quella festa ci si diverte sempre.", en: "You always have fun at that party." },
           { es: "In questa città non ci si annoia mai.", en: "You never get bored in this city." },
-          { es: "Per andare a teatro ci si veste eleganti.", en: "You dress up to go to the theatre." },
+          { es: "Per andare a teatro ci si veste eleganti.", en: "You dress up to go to the theater." },
           { es: "Ci si abitua a tutto.", en: "You get used to anything." },
         ],
         checkpoint: [
@@ -220,7 +223,7 @@ export const IT_B1_U21: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You can trust him.", answer: "Di lui ci si può fidare.", altAnswers: ["Ci si può fidare di lui."], explanation: "\"Ci si può\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "See you on Saturday, then!", answer: "Allora ci si vede sabato!", altAnswers: ["Ci vediamo sabato, allora!", "Allora ci vediamo sabato!"], explanation: "\"Ci si vede\" = see you." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "In winter [people wake up] later.", sentence: "D'inverno ___ più tardi.", answer: "ci si sveglia", altAnswers: ["ci si alza"], explanation: "\"Svegliarsi\" → \"ci si sveglia\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "You [dress up] to go to the theatre.", sentence: "Per andare a teatro ___ eleganti.", answer: "ci si veste", explanation: "\"Vestirsi\"; \"eleganti\" plural." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "You [dress up] to go to the theater.", sentence: "Per andare a teatro ___ eleganti.", answer: "ci si veste", explanation: "\"Vestirsi\"; \"eleganti\" plural." },
       { type: "word-order", prompt: "Put the words in order to say: You get tired quickly in the heat.", words: ["Con", "il", "caldo", "ci", "si", "stanca", "subito."], translation: "You get tired quickly in the heat.", explanation: "\"Stancarsi\" → \"ci si stanca\"." },
       { type: "multiple-choice", question: "Make it impersonal: \"Mi riposo la domenica.\"", options: ["Ci si riposa la domenica.", "Si si riposa la domenica.", "Si riposa la domenica.", "Ci si riposano la domenica."], correctIndex: 0, explanation: "Reflexive verb: \"ci si\"." },
       { type: "dictation", audio: "In vacanza ci si sveglia tardi e ci si rilassa.", explanation: "Two \"ci si\"." },
@@ -257,6 +260,7 @@ export const IT_B1_U21: Lesson[] = [
         body: [
           "If the verb normally takes \"essere\" (\"partire\", \"arrivare\", \"uscire\", \"stare\"), the participle goes plural: \"Si è partiti presto\" (we left early), \"Si è arrivati tardi\". Reflexive verbs work the same way: \"Ci si è divertiti\" (we had fun).",
           "So: \"avere\" verbs → \"-o\"; \"essere\" verbs and reflexives → \"-i\".",
+          "If the group is clearly all women, the \"-i\" becomes \"-e\": \"Tra amiche ci si è divertite\". In speech this \"si\" past often just means we, a little more casual and collective than \"siamo partiti\", and both are correct. And if there's a thing as object, the participle agrees with it instead: \"Si sono mangiate tre pizze\" (the passive \"si\", in this unit's Contrast Clinic).",
         ],
         examples: [
           { es: "Si è partiti alle sei.", en: "We left at six." },
@@ -294,10 +298,10 @@ export const IT_B1_U21: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Last night we danced until two.", answer: "Ieri sera si è ballato fino alle due.", altAnswers: ["Ieri sera abbiamo ballato fino alle due.", "Ieri sera si è ballato fino alle 2."], explanation: "\"Si è ballato\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "At that party [we drank] too much.", sentence: "A quella festa ___ troppo.", answer: "si è bevuto", altAnswers: ["abbiamo bevuto"], explanation: "\"Avere\" verb: \"-o\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "On the trip [we got up] every day at five.", sentence: "In gita ___ ogni giorno alle cinque.", answer: "ci si è alzati", altAnswers: ["ci siamo alzati"], explanation: "Reflexive: \"ci si è alzati\"." },
-      { type: "word-order", prompt: "Put the words in order to say: We'll see.", words: ["Si", "vedrà."], translation: "We'll see.", explanation: "Future impersonal." },
+      { type: "word-order", prompt: "Put the words in order to say: Then we'll see.", words: ["Poi", "si", "vedrà."], translation: "Then we'll see.", explanation: "Future impersonal." },
       { type: "multiple-choice", question: "Which is correct?", options: ["Si è usciti tardi.", "Si è uscito tardi.", "Si ha usciti tardi.", "Si sono usciti tardi."], correctIndex: 0, explanation: "\"Uscire\" takes \"essere\": \"usciti\"." },
       { type: "dictation", audio: "Al mare si è mangiato bene e ci si è riposati.", explanation: "\"-o\" then \"-i\"." },
-      { type: "speak", text: "In vacanza si è mangiato benissimo, si è dormito tanto e ci si è divertiti un sacco.", prompt: "Say it in Italian: On holiday we ate really well, slept a lot and had a great time.", tip: "\"Divertiti\": di-ver-TI-ti, the plural ending matters.", explanation: "\"-o\" for \"avere\" verbs, \"-i\" for reflexives." },
+      { type: "speak", text: "In vacanza si è mangiato benissimo, si è dormito tanto e ci si è divertiti un sacco.", prompt: "Say it in Italian: On vacation we ate really well, slept a lot and had a great time.", tip: "\"Divertiti\": di-ver-TI-ti, the plural ending matters.", explanation: "\"-o\" for \"avere\" verbs, \"-i\" for reflexives." },
     ],
   },
   {
@@ -316,26 +320,26 @@ export const IT_B1_U21: Lesson[] = [
         ],
         examples: [
           { es: "Qui si vive bene.", en: "Life is good here." },
-          { es: "Quando si è malati, si resta a letto.", en: "When you're ill, you stay in bed." },
+          { es: "Quando si è malati, si resta a letto.", en: "When you're sick, you stay in bed." },
           { es: "Ci si vede domani!", en: "See you tomorrow!" },
           { es: "Si è lavorato tanto, ma si è finito in tempo.", en: "We worked hard, but we finished in time." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Life is good here.", answer: "Qui si vive bene.", altAnswers: ["Si vive bene qui."], explanation: "\"Si vive\"." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "When you're ill, you stay in bed.", answer: "Quando si è malati, si resta a letto.", altAnswers: ["Quando si è malati, si sta a letto.", "Quando si è malati si resta a letto."], explanation: "Plural adjective." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "When you're sick, you stay in bed.", answer: "Quando si è malati, si resta a letto.", altAnswers: ["Quando si è malati, si sta a letto.", "Quando si è malati si resta a letto."], explanation: "Plural adjective." },
         ],
       },
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In Naples people talk with their hands.", answer: "A Napoli si parla con le mani.", altAnswers: ["A Napoli si gesticola molto."], explanation: "\"Si parla\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You can't park here.", answer: "Qui non si parcheggia.", altAnswers: ["Qui non si può parcheggiare.", "Non si parcheggia qui."], explanation: "\"Non si\" + verb." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "When you're on holiday, you're more relaxed.", answer: "Quando si è in vacanza, si è più rilassati.", altAnswers: ["In vacanza si è più rilassati.", "Quando si è in vacanza si è più rilassati."], explanation: "\"Rilassati\": plural." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "When you're on vacation, you're more relaxed.", answer: "Quando si è in vacanza, si è più rilassati.", altAnswers: ["In vacanza si è più rilassati.", "Quando si è in vacanza si è più rilassati."], explanation: "\"Rilassati\": plural." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You get bored if you stay at home all day.", answer: "Ci si annoia se si sta a casa tutto il giorno.", altAnswers: ["Ci si annoia a stare a casa tutto il giorno."], explanation: "\"Ci si annoia\", \"si sta\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We talked a lot last night.", answer: "Ieri sera si è parlato tanto.", altAnswers: ["Ieri sera si è parlato molto.", "Ieri sera abbiamo parlato tanto."], explanation: "\"Si è parlato\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We got home at midnight.", answer: "Si è tornati a casa a mezzanotte.", altAnswers: ["Siamo tornati a casa a mezzanotte.", "Si è rientrati a casa a mezzanotte."], explanation: "\"Tornare\" takes \"essere\": \"tornati\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You learn by making mistakes.", answer: "Si impara sbagliando.", altAnswers: ["Sbagliando s'impara.", "Sbagliando si impara."], explanation: "\"Si impara\" + gerund (Unit 17)." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You can't trust anyone.", answer: "Non ci si può fidare di nessuno.", explanation: "\"Fidarsi\" → \"ci si può fidare\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "In August [people go] on holiday.", sentence: "Ad agosto ___ in vacanza.", answer: "si va", explanation: "\"Si va\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "In August [people go] on vacation.", sentence: "Ad agosto ___ in vacanza.", answer: "si va", explanation: "\"Si va\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "When [you're tired], you don't think straight.", sentence: "Quando ___, non si ragiona.", answer: "si è stanchi", explanation: "Plural adjective." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "On Sunday [people get up] late.", sentence: "La domenica ___ tardi.", answer: "ci si alza", altAnswers: ["ci si sveglia"], explanation: "\"Ci si alza\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "At the party [we had fun].", sentence: "Alla festa ___.", answer: "ci si è divertiti", altAnswers: ["ci siamo divertiti"], explanation: "Reflexive past: \"-i\"." },
@@ -485,7 +489,7 @@ export const IT_B1_U21: Lesson[] = [
         ],
         examples: [
           { es: "In campagna ci si alza presto.", en: "In the country people get up early." },
-          { es: "D'estate ci si stanca di più.", en: "In summer you get tired more." },
+          { es: "D'estate ci si stanca di più.", en: "In summer you get more tired." },
           { es: "Ci si abitua a tutto.", en: "You get used to anything." },
         ],
         checkpoint: [
@@ -517,11 +521,11 @@ export const IT_B1_U21: Lesson[] = [
         ],
         examples: [
           { es: "Si vendono le case al mare.", en: "The houses by the sea are for sale." },
-          { es: "Si cercano commesse.", en: "Shop assistants wanted." },
-          { es: "Si affittano camere.", en: "Rooms to let." },
+          { es: "Si cercano commesse.", en: "Sales clerks wanted." },
+          { es: "Si affittano camere.", en: "Rooms for rent." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "A learner wrote \"Si cerca commesse\". Write it correctly: Shop assistants wanted.", source: "Shop assistants wanted.", answer: "Si cercano commesse.", altAnswers: ["Si cercano commessi.", "Cercasi commesse.", "Cercasi commessi."], explanation: "Plural: \"si cercano\"." },
+          { type: "translate", direction: "en-es", prompt: "A learner wrote \"Si cerca commesse\". Write it correctly: Sales clerks wanted.", source: "Sales clerks wanted.", answer: "Si cercano commesse.", altAnswers: ["Si cercano commessi.", "Cercasi commesse.", "Cercasi commessi."], explanation: "Plural: \"si cercano\"." },
         ],
       },
     ],
@@ -571,12 +575,12 @@ export const IT_B1_U21: Lesson[] = [
         ],
         examples: [
           { es: "Al bar si beve il caffè in piedi.", en: "At the bar people drink their coffee standing up." },
-          { es: "Prima si paga alla cassa e poi si ordina.", en: "First you pay at the till and then you order." },
+          { es: "Prima si paga alla cassa e poi si ordina.", en: "First you pay at the register and then you order." },
           { es: "Se ci si siede al tavolino, si paga di più.", en: "If you sit down at a table, you pay more." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If you sit down at a table, you pay more.", answer: "Se ci si siede al tavolino, si paga di più.", altAnswers: ["Se ci si siede al tavolo, si paga di più.", "Se ci si siede, si paga di più."], explanation: "\"Ci si siede\", \"si paga\"." },
-          { type: "listen-choose", audio: "Prima si paga alla cassa e poi si ordina.", question: "What do you do first?", options: ["Pay at the till", "Order at the counter", "Sit down", "Ask for the menu"], correctIndex: 0, explanation: "\"Prima si paga\"." },
+          { type: "listen-choose", audio: "Prima si paga alla cassa e poi si ordina.", question: "What do you do first?", options: ["Pay at the register", "Order at the counter", "Sit down", "Ask for the menu"], correctIndex: 0, explanation: "\"Prima si paga\"." },
         ],
       },
       {
@@ -602,7 +606,7 @@ export const IT_B1_U21: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "At the bar people drink their coffee standing up.", answer: "Al bar si beve il caffè in piedi.", altAnswers: ["Al bar il caffè si beve in piedi."], explanation: "\"Si beve il caffè\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "On Sunday evenings people go out for a stroll.", answer: "La domenica sera si esce a fare la passeggiata.", altAnswers: ["La domenica sera si esce a fare una passeggiata.", "La domenica sera si va a fare la passeggiata."], explanation: "\"Si esce\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "People say hello and chat.", answer: "Ci si saluta e si chiacchiera.", explanation: "\"Ci si saluta\" (reciprocal), \"si chiacchiera\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "First [you pay] at the till.", sentence: "Prima ___ alla cassa.", answer: "si paga", explanation: "\"Si paga\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "First [you pay] at the register.", sentence: "Prima ___ alla cassa.", answer: "si paga", explanation: "\"Si paga\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "You don't [go anywhere].", sentence: "Non ___ da nessuna parte.", answer: "si va", explanation: "\"Si va\"." },
       { type: "word-order", prompt: "Put the words in order to say: People walk slowly along the main street.", words: ["Si", "cammina", "lentamente", "lungo", "il", "corso."], translation: "People walk slowly along the main street.", explanation: "\"Si cammina\"." },
       { type: "multiple-choice", question: "What happens if you ask for 'un caffè' in an Italian bar?", options: ["You get an espresso.", "You get a cappuccino.", "You get filter coffee.", "You're asked what kind."], correctIndex: 0, explanation: "\"Un caffè\" is always an espresso." },
@@ -646,7 +650,7 @@ export const IT_B1_U21: Lesson[] = [
         examples: [
           { es: "Da noi invece si mangia un panino a mezzogiorno.", en: "Where we live, on the other hand, people eat a sandwich at noon." },
           { es: "Quando si è bambini, si va a letto alle otto.", en: "When you're a child, you go to bed at eight." },
-          { es: "L'anno scorso a Natale si è mangiato tantissimo!", en: "Last Christmas we ate loads!" },
+          { es: "L'anno scorso a Natale si è mangiato tantissimo!", en: "Last Christmas we ate so much!" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "When you're a child, you go to bed at eight.", answer: "Quando si è bambini, si va a letto alle otto.", altAnswers: ["Quando si è piccoli, si va a letto alle otto.", "Quando si è bambini si va a letto alle otto."], explanation: "Plural noun after \"si è\"." },
@@ -657,7 +661,7 @@ export const IT_B1_U21: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "People go to work by bike.", answer: "Si va al lavoro in bici.", altAnswers: ["Si va a lavorare in bici.", "Si va al lavoro in bicicletta."], explanation: "\"Si va\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "On Saturdays people do the shopping for the whole week.", answer: "Il sabato si fa la spesa per tutta la settimana.", explanation: "\"Si fa la spesa\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Last Christmas we ate loads!", answer: "L'anno scorso a Natale si è mangiato tantissimo!", altAnswers: ["Lo scorso Natale si è mangiato tantissimo!", "L'anno scorso a Natale abbiamo mangiato tantissimo!"], explanation: "\"Si è mangiato\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Last Christmas we ate so much!", answer: "L'anno scorso a Natale si è mangiato tantissimo!", altAnswers: ["Lo scorso Natale si è mangiato tantissimo!", "L'anno scorso a Natale abbiamo mangiato tantissimo!"], explanation: "\"Si è mangiato\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Where we live, people get up early.", answer: "Da noi ci si alza presto.", explanation: "\"Ci si alza\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "On Sundays [people meet up] with the family.", sentence: "La domenica ___ con la famiglia.", answer: "ci si riunisce", altAnswers: ["ci si ritrova", "ci si vede", "ci si incontra"], explanation: "\"Ci si\" + reflexive." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "In summer [many ice creams are eaten].", sentence: "D'estate ___.", answer: "si mangiano molti gelati", altAnswers: ["si mangiano tanti gelati"], explanation: "Plural object." },
@@ -671,7 +675,7 @@ export const IT_B1_U21: Lesson[] = [
 
 export const IT_B1_U21_WRITING: WriteExercise = {
   type: "write",
-  prompt: "An Italian student is coming to stay with you and asks: \"Come si vive da voi?\" Describe the daily customs where you live (meals, work, free time, greetings), compare one or two with Italy, and tell a short memory of a holiday or celebration.",
+  prompt: "An Italian student is coming to stay with you and asks: \"Come si vive da voi?\" Describe the daily customs where you live (meals, work, free time, greetings), compare one or two with Italy, and tell a short memory of a vacation or celebration.",
   minWords: 80,
   maxWords: 150,
   rubric: [

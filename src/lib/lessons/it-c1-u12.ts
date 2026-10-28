@@ -12,15 +12,15 @@ export const IT_C1_U12: Lesson[] = [
     level: "IT-C1",
     number: 1,
     title: "How to Read Older Italian",
-    summary: "Decode the forms of 1800s prose: dissegli and vedesi, prender and vien, de' and co', ufizio and lagrime, and the long sentence.",
-    duration: "19 min",
+    summary: "Decode the forms of 1800s prose: dissegli and vedesi, prender and vien, de' and co', uffizio and lagrime, and the long sentence.",
+    duration: "20 min",
     sections: [
       {
         heading: "Dissegli, vedesi: pronouns after the verb",
         body: [
           "Modern Italian puts unstressed pronouns before a finite verb: \"gli disse\", \"si vede\". Older prose often attaches them to the end of the verb, especially when the verb opens the sentence or follows \"e\": \"dissegli\" (gli disse), \"vedesi\" (si vede), \"fermossi\" (si fermò), \"rispondevagli\" (gli rispondeva). The stress stays where it was on the verb: \"DIS-se-gli\", \"fer-MOS-si\".",
           "When the verb ends in a stressed vowel, the pronoun's consonant doubles, as it still does with modern imperatives: \"fermò\" + \"si\" = \"fermossi\", \"andò\" + \"ne\" = \"andonne\". You already know the fossils of this pattern from signs: \"affittasi\", \"vendesi\".",
-          "To read these forms, peel the pronoun off and put it back in front: \"voltossi\" = \"si voltò\" (he turned round), \"parvemi\" = \"mi parve\" (it seemed to me), \"trovavasi\" = \"si trovava\" (was located).",
+          "To read these forms, peel the pronoun off and put it back in front: \"voltossi\" = \"si voltò\" (he turned around), \"parvemi\" = \"mi parve\" (it seemed to me), \"trovavasi\" = \"si trovava\" (was located).",
         ],
         examples: [
           { es: "Dissegli allora il curato: «Aspettate».", en: "Then the priest said to him: 'Wait.' (older style)" },
@@ -31,7 +31,7 @@ export const IT_C1_U12: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into modern Italian.", source: "He stopped on the threshold.", answer: "Si fermò sulla soglia.", altAnswers: ["Lui si fermò sulla soglia.", "Si è fermato sulla soglia."], explanation: "\"Fermossi\" in older prose: the pronoun goes back in front, \"si fermò\"." },
-          { type: "multiple-choice", question: "In a novel of 1840 you read \"voltossi verso la porta\". What does it mean?", options: ["he turned towards the door", "he went back through the door", "he wanted the door", "he locked the door"], correctIndex: 0, explanation: "\"Voltossi\" = \"si voltò\": turned round." },
+          { type: "multiple-choice", question: "In a novel of 1840 you read \"voltossi verso la porta\". What does it mean?", options: ["he turned toward the door", "he went back through the door", "he wanted the door", "he locked the door"], correctIndex: 0, explanation: "\"Voltossi\" = \"si voltò\": turned around." },
           { type: "fill-blank", prompt: "Write the modern Italian for the bold words.", en: "[I thought I heard] a voice.", sentence: "___ di sentire una voce.", answer: "Mi parve", altAnswers: ["Mi sembrò", "Mi è sembrato", "Mi è parso"], explanation: "\"Parvemi\" = \"mi parve\"." },
         ],
       },
@@ -39,8 +39,9 @@ export const IT_C1_U12: Lesson[] = [
         heading: "Prender, vien, de': shortened and old forms",
         body: [
           "Older prose drops final vowels freely, not only where modern Italian does: \"prender\" (prendere), \"vien\" (viene), \"par\" (pare), \"lascian\" (lasciano), \"cuor\" (cuore). It also contracts preposition + article with an apostrophe: \"de'\" (dei), \"co'\" (coi), \"ne'\" (nei), \"a'\" (ai), \"pe'\" (per i). So \"de' bravi\" means \"dei bravi\".",
-          "Some words had a different spelling or form: \"ufizio\" (ufficio), \"lagrime\" (lacrime), \"giovine\" (giovane), \"core\" (cuore), \"dimandare\" (domandare), \"maritare\" (to marry off, \"sposare\"). Pronouns too: \"ei\" or \"e'\" for \"egli\", \"costui\" (this man, often scornful), \"ella\" for \"lei\".",
+          "Some words had a different spelling or form: \"uffizio\" (ufficio), \"lagrime\" (lacrime), \"giovine\" (giovane), \"core\" (cuore), \"dimandare\" (domandare), \"maritare\" (to marry off, \"sposare\"). Pronouns too: \"ei\" or \"e'\" for \"egli\", \"costui\" (this man, often scornful), \"ella\" for \"lei\".",
           "In dialogue and first-person narration you'll meet the old first-person imperfetto in -a: \"io aveva\", \"io era\", \"io credeva\" (modern \"avevo\", \"ero\", \"credevo\"). It was normal until the late 1800s; it is not a mistake in the text.",
+          "Manzoni himself chose the modern \"avevo\" for his 1840 edition, following Florentine speech, and that choice helped it win. Poetry kept older words longest: \"core\" (heart), \"speme\" (hope), \"augello\" (bird), \"alma\" (soul), \"empire\" (to fill) turn up in Leopardi and in opera librettos, so expect them in a Verdi aria too.",
         ],
         examples: [
           { es: "Le lagrime gli scendevano sul viso.", en: "Tears ran down his face. (older spelling)" },
@@ -48,6 +49,8 @@ export const IT_C1_U12: Lesson[] = [
           { es: "Uno de' bravi gli si avvicinò.", en: "One of the thugs came up to him." },
           { es: "Io non credeva a' miei occhi.", en: "I couldn't believe my eyes. (older forms)" },
           { es: "Non vuol prender moglie.", en: "He doesn't want to take a wife." },
+          { es: "Odo augelli far festa.", en: "I hear the birds rejoicing. (Leopardi, 1829: augelli = uccelli)" },
+          { es: "Gli occhi le si empirono di lagrime.", en: "Her eyes filled with tears. (older forms: empire = riempire)" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into modern Italian.", source: "I couldn't believe my eyes.", answer: "Non credevo ai miei occhi.", altAnswers: ["Io non credevo ai miei occhi."], explanation: "\"Io non credeva a' miei occhi\" modernized: \"credevo\", \"ai\"." },
@@ -61,12 +64,15 @@ export const IT_C1_U12: Lesson[] = [
           "A sentence by Manzoni can run for ten lines. Read it in three passes. First, find the main verb and its subject, which may come late, after several clauses (\"tornava ... don Abbondio\"). Second, bracket the subordinate clauses and participles: they add time, place and manner. Third, read it again aloud, following the commas as breath pauses.",
           "Use the glosses, but don't translate word by word. Ask what each clause adds: where? when? how? why? Older Italian likes inversion (verb before subject) and the gerund for background (\"allontanandosi\", moving away).",
           "Finally, watch false friends in older texts: \"sensibile\" (perceptible), \"mezzogiorno\" (the south, as well as noon), \"cessare\" (to stop), \"ivi\" (there).",
+          "Two more habits of older prose: \"il quale\" and \"la quale\" where you would write \"che\", and the absolute participle placed first to set the time (\"Giunta la sera, ...\", when evening came; \"Detto ciò, ...\", having said this). Read the participle clause as \"dopo che\" or \"quando\" and move on to the main verb.",
         ],
         examples: [
-          { es: "Tornava verso casa, sulla sera, don Abbondio.", en: "Don Abbondio was walking home towards evening." },
+          { es: "Tornava verso casa, sulla sera, don Abbondio.", en: "Don Abbondio was walking home toward evening." },
           { es: "Il lago, che volge a mezzogiorno, vien quasi a un tratto a ristringersi.", en: "The lake, which turns southwards, almost suddenly narrows." },
           { es: "Le rive, allontanandosi di nuovo, lascian l'acqua distendersi.", en: "The shores, moving apart again, let the water spread out." },
           { es: "Ivi il lago cessa e il fiume ricomincia.", en: "There the lake ends and the river begins again." },
+          { es: "Giunta la sera, il curato tornò a casa.", en: "When evening came, the priest went home." },
+          { es: "Detto ciò, voltossi e partì.", en: "Having said this, he turned and left. (older style)" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into modern Italian.", source: "There the lake ends and the river begins again.", answer: "Lì il lago finisce e il fiume ricomincia.", altAnswers: ["Lì il lago finisce e ricomincia il fiume.", "Là il lago finisce e il fiume ricomincia.", "Qui il lago finisce e il fiume ricomincia.", "Lì finisce il lago e ricomincia il fiume."], explanation: "\"Ivi\" = \"lì\"; \"cessa\" = \"finisce\"." },
@@ -79,9 +85,9 @@ export const IT_C1_U12: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into modern Italian.", source: "The village lay at the foot of the mountain.", answer: "Il paese si trovava ai piedi del monte.", altAnswers: ["Il paese si trovava ai piedi della montagna.", "Il paese era ai piedi del monte."], explanation: "\"Trovavasi\" → \"si trovava\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into modern Italian.", source: "Tears were running down her face.", answer: "Le lacrime le scendevano sul viso.", altAnswers: ["Le lacrime le scorrevano sul viso.", "Le lacrime le rigavano il viso."], explanation: "\"Lagrime\" is the older spelling of \"lacrime\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into modern Italian.", source: "He doesn't want to get married.", answer: "Non vuole sposarsi.", altAnswers: ["Non si vuole sposare.", "Lui non vuole sposarsi.", "Non vuole prendere moglie."], explanation: "\"Non vuol prender moglie\": full forms \"vuole\", \"prendere\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into modern Italian.", source: "He turned towards the door.", answer: "Si voltò verso la porta.", altAnswers: ["Si girò verso la porta.", "Si è voltato verso la porta.", "Si è girato verso la porta."], explanation: "\"Voltossi\" → \"si voltò\"." },
-      { type: "fill-blank", prompt: "Write the modern Italian for the bold words.", en: "He sat down with [the] friends.", sentence: "Si sedette ___ amici.", answer: "con gli", altAnswers: ["insieme agli", "cogli"], explanation: "\"Co'\" or \"cogli\" in older prose; modern \"con gli\"." },
-      { type: "fill-blank", prompt: "Write the modern Italian for the bold words.", en: "He went to the [office] early.", sentence: "Andò presto in ___.", answer: "ufficio", explanation: "\"Ufizio\" is the older spelling." },
+      { type: "translate", direction: "en-es", prompt: "Translate into modern Italian.", source: "He turned toward the door.", answer: "Si voltò verso la porta.", altAnswers: ["Si girò verso la porta.", "Si è voltato verso la porta.", "Si è girato verso la porta."], explanation: "\"Voltossi\" → \"si voltò\"." },
+      { type: "fill-blank", prompt: "Write the modern Italian for the bold words.", en: "He sat down [with the] friends.", sentence: "Si sedette ___ amici.", answer: "con gli", altAnswers: ["insieme agli", "cogli"], explanation: "\"Co'\" or \"cogli\" in older prose; modern \"con gli\"." },
+      { type: "fill-blank", prompt: "Write the modern Italian for the bold words.", en: "He went to the [office] early.", sentence: "Andò presto in ___.", answer: "ufficio", explanation: "\"Uffizio\" is the older spelling." },
       { type: "word-order", prompt: "Put the words in order to say (modern Italian): One of the thugs came up to him.", words: ["Uno", "dei", "bravi", "gli", "si", "avvicinò."], translation: "One of the thugs came up to him.", explanation: "Two pronouns before the verb: \"gli si\"." },
       {
         type: "matching",
@@ -95,7 +101,7 @@ export const IT_C1_U12: Lesson[] = [
         ],
         explanation: "Enclitic, old form, old adverb, apostrophe contraction, old imperfetto.",
       },
-      { type: "multiple-choice", question: "\"Sensibile\" in a text of 1840 (\"rende più sensibile all'occhio questa trasformazione\") means ...", options: ["perceptible, noticeable", "sensible, reasonable", "sensitive, easily hurt", "emotional"], correctIndex: 0, explanation: "Here \"sensibile\" means perceptible; it never means sensible in English's sense." },
+      { type: "multiple-choice", question: "\"Sensibile\" in a text of 1840 (\"par che renda ancor più sensibile all'occhio questa trasformazione\") means ...", options: ["perceptible, noticeable", "sensible, reasonable", "sensitive, easily hurt", "emotional"], correctIndex: 0, explanation: "Here \"sensibile\" means perceptible; it never means sensible in English's sense." },
       { type: "dictation", audio: "Parvemi di sentire una voce nella notte.", explanation: "\"Parvemi\" = \"mi parve\": the pronoun attached to the verb." },
       { type: "speak", text: "Dissegli allora il curato: aspettate qui, ché torno subito.", prompt: "Read this older sentence aloud: Then the priest said to him: wait here, for I'll be right back.", tip: "DIS-se-gli: stress on the first syllable, as in \"disse\". \"Ché\" (for, because) has an acute accent.", explanation: "An enclitic on a finite verb and the old causal \"ché\"." },
     ],
@@ -106,12 +112,13 @@ export const IT_C1_U12: Lesson[] = [
     number: 2,
     title: "Manzoni, I promessi sposi, Part 1 of 2",
     summary: "Read the opening of I promessi sposi, Quel ramo del lago di Como, and follow one of the most famous long sentences in Italian.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "The novel that shaped modern Italian",
         body: [
-          "Alessandro Manzoni (1785-1873) published I promessi sposi (The Betrothed) in 1827 and then rewrote it for the 1840 edition, replacing Lombard and bookish words with the Florentine spoken by educated people. He said he went to Florence to \"risciacquare i panni in Arno\" (rinse his clothes in the Arno). The result became a model for the written standard of the new nation.",
+          "Alessandro Manzoni (1785-1873) published I promessi sposi (The Betrothed) in 1827 and then rewrote it for the 1840 edition, replacing Lombard and bookish words with the Florentine spoken by educated people. His stay in Florence is still summed up in the saying \"risciacquare i panni in Arno\" (to rinse one's clothes in the Arno). The result became a model for the written standard of the new nation.",
+          "Italians call the two versions \"la Ventisettana\" (1827) and \"la Quarantana\" (1840-1842). The second came out in installments, with illustrations by Francesco Gonin that Manzoni supervised himself, so text and pictures were planned together.",
           "The story is set in Lombardy in 1628-1630, under Spanish rule. Two young silk workers, Renzo and Lucia, are about to marry, but the local lord, don Rodrigo, wants Lucia and forbids the wedding. Plague, famine and war follow before the lovers are reunited.",
           "Italians read the novel at school, and many can recite its first line. Its phrases have entered everyday speech: \"questo matrimonio non s'ha da fare\", \"Carneade! Chi era costui?\", \"la sventurata rispose\".",
         ],
@@ -120,6 +127,8 @@ export const IT_C1_U12: Lesson[] = [
           { es: "Renzo e Lucia stanno per sposarsi.", en: "Renzo and Lucia are about to get married." },
           { es: "Don Rodrigo vuole impedire il matrimonio.", en: "Don Rodrigo wants to stop the wedding." },
           { es: "L'edizione del 1840 fu riscritta in fiorentino colto.", en: "The 1840 edition was rewritten in educated Florentine." },
+          { es: "La Quarantana uscì a dispense, con le illustrazioni di Francesco Gonin.", en: "The 1840 edition came out in installments, with illustrations by Francesco Gonin." },
+          { es: "Manzoni andò a Firenze a risciacquare i panni in Arno.", en: "Manzoni went to Florence to polish his language. (literally to rinse his clothes in the Arno)" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Don Rodrigo wants to stop the wedding.", answer: "Don Rodrigo vuole impedire il matrimonio.", altAnswers: ["Don Rodrigo vuole bloccare il matrimonio.", "Don Rodrigo vuole fermare il matrimonio."], explanation: "\"Impedire\" = to prevent, to stop." },
@@ -134,7 +143,7 @@ export const IT_C1_U12: Lesson[] = [
           "Notice the older forms: \"vien\" and \"prender\" have lost their final vowel; \"ristringersi\" is today \"restringersi\". The infinitives used as nouns (\"lo sporgere e il rientrare\", the jutting out and drawing back) are a construction you studied in Unit 3.",
         ],
         examples: [
-          { es: "Quel ramo del lago di Como, che volge a mezzogiorno, ...", en: "That branch of Lake Como which turns towards the south, ..." },
+          { es: "Quel ramo del lago di Como, che volge a mezzogiorno, ...", en: "That branch of Lake Como which turns toward the south, ..." },
           { es: "... tra due catene non interrotte di monti, tutto a seni e a golfi, ...", en: "... between two unbroken chains of mountains, all bays and inlets, ..." },
           { es: "... a seconda dello sporgere e del rientrare di quelli, ...", en: "... as the mountains jut out and draw back, ..." },
           { es: "... vien, quasi a un tratto, a ristringersi, e a prender corso e figura di fiume.", en: "... almost suddenly narrows, and takes on the course and shape of a river." },
@@ -149,11 +158,11 @@ export const IT_C1_U12: Lesson[] = [
       {
         heading: "The bridge and the river",
         body: [
-          "The sentence continues: \"e il ponte, che ivi congiunge le due rive, par che renda ancor più sensibile all'occhio questa trasformazione, e segni il punto in cui il lago cessa, e l'Adda rincomincia\". The bridge at Lecco seems to make the change more visible and to mark the point where the lake ends and the river Adda begins again.",
+          "The sentence continues: \"e il ponte, che ivi congiunge l'una all'altra riva, par che renda ancor più sensibile all'occhio questa trasformazione, e segni il punto in cui il lago cessa, e l'Adda rincomincia\". The bridge at Lecco, the medieval ponte Azzone Visconti, seems to make the change more visible and to mark the point where the lake ends and the river Adda begins again.",
           "\"Par che\" (\"pare che\") takes the subjunctive: \"renda\", \"segni\". \"Ivi\" means there, \"congiunge\" joins, \"sensibile\" perceptible, \"cessa\" stops. Manzoni's precision about geography is part of his realism: the reader is placed on a real map before meeting the characters.",
         ],
         examples: [
-          { es: "Il ponte, che ivi congiunge le due rive, ...", en: "The bridge, which joins the two banks there, ..." },
+          { es: "Il ponte, che ivi congiunge l'una all'altra riva, ...", en: "The bridge, which there joins one bank to the other, ..." },
           { es: "... par che renda ancor più sensibile all'occhio questa trasformazione.", en: "... seems to make this change even more perceptible to the eye." },
           { es: "... e segni il punto in cui il lago cessa, e l'Adda rincomincia.", en: "... and to mark the point where the lake stops and the Adda begins again." },
           { es: "Il ponte sembra rendere più visibile il cambiamento.", en: "The bridge seems to make the change more visible. (modern)" },
@@ -185,7 +194,7 @@ export const IT_C1_U12: Lesson[] = [
     number: 3,
     title: "Manzoni, I promessi sposi, Part 2 of 2",
     summary: "Meet don Abbondio and the two bravi, read the line that every Italian knows, and see how Manzoni's irony works.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Don Abbondio walks home",
@@ -231,11 +240,15 @@ export const IT_C1_U12: Lesson[] = [
         body: [
           "The narrator of I promessi sposi talks to the reader, comments, and smiles at his characters. He pretends to be retelling an anonymous seventeenth-century manuscript and mocks its baroque style. This gives him two voices: the pompous \"anonimo\" and his own clear, ironic one.",
           "Irony in Manzoni is often in an adjective or a comparison rather than a joke: the priest goes home \"bel bello\", calm and content, just before his peace is destroyed. When you comment on the text, name the device: \"il narratore commenta con ironia\", \"il paragone sottolinea la debolezza del personaggio\".",
+          "The Introduction opens in the anonimo's voice, Latinate h and doubled f included: \"L'Historia si può veramente deffinire una guerra illustre contro il Tempo\". After a page Manzoni breaks off, judges the style unbearable, and promises to retell the story in his own words. Another line Italians still use comes from chapter 8, where don Abbondio, reading a eulogy, stumbles on an ancient philosopher: \"Carneade! Chi era costui?\" Today \"un Carneade\" is anyone obscure.",
         ],
         examples: [
           { es: "Il narratore commenta i fatti con ironia.", en: "The narrator comments on the events with irony." },
           { es: "Manzoni finge di trascrivere un manoscritto anonimo.", en: "Manzoni pretends to be transcribing an anonymous manuscript." },
           { es: "Il paragone sottolinea la debolezza del personaggio.", en: "The comparison underlines the character's weakness." },
+          { es: "L'Historia si può veramente deffinire una guerra illustre contro il Tempo.", en: "History may truly be defined as an illustrious war against Time. (the anonimo's style)" },
+          { es: "Carneade! Chi era costui?", en: "Carneades! Who was he? (don Abbondio, chapter 8)" },
+          { es: "Per me quel ministro è un Carneade.", en: "As far as I'm concerned, that minister is a nobody." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The comparison underlines the character's weakness.", answer: "Il paragone sottolinea la debolezza del personaggio.", altAnswers: ["Il paragone mette in evidenza la debolezza del personaggio.", "La similitudine sottolinea la debolezza del personaggio."], explanation: "\"Il personaggio\" = character in a story; not \"il carattere\" (personality)." },
@@ -263,7 +276,7 @@ export const IT_C1_U12: Lesson[] = [
     number: 4,
     title: "Verga: Verismo",
     summary: "Read the openings of Rosso Malpelo and the ending of La roba, and see how Verga hides the author inside the voice of a Sicilian community.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Verismo: the author disappears",
@@ -271,6 +284,7 @@ export const IT_C1_U12: Lesson[] = [
           "Giovanni Verga (1840-1922), from Catania, turned in the late 1870s from society novels to the lives of Sicilian fishermen, miners and peasants. His method, \"verismo\", asked the work to seem \"fatta da sé\" (to have made itself): no narrator explaining or judging, only the facts and the voices of the people involved.",
           "The key device is called \"la regressione\": the narrator steps down into the community and tells the story with its values, its proverbs and its prejudices. The reader has to notice the gap between what the village says and what is actually happening. That gap is where Verga's compassion lies.",
           "His stories appeared in two collections, Vita dei campi (1880) and Novelle rusticane (1883), and in the novels I Malavoglia (1881) and Mastro-don Gesualdo (1889).",
+          "I Malavoglia applies the method to a family of fishermen in Aci Trezza, whose boat, the Provvidenza, sinks with a cargo of lupins bought on credit. The grandfather, padron 'Ntoni, thinks in proverbs: \"Gli uomini son fatti come le dita della mano: il dito grosso deve far da dito grosso, e il dito piccolo deve far da dito piccolo\". Everyone has a place and must keep it; the novel shows what happens to those who try to leave it.",
         ],
         examples: [
           { es: "Verga racconta la vita dei pescatori e dei contadini siciliani.", en: "Verga tells the life of Sicilian fishermen and peasants." },
@@ -278,6 +292,8 @@ export const IT_C1_U12: Lesson[] = [
           { es: "Il narratore adotta i pregiudizi del villaggio.", en: "The narrator adopts the village's prejudices." },
           { es: "L'opera deve sembrare fatta da sé.", en: "The work should seem to have made itself." },
           { es: "Rosso Malpelo fa parte della raccolta Vita dei campi.", en: "Rosso Malpelo is part of the collection Vita dei campi." },
+          { es: "La Provvidenza affonda con un carico di lupini.", en: "The Provvidenza sinks with a cargo of lupins." },
+          { es: "Il dito grosso deve far da dito grosso.", en: "The thumb must act as the thumb. (everyone in his place)" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The narrator adopts the village's prejudices.", answer: "Il narratore adotta i pregiudizi del villaggio.", altAnswers: ["Il narratore fa suoi i pregiudizi del villaggio.", "Il narratore adotta i pregiudizi del paese.", "Il narratore assume i pregiudizi del villaggio."], explanation: "\"Pregiudizio\" = prejudice; \"il paese\" also means village." },
@@ -307,7 +323,7 @@ export const IT_C1_U12: Lesson[] = [
       {
         heading: "La roba: possessions and death",
         body: [
-          "In La roba, Mazzarò, once a poor labourer, has spent his life acquiring land until the whole landscape seems to be his: vineyards, olive groves, herds. He has no family and no pleasures; \"la roba\" (property, things owned) is everything.",
+          "In La roba, Mazzarò, once a poor laborer, has spent his life acquiring land until the whole landscape seems to be his: vineyards, olive groves, herds. He has no family and no pleasures; \"la roba\" (property, things owned) is everything.",
           "When he is told that he must think of his soul because he is old, he goes into the yard with his stick and starts killing his ducks and turkeys, shouting: \"Roba mia, vientene con me!\" (my property, come away with me!). \"Vientene\" is the imperative of \"venirsene\", with two pronouns attached: \"vieni\" + \"te\" + \"ne\".",
           "The ending is grotesque and tragic at once. Verga doesn't comment; he leaves the reader to judge a man who cannot separate himself from what he owns.",
         ],
@@ -354,7 +370,7 @@ export const IT_C1_U12: Lesson[] = [
     number: 5,
     title: "Collodi: Pinocchio",
     summary: "Read the real opening of Le avventure di Pinocchio, meet maestro Ciliegia and Geppetto, and hear the Tuscan Italian of the 1880s.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "C'era una volta un pezzo di legno",
@@ -399,13 +415,17 @@ export const IT_C1_U12: Lesson[] = [
         heading: "Not the cartoon you remember",
         body: [
           "Collodi's Pinocchio is harsher than the films. In chapter 4 the Grillo-parlante (Talking Cricket) warns him to obey, and Pinocchio throws a wooden mallet at it and kills it. He is hanged by the Assassins, swallowed by a giant shark (\"il Pescecane\", not a whale), and turned into a donkey in the Paese dei balocchi (Toyland).",
-          "The famous nose grows when he lies to the Fata dai capelli turchini (the Fairy with Turquoise Hair), who explains that some lies have short legs and others have long noses. From here comes the proverb \"le bugie hanno le gambe corte\" (lies don't get far).",
+          "The famous nose grows when he lies to the Fata dai capelli turchini (the Fairy with Turquoise Hair), who explains that some lies have short legs and others have long noses. She is playing on a proverb that is older than the book, \"le bugie hanno le gambe corte\" (lies don't get far), and adding a second kind of lie of her own.",
+          "The book nearly ended halfway. In the Giornale per i bambini the story first stopped at chapter 15, with Pinocchio hanged from the Big Oak; young readers protested, and Collodi brought him back to life a few months later. In the last chapter Pinocchio, now a real boy, looks at the puppet he used to be and says: \"Com'ero buffo, quand'ero un burattino!\"",
         ],
         examples: [
           { es: "Pinocchio tira un martello contro il Grillo-parlante.", en: "Pinocchio throws a mallet at the Talking Cricket." },
           { es: "Quando dice una bugia, gli cresce il naso.", en: "When he tells a lie, his nose grows." },
           { es: "Le bugie hanno le gambe corte.", en: "Lies don't get you far. (literally lies have short legs)" },
           { es: "Nel libro non c'è una balena, ma un pescecane.", en: "In the book there's no whale, but a shark." },
+          { es: "Il romanzo uscì a puntate sul Giornale per i bambini.", en: "The novel came out in installments in the Giornale per i bambini." },
+          { es: "I lettori protestarono e Collodi riportò in vita il burattino.", en: "Readers protested and Collodi brought the puppet back to life." },
+          { es: "Com'ero buffo, quand'ero un burattino!", en: "How funny I was when I was a puppet! (the last chapter)" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "When he tells a lie, his nose grows.", answer: "Quando dice una bugia, gli cresce il naso.", altAnswers: ["Quando dice una bugia, il naso gli cresce.", "Quando dice bugie, gli cresce il naso."], explanation: "\"Gli cresce il naso\": possessive dative for body parts, no \"suo\"." },
@@ -417,7 +437,7 @@ export const IT_C1_U12: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Collodi is the pen name of Carlo Lorenzini.", answer: "Collodi è lo pseudonimo di Carlo Lorenzini.", altAnswers: ["Collodi è il nome d'arte di Carlo Lorenzini.", "Collodi è lo pseudonimo usato da Carlo Lorenzini."], explanation: "\"Lo pseudonimo\": \"lo\" before ps-." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Geppetto wanted to make a wonderful puppet.", answer: "Geppetto voleva fabbricare un burattino meraviglioso.", altAnswers: ["Geppetto voleva costruire un burattino meraviglioso.", "Geppetto voleva farsi un burattino meraviglioso.", "Geppetto voleva fabbricarsi un burattino meraviglioso.", "Geppetto voleva fare un burattino meraviglioso."], explanation: "\"Burattino\" = puppet; \"marionetta\" is the one on strings." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The tip of his nose was red like a ripe cherry.", answer: "La punta del naso era rossa come una ciliegia matura.", altAnswers: ["Aveva la punta del naso rossa come una ciliegia matura.", "La punta del suo naso era rossa come una ciliegia matura."], explanation: "\"Come\" for a simile." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Lies don't get you far.", answer: "Le bugie hanno le gambe corte.", explanation: "The Italian proverb, popularised by Pinocchio." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Lies don't get you far.", answer: "Le bugie hanno le gambe corte.", explanation: "An old proverb that the Fairy plays on in Pinocchio." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The book is harsher than the films.", answer: "Il libro è più duro dei film.", altAnswers: ["Il libro è più crudo dei film.", "Il libro è più duro rispetto ai film.", "Il libro è più crudele dei film."], explanation: "\"Più ... di\" + article: \"dei film\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Pinocchio [is turned into] a donkey.", sentence: "Pinocchio ___ in un asino.", answer: "viene trasformato", altAnswers: ["è trasformato", "si trasforma"], explanation: "Passive with \"venire\" for an event." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Dad], open the door! (Tuscan)", sentence: "___, apri la porta!", answer: "Babbo", altAnswers: ["Papà"], explanation: "\"Babbo\" is Tuscan and is Pinocchio's word for Geppetto." },
@@ -473,10 +493,10 @@ export const IT_C1_U12: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into modern Italian.", source: "The peasants were working in the fields.", answer: "I contadini lavoravano nei campi.", altAnswers: ["I contadini stavano lavorando nei campi."], explanation: "\"Ne' campi\" → \"nei campi\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into modern Italian.", source: "He had tears in his eyes.", answer: "Aveva le lacrime agli occhi.", altAnswers: ["Aveva gli occhi pieni di lacrime."], explanation: "\"Lagrime\" → \"lacrime\"; \"a' occhi\" → \"agli occhi\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into modern Italian.", source: "I believed it.", answer: "Ci credevo.", altAnswers: ["Lo credevo.", "Io ci credevo.", "Io lo credevo."], explanation: "\"Io credeva\" → \"credevo\"." },
-      { type: "fill-blank", prompt: "Write the modern Italian for the bold words.", en: "[He turned round] and smiled.", sentence: "___ e sorrise.", answer: "Si voltò", altAnswers: ["Si girò"], explanation: "\"Voltossi\" → \"si voltò\"." },
+      { type: "fill-blank", prompt: "Write the modern Italian for the bold words.", en: "[He turned around] and smiled.", sentence: "___ e sorrise.", answer: "Si voltò", altAnswers: ["Si girò"], explanation: "\"Voltossi\" → \"si voltò\"." },
       { type: "fill-blank", prompt: "Write the modern Italian for the bold words.", en: "He spoke [with the] soldiers.", sentence: "Parlò ___ soldati.", answer: "con i", altAnswers: ["coi"], explanation: "\"Co'\" → \"coi\" or \"con i\"." },
       { type: "fill-blank", prompt: "Write the modern Italian for the bold words.", en: "He wanted [to take] a wife.", sentence: "Voleva ___ moglie.", answer: "prendere", explanation: "\"Prender\" → \"prendere\"." },
-      { type: "fill-blank", prompt: "Write the modern Italian for the bold words.", en: "He went into the [office].", sentence: "Entrò nell'___.", answer: "ufficio", explanation: "\"Ufizio\" → \"ufficio\"." },
+      { type: "fill-blank", prompt: "Write the modern Italian for the bold words.", en: "He went into the [office].", sentence: "Entrò nell'___.", answer: "ufficio", explanation: "\"Uffizio\" → \"ufficio\"." },
       { type: "fill-blank", prompt: "Write the modern Italian for the bold words.", en: "The heart of the [young men].", sentence: "Il cuore dei ___.", answer: "giovani", explanation: "\"Giovini\" → \"giovani\"." },
       { type: "listen-choose", audio: "Fermossi davanti all'uscio.", question: "What did he do?", options: ["He stopped in front of the door.", "He closed the door.", "He went out of the door.", "He knocked at the door."], correctIndex: 0, explanation: "\"Fermossi\" = \"si fermò\"; \"uscio\" = door." },
       { type: "dictation", audio: "Si fermò davanti alla porta e si voltò.", explanation: "Two pronouns back in front of the verbs." },
@@ -489,7 +509,7 @@ export const IT_C1_U12: Lesson[] = [
     number: 7,
     title: "Talking About Literature",
     summary: "Use the vocabulary of literary analysis: il narratore, il protagonista, la trama, lo stile, il tema, and the verbs that make a commentary sound precise.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Narratore, personaggio, trama",
@@ -517,6 +537,7 @@ export const IT_C1_U12: Lesson[] = [
           "To talk about style: \"lo stile\" can be \"semplice\", \"elaborato\", \"ironico\", \"asciutto\" (spare, dry). \"La sintassi\" can be \"paratattica\" (short coordinated clauses) or \"ipotattica\" (long subordinate chains, like Manzoni's). \"Il lessico\" is the vocabulary; \"il registro\" can be \"colloquiale\", \"popolare\", \"letterario\".",
           "\"Il tema\" is the theme (\"il tema della roba\", \"il tema dell'identità\"); \"il motivo\" a recurring element; \"il messaggio\" what the author seems to suggest. Figures of speech: \"la similitudine\" (simile, with \"come\"), \"la metafora\", \"l'ironia\".",
           "Use these words inside full sentences: \"Lo stile di Verga è asciutto e impersonale\", \"Il tema principale è l'esclusione\".",
+          "Two more pairs come up in every school commentary. \"La fabula\" is the events in chronological order, \"l'intreccio\" the order in which the text tells them; a flashback is \"un'analessi\" (or simply \"un flashback\"), a flash-forward \"una prolessi\". \"Il punto di vista\" or \"la focalizzazione\" says through whose eyes we see: \"focalizzazione interna\" when we follow one character's perceptions, \"zero\" for an omniscient narrator.",
         ],
         examples: [
           { es: "Lo stile di Verga è asciutto e impersonale.", en: "Verga's style is spare and impersonal." },
@@ -524,6 +545,8 @@ export const IT_C1_U12: Lesson[] = [
           { es: "Il tema principale è l'esclusione sociale.", en: "The main theme is social exclusion." },
           { es: "La similitudine del vaso di terracotta rivela la paura del curato.", en: "The simile of the earthenware pot reveals the priest's fear." },
           { es: "Il registro è colloquiale, vicino alla lingua parlata.", en: "The register is colloquial, close to spoken language." },
+          { es: "L'intreccio non segue l'ordine della fabula.", en: "The plot doesn't follow the chronological order of events." },
+          { es: "Il racconto si apre con un'analessi.", en: "The story opens with a flashback." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The main theme is social exclusion.", answer: "Il tema principale è l'esclusione sociale.", explanation: "\"Il tema\" = the theme (also a school essay)." },
@@ -535,12 +558,15 @@ export const IT_C1_U12: Lesson[] = [
         body: [
           "Avoid \"fa\", \"dice\" and \"c'è\" everywhere. The narrator \"descrive\", \"racconta\", \"presenta\", \"commenta\"; the author \"rappresenta\", \"denuncia\" (exposes), \"mette in luce\" (brings out), \"sottolinea\" (underlines); a theme \"emerge\" (emerges) or \"ricorre\" (recurs); an image \"suggerisce\" or \"evoca\".",
           "Write the commentary in the present tense, even about a book from 1840: \"Manzoni descrive il lago\", \"Verga denuncia lo sfruttamento dei bambini\". The present is the tense of analysis; keep the past for biography (\"Verga nacque a Catania nel 1840\").",
+          "Quote briefly and build the words into your sentence: il narratore definisce don Abbondio «un vaso di terra cotta». For a neutral reference use \"si legge\" (\"nel primo capitolo si legge che...\"), and point to the text with \"r. 12\" (riga, line) or \"cfr.\" (compare). Printed Italian uses «caporali» for quotations.",
         ],
         examples: [
           { es: "Verga denuncia lo sfruttamento del lavoro minorile.", en: "Verga exposes the exploitation of child labor." },
           { es: "Dal testo emerge una visione pessimistica.", en: "A pessimistic vision emerges from the text." },
           { es: "L'immagine evoca la fragilità dell'uomo.", en: "The image evokes human fragility." },
           { es: "Verga nacque a Catania nel 1840.", en: "Verga was born in Catania in 1840." },
+          { es: "Nel primo capitolo si legge che il curato tornava bel bello verso casa.", en: "In the first chapter we read that the priest was strolling home." },
+          { es: "Il narratore definisce don Abbondio «un vaso di terra cotta».", en: "The narrator calls don Abbondio an earthenware pot." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Verga exposes the exploitation of children.", answer: "Verga denuncia lo sfruttamento dei bambini.", altAnswers: ["Verga denuncia lo sfruttamento dei minori.", "Verga denuncia lo sfruttamento dell'infanzia."], explanation: "\"Denunciare\" = to expose, condemn; present tense for analysis." },
@@ -722,7 +748,7 @@ export const IT_C1_U12: Lesson[] = [
           "Then write the modern Italian of the key phrase. This trains the two skills a CILS reading or listening task tests at this level: global understanding and precise detail.",
         ],
         examples: [
-          { es: "Gli uomini son fatti come le dita della mano.", en: "People are made like the fingers of a hand. (Verga's style: a proverb)" },
+          { es: "Gli uomini son fatti come le dita della mano.", en: "People are made like the fingers of a hand. (Verga, I Malavoglia: everyone has a place)" },
           { es: "Il lettore, che ha avuto la pazienza di seguirci fin qui, ci perdonerà.", en: "The reader who has had the patience to follow us this far will forgive us. (Manzoni's style)" },
           { es: "O che mi prendi per un ciuchino?", en: "What, do you take me for a little donkey? (Collodi's style, Tuscan)" },
         ],
@@ -733,7 +759,7 @@ export const IT_C1_U12: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "listen-choose", audio: "Gli uomini son fatti come le dita della mano: devono aiutarsi l'un l'altro.", question: "What is the point of the proverb?", options: ["People must help each other.", "People are all different.", "Hands are for work.", "Men are stronger than women."], correctIndex: 0, explanation: "\"Aiutarsi l'un l'altro\" = help one another." },
+      { type: "listen-choose", audio: "Gli uomini son fatti come le dita della mano: il dito grosso deve far da dito grosso, e il dito piccolo deve far da dito piccolo.", question: "What is the point of the proverb?", options: ["Everyone must keep to his own place.", "People are all equal.", "Hands are for work.", "The strong must help the weak."], correctIndex: 0, explanation: "Padron 'Ntoni's proverb in I Malavoglia: each person has a fixed role, like the fingers of a hand." },
       { type: "listen-choose", audio: "Tornava bel bello verso casa, quando vide due uomini al bivio.", question: "What happened?", options: ["While walking home calmly, he saw two men at the fork.", "He ran home because two men followed him.", "Two men walked him home.", "He met two friends at home."], correctIndex: 0, explanation: "\"Bel bello\" = calmly; \"il bivio\" = the fork." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "People must help each other.", answer: "Gli uomini devono aiutarsi l'un l'altro.", altAnswers: ["Le persone devono aiutarsi a vicenda.", "Gli uomini devono aiutarsi a vicenda.", "Bisogna aiutarsi l'un l'altro.", "Le persone devono aiutarsi l'un l'altro."], explanation: "\"L'un l'altro\" or \"a vicenda\" for each other." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He saw two men at the fork in the road.", answer: "Vide due uomini al bivio.", altAnswers: ["Ha visto due uomini al bivio.", "Vide due uomini all'incrocio."], explanation: "Passato remoto for a narrative event." },

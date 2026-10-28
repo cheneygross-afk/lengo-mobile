@@ -374,7 +374,7 @@ export const IT_A2_U13: Lesson[] = [
         heading: "Mirror images",
         body: [
           "Tu and Lei commands are mirror images in their vowels: \"guarda\" / \"guardi\", \"prendi\" / \"prenda\", \"senti\" / \"senta\", \"scusa\" / \"scusi\". The tu form of an -are verb ends in \"-a\"; the Lei form of an -ere / -ire verb ends in \"-a\". So \"-a\" alone tells you nothing: you need the infinitive too.",
-          "A quick test: the Lei form always has the opposite vowel to the infinitive. \"Guardare\" → \"guardi\" (Lei); \"prendere\" → \"prenda\" (Lei). The tu form keeps the infinitive's family: \"guarda\", \"prendi\".",
+          "A quick test for regular verbs: the Lei form has the opposite vowel to the infinitive. \"Guardare\" → \"guardi\" (Lei); \"prendere\" → \"prenda\" (Lei). The tu form keeps the infinitive's family: \"guarda\", \"prendi\".",
         ],
         examples: [
           { es: "Guarda! / Guardi!", en: "Look! (friend / stranger)" },

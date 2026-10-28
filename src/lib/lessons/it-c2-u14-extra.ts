@@ -66,7 +66,7 @@ export const IT_C2_U14_EXTRA: Lesson[] = [
     level: "IT-C2",
     number: 2,
     title: "Extra Practice: Rewriting",
-    summary: "Fresh rewriting practice: compress with participles, vary with pronouns and precise verbs, emphasise with word order.",
+    summary: "Fresh rewriting practice: compress with participles, vary with pronouns and precise verbs, emphasize with word order.",
     duration: "20 min",
     optional: true,
     kind: "drill",
@@ -74,7 +74,7 @@ export const IT_C2_U14_EXTRA: Lesson[] = [
       {
         heading: "Three rewriting moves",
         body: [
-          "Compress (absolute participle, gerund), vary (quest'ultimo, ellipsis, precise verbs), emphasise (end position, \"a\" + infinitive, inversion).",
+          "Compress (absolute participle, gerund), vary (quest'ultimo, ellipsis, precise verbs), emphasize (end position, \"a\" + infinitive, inversion).",
         ],
         examples: [
           { es: "Pagato il conto, uscimmo.", en: "Having paid the bill, we left." },
@@ -111,7 +111,7 @@ export const IT_C2_U14_EXTRA: Lesson[] = [
         ],
         explanation: "Four rewriting tools.",
       },
-      { type: "listen-choose", audio: "Caricati i bagagli, il pullman partì verso Napoli.", question: "What happened first?", options: ["The luggage was loaded.", "The coach left.", "They arrived in Naples.", "The luggage was lost."], correctIndex: 0, explanation: "The absolute participle marks the earlier action." },
+      { type: "listen-choose", audio: "Caricati i bagagli, il pullman partì verso Napoli.", question: "What happened first?", options: ["The luggage was loaded.", "The bus left.", "They arrived in Naples.", "The luggage was lost."], correctIndex: 0, explanation: "The absolute participle marks the earlier action." },
       { type: "dictation", audio: "Ho scritto all'avvocato e al notaio; quest'ultimo ha risposto subito.", explanation: "\"Quest'ultimo\" after the semicolon." },
       { type: "speak", text: "A decidere sarà il consiglio, non il direttore.", prompt: "Say it in Italian: It's the board that will decide, not the director.", tip: "Stress \"conSIglio\" and \"diretTOre\" for the contrast.", explanation: "End position carries the contrast." },
     ],

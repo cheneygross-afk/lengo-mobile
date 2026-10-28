@@ -137,7 +137,7 @@ export const IT_CULTURE_U06: Lesson[] = [
       {
         heading: "Giotto",
         body: [
-          "Around 1300 the Florentine painter Giotto broke with the flat, golden Byzantine style. His figures have weight, they stand on real ground, and their faces show grief, tenderness, anger. His masterpiece is the cycle of frescoes in the Scrovegni Chapel in Padua, painted around 1305; visits last a few minutes, in small booked groups.",
+          "Around 1300 the Florentine painter Giotto broke with the flat, golden Byzantine style. His figures have weight, they stand on real ground, and their faces show grief, tenderness, anger. His masterpiece is the cycle of frescoes in the Scrovegni Chapel in Padua, painted around 1305; visits last about a quarter of an hour, in small booked groups.",
           "Giotto also designed the bell tower next to Florence cathedral, \"il Campanile di Giotto\". Dante mentioned him in the \"Divina Commedia\" as the painter of the moment, the new star after his master Cimabue.",
         ],
         examples: [
@@ -178,7 +178,7 @@ export const IT_CULTURE_U06: Lesson[] = [
         heading: "Firenze e i Medici",
         body: [
           "\"Il Rinascimento\", the rebirth, began in fifteenth-century Florence, funded by bankers like the Medici, who paid artists to glorify the city and themselves. Artists studied ancient Rome and nature, and painters mastered perspective.",
-          "Filippo Brunelleschi built the dome of Florence cathedral between 1420 and 1436 without a wooden frame underneath, using two shells and a herringbone brick pattern. You can climb its 463 steps. In the same years Botticelli painted \"La nascita di Venere\", now in the Uffizi.",
+          "Filippo Brunelleschi built the dome of Florence cathedral between 1420 and 1436 without a wooden frame underneath, using two shells and a herringbone brick pattern. You can climb its 463 steps. Later in the century, in the 1480s, Botticelli painted \"La nascita di Venere\", now in the Uffizi.",
         ],
         examples: [
           { es: "I Medici pagavano gli artisti.", en: "The Medici paid the artists." },
@@ -307,7 +307,7 @@ export const IT_CULTURE_U06: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The saints look like ordinary people.", answer: "I santi sembrano gente comune.", altAnswers: ["I santi sembrano persone comuni.", "I santi sembrano persone normali."], explanation: "\"La gente\" is singular in Italian." },
-          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Caravaggio [had to flee] Rome.", sentence: "Caravaggio ___ da Roma.", answer: "è dovuto fuggire", altAnswers: ["dovette fuggire", "ha dovuto fuggire"], explanation: "With a verb of motion, \"dovere\" can take \"essere\"." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Caravaggio [had to flee] Rome.", sentence: "Caravaggio ___ da Roma.", answer: "è dovuto fuggire", altAnswers: ["dovette fuggire", "ha dovuto fuggire"], explanation: "Before an infinitive that takes \"essere\", like \"fuggire\", \"dovere\" can take \"essere\"; \"ha dovuto fuggire\" is also correct." },
         ],
       },
     ],
@@ -438,7 +438,7 @@ export const IT_CULTURE_U06: Lesson[] = [
       {
         heading: "Biglietti e prenotazioni",
         body: [
-          "Book online for the big museums, especially in spring and summer, or queue for hours. Tickets are \"intero\" (full price) or \"ridotto\" (reduced); in Italian state museums under-18s enter free, and on the first Sunday of the month entry is free for everyone. The Vatican Museums close on Sundays except the last Sunday of the month, when they're free and very crowded.",
+          "Book online for the big museums, especially in spring and summer, or wait in line for hours. Tickets are \"intero\" (full price) or \"ridotto\" (reduced); in Italian state museums under-18s enter free, and on the first Sunday of the month entry is free for everyone. The Vatican Museums usually close on Sundays except the last Sunday of the month, when they're free and very crowded. These rules change, so check the museum's website before you go.",
           "Many Italian museums close on Mondays: check before you go.",
         ],
         examples: [
@@ -500,23 +500,23 @@ export const IT_CULTURE_U06: Lesson[] = [
     level: "IT-Culture",
     number: 7,
     title: "UNESCO Sites",
-    summary: "Learn why Italy has more UNESCO World Heritage sites than any other country, from historic centers to landscapes and traditions.",
+    summary: "Learn why Italy is at the top of the UNESCO World Heritage list, from historic centers to landscapes and traditions.",
     duration: "15 min",
     sections: [
       {
         heading: "Più di sessanta siti",
         body: [
-          "Italy has more UNESCO World Heritage sites than any other country: more than sixty. They include whole historic centers, such as Rome, Florence, Naples and Siena, Venice and its lagoon, and Pompeii; landscapes like the Dolomites, the Amalfi Coast, the Cinque Terre and Etna; and newer entries like Bologna's arcades (2021) and the Via Appia (2024).",
+          "Italy is at the top of the UNESCO World Heritage list, neck and neck with China: more than sixty sites. They include whole historic centers, such as Rome, Florence, Naples and Siena, Venice and its lagoon, and Pompeii; landscapes like the Dolomites, the Amalfi Coast, the Cinque Terre and Etna; and newer entries like Bologna's arcades (2021) and the Via Appia (2024).",
           "UNESCO also lists intangible heritage, \"il patrimonio immateriale\": Neapolitan pizza-making, violin-making in Cremona, Italian opera singing and, since 2025, Italian cooking itself.",
         ],
         examples: [
-          { es: "L'Italia ha il maggior numero di siti UNESCO.", en: "Italy has the largest number of UNESCO sites." },
+          { es: "L'Italia è in cima alla lista dei siti UNESCO.", en: "Italy is at the top of the list of UNESCO sites." },
           { es: "Il centro storico di Firenze è patrimonio dell'umanità.", en: "Florence's historic center is World Heritage." },
           { es: "Le Dolomiti sono patrimonio UNESCO dal 2009.", en: "The Dolomites have been UNESCO heritage since 2009." },
           { es: "Anche il canto lirico è nella lista.", en: "Opera singing is on the list too." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Italy has the largest number of UNESCO sites.", answer: "L'Italia ha il maggior numero di siti UNESCO.", altAnswers: ["L'Italia ha il numero più alto di siti UNESCO.", "L'Italia ha più siti UNESCO di tutti."], explanation: "\"Il maggior numero di\" = the largest number of." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Italy is at the top of the list of UNESCO sites.", answer: "L'Italia è in cima alla lista dei siti UNESCO.", altAnswers: ["L'Italia è in testa alla lista dei siti UNESCO.", "L'Italia è in cima all'elenco dei siti UNESCO."], explanation: "\"In cima a\" = at the top of; \"a\" + \"la\" = \"alla\"." },
           { type: "multiple-choice", question: "Which of these is intangible heritage?", options: ["Neapolitan pizza-making", "the Colosseum", "the Dolomites", "Bologna's arcades"], correctIndex: 0, explanation: "A practice, not a place." },
         ],
       },
@@ -540,7 +540,7 @@ export const IT_CULTURE_U06: Lesson[] = [
       {
         heading: "Troppi turisti?",
         body: [
-          "Fame has a price: \"l'overtourism\" (Italians use the English word) pushes residents out of historic centers as apartments become short-term rentals. Venice now charges day-trippers an access fee on its busiest days, and other places limit numbers on paths and beaches.",
+          "Fame has a price: \"l'overtourism\" (Italians use the English word) pushes residents out of historic centers as apartments become short-term rentals. Venice has been charging day-trippers an access fee on its busiest days, and other places limit numbers on paths and beaches; the rules change from year to year, so check before you go.",
           "Responsible visiting means staying longer and spending locally, respecting rules like no swimming in fountains, and dressing modestly in churches: covered shoulders and knees.",
         ],
         examples: [

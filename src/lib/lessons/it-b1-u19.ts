@@ -19,6 +19,7 @@ export const IT_B1_U19: Lesson[] = [
           "English says I'm having my bike repaired or I'm getting my bike fixed. Italian uses \"fare\" + infinitive: \"Faccio riparare la bici\". Compare \"Riparo la bici\" (I repair it myself) with \"Faccio riparare la bici\" (someone else does it for me).",
           "Only \"fare\" changes tense; the infinitive stays the same: \"Ho fatto pulire il tappeto\" (I had the carpet cleaned), \"Domani farò tagliare l'erba\" (tomorrow I'll have the grass cut).",
           "To say who does the job, add \"da\": \"Ho fatto riparare la macchina dal meccanico\" (I had the car repaired by the mechanic).",
+          "Don't copy English have + object + participle: \"Ho la macchina riparata\" only describes a state (my car is repaired, I have it back). The action of getting a job done is always \"fare\" + infinitive, and the object comes after the infinitive, not between the two verbs: \"Faccio riparare la bici\", never \"faccio la bici riparare\".",
         ],
         examples: [
           { es: "Faccio riparare la bici.", en: "I'm having my bike repaired." },
@@ -101,7 +102,7 @@ export const IT_B1_U19: Lesson[] = [
           { es: "Mi fa ridere.", en: "He makes me laugh." },
           { es: "Questo film la fa sempre piangere.", en: "This film always makes her cry." },
           { es: "Faccio studiare i bambini dopo cena.", en: "I make the children study after dinner." },
-          { es: "Faccio entrare il signor Bassi?", en: "Shall I show Mr Bassi in?" },
+          { es: "Faccio entrare il signor Bassi?", en: "Shall I show Mr. Bassi in?" },
           { es: "Sì, lo faccia entrare.", en: "Yes, show him in. (formal)" },
         ],
         checkpoint: [
@@ -132,6 +133,7 @@ export const IT_B1_U19: Lesson[] = [
         heading: "Fare + feelings and states",
         body: [
           "Many everyday phrases use this pattern: \"far arrabbiare\" (make angry), \"far preoccupare\" (worry), \"far ridere\", \"far piangere\", \"far aspettare\" (keep waiting), \"far venire voglia di\" (make you want to). \"Non farmi arrabbiare!\" (don't make me angry!).",
+          "In the past, \"fare\" always takes \"avere\", even when the infinitive on its own would take \"essere\": \"Ci hanno fatto entrare\" (they let us in), \"Mi hai fatto venire fame\". With \"mi\", \"ti\", \"ci\" and \"vi\" agreement is optional (\"ci hai fatto preoccupare\" or \"ci hai fatti preoccupare\"); with \"lo\", \"la\", \"li\", \"le\" it's needed: \"L'ho fatta ridere\".",
         ],
         examples: [
           { es: "Non farmi arrabbiare!", en: "Don't make me angry!" },
@@ -189,6 +191,7 @@ export const IT_B1_U19: Lesson[] = [
         heading: "Farsi aiutare, farsi accompagnare",
         body: [
           "\"Farsi\" + infinitive also means get someone to do something to or for you: \"farsi aiutare\" (get help), \"farsi accompagnare\" (get someone to take you), \"farsi spiegare\" (get it explained), \"farsi prestare\" (borrow). The person who does it takes \"da\": \"Si è fatta accompagnare da un'amica\".",
+          "English my hair, my car becomes the reflexive pronoun, not a possessive: \"Mi faccio tagliare i capelli\", not \"faccio tagliare i miei capelli\". Compare \"Faccio tagliare i capelli a mio figlio\" (my son's hair, so plain \"fare\"). And \"farsi prestare\" is the everyday way to say borrow, since Italian has no single verb for it: \"Mi sono fatto prestare cinquanta euro\".",
         ],
         examples: [
           { es: "Si è fatta accompagnare a casa da un'amica.", en: "She got a friend to take her home." },
@@ -281,6 +284,7 @@ export const IT_B1_U19: Lesson[] = [
         heading: "Fare or lasciare?",
         body: [
           "\"Fare\" pushes, \"lasciare\" allows: \"Mi ha fatto guidare\" (he made me drive), \"Mi ha lasciato guidare\" (he let me drive). With two objects, the person is indirect with both: \"Gli lascio usare la macchina\" (I let him use the car).",
+          "Careful with English let's: it's a suggestion, the \"noi\" form, not \"lasciare\". Let's go = \"Andiamo!\"; \"Lasciaci andare!\" means let us go, set us free. \"Lasciare\" can also take \"che\" + subjunctive, a little more formal: \"Lascia che ti spieghi\" (let me explain). In the past, \"lasciato\" agrees with \"lo\", \"la\", \"li\", \"le\": \"L'hanno lasciata uscire\".",
         ],
         examples: [
           { es: "Mi ha fatto guidare.", en: "He made me drive." },
@@ -302,7 +306,7 @@ export const IT_B1_U19: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He made me drive.", answer: "Mi ha fatto guidare.", explanation: "\"Fare\" = make." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Let me sleep]! (to a friend)", sentence: "___!", answer: "Lasciami dormire", explanation: "\"Lasciami\" + infinitive." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "They [didn't let us in].", sentence: "Non ___.", answer: "ci hanno lasciato entrare", altAnswers: ["ci hanno lasciati entrare", "ci hanno lasciate entrare", "ci hanno fatto entrare"], explanation: "\"Lasciare entrare\"." },
-      { type: "word-order", prompt: "Put the words in order to say: Let me finish!", words: ["Lasciami", "finire!"], translation: "Let me finish!", explanation: "\"Lasciami\" + infinitive." },
+      { type: "word-order", prompt: "Put the words in order to say: Let me finish talking!", words: ["Lasciami", "finire", "di", "parlare!"], translation: "Let me finish talking!", explanation: "\"Lasciami\" + infinitive." },
       { type: "multiple-choice", question: "Which means: he let me use his computer?", options: ["Mi ha lasciato usare il suo computer.", "Mi ha fatto usare il suo computer.", "Mi ha lasciato di usare il suo computer.", "Ha lasciato me usare il suo computer."], correctIndex: 0, explanation: "\"Lasciare\" = let; no preposition." },
       { type: "dictation", audio: "Lascia stare, ci penso io.", explanation: "\"Lascia stare\" = leave it." },
       { type: "speak", text: "Lasciami parlare! Mio padre non mi lasciava mai guidare la sua macchina.", prompt: "Say it in Italian: Let me speak! My father never let me drive his car.", tip: "\"Lasciami\": sc before i is soft, LA-sha-mi.", explanation: "\"Lasciare\" + infinitive." },
@@ -342,13 +346,13 @@ export const IT_B1_U19: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They don't let us use our phones at school.", answer: "Non ci lasciano usare il telefono a scuola.", altAnswers: ["A scuola non ci lasciano usare il telefono.", "Non ci lasciano usare i telefoni a scuola.", "Non ci lasciano usare il cellulare a scuola."], explanation: "\"Lasciare\" + infinitive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll have the documents sent to you. (formal)", answer: "Le faccio mandare i documenti.", altAnswers: ["Le farò mandare i documenti.", "Le faccio inviare i documenti.", "Le farò inviare i documenti."], explanation: "\"Le\" = to you (formal)." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Get someone to help you! (to a friend)", answer: "Fatti aiutare!", altAnswers: ["Fatti dare una mano!"], explanation: "\"Farsi aiutare\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The doctor made him stop smoking.", answer: "Il medico gli ha fatto smettere di fumare.", altAnswers: ["Il dottore gli ha fatto smettere di fumare.", "Il medico lo ha fatto smettere di fumare.", "Il medico l'ha fatto smettere di fumare."], explanation: "\"Smettere di fumare\" counts as having an object, so \"gli\" is common; \"lo\" is heard too." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The doctor made him stop smoking.", answer: "Il medico l'ha fatto smettere di fumare.", altAnswers: ["Il dottore l'ha fatto smettere di fumare.", "Il medico lo ha fatto smettere di fumare.", "Il medico gli ha fatto smettere di fumare.", "Il dottore gli ha fatto smettere di fumare."], explanation: "\"Di fumare\" isn't a direct object, so the textbook choice is direct \"lo\" (\"l'ha fatto smettere\"); \"gli ha fatto smettere\" is also very common and accepted." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I [had the dog washed].", sentence: "___ il cane.", answer: "Ho fatto lavare", explanation: "\"Fatto\" + infinitive." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Let me know] how it goes! (to a friend)", sentence: "___ come va!", answer: "Fammi sapere", explanation: "\"Fammi sapere\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "My boss [let me leave] early.", sentence: "Il capo mi ha ___ prima.", answer: "lasciato uscire", altAnswers: ["lasciato andare", "lasciata uscire", "lasciata andare", "fatto uscire", "fatto andare"], explanation: "\"Lasciare\" + infinitive." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "We [got a taxi to take us] to the airport.", sentence: "___ in aeroporto da un taxi.", answer: "Ci siamo fatti portare", altAnswers: ["Ci siamo fatte portare", "Ci siamo fatti accompagnare", "Ci siamo fatte accompagnare"], explanation: "\"Farsi portare\"; \"fatti\" agrees." },
       { type: "word-order", prompt: "Put the words in order to say: I made the children tidy their room.", words: ["Ho", "fatto", "mettere", "in", "ordine", "la", "camera", "ai", "bambini."], translation: "I made the children tidy their room.", explanation: "Two objects: \"ai bambini\"." },
-      { type: "word-order", prompt: "Put the words in order to say: Let me through!", words: ["Lasciami", "passare!"], translation: "Let me through!", explanation: "\"Lasciami\" + infinitive." },
+      { type: "word-order", prompt: "Put the words in order to say: Could you let me through, please? (formal)", words: ["Mi", "lascia", "passare,", "per", "favore?"], translation: "Could you let me through, please?", explanation: "\"Lasciare\" + infinitive; \"mi\" before the conjugated verb." },
       { type: "multiple-choice", question: "Which means: I'm having my car washed?", options: ["Faccio lavare la macchina.", "Lavo la macchina.", "Lascio lavare la macchina.", "Mi lavo la macchina."], correctIndex: 0, explanation: "\"Fare\" + infinitive." },
       { type: "multiple-choice", question: "Which means: she let me try?", options: ["Mi ha lasciato provare.", "Mi ha fatto provare.", "Mi ha lasciato di provare.", "Ha lasciato me provare."], correctIndex: 0, explanation: "\"Lasciare\" = let." },
       { type: "listen-choose", audio: "Ci hanno fatto aspettare un'ora.", question: "What happened?", options: ["They were kept waiting an hour.", "They waited for someone for an hour.", "They let someone wait an hour.", "They were an hour late."], correctIndex: 0, explanation: "\"Far aspettare\" = keep waiting." },
@@ -387,9 +391,9 @@ export const IT_B1_U19: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The car? I'm having it repaired tomorrow.", answer: "La macchina? La faccio riparare domani.", altAnswers: ["La macchina? La faccio aggiustare domani.", "La macchina? Domani la faccio riparare."], explanation: "\"La\" before \"faccio\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The shirts? I had them washed.", answer: "Le camicie? Le ho fatte lavare.", explanation: "\"Fatte\" agrees with \"le\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll have it sent to me by email. (the file)", answer: "Me lo faccio mandare per email.", altAnswers: ["Me lo faccio mandare via email.", "Me lo faccio inviare per email.", "Me lo farò mandare per email."], explanation: "\"Mi\" + \"lo\" = \"me lo\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I showed it to him. (the video)", answer: "Gliel'ho fatto vedere.", altAnswers: ["Glielo ho fatto vedere."], explanation: "\"Gli\" + \"lo\" = \"glielo\", elided to \"gliel'\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I showed it to him. (the video)", answer: "Gliel'ho fatto vedere.", explanation: "\"Gli\" + \"lo\" = \"glielo\", elided to \"gliel'\" before \"ho\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I need to have it checked. (the boiler)", answer: "Devo farla controllare.", altAnswers: ["La devo far controllare.", "La devo fare controllare."], explanation: "Pronoun on the infinitive \"far(e)\" or before the modal." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Show them in. (formal, the guests)", answer: "Li faccia entrare.", altAnswers: ["Li fa entrare."], explanation: "Formal imperative: \"li\" before \"faccia\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Show them in. (formal, the guests)", answer: "Li faccia entrare.", explanation: "Formal imperative: \"li\" before \"faccia\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll let you know. (to a friend)", answer: "Te lo faccio sapere.", altAnswers: ["Ti faccio sapere.", "Ti farò sapere.", "Te lo farò sapere."], explanation: "\"Ti\" + \"lo\" = \"te lo\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Let them go out. (to a friend)", answer: "Lasciali uscire.", explanation: "Same pattern with \"lasciare\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The pizza? [We had it delivered].", sentence: "La pizza? ___.", answer: "L'abbiamo fatta portare", altAnswers: ["L'abbiamo fatta consegnare", "La abbiamo fatta portare"], explanation: "\"Fatta\" agrees with \"la\"." },
@@ -498,7 +502,7 @@ export const IT_B1_U19: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'd like to book an appointment for a haircut.", answer: "Vorrei prendere un appuntamento per farmi tagliare i capelli.", altAnswers: ["Vorrei fissare un appuntamento per farmi tagliare i capelli.", "Vorrei prenotare per farmi tagliare i capelli."], explanation: "\"Farmi tagliare\": \"mi\" on the infinitive." },
-          { type: "listen-choose", audio: "Forse li faccio solo spuntare.", question: "What does Sofia want?", options: ["Just a trim", "A completely new style", "A colour", "Nothing at all"], correctIndex: 0, explanation: "\"Spuntare\" = to trim the ends." },
+          { type: "listen-choose", audio: "Forse li faccio solo spuntare.", question: "What does Sofia want?", options: ["Just a trim", "A completely new style", "A color", "Nothing at all"], correctIndex: 0, explanation: "\"Spuntare\" = to trim the ends." },
         ],
       },
       {
@@ -539,7 +543,7 @@ export const IT_B1_U19: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Why don't we make them a bit shorter?", answer: "Perché non li facciamo un po' più corti?", explanation: "\"Fare\" + adjective = make them shorter." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Shall I blow-dry it too? (to a friend)", answer: "Ti faccio anche la piega?", explanation: "\"Fare la piega\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You look great! (to a friend)", answer: "Stai benissimo!", altAnswers: ["Stai molto bene!"], explanation: "\"Stare bene\" = to look good on someone." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'd like to have my hair coloured.", answer: "Vorrei farmi fare il colore.", altAnswers: ["Vorrei farmi tingere i capelli.", "Vorrei fare il colore."], explanation: "\"Farsi fare il colore\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'd like to have my hair colored.", answer: "Vorrei farmi fare il colore.", altAnswers: ["Vorrei farmi tingere i capelli.", "Vorrei fare il colore."], explanation: "\"Farsi fare il colore\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I [had them cut] by Franco. (a woman speaking)", sentence: "Me li sono ___ da Franco.", answer: "fatti tagliare", explanation: "\"Fatti\" agrees with \"li\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I [let myself be talked into] a new style.", sentence: "Mi sono ___ un taglio nuovo.", answer: "lasciata convincere a fare", altAnswers: ["lasciato convincere a fare", "fatta convincere a fare", "fatto convincere a fare"], explanation: "\"Lasciarsi convincere a\"." },
       { type: "word-order", prompt: "Put the words in order to say: Can you show me the back?", words: ["Mi", "fai", "vedere", "dietro?"], translation: "Can you show me the back?", explanation: "\"Far vedere\"." },
@@ -637,7 +641,7 @@ export const IT_B1_U19: Lesson[] = [
       {
         heading: "Your list",
         body: [
-          "Your mission: you're going away on Monday and you send your flatmate a list of what you need to have done this week. Use \"devo far\" + infinitive for jobs other people do: \"Devo far controllare la caldaia\", \"Devo far riparare la serratura\".",
+          "Your mission: you're going away on Monday and you send your roommate a list of what you need to have done this week. Use \"devo far\" + infinitive for jobs other people do: \"Devo far controllare la caldaia\", \"Devo far riparare la serratura\".",
           "Add one or two things for yourself with \"farsi\": \"Mi faccio tagliare i capelli giovedì\".",
         ],
         examples: [
@@ -663,7 +667,7 @@ export const IT_B1_U19: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Let me know if there are any problems. (to a friend)", answer: "Fammi sapere se ci sono problemi.", altAnswers: ["Fammi sapere se ci sono dei problemi."], explanation: "\"Fammi sapere\"." },
-          { type: "listen-choose", audio: "Il tecnico viene martedì: fallo entrare tu, per favore.", question: "What should the flatmate do on Tuesday?", options: ["Let the technician in", "Call the technician", "Pay the technician", "Fix the boiler"], correctIndex: 0, explanation: "\"Fallo entrare\" = let him in." },
+          { type: "listen-choose", audio: "Il tecnico viene martedì: fallo entrare tu, per favore.", question: "What should the roommate do on Tuesday?", options: ["Let the technician in", "Call the technician", "Pay the technician", "Fix the boiler"], correctIndex: 0, explanation: "\"Fallo entrare\" = let him in." },
         ],
       },
     ],
@@ -684,7 +688,7 @@ export const IT_B1_U19: Lesson[] = [
 
 export const IT_B1_U19_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You're going away for a week, and your flatmate will be at home. Write them a note: what you've already had done, what you still need to have done (and when the workers are coming), what you'll do for yourself, and what you leave to them.",
+  prompt: "You're going away for a week, and your roommate will be at home. Write them a note: what you've already had done, what you still need to have done (and when the workers are coming), what you'll do for yourself, and what you leave to them.",
   minWords: 80,
   maxWords: 150,
   rubric: [

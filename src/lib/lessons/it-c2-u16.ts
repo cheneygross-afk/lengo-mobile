@@ -2,7 +2,7 @@
 import type { Lesson, WriteExercise } from "./types";
 
 // Italian C2 Unit 16: Translation Lab, Part 2. Literary and journalistic
-// translation from English, cultural references, humour, translation
+// translation from English, cultural references, humor, translation
 // notes. All source passages are original. Conventions:
 // docs/italian-course/authoring.md.
 export const IT_C2_U16: Lesson[] = [
@@ -41,7 +41,7 @@ export const IT_C2_U16: Lesson[] = [
           "English repeats \"said\" happily; Italian tolerates \"disse\" too, but translators vary with \"rispose\", \"chiese\", \"aggiunse\", \"mormorò\", \"ribatté\" when the English verb implies it. Don't overdo it: a page of \"sibilò\", \"tuonò\", \"esclamò\" sounds amateurish.",
           "English -ly adverbs often become a prepositional phrase or are absorbed into the verb: ‘she said quietly’ → \"disse a bassa voce\"; ‘he looked at her angrily’ → \"la guardò con rabbia\"; ‘she walked slowly away’ → \"si allontanò lentamente\" or \"si allontanò piano\". Stacked \"-mente\" adverbs sound heavy in Italian.",
           "Dialogue layout: Italian books use « » or a long dash, and attribution comes after a comma: «Vieni?» chiese. The English ‘he said’ in the middle of a sentence becomes an inciso: «Non lo so», disse, «forse domani.»",
-          "Italian has many dialogue verbs, but the rule is the same as in English: vary them only when the author does. A page of \"esclamò\", \"replicò\", \"sibilò\" and \"borbottò\" where the original repeats ‘said’ sounds amateurish. \"Disse\" and \"chiese\" are as invisible in Italian as ‘said’ and ‘asked’ are in English; keep the stronger verbs for the moments the author marks.",
+          "Watch the word order of attributions: Italian inverts verb and subject (\"disse Marta\", \"chiese il vecchio\"), and an attribution placed before the speech in English (‘Marta said: ...’) usually moves after the quote in Italian. Long exchanges with no attribution at all are as normal in Italian as in English: don't add a \"disse\" the author left out, and don't add \"lui\" or \"lei\" unless the speaker would otherwise be unclear.",
         ],
         examples: [
           { es: "«Vieni?» chiese.", en: "'Are you coming?' she asked." },
@@ -116,7 +116,7 @@ export const IT_C2_U16: Lesson[] = [
           "English headlines use the present for past events and drop articles: ‘PM vows to cut taxes’. Italian headlines also compress, but differently: nominal style (\"Tasse, la promessa della premier: «Le taglieremo»\"), the present (\"La premier promette di tagliare le tasse\"), or a colon introducing a quote. A word-for-word headline sounds translated.",
           "English headline verbs are short and dramatic: slam, vow, blast, eye, axe. Italian equivalents: \"attaccare\", \"criticare duramente\", \"promettere\", \"puntare a\", \"tagliare\". \"Slams\" is not *sbatte: \"Il sindaco attacca il governo\".",
           "Gender: Italian has \"la premier\", \"la ministra\" or \"il ministro\" for a woman (both are used; follow the house style), \"la sindaca\". English \"PM\" may need a name in Italian: Italian readers don't know which country's PM.",
-          "English headlines drop articles and use short, punchy verbs (‘slams’, ‘eyes’, ‘axes’). Italian headlines keep their verbs standard but strong: \"attacca\", \"punta a\", \"taglia\", \"boccia\" (rejects), \"apre a\" (signals openness to). Avoid calques: a verb that means hitting a door would make an Italian reader picture a door.",
+          "Italian front pages stack three parts: \"l'occhiello\" (a kicker line above), \"il titolo\" and \"il sommario\" (the subhead), so an English headline plus standfirst often becomes \"titolo\" + \"sommario\". Italian headlines also like a topic word and a comma, then stock nominal formulas: \"Scuola, via libera alla riforma\" (green light for), \"Stretta sugli affitti brevi\" (crackdown on), \"Stop ai voli notturni\".",
         ],
         examples: [
           { es: "Tasse, la promessa della premier: «Le taglieremo».", en: "PM vows to cut taxes." },
@@ -136,7 +136,7 @@ export const IT_C2_U16: Lesson[] = [
           "‘Sources say the minister is considering resigning’ → \"Secondo fonti vicine al ministero, il ministro starebbe valutando le dimissioni.\" The Italian journalistic conditional (\"starebbe\", \"avrebbe detto\", \"sarebbe stato arrestato\") translates English hedges like reportedly, allegedly, is said to, according to sources.",
           "Don't double the hedge: \"reportedly\" + Italian conditional is enough; *secondo indiscrezioni pare che avrebbe is overkill. \"Allegedly\" in crime reports: \"presunto\" (\"il presunto autore della rapina\") or the conditional.",
           "Quotes: English ‘he said’ after every quote; Italian news varies with \"ha dichiarato\", \"ha spiegato\", \"ha sottolineato\", \"ha aggiunto\", and often uses guillemets with the verb first: \"Ha dichiarato il ministro: «...»\".",
-          "‘Allegedly’ and ‘suspected’ need the same care: \"presunto\" before the noun (\"il presunto autore\"), the conditional (\"avrebbe sottratto\"), or \"secondo l'accusa\" when the claim comes from prosecutors. Never drop the hedge: a translation that turns an allegation into a fact is a legal problem, not just a style problem.",
+          "Translate attribution verbs by meaning, not by form: ‘claimed’ is \"ha sostenuto\" or \"ha affermato\" (never *ha reclamato, which means to complain or demand); ‘insisted’ is \"ha ribadito\"; ‘denied’ is \"ha smentito\" for a report and \"ha negato\" for an accusation. And never drop a hedge: a translation that turns an allegation into a fact is a legal problem, not just a style problem.",
         ],
         examples: [
           { es: "Il ministro starebbe valutando le dimissioni.", en: "The minister is reportedly considering resigning." },
@@ -154,9 +154,9 @@ export const IT_C2_U16: Lesson[] = [
         heading: "Institutions, numbers, names",
         body: [
           "Institutions: translate those with an established Italian name (\"la Camera dei Comuni\", \"il Congresso\", \"la Corte Suprema\", \"il Tesoro\"), keep others with a gloss (\"l'NHS, il servizio sanitario britannico\"). ‘The Fed’ stays \"la Fed\"; ‘the ECB’ becomes \"la BCE\".",
-          "Numbers: \"$2bn\" → \"2 miliardi di dollari\"; \"1.5m\" → \"1,5 milioni\"; \"a third\" → \"un terzo\". Imperial units in news are usually converted (\"30 miles\" → \"circa 50 chilometri\"), while in fiction they may stay for local colour.",
+          "Numbers: \"$2bn\" → \"2 miliardi di dollari\"; \"1.5m\" → \"1,5 milioni\"; \"a third\" → \"un terzo\". Imperial units in news are usually converted (\"30 miles\" → \"circa 50 chilometri\"), while in fiction they may stay for local color.",
           "Names of places with Italian forms use them: \"Londra\", \"Edimburgo\", \"Nuova York\" is dated (use \"New York\"), \"Monaco\" (Munich) and \"Monaco\" (Monaco) need context: write \"Monaco di Baviera\" when it's Munich and ambiguity is possible.",
-          "Numbers follow Italian conventions: a comma for decimals (\"2,5 per cento\"), a point or nothing for thousands (\"2.000\" or \"2000\"), and \"miliardi\" for English billions. In a direct quotation, keep the speaker's unit and add the conversion in brackets if the reader needs it.",
+          "Titles are false friends too. The British ‘Prime Minister’ is \"il primo ministro\" or \"il premier\", while Italy's own head of government is formally \"il Presidente del Consiglio\". The US ‘Secretary of State’ is \"il segretario di Stato\", the foreign minister; a British ‘Secretary of State’ is simply a cabinet minister. The US ‘Attorney General’ heads the Justice Department, so Italian papers usually gloss it (\"il ministro della Giustizia americano\") rather than write a misleading \"procuratore generale\".",
         ],
         examples: [
           { es: "La Camera dei Comuni ha approvato la legge.", en: "The House of Commons passed the bill." },
@@ -202,13 +202,13 @@ export const IT_C2_U16: Lesson[] = [
     level: "IT-C2",
     number: 3,
     title: "Cultural References",
-    summary: "Decide whether to keep, explain, generalise, adapt or omit English cultural references when translating into Italian.",
+    summary: "Decide whether to keep, explain, generalize, adapt or omit English cultural references when translating into Italian.",
     duration: "19 min",
     sections: [
       {
         heading: "Five strategies",
         body: [
-          "Every cultural reference forces a choice. Translators name five strategies: keep it (\"il pub\", \"Halloween\"), keep and gloss it (\"il Thanksgiving, la festa del Ringraziamento\"), generalise (\"GCSEs\" → \"gli esami di fine scuola media superiore\" is wrong level; better \"gli esami di fine ciclo\" or simply \"gli esami\"), adapt to an Italian equivalent (\"a bake sale\" → \"una vendita di torte di beneficenza\"), or omit when it adds nothing.",
+          "Every cultural reference forces a choice. Translators name five strategies: keep it (\"il pub\", \"Halloween\"), keep and gloss it (\"il Thanksgiving, la festa del Ringraziamento\"), generalize (\"GCSEs\" has no Italian match: \"gli esami di fine ciclo\" or simply \"gli esami\" will do), adapt to an Italian equivalent (\"a bake sale\" → \"una vendita di torte di beneficenza\"), or omit when it adds nothing.",
           "The choice depends on genre and reader. A novel set in Manchester keeps \"il pub\" and \"la sterlina\": the setting is the point. A business brochure aimed at Italians adapts: \"Black Friday deals\" can stay (Italians know Black Friday), but ‘a Fourth of July sale’ may become \"i saldi d'estate\".",
           "Glosses must be light: \"il Ringraziamento, la grande cena di famiglia di fine novembre\" works in a novel; a footnote breaks the spell and is a last resort.",
           "Whatever strategy you choose, be consistent. If you keep \"pub\" on page one, don't turn it into \"osteria\" on page ten; if you convert pounds into euros once, the whole book must follow. Readers forgive a foreign word, but not a world that changes from chapter to chapter.",
@@ -216,22 +216,22 @@ export const IT_C2_U16: Lesson[] = [
         examples: [
           { es: "Si incontravano al pub ogni venerdì.", en: "They met at the pub every Friday." },
           { es: "Per il Ringraziamento, la grande cena di famiglia, tornò a Boston.", en: "For Thanksgiving, she went back to Boston." },
-          { es: "La scuola organizzò una vendita di torte di beneficenza.", en: "The school organised a bake sale." },
+          { es: "La scuola organizzò una vendita di torte di beneficenza.", en: "The school organized a bake sale." },
           { es: "Aveva appena finito gli esami di maturità.", en: "She had just finished her A-levels." },
           { es: "Costava cinquanta sterline.", en: "It cost fifty pounds." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian, adapting for an Italian reader.", source: "The school organised a bake sale.", answer: "La scuola organizzò una vendita di torte di beneficenza.", altAnswers: ["La scuola ha organizzato una vendita di torte di beneficenza.", "La scuola organizzò una vendita di dolci di beneficenza.", "La scuola ha organizzato una vendita di dolci di beneficenza."], explanation: "Adapt with a description: Italian schools have no fixed equivalent." },
-          { type: "multiple-choice", question: "A thriller set in London mentions ‘the Tube’. What's the usual solution?", options: ["la metropolitana (or la metro)", "il tubo", "the Tube, untranslated, with a footnote", "il tram"], correctIndex: 0, explanation: "Generalise to the Italian word; \"il tubo\" would be absurd." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian, adapting for an Italian reader.", source: "The school organized a bake sale.", answer: "La scuola organizzò una vendita di torte di beneficenza.", altAnswers: ["La scuola ha organizzato una vendita di torte di beneficenza.", "La scuola organizzò una vendita di dolci di beneficenza.", "La scuola ha organizzato una vendita di dolci di beneficenza."], explanation: "Adapt with a description: Italian schools have no fixed equivalent." },
+          { type: "multiple-choice", question: "A thriller set in London mentions ‘the Tube’. What's the usual solution?", options: ["la metropolitana (or la metro)", "il tubo", "the Tube, untranslated, with a footnote", "il tram"], correctIndex: 0, explanation: "Generalize to the Italian word; \"il tubo\" would be absurd." },
         ],
       },
       {
         heading: "Equivalents that aren't",
         body: [
           "Some apparent equivalents mislead. \"A-levels\" are close to \"la maturità\", which works in a novel. \"College\" in an American text is usually \"l'università\", not *il collegio (a boarding school). \"High school\" is \"il liceo\" or \"la scuola superiore\". ‘The sixth form’ has no equivalent: \"gli ultimi due anni di liceo\".",
-          "Food and drink: \"a pint\" → \"una pinta\" (Italians know it from pubs); ‘a cup of tea’ → \"un tè\"; \"biscuits\" → \"biscotti\"; \"pudding\" is not \"budino\" in general: British \"pudding\" means dessert (\"il dolce\"). \"Dinner\" can be lunch in northern English: read the context.",
-          "Measurements and money in fiction stay foreign for colour (\"sei piedi\" sounds odd, though: translators usually convert height to \"un metro e ottanta\").",
-          "Food is a trap of its own. British ‘pudding’ often means any dessert (\"il dolce\"), and British ‘biscuits’ are \"biscotti\"; American ‘biscuits’, however, are soft savoury rolls with no Italian name, so a short description works better than a false equivalent. Check which English the author writes before you choose.",
+          "Food and drink: \"a pint\" → \"una pinta\" (Italians know it from pubs); ‘a cup of tea’ → \"un tè\". Meals shift too: in northern England ‘dinner’ can be the midday meal and ‘tea’ the evening one, so read the context before you write \"cena\".",
+          "Measurements and money in fiction stay foreign for color (\"sei piedi\" sounds odd, though: translators usually convert height to \"un metro e ottanta\").",
+          "Sweet things are a trap of their own. British ‘pudding’ often means any dessert (\"il dolce\"), and British ‘biscuits’ are \"biscotti\"; American ‘biscuits’, however, are soft savory rolls with no Italian name, so a short description works better than a false equivalent. Check which English the author writes before you choose.",
         ],
         examples: [
           { es: "Si è iscritta all'università a diciotto anni.", en: "She went to college at eighteen." },
@@ -243,14 +243,14 @@ export const IT_C2_U16: Lesson[] = [
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She went to college at eighteen. (American text)", answer: "Si è iscritta all'università a diciotto anni.", altAnswers: ["È andata all'università a diciotto anni.", "Andò all'università a diciotto anni.", "Si iscrisse all'università a diciotto anni."], explanation: "American college = \"università\"; \"collegio\" is a boarding school." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "For pudding there was apple pie.", answer: "Per dolce c'era una torta di mele.", altAnswers: ["Come dolce c'era una torta di mele.", "Per dessert c'era una torta di mele."], explanation: "British pudding = dessert, \"il dolce\"." },
-          { type: "listen-choose", audio: "Era alto un metro e ottanta.", question: "How tall was he?", options: ["about six feet", "about five feet", "one metre", "eighty centimetres"], correctIndex: 0, explanation: "1.80 m is roughly six feet." },
+          { type: "listen-choose", audio: "Era alto un metro e ottanta.", question: "How tall was he?", options: ["about six feet", "about five feet", "one meter", "eighty centimeters"], correctIndex: 0, explanation: "1.80 m is roughly six feet." },
         ],
       },
       {
         heading: "Allusions and quotations",
         body: [
           "English texts allude to the Bible, Shakespeare, nursery rhymes and pop culture. If the allusion has an established Italian form, use it: \"Essere o non essere\", \"il buon samaritano\", \"Houston, abbiamo un problema\". If it doesn't, you may need to replace it with an Italian allusion of similar weight, or let it go and keep the meaning.",
-          "\"Humpty Dumpty\" means nothing to most Italians; \"cadde come una pera cotta\" (fell like a cooked pear) carries the idea of a fall in a familiar idiom. Always ask: what does the allusion do in the sentence? Then do the same in Italian.",
+          "\"Humpty Dumpty\" means nothing to most Italians; if the point is a fall that can't be undone, plain Italian such as \"andò in mille pezzi\" (it smashed into a thousand pieces) carries it better than a footnote. Always ask: what does the allusion do in the sentence? Then do the same in Italian.",
           "Famous lines that already exist in Italian should be quoted as Italians know them: the Bible, Shakespeare and Dante all have established forms. Use \"Essere o non essere\" as every reader can recite it, and don't invent a fresh version of a line that is part of the shared memory.",
         ],
         examples: [
@@ -271,7 +271,7 @@ export const IT_C2_U16: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Shall we have a pint?", answer: "Prendiamo una pinta?", altAnswers: ["Ci beviamo una pinta?", "Ci prendiamo una birra?", "Prendiamo una birra?"], explanation: "\"Una pinta\" is understood; \"una birra\" adapts." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He was six feet tall.", answer: "Era alto un metro e ottanta.", altAnswers: ["Era alto circa un metro e ottanta.", "Era alto un metro e ottantadue."], explanation: "Convert height for Italian readers." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "She had just finished her [A-levels].", sentence: "Aveva appena finito ___.", answer: "la maturità", altAnswers: ["gli esami di maturità"], explanation: "The closest Italian institution." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "For [Thanksgiving] she went back to Boston.", sentence: "Per ___ tornò a Boston.", answer: "il Ringraziamento", altAnswers: ["il giorno del Ringraziamento", "Thanksgiving"], explanation: "Established Italian name, capitalised." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "For [Thanksgiving] she went back to Boston.", sentence: "Per ___ tornò a Boston.", answer: "il Ringraziamento", altAnswers: ["il giorno del Ringraziamento", "Thanksgiving"], explanation: "Established Italian name, capitalized." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "To be or not to be: [that was the question].", sentence: "Essere o non essere: ___.", answer: "questo era il dilemma", altAnswers: ["questo era il problema"], explanation: "Use the established Italian form." },
       { type: "word-order", prompt: "Put the words in order to say: It cost fifty pounds.", words: ["Costava", "cinquanta", "sterline."], translation: "It cost fifty pounds.", explanation: "Keep the currency in a British setting." },
       { type: "multiple-choice", question: "American \"college\" in a novel is usually ...", options: ["l'università", "il collegio", "il liceo", "la scuola media"], correctIndex: 0, explanation: "\"Collegio\" is a boarding school." },
@@ -286,22 +286,22 @@ export const IT_C2_U16: Lesson[] = [
         ],
         explanation: "Strategies for cultural references.",
       },
-      { type: "dictation", audio: "Per il Ringraziamento tornò a Boston dalla famiglia.", explanation: "Holiday names are capitalised." },
+      { type: "dictation", audio: "Per il Ringraziamento tornò a Boston dalla famiglia.", explanation: "Holiday names are capitalized." },
       { type: "speak", text: "In questo caso conviene adattare: per un lettore italiano, una vendita di torte di beneficenza è più chiara.", prompt: "Justify your choice in Italian: In this case it's better to adapt: for an Italian reader, a charity cake sale is clearer.", tip: "be-ne-fi-CEN-za: stress on CEN.", explanation: "Explaining a translation choice." },
     ],
   },
   {
-    slug: "c2-translating-humour",
+    slug: "c2-translating-humor",
     level: "IT-C2",
     number: 4,
-    title: "Translating Humour",
+    title: "Translating Humor",
     summary: "Translate jokes, puns, comic idioms and irony into Italian: keep, replace or compensate, and protect the timing of the punchline.",
     duration: "19 min",
     sections: [
       {
         heading: "Wordplay: keep, replace or compensate",
         body: [
-          "Humour is the hardest test for a translator, because a joke has a job: it must make the Italian reader smile at the same moment as the English one. Start by asking whether the literal version still works. Sometimes it does, by luck: ‘I used to be a banker, but I lost interest’ becomes \"Facevo il banchiere, ma ho perso interesse\", because \"interesse\" means both curiosity and the money a loan earns.",
+          "Humor is the hardest test for a translator, because a joke has a job: it must make the Italian reader smile at the same moment as the English one. Start by asking whether the literal version still works. Sometimes it does, by luck: ‘I used to be a banker, but I lost interest’ becomes \"Facevo il banchiere, ma ho perso interesse\", because \"interesse\" means both curiosity and the money a loan earns.",
           "When the pun dies in Italian, you have three honest options. Replace it with an Italian pun on the same theme; compensate by placing a joke a line earlier or later, where Italian offers one; or, in a scholarly edition, keep the literal meaning and add a \"nota del traduttore\" (\"N.d.T.\"). A note explains the joke but kills the laugh, so use it only when the wordplay matters to the plot.",
           "Italian has a ready-made pun genre, \"il colmo\": \"Qual è il colmo per un idraulico? Non capire un tubo.\" (\"Non capire un tubo\" means to understand nothing, and \"tubo\" is also a pipe.) In children's books and comic dialogue, swapping an English pun for a \"colmo\" on the same subject is often the most natural solution an Italian reader could hope for.",
         ],
@@ -401,7 +401,7 @@ export const IT_C2_U16: Lesson[] = [
         heading: "News and references",
         body: [
           "For news, use the Italian headline style: present tense, nouns, a colon or a quotation, and the reporting conditional for unconfirmed facts (\"sarebbe\", \"avrebbe\"). Convert miles, feet and pounds when the reader needs a picture, and use established Italian names for institutions and cities.",
-          "For cultural references and jokes, ask what the reference or joke does, then choose: keep, keep and gloss, adapt, generalise, or replace with an Italian equivalent.",
+          "For cultural references and jokes, ask what the reference or joke does, then choose: keep, keep and gloss, adapt, generalize, or replace with an Italian equivalent.",
         ],
         examples: [
           { es: "Il ministro avrebbe incontrato i sindacati.", en: "The minister reportedly met the unions." },
@@ -422,14 +422,14 @@ export const IT_C2_U16: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "As soon as he had left, she began to cry.", answer: "Appena fu uscito, cominciò a piangere.", altAnswers: ["Appena lui fu uscito, lei cominciò a piangere.", "Appena era uscito, cominciò a piangere.", "Non appena fu uscito, cominciò a piangere.", "Appena se ne fu andato, cominciò a piangere."], explanation: "\"Trapassato remoto\" after \"appena\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (news style).", source: "Bank axes 2,000 jobs.", answer: "La banca taglia 2000 posti di lavoro.", altAnswers: ["Banca, tagliati 2000 posti di lavoro.", "La banca taglia duemila posti di lavoro."], explanation: "Present tense; Italian writes 2000 or 2.000." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (news style).", source: "The alleged attacker has been arrested.", answer: "Il presunto aggressore è stato arrestato.", altAnswers: ["Il presunto aggressore è stato fermato.", "È stato arrestato il presunto aggressore."], explanation: "\"Presunto\" for \"alleged\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The town is about six miles from the coast.", answer: "Il paese è a circa dieci chilometri dalla costa.", altAnswers: ["La cittadina è a circa dieci chilometri dalla costa.", "Il paese si trova a circa dieci chilometri dalla costa."], explanation: "Six miles ≈ ten kilometres." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The town is about six miles from the coast.", answer: "Il paese è a circa dieci chilometri dalla costa.", altAnswers: ["La cittadina è a circa dieci chilometri dalla costa.", "Il paese si trova a circa dieci chilometri dalla costa."], explanation: "Six miles ≈ ten kilometers." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "For her it was a piece of cake.", answer: "Per lei è stato un gioco da ragazzi.", altAnswers: ["Per lei è stata una passeggiata.", "Per lei fu un gioco da ragazzi."], explanation: "Replace the idiom." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He behaved like a good Samaritan.", answer: "Si comportò da buon samaritano.", altAnswers: ["Si è comportato da buon samaritano.", "Si comportò come un buon samaritano."], explanation: "An allusion with an established Italian form." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "According to sources, a deal [is near].", sentence: "Secondo alcune fonti, l'accordo ___ vicino.", answer: "sarebbe", explanation: "Unconfirmed: conditional." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Shall we have [a pint]?", sentence: "Prendiamo ___?", answer: "una pinta", altAnswers: ["una birra"], explanation: "Keep or adapt." },
       { type: "word-order", prompt: "Put the words in order to say: He was tired. Tired of everything.", words: ["Era", "stanco.", "Stanco", "di", "tutto."], translation: "He was tired. Tired of everything.", explanation: "Keep the repetition: it is the voice." },
       { type: "word-order", prompt: "Put the words in order to say: The meeting was short: only three hours.", words: ["La", "riunione", "è", "stata", "breve:", "appena", "tre", "ore."], translation: "The meeting was short: only three hours.", explanation: "The twist stays last." },
-      { type: "listen-choose", audio: "Il premier avrebbe già firmato l'accordo, ma manca la conferma ufficiale.", question: "What do we know?", options: ["The signing is reported but not confirmed.", "The PM refused to sign.", "The signing is officially confirmed.", "The agreement was cancelled."], correctIndex: 0, explanation: "\"Avrebbe firmato\" + \"manca la conferma\"." },
+      { type: "listen-choose", audio: "Il premier avrebbe già firmato l'accordo, ma manca la conferma ufficiale.", question: "What do we know?", options: ["The signing is reported but not confirmed.", "The PM refused to sign.", "The signing is officially confirmed.", "The agreement was canceled."], correctIndex: 0, explanation: "\"Avrebbe firmato\" + \"manca la conferma\"." },
       { type: "speak", text: "«Non lo so», disse a bassa voce, «forse domani.»", prompt: "Read the line aloud: 'I don't know,' he said quietly, 'maybe tomorrow.'", tip: "Lower your voice on the inserted \"disse a bassa voce\".", explanation: "Dialogue rhythm." },
     ],
   },
@@ -464,7 +464,7 @@ export const IT_C2_U16: Lesson[] = [
         heading: "Version B",
         body: [
           "Version B moves further from the English words and closer to Italian prose: \"Quando Clara arrivò in stazione, aveva smesso di piovere. Prese un caffè di cui non aveva voglia e si sedette vicino alla vetrata, a guardare i treni che partivano senza di lei. Da qualche parte rideva un bambino. Pensò al padre, che ripeteva sempre che i treni sono per chi sa dove va.\"",
-          "Look at the choices. The time clause comes first, so the sentence ends on the weather, as English does. \"Prese un caffè\" is how Italians order coffee, and \"di cui non aveva voglia\" is more idiomatic than \"che non voleva\". \"Vetrata\" fits a station better than \"finestra\". \"A guardare\" links the action naturally, and \"rideva un bambino\" puts the sound before its source.",
+          "Look at the choices. The time clause comes first, so the sentence ends on the weather, the information an Italian reader expects at the end. \"Prese un caffè\" is how Italians order coffee, and \"di cui non aveva voglia\" is more idiomatic than \"che non voleva\". \"Vetrata\" fits a station better than \"finestra\". \"A guardare\" links the action naturally, and \"rideva un bambino\" puts the sound before its source.",
           "The ending is the boldest change. \"Al padre\" drops the possessive, as Italian does with close family when the owner is obvious. \"Ripeteva sempre\" turns a habit into a verb. And the saying moves into the present, \"i treni sono per chi sa dove va\", because a maxim stays true: it now sounds like something a father really says.",
         ],
         examples: [
@@ -509,7 +509,7 @@ export const IT_C2_U16: Lesson[] = [
       { type: "word-order", prompt: "Put the words in order to say: Somewhere a child was laughing.", words: ["Da", "qualche", "parte", "rideva", "un", "bambino."], translation: "Somewhere a child was laughing.", altOrders: [["Da", "qualche", "parte", "un", "bambino", "rideva."]], explanation: "Verb before subject: we hear the laugh first." },
       { type: "multi-select", question: "Which changes does version B make? Choose all that apply.", options: ["It puts the time clause first.", "It drops the possessive before \"padre\".", "It uses the present for the father's saying.", "It adds a new character.", "It removes the coffee."], correctIndexes: [0, 1, 2], explanation: "Words change; content doesn't." },
       { type: "listen-choose", audio: "Pensò al padre, che ripeteva sempre che i treni sono per chi sa dove va.", question: "What did her father use to say?", options: ["Trains are for people who know where they're going.", "Trains are always late.", "People should never travel alone.", "He hated stations."], correctIndex: 0, explanation: "\"Chi sa dove va\"." },
-      { type: "speak", text: "La versione B è più scorrevole, ma resta fedele al testo di partenza.", prompt: "Give your judgement aloud: Version B flows better, but it stays faithful to the source text.", tip: "scor-RE-vo-le: stress on RE.", explanation: "\"Testo di partenza\" = source text." },
+      { type: "speak", text: "La versione B è più scorrevole, ma resta fedele al testo di partenza.", prompt: "Give your judgment aloud: Version B flows better, but it stays faithful to the source text.", tip: "scor-RE-vo-le: stress on RE.", explanation: "\"Testo di partenza\" = source text." },
     ],
   },
   {
@@ -523,19 +523,19 @@ export const IT_C2_U16: Lesson[] = [
       {
         heading: "False friends",
         body: [
-          "The commonest errors in translation from English are false friends: words that look the same and mean something else. ‘To realise’ is \"rendersi conto\"; \"realizzare\" means to make something real (\"realizzare un progetto\"). \"Eventually\" is \"alla fine\"; \"eventualmente\" means if necessary. \"Actually\" is \"in realtà\"; \"attualmente\" means at present.",
+          "The commonest errors in translation from English are false friends: words that look the same and mean something else. ‘To realize’ is \"rendersi conto\"; \"realizzare\" means to make something real (\"realizzare un progetto\"). \"Eventually\" is \"alla fine\"; \"eventualmente\" means if necessary. \"Actually\" is \"in realtà\"; \"attualmente\" means at present.",
           "Others hide in description: \"sensible\" is \"sensato\" or \"assennato\", while \"sensibile\" means sensitive. \"Educated\" is \"istruito\" or \"colto\"; \"educato\" means polite. \"Argument\" in the sense of a quarrel is \"una discussione\" or \"un litigio\"; \"argomento\" is a topic. \"Library\" is \"biblioteca\"; \"libreria\" is a bookshop or a bookcase.",
           "A false friend is especially dangerous because the Italian sentence is grammatical: \"È una persona molto educata\" is perfect Italian, it just says the wrong thing. When you revise, slow down on every word that looks too much like the English one, and check that it means what the source means.",
         ],
         examples: [
-          { es: "Mi sono reso conto troppo tardi che aveva ragione.", en: "I realised too late that she was right." },
+          { es: "Mi sono reso conto troppo tardi che aveva ragione.", en: "I realized too late that she was right." },
           { es: "Alla fine ha accettato l'offerta.", en: "Eventually he accepted the offer." },
           { es: "In realtà non ci sono mai stato.", en: "Actually, I've never been there." },
           { es: "È stata una scelta sensata.", en: "It was a sensible choice." },
           { es: "Hanno avuto una discussione accesa.", en: "They had a heated argument." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I realised too late that she was right.", answer: "Mi sono reso conto troppo tardi che aveva ragione.", altAnswers: ["Mi sono resa conto troppo tardi che aveva ragione.", "Mi resi conto troppo tardi che aveva ragione.", "Ho capito troppo tardi che aveva ragione."], explanation: "\"Rendersi conto\", not \"realizzare\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I realized too late that she was right.", answer: "Mi sono reso conto troppo tardi che aveva ragione.", altAnswers: ["Mi sono resa conto troppo tardi che aveva ragione.", "Mi resi conto troppo tardi che aveva ragione.", "Ho capito troppo tardi che aveva ragione."], explanation: "\"Rendersi conto\", not \"realizzare\"." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Eventually he accepted the offer.", answer: "Alla fine ha accettato l'offerta.", altAnswers: ["Alla fine accettò l'offerta.", "Infine ha accettato l'offerta.", "Alla fine ha accettato la proposta."], explanation: "\"Eventualmente\" would mean \"if necessary\"." },
           { type: "multiple-choice", question: "‘She's a very educated woman’ is ...", options: ["È una donna molto colta.", "È una donna molto educata.", "È una donna molto sensibile.", "È una donna molto attuale."], correctIndex: 0, explanation: "\"Educata\" = polite." },
         ],
@@ -692,14 +692,14 @@ export const IT_C2_U16: Lesson[] = [
       {
         heading: "Paragraphs one and two",
         body: [
-          "Your mission is to translate an original 250-word story. It opens: ‘My grandmother never threw anything away. Buttons, string, the paper from oranges: everything went into a tin that had once held biscuits and now held, as she put it, the things we might need one day. When she died, we found eleven of these tins in the wardrobe, stacked like a small grey tower.’",
+          "Your mission is to translate an original 250-word story. It opens: ‘My grandmother never threw anything away. Buttons, string, the paper from oranges: everything went into a tin that had once held biscuits and now held, as she put it, the things we might need one day. When she died, we found eleven of these tins in the wardrobe, stacked like a small gray tower.’",
           "Decide the tenses first. A habit is imperfect: \"Mia nonna non buttava mai via niente.\" The events are \"passato remoto\", the classic choice for a story: \"Quando morì, nell'armadio trovammo undici di queste scatole.\" A tin is \"una scatola di latta\", and her own words go in Italian quotation marks: \"come diceva lei, «le cose che un giorno potrebbero servire»\".",
           "The second paragraph reads: ‘My mother wanted to throw them out at once. My uncle wanted to open every single one. They argued for an hour, in the kitchen where my grandmother had argued with both of them for fifty years, and in the end they did what families always do: they left the decision to the youngest. So the tins came home with me.’ Keep the short parallel sentences; they are the rhythm of the family quarrel.",
         ],
         examples: [
           { es: "Mia nonna non buttava mai via niente.", en: "My grandmother never threw anything away." },
           { es: "Tutto finiva in una scatola di latta che un tempo aveva contenuto biscotti.", en: "Everything went into a tin that had once held biscuits." },
-          { es: "Quando morì, nell'armadio trovammo undici di queste scatole, impilate come una piccola torre grigia.", en: "When she died, we found eleven of these tins in the wardrobe, stacked like a small grey tower." },
+          { es: "Quando morì, nell'armadio trovammo undici di queste scatole, impilate come una piccola torre grigia.", en: "When she died, we found eleven of these tins in the wardrobe, stacked like a small gray tower." },
           { es: "Mia madre voleva buttarle subito. Mio zio voleva aprirle una per una.", en: "My mother wanted to throw them out at once. My uncle wanted to open every single one." },
           { es: "Alla fine fecero quello che fanno sempre le famiglie: lasciarono la decisione al più giovane.", en: "In the end they did what families always do: they left the decision to the youngest." },
         ],
@@ -768,7 +768,7 @@ export const IT_C2_U16: Lesson[] = [
     level: "IT-C2",
     number: 10,
     title: "Listening Lab: Interpreting",
-    summary: "Listen to short talks, follow their structure, take consecutive notes and summarise what the speaker said in correct Italian.",
+    summary: "Listen to short talks, follow their structure, take consecutive notes and summarize what the speaker said in correct Italian.",
     duration: "19 min",
     sections: [
       {
@@ -792,7 +792,7 @@ export const IT_C2_U16: Lesson[] = [
         ],
       },
       {
-        heading: "Summarising in Italian",
+        heading: "Summarizing in Italian",
         body: [
           "To report a talk, use a verb that names what the speaker did: \"Il relatore sostiene che\", \"La relatrice ha ricordato che\", \"Ha poi aggiunto che\", \"Ha messo in guardia contro\", \"Ha concluso che\". Avoid repeating \"ha detto\": a varied verb is already half the summary.",
           "Mind the tense sequence. After a past reporting verb, a present becomes imperfect and a future becomes past conditional: \"I costi aumentano\" → \"Ha detto che i costi aumentavano\"; \"Interverremo\" → \"Ha detto che sarebbero intervenuti\". If the fact is still true, the present is acceptable: \"Ha ricordato che l'Italia è il secondo paese manifatturiero d'Europa.\"",
@@ -814,7 +814,7 @@ export const IT_C2_U16: Lesson[] = [
         heading: "Consecutive notes",
         body: [
           "Consecutive interpreters write very little: one idea per line, nouns rather than full sentences, and symbols for links. An arrow for increase or cause, a cross for negation, \"pb\" for \"problema\", \"gov\" for \"governo\". The verbs are rebuilt when you speak, so you don't need to note them all.",
-          "Practise with short talks of thirty to sixty seconds. Listen once without writing, then once with notes, then summarise aloud in Italian in half the time. Record yourself: you will hear at once where you hesitated and which signposts you missed.",
+          "Practice with short talks of thirty to sixty seconds. Listen once without writing, then once with notes, then summarize aloud in Italian in half the time. Record yourself: you will hear at once where you hesitated and which signposts you missed.",
           "Keep your notes in Italian as far as possible: if you write Italian words while listening, you will speak more fluently when you rebuild the speech. Note the first and last sentences almost in full, because they frame the whole summary.",
         ],
         examples: [
@@ -829,7 +829,7 @@ export const IT_C2_U16: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "listen-choose", audio: "In primo luogo, il turismo porta lavoro; in secondo luogo, però, rischia di svuotare i centri storici dei residenti.", question: "What is the speaker's second point?", options: ["Tourism risks emptying historic centres of residents.", "Tourism creates jobs.", "Historic centres need more hotels.", "Residents welcome tourists."], correctIndex: 0, explanation: "\"In secondo luogo, però\" introduces the risk." },
+      { type: "listen-choose", audio: "In primo luogo, il turismo porta lavoro; in secondo luogo, però, rischia di svuotare i centri storici dei residenti.", question: "What is the speaker's second point?", options: ["Tourism risks emptying historic centers of residents.", "Tourism creates jobs.", "Historic centers need more hotels.", "Residents welcome tourists."], correctIndex: 0, explanation: "\"In secondo luogo, però\" introduces the risk." },
       { type: "listen-choose", audio: "Non è affatto detto che l'intelligenza artificiale distrugga posti di lavoro: in passato ogni innovazione ne ha creati di nuovi.", question: "What is the speaker's attitude?", options: ["Doubtful that AI will destroy jobs", "Certain that AI will destroy jobs", "Indifferent to AI", "Hostile to all innovation"], correctIndex: 0, explanation: "\"Non è affatto detto che\" = it's far from certain." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The speaker argues that remote work is set to grow.", answer: "Il relatore sostiene che il lavoro da remoto sia destinato a crescere.", altAnswers: ["Il relatore sostiene che il lavoro da remoto è destinato a crescere.", "La relatrice sostiene che il lavoro da remoto sia destinato a crescere.", "La relatrice sostiene che il lavoro da remoto è destinato a crescere."], explanation: "\"Sostenere che\" + subjunctive or indicative." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In short, the speaker believes more training is needed.", answer: "In sintesi, la relatrice ritiene che serva più formazione.", altAnswers: ["In sintesi, il relatore ritiene che serva più formazione.", "In breve, la relatrice ritiene che serva più formazione.", "In sintesi, la relatrice ritiene che ci voglia più formazione."], explanation: "\"Ritenere che\" + subjunctive." },
@@ -839,20 +839,20 @@ export const IT_C2_U16: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[In short], the plan works.", sentence: "___, il piano funziona.", answer: "In sintesi", altAnswers: ["In breve", "Insomma"], explanation: "A summary opener." },
       { type: "word-order", prompt: "Put the words in order to say: She then added that the data was provisional.", words: ["Ha", "poi", "aggiunto", "che", "i", "dati", "erano", "provvisori."], translation: "She then added that the data was provisional.", explanation: "\"Ha poi aggiunto\": the adverb between auxiliary and participle." },
       { type: "dictation", audio: "Per concludere, vorrei sottolineare che i dati sono ancora provvisori.", explanation: "Two signposts in one sentence." },
-      { type: "speak", text: "In sintesi, il relatore sostiene che il turismo porti lavoro, ma che rischi di svuotare i centri storici.", prompt: "Summarise the talk aloud: In short, the speaker argues that tourism brings jobs but risks emptying the historic centres.", tip: "Keep the two subjunctives: \"porti\", \"rischi\".", explanation: "A one-sentence interpreted summary." },
+      { type: "speak", text: "In sintesi, il relatore sostiene che il turismo porti lavoro, ma che rischi di svuotare i centri storici.", prompt: "Summarize the talk aloud: In short, the speaker argues that tourism brings jobs but risks emptying the historic centers.", tip: "Keep the two subjunctives: \"porti\", \"rischi\".", explanation: "A one-sentence interpreted summary." },
     ],
   },
 ];
 
 export const IT_C2_U16_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Translate this original passage into Italian (about 110 words), then write a translator's note in Italian (50-80 words) explaining two of your choices. Passage: ‘The village had one bar, one church and one opinion about everything. When the new doctor arrived from the city, with her bicycle and her strange habit of saying good morning to everyone, the opinion was that she wouldn't last the winter. She lasted eleven winters. By the end, the old men in the bar had stopped talking about her and started talking to her, which, as my uncle said, is the highest honour the village can give. When she left, nobody said much. But the next morning, for the first time in living memory, the bar opened late.’",
+  prompt: "Translate this original passage into Italian (about 110 words), then write a translator's note in Italian (50-80 words) explaining two of your choices. Passage: ‘The village had one bar, one church and one opinion about everything. When the new doctor arrived from the city, with her bicycle and her strange habit of saying good morning to everyone, the opinion was that she wouldn't last the winter. She lasted eleven winters. By the end, the old men in the bar had stopped talking about her and started talking to her, which, as my uncle said, is the highest honor the village can give. When she left, nobody said much. But the next morning, for the first time in living memory, the bar opened late.’",
   minWords: 150,
   maxWords: 250,
   rubric: [
     "Translates the whole passage accurately, with nothing added or lost",
     "Chooses and keeps a consistent narrative tense (passato remoto or passato prossimo) with the imperfect for description",
-    "Keeps the humour: the short line about eleven winters and the play on talking about / talking to (parlare di / parlare con)",
+    "Keeps the humor: the short line about eleven winters and the play on talking about / talking to (parlare di / parlare con)",
     "Writes a translator's note in correct Italian that justifies two specific choices",
   ],
   modelAnswer: "Il paese aveva un bar, una chiesa e un'unica opinione su tutto. Quando dalla città arrivò la nuova dottoressa, con la sua bicicletta e la strana abitudine di salutare tutti, l'opinione generale fu che non avrebbe superato l'inverno. Ne superò undici. Alla fine i vecchi del bar avevano smesso di parlare di lei e avevano cominciato a parlare con lei, il che, come diceva mio zio, è il massimo onore che il paese possa concedere. Quando se ne andò, nessuno disse granché. Ma la mattina dopo, per la prima volta a memoria d'uomo, il bar aprì in ritardo.\n\nNota del traduttore. Ho scelto il passato remoto per il tono da racconto di paese. Ho reso la frase sugli undici inverni con «Ne superò undici», brevissima, per conservare l'effetto comico. Il gioco tra «parlare di lei» e «parlare con lei» funziona anche in italiano, quindi l'ho mantenuto alla lettera.",

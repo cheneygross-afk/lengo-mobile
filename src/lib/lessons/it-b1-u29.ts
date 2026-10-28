@@ -21,7 +21,7 @@ export const IT_B1_U29: Lesson[] = [
           "When the meaning could be each other or themselves, add \"a vicenda\" or \"l'un l'altro\" to be clear: \"Si aiutano a vicenda\".",
         ],
         examples: [
-          { es: "Ci vediamo domani al bar?", en: "Shall we meet at the bar tomorrow?" },
+          { es: "Ci vediamo domani al bar?", en: "Shall we meet at the café tomorrow?" },
           { es: "Vi sentite spesso tu e tua sorella?", en: "Do you and your sister talk often?" },
           { es: "Marco e Giulia si scrivono ogni giorno.", en: "Marco and Giulia write to each other every day." },
           { es: "I miei nonni si capiscono con uno sguardo.", en: "My grandparents understand each other with a look." },
@@ -54,16 +54,17 @@ export const IT_B1_U29: Lesson[] = [
       {
         heading: "Volersi bene and other feelings",
         body: [
-          "Feelings between people are often reciprocal: \"ci vogliamo bene\" (we love each other, family and friends), \"si amano\", \"si odiano\" (they hate each other), \"non si sopportano\" (they can't stand each other), \"si fidano l'uno dell'altra\" (they trust each other). \"Andare d'accordo\" (to get on) is not reflexive: \"Andiamo d'accordo\".",
+          "Feelings between people are often reciprocal: \"ci vogliamo bene\" (we love each other, family and friends), \"si amano\", \"si odiano\" (they hate each other), \"non si sopportano\" (they can't stand each other), \"si fidano l'uno dell'altra\" (they trust each other). \"Andare d'accordo\" (to get along) is not reflexive: \"Andiamo d'accordo\".",
+          "Pronouns move with infinitives like any reflexive: \"Dobbiamo vederci\" or \"Ci dobbiamo vedere\", \"Possiamo darci del tu?\" (can we use tu with each other?). Two reciprocal goodbyes are everyday Italian: \"Ci vediamo!\" (see you) and \"Ci sentiamo!\" (talk soon, by phone or message). Here \"sentirsi\" doesn't mean to feel: \"Ci sentiamo spesso\" means we're often in touch.",
         ],
         examples: [
           { es: "Io e mia sorella ci vogliamo molto bene.", en: "My sister and I love each other very much." },
           { es: "Quei due non si sopportano.", en: "Those two can't stand each other." },
-          { es: "Andiamo molto d'accordo.", en: "We get on very well." },
+          { es: "Andiamo molto d'accordo.", en: "We get along very well." },
           { es: "Dopo vent'anni si amano ancora.", en: "After twenty years they still love each other." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We get on very well.", answer: "Andiamo molto d'accordo.", altAnswers: ["Noi andiamo molto d'accordo.", "Andiamo d'accordo benissimo."], explanation: "\"Andare d'accordo\": not reflexive." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We get along very well.", answer: "Andiamo molto d'accordo.", altAnswers: ["Noi andiamo molto d'accordo.", "Andiamo d'accordo benissimo."], explanation: "\"Andare d'accordo\": not reflexive." },
           { type: "listen-choose", audio: "Quei due non si sopportano.", question: "What does it mean?", options: ["Those two can't stand each other.", "Those two support each other.", "Those two don't see each other.", "Those two can't stand up."], correctIndex: 0, explanation: "\"Sopportare\" = to bear, to stand. A false friend for support." },
         ],
       },
@@ -78,7 +79,7 @@ export const IT_B1_U29: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[We bumped into each other] at the market. (two women)", sentence: "___ al mercato.", answer: "Ci siamo incontrate", altAnswers: ["Ci siamo viste"], explanation: "Feminine plural agreement." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[They got together] in June.", sentence: "___ a giugno.", answer: "Si sono messi insieme", altAnswers: ["Si sono messe insieme"], explanation: "\"Mettersi insieme\" = to start going out." },
       { type: "word-order", prompt: "Put the words in order to say: We met at a party in Bologna.", words: ["Ci", "siamo", "conosciuti", "a", "una", "festa", "a", "Bologna."], translation: "We met at a party in Bologna.", explanation: "\"Conoscersi\" = to meet for the first time." },
-      { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "lasciarsi", right: "to split up" }, { left: "mettersi insieme", right: "to get together" }, { left: "fidanzarsi", right: "to get engaged" }, { left: "sopportarsi", right: "to stand each other" }, { left: "andare d'accordo", right: "to get on" }], explanation: "Relationship verbs." },
+      { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "lasciarsi", right: "to split up" }, { left: "mettersi insieme", right: "to get together" }, { left: "fidanzarsi", right: "to get engaged" }, { left: "sopportarsi", right: "to stand each other" }, { left: "andare d'accordo", right: "to get along" }], explanation: "Relationship verbs." },
       { type: "dictation", audio: "Si sono sposati nel duemilaquindici a Taormina.", explanation: "\"Si sono sposati\": essere + plural." },
       { type: "speak", text: "Io e Giulia ci siamo conosciute all'università e da allora ci sentiamo ogni giorno.", prompt: "Say it in Italian (two women): Giulia and I met at university and since then we've talked every day.", tip: "\"Conosciute\": the sc is soft, like sh.", explanation: "Reciprocal past + reciprocal present." },
     ],
@@ -99,7 +100,7 @@ export const IT_B1_U29: Lesson[] = [
         ],
         examples: [
           { es: "Sono arrabbiata con mio fratello.", en: "I'm angry with my brother." },
-          { es: "Mi sento deluso dal suo comportamento.", en: "I feel disappointed by his behaviour." },
+          { es: "Mi sento deluso dal suo comportamento.", en: "I feel disappointed by his behavior." },
           { es: "Marco è geloso del nuovo collega di Anna.", en: "Marco is jealous of Anna's new colleague." },
           { es: "Siamo preoccupati per l'esame di nostro figlio.", en: "We're worried about our son's exam." },
           { es: "Oggi sono un po' giù.", en: "I'm a bit down today." },
@@ -113,10 +114,11 @@ export const IT_B1_U29: Lesson[] = [
         heading: "Mixed and positive feelings",
         body: [
           "\"Imbarazzato\" means embarrassed (never pregnant: that's \"incinta\"). \"Orgoglioso di\" is proud of; \"commosso\" is moved, touched; \"sollevato\" is relieved; \"emozionato\" is excited or nervous in a good way, before a big moment. \"Felice\", \"contento\" and \"soddisfatto\" (satisfied) complete the set.",
-          "\"Emozionante\" describes the thing (an exciting match); \"emozionato\" describes the person.",
+          "\"Emozionante\" describes the thing (an exciting game); \"emozionato\" describes the person.",
+          "Some feelings use \"avere\" + a noun, not \"essere\": \"ho paura\" (I'm scared), \"ho nostalgia di casa\" (I'm homesick), \"ho vergogna\" or \"mi vergogno\" (I'm ashamed). Watch two false friends: \"sensibile\" means sensitive (sensible is \"sensato\"), and \"nervoso\" often means irritable, cranky: \"Oggi il capo è nervoso\" is a warning, not sympathy. And \"eccitato\" is not your word for excited: it often sounds sexual.",
         ],
         examples: [
-          { es: "Ero così imbarazzata che sono diventata rossa.", en: "I was so embarrassed I went red." },
+          { es: "Ero così imbarazzata che sono diventata rossa.", en: "I was so embarrassed I turned red." },
           { es: "Sono orgoglioso di te.", en: "I'm proud of you." },
           { es: "Alla laurea di mia figlia ero commossa.", en: "At my daughter's graduation I was moved." },
           { es: "Che sollievo! Sono davvero sollevato.", en: "What a relief! I'm really relieved." },
@@ -124,7 +126,7 @@ export const IT_B1_U29: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm proud of you. (to a friend)", answer: "Sono orgoglioso di te.", altAnswers: ["Sono orgogliosa di te.", "Sono fiero di te.", "Sono fiera di te."], explanation: "\"Orgoglioso di\" or \"fiero di\"." },
-          { type: "multiple-choice", question: "You went red in a meeting. How did you feel?", options: ["imbarazzato", "incinto", "eccitato", "emozionante"], correctIndex: 0, explanation: "\"Imbarazzato\" = embarrassed." },
+          { type: "multiple-choice", question: "You turned red in a meeting. How did you feel?", options: ["imbarazzato", "incinto", "eccitato", "emozionante"], correctIndex: 0, explanation: "\"Imbarazzato\" = embarrassed." },
         ],
       },
       {
@@ -171,10 +173,11 @@ export const IT_B1_U29: Lesson[] = [
         heading: "Ti voglio bene",
         body: [
           "English has one I love you; Italian has two. \"Ti voglio bene\" is affection: you say it to parents, children, friends, grandparents, and also to your partner. \"Ti amo\" is romantic love only: to a partner, never to a friend or your mother. Saying \"ti amo\" to a friend would sound like a declaration.",
-          "\"Volere bene a qualcuno\" takes an indirect object: \"Voglio bene a mia nonna\", \"Le voglio bene\" (I love her), \"Gli vogliamo bene\". \"Amare\" takes a direct one: \"La amo\", \"Lo ama\". For things you love, use \"adorare\" or \"piacere tantissimo\": \"Adoro il mare\", never \"amo\" in everyday speech.",
+          "\"Volere bene a qualcuno\" takes an indirect object: \"Voglio bene a mia nonna\", \"Le voglio bene\" (I love her), \"Gli vogliamo bene\". \"Amare\" takes a direct one: \"La amo\", \"Lo ama\". For things you love, the everyday choice is \"adorare\" or \"piacere tantissimo\": \"Adoro il mare\". \"Amo il mare\" is correct too, but it sounds more emphatic, almost like an ad slogan.",
+          "Careful with plain \"volere\": \"Ti voglio\" without \"bene\" means I want you, with a physical meaning. In texts friends write \"TVB\" (ti voglio bene) or \"TVTB\" (ti voglio tanto bene), and \"ti voglio un mondo di bene\" is a warm variation. In the past \"volere bene\" keeps \"avere\": \"Gli ho sempre voluto bene\" (I've always loved him); only the reciprocal takes \"essere\": \"si sono voluti bene\".",
         ],
         examples: [
-          { es: "Ti voglio bene, mamma.", en: "I love you, Mum." },
+          { es: "Ti voglio bene, mamma.", en: "I love you, Mom." },
           { es: "Voglio tanto bene ai miei nonni.", en: "I love my grandparents very much." },
           { es: "Le vogliamo bene come a una sorella.", en: "We love her like a sister." },
           { es: "Ti amo da morire.", en: "I love you more than anything." },
@@ -226,7 +229,7 @@ export const IT_B1_U29: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She misses her country.", answer: "Le manca il suo paese.", altAnswers: ["Le manca il suo Paese.", "Le manca la sua terra."], explanation: "\"Le\" = to her." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Did you miss me? (to a friend, said by a woman)", answer: "Ti sono mancata?", altAnswers: ["Ti sono mancata un po'?"], explanation: "\"Essere\" + participle agreeing with me (a woman)." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I've fallen in love with Venice.", answer: "Mi sono innamorato di Venezia.", altAnswers: ["Mi sono innamorata di Venezia."], explanation: "\"Innamorarsi di\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I love pizza.", answer: "Adoro la pizza.", altAnswers: ["Mi piace tantissimo la pizza.", "Mi piace molto la pizza."], explanation: "Things: \"adorare\" or \"piacere\", not \"amare\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I love pizza.", answer: "Adoro la pizza.", altAnswers: ["Mi piace tantissimo la pizza.", "Mi piace molto la pizza.", "Amo la pizza."], explanation: "Things: \"adorare\" or \"piacere\" is the everyday choice; \"amo la pizza\" is correct but more emphatic." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "We [love him] like a son.", sentence: "___ come a un figlio.", answer: "Gli vogliamo bene", explanation: "\"Volere bene a\": indirect \"gli\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I missed you] so much. (to a man)", sentence: "___ tantissimo.", answer: "Mi sei mancato", explanation: "Agrees with you (a man)." },
       { type: "word-order", prompt: "Put the words in order to say: He's in love with his colleague.", words: ["È", "innamorato", "della", "sua", "collega."], translation: "He's in love with his colleague.", explanation: "\"Innamorato di\" + \"la\" = \"della\"." },
@@ -248,13 +251,14 @@ export const IT_B1_U29: Lesson[] = [
         body: [
           "Expressions of feeling followed by \"che\" take the subjunctive: \"Mi fa piacere che tu sia qui\" (I'm glad you're here), \"Sono contento che siate venuti\", \"Mi dispiace che tu stia male\". The subjunctive marks the clause as something you react to emotionally.",
           "If the subject is the same, use \"di\" + infinitive instead: \"Sono contento di essere qui\", not \"sono contento che io sia\".",
+          "The subjunctive comes from \"che\" after the feeling, not from the feeling itself. With \"perché\" (because) you state a cause as a fact, so the indicative returns: \"Sono contento che tu sia qui\" but \"Sono contento perché sei qui\". Impersonal reactions work like feelings: \"È bello che\", \"È strano che\", \"È un peccato che\" + subjunctive. In fast speech you'll hear \"mi dispiace che sei malato\", but in writing and in exams use the subjunctive.",
         ],
         examples: [
           { es: "Mi fa piacere che tu sia venuta.", en: "I'm glad you came." },
           { es: "Sono contenta che vi siate trovati bene.", en: "I'm glad you had a good time." },
           { es: "Mi dispiace che tu stia male.", en: "I'm sorry you're not well." },
           { es: "Sono felice di vederti.", en: "I'm happy to see you." },
-          { es: "Ci fa piacere che i ragazzi vadano d'accordo.", en: "We're pleased the kids get on." },
+          { es: "Ci fa piacere che i ragazzi vadano d'accordo.", en: "We're pleased the kids get along." },
         ],
         checkpoint: [
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'm glad you [are] here. (to a friend)", sentence: "Mi fa piacere che tu ___ qui.", answer: "sia", explanation: "Feeling + \"che\" → subjunctive." },
@@ -305,7 +309,7 @@ export const IT_B1_U29: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I get angry when you don't listen to me.", answer: "Mi arrabbio quando non mi ascolti.", altAnswers: ["Mi arrabbio quando tu non mi ascolti."], explanation: "\"Quando\" + indicative." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It annoys her that he [doesn't help].", sentence: "Le dà fastidio che lui non ___.", answer: "aiuti", explanation: "Subjunctive of \"aiutare\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'm sorry you [couldn't] come. (to a friend)", sentence: "Mi dispiace che tu non ___ venire.", answer: "sia potuto", altAnswers: ["abbia potuto", "sia potuta"], explanation: "Past subjunctive of \"potere\"." },
-      { type: "word-order", prompt: "Put the words in order to say: We're pleased the kids get on.", words: ["Ci", "fa", "piacere", "che", "i", "ragazzi", "vadano", "d'accordo."], translation: "We're pleased the kids get on.", explanation: "\"Vadano\": subjunctive of \"andare\"." },
+      { type: "word-order", prompt: "Put the words in order to say: We're pleased the kids get along.", words: ["Ci", "fa", "piacere", "che", "i", "ragazzi", "vadano", "d'accordo."], translation: "We're pleased the kids get along.", explanation: "\"Vadano\": subjunctive of \"andare\"." },
       { type: "multiple-choice", question: "\"Sono contento ___ qui.\" (I'm the one who's here)", options: ["di essere", "che io sia", "che sono", "essere"], correctIndex: 0, explanation: "Same subject: \"di\" + infinitive." },
       { type: "dictation", audio: "Mi preoccupa che non risponda al telefono.", explanation: "\"Risponda\": subjunctive." },
       { type: "speak", text: "Mi fa piacere che tu sia venuta, ma mi dispiace che Marco non sia potuto venire.", prompt: "Say it to a friend (a woman): I'm glad you came, but I'm sorry Marco couldn't come.", tip: "Two past subjunctives: \"sia venuta\", \"sia potuto\".", explanation: "Feeling + \"che\" + subjunctive." },
@@ -418,9 +422,9 @@ export const IT_B1_U29: Lesson[] = [
       {
         heading: "Scene 1: the breakup",
         body: [
-          "Chiara meets her friend Valentina at a bar in Padova.",
+          "Chiara meets her friend Valentina at a café in Padova.",
           "Valentina: \"Allora, che è successo con Davide?\" Chiara: \"Ci siamo lasciati. Anzi, mi ha lasciata lui, sabato.\" Valentina: \"Ma dai! Mi dispiace tantissimo. Come stai?\" Chiara: \"Sono a pezzi. Stavamo insieme da tre anni.\" Valentina: \"E perché?\" Chiara: \"Dice che non è più innamorato. Che mi vuole bene, ma non basta.\"",
-          "\"Essere a pezzi\" (literally to be in pieces) = to be devastated. \"Mi ha lasciata\": with \"la\" before \"avere\", the participle can agree.",
+          "\"Essere a pezzi\" (literally to be in pieces) = to be devastated. \"Mi ha lasciata\": with \"mi\" before \"avere\", the participle can agree (with \"lo\" or \"la\" it must: \"l'ha lasciata\").",
         ],
         examples: [
           { es: "Ci siamo lasciati.", en: "We broke up." },
@@ -532,7 +536,7 @@ export const IT_B1_U29: Lesson[] = [
       {
         heading: "Reading for feelings",
         body: [
-          "In an advice column, look for three things: the facts (\"si sentono ogni giorno\"), the feelings (\"mi sento sola\", \"delusa\") and the request (\"Sbaglio io?\"). In the reply, find the judgement (\"non sbagli\") and the advice verbs: \"ti consiglio di\", imperatives, \"dovresti\".",
+          "In an advice column, look for three things: the facts (\"si sentono ogni giorno\"), the feelings (\"mi sento sola\", \"delusa\") and the request (\"Sbaglio io?\"). In the reply, find the judgment (\"non sbagli\") and the advice verbs: \"ti consiglio di\", imperatives, \"dovresti\".",
         ],
         examples: [
           { es: "Mi sento sola e un po' delusa.", en: "I feel lonely and a bit disappointed." },
@@ -540,14 +544,14 @@ export const IT_B1_U29: Lesson[] = [
           { es: "Dovresti chiedergli di proporre una soluzione.", en: "You should ask him to suggest a solution." },
         ],
         checkpoint: [
-          { type: "multiple-choice", question: "How did Andrea react when Marta spoke to him?", options: ["He got angry and said she was overreacting.", "He apologised.", "He stopped writing to Federica.", "He laughed."], correctIndex: 0, explanation: "\"Si è arrabbiato e ha detto che sono esagerata\"." },
+          { type: "multiple-choice", question: "How did Andrea react when Marta spoke to him?", options: ["He got angry and said she was overreacting.", "He apologized.", "He stopped writing to Federica.", "He laughed."], correctIndex: 0, explanation: "\"Si è arrabbiato e ha detto che sono esagerata\"." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I feel lonely.", answer: "Mi sento sola.", altAnswers: ["Mi sento solo."], explanation: "\"Sentirsi\" + adjective." },
         ],
       },
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I've been with Andrea for two years.", answer: "Sto con Andrea da due anni.", altAnswers: ["Da due anni sto con Andrea."], explanation: "Present + \"da\" for something still going on." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We get on about almost everything.", answer: "Andiamo d'accordo su quasi tutto.", altAnswers: ["Siamo d'accordo su quasi tutto."], explanation: "\"Andare d'accordo\" = to get on." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We see eye to eye on almost everything.", answer: "Andiamo d'accordo su quasi tutto.", altAnswers: ["Siamo d'accordo su quasi tutto."], explanation: "\"Andare d'accordo su\" = to agree about, see eye to eye on." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He tells her everything.", answer: "Le racconta tutto.", altAnswers: ["Lui le racconta tutto.", "Le dice tutto."], explanation: "\"Le\" = to her." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Am I the one who's wrong?", answer: "Sbaglio io?", altAnswers: ["Sono io che sbaglio?", "Ho torto io?"], explanation: "\"Io\" after the verb stresses the subject." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's normal for everyone to have their own friends.", answer: "È normale che ognuno abbia le sue amicizie.", altAnswers: ["È normale che ognuno abbia i suoi amici.", "È normale che tutti abbiano i loro amici."], explanation: "\"È normale che\" + subjunctive." },
@@ -555,9 +559,9 @@ export const IT_B1_U29: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If you love each other, you'll find a solution. (to a couple)", answer: "Se vi volete bene, troverete una soluzione.", altAnswers: ["Se vi amate, troverete una soluzione."], explanation: "Reciprocal \"volersi bene\"; real condition." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I don't think you're [overreacting]. (to a woman)", sentence: "Non mi sembra che tu sia ___.", answer: "esagerata", explanation: "\"Esagerato\" = over the top, overreacting." },
       { type: "word-order", prompt: "Put the words in order to say: Explain to him how you feel.", words: ["Spiegagli", "come", "ti", "senti."], translation: "Explain to him how you feel.", explanation: "Imperative + \"gli\" joined." },
-      { type: "multiple-choice", question: "Why does Lucia say \"non mi sembra che tu sia esagerata\"?", options: ["To reassure Marta that her feelings are reasonable.", "To criticise Marta.", "To defend Federica.", "To say Andrea is right."], correctIndex: 0, explanation: "She takes Marta's side." },
+      { type: "multiple-choice", question: "Why does Lucia say \"non mi sembra che tu sia esagerata\"?", options: ["To reassure Marta that her feelings are reasonable.", "To criticize Marta.", "To defend Federica.", "To say Andrea is right."], correctIndex: 0, explanation: "She takes Marta's side." },
       { type: "dictation", audio: "Non sono gelosa di natura, ma mi dà fastidio.", explanation: "\"Gelosa\": feminine." },
-      { type: "speak", text: "Marta è delusa perché il suo ragazzo racconta tutto alla sua migliore amica.", prompt: "Summarise the letter: Marta is disappointed because her boyfriend tells his best friend everything.", tip: "\"Alla sua migliore amica\": his best friend.", explanation: "One-sentence summary." },
+      { type: "speak", text: "Marta è delusa perché il suo ragazzo racconta tutto alla sua migliore amica.", prompt: "Summarize the letter: Marta is disappointed because her boyfriend tells his best friend everything.", tip: "\"Alla sua migliore amica\": his best friend.", explanation: "One-sentence summary." },
     ],
   },
   {
@@ -571,7 +575,7 @@ export const IT_B1_U29: Lesson[] = [
       {
         heading: "Excited and in love",
         body: [
-          "Each sentence below has one mistake. \"Sono eccitato\" looks like excited, but in everyday Italian it usually has a sexual meaning. Say \"sono emozionato\" (nervous and excited), \"sono entusiasta\" (thrilled) or \"non vedo l'ora\" (I can't wait).",
+          "Each sentence below has one mistake. \"Sono eccitato\" looks like excited, but said of yourself it usually sounds sexual (\"bambini eccitati\" are just overexcited kids). Say \"sono emozionato\" (nervous and excited), \"sono entusiasta\" (thrilled) or \"non vedo l'ora\" (I can't wait).",
           "\"Ti amo\" is only for a romantic partner. To a friend, a parent or a child, say \"ti voglio bene\". Telling a friend \"ti amo\" sounds like a declaration of love.",
         ],
         examples: [
@@ -623,7 +627,7 @@ export const IT_B1_U29: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "A learner said \"ti amo\" to her best friend. Write it correctly: I love you, you're my best friend.", source: "I love you, you're my best friend.", answer: "Ti voglio bene, sei la mia migliore amica.", altAnswers: ["Ti voglio bene, sei il mio migliore amico.", "Ti voglio un sacco di bene, sei la mia migliore amica."], explanation: "\"Ti voglio bene\" for friends." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"prima volta\". Write it correctly: We met for the first time at a wedding.", source: "We met for the first time at a wedding.", answer: "Ci siamo incontrati per la prima volta a un matrimonio.", altAnswers: ["Ci siamo conosciuti per la prima volta a un matrimonio.", "Ci siamo incontrate per la prima volta a un matrimonio.", "Ci siamo conosciuti a un matrimonio."], explanation: "\"Per la prima volta\"." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"mi manca voi\". Write it correctly: I miss you all.", source: "I miss you all.", answer: "Mi mancate tutti.", altAnswers: ["Mi mancate.", "Mi mancate tantissimo.", "Mi mancate tutte."], explanation: "\"Voi\" is the subject: \"mancate\"." },
-      { type: "translate", direction: "en-es", prompt: "A learner wrote \"ti amo, mamma\". Write it correctly: I love you, Mum.", source: "I love you, Mum.", answer: "Ti voglio bene, mamma.", altAnswers: ["Ti voglio tanto bene, mamma."], explanation: "\"Ti amo\" is romantic only." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"ti amo, mamma\". Write it correctly: I love you, Mom.", source: "I love you, Mom.", answer: "Ti voglio bene, mamma.", altAnswers: ["Ti voglio tanto bene, mamma."], explanation: "\"Ti amo\" is romantic only." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"io manco la pizza\". Write it correctly: I miss pizza.", source: "I miss pizza.", answer: "Mi manca la pizza.", altAnswers: ["Mi manca tanto la pizza."], explanation: "\"La pizza\" is the subject." },
       { type: "fill-blank", prompt: "A learner wrote \"sono eccitato\". Write the Italian for the bold words.", en: "[I can't wait] to see you. (to a friend)", sentence: "___ di vederti.", answer: "Non vedo l'ora", explanation: "\"Non vedo l'ora di\" + infinitive." },
       { type: "fill-blank", prompt: "A learner wrote \"per la prima volta che\". Write the Italian for the bold words.", en: "[The first time] I saw him, I was nervous.", sentence: "___ che l'ho visto, ero agitata.", answer: "La prima volta", explanation: "No \"per\" before \"la prima volta che\"." },
@@ -646,7 +650,7 @@ export const IT_B1_U29: Lesson[] = [
         heading: "The task",
         body: [
           "Your mission: your Italian friend Elisa has written to say she's moving to Lisbon for work with her partner. You haven't written for months. Reply with your news: you've met someone, you've made up with your brother after an argument, and you miss Italy. React to her news too.",
-          "Plan: greet and apologise for the silence, react to her news (\"che bella notizia!\", \"mi fa piacere che\"), give your news with reciprocal verbs, say how you feel, close warmly.",
+          "Plan: greet and apologize for the silence, react to her news (\"che bella notizia!\", \"mi fa piacere che\"), give your news with reciprocal verbs, say how you feel, close warmly.",
         ],
         examples: [
           { es: "Cara Elisa, scusa se non ti ho scritto prima.", en: "Dear Elisa, sorry I didn't write sooner." },
@@ -696,7 +700,7 @@ export const IT_B1_U29: Lesson[] = [
 
 export const IT_B1_U29_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Your Italian friend Elisa has written to say she's moving abroad with her partner. Reply (100-140 words). React to her news, apologise for not writing, tell her your news (someone you've met, a family argument that's now resolved), say how you feel, and close warmly.",
+  prompt: "Your Italian friend Elisa has written to say she's moving abroad with her partner. Reply (100-140 words). React to her news, apologize for not writing, tell her your news (someone you've met, a family argument that's now resolved), say how you feel, and close warmly.",
   minWords: 90,
   maxWords: 150,
   rubric: [

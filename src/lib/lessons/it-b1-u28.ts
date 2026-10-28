@@ -19,6 +19,7 @@ export const IT_B1_U28: Lesson[] = [
         body: [
           "The basic phrase is \"essere d'accordo\" (to agree), always with the apostrophe: \"Sono d'accordo con te\", \"Siamo tutti d'accordo\". With what you agree about, use \"su\": \"Sono d'accordo su questo punto\". English agree is a verb; in Italian it's \"essere\" + \"d'accordo\", so it changes with the person: \"sei d'accordo?\", \"non sono d'accordo\".",
           "\"Hai ragione\" (you're right) uses \"avere\", not \"essere\": \"Hai perfettamente ragione\", \"Ha ragione Lei\". The opposite is \"avere torto\" (to be wrong). \"Avere ragione\" is about people; for a statement that's true, say \"è vero\".",
+          "Three traps. \"D'accordo!\" on its own means OK, agreeing to a plan (\"Ci vediamo alle otto?\" \"D'accordo!\"); \"Concordo\" is the formal I agree (\"Concordo con Lei\"). With \"piacere\", agree with \"anche a me\", not \"anch'io\": \"Mi piace il jazz.\" \"Anche a me!\". And to agree with a negative, use \"neanche\": \"Non mi convince.\" \"Neanche a me.\"",
         ],
         examples: [
           { es: "Sono d'accordo con te.", en: "I agree with you." },
@@ -96,6 +97,7 @@ export const IT_B1_U28: Lesson[] = [
         body: [
           "The direct form is \"Non sono d'accordo\" or \"Non sono d'accordo con te su questo\". Italians debate openly, but between people who don't know each other well a softer frame works better: \"Mah, non so\", \"Non la vedo così\" (I don't see it that way), \"Io la vedo diversamente\", \"Non direi\" (I wouldn't say so).",
           "\"Mah\" with a falling tone signals doubt before you even explain. \"Guarda\" / \"Senta\" (look) opens a counter-argument: \"Guarda, io non sono convinto\".",
+          "Stronger replies like \"Ma che dici?\" or \"Ma figurati!\" are fine among friends and rude with strangers; a bare \"Hai torto\" also sounds harsh. The conditional softens: \"Direi di no\", \"Io non sarei così sicuro\". False friend: \"discutere\" means to discuss as well as to argue, while a real quarrel is \"litigare\".",
         ],
         examples: [
           { es: "Non sono d'accordo con te su questo.", en: "I don't agree with you on this." },
@@ -195,12 +197,12 @@ export const IT_B1_U28: Lesson[] = [
         examples: [
           { es: "Anche se costa di più, preferisco il treno.", en: "Even though it costs more, I prefer the train." },
           { es: "Benché sia stanca, vengo alla riunione.", en: "Although I'm tired, I'm coming to the meeting." },
-          { es: "Nonostante il prezzo, il biglietto è andato a ruba.", en: "Despite the price, the ticket sold out fast." },
+          { es: "Nonostante il prezzo, i biglietti sono andati a ruba.", en: "Despite the price, the tickets sold out fast." },
           { es: "Ci vado, anche se non ne ho voglia.", en: "I'm going, even though I don't feel like it." },
         ],
         checkpoint: [
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Although it [is] expensive, it's worth it.", sentence: "Benché ___ caro, ne vale la pena.", answer: "sia", explanation: "\"Benché\" + subjunctive." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Even though it costs more, I prefer the train.", answer: "Anche se costa di più, preferisco il treno.", altAnswers: ["Preferisco il treno, anche se costa di più.", "Anche se costa più, preferisco il treno."], explanation: "\"Anche se\" + indicative." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Even though it costs more, I prefer the train.", answer: "Anche se costa di più, preferisco il treno.", altAnswers: ["Preferisco il treno, anche se costa di più."], explanation: "\"Anche se\" + indicative." },
         ],
       },
       {
@@ -208,6 +210,7 @@ export const IT_B1_U28: Lesson[] = [
         body: [
           "To concede gracefully: \"Ammetto che hai ragione\" (I admit you're right), \"Devo dire che non hai torto\", \"Su questo ti do ragione\" (on this I'll grant you're right). \"Dare ragione a qualcuno\" means to agree that someone is right.",
           "Concession builds credibility in a debate: the other side hears that you listen.",
+          "A common overcorrection is \"anche se\" + subjunctive: \"anche se sia tardi\" is wrong; write \"anche se è tardi\". \"Malgrado\" works like \"nonostante\". After a concession, \"comunque\" (however, anyway) and \"lo stesso\" (all the same) bring you back to your point: \"Hai ragione, comunque io non vengo\", \"È caro, ma lo compro lo stesso\".",
         ],
         examples: [
           { es: "Ammetto che su questo hai ragione.", en: "I admit you're right about this." },
@@ -216,7 +219,7 @@ export const IT_B1_U28: Lesson[] = [
           { es: "Anche il professore mi ha dato ragione.", en: "Even the teacher agreed I was right." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I admit you're right. (to a friend)", answer: "Ammetto che hai ragione.", altAnswers: ["Ammetto che tu abbia ragione.", "Devo ammettere che hai ragione."], explanation: "\"Ammettere che\" + indicative (an accepted fact)." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I admit you're right. (to a friend)", answer: "Ammetto che hai ragione.", altAnswers: ["Ammetto che tu abbia ragione.", "Devo ammettere che hai ragione."], explanation: "\"Ammettere che\" + indicative for a fact you accept. With the subjunctive, \"ammetto che tu abbia ragione\" sounds more like I'll grant you may be right." },
           { type: "multiple-choice", question: "\"Non hai tutti i torti\" means ...", options: ["You're not entirely wrong.", "You're completely wrong.", "You have no right.", "You're never wrong."], correctIndex: 0, explanation: "A soft concession." },
         ],
       },
@@ -249,6 +252,7 @@ export const IT_B1_U28: Lesson[] = [
         body: [
           "Italian discussions overlap: people start talking before the other has finished, and that's not rude in itself. To get in politely: \"Scusa se ti interrompo\" (sorry to interrupt), \"Posso dire una cosa?\", \"Un attimo, un attimo\", \"Se posso ...\" (if I may). Formal: \"Mi scusi se La interrompo\", \"Posso aggiungere una cosa?\".",
           "\"Interrompere\" takes a direct object: \"ti interrompo\", \"La interrompo\".",
+          "Watch the endings when you switch register: the tu and Lei imperatives swap vowels, \"scusa / scusi\", \"senti / senta\", \"guarda / guardi\". Mixing them (\"Scusi se ti interrompo\") is the classic slip. In a meeting, \"Permette una parola?\" or \"Posso intervenire?\" asks for the floor formally.",
         ],
         examples: [
           { es: "Scusa se ti interrompo, ma non è proprio così.", en: "Sorry to interrupt, but it's not quite like that." },
@@ -487,23 +491,23 @@ export const IT_B1_U28: Lesson[] = [
     level: "IT-B1",
     number: 8,
     title: "Listening Lab: A Radio Debate",
-    summary: "Follow a scripted radio debate about short-term holiday lets in historic centres, and identify each speaker's position and arguments.",
+    summary: "Follow a scripted radio debate about short-term vacation rentals in historic centers, and identify each speaker's position and arguments.",
     duration: "18 min",
     sections: [
       {
         heading: "The host and the question",
         body: [
-          "A radio host (\"il conduttore\") introduces the topic: \"Gli affitti brevi per turisti stanno svuotando i centri storici?\" (are short-term tourist lets emptying historic centres?). Guests: an owner who rents out a flat, a residents' association spokesperson, an economist.",
-          "Listen for position markers: \"sono favorevole a\" (in favour of), \"sono contrario a\" (against), \"da un lato ... dall'altro\" (on the one hand ... on the other).",
+          "A radio host (\"il conduttore\") introduces the topic: \"Gli affitti brevi per turisti stanno svuotando i centri storici?\" (are short-term tourist rentals emptying historic centers?). Guests: an owner who rents out an apartment, a residents' association spokesperson, an economist.",
+          "Listen for position markers: \"sono favorevole a\" (in favor of), \"sono contrario a\" (against), \"da un lato ... dall'altro\" (on the one hand ... on the other).",
         ],
         examples: [
-          { es: "Buongiorno e benvenuti. Oggi parliamo di affitti brevi.", en: "Good morning and welcome. Today we're talking about short-term lets." },
-          { es: "Sono favorevole agli affitti brevi, ma con regole chiare.", en: "I'm in favour of short-term lets, but with clear rules." },
+          { es: "Buongiorno e benvenuti. Oggi parliamo di affitti brevi.", en: "Good morning and welcome. Today we're talking about short-term rentals." },
+          { es: "Sono favorevole agli affitti brevi, ma con regole chiare.", en: "I'm in favor of short-term rentals, but with clear rules." },
           { es: "Sono assolutamente contraria.", en: "I'm completely against it." },
           { es: "Da un lato portano soldi, dall'altro alzano gli affitti.", en: "On the one hand they bring money, on the other they push rents up." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm in favour, but with clear rules.", answer: "Sono favorevole, ma con regole chiare.", altAnswers: ["Sono favorevole, però con regole chiare."], explanation: "\"Favorevole a\" = in favour of." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm in favor, but with clear rules.", answer: "Sono favorevole, ma con regole chiare.", altAnswers: ["Sono favorevole, però con regole chiare."], explanation: "\"Favorevole a\" = in favor of." },
           { type: "listen-choose", audio: "Da un lato portano soldi, dall'altro alzano gli affitti.", question: "What is the speaker doing?", options: ["weighing pros and cons", "strongly agreeing", "telling a story", "asking a question"], correctIndex: 0, explanation: "\"Da un lato ... dall'altro\"." },
         ],
       },
@@ -519,7 +523,7 @@ export const IT_B1_U28: Lesson[] = [
           { es: "I dati dimostrano che dove si mettono limiti, gli affitti calano.", en: "The data show that where limits are set, rents fall." },
         ],
         checkpoint: [
-          { type: "listen-choose", audio: "Nel nostro quartiere i residenti sono diminuiti del trenta per cento in dieci anni.", question: "What has happened in the neighbourhood?", options: ["Residents have fallen by 30% in ten years.", "Rents have risen by 30%.", "Tourists have fallen by 30%.", "30 shops have closed."], correctIndex: 0, explanation: "\"Diminuiti del 30%\"." },
+          { type: "listen-choose", audio: "Nel nostro quartiere i residenti sono diminuiti del trenta per cento in dieci anni.", question: "What has happened in the neighborhood?", options: ["Residents have fallen by 30% in ten years.", "Rents have risen by 30%.", "Tourists have fallen by 30%.", "30 shops have closed."], correctIndex: 0, explanation: "\"Diminuiti del 30%\"." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The data [show] that rents fall.", sentence: "I dati ___ che gli affitti calano.", answer: "dimostrano", altAnswers: ["mostrano"], explanation: "A fact: indicative after \"dimostrare che\"." },
         ],
       },
@@ -536,7 +540,7 @@ export const IT_B1_U28: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In short, nobody wants to ban everything.", answer: "Insomma, nessuno vuole vietare tutto.", altAnswers: ["In sintesi, nessuno vuole vietare tutto.", "Insomma nessuno vuole vietare tutto."], explanation: "\"Nessuno\" + singular verb." },
-          { type: "multiple-choice", question: "What do all the guests agree on?", options: ["the need for rules", "banning all short lets", "removing all limits", "raising taxes on tourists"], correctIndex: 0, explanation: "\"Tutti chiedono regole\"." },
+          { type: "multiple-choice", question: "What do all the guests agree on?", options: ["the need for rules", "banning all short-term rentals", "removing all limits", "raising taxes on tourists"], correctIndex: 0, explanation: "\"Tutti chiedono regole\"." },
         ],
       },
     ],
@@ -547,12 +551,12 @@ export const IT_B1_U28: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "On the one hand they bring money, on the other they push rents up.", answer: "Da un lato portano soldi, dall'altro alzano gli affitti.", altAnswers: ["Da una parte portano soldi, dall'altra alzano gli affitti.", "Da un lato portano soldi, dall'altro fanno aumentare gli affitti."], explanation: "\"Da un lato ... dall'altro\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Tourists keep restaurants in business.", answer: "I turisti fanno lavorare i ristoranti.", altAnswers: ["I turisti danno lavoro ai ristoranti."], explanation: "\"Fare lavorare\" = to keep in work." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Everyone is asking for clearer rules.", answer: "Tutti chiedono regole più chiare.", altAnswers: ["Tutti chiedono delle regole più chiare."], explanation: "\"Tutti\" + plural verb." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Today we're talking about short-term lets.", answer: "Oggi parliamo di affitti brevi.", altAnswers: ["Oggi parliamo degli affitti brevi."], explanation: "\"Parlare di\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I'm in favour of] short-term lets.", sentence: "___ affitti brevi.", answer: "Sono favorevole agli", explanation: "\"Favorevole a\" + \"gli\" = \"agli\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Today we're talking about short-term rentals.", answer: "Oggi parliamo di affitti brevi.", altAnswers: ["Oggi parliamo degli affitti brevi."], explanation: "\"Parlare di\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I'm in favor of] short-term rentals.", sentence: "___ affitti brevi.", answer: "Sono favorevole agli", explanation: "\"Favorevole a\" + \"gli\" = \"agli\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[To sum up], we need limits.", sentence: "___, servono limiti.", answer: "In sintesi", altAnswers: ["Insomma", "In breve", "Riassumendo"], explanation: "Summing-up connectors." },
       { type: "word-order", prompt: "Put the words in order to say: Where limits are set, rents fall.", words: ["Dove", "si", "mettono", "limiti,", "gli", "affitti", "calano."], translation: "Where limits are set, rents fall.", explanation: "Si passivante: \"si mettono limiti\"." },
-      { type: "dictation", audio: "Sono favorevole, ma con regole chiare.", explanation: "\"Favorevole\" = in favour." },
-      { type: "speak", text: "Da un lato gli affitti brevi portano soldi, dall'altro i residenti se ne vanno. Secondo me servono regole.", prompt: "Give your position: On the one hand short-term lets bring money, on the other residents leave. In my opinion we need rules.", tip: "Balance the two halves with the same rhythm.", explanation: "Weighing both sides, then a position." },
+      { type: "dictation", audio: "Sono favorevole, ma con regole chiare.", explanation: "\"Favorevole\" = in favor." },
+      { type: "speak", text: "Da un lato gli affitti brevi portano soldi, dall'altro i residenti se ne vanno. Secondo me servono regole.", prompt: "Give your position: On the one hand short-term rentals bring money, on the other residents leave. In my opinion we need rules.", tip: "Balance the two halves with the same rhythm.", explanation: "Weighing both sides, then a position." },
     ],
   },
   {
@@ -646,7 +650,7 @@ export const IT_B1_U28: Lesson[] = [
         ],
         examples: [
           { es: "Ciao Marco, capisco il tuo punto di vista.", en: "Hi Marco, I understand your point of view." },
-          { es: "Interessante quello che dici sui bar del centro.", en: "Interesting what you say about the bars in the centre." },
+          { es: "Interessante quello che dici sui bar del centro.", en: "Interesting what you say about the bars in the center." },
           { es: "Lo smart working andrebbe abolito.", en: "Remote working should be abolished." },
           { es: "I giovani non imparano niente dai colleghi.", en: "Young people learn nothing from their colleagues." },
         ],
@@ -694,7 +698,7 @@ export const IT_B1_U28: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I don't agree that the bars are closing because of remote working.", answer: "Non sono d'accordo che i bar chiudano per lo smart working.", altAnswers: ["Non sono d'accordo che i bar chiudano a causa dello smart working.", "Non credo che i bar chiudano per lo smart working."], explanation: "Subjunctive \"chiudano\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Remote working saves time and money.", answer: "Lo smart working fa risparmiare tempo e soldi.", altAnswers: ["Con lo smart working si risparmiano tempo e soldi.", "Lo smart working fa risparmiare tempo e denaro."], explanation: "\"Fare risparmiare\" = to let you save." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "What do you all think?", answer: "Voi che ne pensate?", altAnswers: ["Che ne pensate?", "Voi cosa ne pensate?", "Cosa ne pensate?"], explanation: "\"Voi\" for the forum readers." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Moreover], you save on transport.", sentence: "___, si risparmia sui trasporti.", answer: "Inoltre", altAnswers: ["In più", "E poi"], explanation: "\"Inoltre\" adds an argument." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Moreover], you save on commuting.", sentence: "___, si risparmia sui trasporti.", answer: "Inoltre", altAnswers: ["In più", "E poi"], explanation: "\"Inoltre\" adds an argument." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The best solution [would be] a mix.", sentence: "La soluzione migliore ___ un mix.", answer: "sarebbe", explanation: "Conditional for proposals." },
       { type: "word-order", prompt: "Put the words in order to say: Interesting what you say about young people.", words: ["Interessante", "quello", "che", "dici", "sui", "giovani."], translation: "Interesting what you say about young people.", explanation: "\"Quello che\" = what." },
       { type: "multiple-choice", question: "Which reply agrees in part and disagrees in part?", options: ["Hai ragione sui giovani, però non credo che la gente lavori meno.", "Hai ragione su tutto.", "Non hai capito niente.", "Sono d'accordo, ciao."], correctIndex: 0, explanation: "Concession + disagreement with a subjunctive." },

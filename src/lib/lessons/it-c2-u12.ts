@@ -113,10 +113,10 @@ export const IT_C2_U12: Lesson[] = [
       {
         heading: "La manovra and the state budget",
         body: [
-          "Every autumn the government presents \"la legge di bilancio\", which newspapers and politicians call \"la manovra\" (literally the manoeuvre). It sets \"le entrate\" (revenue) and \"le uscite\" or \"le spese\" (spending) for the coming year. Each new measure needs \"le coperture\": the money that pays for it, through cuts or new revenue. \"Una manovra da 30 miliardi\" means a package worth 30 billion.",
+          "Every autumn the government presents \"la legge di bilancio\", which newspapers and politicians call \"la manovra\" (literally the maneuver). It sets \"le entrate\" (revenue) and \"le uscite\" or \"le spese\" (spending) for the coming year. Each new measure needs \"le coperture\": the money that pays for it, through cuts or new revenue. \"Una manovra da 30 miliardi\" means a package worth 30 billion.",
           "The key ratios: \"il deficit\" (or \"il disavanzo\") is the gap in one year; \"il debito pubblico\" is the accumulated stock. Both are given as a share of \"il PIL\" (GDP): \"il rapporto deficit/PIL\", read \"deficit su PIL\". \"L'avanzo primario\" is the surplus before interest payments.",
           "Note the numbers: \"un miliardo\" is a billion, and \"mille miliardi\" a trillion; the word \"bilione\" exists but most readers won't trust it. After \"milione\" and \"miliardo\" use \"di\": \"tre miliardi di euro\".",
-          "Other documents in the cycle: a spring planning document sets the targets (for years it was \"il DEF\", Documento di economia e finanza; the name changes with EU rules), and the budget law must be approved by 31 December, or the state enters \"l'esercizio provvisorio\" (provisional spending). \"Il decreto collegato\" or simply \"il collegato\" carries measures linked to the budget.",
+          "Other documents in the cycle: a spring planning document sets the targets (for years it was \"il DEF\", Documento di economia e finanza; the name changes with EU rules), and the budget law must be approved by December 31, or the state enters \"l'esercizio provvisorio\" (provisional spending). \"Il decreto collegato\" or simply \"il collegato\" carries measures linked to the budget.",
         ],
         examples: [
           { es: "Il governo ha approvato una manovra da 30 miliardi.", en: "The government approved a 30-billion budget package." },
@@ -148,16 +148,17 @@ export const IT_C2_U12: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Avoidance is legal, evasion isn't.", answer: "L'elusione è legale, l'evasione no.", altAnswers: ["L'elusione è legale, l'evasione non lo è.", "L'elusione fiscale è legale, l'evasione no."], explanation: "\"Elusione\" (avoidance) vs \"evasione\" (evasion): the classic pair. \"No\" can stand for a whole negated clause." },
-          { type: "multiple-choice", question: "Which word fits a charge you pay for rubbish collection?", options: ["la tassa sui rifiuti", "l'imposta sul reddito", "il condono sui rifiuti", "l'aliquota sui rifiuti"], correctIndex: 0, explanation: "A \"tassa\" pays for a specific service; income tax is an \"imposta\"." },
-          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The government promises to cut [the tax wedge].", sentence: "Il governo promette di tagliare ___.", answer: "il cuneo fiscale", explanation: "\"Il cuneo fiscale\": the gap between labour cost and net pay." },
+          { type: "multiple-choice", question: "Which word fits a charge you pay for garbage collection?", options: ["la tassa sui rifiuti", "l'imposta sul reddito", "il condono sui rifiuti", "l'aliquota sui rifiuti"], correctIndex: 0, explanation: "A \"tassa\" pays for a specific service; income tax is an \"imposta\"." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The government promises to cut [the tax wedge].", sentence: "Il governo promette di tagliare ___.", answer: "il cuneo fiscale", explanation: "\"Il cuneo fiscale\": the gap between labor cost and net pay." },
         ],
       },
       {
         heading: "The political language of budgets",
         body: [
-          "Budget debates have their own clichés. \"Fare cassa\" means to raise money quickly; \"mettere le mani nelle tasche degli italiani\" is the opposition's accusation that taxes are rising; \"tenere i conti in ordine\" is the minister's reply. \"I margini\" (room for manoeuvre) are always \"stretti\".",
+          "Budget debates have their own clichés. \"Fare cassa\" means to raise money quickly; \"mettere le mani nelle tasche degli italiani\" is the opposition's accusation that taxes are rising; \"tenere i conti in ordine\" is the minister's reply. \"I margini\" (room for maneuver) are always \"stretti\".",
           "Brussels appears as \"l'Europa\" or \"Bruxelles\": the European Commission sends \"le raccomandazioni\", may open \"una procedura d'infrazione\", and checks the \"Patto di stabilità\" rules. \"Sforare\" means to overshoot a limit: \"sforare il tetto del 3%\".",
           "Notice how the conditional of hearsay softens forecasts: \"Il deficit sarebbe al 3,4%\" (according to sources, it is said to be at 3.4%). A writer who wants to commit uses the indicative and a source: \"Secondo l'Istat il deficit è al 3,4%\".",
+          "Ministers also argue over duration. \"Una tantum\" (Latin, once only) marks a one-off measure: \"un contributo una tantum\". \"Strutturale\" means permanent, and a permanent tax cut needs permanent \"coperture\", which is why the opposition asks whether a measure is \"strutturale\" or just \"una tantum\". A party's flagship policy is \"la misura bandiera\", and \"prorogare\" (to extend a deadline) keeps many of them alive from one budget to the next.",
         ],
         examples: [
           { es: "Con la vendita delle quote il governo vuole fare cassa.", en: "By selling the stakes the government wants to raise quick money." },
@@ -176,7 +177,7 @@ export const IT_C2_U12: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The government approved a 30-billion budget package.", answer: "Il governo ha approvato una manovra da 30 miliardi.", altAnswers: ["Il governo ha approvato una manovra di 30 miliardi.", "Il governo ha approvato una legge di bilancio da 30 miliardi."], explanation: "\"Da\" + amount describes the size: \"una manovra da 30 miliardi\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The deficit-to-GDP ratio should fall to 3%.", answer: "Il rapporto deficit/PIL dovrebbe scendere al 3%.", altAnswers: ["Il rapporto tra deficit e PIL dovrebbe scendere al 3%.", "Il rapporto deficit/PIL dovrebbe calare al 3%.", "Il rapporto deficit/PIL dovrebbe scendere al 3 per cento."], explanation: "\"Dovrebbe\" = should, for a forecast; \"al 3%\" for the level." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The tax burden remains among the highest in Europe.", answer: "La pressione fiscale resta tra le più alte d'Europa.", altAnswers: ["La pressione fiscale rimane tra le più alte d'Europa.", "La pressione fiscale resta fra le più alte d'Europa.", "La pressione fiscale resta tra le più alte in Europa."], explanation: "\"La pressione fiscale\" is the standard term for the tax burden." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The room for new spending is tight.", answer: "I margini per nuove spese sono stretti.", altAnswers: ["I margini per nuove spese sono ridotti.", "I margini per le nuove spese sono stretti."], explanation: "\"I margini\" (plural) is the budget word for room for manoeuvre." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The room for new spending is tight.", answer: "I margini per nuove spese sono stretti.", altAnswers: ["I margini per nuove spese sono ridotti.", "I margini per le nuove spese sono stretti."], explanation: "\"I margini\" (plural) is the budget word for room for maneuver." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The top [rate] applies above 50,000 euros.", sentence: "L'___ più alta si applica sopra i 50.000 euro.", answer: "aliquota", explanation: "\"L'aliquota\" = the tax rate; feminine, so \"più alta\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The opposition accuses the government of preparing [a tax amnesty].", sentence: "L'opposizione accusa il governo di preparare ___.", answer: "un condono", altAnswers: ["un condono fiscale"], explanation: "\"Il condono\": an amnesty for unpaid taxes or building violations." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "By selling the stakes the government wants to [raise quick money].", sentence: "Con la vendita delle quote il governo vuole ___.", answer: "fare cassa", explanation: "\"Fare cassa\" = to raise cash quickly." },
@@ -209,14 +210,14 @@ export const IT_C2_U12: Lesson[] = [
       {
         heading: "The mortgage: il mutuo",
         body: [
-          "\"Il mutuo\" is a mortgage, a false friend for anyone who thinks of mutual. You \"accendi\" (take out) a mortgage, pay it back in \"rate\" (instalments: \"la rata mensile\"), and \"estingui\" it when you pay it off; \"l'estinzione anticipata\" is early repayment. The bank registers \"un'ipoteca\" on the house as security, after \"la perizia\" (the valuation).",
+          "\"Il mutuo\" is a mortgage, a false friend for anyone who thinks of mutual. You \"accendi\" (take out) a mortgage, pay it back in \"rate\" (installments: \"la rata mensile\"), and \"estingui\" it when you pay it off; \"l'estinzione anticipata\" is early repayment. The bank registers \"un'ipoteca\" on the house as security, after \"la perizia\" (the valuation).",
           "The rate is either \"a tasso fisso\" (fixed) or \"a tasso variabile\" (variable, usually tied to the Euribor), and the bank adds its own \"spread\". Two acronyms matter: \"il TAN\" is the nominal annual rate; \"il TAEG\" includes every cost (\"le spese di istruttoria\", insurance, fees) and is the honest figure for comparing offers.",
           "\"La surroga\" lets you move your mortgage to another bank with better terms at no cost. Banks usually lend up to 80% of the property's value; the rest is \"l'anticipo\" you pay yourself.",
           "Who borrows matters too: \"l'intestatario\" (the account or mortgage holder), \"il cointestatario\" (joint holder), \"il garante\" (guarantor, often a parent who signs \"una fideiussione\"). Young buyers under 36 have sometimes had a state guarantee through \"il Fondo di garanzia prima casa\"; check the current rules, which change with each budget.",
         ],
         examples: [
           { es: "Abbiamo acceso un mutuo trentennale a tasso fisso.", en: "We took out a thirty-year fixed-rate mortgage." },
-          { es: "La rata mensile è di 820 euro.", en: "The monthly instalment is 820 euros." },
+          { es: "La rata mensile è di 820 euro.", en: "The monthly installment is 820 euros." },
           { es: "Confronta sempre il TAEG, non solo il TAN.", en: "Always compare the APR, not just the nominal rate." },
           { es: "Con la surroga ho risparmiato quasi cento euro al mese.", en: "By switching my mortgage I saved almost a hundred euros a month." },
           { es: "La banca finanzia al massimo l'80% del valore dell'immobile.", en: "The bank lends at most 80% of the property's value." },
@@ -253,6 +254,7 @@ export const IT_C2_U12: Lesson[] = [
           "When the European Central Bank (\"la BCE\") \"alza\" or \"taglia i tassi\", variable mortgages follow within weeks: \"le rate si alleggeriscono\" (get lighter) or \"si appesantiscono\". Journalists also say \"il costo del denaro\" for the official interest rate.",
           "Precise prepositions: \"un mutuo al 3,5%\" (at 3.5%), \"un tasso del 3,5%\" (a rate of 3.5%), \"un aumento di mezzo punto\" (a half-point rise), \"il tasso passa dal 3 al 3,5%\". Note \"mezzo punto\" and \"un quarto di punto\" (25 basis points).",
           "Credit risk vocabulary: \"i crediti deteriorati\" (non-performing loans) weigh on banks; \"la stretta creditizia\" is a credit crunch; \"erogare\" (to grant, pay out) is the verb for loans: \"le banche hanno erogato meno mutui\".",
+          "Fixed and variable rates follow different benchmarks: variable loans track \"l'Euribor\", while fixed offers move with \"l'IRS\" (the euro swap rate for the same term). Between the two sit \"il tasso misto\" (switchable at set dates) and \"il variabile con cap\", a variable rate with \"un tetto massimo\" (a ceiling). And don't confuse \"il tasso\" (the rate) with \"la tassa\" (a tax): one letter and one gender apart, and a classic slip in learners' emails to the bank.",
         ],
         examples: [
           { es: "La BCE ha tagliato i tassi di un quarto di punto.", en: "The ECB cut rates by a quarter of a point." },
@@ -268,14 +270,14 @@ export const IT_C2_U12: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The monthly instalment is 820 euros.", answer: "La rata mensile è di 820 euro.", altAnswers: ["La rata mensile è 820 euro.", "La rata mensile ammonta a 820 euro."], explanation: "\"Essere di\" + amount is the natural way to state a sum; \"euro\" doesn't change in the plural." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The monthly installment is 820 euros.", answer: "La rata mensile è di 820 euro.", altAnswers: ["La rata mensile è 820 euro.", "La rata mensile ammonta a 820 euro."], explanation: "\"Essere di\" + amount is the natural way to state a sum; \"euro\" doesn't change in the plural." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Always compare the APR, not just the nominal rate.", answer: "Confronta sempre il TAEG, non solo il TAN.", altAnswers: ["Confronta sempre il TAEG e non solo il TAN.", "Confrontate sempre il TAEG, non solo il TAN.", "Confronti sempre il TAEG, non solo il TAN."], explanation: "\"Il TAEG\" includes all costs, so it's the figure to compare." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I got a mortgage at 3.2%.", answer: "Ho ottenuto un mutuo al 3,2%.", altAnswers: ["Ho ottenuto un mutuo al 3,2 per cento.", "Ho preso un mutuo al 3,2%."], explanation: "\"Al\" for the rate a loan carries; decimal comma." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The bank lends at most 80% of the property's value.", answer: "La banca finanzia al massimo l'80% del valore dell'immobile.", altAnswers: ["La banca finanzia al massimo l'80 per cento del valore dell'immobile.", "La banca presta al massimo l'80% del valore dell'immobile.", "La banca finanzia fino all'80% del valore dell'immobile."], explanation: "\"L'80%\": \"ottanta\" starts with a vowel. \"L'immobile\" = the property." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "By [switching my mortgage] I saved almost a hundred euros a month.", sentence: "Con la ___ ho risparmiato quasi cento euro al mese.", answer: "surroga", explanation: "\"La surroga\" moves a mortgage to a new bank without fees." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Check the statement: there's a strange [charge].", sentence: "Controlla l'estratto conto: c'è un ___ strano.", answer: "addebito", explanation: "\"L'addebito\" = debit, charge; \"l'accredito\" = credit, payment in." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The bank registered [a mortgage charge] on the flat.", sentence: "La banca ha iscritto ___ sull'appartamento.", answer: "un'ipoteca", explanation: "\"L'ipoteca\" is the legal charge on the property; \"il mutuo\" is the loan itself." },
-      { type: "word-order", prompt: "Put the words in order to say: With the cut, the instalments will get lighter.", words: ["Con", "il", "taglio", "le", "rate", "si", "alleggeriranno."], translation: "With the cut, the instalments will get lighter.", explanation: "\"Alleggerirsi\" (-isc- verb) = to get lighter." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The bank registered [a mortgage charge] on the apartment.", sentence: "La banca ha iscritto ___ sull'appartamento.", answer: "un'ipoteca", explanation: "\"L'ipoteca\" is the legal charge on the property; \"il mutuo\" is the loan itself." },
+      { type: "word-order", prompt: "Put the words in order to say: With the cut, the installments will get lighter.", words: ["Con", "il", "taglio", "le", "rate", "si", "alleggeriranno."], translation: "With the cut, the installments will get lighter.", explanation: "\"Alleggerirsi\" (-isc- verb) = to get lighter." },
       { type: "multiple-choice", question: "A friend says: \"Voglio un mutuo, non un prestito\". What does she want?", options: ["a mortgage, not a personal loan", "a mutual fund, not a loan", "a joint account, not a loan", "a loan from a friend, not a bank"], correctIndex: 0, explanation: "\"Il mutuo\" is a mortgage: a classic false friend." },
       {
         type: "matching",
@@ -306,7 +308,7 @@ export const IT_C2_U12: Lesson[] = [
         body: [
           "A company's annual accounts are \"il bilancio d'esercizio\"; the half-year and quarterly results are \"la semestrale\" and \"la trimestrale\". From top to bottom: \"il fatturato\" or \"i ricavi\" (turnover, revenue), \"il margine operativo lordo\" or MOL (close to EBITDA, and many Italian reports simply write \"l'EBITDA\"), \"il risultato operativo\" (EBIT), and finally \"l'utile netto\" (net profit) or \"la perdita netta\" (net loss).",
           "Below the line: \"l'indebitamento finanziario netto\" (net debt), \"il flusso di cassa\" (cash flow), \"il patrimonio netto\" (equity), \"il dividendo\" proposed to \"gli azionisti\" (shareholders). \"Chiudere l'esercizio in utile\" means to end the financial year with a profit.",
-          "Careful with \"realizzare\": in finance it is correct to \"realizzare un utile\" (to make a profit) or \"realizzare una plusvalenza\" (a capital gain). It never means to realise in the sense of understand, which is \"rendersi conto\".",
+          "Careful with \"realizzare\": in finance it is correct to \"realizzare un utile\" (to make a profit) or \"realizzare una plusvalenza\" (a capital gain). It never means to realize in the sense of understand, which is \"rendersi conto\".",
           "Italian also distinguishes \"il bilancio\" (the annual accounts, or the state budget) from \"il budget\" (an internal spending plan) and \"il preventivo\" (a quote or estimate from a supplier). \"Il consuntivo\" is the final account of what was actually spent, the opposite of \"il preventivo\".",
         ],
         examples: [
@@ -318,7 +320,7 @@ export const IT_C2_U12: Lesson[] = [
           { es: "Con la vendita della controllata la società ha realizzato una plusvalenza.", en: "With the sale of the subsidiary, the company made a capital gain." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Revenue stands at 1.2 billion euros.", answer: "I ricavi si attestano a 1,2 miliardi di euro.", altAnswers: ["Il fatturato si attesta a 1,2 miliardi di euro.", "I ricavi ammontano a 1,2 miliardi di euro.", "Il fatturato ammonta a 1,2 miliardi di euro."], explanation: "\"Attestarsi a\" = to stand at, settle at: a favourite verb of financial reports. \"Ricavi\" is plural, so \"si attestano\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Revenue stands at 1.2 billion euros.", answer: "I ricavi si attestano a 1,2 miliardi di euro.", altAnswers: ["Il fatturato si attesta a 1,2 miliardi di euro.", "I ricavi ammontano a 1,2 miliardi di euro.", "Il fatturato ammonta a 1,2 miliardi di euro."], explanation: "\"Attestarsi a\" = to stand at, settle at: a favorite verb of financial reports. \"Ricavi\" is plural, so \"si attestano\"." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The group closed the year with a [net profit] of 48 million.", sentence: "Il gruppo ha chiuso l'anno con un ___ di 48 milioni.", answer: "utile netto", explanation: "\"L'utile netto\" = net profit; the loss is \"la perdita netta\"." },
         ],
       },
@@ -350,6 +352,7 @@ export const IT_C2_U12: Lesson[] = [
           "Guidance (\"le previsioni\", \"le stime\", \"la guidance\" in English in many reports) is hedged: \"il management prevede\", \"si stima\", \"dovrebbe attestarsi\", \"è atteso in crescita\". The conditional of prudence (\"potrebbe\", \"dovrebbe\") protects the writer.",
           "\"Confermare\", \"rivedere al rialzo\" (raise) and \"rivedere al ribasso\" (cut) are the verbs for updating a forecast: \"la società ha rivisto al ribasso le stime per l'intero anno\". \"Gli analisti\" can \"alzare il prezzo obiettivo\" (raise the price target) or give \"un giudizio\" of \"acquistare\" or \"vendere\".",
           "Avoid calques: \"una stima conservativa\" is common but \"prudente\" or \"prudenziale\" is better Italian; \"consistente\" means substantial, not steady (\"una crescita costante\"); \"eventualmente\" means possibly, if necessary.",
+          "Results reach the public through \"il comunicato stampa\", issued once \"il consiglio di amministrazione\" (the board, often \"il CdA\") \"ha approvato\" the figures; the annual accounts are then approved by \"l'assemblea degli azionisti\". The future passive with \"venire\" describes the steps: \"il dividendo verrà messo in pagamento a maggio\" (will be paid out), with \"lo stacco della cedola\" (the ex-dividend date) a few days earlier.",
         ],
         examples: [
           { es: "Il fatturato dovrebbe attestarsi intorno ai 900 milioni.", en: "Turnover should settle at around 900 million." },
@@ -371,7 +374,7 @@ export const IT_C2_U12: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The margin is expected to improve slightly.", answer: "Il margine è atteso in lieve miglioramento.", altAnswers: ["Il margine dovrebbe migliorare leggermente.", "Si prevede un lieve miglioramento del margine.", "Il margine è atteso in leggero miglioramento."], explanation: "\"Essere atteso in\" + noun is the report style; \"dovrebbe migliorare\" is the plainer version." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Profit is down [against] essentially stable revenue.", sentence: "L'utile è in calo ___ ricavi sostanzialmente stabili.", answer: "a fronte di", explanation: "\"A fronte di\" sets one figure against another." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Italy and Spain grow by 4 and 6% [respectively].", sentence: "Italia e Spagna crescono ___ del 4 e del 6%.", answer: "rispettivamente", explanation: "\"Rispettivamente\" usually comes before the figures in Italian." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "With the sale, the company [made a capital gain].", sentence: "Con la vendita la società ha ___.", answer: "realizzato una plusvalenza", explanation: "\"Realizzare\" is right here: to make a gain. Not for to realise that." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "With the sale, the company [made a capital gain].", sentence: "Con la vendita la società ha ___.", answer: "realizzato una plusvalenza", explanation: "\"Realizzare\" is right here: to make a gain. Not for to realize that." },
       { type: "word-order", prompt: "Put the words in order to say: The board will propose a dividend to shareholders.", words: ["Il", "consiglio", "proporrà", "agli", "azionisti", "un", "dividendo."], translation: "The board will propose a dividend to shareholders.", altOrders: [["Il", "consiglio", "proporrà", "un", "dividendo", "agli", "azionisti."]], explanation: "\"Proporrà\": future of \"proporre\", with double r." },
       { type: "multiple-choice", question: "Which sentence says growth was steady?", options: ["La crescita è stata costante.", "La crescita è stata consistente.", "La crescita è stata sensibile.", "La crescita è stata eventuale."], correctIndex: 0, explanation: "\"Costante\" = steady; \"consistente\" = substantial; \"sensibile\" = noticeable." },
       {
@@ -457,7 +460,7 @@ export const IT_C2_U12: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The rate goes [from] 2.5 [to] 2.75%.", sentence: "Il tasso passa ___ 2,75%.", answer: "dal 2,5 al", explanation: "\"Dal ... al\" with the article on both numbers." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The banks [granted] more loans.", sentence: "Le banche hanno ___ più prestiti.", answer: "erogato", altAnswers: ["concesso"], explanation: "\"Erogare\" = to grant, pay out." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The company [raised] its forecasts.", sentence: "La società ha ___ le stime.", answer: "rivisto al rialzo", explanation: "\"Rivedere al rialzo\" = to raise a forecast." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Italy risks [overshooting] the deficit target.", sentence: "L'Italia rischia di ___ l'obiettivo di deficit.", answer: "sforare", altAnswers: ["superare", "mancare"], explanation: "\"Sforare\" = to overshoot a limit." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Italy risks [overshooting] the deficit target.", sentence: "L'Italia rischia di ___ l'obiettivo di deficit.", answer: "sforare", altAnswers: ["superare"], explanation: "\"Sforare\" = to overshoot a limit." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'm [overdrawn] again.", sentence: "Sono di nuovo ___.", answer: "in rosso", altAnswers: ["allo scoperto"], explanation: "\"Essere in rosso\" (everyday), \"allo scoperto\" (technical)." },
       { type: "word-order", prompt: "Put the words in order to say: The ECB raised rates by half a point.", words: ["La", "BCE", "ha", "alzato", "i", "tassi", "di", "mezzo", "punto."], translation: "The ECB raised rates by half a point.", explanation: "\"Di mezzo punto\" = by half a point." },
       { type: "dictation", audio: "Il FTSE MIB perde lo 0,9% e lo spread sale a 170 punti.", explanation: "\"Lo 0,9%\" and \"lo spread\": both take \"lo\"." },
@@ -516,7 +519,7 @@ export const IT_C2_U12: Lesson[] = [
         heading: "Reading between the lines",
         body: [
           "The closing paragraph usually looks ahead: \"Gli occhi ora sono puntati sulla riunione della BCE di giovedì, da cui gli operatori si attendono indicazioni sul percorso dei tassi.\" \"Gli occhi sono puntati su\" (all eyes are on) and \"gli operatori\" (traders, market players) are fixed.",
-          "Spot the hedging: \"secondo alcuni operatori\", \"non è escluso che\" + subjunctive, \"potrebbe\", \"sembrerebbe\". \"Non è escluso che la BCE intervenga\" (a rate move can't be ruled out) commits to nothing and sounds informed. This is what to imitate when you summarise.",
+          "Spot the hedging: \"secondo alcuni operatori\", \"non è escluso che\" + subjunctive, \"potrebbe\", \"sembrerebbe\". \"Non è escluso che la BCE intervenga\" (a rate move can't be ruled out) commits to nothing and sounds informed. This is what to imitate when you summarize.",
           "Finally, check what the article doesn't say. \"Secondo quanto si apprende\" (it is understood that) signals an anonymous source; \"il condizionale è d'obbligo\" (the conditional is a must) is the journalist admitting the news is unconfirmed. A careful reader repeats the hedge rather than turning it into fact.",
         ],
         examples: [
@@ -588,7 +591,7 @@ export const IT_C2_U12: Lesson[] = [
       {
         heading: "Prepositions that change the figure",
         body: [
-          "*I prezzi sono saliti di 3% is wrong twice over: Italian needs the article, and \"del 3%\" means by 3%, while \"al 3%\" means to 3%. Swap them and the figure changes. The same goes for \"dal 2 al 3%\" (from 2 to 3%): never *da 2% a 3%.",
+          "*I prezzi sono saliti di 3% is wrong: the percentage needs its article, so \"del 3%\" (by 3%). Then keep \"del\" apart from \"al\": \"saliti del 3%\" is a rise by 3%, \"saliti al 3%\" a rise to 3%. Swap them and the figure changes. The same goes for \"dal 2 al 3%\" (from 2 to 3%): never *da 2% a 3%.",
           "\"Rispetto a\" is the normal comparison phrase: \"rispetto al 2023\", \"rispetto all'anno scorso\". Avoid *comparato a, a calque from compared to. And \"in confronto a\" is fine in speech but lighter than reports want.",
           "Comparatives with numbers: \"più di 3 miliardi\" (more than), but \"più del previsto\" (more than expected) and \"meno di quanto si temesse\" (less than was feared), which takes the subjunctive.",
         ],
@@ -608,18 +611,18 @@ export const IT_C2_U12: Lesson[] = [
         heading: "False friends in finance",
         body: [
           "*La banca ha realizzato che il cliente non poteva pagare: in this sense, \"si è resa conto\". But \"realizzare un utile\" is correct. *Una crescita consistente for steady growth: \"costante\"; \"consistente\" means substantial. *Eventualmente ci sarà una ripresa for eventually: \"alla fine\" or \"prima o poi\"; \"eventualmente\" means if need be.",
-          "*L'attuale fatturato for the actual turnover: \"il fatturato effettivo\" or \"reale\"; \"attuale\" means current. \"Lo stock\" in Italian means inventory, goods in a warehouse, never shares, which are \"le azioni\". And \"la bancarotta\" is the crime of fraudulent bankruptcy, not a neutral word for going bust.",
+          "*L'attuale fatturato for the actual turnover: \"il fatturato effettivo\" or \"reale\"; \"attuale\" means current. \"Lo stock\" in Italian means inventory, goods in a warehouse, never shares, which are \"le azioni\". And in law \"la bancarotta\" is a crime (\"semplice\" or \"fraudolenta\"); \"fare bancarotta\" is common in speech for going bust, but in a report it suggests wrongdoing.",
           "The neutral words are \"fallire\" and \"il fallimento\", and since 2022 the law calls the procedure \"la liquidazione giudiziale\". A company \"in difficoltà\" may seek \"un concordato preventivo\" (an arrangement with creditors) to avoid it.",
         ],
         examples: [
-          { es: "La banca si è resa conto che il cliente non poteva pagare.", en: "The bank realised the client couldn't pay." },
+          { es: "La banca si è resa conto che il cliente non poteva pagare.", en: "The bank realized the client couldn't pay." },
           { es: "Negli ultimi cinque anni la crescita è stata costante.", en: "Over the last five years growth has been steady." },
           { es: "Prima o poi ci sarà una ripresa.", en: "Eventually there will be a recovery." },
           { es: "Il fatturato effettivo è inferiore a quello dichiarato.", en: "The actual turnover is lower than the declared one." },
           { es: "Il magazzino ha uno stock di diecimila pezzi.", en: "The warehouse has a stock of ten thousand items." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "The draft says *La banca ha realizzato che. Write the correct Italian for: The bank realised the client couldn't pay.", source: "The bank realised the client couldn't pay.", answer: "La banca si è resa conto che il cliente non poteva pagare.", altAnswers: ["La banca ha capito che il cliente non poteva pagare.", "La banca si è accorta che il cliente non poteva pagare.", "La banca si è resa conto che il cliente non era in grado di pagare."], explanation: "\"Rendersi conto\" = to realise; \"realizzare\" = to make happen, to make a profit." },
+          { type: "translate", direction: "en-es", prompt: "The draft says *La banca ha realizzato che. Write the correct Italian for: The bank realized the client couldn't pay.", source: "The bank realized the client couldn't pay.", answer: "La banca si è resa conto che il cliente non poteva pagare.", altAnswers: ["La banca ha capito che il cliente non poteva pagare.", "La banca si è accorta che il cliente non poteva pagare.", "La banca si è resa conto che il cliente non era in grado di pagare."], explanation: "\"Rendersi conto\" = to realize; \"realizzare\" = to make happen, to make a profit." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Over the last five years growth has been [steady].", sentence: "Negli ultimi cinque anni la crescita è stata ___.", answer: "costante", altAnswers: ["regolare", "stabile"], explanation: "\"Consistente\" would mean substantial, not steady." },
           { type: "speak", text: "Prima o poi ci sarà una ripresa, ma la crescita non sarà costante.", prompt: "Say it in Italian: Eventually there will be a recovery, but growth won't be steady.", tip: "\"Prima o poi\": one breath, stress on \"PO-i\".", explanation: "\"Prima o poi\" for eventually; \"costante\" for steady." },
         ],
@@ -651,13 +654,13 @@ export const IT_C2_U12: Lesson[] = [
       {
         heading: "Opening the meeting",
         body: [
-          "Elena Ferraris, a designer in Torino, meets the adviser at her bank to discuss a mortgage for a flat in San Salvario. She uses \"Lei\" throughout. The adviser opens: \"Allora, signora Ferraris, mi racconti un po' il progetto.\" She answers with the facts: \"Abbiamo trovato un trilocale da 260.000 euro e disponiamo di un anticipo di 70.000.\"",
+          "Elena Ferraris, a designer in Torino, meets the adviser at her bank to discuss a mortgage for an apartment in San Salvario. She uses \"Lei\" throughout. The adviser opens: \"Allora, signora Ferraris, mi racconti un po' il progetto.\" She answers with the facts: \"Abbiamo trovato un trilocale da 260.000 euro e disponiamo di un anticipo di 70.000.\"",
           "\"Disporre di\" (to have available) is more formal than \"avere\" and suits the setting. The adviser asks about income and contract: \"Che tipo di contratto ha?\", \"A tempo indeterminato?\" (permanent). A permanent contract is the key to a good offer in Italy.",
-          "Elena is precise and brief, as Italians expect in a bank: the adviser will ask for \"le ultime buste paga\" (recent payslips), \"il CUD\" or \"la Certificazione Unica\" (the annual income statement) and \"il compromesso\" (the preliminary sale agreement), so she mentions she has them ready.",
+          "Elena is precise and brief, as Italians expect in a bank: the adviser will ask for \"le ultime buste paga\" (recent payslips), \"la Certificazione Unica\" (the annual income statement, still often called by its old name, \"il CUD\") and \"il compromesso\" (the preliminary sale agreement), so she mentions she has them ready.",
         ],
         examples: [
           { es: "Mi racconti un po' il progetto.", en: "Tell me a bit about your plans." },
-          { es: "Abbiamo trovato un trilocale da 260.000 euro.", en: "We've found a three-room flat for 260,000 euros." },
+          { es: "Abbiamo trovato un trilocale da 260.000 euro.", en: "We've found a three-room apartment for 260,000 euros." },
           { es: "Disponiamo di un anticipo di 70.000 euro.", en: "We have a deposit of 70,000 euros available." },
           { es: "Ho un contratto a tempo indeterminato da sei anni.", en: "I've had a permanent contract for six years." },
           { es: "Quale durata avete in mente?", en: "What term do you have in mind?" },
@@ -712,7 +715,7 @@ export const IT_C2_U12: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "As it stands, the offer doesn't convince me.", answer: "Così com'è, l'offerta non mi convince.", altAnswers: ["Così com'è l'offerta non mi convince.", "Così come è, l'offerta non mi convince."], explanation: "A firm but open way to say no." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll give you an answer by Friday. (polite)", answer: "Le do una risposta entro venerdì.", altAnswers: ["Le darò una risposta entro venerdì.", "Le faccio sapere entro venerdì."], explanation: "\"Entro\" = by; present for a near-future promise." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'd have to check with management, but we could [meet you halfway].", sentence: "Dovrei sentire la direzione, ma potremmo ___.", answer: "venirle incontro", explanation: "\"Le\" = to you (Lei), attached to the infinitive." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "We can offer you a fixed rate at 3.4% [over] 25 years.", sentence: "Le possiamo offrire un fisso al 3,4% ___ 25 anni.", answer: "su", altAnswers: ["in"], explanation: "\"Su 25 anni\" = over 25 years, the mortgage term." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "We can offer you a fixed rate at 3.4% [over] 25 years.", sentence: "Le possiamo offrire un fisso al 3,4% ___ 25 anni.", answer: "su", altAnswers: ["a"], explanation: "\"Su 25 anni\" (or \"a 25 anni\") = over 25 years, the mortgage term." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "What [term] do you have in mind?", sentence: "Quale ___ avete in mente?", answer: "durata", explanation: "\"La durata\" = the term, length of the loan." },
       { type: "word-order", prompt: "Put the words in order to say: Can you send me the summary by email?", words: ["Mi", "può", "mandare", "il", "prospetto", "per", "email?"], translation: "Can you send me the summary by email?", explanation: "Clitic \"mi\" before \"può\"." },
       { type: "multiple-choice", question: "The adviser offers 3.4%. Which reply is polite but firm?", options: ["Ho visto offerte intorno al 3,1%: c'è margine per rivedere lo spread?", "Non accetto, è un furto.", "Va bene, firmo subito.", "Mi dai uno spread migliore?"], correctIndex: 0, explanation: "Facts plus \"c'è margine per\", in the Lei register." },
@@ -723,7 +726,7 @@ export const IT_C2_U12: Lesson[] = [
           { left: "a tempo indeterminato", right: "permanent" },
           { left: "le penali", right: "penalties" },
           { left: "la polizza", right: "insurance policy" },
-          { left: "il trilocale", right: "three-room flat" },
+          { left: "il trilocale", right: "three-room apartment" },
           { left: "sottoscrivere", right: "to sign up for" },
         ],
         explanation: "Words from the meeting.",
@@ -744,17 +747,17 @@ export const IT_C2_U12: Lesson[] = [
       {
         heading: "The task and the structure",
         body: [
-          "Your mission: you work for a consultancy in Bologna and must send the client a short report (about 300 words) on the half-year results of an invented company, Ceramiche Emiliane S.p.A. Italian business reports favour a clear skeleton: \"Premessa\" (purpose), \"Andamento\" (performance), \"Fattori\" (drivers), \"Prospettive\" (outlook).",
+          "Your mission: you work for a consultancy in Bologna and must send the client a short report (about 300 words) on the half-year results of an invented company, Ceramiche Emiliane S.p.A. Italian business reports favor a clear skeleton: \"Premessa\" (purpose), \"Andamento\" (performance), \"Fattori\" (drivers), \"Prospettive\" (outlook).",
           "Open with purpose, not pleasantries: \"La presente nota sintetizza i risultati del primo semestre e ne valuta le implicazioni.\" \"Ne\" here means of them, the results. In the body, put the figure first and the comment second.",
         ],
         examples: [
-          { es: "La presente nota sintetizza i risultati del primo semestre.", en: "This note summarises the first-half results." },
+          { es: "La presente nota sintetizza i risultati del primo semestre.", en: "This note summarizes the first-half results." },
           { es: "Nel semestre i ricavi si sono attestati a 84 milioni di euro.", en: "In the half-year revenue stood at 84 million euros." },
           { es: "Il dato è in crescita del 6% rispetto allo stesso periodo del 2024.", en: "The figure is up 6% on the same period of 2024." },
           { es: "Ne valutiamo di seguito le implicazioni.", en: "Below we assess their implications." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "This note summarises the first-half results.", answer: "La presente nota sintetizza i risultati del primo semestre.", altAnswers: ["Questa nota sintetizza i risultati del primo semestre.", "La presente nota riassume i risultati del primo semestre."], explanation: "\"La presente\" = this (document), a formal opener." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "This note summarizes the first-half results.", answer: "La presente nota sintetizza i risultati del primo semestre.", altAnswers: ["Questa nota sintetizza i risultati del primo semestre.", "La presente nota riassume i risultati del primo semestre."], explanation: "\"La presente\" = this (document), a formal opener." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "In the half-year revenue [stood at] 84 million euros.", sentence: "Nel semestre i ricavi si sono ___ 84 milioni di euro.", answer: "attestati a", explanation: "\"Attestarsi a\": the participle agrees with \"i ricavi\"." },
         ],
       },
@@ -775,7 +778,7 @@ export const IT_C2_U12: Lesson[] = [
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Growth is mainly attributable to exports.", answer: "La crescita è riconducibile principalmente all'export.", altAnswers: ["La crescita è riconducibile soprattutto all'export.", "La crescita è dovuta principalmente all'export.", "La crescita è riconducibile principalmente alle esportazioni."], explanation: "\"Riconducibile a\" = attributable to, report register." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We believe that demand will remain solid.", answer: "Riteniamo che la domanda resti solida.", altAnswers: ["Riteniamo che la domanda rimanga solida.", "Riteniamo che la domanda resterà solida."], explanation: "\"Ritenere che\" + subjunctive; the future is also accepted for a forecast." },
-          { type: "listen-choose", audio: "Permangono rischi legati al costo dell'energia e al rallentamento della domanda tedesca.", question: "What risks are mentioned?", options: ["energy costs and slowing German demand", "rising rates and labour costs", "currency swings and taxes", "energy costs and a strike"], correctIndex: 0, explanation: "\"Rallentamento\" = slowdown; \"tedesca\" = German." },
+          { type: "listen-choose", audio: "Permangono rischi legati al costo dell'energia e al rallentamento della domanda tedesca.", question: "What risks are mentioned?", options: ["energy costs and slowing German demand", "rising rates and labor costs", "currency swings and taxes", "energy costs and a strike"], correctIndex: 0, explanation: "\"Rallentamento\" = slowdown; \"tedesca\" = German." },
         ],
       },
       {

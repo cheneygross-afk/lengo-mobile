@@ -55,6 +55,7 @@ export const IT_B1_U01: Lesson[] = [
         body: [
           "Nothing comes between the cluster and the verb. \"Non\" goes in front of the whole block: \"Non te lo do\" (I'm not giving it to you), \"Non me la presti?\" (won't you lend it to me?).",
           "A question is just the same sentence with a rising voice: \"Me lo presti?\" The subject, if you need it, goes before the cluster or at the end: \"Tu me lo presti?\", \"Me lo presti tu?\".",
+          "The classic slips: keeping the \"i\" (\"mi lo dai?\", \"ti la presto\"), which Italians notice at once, and copying English order (\"lo mi dai?\"). A third one is doubling the person: \"a me me lo dai?\" says to me twice. Say \"me lo dai?\", or stress the person with \"lo dai a me?\", never both.",
         ],
         examples: [
           { es: "Non te lo do.", en: "I'm not giving it to you." },
@@ -132,6 +133,7 @@ export const IT_B1_U01: Lesson[] = [
         heading: "Who gives what to whom",
         body: [
           "With clusters you hear the person first. \"Me\" means me, \"te\" you, \"ce\" us, \"ve\" you all. Then the thing: \"lo, la, li, le, ne\". A quick test: say the sentence back with full nouns: \"Ve ne lascio un pezzo\" = I leave a piece of it to you all.",
+          "Not every \"ce\" means us. In \"ce l'ho\" (I've got it), \"ce n'è\" and \"ce ne vogliono tre\" the \"ci\" belongs to the verb (\"averci\", \"esserci\", \"volerci\"), but it changes to \"ce\" by the same rule. Context sorts it out: \"Ce l'hanno dato\" (they gave it to us) vs \"Ce l'hai?\" (have you got it?). And \"ve\" is only plural: for one person addressed as \"Lei\" you'll need \"glielo\" (Unit 2).",
         ],
         examples: [
           { es: "Ce le ha regalate la nonna.", en: "Grandma gave them to us." },
@@ -147,7 +149,7 @@ export const IT_B1_U01: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The pizzas? I'll bring them to you right away. (to a table of customers)", answer: "Le pizze? Ve le porto subito.", explanation: "\"Le pizze\" → \"le\"; \"vi\" → \"ve\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Coffee? I'll bring you some.", answer: "Caffè? Te ne porto un po'.", altAnswers: ["Il caffè? Te ne porto un po'.", "Del caffè? Te ne porto un po'."], explanation: "\"Ne\" = some of it; \"un po'\" with an apostrophe." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "For the cake you need three eggs.", answer: "Per la torta ci vogliono tre uova.", altAnswers: ["Per la torta servono tre uova."], explanation: "\"Ci vogliono\" + plural = you need; \"uova\" is the plural of \"uovo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "For the cake you need three eggs.", answer: "Per la torta ci vogliono tre uova.", altAnswers: ["Per la torta servono tre uova.", "Ci vogliono tre uova per la torta.", "Per la torta ti servono tre uova."], explanation: "\"Ci vogliono\" + plural = you need; \"uova\" is the plural of \"uovo\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Eggs? For the cake you need three.", answer: "Uova? Per la torta ce ne vogliono tre.", altAnswers: ["Le uova? Per la torta ce ne vogliono tre."], explanation: "Now \"ne\" replaces the eggs: \"ci\" + \"ne\" = \"ce ne\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They always talk to us about it.", answer: "Ce ne parlano sempre.", explanation: "\"Parlare di\" → \"ne\"; \"ci\" → \"ce\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Grandma gave them to us. (the earrings: gli orecchini)", answer: "Ce li ha regalati la nonna.", altAnswers: ["La nonna ce li ha regalati."], explanation: "\"Gli orecchini\" → \"li\"; the participle agrees: \"regalati\"." },
@@ -177,26 +179,27 @@ export const IT_B1_U01: Lesson[] = [
         examples: [
           { es: "Me l'ha detto Luca.", en: "Luca told me." },
           { es: "Te l'ho già detto mille volte.", en: "I've already told you a thousand times." },
-          { es: "Ce li hanno portati i vicini.", en: "The neighbours brought them to us." },
+          { es: "Ce li hanno portati i vicini.", en: "The neighbors brought them to us." },
           { es: "Le scarpe? Te le ho comprate ieri.", en: "The shoes? I bought them for you yesterday." },
           { es: "Chi ve l'ha detto?", en: "Who told you? (plural)" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Who told you? (to a friend)", answer: "Chi te l'ha detto?", explanation: "\"Te lo\" + \"ha\" = \"te l'ha\"; \"lo\" is the piece of news." },
-          { type: "multiple-choice", question: "Which spelling is right for: The neighbours brought them to us (the boxes, le scatole)?", options: ["Ce le hanno portate i vicini.", "Ce l'hanno portate i vicini.", "Ci le hanno portate i vicini.", "Ce le hanno portato i vicini."], correctIndex: 0, explanation: "\"Le\" doesn't elide, and \"portate\" agrees with \"le\"." },
+          { type: "multiple-choice", question: "Which spelling is right for: The neighbors brought them to us (the boxes, le scatole)?", options: ["Ce le hanno portate i vicini.", "Ce l'hanno portate i vicini.", "Ci le hanno portate i vicini.", "Ce le hanno portato i vicini."], correctIndex: 0, explanation: "\"Le\" doesn't elide, and \"portate\" agrees with \"le\"." },
         ],
       },
       {
         heading: "Agreement with the thing",
         body: [
           "The participle agrees with the direct pronoun, exactly as in \"l'ho vista\": \"La lettera? Te l'ho mandata\" (feminine), \"I libri? Me li ha prestati\", \"Le chiavi? Ce le hanno lasciate\". The indirect pronoun never changes the participle: \"me\", \"te\", \"ce\" don't count.",
-          "With \"ne\" the participle agrees with the thing counted: \"Me ne ha dati tre\" (he gave me three, euro or biscuits), \"Ce ne hanno date due\" (they gave us two, keys). \"Ne\" is not shortened before \"ha\" in careful writing: \"me ne ha\".",
+          "With \"ne\" the participle agrees with the thing counted: \"Me ne ha dati tre\" (he gave me three, euros or cookies), \"Ce ne hanno date due\" (they gave us two, keys). \"Ne\" is not shortened before \"ha\" in careful writing: \"me ne ha\".",
+          "The usual mistake is to agree with the person instead of the thing. Giulia hears \"Te l'ho detto\", not \"te l'ho detta\": what was said (\"lo\") is masculine, whoever you said it to. And with no direct pronoun at all nothing agrees: \"Le ho mandato un messaggio\" (I sent her a message), never \"mandata\".",
         ],
         examples: [
           { es: "La lettera? Te l'ho mandata stamattina.", en: "The letter? I sent it to you this morning." },
           { es: "I libri? Me li ha prestati Chiara.", en: "The books? Chiara lent them to me." },
-          { es: "Le chiavi? Ce le hanno lasciate in portineria.", en: "The keys? They left them for us with the porter." },
-          { es: "Biscotti? Me ne ha dati tre.", en: "Biscuits? She gave me three." },
+          { es: "Le chiavi? Ce le hanno lasciate in portineria.", en: "The keys? They left them for us with the doorman." },
+          { es: "Biscotti? Me ne ha dati tre.", en: "Cookies? She gave me three." },
           { es: "Le foto? Ve ne ho mandate solo due.", en: "The photos? I only sent you two." },
         ],
         checkpoint: [
@@ -227,12 +230,12 @@ export const IT_B1_U01: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Luca told me.", answer: "Me l'ha detto Luca.", altAnswers: ["Luca me l'ha detto."], explanation: "\"Me lo ha\" → \"me l'ha\"; \"lo\" = the news, so \"detto\" stays." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I've already told you a thousand times!", answer: "Te l'ho già detto mille volte!", explanation: "\"Già\" goes between auxiliary and participle." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The shoes? I bought them for you yesterday.", answer: "Le scarpe? Te le ho comprate ieri.", explanation: "\"Le\" stays whole before \"ho\"; \"comprate\" agrees." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The keys? They left them for us with the porter.", answer: "Le chiavi? Ce le hanno lasciate in portineria.", altAnswers: ["Le chiavi? Ce le hanno lasciate al portiere."], explanation: "\"Ce le\" + \"lasciate\" (feminine plural)." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The keys? They left them for us with the doorman.", answer: "Le chiavi? Ce le hanno lasciate in portineria.", altAnswers: ["Le chiavi? Ce le hanno lasciate al portiere.", "Le chiavi? Ce le hanno lasciate dal portiere."], explanation: "\"Ce le\" + \"lasciate\" (feminine plural)." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The money? My parents gave it to me.", answer: "I soldi? Me li hanno dati i miei genitori.", altAnswers: ["I soldi? Me li hanno dati i miei.", "I soldi? I miei genitori me li hanno dati."], explanation: "\"I soldi\" is plural in Italian: \"li\" and \"dati\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Photos? I only sent you two. (to a friend)", answer: "Foto? Te ne ho mandate solo due.", altAnswers: ["Le foto? Te ne ho mandate solo due.", "Foto? Te ne ho mandate soltanto due."], explanation: "\"Ne\" + count: \"mandate\" agrees with the photos." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The cake? [Grandma made it for us].", sentence: "La torta? ___ la nonna.", answer: "Ce l'ha fatta", explanation: "\"L'\" = \"la torta\": \"fatta\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The cake? [Grandma made it for us].", sentence: "La torta? ___ la nonna.", answer: "Ce l'ha fatta", altAnswers: ["Ce l'ha preparata"], explanation: "\"L'\" = \"la torta\": \"fatta\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Who [told you]? (plural)", sentence: "Chi ___?", answer: "ve l'ha detto", explanation: "\"Vi\" → \"ve\"; \"lo\" elides before \"ha\"." },
-      { type: "word-order", prompt: "Put the words in order to say: The neighbours brought them to us. (i mobili)", words: ["Ce", "li", "hanno", "portati", "i", "vicini."], translation: "The neighbours brought them to us.", altOrders: [["I", "vicini", "ce", "li", "hanno", "portati."]], explanation: "\"Li\" never elides; \"portati\" agrees with the furniture." },
+      { type: "word-order", prompt: "Put the words in order to say: The neighbors brought them to us. (i mobili)", words: ["Ce", "li", "hanno", "portati", "i", "vicini."], translation: "The neighbors brought them to us.", altOrders: [["I", "vicini", "ce", "li", "hanno", "portati."]], explanation: "\"Li\" never elides; \"portati\" agrees with the furniture." },
       { type: "multiple-choice", question: "\"La bici? Me l'ha ___ Sara.\" Which participle fits?", options: ["prestata", "prestato", "prestati", "prestate"], correctIndex: 0, explanation: "\"L'\" = \"la bici\": feminine singular." },
       { type: "dictation", audio: "Te l'ho già detto: me l'ha data ieri.", explanation: "\"Data\": the thing she gave is feminine." },
       { type: "speak", text: "Il libro? Me l'ha prestato Chiara, te lo do domani.", prompt: "Say it in Italian: The book? Chiara lent it to me, I'll give it to you tomorrow.", tip: "\"Me l'ha\" is one beat: mel-LA.", explanation: "Past cluster, then present cluster." },
@@ -272,14 +275,14 @@ export const IT_B1_U01: Lesson[] = [
           "This catches everyone: the subject may be a man, but the ending follows the thing. Marco says \"La giacca? Me la sono messa\"; Giulia says \"Il cappotto? Me lo sono messo\".",
         ],
         examples: [
-          { es: "La macchina nuova? Se l'è comprata a rate.", en: "The new car? He bought it in instalments." },
+          { es: "La macchina nuova? Se l'è comprata a rate.", en: "The new car? He bought it in installments." },
           { es: "Il cappotto? Me lo sono messo, fa freddo.", en: "My coat? I've put it on, it's cold." },
           { es: "Gli occhiali? Ce li siamo dimenticati in albergo.", en: "Our glasses? We left them behind at the hotel." },
           { es: "Le mani? Te le sei lavate?", en: "Your hands? Have you washed them?" },
           { es: "La pizza? Se la sono mangiata tutta.", en: "The pizza? They ate the whole thing." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The new car? He bought it in instalments.", answer: "La macchina nuova? Se l'è comprata a rate.", explanation: "\"Se la è\" → \"se l'è\"; \"comprata\" follows \"la macchina\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The new car? He bought it in installments.", answer: "La macchina nuova? Se l'è comprata a rate.", explanation: "\"Se la è\" → \"se l'è\"; \"comprata\" follows \"la macchina\"." },
           { type: "multiple-choice", question: "Marco talks about his coat (il cappotto). Which is right?", options: ["Me lo sono messo.", "Me la sono messa.", "Mi lo sono messo.", "Me lo ho messo."], correctIndex: 0, explanation: "\"Lo\" = \"il cappotto\", so \"messo\"; reflexives take \"essere\"." },
           { type: "listen-choose", audio: "Gli occhiali? Ce li siamo dimenticati.", question: "What happened?", options: ["We forgot our glasses.", "They forgot our glasses.", "We forgot their keys.", "We found our glasses."], correctIndex: 0, explanation: "\"Ce li siamo dimenticati\" = we forgot them." },
         ],
@@ -289,16 +292,17 @@ export const IT_B1_U01: Lesson[] = [
         body: [
           "As with every cluster, \"non\" goes in front: \"Non me lo metto mai\" (I never wear it). In questions nothing moves: \"Te lo sei ricordato?\" (did you remember it?).",
           "\"Ricordarsi\" and \"dimenticarsi\" are the two verbs you'll use most: \"Il compleanno di Sara? Non me lo sono ricordato!\" English says I forgot it; Italian says, literally, I forgot it to myself.",
+          "Keep the reflexive apart from its non-reflexive twin. \"Mi metto la giacca\" is on me; \"Metto la giacca a Luca\" is on someone else, and its cluster is \"gliela metto\" (Unit 2). Learners also write \"se la ha comprata\": reflexive clusters always take \"essere\" (\"se l'è comprata\"), even when the verb alone would take \"avere\" (\"l'ha comprata\").",
         ],
         examples: [
-          { es: "Quel maglione non me lo metto mai.", en: "I never wear that jumper." },
+          { es: "Quel maglione non me lo metto mai.", en: "I never wear that sweater." },
           { es: "Il compleanno di Sara? Te lo sei ricordato?", en: "Sara's birthday? Did you remember it?" },
           { es: "No, non me lo sono ricordato!", en: "No, I didn't remember it!" },
           { es: "La password? Se l'è dimenticata di nuovo.", en: "The password? She's forgotten it again." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Sara's birthday? Did you remember it? (to a friend)", answer: "Il compleanno di Sara? Te lo sei ricordato?", explanation: "Agreement with \"il compleanno\": \"ricordato\"." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I never wear that jumper.", answer: "Quel maglione non me lo metto mai.", altAnswers: ["Non mi metto mai quel maglione."], explanation: "\"Non\" + cluster + verb + \"mai\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I never wear that sweater.", answer: "Quel maglione non me lo metto mai.", altAnswers: ["Non mi metto mai quel maglione."], explanation: "\"Non\" + cluster + verb + \"mai\"." },
         ],
       },
     ],
@@ -452,12 +456,12 @@ export const IT_B1_U01: Lesson[] = [
         heading: "Missing agreement",
         body: [
           "\"La borsa? Me l'ha dato mia sorella.\" The participle must follow the bag: \"Me l'ha data\". Learners forget because \"l'\" hides whether it was \"lo\" or \"la\". Ask yourself what the thing is.",
-          "With \"ne\" the count decides: \"Me ne ha dato tre\" should be \"Me ne ha dati tre\" (three biscuits) or \"date tre\" (three bottles).",
+          "With \"ne\" the count decides: \"Me ne ha dato tre\" should be \"Me ne ha dati tre\" (three cookies) or \"date tre\" (three bottles).",
         ],
         examples: [
           { es: "La borsa? Me l'ha data mia sorella.", en: "The bag? My sister gave it to me." },
           { es: "Le foto? Te le ho già mandate.", en: "The photos? I've already sent them to you." },
-          { es: "Biscotti? Me ne ha dati tre.", en: "Biscuits? He gave me three." },
+          { es: "Biscotti? Me ne ha dati tre.", en: "Cookies? He gave me three." },
           { es: "La notizia? Chi te l'ha data?", en: "The news? Who gave it to you?" },
         ],
         checkpoint: [
@@ -486,13 +490,13 @@ export const IT_B1_U01: Lesson[] = [
     level: "IT-B1",
     number: 8,
     title: "Dialogue Lab: Moving House",
-    summary: "Help friends move flat in Turin, handing over boxes and tools with me la porti?, te li lascio qui and ce ne servono altre due.",
+    summary: "Help friends move into a new apartment in Turin, handing over boxes and tools with me la porti?, te li lascio qui and ce ne servono altre due.",
     duration: "17 min",
     sections: [
       {
         heading: "Saturday morning, Via Po",
         body: [
-          "Chiara is moving into a fourth-floor flat in Turin, and the lift is broken. Luca and Sara are helping. Everyone is tired, so they speak fast and use clusters for everything: nobody says \"la scatola\" twice.",
+          "Chiara is moving into a fifth-floor apartment in Turin (the \"quarto piano\"), and the elevator is broken. Luca and Sara are helping. Everyone is tired, so they speak fast and use clusters for everything: nobody says \"la scatola\" twice.",
           "Spoken Italian often names the thing at the end as well: \"Me la porti tu, la scatola?\" The pronoun and the noun both appear; the comma marks the afterthought. In writing, choose one or the other.",
         ],
         examples: [
@@ -532,9 +536,9 @@ export const IT_B1_U01: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We need two more boxes.", answer: "Ci servono altre due scatole.", altAnswers: ["Servono altre due scatole."], explanation: "With the noun said, \"ci\" alone." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Boxes? We need two more.", answer: "Scatole? Ce ne servono altre due.", altAnswers: ["Le scatole? Ce ne servono altre due."], explanation: "\"Ne\" replaces the boxes: \"ce ne\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Have you got the drill?", answer: "Ce l'hai il trapano?", altAnswers: ["Il trapano ce l'hai?", "Hai il trapano?"], explanation: "Spoken \"avere\" for possession often adds \"ci\": \"ce l'hai?\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's on me, you've earned it! (the pizza, to two friends)", answer: "Ve la offro io, ve la siete meritata!", explanation: "\"Meritarsi\" in the past: \"essere\" + agreement with \"la\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's on me, you've earned it! (the pizza, to two friends)", answer: "Ve la offro io, ve la siete meritata!", altAnswers: ["La offro io, ve la siete meritata!", "Ve la offro io, ve la siete guadagnata!"], explanation: "\"Meritarsi\" in the past: \"essere\" + agreement with \"la\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Boxes? [I'll bring you three], so you don't have to worry.", sentence: "Scatole? ___, così sei tranquilla.", answer: "Te ne porto tre", explanation: "\"Te ne\" + number." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The keys of the new flat? [The owner gave them to me].", sentence: "Le chiavi di casa nuova? ___ il proprietario.", answer: "Me le ha date", explanation: "\"Le\" + \"date\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The keys to the new apartment? [The owner gave them to me].", sentence: "Le chiavi della casa nuova? ___ il proprietario.", answer: "Me le ha date", explanation: "\"Le\" + \"date\"." },
       { type: "word-order", prompt: "Put the words in order to say: The tape? I'll pass it to you right away.", words: ["Il", "nastro?", "Te", "lo", "passo", "subito."], translation: "The tape? I'll pass it to you right away.", explanation: "\"Te lo passo\"." },
       { type: "multiple-choice", question: "Luca asks \"Il divano? Chi te l'ha regalato?\". Which reply means: My parents gave it to me?", options: ["Me l'hanno regalato i miei.", "Me l'hanno regalata i miei.", "Mi l'hanno regalato i miei.", "Me li hanno regalati i miei."], correctIndex: 0, explanation: "\"Il divano\" is masculine singular: \"me l'hanno regalato\"." },
       { type: "dictation", audio: "Me la porti tu? Sì, te la porto su io.", explanation: "\"Su\" = up, no accent." },
@@ -578,7 +582,7 @@ export const IT_B1_U01: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The umbrella? He forgot it on the train.", answer: "L'ombrello? Se l'è dimenticato in treno.", altAnswers: ["L'ombrello? L'ha dimenticato in treno.", "L'ombrello? Se l'è dimenticato sul treno.", "L'ombrello? L'ha dimenticato sul treno."], explanation: "\"Dimenticarsi qualcosa\" → \"se l'è dimenticato\"; plain \"l'ha dimenticato\" is fine too." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm thinking about it.", answer: "Ci penso.", altAnswers: ["Ci sto pensando.", "Io ci penso."], explanation: "\"Pensare a\" → \"ci\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "What do you think of it?", answer: "Che ne pensi?", altAnswers: ["Cosa ne pensi?", "Che cosa ne pensi?"], explanation: "\"Pensare di\" (opinion) → \"ne\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The cakes? Mum made them for us.", answer: "I dolci? Ce li ha fatti la mamma.", altAnswers: ["I dolci? La mamma ce li ha fatti."], explanation: "\"Ce li\" + \"fatti\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The cakes? Mom made them for us.", answer: "I dolci? Ce li ha fatti la mamma.", altAnswers: ["I dolci? La mamma ce li ha fatti."], explanation: "\"Ce li\" + \"fatti\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Water? [There's none left].", sentence: "Acqua? Non ___ più.", answer: "ce n'è", explanation: "\"Ci\" + \"ne\" + \"è\" = \"ce n'è\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I like these shoes: [I'll buy them].", sentence: "Mi piacciono queste scarpe: ___.", answer: "le compro", explanation: "Direct \"le\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "These shoes? [I bought them for myself] in Milan.", sentence: "Queste scarpe? ___ a Milano.", answer: "Me le sono comprate", explanation: "Reflexive + direct: \"essere\" + agreement." },
@@ -592,16 +596,16 @@ export const IT_B1_U01: Lesson[] = [
     slug: "b1-mission-favour-messages",
     level: "IT-B1",
     number: 10,
-    title: "Real-World Mission: Asking for Favours",
-    summary: "Write messages asking friends and neighbours to lend and bring you things, and promise to give them back.",
+    title: "Real-World Mission: Asking for Favors",
+    summary: "Write messages asking friends and neighbors to lend and bring you things, and promise to give them back.",
     duration: "17 min",
     kind: "review",
     sections: [
       {
         heading: "Asking nicely",
         body: [
-          "Your mission: you're settling into a flat in Bologna and need things from people around you. With friends use \"tu\": \"Mi presteresti la tua scala?\", softened by the conditional. Then switch to the cluster for the thing: \"Te la riporto domenica\".",
-          "Good favour messages have three moves: the request, the reason, the promise. \"Mi presti il trapano? Devo montare una mensola. Te lo riporto stasera.\"",
+          "Your mission: you're settling into an apartment in Bologna and need things from people around you. With friends use \"tu\": \"Mi presteresti la tua scala?\", softened by the conditional. Then switch to the cluster for the thing: \"Te la riporto domenica\".",
+          "Good favor messages have three moves: the request, the reason, the promise. \"Mi presti il trapano? Devo montare una mensola. Te lo riporto stasera.\"",
         ],
         examples: [
           { es: "Ciao Marta, mi presteresti la scala?", en: "Hi Marta, could you lend me your ladder?" },
@@ -616,20 +620,20 @@ export const IT_B1_U01: Lesson[] = [
         ],
       },
       {
-        heading: "The neighbour and the parcel",
+        heading: "The neighbor and the parcel",
         body: [
-          "With an older neighbour use \"Lei\". Indirect \"Le\" for to you; clusters with \"Lei\" use \"glielo\", which you'll learn in Unit 2, so for now keep to one pronoun: \"Signora Ferri, Le posso chiedere un favore?\".",
-          "When someone does you a favour, report it with the past: \"Il pacco? Me l'ha ritirato la vicina\" (the neighbour picked up the parcel for me).",
+          "With an older neighbor use \"Lei\". Indirect \"Le\" for to you; clusters with \"Lei\" use \"glielo\", which you'll learn in Unit 2, so for now keep to one pronoun: \"Signora Ferri, Le posso chiedere un favore?\".",
+          "When someone does you a favor, report it with the past: \"Il pacco? Me l'ha ritirato la vicina\" (the neighbor picked up the parcel for me).",
         ],
         examples: [
-          { es: "Signora Ferri, Le posso chiedere un favore?", en: "Mrs Ferri, may I ask you a favour?" },
+          { es: "Signora Ferri, Le posso chiedere un favore?", en: "Mrs. Ferri, may I ask you a favor?" },
           { es: "Domani arriva un pacco per me.", en: "A parcel is arriving for me tomorrow." },
           { es: "Me lo potrebbe ritirare Lei?", en: "Could you pick it up for me?" },
-          { es: "Il pacco? Me l'ha ritirato la vicina.", en: "The parcel? The neighbour picked it up for me." },
+          { es: "Il pacco? Me l'ha ritirato la vicina.", en: "The parcel? The neighbor picked it up for me." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Could you pick it up for me? (the parcel, polite)", answer: "Me lo potrebbe ritirare Lei?", altAnswers: ["Me lo potrebbe ritirare?", "Potrebbe ritirarmelo?", "Potrebbe ritirarmelo Lei?"], explanation: "\"Potrebbe\" for \"Lei\"; \"me lo\" before the modal." },
-          { type: "listen-choose", audio: "Il pacco? Me l'ha ritirato la vicina.", question: "Who picked up the parcel?", options: ["the neighbour", "the postman", "the speaker's sister", "nobody yet"], correctIndex: 0, explanation: "\"La vicina\" = the (female) neighbour." },
+          { type: "listen-choose", audio: "Il pacco? Me l'ha ritirato la vicina.", question: "Who picked up the parcel?", options: ["the neighbor", "the mail carrier", "the speaker's sister", "nobody yet"], correctIndex: 0, explanation: "\"La vicina\" = the (female) neighbor." },
         ],
       },
     ],
@@ -638,10 +642,10 @@ export const IT_B1_U01: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll bring it back to you tonight.", answer: "Te lo riporto stasera.", altAnswers: ["Stasera te lo riporto."], explanation: "\"Il trapano\" → \"te lo\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If you need anything, just ask.", answer: "Se ti serve qualcosa, chiedi pure.", altAnswers: ["Se hai bisogno di qualcosa, chiedi pure.", "Se ti serve qualcosa, chiedi."], explanation: "\"Ti serve\" = you need; \"pure\" after a command means go ahead." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Thanks a lot, I owe you one!", answer: "Grazie mille, ti devo un favore!", explanation: "\"Ti devo un favore\": fixed phrase." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Mrs Ferri, may I ask you a favour?", answer: "Signora Ferri, Le posso chiedere un favore?", altAnswers: ["Signora Ferri, posso chiederLe un favore?", "Signora Ferri, posso chiederle un favore?", "Signora Ferri, le posso chiedere un favore?"], explanation: "Formal indirect \"Le\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Mrs. Ferri, may I ask you a favor?", answer: "Signora Ferri, Le posso chiedere un favore?", altAnswers: ["Signora Ferri, posso chiederLe un favore?", "Signora Ferri, posso chiederle un favore?", "Signora Ferri, le posso chiedere un favore?"], explanation: "Formal indirect \"Le\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Could you bring me some sugar? I've run out.", answer: "Mi porteresti un po' di zucchero? L'ho finito.", altAnswers: ["Mi porteresti dello zucchero? L'ho finito.", "Mi porti un po' di zucchero? L'ho finito."], explanation: "\"L'ho finito\" = I've run out of it." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Sugar? [I'll bring you some] right away.", sentence: "Zucchero? ___ subito.", answer: "Te ne porto", explanation: "\"Te ne\" = some to you." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The parcel? [The neighbour picked it up for me].", sentence: "Il pacco? ___ la vicina.", answer: "Me l'ha ritirato", explanation: "\"Lo\" elides before \"ha\"; \"ritirato\" agrees." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The parcel? [The neighbor picked it up for me].", sentence: "Il pacco? ___ la vicina.", answer: "Me l'ha ritirato", explanation: "\"Lo\" elides before \"ha\"; \"ritirato\" agrees." },
       { type: "word-order", prompt: "Put the words in order to say: I'll give them back to you on Sunday. (the books)", words: ["Te", "li", "restituisco", "domenica."], translation: "I'll give them back to you on Sunday.", explanation: "\"Restituire\" = to give back." },
       { type: "multiple-choice", question: "Which message is the most natural to a friend?", options: ["Mi presteresti la bici? Te la riporto stasera.", "Mi presteresti la bici? Ti la riporto stasera.", "Me presteresti la bici? Te la riporto stasera.", "Mi presteresti la bici? La te riporto stasera."], correctIndex: 0, explanation: "\"Mi\" alone, \"te la\" in the cluster." },
       { type: "dictation", audio: "Mi presti la scala? Te la riporto domenica.", explanation: "\"Scala\" = ladder (also staircase)." },
@@ -652,11 +656,11 @@ export const IT_B1_U01: Lesson[] = [
 
 export const IT_B1_U01_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You've just moved into a flat in Bologna and you need help. Write a message to your friend Luca asking to borrow two things (for example a drill and a ladder), say why you need them and when you'll give them back, ask him to bring you something else (for example some boxes), and thank him. Use at least three combined pronouns (me lo, te la, te li, ce ne...).",
+  prompt: "You've just moved into an apartment in Bologna and you need help. Write a message to your friend Luca asking to borrow two things (for example a drill and a ladder), say why you need them and when you'll give them back, ask him to bring you something else (for example some boxes), and thank him. Use at least three combined pronouns (me lo, te la, te li, ce ne...).",
   minWords: 60,
   maxWords: 120,
   rubric: [
-    "Asks for favours politely, with the conditional or a question (mi presteresti..., mi porti...?)",
+    "Asks for favors politely, with the conditional or a question (mi presteresti..., mi porti...?)",
     "Uses combined pronouns with the right form: me / te / ce / ve before lo, la, li, le, ne",
     "Chooses lo, la, li, le by the thing's gender and number (il trapano → te lo, la scala → te la)",
     "Uses ne for quantities (me ne porti due?) and makes any past participle agree (me l'ha prestata)",

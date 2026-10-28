@@ -20,6 +20,7 @@ export const IT_B1_U09: Lesson[] = [
         body: [
           "English says I want you to come: verb + object + to. Italian can't do this. It says I want that you come: \"Voglio che tu venga\". The verb after \"che\" is in the subjunctive, because it's a wish, not a fact.",
           "The same pattern works with \"preferire\" (\"Preferisco che restiate qui\") and the more formal \"desiderare\" (\"Desidero che sappiate la verità\"). The softer \"vorrei che\" needs a different tense, which comes later in the course, so for now stick to \"voglio che\" and \"preferisco che\".",
+          "A question with \"vuoi che\" is the everyday way to offer help: \"Vuoi che ti aiuti?\" (Shall I help you?), \"Volete che vi accompagni?\" (Do you want me to take you?). In the negative, \"non\" goes on \"volere\" when you mean you don't want something to happen: \"Non voglio che tu parta\". \"Voglio che tu non parta\" is also correct but stresses that you want him to stay.",
         ],
         examples: [
           { es: "Voglio che tu venga con noi.", en: "I want you to come with us." },
@@ -47,13 +48,13 @@ export const IT_B1_U09: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Let's hope it doesn't rain!", answer: "Speriamo che non piova!", altAnswers: ["Speriamo che non pioverà!"], explanation: "\"Speriamo che\" + \"piova\"." },
-          { type: "listen-choose", audio: "Spero che verrai alla festa.", question: "What does the speaker hope?", options: ["That you'll come to the party.", "That they'll go to the party.", "That the party is cancelled.", "That you came to the party."], correctIndex: 0, explanation: "\"Verrai\": future, you." },
+          { type: "listen-choose", audio: "Spero che verrai alla festa.", question: "What does the speaker hope?", options: ["That you'll come to the party.", "That they'll go to the party.", "That the party is canceled.", "That you came to the party."], correctIndex: 0, explanation: "\"Verrai\": future, you." },
         ],
       },
       {
         heading: "Same subject: the infinitive",
         body: [
-          "If the person who wants is also the one who acts, use the infinitive: \"Voglio venire\" (I want to come), \"Preferisco restare\". With \"sperare\", add \"di\": \"Spero di venire\" (I hope to come), not \"spero che io venga\". This unit's contrast clinic practises this choice.",
+          "If the person who wants is also the one who acts, use the infinitive: \"Voglio venire\" (I want to come), \"Preferisco restare\". With \"sperare\", add \"di\": \"Spero di venire\" (I hope to come), not \"spero che io venga\". This unit's contrast clinic practices this choice.",
         ],
         examples: [
           { es: "Voglio venire anch'io.", en: "I want to come too." },
@@ -99,12 +100,12 @@ export const IT_B1_U09: Lesson[] = [
           { es: "Sono contento che tu sia qui.", en: "I'm glad you're here." },
           { es: "Sono felice che venga anche Marco.", en: "I'm happy Marco is coming too." },
           { es: "Mi dispiace che tu non possa venire.", en: "I'm sorry you can't come." },
-          { es: "Non vedo l'ora che arrivino le vacanze.", en: "I can't wait for the holidays to come." },
+          { es: "Non vedo l'ora che arrivino le vacanze.", en: "I can't wait for vacation to come." },
           { es: "Ci dispiace che il ristorante sia chiuso.", en: "We're sorry the restaurant is closed." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm sorry you can't come. (to a friend)", answer: "Mi dispiace che tu non possa venire.", altAnswers: ["Mi dispiace che non possa venire."], explanation: "\"Mi dispiace che\" + \"possa\"." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I can't wait for the holidays to come.", answer: "Non vedo l'ora che arrivino le vacanze.", altAnswers: ["Non vedo l'ora che comincino le vacanze."], explanation: "\"Non vedo l'ora che\" + subjunctive." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I can't wait for vacation to come.", answer: "Non vedo l'ora che arrivino le vacanze.", altAnswers: ["Non vedo l'ora che comincino le vacanze."], explanation: "\"Non vedo l'ora che\" + subjunctive." },
         ],
       },
       {
@@ -112,12 +113,13 @@ export const IT_B1_U09: Lesson[] = [
         body: [
           "If you feel something about your own action, use \"di\" + infinitive: \"Sono contento di essere qui\" (I'm glad to be here), \"Mi dispiace di non poter venire\", \"Non vedo l'ora di vederti\".",
           "Compare: \"Sono contenta di partire\" (I'm leaving and I'm happy) / \"Sono contenta che tu parta\" (you're leaving and I'm happy).",
+          "Don't confuse the feeling + \"che\" with a reason given by \"perché\": \"Sono contento perché è arrivato il sole\" states a cause, so it takes the indicative. The same goes for \"Mi dispiace, ma non posso\" (I'm sorry, but I can't), a polite refusal with no \"che\" at all. \"Che peccato che\" (what a pity that) works like \"mi dispiace che\": \"Che peccato che tu non possa venire!\"",
         ],
         examples: [
           { es: "Sono contento di essere qui.", en: "I'm glad to be here." },
           { es: "Mi dispiace di non poter venire.", en: "I'm sorry I can't come." },
           { es: "Non vedo l'ora di vederti!", en: "I can't wait to see you!" },
-          { es: "Sono contenta che tu parta finalmente in vacanza.", en: "I'm glad you're finally going on holiday." },
+          { es: "Sono contenta che tu parta finalmente in vacanza.", en: "I'm glad you're finally going on vacation." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I can't wait to see you! (to a friend)", answer: "Non vedo l'ora di vederti!", explanation: "Same subject: \"di vederti\"." },
@@ -153,6 +155,7 @@ export const IT_B1_U09: Lesson[] = [
         body: [
           "Fears about something that may happen take the subjunctive: \"Ho paura che piova\" (I'm afraid it'll rain), \"Temo che sia troppo tardi\" (I fear it's too late). \"Temere\" is a little more formal than \"avere paura\".",
           "Same subject: \"Ho paura di sbagliare\" (I'm afraid of making a mistake), \"Temo di non farcela\" (I'm afraid I won't make it).",
+          "English uses I'm afraid as a polite way to bring bad news: I'm afraid we're closed. Italian does not use \"ho paura\" for that; it says \"Purtroppo siamo chiusi\" or \"Mi dispiace, ma siamo chiusi\". Keep \"ho paura che\" and \"temo che\" for real worries. And note that \"temo di sì\" and \"temo di no\" work like \"credo di sì\": \"Pioverà?\" \"Temo di sì.\"",
         ],
         examples: [
           { es: "Ho paura che piova domani.", en: "I'm afraid it'll rain tomorrow." },
@@ -251,7 +254,7 @@ export const IT_B1_U09: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I want them [to leave] the door open.", sentence: "Voglio che ___ la porta aperta.", answer: "lascino", explanation: "\"Lascino\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'm sorry you [have to] work on Sunday. (to a friend)", sentence: "Mi dispiace che ___ lavorare domenica.", answer: "tu debba", altAnswers: ["debba"], explanation: "\"Debba\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'm afraid he [doesn't understand].", sentence: "Temo che non ___.", answer: "capisca", explanation: "\"Capisca\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I hope you [have] a good journey. (plural)", sentence: "Spero che ___ buon viaggio.", answer: "facciate", explanation: "\"Fare buon viaggio\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I hope you [have] a good trip. (plural)", sentence: "Spero che ___ buon viaggio.", answer: "facciate", explanation: "\"Fare buon viaggio\"." },
       { type: "multiple-choice", question: "\"Non vedo l'ora che ___ l'estate.\"", options: ["arrivi", "arriva", "arrivare", "di arrivare"], correctIndex: 0, explanation: "Different subject (summer): subjunctive." },
       { type: "dictation", audio: "Mia madre vuole che io torni presto, ma ha paura che io guidi di notte.", explanation: "\"Che io torni\", \"che io guidi\"." },
       { type: "dictation", audio: "Sono contento che tu stia meglio e spero che tu possa uscire presto.", explanation: "\"Stia\", \"possa\"." },
@@ -271,6 +274,7 @@ export const IT_B1_U09: Lesson[] = [
         body: [
           "\"Voglio venire\": I want, I come (one person, infinitive). \"Voglio che tu venga\": I want, you come (two people, \"che\" + subjunctive). English hides the difference (I want to come / I want you to come), but Italian needs it.",
           "Never put an object pronoun before the infinitive to mean someone else: \"voglio te venire\" or \"ti voglio venire\" are not Italian. And never use \"che\" for the same person: \"voglio che io venga\" is wrong.",
+          "Telling and asking are different: \"dire\" and \"chiedere\" take \"a\" + person and \"di\" + infinitive, just like English told him to: \"Ho detto a Marco di venire\", \"Gli ho chiesto di aspettare\". Only wishes, preferences and feelings need \"che\" + subjunctive for another person.",
         ],
         examples: [
           { es: "Voglio venire.", en: "I want to come." },
@@ -414,7 +418,7 @@ export const IT_B1_U09: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Liam wrote \"Non vedo l'ora che conosci Dublino\". Write it correctly: I can't wait for you to get to know Dublin.", source: "I can't wait for you to get to know Dublin.", answer: "Non vedo l'ora che tu conosca Dublino.", explanation: "\"Conosca\"." },
       { type: "translate", direction: "en-es", prompt: "Liam wrote \"Ho paura che tu ti annoi\" correctly! Translate it: I'm afraid you'll get bored.", source: "I'm afraid you'll get bored.", answer: "Ho paura che tu ti annoi.", altAnswers: ["Temo che tu ti annoi."], explanation: "\"Annoiarsi\" → \"ti annoi\": already right." },
       { type: "fill-blank", prompt: "Liam wrote \"che fa\". Write the Italian for the bold words.", en: "I hope it [isn't] too cold.", sentence: "Spero che non ___ troppo freddo.", answer: "faccia", explanation: "\"Faccia freddo\"." },
-      { type: "fill-blank", prompt: "Liam wrote \"voglio te portare\". Write the Italian for the bold words.", en: "I want [you to bring] a warm jumper.", sentence: "Voglio ___ un maglione caldo.", answer: "che tu porti", explanation: "\"Che tu porti\"." },
+      { type: "fill-blank", prompt: "Liam wrote \"voglio te portare\". Write the Italian for the bold words.", en: "I want [you to bring] a warm sweater.", sentence: "Voglio ___ un maglione caldo.", answer: "che tu porti", explanation: "\"Che tu porti\"." },
       { type: "word-order", prompt: "Put the words in order to say: My parents want you to stay a week.", words: ["I", "miei", "vogliono", "che", "tu", "rimanga", "una", "settimana."], translation: "My parents want you to stay a week.", explanation: "\"I miei\" = my parents." },
       { type: "multi-select", question: "Which are correct? Choose all that apply.", options: ["Voglio che tu venga.", "Voglio te venire.", "Voglio venire.", "Voglio che io venga.", "Spero di venire.", "Ho paura che piova."], correctIndexes: [0, 2, 4, 5], explanation: "No object + infinitive; no \"che io\" with the same subject." },
       { type: "dictation", audio: "Voglio che tu venga e spero che non piova.", explanation: "\"Venga\", \"piova\"." },
@@ -454,7 +458,7 @@ export const IT_B1_U09: Lesson[] = [
           "Notice \"non vede l'ora di vederti\" (same subject: the grandmother sees) and \"sono contenta che tu porti\" (different subject).",
         ],
         examples: [
-          { es: "Preferisco che non organizziate pranzi con tutti i parenti.", en: "I'd rather you didn't organise lunches with all the relatives." },
+          { es: "Preferisco che non organizziate pranzi con tutti i parenti.", en: "I'd rather you didn't organize lunches with all the relatives." },
           { es: "La nonna non vede l'ora di vederti.", en: "Grandma can't wait to see you." },
           { es: "Sono contenta che tu porti anche Sanne.", en: "I'm glad you're bringing Sanne too." },
         ],
@@ -471,12 +475,12 @@ export const IT_B1_U09: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm glad you're bringing Sanne too.", answer: "Sono contenta che tu porti anche Sanne.", altAnswers: ["Sono contento che tu porti anche Sanne.", "Sono felice che tu porti anche Sanne."], explanation: "\"Porti\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I don't know if I can.", answer: "Non so se posso.", altAnswers: ["Non so se possa.", "Non so se riesco."], explanation: "\"Non so se\": everyday indicative." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm afraid you don't eat enough.", answer: "Ho paura che tu non mangi abbastanza.", altAnswers: ["Temo che tu non mangi abbastanza."], explanation: "\"Mangi\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'd rather you [didn't organise] lunches. (plural)", sentence: "Preferisco che non ___ pranzi.", answer: "organizziate", explanation: "\"Organizziate\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Mum wants me [to call] every Sunday.", sentence: "La mamma vuole che io ___ ogni domenica.", answer: "chiami", altAnswers: ["telefoni"], explanation: "\"Che io chiami\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'd rather you [didn't organize] lunches. (plural)", sentence: "Preferisco che non ___ pranzi.", answer: "organizziate", explanation: "\"Organizziate\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Mom wants me [to call] every Sunday.", sentence: "La mamma vuole che io ___ ogni domenica.", answer: "chiami", altAnswers: ["telefoni"], explanation: "\"Che io chiami\"." },
       { type: "word-order", prompt: "Put the words in order to say: Grandma can't wait to see you.", words: ["La", "nonna", "non", "vede", "l'ora", "di", "vederti."], translation: "Grandma can't wait to see you.", explanation: "\"Non vede l'ora di\"." },
       { type: "matching", instructions: "Match each of Lucia's sentences to its feeling.", pairs: [{ left: "Spero che tu venga.", right: "hope" }, { left: "Ho paura che tu lavori troppo.", right: "worry" }, { left: "Sono contenta che tu porti Sanne.", right: "happiness" }, { left: "Tuo padre vuole che tu stia.", right: "wish" }], explanation: "Four triggers, one mood." },
       { type: "dictation", audio: "Voglio solo che tu sia felice, amore.", explanation: "\"Tu sia\"." },
-      { type: "speak", text: "Mamma, sono felice, ma non voglio che vi preoccupiate sempre per me.", prompt: "Answer as Andrea: Mum, I'm happy, but I don't want you to always worry about me.", tip: "pre-oc-cu-PIA-te.", explanation: "\"Che vi preoccupiate\"." },
+      { type: "speak", text: "Mamma, sono felice, ma non voglio che vi preoccupiate sempre per me.", prompt: "Answer as Andrea: Mom, I'm happy, but I don't want you to always worry about me.", tip: "pre-oc-cu-PIA-te.", explanation: "\"Che vi preoccupiate\"." },
     ],
   },
   {
@@ -490,18 +494,18 @@ export const IT_B1_U09: Lesson[] = [
       {
         heading: "Three voicemails",
         body: [
-          "1. Elena: \"Ciao Marta! Sono contentissima che tu abbia trovato casa... cioè, che tu sia nella casa nuova! Spero che i vicini siano tranquilli.\" 2. Mr Ferri, a landlord: \"Buongiorno, sono Ferri. Preferisco che mi paghiate l'affitto entro il cinque, grazie.\" 3. Nonno Pino: \"Ciao piccola. Ho paura che tu non mangi abbastanza. Ti mando un pacco con le arance.\"",
+          "1. Elena: \"Ciao Marta! Sono contentissima che tu abbia trovato casa... cioè, che tu sia nella casa nuova! Spero che i vicini siano tranquilli.\" 2. Mr. Ferri, a landlord: \"Buongiorno, sono Ferri. Preferisco che mi paghiate l'affitto entro il cinque, grazie.\" 3. Nonno Pino: \"Ciao piccola. Ho paura che tu non mangi abbastanza. Ti mando un pacco con le arance.\"",
           "Notice how Elena corrects herself: speakers do this all the time. You'll learn \"abbia trovato\" in Unit 12.",
         ],
         examples: [
-          { es: "Spero che i vicini siano tranquilli.", en: "I hope the neighbours are quiet." },
+          { es: "Spero che i vicini siano tranquilli.", en: "I hope the neighbors are quiet." },
           { es: "Preferisco che mi paghiate l'affitto entro il cinque.", en: "I'd rather you paid me the rent by the fifth." },
           { es: "Ho paura che tu non mangi abbastanza.", en: "I'm afraid you're not eating enough." },
-          { es: "Ti mando un pacco con le arance.", en: "I'm sending you a parcel with oranges." },
+          { es: "Ti mando un pacco con le arance.", en: "I'm sending you a package with oranges." },
         ],
         checkpoint: [
           { type: "listen-choose", audio: "Preferisco che mi paghiate l'affitto entro il cinque.", question: "What does the landlord want?", options: ["The rent by the fifth.", "Five months' rent.", "The rent on the fifteenth.", "To raise the rent."], correctIndex: 0, explanation: "\"Entro il cinque\" = by the fifth." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I hope the neighbours are quiet.", answer: "Spero che i vicini siano tranquilli.", altAnswers: ["Spero che i vicini di casa siano tranquilli."], explanation: "\"Siano\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I hope the neighbors are quiet.", answer: "Spero che i vicini siano tranquilli.", altAnswers: ["Spero che i vicini di casa siano tranquilli."], explanation: "\"Siano\"." },
         ],
       },
       {
@@ -528,10 +532,10 @@ export const IT_B1_U09: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm afraid you're not eating enough.", answer: "Ho paura che tu non mangi abbastanza.", altAnswers: ["Temo che tu non mangi abbastanza."], explanation: "\"Mangi\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm afraid I'll end up having to walk it.", answer: "Ho paura che poi debba portarlo fuori io.", altAnswers: ["Ho paura di doverlo portare fuori io.", "Ho paura di doverlo portare fuori io poi."], explanation: "\"Debba\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I doubt she'll do it.", answer: "Dubito che lo faccia lei.", altAnswers: ["Dubito che lei lo faccia.", "Dubito che lo faccia."], explanation: "\"Faccia\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm sending you a parcel with oranges.", answer: "Ti mando un pacco con le arance.", altAnswers: ["Ti spedisco un pacco con le arance."], explanation: "\"Mandare\" = to send." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm sending you a package with oranges.", answer: "Ti mando un pacco con le arance.", altAnswers: ["Ti spedisco un pacco con le arance."], explanation: "\"Mandare\" = to send." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm really glad you're in the new house.", answer: "Sono contentissima che tu sia nella casa nuova.", altAnswers: ["Sono contentissimo che tu sia nella casa nuova.", "Sono molto contenta che tu sia nella casa nuova.", "Sono molto contento che tu sia nella casa nuova."], explanation: "\"Sia\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Let's hope she [gets tired] of the idea!", sentence: "Speriamo che si ___ dell'idea!", answer: "stanchi", explanation: "\"Stancarsi\" → \"si stanchi\"." },
-      { type: "matching", instructions: "Match each speaker to their feeling.", pairs: [{ left: "Elena", right: "happy for her friend" }, { left: "Mr Ferri", right: "wants the rent on time" }, { left: "Nonno Pino", right: "worried about food" }, { left: "The mother at the bus stop", right: "afraid of extra work" }], explanation: "Who feels what." },
+      { type: "matching", instructions: "Match each speaker to their feeling.", pairs: [{ left: "Elena", right: "happy for her friend" }, { left: "Mr. Ferri", right: "wants the rent on time" }, { left: "Nonno Pino", right: "worried about food" }, { left: "The mother at the bus stop", right: "afraid of extra work" }], explanation: "Who feels what." },
       { type: "dictation", audio: "Sono contentissima che tu sia nella casa nuova.", explanation: "\"Sia\"." },
       { type: "speak", text: "Ciao nonno, grazie delle arance! Non voglio che tu ti preoccupi: mangio benissimo.", prompt: "Call Grandpa back in Italian: Hi Grandpa, thanks for the oranges! I don't want you to worry: I eat really well.", tip: "a-RAN-ce.", explanation: "\"Che tu ti preoccupi\"." },
     ],
@@ -565,7 +569,7 @@ export const IT_B1_U09: Lesson[] = [
       {
         heading: "A new baby",
         body: [
-          "A year later, a baby arrives. On a \"fiocco\" (birth) card, write: \"Benvenuto, piccolo Leonardo!\" and wishes for the parents: \"Speriamo che vi faccia dormire!\", \"Siamo felicissimi che sia arrivato\" (a preview of Unit 12). Close with \"Un abbraccio a tutti e tre\".",
+          "A year later, a baby arrives, and a blue or pink \"fiocco\" (bow) goes up on the front door. On the card, write: \"Benvenuto, piccolo Leonardo!\" and wishes for the parents: \"Speriamo che vi faccia dormire!\", \"Siamo felicissimi che sia arrivato\" (a preview of Unit 12). Close with \"Un abbraccio a tutti e tre\".",
         ],
         examples: [
           { es: "Benvenuto, piccolo Leonardo!", en: "Welcome, little Leonardo!" },
@@ -575,7 +579,7 @@ export const IT_B1_U09: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We can't wait to meet him.", answer: "Non vediamo l'ora di conoscerlo.", explanation: "Same subject: \"di conoscerlo\"." },
-          { type: "listen-choose", audio: "Speriamo che vi faccia dormire!", question: "What do the friends hope?", options: ["That the baby lets the parents sleep.", "That the baby sleeps at their house.", "That the parents rest at the weekend.", "That the baby is healthy."], correctIndex: 0, explanation: "\"Vi faccia dormire\" = lets you sleep." },
+          { type: "listen-choose", audio: "Speriamo che vi faccia dormire!", question: "What do the friends hope?", options: ["That the baby lets the parents sleep.", "That the baby sleeps at their house.", "That the parents rest on the weekend.", "That the baby is healthy."], correctIndex: 0, explanation: "\"Vi faccia dormire\" = lets you sleep." },
         ],
       },
     ],
@@ -584,7 +588,7 @@ export const IT_B1_U09: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "May you be happy forever!", answer: "Che possiate essere felici per sempre!", altAnswers: ["Che siate felici per sempre!"], explanation: "\"Che\" + subjunctive for a wish." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Let's hope he lets you sleep!", answer: "Speriamo che vi faccia dormire!", explanation: "\"Faccia\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm so happy you're getting married!", answer: "Sono felicissima che vi sposiate!", altAnswers: ["Sono felicissimo che vi sposiate!", "Sono così felice che vi sposiate!", "Sono contentissima che vi sposiate!", "Sono contentissimo che vi sposiate!"], explanation: "\"Vi sposiate\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I hope the weather is lovely on the big day.", answer: "Spero che il grande giorno faccia bel tempo.", altAnswers: ["Spero che faccia bel tempo il grande giorno."], explanation: "\"Faccia bel tempo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I hope the weather is lovely on the big day.", answer: "Spero che nel grande giorno faccia bel tempo.", altAnswers: ["Spero che faccia bel tempo nel grande giorno.", "Spero che il grande giorno faccia bel tempo.", "Spero che il giorno del matrimonio faccia bel tempo."], explanation: "\"Faccia bel tempo\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "A hug to all three of you.", answer: "Un abbraccio a tutti e tre.", explanation: "\"Tutti e tre\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "We hope you [have] a wonderful life together.", sentence: "Speriamo che ___ una vita meravigliosa insieme.", answer: "abbiate", explanation: "\"Abbiate\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "We hope Leonardo [is] always healthy.", sentence: "Speriamo che Leonardo ___ sempre in salute.", answer: "sia", explanation: "\"Sia\"." },

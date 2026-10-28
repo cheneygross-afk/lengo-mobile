@@ -470,7 +470,7 @@ export const IT_A2_U03: Lesson[] = [
       {
         heading: "Wrong auxiliary",
         body: [
-          "\"Ho stato\" doesn't exist: \"essere\" takes itself, \"sono stato\". \"Sono mangiato\" means I was eaten: eating takes \"avere\", \"ho mangiato\". \"Il film ha finito\" needs \"è finito\": nobody finished the film, it ended.",
+          "\"Ho stato\" doesn't exist: \"essere\" takes itself, \"sono stato\". \"Sono mangiato\" would mean I am eaten: eating takes \"avere\", \"ho mangiato\". \"Il film ha finito\" needs \"è finito\": nobody finished the film, it ended.",
           "\"Sono dovuto lavorare\" is wrong because \"lavorare\" takes \"avere\": \"Ho dovuto lavorare\".",
         ],
         examples: [

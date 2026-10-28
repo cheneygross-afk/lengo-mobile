@@ -93,7 +93,7 @@ export const IT_CULTURE_U02_EXTRA: Lesson[] = [
       { type: "multiple-choice", question: "You want hot milk with a little coffee. What do you order?", options: ["un latte macchiato", "un caffè macchiato", "un latte", "un caffè lungo"], correctIndex: 0, explanation: "\"Un latte\" alone is just milk." },
       { type: "listen-choose", audio: "Mi fa un macchiato caldo?", question: "What did you hear?", options: ["Mi fa un macchiato caldo?", "Mi fa un macchiato freddo?", "Mi fa un marocchino caldo?", "Mi fa un macchiato e un caldo?"], correctIndex: 0, explanation: "\"Caldo\" = hot (milk), \"freddo\" = cold." },
       { type: "dictation", audio: "Il caffè lo prendo senza zucchero.", explanation: "\"Zucchero\": double c." },
-      { type: "speak", text: "Buongiorno! Un caffè al banco e uno scontrino, per favore.", prompt: "Say it in Italian: Good morning! An espresso at the counter and a receipt, please.", tip: "Scon-TRI-no: stress on the second syllable.", explanation: "\"Uno scontrino\": \"uno\" before s + consonant." },
+      { type: "speak", text: "Buongiorno! Un caffè al banco, per favore: ecco lo scontrino.", prompt: "Say it in Italian: Good morning! An espresso at the counter, please: here's the receipt.", tip: "Scon-TRI-no: stress on the second syllable.", explanation: "You hand over \"lo scontrino\" from the register as you order; \"lo\" before s + consonant." },
     ],
   },
 ];

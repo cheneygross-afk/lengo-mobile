@@ -3,7 +3,7 @@ import type { Lesson, WriteExercise } from "./types";
 
 // Italian B2 Unit 5: "If" Sentences, Part 3: The Impossible Past. Se +
 // pluperfect subjunctive + past conditional, mixed conditions, the spoken
-// double imperfetto (recognised).
+// double imperfetto (recognized).
 // Conventions: docs/italian-course/authoring.md.
 export const IT_B2_U05: Lesson[] = [
   {
@@ -41,7 +41,7 @@ export const IT_B2_U05: Lesson[] = [
           "With modals, the past conditional often carries the meaning could have or should have: \"Avrei potuto aiutarti\" (I could have helped you), \"Avresti dovuto dirmelo\" (you should have told me). They pair naturally with a \"se\" clause: \"Se me l'avessi detto, avrei potuto aiutarti\".",
         ],
         examples: [
-          { es: "Se Giulia fosse arrivata in tempo, sarebbe salita sul treno.", en: "If Giulia had arrived in time, she would have got on the train." },
+          { es: "Se Giulia fosse arrivata in tempo, sarebbe salita sul treno.", en: "If Giulia had arrived in time, she would have gotten on the train." },
           { es: "Se me l'avessi chiesto, te l'avrei prestato.", en: "If you'd asked me, I'd have lent it to you." },
           { es: "Se me l'avessi detto, avrei potuto aiutarti.", en: "If you'd told me, I could have helped you." },
           { es: "Avresti dovuto dirmelo.", en: "You should have told me." },
@@ -55,11 +55,11 @@ export const IT_B2_U05: Lesson[] = [
       {
         heading: "Relief and criticism",
         body: [
-          "These sentences don't only express regret. Relief: \"Se non avessi preso l'ombrello, mi sarei bagnato tutto\" (if I hadn't taken the umbrella, I'd have got soaked). Criticism: \"Se avessi ascoltato, avresti capito\" (if you'd listened, you'd have understood).",
+          "These sentences don't only express regret. Relief: \"Se non avessi preso l'ombrello, mi sarei bagnato tutto\" (if I hadn't taken the umbrella, I'd have gotten soaked). Criticism: \"Se avessi ascoltato, avresti capito\" (if you'd listened, you'd have understood).",
           "Tone is everything here: with \"tu\" and a sharp voice, the same structure becomes a reproach. Softening phrases like \"forse\" or \"magari\" help: \"Forse, se fossimo partiti prima, sarebbe andata meglio\".",
         ],
         examples: [
-          { es: "Se non avessi preso l'ombrello, mi sarei bagnato tutto.", en: "If I hadn't taken the umbrella, I'd have got soaked." },
+          { es: "Se non avessi preso l'ombrello, mi sarei bagnato tutto.", en: "If I hadn't taken the umbrella, I'd have gotten soaked." },
           { es: "Se avessi ascoltato, avresti capito.", en: "If you'd listened, you'd have understood." },
           { es: "Forse, se fossimo partiti prima, sarebbe andata meglio.", en: "Maybe if we'd left earlier, it would have gone better." },
           { es: "Meno male! Se avessimo prenotato, avremmo perso i soldi.", en: "Thank goodness! If we'd booked, we'd have lost the money." },
@@ -76,8 +76,8 @@ export const IT_B2_U05: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I would have called you if I'd had your number. (to a friend)", answer: "Ti avrei chiamato, se avessi avuto il tuo numero.", altAnswers: ["Ti avrei chiamato se avessi avuto il tuo numero.", "Ti avrei chiamata se avessi avuto il tuo numero.", "Se avessi avuto il tuo numero, ti avrei chiamato."], explanation: "Result first." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You should have told me. (to a friend)", answer: "Avresti dovuto dirmelo.", altAnswers: ["Me lo avresti dovuto dire.", "Me l'avresti dovuto dire."], explanation: "\"Avresti dovuto\" = you should have." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If they had talked to each other, they wouldn't have argued.", answer: "Se si fossero parlati, non avrebbero litigato.", altAnswers: ["Non avrebbero litigato se si fossero parlati."], explanation: "Reciprocal → \"si fossero parlati\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If I hadn't taken the umbrella, I'd have got soaked.", answer: "Se non avessi preso l'ombrello, mi sarei bagnato tutto.", altAnswers: ["Se non avessi preso l'ombrello, mi sarei bagnata tutta."], explanation: "\"Bagnarsi\" → \"mi sarei bagnato\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If Giulia had arrived in time, she [would have got on] the train.", sentence: "Se Giulia fosse arrivata in tempo, ___ sul treno.", answer: "sarebbe salita", explanation: "\"Salire\" → \"essere\"; agreement." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If I hadn't taken the umbrella, I'd have gotten soaked.", answer: "Se non avessi preso l'ombrello, mi sarei bagnato tutto.", altAnswers: ["Se non avessi preso l'ombrello, mi sarei bagnata tutta."], explanation: "\"Bagnarsi\" → \"mi sarei bagnato\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If Giulia had arrived in time, she [would have gotten on] the train.", sentence: "Se Giulia fosse arrivata in tempo, ___ sul treno.", answer: "sarebbe salita", explanation: "\"Salire\" → \"essere\"; agreement." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If you [had set] the alarm, you wouldn't have overslept. (to a friend)", sentence: "Se ___ la sveglia, non avresti dormito troppo.", answer: "avessi messo", explanation: "\"Mettere la sveglia\" → \"avessi messo\"." },
       { type: "word-order", prompt: "Put the words in order to say: If I had known, I would have come.", words: ["Se", "l'avessi", "saputo,", "sarei", "venuto."], translation: "If I had known, I would have come.", explanation: "Pluperfect + past conditional." },
       { type: "multiple-choice", question: "\"Se avessi ascoltato, avresti capito.\" Said sharply to a friend, this is ...", options: ["a reproach", "a compliment", "a promise", "a question"], correctIndex: 0, explanation: "Criticism of what they didn't do." },
@@ -98,6 +98,7 @@ export const IT_B2_U05: Lesson[] = [
         body: [
           "Life doesn't always keep both halves in the same time. A past choice can have a present consequence: \"Se avessi studiato medicina, ora sarei medico\" (if I had studied medicine, I'd be a doctor now). The condition is pluperfect subjunctive (past); the result is present conditional (now).",
           "Time words make the mix clear: \"ora\", \"adesso\", \"oggi\" in the result signal present conditional; \"ieri\", \"l'anno scorso\", \"da giovane\" in the condition signal the pluperfect. \"Se l'anno scorso avessimo comprato casa, adesso non pagheremmo l'affitto\".",
+          "The typical slip is to let the first half drag the second into the past: \"Se avessi studiato medicina, ora sarei stato medico\" is wrong, because \"ora\" points to the present. English makes the same mistake easy (I'd have been a doctor now sounds almost fine), so check the time of the result on its own.",
         ],
         examples: [
           { es: "Se avessi studiato medicina, ora sarei medico.", en: "If I had studied medicine, I'd be a doctor now." },
@@ -114,17 +115,17 @@ export const IT_B2_U05: Lesson[] = [
       {
         heading: "Present condition, past result",
         body: [
-          "The other mix: a permanent trait or present fact explains a past event. \"Se fossi più organizzato, non avrei perso il treno\" (if I were more organised, I wouldn't have missed the train). The condition is imperfect subjunctive (always true, not just then); the result is past conditional.",
+          "The other mix: a permanent trait or present fact explains a past event. \"Se fossi più organizzato, non avrei perso il treno\" (if I were more organized, I wouldn't have missed the train). The condition is imperfect subjunctive (always true, not just then); the result is past conditional.",
           "This is typical when talking about character: \"Se non fosse così timido, l'avresti già conosciuto\" (if he weren't so shy, you'd have met him already).",
         ],
         examples: [
-          { es: "Se fossi più organizzato, non avrei perso il treno.", en: "If I were more organised, I wouldn't have missed the train." },
+          { es: "Se fossi più organizzato, non avrei perso il treno.", en: "If I were more organized, I wouldn't have missed the train." },
           { es: "Se non fosse così timido, l'avresti già conosciuto.", en: "If he weren't so shy, you'd have met him already." },
           { es: "Se parlassi tedesco, avrei accettato quel lavoro a Berlino.", en: "If I spoke German, I'd have accepted that job in Berlin." },
           { es: "Se non fossimo così pigri, saremmo andati in palestra.", en: "If we weren't so lazy, we'd have gone to the gym." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If I were more organised, I wouldn't have missed the train.", answer: "Se fossi più organizzato, non avrei perso il treno.", altAnswers: ["Se fossi più organizzata, non avrei perso il treno.", "Non avrei perso il treno se fossi più organizzato."], explanation: "Present trait + past result." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If I were more organized, I wouldn't have missed the train.", answer: "Se fossi più organizzato, non avrei perso il treno.", altAnswers: ["Se fossi più organizzata, non avrei perso il treno.", "Non avrei perso il treno se fossi più organizzato."], explanation: "Present trait + past result." },
           { type: "listen-choose", audio: "Se parlassi tedesco, avrei accettato quel lavoro a Berlino.", question: "Why didn't the speaker take the job?", options: ["They don't speak German.", "They didn't want to move.", "The pay was too low.", "They had already accepted another job."], correctIndex: 0, explanation: "\"Se parlassi\": a present fact (they don't)." },
         ],
       },
@@ -152,9 +153,9 @@ export const IT_B2_U05: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If she'd been born in Rome, she'd speak Roman dialect today.", answer: "Se fosse nata a Roma, oggi parlerebbe romanesco.", altAnswers: ["Se fosse nata a Roma, oggi parlerebbe il romanesco."], explanation: "Past condition + present result." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If we weren't so lazy, we'd have gone to the gym.", answer: "Se non fossimo così pigri, saremmo andati in palestra.", altAnswers: ["Se non fossimo così pigre, saremmo andate in palestra."], explanation: "Present trait + past result." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If I'd saved more, I [would have] a house now.", sentence: "Se avessi risparmiato di più, ora ___ una casa.", answer: "avrei", explanation: "\"Ora\" → present conditional." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If you [were] less stubborn, you'd have apologised. (to a friend)", sentence: "Se ___ meno testardo, avresti chiesto scusa.", answer: "fossi", explanation: "Permanent trait → imperfect subjunctive." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If you [were] less stubborn, you'd have apologized. (to a friend)", sentence: "Se ___ meno testardo, avresti chiesto scusa.", answer: "fossi", explanation: "Permanent trait → imperfect subjunctive." },
       { type: "word-order", prompt: "Put the words in order to say: If I had studied medicine, I'd be a doctor now.", words: ["Se", "avessi", "studiato", "medicina,", "ora", "sarei", "medico."], translation: "If I had studied medicine, I'd be a doctor now.", explanation: "Past condition + present result." },
-      { type: "multiple-choice", question: "\"Se fossi più organizzato, non avrei perso il treno.\" Is the speaker organised?", options: ["No, not in general.", "Yes, very.", "He was organised only that day.", "He will be from now on."], correctIndex: 0, explanation: "\"Fossi\": a general, present trait he lacks." },
+      { type: "multiple-choice", question: "\"Se fossi più organizzato, non avrei perso il treno.\" Is the speaker organized?", options: ["No, not in general.", "Yes, very.", "He was organized only that day.", "He will be from now on."], correctIndex: 0, explanation: "\"Fossi\": a general, present trait he lacks." },
       { type: "dictation", audio: "Se non avessi mangiato tanto, ora non starei male.", explanation: "Mixed: pluperfect + present conditional." },
       { type: "speak", text: "Se avessi studiato medicina, ora sarei medico. Ma se fossi medico, non avrei mai tempo libero!", prompt: "Say it in Italian: If I'd studied medicine, I'd be a doctor now. But if I were a doctor, I'd never have free time!", tip: "Three different patterns: listen to each auxiliary.", explanation: "Mixed, then plain hypothetical." },
     ],
@@ -164,7 +165,7 @@ export const IT_B2_U05: Lesson[] = [
     level: "IT-B2",
     number: 3,
     title: "Se Lo Sapevo, Venivo",
-    summary: "Recognise the spoken double imperfetto in impossible-past conditions, and write the standard form.",
+    summary: "Recognize the spoken double imperfetto in impossible-past conditions, and write the standard form.",
     duration: "18 min",
     sections: [
       {
@@ -173,6 +174,7 @@ export const IT_B2_U05: Lesson[] = [
           "In everyday conversation, all over Italy, people often replace both halves of the impossible past with the imperfetto: \"Se lo sapevo, venivo\" instead of \"Se l'avessi saputo, sarei venuto\". It's quick, it's natural, and it is not considered an error in informal speech, unlike \"se avrei\".",
           "Mixed versions are common too: \"Se me lo dicevi, sarei venuto\", \"Se l'avessi saputo, venivo\". You'll hear them in films, at the bar, on the phone. Understanding them is essential; using them yourself is fine with friends.",
           "But the double imperfetto is not standard in writing, in formal speech or in the CILS exam. When you write, transform it into the full structure.",
+          "One limit: the imperfetto version only works for the past. \"Se lo sapevo, venivo\" can never mean if I knew (now), I'd come; for a present hypothesis Italians in every register say \"se lo sapessi, verrei\". So when you hear a double imperfetto with no past setting and no regret, think first of a habit.",
         ],
         examples: [
           { es: "Se lo sapevo, venivo.", en: "If I'd known, I'd have come. (spoken)" },
@@ -234,7 +236,7 @@ export const IT_B2_U05: Lesson[] = [
           "\"Se\" + \"avessi / fossi\" + participle, then \"avrei / sarei\" + participle. Each auxiliary follows the passato prossimo rule; essere verbs agree.",
         ],
         examples: [
-          { es: "Se avessi letto la mail, avrei saputo dell'orario.", en: "If I'd read the email, I'd have known about the timetable." },
+          { es: "Se avessi letto la mail, avrei saputo dell'orario.", en: "If I'd read the email, I'd have known about the schedule." },
           { es: "Se fossero rimasti, si sarebbero divertiti.", en: "If they had stayed, they'd have had fun." },
           { es: "Se ci avessi invitato, saremmo venuti.", en: "If you'd invited us, we'd have come." },
           { es: "Se non fosse caduta, avrebbe vinto la gara.", en: "If she hadn't fallen, she'd have won the race." },
@@ -246,19 +248,19 @@ export const IT_B2_U05: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If I'd read the email, I'd have known about the timetable.", answer: "Se avessi letto la mail, avrei saputo dell'orario.", altAnswers: ["Se avessi letto l'email, avrei saputo dell'orario."], explanation: "\"Avessi letto\" + \"avrei saputo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If I'd read the email, I'd have known about the schedule.", answer: "Se avessi letto la mail, avrei saputo dell'orario.", altAnswers: ["Se avessi letto l'email, avrei saputo dell'orario."], explanation: "\"Avessi letto\" + \"avrei saputo\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If you'd invited us, we'd have come. (to a friend)", answer: "Se ci avessi invitato, saremmo venuti.", altAnswers: ["Se ci avessi invitati, saremmo venuti.", "Saremmo venuti se ci avessi invitato."], explanation: "\"Ci\" before the auxiliary." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If he had booked, we would have had a table.", answer: "Se avesse prenotato, avremmo avuto un tavolo.", explanation: "\"Avesse prenotato\" + \"avremmo avuto\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If you (plural) had come, you'd have met Sofia.", answer: "Se foste venuti, avreste conosciuto Sofia.", altAnswers: ["Se foste venute, avreste conosciuto Sofia.", "Avreste conosciuto Sofia se foste venuti."], explanation: "voi: \"foste venuti\" + \"avreste conosciuto\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If I hadn't got up late, I wouldn't have missed the bus.", answer: "Se non mi fossi alzato tardi, non avrei perso l'autobus.", altAnswers: ["Se non mi fossi alzata tardi, non avrei perso l'autobus."], explanation: "Reflexive → \"mi fossi alzato\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If it had snowed, the schools would have closed.", answer: "Se avesse nevicato, le scuole avrebbero chiuso.", altAnswers: ["Se fosse nevicato, le scuole avrebbero chiuso.", "Se avesse nevicato, le scuole sarebbero state chiuse."], explanation: "\"Nevicare\" takes either auxiliary." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If we'd known the way, we wouldn't have got lost.", answer: "Se avessimo saputo la strada, non ci saremmo persi.", altAnswers: ["Se avessimo conosciuto la strada, non ci saremmo persi.", "Se avessimo saputo la strada, non ci saremmo perse."], explanation: "\"Perdersi\" → \"ci saremmo persi\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If we'd known the way, we wouldn't have gotten lost.", answer: "Se avessimo saputo la strada, non ci saremmo persi.", altAnswers: ["Se avessimo conosciuto la strada, non ci saremmo persi.", "Se avessimo saputo la strada, non ci saremmo perse."], explanation: "\"Perdersi\" → \"ci saremmo persi\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If she had asked, I would have explained everything to her.", answer: "Se me l'avesse chiesto, le avrei spiegato tutto.", altAnswers: ["Se l'avesse chiesto, le avrei spiegato tutto.", "Le avrei spiegato tutto se me l'avesse chiesto."], explanation: "\"Le\" = to her: no agreement." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If the plumber [had come], we would have had hot water.", sentence: "Se l'idraulico ___, avremmo avuto l'acqua calda.", answer: "fosse venuto", explanation: "\"Venire\" → \"fosse venuto\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If you had saved the file, you [wouldn't have lost] everything. (to a friend)", sentence: "Se avessi salvato il file, non ___ tutto.", answer: "avresti perso", explanation: "Past conditional, tu." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If they [had got married] in June, it would have been sunny.", sentence: "Se ___ a giugno, ci sarebbe stato il sole.", answer: "si fossero sposati", explanation: "Reflexive → \"si fossero sposati\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If they [had gotten married] in June, it would have been sunny.", sentence: "Se ___ a giugno, ci sarebbe stato il sole.", answer: "si fossero sposati", explanation: "Reflexive → \"si fossero sposati\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If I'd seen her, I [would have greeted] her.", sentence: "Se l'avessi vista, l'___.", answer: "avrei salutata", altAnswers: ["avrei salutato"], explanation: "\"La\" → agreement \"salutata\" is the careful form." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If we [had taken] the motorway, we'd have saved an hour.", sentence: "Se ___ l'autostrada, avremmo risparmiato un'ora.", answer: "avessimo preso", explanation: "\"Avessimo preso\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If we [had taken] the highway, we'd have saved an hour.", sentence: "Se ___ l'autostrada, avremmo risparmiato un'ora.", answer: "avessimo preso", explanation: "\"Avessimo preso\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If you'd stayed in Milan, you [would have become] a manager. (to a man)", sentence: "Se fossi rimasto a Milano, ___ dirigente.", answer: "saresti diventato", explanation: "\"Diventare\" → \"saresti diventato\"." },
       {
         type: "matching",
@@ -356,14 +358,14 @@ export const IT_B2_U05: Lesson[] = [
           "In fast speech the key is the auxiliary: \"avessi\" alone (hypothetical) vs \"avessi\" + participle (past). \"Se avessi la macchina\" vs \"Se avessi avuto la macchina\"; \"se fossi lì\" vs \"se fossi stato lì\".",
         ],
         examples: [
-          { es: "Se avessi la macchina, ti accompagnerei.", en: "If I had the car, I'd give you a lift." },
-          { es: "Se avessi avuto la macchina, ti avrei accompagnato.", en: "If I'd had the car, I'd have given you a lift." },
+          { es: "Se avessi la macchina, ti accompagnerei.", en: "If I had the car, I'd give you a ride." },
+          { es: "Se avessi avuto la macchina, ti avrei accompagnato.", en: "If I'd had the car, I'd have given you a ride." },
           { es: "Se fossi lì, ti abbraccerei.", en: "If I were there, I'd hug you." },
           { es: "Se fossi stato lì, ti avrei abbracciato.", en: "If I'd been there, I'd have hugged you." },
         ],
         checkpoint: [
           { type: "listen-choose", audio: "Se fossi stato lì, ti avrei abbracciato.", question: "What did you hear?", options: ["Se fossi stato lì, ti avrei abbracciato.", "Se fossi lì, ti abbraccerei.", "Se sono lì, ti abbraccio.", "Se fossi lì, ti avrei abbracciato."], correctIndex: 0, explanation: "\"Fossi stato\" + \"avrei abbracciato\"." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If I had the car, I'd give you a lift. (to a friend)", answer: "Se avessi la macchina, ti accompagnerei.", altAnswers: ["Ti accompagnerei se avessi la macchina.", "Se avessi la macchina, ti darei un passaggio."], explanation: "Hypothetical." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If I had the car, I'd give you a ride. (to a friend)", answer: "Se avessi la macchina, ti accompagnerei.", altAnswers: ["Ti accompagnerei se avessi la macchina.", "Se avessi la macchina, ti darei un passaggio."], explanation: "Hypothetical." },
         ],
       },
     ],
@@ -371,7 +373,7 @@ export const IT_B2_U05: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If I win, drinks are on me.", answer: "Se vinco, offro da bere a tutti.", altAnswers: ["Se vinco, offro io da bere.", "Se vinco, offro da bere io."], explanation: "Real." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If I won, I'd buy everyone a drink.", answer: "Se vincessi, offrirei da bere a tutti.", explanation: "Hypothetical." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If I'd won, I'd have bought everyone a drink.", answer: "Se avessi vinto, avrei offerto da bere a tutti.", explanation: "Impossible past." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If I'd had the car, I'd have given you a lift. (to a friend)", answer: "Se avessi avuto la macchina, ti avrei accompagnato.", altAnswers: ["Se avessi avuto la macchina, ti avrei accompagnata.", "Se avessi avuto la macchina, ti avrei dato un passaggio."], explanation: "Impossible past." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If I'd had the car, I'd have given you a ride. (to a friend)", answer: "Se avessi avuto la macchina, ti avrei accompagnato.", altAnswers: ["Se avessi avuto la macchina, ti avrei accompagnata.", "Se avessi avuto la macchina, ti avrei dato un passaggio."], explanation: "Impossible past." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If I were there, I'd hug you. (to a friend)", answer: "Se fossi lì, ti abbraccerei.", explanation: "Hypothetical." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If the shop is closed, we'll go to the market.", answer: "Se il negozio è chiuso, andiamo al mercato.", altAnswers: ["Se il negozio è chiuso, andremo al mercato."], explanation: "Real." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If the shop [were] closed, we'd go to the market.", sentence: "Se il negozio ___ chiuso, andremmo al mercato.", answer: "fosse", explanation: "Hypothetical." },
@@ -460,11 +462,11 @@ export const IT_B2_U05: Lesson[] = [
       {
         heading: "Part 1: A prisoner in Genova",
         body: [
-          "Counterfactual history (la storia controfattuale) asks what if. This short essay starts from a fact: in 1298 Marco Polo, back from his years in Asia, was captured by the Genoese in a sea battle. In prison he met Rustichello da Pisa, a writer, and dictated to him the book later known as \"Il Milione\".",
+          "Counterfactual history (la storia controfattuale) asks what if. This short essay starts from the traditional account: in 1298 Marco Polo, back from his years in Asia, was taken prisoner by the Genoese during the war between Venice and Genoa. In prison he met Rustichello da Pisa, a writer, and dictated to him the book later known as \"Il Milione\".",
           "The essay then builds a chain: each impossible condition leads to another. Read the sentences and notice which half is the condition and which the result.",
         ],
         examples: [
-          { es: "Nel 1298 Marco Polo fu catturato dai genovesi durante una battaglia navale.", en: "In 1298 Marco Polo was captured by the Genoese during a sea battle." },
+          { es: "Secondo la tradizione, nel 1298 Marco Polo fu catturato dai genovesi.", en: "According to tradition, in 1298 Marco Polo was captured by the Genoese." },
           { es: "In carcere conobbe Rustichello da Pisa, uno scrittore.", en: "In prison he met Rustichello da Pisa, a writer." },
           { es: "Se Marco non fosse stato catturato, non avrebbe mai incontrato Rustichello.", en: "If Marco hadn't been captured, he would never have met Rustichello." },
           { es: "E se non l'avesse incontrato, forse non avrebbe mai raccontato il suo viaggio.", en: "And if he hadn't met him, perhaps he would never have told the story of his journey." },
@@ -478,7 +480,7 @@ export const IT_B2_U05: Lesson[] = [
         heading: "Part 2: The chain continues",
         body: [
           "The second paragraph jumps two centuries. Columbus owned a copy of the book and filled its margins with notes. The writer imagines the consequences and ends with a mixed condition that reaches the present.",
-          "\"Postille\" are margin notes; \"le Indie\" (the Indies) is what Europeans called Asia.",
+          "\"Postille\" are margin notes; \"le Indie\" (the Indies) was a loose European name for South and East Asia.",
         ],
         examples: [
           { es: "Senza il Milione, l'Europa avrebbe conosciuto l'Asia molto più tardi.", en: "Without Il Milione, Europe would have learned about Asia much later." },
@@ -602,7 +604,7 @@ export const IT_B2_U05: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If I hadn't missed that flight, I'd never have met Sara.", answer: "Se non avessi perso quel volo, non avrei mai conosciuto Sara.", altAnswers: ["Non avrei mai conosciuto Sara se non avessi perso quel volo."], explanation: "Impossible past." },
-          { type: "listen-choose", audio: "Oggi probabilmente vivrei ancora a Londra.", question: "Which time is the speaker imagining?", options: ["Today, in an alternative life.", "Their past in London.", "A future move to London.", "A holiday in London."], correctIndex: 0, explanation: "\"Oggi\" + present conditional." },
+          { type: "listen-choose", audio: "Oggi probabilmente vivrei ancora a Londra.", question: "Which time is the speaker imagining?", options: ["Today, in an alternative life.", "Their past in London.", "A future move to London.", "A vacation in London."], correctIndex: 0, explanation: "\"Oggi\" + present conditional." },
         ],
       },
     ],
@@ -654,7 +656,7 @@ export const IT_B2_U05: Lesson[] = [
         examples: [
           { es: "Se domani c'è sciopero, vado in bici.", en: "If there's a strike tomorrow, I'll cycle." },
           { es: "Se avessi una bici, andrei al lavoro in bici.", en: "If I had a bike, I'd cycle to work." },
-          { es: "Se avessi preso la bici, sarei arrivato prima.", en: "If I'd taken the bike, I'd have got there sooner." },
+          { es: "Se avessi preso la bici, sarei arrivato prima.", en: "If I'd taken the bike, I'd have gotten there sooner." },
           { es: "Se non mi avessero rubato la bici, ora non sarei a piedi.", en: "If they hadn't stolen my bike, I wouldn't be on foot now." },
         ],
         checkpoint: [
@@ -672,7 +674,7 @@ export const IT_B2_U05: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If there's a strike tomorrow, I'll cycle.", answer: "Se domani c'è sciopero, vado in bici.", altAnswers: ["Se domani c'è sciopero, andrò in bici.", "Se domani c'è lo sciopero, vado in bici.", "Se domani c'è uno sciopero, vado in bici."], explanation: "Real." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If I were you, I'd tell her the truth. (to a friend)", answer: "Se fossi in te, le direi la verità.", altAnswers: ["Al posto tuo, le direi la verità.", "Io, al posto tuo, le direi la verità."], explanation: "\"Se fossi in te\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It seemed nobody [had noticed].", sentence: "Sembrava che nessuno se ne ___.", answer: "fosse accorto", explanation: "Past + earlier." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If I'd taken the bike, [I'd have got there] sooner.", sentence: "Se avessi preso la bici, ___ prima.", answer: "sarei arrivato", altAnswers: ["sarei arrivata"], explanation: "Past conditional, essere." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If I'd taken the bike, [I'd have gotten there] sooner.", sentence: "Se avessi preso la bici, ___ prima.", answer: "sarei arrivato", altAnswers: ["sarei arrivata"], explanation: "Past conditional, essere." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I wish you [had come] to the party. (to a male friend)", sentence: "Vorrei che ___ alla festa.", answer: "fossi venuto", altAnswers: ["tu fossi venuto"], explanation: "Conditional + earlier → pluperfect." },
       { type: "word-order", prompt: "Put the words in order to say: If I were you, I'd tell her the truth.", words: ["Se", "fossi", "in", "te,", "le", "direi", "la", "verità."], translation: "If I were you, I'd tell her the truth.", explanation: "Advice with \"se fossi in te\"." },
       { type: "multiple-choice", question: "Which sentence is correct written Italian?", options: ["Se l'avessi saputo, ti avrei avvisato.", "Se l'avrei saputo, ti avrei avvisato.", "Se lo sapevo, ti avrei avvisato.", "Se l'avessi saputo, ti avviserei ieri."], correctIndex: 0, explanation: "Pluperfect subjunctive + past conditional." },

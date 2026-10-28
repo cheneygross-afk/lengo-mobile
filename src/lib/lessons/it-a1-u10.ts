@@ -353,7 +353,7 @@ export const IT_A1_U10: Lesson[] = [
         heading: "Gn: one sound",
         body: [
           "Italian \"gn\" is a single sound, like the ny in canyon but held a little longer: \"lasagne\", \"bagno\" (bathroom), \"sogno\" (dream), \"gnocchi\", \"Bologna\", \"signora\", \"ogni\" (every), \"insegnante\" (teacher). Don't say a hard g: it's not \"sig-nora\".",
-          "Between vowels it is always long: ba-GNO feels like ban-nyo.",
+          "Between vowels it is always long: BA-gno feels like BAN-nyo.",
         ],
         examples: [
           { es: "le lasagne", en: "lasagne" },
@@ -370,7 +370,7 @@ export const IT_A1_U10: Lesson[] = [
       {
         heading: "N + g is different",
         body: [
-          "When n and g are separate letters, you hear both: \"vengo\" (VEN-go), \"lungo\" (long), \"inglese\". Compare \"vengo\" with \"vegno\" (not a word) and \"lungo\" with \"lugno\": only gn is the soft sound.",
+          "When n and g are separate letters, you hear both: \"vengo\" (VEN-go), \"lungo\" (long), \"inglese\". Compare \"vengo\" with \"vegno\" (an old or dialect form, not standard Italian) and \"lungo\" with \"lugno\": only gn is the soft sound.",
           "\"Gli gnocchi\": before gn the article is \"gli\" (and \"lo\" in the singular), as with z and s + consonant.",
         ],
         examples: [
@@ -615,7 +615,7 @@ export const IT_A1_U10: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I've been studying Italian for a year.", answer: "Studio italiano da un anno.", altAnswers: ["Studio l'italiano da un anno."], explanation: "Present + \"da\" for something still going on." },
-          { type: "listen-choose", audio: "Faccio l'architetta.", question: "What's Emma's job?", options: ["architect", "teacher", "artist", "doctor"], correctIndex: 0, explanation: "\"Fare\" + article + job." },
+          { type: "listen-choose", audio: "Faccio l'architetta.", question: "What's Emma's job?", options: ["architect", "teacher", "artist", "doctor"], correctIndex: 0, explanation: "\"Fare\" + article + job. For a woman, both \"l'architetta\" and \"l'architetto\" are used." },
         ],
       },
       {
@@ -644,7 +644,7 @@ export const IT_A1_U10: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I hate doing the shopping.", answer: "Odio fare la spesa.", altAnswers: ["Io odio fare la spesa."], explanation: "\"Odio\" + infinitive." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I [love] cooking.", sentence: "___ cucinare.", answer: "Adoro", altAnswers: ["Io adoro"], explanation: "\"Adoro\" + infinitive." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I [quite like] opera.", sentence: "Mi piace ___ l'opera.", answer: "abbastanza", explanation: "\"Abbastanza\" = quite." },
-      { type: "word-order", prompt: "Put the words in order to say: I live in Dublin and I'm an architect.", words: ["Abito", "a", "Dublino", "e", "faccio", "l'architetta."], translation: "I live in Dublin and I'm an architect.", explanation: "\"Fare\" + article + job." },
+      { type: "word-order", prompt: "Put the words in order to say: I live in Dublin and I'm an architect.", words: ["Abito", "a", "Dublino", "e", "faccio", "l'architetta."], translation: "I live in Dublin and I'm an architect.", explanation: "\"Fare\" + article + job. A woman can also say \"faccio l'architetto\"." },
       { type: "multiple-choice", question: "Which line belongs in a profile about likes?", options: ["Mi piacciono i libri gialli.", "Mi piace i libri gialli.", "Io piaccio i libri gialli.", "Piacciono a me i libri gialli io."], correctIndex: 0, explanation: "Plural: \"piacciono\"." },
       { type: "dictation", audio: "Mi piace molto viaggiare e adoro il mare.", explanation: "\"Mi piace\" + infinitive, \"adoro\" + noun." },
       {

@@ -297,7 +297,7 @@ export const IT_A2_U09: Lesson[] = [
         heading: "Quando + future",
         body: [
           "English says When I arrive, I'll call you (present + will). Italian, especially in writing, uses the future in both parts: \"Quando arriverò a Roma, ti chiamerò\". The same with \"appena\" (as soon as): \"Appena finirò, uscirò\".",
-          "In relaxed speech you'll also hear the present in both parts: \"Quando arrivo, ti chiamo\". What sounds wrong is mixing English-style: \"Quando arrivo, ti chiamerò\" is heard, but learners should aim for future + future.",
+          "In relaxed speech you'll also hear the present in both parts: \"Quando arrivo, ti chiamo\". The mix \"Quando arrivo, ti chiamerò\" is common too and not wrong, but future + future is the safest choice when you write.",
         ],
         examples: [
           { es: "Quando arriverò a Roma, ti chiamerò.", en: "When I arrive in Rome, I'll call you." },
@@ -313,7 +313,7 @@ export const IT_A2_U09: Lesson[] = [
       {
         heading: "Se + future",
         body: [
-          "For a real possibility in the future: \"Se avrò tempo, verrò\" (If I have time, I'll come). Again, everyday speech often uses two presents: \"Se ho tempo, vengo\". Both are correct; avoid present + future in writing.",
+          "For a real possibility in the future: \"Se avrò tempo, verrò\" (If I have time, I'll come). Again, everyday speech often uses two presents: \"Se ho tempo, vengo\", or present + future: \"Se ho tempo, verrò\". All of these are correct; future + future is the safest choice in writing.",
         ],
         examples: [
           { es: "Se avrò tempo, verrò alla festa.", en: "If I have time, I'll come to the party." },
@@ -330,7 +330,7 @@ export const IT_A2_U09: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "When you're eighteen, you'll be able to drive. (to a teenager)", answer: "Quando avrai diciotto anni, potrai guidare.", altAnswers: ["Quando avrai 18 anni, potrai guidare."], explanation: "Age with \"avere\", future + future." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "When we're retired, we'll live by the sea.", answer: "Quando saremo in pensione, vivremo al mare.", altAnswers: ["Quando andremo in pensione, vivremo al mare.", "Quando saremo in pensione, abiteremo al mare."], explanation: "\"Essere in pensione\" = to be retired." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If I have time, I'll come to the party.", answer: "Se avrò tempo, verrò alla festa.", altAnswers: ["Se ho tempo, vengo alla festa.", "Se avrò tempo verrò alla festa."], explanation: "Future + future." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "When I know the results, I'll tell you. (to a friend)", answer: "Quando saprò i risultati, te lo dirò.", altAnswers: ["Quando saprò i risultati, ti dirò.", "Quando saprò i risultati, ti avviserò."], explanation: "\"Te lo dirò\" = I'll tell you (it): learn it as a chunk." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "When I know the results, I'll tell you. (to a friend)", answer: "Quando saprò i risultati, te lo dirò.", altAnswers: ["Quando saprò i risultati, ti farò sapere.", "Quando saprò i risultati, ti avviserò.", "Quando saprò i risultati, ti dirò tutto."], explanation: "\"Te lo dirò\" = I'll tell you (it): learn it as a chunk." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If you study, you'll pass the exam. (to a friend)", answer: "Se studierai, passerai l'esame.", altAnswers: ["Se studi, passi l'esame.", "Se studierai, supererai l'esame."], explanation: "\"Passare un esame\" = to pass an exam." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "As soon as they arrive, we'll eat.", answer: "Appena arriveranno, mangeremo.", altAnswers: ["Appena arrivano, mangiamo.", "Appena arriveranno mangeremo."], explanation: "\"Appena\" + future." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If the weather's nice, we'll go to the beach.", answer: "Se farà bel tempo, andremo al mare.", altAnswers: ["Se fa bel tempo, andiamo al mare.", "Se farà bel tempo, andremo in spiaggia."], explanation: "Weather: \"farà bel tempo\"." },
@@ -439,7 +439,7 @@ export const IT_A2_U09: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He'll come on Monday.", answer: "Verrà lunedì.", altAnswers: ["Lui verrà lunedì.", "Lunedì verrà."], explanation: "\"Verrà\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It will be difficult, but we'll do it.", answer: "Sarà difficile, ma ce la faremo.", altAnswers: ["Sarà difficile ma ce la faremo."], explanation: "\"Ce la faremo\" = we'll manage it: a fixed chunk." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Will you call me? (to a friend)", answer: "Mi chiamerai?", altAnswers: ["Mi telefonerai?"], explanation: "Stress on \"-RAI\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Tomorrow [it will be] sunny.", sentence: "Domani ___ sole.", answer: "ci sarà", altAnswers: ["farà"], explanation: "\"Ci sarà il sole\" / \"farà bel tempo\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Tomorrow [it will be] sunny.", sentence: "Domani ___ sole.", answer: "ci sarà il", altAnswers: ["ci sarà"], explanation: "\"C'è il sole\" → \"ci sarà il sole\". (With \"fare\" it's \"farà bel tempo\", not \"farà sole\".)" },
       { type: "multiple-choice", question: "Which spelling is correct for I will speak?", options: ["parlerò", "parlero", "parlerà", "parlarò"], correctIndex: 0, explanation: "Accent on the final \"o\"." },
       { type: "dictation", audio: "Sara verrà e porterà il vino.", explanation: "\"Sara\" (name) vs \"verrà\", \"porterà\"." },
       { type: "dictation", audio: "È vero, verrò anch'io.", explanation: "\"Vero\" vs \"verrò\"." },
@@ -548,7 +548,7 @@ export const IT_A2_U09: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Saro a casa.\" Write it correctly: I'll be at home.", source: "I'll be at home.", answer: "Sarò a casa.", explanation: "Accent: \"sarò\"." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Mangierò la pizza.\" Write it correctly: I'll eat pizza.", source: "I'll eat pizza.", answer: "Mangerò la pizza.", altAnswers: ["Mangerò una pizza."], explanation: "No \"i\": \"mangerò\"." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Avero tempo domani.\" Write it correctly: I'll have time tomorrow.", source: "I'll have time tomorrow.", answer: "Avrò tempo domani.", altAnswers: ["Domani avrò tempo."], explanation: "Stem \"avr-\" + accent." },
-      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Se ho tempo, verrò.\" Make it consistent: If I have time, I'll come.", source: "If I have time, I'll come.", answer: "Se avrò tempo, verrò.", altAnswers: ["Se ho tempo, vengo."], explanation: "Future + future (or present + present)." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Se ho tempo, verrò.\" That's fine in speech. Write the safest version for an email: If I have time, I'll come.", source: "If I have time, I'll come.", answer: "Se avrò tempo, verrò.", altAnswers: ["Se ho tempo, vengo.", "Se ho tempo, verrò."], explanation: "\"Se ho tempo, verrò\" is acceptable; future + future is the safest in writing, and present + present is also fine." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Pagarò io.\" Write it correctly: I'll pay.", source: "I'll pay.", answer: "Pagherò io.", altAnswers: ["Pago io."], explanation: "\"-gare\" → \"-gherò\"." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Vorò un caffè.\" Write it correctly: I'll want a coffee.", source: "I'll want a coffee.", answer: "Vorrò un caffè.", explanation: "Double \"r\"." },
       { type: "fill-blank", prompt: "A learner wrote \"Domani faremmo una gita.\" Write the Italian for the bold words.", en: "Tomorrow [we'll go] on a trip.", sentence: "Domani ___ una gita.", answer: "faremo", explanation: "Future \"faremo\" (one \"m\"); \"faremmo\" is the conditional." },

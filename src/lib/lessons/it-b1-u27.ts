@@ -2,7 +2,7 @@
 import type { Lesson, WriteExercise } from "./types";
 
 // Italian B1 Unit 27: Media and the News. Headline style, the structure of
-// an article, the conditional of hearsay (recognised), numbers and
+// an article, the conditional of hearsay (recognized), numbers and
 // percentages, the passive and si in news. Conventions:
 // docs/italian-course/authoring.md.
 export const IT_B1_U27: Lesson[] = [
@@ -18,11 +18,12 @@ export const IT_B1_U27: Lesson[] = [
         heading: "Nouns instead of verbs",
         body: [
           "Italian headlines (\"i titoli\") prefer nouns to verbs: \"Sciopero dei treni venerdì\" (train strike on Friday) instead of \"I treni scioperano venerdì\". The action becomes a noun: \"scioperare\" → \"lo sciopero\", \"aumentare\" → \"l'aumento\", \"chiudere\" → \"la chiusura\", \"arrestare\" → \"l'arresto\", \"approvare\" → \"il via libera\" (the go-ahead).",
-          "To read a headline, turn the noun back into a verb in your head: \"Chiusura della A14 per lavori\" = la A14 chiude per lavori. Articles also disappear: \"Nuovo museo in centro\", \"Furto in farmacia\". Italian motorways are feminine because \"autostrada\" is: \"la A1\", \"sulla A14\".",
+          "To read a headline, turn the noun back into a verb in your head: \"Chiusura della A14 per lavori\" = la A14 chiude per lavori. Articles also disappear: \"Nuovo museo in centro\", \"Furto in farmacia\". Italian highways are feminine because \"autostrada\" is: \"la A1\", \"sulla A14\".",
+          "When a headline does have a verb, it's usually the present, even for something that happened yesterday: \"Il governo approva la riforma\", \"Vince la lotteria e sparisce\". Translate it with whatever English tense fits. With bare participles, read the ending: \"Arrestati due giovani\", \"Ritrovata la bambina\" tell you number and gender before you reach the noun.",
         ],
         examples: [
           { es: "Sciopero dei treni venerdì: a rischio i Frecciarossa.", en: "Train strike on Friday: Frecciarossa services at risk." },
-          { es: "Chiusura della A14 tra Pescara e Ancona per lavori.", en: "A14 closed between Pescara and Ancona for roadworks." },
+          { es: "Chiusura della A14 tra Pescara e Ancona per lavori.", en: "A14 closed between Pescara and Ancona for road work." },
           { es: "Aumento delle bollette: più 8% da gennaio.", en: "Bills go up: 8% more from January." },
           { es: "Furto in farmacia, arrestato un trentenne.", en: "Pharmacy theft, a man in his thirties arrested." },
           { es: "Via libera al nuovo ponte sul Po.", en: "Go-ahead for the new bridge over the Po." },
@@ -36,7 +37,7 @@ export const IT_B1_U27: Lesson[] = [
         heading: "Colons, commas and the past participle",
         body: [
           "A colon often separates the topic from the news: \"Roma, nuovo museo in centro\" (place, then fact), \"Maltempo: scuole chiuse a Genova\" (cause: consequence). A past participle with no auxiliary is a short passive: \"Arrestato un trentenne\" = un trentenne è stato arrestato; \"Ritrovato il cane scomparso\" = the missing dog has been found.",
-          "Ages become nouns: \"un trentenne\" (a man in his thirties, or aged thirty), \"una ventenne\", \"un sessantenne\". Numbers in figures: \"due feriti\" (two injured), \"tre morti\".",
+          "Ages become nouns: \"un trentenne\" (a man in his thirties, or aged thirty), \"una ventenne\", \"un sessantenne\". Casualty counts are nouns too: \"due feriti\" (two injured), \"tre morti\" (three dead).",
         ],
         examples: [
           { es: "Maltempo: scuole chiuse a Genova e La Spezia.", en: "Bad weather: schools closed in Genoa and La Spezia." },
@@ -69,7 +70,7 @@ export const IT_B1_U27: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The A14 is closed for roadworks.", answer: "La A14 è chiusa per lavori.", altAnswers: ["L'A14 è chiusa per lavori.", "L'autostrada A14 è chiusa per lavori."], explanation: "Motorways are feminine: \"la A14\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The A14 is closed for road work.", answer: "La A14 è chiusa per lavori.", altAnswers: ["L'A14 è chiusa per lavori.", "L'autostrada A14 è chiusa per lavori."], explanation: "Motorways are feminine: \"la A14\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Bills are going up from January.", answer: "Le bollette aumentano da gennaio.", altAnswers: ["Da gennaio le bollette aumentano.", "Le bollette aumenteranno da gennaio.", "Da gennaio aumentano le bollette."], explanation: "\"Aumento delle bollette\" back into a verb." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "A man in his thirties has been arrested.", answer: "Un trentenne è stato arrestato.", altAnswers: ["È stato arrestato un trentenne.", "Hanno arrestato un trentenne."], explanation: "\"Arrestato un trentenne\" in full." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The schools are closed because of bad weather.", answer: "Le scuole sono chiuse per il maltempo.", altAnswers: ["Le scuole sono chiuse a causa del maltempo.", "Per il maltempo le scuole sono chiuse."], explanation: "\"Per\" or \"a causa di\" = because of." },
@@ -80,7 +81,7 @@ export const IT_B1_U27: Lesson[] = [
       { type: "matching", instructions: "Match the verb to its headline noun.", pairs: [{ left: "scioperare", right: "lo sciopero" }, { left: "aumentare", right: "l'aumento" }, { left: "chiudere", right: "la chiusura" }, { left: "arrestare", right: "l'arresto" }, { left: "approvare", right: "l'approvazione" }], explanation: "Headlines turn verbs into nouns." },
       { type: "multiple-choice", question: "\"Esteri\" is the section for ...", options: ["foreign news", "summer news", "the economy", "local crime"], correctIndex: 0, explanation: "\"Estero\" = abroad." },
       { type: "dictation", audio: "Maltempo: scuole chiuse a Genova.", explanation: "Colon: cause, then consequence." },
-      { type: "speak", text: "Hai letto? Domani c'è sciopero dei treni e la A1 è chiusa per lavori.", prompt: "Tell a friend the news: Have you read it? Tomorrow there's a train strike and the A1 is closed for roadworks.", tip: "Say \"la A1\" as \"la a uno\".", explanation: "Headlines turned into everyday speech." },
+      { type: "speak", text: "Hai letto? Domani c'è sciopero dei treni e la A1 è chiusa per lavori.", prompt: "Tell a friend the news: Have you read it? Tomorrow there's a train strike and the A1 is closed for road work.", tip: "Say \"la A1\" as \"la a uno\".", explanation: "Headlines turned into everyday speech." },
     ],
   },
   {
@@ -100,7 +101,7 @@ export const IT_B1_U27: Lesson[] = [
         examples: [
           { es: "Ieri mattina, a Brescia, è scoppiato un incendio in un magazzino.", en: "Yesterday morning in Brescia a fire broke out in a warehouse." },
           { es: "Nel magazzino, per fortuna, non c'era nessuno.", en: "Luckily, nobody was in the warehouse." },
-          { es: "I vigili del fuoco sono arrivati in pochi minuti.", en: "The fire brigade arrived within minutes." },
+          { es: "I vigili del fuoco sono arrivati in pochi minuti.", en: "The fire department arrived within minutes." },
           { es: "Le cause dell'incendio sono ancora da chiarire.", en: "The causes of the fire are yet to be established." },
           { es: "Le indagini sono in corso.", en: "The investigation is ongoing." },
         ],
@@ -113,12 +114,13 @@ export const IT_B1_U27: Lesson[] = [
         heading: "Quotes and reported words",
         body: [
           "Articles quote people with \"ha detto\", \"ha dichiarato\" (stated), \"ha spiegato\", \"ha raccontato\", and very often with the quote first: \"«Abbiamo sentito un'esplosione», racconta un vicino\". Italian uses « » (caporali) or \" \" for quotes.",
-          "Reported speech is common too: \"Il sindaco ha detto che la scuola riaprirà lunedì\". After a past reporting verb the future often becomes the conditional perfect (\"ha detto che sarebbe riaperta\"); you'll study this in Unit 32. For now, recognise both.",
+          "Reported speech is common too: \"Il sindaco ha detto che la scuola riaprirà lunedì\". After a past reporting verb the future often becomes the conditional perfect (\"ha detto che sarebbe riaperta\"); you'll study this in Unit 32. For now, recognize both.",
+          "Two verbs every crime or accident story uses: \"avvenire\" (to take place, with \"essere\": \"L'incidente è avvenuto alle 8\") and \"verificarsi\" (to occur: \"Si è verificato un guasto\"). Articles also avoid repeating a name: the second time, a man becomes \"l'uomo\", \"il trentenne\" or \"il conducente\", so knowing these synonyms keeps you on track.",
         ],
         examples: [
-          { es: "«Abbiamo sentito un'esplosione», racconta un vicino.", en: "'We heard an explosion,' says a neighbour." },
+          { es: "«Abbiamo sentito un'esplosione», racconta un vicino.", en: "'We heard an explosion,' says a neighbor." },
           { es: "Il sindaco ha dichiarato che la situazione è sotto controllo.", en: "The mayor stated that the situation is under control." },
-          { es: "La direttrice ha spiegato che la scuola riaprirà lunedì.", en: "The head teacher explained that the school will reopen on Monday." },
+          { es: "La direttrice ha spiegato che la scuola riaprirà lunedì.", en: "The principal explained that the school will reopen on Monday." },
           { es: "«Non ci sono feriti», ha confermato la polizia.", en: "'There are no injuries,' the police confirmed." },
         ],
         checkpoint: [
@@ -129,12 +131,12 @@ export const IT_B1_U27: Lesson[] = [
       {
         heading: "Who's who in the news",
         body: [
-          "Crime and accident stories have their own cast: \"i carabinieri\" and \"la polizia\" (two separate police forces), \"i vigili del fuoco\" (fire brigade), \"i vigili urbani\" or \"la polizia locale\" (municipal police), \"i soccorritori\" (rescuers), \"il testimone\" (witness), \"la vittima\" (always feminine, even for a man).",
+          "Crime and accident stories have their own cast: \"i carabinieri\" and \"la polizia\" (two separate police forces), \"i vigili del fuoco\" (fire department), \"i vigili urbani\" or \"la polizia locale\" (municipal police), \"i soccorritori\" (rescuers), \"il testimone\" (witness), \"la vittima\" (always feminine, even for a man).",
         ],
         examples: [
           { es: "I carabinieri hanno fermato due giovani.", en: "The carabinieri stopped two young men." },
           { es: "Un testimone ha chiamato i soccorsi.", en: "A witness called the emergency services." },
-          { es: "La vittima, un uomo di 50 anni, è stata portata in ospedale.", en: "The victim, a 50-year-old man, was taken to hospital." },
+          { es: "La vittima, un uomo di 50 anni, è stata portata in ospedale.", en: "The victim, a 50-year-old man, was taken to the hospital." },
           { es: "La polizia locale ha chiuso la strada al traffico.", en: "The local police closed the road to traffic." },
         ],
         checkpoint: [
@@ -144,18 +146,18 @@ export const IT_B1_U27: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The fire brigade arrived within minutes.", answer: "I vigili del fuoco sono arrivati in pochi minuti.", altAnswers: ["I pompieri sono arrivati in pochi minuti.", "I vigili del fuoco sono arrivati nel giro di pochi minuti."], explanation: "\"Arrivare\" takes \"essere\": \"arrivati\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The fire department arrived within minutes.", answer: "I vigili del fuoco sono arrivati in pochi minuti.", altAnswers: ["I pompieri sono arrivati in pochi minuti.", "I vigili del fuoco sono arrivati nel giro di pochi minuti."], explanation: "\"Arrivare\" takes \"essere\": \"arrivati\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The investigation is ongoing.", answer: "Le indagini sono in corso.", altAnswers: ["Le indagini continuano.", "Sono in corso le indagini."], explanation: "\"Le indagini\" is usually plural." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The victim was taken to hospital.", answer: "La vittima è stata portata in ospedale.", altAnswers: ["La vittima è stata trasportata in ospedale.", "Hanno portato la vittima in ospedale."], explanation: "\"Vittima\" is feminine: \"stata portata\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The victim was taken to the hospital.", answer: "La vittima è stata portata in ospedale.", altAnswers: ["La vittima è stata trasportata in ospedale.", "Hanno portato la vittima in ospedale."], explanation: "\"Vittima\" is feminine: \"stata portata\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The causes are yet to be established.", answer: "Le cause sono ancora da chiarire.", altAnswers: ["Le cause sono ancora da accertare.", "Le cause devono ancora essere chiarite."], explanation: "\"Da\" + infinitive = still to be done." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The police closed the road.", answer: "La polizia ha chiuso la strada.", altAnswers: ["La polizia locale ha chiuso la strada.", "I vigili hanno chiuso la strada."], explanation: "\"La polizia\" takes a singular verb." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "'We heard a bang,' [says a neighbour].", sentence: "«Abbiamo sentito un botto», ___.", answer: "racconta un vicino", altAnswers: ["dice un vicino", "racconta una vicina", "dice una vicina"], explanation: "Verb before subject after a quote." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "'We heard a bang,' [says a neighbor].", sentence: "«Abbiamo sentito un botto», ___.", answer: "racconta un vicino", altAnswers: ["dice un vicino", "racconta una vicina", "dice una vicina"], explanation: "Verb before subject after a quote." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The minister [stated] that taxes won't go up.", sentence: "Il ministro ___ che le tasse non aumenteranno.", answer: "ha dichiarato", altAnswers: ["ha detto", "ha affermato"], explanation: "\"Dichiarare\" = to state, typical of news." },
       { type: "word-order", prompt: "Put the words in order to say: Yesterday evening a fire broke out in Brescia.", words: ["Ieri", "sera", "è", "scoppiato", "un", "incendio", "a", "Brescia."], translation: "Yesterday evening a fire broke out in Brescia.", explanation: "Time and place first, then the event." },
       { type: "multiple-choice", question: "Which question does the first paragraph of a news article NOT usually answer?", options: ["What does the journalist think?", "Who?", "Where?", "When?"], correctIndex: 0, explanation: "The lead gives facts, not opinions." },
-      { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "i vigili del fuoco", right: "the fire brigade" }, { left: "il testimone", right: "the witness" }, { left: "le indagini", right: "the investigation" }, { left: "i soccorsi", right: "the emergency services" }, { left: "l'incendio", right: "the fire" }], explanation: "News vocabulary." },
+      { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "i vigili del fuoco", right: "the fire department" }, { left: "il testimone", right: "the witness" }, { left: "le indagini", right: "the investigation" }, { left: "i soccorsi", right: "the emergency services" }, { left: "l'incendio", right: "the fire" }], explanation: "News vocabulary." },
       { type: "dictation", audio: "Le cause dell'incendio sono ancora da chiarire.", explanation: "\"Da chiarire\" = to be clarified." },
-      { type: "speak", text: "Ieri sera a Brescia è scoppiato un incendio in un magazzino. Per fortuna non c'erano feriti.", prompt: "Summarise the news aloud: Yesterday evening in Brescia a fire broke out in a warehouse. Luckily there were no injuries.", tip: "Read it like a newsreader: steady pace, falling intonation.", explanation: "Lead structure: when, where, what, then background." },
+      { type: "speak", text: "Ieri sera a Brescia è scoppiato un incendio in un magazzino. Per fortuna non c'erano feriti.", prompt: "Summarize the news aloud: Yesterday evening in Brescia a fire broke out in a warehouse. Luckily there were no injuries.", tip: "Read it like a newsreader: steady pace, falling intonation.", explanation: "Lead structure: when, where, what, then background." },
     ],
   },
   {
@@ -163,13 +165,13 @@ export const IT_B1_U27: Lesson[] = [
     level: "IT-B1",
     number: 3,
     title: "According to Sources: The Journalistic Conditional",
-    summary: "Recognise the conditional that marks unconfirmed news: il governo starebbe preparando, sarebbe stato visto.",
+    summary: "Recognize the conditional that marks unconfirmed news: il governo starebbe preparando, sarebbe stato visto.",
     duration: "17 min",
     sections: [
       {
         heading: "Sarebbe: it is said to be",
         body: [
-          "Italian journalists use the conditional to say something is reported but not confirmed: \"Il ministro sarebbe pronto a dimettersi\" means the minister is said to be ready to resign. English needs extra words (reportedly, is said to, allegedly); Italian just changes the verb. You need to recognise it at B1, not produce it.",
+          "Italian journalists use the conditional to say something is reported but not confirmed: \"Il ministro sarebbe pronto a dimettersi\" means the minister is said to be ready to resign. English needs extra words (reportedly, is said to, allegedly); Italian just changes the verb. You need to recognize it at B1, not produce it.",
           "It's often paired with a source: \"secondo indiscrezioni\" (according to leaks), \"secondo fonti vicine al governo\", \"stando a quanto riportato da ...\" (according to what was reported by). Don't read it as would: \"Il ladro sarebbe un ex dipendente\" is the thief is allegedly a former employee, not would be.",
         ],
         examples: [
@@ -189,6 +191,7 @@ export const IT_B1_U27: Lesson[] = [
         body: [
           "The same trick works with other forms. \"Stare\" + gerund: \"Il governo starebbe preparando un nuovo decreto\" (is reportedly preparing). The past conditional reports a past event: \"Il ragazzo sarebbe uscito di casa alle dieci\" (reportedly left home at ten), \"L'uomo sarebbe stato visto alla stazione\" (was reportedly seen).",
           "Compare the confirmed version in the indicative: \"Il governo sta preparando\", \"È stato visto alla stazione\". Spotting the difference tells you how much the paper actually knows.",
+          "Don't confuse it with \"dovrebbe\", which in news means is expected to: \"Il cantiere dovrebbe chiudere a maggio\" (the work is expected to finish in May). And never translate \"avrebbe deciso\" as would have decided: it's has reportedly decided. In conversation the same doubt sounds like \"pare che\" + subjunctive or \"dicono che\" + indicative.",
         ],
         examples: [
           { es: "Il governo starebbe preparando un nuovo decreto sugli affitti.", en: "The government is reportedly preparing a new decree on rents." },
@@ -199,7 +202,7 @@ export const IT_B1_U27: Lesson[] = [
         ],
         checkpoint: [
           { type: "multiple-choice", question: "Which sentence presents the news as confirmed?", options: ["L'uomo è stato visto alla stazione.", "L'uomo sarebbe stato visto alla stazione.", "Secondo alcuni testimoni, l'uomo sarebbe alla stazione.", "L'uomo si troverebbe alla stazione."], correctIndex: 0, explanation: "Indicative = fact; conditional = reported." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The government is preparing a new law. (confirmed)", answer: "Il governo sta preparando una nuova legge.", altAnswers: ["Il governo prepara una nuova legge."], explanation: "A confirmed fact: indicative. The rumour would be \"starebbe preparando\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The government is preparing a new law. (confirmed)", answer: "Il governo sta preparando una nuova legge.", altAnswers: ["Il governo prepara una nuova legge."], explanation: "A confirmed fact: indicative. The rumor would be \"starebbe preparando\"." },
         ],
       },
       {
@@ -221,7 +224,7 @@ export const IT_B1_U27: Lesson[] = [
     ],
     exercises: [
       { type: "multiple-choice", question: "\"L'attore si sarebbe sposato in segreto\". What does it say?", options: ["The actor allegedly got married in secret.", "The actor would get married in secret.", "The actor got married in secret (confirmed).", "The actor will get married in secret."], correctIndex: 0, explanation: "Past conditional = reported past event." },
-      { type: "multiple-choice", question: "Which phrase introduces an unconfirmed source?", options: ["secondo indiscrezioni", "come tutti sanno", "è certo che", "ufficialmente"], correctIndex: 0, explanation: "\"Indiscrezioni\" = leaks, rumours." },
+      { type: "multiple-choice", question: "Which phrase introduces an unconfirmed source?", options: ["secondo indiscrezioni", "come tutti sanno", "è certo che", "ufficialmente"], correctIndex: 0, explanation: "\"Indiscrezioni\" = leaks, rumors." },
       { type: "listen-choose", audio: "L'incendio sarebbe partito da un cortocircuito.", question: "What does the speaker say about the cause?", options: ["A short circuit is thought to be the cause.", "A short circuit was definitely the cause.", "A short circuit could start a fire.", "Nobody knows anything."], correctIndex: 0, explanation: "Conditional = probable, not confirmed." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "According to the police, the thief is a former employee.", answer: "Secondo la polizia, il ladro è un ex dipendente.", altAnswers: ["Secondo la polizia il ladro è un ex dipendente.", "Secondo la polizia, il ladro sarebbe un ex dipendente."], explanation: "\"Secondo\" + indicative, or the journalistic conditional." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's said that the new stadium will cost too much.", answer: "Si dice che il nuovo stadio costerà troppo.", altAnswers: ["Si dice che il nuovo stadio costi troppo.", "Dicono che il nuovo stadio costerà troppo."], explanation: "\"Si dice che\": impersonal \"si\"." },
@@ -233,7 +236,7 @@ export const IT_B1_U27: Lesson[] = [
       { type: "word-order", prompt: "Put the words in order to say: According to the police, the driver was drunk.", words: ["Secondo", "la", "polizia,", "l'autista", "era", "ubriaco."], translation: "According to the police, the driver was drunk.", explanation: "Background state: imperfetto." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "According to the newspaper, the shop will close in June.", answer: "Secondo il giornale, il negozio chiuderà a giugno.", altAnswers: ["Secondo il giornale il negozio chiuderà a giugno.", "Secondo il giornale, il negozio chiude a giugno."], explanation: "\"Secondo\" + indicative: the safe way to report." },
       { type: "dictation", audio: "Il governo starebbe preparando un nuovo decreto.", explanation: "\"Starebbe preparando\": reportedly preparing." },
-      { type: "speak", text: "Secondo il giornale, il sindaco vuole chiudere il centro alle auto.", prompt: "Pass on the news: According to the paper, the mayor wants to close the centre to cars.", tip: "\"Secondo\": se-CON-do.", explanation: "\"Secondo\" + indicative: the safe way to report." },
+      { type: "speak", text: "Secondo il giornale, il sindaco vuole chiudere il centro alle auto.", prompt: "Pass on the news: According to the paper, the mayor wants to close the center to cars.", tip: "\"Secondo\": se-CON-do.", explanation: "\"Secondo\" + indicative: the safe way to report." },
     ],
   },
   {
@@ -248,10 +251,10 @@ export const IT_B1_U27: Lesson[] = [
         heading: "Percentages",
         body: [
           "Percentages take the article: \"il 30 per cento\" (or \"il 30%\"), \"l'8%\" (\"l'otto per cento\"), \"l'11%\". Decimals use a comma: \"il 2,5%\" (\"il due virgola cinque per cento\"). A change is \"un aumento del 5%\", \"un calo del 3%\" (a fall), \"una crescita dell'1,2%\".",
-          "Agreement: \"il 30% degli italiani\" is singular in formal writing (\"il 30% degli italiani legge un libro all'anno\"), though in speech you'll often hear the plural (\"leggono\"). In this course, write the singular.",
+          "Agreement: the verb can agree with the percentage (singular: \"il 30% degli italiani legge un libro all'anno\") or with the people (plural: \"leggono\"). Both are correct and both appear in newspapers; careful writing leans toward the singular, which is what the answers here use, but the plural is accepted.",
         ],
         examples: [
-          { es: "Il 30 per cento degli italiani legge almeno un libro all'anno.", en: "30 per cent of Italians read at least one book a year." },
+          { es: "Il 30 per cento degli italiani legge almeno un libro all'anno.", en: "30 percent of Italians read at least one book a year." },
           { es: "Le vendite sono aumentate dell'8%.", en: "Sales have risen by 8%." },
           { es: "L'inflazione è scesa al 2,5%.", en: "Inflation has fallen to 2.5%." },
           { es: "Si registra un calo del 3% delle nascite.", en: "There's a 3% drop in births." },
@@ -259,7 +262,7 @@ export const IT_B1_U27: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Prices have risen by 5%.", answer: "I prezzi sono aumentati del 5%.", altAnswers: ["I prezzi sono aumentati del 5 per cento.", "I prezzi sono saliti del 5%.", "I prezzi sono saliti del 5 per cento."], explanation: "\"Aumentare di\" + percentage: \"del 5%\"." },
-          { type: "multiple-choice", question: "How do you write it in standard Italian?", options: ["Il 40% degli studenti lavora.", "40% degli studenti lavora.", "Il 40% dei studenti lavora.", "Il 40% di studenti lavorano."], correctIndex: 0, explanation: "Article before the percentage; \"degli studenti\"; singular verb in writing." },
+          { type: "multiple-choice", question: "How do you write it in standard Italian?", options: ["Il 40% degli studenti lavora.", "40% degli studenti lavora.", "Il 40% dei studenti lavora.", "Il 40% di studenti lavorano."], correctIndex: 0, explanation: "Article before the percentage and \"degli studenti\". The singular verb is the careful choice; \"lavorano\" would also be accepted." },
         ],
       },
       {
@@ -267,6 +270,7 @@ export const IT_B1_U27: Lesson[] = [
         body: [
           "\"Mille\" (one thousand), plural \"mila\": \"duemila\", \"diecimila\". \"Un milione\" and \"un miliardo\" (a billion) are nouns, so they need \"di\" before another noun: \"un milione di persone\", \"due miliardi di euro\". But with another number after them, no \"di\": \"un milione duecentomila abitanti\". Thousands are separated with a dot: 1.500.000.",
           "\"Un milione e mezzo\" = 1.5 million; \"mezzo milione\" = half a million. Approximate numbers end in \"-ina\": \"una decina\" (about ten), \"una ventina\", \"un centinaio\" (about a hundred, plural \"centinaia\"), \"migliaia\" (thousands).",
+          "Watch the billions: English billion is \"miliardo\"; \"bilione\" is a thousand times bigger and almost never used. Two more news words: \"la percentuale\" (the percentage) and \"punti percentuali\" (percentage points: \"è salito di due punti\"). \"Su\" gives proportions: \"due italiani su tre\" (two out of three Italians).",
         ],
         examples: [
           { es: "Alla manifestazione c'erano migliaia di persone.", en: "There were thousands of people at the demonstration." },
@@ -288,12 +292,12 @@ export const IT_B1_U27: Lesson[] = [
         examples: [
           { es: "Nel 2024 i turisti sono stati 65 milioni.", en: "In 2024 there were 65 million tourists." },
           { es: "Un terzo dei giovani vive ancora con i genitori.", en: "A third of young people still live with their parents." },
-          { es: "La metà degli intervistati usa i mezzi pubblici.", en: "Half of those interviewed use public transport." },
+          { es: "La metà degli intervistati usa i mezzi pubblici.", en: "Half of those interviewed use public transportation." },
           { es: "Il biglietto costa due euro e venti.", en: "The ticket costs 2.20 euros." },
         ],
         checkpoint: [
-          { type: "dictation", audio: "La metà degli intervistati usa i mezzi pubblici.", explanation: "\"La metà\" takes a singular verb in writing." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "A third of young people live with their parents.", answer: "Un terzo dei giovani vive con i genitori.", altAnswers: ["Un terzo dei giovani vive coi genitori.", "Un terzo dei giovani vive con i propri genitori."], explanation: "Singular verb with \"un terzo\" in standard writing." },
+          { type: "dictation", audio: "La metà degli intervistati usa i mezzi pubblici.", explanation: "Here the verb is singular, agreeing with \"la metà\"; \"usano\" would also be correct." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "A third of young people live with their parents.", answer: "Un terzo dei giovani vive con i genitori.", altAnswers: ["Un terzo dei giovani vive coi genitori.", "Un terzo dei giovani vive con i propri genitori.", "Un terzo dei giovani vivono con i genitori.", "Un terzo dei giovani vivono coi genitori."], explanation: "Singular verb with \"un terzo\" in careful writing; the plural is also correct." },
         ],
       },
     ],
@@ -303,13 +307,13 @@ export const IT_B1_U27: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The city has two million inhabitants.", answer: "La città ha due milioni di abitanti.", explanation: "\"Milioni di\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "About a hundred people were evacuated.", answer: "Un centinaio di persone sono state evacuate.", altAnswers: ["Circa cento persone sono state evacuate."], explanation: "\"Un centinaio di\" = about a hundred." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Sales have fallen by 3%.", answer: "Le vendite sono calate del 3%.", altAnswers: ["Le vendite sono scese del 3%.", "Le vendite sono diminuite del 3%.", "Le vendite sono calate del 3 per cento."], explanation: "\"Calare di\" + percentage." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Half of Italians have never been to Sardinia.", answer: "La metà degli italiani non è mai stata in Sardegna.", altAnswers: ["Metà degli italiani non è mai stata in Sardegna.", "La metà degli italiani non è mai andata in Sardegna."], explanation: "\"La metà\" is feminine singular: \"è stata\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Half of Italians have never been to Sardinia.", answer: "La metà degli italiani non è mai stata in Sardegna.", altAnswers: ["Metà degli italiani non è mai stata in Sardegna.", "La metà degli italiani non è mai andata in Sardegna.", "La metà degli italiani non sono mai stati in Sardegna.", "Metà degli italiani non sono mai stati in Sardegna."], explanation: "Agreeing with \"la metà\" (feminine singular): \"è stata\". Agreeing with \"gli italiani\" is also correct: \"sono stati\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "There's been [an increase of 10%].", sentence: "C'è stato ___.", answer: "un aumento del 10%", altAnswers: ["un aumento del 10 per cento", "un aumento del dieci per cento"], explanation: "\"Aumento del\" + percentage." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The project will cost [one and a half million] euros.", sentence: "Il progetto costerà ___ di euro.", answer: "un milione e mezzo", explanation: "\"Un milione e mezzo di\"." },
-      { type: "word-order", prompt: "Put the words in order to say: 25% of students work.", words: ["Il", "25%", "degli", "studenti", "lavora."], translation: "25% of students work.", explanation: "Article + percentage + \"di\"; singular verb in writing." },
+      { type: "word-order", prompt: "Put the words in order to say: 25% of students work.", words: ["Il", "25%", "degli", "studenti", "lavora."], translation: "25% of students work.", explanation: "Article + percentage + \"di\"; the singular verb is the careful written choice." },
       { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "una decina", right: "about ten" }, { left: "un centinaio", right: "about a hundred" }, { left: "migliaia", right: "thousands" }, { left: "un miliardo", right: "a billion" }, { left: "la metà", right: "half" }], explanation: "Approximate and large numbers." },
       { type: "listen-choose", audio: "L'inflazione è scesa al due virgola cinque per cento.", question: "What's the figure?", options: ["2.5%", "25%", "2.15%", "0.25%"], correctIndex: 0, explanation: "\"Virgola\" = decimal comma." },
-      { type: "speak", text: "Secondo l'ISTAT, il trenta per cento degli italiani legge almeno un libro all'anno.", prompt: "Read the statistic aloud: According to ISTAT, 30 per cent of Italians read at least one book a year.", tip: "ISTAT, the statistics office, is said as a word: IS-tat.", explanation: "\"Il\" + percentage, singular verb." },
+      { type: "speak", text: "Secondo l'ISTAT, il trenta per cento degli italiani legge almeno un libro all'anno.", prompt: "Read the statistic aloud: According to ISTAT, 30 percent of Italians read at least one book a year.", tip: "ISTAT, the statistics office, is said as a word: IS-tat.", explanation: "\"Il\" + percentage, singular verb." },
     ],
   },
   {
@@ -327,7 +331,7 @@ export const IT_B1_U27: Lesson[] = [
           "Three steps: find the noun that hides a verb (\"chiusura\" → \"chiudere\"), put back the articles, and choose the tense (passato prossimo for news that has happened, future for what's announced). A bare participle becomes a passive: \"Arrestato un uomo\" → \"Un uomo è stato arrestato\".",
         ],
         examples: [
-          { es: "Chiusura del ponte per lavori → Il ponte chiude per lavori.", en: "Bridge closed for works → The bridge is closing for works." },
+          { es: "Chiusura del ponte per lavori → Il ponte chiude per lavori.", en: "Bridge closed for construction → The bridge is closing for construction." },
           { es: "Arrestato un ladro a Pisa → A Pisa è stato arrestato un ladro.", en: "Thief arrested in Pisa → A thief has been arrested in Pisa." },
           { es: "Aumento del prezzo del gas → Il prezzo del gas è aumentato.", en: "Gas price rise → The price of gas has gone up." },
           { es: "Nuovo sciopero dei taxi lunedì → Lunedì i taxi faranno un nuovo sciopero.", en: "New taxi strike on Monday → On Monday taxis will strike again." },
@@ -339,7 +343,7 @@ export const IT_B1_U27: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Rewrite \"Chiusura della stazione per lavori\" as a sentence: The station is closed for works.", source: "The station is closed for works.", answer: "La stazione è chiusa per lavori.", altAnswers: ["La stazione chiude per lavori."], explanation: "\"Chiusura\" → \"chiusa\"." },
+      { type: "translate", direction: "en-es", prompt: "Rewrite \"Chiusura della stazione per lavori\" as a sentence: The station is closed for construction.", source: "The station is closed for construction.", answer: "La stazione è chiusa per lavori.", altAnswers: ["La stazione chiude per lavori."], explanation: "\"Chiusura\" → \"chiusa\"." },
       { type: "translate", direction: "en-es", prompt: "Rewrite \"Inaugurato il nuovo ospedale\" as a sentence: The new hospital has been opened.", source: "The new hospital has been opened.", answer: "Il nuovo ospedale è stato inaugurato.", altAnswers: ["È stato inaugurato il nuovo ospedale.", "Hanno inaugurato il nuovo ospedale."], explanation: "Bare participle → passive." },
       { type: "translate", direction: "en-es", prompt: "Rewrite \"Calo delle nascite in Italia\" as a sentence: Births are falling in Italy.", source: "Births are falling in Italy.", answer: "In Italia le nascite calano.", altAnswers: ["Le nascite in Italia calano.", "In Italia le nascite diminuiscono.", "In Italia le nascite sono in calo."], explanation: "\"Calo\" → \"calare\"." },
       { type: "translate", direction: "en-es", prompt: "Rewrite \"Rapina in banca, fuggiti i ladri\" as a sentence: The thieves escaped after the bank robbery.", source: "The thieves escaped after the bank robbery.", answer: "I ladri sono fuggiti dopo la rapina in banca.", altAnswers: ["Dopo la rapina in banca i ladri sono fuggiti.", "I ladri sono scappati dopo la rapina in banca."], explanation: "\"Fuggire\" takes \"essere\"." },
@@ -371,17 +375,17 @@ export const IT_B1_U27: Lesson[] = [
       {
         heading: "Five areas",
         body: [
-          "Politics: \"il governo\", \"le elezioni\", \"il voto\", \"la legge\". Crime: \"il furto\" (theft), \"la rapina\" (robbery), \"la truffa\" (scam), \"arrestare\", \"denunciare\" (to report to police). Weather: \"il maltempo\", \"l'allerta meteo\", \"la grandine\" (hail). Sport: \"la partita\", \"vincere\", \"pareggiare\" (to draw). Economy: \"le tasse\", \"il PIL\" (GDP), \"la crisi\".",
+          "Politics: \"il governo\", \"le elezioni\", \"il voto\", \"la legge\". Crime: \"il furto\" (theft), \"la rapina\" (robbery), \"la truffa\" (scam), \"arrestare\", \"denunciare\" (to report to police). Weather: \"il maltempo\", \"l'allerta meteo\", \"la grandine\" (hail). Sport: \"la partita\", \"vincere\", \"pareggiare\" (to tie). Economy: \"le tasse\", \"il PIL\" (GDP), \"la crisi\".",
         ],
         examples: [
           { es: "Domenica si vota per le elezioni comunali.", en: "On Sunday there's voting in the local elections." },
           { es: "Ha denunciato il furto ai carabinieri.", en: "She reported the theft to the carabinieri." },
           { es: "C'è allerta meteo arancione in Liguria.", en: "There's an orange weather alert in Liguria." },
-          { es: "La partita è finita uno a uno.", en: "The match ended one all." },
+          { es: "La partita è finita uno a uno.", en: "The game ended 1-1." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She reported the theft to the police.", answer: "Ha denunciato il furto alla polizia.", altAnswers: ["Lei ha denunciato il furto alla polizia.", "Ha denunciato il furto ai carabinieri."], explanation: "\"Denunciare\" = to report a crime." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The match ended two all.", answer: "La partita è finita due a due.", altAnswers: ["La partita è finita 2 a 2.", "La partita è finita in pareggio, due a due."], explanation: "Scores: \"due a due\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The game ended two to two.", answer: "La partita è finita due a due.", altAnswers: ["La partita è finita 2 a 2.", "La partita è finita in pareggio, due a due."], explanation: "Scores: \"due a due\"." },
         ],
       },
     ],
@@ -390,7 +394,7 @@ export const IT_B1_U27: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "There was a robbery at the post office.", answer: "C'è stata una rapina all'ufficio postale.", altAnswers: ["C'è stata una rapina alla posta.", "C'è stata una rapina in posta."], explanation: "\"Rapina\" = armed robbery; \"furto\" = theft." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Many elderly people are victims of scams.", answer: "Molti anziani sono vittime di truffe.", altAnswers: ["Molti anziani sono vittime di truffa.", "Tanti anziani sono vittime di truffe."], explanation: "\"La truffa\" = scam." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Hail has damaged the vineyards.", answer: "La grandine ha danneggiato i vigneti.", altAnswers: ["La grandine ha rovinato i vigneti.", "La grandine ha danneggiato le vigne."], explanation: "\"La grandine\": feminine." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Napoli drew with Milan.", answer: "Il Napoli ha pareggiato con il Milan.", altAnswers: ["Il Napoli ha pareggiato col Milan.", "Napoli e Milan hanno pareggiato."], explanation: "Football clubs are masculine: \"il Napoli\", \"il Milan\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Napoli tied with Milan.", answer: "Il Napoli ha pareggiato con il Milan.", altAnswers: ["Il Napoli ha pareggiato col Milan.", "Napoli e Milan hanno pareggiato."], explanation: "Soccer clubs are masculine: \"il Napoli\", \"il Milan\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Taxes will go up next year.", answer: "Le tasse aumenteranno l'anno prossimo.", altAnswers: ["L'anno prossimo le tasse aumenteranno.", "Le tasse saliranno l'anno prossimo."], explanation: "Future of \"aumentare\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The turnout was very low.", answer: "L'affluenza è stata molto bassa.", altAnswers: ["L'affluenza alle urne è stata molto bassa.", "C'è stata un'affluenza molto bassa."], explanation: "\"L'affluenza\" = voter turnout." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The police arrested two people.", answer: "La polizia ha arrestato due persone.", altAnswers: ["I carabinieri hanno arrestato due persone.", "Sono state arrestate due persone."], explanation: "Direct object, no \"a\"." },
@@ -399,12 +403,12 @@ export const IT_B1_U27: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "On Sunday [people vote] for the mayor.", sentence: "Domenica ___ per il sindaco.", answer: "si vota", explanation: "Impersonal \"si\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Italy [won] three to one.", sentence: "L'Italia ___ tre a uno.", answer: "ha vinto", explanation: "\"Vincere\" → \"vinto\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[The crisis] has hit small businesses.", sentence: "___ ha colpito le piccole imprese.", answer: "La crisi", explanation: "\"La crisi\": same form in the plural." },
-      { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "il furto", right: "theft" }, { left: "la rapina", right: "robbery" }, { left: "la truffa", right: "scam" }, { left: "denunciare", right: "to report to police" }, { left: "pareggiare", right: "to draw (a match)" }, { left: "l'affluenza", right: "turnout" }], explanation: "Crime, sport and politics." },
+      { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "il furto", right: "theft" }, { left: "la rapina", right: "robbery" }, { left: "la truffa", right: "scam" }, { left: "denunciare", right: "to report to police" }, { left: "pareggiare", right: "to tie (a game)" }, { left: "l'affluenza", right: "turnout" }], explanation: "Crime, sport and politics." },
       { type: "word-order", prompt: "Put the words in order to say: The orange alert continues in Liguria.", words: ["Continua", "l'allerta", "arancione", "in", "Liguria."], translation: "The orange alert continues in Liguria.", explanation: "News word order: verb first." },
       { type: "multiple-choice", question: "\"Il PIL è cresciuto dello 0,5%\" is about ...", options: ["the economy (GDP)", "the weather", "a football match", "crime"], correctIndex: 0, explanation: "\"PIL\" = prodotto interno lordo (GDP)." },
       { type: "dictation", audio: "Domenica si vota per le elezioni comunali.", explanation: "\"Comunali\" = municipal." },
       { type: "dictation", audio: "Ha denunciato la truffa ai carabinieri.", explanation: "\"Denunciare\": to report." },
-      { type: "speak", text: "Ieri il Napoli ha vinto due a zero e domenica si vota per il sindaco.", prompt: "Give a friend two pieces of news: Yesterday Napoli won two-nil and on Sunday people vote for the mayor.", tip: "\"Zero\": the z sounds like dz.", explanation: "Sport and politics vocabulary." },
+      { type: "speak", text: "Ieri il Napoli ha vinto due a zero e domenica si vota per il sindaco.", prompt: "Give a friend two pieces of news: Yesterday Napoli won two to nothing and on Sunday people vote for the mayor.", tip: "\"Zero\": the z sounds like dz.", explanation: "Sport and politics vocabulary." },
     ],
   },
   {
@@ -424,23 +428,23 @@ export const IT_B1_U27: Lesson[] = [
         examples: [
           { es: "A Giorgio era stata rubata la bicicletta.", en: "Giorgio's bike had been stolen." },
           { es: "Il post è stato condiviso da centinaia di persone.", en: "The post was shared by hundreds of people." },
-          { es: "La bici è stata riconosciuta da una studentessa.", en: "The bike was recognised by a student." },
+          { es: "La bici è stata riconosciuta da una studentessa.", en: "The bike was recognized by a student." },
           { es: "«Non ci speravo più», ha commentato.", en: "'I'd given up hope,' he said." },
         ],
         checkpoint: [
-          { type: "multiple-choice", question: "Who recognised the bike?", options: ["a student", "a police officer", "Giorgio's neighbour", "a market trader"], correctIndex: 0, explanation: "\"Riconosciuta da una studentessa\"." },
+          { type: "multiple-choice", question: "Who recognized the bike?", options: ["a student", "a police officer", "Giorgio's neighbor", "a market trader"], correctIndex: 0, explanation: "\"Riconosciuta da una studentessa\"." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The bike was returned to the owner.", answer: "La bici è stata restituita al proprietario.", altAnswers: ["La bicicletta è stata restituita al proprietario.", "Hanno restituito la bici al proprietario."], explanation: "Passive; \"restituire a\" = to give back to." },
         ],
       },
       {
-        heading: "Article 2: a new cycle path",
+        heading: "Article 2: a new bike path",
         body: [
           "\"Lecce. Sarà inaugurata sabato la nuova pista ciclabile che collega il centro storico al mare di San Cataldo. Il percorso, lungo 12 chilometri, è costato circa due milioni di euro, finanziati in parte dalla Regione. Secondo l'assessore alla mobilità, la pista sarà utilizzata ogni giorno da almeno mille persone. Non mancano però le critiche: alcuni residenti lamentano la perdita di posti auto.\"",
           "\"Non mancano le critiche\" (there's no shortage of criticism) is a typical news phrase; \"lamentare\" here means to complain about.",
         ],
         examples: [
-          { es: "Sarà inaugurata sabato la nuova pista ciclabile.", en: "The new cycle path will be opened on Saturday." },
-          { es: "Il percorso è lungo 12 chilometri.", en: "The route is 12 kilometres long." },
+          { es: "Sarà inaugurata sabato la nuova pista ciclabile.", en: "The new bike path will be opened on Saturday." },
+          { es: "Il percorso è lungo 12 chilometri.", en: "The route is 12 kilometers long." },
           { es: "I lavori sono stati finanziati in parte dalla Regione.", en: "The work was partly funded by the Region." },
           { es: "Alcuni residenti lamentano la perdita di posti auto.", en: "Some residents complain about losing parking spaces." },
         ],
@@ -452,7 +456,7 @@ export const IT_B1_U27: Lesson[] = [
       {
         heading: "Reading strategies",
         body: [
-          "For exam-style reading: read the questions first, then scan for names, numbers and dates. Turn passives round to find who did what (\"è stata riconosciuta da una studentessa\" → a student recognised it), and watch the tense: \"sarà inaugurata\" hasn't happened yet.",
+          "For exam-style reading: read the questions first, then scan for names, numbers and dates. Turn passives round to find who did what (\"è stata riconosciuta da una studentessa\" → a student recognized it), and watch the tense: \"sarà inaugurata\" hasn't happened yet.",
         ],
         examples: [
           { es: "La bici è stata ritrovata martedì.", en: "The bike was found on Tuesday." },
@@ -460,7 +464,7 @@ export const IT_B1_U27: Lesson[] = [
           { es: "Non mancano le critiche.", en: "There's no shortage of criticism." },
         ],
         checkpoint: [
-          { type: "multiple-choice", question: "\"Sarà inaugurata sabato\". Has the cycle path opened yet?", options: ["No, it opens on Saturday.", "Yes, it opened on Saturday.", "Yes, it's been open for a while.", "It isn't clear."], correctIndex: 0, explanation: "Future passive: \"sarà inaugurata\"." },
+          { type: "multiple-choice", question: "\"Sarà inaugurata sabato\". Has the bike path opened yet?", options: ["No, it opens on Saturday.", "Yes, it opened on Saturday.", "Yes, it's been open for a while.", "It isn't clear."], correctIndex: 0, explanation: "Future passive: \"sarà inaugurata\"." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[There's no shortage of] protests.", sentence: "___ le proteste.", answer: "Non mancano", explanation: "\"Mancare\" agrees with \"proteste\": \"mancano\"." },
         ],
       },
@@ -468,18 +472,18 @@ export const IT_B1_U27: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "His bike had been stolen in front of the market.", answer: "Gli era stata rubata la bici davanti al mercato.", altAnswers: ["Gli era stata rubata la bicicletta davanti al mercato.", "La sua bici era stata rubata davanti al mercato."], explanation: "Trapassato passive: \"era stata rubata\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The post was shared by hundreds of people.", answer: "Il post è stato condiviso da centinaia di persone.", altAnswers: ["Centinaia di persone hanno condiviso il post."], explanation: "\"Condividere\" → \"condiviso\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The new cycle path connects the centre to the sea.", answer: "La nuova pista ciclabile collega il centro al mare.", altAnswers: ["La nuova pista ciclabile collega il centro con il mare."], explanation: "\"Collegare a\" = to connect to." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The new bike path connects the center to the sea.", answer: "La nuova pista ciclabile collega il centro al mare.", altAnswers: ["La nuova pista ciclabile collega il centro con il mare."], explanation: "\"Collegare a\" = to connect to." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The work was funded by the Region.", answer: "I lavori sono stati finanziati dalla Regione.", altAnswers: ["Il lavoro è stato finanziato dalla Regione.", "La Regione ha finanziato i lavori."], explanation: "\"Da\" + \"la\" = \"dalla\" for the agent." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Some residents complain about the noise.", answer: "Alcuni residenti si lamentano del rumore.", altAnswers: ["Alcuni residenti lamentano il rumore.", "Alcuni abitanti si lamentano del rumore."], explanation: "\"Lamentarsi di\" or news-style \"lamentare\" + object." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The route is [12 kilometres long].", sentence: "Il percorso è ___.", answer: "lungo 12 chilometri", altAnswers: ["lungo dodici chilometri"], explanation: "\"Lungo\" + measurement." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The route is [12 kilometers long].", sentence: "Il percorso è ___.", answer: "lungo 12 chilometri", altAnswers: ["lungo dodici chilometri"], explanation: "\"Lungo\" + measurement." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "'[I'd given up hope],' he said.", sentence: "«___», ha detto.", answer: "Non ci speravo più", explanation: "\"Sperarci\" = to hope for it; imperfetto." },
       { type: "word-order", prompt: "Put the words in order to say: The police returned the bike to the owner.", words: ["La", "polizia", "ha", "restituito", "la", "bici", "al", "proprietario."], translation: "The police returned the bike to the owner.", explanation: "Active version of the passive in the text." },
       { type: "multiple-choice", question: "In article 1, why does the writer use \"era stata rubata\"?", options: ["The theft happened before the other events.", "The theft is still happening.", "It's a future event.", "It's an unconfirmed report."], correctIndex: 0, explanation: "Trapassato prossimo = further back in the past." },
       { type: "multiple-choice", question: "\"Lieto fine\" means ...", options: ["happy ending", "the end of the line", "a quiet end", "late finish"], correctIndex: 0, explanation: "\"Lieto\" = happy (formal)." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The new path will be opened on Saturday.", answer: "La nuova pista sarà inaugurata sabato.", altAnswers: ["Sabato sarà inaugurata la nuova pista.", "La nuova pista verrà inaugurata sabato."], explanation: "Future passive: \"sarà inaugurata\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "A student recognised the bike.", answer: "Una studentessa ha riconosciuto la bici.", altAnswers: ["Una studentessa ha riconosciuto la bicicletta.", "Uno studente ha riconosciuto la bici."], explanation: "The passive in the text turned round to active." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "A student recognized the bike.", answer: "Una studentessa ha riconosciuto la bici.", altAnswers: ["Una studentessa ha riconosciuto la bicicletta.", "Uno studente ha riconosciuto la bici."], explanation: "The passive in the text turned round to active." },
       { type: "dictation", audio: "La pista sarà utilizzata ogni giorno da almeno mille persone.", explanation: "Future passive." },
-      { type: "speak", text: "A Modena un signore ha ritrovato la sua bici rubata grazie a un post sui social.", prompt: "Summarise article 1: In Modena a man got his stolen bike back thanks to a post on social media.", tip: "\"Grazie a\" = thanks to.", explanation: "A one-sentence summary in the passato prossimo." },
+      { type: "speak", text: "A Modena un signore ha ritrovato la sua bici rubata grazie a un post sui social.", prompt: "Summarize article 1: In Modena a man got his stolen bike back thanks to a post on social media.", tip: "\"Grazie a\" = thanks to.", explanation: "A one-sentence summary in the passato prossimo." },
     ],
   },
   {
@@ -499,7 +503,7 @@ export const IT_B1_U27: Lesson[] = [
         examples: [
           { es: "Buonasera e benvenuti. Ecco le notizie di oggi.", en: "Good evening and welcome. Here is today's news." },
           { es: "Passiamo ora all'economia.", en: "Now let's turn to the economy." },
-          { es: "Restiamo in tema di trasporti.", en: "Staying with transport." },
+          { es: "Restiamo in tema di trasporti.", en: "Staying with transportation." },
           { es: "E ora la parola al nostro inviato a Firenze.", en: "And now over to our correspondent in Florence." },
         ],
         checkpoint: [
@@ -532,7 +536,7 @@ export const IT_B1_U27: Lesson[] = [
           { es: "Domani cielo sereno al Sud e nuvoloso al Nord.", en: "Tomorrow clear skies in the South and cloudy in the North." },
           { es: "Temperature in calo in tutta Italia.", en: "Temperatures falling across Italy." },
           { es: "L'Inter batte il Genoa due a uno.", en: "Inter beat Genoa two-one." },
-          { es: "Pareggio tra Roma e Lazio.", en: "A draw between Roma and Lazio." },
+          { es: "Pareggio tra Roma e Lazio.", en: "A tie between Roma and Lazio." },
         ],
         checkpoint: [
           { type: "listen-choose", audio: "Domani cielo sereno al Sud, nuvoloso al Nord con possibili piogge.", question: "Where might it rain tomorrow?", options: ["in the North", "in the South", "everywhere", "nowhere"], correctIndex: 0, explanation: "\"Nuvoloso al Nord con possibili piogge\"." },
@@ -542,13 +546,13 @@ export const IT_B1_U27: Lesson[] = [
     ],
     exercises: [
       { type: "listen-choose", audio: "Il servizio è tornato regolare nel primo pomeriggio.", question: "When did service return to normal?", options: ["early afternoon", "late evening", "first thing in the morning", "the next day"], correctIndex: 0, explanation: "\"Nel primo pomeriggio\" = early afternoon." },
-      { type: "listen-choose", audio: "L'Inter batte il Genoa due a uno.", question: "Who won?", options: ["Inter", "Genoa", "nobody, it was a draw", "the match was cancelled"], correctIndex: 0, explanation: "\"Battere\" = to beat." },
+      { type: "listen-choose", audio: "L'Inter batte il Genoa due a uno.", question: "Who won?", options: ["Inter", "Genoa", "nobody, it was a draw", "the match was canceled"], correctIndex: 0, explanation: "\"Battere\" = to beat." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Here is today's news.", answer: "Ecco le notizie di oggi.", altAnswers: ["Ecco le notizie del giorno."], explanation: "\"Le notizie\": plural, the news." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Trains were up to two hours late.", answer: "I treni erano in ritardo fino a due ore.", altAnswers: ["I treni hanno avuto fino a due ore di ritardo.", "I treni hanno fatto fino a due ore di ritardo."], explanation: "\"In ritardo\" = late." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Tomorrow it will be cloudy in the North.", answer: "Domani sarà nuvoloso al Nord.", altAnswers: ["Domani al Nord sarà nuvoloso.", "Domani ci saranno nuvole al Nord."], explanation: "Forecasts use the future." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "There was disruption for thousands of commuters.", answer: "Ci sono stati disagi per migliaia di pendolari.", altAnswers: ["Ci sono stati disagi per migliaia di viaggiatori."], explanation: "\"Ci sono stati\": plural past of \"c'è\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Roma and Lazio drew.", answer: "Roma e Lazio hanno pareggiato.", altAnswers: ["La Roma e la Lazio hanno pareggiato."], explanation: "\"Pareggiare\" = to draw." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Staying with] transport: the A4 is closed.", sentence: "___ trasporti: la A4 è chiusa.", answer: "Restiamo in tema di", explanation: "A TG link phrase." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Roma and Lazio tied.", answer: "Roma e Lazio hanno pareggiato.", altAnswers: ["La Roma e la Lazio hanno pareggiato."], explanation: "\"Pareggiare\" = to tie." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Staying with] transportation: the A4 is closed.", sentence: "___ trasporti: la A4 è chiusa.", answer: "Restiamo in tema di", explanation: "A TG link phrase." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The cause is [a fault] on the line.", sentence: "La causa è ___ alla linea.", answer: "un guasto", explanation: "\"Guasto\" = breakdown." },
       { type: "word-order", prompt: "Put the words in order to say: And now over to our correspondent.", words: ["E", "ora", "la", "parola", "al", "nostro", "inviato."], translation: "And now over to our correspondent.", explanation: "\"L'inviato\" = the reporter sent on location." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Inter beat Genoa two-one.", answer: "L'Inter ha battuto il Genoa due a uno.", altAnswers: ["L'Inter batte il Genoa due a uno.", "L'Inter ha battuto il Genoa 2 a 1."], explanation: "\"Battere\" = to beat; clubs keep their article." },
@@ -562,7 +566,7 @@ export const IT_B1_U27: Lesson[] = [
     level: "IT-B1",
     number: 9,
     title: "Error Hunt: News Language",
-    summary: "Fix the classic slips in news Italian: attualmente, a before direct objects, agreement with percentages, milione di.",
+    summary: "Fix the classic slips in news Italian: attualmente, a before direct objects, articles with percentages, milione di.",
     duration: "17 min",
     sections: [
       {
@@ -573,7 +577,7 @@ export const IT_B1_U27: Lesson[] = [
         ],
         examples: [
           { es: "In realtà il sindaco ha detto la verità.", en: "Actually, the mayor told the truth." },
-          { es: "Attualmente il sindaco è in vacanza.", en: "The mayor is currently on holiday." },
+          { es: "Attualmente il sindaco è in vacanza.", en: "The mayor is currently on vacation." },
           { es: "La polizia ha arrestato tre persone.", en: "The police arrested three people." },
           { es: "I carabinieri hanno fermato due ragazzi.", en: "The carabinieri stopped two young men." },
         ],
@@ -585,18 +589,18 @@ export const IT_B1_U27: Lesson[] = [
       {
         heading: "Percentages and millions",
         body: [
-          "\"Il 30 per cento delle persone hanno votato\" is common in speech, but news writing agrees with \"il 30 per cento\": \"ha votato\". Write the singular. \"Un milione persone\" forgets that \"milione\" is a noun: \"un milione di persone\", \"tre milioni di euro\".",
+          "With percentages the verb may agree with the figure (\"il 30 per cento delle persone ha votato\") or with the people (\"hanno votato\"): both are correct, and careful news style leans toward the singular. The real slips are elsewhere. \"Un milione persone\" forgets that \"milione\" is a noun: \"un milione di persone\", \"tre milioni di euro\".",
           "One more: \"30 per cento\" with no article is English style. Italian says \"il 30 per cento\", \"l'8 per cento\".",
         ],
         examples: [
-          { es: "Il 30 per cento delle persone ha votato.", en: "30 per cent of people voted." },
+          { es: "Il 30 per cento delle persone ha votato.", en: "30 percent of people voted." },
           { es: "Un milione di persone ha visto la partita.", en: "A million people watched the match." },
           { es: "Il ponte è costato tre milioni di euro.", en: "The bridge cost three million euros." },
-          { es: "L'8 per cento dei negozi è chiuso.", en: "8 per cent of shops are closed." },
+          { es: "L'8 per cento dei negozi è chiuso.", en: "8 percent of shops are closed." },
         ],
         checkpoint: [
           { type: "fill-blank", prompt: "A learner wrote \"un milione persone\". Write the Italian for the bold words.", en: "[A million people] took part.", sentence: "___ ha partecipato.", answer: "Un milione di persone", explanation: "\"Milione di\" + noun." },
-          { type: "fill-blank", prompt: "A learner wrote \"hanno\". Write the Italian for the bold words.", en: "40% of the students [has] a job. (written news)", sentence: "Il 40% degli studenti ___ un lavoro.", answer: "ha", explanation: "Written standard: singular, agreeing with \"il 40%\"." },
+          { type: "fill-blank", prompt: "A learner wrote \"40% degli studenti\". Write the Italian for the bold words.", en: "[40% of the students] have a job.", sentence: "___ ha un lavoro.", answer: "Il 40% degli studenti", altAnswers: ["Il 40 per cento degli studenti", "Il quaranta per cento degli studenti"], explanation: "Percentages take the article: \"il 40%\"." },
         ],
       },
       {
@@ -620,15 +624,15 @@ export const IT_B1_U27: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"attualmente\" for actually. Write it correctly: Actually, the museum is open on Mondays.", source: "Actually, the museum is open on Mondays.", answer: "In realtà il museo è aperto il lunedì.", altAnswers: ["In realtà il museo apre il lunedì.", "In effetti il museo è aperto il lunedì."], explanation: "\"In realtà\" = actually." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"hanno fermato a un uomo\". Write it correctly: They stopped a man at the border.", source: "They stopped a man at the border.", answer: "Hanno fermato un uomo al confine.", altAnswers: ["Hanno fermato un uomo alla frontiera.", "Un uomo è stato fermato al confine."], explanation: "No \"a\" before the direct object." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"tre milioni euro\". Write it correctly: The work cost three million euros.", source: "The work cost three million euros.", answer: "I lavori sono costati tre milioni di euro.", altAnswers: ["Il lavoro è costato tre milioni di euro.", "I lavori costano tre milioni di euro."], explanation: "\"Milioni di\" + noun." },
-      { type: "translate", direction: "en-es", prompt: "A learner wrote \"20 per cento degli italiani\". Write it correctly: 20 per cent of Italians live abroad. (written news)", source: "20 per cent of Italians live abroad.", answer: "Il 20 per cento degli italiani vive all'estero.", altAnswers: ["Il 20% degli italiani vive all'estero.", "Il venti per cento degli italiani vive all'estero."], explanation: "Article + percentage; singular verb in writing." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"20 per cento degli italiani\". Write it correctly: 20 percent of Italians live abroad. (written news)", source: "20 percent of Italians live abroad.", answer: "Il 20 per cento degli italiani vive all'estero.", altAnswers: ["Il 20% degli italiani vive all'estero.", "Il venti per cento degli italiani vive all'estero.", "Il 20 per cento degli italiani vivono all'estero.", "Il 20% degli italiani vivono all'estero."], explanation: "The fix is the article: \"il 20 per cento\". The verb can be singular or plural." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"una news\". Write it correctly: I read an interesting piece of news.", source: "I read an interesting piece of news.", answer: "Ho letto una notizia interessante.", altAnswers: ["Ho letto una notizia molto interessante."], explanation: "\"Una notizia\" = one piece of news." },
-      { type: "translate", direction: "en-es", prompt: "A learner wrote \"il vittima è stato\". Write it correctly: The victim was taken to hospital.", source: "The victim was taken to hospital.", answer: "La vittima è stata portata in ospedale.", altAnswers: ["La vittima è stata trasportata in ospedale."], explanation: "\"La vittima\": feminine agreement." },
-      { type: "fill-blank", prompt: "A learner wrote \"ha visto al ladro\". Write the Italian for the bold words.", en: "A neighbour [saw the thief].", sentence: "Un vicino ___.", answer: "ha visto il ladro", explanation: "Direct object, no \"a\"." },
-      { type: "fill-blank", prompt: "A learner wrote \"hanno\". Write the Italian for the bold words.", en: "Half of the shops [has] closed. (written news)", sentence: "La metà dei negozi ___ chiuso.", answer: "ha", explanation: "\"La metà\" takes the singular in writing." },
-      { type: "word-order", prompt: "Put the words in order to say: A million people watched the final.", words: ["Un", "milione", "di", "persone", "ha", "visto", "la", "finale."], translation: "A million people watched the final.", explanation: "\"Un milione di\" + singular verb in writing." },
-      { type: "multiple-choice", question: "Which sentence is correct written Italian?", options: ["Il 60% dei giovani usa i social ogni giorno.", "60% dei giovani usa i social ogni giorno.", "Il 60% di giovani usano i social ogni giorno.", "Il 60% dei giovani usano a i social ogni giorno."], correctIndex: 0, explanation: "Article, \"dei\", singular verb." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"il vittima è stato\". Write it correctly: The victim was taken to the hospital.", source: "The victim was taken to the hospital.", answer: "La vittima è stata portata in ospedale.", altAnswers: ["La vittima è stata trasportata in ospedale."], explanation: "\"La vittima\": feminine agreement." },
+      { type: "fill-blank", prompt: "A learner wrote \"ha visto al ladro\". Write the Italian for the bold words.", en: "A neighbor [saw the thief].", sentence: "Un vicino ___.", answer: "ha visto il ladro", explanation: "Direct object, no \"a\"." },
+      { type: "fill-blank", prompt: "A learner wrote \"metà di negozi\". Write the Italian for the bold words.", en: "[Half of the shops] have closed.", sentence: "___ ha chiuso.", answer: "La metà dei negozi", altAnswers: ["Metà dei negozi"], explanation: "\"Dei negozi\" with the article: half of the shops. The verb may be \"ha\" or \"hanno\"." },
+      { type: "word-order", prompt: "Put the words in order to say: A million people watched the final.", words: ["Un", "milione", "di", "persone", "ha", "visto", "la", "finale."], translation: "A million people watched the final.", explanation: "\"Un milione di\" + noun; the verb is singular here (\"hanno visto\" is also correct)." },
+      { type: "multiple-choice", question: "Which sentence is correct written Italian?", options: ["Il 60% dei giovani usa i social ogni giorno.", "60% dei giovani usa i social ogni giorno.", "Il 60% di giovani usano i social ogni giorno.", "Il 60% dei giovani usano a i social ogni giorno."], correctIndex: 0, explanation: "Article and \"dei\"; the singular verb is the careful choice." },
       { type: "dictation", audio: "In realtà la polizia ha arrestato tre persone.", explanation: "\"In realtà\"; no \"a\" before \"tre persone\"." },
-      { type: "speak", text: "In realtà il trenta per cento degli abitanti ha votato e la polizia ha fermato due persone.", prompt: "Fix it and say it: a learner said \"Attualmente trenta per cento degli abitanti hanno votato e la polizia ha fermato a due persone.\"", tip: "Three fixes: \"in realtà\", \"il trenta per cento ... ha\", no \"a\".", explanation: "Each slip corrected." },
+      { type: "speak", text: "In realtà il trenta per cento degli abitanti ha votato e la polizia ha fermato due persone.", prompt: "Fix it and say it: a learner said \"Attualmente trenta per cento degli abitanti hanno votato e la polizia ha fermato a due persone.\"", tip: "Three fixes: \"in realtà\", the article in \"il trenta per cento\", no \"a\". (\"Ha\" or \"hanno\" are both fine.)", explanation: "Each slip corrected." },
     ],
   },
   {
@@ -648,7 +652,7 @@ export const IT_B1_U27: Lesson[] = [
         ],
         examples: [
           { es: "Pavia, al via la Festa del Ticino.", en: "Pavia: the Ticino Festival gets under way." },
-          { es: "Si apre venerdì 6 giugno, sul lungofiume, la tradizionale festa.", en: "The traditional festival opens on Friday 6 June on the riverside." },
+          { es: "Si apre venerdì 6 giugno, sul lungofiume, la tradizionale festa.", en: "The traditional festival opens on Friday, June 6, on the riverside." },
           { es: "Sono attesi migliaia di visitatori.", en: "Thousands of visitors are expected." },
           { es: "Si potranno assaggiare i piatti tipici della zona.", en: "Visitors will be able to taste local dishes." },
         ],
@@ -664,21 +668,21 @@ export const IT_B1_U27: Lesson[] = [
         ],
         examples: [
           { es: "L'anno scorso i visitatori sono stati più di diecimila.", en: "Last year there were more than ten thousand visitors." },
-          { es: "«Quest'anno abbiamo raddoppiato gli stand», spiega l'organizzatrice.", en: "'This year we've doubled the stalls,' the organiser explains." },
+          { es: "«Quest'anno abbiamo raddoppiato gli stand», spiega l'organizzatrice.", en: "'This year we've doubled the stalls,' the organizer explains." },
           { es: "L'ingresso è gratuito.", en: "Entry is free." },
-          { es: "Il centro sarà chiuso al traffico dalle 18 alle 24.", en: "The centre will be closed to traffic from 6 p.m. to midnight." },
+          { es: "Il centro sarà chiuso al traffico dalle 18 alle 24.", en: "The center will be closed to traffic from 6 p.m. to midnight." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Entry is free.", answer: "L'ingresso è gratuito.", altAnswers: ["L'ingresso è libero.", "L'entrata è gratuita.", "L'entrata è libera."], explanation: "\"Gratuito\" = free of charge." },
-          { type: "listen-choose", audio: "Il centro sarà chiuso al traffico dalle diciotto alle ventiquattro.", question: "When is the centre closed to traffic?", options: ["6 p.m. to midnight", "6 a.m. to noon", "all day", "8 p.m. to 4 a.m."], correctIndex: 0, explanation: "24-hour clock: \"dalle 18 alle 24\"." },
+          { type: "listen-choose", audio: "Il centro sarà chiuso al traffico dalle diciotto alle ventiquattro.", question: "When is the center closed to traffic?", options: ["6 p.m. to midnight", "6 a.m. to noon", "all day", "8 p.m. to 4 a.m."], correctIndex: 0, explanation: "24-hour clock: \"dalle 18 alle 24\"." },
         ],
       },
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The festival opens on Friday on the riverside.", answer: "La festa si apre venerdì sul lungofiume.", altAnswers: ["La festa apre venerdì sul lungofiume.", "Venerdì si apre la festa sul lungofiume."], explanation: "\"Aprirsi\" or \"aprire\" for an event starting." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "According to the organisers, there were ten thousand visitors.", answer: "Secondo gli organizzatori, i visitatori sono stati diecimila.", altAnswers: ["Secondo gli organizzatori, ci sono stati diecimila visitatori.", "Secondo gli organizzatori i visitatori sono stati diecimila."], explanation: "\"Secondo\" + source." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The centre will be closed to traffic.", answer: "Il centro sarà chiuso al traffico.", altAnswers: ["Il centro verrà chiuso al traffico."], explanation: "Future passive." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "'We've doubled the stalls,' explains the organiser.", answer: "«Abbiamo raddoppiato gli stand», spiega l'organizzatrice.", altAnswers: ["«Abbiamo raddoppiato gli stand», spiega l'organizzatore.", "\"Abbiamo raddoppiato gli stand\", spiega l'organizzatrice."], explanation: "Quote first, then verb + subject." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "According to the organizers, there were ten thousand visitors.", answer: "Secondo gli organizzatori, i visitatori sono stati diecimila.", altAnswers: ["Secondo gli organizzatori, ci sono stati diecimila visitatori.", "Secondo gli organizzatori i visitatori sono stati diecimila."], explanation: "\"Secondo\" + source." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The center will be closed to traffic.", answer: "Il centro sarà chiuso al traffico.", altAnswers: ["Il centro verrà chiuso al traffico."], explanation: "Future passive." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "'We've doubled the stalls,' explains the organizer.", answer: "«Abbiamo raddoppiato gli stand», spiega l'organizzatrice.", altAnswers: ["«Abbiamo raddoppiato gli stand», spiega l'organizzatore.", "\"Abbiamo raddoppiato gli stand\", spiega l'organizzatrice."], explanation: "Quote first, then verb + subject." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You'll be able to taste local dishes.", answer: "Si potranno assaggiare i piatti tipici.", altAnswers: ["Si potranno assaggiare piatti tipici.", "Sarà possibile assaggiare i piatti tipici."], explanation: "Si passivante + plural noun: \"si potranno\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Pavia: the festival [gets under way].", sentence: "Pavia, ___ la festa.", answer: "al via", explanation: "\"Al via\" = starting." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[More than] ten thousand people came.", sentence: "Sono venute ___ diecimila persone.", answer: "più di", altAnswers: ["oltre"], explanation: "\"Più di\" before a number." },

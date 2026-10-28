@@ -19,6 +19,7 @@ export const IT_B2_U03: Lesson[] = [
           "Italian matches the tense of the subordinate verb to two things: the tense of the main verb and the time of the event. This is the concordanza dei tempi, and this unit builds it up piece by piece, starting with a main verb in the present (or future, or imperative).",
           "With a present trigger like \"penso che\", there are three possibilities. Same time: present subjunctive, \"Penso che Marco venga\" (I think Marco is coming). Before: past subjunctive, \"Penso che sia venuto\" (I think he came / has come). After: future indicative, \"Penso che verrà\" (I think he'll come).",
           "The future is common because the subjunctive has no future form. For near or planned events the present subjunctive also covers the future: \"Spero che venga domani\" is just as correct as \"Spero che verrà domani\".",
+          "The future only works after verbs of opinion, hope and expectation (\"penso\", \"credo\", \"spero\", \"immagino\", \"dubito\"). After verbs of wanting, ordering and allowing, the present subjunctive is the only choice even for tomorrow: \"Voglio che tu venga domani\", never \"voglio che verrai\". The same goes for \"è necessario che\", \"bisogna che\" and \"permetto che\": they look ahead by nature, so the subjunctive already carries the future.",
         ],
         examples: [
           { es: "Penso che Marco venga.", en: "I think Marco is coming." },
@@ -97,6 +98,7 @@ export const IT_B2_U03: Lesson[] = [
           "Put the main verb in any past tense (\"pensavo\", \"ho pensato\", \"pensai\", \"avevo pensato\") and the three options shift back. Same time: imperfect subjunctive, \"Pensavo che venisse\" (I thought he was coming). Before: pluperfect subjunctive, \"Pensavo che fosse venuto\" (I thought he had come). After: past conditional, \"Pensavo che sarebbe venuto\" (I thought he would come).",
           "The last one is the trap. English says would come with a simple conditional, but Italian uses the past conditional for the future seen from the past: \"sarebbe venuto\", never \"verrebbe\". You met this in Intermediate with \"ha detto che sarebbe venuto\".",
           "The imperfect subjunctive can also express a later event, especially with wishes and orders: \"Volevo che venisse\" (I wanted him to come). With opinion and expectation verbs (\"pensavo\", \"credevo\", \"ero sicuro\"), the past conditional is the clearer choice for the future.",
+          "The same rule holds after indicative verbs like \"sapere\", \"dire\" and \"essere sicuro\": \"Sapevo che avrebbe vinto\" (I knew she would win). In casual speech you will also hear the imperfetto doing this job (\"Pensavo che veniva domani\"); it is colloquial, so write \"sarebbe venuto\". And watch the auxiliary: the past conditional takes the same one as the passato prossimo, \"sarebbe partita\", \"avrebbe chiamato\", with agreement after \"essere\".",
         ],
         examples: [
           { es: "Pensavo che venisse.", en: "I thought he was coming." },
@@ -173,6 +175,7 @@ export const IT_B2_U03: Lesson[] = [
         body: [
           "A trigger in the present conditional (\"vorrei\", \"preferirei\", \"mi piacerebbe\", \"sarebbe meglio\") takes the imperfect subjunctive for now or later: \"Vorrei che venissi\" (I'd like you to come). This is the rule you met in Unit 1, and it is the most common place where English speakers slip into \"venga\".",
           "For something already finished, the pluperfect: \"Vorrei che fossi venuto\" (I wish you had come). The conditional is about the present wish; the subjunctive shows when the wished-for thing happens.",
+          "Don't answer a conditional with a conditional. \"Vorrei che verresti\" is a mistake you may even hear from some native speakers, but it is firmly substandard. After \"vorrei che\", \"preferirei che\" and \"sarebbe meglio che\" the verb is always a subjunctive in -ssi or a pluperfect.",
         ],
         examples: [
           { es: "Vorrei che venissi alla festa.", en: "I'd like you to come to the party." },
@@ -248,7 +251,7 @@ export const IT_B2_U03: Lesson[] = [
         body: [
           "Here is the whole system on one page. Present main verb (\"penso che\"): same time \"venga\", earlier \"sia venuto\" (or \"venisse\" for a past state), later \"verrà\" or \"venga\".",
           "Past main verb (\"pensavo che\"): same time \"venisse\", earlier \"fosse venuto\", later \"sarebbe venuto\". Conditional main verb (\"vorrei che\"): now or later \"venisse\", earlier \"fosse venuto\".",
-          "Two questions decide every case: which column (the tense of the main verb) and which row (same, before, after). Learners who say the two questions to themselves get the grid right much faster than those who try to memorise nine sentences.",
+          "Two questions decide every case: which column (the tense of the main verb) and which row (same, before, after). Learners who say the two questions to themselves get the grid right much faster than those who try to memorize nine sentences.",
         ],
         examples: [
           { es: "Penso che venga. / Penso che sia venuto. / Penso che verrà.", en: "I think he's coming. / I think he came. / I think he'll come." },
@@ -535,8 +538,8 @@ export const IT_B2_U03: Lesson[] = [
           "\"Disagio\" is inconvenience, \"guasto\" a breakdown, and \"caldaia\" the boiler. Notice \"Le\" and \"Sua\" with capitals: the formal letter convention.",
         ],
         examples: [
-          { es: "Gentile signora Bianchi, ci dispiace molto che abbia dovuto sopportare questo disagio.", en: "Dear Mrs Bianchi, we are very sorry that you have had to put up with this inconvenience." },
-          { es: "Pensavamo che il tecnico fosse già passato martedì scorso.", en: "We thought the technician had already been round last Tuesday." },
+          { es: "Gentile signora Bianchi, ci dispiace molto che abbia dovuto sopportare questo disagio.", en: "Dear Mrs. Bianchi, we are very sorry that you have had to put up with this inconvenience." },
+          { es: "Pensavamo che il tecnico fosse già passato martedì scorso.", en: "We thought the technician had already come by last Tuesday." },
           { es: "Ci aveva assicurato che avrebbe riparato la caldaia entro venerdì.", en: "He had assured us that he would repair the boiler by Friday." },
           { es: "Purtroppo il guasto era più grave di quanto pensassimo.", en: "Unfortunately the fault was more serious than we thought." },
         ],
@@ -565,7 +568,7 @@ export const IT_B2_U03: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We are very sorry that you have had to put up with this inconvenience. (polite)", answer: "Ci dispiace molto che abbia dovuto sopportare questo disagio.", altAnswers: ["Ci dispiace molto che Lei abbia dovuto sopportare questo disagio."], explanation: "Present trigger + earlier → \"abbia dovuto\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We thought the technician had already been round.", answer: "Pensavamo che il tecnico fosse già passato.", altAnswers: ["Credevamo che il tecnico fosse già passato."], explanation: "Past + earlier → \"fosse passato\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We thought the technician had already come by.", answer: "Pensavamo che il tecnico fosse già passato.", altAnswers: ["Credevamo che il tecnico fosse già passato."], explanation: "Past + earlier → \"fosse passato\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The fault was more serious than we thought.", answer: "Il guasto era più grave di quanto pensassimo.", altAnswers: ["Il guasto era più grave di quello che pensavamo.", "Il guasto era più grave di quanto pensavamo."], explanation: "\"Di quanto\" + subjunctive in formal comparison." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We would have preferred you to have told us straight away. (polite)", answer: "Avremmo preferito che ci avesse avvisato subito.", altAnswers: ["Avremmo preferito che Lei ci avesse avvisato subito.", "Avremmo preferito che ci avvisasse subito."], explanation: "Past conditional + finished event → \"avesse avvisato\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We hope the problem will be solved by Monday.", answer: "Speriamo che il problema sia risolto entro lunedì.", altAnswers: ["Speriamo che il problema venga risolto entro lunedì.", "Speriamo che il problema sarà risolto entro lunedì."], explanation: "Present + later → \"sia risolto\"." },
@@ -629,7 +632,7 @@ export const IT_B2_U03: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I hope my children will be braver than me.", answer: "Spero che i miei figli siano più coraggiosi di me.", altAnswers: ["Spero che i miei figli saranno più coraggiosi di me."], explanation: "Present + later → \"siano\" or \"saranno\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I thought I would live in a castle. (a man speaking)", answer: "Pensavo che avrei vissuto in un castello.", altAnswers: ["Pensavo di vivere in un castello.", "Credevo che avrei vissuto in un castello.", "Ero sicuro che avrei vissuto in un castello."], explanation: "Future in the past → \"avrei vissuto\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Now I'd like my job to leave me more free time.", answer: "Adesso vorrei che il mio lavoro mi lasciasse più tempo libero.", altAnswers: ["Ora vorrei che il mio lavoro mi lasciasse più tempo libero.", "Oggi vorrei che il mio lavoro mi lasciasse più tempo libero."], explanation: "Conditional → \"lasciasse\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I hoped Father Christmas [would bring] me a bike.", sentence: "Speravo che Babbo Natale mi ___ una bici.", answer: "portasse", altAnswers: ["avrebbe portato"], explanation: "\"Sperare\" + imperfect subjunctive for later events." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I hoped Santa Claus [would bring] me a bike.", sentence: "Speravo che Babbo Natale mi ___ una bici.", answer: "portasse", altAnswers: ["avrebbe portato"], explanation: "\"Sperare\" + imperfect subjunctive for later events." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I think I [have understood] a lot.", sentence: "Credo ___ molte cose.", answer: "di aver capito", altAnswers: ["di avere capito"], explanation: "Same subject → past infinitive." },
       { type: "word-order", prompt: "Put the words in order to say: Today I think nobody knows everything.", words: ["Oggi", "penso", "che", "nessuno", "sappia", "tutto."], translation: "Today I think nobody knows everything.", explanation: "\"Sappia\": present subjunctive." },
       { type: "multiple-choice", question: "Which sentence fits the then part of the column?", options: ["Da piccola credevo che la luna mi seguisse.", "Da piccola credo che la luna mi segua.", "Da piccola credevo che la luna mi segua.", "Da piccola credevo che la luna mi seguirà."], correctIndex: 0, explanation: "Past + same → \"seguisse\"." },

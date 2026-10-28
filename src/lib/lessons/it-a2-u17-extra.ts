@@ -92,7 +92,7 @@ export const IT_A2_U17_EXTRA: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I'm doing it], be patient!", sentence: "___, abbi pazienza!", answer: "Lo sto facendo", altAnswers: ["Sto facendolo"], explanation: "Pronoun + \"sto\" + gerund." },
       { type: "multiple-choice", question: "\"Stavo per uscire\" means ...", options: ["I was about to go out.", "I was going out.", "I went out.", "I'm going out."], correctIndex: 0, explanation: "\"Stavo per\" = was about to." },
       { type: "listen-choose", audio: "Si stava addormentando sul divano.", question: "What was he doing?", options: ["falling asleep on the sofa", "getting up from the sofa", "sitting on the sofa", "cleaning the sofa"], correctIndex: 0, explanation: "\"Addormentarsi\" = to fall asleep." },
-      { type: "dictation", audio: "Sto traducendo e sto per finire.", explanation: "Gerund and \"stavo per\"." },
+      { type: "dictation", audio: "Sto traducendo e sto per finire.", explanation: "Gerund and \"sto per\"." },
       { type: "speak", text: "Non posso adesso: sto facendo la doccia e sto per uscire.", prompt: "Say it in Italian: I can't right now: I'm having a shower and I'm about to go out.", tip: "\"Doccia\": DOC-cia, hold the double c.", explanation: "Progressive and \"stare per\"." },
     ],
   },

@@ -20,7 +20,7 @@ export const IT_B2_U12: Lesson[] = [
         body: [
           "You know \"ci sono\" (there are) and \"ne\" (of them). Together they meet the rule you learned for combined pronouns: the i of \"ci\" becomes e before another pronoun. So \"ci\" + \"ne\" = \"ce ne\": \"Quanti studenti ci sono? Ce ne sono venti\" (there are twenty of them).",
           "English often drops of them; Italian can't. \"Ci sono venti\" is wrong if you've just mentioned the students: the \"ne\" is obligatory. Before \"è\", \"ne\" elides: \"Ce n'è uno solo\" (there's only one).",
-          "The same pair works with \"volerci\" (to be needed): \"Quante uova ci vogliono? Ce ne vogliono tre.\" And in the past, the participle agrees with the quantity: \"Quanti posti c'erano? Ce n'erano pochi.\"",
+          "The same pair works with \"volerci\" (to be needed): \"Quante uova ci vogliono? Ce ne vogliono tre.\" In the past the verb still agrees with the quantity: \"Quanti posti c'erano? Ce n'erano pochi.\" In compound tenses the participle agrees too, because \"ne\" stands for the counted thing: \"Ce ne sono state tante\" (of the complaints), \"Ce n'è voluto di tempo!\"",
         ],
         examples: [
           { es: "Quanti studenti ci sono? Ce ne sono venti.", en: "How many students are there? There are twenty." },
@@ -199,7 +199,7 @@ export const IT_B2_U12: Lesson[] = [
         heading: "Lo with essere and sembrare: Sì, lo sono",
         body: [
           "\"Lo\" also replaces an adjective or noun after \"essere\", \"sembrare\" and \"diventare\". English says yes, I am or it seems so; Italian says \"Sì, lo sono\", \"Sembra facile, ma non lo è.\"",
-          "Here too \"lo\" is invariable, whatever the gender or number: \"Siete stanchi? Sì, lo siamo.\" \"È ricca Marta? Lo era.\" English speakers often leave it out (\"Sì, sono\"), which sounds unfinished to an Italian.",
+          "Here too \"lo\" is invariable, whatever the gender or number: \"Siete stanchi? Sì, lo siamo.\" \"È ricca Marta? Lo era.\" English speakers often leave it out (\"Sì, sono\"), which sounds unfinished to an Italian. With \"sembrare\", though, everyday speech prefers \"sembrava di sì\" (it seemed so); \"Lo sembrava\" is correct but sounds a little bookish.",
         ],
         examples: [
           { es: "Sei stanca? Sì, lo sono.", en: "Are you tired? Yes, I am." },
@@ -268,7 +268,7 @@ export const IT_B2_U12: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I didn't want to tell you on the phone. (to a friend)", answer: "Non volevo dirtelo per telefono.", altAnswers: ["Non te lo volevo dire per telefono.", "Non volevo dirtelo al telefono.", "Non te lo volevo dire al telefono."], explanation: "Pronouns attach to the infinitive or go before \"volevo\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Bologna won? [I said so]!", sentence: "Ha vinto il Bologna? ___!", answer: "Lo dicevo io", explanation: "A fixed reaction with \"lo\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Is Marco coming tonight? [I don't know].", sentence: "Viene Marco stasera? ___.", answer: "Non lo so", altAnswers: ["Io non lo so"], explanation: "A specific question: \"non lo so\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Was he kind? [He seemed it].", sentence: "Era gentile? ___.", answer: "Lo sembrava", altAnswers: ["Sembrava di sì"], explanation: "\"Lo\" with \"sembrare\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Was he kind? [He seemed it].", sentence: "Era gentile? ___.", answer: "Lo sembrava", altAnswers: ["Sembrava di sì"], explanation: "\"Lo\" with \"sembrare\"; in speech, \"Sembrava di sì\" is more common." },
       { type: "word-order", prompt: "Put the words in order to say: I told you it would rain!", words: ["Te", "l'avevo", "detto", "che", "pioveva!"], translation: "I told you it would rain!", explanation: "\"Te l'avevo detto\" + the spoken imperfetto \"pioveva\"." },
       { type: "dictation", audio: "Non lo sapevo, nessuno me l'ha detto.", explanation: "\"Lo\" and \"me l'\": both stand for the news." },
       {
@@ -397,7 +397,7 @@ export const IT_B2_U12: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You took the wrong road. I didn't notice! (a man speaking)", answer: "Hai sbagliato strada. Non me ne sono accorto!", explanation: "\"Accorgersi di\" → \"me ne sono accorto\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I read your article. What do you think of it? (to a friend)", answer: "Ho letto il tuo articolo. Che ne pensi?", altAnswers: ["Ho letto il tuo articolo. Cosa ne pensi?", "Ho letto il tuo articolo. Che ne dici?"], explanation: "\"Che ne pensi?\" asks for an opinion about it." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Where's Marco? I've no idea.", answer: "Dov'è Marco? Non ne ho idea.", altAnswers: ["Dov'è Marco? Non ne ho la minima idea.", "Dove è Marco? Non ne ho idea."], explanation: "\"Non ne ho idea\": a fixed phrase." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The exhibition is worth seeing.", answer: "Vale la pena vedere la mostra.", altAnswers: ["La mostra vale la pena di vederla.", "Vale la pena di vedere la mostra.", "La mostra merita di essere vista."], explanation: "\"Vale la pena\" + infinitive; the \"ne\" drops." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The exhibition is worth seeing.", answer: "Vale la pena vedere la mostra.", altAnswers: ["Vale la pena di vedere la mostra.", "La mostra merita di essere vista."], explanation: "\"Vale la pena\" + infinitive; the \"ne\" drops." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I've had enough of your excuses. (to a friend)", answer: "Ne ho abbastanza delle tue scuse.", altAnswers: ["Ne ho abbastanza delle tue giustificazioni.", "Sono stufo delle tue scuse.", "Sono stufa delle tue scuse."], explanation: "\"Ne ho abbastanza di\": the noun can follow to make it explicit." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Do you need the car? Yes, [I need it] tonight.", sentence: "Ti serve la macchina? Sì, ___ stasera.", answer: "ne ho bisogno", altAnswers: ["mi serve"], explanation: "\"Avere bisogno di\" → \"ne ho bisogno\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I have to do it well: [my job is at stake].", sentence: "Devo farlo bene: ___.", answer: "ne va del mio lavoro", explanation: "\"Ne va di\" = something is at stake." },
@@ -434,7 +434,7 @@ export const IT_B2_U12: Lesson[] = [
           { es: "Ci tengo che tu venga.", en: "I really want you to come." },
           { es: "Questo non c'entra niente!", en: "That's got nothing to do with it!" },
           { es: "Che c'entra Marco adesso?", en: "What's Marco got to do with it?" },
-          { es: "Andiamo al cinema stasera? Ci sto!", en: "Shall we go to the cinema tonight? I'm in!" },
+          { es: "Andiamo al cinema stasera? Ci sto!", en: "Shall we go to the movies tonight? I'm in!" },
           { es: "Non ci sto a farmi prendere in giro.", en: "I won't stand for being made fun of." },
         ],
         checkpoint: [
@@ -545,7 +545,7 @@ export const IT_B2_U12: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I really want you to come. (to a friend)", answer: "Ci tengo che tu venga.", altAnswers: ["Ci tengo molto che tu venga.", "Ci tengo che venga."], explanation: "\"Tenerci che\" + subjunctive \"venga\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I really want to thank you all. (to a group)", answer: "Ci tengo a ringraziarvi tutti.", altAnswers: ["Ci tengo a ringraziare tutti.", "Ci tengo a ringraziarvi."], explanation: "\"Tenerci a\" + infinitive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "What's Marco got to do with it?", answer: "Che c'entra Marco?", altAnswers: ["Cosa c'entra Marco?", "Che c'entra Marco adesso?", "Marco che c'entra?"], explanation: "\"Che c'entra?\" = what's that got to do with it?" },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Shall we go to the cinema tonight? I'm in!", answer: "Andiamo al cinema stasera? Ci sto!", altAnswers: ["Andiamo al cinema stasera? Io ci sto!", "Stasera andiamo al cinema? Ci sto!"], explanation: "\"Ci sto\" = I'm in." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Shall we go to the movies tonight? I'm in!", answer: "Andiamo al cinema stasera? Ci sto!", altAnswers: ["Andiamo al cinema stasera? Io ci sto!", "Stasera andiamo al cinema? Ci sto!"], explanation: "\"Ci sto\" = I'm in." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It takes an hour from Milan to Turin.", answer: "Da Milano a Torino ci vuole un'ora.", altAnswers: ["Ci vuole un'ora da Milano a Torino."], explanation: "Singular \"un'ora\": \"ci vuole\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It took me three weeks to finish the book.", answer: "Ci ho messo tre settimane a finire il libro.", altAnswers: ["Ci ho messo tre settimane per finire il libro."], explanation: "\"Metterci\" with a person: \"ci ho messo\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It took three hours to find a parking space.", answer: "Ci sono volute tre ore per trovare parcheggio.", altAnswers: ["Ci sono volute tre ore per trovare un parcheggio.", "Ci sono volute tre ore a trovare parcheggio."], explanation: "\"Volerci\" in the past: \"essere\" + agreement with \"ore\"." },
@@ -685,7 +685,7 @@ export const IT_B2_U12: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "How many apples did you buy? I bought six.", answer: "Quante mele hai comprato? Ne ho comprate sei.", altAnswers: ["Quante mele hai comprato? Ne ho comprato sei.", "Quante mele hai preso? Ne ho prese sei."], explanation: "With \"ne\" + quantity, the participle usually agrees: \"comprate\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I can't do it. (I don't manage)", answer: "Non ce la faccio.", altAnswers: ["Non ce la faccio più."], explanation: "\"Farcela\" = to manage." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Are you angry with me? (to a friend)", answer: "Ce l'hai con me?", altAnswers: ["Sei arrabbiato con me?", "Sei arrabbiata con me?"], explanation: "\"Avercela con\" = to be angry with someone." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Excuse me, can you show it to me? (to a shop assistant)", answer: "Scusi, me lo può mostrare?", altAnswers: ["Scusi, può mostrarmelo?", "Scusi, me la può mostrare?", "Scusi, può mostrarmela?", "Scusi, me lo può far vedere?", "Scusi, può farmelo vedere?"], explanation: "With a modal, before or attached; \"Lei\" form \"può\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Excuse me, can you show it to me? (to a sales assistant)", answer: "Scusi, me lo può mostrare?", altAnswers: ["Scusi, può mostrarmelo?", "Scusi, me la può mostrare?", "Scusi, può mostrarmela?", "Scusi, me lo può far vedere?", "Scusi, può farmelo vedere?"], explanation: "With a modal, before or attached; \"Lei\" form \"può\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The keys? [I gave them] to Marco.", sentence: "Le chiavi? ___ a Marco.", answer: "Le ho date", explanation: "\"Le\" + agreement \"date\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The keys? [I gave them to him].", sentence: "Le chiavi? ___.", answer: "Gliele ho date", explanation: "\"Gli\" + \"le\" = \"gliele\"; \"date\" agrees." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Before [telling you], I wanted to be sure.", sentence: "Prima di ___, volevo esserne sicuro.", answer: "dirtelo", explanation: "Infinitive + \"te\" + \"lo\"." },
@@ -697,7 +697,7 @@ export const IT_B2_U12: Lesson[] = [
       {
         type: "speak",
         text: "La torta? Te l'ho lasciata in frigo. Mangiane pure un pezzo, ma non dirlo a nessuno!",
-        prompt: "Leave a voice message for your flatmate: The cake? I left it for you in the fridge. Have a piece, but don't tell anyone!",
+        prompt: "Leave a voice message for your roommate: The cake? I left it for you in the fridge. Have a piece, but don't tell anyone!",
         tip: "\"Mangiane\": stress on the first syllable, MAN-gia-ne.",
         explanation: "\"Te l'ho lasciata\" agrees with \"la torta\"; \"ne\" attaches to the tu command \"mangia\".",
       },
@@ -756,12 +756,12 @@ export const IT_B2_U12: Lesson[] = [
         heading: "Fix agreement and choice",
         body: [
           "\"Ci vuole due ore\" forgets that \"volerci\" agrees with what is needed: \"Ci vogliono due ore.\" \"Ci metto\" is the one that doesn't agree: it follows the person.",
-          "\"Ne ho mangiato tre\" (of the biscuits) is heard, but in careful Italian the participle agrees with what \"ne\" stands for: \"Ne ho mangiati tre.\" \"Sei stanca? Sì, sono\" leaves the sentence hanging: \"Sì, lo sono.\"",
+          "\"Ne ho mangiato tre\" (of the cookies) is heard, but in careful Italian the participle agrees with what \"ne\" stands for: \"Ne ho mangiati tre.\" \"Sei stanca? Sì, sono\" leaves the sentence hanging: \"Sì, lo sono.\"",
         ],
         examples: [
           { es: "Ci vogliono due ore.", en: "It takes two hours." },
           { es: "Ci metto due ore.", en: "It takes me two hours." },
-          { es: "Quanti biscotti hai mangiato? Ne ho mangiati tre.", en: "How many biscuits did you eat? I ate three." },
+          { es: "Quanti biscotti hai mangiato? Ne ho mangiati tre.", en: "How many cookies did you eat? I ate three." },
           { es: "Sei stanca? Sì, lo sono.", en: "Are you tired? Yes, I am." },
           { es: "Me ne sono andato presto.", en: "I left early." },
         ],
@@ -776,8 +776,8 @@ export const IT_B2_U12: Lesson[] = [
           },
           {
             type: "fill-blank",
-            prompt: "A learner wrote \"Ne ho mangiato tre\" about biscuits. Write the Italian for the bold words.",
-            en: "How many biscuits did you eat? [I ate three].",
+            prompt: "A learner wrote \"Ne ho mangiato tre\" about cookies. Write the Italian for the bold words.",
+            en: "How many cookies did you eat? [I ate three].",
             sentence: "Quanti biscotti hai mangiato? ___.",
             answer: "Ne ho mangiati tre",
             altAnswers: ["Ne ho mangiato tre"],
@@ -821,7 +821,7 @@ export const IT_B2_U12: Lesson[] = [
     level: "IT-B2",
     number: 8,
     title: "Listening Lab: Particles at Speed",
-    summary: "Catch ci, ne and lo in fast natural speech: at the market, in a flat share and on the phone to a friend.",
+    summary: "Catch ci, ne and lo in fast natural speech: at the market, in a shared apartment and on the phone to a friend.",
     duration: "18 min",
     sections: [
       {
@@ -857,9 +857,9 @@ export const IT_B2_U12: Lesson[] = [
         ],
       },
       {
-        heading: "In the flat share",
+        heading: "In the shared apartment",
         body: [
-          "Two flatmates in Bologna, Sara and Pietro, talk about a party. Listen for \"tenerci\", \"lo\" and \"andarsene\": \"Vieni sabato? Ci tengo, eh.\" \"Lo so, lo so. Ci vengo, ma me ne vado presto.\"",
+          "Two roommates in Bologna, Sara and Pietro, talk about a party. Listen for \"tenerci\", \"lo\" and \"andarsene\": \"Vieni sabato? Ci tengo, eh.\" \"Lo so, lo so. Ci vengo, ma me ne vado presto.\"",
           "\"Ci vengo\" uses \"ci\" for there (to the party). Pietro adds \"Non c'entra niente con te\" when Sara asks if he's angry: his early exit has nothing to do with her.",
         ],
         examples: [
@@ -1074,7 +1074,7 @@ export const IT_B2_U12: Lesson[] = [
           { es: "Ciao Fra! Sabato festeggio i trent'anni e ci tengo tanto che tu venga.", en: "Hi Fra! On Saturday I'm celebrating my thirtieth and I really want you to come." },
           { es: "Lo so che è lontano, ma col treno ci metti poco più di un'ora.", en: "I know it's far, but by train it takes you just over an hour." },
           { es: "I biglietti per il concerto dopo cena ce li ho già.", en: "I've already got the tickets for the concert after dinner." },
-          { es: "Puoi dormire da me: un letto in più ce l'ho.", en: "You can sleep at mine: I've got a spare bed." },
+          { es: "Puoi dormire da me: un letto in più ce l'ho.", en: "You can sleep at my place: I've got a spare bed." },
         ],
         checkpoint: [
           {
@@ -1130,7 +1130,7 @@ export const IT_B2_U12: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "On Saturday I'm celebrating my thirtieth and I really want you to come. (to a friend)", answer: "Sabato festeggio i trent'anni e ci tengo tanto che tu venga.", altAnswers: ["Sabato festeggio i miei trent'anni e ci tengo tanto che tu venga.", "Sabato festeggio i trent'anni e ci tengo molto che tu venga.", "Sabato festeggio i miei trent'anni e ci tengo molto che tu venga."], explanation: "\"Ci tengo che\" + subjunctive \"venga\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You can sleep at mine: I've got a spare bed. (to a friend)", answer: "Puoi dormire da me: un letto in più ce l'ho.", altAnswers: ["Puoi dormire da me: ho un letto in più.", "Puoi dormire a casa mia: ho un letto in più.", "Puoi dormire a casa mia: un letto in più ce l'ho."], explanation: "\"Da me\" = at my place; \"ce l'ho\" = I've got it." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You can sleep at my place: I've got a spare bed. (to a friend)", answer: "Puoi dormire da me: un letto in più ce l'ho.", altAnswers: ["Puoi dormire da me: ho un letto in più.", "Puoi dormire a casa mia: ho un letto in più.", "Puoi dormire a casa mia: un letto in più ce l'ho."], explanation: "\"Da me\" = at my place; \"ce l'ho\" = I've got it." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Let me know by Thursday. (to a friend)", answer: "Fammi sapere entro giovedì.", explanation: "\"Fammi sapere\": \"fa'\" + \"mi\" doubles the m." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's not the same without you!", answer: "Senza di te non è la stessa cosa!", explanation: "\"Senza di\" + pronoun." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Remember last year? [That's nothing to do with it].", sentence: "Ti ricordi l'anno scorso? ___.", answer: "Non c'entra niente", altAnswers: ["Non c'entra nulla"], explanation: "\"Entrarci\" dismisses the comparison." },

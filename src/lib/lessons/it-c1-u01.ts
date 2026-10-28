@@ -17,21 +17,21 @@ export const IT_C1_U01: Lesson[] = [
       {
         heading: "One pattern, three vowels",
         body: [
-          "At Intermediate level you learned to recognise the passato remoto in novels, mostly in the third person (\"parlò\", \"partirono\"). Now you write it in all six persons. The regular endings are built on the infinitive vowel: \"parlai, parlasti, parlò, parlammo, parlaste, parlarono\"; \"partii, partisti, partì, partimmo, partiste, partirono\".",
+          "At Intermediate level you learned to recognize the passato remoto in novels, mostly in the third person (\"parlò\", \"partirono\"). Now you write it in all six persons. The regular endings are built on the infinitive vowel: \"parlai, parlasti, parlò, parlammo, parlaste, parlarono\"; \"partii, partisti, partì, partimmo, partiste, partirono\".",
           "Three forms trip English speakers up. The lui / lei form carries a written accent on the last syllable: \"parlò\" (he spoke) is not \"parlo\" (I speak), and \"partì\" (she left) is not \"parti\" (you leave). The noi form has a double m: \"parlammo\", \"partimmo\". And the loro form is stressed on the third syllable from the end: par-LA-ro-no, par-TI-ro-no.",
-          "Why learn all six persons when novels are mostly in the third? Because first-person narrative is common: memoirs, diaries and many novels are told by an \"io\" (\"Quella mattina uscii presto\"), and a group story needs \"noi\". The tu and voi forms appear in dialogue inside novels, in letters of the past and in Southern speech, so you should recognise them at speed and write them correctly when a character uses them.",
+          "Why learn all six persons when novels are mostly in the third? Because first-person narrative is common: memoirs, diaries and many novels are told by an \"io\" (\"Quella mattina uscii presto\"), and a group story needs \"noi\". The tu and voi forms appear in dialogue inside novels, in letters of the past and in Southern speech, so you should recognize them at speed and write them correctly when a character uses them.",
         ],
         examples: [
           { es: "Quella sera parlai a lungo con mio padre.", en: "That evening I talked with my father for a long time." },
           { es: "Arrivasti tardi, come sempre.", en: "You arrived late, as always." },
           { es: "Il treno partì alle sei in punto.", en: "The train left at exactly six." },
-          { es: "Dormimmo in una locanda vicino al porto.", en: "We slept in an inn near the harbour." },
+          { es: "Dormimmo in una locanda vicino al porto.", en: "We slept in an inn near the harbor." },
           { es: "I soldati attraversarono il fiume all'alba.", en: "The soldiers crossed the river at dawn." },
           { es: "Finiste il lavoro prima di sera?", en: "Did you (plural) finish the work before evening?" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian (written narrative: passato remoto).", source: "The train left at exactly six.", answer: "Il treno partì alle sei in punto.", explanation: "\"Partì\": the accent marks the third person singular and the stress on the last syllable." },
-          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[We slept] in an inn near the harbour.", sentence: "___ in una locanda vicino al porto.", answer: "Dormimmo", explanation: "The noi ending of the passato remoto has a double m: \"-immo\", not the present \"dormiamo\"." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[We slept] in an inn near the harbor.", sentence: "___ in una locanda vicino al porto.", answer: "Dormimmo", explanation: "The noi ending of the passato remoto has a double m: \"-immo\", not the present \"dormiamo\"." },
           { type: "listen-choose", audio: "Parlò con il sindaco.", question: "What did you hear?", options: ["Parlò con il sindaco.", "Parlo con il sindaco.", "Parlai con il sindaco.", "Parlarono con il sindaco."], correctIndex: 0, explanation: "Stress on the last syllable, par-LÒ: he or she spoke. \"Parlo\" is stressed on the first syllable and means I speak." },
         ],
       },
@@ -39,7 +39,7 @@ export const IT_C1_U01: Lesson[] = [
         heading: "-ere verbs: two sets of forms",
         body: [
           "Regular -ere verbs have two equally correct forms in three persons: \"credei\" or \"credetti\", \"credé\" or \"credette\", \"crederono\" or \"credettero\". The other persons have only one form: \"credesti, credemmo, credeste\".",
-          "In modern prose the -etti forms are more common for most verbs: \"ricevetti\", \"vendette\", \"ripeterono\" sits beside \"ripeté\". Verbs whose stem already ends in t avoid the -etti set, because the sound repeats: \"potei\", \"poté\", \"ripetei\", \"batté\". If you are unsure, the -ei set is never wrong.",
+          "In modern prose the -etti set is the more common choice for many verbs (\"ricevetti\", \"vendette\", \"credettero\"). Verbs whose stem already ends in t avoid it, because the sound would repeat: \"potei\", \"poté\", \"ripeté\", \"ripeterono\", \"batté\". If you are unsure, the -ei set is never wrong.",
           "Note the acute accent on \"credé\" and \"poté\": the final e is closed. It is the same accent as \"perché\".",
         ],
         examples: [
@@ -106,7 +106,7 @@ export const IT_C1_U01: Lesson[] = [
     number: 2,
     title: "Irregular Remote Past, Part 1 of 2",
     summary: "Write the most frequent irregular passato remoto forms in full: fui, ebbi, feci, dissi, venni, vidi, presi, misi, scrissi.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Essere and avere",
@@ -114,9 +114,12 @@ export const IT_C1_U01: Lesson[] = [
           "\"Essere\" is irregular in every person: \"fui, fosti, fu, fummo, foste, furono\". \"Fu\" has no accent, because it is a single syllable. \"Avere\" follows the pattern that most irregular verbs share: \"ebbi, avesti, ebbe, avemmo, aveste, ebbero\".",
           "Look at that pattern closely. The irregular stem \"ebb-\" appears only in the io, lui / lei and loro forms; the tu, noi and voi forms are regular, built on the infinitive (\"av-esti, av-emmo, av-este\"). Teachers call this the 1-3-3 pattern: persons 1, 3 and 3 plural are irregular. Learn three forms of each verb and the other three come free.",
           "\"Fu\" also forms the passive in narrative (\"il ponte fu costruito nel Seicento\") and turns up in fixed openings: \"Fu allora che capii\" (it was then that I understood). Don't confuse \"fu\" (was) with \"fui\" (I was): one letter changes the person.",
+          "\"Ebbe\" lives on in fixed formal phrases that you will meet even in today's news and reports: \"ebbe luogo\" (took place), \"ebbe inizio\" (began), \"ebbe la meglio\" (got the upper hand). With an infinitive, \"ebbe\" can mean managed to or happened to: \"non ebbe il coraggio di dirglielo\" (he didn't have the courage to tell her).",
         ],
         examples: [
           { es: "Fu un inverno lunghissimo.", en: "It was a very long winter." },
+          { es: "La cerimonia ebbe luogo nel duomo di Orvieto.", en: "The ceremony took place in Orvieto Cathedral." },
+          { es: "Non ebbe il coraggio di dirglielo.", en: "He didn't have the courage to tell her." },
           { es: "Fummo gli ultimi a lasciare la sala.", en: "We were the last to leave the hall." },
           { es: "Ebbi l'impressione che mentisse.", en: "I had the impression he was lying." },
           { es: "Aveste paura quella notte?", en: "Were you (plural) afraid that night?" },
@@ -132,6 +135,7 @@ export const IT_C1_U01: Lesson[] = [
         body: [
           "These verbs work exactly like \"avere\". \"Venire\": \"venni, venisti, venne, venimmo, veniste, vennero\". \"Vedere\": \"vidi, vedesti, vide, vedemmo, vedeste, videro\". \"Prendere\": \"presi, prendesti, prese, prendemmo, prendeste, presero\". \"Mettere\": \"misi, mettesti, mise, mettemmo, metteste, misero\". \"Scrivere\": \"scrissi, scrivesti, scrisse, scrivemmo, scriveste, scrissero\".",
           "The trap is the regular persons. Learners who know \"vide\" write \"*vidisti\" or \"*misimmo\"; the tu, noi and voi forms always go back to the infinitive: \"vedesti\", \"mettemmo\". Compounds follow their base verb: \"divenne\" (became), \"promise\", \"sorprese\", \"descrisse\".",
+          "A second trap is stress. In the loro form the stress stays on the stem, three syllables from the end: VEN-ne-ro, VI-de-ro, PRE-se-ro, SCRIS-se-ro. Learners who add a regular ending produce \"*prendettero\" or \"*vederono\"; neither exists. And mind the pairs that differ by a single vowel: \"misi\" (I put) and \"mise\" (he put), \"presi\" and \"prese\", \"scrissi\" and \"scrisse\". In a first-person memoir every one of those final vowels matters.",
         ],
         examples: [
           { es: "Venne a trovarci una sola volta.", en: "He came to see us only once." },
@@ -153,9 +157,12 @@ export const IT_C1_U01: Lesson[] = [
           "\"Fare\" and \"dire\" come from the Latin \"facere\" and \"dicere\", and their regular persons use that longer stem: \"feci, facesti, fece, facemmo, faceste, fecero\"; \"dissi, dicesti, disse, dicemmo, diceste, dissero\". You already know the stems from the imperfetto (\"facevo\", \"dicevo\").",
           "Two classic mistakes: \"*facì\" or \"*fecette\" for \"fece\", and \"*dicette\" for \"disse\". \"Dicette\" is heard in some Southern dialects, never in standard Italian. Also keep \"facesti\" (you did) apart from \"fece\" (he did): the person matters.",
           "Two more short verbs belong here. \"Dare\": \"diedi\" or \"detti\", \"desti\", \"diede\" or \"dette\", \"demmo\", \"deste\", \"diedero\" or \"dettero\". \"Stare\": \"stetti, stesti, stette, stemmo, steste, stettero\". Both double forms of \"dare\" are correct; \"diede\" is more common in modern prose.",
+          "Compounds keep the long stems: \"soddisfare\" → \"soddisfece\", \"contraddire\" → \"contraddisse\", \"benedire\" → \"benedisse\". Beware the popular \"*stiede\" and \"*stiedi\", modeled on \"diede\": the standard forms are \"stette\" and \"stetti\".",
         ],
         examples: [
           { es: "Feci finta di non vederlo.", en: "I pretended not to see him." },
+          { es: "Il risultato non soddisfece nessuno.", en: "The result satisfied no one." },
+          { es: "Stette zitto per tutta la cena.", en: "He kept quiet for the whole dinner." },
           { es: "Che cosa gli dicesti?", en: "What did you say to him?" },
           { es: "Disse soltanto: \"Domani\".", en: "He said only: \"Tomorrow\"." },
           { es: "Facemmo il viaggio a piedi.", en: "We made the journey on foot." },
@@ -188,7 +195,7 @@ export const IT_C1_U01: Lesson[] = [
     number: 3,
     title: "Irregular Remote Past, Part 2 of 2",
     summary: "Write chiesi, risposi, decisi, conobbi, vissi, nacqui, volli, seppi, ruppi, caddi, tenni and lessi in all persons.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "The -si and -ssi verbs",
@@ -196,6 +203,7 @@ export const IT_C1_U01: Lesson[] = [
           "Many -ere verbs form the irregular persons with -si or -ssi. \"Chiedere\": \"chiesi, chiedesti, chiese, chiedemmo, chiedeste, chiesero\". \"Rispondere\": \"risposi, rispose, risposero\". \"Decidere\": \"decisi, decise, decisero\". With a double s: \"vivere\" → \"vissi, visse, vissero\"; \"leggere\" → \"lessi, lesse, lessero\".",
           "The regular persons, as always, keep the infinitive stem: \"rispondesti\", \"decidemmo\", \"viveste\", \"leggesti\". Watch the s versus ss: \"decise\" (one s, a z sound in much of Italy) but \"visse\" and \"lesse\". The past participle often helps (\"deciso\" → \"decise\", \"chiesto\" → \"chiese\"), but not always (\"letto\" → \"lesse\"), so learn the ss verbs as forms.",
           "More -si verbs you will need for narrative: \"rimanere\" → \"rimasi, rimase, rimasero\"; \"correre\" → \"corsi\"; \"chiudere\" → \"chiusi\"; \"scendere\" → \"scesi\"; \"perdere\" → \"persi\" (or the regular \"perdei\"); \"ridere\" → \"risi\". \"Bere\" doubles the v: \"bevvi, bevve, bevvero\".",
+          "Two families are worth learning as sets because their compounds are everywhere in formal prose. \"Porre\" (to place) → \"posi, ponesti, pose, ponemmo, poneste, posero\", and so \"propose\", \"suppose\", \"compose\", \"espose\". \"Trarre\" (to draw) → \"trassi, traesti, trasse, traemmo, traeste, trassero\", and so \"attrasse\", \"distrasse\", \"sottrasse\". The regular persons come from the old long stems \"pon-\" and \"tra-\".",
         ],
         examples: [
           { es: "Chiesi il permesso di entrare.", en: "I asked permission to come in." },
@@ -204,6 +212,8 @@ export const IT_C1_U01: Lesson[] = [
           { es: "Visse a Trieste per trent'anni.", en: "He lived in Trieste for thirty years." },
           { es: "Lessero la lettera ad alta voce.", en: "They read the letter aloud." },
           { es: "Perché non rispondesti?", en: "Why didn't you answer?" },
+          { es: "Il sindaco propose una tregua.", en: "The mayor proposed a truce." },
+          { es: "Il rumore lo distrasse dalla lettura.", en: "The noise distracted him from his reading." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian (written narrative: passato remoto).", source: "He lived in Trieste for thirty years.", answer: "Visse a Trieste per trent'anni.", altAnswers: ["Visse a Trieste per trenta anni.", "Visse trent'anni a Trieste."], explanation: "\"Vivere\" → \"visse\", with a double s." },
@@ -215,6 +225,7 @@ export const IT_C1_U01: Lesson[] = [
         body: [
           "A second group doubles a consonant in the irregular persons. \"Conoscere\": \"conobbi, conobbe, conobbero\". \"Volere\": \"volli, volle, vollero\". \"Sapere\": \"seppi, seppe, seppero\". \"Rompere\": \"ruppi, ruppe, ruppero\". \"Cadere\": \"caddi, cadde, caddero\". \"Tenere\": \"tenni, tenne, tennero\".",
           "Say these forms with a clear long consonant: \"seppe\" (he found out) against \"sepe\", which is not a word. Note the meanings, too. In the passato remoto \"conobbe\" means met for the first time and \"seppe\" means found out, exactly as \"ha conosciuto\" and \"ha saputo\" do in speech. \"Volle\" means insisted on, wanted and got.",
+          "This is where the passato remoto and the imperfetto of the same verb part ways. \"Sapeva tutto\" describes a state (he knew everything); \"seppe tutto\" is an event (he found everything out). \"Voleva partire\" is a wish; \"volle partire\" means he did leave, and \"non volle partire\" means he refused. \"Poteva\" (was able to) and \"poté\" (managed to) split the same way. English often needs two different verbs where Italian changes only the tense.",
         ],
         examples: [
           { es: "Conobbi tua nonna a una festa da ballo.", en: "I met your grandmother at a dance." },
@@ -222,6 +233,7 @@ export const IT_C1_U01: Lesson[] = [
           { es: "Volle partire da sola.", en: "She insisted on leaving alone." },
           { es: "Il vaso cadde e si ruppe.", en: "The vase fell and broke." },
           { es: "Tennero il segreto per tutta la vita.", en: "They kept the secret all their lives." },
+          { es: "Non volle mangiare niente.", en: "She refused to eat anything." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian (written narrative: passato remoto).", source: "He found out the truth only years later.", answer: "Seppe la verità solo anni dopo.", altAnswers: ["Seppe la verità soltanto anni dopo.", "Seppe la verità solamente anni dopo."], explanation: "\"Seppe\" = found out, the passato remoto of \"sapere\"." },
@@ -232,19 +244,22 @@ export const IT_C1_U01: Lesson[] = [
         heading: "Nacqui, piacqui, tacqui",
         body: [
           "A small group ends in -cqui, with a cq that sounds like a long k + w. \"Nascere\": \"nacqui, nascesti, nacque, nascemmo, nasceste, nacquero\". \"Piacere\": \"piacqui, piacque, piacquero\". \"Tacere\" (to fall silent): \"tacqui, tacque\". \"Nacque\" is the form of every biography: \"Nacque a Recanati nel 1798\".",
-          "Compounds carry the irregularity: \"riconobbe\" (recognised), \"ottenne\" (obtained), \"mantenne\" (kept), \"rilesse\" (reread), \"dispiacque\" (displeased).",
+          "Compounds carry the irregularity: \"riconobbe\" (recognized), \"ottenne\" (obtained), \"mantenne\" (kept), \"rilesse\" (reread), \"dispiacque\" (displeased).",
           "A trap: \"morire\" is regular in the passato remoto (\"morì\", \"morirono\"). \"Morse\" exists, but it is the passato remoto of \"mordere\": \"il cane lo morse\" (the dog bit him). Writing \"*morse\" for died produces a very different story.",
+          "Three impersonal forms carry a lot of narrative: \"piovve\" (it rained, from \"piovere\"), \"parve\" (it seemed, from \"parere\") and \"accadde\" (it happened, from \"accadere\"). \"Gli parve di sentire un passo\" is the classic way a novel introduces a sound in the dark.",
         ],
         examples: [
           { es: "Nacqui in un paese di montagna.", en: "I was born in a mountain village." },
           { es: "Il progetto non piacque al direttore.", en: "The director didn't like the project." },
           { es: "Tutti tacquero quando entrò.", en: "Everyone fell silent when she came in." },
-          { es: "Lo riconobbi dalla voce.", en: "I recognised him by his voice." },
+          { es: "Lo riconobbi dalla voce.", en: "I recognized him by his voice." },
           { es: "Ottenne la cattedra a quarant'anni.", en: "She got the professorship at forty." },
+          { es: "Gli parve di sentire un passo sulle scale.", en: "He thought he heard a step on the stairs." },
+          { es: "Piovve per tre giorni di seguito.", en: "It rained for three days straight." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian (written narrative: passato remoto).", source: "I was born in a mountain village.", answer: "Nacqui in un paese di montagna.", altAnswers: ["Nacqui in un villaggio di montagna.", "Io nacqui in un paese di montagna."], explanation: "\"Nacqui\": c + q, never \"*naqui\"." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian (written narrative: passato remoto).", source: "I recognised him by his voice.", answer: "Lo riconobbi dalla voce.", explanation: "\"Riconoscere\" follows \"conoscere\": \"riconobbi\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian (written narrative: passato remoto).", source: "I recognized him by his voice.", answer: "Lo riconobbi dalla voce.", explanation: "\"Riconoscere\" follows \"conoscere\": \"riconobbi\"." },
         ],
       },
     ],
@@ -271,7 +286,7 @@ export const IT_C1_U01: Lesson[] = [
         explanation: "All five double a consonant or add -cqu- in the irregular persons.",
       },
       { type: "dictation", audio: "Nacque a Lecce, visse a Torino e morì a Roma.", explanation: "\"Nacque\" and \"visse\" are irregular; \"morì\" is a regular -ire form." },
-      { type: "speak", text: "Lo riconobbi subito, ma non seppi che cosa dirgli.", prompt: "Say it in Italian (passato remoto): I recognised him at once, but I didn't know what to say to him.", tip: "Double b, double p: ri-co-NOB-bi, SEP-pi.", explanation: "\"Riconobbi\" and \"seppi\": doubled consonants in the io form." },
+      { type: "speak", text: "Lo riconobbi subito, ma non seppi che cosa dirgli.", prompt: "Say it in Italian (passato remoto): I recognized him at once, but I didn't know what to say to him.", tip: "Double b, double p: ri-co-NOB-bi, SEP-pi.", explanation: "\"Riconobbi\" and \"seppi\": doubled consonants in the io form." },
     ],
   },
   {
@@ -280,13 +295,14 @@ export const IT_C1_U01: Lesson[] = [
     number: 4,
     title: "Remote or Recent Past?",
     summary: "Choose between passato remoto and passato prossimo by register, distance from the present and regional habit.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Connection to the present",
         body: [
           "Both tenses describe completed events, so the choice is not about how long ago something happened. The passato prossimo presents an event as still connected to the speaker's present: its results matter now, or the speaker feels involved. The passato remoto presents it as closed, cut off from now. \"Mio nonno ha costruito questa casa\" (we live in it); \"Mio nonno costruì una casa sul lago\" (a story about the past).",
-          "That is why the passato prossimo is the tense of conversation, emails and news about recent events, while the passato remoto belongs to narrative writing: novels, fairy tales, history books, biographies and encyclopaedias. A historian writes \"Garibaldi sbarcò a Marsala nel 1860\"; a friend texts \"Ho visto Marsala, è bellissima\".",
+          "That is why the passato prossimo is the tense of conversation, emails and news about recent events, while the passato remoto belongs to narrative writing: novels, fairy tales, history books, biographies and encyclopedias. A historian writes \"Garibaldi sbarcò a Marsala nel 1860\"; a friend texts \"Ho visto Marsala, è bellissima\".",
+          "One text can use both, on different layers. A letter or an essay comments in the passato prossimo and tells a story in the passato remoto: \"Ho riletto la lettera che mia nonna scrisse nel 1944\". The re-reading is part of the writer's present; the writing of the letter belongs to a closed past. What you must not do is put two events of the same story in different tenses.",
         ],
         examples: [
           { es: "Mio nonno ha costruito questa casa.", en: "My grandfather built this house. (we live here)" },
@@ -294,6 +310,7 @@ export const IT_C1_U01: Lesson[] = [
           { es: "Garibaldi sbarcò a Marsala nel 1860.", en: "Garibaldi landed at Marsala in 1860." },
           { es: "Ho perso le chiavi, mi apri?", en: "I've lost my keys, will you let me in?" },
           { es: "C'era una volta un re che ebbe tre figlie.", en: "Once upon a time there was a king who had three daughters." },
+          { es: "Ho riletto la lettera che mia nonna scrisse nel 1944.", en: "I've reread the letter my grandmother wrote in 1944." },
         ],
         checkpoint: [
           { type: "multiple-choice", question: "You text a friend: I've just finished the report. Which is natural?", options: ["Ho appena finito la relazione.", "Finii appena la relazione.", "Appena finii la relazione.", "Ebbi finito la relazione."], correctIndex: 0, explanation: "A recent event linked to now, in a text message: passato prossimo." },
@@ -315,22 +332,24 @@ export const IT_C1_U01: Lesson[] = [
           { es: "La città fu fondata dai Greci.", en: "The city was founded by the Greeks." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian (encyclopaedia style).", source: "She won the Nobel Prize in 1926.", answer: "Vinse il premio Nobel nel 1926.", altAnswers: ["Vinse il Nobel nel 1926."], explanation: "\"Vincere\" → \"vinse\", the passato remoto of encyclopaedias." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian (encyclopedia style).", source: "She won the Nobel Prize in 1926.", answer: "Vinse il premio Nobel nel 1926.", altAnswers: ["Vinse il Nobel nel 1926."], explanation: "\"Vincere\" → \"vinse\", the passato remoto of encyclopedias." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian (passive, history book style).", source: "The city was founded by the Greeks.", answer: "La città fu fondata dai Greci.", altAnswers: ["La città venne fondata dai Greci."], explanation: "The passive in the passato remoto: \"fu fondata\" or \"venne fondata\"." },
         ],
       },
       {
-        heading: "North, Centre and South",
+        heading: "North, Center and South",
         body: [
           "Regional habits shape speech. In the North the passato remoto has almost vanished from conversation: a Milanese says \"L'ho conosciuto nel 1985\". In Tuscany it is still used for events that feel distant. In much of the South, especially Sicily and Calabria, speakers use it even for this morning: \"Stamattina andai al mercato\".",
           "For you the rule is simple. In speech and informal writing, use the passato prossimo for recent events and anything linked to now; in narrative and historical writing, use the passato remoto. Don't use the passato remoto with \"stamattina\", \"oggi\" or \"quest'anno\" in standard Italian, and don't switch between the two tenses for the same layer of a story.",
+          "Be aware of how each choice sounds. A Northerner who drops a passato remoto into conversation (\"Nel 2010 andai in Australia\") can sound bookish or deliberately ironic; a Sicilian who says \"stamattina andai\" sounds perfectly natural at home and regional elsewhere. In Tuscany you will also hear \"stamani\" for \"stamattina\", which is standard.",
         ],
         examples: [
           { es: "L'ho conosciuto nel 1985.", en: "I met him in 1985. (Northern speech)" },
           { es: "Stamattina sono andato al mercato.", en: "This morning I went to the market. (standard)" },
           { es: "Stamattina andai al mercato.", en: "This morning I went to the market. (Southern regional)" },
-          { es: "Quest'anno abbiamo viaggiato poco.", en: "We've travelled little this year." },
-          { es: "Quell'estate viaggiammo per tutta la Grecia.", en: "That summer we travelled all over Greece." },
+          { es: "Quest'anno abbiamo viaggiato poco.", en: "We've traveled little this year." },
+          { es: "Quell'estate viaggiammo per tutta la Grecia.", en: "That summer we traveled all over Greece." },
+          { es: "Nel 2010 sono andata in Australia per un anno.", en: "In 2010 I went to Australia for a year. (standard speech)" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian (standard speech).", source: "This morning I went to the market.", answer: "Stamattina sono andato al mercato.", altAnswers: ["Stamattina sono andata al mercato.", "Stamani sono andato al mercato.", "Stamani sono andata al mercato."], explanation: "\"Stamattina\" links the event to today: passato prossimo in standard Italian." },
@@ -341,9 +360,9 @@ export const IT_C1_U01: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (told as a story).", source: "My grandfather built a house on the lake.", answer: "Mio nonno costruì una casa sul lago.", explanation: "A closed story: passato remoto \"costruì\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (said to a friend).", source: "I've lost my keys.", answer: "Ho perso le chiavi.", altAnswers: ["Ho perso le mie chiavi."], explanation: "Still relevant now: passato prossimo." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian (encyclopaedia style).", source: "Grazia Deledda was born in Nuoro in 1871.", answer: "Grazia Deledda nacque a Nuoro nel 1871.", explanation: "Biographies use the passato remoto: \"nacque\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian (standard speech).", source: "We've travelled little this year.", answer: "Quest'anno abbiamo viaggiato poco.", altAnswers: ["Abbiamo viaggiato poco quest'anno."], explanation: "\"Quest'anno\" is not over: passato prossimo." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian (written narrative).", source: "That summer we travelled all over Greece.", answer: "Quell'estate viaggiammo per tutta la Grecia.", altAnswers: ["Quell'estate girammo tutta la Grecia."], explanation: "\"Quell'estate\" is closed: passato remoto fits a written narrative." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian (encyclopedia style).", source: "Grazia Deledda was born in Nuoro in 1871.", answer: "Grazia Deledda nacque a Nuoro nel 1871.", explanation: "Biographies use the passato remoto: \"nacque\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian (standard speech).", source: "We've traveled little this year.", answer: "Quest'anno abbiamo viaggiato poco.", altAnswers: ["Abbiamo viaggiato poco quest'anno."], explanation: "\"Quest'anno\" is not over: passato prossimo." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian (written narrative).", source: "That summer we traveled all over Greece.", answer: "Quell'estate viaggiammo per tutta la Grecia.", altAnswers: ["Quell'estate girammo tutta la Grecia."], explanation: "\"Quell'estate\" is closed: passato remoto fits a written narrative." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (fairy tale).", source: "Once upon a time there was a king who had three daughters.", answer: "C'era una volta un re che ebbe tre figlie.", altAnswers: ["C'era una volta un re che aveva tre figlie."], explanation: "\"C'era una volta\" opens every fairy tale; the events that follow are in the passato remoto." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I [met] him in 1985. (Milanese speaker)", sentence: "L'___ nel 1985.", answer: "ho conosciuto", explanation: "Northern speech keeps the passato prossimo even for distant events." },
       { type: "multiple-choice", question: "Which sentence mixes tenses badly within one narrative layer?", options: ["Entrò, si sedette e ha ordinato un caffè.", "Entrò, si sedette e ordinò un caffè.", "È entrato, si è seduto e ha ordinato un caffè.", "Entrava sempre, si sedeva e ordinava un caffè."], correctIndex: 0, explanation: "A chain of events stays in one tense: \"entrò, si sedette, ordinò\"." },
@@ -358,7 +377,7 @@ export const IT_C1_U01: Lesson[] = [
     number: 5,
     title: "Writing a Narrative",
     summary: "Combine the imperfetto for background with the passato remoto for events, go further back with the trapassato, and pace a written story.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Background and events",
@@ -369,7 +388,7 @@ export const IT_C1_U01: Lesson[] = [
         ],
         examples: [
           { es: "Pioveva da tre giorni e la strada era deserta.", en: "It had been raining for three days and the street was empty." },
-          { es: "Verso sera qualcuno bussò alla porta.", en: "Towards evening someone knocked at the door." },
+          { es: "Verso sera qualcuno bussò alla porta.", en: "Toward evening someone knocked at the door." },
           { es: "Mentre leggeva, sentì un rumore in cantina.", en: "While she was reading, she heard a noise in the cellar." },
           { es: "Stavo per uscire quando squillò il telefono.", en: "I was about to go out when the phone rang." },
           { es: "Ogni domenica andavano al mare, ma quella domenica restarono a casa.", en: "Every Sunday they went to the seaside, but that Sunday they stayed at home." },
@@ -385,18 +404,18 @@ export const IT_C1_U01: Lesson[] = [
         heading: "Going further back",
         body: [
           "When a story looks back to an earlier event, use the trapassato prossimo, exactly as in speech: \"Capì che qualcuno era entrato nella stanza\", \"Le aveva promesso che sarebbe tornato\". It is the tense of flashbacks and explanations.",
-          "Literary Italian has a second past perfect, the trapassato remoto (\"ebbe finito\", \"fu arrivato\"), which you will study in the next unit. It appears only after \"dopo che\", \"appena\" or \"quando\" when the main verb is a passato remoto: \"Appena ebbe chiuso la porta, scoppiò a piangere\". For now, recognise it; in your own writing \"dopo aver chiuso la porta\" or \"chiusa la porta\" does the same job and is more modern.",
+          "Literary Italian has a second past perfect, the trapassato remoto (\"ebbe finito\", \"fu arrivato\"), which you will study in the next unit. It appears only after \"dopo che\", \"appena\" or \"quando\" when the main verb is a passato remoto: \"Appena ebbe chiuso la porta, scoppiò a piangere\". For now, recognize it; in your own writing \"dopo aver chiuso la porta\" or \"chiusa la porta\" does the same job and is more modern.",
           "Don't overuse the trapassato. Once you have moved the reader into a flashback with one or two verbs, the narrative can continue in the passato remoto, as English does with had.",
         ],
         examples: [
-          { es: "Capì che qualcuno era entrato nella stanza.", en: "He realised that someone had come into the room." },
+          { es: "Capì che qualcuno era entrato nella stanza.", en: "He realized that someone had come into the room." },
           { es: "Le aveva promesso che sarebbe tornato.", en: "He had promised her he would come back." },
           { es: "Appena ebbe chiuso la porta, scoppiò a piangere.", en: "As soon as she had shut the door, she burst into tears." },
           { es: "Chiusa la porta, scoppiò a piangere.", en: "Once she had shut the door, she burst into tears." },
           { es: "Dopo aver firmato il contratto, partì per l'America.", en: "After signing the contract, he left for America." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian (written narrative).", source: "He realised that someone had come into the room.", answer: "Capì che qualcuno era entrato nella stanza.", altAnswers: ["Si rese conto che qualcuno era entrato nella stanza."], explanation: "\"Capì\" (event), \"era entrato\" (earlier event: trapassato prossimo). Avoid \"realizzare\" for to realise." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian (written narrative).", source: "He realized that someone had come into the room.", answer: "Capì che qualcuno era entrato nella stanza.", altAnswers: ["Si rese conto che qualcuno era entrato nella stanza."], explanation: "\"Capì\" (event), \"era entrato\" (earlier event: trapassato prossimo). Avoid \"realizzare\" for to realize." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian (written narrative).", source: "After signing the contract, he left for America.", answer: "Dopo aver firmato il contratto, partì per l'America.", altAnswers: ["Dopo avere firmato il contratto, partì per l'America.", "Firmato il contratto, partì per l'America."], explanation: "\"Dopo aver\" + participle with the same subject; then the passato remoto." },
         ],
       },
@@ -405,6 +424,7 @@ export const IT_C1_U01: Lesson[] = [
         body: [
           "Narrative connectors control the rhythm. For sudden events: \"all'improvviso\", \"d'un tratto\", \"a un tratto\". For sequence: \"poco dopo\", \"subito dopo\", \"in seguito\", \"l'indomani\" (the next day, literary), \"quella stessa sera\". For closing: \"alla fine\", \"infine\", \"da quel giorno\".",
           "Italian narrative tolerates long sentences joined by commas and \"e\", especially for quick sequences: \"Si alzò, prese il cappotto e uscì senza dire una parola\". Three verbs in the passato remoto in a row give pace; an imperfetto in the middle slows the camera down.",
+          "Two stylistic options you will meet in print. Novelists sometimes switch to the present for a dramatic moment (the historic present: \"Apre la porta, e lì, sul pavimento, c'è una lettera\"); if you do it, stay in the present until the scene ends. Newspapers and history books also use a \"narrative imperfetto\" for a single event, to give it a documentary feel: \"Due giorni dopo la polizia arrestava il colpevole\". Recognize it, but in your own stories prefer the passato remoto for events.",
         ],
         examples: [
           { es: "D'un tratto la luce si spense.", en: "Suddenly the light went out." },
@@ -412,6 +432,7 @@ export const IT_C1_U01: Lesson[] = [
           { es: "L'indomani partirono per Napoli.", en: "The next day they left for Naples." },
           { es: "Da quel giorno non tornò più in paese.", en: "From that day on she never went back to the village." },
           { es: "Quella stessa sera scrisse a suo fratello.", en: "That very evening he wrote to his brother." },
+          { es: "Due giorni dopo la polizia arrestava il colpevole.", en: "Two days later the police arrested the culprit. (narrative imperfetto, journalistic)" },
         ],
         checkpoint: [
           { type: "word-order", prompt: "Put the words in order to say: Suddenly the light went out.", words: ["D'un", "tratto", "la", "luce", "si", "spense."], translation: "Suddenly the light went out.", altOrders: [["La", "luce", "d'un", "tratto", "si", "spense."]], explanation: "\"Spegnersi\" → \"si spense\", irregular like \"spensi\"." },
@@ -421,7 +442,7 @@ export const IT_C1_U01: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (written narrative).", source: "It had been raining for three days and the street was empty.", answer: "Pioveva da tre giorni e la strada era deserta.", altAnswers: ["Pioveva da tre giorni e la strada era vuota."], explanation: "\"Da\" + imperfetto for something that had been going on: background." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian (written narrative).", source: "Towards evening someone knocked at the door.", answer: "Verso sera qualcuno bussò alla porta.", explanation: "\"Bussare alla porta\"; the event in the passato remoto." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian (written narrative).", source: "Toward evening someone knocked at the door.", answer: "Verso sera qualcuno bussò alla porta.", explanation: "\"Bussare alla porta\"; the event in the passato remoto." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (written narrative).", source: "He got up, took his coat and went out without a word.", answer: "Si alzò, prese il cappotto e uscì senza dire una parola.", altAnswers: ["Si alzò, prese il cappotto e uscì senza una parola."], explanation: "Three events in a row: three passati remoti." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (written narrative).", source: "He was a quiet man, who spoke little.", answer: "Era un uomo silenzioso, che parlava poco.", altAnswers: ["Era un uomo taciturno, che parlava poco."], explanation: "Description: imperfetto." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (written narrative).", source: "He had promised her he would come back.", answer: "Le aveva promesso che sarebbe tornato.", explanation: "Trapassato prossimo, then the past conditional for the future in the past." },
@@ -519,11 +540,11 @@ export const IT_C1_U01: Lesson[] = [
           { es: "Marco fece una torta per tutti.", en: "Marco made a cake for everyone." },
           { es: "Io feci la mia parte.", en: "I did my part." },
           { es: "Fu lui a chiamare la polizia.", en: "It was he who called the police." },
-          { es: "Il pacco arrivò il giorno dopo.", en: "The parcel arrived the next day." },
+          { es: "Il pacco arrivò il giorno dopo.", en: "The package arrived the next day." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "A learner wrote \"Marco facesti una torta per tutti\". Write it correctly: Marco made a cake for everyone.", source: "Marco made a cake for everyone.", answer: "Marco fece una torta per tutti.", explanation: "\"Facesti\" is the tu form; he = \"fece\"." },
-          { type: "fill-blank", prompt: "A learner wrote \"Il pacco arrivo il giorno dopo\". Write the Italian for the bold word.", en: "The parcel [arrived] the next day.", sentence: "Il pacco ___ il giorno dopo.", answer: "arrivò", explanation: "Without the accent, \"arrivo\" means I arrive." },
+          { type: "fill-blank", prompt: "A learner wrote \"Il pacco arrivo il giorno dopo\". Write the Italian for the bold word.", en: "The package [arrived] the next day.", sentence: "Il pacco ___ il giorno dopo.", answer: "arrivò", explanation: "Without the accent, \"arrivo\" means I arrive." },
         ],
       },
       {
@@ -570,11 +591,11 @@ export const IT_C1_U01: Lesson[] = [
       {
         heading: "Everything belonged to Mazzarò",
         body: [
-          "Giovanni Verga (1840-1922) was the master of verismo, the Italian realist movement. His story \"La roba\" (property, possessions) appeared in the collection \"Novelle rusticane\" in 1883. It follows Mazzarò, a Sicilian farm labourer who becomes the richest landowner in the plain of Catania. The text below is an adaptation in modern Italian, not Verga's own words.",
-          "Notice the opening technique: a traveller passes through the countryside and asks whose land this is; every answer is the same. The imperfetto sets the endless landscape, and the refrain \"di Mazzarò\" does the rest. Glosses: \"il viandante\" (the traveller), \"la pianura\" (the plain), \"il podere\" (the farm), \"la roba\" (property).",
+          "Giovanni Verga (1840-1922) was the master of verismo, the Italian realist movement. His story \"La roba\" (property, possessions) appeared in the collection \"Novelle rusticane\" in 1883. It follows Mazzarò, a Sicilian farm laborer who becomes the richest landowner in the plain of Catania. The text below is an adaptation in modern Italian, not Verga's own words.",
+          "Notice the opening technique: a traveler passes through the countryside and asks whose land this is; every answer is the same. The imperfetto sets the endless landscape, and the refrain \"di Mazzarò\" does the rest. Glosses: \"il viandante\" (the traveler), \"la pianura\" (the plain), \"il podere\" (the farm), \"la roba\" (property).",
         ],
         examples: [
-          { es: "Il viandante che passava per la pianura di Catania vedeva campi e oliveti fino all'orizzonte.", en: "The traveller crossing the plain of Catania saw fields and olive groves as far as the horizon." },
+          { es: "Il viandante che passava per la pianura di Catania vedeva campi e oliveti fino all'orizzonte.", en: "The traveler crossing the plain of Catania saw fields and olive groves as far as the horizon." },
           { es: "\"Di chi sono questi campi?\" chiedeva.", en: "\"Whose fields are these?\" he would ask." },
           { es: "\"Di Mazzarò\", rispondevano i contadini.", en: "\"Mazzarò's\", the farmers would answer." },
           { es: "E i boschi, le vigne, i magazzini: tutto era di Mazzarò.", en: "And the woods, the vineyards, the storehouses: everything was Mazzarò's." },
@@ -588,11 +609,11 @@ export const IT_C1_U01: Lesson[] = [
       {
         heading: "How he got it",
         body: [
-          "The story then goes back in time. Here the events are told in the passato remoto, because each step changed Mazzarò's life: he worked, he saved, he bought. Glosses: \"il bracciante\" (day labourer), \"risparmiare\" (to save), \"il barone\" (the baron, the old landowner).",
+          "The story then goes back in time. Here the events are told in the passato remoto, because each step changed Mazzarò's life: he worked, he saved, he bought. Glosses: \"il bracciante\" (day laborer), \"risparmiare\" (to save), \"il barone\" (the baron, the old landowner).",
           "Verga's narrator speaks almost like a villager, with admiration and irony at once. The repetition of \"comprò\" mirrors Mazzarò's obsession: he never stopped buying.",
         ],
         examples: [
-          { es: "Da ragazzo Mazzarò lavorò come bracciante per il barone.", en: "As a boy Mazzarò worked as a day labourer for the baron." },
+          { es: "Da ragazzo Mazzarò lavorò come bracciante per il barone.", en: "As a boy Mazzarò worked as a day laborer for the baron." },
           { es: "Lavorò da mattina a sera e non spese mai un soldo.", en: "He worked from morning to night and never spent a penny." },
           { es: "Con i primi risparmi comprò un pezzo di terra.", en: "With his first savings he bought a piece of land." },
           { es: "Poi comprò un podere, poi un altro, poi le terre del barone.", en: "Then he bought a farm, then another, then the baron's lands." },
@@ -623,7 +644,7 @@ export const IT_C1_U01: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Whose fields are these?", answer: "Di chi sono questi campi?", explanation: "\"Di chi\" asks whose." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian (passato remoto).", source: "As a boy Mazzarò worked as a day labourer.", answer: "Da ragazzo Mazzarò lavorò come bracciante.", explanation: "\"Da ragazzo\" = as a boy; \"lavorò\" for the period seen as a whole." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian (passato remoto).", source: "As a boy Mazzarò worked as a day laborer.", answer: "Da ragazzo Mazzarò lavorò come bracciante.", explanation: "\"Da ragazzo\" = as a boy; \"lavorò\" for the period seen as a whole." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (passato remoto).", source: "Little by little, the baron lost everything.", answer: "A poco a poco, il barone perse tutto.", altAnswers: ["Il barone, a poco a poco, perse tutto.", "Poco a poco, il barone perse tutto."], explanation: "\"Perdere\" → \"perse\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (passato remoto).", source: "Mazzarò refused to believe it.", answer: "Mazzarò non volle crederci.", altAnswers: ["Mazzarò non ci volle credere."], explanation: "\"Non volle\" = refused; \"crederci\" = to believe it." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (passato remoto).", source: "He started striking the ducks.", answer: "Si mise a colpire le anitre.", altAnswers: ["Cominciò a colpire le anitre.", "Si mise a colpire le anatre.", "Cominciò a colpire le anatre."], explanation: "\"Mettersi a\" + infinitive = to start doing; \"anitra\" and \"anatra\" are both standard." },
@@ -633,17 +654,17 @@ export const IT_C1_U01: Lesson[] = [
         type: "matching",
         instructions: "Match the Italian to the English.",
         pairs: [
-          { left: "il bracciante", right: "the day labourer" },
+          { left: "il bracciante", right: "the day laborer" },
           { left: "il podere", right: "the farm" },
           { left: "la roba", right: "property, possessions" },
-          { left: "il viandante", right: "the traveller" },
+          { left: "il viandante", right: "the traveler" },
           { left: "il bastone", right: "the stick" },
         ],
         explanation: "Key words of the story.",
       },
       { type: "multiple-choice", question: "What is the story's main theme?", options: ["Obsession with property, which cannot follow you after death", "A love story between a farmer and a baroness", "A journey across Sicily", "The life of a priest"], correctIndex: 0, explanation: "Mazzarò's life is all \"roba\", and the ending shows its limits." },
       { type: "dictation", audio: "Con i primi risparmi comprò un pezzo di terra.", explanation: "\"Comprò\": the accent marks the passato remoto." },
-      { type: "speak", text: "Mazzarò lavorò tutta la vita, comprò tutte le terre del barone, ma alla fine non poté portarle con sé.", prompt: "Retell the story in one sentence: Mazzarò worked all his life, bought all the baron's lands, but in the end he couldn't take them with him.", tip: "\"Con sé\": the accent on \"sé\" is acute.", explanation: "Three passati remoti summarise the plot." },
+      { type: "speak", text: "Mazzarò lavorò tutta la vita, comprò tutte le terre del barone, ma alla fine non poté portarle con sé.", prompt: "Retell the story in one sentence: Mazzarò worked all his life, bought all the baron's lands, but in the end he couldn't take them with him.", tip: "\"Con sé\": the accent on \"sé\" is acute.", explanation: "Three passati remoti summarize the plot." },
     ],
   },
   {
@@ -700,7 +721,7 @@ export const IT_C1_U01: Lesson[] = [
           "Before you write, plan: three sentences of background, five or six events, one line of dialogue, an ending. Check every lui / lei form for the accent (\"uscì\", \"tornò\") and every noi form for the double m.",
         ],
         examples: [
-          { es: "Un anno dopo si sposarono nella chiesa del porto.", en: "A year later they got married in the harbour church." },
+          { es: "Un anno dopo si sposarono nella chiesa del porto.", en: "A year later they got married in the harbor church." },
           { es: "Da allora la barca non uscì più col brutto tempo.", en: "From then on the boat never went out in bad weather again." },
           { es: "Ancora oggi, a Natale, il nonno racconta questa storia.", en: "Even today, at Christmas, Grandpa tells this story." },
           { es: "E così nacque la nostra famiglia.", en: "And that is how our family began." },
@@ -737,7 +758,7 @@ export const IT_C1_U01: Lesson[] = [
         heading: "Part 1: the ring",
         body: [
           "You are listening to a storyteller at a summer festival in the Venetian lagoon. She tells an old local legend, \"L'anello del doge\" (the doge's ring), in the passato remoto, as storytellers always do. Listen first without reading; then read the lines below.",
-          "Listening tips: at speed, the passato remoto is recognised by its stress. Final stress (\"trovò\", \"partì\") or the double consonants of irregular verbs (\"venne\", \"cadde\", \"ebbe\") tell you an event has happened. The imperfetto sounds longer and more regular: \"-ava\", \"-eva\", \"-iva\".",
+          "Listening tips: at speed, the passato remoto is recognized by its stress. Final stress (\"trovò\", \"partì\") or the double consonants of irregular verbs (\"venne\", \"cadde\", \"ebbe\") tell you an event has happened. The imperfetto sounds longer and more regular: \"-ava\", \"-eva\", \"-iva\".",
           "Glosses: \"il doge\" (the ruler of the Venetian Republic), \"gettare\" (to throw), \"le nozze\" (the wedding), \"la rete\" (the net).",
         ],
         examples: [
@@ -832,7 +853,7 @@ export const IT_C1_U01: Lesson[] = [
       {
         heading: "Time and place words",
         body: [
-          "A speaker's words point to the moment of speaking: \"ieri\", \"oggi\", \"domani\", \"qui\", \"adesso\". A narrator writes from outside that moment, so these shift as in reported speech: \"ieri\" → \"il giorno prima\", \"oggi\" → \"quel giorno\", \"domani\" → \"il giorno dopo\" or \"l'indomani\", \"qui\" → \"lì\", \"adesso\" → \"in quel momento\", \"la settimana scorsa\" → \"la settimana precedente\".",
+          "A speaker's words point to the moment of speaking: \"ieri\", \"oggi\", \"domani\", \"qui\", \"adesso\". A narrator writes from outside that moment, so these shift as in reported speech: \"ieri\" → \"il giorno prima\", \"oggi\" → \"quel giorno\", \"domani\" → \"il giorno dopo\" or \"l'indomani\", \"qui\" → \"lì\", \"adesso\" → \"in quel momento\" (or \"allora\", \"a quel tempo\" for a longer state), \"la settimana scorsa\" → \"la settimana precedente\".",
           "Persons change too: \"io\" becomes the character (\"Chiara\", \"lei\"), and \"mio\" becomes \"suo\". \"Mia sorella\" → \"sua sorella\"; if the possessive is ambiguous, use the name: \"la sorella di Chiara\".",
         ],
         examples: [
@@ -841,7 +862,7 @@ export const IT_C1_U01: Lesson[] = [
           { es: "Oggi sono rimasta a casa.", en: "Today I stayed at home. (spoken)" },
           { es: "Quel giorno Chiara rimase a casa.", en: "That day Chiara stayed at home. (written)" },
           { es: "Adesso abito qui.", en: "Now I live here. (spoken)" },
-          { es: "In quel momento abitava lì.", en: "At that time she lived there. (written)" },
+          { es: "A quel tempo abitava lì.", en: "At that time she lived there. (written)" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Rewrite \"Oggi sono rimasta a casa\" as narrative about Chiara: That day Chiara stayed at home.", source: "That day Chiara stayed at home.", answer: "Quel giorno Chiara rimase a casa.", altAnswers: ["Quel giorno Chiara restò a casa."], explanation: "\"Oggi\" → \"quel giorno\"; \"sono rimasta\" → \"rimase\"." },
@@ -872,7 +893,7 @@ export const IT_C1_U01: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Rewrite \"Ieri ho chiamato mia sorella\" as narrative: The day before, Chiara had phoned her sister.", source: "The day before, Chiara had phoned her sister.", answer: "Il giorno prima Chiara aveva chiamato sua sorella.", altAnswers: ["Il giorno precedente Chiara aveva chiamato sua sorella.", "Il giorno prima Chiara aveva telefonato a sua sorella."], explanation: "\"Ieri\" → \"il giorno prima\", with the trapassato for the earlier day." },
       { type: "translate", direction: "en-es", prompt: "Rewrite \"Gli ho detto la verità\" as narrative about Anna: Anna told him the truth.", source: "Anna told him the truth.", answer: "Anna gli disse la verità.", explanation: "\"Ho detto\" → \"disse\"." },
       { type: "translate", direction: "en-es", prompt: "Rewrite \"Mi sono accorta che ho perso il portafoglio\" as narrative about Sofia: Sofia noticed that she had lost her wallet.", source: "Sofia noticed that she had lost her wallet.", answer: "Sofia si accorse di aver perso il portafoglio.", altAnswers: ["Sofia si accorse che aveva perso il portafoglio.", "Sofia si accorse di avere perso il portafoglio."], explanation: "\"Si accorse\"; the earlier loss becomes a past infinitive or a trapassato." },
-      { type: "translate", direction: "en-es", prompt: "Rewrite \"Adesso abito qui\" as narrative: At that time she lived there.", source: "At that time she lived there.", answer: "In quel momento abitava lì.", altAnswers: ["A quel tempo abitava lì.", "Allora abitava lì.", "All'epoca abitava lì."], explanation: "\"Adesso\" → \"in quel momento\", \"qui\" → \"lì\"; a state stays imperfetto." },
+      { type: "translate", direction: "en-es", prompt: "Rewrite \"Adesso abito qui\" as narrative: At that time she lived there.", source: "At that time she lived there.", answer: "A quel tempo abitava lì.", altAnswers: ["In quel momento abitava lì.", "Allora abitava lì.", "All'epoca abitava lì.", "A quel tempo viveva lì.", "Allora viveva lì."], explanation: "\"Adesso\" → \"a quel tempo\" or \"allora\" for a lasting state, \"qui\" → \"lì\"; a state stays imperfetto." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "That day Luca [went] to Turin.", sentence: "Quel giorno Luca ___ a Torino.", answer: "andò", explanation: "\"Andare\" is regular in the passato remoto: \"andò\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "They [offered] him the job.", sentence: "Gli ___ il posto.", answer: "offrirono", explanation: "\"Offrire\" → \"offrirono\"." },
       { type: "word-order", prompt: "Put the words in order to say: They met by chance in Bologna.", words: ["Si", "incontrarono", "per", "caso", "a", "Bologna."], translation: "They met by chance in Bologna.", altOrders: [["Si", "incontrarono", "a", "Bologna", "per", "caso."]], explanation: "Reflexive \"si\" before the single verb." },

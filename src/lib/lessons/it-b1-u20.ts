@@ -18,6 +18,7 @@ export const IT_B1_U20: Lesson[] = [
         body: [
           "The passive puts the thing done in first place: \"Dante ha scritto la Divina Commedia\" (active) becomes \"La Divina Commedia è stata scritta da Dante\" (passive). The person or thing that does the action is introduced by \"da\", combined with the article: \"dal\", \"dalla\", \"dai\".",
           "The participle agrees with the subject, like any participle after \"essere\": \"Il ponte è stato costruito\", \"La chiesa è stata costruita\", \"I ponti sono stati costruiti\", \"Le case sono state costruite\".",
+          "Only a direct object can become the subject. English I was given a book or she was told has no Italian passive copy: the person is an indirect object (\"a me\", \"a lei\"). Say \"Mi hanno regalato un libro\" or \"Mi è stato regalato un libro\" (the book is the subject), and \"Le hanno detto\", never \"sono stato dato\" or \"è stata detta\". In conversation Italians often avoid the passive altogether with a plain \"loro\" verb: \"Mi hanno rubato la bici\" (my bike was stolen).",
         ],
         examples: [
           { es: "La Divina Commedia è stata scritta da Dante.", en: "The Divine Comedy was written by Dante." },
@@ -57,7 +58,7 @@ export const IT_B1_U20: Lesson[] = [
         ],
         examples: [
           { es: "Il museo è aperto fino alle sette.", en: "The museum is open until seven." },
-          { es: "Chiuso per ferie.", en: "Closed for the holidays." },
+          { es: "Chiuso per ferie.", en: "Closed for vacation." },
           { es: "La porta è stata chiusa alle otto.", en: "The door was closed at eight." },
         ],
         checkpoint: [
@@ -94,11 +95,12 @@ export const IT_B1_U20: Lesson[] = [
         body: [
           "In simple tenses (present, imperfect, future, conditional), \"venire\" can replace \"essere\" in the passive: \"La cena viene servita alle otto\" (dinner is served at eight). The participle still agrees: \"I piatti vengono lavati a mano\".",
           "\"Venire\" stresses the action as it happens; \"essere\" can sound like a state. \"La porta viene chiusa alle dieci\" is unambiguous: someone closes it at ten.",
+          "That's why \"venire\" is the favorite in descriptions of how things are done (procedures, recipes, guidebooks) and of habits in the past: \"Il pane veniva cotto nel forno a legna\" (bread used to be baked in the wood oven). After a modal, though, Italians normally keep \"essere\": \"Il modulo deve essere firmato\" sounds much more natural than \"deve venire firmato\".",
         ],
         examples: [
           { es: "La cena viene servita alle otto.", en: "Dinner is served at eight." },
           { es: "I piatti vengono lavati a mano.", en: "The dishes are washed by hand." },
-          { es: "La porta viene chiusa alle dieci.", en: "The door is locked at ten." },
+          { es: "La porta viene chiusa alle dieci.", en: "The door is closed at ten." },
           { es: "Il vino veniva prodotto qui fino al 1950.", en: "Wine was produced here until 1950." },
           { es: "Il vincitore verrà annunciato domani.", en: "The winner will be announced tomorrow." },
         ],
@@ -114,7 +116,7 @@ export const IT_B1_U20: Lesson[] = [
           "So: \"Il ponte viene costruito\" (is being built) but \"Il ponte è stato costruito\" (was built).",
         ],
         examples: [
-          { es: "Il ponte viene costruito in questi mesi.", en: "The bridge is being built these months." },
+          { es: "Il ponte viene costruito in questi mesi.", en: "The bridge is being built right now." },
           { es: "Il ponte è stato costruito nel 1990.", en: "The bridge was built in 1990." },
           { es: "Il pacco verrà consegnato lunedì.", en: "The parcel will be delivered on Monday." },
           { es: "Il pacco è stato consegnato lunedì.", en: "The parcel was delivered on Monday." },
@@ -183,17 +185,17 @@ export const IT_B1_U20: Lesson[] = [
       {
         heading: "Rules, recipes, instructions",
         body: [
-          "This pattern is everywhere in instructions and recipes: \"Il modulo va compilato in stampatello\" (the form must be filled in in block capitals), \"Le uova vanno sbattute\" (the eggs should be beaten), \"Il farmaco va preso a stomaco pieno\" (the medicine is to be taken after food).",
+          "This pattern is everywhere in instructions and recipes: \"Il modulo va compilato in stampatello\" (the form must be filled out in block capitals), \"Le uova vanno sbattute\" (the eggs should be beaten), \"Il farmaco va preso a stomaco pieno\" (the medicine is to be taken on a full stomach).",
           "Negative: \"non va\" = must not be: \"Questo vino non va servito freddo\".",
         ],
         examples: [
-          { es: "Il modulo va compilato in stampatello.", en: "The form must be filled in in block capitals." },
+          { es: "Il modulo va compilato in stampatello.", en: "The form must be filled out in block capitals." },
           { es: "Le uova vanno sbattute con lo zucchero.", en: "The eggs should be beaten with the sugar." },
-          { es: "Il farmaco va preso a stomaco pieno.", en: "The medicine is to be taken after food." },
+          { es: "Il farmaco va preso a stomaco pieno.", en: "The medicine is to be taken on a full stomach." },
           { es: "Questo vino non va servito freddo.", en: "This wine shouldn't be served cold." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The form must be filled in in block capitals.", answer: "Il modulo va compilato in stampatello.", altAnswers: ["Il modulo deve essere compilato in stampatello."], explanation: "\"Va compilato\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The form must be filled out in block capitals.", answer: "Il modulo va compilato in stampatello.", altAnswers: ["Il modulo deve essere compilato in stampatello."], explanation: "\"Va compilato\"." },
           { type: "listen-choose", audio: "Il farmaco va preso a stomaco pieno.", question: "When should you take the medicine?", options: ["After eating", "Before eating", "At bedtime", "Once a week"], correctIndex: 0, explanation: "\"A stomaco pieno\" = on a full stomach." },
         ],
       },
@@ -202,6 +204,7 @@ export const IT_B1_U20: Lesson[] = [
         body: [
           "Like \"venire\", obligation \"andare\" is used in simple tenses: \"va fatto\", \"andava fatto\" (should have been done), \"andrà fatto\". For a compound tense, use \"dovere\": \"Avrebbe dovuto essere fatto\".",
           "Careful: \"andare perso\" (to get lost) and \"andare distrutto\" (to get destroyed) are not about obligation: \"La valigia è andata persa\".",
+          "Line up the three: \"Il biglietto è convalidato\" (it's validated: a state), \"viene convalidato\" (it gets validated: the process), \"va convalidato\" (it must be validated). The typical slip is an infinitive after \"andare\": \"va convalidare\" is wrong, and \"va a convalidare\" means he's going off to validate something.",
         ],
         examples: [
           { es: "Andava fatto prima.", en: "It should have been done before." },
@@ -218,8 +221,8 @@ export const IT_B1_U20: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The ticket must be validated before boarding.", answer: "Il biglietto va convalidato prima di salire.", altAnswers: ["Il biglietto deve essere convalidato prima di salire.", "Il biglietto va obliterato prima di salire."], explanation: "\"Va\" + participle." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The plants need watering every day.", answer: "Le piante vanno annaffiate ogni giorno.", altAnswers: ["Le piante vanno innaffiate ogni giorno.", "Le piante vanno annaffiate tutti i giorni."], explanation: "\"Vanno annaffiate\", feminine plural." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "This wine shouldn't be served cold.", answer: "Questo vino non va servito freddo.", altAnswers: ["Questo vino non deve essere servito freddo."], explanation: "\"Non va\" = must not be." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The medicine is to be taken after food.", answer: "Il farmaco va preso a stomaco pieno.", altAnswers: ["Il farmaco va preso dopo i pasti.", "La medicina va presa a stomaco pieno.", "La medicina va presa dopo i pasti."], explanation: "\"Va preso\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The rubbish must be taken out on Tuesday.", answer: "La spazzatura va portata fuori martedì.", altAnswers: ["L'immondizia va portata fuori martedì.", "La spazzatura va portata fuori il martedì."], explanation: "\"Va portata\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The medicine is to be taken on a full stomach.", answer: "Il farmaco va preso a stomaco pieno.", altAnswers: ["Il farmaco va preso dopo i pasti.", "La medicina va presa a stomaco pieno.", "La medicina va presa dopo i pasti."], explanation: "\"Va preso\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The trash must be taken out on Tuesday.", answer: "La spazzatura va portata fuori martedì.", altAnswers: ["L'immondizia va portata fuori martedì.", "La spazzatura va portata fuori il martedì."], explanation: "\"Va portata\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It should have been done before.", answer: "Andava fatto prima.", altAnswers: ["Doveva essere fatto prima.", "Bisognava farlo prima."], explanation: "\"Andava\" + participle." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The eggs [should be beaten] with the sugar.", sentence: "Le uova ___ con lo zucchero.", answer: "vanno sbattute", explanation: "\"Le uova\" is feminine plural." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The work [will have to be finished] by June.", sentence: "Il lavoro ___ entro giugno.", answer: "andrà finito", altAnswers: ["dovrà essere finito"], explanation: "Future \"andrà\"." },
@@ -242,12 +245,13 @@ export const IT_B1_U20: Lesson[] = [
         body: [
           "Italian has a very common passive with \"si\": \"Si vende casa\" (house for sale, literally house is sold), \"Qui si parla inglese\" (English is spoken here). There's no agent: nobody in particular does it.",
           "The verb agrees with the thing: singular thing, singular verb; plural thing, plural verb. \"Si vende una casa\", \"Si vendono case\"; \"Si affitta camera\", \"Si affittano camere\".",
+          "Hand-written signs sometimes say \"si vende case\", but that's a slip: always look at the noun first. The thing usually follows the verb, which is why learners miss it: \"Si cercano camerieri\" (waiters wanted), \"Si accettano prenotazioni\". And don't confuse this \"si\" with a reflexive: \"Si vende\" never means it sells itself.",
         ],
         examples: [
           { es: "Si vende casa con giardino.", en: "House with garden for sale." },
           { es: "Si vendono biciclette usate.", en: "Second-hand bikes for sale." },
           { es: "Qui si parla inglese.", en: "English is spoken here." },
-          { es: "Si affittano camere per studenti.", en: "Rooms to let for students." },
+          { es: "Si affittano camere per studenti.", en: "Rooms for rent to students." },
           { es: "In Italia si beve molto caffè.", en: "A lot of coffee is drunk in Italy." },
         ],
         checkpoint: [
@@ -265,7 +269,7 @@ export const IT_B1_U20: Lesson[] = [
           { es: "Il panettone si mangia a Natale.", en: "Panettone is eaten at Christmas." },
           { es: "Gli spaghetti non si tagliano con il coltello.", en: "Spaghetti isn't cut with a knife." },
           { es: "Questi libri si possono prendere in prestito.", en: "These books can be borrowed." },
-          { es: "Come si scrive il tuo cognome?", en: "How is your surname spelled?" },
+          { es: "Come si scrive il tuo cognome?", en: "How is your last name spelled?" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Panettone is eaten at Christmas.", answer: "Il panettone si mangia a Natale.", altAnswers: ["A Natale si mangia il panettone."], explanation: "Singular: \"si mangia\"." },
@@ -277,12 +281,12 @@ export const IT_B1_U20: Lesson[] = [
         heading: "Past tense and signs",
         body: [
           "In compound tenses the \"si\" passive uses \"essere\" and the participle agrees: \"Si sono vendute mille copie\" (a thousand copies were sold), \"Si è costruita una nuova scuola\".",
-          "On old-fashioned signs you'll also see \"si\" attached to the verb: \"Vendesi\" (for sale), \"Affittasi\" (to let).",
+          "On old-fashioned signs you'll also see \"si\" attached to the verb: \"Vendesi\" (for sale), \"Affittasi\" (for rent).",
         ],
         examples: [
           { es: "Si sono vendute mille copie in una settimana.", en: "A thousand copies were sold in a week." },
           { es: "Si è costruita una nuova scuola.", en: "A new school has been built." },
-          { es: "Affittasi appartamento.", en: "Flat to let." },
+          { es: "Affittasi appartamento.", en: "Apartment for rent." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "A thousand copies were sold in a week.", answer: "Si sono vendute mille copie in una settimana.", altAnswers: ["Sono state vendute mille copie in una settimana."], explanation: "\"Si sono vendute\": agreement with \"copie\"." },
@@ -292,13 +296,13 @@ export const IT_B1_U20: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "House with garden for sale.", answer: "Si vende casa con giardino.", altAnswers: ["Vendesi casa con giardino.", "Si vende una casa con giardino."], explanation: "Singular: \"si vende\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "English is spoken here.", answer: "Qui si parla inglese.", altAnswers: ["Si parla inglese qui.", "Qui si parla l'inglese."], explanation: "\"Si parla\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Rooms to let for students.", answer: "Si affittano camere per studenti.", altAnswers: ["Affittasi camere per studenti."], explanation: "Plural: \"si affittano\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "How is your surname spelled? (to a friend)", answer: "Come si scrive il tuo cognome?", explanation: "\"Si scrive\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Rooms for rent to students.", answer: "Si affittano camere per studenti.", altAnswers: ["Affittasi camere per studenti."], explanation: "Plural: \"si affittano\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "How is your last name spelled? (to a friend)", answer: "Come si scrive il tuo cognome?", explanation: "\"Si scrive\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "A lot of coffee is drunk in Italy.", answer: "In Italia si beve molto caffè.", altAnswers: ["In Italia si beve tanto caffè.", "Si beve molto caffè in Italia."], explanation: "\"Si beve\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "A new school has been built.", answer: "Si è costruita una nuova scuola.", altAnswers: ["È stata costruita una nuova scuola.", "Hanno costruito una nuova scuola."], explanation: "Compound: \"si è costruita\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Here [fresh fish is sold].", sentence: "Qui ___.", answer: "si vende pesce fresco", altAnswers: ["si vende il pesce fresco"], explanation: "Singular." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Shoes are repaired] here.", sentence: "Qui ___.", answer: "si riparano scarpe", altAnswers: ["si riparano le scarpe"], explanation: "Plural: \"si riparano\"." },
-      { type: "word-order", prompt: "Put the words in order to say: How do you say this word?", words: ["Come", "si", "pronuncia", "questa", "parola?"], translation: "How do you say this word?", explanation: "\"Si pronuncia\"." },
+      { type: "word-order", prompt: "Put the words in order to say: How do you pronounce this word?", words: ["Come", "si", "pronuncia", "questa", "parola?"], translation: "How do you pronounce this word?", explanation: "\"Si pronuncia\"." },
       { type: "multiple-choice", question: "Which is correct?", options: ["In estate si mangiano molti gelati.", "In estate si mangia molti gelati.", "In estate si mangiano molto gelati.", "In estate si mangiato molti gelati."], correctIndex: 0, explanation: "Plural object: \"si mangiano\"." },
       { type: "dictation", audio: "In questo negozio si vendono prodotti biologici.", explanation: "\"Si vendono\" + plural." },
       { type: "speak", text: "In Italia il cappuccino si beve solo a colazione, e gli spaghetti non si tagliano mai.", prompt: "Say it in Italian: In Italy cappuccino is only drunk at breakfast, and spaghetti is never cut.", tip: "\"Tagliano\": gli is one soft sound, TA-glia-no.", explanation: "Singular \"si beve\", plural \"si tagliano\"." },
@@ -334,13 +338,13 @@ export const IT_B1_U20: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The car was stolen last night.", answer: "La macchina è stata rubata ieri notte.", altAnswers: ["La macchina è stata rubata stanotte.", "L'auto è stata rubata ieri notte."], explanation: "\"Stata rubata\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The emails are read every morning.", answer: "Le email vengono lette ogni mattina.", altAnswers: ["Le email sono lette ogni mattina.", "Le mail vengono lette ogni mattina."], explanation: "\"Lette\" agrees with \"le email\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The film was directed by Fellini.", answer: "Il film è stato diretto da Fellini.", altAnswers: ["Il film fu diretto da Fellini."], explanation: "\"Diretto\" from \"dirigere\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The exhibition had been organised by students.", answer: "La mostra era stata organizzata dagli studenti.", altAnswers: ["La mostra era stata organizzata da studenti.", "La mostra era stata organizzata da alcuni studenti."], explanation: "Pluperfect passive." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The exhibition had been organized by students.", answer: "La mostra era stata organizzata dagli studenti.", altAnswers: ["La mostra era stata organizzata da studenti.", "La mostra era stata organizzata da alcuni studenti."], explanation: "Pluperfect passive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The guests were welcomed by the mayor.", answer: "Gli ospiti sono stati accolti dal sindaco.", altAnswers: ["Gli ospiti furono accolti dal sindaco.", "Gli invitati sono stati accolti dal sindaco."], explanation: "\"Accolti\" from \"accogliere\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The bills are paid online.", answer: "Le bollette vengono pagate online.", altAnswers: ["Le bollette sono pagate online.", "Le bollette si pagano online."], explanation: "\"Vengono pagate\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The town was destroyed by an earthquake.", answer: "Il paese è stato distrutto da un terremoto.", altAnswers: ["La città è stata distrutta da un terremoto.", "Il paese fu distrutto da un terremoto."], explanation: "\"Da un\" + noun." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The winners [will be chosen] by the public.", sentence: "I vincitori ___ dal pubblico.", answer: "saranno scelti", altAnswers: ["verranno scelti"], explanation: "Future passive." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The windows [are cleaned] once a month.", sentence: "Le finestre ___ una volta al mese.", answer: "vengono pulite", altAnswers: ["sono pulite", "vengono lavate"], explanation: "\"Pulite\" agrees." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The meeting [has been cancelled].", sentence: "La riunione ___.", answer: "è stata annullata", altAnswers: ["è stata cancellata"], explanation: "Compound tense: \"essere\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The meeting [has been canceled].", sentence: "La riunione ___.", answer: "è stata annullata", altAnswers: ["è stata cancellata"], explanation: "Compound tense: \"essere\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The houses [were built] in the sixties.", sentence: "Le case ___ negli anni Sessanta.", answer: "sono state costruite", altAnswers: ["furono costruite"], explanation: "Feminine plural." },
       { type: "word-order", prompt: "Put the words in order to say: The song was written by my grandfather.", words: ["La", "canzone", "è", "stata", "scritta", "da", "mio", "nonno."], translation: "The song was written by my grandfather.", explanation: "\"Da\" + person." },
       { type: "word-order", prompt: "Put the words in order to say: The parcels are delivered in the afternoon.", words: ["I", "pacchi", "vengono", "consegnati", "il", "pomeriggio."], translation: "The parcels are delivered in the afternoon.", altOrders: [["Il", "pomeriggio", "i", "pacchi", "vengono", "consegnati."]], explanation: "\"Vengono consegnati\"." },
@@ -394,7 +398,7 @@ export const IT_B1_U20: Lesson[] = [
       { type: "word-order", prompt: "Put the words in order to say: Here you eat well.", words: ["Qui", "si", "mangia", "bene."], translation: "Here you eat well.", explanation: "No object: singular." },
       { type: "multiple-choice", question: "Which is correct?", options: ["Si cercano volontari.", "Si cerca volontari.", "Si cercano volontario.", "Si cercato volontari."], correctIndex: 0, explanation: "Plural: \"si cercano\"." },
       { type: "multiple-choice", question: "Which is correct?", options: ["In questo bar si fanno ottimi cornetti.", "In questo bar si fa ottimi cornetti.", "In questo bar si fanno ottimo cornetti.", "In questo bar si fatti ottimi cornetti."], correctIndex: 0, explanation: "Plural: \"si fanno\"." },
-      { type: "listen-choose", audio: "Si affittano biciclette e scooter.", question: "What does the sign offer?", options: ["Bikes and scooters for hire", "Bikes and scooters for sale", "Bike repairs", "Free bike parking"], correctIndex: 0, explanation: "\"Si affittano\" = for hire." },
+      { type: "listen-choose", audio: "Si affittano biciclette e scooter.", question: "What does the sign offer?", options: ["Bikes and scooters for rent", "Bikes and scooters for sale", "Bike repairs", "Free bike parking"], correctIndex: 0, explanation: "\"Si affittano\" = for rent." },
       { type: "dictation", audio: "In questa zona si producono ottimi vini rossi.", explanation: "Plural: \"si producono\"." },
       { type: "speak", text: "Si vendono mobili antichi e si fanno riparazioni.", prompt: "Say it in Italian: Antique furniture sold and repairs done.", tip: "\"Riparazioni\": ri-pa-ra-ZIO-ni.", explanation: "Plural twice." },
     ],
@@ -415,7 +419,7 @@ export const IT_B1_U20: Lesson[] = [
         ],
         examples: [
           { es: "Il ponte è stato costruito nel 2010.", en: "The bridge was built in 2010." },
-          { es: "Il ponte viene costruito in questi mesi.", en: "The bridge is being built these months." },
+          { es: "Il ponte viene costruito in questi mesi.", en: "The bridge is being built right now." },
           { es: "Il ponte va costruito al più presto.", en: "The bridge must be built as soon as possible." },
           { es: "La lettera è firmata.", en: "The letter is signed." },
           { es: "La lettera va firmata.", en: "The letter must be signed." },
@@ -447,9 +451,9 @@ export const IT_B1_U20: Lesson[] = [
           "In every type the participle agrees with the subject: \"La porta è chiusa\", \"Le porte vengono chiuse\", \"La porta va chiusa\". Only the \"si\" passive in a simple tense has no participle at all: \"Si chiudono le porte\".",
         ],
         examples: [
-          { es: "Le porte vengono chiuse alle dieci.", en: "The doors are locked at ten." },
+          { es: "Le porte vengono chiuse alle dieci.", en: "The doors are closed at ten." },
           { es: "La porta va chiusa a chiave.", en: "The door must be locked." },
-          { es: "Si chiudono le porte alle dieci.", en: "The doors are locked at ten." },
+          { es: "Si chiudono le porte alle dieci.", en: "The doors are closed at ten." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The door must be locked.", answer: "La porta va chiusa a chiave.", altAnswers: ["La porta deve essere chiusa a chiave."], explanation: "\"Va chiusa\": feminine." },
@@ -459,7 +463,7 @@ export const IT_B1_U20: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The bridge was built in 2010.", answer: "Il ponte è stato costruito nel 2010.", explanation: "Done: \"è stato\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The bridge is being built.", answer: "Il ponte viene costruito.", altAnswers: ["Stanno costruendo il ponte.", "Il ponte è in costruzione."], explanation: "In progress: \"viene\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The doors are locked at ten.", answer: "Le porte vengono chiuse alle dieci.", altAnswers: ["Le porte vengono chiuse alle 10.", "Le porte si chiudono alle dieci."], explanation: "Routine: \"vengono\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The doors are closed at ten.", answer: "Le porte vengono chiuse alle dieci.", altAnswers: ["Le porte vengono chiuse alle 10.", "Le porte si chiudono alle dieci."], explanation: "Routine: \"vengono\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The letter is signed.", answer: "La lettera è firmata.", explanation: "State: \"è\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The rice must be stirred often.", answer: "Il riso va mescolato spesso.", altAnswers: ["Il riso va girato spesso.", "Il riso deve essere mescolato spesso."], explanation: "Obligation: \"va\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Newspapers are sold here.", answer: "Qui si vendono giornali.", altAnswers: ["Qui si vendono i giornali.", "Si vendono giornali qui."], explanation: "General, no agent: \"si\"." },
@@ -528,7 +532,7 @@ export const IT_B1_U20: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Si affitta appartamenti\". Write it correctly: Flats to let.", source: "Flats to let.", answer: "Si affittano appartamenti.", altAnswers: ["Affittasi appartamenti."], explanation: "Plural: \"si affittano\"." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Si affitta appartamenti\". Write it correctly: Apartments for rent.", source: "Apartments for rent.", answer: "Si affittano appartamenti.", altAnswers: ["Affittasi appartamenti."], explanation: "Plural: \"si affittano\"." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Le lettere sono state scritto\". Write it correctly: The letters were written.", source: "The letters were written.", answer: "Le lettere sono state scritte.", explanation: "Both participles agree." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Il quadro è stato dipinto di Caravaggio\". Write it correctly: The painting was painted by Caravaggio.", source: "The painting was painted by Caravaggio.", answer: "Il quadro è stato dipinto da Caravaggio.", altAnswers: ["Il quadro fu dipinto da Caravaggio."], explanation: "\"Da\" for the agent." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"La strada è venuta chiusa\". Write it correctly: The road has been closed.", source: "The road has been closed.", answer: "La strada è stata chiusa.", explanation: "No \"venire\" in compound tenses." },
@@ -608,7 +612,7 @@ export const IT_B1_U20: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Some roads have been closed.", answer: "Alcune strade sono state chiuse.", altAnswers: ["Alcune strade sono state chiuse al traffico."], explanation: "Passato prossimo passive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Bad weather: schools closed in Genoa.", answer: "Maltempo: chiuse le scuole a Genova.", altAnswers: ["Maltempo: scuole chiuse a Genova."], explanation: "Headline style: no \"essere\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Tickets [can be bought] by phone.", sentence: "I biglietti ___ con il telefono.", answer: "potranno essere acquistati", altAnswers: ["possono essere acquistati", "potranno essere comprati", "possono essere comprati", "si possono comprare"], explanation: "Modal + \"essere\" + participle." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Yesterday [over two hundred millimetres] of rain were recorded.", sentence: "Ieri sono stati registrati ___ di pioggia.", answer: "oltre duecento millimetri", altAnswers: ["più di duecento millimetri"], explanation: "\"Oltre\" = more than, in news style." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Yesterday [over two hundred millimeters] of rain were recorded.", sentence: "Ieri sono stati registrati ___ di pioggia.", answer: "oltre duecento millimetri", altAnswers: ["più di duecento millimetri"], explanation: "\"Oltre\" = more than, in news style." },
       { type: "word-order", prompt: "Put the words in order to say: People are advised not to travel.", words: ["Si", "consiglia", "di", "non", "mettersi", "in", "viaggio."], translation: "People are advised not to travel.", explanation: "Official \"si consiglia di\"." },
       { type: "multiple-choice", question: "Why was the tram line delayed?", options: ["Rain slowed the work.", "There was no money.", "The tickets weren't ready.", "There was a strike."], correctIndex: 0, explanation: "\"Rallentati dalla pioggia\"." },
       { type: "multiple-choice", question: "When was the painting stolen?", options: ["In 1996", "Yesterday", "Thirty days ago", "In the nineteenth century"], correctIndex: 0, explanation: "\"Era stato rubato nel 1996\"; it was painted in the 1800s." },
@@ -635,7 +639,7 @@ export const IT_B1_U20: Lesson[] = [
         examples: [
           { es: "Si taglia la cipolla a pezzetti.", en: "The onion is chopped finely." },
           { es: "Si aggiungono i pomodori e un po' di sale.", en: "Add the tomatoes and a little salt." },
-          { es: "Il sugo va cotto a fuoco basso per venti minuti.", en: "The sauce should cook on a low heat for twenty minutes." },
+          { es: "Il sugo va cotto a fuoco basso per venti minuti.", en: "The sauce should cook over low heat for twenty minutes." },
           { es: "La pasta va scolata al dente.", en: "The pasta should be drained al dente." },
         ],
         checkpoint: [
@@ -661,7 +665,7 @@ export const IT_B1_U20: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The onion is chopped finely.", answer: "Si taglia la cipolla a pezzetti.", altAnswers: ["La cipolla si taglia a pezzetti.", "La cipolla va tagliata a pezzetti.", "Si trita la cipolla."], explanation: "\"Si taglia\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The sauce should cook on a low heat for twenty minutes.", answer: "Il sugo va cotto a fuoco basso per venti minuti.", altAnswers: ["Il sugo va cotto a fuoco lento per venti minuti.", "Il sugo va cotto a fuoco basso per 20 minuti."], explanation: "\"Va cotto\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The sauce should cook over low heat for twenty minutes.", answer: "Il sugo va cotto a fuoco basso per venti minuti.", altAnswers: ["Il sugo va cotto a fuoco lento per venti minuti.", "Il sugo va cotto a fuoco basso per 20 minuti."], explanation: "\"Va cotto\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The dish is served with Parmesan.", answer: "Il piatto si serve con il parmigiano.", altAnswers: ["Il piatto si serve col parmigiano.", "Il piatto viene servito con il parmigiano."], explanation: "\"Si serve\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "This recipe was invented by my grandmother.", answer: "Questa ricetta è stata inventata da mia nonna.", explanation: "\"Da mia nonna\": no article." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[The potatoes are peeled] and cut into cubes.", sentence: "___ e si tagliano a cubetti.", answer: "Si sbucciano le patate", explanation: "Plural: \"si sbucciano\"." },
@@ -669,7 +673,7 @@ export const IT_B1_U20: Lesson[] = [
       { type: "word-order", prompt: "Put the words in order to say: The water must be salted when it boils.", words: ["L'acqua", "va", "salata", "quando", "bolle."], translation: "The water must be salted when it boils.", explanation: "\"Va salata\"." },
       { type: "multiple-choice", question: "Which step is correct?", options: ["Si aggiungono le uova una alla volta.", "Si aggiunge le uova una alla volta.", "Si aggiungono le uova uno alla volta.", "Le uova va aggiunte una alla volta."], correctIndex: 0, explanation: "Plural \"le uova\": \"si aggiungono\", \"una alla volta\"." },
       { type: "dictation", audio: "La pasta va scolata al dente e si serve subito.", explanation: "\"Va scolata\", \"si serve\"." },
-      { type: "speak", text: "Si soffrigge la cipolla, si aggiungono i pomodori, e il sugo va cotto a fuoco basso.", prompt: "Say it in Italian: Fry the onion gently, add the tomatoes, and the sauce should cook on a low heat.", tip: "\"Soffrigge\": sof-FRIG-ge, two double consonants.", explanation: "Two \"si\" passives and one \"va\"." },
+      { type: "speak", text: "Si soffrigge la cipolla, si aggiungono i pomodori, e il sugo va cotto a fuoco basso.", prompt: "Say it in Italian: Fry the onion gently, add the tomatoes, and the sauce should cook over low heat.", tip: "\"Soffrigge\": sof-FRIG-ge, two double consonants.", explanation: "Two \"si\" passives and one \"va\"." },
     ],
   },
 ];

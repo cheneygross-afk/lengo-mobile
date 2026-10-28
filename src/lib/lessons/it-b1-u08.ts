@@ -40,7 +40,7 @@ export const IT_B1_U08: Lesson[] = [
           "They are softer than \"penso che\": useful for polite criticism. \"Mi sembra che manchi un po' di sale\" sounds kinder than saying there's no salt.",
         ],
         examples: [
-          { es: "Mi sembra che faccia freddo qui.", en: "It seems a bit cold in here to me." },
+          { es: "Mi sembra che faccia freddo qui.", en: "It seems cold in here to me." },
           { es: "Ti sembra che sia giusto?", en: "Do you think that's fair?" },
           { es: "Mi pare che manchi un po' di sale.", en: "I think it needs a little salt." },
           { es: "Ci sembra che il prezzo sia troppo alto.", en: "We think the price is too high." },
@@ -54,6 +54,7 @@ export const IT_B1_U08: Lesson[] = [
         heading: "Non credo che",
         body: [
           "The negative keeps the subjunctive, and Italians usually put the \"non\" on the opinion verb: \"Non credo che venga\" (I don't think he's coming), \"Non penso che sia vero\". English does the same: I don't think, not I think he isn't.",
+          "You will often see and hear these verbs without \"che\": \"Penso sia vero\", \"Credo abbia ragione\", \"Mi sembra manchi qualcosa\". Dropping \"che\" is perfectly standard, in writing too, but only before the subjunctive: the mood is what holds the sentence together. Don't drop it after \"so\" or \"sono sicuro\". And keep \"credere che\" (to think that) apart from \"credere a\" (to believe someone or something) and \"credere in\" (to believe in): \"Ti credo\", \"Non credo ai fantasmi\", \"Credo in te\".",
         ],
         examples: [
           { es: "Non credo che venga stasera.", en: "I don't think he's coming tonight." },
@@ -73,7 +74,7 @@ export const IT_B1_U08: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We think the price is too high.", answer: "Ci sembra che il prezzo sia troppo alto.", altAnswers: ["Pensiamo che il prezzo sia troppo alto.", "Crediamo che il prezzo sia troppo alto."], explanation: "\"Ci sembra che\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I don't think it's true.", answer: "Non penso che sia vero.", altAnswers: ["Non credo che sia vero."], explanation: "Negative opinion + subjunctive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I think the shops close at eight.", answer: "Credo che i negozi chiudano alle otto.", altAnswers: ["Penso che i negozi chiudano alle otto."], explanation: "\"Chiudano\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It seems a bit cold in here to me.", answer: "Mi sembra che faccia freddo qui.", altAnswers: ["Mi sembra che qui faccia freddo.", "Mi pare che faccia freddo qui."], explanation: "\"Faccia freddo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It seems cold in here to me.", answer: "Mi sembra che faccia freddo qui.", altAnswers: ["Mi sembra che qui faccia freddo.", "Mi pare che faccia freddo qui.", "Mi pare che qui faccia freddo."], explanation: "\"Faccia freddo\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I think Anna [knows] the answer.", sentence: "Penso che Anna ___ la risposta.", answer: "sappia", explanation: "\"Sapere\" → \"sappia\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I don't think they [can] come.", sentence: "Non credo che ___ venire.", answer: "possano", explanation: "\"Possano\"." },
       { type: "multiple-choice", question: "Which is the most natural way to say: I don't think it's expensive?", options: ["Non credo che sia caro.", "Credo che non è caro.", "Non credo che è caro.", "Credo non caro."], correctIndex: 0, explanation: "\"Non\" on the opinion verb, subjunctive after \"che\"." },
@@ -103,8 +104,8 @@ export const IT_B1_U08: Lesson[] = [
           { es: "Pensiamo di comprare casa.", en: "We're thinking of buying a house." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I think I'll leave tomorrow.", answer: "Penso di partire domani.", altAnswers: ["Credo di partire domani."], explanation: "Same subject: \"di\" + infinitive." },
-          { type: "multiple-choice", question: "Which is right for: He thinks he's the best?", options: ["Crede di essere il migliore.", "Crede che sia il migliore.", "Crede che lui è il migliore.", "Crede essere il migliore."], correctIndex: 0, explanation: "He thinks, he is: same subject, \"di essere\". (\"Crede che sia\" would suggest someone else.)" },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I think I'll leave tomorrow.", answer: "Penso di partire domani.", altAnswers: ["Credo di partire domani.", "Penso che partirò domani.", "Credo che partirò domani."], explanation: "Same subject: \"di\" + infinitive." },
+          { type: "multiple-choice", question: "Which is the natural way to say: He thinks he's the best?", options: ["Crede di essere il migliore.", "Crede che sia il migliore.", "Crede che lui è il migliore.", "Crede essere il migliore."], correctIndex: 0, explanation: "He thinks, he is: same subject, \"di essere\". (\"Crede che sia\" would suggest someone else.)" },
         ],
       },
       {
@@ -112,6 +113,7 @@ export const IT_B1_U08: Lesson[] = [
         body: [
           "\"Mi sembra di\" + infinitive means I feel as if / I think I: \"Mi sembra di sognare\" (I feel like I'm dreaming), \"Mi sembra di conoscerlo\" (I think I know him). Compare: \"Mi sembra che lui mi conosca\" (I think he knows me).",
           "Preview of Unit 12: for a past action, use \"avere / essere\" + participle after \"di\": \"Credo di aver capito\" (I think I've understood), \"Penso di aver sbagliato\". Note the short form \"aver\" before a consonant.",
+          "Two cases need care. \"Pensare a\" means to think about: \"Penso a te\", \"Ci penso io\" (I'll take care of it), while \"pensare di\" gives an opinion or a plan. And with the future the same-subject rule relaxes: \"Penso che arriverò tardi\" is natural and correct, because the future indicative is not a subjunctive. What sounds wrong to Italians is \"penso che io sia\" or \"credo che io abbia\": with the same subject, use \"di\".",
         ],
         examples: [
           { es: "Mi sembra di sognare!", en: "I feel like I'm dreaming!" },
@@ -136,7 +138,7 @@ export const IT_B1_U08: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I think I've taken the wrong road.", answer: "Penso di aver sbagliato strada.", altAnswers: ["Credo di aver sbagliato strada.", "Penso di avere sbagliato strada."], explanation: "Past infinitive: \"aver sbagliato\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I don't think [I can] come.", sentence: "Non credo ___ venire.", answer: "di potere", altAnswers: ["di poter"], explanation: "Same subject: \"di potere\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I think [you're] wrong. (to a friend)", sentence: "Credo che ___ torto.", answer: "tu abbia", explanation: "Different subject: \"che tu abbia\"." },
-      { type: "multiple-choice", question: "Which is correct for: I think I'm tired?", options: ["Penso di essere stanco.", "Penso che io sia stanco.", "Penso che sono stanco.", "Penso essere stanco."], correctIndex: 0, explanation: "Same subject: \"di essere\"." },
+      { type: "multiple-choice", question: "Which is the natural way to say: I think I'm tired?", options: ["Penso di essere stanco.", "Penso che io sia stanco.", "Penso che sono stanco.", "Penso essere stanco."], correctIndex: 0, explanation: "Same subject: \"di essere\"." },
       { type: "dictation", audio: "Pensiamo di partire presto, ma credo che Luca voglia dormire.", explanation: "Same subject \"di\", then a different subject \"che\"." },
       { type: "speak", text: "Penso di restare a casa stasera, ma credo che Giulia voglia uscire.", prompt: "Say it in Italian: I think I'll stay home tonight, but I think Giulia wants to go out.", tip: "Pause before \"ma\".", explanation: "\"Di restare\" vs \"che Giulia voglia\"." },
     ],
@@ -154,6 +156,7 @@ export const IT_B1_U08: Lesson[] = [
         body: [
           "When you present something as a fact, use the indicative: \"So che è partito\" (I know he's left), \"Sono sicuro che è vero\", \"È chiaro che non vuole venire\". Knowing, being sure, seeing and saying are not opinions.",
           "Turn certainty into doubt and the subjunctive comes back: \"Non sono sicuro che sia vero\" (I'm not sure it's true).",
+          "The same switch works with \"è vero che\" and \"non è vero che\": \"È vero che costa poco\" (a fact), but \"Non è vero che costi poco\" (a denial). Reporting verbs work like \"so che\": \"Ho letto che\", \"Ho sentito che\", \"Mi hanno detto che\" + indicative, because you pass on information. A common English-speaker slip is to treat I'm sure like I think and write \"Sono sicuro che sia\": for a plain statement, keep the indicative.",
         ],
         examples: [
           { es: "So che è partito ieri.", en: "I know he left yesterday." },
@@ -176,7 +179,7 @@ export const IT_B1_U08: Lesson[] = [
         examples: [
           { es: "Secondo me è vero.", en: "In my opinion it's true." },
           { es: "Secondo me Roma è più bella.", en: "In my view Rome is more beautiful." },
-          { es: "Secondo te ha ragione lui?", en: "Do you reckon he's right?" },
+          { es: "Secondo te ha ragione lui?", en: "In your view, is he right?" },
           { es: "Per me questa pizza è la migliore.", en: "For me this pizza is the best." },
         ],
         checkpoint: [
@@ -206,7 +209,7 @@ export const IT_B1_U08: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I know he left yesterday.", answer: "So che è partito ieri.", altAnswers: ["So che ieri è partito."], explanation: "\"Sapere\": indicative." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I can see you're tired. (to a friend)", answer: "Vedo che sei stanco.", altAnswers: ["Vedo che sei stanca."], explanation: "\"Vedere\": indicative." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In my opinion it's true.", answer: "Secondo me è vero.", altAnswers: ["Per me è vero.", "Secondo me, è vero."], explanation: "\"Secondo me\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Do you reckon he's right? (to a friend)", answer: "Secondo te ha ragione lui?", altAnswers: ["Secondo te, ha ragione lui?", "Secondo te lui ha ragione?"], explanation: "\"Secondo te\" + indicative." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In your view, is he right? (to a friend)", answer: "Secondo te ha ragione lui?", altAnswers: ["Secondo te, ha ragione lui?", "Secondo te lui ha ragione?"], explanation: "\"Secondo te\" + indicative." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I don't think she's coming.", answer: "Non credo che venga.", altAnswers: ["Non penso che venga.", "Non credo che lei venga."], explanation: "Doubt: subjunctive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We're sure the shop is open.", answer: "Siamo sicuri che il negozio è aperto.", altAnswers: ["Siamo sicure che il negozio è aperto."], explanation: "\"Essere sicuri\": indicative." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm not sure the shop is open.", answer: "Non sono sicuro che il negozio sia aperto.", altAnswers: ["Non sono sicura che il negozio sia aperto."], explanation: "Doubt: \"sia\"." },
@@ -253,7 +256,7 @@ export const IT_B1_U08: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I don't think it's a problem.", answer: "Non credo che sia un problema.", altAnswers: ["Non penso che sia un problema."], explanation: "\"Sia\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I think the rent is too high.", answer: "Penso che l'affitto sia troppo alto.", altAnswers: ["Credo che l'affitto sia troppo alto.", "Mi sembra che l'affitto sia troppo alto."], explanation: "\"Sia\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It seems to me that they're going out together.", answer: "Mi sembra che escano insieme.", altAnswers: ["Mi pare che escano insieme."], explanation: "\"Esca\" → \"escano\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I think it [is going to rain] this afternoon.", sentence: "Credo che ___ oggi pomeriggio.", answer: "piova", explanation: "Subjunctive for the near future: \"piova\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I think it [is going to rain] this afternoon.", sentence: "Credo che ___ oggi pomeriggio.", answer: "piova", altAnswers: ["pioverà"], explanation: "Subjunctive for the near future: \"piova\". The future \"pioverà\" is also correct after \"credo che\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Do you think he [can] help us? (to a friend)", sentence: "Pensi che ci ___ aiutare?", answer: "possa", explanation: "\"Possa\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I imagine they [want] to rest.", sentence: "Immagino che ___ riposare.", answer: "vogliano", explanation: "\"Vogliano\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I think the museum [closes] at six.", sentence: "Mi pare che il museo ___ alle sei.", answer: "chiuda", explanation: "\"Chiuda\"." },
@@ -292,9 +295,9 @@ export const IT_B1_U08: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They're thinking of moving to Bari.", answer: "Pensano di trasferirsi a Bari.", explanation: "Same subject: \"di trasferirsi\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I think they're moving to Bari.", answer: "Penso che si trasferiscano a Bari.", altAnswers: ["Credo che si trasferiscano a Bari."], explanation: "Different subject." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I think I need a holiday.", answer: "Credo di avere bisogno di una vacanza.", altAnswers: ["Penso di avere bisogno di una vacanza.", "Credo di aver bisogno di una vacanza.", "Penso di aver bisogno di una vacanza."], explanation: "Same subject." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I think you need a holiday. (to a friend)", answer: "Credo che tu abbia bisogno di una vacanza.", altAnswers: ["Penso che tu abbia bisogno di una vacanza."], explanation: "Different subject." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We think we'll arrive late.", answer: "Pensiamo di arrivare tardi.", altAnswers: ["Crediamo di arrivare tardi.", "Pensiamo di arrivare in ritardo."], explanation: "Same subject." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I think I need a vacation.", answer: "Credo di avere bisogno di una vacanza.", altAnswers: ["Penso di avere bisogno di una vacanza.", "Credo di aver bisogno di una vacanza.", "Penso di aver bisogno di una vacanza."], explanation: "Same subject." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I think you need a vacation. (to a friend)", answer: "Credo che tu abbia bisogno di una vacanza.", altAnswers: ["Penso che tu abbia bisogno di una vacanza."], explanation: "Different subject." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We think we'll arrive late.", answer: "Pensiamo di arrivare tardi.", altAnswers: ["Crediamo di arrivare tardi.", "Pensiamo di arrivare in ritardo.", "Pensiamo che arriveremo tardi.", "Crediamo che arriveremo tardi.", "Pensiamo che arriveremo in ritardo."], explanation: "Same subject." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We think the guests will arrive late.", answer: "Pensiamo che gli ospiti arrivino tardi.", altAnswers: ["Crediamo che gli ospiti arrivino tardi.", "Pensiamo che gli ospiti arrivino in ritardo."], explanation: "Different subject." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She thinks she's always right.", answer: "Crede di avere sempre ragione.", altAnswers: ["Pensa di avere sempre ragione.", "Crede di aver sempre ragione."], explanation: "Same subject." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It seems to me I've seen this film.", answer: "Mi sembra di aver visto questo film.", altAnswers: ["Mi sembra di avere visto questo film.", "Mi pare di aver visto questo film."], explanation: "Same subject, past: \"di aver visto\"." },
@@ -302,8 +305,8 @@ export const IT_B1_U08: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I don't think [you should go out] tonight. (to a friend)", sentence: "Non penso che ___ uscire stasera.", answer: "tu debba", explanation: "Different subject." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Paolo thinks [he's] ill.", sentence: "Paolo crede ___ malato.", answer: "di essere", explanation: "Paolo thinks about himself." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Paolo's mother thinks [he's] ill.", sentence: "La mamma di Paolo crede che ___ malato.", answer: "sia", explanation: "The mother thinks about Paolo." },
-      { type: "multiple-choice", question: "Which is right for: I think I'm late?", options: ["Penso di essere in ritardo.", "Penso che io sia in ritardo.", "Penso che sono in ritardo.", "Penso essere in ritardo."], correctIndex: 0, explanation: "Same subject." },
-      { type: "multiple-choice", question: "Which is right for: I think you're late? (to a friend)", options: ["Penso che tu sia in ritardo.", "Penso di essere in ritardo.", "Penso tu di essere in ritardo.", "Penso che sei essere in ritardo."], correctIndex: 0, explanation: "Different subject." },
+      { type: "multiple-choice", question: "Which is the natural way to say: I think I'm late?", options: ["Penso di essere in ritardo.", "Penso che io sia in ritardo.", "Penso che sono in ritardo.", "Penso essere in ritardo."], correctIndex: 0, explanation: "Same subject: \"di\" + infinitive. \"Penso che io sia\" is grammatical but sounds clumsy to Italians." },
+      { type: "multiple-choice", question: "Which is the natural way to say: I think you're late? (to a friend)", options: ["Penso che tu sia in ritardo.", "Penso di essere in ritardo.", "Penso tu di essere in ritardo.", "Penso che sei essere in ritardo."], correctIndex: 0, explanation: "Different subject." },
       { type: "dictation", audio: "Credo di aver perso il telefono. Pensi che sia in macchina?", explanation: "\"Di aver perso\" (same subject), \"che sia\"." },
       { type: "dictation", audio: "Pensiamo di partire presto, ma non credo che i bambini siano pronti.", explanation: "\"Di partire\", \"che siano\"." },
       { type: "speak", text: "Penso di cambiare lavoro, ma mia moglie pensa che sia una pessima idea.", prompt: "Say it in Italian: I'm thinking of changing jobs, but my wife thinks it's a terrible idea.", tip: "PES-si-ma: stress on the first syllable.", explanation: "\"Di cambiare\" vs \"che sia\"." },
@@ -314,7 +317,7 @@ export const IT_B1_U08: Lesson[] = [
     level: "IT-B1",
     number: 6,
     title: "What Italians Say: Penso Che È",
-    summary: "The indicative after penso che in casual speech: recognise it, but write the subjunctive.",
+    summary: "The indicative after penso che in casual speech: recognize it, but write the subjunctive.",
     duration: "17 min",
     sections: [
       {
@@ -338,17 +341,18 @@ export const IT_B1_U08: Lesson[] = [
         heading: "The future is a fair choice",
         body: [
           "One indicative after \"penso che\" is fully standard: the future, for something that will happen later. \"Penso che verrà\" (I think he'll come) and \"Credo che domani pioverà\" are correct in any register. The subjunctive \"venga\" / \"piova\" is also fine.",
-          "\"Mi sa che\" (I've a feeling that) is a colloquial opinion phrase that always takes the indicative: \"Mi sa che ha ragione lui.\"",
+          "\"Mi sa che\" (I have a feeling that) is a colloquial opinion phrase that always takes the indicative: \"Mi sa che ha ragione lui.\"",
+          "The conditional is also standard after \"penso che\" and \"credo che\": \"Penso che sarebbe meglio partire presto\", \"Credo che ti piacerebbe\". It isn't a subjunctive, but it isn't a casual slip either: it adds the would of English. What stays informal is the plain present or the imperfect (\"credo che era\") where the subjunctive belongs.",
         ],
         examples: [
           { es: "Penso che verrà anche Luca.", en: "I think Luca will come too." },
           { es: "Credo che domani pioverà.", en: "I think it'll rain tomorrow." },
-          { es: "Mi sa che ha ragione lui.", en: "I've a feeling he's right." },
-          { es: "Mi sa che abbiamo sbagliato strada.", en: "I've a feeling we've taken the wrong road." },
+          { es: "Mi sa che ha ragione lui.", en: "I have a feeling he's right." },
+          { es: "Mi sa che abbiamo sbagliato strada.", en: "I have a feeling we've taken the wrong road." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I think it'll rain tomorrow.", answer: "Credo che domani pioverà.", altAnswers: ["Penso che domani pioverà.", "Credo che domani piova.", "Penso che domani piova.", "Credo che pioverà domani."], explanation: "Future indicative or subjunctive: both correct." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I've a feeling he's right.", answer: "Mi sa che ha ragione lui.", altAnswers: ["Mi sa che lui ha ragione."], explanation: "\"Mi sa che\" + indicative." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I have a feeling he's right.", answer: "Mi sa che ha ragione lui.", altAnswers: ["Mi sa che lui ha ragione."], explanation: "\"Mi sa che\" + indicative." },
         ],
       },
     ],
@@ -358,10 +362,10 @@ export const IT_B1_U08: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "You heard \"Mi sembra che fa freddo\". Write the standard version: It seems cold to me.", source: "It seems cold to me.", answer: "Mi sembra che faccia freddo.", altAnswers: ["Mi pare che faccia freddo."], explanation: "\"Faccia\"." },
       { type: "translate", direction: "en-es", prompt: "You heard \"Non credo che viene\". Write the standard version: I don't think he's coming.", source: "I don't think he's coming.", answer: "Non credo che venga.", altAnswers: ["Non penso che venga."], explanation: "\"Venga\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I think Luca will come too.", answer: "Penso che verrà anche Luca.", altAnswers: ["Penso che venga anche Luca.", "Credo che verrà anche Luca.", "Credo che venga anche Luca."], explanation: "Future or subjunctive." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I've a feeling we've taken the wrong road.", answer: "Mi sa che abbiamo sbagliato strada.", explanation: "\"Mi sa che\" + indicative." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I have a feeling we've taken the wrong road.", answer: "Mi sa che abbiamo sbagliato strada.", explanation: "\"Mi sa che\" + indicative." },
       { type: "translate", direction: "en-es", prompt: "You heard \"Penso che sono in ritardo\" about two friends. Write the standard version: I think they're late.", source: "I think they're late.", answer: "Penso che siano in ritardo.", altAnswers: ["Credo che siano in ritardo."], explanation: "\"Siano\"." },
       { type: "fill-blank", prompt: "Write the standard Italian for the bold words.", en: "I think the bar [is] closed.", sentence: "Penso che il bar ___ chiuso.", answer: "sia", explanation: "Standard: \"sia\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I've a feeling it [is] closed.", sentence: "Mi sa che ___ chiuso.", answer: "è", explanation: "\"Mi sa che\" always takes the indicative." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I have a feeling it [is] closed.", sentence: "Mi sa che ___ chiuso.", answer: "è", explanation: "\"Mi sa che\" always takes the indicative." },
       { type: "multi-select", question: "Which are correct in a formal email? Choose all that apply.", options: ["Credo che sia possibile.", "Credo che è possibile.", "Penso che arriverà domani.", "Penso che arrivi domani.", "Penso che arriva domani."], correctIndexes: [0, 2, 3], explanation: "Subjunctive, or future for a later event." },
       { type: "dictation", audio: "Mi sa che ha ragione lui, ma credo che sia troppo tardi.", explanation: "\"Mi sa che ha\", \"credo che sia\"." },
       { type: "speak", text: "Credo che sia una buona idea, e penso che verrà anche Luca.", prompt: "Say it in Italian, the standard way: I think it's a good idea, and I think Luca will come too.", tip: "ver-RÀ: stress on the last syllable.", explanation: "Subjunctive, then future." },
@@ -435,7 +439,7 @@ export const IT_B1_U08: Lesson[] = [
         heading: "Milano o Roma?",
         body: [
           "Giorgio lives in Milan, Elisa in Rome. They meet in Florence and the eternal argument starts. Giorgio: \"Credo che Milano sia più efficiente: i mezzi funzionano, la gente è puntuale.\" Elisa: \"Può darsi, ma secondo me Roma è più bella. E mi sembra che a Milano tutti abbiano sempre fretta.\"",
-          "Giorgio: \"Non penso che sia fretta: è che lavoriamo!\" Elisa: \"Ah sì? E io allora? Non credo che tu sappia quanto lavoro io!\"",
+          "Giorgio: \"Non credo che sia questione di fretta: è che lavoriamo!\" Elisa: \"Ah sì? E io allora? Non credo che tu sappia quanto lavoro io!\"",
         ],
         examples: [
           { es: "Credo che Milano sia più efficiente.", en: "I think Milan is more efficient." },
@@ -455,12 +459,12 @@ export const IT_B1_U08: Lesson[] = [
         ],
         examples: [
           { es: "Su questo hai ragione, però il traffico è terribile.", en: "You're right about that, but the traffic is terrible." },
-          { es: "Non sono d'accordo: dipende dal quartiere.", en: "I don't agree: it depends on the neighbourhood." },
+          { es: "Non sono d'accordo: dipende dal quartiere.", en: "I don't agree: it depends on the neighborhood." },
           { es: "Può darsi, ma non credo che sia così.", en: "Maybe, but I don't think it's like that." },
           { es: "Secondo me la città più bella è Firenze!", en: "In my opinion the most beautiful city is Florence!" },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I don't agree: it depends on the neighbourhood.", answer: "Non sono d'accordo: dipende dal quartiere.", altAnswers: ["Non sono d'accordo, dipende dal quartiere."], explanation: "\"Dipendere da\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I don't agree: it depends on the neighborhood.", answer: "Non sono d'accordo: dipende dal quartiere.", altAnswers: ["Non sono d'accordo, dipende dal quartiere."], explanation: "\"Dipendere da\"." },
           { type: "listen-choose", audio: "Su questo hai ragione, però il traffico è terribile.", question: "What does the speaker do?", options: ["Partly agrees, then objects.", "Completely agrees.", "Completely disagrees.", "Changes the subject."], correctIndex: 0, explanation: "\"Su questo hai ragione, però...\"." },
         ],
       },
@@ -474,7 +478,7 @@ export const IT_B1_U08: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In my opinion the most beautiful city is Florence!", answer: "Secondo me la città più bella è Firenze!", altAnswers: ["Per me la città più bella è Firenze!"], explanation: "\"Secondo me\" + \"è\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I think the trains in Milan [work] better.", sentence: "Credo che a Milano i treni ___ meglio.", answer: "funzionino", explanation: "\"Funzionino\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I don't agree]: it depends.", sentence: "___: dipende.", answer: "Non sono d'accordo", explanation: "\"Essere d'accordo\"." },
-      { type: "word-order", prompt: "Put the words in order to say: I don't think it's a hurry.", words: ["Non", "penso", "che", "sia", "fretta."], translation: "I don't think it's a hurry.", explanation: "\"Non penso che sia\"." },
+      { type: "word-order", prompt: "Put the words in order to say: I don't think it's a question of being in a hurry.", words: ["Non", "credo", "che", "sia", "questione", "di", "fretta."], translation: "I don't think it's a question of being in a hurry.", explanation: "\"Non credo che sia\": the doubt takes the subjunctive." },
       { type: "matching", instructions: "Match each phrase to its meaning.", pairs: [{ left: "Può darsi.", right: "Maybe." }, { left: "Dipende.", right: "It depends." }, { left: "Hai ragione.", right: "You're right." }, { left: "Non sono d'accordo.", right: "I don't agree." }], explanation: "Debate phrases." },
       { type: "dictation", audio: "Credo che Milano sia più efficiente, ma secondo me Roma è più bella.", explanation: "\"Credo che sia\" vs \"secondo me è\"." },
       { type: "speak", text: "Su questo hai ragione, però non credo che Milano sia più bella di Roma.", prompt: "Answer Giorgio in Italian: You're right about that, but I don't think Milan is more beautiful than Rome.", tip: "pe-RÒ: stress on the last syllable.", explanation: "Agree in part, then disagree with \"non credo che sia\"." },
@@ -586,7 +590,7 @@ export const IT_B1_U08: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I don't think the dessert is homemade.", answer: "Non credo che il dolce sia fatto in casa.", altAnswers: ["Non penso che il dolce sia fatto in casa."], explanation: "Doubt: \"sia\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We ordered the tagliatelle and a mixed salad.", answer: "Abbiamo ordinato le tagliatelle e un'insalata mista.", altAnswers: ["Abbiamo preso le tagliatelle e un'insalata mista."], explanation: "Fact: passato prossimo." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It seems to me the waiters are a bit slow.", answer: "Mi sembra che i camerieri siano un po' lenti.", altAnswers: ["Mi pare che i camerieri siano un po' lenti."], explanation: "\"Siano\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I think you should book.", answer: "Penso che sia meglio prenotare.", altAnswers: ["Credo che sia meglio prenotare.", "Secondo me è meglio prenotare."], explanation: "\"Sia meglio\" + infinitive." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I think you should book.", answer: "Penso che sia meglio prenotare.", altAnswers: ["Credo che sia meglio prenotare.", "Secondo me è meglio prenotare.", "Penso che tu debba prenotare.", "Penso che dobbiate prenotare.", "Secondo me conviene prenotare."], explanation: "\"Sia meglio\" + infinitive." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I think the wine list [is] excellent.", sentence: "Credo che la carta dei vini ___ ottima.", answer: "sia", explanation: "\"Sia\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "In my opinion the portions [are] generous.", sentence: "Secondo me le porzioni ___ abbondanti.", answer: "sono", explanation: "\"Secondo me\" + indicative." },
       { type: "word-order", prompt: "Put the words in order to say: I'll definitely go back.", words: ["Ci", "tornerò", "sicuramente."], translation: "I'll definitely go back.", altOrders: [["Sicuramente", "ci", "tornerò."]], explanation: "\"Ci\" = there." },
@@ -606,7 +610,7 @@ export const IT_B1_U08_WRITING: WriteExercise = {
     "Uses the present subjunctive after penso che, credo che, mi sembra che and non credo che",
     "Uses di + infinitive when the subject is the same (penso di trasferirmi, credo di avere ragione)",
     "Uses the indicative after secondo me, so che and sono sicuro che",
-    "Organises the post with clear opinions, examples and a conclusion",
+    "Organizes the post with clear opinions, examples and a conclusion",
   ],
   modelAnswer: "Secondo me è meglio vivere in un piccolo paese. So che in città ci sono più servizi e più lavoro, ma penso che la qualità della vita sia migliore in provincia. Credo che la gente abbia più tempo per parlare e mi sembra che i bambini possano giocare fuori con più libertà. Non credo che l'affitto in città valga lo stress! Certo, sono sicuro che ai giovani piace la vita notturna, e capisco perché. Io però penso di trasferirmi in campagna l'anno prossimo. Voi che cosa ne pensate?",
   explanation: "Opinions take the subjunctive: \"sia\", \"abbia\", \"possano\", \"valga\" (from \"valere\": \"valgo\" → \"valga\"). Facts and certainties take the indicative: \"so che ci sono\", \"sono sicuro che piace\", \"secondo me è\". \"Penso di trasferirmi\" uses \"di\" + infinitive because the writer is the one who will move.",

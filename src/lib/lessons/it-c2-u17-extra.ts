@@ -17,7 +17,7 @@ export const IT_C2_U17_EXTRA: Lesson[] = [
       {
         heading: "Three fresh topics",
         body: [
-          "Practise the presentation formulas on new topics: \"Il lavoro da remoto può salvare i piccoli comuni?\", \"Il cibo come patrimonio culturale\" and \"Le lingue regionali a scuola\". For each, say the opening, the roadmap and the closing line aloud before you type.",
+          "Practice the presentation formulas on new topics: \"Il lavoro da remoto può salvare i piccoli comuni?\", \"Il cibo come patrimonio culturale\" and \"Le lingue regionali a scuola\". For each, say the opening, the roadmap and the closing line aloud before you type.",
           "Keep the structure fixed and change only the content: greeting and hook, a one-sentence map, transitions, one memorable idea, thanks.",
         ],
         examples: [
@@ -55,7 +55,7 @@ export const IT_C2_U17_EXTRA: Lesson[] = [
     level: "IT-C2",
     number: 2,
     title: "Extra Practice: Debate",
-    summary: "Fresh debate topics: cars in historic centres, votes at sixteen and homework, with concessions, rebuttals and turn-taking.",
+    summary: "Fresh debate topics: cars in historic centers, votes at sixteen and homework, with concessions, rebuttals and turn-taking.",
     duration: "20 min",
     optional: true,
     kind: "drill",
@@ -79,8 +79,8 @@ export const IT_C2_U17_EXTRA: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Cars should be banned from historic centres.", answer: "Le auto vanno bandite dai centri storici.", altAnswers: ["Le auto dovrebbero essere bandite dai centri storici.", "Bisogna bandire le auto dai centri storici.", "Le macchine vanno bandite dai centri storici."], explanation: "\"Andare\" + past participle = must be." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I grant you that, but who pays for public transport?", answer: "Su questo le do ragione, ma chi paga i trasporti pubblici?", altAnswers: ["Su questo le do ragione, però chi paga i trasporti pubblici?", "Le do ragione su questo, ma chi paga i mezzi pubblici?"], explanation: "Concession + rhetorical question." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Cars should be banned from historic centers.", answer: "Le auto vanno bandite dai centri storici.", altAnswers: ["Le auto dovrebbero essere bandite dai centri storici.", "Bisogna bandire le auto dai centri storici.", "Le macchine vanno bandite dai centri storici."], explanation: "\"Andare\" + past participle = must be." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I grant you that, but who pays for public transportation?", answer: "Su questo le do ragione, ma chi paga i trasporti pubblici?", altAnswers: ["Su questo le do ragione, però chi paga i trasporti pubblici?", "Le do ragione su questo, ma chi paga i mezzi pubblici?"], explanation: "Concession + rhetorical question." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "At sixteen people work and pay taxes.", answer: "A sedici anni si lavora e si pagano le tasse.", altAnswers: ["A sedici anni si lavora e si pagano tasse.", "A sedici anni la gente lavora e paga le tasse."], explanation: "Impersonal \"si\" with a plural object: \"si pagano\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Your reasoning doesn't hold up: you're confusing age with maturity.", answer: "Il suo ragionamento non regge: lei confonde l'età con la maturità.", altAnswers: ["Il suo ragionamento non regge: confonde l'età con la maturità.", "Il tuo ragionamento non regge: confondi l'età con la maturità."], explanation: "Logical rebuttal." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Homework isn't the problem; too much homework is.", answer: "Il problema non sono i compiti, ma i troppi compiti.", altAnswers: ["Il problema non sono i compiti; sono i troppi compiti.", "Non sono i compiti il problema, ma l'eccesso di compiti."], explanation: "Reframing the motion." },
@@ -92,7 +92,7 @@ export const IT_C2_U17_EXTRA: Lesson[] = [
       { type: "word-order", prompt: "Put the words in order to say: To sum up, our position is simple.", words: ["Riassumendo,", "la", "nostra", "posizione", "è", "semplice."], translation: "To sum up, our position is simple.", explanation: "Closing a debate." },
       { type: "word-order", prompt: "Put the words in order to say: The data says the opposite.", words: ["I", "dati", "dicono", "il", "contrario."], translation: "The data says the opposite.", explanation: "Plural \"dati\" → plural verb." },
       { type: "multiple-choice", question: "Which is the most effective rebuttal in a formal debate?", options: ["Prendiamo il caso delle città che hanno chiuso il centro alle auto: i negozi sono rimasti aperti.", "Lei ha torto e basta.", "Non è vero, non è vero!", "Tutti sanno che sbaglia."], correctIndex: 0, explanation: "A concrete case persuades." },
-      { type: "listen-choose", audio: "Non nego che a sedici anni si sia giovani; tuttavia si lavora, si pagano le tasse e si guida il motorino.", question: "What is the speaker's position on votes at sixteen?", options: ["In favour", "Against", "Undecided", "Only for students"], correctIndex: 0, explanation: "Concession, then arguments in favour." },
+      { type: "listen-choose", audio: "Non nego che a sedici anni si sia giovani; tuttavia si lavora, si pagano le tasse e si guida il motorino.", question: "What is the speaker's position on votes at sixteen?", options: ["In favor", "Against", "Undecided", "Only for students"], correctIndex: 0, explanation: "Concession, then arguments in favor." },
       { type: "speak", text: "È vero che i commercianti temono di perdere clienti, ma i dati dicono il contrario.", prompt: "Concede and rebut aloud: It's true shopkeepers fear losing customers, but the data says the opposite.", tip: "Stress \"ma\" and \"contrario\".", explanation: "Concession + evidence." },
     ],
   },

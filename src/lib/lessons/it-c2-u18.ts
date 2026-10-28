@@ -18,10 +18,10 @@ export const IT_C2_U18: Lesson[] = [
       {
         heading: "A country of emigrants",
         body: [
-          "For a century after Unification, Italy was above all a country of emigration. Historians estimate that between the 1870s and the 1970s more than twenty-five million Italians left, for the Americas, Australia and northern Europe. In Italian you speak of \"la grande emigrazione\", \"le rimesse\" (the money sent home) and \"le comunità italiane all'estero\".",
+          "For a century after Unification, Italy was above all a country of emigration. Historians estimate that between the 1870s and the 1970s there were roughly twenty-five million departures, for the Americas, Australia and northern Europe, though many emigrants later came back. In Italian you speak of \"la grande emigrazione\", \"le rimesse\" (the money sent home) and \"le comunità italiane all'estero\".",
           "Narrative history uses the \"passato remoto\" and the historical present: \"Tra il 1880 e il 1915 partirono milioni di persone\" or, more vividly, \"Nel 1901 partono in cinquecentomila.\" The passive with \"venire\" stresses the process: \"Gli emigranti venivano visitati e registrati a Ellis Island.\"",
           "Key verbs: \"emigrare\" (to leave), \"immigrare\" (to arrive), \"espatriare\" (to leave one's country, formal), \"rimpatriare\" (to return). The nouns follow: \"l'emigrato\", \"l'immigrato\", \"il rimpatrio\". \"Migrante\" covers both directions and is the neutral word in today's media.",
-          "Emigration also shaped the language. Italian communities abroad mixed Italian, dialect and the local language, and returning emigrants brought words back: Italian-American forms such as \"la giobba\" (job) and \"lo storo\" (store) travelled back to some villages. Family memory keeps this history alive in expressions such as \"lo zio d'America\", the rich relative overseas.",
+          "Emigration also shaped the language. Italian communities abroad mixed Italian, dialect and the local language, and returning emigrants brought words back: Italian-American forms such as \"la giobba\" (job) and \"lo storo\" (store) traveled back to some villages. Family memory keeps this history alive in expressions such as \"lo zio d'America\", the rich relative overseas.",
         ],
         examples: [
           { es: "Tra il 1880 e il 1915 partirono milioni di persone.", en: "Between 1880 and 1915, millions of people left." },
@@ -39,7 +39,7 @@ export const IT_C2_U18: Lesson[] = [
       {
         heading: "A country of immigration",
         body: [
-          "Since the 1980s the flow has reversed, and today about five million foreign citizens live in Italy, according to ISTAT. Newspapers distinguish \"i migranti economici\", \"i richiedenti asilo\" (asylum seekers), \"i rifugiati\" (recognised refugees) and \"le seconde generazioni\", the children of immigrants born or raised in Italy.",
+          "Since the 1980s the flow has reversed, and today about five million foreign citizens live in Italy, according to ISTAT. Newspapers distinguish \"i migranti economici\", \"i richiedenti asilo\" (asylum seekers), \"i rifugiati\" (recognized refugees) and \"le seconde generazioni\", the children of immigrants born or raised in Italy.",
           "Choose words with care. \"Clandestino\" is loaded and many journalists avoid it; \"irregolare\" or \"senza permesso di soggiorno\" are neutral. \"Extracomunitario\", literally non-EU, is technically correct but often carries a negative tone in everyday use. At C2, your choice of word is part of your argument.",
           "A recurring debate concerns citizenship. Italian law is based mainly on \"ius sanguinis\" (descent), and proposals such as \"ius scholae\" would link citizenship to schooling in Italy. Describe positions neutrally: \"I sostenitori ritengono che..., mentre i contrari temono che...\" Both verbs take the subjunctive.",
           "Present numbers with care and always with a source: \"secondo l'ISTAT\", \"stando ai dati del ministero\", \"secondo le stime più recenti\". Round them honestly (\"circa\", \"poco più di\", \"quasi\") and avoid mixing years. A debate on migration quickly becomes a debate on numbers, and a careless figure discredits a good argument.",
@@ -106,7 +106,7 @@ export const IT_C2_U18: Lesson[] = [
     level: "IT-C2",
     number: 2,
     title: "Demographic Change",
-    summary: "Talk about Italy's falling birth rate and ageing population with statistical vocabulary, comparatives, nominal style and cautious forecasts.",
+    summary: "Talk about Italy's falling birth rate and aging population with statistical vocabulary, comparatives, nominal style and cautious forecasts.",
     duration: "19 min",
     sections: [
       {
@@ -121,34 +121,34 @@ export const IT_C2_U18: Lesson[] = [
           { es: "Le nascite sono scese sotto le quattrocentomila l'anno.", en: "Births have fallen below 400,000 a year." },
           { es: "Il tasso di fecondità è di circa 1,2 figli per donna.", en: "The fertility rate is about 1.2 children per woman." },
           { es: "Il saldo naturale è negativo da anni.", en: "Deaths have outnumbered births for years." },
-          { es: "Mancano gli asili nido e le case costano troppo.", en: "There aren't enough nurseries and housing is too expensive." },
+          { es: "Mancano gli asili nido e le case costano troppo.", en: "There aren't enough daycare centers and housing is too expensive." },
           { es: "Si parla ormai di inverno demografico.", en: "People now talk of a demographic winter." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Births have fallen below 400,000 a year.", answer: "Le nascite sono scese sotto le quattrocentomila l'anno.", altAnswers: ["Le nascite sono scese sotto le 400.000 l'anno.", "Le nascite sono scese sotto le 400.000 all'anno.", "Le nascite sono calate sotto le quattrocentomila l'anno."], explanation: "\"Scendere sotto\" = to fall below." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Deaths have outnumbered births] for years.", sentence: "___ da anni.", answer: "Il saldo naturale è negativo", explanation: "Technical term for deaths minus births." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "There aren't enough nurseries and housing is too expensive.", answer: "Mancano gli asili nido e le case costano troppo.", altAnswers: ["Mancano asili nido e le case costano troppo.", "Non ci sono abbastanza asili nido e le case costano troppo."], explanation: "\"Mancare\" agrees with what is missing." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "There aren't enough daycare centers and housing is too expensive.", answer: "Mancano gli asili nido e le case costano troppo.", altAnswers: ["Mancano asili nido e le case costano troppo.", "Non ci sono abbastanza asili nido e le case costano troppo."], explanation: "\"Mancare\" agrees with what is missing." },
         ],
       },
       {
-        heading: "An ageing population",
+        heading: "An aging population",
         body: [
           "At the same time, Italians live longer than almost anyone in Europe. Nearly one Italian in four is over sixty-five, and \"l'indice di vecchiaia\" (the ratio of over-65s to under-15s) keeps rising. Key words: \"l'invecchiamento della popolazione\", \"gli anziani\", \"la terza età\", \"la longevità\", \"la sostenibilità del sistema pensionistico\".",
           "Comparisons make data meaningful: \"Oggi gli over 65 sono più numerosi dei giovani sotto i quindici anni.\" \"Gli anziani sono il doppio rispetto a quarant'anni fa.\" \"Rispetto a\" and \"il doppio, il triplo, la metà\" are the bread and butter of demographic writing.",
           "The consequences are discussed with the impersonal and the conditional of caution: \"Si rischia di avere sempre meno lavoratori per ogni pensionato.\" \"Servirebbero politiche di lungo periodo.\" The conditional \"servirebbe\" or \"bisognerebbe\" lets you propose without sounding dogmatic.",
-          "Ageing is also a social story: \"i nonni\" look after grandchildren, \"le badanti\" (live-in carers, often from Eastern Europe or South America) look after the very old, and many small towns are now inhabited mainly by pensioners. These details make a demographic argument concrete and human.",
+          "Aging is also a social story: \"i nonni\" look after grandchildren, \"le badanti\" (live-in caregivers, many of them from Eastern Europe, Latin America or the Philippines) look after the very old, and many small towns are now inhabited mainly by retirees. These details make a demographic argument concrete and human.",
         ],
         examples: [
           { es: "Quasi un italiano su quattro ha più di sessantacinque anni.", en: "Nearly one Italian in four is over sixty-five." },
           { es: "Gli over 65 sono più numerosi dei giovani sotto i quindici anni.", en: "Over-65s outnumber young people under fifteen." },
           { es: "Gli anziani sono il doppio rispetto a quarant'anni fa.", en: "There are twice as many elderly people as forty years ago." },
-          { es: "Si rischia di avere sempre meno lavoratori per ogni pensionato.", en: "There's a risk of having fewer and fewer workers for each pensioner." },
+          { es: "Si rischia di avere sempre meno lavoratori per ogni pensionato.", en: "There's a risk of having fewer and fewer workers for each retiree." },
           { es: "Servirebbero politiche di lungo periodo.", en: "Long-term policies would be needed." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Nearly one Italian in four is over sixty-five.", answer: "Quasi un italiano su quattro ha più di sessantacinque anni.", altAnswers: ["Quasi un italiano su quattro ha più di 65 anni.", "Quasi un italiano su quattro ha oltre sessantacinque anni."], explanation: "\"Uno su quattro\" = one in four." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Long-term policies would be needed.", answer: "Servirebbero politiche di lungo periodo.", altAnswers: ["Ci vorrebbero politiche di lungo periodo.", "Sarebbero necessarie politiche di lungo periodo.", "Servirebbero politiche a lungo termine."], explanation: "Conditional for a cautious proposal." },
-          { type: "listen-choose", audio: "Gli anziani sono il doppio rispetto a quarant'anni fa, mentre i bambini sono quasi la metà.", question: "What has happened to the number of children?", options: ["It has nearly halved.", "It has doubled.", "It is unchanged.", "It has tripled."], correctIndex: 0, explanation: "\"Quasi la metà\"." },
+          { type: "listen-choose", audio: "Gli anziani sono il doppio rispetto a quarant'anni fa, mentre i bambini sono circa un terzo in meno.", question: "What has happened to the number of children?", options: ["It has fallen by about a third.", "It has doubled.", "It is unchanged.", "It has tripled."], correctIndex: 0, explanation: "\"Un terzo in meno\" = a third fewer." },
         ],
       },
       {
@@ -161,7 +161,7 @@ export const IT_C2_U18: Lesson[] = [
         examples: [
           { es: "Secondo le proiezioni, la popolazione continuerà a diminuire.", en: "According to projections, the population will keep shrinking." },
           { es: "Entro il 2050 gli over 65 potrebbero superare un terzo della popolazione.", en: "By 2050 over-65s could exceed a third of the population." },
-          { es: "Tra le misure proposte figurano più asili nido e congedi parentali.", en: "The proposed measures include more nurseries and parental leave." },
+          { es: "Tra le misure proposte figurano più asili nido e congedi parentali.", en: "The proposed measures include more daycare centers and parental leave." },
           { es: "Si tratta di una sfida, non di una catastrofe.", en: "It's a challenge, not a catastrophe." },
         ],
         checkpoint: [
@@ -174,9 +174,9 @@ export const IT_C2_U18: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The fertility rate is about 1.2 children per woman.", answer: "Il tasso di fecondità è di circa 1,2 figli per donna.", altAnswers: ["Il tasso di fecondità è di circa uno virgola due figli per donna.", "Il tasso di fecondità è pari a circa 1,2 figli per donna."], explanation: "Decimal comma." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Over-65s outnumber young people under fifteen.", answer: "Gli over 65 sono più numerosi dei giovani sotto i quindici anni.", altAnswers: ["Gli ultrasessantacinquenni sono più numerosi dei ragazzi sotto i quindici anni.", "Gli over 65 superano i giovani sotto i quindici anni."], explanation: "\"Più numerosi di\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "There are twice as many elderly people as forty years ago.", answer: "Gli anziani sono il doppio rispetto a quarant'anni fa.", altAnswers: ["Gli anziani sono il doppio di quarant'anni fa.", "Ci sono il doppio degli anziani rispetto a quarant'anni fa."], explanation: "\"Il doppio rispetto a\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "There's a risk of having fewer and fewer workers for each pensioner.", answer: "Si rischia di avere sempre meno lavoratori per ogni pensionato.", altAnswers: ["C'è il rischio di avere sempre meno lavoratori per ogni pensionato.", "Si rischia di avere sempre meno lavoratori per pensionato."], explanation: "\"Sempre meno\" = fewer and fewer." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "There's a risk of having fewer and fewer workers for each retiree.", answer: "Si rischia di avere sempre meno lavoratori per ogni pensionato.", altAnswers: ["C'è il rischio di avere sempre meno lavoratori per ogni pensionato.", "Si rischia di avere sempre meno lavoratori per pensionato."], explanation: "\"Sempre meno\" = fewer and fewer." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "By 2050 over-65s could exceed a third of the population.", answer: "Entro il 2050 gli over 65 potrebbero superare un terzo della popolazione.", altAnswers: ["Entro il 2050 gli ultrasessantacinquenni potrebbero superare un terzo della popolazione.", "Nel 2050 gli over 65 potrebbero superare un terzo della popolazione."], explanation: "Conditional for a forecast." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[The proposed measures include] more nurseries.", sentence: "___ più asili nido.", answer: "Tra le misure proposte figurano", altAnswers: ["Tra le misure proposte ci sono"], explanation: "Formal \"figurare\" = to appear, be included." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[The proposed measures include] more daycare centers.", sentence: "___ più asili nido.", answer: "Tra le misure proposte figurano", altAnswers: ["Tra le misure proposte ci sono"], explanation: "Formal \"figurare\" = to appear, be included." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "People now talk of [a demographic winter].", sentence: "Si parla ormai di ___.", answer: "inverno demografico", explanation: "A widely used metaphor." },
       { type: "word-order", prompt: "Put the words in order to say: Deaths have outnumbered births for years.", words: ["Il", "saldo", "naturale", "è", "negativo", "da", "anni."], translation: "Deaths have outnumbered births for years.", explanation: "\"Da\" + present for an ongoing state." },
       {
@@ -218,34 +218,34 @@ export const IT_C2_U18: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In 1950 the Fund for the South was set up.", answer: "Nel 1950 fu istituita la Cassa per il Mezzogiorno.", altAnswers: ["Nel 1950 venne istituita la Cassa per il Mezzogiorno.", "Nel 1950 è stata istituita la Cassa per il Mezzogiorno."], explanation: "Historical passive." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In the 1950s and 60s millions of southerners migrated to the North.", answer: "Negli anni Cinquanta e Sessanta milioni di meridionali emigrarono al Nord.", altAnswers: ["Negli anni Cinquanta e Sessanta milioni di meridionali si trasferirono al Nord.", "Negli anni '50 e '60 milioni di meridionali emigrarono al Nord."], explanation: "Decades written as words, capitalised." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In the 1950s and 60s millions of southerners migrated to the North.", answer: "Negli anni Cinquanta e Sessanta milioni di meridionali emigrarono al Nord.", altAnswers: ["Negli anni Cinquanta e Sessanta milioni di meridionali si trasferirono al Nord.", "Negli anni '50 e '60 milioni di meridionali emigrarono al Nord."], explanation: "Decades written as words, capitalized." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It is still debated [whether the gap already existed].", sentence: "Si discute ancora ___ prima dell'Unità.", answer: "se il divario esistesse già", explanation: "Indirect question: subjunctive." },
         ],
       },
       {
         heading: "The gap today",
         body: [
-          "Today's data still show a marked gap. GDP per head in the South is a little over half that of the Centre-North; unemployment, especially among young people and women, is much higher; and many young southerners move north or abroad to study and work. Note the vocabulary: \"il divario\", \"il gap\" (in journalism), \"il PIL pro capite\", \"il tasso di occupazione\".",
+          "Today's data still show a marked gap. GDP per head in the South is a little over half that of the Center-North; unemployment, especially among young people and women, is much higher; and many young southerners move north or abroad to study and work. Note the vocabulary: \"il divario\", \"il gap\" (in journalism), \"il PIL pro capite\", \"il tasso di occupazione\".",
           "Use comparatives and proportions precisely: \"Il PIL pro capite del Sud è poco più della metà di quello del Centro-Nord.\" \"La disoccupazione giovanile è quasi doppia.\" \"Quello di\" avoids repeating the noun, as English ‘that of’ does.",
           "Don't paint the South as one block. There are innovative universities, dynamic companies and tourist regions that grow faster than parts of the North. \"Non esiste un solo Sud\" is a common and fair opening for a nuanced essay.",
-          "Internal migration is part of the story. In the 1950s and 1960s, during \"il miracolo economico\", millions of southerners moved to Turin, Milan and Genoa to work in factories. Today the movement continues in a different form: students and graduates rather than factory workers, and often towards foreign cities as well as northern ones.",
+          "Internal migration is part of the story. In the 1950s and 1960s, during \"il miracolo economico\", millions of southerners moved to Turin, Milan and Genoa to work in factories. Today the movement continues in a different form: students and graduates rather than factory workers, and often toward foreign cities as well as northern ones.",
         ],
         examples: [
-          { es: "Il PIL pro capite del Sud è poco più della metà di quello del Centro-Nord.", en: "GDP per head in the South is a little over half that of the Centre-North." },
+          { es: "Il PIL pro capite del Sud è poco più della metà di quello del Centro-Nord.", en: "GDP per head in the South is a little over half that of the Center-North." },
           { es: "La disoccupazione giovanile è quasi doppia.", en: "Youth unemployment is almost twice as high." },
           { es: "Molti giovani meridionali si trasferiscono al Nord per studiare.", en: "Many young southerners move north to study." },
           { es: "Non esiste un solo Sud.", en: "There isn't just one South." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Youth unemployment is almost twice as high.", answer: "La disoccupazione giovanile è quasi doppia.", altAnswers: ["La disoccupazione giovanile è quasi il doppio.", "La disoccupazione dei giovani è quasi doppia."], explanation: "\"Doppio\" as an adjective." },
-          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "GDP per head in the South is a little over half [that of] the Centre-North.", sentence: "Il PIL pro capite del Sud è poco più della metà di ___ del Centro-Nord.", answer: "quello", explanation: "\"Quello di\" = that of." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "GDP per head in the South is a little over half [that of] the Center-North.", sentence: "Il PIL pro capite del Sud è poco più della metà di ___ del Centro-Nord.", answer: "quello", explanation: "\"Quello di\" = that of." },
           { type: "multiple-choice", question: "Which opening is the most nuanced for an essay on the South?", options: ["Non esiste un solo Sud.", "Il Sud è arretrato.", "Il Sud non cambierà mai.", "Il Sud è tutto uguale."], correctIndex: 0, explanation: "Avoid treating the South as one block." },
         ],
       },
       {
         heading: "Arguing about solutions",
         body: [
-          "Proposals are usually framed with nominalisations and the passive: \"il potenziamento delle infrastrutture\", \"la lotta all'evasione e al lavoro nero\", \"gli investimenti nell'istruzione\", \"la riduzione della burocrazia\". \"Il PNRR\", the national recovery plan financed by the EU, has reserved a large share of its funds for the South.",
+          "Proposals are usually framed with nominalizations and the passive: \"il potenziamento delle infrastrutture\", \"la lotta all'evasione e al lavoro nero\", \"gli investimenti nell'istruzione\", \"la riduzione della burocrazia\". \"Il PNRR\", the national recovery plan financed by the EU, has reserved a large share of its funds for the South.",
           "Express conditions and doubts: \"A patto che i fondi vengano spesi bene, il divario potrebbe ridursi.\" \"Resta da vedere se gli investimenti produrranno effetti duraturi.\" \"Resta da vedere se\" (it remains to be seen whether) is perfect for a cautious conclusion.",
           "Finally, mind the tone of regional words. \"Meridionale\" and \"del Sud\" are neutral; \"terrone\" is an insult, though sometimes reclaimed ironically by southerners themselves. In an essay, never use it except in quotation, as an example of prejudice.",
         ],
@@ -263,10 +263,10 @@ export const IT_C2_U18: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "After Unification, the gap didn't narrow; in fact, it widened.", answer: "Dopo l'Unità, il divario non si ridusse; anzi, si aggravò.", altAnswers: ["Dopo l'Unità il divario non si ridusse, anzi si aggravò.", "Dopo l'Unità, il divario non diminuì; anzi, aumentò."], explanation: "\"Anzi\" strengthens the contrast." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "There isn't just one South.", answer: "Non esiste un solo Sud.", altAnswers: ["Non c'è un solo Sud.", "Non esiste un Sud unico."], explanation: "\"Sud\" capitalised as a region." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "There isn't just one South.", answer: "Non esiste un solo Sud.", altAnswers: ["Non c'è un solo Sud.", "Non esiste un Sud unico."], explanation: "\"Sud\" capitalized as a region." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Many young southerners move north to study.", answer: "Molti giovani meridionali si trasferiscono al Nord per studiare.", altAnswers: ["Molti giovani del Sud si trasferiscono al Nord per studiare.", "Molti giovani meridionali vanno al Nord a studiare."], explanation: "\"Trasferirsi\" = to move." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Improving infrastructure is a priority.", answer: "Il potenziamento delle infrastrutture è una priorità.", altAnswers: ["Migliorare le infrastrutture è una priorità.", "Potenziare le infrastrutture è una priorità."], explanation: "Nominal style in essays." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "According to some historians, Unification penalised the South.", answer: "Secondo alcuni storici, l'Unità penalizzò il Sud.", altAnswers: ["Secondo alcuni storici, l'Unità ha penalizzato il Sud.", "Secondo alcuni storici l'Unità penalizzò il Mezzogiorno."], explanation: "Attribute interpretations." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "According to some historians, Unification penalized the South.", answer: "Secondo alcuni storici, l'Unità penalizzò il Sud.", altAnswers: ["Secondo alcuni storici, l'Unità ha penalizzato il Sud.", "Secondo alcuni storici l'Unità penalizzò il Mezzogiorno."], explanation: "Attribute interpretations." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[The fight against] undeclared work concerns the whole country.", sentence: "___ lavoro nero riguarda tutto il paese.", answer: "La lotta al", explanation: "\"Lotta a\" = fight against." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Provided] the funds are spent well, the gap could narrow.", sentence: "___ i fondi vengano spesi bene, il divario potrebbe ridursi.", answer: "A patto che", altAnswers: ["Purché", "A condizione che"], explanation: "Conditional conjunction + subjunctive." },
       { type: "word-order", prompt: "Put the words in order to say: Youth unemployment is almost twice as high.", words: ["La", "disoccupazione", "giovanile", "è", "quasi", "doppia."], translation: "Youth unemployment is almost twice as high.", explanation: "Proportion." },
@@ -287,9 +287,9 @@ export const IT_C2_U18: Lesson[] = [
         heading: "Leaving",
         body: [
           "\"La fuga dei cervelli\" (the brain drain) describes the departure of graduates and researchers. Every year tens of thousands of young Italians register as residents abroad, and many more leave without registering. Common destinations are Germany, the United Kingdom, Switzerland, France and Spain. Many prefer \"mobilità\" or \"circolazione dei talenti\", which sounds less dramatic.",
-          "The usual causes come in a list: \"stipendi bassi, contratti precari, scarsa meritocrazia, pochi fondi per la ricerca\". Personal testimony adds colour: \"Me ne sono andata perché qui, a trent'anni, avevo ancora un contratto a progetto.\" \"Andarsene\" (to leave for good) is the verb of emigration stories.",
+          "The usual causes come in a list: \"stipendi bassi, contratti precari, scarsa meritocrazia, pochi fondi per la ricerca\". Personal testimony adds color: \"Me ne sono andata perché qui, a trent'anni, avevo ancora un contratto a progetto.\" \"Andarsene\" (to leave for good) is the verb of emigration stories.",
           "Note the idioms: \"cercare fortuna all'estero\", \"fare le valigie\", \"sbarcare il lunario\" (to scrape a living), \"tirare avanti\". They appear in interviews and give your Italian the texture of real conversation.",
-          "Avoid generalisations about who leaves. Not only researchers go: nurses, chefs, engineers, young people without a degree. Many leave from the North as well as the South. An essay that says \"non partono soltanto i laureati\" or \"il fenomeno riguarda tutto il paese\" shows that you know the data, not just the headline.",
+          "Avoid generalizations about who leaves. Not only researchers go: nurses, chefs, engineers, young people without a degree. Many leave from the North as well as the South. An essay that says \"non partono soltanto i laureati\" or \"il fenomeno riguarda tutto il paese\" shows that you know the data, not just the headline.",
         ],
         examples: [
           { es: "Me ne sono andata perché avevo ancora un contratto precario.", en: "I left because I still had a temporary contract." },
@@ -311,6 +311,7 @@ export const IT_C2_U18: Lesson[] = [
           "Mixed hypotheses express regret and alternative histories: \"Se avessi trovato un posto stabile, sarei rimasta.\" \"Se l'università fosse più meritocratica, molti non sarebbero partiti.\" The first is fully past; the second mixes a present condition with a past result.",
           "Feelings are part of the debate: \"la nostalgia\", \"il senso di colpa\", \"sentirsi divisi tra due paesi\". \"Mi sento a casa a Londra, ma il cuore è rimasto a Palermo\" is the kind of sentence that recurs in interviews.",
           "Italian has a rich vocabulary for this in-between condition: \"sentirsi sradicati\" (uprooted), \"avere un piede in due scarpe\" (to keep a foot in both camps, often critical), \"tornare alle radici\". Use them sparingly and in the right register: idioms suit interviews and opinion pieces more than academic essays.",
+          "Numbers need care here too. Italians who move abroad for more than twelve months are supposed to register with \"l'AIRE\" (Anagrafe degli italiani residenti all'estero), but many don't, so official figures understate departures. Words carry attitudes as well: \"emigrato\" recalls the past and cardboard suitcases; \"expat\", borrowed from English, suggests a choice and a good salary; \"cervello in fuga\" flatters the person but dramatizes the departure. Choosing among them already takes a position.",
         ],
         examples: [
           { es: "L'Italia forma i giovani e poi ne regala il talento ad altri paesi.", en: "Italy trains young people and then gives their talent away to other countries." },
@@ -369,12 +370,12 @@ export const IT_C2_U18: Lesson[] = [
         body: [
           "This drill recycles the advanced structures you need for contemporary topics: concessives with the subjunctive (\"benché\", \"per quanto\", \"pur\" + gerund), the passive with \"venire\" and \"andare\", hypotheses of every type, and the conditional of caution (\"servirebbe\", \"potrebbe\").",
           "Say each sentence aloud first. Then type it, checking agreement and the mood after each conjunction.",
-          "Pay special attention to three traps: \"benché\", \"nonostante\" and \"a patto che\" always take the subjunctive; \"perché\" of cause takes the indicative; and a mixed hypothesis combines a past condition with a present result (\"Se fossi rimasto, oggi sarei...\"). Getting these right at speed is the mark of a Mastery-level speaker.",
+          "Pay special attention to three traps: \"benché\", \"nonostante\" and \"a patto che\" always take the subjunctive; \"perché\" of cause takes the indicative; and a mixed hypothesis can combine a past condition with a present result (\"Se fossi rimasto, oggi sarei...\"). A mixed hypothesis can also run the other way, a present condition with a past result: \"Se l'università fosse più meritocratica, molti non sarebbero partiti.\" Getting these right at speed is the mark of a Mastery-level speaker.",
         ],
         examples: [
           { es: "Per quanto la situazione sia migliorata, il divario resta ampio.", en: "However much the situation has improved, the gap remains wide." },
           { es: "Le politiche familiari vanno rafforzate.", en: "Family policies must be strengthened." },
-          { es: "Se ci fossero più asili, nascerebbero più bambini.", en: "If there were more nurseries, more children would be born." },
+          { es: "Se ci fossero più asili, nascerebbero più bambini.", en: "If there were more daycare centers, more children would be born." },
           { es: "Pur avendo una laurea, lavora come cameriere.", en: "Despite having a degree, he works as a waiter." },
         ],
         checkpoint: [
@@ -385,9 +386,9 @@ export const IT_C2_U18: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "However much the situation has improved, the gap remains wide.", answer: "Per quanto la situazione sia migliorata, il divario resta ampio.", altAnswers: ["Per quanto la situazione sia migliorata, il divario rimane ampio.", "Benché la situazione sia migliorata, il divario resta ampio."], explanation: "\"Per quanto\" + subjunctive." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If there were more nurseries, more children would be born.", answer: "Se ci fossero più asili, nascerebbero più bambini.", altAnswers: ["Se ci fossero più asili nido, nascerebbero più bambini.", "Se ci fossero più asili, nascerebbero più figli."], explanation: "Second-type hypothesis." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If there were more daycare centers, more children would be born.", answer: "Se ci fossero più asili, nascerebbero più bambini.", altAnswers: ["Se ci fossero più asili nido, nascerebbero più bambini.", "Se ci fossero più asili, nascerebbero più figli."], explanation: "Second-type hypothesis." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Millions of Italians emigrated to the Americas.", answer: "Milioni di italiani emigrarono nelle Americhe.", altAnswers: ["Milioni di italiani sono emigrati nelle Americhe.", "Milioni di italiani emigrarono in America."], explanation: "\"Nelle Americhe\": North and South." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The population is ageing rapidly.", answer: "La popolazione sta invecchiando rapidamente.", altAnswers: ["La popolazione invecchia rapidamente.", "La popolazione sta invecchiando velocemente."], explanation: "\"Invecchiare\" = to age." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The population is aging rapidly.", answer: "La popolazione sta invecchiando rapidamente.", altAnswers: ["La popolazione invecchia rapidamente.", "La popolazione sta invecchiando velocemente."], explanation: "\"Invecchiare\" = to age." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Supporters believe the reform is fair.", answer: "I sostenitori ritengono che la riforma sia giusta.", altAnswers: ["I sostenitori pensano che la riforma sia giusta.", "I sostenitori ritengono che la riforma sia equa."], explanation: "Subjunctive after \"ritenere\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It remains to be seen whether the measures will work.", answer: "Resta da vedere se le misure funzioneranno.", altAnswers: ["Rimane da vedere se le misure funzioneranno.", "Resta da vedere se le misure funzionino."], explanation: "Cautious conclusion." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If I had stayed, I would be unemployed today.", answer: "Se fossi rimasto, oggi sarei disoccupato.", altAnswers: ["Se fossi rimasta, oggi sarei disoccupata.", "Se fossi restato, oggi sarei disoccupato."], explanation: "Mixed hypothesis: past → present." },
@@ -398,7 +399,7 @@ export const IT_C2_U18: Lesson[] = [
       { type: "word-order", prompt: "Put the words in order to say: Many seek their fortune abroad.", words: ["Molti", "cercano", "fortuna", "all'estero."], translation: "Many seek their fortune abroad.", explanation: "Idiom." },
       { type: "word-order", prompt: "Put the words in order to say: There isn't just one South.", words: ["Non", "esiste", "un", "solo", "Sud."], translation: "There isn't just one South.", explanation: "Nuanced opening." },
       { type: "listen-choose", audio: "Benché l'immigrazione ponga sfide reali, molti settori non potrebbero fare a meno dei lavoratori stranieri.", question: "What does the speaker say about foreign workers?", options: ["Many sectors couldn't do without them.", "They pose no challenges.", "They should leave.", "They work only in agriculture."], correctIndex: 0, explanation: "\"Fare a meno di\" = to do without." },
-      { type: "speak", text: "Pur riconoscendo le difficoltà, è innegabile che molti settori dipendano dai lavoratori stranieri.", prompt: "Say aloud: While recognising the difficulties, it's undeniable that many sectors depend on foreign workers.", tip: "di-PEN-da-no: stress on PEN.", explanation: "Concession + subjunctive." },
+      { type: "speak", text: "Pur riconoscendo le difficoltà, è innegabile che molti settori dipendano dai lavoratori stranieri.", prompt: "Say aloud: While recognizing the difficulties, it's undeniable that many sectors depend on foreign workers.", tip: "di-PEN-da-no: stress on PEN.", explanation: "Concession + subjunctive." },
     ],
   },
   {
@@ -415,7 +416,7 @@ export const IT_C2_U18: Lesson[] = [
           "The essay opens with a scene: \"Chi attraversa l'Appennino in automobile conosce bene quella sensazione: un paese arroccato su una collina, il campanile, le case di pietra, e nessuno per strada. Non sono rovine: sono case chiuse, con le persiane abbassate e un numero di telefono scritto sul portone.\"",
           "It then gives the fact behind the image: \"In Italia i comuni con meno di cinquemila abitanti sono la maggioranza, e molti di loro perdono residenti da decenni.\" From picture to data: a classic essay opening, which draws the reader in before it informs.",
           "Notice the devices: \"chi\" as a generic subject that includes the reader; the colon that introduces a list or an explanation; the correction \"Non sono rovine: sono case chiuse\", which overturns the first impression. \"Arroccato\" (perched, like a fortress) is a typical literary adjective for hill towns.",
-          "Before you read on, predict the structure. An Italian essay of this kind often follows a pattern: image, data, causes, turn, open conclusion. Recognising the pattern helps you read faster and, later, write your own essays with the same shape.",
+          "Before you read on, predict the structure. An Italian essay of this kind often follows a pattern: image, data, causes, turn, open conclusion. Recognizing the pattern helps you read faster and, later, write your own essays with the same shape.",
         ],
         examples: [
           { es: "Chi attraversa l'Appennino conosce bene quella sensazione.", en: "Anyone who crosses the Apennines knows that feeling well." },
@@ -426,7 +427,7 @@ export const IT_C2_U18: Lesson[] = [
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They aren't ruins: they're closed houses, with the shutters down.", answer: "Non sono rovine: sono case chiuse, con le persiane abbassate.", altAnswers: ["Non sono rovine, sono case chiuse, con le persiane abbassate.", "Non sono rovine: sono case chiuse con le persiane abbassate."], explanation: "Correction after a colon." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Many municipalities have been losing residents for decades.", answer: "Molti comuni perdono residenti da decenni.", altAnswers: ["Molti comuni stanno perdendo residenti da decenni.", "Molti comuni perdono abitanti da decenni."], explanation: "\"Da\" + present for an ongoing process." },
-          { type: "multiple-choice", question: "What does the opening do before giving data?", options: ["It paints a scene the reader recognises.", "It quotes a politician.", "It states the conclusion.", "It lists statistics."], correctIndex: 0, explanation: "From picture to data." },
+          { type: "multiple-choice", question: "What does the opening do before giving data?", options: ["It paints a scene the reader recognizes.", "It quotes a politician.", "It states the conclusion.", "It lists statistics."], correctIndex: 0, explanation: "From picture to data." },
         ],
       },
       {
@@ -438,7 +439,7 @@ export const IT_C2_U18: Lesson[] = [
           "Also notice what the essay doesn't do: it doesn't blame a single culprit or quote angry statistics. The tone is calm and the vocabulary precise (\"servizio\", \"partenza\", \"finanziamento occasionale\"). Restraint is a stylistic choice that makes the argument more credible.",
         ],
         examples: [
-          { es: "Le cause sono note: la mancanza di lavoro e i trasporti scarsi.", en: "The causes are well known: the lack of jobs and poor transport." },
+          { es: "Le cause sono note: la mancanza di lavoro e i trasporti scarsi.", en: "The causes are well known: the lack of jobs and poor transportation." },
           { es: "Ogni servizio che chiude spinge qualcun altro a partire.", en: "Every service that closes pushes someone else to leave." },
           { es: "È un circolo vizioso.", en: "It's a vicious circle." },
           { es: "Spezzarlo richiede più di un finanziamento occasionale.", en: "Breaking it takes more than one-off funding." },
@@ -493,13 +494,13 @@ export const IT_C2_U18: Lesson[] = [
       {
         heading: "The narrator",
         body: [
-          "Documentary narration in Italian favours the present tense, even for the past, and long nominal sentences: \"Siamo in un piccolo paese dell'Appennino, a novecento metri d'altitudine. Vent'anni fa la scuola chiudeva per mancanza di alunni; oggi le classi sono tornate a riempirsi.\"",
+          "Documentary narration in Italian favors the present tense, even for the past, and long nominal sentences: \"Siamo in un piccolo paese dell'Appennino, a novecento metri d'altitudine. Vent'anni fa la scuola chiudeva per mancanza di alunni; oggi le classi sono tornate a riempirsi.\"",
           "Listen for time markers that structure the story: \"vent'anni fa\", \"all'epoca\", \"nel giro di pochi anni\", \"oggi\". They tell you when the narrative jumps. \"Nel giro di\" (within the space of) is very common in documentaries and news features.",
           "The narrator also uses rhetorical questions to move the story: \"Che cosa è cambiato? Per capirlo, bisogna entrare nel forno del paese.\" As in a talk, the question tells you a new section is starting.",
           "Documentaries also mix registers. The narrator's Italian is careful and written; the interviews are spontaneous, with dialect words, half sentences and overlapping voices. Expect the shift and adjust your listening: for the narrator, follow the structure; for the interviews, follow the emotion and the key facts.",
         ],
         examples: [
-          { es: "Siamo in un piccolo paese dell'Appennino, a novecento metri d'altitudine.", en: "We're in a small Apennine village, nine hundred metres above sea level." },
+          { es: "Siamo in un piccolo paese dell'Appennino, a novecento metri d'altitudine.", en: "We're in a small Apennine village, nine hundred meters above sea level." },
           { es: "Vent'anni fa la scuola chiudeva per mancanza di alunni.", en: "Twenty years ago the school was closing for lack of pupils." },
           { es: "Nel giro di pochi anni il paese è cambiato.", en: "Within a few years the village changed." },
           { es: "Che cosa è cambiato? Per capirlo, bisogna entrare nel forno del paese.", en: "What changed? To understand, you have to step into the village bakery." },
@@ -526,7 +527,7 @@ export const IT_C2_U18: Lesson[] = [
           { es: "Il pane lo facciamo ancora a legna.", en: "We still bake our bread in a wood-fired oven." },
         ],
         checkpoint: [
-          { type: "listen-choose", audio: "Qui pago d'affitto un terzo di quello che pagavo a Milano. Certo, se si rompe la connessione sono guai.", question: "What is Giulia's main worry?", options: ["Losing the internet connection", "The high rent", "The cold winters", "Her neighbours"], correctIndex: 0, explanation: "\"Sono guai\" = there's trouble." },
+          { type: "listen-choose", audio: "Qui pago d'affitto un terzo di quello che pagavo a Milano. Certo, se si rompe la connessione sono guai.", question: "What is Giulia's main worry?", options: ["Losing the internet connection", "The high rent", "The cold winters", "Her neighbors"], correctIndex: 0, explanation: "\"Sono guai\" = there's trouble." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "When I arrived, the bakery had been closed for years.", answer: "Quando sono arrivato, il forno era chiuso da anni.", altAnswers: ["Quando sono arrivata, il forno era chiuso da anni.", "Quando arrivai, il forno era chiuso da anni."], explanation: "\"Da\" + imperfect = had been ... for." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[We still bake our bread] in a wood-fired oven.", sentence: "___ ancora a legna.", answer: "Il pane lo facciamo", explanation: "Dislocation: object first, then \"lo\"." },
         ],
@@ -535,7 +536,7 @@ export const IT_C2_U18: Lesson[] = [
         heading: "The ending",
         body: [
           "The documentary ends with the narrator: \"Il paese non è tornato quello di una volta. È diventato un'altra cosa: più piccolo, più vario, forse più fragile. Ma vivo.\" The final one-word sentence, \"vivo\", carries the whole message.",
-          "When you summarise a documentary, combine narration and voices: \"Il documentario racconta come un paese dell'Appennino sia rinato grazie a nuovi abitanti, sia stranieri sia italiani.\" \"Come\" + subjunctive in an indirect question sounds elegant in written summaries.",
+          "When you summarize a documentary, combine narration and voices: \"Il documentario racconta come un paese dell'Appennino sia rinato grazie a nuovi abitanti, sia stranieri sia italiani.\" \"Come\" + subjunctive in an indirect question sounds elegant in written summaries.",
         ],
         examples: [
           { es: "Il paese non è tornato quello di una volta.", en: "The village hasn't gone back to what it used to be." },
@@ -551,7 +552,7 @@ export const IT_C2_U18: Lesson[] = [
     exercises: [
       { type: "listen-choose", audio: "Quando sono arrivato, il forno era chiuso da anni. Gli anziani mi hanno insegnato le ricette del paese, e io ci ho messo un po' delle mie.", question: "What did Karim do with the recipes?", options: ["He learned the local ones and added his own.", "He replaced them all.", "He refused to use them.", "He sold them."], correctIndex: 0, explanation: "\"Ci ho messo un po' delle mie\"." },
       { type: "listen-choose", audio: "Il paese non è tornato quello di una volta. È diventato un'altra cosa: più piccolo, più vario, forse più fragile. Ma vivo.", question: "What is the documentary's final message?", options: ["The village has changed but is alive.", "The village is dead.", "Nothing has changed.", "The village is bigger than ever."], correctIndex: 0, explanation: "\"Ma vivo\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We're in a small Apennine village, nine hundred metres above sea level.", answer: "Siamo in un piccolo paese dell'Appennino, a novecento metri d'altitudine.", altAnswers: ["Siamo in un paesino dell'Appennino, a novecento metri d'altitudine.", "Siamo in un piccolo paese dell'Appennino, a 900 metri di altitudine."], explanation: "\"D'altitudine\" or \"sul livello del mare\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We're in a small Apennine village, nine hundred meters above sea level.", answer: "Siamo in un piccolo paese dell'Appennino, a novecento metri d'altitudine.", altAnswers: ["Siamo in un paesino dell'Appennino, a novecento metri d'altitudine.", "Siamo in un piccolo paese dell'Appennino, a 900 metri di altitudine."], explanation: "\"D'altitudine\" or \"sul livello del mare\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If the connection goes down, there's trouble.", answer: "Se si rompe la connessione sono guai.", altAnswers: ["Se cade la connessione sono guai.", "Se salta la connessione sono guai."], explanation: "Colloquial \"sono guai\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Here I pay a third of the rent I paid in Milan.", answer: "Qui pago d'affitto un terzo di quello che pagavo a Milano.", altAnswers: ["Qui pago un terzo dell'affitto che pagavo a Milano.", "Qui di affitto pago un terzo di quello che pagavo a Milano."], explanation: "\"Un terzo di quello che\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "What changed? To understand, you have to step into the bakery.", answer: "Che cosa è cambiato? Per capirlo, bisogna entrare nel forno.", altAnswers: ["Cosa è cambiato? Per capirlo, bisogna entrare nel forno.", "Che cos'è cambiato? Per capirlo bisogna entrare nel forno."], explanation: "Rhetorical question to open a section." },
@@ -559,7 +560,7 @@ export const IT_C2_U18: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The village was reborn [thanks to] new residents.", sentence: "Il paese è rinato ___ nuovi abitanti.", answer: "grazie a", explanation: "\"Grazie a\" = thanks to." },
       { type: "word-order", prompt: "Put the words in order to say: It has become something else.", words: ["È", "diventato", "un'altra", "cosa."], translation: "It has become something else.", explanation: "\"Un'altra cosa\"." },
       { type: "dictation", audio: "Vent'anni fa la scuola chiudeva; oggi le classi sono tornate a riempirsi.", explanation: "Then and now." },
-      { type: "speak", text: "Il documentario racconta come un paese dell'Appennino sia rinato grazie a nuovi abitanti, sia stranieri sia italiani.", prompt: "Summarise the documentary aloud: The documentary tells how an Apennine village was reborn thanks to new residents, both foreign and Italian.", tip: "\"Sia... sia\": don't confuse it with the verb \"sia\" before.", explanation: "A one-sentence summary." },
+      { type: "speak", text: "Il documentario racconta come un paese dell'Appennino sia rinato grazie a nuovi abitanti, sia stranieri sia italiani.", prompt: "Summarize the documentary aloud: The documentary tells how an Apennine village was reborn thanks to new residents, both foreign and Italian.", tip: "\"Sia... sia\": don't confuse it with the verb \"sia\" before.", explanation: "A one-sentence summary." },
     ],
   },
   {
@@ -596,7 +597,7 @@ export const IT_C2_U18: Lesson[] = [
           "Panels reward partial agreement: \"Condivido in parte l'analisi del professore, ma vorrei aggiungere un elemento.\" \"Sono d'accordo sul quadro generale; dove mi discosto è sulle soluzioni.\" \"Discostarsi da\" (to depart from) is an elegant way to mark disagreement.",
           "Your testimony as a returnee adds weight: \"Io sono tornata tre anni fa. Non per nostalgia, ma perché qui ho trovato una cosa che in città mi mancava: il tempo.\" Personal experience, used briefly, gives a panel the concreteness that data alone can't.",
           "Add with precision: \"Aggiungerei che...\", \"A questo andrebbe aggiunto che...\", \"C'è poi un aspetto di cui si parla poco:...\". The last one is a powerful way to introduce your original point.",
-          "Disagreement in a panel is gentler than in a debate. Instead of \"Non sono d'accordo\", panellists say \"Vedo la questione in modo un po' diverso\" or \"Mi permetto di proporre un'altra lettura\". The meaning is the same, but the tone keeps the conversation cooperative, which is what the audience expects.",
+          "Disagreement in a panel is gentler than in a debate. Instead of \"Non sono d'accordo\", panelists say \"Vedo la questione in modo un po' diverso\" or \"Mi permetto di proporre un'altra lettura\". The meaning is the same, but the tone keeps the conversation cooperative, which is what the audience expects.",
         ],
         examples: [
           { es: "Condivido in parte l'analisi, ma vorrei aggiungere un elemento.", en: "I partly share the analysis, but I'd like to add one element." },
@@ -633,7 +634,7 @@ export const IT_C2_U18: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I agree on the general picture.", answer: "Sono d'accordo sul quadro generale.", altAnswers: ["Condivido il quadro generale.", "Concordo sul quadro generale."], explanation: "\"Il quadro\" = the picture." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'd like to link to the point raised earlier.", answer: "Mi collego al punto sollevato prima.", altAnswers: ["Vorrei collegarmi al punto sollevato prima.", "Mi ricollego al punto sollevato prima."], explanation: "\"Sollevare un punto\" = to raise a point." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I thank the other guests for the discussion.", answer: "Ringrazio gli altri ospiti per il confronto.", altAnswers: ["Ringrazio gli altri ospiti del confronto.", "Ringrazio gli altri ospiti per la discussione."], explanation: "\"Confronto\" = exchange of views." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[To this should be added] that transport is poor.", sentence: "___ che i trasporti sono scarsi.", answer: "A questo andrebbe aggiunto", explanation: "Conditional of \"andare\" + participle." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[To this should be added] that transportation is poor.", sentence: "___ che i trasporti sono scarsi.", answer: "A questo andrebbe aggiunto", explanation: "Conditional of \"andare\" + participle." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[If I had to sum up]: services, not nostalgia.", sentence: "___: servizi, non nostalgia.", answer: "Se dovessi riassumere", explanation: "Hypothetical framing for a summary." },
       { type: "word-order", prompt: "Put the words in order to say: I partly share the analysis.", words: ["Condivido", "in", "parte", "l'analisi."], translation: "I partly share the analysis.", explanation: "Partial agreement." },
       { type: "multiple-choice", question: "In a panel, \"il confronto\" means ...", options: ["an exchange of views", "a fight", "a comparison of prices", "a contest"], correctIndex: 0, explanation: "Not a confrontation." },
@@ -675,7 +676,7 @@ export const IT_C2_U18: Lesson[] = [
           "Connectives are often misused. \"Piuttosto che\" means rather than, not or: *possono andare in Germania piuttosto che in Francia should be \"in Germania o in Francia\" if both are options. \"Inoltre\" at the start of every paragraph is monotonous; vary with \"A ciò si aggiunge che\", \"Non va dimenticato, poi, che\", \"D'altra parte\".",
           "Vague fillers weaken an essay: \"a livello di\" (*a livello di lavoro, ci sono problemi) is better replaced by a precise preposition: \"sul piano del lavoro\" or simply \"nel mondo del lavoro\". \"Assolutamente\" alone as yes, and \"un attimino\", belong to speech.",
           "Anglicisms: \"il gap\" can become \"il divario\"; \"skills\" → \"competenze\"; \"impattare\" → \"incidere su\" or \"avere conseguenze su\". Some anglicisms are accepted in journalism, but an essay at Mastery level should show you know the Italian word.",
-          "Watch punctuation as well. A comma between subject and verb (*I giovani laureati, partono) is a common error; so is the comma splice, two main clauses joined only by a comma. Use a semicolon, a full stop or a connective such as \"e\", \"ma\" or \"perciò\".",
+          "Watch punctuation as well. A comma between subject and verb (*I giovani laureati, partono) is a common error; so is the comma splice, two main clauses joined only by a comma. Use a semicolon, a period or a connective such as \"e\", \"ma\" or \"perciò\".",
         ],
         examples: [
           { es: "Possono andare in Germania o in Francia.", en: "They can go to Germany or France." },

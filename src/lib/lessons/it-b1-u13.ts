@@ -21,7 +21,7 @@ export const IT_B1_U13: Lesson[] = [
           "A full if clause (if I had known) needs a tense you'll meet at Upper Intermediate. Until then, put the condition in a short phrase: \"al posto tuo\" (in your place), \"con più tempo\" (with more time), \"senza di te\" (without you), \"in quel caso\" (in that case).",
         ],
         examples: [
-          { es: "Al posto tuo, avrei accettato subito.", en: "In your place, I would have accepted straight away." },
+          { es: "Al posto tuo, avrei accettato subito.", en: "In your place, I would have accepted right away." },
           { es: "Avresti fatto lo stesso?", en: "Would you have done the same?" },
           { es: "Avremmo preso un taxi, ma non ce n'erano.", en: "We would have taken a taxi, but there weren't any." },
           { es: "Avrebbero comprato la casa al mare.", en: "They would have bought the house by the sea." },
@@ -30,7 +30,7 @@ export const IT_B1_U13: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Would you have done the same? (to a friend)", answer: "Avresti fatto lo stesso?", altAnswers: ["Tu avresti fatto lo stesso?"], explanation: "\"Avresti\" (conditional of \"avere\") + \"fatto\": you would have done." },
-          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "In your place, [I would have accepted] straight away.", sentence: "Al posto tuo, ___ subito.", answer: "avrei accettato", altAnswers: ["io avrei accettato"], explanation: "\"Avrei\" + participle: the past conditional of \"accettare\"." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "In your place, [I would have accepted] right away.", sentence: "Al posto tuo, ___ subito.", answer: "avrei accettato", altAnswers: ["io avrei accettato"], explanation: "\"Avrei\" + participle: the past conditional of \"accettare\"." },
           { type: "listen-choose", audio: "Avremmo preso un taxi.", question: "What did you hear?", options: ["Avremmo preso un taxi.", "Avremo preso un taxi.", "Abbiamo preso un taxi.", "Avevamo preso un taxi."], correctIndex: 0, explanation: "The long m of \"avremmo\" marks the conditional: we would have taken. \"Avremo\" with one m is the future." },
         ],
       },
@@ -38,20 +38,20 @@ export const IT_B1_U13: Lesson[] = [
         heading: "Sarei andato: verbs with essere",
         body: [
           "Verbs that take \"essere\" in the passato prossimo take it here too: \"andare\", \"venire\", \"partire\", \"restare\", \"tornare\" and every reflexive verb. The forms are \"sarei, saresti, sarebbe, saremmo, sareste, sarebbero\" + participle.",
-          "With \"essere\" the participle agrees with the subject, as always: Giulia \"sarebbe venuta\", the boys \"sarebbero partiti\", my sisters \"sarebbero rimaste\". Reflexive verbs keep their pronoun in front of the auxiliary: \"mi sarei alzato prima\" (I would have got up earlier), \"ci saremmo divertiti\" (we would have had fun).",
+          "With \"essere\" the participle agrees with the subject, as always: Giulia \"sarebbe venuta\", the boys \"sarebbero partiti\", my sisters \"sarebbero rimaste\". Reflexive verbs keep their pronoun in front of the auxiliary: \"mi sarei alzato prima\" (I would have gotten up earlier), \"ci saremmo divertiti\" (we would have had fun).",
         ],
         examples: [
-          { es: "Sarei andato al mare con voi.", en: "I would have gone to the seaside with you." },
+          { es: "Sarei andato al mare con voi.", en: "I would have gone to the beach with you." },
           { es: "Chiara sarebbe venuta volentieri.", en: "Chiara would gladly have come." },
           { es: "Saremmo rimasti più a lungo.", en: "We would have stayed longer." },
           { es: "I ragazzi sarebbero partiti alle sei.", en: "The boys would have left at six." },
-          { es: "Mi sarei alzata prima.", en: "I would have got up earlier. (a woman)" },
+          { es: "Mi sarei alzata prima.", en: "I would have gotten up earlier. (a woman)" },
           { es: "Vi sareste divertiti alla festa.", en: "You would have had fun at the party. (plural)" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Chiara would gladly have come.", answer: "Chiara sarebbe venuta volentieri.", altAnswers: ["Chiara sarebbe venuta con piacere.", "Chiara volentieri sarebbe venuta."], explanation: "\"Venire\" takes \"essere\", so the participle agrees with Chiara: \"venuta\"." },
           { type: "multiple-choice", question: "Which is the Italian for we would have stayed (two men)?", options: ["saremmo rimasti", "avremmo rimasto", "saremo rimasti", "saremmo rimasto"], correctIndex: 0, explanation: "\"Rimanere\" takes \"essere\"; double m for the conditional; plural agreement \"rimasti\"." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I would have got up earlier. (a man speaking)", answer: "Mi sarei alzato prima.", altAnswers: ["Io mi sarei alzato prima.", "Mi sarei alzato più presto."], explanation: "Reflexive verbs use \"essere\"; the pronoun \"mi\" goes before \"sarei\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I would have gotten up earlier. (a man speaking)", answer: "Mi sarei alzato prima.", altAnswers: ["Io mi sarei alzato prima.", "Mi sarei alzato più presto."], explanation: "Reflexive verbs use \"essere\"; the pronoun \"mi\" goes before \"sarei\"." },
         ],
       },
       {
@@ -62,13 +62,13 @@ export const IT_B1_U13: Lesson[] = [
         ],
         examples: [
           { es: "Non l'avrei mai detto!", en: "I'd never have guessed!" },
-          { es: "Avrebbero scritto prima, ma erano in viaggio.", en: "They would have written sooner, but they were travelling." },
+          { es: "Avrebbero scritto prima, ma erano in viaggio.", en: "They would have written sooner, but they were traveling." },
           { es: "Dalla terrazza avreste visto il tramonto.", en: "From the terrace you would have seen the sunset. (plural)" },
-          { es: "Quella giacca l'avrei comprata subito.", en: "I would have bought that jacket straight away." },
+          { es: "Quella giacca l'avrei comprata subito.", en: "I would have bought that jacket right away." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I would have told you.", answer: "Te l'avrei detto.", altAnswers: ["Io te l'avrei detto.", "Te lo avrei detto."], explanation: "Combined pronoun before the auxiliary: \"te l'avrei detto\"." },
-          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[They would have written] sooner, but they were travelling.", sentence: "___ prima, ma erano in viaggio.", answer: "Avrebbero scritto", altAnswers: ["Loro avrebbero scritto"], explanation: "\"Scrivere\" → \"scritto\", with \"avrebbero\" for they." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[They would have written] sooner, but they were traveling.", sentence: "___ prima, ma erano in viaggio.", answer: "Avrebbero scritto", altAnswers: ["Loro avrebbero scritto"], explanation: "\"Scrivere\" → \"scritto\", with \"avrebbero\" for they." },
         ],
       },
     ],
@@ -81,7 +81,7 @@ export const IT_B1_U13: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'd never have guessed!", answer: "Non l'avrei mai detto!", altAnswers: ["Non lo avrei mai detto!", "Non l'avrei mai pensato!", "Non lo avrei mai pensato!"], explanation: "A fixed exclamation: \"Non l'avrei mai detto!\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "From the terrace [you would have seen] the sunset. (plural)", sentence: "Dalla terrazza ___ il tramonto.", answer: "avreste visto", altAnswers: ["voi avreste visto"], explanation: "\"Avreste\" for \"voi\", irregular participle \"visto\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Giulia [would have gone] to the concert.", sentence: "Giulia ___ al concerto.", answer: "sarebbe andata", explanation: "\"Andare\" takes \"essere\"; \"andata\" agrees with Giulia." },
-      { type: "word-order", prompt: "Put the words in order to say: I would have bought that jacket straight away.", words: ["Quella", "giacca", "l'avrei", "comprata", "subito."], translation: "I would have bought that jacket straight away.", explanation: "Object first, then \"l'\" before \"avrei\"; \"comprata\" agrees with \"la\" (the jacket)." },
+      { type: "word-order", prompt: "Put the words in order to say: I would have bought that jacket right away.", words: ["Quella", "giacca", "l'avrei", "comprata", "subito."], translation: "I would have bought that jacket right away.", explanation: "Object first, then \"l'\" before \"avrei\"; \"comprata\" agrees with \"la\" (the jacket)." },
       { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "avrei detto", right: "I would have said" }, { left: "avremo detto", right: "we will have said" }, { left: "avremmo detto", right: "we would have said" }, { left: "sarebbe uscita", right: "she would have gone out" }, { left: "sarebbero usciti", right: "they would have gone out" }], explanation: "One m is future, two m's are conditional; \"essere\" verbs agree with the subject." },
       { type: "dictation", audio: "Saremmo venuti, ma avevamo da fare.", explanation: "\"Saremmo venuti\": double m, plural participle." },
       { type: "speak", text: "Al posto tuo, sarei andato a Roma e avrei visto i Musei Vaticani.", prompt: "Say it in Italian: In your place, I would have gone to Rome and seen the Vatican Museums. (a man speaking)", tip: "Keep \"sarei\" and \"avrei\" to two quick syllables: sa-REI, a-VREI.", explanation: "One verb with \"essere\" (\"sarei andato\"), one with \"avere\" (\"avrei visto\")." },
@@ -98,12 +98,12 @@ export const IT_B1_U13: Lesson[] = [
       {
         heading: "I would have, but ...",
         body: [
-          "The most natural home of the past conditional is the excuse or the regret: something would have happened, but something got in the way. The pattern is past conditional + \"ma\" + the real reason, usually in the imperfetto: \"Sarei venuto, ma ero malato\" (I would have come, but I was ill).",
+          "The most natural home of the past conditional is the excuse or the regret: something would have happened, but something got in the way. The pattern is past conditional + \"ma\" + the real reason, usually in the imperfetto: \"Sarei venuto, ma ero malato\" (I would have come, but I was sick).",
           "The reason is a background state, so it's in the imperfetto (\"ero\", \"avevo\", \"dovevo\") or a single event in the passato prossimo (\"ma ho perso il treno\"). English often contracts to I'd have; Italian has no contraction, and the double m of \"avremmo\" and \"saremmo\" still has to be heard.",
           "Pronouns and \"ci\" go in front of the auxiliary: \"Ci sarei andato volentieri\" (I'd gladly have gone there), \"L'avrei fatto io\" (I'd have done it myself). Adding \"volentieri\" or \"di sicuro\" makes an excuse sound sincere.",
         ],
         examples: [
-          { es: "Sarei venuto, ma ero malato.", en: "I would have come, but I was ill." },
+          { es: "Sarei venuto, ma ero malato.", en: "I would have come, but I was sick." },
           { es: "Ti avrei chiamato, ma non avevo il tuo numero.", en: "I'd have called you, but I didn't have your number." },
           { es: "Avremmo cenato fuori, ma pioveva.", en: "We would have eaten out, but it was raining." },
           { es: "Sarebbe arrivata in tempo, ma ha perso il treno.", en: "She would have arrived on time, but she missed the train." },
@@ -153,7 +153,7 @@ export const IT_B1_U13: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I would have come, but I was ill.", answer: "Sarei venuto, ma ero malato.", altAnswers: ["Sarei venuta, ma ero malata.", "Io sarei venuto, ma ero malato.", "Io sarei venuta, ma ero malata."], explanation: "\"Sarei venuto\" for the missed event, \"ero\" for the background reason." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I would have come, but I was sick.", answer: "Sarei venuto, ma ero malato.", altAnswers: ["Sarei venuta, ma ero malata.", "Io sarei venuto, ma ero malato.", "Io sarei venuta, ma ero malata."], explanation: "\"Sarei venuto\" for the missed event, \"ero\" for the background reason." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She would have arrived on time, but she missed the train.", answer: "Sarebbe arrivata in tempo, ma ha perso il treno.", altAnswers: ["Lei sarebbe arrivata in tempo, ma ha perso il treno.", "Sarebbe arrivata puntuale, ma ha perso il treno."], explanation: "\"Arrivata\" agrees with she; one event, so \"ha perso\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We would have liked to say goodbye to you. (plural)", answer: "Avremmo voluto salutarvi.", altAnswers: ["Noi avremmo voluto salutarvi.", "Ci sarebbe piaciuto salutarvi."], explanation: "\"Avremmo voluto\" + infinitive; \"vi\" attaches to \"salutare\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I would have liked to live in Rome.", answer: "Mi sarebbe piaciuto vivere a Roma.", altAnswers: ["Avrei voluto vivere a Roma.", "Mi sarebbe piaciuto abitare a Roma.", "Avrei voluto abitare a Roma."], explanation: "\"Piacere\" takes \"essere\"; with an infinitive the participle stays \"piaciuto\"." },
@@ -164,7 +164,7 @@ export const IT_B1_U13: Lesson[] = [
       { type: "word-order", prompt: "Put the words in order to say: I wanted to ask you for some information. (formal)", words: ["Avrei", "voluto", "chiederLe", "un'informazione."], translation: "I wanted to ask you for some information.", explanation: "\"Avrei voluto\" makes the request extra polite." },
       { type: "multiple-choice", question: "Which sentence is a regret about something that did not happen?", options: ["Avrei voluto vederti.", "Volevo vederti.", "Vorrei vederti.", "Voglio vederti."], correctIndex: 0, explanation: "Only \"avrei voluto\" says clearly that it didn't happen; \"volevo\" just reports the wish." },
       { type: "dictation", audio: "Mi sarebbe piaciuto restare, ma dovevo lavorare.", explanation: "\"Sarebbe piaciuto\" + infinitive; \"dovevo\" for the background obligation." },
-      { type: "speak", text: "Sarei venuta volentieri, ma avevo la febbre.", prompt: "Say it in Italian: I would gladly have come, but I had a temperature. (a woman speaking)", tip: "\"Volentieri\": stress on TIE, vo-len-TIE-ri.", explanation: "Past conditional for the missed event, imperfetto for the reason." },
+      { type: "speak", text: "Sarei venuta volentieri, ma avevo la febbre.", prompt: "Say it in Italian: I would gladly have come, but I had a fever. (a woman speaking)", tip: "\"Volentieri\": stress on TIE, vo-len-TIE-ri.", explanation: "Past conditional for the missed event, imperfetto for the reason." },
     ],
   },
   {
@@ -186,7 +186,7 @@ export const IT_B1_U13: Lesson[] = [
           { es: "Avrei dovuto studiare di più.", en: "I should have studied more." },
           { es: "Avremmo dovuto prenotare prima.", en: "We should have booked earlier." },
           { es: "Non avreste dovuto aspettarci.", en: "You shouldn't have waited for us. (plural)" },
-          { es: "Me l'avresti dovuto dire subito.", en: "You should have told me straight away." },
+          { es: "Me l'avresti dovuto dire subito.", en: "You should have told me right away." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You should have told me. (to a friend)", answer: "Avresti dovuto dirmelo.", altAnswers: ["Me l'avresti dovuto dire.", "Tu avresti dovuto dirmelo.", "Me lo avresti dovuto dire."], explanation: "Past conditional of \"dovere\" + infinitive; the pronouns attach to \"dire\" or go before \"avresti\"." },
@@ -197,7 +197,7 @@ export const IT_B1_U13: Lesson[] = [
         heading: "Avrei potuto: could have",
         body: [
           "Could have done is the past conditional of \"potere\": \"Avrei potuto aiutarti\" (I could have helped you), \"Avresti potuto chiamare\" (you could have called). It names a possibility that was there and wasn't used.",
-          "In everyday speech Italians often use the imperfetto instead, with the same meaning: \"Potevi dirmelo!\" (you could have told me!), \"Dovevi chiamarmi!\" (you should have called me!). Recognise it and use it with friends; in writing, prefer the past conditional.",
+          "In everyday speech Italians often use the imperfetto instead, with the same meaning: \"Potevi dirmelo!\" (you could have told me!), \"Dovevi chiamarmi!\" (you should have called me!). Recognize it and use it with friends; in writing, prefer the past conditional.",
           "Context matters with the imperfetto: \"Potevo uscire\" can also mean I was allowed to go out. When the sentence is a reproach or a regret, it means could have; when it describes a past situation, it means was able to.",
         ],
         examples: [
@@ -218,6 +218,7 @@ export const IT_B1_U13: Lesson[] = [
         body: [
           "With \"dovere\" and \"potere\", careful Italian borrows the auxiliary of the verb that follows. \"Partire\" takes \"essere\", so: \"Sarebbe dovuto partire prima\" (he should have left earlier), \"Saremmo potuti restare\" (we could have stayed). The participle then agrees: Giulia \"sarebbe dovuta tornare\".",
           "In speech \"avrebbe dovuto partire\" is also heard and accepted. With \"essere\" itself, use \"avere\": \"Avresti dovuto essere più gentile\" (you should have been kinder).",
+          "Reflexive verbs follow the pronoun. If it stays on the infinitive, the auxiliary is \"avere\": \"Avrei dovuto alzarmi prima\". If it moves to the front, the auxiliary becomes \"essere\": \"Mi sarei dovuto alzare prima\". Mixing the two (\"sarei dovuto alzarmi\") is a mistake even Italians notice.",
         ],
         examples: [
           { es: "Sarebbe dovuto partire prima.", en: "He should have left earlier." },
@@ -238,9 +239,9 @@ export const IT_B1_U13: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He should have left earlier.", answer: "Sarebbe dovuto partire prima.", altAnswers: ["Avrebbe dovuto partire prima.", "Lui sarebbe dovuto partire prima.", "Lui avrebbe dovuto partire prima."], explanation: "\"Partire\" takes \"essere\": \"sarebbe dovuto\"; \"avrebbe dovuto\" is common in speech." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You should have been kinder. (to a friend)", answer: "Avresti dovuto essere più gentile.", altAnswers: ["Dovevi essere più gentile.", "Tu avresti dovuto essere più gentile."], explanation: "With \"essere\" itself, \"dovere\" takes \"avere\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He could have won, but he got hurt.", answer: "Avrebbe potuto vincere, ma si è fatto male.", altAnswers: ["Lui avrebbe potuto vincere, ma si è fatto male.", "Poteva vincere, ma si è fatto male."], explanation: "\"Avrebbe potuto\" for the missed possibility; \"farsi male\" = to get hurt." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[You should have told me] straight away. (to a friend)", sentence: "___ subito.", answer: "Avresti dovuto dirmelo", altAnswers: ["Me l'avresti dovuto dire", "Me lo avresti dovuto dire", "Dovevi dirmelo"], explanation: "Pronouns attached to the infinitive, or before the auxiliary." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[You should have told me] right away. (to a friend)", sentence: "___ subito.", answer: "Avresti dovuto dirmelo", altAnswers: ["Me l'avresti dovuto dire", "Me lo avresti dovuto dire", "Dovevi dirmelo"], explanation: "Pronouns attached to the infinitive, or before the auxiliary." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[We could have stayed] another day.", sentence: "___ un altro giorno.", answer: "Saremmo potuti restare", altAnswers: ["Avremmo potuto restare", "Saremmo potute restare", "Saremmo potuti rimanere", "Avremmo potuto rimanere"], explanation: "\"Restare\" takes \"essere\", so careful Italian says \"saremmo potuti\"." },
-      { type: "word-order", prompt: "Put the words in order to say: You should have told me straight away.", words: ["Me", "l'avresti", "dovuto", "dire", "subito."], translation: "You should have told me straight away.", explanation: "The pronouns can go before the auxiliary: \"me l'avresti dovuto dire\"." },
+      { type: "word-order", prompt: "Put the words in order to say: You should have told me right away.", words: ["Me", "l'avresti", "dovuto", "dire", "subito."], translation: "You should have told me right away.", explanation: "The pronouns can go before the auxiliary: \"me l'avresti dovuto dire\"." },
       { type: "multiple-choice", question: "Your colleague missed the deadline and didn't warn anyone. What do you say?", options: ["Avresti dovuto avvisarci.", "Dovresti avvisarci.", "Avresti dovuto di avvisarci.", "Avrai dovuto avvisarci."], correctIndex: 0, explanation: "Should have = past conditional of \"dovere\", with no \"di\"; \"dovresti\" is should (now)." },
       { type: "dictation", audio: "Avrei potuto aiutarti, ma non me l'hai chiesto.", explanation: "\"Avrei potuto\" + infinitive; \"me l'hai chiesto\": combined pronoun in the past." },
       { type: "speak", text: "Avresti dovuto dirmelo prima: avrei potuto aiutarti.", prompt: "Say it in Italian: You should have told me earlier: I could have helped you.", tip: "Link \"dirmelo\" and \"prima\" without a pause; stress DIR-me-lo.", explanation: "Should have and could have in one breath." },
@@ -259,7 +260,7 @@ export const IT_B1_U13: Lesson[] = [
         body: [
           "When you report from the past something that was still to come, English uses would: he said he would come. Italian uses the past conditional here, never the present one: \"Ha detto che sarebbe venuto\". \"Ha detto che verrebbe\" sounds wrong to an Italian ear, and it's the most common mistake English speakers make with this tense.",
           "Think of it as the future seen from a point in the past. The trigger is a verb of saying, knowing or believing in a past tense: \"ha detto\", \"mi ha promesso\", \"sapevo\", \"pensavo\", \"credevo\", \"ero sicuro\".",
-          "In casual speech, when the event is still ahead, you'll also hear the simple future: \"Ha detto che verrà domani\". Recognise it, but in writing and whenever in doubt use the past conditional, which is always correct.",
+          "In casual speech, when the event is still ahead, you'll also hear the simple future: \"Ha detto che verrà domani\". Recognize it, but in writing and whenever in doubt use the past conditional, which is always correct.",
         ],
         examples: [
           { es: "Marco ha detto che sarebbe venuto alle otto.", en: "Marco said he would come at eight." },
@@ -343,13 +344,13 @@ export const IT_B1_U13: Lesson[] = [
         examples: [
           { es: "Avrei aperto la finestra.", en: "I would have opened the window." },
           { es: "Avresti speso troppo.", en: "You would have spent too much." },
-          { es: "Sarebbe sceso alla prossima fermata.", en: "He would have got off at the next stop." },
+          { es: "Sarebbe sceso alla prossima fermata.", en: "He would have gotten off at the next stop." },
           { es: "Avremmo letto il contratto.", en: "We would have read the contract." },
           { es: "Sareste tornati a piedi.", en: "You would have walked back. (plural)" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I would have opened the window.", answer: "Avrei aperto la finestra.", altAnswers: ["Io avrei aperto la finestra."], explanation: "\"Aprire\" → \"aperto\"." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He would have got off at the next stop.", answer: "Sarebbe sceso alla prossima fermata.", altAnswers: ["Lui sarebbe sceso alla prossima fermata.", "Sarebbe sceso alla fermata successiva."], explanation: "\"Scendere\" takes \"essere\": \"sarebbe sceso\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He would have gotten off at the next stop.", answer: "Sarebbe sceso alla prossima fermata.", altAnswers: ["Lui sarebbe sceso alla prossima fermata.", "Sarebbe sceso alla fermata successiva."], explanation: "\"Scendere\" takes \"essere\": \"sarebbe sceso\"." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[We would have read] the contract.", sentence: "___ il contratto.", answer: "Avremmo letto", altAnswers: ["Noi avremmo letto"], explanation: "Double m; \"leggere\" → \"letto\"." },
         ],
       },
@@ -369,7 +370,7 @@ export const IT_B1_U13: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[We would have gone out] later.", sentence: "___ più tardi.", answer: "Saremmo usciti", altAnswers: ["Saremmo uscite", "Noi saremmo usciti", "Noi saremmo uscite"], explanation: "\"Uscire\" takes \"essere\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[They would have answered] in English.", sentence: "___ in inglese.", answer: "Avrebbero risposto", altAnswers: ["Loro avrebbero risposto"], explanation: "\"Rispondere\" → \"risposto\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I would have written] a longer letter.", sentence: "___ una lettera più lunga.", answer: "Avrei scritto", altAnswers: ["Io avrei scritto"], explanation: "\"Scrivere\" → \"scritto\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The children [would have got bored].", sentence: "I bambini ___.", answer: "si sarebbero annoiati", explanation: "Reflexive \"annoiarsi\": \"si sarebbero annoiati\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The children [would have gotten bored].", sentence: "I bambini ___.", answer: "si sarebbero annoiati", explanation: "Reflexive \"annoiarsi\": \"si sarebbero annoiati\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[You would have seen] the whole city. (plural)", sentence: "___ tutta la città.", answer: "Avreste visto", altAnswers: ["Voi avreste visto"], explanation: "\"Vedere\" → \"visto\"." },
       { type: "listen-choose", audio: "Saremo arrivati alle nove.", question: "What did you hear?", options: ["Saremo arrivati alle nove.", "Saremmo arrivati alle nove.", "Saremmo arrivato alle nove.", "Siamo arrivati alle nove."], correctIndex: 0, explanation: "One m: \"saremo\", the future perfect (we will have arrived). Two m's would be the conditional." },
       { type: "dictation", audio: "Avrebbero chiuso prima, ma c'erano ancora clienti.", explanation: "\"Avrebbero chiuso\", then imperfetto for the background." },
@@ -436,18 +437,18 @@ export const IT_B1_U13: Lesson[] = [
         heading: "Verrebbe: would, now or later",
         body: [
           "English would covers three different things, and Italian splits them. The first is a hypothesis about now or the future: the present conditional. \"Marco verrebbe volentieri, ma stasera lavora\" (Marco would gladly come, but he's working tonight). The party hasn't happened yet.",
-          "You'll often hear it with an if clause: \"Verrebbe se potesse\" (he'd come if he could). \"Potesse\" is a subjunctive form taught at Upper Intermediate; for now, recognise the phrase as a whole.",
+          "You'll often hear it with an if clause: \"Verrebbe se potesse\" (he'd come if he could). \"Potesse\" is a subjunctive form taught at Upper Intermediate; for now, recognize the phrase as a whole.",
         ],
         examples: [
           { es: "Marco verrebbe volentieri, ma stasera lavora.", en: "Marco would gladly come, but he's working tonight." },
           { es: "Verrebbe se potesse.", en: "He'd come if he could." },
-          { es: "Sabato andrei al mare.", en: "On Saturday I'd go to the seaside." },
+          { es: "Sabato andrei al mare.", en: "On Saturday I'd go to the beach." },
           { es: "Al posto tuo, accetterei.", en: "In your place, I'd accept." },
           { es: "Lo comprerei, ma costa troppo.", en: "I'd buy it, but it costs too much." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Marco would gladly come, but he's working tonight.", answer: "Marco verrebbe volentieri, ma stasera lavora.", altAnswers: ["Marco verrebbe volentieri, ma lavora stasera.", "Marco verrebbe con piacere, ma stasera lavora."], explanation: "The party is still ahead: present conditional \"verrebbe\"." },
-          { type: "multiple-choice", question: "Tonight's dinner hasn't happened yet. Which sentence says Anna would come, but she's ill?", options: ["Anna verrebbe, ma è malata.", "Anna sarebbe venuta, ma era malata.", "Anna ha detto che sarebbe venuta.", "Anna viene, ma è malata."], correctIndex: 0, explanation: "Hypothesis about now: \"verrebbe\"." },
+          { type: "multiple-choice", question: "Tonight's dinner hasn't happened yet. Which sentence says Anna would come, but she's sick?", options: ["Anna verrebbe, ma è malata.", "Anna sarebbe venuta, ma era malata.", "Anna ha detto che sarebbe venuta.", "Anna viene, ma è malata."], correctIndex: 0, explanation: "Hypothesis about now: \"verrebbe\"." },
         ],
       },
       {
@@ -458,9 +459,9 @@ export const IT_B1_U13: Lesson[] = [
         ],
         examples: [
           { es: "Marco sarebbe venuto, ma lavorava.", en: "Marco would have come, but he was working." },
-          { es: "Sabato sarei andata al mare, ma pioveva.", en: "On Saturday I'd have gone to the seaside, but it was raining." },
+          { es: "Sabato sarei andata al mare, ma pioveva.", en: "On Saturday I'd have gone to the beach, but it was raining." },
           { es: "Al posto tuo, avrei accettato.", en: "In your place, I'd have accepted." },
-          { es: "Anna sarebbe venuta, ma era malata.", en: "Anna would have come, but she was ill." },
+          { es: "Anna sarebbe venuta, ma era malata.", en: "Anna would have come, but she was sick." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In your place, I'd have accepted.", answer: "Al posto tuo, avrei accettato.", altAnswers: ["Al tuo posto, avrei accettato.", "Io al posto tuo avrei accettato."], explanation: "Looking back at a missed chance: past conditional." },
@@ -487,11 +488,11 @@ export const IT_B1_U13: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "On Saturday I'd go to the seaside.", answer: "Sabato andrei al mare.", altAnswers: ["Sabato io andrei al mare.", "Andrei al mare sabato."], explanation: "Still ahead: present conditional." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "On Saturday I'd have gone to the seaside, but it was raining.", answer: "Sabato sarei andato al mare, ma pioveva.", altAnswers: ["Sabato sarei andata al mare, ma pioveva."], explanation: "Over and missed: past conditional." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "On Saturday I'd go to the beach.", answer: "Sabato andrei al mare.", altAnswers: ["Sabato io andrei al mare.", "Andrei al mare sabato."], explanation: "Still ahead: present conditional." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "On Saturday I'd have gone to the beach, but it was raining.", answer: "Sabato sarei andato al mare, ma pioveva.", altAnswers: ["Sabato sarei andata al mare, ma pioveva."], explanation: "Over and missed: past conditional." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Anna had written that she would come.", answer: "Anna aveva scritto che sarebbe venuta.", explanation: "Future seen from the past: \"sarebbe venuta\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Anna would come, but she's ill.", answer: "Anna verrebbe, ma è malata.", explanation: "A hypothesis about now: \"verrebbe\", \"è malata\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He'd come if he could.", answer: "Verrebbe se potesse.", altAnswers: ["Lui verrebbe se potesse."], explanation: "A fixed phrase for now: \"verrebbe se potesse\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Anna would come, but she's sick.", answer: "Anna verrebbe, ma è malata.", explanation: "A hypothesis about now: \"verrebbe\", \"è malata\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He'd gladly come, but he can't.", answer: "Verrebbe volentieri, ma non può.", altAnswers: ["Lui verrebbe volentieri, ma non può.", "Verrebbe con piacere, ma non può."], explanation: "A hypothesis about now, with a present reason: \"verrebbe\", \"non può\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "They said [they would help] us.", sentence: "Hanno detto che ci ___.", answer: "avrebbero aiutato", explanation: "After \"hanno detto che\": past conditional, not \"aiuterebbero\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I [would help] you, but I have no time. (to a friend)", sentence: "Ti ___, ma non ho tempo.", answer: "aiuterei", explanation: "Now, with a present reason: present conditional." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I [would have helped] you, but I had no time. (to a friend)", sentence: "Ti ___, ma non avevo tempo.", answer: "avrei aiutato", explanation: "Past and missed: past conditional." },
@@ -512,7 +513,7 @@ export const IT_B1_U13: Lesson[] = [
       {
         heading: "Would after a past verb",
         body: [
-          "Each sentence below was written by a learner and has one mistake. The commonest: \"Ha detto che verrebbe\". English he said he would come pushes learners towards the present conditional, but after a past verb of saying or thinking Italian needs the past conditional: \"Ha detto che sarebbe venuto\".",
+          "Each sentence below was written by a learner and has one mistake. The commonest: \"Ha detto che verrebbe\". English he said he would come pushes learners toward the present conditional, but after a past verb of saying or thinking Italian needs the past conditional: \"Ha detto che sarebbe venuto\".",
           "The same goes for \"Pensavo che pioverebbe\": fixed, \"Pensavo che avrebbe piovuto\".",
         ],
         examples: [
@@ -554,7 +555,7 @@ export const IT_B1_U13: Lesson[] = [
           { es: "Sarei andato in Sicilia.", en: "I would have gone to Sicily." },
           { es: "Giulia sarebbe venuta con noi.", en: "Giulia would have come with us." },
           { es: "Le ragazze sarebbero rimaste.", en: "The girls would have stayed." },
-          { es: "Ci saremmo sposati in chiesa.", en: "We would have got married in church." },
+          { es: "Ci saremmo sposati in chiesa.", en: "We would have gotten married in church." },
           { es: "Mia sorella si sarebbe offesa.", en: "My sister would have been offended." },
         ],
         checkpoint: [
@@ -571,7 +572,7 @@ export const IT_B1_U13: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Avrebbe partito alle sei\". Write it correctly: He would have left at six.", source: "He would have left at six.", answer: "Sarebbe partito alle sei.", altAnswers: ["Lui sarebbe partito alle sei."], explanation: "\"Partire\" takes \"essere\"." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Mi ha promesso che mi chiamerebbe\". Write it correctly: He promised me he would call me.", source: "He promised me he would call me.", answer: "Mi ha promesso che mi avrebbe chiamato.", altAnswers: ["Mi ha promesso che mi avrebbe chiamata.", "Mi ha promesso che mi avrebbe telefonato."], explanation: "Promise in the past, call later: \"avrebbe chiamato\"." },
       { type: "fill-blank", prompt: "A learner wrote \"Le mie amiche sarebbero venuti\". Write the Italian for the bold words.", en: "My friends (all women) [would have come].", sentence: "Le mie amiche ___.", answer: "sarebbero venute", explanation: "Feminine plural agreement: \"venute\"." },
-      { type: "fill-blank", prompt: "A learner wrote \"Mi avrei alzato prima\". Write the Italian for the bold words.", en: "[I would have got up] earlier. (a man speaking)", sentence: "___ prima.", answer: "Mi sarei alzato", altAnswers: ["Io mi sarei alzato"], explanation: "Reflexive verbs always take \"essere\"." },
+      { type: "fill-blank", prompt: "A learner wrote \"Mi avrei alzato prima\". Write the Italian for the bold words.", en: "[I would have gotten up] earlier. (a man speaking)", sentence: "___ prima.", answer: "Mi sarei alzato", altAnswers: ["Io mi sarei alzato"], explanation: "Reflexive verbs always take \"essere\"." },
       { type: "word-order", prompt: "Put the words in order to say: You should have told me that.", words: ["Avresti", "dovuto", "dirmelo."], translation: "You should have told me that.", explanation: "\"Dovuto\" + infinitive, no \"di\"; pronouns attached." },
       { type: "multiple-choice", question: "Which sentence has no mistake?", options: ["Credevo che sarebbe stato più caro.", "Credevo che sarebbe più caro.", "Credevo che avrebbe stato più caro.", "Credevo che sarebbe stata più caro."], correctIndex: 0, explanation: "\"Essere\" in compound tenses uses \"essere\": \"sarebbe stato\", agreeing with the masculine subject." },
       { type: "dictation", audio: "Avrei dovuto dirtelo prima, scusa.", explanation: "No \"di\" after \"dovuto\"." },
@@ -619,7 +620,7 @@ export const IT_B1_U13: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You could have called me, at least a message. (to a friend)", answer: "Avresti potuto chiamarmi, almeno un messaggio.", altAnswers: ["Potevi chiamarmi, almeno un messaggio.", "Mi avresti potuto chiamare, almeno un messaggio."], explanation: "\"Avresti potuto\" + infinitive; \"potevi\" in casual speech." },
-          { type: "listen-choose", audio: "Sarei venuto, ma mio fratello ha avuto un incidente.", question: "Why didn't Davide come?", options: ["His brother had an accident.", "He was ill.", "He forgot the date.", "His train was cancelled."], correctIndex: 0, explanation: "\"Mio fratello ha avuto un incidente\"." },
+          { type: "listen-choose", audio: "Sarei venuto, ma mio fratello ha avuto un incidente.", question: "Why didn't Davide come?", options: ["His brother had an accident.", "He was sick.", "He forgot the date.", "His train was canceled."], correctIndex: 0, explanation: "\"Mio fratello ha avuto un incidente\"." },
         ],
       },
       {
@@ -649,9 +650,9 @@ export const IT_B1_U13: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I would have come], but I had to work. (a man speaking)", sentence: "___, ma dovevo lavorare.", answer: "Sarei venuto", altAnswers: ["Io sarei venuto"], explanation: "Missed event in the past: \"sarei venuto\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I knew you would forget]! (to a friend)", sentence: "___!", answer: "Sapevo che te ne saresti dimenticato", altAnswers: ["Sapevo che te ne saresti dimenticata", "Lo sapevo che te ne saresti dimenticato", "Lo sapevo che te ne saresti dimenticata", "Sapevo che avresti dimenticato"], explanation: "\"Dimenticarsene\": \"te ne saresti dimenticato\", or simply \"avresti dimenticato\"." },
       { type: "word-order", prompt: "Put the words in order to say: But this time are you really coming?", words: ["Ma", "stavolta", "vieni", "davvero?"], translation: "But this time are you really coming?", explanation: "\"Stavolta\" = questa volta." },
-      { type: "multiple-choice", question: "Davide wants to apologise for not calling. Which sentence fits?", options: ["Avrei dovuto chiamarti, scusa.", "Dovrei chiamarti, scusa.", "Avrò dovuto chiamarti, scusa.", "Ho dovuto chiamarti, scusa."], correctIndex: 0, explanation: "Should have = \"avrei dovuto\"." },
+      { type: "multiple-choice", question: "Davide wants to apologize for not calling. Which sentence fits?", options: ["Avrei dovuto chiamarti, scusa.", "Dovrei chiamarti, scusa.", "Avrò dovuto chiamarti, scusa.", "Ho dovuto chiamarti, scusa."], correctIndex: 0, explanation: "Should have = \"avrei dovuto\"." },
       { type: "dictation", audio: "Avresti potuto mandarmi almeno un messaggio.", explanation: "\"Avresti potuto\" + infinitive with the pronoun attached." },
-      { type: "speak", text: "Scusami tanto: sarei venuto volentieri, ma ho avuto un problema. Avrei dovuto chiamarti.", prompt: "Apologise to Sara: I'm really sorry: I would gladly have come, but I had a problem. I should have called you.", tip: "\"Scusami\" is stressed on the first syllable: SCU-sa-mi.", explanation: "Would have + reason + should have: a full apology." },
+      { type: "speak", text: "Scusami tanto: sarei venuto volentieri, ma ho avuto un problema. Avrei dovuto chiamarti.", prompt: "Apologize to Sara: I'm really sorry: I would gladly have come, but I had a problem. I should have called you.", tip: "\"Scusami\" is stressed on the first syllable: SCU-sa-mi.", explanation: "Would have + reason + should have: a full apology." },
     ],
   },
   {
@@ -672,12 +673,12 @@ export const IT_B1_U13: Lesson[] = [
         examples: [
           { es: "Caro me di diciotto anni,", en: "Dear eighteen-year-old me," },
           { es: "Al posto tuo avrei studiato meno legge e più musica.", en: "In your place I would have studied less law and more music." },
-          { es: "Avrei viaggiato di più, ma avevo paura di spendere.", en: "I would have travelled more, but I was afraid of spending." },
+          { es: "Avrei viaggiato di più, ma avevo paura di spendere.", en: "I would have traveled more, but I was afraid of spending." },
           { es: "Mi sarebbe piaciuto imparare a suonare il pianoforte.", en: "I would have liked to learn to play the piano." },
           { es: "Sarei rimasto più vicino ai miei amici.", en: "I would have stayed closer to my friends." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I would have travelled more, but I was afraid of spending.", answer: "Avrei viaggiato di più, ma avevo paura di spendere.", altAnswers: ["Avrei viaggiato di più, ma avevo paura di spendere soldi."], explanation: "Past conditional + \"ma\" + imperfetto reason." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I would have traveled more, but I was afraid of spending.", answer: "Avrei viaggiato di più, ma avevo paura di spendere.", altAnswers: ["Avrei viaggiato di più, ma avevo paura di spendere soldi."], explanation: "Past conditional + \"ma\" + imperfetto reason." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I would have liked] to learn to play the piano.", sentence: "___ imparare a suonare il pianoforte.", answer: "Mi sarebbe piaciuto", altAnswers: ["Avrei voluto"], explanation: "\"Mi sarebbe piaciuto\" + infinitive." },
         ],
       },
@@ -690,12 +691,12 @@ export const IT_B1_U13: Lesson[] = [
         examples: [
           { es: "Avresti dovuto ascoltare la nonna.", en: "You should have listened to Grandma." },
           { es: "Avresti potuto chiedere aiuto.", en: "You could have asked for help." },
-          { es: "Non avresti dovuto lasciare il calcio.", en: "You shouldn't have given up football." },
+          { es: "Non avresti dovuto lasciare il calcio.", en: "You shouldn't have given up soccer." },
           { es: "Però hai fatto bene a partire.", en: "But you were right to leave." },
           { es: "Avresti dovuto fidarti di più di te stessa.", en: "You should have trusted yourself more. (to a woman)" },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You shouldn't have given up football.", answer: "Non avresti dovuto lasciare il calcio.", altAnswers: ["Non dovevi lasciare il calcio.", "Non avresti dovuto smettere di giocare a calcio."], explanation: "\"Non\" before the auxiliary; \"lasciare\" = to give up, quit." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You shouldn't have given up soccer.", answer: "Non avresti dovuto lasciare il calcio.", altAnswers: ["Non dovevi lasciare il calcio.", "Non avresti dovuto smettere di giocare a calcio."], explanation: "\"Non\" before the auxiliary; \"lasciare\" = to give up, quit." },
           { type: "listen-choose", audio: "Però hai fatto bene a partire.", question: "What does it mean?", options: ["But you were right to leave.", "But you should have left.", "But you would have left.", "But you left too early."], correctIndex: 0, explanation: "\"Fare bene a\" + infinitive = to be right to do something." },
         ],
       },
@@ -728,14 +729,14 @@ export const IT_B1_U13: Lesson[] = [
       { type: "word-order", prompt: "Put the words in order to say: You didn't imagine you would live abroad.", words: ["Non", "immaginavi", "che", "avresti", "vissuto", "all'estero."], translation: "You didn't imagine you would live abroad.", explanation: "Future in the past: \"avresti vissuto\"." },
       { type: "multiple-choice", question: "Which closing fits a warm letter to yourself?", options: ["Con affetto, il te di adesso.", "Distinti saluti.", "In attesa di un Suo riscontro.", "Cordialmente, la direzione."], correctIndex: 0, explanation: "\"Con affetto\" is warm; the others belong in formal letters." },
       { type: "dictation", audio: "Avrei voluto essere meno timido.", explanation: "\"Avrei voluto\" + \"essere\": a regret about character." },
-      { type: "speak", text: "Al posto tuo avrei viaggiato di più. Non immaginavi che saresti andato a vivere all'estero!", prompt: "Say it in Italian: In your place I would have travelled more. You didn't imagine you would go and live abroad!", tip: "\"All'estero\": link the l, al-LE-ste-ro.", explanation: "Regret, then the future in the past." },
+      { type: "speak", text: "Al posto tuo avrei viaggiato di più. Non immaginavi che saresti andato a vivere all'estero!", prompt: "Say it in Italian: In your place I would have traveled more. You didn't imagine you would go and live abroad!", tip: "\"All'estero\": link the l, al-LE-ste-ro.", explanation: "Regret, then the future in the past." },
     ],
   },
 ];
 
 export const IT_B1_U13_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Your Italian friend Marta was hurt that you missed her graduation party last month, although you had promised to come. Write her a message: remind her what you had told her, explain why you didn't come, say what you would have liked to do, admit what you should have done, and suggest a way to make it up.",
+  prompt: "Your Italian friend Marta was hurt that you missed her graduation party last Saturday, although you had promised to come. Write her a message: remind her what you had told her, explain why you didn't come, say what you would have liked to do, admit what you should have done, and suggest a way to make it up.",
   minWords: 80,
   maxWords: 150,
   rubric: [

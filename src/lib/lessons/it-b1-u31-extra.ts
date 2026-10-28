@@ -17,24 +17,24 @@ export const IT_B1_U31_EXTRA: Lesson[] = [
       {
         heading: "New words, same rules",
         body: [
-          "Try the suffixes on new bases: \"scarpa\" → \"scarpetta\", \"letto\" → \"lettino\" (a cot, a sunbed), \"pigro\" → \"pigrone\" (lazybones), \"dirigere\" → \"il direttore / la direttrice\", \"gentile\" → \"la gentilezza\", \"spiegare\" → \"la spiegazione\".",
+          "Try the suffixes on new bases: \"scarpa\" → \"scarpetta\", \"letto\" → \"lettino\" (a crib, a beach lounger, an exam table), \"pigro\" → \"pigrone\" (lazybones), \"dirigere\" → \"il direttore / la direttrice\", \"gentile\" → \"la gentilezza\", \"spiegare\" → \"la spiegazione\".",
         ],
         examples: [
-          { es: "Al mare affittiamo due lettini.", en: "At the beach we rent two sunbeds." },
+          { es: "Al mare affittiamo due lettini.", en: "At the beach we rent two beach loungers." },
           { es: "Dai, pigrone, alzati!", en: "Come on, lazybones, get up!" },
-          { es: "La direttrice ci ha ricevuto subito.", en: "The (woman) director saw us straight away." },
+          { es: "La direttrice ci ha ricevuto subito.", en: "The (woman) director saw us right away." },
           { es: "Grazie per la gentilezza.", en: "Thank you for your kindness." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Thank you for your kindness.", answer: "Grazie per la gentilezza.", altAnswers: ["Grazie della gentilezza.", "La ringrazio per la gentilezza."], explanation: "\"Gentile\" → \"gentilezza\"." },
-          { type: "listen-choose", audio: "Al mare affittiamo due lettini.", question: "What do they rent at the beach?", options: ["two sunbeds", "two cots", "two umbrellas", "two small rooms"], correctIndex: 0, explanation: "At the beach, \"lettino\" = sunbed." },
+          { type: "listen-choose", audio: "Al mare affittiamo due lettini.", question: "What do they rent at the beach?", options: ["two beach loungers", "two cribs", "two umbrellas", "two small rooms"], correctIndex: 0, explanation: "At the beach, \"lettino\" = beach lounger." },
         ],
       },
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Come on, lazybones, get up! (to a friend)", answer: "Dai, pigrone, alzati!", altAnswers: ["Dai, pigrona, alzati!"], explanation: "\"Pigro\" + \"-one\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The explanation was clear.", answer: "La spiegazione era chiara.", altAnswers: ["La spiegazione è stata chiara."], explanation: "\"Spiegare\" → \"spiegazione\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The director saw us straight away. (a woman)", answer: "La direttrice ci ha ricevuto subito.", altAnswers: ["La direttrice ci ha ricevuti subito.", "La direttrice ci ha ricevute subito."], explanation: "\"Dirigere\" → \"direttore / direttrice\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The director saw us right away. (a woman)", answer: "La direttrice ci ha ricevuto subito.", altAnswers: ["La direttrice ci ha ricevuti subito.", "La direttrice ci ha ricevute subito."], explanation: "\"Dirigere\" → \"direttore / direttrice\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The children's shoes are tiny.", answer: "Le scarpette dei bambini sono piccolissime.", altAnswers: ["Le scarpe dei bambini sono piccolissime.", "Le scarpette dei bambini sono minuscole."], explanation: "\"Scarpa\" + \"-etta\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's a very tasty sauce.", answer: "È un sugo molto gustoso.", altAnswers: ["È una salsa molto gustosa.", "È un sugo gustosissimo."], explanation: "\"Gusto\" → \"gustoso\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The movement is growing.", answer: "Il movimento sta crescendo.", altAnswers: ["Il movimento cresce."], explanation: "\"Muovere\" → \"movimento\"." },
@@ -43,10 +43,10 @@ export const IT_B1_U31_EXTRA: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Sadness passes.", answer: "La tristezza passa.", altAnswers: [], explanation: "\"Triste\" → \"tristezza\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The [singer] is from Naples. (a woman)", sentence: "La ___ è di Napoli.", answer: "cantante", explanation: "\"-ante\" nouns are the same for both genders." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Thanks for the [invitation].", sentence: "Grazie per l'___.", answer: "invito", explanation: "Not every verb takes a suffix: \"invitare\" → \"invito\"." },
-      { type: "word-order", prompt: "Put the words in order to say: The little dog sleeps on the cot.", words: ["Il", "cagnolino", "dorme", "sul", "lettino."], translation: "The little dog sleeps on the cot.", explanation: "Two diminutives." },
+      { type: "word-order", prompt: "Put the words in order to say: The little dog sleeps on the lounger.", words: ["Il", "cagnolino", "dorme", "sul", "lettino."], translation: "The little dog sleeps on the lounger.", explanation: "Two diminutives." },
       { type: "multiple-choice", question: "\"La gentilezza\" comes from ...", options: ["gentile", "gente", "gentiluomo", "genitore"], correctIndex: 0, explanation: "\"Gentile\" + \"-ezza\"." },
       { type: "dictation", audio: "Grazie per la spiegazione e per la gentilezza.", explanation: "\"-zione\" and \"-ezza\"." },
-      { type: "speak", text: "Dai, pigrone! Che tempaccio, ma andiamo lo stesso al mare: ho prenotato due lettini.", prompt: "Say it to a friend: Come on, lazybones! Awful weather, but let's go to the beach anyway: I've booked two sunbeds.", tip: "pi-GRO-ne, tem-PAC-cio, let-TI-ni.", explanation: "Three suffixed words." },
+      { type: "speak", text: "Dai, pigrone! Che tempaccio, ma andiamo lo stesso al mare: ho prenotato due lettini.", prompt: "Say it to a friend: Come on, lazybones! Awful weather, but let's go to the beach anyway: I've booked two beach loungers.", tip: "pi-GRO-ne, tem-PAC-cio, let-TI-ni.", explanation: "Three suffixed words." },
     ],
   },
   {
@@ -91,7 +91,7 @@ export const IT_B1_U31_EXTRA: Lesson[] = [
       { type: "word-order", prompt: "Put the words in order to say: The phone is unreachable.", words: ["Il", "telefono", "è", "irraggiungibile."], translation: "The phone is unreachable.", explanation: "Typical message when a phone is off." },
       { type: "multiple-choice", question: "Which spelling is correct?", options: ["imbattibile", "inbattibile", "ibattibile", "irbattibile"], correctIndex: 0, explanation: "\"Im-\" before \"b\"." },
       { type: "dictation", audio: "C'è stato un imprevisto, riparto domani mattina.", explanation: "\"Im-\" and \"ri-\"." },
-      { type: "speak", text: "Scusa, c'è stato un imprevisto: il telefono era irraggiungibile. Riprovo più tardi.", prompt: "Apologise to a friend: Sorry, something unexpected came up: my phone was unreachable. I'll try again later.", tip: "Double \"r\": ir-rag-giun-GI-bi-le.", explanation: "Three prefixed words." },
+      { type: "speak", text: "Scusa, c'è stato un imprevisto: il telefono era irraggiungibile. Riprovo più tardi.", prompt: "Apologize to a friend: Sorry, something unexpected came up: my phone was unreachable. I'll try again later.", tip: "Double \"r\": ir-rag-giun-GI-bi-le.", explanation: "Three prefixed words." },
     ],
   },
   {
@@ -99,7 +99,7 @@ export const IT_B1_U31_EXTRA: Lesson[] = [
     level: "IT-B1",
     number: 3,
     title: "Extra Practice: Guess the Meaning",
-    summary: "Read a short advert and a short message full of derived words, and work out what they mean from the parts.",
+    summary: "Read a short ad and a short message full of derived words, and work out what they mean from the parts.",
     duration: "15 min",
     optional: true,
     kind: "drill",
@@ -107,7 +107,7 @@ export const IT_B1_U31_EXTRA: Lesson[] = [
       {
         heading: "Two short texts",
         body: [
-          "Text 1, an advert: \"Affittasi villetta con giardinetto, a due passi dal mare. Cucina abitabile, due camerette, terrazzino panoramico. Ideale per famiglie. Prenotazione con caparra, pagamento anticipato.\"",
+          "Text 1, an ad: \"Affittasi villetta con giardinetto, a due passi dal mare. Cucina abitabile, due camerette, terrazzino panoramico. Ideale per famiglie. Prenotazione con caparra, pagamento anticipato.\"",
           "Text 2, a message: \"Ciao! Il weekend è stato un disastro: tempaccio, un traffico incredibile e il ristorantino che volevamo era chiuso. Però abbiamo trovato una pizzeria economica e simpaticissima. Ritorniamo il mese prossimo!\"",
         ],
         examples: [
@@ -130,14 +130,14 @@ export const IT_B1_U31_EXTRA: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The weekend was a disaster.", answer: "Il weekend è stato un disastro.", altAnswers: ["Il fine settimana è stato un disastro."], explanation: "Passato prossimo of \"essere\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We found a cheap and very friendly pizzeria.", answer: "Abbiamo trovato una pizzeria economica e simpaticissima.", altAnswers: ["Abbiamo trovato una pizzeria economica e molto simpatica."], explanation: "\"Economico\" = cheap." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We're coming back next month.", answer: "Ritorniamo il mese prossimo.", altAnswers: ["Torniamo il mese prossimo."], explanation: "\"Ri-\" + \"tornare\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Booking with a deposit.", answer: "Prenotazione con caparra.", altAnswers: ["Prenotazione con acconto."], explanation: "\"Caparra\" = deposit." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Reservation with a deposit.", answer: "Prenotazione con caparra.", altAnswers: ["Prenotazione con acconto."], explanation: "\"Caparra\" = deposit." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Two [small bedrooms].", sentence: "Due ___.", answer: "camerette", explanation: "\"Camera\" + \"-etta\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Awful weather] all weekend.", sentence: "___ tutto il weekend.", answer: "Tempaccio", explanation: "\"Tempo\" + \"-accio\"." },
       { type: "word-order", prompt: "Put the words in order to say: The little restaurant was closed.", words: ["Il", "ristorantino", "era", "chiuso."], translation: "The little restaurant was closed.", explanation: "Diminutive of \"ristorante\"." },
-      { type: "multiple-choice", question: "\"A due passi dal mare\" means ...", options: ["very close to the sea", "two kilometres from the sea", "with two steps down to the sea", "far from the sea"], correctIndex: 0, explanation: "Literally two steps from the sea." },
+      { type: "multiple-choice", question: "\"A due passi dal mare\" means ...", options: ["very close to the sea", "two kilometers from the sea", "with two steps down to the sea", "far from the sea"], correctIndex: 0, explanation: "Literally two steps from the sea." },
       { type: "multiple-choice", question: "Text 2: what went well?", options: ["They found a nice cheap pizzeria.", "The weather.", "The traffic.", "The little restaurant."], correctIndex: 0, explanation: "\"Una pizzeria economica e simpaticissima\"." },
       { type: "dictation", audio: "Affittasi villetta con giardinetto e terrazzino.", explanation: "Three diminutives." },
-      { type: "speak", text: "Il weekend è stato un disastro: tempaccio e traffico. Però abbiamo trovato una pizzeria simpaticissima!", prompt: "Tell a friend: The weekend was a disaster: awful weather and traffic. But we found a really lovely pizzeria!", tip: "\"Simpaticissima\": stress on TIS.", explanation: "Pejorative + superlative." },
+      { type: "speak", text: "Il weekend è stato un disastro: tempaccio e traffico. Però abbiamo trovato una pizzeria simpaticissima!", prompt: "Tell a friend: The weekend was a disaster: awful weather and traffic. But we found a really lovely pizzeria!", tip: "\"Simpaticissima\": stress on CIS, sim-pa-ti-CIS-si-ma.", explanation: "Pejorative + superlative." },
     ],
   },
 ];

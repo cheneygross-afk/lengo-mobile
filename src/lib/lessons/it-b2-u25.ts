@@ -20,14 +20,14 @@ export const IT_B2_U25: Lesson[] = [
         body: [
           "Italy has more protected food names than any other EU country, over three hundred. \"DOP\" (Denominazione di Origine Protetta) means every stage, from raw material to finished product, happens in the defined area. \"IGP\" (Indicazione Geografica Protetta) requires at least one stage there. \"STG\" (Specialità Tradizionale Garantita) protects a traditional recipe, not a place: \"la pizza napoletana STG\" can be made anywhere, as long as the rules are followed.",
           "Each product has \"un disciplinare\" (a set of production rules) and \"un consorzio di tutela\" (a protection consortium) that checks them. A product \"viene prodotto\", \"stagionato\" (aged, matured) and \"certificato\": the passive is everywhere in this language.",
-          "Labels for wine work in the same way: \"DOC\" (Denominazione di Origine Controllata) and the stricter \"DOCG\", where the G stands for \"Garantita\". On a menu or a shop sign you will also see \"tipico\", \"artigianale\" (made by hand, small-scale) and \"nostrano\" (local, from round here): these words sound good but are not protected, so anyone can use them.",
+          "Labels for wine work in the same way: \"DOC\" (Denominazione di Origine Controllata) and the stricter \"DOCG\", where the G stands for \"Garantita\". On a menu or a store sign you will also see \"tipico\", \"artigianale\" (made by hand, small-scale) and \"nostrano\" (local, from round here): these words sound good but are not protected, so anyone can use them.",
         ],
         examples: [
           { es: "L'Italia ha più di trecento prodotti DOP e IGP.", en: "Italy has more than three hundred DOP and IGP products." },
           { es: "Un prodotto DOP viene fatto interamente nella zona d'origine.", en: "A DOP product is made entirely in its area of origin." },
           { es: "Per l'IGP basta che una fase avvenga nella zona.", en: "For IGP it's enough for one stage to take place in the area." },
           { es: "La pizza napoletana STG si può fare anche fuori da Napoli.", en: "STG Neapolitan pizza can be made outside Naples too." },
-          { es: "Il disciplinare stabilisce gli ingredienti e i tempi di stagionatura.", en: "The production rules set the ingredients and the ageing times." },
+          { es: "Il disciplinare stabilisce gli ingredienti e i tempi di stagionatura.", en: "The production rules set the ingredients and the aging times." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "A DOP product is made entirely in its area of origin.", answer: "Un prodotto DOP viene fatto interamente nella zona d'origine.", altAnswers: ["Un prodotto DOP è fatto interamente nella zona d'origine.", "Un prodotto DOP viene prodotto interamente nella zona di origine.", "Un prodotto DOP viene fatto interamente nella zona di origine."], explanation: "Passive with \"venire\" for a process." },
@@ -39,7 +39,7 @@ export const IT_B2_U25: Lesson[] = [
         heading: "Three famous names",
         body: [
           "\"Il Parmigiano Reggiano DOP\" is made only in the provinces of Parma, Reggio Emilia, Modena and parts of Bologna and Mantova, from raw milk, salt and rennet (\"il caglio\"), and aged at least twelve months; many wheels are sold at 24 or 36. \"Il Prosciutto di Parma DOP\" contains only pork and sea salt. \"Il pomodoro San Marzano DOP\" grows in the volcanic soil between Naples and Salerno.",
-          "Ageing language: \"stagionato 24 mesi\" (aged for 24 months), \"la stagionatura\". Note the gender: \"il Parmigiano\", \"il prosciutto\", \"il pomodoro\", but \"la mozzarella\" and \"la ricotta\".",
+          "Aging language: \"stagionato 24 mesi\" (aged for 24 months), \"la stagionatura\". Note the gender: \"il Parmigiano\", \"il prosciutto\", \"il pomodoro\", but \"la mozzarella\" and \"la ricotta\".",
         ],
         examples: [
           { es: "Il Parmigiano Reggiano viene stagionato almeno dodici mesi.", en: "Parmigiano Reggiano is aged for at least twelve months." },
@@ -57,7 +57,7 @@ export const IT_B2_U25: Lesson[] = [
       {
         heading: "Fakes and \"Italian sounding\"",
         body: [
-          "Abroad, shelves are full of \"prodotti italian sounding\": products with Italian-looking names, flags and colours made elsewhere, like \"Parmesan\". The consortia fight \"la contraffazione\" (counterfeiting) and \"l'imitazione\". \"Il marchio\" is the brand or seal; \"la denominazione\" the protected name.",
+          "Abroad, shelves are full of \"prodotti italian sounding\": products with Italian-looking names, flags and colors made elsewhere, like \"Parmesan\". The consortia fight \"la contraffazione\" (counterfeiting) and \"l'imitazione\". \"Il marchio\" is the brand or seal; \"la denominazione\" the protected name.",
           "Express quality claims with comparatives and superlatives: \"è il formaggio più imitato del mondo\" (the most imitated cheese in the world, \"del\" for in), \"non è buono quanto l'originale\" (not as good as the original).",
           "Note \"più ... di\" for comparing two things (\"più saporito del Parmesan\") and \"più ... che\" when you compare two adjectives, verbs or phrases (\"più costoso che buono\": more expensive than good). \"Migliore\" and \"peggiore\" are the irregular forms of \"più buono\" and \"più cattivo\"; both forms are used, but \"migliore\" sounds more formal.",
         ],
@@ -83,7 +83,7 @@ export const IT_B2_U25: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "This cheese is [aged for 24 months].", sentence: "Questo formaggio è ___.", answer: "stagionato 24 mesi", altAnswers: ["stagionato ventiquattro mesi", "stagionato per 24 mesi"], explanation: "\"Stagionato\" + time, usually without \"per\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Counterfeiting] costs billions.", sentence: "___ costa miliardi.", answer: "La contraffazione", explanation: "\"La contraffazione\" = counterfeiting." },
       { type: "word-order", prompt: "Put the words in order to say: STG pizza can be made outside Naples too.", words: ["La pizza", "STG", "si può fare", "anche fuori", "da Napoli."], translation: "STG pizza can be made outside Naples too.", explanation: "Impersonal \"si può fare\"." },
-      { type: "matching", instructions: "Match each label or word to its meaning.", pairs: [{ left: "DOP", right: "every stage in the area" }, { left: "IGP", right: "at least one stage in the area" }, { left: "STG", right: "a protected traditional recipe" }, { left: "il disciplinare", right: "the production rules" }, { left: "la stagionatura", right: "ageing" }], explanation: "The labels guarantee different things." },
+      { type: "matching", instructions: "Match each label or word to its meaning.", pairs: [{ left: "DOP", right: "every stage in the area" }, { left: "IGP", right: "at least one stage in the area" }, { left: "STG", right: "a protected traditional recipe" }, { left: "il disciplinare", right: "the production rules" }, { left: "la stagionatura", right: "aging" }], explanation: "The labels guarantee different things." },
       { type: "dictation", audio: "Il Parmigiano Reggiano viene stagionato almeno dodici mesi.", explanation: "\"Viene stagionato\": passive." },
       { type: "speak", text: "Vorrei un pezzo di Parmigiano stagionato ventiquattro mesi, per favore.", prompt: "At the cheese counter: I'd like a piece of Parmigiano aged for twenty-four months, please.", tip: "sta-gio-NA-to: soft g.", explanation: "\"Un pezzo di\" + cheese; \"stagionato\" + months." },
     ],
@@ -100,27 +100,27 @@ export const IT_B2_U25: Lesson[] = [
         heading: "North: pesto and risotto",
         body: [
           "\"Il pesto alla genovese\" from Liguria is basil, pine nuts (\"i pinoli\"), garlic, Parmigiano and Pecorino, olive oil and salt, traditionally pounded \"nel mortaio\" (in a mortar) rather than blended. In Liguria it goes with \"trofie\" or \"trenette\", often with potatoes and green beans.",
-          "\"Il risotto alla milanese\" is coloured yellow by saffron (\"lo zafferano\") and is the classic partner of \"l'ossobuco\". Rice in the North, pasta in the South, is a rough but useful map: the Po valley has \"le risaie\" (rice fields) and butter, the South has durum wheat and olive oil.",
+          "\"Il risotto alla milanese\" is colored yellow by saffron (\"lo zafferano\") and is the classic partner of \"l'ossobuco\". Rice in the North, pasta in the South, is a rough but useful map: the Po valley has \"le risaie\" (rice fields) and butter, the South has durum wheat and olive oil.",
           "Regional names often end in \"alla\" + an adjective of place: \"alla genovese\", \"alla milanese\", \"alla romana\", \"alla siciliana\". The article and \"maniera\" are understood: \"alla (maniera) milanese\" means in the Milanese style. Ingredients use \"al\", \"alla\", \"ai\", \"alle\": \"al ragù\", \"alle vongole\", \"ai funghi\".",
         ],
         examples: [
           { es: "Il vero pesto si fa nel mortaio, non nel frullatore.", en: "Real pesto is made in a mortar, not a blender." },
           { es: "In Liguria il pesto si mangia con le trofie, le patate e i fagiolini.", en: "In Liguria pesto is eaten with trofie, potatoes and green beans." },
-          { es: "Lo zafferano dà al risotto il suo colore giallo.", en: "Saffron gives the risotto its yellow colour." },
+          { es: "Lo zafferano dà al risotto il suo colore giallo.", en: "Saffron gives the risotto its yellow color." },
           { es: "A Milano il risotto si serve spesso con l'ossobuco.", en: "In Milan risotto is often served with ossobuco." },
           { es: "Al Nord si cucina di più con il burro, al Sud con l'olio.", en: "In the North people cook more with butter, in the South with oil." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Real pesto is made in a mortar.", answer: "Il vero pesto si fa nel mortaio.", altAnswers: ["Il pesto vero si fa nel mortaio.", "Il vero pesto viene fatto nel mortaio."], explanation: "Si passivante: \"si fa\"." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Saffron gives the risotto its yellow colour.", answer: "Lo zafferano dà al risotto il suo colore giallo.", altAnswers: ["Lo zafferano dà il colore giallo al risotto."], explanation: "\"Lo zafferano\": z takes \"lo\"; \"dà\" with an accent." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Saffron gives the risotto its yellow color.", answer: "Lo zafferano dà al risotto il suo colore giallo.", altAnswers: ["Lo zafferano dà il colore giallo al risotto."], explanation: "\"Lo zafferano\": z takes \"lo\"; \"dà\" with an accent." },
           { type: "multiple-choice", question: "Which ingredient is NOT in classic pesto alla genovese?", options: ["cream", "pine nuts", "basil", "Pecorino"], correctIndex: 0, explanation: "No cream: basil, pine nuts, garlic, cheese, oil and salt." },
         ],
       },
       {
-        heading: "Centre: ragù and carbonara",
+        heading: "Center: ragù and carbonara",
         body: [
           "In Bologna \"il ragù\" simmers for hours and goes with \"le tagliatelle\" (or in \"le lasagne\"), never with spaghetti. Naples has its own Sunday \"ragù napoletano\", made with whole pieces of meat. In Rome, \"la carbonara\" is \"guanciale\" (cured pork cheek), egg yolks, Pecorino Romano and black pepper: no cream, no garlic, and for purists no \"pancetta\".",
-          "Italians defend these rules passionately. Use \"si deve\", \"non si deve\", \"guai a chi\" (woe betide anyone who) + indicative, and \"è un sacrilegio\" for the worst offences.",
+          "Italians defend these rules passionately. Use \"si deve\", \"non si deve\", \"guai a chi\" (woe betide anyone who) + indicative, and \"è un sacrilegio\" for the worst offenses.",
           "To report a rule as something everyone believes, use the impersonal \"si dice che\" + subjunctive, or \"secondo i romani\" + indicative. \"Guai a chi\" is followed by the indicative: \"guai a chi rompe gli spaghetti!\" (woe betide anyone who breaks the spaghetti!). Breaking long pasta before cooking it is another classic taboo.",
         ],
         examples: [
@@ -139,7 +139,7 @@ export const IT_B2_U25: Lesson[] = [
       {
         heading: "South: orecchiette and arancini",
         body: [
-          "In Puglia \"le orecchiette\" (little ears) are made by hand and served \"con le cime di rapa\" (with turnip tops). In Sicily, rice balls filled with ragù or ham and cheese spark the most famous food argument: in Palermo they're \"le arancine\" (feminine), in Catania \"gli arancini\" (masculine), and each city is sure it's right.",
+          "In Puglia \"le orecchiette\" (little ears) are made by hand and served \"con le cime di rapa\" (with turnip tops). In Sicily, rice balls filled with ragù or ham and cheese spark the most famous food argument: in Palermo and much of western Sicily they're \"le arancine\" (feminine), in Catania and much of the east \"gli arancini\" (masculine), and each side is sure it's right; outside Sicily \"arancini\" is the usual word.",
           "Comparatives help in friendly arguments: \"le arancine di Palermo sono più buone di quelle di Catania\" (\"più buono\" is common in speech; \"migliore\" is better style).",
         ],
         examples: [
@@ -205,13 +205,13 @@ export const IT_B2_U25: Lesson[] = [
         ],
         examples: [
           { es: "Soffriggere la cipolla nel burro per qualche minuto.", en: "Gently fry the onion in butter for a few minutes." },
-          { es: "Rosolare la carne a fuoco vivace.", en: "Brown the meat over a high heat." },
+          { es: "Rosolare la carne a fuoco vivace.", en: "Brown the meat over high heat." },
           { es: "Sfumare con mezzo bicchiere di vino bianco.", en: "Deglaze with half a glass of white wine." },
           { es: "Togliere dal fuoco e mantecare con burro e parmigiano.", en: "Take off the heat and stir in butter and Parmesan." },
           { es: "Tagliare le carote a dadini.", en: "Dice the carrots." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian, in recipe style.", source: "Brown the meat over a high heat.", answer: "Rosolare la carne a fuoco vivace.", altAnswers: ["Rosolare la carne a fuoco alto.", "Rosolare la carne a fiamma alta."], explanation: "\"Rosolare\" = to brown; \"a fuoco vivace\" = over a high heat." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian, in recipe style.", source: "Brown the meat over high heat.", answer: "Rosolare la carne a fuoco vivace.", altAnswers: ["Rosolare la carne a fuoco alto.", "Rosolare la carne a fiamma alta."], explanation: "\"Rosolare\" = to brown; \"a fuoco vivace\" = over high heat." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words, in recipe style.", en: "[Deglaze] with half a glass of white wine.", sentence: "___ con mezzo bicchiere di vino bianco.", answer: "Sfumare", explanation: "\"Sfumare\" = add wine and let it evaporate." },
           { type: "listen-choose", audio: "Togliere dal fuoco e mantecare con burro e parmigiano.", question: "What do you do at the end?", options: ["Take it off the heat and stir in butter and cheese.", "Turn up the heat and add cheese.", "Add butter and leave it on the heat.", "Drain it and add cheese."], correctIndex: 0, explanation: "\"Mantecare\" happens off the heat." },
         ],
@@ -219,17 +219,17 @@ export const IT_B2_U25: Lesson[] = [
       {
         heading: "Heat, time and quantities",
         body: [
-          "Heat: \"a fuoco lento\" or \"basso\" (low), \"medio\", \"vivace\" or \"alto\" (high). Time: \"per dieci minuti\", \"finché non\" + verb (until): \"cuocere finché la cipolla non diventa trasparente\" (the \"non\" here doesn't make it negative). Small amounts: \"un pizzico di sale\" (a pinch), \"un filo d'olio\" (a drizzle), \"uno spicchio d'aglio\" (a clove), \"una noce di burro\" (a knob).",
-          "Oven instructions: \"preriscaldare il forno a 180 gradi\" (preheat the oven to 180 degrees), \"infornare\" (put in the oven), \"sfornare\" (take out of the oven), \"in forno ventilato\" (in a fan oven). Waiting: \"lasciare riposare\" (leave to rest), \"lasciare raffreddare\" (leave to cool), \"lasciare lievitare\" (leave to rise, for dough).",
+          "Heat: \"a fuoco lento\" or \"basso\" (low), \"medio\", \"vivace\" or \"alto\" (high). Time: \"per dieci minuti\", \"finché non\" + verb (until): \"cuocere finché la cipolla non diventa trasparente\" (the \"non\" here doesn't make it negative). Small amounts: \"un pizzico di sale\" (a pinch), \"un filo d'olio\" (a drizzle), \"uno spicchio d'aglio\" (a clove), \"una noce di burro\" (a pat).",
+          "Oven instructions: \"preriscaldare il forno a 180 gradi\" (preheat the oven to 180 degrees), \"infornare\" (put in the oven), \"sfornare\" (take out of the oven), \"in forno ventilato\" (in a convection oven). Waiting: \"lasciare riposare\" (leave to rest), \"lasciare raffreddare\" (leave to cool), \"lasciare lievitare\" (leave to rise, for dough).",
         ],
         examples: [
-          { es: "Cuocere a fuoco lento per due ore.", en: "Cook over a low heat for two hours." },
+          { es: "Cuocere a fuoco lento per due ore.", en: "Cook over low heat for two hours." },
           { es: "Cuocere finché la cipolla non diventa trasparente.", en: "Cook until the onion turns translucent." },
           { es: "Aggiungere un pizzico di sale e un filo d'olio.", en: "Add a pinch of salt and a drizzle of oil." },
           { es: "Schiacciare uno spicchio d'aglio.", en: "Crush a clove of garlic." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian, in recipe style.", source: "Cook over a low heat for two hours.", answer: "Cuocere a fuoco lento per due ore.", altAnswers: ["Cuocere a fuoco basso per due ore.", "Far cuocere a fuoco lento per due ore."], explanation: "\"A fuoco lento\" = over a low heat." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian, in recipe style.", source: "Cook over low heat for two hours.", answer: "Cuocere a fuoco lento per due ore.", altAnswers: ["Cuocere a fuoco basso per due ore.", "Far cuocere a fuoco lento per due ore."], explanation: "\"A fuoco lento\" = over low heat." },
           { type: "speak", text: "Aggiungere un pizzico di sale e un filo d'olio.", prompt: "Read the step aloud: Add a pinch of salt and a drizzle of oil.", tip: "PIZ-zi-co: voiceless zz, like ts.", explanation: "Small-quantity expressions." },
         ],
       },
@@ -246,7 +246,7 @@ export const IT_B2_U25: Lesson[] = [
       { type: "word-order", prompt: "Put the words in order to say: Take off the heat and stir in butter and cheese.", words: ["Togliere", "dal fuoco", "e mantecare", "con burro", "e formaggio."], translation: "Take off the heat and stir in butter and cheese.", explanation: "\"Mantecare\" off the heat." },
       { type: "matching", instructions: "Match the Italian verb to the English.", pairs: [{ left: "soffriggere", right: "to fry gently" }, { left: "rosolare", right: "to brown" }, { left: "sfumare", right: "to deglaze with wine" }, { left: "mantecare", right: "to stir in butter and cheese" }, { left: "scolare", right: "to drain" }], explanation: "The core recipe verbs." },
       { type: "dictation", audio: "Soffriggere la cipolla e sfumare con il vino bianco.", explanation: "Two infinitives: recipe style." },
-      { type: "speak", text: "Rosolare la carne a fuoco vivace, poi sfumare con il vino e cuocere a fuoco lento.", prompt: "Read the recipe step: Brown the meat over a high heat, then deglaze with wine and cook over a low heat.", tip: "ro-so-LA-re: single s, sounds like z.", explanation: "A sequence of recipe infinitives." },
+      { type: "speak", text: "Rosolare la carne a fuoco vivace, poi sfumare con il vino e cuocere a fuoco lento.", prompt: "Read the recipe step: Brown the meat over high heat, then deglaze with wine and cook over low heat.", tip: "ro-so-LA-re: single s, sounds like z.", explanation: "A sequence of recipe infinitives." },
     ],
   },
   {
@@ -262,7 +262,7 @@ export const IT_B2_U25: Lesson[] = [
         body: [
           "Food is the safest topic for a heated argument in Italy. Express strong dislike with \"non sopporto che\" + subjunctive (\"non sopporto che si metta la panna nella carbonara\"), \"mi dà fastidio che\" + subjunctive, or the very colloquial \"mi fa orrore\" (it horrifies me). \"È un sacrilegio\" and \"è un delitto\" are the classic exaggerations.",
           "To defend a choice: \"secondo me\" + indicative, \"non vedo che male ci sia\" (I don't see what's wrong with it), \"ognuno mangia come vuole\" (everyone eats as they like), \"de gustibus\" (there's no accounting for taste: Latin, used in conversation).",
-          "Remember the triggers for the subjunctive here: verbs of feeling and judgement such as \"non sopporto che\", \"mi dà fastidio che\", \"trovo assurdo che\" and \"è strano che\". When the subject is the same in both parts, use \"di\" + infinitive instead: \"non sopporto di mangiare in fretta\" (I can't stand eating in a hurry).",
+          "Remember the triggers for the subjunctive here: verbs of feeling and judgment such as \"non sopporto che\", \"mi dà fastidio che\", \"trovo assurdo che\" and \"è strano che\". When the subject is the same in both parts, use \"di\" + infinitive instead: \"non sopporto di mangiare in fretta\" (I can't stand eating in a hurry).",
         ],
         examples: [
           { es: "Non sopporto che si metta la panna nella carbonara.", en: "I can't stand people putting cream in carbonara." },
@@ -281,7 +281,7 @@ export const IT_B2_U25: Lesson[] = [
         heading: "The three great debates",
         body: [
           "Pineapple: most Italians consider \"la pizza hawaiana\" a foreign invention. Carbonara: cream (\"la panna\") is the great taboo; the creaminess should come from egg and Pecorino with a little pasta water (\"l'acqua di cottura\"). Cappuccino: Italians drink it at breakfast, and many find it odd after a meal, because milk is seen as heavy (\"pesante\") on a full stomach. After lunch you have \"un caffè\", an espresso.",
-          "Use comparisons to argue: \"è più buona senza\", \"la panna copre il sapore\" (cream masks the flavour), \"il latte appesantisce\" (milk weighs you down).",
+          "Use comparisons to argue: \"è più buona senza\", \"la panna copre il sapore\" (cream masks the flavor), \"il latte appesantisce\" (milk weighs you down).",
           "In a real argument you will hear softeners too: \"dai, non esagerare\" (come on, don't exaggerate), \"non è la fine del mondo\" (it's not the end of the world), \"sì, però\" (yes, but). And when people get really heated: \"ma stai scherzando?\" (are you joking?) and \"non se ne parla nemmeno\" (it's out of the question).",
         ],
         examples: [
@@ -289,11 +289,11 @@ export const IT_B2_U25: Lesson[] = [
           { es: "Un goccio d'acqua di cottura rende la carbonara cremosa.", en: "A drop of pasta water makes the carbonara creamy." },
           { es: "Dopo pranzo gli italiani prendono un caffè, non un cappuccino.", en: "After lunch Italians have an espresso, not a cappuccino." },
           { es: "Dicono che il latte dopo i pasti sia pesante.", en: "They say milk after meals is heavy." },
-          { es: "La panna copre il sapore del guanciale.", en: "Cream masks the flavour of the guanciale." },
+          { es: "La panna copre il sapore del guanciale.", en: "Cream masks the flavor of the guanciale." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "After lunch Italians have an espresso, not a cappuccino.", answer: "Dopo pranzo gli italiani prendono un caffè, non un cappuccino.", altAnswers: ["Dopo pranzo gli italiani bevono un caffè, non un cappuccino.", "Dopo il pranzo gli italiani prendono un caffè, non un cappuccino."], explanation: "An espresso is simply \"un caffè\"; you \"prendi\" a coffee." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Cream masks the flavour.", answer: "La panna copre il sapore.", altAnswers: ["La panna nasconde il sapore."], explanation: "\"Coprire il sapore\" = to mask the flavour." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Cream masks the flavor.", answer: "La panna copre il sapore.", altAnswers: ["La panna nasconde il sapore."], explanation: "\"Coprire il sapore\" = to mask the flavor." },
           { type: "listen-choose", audio: "Un goccio d'acqua di cottura rende la carbonara cremosa.", question: "What makes the carbonara creamy, according to the speaker?", options: ["a little pasta water", "a drop of cream", "extra butter", "milk"], correctIndex: 0, explanation: "\"L'acqua di cottura\" = the pasta cooking water." },
         ],
       },
@@ -327,7 +327,7 @@ export const IT_B2_U25: Lesson[] = [
       { type: "word-order", prompt: "Put the words in order to say: I can't stand people putting cream in carbonara.", words: ["Non sopporto", "che si metta", "la panna", "nella", "carbonara."], translation: "I can't stand people putting cream in carbonara.", explanation: "Subjunctive after \"non sopporto che\"." },
       { type: "multiple-choice", question: "Which is the correct form? \"Mi dà fastidio che tu ___ il cappuccino a cena.\"", options: ["prenda", "prendi", "prenderai", "prendere"], correctIndex: 0, explanation: "\"Mi dà fastidio che\" + subjunctive." },
       { type: "dictation", audio: "Per quanto mi sforzi, l'ananas sulla pizza non mi piace.", explanation: "\"Per quanto\" + subjunctive." },
-      { type: "speak", text: "Non sopporto che si metta la panna nella carbonara: copre il sapore del guanciale.", prompt: "Give your opinion: I can't stand cream in carbonara: it masks the flavour of the guanciale.", tip: "guan-CIA-le: the i is silent, it just softens the c.", explanation: "Subjunctive after a verb of feeling." },
+      { type: "speak", text: "Non sopporto che si metta la panna nella carbonara: copre il sapore del guanciale.", prompt: "Give your opinion: I can't stand cream in carbonara: it masks the flavor of the guanciale.", tip: "guan-CIA-le: the i is silent, it just softens the c.", explanation: "Subjunctive after a verb of feeling." },
     ],
   },
   {
@@ -362,29 +362,29 @@ export const IT_B2_U25: Lesson[] = [
         ],
         examples: [
           { es: "Le uova vanno sbattute con il pecorino.", en: "The eggs must be beaten with the pecorino." },
-          { es: "Il sugo va lasciato cuocere a fuoco lento.", en: "The sauce must be left to cook over a low heat." },
-          { es: "Le melanzane vanno salate e lasciate riposare.", en: "The aubergines must be salted and left to rest." },
+          { es: "Il sugo va lasciato cuocere a fuoco lento.", en: "The sauce must be left to cook over low heat." },
+          { es: "Le melanzane vanno salate e lasciate riposare.", en: "The eggplants must be salted and left to rest." },
           { es: "La carne va rosolata da tutti i lati.", en: "The meat must be browned on all sides." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian, with andare + participle.", source: "The eggs must be beaten with the pecorino.", answer: "Le uova vanno sbattute con il pecorino.", altAnswers: ["Le uova vanno sbattute col pecorino."], explanation: "\"Le uova\" is feminine plural: \"sbattute\"." },
-          { type: "listen-choose", audio: "Le melanzane vanno salate e lasciate riposare.", question: "What must be done with the aubergines?", options: ["salt them and leave them to rest", "fry them straight away", "peel them and slice them", "wash them and dry them"], correctIndex: 0, explanation: "\"Salate e lasciate riposare\"." },
+          { type: "listen-choose", audio: "Le melanzane vanno salate e lasciate riposare.", question: "What must be done with the eggplants?", options: ["salt them and leave them to rest", "fry them right away", "peel them and slice them", "wash them and dry them"], correctIndex: 0, explanation: "\"Salate e lasciate riposare\"." },
         ],
       },
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, in recipe style with the infinitive.", source: "Wash the basil and dry it well.", answer: "Lavare il basilico e asciugarlo bene.", explanation: "\"Asciugarlo\": pronoun attached." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian, in recipe style with the infinitive.", source: "Bring the water to the boil and add salt.", answer: "Portare a ebollizione l'acqua e salare.", altAnswers: ["Portare l'acqua a ebollizione e salare.", "Portare l'acqua a bollore e salare.", "Portare a bollore l'acqua e salare.", "Portare l'acqua a ebollizione e aggiungere il sale."], explanation: "\"Portare a ebollizione\" = bring to the boil; \"salare\" = to add salt." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian, in recipe style with the infinitive.", source: "Bring the water to a boil and add salt.", answer: "Portare a ebollizione l'acqua e salare.", altAnswers: ["Portare l'acqua a ebollizione e salare.", "Portare l'acqua a bollore e salare.", "Portare a bollore l'acqua e salare.", "Portare l'acqua a ebollizione e aggiungere il sale."], explanation: "\"Portare a ebollizione\" = bring to a boil; \"salare\" = to add salt." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, using tu.", source: "Grate the cheese and add it to the eggs.", answer: "Grattugia il formaggio e aggiungilo alle uova.", explanation: "\"Aggiungilo\": \"tu\" imperative + pronoun." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian, with the si passivante.", source: "You slice the courgettes thinly.", answer: "Si affettano sottilmente le zucchine.", altAnswers: ["Si affettano le zucchine sottili.", "Si tagliano le zucchine a fette sottili.", "Si affettano le zucchine sottilmente."], explanation: "Plural verb with plural noun." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian, with the si passivante.", source: "You slice the zucchini thinly.", answer: "Si affettano sottilmente le zucchine.", altAnswers: ["Si affettano le zucchine sottili.", "Si tagliano le zucchine a fette sottili.", "Si affettano le zucchine sottilmente."], explanation: "Plural verb with plural noun." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, with andare + participle.", source: "The meat must be browned on all sides.", answer: "La carne va rosolata da tutti i lati.", altAnswers: ["La carne va rosolata su tutti i lati."], explanation: "\"Va rosolata\" agrees with \"la carne\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian, with andare + participle.", source: "The sauce must be left to cook over a low heat.", answer: "Il sugo va lasciato cuocere a fuoco lento.", altAnswers: ["Il sugo va lasciato cuocere a fuoco basso."], explanation: "\"Lasciare\" + infinitive: leave to cook." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian, with andare + participle.", source: "The sauce must be left to cook over low heat.", answer: "Il sugo va lasciato cuocere a fuoco lento.", altAnswers: ["Il sugo va lasciato cuocere a fuoco basso."], explanation: "\"Lasciare\" + infinitive: leave to cook." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, in recipe style with the infinitive.", source: "Drain the pasta and keep a little cooking water.", answer: "Scolare la pasta e tenere da parte un po' d'acqua di cottura.", altAnswers: ["Scolare la pasta e conservare un po' d'acqua di cottura.", "Scolare la pasta e tenere da parte un po' di acqua di cottura.", "Scolare la pasta tenendo da parte un po' d'acqua di cottura."], explanation: "\"Tenere da parte\" = to set aside." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, using tu.", source: "Don't let the garlic burn.", answer: "Non far bruciare l'aglio.", altAnswers: ["Non fare bruciare l'aglio.", "Non lasciare bruciare l'aglio."], explanation: "Negative \"tu\" imperative: \"non\" + infinitive." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words, in recipe style.", en: "[Knead] the dough for ten minutes.", sentence: "___ l'impasto per dieci minuti.", answer: "Impastare", altAnswers: ["Lavorare"], explanation: "\"Impastare\" = to knead." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words, with andare + participle.", en: "The tomatoes [must be peeled].", sentence: "I pomodori ___.", answer: "vanno pelati", explanation: "Plural masculine: \"vanno pelati\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words, using tu.", en: "Take the onion and [chop it finely].", sentence: "Prendi la cipolla e ___.", answer: "tritala finemente", altAnswers: ["tritala fine"], explanation: "\"Tu\" imperative + \"la\"." },
-      { type: "word-order", prompt: "Put the words in order to say: Cover and cook over a low heat for an hour.", words: ["Coprire", "e cuocere", "a fuoco lento", "per un'ora."], translation: "Cover and cook over a low heat for an hour.", explanation: "Two infinitives in sequence." },
+      { type: "word-order", prompt: "Put the words in order to say: Cover and cook over low heat for an hour.", words: ["Coprire", "e cuocere", "a fuoco lento", "per un'ora."], translation: "Cover and cook over low heat for an hour.", explanation: "Two infinitives in sequence." },
       { type: "dictation", audio: "Le uova vanno sbattute con il pecorino e un pizzico di pepe.", explanation: "\"Vanno sbattute\": feminine plural." },
       { type: "speak", text: "Pela le patate, tagliale a dadini e mettile in forno per quaranta minuti.", prompt: "Tell a friend: Peel the potatoes, dice them and put them in the oven for forty minutes.", tip: "TA-glia-le: stress stays on the verb, the pronoun adds a syllable.", explanation: "\"Tu\" imperatives with attached pronouns." },
     ],
@@ -411,7 +411,7 @@ export const IT_B2_U25: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "This pasta is overcooked.", answer: "Questa pasta è scotta.", explanation: "\"Scotto\" = overcooked, for pasta and rice." },
-          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The sauce is a bit [bland].", sentence: "Il sugo è un po' ___.", answer: "insipido", explanation: "\"Insipido\" = lacking flavour." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The sauce is a bit [bland].", sentence: "Il sugo è un po' ___.", answer: "insipido", explanation: "\"Insipido\" = lacking flavor." },
         ],
       },
       {
@@ -442,7 +442,7 @@ export const IT_B2_U25: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's a bit bland: it needs salt.", answer: "È un po' insipido: manca il sale.", altAnswers: ["È un po' insipida: manca il sale.", "È un po' insipido: ci vuole il sale."], explanation: "\"Manca il sale\" = it needs salt." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "This wine is [slightly bitter].", sentence: "Questo vino è ___.", answer: "leggermente amaro", altAnswers: ["un po' amaro"], explanation: "\"Amaro\" = bitter." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The pasta is [overcooked]!", sentence: "La pasta è ___!", answer: "scotta", explanation: "Feminine \"scotta\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "These biscuits are [the worst] I've ever eaten.", sentence: "Questi biscotti sono ___ che abbia mai mangiato.", answer: "i peggiori", explanation: "Relative superlative + subjunctive \"abbia\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "These cookies are [the worst] I've ever eaten.", sentence: "Questi biscotti sono ___ che abbia mai mangiato.", answer: "i peggiori", explanation: "Relative superlative + subjunctive \"abbia\"." },
       { type: "word-order", prompt: "Put the words in order to say: The sauce is tastier than yesterday.", words: ["Il sugo", "è", "più saporito", "di ieri."], translation: "The sauce is tastier than yesterday.", explanation: "\"Saporito\" = tasty." },
       { type: "dictation", audio: "Il pane era croccante fuori e morbido dentro.", explanation: "\"Fuori\" / \"dentro\" for outside and inside." },
       { type: "speak", text: "Il risotto è cremoso al punto giusto, ma è un po' insipido.", prompt: "Give feedback: The risotto is just creamy enough, but it's a bit bland.", tip: "in-SI-pi-do: stress on the second syllable.", explanation: "\"Al punto giusto\" and \"un po'\" grade the adjectives." },
@@ -504,7 +504,7 @@ export const IT_B2_U25: Lesson[] = [
           { es: "Non lavare mai il riso: perderebbe l'amido.", en: "Never wash the rice: it would lose its starch." },
         ],
         checkpoint: [
-          { type: "multiple-choice", question: "Why shouldn't you wash the rice?", options: ["It would lose its starch.", "It would become too salty.", "It would cook too fast.", "It would lose its colour."], correctIndex: 0, explanation: "\"Perderebbe l'amido\": conditional for the consequence." },
+          { type: "multiple-choice", question: "Why shouldn't you wash the rice?", options: ["It would lose its starch.", "It would become too salty.", "It would cook too fast.", "It would lose its color."], correctIndex: 0, explanation: "\"Perderebbe l'amido\": conditional for the consequence." },
           { type: "speak", text: "È importante che il risotto resti all'onda.", prompt: "Give the tip: It's important that the risotto stays loose and wavy.", tip: "all'ON-da: link the words, no break after all'.", explanation: "\"È importante che\" + subjunctive \"resti\"." },
         ],
       },
@@ -521,7 +521,7 @@ export const IT_B2_U25: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It's important that the risotto [stays] loose.", sentence: "È importante che il risotto ___ all'onda.", answer: "resti", altAnswers: ["rimanga"], explanation: "\"È importante che\" + subjunctive." },
       { type: "word-order", prompt: "Put the words in order to say: Add the stock as it is absorbed.", words: ["Aggiungere", "il brodo", "a mano a mano", "che viene", "assorbito."], translation: "Add the stock as it is absorbed.", explanation: "\"A mano a mano che\" = gradually as." },
       { type: "dictation", audio: "Togliere dal fuoco e mantecare con il burro rimasto e il Parmigiano.", explanation: "\"Il burro rimasto\" = the remaining butter." },
-      { type: "speak", text: "Prima si tosta il riso, poi si sfuma con il vino e si aggiunge il brodo un mestolo alla volta.", prompt: "Summarise the method: First you toast the rice, then deglaze with the wine and add the stock one ladle at a time.", tip: "ME-sto-lo: stress on the first syllable.", explanation: "Si passivante for a spoken summary." },
+      { type: "speak", text: "Prima si tosta il riso, poi si sfuma con il vino e si aggiunge il brodo un mestolo alla volta.", prompt: "Summarize the method: First you toast the rice, then deglaze with the wine and add the stock one ladle at a time.", tip: "ME-sto-lo: stress on the first syllable.", explanation: "Si passivante for a spoken summary." },
     ],
   },
   {
@@ -536,44 +536,44 @@ export const IT_B2_U25: Lesson[] = [
         heading: "The presentation",
         body: [
           "TV cooks speak fast and talk to the viewers with \"voi\" (\"guardate\", \"mi raccomando\") or with an inclusive \"noi\" (\"adesso prendiamo\"). Listen for fillers: \"allora\", \"ecco\", \"dunque\", \"vedete\".",
-          "Today's dish, \"la pasta alla Norma\", comes from Catania in Sicily and is named after the opera \"Norma\" by Vincenzo Bellini, who was born there. It's pasta with fried aubergine, tomato sauce, basil and \"ricotta salata\", a firm salted ricotta for grating.",
+          "Today's dish, \"la pasta alla Norma\", comes from Catania in Sicily and is named after the opera \"Norma\" by Vincenzo Bellini, who was born there. It's pasta with fried eggplant, tomato sauce, basil and \"ricotta salata\", a firm salted ricotta for grating.",
         ],
         examples: [
           { es: "Allora, oggi prepariamo un classico della cucina siciliana: la pasta alla Norma.", en: "Right, today we're making a classic of Sicilian cooking: pasta alla Norma." },
-          { es: "Si chiama così in onore dell'opera di Bellini, che era di Catania.", en: "It's called that in honour of Bellini's opera; he was from Catania." },
-          { es: "Ci servono melanzane, pomodori, basilico e ricotta salata.", en: "We need aubergines, tomatoes, basil and ricotta salata." },
+          { es: "Si chiama così in onore dell'opera di Bellini, che era di Catania.", en: "It's called that in honor of Bellini's opera; he was from Catania." },
+          { es: "Ci servono melanzane, pomodori, basilico e ricotta salata.", en: "We need eggplants, tomatoes, basil and ricotta salata." },
           { es: "Mi raccomando, la ricotta deve essere salata, non fresca.", en: "Make sure the ricotta is the salted kind, not fresh." },
         ],
         checkpoint: [
           { type: "listen-choose", audio: "Si chiama così in onore dell'opera di Bellini, che era di Catania.", question: "Why is the dish called alla Norma?", options: ["after an opera by a composer from Catania", "after the cook's grandmother", "after a village in Sicily", "because it's the normal way"], correctIndex: 0, explanation: "\"In onore dell'opera di Bellini\"." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We need aubergines, tomatoes and basil.", answer: "Ci servono melanzane, pomodori e basilico.", altAnswers: ["Ci servono delle melanzane, dei pomodori e del basilico.", "Abbiamo bisogno di melanzane, pomodori e basilico."], explanation: "\"Ci servono\": plural verb for plural things needed." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We need eggplants, tomatoes and basil.", answer: "Ci servono melanzane, pomodori e basilico.", altAnswers: ["Ci servono delle melanzane, dei pomodori e del basilico.", "Abbiamo bisogno di melanzane, pomodori e basilico."], explanation: "\"Ci servono\": plural verb for plural things needed." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian, as the cook.", source: "Make sure the ricotta is the salted kind, not fresh.", answer: "Mi raccomando, la ricotta deve essere salata, non fresca.", altAnswers: ["Mi raccomando, la ricotta dev'essere salata, non fresca.", "Mi raccomando: la ricotta deve essere salata, non fresca."], explanation: "\"Mi raccomando\" stresses an instruction." },
         ],
       },
       {
-        heading: "The aubergines",
+        heading: "The eggplants",
         body: [
           "Listen for the steps with \"prima\", \"poi\", \"intanto\" (meanwhile) and \"una volta che\" (once). The cook uses \"le\" and \"ne\" a lot: \"le friggiamo\", \"ne mettiamo un po'\".",
         ],
         examples: [
-          { es: "Tagliamo le melanzane a cubetti, non troppo piccoli.", en: "We cut the aubergines into cubes, not too small." },
+          { es: "Tagliamo le melanzane a cubetti, non troppo piccoli.", en: "We cut the eggplants into cubes, not too small." },
           { es: "Le friggiamo in abbondante olio finché non diventano dorate.", en: "We fry them in plenty of oil until they turn golden." },
-          { es: "Una volta fritte, le mettiamo sulla carta assorbente.", en: "Once fried, we put them on kitchen paper." },
+          { es: "Una volta fritte, le mettiamo sulla carta assorbente.", en: "Once fried, we put them on paper towels." },
           { es: "Intanto, in un'altra padella, prepariamo il sugo.", en: "Meanwhile, in another pan, we make the sauce." },
         ],
         checkpoint: [
-          { type: "listen-choose", audio: "Le friggiamo in abbondante olio finché non diventano dorate.", question: "How long are the aubergines fried?", options: ["until they turn golden", "for exactly five minutes", "until they're soft and pale", "until the oil smokes"], correctIndex: 0, explanation: "\"Finché non diventano dorate\"." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian, as the cook.", source: "Once fried, we put them on kitchen paper.", answer: "Una volta fritte, le mettiamo sulla carta assorbente.", altAnswers: ["Una volta fritte, le mettiamo su carta assorbente."], explanation: "\"Fritte\" agrees with \"le melanzane\"." },
+          { type: "listen-choose", audio: "Le friggiamo in abbondante olio finché non diventano dorate.", question: "How long are the eggplants fried?", options: ["until they turn golden", "for exactly five minutes", "until they're soft and pale", "until the oil smokes"], correctIndex: 0, explanation: "\"Finché non diventano dorate\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian, as the cook.", source: "Once fried, we put them on paper towels.", answer: "Una volta fritte, le mettiamo sulla carta assorbente.", altAnswers: ["Una volta fritte, le mettiamo su carta assorbente."], explanation: "\"Fritte\" agrees with \"le melanzane\"." },
         ],
       },
       {
         heading: "Putting it together",
         body: [
-          "The finish: \"saltare\" (to toss) the pasta in the sauce, add the aubergines, \"una spolverata\" (a dusting) of ricotta salata and \"qualche foglia di basilico\". To present the finished dish, Italian cooks say \"ecco fatto\" (done) or \"ed ecco qua\" (and here it is).",
+          "The finish: \"saltare\" (to toss) the pasta in the sauce, add the eggplants, \"una spolverata\" (a dusting) of ricotta salata and \"qualche foglia di basilico\". To present the finished dish, Italian cooks say \"ecco fatto\" (done) or \"ed ecco qua\" (and here it is).",
         ],
         examples: [
           { es: "Scoliamo la pasta e la saltiamo in padella con il sugo.", en: "We drain the pasta and toss it in the pan with the sauce." },
-          { es: "Aggiungiamo le melanzane e una bella spolverata di ricotta salata.", en: "We add the aubergines and a good dusting of ricotta salata." },
+          { es: "Aggiungiamo le melanzane e una bella spolverata di ricotta salata.", en: "We add the eggplants and a good dusting of ricotta salata." },
           { es: "Qualche foglia di basilico, ed ecco qua la nostra Norma.", en: "A few basil leaves, and here's our Norma." },
         ],
         checkpoint: [
@@ -585,16 +585,16 @@ export const IT_B2_U25: Lesson[] = [
     exercises: [
       { type: "listen-choose", audio: "Mi raccomando, la ricotta deve essere salata, non fresca.", question: "What does the cook insist on?", options: ["using salted ricotta, not fresh", "using fresh ricotta", "adding salt to the ricotta", "leaving out the ricotta"], correctIndex: 0, explanation: "\"Salata, non fresca\"." },
       { type: "listen-choose", audio: "Tagliamo le melanzane a cubetti, non troppo piccoli, altrimenti assorbono troppo olio.", question: "Why shouldn't the cubes be too small?", options: ["They would absorb too much oil.", "They would burn.", "They would fall apart in the sauce.", "They would take too long."], correctIndex: 0, explanation: "\"Altrimenti assorbono troppo olio\"." },
-      { type: "listen-choose", audio: "Intanto, in un'altra padella, facciamo soffriggere uno spicchio d'aglio e aggiungiamo i pomodori.", question: "What happens in the second pan?", options: ["Garlic is fried gently, then tomatoes go in.", "The pasta is cooked.", "The aubergines are fried.", "Onion is browned with the basil."], correctIndex: 0, explanation: "\"Soffriggere uno spicchio d'aglio\", then \"i pomodori\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian, as the cook.", source: "We cut the aubergines into cubes.", answer: "Tagliamo le melanzane a cubetti.", altAnswers: ["Tagliamo le melanzane a dadini.", "Tagliamo le melanzane a cubi."], explanation: "Inclusive \"noi\" form." },
+      { type: "listen-choose", audio: "Intanto, in un'altra padella, facciamo soffriggere uno spicchio d'aglio e aggiungiamo i pomodori.", question: "What happens in the second pan?", options: ["Garlic is fried gently, then tomatoes go in.", "The pasta is cooked.", "The eggplants are fried.", "Onion is browned with the basil."], correctIndex: 0, explanation: "\"Soffriggere uno spicchio d'aglio\", then \"i pomodori\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian, as the cook.", source: "We cut the eggplants into cubes.", answer: "Tagliamo le melanzane a cubetti.", altAnswers: ["Tagliamo le melanzane a dadini.", "Tagliamo le melanzane a cubi."], explanation: "Inclusive \"noi\" form." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, as the cook.", source: "Meanwhile, we make the sauce.", answer: "Intanto prepariamo il sugo.", altAnswers: ["Intanto facciamo il sugo.", "Nel frattempo prepariamo il sugo.", "Intanto, prepariamo il sugo."], explanation: "\"Intanto\" = meanwhile." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian, as the cook.", source: "We fry them until they turn golden.", answer: "Le friggiamo finché non diventano dorate.", altAnswers: ["Le friggiamo finché diventano dorate.", "Le friggiamo fino a quando non diventano dorate."], explanation: "\"Le\" = the aubergines." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian, as the cook.", source: "We fry them until they turn golden.", answer: "Le friggiamo finché non diventano dorate.", altAnswers: ["Le friggiamo finché diventano dorate.", "Le friggiamo fino a quando non diventano dorate."], explanation: "\"Le\" = the eggplants." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's a classic of Sicilian cooking.", answer: "È un classico della cucina siciliana.", explanation: "\"Un classico\" used as a noun." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, as the cook.", source: "A few basil leaves, and here it is.", answer: "Qualche foglia di basilico, ed ecco qua.", altAnswers: ["Qualche foglia di basilico ed ecco fatto.", "Qualche foglia di basilico, ed ecco fatto.", "Qualche foglia di basilico ed ecco qua."], explanation: "\"Qualche\" + singular noun." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, as the cook.", source: "Not too small, otherwise they absorb too much oil.", answer: "Non troppo piccoli, altrimenti assorbono troppo olio.", explanation: "\"Altrimenti\" = otherwise." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian, as the cook.", source: "We add the aubergines and a dusting of ricotta salata.", answer: "Aggiungiamo le melanzane e una spolverata di ricotta salata.", altAnswers: ["Aggiungiamo le melanzane e una bella spolverata di ricotta salata."], explanation: "\"Una spolverata\" = a dusting." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian, as the cook.", source: "We add the eggplants and a dusting of ricotta salata.", answer: "Aggiungiamo le melanzane e una spolverata di ricotta salata.", altAnswers: ["Aggiungiamo le melanzane e una bella spolverata di ricotta salata."], explanation: "\"Una spolverata\" = a dusting." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, as the cook.", source: "Meanwhile we fry a clove of garlic gently.", answer: "Intanto facciamo soffriggere uno spicchio d'aglio.", altAnswers: ["Intanto soffriggiamo uno spicchio d'aglio.", "Nel frattempo facciamo soffriggere uno spicchio d'aglio.", "Intanto facciamo soffriggere uno spicchio di aglio."], explanation: "\"Fare soffriggere\" is common in speech." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's called that in honour of an opera.", answer: "Si chiama così in onore di un'opera.", altAnswers: ["Si chiama così in onore di un'opera lirica."], explanation: "\"In onore di\" = in honour of." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's called that in honor of an opera.", answer: "Si chiama così in onore di un'opera.", altAnswers: ["Si chiama così in onore di un'opera lirica."], explanation: "\"In onore di\" = in honor of." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "We toss the pasta [in the pan] with the sauce.", sentence: "Saltiamo la pasta ___ con il sugo.", answer: "in padella", altAnswers: ["nella padella"], explanation: "\"Saltare in padella\" = to toss in the pan." },
       { type: "word-order", prompt: "Put the words in order to say: We drain the pasta and toss it in the pan.", words: ["Scoliamo", "la pasta", "e la", "saltiamo", "in padella."], translation: "We drain the pasta and toss it in the pan.", explanation: "Pronoun \"la\" before the verb." },
       { type: "dictation", audio: "Una volta fritte, le mettiamo sulla carta assorbente.", explanation: "\"Fritte\" agrees with \"melanzane\"." },
@@ -624,7 +624,7 @@ export const IT_B2_U25: Lesson[] = [
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian, in a pizzeria.", source: "I'd like a pepperoni pizza, please.", answer: "Vorrei una pizza al salame piccante, per favore.", altAnswers: ["Vorrei una diavola, per favore.", "Vorrei una pizza alla diavola, per favore.", "Per me una pizza al salame piccante, per favore."], explanation: "Not \"*pepperoni\": \"i peperoni\" are peppers." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'll have [a sandwich] with ham.", sentence: "Prendo ___ con il prosciutto.", answer: "un panino", explanation: "Singular \"panino\"; \"panini\" is plural." },
-          { type: "multiple-choice", question: "You order \"una pizza ai peperoni\". What arrives?", options: ["a pizza with bell peppers", "a pizza with spicy salami", "a pizza with chilli oil", "a pizza with pepperoni sausage"], correctIndex: 0, explanation: "\"I peperoni\" = bell peppers." },
+          { type: "multiple-choice", question: "You order \"una pizza ai peperoni\". What arrives?", options: ["a pizza with bell peppers", "a pizza with spicy salami", "a pizza with chili oil", "a pizza with pepperoni sausage"], correctIndex: 0, explanation: "\"I peperoni\" = bell peppers." },
         ],
       },
       {
@@ -651,11 +651,11 @@ export const IT_B2_U25: Lesson[] = [
         ],
         examples: [
           { es: "A Bologna si mangiano le tagliatelle al ragù.", en: "In Bologna people eat tagliatelle with ragù." },
-          { es: "Gli spaghetti con le vongole sono il mio piatto preferito.", en: "Spaghetti with clams is my favourite dish." },
+          { es: "Gli spaghetti con le vongole sono il mio piatto preferito.", en: "Spaghetti with clams is my favorite dish." },
           { es: "Il ragù non va mai con gli spaghetti, dicono a Bologna.", en: "Ragù never goes with spaghetti, they say in Bologna." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Spaghetti with clams is my favourite dish.", answer: "Gli spaghetti con le vongole sono il mio piatto preferito.", altAnswers: ["Gli spaghetti alle vongole sono il mio piatto preferito."], explanation: "\"Gli spaghetti\" + plural verb \"sono\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Spaghetti with clams is my favorite dish.", answer: "Gli spaghetti con le vongole sono il mio piatto preferito.", altAnswers: ["Gli spaghetti alle vongole sono il mio piatto preferito."], explanation: "\"Gli spaghetti\" + plural verb \"sono\"." },
           { type: "speak", text: "A Bologna non dicono spaghetti alla bolognese: dicono tagliatelle al ragù.", prompt: "Correct a friend: In Bologna they don't say spaghetti bolognese: they say tagliatelle al ragù.", tip: "ta-glia-TEL-le: gli as in million.", explanation: "The local name for the dish." },
         ],
       },
@@ -665,14 +665,14 @@ export const IT_B2_U25: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We bought four sandwiches for the journey.", answer: "Abbiamo comprato quattro panini per il viaggio.", explanation: "Plural \"panini\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, at the bar.", source: "An espresso with a dash of milk, thanks.", answer: "Un caffè macchiato, grazie.", altAnswers: ["Un macchiato, grazie."], explanation: "\"Macchiato\" = stained." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In Bologna people eat tagliatelle with ragù.", answer: "A Bologna si mangiano le tagliatelle al ragù.", altAnswers: ["A Bologna mangiano le tagliatelle al ragù.", "A Bologna si mangiano tagliatelle al ragù."], explanation: "Si passivante with a plural noun." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll have a courgette and a biscuit.", answer: "Prendo una zucchina e un biscotto.", altAnswers: ["Prendo uno zucchino e un biscotto."], explanation: "Singular forms: \"zucchina\", \"biscotto\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll have a zucchini and a cookie.", answer: "Prendo una zucchina e un biscotto.", altAnswers: ["Prendo uno zucchino e un biscotto."], explanation: "Singular forms: \"zucchina\", \"biscotto\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, at the bar.", source: "A lukewarm milky coffee for me.", answer: "Per me un caffellatte tiepido.", altAnswers: ["Un caffellatte tiepido per me.", "Per me un caffelatte tiepido."], explanation: "\"Tiepido\" = lukewarm." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'd like a pizza with [spicy salami].", sentence: "Vorrei una pizza al ___.", answer: "salame piccante", explanation: "The topping English speakers call pepperoni." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[The spaghetti] is ready.", sentence: "___ sono pronti.", answer: "Gli spaghetti", explanation: "\"Gli\" before s + consonant." },
       { type: "multiple-choice", question: "Which order gets you coffee with lots of milk in a tall glass?", options: ["un latte macchiato", "un latte", "un caffè macchiato", "un caffè lungo"], correctIndex: 0, explanation: "\"Un latte\" is just milk." },
       { type: "multi-select", question: "Which of these are correct Italian?", options: ["un panino", "un panini", "gli spaghetti", "i spaghetti", "un espresso"], correctIndexes: [0, 2, 4], explanation: "\"Un panino\", \"gli spaghetti\", \"un espresso\"." },
       { type: "dictation", audio: "Un latte macchiato e un panino con prosciutto e mozzarella.", explanation: "Two corrected orders in one." },
-      { type: "speak", text: "Vorrei una pizza al salame piccante e un panino da portare via.", prompt: "Order: I'd like a pepperoni pizza and a sandwich to take away.", tip: "pic-CAN-te: double c, hold it.", explanation: "\"Da portare via\" = to take away." },
+      { type: "speak", text: "Vorrei una pizza al salame piccante e un panino da portare via.", prompt: "Order: I'd like a pepperoni pizza and a sandwich to go.", tip: "pic-CAN-te: double c, hold it.", explanation: "\"Da portare via\" = to go." },
     ],
   },
   {
@@ -706,7 +706,7 @@ export const IT_B2_U25: Lesson[] = [
           "Layout: the title, \"Ingredienti per 4 persone\", a list with quantities, then \"Preparazione\" with numbered steps in the infinitive. Keep one form throughout. Use \"q.b.\" for salt, pepper and oil, and \"andare\" + participle for what really matters.",
         ],
         examples: [
-          { es: "Ingredienti: 500 g di carne macinata, 2 uova, 50 g di pane raffermo, prezzemolo, sale q.b.", en: "Ingredients: 500 g of minced meat, 2 eggs, 50 g of stale bread, parsley, salt to taste." },
+          { es: "Ingredienti: 500 g di carne macinata, 2 uova, 50 g di pane raffermo, prezzemolo, sale q.b.", en: "Ingredients: 500 g of ground meat, 2 eggs, 50 g of stale bread, parsley, salt to taste." },
           { es: "Ammollare il pane nel latte e strizzarlo bene.", en: "Soak the bread in milk and squeeze it out well." },
           { es: "Impastare tutto e formare delle polpette grandi come una noce.", en: "Mix everything by hand and shape walnut-sized meatballs." },
           { es: "Le polpette vanno cotte nel sugo per almeno mezz'ora.", en: "The meatballs must be cooked in the sauce for at least half an hour." },

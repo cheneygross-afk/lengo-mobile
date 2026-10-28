@@ -20,6 +20,7 @@ export const IT_B1_U10: Lesson[] = [
         body: [
           "Impersonal phrases with \"è\" + adjective judge an action: is it important, necessary, possible, better? When the action belongs to a specific person, add \"che\" + subjunctive: \"È importante che tu dorma\" (It's important that you sleep), \"È necessario che firmiate qui\".",
           "The most common: \"è importante che\", \"è necessario che\", \"è meglio che\", \"è possibile che\", \"è probabile che\", \"è un peccato che\" (it's a pity that), \"è strano che\" (it's strange that).",
+          "English often says it's important for you to sleep. Don't copy the for: Italian puts the person after \"che\" (\"È importante che tu dorma\"). One false friend: \"è facile che\" doesn't mean it's easy that but it's likely that: \"È facile che piova\" (It'll probably rain). And remember that the \"noi\" subjunctive looks like the present: \"È meglio che andiamo\" is already correct.",
         ],
         examples: [
           { es: "È importante che tu dorma almeno otto ore.", en: "It's important that you sleep at least eight hours." },
@@ -57,13 +58,13 @@ export const IT_B1_U10: Lesson[] = [
           "\"Peccato!\" alone means what a pity, and \"Meglio così\" means it's better that way.",
         ],
         examples: [
-          { es: "Peccato che piova!", en: "Shame it's raining!" },
+          { es: "Peccato che piova!", en: "Too bad it's raining!" },
           { es: "Meglio che tu vada adesso.", en: "You'd better go now." },
           { es: "Strano che non chiami.", en: "Strange that she isn't calling." },
           { es: "Non viene? Meglio così.", en: "He's not coming? All the better." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Shame it's raining!", answer: "Peccato che piova!", altAnswers: ["È un peccato che piova!"], explanation: "Short form, same subjunctive." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Too bad it's raining!", answer: "Peccato che piova!", altAnswers: ["È un peccato che piova!"], explanation: "Short form, same subjunctive." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Strange that she [isn't calling].", sentence: "Strano che non ___.", answer: "chiami", explanation: "\"Chiami\"." },
         ],
       },
@@ -96,13 +97,14 @@ export const IT_B1_U10: Lesson[] = [
         body: [
           "When the advice is general, for everyone, there's no subject and no \"che\": just the infinitive. \"È importante dormire\" (It's important to sleep), \"Bisogna prenotare\" (You need to book), \"È meglio partire presto\".",
           "Compare: \"È importante dormire\" (for anyone) / \"È importante che tu dorma\" (for you in particular). Note there's no \"di\": not \"è importante di dormire\".",
+          "A middle way puts an indirect pronoun before the phrase and keeps the infinitive: \"Mi è difficile capire\" (It's hard for me to understand), \"Ti conviene prenotare\" (You'd better book), \"Ci è impossibile venire\". This is very natural with \"convenire\" and \"bastare\": \"Ti basta chiedere\" (All you have to do is ask).",
         ],
         examples: [
           { es: "È importante dormire bene.", en: "It's important to sleep well." },
           { es: "Bisogna prenotare con anticipo.", en: "You need to book in advance." },
           { es: "È meglio partire presto.", en: "It's better to leave early." },
           { es: "È possibile pagare con la carta?", en: "Is it possible to pay by card?" },
-          { es: "È difficile trovare parcheggio in centro.", en: "It's hard to find parking in the centre." },
+          { es: "È difficile trovare parcheggio in centro.", en: "It's hard to find parking in the center." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You need to book in advance.", answer: "Bisogna prenotare con anticipo.", altAnswers: ["Bisogna prenotare in anticipo.", "È necessario prenotare in anticipo.", "È necessario prenotare con anticipo."], explanation: "General: infinitive." },
@@ -118,7 +120,7 @@ export const IT_B1_U10: Lesson[] = [
         examples: [
           { es: "È vietato fumare.", en: "No smoking." },
           { es: "È obbligatorio indossare il casco.", en: "Helmets must be worn." },
-          { es: "È consentito portare un bagaglio a mano.", en: "You may bring one piece of hand luggage." },
+          { es: "È consentito portare un bagaglio a mano.", en: "You may bring one carry-on bag." },
           { es: "Si prega di non toccare le opere.", en: "Please do not touch the works of art." },
         ],
         checkpoint: [
@@ -148,8 +150,8 @@ export const IT_B1_U10: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's important to sleep well.", answer: "È importante dormire bene.", explanation: "General." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's better to leave early.", answer: "È meglio partire presto.", altAnswers: ["Meglio partire presto."], explanation: "No \"di\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Is it possible to pay by card?", answer: "È possibile pagare con la carta?", altAnswers: ["Si può pagare con la carta?", "È possibile pagare con carta?"], explanation: "General question." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's hard to find parking in the centre.", answer: "È difficile trovare parcheggio in centro.", altAnswers: ["È difficile trovare un parcheggio in centro."], explanation: "\"È difficile\" + infinitive." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You may bring one piece of hand luggage.", answer: "È consentito portare un bagaglio a mano.", explanation: "Rule." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's hard to find parking in the center.", answer: "È difficile trovare parcheggio in centro.", altAnswers: ["È difficile trovare un parcheggio in centro."], explanation: "\"È difficile\" + infinitive." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You may bring one carry-on bag.", answer: "È consentito portare un bagaglio a mano.", explanation: "Rule." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's important that you sleep well. (to a friend)", answer: "È importante che tu dorma bene.", explanation: "Specific person: \"che\" + subjunctive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Please do not touch the works of art.", answer: "Si prega di non toccare le opere.", altAnswers: ["Si prega di non toccare le opere d'arte."], explanation: "\"Si prega di\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[No entry] to dogs.", sentence: "___ l'ingresso ai cani.", answer: "È vietato", altAnswers: ["Vietato"], explanation: "\"Vietato\"." },
@@ -170,8 +172,9 @@ export const IT_B1_U10: Lesson[] = [
       {
         heading: "Facts take the indicative",
         body: [
-          "Some impersonal phrases state a fact, not a judgement: \"è vero che\", \"è chiaro che\", \"è evidente che\", \"è certo che\", \"è ovvio che\". They take the indicative: \"È vero che Luca è partito\", \"È chiaro che non vuole venire\".",
+          "Some impersonal phrases state a fact, not a judgment: \"è vero che\", \"è chiaro che\", \"è evidente che\", \"è certo che\", \"è ovvio che\". They take the indicative: \"È vero che Luca è partito\", \"È chiaro che non vuole venire\".",
           "\"È vero che sia\" is not standard Italian. But turn the fact into doubt and the subjunctive returns: \"Non è vero che sia così facile\" (It's not true that it's that easy), \"Non è detto che venga\" (It's not certain he'll come).",
+          "A question keeps the indicative: \"È vero che parti?\" (Is it true you're leaving?). Very common in speech is \"non è che\" + subjunctive, which softens a statement or a request: \"Non è che sia brutto, ma...\" (It's not that it's ugly, but...), \"Non è che mi presti la penna?\" (You couldn't lend me your pen, could you?), where the indicative is normal in the request.",
         ],
         examples: [
           { es: "È vero che Luca si è trasferito.", en: "It's true that Luca has moved." },
@@ -276,7 +279,7 @@ export const IT_B1_U10: Lesson[] = [
         heading: "Sembra che: apparently",
         body: [
           "Without a pronoun, \"sembra che\" (or \"pare che\") means apparently or it seems: it reports what people say or what appears to be true. \"Sembra che il ristorante chiuda\" (Apparently the restaurant is closing). It takes the subjunctive.",
-          "For something that already happened, you need the past subjunctive (Unit 12): \"Sembra che abbia vinto\" (It seems he won). Recognise it now; you'll practise it later.",
+          "For something that already happened, you need the past subjunctive (Unit 12): \"Sembra che abbia vinto\" (It seems he won). Recognize it now; you'll practice it later.",
         ],
         examples: [
           { es: "Sembra che il ristorante chiuda a fine mese.", en: "Apparently the restaurant is closing at the end of the month." },
@@ -294,6 +297,7 @@ export const IT_B1_U10: Lesson[] = [
         body: [
           "\"Può darsi che\" means it may be that, maybe. It always takes the subjunctive: \"Può darsi che arrivi tardi\" (He may arrive late). On its own, \"Può darsi\" means maybe, could be.",
           "Compare the simpler \"forse\" + indicative: \"Forse arriva tardi\". Same meaning, no subjunctive, because \"forse\" isn't followed by \"che\".",
+          "With an adjective or the same subject, \"sembrare\" needs no \"che\" at all: \"Sembra stanco\" (He looks tired), \"Il museo sembra chiuso\". Short answers work as with \"credo\": \"Pare di sì\", \"Sembra di no\". In casual speech you'll also hear \"può essere che\" for \"può darsi che\", again with the subjunctive.",
         ],
         examples: [
           { es: "Può darsi che arrivi tardi.", en: "He may arrive late." },
@@ -459,7 +463,7 @@ export const IT_B1_U10: Lesson[] = [
           { es: "È importante che tu provi la granita con la brioche.", en: "You must try granita with brioche." },
           { es: "Ad agosto è probabile che faccia caldissimo.", en: "In August it'll probably be extremely hot." },
           { es: "È meglio visitare i siti archeologici la mattina presto.", en: "It's better to visit the archaeological sites early in the morning." },
-          { es: "Peccato che non ci sia anche tu!", en: "Shame you won't be there too!" },
+          { es: "Peccato che non ci sia anche tu!", en: "Too bad you won't be there too!" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In August it'll probably be extremely hot.", answer: "Ad agosto è probabile che faccia caldissimo.", altAnswers: ["In agosto è probabile che faccia caldissimo.", "Ad agosto è probabile che faccia molto caldo."], explanation: "\"Faccia\"." },
@@ -472,7 +476,7 @@ export const IT_B1_U10: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "At the top you must go with a guide.", answer: "In cima è obbligatorio andare con una guida.", altAnswers: ["In cima bisogna andare con una guida."], explanation: "Rule: infinitive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You must try granita with brioche. (to a friend)", answer: "È importante che tu provi la granita con la brioche.", altAnswers: ["Devi provare la granita con la brioche.", "Bisogna che tu provi la granita con la brioche."], explanation: "\"Provi\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's better to visit the archaeological sites early in the morning.", answer: "È meglio visitare i siti archeologici la mattina presto.", altAnswers: ["È meglio visitare i siti archeologici di mattina presto."], explanation: "General: infinitive." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Shame you won't be there too!", answer: "Peccato che non ci sia anche tu!", altAnswers: ["È un peccato che non ci sia anche tu!"], explanation: "\"Ci sia\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Too bad you won't be there too!", answer: "Peccato che non ci sia anche tu!", altAnswers: ["È un peccato che non ci sia anche tu!"], explanation: "\"Ci sia\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The trains are slow.", answer: "I treni sono lenti.", explanation: "A fact: indicative." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It's better that you [stay] two nights in Palermo. (to a friend)", sentence: "È meglio che tu ___ due notti a Palermo.", answer: "rimanga", altAnswers: ["resti", "stia"], explanation: "\"Rimanga\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It's possible [to swim] in October.", sentence: "È possibile ___ a ottobre.", answer: "fare il bagno", altAnswers: ["nuotare"], explanation: "General." },
@@ -559,7 +563,7 @@ export const IT_B1_U10: Lesson[] = [
           { es: "Bisogna timbrare il cartellino all'entrata.", en: "You need to clock in when you arrive." },
           { es: "È importante che tu arrivi puntuale il lunedì.", en: "It's important that you're on time on Mondays." },
           { es: "È meglio non parcheggiare davanti all'ingresso.", en: "It's better not to park in front of the entrance." },
-          { es: "È vero che la mensa è buona!", en: "It's true that the canteen is good!" },
+          { es: "È vero che la mensa è buona!", en: "It's true that the cafeteria is good!" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's important that you're on time on Mondays. (to a colleague, tu)", answer: "È importante che tu arrivi puntuale il lunedì.", altAnswers: ["È importante che tu sia puntuale il lunedì.", "È importante che tu arrivi in orario il lunedì."], explanation: "Advice for him: subjunctive." },
@@ -578,13 +582,13 @@ export const IT_B1_U10: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Apparently the boss prefers short emails.", answer: "Sembra che il capo preferisca le email brevi.", altAnswers: ["Pare che il capo preferisca le email brevi.", "Sembra che il capo preferisca le mail brevi."], explanation: "\"Preferisca\"." },
-          { type: "listen-choose", audio: "Può darsi che ti invitino all'aperitivo del venerdì.", question: "What might happen?", options: ["He may be invited to Friday drinks.", "He must organise Friday drinks.", "Friday drinks are cancelled.", "He has to work on Friday."], correctIndex: 0, explanation: "\"Può darsi che\" = maybe." },
+          { type: "listen-choose", audio: "Può darsi che ti invitino all'aperitivo del venerdì.", question: "What might happen?", options: ["He may be invited to Friday drinks.", "He must organize Friday drinks.", "Friday drinks are canceled.", "He has to work on Friday."], correctIndex: 0, explanation: "\"Può darsi che\" = maybe." },
         ],
       },
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You need to clock in when you arrive.", answer: "Bisogna timbrare il cartellino all'entrata.", altAnswers: ["Bisogna timbrare il cartellino all'arrivo.", "Bisogna timbrare all'entrata."], explanation: "General rule." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's true that the canteen is good!", answer: "È vero che la mensa è buona!", explanation: "Fact: indicative." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's true that the cafeteria is good!", answer: "È vero che la mensa è buona!", explanation: "Fact: indicative." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They may invite you to Friday drinks.", answer: "Può darsi che ti invitino all'aperitivo del venerdì.", explanation: "\"Invitino\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It'd be a shame not to go!", answer: "È un peccato non andarci!", altAnswers: ["Sarebbe un peccato non andarci!", "Peccato non andarci!"], explanation: "Infinitive with \"ci\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You'd better not get coffee at nine. (to a colleague, tu)", answer: "È meglio che tu non prenda il caffè alle nove.", altAnswers: ["È meglio non prendere il caffè alle nove."], explanation: "\"Prenda\"." },
@@ -594,7 +598,7 @@ export const IT_B1_U10: Lesson[] = [
       { type: "word-order", prompt: "Put the words in order to say: It's better not to park here.", words: ["È", "meglio", "non", "parcheggiare", "qui."], translation: "It's better not to park here.", explanation: "Negative infinitive." },
       { type: "multiple-choice", question: "Which tip is advice for Riccardo personally?", options: ["È importante che tu arrivi puntuale.", "Bisogna timbrare il cartellino.", "È vietato fumare.", "È vero che la mensa è buona."], correctIndex: 0, explanation: "\"Che tu\" + subjunctive." },
       { type: "dictation", audio: "Sembra che il capo preferisca le email brevi.", explanation: "\"Preferisca\"." },
-      { type: "speak", text: "Benvenuto Riccardo! È importante che tu arrivi puntuale, ma non preoccuparti: è vero che la mensa è buona!", prompt: "Welcome Riccardo in Italian: Welcome Riccardo! It's important that you're on time, but don't worry: it's true that the canteen is good!", tip: "pun-tu-A-le.", explanation: "Advice + subjunctive, fact + indicative." },
+      { type: "speak", text: "Benvenuto Riccardo! È importante che tu arrivi puntuale, ma non preoccuparti: è vero che la mensa è buona!", prompt: "Welcome Riccardo in Italian: Welcome Riccardo! It's important that you're on time, but don't worry: it's true that the cafeteria is good!", tip: "pun-tu-A-le.", explanation: "Advice + subjunctive, fact + indicative." },
     ],
   },
 ];

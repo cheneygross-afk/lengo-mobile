@@ -56,7 +56,7 @@ export const IT_CULTURE_U03_EXTRA: Lesson[] = [
         ],
         explanation: "One key ingredient per dish.",
       },
-      { type: "multiple-choice", question: "Which dish is from Rome?", options: ["la cacio e pepe", "il pesto", "le orecchiette", "i canederli"], correctIndex: 0, explanation: "\"Cacio\" is the Roman word for cheese, here pecorino." },
+      { type: "multiple-choice", question: "Which dish is from Rome?", options: ["la cacio e pepe", "il pesto", "le orecchiette", "i canederli"], correctIndex: 0, explanation: "\"Cacio\" is the old central and southern word for cheese; in Rome it means pecorino." },
       { type: "listen-choose", audio: "La pastiera si fa a Pasqua.", question: "When is pastiera made?", options: ["at Easter", "at Christmas", "in summer", "every Sunday"], correctIndex: 0, explanation: "\"Pasqua\" = Easter." },
       { type: "dictation", audio: "I cannoli sono un dolce siciliano.", explanation: "\"Cannoli\": double n." },
       { type: "speak", text: "Il mio piatto preferito è la parmigiana di melanzane.", prompt: "Say it in Italian: My favorite dish is eggplant parmigiana.", tip: "Me-lan-ZA-ne: z sounds like dz.", explanation: "\"Di melanzane\" = made of eggplant." },

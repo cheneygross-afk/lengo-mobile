@@ -484,7 +484,7 @@ export const IT_A1_U09: Lesson[] = [
       {
         heading: "The forms to know",
         body: [
-          "Io: \"vado, vengo, faccio, sto, do, dico, esco, voglio, posso, devo, so, ho, sono\". Loro: \"vanno, vengono, fanno, stanno, danno, dicono, escono, vogliono, possono, devono, sanno, hanno, sono\". Noi is almost always regular: \"andiamo, veniamo, facciamo\", except \"dobbiamo\", \"sappiamo\", \"abbiamo\", \"siamo\".",
+          "Io: \"vado, vengo, faccio, sto, do, dico, esco, voglio, posso, devo, so, ho, sono\". Loro: \"vanno, vengono, fanno, stanno, danno, dicono, escono, vogliono, possono, devono, sanno, hanno, sono\". Noi is mostly built on the infinitive: \"andiamo, veniamo, usciamo, stiamo\"; the ones to watch are \"facciamo\", \"vogliamo\", \"possiamo\", \"dobbiamo\", \"sappiamo\", \"abbiamo\", \"siamo\".",
         ],
         examples: [
           { es: "Faccio la spesa e poi vado a casa.", en: "I do the shopping and then go home." },
@@ -634,18 +634,18 @@ export const IT_A1_U09: Lesson[] = [
           { es: "Possiamo andare domenica?", en: "Can we go on Sunday?" },
           { es: "Domenica c'è un altro concerto.", en: "On Sunday there's another concert." },
           { es: "Va bene? Va bene!", en: "Is that OK? OK!" },
-          { es: "Passo da te alle otto.", en: "I'll pick you up at eight." },
+          { es: "Passo da te alle otto.", en: "I'll stop by your place at eight." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Can we go on Sunday?", answer: "Possiamo andare domenica?", altAnswers: ["Domenica possiamo andare?"], explanation: "\"Possiamo\" + infinitive." },
-          { type: "listen-choose", audio: "Passo da te alle otto.", question: "What will happen at eight?", options: ["She'll come by to pick him up.", "She'll call him.", "The concert starts.", "He has to work."], correctIndex: 0, explanation: "\"Passare da\" + person = to stop by someone's place." },
+          { type: "listen-choose", audio: "Passo da te alle otto.", question: "What will happen at eight?", options: ["She'll stop by his place.", "She'll call him.", "The concert starts.", "He has to work."], correctIndex: 0, explanation: "\"Passare da\" + person = to stop by someone's place." },
         ],
       },
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Do you want to come to the concert with me? (to a friend)", answer: "Vuoi venire al concerto con me?", altAnswers: ["Vuoi venire con me al concerto?"], explanation: "\"Vuoi\" + \"venire\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Is that OK?", answer: "Va bene?", explanation: "\"Va bene\" = OK." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll pick you up at eight. (to a friend)", answer: "Passo da te alle otto.", altAnswers: ["Passo a prenderti alle otto."], explanation: "\"Passare da\" + person." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll stop by your place at eight. (to a friend)", answer: "Passo da te alle otto.", altAnswers: ["Passo a casa tua alle otto."], explanation: "\"Passare da\" + person = to stop by their place. To pick someone up is \"passo a prenderti\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I can't on Saturday, I have to study.", answer: "Sabato non posso, devo studiare.", altAnswers: ["Non posso sabato, devo studiare."], explanation: "Refusal + reason." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Hello? Hi, Francesca!", answer: "Pronto? Ciao, Francesca!", explanation: "\"Pronto\" on the phone." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I'm sorry], I can't.", sentence: "___, non posso.", answer: "Mi dispiace", explanation: "\"Mi dispiace\" = I'm sorry." },
@@ -756,7 +756,7 @@ export const IT_A1_U09: Lesson[] = [
           { es: "Andiamo a Napoli a maggio?", en: "Shall we go to Naples in May?" },
           { es: "Voglio mangiare una vera pizza napoletana.", en: "I want to eat a real Neapolitan pizza." },
           { es: "Possiamo andare a Pompei in treno.", en: "We can go to Pompeii by train." },
-          { es: "Sabato sera usciamo sul lungomare.", en: "On Saturday evening we'll go out on the seafront." },
+          { es: "Sabato sera usciamo a cena sul lungomare.", en: "On Saturday evening we'll go out for dinner on the seafront." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We can go to Pompeii by train.", answer: "Possiamo andare a Pompei in treno.", altAnswers: ["Possiamo andare in treno a Pompei."], explanation: "\"Possiamo\" + infinitive; \"a\" + town, \"in\" + transport." },
@@ -788,7 +788,7 @@ export const IT_A1_U09: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "On Sunday we can go to Pompeii.", answer: "Domenica possiamo andare a Pompei.", altAnswers: ["Possiamo andare a Pompei domenica."], explanation: "\"Possiamo\" + infinitive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The weather's nice in May.", answer: "A maggio fa bel tempo.", altAnswers: ["Fa bel tempo a maggio.", "In maggio fa bel tempo."], explanation: "Weather: \"fa\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[We leave] on Friday at six.", sentence: "___ venerdì alle sei.", answer: "Partiamo", altAnswers: ["Noi partiamo"], explanation: "\"Partire\" = to set off." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "On Saturday evening [we'll go out] on the seafront.", sentence: "Sabato sera ___ sul lungomare.", answer: "usciamo", explanation: "\"Usciamo\": u- for noi." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "On Saturday evening [we'll go out] for dinner on the seafront.", sentence: "Sabato sera ___ a cena sul lungomare.", answer: "usciamo", explanation: "\"Usciamo\": u- for noi." },
       { type: "word-order", prompt: "Put the words in order to say: Do you want to come to Naples with me?", words: ["Vuoi", "venire", "a", "Napoli", "con", "me?"], translation: "Do you want to come to Naples with me?", explanation: "\"Vuoi venire\" invites." },
       { type: "multiple-choice", question: "Which sentence is about an obligation?", options: ["Dobbiamo prenotare l'albergo.", "Vogliamo vedere il mare.", "Possiamo andare a Pompei.", "Sappiamo dov'è l'albergo."], correctIndex: 0, explanation: "\"Dovere\" = have to." },
       { type: "dictation", audio: "Dobbiamo prenotare l'albergo. Che ne dici?", explanation: "\"Dobbiamo\", \"che ne dici\"." },
@@ -814,6 +814,6 @@ export const IT_A1_U09_WRITING: WriteExercise = {
     "Uses a / in correctly with cities, regions and transport (a Napoli, in treno)",
     "Asks the friend at least one question with the tu form (sei libero / libera?, che ne dici?)",
   ],
-  modelAnswer: "Ciao Chiara! Andiamo a Napoli a maggio? Possiamo partire venerdì in treno. Voglio mangiare una vera pizza napoletana e vedere il mare. Sabato possiamo andare a Pompei e la sera usciamo sul lungomare. Dobbiamo prenotare l'albergo e comprare i biglietti del treno. Sei libera il 10 maggio? Che ne dici?",
+  modelAnswer: "Ciao Chiara! Andiamo a Napoli a maggio? Possiamo partire venerdì in treno. Voglio mangiare una vera pizza napoletana e vedere il mare. Sabato possiamo andare a Pompei e la sera usciamo a cena sul lungomare. Dobbiamo prenotare l'albergo e comprare i biglietti del treno. Sei libera il 10 maggio? Che ne dici?",
   explanation: "\"Andiamo\" makes a suggestion; \"possiamo partire\", \"voglio mangiare\" and \"dobbiamo prenotare\" are modal + infinitive. \"Usciamo\" keeps u- for noi. \"A Napoli\", \"a Pompei\" (cities) and \"in treno\" (transport).",
 };

@@ -22,6 +22,8 @@ import { IT_A2_U09, IT_A2_U09_WRITING } from "./it-a2-u09";
 import { IT_A2_U09_EXTRA } from "./it-a2-u09-extra";
 import { IT_A2_U10, IT_A2_U10_WRITING } from "./it-a2-u10";
 import { IT_A2_U10_EXTRA } from "./it-a2-u10-extra";
+import { IT_A2_U11, IT_A2_U11_WRITING } from "./it-a2-u11";
+import { IT_A2_U11_EXTRA } from "./it-a2-u11-extra";
 import { IT_A2_U12, IT_A2_U12_WRITING } from "./it-a2-u12";
 import { IT_A2_U12_EXTRA } from "./it-a2-u12-extra";
 import { IT_A2_U13, IT_A2_U13_WRITING } from "./it-a2-u13";
@@ -60,6 +62,7 @@ const UNITS: ItalianUnitDef[] = [
   { id: "u08", title: "Indirect Object Pronouns", description: "Say to whom and for whom with mi, ti, gli, le, Le, ci, vi, gli.", lessons: IT_A2_U08, extra: IT_A2_U08_EXTRA, writing: IT_A2_U08_WRITING },
   { id: "u09", title: "The Future", description: "Talk about plans, predictions and guesses with the futuro semplice.", lessons: IT_A2_U09, extra: IT_A2_U09_EXTRA, writing: IT_A2_U09_WRITING },
   { id: "u10", title: "Comparisons", description: "Compare people, places and things, and say what is the best.", lessons: IT_A2_U10, extra: IT_A2_U10_EXTRA, writing: IT_A2_U10_WRITING },
+  { id: "u11", title: "Shopping and Clothes", description: "Shop for clothes, describe what you want, and use quello and bello.", lessons: IT_A2_U11, extra: IT_A2_U11_EXTRA, writing: IT_A2_U11_WRITING },
   { id: "u12", title: "Commands, Part 1: Tu, Noi, Voi", description: "Tell friends what to do, give tips and make suggestions with the informal imperative.", lessons: IT_A2_U12, extra: IT_A2_U12_EXTRA, writing: IT_A2_U12_WRITING },
   { id: "u13", title: "Commands, Part 2: Lei", description: "Give polite instructions and directions with the Lei imperative, and read written instructions.", lessons: IT_A2_U13, extra: IT_A2_U13_EXTRA, writing: IT_A2_U13_WRITING },
   { id: "u14", title: "The Conditional", description: "Make polite requests, give advice and express wishes with the condizionale presente.", lessons: IT_A2_U14, extra: IT_A2_U14_EXTRA, writing: IT_A2_U14_WRITING },
@@ -70,7 +73,7 @@ const UNITS: ItalianUnitDef[] = [
   { id: "u19", title: "Relative Pronouns", description: "Join sentences with che, cui and chi.", lessons: IT_A2_U19, extra: IT_A2_U19_EXTRA, writing: IT_A2_U19_WRITING },
   { id: "u20", title: "Indefinites and Negatives", description: "Talk about someone, something, nobody and nothing, and build double negatives.", lessons: IT_A2_U20, extra: IT_A2_U20_EXTRA, writing: IT_A2_U20_WRITING },
   { id: "u21", title: "Travel and Bureaucracy", description: "Handle trains, hotels, banks and offices in Italy.", lessons: IT_A2_U21, extra: IT_A2_U21_EXTRA, writing: IT_A2_U21_WRITING },
-  { id: "u22", title: "Everyday Life in Italy and A2 Review", description: "Bring A2 together in everyday situations and practise the CILS A2 formats.", lessons: IT_A2_U22, extra: IT_A2_U22_EXTRA, writing: IT_A2_U22_WRITING },
+  { id: "u22", title: "Everyday Life in Italy and A2 Review", description: "Bring A2 together in everyday situations and practice the CILS A2 formats.", lessons: IT_A2_U22, extra: IT_A2_U22_EXTRA, writing: IT_A2_U22_WRITING },
 ];
 
 const LEVEL = buildItalianLevel("A2", UNITS);

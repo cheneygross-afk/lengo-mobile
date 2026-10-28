@@ -25,7 +25,7 @@ export const IT_B2_U02: Lesson[] = [
           { es: "Non sapevo che avessero venduto la casa.", en: "I didn't know they had sold the house." },
           { es: "Credevo che avessimo finito.", en: "I thought we had finished." },
           { es: "Sembrava che nessuno avesse capito.", en: "It seemed nobody had understood." },
-          { es: "Speravo che aveste ricevuto il pacco.", en: "I was hoping you (plural) had received the parcel." },
+          { es: "Speravo che aveste ricevuto il pacco.", en: "I was hoping you (plural) had received the package." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I thought we had finished.", answer: "Credevo che avessimo finito.", altAnswers: ["Pensavo che avessimo finito."], explanation: "\"Avessimo\" + \"finito\": had finished." },
@@ -37,19 +37,19 @@ export const IT_B2_U02: Lesson[] = [
         body: [
           "Verbs that take \"essere\" in the passato prossimo take \"fossi\" here: movement and change verbs (\"andare\", \"partire\", \"arrivare\", \"uscire\", \"diventare\"), \"essere\" itself, \"piacere\", and every reflexive verb. \"Pensavo che fossi andato a casa\" (I thought you had gone home).",
           "With \"essere\" the participle agrees with the subject, as always: \"fosse partito\" (he), \"fosse partita\" (she), \"fossero partiti\" (they, mixed or masculine), \"fossero partite\" (they, all women). A female speaker says \"Pensavano che fossi già uscita\".",
-          "Reflexive verbs keep their pronoun in front: \"Non sapevo che vi foste sposati\" (I didn't know you'd got married), \"Credevo che si fosse trasferita\" (I thought she had moved).",
+          "Reflexive verbs keep their pronoun in front: \"Non sapevo che vi foste sposati\" (I didn't know you'd gotten married), \"Credevo che si fosse trasferita\" (I thought she had moved).",
         ],
         examples: [
           { es: "Pensavo che fossi andato a casa.", en: "I thought you had gone home." },
           { es: "Credevo che Chiara fosse già partita.", en: "I thought Chiara had already left." },
-          { es: "Non sapevo che vi foste sposati.", en: "I didn't know you'd got married." },
-          { es: "Sembrava che le ragazze si fossero perse.", en: "It looked as though the girls had got lost." },
+          { es: "Non sapevo che vi foste sposati.", en: "I didn't know you'd gotten married." },
+          { es: "Sembrava che le ragazze si fossero perse.", en: "It looked as though the girls had gotten lost." },
           { es: "Pensavano che fossi già uscita.", en: "They thought I'd already gone out (a woman speaking)." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I thought Chiara had already left.", answer: "Credevo che Chiara fosse già partita.", altAnswers: ["Pensavo che Chiara fosse già partita.", "Credevo che Chiara fosse già andata via.", "Pensavo che Chiara fosse già andata via."], explanation: "\"Partire\" takes \"essere\": \"fosse partita\", agreeing with Chiara." },
           { type: "multiple-choice", question: "I didn't know they (two women) had arrived. Which is correct?", options: ["Non sapevo che fossero arrivate.", "Non sapevo che fossero arrivati.", "Non sapevo che avessero arrivate.", "Non sapevo che fossero arrivato."], correctIndex: 0, explanation: "\"Essere\" + participle agreeing with a feminine plural: \"arrivate\"." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I didn't know you'd got married. (plural)", answer: "Non sapevo che vi foste sposati.", altAnswers: ["Non sapevo che vi eravate sposati."], explanation: "Reflexive \"sposarsi\" → \"vi foste sposati\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I didn't know you'd gotten married. (plural)", answer: "Non sapevo che vi foste sposati.", altAnswers: ["Non sapevo che vi eravate sposati."], explanation: "Reflexive \"sposarsi\" → \"vi foste sposati\"." },
         ],
       },
       {
@@ -64,7 +64,7 @@ export const IT_B2_U02: Lesson[] = [
           { es: "Credevo che li avessimo già pagati.", en: "I thought we had already paid them." },
           { es: "Pensavo che te l'avesse detto Marco.", en: "I thought Marco had told you." },
           { es: "Non sapevo che le avessero invitate.", en: "I didn't know they had invited them (women)." },
-          { es: "Speravo che ce ne fossimo liberati.", en: "I hoped we'd got rid of it." },
+          { es: "Speravo che ce ne fossimo liberati.", en: "I hoped we'd gotten rid of it." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I thought Marco had told you. (to a friend)", answer: "Pensavo che te l'avesse detto Marco.", altAnswers: ["Pensavo che Marco te l'avesse detto.", "Credevo che te l'avesse detto Marco.", "Credevo che Marco te l'avesse detto."], explanation: "\"Te l'\" sits before \"avesse\"; \"lo\" = it, so \"detto\" doesn't change." },
@@ -77,11 +77,11 @@ export const IT_B2_U02: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I thought you had already eaten. (to a friend)", answer: "Pensavo che avessi già mangiato.", altAnswers: ["Pensavo che tu avessi già mangiato.", "Credevo che avessi già mangiato.", "Credevo che tu avessi già mangiato."], explanation: "\"Avessi mangiato\" = you had eaten." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I thought you had gone home. (to a male friend)", answer: "Pensavo che fossi andato a casa.", altAnswers: ["Pensavo che tu fossi andato a casa.", "Credevo che fossi andato a casa.", "Credevo che tu fossi andato a casa.", "Pensavo che fossi tornato a casa."], explanation: "\"Andare\" takes \"essere\": \"fossi andato\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I thought she had moved.", answer: "Credevo che si fosse trasferita.", altAnswers: ["Pensavo che si fosse trasferita.", "Credevo che lei si fosse trasferita."], explanation: "Reflexive → \"essere\"; \"trasferita\" agrees." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I was hoping you (plural) had received the parcel.", answer: "Speravo che aveste ricevuto il pacco.", altAnswers: ["Speravo che voi aveste ricevuto il pacco."], explanation: "voi: \"aveste ricevuto\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I was hoping you (plural) had received the package.", answer: "Speravo che aveste ricevuto il pacco.", altAnswers: ["Speravo che voi aveste ricevuto il pacco."], explanation: "voi: \"aveste ricevuto\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I thought we had already paid them.", answer: "Credevo che li avessimo già pagati.", altAnswers: ["Pensavo che li avessimo già pagati."], explanation: "\"Li\" before the auxiliary; \"pagati\" agrees." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It looked as though the girls [had got lost].", sentence: "Sembrava che le ragazze ___.", answer: "si fossero perse", explanation: "\"Perdersi\" → \"si fossero perse\": feminine plural." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It looked as though the girls [had gotten lost].", sentence: "Sembrava che le ragazze ___.", answer: "si fossero perse", explanation: "\"Perdersi\" → \"si fossero perse\": feminine plural." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I didn't think the film [had been] so successful.", sentence: "Non pensavo che il film ___ così tanto successo.", answer: "avesse avuto", explanation: "\"Avere successo\" → \"avesse avuto\"." },
-      { type: "word-order", prompt: "Put the words in order to say: I didn't know you'd got married.", words: ["Non", "sapevo", "che", "vi", "foste", "sposati."], translation: "I didn't know you'd got married.", explanation: "\"Vi foste sposati\": reflexive, essere, plural agreement." },
+      { type: "word-order", prompt: "Put the words in order to say: I didn't know you'd gotten married.", words: ["Non", "sapevo", "che", "vi", "foste", "sposati."], translation: "I didn't know you'd gotten married.", explanation: "\"Vi foste sposati\": reflexive, essere, plural agreement." },
       {
         type: "matching",
         instructions: "Match the Italian to the English.",
@@ -90,7 +90,7 @@ export const IT_B2_U02: Lesson[] = [
           { left: "che fosse uscita", right: "that she had gone out" },
           { left: "che avessimo letto", right: "that we had read" },
           { left: "che foste tornati", right: "that you (plural) had come back" },
-          { left: "che si fossero alzati", right: "that they had got up" },
+          { left: "che si fossero alzati", right: "that they had gotten up" },
         ],
         explanation: "\"Avessi\" or \"fossi\" + participle; agreement after \"essere\".",
       },
@@ -171,7 +171,7 @@ export const IT_B2_U02: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We thought we'd understood everything.", answer: "Credevamo di aver capito tutto.", altAnswers: ["Pensavamo di aver capito tutto.", "Credevamo di avere capito tutto.", "Pensavamo di avere capito tutto."], explanation: "Same subject: past infinitive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Nobody knew that the museum had closed.", answer: "Nessuno sapeva che il museo avesse chiuso.", altAnswers: ["Nessuno sapeva che il museo aveva chiuso.", "Nessuno sapeva che il museo fosse stato chiuso."], explanation: "After a negative \"sapere\" the subjunctive is the careful written choice; the indicative is also correct here." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I was afraid you had forgotten. (to a friend)", answer: "Avevo paura che te ne fossi dimenticato.", altAnswers: ["Avevo paura che te ne fossi dimenticata.", "Temevo che te ne fossi dimenticato.", "Temevo che te ne fossi dimenticata.", "Avevo paura che avessi dimenticato.", "Temevo che avessi dimenticato."], explanation: "\"Dimenticarsene\" → \"te ne fossi dimenticato\"; \"avessi dimenticato\" is also right." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I thought the parcel [had arrived].", sentence: "Pensavo che il pacco ___.", answer: "fosse arrivato", explanation: "\"Arrivare\" → \"fosse arrivato\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I thought the package [had arrived].", sentence: "Pensavo che il pacco ___.", answer: "fosse arrivato", explanation: "\"Arrivare\" → \"fosse arrivato\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It seemed that they [had had] an argument.", sentence: "Sembrava che ___ litigato.", answer: "avessero", explanation: "\"Litigare\" takes \"avere\": \"avessero litigato\"." },
       { type: "word-order", prompt: "Put the words in order to say: I didn't know they had sold the house.", words: ["Non", "sapevo", "che", "avessero", "venduto", "la", "casa."], translation: "I didn't know they had sold the house.", explanation: "\"Avessero venduto\": earlier than \"sapevo\"." },
       { type: "multiple-choice", question: "\"Pensavo che fosse a casa\" or \"Pensavo che fosse stato a casa\"? You thought he was at home at that moment.", options: ["Pensavo che fosse a casa.", "Pensavo che fosse stato a casa.", "Pensavo che sia a casa.", "Pensavo che sia stato a casa."], correctIndex: 0, explanation: "Same time as the thought → imperfect subjunctive." },
@@ -210,7 +210,7 @@ export const IT_B2_U02: Lesson[] = [
       {
         heading: "Vorrei che me l'avessi detto",
         body: [
-          "\"Vorrei che\" + pluperfect subjunctive is a regret about what someone else did or didn't do: \"Vorrei che me l'avessi detto\" (I wish you had told me). Compare \"Vorrei che me lo dicessi\" (I wish you'd tell me, now or in future).",
+          "\"Vorrei che\" + pluperfect subjunctive is a regret about what someone else did or didn't do: \"Vorrei che me l'avessi detto\" (I wish you had told me). Compare \"Vorrei che me lo dicessi\" (I wish you'd tell me, now or in the future).",
           "This is a common way to express disappointment without an open reproach, especially with \"Lei\": \"Vorrei che mi avesse avvisato prima\" (I wish you had let me know earlier).",
         ],
         examples: [
@@ -290,7 +290,7 @@ export const IT_B2_U02: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I thought you had seen her. (to a friend)", answer: "Pensavo che l'avessi vista.", altAnswers: ["Credevo che l'avessi vista.", "Pensavo che tu l'avessi vista."], explanation: "\"Vista\" agrees with \"la\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We were sorry the shop had closed.", answer: "Ci dispiaceva che il negozio avesse chiuso.", altAnswers: ["Ci è dispiaciuto che il negozio avesse chiuso.", "Ci dispiaceva che il negozio fosse stato chiuso."], explanation: "\"Chiudere\" (the business) takes \"avere\": \"avesse chiuso\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I was afraid I had made a mistake.", answer: "Avevo paura di aver sbagliato.", altAnswers: ["Temevo di aver sbagliato.", "Avevo paura di avere sbagliato.", "Temevo di avere sbagliato.", "Avevo paura di aver fatto un errore."], explanation: "Same subject → past infinitive." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It was possible that they had got lost.", answer: "Era possibile che si fossero persi.", altAnswers: ["Poteva darsi che si fossero persi.", "Era possibile che si fossero perse."], explanation: "\"Perdersi\" → \"si fossero persi\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It was possible that they had gotten lost.", answer: "Era possibile che si fossero persi.", altAnswers: ["Poteva darsi che si fossero persi.", "Era possibile che si fossero perse."], explanation: "\"Perdersi\" → \"si fossero persi\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If only I had listened to you! (to a friend)", answer: "Magari ti avessi ascoltato!", altAnswers: ["Magari ti avessi ascoltata!"], explanation: "\"Magari\" + \"avessi ascoltato\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I thought Luca had gone to the gym.", answer: "Pensavo che Luca fosse andato in palestra.", altAnswers: ["Credevo che Luca fosse andato in palestra."], explanation: "\"Andare\" → \"fosse andato\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I didn't know they [had broken up].", sentence: "Non sapevo che ___.", answer: "si fossero lasciati", altAnswers: ["si erano lasciati"], explanation: "\"Lasciarsi\" = to split up: \"si fossero lasciati\"." },
@@ -436,7 +436,7 @@ export const IT_B2_U02: Lesson[] = [
       {
         heading: "Pensavo che è partito",
         body: [
-          "\"Pensavo che è partito\" mixes a past trigger with a present indicative. The written standard is \"Pensavo che fosse partito\" (I thought he had left). In speech you'll hear \"pensavo che era partito\"; recognise it, but write the subjunctive.",
+          "\"Pensavo che è partito\" mixes a past trigger with a present indicative. The written standard is \"Pensavo che fosse partito\" (I thought he had left). In speech you'll hear \"pensavo che era partito\"; recognize it, but write the subjunctive.",
           "\"Pensavo che sia partito\" is a near miss: a past trigger can't take a present-tense subjunctive. Move the auxiliary back too: \"sia\" → \"fosse\".",
         ],
         examples: [
@@ -492,8 +492,8 @@ export const IT_B2_U02: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Fix \"Pensavo che avesse partito\" and write: I thought she had left.", source: "I thought she had left.", answer: "Pensavo che fosse partita.", altAnswers: ["Credevo che fosse partita."], explanation: "\"Partire\" takes \"essere\": \"fosse partita\"." },
       { type: "translate", direction: "en-es", prompt: "Fix \"Vorrei che me lo dicessi\" (about last week) and write: I wish you had told me.", source: "I wish you had told me.", answer: "Vorrei che me l'avessi detto.", altAnswers: ["Vorrei che tu me l'avessi detto.", "Magari me l'avessi detto!"], explanation: "Past → \"me l'avessi detto\"." },
       { type: "translate", direction: "en-es", prompt: "Fix \"Ero sicura che l'hai letto\" and write: I was sure you had read it.", source: "I was sure you had read it.", answer: "Ero sicura che l'avessi letto.", altAnswers: ["Ero sicuro che l'avessi letto.", "Ero sicura che l'avevi letto.", "Ero sicuro che l'avevi letto."], explanation: "Past + earlier → \"l'avessi letto\"; the indicative is also normal after \"ero sicura\"." },
-      { type: "fill-blank", prompt: "A learner wrote \"fossero stati usciti\". Write the Italian for the bold words.", en: "I thought they [had gone out].", sentence: "Pensavo che ___.", answer: "fossero usciti", explanation: "One auxiliary: \"fossero usciti\"." },
-      { type: "fill-blank", prompt: "A learner wrote \"si sono sposati\". Write the Italian for the bold words.", en: "I didn't think they [had got married].", sentence: "Non pensavo che ___.", answer: "si fossero sposati", explanation: "\"Non pensavo che\" + \"si fossero sposati\"." },
+      { type: "fill-blank", prompt: "A learner wrote \"fossero stati usciti\". Write the Italian for the bold words.", en: "I thought they [had gone out].", sentence: "Pensavo che ___.", answer: "fossero usciti", altAnswers: ["fossero uscite"], explanation: "One auxiliary: \"fossero usciti\"." },
+      { type: "fill-blank", prompt: "A learner wrote \"si sono sposati\". Write the Italian for the bold words.", en: "I didn't think they [had gotten married].", sentence: "Non pensavo che ___.", answer: "si fossero sposati", explanation: "\"Non pensavo che\" + \"si fossero sposati\"." },
       { type: "word-order", prompt: "Put the words in order to say: I wish you'd told me earlier.", words: ["Vorrei", "che", "me", "l'avessi", "detto", "prima."], translation: "I wish you'd told me earlier.", explanation: "\"Me l'avessi detto\": the past." },
       { type: "multi-select", question: "Which sentences are correct? Choose all that apply.", options: ["Pensavo che fosse partito.", "Pensavo che sia partito.", "Magari l'avessi saputo!", "Credevo che fossi stato andato.", "Non sapevo che fossero tornati.", "Pensavo che avesse partito."], correctIndexes: [0, 2, 4], explanation: "\"Sia\" → \"fosse\"; one auxiliary; \"partire\" takes \"essere\"." },
       { type: "dictation", audio: "Non sapevo che fossero tornati dalle vacanze.", explanation: "\"Fossero tornati\": one auxiliary, agreement." },
@@ -511,18 +511,18 @@ export const IT_B2_U02: Lesson[] = [
       {
         heading: "Part 1: The letter",
         body: [
-          "Read the first half of the story. Elena, sixty, finds an old letter in a drawer of her flat in Genova. Notice how each subjunctive places an event in time: same moment as the thought, or before it.",
+          "Read the first half of the story. Elena, sixty, finds an old letter in a drawer of her apartment in Genova. Notice how each subjunctive places an event in time: same moment as the thought, or before it.",
           "\"Cassetto\" is a drawer, \"busta\" an envelope, and \"ingiallita\" yellowed.",
         ],
         examples: [
           { es: "Un pomeriggio di novembre Elena trovò una busta ingiallita in un cassetto.", en: "One November afternoon Elena found a yellowed envelope in a drawer." },
-          { es: "Era una lettera di Paolo, del 1985: lei pensava che l'avesse buttata via anni prima.", en: "It was a letter from Paolo, from 1985: she thought she had thrown it away years before." },
+          { es: "Era una lettera di Paolo, del 1985: lei pensava che sua madre l'avesse buttata via anni prima.", en: "It was a letter from Paolo, from 1985: she thought her mother had thrown it away years before." },
           { es: "Paolo le chiedeva di raggiungerlo a Toronto.", en: "Paolo was asking her to join him in Toronto." },
           { es: "Sperava che lei accettasse e che partissero insieme a settembre.", en: "He hoped she would accept and that they would leave together in September." },
           { es: "Ma Elena non aveva mai risposto: aveva paura che i suoi genitori non capissero.", en: "But Elena had never replied: she was afraid her parents wouldn't understand." },
         ],
         checkpoint: [
-          { type: "multiple-choice", question: "In \"pensava che l'avesse buttata via anni prima\", when did Elena think she had thrown the letter away?", options: ["Years before she found it.", "At the moment she found it.", "After she found it.", "She never threw it away and knew it."], correctIndex: 0, explanation: "\"L'avesse buttata\": pluperfect, earlier than \"pensava\"." },
+          { type: "multiple-choice", question: "In \"pensava che sua madre l'avesse buttata via anni prima\", when did Elena think the letter had been thrown away?", options: ["Years before she found it.", "At the moment she found it.", "After she found it.", "She knew it had never been thrown away."], correctIndex: 0, explanation: "\"L'avesse buttata\": pluperfect, earlier than \"pensava\". Two different subjects (Elena, her mother), so \"che\" + subjunctive." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He hoped she would accept.", answer: "Sperava che lei accettasse.", altAnswers: ["Sperava che accettasse."], explanation: "Past trigger + later event → imperfect \"accettasse\"." },
           { type: "listen-choose", audio: "Aveva paura che i suoi genitori non capissero.", question: "What was Elena afraid of?", options: ["That her parents wouldn't understand.", "That her parents had misunderstood.", "That Paolo wouldn't understand.", "That she didn't understand her parents."], correctIndex: 0, explanation: "\"Capissero\": the same time or later, about her parents." },
         ],
@@ -547,7 +547,7 @@ export const IT_B2_U02: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She thought she had thrown it away.", answer: "Pensava di averla buttata via.", altAnswers: ["Pensava che l'avesse buttata via.", "Credeva di averla buttata via."], explanation: "Same subject: \"di averla buttata\"; the story's \"che l'avesse buttata\" is also possible." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She thought she had thrown it away.", answer: "Pensava di averla buttata via.", altAnswers: ["Credeva di averla buttata via.", "Pensava di averla buttata."], explanation: "Same subject: \"di\" + past infinitive, with \"la\" attached. \"Pensava che l'avesse buttata via\" would mean someone else had thrown it away, as in the story's line about her mother." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Paolo was asking her to join him.", answer: "Paolo le chiedeva di raggiungerlo.", explanation: "\"Chiedere a qualcuno di\" + infinitive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She wished someone had told her to go.", answer: "Avrebbe voluto che qualcuno le avesse detto di partire.", altAnswers: ["Avrebbe voluto che qualcuno le dicesse di partire."], explanation: "A finished past event → \"avesse detto\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She didn't even know whether he was still alive.", answer: "Non sapeva nemmeno se fosse ancora vivo.", altAnswers: ["Non sapeva neanche se fosse ancora vivo.", "Non sapeva nemmeno se era ancora vivo."], explanation: "\"Sapere se\" can take the subjunctive in writing: \"fosse\"." },
@@ -558,7 +558,7 @@ export const IT_B2_U02: Lesson[] = [
       { type: "multiple-choice", question: "Why does Elena regret the past?", options: ["She never answered Paolo's invitation to join him.", "Paolo never wrote to her.", "Her parents sent her abroad.", "She lost Paolo's address."], correctIndex: 0, explanation: "\"Non aveva mai risposto\": she never replied." },
       { type: "multiple-choice", question: "What does Elena do at the end of the story?", options: ["She looks Paolo up online.", "She burns the letter.", "She calls her parents.", "She buys a ticket to Toronto."], correctIndex: 0, explanation: "\"Cercò il suo nome su internet\"." },
       { type: "dictation", audio: "Magari avessi avuto più coraggio, pensò Elena.", explanation: "\"Avessi avuto\": pluperfect subjunctive." },
-      { type: "speak", text: "Pensava che l'avesse buttata via anni prima, ma la lettera era ancora lì.", prompt: "Read the line aloud: She thought she had thrown it away years before, but the letter was still there.", tip: "\"Buttata\": two double t's, but-TA-ta.", explanation: "Pluperfect subjunctive for the belief, indicative for the fact." },
+      { type: "speak", text: "Pensava che sua madre l'avesse buttata via anni prima, ma la lettera era ancora lì.", prompt: "Read the line aloud: She thought her mother had thrown it away years before, but the letter was still there.", tip: "\"Buttata\": two double t's, but-TA-ta.", explanation: "Pluperfect subjunctive for the belief, indicative for the fact." },
     ],
   },
   {
@@ -572,29 +572,29 @@ export const IT_B2_U02: Lesson[] = [
       {
         heading: "Running into an old friend",
         body: [
-          "Sofia bumps into Alessandro at the Mercato Centrale in Firenze after three years. He has news: he got married and moved to Siena. Sofia reacts: \"Non sapevo che vi foste sposati!\" (I didn't know you'd got married!).",
+          "Sofia bumps into Alessandro at the Mercato Centrale in Firenze after three years. He has news: he got married and moved to Siena. Sofia reacts: \"Non sapevo che vi foste sposati!\" (I didn't know you'd gotten married!).",
           "\"Non sapevo che\" + subjunctive is the polite, written-standard way to express surprise; in quick speech you will also hear the indicative.",
         ],
         examples: [
           { es: "Alessandro! Che sorpresa! Quanto tempo!", en: "Alessandro! What a surprise! It's been ages!" },
           { es: "Sai che io e Giulia ci siamo sposati l'anno scorso?", en: "Did you know Giulia and I got married last year?" },
-          { es: "Davvero? Non sapevo che vi foste sposati!", en: "Really? I didn't know you'd got married!" },
+          { es: "Davvero? Non sapevo che vi foste sposati!", en: "Really? I didn't know you'd gotten married!" },
           { es: "Pensavo che te l'avesse detto Marco.", en: "I thought Marco had told you." },
           { es: "No, Marco non mi ha detto niente!", en: "No, Marco didn't tell me anything!" },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Really? I didn't know you'd got married! (plural)", answer: "Davvero? Non sapevo che vi foste sposati!", altAnswers: ["Davvero? Non sapevo che vi eravate sposati!"], explanation: "\"Vi foste sposati\": reflexive, essere, plural." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Really? I didn't know you'd gotten married! (plural)", answer: "Davvero? Non sapevo che vi foste sposati!", altAnswers: ["Davvero? Non sapevo che vi eravate sposati!"], explanation: "\"Vi foste sposati\": reflexive, essere, plural." },
           { type: "listen-choose", audio: "Pensavo che te l'avesse detto Marco.", question: "What did Alessandro assume?", options: ["That Marco had already told Sofia.", "That Marco would tell Sofia.", "That Sofia had told Marco.", "That Marco didn't know."], correctIndex: 0, explanation: "\"Te l'avesse detto\": earlier than \"pensavo\"." },
         ],
       },
       {
         heading: "More surprises",
         body: [
-          "Alessandro adds that they have moved and opened a bookshop. Sofia is sorry she missed it all: \"Magari l'avessi saputo, sarei venuta al matrimonio!\". You'll study that second half in Unit 5; for now notice the regret.",
+          "Alessandro adds that they have moved and opened a bookstore. Sofia is sorry she missed it all: \"Magari l'avessi saputo, sarei venuta al matrimonio!\". You'll study that second half in Unit 5; for now notice the regret.",
           "Useful reactions: \"Ma dai!\" (no way!), \"Che bella notizia!\" (what great news!), \"Congratulazioni!\" or \"Auguri!\".",
         ],
         examples: [
-          { es: "E ci siamo trasferiti a Siena: abbiamo aperto una libreria.", en: "And we've moved to Siena: we've opened a bookshop." },
+          { es: "E ci siamo trasferiti a Siena: abbiamo aperto una libreria.", en: "And we've moved to Siena: we've opened a bookstore." },
           { es: "Ma dai! Credevo che lavorassi ancora in banca.", en: "No way! I thought you still worked at the bank." },
           { es: "Magari l'avessi saputo!", en: "If only I'd known!" },
           { es: "Che bella notizia! Congratulazioni!", en: "What great news! Congratulations!" },
@@ -602,7 +602,7 @@ export const IT_B2_U02: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "No way! I thought you still worked at the bank.", answer: "Ma dai! Credevo che lavorassi ancora in banca.", altAnswers: ["Ma dai! Pensavo che lavorassi ancora in banca.", "Ma dai! Credevo che tu lavorassi ancora in banca."], explanation: "\"Ancora\" = still → same time: \"lavorassi\"." },
-          { type: "multiple-choice", question: "\"Libreria\" in \"abbiamo aperto una libreria\" means ...", options: ["a bookshop", "a library", "a bookcase only", "a publishing house"], correctIndex: 0, explanation: "False friend: a library is \"biblioteca\"." },
+          { type: "multiple-choice", question: "\"Libreria\" in \"abbiamo aperto una libreria\" means ...", options: ["a bookstore", "a library", "a bookcase only", "a publishing house"], correctIndex: 0, explanation: "False friend: a library is \"biblioteca\"." },
         ],
       },
     ],
@@ -612,7 +612,7 @@ export const IT_B2_U02: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "What great news! Congratulations!", answer: "Che bella notizia! Congratulazioni!", altAnswers: ["Che bella notizia! Auguri!", "Che bella notizia! Complimenti!"], explanation: "Stock reactions." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If only I'd known!", answer: "Magari l'avessi saputo!", explanation: "Past regret." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I thought you still lived in Florence. (plural)", answer: "Pensavo che abitaste ancora a Firenze.", altAnswers: ["Credevo che abitaste ancora a Firenze.", "Pensavo che viveste ancora a Firenze."], explanation: "\"Ancora\" → same time: \"abitaste\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I had no idea you [had opened] a bookshop! (plural)", sentence: "Non avevo idea che ___ una libreria!", answer: "aveste aperto", explanation: "\"Aveste aperto\": earlier." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I had no idea you [had opened] a bookstore! (plural)", sentence: "Non avevo idea che ___ una libreria!", answer: "aveste aperto", explanation: "\"Aveste aperto\": earlier." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I thought Giulia [had found] a job in Rome.", sentence: "Pensavo che Giulia ___ lavoro a Roma.", answer: "avesse trovato", explanation: "\"Avesse trovato\"." },
       { type: "word-order", prompt: "Put the words in order to say: You must come and see us.", words: ["Dovete", "venire", "a", "trovarci."], translation: "You must come and see us.", explanation: "\"Venire a trovare\" = to come and visit." },
       { type: "multiple-choice", question: "A friend tells you she's had a baby. What's the natural first reaction?", options: ["Ma dai! Che bella notizia! Auguri!", "Magari l'avessi saputo, auguri.", "Pensavo che fossi incinta, allora?", "Vorrei che me lo dicessi."], correctIndex: 0, explanation: "Surprise + congratulations." },

@@ -38,6 +38,7 @@ export const IT_B1_U03: Lesson[] = [
         body: [
           "Clusters attach too, in the same order as before: \"dire\" + \"te lo\" = \"dirtelo\", \"dare\" + \"glielo\" = \"darglielo\", \"portare\" + \"ce ne\" = \"portarcene\". The whole chunk is one word.",
           "\"Ci\" and \"ne\" attach as well: \"Ho deciso di andarci\" (I've decided to go there), \"Non c'è bisogno di parlarne\" (there's no need to talk about it).",
+          "Two traps. The attached form is one word: \"farlo\", never \"fare lo\" or \"far lo\". And with \"da\" + infinitive the thing is already the subject, so no pronoun is added: \"È difficile spiegarlo\" (it's hard to explain it) but \"È difficile da spiegare\" (it is hard to explain), never \"difficile da spiegarlo\".",
         ],
         examples: [
           { es: "Ho deciso di dirtelo.", en: "I've decided to tell you." },
@@ -54,7 +55,7 @@ export const IT_B1_U03: Lesson[] = [
       {
         heading: "Dopo averlo fatto",
         body: [
-          "\"Dopo\" + the past infinitive (\"avere\" or \"essere\" + participle) means after doing: \"dopo averlo fatto\" (after doing it). The pronoun attaches to \"avere\", which drops its -e: \"aver\" + \"lo\" = \"averlo\". You'll meet this fully later; for now, recognise \"dopo averglielo detto\" (after telling him) and \"Grazie per avermelo detto\".",
+          "\"Dopo\" + the past infinitive (\"avere\" or \"essere\" + participle) means after doing: \"dopo averlo fatto\" (after doing it). The pronoun attaches to \"avere\", which drops its -e: \"aver\" + \"lo\" = \"averlo\". You'll meet this fully later; for now, recognize \"dopo averglielo detto\" (after telling him) and \"Grazie per avermelo detto\".",
         ],
         examples: [
           { es: "Dopo averlo fatto, mi sono sentito meglio.", en: "After doing it, I felt better." },
@@ -114,6 +115,7 @@ export const IT_B1_U03: Lesson[] = [
         body: [
           "Clusters move as one block: \"Glielo posso dire\" / \"Posso dirglielo\". Never split them: \"lo posso dirgli\" is wrong.",
           "\"Non\" always goes before the conjugated verb, with the block either in front of the modal or attached: \"Non te lo posso dire\" / \"Non posso dirtelo\" (I can't tell you).",
+          "The free choice belongs to modals (and \"stare\" + gerund). Most other verbs + infinitive want the pronoun attached: \"Cerco di farlo\", \"Ho deciso di dirglielo\", \"Spero di vederti\", never \"lo cerco di fare\" or \"ti spero di vedere\". When in doubt, attach: it is never wrong with an infinitive.",
         ],
         examples: [
           { es: "Non te lo posso dire. / Non posso dirtelo.", en: "I can't tell you." },
@@ -151,9 +153,9 @@ export const IT_B1_U03: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Can you lend it to me? (the bike, to a friend)", answer: "Puoi prestarmela?", altAnswers: ["Me la puoi prestare?", "Potresti prestarmela?", "Me la potresti prestare?"], explanation: "\"Me la\" as one block." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Do you know how to use it? (the coffee machine: la macchinetta)", answer: "Sai usarla?", altAnswers: ["La sai usare?"], explanation: "\"Sapere\" + infinitive = know how to." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We were able to see them.", answer: "Abbiamo potuto vederli.", altAnswers: ["Li abbiamo potuti vedere.", "Siamo riusciti a vederli."], explanation: "In front: agreement (\"potuti\")." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Biscuits? [Will you give us] some?", sentence: "Biscotti? ___ un po'?", answer: "Ce ne vuoi dare", altAnswers: ["Vuoi darcene"], explanation: "\"Ce ne\" as a block." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Cookies? [Will you give us] some?", sentence: "Biscotti? ___ un po'?", answer: "Ce ne vuoi dare", altAnswers: ["Vuoi darcene"], explanation: "\"Ce ne\" as a block." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I didn't want to say it].", sentence: "___.", answer: "Non ho voluto dirlo", altAnswers: ["Non l'ho voluto dire"], explanation: "\"Non\" before the auxiliary." },
-      { type: "word-order", prompt: "Put the words in order to say: You have to give it back to him.", words: ["Devi", "restituirglielo."], translation: "You have to give it back to him.", altOrders: [["restituirglielo.", "Devi"]], explanation: "\"Restituirglielo\": one word." },
+      { type: "word-order", prompt: "Put the words in order to say: The book? You have to give it back to him.", words: ["Il", "libro?", "Devi", "restituirglielo."], translation: "The book? You have to give it back to him.", explanation: "\"Restituirglielo\": one word." },
       { type: "multiple-choice", question: "Which sentence is correct?", options: ["Non te lo posso dire.", "Non posso te lo dire.", "Te non lo posso dire.", "Non posso dire te lo."], correctIndex: 0, explanation: "Block before the modal, \"non\" first." },
       { type: "dictation", audio: "Non posso dirtelo, ma te lo voglio dire.", explanation: "Both positions in one sentence." },
       { type: "speak", text: "Lo devo fare entro venerdì, ma non so farlo da solo.", prompt: "Say it in Italian: I have to do it by Friday, but I don't know how to do it on my own.", tip: "Stress stays on the verb: DE-vo, FAR-lo.", explanation: "Both positions are correct." },
@@ -190,6 +192,7 @@ export const IT_B1_U03: Lesson[] = [
         body: [
           "The one-syllable commands \"da'\", \"di'\", \"fa'\", \"sta'\", \"va'\" double the first consonant of the pronoun: \"dammi\" (give me), \"dimmi\" (tell me), \"fallo\" (do it), \"stammi bene\" (take care), \"vacci\" (go there). With a cluster: \"dimmelo\", \"fammelo vedere\", \"dallo a lei\".",
           "The only exception is \"gli\": \"digli\", \"dagli\", \"fagli\" (tell him, give him, do for him), with no double g. And \"diglielo\" (tell him).",
+          "The apostrophe disappears once a pronoun attaches: \"di'\" + \"mi\" = \"dimmi\", never \"di'mmi\". Learners often skip the doubling (\"dami\", \"fami vedere\"), which Italians hear as a different word. Don't confuse the long forms either: \"dai\", \"fai\", \"vai\" also exist as commands, but pronouns attach only to the short ones: \"fallo\", not \"failo\".",
         ],
         examples: [
           { es: "Dimmi la verità. Dimmela!", en: "Tell me the truth. Tell me!" },
@@ -289,6 +292,7 @@ export const IT_B1_U03: Lesson[] = [
         body: [
           "Reflexive pronouns attach too, and they change with the person: \"alzandomi\" (getting up, me), \"alzandoti\" (you), \"alzandosi\" (him, her). \"Alzandomi alle sei, riesco a fare tutto\" (by getting up at six, I manage to do everything).",
           "Clusters are one word: \"dandoglielo\" (giving it to him), \"spiegandomelo\" (explaining it to me). They look long, but the stress stays on the -an- or -en- of the gerund: DAN-do-glie-lo, spie-GAN-do-me-lo.",
+          "Careful with English -ing after a preposition: that's never a gerund in Italian. Before seeing her is \"prima di vederla\", without telling me is \"senza dirmi\", thanks for telling me is \"grazie per avermelo detto\": infinitives, with the pronoun attached to them. The gerund stands on its own, without a preposition in front.",
         ],
         examples: [
           { es: "Alzandomi alle sei, riesco a fare tutto.", en: "By getting up at six, I manage to do everything." },
@@ -506,11 +510,11 @@ export const IT_B1_U03: Lesson[] = [
       {
         heading: "The secret is out",
         body: [
-          "Francesca: \"Sofia si sposa! Ma lui non lo sa ancora: glielo vuole dire lei a cena\". Matteo, of course, wants to tell someone: \"Posso dirlo a Luca?\" \"No! Non dirglielo!\"",
+          "Francesca: \"Sofia si sposa! Ma suo padre non lo sa ancora: glielo vuole dire lei a cena\". Matteo, of course, wants to tell someone: \"Posso dirlo a Luca?\" \"No! Non dirglielo!\"",
           "Notice \"glielo vuole dire\" (she wants to tell him) and \"Non dirglielo!\" (don't tell him!): the same cluster, before a modal and on a negative command.",
         ],
         examples: [
-          { es: "Sofia si sposa! Ma lui non lo sa ancora.", en: "Sofia is getting married! But he doesn't know yet." },
+          { es: "Sofia si sposa! Ma suo padre non lo sa ancora.", en: "Sofia is getting married! But her father doesn't know yet." },
           { es: "Glielo vuole dire lei a cena.", en: "She wants to tell him herself at dinner." },
           { es: "Posso dirlo a Luca?", en: "Can I tell Luca?" },
           { es: "No! Non dirglielo, per carità!", en: "No! Don't tell him, for heaven's sake!" },
@@ -576,7 +580,7 @@ export const IT_B1_U03: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The photos? [Show them to me]! (to a friend)", sentence: "Le foto? ___!", answer: "Fammele vedere", altAnswers: ["Mostramele"], explanation: "\"Fa'\" + \"me le\": double m." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The pizza? [We ordered it] an hour ago.", sentence: "La pizza? ___ un'ora fa.", answer: "L'abbiamo ordinata", explanation: "Agreement with \"la pizza\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The truth? [I'll tell it to them] tomorrow.", sentence: "La verità? ___ domani.", answer: "Gliela dirò", altAnswers: ["Gliela dico"], explanation: "\"Gliela\" + future." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The flat? [We'd buy it] if we could.", sentence: "L'appartamento? ___ se potessimo.", answer: "Lo compreremmo", explanation: "Conditional + \"lo\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The apartment? [We'd buy it], but it costs too much.", sentence: "L'appartamento? ___, ma costa troppo.", answer: "Lo compreremmo", explanation: "Conditional + \"lo\"." },
       { type: "dictation", audio: "Te l'avevo detto! Dimmelo la prossima volta.", explanation: "\"Te l'avevo detto\" = I told you so." },
       { type: "dictation", audio: "Ce la raccontava sempre, me la ricordo bene.", explanation: "\"Ricordarsi\" + \"la\" = \"me la ricordo\"." },
       { type: "speak", text: "Te l'ho già detto e te lo ripeterò: dammelo domani!", prompt: "Say it in Italian: I've already told you and I'll say it again: give it to me tomorrow!", tip: "Three positions: te l'ho, te lo ripeterò, dammelo.", explanation: "Past, future, command." },
@@ -587,19 +591,19 @@ export const IT_B1_U03: Lesson[] = [
     level: "IT-B1",
     number: 10,
     title: "Real-World Mission: Handover Notes",
-    summary: "Write handover notes for a colleague who covers your job while you're on holiday, with commands and attached pronouns.",
+    summary: "Write handover notes for a colleague who covers your job while you're on vacation, with commands and attached pronouns.",
     duration: "17 min",
     kind: "review",
     sections: [
       {
         heading: "What to do and when",
         body: [
-          "Your mission: you work in an office in Turin and you're going on holiday for two weeks. Your colleague Davide will cover for you. Between colleagues of the same level, Italian offices use \"tu\", so your notes are full of tu commands with attached pronouns.",
-          "Organise by task: the thing first, then the instruction. \"La fattura del cliente Bianchi: mandagliela entro lunedì\". \"Il signor Conti: chiamalo se non risponde all'email\".",
+          "Your mission: you work in an office in Turin and you're going on vacation for two weeks. Your colleague Davide will cover for you. Between colleagues of the same level, Italian offices use \"tu\", so your notes are full of tu commands with attached pronouns.",
+          "Organize by task: the thing first, then the instruction. \"La fattura del cliente Bianchi: mandagliela entro lunedì\". \"Il signor Conti: chiamalo se non risponde all'email\".",
         ],
         examples: [
           { es: "La fattura di Bianchi: mandagliela entro lunedì.", en: "Bianchi's invoice: send it to him by Monday." },
-          { es: "Il signor Conti: chiamalo se non risponde all'email.", en: "Mr Conti: call him if he doesn't answer the email." },
+          { es: "Il signor Conti: chiamalo se non risponde all'email.", en: "Mr. Conti: call him if he doesn't answer the email." },
           { es: "Le chiavi dell'archivio: te le lascio nel primo cassetto.", en: "The archive keys: I'm leaving them for you in the top drawer." },
           { es: "Se hai dubbi, scrivimi pure.", en: "If you have any doubts, feel free to message me." },
           { es: "Il report mensile: fallo il 30, non prima.", en: "The monthly report: do it on the 30th, not before." },
@@ -627,7 +631,7 @@ export const IT_B1_U03: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Mr Conti: call him if he doesn't answer the email.", answer: "Il signor Conti: chiamalo se non risponde all'email.", altAnswers: ["Il signor Conti: chiamalo se non risponde alla mail."], explanation: "Tu command + \"lo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Mr. Conti: call him if he doesn't answer the email.", answer: "Il signor Conti: chiamalo se non risponde all'email.", altAnswers: ["Il signor Conti: chiamalo se non risponde alla mail."], explanation: "Tu command + \"lo\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The archive keys: I'm leaving them for you in the top drawer.", answer: "Le chiavi dell'archivio: te le lascio nel primo cassetto.", explanation: "\"Te le\" before \"lascio\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The monthly report: do it on the 30th, not before.", answer: "Il report mensile: fallo il 30, non prima.", altAnswers: ["Il rapporto mensile: fallo il 30, non prima."], explanation: "\"Fallo\": double l." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The door code? Don't tell anyone.", answer: "Il codice della porta? Non dirlo a nessuno.", altAnswers: ["Il codice della porta? Non lo dire a nessuno."], explanation: "Negative tu." },
@@ -645,7 +649,7 @@ export const IT_B1_U03: Lesson[] = [
 
 export const IT_B1_U03_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You're going on holiday and your colleague Chiara will cover your job. Write her handover notes: at least four tasks, each with an instruction (send, call, check, give...), one thing she must NOT do, and where you've left something for her. Use tu commands with attached pronouns (mandaglielo, chiamalo, non dirglielo...) and at least one modal with a pronoun.",
+  prompt: "You're going on vacation and your colleague Chiara will cover your job. Write her handover notes: at least four tasks, each with an instruction (send, call, check, give...), one thing she must NOT do, and where you've left something for her. Use tu commands with attached pronouns (mandaglielo, chiamalo, non dirglielo...) and at least one modal with a pronoun.",
   minWords: 60,
   maxWords: 130,
   rubric: [

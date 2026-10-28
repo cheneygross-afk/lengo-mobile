@@ -73,7 +73,7 @@ export const IT_B2_U11: Lesson[] = [
         examples: [
           { es: "Visto che sei qui, mi aiuti a spostare il tavolo?", en: "Since you're here, will you help me move the table?" },
           { es: "Dato che domani è festa, la biblioteca resterà chiusa.", en: "Given that tomorrow is a holiday, the library will be closed." },
-          { es: "Poiché il volo è stato cancellato, i passeggeri sono stati portati in albergo.", en: "As the flight was cancelled, the passengers were taken to a hotel." },
+          { es: "Poiché il volo è stato cancellato, i passeggeri sono stati portati in albergo.", en: "As the flight was canceled, the passengers were taken to a hotel." },
           { es: "Dal momento che non mi ascolti, smetto di parlare.", en: "Seeing as you're not listening to me, I'll stop talking." },
           { es: "Ti presto la mia bici, dato che la tua è rotta.", en: "I'll lend you my bike, since yours is broken." },
           { es: "Abito a Torino da marzo.", en: "I've lived in Turin since March." },
@@ -92,7 +92,7 @@ export const IT_B2_U11: Lesson[] = [
             type: "listen-choose",
             audio: "Poiché il treno è in ritardo, la riunione comincerà alle dieci.",
             question: "Why will the meeting start at ten?",
-            options: ["The train is late.", "The room isn't free.", "The director is ill.", "The train was cancelled."],
+            options: ["The train is late.", "The room isn't free.", "The director is ill.", "The train was canceled."],
             correctIndex: 0,
             explanation: "\"Poiché il treno è in ritardo\": formal since, the train is late.",
           },
@@ -146,7 +146,7 @@ export const IT_B2_U11: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Given that tomorrow is a holiday, the office will be closed.", answer: "Dato che domani è festa, l'ufficio resterà chiuso.", altAnswers: ["Dato che domani è festa, l'ufficio sarà chiuso.", "Visto che domani è festa, l'ufficio resterà chiuso.", "Visto che domani è festa, l'ufficio sarà chiuso.", "Dato che domani è festa, l'ufficio rimarrà chiuso.", "Visto che domani è festa, l'ufficio rimarrà chiuso."], explanation: "\"Dato che\" = given that; \"è festa\" = it's a holiday." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Seeing as you're not listening to me, I'll stop talking. (to a friend)", answer: "Dal momento che non mi ascolti, smetto di parlare.", altAnswers: ["Visto che non mi ascolti, smetto di parlare.", "Dato che non mi ascolti, smetto di parlare.", "Siccome non mi ascolti, smetto di parlare."], explanation: "\"Dal momento che\" adds a note of reproach; \"smettere di\" + infinitive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "How come you're so tired? (to a friend)", answer: "Come mai sei così stanco?", altAnswers: ["Come mai sei così stanca?", "Come mai sei tanto stanco?", "Come mai sei tanto stanca?"], explanation: "\"Come mai\" keeps the normal order: \"sei così stanco\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[As] the flight was cancelled, the passengers were taken to a hotel. (formal)", sentence: "___ il volo è stato cancellato, i passeggeri sono stati portati in albergo.", answer: "Poiché", altAnswers: ["Dato che", "Visto che", "Siccome", "Dal momento che"], explanation: "\"Poiché\" is the formal, written choice, with an acute accent." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[As] the flight was canceled, the passengers were taken to a hotel. (formal)", sentence: "___ il volo è stato cancellato, i passeggeri sono stati portati in albergo.", answer: "Poiché", altAnswers: ["Dato che", "Visto che", "Siccome", "Dal momento che"], explanation: "\"Poiché\" is the formal, written choice, with an acute accent." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "How come you're not eating? [The thing is] I've already had lunch.", sentence: "Come mai non mangi? ___ ho già pranzato.", answer: "È che", explanation: "\"È che ...\" introduces an explanation softly." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'll lend you my bike, [since] yours is broken.", sentence: "Ti presto la mia bici, ___ la tua è rotta.", answer: "dato che", altAnswers: ["visto che", "perché", "poiché"], explanation: "After the main clause \"dato che\" and \"visto che\" work well; \"siccome\" doesn't." },
       { type: "word-order", prompt: "Put the words in order to say: Since I don't know anyone, I'd rather not go.", words: ["Siccome", "non", "conosco", "nessuno,", "preferisco", "non", "andare."], translation: "Since I don't know anyone, I'd rather not go.", explanation: "\"Siccome\" opens; double negative \"non ... nessuno\"." },
@@ -226,12 +226,12 @@ export const IT_B2_U11: Lesson[] = [
       {
         heading: "Per + noun: chiuso per ferie",
         body: [
-          "\"Per\" alone also gives a cause, especially in set phrases and signs: \"chiuso per ferie\" (closed for the holidays), \"assente per malattia\" (off sick), \"per motivi di salute\" (for health reasons), \"multato per eccesso di velocità\" (fined for speeding).",
+          "\"Per\" alone also gives a cause, especially in set phrases and signs: \"chiuso per ferie\" (closed for vacation), \"assente per malattia\" (out sick), \"per motivi di salute\" (for health reasons), \"multato per eccesso di velocità\" (fined for speeding).",
           "It's shorter and more formal than \"a causa di\", and you'll meet it on every shop door in August. In speech, \"per via di\" (because of) is a common, neutral alternative: \"per via del traffico\".",
         ],
         examples: [
-          { es: "Chiuso per ferie dal 10 al 25 agosto.", en: "Closed for the holidays from 10 to 25 August." },
-          { es: "La professoressa è assente per malattia.", en: "The teacher is off sick." },
+          { es: "Chiuso per ferie dal 10 al 25 agosto.", en: "Closed for vacation from August 10 to 25." },
+          { es: "La professoressa è assente per malattia.", en: "The teacher is out sick." },
           { es: "Ha lasciato il lavoro per motivi di salute.", en: "He left his job for health reasons." },
           { es: "Siamo arrivati tardi per via del traffico.", en: "We got there late because of the traffic." },
         ],
@@ -249,9 +249,9 @@ export const IT_B2_U11: Lesson[] = [
             type: "listen-choose",
             audio: "Chiuso per ferie dal 10 al 25 agosto.",
             question: "What does the sign say?",
-            options: ["Closed for the holidays until 25 August.", "Closed for illness until 10 August.", "Open every day in August.", "Closed for renovation from 25 August."],
+            options: ["Closed for vacation until August 25.", "Closed for illness until August 10.", "Open every day in August.", "Closed for renovation from August 25."],
             correctIndex: 0,
-            explanation: "\"Per ferie\" = for the holidays.",
+            explanation: "\"Per ferie\" = for vacation.",
           },
         ],
       },
@@ -260,7 +260,7 @@ export const IT_B2_U11: Lesson[] = [
         body: [
           "To give the cause of a completed action with a verb, Italian uses \"per\" + past infinitive: \"È stato multato per aver superato il limite di velocità\" (he was fined for exceeding the speed limit). English uses for + -ing; Italian needs the past infinitive because the cause came first.",
           "The past infinitive is \"avere\" or \"essere\" + participle, as after \"dopo\": \"per aver mentito\", \"per essere arrivato tardi\". With \"essere\" the participle agrees with the subject: \"Giulia è stata punita per essere uscita senza permesso.\" Never use a conjugated verb after \"per\": not \"per ha superato\".",
-          "The same structure thanks or apologises: \"Grazie per avermi aiutato\", \"Scusa per essere arrivata tardi.\"",
+          "The same structure thanks or apologizes: \"Grazie per avermi aiutato\", \"Scusa per essere arrivata tardi.\"",
         ],
         examples: [
           { es: "È stato multato per aver superato il limite di velocità.", en: "He was fined for exceeding the speed limit." },
@@ -298,7 +298,7 @@ export const IT_B2_U11: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They gave her an award for saving a child.", answer: "L'hanno premiata per aver salvato un bambino.", altAnswers: ["L'hanno premiata per avere salvato un bambino.", "È stata premiata per aver salvato un bambino.", "È stata premiata per avere salvato un bambino."], explanation: "\"Per\" + past infinitive; \"l'\" = \"la\", so \"premiata\" agrees." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Sorry for being late. (a woman speaking, to a friend)", answer: "Scusa per essere arrivata tardi.", altAnswers: ["Scusa per essere arrivata in ritardo.", "Scusami per essere arrivata tardi.", "Scusa se sono arrivata tardi.", "Scusa se sono arrivata in ritardo."], explanation: "With \"essere\" the participle agrees with the speaker: \"arrivata\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "We got there late [because of the] traffic.", sentence: "Siamo arrivati tardi ___ traffico.", answer: "per via del", altAnswers: ["a causa del", "per colpa del", "per il"], explanation: "\"Per via di\" is the neutral spoken choice." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The teacher is [off sick].", sentence: "La professoressa è ___.", answer: "assente per malattia", altAnswers: ["in malattia", "a casa malata"], explanation: "\"Per\" + noun in set phrases: \"assente per malattia\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The teacher is [out sick].", sentence: "La professoressa è ___.", answer: "assente per malattia", altAnswers: ["in malattia", "a casa malata"], explanation: "\"Per\" + noun in set phrases: \"assente per malattia\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Giulia was punished [for going out] without permission.", sentence: "Giulia è stata punita ___ senza permesso.", answer: "per essere uscita", explanation: "\"Uscire\" takes \"essere\", so the participle agrees: \"uscita\"." },
       { type: "word-order", prompt: "Put the words in order to say: The restaurant closed because of the crisis.", words: ["Il", "ristorante", "ha", "chiuso", "a", "causa", "della", "crisi."], translation: "The restaurant closed because of the crisis.", explanation: "\"Di\" + \"la\" = \"della\"." },
       {
@@ -308,7 +308,7 @@ export const IT_B2_U11: Lesson[] = [
           { left: "grazie al tuo aiuto", right: "thanks to your help" },
           { left: "per colpa mia", right: "because of me (my fault)" },
           { left: "a causa della neve", right: "because of the snow" },
-          { left: "chiuso per ferie", right: "closed for the holidays" },
+          { left: "chiuso per ferie", right: "closed for vacation" },
           { left: "per aver mentito", right: "for lying" },
         ],
         explanation: "Positive cause: \"grazie a\"; blame: \"per colpa di\"; neutral: \"a causa di\" or \"per\".",
@@ -378,7 +378,7 @@ export const IT_B2_U11: Lesson[] = [
           { es: "I prezzi sono aumentati; di conseguenza, le vendite sono calate.", en: "Prices went up; as a result, sales fell." },
           { es: "La domanda è incompleta; pertanto non può essere accettata.", en: "The application is incomplete; therefore it cannot be accepted." },
           { es: "Ho perso le chiavi, per cui sono rimasto fuori.", en: "I lost my keys, so I was locked out." },
-          { es: "Lo sciopero continua; di conseguenza molti voli sono stati cancellati.", en: "The strike is continuing; as a result many flights have been cancelled." },
+          { es: "Lo sciopero continua; di conseguenza molti voli sono stati cancellati.", en: "The strike is continuing; as a result many flights have been canceled." },
           { es: "Il pagamento non è arrivato, pertanto l'ordine è sospeso.", en: "The payment hasn't arrived, therefore the order is on hold." },
         ],
         checkpoint: [
@@ -516,7 +516,7 @@ export const IT_B2_U11: Lesson[] = [
         heading: "Tanto che, tanta gente che",
         body: [
           "With a verb, use \"tanto\" after it: \"Ha mangiato tanto che stava male\" (he ate so much that he felt ill). With a noun, \"tanto\" becomes an adjective and agrees: \"tanta gente\", \"tanti turisti\", \"tante cose\": \"C'era tanta gente che non si poteva entrare.\"",
-          "\"Tanto che\" can also open the result after a pause, meaning so much so that: \"Era nervosissima, tanto che ha dimenticato il discorso.\" A more formal relative is \"al punto che\" (to the point that).",
+          "\"Tanto che\" can also open the result after a pause, meaning so much so that: \"Era nervosissima, tanto che ha dimenticato il discorso.\" A more formal alternative is \"al punto che\" (to the point that).",
         ],
         examples: [
           { es: "Ha mangiato tanto che stava male.", en: "He ate so much that he felt ill." },
@@ -667,9 +667,9 @@ export const IT_B2_U11: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The documents are missing; therefore the request cannot be processed. (formal)", answer: "Mancano i documenti; pertanto la richiesta non può essere elaborata.", altAnswers: ["Mancano i documenti, pertanto la richiesta non può essere elaborata.", "I documenti mancano; pertanto la richiesta non può essere elaborata.", "Mancano i documenti; pertanto la richiesta non può essere evasa."], explanation: "\"Pertanto\" in formal writing; \"mancano\" agrees with \"i documenti\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It was so cold that the lake froze.", answer: "Faceva così freddo che il lago si è ghiacciato.", altAnswers: ["Faceva talmente freddo che il lago si è ghiacciato.", "Faceva così freddo che il lago è ghiacciato.", "Faceva talmente freddo che il lago è ghiacciato.", "Faceva così freddo che il lago si è gelato."], explanation: "\"Fare freddo\" + \"così\" ... \"che\" + indicative." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Since] the bank is closed, I'll pay tomorrow.", sentence: "___ la banca è chiusa, pago domani.", answer: "Siccome", altAnswers: ["Dato che", "Visto che", "Poiché", "Dal momento che"], explanation: "Cause first: \"siccome\" or \"dato che\", never \"perché\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The flight was cancelled [because of a] technical fault.", sentence: "Il volo è stato cancellato ___ guasto tecnico.", answer: "a causa di un", altAnswers: ["per un", "per via di un"], explanation: "\"A causa di\" + noun." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The flight was canceled [because of a] technical fault.", sentence: "Il volo è stato cancellato ___ guasto tecnico.", answer: "a causa di un", altAnswers: ["per un", "per via di un"], explanation: "\"A causa di\" + noun." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[That's why] I didn't tell you anything.", sentence: "___ non ti ho detto niente.", answer: "Per questo", altAnswers: ["È per questo che", "Ecco perché", "Perciò"], explanation: "\"Per questo\" points back to the reason." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He studied [so much that] he passed with full marks.", sentence: "Ha studiato ___ ha preso trenta e lode.", answer: "tanto che", altAnswers: ["così tanto che", "talmente tanto che"], explanation: "After a verb: \"tanto che\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He studied [so much that] he passed with a perfect score.", sentence: "Ha studiato ___ ha preso trenta e lode.", answer: "tanto che", altAnswers: ["così tanto che", "talmente tanto che"], explanation: "After a verb: \"tanto che\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'm writing it down for you [so that you don't forget] it.", sentence: "Te lo scrivo ___.", answer: "in modo che tu non lo dimentichi", altAnswers: ["perché tu non lo dimentichi", "affinché tu non lo dimentichi", "così che tu non lo dimentichi", "in modo che non lo dimentichi", "perché non lo dimentichi"], explanation: "Purpose: subjunctive \"dimentichi\" (h keeps the hard c)." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Thanks [for coming]! (to a group of friends)", sentence: "Grazie ___!", answer: "per essere venuti", altAnswers: ["di essere venuti", "per essere venute", "di essere venute"], explanation: "\"Venire\" takes \"essere\": the participle agrees with the group." },
       { type: "dictation", audio: "Siccome il treno era in ritardo, abbiamo perso la coincidenza.", explanation: "\"Siccome\" + imperfetto, then the main event." },
@@ -728,9 +728,9 @@ export const IT_B2_U11: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Even though he was tired, he finished the report.", answer: "Benché fosse stanco, ha finito la relazione.", altAnswers: ["Sebbene fosse stanco, ha finito la relazione.", "Nonostante fosse stanco, ha finito la relazione.", "Anche se era stanco, ha finito la relazione.", "Pur essendo stanco, ha finito la relazione.", "Benché fosse stanco, ha finito il rapporto."], explanation: "Concession + subjunctive \"fosse\", or \"pur\" + gerund." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Since he was tired, he went to bed early. (start with the cause)", answer: "Siccome era stanco, è andato a letto presto.", altAnswers: ["Dato che era stanco, è andato a letto presto.", "Visto che era stanco, è andato a letto presto.", "Poiché era stanco, è andato a letto presto.", "Essendo stanco, è andato a letto presto."], explanation: "Cause + indicative; \"essendo stanco\" (gerund of cause) also works." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Despite the rain, the concert went ahead.", answer: "Nonostante la pioggia, il concerto si è svolto.", altAnswers: ["Malgrado la pioggia, il concerto si è svolto.", "Nonostante la pioggia, il concerto si è tenuto.", "Nonostante la pioggia, il concerto c'è stato.", "Malgrado la pioggia, il concerto si è tenuto."], explanation: "\"Nonostante\" + noun, no \"di\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Because of the rain, the concert was cancelled.", answer: "A causa della pioggia, il concerto è stato annullato.", altAnswers: ["A causa della pioggia, il concerto è stato cancellato.", "Il concerto è stato annullato a causa della pioggia.", "Il concerto è stato cancellato a causa della pioggia.", "Per la pioggia, il concerto è stato annullato."], explanation: "Cause + noun: \"a causa della\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Because of the rain, the concert was canceled.", answer: "A causa della pioggia, il concerto è stato annullato.", altAnswers: ["A causa della pioggia, il concerto è stato cancellato.", "Il concerto è stato annullato a causa della pioggia.", "Il concerto è stato cancellato a causa della pioggia.", "Per la pioggia, il concerto è stato annullato."], explanation: "Cause + noun: \"a causa della\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "After reading the contract, she signed it.", answer: "Dopo aver letto il contratto, l'ha firmato.", altAnswers: ["Dopo avere letto il contratto, l'ha firmato.", "Dopo aver letto il contratto, lo ha firmato.", "Letto il contratto, l'ha firmato."], explanation: "Past infinitive after \"dopo\"; same subject." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She was fined for parking on the pavement.", answer: "È stata multata per aver parcheggiato sul marciapiede.", altAnswers: ["È stata multata per avere parcheggiato sul marciapiede.", "L'hanno multata per aver parcheggiato sul marciapiede."], explanation: "\"Per\" + past infinitive gives the cause." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She was fined for parking on the sidewalk.", answer: "È stata multata per aver parcheggiato sul marciapiede.", altAnswers: ["È stata multata per avere parcheggiato sul marciapiede.", "L'hanno multata per aver parcheggiato sul marciapiede."], explanation: "\"Per\" + past infinitive gives the cause." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm explaining it again so that everyone understands.", answer: "Lo spiego di nuovo in modo che tutti capiscano.", altAnswers: ["Lo rispiego in modo che tutti capiscano.", "Lo spiego di nuovo affinché tutti capiscano.", "Lo spiego di nuovo perché tutti capiscano.", "Lo spiego ancora in modo che tutti capiscano.", "Lo spiego di nuovo così che tutti capiscano."], explanation: "Purpose: subjunctive \"capiscano\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I explained it again, so everyone understood.", answer: "L'ho spiegato di nuovo, così tutti hanno capito.", altAnswers: ["L'ho spiegato di nuovo, quindi tutti hanno capito.", "L'ho spiegato di nuovo, così che tutti hanno capito.", "L'ho rispiegato, così tutti hanno capito.", "L'ho spiegato di nuovo, cosicché tutti hanno capito."], explanation: "A real result: indicative \"hanno capito\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If I had known it, I would have come.", answer: "Se l'avessi saputo, sarei venuto.", altAnswers: ["Se l'avessi saputo, sarei venuta.", "Se lo avessi saputo, sarei venuto.", "Se lo avessi saputo, sarei venuta."], explanation: "Impossible past: \"se\" + pluperfect subjunctive, past conditional." },
@@ -882,13 +882,13 @@ export const IT_B2_U11: Lesson[] = [
           { es: "Negli ultimi dieci anni il numero di visitatori a Montalba è cresciuto del 60 per cento.", en: "Over the last ten years the number of visitors to Montalba has grown by 60 percent." },
           { es: "Questo aumento è dovuto soprattutto ai voli low cost e alla popolarità del borgo sui social.", en: "This increase is due above all to low-cost flights and the town's popularity on social media." },
           { es: "Grazie al turismo, sono nati nuovi ristoranti, negozi e posti di lavoro.", en: "Thanks to tourism, new restaurants, shops and jobs have appeared." },
-          { es: "Poiché i turisti si concentrano nel centro storico, molti appartamenti sono diventati affitti brevi.", en: "Since tourists concentrate in the old town, many flats have become short-term lets." },
+          { es: "Poiché i turisti si concentrano nel centro storico, molti appartamenti sono diventati affitti brevi.", en: "Since tourists concentrate in the old town, many apartments have become short-term rentals." },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
             question: "According to the report, why has the number of visitors grown?",
-            options: ["Because of low-cost flights and social media.", "Because of a new motorway.", "Because hotels are cheaper.", "Because of a famous film."],
+            options: ["Because of low-cost flights and social media.", "Because of a new highway.", "Because hotels are cheaper.", "Because of a famous film."],
             correctIndex: 0,
             explanation: "\"È dovuto soprattutto ai voli low cost e alla popolarità del borgo sui social.\"",
           },
@@ -919,15 +919,15 @@ export const IT_B2_U11: Lesson[] = [
         ],
         examples: [
           { es: "Di conseguenza, gli affitti per i residenti sono raddoppiati.", en: "As a result, rents for residents have doubled." },
-          { es: "Molte famiglie si sono trasferite in periferia, tanto che il centro si svuota ogni sera.", en: "Many families have moved to the outskirts, so much so that the centre empties every evening." },
+          { es: "Molte famiglie si sono trasferite in periferia, tanto che il centro si svuota ogni sera.", en: "Many families have moved to the outskirts, so much so that downtown empties every evening." },
           { es: "A causa del sovraffollamento, d'estate i servizi pubblici non bastano più.", en: "Because of overcrowding, public services are no longer enough in summer." },
           { es: "Il Comune ha pertanto introdotto un contributo di accesso per i visitatori giornalieri.", en: "The council has therefore introduced an entry fee for day visitors." },
-          { es: "Dal prossimo anno, il numero di nuovi affitti brevi sarà limitato.", en: "From next year, the number of new short-term lets will be limited." },
+          { es: "Dal prossimo anno, il numero di nuovi affitti brevi sarà limitato.", en: "From next year, the number of new short-term rentals will be limited." },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "What happens to the town centre every evening?",
+            question: "What happens to the town center every evening?",
             options: ["It empties.", "It fills with residents.", "It closes to traffic.", "It hosts concerts."],
             correctIndex: 0,
             explanation: "\"Il centro si svuota ogni sera\": it empties.",
@@ -954,19 +954,19 @@ export const IT_B2_U11: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Over the last ten years the number of visitors has grown by 60 percent.", answer: "Negli ultimi dieci anni il numero di visitatori è cresciuto del 60 per cento.", altAnswers: ["Negli ultimi dieci anni il numero dei visitatori è cresciuto del 60 per cento.", "Negli ultimi dieci anni il numero di visitatori è aumentato del 60 per cento.", "Negli ultimi dieci anni il numero dei visitatori è aumentato del 60 per cento.", "Negli ultimi dieci anni il numero di visitatori è cresciuto del 60%."], explanation: "\"Crescere del\" + percentage: \"di\" + article." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Since tourists concentrate in the old town, many flats have become short-term lets.", answer: "Poiché i turisti si concentrano nel centro storico, molti appartamenti sono diventati affitti brevi.", altAnswers: ["Siccome i turisti si concentrano nel centro storico, molti appartamenti sono diventati affitti brevi.", "Dato che i turisti si concentrano nel centro storico, molti appartamenti sono diventati affitti brevi.", "Visto che i turisti si concentrano nel centro storico, molti appartamenti sono diventati affitti brevi."], explanation: "\"Poiché\" is the written choice; \"diventare\" takes \"essere\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Since tourists concentrate in the old town, many apartments have become short-term rentals.", answer: "Poiché i turisti si concentrano nel centro storico, molti appartamenti sono diventati affitti brevi.", altAnswers: ["Siccome i turisti si concentrano nel centro storico, molti appartamenti sono diventati affitti brevi.", "Dato che i turisti si concentrano nel centro storico, molti appartamenti sono diventati affitti brevi.", "Visto che i turisti si concentrano nel centro storico, molti appartamenti sono diventati affitti brevi."], explanation: "\"Poiché\" is the written choice; \"diventare\" takes \"essere\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Many families have moved to the outskirts.", answer: "Molte famiglie si sono trasferite in periferia.", explanation: "\"Trasferirsi\" is reflexive, so \"essere\"; \"trasferite\" agrees with \"famiglie\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The council has therefore introduced an entry fee.", answer: "Il Comune ha pertanto introdotto un contributo di accesso.", altAnswers: ["Il Comune ha quindi introdotto un contributo di accesso.", "Pertanto il Comune ha introdotto un contributo di accesso.", "Il Comune ha pertanto introdotto un ticket d'ingresso.", "Il Comune ha pertanto introdotto una tassa d'ingresso."], explanation: "\"Pertanto\" can sit between the auxiliary and the participle in formal writing." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The centre empties every evening, [so much so that] some shops close at six.", sentence: "Il centro si svuota ogni sera, ___ alcuni negozi chiudono alle 18.", answer: "tanto che", altAnswers: ["al punto che"], explanation: "\"Tanto che\" introduces a striking result." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The center empties every evening, [so much so that] some shops close at six.", sentence: "Il centro si svuota ogni sera, ___ alcuni negozi chiudono alle 18.", answer: "tanto che", altAnswers: ["al punto che"], explanation: "\"Tanto che\" introduces a striking result." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Because of overcrowding], the museum has limited entries.", sentence: "___, il museo ha limitato gli ingressi.", answer: "A causa del sovraffollamento", altAnswers: ["Per il sovraffollamento", "Per via del sovraffollamento"], explanation: "\"A causa di\" + noun." },
-      { type: "word-order", prompt: "Put the words in order to say: From next year, short-term lets will be limited.", words: ["Dal", "prossimo", "anno,", "gli", "affitti", "brevi", "saranno", "limitati."], translation: "From next year, short-term lets will be limited.", explanation: "Future passive: \"saranno limitati\", agreeing with \"affitti\"." },
+      { type: "word-order", prompt: "Put the words in order to say: From next year, short-term rentals will be limited.", words: ["Dal", "prossimo", "anno,", "gli", "affitti", "brevi", "saranno", "limitati."], translation: "From next year, short-term rentals will be limited.", explanation: "Future passive: \"saranno limitati\", agreeing with \"affitti\"." },
       {
         type: "matching",
         instructions: "Match the Italian to the English.",
         pairs: [
           { left: "il Comune", right: "the town council" },
           { left: "il centro storico", right: "the old town" },
-          { left: "gli affitti brevi", right: "short-term lets" },
+          { left: "gli affitti brevi", right: "short-term rentals" },
           { left: "il sovraffollamento", right: "overcrowding" },
           { left: "la periferia", right: "the outskirts" },
         ],
@@ -994,14 +994,14 @@ export const IT_B2_U11: Lesson[] = [
       {
         heading: "At the station",
         body: [
-          "Station announcements are fast and formulaic. The cause usually comes with \"a causa di\" or \"per\", and the apology with \"ci scusiamo per il disagio\" (we apologise for the inconvenience). Listen for the numbers: the train, the platform, the minutes of delay.",
+          "Station announcements are fast and formulaic. The cause usually comes with \"a causa di\" or \"per\", and the apology with \"ci scusiamo per il disagio\" (we apologize for the inconvenience). Listen for the numbers: the train, the platform, the minutes of delay.",
           "\"Il treno ... è in ritardo di 25 minuti\" means it is 25 minutes late: \"in ritardo di\" + time. \"Un guasto\" is a breakdown; \"un inconveniente tecnico\" is the classic polite version.",
         ],
         examples: [
           { es: "Il Frecciarossa 9541 per Napoli è in ritardo di 25 minuti.", en: "The Frecciarossa 9541 to Naples is 25 minutes late." },
           { es: "Il ritardo è dovuto a un guasto alla linea.", en: "The delay is due to a fault on the line." },
           { es: "A causa di un inconveniente tecnico, il treno partirà dal binario 7.", en: "Because of a technical problem, the train will leave from platform 7." },
-          { es: "Ci scusiamo per il disagio.", en: "We apologise for the inconvenience." },
+          { es: "Ci scusiamo per il disagio.", en: "We apologize for the inconvenience." },
         ],
         checkpoint: [
           {
@@ -1034,7 +1034,7 @@ export const IT_B2_U11: Lesson[] = [
           { es: "Siccome pioveva, non volevo venire a piedi.", en: "Since it was raining, I didn't want to walk." },
           { es: "Va be', tanto Marco non è ancora arrivato.", en: "Oh well, Marco isn't here yet anyway." },
           { es: "Quindi non ti sei persa niente.", en: "So you haven't missed anything." },
-          { es: "Sono in ritardo per via dei lavori in tangenziale.", en: "I'm late because of the roadworks on the ring road." },
+          { es: "Sono in ritardo per via dei lavori in tangenziale.", en: "I'm late because of the road work on the beltway." },
         ],
         checkpoint: [
           {
@@ -1066,11 +1066,11 @@ export const IT_B2_U11: Lesson[] = [
       {
         heading: "Customer service",
         body: [
-          "On the phone to a courier, Matteo asks why his parcel hasn't arrived. The operator answers formally with \"Lei\": \"Il pacco è fermo in magazzino poiché l'indirizzo risulta incompleto\" (the parcel is held at the depot because the address appears incomplete). \"Risultare\" (to appear, to turn out to be) is a favourite word of offices.",
+          "On the phone to a courier, Matteo asks why his package hasn't arrived. The operator answers formally with \"Lei\": \"Il pacco è fermo in magazzino poiché l'indirizzo risulta incompleto\" (the package is held at the depot because the address appears incomplete). \"Risultare\" (to appear, to turn out to be) is a favorite word of offices.",
           "Matteo replies with a consequence: \"Quindi devo venire a ritirarlo io?\" (so do I have to come and collect it myself?).",
         ],
         examples: [
-          { es: "Il pacco è fermo in magazzino poiché l'indirizzo risulta incompleto.", en: "The parcel is held at the depot because the address appears incomplete." },
+          { es: "Il pacco è fermo in magazzino poiché l'indirizzo risulta incompleto.", en: "The package is held at the depot because the address appears incomplete." },
           { es: "Quindi devo venire a ritirarlo io?", en: "So I have to come and collect it myself?" },
           { es: "Può ritirarlo entro cinque giorni, altrimenti verrà restituito al mittente.", en: "You can collect it within five days, otherwise it will be returned to the sender." },
           { es: "Siccome lavoro fino alle 19, posso mandare qualcuno?", en: "As I work until 7 pm, can I send someone?" },
@@ -1079,7 +1079,7 @@ export const IT_B2_U11: Lesson[] = [
           {
             type: "listen-choose",
             audio: "Il pacco è fermo in magazzino poiché l'indirizzo risulta incompleto.",
-            question: "Why hasn't the parcel arrived?",
+            question: "Why hasn't the package arrived?",
             options: ["The address is incomplete.", "The courier is on strike.", "Nobody was at home.", "It was damaged."],
             correctIndex: 0,
             explanation: "\"L'indirizzo risulta incompleto\" = the address appears incomplete.",
@@ -1098,23 +1098,23 @@ export const IT_B2_U11: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The delay is due to a fault on the line.", answer: "Il ritardo è dovuto a un guasto alla linea.", altAnswers: ["Il ritardo è dovuto ad un guasto alla linea.", "Il ritardo è causato da un guasto alla linea."], explanation: "\"Essere dovuto a\" = to be due to." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We apologise for the inconvenience.", answer: "Ci scusiamo per il disagio.", altAnswers: ["Ci scusiamo per l'inconveniente.", "Ci scusiamo del disagio."], explanation: "A fixed formula in announcements and emails." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm late because of the roadworks.", answer: "Sono in ritardo per via dei lavori.", altAnswers: ["Sono in ritardo a causa dei lavori.", "Sono in ritardo per i lavori.", "Sono in ritardo per colpa dei lavori."], explanation: "\"Per via di\" + \"i\" = \"per via dei\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We apologize for the inconvenience.", answer: "Ci scusiamo per il disagio.", altAnswers: ["Ci scusiamo per l'inconveniente.", "Ci scusiamo del disagio."], explanation: "A fixed formula in announcements and emails." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm late because of the road work.", answer: "Sono in ritardo per via dei lavori.", altAnswers: ["Sono in ritardo a causa dei lavori.", "Sono in ritardo per i lavori.", "Sono in ritardo per colpa dei lavori."], explanation: "\"Per via di\" + \"i\" = \"per via dei\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "So you haven't missed anything. (to a female friend)", answer: "Quindi non ti sei persa niente.", altAnswers: ["Quindi non ti sei persa nulla.", "Allora non ti sei persa niente.", "Quindi non hai perso niente."], explanation: "\"Perdersi qualcosa\" = to miss something; reflexive, so \"essere\" and agreement." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "As I work until 7 pm, can I send someone? (to an operator)", answer: "Siccome lavoro fino alle 19, posso mandare qualcuno?", altAnswers: ["Dato che lavoro fino alle 19, posso mandare qualcuno?", "Visto che lavoro fino alle 19, posso mandare qualcuno?", "Siccome lavoro fino alle sette, posso mandare qualcuno?", "Siccome lavoro fino alle 19, potrei mandare qualcuno?"], explanation: "\"Siccome\" opens with the cause." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Otherwise the parcel will be returned to the sender.", answer: "Altrimenti il pacco verrà restituito al mittente.", altAnswers: ["Altrimenti il pacco sarà restituito al mittente.", "Altrimenti il pacco tornerà al mittente."], explanation: "\"Verrà restituito\": \"venire\" + participle for a passive in a simple tense." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The address appears incomplete, so the parcel is held at the depot.", answer: "L'indirizzo risulta incompleto, quindi il pacco è fermo in magazzino.", altAnswers: ["L'indirizzo risulta incompleto, perciò il pacco è fermo in magazzino.", "L'indirizzo risulta incompleto, di conseguenza il pacco è fermo in magazzino.", "L'indirizzo risulta incompleto, pertanto il pacco è fermo in magazzino."], explanation: "\"Risultare\" = to appear (official); \"quindi\" for the result." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Otherwise the package will be returned to the sender.", answer: "Altrimenti il pacco verrà restituito al mittente.", altAnswers: ["Altrimenti il pacco sarà restituito al mittente.", "Altrimenti il pacco tornerà al mittente."], explanation: "\"Verrà restituito\": \"venire\" + participle for a passive in a simple tense." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The address appears incomplete, so the package is held at the depot.", answer: "L'indirizzo risulta incompleto, quindi il pacco è fermo in magazzino.", altAnswers: ["L'indirizzo risulta incompleto, perciò il pacco è fermo in magazzino.", "L'indirizzo risulta incompleto, di conseguenza il pacco è fermo in magazzino.", "L'indirizzo risulta incompleto, pertanto il pacco è fermo in magazzino."], explanation: "\"Risultare\" = to appear (official); \"quindi\" for the result." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Since it was raining, I didn't want to walk.", answer: "Siccome pioveva, non volevo venire a piedi.", altAnswers: ["Siccome pioveva, non volevo andare a piedi.", "Dato che pioveva, non volevo venire a piedi.", "Visto che pioveva, non volevo venire a piedi.", "Dato che pioveva, non volevo andare a piedi.", "Visto che pioveva, non volevo andare a piedi."], explanation: "\"Siccome\" + imperfetto for the background cause." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Because of a technical problem], the train will leave from platform 7.", sentence: "___, il treno partirà dal binario 7.", answer: "A causa di un inconveniente tecnico", altAnswers: ["Per un inconveniente tecnico", "A causa di un guasto tecnico", "Per un guasto tecnico"], explanation: "The polite formula of station announcements." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Oh well, Marco isn't here yet [anyway].", sentence: "Va be', ___ Marco non è ancora arrivato.", answer: "tanto", altAnswers: ["comunque"], explanation: "\"Tanto\" = anyway, at the start of the clause." },
-      { type: "listen-choose", audio: "Il volo per Cagliari è stato cancellato per lo sciopero dei controllori di volo.", question: "Why was the flight cancelled?", options: ["An air traffic controllers' strike.", "Bad weather in Cagliari.", "A technical fault.", "Too few passengers."], correctIndex: 0, explanation: "\"Lo sciopero dei controllori di volo\" = the air traffic controllers' strike." },
+      { type: "listen-choose", audio: "Il volo per Cagliari è stato cancellato per lo sciopero dei controllori di volo.", question: "Why was the flight canceled?", options: ["An air traffic controllers' strike.", "Bad weather in Cagliari.", "A technical fault.", "Too few passengers."], correctIndex: 0, explanation: "\"Lo sciopero dei controllori di volo\" = the air traffic controllers' strike." },
       { type: "listen-choose", audio: "Siccome il ristorante era pieno, siamo finiti in una pizzeria, e quindi niente pesce.", question: "What happened?", options: ["The restaurant was full, so they ended up in a pizzeria.", "The pizzeria was full, so they had fish.", "They didn't want fish, so they chose a pizzeria.", "The restaurant was closed, so they went home."], correctIndex: 0, explanation: "\"Siccome\" gives the cause, \"quindi\" the result." },
       { type: "dictation", audio: "Ci scusiamo per il disagio.", explanation: "One s in \"scusiamo\" and in \"disagio\", where it is voiced: di-ZA-jo." },
       { type: "dictation", audio: "Il treno è in ritardo di venti minuti.", explanation: "\"In ritardo di\" + time." },
       {
         type: "speak",
         text: "Scusate il ritardo, è che c'era un incidente in tangenziale e quindi sono rimasta ferma mezz'ora.",
-        prompt: "Apologise to your friends (as a woman): Sorry I'm late, the thing is there was an accident on the ring road, so I was stuck for half an hour.",
+        prompt: "Apologize to your friends (as a woman): Sorry I'm late, the thing is there was an accident on the beltway, so I was stuck for half an hour.",
         tip: "\"Mezz'ora\": the double z is a sharp dz, MED-dzo-ra.",
         explanation: "\"È che\" softens the excuse; \"quindi\" gives the result.",
       },
@@ -1132,14 +1132,14 @@ export const IT_B2_U11: Lesson[] = [
       {
         heading: "The opening and the cause",
         body: [
-          "You work for a furniture company in Bologna. A client, signora Ferri, ordered a table that should have arrived on 3 March; it hasn't. Your email must explain the cause, the consequence and the solution, in formal Italian with \"Lei\".",
-          "Open with \"Gentile signora Ferri,\" then state the purpose: \"Le scrivo in merito al Suo ordine n. 4512\" (I'm writing regarding your order no. 4512). Give the cause with \"a causa di\" or \"poiché\": \"a causa di un ritardo del nostro fornitore\". In formal letters \"Lei\", \"Le\" and \"Suo\" are often capitalised.",
+          "You work for a furniture company in Bologna. A client, signora Ferri, ordered a table that should have arrived on March 3; it hasn't. Your email must explain the cause, the consequence and the solution, in formal Italian with \"Lei\".",
+          "Open with \"Gentile signora Ferri,\" then state the purpose: \"Le scrivo in merito al Suo ordine n. 4512\" (I'm writing regarding your order no. 4512). Give the cause with \"a causa di\" or \"poiché\": \"a causa di un ritardo del nostro fornitore\". In formal letters \"Lei\", \"Le\" and \"Suo\" are often capitalized.",
         ],
         examples: [
-          { es: "Gentile signora Ferri,", en: "Dear Mrs Ferri," },
+          { es: "Gentile signora Ferri,", en: "Dear Mrs. Ferri," },
           { es: "Le scrivo in merito al Suo ordine n. 4512.", en: "I'm writing regarding your order no. 4512." },
           { es: "A causa di un ritardo del nostro fornitore, il tavolo non è ancora pronto.", en: "Because of a delay by our supplier, the table isn't ready yet." },
-          { es: "Poiché il legno arriva dalla Slovenia, i tempi di consegna si sono allungati.", en: "As the wood comes from Slovenia, delivery times have got longer." },
+          { es: "Poiché il legno arriva dalla Slovenia, i tempi di consegna si sono allungati.", en: "As the wood comes from Slovenia, delivery times have gotten longer." },
         ],
         checkpoint: [
           {
@@ -1165,12 +1165,12 @@ export const IT_B2_U11: Lesson[] = [
       {
         heading: "Consequence, apology, solution",
         body: [
-          "Now the result: \"Di conseguenza, la consegna è prevista per il 17 marzo\" (as a result, delivery is now expected on 17 March). Apologise with \"Ci scusiamo per il disagio\" and offer something: \"Le offriamo uno sconto del 10%\".",
+          "Now the result: \"Di conseguenza, la consegna è prevista per il 17 marzo\" (as a result, delivery is now expected on March 17). Apologize with \"Ci scusiamo per il disagio\" and offer something: \"Le offriamo uno sconto del 10%\".",
           "Close with a formula: \"Restiamo a Sua disposizione per qualsiasi chiarimento\" (we remain at your disposal for any clarification) and \"Cordiali saluti\". Avoid \"perché\" at the start of a sentence and the chatty \"per cui\".",
         ],
         examples: [
-          { es: "Di conseguenza, la consegna è prevista per il 17 marzo.", en: "As a result, delivery is now expected on 17 March." },
-          { es: "Ci scusiamo per il disagio.", en: "We apologise for the inconvenience." },
+          { es: "Di conseguenza, la consegna è prevista per il 17 marzo.", en: "As a result, delivery is now expected on March 17." },
+          { es: "Ci scusiamo per il disagio.", en: "We apologize for the inconvenience." },
           { es: "Per questo motivo Le offriamo uno sconto del 10%.", en: "For this reason we are offering you a 10% discount." },
           { es: "Restiamo a Sua disposizione per qualsiasi chiarimento.", en: "We remain at your disposal for any clarification." },
           { es: "Cordiali saluti, Davide Neri, Ufficio Clienti", en: "Kind regards, Davide Neri, Customer Service" },
@@ -1180,7 +1180,7 @@ export const IT_B2_U11: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Italian.",
-            source: "As a result, delivery is expected on 17 March.",
+            source: "As a result, delivery is expected on March 17.",
             answer: "Di conseguenza, la consegna è prevista per il 17 marzo.",
             altAnswers: ["Pertanto, la consegna è prevista per il 17 marzo.", "Di conseguenza, la consegna è prevista il 17 marzo.", "Quindi la consegna è prevista per il 17 marzo."],
             explanation: "\"Di conseguenza\" for the result; months lower case.",
@@ -1195,7 +1195,7 @@ export const IT_B2_U11: Lesson[] = [
           {
             type: "speak",
             text: "Ci scusiamo per il disagio e restiamo a Sua disposizione.",
-            prompt: "Read the closing aloud, as you would on the phone: We apologise for the inconvenience and remain at your disposal.",
+            prompt: "Read the closing aloud, as you would on the phone: We apologize for the inconvenience and remain at your disposal.",
             tip: "\"Disposizione\": di-spo-zi-ZIO-ne, the z is ts.",
             explanation: "A formula used in letters and on the phone.",
           },
@@ -1203,19 +1203,19 @@ export const IT_B2_U11: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Dear Mrs Ferri, I'm writing regarding your order.", answer: "Gentile signora Ferri, Le scrivo in merito al Suo ordine.", altAnswers: ["Gentile signora Ferri, le scrivo in merito al suo ordine.", "Gentile signora Ferri, Le scrivo riguardo al Suo ordine.", "Gentile signora Ferri, le scrivo riguardo al suo ordine.", "Gentile signora Ferri, Le scrivo in riferimento al Suo ordine."], explanation: "\"Gentile\" + title + surname; \"Le\" for formal you." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "As the wood comes from Slovenia, delivery times have got longer.", answer: "Poiché il legno arriva dalla Slovenia, i tempi di consegna si sono allungati.", altAnswers: ["Dato che il legno arriva dalla Slovenia, i tempi di consegna si sono allungati.", "Siccome il legno arriva dalla Slovenia, i tempi di consegna si sono allungati.", "Visto che il legno arriva dalla Slovenia, i tempi di consegna si sono allungati.", "Poiché il legno proviene dalla Slovenia, i tempi di consegna si sono allungati."], explanation: "Formal cause: \"poiché\"; \"allungarsi\" = to get longer." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Dear Mrs. Ferri, I'm writing regarding your order.", answer: "Gentile signora Ferri, Le scrivo in merito al Suo ordine.", altAnswers: ["Gentile signora Ferri, le scrivo in merito al suo ordine.", "Gentile signora Ferri, Le scrivo riguardo al Suo ordine.", "Gentile signora Ferri, le scrivo riguardo al suo ordine.", "Gentile signora Ferri, Le scrivo in riferimento al Suo ordine."], explanation: "\"Gentile\" + title + surname; \"Le\" for formal you." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "As the wood comes from Slovenia, delivery times have gotten longer.", answer: "Poiché il legno arriva dalla Slovenia, i tempi di consegna si sono allungati.", altAnswers: ["Dato che il legno arriva dalla Slovenia, i tempi di consegna si sono allungati.", "Siccome il legno arriva dalla Slovenia, i tempi di consegna si sono allungati.", "Visto che il legno arriva dalla Slovenia, i tempi di consegna si sono allungati.", "Poiché il legno proviene dalla Slovenia, i tempi di consegna si sono allungati."], explanation: "Formal cause: \"poiché\"; \"allungarsi\" = to get longer." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "For this reason we are offering you a 10% discount. (formal)", answer: "Per questo motivo Le offriamo uno sconto del 10%.", altAnswers: ["Per questo motivo le offriamo uno sconto del 10%.", "Per questo Le offriamo uno sconto del 10%.", "Pertanto Le offriamo uno sconto del 10%.", "Per questo motivo Le offriamo uno sconto del 10 per cento."], explanation: "\"Uno sconto\": s + consonant takes \"uno\"; \"del 10%\" with \"di\" + article." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We apologise for the delay.", answer: "Ci scusiamo per il ritardo.", altAnswers: ["Ci scusiamo del ritardo."], explanation: "\"Scusarsi per\" + noun." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "We remain [at your disposal] for any clarification.", sentence: "Restiamo ___ per qualsiasi chiarimento.", answer: "a Sua disposizione", altAnswers: ["a sua disposizione", "a Sua completa disposizione"], explanation: "\"A Sua disposizione\": capitalised in formal letters." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We apologize for the delay.", answer: "Ci scusiamo per il ritardo.", altAnswers: ["Ci scusiamo del ritardo."], explanation: "\"Scusarsi per\" + noun." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "We remain [at your disposal] for any clarification.", sentence: "Restiamo ___ per qualsiasi chiarimento.", answer: "a Sua disposizione", altAnswers: ["a sua disposizione", "a Sua completa disposizione"], explanation: "\"A Sua disposizione\": capitalized in formal letters." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The table isn't ready yet [because] our supplier is late.", sentence: "Il tavolo non è ancora pronto ___ il nostro fornitore è in ritardo.", answer: "poiché", altAnswers: ["perché", "dato che", "visto che", "in quanto"], explanation: "After the main clause: \"poiché\" or \"perché\"; \"in quanto\" is also formal." },
-      { type: "word-order", prompt: "Put the words in order to say: As a result, delivery is expected on 17 March.", words: ["Di", "conseguenza,", "la", "consegna", "è", "prevista", "per", "il", "17", "marzo."], translation: "As a result, delivery is expected on 17 March.", explanation: "\"Prevista\" agrees with \"la consegna\"." },
+      { type: "word-order", prompt: "Put the words in order to say: As a result, delivery is expected on March 17.", words: ["Di", "conseguenza,", "la", "consegna", "è", "prevista", "per", "il", "17", "marzo."], translation: "As a result, delivery is expected on March 17.", explanation: "\"Prevista\" agrees with \"la consegna\"." },
       { type: "multiple-choice", question: "Which sentence is too informal for this email?", options: ["Il fornitore ci ha dato buca, per cui il tavolo arriva più tardi.", "A causa di un ritardo del fornitore, il tavolo arriverà più tardi.", "Poiché il fornitore è in ritardo, la consegna è stata posticipata.", "Il ritardo è dovuto al nostro fornitore."], correctIndex: 0, explanation: "\"Dare buca\" (to stand someone up) and \"per cui\" are casual." },
       { type: "dictation", audio: "La consegna è prevista per il 17 marzo.", explanation: "\"Prevista\" agrees with \"consegna\"." },
       {
         type: "speak",
         text: "Gentile signora Ferri, a causa di un ritardo del fornitore, il Suo tavolo arriverà il 17 marzo. Ci scusiamo per il disagio.",
-        prompt: "Leave a voicemail for the client: Dear Mrs Ferri, because of a delay by the supplier, your table will arrive on 17 March. We apologise for the inconvenience.",
+        prompt: "Leave a voicemail for the client: Dear Mrs. Ferri, because of a delay by the supplier, your table will arrive on March 17. We apologize for the inconvenience.",
         tip: "\"Diciassette\": stress on SET, with a long double t.",
         explanation: "Cause, consequence and apology in one breath.",
       },
@@ -1225,7 +1225,7 @@ export const IT_B2_U11: Lesson[] = [
 
 export const IT_B2_U11_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You were supposed to give a talk at a conference in Torino last week but couldn't go. Write an email to the organiser, dottoressa Galli. Explain what happened (at least two causes), what the consequences were, apologise, and propose a solution for the future.",
+  prompt: "You were supposed to give a talk at a conference in Torino last week but couldn't go. Write an email to the organizer, dottoressa Galli. Explain what happened (at least two causes), what the consequences were, apologize, and propose a solution for the future.",
   minWords: 100,
   maxWords: 180,
   rubric: [

@@ -91,7 +91,7 @@ export const IT_A1_U11: Lesson[] = [
         type: "speak",
         text: "Mi sveglio alle sette, mi alzo subito, mi lavo e mi vesto.",
         prompt: "Describe your morning: I wake up at seven, get up straight away, wash and get dressed.",
-        tip: "\"Sveglio\": zve-LLYO, the gli is soft.",
+        tip: "\"Sveglio\": ZVE-llyo, stressed on the first syllable; the gli is soft.",
         explanation: "Four reflexive verbs in a row.",
       },
     ],
@@ -496,7 +496,7 @@ export const IT_A1_U11: Lesson[] = [
     slug: "a1-dialogue-lab-flatmates",
     level: "IT-A1",
     number: 8,
-    title: "Dialogue Lab: Flatmates' Schedules",
+    title: "Dialogue Lab: Roommates' Schedules",
     summary: "Two flatmates in Milano agree who uses the bathroom when: a che ora ti alzi?, mi faccio la doccia alle sette.",
     duration: "14 min",
     sections: [

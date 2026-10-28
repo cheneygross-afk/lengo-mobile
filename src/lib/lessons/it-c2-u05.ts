@@ -18,7 +18,7 @@ export const IT_C2_U05: Lesson[] = [
         heading: "Dialects are not bad Italian",
         body: [
           "The first thing to unlearn: Italian dialects are not corrupted forms of Italian. Neapolitan, Sicilian, Venetian or Piedmontese developed directly from spoken Latin, side by side with Florentine, which became Italian. Linguists call them \"dialetti italo-romanzi\": sister languages of Italian, not its daughters. They differ from Italian and from each other as much as Spanish differs from Portuguese, and a Bergamasque and a Calabrian speaking only dialect would not understand each other.",
-          "They are called dialects for social and political reasons: they have no state, no official standard, and they have been used mainly in speech and in the family. Three terms must be kept apart. \"Dialetto\": an Italo-Romance variety with its own grammar (\"Neapolitan\"). \"Italiano regionale\": standard Italian spoken with regional features of pronunciation, words and syntax (a Roman's Italian, a Milanese's Italian). \"Lingua minoritaria\": a language recognised by law, such as Sardinian or Friulian.",
+          "They are called dialects for social and political reasons: they have no state, no official standard, and they have been used mainly in speech and in the family. Three terms must be kept apart. \"Dialetto\": an Italo-Romance variety with its own grammar (\"Neapolitan\"). \"Italiano regionale\": standard Italian spoken with regional features of pronunciation, words and syntax (a Roman's Italian, a Milanese's Italian). \"Lingua minoritaria\": a language recognized by law, such as Sardinian or Friulian.",
           "Italians often say \"parlare in dialetto\" (to speak in dialect) and \"il dialetto\" for their own local variety: \"Mia nonna parla solo dialetto.\"",
         ],
         examples: [
@@ -30,18 +30,18 @@ export const IT_C2_U05: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The dialects are sister languages of Italian.", answer: "I dialetti sono lingue sorelle dell'italiano.", altAnswers: ["I dialetti sono lingue sorelle dell'italiano, non sue figlie."], explanation: "\"Lingue sorelle\": both come from Latin." },
-          { type: "multiple-choice", question: "A Roman speaks standard Italian with a Roman accent and a few Roman words. What is this?", options: ["italiano regionale", "dialetto", "lingua minoritaria", "italiano popolare"], correctIndex: 0, explanation: "Regional Italian: the standard with local colour." },
+          { type: "multiple-choice", question: "A Roman speaks standard Italian with a Roman accent and a few Roman words. What is this?", options: ["italiano regionale", "dialetto", "lingua minoritaria", "italiano popolare"], correctIndex: 0, explanation: "Regional Italian: the standard with local color." },
         ],
       },
       {
         heading: "The families",
         body: [
-          "The standard classification divides Italy into large groups. In the North, the \"dialetti settentrionali\": the Gallo-Italic group (Piedmontese, Lombard, Ligurian, Emilian-Romagnol), named for the Celtic substrate, and the Venetian group. In the centre, the Tuscan dialects and the \"dialetti mediani\" (Lazio, Umbria, central Marche). In the South, the \"dialetti meridionali\" (Campania, Abruzzo, Molise, northern Puglia, Basilicata, northern Calabria) and the \"meridionali estremi\" (Salento, southern Calabria, Sicily). Sardinian, Friulian and Ladin stand apart.",
-          "Two famous boundaries: the \"linea La Spezia-Rimini\" (or Massa-Senigallia), which separates the North from the Centre-South, and the \"linea Roma-Ancona\", which separates the centre from the South. North of the first line, consonants between vowels voice and weaken (\"fradel\", \"formiga\"), final vowels fall (\"pan\", \"vin\"), and front rounded vowels appear in many areas (\"lüna\" in Lombardy and Piedmont).",
+          "The standard classification divides Italy into large groups. In the North, the \"dialetti settentrionali\": the Gallo-Italic group (Piedmontese, Lombard, Ligurian, Emilian-Romagnol), named for the Celtic substrate, and the Venetian group. In the center, the Tuscan dialects and the \"dialetti mediani\" (Lazio, Umbria, central Marche). In the South, the \"dialetti meridionali\" (Campania, Abruzzo, Molise, northern Puglia, Basilicata, northern Calabria) and the \"meridionali estremi\" (Salento, southern Calabria, Sicily). Sardinian, Friulian and Ladin stand apart.",
+          "Two famous boundaries: the \"linea La Spezia-Rimini\" (or Massa-Senigallia), which separates the North from the Center-South, and the \"linea Roma-Ancona\", which separates the center from the South. North of the first line, consonants between vowels voice and weaken (\"fradel\", \"formiga\"), final vowels fall (\"pan\", \"vin\"), and front rounded vowels appear in many areas (\"lüna\" in Lombardy and Piedmont).",
         ],
         examples: [
           { es: "Il piemontese appartiene al gruppo gallo-italico.", en: "Piedmontese belongs to the Gallo-Italic group." },
-          { es: "La linea La Spezia-Rimini separa il Nord dal Centro-Sud.", en: "The La Spezia-Rimini line separates the North from the Centre-South." },
+          { es: "La linea La Spezia-Rimini separa il Nord dal Centro-Sud.", en: "The La Spezia-Rimini line separates the North from the Center-South." },
           { es: "Il siciliano fa parte dei dialetti meridionali estremi.", en: "Sicilian is one of the far-southern dialects." },
           { es: "Al Nord le vocali finali spesso cadono.", en: "In the North final vowels often drop." },
           { es: "Il sardo è una lingua a sé.", en: "Sardinian is a language of its own." },
@@ -76,10 +76,10 @@ export const IT_C2_U05: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "People switch to dialect to joke.", answer: "Si passa al dialetto per scherzare.", altAnswers: ["Si passa al dialetto quando si scherza.", "La gente passa al dialetto per scherzare."], explanation: "Impersonal \"si passa\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Sicilian is one of the far-southern dialects.", answer: "Il siciliano fa parte dei dialetti meridionali estremi.", altAnswers: ["Il siciliano è uno dei dialetti meridionali estremi.", "Il siciliano appartiene ai dialetti meridionali estremi."], explanation: "\"Meridionali estremi\" = far southern." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Dialects [are not] wrong Italian.", sentence: "I dialetti ___ un italiano sbagliato.", answer: "non sono", explanation: "The lesson's key point." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The line [separates] the North from the Centre-South.", sentence: "La linea ___ il Nord dal Centro-Sud.", answer: "separa", altAnswers: ["divide"], explanation: "\"Separare A da B\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The line [separates] the North from the Center-South.", sentence: "La linea ___ il Nord dal Centro-Sud.", answer: "separa", altAnswers: ["divide"], explanation: "\"Separare A da B\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "About a third of Italians [alternate] Italian and dialect.", sentence: "Circa un terzo degli italiani ___ italiano e dialetto.", answer: "alterna", altAnswers: ["alternano", "mescola", "mescolano"], explanation: "\"Un terzo\" takes a singular or plural verb." },
       { type: "word-order", prompt: "Put the words in order to say: Regional Italian is Italian with local features.", words: ["L'italiano", "regionale", "è", "italiano", "con", "tratti locali."], translation: "Regional Italian is Italian with local features.", explanation: "\"Tratti\" = features." },
-      { type: "matching", instructions: "Match the term to its meaning.", pairs: [{ left: "il dialetto", right: "an Italo-Romance variety with its own grammar" }, { left: "l'italiano regionale", right: "standard Italian with local features" }, { left: "la lingua minoritaria", right: "a language recognised by law" }, { left: "la commutazione di codice", right: "switching between varieties" }], explanation: "Keep the three levels distinct." },
+      { type: "matching", instructions: "Match the term to its meaning.", pairs: [{ left: "il dialetto", right: "an Italo-Romance variety with its own grammar" }, { left: "l'italiano regionale", right: "standard Italian with local features" }, { left: "la lingua minoritaria", right: "a language recognized by law" }, { left: "la commutazione di codice", right: "switching between varieties" }], explanation: "Keep the three levels distinct." },
       { type: "dictation", audio: "I dialetti italiani derivano dal latino, come l'italiano.", explanation: "\"Derivano\": de-RI-va-no." },
       { type: "speak", text: "I dialetti non sono un italiano sbagliato: sono lingue sorelle dell'italiano, nate dal latino.", prompt: "Explain in Italian: Dialects are not wrong Italian: they are sister languages of Italian, born from Latin.", tip: "\"Sbagliato\": the gli as in \"famiglia\".", explanation: "The key idea of the unit." },
     ],
@@ -89,14 +89,14 @@ export const IT_C2_U05: Lesson[] = [
     level: "IT-C2",
     number: 2,
     title: "Neapolitan",
-    summary: "Recognise Neapolitan through its articles, its blurred final vowels and its everyday words, and gloss it into standard Italian.",
+    summary: "Recognize Neapolitan through its articles, its blurred final vowels and its everyday words, and gloss it into standard Italian.",
     duration: "19 min",
     sections: [
       {
         heading: "Sounds and articles",
         body: [
-          "Neapolitan is the most prestigious southern dialect, with a literature, a theatre and a song tradition going back centuries. Its most audible feature is the final vowel: unstressed final vowels are reduced to a neutral sound, a schwa, so \"casa\" and \"case\" sound almost alike. Writers spell the vowel anyway (\"guaglione\", \"pizza\"), but you will hear something like \"guagliò-nə\".",
-          "Articles are short and apostrophised: \"'o\" (il, lo), \"'a\" (la), \"'e\" (i, le). After the plural \"'e\" the next consonant doubles: \"'e ccase\" (le case), which distinguishes it from \"'a casa\". Pronouns: \"chisto\" / \"chesta\" (questo, questa), \"chillo\" / \"chella\" (quello, quella), \"isso\" / \"essa\" (lui, lei).",
+          "Neapolitan is the most prestigious southern dialect, with a literature, a theater and a song tradition going back centuries. Its most audible feature is the final vowel: unstressed final vowels are reduced to a neutral sound, a schwa, so \"casa\" and \"case\" sound almost alike. Writers spell the vowel anyway (\"guaglione\", \"pizza\"), but you will hear something like \"guagliò-nə\".",
+          "Articles are short and apostrophized: \"'o\" (il, lo), \"'a\" (la), \"'e\" (i, le). After the plural \"'e\" the next consonant doubles: \"'e ccase\" (le case), which distinguishes it from \"'a casa\". Pronouns: \"chisto\" / \"chesta\" (questo, questa), \"chillo\" / \"chella\" (quello, quella), \"isso\" / \"essa\" (lui, lei).",
           "Many words differ from Italian: \"guaglione\" (ragazzo), \"piccerillo\" (bambino), \"scugnizzo\" (street kid), \"mo'\" (ora), \"ccà\" (qua), \"addò\" (dove), \"pecché\" (perché), \"nun\" (non), \"jamme\" (andiamo).",
         ],
         examples: [
@@ -116,6 +116,7 @@ export const IT_C2_U05: Lesson[] = [
         body: [
           "Two verbs work differently. \"Tenere\" means to have, possess: \"Tengo famme\" (ho fame), \"Tene tre figlie\" (ha tre figli). \"Stare\" covers much of \"essere\": \"Sto stanco\" (sono stanco), \"Addò staje?\" (dove sei?). Neapolitans carry these into their regional Italian: \"Tengo fame\", \"Sto a casa\", which you will hear on any Naples street. In standard Italian write \"ho fame\", \"sono a casa\".",
           "Neapolitan also places the possessive after the noun and attaches it to family words: \"mammema\" (mia madre), \"pateto\" (tuo padre). And it uses \"a\" before a direct object that is a person: \"Aggio visto a Maria\" (ho visto Maria), a feature shared with other southern dialects and, outside Italy, with Spanish.",
+          "A few high-frequency verb forms are worth recognizing: \"aggio\" (ho), \"saccio\" (so), \"pozzo\" (posso), \"vaco\" (vado), and for \"essere\" \"songo\" (sono), \"simmo\" (siamo), \"site\" (siete). \"C'è\" becomes \"ce sta\" (\"Ce sta 'o sole\"). The indefinite articles are \"nu\" and \"na\", and \"di\" often shrinks to \"'e\": \"na tazzulella 'e cafè\" (una tazzina di caffè), with the affectionate diminutive Neapolitan loves. Spelling varies from writer to writer, so read for the sound rather than for one correct form.",
         ],
         examples: [
           { es: "Tengo famme.", en: "I'm hungry. (Italian: Ho fame.)" },
@@ -167,13 +168,13 @@ export const IT_C2_U05: Lesson[] = [
     level: "IT-C2",
     number: 3,
     title: "Sicilian",
-    summary: "Recognise Sicilian through its vowels, its dd sound, its use of the past and its everyday words, and gloss it into standard Italian.",
+    summary: "Recognize Sicilian through its vowels, its dd sound, its use of the past and its everyday words, and gloss it into standard Italian.",
     duration: "19 min",
     sections: [
       {
         heading: "Five vowels and a dd",
         body: [
-          "Sicilian has a simple vowel system: in unstressed position it uses only \"a\", \"i\" and \"u\", so Italian final -e and -o become -i and -u: \"cori\" (cuore), \"beddu\" (bello), \"focu\" (fuoco), \"latti\" (latte). The most famous sound is the \"dd\" from Latin -ll-: \"beddu\", \"cavaddu\" (cavallo), \"iddu\" (lui, from Latin \"illum\"), \"idda\" (lei). It is pronounced with the tongue curled back, a retroflex sound you will recognise at once.",
+          "Sicilian has a simple vowel system: in unstressed position it uses only \"a\", \"i\" and \"u\", so Italian final -e and -o become -i and -u: \"cori\" (cuore), \"beddu\" (bello), \"focu\" (fuoco), \"latti\" (latte). The most famous sound is the \"dd\" from Latin -ll-: \"beddu\", \"cavaddu\" (cavallo), \"iddu\" (lui, from Latin \"illum\"), \"idda\" (lei). It is pronounced with the tongue curled back, a retroflex sound you will recognize at once.",
           "Articles: \"u\" (il, lo), \"a\" (la), \"i\" (i, le): \"u cani\" (il cane), \"a casa\", \"i picciriddi\" (i bambini). Other high-frequency words: \"unni\" (dove), \"chi\" (che cosa), \"cu\" (chi), \"accussì\" (così), \"nenti\" (niente), \"cchiù\" (più), \"amunì\" (andiamo), \"talìa\" (guarda).",
         ],
         examples: [
@@ -194,6 +195,7 @@ export const IT_C2_U05: Lesson[] = [
         body: [
           "Sicilian prefers the simple past (the equivalent of the passato remoto) for recent events: \"Vinni ajeri\" (sono venuto ieri), \"Chi facisti stamatina?\" (cosa hai fatto stamattina?). Sicilians carry this into their regional Italian, saying \"Venni ieri\" and \"Che facesti stamattina?\" where a Milanese would use the passato prossimo. Sicilian has no real future tense: it uses the present (\"Dumani partu\", domani parto).",
           "Word order often puts the verb last for emphasis: \"Turi sugnu\" (Turi I am, i.e. I'm Turi), \"Bedda è!\" (bella è, she's beautiful). In regional Italian you will hear \"Salvatore sono\" and \"Stanco sono\": the stressed element first. \"Sugnu\" is \"sono\" (I am).",
+          "The present of \"essere\" runs \"sugnu, si', è, semu, siti, sunnu\". Obligation and much of the future are expressed with \"aviri a\" + infinitive: \"Haiu a partiri\" (devo partire, or partirò), \"Chi hai a fari?\" (che devi fare?). Note also \"ci\" for Italian \"gli\" and \"le\" (\"Ci dissi\": gli dissi, gli ho detto), a habit that spills into southern regional Italian. As with all dialects, spellings differ between writers and towns (\"haiu\", \"aju\"), and the forms above are a common, simplified standard.",
         ],
         examples: [
           { es: "Vinni ajeri.", en: "I came yesterday. (Italian: Sono venuto ieri.)" },
@@ -210,8 +212,8 @@ export const IT_C2_U05: Lesson[] = [
       {
         heading: "Love, work and identity",
         body: [
-          "Some Sicilian words are known all over Italy: \"Ti vogghiu beni\" (ti voglio bene), \"picciotto\" (young man, and in crime reporting a low-level mafioso), \"travagghiu\" (lavoro), \"minchia\" (vulgar, extremely common, to recognise only). Sicilian also absorbed words from its many rulers: from Arabic \"zibbibbu\" (a grape), \"cassata\", \"giuggiulena\" (sesame); from French and Spanish various words of the kitchen and the court.",
-          "Sicilian has a great poetic history: the first Italian lyric poetry was written at Frederick II's Sicilian court in the 1200s, in a refined Sicilian later Tuscanised by copyists. In modern literature, writers use Sicilian words and syntax inside Italian to give their narrative a strong local voice, and readers across Italy have learned to enjoy it.",
+          "Some Sicilian words are known all over Italy: \"Ti vogghiu beni\" (ti voglio bene), \"picciotto\" (young man, and in crime reporting a low-level mafioso), \"travagghiu\" (lavoro), \"minchia\" (vulgar: literally the male organ, used constantly as an exclamation of surprise or anger; recognize it, never use it with people you don't know well). Sicilian also absorbed words from its many rulers: from Arabic \"zibbibbu\" (a grape) and \"giuggiulena\" (sesame), and probably \"cassata\" (its origin is debated); from French and Spanish various words of the kitchen and the court.",
+          "Sicilian has a great poetic history: the first Italian lyric poetry was written at Frederick II's Sicilian court in the 1200s, in a refined Sicilian later Tuscanized by copyists. In modern literature, writers use Sicilian words and syntax inside Italian to give their narrative a strong local voice, and readers across Italy have learned to enjoy it.",
         ],
         examples: [
           { es: "Ti vogghiu beni.", en: "I love you. (Italian: Ti voglio bene.)" },
@@ -244,7 +246,7 @@ export const IT_C2_U05: Lesson[] = [
     level: "IT-C2",
     number: 4,
     title: "Venetian and the North",
-    summary: "Recognise Venetian, with its xe and subject clitics, and the Gallo-Italic dialects of Milan, Turin and Genoa.",
+    summary: "Recognize Venetian, with its xe and subject clitics, and the Gallo-Italic dialects of Milan, Turin and Genoa.",
     duration: "19 min",
     sections: [
       {
@@ -289,11 +291,11 @@ export const IT_C2_U05: Lesson[] = [
       {
         heading: "Northern regional Italian",
         body: [
-          "Most northerners today speak regional Italian rather than dialect, but their Italian carries clear traces. Pronunciation: open and closed e and o distributed differently from Tuscan (\"perché\" with an open e in Milan), single consonants for doubles in Veneto, a voiced s between vowels everywhere (\"cosa\" with a z sound). Vocabulary: \"anguria\" for watermelon (central \"cocomero\"), \"tosa\" and \"tosat\" in Veneto for girl and boy, \"pirla\" in Milan for idiot (mildly rude).",
+          "Most northerners today speak regional Italian rather than dialect, but their Italian carries clear traces. Pronunciation: open and closed e and o distributed differently from Tuscan (\"perché\" with an open e in Milan), single consonants for doubles in Veneto, a voiced s between vowels everywhere (\"cosa\" with a z sound). Vocabulary: \"anguria\" for watermelon (central \"cocomero\"), \"tosa\" and \"toso\" in Veneto for girl and boy, \"pirla\" in Milan for idiot (mildly rude).",
           "Grammar: the article with names, \"mica\" as a strong negative (\"non è mica facile\"), and the passato prossimo even for distant events (\"Mio nonno è nato nel 1920\"). All of these are normal in speech and none would be marked wrong in an informal message, except the article with names, which is avoided in writing.",
         ],
         examples: [
-          { es: "Al Nord si dice «anguria», al Centro «cocomero».", en: "In the North they say 'anguria', in the Centre 'cocomero' (watermelon)." },
+          { es: "Al Nord si dice «anguria», al Centro «cocomero».", en: "In the North they say 'anguria', in the Center 'cocomero' (watermelon)." },
           { es: "Non è mica facile!", en: "It's not easy at all!" },
           { es: "Mio nonno è nato nel 1920.", en: "My grandfather was born in 1920." },
           { es: "In Veneto le doppie spesso diventano scempie.", en: "In Veneto double consonants often become single." },
@@ -323,13 +325,13 @@ export const IT_C2_U05: Lesson[] = [
     level: "IT-C2",
     number: 5,
     title: "Sardinian, Friulian, Ladin",
-    summary: "Recognise Italy's officially protected minority languages, Sardinian, Friulian and Ladin, and what makes each distinct.",
+    summary: "Recognize Italy's officially protected minority languages, Sardinian, Friulian and Ladin, and what makes each distinct.",
     duration: "19 min",
     sections: [
       {
         heading: "Protected languages",
         body: [
-          "Law 482 of 1999 recognises twelve \"minoranze linguistiche storiche\" in Italy: Albanian, Catalan, German, Greek, Slovene, Croatian, French, Franco-Provençal, Friulian, Ladin, Occitan and Sardinian. Three of them, Sardinian, Friulian and Ladin, are Romance languages that developed in Italy itself but are distinct enough from the Italo-Romance dialects to count as separate languages. The law allows their use in schools, local administration and media.",
+          "Law 482 of 1999 recognizes twelve \"minoranze linguistiche storiche\" in Italy: Albanian, Catalan, German, Greek, Slovene, Croatian, French, Franco-Provençal, Friulian, Ladin, Occitan and Sardinian. Three of them, Sardinian, Friulian and Ladin, are Romance languages that developed in Italy itself but are distinct enough from the Italo-Romance dialects to count as separate languages. The law allows their use in schools, local administration and media.",
           "Note the difference from dialects: Neapolitan or Venetian are not protected by this law, though some regions promote them. Grammar point for writing: \"la legge 482 del 1999\", with \"del\" for the year, and \"tutela\" (protection) as the key legal word: \"la tutela delle minoranze linguistiche\".",
         ],
         examples: [
@@ -347,7 +349,7 @@ export const IT_C2_U05: Lesson[] = [
         heading: "Sardinian",
         body: [
           "Sardinian is often called the Romance language closest to Latin in its sounds. It keeps Latin's hard c and g before e and i: \"kentu\" (cento, Latin centum), \"chelu\" in some areas or \"kelu\" (cielo), and its word for house is \"domo\", from Latin \"domus\". Plurals end in -s, as in Latin accusatives: \"sas domos\" (le case). Articles come from Latin \"ipse\": \"su\" (il), \"sa\" (la), \"sos\" / \"sas\" (i, le).",
-          "There are two main varieties, Logudorese in the north-centre and Campidanese in the south, plus Gallurese and Sassarese in the north, which are closer to Corsican. A phrase every visitor hears at a toast: \"A kent'annos!\" (to a hundred years!). Sardinian is spoken by around a million people, more in the countryside than in the cities.",
+          "There are two main varieties, Logudorese in the north-center and Campidanese in the south, plus Gallurese and Sassarese in the north, which are closer to Corsican. A phrase every visitor hears at a toast: \"A kent'annos!\" (to a hundred years!). Sardinian is spoken by around a million people, more in the countryside than in the cities.",
         ],
         examples: [
           { es: "A kent'annos!", en: "To a hundred years! (a toast; Italian: Cent'anni!)" },
@@ -357,15 +359,15 @@ export const IT_C2_U05: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Sardinian keeps the hard c of Latin.", answer: "Il sardo conserva la c dura del latino.", altAnswers: ["Il sardo mantiene la c dura del latino.", "Il sardo conserva la c dura latina."], explanation: "\"Conservare\" for a preserved feature." },
-          { type: "listen-choose", audio: "A kent'annos!", question: "When would you hear this?", options: ["at a toast", "at a funeral", "when leaving", "when apologising"], correctIndex: 0, explanation: "A toast: 'to a hundred years', like Italian \"Cent'anni!\"." },
+          { type: "listen-choose", audio: "A kent'annos!", question: "When would you hear this?", options: ["at a toast", "at a funeral", "when leaving", "when apologizing"], correctIndex: 0, explanation: "A toast: 'to a hundred years', like Italian \"Cent'anni!\"." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "'Sas domos' means [the houses].", sentence: "«Sas domos» significa «___».", answer: "le case", explanation: "Plural in -s; article from Latin \"ipsas\"." },
         ],
       },
       {
         heading: "Friulian and Ladin",
         body: [
-          "Friulian (\"furlan\"), spoken by around half a million people in Friuli, belongs with Ladin and Swiss Romansh to the Rhaeto-Romance group. It turns Latin ca- into \"cj\" (a sound between c and ch): \"cjase\" (casa), \"cjan\" (cane). Plurals end in -s: \"lis cjasis\" (le case). Greetings are known across the North-East: \"Mandi!\" (bye), \"Bundì\" (good morning). The Friulian writer and filmmaker Pier Paolo Pasolini published his first poems in Friulian.",
-          "Ladin is spoken by about thirty thousand people in five Dolomite valleys around the Sella massif, across three provinces: Val Gardena, Val Badia, Val di Fassa, Livinallongo and Cortina d'Ampezzo. Schools in some valleys teach in Ladin, Italian and German. Like Friulian, it palatalises ca- (\"ciasa\" for casa) and forms plurals in -s. Ladin speakers are a minority within a minority, between Italian and German.",
+          "Friulian (\"furlan\"), spoken by around half a million people in Friuli, is traditionally grouped with Ladin and Swiss Romansh as \"Rhaeto-Romance\" (\"retoromanzo\"), though linguists still debate how close the three really are. It turns Latin ca- into \"cj\" (a sound between c and ch): \"cjase\" (casa), \"cjan\" (cane). Plurals end in -s: \"lis cjasis\" (le case). Greetings are known across the North-East: \"Mandi!\" (bye), \"Bundì\" (good morning). Pier Paolo Pasolini, born in Bologna to a Friulian mother, published his first poems in Friulian (\"Poesie a Casarsa\", 1942).",
+          "Ladin is spoken by about thirty thousand people in five Dolomite valleys around the Sella massif, across three provinces: Val Gardena, Val Badia, Val di Fassa, Livinallongo and Cortina d'Ampezzo. Schools in some valleys teach in Ladin, Italian and German. Like Friulian, it palatalizes ca- (\"ciasa\" in Ampezzo, \"cësa\" in Val Badia and Val Gardena, for casa) and forms plurals in -s. Ladin speakers are a minority within a minority, between Italian and German.",
         ],
         examples: [
           { es: "Mandi!", en: "Bye! (Friulian; Italian: Ciao!)" },
@@ -442,8 +444,8 @@ export const IT_C2_U05: Lesson[] = [
     slug: "c2-dialect-in-literature",
     level: "IT-C2",
     number: 7,
-    title: "Dialect in Literature and Theatre",
-    summary: "Meet the great dialect writers, from Porta and Belli to Di Giacomo, and see how theatre and the modern novel use dialect.",
+    title: "Dialect in Literature and Theater",
+    summary: "Meet the great dialect writers, from Porta and Belli to Di Giacomo, and see how theater and the modern novel use dialect.",
     duration: "19 min",
     sections: [
       {
@@ -469,9 +471,9 @@ export const IT_C2_U05: Lesson[] = [
       {
         heading: "Dialect on stage",
         body: [
-          "Theatre is where dialect has always felt most at home. In the \"commedia dell'arte\" (sixteenth to eighteenth century) each mask spoke its own variety: Pantalone spoke Venetian, Arlecchino a rough Bergamasque, Pulcinella Neapolitan, while the young lovers spoke Tuscan. Language itself marked who was old, rich, foolish or noble.",
-          "Carlo Goldoni (1707-1793) reformed this theatre, replacing masks with real characters, and wrote many of his comedies in Venetian, among them \"Le baruffe chiozzotte\", about the quarrels of fishermen's wives in Chioggia. His Venetian is light and quick; his Italian, by his own admission, was less natural to him.",
-          "In the twentieth century Eduardo De Filippo made Neapolitan theatre famous across the world, with plays such as \"Filumena Marturano\" and \"Natale in casa Cupiello\". His characters move between Neapolitan and Italian, and the shift tells the audience when a character becomes formal, angry or tender.",
+          "Theater is where dialect has always felt most at home. In the \"commedia dell'arte\" (sixteenth to eighteenth century) each mask spoke its own variety: Pantalone spoke Venetian, Arlecchino a rough Bergamasque, Pulcinella Neapolitan, while the young lovers spoke Tuscan. Language itself marked who was old, rich, foolish or noble.",
+          "Carlo Goldoni (1707-1793) reformed this theater, replacing masks with real characters, and wrote many of his comedies in Venetian, among them \"Le baruffe chiozzotte\", about the quarrels of fishermen's wives in Chioggia. His Venetian is light and quick; his Italian, by his own admission, was less natural to him.",
+          "In the twentieth century Eduardo De Filippo made Neapolitan theater famous across the world, with plays such as \"Filumena Marturano\" and \"Natale in casa Cupiello\". His characters move between Neapolitan and Italian, and the shift tells the audience when a character becomes formal, angry or tender.",
         ],
         examples: [
           { es: "Ogni maschera parlava il proprio dialetto.", en: "Each mask spoke its own dialect." },
@@ -511,7 +513,7 @@ export const IT_C2_U05: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Belli wrote [more than] two thousand sonnets.", sentence: "Belli scrisse ___ duemila sonetti.", answer: "più di", altAnswers: ["oltre"], explanation: "\"Più di\" before numbers, not \"più che\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "In Roman dialect 'il' [becomes] 'er'.", sentence: "In romanesco «il» ___ «er».", answer: "diventa", explanation: "\"Diventare\" = to become." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Pasolini wrote his [first poems] in Friulian.", sentence: "Pasolini scrisse ___ in friulano.", answer: "le prime poesie", explanation: "\"Poesia\" = a poem as well as poetry." },
-      { type: "word-order", prompt: "Put the words in order to say: Theatre has always welcomed dialect.", words: ["Il", "teatro", "ha", "sempre", "accolto", "il", "dialetto."], translation: "Theatre has always welcomed dialect.", explanation: "\"Sempre\" between auxiliary and participle." },
+      { type: "word-order", prompt: "Put the words in order to say: Theater has always welcomed dialect.", words: ["Il", "teatro", "ha", "sempre", "accolto", "il", "dialetto."], translation: "Theater has always welcomed dialect.", explanation: "\"Sempre\" between auxiliary and participle." },
       { type: "matching", instructions: "Match each author to his language.", pairs: [{ left: "Carlo Porta", right: "Milanese" }, { left: "Giuseppe Gioachino Belli", right: "Roman" }, { left: "Carlo Goldoni", right: "Venetian" }, { left: "Salvatore Di Giacomo", right: "Neapolitan" }], explanation: "Four classics of dialect literature." },
       { type: "listen-choose", audio: "Goldoni sostituì le maschere con personaggi veri.", question: "What did Goldoni do?", options: ["He replaced masks with real characters.", "He invented new masks.", "He banned dialect from the stage.", "He wrote only in Tuscan."], correctIndex: 0, explanation: "Goldoni's reform of comedy." },
       { type: "dictation", audio: "Ogni maschera parlava il proprio dialetto.", explanation: "\"Maschera\": stress on the first syllable, MA-sche-ra." },
@@ -594,18 +596,18 @@ export const IT_C2_U05: Lesson[] = [
         heading: "The structure of a report",
         body: [
           "Your mission: write a short report on one Italian dialect for a cultural magazine or a university seminar. A good report follows a fixed order. 1. \"Inquadramento\": where the dialect is spoken and to which group it belongs. 2. \"Tratti fonetici\": two or three sound features. 3. \"Tratti morfosintattici\": a grammatical feature or two. 4. \"Lessico\": some typical words. 5. \"Vitalità\": who speaks it today, and where. 6. \"Letteratura e cultura\": one author, a genre, a song tradition.",
-          "Use the descriptive register: present tense, impersonal \"si\", precise verbs. \"Il napoletano è parlato in gran parte della Campania.\" \"Appartiene al gruppo dei dialetti meridionali.\" \"Si caratterizza per l'indebolimento delle vocali finali.\" \"Tra i tratti più evidenti si segnala ...\" Avoid judgements such as \"è un dialetto bellissimo\": a report describes.",
+          "Use the descriptive register: present tense, impersonal \"si\", precise verbs. \"Il napoletano è parlato in gran parte della Campania.\" \"Appartiene al gruppo dei dialetti meridionali.\" \"Si caratterizza per l'indebolimento delle vocali finali.\" \"Tra i tratti più evidenti si segnala ...\" Avoid judgments such as \"è un dialetto bellissimo\": a report describes.",
         ],
         examples: [
           { es: "Il napoletano è parlato in gran parte della Campania.", en: "Neapolitan is spoken in most of Campania." },
           { es: "Appartiene al gruppo dei dialetti meridionali.", en: "It belongs to the group of southern dialects." },
-          { es: "Si caratterizza per l'indebolimento delle vocali finali.", en: "It is characterised by the weakening of final vowels." },
+          { es: "Si caratterizza per l'indebolimento delle vocali finali.", en: "It is characterized by the weakening of final vowels." },
           { es: "Tra i tratti più evidenti si segnala l'uso di «tenere» per «avere».", en: "Among the most evident features is the use of 'tenere' for 'avere'." },
           { es: "Una relazione descrive, non giudica.", en: "A report describes; it doesn't judge." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It belongs to the group of southern dialects.", answer: "Appartiene al gruppo dei dialetti meridionali.", altAnswers: ["Fa parte del gruppo dei dialetti meridionali.", "Rientra nel gruppo dei dialetti meridionali."], explanation: "\"Appartenere a\", \"far parte di\", \"rientrare in\"." },
-          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Venetian [is characterised by] the loss of final vowels.", sentence: "Il veneziano ___ la caduta delle vocali finali.", answer: "si caratterizza per", altAnswers: ["è caratterizzato da", "si distingue per"], explanation: "Two constructions: \"si caratterizza per\" or \"è caratterizzato da\"." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Venetian [is characterized by] the loss of final vowels.", sentence: "Il veneziano ___ la caduta delle vocali finali.", answer: "si caratterizza per", altAnswers: ["è caratterizzato da", "si distingue per"], explanation: "Two constructions: \"si caratterizza per\" or \"è caratterizzato da\"." },
           { type: "multiple-choice", question: "Which sentence suits a descriptive report?", options: ["Il dialetto è parlato soprattutto dalle persone anziane.", "È il dialetto più bello d'Italia.", "Secondo me è un dialetto simpaticissimo.", "Tutti dovrebbero impararlo subito."], correctIndex: 0, explanation: "A report describes facts, not tastes." },
         ],
       },
@@ -613,7 +615,7 @@ export const IT_C2_U05: Lesson[] = [
         heading: "Vitality and sources",
         body: [
           "The section on vitality needs measured language and, if possible, data: \"Secondo i dati ISTAT, ...\", \"Il dialetto è ancora vitale nelle aree rurali\", \"L'uso tende a ridursi tra i giovani\", \"Resiste soprattutto in famiglia\". Note the hedged verbs \"tende a\", \"sembra\", \"risulta\": you are reporting, not predicting.",
-          "Close with sources and a concluding sentence: \"In conclusione, il dialetto X rimane una componente essenziale dell'identità locale.\" Cite works in the Italian manner: author, title in italics, place and year. If you quote dialect, gloss it into standard Italian in brackets or after an arrow, as this unit has done: \"«Unni sì?» (Dove sei?)\".",
+          "Close with sources and a concluding sentence: \"In conclusione, il dialetto X rimane una componente essenziale dell'identità locale.\" Cite works in the Italian manner: author, title in italics, place and year. If you quote dialect, gloss it into standard Italian in parentheses or after an arrow, as this unit has done: \"«Unni sì?» (Dove sei?)\".",
         ],
         examples: [
           { es: "Il dialetto è ancora vitale nelle aree rurali.", en: "The dialect is still alive in rural areas." },
@@ -647,13 +649,13 @@ export const IT_C2_U05: Lesson[] = [
     level: "IT-C2",
     number: 10,
     title: "Reading Lab: Should Dialects Be Taught?",
-    summary: "Read two opposing newspaper opinion pieces on teaching dialect at school, and analyse their arguments.",
+    summary: "Read two opposing newspaper opinion pieces on teaching dialect at school, and analyze their arguments.",
     duration: "19 min",
     sections: [
       {
-        heading: "In favour",
+        heading: "In favor",
         body: [
-          "The texts in this lab are two opinion pieces written for this course, in the style of an Italian daily's \"botta e risposta\" (point and counterpoint). The first author, an invented primary teacher, argues in favour: \"Per decenni la scuola ha insegnato ai bambini a vergognarsi del dialetto dei nonni. Oggi sappiamo che crescere con due codici non confonde la mente, anzi la allena. Un'ora alla settimana di dialetto non toglierebbe nulla all'italiano: restituirebbe ai ragazzi una parte della loro storia.\"",
+          "The texts in this lab are two opinion pieces written for this course, in the style of an Italian daily's \"botta e risposta\" (point and counterpoint). The first author, an invented primary teacher, argues in favor: \"Per decenni la scuola ha insegnato ai bambini a vergognarsi del dialetto dei nonni. Oggi sappiamo che crescere con due codici non confonde la mente, anzi la allena. Un'ora alla settimana di dialetto non toglierebbe nulla all'italiano: restituirebbe ai ragazzi una parte della loro storia.\"",
           "Note the persuasive moves: a historical accusation (\"per decenni la scuola ha insegnato a vergognarsi\"), a scientific claim (\"oggi sappiamo che\"), a correction with \"anzi\" (on the contrary, indeed), and the conditional for a proposal that is not yet reality (\"non toglierebbe\", \"restituirebbe\").",
         ],
         examples: [
@@ -715,7 +717,7 @@ export const IT_C2_U05_WRITING: WriteExercise = {
     "Follows a clear structure: inquadramento, features, vocabulary, vitality, culture",
     "Describes at least three linguistic features accurately and glosses dialect forms into standard Italian",
     "Uses the descriptive register: present tense, impersonal si, passive, verbs such as caratterizzarsi, appartenere, segnalarsi",
-    "Assesses vitality with hedged, measured language (tende a, risulta, sembra) rather than personal judgements",
+    "Assesses vitality with hedged, measured language (tende a, risulta, sembra) rather than personal judgments",
     "Mentions at least one author, work or cultural tradition and closes with a concluding sentence",
   ],
   modelAnswer: "Il napoletano è parlato a Napoli e in gran parte della Campania, con varietà locali anche molto diverse tra loro. Appartiene al gruppo dei dialetti meridionali, che comprende anche le parlate di Abruzzo, Molise, Basilicata e della Puglia settentrionale.\n\nSul piano fonetico, il tratto più evidente è l'indebolimento delle vocali finali, che si riducono a un suono indistinto: «casa» e «case» suonano quasi uguali. Si segnalano inoltre il passaggio di «pl» a «chi» («chiove», piove) e la pronuncia palatale di «s» davanti a consonante: «festa» e «pasta» suonano quasi «fescta» e «pascta». Sul piano morfosintattico, il napoletano usa «tenere» per esprimere il possesso («tengo famme», ho fame) e «stare» per «essere» in molti contesti («sto a casa», sono a casa); gli articoli si riducono a «'o», «'a» e «'e».\n\nIl lessico comprende parole caratteristiche come «guaglione» (ragazzo), «accattare» (comprare) e «ammuina» (confusione), oltre a prestiti dal francese come «buatta» (barattolo).\n\nQuanto alla vitalità, il napoletano risulta uno dei dialetti più vivi d'Italia: lo si sente per strada, nei mercati e sui social, e non soltanto tra gli anziani. Tende tuttavia a essere usato in famiglia e tra amici, mentre a scuola e negli uffici prevale l'italiano, spesso con una forte coloritura regionale.\n\nIl napoletano vanta infine una grande tradizione letteraria e musicale. Dalla poesia di Salvatore Di Giacomo al teatro di Eduardo De Filippo, fino alla canzone classica conosciuta in tutto il mondo, è stato uno strumento d'arte prima ancora che di comunicazione quotidiana.\n\nIn conclusione, il napoletano rimane una componente essenziale dell'identità campana e uno dei pochi dialetti italiani capaci di farsi capire, almeno in parte, ben oltre i confini della propria regione.",

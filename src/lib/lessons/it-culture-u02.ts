@@ -19,7 +19,7 @@ export const IT_CULTURE_U02: Lesson[] = [
         heading: "Cappuccino e cornetto",
         body: [
           "The Italian \"bar\" is a café, not a pub: it opens early, serves coffee all day and alcohol too, and many Italians start the day there. Breakfast is small and sweet: \"un cappuccino e un cornetto\", a croissant-like pastry that is plain, filled with jam (\"alla marmellata\"), cream (\"alla crema\") or chocolate. In Milan and much of the North the same pastry is \"una brioche\".",
-          "Nobody eats eggs, bacon or anything salty at breakfast. At home, breakfast is often just coffee from the moka with biscuits or bread and jam. The whole thing takes five minutes.",
+          "Breakfast is rarely salty: eggs and bacon are hotel food (Ligurian focaccia is a famous local exception). At home, breakfast is often just coffee from the moka with biscuits or bread and jam. The whole thing takes five minutes.",
         ],
         examples: [
           { es: "Un cappuccino e un cornetto, per favore.", en: "A cappuccino and a croissant, please." },
@@ -56,7 +56,7 @@ export const IT_CULTURE_U02: Lesson[] = [
         heading: "Small words, good manners",
         body: [
           "Greet when you walk in, \"Buongiorno!\", and say what you want simply: \"Un caffè, per favore\" or \"Mi fa un cappuccino?\". Bar staff are called by no title; you just catch their eye. Among friends, someone usually pays for everyone: \"Offro io\".",
-          "\"Un caffè\" always means an espresso. A glass of tap water, \"un bicchiere d'acqua\", is free for the asking and in the South often comes automatically with your coffee.",
+          "\"Un caffè\" always means an espresso. A glass of tap water, \"un bicchiere d'acqua\", is usually free if you ask, and in Naples and other parts of the South it often comes automatically with your coffee.",
         ],
         examples: [
           { es: "Buongiorno! Mi fa un cappuccino?", en: "Good morning! Could I have a cappuccino?" },
@@ -71,7 +71,7 @@ export const IT_CULTURE_U02: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "A cappuccino and a croissant, please.", answer: "Un cappuccino e un cornetto, per favore.", altAnswers: ["Un cappuccino e una brioche, per favore.", "Un cappuccino e un cornetto, grazie."], explanation: "\"Cornetto\" in the Centre and South, \"brioche\" in the North." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "A cappuccino and a croissant, please.", answer: "Un cappuccino e un cornetto, per favore.", altAnswers: ["Un cappuccino e una brioche, per favore.", "Un cappuccino e un cornetto, grazie."], explanation: "\"Cornetto\" in the Center and South, \"brioche\" in the North." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Do you have a chocolate croissant?", answer: "Avete un cornetto al cioccolato?", altAnswers: ["Ce l'avete un cornetto al cioccolato?", "C'è un cornetto al cioccolato?", "Avete una brioche al cioccolato?"], explanation: "Filling with \"a\" + article: \"al cioccolato\", \"alla crema\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll have it at the counter.", answer: "Lo prendo al banco.", altAnswers: ["Lo bevo al banco."], explanation: "\"Lo\" stands for the coffee." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's on me!", answer: "Offro io!", altAnswers: ["Pago io!"], explanation: "\"Offrire\" = to treat; \"io\" after the verb for emphasis." },
@@ -130,7 +130,7 @@ export const IT_CULTURE_U02: Lesson[] = [
       {
         heading: "Il conto",
         body: [
-          "At a restaurant the check doesn't come until you ask: \"Il conto, per favore\" or, more politely, \"Ci porta il conto?\". Lingering is normal, and bringing it early would be rude. Most bills include \"il coperto\", a small cover charge per person for bread and table.",
+          "At a restaurant the check doesn't come until you ask: \"Il conto, per favore\" or, more politely, \"Ci porta il conto?\". Lingering is normal, and bringing it early would be rude. Many bills include \"il coperto\", a small cover charge per person for bread and table (in some places, Rome among them, it appears instead as a charge for bread and service).",
           "Service is included or not expected; leaving a few euros for good service is kind, not obligatory. Friends often split the check equally, \"pagare alla romana\".",
         ],
         examples: [
@@ -216,7 +216,7 @@ export const IT_CULTURE_U02: Lesson[] = [
         heading: "Don't call at two",
         body: [
           "The break shapes manners too. Traditionally you don't phone someone's home between about 14:00 and 16:00, nor late in the evening: you might wake them. With friends who text all day the rule is fading, but older people still notice.",
-          "Plan errands for the morning: post offices, banks and many public offices are open mainly in the morning, and some close by 13:30.",
+          "Plan errands for the morning: banks, small post offices and many public offices work mainly in the morning, and some close by 13:30, so check the hours before you go.",
         ],
         examples: [
           { es: "Non chiamare tra le due e le quattro.", en: "Don't call between two and four." },
@@ -392,7 +392,7 @@ export const IT_CULTURE_U02: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Tonight I'm eating light.", answer: "Stasera mangio leggero.", altAnswers: ["Stasera mangio leggera.", "Questa sera mangio leggero."], explanation: "\"Mangiare leggero\" works like an adverb; the feminine is also heard." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Tonight I'm eating light.", answer: "Stasera mangio leggero.", altAnswers: ["Questa sera mangio leggero."], explanation: "In \"mangiare leggero\" the adjective works like an adverb, so it doesn't change: a woman also says \"mangio leggero\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll bring dessert.", answer: "Porto il dolce.", altAnswers: ["Porto io il dolce.", "Il dolce lo porto io."], explanation: "Present for a near-future plan." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Everything was delicious!", answer: "Era tutto buonissimo!", altAnswers: ["Era tutto squisito!", "Era tutto delizioso!", "Tutto buonissimo!"], explanation: "Imperfetto \"era\" to describe the meal." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Shall we go out for a pizza?", answer: "Andiamo a mangiare una pizza?", altAnswers: ["Andiamo a prendere una pizza?", "Usciamo a mangiare una pizza?"], explanation: "\"Andare a\" + infinitive." },

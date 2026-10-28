@@ -11,7 +11,7 @@ export const IT_C2_U07: Lesson[] = [
     level: "IT-C2",
     number: 1,
     title: "Irony",
-    summary: "Recognise and use the markers of Italian irony: figurati!, come no!, bravo!, grazie tante, and the tone that turns praise into criticism.",
+    summary: "Recognize and use the markers of Italian irony: figurati!, come no!, bravo!, grazie tante, and the tone that turns praise into criticism.",
     duration: "19 min",
     sections: [
       {
@@ -37,7 +37,7 @@ export const IT_C2_U07: Lesson[] = [
       {
         heading: "Tone and context",
         body: [
-          "Irony lives in the voice. The same \"Bravo!\" is warm with a rising, open intonation and ironic with a flat or drawn-out one (\"Braaavo\"). A slight pause before it, a raised eyebrow, a glance at others present: all signal the reversal. In writing, Italians use inverted commas (\"il «geniale» progetto\"), exclamation marks, or an explicit \"si fa per dire\" (so to speak).",
+          "Irony lives in the voice. The same \"Bravo!\" is warm with a rising, open intonation and ironic with a flat or drawn-out one (\"Braaavo\"). A slight pause before it, a raised eyebrow, a glance at others present: all signal the reversal. In writing, Italians use quotation marks (\"il «geniale» progetto\"), exclamation marks, or an explicit \"si fa per dire\" (so to speak).",
           "Irony can also be structural: understatement (\"Non è proprio un genio\" for someone very stupid; \"Non è stata la mia giornata migliore\" for a disaster) and mock solemnity (describing a trivial event in grand words: \"l'epica impresa di montare un armadio\"). Understatement is common and polite; outright sarcasm is riskier with people you don't know well.",
         ],
         examples: [
@@ -56,6 +56,8 @@ export const IT_C2_U07: Lesson[] = [
         heading: "Answering irony",
         body: [
           "You also need replies. To ironic praise: \"Spiritoso!\" (very funny), \"Sì, sì, ridi pure\" (go on, laugh), \"Molto divertente\". To signal that you're joking yourself: \"Scherzo!\", \"Dai, sto scherzando\", \"Era una battuta\" (it was a joke). And to ask: \"Sei serio o scherzi?\", \"Mi stai prendendo in giro?\" (are you making fun of me?).",
+          "A few more everyday reversals. \"Bello\" before a noun, with an exclamation, is very often ironic: \"Bell'amico sei!\" (some friend you are!), \"Bel modo di ringraziare!\", \"Bella figura che mi hai fatto fare!\" (you made me look great: I was mortified). \"Ma non mi dire!\" and \"Ma va?\" (you don't say!) greet obvious news with fake amazement. \"Grazie al cavolo!\" (colloquial, roughly 'no kidding!') answers someone who states the obvious: \"Fa caldo ad agosto.\" \"Grazie al cavolo!\" Its coarser variants with other words in place of \"cavolo\" are common among friends but best left to recognition.",
+          "Not every reversal is ironic. \"Magari!\" (if only!) is sincere; \"Figurati!\" after \"grazie\" is sincere; \"Bravo!\" after a concert is sincere. The context, the tone and the speaker's face decide. When in doubt, Italians ask \"Lo dici sul serio o è ironico?\", and nobody is offended by the question.",
         ],
         examples: [
           { es: "Spiritoso!", en: "Very funny!" },
@@ -77,7 +79,7 @@ export const IT_C2_U07: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Thanks a lot!", answer: "Grazie tante!", altAnswers: ["Grazie mille!", "Tante grazie!"], explanation: "\"Grazie tante\" is usually sarcastic." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "You broke another glass? [Well done]!", sentence: "Hai rotto un altro bicchiere? ___!", answer: "Bravo", altAnswers: ["Brava", "Complimenti"], explanation: "Ironic praise." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He beat a child? [Big deal]!", sentence: "Ha battuto un bambino? ___!", answer: "Bella forza", explanation: "\"Bella forza\": the feat was easy." },
-      { type: "word-order", prompt: "Put the words in order to say: His 'brilliant' project failed.", words: ["Il", "suo", "«geniale»", "progetto", "è", "fallito."], translation: "His 'brilliant' project failed.", explanation: "Inverted commas mark irony in writing." },
+      { type: "word-order", prompt: "Put the words in order to say: His 'brilliant' project failed.", words: ["Il", "suo", "«geniale»", "progetto", "è", "fallito."], translation: "His 'brilliant' project failed.", explanation: "Quotation marks signal irony in writing." },
       { type: "multiple-choice", question: "Your friend says \"Domani smetto di fumare\" for the tenth time. What does \"Sì, buonanotte!\" mean as a reply?", options: ["Dream on.", "Good night, sleep well.", "Yes, tomorrow is fine.", "I'm tired."], correctIndex: 0, explanation: "\"Sì, buonanotte\": you don't believe it." },
       { type: "matching", instructions: "Match the ironic expression to its meaning.", pairs: [{ left: "Come no!", right: "Yeah, right!" }, { left: "Sai che novità!", right: "What a surprise (not)!" }, { left: "Bella forza!", right: "Big deal!" }, { left: "Ci mancava solo questa!", right: "That's all we needed!" }], explanation: "Core markers of irony." },
       { type: "dictation", audio: "Ho passato una serata tranquilla, si fa per dire.", explanation: "\"Si fa per dire\" flags irony." },
@@ -114,11 +116,11 @@ export const IT_C2_U07: Lesson[] = [
       {
         heading: "Headlines and ads",
         body: [
-          "Italian newspapers love punning headlines, especially in sport and culture. Invented examples in the usual style: a cycling team that loses its leader, \"Una squadra a terra\" (on the ground, and demoralised); a pasta company's profits falling, \"Utili al dente\"; a football coach sacked after a draw, \"Pari e patta, e lui fa le valigie\" (\"pari e patta\" = all square). Ads play the same game: a mattress brand promising \"Sogni d'oro, prezzi di ferro\" (golden dreams, iron prices: low and fixed).",
+          "Italian newspapers love punning headlines, especially in sport and culture. Invented examples in the usual style: a cycling team that loses its leader, \"Una squadra a terra\" (on the ground, and demoralized); a pasta company's profits falling, \"Utili scotti\" (\"scotto\" = overcooked, gone soft); a soccer coach fired after a draw, \"Pari e patta, e lui fa le valigie\" (\"pari e patta\" = all square). Ads play the same game: a mattress brand promising \"Sogni d'oro, prezzi di ferro\" (golden dreams, iron prices: low and fixed).",
           "Other techniques: a famous quotation altered (\"Essere o non avere\"), a proverb bent (\"Chi va piano va sano e va in ritardo\"), and the \"gioco di parole\" on homophones or on a word split in two. To translate such a headline you must usually find a new pun, not translate the old one.",
         ],
         examples: [
-          { es: "Una squadra a terra.", en: "A team on the ground (and demoralised)." },
+          { es: "Una squadra a terra.", en: "A team on the ground (and demoralized)." },
           { es: "Sogni d'oro, prezzi di ferro.", en: "Golden dreams, iron prices." },
           { es: "Chi va piano va sano e va in ritardo.", en: "Slow and steady wins the race, and arrives late." },
           { es: "È un gioco di parole intraducibile.", en: "It's an untranslatable pun." },
@@ -132,7 +134,8 @@ export const IT_C2_U07: Lesson[] = [
       {
         heading: "Double meanings in conversation",
         body: [
-          "In conversation, wordplay often exploits words with two meanings: \"Sei proprio una pizza\" (you're a real bore: \"pizza\" also means a boring thing or person), \"Che pizza!\" (what a drag); \"Mi hai fatto un baffo\" (you didn't impress me at all; \"baffo\" = moustache); \"Sei un mito\" (you're a legend). Sexual double meanings (\"doppi sensi\") are common in Italian comedy; recognise the tone and avoid them in formal settings.",
+          "In conversation, wordplay often exploits words with two meanings: \"Sei proprio una pizza\" (you're a real bore: \"pizza\" also means a boring thing or person), \"Che pizza!\" (what a drag); \"Mi fa un baffo\" (it doesn't bother me in the least; \"baffo\" = mustache); \"Sei un mito\" (you're a legend). Sexual double meanings (\"doppi sensi\") are common in Italian comedy; recognize the tone and avoid them in formal settings.",
+          "Journalism coins punning words too. After the 1992 bribery investigations in Milan the press spoke of \"Tangentopoli\" ('Bribesville', from \"tangente\", a kickback); the suffix \"-poli\" then became a scandal label, as in \"Calciopoli\" for the 2006 soccer match-fixing scandal. Comic writers also love the \"freddura\", a deliberately weak pun that makes people groan rather than laugh, and the \"battuta a doppio senso\", which says something innocent and lets the listener supply the rest. Recognizing these is part of reading Italian headlines and watching Italian comedy; producing them well is the last thing a learner masters.",
         ],
         examples: [
           { es: "Che pizza questa conferenza!", en: "What a drag this lecture is!" },
@@ -152,10 +155,10 @@ export const IT_C2_U07: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You're a legend!", answer: "Sei un mito!", altAnswers: ["Sei una leggenda!", "È un mito!"], explanation: "\"Mito\": colloquial praise." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The joke had a double meaning.", answer: "La battuta aveva un doppio senso.", altAnswers: ["La battuta aveva un doppio significato."], explanation: "\"Doppio senso\" = double entendre." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He left his girlfriend in the lurch.", answer: "Ha piantato in asso la fidanzata.", altAnswers: ["Ha piantato in asso la sua fidanzata.", "Piantò in asso la fidanzata."], explanation: "\"Piantare in asso\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "For a mathematician? [Having lots of problems].", sentence: "Per un matematico? ___.", answer: "Avere molti problemi", altAnswers: ["Avere tanti problemi"], explanation: "\"Problema\": a maths exercise and a trouble." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "For a mathematician? [Having lots of problems].", sentence: "Per un matematico? ___.", answer: "Avere molti problemi", altAnswers: ["Avere tanti problemi"], explanation: "\"Problema\": a math exercise and a trouble." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He's never [up to date].", sentence: "Non è mai ___.", answer: "al corrente", altAnswers: ["aggiornato"], explanation: "\"Essere al corrente\" = to be informed." },
       { type: "word-order", prompt: "Put the words in order to say: Golden dreams, iron prices.", words: ["Sogni", "d'oro,", "prezzi", "di", "ferro."], translation: "Golden dreams, iron prices.", explanation: "\"Sogni d'oro\" = sweet dreams." },
-      { type: "multiple-choice", question: "A headline reads \"Utili al dente\" about a pasta maker. What does it suggest?", options: ["Profits are small or tight, like firm pasta.", "Profits are huge.", "The company sells dentists' tools.", "The pasta is undercooked."], correctIndex: 0, explanation: "\"Utili\" (profits) + \"al dente\": a pun." },
+      { type: "multiple-choice", question: "A headline reads \"Utili scotti\" about a pasta maker. What does it suggest?", options: ["Profits have gone soft, like overcooked pasta.", "Profits are huge.", "The company sells cookware.", "The pasta is undercooked."], correctIndex: 0, explanation: "\"Utili\" (profits) + \"scotti\" (overcooked): a pun." },
       { type: "matching", instructions: "Match the profession to its 'colmo'.", pairs: [{ left: "idraulico", right: "non capire un tubo" }, { left: "sarto", right: "perdere il filo" }, { left: "elettricista", right: "non essere al corrente" }, { left: "giardiniere", right: "piantare in asso" }], explanation: "Classic school riddles." },
       { type: "dictation", audio: "Qual è il colmo per un sarto? Perdere il filo del discorso.", explanation: "\"Qual è\" without an apostrophe." },
       { type: "speak", text: "Qual è il colmo per un idraulico? Non capire un tubo!", prompt: "Tell the riddle: What's the height of irony for a plumber? Not understanding a pipe!", tip: "Pause before the answer: timing makes the joke.", explanation: "A classic \"colmo\"." },
@@ -209,6 +212,8 @@ export const IT_C2_U07: Lesson[] = [
         heading: "Telling it well",
         body: [
           "Timing and voice: slow down before the punchline, pause, deliver it short and flat, and don't laugh first. Useful phrases: \"Questa è bellissima\" (this one's great), \"Aspetta, aspetta, il bello viene adesso\", \"Non me la ricordo bene\" (I don't remember it well), and when it falls flat, \"Va be', era meglio come la raccontava mio zio\". The listener says \"Questa la sapevo già\" (I knew that one) or \"Bella!\", or groans: \"Che freddura!\" (what a terrible pun).",
+          "The vocabulary of laughing is rich. \"Fa ridere\" (it's funny), \"Che ridere!\" (how funny!), \"ridere a crepapelle\" or \"sbellicarsi dalle risate\" (to split one's sides), \"morire dal ridere\" (to die laughing), \"avere le lacrime agli occhi dal ridere\". A \"barzelletta sporca\" is a dirty joke; a \"battuta\" is any witty line in conversation, so you \"racconti una barzelletta\" but \"fai una battuta\".",
+          "Beyond Pierino, whole genres exist. Jokes about the \"carabinieri\" (the military police) portray them, unfairly, as slow-witted, and the force has long taken them with good humor. Regional stereotypes supply others, such as the stingy Genoese. Famous people sometimes collect the jokes told about them and publish them themselves: laughing at oneself is the best answer to a barzelletta.",
         ],
         examples: [
           { es: "Aspetta, il bello viene adesso.", en: "Wait, the best part is coming now." },
@@ -232,7 +237,7 @@ export const IT_C2_U07: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Pierino [drives the teacher to despair].", sentence: "Pierino ___.", answer: "fa disperare la maestra", explanation: "\"Far disperare qualcuno\"." },
       { type: "word-order", prompt: "Put the words in order to say: This one's great.", words: ["Questa", "è", "bellissima."], translation: "This one's great.", explanation: "Announcing a joke." },
       { type: "multiple-choice", question: "In the bookshop joke, why is the price of three hundred euros the punchline?", options: ["The bookshop is the one getting rich quickly.", "The book is a rare edition.", "The man is very rich.", "The clerk made a mistake."], correctIndex: 0, explanation: "The irony reverses the request." },
-      { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "la barzelletta", right: "joke" }, { left: "la battuta", right: "quip, line" }, { left: "la freddura", right: "weak pun" }, { left: "il doppio senso", right: "double entendre" }], explanation: "The vocabulary of humour." },
+      { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "la barzelletta", right: "joke" }, { left: "la battuta", right: "quip, line" }, { left: "la freddura", right: "weak pun" }, { left: "il doppio senso", right: "double entendre" }], explanation: "The vocabulary of humor." },
       { type: "dictation", audio: "C'è un tizio che entra in un bar e chiede un caffè.", explanation: "Present tense narration." },
       { type: "speak", text: "Ma come sei? Tre più due fa cinque! Sì, ma una ce l'avevo già in tasca.", prompt: "Tell the end of the Pierino joke, with two voices.", tip: "Change voice for Pierino; pause before \"Sì, ma\".", explanation: "Dialogue and timing." },
     ],
@@ -250,6 +255,8 @@ export const IT_C2_U07: Lesson[] = [
         body: [
           "Rome has had a satirical voice for five centuries: Pasquino, a battered ancient statue near Piazza Navona, on which Romans have hung anonymous satirical verses since the early 1500s, the \"pasquinate\". The most famous attacks the Barberini family, who stripped bronze from the Pantheon: \"Quod non fecerunt barbari, fecerunt Barberini\" (what the barbarians didn't do, the Barberini did). The word \"pasquinata\" still means a satirical lampoon.",
           "The tradition continued in Belli's sonnets, in Trilussa's Roman fables, in twentieth-century satirical magazines and in today's satirical websites and television. Satire has a target (power, hypocrisy, bureaucracy), a technique and a moral point: it makes us laugh at what we should be angry about.",
+          "The Romans themselves claimed the genre: the rhetorician Quintilian wrote \"satura quidem tota nostra est\" (satire, at least, is entirely ours). In the modern era, the actor and playwright Dario Fo, Nobel laureate in 1997, built his theater on mocking power. Magazines such as \"Il Male\" (1978–1982) and \"Cuore\" (1989–1996) made fake front pages and political cartoons a national habit; Livorno's \"Il Vernacoliere\" still writes its satire partly in the local vernacular; and the TV program \"Striscia la notizia\" has parodied the evening news since 1988.",
+          "Italian courts recognize a \"diritto di satira\" (a right to satire) as part of freedom of expression, protected by article 21 of the Constitution, but within limits: satire may exaggerate and ridicule, yet it must aim at public conduct and should not turn into gratuitous personal insult. Knowing this, the language of satire is often careful in its very excess.",
         ],
         examples: [
           { es: "Pasquino è una statua che parla.", en: "Pasquino is a statue that speaks." },
@@ -317,7 +324,7 @@ export const IT_C2_U07: Lesson[] = [
     slug: "c2-drill-humour",
     level: "IT-C2",
     number: 5,
-    title: "Drill: Humour",
+    title: "Drill: Humor",
     summary: "High-repetition practice with irony markers, wordplay and the language of jokes.",
     duration: "25 min",
     sections: [
@@ -348,7 +355,7 @@ export const IT_C2_U07: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Was he serious?", answer: "Diceva sul serio?", altAnswers: ["Era serio?", "Parlava sul serio?", "Faceva sul serio?"], explanation: "\"Dire / fare sul serio\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "What a surprise (not)!", answer: "Sai che novità!", altAnswers: ["Che novità!", "Bella novità!"], explanation: "Ironic \"novità\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It's raining too? [That's all we needed]!", sentence: "Piove pure? ___!", answer: "Ci mancava solo questa", altAnswers: ["Ci mancava anche questa"], explanation: "Exasperated irony." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It was a quiet holiday, [so to speak].", sentence: "È stata una vacanza tranquilla, ___.", answer: "si fa per dire", altAnswers: ["per modo di dire"], explanation: "Explicit irony flag." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It was a quiet vacation, [so to speak].", sentence: "È stata una vacanza tranquilla, ___.", answer: "si fa per dire", altAnswers: ["per modo di dire"], explanation: "Explicit irony flag." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[What's the height of irony] for a tailor?", sentence: "___ per un sarto?", answer: "Qual è il colmo", explanation: "\"Qual è\": no apostrophe." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He won against a child? [Big deal]!", sentence: "Ha vinto contro un bambino? ___!", answer: "Bella forza", explanation: "\"Bella forza\"." },
       { type: "word-order", prompt: "Put the words in order to say: If you have to explain it, it isn't funny.", words: ["Se", "la", "devi", "spiegare,", "non", "fa", "ridere."], translation: "If you have to explain it, it isn't funny.", explanation: "\"Fare ridere\"." },
@@ -362,7 +369,7 @@ export const IT_C2_U07: Lesson[] = [
     level: "IT-C2",
     number: 6,
     title: "Reading Lab: A Comic Text",
-    summary: "Read a comic piece in the form of mock instructions for surviving a family Sunday lunch, and analyse how it creates humour.",
+    summary: "Read a comic piece in the form of mock instructions for surviving a family Sunday lunch, and analyze how it creates humor.",
     duration: "19 min",
     sections: [
       {
@@ -375,7 +382,7 @@ export const IT_C2_U07: Lesson[] = [
           { es: "Non arrivare mai a stomaco pieno.", en: "Never arrive on a full stomach." },
           { es: "La nonna se ne accorgerebbe dallo sguardo.", en: "Grandma would notice from your face." },
           { es: "Qualunque risposta verrà usata contro di te.", en: "Any answer will be used against you." },
-          { es: "Un assaggino di lasagne che pesa un chilo.", en: "A little taste of lasagne that weighs a kilo." },
+          { es: "Un assaggino di lasagne che pesa un chilo.", en: "A little taste of lasagna that weighs a kilo." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Never arrive on a full stomach.", answer: "Non arrivare mai a stomaco pieno.", altAnswers: ["Non arrivate mai a stomaco pieno.", "Non arrivi mai a stomaco pieno."], explanation: "Negative imperative: \"non\" + infinitive." },
@@ -387,7 +394,7 @@ export const IT_C2_U07: Lesson[] = [
         heading: "The text, part 2",
         body: [
           "\"Regola numero quattro: non lodare il tiramisù della cognata davanti alla suocera. Regola numero cinque: verso le cinque, qualcuno proporrà 'una passeggiatina per digerire'. È una trappola: al ritorno ci sarà il caffè, poi il digestivo, poi la frutta 'perché fa bene'. Regola numero sei: quando finalmente ti alzi per andare via, preparati a quaranta minuti di saluti sulla porta. In fondo, è la parte più bella.\"",
-          "How the humour works: the mock-legal list of \"regole\" (parody), the hyperbole (\"pesa un chilo\", \"quaranta minuti\"), diminutives used ironically (\"assaggino\", \"passeggiatina\": small in name, huge in fact), and the affectionate twist at the end (\"In fondo, è la parte più bella\"), which turns satire into tenderness.",
+          "How the humor works: the mock-legal list of \"regole\" (parody), the hyperbole (\"pesa un chilo\", \"quaranta minuti\"), diminutives used ironically (\"assaggino\", \"passeggiatina\": small in name, huge in fact), and the affectionate twist at the end (\"In fondo, è la parte più bella\"), which turns satire into tenderness.",
         ],
         examples: [
           { es: "Non lodare il tiramisù della cognata.", en: "Don't praise your sister-in-law's tiramisu." },
@@ -405,7 +412,7 @@ export const IT_C2_U07: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Grandma would notice from your face.", answer: "La nonna se ne accorgerebbe dallo sguardo.", altAnswers: ["La nonna se ne accorgerebbe dalla faccia.", "La nonna lo capirebbe dallo sguardo."], explanation: "\"Accorgersi di\" → \"accorgersene\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Her offence would last until Christmas.", answer: "La sua offesa durerebbe fino a Natale.", altAnswers: ["Si offenderebbe fino a Natale."], explanation: "Conditional for a hypothetical consequence." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Her offense would last until Christmas.", answer: "La sua offesa durerebbe fino a Natale.", altAnswers: ["Si offenderebbe fino a Natale."], explanation: "Conditional for a hypothetical consequence." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's a trap.", answer: "È una trappola.", explanation: "Short sentence for comic effect." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Fruit, because it's good for you.", answer: "La frutta, perché fa bene.", altAnswers: ["Frutta, perché fa bene."], explanation: "\"Fare bene\" = to be good for you." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Don't praise your sister-in-law's tiramisu.", answer: "Non lodare il tiramisù della cognata.", altAnswers: ["Non lodare il tiramisù di tua cognata.", "Non elogiare il tiramisù della cognata."], explanation: "\"Lodare\" = to praise." },
@@ -553,7 +560,7 @@ export const IT_C2_U07: Lesson[] = [
       {
         heading: "Choose the misadventure",
         body: [
-          "Your mission: write a humorous piece of about 250-300 words for a blog or a magazine's back page. Choose an ordinary misadventure: assembling flat-pack furniture, a condominium meeting, a trip to the post office, a parents' WhatsApp group, a diet that lasted two days.",
+          "Your mission: write a humorous piece of about 250-300 words for a blog or a magazine's back page. Choose an ordinary misadventure: assembling furniture from a kit, a condominium meeting, a trip to the post office, a parents' WhatsApp group, a diet that lasted two days.",
           "Plan the comic devices before writing. Hyperbole: \"Il manuale di istruzioni aveva più pagine della Divina Commedia.\" Mock solemnity: \"Fu allora che presi la decisione più coraggiosa della mia vita: chiamare mio cognato.\" Irony and understatement: \"Diciamo che non è andata proprio come previsto.\" A comic list of three, with the third item surprising: \"Avevo il cacciavite, la pazienza e, purtroppo, l'ottimismo.\"",
         ],
         examples: [
@@ -612,19 +619,19 @@ export const IT_C2_U07: Lesson[] = [
       {
         heading: "The teasing starts",
         body: [
-          "An invented dinner among old friends in Bologna: Giulia, Matteo and Sara. Italians call friendly teasing \"sfottere\" (colloquial) or \"prendere in giro\", and the banter itself \"sfottò\".",
-          "Matteo: \"Giulia, hai cucinato tu? Allora ho fatto bene a mangiare prima.\" Giulia: \"Spiritoso. Senti chi parla: l'ultima volta che hai cucinato tu sono venuti i pompieri.\" Sara: \"Era fumo di carattere, dai.\" Matteo: \"Ecco, almeno Sara mi difende.\" Sara: \"Non ti difendo, ti compatisco.\"",
+          "An invented dinner among old friends in Bologna: Giulia, Matteo and Sara. Italians call friendly teasing \"sfottere\" (colloquial and slightly coarse, from \"fottere\") or \"prendere in giro\", and the banter itself \"sfottò\".",
+          "Matteo: \"Giulia, hai cucinato tu? Allora ho fatto bene a mangiare prima.\" Giulia: \"Spiritoso. Senti chi parla: l'ultima volta che hai cucinato tu sono venuti i pompieri.\" Sara: \"Dai, era solo un po' di fumo.\" Matteo: \"Ecco, almeno Sara mi difende.\" Sara: \"Non ti difendo, ti compatisco.\"",
         ],
         examples: [
           { es: "Ho fatto bene a mangiare prima.", en: "I did well to eat beforehand." },
           { es: "Senti chi parla!", en: "Look who's talking!" },
-          { es: "Sono venuti i pompieri.", en: "The fire brigade came." },
+          { es: "Sono venuti i pompieri.", en: "The fire department came." },
           { es: "Non ti difendo, ti compatisco.", en: "I'm not defending you, I pity you." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Look who's talking!", answer: "Senti chi parla!", altAnswers: ["Ma senti chi parla!", "Guarda chi parla!"], explanation: "The classic comeback." },
           { type: "multiple-choice", question: "What does Sara's line \"Non ti difendo, ti compatisco\" do?", options: ["It teases Matteo while seeming to support him.", "It sincerely defends Matteo.", "It attacks Giulia.", "It changes the subject."], correctIndex: 0, explanation: "A double-edged reply." },
-          { type: "listen-choose", audio: "L'ultima volta che hai cucinato tu sono venuti i pompieri.", question: "What happened last time Matteo cooked?", options: ["The fire brigade came.", "Everyone loved it.", "Nobody came.", "The police came."], correctIndex: 0, explanation: "Hyperbolic comeback." },
+          { type: "listen-choose", audio: "L'ultima volta che hai cucinato tu sono venuti i pompieri.", question: "What happened last time Matteo cooked?", options: ["The fire department came.", "Everyone loved it.", "Nobody came.", "The police came."], correctIndex: 0, explanation: "Hyperbolic comeback." },
         ],
       },
       {
@@ -659,7 +666,7 @@ export const IT_C2_U07: Lesson[] = [
       { type: "multiple-choice", question: "Which is a rule of good banter?", options: ["Target habits, not deep insecurities.", "Always win the argument.", "Tease strangers first.", "Never laugh at yourself."], correctIndex: 0, explanation: "Affection sets the limits." },
       { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "Senti chi parla!", right: "Look who's talking!" }, { left: "Ma smettila!", right: "Oh, stop it!" }, { left: "Ma neanche per sogno!", right: "Not in your dreams!" }, { left: "Ti credi tanto furbo?", right: "Think you're clever?" }], explanation: "Banter formulas." },
       { type: "dictation", audio: "Ma neanche per sogno! Sembrate voi una coppia sposata.", explanation: "Comeback turned around." },
-      { type: "speak", text: "Senti chi parla! L'ultima volta sono venuti i pompieri.", prompt: "Answer a friend's teasing: Look who's talking! Last time the fire brigade came.", tip: "Quick, playful rhythm.", explanation: "A classic counterattack." },
+      { type: "speak", text: "Senti chi parla! L'ultima volta sono venuti i pompieri.", prompt: "Answer a friend's teasing: Look who's talking! Last time the fire department came.", tip: "Quick, playful rhythm.", explanation: "A classic counterattack." },
     ],
   },
 ];

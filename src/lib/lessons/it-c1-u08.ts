@@ -12,13 +12,14 @@ export const IT_C1_U08: Lesson[] = [
     number: 1,
     title: "Dovere: Obligation and Deduction",
     summary: "Use dovere for obligation, expectation and deduction: deve essere stanco, deve aver capito, doveva arrivare alle otto, dovrebbe essere qui.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Deduction: must be, must have",
         body: [
           "Besides obligation, \"dovere\" expresses a confident deduction, like English 'must'. For the present, use \"dovere\" + infinitive: \"Deve essere stanco\" (he must be tired), \"Devono essere già a casa\" (they must be home already). For the past, use \"dovere\" in the present + past infinitive: \"Deve aver capito\" (he must have understood), \"Deve essere partita\" (she must have left).",
           "This is a key C1 point: English 'must have' does not become \"*ha dovuto\". \"Ha dovuto partire\" means she had to leave (an obligation fulfilled). For a deduction about the past, keep \"deve\" and move the past into the infinitive: \"deve essere partita\". Many speakers shorten \"avere\" to \"aver\" before a participle.",
+          "Italian has a scale of certainty here. \"Deve essere stanco\" is a firm conclusion; the future of supposition, \"Sarà stanco\" or \"Avrà perso il treno\", is a likely guess; \"Potrebbe essere stanco\" is a mere possibility. Don't use \"dovrebbe\" for a deduction: \"Dovrebbe essere stanco\" sounds like an expectation (he ought to be tired by now).",
         ],
         examples: [
           { es: "Deve essere stanco: ha lavorato tutta la notte.", en: "He must be tired: he worked all night." },
@@ -26,6 +27,8 @@ export const IT_C1_U08: Lesson[] = [
           { es: "Deve essere partita stamattina.", en: "She must have left this morning." },
           { es: "Ha dovuto partire per lavoro.", en: "She had to leave for work." },
           { es: "Devono aver perso il treno.", en: "They must have missed the train." },
+          { es: "Sarà stanco, poverino.", en: "He's probably tired, poor thing." },
+          { es: "Avrà perso il treno.", en: "He's probably missed the train." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate as a deduction.", source: "They must have missed the train.", answer: "Devono aver perso il treno.", altAnswers: ["Devono avere perso il treno.", "Avranno perso il treno."], explanation: "Present \"dovere\" + past infinitive." },
@@ -43,7 +46,7 @@ export const IT_C1_U08: Lesson[] = [
           { es: "Il treno doveva partire alle nove.", en: "The train was supposed to leave at nine." },
           { es: "Doveva essere molto giovane in questa foto.", en: "She must have been very young in this photo." },
           { es: "Dovrebbe essere qui a momenti.", en: "He should be here any minute." },
-          { es: "Il pacco dovrebbe arrivare domani.", en: "The parcel should arrive tomorrow." },
+          { es: "Il pacco dovrebbe arrivare domani.", en: "The package should arrive tomorrow." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate.", source: "The train was supposed to leave at nine.", answer: "Il treno doveva partire alle nove.", explanation: "\"Doveva\" = was supposed to." },
@@ -55,6 +58,7 @@ export const IT_C1_U08: Lesson[] = [
         body: [
           "For plain obligation, the tense tells you whether it was carried out: \"Ho dovuto pagare\" (I had to pay, and I did), \"Dovevo pagare\" (I was supposed to / I had to pay; perhaps I did, perhaps not), \"Avrei dovuto pagare\" (I should have paid, but I didn't).",
           "\"Non dovere\" means must not or need not depending on context: \"Non devi dirlo a nessuno\" (you mustn't tell anyone), \"Non dovevi disturbarti!\" (you shouldn't have gone to the trouble!), said when receiving a gift.",
+          "Because \"Non devi venire\" can sound like a ban, say 'you don't have to' with \"Non sei obbligato a\" or \"Non c'è bisogno che\" + subjunctive: \"Non c'è bisogno che tu venga\". Finally, \"dovere\" with a noun means to owe: \"Ti devo dieci euro\", \"Gli devo la vita\" (I owe him my life).",
         ],
         examples: [
           { es: "Ho dovuto pagare una multa.", en: "I had to pay a fine." },
@@ -62,6 +66,8 @@ export const IT_C1_U08: Lesson[] = [
           { es: "Avrei dovuto pagare prima.", en: "I should have paid earlier." },
           { es: "Non devi dirlo a nessuno.", en: "You mustn't tell anyone." },
           { es: "Non dovevi disturbarti!", en: "You shouldn't have gone to the trouble!" },
+          { es: "Non c'è bisogno che tu venga.", en: "You don't need to come." },
+          { es: "Ti devo dieci euro.", en: "I owe you ten euros." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate.", source: "I had to pay a fine.", answer: "Ho dovuto pagare una multa.", explanation: "Obligation carried out: passato prossimo." },
@@ -75,7 +81,7 @@ export const IT_C1_U08: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate as a deduction.", source: "She must have left this morning.", answer: "Deve essere partita stamattina.", altAnswers: ["Dev'essere partita stamattina.", "Deve essere partita questa mattina."], explanation: "Past infinitive with \"essere\", agreeing." },
       { type: "translate", direction: "en-es", prompt: "Translate.", source: "He was supposed to arrive at eight, but he didn't show up.", answer: "Doveva arrivare alle otto, ma non si è visto.", altAnswers: ["Doveva arrivare alle otto, ma non si è fatto vedere.", "Doveva arrivare alle otto, ma non è venuto."], explanation: "\"Doveva\" = was supposed to." },
       { type: "translate", direction: "en-es", prompt: "Translate as a deduction.", source: "She must have been very young in this photo.", answer: "Doveva essere molto giovane in questa foto.", altAnswers: ["Doveva essere giovanissima in questa foto."], explanation: "Imperfect \"doveva\" for a past state." },
-      { type: "translate", direction: "en-es", prompt: "Translate.", source: "The parcel should arrive tomorrow.", answer: "Il pacco dovrebbe arrivare domani.", explanation: "Expectation: conditional." },
+      { type: "translate", direction: "en-es", prompt: "Translate.", source: "The package should arrive tomorrow.", answer: "Il pacco dovrebbe arrivare domani.", explanation: "Expectation: conditional." },
       { type: "translate", direction: "en-es", prompt: "Translate (tu).", source: "You mustn't tell anyone.", answer: "Non devi dirlo a nessuno.", altAnswers: ["Non lo devi dire a nessuno."], explanation: "\"Non dovere\" = must not." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I [should have paid] earlier.", sentence: "___ prima.", answer: "Avrei dovuto pagare", explanation: "Past conditional = should have." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The keys [must have fallen] out of my pocket.", sentence: "Le chiavi ___ dalla tasca.", answer: "devono essere cadute", altAnswers: ["devono esser cadute"], explanation: "Deduction: \"devono\" + past infinitive, agreeing." },
@@ -101,13 +107,16 @@ export const IT_C1_U08: Lesson[] = [
     number: 2,
     title: "Potere and Riuscire",
     summary: "Distinguish potere, riuscire and sapere, and use potere for possibility and missed chances: avrebbe potuto, poteva andare peggio, potrebbe aver dimenticato.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Potere, riuscire, sapere",
         body: [
           "English 'can' covers three Italian verbs. \"Sapere\" is a learned skill: \"So nuotare\" (I can swim). \"Potere\" is permission or circumstances: \"Oggi non posso nuotare, la piscina è chiusa\". \"Riuscire a\" is succeeding through effort: \"Non riesco a nuotare fino all'altra riva\" (I can't manage to swim to the other side).",
           "In the past the difference matters even more. \"Non sono riuscito a finire\" means I tried and failed. \"Non ho potuto finire\" means something stopped me. \"Sono riuscita a trovare un biglietto\" (I managed to find a ticket) celebrates success after effort.",
+          "Tense changes the meaning too. \"Da bambina potevo uscire solo la domenica\" describes a general permission (I was allowed to); \"Finalmente ho potuto riposare\" says the chance came and was used. In speech \"farcela\" often replaces \"riuscire\": \"Ce la fai a portare la valigia?\" (can you manage the suitcase?), \"Non ce la faccio più\" (I can't take it anymore).",
+          "Two learner errors to avoid. For languages, Italian uses the plain verb or \"sapere\": \"Parlo italiano\", \"So l'inglese\", never \"*Posso parlare italiano\" for ability. For the senses, \"riuscire\" is more natural than \"potere\": \"Non riesco a vedere niente senza occhiali\".",
+          "\"Sapere\" also shifts in the past: \"Sapevo nuotare\" (I knew how to swim) is a skill, but \"Ho saputo\" means I found out: \"Ho saputo solo ieri che si era sposata\".",
         ],
         examples: [
           { es: "So nuotare, ma oggi non posso: la piscina è chiusa.", en: "I can swim, but I can't today: the pool is closed." },
@@ -115,6 +124,10 @@ export const IT_C1_U08: Lesson[] = [
           { es: "Non sono riuscito a finire in tempo.", en: "I didn't manage to finish in time." },
           { es: "Non ho potuto finire: mi hanno chiamato.", en: "I couldn't finish: they called me." },
           { es: "Sono riuscita a trovare un biglietto.", en: "I managed to find a ticket." },
+          { es: "Da bambina potevo uscire solo la domenica.", en: "As a girl I was only allowed out on Sundays." },
+          { es: "Ce la fai a portare la valigia?", en: "Can you manage the suitcase?" },
+          { es: "Non riesco a vedere niente senza occhiali.", en: "I can't see anything without my glasses." },
+          { es: "Ho saputo solo ieri che si era sposata.", en: "I only found out yesterday that she had gotten married." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate. You tried hard.", source: "I can't open this jar.", answer: "Non riesco ad aprire questo barattolo.", altAnswers: ["Non riesco a aprire questo barattolo."], explanation: "Effort: \"riuscire a\"." },
@@ -126,6 +139,7 @@ export const IT_C1_U08: Lesson[] = [
         body: [
           "\"Potrebbe\" + infinitive is a possibility: \"Potrebbe piovere\" (it might rain). For a past possibility use the past infinitive: \"Potrebbe aver dimenticato\" (he might have forgotten). \"Può darsi che\" + subjunctive is the everyday 'maybe': \"Può darsi che abbia dimenticato\".",
           "\"Avrebbe potuto\" is a missed chance: \"Avrebbe potuto chiamare\" (he could have called, but didn't). In speech the imperfect often replaces it: \"Poteva chiamare!\" (he could have called!), \"Poteva andare peggio\" (it could have gone worse), a common way to look on the bright side.",
+          "Several everyday formulas are built on \"potere\". \"Può darsi\" on its own is a noncommittal maybe; \"Non può essere vero!\" rejects news as impossible; \"Si può?\" asks if you may come in. For requests, the conditional is the polite default: \"Potresti passarmi il sale?\" is warmer than \"Puoi passarmi il sale?\", and \"Potrebbe...\" with Lei is standard with strangers.",
         ],
         examples: [
           { es: "Potrebbe aver dimenticato l'appuntamento.", en: "He might have forgotten the appointment." },
@@ -133,6 +147,9 @@ export const IT_C1_U08: Lesson[] = [
           { es: "Avrebbe potuto chiamare.", en: "He could have called." },
           { es: "Potevi dirmelo!", en: "You could have told me!" },
           { es: "Poteva andare peggio.", en: "It could have been worse." },
+          { es: "Viene anche Marta? Può darsi.", en: "Is Marta coming too? Maybe." },
+          { es: "Non può essere vero!", en: "It can't be true!" },
+          { es: "Potresti passarmi il sale?", en: "Could you pass me the salt?" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate.", source: "He might have forgotten the appointment.", answer: "Potrebbe aver dimenticato l'appuntamento.", altAnswers: ["Potrebbe avere dimenticato l'appuntamento.", "Può darsi che abbia dimenticato l'appuntamento."], explanation: "Conditional + past infinitive." },
@@ -162,13 +179,15 @@ export const IT_C1_U08: Lesson[] = [
     number: 3,
     title: "Should Have and Could Have Revisited",
     summary: "Form avrebbe dovuto and sarebbe potuto with the right auxiliary and agreement, including reflexive verbs and essere.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Choosing the auxiliary",
         body: [
           "In compound tenses, \"dovere\", \"potere\" and \"volere\" usually take the auxiliary of the infinitive that follows. \"Studiare\" takes \"avere\", so \"Avresti dovuto studiare\". \"Partire\" takes \"essere\", so \"Saresti dovuto partire\", with agreement: \"Sarebbe dovuta partire\" (she should have left). With an essere-verb, \"avere\" is also accepted in everyday Italian (\"Avrebbe dovuto partire\"), but \"essere\" is the careful choice.",
-          "When the infinitive is \"essere\" itself, the modal takes \"avere\": \"Avrebbe dovuto essere più chiaro\" (he should have been clearer).",
+          "When the infinitive is \"essere\" itself, the modal takes \"avere\": \"Avrebbe dovuto essere più chiaro\" (he should have been clearer). The same goes for a passive infinitive: \"Avrebbe dovuto essere informato\" (he should have been told).",
+          "These rules are not special to the conditional: they apply in every compound tense. \"Sono dovuta tornare a casa\" (I had to go back home), \"Non è voluto venire\" (he refused to come). In speech \"Non ha voluto venire\" is at least as frequent, and nobody will correct you; in careful writing, match the auxiliary to the infinitive.",
+          "Keep the English map simple: 'should have' is \"avrei dovuto\", 'could have' is \"avrei potuto\" (or \"potevo\" in speech), and 'would have liked to' is \"avrei voluto\". A common slip is to put the past on the infinitive instead, \"*dovrei aver studiato\" for 'I should have studied': that means 'I'm supposed to have studied' (for instance, according to the schedule).",
         ],
         examples: [
           { es: "Avresti dovuto studiare di più.", en: "You should have studied more." },
@@ -176,6 +195,9 @@ export const IT_C1_U08: Lesson[] = [
           { es: "Saremmo potuti arrivare in tempo.", en: "We could have arrived in time." },
           { es: "Avrebbe dovuto essere più chiaro.", en: "He should have been clearer." },
           { es: "Sarebbero voluti restare.", en: "They would have liked to stay." },
+          { es: "Non è voluto venire.", en: "He refused to come." },
+          { es: "Sono dovuta tornare a casa.", en: "I had to go back home." },
+          { es: "Avrebbe dovuto essere informato.", en: "He should have been told." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate with the careful auxiliary.", source: "She should have left earlier.", answer: "Sarebbe dovuta partire prima.", altAnswers: ["Avrebbe dovuto partire prima.", "Sarebbe dovuta partire più presto."], explanation: "\"Partire\" takes \"essere\": \"sarebbe dovuta\"." },
@@ -185,18 +207,22 @@ export const IT_C1_U08: Lesson[] = [
       {
         heading: "Reflexives and pronouns",
         body: [
-          "With reflexive verbs the auxiliary depends on where the pronoun goes. Pronoun before the modal: \"essere\" (\"Ti saresti dovuto scusare\"). Pronoun attached to the infinitive: \"avere\" (\"Avresti dovuto scusarti\"). Both mean you should have apologised; the second is more common in speech.",
+          "With reflexive verbs the auxiliary depends on where the pronoun goes. Pronoun before the modal: \"essere\" (\"Ti saresti dovuto scusare\"). Pronoun attached to the infinitive: \"avere\" (\"Avresti dovuto scusarti\"). Both mean you should have apologized; the second is more common in speech.",
           "The same rule works with \"ci\" and \"ne\" on essere-verbs: \"Ci sarei voluto andare\" or \"Avrei voluto andarci\" (I would have liked to go there).",
+          "What you cannot do is mix the patterns. \"*Mi avrei dovuto scusare\" puts the pronoun first with \"avere\"; \"*Sarei dovuto scusarmi\" attaches it with \"essere\". Each of these sounds wrong to a native ear. A useful habit: decide first where the pronoun goes, and let that choose the auxiliary.",
+          "With the impersonal \"si\", the auxiliary is always \"essere\": \"Si sarebbe dovuto intervenire prima\" (action should have been taken earlier). With a reflexive verb the impersonal becomes \"ci si\", and the participle goes plural: \"Ci si sarebbe dovuti fermare\" (we should all have stopped). This is typical of reports and analyses.",
         ],
         examples: [
-          { es: "Ti saresti dovuto scusare.", en: "You should have apologised." },
-          { es: "Avresti dovuto scusarti.", en: "You should have apologised." },
+          { es: "Ti saresti dovuto scusare.", en: "You should have apologized." },
+          { es: "Avresti dovuto scusarti.", en: "You should have apologized." },
           { es: "Mi sarei potuta fermare.", en: "I could have stopped." },
           { es: "Avrei voluto andarci.", en: "I would have liked to go there." },
           { es: "Ci sarei voluto andare.", en: "I would have liked to go there." },
+          { es: "Si sarebbe dovuto intervenire prima.", en: "Action should have been taken earlier." },
+          { es: "Ci si sarebbe dovuti fermare.", en: "One should have stopped." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate with the pronoun attached to the infinitive (tu).", source: "You should have apologised.", answer: "Avresti dovuto scusarti.", altAnswers: ["Ti saresti dovuto scusare.", "Ti saresti dovuta scusare."], explanation: "Attached pronoun → \"avere\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate with the pronoun attached to the infinitive (tu).", source: "You should have apologized.", answer: "Avresti dovuto scusarti.", altAnswers: ["Ti saresti dovuto scusare.", "Ti saresti dovuta scusare."], explanation: "Attached pronoun → \"avere\"." },
           { type: "multiple-choice", question: "Which sentence is correct?", options: ["Mi sarei potuta fermare.", "Mi avrei potuto fermare.", "Avrei potuta fermarmi.", "Sarei potuto fermarmi."], correctIndex: 0, explanation: "Pronoun before the modal → \"essere\" and agreement." },
         ],
       },
@@ -210,7 +236,7 @@ export const IT_C1_U08: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate.", source: "I would have liked to go there.", answer: "Avrei voluto andarci.", altAnswers: ["Ci sarei voluto andare.", "Ci sarei voluta andare."], explanation: "Two correct patterns." },
       { type: "translate", direction: "en-es", prompt: "Translate with the careful auxiliary.", source: "The train should have arrived at six.", answer: "Il treno sarebbe dovuto arrivare alle sei.", altAnswers: ["Il treno avrebbe dovuto arrivare alle sei."], explanation: "\"Arrivare\" takes \"essere\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The guests [should have come] at eight.", sentence: "Gli ospiti ___ alle otto.", answer: "sarebbero dovuti venire", altAnswers: ["avrebbero dovuto venire"], explanation: "\"Venire\" takes \"essere\"; plural agreement." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "You [should have got up] earlier.", sentence: "___ prima.", answer: "Avresti dovuto alzarti", altAnswers: ["Ti saresti dovuto alzare", "Ti saresti dovuta alzare"], explanation: "Reflexive: two patterns." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "You [should have gotten up] earlier.", sentence: "___ prima.", answer: "Avresti dovuto alzarti", altAnswers: ["Ti saresti dovuto alzare", "Ti saresti dovuta alzare"], explanation: "Reflexive: two patterns." },
       {
         type: "word-order",
         prompt: "Put the words in order to say: She should have left earlier.",
@@ -220,7 +246,7 @@ export const IT_C1_U08: Lesson[] = [
       },
       { type: "multiple-choice", question: "Which sentence is correct?", options: ["Avrebbe dovuto essere più paziente.", "Sarebbe dovuto essere più paziente.", "Avrebbe dovuta essere più paziente.", "Avrebbe dovuto stato più paziente."], correctIndex: 0, explanation: "Before \"essere\", the modal takes \"avere\"." },
       { type: "listen-choose", audio: "Saremmo potuti arrivare in tempo, se non ci fossimo persi.", question: "What happened?", options: ["They got lost and arrived late.", "They arrived in time.", "They didn't leave.", "They took a shortcut."], correctIndex: 0, explanation: "\"Saremmo potuti arrivare\" = could have arrived (but didn't)." },
-      { type: "speak", text: "Avresti dovuto scusarti. Saresti dovuto andare da lei subito.", prompt: "Tell your friend: You should have apologised. You should have gone to her straight away.", tip: "Both auxiliaries in a row: \"avresti\", then \"saresti\".", explanation: "Two should-haves." },
+      { type: "speak", text: "Avresti dovuto scusarti. Saresti dovuto andare da lei subito.", prompt: "Tell your friend: You should have apologized. You should have gone to her right away.", tip: "Both auxiliaries in a row: \"avresti\", then \"saresti\".", explanation: "Two should-haves." },
     ],
   },
   {
@@ -229,23 +255,28 @@ export const IT_C1_U08: Lesson[] = [
     number: 4,
     title: "I Saw Him Leave",
     summary: "Use vedere, sentire, guardare and ascoltare + infinitive, with pronouns, word order and participle agreement: l'ho visto uscire, li ho sentiti litigare.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Perception + infinitive",
         body: [
-          "Verbs of perception take a bare infinitive, never \"a\": \"Ho visto Marco uscire\" (I saw Marco leave), \"Ho sentito i vicini litigare\" (I heard the neighbours arguing). Italian uses the infinitive both for 'leave' and 'leaving'; no gerund is needed.",
+          "Verbs of perception take a bare infinitive, never \"a\": \"Ho visto Marco uscire\" (I saw Marco leave), \"Ho sentito i vicini litigare\" (I heard the neighbors arguing). Italian uses the infinitive both for 'leave' and 'leaving'; no gerund is needed.",
           "The person seen can come before or after the infinitive: \"Ho sentito il telefono squillare\" or \"Ho sentito squillare il telefono\". When the infinitive has its own object, keep the person first: \"Ho visto Anna prendere le chiavi\".",
+          "Speech often prefers a relative clause, which stresses the action in progress: \"Ho visto Marco che usciva dal bar\" (I saw Marco coming out of the bar). It is correct and very common, but it suits description; the infinitive suits a completed event. \"Lasciare\" behaves like a perception verb: \"Lasciami finire!\" (let me finish!), \"L'ho lasciato andare\".",
+          "Two English habits to drop: there is no \"a\" before the infinitive (\"*Ho visto Marco a uscire\") and no gerund (\"*Ho sentito i vicini litigando\"). Italian gerunds after perception verbs refer to the perceiver, not the person perceived: \"Ho visto Marco tornando a casa\" means I saw Marco while I was going home.",
         ],
         examples: [
           { es: "Ho visto Marco uscire dal bar.", en: "I saw Marco leave the bar." },
-          { es: "Ho sentito i vicini litigare.", en: "I heard the neighbours arguing." },
+          { es: "Ho sentito i vicini litigare.", en: "I heard the neighbors arguing." },
           { es: "Ho sentito squillare il telefono.", en: "I heard the phone ring." },
           { es: "Guardavo i bambini giocare in cortile.", en: "I was watching the children play in the courtyard." },
           { es: "Ho visto Anna prendere le chiavi.", en: "I saw Anna take the keys." },
+          { es: "Ho visto Marco che usciva dal bar.", en: "I saw Marco coming out of the bar." },
+          { es: "Lasciami finire!", en: "Let me finish!" },
+          { es: "Ho visto Marco tornando a casa.", en: "I saw Marco on my way home." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate.", source: "I heard the neighbours arguing.", answer: "Ho sentito i vicini litigare.", altAnswers: ["Ho sentito litigare i vicini."], explanation: "Perception + bare infinitive." },
+          { type: "translate", direction: "en-es", prompt: "Translate.", source: "I heard the neighbors arguing.", answer: "Ho sentito i vicini litigare.", altAnswers: ["Ho sentito litigare i vicini."], explanation: "Perception + bare infinitive." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I saw Marco [leave] the bar.", sentence: "Ho visto Marco ___ dal bar.", answer: "uscire", explanation: "No \"a\" before the infinitive." },
         ],
       },
@@ -254,13 +285,19 @@ export const IT_C1_U08: Lesson[] = [
         body: [
           "A pronoun goes before the perception verb: \"L'ho visto uscire\" (I saw him leave), \"La sento arrivare\" (I can hear her coming). In compound tenses, the participle agrees with a preceding direct object pronoun: \"Li ho sentiti litigare\", \"Le ho viste partire\".",
           "If the infinitive has a pronoun of its own, the two combine on the perception verb: \"Gliel'ho sentito dire\" (I heard him say it). \"L'ho sentito dire\" on its own is a set phrase: I've heard it said.",
+          "Without a named person, the infinitive becomes almost passive: \"Ho sentito dire che chiudono la fabbrica\" (I've heard that they're closing the factory), \"Non l'ho mai sentito nominare\" (I've never heard of him). When the person seen is the subject of a transitive infinitive, an indirect pronoun is also possible: \"Gli ho visto fare cose incredibili\" (I've seen him do incredible things).",
+          "Agreement follows the direct object pronoun, so listen for it: \"Ti ho sentita russare\" tells you the person snoring is a woman. With \"guardare\" and \"ascoltare\" the perception is deliberate (\"Mi piace guardarli giocare\", I love watching them play); with \"vedere\" and \"sentire\" it simply happens.",
         ],
         examples: [
           { es: "L'ho visto uscire.", en: "I saw him leave." },
           { es: "Li ho sentiti litigare tutta la notte.", en: "I heard them arguing all night." },
           { es: "Le ho viste partire alle sei.", en: "I saw them leave at six." },
-          { es: "La sento arrivare: riconosco i passi.", en: "I can hear her coming: I recognise the footsteps." },
+          { es: "La sento arrivare: riconosco i passi.", en: "I can hear her coming: I recognize the footsteps." },
           { es: "Gliel'ho sentito dire mille volte.", en: "I've heard him say it a thousand times." },
+          { es: "Ho sentito dire che chiudono la fabbrica.", en: "I've heard that they're closing the factory." },
+          { es: "Non l'ho mai sentito nominare.", en: "I've never heard of him." },
+          { es: "Ti ho sentita russare tutta la notte.", en: "I heard you snoring all night." },
+          { es: "Mi piace guardarli giocare.", en: "I love watching them play." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate.", source: "I heard them arguing all night.", answer: "Li ho sentiti litigare tutta la notte.", altAnswers: ["Le ho sentite litigare tutta la notte."], explanation: "Participle agrees with \"li\"." },
@@ -287,7 +324,7 @@ export const IT_C1_U08: Lesson[] = [
         explanation: "Pronoun, auxiliary, agreeing participle, infinitive.",
       },
       { type: "dictation", audio: "L'ho vista uscire dal portone verso le dieci.", explanation: "\"Vista\" agrees with \"la\"." },
-      { type: "speak", text: "Ieri sera ho sentito i vicini litigare, e stamattina li ho visti partire con le valigie.", prompt: "Tell your friend: Last night I heard the neighbours arguing, and this morning I saw them leave with their suitcases.", tip: "\"Visti\": agreement with \"li\".", explanation: "Perception + infinitive, twice." },
+      { type: "speak", text: "Ieri sera ho sentito i vicini litigare, e stamattina li ho visti partire con le valigie.", prompt: "Tell your friend: Last night I heard the neighbors arguing, and this morning I saw them leave with their suitcases.", tip: "\"Visti\": agreement with \"li\".", explanation: "Perception + infinitive, twice." },
     ],
   },
   {
@@ -331,7 +368,7 @@ export const IT_C1_U08: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "You [could have told] me!", sentence: "___ dirmelo!", answer: "Avresti potuto", altAnswers: ["Potevi"], explanation: "Missed chance." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I [had to work] on Sunday.", sentence: "___ domenica.", answer: "Ho dovuto lavorare", explanation: "Obligation carried out." },
       { type: "fill-blank", prompt: "Write the Italian for the bold word.", en: "Do you [know how to] cook?", sentence: "___ cucinare?", answer: "Sai", explanation: "Skill: \"sapere\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "She [should have got up] earlier.", sentence: "___ prima.", answer: "Si sarebbe dovuta alzare", altAnswers: ["Avrebbe dovuto alzarsi"], explanation: "Reflexive: pronoun first → \"essere\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "She [should have gotten up] earlier.", sentence: "___ prima.", answer: "Si sarebbe dovuta alzare", altAnswers: ["Avrebbe dovuto alzarsi"], explanation: "Reflexive: pronoun first → \"essere\"." },
       { type: "dictation", audio: "Devono aver perso il treno delle otto.", explanation: "Deduction about the past." },
       { type: "dictation", audio: "Li ho sentiti litigare per tutta la sera.", explanation: "Perception + infinitive, agreement." },
       { type: "speak", text: "Doveva arrivare alle otto. Deve aver perso il treno: avrebbe potuto almeno avvisare!", prompt: "Complain about your late friend: He was supposed to arrive at eight. He must have missed the train: he could at least have let us know!", tip: "Three modal meanings: expectation, deduction, missed chance.", explanation: "\"Doveva\", \"deve aver\", \"avrebbe potuto\"." },
@@ -369,7 +406,7 @@ export const IT_C1_U08: Lesson[] = [
           "Ferri: \"Il nipote non può essere stato: era in giardino e sarebbe rientrato bagnato. E la signora? Doveva partire, ma non è partita. Perché?\" Note \"non può essere stato\" (it can't have been him), the negative deduction.",
         ],
         examples: [
-          { es: "Ho sentito il signor Bassi litigare con il nipote.", en: "I heard Mr Bassi arguing with his nephew." },
+          { es: "Ho sentito il signor Bassi litigare con il nipote.", en: "I heard Mr. Bassi arguing with his nephew." },
           { es: "L'ho visto uscire in giardino, ma non l'ho visto rientrare.", en: "I saw him go out into the garden, but I didn't see him come back in." },
           { es: "La signora doveva partire per Milano stasera.", en: "The lady was supposed to leave for Milan this evening." },
           { es: "Il nipote non può essere stato.", en: "It can't have been the nephew." },
@@ -394,7 +431,7 @@ export const IT_C1_U08: Lesson[] = [
           { es: "Non ce l'ho fatta.", en: "I couldn't bring myself to." },
         ],
         checkpoint: [
-          { type: "multiple-choice", question: "Who took the painting, and why?", options: ["Mrs Bassi, because she had debts", "The nephew, after the argument", "The chef, for money", "An outsider through the window"], correctIndex: 0, explanation: "\"I debiti non aspettano.\"" },
+          { type: "multiple-choice", question: "Who took the painting, and why?", options: ["Mrs. Bassi, because she had debts", "The nephew, after the argument", "The chef, for money", "An outsider through the window"], correctIndex: 0, explanation: "\"I debiti non aspettano.\"" },
           { type: "translate", direction: "en-es", prompt: "Translate the lady's confession.", source: "I should have told my husband.", answer: "Avrei dovuto dirlo a mio marito.", altAnswers: ["Avrei dovuto dirglielo.", "Lo avrei dovuto dire a mio marito."], explanation: "Regret: past conditional of \"dovere\"." },
         ],
       },
@@ -402,7 +439,7 @@ export const IT_C1_U08: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate.", source: "The glass was broken from the outside.", answer: "Il vetro è stato rotto dall'esterno.", altAnswers: ["Il vetro è stato rotto da fuori."], explanation: "Passive passato prossimo." },
       { type: "translate", direction: "en-es", prompt: "Translate the inspector's deduction.", source: "The glass must have been broken to mislead us.", answer: "Il vetro deve essere stato rotto per ingannarci.", altAnswers: ["Il vetro dev'essere stato rotto per ingannarci.", "Il vetro deve essere stato rotto per depistarci."], explanation: "Passive past infinitive: \"essere stato rotto\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate the housekeeper's statement.", source: "I heard Mr Bassi arguing with his nephew.", answer: "Ho sentito il signor Bassi litigare con il nipote.", altAnswers: ["Ho sentito il signor Bassi litigare col nipote.", "Ho sentito litigare il signor Bassi con il nipote."], explanation: "Perception + infinitive." },
+      { type: "translate", direction: "en-es", prompt: "Translate the housekeeper's statement.", source: "I heard Mr. Bassi arguing with his nephew.", answer: "Ho sentito il signor Bassi litigare con il nipote.", altAnswers: ["Ho sentito il signor Bassi litigare col nipote.", "Ho sentito litigare il signor Bassi con il nipote."], explanation: "Perception + infinitive." },
       { type: "translate", direction: "en-es", prompt: "Translate the guest's statement.", source: "The lady was supposed to leave for Milan this evening.", answer: "La signora doveva partire per Milano stasera.", altAnswers: ["La signora doveva partire per Milano questa sera."], explanation: "\"Doveva\" = was supposed to." },
       { type: "translate", direction: "en-es", prompt: "Translate the inspector's words (Lei).", source: "You didn't manage to sell the painting.", answer: "Non è riuscita a vendere il quadro.", explanation: "Failed attempt: \"riuscire\"." },
       { type: "translate", direction: "en-es", prompt: "Translate the inspector's words (Lei).", source: "You could have waited.", answer: "Avrebbe potuto aspettare.", explanation: "Missed option." },
@@ -454,7 +491,7 @@ export const IT_C1_U08: Lesson[] = [
         heading: "Prepositions and auxiliaries",
         body: [
           "Modals and perception verbs take a bare infinitive: \"*Non sono potuto di venire\" should be \"Non sono potuto venire\" (or \"Non ho potuto venire\"), and \"*L'ho visto a uscire\" should be \"L'ho visto uscire\". The preposition creeps in from other verbs (\"cercare di\", \"riuscire a\").",
-          "Watch the auxiliary with reflexives: \"*Mi ho dovuto alzare\" is impossible. Either \"Mi sono dovuto alzare\" (pronoun first, \"essere\") or \"Ho dovuto alzarmi\" (pronoun attached, \"avere\"). And with \"essere\" as infinitive, use \"avere\": \"*È dovuto essere operato\" becomes \"Ha dovuto essere operato\" (he had to have an operation).",
+          "Watch the auxiliary with reflexives: \"*Mi ho dovuto alzare\" is impossible. Either \"Mi sono dovuto alzare\" (pronoun first, \"essere\") or \"Ho dovuto alzarmi\" (pronoun attached, \"avere\"). And with \"essere\" as infinitive, careful Italian uses \"avere\": \"Ha dovuto essere operato\" (he had to have an operation) rather than \"È dovuto essere operato\", which is heard but avoided in writing. In conversation most people sidestep the problem: \"Si è dovuto operare\" or \"Ha dovuto farsi operare\".",
         ],
         examples: [
           { es: "Non sono potuto venire.", en: "I couldn't come." },
@@ -472,12 +509,12 @@ export const IT_C1_U08: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"L'ho visto a uscire\". Fix it: I saw him leave.", source: "I saw him leave.", answer: "L'ho visto uscire.", explanation: "Bare infinitive." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Hanno dovuto perdere il treno\" as a deduction. Fix it: They must have missed the train.", source: "They must have missed the train.", answer: "Devono aver perso il treno.", altAnswers: ["Devono avere perso il treno.", "Avranno perso il treno."], explanation: "Deduction, not obligation." },
-      { type: "translate", direction: "en-es", prompt: "A learner wrote \"È dovuto essere operato\". Fix it: He had to have an operation.", source: "He had to have an operation.", answer: "Ha dovuto essere operato.", altAnswers: ["Si è dovuto operare.", "Ha dovuto farsi operare."], explanation: "Before \"essere\", the modal takes \"avere\"." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"È dovuto essere operato\" in a formal email. Fix it: He had to have an operation.", source: "He had to have an operation.", answer: "Ha dovuto essere operato.", altAnswers: ["Si è dovuto operare.", "Ha dovuto farsi operare."], explanation: "Before \"essere\", careful Italian gives the modal \"avere\"; the reflexive versions are what most people say." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Ho sentito loro cantare\". Fix it: I heard them sing.", source: "I heard them sing.", answer: "Li ho sentiti cantare.", altAnswers: ["Le ho sentite cantare."], explanation: "Unstressed pronoun before the verb, agreement." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Non ho potuto aprire il barattolo, ci ho provato per mezz'ora\". Fix it: I didn't manage to open the jar; I tried for half an hour.", source: "I didn't manage to open the jar; I tried for half an hour.", answer: "Non sono riuscito ad aprire il barattolo; ci ho provato per mezz'ora.", altAnswers: ["Non sono riuscita ad aprire il barattolo; ci ho provato per mezz'ora.", "Non sono riuscito ad aprire il barattolo, ci ho provato per mezz'ora."], explanation: "Effort that failed: \"riuscire\"." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Non posso nuotare, non ho mai imparato\". Fix it: I can't swim; I never learned.", source: "I can't swim; I never learned.", answer: "Non so nuotare; non ho mai imparato.", altAnswers: ["Non so nuotare, non ho mai imparato."], explanation: "Skill: \"sapere\"." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Lei sarebbe dovuto partire\" (lei = she). Fix it: She should have left.", source: "She should have left.", answer: "Sarebbe dovuta partire.", altAnswers: ["Lei sarebbe dovuta partire.", "Avrebbe dovuto partire."], explanation: "With \"essere\", the participle agrees." },
-      { type: "fill-blank", prompt: "A learner wrote \"dovrebbe\". Write the Italian for the bold words.", en: "The train [was supposed to] leave at nine, but it was cancelled.", sentence: "Il treno ___ partire alle nove, ma è stato cancellato.", answer: "doveva", explanation: "A plan in the past: imperfect." },
+      { type: "fill-blank", prompt: "A learner wrote \"dovrebbe\". Write the Italian for the bold words.", en: "The train [was supposed to] leave at nine, but it was canceled.", sentence: "Il treno ___ partire alle nove, ma è stato cancellato.", answer: "doveva", explanation: "A plan in the past: imperfect." },
       { type: "fill-blank", prompt: "A learner wrote \"ha potuto chiamare\". Write the Italian for the bold words.", en: "He [could have called], but he didn't.", sentence: "___ chiamare, ma non l'ha fatto.", answer: "Avrebbe potuto", altAnswers: ["Poteva"], explanation: "Missed chance." },
       { type: "multiple-choice", question: "Which sentence is correct?", options: ["Si sono dovuti fermare.", "Si hanno dovuto fermare.", "Hanno dovuti fermarsi.", "Sono dovuto fermarsi."], correctIndex: 0, explanation: "Pronoun first → \"essere\" + agreement." },
       { type: "multiple-choice", question: "Which sentence means 'she must have been ill'?", options: ["Deve essere stata male.", "Ha dovuto essere male.", "Ha dovuto stare male.", "Dovrebbe stare male."], correctIndex: 0, explanation: "Deduction about the past." },
@@ -490,13 +527,13 @@ export const IT_C1_U08: Lesson[] = [
     level: "IT-C1",
     number: 8,
     title: "Dialogue Lab: Who Did It?",
-    summary: "Follow three flatmates working out who ate the birthday cake, with deductions, alibis, perception verbs and should-haves.",
+    summary: "Follow three roommates working out who ate the birthday cake, with deductions, alibis, perception verbs and should-haves.",
     duration: "19 min",
     sections: [
       {
         heading: "The missing cake",
         body: [
-          "Irene, Luca and Tommaso share a flat in Padova. Irene made a cake for her sister's birthday and left it in the fridge. This morning half of it has gone. Irene: \"Qualcuno deve averla mangiata stanotte. Non può essere stato il gatto: il frigo era chiuso!\"",
+          "Irene, Luca and Tommaso share an apartment in Padova. Irene made a cake for her sister's birthday and left it in the fridge. This morning half of it has gone. Irene: \"Qualcuno deve averla mangiata stanotte. Non può essere stato il gatto: il frigo era chiuso!\"",
           "Luca: \"Io non sono stato. Ieri sera sono dovuto uscire per lavoro e sono rientrato all'una\". Irene: \"All'una? Allora devi aver visto qualcosa\". Luca: \"Ho sentito qualcuno aprire il frigo, ma ero troppo stanco per alzarmi\".",
         ],
         examples: [
@@ -533,18 +570,18 @@ export const IT_C1_U08: Lesson[] = [
         heading: "What should have happened",
         body: [
           "Irene: \"Avresti potuto chiedere! E tu, Luca, se hai sentito qualcuno, saresti potuto venire a vedere\". Luca: \"Hai ragione, avrei dovuto alzarmi\". Tommaso: \"Dai, Irene, poteva andare peggio: almeno ne ho lasciata metà!\"",
-          "Irene: \"Allora stasera ne prepari un'altra tu. E la prossima volta, scrivo il nome sulla scatola\". The quarrel ends with a solution, a should-have for each flatmate, and a joke.",
+          "Irene: \"Allora stasera ne prepari un'altra tu. E la prossima volta, scrivo il nome sulla scatola\". The quarrel ends with a solution, a should-have for each roommate, and a joke.",
         ],
         examples: [
           { es: "Avresti potuto chiedere!", en: "You could have asked!" },
           { es: "Saresti potuto venire a vedere.", en: "You could have come and looked." },
-          { es: "Avrei dovuto alzarmi.", en: "I should have got up." },
+          { es: "Avrei dovuto alzarmi.", en: "I should have gotten up." },
           { es: "Poteva andare peggio: almeno ne ho lasciata metà!", en: "It could have been worse: at least I left half!" },
           { es: "Stasera ne prepari un'altra tu.", en: "Tonight you're making another one." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate Irene's line (tu).", source: "You could have asked!", answer: "Avresti potuto chiedere!", altAnswers: ["Potevi chiedere!", "Potevi chiederlo!"], explanation: "Missed chance." },
-          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I [should have got up].", sentence: "___.", answer: "Avrei dovuto alzarmi", altAnswers: ["Mi sarei dovuto alzare"], explanation: "Reflexive with attached pronoun → \"avere\"." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I [should have gotten up].", sentence: "___.", answer: "Avrei dovuto alzarmi", altAnswers: ["Mi sarei dovuto alzare"], explanation: "Reflexive with attached pronoun → \"avere\"." },
         ],
       },
     ],
@@ -582,14 +619,14 @@ export const IT_C1_U08: Lesson[] = [
       {
         heading: "Plan versus reality",
         body: [
-          "Your mission: you work for a cultural association in Torino. The open-air film festival last July was a failure: the screen arrived late, the first evening was cancelled, and ticket sales were half of what was expected. The board asks you for an analysis (\"un'analisi\") for the next meeting.",
+          "Your mission: you work for a cultural association in Torino. The open-air film festival last July was a failure: the screen arrived late, the first evening was canceled, and ticket sales were half of what was expected. The board asks you for an analysis (\"un'analisi\") for the next meeting.",
           "Start with the plan, in \"doveva\" / \"dovevano\": \"Il festival doveva iniziare il 5 luglio\". Then the facts in the passato prossimo, with \"non siamo riusciti a\" for failed attempts: \"Il fornitore non è riuscito a consegnare lo schermo in tempo, e la prima serata è stata annullata\".",
         ],
         examples: [
-          { es: "Il festival doveva iniziare il 5 luglio.", en: "The festival was supposed to start on 5 July." },
+          { es: "Il festival doveva iniziare il 5 luglio.", en: "The festival was supposed to start on July 5." },
           { es: "Lo schermo doveva arrivare due giorni prima.", en: "The screen was supposed to arrive two days earlier." },
           { es: "Il fornitore non è riuscito a consegnarlo in tempo.", en: "The supplier didn't manage to deliver it on time." },
-          { es: "La prima serata è stata annullata.", en: "The first evening was cancelled." },
+          { es: "La prima serata è stata annullata.", en: "The first evening was canceled." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate for the analysis.", source: "The screen was supposed to arrive two days earlier.", answer: "Lo schermo doveva arrivare due giorni prima.", explanation: "\"Doveva\" = the plan." },
@@ -605,7 +642,7 @@ export const IT_C1_U08: Lesson[] = [
         examples: [
           { es: "Avremmo dovuto firmare il contratto prima.", en: "We should have signed the contract earlier." },
           { es: "Il fornitore avrebbe dovuto essere più puntuale.", en: "The supplier should have been more punctual." },
-          { es: "Si sarebbe potuto noleggiare uno schermo di riserva.", en: "A spare screen could have been hired." },
+          { es: "Si sarebbe potuto noleggiare uno schermo di riserva.", en: "A spare screen could have been rented." },
           { es: "La pubblicità deve essere arrivata troppo tardi.", en: "The advertising must have come too late." },
           { es: "Per la prossima edizione dovremo prevedere un piano B.", en: "For the next edition we will need a plan B." },
         ],
@@ -616,10 +653,10 @@ export const IT_C1_U08: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate for the analysis.", source: "The festival was supposed to start on 5 July.", answer: "Il festival doveva iniziare il 5 luglio.", altAnswers: ["Il festival doveva cominciare il 5 luglio."], explanation: "The plan." },
-      { type: "translate", direction: "en-es", prompt: "Translate for the analysis.", source: "The first evening was cancelled.", answer: "La prima serata è stata annullata.", altAnswers: ["La prima serata è stata cancellata."], explanation: "Passive passato prossimo." },
+      { type: "translate", direction: "en-es", prompt: "Translate for the analysis.", source: "The festival was supposed to start on July 5.", answer: "Il festival doveva iniziare il 5 luglio.", altAnswers: ["Il festival doveva cominciare il 5 luglio."], explanation: "The plan." },
+      { type: "translate", direction: "en-es", prompt: "Translate for the analysis.", source: "The first evening was canceled.", answer: "La prima serata è stata annullata.", altAnswers: ["La prima serata è stata cancellata."], explanation: "Passive passato prossimo." },
       { type: "translate", direction: "en-es", prompt: "Translate for the analysis.", source: "The supplier should have been more punctual.", answer: "Il fornitore avrebbe dovuto essere più puntuale.", explanation: "Before \"essere\": \"avrebbe dovuto\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate for the analysis.", source: "A spare screen could have been hired.", answer: "Si sarebbe potuto noleggiare uno schermo di riserva.", altAnswers: ["Si poteva noleggiare uno schermo di riserva.", "Avremmo potuto noleggiare uno schermo di riserva."], explanation: "Impersonal \"si\" + past conditional." },
+      { type: "translate", direction: "en-es", prompt: "Translate for the analysis.", source: "A spare screen could have been rented.", answer: "Si sarebbe potuto noleggiare uno schermo di riserva.", altAnswers: ["Si poteva noleggiare uno schermo di riserva.", "Avremmo potuto noleggiare uno schermo di riserva."], explanation: "Impersonal \"si\" + past conditional." },
       { type: "translate", direction: "en-es", prompt: "Translate for the analysis.", source: "Ticket sales were half of what was expected.", answer: "Le vendite dei biglietti sono state la metà del previsto.", altAnswers: ["Abbiamo venduto la metà dei biglietti previsti."], explanation: "\"La metà del previsto\" = half of what was expected." },
       { type: "translate", direction: "en-es", prompt: "Translate for the analysis.", source: "For the next edition we will need a plan B.", answer: "Per la prossima edizione dovremo prevedere un piano B.", altAnswers: ["Per la prossima edizione avremo bisogno di un piano B."], explanation: "Future of \"dovere\"." },
       { type: "translate", direction: "en-es", prompt: "Translate for the analysis.", source: "We should start the promotion in May.", answer: "Dovremmo iniziare la promozione a maggio.", altAnswers: ["Dovremmo cominciare la promozione a maggio."], explanation: "Recommendation: conditional." },
@@ -633,7 +670,7 @@ export const IT_C1_U08: Lesson[] = [
         explanation: "Past conditional of \"dovere\" + infinitive.",
       },
       { type: "multiple-choice", question: "Which sentence keeps the analysis constructive?", options: ["Avremmo dovuto prevedere uno schermo di riserva.", "È tutta colpa di Marco.", "Il festival doveva essere un disastro.", "Non sappiamo organizzare niente."], correctIndex: 0, explanation: "\"Noi\" + a concrete should-have, no blame." },
-      { type: "listen-choose", audio: "Il fornitore non è riuscito a consegnare lo schermo in tempo, e la prima serata è stata annullata.", question: "Why was the first evening cancelled?", options: ["The screen wasn't delivered on time.", "It rained.", "Nobody bought tickets.", "The film was lost."], correctIndex: 0, explanation: "\"Non è riuscito a consegnare\"." },
+      { type: "listen-choose", audio: "Il fornitore non è riuscito a consegnare lo schermo in tempo, e la prima serata è stata annullata.", question: "Why was the first evening canceled?", options: ["The screen wasn't delivered on time.", "It rained.", "Nobody bought tickets.", "The film was lost."], correctIndex: 0, explanation: "\"Non è riuscito a consegnare\"." },
       { type: "speak", text: "Avremmo dovuto firmare il contratto prima. Per la prossima edizione dovremo prevedere un piano B.", prompt: "Present your conclusion to the board: We should have signed the contract earlier. For the next edition we will need a plan B.", tip: "\"Avremmo\": double m, stress on \"-rem-\".", explanation: "Should-have + recommendation." },
     ],
   },
@@ -642,13 +679,13 @@ export const IT_C1_U08: Lesson[] = [
     level: "IT-C1",
     number: 10,
     title: "Listening Lab: Deductions",
-    summary: "Listen to neighbours piecing together what happened in their building overnight, and follow each deduction, alibi and what-if.",
+    summary: "Listen to neighbors piecing together what happened in their building overnight, and follow each deduction, alibi and what-if.",
     duration: "19 min",
     sections: [
       {
         heading: "What happened last night",
         body: [
-          "In this lab you hear a conversation on the stairs of a building in Genova. This morning the front door was found open and a bicycle has disappeared. Three neighbours, signora Ricci, Paolo and Asia, try to work out what happened.",
+          "In this lab you hear a conversation on the stairs of a building in Genova. This morning the front door was found open and a bicycle has disappeared. Three neighbors, signora Ricci, Paolo and Asia, try to work out what happened.",
           "Signora Ricci: \"Il portone deve essere rimasto aperto tutta la notte\". Paolo: \"Non può essere: alle undici l'ho chiuso io\". Asia: \"Allora qualcuno deve averlo riaperto dopo. Io ho sentito sbattere una porta verso le due\".",
         ],
         examples: [
@@ -699,7 +736,7 @@ export const IT_C1_U08: Lesson[] = [
 
 export const IT_C1_U08_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Your language school organised a weekend trip to Florence for 40 students, and it went badly: the coach was late, the museum booking was lost, and two students missed the return train. Write a short analysis for the school director: what was supposed to happen, what went wrong, what could and should have been done, and what the school should do next time.",
+  prompt: "Your language school organized a weekend trip to Florence for 40 students, and it went badly: the bus was late, the museum booking was lost, and two students missed the return train. Write a short analysis for the school director: what was supposed to happen, what went wrong, what could and should have been done, and what the school should do next time.",
   minWords: 180,
   maxWords: 240,
   rubric: [

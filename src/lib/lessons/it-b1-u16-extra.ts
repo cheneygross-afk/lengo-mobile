@@ -90,7 +90,7 @@ export const IT_B1_U16_EXTRA: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words, as a history book would. (The everyday past is accepted too.)", en: "The Romans [built] roads all over Europe.", sentence: "I Romani ___ strade in tutta Europa.", answer: "costruirono", altAnswers: ["hanno costruito"], explanation: "Regular -ire: \"costruirono\"." },
       { type: "word-order", prompt: "Put the words in order to say: The baby was born in the spring.", words: ["Il", "bambino", "nacque", "in", "primavera."], translation: "The baby was born in the spring.", explanation: "\"Nacque\" = \"è nato\"." },
       { type: "matching", instructions: "Match the remote past to its infinitive.", pairs: [{ left: "spense", right: "spegnere" }, { left: "scelse", right: "scegliere" }, { left: "piansi", right: "piangere" }, { left: "corsero", right: "correre" }, { left: "crebbe", right: "crescere" }], explanation: "The 1-3-3 stems." },
-      { type: "listen-choose", audio: "Si accorse dell'errore troppo tardi.", question: "What does it mean?", options: ["He noticed the mistake too late.", "He made the mistake too late.", "He will notice the mistake too late.", "He corrected the mistake in time."], correctIndex: 0, explanation: "\"Accorgersi\" → \"si accorse\" = noticed, realised." },
+      { type: "listen-choose", audio: "Si accorse dell'errore troppo tardi.", question: "What does it mean?", options: ["He noticed the mistake too late.", "He made the mistake too late.", "He will notice the mistake too late.", "He corrected the mistake in time."], correctIndex: 0, explanation: "\"Accorgersi\" → \"si accorse\" = noticed, realized." },
       { type: "dictation", audio: "Chiuse la porta e spense la luce.", explanation: "Two irregulars: \"chiuse\", \"spense\"." },
       { type: "speak", text: "Lesse la lettera, pianse un po' e poi decise di partire.", prompt: "Read aloud: She read the letter, cried a little and then decided to leave.", tip: "\"Pianse\": PIAN-se, stress on the first syllable.", explanation: "Three irregular remote pasts." },
     ],
@@ -138,7 +138,7 @@ export const IT_B1_U16_EXTRA: Lesson[] = [
       { type: "multi-select", question: "Which words are remote past forms? Choose all that apply.", options: ["nacque", "insegnava", "scoprì", "fu", "abitavano"], correctIndexes: [0, 2, 3], explanation: "\"Insegnava\" and \"abitavano\" are imperfetto." },
       { type: "listen-choose", audio: "Galileo insegnò matematica a Padova.", question: "What did Galileo do in Padua?", options: ["He taught mathematics.", "He studied medicine.", "He was born there.", "He built a church."], correctIndex: 0, explanation: "\"Insegnò\" = taught." },
       { type: "dictation", audio: "E così nacque Venezia.", explanation: "\"Nacque\" with \"cq\"." },
-      { type: "speak", text: "Galileo nacque a Pisa, insegnò a Padova e scoprì i satelliti di Giove.", prompt: "Summarise aloud: Galileo was born in Pisa, taught in Padua and discovered the moons of Jupiter.", tip: "\"Giove\": soft g, JO-ve.", explanation: "Three life events in the remote past." },
+      { type: "speak", text: "Galileo nacque a Pisa, insegnò a Padova e scoprì i satelliti di Giove.", prompt: "Summarize aloud: Galileo was born in Pisa, taught in Padua and discovered the moons of Jupiter.", tip: "\"Giove\": soft g, JO-ve.", explanation: "Three life events in the remote past." },
     ],
   },
 ];

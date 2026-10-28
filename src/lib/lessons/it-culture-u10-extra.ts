@@ -17,17 +17,17 @@ export const IT_CULTURE_U10_EXTRA: Lesson[] = [
       {
         heading: "At the counter",
         body: [
-          "In offices, use \"Lei\" and the polite forms: \"Scusi\", \"Vorrei\", \"Potrebbe...?\" A counter is \"lo sportello\", a form is \"il modulo\", and \"compilare\" means to fill in. \"Gli orari di apertura\" are the opening hours, and many public offices close early in the afternoon.",
+          "In offices, use \"Lei\" and the polite forms: \"Scusi\", \"Vorrei\", \"Potrebbe...?\" A counter is \"lo sportello\", a form is \"il modulo\", and \"compilare\" means to fill out. \"Gli orari di apertura\" are the opening hours, and many public offices close early in the afternoon.",
         ],
         examples: [
           { es: "Scusi, è questo lo sportello giusto?", en: "Excuse me, is this the right counter?" },
-          { es: "Deve compilare questo modulo.", en: "You have to fill in this form." },
+          { es: "Deve compilare questo modulo.", en: "You have to fill out this form." },
           { es: "L'ufficio chiude alle tredici.", en: "The office closes at 1 p.m." },
           { es: "Potrebbe ripetere, per favore?", en: "Could you repeat that, please?" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Could you repeat that, please?", answer: "Potrebbe ripetere, per favore?", altAnswers: ["Può ripetere, per favore?", "Me lo potrebbe ripetere, per favore?"], explanation: "Conditional for politeness." },
-          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "You have to [fill in] this form.", sentence: "Deve ___ questo modulo.", answer: "compilare", explanation: "\"Compilare\" = to fill in." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "You have to [fill out] this form.", sentence: "Deve ___ questo modulo.", answer: "compilare", explanation: "\"Compilare\" = to fill out." },
         ],
       },
     ],
@@ -50,7 +50,7 @@ export const IT_CULTURE_U10_EXTRA: Lesson[] = [
         pairs: [
           { left: "lo sportello", right: "the counter" },
           { left: "il modulo", right: "the form" },
-          { left: "compilare", right: "to fill in" },
+          { left: "compilare", right: "to fill out" },
           { left: "firmare", right: "to sign" },
           { left: "la fotocopia", right: "the photocopy" },
         ],

@@ -25,7 +25,7 @@ export const IT_B1_U07: Lesson[] = [
           { es: "Penso che Luca lavori troppo.", en: "I think Luca works too much." },
           { es: "Spero che tu dorma bene.", en: "I hope you sleep well." },
           { es: "Voglio che Marta prenda il treno.", en: "I want Marta to take the train." },
-          { es: "Penso che i miei vicini parlino tedesco.", en: "I think my neighbours speak German." },
+          { es: "Penso che i miei vicini parlino tedesco.", en: "I think my neighbors speak German." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I think Luca works too much.", answer: "Penso che Luca lavori troppo.", altAnswers: ["Credo che Luca lavori troppo."], explanation: "\"Lavorare\" → \"lavori\": the \"a\" becomes \"i\"." },
@@ -37,13 +37,14 @@ export const IT_B1_U07: Lesson[] = [
         body: [
           "\"Parlare\": \"che io parli, che tu parli, che lui / lei parli, che noi parliamo, che voi parliate, che loro parlino\". The three singular forms are identical; \"noi\" is the same as the present; \"voi\" ends in \"-iate\".",
           "Stress in the \"loro\" form stays where it is in the present: \"PARlano\" → \"PARlino\", \"ABitano\" → \"ABitino\". Spelling: \"-care / -gare\" verbs add an \"h\" to keep the hard sound (\"cerchi\", \"paghi\", \"cerchiamo\"); \"-ciare / -giare\" verbs keep a single \"i\" (\"mangi\", \"cominci\").",
+          "The same goes for other \"-iare\" verbs whose \"i\" is unstressed: \"studiare\" gives \"che tu studi\", \"che studino\", never \"studii\" or \"mangii\". Only when the \"i\" is stressed in the present does it survive: \"invio\" → \"che tu invii\", \"scio\" → \"che loro sciino\". One side effect: for these verbs the \"voi\" subjunctive looks exactly like the present (\"mangiate\", \"studiate\", \"cambiate\"), so only the context and the \"che\" tell you which mood it is.",
         ],
         examples: [
           { es: "Spero che tu non paghi troppo.", en: "I hope you don't pay too much." },
           { es: "Voglio che cerchiate un altro albergo.", en: "I want you to look for another hotel. (plural)" },
           { es: "Penso che in Spagna mangino tardi.", en: "I think they eat late in Spain." },
           { es: "Spero che il film cominci presto.", en: "I hope the film starts soon." },
-          { es: "Penso che abitino in centro.", en: "I think they live in the centre." },
+          { es: "Penso che abitino in centro.", en: "I think they live in the center." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I hope you don't pay too much. (to a friend)", answer: "Spero che tu non paghi troppo.", altAnswers: ["Spero che non paghi troppo."], explanation: "\"Pagare\" → \"paghi\": the \"h\" keeps the hard g." },
@@ -72,14 +73,14 @@ export const IT_B1_U07: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I hope Anna finishes soon.", answer: "Spero che Anna finisca presto.", explanation: "\"-isc-\" stays: \"finisca\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I want Marta to take the train.", answer: "Voglio che Marta prenda il treno.", explanation: "\"Prendere\" → \"prenda\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I think they live in the centre.", answer: "Penso che abitino in centro.", altAnswers: ["Credo che abitino in centro.", "Penso che vivano in centro.", "Credo che vivano in centro."], explanation: "Stress: \"ABitino\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I think they live in the center.", answer: "Penso che abitino in centro.", altAnswers: ["Credo che abitino in centro.", "Penso che vivano in centro.", "Credo che vivano in centro."], explanation: "Stress: \"ABitino\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I think they read a lot.", answer: "Penso che leggano molto.", altAnswers: ["Credo che leggano molto.", "Penso che leggano tanto."], explanation: "\"Leggere\" → \"leggano\" (hard g)." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I want you to look for another hotel. (plural)", answer: "Voglio che cerchiate un altro albergo.", altAnswers: ["Voglio che cerchiate un altro hotel."], explanation: "\"Cercare\" → \"cerchiate\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I hope they win.", answer: "Spero che vincano.", altAnswers: ["Spero che loro vincano."], explanation: "\"Vincere\" → \"vincano\" (hard c)." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I think Giorgio prefers the sea.", answer: "Penso che Giorgio preferisca il mare.", altAnswers: ["Credo che Giorgio preferisca il mare."], explanation: "\"Preferire\" → \"preferisca\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I want you to [open] the window. (plural)", sentence: "Voglio che ___ la finestra.", answer: "apriate", explanation: "\"Voi\": \"-iate\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I hope we [arrive] on time.", sentence: "Spero che ___ in orario.", answer: "arriviamo", explanation: "\"Noi\" = same as the present." },
-      { type: "multiple-choice", question: "Which is the subjunctive of \"mangiare\" (loro)?", options: ["mangino", "mangiano", "mangiino", "manghino"], correctIndex: 0, explanation: "\"-giare\": one i, no h." },
+      { type: "multiple-choice", question: "How do you say: I hope they eat with us?", options: ["Spero che mangino con noi.", "Spero che mangiano con noi.", "Spero che mangiino con noi.", "Spero che manghino con noi."], correctIndex: 0, explanation: "\"-giare\" verbs keep one \"i\" and no \"h\": \"mangino\". \"Mangiano\" is the indicative." },
       { type: "dictation", audio: "Spero che tu dorma bene e che domani ti senta meglio.", explanation: "\"Dorma\", \"senta\": -ire verbs swap to -a." },
       { type: "speak", text: "Spero che parlino piano e che non usino troppe parole difficili.", prompt: "Say it in Italian: I hope they speak slowly and don't use too many difficult words.", tip: "PAR-li-no, U-si-no: stress on the first syllable.", explanation: "Two -are verbs in the loro form." },
     ],
@@ -96,7 +97,7 @@ export const IT_B1_U07: Lesson[] = [
         heading: "Essere: sia",
         body: [
           "\"Che io sia, tu sia, lui / lei sia, noi siamo, voi siate, loro siano\". You'll use it constantly: \"Penso che sia vero\" (I think it's true), \"Spero che siate contenti\".",
-          "Pronounce \"sia\" as two syllables: SI-a. \"Siano\" is SI-a-no.",
+          "Pronounce \"sia\" as two syllables: SI-a. \"Siano\" is SI-a-no. Don't confuse it with \"stia\" (from \"stare\"): \"Spero che tu stia bene\" is about health and mood, \"Spero che tu sia contento\" about a state you're in.",
         ],
         examples: [
           { es: "Penso che sia vero.", en: "I think it's true." },
@@ -117,7 +118,7 @@ export const IT_B1_U07: Lesson[] = [
         ],
         examples: [
           { es: "Penso che tu abbia ragione.", en: "I think you're right." },
-          { es: "Spero che abbiano fame: ho cucinato tanto!", en: "I hope they're hungry: I've cooked loads!" },
+          { es: "Spero che abbiano fame: ho cucinato tanto!", en: "I hope they're hungry: I've cooked so much!" },
           { es: "Penso che Paolo abbia fretta.", en: "I think Paolo is in a hurry." },
           { es: "Spero che abbiate tempo domani.", en: "I hope you have time tomorrow. (plural)" },
         ],
@@ -130,6 +131,7 @@ export const IT_B1_U07: Lesson[] = [
         heading: "C'è → ci sia",
         body: [
           "\"C'è\" and \"ci sono\" become \"ci sia\" and \"ci siano\": \"Penso che ci sia un problema\", \"Spero che ci siano posti liberi\". This is one of the most useful subjunctive phrases in daily life.",
+          "Match the verb to what follows, as with \"c'è / ci sono\": \"Spero che ci sia un tavolo\", but \"Spero che ci siano due tavoli\". And spell \"abbia\" with a double \"b\", like \"abbiamo\": a single b is a common slip in writing, as is falling back on the indicative (\"penso che tu hai ragione\"), which you'll hear in casual speech but should not write.",
         ],
         examples: [
           { es: "Penso che ci sia un problema.", en: "I think there's a problem." },
@@ -168,10 +170,10 @@ export const IT_B1_U07: Lesson[] = [
         heading: "Start from the io form",
         body: [
           "Most irregular subjunctives are regular once you start from the \"io\" present: drop the \"-o\" and add \"-a\". \"Vado\" → \"vada\", \"faccio\" → \"faccia\", \"vengo\" → \"venga\", \"dico\" → \"dica\". The singular is \"-a\" for all three persons, the \"loro\" form adds \"-no\": \"vadano\", \"facciano\", \"vengano\", \"dicano\".",
-          "\"Stare\" and \"dare\" are short: \"stia, stia, stia, stiano\" and \"dia, dia, dia, diano\".",
+          "\"Stare\" and \"dare\" are short: \"stia, stia, stia, stiano\" and \"dia, dia, dia, diano\". Keep \"dia\" (from \"dare\") apart from \"dica\" (from \"dire\"): \"Spero che mi dia una mano\" (I hope he gives me a hand) but \"Spero che mi dica la verità\" (I hope she tells me the truth). And \"che io dia\" never takes an accent, unlike the present \"dà\".",
         ],
         examples: [
-          { es: "Spero che tu vada in vacanza.", en: "I hope you go on holiday." },
+          { es: "Spero che tu vada in vacanza.", en: "I hope you go on vacation." },
           { es: "Voglio che facciano i compiti.", en: "I want them to do their homework." },
           { es: "Spero che Luisa venga alla festa.", en: "I hope Luisa comes to the party." },
           { es: "Spero che tua madre stia meglio.", en: "I hope your mother is feeling better." },
@@ -218,7 +220,7 @@ export const IT_B1_U07: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I hope you go on holiday. (to a friend)", answer: "Spero che tu vada in vacanza.", altAnswers: ["Spero che vada in vacanza.", "Spero che tu vada in ferie."], explanation: "\"Vado\" → \"vada\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I hope you go on vacation. (to a friend)", answer: "Spero che tu vada in vacanza.", altAnswers: ["Spero che vada in vacanza.", "Spero che tu vada in ferie."], explanation: "\"Vado\" → \"vada\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I hope your mother is feeling better. (to a friend)", answer: "Spero che tua madre stia meglio.", altAnswers: ["Spero che tua mamma stia meglio."], explanation: "\"Stare\" → \"stia\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I think they're telling the truth.", answer: "Penso che dicano la verità.", altAnswers: ["Credo che dicano la verità."], explanation: "\"Dico\" → \"dica\" → \"dicano\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I want you to tell me everything. (plural)", answer: "Voglio che mi diciate tutto.", explanation: "\"Diciamo\" → \"diciate\"." },
@@ -245,6 +247,7 @@ export const IT_B1_U07: Lesson[] = [
         body: [
           "The modals follow the \"io\" rule: \"posso\" → \"possa\", \"voglio\" → \"voglia\", \"devo\" → \"debba\" (from the old form \"debbo\"). Plurals: \"possiamo, possiate, possano\"; \"vogliamo, vogliate, vogliano\"; \"dobbiamo, dobbiate, debbano\".",
           "\"Sapere\" is the odd one out: \"io so\" gives no clue, so learn \"sappia, sappia, sappia, sappiamo, sappiate, sappiano\".",
+          "Watch the double consonants, which are where most written mistakes happen: \"possa\" (double s), \"debba\" and \"abbia\" (double b), \"sappia\" (double p). \"Voglia\" keeps the \"gli\" sound of \"voglio\". Remember also that the \"loro\" form copies the \"io\" stem, so \"possano\", \"vogliano\", \"sappiano\", while \"noi\" and \"voi\" go back to the regular stem.",
         ],
         examples: [
           { es: "Spero che tu possa venire.", en: "I hope you can come." },
@@ -261,7 +264,7 @@ export const IT_B1_U07: Lesson[] = [
         heading: "Esca, beva, tenga, rimanga, scelga",
         body: [
           "Five more from the \"io\" present: \"esco\" → \"esca\", \"bevo\" → \"beva\", \"tengo\" → \"tenga\", \"rimango\" → \"rimanga\", \"scelgo\" → \"scelga\". The \"loro\" forms: \"escano, bevano, tengano, rimangano, scelgano\".",
-          "For \"noi\" and \"voi\", go back to the \"noi\" present: \"usciamo, usciate\" (not \"esciate\"), \"beviamo, beviate\", \"teniamo, teniate\", \"rimaniamo, rimaniate\", \"scegliamo, scegliate\".",
+          "For \"noi\" and \"voi\", go back to the \"noi\" present: \"usciamo, usciate\" (not \"esciate\"), \"beviamo, beviate\", \"teniamo, teniate\", \"rimaniamo, rimaniate\", \"scegliamo, scegliate\". The sound changes with the stem: a hard \"g\" in \"rimanga\" and \"scelga\" (like \"rimango\", \"scelgo\"), but the soft \"gli\" in \"scegliamo\" and \"scegliate\". Writing \"scelgiate\" or \"rimagnate\" mixes the two stems.",
         ],
         examples: [
           { es: "Spero che esca il sole.", en: "I hope the sun comes out." },
@@ -344,11 +347,11 @@ export const IT_B1_U07: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I think they're leaving tomorrow.", answer: "Penso che partano domani.", altAnswers: ["Credo che partano domani."], explanation: "\"Partire\" → \"partano\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I want him to call me tonight.", answer: "Voglio che mi chiami stasera.", altAnswers: ["Voglio che lui mi chiami stasera."], explanation: "\"Chiamare\" → \"chiami\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I hope you don't miss the train. (plural)", answer: "Spero che non perdiate il treno.", explanation: "\"Perdere\" → \"perdiate\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I think the children eat too many sweets.", answer: "Penso che i bambini mangino troppi dolci.", altAnswers: ["Credo che i bambini mangino troppi dolci."], explanation: "\"Mangino\": one i." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I think the children eat too many sweet things.", answer: "Penso che i bambini mangino troppi dolci.", altAnswers: ["Credo che i bambini mangino troppi dolci."], explanation: "\"Mangino\": one i." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I want you to pay by card. (to a friend)", answer: "Voglio che tu paghi con la carta.", altAnswers: ["Voglio che tu paghi con il bancomat."], explanation: "\"Pagare\" → \"paghi\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I hope they [understand] the instructions.", sentence: "Spero che ___ le istruzioni.", answer: "capiscano", explanation: "\"-isc-\": \"capiscano\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I think Luca [plays] the guitar.", sentence: "Penso che Luca ___ la chitarra.", answer: "suoni", explanation: "\"Suonare\" → \"suoni\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I want you to [look for] a cheaper flat. (plural)", sentence: "Voglio che ___ un appartamento meno caro.", answer: "cerchiate", explanation: "\"Cercare\" → \"cerchiate\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I want you to [look for] a cheaper apartment. (plural)", sentence: "Voglio che ___ un appartamento meno caro.", answer: "cerchiate", explanation: "\"Cercare\" → \"cerchiate\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I hope the lesson [starts] on time.", sentence: "Spero che la lezione ___ in orario.", answer: "cominci", altAnswers: ["inizi"], explanation: "\"Cominciare\" → \"cominci\"." },
       { type: "dictation", audio: "Spero che vi divertiate e che dormiate un po'.", explanation: "\"Divertiate\", \"dormiate\"." },
       { type: "dictation", audio: "Penso che preferiscano il mare e che non amino la montagna.", explanation: "\"Preferiscano\", \"amino\"." },
@@ -535,17 +538,17 @@ export const IT_B1_U07: Lesson[] = [
     level: "IT-B1",
     number: 9,
     title: "Listening Lab: Hearing the Subjunctive",
-    summary: "Spot subjunctive forms in natural speech: a voicemail from Mum and a chat at the coffee machine.",
+    summary: "Spot subjunctive forms in natural speech: a voicemail from Mom and a chat at the coffee machine.",
     duration: "18 min",
     sections: [
       {
-        heading: "A voicemail from Mum",
+        heading: "A voicemail from Mom",
         body: [
           "Chiara has just moved to Milan for work. Her mother leaves a voicemail: \"Ciao tesoro, sono la mamma. Spero che tu stia bene e che il nuovo appartamento ti piaccia. Papà vuole che tu ci chiami stasera, perché pensa che tu abbia dimenticato il suo compleanno... scherzo! Spero che non faccia troppo freddo lassù. Un bacio!\"",
           "Listen for the forms after \"che\": \"stia\", \"piaccia\", \"chiami\", \"faccia\". (\"Abbia dimenticato\" is a past subjunctive: you'll learn it in Unit 12.)",
         ],
         examples: [
-          { es: "Spero che tu stia bene e che il nuovo appartamento ti piaccia.", en: "I hope you're well and that you like the new flat." },
+          { es: "Spero che tu stia bene e che il nuovo appartamento ti piaccia.", en: "I hope you're well and that you like the new apartment." },
           { es: "Papà vuole che tu ci chiami stasera.", en: "Dad wants you to call us tonight." },
           { es: "Spero che non faccia troppo freddo lassù.", en: "I hope it's not too cold up there." },
         ],
@@ -573,10 +576,10 @@ export const IT_B1_U07: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "listen-choose", audio: "Spero che tu stia bene e che il nuovo appartamento ti piaccia.", question: "What does Mum hope?", options: ["That Chiara is well and likes the flat.", "That Chiara finds a flat.", "That Chiara comes home.", "That the flat is cheap."], correctIndex: 0, explanation: "\"Stia bene\", \"ti piaccia\"." },
+      { type: "listen-choose", audio: "Spero che tu stia bene e che il nuovo appartamento ti piaccia.", question: "What does Mom hope?", options: ["That Chiara is well and likes the apartment.", "That Chiara finds an apartment.", "That Chiara comes home.", "That the apartment is cheap."], correctIndex: 0, explanation: "\"Stia bene\", \"ti piaccia\"." },
       { type: "listen-choose", audio: "Penso che lei non lo sappia ancora.", question: "What does Silvia think?", options: ["Chiara doesn't know yet.", "Chiara already knows.", "The boss doesn't know.", "Davide knows everything."], correctIndex: 0, explanation: "\"Non lo sappia\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I hope you're well. (to a friend)", answer: "Spero che tu stia bene.", explanation: "\"Stia\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I hope you like the new flat. (to a friend)", answer: "Spero che il nuovo appartamento ti piaccia.", altAnswers: ["Spero che ti piaccia il nuovo appartamento.", "Spero che la nuova casa ti piaccia."], explanation: "\"Piaccia\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I hope you like the new apartment. (to a friend)", answer: "Spero che il nuovo appartamento ti piaccia.", altAnswers: ["Spero che ti piaccia il nuovo appartamento.", "Spero che la nuova casa ti piaccia."], explanation: "\"Piaccia\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Dad wants you to call us tonight.", answer: "Papà vuole che tu ci chiami stasera.", altAnswers: ["Papà vuole che ci chiami stasera.", "Il papà vuole che tu ci chiami stasera."], explanation: "\"Chiami\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I think the new girl is good.", answer: "Penso che la nuova sia brava.", altAnswers: ["Credo che la nuova sia brava.", "Penso che la ragazza nuova sia brava."], explanation: "\"Sia\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I hope she stays.", answer: "Spero che rimanga.", altAnswers: ["Spero che resti.", "Spero che lei rimanga."], explanation: "\"Rimanga\"." },
@@ -584,7 +587,7 @@ export const IT_B1_U07: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I hope it's not too [cold] up there.", sentence: "Spero che non ___ troppo freddo lassù.", answer: "faccia", explanation: "\"Fare freddo\" → \"faccia freddo\"." },
       { type: "multi-select", question: "Which words in the coffee-machine chat are subjunctives? Choose all that apply.", options: ["sia", "rimanga", "lavoriamo", "sappia", "penso", "vuole"], correctIndexes: [0, 1, 2, 3], explanation: "\"Penso\" and \"vuole\" are the triggers, in the indicative." },
       { type: "dictation", audio: "Il capo vuole che lavoriamo anche sabato.", explanation: "\"Lavoriamo\" looks like the present." },
-      { type: "speak", text: "Ciao mamma, sto bene! Spero che anche voi stiate bene e che papà non sia arrabbiato.", prompt: "Reply to Mum in Italian: Hi Mum, I'm fine! I hope you're well too and that Dad isn't angry.", tip: "STI-a-te: three syllables.", explanation: "\"Stiate\", \"sia\"." },
+      { type: "speak", text: "Ciao mamma, sto bene! Spero che anche voi stiate bene e che papà non sia arrabbiato.", prompt: "Reply to Mom in Italian: Hi Mom, I'm fine! I hope you're well too and that Dad isn't angry.", tip: "STI-a-te: three syllables.", explanation: "\"Stiate\", \"sia\"." },
     ],
   },
   {
@@ -628,7 +631,7 @@ export const IT_B1_U07: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I want you to tell me everything! (to a friend)", answer: "Voglio che tu mi racconti tutto!", altAnswers: ["Voglio che mi racconti tutto!", "Voglio che tu mi dica tutto!"], explanation: "\"Raccontare\" → \"racconti\"." },
-          { type: "multiple-choice", question: "Your friend says \"In bocca al lupo!\" What do you answer?", options: ["Crepi!", "Grazie mille!", "Anche a te!", "Salute!"], correctIndex: 0, explanation: "The traditional reply is \"Crepi!\" (may the wolf die)." },
+          { type: "multiple-choice", question: "Your friend says \"In bocca al lupo!\" What do you answer?", options: ["Crepi!", "Prego!", "Anche a te!", "Salute!"], correctIndex: 0, explanation: "The traditional reply is \"Crepi!\" (may the wolf die). Some people now answer \"Viva il lupo!\" instead." },
         ],
       },
     ],
@@ -640,7 +643,7 @@ export const IT_B1_U07: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I hope you earn well. (to a friend)", answer: "Spero che tu guadagni bene.", altAnswers: ["Spero che guadagni bene."], explanation: "\"Guadagnare\" → \"guadagni\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I hope they give you a nice desk. (to a friend)", answer: "Spero che ti diano una bella scrivania.", explanation: "\"Dare\" → \"diano\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Let me know how it went.", answer: "Fammi sapere com'è andata.", altAnswers: ["Fammi sapere come è andata."], explanation: "A fixed phrase." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I hope you [find] a nice flat near the studio.", sentence: "Spero che ___ un bell'appartamento vicino allo studio.", answer: "trovi", altAnswers: ["tu trovi"], explanation: "\"Trovare\" → \"trovi\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I hope you [find] a nice apartment near the studio.", sentence: "Spero che ___ un bell'appartamento vicino allo studio.", answer: "trovi", altAnswers: ["tu trovi"], explanation: "\"Trovare\" → \"trovi\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I hope you [have] some free time.", sentence: "Spero che ___ un po' di tempo libero.", answer: "tu abbia", altAnswers: ["abbia"], explanation: "\"Tu abbia\"." },
       { type: "word-order", prompt: "Put the words in order to say: I want you to tell me everything!", words: ["Voglio", "che", "tu", "mi", "racconti", "tutto!"], translation: "I want you to tell me everything!", explanation: "\"Che tu\" + subjunctive." },
       { type: "listen-choose", audio: "Spero che i colleghi ti piacciano.", question: "What does the speaker hope?", options: ["That you like your colleagues.", "That your colleagues like you.", "That your colleagues are on time.", "That you meet your colleagues."], correctIndex: 0, explanation: "\"Ti piacciano\": you like them." },
