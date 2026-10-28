@@ -8,15 +8,13 @@
 // grammar guides (src/lib/grammar/it-guides*.ts), the conjugation engine
 // (src/lib/it-conjugation/), the vocabulary and lesson tables
 // (src/lib/it-tools/data/*.json), the glossary's grammar terms and false
-// friends (src/lib/it-tools/glossaryTerms.ts) and the placement test
-// (src/lib/it-placementTest.ts). Writing practice marks the open tasks
-// every course shares (lib/writingPrompts.ts) plus the lessons' Italian
-// writing tasks, with the website's Italian writing feedback.
-//
-// Still to come on the website, with their slots marked below: Articles &
-// Prepositions, Pronunciation & Spelling and CILS practice tests
-// (src/lib/exams/it/, synced already as an optional dir). Add each one where
-// its comment is, pointing at the screen that shows it.
+// friends (src/lib/it-tools/glossaryTerms.ts), the Articles & Prepositions
+// and Pronunciation & Spelling tables and drills
+// (src/lib/it-tools/articles.ts, pronunciation.ts), the CILS practice exams
+// (src/lib/exams/it/) and the placement test (src/lib/it-placementTest.ts).
+// Writing practice marks the open tasks every course shares
+// (lib/writingPrompts.ts) plus the lessons' Italian writing tasks, with the
+// website's Italian writing feedback.
 import type { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 
@@ -43,15 +41,30 @@ export const ITALIAN_TOOLS: ItalianTool[] = [
     summary: "verb conjugation",
     open: (n) => n.navigate("ItalianConjugation"),
   },
-  // Articles & Prepositions (/lessons/it/tools/articles-prepositions) goes here once its data syncs.
-  // Pronunciation & Spelling (/lessons/it/tools/pronunciation) goes here once its data syncs.
+  {
+    title: "Articles & Prepositions",
+    body: "Il, lo, la, l', gli and the fused prepositions (del, al, nel, sul) at a glance, with practice for the choices that trip learners up.",
+    summary: "articles and prepositions",
+    open: (n) => n.navigate("ItalianArticles"),
+  },
+  {
+    title: "Pronunciation & Spelling",
+    body: "How Italian letters sound, double consonants, stress and written accents, with audio for every example.",
+    summary: "pronunciation and spelling",
+    open: (n) => n.navigate("ItalianPronunciation"),
+  },
   {
     title: "Writing Practice",
     body: "Write anything from a sentence to a couple of pages and get instant AI feedback at your level, with open tasks for every level and every writing task from the lessons.",
     summary: "writing practice",
     open: (n) => n.navigate("Writing", { lang: "it" }),
   },
-  // CILS Practice (src/lib/exams/it/, Exams { course: "it" }) goes here once the website has the tests.
+  {
+    title: "CILS Practice",
+    body: "Practice exams in the format of the CILS, the Italian proficiency exam of the Università per Stranieri di Siena, from CILS A1 to CILS QUATTRO.",
+    summary: "CILS practice exams",
+    open: (n) => n.navigate("Exams", { course: "it" }),
+  },
   {
     title: "Vocabulary by Level",
     body: "Every word and phrase the course teaches, Beginner to Mastery and the culture lessons, with audio, meanings and the lesson each comes from. Add a whole level to your flashcards.",
