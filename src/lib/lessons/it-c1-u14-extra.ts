@@ -17,18 +17,18 @@ export const IT_C1_U14_EXTRA: Lesson[] = [
       {
         heading: "Four dates of the Republic",
         body: [
-          "On 25 March 1957 Italy signed the Treaties of Rome with five other countries, founding the European Economic Community. On 4 November 1966 the Arno flooded Florence; thousands of young volunteers from Italy and abroad, \"gli angeli del fango\" (the mud angels), rescued books and paintings.",
-          "In May 1974 Italians voted in a referendum on whether to abolish the new divorce law: almost 60 per cent voted to keep it. On 23 November 1980 an earthquake struck Irpinia and Basilicata, killing nearly three thousand people; the slow rescue caused national outrage.",
+          "On March 25, 1957 Italy signed the Treaties of Rome with five other countries, founding the European Economic Community. On November 4, 1966 the Arno flooded Florence; thousands of young volunteers from Italy and abroad, \"gli angeli del fango\" (the mud angels), rescued books and paintings.",
+          "In May 1974 Italians voted in a referendum on whether to abolish the new divorce law: almost 60 per cent voted to keep it. On November 23, 1980 an earthquake struck Irpinia and Basilicata, killing nearly three thousand people; the slow rescue caused national outrage.",
         ],
         examples: [
-          { es: "Il 25 marzo 1957 l'Italia firmò i Trattati di Roma.", en: "On 25 March 1957 Italy signed the Treaties of Rome." },
-          { es: "Il 4 novembre 1966 l'Arno allagò Firenze.", en: "On 4 November 1966 the Arno flooded Florence." },
+          { es: "Il 25 marzo 1957 l'Italia firmò i Trattati di Roma.", en: "On March 25, 1957 Italy signed the Treaties of Rome." },
+          { es: "Il 4 novembre 1966 l'Arno allagò Firenze.", en: "On November 4, 1966 the Arno flooded Florence." },
           { es: "Migliaia di volontari salvarono libri e quadri dal fango.", en: "Thousands of volunteers saved books and paintings from the mud." },
           { es: "Nel 1974 quasi il 60 per cento votò per mantenere il divorzio.", en: "In 1974 almost 60 per cent voted to keep divorce." },
           { es: "Il terremoto dell'Irpinia causò quasi tremila vittime.", en: "The Irpinia earthquake caused nearly three thousand deaths." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian (history book style).", source: "On 4 November 1966 the Arno flooded Florence.", answer: "Il 4 novembre 1966 l'Arno allagò Firenze.", altAnswers: ["Il 4 novembre 1966 l'Arno inondò Firenze.", "Il 4 novembre 1966 l'Arno ha allagato Firenze."], explanation: "\"Allagare\" or \"inondare\" = to flood." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian (history book style).", source: "On November 4, 1966 the Arno flooded Florence.", answer: "Il 4 novembre 1966 l'Arno allagò Firenze.", altAnswers: ["Il 4 novembre 1966 l'Arno inondò Firenze.", "Il 4 novembre 1966 l'Arno ha allagato Firenze."], explanation: "\"Allagare\" or \"inondare\" = to flood." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian (history book style).", source: "Italy signed the Treaties of Rome in 1957.", answer: "L'Italia firmò i Trattati di Roma nel 1957.", altAnswers: ["Nel 1957 l'Italia firmò i Trattati di Roma.", "L'Italia ha firmato i Trattati di Roma nel 1957."], explanation: "\"Nel\" + year." },
         ],
       },
@@ -56,7 +56,7 @@ export const IT_C1_U14_EXTRA: Lesson[] = [
         ],
         explanation: "Four dates of the Republic.",
       },
-      { type: "listen-choose", audio: "Nel maggio del 1974 quasi il sessanta per cento votò per mantenere il divorzio.", question: "What was the result of the 1974 referendum?", options: ["Divorce was kept.", "Divorce was abolished.", "The vote was cancelled.", "Turnout was 60 per cent."], correctIndex: 0, explanation: "\"Mantenere\" = to keep." },
+      { type: "listen-choose", audio: "Nel maggio del 1974 quasi il sessanta per cento votò per mantenere il divorzio.", question: "What was the result of the 1974 referendum?", options: ["Divorce was kept.", "Divorce was abolished.", "The vote was canceled.", "Turnout was 60 per cent."], correctIndex: 0, explanation: "\"Mantenere\" = to keep." },
       { type: "dictation", audio: "Il 4 novembre 1966 l'Arno allagò Firenze.", explanation: "Date, river, passato remoto." },
       { type: "speak", text: "Nel 1966 migliaia di giovani salvarono i libri di Firenze dal fango.", prompt: "Say it in Italian: In 1966 thousands of young people saved Florence's books from the mud.", tip: "Mi-GLIA-ia: the gli is one sound.", explanation: "The mud angels in one sentence." },
     ],

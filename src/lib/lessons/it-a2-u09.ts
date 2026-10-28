@@ -1,0 +1,633 @@
+// Synced from cheneygross-afk/lengo:src/lib/lessons/it-a2-u09.ts by scripts/sync-content.mjs -- edit it there, not here.
+import type { Lesson, WriteExercise } from "./types";
+
+// Italian A2 Unit 9: The Future. Futuro semplice regular and irregular, present
+// for near plans, future of probability, quando / se + future.
+// Conventions: docs/italian-course/authoring.md.
+export const IT_A2_U09: Lesson[] = [
+  {
+    slug: "a2-future-regular",
+    level: "IT-A2",
+    number: 1,
+    title: "The Future: Regular Verbs",
+    summary: "Form the futuro semplice of regular verbs (parlerò, prenderò, partirò) and spell cercherò, pagherò, mangerò, comincerò correctly.",
+    duration: "15 min",
+    sections: [
+      {
+        heading: "Infinitive + endings",
+        body: [
+          "Take the infinitive, drop the final \"-e\" and add \"-ò, -ai, -à, -emo, -ete, -anno\": \"prendere\" → \"prenderò, prenderai, prenderà, prenderemo, prenderete, prenderanno\"; \"partire\" → \"partirò\". For verbs like \"parlare\" and \"lavorare\", the \"a\" of the ending becomes \"e\": \"parlare\" → \"parlerò\", not \"parlarò\".",
+          "The \"io\" and \"lui / lei\" forms carry a written accent and stress on the last syllable: \"parlerò\", \"parlerà\".",
+        ],
+        examples: [
+          { es: "Domani parlerò con il direttore.", en: "Tomorrow I'll speak to the manager." },
+          { es: "Prenderemo il treno delle nove.", en: "We'll take the nine o'clock train." },
+          { es: "Luca partirà per Londra a settembre.", en: "Luca will leave for London in September." },
+          { es: "Cosa studierai all'università?", en: "What will you study at university?" },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We'll take the nine o'clock train.", answer: "Prenderemo il treno delle nove.", explanation: "\"Prendere\" → \"prenderemo\"." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Tomorrow [I'll speak] to the manager.", sentence: "Domani ___ con il direttore.", answer: "parlerò", explanation: "\"Parlare\" → \"parler-\"." },
+          { type: "multiple-choice", question: "Future of \"lavorare\", noi:", options: ["lavoreremo", "lavoraremo", "lavoreremmo", "lavoriamo"], correctIndex: 0, explanation: "\"-ar-\" → \"-er-\"." },
+        ],
+      },
+      {
+        heading: "Spelling: cercherò, mangerò",
+        body: [
+          "Verbs in \"-care\" and \"-gare\" add an \"h\" to keep the hard sound: \"cercare\" → \"cercherò\", \"pagare\" → \"pagherò\". Verbs in \"-ciare\" and \"-giare\" drop the \"i\": \"cominciare\" → \"comincerò\", \"mangiare\" → \"mangerò\".",
+        ],
+        examples: [
+          { es: "Pagherò io!", en: "I'll pay!" },
+          { es: "Cercheremo un appartamento in centro.", en: "We'll look for a flat in the centre." },
+          { es: "Il corso comincerà lunedì.", en: "The course will start on Monday." },
+          { es: "Stasera mangeremo da Giulia.", en: "Tonight we'll eat at Giulia's." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll pay!", answer: "Pagherò io!", altAnswers: ["Pago io!"], explanation: "\"Pagare\" → \"pagherò\"." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The course [will start] on Monday.", sentence: "Il corso ___ lunedì.", answer: "comincerà", altAnswers: ["inizierà"], explanation: "\"Cominciare\" drops the \"i\"." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Luca will leave for London in September.", answer: "Luca partirà per Londra a settembre.", altAnswers: ["A settembre Luca partirà per Londra."], explanation: "\"Partire\" → \"partirà\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "What will you study at university? (to a friend)", answer: "Cosa studierai all'università?", altAnswers: ["Che cosa studierai all'università?", "Che studierai all'università?"], explanation: "\"Studiare\" → \"studierai\": the \"i\" of the stem stays." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We'll look for a flat in the centre.", answer: "Cercheremo un appartamento in centro.", altAnswers: ["Cercheremo una casa in centro."], explanation: "\"Cercare\" → \"cercheremo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Tonight we'll eat at Giulia's.", answer: "Stasera mangeremo da Giulia.", altAnswers: ["Stasera ceneremo da Giulia."], explanation: "\"Mangiare\" → \"mangeremo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They'll arrive at six.", answer: "Arriveranno alle sei.", explanation: "\"Arrivare\" → \"arriveranno\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Will you write to me? (to a friend)", answer: "Mi scriverai?", explanation: "\"Scrivere\" → \"scriverai\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll finish the work tomorrow.", answer: "Finirò il lavoro domani.", altAnswers: ["Domani finirò il lavoro."], explanation: "No \"-isc-\" in the future: \"finirò\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Will you play] tennis on Saturday? (to two friends)", sentence: "___ a tennis sabato?", answer: "Giocherete", explanation: "\"Giocare\" → \"giocherete\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I [will sleep] at my sister's.", sentence: "___ da mia sorella.", answer: "Dormirò", explanation: "\"Dormire\" → \"dormirò\"." },
+      { type: "matching", instructions: "Match the infinitive to the future (io).", pairs: [{ left: "cercare", right: "cercherò" }, { left: "pagare", right: "pagherò" }, { left: "mangiare", right: "mangerò" }, { left: "cominciare", right: "comincerò" }, { left: "parlare", right: "parlerò" }], explanation: "Spelling changes keep the sound." },
+      { type: "dictation", audio: "Domani parlerò con il direttore.", explanation: "\"Parlerò\": accent on the last \"o\"." },
+      { type: "speak", text: "Sabato prenderemo il treno e partiremo per Firenze.", prompt: "Say it in Italian: On Saturday we'll take the train and leave for Florence.", tip: "Prenderemo, partiremo: stress on -re-.", explanation: "Two regular futures." },
+    ],
+  },
+  {
+    slug: "a2-future-irregular",
+    level: "IT-A2",
+    number: 2,
+    title: "The Future: Irregular Verbs",
+    summary: "Learn the irregular future stems: sarò, avrò, andrò, verrò, farò, starò, potrò, dovrò, saprò, vedrò, vivrò, vorrò, berrò, rimarrò.",
+    duration: "15 min",
+    sections: [
+      {
+        heading: "Short stems",
+        body: [
+          "Some verbs lose a vowel: \"andare\" → \"andrò\", \"avere\" → \"avrò\", \"dovere\" → \"dovrò\", \"potere\" → \"potrò\", \"sapere\" → \"saprò\", \"vedere\" → \"vedrò\", \"vivere\" → \"vivrò\". \"Essere\" → \"sarò, sarai, sarà, saremo, sarete, saranno\".",
+          "\"Fare\", \"dare\", \"stare\" keep the \"a\": \"farò\", \"darò\", \"starò\". The endings are always regular.",
+        ],
+        examples: [
+          { es: "Sarò a casa alle otto.", en: "I'll be at home at eight." },
+          { es: "Andremo in Sicilia ad agosto.", en: "We'll go to Sicily in August." },
+          { es: "Avrai tempo domani?", en: "Will you have time tomorrow?" },
+          { es: "Farò una festa per il mio compleanno.", en: "I'll have a party for my birthday." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll be at home at eight.", answer: "Sarò a casa alle otto.", explanation: "\"Essere\" → \"sarò\"." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[We'll go] to Sicily in August.", sentence: "___ in Sicilia ad agosto.", answer: "Andremo", explanation: "Not \"anderemo\"." },
+        ],
+      },
+      {
+        heading: "Double r",
+        body: [
+          "Four common verbs have a double \"r\": \"venire\" → \"verrò\", \"volere\" → \"vorrò\", \"bere\" → \"berrò\", \"rimanere\" → \"rimarrò\". Hold the \"rr\" a moment longer: \"ver-rò\".",
+        ],
+        examples: [
+          { es: "Verrò con te.", en: "I'll come with you." },
+          { es: "I bambini vorranno il gelato.", en: "The children will want ice cream." },
+          { es: "Rimarremo a Roma una settimana.", en: "We'll stay in Rome for a week." },
+          { es: "Stasera berrò solo acqua.", en: "Tonight I'll only drink water." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll come with you. (to a friend)", answer: "Verrò con te.", altAnswers: ["Vengo con te."], explanation: "\"Venire\" → \"verrò\"." },
+          { type: "listen-choose", audio: "Rimarremo a Roma una settimana.", question: "How long will they stay in Rome?", options: ["a week", "a month", "two weeks", "a weekend"], correctIndex: 0, explanation: "\"Una settimana\"." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Will you have time tomorrow? (to a friend)", answer: "Avrai tempo domani?", altAnswers: ["Domani avrai tempo?"], explanation: "\"Avere\" → \"avrai\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll have a party for my birthday.", answer: "Farò una festa per il mio compleanno.", explanation: "\"Fare\" → \"farò\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The children will want ice cream.", answer: "I bambini vorranno il gelato.", altAnswers: ["I bambini vorranno un gelato.", "I bambini vorranno dei gelati."], explanation: "\"Volere\" → \"vorranno\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We'll stay in Rome for a week.", answer: "Rimarremo a Roma una settimana.", altAnswers: ["Rimarremo a Roma per una settimana.", "Resteremo a Roma una settimana.", "Staremo a Roma una settimana."], explanation: "\"Rimanere\" → \"rimarremo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You'll have to study a lot. (to a friend)", answer: "Dovrai studiare molto.", altAnswers: ["Dovrai studiare tanto."], explanation: "\"Dovere\" → \"dovrai\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We'll see.", answer: "Vedremo.", explanation: "\"Vedere\" → \"vedremo\": a very common reply." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Tonight we'll stay at home.", answer: "Stasera staremo a casa.", altAnswers: ["Stasera rimarremo a casa.", "Staremo a casa stasera.", "Stasera resteremo a casa."], explanation: "\"Stare\" → \"staremo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They'll live in Milan.", answer: "Vivranno a Milano.", altAnswers: ["Abiteranno a Milano."], explanation: "\"Vivere\" → \"vivranno\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Will you be able to] come on Sunday? (to two friends)", sentence: "___ venire domenica?", answer: "Potrete", explanation: "\"Potere\" → \"potrete\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Tomorrow [I'll know] the results.", sentence: "Domani ___ i risultati.", answer: "saprò", explanation: "\"Sapere\" → \"saprò\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I'll give] you the money on Monday.", sentence: "Ti ___ i soldi lunedì.", answer: "darò", explanation: "\"Dare\" → \"darò\"." },
+      { type: "multiple-choice", question: "Future of \"venire\", loro:", options: ["verranno", "veniranno", "veranno", "vengheranno"], correctIndex: 0, explanation: "Double \"r\": \"verranno\"." },
+      { type: "dictation", audio: "Verrò con te e berremo un caffè.", explanation: "Double \"r\" in \"verrò\" and \"berremo\"." },
+      { type: "speak", text: "Sarò a Roma, andrò al Colosseo e rimarrò tre giorni.", prompt: "Say it in Italian: I'll be in Rome, I'll go to the Colosseum and I'll stay three days.", tip: "Sarò, andrò, rimarrò: stress on the last syllable.", explanation: "Three irregular stems." },
+    ],
+  },
+  {
+    slug: "a2-future-or-present",
+    level: "IT-A2",
+    number: 3,
+    title: "Future or Present?",
+    summary: "Use the present for near, fixed plans (domani parto, stasera esco) and the future for predictions and less certain plans (domani pioverà).",
+    duration: "15 min",
+    sections: [
+      {
+        heading: "Plans: the present is enough",
+        body: [
+          "Italians use the present for plans much more than English uses will: \"Domani parto\" (I'm leaving tomorrow), \"Stasera esco con Marta\", \"Sabato vado al mare\". A time word (\"domani\", \"stasera\", \"la settimana prossima\", \"fra due giorni\") makes the future meaning clear.",
+          "\"Fra\" and \"tra\" mean the same: in (a time from now). \"Fra due giorni\" = in two days.",
+        ],
+        examples: [
+          { es: "Domani parto per Parigi.", en: "I'm leaving for Paris tomorrow." },
+          { es: "Stasera esco con Marta.", en: "I'm going out with Marta tonight." },
+          { es: "Fra due giorni comincio il nuovo lavoro.", en: "In two days I start the new job." },
+          { es: "La settimana prossima andiamo a Napoli.", en: "Next week we're going to Naples." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm going out with Marta tonight.", answer: "Stasera esco con Marta.", altAnswers: ["Esco con Marta stasera.", "Stasera uscirò con Marta."], explanation: "A plan: the present is normal." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[In two days] I start the new job.", sentence: "___ comincio il nuovo lavoro.", answer: "Fra due giorni", altAnswers: ["Tra due giorni"], explanation: "\"Fra\" / \"tra\" = in." },
+        ],
+      },
+      {
+        heading: "Predictions and promises: the future",
+        body: [
+          "Use the future for predictions (\"Domani pioverà\", \"Sarà un successo\"), for plans that are further away or less certain (\"Un giorno vivrò in Italia\"), and for promises (\"Ti scriverò ogni giorno\"). Both tenses are fine for many plans; the present just sounds more definite and more casual.",
+        ],
+        examples: [
+          { es: "Domani pioverà al nord.", en: "Tomorrow it will rain in the north." },
+          { es: "Un giorno vivrò in Italia.", en: "One day I'll live in Italy." },
+          { es: "Ti scriverò ogni giorno.", en: "I'll write to you every day." },
+          { es: "Vedrai, andrà tutto bene.", en: "You'll see, everything will be fine." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Tomorrow it will rain in the north.", answer: "Domani pioverà al nord.", altAnswers: ["Domani pioverà al Nord.", "Domani al nord pioverà."], explanation: "A prediction: future." },
+          { type: "multiple-choice", question: "Your train ticket says Monday 8:00. Which sounds most natural?", options: ["Lunedì parto alle otto.", "Lunedì partirei alle otto.", "Lunedì sono partito alle otto.", "Lunedì partivo alle otto."], correctIndex: 0, explanation: "A fixed plan: the present." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm leaving for Paris tomorrow.", answer: "Domani parto per Parigi.", altAnswers: ["Parto per Parigi domani.", "Domani partirò per Parigi."], explanation: "The present for a fixed plan." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Next week we're going to Naples.", answer: "La settimana prossima andiamo a Napoli.", altAnswers: ["La prossima settimana andiamo a Napoli.", "La settimana prossima andremo a Napoli."], explanation: "Time word + present." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "One day I'll live in Italy.", answer: "Un giorno vivrò in Italia.", altAnswers: ["Un giorno abiterò in Italia."], explanation: "A distant dream: future." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You'll see, everything will be fine. (to a friend)", answer: "Vedrai, andrà tutto bene.", altAnswers: ["Vedrai che andrà tutto bene."], explanation: "\"Andrà tutto bene\": a reassuring prediction." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll write to you every day. (to a friend)", answer: "Ti scriverò ogni giorno.", altAnswers: ["Ti scriverò tutti i giorni."], explanation: "A promise: future." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "What are you doing on Saturday? (to a friend)", answer: "Cosa fai sabato?", altAnswers: ["Che cosa fai sabato?", "Che fai sabato?", "Cosa farai sabato?"], explanation: "Plans: the present is the natural question." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It will be a success.", answer: "Sarà un successo.", explanation: "Prediction." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The film [starts] at nine tonight.", sentence: "Stasera il film ___ alle nove.", answer: "comincia", altAnswers: ["inizia"], explanation: "A timetable: present." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "In the future, people [will work] from home.", sentence: "In futuro la gente ___ da casa.", answer: "lavorerà", explanation: "A prediction; \"la gente\" is singular." },
+      { type: "word-order", prompt: "Put the words in order to say: In three days I'm going back to London.", words: ["Fra", "tre", "giorni", "torno", "a", "Londra."], translation: "In three days I'm going back to London.", altOrders: [["Torno", "a", "Londra", "fra", "tre", "giorni."]], explanation: "\"Fra\" + time + present." },
+      { type: "listen-choose", audio: "Domani esco con Marta, ma sabato pioverà.", question: "Which verb is a prediction?", options: ["pioverà", "esco", "both", "neither"], correctIndex: 0, explanation: "The plan uses the present; the weather, the future." },
+      { type: "speak", text: "Domani parto per Roma. Ti scriverò ogni giorno, promesso!", prompt: "Say it in Italian: I'm leaving for Rome tomorrow. I'll write to you every day, I promise!", tip: "Plan: present. Promise: future.", explanation: "\"Parto\" + \"scriverò\"." },
+    ],
+  },
+  {
+    slug: "a2-future-of-probability",
+    level: "IT-A2",
+    number: 4,
+    title: "It Must Be: The Future of Guessing",
+    summary: "Use the future to make guesses about the present: Dov'è Marco? Sarà in ufficio. Che ore sono? Saranno le tre.",
+    duration: "15 min",
+    sections: [
+      {
+        heading: "Sarà in ufficio",
+        body: [
+          "Italian uses the future to guess about now. \"Dov'è Marco?\" \"Non so, sarà in ufficio\" = he's probably at the office, he must be at the office. \"Che ore sono?\" \"Saranno le tre\" = it must be about three.",
+          "Very common with \"essere\" and \"avere\": \"Avrà quarant'anni\" (he must be about forty), \"Sarà stanca\" (she must be tired), \"Avranno fame\" (they'll be hungry).",
+        ],
+        examples: [
+          { es: "Dov'è Marco? Sarà in ufficio.", en: "Where's Marco? He must be at the office." },
+          { es: "Che ore sono? Saranno le tre.", en: "What time is it? It must be about three." },
+          { es: "Quanti anni ha? Avrà quarant'anni.", en: "How old is he? He must be about forty." },
+          { es: "Non risponde. Sarà in metro.", en: "She's not answering. She's probably on the metro." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Where's Marco? He must be at the office.", answer: "Dov'è Marco? Sarà in ufficio.", altAnswers: ["Dove è Marco? Sarà in ufficio."], explanation: "Guess about now: future." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "How old is he? [He must be] about forty.", sentence: "Quanti anni ha? ___ quarant'anni.", answer: "Avrà", explanation: "Age with \"avere\": \"avrà\"." },
+        ],
+      },
+      {
+        heading: "Other verbs",
+        body: [
+          "Any verb works: \"Lavorerà\" (he's probably working), \"Dormiranno\" (they must be asleep), \"Costerà cento euro\" (it probably costs a hundred euros). Add \"forse\" or \"probabilmente\" if you like, but the future already carries the doubt.",
+        ],
+        examples: [
+          { es: "Le luci sono spente: dormiranno.", en: "The lights are off: they must be asleep." },
+          { es: "Questa borsa costerà almeno cento euro.", en: "This bag must cost at least a hundred euros." },
+          { es: "Hai sentito il campanello? Sarà il postino.", en: "Did you hear the bell? It'll be the postman." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The lights are off: they must be asleep.", answer: "Le luci sono spente: dormiranno.", altAnswers: ["Le luci sono spente, dormiranno."], explanation: "A guess: \"dormiranno\"." },
+          { type: "listen-choose", audio: "Hai sentito il campanello? Sarà il postino.", question: "What does the speaker think?", options: ["It's probably the postman.", "The postman will come later.", "The postman came yesterday.", "The postman never comes."], correctIndex: 0, explanation: "Future of probability." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "What time is it? It must be about three.", answer: "Che ore sono? Saranno le tre.", altAnswers: ["Che ora è? Saranno le tre."], explanation: "\"Saranno le tre\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She's not answering. She's probably on the metro.", answer: "Non risponde. Sarà in metro.", altAnswers: ["Non risponde. Sarà sulla metro.", "Non risponde, sarà in metro."], explanation: "A guess about now." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "This bag must cost at least a hundred euros.", answer: "Questa borsa costerà almeno cento euro.", explanation: "\"Costerà\": a guess." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Did you hear the bell? It'll be the postman. (to a friend)", answer: "Hai sentito il campanello? Sarà il postino.", explanation: "\"Sarà\" = it must be." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They've walked for six hours: they must be tired.", answer: "Hanno camminato per sei ore: saranno stanchi.", altAnswers: ["Hanno camminato sei ore: saranno stanchi.", "Hanno camminato per sei ore, saranno stanchi."], explanation: "\"Saranno stanchi\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Giulia isn't here. She's probably working.", answer: "Giulia non c'è. Lavorerà.", altAnswers: ["Giulia non c'è. Starà lavorando.", "Giulia non c'è, lavorerà."], explanation: "\"Lavorerà\" = she's probably working." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The children must be hungry.", answer: "I bambini avranno fame.", explanation: "\"Avere fame\" → \"avranno fame\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Who's that girl? [She must be] Luca's sister.", sentence: "Chi è quella ragazza? ___ la sorella di Luca.", answer: "Sarà", explanation: "A guess about identity." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "There's a lot of traffic. [There must be] an accident.", sentence: "C'è molto traffico. ___ un incidente.", answer: "Ci sarà", explanation: "\"C'è\" → \"ci sarà\"." },
+      { type: "multiple-choice", question: "\"Avrà trent'anni.\" What does it mean?", options: ["He must be about thirty.", "He'll be thirty next year.", "He was thirty.", "He wants to be thirty."], correctIndex: 0, explanation: "A guess about the present." },
+      { type: "dictation", audio: "Non risponde. Sarà in metro.", explanation: "\"Sarà\" = probably is." },
+      { type: "speak", text: "Dov'è Paolo? Non lo so, sarà ancora in ufficio.", prompt: "Say it in Italian: Where's Paolo? I don't know, he must still be at the office.", tip: "Sarà = he's probably.", explanation: "Future of probability." },
+    ],
+  },
+  {
+    slug: "a2-drill-future-forms",
+    level: "IT-A2",
+    number: 5,
+    title: "Drill: Future Forms",
+    summary: "Produce forty verbs in the futuro semplice, in every person, including the irregular stems.",
+    duration: "22 min",
+    kind: "drill",
+    sections: [
+      {
+        heading: "Stem + -ò, -ai, -à, -emo, -ete, -anno",
+        body: [
+          "Regular: \"parler-\", \"prender-\", \"partir-\". Spelling: \"cercher-\", \"pagher-\", \"manger-\", \"comincer-\". Short stems: \"andr-\", \"avr-\", \"dovr-\", \"potr-\", \"sapr-\", \"vedr-\", \"vivr-\". Double \"r\": \"verr-\", \"vorr-\", \"berr-\", \"rimarr-\". Others: \"sar-\", \"far-\", \"dar-\", \"star-\".",
+        ],
+        examples: [
+          { es: "Giocheranno a calcio domenica.", en: "They'll play football on Sunday." },
+          { es: "Saprete la risposta domani.", en: "You'll know the answer tomorrow." },
+          { es: "Non berrò più caffè dopo le cinque.", en: "I won't drink coffee after five any more." },
+          { es: "Dove vivrete?", en: "Where will you live?" },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They'll play football on Sunday.", answer: "Giocheranno a calcio domenica.", altAnswers: ["Domenica giocheranno a calcio."], explanation: "\"Giocare\" → \"giocheranno\"." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[You'll know] the answer tomorrow. (to two friends)", sentence: "___ la risposta domani.", answer: "Saprete", explanation: "\"Sapere\" → \"saprete\"." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I won't drink coffee after five any more.", answer: "Non berrò più caffè dopo le cinque.", altAnswers: ["Non berrò più il caffè dopo le cinque."], explanation: "\"Bere\" → \"berrò\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Where will you live? (to two friends)", answer: "Dove vivrete?", altAnswers: ["Dove abiterete?"], explanation: "\"Vivere\" → \"vivrete\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll be thirty in May.", answer: "Avrò trent'anni a maggio.", altAnswers: ["A maggio avrò trent'anni.", "Compirò trent'anni a maggio.", "A maggio compirò trent'anni."], explanation: "Age with \"avere\": \"avrò\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She'll come with her husband.", answer: "Verrà con suo marito.", altAnswers: ["Lei verrà con suo marito.", "Verrà con il marito."], explanation: "\"Venire\" → \"verrà\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We'll do the shopping on Saturday.", answer: "Faremo la spesa sabato.", altAnswers: ["Sabato faremo la spesa."], explanation: "\"Fare\" → \"faremo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Will you be at home tonight? (to a friend)", answer: "Sarai a casa stasera?", altAnswers: ["Stasera sarai a casa?"], explanation: "\"Essere\" → \"sarai\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They won't be able to come.", answer: "Non potranno venire.", explanation: "\"Potere\" → \"potranno\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll look for a new job.", answer: "Cercherò un nuovo lavoro.", altAnswers: ["Cercherò un lavoro nuovo."], explanation: "\"Cercare\" → \"cercherò\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The lesson will start at ten.", answer: "La lezione comincerà alle dieci.", altAnswers: ["La lezione inizierà alle dieci."], explanation: "\"Cominciare\" → \"comincerà\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Will you want dessert? (to two friends)", answer: "Vorrete il dolce?", altAnswers: ["Vorrete un dolce?"], explanation: "\"Volere\" → \"vorrete\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We'll stay until Sunday.", answer: "Rimarremo fino a domenica.", altAnswers: ["Resteremo fino a domenica.", "Staremo fino a domenica."], explanation: "\"Rimanere\" → \"rimarremo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Who will pay the bill?", answer: "Chi pagherà il conto?", explanation: "\"Pagare\" → \"pagherà\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I'll have to] work on Saturday.", sentence: "___ lavorare sabato.", answer: "Dovrò", explanation: "\"Dovere\" → \"dovrò\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[We'll see] each other tomorrow.", sentence: "Ci ___ domani.", answer: "vedremo", explanation: "\"Vedere\" → \"vedremo\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The guests [will eat] in the garden.", sentence: "Gli ospiti ___ in giardino.", answer: "mangeranno", explanation: "No \"i\": \"mangeranno\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Will you go] to the concert? (to a friend)", sentence: "___ al concerto?", answer: "Andrai", explanation: "\"Andare\" → \"andrai\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "My parents [will give] us a hand.", sentence: "I miei genitori ci ___ una mano.", answer: "daranno", explanation: "\"Dare\" → \"daranno\"." },
+      { type: "matching", instructions: "Match the infinitive to the future (io).", pairs: [{ left: "venire", right: "verrò" }, { left: "andare", right: "andrò" }, { left: "essere", right: "sarò" }, { left: "avere", right: "avrò" }, { left: "bere", right: "berrò" }, { left: "fare", right: "farò" }], explanation: "Irregular stems, regular endings." },
+      { type: "multiple-choice", question: "Future of \"vedere\", tu:", options: ["vedrai", "vederai", "vedrei", "vedirai"], correctIndex: 0, explanation: "Short stem \"vedr-\"." },
+      { type: "dictation", audio: "Sabato andremo al mare e rimarremo fino a domenica.", explanation: "\"Andremo\", \"rimarremo\"." },
+      { type: "speak", text: "Sarò, sarai, sarà, saremo, sarete, saranno.", prompt: "Say the future of essere.", tip: "Stress the last syllable in sarò, sarà.", explanation: "The full paradigm." },
+    ],
+  },
+  {
+    slug: "a2-quando-se-future",
+    level: "IT-A2",
+    number: 6,
+    title: "When and If with the Future",
+    summary: "Put both verbs in the future after quando and se when talking about the future: quando arriverò, ti chiamerò; se avrò tempo, verrò.",
+    duration: "15 min",
+    sections: [
+      {
+        heading: "Quando + future",
+        body: [
+          "English says When I arrive, I'll call you (present + will). Italian, especially in writing, uses the future in both parts: \"Quando arriverò a Roma, ti chiamerò\". The same with \"appena\" (as soon as): \"Appena finirò, uscirò\".",
+          "In relaxed speech you'll also hear the present in both parts: \"Quando arrivo, ti chiamo\". What sounds wrong is mixing English-style: \"Quando arrivo, ti chiamerò\" is heard, but learners should aim for future + future.",
+        ],
+        examples: [
+          { es: "Quando arriverò a Roma, ti chiamerò.", en: "When I arrive in Rome, I'll call you." },
+          { es: "Appena finirò il lavoro, uscirò.", en: "As soon as I finish work, I'll go out." },
+          { es: "Quando avrai diciotto anni, potrai guidare.", en: "When you're eighteen, you'll be able to drive." },
+          { es: "Quando saremo in pensione, vivremo al mare.", en: "When we're retired, we'll live by the sea." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "When I arrive in Rome, I'll call you. (to a friend)", answer: "Quando arriverò a Roma, ti chiamerò.", altAnswers: ["Quando arrivo a Roma, ti chiamo.", "Quando arriverò a Roma ti chiamerò.", "Quando arriverò a Roma, ti telefonerò."], explanation: "Future + future." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "As soon as [I finish] work, I'll go out.", sentence: "Appena ___ il lavoro, uscirò.", answer: "finirò", explanation: "\"Appena\" + future." },
+        ],
+      },
+      {
+        heading: "Se + future",
+        body: [
+          "For a real possibility in the future: \"Se avrò tempo, verrò\" (If I have time, I'll come). Again, everyday speech often uses two presents: \"Se ho tempo, vengo\". Both are correct; avoid present + future in writing.",
+        ],
+        examples: [
+          { es: "Se avrò tempo, verrò alla festa.", en: "If I have time, I'll come to the party." },
+          { es: "Se domani pioverà, resteremo a casa.", en: "If it rains tomorrow, we'll stay at home." },
+          { es: "Se ho tempo, vengo.", en: "If I have time, I'll come." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If it rains tomorrow, we'll stay at home.", answer: "Se domani pioverà, resteremo a casa.", altAnswers: ["Se domani pioverà, rimarremo a casa.", "Se domani piove, restiamo a casa.", "Se domani piove, rimaniamo a casa.", "Se domani pioverà, staremo a casa."], explanation: "Future + future, or present + present." },
+          { type: "multiple-choice", question: "Which is best in a written message?", options: ["Se avrò tempo, ti scriverò.", "Se avrò tempo, ti scrivevo.", "Se ho avuto tempo, ti scriverò.", "Se avevo tempo, ti scriverò."], correctIndex: 0, explanation: "Future + future." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "When you're eighteen, you'll be able to drive. (to a teenager)", answer: "Quando avrai diciotto anni, potrai guidare.", altAnswers: ["Quando avrai 18 anni, potrai guidare."], explanation: "Age with \"avere\", future + future." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "When we're retired, we'll live by the sea.", answer: "Quando saremo in pensione, vivremo al mare.", altAnswers: ["Quando andremo in pensione, vivremo al mare.", "Quando saremo in pensione, abiteremo al mare."], explanation: "\"Essere in pensione\" = to be retired." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If I have time, I'll come to the party.", answer: "Se avrò tempo, verrò alla festa.", altAnswers: ["Se ho tempo, vengo alla festa.", "Se avrò tempo verrò alla festa."], explanation: "Future + future." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "When I know the results, I'll tell you. (to a friend)", answer: "Quando saprò i risultati, te lo dirò.", altAnswers: ["Quando saprò i risultati, ti dirò.", "Quando saprò i risultati, ti avviserò."], explanation: "\"Te lo dirò\" = I'll tell you (it): learn it as a chunk." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If you study, you'll pass the exam. (to a friend)", answer: "Se studierai, passerai l'esame.", altAnswers: ["Se studi, passi l'esame.", "Se studierai, supererai l'esame."], explanation: "\"Passare un esame\" = to pass an exam." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "As soon as they arrive, we'll eat.", answer: "Appena arriveranno, mangeremo.", altAnswers: ["Appena arrivano, mangiamo.", "Appena arriveranno mangeremo."], explanation: "\"Appena\" + future." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If the weather's nice, we'll go to the beach.", answer: "Se farà bel tempo, andremo al mare.", altAnswers: ["Se fa bel tempo, andiamo al mare.", "Se farà bel tempo, andremo in spiaggia."], explanation: "Weather: \"farà bel tempo\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "When [I'm] in Milan, I'll visit the Duomo.", sentence: "Quando ___ a Milano, visiterò il Duomo.", answer: "sarò", explanation: "Future after \"quando\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If [you come] to Florence, I'll show you the city. (to a friend)", sentence: "Se ___ a Firenze, ti farò vedere la città.", answer: "verrai", altAnswers: ["vieni"], explanation: "\"Venire\" → \"verrai\"." },
+      { type: "word-order", prompt: "Put the words in order to say: When I finish, I'll call you.", words: ["Quando", "finirò,", "ti", "chiamerò."], translation: "When I finish, I'll call you.", explanation: "Future + future." },
+      { type: "listen-choose", audio: "Se domani pioverà, resteremo a casa.", question: "What will they do if it rains?", options: ["stay at home", "go to the beach", "go to the cinema", "leave early"], correctIndex: 0, explanation: "\"Resteremo a casa\"." },
+      { type: "speak", text: "Quando arriverò a Roma, ti chiamerò. Se avrò tempo, verrò a trovarti.", prompt: "Say it in Italian: When I arrive in Rome, I'll call you. If I have time, I'll come and see you.", tip: "Future after quando and se.", explanation: "Four futures." },
+    ],
+  },
+  {
+    slug: "a2-drill-future-in-context",
+    level: "IT-A2",
+    number: 7,
+    title: "Drill: Plans, Predictions, Guesses",
+    summary: "Mixed high-repetition practice: the present for plans, the future for predictions and promises, and the future of guessing.",
+    duration: "22 min",
+    kind: "drill",
+    sections: [
+      {
+        heading: "Three jobs for the future",
+        body: [
+          "Ask what you're doing. A fixed plan with a time word: present is natural (\"Domani lavoro\"). A prediction, a promise, a distant plan, or after \"quando\" / \"se\": future (\"Domani nevicherà\", \"Ti aiuterò\"). A guess about now: future (\"Sarà stanco\").",
+        ],
+        examples: [
+          { es: "Domani lavoro fino alle sei.", en: "Tomorrow I'm working until six." },
+          { es: "Ti aiuterò con il trasloco, promesso.", en: "I'll help you with the move, I promise." },
+          { es: "Non ha mangiato niente: avrà fame.", en: "He hasn't eaten anything: he must be hungry." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll help you with the move, I promise. (to a friend)", answer: "Ti aiuterò con il trasloco, promesso.", altAnswers: ["Ti aiuterò con il trasloco, te lo prometto.", "Ti aiuterò col trasloco, promesso."], explanation: "A promise: future." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He hasn't eaten anything: [he must be] hungry.", sentence: "Non ha mangiato niente: ___ fame.", answer: "avrà", explanation: "A guess: \"avrà\"." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Tomorrow I'm working until six.", answer: "Domani lavoro fino alle sei.", altAnswers: ["Domani lavorerò fino alle sei.", "Lavoro fino alle sei domani."], explanation: "Plan: present." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It will snow in the mountains.", answer: "Nevicherà in montagna.", altAnswers: ["In montagna nevicherà."], explanation: "Prediction; \"nevicare\" → \"nevicherà\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Where's the cat? It must be under the bed.", answer: "Dov'è il gatto? Sarà sotto il letto.", altAnswers: ["Dove è il gatto? Sarà sotto il letto."], explanation: "Guess: \"sarà\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm meeting Laura at five.", answer: "Vedo Laura alle cinque.", altAnswers: ["Incontro Laura alle cinque.", "Alle cinque vedo Laura."], explanation: "Arrangement: present." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Prices will go up next year.", answer: "I prezzi aumenteranno l'anno prossimo.", altAnswers: ["L'anno prossimo i prezzi aumenteranno.", "I prezzi saliranno l'anno prossimo."], explanation: "Prediction." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The phone's ringing. It'll be my mother.", answer: "Squilla il telefono. Sarà mia madre.", altAnswers: ["Suona il telefono. Sarà mia madre.", "Il telefono squilla. Sarà mia madre.", "Squilla il telefono. Sarà mia mamma."], explanation: "Guess." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll never forget this trip.", answer: "Non dimenticherò mai questo viaggio.", explanation: "Promise: \"dimenticherò\" (with \"h\")." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "When I have more money, I'll buy a car.", answer: "Quando avrò più soldi, comprerò una macchina.", altAnswers: ["Quando avrò più soldi, mi comprerò una macchina.", "Quando avrò più soldi, comprerò un'auto."], explanation: "\"Quando\" + future." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He's not at home. He'll be at the gym.", answer: "Non è a casa. Sarà in palestra.", altAnswers: ["Non è in casa. Sarà in palestra."], explanation: "Guess." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "On Friday we're having dinner at my parents'.", answer: "Venerdì ceniamo dai miei genitori.", altAnswers: ["Venerdì ceniamo dai miei.", "Venerdì mangiamo dai miei genitori.", "Venerdì ceneremo dai miei genitori."], explanation: "Plan: present." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If you need help, I'll be here. (to a friend)", answer: "Se avrai bisogno di aiuto, io sarò qui.", altAnswers: ["Se avrai bisogno di aiuto, sarò qui.", "Se hai bisogno di aiuto, sono qui."], explanation: "\"Se\" + future." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "How much do you think this watch costs? About two hundred euros, I think.", answer: "Quanto costerà questo orologio? Duecento euro, credo.", altAnswers: ["Quanto costerà quest'orologio? Duecento euro, credo.", "Quanto costerà questo orologio? Circa duecento euro, credo."], explanation: "A guess about a price." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Don't worry, [everything will be fine].", sentence: "Non ti preoccupare, ___.", answer: "andrà tutto bene", explanation: "Prediction / reassurance." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The train [leaves] at 7:40 tomorrow.", sentence: "Domani il treno ___ alle 7:40.", answer: "parte", explanation: "Timetable: present." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Marta is very quiet. [She must be] tired.", sentence: "Marta è molto silenziosa. ___ stanca.", answer: "Sarà", explanation: "Guess." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "In 2050 cities [will be] greener.", sentence: "Nel 2050 le città ___ più verdi.", answer: "saranno", explanation: "Prediction." },
+      { type: "word-order", prompt: "Put the words in order to say: One day I'll speak Italian perfectly.", words: ["Un", "giorno", "parlerò", "italiano", "perfettamente."], translation: "One day I'll speak Italian perfectly.", explanation: "A dream: future." },
+      { type: "multiple-choice", question: "Your friend is late. You guess she's stuck in traffic. What do you say?", options: ["Sarà nel traffico.", "È stata nel traffico.", "Sarebbe nel traffico.", "Era nel traffico."], correctIndex: 0, explanation: "Future of probability." },
+      { type: "multiple-choice", question: "Which sounds most natural for a fixed plan?", options: ["Stasera vado al cinema con Paolo.", "Stasera andavo al cinema con Paolo.", "Stasera sono andato al cinema con Paolo domani.", "Stasera andrei al cinema con Paolo."], correctIndex: 0, explanation: "The present for a plan tonight." },
+      { type: "dictation", audio: "Domani lavoro, ma sabato andrò al mare se farà bel tempo.", explanation: "Present plan, future with \"se\"." },
+      { type: "speak", text: "Stasera esco con Luca. Non risponde al telefono: sarà ancora al lavoro.", prompt: "Say it in Italian: Tonight I'm going out with Luca. He's not answering the phone: he must still be at work.", tip: "Plan: present. Guess: future.", explanation: "Two different uses." },
+    ],
+  },
+  {
+    slug: "a2-sound-future-stress",
+    level: "IT-A2",
+    number: 8,
+    title: "Sounds: Final Stress in the Future",
+    summary: "Hear and write the final stress of parlerò, sarà, andrà and the double r of verrò, vorrò, berrò, rimarrò.",
+    duration: "15 min",
+    sections: [
+      {
+        heading: "The accent decides",
+        body: [
+          "\"Parlerò\" is stressed on the final \"-rò\" and written with an accent. Without the accent, \"parlero\" isn't a word. The same with \"farà\" (he will do) vs \"fara\" (not a word), \"sarà\" vs \"sara\" (the name Sara). The \"io\" and \"lui / lei\" forms always need the written accent: \"-ò\", \"-à\".",
+          "Other forms are stressed on \"-re-\" or \"-ra-\": \"parleRAi\", \"parleREmo\", \"parleREte\", \"parleRANno\".",
+        ],
+        examples: [
+          { es: "Sarà una bella giornata.", en: "It will be a lovely day." },
+          { es: "Sara farà una torta.", en: "Sara will make a cake." },
+          { es: "Parlerò con lui domani.", en: "I'll talk to him tomorrow." },
+          { es: "Andrà tutto bene.", en: "Everything will be fine." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Sara will make a cake.", answer: "Sara farà una torta.", altAnswers: ["Sara preparerà una torta."], explanation: "\"Sara\" the name, \"farà\" the verb." },
+          { type: "dictation", audio: "Sarà una bella giornata.", explanation: "\"Sarà\": accent on the final \"a\"." },
+        ],
+      },
+      {
+        heading: "Double r",
+        body: [
+          "\"Verrò\" (I'll come) has a long \"rr\" and final stress; \"vero\" (true) has one \"r\" and stress on the first syllable. Also \"vorrò\" (I'll want), \"berrò\" (I'll drink), \"rimarrò\" (I'll stay). Hold the \"r\" for a beat: \"ver-rò\".",
+        ],
+        examples: [
+          { es: "È vero, verrò anch'io.", en: "It's true, I'll come too." },
+          { es: "Vorrò vedere tutto.", en: "I'll want to see everything." },
+          { es: "Rimarrò a casa.", en: "I'll stay at home." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's true, I'll come too.", answer: "È vero, verrò anch'io.", altAnswers: ["È vero, vengo anch'io."], explanation: "\"Vero\" vs \"verrò\"." },
+          { type: "listen-choose", audio: "Verrò domani.", question: "What do you hear?", options: ["verrò (I'll come)", "vero (true)", "verrà (he'll come)", "vengo (I come)"], correctIndex: 0, explanation: "Double \"r\" and final \"-ò\"." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll talk to him tomorrow.", answer: "Parlerò con lui domani.", altAnswers: ["Domani parlerò con lui.", "Gli parlerò domani."], explanation: "\"Parlerò\": final stress." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Everything will be fine.", answer: "Andrà tutto bene.", altAnswers: ["Tutto andrà bene."], explanation: "\"Andrà\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll want to see everything.", answer: "Vorrò vedere tutto.", explanation: "\"Vorrò\": double \"r\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll stay at home and drink a tea.", answer: "Rimarrò a casa e berrò un tè.", altAnswers: ["Resterò a casa e berrò un tè.", "Starò a casa e berrò un tè."], explanation: "\"Rimarrò\", \"berrò\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He'll come on Monday.", answer: "Verrà lunedì.", altAnswers: ["Lui verrà lunedì.", "Lunedì verrà."], explanation: "\"Verrà\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It will be difficult, but we'll do it.", answer: "Sarà difficile, ma ce la faremo.", altAnswers: ["Sarà difficile ma ce la faremo."], explanation: "\"Ce la faremo\" = we'll manage it: a fixed chunk." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Will you call me? (to a friend)", answer: "Mi chiamerai?", altAnswers: ["Mi telefonerai?"], explanation: "Stress on \"-RAI\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Tomorrow [it will be] sunny.", sentence: "Domani ___ sole.", answer: "ci sarà", altAnswers: ["farà"], explanation: "\"Ci sarà il sole\" / \"farà bel tempo\"." },
+      { type: "multiple-choice", question: "Which spelling is correct for I will speak?", options: ["parlerò", "parlero", "parlerà", "parlarò"], correctIndex: 0, explanation: "Accent on the final \"o\"." },
+      { type: "dictation", audio: "Sara verrà e porterà il vino.", explanation: "\"Sara\" (name) vs \"verrà\", \"porterà\"." },
+      { type: "dictation", audio: "È vero, verrò anch'io.", explanation: "\"Vero\" vs \"verrò\"." },
+      { type: "speak", text: "Sarà, farà, andrà, verrò, berrò, rimarrò.", prompt: "Say these future forms with clear final stress.", tip: "Push the last syllable; hold the rr.", explanation: "Final stress and double \"r\"." },
+    ],
+  },
+  {
+    slug: "a2-dialogue-lab-summer-plans",
+    level: "IT-A2",
+    number: 9,
+    title: "Dialogue Lab: Summer Plans",
+    summary: "Two friends plan August: dove andrai?, starò due settimane in Puglia, vedremo.",
+    duration: "15 min",
+    sections: [
+      {
+        heading: "Dove andrai ad agosto?",
+        body: [
+          "Federica and Tommaso talk about the summer. Federica: \"Dove andrai ad agosto?\" Tommaso: \"Starò due settimane in Puglia con i miei. Affitteremo una casa vicino a Otranto.\" Federica: \"Che bello! Io ancora non lo so. Forse andrò in montagna. Vedremo.\"",
+          "\"Vedremo\" (we'll see) and \"chissà\" (who knows) are the classic answers when plans aren't fixed.",
+        ],
+        examples: [
+          { es: "Dove andrai ad agosto?", en: "Where will you go in August?" },
+          { es: "Starò due settimane in Puglia con i miei.", en: "I'll spend two weeks in Puglia with my parents." },
+          { es: "Affitteremo una casa vicino a Otranto.", en: "We'll rent a house near Otranto." },
+          { es: "Forse andrò in montagna. Vedremo.", en: "Maybe I'll go to the mountains. We'll see." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Where will you go in August? (to a friend)", answer: "Dove andrai ad agosto?", altAnswers: ["Dove vai ad agosto?", "Ad agosto dove andrai?"], explanation: "\"Andare\" → \"andrai\"." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[We'll rent] a house near Otranto.", sentence: "___ una casa vicino a Otranto.", answer: "Affitteremo", explanation: "\"Affittare\" → \"affitteremo\"." },
+        ],
+      },
+      {
+        heading: "Cosa farete?",
+        body: [
+          "Federica: \"E cosa farete tutto il giorno?\" Tommaso: \"Andremo al mare la mattina e il pomeriggio dormiremo. La sera mangeremo pesce e usciremo in paese.\" Federica: \"Se verrò a trovarvi, mi ospiterete?\" Tommaso: \"Certo! Ci sarà posto per tutti.\"",
+        ],
+        examples: [
+          { es: "Andremo al mare la mattina.", en: "We'll go to the beach in the mornings." },
+          { es: "Se verrò a trovarvi, mi ospiterete?", en: "If I come to see you, will you put me up?" },
+          { es: "Ci sarà posto per tutti.", en: "There'll be room for everyone." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "There'll be room for everyone.", answer: "Ci sarà posto per tutti.", explanation: "\"C'è\" → \"ci sarà\"." },
+          { type: "listen-choose", audio: "Andremo al mare la mattina e il pomeriggio dormiremo.", question: "What will they do in the afternoon?", options: ["sleep", "go to the beach", "eat fish", "go to town"], correctIndex: 0, explanation: "\"Il pomeriggio dormiremo\"." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll spend two weeks in Puglia with my parents.", answer: "Starò due settimane in Puglia con i miei.", altAnswers: ["Starò due settimane in Puglia con i miei genitori.", "Passerò due settimane in Puglia con i miei.", "Passerò due settimane in Puglia con i miei genitori."], explanation: "\"I miei\" = my parents (informal)." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Maybe I'll go to the mountains. We'll see.", answer: "Forse andrò in montagna. Vedremo.", altAnswers: ["Forse vado in montagna. Vedremo."], explanation: "\"Vedremo\" for an open plan." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We'll go to the beach in the mornings.", answer: "Andremo al mare la mattina.", altAnswers: ["La mattina andremo al mare.", "Andremo in spiaggia la mattina."], explanation: "\"La mattina\" = in the mornings." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In the evening we'll eat fish and go out in the village.", answer: "La sera mangeremo pesce e usciremo in paese.", altAnswers: ["La sera mangeremo il pesce e usciremo in paese."], explanation: "\"Mangeremo\", \"usciremo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If I come to see you, will you put me up? (to two friends)", answer: "Se verrò a trovarvi, mi ospiterete?", altAnswers: ["Se vengo a trovarvi, mi ospitate?", "Se verrò a trovarvi mi ospiterete?"], explanation: "\"Se\" + future + future." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Who knows, maybe I'll go abroad.", answer: "Chissà, forse andrò all'estero.", explanation: "\"Chissà\" = who knows." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "How long will you stay? (to a friend)", answer: "Quanto tempo starai?", altAnswers: ["Quanto rimarrai?", "Quanto tempo rimarrai?", "Quanto starai?", "Quanto tempo resterai?"], explanation: "\"Stare\" / \"rimanere\" in the future." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "My cousins [will come] too.", sentence: "___ anche i miei cugini.", answer: "Verranno", explanation: "\"Venire\" → \"verranno\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[It will be] very hot in August.", sentence: "Ad agosto ___ molto caldo.", answer: "farà", explanation: "Weather: \"fare caldo\" → \"farà\"." },
+      { type: "word-order", prompt: "Put the words in order to say: We'll leave on the first of August.", words: ["Partiremo", "il", "primo", "agosto."], translation: "We'll leave on the first of August.", explanation: "\"Il primo agosto\"." },
+      { type: "multiple-choice", question: "Your friend asks \"Dove andrai in vacanza?\" You don't know yet. Which reply fits?", options: ["Non lo so ancora, vedremo.", "Sono andato in Sicilia.", "Andavo al mare.", "Vado ieri."], correctIndex: 0, explanation: "\"Vedremo\" for open plans." },
+      { type: "speak", text: "Ad agosto starò in Puglia con i miei. Andremo al mare tutti i giorni.", prompt: "Say it in Italian: In August I'll be in Puglia with my parents. We'll go to the beach every day.", tip: "Starò, andremo: final stress / -RE-.", explanation: "Two futures." },
+    ],
+  },
+  {
+    slug: "a2-error-hunt-future",
+    level: "IT-A2",
+    number: 10,
+    title: "Error Hunt: The Future",
+    summary: "Fix the typical slips: andarò, venirò, cercerò, saro without the accent, mixed tenses after quando, and the conditional for a forecast.",
+    duration: "15 min",
+    sections: [
+      {
+        heading: "Forms and spelling",
+        body: [
+          "\"Andarò\" and \"venirò\" use the full infinitive: the stems are \"andr-\" and \"verr-\": \"andrò\", \"verrò\". \"Cercerò\" loses the hard sound: \"cercherò\". \"Saro\" without the accent is a mistake: \"sarò\".",
+          "\"Mangierò\" keeps an \"i\" that disappears: \"mangerò\". \"Parlarò\" keeps the \"a\": \"parlerò\".",
+        ],
+        examples: [
+          { es: "Andrò a Venezia.", en: "I'll go to Venice." },
+          { es: "Verrò alle otto.", en: "I'll come at eight." },
+          { es: "Cercherò un albergo.", en: "I'll look for a hotel." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "A learner wrote \"Andarò a Venezia.\" Write it correctly: I'll go to Venice.", source: "I'll go to Venice.", answer: "Andrò a Venezia.", explanation: "Stem \"andr-\"." },
+          { type: "translate", direction: "en-es", prompt: "A learner wrote \"Cercerò un albergo.\" Write it correctly: I'll look for a hotel.", source: "I'll look for a hotel.", answer: "Cercherò un albergo.", altAnswers: ["Cercherò un hotel."], explanation: "\"H\" keeps the hard [k]." },
+        ],
+      },
+      {
+        heading: "Tenses",
+        body: [
+          "\"Quando arriverò, ti chiamo domani?\" mixes the future with the present in a question. In a written message keep both verbs in the future: \"Quando arriverò, ti chiamerò\" (or both in the present in casual speech).",
+          "\"Domani pioverebbe\" uses another tense (the conditional, = it would rain). A forecast is a prediction: \"Domani pioverà\".",
+        ],
+        examples: [
+          { es: "Quando arriverò, ti chiamerò.", en: "When I arrive, I'll call you." },
+          { es: "Domani pioverà.", en: "Tomorrow it will rain." },
+          { es: "Se avrò tempo, verrò.", en: "If I have time, I'll come." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "A learner wrote \"Domani pioverebbe.\" Write it correctly: Tomorrow it will rain.", source: "Tomorrow it will rain.", answer: "Domani pioverà.", explanation: "Prediction: future." },
+          { type: "multiple-choice", question: "Which is best in a written message?", options: ["Quando arriverò, ti chiamerò.", "Quando arriverò, ti ho chiamato.", "Quando arrivavo, ti chiamerò.", "Quando arriverò, ti chiamavo."], correctIndex: 0, explanation: "Future + future." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Venirò alle otto.\" Write it correctly: I'll come at eight.", source: "I'll come at eight.", answer: "Verrò alle otto.", explanation: "Stem \"verr-\"." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Saro a casa.\" Write it correctly: I'll be at home.", source: "I'll be at home.", answer: "Sarò a casa.", explanation: "Accent: \"sarò\"." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Mangierò la pizza.\" Write it correctly: I'll eat pizza.", source: "I'll eat pizza.", answer: "Mangerò la pizza.", altAnswers: ["Mangerò una pizza."], explanation: "No \"i\": \"mangerò\"." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Avero tempo domani.\" Write it correctly: I'll have time tomorrow.", source: "I'll have time tomorrow.", answer: "Avrò tempo domani.", altAnswers: ["Domani avrò tempo."], explanation: "Stem \"avr-\" + accent." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Se ho tempo, verrò.\" Make it consistent: If I have time, I'll come.", source: "If I have time, I'll come.", answer: "Se avrò tempo, verrò.", altAnswers: ["Se ho tempo, vengo."], explanation: "Future + future (or present + present)." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Pagarò io.\" Write it correctly: I'll pay.", source: "I'll pay.", answer: "Pagherò io.", altAnswers: ["Pago io."], explanation: "\"-gare\" → \"-gherò\"." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Vorò un caffè.\" Write it correctly: I'll want a coffee.", source: "I'll want a coffee.", answer: "Vorrò un caffè.", explanation: "Double \"r\"." },
+      { type: "fill-blank", prompt: "A learner wrote \"Domani faremmo una gita.\" Write the Italian for the bold words.", en: "Tomorrow [we'll go] on a trip.", sentence: "Domani ___ una gita.", answer: "faremo", explanation: "Future \"faremo\" (one \"m\"); \"faremmo\" is the conditional." },
+      { type: "fill-blank", prompt: "A learner wrote \"Quando finirò, ti chiamavo.\" Write the Italian for the bold words.", en: "When I finish, [I'll call you].", sentence: "Quando finirò, ___.", answer: "ti chiamerò", altAnswers: ["ti telefonerò"], explanation: "Future + future." },
+      { type: "word-order", prompt: "Put the words in order to say: When I'm in Rome, I'll visit you.", words: ["Quando", "sarò", "a", "Roma,", "verrò", "a", "trovarti."], translation: "When I'm in Rome, I'll visit you.", explanation: "Future + future." },
+      { type: "dictation", audio: "Andrò a Venezia e cercherò un albergo.", explanation: "\"Andrò\", \"cercherò\"." },
+      { type: "speak", text: "Domani pioverà, quindi rimarrò a casa e studierò.", prompt: "Say it correctly: Tomorrow it will rain, so I'll stay at home and study.", tip: "Pioverà, rimarrò, studierò.", explanation: "Three corrected futures." },
+    ],
+  },
+  {
+    slug: "a2-mission-weather-forecast",
+    level: "IT-A2",
+    number: 11,
+    title: "Real-World Mission: The Weekend Forecast",
+    summary: "Read a weekend weather forecast and make plans around it.",
+    duration: "15 min",
+    kind: "review",
+    sections: [
+      {
+        heading: "Le previsioni del tempo",
+        body: [
+          "A typical Italian forecast: \"Sabato il tempo sarà bello al centro e al sud, con temperature fino a 28 gradi. Al nord ci saranno nuvole e nel pomeriggio pioverà. Domenica arriverà un vento forte da ovest e le temperature scenderanno.\"",
+          "Useful words: \"sereno\" (clear), \"nuvoloso\" (cloudy), \"il temporale\" (thunderstorm), \"la pioggia\", \"il vento\", \"la neve\", \"le temperature saliranno / scenderanno\".",
+        ],
+        examples: [
+          { es: "Sabato il tempo sarà bello al centro e al sud.", en: "On Saturday the weather will be fine in the centre and south." },
+          { es: "Al nord ci saranno nuvole.", en: "In the north there will be clouds." },
+          { es: "Nel pomeriggio pioverà.", en: "In the afternoon it will rain." },
+          { es: "Le temperature scenderanno.", en: "Temperatures will drop." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In the north there will be clouds.", answer: "Al nord ci saranno nuvole.", altAnswers: ["Al nord ci saranno delle nuvole.", "Al Nord ci saranno nuvole.", "Al nord sarà nuvoloso."], explanation: "\"Ci saranno\" + plural." },
+          { type: "listen-choose", audio: "Domenica arriverà un vento forte da ovest.", question: "What will arrive on Sunday?", options: ["a strong wind", "heavy rain", "snow", "a heatwave"], correctIndex: 0, explanation: "\"Un vento forte\"." },
+        ],
+      },
+      {
+        heading: "Your plans",
+        body: [
+          "Now plan around it with \"se\" and \"quando\": \"Se sabato farà bel tempo, andremo al mare. Se domenica pioverà, visiteremo un museo. Quando smetterà di piovere, faremo una passeggiata.\"",
+        ],
+        examples: [
+          { es: "Se sabato farà bel tempo, andremo al mare.", en: "If the weather's fine on Saturday, we'll go to the beach." },
+          { es: "Se domenica pioverà, visiteremo un museo.", en: "If it rains on Sunday, we'll visit a museum." },
+          { es: "Quando smetterà di piovere, faremo una passeggiata.", en: "When it stops raining, we'll go for a walk." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If it rains on Sunday, we'll visit a museum.", answer: "Se domenica pioverà, visiteremo un museo.", altAnswers: ["Se domenica piove, visitiamo un museo.", "Se pioverà domenica, visiteremo un museo.", "Se domenica pioverà, andremo in un museo."], explanation: "\"Se\" + future + future." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "When [it stops] raining, we'll go for a walk.", sentence: "Quando ___ di piovere, faremo una passeggiata.", answer: "smetterà", explanation: "\"Smettere di\" = to stop." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "On Saturday the weather will be fine in the south.", answer: "Sabato il tempo sarà bello al sud.", altAnswers: ["Sabato farà bel tempo al sud.", "Sabato al sud farà bel tempo.", "Sabato il tempo sarà bello al Sud."], explanation: "\"Sarà bello\" / \"farà bel tempo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Temperatures will drop.", answer: "Le temperature scenderanno.", altAnswers: ["Le temperature caleranno."], explanation: "\"Scendere\" → \"scenderanno\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If the weather's fine on Saturday, we'll go to the beach.", answer: "Se sabato farà bel tempo, andremo al mare.", altAnswers: ["Se sabato fa bel tempo, andiamo al mare.", "Se farà bel tempo sabato, andremo al mare.", "Se sabato farà bel tempo, andremo in spiaggia."], explanation: "Weather + plan." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "There will be thunderstorms in the evening.", answer: "La sera ci saranno temporali.", altAnswers: ["In serata ci saranno temporali.", "Ci saranno temporali la sera.", "La sera ci saranno dei temporali."], explanation: "\"Ci saranno\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It will snow in the mountains and it will be very cold.", answer: "Nevicherà in montagna e farà molto freddo.", altAnswers: ["In montagna nevicherà e farà molto freddo."], explanation: "\"Nevicherà\", \"farà freddo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We'll take our umbrellas, just in case.", answer: "Prenderemo gli ombrelli, non si sa mai.", altAnswers: ["Porteremo gli ombrelli, non si sa mai.", "Prenderemo l'ombrello, non si sa mai.", "Prenderemo gli ombrelli, per sicurezza."], explanation: "\"Non si sa mai\" = you never know." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Temperatures [will rise] to 30 degrees.", sentence: "Le temperature ___ fino a 30 gradi.", answer: "saliranno", explanation: "\"Salire\" → \"saliranno\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "On Sunday [it will be] cloudy.", sentence: "Domenica ___ nuvoloso.", answer: "sarà", explanation: "\"Sarà nuvoloso\"." },
+      { type: "word-order", prompt: "Put the words in order to say: If it's windy, we won't go sailing.", words: ["Se", "ci", "sarà", "vento,", "non", "andremo", "in", "barca."], translation: "If it's windy, we won't go sailing.", explanation: "\"Ci sarà vento\"." },
+      { type: "multiple-choice", question: "The forecast says \"Sabato: sereno, 27°\". Which plan fits?", options: ["Sabato andremo al mare.", "Sabato rimarremo a casa per la pioggia.", "Sabato andremo a sciare.", "Sabato prenderemo l'ombrello per la neve."], correctIndex: 0, explanation: "\"Sereno\" = clear sky." },
+      { type: "dictation", audio: "Nel pomeriggio pioverà e le temperature scenderanno.", explanation: "\"Pioverà\", \"scenderanno\"." },
+      { type: "speak", text: "Sabato farà bel tempo, quindi andremo al mare. Domenica pioverà: visiteremo un museo.", prompt: "Say it in Italian: On Saturday the weather will be fine, so we'll go to the beach. On Sunday it will rain: we'll visit a museum.", tip: "Prediction, then plan.", explanation: "Weather and plans in the future." },
+    ],
+  },
+];
+
+export const IT_A2_U09_WRITING: WriteExercise = {
+  type: "write",
+  prompt: "Write a message to an Italian friend about your plans for next weekend or the summer. Say what you're doing (fixed plans), what you'll probably do depending on the weather, and make one guess about your friend (sarai stanco, avrai tanto lavoro...).",
+  minWords: 40,
+  maxWords: 100,
+  rubric: [
+    "Forms the futuro semplice correctly, including irregular stems (andrò, sarò, verrò, farò) and spelling (cercherò, mangerò)",
+    "Uses the present for at least one fixed plan with a time word (sabato parto, domani lavoro)",
+    "Uses se or quando with the future in both parts (se farà bel tempo, andremo...)",
+    "Uses the future of probability for a guess (sarai stanca, avrai tanto da fare)",
+  ],
+  modelAnswer: "Ciao Chiara! Sabato mattina parto per Lecce con mio fratello. Staremo da mia zia fino a lunedì. Se farà bel tempo, andremo al mare a Otranto e mangeremo il pesce fresco. Se pioverà, visiteremo il centro storico e cercheremo un buon ristorante. Quando torneremo, ti porterò i famosi pasticciotti! E tu? Sarai stanca dopo questa settimana, avrai bisogno di riposo! Ci vediamo presto?",
+  explanation: "\"Sabato mattina parto\" uses the present for a fixed plan. \"Staremo\", \"andremo\", \"mangeremo\", \"visiteremo\", \"cercheremo\" are futures, with the irregular \"staremo\" and the spelling \"cercheremo\". \"Se farà bel tempo, andremo\" and \"Quando torneremo, ti porterò\" put both verbs in the future. \"Sarai stanca\" and \"avrai bisogno di riposo\" are guesses about the present.",
+};

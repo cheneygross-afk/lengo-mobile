@@ -3,11 +3,11 @@ import { supabase } from "@/lib/supabase/client";
 // Mobile port of the web app's TranslateSearch direction-detection and
 // fetch logic (src/components/TranslateSearch.tsx). Now covers both
 // tracks the app offers -- Spanish, French, German, the Japanese beta and the
-// Brazilian Portuguese course (and ko-en for the Korean beta's stories,
-// where a tapped word is looked up) -- same as the
+// Brazilian Portuguese course and the Italian beta (and ko-en for the Korean
+// beta's stories, where a tapped word is looked up) -- same as the
 // website: which pair is active follows whichever language is selected
 // on Home, not a fixed Spanish/English pair.
-export type Direction = "en-es" | "es-en" | "en-ja" | "ja-en" | "en-fr" | "fr-en" | "en-de" | "de-en" | "en-pt" | "pt-en" | "en-ko" | "ko-en";
+export type Direction = "en-es" | "es-en" | "en-ja" | "ja-en" | "en-fr" | "fr-en" | "en-de" | "de-en" | "en-pt" | "pt-en" | "en-ko" | "ko-en" | "en-it" | "it-en";
 
 export type TranslationSense = {
   translation: string;
@@ -95,13 +95,31 @@ function detectPortugueseDirection(text: string): Direction {
   return COMMON_PORTUGUESE_WORDS.has(firstWord) ? "pt-en" : "en-pt";
 }
 
+// Words that start an Italian phrase far more often than an English one
+// (the website's TranslateSearch list), for the Italian beta.
+const COMMON_ITALIAN_WORDS = new Set([
+  "il", "lo", "la", "i", "gli", "le", "un", "uno", "una", "e", "è", "io", "tu", "lui", "lei", "noi", "voi", "loro",
+  "non", "sì", "di", "del", "della", "che", "con", "per", "molto", "grazie", "ciao", "buongiorno", "sono", "sei",
+  "ho", "hai", "ha", "vado", "va", "mio", "mia", "questo", "questa", "come", "dove", "perché", "anche", "ma",
+]);
+
+/** Which way an Italian-course lookup goes: Italian in (by an accented
+ * vowel, its first word or an elided article), else English to Italian. */
+function detectItalianDirection(text: string): Direction {
+  if (/[àèéìòù]/i.test(text)) return "it-en";
+  const first = text.trim().split(/\s+/)[0]?.toLowerCase().replace(/’/g, "'") ?? "";
+  return COMMON_ITALIAN_WORDS.has(first) || /^(l|un|dell|all|nell|c|d)'/.test(first) ? "it-en" : "en-it";
+}
+
 // `context` is which language is selected on Home -- absent any
 // script/vocabulary signal (plain ASCII, nothing recognized as Spanish),
 // this decides whether typing falls back to "en-es" or "en-ja". The
 // French and German courses and the Portuguese course have their own pairs
-// (en-fr / fr-en, en-de / de-en, en-pt / pt-en).
-export function detectDirection(text: string, context: "es" | "ja" | "fr" | "de" | "pt"): Direction {
+// (en-fr / fr-en, en-de / de-en, en-pt / pt-en), and so does the Italian
+// beta (en-it / it-en).
+export function detectDirection(text: string, context: "es" | "ja" | "fr" | "de" | "pt" | "it"): Direction {
   if (context === "fr") return detectFrenchDirection(text);
+  if (context === "it") return detectItalianDirection(text);
   if (context === "pt") return detectPortugueseDirection(text);
   if (context === "de") return detectGermanDirection(text);
   const japaneseContext = context === "ja";
@@ -138,6 +156,10 @@ export function swapDirection(direction: Direction): Direction {
       return "ko-en";
     case "ko-en":
       return "en-ko";
+    case "en-it":
+      return "it-en";
+    case "it-en":
+      return "en-it";
   }
 }
 
@@ -167,6 +189,10 @@ export function directionPillLabel(direction: Direction): string {
       return "EN→KO";
     case "ko-en":
       return "KO→EN";
+    case "en-it":
+      return "EN→IT";
+    case "it-en":
+      return "IT→EN";
   }
 }
 
@@ -196,6 +222,10 @@ export function directionHeading(direction: Direction): string {
       return "English → Korean";
     case "ko-en":
       return "Korean → English";
+    case "en-it":
+      return "English → Italian";
+    case "it-en":
+      return "Italian → English";
   }
 }
 

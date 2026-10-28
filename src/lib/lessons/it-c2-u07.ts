@@ -1,0 +1,681 @@
+// Synced from cheneygross-afk/lengo:src/lib/lessons/it-c2-u07.ts by scripts/sync-content.mjs -- edit it there, not here.
+import type { Lesson, WriteExercise } from "./types";
+
+// Italian C2 Unit 7: Wordplay, Irony and Humour. Irony markers, puns and
+// double meanings, the structure of the barzelletta, satire, and banter.
+// All jokes, sketches and satirical pieces are original to this course.
+// Conventions: docs/italian-course/authoring.md.
+export const IT_C2_U07: Lesson[] = [
+  {
+    slug: "c2-irony",
+    level: "IT-C2",
+    number: 1,
+    title: "Irony",
+    summary: "Recognise and use the markers of Italian irony: figurati!, come no!, bravo!, grazie tante, and the tone that turns praise into criticism.",
+    duration: "19 min",
+    sections: [
+      {
+        heading: "Words that mean the opposite",
+        body: [
+          "Italian conversation is full of irony, and much of it rests on a small set of markers. \"Come no!\" literally 'how not!' means 'yeah, right!': \"Domani ti restituisco i soldi.\" \"Come no!\" \"Figurati!\" has two lives: sincere ('don't mention it', \"Grazie!\" \"Figurati!\") and ironic ('as if!', \"Lui, aiutarti? Figurati!\"). \"Bravo!\" and \"Complimenti!\" said to someone who has just broken a glass mean 'well done, genius'. \"Grazie tante!\" (thanks a lot) is almost always sarcastic.",
+          "Others: \"Sì, buonanotte!\" (dream on, forget it), \"Ci mancava solo questa!\" (that's all we needed), \"Che bello!\" or \"Ottimo!\" said flatly when something goes wrong, \"Ma pensa un po'!\" (fancy that, mock surprise), \"Bella forza!\" (big deal, said of an achievement that was easy), \"Sai che novità!\" (what a surprise, i.e. nothing new).",
+        ],
+        examples: [
+          { es: "Domani ti restituisco i soldi. Come no!", en: "I'll pay you back tomorrow. Yeah, right!" },
+          { es: "Lui, aiutarti? Figurati!", en: "Him, help you? As if!" },
+          { es: "Hai rotto un altro bicchiere? Bravo!", en: "You broke another glass? Well done!" },
+          { es: "Piove e ho dimenticato l'ombrello. Ci mancava solo questa!", en: "It's raining and I forgot my umbrella. That's all I needed!" },
+          { es: "Il treno è in ritardo. Sai che novità!", en: "The train is late. What a surprise!" },
+          { es: "Ha vinto contro un bambino di sei anni? Bella forza!", en: "He beat a six-year-old? Big deal!" },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "That's all I needed!", answer: "Ci mancava solo questa!", altAnswers: ["Ci mancava anche questa!", "Mancava solo questa!"], explanation: "\"Ci mancava solo questa\": ironic exasperation." },
+          { type: "multiple-choice", question: "A colleague says he'll finish the report by tonight. He never finishes anything on time. You answer:", options: ["Come no!", "Che bello!", "Figurati, grazie!", "Bella forza!"], correctIndex: 0, explanation: "\"Come no!\" = yeah, right." },
+          { type: "listen-choose", audio: "Il treno è in ritardo. Sai che novità!", question: "What does the speaker mean?", options: ["The delay is nothing unusual.", "The delay is surprising news.", "The speaker is pleased.", "The train is early for once."], correctIndex: 0, explanation: "\"Sai che novità\": ironic." },
+        ],
+      },
+      {
+        heading: "Tone and context",
+        body: [
+          "Irony lives in the voice. The same \"Bravo!\" is warm with a rising, open intonation and ironic with a flat or drawn-out one (\"Braaavo\"). A slight pause before it, a raised eyebrow, a glance at others present: all signal the reversal. In writing, Italians use inverted commas (\"il «geniale» progetto\"), exclamation marks, or an explicit \"si fa per dire\" (so to speak).",
+          "Irony can also be structural: understatement (\"Non è proprio un genio\" for someone very stupid; \"Non è stata la mia giornata migliore\" for a disaster) and mock solemnity (describing a trivial event in grand words: \"l'epica impresa di montare un armadio\"). Understatement is common and polite; outright sarcasm is riskier with people you don't know well.",
+        ],
+        examples: [
+          { es: "Non è proprio un genio.", en: "He's not exactly a genius." },
+          { es: "Non è stata la mia giornata migliore.", en: "It wasn't my best day." },
+          { es: "Il suo «geniale» progetto è fallito.", en: "His 'brilliant' project failed." },
+          { es: "Ho passato una serata tranquilla, si fa per dire.", en: "I had a quiet evening, so to speak." },
+          { es: "L'epica impresa di montare un armadio.", en: "The epic feat of assembling a wardrobe." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He's not exactly a genius.", answer: "Non è proprio un genio.", altAnswers: ["Non è esattamente un genio.", "Lui non è proprio un genio."], explanation: "Understatement with \"non ... proprio\"." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I had a quiet evening, [so to speak].", sentence: "Ho passato una serata tranquilla, ___.", answer: "si fa per dire", altAnswers: ["per modo di dire"], explanation: "Explicit irony marker." },
+        ],
+      },
+      {
+        heading: "Answering irony",
+        body: [
+          "You also need replies. To ironic praise: \"Spiritoso!\" (very funny), \"Sì, sì, ridi pure\" (go on, laugh), \"Molto divertente\". To signal that you're joking yourself: \"Scherzo!\", \"Dai, sto scherzando\", \"Era una battuta\" (it was a joke). And to ask: \"Sei serio o scherzi?\", \"Mi stai prendendo in giro?\" (are you making fun of me?).",
+        ],
+        examples: [
+          { es: "Spiritoso!", en: "Very funny!" },
+          { es: "Dai, sto scherzando.", en: "Come on, I'm joking." },
+          { es: "Era una battuta.", en: "It was a joke." },
+          { es: "Mi stai prendendo in giro?", en: "Are you making fun of me?" },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Are you making fun of me?", answer: "Mi stai prendendo in giro?", altAnswers: ["Mi prendi in giro?", "Mi sta prendendo in giro?", "Mi state prendendo in giro?"], explanation: "\"Prendere in giro\" = to tease, mock." },
+          { type: "speak", text: "Dai, sto scherzando: era solo una battuta!", tip: "Light, quick tone with a smile in the voice.", explanation: "Defusing a joke." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Him, help you? As if!", answer: "Lui, aiutarti? Figurati!", altAnswers: ["Lui aiutarti? Figurati!", "Lui, aiutarti? Ma figurati!"], explanation: "Ironic \"figurati\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It wasn't my best day.", answer: "Non è stata la mia giornata migliore.", altAnswers: ["Non è stata la mia giornata più bella.", "Non è stato il mio giorno migliore."], explanation: "Understatement for a disaster." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Come on, I'm joking.", answer: "Dai, sto scherzando.", altAnswers: ["Dai, scherzo.", "Dai, scherzavo."], explanation: "\"Scherzare\" = to joke." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Are you serious or are you joking?", answer: "Sei serio o scherzi?", altAnswers: ["Sei seria o scherzi?", "Dici sul serio o scherzi?", "Parli sul serio o scherzi?"], explanation: "\"Dire sul serio\" = to mean it." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Thanks a lot!", answer: "Grazie tante!", altAnswers: ["Grazie mille!", "Tante grazie!"], explanation: "\"Grazie tante\" is usually sarcastic." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "You broke another glass? [Well done]!", sentence: "Hai rotto un altro bicchiere? ___!", answer: "Bravo", altAnswers: ["Brava", "Complimenti"], explanation: "Ironic praise." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He beat a child? [Big deal]!", sentence: "Ha battuto un bambino? ___!", answer: "Bella forza", explanation: "\"Bella forza\": the feat was easy." },
+      { type: "word-order", prompt: "Put the words in order to say: His 'brilliant' project failed.", words: ["Il", "suo", "«geniale»", "progetto", "è", "fallito."], translation: "His 'brilliant' project failed.", explanation: "Inverted commas mark irony in writing." },
+      { type: "multiple-choice", question: "Your friend says \"Domani smetto di fumare\" for the tenth time. What does \"Sì, buonanotte!\" mean as a reply?", options: ["Dream on.", "Good night, sleep well.", "Yes, tomorrow is fine.", "I'm tired."], correctIndex: 0, explanation: "\"Sì, buonanotte\": you don't believe it." },
+      { type: "matching", instructions: "Match the ironic expression to its meaning.", pairs: [{ left: "Come no!", right: "Yeah, right!" }, { left: "Sai che novità!", right: "What a surprise (not)!" }, { left: "Bella forza!", right: "Big deal!" }, { left: "Ci mancava solo questa!", right: "That's all we needed!" }], explanation: "Core markers of irony." },
+      { type: "dictation", audio: "Ho passato una serata tranquilla, si fa per dire.", explanation: "\"Si fa per dire\" flags irony." },
+      { type: "speak", text: "Il treno è in ritardo? Sai che novità!", prompt: "React ironically: The train is late? What a surprise!", tip: "Flat, drawn-out \"novità\": that's where the irony is.", explanation: "Tone carries the irony." },
+    ],
+  },
+  {
+    slug: "c2-puns",
+    level: "IT-C2",
+    number: 2,
+    title: "Puns and Double Meanings",
+    summary: "Decode the wordplay of headlines, ads and riddles: double meanings, idioms taken literally, and the classic 'il colmo per'.",
+    duration: "19 min",
+    sections: [
+      {
+        heading: "Idioms taken literally",
+        body: [
+          "Most Italian puns work by activating the literal meaning of an idiom. The classic form is the riddle \"Qual è il colmo per ...?\" (what's the height of irony for ...?). The answer joins a profession to an idiom from its own world: \"Qual è il colmo per un idraulico? Non capire un tubo.\" (\"non capire un tubo\" = to understand nothing, and \"tubo\" = pipe). \"Per un sarto? Perdere il filo del discorso.\" \"Per un elettricista? Non essere al corrente.\" \"Per un giardiniere? Piantare in asso la fidanzata.\" \"Per un matematico? Avere molti problemi.\"",
+          "Children learn \"i colmi\" at school, so every Italian knows dozens. To understand them you need both meanings: \"essere al corrente\" (to be informed) and \"la corrente\" (electric current); \"piantare in asso\" (to leave someone in the lurch) and \"piantare\" (to plant).",
+        ],
+        examples: [
+          { es: "Qual è il colmo per un idraulico? Non capire un tubo.", en: "What's the height of irony for a plumber? Not understanding a pipe (anything)." },
+          { es: "Il colmo per un sarto? Perdere il filo del discorso.", en: "For a tailor? Losing the thread of the conversation." },
+          { es: "Il colmo per un elettricista? Non essere al corrente.", en: "For an electrician? Not being up to date (current)." },
+          { es: "Il colmo per un giardiniere? Piantare in asso la fidanzata.", en: "For a gardener? Dumping (planting) his girlfriend." },
+          { es: "Il colmo per un matematico? Avere molti problemi.", en: "For a mathematician? Having lots of problems." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I don't understand a thing.", answer: "Non capisco un tubo.", altAnswers: ["Non capisco niente.", "Non capisco nulla.", "Non ci capisco un tubo."], explanation: "\"Non capire un tubo\": colloquial." },
+          { type: "multiple-choice", question: "Why is \"non essere al corrente\" funny for an electrician?", options: ["\"Corrente\" also means electric current.", "Electricians are never informed.", "It's a regional expression.", "\"Al corrente\" means 'in the rain'."], correctIndex: 0, explanation: "Double meaning of \"corrente\"." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "For a tailor? [Losing the thread] of the conversation.", sentence: "Per un sarto? ___ del discorso.", answer: "Perdere il filo", explanation: "\"Perdere il filo\": idiom and sewing at once." },
+        ],
+      },
+      {
+        heading: "Headlines and ads",
+        body: [
+          "Italian newspapers love punning headlines, especially in sport and culture. Invented examples in the usual style: a cycling team that loses its leader, \"Una squadra a terra\" (on the ground, and demoralised); a pasta company's profits falling, \"Utili al dente\"; a football coach sacked after a draw, \"Pari e patta, e lui fa le valigie\" (\"pari e patta\" = all square). Ads play the same game: a mattress brand promising \"Sogni d'oro, prezzi di ferro\" (golden dreams, iron prices: low and fixed).",
+          "Other techniques: a famous quotation altered (\"Essere o non avere\"), a proverb bent (\"Chi va piano va sano e va in ritardo\"), and the \"gioco di parole\" on homophones or on a word split in two. To translate such a headline you must usually find a new pun, not translate the old one.",
+        ],
+        examples: [
+          { es: "Una squadra a terra.", en: "A team on the ground (and demoralised)." },
+          { es: "Sogni d'oro, prezzi di ferro.", en: "Golden dreams, iron prices." },
+          { es: "Chi va piano va sano e va in ritardo.", en: "Slow and steady wins the race, and arrives late." },
+          { es: "È un gioco di parole intraducibile.", en: "It's an untranslatable pun." },
+          { es: "Bisogna inventare un nuovo gioco di parole.", en: "You have to invent a new pun." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's an untranslatable pun.", answer: "È un gioco di parole intraducibile.", altAnswers: ["Si tratta di un gioco di parole intraducibile."], explanation: "\"Gioco di parole\" = pun, wordplay." },
+          { type: "listen-choose", audio: "Chi va piano va sano e va in ritardo.", question: "What has been done to the proverb?", options: ["An ironic ending has been added.", "It has been quoted correctly.", "It has been translated from English.", "It has been put in dialect."], correctIndex: 0, explanation: "The original ends \"va sano e va lontano\"." },
+        ],
+      },
+      {
+        heading: "Double meanings in conversation",
+        body: [
+          "In conversation, wordplay often exploits words with two meanings: \"Sei proprio una pizza\" (you're a real bore: \"pizza\" also means a boring thing or person), \"Che pizza!\" (what a drag); \"Mi hai fatto un baffo\" (you didn't impress me at all; \"baffo\" = moustache); \"Sei un mito\" (you're a legend). Sexual double meanings (\"doppi sensi\") are common in Italian comedy; recognise the tone and avoid them in formal settings.",
+        ],
+        examples: [
+          { es: "Che pizza questa conferenza!", en: "What a drag this lecture is!" },
+          { es: "Le tue minacce mi fanno un baffo.", en: "Your threats don't bother me at all." },
+          { es: "Sei un mito!", en: "You're a legend!" },
+          { es: "La battuta aveva un doppio senso.", en: "The joke had a double meaning." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "What a drag this lecture is!", answer: "Che pizza questa conferenza!", altAnswers: ["Che noia questa conferenza!", "Che barba questa conferenza!"], explanation: "\"Che pizza!\" or \"che barba!\" = how boring." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Your threats [don't bother me at all].", sentence: "Le tue minacce ___.", answer: "mi fanno un baffo", explanation: "\"Fare un baffo a qualcuno\"." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "What's the height of irony for a plumber?", answer: "Qual è il colmo per un idraulico?", altAnswers: ["Qual è il colmo di un idraulico?"], explanation: "\"Qual è\": no apostrophe." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You have to invent a new pun.", answer: "Bisogna inventare un nuovo gioco di parole.", altAnswers: ["Bisogna inventare un altro gioco di parole.", "Si deve inventare un nuovo gioco di parole."], explanation: "Puns are recreated, not translated." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You're a legend!", answer: "Sei un mito!", altAnswers: ["Sei una leggenda!", "È un mito!"], explanation: "\"Mito\": colloquial praise." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The joke had a double meaning.", answer: "La battuta aveva un doppio senso.", altAnswers: ["La battuta aveva un doppio significato."], explanation: "\"Doppio senso\" = double entendre." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He left his girlfriend in the lurch.", answer: "Ha piantato in asso la fidanzata.", altAnswers: ["Ha piantato in asso la sua fidanzata.", "Piantò in asso la fidanzata."], explanation: "\"Piantare in asso\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "For a mathematician? [Having lots of problems].", sentence: "Per un matematico? ___.", answer: "Avere molti problemi", altAnswers: ["Avere tanti problemi"], explanation: "\"Problema\": a maths exercise and a trouble." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He's never [up to date].", sentence: "Non è mai ___.", answer: "al corrente", altAnswers: ["aggiornato"], explanation: "\"Essere al corrente\" = to be informed." },
+      { type: "word-order", prompt: "Put the words in order to say: Golden dreams, iron prices.", words: ["Sogni", "d'oro,", "prezzi", "di", "ferro."], translation: "Golden dreams, iron prices.", explanation: "\"Sogni d'oro\" = sweet dreams." },
+      { type: "multiple-choice", question: "A headline reads \"Utili al dente\" about a pasta maker. What does it suggest?", options: ["Profits are small or tight, like firm pasta.", "Profits are huge.", "The company sells dentists' tools.", "The pasta is undercooked."], correctIndex: 0, explanation: "\"Utili\" (profits) + \"al dente\": a pun." },
+      { type: "matching", instructions: "Match the profession to its 'colmo'.", pairs: [{ left: "idraulico", right: "non capire un tubo" }, { left: "sarto", right: "perdere il filo" }, { left: "elettricista", right: "non essere al corrente" }, { left: "giardiniere", right: "piantare in asso" }], explanation: "Classic school riddles." },
+      { type: "dictation", audio: "Qual è il colmo per un sarto? Perdere il filo del discorso.", explanation: "\"Qual è\" without an apostrophe." },
+      { type: "speak", text: "Qual è il colmo per un idraulico? Non capire un tubo!", prompt: "Tell the riddle: What's the height of irony for a plumber? Not understanding a pipe!", tip: "Pause before the answer: timing makes the joke.", explanation: "A classic \"colmo\"." },
+    ],
+  },
+  {
+    slug: "c2-barzellette",
+    level: "IT-C2",
+    number: 3,
+    title: "Barzellette",
+    summary: "Understand how an Italian joke is built, meet the classic characters, and tell a barzelletta with the right timing.",
+    duration: "19 min",
+    sections: [
+      {
+        heading: "The structure",
+        body: [
+          "A \"barzelletta\" is a short joke told aloud. The structure is fixed: an opening formula (\"C'è un tizio che ...\", \"Sapete quella di ...?\", \"Ci sono un italiano, un francese e un tedesco ...\"), a development often in three steps, and the \"battuta finale\" (punchline). The narrative is in the present tense, and the teller uses direct speech with different voices.",
+          "An example written for this course: \"C'è un signore che entra in una libreria e chiede: «Scusi, ha un libro su come diventare ricchi in fretta?» Il commesso risponde: «Certo, glielo trovo subito.» Torna con un libro e dice: «Sono trecento euro.»\" The joke turns on the last line: the shop gets rich in a hurry. Explaining the joke kills it; Italians say \"se la devi spiegare, non fa ridere\".",
+        ],
+        examples: [
+          { es: "Sapete quella del signore in libreria?", en: "Have you heard the one about the man in the bookshop?" },
+          { es: "C'è un tizio che entra in un bar.", en: "There's this guy who walks into a bar." },
+          { es: "La battuta finale è tutto.", en: "The punchline is everything." },
+          { es: "Se la devi spiegare, non fa ridere.", en: "If you have to explain it, it's not funny." },
+          { es: "Le barzellette si raccontano al presente.", en: "Jokes are told in the present tense." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "There's this guy who walks into a bar.", answer: "C'è un tizio che entra in un bar.", altAnswers: ["C'è un tale che entra in un bar.", "C'è un tipo che entra in un bar.", "C'è un signore che entra in un bar."], explanation: "\"C'è un tizio che\": the classic opening." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If you have to explain it, it's not funny.", answer: "Se la devi spiegare, non fa ridere.", altAnswers: ["Se devi spiegarla, non fa ridere.", "Se la devi spiegare non fa ridere."], explanation: "\"La\" = la barzelletta; \"far ridere\" = to be funny." },
+          { type: "listen-choose", audio: "Sapete quella del signore in libreria?", question: "What is the speaker about to do?", options: ["tell a joke", "recommend a book", "ask for directions", "complain about prices"], correctIndex: 0, explanation: "\"Sapete quella di ...?\" introduces a joke." },
+        ],
+      },
+      {
+        heading: "Classic characters",
+        body: [
+          "Italian jokes have stock characters. \"Pierino\" is the cheeky schoolboy who outwits the teacher: \"La maestra chiede: «Pierino, dimmi un animale che vive in acqua.» «Il pesce.» «Bravo. Un altro?» «Un altro pesce!»\" There are jokes about rival cities and regions, the 'Italian, Frenchman and German' trio in which the Italian usually wins by cunning, and jokes about doctors, priests and mothers-in-law.",
+          "Another original Pierino joke: \"La maestra dice: «Pierino, se ti do tre caramelle e poi altre due, quante caramelle hai?» «Sei.» «Ma come sei? Tre più due fa cinque!» «Sì, ma una ce l'avevo già in tasca.»\" Note the colloquial \"ce l'avevo\" and \"ma come sei?\" (what do you mean, six?).",
+        ],
+        examples: [
+          { es: "Pierino è lo scolaro che fa disperare la maestra.", en: "Pierino is the schoolboy who drives the teacher to despair." },
+          { es: "Dimmi un animale che vive in acqua.", en: "Tell me an animal that lives in water." },
+          { es: "Una ce l'avevo già in tasca.", en: "I already had one in my pocket." },
+          { es: "Nelle barzellette l'italiano vince con la furbizia.", en: "In jokes the Italian wins through cunning." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I already had one in my pocket.", answer: "Una ce l'avevo già in tasca.", altAnswers: ["Ne avevo già una in tasca.", "Uno ce l'avevo già in tasca."], explanation: "Colloquial \"ce l'avevo\" with a dislocated object." },
+          { type: "multiple-choice", question: "Why is Pierino's answer \"Un altro pesce!\" funny?", options: ["He answers literally instead of naming a new species.", "He doesn't know any animals.", "He is rude to the teacher.", "Fish don't live in water."], correctIndex: 0, explanation: "Literal interpretation: Pierino's trademark." },
+        ],
+      },
+      {
+        heading: "Telling it well",
+        body: [
+          "Timing and voice: slow down before the punchline, pause, deliver it short and flat, and don't laugh first. Useful phrases: \"Questa è bellissima\" (this one's great), \"Aspetta, aspetta, il bello viene adesso\", \"Non me la ricordo bene\" (I don't remember it well), and when it falls flat, \"Va be', era meglio come la raccontava mio zio\". The listener says \"Questa la sapevo già\" (I knew that one) or \"Bella!\", or groans: \"Che freddura!\" (what a terrible pun).",
+        ],
+        examples: [
+          { es: "Aspetta, il bello viene adesso.", en: "Wait, the best part is coming now." },
+          { es: "Questa la sapevo già.", en: "I already knew that one." },
+          { es: "Che freddura!", en: "What a groan-worthy pun!" },
+          { es: "Non me la ricordo bene.", en: "I don't remember it well." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I already knew that one.", answer: "Questa la sapevo già.", altAnswers: ["La sapevo già.", "Questa la conoscevo già."], explanation: "Feminine \"questa\" = this joke." },
+          { type: "speak", text: "Aspetta, aspetta, il bello viene adesso!", tip: "Lower your voice: build suspense.", explanation: "Holding the audience before the punchline." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Have you heard the one about the man in the bookshop?", answer: "Sapete quella del signore in libreria?", altAnswers: ["Sai quella del signore in libreria?", "Conosci quella del signore in libreria?", "La sapete quella del signore in libreria?"], explanation: "\"Quella\" = the joke (feminine)." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The punchline is everything.", answer: "La battuta finale è tutto.", altAnswers: ["La battuta finale è la cosa più importante."], explanation: "\"Battuta finale\" = punchline." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Jokes are told in the present tense.", answer: "Le barzellette si raccontano al presente.", altAnswers: ["Le barzellette vengono raccontate al presente.", "Le barzellette si raccontano usando il presente."], explanation: "Passive \"si\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Tell me an animal that lives in water.", answer: "Dimmi un animale che vive in acqua.", altAnswers: ["Dimmi un animale che vive nell'acqua.", "Mi dica un animale che vive in acqua."], explanation: "\"Dimmi\": imperative + pronoun, doubled \"m\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I don't remember it well.", answer: "Non me la ricordo bene.", altAnswers: ["Non la ricordo bene.", "Non mi ricordo bene."], explanation: "\"Ricordarsela\": colloquial pronominal verb." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "What a [groan-worthy pun]!", sentence: "Che ___!", answer: "freddura", explanation: "\"Freddura\": a weak, punning joke." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Pierino [drives the teacher to despair].", sentence: "Pierino ___.", answer: "fa disperare la maestra", explanation: "\"Far disperare qualcuno\"." },
+      { type: "word-order", prompt: "Put the words in order to say: This one's great.", words: ["Questa", "è", "bellissima."], translation: "This one's great.", explanation: "Announcing a joke." },
+      { type: "multiple-choice", question: "In the bookshop joke, why is the price of three hundred euros the punchline?", options: ["The bookshop is the one getting rich quickly.", "The book is a rare edition.", "The man is very rich.", "The clerk made a mistake."], correctIndex: 0, explanation: "The irony reverses the request." },
+      { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "la barzelletta", right: "joke" }, { left: "la battuta", right: "quip, line" }, { left: "la freddura", right: "weak pun" }, { left: "il doppio senso", right: "double entendre" }], explanation: "The vocabulary of humour." },
+      { type: "dictation", audio: "C'è un tizio che entra in un bar e chiede un caffè.", explanation: "Present tense narration." },
+      { type: "speak", text: "Ma come sei? Tre più due fa cinque! Sì, ma una ce l'avevo già in tasca.", prompt: "Tell the end of the Pierino joke, with two voices.", tip: "Change voice for Pierino; pause before \"Sì, ma\".", explanation: "Dialogue and timing." },
+    ],
+  },
+  {
+    slug: "c2-satire",
+    level: "IT-C2",
+    number: 4,
+    title: "Satire",
+    summary: "Explore Italian satire from Pasquino to the satirical news story, and learn its techniques: hyperbole, parody of official language, and the deadpan report.",
+    duration: "19 min",
+    sections: [
+      {
+        heading: "Pasquino and the tradition",
+        body: [
+          "Rome has had a satirical voice for five centuries: Pasquino, a battered ancient statue near Piazza Navona, on which Romans have hung anonymous satirical verses since the early 1500s, the \"pasquinate\". The most famous attacks the Barberini family, who stripped bronze from the Pantheon: \"Quod non fecerunt barbari, fecerunt Barberini\" (what the barbarians didn't do, the Barberini did). The word \"pasquinata\" still means a satirical lampoon.",
+          "The tradition continued in Belli's sonnets, in Trilussa's Roman fables, in twentieth-century satirical magazines and in today's satirical websites and television. Satire has a target (power, hypocrisy, bureaucracy), a technique and a moral point: it makes us laugh at what we should be angry about.",
+        ],
+        examples: [
+          { es: "Pasquino è una statua che parla.", en: "Pasquino is a statue that speaks." },
+          { es: "I romani vi appendevano versi anonimi.", en: "Romans hung anonymous verses on it." },
+          { es: "La pasquinata colpiva i potenti.", en: "The lampoon struck at the powerful." },
+          { es: "La satira ci fa ridere di ciò che dovrebbe indignarci.", en: "Satire makes us laugh at what should outrage us." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Satire makes us laugh at what should outrage us.", answer: "La satira ci fa ridere di ciò che dovrebbe indignarci.", altAnswers: ["La satira ci fa ridere di quello che dovrebbe indignarci.", "La satira ci fa ridere di ciò che dovrebbe farci indignare."], explanation: "\"Ridere di\" = to laugh at; \"indignare\" = to outrage." },
+          { type: "multiple-choice", question: "What is a \"pasquinata\"?", options: ["an anonymous satirical lampoon", "a Roman pasta dish", "a religious procession", "a statue of a saint"], correctIndex: 0, explanation: "From Pasquino, the 'talking statue'." },
+          { type: "listen-choose", audio: "I romani vi appendevano versi anonimi contro i potenti.", question: "What did Romans do at Pasquino?", options: ["hang anonymous verses against the powerful", "leave flowers", "sell newspapers", "pray for the Pope"], correctIndex: 0, explanation: "\"Vi\" = there, on the statue." },
+        ],
+      },
+      {
+        heading: "Techniques",
+        body: [
+          "Four techniques recur. \"Iperbole\": exaggerate a real flaw until it becomes absurd. \"Parodia\": imitate the language of the target, especially the bureaucratic style (\"si comunica che\", \"in ottemperanza a\", \"nelle more di\"). \"Straniamento\": describe a familiar thing as if seen for the first time. \"Tono impassibile\": report absurd events in the neutral style of a news agency.",
+          "A satirical news item written for this course: \"ROMA. Il Comune ha annunciato che le buche di via Garibaldi saranno dichiarate patrimonio culturale. «Alcune risalgono al secolo scorso», ha spiegato un portavoce, «e meritano di essere tutelate.» Da lunedì saranno disponibili visite guidate. Il ticket per i residenti costerà due euro.\"",
+        ],
+        examples: [
+          { es: "L'iperbole esagera un difetto reale.", en: "Hyperbole exaggerates a real flaw." },
+          { es: "La parodia imita il linguaggio burocratico.", en: "Parody imitates bureaucratic language." },
+          { es: "Le buche saranno dichiarate patrimonio culturale.", en: "The potholes will be declared cultural heritage." },
+          { es: "Alcune risalgono al secolo scorso.", en: "Some date back to the last century." },
+          { es: "Il tono resta impassibile.", en: "The tone remains deadpan." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Some date back to the last century.", answer: "Alcune risalgono al secolo scorso.", altAnswers: ["Alcune risalgono al secolo precedente.", "Alcune di esse risalgono al secolo scorso."], explanation: "\"Risalire a\" = to date back to." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Parody [imitates] bureaucratic language.", sentence: "La parodia ___ il linguaggio burocratico.", answer: "imita", altAnswers: ["riproduce", "scimmiotta"], explanation: "\"Scimmiottare\" = to ape, mock-imitate." },
+          { type: "speak", text: "Le buche di via Garibaldi saranno dichiarate patrimonio culturale.", tip: "Read it like a newsreader: completely serious.", explanation: "Deadpan delivery is the joke." },
+        ],
+      },
+      {
+        heading: "Reading satire",
+        body: [
+          "To read satire, ask three questions: what is the real problem behind it (potholes that are never repaired)? Which detail is exaggerated (declaring them heritage)? Which language is parodied (the spokesman's official tone, \"meritano di essere tutelate\")? Note too the final 'sting': \"Il ticket per i residenti costerà due euro\" adds a second target, the habit of making citizens pay for public failures.",
+        ],
+        examples: [
+          { es: "Qual è il problema reale?", en: "What is the real problem?" },
+          { es: "Il dettaglio finale aggiunge un secondo bersaglio.", en: "The final detail adds a second target." },
+          { es: "I cittadini pagano per i fallimenti pubblici.", en: "Citizens pay for public failures." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The final detail adds a second target.", answer: "Il dettaglio finale aggiunge un secondo bersaglio.", altAnswers: ["L'ultimo dettaglio aggiunge un secondo bersaglio."], explanation: "\"Bersaglio\" = target." },
+          { type: "multiple-choice", question: "What is the real problem behind the potholes item?", options: ["Roads that are never repaired", "Too many tourists", "Expensive museums", "Historic buildings falling down"], correctIndex: 0, explanation: "Satire points at a real failure." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Pasquino is a statue that speaks.", answer: "Pasquino è una statua che parla.", altAnswers: ["Pasquino è una statua parlante."], explanation: "Rome's 'talking statue'." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The lampoon struck at the powerful.", answer: "La pasquinata colpiva i potenti.", altAnswers: ["La pasquinata attaccava i potenti.", "La pasquinata colpì i potenti."], explanation: "\"Colpire\" = to hit." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Guided tours will be available from Monday.", answer: "Da lunedì saranno disponibili visite guidate.", altAnswers: ["Le visite guidate saranno disponibili da lunedì.", "Da lunedì ci saranno visite guidate."], explanation: "Agency style: inverted subject." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They deserve to be protected.", answer: "Meritano di essere tutelate.", altAnswers: ["Meritano di essere protette.", "Meritano di essere tutelati."], explanation: "\"Tutelare\": official register." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The tone remains deadpan.", answer: "Il tono resta impassibile.", altAnswers: ["Il tono rimane impassibile.", "Il tono resta serio."], explanation: "\"Impassibile\" = expressionless." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[The Council announced] that the potholes will be protected.", sentence: "___ che le buche saranno tutelate.", answer: "Il Comune ha annunciato", altAnswers: ["Il Comune ha comunicato"], explanation: "News-agency opening." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Hyperbole [exaggerates] a real flaw.", sentence: "L'iperbole ___ un difetto reale.", answer: "esagera", altAnswers: ["ingigantisce"], explanation: "\"Esagerare\" takes a direct object." },
+      { type: "word-order", prompt: "Put the words in order to say: Satire has a target and a moral point.", words: ["La", "satira", "ha", "un", "bersaglio", "e", "una", "morale."], translation: "Satire has a target and a moral.", explanation: "\"Bersaglio\" = target." },
+      { type: "multiple-choice", question: "Which technique describes absurd events in a neutral news style?", options: ["tono impassibile", "iperbole", "freddura", "doppio senso"], correctIndex: 0, explanation: "Deadpan." },
+      { type: "matching", instructions: "Match the technique to its description.", pairs: [{ left: "iperbole", right: "exaggeration" }, { left: "parodia", right: "imitation of a style" }, { left: "straniamento", right: "making the familiar strange" }, { left: "tono impassibile", right: "deadpan" }], explanation: "Satirical toolbox." },
+      { type: "dictation", audio: "Il ticket per i residenti costerà due euro.", explanation: "\"Ticket\": a fee, especially in healthcare and services." },
+      { type: "speak", text: "Quod non fecerunt barbari, fecerunt Barberini.", prompt: "Read the famous pasquinata aloud.", tip: "Ecclesiastical Latin: \"fecerunt\" with a soft c, fe-CHE-runt.", explanation: "What the barbarians didn't do, the Barberini did." },
+    ],
+  },
+  {
+    slug: "c2-drill-humour",
+    level: "IT-C2",
+    number: 5,
+    title: "Drill: Humour",
+    summary: "High-repetition practice with irony markers, wordplay and the language of jokes.",
+    duration: "25 min",
+    sections: [
+      {
+        heading: "Quick reminders",
+        body: [
+          "Irony: \"come no!\", \"figurati!\", \"bravo!\", \"grazie tante!\", \"sai che novità!\", \"bella forza!\", \"ci mancava solo questa!\", \"si fa per dire\". Jokes: \"barzelletta\", \"battuta (finale)\", \"freddura\", \"gioco di parole\", \"doppio senso\", \"il colmo per\". Teasing: \"prendere in giro\", \"scherzare\", \"spiritoso!\".",
+        ],
+        examples: [
+          { es: "Ti stavo solo prendendo in giro.", en: "I was only teasing you." },
+          { es: "Ha fatto una battuta.", en: "He made a joke." },
+          { es: "Come no, e io sono il Papa!", en: "Yeah, right, and I'm the Pope!" },
+          { es: "Grazie tante per l'aiuto!", en: "Thanks a lot for the help!" },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I was only teasing you.", answer: "Ti stavo solo prendendo in giro.", altAnswers: ["Ti prendevo solo in giro.", "Stavo solo scherzando.", "La stavo solo prendendo in giro."], explanation: "\"Prendere in giro\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He made a joke.", answer: "Ha fatto una battuta.", altAnswers: ["Fece una battuta."], explanation: "\"Fare una battuta\"." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Yeah, right, and I'm the Pope!", answer: "Come no, e io sono il Papa!", altAnswers: ["Sì, come no, e io sono il Papa!"], explanation: "Ironic \"come no\" plus an absurd comparison." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Don't mention it!", answer: "Figurati!", altAnswers: ["Si figuri!", "Figuratevi!", "Di niente!", "Prego!"], explanation: "Sincere \"figurati\"; \"si figuri\" for Lei." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Very funny!", answer: "Spiritoso!", altAnswers: ["Spiritosa!", "Molto divertente!", "Molto spiritoso!"], explanation: "Ironic reply to a joke." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's a pun.", answer: "È un gioco di parole.", explanation: "\"Gioco di parole\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Tell me a joke.", answer: "Raccontami una barzelletta.", altAnswers: ["Dimmi una barzelletta.", "Mi racconti una barzelletta?"], explanation: "\"Raccontare una barzelletta\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I didn't get the joke.", answer: "Non ho capito la battuta.", altAnswers: ["Non ho capito la barzelletta.", "Non ho colto la battuta."], explanation: "\"Cogliere\" = to catch (a joke)." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Was he serious?", answer: "Diceva sul serio?", altAnswers: ["Era serio?", "Parlava sul serio?", "Faceva sul serio?"], explanation: "\"Dire / fare sul serio\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "What a surprise (not)!", answer: "Sai che novità!", altAnswers: ["Che novità!", "Bella novità!"], explanation: "Ironic \"novità\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It's raining too? [That's all we needed]!", sentence: "Piove pure? ___!", answer: "Ci mancava solo questa", altAnswers: ["Ci mancava anche questa"], explanation: "Exasperated irony." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It was a quiet holiday, [so to speak].", sentence: "È stata una vacanza tranquilla, ___.", answer: "si fa per dire", altAnswers: ["per modo di dire"], explanation: "Explicit irony flag." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[What's the height of irony] for a tailor?", sentence: "___ per un sarto?", answer: "Qual è il colmo", explanation: "\"Qual è\": no apostrophe." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He won against a child? [Big deal]!", sentence: "Ha vinto contro un bambino? ___!", answer: "Bella forza", explanation: "\"Bella forza\"." },
+      { type: "word-order", prompt: "Put the words in order to say: If you have to explain it, it isn't funny.", words: ["Se", "la", "devi", "spiegare,", "non", "fa", "ridere."], translation: "If you have to explain it, it isn't funny.", explanation: "\"Fare ridere\"." },
+      { type: "word-order", prompt: "Put the words in order to say: Are you making fun of me?", words: ["Mi", "stai", "prendendo", "in", "giro?"], translation: "Are you making fun of me?", explanation: "Progressive with \"stare\"." },
+      { type: "dictation", audio: "Grazie tante, sei proprio un amico!", explanation: "Sarcasm from tone and \"grazie tante\"." },
+      { type: "speak", text: "Hai dimenticato le chiavi un'altra volta? Bravo, complimenti!", prompt: "React ironically: You forgot the keys again? Well done, congratulations!", tip: "Drag out \"Bravo\": that's the irony.", explanation: "Ironic praise." },
+    ],
+  },
+  {
+    slug: "c2-reading-lab-comic-text",
+    level: "IT-C2",
+    number: 6,
+    title: "Reading Lab: A Comic Text",
+    summary: "Read a comic piece in the form of mock instructions for surviving a family Sunday lunch, and analyse how it creates humour.",
+    duration: "19 min",
+    sections: [
+      {
+        heading: "The text, part 1",
+        body: [
+          "This comic text was written for the course, in the tradition of the Italian humorous column. Its title: \"Istruzioni per sopravvivere al pranzo della domenica\".",
+          "\"Regola numero uno: non arrivare mai a stomaco pieno. La nonna se ne accorgerebbe dallo sguardo, e la sua offesa durerebbe fino a Natale. Regola numero due: quando la zia ti chiede se sei fidanzato, non rispondere. Qualunque risposta, compresa quella vera, verrà usata contro di te. Regola numero tre: il secondo piatto non è il secondo. È il quarto, preceduto da antipasti, primo e un 'assaggino' di lasagne che pesa un chilo.\"",
+        ],
+        examples: [
+          { es: "Non arrivare mai a stomaco pieno.", en: "Never arrive on a full stomach." },
+          { es: "La nonna se ne accorgerebbe dallo sguardo.", en: "Grandma would notice from your face." },
+          { es: "Qualunque risposta verrà usata contro di te.", en: "Any answer will be used against you." },
+          { es: "Un assaggino di lasagne che pesa un chilo.", en: "A little taste of lasagne that weighs a kilo." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Never arrive on a full stomach.", answer: "Non arrivare mai a stomaco pieno.", altAnswers: ["Non arrivate mai a stomaco pieno.", "Non arrivi mai a stomaco pieno."], explanation: "Negative imperative: \"non\" + infinitive." },
+          { type: "multiple-choice", question: "\"Qualunque risposta verrà usata contro di te\" parodies which kind of language?", options: ["the police caution in crime films", "a recipe", "a weather forecast", "a school report"], correctIndex: 0, explanation: "A borrowed formula in a domestic setting." },
+          { type: "listen-choose", audio: "Il secondo piatto non è il secondo. È il quarto.", question: "What is the joke?", options: ["So many dishes come before it that the main course is really the fourth.", "The second course is skipped.", "The family counts badly.", "There are only two courses."], correctIndex: 0, explanation: "Play on \"secondo\" as name and number." },
+        ],
+      },
+      {
+        heading: "The text, part 2",
+        body: [
+          "\"Regola numero quattro: non lodare il tiramisù della cognata davanti alla suocera. Regola numero cinque: verso le cinque, qualcuno proporrà 'una passeggiatina per digerire'. È una trappola: al ritorno ci sarà il caffè, poi il digestivo, poi la frutta 'perché fa bene'. Regola numero sei: quando finalmente ti alzi per andare via, preparati a quaranta minuti di saluti sulla porta. In fondo, è la parte più bella.\"",
+          "How the humour works: the mock-legal list of \"regole\" (parody), the hyperbole (\"pesa un chilo\", \"quaranta minuti\"), diminutives used ironically (\"assaggino\", \"passeggiatina\": small in name, huge in fact), and the affectionate twist at the end (\"In fondo, è la parte più bella\"), which turns satire into tenderness.",
+        ],
+        examples: [
+          { es: "Non lodare il tiramisù della cognata.", en: "Don't praise your sister-in-law's tiramisu." },
+          { es: "È una trappola.", en: "It's a trap." },
+          { es: "Preparati a quaranta minuti di saluti sulla porta.", en: "Get ready for forty minutes of goodbyes at the door." },
+          { es: "In fondo, è la parte più bella.", en: "Deep down, it's the best part." },
+          { es: "I diminutivi sono usati in modo ironico.", en: "The diminutives are used ironically." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Deep down, it's the best part.", answer: "In fondo, è la parte più bella.", altAnswers: ["In fondo è la parte migliore.", "In fondo, è la parte migliore."], explanation: "\"In fondo\" = after all, deep down." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Get ready for] forty minutes of goodbyes.", sentence: "___ quaranta minuti di saluti.", answer: "Preparati a", altAnswers: ["Preparatevi a"], explanation: "\"Prepararsi a\"." },
+          { type: "speak", text: "Verso le cinque, qualcuno proporrà una passeggiatina per digerire. È una trappola.", tip: "Pause before \"È una trappola\" and drop your voice.", explanation: "Comic timing in reading aloud." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Grandma would notice from your face.", answer: "La nonna se ne accorgerebbe dallo sguardo.", altAnswers: ["La nonna se ne accorgerebbe dalla faccia.", "La nonna lo capirebbe dallo sguardo."], explanation: "\"Accorgersi di\" → \"accorgersene\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Her offence would last until Christmas.", answer: "La sua offesa durerebbe fino a Natale.", altAnswers: ["Si offenderebbe fino a Natale."], explanation: "Conditional for a hypothetical consequence." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's a trap.", answer: "È una trappola.", explanation: "Short sentence for comic effect." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Fruit, because it's good for you.", answer: "La frutta, perché fa bene.", altAnswers: ["Frutta, perché fa bene."], explanation: "\"Fare bene\" = to be good for you." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Don't praise your sister-in-law's tiramisu.", answer: "Non lodare il tiramisù della cognata.", altAnswers: ["Non lodare il tiramisù di tua cognata.", "Non elogiare il tiramisù della cognata."], explanation: "\"Lodare\" = to praise." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "When your aunt asks [whether you're engaged], don't answer.", sentence: "Quando la zia ti chiede ___, non rispondere.", answer: "se sei fidanzato", altAnswers: ["se sei fidanzata"], explanation: "\"Fidanzato\": in a steady relationship." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "A little walk [to help digestion].", sentence: "Una passeggiatina ___.", answer: "per digerire", explanation: "Ironic diminutive \"passeggiatina\"." },
+      { type: "word-order", prompt: "Put the words in order to say: Any answer will be used against you.", words: ["Qualunque", "risposta", "verrà", "usata", "contro", "di te."], translation: "Any answer will be used against you.", explanation: "Passive with \"venire\"." },
+      { type: "multiple-choice", question: "What is the effect of the final sentence \"In fondo, è la parte più bella\"?", options: ["It turns the satire into affection.", "It adds another complaint.", "It reveals the author hates family lunches.", "It introduces a new rule."], correctIndex: 0, explanation: "A tender twist after the mockery." },
+      { type: "matching", instructions: "Match the comic device to the example.", pairs: [{ left: "parodia", right: "Regola numero uno" }, { left: "iperbole", right: "pesa un chilo" }, { left: "diminutivo ironico", right: "assaggino" }, { left: "chiusa affettuosa", right: "la parte più bella" }], explanation: "How the text makes us laugh." },
+      { type: "dictation", audio: "Preparati a quaranta minuti di saluti sulla porta.", explanation: "Hyperbole about Italian goodbyes." },
+      { type: "speak", text: "Regola numero uno: non arrivare mai a stomaco pieno.", prompt: "Read the first rule like a serious instructor.", tip: "Deadpan delivery makes it funnier.", explanation: "Mock-solemn tone." },
+    ],
+  },
+  {
+    slug: "c2-listening-lab-comedy",
+    level: "IT-C2",
+    number: 7,
+    title: "Listening Lab: A Comedy Sketch",
+    summary: "Follow an original comedy sketch set in a registry office, catching the jokes that depend on bureaucratic language and literal answers.",
+    duration: "19 min",
+    sections: [
+      {
+        heading: "At the counter",
+        body: [
+          "The sketch in this lab was written for the course. Setting: the counter of an \"ufficio anagrafe\" (registry office). Characters: an impassive clerk and a citizen who only wants an identity card. Listen to each line first.",
+          "Cittadino: \"Buongiorno, vorrei rinnovare la carta d'identità.\" Impiegata: \"Ha il modulo B12?\" Cittadino: \"No, dove lo trovo?\" Impiegata: \"Allo sportello 4.\" Cittadino: \"E lo sportello 4 dov'è?\" Impiegata: \"Chiuso. Apre il martedì dispari.\" Cittadino: \"Il martedì dispari?\" Impiegata: \"Quelli con la data dispari. Oggi è il 12. Ripassi.\"",
+        ],
+        examples: [
+          { es: "Vorrei rinnovare la carta d'identità.", en: "I'd like to renew my identity card." },
+          { es: "Ha il modulo B12?", en: "Do you have form B12?" },
+          { es: "Apre il martedì dispari.", en: "It opens on odd-numbered Tuesdays." },
+          { es: "Oggi è il 12. Ripassi.", en: "Today is the 12th. Come back another time." },
+        ],
+        checkpoint: [
+          { type: "listen-choose", audio: "Lo sportello 4 apre il martedì dispari.", question: "When does counter 4 open?", options: ["on Tuesdays with an odd date", "every Tuesday", "on odd-numbered days", "never"], correctIndex: 0, explanation: "Absurd bureaucratic rule." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'd like to renew my identity card.", answer: "Vorrei rinnovare la carta d'identità.", altAnswers: ["Vorrei rinnovare la mia carta d'identità.", "Devo rinnovare la carta d'identità."], explanation: "\"Rinnovare\" = to renew." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Today is the 12th. [Come back another time].", sentence: "Oggi è il 12. ___.", answer: "Ripassi", altAnswers: ["Torni un altro giorno", "Ritorni"], explanation: "\"Ripassare\" = to call back; formal \"Lei\" imperative." },
+        ],
+      },
+      {
+        heading: "The punchline",
+        body: [
+          "Cittadino: \"Senta, ma io la carta d'identità ce l'ho già, è solo scaduta.\" Impiegata: \"Allora lei non esiste.\" Cittadino: \"Come non esisto? Sono qui davanti a lei!\" Impiegata: \"Questo lo dice lei. Per l'ufficio, senza documento valido, lei è un'ipotesi.\" Cittadino: \"E un'ipotesi può avere il modulo B12?\" Impiegata, after a pause: \"... Sportello 4. Il martedì dispari.\"",
+          "The comedy rests on literal logic pushed to absurdity (\"lei non esiste\", \"lei è un'ipotesi\"), the clerk's deadpan tone, and the circular ending that brings us back to the start: the citizen is trapped. Italians call this kind of situation \"kafkiano\".",
+        ],
+        examples: [
+          { es: "La carta d'identità è solo scaduta.", en: "The identity card has only expired." },
+          { es: "Allora lei non esiste.", en: "Then you don't exist." },
+          { es: "Questo lo dice lei.", en: "That's what you say." },
+          { es: "Per l'ufficio lei è un'ipotesi.", en: "For the office, you are a hypothesis." },
+          { es: "È una situazione kafkiana.", en: "It's a Kafkaesque situation." },
+        ],
+        checkpoint: [
+          { type: "listen-choose", audio: "Per l'ufficio, senza documento valido, lei è un'ipotesi.", question: "What does the clerk claim?", options: ["Without a valid document, the citizen officially doesn't exist.", "The citizen is lying.", "The citizen needs a new photo.", "The office is closed."], correctIndex: 0, explanation: "Literal logic taken to absurdity." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "That's what you say.", answer: "Questo lo dice lei.", altAnswers: ["Lo dice lei.", "Questo lo dici tu.", "Lo dici tu."], explanation: "Dislocated object for emphasis." },
+          { type: "speak", text: "Come non esisto? Sono qui davanti a lei!", tip: "Rising indignation on \"Come non esisto?\".", explanation: "The citizen's outrage." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "listen-choose", audio: "Senta, ma io la carta d'identità ce l'ho già, è solo scaduta.", question: "What is the citizen's situation?", options: ["He has an identity card, but it has expired.", "He has never had an identity card.", "He lost his card.", "His card was stolen."], correctIndex: 0, explanation: "\"Scaduto\" = expired." },
+      { type: "listen-choose", audio: "E un'ipotesi può avere il modulo B12?", question: "What is the citizen doing?", options: ["using the clerk's absurd logic against her", "giving up", "asking for the manager", "filling in the form"], correctIndex: 0, explanation: "He turns her logic around." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The identity card has only expired.", answer: "La carta d'identità è solo scaduta.", altAnswers: ["La carta d'identità è soltanto scaduta.", "La carta d'identità è semplicemente scaduta."], explanation: "\"Scadere\" takes \"essere\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Then you don't exist.", answer: "Allora lei non esiste.", altAnswers: ["Allora non esiste.", "Allora tu non esisti.", "Allora non esisti."], explanation: "Formal \"lei\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm right here in front of you!", answer: "Sono qui davanti a lei!", altAnswers: ["Sono qui davanti a te!", "Sono proprio qui davanti a lei!"], explanation: "\"Davanti a\" = in front of." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Where can I find it?", answer: "Dove lo trovo?", altAnswers: ["Dove posso trovarlo?", "Dove lo posso trovare?"], explanation: "Present for an immediate question." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's a Kafkaesque situation.", answer: "È una situazione kafkiana.", altAnswers: ["Si tratta di una situazione kafkiana."], explanation: "\"Kafkiano\": common in Italian journalism." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Do you have form B12?", answer: "Ha il modulo B12?", altAnswers: ["Ha il modulo B12 con sé?", "Hai il modulo B12?"], explanation: "\"Modulo\" = form." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Without [a valid document] you don't exist.", sentence: "Senza ___ lei non esiste.", answer: "documento valido", altAnswers: ["un documento valido"], explanation: "Bare noun in bureaucratic style." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[The ending is circular].", sentence: "___.", answer: "Il finale è circolare", altAnswers: ["La fine è circolare"], explanation: "Back to the start: the trap closes." },
+      { type: "word-order", prompt: "Put the words in order to say: Counter 4 is closed.", words: ["Lo", "sportello", "4", "è", "chiuso."], translation: "Counter 4 is closed.", explanation: "\"Lo sportello\": \"lo\" before s + consonant." },
+      { type: "multiple-choice", question: "What makes the clerk's character funny?", options: ["her total calm in an absurd situation", "her loud anger", "her jokes", "her regional accent"], correctIndex: 0, explanation: "Deadpan." },
+      { type: "dictation", audio: "Questo lo dice lei. Per l'ufficio, lei è un'ipotesi.", explanation: "\"Un'ipotesi\": apostrophe with the feminine article." },
+      { type: "speak", text: "Sportello 4. Il martedì dispari.", prompt: "Deliver the clerk's final line, completely deadpan.", tip: "Flat voice, a pause between the two parts.", explanation: "The circular punchline." },
+    ],
+  },
+  {
+    slug: "c2-error-hunt-humour",
+    level: "IT-C2",
+    number: 8,
+    title: "Error Hunt: Lost in Translation",
+    summary: "See why jokes and idioms fail when translated word for word, and fix learners' literal translations with the natural Italian equivalent.",
+    duration: "19 min",
+    sections: [
+      {
+        heading: "Idioms that don't travel",
+        body: [
+          "Each item in this lesson is a learner's word-for-word translation of an English idiom or joke. The Italian is grammatical but means nothing, or something else. The fix is not a better translation of the words but the Italian equivalent of the meaning.",
+          "\"Mi stai tirando la gamba\" ('you're pulling my leg') → \"Mi stai prendendo in giro\". \"Piove gatti e cani\" → \"Piove a catinelle\". \"Non è la mia tazza di tè\" → \"Non fa per me\" or \"Non è il mio genere\". \"Uccidere due uccelli con una pietra\" → \"Prendere due piccioni con una fava\". \"Rompere una gamba!\" (good luck to an actor) → \"In bocca al lupo!\", answered with \"Crepi!\".",
+        ],
+        examples: [
+          { es: "Mi stai prendendo in giro?", en: "Are you pulling my leg?" },
+          { es: "Piove a catinelle.", en: "It's raining cats and dogs." },
+          { es: "Il jazz non fa per me.", en: "Jazz isn't my cup of tea." },
+          { es: "Abbiamo preso due piccioni con una fava.", en: "We killed two birds with one stone." },
+          { es: "In bocca al lupo per stasera! Crepi!", en: "Break a leg tonight! Thanks!" },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "A learner wrote \"Piove gatti e cani\". Write it correctly: It's raining cats and dogs.", source: "It's raining cats and dogs.", answer: "Piove a catinelle.", altAnswers: ["Piove a dirotto.", "Diluvia."], explanation: "\"A catinelle\" = by the basinful." },
+          { type: "translate", direction: "en-es", prompt: "A learner wrote \"Il jazz non è la mia tazza di tè\". Write it correctly: Jazz isn't my cup of tea.", source: "Jazz isn't my cup of tea.", answer: "Il jazz non fa per me.", altAnswers: ["Il jazz non è il mio genere.", "Il jazz non mi piace molto."], explanation: "\"Non fa per me\"." },
+          { type: "multiple-choice", question: "A friend has an audition tonight. What do you say?", options: ["In bocca al lupo!", "Rompi una gamba!", "Buona fortuna con la gamba!", "Crepi!"], correctIndex: 0, explanation: "They answer \"Crepi!\"." },
+        ],
+      },
+      {
+        heading: "Jokes that don't travel",
+        body: [
+          "Jokes fail for three reasons. 1. The pun exists only in one language: 'Why is six afraid of seven? Because seven ate nine' depends on 'eight'/'ate'; in Italian \"sette\" and \"otto\" make no pun. 2. The cultural reference is unknown: a joke about Thanksgiving or cricket means nothing to most Italians. 3. The stock character differs: English jokes about Irishmen or lawyers become Italian jokes about Pierino or carabinieri.",
+          "The translator's solution is \"adattamento\" (adaptation): replace the joke with an Italian one that does the same job. In subtitles a pun on 'bark' (of a dog and of a tree) cannot survive, because \"abbaiare\" and \"corteccia\" share nothing; a good subtitler invents another joke, or keeps the sense and drops the pun.",
+        ],
+        examples: [
+          { es: "Il gioco di parole esiste solo in inglese.", en: "The pun exists only in English." },
+          { es: "Il riferimento culturale è sconosciuto.", en: "The cultural reference is unknown." },
+          { es: "Il traduttore deve adattare la battuta.", en: "The translator has to adapt the joke." },
+          { es: "A volte si mantiene il senso e si perde il gioco di parole.", en: "Sometimes you keep the meaning and lose the pun." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The translator has to adapt the joke.", answer: "Il traduttore deve adattare la battuta.", altAnswers: ["La traduttrice deve adattare la battuta.", "Il traduttore deve adattare la barzelletta."], explanation: "\"Adattare\" = to adapt." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The pun [exists only] in English.", sentence: "Il gioco di parole ___ in inglese.", answer: "esiste solo", altAnswers: ["esiste soltanto", "funziona solo"], explanation: "\"Esistere\" with \"essere\" in compound tenses." },
+          { type: "listen-choose", audio: "A volte si mantiene il senso e si perde il gioco di parole.", question: "What is sometimes lost?", options: ["the pun", "the meaning", "the characters", "the audience"], correctIndex: 0, explanation: "\"Gioco di parole\" = pun." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Mi stai tirando la gamba\". Write it correctly: You're pulling my leg.", source: "You're pulling my leg.", answer: "Mi stai prendendo in giro.", altAnswers: ["Mi prendi in giro.", "Mi sta prendendo in giro.", "Scherzi?"], explanation: "\"Prendere in giro\"." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Abbiamo ucciso due uccelli con una pietra\". Write it correctly: We killed two birds with one stone.", source: "We killed two birds with one stone.", answer: "Abbiamo preso due piccioni con una fava.", altAnswers: ["Abbiamo preso due piccioni con una sola fava.", "Prendemmo due piccioni con una fava."], explanation: "Italian uses pigeons and a broad bean." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Rompi una gamba!\" to an actor. Write it correctly: Break a leg!", source: "Break a leg!", answer: "In bocca al lupo!", altAnswers: ["In bocca al lupo per stasera!"], explanation: "Reply: \"Crepi!\" (or \"Crepi il lupo!\")." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"È un pezzo di torta\". Write it correctly: It's a piece of cake.", source: "It's a piece of cake.", answer: "È una passeggiata.", altAnswers: ["È facilissimo.", "È un gioco da ragazzi.", "È una sciocchezza."], explanation: "\"Una passeggiata\" or \"un gioco da ragazzi\"." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Sono sotto il tempo\". Write it correctly: I'm under the weather.", source: "I'm under the weather.", answer: "Non mi sento molto bene.", altAnswers: ["Non mi sento bene.", "Non sto molto bene.", "Sono un po' giù."], explanation: "No equivalent idiom: translate the meaning." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Hai colpito il chiodo sulla testa\". Write it correctly: You've hit the nail on the head.", source: "You've hit the nail on the head.", answer: "Hai colto nel segno.", altAnswers: ["Hai fatto centro.", "Hai centrato il punto."], explanation: "\"Cogliere nel segno\" = to hit the mark." },
+      { type: "fill-blank", prompt: "A learner wrote \"Costa un braccio e una gamba\". Write the Italian for the bold words.", en: "That car [costs an arm and a leg].", sentence: "Quella macchina ___.", answer: "costa un occhio della testa", altAnswers: ["costa un patrimonio", "costa una fortuna"], explanation: "Italian sacrifices an eye, not limbs." },
+      { type: "fill-blank", prompt: "A learner wrote \"Il gatto ha preso la tua lingua?\" Write the Italian for the bold words.", en: "[Cat got your tongue]?", sentence: "___?", answer: "Hai perso la lingua", altAnswers: ["Ti sei mangiato la lingua", "Il gatto ti ha mangiato la lingua"], explanation: "\"Hai perso la lingua?\" is the usual form." },
+      { type: "word-order", prompt: "Put the words in order to say: The cultural reference is unknown.", words: ["Il", "riferimento", "culturale", "è", "sconosciuto."], translation: "The cultural reference is unknown.", explanation: "One reason jokes fail." },
+      { type: "multiple-choice", question: "Why does the 'seven ate nine' joke fail in Italian?", options: ["\"Otto\" doesn't sound like a verb meaning 'ate'.", "Italians don't tell number jokes.", "Seven is a lucky number in Italy.", "The joke is too long."], correctIndex: 0, explanation: "The pun is purely English." },
+      { type: "dictation", audio: "Il traduttore deve adattare la battuta, non tradurla.", explanation: "\"Tradurla\": infinitive + pronoun." },
+      { type: "speak", text: "In bocca al lupo per stasera! Crepi!", prompt: "Wish a friend luck and answer for them: Break a leg tonight! Thanks!", tip: "\"Crepi\" short and decisive.", explanation: "The Italian good-luck exchange." },
+    ],
+  },
+  {
+    slug: "c2-mission-funny-story",
+    level: "IT-C2",
+    number: 9,
+    title: "Real-World Mission: A Funny Story",
+    summary: "Plan and write a short humorous piece about an everyday misadventure, using irony, hyperbole and a well-timed ending.",
+    duration: "19 min",
+    sections: [
+      {
+        heading: "Choose the misadventure",
+        body: [
+          "Your mission: write a humorous piece of about 250-300 words for a blog or a magazine's back page. Choose an ordinary misadventure: assembling flat-pack furniture, a condominium meeting, a trip to the post office, a parents' WhatsApp group, a diet that lasted two days.",
+          "Plan the comic devices before writing. Hyperbole: \"Il manuale di istruzioni aveva più pagine della Divina Commedia.\" Mock solemnity: \"Fu allora che presi la decisione più coraggiosa della mia vita: chiamare mio cognato.\" Irony and understatement: \"Diciamo che non è andata proprio come previsto.\" A comic list of three, with the third item surprising: \"Avevo il cacciavite, la pazienza e, purtroppo, l'ottimismo.\"",
+        ],
+        examples: [
+          { es: "Il manuale aveva più pagine della Divina Commedia.", en: "The manual had more pages than the Divine Comedy." },
+          { es: "Fu allora che presi la decisione più coraggiosa della mia vita.", en: "That was when I made the bravest decision of my life." },
+          { es: "Diciamo che non è andata proprio come previsto.", en: "Let's say it didn't go quite as planned." },
+          { es: "Avevo il cacciavite, la pazienza e, purtroppo, l'ottimismo.", en: "I had the screwdriver, patience and, unfortunately, optimism." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Let's say it didn't go quite as planned.", answer: "Diciamo che non è andata proprio come previsto.", altAnswers: ["Diciamo che non è andata esattamente come previsto.", "Diciamo che non è andata proprio come pensavo."], explanation: "\"Andare come previsto\"; feminine \"andata\" with an implied \"la cosa\"." },
+          { type: "multiple-choice", question: "Which sentence uses mock solemnity?", options: ["Fu allora che presi la decisione più coraggiosa della mia vita: chiamare mio cognato.", "Ho chiamato mio cognato.", "Mio cognato è venuto ad aiutarmi.", "Non sapevo cosa fare."], correctIndex: 0, explanation: "Grand language for a trivial act." },
+          { type: "listen-choose", audio: "Avevo il cacciavite, la pazienza e, purtroppo, l'ottimismo.", question: "Which item is the comic surprise?", options: ["optimism", "the screwdriver", "patience", "the manual"], correctIndex: 0, explanation: "The third item in a list breaks the pattern." },
+        ],
+      },
+      {
+        heading: "The ending",
+        body: [
+          "A funny story needs a strong ending. Three common types: the twist (\"L'armadio è perfetto. Peccato che non passi dalla porta.\"), the circular ending that returns to the opening line, and the bittersweet wink (\"Comunque, l'anno prossimo ci riprovo.\"). Keep the last sentence short; never explain it.",
+          "Also useful: \"a quel punto\" (at that point), \"come se non bastasse\" (as if that weren't enough), \"neanche a farlo apposta\" (as luck would have it), \"inutile dire che\" (needless to say).",
+        ],
+        examples: [
+          { es: "Peccato che non passi dalla porta.", en: "Shame it won't fit through the door." },
+          { es: "Come se non bastasse, è saltata la luce.", en: "As if that weren't enough, the power went off." },
+          { es: "Neanche a farlo apposta, è arrivata mia suocera.", en: "As luck would have it, my mother-in-law arrived." },
+          { es: "Inutile dire che avanzavano tre viti.", en: "Needless to say, there were three screws left over." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "As if that weren't enough, the power went off.", answer: "Come se non bastasse, è saltata la luce.", altAnswers: ["Come se non bastasse, è andata via la luce.", "Come se non bastasse, è mancata la corrente."], explanation: "\"Come se\" + imperfect subjunctive." },
+          { type: "speak", text: "L'armadio è perfetto. Peccato che non passi dalla porta.", tip: "Pause after \"perfetto\".", explanation: "A twist ending." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The manual had more pages than the Divine Comedy.", answer: "Il manuale aveva più pagine della Divina Commedia.", altAnswers: ["Il libretto di istruzioni aveva più pagine della Divina Commedia."], explanation: "\"Più ... di\" with a noun." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Needless to say, there were three screws left over.", answer: "Inutile dire che avanzavano tre viti.", altAnswers: ["Inutile dire che erano avanzate tre viti.", "Inutile dire che sono avanzate tre viti."], explanation: "\"Avanzare\" = to be left over." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Next year I'll try again anyway.", answer: "Comunque, l'anno prossimo ci riprovo.", altAnswers: ["L'anno prossimo ci riprovo comunque.", "Comunque l'anno prossimo ci riproverò."], explanation: "\"Riprovarci\" = to have another go." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "As luck would have it, my mother-in-law arrived.", answer: "Neanche a farlo apposta, è arrivata mia suocera.", altAnswers: ["Neanche a farlo apposta, arrivò mia suocera.", "Manco a farlo apposta, è arrivata mia suocera."], explanation: "\"Neanche a farlo apposta\": ironic coincidence." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The diet lasted two days.", answer: "La dieta è durata due giorni.", altAnswers: ["La dieta durò due giorni."], explanation: "\"Durare\" takes \"essere\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[At that point] I called my brother-in-law.", sentence: "___ ho chiamato mio cognato.", answer: "A quel punto", explanation: "Narrative connector." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Shame [it won't fit] through the door.", sentence: "Peccato che non ___ dalla porta.", answer: "passi", explanation: "\"Peccato che\" + subjunctive." },
+      { type: "word-order", prompt: "Put the words in order to say: Never explain the last sentence.", words: ["Non", "spiegare", "mai", "l'ultima", "frase."], translation: "Never explain the last sentence.", explanation: "Negative imperative." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I had the screwdriver, patience and, unfortunately, optimism.", answer: "Avevo il cacciavite, la pazienza e, purtroppo, l'ottimismo.", altAnswers: ["Avevo il cacciavite, la pazienza e purtroppo l'ottimismo."], explanation: "A list of three: the third item is the joke." },
+      { type: "multiple-choice", question: "What is a circular ending?", options: ["It returns to the opening line or situation.", "It explains the joke.", "It ends with a question.", "It introduces a new character."], correctIndex: 0, explanation: "Closure through repetition." },
+      { type: "dictation", audio: "Come se non bastasse, è saltata la luce.", explanation: "\"Saltare\" = to trip (of electricity)." },
+      { type: "speak", text: "Diciamo che non è andata proprio come previsto.", prompt: "Introduce your disaster with understatement: Let's say it didn't go quite as planned.", tip: "Slight smile in the voice.", explanation: "Understatement opener." },
+    ],
+  },
+  {
+    slug: "c2-dialogue-lab-banter",
+    level: "IT-C2",
+    number: 10,
+    title: "Dialogue Lab: Banter",
+    summary: "Follow friends teasing each other over dinner, and learn the affectionate insults, comebacks and limits of Italian banter.",
+    duration: "19 min",
+    sections: [
+      {
+        heading: "The teasing starts",
+        body: [
+          "An invented dinner among old friends in Bologna: Giulia, Matteo and Sara. Italians call friendly teasing \"sfottere\" (colloquial) or \"prendere in giro\", and the banter itself \"sfottò\".",
+          "Matteo: \"Giulia, hai cucinato tu? Allora ho fatto bene a mangiare prima.\" Giulia: \"Spiritoso. Senti chi parla: l'ultima volta che hai cucinato tu sono venuti i pompieri.\" Sara: \"Era fumo di carattere, dai.\" Matteo: \"Ecco, almeno Sara mi difende.\" Sara: \"Non ti difendo, ti compatisco.\"",
+        ],
+        examples: [
+          { es: "Ho fatto bene a mangiare prima.", en: "I did well to eat beforehand." },
+          { es: "Senti chi parla!", en: "Look who's talking!" },
+          { es: "Sono venuti i pompieri.", en: "The fire brigade came." },
+          { es: "Non ti difendo, ti compatisco.", en: "I'm not defending you, I pity you." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Look who's talking!", answer: "Senti chi parla!", altAnswers: ["Ma senti chi parla!", "Guarda chi parla!"], explanation: "The classic comeback." },
+          { type: "multiple-choice", question: "What does Sara's line \"Non ti difendo, ti compatisco\" do?", options: ["It teases Matteo while seeming to support him.", "It sincerely defends Matteo.", "It attacks Giulia.", "It changes the subject."], correctIndex: 0, explanation: "A double-edged reply." },
+          { type: "listen-choose", audio: "L'ultima volta che hai cucinato tu sono venuti i pompieri.", question: "What happened last time Matteo cooked?", options: ["The fire brigade came.", "Everyone loved it.", "Nobody came.", "The police came."], correctIndex: 0, explanation: "Hyperbolic comeback." },
+        ],
+      },
+      {
+        heading: "Comebacks and limits",
+        body: [
+          "Matteo: \"Va be', almeno io non ci metto tre ore a scegliere un ristorante.\" Giulia: \"Si chiama avere gusto. Prova, prima o poi.\" Matteo: \"Touché.\" Sara: \"Basta, ragazzi, sembrate una coppia sposata da quarant'anni.\" Both: \"Ma neanche per sogno!\"",
+          "Banter has rules: target habits, not deep insecurities; stay within the group; accept a counterattack with a laugh. Useful formulas: \"Ma va'!\" (get away!), \"Ma smettila!\", \"Fai lo spiritoso?\", \"Ti credi tanto furbo?\", \"Ma neanche per sogno!\" (not in your dreams), and to restore peace: \"Dai, scherzavo\", \"Lo sai che ti voglio bene\".",
+        ],
+        examples: [
+          { es: "Almeno io non ci metto tre ore.", en: "At least I don't take three hours." },
+          { es: "Si chiama avere gusto.", en: "It's called having taste." },
+          { es: "Sembrate una coppia sposata.", en: "You sound like a married couple." },
+          { es: "Ma neanche per sogno!", en: "Not in your dreams!" },
+          { es: "Dai, lo sai che ti voglio bene.", en: "Come on, you know I love you." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "At least I don't take three hours.", answer: "Almeno io non ci metto tre ore.", altAnswers: ["Almeno io non impiego tre ore."], explanation: "\"Metterci\" = to take (time)." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Not in your dreams]!", sentence: "___!", answer: "Ma neanche per sogno", altAnswers: ["Neanche per sogno", "Nemmeno per sogno"], explanation: "Emphatic denial." },
+          { type: "speak", text: "Dai, scherzavo: lo sai che ti voglio bene.", tip: "Warm, softer tone after the teasing.", explanation: "Restoring peace." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Did you cook? Then I did well to eat beforehand.", answer: "Hai cucinato tu? Allora ho fatto bene a mangiare prima.", altAnswers: ["Hai cucinato tu? Allora ho fatto bene a mangiare prima di venire."], explanation: "\"Fare bene a\" + infinitive." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm not defending you, I pity you.", answer: "Non ti difendo, ti compatisco.", altAnswers: ["Non ti sto difendendo, ti compatisco."], explanation: "\"Compatire\" = to pity." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's called having taste.", answer: "Si chiama avere gusto.", altAnswers: ["Questo si chiama avere gusto."], explanation: "Infinitive as a noun." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You sound like a married couple.", answer: "Sembrate una coppia sposata.", altAnswers: ["Sembrate marito e moglie.", "Sembrate una vecchia coppia sposata."], explanation: "\"Sembrare\" + noun." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Are you trying to be funny?", answer: "Fai lo spiritoso?", altAnswers: ["Fai la spiritosa?", "Fa lo spiritoso?", "Vuoi fare lo spiritoso?"], explanation: "\"Fare lo spiritoso\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Get away]! It's not true.", sentence: "___! Non è vero.", answer: "Ma va'", altAnswers: ["Ma dai", "Ma va"], explanation: "\"Ma va'\": colloquial disbelief." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Italians call friendly teasing [sfottò].", sentence: "Gli italiani chiamano ___ la presa in giro tra amici.", answer: "sfottò", explanation: "From \"sfottere\" (colloquial)." },
+      { type: "word-order", prompt: "Put the words in order to say: Stop it, guys!", words: ["Basta,", "ragazzi!"], translation: "Stop it, guys!", explanation: "\"Basta\" ends the banter." },
+      { type: "multiple-choice", question: "Which is a rule of good banter?", options: ["Target habits, not deep insecurities.", "Always win the argument.", "Tease strangers first.", "Never laugh at yourself."], correctIndex: 0, explanation: "Affection sets the limits." },
+      { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "Senti chi parla!", right: "Look who's talking!" }, { left: "Ma smettila!", right: "Oh, stop it!" }, { left: "Ma neanche per sogno!", right: "Not in your dreams!" }, { left: "Ti credi tanto furbo?", right: "Think you're clever?" }], explanation: "Banter formulas." },
+      { type: "dictation", audio: "Ma neanche per sogno! Sembrate voi una coppia sposata.", explanation: "Comeback turned around." },
+      { type: "speak", text: "Senti chi parla! L'ultima volta sono venuti i pompieri.", prompt: "Answer a friend's teasing: Look who's talking! Last time the fire brigade came.", tip: "Quick, playful rhythm.", explanation: "A classic counterattack." },
+    ],
+  },
+];
+
+export const IT_C2_U07_WRITING: WriteExercise = {
+  type: "write",
+  prompt: "Write a short humorous piece (in Italian, 250-300 words) for a magazine's back page about an everyday misadventure: assembling furniture, a condominium meeting, a diet, a family WhatsApp group, a trip to a public office. Use at least three comic devices (hyperbole, irony or understatement, mock solemnity, a list of three with a surprise) and end with a short, unexplained punchline.",
+  minWords: 230,
+  maxWords: 330,
+  rubric: [
+    "Tells a clear story about a single everyday misadventure with a beginning, development and ending",
+    "Uses at least three comic devices (iperbole, ironia, solennità ironica, lista di tre) effectively",
+    "Uses narrative connectors (a quel punto, come se non bastasse, neanche a farlo apposta, inutile dire che)",
+    "Ends with a short punchline or twist that is not explained",
+    "Uses past tenses accurately (passato prossimo or remoto with imperfetto) and a consistent, lively register",
+  ],
+  modelAnswer: "Sabato scorso ho deciso di montare da solo un armadio. Avevo il cacciavite, la pazienza e, purtroppo, l'ottimismo.\n\nIl pacco pesava quanto un pianoforte. Dentro c'erano quarantadue pannelli, duecento viti di nove misure diverse e un manuale di istruzioni con più pagine della Divina Commedia, ma senza una sola parola: solo disegni di un omino sorridente che montava l'armadio in quattro passaggi. L'omino, evidentemente, non aveva mai visto il mio soggiorno.\n\nAlle dieci ho aperto il pacco. Alle undici avevo diviso le viti in mucchietti ordinati. A mezzogiorno avevo capito che il pannello A era in realtà il pannello F, e che lo avevo avvitato al contrario. Diciamo che la mattinata non è andata proprio come previsto.\n\nVerso le tre, come se non bastasse, è saltata la luce. Ho continuato con la torcia del telefono, tenendo il telefono in bocca, il pannello con le ginocchia e il cacciavite con l'unica mano rimasta libera. Neanche a farlo apposta, proprio in quel momento è arrivata mia suocera. Mi ha guardato a lungo, in silenzio, poi ha detto soltanto: «Ah, ecco.» Ho sorriso con tutta la dignità di cui è capace un uomo con un telefono tra i denti.\n\nFu allora che presi la decisione più coraggiosa della mia vita: chiamare mio cognato. È arrivato alle cinque, ha bevuto un caffè, ha letto il manuale al contrario e in quaranta minuti l'armadio era in piedi.\n\nInutile dire che avanzavano tre viti. Mio cognato dice che sono di scorta. Io non ci credo, e ogni notte, prima di dormire, guardo l'armadio con sospetto.\n\nComunque, è perfetto. Peccato che non passi dalla porta della camera.",
+  explanation: "The model uses a list of three with a surprise (\"l'ottimismo\"), hyperbole (\"pesava quanto un pianoforte\", \"più pagine della Divina Commedia\"), understatement (\"non è andata proprio come previsto\"), mock solemnity with the \"passato remoto\" (\"Fu allora che presi la decisione più coraggiosa\"), narrative connectors, and a short final twist.",
+};

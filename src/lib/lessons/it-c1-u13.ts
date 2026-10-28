@@ -55,15 +55,15 @@ export const IT_C1_U13: Lesson[] = [
         ],
       },
       {
-        heading: "La patente: humour and pity",
+        heading: "La patente: humor and pity",
         body: [
           "Pirandello called his method \"umorismo\": not just making us laugh, but making us feel the opposite of our first reaction, \"il sentimento del contrario\". We laugh at an old woman absurdly made up like a girl; then we understand she does it to keep a younger husband, and laughter turns into pity.",
-          "In the novella La patente (1911), Rosario Chiàrchiaro has a reputation as a \"iettatore\", a man who brings bad luck. He has lost his job because of it. So he goes to court not to deny the rumour but to obtain an official licence as a iettatore, so that people will pay him to stay away. The mask the town forced on him becomes his trade.",
+          "In the novella La patente (1911), Rosario Chiàrchiaro has a reputation as a \"iettatore\", a man who brings bad luck. He has lost his job because of it. So he goes to court not to deny the rumor but to obtain an official license as a iettatore, so that people will pay him to stay away. The mask the town forced on him becomes his trade.",
         ],
         examples: [
           { es: "Prima ridiamo, poi proviamo pietà.", en: "First we laugh, then we feel pity." },
           { es: "Tutti lo considerano un iettatore.", en: "Everyone considers him a bringer of bad luck." },
-          { es: "Chiede una patente ufficiale di iettatore.", en: "He asks for an official licence as a bringer of bad luck." },
+          { es: "Chiede una patente ufficiale di iettatore.", en: "He asks for an official license as a bringer of bad luck." },
           { es: "La maschera che gli hanno imposto diventa il suo mestiere.", en: "The mask they forced on him becomes his trade." },
         ],
         checkpoint: [
@@ -93,7 +93,7 @@ export const IT_C1_U13: Lesson[] = [
         ],
         explanation: "Key vocabulary for any essay on Pirandello.",
       },
-      { type: "multiple-choice", question: "In La patente, why does Chiàrchiaro want the licence?", options: ["To earn money from the bad-luck reputation the town gave him", "To prove he is not a bringer of bad luck", "To get his old job back", "To be allowed to drive"], correctIndex: 0, explanation: "He turns the mask into a trade." },
+      { type: "multiple-choice", question: "In La patente, why does Chiàrchiaro want the license?", options: ["To earn money from the bad-luck reputation the town gave him", "To prove he is not a bringer of bad luck", "To get his old job back", "To be allowed to drive"], correctIndex: 0, explanation: "He turns the mask into a trade." },
       { type: "dictation", audio: "Una delle poche cose che sapevo di certo era il mio nome.", explanation: "\"Di certo\" = for certain." },
       { type: "speak", text: "Per Pirandello ognuno di noi porta una maschera, e la verità cambia secondo chi guarda.", prompt: "Say it in Italian: For Pirandello each of us wears a mask, and the truth changes depending on who is looking.", tip: "Pi-ran-DEL-lo: double l; MA-sche-ra, stress on the first syllable.", explanation: "Mask and relativism together." },
     ],
@@ -129,7 +129,7 @@ export const IT_C1_U13: Lesson[] = [
         heading: "L'ultima sigaretta",
         body: [
           "The chapter on smoking is the most famous. Zeno has tried to give up all his life. Each time he decides to stop, he smokes \"l'ultima sigaretta\" (the last cigarette), and records it with a date and the initials U.S. on walls and in books. He even switches from law to chemistry with a solemn resolution: \"Ultima sigaretta!!\"",
-          "The irony is that the last cigarette tastes better than any other, precisely because it is the last, so Zeno keeps smoking 'last' ones. He even suspects that he enjoys the resolutions more than he wants to quit. Svevo's humour is gentle, self-mocking and very modern.",
+          "The irony is that the last cigarette tastes better than any other, precisely because it is the last, so Zeno keeps smoking 'last' ones. He even suspects that he enjoys the resolutions more than he wants to quit. Svevo's humor is gentle, self-mocking and very modern.",
           "Useful phrases: \"smettere di fumare\" (to give up smoking: \"di\", not \"a\"), \"il buon proposito\" (good intention), \"rimandare\" (to put off), \"l'alibi\" (excuse).",
         ],
         examples: [
@@ -154,7 +154,7 @@ export const IT_C1_U13: Lesson[] = [
         examples: [
           { es: "In una sola sera chiede la mano a tre sorelle.", en: "In a single evening he proposes to three sisters." },
           { es: "Alla fine sposa Augusta, la sorella che non voleva.", en: "In the end he marries Augusta, the sister he didn't want." },
-          { es: "Il romanzo è organizzato per temi, non in ordine cronologico.", en: "The novel is organised by themes, not chronologically." },
+          { es: "Il romanzo è organizzato per temi, non in ordine cronologico.", en: "The novel is organized by themes, not chronologically." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In the end he marries the sister he didn't want.", answer: "Alla fine sposa la sorella che non voleva.", altAnswers: ["Alla fine sposa la sorella che non voleva sposare.", "Alla fine si sposa con la sorella che non voleva."], explanation: "\"Sposare qualcuno\" (direct object) or \"sposarsi con\"." },
@@ -256,7 +256,7 @@ export const IT_C1_U13: Lesson[] = [
     level: "IT-C1",
     number: 4,
     title: "Free Indirect Speech",
-    summary: "Recognise and write the discorso indiretto libero, where the narrator's voice blends with a character's thoughts, and tell it apart from interior monologue.",
+    summary: "Recognize and write the discorso indiretto libero, where the narrator's voice blends with a character's thoughts, and tell it apart from interior monologue.",
     duration: "19 min",
     sections: [
       {
@@ -282,7 +282,7 @@ export const IT_C1_U13: Lesson[] = [
         heading: "Turning direct thought into free indirect",
         body: [
           "To convert: remove the verb of thinking and the quotation marks; change I to she or he; shift tenses back as in reported speech (present → imperfetto, passato prossimo → trapassato, future → past conditional); keep the exclamations, the questions, the colloquial words and the word order of the thought.",
-          "Time and place words often stay as the character would say them: \"domani\" and \"qui\" are possible in free indirect speech because we're inside the character's present. This is one way you can recognise it: \"Domani sarebbe partita, finalmente\".",
+          "Time and place words often stay as the character would say them: \"domani\" and \"qui\" are possible in free indirect speech because we're inside the character's present. This is one way you can recognize it: \"Domani sarebbe partita, finalmente\".",
         ],
         examples: [
           { es: "«Domani parto, finalmente!» → Domani sarebbe partita, finalmente!", en: "'I'm leaving tomorrow, at last!' → She'd be leaving tomorrow, at last!" },
@@ -387,13 +387,13 @@ export const IT_C1_U13: Lesson[] = [
     level: "IT-C1",
     number: 6,
     title: "The Modern Short Story",
-    summary: "Read an original short story in modern literary Italian, Il cappotto di mio padre, and analyse its time shifts, images and ending.",
+    summary: "Read an original short story in modern literary Italian, Il cappotto di mio padre, and analyze its time shifts, images and ending.",
     duration: "19 min",
     sections: [
       {
         heading: "Il cappotto di mio padre, part 1",
         body: [
-          "This original story was written for this course in the style of contemporary Italian fiction: a first-person narrator, short paragraphs, the passato prossimo and the present instead of the passato remoto, and a concrete object at the centre.",
+          "This original story was written for this course in the style of contemporary Italian fiction: a first-person narrator, short paragraphs, the passato prossimo and the present instead of the passato remoto, and a concrete object at the center.",
           "It begins: \"Il cappotto di mio padre è rimasto nell'armadio per tre inverni. Nessuno di noi aveva il coraggio di toccarlo. Mia madre ci passava davanti come si passa davanti a una porta chiusa.\" Notice the simile: the coat is treated like a closed door, something nobody opens.",
           "The narrator is a daughter. Her father has died; the coat stands for him. The story never says 'grief': it shows it through gestures.",
         ],
@@ -499,7 +499,7 @@ export const IT_C1_U13: Lesson[] = [
           { es: "Sia Pirandello sia Svevo raccontano la crisi dell'io.", en: "Both Pirandello and Svevo tell the crisis of the self." },
           { es: "A differenza di Verga, Svevo affida la narrazione al protagonista.", en: "Unlike Verga, Svevo entrusts the narration to the main character." },
           { es: "Mentre Deledda insiste sul destino, Pirandello insiste sulla società.", en: "Whereas Deledda stresses fate, Pirandello stresses society." },
-          { es: "In entrambi i casi il protagonista non si riconosce.", en: "In both cases the main character doesn't recognise himself." },
+          { es: "In entrambi i casi il protagonista non si riconosce.", en: "In both cases the main character doesn't recognize himself." },
           { es: "Si direbbe che l'individuo abbia perso ogni certezza.", en: "One would say the individual has lost every certainty." },
         ],
         checkpoint: [
@@ -513,7 +513,7 @@ export const IT_C1_U13: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The theme of the mask runs through all his work.", answer: "Il tema della maschera attraversa tutta la sua opera.", altAnswers: ["Il tema della maschera ricorre in tutta la sua opera.", "Il tema della maschera percorre tutta la sua opera."], explanation: "\"Attraversare\" or \"ricorrere in\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Ineptitude is the common thread of the novel.", answer: "L'inettitudine è il filo conduttore del romanzo.", explanation: "\"Il filo conduttore\" = the common thread." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Unlike Verga, Svevo entrusts the narration to the main character.", answer: "A differenza di Verga, Svevo affida la narrazione al protagonista.", altAnswers: ["Diversamente da Verga, Svevo affida la narrazione al protagonista.", "A differenza di Verga, Svevo affida la narrazione al protagonista stesso."], explanation: "\"Affidare qualcosa a qualcuno\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In both cases the main character doesn't recognise himself.", answer: "In entrambi i casi il protagonista non si riconosce.", altAnswers: ["In tutti e due i casi il protagonista non si riconosce.", "In entrambi i casi il protagonista non riesce a riconoscersi."], explanation: "\"Entrambi\" + article + plural noun." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In both cases the main character doesn't recognize himself.", answer: "In entrambi i casi il protagonista non si riconosce.", altAnswers: ["In tutti e due i casi il protagonista non si riconosce.", "In entrambi i casi il protagonista non riesce a riconoscersi."], explanation: "\"Entrambi\" + article + plural noun." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "One would say the individual has lost every certainty.", answer: "Si direbbe che l'individuo abbia perso ogni certezza.", altAnswers: ["Si direbbe che l'individuo abbia perduto ogni certezza."], explanation: "\"Si direbbe che\" + subjunctive." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Deledda [explores] the relationship between guilt and fate.", sentence: "Deledda ___ il rapporto tra colpa e destino.", answer: "esplora", altAnswers: ["indaga", "approfondisce"], explanation: "\"Esplorare\" a theme." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Whereas] Verga is impersonal, Svevo is ironic.", sentence: "___ Verga è impersonale, Svevo è ironico.", answer: "Mentre", explanation: "\"Mentre\" for contrast." },
@@ -531,7 +531,7 @@ export const IT_C1_U13: Lesson[] = [
       },
       { type: "multiple-choice", question: "Which sentence is a good topic sentence for a comparison?", options: ["Sia Svevo sia Pirandello mettono in discussione l'identità del soggetto moderno.", "Svevo è nato a Trieste e Pirandello in Sicilia.", "Mi piacciono di più i libri di Pirandello.", "La coscienza di Zeno è un libro lungo."], correctIndex: 0, explanation: "It names a shared theme and sets up the comparison." },
       { type: "dictation", audio: "Il tema della maschera attraversa tutta la sua opera.", explanation: "\"Attraversare\" = to run through." },
-      { type: "speak", text: "Sia Pirandello sia Svevo raccontano un individuo che non si riconosce più.", prompt: "Say it in Italian: Both Pirandello and Svevo tell of an individual who no longer recognises himself.", tip: "In-di-VI-duo: stress on VI.", explanation: "A comparison in one sentence." },
+      { type: "speak", text: "Sia Pirandello sia Svevo raccontano un individuo che non si riconosce più.", prompt: "Say it in Italian: Both Pirandello and Svevo tell of an individual who no longer recognizes himself.", tip: "In-di-VI-duo: stress on VI.", explanation: "A comparison in one sentence." },
     ],
   },
   {
@@ -586,7 +586,7 @@ export const IT_C1_U13: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Fix \"Zeno è un carattere molto ironico\" and write: Zeno is a very ironic character.", source: "Zeno is a very ironic character.", answer: "Zeno è un personaggio molto ironico.", explanation: "\"Personaggio\" for fiction." },
       { type: "translate", direction: "en-es", prompt: "Fix \"Le sorelle sono nobile ma povere\" and write: The sisters are noble but poor.", source: "The sisters are noble but poor.", answer: "Le sorelle sono nobili ma povere.", explanation: "\"Nobile\" → plural \"nobili\"." },
       { type: "translate", direction: "en-es", prompt: "Replace the vague \"Il libro fa pensare\" and write: The novel forces readers to question their own identity.", source: "The novel forces readers to question their own identity.", answer: "Il romanzo costringe il lettore a interrogarsi sulla propria identità.", altAnswers: ["Il romanzo spinge il lettore a interrogarsi sulla propria identità.", "Il romanzo costringe i lettori a interrogarsi sulla propria identità."], explanation: "\"Costringere qualcuno a\" + infinitive." },
-      { type: "fill-blank", prompt: "Fix \"Mattia Pascal ha realizzato di essere libero\".", en: "Mattia Pascal [realised] he was free.", sentence: "Mattia Pascal ___ di essere libero.", answer: "si è reso conto", altAnswers: ["si rese conto", "capì", "ha capito"], explanation: "\"Rendersi conto\" = to realise." },
+      { type: "fill-blank", prompt: "Fix \"Mattia Pascal ha realizzato di essere libero\".", en: "Mattia Pascal [realized] he was free.", sentence: "Mattia Pascal ___ di essere libero.", answer: "si è reso conto", altAnswers: ["si rese conto", "capì", "ha capito"], explanation: "\"Rendersi conto\" = to realize." },
       { type: "fill-blank", prompt: "Fix \"Il racconto è scritto in prima persone\".", en: "The story is written [in the first person].", sentence: "Il racconto è scritto ___.", answer: "in prima persona", explanation: "Singular: \"in prima persona\"." },
       { type: "word-order", prompt: "Put the words in order to say: Pirandello shows that identity is a mask.", words: ["Pirandello", "mostra", "che", "l'identità", "è", "una", "maschera."], translation: "Pirandello shows that identity is a mask.", explanation: "\"Mostrare che\" + indicative for a fact the author shows." },
       { type: "multiple-choice", question: "Which sentence is correct?", options: ["Lo scrittore triestino morì nel 1928.", "Il scrittore triestino morì nel 1928.", "Lo scrittore triestino morì in 1928.", "Lo scrittore Triestino morì nel 1928."], correctIndex: 0, explanation: "\"Lo scrittore\", \"nel\", lower-case adjective of place." },
@@ -600,7 +600,7 @@ export const IT_C1_U13: Lesson[] = [
     level: "IT-C1",
     number: 9,
     title: "Real-World Mission: Write a Short Story",
-    summary: "Plan and write a 300-word short story in modern literary Italian, with an object at its centre, a time shift and an open ending.",
+    summary: "Plan and write a 300-word short story in modern literary Italian, with an object at its center, a time shift and an open ending.",
     duration: "19 min",
     kind: "review",
     sections: [
@@ -663,7 +663,7 @@ export const IT_C1_U13: Lesson[] = [
       {
         heading: "The interview, part 1",
         body: [
-          "On a cultural radio programme, a presenter interviews Livia Mancuso, an invented novelist from Cagliari, about her new novel, La casa dei venti. Listen for: the subject of the book, the setting, the narrator, the influences she names.",
+          "On a cultural radio program, a presenter interviews Livia Mancuso, an invented novelist from Cagliari, about her new novel, La casa dei venti. Listen for: the subject of the book, the setting, the narrator, the influences she names.",
           "Interview language: \"Com'è nata l'idea del romanzo?\" (how did the idea come about?), \"Che cosa l'ha ispirata?\", \"Si riconosce nella sua protagonista?\" (do you see yourself in her?). The writer answers with hedges and examples: \"Direi che...\", \"In un certo senso...\".",
         ],
         examples: [
@@ -716,7 +716,7 @@ export const IT_C1_U13: Lesson[] = [
 
 export const IT_C1_U13_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Write a short story of about 300 words in modern literary Italian. Put an object at the centre, include a time shift (present, past, present), one passage of free indirect speech or interior monologue, and end openly.",
+  prompt: "Write a short story of about 300 words in modern literary Italian. Put an object at the center, include a time shift (present, past, present), one passage of free indirect speech or interior monologue, and end openly.",
   minWords: 250,
   maxWords: 350,
   rubric: [

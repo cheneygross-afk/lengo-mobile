@@ -1,7 +1,7 @@
 // Synced from cheneygross-afk/lengo:src/lib/lessons/it-c1-u15.ts by scripts/sync-content.mjs -- edit it there, not here.
 import type { Lesson, WriteExercise } from "./types";
 
-// Italian C1 Unit 15: Film and Theatre Language. Commedia dell'arte,
+// Italian C1 Unit 15: Film and Theater Language. Commedia dell'arte,
 // neorealismo, plot summaries in the present, the vocabulary of film
 // criticism, and reviews. Conventions: docs/italian-course/authoring.md.
 export const IT_C1_U15: Lesson[] = [
@@ -10,7 +10,7 @@ export const IT_C1_U15: Lesson[] = [
     level: "IT-C1",
     number: 1,
     title: "Commedia dell'Arte",
-    summary: "Meet Arlecchino, Pulcinella, Pantalone and the other masks, learn how the companies improvised, and see how Goldoni reformed the theatre.",
+    summary: "Meet Arlecchino, Pulcinella, Pantalone and the other masks, learn how the companies improvised, and see how Goldoni reformed the theater.",
     duration: "19 min",
     sections: [
       {
@@ -36,9 +36,9 @@ export const IT_C1_U15: Lesson[] = [
       {
         heading: "The masks and their cities",
         body: [
-          "Each mask carries a city. \"Arlecchino\", from Bergamo, is a poor, hungry, quick-witted servant in a costume of coloured diamond patches. \"Brighella\", also from Bergamo, is the scheming servant. \"Pantalone\" is a rich, mean old Venetian merchant who chases young women. \"Il Dottore\" (Balanzone) is a pompous Bolognese scholar who quotes bad Latin.",
+          "Each mask carries a city. \"Arlecchino\", from Bergamo, is a poor, hungry, quick-witted servant in a costume of colored diamond patches. \"Brighella\", also from Bergamo, is the scheming servant. \"Pantalone\" is a rich, mean old Venetian merchant who chases young women. \"Il Dottore\" (Balanzone) is a pompous Bolognese scholar who quotes bad Latin.",
           "\"Pulcinella\", from Naples, wears a loose white costume and a black half-mask with a hooked nose; he is lazy, greedy and philosophical, and still the symbol of Naples. \"Colombina\" is the sharp maidservant, often Arlecchino's sweetheart.",
-          "Several names have entered the language: \"fare il pagliaccio\" (to clown around), \"un pulcinella\" (an unreliable person), \"il segreto di Pulcinella\" (an open secret), \"un arlecchino\" (a jumble of colours).",
+          "Several names have entered the language: \"fare il pagliaccio\" (to clown around), \"un pulcinella\" (an unreliable person), \"il segreto di Pulcinella\" (an open secret), \"un arlecchino\" (a jumble of colors).",
         ],
         examples: [
           { es: "Arlecchino è un servitore povero, affamato e furbo.", en: "Arlecchino is a poor, hungry, cunning servant." },
@@ -50,14 +50,14 @@ export const IT_C1_U15: Lesson[] = [
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Pantalone is a miserly old Venetian merchant.", answer: "Pantalone è un vecchio mercante veneziano avaro.", altAnswers: ["Pantalone è un vecchio mercante avaro di Venezia.", "Pantalone è un vecchio e avaro mercante veneziano."], explanation: "\"Avaro\" = miserly; \"veneziano\" lower case." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's an open secret: everyone knows.", answer: "È il segreto di Pulcinella: lo sanno tutti.", altAnswers: ["È un segreto di Pulcinella: lo sanno tutti.", "È il segreto di Pulcinella, lo sanno tutti."], explanation: "\"Il segreto di Pulcinella\" = an open secret." },
-          { type: "listen-choose", audio: "Arlecchino viene da Bergamo e ha un vestito a rombi colorati.", question: "What do we learn about Arlecchino?", options: ["He's from Bergamo and wears coloured diamond patches.", "He's from Venice and wears white.", "He's a rich merchant.", "He's a doctor from Bologna."], correctIndex: 0, explanation: "\"A rombi\" = with diamond shapes." },
+          { type: "listen-choose", audio: "Arlecchino viene da Bergamo e ha un vestito a rombi colorati.", question: "What do we learn about Arlecchino?", options: ["He's from Bergamo and wears colored diamond patches.", "He's from Venice and wears white.", "He's a rich merchant.", "He's a doctor from Bologna."], correctIndex: 0, explanation: "\"A rombi\" = with diamond shapes." },
         ],
       },
       {
         heading: "Goldoni's reform",
         body: [
           "By the 1700s the improvisations had become repetitive. The Venetian playwright Carlo Goldoni (1707-1793) gradually replaced the canovaccio with fully written plays and the masks with real characters drawn from Venetian society: merchants, servants, innkeepers. This is \"la riforma goldoniana\".",
-          "His Il servitore di due padroni (1745) is still performed worldwide: Arlecchino, always hungry, serves two masters at once without either knowing, and must keep the deception going through a dinner scene of comic chaos. La locandiera (1753) centres on Mirandolina, a clever innkeeper who outwits her aristocratic guests.",
+          "His Il servitore di due padroni (1745) is still performed worldwide: Arlecchino, always hungry, serves two masters at once without either knowing, and must keep the deception going through a dinner scene of comic chaos. La locandiera (1753) centers on Mirandolina, a clever innkeeper who outwits her aristocratic guests.",
         ],
         examples: [
           { es: "Goldoni sostituì il canovaccio con testi scritti.", en: "Goldoni replaced the outline with written plays." },
@@ -92,7 +92,7 @@ export const IT_C1_U15: Lesson[] = [
         ],
         explanation: "The masks and their cities.",
       },
-      { type: "multiple-choice", question: "What did Goldoni's reform do?", options: ["It replaced improvisation with written plays and real characters.", "It added more masks.", "It banned women from the stage.", "It moved theatre to Naples."], correctIndex: 0, explanation: "\"La riforma goldoniana\"." },
+      { type: "multiple-choice", question: "What did Goldoni's reform do?", options: ["It replaced improvisation with written plays and real characters.", "It added more masks.", "It banned women from the stage.", "It moved theater to Naples."], correctIndex: 0, explanation: "\"La riforma goldoniana\"." },
       { type: "dictation", audio: "Arlecchino serve due padroni contemporaneamente.", explanation: "\"Contemporaneamente\" = at the same time." },
       { type: "speak", text: "Arlecchino è un servitore povero e affamato, ma furbissimo: serve due padroni senza che nessuno se ne accorga.", prompt: "Say it in Italian: Arlecchino is a poor, hungry servant, but very cunning: he serves two masters without anyone noticing.", tip: "\"Senza che\" + subjunctive: \"se ne accorga\".", explanation: "The plot of Goldoni's comedy." },
     ],
@@ -130,7 +130,7 @@ export const IT_C1_U15: Lesson[] = [
         body: [
           "Rossellini's Roma città aperta (1945), shot while the war was barely over, tells of the German occupation of Rome. Its most famous scene: Pina, played by Anna Magnani, runs after the truck taking away her fiancé and is shot dead in the street. A priest, don Pietro, helps the Resistance and is executed.",
           "De Sica's Ladri di biciclette (1948), written with Zavattini, follows Antonio Ricci, an unemployed man in Rome who finally gets a job putting up posters, on condition he has a bicycle. On his first day the bicycle is stolen. With his young son Bruno he searches the whole city in vain; in despair, he tries to steal a bicycle himself, is caught and humiliated in front of his son. They walk away together into the crowd.",
-          "When you summarise these plots, use the present tense, and choose precise verbs: \"viene ucciso\", \"viene fucilato\" (is shot by firing squad), \"gli rubano la bicicletta\".",
+          "When you summarize these plots, use the present tense, and choose precise verbs: \"viene ucciso\", \"viene fucilato\" (is shot by firing squad), \"gli rubano la bicicletta\".",
         ],
         examples: [
           { es: "Pina corre dietro al camion e viene uccisa.", en: "Pina runs after the truck and is killed." },
@@ -177,7 +177,7 @@ export const IT_C1_U15: Lesson[] = [
     level: "IT-C1",
     number: 3,
     title: "Writing Plot Summaries",
-    summary: "Summarise a film or play in the present tense, sequence events clearly, and stop before the spoiler.",
+    summary: "Summarize a film or play in the present tense, sequence events clearly, and stop before the spoiler.",
     duration: "19 min",
     sections: [
       {
@@ -273,7 +273,7 @@ export const IT_C1_U15: Lesson[] = [
           { es: "I primi piani ci costringono a guardare il dolore della madre.", en: "The close-ups force us to look at the mother's grief." },
           { es: "La macchina a mano trasmette un senso di urgenza.", en: "The handheld camera conveys a sense of urgency." },
           { es: "Il montaggio serrato tiene alta la tensione.", en: "The tight editing keeps the tension high." },
-          { es: "La fotografia, fredda e grigia, riflette la solitudine dei personaggi.", en: "The cold, grey cinematography reflects the characters' loneliness." },
+          { es: "La fotografia, fredda e grigia, riflette la solitudine dei personaggi.", en: "The cold, gray cinematography reflects the characters' loneliness." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The film opens with a long single take.", answer: "Il film si apre con un lungo piano sequenza.", altAnswers: ["Il film comincia con un lungo piano sequenza.", "Il film inizia con un lungo piano sequenza."], explanation: "\"Il piano sequenza\" = a long take without cuts." },
@@ -314,7 +314,7 @@ export const IT_C1_U15: Lesson[] = [
     level: "IT-C1",
     number: 5,
     title: "Drill: Review Language",
-    summary: "Produce the phrases of film and theatre reviews at speed: praise, criticism, technique and recommendation.",
+    summary: "Produce the phrases of film and theater reviews at speed: praise, criticism, technique and recommendation.",
     duration: "25 min",
     kind: "drill",
     sections: [
@@ -340,7 +340,7 @@ export const IT_C1_U15: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The ending disappoints.", answer: "Il finale delude.", altAnswers: ["Il finale è deludente."], explanation: "\"Deludere\" = to disappoint (not delude)." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "A show not to be missed.", answer: "Uno spettacolo da non perdere.", explanation: "\"Da non perdere\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The acting is convincing.", answer: "La recitazione è convincente.", altAnswers: ["L'interpretazione è convincente."], explanation: "\"La recitazione\" = the acting." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The second half is too slow.", answer: "La seconda parte è troppo lenta.", altAnswers: ["Il secondo tempo è troppo lento.", "La seconda metà è troppo lenta."], explanation: "\"Il secondo tempo\" for a film's second half, \"il secondo atto\" in theatre." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The second half is too slow.", answer: "La seconda parte è troppo lenta.", altAnswers: ["Il secondo tempo è troppo lento.", "La seconda metà è troppo lenta."], explanation: "\"Il secondo tempo\" for a film's second half, \"il secondo atto\" in theater." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The film is based on a novel.", answer: "Il film è tratto da un romanzo.", altAnswers: ["Il film è basato su un romanzo.", "Il film è ispirato a un romanzo."], explanation: "\"Tratto da\" is the natural choice." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The director avoids sentimentality.", answer: "Il regista evita il sentimentalismo.", altAnswers: ["La regista evita il sentimentalismo."], explanation: "\"Il sentimentalismo\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "A moving and successful film.", answer: "Un film toccante e riuscito.", altAnswers: ["Un film commovente e riuscito.", "Un film riuscito e toccante."], explanation: "\"Riuscito\" = successful, well made." },
@@ -359,7 +359,7 @@ export const IT_C1_U15: Lesson[] = [
     level: "IT-C1",
     number: 6,
     title: "Reading Lab: A Film Review",
-    summary: "Read an original review of an invented Italian film, L'ultima corsa, and analyse how the critic moves from plot to judgement.",
+    summary: "Read an original review of an invented Italian film, L'ultima corsa, and analyze how the critic moves from plot to judgment.",
     duration: "19 min",
     sections: [
       {
@@ -419,7 +419,7 @@ export const IT_C1_U15: Lesson[] = [
     level: "IT-C1",
     number: 7,
     title: "Dialogue Lab: After the Film",
-    summary: "Discuss a film with friends outside the cinema: give opinions, agree and disagree politely, and defend a judgement.",
+    summary: "Discuss a film with friends outside the cinema: give opinions, agree and disagree politely, and defend a judgment.",
     duration: "19 min",
     sections: [
       {
@@ -456,7 +456,7 @@ export const IT_C1_U15: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm not saying it's bad, I'm saying it's overrated.", answer: "Non dico che sia brutto, dico che è sopravvalutato.", altAnswers: ["Non dico che è brutto, dico che è sopravvalutato.", "Non dico che sia brutto, ma che è sopravvalutato."], explanation: "\"Non dico che\" + subjunctive in careful speech." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Maybe so, but it moved me.", answer: "Sarà, ma a me ha commosso.", altAnswers: ["Sarà, ma mi ha commosso.", "Può darsi, ma a me ha commosso.", "Sarà, però a me ha commosso."], explanation: "\"Sarà\" = maybe so (sceptical future)." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Maybe so, but it moved me.", answer: "Sarà, ma a me ha commosso.", altAnswers: ["Sarà, ma mi ha commosso.", "Può darsi, ma a me ha commosso.", "Sarà, però a me ha commosso."], explanation: "\"Sarà\" = maybe so (skeptical future)." },
         ],
       },
     ],
@@ -588,7 +588,7 @@ export const IT_C1_U15: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If the script [limps at times], the direction is excellent.", sentence: "Se la sceneggiatura ___, la regia è eccellente.", answer: "a tratti zoppica", altAnswers: ["zoppica a tratti", "talvolta zoppica"], explanation: "\"A tratti\" = at times." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The director [confirms her talent].", sentence: "La regista ___.", answer: "conferma il suo talento", altAnswers: ["conferma il proprio talento"], explanation: "\"Confermare\"." },
       { type: "word-order", prompt: "Put the words in order to say: The pace drops in the middle.", words: ["Il", "ritmo", "cala", "nella", "parte", "centrale."], translation: "The pace drops in the middle.", explanation: "\"Calare\"." },
-      { type: "multiple-choice", question: "Which sentence works as a verdict?", options: ["Un film imperfetto ma necessario, da vedere in sala.", "Il film dura due ore.", "La regista è nata a Genova.", "Il film è ambientato su un autobus."], correctIndex: 0, explanation: "Judgement plus recommendation." },
+      { type: "multiple-choice", question: "Which sentence works as a verdict?", options: ["Un film imperfetto ma necessario, da vedere in sala.", "Il film dura due ore.", "La regista è nata a Genova.", "Il film è ambientato su un autobus."], correctIndex: 0, explanation: "Judgment plus recommendation." },
       { type: "dictation", audio: "Consigliato a chi ama il cinema d'autore.", explanation: "Recommendation formula." },
       { type: "speak", text: "Nonostante un finale frettoloso, il film resta un'opera riuscita: da vedere in sala.", prompt: "Give your verdict: Despite a rushed ending, the film remains a successful work: to be seen in the cinema.", tip: "Fret-to-LO-so: double t.", explanation: "Concession plus verdict." },
     ],
@@ -604,7 +604,7 @@ export const IT_C1_U15: Lesson[] = [
       {
         heading: "Two critics, one film",
         body: [
-          "On a radio programme, two invented critics, Paolo and Elena, discuss a new film, La stanza di sopra. Paolo is enthusiastic: \"È il film italiano più coraggioso dell'anno.\" Elena is sceptical: \"Coraggioso nelle intenzioni, forse; nei risultati, molto meno.\"",
+          "On a radio program, two invented critics, Paolo and Elena, discuss a new film, La stanza di sopra. Paolo is enthusiastic: \"È il film italiano più coraggioso dell'anno.\" Elena is skeptical: \"Coraggioso nelle intenzioni, forse; nei risultati, molto meno.\"",
           "Listen for the debate moves: claims (\"secondo me\", \"ritengo che\" + subjunctive), concessions (\"ammetto che\", \"è vero che... però\"), counter-arguments (\"il punto è che\", \"il problema è un altro\") and irony (\"coraggioso, certo, se per coraggio intendiamo...\").",
         ],
         examples: [
@@ -659,11 +659,11 @@ export const IT_C1_U15_WRITING: WriteExercise = {
   minWords: 200,
   maxWords: 300,
   rubric: [
-    "Opens with context (director, genre, festival or source) and summarises the plot in the present tense without giving away the ending",
+    "Opens with context (director, genre, festival or source) and summarizes the plot in the present tense without giving away the ending",
     "Uses precise vocabulary (la regia, la sceneggiatura, la fotografia, il montaggio, interpretare un ruolo) and avoids calques like giocare un ruolo or settato a",
     "Links technique to meaning and includes at least one balanced concession (pur con, nonostante, è vero che... però)",
     "Ends with a clear verdict or recommendation (da vedere, consigliato a chi...)",
   ],
   modelAnswer: "C'è un momento, in Ladri di biciclette, in cui Antonio e il figlio Bruno si siedono in trattoria e, per qualche minuto, dimenticano tutto. È la scena più leggera del film, ed è proprio per questo che fa così male.\n\nDiretto da Vittorio De Sica nel 1948 e tratto dal romanzo di Luigi Bartolini, il film è ambientato nella Roma del dopoguerra. Protagonista è Antonio Ricci, un disoccupato che finalmente trova lavoro come attacchino, a una condizione: deve avere una bicicletta. Il primo giorno gliela rubano. Comincia così una ricerca disperata per tutta la città, con il figlio sempre al suo fianco. Non diciamo di più per non svelare il finale.\n\nLa sceneggiatura di Cesare Zavattini è essenziale: nessun dialogo è inutile. De Sica gira in esterni, tra mercati, chiese e periferie, e affida i ruoli principali ad attori non professionisti: Lamberto Maggiorani, che interpreta Antonio, era un operaio vero. La fotografia in bianco e nero restituisce una città stanca ma viva, e i primi piani del piccolo Bruno ci costringono a guardare la crisi del padre con gli occhi di un bambino.\n\nPur con qualche momento un po' didascalico nella parte centrale, il film non ha perso nulla della sua forza. È un'opera che parla di dignità più che di povertà.\n\nUn classico da riscoprire, possibilmente in sala: consigliato a chi pensa che il cinema debba ancora raccontare la vita di tutti i giorni.",
-  explanation: "The review opens with a hook (\"C'è un momento... in cui\"), gives context with \"diretto da\" and \"tratto da\", and summarises the plot in the present (\"trova\", \"gliela rubano\") without the ending. Technique is linked to meaning (\"i primi piani... ci costringono a guardare\"), the reservation uses \"pur con\", and the verdict ends with \"consigliato a chi\" + a subjunctive (\"debba\").",
+  explanation: "The review opens with a hook (\"C'è un momento... in cui\"), gives context with \"diretto da\" and \"tratto da\", and summarizes the plot in the present (\"trova\", \"gliela rubano\") without the ending. Technique is linked to meaning (\"i primi piani... ci costringono a guardare\"), the reservation uses \"pur con\", and the verdict ends with \"consigliato a chi\" + a subjunctive (\"debba\").",
 };

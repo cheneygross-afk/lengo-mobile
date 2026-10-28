@@ -13,7 +13,7 @@ type Props = NativeStackScreenProps<AppStackParamList, "ReadingLevels">;
 // card layout as SpanishLevelsScreen.
 export default function ReadingLevelsScreen(props: Props) {
   const lang = props.route.params?.lang;
-  return lang === "fr" || lang === "de" || lang === "pt" || lang === "ko" ? (
+  return lang === "fr" || lang === "de" || lang === "pt" || lang === "ko" || lang === "it" ? (
     <CourseStoryLevels {...props} course={lang} key={lang} />
   ) : (
     <SpanishReadingLevels {...props} />
@@ -51,8 +51,9 @@ function SpanishReadingLevels({ navigation }: Props) {
 // The French or German course's, the Portuguese course's or the Korean
 // beta's stories (lib/stories/courseStories.ts), level by level, as on the
 // website's /lessons/fr/stories, /lessons/de/stories, /lessons/pt/stories
-// and /lessons/ko/stories (Korean levels by name only: Beginner ...
-// Mastery; gated to the beta account in RootNavigator): graded
+// and /lessons/ko/stories, or the Italian beta's (/lessons/it/stories)
+// (Korean and Italian levels by name only: Beginner ... Mastery; gated to
+// the beta accounts in RootNavigator): graded
 // original stories with audio and glosses (no whole-text translation: tap
 // any word for its meaning). No book picks for these courses.
 function CourseStoryLevels({ navigation, course }: Props & { course: StoryCourse }) {
@@ -86,6 +87,8 @@ function CourseStoryLevels({ navigation, course }: Props & { course: StoryCourse
           ? "Original Brazilian Portuguese stories for every level, with audio and comprehension questions. Tap any word for its meaning."
           : course === "ko"
           ? "Original Korean stories for every level, from Beginner to Mastery, with audio and comprehension questions. Tap any word for its meaning."
+          : course === "it"
+          ? "Original Italian stories for every level, from Beginner to Mastery, with audio and comprehension questions. Tap any word for its meaning."
           : `Original ${config.name} stories for every level, with audio, an English translation and comprehension questions.`}
       </Text>
       <View style={styles.cards}>
@@ -102,6 +105,8 @@ function CourseStoryLevels({ navigation, course }: Props & { course: StoryCourse
                   ? { portugueseLevel: lvl.path }
                   : course === "ko"
                   ? { koreanLevel: lvl.path }
+                  : course === "it"
+                  ? { italianLevel: lvl.path }
                   : { germanLevel: lvl.path }
               )
             }

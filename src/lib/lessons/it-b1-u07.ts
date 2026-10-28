@@ -352,7 +352,7 @@ export const IT_B1_U07: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I hope the lesson [starts] on time.", sentence: "Spero che la lezione ___ in orario.", answer: "cominci", altAnswers: ["inizi"], explanation: "\"Cominciare\" → \"cominci\"." },
       { type: "dictation", audio: "Spero che vi divertiate e che dormiate un po'.", explanation: "\"Divertiate\", \"dormiate\"." },
       { type: "dictation", audio: "Penso che preferiscano il mare e che non amino la montagna.", explanation: "\"Preferiscano\", \"amino\"." },
-      { type: "speak", text: "Voglio che studiate, che puliate la camera e che spegniate il telefono.", prompt: "Say it in Italian (to two kids): I want you to study, clean your room and turn off your phone.", tip: "stu-DI-a-te: the i is a full vowel here.", explanation: "Three voi forms in \"-iate\"." },
+      { type: "speak", text: "Voglio che studiate, che puliate la camera e che spegniate il telefono.", prompt: "Say it in Italian (to two kids): I want you to study, clean your room and turn off your phone.", tip: "stu-DIA-te, pu-LIA-te, spe-GNA-te: stress on the a.", explanation: "Three voi forms in \"-iate\"." },
     ],
   },
   {

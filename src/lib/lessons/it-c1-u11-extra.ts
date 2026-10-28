@@ -56,7 +56,7 @@ export const IT_C1_U11_EXTRA: Lesson[] = [
           { left: "il cinno", right: "the child (Bologna)" },
           { left: "la piola", right: "the trattoria (Turin)" },
         ],
-        explanation: "Local words: recognise them, don't write them in a formal text.",
+        explanation: "Local words: recognize them, don't write them in a formal text.",
       },
       { type: "listen-choose", audio: "Sono dietro a fare le valigie, ti richiamo dopo.", question: "What is the speaker doing?", options: ["Packing, and will call back later", "Following someone with the suitcases", "Looking for the suitcases", "Waiting behind the suitcases"], correctIndex: 0, explanation: "Venetian \"sono dietro a fare\" = \"sto facendo\"." },
       { type: "dictation", audio: "Sto facendo le valigie, ti richiamo dopo.", explanation: "The standard version." },

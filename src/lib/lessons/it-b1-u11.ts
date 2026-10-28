@@ -1,0 +1,652 @@
+// Synced from cheneygross-afk/lengo:src/lib/lessons/it-b1-u11.ts by scripts/sync-content.mjs -- edit it there, not here.
+import type { Lesson, WriteExercise } from "./types";
+
+// Italian B1 Unit 11: The Subjunctive, Part 5: Conjunctions. Benché /
+// sebbene / nonostante, affinché / perché (so that), prima che vs prima di,
+// a meno che (non), purché / a condizione che, senza che vs senza, in modo
+// che; perché = because + indicative; dopo che + indicative.
+// Conventions: docs/italian-course/authoring.md.
+export const IT_B1_U11: Lesson[] = [
+  {
+    slug: "b1-although",
+    level: "IT-B1",
+    number: 1,
+    title: "Although: Benché, Sebbene, Nonostante",
+    summary: "Benché sia tardi, sebbene non abbia tempo, nonostante piova; anche se + indicative as the everyday alternative.",
+    duration: "17 min",
+    sections: [
+      {
+        heading: "Three ways to say although",
+        body: [
+          "\"Benché\", \"sebbene\" and \"nonostante\" all mean although, and all three take the subjunctive: \"Benché sia tardi, resto ancora un po'\" (Although it's late, I'll stay a bit longer). \"Sebbene\" is slightly more formal; \"nonostante\" is the most frequent in speech.",
+          "The clause can come first or second: \"Esco, nonostante piova\" / \"Nonostante piova, esco\".",
+        ],
+        examples: [
+          { es: "Benché sia tardi, resto ancora un po'.", en: "Although it's late, I'll stay a bit longer." },
+          { es: "Sebbene non abbia molto tempo, ti aiuto.", en: "Although I don't have much time, I'll help you." },
+          { es: "Nonostante piova, andiamo al mare.", en: "Although it's raining, we're going to the beach." },
+          { es: "Lavora ancora, benché abbia ottant'anni.", en: "He still works, although he's eighty." },
+          { es: "Nonostante sia ricco, vive in modo semplice.", en: "Although he's rich, he lives simply." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Although it's raining, we're going to the beach.", answer: "Nonostante piova, andiamo al mare.", altAnswers: ["Benché piova, andiamo al mare.", "Sebbene piova, andiamo al mare.", "Anche se piove, andiamo al mare."], explanation: "\"Nonostante\" + subjunctive." },
+          { type: "multiple-choice", question: "\"Benché ___ stanca, continua a lavorare.\"", options: ["sia", "è", "essere", "era"], correctIndex: 0, explanation: "\"Benché\" + subjunctive." },
+        ],
+      },
+      {
+        heading: "Anche se: the everyday choice",
+        body: [
+          "In everyday speech, Italians often say \"anche se\" (even though) with the indicative: \"Anche se è tardi, resto ancora un po'\". Same meaning, simpler grammar. Never mix them: \"anche se sia\" is wrong.",
+          "\"Nonostante\" can also be a preposition before a noun: \"Nonostante la pioggia, siamo usciti\" (Despite the rain, we went out).",
+        ],
+        examples: [
+          { es: "Anche se è tardi, resto ancora un po'.", en: "Even though it's late, I'll stay a bit longer." },
+          { es: "Anche se non parla italiano, capisce tutto.", en: "Even though she doesn't speak Italian, she understands everything." },
+          { es: "Nonostante la pioggia, siamo usciti.", en: "Despite the rain, we went out." },
+          { es: "Nonostante il traffico, siamo arrivati in tempo.", en: "Despite the traffic, we arrived on time." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Despite the rain, we went out.", answer: "Nonostante la pioggia, siamo usciti.", altAnswers: ["Nonostante la pioggia siamo usciti.", "Nonostante la pioggia, siamo uscite."], explanation: "\"Nonostante\" + noun." },
+          { type: "listen-choose", audio: "Anche se non parla italiano, capisce tutto.", question: "What do we learn about her?", options: ["She understands everything.", "She speaks Italian well.", "She understands nothing.", "She's learning Italian."], correctIndex: 0, explanation: "\"Anche se\" + indicative." },
+        ],
+      },
+      {
+        heading: "Comunque, eppure, lo stesso",
+        body: [
+          "You can also express contrast with a second sentence and no subjunctive at all: \"È tardi. Resto comunque\" (I'm staying anyway), \"Ha studiato tanto, eppure non ha passato l'esame\" (and yet), \"Piove, ma usciamo lo stesso\" (all the same).",
+        ],
+        examples: [
+          { es: "È tardi, ma resto comunque.", en: "It's late, but I'm staying anyway." },
+          { es: "Ha studiato tanto, eppure non ha passato l'esame.", en: "He studied hard, and yet he didn't pass the exam." },
+          { es: "Piove, ma usciamo lo stesso.", en: "It's raining, but we're going out all the same." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's raining, but we're going out all the same.", answer: "Piove, ma usciamo lo stesso.", altAnswers: ["Piove, ma usciamo comunque."], explanation: "\"Lo stesso\" = all the same." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He studied hard, [and yet] he didn't pass.", sentence: "Ha studiato tanto, ___ non ha passato l'esame.", answer: "eppure", explanation: "\"Eppure\" = and yet." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Although it's late, I'll stay a bit longer.", answer: "Benché sia tardi, resto ancora un po'.", altAnswers: ["Nonostante sia tardi, resto ancora un po'.", "Sebbene sia tardi, resto ancora un po'.", "Anche se è tardi, resto ancora un po'."], explanation: "\"Benché sia\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Although I don't have much time, I'll help you. (to a friend)", answer: "Sebbene non abbia molto tempo, ti aiuto.", altAnswers: ["Benché non abbia molto tempo, ti aiuto.", "Nonostante non abbia molto tempo, ti aiuto.", "Anche se non ho molto tempo, ti aiuto."], explanation: "\"Abbia\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He still works, although he's eighty.", answer: "Lavora ancora, benché abbia ottant'anni.", altAnswers: ["Lavora ancora, nonostante abbia ottant'anni.", "Lavora ancora, sebbene abbia ottant'anni.", "Lavora ancora, anche se ha ottant'anni."], explanation: "\"Abbia\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Although he's rich, he lives simply.", answer: "Nonostante sia ricco, vive in modo semplice.", altAnswers: ["Benché sia ricco, vive in modo semplice.", "Sebbene sia ricco, vive in modo semplice.", "Anche se è ricco, vive in modo semplice."], explanation: "\"Sia\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Despite the traffic, we arrived on time.", answer: "Nonostante il traffico, siamo arrivati in tempo.", altAnswers: ["Nonostante il traffico, siamo arrivati in orario.", "Nonostante il traffico, siamo arrivate in tempo."], explanation: "\"Nonostante\" + noun." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Even though she doesn't speak Italian, she understands everything.", answer: "Anche se non parla italiano, capisce tutto.", explanation: "\"Anche se\" + indicative." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Although the hotel is expensive, it's worth it.", answer: "Benché l'albergo sia caro, vale la pena.", altAnswers: ["Nonostante l'albergo sia caro, vale la pena.", "Sebbene l'albergo sia caro, vale la pena.", "Anche se l'albergo è caro, vale la pena.", "Benché l'hotel sia caro, vale la pena."], explanation: "\"Sia\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Although they [live] nearby, they never visit.", sentence: "Benché ___ vicino, non vengono mai a trovarci.", answer: "abitino", altAnswers: ["vivano"], explanation: "\"Abitino\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Even though it [is] cold, the kids want ice cream.", sentence: "Anche se ___ freddo, i bambini vogliono il gelato.", answer: "fa", explanation: "\"Anche se\" + indicative." },
+      { type: "multiple-choice", question: "Which is wrong?", options: ["Anche se sia tardi, resto.", "Anche se è tardi, resto.", "Benché sia tardi, resto.", "Nonostante sia tardi, resto."], correctIndex: 0, explanation: "\"Anche se\" takes the indicative." },
+      { type: "dictation", audio: "Nonostante sia stanca, Giulia va in palestra tutti i giorni.", explanation: "\"Nonostante sia\"." },
+      { type: "speak", text: "Benché sia tardi, resto ancora un po', anche se domani lavoro.", prompt: "Say it in Italian: Although it's late, I'll stay a bit longer, even though I'm working tomorrow.", tip: "ben-CHÉ: stress on the last syllable.", explanation: "\"Benché\" + subjunctive, \"anche se\" + indicative." },
+    ],
+  },
+  {
+    slug: "b1-so-that",
+    level: "IT-B1",
+    number: 2,
+    title: "So That: Affinché, Perché",
+    summary: "Te lo dico perché tu lo sappia, parlo piano affinché tutti capiscano; perché + indicative = because.",
+    duration: "17 min",
+    sections: [
+      {
+        heading: "Purpose: affinché, perché, in modo che",
+        body: [
+          "To say so that, Italian uses \"affinché\" (formal), \"perché\" or \"in modo che\", all + subjunctive: \"Parlo piano affinché tutti capiscano\", \"Te lo dico perché tu lo sappia\" (I'm telling you so that you know), \"Lascio la luce accesa in modo che tu veda le scale\".",
+          "The subjunctive is used because the result isn't a fact yet: it's the aim.",
+        ],
+        examples: [
+          { es: "Parlo piano affinché tutti capiscano.", en: "I speak slowly so that everyone understands." },
+          { es: "Te lo dico perché tu lo sappia.", en: "I'm telling you so that you know." },
+          { es: "Lascio la luce accesa in modo che tu veda le scale.", en: "I'll leave the light on so you can see the stairs." },
+          { es: "Ti do il mio numero perché tu possa chiamarmi.", en: "I'll give you my number so you can call me." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I speak slowly so that everyone understands.", answer: "Parlo piano affinché tutti capiscano.", altAnswers: ["Parlo piano perché tutti capiscano.", "Parlo lentamente affinché tutti capiscano.", "Parlo piano in modo che tutti capiscano."], explanation: "Purpose: subjunctive." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'll give you my number so you [can] call me.", sentence: "Ti do il mio numero perché tu ___ chiamarmi.", answer: "possa", explanation: "\"Possa\"." },
+        ],
+      },
+      {
+        heading: "Perché: because or so that?",
+        body: [
+          "\"Perché\" has two meanings. With the indicative it means because (a fact, a cause): \"Esco perché fa bel tempo\". With the subjunctive it means so that (an aim): \"Apro la finestra perché entri un po' d'aria\".",
+          "Same subject? Use \"per\" + infinitive for purpose: \"Studio per passare l'esame\", not \"perché io passi\".",
+        ],
+        examples: [
+          { es: "Esco perché fa bel tempo.", en: "I'm going out because it's nice weather." },
+          { es: "Apro la finestra perché entri un po' d'aria.", en: "I'll open the window to let some air in." },
+          { es: "Studio per passare l'esame.", en: "I'm studying to pass the exam." },
+          { es: "Ti chiamo perché ho bisogno di aiuto.", en: "I'm calling you because I need help." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm studying to pass the exam.", answer: "Studio per passare l'esame.", altAnswers: ["Studio per superare l'esame."], explanation: "Same subject: \"per\" + infinitive." },
+          { type: "listen-choose", audio: "Apro la finestra perché entri un po' d'aria.", question: "What does \"perché\" mean here?", options: ["so that", "because", "although", "unless"], correctIndex: 0, explanation: "\"Entri\" is subjunctive: purpose." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm telling you so that you know. (to a friend)", answer: "Te lo dico perché tu lo sappia.", altAnswers: ["Te lo dico affinché tu lo sappia.", "Te lo dico in modo che tu lo sappia."], explanation: "\"Sappia\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll leave the light on so you can see the stairs. (to a friend)", answer: "Lascio la luce accesa in modo che tu veda le scale.", altAnswers: ["Lascio la luce accesa perché tu veda le scale.", "Lascio la luce accesa affinché tu veda le scale.", "Lascio la luce accesa così vedi le scale."], explanation: "\"Veda\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm going out because it's nice weather.", answer: "Esco perché fa bel tempo.", explanation: "Cause: indicative." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm calling you because I need help. (to a friend)", answer: "Ti chiamo perché ho bisogno di aiuto.", explanation: "Cause." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll write it down so that you don't forget it. (to a friend)", answer: "Te lo scrivo perché tu non lo dimentichi.", altAnswers: ["Te lo scrivo affinché tu non lo dimentichi.", "Te lo scrivo così non lo dimentichi.", "Te lo scrivo in modo che tu non lo dimentichi."], explanation: "\"Dimentichi\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We're saving money to buy a house.", answer: "Risparmiamo per comprare una casa.", altAnswers: ["Mettiamo da parte i soldi per comprare una casa.", "Risparmiamo per comprare casa."], explanation: "Same subject: \"per\" + infinitive." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The teacher repeats so that the students remember.", answer: "L'insegnante ripete affinché gli studenti ricordino.", altAnswers: ["L'insegnante ripete perché gli studenti ricordino.", "L'insegnante ripete in modo che gli studenti ricordino.", "La professoressa ripete affinché gli studenti ricordino."], explanation: "\"Ricordino\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'm late because the bus [didn't come].", sentence: "Sono in ritardo perché l'autobus non ___.", answer: "è passato", altAnswers: ["è arrivato", "è venuto"], explanation: "Cause: indicative." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Speak louder so that grandpa [can hear] you.", sentence: "Parla più forte perché il nonno ti ___.", answer: "senta", explanation: "Purpose: \"senta\"." },
+      { type: "multiple-choice", question: "\"Ti presto la macchina perché tu ___ andare al mare.\"", options: ["possa", "puoi", "potere", "potrai"], correctIndex: 0, explanation: "Purpose: subjunctive." },
+      { type: "dictation", audio: "Parlo piano perché tutti capiscano, non perché sono stanco.", explanation: "Purpose + subjunctive, cause + indicative." },
+      { type: "speak", text: "Ti do il mio numero perché tu possa chiamarmi quando arrivi.", prompt: "Say it in Italian: I'll give you my number so you can call me when you arrive.", tip: "POS-sa: double s.", explanation: "\"Perché\" + \"possa\"." },
+    ],
+  },
+  {
+    slug: "b1-before-without",
+    level: "IT-B1",
+    number: 3,
+    title: "Before, Without: Prima Che, Senza Che",
+    summary: "Prima che tu parta / prima di partire, senza che nessuno lo sappia / senza dire niente.",
+    duration: "17 min",
+    sections: [
+      {
+        heading: "Prima che / prima di",
+        body: [
+          "\"Prima che\" + subjunctive is for a different subject: \"Chiamami prima che io parta\" (Call me before I leave). With the same subject, use \"prima di\" + infinitive: \"Chiamami prima di partire\" (Call me before you leave).",
+          "\"Dopo che\" is different: it introduces a fact, so it takes the indicative: \"Dopo che sei partito, ho pianto\".",
+        ],
+        examples: [
+          { es: "Chiamami prima che io parta.", en: "Call me before I leave." },
+          { es: "Chiamami prima di partire.", en: "Call me before you leave." },
+          { es: "Torniamo a casa prima che faccia buio.", en: "Let's go home before it gets dark." },
+          { es: "Lavati le mani prima di mangiare.", en: "Wash your hands before eating." },
+          { es: "Dopo che sei partito, la casa era vuota.", en: "After you left, the house was empty." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Let's go home before it gets dark.", answer: "Torniamo a casa prima che faccia buio.", altAnswers: ["Andiamo a casa prima che faccia buio."], explanation: "Different subject: \"prima che\" + subjunctive." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Wash your hands before eating. (to a child)", answer: "Lavati le mani prima di mangiare.", explanation: "Same subject: \"prima di\"." },
+        ],
+      },
+      {
+        heading: "Senza che / senza",
+        body: [
+          "\"Senza che\" + subjunctive: without someone else doing something. \"Esce sempre senza che i genitori lo sappiano\" (He always goes out without his parents knowing).",
+          "Same subject: \"senza\" + infinitive: \"È uscito senza dire niente\" (He left without saying anything).",
+        ],
+        examples: [
+          { es: "Esce sempre senza che i genitori lo sappiano.", en: "He always goes out without his parents knowing." },
+          { es: "È uscito senza dire niente.", en: "He left without saying anything." },
+          { es: "Prendo le tue cose senza chiedere? No!", en: "Do I take your things without asking? No!" },
+          { es: "Non posso partire senza che tu mi dia le chiavi.", en: "I can't leave without you giving me the keys." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He left without saying anything.", answer: "È uscito senza dire niente.", altAnswers: ["È uscito senza dire nulla.", "Se n'è andato senza dire niente.", "È andato via senza dire niente."], explanation: "Same subject: \"senza\" + infinitive." },
+          { type: "listen-choose", audio: "Esce sempre senza che i genitori lo sappiano.", question: "Who doesn't know?", options: ["His parents.", "He doesn't.", "His friends.", "Nobody."], correctIndex: 0, explanation: "\"Senza che i genitori lo sappiano\"." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Call me before I leave. (to a friend)", answer: "Chiamami prima che io parta.", explanation: "\"Che io parta\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Call me before you leave. (to a friend)", answer: "Chiamami prima di partire.", explanation: "Same subject." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He always goes out without his parents knowing.", answer: "Esce sempre senza che i genitori lo sappiano.", altAnswers: ["Esce sempre senza che i suoi genitori lo sappiano.", "Esce sempre senza che i suoi lo sappiano."], explanation: "\"Sappiano\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I can't leave without you giving me the keys. (to a friend)", answer: "Non posso partire senza che tu mi dia le chiavi.", altAnswers: ["Non posso andare via senza che tu mi dia le chiavi."], explanation: "\"Dia\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Let's eat before the guests arrive.", answer: "Mangiamo prima che arrivino gli ospiti.", altAnswers: ["Mangiamo prima che gli ospiti arrivino."], explanation: "\"Arrivino\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Think before speaking. (to a friend)", answer: "Pensa prima di parlare.", explanation: "Same subject." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "After you left, the house was empty. (to a man)", answer: "Dopo che sei partito, la casa era vuota.", altAnswers: ["Dopo che te ne sei andato, la casa era vuota."], explanation: "\"Dopo che\" + indicative." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "We went in [without paying].", sentence: "Siamo entrati ___.", answer: "senza pagare", explanation: "Same subject." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Finish your homework before Dad [comes back].", sentence: "Finisci i compiti prima che ___ papà.", answer: "torni", explanation: "\"Torni\"." },
+      { type: "multiple-choice", question: "Which needs the indicative?", options: ["dopo che", "prima che", "senza che", "affinché"], correctIndex: 0, explanation: "\"Dopo che\" introduces a fact." },
+      { type: "dictation", audio: "Torniamo a casa prima che faccia buio e prima che inizi a piovere.", explanation: "\"Faccia\", \"inizi\"." },
+      { type: "speak", text: "Chiamami prima di partire, e non andare via senza che io ti saluti!", prompt: "Say it in Italian: Call me before you leave, and don't go away without me saying goodbye!", tip: "sa-LU-ti.", explanation: "\"Prima di\" + infinitive, \"senza che io\" + subjunctive." },
+    ],
+  },
+  {
+    slug: "b1-unless-provided",
+    level: "IT-B1",
+    number: 4,
+    title: "Unless, Provided: A Meno Che, Purché",
+    summary: "A meno che non piova, purché tu mi aiuti, a condizione che.",
+    duration: "17 min",
+    sections: [
+      {
+        heading: "A meno che (non): unless",
+        body: [
+          "\"A meno che\" (unless) takes the subjunctive, and usually an extra \"non\" that doesn't make the sentence negative: \"Andiamo al mare, a meno che non piova\" (We'll go to the beach unless it rains). The \"non\" is optional but very common; it adds no meaning.",
+          "So \"a meno che non piova\" = \"a meno che piova\" = unless it rains, not unless it doesn't rain.",
+        ],
+        examples: [
+          { es: "Andiamo al mare, a meno che non piova.", en: "We'll go to the beach unless it rains." },
+          { es: "Vengo alle otto, a meno che non ci sia traffico.", en: "I'll come at eight, unless there's traffic." },
+          { es: "Ceniamo fuori, a meno che tu non sia stanca.", en: "Let's eat out, unless you're tired." },
+          { es: "Non lo compro, a meno che non costi meno.", en: "I won't buy it unless it costs less." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We'll go to the beach unless it rains.", answer: "Andiamo al mare, a meno che non piova.", altAnswers: ["Andiamo al mare a meno che non piova.", "Andiamo al mare, a meno che piova."], explanation: "\"A meno che (non)\" + subjunctive." },
+          { type: "multiple-choice", question: "\"Vengo, a meno che non ___ troppo tardi.\"", options: ["sia", "è", "essere", "sarà"], correctIndex: 0, explanation: "Subjunctive." },
+        ],
+      },
+      {
+        heading: "Purché, a condizione che: provided that",
+        body: [
+          "\"Purché\" and \"a condizione che\" (provided that, as long as) set a condition, with the subjunctive: \"Ti presto la macchina, purché tu me la riporti stasera\". \"A condizione che\" sounds more official: contracts, rules, negotiations.",
+          "In everyday speech, \"basta che\" (as long as) is also common: \"Va bene, basta che tu mi chiami\".",
+        ],
+        examples: [
+          { es: "Ti presto la macchina, purché tu me la riporti stasera.", en: "I'll lend you the car, as long as you bring it back tonight." },
+          { es: "Puoi uscire a condizione che tu torni entro mezzanotte.", en: "You can go out on condition that you're back by midnight." },
+          { es: "Va bene, basta che tu mi chiami.", en: "OK, as long as you call me." },
+          { es: "Accetto, purché il prezzo sia giusto.", en: "I accept, provided the price is fair." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I accept, provided the price is fair.", answer: "Accetto, purché il prezzo sia giusto.", altAnswers: ["Accetto, a condizione che il prezzo sia giusto.", "Accetto purché il prezzo sia giusto."], explanation: "\"Purché\" + subjunctive." },
+          { type: "listen-choose", audio: "Puoi uscire a condizione che tu torni entro mezzanotte.", question: "What's the condition?", options: ["Be home by midnight.", "Go out after midnight.", "Call at midnight.", "Don't go out."], correctIndex: 0, explanation: "\"Entro mezzanotte\" = by midnight." },
+        ],
+      },
+      {
+        heading: "Se or purché?",
+        body: [
+          "A plain \"se\" (if) takes the indicative: \"Se piove, restiamo a casa\". \"Purché\" and \"a meno che\" are stronger: they set the only condition, or the only exception, and they need the subjunctive.",
+          "Compare: \"Vengo se ho tempo\" (I'll come if I have time) / \"Vengo, purché finisca presto\" (I'll come, as long as it finishes early).",
+        ],
+        examples: [
+          { es: "Se piove, restiamo a casa.", en: "If it rains, we'll stay at home." },
+          { es: "Vengo se ho tempo.", en: "I'll come if I have time." },
+          { es: "Vengo, purché finisca presto.", en: "I'll come, as long as it finishes early." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If it rains, we'll stay at home.", answer: "Se piove, restiamo a casa.", altAnswers: ["Se piove, rimaniamo a casa.", "Se piove, stiamo a casa."], explanation: "\"Se\" + indicative." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll come, as long as it finishes early.", answer: "Vengo, purché finisca presto.", altAnswers: ["Vengo, basta che finisca presto.", "Vengo, a condizione che finisca presto."], explanation: "\"Purché\" + subjunctive." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll come at eight, unless there's traffic.", answer: "Vengo alle otto, a meno che non ci sia traffico.", altAnswers: ["Vengo alle otto a meno che non ci sia traffico.", "Vengo alle otto, a meno che ci sia traffico."], explanation: "\"Ci sia\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Let's eat out, unless you're tired. (to a woman)", answer: "Ceniamo fuori, a meno che tu non sia stanca.", altAnswers: ["Mangiamo fuori, a meno che tu non sia stanca.", "Ceniamo fuori, a meno che non sia stanca."], explanation: "\"Tu non sia\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I won't buy it unless it costs less.", answer: "Non lo compro, a meno che non costi meno.", altAnswers: ["Non lo compro a meno che non costi meno."], explanation: "\"Costi\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll lend you the car, as long as you bring it back tonight.", answer: "Ti presto la macchina, purché tu me la riporti stasera.", altAnswers: ["Ti presto la macchina, a condizione che tu me la riporti stasera.", "Ti presto la macchina, basta che tu me la riporti stasera."], explanation: "\"Riporti\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "OK, as long as you call me.", answer: "Va bene, basta che tu mi chiami.", altAnswers: ["Va bene, purché tu mi chiami.", "Va bene, basta che mi chiami."], explanation: "\"Basta che\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You can have a dog on condition that you look after it.", answer: "Puoi avere un cane a condizione che te ne occupi tu.", altAnswers: ["Puoi avere un cane purché te ne occupi tu.", "Puoi avere un cane a condizione che tu te ne occupi."], explanation: "\"Occuparsi di\" → \"te ne occupi\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "We'll leave at nine, unless Marco [is] late.", sentence: "Partiamo alle nove, a meno che Marco non ___ in ritardo.", answer: "sia", explanation: "\"Sia\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'll help you, provided you [do] your part. (to a friend)", sentence: "Ti aiuto, purché tu ___ la tua parte.", answer: "faccia", explanation: "\"Faccia\"." },
+      { type: "multiple-choice", question: "What does \"a meno che non venga\" mean?", options: ["unless he comes", "unless he doesn't come", "because he comes", "although he comes"], correctIndex: 0, explanation: "The \"non\" adds no negative meaning." },
+      { type: "matching", instructions: "Match each conjunction to its meaning.", pairs: [{ left: "a meno che", right: "unless" }, { left: "purché", right: "provided that" }, { left: "basta che", right: "as long as" }, { left: "a condizione che", right: "on condition that" }], explanation: "All + subjunctive." },
+      { type: "dictation", audio: "Andiamo in montagna, a meno che non nevichi troppo.", explanation: "\"Nevichi\"." },
+      { type: "speak", text: "Ti presto la macchina, purché tu me la riporti stasera, a meno che non sia un problema.", prompt: "Say it in Italian: I'll lend you the car, as long as you bring it back tonight, unless that's a problem.", tip: "pur-CHÉ: stress on the last syllable.", explanation: "\"Purché\", \"a meno che non\"." },
+    ],
+  },
+  {
+    slug: "b1-drill-conjunctions",
+    level: "IT-B1",
+    number: 5,
+    title: "Drill: Subjunctive Conjunctions",
+    summary: "Join pairs of sentences at speed with benché, affinché, prima che, senza che, a meno che and purché.",
+    duration: "22 min",
+    kind: "drill",
+    sections: [
+      {
+        heading: "Join the ideas",
+        body: [
+          "All of these take the subjunctive: \"benché / sebbene / nonostante\" (although), \"affinché / perché / in modo che\" (so that), \"prima che\" (before), \"senza che\" (without), \"a meno che (non)\" (unless), \"purché / a condizione che\" (provided).",
+        ],
+        examples: [
+          { es: "Benché sia domenica, il negozio è aperto.", en: "Although it's Sunday, the shop is open." },
+          { es: "Te lo spiego affinché tu capisca.", en: "I'll explain it so that you understand." },
+          { es: "Usciamo prima che chiudano.", en: "Let's go before they close." },
+          { es: "Vengo, purché ci sia anche Anna.", en: "I'll come, provided Anna's there too." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Although it's Sunday, the shop is open.", answer: "Benché sia domenica, il negozio è aperto.", altAnswers: ["Nonostante sia domenica, il negozio è aperto.", "Sebbene sia domenica, il negozio è aperto.", "Anche se è domenica, il negozio è aperto."], explanation: "\"Sia\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll come, provided Anna's there too.", answer: "Vengo, purché ci sia anche Anna.", altAnswers: ["Vengo, a condizione che ci sia anche Anna.", "Vengo, basta che ci sia anche Anna."], explanation: "\"Ci sia\"." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll explain it so that you understand. (to a friend)", answer: "Te lo spiego affinché tu capisca.", altAnswers: ["Te lo spiego perché tu capisca.", "Te lo spiego in modo che tu capisca."], explanation: "\"Capisca\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Let's go before they close.", answer: "Usciamo prima che chiudano.", altAnswers: ["Andiamo prima che chiudano.", "Andiamo via prima che chiudano."], explanation: "\"Chiudano\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Although they're tired, they keep dancing.", answer: "Nonostante siano stanchi, continuano a ballare.", altAnswers: ["Benché siano stanchi, continuano a ballare.", "Sebbene siano stanchi, continuano a ballare.", "Anche se sono stanchi, continuano a ballare."], explanation: "\"Siano\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She always leaves without anyone noticing.", answer: "Va sempre via senza che nessuno se ne accorga.", altAnswers: ["Se ne va sempre senza che nessuno se ne accorga."], explanation: "\"Accorgersi\" → \"se ne accorga\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We'll play outside unless it's too cold.", answer: "Giochiamo fuori, a meno che non faccia troppo freddo.", altAnswers: ["Giochiamo fuori a meno che non faccia troppo freddo.", "Giochiamo fuori, a meno che faccia troppo freddo."], explanation: "\"Faccia\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll cook, provided you wash the dishes. (to a friend)", answer: "Cucino io, purché tu lavi i piatti.", altAnswers: ["Cucino io, a condizione che tu lavi i piatti.", "Cucino io, basta che tu lavi i piatti.", "Cucino, purché tu lavi i piatti."], explanation: "\"Lavi\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm writing down the address so they don't get lost.", answer: "Scrivo l'indirizzo perché non si perdano.", altAnswers: ["Scrivo l'indirizzo affinché non si perdano.", "Scrivo l'indirizzo in modo che non si perdano."], explanation: "\"Si perdano\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Although Anna studies a lot, she's worried.", answer: "Benché Anna studi molto, è preoccupata.", altAnswers: ["Nonostante Anna studi molto, è preoccupata.", "Sebbene Anna studi molto, è preoccupata.", "Anche se Anna studia molto, è preoccupata."], explanation: "\"Studi\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Let's hide the present before the kids [see] it.", sentence: "Nascondiamo il regalo prima che i bambini lo ___.", answer: "vedano", explanation: "\"Vedano\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He takes the car without his father [knowing].", sentence: "Prende la macchina senza che suo padre lo ___.", answer: "sappia", explanation: "\"Sappia\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'll accept the job on condition that they [pay] me well.", sentence: "Accetto il lavoro a condizione che mi ___ bene.", answer: "paghino", explanation: "\"Paghino\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'm sending you the photos so you [can] see them.", sentence: "Ti mando le foto perché tu le ___ vedere.", answer: "possa", explanation: "\"Possa\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Although it [is] expensive, I'll buy it.", sentence: "Sebbene ___ caro, lo compro.", answer: "sia", explanation: "\"Sia\"." },
+      { type: "multiple-choice", question: "\"Usciamo, a meno che tu non ___ restare a casa.\" (preferire)", options: ["preferisca", "preferisci", "preferire", "preferisce"], correctIndex: 0, explanation: "\"A meno che\" + subjunctive." },
+      { type: "dictation", audio: "Benché sia tardi, ti aiuto, purché tu mi offra un caffè.", explanation: "\"Sia\", \"offra\"." },
+      { type: "dictation", audio: "Nascondiamo il regalo prima che arrivi la nonna.", explanation: "\"Arrivi\"." },
+      { type: "speak", text: "Ti accompagno, a meno che tu non preferisca andare da sola, benché sia tardi.", prompt: "Say it in Italian (to a woman): I'll go with you, unless you'd rather go alone, although it's late.", tip: "pre-fe-RI-sca.", explanation: "Three conjunctions, three subjunctives." },
+    ],
+  },
+  {
+    slug: "b1-contrast-prima-che-prima-di",
+    level: "IT-B1",
+    number: 6,
+    title: "Contrast Clinic: Prima Che or Prima Di?",
+    summary: "Same subject = di + infinitive; different subject = che + subjunctive; same for senza.",
+    duration: "17 min",
+    sections: [
+      {
+        heading: "Who does the second action?",
+        body: [
+          "\"Prima di\" + infinitive when the same person does both actions: \"Mi lavo i denti prima di dormire\" (I brush, I sleep). \"Prima che\" + subjunctive when it's someone else: \"Leggo una storia ai bambini prima che dormano\" (I read, they sleep).",
+          "\"Prima che io parta\" is wrong if \"io\" is also the main subject: \"Ti chiamo prima di partire\", not \"prima che io parta\".",
+        ],
+        examples: [
+          { es: "Mi lavo i denti prima di dormire.", en: "I brush my teeth before sleeping." },
+          { es: "Leggo una storia ai bambini prima che dormano.", en: "I read the kids a story before they sleep." },
+          { es: "Ti chiamo prima di partire.", en: "I'll call you before I leave." },
+          { es: "Chiamami prima che io parta.", en: "Call me before I leave." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll call you before I leave.", answer: "Ti chiamo prima di partire.", altAnswers: ["Ti telefono prima di partire."], explanation: "Same subject: \"prima di\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I read the kids a story before they sleep.", answer: "Leggo una storia ai bambini prima che dormano.", altAnswers: ["Leggo una favola ai bambini prima che dormano."], explanation: "Different subject." },
+        ],
+      },
+      {
+        heading: "Senza / senza che",
+        body: [
+          "The same logic for without: \"Esco senza fare rumore\" (I go out, I make no noise) vs \"Esco senza che nessuno mi senta\" (I go out, nobody hears me).",
+        ],
+        examples: [
+          { es: "Esco senza fare rumore.", en: "I go out without making a noise." },
+          { es: "Esco senza che nessuno mi senta.", en: "I go out without anyone hearing me." },
+          { es: "Ha deciso senza chiedere a nessuno.", en: "She decided without asking anyone." },
+          { es: "Decide sempre senza che noi possiamo dire niente.", en: "She always decides without us being able to say anything." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I go out without anyone hearing me.", answer: "Esco senza che nessuno mi senta.", explanation: "Different subject." },
+          { type: "listen-choose", audio: "Ha deciso senza chiedere a nessuno.", question: "Who decided?", options: ["She did, without asking.", "Everyone together.", "Nobody.", "Someone asked her."], correctIndex: 0, explanation: "Same subject: \"senza chiedere\"." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I brush my teeth before sleeping.", answer: "Mi lavo i denti prima di dormire.", altAnswers: ["Mi lavo i denti prima di andare a dormire."], explanation: "Same subject." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Call me before I leave. (to a friend)", answer: "Chiamami prima che io parta.", explanation: "Different subjects." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I go out without making a noise.", answer: "Esco senza fare rumore.", explanation: "Same subject." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She decided without asking anyone.", answer: "Ha deciso senza chiedere a nessuno.", explanation: "Same subject." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Let's tidy up before Mum comes home.", answer: "Mettiamo in ordine prima che torni la mamma.", altAnswers: ["Mettiamo in ordine prima che la mamma torni.", "Mettiamo a posto prima che torni la mamma.", "Riordiniamo prima che torni la mamma."], explanation: "Different subject." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Let's tidy up before going out.", answer: "Mettiamo in ordine prima di uscire.", altAnswers: ["Mettiamo a posto prima di uscire.", "Riordiniamo prima di uscire."], explanation: "Same subject." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Don't leave without saying goodbye! (to a friend)", answer: "Non andare via senza salutare!", altAnswers: ["Non partire senza salutare!", "Non andartene senza salutare!"], explanation: "Same subject." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'll finish [before you arrive]. (to a friend)", sentence: "Finisco ___.", answer: "prima che tu arrivi", explanation: "Different subject." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'll finish [before I leave].", sentence: "Finisco ___.", answer: "prima di partire", altAnswers: ["prima di andare via", "prima di uscire"], explanation: "Same subject." },
+      { type: "multiple-choice", question: "Which is right for: I'll eat before I go out?", options: ["Mangio prima di uscire.", "Mangio prima che io esca.", "Mangio prima che esco.", "Mangio prima uscire."], correctIndex: 0, explanation: "Same subject: \"prima di\"." },
+      { type: "dictation", audio: "Prima di uscire, spengo la luce, prima che mia madre se ne accorga.", explanation: "\"Prima di\" vs \"prima che\"." },
+      { type: "speak", text: "Ti chiamo prima di partire, ma tu chiamami prima che io salga sul treno.", prompt: "Say it in Italian: I'll call you before I leave, but you call me before I get on the train.", tip: "SAL-ga.", explanation: "\"Prima di\" + infinitive, \"prima che io\" + subjunctive." },
+    ],
+  },
+  {
+    slug: "b1-drill-perche-two-meanings",
+    level: "IT-B1",
+    number: 7,
+    title: "Drill: Perché: Because or So That?",
+    summary: "Produce both meanings of perché: because + indicative, so that + subjunctive.",
+    duration: "22 min",
+    kind: "drill",
+    sections: [
+      {
+        heading: "Cause or aim?",
+        body: [
+          "Cause (because, a fact): \"perché\" + indicative. Aim (so that, not yet real): \"perché\" + subjunctive. Same subject aim: \"per\" + infinitive. A question with \"perché\" (why?) takes the indicative.",
+        ],
+        examples: [
+          { es: "Resto a casa perché sono malato.", en: "I'm staying home because I'm ill." },
+          { es: "Resto a casa perché tu possa uscire.", en: "I'm staying home so that you can go out." },
+          { es: "Resto a casa per riposare.", en: "I'm staying home to rest." },
+          { es: "Perché resti a casa?", en: "Why are you staying home?" },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm staying home because I'm ill.", answer: "Resto a casa perché sono malato.", altAnswers: ["Resto a casa perché sono malata.", "Sto a casa perché sono malato.", "Sto a casa perché sono malata."], explanation: "Cause." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm staying home so that you can go out. (to a friend)", answer: "Resto a casa perché tu possa uscire.", altAnswers: ["Resto a casa affinché tu possa uscire.", "Sto a casa perché tu possa uscire.", "Resto a casa così puoi uscire."], explanation: "Aim." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm staying home to rest.", answer: "Resto a casa per riposare.", altAnswers: ["Resto a casa per riposarmi.", "Sto a casa per riposare."], explanation: "Same subject: \"per\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Why are you staying home? (to a friend)", answer: "Perché resti a casa?", altAnswers: ["Perché stai a casa?"], explanation: "Question: indicative." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm taking the car because it's raining.", answer: "Prendo la macchina perché piove.", explanation: "Cause." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm leaving you the car so that you don't get wet. (to a friend)", answer: "Ti lascio la macchina perché tu non ti bagni.", altAnswers: ["Ti lascio la macchina affinché tu non ti bagni.", "Ti lascio la macchina così non ti bagni."], explanation: "Aim." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She's happy because she's found a job.", answer: "È contenta perché ha trovato lavoro.", altAnswers: ["È contenta perché ha trovato un lavoro.", "È felice perché ha trovato lavoro."], explanation: "Cause." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm repeating it so that everyone remembers.", answer: "Lo ripeto perché tutti se lo ricordino.", altAnswers: ["Lo ripeto affinché tutti se lo ricordino.", "Lo ripeto perché tutti lo ricordino."], explanation: "Aim." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We're whispering because the baby is sleeping.", answer: "Parliamo piano perché il bambino dorme.", altAnswers: ["Parliamo sottovoce perché il bambino dorme.", "Parliamo piano perché la bambina dorme."], explanation: "Cause." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We're whispering so that the baby sleeps.", answer: "Parliamo piano perché il bambino dorma.", altAnswers: ["Parliamo sottovoce perché il bambino dorma.", "Parliamo piano affinché il bambino dorma."], explanation: "Aim." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'm calling because I [have] some news.", sentence: "Ti chiamo perché ___ una notizia.", answer: "ho", explanation: "Cause." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'm calling so that you [know] the news.", sentence: "Ti chiamo perché tu ___ la notizia.", answer: "sappia", explanation: "Aim." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'm going to the market [to buy] fruit.", sentence: "Vado al mercato ___ la frutta.", answer: "per comprare", altAnswers: ["a comprare"], explanation: "Same subject." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He's angry because we [are] late.", sentence: "È arrabbiato perché ___ in ritardo.", answer: "siamo", explanation: "Cause." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'll lend you this book so you [learn] something.", sentence: "Ti presto questo libro perché tu ___ qualcosa.", answer: "impari", explanation: "Aim." },
+      { type: "multiple-choice", question: "In \"Te lo dico perché tu lo sappia\", perché means:", options: ["so that", "because", "why", "although"], correctIndex: 0, explanation: "\"Sappia\" is subjunctive: aim." },
+      { type: "dictation", audio: "Parliamo piano perché il bambino dorme, e perché continui a dormire.", explanation: "Cause, then aim." },
+      { type: "dictation", audio: "Perché non vieni? Ti mando l'indirizzo perché tu lo trovi subito.", explanation: "Question, then aim." },
+      { type: "speak", text: "Resto a casa perché sono stanco, e perché tu possa uscire con i tuoi amici.", prompt: "Say it in Italian: I'm staying home because I'm tired, and so that you can go out with your friends.", tip: "Same word, two meanings: listen to the verb.", explanation: "Indicative, then subjunctive." },
+    ],
+  },
+  {
+    slug: "b1-error-hunt-conjunctions",
+    level: "IT-B1",
+    number: 8,
+    title: "Error Hunt: Conjunctions",
+    summary: "Fix conjunction mistakes: benché è tardi, prima che io parta (same subject), a meno che piove, anche se sia.",
+    duration: "17 min",
+    sections: [
+      {
+        heading: "Hannah's message",
+        body: [
+          "Hannah is texting her Italian friend about a weekend trip. \"Benché è tardi, ti scrivo\": \"benché\" needs the subjunctive: \"Benché sia tardi\". \"Ti chiamo prima che io parta\": she is the subject of both, so \"prima di partire\".",
+          "\"Vengo, a meno che piove\": \"a meno che\" needs the subjunctive: \"a meno che non piova\". \"Anche se sia stanca, vengo\": \"anche se\" takes the indicative: \"Anche se sono stanca\".",
+        ],
+        examples: [
+          { es: "Benché sia tardi, ti scrivo.", en: "Although it's late, I'm writing to you. (not: benché è)" },
+          { es: "Ti chiamo prima di partire.", en: "I'll call you before I leave. (not: prima che io parta)" },
+          { es: "Vengo, a meno che non piova.", en: "I'll come, unless it rains. (not: a meno che piove)" },
+          { es: "Anche se sono stanca, vengo.", en: "Even though I'm tired, I'm coming. (not: anche se sia)" },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Hannah wrote \"Benché è tardi, ti scrivo\". Write it correctly: Although it's late, I'm writing to you.", source: "Although it's late, I'm writing to you.", answer: "Benché sia tardi, ti scrivo.", altAnswers: ["Nonostante sia tardi, ti scrivo.", "Sebbene sia tardi, ti scrivo.", "Anche se è tardi, ti scrivo."], explanation: "\"Benché sia\"." },
+          { type: "translate", direction: "en-es", prompt: "Hannah wrote \"Ti chiamo prima che io parta\". Write it correctly: I'll call you before I leave.", source: "I'll call you before I leave.", answer: "Ti chiamo prima di partire.", explanation: "Same subject." },
+        ],
+      },
+      {
+        heading: "Two more slips",
+        body: [
+          "\"Dopo che\" never takes the subjunctive: \"Dopo che è partito, ho pianto\", not \"dopo che sia partito\". And when \"perché\" means so that, Hannah needs the subjunctive: \"Te lo dico perché tu lo sappia\". \"Perché lo sai\" would mean because you know.",
+        ],
+        examples: [
+          { es: "Dopo che è partito, ho pianto.", en: "After he left, I cried. (not: dopo che sia partito)" },
+          { es: "Te lo dico perché tu lo sappia.", en: "I'm telling you so that you know. (not: perché lo sai)" },
+          { es: "Usciamo senza che i ragazzi ci sentano.", en: "We'll go out without the boys hearing us. (not: ci sentono)" },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Hannah wrote \"Te lo dico perché lo sai\" (meaning so that you know). Write it correctly: I'm telling you so that you know.", source: "I'm telling you so that you know.", answer: "Te lo dico perché tu lo sappia.", altAnswers: ["Te lo dico affinché tu lo sappia.", "Te lo dico in modo che tu lo sappia."], explanation: "Aim: subjunctive." },
+          { type: "multiple-choice", question: "Which is correct?", options: ["Dopo che sei arrivato, siamo usciti.", "Dopo che tu sia arrivato, siamo usciti.", "Dopo di arrivato, siamo usciti.", "Dopo che arrivato, siamo usciti."], correctIndex: 0, explanation: "\"Dopo che\" + indicative." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Hannah wrote \"Vengo, a meno che piove\". Write it correctly: I'll come, unless it rains.", source: "I'll come, unless it rains.", answer: "Vengo, a meno che non piova.", altAnswers: ["Vengo, a meno che piova.", "Vengo a meno che non piova."], explanation: "Subjunctive." },
+      { type: "translate", direction: "en-es", prompt: "Hannah wrote \"Anche se sia stanca, vengo\". Write it correctly: Even though I'm tired, I'm coming.", source: "Even though I'm tired, I'm coming.", answer: "Anche se sono stanca, vengo.", altAnswers: ["Anche se sono stanco, vengo.", "Benché sia stanca, vengo.", "Nonostante sia stanca, vengo."], explanation: "\"Anche se\" + indicative." },
+      { type: "translate", direction: "en-es", prompt: "Hannah wrote \"Usciamo senza che i ragazzi ci sentono\". Write it correctly: We'll go out without the boys hearing us.", source: "We'll go out without the boys hearing us.", answer: "Usciamo senza che i ragazzi ci sentano.", explanation: "\"Sentano\"." },
+      { type: "translate", direction: "en-es", prompt: "Hannah wrote \"Porto la torta, purché tu porti il vino\" correctly! Translate it: I'll bring the cake, provided you bring the wine.", source: "I'll bring the cake, provided you bring the wine.", answer: "Porto la torta, purché tu porti il vino.", altAnswers: ["Porto io la torta, purché tu porti il vino.", "Porto la torta, a condizione che tu porti il vino."], explanation: "Already right: \"porti\" is subjunctive." },
+      { type: "translate", direction: "en-es", prompt: "Hannah wrote \"Sebbene non ho la macchina, vengo\". Write it correctly: Although I don't have a car, I'm coming.", source: "Although I don't have a car, I'm coming.", answer: "Sebbene non abbia la macchina, vengo.", altAnswers: ["Benché non abbia la macchina, vengo.", "Nonostante non abbia la macchina, vengo.", "Anche se non ho la macchina, vengo."], explanation: "\"Abbia\"." },
+      { type: "translate", direction: "en-es", prompt: "Hannah wrote \"Mangio prima che io esca\". Write it correctly: I'll eat before I go out.", source: "I'll eat before I go out.", answer: "Mangio prima di uscire.", explanation: "Same subject." },
+      { type: "fill-blank", prompt: "Hannah wrote \"prima che arrivano\". Write the Italian for the bold words.", en: "Let's get the house ready before the guests [arrive].", sentence: "Prepariamo la casa prima che gli ospiti ___.", answer: "arrivino", explanation: "\"Arrivino\"." },
+      { type: "fill-blank", prompt: "Hannah wrote \"senza che dire\". Write the Italian for the bold words.", en: "He left [without saying] goodbye.", sentence: "È andato via ___ ciao.", answer: "senza dire", explanation: "Same subject: \"senza\" + infinitive." },
+      { type: "word-order", prompt: "Put the words in order to say: I'll come unless it rains.", words: ["Vengo", "a", "meno", "che", "non", "piova."], translation: "I'll come unless it rains.", explanation: "\"A meno che non\"." },
+      { type: "multi-select", question: "Which are correct? Choose all that apply.", options: ["Benché sia tardi.", "Benché è tardi.", "Anche se è tardi.", "Anche se sia tardi.", "Prima di partire.", "A meno che non piova."], correctIndexes: [0, 2, 4, 5], explanation: "Check each conjunction's mood." },
+      { type: "dictation", audio: "Benché sia tardi, ti chiamo prima di partire.", explanation: "\"Benché sia\", \"prima di\"." },
+      { type: "speak", text: "Anche se sono stanca, vengo, a meno che non piova.", prompt: "Say Hannah's corrected message: Even though I'm tired, I'm coming, unless it rains.", tip: "a ME-no che non PIO-va.", explanation: "Indicative after \"anche se\", subjunctive after \"a meno che\"." },
+    ],
+  },
+  {
+    slug: "b1-dialogue-lab-negotiation",
+    level: "IT-B1",
+    number: 9,
+    title: "Dialogue Lab: Negotiating with a Flatmate",
+    summary: "Va bene, purché tu pulisca la cucina; a meno che tu non preferisca ...",
+    duration: "17 min",
+    sections: [
+      {
+        heading: "The bigger room",
+        body: [
+          "Marta and Ivan share a flat in Bologna. Ivan wants the bigger room. Ivan: \"Senti, posso prendere la camera grande? Pago io cinquanta euro in più.\" Marta: \"Va bene, purché tu pulisca la cucina ogni settimana.\" Ivan: \"Ogni settimana? A meno che tu non voglia farlo a turno...\"",
+          "Marta: \"No no, la cucina la pulisci tu, a condizione che io porti giù la spazzatura.\" Ivan: \"Affare fatto!\"",
+        ],
+        examples: [
+          { es: "Pago io cinquanta euro in più.", en: "I'll pay fifty euros more." },
+          { es: "Va bene, purché tu pulisca la cucina ogni settimana.", en: "OK, as long as you clean the kitchen every week." },
+          { es: "A meno che tu non voglia farlo a turno.", en: "Unless you want to take turns." },
+          { es: "Affare fatto!", en: "Deal!" },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "OK, as long as you clean the kitchen every week. (to a friend)", answer: "Va bene, purché tu pulisca la cucina ogni settimana.", altAnswers: ["Va bene, a condizione che tu pulisca la cucina ogni settimana.", "Va bene, basta che tu pulisca la cucina ogni settimana."], explanation: "\"Pulisca\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Unless you want to take turns. (to a friend)", answer: "A meno che tu non voglia farlo a turno.", altAnswers: ["A meno che tu non voglia fare a turno.", "A meno che non voglia farlo a turno."], explanation: "\"Voglia\"." },
+        ],
+      },
+      {
+        heading: "Guests",
+        body: [
+          "Ivan: \"E se viene la mia ragazza nel weekend?\" Marta: \"Nessun problema, benché il bagno sia uno solo. Basta che mi avvisi prima, in modo che io non giri per casa in pigiama!\" Ivan: \"Giusto. Te lo dico sempre il venerdì, prima che arrivi.\"",
+        ],
+        examples: [
+          { es: "Nessun problema, benché il bagno sia uno solo.", en: "No problem, even though there's only one bathroom." },
+          { es: "Basta che mi avvisi prima.", en: "Just let me know beforehand." },
+          { es: "In modo che io non giri per casa in pigiama.", en: "So that I'm not wandering round the flat in my pyjamas." },
+          { es: "Te lo dico sempre il venerdì, prima che arrivi.", en: "I'll always tell you on Friday, before she arrives." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Just let me know beforehand. (to a friend)", answer: "Basta che mi avvisi prima.", altAnswers: ["Basta che tu mi avvisi prima."], explanation: "\"Avvisi\"." },
+          { type: "listen-choose", audio: "Nessun problema, benché il bagno sia uno solo.", question: "What's the small issue?", options: ["There's only one bathroom.", "The bathroom is broken.", "There are two bathrooms.", "The bathroom is small."], correctIndex: 0, explanation: "\"Uno solo\" = only one." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll pay fifty euros more.", answer: "Pago io cinquanta euro in più.", altAnswers: ["Pago cinquanta euro in più."], explanation: "\"In più\" = extra." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "No problem, even though there's only one bathroom.", answer: "Nessun problema, benché il bagno sia uno solo.", altAnswers: ["Nessun problema, anche se il bagno è uno solo.", "Nessun problema, benché ci sia un solo bagno."], explanation: "\"Sia\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll always tell you on Friday, before she arrives.", answer: "Te lo dico sempre il venerdì, prima che arrivi.", altAnswers: ["Te lo dico sempre il venerdì, prima che lei arrivi."], explanation: "\"Arrivi\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You clean the kitchen, provided I take the rubbish down. (to a friend)", answer: "La cucina la pulisci tu, a condizione che io porti giù la spazzatura.", altAnswers: ["Pulisci tu la cucina, a condizione che io porti giù la spazzatura.", "La cucina la pulisci tu, purché io porti giù la spazzatura."], explanation: "\"Che io porti\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Deal!", answer: "Affare fatto!", altAnswers: ["Affare fatto."], explanation: "Fixed phrase." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Can I have the big room?", answer: "Posso prendere la camera grande?", altAnswers: ["Posso avere la camera grande?", "Posso prendere la stanza grande?"], explanation: "\"Prendere\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "So that I [don't wander] round the flat in my pyjamas.", sentence: "In modo che io non ___ per casa in pigiama.", answer: "giri", explanation: "\"Girare\" → \"giri\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "You can have parties, as long as you [don't make] noise after midnight.", sentence: "Puoi fare feste, purché non ___ rumore dopo mezzanotte.", answer: "faccia", altAnswers: ["tu faccia"], explanation: "\"Faccia\"." },
+      { type: "word-order", prompt: "Put the words in order to say: Just let me know beforehand.", words: ["Basta", "che", "mi", "avvisi", "prima."], translation: "Just let me know beforehand.", explanation: "\"Basta che\" + subjunctive." },
+      { type: "matching", instructions: "Match each phrase to its role in the negotiation.", pairs: [{ left: "purché tu pulisca", right: "a condition" }, { left: "a meno che tu non voglia", right: "an alternative" }, { left: "benché il bagno sia uno solo", right: "a concession" }, { left: "affare fatto", right: "agreement" }], explanation: "The language of deals." },
+      { type: "dictation", audio: "Va bene, purché tu pulisca la cucina ogni settimana.", explanation: "\"Pulisca\"." },
+      { type: "speak", text: "Va bene, prendi tu la camera grande, purché tu pulisca la cucina e mi avvisi quando arrivano ospiti.", prompt: "Answer Ivan as Marta: OK, you take the big room, as long as you clean the kitchen and let me know when guests are coming.", tip: "pu-LI-sca.", explanation: "\"Purché\" + two subjunctives; \"quando arrivano\" is indicative." },
+    ],
+  },
+  {
+    slug: "b1-mission-conditions-email",
+    level: "IT-B1",
+    number: 10,
+    title: "Real-World Mission: Terms and Conditions",
+    summary: "Write an email agreeing to a plan with conditions: accetto, purché..., a meno che..., prima che...",
+    duration: "17 min",
+    kind: "review",
+    sections: [
+      {
+        heading: "The offer",
+        body: [
+          "Your mission: a small company in Verona offers you a three-month freelance translation project. You want to accept, but with conditions. Write a polite email using the formal \"Lei\". Useful frames: \"Accetto volentieri, a condizione che...\", \"purché...\", \"a meno che non...\", \"prima che...\", \"affinché...\".",
+        ],
+        examples: [
+          { es: "Accetto volentieri la Sua proposta.", en: "I'm happy to accept your offer." },
+          { es: "A condizione che il pagamento avvenga entro trenta giorni.", en: "On condition that payment is made within thirty days." },
+          { es: "Posso lavorare da remoto, a meno che non sia necessario venire in ufficio.", en: "I can work remotely, unless it's necessary to come to the office." },
+          { es: "Le chiedo di mandarmi i testi prima che inizi il progetto.", en: "I'd ask you to send me the texts before the project starts." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "On condition that payment is made within thirty days.", answer: "A condizione che il pagamento avvenga entro trenta giorni.", altAnswers: ["Purché il pagamento avvenga entro trenta giorni.", "A condizione che il pagamento sia fatto entro trenta giorni."], explanation: "\"Avvenire\" → \"avvenga\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm happy to accept your offer. (formal)", answer: "Accetto volentieri la Sua proposta.", altAnswers: ["Accetto volentieri la sua proposta.", "Accetto con piacere la Sua proposta.", "Accetto con piacere la sua proposta."], explanation: "\"Volentieri\" = gladly." },
+        ],
+      },
+      {
+        heading: "Closing politely",
+        body: [
+          "Close with: \"Le scrivo questi dettagli affinché tutto sia chiaro fin dall'inizio\" (I'm writing these details so that everything is clear from the start), \"Resto a disposizione\" (I remain available) and \"Cordiali saluti\".",
+        ],
+        examples: [
+          { es: "Le scrivo questi dettagli affinché tutto sia chiaro fin dall'inizio.", en: "I'm writing these details so that everything is clear from the start." },
+          { es: "Resto a disposizione per qualsiasi domanda.", en: "I remain available for any questions." },
+          { es: "Cordiali saluti.", en: "Kind regards." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I remain available for any questions.", answer: "Resto a disposizione per qualsiasi domanda.", altAnswers: ["Resto a disposizione per qualunque domanda.", "Rimango a disposizione per qualsiasi domanda."], explanation: "Fixed formal phrase." },
+          { type: "listen-choose", audio: "Le scrivo questi dettagli affinché tutto sia chiaro fin dall'inizio.", question: "Why is the writer giving details?", options: ["So everything is clear from the start.", "Because the company asked.", "Because there was a problem.", "To refuse the offer."], correctIndex: 0, explanation: "\"Affinché\" = so that." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I can work remotely, unless it's necessary to come to the office.", answer: "Posso lavorare da remoto, a meno che non sia necessario venire in ufficio.", altAnswers: ["Posso lavorare da casa, a meno che non sia necessario venire in ufficio.", "Posso lavorare da remoto, a meno che sia necessario venire in ufficio."], explanation: "\"Sia\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'd ask you to send me the texts before the project starts. (formal)", answer: "Le chiedo di mandarmi i testi prima che inizi il progetto.", altAnswers: ["Le chiedo di inviarmi i testi prima che inizi il progetto.", "Le chiedo di mandarmi i testi prima che il progetto inizi."], explanation: "\"Inizi\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm writing these details so that everything is clear from the start. (formal)", answer: "Le scrivo questi dettagli affinché tutto sia chiaro fin dall'inizio.", altAnswers: ["Le scrivo questi dettagli perché tutto sia chiaro fin dall'inizio."], explanation: "\"Sia\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I can start on Monday, provided I receive the contract.", answer: "Posso cominciare lunedì, purché riceva il contratto.", altAnswers: ["Posso iniziare lunedì, purché riceva il contratto.", "Posso cominciare lunedì, a condizione che io riceva il contratto."], explanation: "\"Riceva\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Although the deadline is tight, I accept.", answer: "Benché la scadenza sia stretta, accetto.", altAnswers: ["Nonostante la scadenza sia stretta, accetto.", "Sebbene la scadenza sia stretta, accetto.", "Anche se la scadenza è stretta, accetto."], explanation: "\"Sia\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Kind regards. (formal email)", answer: "Cordiali saluti.", altAnswers: ["Distinti saluti."], explanation: "Formal sign-off." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'll send you an invoice every month, so that you [can] pay regularly. (formal)", sentence: "Le mando una fattura ogni mese, in modo che ___ pagare regolarmente.", answer: "possa", explanation: "\"Possa\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I accept, on condition that the texts [are] in English.", sentence: "Accetto, a condizione che i testi ___ in inglese.", answer: "siano", explanation: "\"Siano\"." },
+      { type: "word-order", prompt: "Put the words in order to say: I'm happy to accept your offer.", words: ["Accetto", "volentieri", "la", "Sua", "proposta."], translation: "I'm happy to accept your offer.", explanation: "Formal \"Sua\"." },
+      { type: "multiple-choice", question: "Which conjunction sets a condition?", options: ["a condizione che", "benché", "affinché", "prima che"], correctIndex: 0, explanation: "\"A condizione che\" = on condition that." },
+      { type: "dictation", audio: "Accetto, a condizione che il pagamento avvenga entro trenta giorni.", explanation: "\"Avvenga\"." },
+      { type: "speak", text: "Gentile dottoressa Rossi, accetto volentieri la Sua proposta, purché il pagamento avvenga entro trenta giorni.", prompt: "Read the opening of your email aloud.", tip: "av-VEN-ga.", explanation: "Formal \"Sua\", \"purché\" + subjunctive." },
+    ],
+  },
+  {
+    slug: "b1-spiral-subjunctive-present",
+    level: "IT-B1",
+    number: 11,
+    title: "Spiral Review: The Present Subjunctive",
+    summary: "Mixed practice of Units 7-11: forms, opinions, wishes, impersonal phrases and conjunctions.",
+    duration: "17 min",
+    kind: "review",
+    sections: [
+      {
+        heading: "Everything about the present subjunctive",
+        body: [
+          "Forms: -are verbs → \"-i\", -ere / -ire verbs → \"-a\", irregulars from the \"io\" present (\"vada, faccia, venga\") plus \"sia, abbia, stia, dia, sappia\". Triggers: opinion, wish, feeling, doubt, impersonal evaluation, and the conjunctions \"benché, affinché, prima che, senza che, a meno che, purché\". Same subject: infinitive. Facts: indicative.",
+        ],
+        examples: [
+          { es: "Penso che abbia ragione, benché sia giovane.", en: "I think he's right, although he's young." },
+          { es: "È meglio che tu venga prima che chiudano.", en: "You'd better come before they close." },
+          { es: "So che è difficile, ma spero di farcela.", en: "I know it's hard, but I hope to make it." },
+          { es: "Te lo dico perché tu non ti preoccupi.", en: "I'm telling you so you don't worry." },
+        ],
+        checkpoint: [
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You'd better come before they close. (to a friend)", answer: "È meglio che tu venga prima che chiudano.", altAnswers: ["È meglio che venga prima che chiudano."], explanation: "Two subjunctives." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I know it's hard, but I hope to make it.", answer: "So che è difficile, ma spero di farcela.", explanation: "Fact; same subject." },
+        ],
+      },
+    ],
+    exercises: [
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I think he's right, although he's young.", answer: "Penso che abbia ragione, benché sia giovane.", altAnswers: ["Credo che abbia ragione, benché sia giovane.", "Penso che abbia ragione, anche se è giovane.", "Penso che abbia ragione, nonostante sia giovane."], explanation: "Opinion + concession." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm telling you so you don't worry. (to a friend)", answer: "Te lo dico perché tu non ti preoccupi.", altAnswers: ["Te lo dico affinché tu non ti preoccupi.", "Te lo dico così non ti preoccupi."], explanation: "Aim." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I want you to be happy. (to a friend)", answer: "Voglio che tu sia felice.", explanation: "Wish." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's possible they don't come.", answer: "È possibile che non vengano.", altAnswers: ["Può darsi che non vengano."], explanation: "Evaluation." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm sorry you have to go. (to a friend)", answer: "Mi dispiace che tu debba andare.", altAnswers: ["Mi dispiace che tu debba andartene.", "Mi dispiace che tu debba andare via."], explanation: "Feeling." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In my opinion the city is beautiful.", answer: "Secondo me la città è bella.", altAnswers: ["Per me la città è bella."], explanation: "\"Secondo me\" + indicative." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We'll go to the lake, unless it's cold.", answer: "Andiamo al lago, a meno che non faccia freddo.", altAnswers: ["Andiamo al lago a meno che non faccia freddo.", "Andiamo al lago, a meno che faccia freddo."], explanation: "Conjunction." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I hope to see you before you leave. (to a friend)", answer: "Spero di vederti prima che tu parta.", altAnswers: ["Spero di vederti prima di partire."], explanation: "\"Spero di\" (same subject), \"prima che tu parta\" (different)." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I doubt they [know] the way.", sentence: "Dubito che ___ la strada.", answer: "sappiano", altAnswers: ["conoscano"], explanation: "Doubt." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It's true that he [is] tired.", sentence: "È vero che ___ stanco.", answer: "è", explanation: "Fact." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'll help you, provided you [do] the shopping. (plural)", sentence: "Vi aiuto, purché ___ la spesa.", answer: "facciate", explanation: "Condition." },
+      { type: "word-order", prompt: "Put the words in order to say: I think I'm right.", words: ["Credo", "di", "avere", "ragione."], translation: "I think I'm right.", explanation: "Same subject." },
+      { type: "multi-select", question: "Which take the subjunctive? Choose all that apply.", options: ["benché", "anche se", "prima che", "dopo che", "a meno che", "secondo me"], correctIndexes: [0, 2, 4], explanation: "\"Anche se\", \"dopo che\" and \"secondo me\" take the indicative." },
+      { type: "dictation", audio: "Spero che tu stia bene e che venga a trovarmi prima che finisca l'estate.", explanation: "\"Stia\", \"venga\", \"finisca\"." },
+      { type: "speak", text: "Penso che sia una buona idea, purché tutti siano d'accordo, anche se so che è difficile.", prompt: "Say it in Italian: I think it's a good idea, provided everyone agrees, even though I know it's difficult.", tip: "d'ac-COR-do.", explanation: "Opinion, condition, fact." },
+    ],
+  },
+];
+
+export const IT_B1_U11_WRITING: WriteExercise = {
+  type: "write",
+  prompt: "You're having a birthday party at home on Saturday. Write a note to your neighbours: apologise in advance, explain your plans and make some promises. Use at least four of: benché / nonostante, perché / affinché (so that), prima che / prima di, senza che, a meno che (non), purché / a condizione che.",
+  minWords: 60,
+  maxWords: 130,
+  rubric: [
+    "Uses the present subjunctive after benché, affinché / perché (so that), prima che, senza che, a meno che and purché",
+    "Uses prima di / senza + infinitive when the subject is the same, and anche se / dopo che / perché (because) + indicative",
+    "Uses polite, neighbourly language (gentili vicini, vi chiediamo scusa, grazie per la pazienza)",
+    "Organises the note clearly: occasion, plans, promises, contact",
+  ],
+  modelAnswer: "Gentili vicini, sabato sera festeggio il mio compleanno a casa, con una ventina di amici. Vi scrivo prima della festa perché lo sappiate in anticipo. Benché il nostro appartamento sia piccolo, cercheremo di non fare troppo rumore. La musica finirà a mezzanotte, a meno che non ci chiediate di spegnerla prima! Gli ospiti arriveranno dopo le otto, e chiederò a tutti di salire le scale senza gridare. Se avete bisogno di qualcosa, potete suonare in qualsiasi momento, purché non sia per lamentarvi della mia torta! Vi lascio il mio numero affinché possiate chiamarmi. Grazie per la pazienza. Sara (interno 5)",
+  explanation: "\"Perché lo sappiate\", \"affinché possiate\" (so that), \"benché sia\", \"a meno che non ci chiediate\" and \"purché non sia\" all need the subjunctive. \"Senza gridare\" uses the infinitive because the guests are the subject of both actions. \"Se avete bisogno\" is a real condition with \"se\", so it takes the indicative.",
+};

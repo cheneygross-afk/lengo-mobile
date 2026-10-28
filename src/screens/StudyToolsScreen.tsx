@@ -12,7 +12,7 @@ function toolLook(title: string): { icon: IconName; tint: Tint } {
   const t = title.toLowerCase();
   if (t.includes("grammar")) return { icon: "grammar", tint: "rose" };
   if (t.includes("conjugation")) return { icon: "conjugation", tint: "saffron" };
-  if (t.includes("exam") || t.includes("topik")) return { icon: "exam", tint: "sea" };
+  if (t.includes("exam") || t.includes("topik") || t.includes("cils")) return { icon: "exam", tint: "sea" };
   if (t.includes("writing")) return { icon: "writing", tint: "saffron" };
   if (t.includes("roots")) return { icon: "lessons", tint: "rose" };
   if (t.includes("glossary")) return { icon: "glossary", tint: "rose" };
@@ -169,8 +169,13 @@ export default function StudyToolsScreen({ navigation, route }: Props) {
           : lang === "ko"
             ? { name: "Korean", tools: KOREAN_TOOLS, placement: "KoreanPlacement" as const }
             : lang === "it"
-              ? // The Italian beta: only the tools whose data the app has (lib/italianTools.ts), and no placement test yet.
-                { name: "Italian", tools: ITALIAN_TOOLS, placement: null }
+              ? // The Italian beta: the tools whose data the app has (lib/italianTools.ts); its placement test,
+                // optional like every course's, sits apart under "Your level".
+                {
+                  name: "Italian",
+                  tools: ITALIAN_TOOLS.filter((t) => !t.placement),
+                  placement: ITALIAN_TOOLS.some((t) => t.placement) ? ("ItalianPlacement" as const) : null,
+                }
               : null;
   useLayoutEffect(() => {
     if (course) navigation.setOptions({ title: `${course.name} study tools` });
@@ -193,7 +198,13 @@ export default function StudyToolsScreen({ navigation, route }: Props) {
               icon="placement"
               tint="sea"
               title="Placement Test"
-              body={lang === "ko" ? "Find your level, from Hangul to Mastery. Retake anytime." : "Find your level, retake anytime."}
+              body={
+                lang === "ko"
+                  ? "Find your level, from Hangul to Mastery. Retake anytime."
+                  : lang === "it"
+                    ? (ITALIAN_TOOLS.find((t) => t.placement)?.body ?? "Find your level, retake anytime.")
+                    : "Find your level, retake anytime."
+              }
               onPress={() => {
                 if (course.placement) navigation.navigate(course.placement);
               }}

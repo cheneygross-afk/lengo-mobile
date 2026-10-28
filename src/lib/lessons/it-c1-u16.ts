@@ -52,7 +52,7 @@ export const IT_C1_U16: Lesson[] = [
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "For reasons of time, I'd move on to the next item.", answer: "Per motivi di tempo, passerei al punto successivo.", altAnswers: ["Per motivi di tempo passerei al punto successivo.", "Per ragioni di tempo, passerei al punto successivo.", "Per motivi di tempo, passerei al prossimo punto."], explanation: "The conditional \"passerei\" softens the chair's decision." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Sorry to interrupt, but the figures don't add up. (to a colleague, tu)", answer: "Scusa se ti interrompo, ma i numeri non tornano.", altAnswers: ["Scusa se ti interrompo, ma i conti non tornano.", "Scusami se ti interrompo, ma i numeri non tornano."], explanation: "\"I numeri / i conti non tornano\" = the figures don't add up." },
-          { type: "listen-choose", audio: "Aggiorniamo la riunione a giovedì alle dieci.", question: "What is the chair doing?", options: ["Adjourning the meeting to Thursday at 10", "Updating the agenda for Thursday", "Cancelling Thursday's meeting", "Starting the meeting at 10"], correctIndex: 0, explanation: "\"Aggiornare una riunione\" = to adjourn." },
+          { type: "listen-choose", audio: "Aggiorniamo la riunione a giovedì alle dieci.", question: "What is the chair doing?", options: ["Adjourning the meeting to Thursday at 10", "Updating the agenda for Thursday", "Canceling Thursday's meeting", "Starting the meeting at 10"], correctIndex: 0, explanation: "\"Aggiornare una riunione\" = to adjourn." },
         ],
       },
     ],
@@ -243,11 +243,11 @@ export const IT_C1_U16: Lesson[] = [
         heading: "Following up and chasing",
         body: [
           "A business email in Italian follows a fixed shape: greeting (\"Gentile dottoressa Ferri,\" or \"Buongiorno,\" between colleagues), reference to earlier contact, the request, a closing formula and the signature. The greeting ends with a comma and the text starts with a small letter.",
-          "To follow up: \"Faccio seguito alla mia email del 3 marzo\" (further to my email of 3 March), \"Con riferimento alla nostra conversazione telefonica di ieri\" (with reference to), \"Come anticipato\" (as mentioned). For attachments: \"In allegato trova il preventivo\" or \"Le invio in allegato il contratto\". \"Allegato\" is both the adjective and the noun: \"vedi allegato\".",
+          "To follow up: \"Faccio seguito alla mia email del 3 marzo\" (further to my email of March 3), \"Con riferimento alla nostra conversazione telefonica di ieri\" (with reference to), \"Come anticipato\" (as mentioned). For attachments: \"In allegato trova il preventivo\" or \"Le invio in allegato il contratto\". \"Allegato\" is both the adjective and the noun: \"vedi allegato\".",
           "A reminder is \"un sollecito\", and \"sollecitare\" means to chase: \"Le scrivo per sollecitare il pagamento della fattura n. 214\". Italian business writing stays polite even when firm: \"Le saremmo grati se potesse provvedere entro venerdì\" (we would be grateful if you could see to it by Friday). The conditional plus the imperfect subjunctive (\"se potesse\") is the standard pairing. Never use \"per favore\" twice; \"cortesemente\" is the office word: \"Mi conferma cortesemente la data?\"",
         ],
         examples: [
-          { es: "Faccio seguito alla mia email del 3 marzo.", en: "Further to my email of 3 March." },
+          { es: "Faccio seguito alla mia email del 3 marzo.", en: "Further to my email of March 3." },
           { es: "Con riferimento alla nostra telefonata di ieri, Le invio il contratto.", en: "With reference to our phone call yesterday, I'm sending you the contract." },
           { es: "In allegato trova il preventivo richiesto.", en: "Please find attached the quote you requested." },
           { es: "Le scrivo per sollecitare il pagamento della fattura n. 214.", en: "I'm writing to chase payment of invoice no. 214." },
@@ -255,7 +255,7 @@ export const IT_C1_U16: Lesson[] = [
           { es: "Mi conferma cortesemente la data?", en: "Could you kindly confirm the date?" },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Further to my email of 3 March.", answer: "Faccio seguito alla mia email del 3 marzo.", altAnswers: ["Faccio seguito alla mia mail del 3 marzo.", "Faccio seguito alla mia e-mail del 3 marzo.", "Facendo seguito alla mia email del 3 marzo."], explanation: "\"Fare seguito a\" = to follow up on." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Further to my email of March 3.", answer: "Faccio seguito alla mia email del 3 marzo.", altAnswers: ["Faccio seguito alla mia mail del 3 marzo.", "Faccio seguito alla mia e-mail del 3 marzo.", "Facendo seguito alla mia email del 3 marzo."], explanation: "\"Fare seguito a\" = to follow up on." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Please find attached] the quote you requested.", sentence: "___ il preventivo richiesto.", answer: "In allegato trova", altAnswers: ["In allegato troverà", "Le invio in allegato", "Allego"], explanation: "\"Allegato\" = attached / attachment." },
           { type: "multiple-choice", question: "\"Un sollecito\" is ...", options: ["a reminder chasing something overdue", "a request for a quote", "a thank-you note", "a job application"], correctIndex: 0, explanation: "\"Sollecitare\" = to chase, to urge." },
         ],
@@ -264,7 +264,7 @@ export const IT_C1_U16: Lesson[] = [
         heading: "Offers, quotes and closing",
         body: [
           "To make an offer: \"Siamo lieti di sottoporLe la nostra migliore offerta\" (we are pleased to submit our best offer), \"Il preventivo ha una validità di trenta giorni\", \"I prezzi si intendono IVA esclusa\" (prices are exclusive of VAT). \"Un preventivo\" is a quote or estimate; \"un'offerta\" is an offer; \"un ordine\" is an order.",
-          "Closings, from formal to friendly: \"Resto a disposizione per qualsiasi chiarimento\" (I remain available for any clarification), \"In attesa di un Suo cortese riscontro\" (awaiting your kind reply), \"Cordiali saluti\", \"Distinti saluti\" (most formal), \"Un caro saluto\", \"A presto\". In formal mail, \"Lei\" forms are often capitalised: \"Le invio\", \"un Suo riscontro\", \"sottoporLe\".",
+          "Closings, from formal to friendly: \"Resto a disposizione per qualsiasi chiarimento\" (I remain available for any clarification), \"In attesa di un Suo cortese riscontro\" (awaiting your kind reply), \"Cordiali saluti\", \"Distinti saluti\" (most formal), \"Un caro saluto\", \"A presto\". In formal mail, \"Lei\" forms are often capitalized: \"Le invio\", \"un Suo riscontro\", \"sottoporLe\".",
         ],
         examples: [
           { es: "Siamo lieti di sottoporLe la nostra migliore offerta.", en: "We are pleased to submit our best offer." },
@@ -303,7 +303,7 @@ export const IT_C1_U16: Lesson[] = [
       },
       { type: "multiple-choice", question: "Which closing is the most formal?", options: ["Distinti saluti", "A presto", "Un abbraccio", "Ciao ciao"], correctIndex: 0, explanation: "\"Distinti saluti\" is the most formal; \"Cordiali saluti\" is a little warmer." },
       { type: "dictation", audio: "Resto a disposizione per qualsiasi chiarimento.", explanation: "The standard closing line." },
-      { type: "speak", text: "Faccio seguito alla mia email del 3 marzo: in allegato trova il preventivo richiesto. Resto a disposizione per qualsiasi chiarimento.", prompt: "Dictate the email: Further to my email of 3 March, please find attached the quote you requested. I remain available for any clarification.", tip: "Read it as you would dictate it to a colleague: calm and even.", explanation: "Follow-up, attachment, closing." },
+      { type: "speak", text: "Faccio seguito alla mia email del 3 marzo: in allegato trova il preventivo richiesto. Resto a disposizione per qualsiasi chiarimento.", prompt: "Dictate the email: Further to my email of March 3, please find attached the quote you requested. I remain available for any clarification.", tip: "Read it as you would dictate it to a colleague: calm and even.", explanation: "Follow-up, attachment, closing." },
     ],
   },
   {
@@ -442,7 +442,7 @@ export const IT_C1_U16: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The board [has approved] a price increase.", sentence: "Il consiglio di amministrazione ___ un aumento dei prezzi.", answer: "ha deliberato", altAnswers: ["ha approvato", "ha deciso"], explanation: "\"Deliberare\" = to resolve formally." },
       { type: "word-order", prompt: "Put the words in order to say: Wool has seen price rises of over 15%.", words: ["La", "lana", "ha", "registrato", "rincari", "superiori", "al", "15%."], translation: "Wool has seen price rises of over 15%.", explanation: "\"Superiore a\" = higher than." },
       { type: "dictation", audio: "Il risultato è trainato dall'export.", explanation: "\"Trainato da\"." },
-      { type: "speak", text: "L'azienda chiude il terzo trimestre con ricavi in crescita del 6,2%, ma l'utile netto scende del 9%.", prompt: "Summarise the report: The company closes the third quarter with revenues up 6.2%, but net profit falls by 9%.", tip: "Say \"sei virgola due per cento\".", explanation: "One trend up, one down." },
+      { type: "speak", text: "L'azienda chiude il terzo trimestre con ricavi in crescita del 6,2%, ma l'utile netto scende del 9%.", prompt: "Summarize the report: The company closes the third quarter with revenues up 6.2%, but net profit falls by 9%.", tip: "Say \"sei virgola due per cento\".", explanation: "One trend up, one down." },
     ],
   },
   {
@@ -541,7 +541,7 @@ export const IT_C1_U16: Lesson[] = [
         heading: "False friends at work",
         body: [
           "7. \"Attualmente non sono d'accordo\" for 'actually'. \"Attualmente\" means currently. 'Actually' is \"in realtà\" or \"a dire il vero\". 8. \"Eventualmente firmeremo il contratto\" for 'eventually'. \"Eventualmente\" means if need be, possibly; 'eventually' is \"alla fine\" or \"prima o poi\".",
-          "9. \"Abbiamo assunto che il cliente fosse d'accordo\" for 'we assumed'. \"Assumere\" in business means to hire: \"Abbiamo assunto due ingegneri\". 'To assume' is \"supporre\" or \"dare per scontato\": \"Abbiamo dato per scontato che il cliente fosse d'accordo\". 10. \"Ho realizzato che il budget non basta\". \"Realizzare\" means to carry out, to make; 'to realise' is \"rendersi conto\": \"Mi sono reso conto che il budget non basta\".",
+          "9. \"Abbiamo assunto che il cliente fosse d'accordo\" for 'we assumed'. \"Assumere\" in business means to hire: \"Abbiamo assunto due ingegneri\". 'To assume' is \"supporre\" or \"dare per scontato\": \"Abbiamo dato per scontato che il cliente fosse d'accordo\". 10. \"Ho realizzato che il budget non basta\". \"Realizzare\" means to carry out, to make; 'to realize' is \"rendersi conto\": \"Mi sono reso conto che il budget non basta\".",
         ],
         examples: [
           { es: "In realtà non sono d'accordo.", en: "Actually, I don't agree." },
@@ -549,7 +549,7 @@ export const IT_C1_U16: Lesson[] = [
           { es: "Alla fine abbiamo firmato il contratto.", en: "Eventually we signed the contract." },
           { es: "Eventualmente possiamo spostare la riunione.", en: "If need be, we can move the meeting." },
           { es: "Abbiamo assunto due ingegneri.", en: "We've hired two engineers." },
-          { es: "Mi sono reso conto che il budget non basta.", en: "I realised the budget isn't enough." },
+          { es: "Mi sono reso conto che il budget non basta.", en: "I realized the budget isn't enough." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian (avoid \"attualmente\").", source: "Actually, I don't agree.", answer: "In realtà non sono d'accordo.", altAnswers: ["A dire il vero non sono d'accordo.", "In realtà, non sono d'accordo.", "Veramente non sono d'accordo."], explanation: "\"Attualmente\" = currently." },
@@ -560,11 +560,11 @@ export const IT_C1_U16: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Fix \"Facciamo un meeting\" and write: Shall we have a meeting on Thursday?", source: "Shall we have a meeting on Thursday?", answer: "Facciamo una riunione giovedì?", altAnswers: ["Ci riuniamo giovedì?", "Facciamo una riunione per giovedì?"], explanation: "\"Riunione\"." },
-      { type: "translate", direction: "en-es", prompt: "Fix \"Stiamo processando il Suo ordine\" and write: We are processing your order.", source: "We are processing your order.", answer: "Stiamo evadendo il Suo ordine.", altAnswers: ["Il Suo ordine è in fase di lavorazione.", "Stiamo evadendo il suo ordine.", "Stiamo gestendo il Suo ordine."], explanation: "\"Evadere un ordine\" = to fulfil an order." },
+      { type: "translate", direction: "en-es", prompt: "Fix \"Stiamo processando il Suo ordine\" and write: We are processing your order.", source: "We are processing your order.", answer: "Stiamo evadendo il Suo ordine.", altAnswers: ["Il Suo ordine è in fase di lavorazione.", "Stiamo evadendo il suo ordine.", "Stiamo gestendo il Suo ordine."], explanation: "\"Evadere un ordine\" = to fulfill an order." },
       { type: "translate", direction: "en-es", prompt: "Fix \"La deadline è venerdì\" and write: The deadline is Friday.", source: "The deadline is Friday.", answer: "La scadenza è venerdì.", altAnswers: ["Il termine è venerdì.", "La scadenza è fissata per venerdì."], explanation: "\"Scadenza\" or \"termine\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (avoid \"eventualmente\").", source: "Eventually we signed the contract.", answer: "Alla fine abbiamo firmato il contratto.", altAnswers: ["Alla fine firmammo il contratto.", "Infine abbiamo firmato il contratto."], explanation: "'Eventually' = \"alla fine\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We currently work with three suppliers.", answer: "Attualmente lavoriamo con tre fornitori.", altAnswers: ["Al momento lavoriamo con tre fornitori.", "Oggi lavoriamo con tre fornitori."], explanation: "Here \"attualmente\" is right: currently." },
-      { type: "translate", direction: "en-es", prompt: "Fix \"Ho realizzato che\" and write: I realised the budget isn't enough. (a man speaking)", source: "I realised the budget isn't enough.", answer: "Mi sono reso conto che il budget non basta.", altAnswers: ["Mi sono reso conto che il budget non è sufficiente.", "Mi sono accorto che il budget non basta.", "Mi sono reso conto che il budget non bastava."], explanation: "\"Rendersi conto\"." },
+      { type: "translate", direction: "en-es", prompt: "Fix \"Ho realizzato che\" and write: I realized the budget isn't enough. (a man speaking)", source: "I realized the budget isn't enough.", answer: "Mi sono reso conto che il budget non basta.", altAnswers: ["Mi sono reso conto che il budget non è sufficiente.", "Mi sono accorto che il budget non basta.", "Mi sono reso conto che il budget non bastava."], explanation: "\"Rendersi conto\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "We've [hired] two engineers.", sentence: "Abbiamo ___ due ingegneri.", answer: "assunto", explanation: "\"Assumere\" = to hire, its true meaning." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[If need be], we can move the meeting.", sentence: "___ possiamo spostare la riunione.", answer: "Eventualmente", altAnswers: ["Se necessario,", "All'occorrenza"], explanation: "Correct use of \"eventualmente\"." },
       { type: "word-order", prompt: "Put the words in order to say: I'll forward you the client's email.", words: ["Ti", "inoltro", "l'email", "del", "cliente."], translation: "I'll forward you the client's email.", explanation: "\"Inoltrare\"." },
@@ -576,7 +576,7 @@ export const IT_C1_U16: Lesson[] = [
           { left: "forwardare", right: "inoltrare" },
           { left: "applicare per", right: "candidarsi" },
           { left: "processare l'ordine", right: "evadere l'ordine" },
-          { left: "realizzare (to realise)", right: "rendersi conto" },
+          { left: "realizzare (to realize)", right: "rendersi conto" },
         ],
         explanation: "Calques and their Italian equivalents.",
       },
@@ -601,13 +601,13 @@ export const IT_C1_U16: Lesson[] = [
           "Useful formulas: \"Come concordato\" (as agreed), \"Alla luce delle esigenze emerse\" (in light of the needs that emerged), \"Proponiamo di\" + infinitive, \"L'intervento prevede\" (the project involves), \"L'investimento complessivo ammonta a\" (the total investment amounts to).",
         ],
         examples: [
-          { es: "A seguito del nostro incontro del 12 maggio, abbiamo preparato una proposta.", en: "Following our meeting on 12 May, we have prepared a proposal." },
+          { es: "A seguito del nostro incontro del 12 maggio, abbiamo preparato una proposta.", en: "Following our meeting on May 12, we have prepared a proposal." },
           { es: "Alla luce delle esigenze emerse, proponiamo di rinnovare il sito.", en: "In light of the needs that emerged, we propose to redesign the website." },
           { es: "L'intervento prevede tre fasi.", en: "The project involves three phases." },
           { es: "L'investimento complessivo ammonta a 24.000 euro.", en: "The total investment amounts to 24,000 euros." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Following our meeting on 12 May, we have prepared a proposal.", answer: "A seguito del nostro incontro del 12 maggio, abbiamo preparato una proposta.", altAnswers: ["In seguito al nostro incontro del 12 maggio, abbiamo preparato una proposta.", "A seguito del nostro incontro del 12 maggio abbiamo preparato una proposta."], explanation: "\"A seguito di\" = following." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Following our meeting on May 12, we have prepared a proposal.", answer: "A seguito del nostro incontro del 12 maggio, abbiamo preparato una proposta.", altAnswers: ["In seguito al nostro incontro del 12 maggio, abbiamo preparato una proposta.", "A seguito del nostro incontro del 12 maggio abbiamo preparato una proposta."], explanation: "\"A seguito di\" = following." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The total investment amounts to 24,000 euros.", answer: "L'investimento complessivo ammonta a 24.000 euro.", altAnswers: ["L'investimento totale ammonta a 24.000 euro.", "L'investimento complessivo è di 24.000 euro."], explanation: "\"Ammontare a\" = to amount to." },
         ],
       },
@@ -619,20 +619,20 @@ export const IT_C1_U16: Lesson[] = [
         ],
         examples: [
           { es: "Ciò Vi consentirà di ridurre i tempi di consegna del 20%.", en: "This will allow you to cut delivery times by 20%." },
-          { es: "La presente offerta è valida fino al 30 giugno.", en: "This offer is valid until 30 June." },
+          { es: "La presente offerta è valida fino al 30 giugno.", en: "This offer is valid until June 30." },
           { es: "Pagamento: 50% alla firma, saldo a fine lavori.", en: "Payment: 50% on signing, balance on completion." },
           { es: "Saremo lieti di illustrarVi la proposta in un incontro.", en: "We'd be happy to present the proposal to you at a meeting." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian (to a company).", source: "This will allow you to cut delivery times by 20%.", answer: "Ciò Vi consentirà di ridurre i tempi di consegna del 20%.", altAnswers: ["Ciò vi consentirà di ridurre i tempi di consegna del 20%.", "Questo Vi permetterà di ridurre i tempi di consegna del 20%.", "Ciò Vi permetterà di ridurre i tempi di consegna del 20%."], explanation: "\"Consentire di\" = to allow to." },
-          { type: "listen-choose", audio: "Pagamento: cinquanta per cento alla firma, saldo a fine lavori.", question: "When is the balance paid?", options: ["When the work is finished", "On signing", "In monthly instalments", "In advance"], correctIndex: 0, explanation: "\"Saldo a fine lavori\"." },
+          { type: "listen-choose", audio: "Pagamento: cinquanta per cento alla firma, saldo a fine lavori.", question: "When is the balance paid?", options: ["When the work is finished", "On signing", "In monthly installments", "In advance"], correctIndex: 0, explanation: "\"Saldo a fine lavori\"." },
         ],
       },
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "As agreed, we are sending you our proposal.", answer: "Come concordato, Vi inviamo la nostra proposta.", altAnswers: ["Come concordato, vi inviamo la nostra proposta.", "Come concordato, Le inviamo la nostra proposta.", "Come d'accordo, Vi inviamo la nostra proposta."], explanation: "\"Come concordato\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The project involves three phases.", answer: "L'intervento prevede tre fasi.", altAnswers: ["Il progetto prevede tre fasi.", "L'intervento si articola in tre fasi."], explanation: "\"Prevedere\" = to involve, provide for." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "This offer is valid until 30 June.", answer: "La presente offerta è valida fino al 30 giugno.", altAnswers: ["Questa offerta è valida fino al 30 giugno.", "La presente offerta ha validità fino al 30 giugno."], explanation: "\"La presente\" = this (document)." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "This offer is valid until June 30.", answer: "La presente offerta è valida fino al 30 giugno.", altAnswers: ["Questa offerta è valida fino al 30 giugno.", "La presente offerta ha validità fino al 30 giugno."], explanation: "\"La presente\" = this (document)." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We look forward to your reply.", answer: "Restiamo in attesa di un Vostro riscontro.", altAnswers: ["Restiamo in attesa di un vostro riscontro.", "Restiamo in attesa di una Vostra risposta.", "Attendiamo un Vostro riscontro."], explanation: "\"Riscontro\" = reply." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We propose to redesign the website.", answer: "Proponiamo di rinnovare il sito.", altAnswers: ["Proponiamo di rifare il sito.", "Proponiamo di rinnovare il sito web.", "Vi proponiamo di rinnovare il sito."], explanation: "\"Proporre di\" + infinitive." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[In light of the needs that emerged], we propose a new plan.", sentence: "___, proponiamo un nuovo piano.", answer: "Alla luce delle esigenze emerse", explanation: "Formal connector." },
@@ -696,7 +696,7 @@ export const IT_C1_U16: Lesson[] = [
     ],
     exercises: [
       { type: "listen-choose", audio: "Il magazzino di Torino sarà operativo dal quindici. Mancano solo i collaudi.", question: "What is still missing at the Turin warehouse?", options: ["The final tests", "The staff", "The trucks", "The permits from Bari"], correctIndex: 0, explanation: "\"I collaudi\" = acceptance tests." },
-      { type: "listen-choose", audio: "Ricapitolando: Nicola sposta parte dei carichi su Foggia, io chiedo l'autorizzazione.", question: "Who asks for the authorisation?", options: ["Sara, the chair", "Nicola", "Paolo", "The client"], correctIndex: 0, explanation: "\"Io chiedo\" = Sara herself." },
+      { type: "listen-choose", audio: "Ricapitolando: Nicola sposta parte dei carichi su Foggia, io chiedo l'autorizzazione.", question: "Who asks for the authorization?", options: ["Sara, the chair", "Nicola", "Paolo", "The client"], correctIndex: 0, explanation: "\"Io chiedo\" = Sara herself." },
       { type: "multiple-choice", question: "Why are deliveries in Puglia late?", options: ["Roadworks on the main road", "A strike", "Bad weather", "A computer failure"], correctIndex: 0, explanation: "\"Per colpa dei lavori sulla statale\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We'd need an extra driver until the end of the month.", answer: "Ci servirebbe un autista in più fino a fine mese.", altAnswers: ["Ci servirebbe un autista in più fino alla fine del mese.", "Avremmo bisogno di un autista in più fino a fine mese."], explanation: "Conditional \"servirebbe\" softens the request." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You're breaking up.", answer: "Ti si sente a scatti.", altAnswers: ["Ti sento a scatti.", "Si sente a scatti.", "Vi si sente a scatti."], explanation: "\"A scatti\" = jerkily." },

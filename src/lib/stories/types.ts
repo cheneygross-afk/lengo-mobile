@@ -15,14 +15,16 @@ export type Story = {
   // "FR-A1" ... "FR-C2" are the French course's (src/lib/stories/fr/):
   // French text, English everything else. "DE-..." likewise for German
   // (src/lib/stories/de/), "PT-..." for Brazilian Portuguese
-  // (src/lib/stories/pt/) and "KO-..." for Korean (src/lib/stories/ko/).
+  // (src/lib/stories/pt/), "KO-..." for Korean (src/lib/stories/ko/) and
+  // "IT-..." for Italian (src/lib/stories/it/).
   level:
     | "A1" | "A2" | "B1" | "B2" | "C1/C2"
     | "EN-A1" | "EN-A2" | "EN-B1" | "EN-B2" | "EN-C1/C2"
     | "FR-A1" | "FR-A2" | "FR-B1" | "FR-B2" | "FR-C1" | "FR-C2"
     | "DE-A1" | "DE-A2" | "DE-B1" | "DE-B2" | "DE-C1" | "DE-C2"
     | "PT-A1" | "PT-A2" | "PT-B1" | "PT-B2" | "PT-C1" | "PT-C2"
-    | "KO-A1" | "KO-A2" | "KO-B1" | "KO-B2" | "KO-C1" | "KO-C2";
+    | "KO-A1" | "KO-A2" | "KO-B1" | "KO-B2" | "KO-C1" | "KO-C2"
+    | "IT-A1" | "IT-A2" | "IT-B1" | "IT-B2" | "IT-C1" | "IT-C2";
   title: string;
   subtitle: string;
   // Short paragraphs of original Spanish narrative -- max ~3 pages.

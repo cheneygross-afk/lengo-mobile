@@ -329,13 +329,13 @@ export const IT_B1_U25: Lesson[] = [
       {
         heading: "Soft to firm",
         body: [
-          "Requests: \"Potrebbe ...?\", \"Le dispiacerebbe ...?\", \"Sarebbe possibile ...?\". Complaints: state the fact, the effect and what you want: \"Da una settimana il riscaldamento non funziona. Le chiedo di intervenire al più presto\". \"Vorrei che\" takes the imperfect subjunctive: \"Vorrei che abbassasse la musica\".",
+          "Requests: \"Potrebbe ...?\", \"Le dispiacerebbe ...?\", \"Sarebbe possibile ...?\". Complaints: state the fact, the effect and what you want: \"Da una settimana il riscaldamento non funziona. Le chiedo di intervenire al più presto\". For a firm but polite request, use \"La prego di\" + infinitive: \"La prego di abbassare la musica\".",
         ],
         examples: [
           { es: "Le dispiacerebbe abbassare la musica dopo le undici?", en: "Would you mind turning the music down after eleven?" },
           { es: "Da una settimana il riscaldamento non funziona.", en: "The heating hasn't worked for a week." },
           { es: "Le chiedo di intervenire al più presto.", en: "I ask you to deal with it as soon as possible." },
-          { es: "Vorrei che qualcuno controllasse la caldaia.", en: "I'd like someone to check the boiler." },
+          { es: "La prego di far controllare la caldaia.", en: "Please have the boiler checked." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Would you mind turning the music down? (formal)", answer: "Le dispiacerebbe abbassare la musica?", altAnswers: ["Le dispiace abbassare la musica?", "Potrebbe abbassare la musica?"], explanation: "\"Le dispiacerebbe\" + infinitive: the politest form." },
@@ -346,14 +346,14 @@ export const IT_B1_U25: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Could you send a plumber? (formal)", answer: "Potrebbe mandare un idraulico?", altAnswers: ["Mi potrebbe mandare un idraulico?", "Potrebbe mandarmi un idraulico?", "Potrebbe chiamare un idraulico?"], explanation: "\"L'idraulico\" = the plumber." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The lift has been broken for three days.", answer: "L'ascensore è rotto da tre giorni.", altAnswers: ["L'ascensore non funziona da tre giorni.", "Da tre giorni l'ascensore è rotto.", "Da tre giorni l'ascensore non funziona."], explanation: "Present + \"da\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'd like you to fix the window. (formal)", answer: "Vorrei che riparasse la finestra.", altAnswers: ["Vorrei che Lei riparasse la finestra.", "Vorrei che facesse riparare la finestra."], explanation: "\"Vorrei che\" + imperfect subjunctive." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Please have the window fixed. (formal)", answer: "La prego di far riparare la finestra.", altAnswers: ["Per favore, faccia riparare la finestra.", "Le chiedo di far riparare la finestra."], explanation: "\"Pregare di\" + \"far\" + infinitive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "There's a leak in the bathroom.", answer: "C'è una perdita in bagno.", altAnswers: ["C'è una perdita nel bagno.", "C'è una perdita d'acqua in bagno."], explanation: "\"Una perdita\" = a leak." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Please don't leave your bike on the stairs. (formal)", answer: "La prego di non lasciare la bici sulle scale.", altAnswers: ["Per favore, non lasci la bici sulle scale.", "La prego di non lasciare la bicicletta sulle scale.", "Per favore, non lasci la bicicletta sulle scale."], explanation: "\"Pregare qualcuno di\" + infinitive; Lei negative imperative \"non lasci\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Would it be possible to repaint the stairwell?", answer: "Sarebbe possibile ridipingere le scale?", altAnswers: ["Sarebbe possibile ritinteggiare le scale?", "Si potrebbero ridipingere le scale?"], explanation: "\"Sarebbe possibile\" + infinitive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The noise wakes me up every night.", answer: "Il rumore mi sveglia ogni notte.", altAnswers: ["Il rumore mi sveglia tutte le notti."], explanation: "\"Svegliare qualcuno\": \"mi sveglia\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I ask you to deal with it urgently. (formal)", answer: "Le chiedo di intervenire con urgenza.", altAnswers: ["Le chiedo di intervenire urgentemente.", "Le chiedo di intervenire al più presto."], explanation: "\"Chiedere a qualcuno di\" + infinitive." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[It's not the first time] this has happened.", sentence: "___ che succede.", answer: "Non è la prima volta", explanation: "\"Non è la prima volta che\" + present." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'd like the neighbours [to respect] the quiet hours.", sentence: "Vorrei che i vicini ___ le ore di silenzio.", answer: "rispettassero", explanation: "Imperfect subjunctive after \"vorrei che\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The neighbours [need to respect] the quiet hours.", sentence: "Bisogna che i vicini ___ le ore di silenzio.", answer: "rispettino", explanation: "Present subjunctive after \"bisogna che\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I've already reported] the problem twice.", sentence: "___ il problema due volte.", answer: "Ho già segnalato", altAnswers: ["Ho già comunicato"], explanation: "\"Segnalare\" = to report." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Could you] check the boiler? (formal)", sentence: "___ controllare la caldaia?", answer: "Potrebbe", altAnswers: ["Può", "Lei potrebbe"], explanation: "Conditional for politeness." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[The window doesn't close] properly.", sentence: "___ bene.", answer: "La finestra non si chiude", altAnswers: ["La finestra non chiude"], explanation: "\"Chiudersi\": the window doesn't close itself." },
@@ -429,11 +429,11 @@ export const IT_B1_U25: Lesson[] = [
           { es: "Mi scusi se La disturbo a quest'ora.", en: "Sorry to bother you at this hour." },
           { es: "Da qualche settimana, la sera tardi, si sente molto rumore.", en: "For a few weeks now there's been a lot of noise late in the evening." },
           { es: "Ieri sera qualcuno suonava la batteria fino all'una.", en: "Last night someone was playing the drums until one." },
-          { es: "Ah, è mio figlio. Non pensavo che si sentisse così tanto.", en: "Oh, that's my son. I didn't think you could hear it so much." },
+          { es: "Ah, è mio figlio. Non pensavo di fare così tanto rumore.", en: "Oh, that's my son. I didn't think we were making so much noise." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Sorry to bother you. (formal)", answer: "Mi scusi se La disturbo.", altAnswers: ["Mi scusi se la disturbo.", "Scusi se La disturbo.", "Scusi il disturbo."], explanation: "\"Disturbare qualcuno\": direct object, formal \"La\"." },
-          { type: "listen-choose", audio: "Ah, è mio figlio. Non pensavo che si sentisse così tanto.", question: "How does the neighbour react?", options: ["He didn't realise it was so loud.", "He says Tom is lying.", "He says the noise is from another flat.", "He's angry with Tom."], correctIndex: 0, explanation: "\"Non pensavo che si sentisse\": past + imperfect subjunctive." },
+          { type: "listen-choose", audio: "Ah, è mio figlio. Non pensavo di fare così tanto rumore.", question: "How does the neighbour react?", options: ["He didn't realise it was so loud.", "He says Tom is lying.", "He says the noise is from another flat.", "He's angry with Tom."], correctIndex: 0, explanation: "\"Non pensavo di\" + infinitive: same subject." },
         ],
       },
       {
@@ -477,7 +477,7 @@ export const IT_B1_U25: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Last night the music went on until two.", answer: "Ieri sera la musica è andata avanti fino alle due.", altAnswers: ["Ieri notte la musica è andata avanti fino alle due.", "Ieri sera la musica è durata fino alle due."], explanation: "\"Andare avanti\" = to go on." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I understand, but I work early.", answer: "Lo capisco, però lavoro presto.", altAnswers: ["Capisco, però lavoro presto.", "Lo capisco, ma lavoro presto.", "Capisco, ma lavoro presto.", "Lo capisco, però io lavoro presto."], explanation: "\"Lo capisco, però\": concede, then object." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If there's a problem, let me know. (formal)", answer: "Se c'è un problema, mi faccia sapere.", altAnswers: ["Se c'è qualche problema, mi faccia sapere.", "Se ci sono problemi, mi faccia sapere."], explanation: "Lei imperative \"faccia\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I didn't think [you could hear it] so much.", sentence: "Non pensavo che ___ così tanto.", answer: "si sentisse", explanation: "Past opinion → imperfect subjunctive." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I didn't think [we were making] so much noise.", sentence: "Non pensavo di ___ così tanto rumore.", answer: "fare", explanation: "Same subject: \"pensare di\" + infinitive." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Would you mind] closing the window? (formal)", sentence: "___ chiudere la finestra?", answer: "Le dispiacerebbe", altAnswers: ["Le dispiace"], explanation: "\"Dispiacere a\": \"Le\"." },
       { type: "word-order", prompt: "Put the words in order to say: Neighbours should help each other.", words: ["Tra", "vicini", "bisogna", "aiutarsi."], translation: "Neighbours should help each other.", explanation: "\"Aiutarsi\" = to help each other." },
       { type: "multiple-choice", question: "How does Tom open the conversation?", options: ["Mi scusi se La disturbo.", "Senti, basta con questo rumore!", "Ciao, sei tu che fai rumore?", "Lei deve smettere subito."], correctIndex: 0, explanation: "An apology first: polite, formal, then the facts." },

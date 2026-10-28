@@ -282,17 +282,17 @@ export const IT_B1_U29: Lesson[] = [
       {
         heading: "Past feelings",
         body: [
-          "For a past event, use the past subjunctive: \"Mi dispiace che tu non sia potuto venire\" (I'm sorry you couldn't come), \"Sono contenta che abbiate vinto\". If the main verb is in the past, use the imperfect subjunctive: \"Mi dava fastidio che parlasse sempre di sé\".",
+          "For a past event, use the past subjunctive: \"Mi dispiace che tu non sia potuto venire\" (I'm sorry you couldn't come), \"Sono contenta che abbiate vinto\". To talk about how you used to feel, the simplest way is \"quando\" + imperfetto: \"Mi dava fastidio quando parlava sempre di sé\". (After a past feeling + \"che\", Italian uses another subjunctive tense, which comes at Upper Intermediate.)",
         ],
         examples: [
           { es: "Mi dispiace che tu non sia potuto venire.", en: "I'm sorry you couldn't come." },
           { es: "Siamo contenti che abbiate vinto.", en: "We're glad you won." },
-          { es: "Mi dava fastidio che parlasse sempre di sé.", en: "It annoyed me that he always talked about himself." },
-          { es: "Ero felice che mi avesse chiamato.", en: "I was happy he had called me." },
+          { es: "Mi dava fastidio quando parlava sempre di sé.", en: "It annoyed me when he always talked about himself." },
+          { es: "Sono felice che mi abbia chiamato.", en: "I'm happy he called me." },
         ],
         checkpoint: [
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "We're glad you [won]. (plural)", sentence: "Siamo contenti che ___.", answer: "abbiate vinto", explanation: "Past subjunctive for a past event." },
-          { type: "listen-choose", audio: "Mi dava fastidio che parlasse sempre di sé.", question: "What used to annoy the speaker?", options: ["He always talked about himself.", "He never talked.", "He talked about her.", "He talked too loudly."], correctIndex: 0, explanation: "\"Di sé\" = about himself." },
+          { type: "listen-choose", audio: "Mi dava fastidio quando parlava sempre di sé.", question: "What used to annoy the speaker?", options: ["He always talked about himself.", "He never talked.", "He talked about her.", "He talked too loudly."], correctIndex: 0, explanation: "\"Di sé\" = about himself." },
         ],
       },
     ],
@@ -437,18 +437,18 @@ export const IT_B1_U29: Lesson[] = [
       {
         heading: "Scene 2: comforting a friend",
         body: [
-          "Valentina: \"Mi dispiace che tu stia così male. Però, sinceramente, sono contenta che tu sia libera: negli ultimi mesi non eri felice.\" Chiara: \"Forse hai ragione. Mi dava fastidio che non facesse mai progetti.\" Valentina: \"Vedrai, passerà. E stasera usciamo, offro io.\"",
+          "Valentina: \"Mi dispiace che tu stia così male. Però, sinceramente, sono contenta che tu sia libera: negli ultimi mesi non eri felice.\" Chiara: \"Forse hai ragione. Non faceva mai progetti, e questo mi dava fastidio.\" Valentina: \"Vedrai, passerà. E stasera usciamo, offro io.\"",
           "Notice how a friend comforts: \"Mi dispiace\", \"Vedrai, passerà\" (you'll see, it'll pass), \"Ci sono io\" (I'm here for you), \"Offro io\" (my treat).",
         ],
         examples: [
           { es: "Mi dispiace che tu stia così male.", en: "I'm sorry you're feeling so bad." },
           { es: "Sono contenta che tu sia libera.", en: "I'm glad you're free." },
-          { es: "Mi dava fastidio che non facesse mai progetti.", en: "It annoyed me that he never made plans." },
+          { es: "Non faceva mai progetti, e questo mi dava fastidio.", en: "He never made plans, and that annoyed me." },
           { es: "Vedrai, passerà.", en: "You'll see, it'll pass." },
           { es: "Per qualsiasi cosa, ci sono io.", en: "Whatever you need, I'm here for you." },
         ],
         checkpoint: [
-          { type: "multiple-choice", question: "What used to annoy Chiara?", options: ["Davide never made plans.", "Davide was always out.", "Davide was jealous.", "Davide didn't like her friends."], correctIndex: 0, explanation: "\"Non facesse mai progetti\"." },
+          { type: "multiple-choice", question: "What used to annoy Chiara?", options: ["Davide never made plans.", "Davide was always out.", "Davide was jealous.", "Davide didn't like her friends."], correctIndex: 0, explanation: "\"Non faceva mai progetti\"." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You'll see, it'll pass. (to a friend)", answer: "Vedrai, passerà.", altAnswers: ["Vedrai che passerà.", "Vedrai, ti passerà."], explanation: "Future for reassurance." },
         ],
       },
@@ -668,12 +668,12 @@ export const IT_B1_U29: Lesson[] = [
           { es: "Ho conosciuto una persona: si chiama Sam.", en: "I've met someone: their name is Sam." },
           { es: "Ci siamo conosciuti a un concerto.", en: "We met at a concert." },
           { es: "Io e mio fratello abbiamo fatto pace.", en: "My brother and I have made up." },
-          { es: "Sono sollevato, mi dava fastidio che non ci parlassimo.", en: "I'm relieved, it bothered me that we weren't speaking." },
+          { es: "Sono sollevato: non ci parlavamo da mesi e questo mi dava fastidio.", en: "I'm relieved: we hadn't spoken for months and that bothered me." },
           { es: "Mi manca tanto l'Italia.", en: "I miss Italy so much." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "My brother and I have made up.", answer: "Io e mio fratello abbiamo fatto pace.", altAnswers: ["Io e mio fratello ci siamo riappacificati.", "Mio fratello e io abbiamo fatto pace."], explanation: "\"Fare pace\"." },
-          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It bothered me that we [weren't speaking].", sentence: "Mi dava fastidio che non ___.", answer: "ci parlassimo", explanation: "Imperfect subjunctive after a past feeling." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "We [hadn't spoken] for months.", sentence: "Non ___ da mesi.", answer: "ci parlavamo", explanation: "Imperfetto + \"da\" for a situation that had been going on." },
         ],
       },
     ],
@@ -706,6 +706,6 @@ export const IT_B1_U29_WRITING: WriteExercise = {
     "Uses mancare correctly (mi manchi, mi mancate, mi manca l'Italia)",
     "Uses ti voglio bene or another informal warm closing, not ti amo",
   ],
-  modelAnswer: "Cara Elisa, scusa se non ti ho scritto prima, ma sono stati mesi pieni! Che bella notizia: mi fa piacere che tu e Paolo siate così felici, anche se mi dispiace che andiate a vivere così lontano. Anch'io ho delle novità. A marzo ho conosciuto una persona: si chiama Sam e ci siamo conosciuti a un concerto. Ora ci vediamo quasi ogni giorno e sono davvero contenta. E poi io e mio fratello abbiamo finalmente fatto pace: dopo la lite di Natale non ci parlavamo più e mi dava fastidio che la famiglia soffrisse. Adesso sono sollevata. Però mi manca tanto l'Italia, e mi manchi tu! Quando vi sarete sistemati a Lisbona, scrivimi. Ti voglio bene, un abbraccio forte. Giulia",
-  explanation: "The letter reacts with feeling + subjunctive (\"mi fa piacere che ... siate\", \"mi dispiace che andiate\", \"mi dava fastidio che ... soffrisse\"), tells the news with reciprocal verbs (\"ci siamo conosciuti\", \"ci vediamo\", \"non ci parlavamo\"), uses \"mancare\" correctly (\"mi manca l'Italia\", \"mi manchi tu\") and closes with \"ti voglio bene\".",
+  modelAnswer: "Cara Elisa, scusa se non ti ho scritto prima, ma sono stati mesi pieni! Che bella notizia: mi fa piacere che tu e Paolo siate così felici, anche se mi dispiace che andiate a vivere così lontano. Anch'io ho delle novità. A marzo ho conosciuto una persona: si chiama Sam e ci siamo conosciuti a un concerto. Ora ci vediamo quasi ogni giorno e sono davvero contenta. E poi io e mio fratello abbiamo finalmente fatto pace: dopo la lite di Natale non ci parlavamo più e mi dispiaceva vedere la famiglia soffrire. Adesso sono sollevata. Però mi manca tanto l'Italia, e mi manchi tu! Quando vi sarete sistemati a Lisbona, scrivimi. Ti voglio bene, un abbraccio forte. Giulia",
+  explanation: "The letter reacts with feeling + subjunctive (\"mi fa piacere che ... siate\", \"mi dispiace che andiate\"), tells the news with reciprocal verbs (\"ci siamo conosciuti\", \"ci vediamo\", \"non ci parlavamo\"), uses \"mancare\" correctly (\"mi manca l'Italia\", \"mi manchi tu\") and closes with \"ti voglio bene\".",
 };

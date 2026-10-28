@@ -410,13 +410,13 @@ export default function HomeScreen({ navigation }: Props) {
                 onPress={() => navigation.navigate("ReadingLevels", { lang: language })}
               />
             )}
-            {language === "pt" && (
+            {(language === "pt" || language === "it") && (
               <NavCard
                 icon="readings"
                 tint="sea"
                 title="Stories"
                 body="Graded short stories with audio and comprehension questions. Tap any word for its meaning."
-                onPress={() => navigation.navigate("ReadingLevels", { lang: "pt" })}
+                onPress={() => navigation.navigate("ReadingLevels", { lang: language })}
               />
             )}
 
@@ -484,8 +484,8 @@ export default function HomeScreen({ navigation }: Props) {
           in it, covers whatever's behind it instead of shifting/
           squeezing this screen's own layout -- nothing here needs to
           react to it opening. */}
-      {/* The translator covers Spanish, French, German, Portuguese and Japanese. */}
-      {language !== "zh" && language !== "ko" && language !== "it" && <TranslateBar language={language} />}
+      {/* The translator covers Spanish, French, German, Portuguese, Japanese and the Italian beta (it-en / en-it; "it" is only ever selected for the beta accounts). */}
+      {language !== "zh" && language !== "ko" && <TranslateBar language={language} />}
     </View>
   );
 }

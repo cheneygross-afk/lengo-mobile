@@ -9,10 +9,10 @@ import type { StoryGloss } from "./types";
  * surrounding punctuation ("«Hola," -> "hola") removed. */
 export function glossKey(word: string): string {
   // Explicit letters rather than \p{L}, which older mobile JS engines lack.
-  // The French letters are for the French course's stories ("déjà"), the German ones for the German course's ("schön"), ã and õ for the Portuguese course's ("irmã"),
+  // The French letters are for the French course's stories ("déjà"), the German ones for the German course's ("schön"), ã and õ for the Portuguese course's ("irmã"), ì and ò for the Italian course's ("così", "però"),
   // and the Hangul syllables and letters for the Korean course's, whose
   // tokens are whole 어절 ("학교에," -> "학교에").
-  return word.toLowerCase().replace(/^[^a-záéíóúüñàâæçèêëîïôœùûÿäöãõß가-힣ㄱ-ㆎ]+|[^a-záéíóúüñàâæçèêëîïôœùûÿäöãõß가-힣ㄱ-ㆎ]+$/g, "");
+  return word.toLowerCase().replace(/^[^a-záéíóúüñàâæçèêëîïôœùûÿäöãõßìò가-힣ㄱ-ㆎ]+|[^a-záéíóúüñàâæçèêëîïôœùûÿäöãõßìò가-힣ㄱ-ㆎ]+$/g, "");
 }
 
 /** Word form -> its gloss, for marking glossed words in a story's text. */

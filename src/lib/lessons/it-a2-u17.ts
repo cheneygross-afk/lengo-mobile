@@ -648,6 +648,6 @@ export const IT_A2_U17_WRITING: WriteExercise = {
     "Uses tra / fra for the future",
     "Uses stare + gerund or stare per only where it means right now or about to",
   ],
-  modelAnswer: "Mi chiamo Daniel e abito a Manchester da sei anni. Ho studiato ingegneria a Leeds e mi sono laureato otto anni fa. Ho lavorato in una fabbrica per due anni, poi ho cambiato lavoro. Dal 2020 lavoro come tecnico in un ospedale. Studio italiano da un anno, perché mia moglie è di Bari. In questo periodo sto preparando l'esame CILS A2. Tra due anni vorremmo trasferirci in Puglia!",
+  modelAnswer: "Mi chiamo Daniel e abito a Manchester da sei anni. Ho studiato ingegneria a Leeds e mi sono laureato otto anni fa. Ho lavorato in una fabbrica per due anni, poi ho cambiato lavoro. Dal 2020 lavoro come tecnico in un ospedale. Studio italiano da un anno, perché mia moglie è di Bari. In questo periodo sto preparando l'esame CILS. Tra due anni vorremmo trasferirci in Puglia!",
   explanation: "\"Abito ... da sei anni\", \"lavoro ... dal 2020\" and \"studio ... da un anno\" use the present because they're still true; \"ho lavorato per due anni\" and \"mi sono laureato otto anni fa\" are finished. \"Tra due anni\" points to the future, and \"sto preparando\" stresses something in progress now.",
 };
