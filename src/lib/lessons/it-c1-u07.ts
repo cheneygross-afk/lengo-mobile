@@ -11,13 +11,14 @@ export const IT_C1_U07: Lesson[] = [
     number: 1,
     title: "When Mood Changes Meaning",
     summary: "Choose between indicative and subjunctive where the choice changes what you mean: cerco una casa che ha / abbia, capisco che sei / tu sia, dico che viene / venga.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Real or wished-for: relative clauses",
         body: [
           "At B2 you learned that some verbs take the subjunctive. At C1 the question becomes: what does each mood say? In a relative clause the indicative describes something that exists and that you have identified; the subjunctive describes the kind of thing you want, which may not exist.",
-          "\"Cerco una casa che ha il giardino\" means you have a particular house in mind (you saw the advert). \"Cerco una casa che abbia il giardino\" means any house, as long as it has a garden. The same holds after \"c'è qualcuno che\" and negatives: \"Non c'è nessuno che sappia rispondere\" (there is nobody who can answer: the subjunctive, because the person doesn't exist).",
+          "\"Cerco una casa che ha il giardino\" means you have a particular house in mind (you saw the ad). \"Cerco una casa che abbia il giardino\" means any house, as long as it has a garden. The same holds after \"c'è qualcuno che\" and negatives: \"Non c'è nessuno che sappia rispondere\" (there is nobody who can answer: the subjunctive, because the person doesn't exist).",
+          "Superlatives and words like \"l'unico\", \"il solo\", \"il primo\" also prefer the subjunctive in careful language: \"È il libro più bello che io abbia mai letto\", \"Sei l'unica persona che mi capisca\". In conversation you will hear \"che ho mai letto\" and \"che mi capisce\"; they are not wrong, just plainer. Here the mood changes the register more than the meaning.",
         ],
         examples: [
           { es: "Cerco una casa che ha il giardino: l'ho vista ieri sul sito.", en: "I'm looking for a house that has a garden: I saw it yesterday on the website." },
@@ -25,6 +26,8 @@ export const IT_C1_U07: Lesson[] = [
           { es: "Conosco un medico che parla tedesco.", en: "I know a doctor who speaks German." },
           { es: "Conosci un medico che parli tedesco?", en: "Do you know a doctor who speaks German?" },
           { es: "Non c'è nessuno che sappia rispondere.", en: "There is nobody who can answer." },
+          { es: "È il libro più bello che io abbia mai letto.", en: "It's the most beautiful book I've ever read." },
+          { es: "Sei l'unica persona che mi capisca.", en: "You're the only person who understands me." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate. You have no particular house in mind.", source: "I'm looking for a house with a garden.", answer: "Cerco una casa che abbia il giardino.", altAnswers: ["Cerco una casa che abbia un giardino.", "Sto cercando una casa che abbia il giardino."], explanation: "Any house of that kind: subjunctive." },
@@ -32,10 +35,11 @@ export const IT_C1_U07: Lesson[] = [
         ],
       },
       {
-        heading: "Realising or accepting",
+        heading: "Realizing or accepting",
         body: [
-          "Some verbs change meaning with the mood. \"Capisco che sei stanco\" means I realise you are tired (I perceive a fact). \"Capisco che tu sia stanco\" means I understand why you would be tired, I sympathise: you accept the other person's feeling. \"Ammetto che hai ragione\" concedes a fact; \"Ammettiamo che tu abbia ragione\" means let's suppose you're right.",
+          "Some verbs change meaning with the mood. \"Capisco che sei stanco\" means I realize you are tired (I perceive a fact). \"Capisco che tu sia stanco\" means I understand why you would be tired, I sympathize: you accept the other person's feeling. \"Ammetto che hai ragione\" concedes a fact; \"Ammettiamo che tu abbia ragione\" means let's suppose you're right.",
           "\"Dire che\" + indicative reports a statement; \"dire che\" + subjunctive reports an order: \"Gli dico che Anna viene\" (I'll tell him Anna is coming) versus \"Digli che venga subito\" (tell him to come at once).",
+          "\"Pensare\" works the same way. \"Penso che abbia ottant'anni\" is an opinion (I think he's eighty), with the subjunctive. The imperative \"Pensa che\" (just think, imagine) introduces a striking fact, so it takes the indicative: \"Pensa che ha ottant'anni e corre ancora la maratona!\". Likewise \"sentire che\" + indicative is perception (\"Sento che stai meglio\", I can tell you're better).",
         ],
         examples: [
           { es: "Capisco che sei stanco: hai gli occhi rossi.", en: "I can see you're tired: your eyes are red." },
@@ -43,21 +47,25 @@ export const IT_C1_U07: Lesson[] = [
           { es: "Ammetto che hai ragione.", en: "I admit you're right." },
           { es: "Ammettiamo che tu abbia ragione: cosa facciamo?", en: "Let's suppose you're right: what do we do?" },
           { es: "Digli che venga subito.", en: "Tell him to come at once." },
+          { es: "Pensa che ha ottant'anni e corre ancora la maratona!", en: "Just think, he's eighty and still runs marathons!" },
+          { es: "Penso che abbia ottant'anni.", en: "I think he's eighty." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate, sympathising (tu).", source: "I understand that you're tired, after a week like that.", answer: "Capisco che tu sia stanco, dopo una settimana così.", altAnswers: ["Capisco che tu sia stanca, dopo una settimana così.", "Capisco che tu sia stanco dopo una settimana del genere."], explanation: "Subjunctive: accepting a feeling." },
+          { type: "translate", direction: "en-es", prompt: "Translate, sympathizing (tu).", source: "I understand that you're tired, after a week like that.", answer: "Capisco che tu sia stanco, dopo una settimana così.", altAnswers: ["Capisco che tu sia stanca, dopo una settimana così.", "Capisco che tu sia stanco dopo una settimana del genere."], explanation: "Subjunctive: accepting a feeling." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Tell him [to come] at once.", sentence: "Digli che ___ subito.", answer: "venga", explanation: "\"Dire che\" + subjunctive = an order." },
         ],
       },
       {
         heading: "Saying with or without endorsing",
         body: [
-          "After a negated verb of saying or thinking, the subjunctive is the norm: \"Non dico che sia facile\" (I'm not saying it's easy). The indicative is possible when the speaker treats the content as a fact: \"Non ti dico che è vero: lo sai già\" (I won't tell you it's true: you already know). The indicative signals that the speaker endorses the content; the subjunctive leaves it open.",
-          "So: \"Non dico che tu abbia torto\" keeps the question open; \"Non sapevo che eri qui\" (I didn't know you were here) treats your presence as a fact, so the indicative is natural.",
+          "After a negated verb of saying or thinking, the subjunctive is the norm: \"Non dico che sia facile\" (I'm not saying it's easy). In relaxed speech you will often hear \"Non dico che è facile\" with the same meaning: that is informal, not a different message. Write the subjunctive.",
+          "The indicative does carry meaning when the content is a fact the speaker takes for granted. \"Non sapevo che eri qui\" (I didn't know you were here) treats your presence as a fact; \"Non sapevo che fossi qui\" is equally correct and slightly more formal. In a rhetorical question the indicative is the only natural choice: \"Non ti avevo detto che partivo?\" (didn't I tell you I was leaving?), because the speaker knows they did.",
+          "\"Non è che\" + subjunctive softens a denial or a request: \"Non è che non mi piaccia, è che costa troppo\" (it's not that I don't like it, it's just that it costs too much); \"Non è che mi presteresti la macchina?\" uses the conditional for a shy request.",
         ],
         examples: [
           { es: "Non dico che sia facile.", en: "I'm not saying it's easy." },
-          { es: "Non ti dico che è vero: lo sai già.", en: "I won't tell you it's true: you already know." },
+          { es: "Non ti avevo detto che partivo?", en: "Didn't I tell you I was leaving?" },
+          { es: "Non è che non mi piaccia, è che costa troppo.", en: "It's not that I don't like it, it's just that it costs too much." },
           { es: "Non dico che tu abbia torto.", en: "I'm not saying you're wrong." },
           { es: "Non sapevo che eri qui.", en: "I didn't know you were here." },
         ],
@@ -83,14 +91,14 @@ export const IT_C1_U07: Lesson[] = [
         instructions: "Match each sentence to its meaning.",
         pairs: [
           { left: "Capisco che sei stanco.", right: "I can see you're tired." },
-          { left: "Capisco che tu sia stanco.", right: "I sympathise with your tiredness." },
+          { left: "Capisco che tu sia stanco.", right: "I sympathize with your tiredness." },
           { left: "Gli dico che viene.", right: "I tell him someone is coming." },
           { left: "Gli dico che venga.", right: "I tell him to come." },
         ],
         explanation: "The mood changes the meaning of the main verb.",
       },
-      { type: "listen-choose", audio: "Cerco un appartamento che abbia almeno due camere, in qualsiasi quartiere.", question: "What is the speaker looking for?", options: ["Any flat with at least two bedrooms", "A specific flat they have seen", "A flat in one particular area", "A room in a shared flat"], correctIndex: 0, explanation: "Subjunctive + \"in qualsiasi quartiere\": any flat of that kind." },
-      { type: "speak", text: "Capisco che tu sia stanco, ma non dico che sia facile per nessuno.", prompt: "Sympathise, then make your point (tu): I understand you're tired, but I'm not saying it's easy for anyone.", tip: "\"Sia\" twice: one syllable, stressed i.", explanation: "Two subjunctives with nuance." },
+      { type: "listen-choose", audio: "Cerco un appartamento che abbia almeno due camere, in qualsiasi quartiere.", question: "What is the speaker looking for?", options: ["Any apartment with at least two bedrooms", "A specific apartment they have seen", "An apartment in one particular area", "A room in a shared apartment"], correctIndex: 0, explanation: "Subjunctive + \"in qualsiasi quartiere\": any apartment of that kind." },
+      { type: "speak", text: "Capisco che tu sia stanco, ma non dico che sia facile per nessuno.", prompt: "Sympathize, then make your point (tu): I understand you're tired, but I'm not saying it's easy for anyone.", tip: "\"Sia\" twice: one syllable, stressed i.", explanation: "Two subjunctives with nuance." },
     ],
   },
   {
@@ -99,19 +107,22 @@ export const IT_C1_U07: Lesson[] = [
     number: 2,
     title: "The Subjunctive on Its Own",
     summary: "Use the subjunctive without a main clause: doubtful questions (Che sia vero?), permission (venga pure), wishes (magari, fosse vero!) and set phrases (così sia, che Dio ce la mandi buona).",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Doubt and suspicion",
         body: [
-          "The subjunctive can stand alone, introduced by \"che\". In a question it voices a suspicion or a doubt the speaker is turning over: \"Che sia vero?\" (could it be true?), \"Che si sia perso?\" (could he have got lost?), \"Che abbiano cambiato idea?\" (might they have changed their minds?). It's like a thought spoken aloud, with a missing \"Ti pare possibile...\" in front.",
+          "The subjunctive can stand alone, introduced by \"che\". In a question it voices a suspicion or a doubt the speaker is turning over: \"Che sia vero?\" (could it be true?), \"Che si sia perso?\" (could he have gotten lost?), \"Che abbiano cambiato idea?\" (might they have changed their minds?). It's like a thought spoken aloud, with a missing \"Ti pare possibile...\" in front.",
+          "Compare the future of supposition: \"Sarà a casa\" (she's probably at home) is a fairly confident guess, while \"Che sia a casa?\" turns the guess into an open, slightly anxious question. \"Chissà che non\" + subjunctive adds hope: \"Chissà che non sia la volta buona\" (who knows, this might be the time it works); the \"non\" is not a negation.",
           "Use the present subjunctive for now and the past subjunctive for something that may already have happened: \"Che sia a casa?\" (could she be at home?), \"Che sia già partita?\" (could she have left already?).",
         ],
         examples: [
           { es: "Che sia vero?", en: "Could it be true?" },
-          { es: "Che si sia perso?", en: "Could he have got lost?" },
+          { es: "Che si sia perso?", en: "Could he have gotten lost?" },
           { es: "Che abbiano cambiato idea?", en: "Might they have changed their minds?" },
           { es: "Non risponde. Che sia già partita?", en: "She isn't answering. Could she have left already?" },
+          { es: "Sarà a casa, a quest'ora.", en: "She'll be at home at this time of day." },
+          { es: "Chissà che non sia la volta buona.", en: "Who knows, this might be the time it works." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate with a stand-alone subjunctive.", source: "Could it be true?", answer: "Che sia vero?", explanation: "\"Che\" + subjunctive: a doubtful question." },
@@ -123,6 +134,7 @@ export const IT_C1_U07: Lesson[] = [
         body: [
           "The Lei imperative is a subjunctive: \"Venga\", \"Si accomodi\". Add \"pure\" for permission: \"Venga pure!\" (do come in), \"Faccia pure\" (go ahead). With \"che\" it gives an order for a third person: \"Che entri!\" (let him come in), \"Che aspettino\" (let them wait).",
           "Wishes use the imperfect or pluperfect subjunctive, often with \"magari\" or \"almeno\": \"Magari fosse vero!\" (if only it were true!), \"Avessi tempo!\" (if only I had time!), \"Almeno avesse chiamato!\" (if only he had at least called!). The present subjunctive expresses a wish that is still possible: \"Vinca il migliore!\" (may the best one win!).",
+          "Watch \"magari\" with the indicative: it then means maybe, not if only. \"Magari viene domani\" (maybe he'll come tomorrow) is a guess; \"Magari venisse domani!\" is a wish. Learners who write \"*Magari è vero!\" for 'if only it were true' have said 'maybe it's true'. \"Se solo\" + subjunctive is a stronger alternative: \"Se solo l'avessi ascoltato!\" (if only I had listened to him!).",
         ],
         examples: [
           { es: "Venga pure, signora.", en: "Do come in, madam." },
@@ -130,6 +142,8 @@ export const IT_C1_U07: Lesson[] = [
           { es: "Magari fosse vero!", en: "If only it were true!" },
           { es: "Avessi più tempo!", en: "If only I had more time!" },
           { es: "Vinca il migliore!", en: "May the best one win!" },
+          { es: "Magari viene domani.", en: "Maybe he'll come tomorrow." },
+          { es: "Se solo l'avessi ascoltato!", en: "If only I had listened to him!" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate with a stand-alone subjunctive.", source: "If only it were true!", answer: "Magari fosse vero!", altAnswers: ["Fosse vero!", "Magari fosse vero."], explanation: "\"Magari\" + imperfect subjunctive." },
@@ -141,6 +155,7 @@ export const IT_C1_U07: Lesson[] = [
         body: [
           "Many fixed expressions are frozen subjunctives: \"Così sia\" (so be it), \"Sia chiaro\" (let it be clear), \"Che Dio ce la mandi buona\" (God help us, literally may God send it to us good), \"Dio non voglia\" (God forbid), \"Non sia mai!\" (heaven forbid!), \"Viva gli sposi!\" (long live the bride and groom), \"Fosse per me...\" (if it were up to me...), \"Che io sappia\" (as far as I know).",
           "\"Viva\" is often left invariable before a plural (\"Viva gli sposi\"), although \"Vivano\" is also correct.",
+          "A few concessive formulas repeat the verb: \"Costi quel che costi\" (whatever it costs), \"Sia come sia\" (be that as it may), \"Succeda quel che succeda\" (come what may). \"Non sia mai detto che...\" (let it never be said that...) is a half-joking way to defend your honor: \"Non sia mai detto che lascio un amico da solo\".",
         ],
         examples: [
           { es: "Che Dio ce la mandi buona.", en: "God help us." },
@@ -148,6 +163,8 @@ export const IT_C1_U07: Lesson[] = [
           { es: "Fosse per me, partirei domani.", en: "If it were up to me, I would leave tomorrow." },
           { es: "Che io sappia, il negozio è chiuso.", en: "As far as I know, the shop is closed." },
           { es: "Sia chiaro: non pago io.", en: "Let's be clear: I'm not paying." },
+          { es: "Lo finiamo stasera, costi quel che costi.", en: "We'll finish it tonight, whatever it takes." },
+          { es: "Sia come sia, domani si parte.", en: "Be that as it may, we leave tomorrow." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate with a set subjunctive phrase.", source: "As far as I know, the shop is closed.", answer: "Che io sappia, il negozio è chiuso.", altAnswers: ["Per quanto ne so, il negozio è chiuso.", "Che io sappia il negozio è chiuso."], explanation: "\"Che io sappia\" = as far as I know." },
@@ -156,7 +173,7 @@ export const IT_C1_U07: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate with a stand-alone subjunctive.", source: "Could he have got lost?", answer: "Che si sia perso?", altAnswers: ["Che si sia perduto?"], explanation: "Past subjunctive of a reflexive verb." },
+      { type: "translate", direction: "en-es", prompt: "Translate with a stand-alone subjunctive.", source: "Could he have gotten lost?", answer: "Che si sia perso?", altAnswers: ["Che si sia perduto?"], explanation: "Past subjunctive of a reflexive verb." },
       { type: "translate", direction: "en-es", prompt: "Translate with a stand-alone subjunctive.", source: "Might they have changed their minds?", answer: "Che abbiano cambiato idea?", explanation: "\"Cambiare idea\": singular \"idea\" in Italian." },
       { type: "translate", direction: "en-es", prompt: "Translate with a stand-alone subjunctive.", source: "Let them wait!", answer: "Che aspettino!", altAnswers: ["Aspettino!", "Che aspettino pure!"], explanation: "\"Che\" + third-person subjunctive = an order." },
       { type: "translate", direction: "en-es", prompt: "Translate with a stand-alone subjunctive.", source: "If only I had more time!", answer: "Avessi più tempo!", altAnswers: ["Magari avessi più tempo!", "Se avessi più tempo!"], explanation: "Imperfect subjunctive on its own = wish." },
@@ -165,10 +182,10 @@ export const IT_C1_U07: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate with a set phrase.", source: "If it were up to me, I would leave tomorrow.", answer: "Fosse per me, partirei domani.", altAnswers: ["Se fosse per me, partirei domani.", "Fosse per me, partirei anche domani."], explanation: "\"Fosse per me\" + conditional." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[God forbid]!", sentence: "___!", answer: "Dio non voglia", altAnswers: ["Non sia mai"], explanation: "Frozen subjunctive." },
       { type: "fill-blank", prompt: "Write the Italian for the bold word.", en: "[Do] come in, madam.", sentence: "___ pure, signora.", answer: "Venga", altAnswers: ["Entri"], explanation: "Lei imperative + \"pure\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold word.", en: "Nobody is answering. Could they [be] on holiday?", sentence: "Non risponde nessuno. Che ___ in vacanza?", answer: "siano", explanation: "\"Che\" + present subjunctive: a suspicion." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold word.", en: "Nobody is answering. Could they [be] on vacation?", sentence: "Non risponde nessuno. Che ___ in vacanza?", answer: "siano", explanation: "\"Che\" + present subjunctive: a suspicion." },
       { type: "multi-select", question: "Which sentences contain a stand-alone subjunctive? Select all that apply.", options: ["Magari fosse vero!", "Che sia già arrivato?", "Che io sappia, no.", "So che è vero.", "Penso di sì."], correctIndexes: [0, 1, 2], explanation: "Wish, suspicion and set phrase; the last two have no subjunctive." },
       { type: "dictation", audio: "Non risponde. Che sia già partita?", explanation: "Past subjunctive: \"sia partita\"." },
-      { type: "speak", text: "Magari fosse vero! Che io sappia, nessuno l'ha ancora confermato.", prompt: "React to the rumour: If only it were true! As far as I know, nobody has confirmed it yet.", tip: "Exclamation on \"Magari\", then a calm second sentence.", explanation: "Wish + set phrase." },
+      { type: "speak", text: "Magari fosse vero! Che io sappia, nessuno l'ha ancora confermato.", prompt: "React to the rumor: If only it were true! As far as I know, nobody has confirmed it yet.", tip: "Exclamation on \"Magari\", then a calm second sentence.", explanation: "Wish + set phrase." },
     ],
   },
   {
@@ -177,19 +194,25 @@ export const IT_C1_U07: Lesson[] = [
     number: 3,
     title: "Il Fatto Che",
     summary: "Use il fatto che with the subjunctive when it introduces a fact as a topic, and tell it apart from il fatto è che and per il fatto che.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "A fact as a topic",
         body: [
           "\"Il fatto che\" turns a whole clause into a noun phrase: \"Il fatto che non abbia chiamato mi preoccupa\" (the fact that he hasn't called worries me). Although it introduces a fact, it normally takes the subjunctive, because the fact is the topic of a comment, not new information: the sentence is about how you feel or what you think about it.",
           "This is especially true when \"il fatto che\" opens the sentence or depends on a verb of feeling or judging: \"Mi dà fastidio il fatto che tu non me l'abbia detto\" (it annoys me that you didn't tell me). The indicative appears in informal speech and is not wrong, but the subjunctive is the standard in writing.",
+          "Italian often does without the phrase. \"Mi dà fastidio che tu non me l'abbia detto\" is lighter than \"il fatto che\", and English 'the fact that' is overused by learners translating literally. When the subject is the same, use \"il fatto di\" + infinitive: \"Il fatto di essere straniera non c'entra\".",
+          "After a preposition required by the verb, \"del fatto che\" often presents a plain circumstance, and the indicative is normal: \"Approfitto del fatto che sei qui per chiederti un favore\" (I'll take advantage of your being here), \"Bisogna tener conto del fatto che i prezzi sono aumentati\". The subjunctive appears when the clause is still a topic for comment: \"Mi lamento del fatto che nessuno mi abbia avvisato\".",
         ],
         examples: [
           { es: "Il fatto che non abbia chiamato mi preoccupa.", en: "The fact that he hasn't called worries me." },
           { es: "Mi dà fastidio il fatto che tu non me l'abbia detto.", en: "It annoys me that you didn't tell me." },
           { es: "Il fatto che sia straniera non c'entra.", en: "The fact that she's foreign has nothing to do with it." },
           { es: "Il fatto che costi poco non vuol dire che sia buono.", en: "The fact that it's cheap doesn't mean it's good." },
+          { es: "Il fatto di essere straniera non c'entra.", en: "Being a foreigner has nothing to do with it." },
+          { es: "Approfitto del fatto che sei qui per chiederti un favore.", en: "I'll take advantage of your being here to ask you a favor." },
+          { es: "Bisogna tener conto del fatto che i prezzi sono aumentati.", en: "We need to take into account that prices have gone up." },
+          { es: "Mi lamento del fatto che nessuno mi abbia avvisato.", en: "My complaint is that nobody warned me." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate.", source: "The fact that he hasn't called worries me.", answer: "Il fatto che non abbia chiamato mi preoccupa.", altAnswers: ["Mi preoccupa il fatto che non abbia chiamato."], explanation: "\"Il fatto che\" + subjunctive." },
@@ -201,6 +224,7 @@ export const IT_C1_U07: Lesson[] = [
         body: [
           "Don't confuse \"il fatto che\" with \"il fatto è che\" (the thing is that), which introduces your own explanation as new information and takes the indicative: \"Il fatto è che non ho tempo\" (the thing is, I don't have time). Similarly \"la verità è che\" + indicative.",
           "\"Per il fatto che\" and \"dal fatto che\" give a cause and usually take the indicative: \"È stato escluso per il fatto che non aveva i documenti\" (he was excluded because he didn't have the documents), \"Dipende dal fatto che siamo in pochi\" (it's because there are few of us). \"Nonostante il fatto che\" is concessive and keeps the subjunctive: \"nonostante il fatto che fosse tardi\".",
+          "The same \"X è che\" + indicative frame works with other nouns: \"il problema è che\", \"il guaio è che\" (the trouble is), \"il bello è che\" (the funny thing is), \"il punto è che\". In storytelling, \"fatto sta che\" (the fact is, anyway) cuts to the outcome: \"Fatto sta che non è più tornato\". By contrast \"non è che\" softens a denial and takes the subjunctive: \"Non è che non voglia: è che non posso\". The three-way contrast to remember: \"il fatto che sia\" (topic), \"il fatto è che è\" (explanation), \"non è che sia\" (softened denial).",
         ],
         examples: [
           { es: "Il fatto è che non ho tempo.", en: "The thing is, I don't have time." },
@@ -208,6 +232,9 @@ export const IT_C1_U07: Lesson[] = [
           { es: "È stato escluso per il fatto che non aveva i documenti.", en: "He was excluded because he didn't have the documents." },
           { es: "Dipende dal fatto che siamo in pochi.", en: "It's because there are only a few of us." },
           { es: "Nonostante il fatto che fosse tardi, siamo usciti.", en: "Despite the fact that it was late, we went out." },
+          { es: "Il guaio è che non ho le chiavi.", en: "The trouble is, I don't have the keys." },
+          { es: "Fatto sta che non è più tornato.", en: "The fact is, he never came back." },
+          { es: "Non è che non voglia: è che non posso.", en: "It's not that I don't want to: I just can't." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate.", source: "The thing is, I don't have time.", answer: "Il fatto è che non ho tempo.", altAnswers: ["Il fatto è che non ho il tempo."], explanation: "\"Il fatto è che\" + indicative." },
@@ -224,7 +251,7 @@ export const IT_C1_U07: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate.", source: "Despite the fact that it was late, we went out.", answer: "Nonostante il fatto che fosse tardi, siamo usciti.", altAnswers: ["Nonostante fosse tardi, siamo usciti.", "Malgrado il fatto che fosse tardi, siamo usciti."], explanation: "Concessive: subjunctive." },
       { type: "translate", direction: "en-es", prompt: "Translate.", source: "The fact that they arrived late surprised everyone.", answer: "Il fatto che siano arrivati in ritardo ha sorpreso tutti.", altAnswers: ["Il fatto che fossero arrivati in ritardo ha sorpreso tutti.", "Il fatto che siano arrivati tardi ha sorpreso tutti."], explanation: "Past subjunctive after \"il fatto che\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold word.", en: "The thing is, we [are] too few.", sentence: "Il fatto è che ___ troppo pochi.", answer: "siamo", explanation: "\"Il fatto è che\" + indicative." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The fact that you [have apologised] matters to me.", sentence: "Il fatto che tu ___ è importante per me.", answer: "ti sia scusato", altAnswers: ["ti sia scusata"], explanation: "Past subjunctive of \"scusarsi\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The fact that you [have apologized] matters to me.", sentence: "Il fatto che tu ___ è importante per me.", answer: "ti sia scusato", altAnswers: ["ti sia scusata"], explanation: "Past subjunctive of \"scusarsi\"." },
       {
         type: "word-order",
         prompt: "Put the words in order to say: It's because there are only a few of us.",
@@ -243,13 +270,15 @@ export const IT_C1_U07: Lesson[] = [
     number: 4,
     title: "Che Sia Difficile, Lo So",
     summary: "Front a che-clause as the topic of the sentence: it takes the subjunctive even after sapere or vedere, and a pronoun picks it up again.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Moving the clause to the front",
         body: [
           "Normally \"So che è difficile\" takes the indicative, because \"sapere\" presents a fact. But when the che-clause moves to the front, as the topic, it switches to the subjunctive: \"Che sia difficile, lo so\" (that it's difficult, I know). The fronted clause presents something already known or under discussion; the main clause gives your comment.",
           "Notice the pronoun \"lo\" in the main clause: it picks up the fronted clause, just as with a fronted object (\"Il libro, l'ho letto\"). Other examples: \"Che tu abbia ragione, nessuno lo nega\", \"Che fosse stanco, si vedeva\" (that he was tired, you could see).",
+          "The tense follows the main verb, as in any subjunctive clause: present or past subjunctive after a present (\"Che abbia mentito, lo so\"), imperfect or pluperfect after a past (\"Che avesse mentito, lo capimmo subito\"). The resumptive pronoun depends on the verb's construction: \"lo\" for a direct object, \"ne\" after verbs with \"di\" (\"Che fosse innocente, ne ero sicuro\"), \"ci\" after verbs with \"a\" or \"su\" (\"Che venga anche lei, ci conto\").",
+          "In casual speech you will hear the indicative (\"Che è difficile, lo so\"). It is understood, but it sounds sloppy in writing; the subjunctive is what makes the construction elegant.",
         ],
         examples: [
           { es: "Che sia difficile, lo so.", en: "I know it's difficult." },
@@ -257,6 +286,9 @@ export const IT_C1_U07: Lesson[] = [
           { es: "Che fosse stanco, si vedeva.", en: "You could see he was tired." },
           { es: "Che non venga, mi dispiace.", en: "I'm sorry he isn't coming." },
           { es: "Che abbiano sbagliato, lo hanno ammesso loro stessi.", en: "They admitted themselves that they had made a mistake." },
+          { es: "Che avesse mentito, lo capimmo subito.", en: "We realized at once that he had lied." },
+          { es: "Che fosse innocente, ne ero sicuro.", en: "I was sure he was innocent." },
+          { es: "Che venga anche lei, ci conto.", en: "I'm counting on her coming too." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate, fronting the che-clause.", source: "I know it's difficult.", answer: "Che sia difficile, lo so.", altAnswers: ["Che sia difficile lo so."], explanation: "Fronted clause: subjunctive + \"lo\"." },
@@ -267,13 +299,18 @@ export const IT_C1_U07: Lesson[] = [
         heading: "Why use it",
         body: [
           "The fronted clause is a way of conceding before you add something: \"Che sia difficile, lo so. Ma non è impossibile\". It acknowledges what the other person said, then moves on. That's why it is frequent in debates and careful emails.",
-          "Fronted clauses can also be the subject of judgement verbs: \"Che sia bravo è indubbio\" (that he's good is beyond doubt), \"Che arrivino in ritardo è normale\". Here there is no resumptive pronoun, because the clause is the subject.",
+          "Fronted clauses can also be the subject of judgment verbs: \"Che sia bravo è indubbio\" (that he's good is beyond doubt), \"Che arrivino in ritardo è normale\". Here there is no resumptive pronoun, because the clause is the subject.",
+          "Notice the switch with impersonal expressions. In normal order a fact after \"è evidente che\" takes the indicative: \"È evidente che è un problema\". Fronted, the same clause becomes a topic and takes the subjunctive: \"Che sia un problema, è evidente\". The fronted version sounds more measured, as if you were weighing the point before ruling on it.",
+          "A fronted clause also makes a good opening for a counter-argument: \"Che piova non vuol dire che dobbiamo restare a casa\" (just because it's raining doesn't mean we have to stay home). English often renders the construction with 'just because' or 'granted that', or simply with normal order.",
         ],
         examples: [
           { es: "Che sia difficile, lo so. Ma non è impossibile.", en: "I know it's difficult. But it isn't impossible." },
           { es: "Che sia bravo è indubbio.", en: "That he's good is beyond doubt." },
           { es: "Che arrivino in ritardo è normale.", en: "It's normal for them to arrive late." },
           { es: "Che il progetto costasse troppo, l'avevamo detto.", en: "We had said that the project cost too much." },
+          { es: "È evidente che è un problema.", en: "It's obvious that it's a problem." },
+          { es: "Che sia un problema, è evidente.", en: "That it's a problem is obvious." },
+          { es: "Che piova non vuol dire che dobbiamo restare a casa.", en: "Just because it's raining doesn't mean we have to stay home." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate, fronting the che-clause.", source: "That he's good is beyond doubt.", answer: "Che sia bravo è indubbio.", altAnswers: ["Che sia bravo è fuori discussione.", "Che sia bravo è fuori dubbio."], explanation: "Clause as subject: subjunctive, no pronoun." },
@@ -330,9 +367,9 @@ export const IT_C1_U07: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate. You know which flat.", source: "I want the flat that has a balcony.", answer: "Voglio l'appartamento che ha il balcone.", altAnswers: ["Voglio l'appartamento che ha un balcone."], explanation: "Identified flat: indicative." },
-      { type: "translate", direction: "en-es", prompt: "Translate. Any flat will do.", source: "I want a flat that has a balcony.", answer: "Voglio un appartamento che abbia il balcone.", altAnswers: ["Voglio un appartamento che abbia un balcone."], explanation: "Any flat of that kind: subjunctive." },
-      { type: "translate", direction: "en-es", prompt: "Translate, sympathising (tu).", source: "I understand that you're angry.", answer: "Capisco che tu sia arrabbiato.", altAnswers: ["Capisco che tu sia arrabbiata."], explanation: "Accepting a feeling: subjunctive." },
+      { type: "translate", direction: "en-es", prompt: "Translate. You know which apartment.", source: "I want the apartment that has a balcony.", answer: "Voglio l'appartamento che ha il balcone.", altAnswers: ["Voglio l'appartamento che ha un balcone."], explanation: "Identified apartment: indicative." },
+      { type: "translate", direction: "en-es", prompt: "Translate. Any apartment will do.", source: "I want an apartment that has a balcony.", answer: "Voglio un appartamento che abbia il balcone.", altAnswers: ["Voglio un appartamento che abbia un balcone."], explanation: "Any apartment of that kind: subjunctive." },
+      { type: "translate", direction: "en-es", prompt: "Translate, sympathizing (tu).", source: "I understand that you're angry.", answer: "Capisco che tu sia arrabbiato.", altAnswers: ["Capisco che tu sia arrabbiata."], explanation: "Accepting a feeling: subjunctive." },
       { type: "translate", direction: "en-es", prompt: "Translate.", source: "Tell her to call me.", answer: "Dille che mi chiami.", altAnswers: ["Dille di chiamarmi."], explanation: "\"Dire che\" + subjunctive = an order; \"dire di\" + infinitive also works." },
       { type: "translate", direction: "en-es", prompt: "Translate with a stand-alone subjunctive.", source: "Could he be ill?", answer: "Che sia malato?", altAnswers: ["Che stia male?"], explanation: "A suspicion." },
       { type: "translate", direction: "en-es", prompt: "Translate with a stand-alone subjunctive.", source: "If only I had known!", answer: "Se l'avessi saputo!", altAnswers: ["Magari l'avessi saputo!", "L'avessi saputo!", "Avessi saputo!"], explanation: "Pluperfect subjunctive: regret." },
@@ -362,13 +399,13 @@ export const IT_C1_U07: Lesson[] = [
         heading: "Waiting for a letter",
         body: [
           "The text in this lab is a short literary piece written for this course, in the style of mid-twentieth-century Italian prose. It is set in Trieste in the 1950s. Elena waits for a letter from Marco, who has emigrated and stopped writing.",
-          "First paragraph: \"Che Marco non tornasse più, Elena lo sapeva da settimane. Eppure ogni mattina scendeva in portineria, come se una lettera potesse ancora arrivare. Cercava, tra le buste, una calligrafia che le fosse familiare\". Three subjunctives, three meanings: a fronted clause (what she already knows), \"come se\" (an unreal comparison) and a relative clause (any handwriting she might recognise).",
+          "First paragraph: \"Che Marco non tornasse più, Elena lo sapeva da settimane. Eppure ogni mattina scendeva in portineria, come se una lettera potesse ancora arrivare. Cercava, tra le buste, una calligrafia che le fosse familiare\". Three subjunctives, three meanings: a fronted clause (what she already knows), \"come se\" (an unreal comparison) and a relative clause (any handwriting she might recognize).",
         ],
         examples: [
           { es: "Che Marco non tornasse più, Elena lo sapeva da settimane.", en: "Elena had known for weeks that Marco would not come back." },
           { es: "Ogni mattina scendeva in portineria.", en: "Every morning she went down to the porter's lodge." },
           { es: "Come se una lettera potesse ancora arrivare.", en: "As if a letter could still arrive." },
-          { es: "Cercava una calligrafia che le fosse familiare.", en: "She looked for handwriting that she might recognise." },
+          { es: "Cercava una calligrafia che le fosse familiare.", en: "She looked for handwriting that she might recognize." },
         ],
         checkpoint: [
           { type: "multiple-choice", question: "Why \"che le fosse familiare\" and not \"che le era familiare\"?", options: ["She is looking for any familiar handwriting, which may not be there.", "Because \"cercare\" always takes the subjunctive.", "Because the story is in the past.", "Because the handwriting belongs to Marco."], correctIndex: 0, explanation: "Sought-after, unidentified thing: subjunctive." },
@@ -413,7 +450,7 @@ export const IT_C1_U07: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate in the style of the text.", source: "Elena had known for weeks that Marco would not come back.", answer: "Che Marco non tornasse più, Elena lo sapeva da settimane.", altAnswers: ["Elena sapeva da settimane che Marco non sarebbe più tornato."], explanation: "Fronted clause with subjunctive, or normal order with the future in the past." },
-      { type: "translate", direction: "en-es", prompt: "Translate in the style of the text.", source: "She looked for handwriting that she might recognise.", answer: "Cercava una calligrafia che le fosse familiare.", altAnswers: ["Cercava una scrittura che le fosse familiare."], explanation: "Relative subjunctive." },
+      { type: "translate", direction: "en-es", prompt: "Translate in the style of the text.", source: "She looked for handwriting that she might recognize.", answer: "Cercava una calligrafia che le fosse familiare.", altAnswers: ["Cercava una scrittura che le fosse familiare."], explanation: "Relative subjunctive." },
       { type: "translate", direction: "en-es", prompt: "Translate in the style of the text.", source: "The porter's wife looked at her with pity.", answer: "La portinaia la guardava con pietà.", explanation: "\"La portinaia\" = the porter's wife, or the female porter." },
       { type: "translate", direction: "en-es", prompt: "Translate in the style of the text.", source: "'If only he would write at least a couple of lines.'", answer: "«Magari scrivesse almeno due righe.»", altAnswers: ["\"Magari scrivesse almeno due righe.\"", "«Scrivesse almeno due righe.»"], explanation: "\"Magari\" + imperfect subjunctive." },
       { type: "translate", direction: "en-es", prompt: "Translate in the style of the text (passato remoto).", source: "One morning she found a light-blue envelope.", answer: "Una mattina trovò una busta azzurra.", explanation: "\"Azzurro\" = light blue." },
@@ -448,11 +485,11 @@ export const IT_C1_U07: Lesson[] = [
       {
         heading: "Meaning errors",
         body: [
-          "Each sentence comes from an advanced learner's emails and essays. Some mistakes break grammar; others say something the writer didn't mean. \"*Cerco un appartamento che costi 500 euro: l'ho visto ieri in via Verdi\" uses the subjunctive for a flat the writer has already seen: it should be \"costa\". \"*Il fatto è che non abbia tempo\" mixes up \"il fatto che\" and \"il fatto è che\": the explanation needs \"ho\".",
-          "\"*Magari sarebbe vero!\" puts a conditional where a wish needs the subjunctive: \"Magari fosse vero!\". \"*Capisco che tu sia stanco: hai gli occhi rossi\" uses the sympathising subjunctive for a simple observation: \"sei\" fits better.",
+          "Each sentence comes from an advanced learner's emails and essays. Some mistakes break grammar; others say something the writer didn't mean. \"*Cerco un appartamento che costi 500 euro: l'ho visto ieri in via Verdi\" uses the subjunctive for an apartment the writer has already seen: it should be \"costa\". \"*Il fatto è che non abbia tempo\" mixes up \"il fatto che\" and \"il fatto è che\": the explanation needs \"ho\".",
+          "\"*Magari sarebbe vero!\" puts a conditional where a wish needs the subjunctive: \"Magari fosse vero!\". \"*Capisco che tu sia stanco: hai gli occhi rossi\" uses the sympathizing subjunctive for a simple observation: \"sei\" fits better.",
         ],
         examples: [
-          { es: "Cerco un appartamento che costa 500 euro: l'ho visto ieri.", en: "I'm looking for a flat that costs 500 euros: I saw it yesterday." },
+          { es: "Cerco un appartamento che costa 500 euro: l'ho visto ieri.", en: "I'm looking for an apartment that costs 500 euros: I saw it yesterday." },
           { es: "Il fatto è che non ho tempo.", en: "The thing is, I don't have time." },
           { es: "Magari fosse vero!", en: "If only it were true!" },
           { es: "Capisco che sei stanco: hai gli occhi rossi.", en: "I can see you're tired: your eyes are red." },
@@ -482,7 +519,7 @@ export const IT_C1_U07: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Cerco un appartamento che costi 500 euro: l'ho visto ieri\". Fix it: I'm looking for a flat that costs 500 euros: I saw it yesterday.", source: "I'm looking for a flat that costs 500 euros: I saw it yesterday.", answer: "Cerco un appartamento che costa 500 euro: l'ho visto ieri.", explanation: "Identified flat: indicative." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Cerco un appartamento che costi 500 euro: l'ho visto ieri\". Fix it: I'm looking for an apartment that costs 500 euros: I saw it yesterday.", source: "I'm looking for an apartment that costs 500 euros: I saw it yesterday.", answer: "Cerco un appartamento che costa 500 euro: l'ho visto ieri.", explanation: "Identified apartment: indicative." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Capisco che tu sia stanco: hai gli occhi rossi\". Fix it: I can see you're tired: your eyes are red.", source: "I can see you're tired: your eyes are red.", answer: "Capisco che sei stanco: hai gli occhi rossi.", altAnswers: ["Vedo che sei stanco: hai gli occhi rossi.", "Capisco che sei stanca: hai gli occhi rossi."], explanation: "Observation: indicative." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Che sia difficile, so\". Fix it: I know it's difficult.", source: "I know it's difficult.", answer: "Che sia difficile, lo so.", altAnswers: ["So che è difficile."], explanation: "Fronted clause needs \"lo\"." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Prima che arriva, prepariamo la cena\". Fix it: Before he arrives, let's make dinner.", source: "Before he arrives, let's make dinner.", answer: "Prima che arrivi, prepariamo la cena.", altAnswers: ["Prima che arrivi prepariamo la cena."], explanation: "\"Prima che\" + subjunctive." },
@@ -518,7 +555,7 @@ export const IT_C1_U07: Lesson[] = [
           { es: "Il fatto che le bozze siano arrivate tardi ha creato problemi.", en: "The fact that the proofs arrived late caused problems." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate Giulia's line (tu).", source: "I understand that you're under pressure.", answer: "Capisco che tu sia sotto pressione.", explanation: "Sympathising subjunctive." },
+          { type: "translate", direction: "en-es", prompt: "Translate Giulia's line (tu).", source: "I understand that you're under pressure.", answer: "Capisco che tu sia sotto pressione.", explanation: "Sympathizing subjunctive." },
           { type: "translate", direction: "en-es", prompt: "Translate Matteo's question (tu).", source: "What exactly do you mean?", answer: "Cosa intendi esattamente?", altAnswers: ["Che cosa intendi esattamente?", "Cosa vuoi dire esattamente?"], explanation: "\"Intendere\" = to mean." },
         ],
       },
@@ -569,7 +606,7 @@ export const IT_C1_U07: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[What exactly do you mean]? That I'm not doing my job?", sentence: "___? Che non faccio il mio lavoro?", answer: "Cosa intendi esattamente", altAnswers: ["Che cosa intendi esattamente", "Cosa vuoi dire esattamente"], explanation: "Asking for precision." },
       { type: "fill-blank", prompt: "Write the Italian for the bold word.", en: "Nobody had told me that the printer [was waiting].", sentence: "Nessuno mi aveva detto che la tipografia ___.", answer: "aspettava", explanation: "Reported fact: indicative." },
       { type: "multiple-choice", question: "Giulia says \"Ammettiamo che nessuno te l'abbia detto\". What does she mean?", options: ["Let's suppose that's true, without agreeing.", "She admits that nobody told him.", "She tells him to admit it.", "She thinks he is lying."], correctIndex: 0, explanation: "\"Ammettiamo che\" + subjunctive = let's suppose." },
-      { type: "listen-choose", audio: "Che fossi in ritardo, lo sapevo. Ma nessuno mi aveva detto che la tipografia aspettava.", question: "What is Matteo's defence?", options: ["He knew he was late but not that the printer was waiting.", "He didn't know he was late.", "The printer was late, not him.", "He finished on time."], correctIndex: 0, explanation: "Concession with a fronted clause, then \"ma\"." },
+      { type: "listen-choose", audio: "Che fossi in ritardo, lo sapevo. Ma nessuno mi aveva detto che la tipografia aspettava.", question: "What is Matteo's defense?", options: ["He knew he was late but not that the printer was waiting.", "He didn't know he was late.", "The printer was late, not him.", "He finished on time."], correctIndex: 0, explanation: "Concession with a fronted clause, then \"ma\"." },
       { type: "speak", text: "Capisco che tu sia sotto pressione. Cerchiamo qualcuno che possa aiutarti.", prompt: "As Giulia, calm the situation (tu): I understand that you're under pressure. Let's find someone who can help you.", tip: "Warm, steady tone; stress \"capisco\".", explanation: "Sympathy + a solution." },
     ],
   },
@@ -595,7 +632,7 @@ export const IT_C1_U07: Lesson[] = [
           { es: "Ti scrivo con sincerità, come mi hai chiesto.", en: "I'm writing to you honestly, as you asked." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate for the email (tu).", source: "I understand that this means a lot to you.", answer: "Capisco che tu ci tenga molto.", altAnswers: ["Capisco che ci tenga molto.", "Capisco che per te sia molto importante."], explanation: "\"Tenerci\" = to care about something; sympathising subjunctive." },
+          { type: "translate", direction: "en-es", prompt: "Translate for the email (tu).", source: "I understand that this means a lot to you.", answer: "Capisco che tu ci tenga molto.", altAnswers: ["Capisco che ci tenga molto.", "Capisco che per te sia molto importante."], explanation: "\"Tenerci\" = to care about something; sympathizing subjunctive." },
           { type: "translate", direction: "en-es", prompt: "Translate, fronting the che-clause (tu).", source: "Everyone in the office knows you have excellent ideas.", answer: "Che tu abbia ottime idee, lo sanno tutti in ufficio.", altAnswers: ["Che tu abbia ottime idee lo sanno tutti in ufficio."], explanation: "Fronted clause + \"lo\"." },
         ],
       },
@@ -608,13 +645,13 @@ export const IT_C1_U07: Lesson[] = [
         examples: [
           { es: "Il fatto che a volte le scadenze slittino potrebbe pesare.", en: "The fact that deadlines sometimes slip could count against you." },
           { es: "Non dico che tu non sia pronta.", en: "I'm not saying you're not ready." },
-          { es: "Il fatto è che il ruolo richiede soprattutto organizzazione.", en: "The thing is, the role above all requires organisation." },
+          { es: "Il fatto è che il ruolo richiede soprattutto organizzazione.", en: "The thing is, the role above all requires organization." },
           { es: "Cerchiamo insieme un metodo che ti aiuti con i tempi.", en: "Let's look together for a method that helps you with timing." },
           { es: "La lettera te la scrivo volentieri.", en: "I'll gladly write you the letter." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate for the email (tu, to a woman).", source: "I'm not saying you're not ready.", answer: "Non dico che tu non sia pronta.", altAnswers: ["Non sto dicendo che tu non sia pronta."], explanation: "Negated verb of saying: subjunctive." },
-          { type: "fill-blank", prompt: "Write the Italian for the bold word.", en: "The thing is, the role [requires] organisation above all.", sentence: "Il fatto è che il ruolo ___ soprattutto organizzazione.", answer: "richiede", explanation: "Indicative after \"il fatto è che\"." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold word.", en: "The thing is, the role [requires] organization above all.", sentence: "Il fatto è che il ruolo ___ soprattutto organizzazione.", answer: "richiede", explanation: "Indicative after \"il fatto è che\"." },
         ],
       },
     ],
@@ -622,11 +659,11 @@ export const IT_C1_U07: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate for the email.", source: "Dear Chiara, thank you for your trust.", answer: "Cara Chiara, grazie per la fiducia.", altAnswers: ["Cara Chiara, ti ringrazio per la fiducia."], explanation: "Warm opening." },
       { type: "translate", direction: "en-es", prompt: "Translate for the email.", source: "I'm writing to you honestly, as you asked.", answer: "Ti scrivo con sincerità, come mi hai chiesto.", altAnswers: ["Ti scrivo sinceramente, come mi hai chiesto."], explanation: "\"Con sincerità\" = honestly." },
       { type: "translate", direction: "en-es", prompt: "Translate for the email.", source: "The fact that deadlines sometimes slip could count against you.", answer: "Il fatto che a volte le scadenze slittino potrebbe pesare.", altAnswers: ["Il fatto che a volte le scadenze slittino potrebbe pesare nella valutazione.", "Il fatto che a volte le scadenze slittino potrebbe pesare contro di te."], explanation: "Problem as a topic: subjunctive." },
-      { type: "translate", direction: "en-es", prompt: "Translate for the email.", source: "The thing is, the role above all requires organisation.", answer: "Il fatto è che il ruolo richiede soprattutto organizzazione.", explanation: "Your view stated plainly: indicative." },
+      { type: "translate", direction: "en-es", prompt: "Translate for the email.", source: "The thing is, the role above all requires organization.", answer: "Il fatto è che il ruolo richiede soprattutto organizzazione.", explanation: "Your view stated plainly: indicative." },
       { type: "translate", direction: "en-es", prompt: "Translate for the email (tu).", source: "Let's look together for a method that helps you with timing.", answer: "Cerchiamo insieme un metodo che ti aiuti con i tempi.", altAnswers: ["Cerchiamo insieme un metodo che ti aiuti a gestire i tempi."], explanation: "Any method that works: subjunctive." },
       { type: "translate", direction: "en-es", prompt: "Translate for the email (tu).", source: "I'll gladly write you the letter.", answer: "La lettera te la scrivo volentieri.", altAnswers: ["Ti scrivo volentieri la lettera."], explanation: "Fronted object + \"te la\"." },
       { type: "translate", direction: "en-es", prompt: "Translate for the email.", source: "Good luck!", answer: "In bocca al lupo!", explanation: "The reply is \"Crepi!\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold word.", en: "I understand that you [want] this post.", sentence: "Capisco che tu ___ questo posto.", answer: "voglia", explanation: "Sympathising subjunctive." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold word.", en: "I understand that you [want] this post.", sentence: "Capisco che tu ___ questo posto.", answer: "voglia", explanation: "Sympathizing subjunctive." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[If it were up to me], I would give you the job tomorrow.", sentence: "___, ti darei il posto domani.", answer: "Fosse per me", altAnswers: ["Se fosse per me"], explanation: "Frozen subjunctive." },
       {
         type: "word-order",
@@ -636,8 +673,8 @@ export const IT_C1_U07: Lesson[] = [
         explanation: "Negated verb of saying + subjunctive.",
       },
       { type: "multiple-choice", question: "Which sentence raises the problem most tactfully?", options: ["Il fatto che a volte le scadenze slittino potrebbe pesare.", "Sei sempre in ritardo con tutto.", "Non sei pronta, punto.", "Tutti dicono che sei disorganizzata."], correctIndex: 0, explanation: "A topic, a subjunctive and a conditional soften the point." },
-      { type: "listen-choose", audio: "Che tu abbia ottime idee, lo sanno tutti. Il fatto è che il ruolo richiede soprattutto organizzazione.", question: "What is the writer's main concern?", options: ["The role needs organisation above all.", "Chiara has no ideas.", "Nobody knows Chiara.", "The role is too easy."], correctIndex: 0, explanation: "Concession, then \"il fatto è che\"." },
-      { type: "speak", text: "Capisco che tu ci tenga molto. Non dico che tu non sia pronta, ma il fatto è che il ruolo richiede organizzazione.", prompt: "Say it kindly to Chiara: I understand this means a lot to you. I'm not saying you're not ready, but the thing is, the role requires organisation.", tip: "Slow down on \"non dico che\".", explanation: "Three mood choices in one turn." },
+      { type: "listen-choose", audio: "Che tu abbia ottime idee, lo sanno tutti. Il fatto è che il ruolo richiede soprattutto organizzazione.", question: "What is the writer's main concern?", options: ["The role needs organization above all.", "Chiara has no ideas.", "Nobody knows Chiara.", "The role is too easy."], correctIndex: 0, explanation: "Concession, then \"il fatto è che\"." },
+      { type: "speak", text: "Capisco che tu ci tenga molto. Non dico che tu non sia pronta, ma il fatto è che il ruolo richiede organizzazione.", prompt: "Say it kindly to Chiara: I understand this means a lot to you. I'm not saying you're not ready, but the thing is, the role requires organization.", tip: "Slow down on \"non dico che\".", explanation: "Three mood choices in one turn." },
     ],
   },
   {
@@ -651,18 +688,18 @@ export const IT_C1_U07: Lesson[] = [
       {
         heading: "What does the speaker believe?",
         body: [
-          "In this lab you hear short exchanges in invented situations: a flat search, a family dinner, an office. Each one turns on a mood. Listen for the verb form: \"abbia\" instead of \"ha\", \"venga\" instead of \"viene\" may be the only clue that the speaker is wishing or doubting rather than stating.",
+          "In this lab you hear short exchanges in invented situations: an apartment search, a family dinner, an office. Each one turns on a mood. Listen for the verb form: \"abbia\" instead of \"ha\", \"venga\" instead of \"viene\" may be the only clue that the speaker is wishing or doubting rather than stating.",
           "In speech the subjunctive is often reduced, so pay attention to context words too: \"magari\", \"chissà\", \"qualsiasi\", \"se solo\".",
         ],
         examples: [
           { es: "Cerco una stanza che sia vicina all'università.", en: "I'm looking for a room near the university." },
           { es: "Ho trovato una stanza che è vicina all'università.", en: "I've found a room that is near the university." },
           { es: "Chissà se arriva in tempo.", en: "I wonder if he'll arrive in time." },
-          { es: "Che sia rimasto bloccato nel traffico?", en: "Could he have got stuck in traffic?" },
+          { es: "Che sia rimasto bloccato nel traffico?", en: "Could he have gotten stuck in traffic?" },
         ],
         checkpoint: [
           { type: "listen-choose", audio: "Ho trovato una stanza che è vicina all'università.", question: "What has the speaker done?", options: ["Found a specific room near the university", "Started looking for a room", "Moved away from the university", "Lost the room"], correctIndex: 0, explanation: "Indicative \"è\": an identified room." },
-          { type: "translate", direction: "en-es", prompt: "Translate as a suspicion.", source: "Could he have got stuck in traffic?", answer: "Che sia rimasto bloccato nel traffico?", altAnswers: ["Che sia rimasto imbottigliato nel traffico?"], explanation: "Stand-alone past subjunctive." },
+          { type: "translate", direction: "en-es", prompt: "Translate as a suspicion.", source: "Could he have gotten stuck in traffic?", answer: "Che sia rimasto bloccato nel traffico?", altAnswers: ["Che sia rimasto imbottigliato nel traffico?"], explanation: "Stand-alone past subjunctive." },
         ],
       },
       {
@@ -684,7 +721,7 @@ export const IT_C1_U07: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "listen-choose", audio: "Cerco una stanza che sia vicina all'università, anche piccola.", question: "What does the speaker want?", options: ["Any room near the university", "A particular room they've seen", "A big flat in the centre", "A room far from the university"], correctIndex: 0, explanation: "Subjunctive \"sia\": any room of that kind." },
+      { type: "listen-choose", audio: "Cerco una stanza che sia vicina all'università, anche piccola.", question: "What does the speaker want?", options: ["Any room near the university", "A particular room they've seen", "A big apartment in the center", "A room far from the university"], correctIndex: 0, explanation: "Subjunctive \"sia\": any room of that kind." },
       { type: "listen-choose", audio: "Non risponde al telefono. Che sia rimasto bloccato nel traffico?", question: "What does the speaker think?", options: ["He may be stuck in traffic.", "He is definitely stuck in traffic.", "He has arrived.", "He doesn't want to talk."], correctIndex: 0, explanation: "Stand-alone subjunctive: a suspicion." },
       { type: "translate", direction: "en-es", prompt: "Translate.", source: "I know it's expensive, but it's worth it.", answer: "Che sia caro, lo so, ma ne vale la pena.", altAnswers: ["So che è caro, ma ne vale la pena.", "Che sia costoso, lo so, ma ne vale la pena."], explanation: "Fronted clause or plain order; \"valerne la pena\" = to be worth it." },
       { type: "translate", direction: "en-es", prompt: "Translate.", source: "I'm looking for a room near the university.", answer: "Cerco una stanza che sia vicina all'università.", altAnswers: ["Sto cercando una stanza che sia vicina all'università.", "Cerco una camera che sia vicina all'università."], explanation: "Any room: subjunctive." },
@@ -695,22 +732,22 @@ export const IT_C1_U07: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold word.", en: "I wonder if he [will arrive] in time.", sentence: "Chissà se ___ in tempo.", answer: "arriva", altAnswers: ["arriverà"], explanation: "\"Chissà se\" + indicative." },
       { type: "translate", direction: "en-es", prompt: "Translate as a suspicion.", source: "Could they have forgotten?", answer: "Che se ne siano dimenticati?", altAnswers: ["Che si siano dimenticati?", "Che l'abbiano dimenticato?"], explanation: "Stand-alone past subjunctive." },
       { type: "dictation", audio: "Che sia caro, lo so, ma è il tuo compleanno.", explanation: "Fronted subjunctive + \"lo so\"." },
-      { type: "speak", text: "Non risponde. Che sia rimasto bloccato nel traffico? Magari arrivasse presto!", prompt: "Wonder aloud about your late friend: He isn't answering. Could he have got stuck in traffic? If only he'd arrive soon!", tip: "Questioning tone, then a sigh on \"Magari\".", explanation: "Suspicion + wish." },
+      { type: "speak", text: "Non risponde. Che sia rimasto bloccato nel traffico? Magari arrivasse presto!", prompt: "Wonder aloud about your late friend: He isn't answering. Could he have gotten stuck in traffic? If only he'd arrive soon!", tip: "Questioning tone, then a sigh on \"Magari\".", explanation: "Suspicion + wish." },
     ],
   },
 ];
 
 export const IT_C1_U07_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Your friend Davide has emailed you: he wants to leave his secure job to open a bookshop café and asks you to lend him 5,000 euros. You care about him but have doubts about the plan and can't lend that much. Reply honestly and kindly: acknowledge his enthusiasm, concede what is good in the idea, explain your doubts and your limits, and propose another way to help.",
+  prompt: "Your friend Davide has emailed you: he wants to leave his secure job to open a bookstore café and asks you to lend him 5,000 euros. You care about him but have doubts about the plan and can't lend that much. Reply honestly and kindly: acknowledge his enthusiasm, concede what is good in the idea, explain your doubts and your limits, and propose another way to help.",
   minWords: 150,
   maxWords: 220,
   rubric: [
-    "Acknowledges and sympathises with the subjunctive (capisco che tu sia..., mi fa piacere che...)",
+    "Acknowledges and sympathizes with the subjunctive (capisco che tu sia..., mi fa piacere che...)",
     "Concedes with a fronted che-clause or il fatto che + subjunctive (Che l'idea sia bella, lo so)",
     "States own position with il fatto è che / resta il fatto che + indicative, and softens with non dico che + subjunctive",
     "Uses at least one mood contrast that changes meaning (cerchiamo un socio che possa... / conosco una persona che può...) and keeps a warm, honest tone",
   ],
   modelAnswer: "Caro Davide, grazie per avermi scritto e per la fiducia. Capisco che tu sia stanco del tuo lavoro, e mi fa piacere che tu abbia finalmente un progetto che ti appassiona. Che l'idea sia bella, lo so: una libreria con caffè in quel quartiere manca davvero. Non dico che non possa funzionare. Il fatto è che aprire un locale oggi è rischioso, e il fatto che tu voglia lasciare il posto fisso subito mi preoccupa un po'. Non sarebbe meglio iniziare con un orario ridotto? Quanto al prestito, ti rispondo con sincerità: cinquemila euro non li ho. Magari li avessi! Mi dispiace davvero, perché so quanto conti per te. Resta il fatto che voglio aiutarti in un altro modo. Conosco una commercialista che si occupa proprio di piccole attività: ti metto in contatto con lei. E se vuoi, cerchiamo insieme un socio che possa investire nel progetto. Fammi sapere quando ci vediamo per parlarne con calma. Un abbraccio, e in bocca al lupo!",
-  explanation: "The reply sympathises with subjunctives (\"Capisco che tu sia stanco\", \"mi fa piacere che tu abbia\"), concedes with a fronted clause (\"Che l'idea sia bella, lo so\") and softens with \"Non dico che non possa funzionare\". The writer's position comes with \"il fatto è che\" + indicative and \"resta il fatto che\". \"Il fatto che tu voglia\" presents the worry as a topic. \"Magari li avessi!\" is a stand-alone wish. The contrast between \"una commercialista che si occupa\" (a real, known person) and \"un socio che possa investire\" (any partner, still to be found) shows a mood choice changing the meaning.",
+  explanation: "The reply sympathizes with subjunctives (\"Capisco che tu sia stanco\", \"mi fa piacere che tu abbia\"), concedes with a fronted clause (\"Che l'idea sia bella, lo so\") and softens with \"Non dico che non possa funzionare\". The writer's position comes with \"il fatto è che\" + indicative and \"resta il fatto che\". \"Il fatto che tu voglia\" presents the worry as a topic. \"Magari li avessi!\" is a stand-alone wish. The contrast between \"una commercialista che si occupa\" (a real, known person) and \"un socio che possa investire\" (any partner, still to be found) shows a mood choice changing the meaning.",
 };

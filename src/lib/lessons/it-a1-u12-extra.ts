@@ -79,7 +79,7 @@ export const IT_A1_U12_EXTRA: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Excuse me, the shower doesn't work.", answer: "Scusi, la doccia non funziona.", altAnswers: ["Mi scusi, la doccia non funziona."], explanation: "\"Funzionare\": -are." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The nine o'clock train is cancelled.", answer: "Il treno delle nove è cancellato.", altAnswers: ["Il treno delle 9 è cancellato.", "Il treno delle nove è soppresso."], explanation: "\"Delle nove\": the nine o'clock one." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The nine o'clock train is cancelled.", answer: "Il treno delle nove è cancellato.", altAnswers: ["Il treno delle 9 è cancellato.", "Il treno delle nove è soppresso.", "Il treno delle nove è stato cancellato.", "Il treno delle nove è stato soppresso."], explanation: "\"Delle nove\": the nine o'clock one." },
         ],
       },
     ],
@@ -93,7 +93,7 @@ export const IT_A1_U12_EXTRA: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "My son has a stomach ache.", answer: "Mio figlio ha mal di pancia.", altAnswers: ["Mio figlio ha mal di stomaco."], explanation: "\"Mal di\" + body part, like \"mal di testa\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "What time do we have to leave the room?", answer: "A che ora dobbiamo lasciare la camera?", explanation: "\"Dobbiamo\" + infinitive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Two tickets to Lucca, single.", answer: "Due biglietti per Lucca, solo andata.", explanation: "\"Solo andata\" = single." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Excuse me, [is this the train] for Pisa?", sentence: "Scusi, ___ per Pisa?", answer: "è questo il treno", explanation: "\"È questo il treno\": a natural question order." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Excuse me, [is this the train] for Pisa?", sentence: "Scusi, ___ per Pisa?", answer: "è questo il treno", altAnswers: ["questo è il treno"], explanation: "\"È questo il treno\": a natural question order." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I need [something for a cough].", sentence: "Ho bisogno di ___.", answer: "qualcosa per la tosse", explanation: "\"Avere bisogno di\"." },
       { type: "word-order", prompt: "Put the words in order to say: Can I leave the suitcases at reception?", words: ["Posso", "lasciare", "le", "valigie", "alla", "reception?"], translation: "Can I leave the suitcases at reception?", explanation: "\"Alla reception\"." },
       { type: "listen-choose", audio: "Il treno per Siena parte dal binario nove, non dal binario due.", question: "Which platform?", options: ["9", "2", "19", "12"], correctIndex: 0, explanation: "\"Non dal binario due\": the platform changed to nine." },

@@ -18,8 +18,8 @@ export const IT_CULTURE_U10: Lesson[] = [
       {
         heading: "Un codice per tutto",
         body: [
-          "\"Il codice fiscale\" is Italy's personal tax code, and in practice it's your ID number for almost everything: renting a flat, signing a phone contract, opening a bank account, seeing a doctor, even some online shopping. Everyone who lives in Italy has one, foreigners included.",
-          "It's printed on \"la tessera sanitaria\", the blue health card, and you'll be asked for it constantly: \"Mi dà il codice fiscale?\"",
+          "\"Il codice fiscale\" is Italy's personal tax code, and in practice it's your ID number for almost everything: renting an apartment, signing a phone contract, opening a bank account, seeing a doctor, even some online shopping. Anyone who lives or works in Italy needs one, foreigners included.",
+          "It's printed on \"la tessera sanitaria\", the health card, and you'll be asked for it constantly: \"Mi dà il codice fiscale?\"",
         ],
         examples: [
           { es: "Mi dà il codice fiscale, per favore?", en: "Can you give me your tax code, please?" },
@@ -52,7 +52,7 @@ export const IT_CULTURE_U10: Lesson[] = [
       {
         heading: "Dove si chiede",
         body: [
-          "You get it free from \"l'Agenzia delle Entrate\", the tax office, by bringing your passport and filling in a form. If you're abroad, an Italian consulate can issue it. Non-EU citizens often receive it as part of their residence permit process.",
+          "You get it free from \"l'Agenzia delle Entrate\", the tax office, by bringing your passport and filling out a form. If you're abroad, an Italian consulate can issue it. Non-EU citizens often receive it as part of their residence permit process.",
           "Keep a copy on your phone: when you dictate it, Italians spell letters with city names, as in \"A come Ancona, B come Bologna\".",
         ],
         examples: [
@@ -63,7 +63,7 @@ export const IT_CULTURE_U10: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You have to bring your passport.", answer: "Bisogna portare il passaporto.", altAnswers: ["Devi portare il passaporto.", "Bisogna portare il proprio passaporto."], explanation: "\"Bisogna\" + infinitive = one must." },
-          { type: "listen-choose", audio: "B come Bologna, R come Roma.", question: "What is the speaker doing?", options: ["Spelling letters with city names.", "Listing train stops.", "Naming football teams.", "Giving directions."], correctIndex: 0, explanation: "Italians spell with city names." },
+          { type: "listen-choose", audio: "B come Bologna, R come Roma.", question: "What is the speaker doing?", options: ["Spelling letters with city names.", "Listing train stops.", "Naming soccer teams.", "Giving directions."], correctIndex: 0, explanation: "Italians spell with city names." },
         ],
       },
     ],
@@ -75,7 +75,7 @@ export const IT_CULTURE_U10: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's free.", answer: "È gratuito.", altAnswers: ["È gratis."], explanation: "\"Gratuito\" or \"gratis\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The [date of birth] is inside it.", sentence: "Dentro c'è la ___.", answer: "data di nascita", explanation: "\"La nascita\" = birth." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Can you give me your [tax code], please?", sentence: "Mi dà il ___, per favore?", answer: "codice fiscale", explanation: "\"Fiscale\" = tax-related." },
-      { type: "word-order", prompt: "Put the words in order to say: I need the tax code to rent a flat.", words: ["Mi", "serve", "il", "codice", "fiscale", "per", "affittare", "casa."], translation: "I need the tax code to rent a flat.", explanation: "\"Mi serve\" = I need." },
+      { type: "word-order", prompt: "Put the words in order to say: I need the tax code to rent an apartment.", words: ["Mi", "serve", "il", "codice", "fiscale", "per", "affittare", "casa."], translation: "I need the tax code to rent an apartment.", explanation: "\"Mi serve\" = I need." },
       {
         type: "matching",
         instructions: "Match the Italian to the English.",
@@ -206,7 +206,7 @@ export const IT_CULTURE_U10: Lesson[] = [
         heading: "Prendere il numero",
         body: [
           "When you enter, take a number from the machine (\"prendere il numero\") and choose the right service: letters and parcels, or payments and banking. Then wait until your number appears on the screen. Many offices also let you book a time in the app and skip the wait.",
-          "Don't jump the line: Italians may look relaxed about queues, but at the post office, numbers are sacred.",
+          "Don't jump the line: Italians may look relaxed about lines, but at the post office, numbers are sacred.",
         ],
         examples: [
           { es: "Prima prendi il numero.", en: "First take a number." },
@@ -274,7 +274,7 @@ export const IT_CULTURE_U10: Lesson[] = [
         heading: "Lo sciopero",
         body: [
           "\"Lo sciopero\" (strike) is a common part of Italian life, especially in transport: trains, buses, metro, flights and taxis. The right to strike is in the Constitution, and many strikes last only a few hours or a single day.",
-          "The good news: in public services strikes must be announced in advance, usually at least ten days before. The Ministry of Transport publishes a calendar online, and the news and transport apps warn about them.",
+          "The good news: in public services strikes must be announced in advance, usually at least ten days before. The Ministry of Infrastructure and Transport publishes a calendar online, and the news and transport apps warn about them.",
         ],
         examples: [
           { es: "Venerdì c'è sciopero dei treni.", en: "There's a train strike on Friday." },
@@ -358,7 +358,7 @@ export const IT_CULTURE_U10: Lesson[] = [
       {
         heading: "Il medico di base",
         body: [
-          "Italy has a national health service, \"il Servizio Sanitario Nazionale\" (SSN), created in 1978 and paid for mainly by taxes. When you register with your local health authority, \"l'ASL\", you choose \"un medico di base\" (or \"medico di famiglia\"), a family doctor, free of charge.",
+          "Italy has a national health service, \"il Servizio Sanitario Nazionale\" (SSN), created in 1978 and paid for mainly by taxes. When you register with your local health authority (often called \"l'ASL\", though the name varies by region), you choose \"un medico di base\" (or \"medico di famiglia\"), a family doctor, free of charge.",
           "The medico di base is your first stop for everything: visits, sick notes for work, prescriptions and referrals to specialists. Office hours are often short, so check them, and many doctors see patients without appointments at set times.",
         ],
         examples: [
@@ -392,8 +392,8 @@ export const IT_CULTURE_U10: Lesson[] = [
       {
         heading: "La farmacia",
         body: [
-          "The green cross means \"la farmacia\". Italian pharmacists give a lot of advice: for a cold or a stomach ache, Italians often ask the pharmacist before the doctor. Medicines are sold in pharmacies (and in some \"parafarmacie\"), not on supermarket shelves.",
-          "At night and on holidays, \"la farmacia di turno\" stays open on a rotating schedule: every pharmacy displays a list of who's on duty. For emergencies, call 112 or go to \"il pronto soccorso\".",
+          "The green cross means \"la farmacia\". Italian pharmacists give a lot of advice: for a cold or a stomach ache, Italians often ask the pharmacist before the doctor. Medicines are sold in pharmacies; over-the-counter ones are also sold in \"parafarmacie\" and in some supermarkets' pharmacy corners, always by a pharmacist, never on ordinary shelves.",
+          "At night and on holidays, \"la farmacia di turno\" stays open on a rotating schedule: every pharmacy displays a list of who's on duty. For emergencies, call 112 (118 also still works for an ambulance) or go to \"il pronto soccorso\".",
         ],
         examples: [
           { es: "Ho mal di gola. Cosa mi consiglia?", en: "I have a sore throat. What do you recommend?" },
@@ -460,7 +460,7 @@ export const IT_CULTURE_U10: Lesson[] = [
       {
         heading: "Convalidare il biglietto",
         body: [
-          "The golden rule: \"convalidare\" (validate) your ticket. Paper tickets for regional trains without a fixed time must be stamped in the small machines on the platform before you board. Digital tickets often need a check-in in the app. On buses and trams, stamp your ticket in the machine on board as soon as you get on.",
+          "The golden rule: \"convalidare\" (validate) your ticket. Paper tickets for regional trains without a fixed time must be stamped in the small machines on the platform before you board. Some digital regional tickets need a check-in in the app before you board: rules vary, so read the instructions on your ticket. On buses and trams, stamp your ticket in the machine on board as soon as you get on.",
           "If \"il controllore\" (the inspector) finds you with an unvalidated ticket, you can get \"una multa\", a fine, even if you bought it. Saying you didn't know rarely works.",
         ],
         examples: [
@@ -532,14 +532,14 @@ export const IT_CULTURE_U10: Lesson[] = [
           "Ask about \"le spese\": on top of the rent there are often building costs, and heating may be \"centralizzato\" (shared and run by the building) or \"autonomo\" (your own boiler).",
         ],
         examples: [
-          { es: "Cerco un bilocale in centro.", en: "I'm looking for a one-bedroom flat downtown." },
+          { es: "Cerco un bilocale in centro.", en: "I'm looking for a one-bedroom apartment downtown." },
           { es: "L'appartamento è arredato?", en: "Is the apartment furnished?" },
           { es: "Le spese sono comprese?", en: "Are the building costs included?" },
-          { es: "Il riscaldamento è autonomo.", en: "The heating is independent." },
+          { es: "Il riscaldamento è autonomo.", en: "The apartment has its own heating." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Is the apartment furnished?", answer: "L'appartamento è arredato?", altAnswers: ["La casa è arredata?"], explanation: "\"Arredato\" = furnished." },
-          { type: "multiple-choice", question: "What is \"un bilocale\"?", options: ["a flat with two main rooms", "a two-story house", "a shared room", "a flat for two families"], correctIndex: 0, explanation: "Living room + bedroom, plus kitchen and bath." },
+          { type: "multiple-choice", question: "What is \"un bilocale\"?", options: ["an apartment with two main rooms", "a two-story house", "a shared room", "an apartment for two families"], correctIndex: 0, explanation: "Living room + bedroom, plus kitchen and bath." },
         ],
       },
       {
@@ -562,8 +562,8 @@ export const IT_CULTURE_U10: Lesson[] = [
       {
         heading: "Il condominio",
         body: [
-          "Most Italians live in apartment buildings, \"i condomini\". A building is run by \"l'amministratore\" (the building manager), and owners meet in \"l'assemblea di condominio\", famous for its endless arguments. Each building has its own rules, often including quiet hours in the early afternoon and at night.",
-          "Learn \"la raccolta differenziata\": waste is sorted into paper, plastic, glass, organic and general waste, with different collection days. Neighbors notice when you get it wrong.",
+          "Most Italians live in apartment buildings, \"i condomini\". A building is run by \"l'amministratore\" (the building manager), and owners meet in \"l'assemblea di condominio\", famous for its endless arguments. Each building has its own rules (\"il regolamento\"), which often include quiet hours, typically in the early afternoon and at night; times vary.",
+          "Learn \"la raccolta differenziata\": waste is sorted into paper, plastic, glass, organic and general waste, and the categories and collection days vary from town to town. Neighbors notice when you get it wrong.",
         ],
         examples: [
           { es: "C'è la riunione di condominio stasera.", en: "There's a building meeting tonight." },
@@ -578,7 +578,7 @@ export const IT_CULTURE_U10: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm looking for a one-bedroom flat downtown.", answer: "Cerco un bilocale in centro.", altAnswers: ["Sto cercando un bilocale in centro."], explanation: "\"Cercare\" without \"per\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm looking for a one-bedroom apartment downtown.", answer: "Cerco un bilocale in centro.", altAnswers: ["Sto cercando un bilocale in centro."], explanation: "\"Cercare\" without \"per\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Are the building costs included?", answer: "Le spese sono comprese?", altAnswers: ["Le spese condominiali sono comprese?", "Sono comprese le spese?"], explanation: "\"Compreso\" = included." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The rent is eight hundred euros a month.", answer: "L'affitto è di ottocento euro al mese.", altAnswers: ["L'affitto è ottocento euro al mese.", "L'affitto costa ottocento euro al mese."], explanation: "\"Al mese\" = per month." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "There's a building meeting tonight.", answer: "C'è la riunione di condominio stasera.", altAnswers: ["Stasera c'è la riunione di condominio.", "Stasera c'è l'assemblea di condominio."], explanation: "\"La riunione\" = meeting." },
@@ -590,7 +590,7 @@ export const IT_CULTURE_U10: Lesson[] = [
         type: "matching",
         instructions: "Match the Italian to the English.",
         pairs: [
-          { left: "il monolocale", right: "the studio flat" },
+          { left: "il monolocale", right: "the studio apartment" },
           { left: "arredato", right: "furnished" },
           { left: "l'affitto", right: "the rent" },
           { left: "il deposito cauzionale", right: "the security deposit" },
@@ -599,7 +599,7 @@ export const IT_CULTURE_U10: Lesson[] = [
         explanation: "Housing vocabulary.",
       },
       { type: "dictation", audio: "L'appartamento è arredato?", explanation: "\"Appartamento\": double p." },
-      { type: "speak", text: "Buongiorno, chiamo per l'annuncio del bilocale: è ancora disponibile?", prompt: "Say it in Italian: Good morning, I'm calling about the ad for the one-bedroom flat: is it still available?", tip: "Di-spo-NI-bi-le: stress on -ni-.", explanation: "\"Chiamare per\" = to call about." },
+      { type: "speak", text: "Buongiorno, chiamo per l'annuncio del bilocale: è ancora disponibile?", prompt: "Say it in Italian: Good morning, I'm calling about the ad for the one-bedroom apartment: is it still available?", tip: "Di-spo-NI-bi-le: stress on -ni-.", explanation: "\"Chiamare per\" = to call about." },
     ],
   },
   {
@@ -614,7 +614,7 @@ export const IT_CULTURE_U10: Lesson[] = [
         heading: "Le pratiche",
         body: [
           "Davide: \"Allora, come va la prima settimana?\" Anna: \"Bene, ma ho una lista infinita di cose da fare!\" Davide: \"Normale. Prima di tutto il codice fiscale, poi il permesso di soggiorno.\" Anna: \"Il permesso si chiede in posta, vero?\" Davide: \"Sì, con il kit. Hai otto giorni dall'arrivo.\"",
-          "Non-EU citizens who stay more than three months must request \"il permesso di soggiorno\" (residence permit) within eight working days of arriving, usually starting with a kit from the post office. Paperwork is \"le pratiche\", and Italians call the maze of offices \"la burocrazia\".",
+          "Non-EU citizens who stay more than three months must request \"il permesso di soggiorno\" (residence permit) within eight working days of arriving, usually starting with a kit from the post office. The rules and steps change, so check the current ones with the Questura or your employer. Paperwork is \"le pratiche\", and Italians call the maze of offices \"la burocrazia\".",
         ],
         examples: [
           { es: "Ho una lista infinita di cose da fare.", en: "I have an endless list of things to do." },

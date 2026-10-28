@@ -18,8 +18,8 @@ export const IT_C1_U17_EXTRA: Lesson[] = [
       {
         heading: "Three short texts",
         body: [
-          "A head teacher's farewell: \"Siete arrivati bambini, ve ne andate ragazzi, tornerete adulti. Non vi chiedo di ricordare le formule: vi chiedo di ricordare le domande.\" A climax of ages, then an antithesis (\"le formule... le domande\").",
-          "A market trader: \"Signora, guardi qua! Pesche così non le trova da nessuna parte: dolci, succose, profumate. E il prezzo? Il prezzo non è un problema!\" An enumeration of three adjectives, a question asked and answered (\"E il prezzo?\") and a litote-like reassurance.",
+          "A principal's farewell: \"Siete arrivati bambini, ve ne andate ragazzi, tornerete adulti. Non vi chiedo di ricordare le formule: vi chiedo di ricordare le domande.\" A climax of ages, then an antithesis (\"le formule... le domande\").",
+          "A market trader: \"Signora, guardi qua! Pesche così non le trova da nessuna parte: dolci, succose, profumate. E il prezzo? Il prezzo non è un problema!\" An enumeration of three adjectives, a question asked and answered (\"E il prezzo?\") and a reassuring denial in place of an actual figure.",
           "A captain before a match: \"Non siamo i più forti. Non siamo i più ricchi. Ma chi corre più di noi? Chi ci crede più di noi? Nessuno.\" Anaphora with \"Non siamo\", then two rhetorical questions with an answer of one word.",
         ],
         examples: [

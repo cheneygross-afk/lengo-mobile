@@ -18,7 +18,7 @@ export const IT_B1_U31: Lesson[] = [
         body: [
           "Italian can make a noun smaller by changing its ending. Drop the final vowel and add a suffix: \"gatto\" → \"gattino\" (kitten), \"casa\" → \"casetta\" (little house), \"albero\" → \"alberello\" (little tree). The gender stays the same: \"la casa\" → \"la casetta\".",
           "The most common suffix is \"-ino / -ina\"; \"-etto / -etta\" is also very common; \"-ello / -ella\" is less frequent and often found in set words (\"paesello\", \"asinello\"). Which one a word takes is decided by use, so learn them as you meet them.",
-          "Nouns in \"-e\" often add a \"c\" or \"ic\": \"fiore\" → \"fiorellino\", \"bastone\" → \"bastoncino\", \"cuore\" → \"cuoricino\".",
+          "Nouns in \"-e\" often add a \"c\" or \"ic\": \"bastone\" → \"bastoncino\", \"cuore\" → \"cuoricino\". Some words stack two suffixes: \"fiore\" → \"fiorellino\", \"cane\" → \"cagnolino\".",
         ],
         examples: [
           { es: "Abbiamo adottato un gattino.", en: "We've adopted a kitten." },
@@ -29,7 +29,7 @@ export const IT_B1_U31: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We've adopted a kitten.", answer: "Abbiamo adottato un gattino.", altAnswers: ["Abbiamo preso un gattino."], explanation: "\"Gatto\" + \"-ino\"." },
-          { type: "listen-choose", audio: "Vivono in una casetta in campagna.", question: "Where do they live?", options: ["in a little house in the country", "in a big house in town", "in a flat in the country", "in a caravan"], correctIndex: 0, explanation: "\"Casetta\" = little house." },
+          { type: "listen-choose", audio: "Vivono in una casetta in campagna.", question: "Where do they live?", options: ["in a little house in the country", "in a big house in town", "in an apartment in the country", "in a caravan"], correctIndex: 0, explanation: "\"Casetta\" = little house." },
         ],
       },
       {
@@ -53,17 +53,17 @@ export const IT_B1_U31: Lesson[] = [
       {
         heading: "False diminutives",
         body: [
-          "Some words look like diminutives but are separate words with their own meaning: \"il mulino\" (mill), \"il tacchino\" (turkey), \"la mattina\" (morning), \"il postino\" (postman), \"il rubinetto\" (tap), \"il panino\" (sandwich roll), \"il tavolino\" (coffee table, café table), \"il fumetto\" (comic).",
+          "Some words look like diminutives but are separate words with their own meaning: \"il mulino\" (mill), \"il tacchino\" (turkey), \"la mattina\" (morning), \"il postino\" (mail carrier), \"il rubinetto\" (faucet), \"il panino\" (sandwich roll), \"il tavolino\" (coffee table, café table), \"il fumetto\" (comic).",
           "So \"un panino\" is not just a small loaf, and \"un tavolino\" at a café is simply the table you sit at.",
         ],
         examples: [
-          { es: "Il postino passa alle dieci.", en: "The postman comes at ten." },
+          { es: "Il postino passa alle dieci.", en: "The mail carrier comes at ten." },
           { es: "A Natale mangiamo il tacchino.", en: "At Christmas we eat turkey." },
-          { es: "Il rubinetto perde.", en: "The tap is dripping." },
+          { es: "Il rubinetto perde.", en: "The faucet is dripping." },
           { es: "C'è un tavolino libero fuori?", en: "Is there a free table outside?" },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The tap is dripping.", answer: "Il rubinetto perde.", altAnswers: ["Il rubinetto gocciola."], explanation: "\"Rubinetto\" is a word of its own." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The faucet is dripping.", answer: "Il rubinetto perde.", altAnswers: ["Il rubinetto gocciola."], explanation: "\"Rubinetto\" is a word of its own." },
           { type: "multiple-choice", question: "\"Il mulino\" is ...", options: ["a mill", "a small mule", "a little wall", "a muffin"], correctIndex: 0, explanation: "A false diminutive." },
         ],
       },
@@ -72,7 +72,7 @@ export const IT_B1_U31: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Shall we grab a quick coffee?", answer: "Prendiamo un caffettino?", altAnswers: ["Ci prendiamo un caffettino?", "Prendiamo un caffè?"], explanation: "\"Caffettino\": friendly, not smaller." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm a little bit tired.", answer: "Sono un pochino stanco.", altAnswers: ["Sono un pochino stanca.", "Sono un po' stanco.", "Sono un po' stanca."], explanation: "\"Un pochino\" = a little bit." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "There's a little tree in the garden.", answer: "C'è un alberello in giardino.", altAnswers: ["C'è un alberello nel giardino."], explanation: "\"Albero\" + \"-ello\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The postman comes at ten.", answer: "Il postino passa alle dieci.", altAnswers: ["Il postino arriva alle dieci.", "Il postino viene alle dieci."], explanation: "\"Postino\": a false diminutive." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The mail carrier comes at ten.", answer: "Il postino passa alle dieci.", altAnswers: ["Il postino arriva alle dieci.", "Il postino viene alle dieci."], explanation: "\"Postino\": a false diminutive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She sent me a little heart.", answer: "Mi ha mandato un cuoricino.", altAnswers: ["Lei mi ha mandato un cuoricino.", "Mi ha inviato un cuoricino."], explanation: "\"Cuore\" → \"cuoricino\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The exam went fairly well.", answer: "L'esame è andato benino.", altAnswers: ["L'esame è andato abbastanza bene."], explanation: "\"Benino\" = fairly well." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Look at the [little feet]!", sentence: "Guarda i ___!", answer: "piedini", explanation: "\"Piede\" → \"piedino\", plural \"piedini\"." },
@@ -94,8 +94,8 @@ export const IT_B1_U31: Lesson[] = [
       {
         heading: "-one: big",
         body: [
-          "\"-one\" makes things big: \"libro\" → \"librone\" (big book), \"naso\" → \"nasone\" (big nose), \"ragazzo\" → \"ragazzone\" (big lad). Feminine nouns can become masculine with \"-one\": \"la porta\" → \"il portone\" (the main door of a building), or keep the feminine with \"-ona\": \"una donnona\".",
-          "Some are separate words: \"il portone\", \"il pallone\" (football), \"il cartone\" (cardboard). Others are expressive: \"un febbrone\" (a very high fever), \"un affarone\" (a great bargain), \"un mangione\" (a big eater).",
+          "\"-one\" makes things big: \"libro\" → \"librone\" (big book), \"naso\" → \"nasone\" (big nose), \"ragazzo\" → \"ragazzone\" (big guy). Feminine nouns can become masculine with \"-one\": \"la porta\" → \"il portone\" (the main door of a building), or keep the feminine with \"-ona\": \"una donnona\".",
+          "Some are separate words: \"il portone\", \"il pallone\" (ball, often a soccer ball), \"il cartone\" (cardboard). Others are expressive: \"un febbrone\" (a very high fever), \"un affarone\" (a great bargain), \"un mangione\" (a big eater).",
         ],
         examples: [
           { es: "Ha un nasone simpatico.", en: "He's got a big, friendly nose." },
@@ -112,15 +112,16 @@ export const IT_B1_U31: Lesson[] = [
       {
         heading: "-accio: bad",
         body: [
-          "\"-accio / -accia\" adds a bad or ugly meaning: \"tempo\" → \"tempaccio\" (awful weather), \"giornata\" → \"giornataccia\" (a terrible day), \"ragazzo\" → \"ragazzaccio\" (a naughty boy), \"posto\" → \"postaccio\" (a dodgy place). \"Una parolaccia\" is a swear word, and \"fare una figuraccia\" means to make a fool of yourself.",
-          "For colours, \"-astro\" means -ish, often unpleasant: \"giallastro\" (yellowish), \"verdastro\".",
+          "\"-accio / -accia\" adds a bad or ugly meaning: \"tempo\" → \"tempaccio\" (awful weather), \"giornata\" → \"giornataccia\" (a terrible day), \"ragazzo\" → \"ragazzaccio\" (a naughty boy), \"posto\" → \"postaccio\" (a sketchy place). \"Una parolaccia\" is a swear word, and \"fare una figuraccia\" means to make a fool of yourself.",
+          "For colors, \"-astro\" means -ish, often unpleasant: \"giallastro\" (yellowish), \"verdastro\".",
+          "Two more endings you'll hear: \"-otto\" means sturdy or chubby (\"un ragazzotto\", \"un bambinotto\"), and \"-uccio\" is tender (\"caruccio\", \"tesoruccio\"). Tone depends on who says it: \"un omone\" (a big man) can be admiring, and friends call each other \"ragazzaccio\" half-affectionately. With people you don't know well, keep pejoratives for weather, days and places.",
         ],
         examples: [
           { es: "Che tempaccio oggi!", en: "What awful weather today!" },
           { es: "Ho avuto una giornataccia.", en: "I've had a terrible day." },
           { es: "Non dire parolacce!", en: "Don't swear!" },
           { es: "Ho fatto una figuraccia davanti al capo.", en: "I made a fool of myself in front of the boss." },
-          { es: "L'acqua aveva un colore giallastro.", en: "The water was a yellowish colour." },
+          { es: "L'acqua aveva un colore giallastro.", en: "The water was a yellowish color." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I've had a terrible day.", answer: "Ho avuto una giornataccia.", altAnswers: ["Ho passato una giornataccia.", "Che giornataccia!"], explanation: "\"Giornata\" + \"-accia\"." },
@@ -136,10 +137,10 @@ export const IT_B1_U31: Lesson[] = [
           { es: "È un libro enorme.", en: "It's a huge book." },
           { es: "È stata una brutta giornata.", en: "It was a bad day." },
           { es: "Quel ragazzaccio ha rotto il vetro.", en: "That naughty boy broke the window." },
-          { es: "È un postaccio, non andarci di sera.", en: "It's a dodgy place, don't go there at night." },
+          { es: "È un postaccio, non andarci di sera.", en: "It's a sketchy place, don't go there at night." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's a dodgy place.", answer: "È un postaccio.", altAnswers: ["È un brutto posto."], explanation: "\"Posto\" + \"-accio\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's a sketchy place.", answer: "È un postaccio.", altAnswers: ["È un brutto posto."], explanation: "\"Posto\" + \"-accio\"." },
           { type: "multiple-choice", question: "\"Fare una figuraccia\" means ...", options: ["to make a fool of yourself", "to draw a picture", "to be very ugly", "to get a bad mark"], correctIndex: 0, explanation: "\"Figura\" + \"-accia\": a bad impression." },
         ],
       },
@@ -175,13 +176,13 @@ export const IT_B1_U31: Lesson[] = [
         ],
         examples: [
           { es: "La costruzione del ponte è finita.", en: "The construction of the bridge has finished." },
-          { es: "Ho fatto la prenotazione online.", en: "I made the booking online." },
-          { es: "Il pagamento si fa alla cassa.", en: "Payment is made at the till." },
+          { es: "Ho fatto la prenotazione online.", en: "I made the reservation online." },
+          { es: "Il pagamento si fa alla cassa.", en: "Payment is made at the register." },
           { es: "È stato un grande cambiamento.", en: "It was a big change." },
           { es: "Mi servono delle informazioni.", en: "I need some information." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I made the booking online.", answer: "Ho fatto la prenotazione online.", altAnswers: ["Ho fatto la prenotazione su internet.", "Ho prenotato online."], explanation: "\"Prenotare\" → \"prenotazione\" (feminine)." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I made the reservation online.", answer: "Ho fatto la prenotazione online.", altAnswers: ["Ho fatto la prenotazione su internet.", "Ho prenotato online."], explanation: "\"Prenotare\" → \"prenotazione\" (feminine)." },
           { type: "multiple-choice", question: "\"Cambiare\" → the noun is ...", options: ["il cambiamento", "la cambiazione", "il cambiatore", "la cambiezza"], correctIndex: 0, explanation: "\"-mento\", masculine." },
         ],
       },
@@ -206,6 +207,7 @@ export const IT_B1_U31: Lesson[] = [
         heading: "From adjectives: -ezza, -ità",
         body: [
           "Adjectives give abstract nouns in \"-ezza\" (feminine): \"bello\" → \"la bellezza\", \"triste\" → \"la tristezza\", \"sicuro\" → \"la sicurezza\", \"lento\" → \"la lentezza\". Or in \"-ità\" (feminine, invariable, stress on the last syllable): \"facile\" → \"la facilità\", \"possibile\" → \"la possibilità\", \"curioso\" → \"la curiosità\".",
+          "Other patterns: \"-ura\" (\"chiudere\" → \"la chiusura\", \"aprire\" → \"l'apertura\", as in \"orario di apertura\") and \"-enza / -anza\" (\"presente\" → \"la presenza\", \"importante\" → \"l'importanza\", \"partire\" → \"la partenza\"). Many nouns simply drop the verb ending: \"invitare\" → \"l'invito\", \"ritornare\" → \"il ritorno\", \"costare\" → \"il costo\". Guessing from English has limits: \"la confezione\" is packaging, not a confession.",
         ],
         examples: [
           { es: "La bellezza di Matera mi ha colpito.", en: "Matera's beauty struck me." },
@@ -220,7 +222,7 @@ export const IT_B1_U31: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Payment is made at the till.", answer: "Il pagamento si fa alla cassa.", altAnswers: ["Il pagamento si effettua alla cassa.", "Si paga alla cassa."], explanation: "\"Pagare\" → \"pagamento\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Payment is made at the register.", answer: "Il pagamento si fa alla cassa.", altAnswers: ["Il pagamento si effettua alla cassa.", "Si paga alla cassa."], explanation: "\"Pagare\" → \"pagamento\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It was a big change.", answer: "È stato un grande cambiamento.", altAnswers: ["È stato un cambiamento grande."], explanation: "\"Cambiamento\" is masculine." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She's a tireless worker.", answer: "È una lavoratrice instancabile.", altAnswers: ["Lei è una lavoratrice instancabile."], explanation: "\"-trice\" for women." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The pianists are Russian. (all men)", answer: "I pianisti sono russi.", altAnswers: [], explanation: "Masculine plural \"-isti\"." },
@@ -250,14 +252,14 @@ export const IT_B1_U31: Lesson[] = [
         ],
         examples: [
           { es: "Questa strada è pericolosa di notte.", en: "This road is dangerous at night." },
-          { es: "I vicini sono un po' rumorosi.", en: "The neighbours are a bit noisy." },
+          { es: "I vicini sono un po' rumorosi.", en: "The neighbors are a bit noisy." },
           { es: "Il treno regionale ferma ovunque.", en: "The regional train stops everywhere." },
           { es: "È un prodotto naturale.", en: "It's a natural product." },
           { es: "Che piatto gustoso!", en: "What a tasty dish!" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "This road is dangerous at night.", answer: "Questa strada è pericolosa di notte.", altAnswers: ["Di notte questa strada è pericolosa."], explanation: "\"Pericolo\" + \"-oso\", feminine." },
-          { type: "listen-choose", audio: "I vicini sono un po' rumorosi.", question: "What's the problem with the neighbours?", options: ["They're noisy.", "They're nosy.", "They're rude.", "They're never home."], correctIndex: 0, explanation: "\"Rumore\" → \"rumoroso\"." },
+          { type: "listen-choose", audio: "I vicini sono un po' rumorosi.", question: "What's the problem with the neighbors?", options: ["They're noisy.", "They're nosy.", "They're rude.", "They're never home."], correctIndex: 0, explanation: "\"Rumore\" → \"rumoroso\"." },
         ],
       },
       {
@@ -280,6 +282,7 @@ export const IT_B1_U31: Lesson[] = [
         heading: "-ivo, -ico",
         body: [
           "\"-ivo\" often matches English -ive: \"creare\" → \"creativo\", \"sport\" → \"sportivo\" (sporty), \"offendere\" → \"offensivo\". \"-ico\" matches -ic / -ical: \"storia\" → \"storico\", \"economia\" → \"economico\" (also cheap!), \"turismo\" → \"turistico\".",
+          "More endings: \"-evole\" (\"piacere\" → \"piacevole\", pleasant), \"-ante / -ente\" (\"divertire\" → \"divertente\", fun; \"interessare\" → \"interessante\"), and \"-ese / -ano\" for origin (\"milanese\", \"siciliano\"). Watch the false friends: \"eventuale\" means possible, if any (not eventual), and \"sensibile\" means sensitive. A \"-bile\" adjective makes its opposite with \"in-\": \"incredibile\", \"illeggibile\", \"immangiabile\".",
         ],
         examples: [
           { es: "Mia sorella è molto creativa.", en: "My sister is very creative." },
@@ -294,7 +297,7 @@ export const IT_B1_U31: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The neighbours are noisy.", answer: "I vicini sono rumorosi.", altAnswers: ["I vicini di casa sono rumorosi."], explanation: "\"-osi\" plural." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The neighbors are noisy.", answer: "I vicini sono rumorosi.", altAnswers: ["I vicini di casa sono rumorosi."], explanation: "\"-osi\" plural." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's a natural product.", answer: "È un prodotto naturale.", altAnswers: [], explanation: "\"Natura\" → \"naturale\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Your handwriting isn't legible. (to a friend)", answer: "La tua scrittura non è leggibile.", altAnswers: ["La tua calligrafia non è leggibile.", "Non si legge la tua scrittura."], explanation: "\"Leggere\" → \"leggibile\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The old town is beautiful.", answer: "Il centro storico è bellissimo.", altAnswers: ["Il centro storico è molto bello."], explanation: "\"Storia\" → \"storico\"." },
@@ -354,6 +357,7 @@ export const IT_B1_U31: Lesson[] = [
         body: [
           "\"In-\" means not, and changes to match the next sound: \"im-\" before \"p\", \"b\", \"m\" (\"impossibile\", \"imbevibile\", \"immaturo\"); \"il-\" before \"l\" (\"illegale\"); \"ir-\" before \"r\" (\"irregolare\"); \"in-\" elsewhere (\"incapace\", \"inutile\").",
           "\"Pre-\" means before: \"prenotare\" (to book), \"prevedere\" (to foresee), \"il preavviso\" (notice). \"Ultra-\" means extremely: \"ultraleggero\", \"ultramoderno\".",
+          "Don't strip prefixes blindly: in \"sbagliare\", \"scappare\", \"ricevere\" or \"riuscire\" (to manage) the \"s-\" or \"ri-\" is just part of the word. Other common prefixes: \"anti-\" (\"l'antifurto\", the anti-theft alarm), \"sotto-\" (\"il sottopassaggio\", underpass; \"sottovalutare\", to underestimate) and \"sovra-\" (\"il sovrapprezzo\", surcharge).",
         ],
         examples: [
           { es: "È impossibile trovare parcheggio.", en: "It's impossible to find parking." },
@@ -398,20 +402,20 @@ export const IT_B1_U31: Lesson[] = [
           "A family: \"lavorare\" (to work) → \"il lavoro\" → \"il lavoratore / la lavoratrice\" → \"lavorativo\" (working, as in \"giorno lavorativo\"). Another: \"possibile\" → \"impossibile\" → \"la possibilità\". Learn words in families and you multiply your vocabulary.",
         ],
         examples: [
-          { es: "Domani è un giorno lavorativo.", en: "Tomorrow is a working day." },
-          { es: "Organizzare una festa richiede organizzazione.", en: "Organising a party takes organisation." },
+          { es: "Domani è un giorno lavorativo.", en: "Tomorrow is a workday." },
+          { es: "Organizzare una festa richiede organizzazione.", en: "Organizing a party takes organization." },
           { es: "Il pagamento è impossibile senza carta.", en: "Payment is impossible without a card." },
           { es: "Il lettore attento rilegge.", en: "The careful reader rereads." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Tomorrow is a working day.", answer: "Domani è un giorno lavorativo.", altAnswers: ["Domani è giorno lavorativo."], explanation: "\"Lavoro\" → \"lavorativo\"." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Organising a party takes organisation.", answer: "Organizzare una festa richiede organizzazione.", altAnswers: ["Per organizzare una festa ci vuole organizzazione."], explanation: "\"Organizzare\" → \"organizzazione\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Tomorrow is a workday.", answer: "Domani è un giorno lavorativo.", altAnswers: ["Domani è giorno lavorativo."], explanation: "\"Lavoro\" → \"lavorativo\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Organizing a party takes organization.", answer: "Organizzare una festa richiede organizzazione.", altAnswers: ["Per organizzare una festa ci vuole organizzazione."], explanation: "\"Organizzare\" → \"organizzazione\"." },
         ],
       },
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The writer reread the book.", answer: "Lo scrittore ha riletto il libro.", altAnswers: ["La scrittrice ha riletto il libro."], explanation: "\"Scrivere\" → \"scrittore\"; \"ri-\" + \"leggere\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The booking is confirmed.", answer: "La prenotazione è confermata.", altAnswers: ["La prenotazione è stata confermata."], explanation: "\"Prenotare\" → \"prenotazione\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The reservation is confirmed.", answer: "La prenotazione è confermata.", altAnswers: ["La prenotazione è stata confermata."], explanation: "\"Prenotare\" → \"prenotazione\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The workers are on strike.", answer: "I lavoratori sono in sciopero.", altAnswers: ["I lavoratori scioperano.", "I lavoratori fanno sciopero."], explanation: "\"Lavorare\" → \"lavoratori\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "This change is necessary.", answer: "Questo cambiamento è necessario.", altAnswers: [], explanation: "\"Cambiare\" → \"cambiamento\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Safety is our priority.", answer: "La sicurezza è la nostra priorità.", altAnswers: [], explanation: "\"Sicuro\" → \"sicurezza\"." },
@@ -428,7 +432,7 @@ export const IT_B1_U31: Lesson[] = [
       { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "la costruzione", right: "construction" }, { left: "il trasferimento", right: "move, transfer" }, { left: "la lentezza", right: "slowness" }, { left: "la pianista", right: "pianist (a woman)" }, { left: "rumoroso", right: "noisy" }], explanation: "Suffixes: \"-zione\", \"-mento\", \"-ezza\", \"-ista\", \"-oso\"." },
       { type: "dictation", audio: "La possibilità di un cambiamento mi rende felice.", explanation: "\"-ità\" and \"-mento\"." },
       { type: "dictation", audio: "È impossibile leggere: il testo è illeggibile.", explanation: "\"Il-\" + \"leggibile\"." },
-      { type: "speak", text: "Il lavoratore ha fatto la prenotazione, ma il pagamento è impossibile senza carta.", prompt: "Say it: The worker made the booking, but payment is impossible without a card.", tip: "Stress the suffix syllables: la-vo-ra-TO-re, pre-no-ta-ZIO-ne, pa-ga-MEN-to.", explanation: "Four derived words." },
+      { type: "speak", text: "Il lavoratore ha fatto la prenotazione, ma il pagamento è impossibile senza carta.", prompt: "Say it: The worker made the reservation, but payment is impossible without a card.", tip: "Stress the suffix syllables: la-vo-ra-TO-re, pre-no-ta-ZIO-ne, pa-ga-MEN-to.", explanation: "Four derived words." },
     ],
   },
   {
@@ -471,7 +475,7 @@ export const IT_B1_U31: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Look at the baby's [little hands]!", sentence: "Guarda le ___ del bambino!", answer: "manine", explanation: "\"Mano\" (feminine) → \"manina\", plural \"manine\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "There's a [little tree] on the balcony.", sentence: "Sul balcone c'è un ___.", answer: "alberello", explanation: "\"Albero\" + \"-ello\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I've got a [very high fever].", sentence: "Ho un ___.", answer: "febbrone", explanation: "\"Febbre\" + \"-one\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It's a [dodgy place].", sentence: "È un ___.", answer: "postaccio", explanation: "\"Posto\" + \"-accio\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It's a [sketchy place].", sentence: "È un ___.", answer: "postaccio", explanation: "\"Posto\" + \"-accio\"." },
       { type: "word-order", prompt: "Put the words in order to say: Shall we grab a quick coffee?", words: ["Prendiamo", "un", "caffettino?"], translation: "Shall we grab a quick coffee?", explanation: "Friendly diminutive." },
       { type: "multiple-choice", question: "Which is NOT a diminutive of another word?", options: ["mulino", "gattino", "casetta", "alberello"], correctIndex: 0, explanation: "\"Mulino\" = mill." },
       { type: "dictation", audio: "Che tempaccio! Prendiamo un caffettino al bar?", explanation: "Pejorative and diminutive." },
@@ -497,7 +501,7 @@ export const IT_B1_U31: Lesson[] = [
           { es: "La casetta è sul lago.", en: "The little house is on the lake." },
           { es: "È illegale fumare qui.", en: "It's illegal to smoke here." },
           { es: "Ha un battito irregolare.", en: "He has an irregular heartbeat." },
-          { es: "È un comportamento irresponsabile.", en: "It's irresponsible behaviour." },
+          { es: "È un comportamento irresponsabile.", en: "It's irresponsible behavior." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "A learner wrote \"inlegale\". Write it correctly: It's illegal to smoke here.", source: "It's illegal to smoke here.", answer: "È illegale fumare qui.", altAnswers: ["Fumare qui è illegale.", "Qui è illegale fumare."], explanation: "\"In-\" → \"il-\" before \"l\"." },
@@ -507,7 +511,7 @@ export const IT_B1_U31: Lesson[] = [
       {
         heading: "Casino is not a little house",
         body: [
-          "\"Un piccolo casino\" for a little house is a classic trap. \"Casino\" is a false diminutive: in everyday speech it means a mess or a racket (\"Che casino!\" = what a mess!); it's informal and a bit rude. The gambling house is \"il casinò\", with the stress on the last syllable. A little house is \"una casetta\" or \"una casina\".",
+          "\"Un piccolo casino\" for a little house is a classic trap. \"Casino\" is a false diminutive: in everyday speech it means a mess or a racket (\"Che casino!\" = what a mess!); it's very common but informal, so avoid it in formal situations. The gambling house is \"il casinò\", with the stress on the last syllable. A little house is \"una casetta\" or \"una casina\".",
         ],
         examples: [
           { es: "Abbiamo affittato una casetta in montagna.", en: "We've rented a little house in the mountains." },
@@ -527,7 +531,7 @@ export const IT_B1_U31: Lesson[] = [
         ],
         examples: [
           { es: "L'esame era difficile.", en: "The exam was difficult." },
-          { es: "Il mio coinquilino è disordinato.", en: "My flatmate is messy." },
+          { es: "Il mio coinquilino è disordinato.", en: "My roommate is messy." },
           { es: "Era distratto e disattento.", en: "He was distracted and careless." },
           { es: "Non è caro, anzi è economico.", en: "It's not expensive, in fact it's cheap." },
         ],
@@ -598,7 +602,7 @@ export const IT_B1_U31: Lesson[] = [
       {
         heading: "Look-alikes",
         body: [
-          "Listen carefully to similar pairs: \"casetta\" (little house) vs \"cassetta\" (crate, box), with a long \"s\". \"Casino\" (mess) is stressed ca-SI-no, \"casinò\" (gambling house) ca-si-NÒ. \"Pala\" (shovel) vs \"palla\" (ball) vs \"pallone\" (football).",
+          "Listen carefully to similar pairs: \"casetta\" (little house) vs \"cassetta\" (crate, box), with a long \"s\". \"Casino\" (mess) is stressed ca-SI-no, \"casinò\" (gambling house) ca-si-NÒ. \"Pala\" (shovel) vs \"palla\" (ball) vs \"pallone\" (ball, often a soccer ball).",
         ],
         examples: [
           { es: "una cassetta di arance", en: "a crate of oranges" },
@@ -619,8 +623,8 @@ export const IT_B1_U31: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Curiosity is a quality.", answer: "La curiosità è una qualità.", altAnswers: [], explanation: "Two \"-ità\" nouns, final stress." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The big book is on the table.", answer: "Il librone è sul tavolo.", altAnswers: [], explanation: "li-BRO-ne." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The writing is legible.", answer: "La scrittura è leggibile.", altAnswers: [], explanation: "leg-GI-bi-le." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The neighbours are [noisy].", sentence: "I vicini sono ___.", answer: "rumorosi", explanation: "ru-mo-RO-si." },
-      { type: "word-order", prompt: "Put the words in order to say: The booking is easy.", words: ["La", "prenotazione", "è", "facile."], translation: "The booking is easy.", explanation: "pre-no-ta-ZIO-ne." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The neighbors are [noisy].", sentence: "I vicini sono ___.", answer: "rumorosi", explanation: "ru-mo-RO-si." },
+      { type: "word-order", prompt: "Put the words in order to say: The reservation is easy.", words: ["La", "prenotazione", "è", "facile."], translation: "The reservation is easy.", explanation: "pre-no-ta-ZIO-ne." },
       { type: "listen-choose", audio: "Che casino in camera tua!", question: "What did you hear?", options: ["casino", "casinò", "casina", "cassino"], correctIndex: 0, explanation: "Stress on SI: ca-SI-no = mess." },
       { type: "dictation", audio: "La casetta ha un alberello e un gattino.", explanation: "Three diminutives, stress on the suffix." },
       { type: "dictation", audio: "Che facilità! La prenotazione è stata velocissima.", explanation: "\"Facilità\" with the accent." },
@@ -648,7 +652,7 @@ export const IT_B1_U31: Lesson[] = [
           { es: "Aveva un'aria da ragazzaccio.", en: "He looked like a rascal." },
         ],
         checkpoint: [
-          { type: "multiple-choice", question: "What did Signora Pina find on the windowsill?", options: ["a huge cat", "a kitten", "a postman", "a little bird"], correctIndex: 0, explanation: "\"Un gattone enorme\"." },
+          { type: "multiple-choice", question: "What did Signora Pina find on the windowsill?", options: ["a huge cat", "a kitten", "a mail carrier", "a little bird"], correctIndex: 0, explanation: "\"Un gattone enorme\"." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Every morning she had a little coffee.", answer: "Ogni mattina prendeva un caffettino.", altAnswers: ["Ogni mattina beveva un caffettino.", "Tutte le mattine prendeva un caffettino."], explanation: "Imperfetto for habits." },
         ],
       },
@@ -665,7 +669,7 @@ export const IT_B1_U31: Lesson[] = [
           { es: "Diventarono amiconi.", en: "They became best buddies." },
         ],
         checkpoint: [
-          { type: "multiple-choice", question: "Why did Signora Pina change her mind about the big cat?", options: ["He had an injured paw.", "He was very polite.", "He brought her a present.", "He belonged to the postman."], correctIndex: 0, explanation: "\"Aveva una zampina ferita\"." },
+          { type: "multiple-choice", question: "Why did Signora Pina change her mind about the big cat?", options: ["He had an injured paw.", "He was very polite.", "He brought her a present.", "He belonged to the mail carrier."], correctIndex: 0, explanation: "\"Aveva una zampina ferita\"." },
           { type: "listen-choose", audio: "Da quel giorno Briciola e il gattone diventarono amiconi.", question: "What happened in the end?", options: ["The two cats became great friends.", "The big cat left.", "Briciola ran away.", "The cats fought every day."], correctIndex: 0, explanation: "\"Amiconi\" = great friends." },
         ],
       },
@@ -680,7 +684,7 @@ export const IT_B1_U31: Lesson[] = [
           { es: "nasone: naso + -one", en: "big nose" },
         ],
         checkpoint: [
-          { type: "multiple-choice", question: "In the story, which word is NOT a real diminutive?", options: ["postino", "gattino", "finestrella", "zampina"], correctIndex: 0, explanation: "\"Postino\" = postman." },
+          { type: "multiple-choice", question: "In the story, which word is NOT a real diminutive?", options: ["postino", "gattino", "finestrella", "zampina"], correctIndex: 0, explanation: "\"Postino\" = mail carrier." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The cat had an injured paw.", answer: "Il gatto aveva una zampa ferita.", altAnswers: ["Il gatto aveva una zampina ferita.", "Il gattone aveva una zampina ferita."], explanation: "\"Zampa\" = paw." },
         ],
       },
@@ -695,16 +699,16 @@ export const IT_B1_U31: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "She opened the [little window].", sentence: "Aprì la ___.", answer: "finestrella", explanation: "\"Finestra\" + \"-ella\"." },
       { type: "word-order", prompt: "Put the words in order to say: He looked like a rascal.", words: ["Aveva", "un'aria", "da", "ragazzaccio."], translation: "He looked like a rascal.", explanation: "\"Avere un'aria da\" = to look like." },
       { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "paesello", right: "little village" }, { left: "giardinetto", right: "small garden" }, { left: "zampina", right: "little paw" }, { left: "amiconi", right: "best buddies" }, { left: "ragazzaccio", right: "rascal" }], explanation: "Base word + suffix." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Every morning she said hello to the postman.", answer: "Ogni mattina salutava il postino.", altAnswers: ["Tutte le mattine salutava il postino.", "Ogni mattina lei salutava il postino."], explanation: "Imperfetto for a habit; \"postino\" is a word of its own." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Every morning she said hello to the mail carrier.", answer: "Ogni mattina salutava il postino.", altAnswers: ["Tutte le mattine salutava il postino.", "Ogni mattina lei salutava il postino."], explanation: "Imperfetto for a habit; \"postino\" is a word of its own." },
       { type: "dictation", audio: "C'era una volta una casetta con un giardinetto.", explanation: "Two diminutives." },
-      { type: "speak", text: "Un gattone entra nella casetta, fa un pasticcio, ma alla fine diventa amicone del gattino.", prompt: "Summarise the story: A big cat comes into the little house, makes a mess, but in the end becomes the kitten's best buddy.", tip: "Stress the suffixes: gat-TO-ne, ca-SET-ta, a-mi-CO-ne.", explanation: "One-sentence summary in the present." },
+      { type: "speak", text: "Un gattone entra nella casetta, fa un pasticcio, ma alla fine diventa amicone del gattino.", prompt: "Summarize the story: A big cat comes into the little house, makes a mess, but in the end becomes the kitten's best buddy.", tip: "Stress the suffixes: gat-TO-ne, ca-SET-ta, a-mi-CO-ne.", explanation: "One-sentence summary in the present." },
     ],
   },
 ];
 
 export const IT_B1_U31_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Describe the house or neighbourhood where you grew up (100-140 words). Use at least six derived words: diminutives or augmentatives (casetta, giardinetto, portone), a pejorative (tempaccio, postaccio), adjectives with -oso / -ale / -bile, nouns with -zione / -mento / -ezza / -ità, or prefixed words (ri-, s-, dis-, in- / im-).",
+  prompt: "Describe the house or neighborhood where you grew up (100-140 words). Use at least six derived words: diminutives or augmentatives (casetta, giardinetto, portone), a pejorative (tempaccio, postaccio), adjectives with -oso / -ale / -bile, nouns with -zione / -mento / -ezza / -ità, or prefixed words (ri-, s-, dis-, in- / im-).",
   minWords: 90,
   maxWords: 150,
   rubric: [

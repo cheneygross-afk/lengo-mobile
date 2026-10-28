@@ -13,14 +13,15 @@ export const IT_B2_U16: Lesson[] = [
     level: "IT-B2",
     number: 1,
     title: "The North",
-    summary: "Recognise northern regional Italian: la Maria, the passato prossimo for everything, Milanese and Venetian accents and words.",
+    summary: "Recognize northern regional Italian: la Maria, the passato prossimo for everything, Milanese and Venetian accents and words.",
     duration: "18 min",
     sections: [
       {
         heading: "La Maria, il Giovanni",
         body: [
-          "Italy has one standard language but many regional varieties of it: Italian spoken with local accents, words and grammar. This unit is about recognising them, not copying them. In every exercise, you answer in standard Italian.",
-          "In the North, especially in Lombardy, people put the article before first names: \"la Maria\", \"il Giovanni\", \"Ho visto la Giulia\". In standard Italian you say \"Maria\", \"Giovanni\", \"Ho visto Giulia\". With women's names you will also hear it in Tuscany. With surnames of famous people (\"il Manzoni\") it is standard everywhere.",
+          "Italy has one standard language but many regional varieties of it: Italian spoken with local accents, words and grammar. This unit is about recognizing them, not copying them. In every exercise, you answer in standard Italian.",
+          "In the North, especially in Lombardy, people put the article before first names: \"la Maria\", \"il Giovanni\", \"Ho visto la Giulia\". In standard Italian you say \"Maria\", \"Giovanni\", \"Ho visto Giulia\". With women's names you will also hear it in Tuscany. Before the surname of a famous person (\"il Manzoni\", \"la Callas\") the article is traditional everywhere, though it now sounds a little old-fashioned with men's surnames.",
+          "In Lombardy the article is so normal that leaving it out can sound cold or distant; on the news and in writing it disappears. Don't confuse it with the article that standard Italian requires when a name has an adjective or a title in front: \"la piccola Giulia\", \"il dottor Bianchi\", \"la signora Rossi\" are correct everywhere.",
         ],
         examples: [
           { es: "Ho visto la Giulia al mercato.", en: "I saw Giulia at the market. (northern)" },
@@ -83,7 +84,7 @@ export const IT_B2_U16: Lesson[] = [
         heading: "Milanese and Venetian: sounds and words",
         body: [
           "In much of the North, an s between vowels is voiced, like a z: \"casa\" sounds like \"caza\". The e and o vowels are often open where Rome or Florence has them closed, and vice versa. Milanese speech sounds fast and clipped; Venetian speech sounds sing-song and drops double consonants.",
-          "Some words: \"figo\" (cool), now heard everywhere; Milanese \"la sciura\" (the lady), \"ciapa!\" (take it!), \"bigiare\" (to skip school); Venetian \"i schei\" (money) and \"il toso, la tosa\" (boy, girl). The greeting \"ciao\" itself comes from Venetian: \"s'ciavo\", your servant.",
+          "Some words: \"figo\" (cool), now heard everywhere; Milanese \"la sciura\" (the lady), \"ciapa!\" (take it!), \"bigiare\" (to skip school, Lombard); Venetian \"i schei\" (money) and \"il toso, la tosa\" (boy, girl). The greeting \"ciao\" itself comes from Venetian: \"s'ciavo\", your servant.",
         ],
         examples: [
           { es: "Che figo il tuo telefono!", en: "Your phone is so cool!" },
@@ -125,23 +126,23 @@ export const IT_B2_U16: Lesson[] = [
       { type: "word-order", prompt: "Put the words in order to say, in standard Italian: I saw Giulia at the market.", words: ["Ho", "visto", "Giulia", "al", "mercato."], translation: "I saw Giulia at the market.", altOrders: [["Al", "mercato", "ho", "visto", "Giulia."]], explanation: "No article before the name." },
       { type: "multiple-choice", question: "Where does the word \"ciao\" come from?", options: ["Venetian s'ciavo, your servant", "Latin ciao, peace", "Neapolitan ciaone", "Tuscan chiao"], correctIndex: 0, explanation: "From the Venetian greeting \"s'ciavo\"." },
       { type: "multiple-choice", question: "A northerner says \"Mio padre è nato a Pavia\". What tense would a Sicilian grandmother probably use?", options: ["Passato remoto: nacque", "Imperfetto: nasceva", "Futuro: nascerà", "Condizionale: nascerebbe"], correctIndex: 0, explanation: "The South keeps the passato remoto in speech." },
-      { type: "listen-choose", audio: "Ciao, sono dietro a fare la spesa, ti chiamo dopo.", question: "What is the speaker doing?", options: ["Doing the shopping", "Following someone", "Waiting behind a shop", "Cooking"], correctIndex: 0, explanation: "\"Essere dietro a\" = to be in the middle of (northern)." },
+      { type: "listen-choose", audio: "Ciao, sono dietro a fare la spesa, ti chiamo dopo.", question: "What is the speaker doing?", options: ["Doing the shopping", "Following someone", "Waiting behind a store", "Cooking"], correctIndex: 0, explanation: "\"Essere dietro a\" = to be in the middle of (northern)." },
       { type: "dictation", audio: "Ho visto la Giulia ieri, ha un telefono troppo figo.", explanation: "Northern article before the name, and \"figo\"." },
       {
         type: "speak",
         text: "Ho visto Giulia al mercato. Sta bene e ti saluta.",
         prompt: "A friend from Milan says \"Ho visto la Giulia al mercato\". Pass on the news in standard Italian: I saw Giulia at the market. She's well and says hello.",
-        tip: "\"Giulia\": the i after g is silent, JU-lya.",
+        tip: "\"Giulia\": the i after g is silent, JOO-lya.",
         explanation: "Standard Italian: no article before the name.",
       },
     ],
   },
   {
-    slug: "b2-regional-centre",
+    slug: "b2-regional-center",
     level: "IT-B2",
     number: 2,
-    title: "The Centre",
-    summary: "Recognise Tuscan and Roman Italian: the gorgia, noi si va, annamo, er, daje, che ce frega.",
+    title: "The Center",
+    summary: "Recognize Tuscan and Roman Italian: the gorgia, noi si va, annamo, er, daje, che ce frega.",
     duration: "18 min",
     sections: [
       {
@@ -213,6 +214,7 @@ export const IT_B2_U16: Lesson[] = [
         heading: "Telling them apart",
         body: [
           "A quick guide: if you hear h for c (\"la hoha-hola\"), \"noi si\" + verb, or \"babbo\", the speaker is probably Tuscan. If you hear \"er\", \"annamo\", infinitives cut short, \"daje\" or \"mo'\", you're in Rome. Romans also double the b and g between vowels: \"subbito\", \"aggire\".",
+          "Romans also turn l into r before a consonant: \"er\", \"ar mare\" (al mare), \"quarcosa\" (qualcosa), \"sordi\" (soldi). And for an action in progress they say \"stare a\" + infinitive: \"che stai a fà?\" is standard \"cosa stai facendo?\". Tuscans keep the l but drop endings in \"mi'\", \"tu'\", \"su'\" (mio, tuo, suo) and use \"icché\" for \"che cosa\".",
           "Both accents sound familiar to all Italians, thanks to cinema, comedy and television. Romans are often seen as relaxed and ironic, Tuscans as sharp-tongued. These are stereotypes, but they shape how accents are heard.",
         ],
         examples: [
@@ -246,7 +248,7 @@ export const IT_B2_U16: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "A Florentine says \"Noi si mangia alle otto\". Say it in standard Italian: We eat at eight.", source: "We eat at eight.", answer: "Noi mangiamo alle otto.", altAnswers: ["Mangiamo alle otto."], explanation: "\"Noi si\" + third person = \"noi\" + first person plural." },
       { type: "translate", direction: "en-es", prompt: "A Roman says \"Mo' arrivo\". Say it in standard Italian: I'm coming now.", source: "I'm coming now.", answer: "Arrivo adesso.", altAnswers: ["Ora arrivo.", "Adesso arrivo.", "Arrivo ora.", "Arrivo subito."], explanation: "\"Mo'\" = \"adesso\"." },
       { type: "translate", direction: "en-es", prompt: "A Roman says \"Ho visto er Colosseo\". Say it in standard Italian: I saw the Colosseum.", source: "I saw the Colosseum.", answer: "Ho visto il Colosseo.", explanation: "\"Er\" = \"il\"." },
-      { type: "translate", direction: "en-es", prompt: "A Roman says \"Che ce frega?\". Say it in standard Italian: What do we care?", source: "What do we care?", answer: "Che ce ne importa?", altAnswers: ["Cosa ce ne importa?", "Chi se ne importa?", "Non ci importa."], explanation: "\"Che ce frega\" is informal and a little rude." },
+      { type: "translate", direction: "en-es", prompt: "A Roman says \"Che ce frega?\". Say it in standard Italian: What do we care?", source: "What do we care?", answer: "Che ce ne importa?", altAnswers: ["Cosa ce ne importa?", "Che ci importa?", "Cosa ci importa?", "Chi se ne importa?", "Non ci importa."], explanation: "\"Che ce frega\" is informal and a little rude." },
       { type: "fill-blank", prompt: "A Roman says \"subbito\". Write the Italian for the bold words.", en: "I'm coming [right away]!", sentence: "Arrivo ___!", answer: "subito", explanation: "Romans double the b: standard \"subito\"." },
       { type: "fill-blank", prompt: "A Tuscan says \"la hasa\". Write the Italian for the bold words.", en: "[The house] is on the hill.", sentence: "___ è sulla collina.", answer: "La casa", explanation: "The gorgia turns c into a breathy h." },
       { type: "word-order", prompt: "Put the words in order to say, in standard Italian: Come on, let's go and eat!", words: ["Dai,", "andiamo", "a", "mangiare!"], translation: "Come on, let's go and eat!", explanation: "Standard for \"Daje, annamo a magnà!\"." },
@@ -267,14 +269,15 @@ export const IT_B2_U16: Lesson[] = [
     level: "IT-B2",
     number: 3,
     title: "The South",
-    summary: "Recognise southern regional Italian: tenere for avere, stare for essere, the passato remoto in speech, Neapolitan and Sicilian features.",
+    summary: "Recognize southern regional Italian: tenere for avere, stare for essere, the passato remoto in speech, Neapolitan and Sicilian features.",
     duration: "18 min",
     sections: [
       {
         heading: "Tenere and stare",
         body: [
           "In much of the South, especially around Naples, \"tenere\" replaces \"avere\" for possession: \"Tengo fame\" (I'm hungry), \"Tengo due figli\", \"Quanti anni tieni?\" In standard Italian: \"Ho fame\", \"Ho due figli\", \"Quanti anni hai?\"",
-          "\"Stare\" often replaces \"essere\" for states and locations: \"Sto stanco\" (I'm tired), \"La porta sta aperta\", \"Mario sta in ufficio\". Standard Italian accepts \"stare\" for location and health (\"Sta bene\"), but says \"Sono stanco\" and \"La porta è aperta\".",
+          "\"Stare\" often replaces \"essere\" for states and locations: \"Sto stanco\" (I'm tired), \"La porta sta aperta\", \"Mario sta in ufficio\". Standard Italian uses \"stare\" for health (\"Sta bene\") and in set phrases (\"stare zitto\", \"stare attento\", \"stare a casa\" = to stay home), but says \"Sono stanco\", \"La porta è aperta\" and \"Mario è in ufficio\".",
+          "None of this causes misunderstandings. In standard Italian \"tenere\" means to hold or to keep (\"Tieni la borsa\", \"Tengo i soldi in banca\"), so a northerner hearing \"Tengo due figli\" understands at once; it just marks the speaker as southern. Answer in standard Italian, and don't copy \"tengo fame\" yourself: from a learner it sounds like a mistake, not like local color.",
         ],
         examples: [
           { es: "Tengo fame, mangiamo?", en: "I'm hungry, shall we eat? (southern)" },
@@ -306,7 +309,7 @@ export const IT_B2_U16: Lesson[] = [
       {
         heading: "The passato remoto and other grammar",
         body: [
-          "In Sicily, Calabria and parts of Campania and Puglia, people use the passato remoto in everyday speech, even for things that happened this morning: \"Stamattina mi alzai presto\", \"Ieri andai al mare.\" Elsewhere you'd hear \"mi sono alzato\", \"sono andato\".",
+          "In Sicily, Calabria and parts of Campania and Puglia, people use the passato remoto in everyday speech, even for things that happened this morning: \"Stamattina mi alzai presto\", \"Ieri andai al mare.\" Elsewhere you'd hear \"mi sono alzato\", \"sono andato\". To northern ears this remoto sounds literary; in the South it is simply the everyday past.",
           "Two more southern features: \"a\" before a person who is a direct object (\"Chiamo a Mario\", \"Saluta a tua madre\") and verbs like \"scendere\" or \"uscire\" used with an object (\"Scendi il cane\" for take the dog down). Standard: \"Chiamo Mario\", \"Saluta tua madre\", \"Porta giù il cane\".",
         ],
         examples: [
@@ -340,12 +343,12 @@ export const IT_B2_U16: Lesson[] = [
       {
         heading: "Naples and Sicily: sounds and words",
         body: [
-          "Neapolitan Italian has a musical, rising and falling intonation and weak final vowels: \"mamma\" can sound like \"mamm\". Words you'll hear: \"uè!\" (hey!), \"jamme!\" (let's go!), \"guaglione\" (boy), \"fare filone\" (to skip school).",
+          "Neapolitan Italian has a musical, rising and falling intonation and weak final vowels: \"mamma\" can sound like \"mamm\". Words you'll hear: \"uè!\" (hey!), \"jamme!\" or \"jammo!\" (let's go!), \"guaglione\" (boy), \"fare filone\" (to skip school).",
           "Sicilian Italian has strong double consonants and often puts the verb last for emphasis: \"Stanco sono!\" (I'm tired!), \"Sicilianu sugnu\" in dialect. Sicilians also distinguish \"l'arancina\" (Palermo) from \"l'arancino\" (Catania), the famous fried rice ball.",
         ],
         examples: [
-          { es: "Uè, guaglione, jamme!", en: "Hey, lad, let's go! (Neapolitan)" },
-          { es: "Ehi, ragazzo, andiamo!", en: "Hey, lad, let's go! (standard)" },
+          { es: "Uè, guaglione, jamme!", en: "Hey, kid, let's go! (Neapolitan)" },
+          { es: "Ehi, ragazzo, andiamo!", en: "Hey, kid, let's go! (standard)" },
           { es: "Stanco sono, me ne vado a dormire.", en: "I'm tired, I'm off to bed. (Sicilian)" },
           { es: "A Palermo si dice arancina, a Catania arancino.", en: "In Palermo they say arancina, in Catania arancino." },
         ],
@@ -353,11 +356,11 @@ export const IT_B2_U16: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A Neapolitan says \"Uè, guaglione, jamme!\". Say it in standard Italian: Hey, lad, let's go!",
-            source: "Hey, lad, let's go!",
+            prompt: "A Neapolitan says \"Uè, guaglione, jamme!\". Say it in standard Italian: Hey, kid, let's go!",
+            source: "Hey, kid, let's go!",
             answer: "Ehi, ragazzo, andiamo!",
             altAnswers: ["Ehi ragazzo, andiamo!", "Ehi, ragazzo, dai, andiamo!"],
-            explanation: "\"Guaglione\" = \"ragazzo\"; \"jamme\" = \"andiamo\".",
+            explanation: "\"Guaglione\" = \"ragazzo\"; \"jamme\" (also \"jammo\") = \"andiamo\".",
           },
           {
             type: "translate",
@@ -398,18 +401,18 @@ export const IT_B2_U16: Lesson[] = [
     level: "IT-B2",
     number: 4,
     title: "Regional Words",
-    summary: "Recognise the regional words for everyday things: anguria and cocomero, michetta and rosetta, stracchino and crescenza, arancino and arancina.",
+    summary: "Recognize the regional words for everyday things: anguria and cocomero, michetta and rosetta, stracchino and crescenza, arancino and arancina.",
     duration: "18 min",
     sections: [
       {
         heading: "Fruit and bread",
         body: [
-          "Even everyday things change name across Italy. Watermelon is \"anguria\" in the North and \"cocomero\" in the Centre; in parts of the South you may hear \"melone d'acqua\". All are correct Italian; dictionaries list them all.",
+          "Even everyday things change name across Italy. Watermelon is \"anguria\" in the North and \"cocomero\" in the Center; in parts of the South you may hear \"melone d'acqua\". All are correct Italian; dictionaries list them all.",
           "Bread is even more local. The crusty round roll with a star pattern is \"la michetta\" in Milan and \"la rosetta\" in Rome. \"Il panino\" is understood everywhere, both for a roll and for a filled sandwich.",
         ],
         examples: [
           { es: "D'estate mangiamo sempre l'anguria.", en: "In summer we always eat watermelon. (North)" },
-          { es: "D'estate mangiamo sempre il cocomero.", en: "In summer we always eat watermelon. (Centre)" },
+          { es: "D'estate mangiamo sempre il cocomero.", en: "In summer we always eat watermelon. (Center)" },
           { es: "Mi dà due michette, per favore?", en: "Can I have two bread rolls, please? (Milan)" },
           { es: "Mi dà due rosette, per favore?", en: "Can I have two bread rolls, please? (Rome)" },
         ],
@@ -421,7 +424,7 @@ export const IT_B2_U16: Lesson[] = [
             source: "In summer we always eat watermelon.",
             answer: "D'estate mangiamo sempre il cocomero.",
             altAnswers: ["In estate mangiamo sempre il cocomero.", "D'estate mangiamo sempre l'anguria.", "In estate mangiamo sempre l'anguria."],
-            explanation: "\"Cocomero\" in the Centre, \"anguria\" in the North: both correct.",
+            explanation: "\"Cocomero\" in the Center, \"anguria\" in the North: both correct.",
           },
           {
             type: "multiple-choice",
@@ -437,6 +440,7 @@ export const IT_B2_U16: Lesson[] = [
         body: [
           "The soft fresh cheese is \"stracchino\" or \"crescenza\", depending on the area and the brand. The fried rice ball is \"l'arancina\" in Palermo and \"l'arancino\" in Catania and most of Italy; Sicilians argue about it with passion.",
           "To skip school has a word in every city: standard \"marinare\", Milanese \"bigiare\", Roman \"fare sega\" (informal), Neapolitan \"fare filone\". And a young boy can be a \"toso\" in Venice, a \"pischello\" in Rome, a \"guaglione\" in Naples, and a \"ragazzo\" everywhere.",
+          "The bar snack changes too. The soft, crustless triangular sandwich is a \"tramezzino\" everywhere, but in Venice you snack on \"cicchetti\" with an \"ombra\" (a small glass of wine), in Rome on a slice of \"pizza bianca\", and in Palermo on \"pane e panelle\" (chickpea fritters in a roll). In Liguria \"la focaccia\" is breakfast, often dipped in a cappuccino.",
         ],
         examples: [
           { es: "Una piadina con stracchino e rucola, per favore.", en: "A piadina with soft cheese and rocket, please." },
@@ -469,7 +473,7 @@ export const IT_B2_U16: Lesson[] = [
         heading: "Which word should I use?",
         body: [
           "As a learner, use the word of the place you're in, or the one you hear most. If in doubt, the most widespread word (\"panino\", \"ragazzo\", \"marinare la scuola\") is always understood. Italians enjoy talking about these differences: asking \"Come si dice qui?\" is a great way to start a conversation.",
-          "Some regional words have become national: \"figo\" from the North, \"inciucio\" (a shady deal) from Naples, \"pizza\" itself from Naples. Others stay local and mark the speaker's origin immediately.",
+          "Some regional words have become national: \"figo\" from the North, \"inciucio\" (a shady deal) from Naples, and \"pizza\", which spread from Naples together with the dish. Others stay local and mark the speaker's origin immediately.",
         ],
         examples: [
           { es: "Come si dice qui?", en: "What do you call it here?" },
@@ -508,7 +512,7 @@ export const IT_B2_U16: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "In Florence they call watermelon [cocomero].", sentence: "A Firenze l'anguria la chiamano ___.", answer: "cocomero", explanation: "Central word." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Pizza [comes from] Naples.", sentence: "La pizza ___ Napoli.", answer: "viene da", explanation: "\"Venire da\"." },
       { type: "word-order", prompt: "Put the words in order to say: That word is only used in Rome.", words: ["Quella", "parola", "si", "usa", "solo", "a", "Roma."], translation: "That word is only used in Rome.", explanation: "Impersonal \"si\"." },
-      { type: "matching", instructions: "Match each regional word to the standard or common word.", pairs: [{ left: "anguria", right: "cocomero" }, { left: "michetta", right: "rosetta" }, { left: "bigiare", right: "marinare la scuola" }, { left: "guaglione", right: "ragazzo" }], explanation: "Same thing, different places." },
+      { type: "matching", instructions: "Match each word to its equivalent in another region.", pairs: [{ left: "anguria", right: "cocomero" }, { left: "michetta", right: "rosetta" }, { left: "bigiare", right: "marinare la scuola" }, { left: "guaglione", right: "ragazzo" }], explanation: "Same thing, different places." },
       { type: "multiple-choice", question: "In Palermo, what do they call the fried rice ball?", options: ["l'arancina", "l'arancino", "la rosetta", "la michetta"], correctIndex: 0, explanation: "Feminine in Palermo, masculine in Catania." },
       { type: "listen-choose", audio: "Da noi a Milano si dice michetta, a Roma invece rosetta.", question: "What are they talking about?", options: ["A kind of bread roll", "A kind of fruit", "A cheese", "A school"], correctIndex: 0, explanation: "\"Michetta\" and \"rosetta\" are bread rolls." },
       { type: "dictation", audio: "A Roma dicono cocomero, a Milano anguria.", explanation: "Two words for watermelon." },
@@ -574,7 +578,7 @@ export const IT_B2_U16: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "A Neapolitan says \"Tengo un appuntamento\". Say it in standard Italian: I have an appointment.", source: "I have an appointment.", answer: "Ho un appuntamento.", explanation: "\"Tenere\" → \"avere\"." },
       { type: "translate", direction: "en-es", prompt: "A Neapolitan says \"Il bambino sta malato\". Say it in standard Italian: The child is ill.", source: "The child is ill.", answer: "Il bambino è malato.", altAnswers: ["Il bambino sta male."], explanation: "\"Essere malato\" or \"stare male\"." },
       { type: "translate", direction: "en-es", prompt: "A Sicilian says \"Ieri vidi a tuo fratello\". Say it in standard spoken Italian: Yesterday I saw your brother.", source: "Yesterday I saw your brother.", answer: "Ieri ho visto tuo fratello.", explanation: "Passato prossimo, no \"a\" before the object." },
-      { type: "translate", direction: "en-es", prompt: "A Neapolitan says \"Scendi la spazzatura\". Say it in standard Italian: Take the rubbish down.", source: "Take the rubbish down.", answer: "Porta giù la spazzatura.", altAnswers: ["Porta giù l'immondizia.", "Butta la spazzatura."], explanation: "\"Scendere\" takes no object in standard Italian." },
+      { type: "translate", direction: "en-es", prompt: "A Neapolitan says \"Scendi la spazzatura\". Say it in standard Italian: Take the trash down.", source: "Take the trash down.", answer: "Porta giù la spazzatura.", altAnswers: ["Porta giù l'immondizia.", "Butta la spazzatura."], explanation: "\"Scendere\" takes no object in standard Italian." },
       { type: "fill-blank", prompt: "A Roman says \"er\". Write the Italian for the bold words.", en: "[The tram] is late.", sentence: "___ è in ritardo.", answer: "Il tram", explanation: "\"Er\" → \"il\"." },
       { type: "fill-blank", prompt: "A Venetian says \"schei\". Write the Italian for the bold words.", en: "I haven't got [any money].", sentence: "Non ho ___.", answer: "soldi", altAnswers: ["un soldo"], explanation: "\"Schei\" → \"soldi\"." },
       { type: "fill-blank", prompt: "A Neapolitan says \"tieni\". Write the Italian for the bold words.", en: "[Have you got] a pen?", sentence: "___ una penna?", answer: "Hai", explanation: "\"Tieni\" → \"hai\"." },
@@ -667,14 +671,14 @@ export const IT_B2_U16: Lesson[] = [
     level: "IT-B2",
     number: 7,
     title: "Listening Lab: Voices from the North",
-    summary: "Listen to speakers from Milan, Turin and Venice and recognise their regional features.",
+    summary: "Listen to speakers from Milan, Turin and Venice and recognize their regional features.",
     duration: "18 min",
     sections: [
       {
         heading: "Milan and Turin",
         body: [
           "Silvia from Milan talks about her week: \"Lunedì ho visto la Franca, martedì sono stata dietro a fare i conti tutto il giorno.\" Listen for the article with names and \"essere dietro a\". Milanese speech is fast, with fillers like \"tipo\" and \"cioè\"; just to the east, in Bergamo and Brescia, people fill pauses with \"pota\".",
-          "Marco from Turin ends many sentences with \"neh?\" (right?), and says \"cerea\" in dialect for hello to older people. Turin Italian is calm and precise; northern speakers in general say \"mi sa\" less and \"secondo me\" more.",
+          "Marco from Turin ends many sentences with \"neh?\" (right?), and says \"cerea\" in dialect for hello to older people. Like most northerners, he also voices the s between vowels, so \"casa\" sounds like \"caza\".",
         ],
         examples: [
           { es: "Lunedì ho visto la Franca al bar.", en: "On Monday I saw Franca at the bar. (Milan)" },
@@ -706,7 +710,7 @@ export const IT_B2_U16: Lesson[] = [
         heading: "Venice and the Veneto",
         body: [
           "Anna from Venice speaks with a sing-song melody and single consonants where standard Italian has doubles: \"tuto\" for \"tutto\", \"cavalo\" for \"cavallo\". She calls her son \"el me toso\" and complains that \"costa tanti schei\".",
-          "Venetian speakers also often begin sentences with \"ciò\" (hey, look) and use \"ostrega!\" as a mild exclamation of surprise. Recognise these, and answer in standard Italian.",
+          "Venetian speakers also often begin sentences with \"ciò\" (hey, look) and use \"ostrega!\" as a mild exclamation of surprise. Recognize these, and answer in standard Italian.",
         ],
         examples: [
           { es: "È tuto pronto, venite a tavola!", en: "Everything's ready, come to the table! (Venetian pronunciation)" },
@@ -721,14 +725,13 @@ export const IT_B2_U16: Lesson[] = [
             prompt: "Anna says \"Il mio toso studia a Padova\". Say it in standard Italian: My boy studies in Padua.",
             source: "My boy studies in Padua.",
             answer: "Mio figlio studia a Padova.",
-            altAnswers: ["Il mio ragazzo studia a Padova."],
-            explanation: "\"Toso\" = boy; here her son.",
+            explanation: "\"Toso\" = boy; here her son. Avoid \"il mio ragazzo\", which means my boyfriend.",
           },
           {
             type: "listen-choose",
             audio: "Ostrega, costa tanti schei!",
             question: "What is the speaker surprised about?",
-            options: ["The price", "The weather", "The size", "The colour"],
+            options: ["The price", "The weather", "The size", "The color"],
             correctIndex: 0,
             explanation: "\"Schei\" = money.",
           },
@@ -761,7 +764,7 @@ export const IT_B2_U16: Lesson[] = [
     level: "IT-B2",
     number: 8,
     title: "Listening Lab: Voices from the South",
-    summary: "Listen to speakers from Naples, Bari and Palermo and recognise their regional features.",
+    summary: "Listen to speakers from Naples, Bari and Palermo and recognize their regional features.",
     duration: "18 min",
     sections: [
       {
@@ -832,10 +835,10 @@ export const IT_B2_U16: Lesson[] = [
     ],
     exercises: [
       { type: "listen-choose", audio: "Il forno sta acceso dalle sei, la pizza è pronta subito.", question: "What does Gennaro say about the oven?", options: ["It has been on since six", "It is broken", "It will be on at six", "It is off"], correctIndex: 0, explanation: "\"Stare acceso\" = \"essere acceso\"." },
-      { type: "listen-choose", audio: "Guaglione, porta due margherite al tavolo cinque!", question: "Who is Gennaro talking to?", options: ["His young waiter", "His wife", "A customer", "His mother"], correctIndex: 0, explanation: "\"Guaglione\" = lad." },
+      { type: "listen-choose", audio: "Guaglione, porta due margherite al tavolo cinque!", question: "Who is Gennaro talking to?", options: ["His young waiter", "His wife", "A customer", "His mother"], correctIndex: 0, explanation: "\"Guaglione\" = boy, kid." },
       { type: "listen-choose", audio: "Domenica andammo da mia madre e mangiammo le orecchiette.", question: "When did this happen?", options: ["Last Sunday", "Long ago", "Next Sunday", "Every Sunday"], correctIndex: 0, explanation: "Passato remoto for a recent event: southern speech." },
       { type: "translate", direction: "en-es", prompt: "Gennaro says \"Il forno sta acceso dalle sei\". Say it in standard Italian: The oven has been on since six.", source: "The oven has been on since six.", answer: "Il forno è acceso dalle sei.", explanation: "\"Stare\" → \"essere\" for a state." },
-      { type: "translate", direction: "en-es", prompt: "Gennaro says \"Guaglione, porta due margherite al tavolo cinque\". Say it in standard Italian: Lad, take two margheritas to table five.", source: "Lad, take two margheritas to table five.", answer: "Ragazzo, porta due margherite al tavolo cinque.", explanation: "\"Guaglione\" → \"ragazzo\"." },
+      { type: "translate", direction: "en-es", prompt: "Gennaro says \"Guaglione, porta due margherite al tavolo cinque\". Say it in standard Italian: Kid, take two margheritas to table five.", source: "Kid, take two margheritas to table five.", answer: "Ragazzo, porta due margherite al tavolo cinque.", explanation: "\"Guaglione\" → \"ragazzo\"." },
       { type: "translate", direction: "en-es", prompt: "Rosa says \"Mangiammo le orecchiette\". Say it in standard spoken Italian: We ate orecchiette.", source: "We ate orecchiette.", answer: "Abbiamo mangiato le orecchiette.", explanation: "Passato prossimo." },
       { type: "translate", direction: "en-es", prompt: "Rosa says \"Sto stanca\". Say it in standard Italian: I'm tired.", source: "I'm tired. (a woman speaking)", answer: "Sono stanca.", explanation: "\"Stare\" → \"essere\"." },
       { type: "translate", direction: "en-es", prompt: "Totò says \"Bella giornata fu!\". Say it in standard Italian: It was a lovely day!", source: "It was a lovely day!", answer: "È stata una bella giornata!", altAnswers: ["È stata una giornata bellissima!"], explanation: "Passato prossimo, standard word order." },
@@ -865,7 +868,7 @@ export const IT_B2_U16: Lesson[] = [
         heading: "Languages, not mistakes",
         body: [
           "This article comes from a cultural magazine. Its first point: Italian dialects are not \"bad Italian\". Neapolitan, Sicilian, Venetian or Milanese developed from Latin independently, like Italian itself. Linguists often call them languages.",
-          "Notice the article's style: the passive (\"è stato scelto\"), the impersonal \"si\" (\"si parlava\") and formal connectors (\"tuttavia\", \"infatti\"). These are typical of written Italian.",
+          "Notice the article's style: the passive (\"fu scelto\"), the impersonal \"si\" (\"si parlava\") and formal connectors (\"tuttavia\", \"infatti\"). These are typical of written Italian.",
         ],
         examples: [
           { es: "I dialetti italiani non sono errori, ma lingue vere e proprie.", en: "Italian dialects are not mistakes, but real languages." },
@@ -899,7 +902,7 @@ export const IT_B2_U16: Lesson[] = [
         heading: "Side by side today",
         body: [
           "The second part explains how Italian spread: school, military service, migration within Italy and above all television in the 1950s and 60s. Today almost everyone speaks Italian, but many people still switch to dialect with family and old friends.",
-          "The article ends with a positive note: dialect is now seen as a resource. Singers write songs in Neapolitan, theatre uses Venetian and Sicilian, and young people mix dialect words into their Italian to show where they come from.",
+          "The article ends with a positive note: dialect is now seen as a resource. Singers write songs in Neapolitan, theater uses Venetian and Sicilian, and young people mix dialect words into their Italian to show where they come from.",
         ],
         examples: [
           { es: "La televisione ha insegnato l'italiano a milioni di persone.", en: "Television taught Italian to millions of people." },
@@ -967,7 +970,7 @@ export const IT_B2_U16: Lesson[] = [
           { es: "A Milano si dice \"la Maria\", mentre a Roma si dice \"Maria\".", en: "In Milan they say la Maria, while in Rome they say Maria." },
           { es: "A differenza dei milanesi, i napoletani usano \"tenere\" per \"avere\".", en: "Unlike the Milanese, Neapolitans use tenere for avere." },
           { es: "I romani, invece, accorciano gli infiniti.", en: "Romans, on the other hand, shorten infinitives." },
-          { es: "Sia a Firenze sia a Roma, l'accento è facile da riconoscere.", en: "Both in Florence and in Rome, the accent is easy to recognise." },
+          { es: "Sia a Firenze sia a Roma, l'accento è facile da riconoscere.", en: "Both in Florence and in Rome, the accent is easy to recognize." },
         ],
         checkpoint: [
           {
@@ -1023,7 +1026,7 @@ export const IT_B2_U16: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In Milan they say la Maria, while in Rome they say Maria.", answer: "A Milano si dice la Maria, mentre a Roma si dice Maria.", altAnswers: ["A Milano si dice \"la Maria\", mentre a Roma si dice \"Maria\".", "A Milano dicono la Maria, mentre a Roma dicono Maria."], explanation: "\"Mentre\" = while." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Both in Florence and in Rome, the accent is easy to recognise.", answer: "Sia a Firenze sia a Roma, l'accento è facile da riconoscere.", altAnswers: ["Sia a Firenze che a Roma, l'accento è facile da riconoscere."], explanation: "\"Sia ... sia\" or \"sia ... che\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Both in Florence and in Rome, the accent is easy to recognize.", answer: "Sia a Firenze sia a Roma, l'accento è facile da riconoscere.", altAnswers: ["Sia a Firenze che a Roma, l'accento è facile da riconoscere."], explanation: "\"Sia ... sia\" or \"sia ... che\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "At first I didn't understand when they said tengo fame.", answer: "All'inizio non capivo quando dicevano tengo fame.", altAnswers: ["All'inizio non capivo quando dicevano \"tengo fame\"."], explanation: "Imperfetto for first impressions." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "All in all, every accent tells a story.", answer: "In fondo, ogni accento racconta una storia.", altAnswers: ["In fondo ogni accento racconta una storia."], explanation: "\"In fondo\" = all in all." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I prefer the Tuscan accent.", answer: "Preferisco l'accento toscano.", altAnswers: ["L'accento toscano mi piace di più.", "Mi piace di più l'accento toscano."], explanation: "\"Preferire\" or \"piacere di più\"." },
@@ -1054,6 +1057,6 @@ export const IT_B2_U16_WRITING: WriteExercise = {
     "Uses the imperfetto for impressions and the passato prossimo for specific moments, and writes everything except the quoted forms in standard Italian",
     "Ends with a conclusion (in fondo, nonostante le differenze)",
   ],
-  modelAnswer: "L'estate scorsa ho passato un mese a Milano e una settimana a Napoli, e le differenze mi hanno colpito subito. A Milano tutti dicevano \"la Giulia\" e \"il Marco\", con l'articolo davanti ai nomi, e nessuno usava il passato remoto. Parlavano velocissimo e dicevano spesso \"figo\". A Napoli, invece, il mio padrone di casa diceva \"tengo fame\" per \"ho fame\" e \"sto stanco\" per \"sono stanco\". All'inizio non capivo quando mi diceva \"jamme!\": voleva dire \"andiamo!\". A differenza dei milanesi, i napoletani parlavano con una melodia che sale e scende. Sia a Milano sia a Napoli, però, appena capivano che ero straniero passavano all'italiano standard. In fondo, nonostante le differenze, tutti si capiscono.",
+  modelAnswer: "L'estate scorsa ho passato un mese a Milano e una settimana a Napoli, e le differenze mi hanno colpito subito. A Milano tutti dicevano \"la Giulia\" e \"il Marco\", con l'articolo davanti ai nomi, e nessuno usava il passato remoto. Parlavano velocissimo e dicevano spesso \"figo\". A Napoli, invece, il mio padrone di casa diceva \"tengo fame\" per \"ho fame\" e \"sto stanco\" per \"sono stanco\". All'inizio non capivo quando mi diceva \"jamme!\": voleva dire \"andiamo!\". A differenza dei milanesi, i napoletani parlavano con una melodia che saliva e scendeva. Sia a Milano sia a Napoli, però, appena capivano che ero straniero passavano all'italiano standard. In fondo, nonostante le differenze, tutti si capiscono.",
   explanation: "The writer gives three features for each city, each with its standard form (\"tengo fame\" for \"ho fame\", \"jamme\" for \"andiamo\"). \"Invece\", \"a differenza di\" and \"sia ... sia\" structure the comparison. The imperfetto describes habits and impressions (\"dicevano\", \"non capivo\"), the passato prossimo the trip (\"ho passato\"), and \"in fondo\" and \"nonostante\" close it.",
 };

@@ -213,7 +213,7 @@ export const IT_A2_U16: Lesson[] = [
       { type: "word-order", prompt: "Put the words in order to say: The apples? I ate two.", words: ["Le", "mele?", "Ne", "ho", "mangiate", "due."], translation: "The apples? I ate two.", explanation: "\"Mangiate\" agrees with \"mele\"." },
       { type: "multiple-choice", question: "\"Quanti caffè hai bevuto?\" Which answer is right?", options: ["Ne ho bevuti tre.", "Ne ho bevute tre.", "Li ho bevuti tre.", "Ho bevuto ne tre."], correctIndex: 0, explanation: "\"Caffè\" is masculine: \"bevuti\"." },
       { type: "dictation", audio: "Quante cartoline hai scritto? Ne ho scritte sei.", explanation: "\"Scritte\" agrees with \"cartoline\"." },
-      { type: "speak", text: "Al mercato ho visto delle pesche bellissime e ne ho comprate due chili. Ne abbiamo mangiate tante!", prompt: "Say it in Italian: At the market I saw some lovely peaches and bought two kilos. We ate lots!", tip: "com-PRA-te, man-GIA-te: the -e ending shows the agreement.", explanation: "\"Ne\" with feminine plural agreement." },
+      { type: "speak", text: "Al mercato ho visto delle pesche bellissime e ne ho comprate dieci. Ne abbiamo mangiate tante!", prompt: "Say it in Italian: At the market I saw some lovely peaches and bought ten. We ate lots!", tip: "com-PRA-te, man-GIA-te: the -e ending shows the agreement.", explanation: "\"Ne\" with feminine plural agreement." },
     ],
   },
   {
@@ -364,7 +364,7 @@ export const IT_A2_U16: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The exams? [I passed them] all.", sentence: "Gli esami? ___ tutti.", answer: "Li ho superati", altAnswers: ["Li ho passati"], explanation: "\"Tutti\" → \"li\", agreement." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Exams? [I passed] three out of four.", sentence: "Esami? ___ tre su quattro.", answer: "Ne ho superati", altAnswers: ["Ne ho passati"], explanation: "Number → \"ne\", agreement." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The towels? [I washed them].", sentence: "Gli asciugamani? ___.", answer: "Li ho lavati", explanation: "Definite → \"li\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The cakes? [Sofia made] two.", sentence: "Le torte? ___ Sofia due.", answer: "Ne ha fatte", explanation: "Number → \"ne\" + \"fatte\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The cakes? Sofia [made] two.", sentence: "Le torte? Sofia ___ due.", answer: "ne ha fatte", explanation: "Number → \"ne\" + \"fatte\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "This dress? [I'll take it].", sentence: "Questo vestito? ___.", answer: "Lo prendo", explanation: "Definite → \"lo\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Sugar? [I'll take] a spoonful.", sentence: "Zucchero? ___ un cucchiaino.", answer: "Ne prendo", explanation: "Amount → \"ne\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The news? [Have you heard it]? (to a friend)", sentence: "La notizia? ___?", answer: "L'hai sentita", explanation: "Definite → \"la\" + \"sentita\"." },

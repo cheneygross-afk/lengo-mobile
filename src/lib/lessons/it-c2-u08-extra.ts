@@ -9,7 +9,7 @@ export const IT_C2_U08_EXTRA: Lesson[] = [
     level: "IT-C2",
     number: 1,
     title: "Extra Practice: Idioms",
-    summary: "Use the unit's idioms in fresh contexts: a neighbours' meeting, a job interview, a football club.",
+    summary: "Use the unit's idioms in fresh contexts: a neighbors' meeting, a job interview, a soccer club.",
     duration: "20 min",
     optional: true,
     kind: "drill",
@@ -21,13 +21,13 @@ export const IT_C2_U08_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "L'amministratore menava il can per l'aia.", en: "The building manager was beating about the bush." },
-          { es: "Non paga le spese da due anni.", en: "He hasn't paid the service charges for two years." },
+          { es: "Non paga le spese da due anni.", en: "He hasn't paid the condo fees for two years." },
           { es: "Il costruttore è caduto dalle nuvole.", en: "The builder acted all surprised." },
           { es: "Per tagliare la testa al toro, abbiamo votato.", en: "To settle it once and for all, we voted." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "To settle it once and for all, we voted.", answer: "Per tagliare la testa al toro, abbiamo votato.", altAnswers: ["Per tagliare la testa al toro abbiamo votato."], explanation: "Decisive idiom." },
-          { type: "listen-choose", audio: "Non paga le spese da due anni e fa orecchie da mercante.", question: "What is Mr Bianchi's behaviour?", options: ["He doesn't pay and ignores requests.", "He pays late but apologises.", "He has moved out.", "He manages the building."], correctIndex: 0, explanation: "\"Fare orecchie da mercante\"." },
+          { type: "listen-choose", audio: "Non paga le spese da due anni e fa orecchie da mercante.", question: "What is Mr. Bianchi's behavior?", options: ["He doesn't pay and ignores requests.", "He pays late but apologizes.", "He has moved out.", "He manages the building."], correctIndex: 0, explanation: "\"Fare orecchie da mercante\"." },
         ],
       },
       {
@@ -118,7 +118,7 @@ export const IT_C2_U08_EXTRA: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "They [tied] for second place.", sentence: "Sono arrivati secondi ___.", answer: "ex aequo", explanation: "\"Ex aequo\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The accident happened [on the way to work].", sentence: "L'infortunio è avvenuto ___.", answer: "in itinere", altAnswers: ["andando al lavoro"], explanation: "\"In itinere\": legal term for commuting accidents." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It's a [one-of-a-kind] solution.", sentence: "È una soluzione ___.", answer: "sui generis", explanation: "\"Sui generis\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Repetition helps]: let's revise once more.", sentence: "___: ripassiamo ancora una volta.", answer: "Repetita iuvant", explanation: "Teacher's Latin." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Repetition helps]: let's review once more.", sentence: "___: ripassiamo ancora una volta.", answer: "Repetita iuvant", explanation: "Teacher's Latin." },
       { type: "word-order", prompt: "Put the words in order to say: The quorum was not reached.", words: ["Il", "quorum", "non", "è", "stato", "raggiunto."], translation: "The quorum was not reached.", explanation: "Referendum vocabulary." },
       { type: "matching", instructions: "Match the Latin to the English.", pairs: [{ left: "pro tempore", right: "for the time being" }, { left: "a priori", right: "in advance" }, { left: "in itinere", right: "on the way" }, { left: "alter ego", right: "second self" }], explanation: "Latin phrases." },
       { type: "multiple-choice", question: "\"E dulcis in fundo, ci hanno tolto il parcheggio.\" What tone does \"dulcis in fundo\" have here?", options: ["ironic: the worst comes last", "sincere: the best comes last", "neutral: a list item", "angry: a threat"], correctIndex: 0, explanation: "Ironic use." },

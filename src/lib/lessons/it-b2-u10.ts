@@ -18,7 +18,8 @@ export const IT_B2_U10: Lesson[] = [
         body: [
           "To say although, Italian has four connectors that all take the subjunctive: \"benché\", \"sebbene\", \"nonostante\" (or \"nonostante che\") and \"malgrado\" (or \"malgrado che\"). \"Nonostante sia tardi, resto ancora un po'\" (although it's late, I'll stay a bit longer). They're interchangeable; \"benché\" and \"sebbene\" sound slightly more formal.",
           "Use the tenses you know from the sequence of tenses: \"Benché sia stanco, esco\" (present), \"Benché fosse stanco, è uscito\" (past, same time), \"Benché avesse dormito poco, era di ottimo umore\" (earlier).",
-          "The concession can come first or second: \"È uscito, benché piovesse\".",
+          "The concession can come first or second: \"È uscito, benché piovesse\". To stress that the main action happened anyway, add \"lo stesso\" or \"comunque\": \"Benché piovesse, è uscito lo stesso\".",
+          "In everyday speech you'll often hear \"anche se\" where a text would use \"benché\". What you won't hear from careful speakers is \"benché\" or \"nonostante\" + indicative (\"nonostante è tardi\"): it's one of the slips examiners notice first. \"Nonostante\" has a second life as a preposition before nouns, which you'll see in the next lesson.",
         ],
         examples: [
           { es: "Nonostante sia tardi, resto ancora un po'.", en: "Although it's late, I'll stay a bit longer." },
@@ -26,6 +27,7 @@ export const IT_B2_U10: Lesson[] = [
           { es: "Sebbene avesse dormito poco, era di ottimo umore.", en: "Although she'd slept little, she was in a great mood." },
           { es: "Malgrado non abbia studiato, ha passato l'esame.", en: "Even though he didn't study, he passed the exam." },
           { es: "È uscito, benché piovesse.", en: "He went out, although it was raining." },
+          { es: "Benché piovesse, è uscito lo stesso.", en: "Although it was raining, he went out anyway." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Although it's late, I'll stay a bit longer.", answer: "Nonostante sia tardi, resto ancora un po'.", altAnswers: ["Benché sia tardi, resto ancora un po'.", "Sebbene sia tardi, resto ancora un po'.", "Malgrado sia tardi, resto ancora un po'.", "Anche se è tardi, resto ancora un po'."], explanation: "\"Nonostante\" + present subjunctive." },
@@ -54,16 +56,18 @@ export const IT_B2_U10: Lesson[] = [
         heading: "Per quanto: however much",
         body: [
           "\"Per quanto\" + subjunctive means however much or no matter how: \"Per quanto ci provi, non riesco a capirlo\" (however hard I try, I can't understand him). With an adjective: \"Per quanto sia bravo, non può fare tutto da solo\" (however good he is, he can't do everything on his own).",
+          "Two fixed phrases look similar but aren't concessions. \"Per quanto mi riguarda\" means as far as I'm concerned, and \"per quanto ne so\" means as far as I know. Both take the indicative.",
         ],
         examples: [
           { es: "Per quanto ci provi, non riesco a capirlo.", en: "However hard I try, I can't understand him." },
           { es: "Per quanto sia bravo, non può fare tutto da solo.", en: "However good he is, he can't do everything on his own." },
-          { es: "Per quanto studiasse, i voti non miglioravano.", en: "However much she studied, her marks didn't improve." },
+          { es: "Per quanto studiasse, i voti non miglioravano.", en: "However much she studied, her grades didn't improve." },
           { es: "Per quanto mi riguarda, va bene.", en: "As far as I'm concerned, it's fine." },
+          { es: "Per quanto ne so, il negozio è ancora aperto.", en: "As far as I know, the shop is still open." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "However good he is, he can't do everything on his own.", answer: "Per quanto sia bravo, non può fare tutto da solo.", explanation: "\"Per quanto\" + subjunctive." },
-          { type: "listen-choose", audio: "Per quanto studiasse, i voti non miglioravano.", question: "What was the problem?", options: ["Her marks didn't improve despite studying.", "She didn't study enough.", "Her marks got better.", "She stopped studying."], correctIndex: 0, explanation: "\"Per quanto studiasse\" = however much she studied." },
+          { type: "listen-choose", audio: "Per quanto studiasse, i voti non miglioravano.", question: "What was the problem?", options: ["Her grades didn't improve despite studying.", "She didn't study enough.", "Her grades got better.", "She stopped studying."], correctIndex: 0, explanation: "\"Per quanto studiasse\" = however much she studied." },
         ],
       },
     ],
@@ -96,6 +100,7 @@ export const IT_B2_U10: Lesson[] = [
         body: [
           "\"Nonostante\" and \"malgrado\" can also work as prepositions, directly before a noun, with no \"di\": \"Nonostante la pioggia, la partita si è giocata\" (despite the rain, the match went ahead), \"Malgrado il traffico, siamo arrivati in tempo\".",
           "This is the easiest way to say despite or in spite of. \"Malgrado tutto\" (despite everything) and \"nonostante ciò\" (despite this) are useful fixed phrases.",
+          "In formal writing you'll also meet \"a dispetto di\" + noun (\"a dispetto delle previsioni\", contrary to the forecasts), and \"mio malgrado\", \"suo malgrado\" (against my / his will): \"Mi sono trovato, mio malgrado, a dover decidere\".",
         ],
         examples: [
           { es: "Nonostante la pioggia, la partita si è giocata.", en: "Despite the rain, the match went ahead." },
@@ -114,12 +119,14 @@ export const IT_B2_U10: Lesson[] = [
         body: [
           "\"Pur\" + gerund is a compact concession when the subject is the same: \"Pur essendo stanco, è uscito\" (though tired, he went out), \"Pur sapendo la verità, non ha detto niente\".",
           "With the past gerund it refers to something earlier: \"Pur avendo studiato molto, non ha passato l'esame\" (despite having studied a lot, she didn't pass). The gerund alone would sound like a cause; \"pur\" turns it into a concession.",
+          "Don't confuse \"pur\" + gerund with \"pur di\" + infinitive, which means just to or so as to: \"Farebbe di tutto pur di vincere\" (he'd do anything to win). \"Pur\" is the shortened form of \"pure\"; before a gerund the short form is the norm.",
         ],
         examples: [
           { es: "Pur essendo stanco, è uscito.", en: "Though tired, he went out." },
           { es: "Pur sapendo la verità, non ha detto niente.", en: "Despite knowing the truth, she said nothing." },
           { es: "Pur avendo studiato molto, non ha passato l'esame.", en: "Despite having studied a lot, she didn't pass the exam." },
           { es: "Pur non essendo italiano, conosce Dante a memoria.", en: "Though he's not Italian, he knows Dante by heart." },
+          { es: "Farebbe di tutto pur di vincere.", en: "He'd do anything to win." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Despite knowing the truth, she said nothing.", answer: "Pur sapendo la verità, non ha detto niente.", altAnswers: ["Pur sapendo la verità, non ha detto nulla.", "Pur conoscendo la verità, non ha detto niente."], explanation: "\"Pur\" + present gerund." },
@@ -172,12 +179,14 @@ export const IT_B2_U10: Lesson[] = [
         body: [
           "To compare two different things, use \"mentre\" (whereas, while): \"Io amo il mare, mentre mio marito preferisce la montagna\". \"Invece\" (instead, on the other hand) usually comes after the second subject: \"Io amo il mare; mio marito, invece, preferisce la montagna\". \"Invece di\" + infinitive or noun means instead of: \"Invece di lamentarti, fai qualcosa\".",
           "\"Al contrario\" (on the contrary) corrects or reverses an idea: \"Non è antipatico; al contrario, è molto gentile\".",
+          "\"Anzi\" is the everyday version and often goes a step further, like actually or if anything: \"Non sono arrabbiato, anzi, sono contento\". After a negative, formal Italian uses \"bensì\" to bring in the correct alternative: \"Non a Roma, bensì a Milano\". \"Mentre\" also means while in time (\"Mentre cucinavo, ha suonato il telefono\"). The context and the verb tenses tell you which meaning is intended.",
         ],
         examples: [
           { es: "Io amo il mare, mentre mio marito preferisce la montagna.", en: "I love the sea, whereas my husband prefers the mountains." },
           { es: "Mia sorella è timida; io, invece, parlo con tutti.", en: "My sister is shy; I, on the other hand, talk to everyone." },
           { es: "Invece di lamentarti, fai qualcosa!", en: "Instead of complaining, do something!" },
           { es: "Non è antipatico; al contrario, è molto gentile.", en: "He isn't unpleasant; on the contrary, he's very kind." },
+          { es: "Non sono arrabbiato, anzi, sono contento.", en: "I'm not angry; actually, I'm pleased." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I love the sea, whereas my husband prefers the mountains.", answer: "Io amo il mare, mentre mio marito preferisce la montagna.", altAnswers: ["Amo il mare, mentre mio marito preferisce la montagna.", "Io amo il mare, mio marito invece preferisce la montagna."], explanation: "\"Mentre\" = whereas." },
@@ -189,7 +198,7 @@ export const IT_B2_U10: Lesson[] = [
         heading: "Tuttavia, ciononostante, eppure",
         body: [
           "These open a new sentence or clause that goes against what came before. \"Tuttavia\" (however) is neutral and formal: \"Il progetto è interessante. Tuttavia, costa troppo.\" \"Ciononostante\" (nevertheless, despite this) stresses that something happened anyway.",
-          "\"Eppure\" (and yet) adds surprise: \"Ha studiato tantissimo, eppure non ha passato l'esame\". In conversation, \"però\" and \"ma\" do most of this work.",
+          "\"Eppure\" (and yet) adds surprise: \"Ha studiato tantissimo, eppure non ha passato l'esame\". In conversation, \"però\" and \"ma\" do most of this work. Unlike \"ma\", \"però\" can also come later in the clause: \"È un buon albergo; è un po' lontano, però\".",
         ],
         examples: [
           { es: "Il progetto è interessante. Tuttavia, costa troppo.", en: "The project is interesting. However, it costs too much." },
@@ -231,13 +240,15 @@ export const IT_B2_U10: Lesson[] = [
         heading: "Comunque + subjunctive",
         body: [
           "Before a verb, \"comunque\" means however or no matter how, and takes the subjunctive, just like \"chiunque\" and \"qualunque\" (Unit 6): \"Comunque vada, sarà un successo\" (however it goes, it'll be a success). \"Comunque la pensi, rispetto la tua opinione\" (whatever you think, I respect your opinion).",
-          "In the past: \"Comunque andasse, lui sorrideva sempre\".",
+          "In the past: \"Comunque andasse, lui sorrideva sempre\". \"Comunque sia\" is a fixed phrase for be that as it may.",
+          "\"Comunque\" belongs to a family of words ending in -unque, all followed by the subjunctive: \"chiunque\" (whoever), \"qualunque\" (whatever), \"dovunque / ovunque\" (wherever): \"Dovunque tu vada, ti seguirò\". For whatever before a verb, Italian uses \"qualunque cosa\": \"Qualunque cosa succeda, chiamami\".",
         ],
         examples: [
           { es: "Comunque vada, sarà un successo.", en: "However it goes, it'll be a success." },
           { es: "Comunque la pensi, rispetto la tua opinione.", en: "Whatever you think, I respect your opinion." },
           { es: "Comunque andasse, lui sorrideva sempre.", en: "However things went, he always smiled." },
           { es: "Comunque si vesta, è sempre elegante.", en: "However she dresses, she's always elegant." },
+          { es: "Dovunque tu vada, ti seguirò.", en: "Wherever you go, I'll follow you." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "However it goes, it'll be a success.", answer: "Comunque vada, sarà un successo.", explanation: "\"Comunque\" + \"vada\"." },
@@ -250,6 +261,7 @@ export const IT_B2_U10: Lesson[] = [
         body: [
           "On its own, without a verb right after, \"comunque\" is an adverb: anyway, in any case, however. \"Non so se vengo. Comunque ti chiamo\" (I don't know if I'm coming. I'll call you anyway). It also closes or changes a topic: \"Comunque, parliamo d'altro\" (anyway, let's talk about something else).",
           "At the end of a sentence it often means all the same: \"È caro, ma lo compro comunque\".",
+          "So watch what follows. \"Comunque vada\" (subjunctive) means however it goes. \"Comunque, è andata bene\" (comma, indicative) means anyway, it went well. In speech the comma is a small pause after \"comunque\". Spoken Italian also uses \"comunque\" as a filler to get back to the point, much like English anyway.",
         ],
         examples: [
           { es: "Non so se vengo. Comunque ti chiamo.", en: "I don't know if I'm coming. I'll call you anyway." },
@@ -309,7 +321,7 @@ export const IT_B2_U10: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Although it's cold, the children are playing outside.", answer: "Sebbene faccia freddo, i bambini giocano fuori.", altAnswers: ["Benché faccia freddo, i bambini giocano fuori.", "Nonostante faccia freddo, i bambini giocano fuori.", "Anche se fa freddo, i bambini giocano fuori.", "Malgrado faccia freddo, i bambini giocano fuori."], explanation: "\"Faccia\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Although they live nearby, they never visit us.", answer: "Benché abitino vicino, non vengono mai a trovarci.", altAnswers: ["Sebbene abitino vicino, non vengono mai a trovarci.", "Nonostante abitino vicino, non vengono mai a trovarci.", "Anche se abitano vicino, non vengono mai a trovarci."], explanation: "\"Abitino\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Despite the crisis, the company is hiring.", answer: "Nonostante la crisi, l'azienda sta assumendo.", altAnswers: ["Malgrado la crisi, l'azienda sta assumendo.", "Nonostante la crisi, l'azienda assume."], explanation: "\"Nonostante\" + noun." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Though he knows the road, he always uses the satnav.", answer: "Pur conoscendo la strada, usa sempre il navigatore.", altAnswers: ["Benché conosca la strada, usa sempre il navigatore.", "Anche se conosce la strada, usa sempre il navigatore."], explanation: "\"Pur conoscendo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Though he knows the road, he always uses the GPS.", answer: "Pur conoscendo la strada, usa sempre il navigatore.", altAnswers: ["Benché conosca la strada, usa sempre il navigatore.", "Anche se conosce la strada, usa sempre il navigatore."], explanation: "\"Pur conoscendo\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "However much I explain, he doesn't understand.", answer: "Per quanto gli spieghi, non capisce.", altAnswers: ["Per quanto io gli spieghi, non capisce.", "Per quanto glielo spieghi, non capisce."], explanation: "\"Per quanto\" + subjunctive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Although we had left early, we missed the plane.", answer: "Nonostante fossimo partiti presto, abbiamo perso l'aereo.", altAnswers: ["Benché fossimo partiti presto, abbiamo perso l'aereo.", "Sebbene fossimo partiti presto, abbiamo perso l'aereo.", "Pur essendo partiti presto, abbiamo perso l'aereo.", "Anche se eravamo partiti presto, abbiamo perso l'aereo."], explanation: "Pluperfect subjunctive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Even though I'm on a diet, I'll have a slice of cake.", answer: "Anche se sono a dieta, prendo una fetta di torta.", altAnswers: ["Anche se sto a dieta, prendo una fetta di torta.", "Benché sia a dieta, prendo una fetta di torta.", "Pur essendo a dieta, prendo una fetta di torta."], explanation: "\"Anche se\" + indicative." },
@@ -359,7 +371,7 @@ export const IT_B2_U10: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Whatever you choose, I'll be happy.", answer: "Comunque tu scelga, sarò contento.", altAnswers: ["Qualunque cosa tu scelga, sarò contento.", "Qualunque cosa tu scelga, sarò contenta.", "Comunque tu scelga, sarò contenta."], explanation: "\"Comunque\" / \"qualunque cosa\" + subjunctive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Despite the noise, the baby slept.", answer: "Nonostante il rumore, il bambino ha dormito.", altAnswers: ["Malgrado il rumore, il bambino ha dormito.", "Nonostante il rumore, il bambino dormiva.", "Nonostante il rumore, la bambina ha dormito."], explanation: "Noun concession." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Instead of watching TV, read a book. (to a friend)", answer: "Invece di guardare la tv, leggi un libro.", altAnswers: ["Invece di guardare la televisione, leggi un libro.", "Anziché guardare la tv, leggi un libro."], explanation: "\"Invece di\" + infinitive." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The flat is small; however, it's in the centre.", answer: "L'appartamento è piccolo; tuttavia, è in centro.", altAnswers: ["L'appartamento è piccolo, tuttavia è in centro.", "L'appartamento è piccolo, però è in centro."], explanation: "\"Tuttavia\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The apartment is small; however, it's downtown.", answer: "L'appartamento è piccolo; tuttavia, è in centro.", altAnswers: ["L'appartamento è piccolo, tuttavia è in centro.", "L'appartamento è piccolo, però è in centro."], explanation: "\"Tuttavia\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Though she had never cooked, she made a wonderful dinner.", answer: "Pur non avendo mai cucinato, ha preparato una cena buonissima.", altAnswers: ["Benché non avesse mai cucinato, ha preparato una cena buonissima.", "Pur non avendo mai cucinato, ha preparato una cena squisita.", "Anche se non aveva mai cucinato, ha preparato una cena buonissima."], explanation: "\"Pur non avendo\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's not boring; on the contrary, it's fascinating.", answer: "Non è noioso; al contrario, è affascinante.", altAnswers: ["Non è noioso, al contrario, è affascinante.", "Non è noioso; anzi, è affascinante.", "Non è noiosa; al contrario, è affascinante."], explanation: "\"Al contrario\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The train was late; nevertheless, we got to the wedding on time.", answer: "Il treno era in ritardo; ciononostante, siamo arrivati in tempo al matrimonio.", altAnswers: ["Il treno era in ritardo, ciononostante siamo arrivati in tempo al matrimonio.", "Il treno era in ritardo; nonostante ciò, siamo arrivati al matrimonio in tempo.", "Il treno era in ritardo; ciononostante, siamo arrivati al matrimonio in tempo."], explanation: "\"Ciononostante\"." },
@@ -369,7 +381,7 @@ export const IT_B2_U10: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He talks a lot; his wife, [on the other hand], is very quiet.", sentence: "Lui parla tanto; sua moglie, ___, è molto silenziosa.", answer: "invece", explanation: "\"Invece\"." },
       { type: "multi-select", question: "Which express concession (not just contrast)?", options: ["Benché sia tardi, resto.", "Io resto, mentre lui va via.", "Pur essendo tardi, resto.", "Nonostante l'ora, resto."], correctIndexes: [0, 2, 3], explanation: "\"Mentre\" contrasts two people; it doesn't concede." },
       { type: "dictation", audio: "Ho preparato tutto, eppure qualcosa è andato storto.", explanation: "\"Eppure\"." },
-      { type: "listen-choose", audio: "L'appartamento è piccolo; tuttavia, è in centro e costa poco.", question: "What are the flat's advantages?", options: ["Central and cheap.", "Big and quiet.", "New and bright.", "Near the sea."], correctIndex: 0, explanation: "\"In centro e costa poco\"." },
+      { type: "listen-choose", audio: "L'appartamento è piccolo; tuttavia, è in centro e costa poco.", question: "What are the apartment's advantages?", options: ["Central and cheap.", "Big and quiet.", "New and bright.", "Near the sea."], correctIndex: 0, explanation: "\"In centro e costa poco\"." },
       { type: "speak", text: "Pur non avendo mai cucinato, ha preparato una cena buonissima; suo fratello, invece, ha bruciato il pane.", prompt: "Say it in Italian: Though she'd never cooked, she made a wonderful dinner; her brother, on the other hand, burned the bread.", tip: "Concession, then contrast.", explanation: "\"Pur\" and \"invece\"." },
     ],
   },
@@ -408,7 +420,7 @@ export const IT_B2_U10: Lesson[] = [
           { es: "Pur essendo stanco, ho finito il lavoro.", en: "Though tired, I finished the work." },
           { es: "Malgrado il freddo, siamo usciti.", en: "Despite the cold, we went out." },
           { es: "Nonostante il traffico, è arrivata puntuale.", en: "Despite the traffic, she arrived on time." },
-          { es: "Pur avendo ragione, ha chiesto scusa.", en: "Although he was right, he apologised." },
+          { es: "Pur avendo ragione, ha chiesto scusa.", en: "Although he was right, he apologized." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "A learner wrote \"Pur sono stanco, ho finito il lavoro\". Write it correctly: Though tired, I finished the work.", source: "Though tired, I finished the work.", answer: "Pur essendo stanco, ho finito il lavoro.", altAnswers: ["Pur essendo stanca, ho finito il lavoro.", "Benché fossi stanco, ho finito il lavoro."], explanation: "\"Pur\" + gerund." },
@@ -419,13 +431,13 @@ export const IT_B2_U10: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Malgrado del freddo, siamo usciti\". Write it correctly: Despite the cold, we went out.", source: "Despite the cold, we went out.", answer: "Malgrado il freddo, siamo usciti.", altAnswers: ["Nonostante il freddo, siamo usciti.", "Malgrado il freddo, siamo uscite."], explanation: "No \"di\"." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Benché avevamo fretta, ci siamo fermati\". Write it correctly: Although we were in a hurry, we stopped.", source: "Although we were in a hurry, we stopped.", answer: "Benché avessimo fretta, ci siamo fermati.", altAnswers: ["Sebbene avessimo fretta, ci siamo fermati.", "Benché avessimo fretta, ci siamo fermate.", "Anche se avevamo fretta, ci siamo fermati."], explanation: "\"Benché\" + \"avessimo\"." },
-      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Pur ha ragione, ha chiesto scusa\". Write it correctly: Although he was right, he apologised.", source: "Although he was right, he apologised.", answer: "Pur avendo ragione, ha chiesto scusa.", altAnswers: ["Benché avesse ragione, ha chiesto scusa.", "Anche se aveva ragione, ha chiesto scusa."], explanation: "\"Pur\" + gerund." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Pur ha ragione, ha chiesto scusa\". Write it correctly: Although he was right, he apologized.", source: "Although he was right, he apologized.", answer: "Pur avendo ragione, ha chiesto scusa.", altAnswers: ["Benché avesse ragione, ha chiesto scusa.", "Anche se aveva ragione, ha chiesto scusa."], explanation: "\"Pur\" + gerund." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Per quanto è bravo, non può vincere sempre\". Write it correctly: However good he is, he can't always win.", source: "However good he is, he can't always win.", answer: "Per quanto sia bravo, non può vincere sempre.", altAnswers: ["Per quanto sia bravo, non può sempre vincere."], explanation: "\"Per quanto\" + subjunctive." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Anche se avesse studiato poco, ha passato l'esame\" about a real past fact. Write it correctly: Even though she'd studied little, she passed the exam.", source: "Even though she'd studied little, she passed the exam.", answer: "Anche se aveva studiato poco, ha passato l'esame.", altAnswers: ["Benché avesse studiato poco, ha passato l'esame.", "Anche se aveva studiato poco, ha superato l'esame."], explanation: "Real fact → \"anche se\" + indicative." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Nonostante di essere malato, è venuto\". Write it correctly: Despite being ill, he came.", source: "Despite being ill, he came.", answer: "Pur essendo malato, è venuto.", altAnswers: ["Nonostante fosse malato, è venuto.", "Benché fosse malato, è venuto.", "Malgrado fosse malato, è venuto.", "Nonostante la malattia, è venuto."], explanation: "\"Pur\" + gerund, or \"nonostante\" + subjunctive." },
-      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Sebbene sarebbe facile, nessuno lo fa\". Write it correctly: Although it would be easy, nobody does it.", source: "Although it would be easy, nobody does it.", answer: "Sebbene sia facile, nessuno lo fa.", altAnswers: ["Benché sia facile, nessuno lo fa.", "Anche se sarebbe facile, nessuno lo fa."], explanation: "\"Sebbene\" + subjunctive; \"anche se\" allows the conditional." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Sebbene è facile, nessuno lo fa\". Write it correctly: Although it's easy, nobody does it.", source: "Although it's easy, nobody does it.", answer: "Sebbene sia facile, nessuno lo fa.", altAnswers: ["Benché sia facile, nessuno lo fa.", "Anche se è facile, nessuno lo fa."], explanation: "\"Sebbene\" + subjunctive, or \"anche se\" + indicative." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Comunque va, ti aspetto\". Write it correctly: However it goes, I'll wait for you.", source: "However it goes, I'll wait for you.", answer: "Comunque vada, ti aspetto.", explanation: "\"Comunque\" + subjunctive." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Although she [knows] him well, she didn't recognise him.", sentence: "Nonostante lo ___ bene, non l'ha riconosciuto.", answer: "conosca", altAnswers: ["conoscesse"], explanation: "Subjunctive after \"nonostante\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Although she [knows] him well, she didn't recognize him.", sentence: "Nonostante lo ___ bene, non l'ha riconosciuto.", answer: "conosca", altAnswers: ["conoscesse"], explanation: "Subjunctive after \"nonostante\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Even though I [don't have] much time, I'll help you.", sentence: "Anche se non ___ molto tempo, ti aiuto.", answer: "ho", explanation: "Indicative after \"anche se\"." },
       { type: "multi-select", question: "Which sentences are correct?", options: ["Benché piova, esco.", "Anche se piove, esco.", "Anche se piova, esco.", "Pur piove, esco."], correctIndexes: [0, 1], explanation: "\"Anche se\" + indicative; \"pur\" + gerund." },
       { type: "dictation", audio: "Pur avendo ragione, ha chiesto scusa.", explanation: "\"Pur avendo\"." },
@@ -443,14 +455,14 @@ export const IT_B2_U10: Lesson[] = [
       {
         heading: "Admitting the other side",
         body: [
-          "This essay, written by a student preparing for the CILS exam, asks whether working from home (\"lavoro da remoto\" or \"smart working\", as Italians often call it) is a gain or a risk. A good argumentative text first concedes the strong points of the other side, then answers them.",
+          "This essay, written by a student preparing for the CILS exam, asks whether working from home (\"lavoro da remoto\" or \"smart working\", an English-sounding term coined in Italy) is a gain or a risk. A good argumentative text first concedes the strong points of the other side, then answers them.",
           "Look for the signals: \"È vero che\" (it's true that), \"Certo,\" (of course), \"Benché\", \"Pur\" + gerund, then \"tuttavia\", \"eppure\", \"ciononostante\" to turn the argument.",
         ],
         examples: [
           { es: "È vero che lavorare da casa fa risparmiare tempo e denaro.", en: "It's true that working from home saves time and money." },
           { es: "Benché molti lavoratori si dichiarino più produttivi, la solitudine è un problema reale.", en: "Although many workers say they are more productive, loneliness is a real problem." },
           { es: "Certo, nessuno rimpiange il traffico del mattino; tuttavia, l'ufficio era anche un luogo di incontro.", en: "Of course, nobody misses the morning traffic; however, the office was also a place to meet people." },
-          { es: "Pur riconoscendo i vantaggi, molti esperti invitano alla prudenza.", en: "While recognising the advantages, many experts urge caution." },
+          { es: "Pur riconoscendo i vantaggi, molti esperti invitano alla prudenza.", en: "While recognizing the advantages, many experts urge caution." },
         ],
         checkpoint: [
           { type: "multiple-choice", question: "Which disadvantage does the writer accept as real?", options: ["Loneliness.", "Lower productivity.", "Higher costs.", "More traffic."], correctIndex: 0, explanation: "\"La solitudine è un problema reale\"." },
@@ -477,7 +489,7 @@ export const IT_B2_U10: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Although many workers say they are more productive, loneliness is a real problem.", answer: "Benché molti lavoratori si dichiarino più produttivi, la solitudine è un problema reale.", altAnswers: ["Sebbene molti lavoratori si dichiarino più produttivi, la solitudine è un problema reale.", "Anche se molti lavoratori si dichiarano più produttivi, la solitudine è un problema reale.", "Nonostante molti lavoratori si dichiarino più produttivi, la solitudine è un problema reale."], explanation: "\"Benché\" + \"si dichiarino\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Of course, nobody misses the morning traffic; however, the office was also a place to meet people.", answer: "Certo, nessuno rimpiange il traffico del mattino; tuttavia, l'ufficio era anche un luogo di incontro.", altAnswers: ["Certo, nessuno rimpiange il traffico del mattino, tuttavia l'ufficio era anche un luogo di incontro.", "Certo, nessuno rimpiange il traffico della mattina; tuttavia, l'ufficio era anche un luogo di incontro."], explanation: "Concede, then turn with \"tuttavia\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "While recognising the advantages, many experts urge caution.", answer: "Pur riconoscendo i vantaggi, molti esperti invitano alla prudenza.", altAnswers: ["Pur riconoscendo i vantaggi, molti esperti consigliano prudenza."], explanation: "\"Pur\" + gerund." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "While recognizing the advantages, many experts urge caution.", answer: "Pur riconoscendo i vantaggi, molti esperti invitano alla prudenza.", altAnswers: ["Pur riconoscendo i vantaggi, molti esperti consigliano prudenza."], explanation: "\"Pur\" + gerund." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "And yet going back to the office five days a week now seems unthinkable.", answer: "Eppure tornare in ufficio cinque giorni su cinque sembra ormai impensabile.", altAnswers: ["Eppure tornare in ufficio cinque giorni alla settimana sembra ormai impensabile.", "Eppure tornare in ufficio tutti i giorni sembra ormai impensabile."], explanation: "\"Eppure\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Whatever one thinks, the best solution seems to be a hybrid model.", answer: "Comunque la si pensi, la soluzione migliore sembra un modello misto.", altAnswers: ["Comunque la si pensi, la soluzione migliore sembra essere un modello misto.", "Comunque la si pensi, la soluzione migliore sembra un modello ibrido."], explanation: "\"Comunque la si pensi\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Remote working is a gain, as long as it doesn't become isolation.", answer: "Il lavoro da remoto è una conquista, purché non diventi isolamento.", altAnswers: ["Il lavoro da remoto è una conquista, a patto che non diventi isolamento."], explanation: "\"Purché\" + subjunctive." },
@@ -487,7 +499,7 @@ export const IT_B2_U10: Lesson[] = [
       { type: "matching", instructions: "Match each signal to its role in the essay.", pairs: [{ left: "È vero che", right: "conceding a point" }, { left: "tuttavia", right: "turning the argument" }, { left: "In conclusione", right: "summing up" }, { left: "purché", right: "setting a condition" }], explanation: "The structure of an argumentative text." },
       { type: "multiple-choice", question: "What is the writer's overall position?", options: ["Remote work is positive if it doesn't isolate people.", "Remote work should be banned.", "Offices are no longer needed.", "Technology has solved every problem."], correctIndex: 0, explanation: "\"Una conquista, purché non diventi isolamento\"." },
       { type: "dictation", audio: "Pur riconoscendo i vantaggi, molti esperti invitano alla prudenza.", explanation: "\"Pur riconoscendo\"." },
-      { type: "speak", text: "È vero che lavorare da casa fa risparmiare tempo; tuttavia, per quanto la tecnologia ci aiuti, l'ufficio resta un luogo di incontro.", prompt: "Summarise the essay's argument aloud: working from home saves time; however, however much technology helps, the office remains a place to meet.", tip: "Concede, pause, then turn.", explanation: "Concession and counterargument." },
+      { type: "speak", text: "È vero che lavorare da casa fa risparmiare tempo; tuttavia, per quanto la tecnologia ci aiuti, l'ufficio resta un luogo di incontro.", prompt: "Summarize the essay's argument aloud: working from home saves time; however, however much technology helps, the office remains a place to meet.", tip: "Concede, pause, then turn.", explanation: "Concession and counterargument." },
     ],
   },
   {
@@ -559,17 +571,17 @@ export const IT_B2_U10: Lesson[] = [
       {
         heading: "Concede, then argue",
         body: [
-          "Your mission: write a short argumentative paragraph, the kind the CILS B2 writing paper asks for. Topic: should city centres be closed to cars? Start by stating the question, then concede the strongest point of the other side: \"È vero che chiudere il centro alle auto crea disagi ai commercianti\".",
+          "Your mission: write a short argumentative paragraph, the kind the CILS B2 writing paper asks for. Topic: should city centers be closed to cars? Start by stating the question, then concede the strongest point of the other side: \"È vero che chiudere il centro alle auto crea disagi ai commercianti\".",
           "Then turn the argument with \"tuttavia\" or \"eppure\", and support your view with a concession inside it: \"Benché all'inizio ci siano proteste, ...\".",
         ],
         examples: [
-          { es: "È vero che chiudere il centro alle auto crea disagi ai commercianti.", en: "It's true that closing the centre to cars causes problems for shopkeepers." },
-          { es: "Tuttavia, le città che l'hanno fatto sono diventate più vivibili.", en: "However, the cities that have done it have become more liveable." },
+          { es: "È vero che chiudere il centro alle auto crea disagi ai commercianti.", en: "It's true that closing downtown to cars causes problems for shopkeepers." },
+          { es: "Tuttavia, le città che l'hanno fatto sono diventate più vivibili.", en: "However, the cities that have done it have become more livable." },
           { es: "Benché all'inizio ci siano sempre proteste, dopo qualche mese i negozi lavorano di più.", en: "Although there are always protests at first, after a few months shops do more business." },
           { es: "Nonostante i costi iniziali, i benefici per la salute sono evidenti.", en: "Despite the initial costs, the health benefits are clear." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's true that closing the centre to cars causes problems for shopkeepers.", answer: "È vero che chiudere il centro alle auto crea disagi ai commercianti.", altAnswers: ["È vero che chiudere il centro alle macchine crea disagi ai commercianti.", "È vero che chiudere il centro alle auto crea problemi ai commercianti."], explanation: "\"Disagi\" = inconvenience." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's true that closing downtown to cars causes problems for shopkeepers.", answer: "È vero che chiudere il centro alle auto crea disagi ai commercianti.", altAnswers: ["È vero che chiudere il centro alle macchine crea disagi ai commercianti.", "È vero che chiudere il centro alle auto crea problemi ai commercianti."], explanation: "\"Disagi\" = inconvenience." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Despite the initial costs, the health benefits are clear.", answer: "Nonostante i costi iniziali, i benefici per la salute sono evidenti.", altAnswers: ["Malgrado i costi iniziali, i benefici per la salute sono evidenti.", "Nonostante i costi iniziali, i vantaggi per la salute sono evidenti."], explanation: "\"Nonostante\" + noun." },
         ],
       },
@@ -591,25 +603,25 @@ export const IT_B2_U10: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "However, the cities that have done it have become more liveable.", answer: "Tuttavia, le città che l'hanno fatto sono diventate più vivibili.", altAnswers: ["Tuttavia le città che l'hanno fatto sono diventate più vivibili.", "Tuttavia, le città che lo hanno fatto sono diventate più vivibili."], explanation: "\"Tuttavia\" turns the argument." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "However, the cities that have done it have become more livable.", answer: "Tuttavia, le città che l'hanno fatto sono diventate più vivibili.", altAnswers: ["Tuttavia le città che l'hanno fatto sono diventate più vivibili.", "Tuttavia, le città che lo hanno fatto sono diventate più vivibili."], explanation: "\"Tuttavia\" turns the argument." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Although there are always protests at first, after a few months shops do more business.", answer: "Benché all'inizio ci siano sempre proteste, dopo qualche mese i negozi lavorano di più.", altAnswers: ["Sebbene all'inizio ci siano sempre proteste, dopo qualche mese i negozi lavorano di più.", "Anche se all'inizio ci sono sempre proteste, dopo qualche mese i negozi lavorano di più."], explanation: "\"Ci siano\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In conclusion, while understanding shopkeepers' concerns, I believe the closure is necessary.", answer: "In conclusione, pur comprendendo le preoccupazioni dei commercianti, credo che la chiusura sia necessaria.", altAnswers: ["In conclusione, pur capendo le preoccupazioni dei commercianti, credo che la chiusura sia necessaria.", "In conclusione, pur comprendendo le preoccupazioni dei commercianti, ritengo che la chiusura sia necessaria."], explanation: "\"Pur\" + gerund; \"credo che\" + subjunctive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Whatever one thinks, the traffic problem can't be ignored.", answer: "Comunque la si pensi, il problema del traffico non si può ignorare.", altAnswers: ["Comunque la si pensi, non si può ignorare il problema del traffico."], explanation: "\"Comunque la si pensi\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "On the other hand, we need to help people who live outside the city.", answer: "D'altra parte, bisogna aiutare chi vive fuori città.", altAnswers: ["D'altra parte, bisogna aiutare chi abita fuori città.", "D'altro canto, bisogna aiutare chi vive fuori città."], explanation: "\"Chi\" = people who." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Although the idea is good, it must be explained well to citizens.", answer: "Sebbene l'idea sia buona, va spiegata bene ai cittadini.", altAnswers: ["Benché l'idea sia buona, deve essere spiegata bene ai cittadini.", "Anche se l'idea è buona, va spiegata bene ai cittadini.", "Sebbene l'idea sia buona, deve essere spiegata bene ai cittadini."], explanation: "\"Andare\" + participle = must be." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Despite the protests], the council approved the plan.", sentence: "___, il comune ha approvato il progetto.", answer: "Nonostante le proteste", altAnswers: ["Malgrado le proteste"], explanation: "Noun concession." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It can work, [provided that] there are enough car parks.", sentence: "Può funzionare, ___ ci siano abbastanza parcheggi.", answer: "purché", altAnswers: ["a patto che", "a condizione che"], explanation: "Condition + subjunctive." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It can work, [provided that] there are enough parking lots.", sentence: "Può funzionare, ___ ci siano abbastanza parcheggi.", answer: "purché", altAnswers: ["a patto che", "a condizione che"], explanation: "Condition + subjunctive." },
       { type: "word-order", prompt: "Put the words in order to say: However, the benefits are clear.", words: ["Tuttavia,", "i", "benefici", "sono", "evidenti."], translation: "However, the benefits are clear.", explanation: "\"Tuttavia\" first." },
       { type: "multiple-choice", question: "Which sentence best concedes the other side?", options: ["È vero che la chiusura crea disagi; tuttavia, i vantaggi sono maggiori.", "La chiusura è perfetta e chi non è d'accordo sbaglia.", "Le auto sono il male assoluto.", "Non mi interessa il traffico."], correctIndex: 0, explanation: "Concede, then argue." },
       { type: "dictation", audio: "Nonostante i costi iniziali, i benefici per la salute sono evidenti.", explanation: "\"Nonostante\" + noun." },
-      { type: "speak", text: "È vero che chiudere il centro crea disagi; tuttavia, pur comprendendo le preoccupazioni dei commercianti, credo che sia la scelta giusta.", prompt: "Give your opinion aloud: closing the centre causes problems; however, while understanding shopkeepers' concerns, you think it's the right choice.", tip: "Slow down on \"tuttavia\".", explanation: "A balanced spoken argument." },
+      { type: "speak", text: "È vero che chiudere il centro crea disagi; tuttavia, pur comprendendo le preoccupazioni dei commercianti, credo che sia la scelta giusta.", prompt: "Give your opinion aloud: closing downtown causes problems; however, while understanding shopkeepers' concerns, you think it's the right choice.", tip: "Slow down on \"tuttavia\".", explanation: "A balanced spoken argument." },
     ],
   },
 ];
 
 export const IT_B2_U10_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Write a balanced argumentative paragraph on one of these questions: Should city centres be closed to cars? Is working from home better than working in an office? Should tourists pay to enter historic cities? Concede the strongest point of the other side, argue your view, and reach a balanced conclusion. Use at least one subjunctive concession (benché / sebbene / nonostante), one nonostante + noun or pur + gerund, one contrast connector (tuttavia / eppure / mentre) and one comunque or per quanto.",
+  prompt: "Write a balanced argumentative paragraph on one of these questions: Should city centers be closed to cars? Is working from home better than working in an office? Should tourists pay to enter historic cities? Concede the strongest point of the other side, argue your view, and reach a balanced conclusion. Use at least one subjunctive concession (benché / sebbene / nonostante), one nonostante + noun or pur + gerund, one contrast connector (tuttavia / eppure / mentre) and one comunque or per quanto.",
   minWords: 120,
   maxWords: 180,
   rubric: [

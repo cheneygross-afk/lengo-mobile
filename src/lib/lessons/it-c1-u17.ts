@@ -12,21 +12,24 @@ export const IT_C1_U17: Lesson[] = [
     number: 1,
     title: "Rhetorical Devices",
     summary: "Recognize and use the classic devices of Italian rhetoric: anafora, climax, domanda retorica, antitesi and litote.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Repetition and accumulation",
         body: [
           "Italian schools teach rhetoric by name, so educated Italians know the terms \"figure retoriche\". \"L'anafora\" repeats the same word or phrase at the start of successive clauses: \"Vogliamo scuole aperte, vogliamo strade sicure, vogliamo un lavoro per i nostri figli.\" The repetition builds rhythm and makes the listener expect the next clause.",
-          "\"Il climax\" (also \"la gradazione\") arranges words in rising intensity: \"Un'idea, un progetto, una realtà.\" The reverse, falling order is \"l'anticlimax\". Three items are the natural unit: Italian speakers call it \"il tricolon\" or simply \"la regola del tre\". Two items sound incomplete; four sound like a list.",
+          "\"Il climax\" (also \"la gradazione\"; older manuals make it feminine, \"la climax\", as in Greek) arranges words in rising intensity: \"Un'idea, un progetto, una realtà.\" The reverse, falling order is \"l'anticlimax\". Three items are the natural unit: Rhetoric manuals call it \"il tricolon\"; everyone else says \"la regola del tre\". Two items sound incomplete; four sound like a list.",
           "\"L'enumerazione\" (listing) and \"il polisindeto\" (repeating \"e\": \"e lavora, e studia, e non si ferma mai\") slow the sentence down and give weight to each item. \"L'asindeto\" does the opposite, dropping the conjunctions for speed: \"Arrivo, guardo, decido.\"",
+          "Asyndeton is as old as Caesar's \"Veni, vidi, vici\", which Italians still quote, half joking, after any quick success. Note the punctuation: in an ordinary list Italian puts no comma before the last \"e\" (\"pane, burro e marmellata\"), but in a polisindeto each \"e\" may take a comma, because each one is a pause for breath. Repetition also works inside a phrase: \"giorno dopo giorno\", \"passo dopo passo\", \"casa per casa\" suggest patient, steady effort. Devices combine: an anaphora whose three limbs rise in a climax is the classic close of an Italian rally speech.",
         ],
         examples: [
           { es: "Vogliamo scuole aperte, vogliamo strade sicure, vogliamo un lavoro per i nostri figli.", en: "We want open schools, we want safe streets, we want work for our children." },
           { es: "Un'idea, un progetto, una realtà.", en: "An idea, a project, a reality." },
-          { es: "Ci hanno detto che era difficile, poi impossibile, poi folle.", en: "They told us it was difficult, then impossible, then mad." },
+          { es: "Ci hanno detto che era difficile, poi impossibile, poi folle.", en: "They told us it was difficult, then impossible, then crazy." },
           { es: "E lavora, e studia, e non si ferma mai.", en: "And she works, and she studies, and she never stops." },
           { es: "Arrivo, guardo, decido.", en: "I arrive, I look, I decide." },
+          { es: "Giorno dopo giorno, passo dopo passo, casa per casa.", en: "Day after day, step by step, door to door." },
+          { es: "E corre, e ride, e canta, e non si stanca mai.", en: "And she runs, and laughs, and sings, and never gets tired." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian, keeping the anaphora.", source: "We want open schools, we want safe streets.", answer: "Vogliamo scuole aperte, vogliamo strade sicure.", altAnswers: ["Vogliamo scuole aperte e vogliamo strade sicure."], explanation: "\"L'anafora\": the repeated \"vogliamo\"." },
@@ -40,6 +43,7 @@ export const IT_C1_U17: Lesson[] = [
           "\"L'antitesi\" sets two opposite ideas side by side: \"Non chiediamo privilegi, chiediamo diritti.\" The pattern \"non... ma\" or \"non... bensì\" is the most common frame. \"Il chiasmo\" crosses the order: \"Bisogna mangiare per vivere, non vivere per mangiare.\"",
           "\"La domanda retorica\" expects no answer because the answer is obvious: \"Chi di noi non ha mai avuto paura?\", \"Possiamo davvero permetterci di aspettare?\" It draws the audience in and makes them supply the speaker's conclusion.",
           "\"La litote\" says something by denying its opposite: \"non è stato facile\" (it was hard), \"non è un cattivo risultato\" (it's a good one), \"una persona non priva di talento\" (quite talented). Italians use it constantly, often with irony. \"La preterizione\" claims not to say what it is in fact saying: \"Non starò a ricordarvi quanto ci è costato questo ritardo.\"",
+          "Everyday Italian is full of other figures. \"L'iperbole\" exaggerates: \"Te l'ho detto mille volte\", \"Muoio di fame\", \"Ci ho messo una vita\" (it took me forever). \"L'ossimoro\" joins opposites: \"un silenzio assordante\" (a deafening silence) is a favorite of journalists. \"L'eufemismo\" softens: \"è venuto a mancare\" (he passed away), \"una persona non vedente\" (a blind person), \"il personale in esubero\" (surplus staff, that is, people about to be laid off). \"L'antifrasi\" says the opposite with irony: \"Bella giornata, eh!\" in pouring rain. At C1 you should recognize all of them and use litote and euphemism actively: they are what makes Italian sound tactful rather than blunt.",
         ],
         examples: [
           { es: "Non chiediamo privilegi, chiediamo diritti.", en: "We're not asking for privileges, we're asking for rights." },
@@ -49,6 +53,10 @@ export const IT_C1_U17: Lesson[] = [
           { es: "Non è stato facile, ma ce l'abbiamo fatta.", en: "It wasn't easy, but we made it." },
           { es: "È una ragazza non priva di talento.", en: "She's a girl with no lack of talent." },
           { es: "Non starò a ricordarvi quanto ci è costato questo ritardo.", en: "I won't remind you how much this delay has cost us." },
+          { es: "Te l'ho detto mille volte!", en: "I've told you a thousand times!" },
+          { es: "Dopo l'annuncio, in sala c'era un silenzio assordante.", en: "After the announcement, there was a deafening silence in the room." },
+          { es: "Il nonno di Paolo è venuto a mancare la settimana scorsa.", en: "Paolo's grandfather passed away last week." },
+          { es: "Bella giornata, eh!", en: "Lovely day, huh! (said in pouring rain)" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian (antithesis).", source: "We're not asking for privileges, we're asking for rights.", answer: "Non chiediamo privilegi, chiediamo diritti.", altAnswers: ["Non chiediamo privilegi, ma diritti.", "Non chiediamo privilegi: chiediamo diritti."], explanation: "\"L'antitesi\": privilegi vs diritti." },
@@ -61,9 +69,9 @@ export const IT_C1_U17: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (rhetorical question).", source: "Which of us has never been afraid?", answer: "Chi di noi non ha mai avuto paura?", altAnswers: ["Chi tra noi non ha mai avuto paura?", "Chi di noi non ha avuto mai paura?"], explanation: "Double negative \"non... mai\" is standard Italian." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (chiasmus).", source: "You should eat to live, not live to eat.", answer: "Bisogna mangiare per vivere, non vivere per mangiare.", altAnswers: ["Si deve mangiare per vivere, non vivere per mangiare.", "Bisogna mangiare per vivere e non vivere per mangiare."], explanation: "\"Il chiasmo\": A-B, B-A." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (litotes).", source: "It's not a bad result.", answer: "Non è un cattivo risultato.", altAnswers: ["Non è un brutto risultato.", "Non è affatto un cattivo risultato."], explanation: "Litote: denying the opposite to affirm." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They told us it was difficult, then impossible, then mad.", answer: "Ci hanno detto che era difficile, poi impossibile, poi folle.", altAnswers: ["Ci dissero che era difficile, poi impossibile, poi folle.", "Ci hanno detto che era difficile, poi impossibile, poi una follia."], explanation: "\"Climax\" across three adjectives." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They told us it was difficult, then impossible, then crazy.", answer: "Ci hanno detto che era difficile, poi impossibile, poi folle.", altAnswers: ["Ci dissero che era difficile, poi impossibile, poi folle.", "Ci hanno detto che era difficile, poi impossibile, poi una follia."], explanation: "\"Climax\" across three adjectives." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (paralipsis).", source: "I won't remind you how much this delay has cost us.", answer: "Non starò a ricordarvi quanto ci è costato questo ritardo.", altAnswers: ["Non vi ricorderò quanto ci è costato questo ritardo.", "Non sto a ricordarvi quanto ci è costato questo ritardo."], explanation: "\"Non stare a\" + infinitive = not bother to." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "She's a girl [with no lack of] talent.", sentence: "È una ragazza ___ talento.", answer: "non priva di", altAnswers: ["non priva del"], explanation: "\"Non privo di\" = litotes for 'rich in'." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "She's a girl [with no lack of] talent.", sentence: "È una ragazza ___ talento.", answer: "non priva di", explanation: "\"Non privo di\" = litotes for 'rich in'." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Can we [really afford] to wait?", sentence: "Possiamo ___ di aspettare?", answer: "davvero permetterci", altAnswers: ["veramente permetterci"], explanation: "\"Permettersi di\" = to afford to." },
       { type: "word-order", prompt: "Put the words in order to say: We want work for our children.", words: ["Vogliamo", "un", "lavoro", "per", "i", "nostri", "figli."], translation: "We want work for our children.", explanation: "The third limb of the anaphora." },
       {
@@ -79,6 +87,7 @@ export const IT_C1_U17: Lesson[] = [
         explanation: "Five classic devices.",
       },
       { type: "multiple-choice", question: "\"Non è un cattivo risultato\" means ...", options: ["It's a good result.", "It's a bad result.", "There's no result.", "The result is unknown."], correctIndex: 0, explanation: "Litote affirms by denying the opposite." },
+      { type: "multiple-choice", question: "\"È venuto a mancare\" is an example of ...", options: ["euphemism", "hyperbole", "oxymoron", "anaphora"], correctIndex: 0, explanation: "A gentle way of saying \"è morto\"." },
       { type: "dictation", audio: "Non chiediamo privilegi, chiediamo diritti.", explanation: "Antitesi." },
       { type: "speak", text: "Vogliamo scuole aperte, vogliamo strade sicure, vogliamo un lavoro per i nostri figli.", prompt: "Deliver the anaphora: We want open schools, we want safe streets, we want work for our children.", tip: "Raise your voice a little on each \"vogliamo\".", explanation: "Anaphora + rising rhythm." },
     ],
@@ -89,7 +98,7 @@ export const IT_C1_U17: Lesson[] = [
     number: 2,
     title: "Advertising Language",
     summary: "Read and write Italian slogans: the imperative tu, infinitives, nominal style, rhyme, alliteration and wordplay.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Imperatives, infinitives and nouns",
@@ -97,6 +106,8 @@ export const IT_C1_U17: Lesson[] = [
           "Italian advertising almost always speaks to \"tu\", even when selling cars or insurance: \"Scopri la nuova gamma\", \"Regalati una pausa\", \"Prova gratis per 30 giorni\". The \"tu\" imperative creates closeness. \"Lei\" survives in banking, legal and luxury ads, where distance signals seriousness. \"Voi\" addresses families or groups: \"Venite a trovarci\".",
           "Instead of an imperative, slogans often use the infinitive, which sounds timeless and impersonal: \"Provare per credere\" (try it and see), \"Vivere la montagna\", \"Mangiare bene, ogni giorno\". The noun style (\"lo stile nominale\") drops the verb altogether: \"Freschezza garantita\", \"Qualità e tradizione dal 1952\", \"Biscotti Nonna Ghita: il sapore di casa\". The brand in that last example is invented.",
           "Typical adjectives promise simplicity and authenticity: \"genuino\", \"naturale\", \"artigianale\", \"a chilometro zero\" (locally sourced), \"senza conservanti\", \"come una volta\" (like in the old days).",
+          "Watch the intensifiers: \"-issimo\" (\"freschissimo\", \"convenientissimo\"), the prefixes \"super-\" and \"iper-\" (\"superofferta\", \"ipermercato\") and colloquial hooks like \"prezzi pazzi\" (crazy prices). Then read the small print, which has its own fixed phrases: \"fino a esaurimento scorte\" (while supplies last), \"a partire da\" (starting from), \"IVA inclusa\" (VAT included), \"offerta valida fino al...\" (offer valid until), \"salvo approvazione della finanziaria\" (subject to credit approval).",
+          "Italian TV advertising has its own history. From 1957 to 1977 ads appeared mainly in \"Carosello\", an evening slot of short comic sketches with the product named only at the end. Children were sent to bed right after it, and \"dopo Carosello, tutti a letto\" is still a saying. Its characters entered the language: someone who keeps complaining that life is unfair \"fa il Calimero\", after the little black chick of a detergent campaign.",
         ],
         examples: [
           { es: "Scopri la nuova gamma.", en: "Discover the new range." },
@@ -105,6 +116,11 @@ export const IT_C1_U17: Lesson[] = [
           { es: "Qualità e tradizione dal 1952.", en: "Quality and tradition since 1952." },
           { es: "Il sapore di casa, come una volta.", en: "The taste of home, like in the old days." },
           { es: "Ingredienti a chilometro zero, senza conservanti.", en: "Locally sourced ingredients, no preservatives." },
+          { es: "Offerta valida fino a esaurimento scorte.", en: "Offer valid while supplies last." },
+          { es: "Smartphone a partire da 199 euro, IVA inclusa.", en: "Smartphones starting from 199 euros, VAT included." },
+          { es: "Prezzi pazzi su tutto il reparto.", en: "Crazy prices across the whole department." },
+          { es: "Dopo Carosello, tutti a letto!", en: "After Carosello, everyone to bed!" },
+          { es: "Dai, non fare il Calimero!", en: "Come on, stop playing the victim!" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian (advertising tu).", source: "Treat yourself to a break.", answer: "Regalati una pausa.", altAnswers: ["Concediti una pausa."], explanation: "Reflexive imperative: \"regalati\", pronoun attached." },
@@ -116,8 +132,9 @@ export const IT_C1_U17: Lesson[] = [
         heading: "Sound and wordplay",
         body: [
           "Slogans exploit sound. Rhyme: \"Acqua Lievia: leggera e via\". Alliteration (\"l'allitterazione\"): \"Velocella: veloce, vicina, vera\". Assonance and rhythm: two halves of equal length, often with a comma in the middle (\"Più gusto, meno zuccheri\"). All these brands are invented.",
-          "Wordplay (\"il gioco di parole\") relies on double meanings: an ice-cream shop called Fiocco (snowflake, bow) might say \"Ti lascia a bocca aperta... e fresca\". A bakery: \"Ogni giorno, una nuova pagnotta da sfornare\", playing on \"sfornare\" (to take out of the oven, to churn out). A travel firm: \"Partire è un po' rinascere\", a twist on the proverb \"Partire è un po' morire\".",
+          "Wordplay (\"il gioco di parole\") relies on double meanings: an ice-cream shop might say \"Ti lascia a bocca aperta... e fresca\", where the idiom for amazement suddenly turns literal. A bakery: \"Ogni giorno, una nuova pagnotta da sfornare\", playing on \"sfornare\" (to take out of the oven, to churn out). A travel firm: \"Partire è un po' rinascere\", a twist on the proverb \"Partire è un po' morire\".",
           "English words in Italian ads (\"new\", \"easy\", \"smart\", \"premium\") add an international feel. A C1 learner should notice them, not copy them: in a formal text \"facile\", \"intelligente\" or \"di alta gamma\" are better.",
+          "Advertising also bends grammar on purpose. Slogans drop articles and verbs (\"Nuova formula, stesso gusto\"), put the possessive after the noun for emphasis (\"Casa tua, a modo tuo\") and coin words by fusion. Recognize these as deliberate choices; in your own formal writing, keep the articles and full sentences.",
         ],
         examples: [
           { es: "Più gusto, meno zuccheri.", en: "More taste, less sugar." },
@@ -125,6 +142,7 @@ export const IT_C1_U17: Lesson[] = [
           { es: "Partire è un po' rinascere.", en: "To leave is to be born again a little." },
           { es: "Ti lascia a bocca aperta.", en: "It leaves you open-mouthed." },
           { es: "Un prodotto di alta gamma a un prezzo accessibile.", en: "A premium product at an affordable price." },
+          { es: "Nuova formula, stesso gusto.", en: "New formula, same taste." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian (slogan).", source: "More taste, less sugar.", answer: "Più gusto, meno zuccheri.", altAnswers: ["Più gusto, meno zucchero.", "Più gusto e meno zuccheri."], explanation: "Two balanced halves." },
@@ -154,7 +172,7 @@ export const IT_C1_U17: Lesson[] = [
     number: 3,
     title: "Political Speech",
     summary: "Analyze the structure and devices of a public speech: forms of address, the inclusive noi, captatio benevolentiae, the three-part argument and the final appeal.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Opening and building the 'noi'",
@@ -162,6 +180,7 @@ export const IT_C1_U17: Lesson[] = [
           "Italian public speeches open with a form of address: \"Cari concittadini\" (fellow citizens), \"Care amiche e cari amici\" (increasingly used instead of the masculine-only \"Cari amici\"), \"Signore e signori\", \"Autorità\" (when officials are present). A mayor says \"Care cittadine e cari cittadini di...\".",
           "Next comes \"la captatio benevolentiae\", winning the audience's goodwill: \"Grazie di essere qui così numerosi\", \"So che molti di voi hanno fatto sacrifici\", \"Non sono qui per fare promesse\". It lowers the speaker and raises the listeners.",
           "The key pronoun is the inclusive \"noi\": \"Insieme possiamo farcela\", \"Questa è la nostra città\". The speaker shifts from \"io\" (personal commitment: \"Mi impegno a...\") to \"noi\" (shared identity) to \"voi\" (direct appeal: \"Vi chiedo di...\"). Watch how the pronouns move in any speech.",
+          "Register depends on the occasion. An institutional speech (the President's end-of-year message on December 31, a mayor at a commemoration) is calm, uses complete sentences and avoids \"loro\": it speaks for everyone. A campaign rally is louder and more partisan, with exclamations and slogans. Television debates have their own tics: \"Mi lasci finire!\" (let me finish!), \"Non mi interrompa\", \"Rispondo nel merito\" (I'll address the substance). Debaters use \"Lei\" even with opponents they know well: there, formality is a weapon as much as a courtesy.",
         ],
         examples: [
           { es: "Care cittadine e cari cittadini, grazie di essere qui così numerosi.", en: "Fellow citizens, thank you for coming in such numbers." },
@@ -170,6 +189,9 @@ export const IT_C1_U17: Lesson[] = [
           { es: "Questa è la nostra città, e insieme possiamo farcela.", en: "This is our town, and together we can do it." },
           { es: "Mi impegno a rendere conto di ogni euro speso.", en: "I commit to accounting for every euro spent." },
           { es: "Vi chiedo di darci fiducia.", en: "I ask you to put your trust in us." },
+          { es: "Mi lasci finire, per favore.", en: "Let me finish, please." },
+          { es: "Non mi interrompa.", en: "Don't interrupt me." },
+          { es: "Rispondo nel merito.", en: "I'll address the substance." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I know that many of you have made sacrifices.", answer: "So che molti di voi hanno fatto sacrifici.", altAnswers: ["So che molti di voi hanno fatto dei sacrifici.", "So che tanti di voi hanno fatto sacrifici."], explanation: "\"Captatio benevolentiae\": recognizing the audience." },
@@ -182,6 +204,7 @@ export const IT_C1_U17: Lesson[] = [
         body: [
           "Most speeches follow three movements. The problem, often with numbers and concrete images: \"Ogni anno quattrocento ragazzi lasciano la nostra valle.\" The solution, with anaphora and the future: \"Riapriremo la scuola. Riporteremo il treno. Daremo lavoro a chi resta.\" The appeal, with the imperative or \"vi chiedo\": \"Non lasciate che altri decidano per voi.\"",
           "Speakers also use \"il contrasto noi/loro\" (\"Loro parlano, noi facciamo\"), the hypothetical past to blame opponents (\"Se avessero ascoltato i cittadini, oggi non saremmo qui\"), and a final slogan or memorable line. The close is often \"Grazie\" or, at rallies, \"Viva la nostra terra!\".",
+          "Italians also have a word for the opaque language of politics: \"il politichese\". It favors abstract nouns and vague verbs: \"aprire un tavolo\" (to start talks), \"fare il punto della situazione\" (to take stock), \"verificare la tenuta della maggioranza\" (to check that the majority holds), \"un approccio a 360 gradi\", \"nella misura in cui\". The impersonal passive hides who is responsible: \"Sono stati commessi degli errori\" (mistakes were made). A good C1 listener translates politichese back into plain Italian: \"apriremo un tavolo\" often means \"non abbiamo ancora deciso\".",
         ],
         examples: [
           { es: "Ogni anno quattrocento ragazzi lasciano la nostra valle.", en: "Every year four hundred young people leave our valley." },
@@ -189,6 +212,9 @@ export const IT_C1_U17: Lesson[] = [
           { es: "Loro parlano, noi facciamo.", en: "They talk, we act." },
           { es: "Se avessero ascoltato i cittadini, oggi non saremmo qui.", en: "If they had listened to the citizens, we wouldn't be here today." },
           { es: "Non lasciate che altri decidano per voi.", en: "Don't let others decide for you." },
+          { es: "Apriremo un tavolo con i sindacati.", en: "We'll start talks with the unions." },
+          { es: "Sono stati commessi degli errori.", en: "Mistakes were made." },
+          { es: "Faremo il punto della situazione la prossima settimana.", en: "We'll take stock of the situation next week." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If they had listened to the citizens, we wouldn't be here today.", answer: "Se avessero ascoltato i cittadini, oggi non saremmo qui.", altAnswers: ["Se avessero ascoltato i cittadini, adesso non saremmo qui.", "Se avessero dato ascolto ai cittadini, oggi non saremmo qui."], explanation: "Mixed conditional: pluperfect subjunctive + present conditional." },
@@ -208,6 +234,7 @@ export const IT_C1_U17: Lesson[] = [
       { type: "word-order", prompt: "Put the words in order to say: They talk, we act.", words: ["Loro", "parlano,", "noi", "facciamo."], translation: "They talk, we act.", explanation: "Subject pronouns are expressed for contrast." },
       { type: "multiple-choice", question: "Which opening is the most inclusive?", options: ["Care cittadine e cari cittadini,", "Gentile pubblico,", "Ehi, gente!", "Cari signori,"], correctIndex: 0, explanation: "Both feminine and masculine forms." },
       { type: "multiple-choice", question: "In \"Mi impegno... Questa è la nostra città... Vi chiedo...\", the pronouns move from ...", options: ["io to noi to voi", "voi to noi to io", "noi to loro to io", "io to loro to voi"], correctIndex: 0, explanation: "Personal commitment, shared identity, direct appeal." },
+      { type: "multiple-choice", question: "A minister says \"Apriremo un tavolo con i sindacati\". What does it mean?", options: ["We'll start talks with the unions.", "We've reached an agreement with the unions.", "We'll stop negotiating with the unions.", "We'll hold a dinner for the unions."], correctIndex: 0, explanation: "Politichese: \"aprire un tavolo\" = to open negotiations." },
       { type: "dictation", audio: "Se avessero ascoltato i cittadini, oggi non saremmo qui.", explanation: "Mixed conditional." },
       { type: "speak", text: "Riapriremo la scuola. Riporteremo il treno. Daremo lavoro a chi resta.", prompt: "Deliver the promises: We will reopen the school. We will bring back the train. We will give work to those who stay.", tip: "Pause after each sentence; stress the verbs.", explanation: "Tricolon of futures." },
     ],
@@ -218,7 +245,7 @@ export const IT_C1_U17: Lesson[] = [
     number: 4,
     title: "Persuasive Writing",
     summary: "Build a persuasive text in Italian: a clear thesis, ordered arguments, anticipated objections and a conclusion that calls for action.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Thesis and arguments",
@@ -226,18 +253,22 @@ export const IT_C1_U17: Lesson[] = [
           "A persuasive text (\"un testo argomentativo\") states its thesis early and clearly: \"Sono convinta che il centro storico debba diventare pedonale.\" Verbs of opinion take the subjunctive (\"sono convinto che\", \"ritengo che\", \"credo che\" + \"debba\"); a stronger claim uses the indicative with \"è evidente che\" or \"è un fatto che\".",
           "Arguments are ordered with connectors: \"innanzitutto\" (first of all), \"in secondo luogo\", \"inoltre\" (moreover), \"non solo... ma anche\", \"per di più\" (what's more), \"infine\". Each argument needs support: a figure (\"secondo i dati del Comune\"), an example (\"basti pensare a\": just think of), or a consequence (\"ne consegue che\": it follows that).",
           "Avoid \"secondo me\" in every paragraph: it weakens the text. Vary with \"a mio avviso\", \"dal mio punto di vista\", or state the claim directly. And avoid \"cose\" and \"molto\": precise nouns and verbs persuade more than intensifiers.",
+          "Formal argument often avoids \"io\" altogether. Impersonal frames sound more objective: \"occorre\" + infinitive (\"occorre investire nei trasporti\"), \"è opportuno che\" + subjunctive, \"si ritiene che\", \"appare evidente che\". Clarify a point with \"in altre parole\", \"vale a dire\" or \"ossia\". Italian students practice all this for the \"maturità\": the written Italian exam includes an argumentative text built on a given passage (tipologia B) and a critical reflection on a current issue (tipologia C). Examiners reward a visible thesis, one idea per paragraph and connectors that show the logic.",
         ],
         examples: [
           { es: "Sono convinta che il centro storico debba diventare pedonale.", en: "I'm convinced the historic center should become pedestrian." },
           { es: "Innanzitutto, l'aria sarebbe più pulita.", en: "First of all, the air would be cleaner." },
-          { es: "Non solo i residenti, ma anche i commercianti ne trarrebbero vantaggio.", en: "Not only residents but also shopkeepers would benefit." },
+          { es: "Non solo i residenti, ma anche i commercianti ne trarrebbero vantaggio.", en: "Not only residents but also store owners would benefit." },
           { es: "Basti pensare a quanto è successo a Ferrara.", en: "Just think of what happened in Ferrara." },
           { es: "Ne consegue che il traffico va ridotto.", en: "It follows that traffic must be reduced." },
           { es: "A mio avviso, il problema è un altro.", en: "In my view, the problem lies elsewhere." },
+          { es: "Occorre investire nei trasporti pubblici.", en: "We need to invest in public transportation." },
+          { es: "È opportuno che il Comune ascolti i residenti.", en: "The city government should listen to residents." },
+          { es: "In altre parole, chi inquina deve pagare.", en: "In other words, the polluter must pay." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian (a woman writing).", source: "I'm convinced the historic center should become pedestrian.", answer: "Sono convinta che il centro storico debba diventare pedonale.", altAnswers: ["Sono convinta che il centro storico dovrebbe diventare pedonale.", "Sono convinta che il centro storico debba diventare un'area pedonale."], explanation: "\"Essere convinto che\" + subjunctive." },
-          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Not only] residents [but also] shopkeepers would benefit.", sentence: "___ i residenti, ma anche i commercianti ne trarrebbero vantaggio.", answer: "Non solo", altAnswers: ["Non soltanto"], explanation: "\"Non solo... ma anche\"." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Not only] residents [but also] store owners would benefit.", sentence: "___ i residenti, ma anche i commercianti ne trarrebbero vantaggio.", answer: "Non solo", altAnswers: ["Non soltanto"], explanation: "\"Non solo... ma anche\"." },
           { type: "multiple-choice", question: "Which phrase introduces an example?", options: ["Basti pensare a", "Ne consegue che", "In conclusione", "Tuttavia"], correctIndex: 0, explanation: "\"Basti pensare a\" = just think of." },
         ],
       },
@@ -246,6 +277,7 @@ export const IT_C1_U17: Lesson[] = [
         body: [
           "A strong text names the opposing view and answers it: \"Si potrebbe obiettare che i negozi perderebbero clienti. In realtà, le esperienze di altre città dimostrano il contrario.\" Useful frames: \"è vero che... tuttavia\" (it's true that... however), \"ammesso che\" + subjunctive (granted that), \"anche se\" + indicative, \"per quanto\" + subjunctive (however much).",
           "The conclusion restates the thesis in new words and calls for action, often with \"è tempo che\" or \"è ora che\" + subjunctive: \"È ora che l'amministrazione abbia il coraggio di scegliere.\" Short final sentences hit harder: \"Non c'è più tempo da perdere.\"",
+          "Conclusions have their own connectors: \"in conclusione\", \"in definitiva\" (all things considered), \"alla luce di quanto detto\" (in light of the above) and the less formal \"tirando le somme\" (to sum up). Don't mix up the concessive frames: \"anche se\" takes the indicative (\"anche se i costi sono alti\"), while \"benché\", \"sebbene\", \"nonostante\" and \"per quanto\" take the subjunctive (\"nonostante i costi siano alti\"). Order matters too: manuals recommend \"l'ordine nestoriano\", with the strongest arguments first and last and the weaker ones in the middle, so the reader ends on your best point.",
         ],
         examples: [
           { es: "Si potrebbe obiettare che i negozi perderebbero clienti.", en: "One might object that shops would lose customers." },
@@ -253,6 +285,9 @@ export const IT_C1_U17: Lesson[] = [
           { es: "Per quanto il progetto sia ambizioso, è realizzabile.", en: "However ambitious the project may be, it can be done." },
           { es: "È ora che l'amministrazione abbia il coraggio di scegliere.", en: "It's time the council had the courage to choose." },
           { es: "Non c'è più tempo da perdere.", en: "There's no more time to lose." },
+          { es: "Alla luce di quanto detto, la scelta è obbligata.", en: "In light of the above, there is only one choice." },
+          { es: "Anche se i costi sono alti, i benefici li superano.", en: "Even though the costs are high, the benefits outweigh them." },
+          { es: "Nonostante i costi siano alti, il progetto conviene.", en: "Although the costs are high, the project is worth it." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "One might object that shops would lose customers.", answer: "Si potrebbe obiettare che i negozi perderebbero clienti.", altAnswers: ["Si potrebbe obiettare che i negozi perderebbero dei clienti.", "Qualcuno potrebbe obiettare che i negozi perderebbero clienti."], explanation: "Impersonal \"si potrebbe\" to introduce an objection." },
@@ -269,9 +304,10 @@ export const IT_C1_U17: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In my view, the problem lies elsewhere.", answer: "A mio avviso, il problema è un altro.", altAnswers: ["A mio avviso il problema è un altro.", "Dal mio punto di vista, il problema è un altro.", "A mio parere, il problema è un altro."], explanation: "\"Il problema è un altro\" = the problem lies elsewhere." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[However ambitious] the project may be, it can be done.", sentence: "___ il progetto sia ambizioso, è realizzabile.", answer: "Per quanto", altAnswers: ["Benché", "Sebbene"], explanation: "All take the subjunctive." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Just think of] what happened in Ferrara.", sentence: "___ quanto è successo a Ferrara.", answer: "Basti pensare a", altAnswers: ["Si pensi a"], explanation: "Hortative subjunctive." },
-      { type: "word-order", prompt: "Put the words in order to say: One might object that it costs too much.", words: ["Si", "potrebbe", "obiettare", "che", "costi", "troppo."], translation: "One might object that it costs too much.", altOrders: [["Si", "potrebbe", "obiettare", "che", "troppo", "costi."]], explanation: "Subjunctive \"costi\" after a reported objection." },
+      { type: "word-order", prompt: "Put the words in order to say: One might object that it costs too much.", words: ["Si", "potrebbe", "obiettare", "che", "costi", "troppo."], translation: "One might object that it costs too much.", explanation: "The subjunctive \"costi\" frames the objection as hypothetical; the indicative \"costa\" is also common." },
       { type: "multiple-choice", question: "Which sentence makes the strongest closing call to action?", options: ["È ora che il Comune scelga: non c'è più tempo da perdere.", "Secondo me forse sarebbe una cosa buona.", "Vedremo cosa succederà.", "Ci sono molte cose da dire."], correctIndex: 0, explanation: "\"È ora che\" + subjunctive and a short final sentence." },
       { type: "multiple-choice", question: "Which connector adds a further argument?", options: ["per di più", "tuttavia", "ammesso che", "invece"], correctIndex: 0, explanation: "\"Per di più\" = what's more." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Even though] the costs are high, the benefits outweigh them.", sentence: "___ i costi sono alti, i benefici li superano.", answer: "Anche se", explanation: "\"Anche se\" + indicative; \"benché\" would need \"siano\"." },
       { type: "dictation", audio: "Ne consegue che il traffico va ridotto.", explanation: "\"Ne consegue che\"." },
       { type: "speak", text: "Si potrebbe obiettare che i negozi perderebbero clienti. In realtà, le esperienze di altre città dimostrano il contrario.", prompt: "Answer the objection: One might object that shops would lose customers. In fact, other cities' experience shows the opposite.", tip: "Lower your voice on the objection, raise it on \"in realtà\".", explanation: "Objection + rebuttal." },
     ],
@@ -355,7 +391,7 @@ export const IT_C1_U17: Lesson[] = [
     slug: "c1-reading-lab-speech",
     level: "IT-C1",
     number: 6,
-    title: "Reading Lab: A Speech",
+    title: "Reading Lab: A Famous Speech",
     summary: "Read an original speech by the mayor of an invented town at the reopening of its library after a flood, and analyze its devices.",
     duration: "19 min",
     sections: [
@@ -426,20 +462,20 @@ export const IT_C1_U17: Lesson[] = [
       {
         heading: "Vague and repetitive",
         body: [
-          "A student wrote to the local paper to ask for more cycle lanes. The ideas are good; the writing is weak. One problem per sentence. 1. \"Secondo me le piste ciclabili sono una cosa molto importante.\" Too vague: name what they do. \"Le piste ciclabili sono indispensabili per una città più vivibile.\"",
+          "A student wrote to the local paper to ask for more bike lanes. The ideas are good; the writing is weak. One problem per sentence. 1. \"Secondo me le piste ciclabili sono una cosa molto importante.\" Too vague: name what they do. \"Le piste ciclabili sono indispensabili per una città più vivibile.\"",
           "2. \"Secondo me ci sono molte cose positive.\" A second \"secondo me\" and another \"cose\". Better: \"I vantaggi sono numerosi\" or \"Ne trarrebbero vantaggio la salute, l'aria e il traffico.\" 3. \"Penso che le piste sono sicure.\" After \"penso che\" the subjunctive is required in writing: \"Penso che le piste siano sicure\", or state it as fact: \"È dimostrato che le piste riducono gli incidenti.\"",
           "4. \"Le piste costano poco. Le piste aiutano i negozi. Le piste fanno bene.\" Three short sentences with the same subject sound like a list, not an argument. Link them: \"Le piste costano poco, aiutano i negozi e, per di più, fanno bene alla salute.\"",
         ],
         examples: [
-          { es: "Le piste ciclabili sono indispensabili per una città più vivibile.", en: "Cycle lanes are essential for a more liveable city." },
+          { es: "Le piste ciclabili sono indispensabili per una città più vivibile.", en: "Bike lanes are essential for a more livable city." },
           { es: "I vantaggi sono numerosi.", en: "The advantages are many." },
           { es: "Penso che le piste siano sicure.", en: "I think the lanes are safe." },
-          { es: "È dimostrato che le piste riducono gli incidenti.", en: "It has been shown that cycle lanes reduce accidents." },
-          { es: "Le piste costano poco, aiutano i negozi e, per di più, fanno bene alla salute.", en: "Cycle lanes cost little, help shops and, what's more, are good for your health." },
+          { es: "È dimostrato che le piste riducono gli incidenti.", en: "It has been shown that bike lanes reduce accidents." },
+          { es: "Le piste costano poco, aiutano i negozi e, per di più, fanno bene alla salute.", en: "Bike lanes cost little, help shops and, what's more, are good for your health." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Fix \"Penso che le piste sono sicure\" and write: I think the lanes are safe.", source: "I think the lanes are safe.", answer: "Penso che le piste siano sicure.", altAnswers: ["Credo che le piste siano sicure.", "Ritengo che le piste siano sicure."], explanation: "\"Pensare che\" + subjunctive." },
-          { type: "translate", direction: "en-es", prompt: "Improve \"una cosa molto importante\" and write: Cycle lanes are essential for a more liveable city.", source: "Cycle lanes are essential for a more liveable city.", answer: "Le piste ciclabili sono indispensabili per una città più vivibile.", altAnswers: ["Le piste ciclabili sono essenziali per una città più vivibile."], explanation: "A precise adjective beats \"molto importante\"." },
+          { type: "translate", direction: "en-es", prompt: "Improve \"una cosa molto importante\" and write: Bike lanes are essential for a more livable city.", source: "Bike lanes are essential for a more livable city.", answer: "Le piste ciclabili sono indispensabili per una città più vivibile.", altAnswers: ["Le piste ciclabili sono essenziali per una città più vivibile."], explanation: "A precise adjective beats \"molto importante\"." },
           { type: "multiple-choice", question: "What is wrong with \"Secondo me ci sono molte cose positive\"?", options: ["It's vague and repeats \"secondo me\".", "\"Ci sono\" is wrong.", "\"Positive\" doesn't agree.", "It needs the subjunctive."], correctIndex: 0, explanation: "Replace with \"I vantaggi sono numerosi\"." },
         ],
       },
@@ -450,13 +486,13 @@ export const IT_C1_U17: Lesson[] = [
           "7. \"Non è vero che le piste sono pericolose?\" The writer wanted a rhetorical question, but this one invites the answer yes. Rephrase: \"Chi può davvero sostenere che una pista separata sia più pericolosa di una strada trafficata?\" 8. \"In conclusione, ho detto tutto.\" A weak ending. Close with a call to action: \"È ora che anche la nostra città faccia questa scelta.\"",
         ],
         examples: [
-          { es: "Chiediamo all'amministrazione di inserire le piste nel prossimo bilancio.", en: "We ask the council to include the cycle lanes in the next budget." },
+          { es: "Chiediamo all'amministrazione di inserire le piste nel prossimo bilancio.", en: "We ask the council to include the bike lanes in the next budget." },
           { es: "Il traffico privato è una delle principali cause dell'inquinamento.", en: "Private traffic is one of the main causes of pollution." },
           { es: "Chi può davvero sostenere che una pista separata sia più pericolosa?", en: "Who can really claim that a separate lane is more dangerous?" },
           { es: "È ora che anche la nostra città faccia questa scelta.", en: "It's time our city made this choice too." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Soften \"Il sindaco deve fare le piste subito!\" and write: We ask the council to include the cycle lanes in the next budget.", source: "We ask the council to include the cycle lanes in the next budget.", answer: "Chiediamo all'amministrazione di inserire le piste nel prossimo bilancio.", altAnswers: ["Chiediamo al Comune di inserire le piste nel prossimo bilancio.", "Chiediamo all'amministrazione di inserire le piste ciclabili nel prossimo bilancio."], explanation: "A request persuades more than a demand." },
+          { type: "translate", direction: "en-es", prompt: "Soften \"Il sindaco deve fare le piste subito!\" and write: We ask the council to include the bike lanes in the next budget.", source: "We ask the council to include the bike lanes in the next budget.", answer: "Chiediamo all'amministrazione di inserire le piste nel prossimo bilancio.", altAnswers: ["Chiediamo al Comune di inserire le piste nel prossimo bilancio.", "Chiediamo all'amministrazione di inserire le piste ciclabili nel prossimo bilancio."], explanation: "A request persuades more than a demand." },
           { type: "translate", direction: "en-es", prompt: "Fix \"In conclusione, ho detto tutto\" and write: It's time our city made this choice too.", source: "It's time our city made this choice too.", answer: "È ora che anche la nostra città faccia questa scelta.", altAnswers: ["È tempo che anche la nostra città faccia questa scelta.", "È ora che la nostra città faccia anche lei questa scelta."], explanation: "\"È ora che\" + subjunctive." },
           { type: "listen-choose", audio: "Chi può davvero sostenere che una pista separata sia più pericolosa?", question: "What answer does the writer expect?", options: ["Nobody", "Everyone", "The mayor", "Cyclists"], correctIndex: 0, explanation: "A well-built rhetorical question." },
         ],
@@ -464,9 +500,9 @@ export const IT_C1_U17: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Improve \"ci sono molte cose positive\" and write: The advantages are many.", source: "The advantages are many.", answer: "I vantaggi sono numerosi.", altAnswers: ["I vantaggi sono molti.", "Sono numerosi i vantaggi."], explanation: "\"Numerosi\" is more formal than \"molti\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It has been shown that cycle lanes reduce accidents.", answer: "È dimostrato che le piste riducono gli incidenti.", altAnswers: ["È stato dimostrato che le piste riducono gli incidenti.", "È dimostrato che le piste ciclabili riducono gli incidenti."], explanation: "\"È dimostrato che\" + indicative: a fact." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It has been shown that bike lanes reduce accidents.", answer: "È dimostrato che le piste riducono gli incidenti.", altAnswers: ["È stato dimostrato che le piste riducono gli incidenti.", "È dimostrato che le piste ciclabili riducono gli incidenti."], explanation: "\"È dimostrato che\" + indicative: a fact." },
       { type: "translate", direction: "en-es", prompt: "Soften \"Le auto sono il male\" and write: Private traffic is one of the main causes of pollution.", source: "Private traffic is one of the main causes of pollution.", answer: "Il traffico privato è una delle principali cause dell'inquinamento.", altAnswers: ["Il traffico privato è una delle cause principali dell'inquinamento."], explanation: "A measured claim is harder to reject." },
-      { type: "translate", direction: "en-es", prompt: "Link the three short sentences and write: Cycle lanes cost little, help shops and, what's more, are good for your health.", source: "Cycle lanes cost little, help shops and, what's more, are good for your health.", answer: "Le piste costano poco, aiutano i negozi e, per di più, fanno bene alla salute.", altAnswers: ["Le piste ciclabili costano poco, aiutano i negozi e, per di più, fanno bene alla salute.", "Le piste costano poco, aiutano i negozi e inoltre fanno bene alla salute."], explanation: "One sentence, one subject, a connector." },
+      { type: "translate", direction: "en-es", prompt: "Link the three short sentences and write: Bike lanes cost little, help shops and, what's more, are good for your health.", source: "Bike lanes cost little, help shops and, what's more, are good for your health.", answer: "Le piste costano poco, aiutano i negozi e, per di più, fanno bene alla salute.", altAnswers: ["Le piste ciclabili costano poco, aiutano i negozi e, per di più, fanno bene alla salute.", "Le piste costano poco, aiutano i negozi e inoltre fanno bene alla salute."], explanation: "One sentence, one subject, a connector." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Who can really claim that a separate lane is more dangerous?", answer: "Chi può davvero sostenere che una pista separata sia più pericolosa?", altAnswers: ["Chi può veramente sostenere che una pista separata sia più pericolosa?"], explanation: "\"Sostenere che\" + subjunctive in a rhetorical question." },
       { type: "fill-blank", prompt: "Fix \"Penso che il Comune ha ragione\".", en: "I think the council [is right].", sentence: "Penso che il Comune ___.", answer: "abbia ragione", explanation: "Subjunctive after \"penso che\"." },
       { type: "fill-blank", prompt: "Replace \"Secondo me\" with a more formal phrase.", en: "[In my view], the plan is too slow.", sentence: "___, il piano è troppo lento.", answer: "A mio avviso", altAnswers: ["A mio parere", "Dal mio punto di vista"], explanation: "Vary the opinion markers." },
@@ -474,7 +510,7 @@ export const IT_C1_U17: Lesson[] = [
       { type: "multiple-choice", question: "Which ending is strongest?", options: ["È ora che anche la nostra città faccia questa scelta.", "In conclusione, ho detto tutto.", "Ecco, questo è quanto.", "Spero che vi è piaciuto."], correctIndex: 0, explanation: "A call to action; the last option also has a mood error (\"vi sia piaciuto\")." },
       { type: "multiple-choice", question: "Which sentence is a sweeping claim to avoid?", options: ["Tutti sanno che le auto sono il male.", "Il traffico è una delle cause dell'inquinamento.", "È dimostrato che le piste riducono gli incidenti.", "I vantaggi sono numerosi."], correctIndex: 0, explanation: "\"Tutti sanno\" + absolute judgment." },
       { type: "dictation", audio: "Penso che le piste siano sicure.", explanation: "Subjunctive after \"penso che\"." },
-      { type: "speak", text: "I vantaggi sono numerosi: le piste costano poco, aiutano i negozi e, per di più, fanno bene alla salute.", prompt: "Say the improved sentence: The advantages are many: cycle lanes cost little, help shops and, what's more, are good for your health.", tip: "Pause at the colon.", explanation: "Linked, precise argument." },
+      { type: "speak", text: "I vantaggi sono numerosi: le piste costano poco, aiutano i negozi e, per di più, fanno bene alla salute.", prompt: "Say the improved sentence: The advantages are many: bike lanes cost little, help shops and, what's more, are good for your health.", tip: "Pause at the colon.", explanation: "Linked, precise argument." },
     ],
   },
   {
@@ -577,7 +613,7 @@ export const IT_C1_U17: Lesson[] = [
         examples: [
           { es: "Qualcuno dirà che non ci sono i soldi.", en: "Some will say there's no money." },
           { es: "Esistono fondi regionali proprio per progetti come questo.", en: "There are regional funds precisely for projects like this." },
-          { es: "Vi chiedo di firmare, perché il Comune capisca che non siamo in pochi.", en: "I ask you to sign, so the council understands that we are not few." },
+          { es: "Vi chiedo di firmare, perché il Comune capisca che non siamo in pochi.", en: "I ask you to sign, so the city government understands that there are many of us." },
           { es: "Non chiediamo un favore: chiediamo un futuro.", en: "We're not asking for a favor: we're asking for a future." },
           { es: "Facciamo in modo che veda tornare i nostri figli.", en: "Let's make sure it sees our children come back." },
         ],
@@ -593,7 +629,7 @@ export const IT_C1_U17: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "There are regional funds precisely for projects like this.", answer: "Esistono fondi regionali proprio per progetti come questo.", altAnswers: ["Ci sono fondi regionali proprio per progetti come questo."], explanation: "\"Proprio\" = precisely." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We're not asking for a favor: we're asking for a future.", answer: "Non chiediamo un favore: chiediamo un futuro.", altAnswers: ["Non chiediamo un favore, chiediamo un futuro.", "Non chiediamo un favore, ma un futuro."], explanation: "Antithesis." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's true: the council can't do it alone.", answer: "È vero: il Comune da solo non ce la fa.", altAnswers: ["È vero, il Comune da solo non ce la fa.", "È vero: il Comune da solo non ce la può fare."], explanation: "Concede first, then answer." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I ask you to sign, [so that the council understands] that we are not few.", sentence: "Vi chiedo di firmare, ___ che non siamo in pochi.", answer: "perché il Comune capisca", altAnswers: ["affinché il Comune capisca"], explanation: "Purpose \"perché\" + subjunctive." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I ask you to sign, [so that the council understands] that there are many of us.", sentence: "Vi chiedo di firmare, ___ che non siamo in pochi.", answer: "perché il Comune capisca", altAnswers: ["affinché il Comune capisca"], explanation: "Purpose \"perché\" + subjunctive." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Let's make sure] it sees our children come back.", sentence: "___ veda tornare i nostri figli.", answer: "Facciamo in modo che", explanation: "\"Fare in modo che\" + subjunctive." },
       { type: "word-order", prompt: "Put the words in order to say: That station saw our grandparents leave.", words: ["Quella", "stazione", "ha", "visto", "partire", "i", "nostri", "nonni."], translation: "That station saw our grandparents leave.", explanation: "\"Vedere\" + infinitive." },
       { type: "multiple-choice", question: "Which line is best for the end of the speech?", options: ["Non chiediamo un favore: chiediamo un futuro.", "Va bene, ho finito.", "Grazie, scusate se sono stato lungo.", "Comunque fate come volete."], correctIndex: 0, explanation: "A memorable antithesis." },
@@ -614,14 +650,14 @@ export const IT_C1_U17: Lesson[] = [
         heading: "Two ads",
         body: [
           "All the brands are invented. Ad 1, a gym: \"Ti sei mai chiesto perché a gennaio tutti si iscrivono in palestra e a febbraio non ci va più nessuno? Da Forma Più è diverso: niente abbonamento annuale, paghi solo quando vieni. Forma Più: la palestra che ti aspetta, senza farti fretta.\" Techniques: a question hook, the \"tu\" form, a rhyme in the slogan (aspetta/fretta).",
-          "Ad 2, a furniture shop: \"Solo questo fine settimana, da Mobili Ravera, sconti fino al 50% su tutti i divani. E se porti il tuo vecchio divano, il ritiro è gratis. Mobili Ravera: casa tua, a modo tuo.\" Listen for \"fino al\" (up to: not all sofas are half price), \"solo questo fine settimana\" (urgency) and the condition \"se porti\".",
+          "Ad 2, a furniture store: \"Solo questo fine settimana, da Mobili Ravera, sconti fino al 50% su tutti i divani. E se porti il tuo vecchio divano, il ritiro è gratis. Mobili Ravera: casa tua, a modo tuo.\" Listen for \"fino al\" (up to: not all sofas are half price), \"solo questo fine settimana\" (urgency) and the condition \"se porti\".",
         ],
         examples: [
-          { es: "Ti sei mai chiesto perché a febbraio non ci va più nessuno?", en: "Have you ever wondered why nobody goes any more in February?" },
+          { es: "Ti sei mai chiesto perché a febbraio non ci va più nessuno?", en: "Have you ever wondered why nobody goes anymore in February?" },
           { es: "Niente abbonamento annuale: paghi solo quando vieni.", en: "No annual membership: you only pay when you come." },
           { es: "La palestra che ti aspetta, senza farti fretta.", en: "The gym that waits for you, without rushing you." },
           { es: "Sconti fino al 50% su tutti i divani.", en: "Up to 50% off all sofas." },
-          { es: "Se porti il tuo vecchio divano, il ritiro è gratis.", en: "If you bring your old sofa, collection is free." },
+          { es: "Se porti il tuo vecchio divano, il ritiro è gratis.", en: "If you bring your old sofa, pickup is free." },
           { es: "Casa tua, a modo tuo.", en: "Your home, your way." },
         ],
         checkpoint: [
@@ -633,13 +669,13 @@ export const IT_C1_U17: Lesson[] = [
       {
         heading: "Two more ads",
         body: [
-          "Ad 3, an insurance company, in the formal \"Lei\": \"Lei pensa al futuro della Sua famiglia. Noi pensiamo a Lei. Assicurazioni Ponte Sereno: da cinquant'anni, al Suo fianco.\" Then, fast: \"Messaggio pubblicitario con finalità promozionale. Prima della sottoscrizione leggere il fascicolo informativo.\" The small print is read quickly; listen for \"prima della sottoscrizione\" (before signing).",
+          "Ad 3, an insurance company, in the formal \"Lei\": \"Lei pensa al futuro della Sua famiglia. Noi pensiamo a Lei. Assicurazioni Ponte Sereno: da cinquant'anni, al Suo fianco.\" Then, fast: \"Messaggio pubblicitario con finalità promozionale. Prima della sottoscrizione leggere il set informativo.\" The small print is read quickly (since 2019 the law calls these documents \"il set informativo\"; older ads say \"fascicolo informativo\"); listen for \"prima della sottoscrizione\" (before signing).",
           "Ad 4, a public-service campaign (\"una pubblicità progresso\"): \"Al volante, un messaggio può aspettare. La tua vita no. Metti via il telefono.\" Techniques: antithesis (\"può aspettare. La tua vita no.\"), a short imperative, no brand. Public-service ads use \"tu\" too, but the tone is serious, not playful.",
         ],
         examples: [
           { es: "Lei pensa al futuro della Sua famiglia. Noi pensiamo a Lei.", en: "You think about your family's future. We think about you." },
           { es: "Da cinquant'anni, al Suo fianco.", en: "By your side for fifty years." },
-          { es: "Prima della sottoscrizione leggere il fascicolo informativo.", en: "Read the information booklet before signing." },
+          { es: "Prima della sottoscrizione leggere il set informativo.", en: "Read the information pack before signing." },
           { es: "Al volante, un messaggio può aspettare. La tua vita no.", en: "At the wheel, a message can wait. Your life can't." },
           { es: "Metti via il telefono.", en: "Put your phone away." },
         ],
@@ -654,16 +690,16 @@ export const IT_C1_U17: Lesson[] = [
       { type: "listen-choose", audio: "Solo questo fine settimana, sconti fino al cinquanta per cento su tutti i divani.", question: "Are all sofas half price?", options: ["No, discounts go up to 50%.", "Yes, every sofa is half price.", "No, only one sofa is discounted.", "Yes, but only on Monday."], correctIndex: 0, explanation: "\"Fino al\" = up to." },
       { type: "listen-choose", audio: "Assicurazioni Ponte Sereno: da cinquant'anni, al Suo fianco.", question: "What does the insurer stress?", options: ["Long experience and closeness to the client", "Low prices", "Fast online service", "A new product"], correctIndex: 0, explanation: "\"Da cinquant'anni\" + \"al Suo fianco\"." },
       { type: "multiple-choice", question: "Why does the gym ad rhyme \"aspetta\" with \"fretta\"?", options: ["To make the slogan memorable", "To explain the prices", "Because it's a legal requirement", "To address the listener as Lei"], correctIndex: 0, explanation: "Rhyme helps memory." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If you bring your old sofa, collection is free.", answer: "Se porti il tuo vecchio divano, il ritiro è gratis.", altAnswers: ["Se porti il tuo vecchio divano, il ritiro è gratuito."], explanation: "\"Il ritiro\" = collection." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If you bring your old sofa, pickup is free.", answer: "Se porti il tuo vecchio divano, il ritiro è gratis.", altAnswers: ["Se porti il tuo vecchio divano, il ritiro è gratuito."], explanation: "\"Il ritiro\" = pickup." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "No annual membership: you only pay when you come.", answer: "Niente abbonamento annuale: paghi solo quando vieni.", altAnswers: ["Nessun abbonamento annuale: paghi solo quando vieni.", "Niente abbonamento annuale, paghi solo quando vieni."], explanation: "\"Niente\" + noun = no..." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Your home, your way.", answer: "Casa tua, a modo tuo.", explanation: "Possessive after the noun for emphasis." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "At the wheel, a message can wait. Your life can't.", answer: "Al volante, un messaggio può aspettare. La tua vita no.", altAnswers: ["Al volante un messaggio può aspettare. La tua vita no.", "Al volante, un messaggio può aspettare, la tua vita no."], explanation: "Elliptical antithesis: \"La tua vita no\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Only this weekend.", answer: "Solo questo fine settimana.", altAnswers: ["Solo questo weekend.", "Soltanto questo fine settimana."], explanation: "Urgency." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Read the information booklet [before signing].", sentence: "___ leggere il fascicolo informativo.", answer: "Prima della sottoscrizione", altAnswers: ["Prima di firmare"], explanation: "Legal small print uses the infinitive." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Read the information pack [before signing].", sentence: "___ leggere il set informativo.", answer: "Prima della sottoscrizione", altAnswers: ["Prima di firmare"], explanation: "Legal small print uses the infinitive." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The gym that waits for you, [without rushing you].", sentence: "La palestra che ti aspetta, ___.", answer: "senza farti fretta", explanation: "\"Fare fretta a qualcuno\" = to rush someone." },
       { type: "word-order", prompt: "Put the words in order to say: By your side for fifty years.", words: ["Da", "cinquant'anni,", "al", "Suo", "fianco."], translation: "By your side for fifty years.", explanation: "\"Al fianco di\" = by the side of." },
       { type: "dictation", audio: "Metti via il telefono.", explanation: "Imperative of \"mettere via\"." },
-      { type: "speak", text: "Ti sei mai chiesto perché a febbraio in palestra non ci va più nessuno? Da Forma Più paghi solo quando vieni.", prompt: "Record the ad: Have you ever wondered why nobody goes to the gym any more in February? At Forma Più you only pay when you come.", tip: "Rising tone on the question, then a smile in the voice.", explanation: "Question hook + offer." },
+      { type: "speak", text: "Ti sei mai chiesto perché a febbraio in palestra non ci va più nessuno? Da Forma Più paghi solo quando vieni.", prompt: "Record the ad: Have you ever wondered why nobody goes to the gym anymore in February? At Forma Più you only pay when you come.", tip: "Rising tone on the question, then a smile in the voice.", explanation: "Question hook + offer." },
     ],
   },
 ];

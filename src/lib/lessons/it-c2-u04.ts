@@ -63,7 +63,7 @@ export const IT_C2_U04: Lesson[] = [
           { es: "L'italiano scritto era lontano dalla lingua parlata.", en: "Written Italian was far from the spoken language." },
           { es: "Un napoletano imparava l'italiano dai libri.", en: "A Neapolitan learned Italian from books." },
           { es: "A casa si continuava a parlare il dialetto.", en: "At home people went on speaking dialect." },
-          { es: "Gli illuministi milanesi criticavano il purismo della Crusca.", en: "The Milanese Enlightenment writers criticised the Crusca's purism." },
+          { es: "Gli illuministi milanesi criticavano il purismo della Crusca.", en: "The Milanese Enlightenment writers criticized the Crusca's purism." },
           { es: "La tensione tra purismo e apertura non è mai finita.", en: "The tension between purism and openness has never ended." },
         ],
         checkpoint: [
@@ -97,7 +97,7 @@ export const IT_C2_U04: Lesson[] = [
       {
         heading: "Rinsing the clothes in the Arno",
         body: [
-          "Alessandro Manzoni (1785-1873), a Milanese, published \"I promessi sposi\" in 1827. Unhappy with its language, a mixture of literary Tuscan, Lombard words and French turns, he travelled to Florence that same year to \"risciacquare i panni in Arno\" (rinse his clothes in the Arno): to wash his prose in the river of living Florentine speech. The phrase is now proverbial for any effort to purify one's language.",
+          "Alessandro Manzoni (1785-1873), a Milanese, published \"I promessi sposi\" in 1827. Unhappy with its language, a mixture of literary Tuscan, Lombard words and French turns, he traveled to Florence that same year to \"risciacquare i panni in Arno\" (rinse his clothes in the Arno, the image as it is usually quoted; Manzoni's own letters speak of rinsing his \"cenci\", his rags): to wash his prose in the river of living Florentine speech. The phrase is now proverbial for any effort to purify one's language.",
           "He spent more than a decade revising. The definitive edition (1840-1842), called \"la Quarantana\", replaced literary or Lombard forms with educated Florentine usage. The most famous change is grammatical: the first person imperfect in \"-a\" of the literary tradition (\"io aveva\", \"io era\") became the spoken \"-o\" (\"io avevo\", \"io ero\"), which is standard today because Manzoni chose it.",
           "\"Panni\" are clothes in Tuscan usage (\"stendere i panni\", to hang out the washing); the plural is everyday, the singular \"panno\" is cloth. Note \"risciacquare\", with \"sci\" and a double q sound written \"cqu\".",
         ],
@@ -139,7 +139,7 @@ export const IT_C2_U04: Lesson[] = [
           "That last sentence shows the spoken features Manzoni accepted: \"uno\" as a generic subject (one, a person) and the pronoun doubled (\"se lo\"). These are exactly the forms that the neo-standard of today uses, a century and a half later.",
         ],
         examples: [
-          { es: "Quel ramo del lago di Como, che volge a mezzogiorno", en: "That branch of Lake Como which turns towards the south" },
+          { es: "Quel ramo del lago di Como, che volge a mezzogiorno", en: "That branch of Lake Como which turns toward the south" },
           { es: "Il coraggio, uno non se lo può dare.", en: "Courage isn't something you can give yourself." },
           { es: "Don Abbondio è un curato pauroso.", en: "Don Abbondio is a fearful parish priest." },
           { es: "Il Mezzogiorno indica l'Italia meridionale.", en: "The Mezzogiorno means southern Italy." },
@@ -177,7 +177,7 @@ export const IT_C2_U04: Lesson[] = [
         body: [
           "When the Kingdom of Italy was proclaimed in 1861, about three quarters of the population could not read or write. The linguist Tullio De Mauro, in his \"Storia linguistica dell'Italia unita\" (1963), estimated that only about 2.5% of Italians could actually use Italian, mostly Tuscans, Romans and the educated. Later scholars raised the figure to around 10%, but the picture is the same: Italy was united politically while its people spoke dozens of dialects.",
           "The phrase attributed to Massimo d'Azeglio, \"Fatta l'Italia, bisogna fare gli italiani\" (Italy is made, now we must make the Italians), sums up the problem, even if he probably never said it in that form. Language was the first thing to make.",
-          "Notice the vocabulary of statistics: \"stimare\" (to estimate), \"una stima\", \"l'analfabetismo\" (illiteracy), \"gli italofoni\" (Italian speakers), \"la percentuale\", \"circa\". Percentages take the article: \"il 2,5% degli italiani\" (il due virgola cinque per cento).",
+          "Notice the vocabulary of statistics: \"stimare\" (to estimate), \"una stima\", \"l'analfabetismo\" (illiteracy), \"gli italofoni\" (Italian speakers), \"la percentuale\", \"circa\". Percentages take the article: \"il 2,5% degli italiani\" (il due virgola cinque percento).",
         ],
         examples: [
           { es: "Nel 1861 circa tre italiani su quattro erano analfabeti.", en: "In 1861 about three Italians in four were illiterate." },
@@ -195,13 +195,13 @@ export const IT_C2_U04: Lesson[] = [
         heading: "What spread Italian",
         body: [
           "Several forces worked slowly. School: the Casati law (1859) and the Coppino law (1877) made primary education compulsory, though for decades many children, especially girls and in the South, never attended. The army: conscription mixed young men from every region in the same barracks, where Italian was the only common code. Bureaucracy: one state meant one language of forms, courts and taxes.",
-          "Emigration had a double effect: millions left, and those who stayed received letters they needed others to read, which pushed families towards literacy. Internal migration and urbanisation, especially to the industrial North in the 1950s and 60s, forced people from different regions to talk to each other at work. The press, and later the radio, completed the picture.",
+          "Emigration had a double effect: millions left, and those who stayed received letters they needed others to read, which pushed families toward literacy. Internal migration and urbanization, especially to the industrial North in the 1950s and 60s, forced people from different regions to talk to each other at work. The press, and later the radio, completed the picture.",
           "The result was not the death of dialects but a long \"bilinguismo\" or \"diglossia\": Italian for school, offices and strangers, dialect for family and friends. Many Italians over seventy still live in that division.",
         ],
         examples: [
           { es: "La legge Coppino rese obbligatoria la scuola elementare.", en: "The Coppino law made primary school compulsory." },
           { es: "In caserma l'italiano era l'unico codice comune.", en: "In the barracks Italian was the only common code." },
-          { es: "L'emigrazione spinse molte famiglie verso l'alfabetizzazione.", en: "Emigration pushed many families towards literacy." },
+          { es: "L'emigrazione spinse molte famiglie verso l'alfabetizzazione.", en: "Emigration pushed many families toward literacy." },
           { es: "Negli anni Sessanta milioni di persone si trasferirono al Nord.", en: "In the sixties millions of people moved to the North." },
           { es: "In famiglia si parlava dialetto, in ufficio italiano.", en: "At home people spoke dialect, at the office Italian." },
         ],
@@ -237,7 +237,7 @@ export const IT_C2_U04: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Italy is made; [now we must make] the Italians.", sentence: "Fatta l'Italia, ___ gli italiani.", answer: "bisogna fare", explanation: "Absolute participle + \"bisogna\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "In the barracks Italian was [the only common code].", sentence: "In caserma l'italiano era ___.", answer: "l'unico codice comune", explanation: "\"L'unico\" + noun." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Dear wife, [I'm letting you know] that I'm well.", sentence: "Cara moglie, ___ che sto bene.", answer: "ti faccio sapere", altAnswers: ["ti fo sapere"], explanation: "The classic opening of emigrants' letters." },
-      { type: "word-order", prompt: "Put the words in order to say: Emigration pushed families towards literacy.", words: ["L'emigrazione", "spinse", "le famiglie", "verso", "l'alfabetizzazione."], translation: "Emigration pushed families towards literacy.", explanation: "\"Spingere verso\" = to push towards." },
+      { type: "word-order", prompt: "Put the words in order to say: Emigration pushed families toward literacy.", words: ["L'emigrazione", "spinse", "le famiglie", "verso", "l'alfabetizzazione."], translation: "Emigration pushed families toward literacy.", explanation: "\"Spingere verso\" = to push toward." },
       { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "l'analfabetismo", right: "illiteracy" }, { left: "gli italofoni", right: "Italian speakers" }, { left: "la diglossia", right: "two languages for different roles" }, { left: "la leva", right: "conscription" }, { left: "l'italiano popolare", right: "the Italian of the semi-literate" }], explanation: "Key terms of Italy's linguistic history." },
       { type: "dictation", audio: "Fatta l'Italia, bisogna fare gli italiani.", explanation: "A phrase attributed to d'Azeglio." },
       { type: "speak", text: "Nel 1861 solo una piccola minoranza degli italiani parlava italiano; gli altri parlavano dialetto.", prompt: "Say it in Italian: In 1861 only a small minority of Italians spoke Italian; the others spoke dialect.", tip: "Read the year as \"milleottocentosessantuno\".", explanation: "The core fact of the lesson." },
@@ -254,7 +254,7 @@ export const IT_C2_U04: Lesson[] = [
       {
         heading: "1954: Italian enters the home",
         body: [
-          "The RAI began regular television broadcasts on the 3rd of January 1954. In a country where most people still spoke dialect at home, television did what school had only half achieved: it brought spoken Italian, every evening, into kitchens and bars. In the first years, families without a set gathered at the bar or at a neighbour's to watch quiz shows like \"Lascia o raddoppia?\" (double or quits), which emptied cinemas on Thursday nights.",
+          "The RAI began regular television broadcasts on the 3rd of January 1954. In a country where most people still spoke dialect at home, television did what school had only half achieved: it brought spoken Italian, every evening, into kitchens and bars. In the first years, families without a set gathered at the bar or at a neighbor's to watch quiz shows like \"Lascia o raddoppia?\" (double or quits), which emptied cinemas on Thursday nights.",
           "Tullio De Mauro argued that television was the single strongest force for spoken Italian in the twentieth century: for the first time millions heard the language used naturally, by presenters, actors and ordinary contestants from every region. Radio, from the 1920s, had begun the process, but television added faces, gestures and the sheer number of hours.",
           "The vocabulary: \"la televisione\", \"la TV\" (la ti vu), \"la tele\" (informal), \"il televisore\" (the set), \"trasmettere\" (to broadcast), \"la trasmissione\" or \"il programma\", \"il telespettatore\" (viewer), \"andare in onda\" (to go on air).",
         ],
@@ -263,7 +263,7 @@ export const IT_C2_U04: Lesson[] = [
           { es: "Chi non aveva il televisore andava a guardarlo al bar.", en: "Those without a TV set went to watch it at the bar." },
           { es: "Il quiz del giovedì svuotava i cinema.", en: "The Thursday quiz show emptied the cinemas." },
           { es: "La televisione portò l'italiano parlato nelle case.", en: "Television brought spoken Italian into people's homes." },
-          { es: "Il programma va in onda alle 21.", en: "The programme goes on air at 9 p.m." },
+          { es: "Il programma va in onda alle 21.", en: "The program goes on air at 9 p.m." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Television brought spoken Italian into people's homes.", answer: "La televisione portò l'italiano parlato nelle case.", altAnswers: ["La televisione ha portato l'italiano parlato nelle case.", "La televisione portò l'italiano parlato nelle case degli italiani.", "La TV portò l'italiano parlato nelle case."], explanation: "\"Nelle case\" = into homes." },
@@ -273,7 +273,7 @@ export const IT_C2_U04: Lesson[] = [
       {
         heading: "Never too late",
         body: [
-          "From 1960 to 1968 the RAI broadcast \"Non è mai troppo tardi\" (it's never too late), evening reading and writing lessons for adults, taught by the primary school teacher Alberto Manzi with a large sheet of paper and a charcoal pencil. It is estimated that the programme helped well over a million people to obtain a primary school certificate. It remains a symbol of public television as a school for the nation.",
+          "From 1960 to 1968 the RAI broadcast \"Non è mai troppo tardi\" (it's never too late), evening reading and writing lessons for adults, taught by the primary school teacher Alberto Manzi with a large sheet of paper and a charcoal pencil. It is estimated that the program helped well over a million people to obtain a primary school certificate. It remains a symbol of public television as a school for the nation.",
           "Television also spread a specific kind of Italian: a neutral, slightly formal standard with few regional features, plus catchphrases that entered everyday speech. Presenters' expressions, advertising slogans from \"Carosello\" (the evening advertising show, 1957-1977, after which children went to bed) and quiz formulas became shared references across the country.",
         ],
         examples: [
@@ -284,15 +284,15 @@ export const IT_C2_U04: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "After Carosello children went to bed.", answer: "Dopo Carosello i bambini andavano a letto.", altAnswers: ["Dopo Carosello i bambini andavano a dormire.", "I bambini andavano a letto dopo Carosello."], explanation: "Imperfect for a past habit." },
-          { type: "listen-choose", audio: "Non è mai troppo tardi insegnava a leggere e scrivere agli adulti.", question: "Who was the programme for?", options: ["adults who couldn't read or write", "children before school", "foreign students", "teachers in training"], correctIndex: 0, explanation: "Evening literacy lessons for adults, 1960-1968." },
+          { type: "listen-choose", audio: "Non è mai troppo tardi insegnava a leggere e scrivere agli adulti.", question: "Who was the program for?", options: ["adults who couldn't read or write", "children before school", "foreign students", "teachers in training"], correctIndex: 0, explanation: "Evening literacy lessons for adults, 1960-1968." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Many slogans [entered] everyday language.", sentence: "Molti slogan ___ nella lingua di tutti i giorni.", answer: "sono entrati", altAnswers: ["entrarono"], explanation: "\"Entrare\" takes \"essere\"; \"slogan\" is invariable." },
         ],
       },
       {
         heading: "From one-way to many voices",
         body: [
-          "Early television spoke a careful, almost theatrical standard, read from scripts; viewers listened but did not answer. From the late 1970s private channels multiplied, talk shows and live programmes grew, and television began to reflect the Italian people actually spoke: regional accents, colloquial turns, interruptions, slang. The model it offered became less formal and more varied.",
-          "Linguists summarise the shift with two labels: a \"paleotelevisione\" (old television), pedagogical and uniform, and a \"neotelevisione\" (new television), conversational and mirror-like. Today the internet and social media have taken over much of this role, but television's work is done: almost all Italians now speak Italian, and many speak a dialect as well.",
+          "Early television spoke a careful, almost theatrical standard, read from scripts; viewers listened but did not answer. From the late 1970s private channels multiplied, talk shows and live programs grew, and television began to reflect the Italian people actually spoke: regional accents, colloquial turns, interruptions, slang. The model it offered became less formal and more varied.",
+          "Umberto Eco summed up the shift in 1983 with two labels that linguists still use: a \"paleotelevisione\" (old television), pedagogical and uniform, and a \"neotelevisione\" (new television), conversational and mirror-like. Today the internet and social media have taken over much of this role, but television's work is done: almost all Italians now speak Italian, and many speak a dialect as well.",
         ],
         examples: [
           { es: "La paleotelevisione aveva un tono pedagogico.", en: "Early television had a pedagogical tone." },
@@ -308,14 +308,14 @@ export const IT_C2_U04: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "RAI began regular broadcasts in 1954.", answer: "La RAI iniziò le trasmissioni regolari nel 1954.", altAnswers: ["La RAI ha iniziato le trasmissioni regolari nel 1954.", "La RAI cominciò le trasmissioni regolari nel 1954."], explanation: "\"La RAI\": feminine (la Radiotelevisione)." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The programme goes on air at nine in the evening.", answer: "Il programma va in onda alle nove di sera.", altAnswers: ["Il programma va in onda alle 21.", "La trasmissione va in onda alle nove di sera.", "Il programma va in onda alle ventuno."], explanation: "\"Andare in onda\" = to go on air." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The program goes on air at nine in the evening.", answer: "Il programma va in onda alle nove di sera.", altAnswers: ["Il programma va in onda alle 21.", "La trasmissione va in onda alle nove di sera.", "Il programma va in onda alle ventuno."], explanation: "\"Andare in onda\" = to go on air." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In talk shows you hear regional accents.", answer: "Nei talk show si sentono accenti regionali.", altAnswers: ["Nei talk show si sentono gli accenti regionali.", "Nei talk show si sentono molti accenti regionali."], explanation: "Impersonal \"si\" + plural verb; \"talk show\" is invariable." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's never too late to learn.", answer: "Non è mai troppo tardi per imparare.", altAnswers: ["Non è mai tardi per imparare."], explanation: "The title of Manzi's programme, now a proverb." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's never too late to learn.", answer: "Non è mai troppo tardi per imparare.", altAnswers: ["Non è mai tardi per imparare."], explanation: "The title of Manzi's program, now a proverb." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The Thursday quiz show [emptied] the cinemas.", sentence: "Il quiz del giovedì ___ i cinema.", answer: "svuotava", explanation: "Imperfect for a repeated past effect; \"cinema\" is invariable." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The teacher wrote [with charcoal].", sentence: "Il maestro scriveva ___.", answer: "con il carboncino", altAnswers: ["col carboncino"], explanation: "\"Carboncino\" = charcoal pencil." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Early television [had] a pedagogical tone.", sentence: "La paleotelevisione ___ un tono pedagogico.", answer: "aveva", explanation: "Imperfect for a description." },
       { type: "word-order", prompt: "Put the words in order to say: Television was a school for the nation.", words: ["La", "televisione", "fu", "una scuola", "per", "la nazione."], translation: "Television was a school for the nation.", altOrders: [["La", "televisione", "fu", "per", "la nazione", "una scuola."]], explanation: "\"Fu\" for a completed historical role." },
-      { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "il televisore", right: "the TV set" }, { left: "il telespettatore", right: "the viewer" }, { left: "andare in onda", right: "to go on air" }, { left: "la trasmissione", right: "the broadcast, programme" }, { left: "la paleotelevisione", right: "early, pedagogical TV" }], explanation: "The vocabulary of television." },
+      { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "il televisore", right: "the TV set" }, { left: "il telespettatore", right: "the viewer" }, { left: "andare in onda", right: "to go on air" }, { left: "la trasmissione", right: "the broadcast, program" }, { left: "la paleotelevisione", right: "early, pedagogical TV" }], explanation: "The vocabulary of television." },
       { type: "dictation", audio: "Chi non aveva il televisore andava a guardarlo al bar.", explanation: "\"Guardarlo\": pronoun attached to the infinitive." },
       { type: "speak", text: "Secondo De Mauro, la televisione fece per l'italiano parlato più di cento anni di scuola.", prompt: "Say it in Italian: According to De Mauro, television did more for spoken Italian than a hundred years of school.", tip: "\"Fece\": FE-ce, soft c.", explanation: "A deliberately bold summary of De Mauro's thesis." },
     ],
@@ -370,7 +370,7 @@ export const IT_C2_U04: Lesson[] = [
     level: "IT-C2",
     number: 6,
     title: "Neo-Standard Italian Today",
-    summary: "Recognise the features of today's neo-standard Italian, such as lui as subject, gli for loro and the spreading indicative, and know which belong in writing.",
+    summary: "Recognize the features of today's neo-standard Italian, such as lui as subject, gli for loro and the spreading indicative, and know which belong in writing.",
     duration: "19 min",
     sections: [
       {
@@ -378,7 +378,7 @@ export const IT_C2_U04: Lesson[] = [
         body: [
           "In the 1980s linguists noticed that educated Italians, in speech and in informal writing, regularly used forms that school grammars still condemned. Francesco Sabatini called this \"l'italiano dell'uso medio\", Gaetano Berruto \"l'italiano neostandard\". These are not errors of the uneducated but the real standard of today's middle register.",
           "The main features. Subject pronouns \"lui\", \"lei\", \"loro\" replace \"egli\", \"ella\", \"essi\" everywhere except in very formal prose. \"Gli\" replaces \"loro\" as the indirect plural (\"Ho telefonato ai miei e gli ho detto tutto\", not \"ho detto loro\"). The \"passato prossimo\" spreads at the expense of the \"passato remoto\", especially in the North. The present replaces the future for planned events (\"Domani parto\"). \"Cosa?\" replaces \"che cosa?\". The \"imperfetto di cortesia\" softens requests: \"Volevo un'informazione.\"",
-          "All of these are fully acceptable in informal writing and most of them in good journalism. Your formal essays can use \"lui\" and \"gli\" for \"a loro\" without a second thought.",
+          "All of these are fully acceptable in informal writing and most of them in good journalism. In essays \"lui\" as a subject is now unremarkable, and \"gli\" for \"a loro\" is accepted by the Accademia della Crusca and most style guides; only very formal prose (a thesis, a legal text) still prefers \"loro\" after the verb.",
         ],
         examples: [
           { es: "Lui dice che arriva domani.", en: "He says he's arriving tomorrow." },
@@ -396,8 +396,8 @@ export const IT_C2_U04: Lesson[] = [
         heading: "The indicative spreading",
         body: [
           "The most debated feature is the indicative where the subjunctive was required: \"Penso che è vero\", \"Credo che hai ragione\", \"Se lo sapevo, venivo\". In speech, even among educated people, the indicative is frequent after verbs of opinion, and the imperfect indicative often replaces the hypothetical period (\"se lo sapevo, venivo\" for \"se l'avessi saputo, sarei venuto\").",
-          "Here a clear line runs between speech and writing. In written Italian of any formality the subjunctive is still expected, and its absence is noticed: a job application with \"penso che è\" makes a bad impression. Use the subjunctive in writing; recognise the indicative in speech without correcting anyone. The \"imperfetto ipotetico\" (\"se lo sapevo, venivo\") is acceptable in conversation and even in some journalism, but not in an essay.",
-          "Linguists are cautious: the subjunctive is not dying, it is specialising. It survives strongly after \"benché\", \"affinché\", \"prima che\" and \"vorrei che\", and weakens after \"penso\" and \"credo\".",
+          "Here a clear line runs between speech and writing. In written Italian of any formality the subjunctive is still expected, and its absence is noticed: a job application with \"penso che è\" makes a bad impression. Use the subjunctive in writing; recognize the indicative in speech without correcting anyone. The \"imperfetto ipotetico\" (\"se lo sapevo, venivo\") is acceptable in conversation and even in some journalism, but not in an essay.",
+          "Linguists are cautious: the subjunctive is not dying, it is specializing. It survives strongly after \"benché\", \"affinché\", \"prima che\" and \"vorrei che\", and weakens after \"penso\" and \"credo\".",
         ],
         examples: [
           { es: "Penso che sia vero.", en: "I think it's true. (written standard)" },
@@ -416,7 +416,7 @@ export const IT_C2_U04: Lesson[] = [
         heading: "Spoken syntax in writing",
         body: [
           "Other neo-standard features are syntactic. \"Dislocazione a sinistra\": the topic first, then a pronoun (\"Il caffè lo prendo dopo\"); \"a destra\": the pronoun first, the topic after (\"Lo prendo dopo, il caffè\"). The \"frase scissa\": \"È Marco che ha chiamato\" (it was Marco who called). The \"che polivalente\", a generic \"che\" for many relations (\"Il giorno che sei arrivato\"), is acceptable; \"la ragazza che gli ho parlato\" is not.",
-          "Some forms remain substandard: \"gli\" for \"le\" (to her: \"gli ho detto\" referring to a woman), \"a me mi\" in writing, \"c'ho\" spelled that way. Recognise them, do not write them. Your guide: the neo-standard is what an educated Italian writes in an email to a colleague; the substandard is what a teacher would underline in red.",
+          "Some forms remain substandard: \"gli\" for \"le\" (to her: \"gli ho detto\" referring to a woman), \"a me mi\" in writing, \"c'ho\" spelled that way. Recognize them, do not write them. Your guide: the neo-standard is what an educated Italian writes in an email to a colleague; the substandard is what a teacher would underline in red.",
         ],
         examples: [
           { es: "Il caffè lo prendo dopo.", en: "I'll have the coffee later." },
@@ -475,13 +475,13 @@ export const IT_C2_U04: Lesson[] = [
         body: [
           "Paragraph 1: \"Dal punto di vista grammaticale, la risposta è semplice: l'italiano dispone di regolari forme femminili per i nomi di professione. Come da «maestro» si forma «maestra», così da «sindaco» si forma «sindaca» e da «ministro» «ministra». Non si tratta di neologismi forzati, ma dell'applicazione di regole antiche quanto la lingua.\"",
           "Paragraph 2: \"Le resistenze, dunque, non sono grammaticali ma culturali: alcune forme suonano nuove soltanto perché per secoli quelle cariche sono state ricoperte quasi esclusivamente da uomini. L'uso, del resto, si sta orientando con decisione verso il femminile, come mostrano i giornali degli ultimi anni.\"",
-          "Paragraph 3: \"Raccomandiamo quindi le forme femminili, pur riconoscendo che chi ricopre una carica può legittimamente preferire per sé il maschile. In una lingua viva, la norma segue l'uso, e non il contrario.\" Note \"pur riconoscendo\" (while recognising): concession with \"pur\" + gerund.",
+          "Paragraph 3: \"Raccomandiamo quindi le forme femminili, pur riconoscendo che chi ricopre una carica può legittimamente preferire per sé il maschile. In una lingua viva, la norma segue l'uso, e non il contrario.\" Note \"pur riconoscendo\" (while recognizing): concession with \"pur\" + gerund.",
         ],
         examples: [
           { es: "L'italiano dispone di regolari forme femminili.", en: "Italian has regular feminine forms." },
           { es: "Da «sindaco» si forma «sindaca».", en: "From 'sindaco' one forms 'sindaca'." },
           { es: "Le resistenze non sono grammaticali ma culturali.", en: "The resistance is not grammatical but cultural." },
-          { es: "L'uso si sta orientando verso il femminile.", en: "Usage is moving towards the feminine." },
+          { es: "L'uso si sta orientando verso il femminile.", en: "Usage is moving toward the feminine." },
           { es: "In una lingua viva, la norma segue l'uso.", en: "In a living language, the rule follows usage." },
         ],
         checkpoint: [
@@ -493,17 +493,17 @@ export const IT_C2_U04: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Italian has regular feminine forms for professions.", answer: "L'italiano dispone di regolari forme femminili per le professioni.", altAnswers: ["L'italiano ha forme femminili regolari per le professioni.", "L'italiano dispone di forme femminili regolari per i nomi di professione.", "L'italiano ha regolari forme femminili per le professioni."], explanation: "\"Disporre di\" = to have available (formal)." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Usage is moving decisively towards the feminine.", answer: "L'uso si sta orientando con decisione verso il femminile.", altAnswers: ["L'uso si sta orientando decisamente verso il femminile.", "L'uso si orienta con decisione verso il femminile."], explanation: "\"Orientarsi verso\" = to move towards." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Usage is moving decisively toward the feminine.", answer: "L'uso si sta orientando con decisione verso il femminile.", altAnswers: ["L'uso si sta orientando decisamente verso il femminile.", "L'uso si orienta con decisione verso il femminile."], explanation: "\"Orientarsi verso\" = to move toward." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "These are not forced neologisms.", answer: "Non si tratta di neologismi forzati.", altAnswers: ["Non sono neologismi forzati."], explanation: "\"Non si tratta di\" = it's not a matter of." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We therefore recommend the feminine forms.", answer: "Raccomandiamo quindi le forme femminili.", altAnswers: ["Raccomandiamo dunque le forme femminili.", "Quindi raccomandiamo le forme femminili.", "Consigliamo quindi le forme femminili."], explanation: "The consultation's courteous plural \"noi\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "From 'ministro' [one forms] 'ministra'.", sentence: "Da «ministro» ___ «ministra».", answer: "si forma", altAnswers: ["si ottiene", "deriva"], explanation: "Impersonal \"si\" for a general rule." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[While recognising] that some prefer the masculine.", sentence: "___ che alcune preferiscono il maschile.", answer: "Pur riconoscendo", altAnswers: ["Pur ammettendo"], explanation: "\"Pur\" + gerund = while, although." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[While recognizing] that some prefer the masculine.", sentence: "___ che alcune preferiscono il maschile.", answer: "Pur riconoscendo", altAnswers: ["Pur ammettendo"], explanation: "\"Pur\" + gerund = while, although." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Those offices [have been held] almost only by men.", sentence: "Quelle cariche ___ quasi solo da uomini.", answer: "sono state ricoperte", altAnswers: ["sono state occupate"], explanation: "\"Ricoprire una carica\" = to hold an office." },
       { type: "word-order", prompt: "Put the words in order to say: The rule follows usage.", words: ["La", "norma", "segue", "l'uso."], translation: "The rule follows usage.", explanation: "\"Norma\" = norm, rule." },
       { type: "multiple-choice", question: "What does the consultation recommend?", options: ["The feminine forms, while respecting personal preference", "Only the masculine", "Inventing new words", "Avoiding job titles"], correctIndex: 0, explanation: "Recommendation plus a courteous concession." },
       { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "la consulenza linguistica", right: "language advice service" }, { left: "sollevare una questione", right: "to raise an issue" }, { left: "ricoprire una carica", right: "to hold an office" }, { left: "conviene distinguere", right: "it is worth distinguishing" }], explanation: "Formulas of the consultation register." },
       { type: "dictation", audio: "Le resistenze non sono grammaticali ma culturali.", explanation: "Plural \"resistenze\", agreement in -i." },
-      { type: "speak", text: "Dal punto di vista grammaticale, la risposta è semplice: da sindaco si forma sindaca.", prompt: "Summarise the answer aloud: From a grammatical point of view, the answer is simple: from sindaco one forms sindaca.", tip: "\"Sindaca\": SIN-da-ca, stress on the first syllable.", explanation: "The core of the consultation." },
+      { type: "speak", text: "Dal punto di vista grammaticale, la risposta è semplice: da sindaco si forma sindaca.", prompt: "Summarize the answer aloud: From a grammatical point of view, the answer is simple: from sindaco one forms sindaca.", tip: "\"Sindaca\": SIN-da-ca, stress on the first syllable.", explanation: "The core of the consultation." },
     ],
   },
   {
@@ -517,7 +517,7 @@ export const IT_C2_U04: Lesson[] = [
       {
         heading: "The facts",
         body: [
-          "Italian takes in English words faster than French or Spanish do, and usually without adapting them: \"il computer\", \"il weekend\", \"lo smartphone\", \"la mail\", \"il manager\". Gender is assigned by analogy (\"la mail\" from \"la posta\"), and plurals stay invariable in writing: \"i computer\", not \"i computers\". Some are \"pseudoanglicismi\", words that look English but are not used that way in English: \"lo smart working\" (remote work), \"il footing\", \"il beauty case\", \"il box\" (a garage).",
+          "Italian is often said to take in English words more readily than French or Spanish, and it usually does so without adapting them: \"il computer\", \"il weekend\", \"lo smartphone\", \"la mail\", \"il manager\". Gender is assigned by analogy (\"la mail\" from \"la posta\"), and plurals stay invariable in writing: \"i computer\", not \"i computers\". Some are \"pseudoanglicismi\", words that look English but are not used that way in English: \"lo smart working\" (remote work), \"il footing\", \"il beauty case\", \"il box\" (a garage).",
           "Public institutions and businesses use the most Anglicisms: \"il jobs act\", \"la spending review\", \"il question time\", \"la location\", \"il meeting\". Defenders of Italian object that a perfectly good Italian word often exists: \"la riunione\", \"il luogo\", \"la revisione della spesa\", \"il lavoro da remoto\". The debate is old: in the 1930s the Fascist regime tried to ban foreign words by law (\"il cocktail\" became \"la bevanda arlecchina\"), with comic results.",
         ],
         examples: [
@@ -657,11 +657,11 @@ export const IT_C2_U04: Lesson[] = [
         heading: "The talk, part 1",
         body: [
           "This lab is built on a short public lecture, written for the course, by an invented linguist, Professoressa Chiara Ferri, at a festival in Mantua. Listen to each extract before reading it. Lectures in Italian announce their structure: \"Vorrei partire da\", \"In secondo luogo\", \"Vengo ora a\", \"Per concludere\". Catch these signposts and you will follow the argument even when some words escape you.",
-          "Extract 1: \"Vorrei partire da un dato: nel 1861 l'italiano era la lingua di pochi. Oggi lo parla quasi il cento per cento della popolazione, e circa un terzo degli italiani usa anche un dialetto. Non è una sconfitta dei dialetti: è la nascita di un repertorio più ricco.\"",
+          "Extract 1: \"Vorrei partire da un dato: nel 1861 l'italiano era la lingua di pochi. Oggi lo parla quasi il cento percento della popolazione, e circa un terzo degli italiani usa anche un dialetto. Non è una sconfitta dei dialetti: è la nascita di un repertorio più ricco.\"",
         ],
         examples: [
           { es: "Vorrei partire da un dato.", en: "I'd like to start with a fact." },
-          { es: "Oggi lo parla quasi il cento per cento della popolazione.", en: "Today almost one hundred per cent of the population speaks it." },
+          { es: "Oggi lo parla quasi il cento percento della popolazione.", en: "Today almost one hundred percent of the population speaks it." },
           { es: "Circa un terzo degli italiani usa anche un dialetto.", en: "About a third of Italians also use a dialect." },
           { es: "È la nascita di un repertorio più ricco.", en: "It is the birth of a richer repertoire." },
         ],

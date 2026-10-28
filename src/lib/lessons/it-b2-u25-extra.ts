@@ -68,7 +68,7 @@ export const IT_B2_U25_EXTRA: Lesson[] = [
         examples: [
           { es: "Lasciare i fagioli in ammollo per una notte.", en: "Leave the beans to soak overnight." },
           { es: "Sbattere le uova con un pizzico di sale.", en: "Beat the eggs with a pinch of salt." },
-          { es: "Versare la panna cotta negli stampini e lasciarla rassodare in frigo.", en: "Pour the panna cotta into the moulds and leave it to set in the fridge." },
+          { es: "Versare la panna cotta negli stampini e lasciarla rassodare in frigo.", en: "Pour the panna cotta into the molds and leave it to set in the fridge." },
           { es: "La frittata va girata con un piatto.", en: "The frittata must be turned with a plate." },
         ],
         checkpoint: [
@@ -80,7 +80,7 @@ export const IT_B2_U25_EXTRA: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, in recipe style.", source: "Leave the beans to soak overnight.", answer: "Lasciare i fagioli in ammollo per una notte.", altAnswers: ["Lasciare i fagioli in ammollo tutta la notte.", "Mettere i fagioli in ammollo per una notte."], explanation: "\"In ammollo\" = soaking." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, in recipe style.", source: "Blend half the beans.", answer: "Frullare metà dei fagioli.", altAnswers: ["Frullare la metà dei fagioli."], explanation: "\"Metà dei\" = half of the." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian, in recipe style.", source: "Pour the mixture into the moulds.", answer: "Versare il composto negli stampini.", altAnswers: ["Versare il composto negli stampi."], explanation: "\"Il composto\" = the mixture." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian, in recipe style.", source: "Pour the mixture into the molds.", answer: "Versare il composto negli stampini.", altAnswers: ["Versare il composto negli stampi."], explanation: "\"Il composto\" = the mixture." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, in recipe style.", source: "Leave it to set in the fridge for four hours.", answer: "Lasciarla rassodare in frigo per quattro ore.", altAnswers: ["Lasciarlo rassodare in frigo per quattro ore.", "Lasciare rassodare in frigorifero per quattro ore.", "Lasciare rassodare in frigo per quattro ore.", "Lasciarla rassodare in frigorifero per quattro ore."], explanation: "\"Rassodare\" = to set." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, with andare + participle.", source: "The frittata must be turned with a plate.", answer: "La frittata va girata con un piatto.", altAnswers: ["La frittata va girata aiutandosi con un piatto.", "La frittata va capovolta con un piatto."], explanation: "\"Va girata\" agrees with \"la frittata\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, in recipe style.", source: "Turn out the panna cotta onto a plate.", answer: "Capovolgere la panna cotta su un piatto.", altAnswers: ["Capovolgere la panna cotta sul piatto."], explanation: "\"Capovolgere\" = to turn upside down." },
@@ -89,10 +89,10 @@ export const IT_B2_U25_EXTRA: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words, with andare + participle.", en: "The beans [must be soaked] the day before.", sentence: "I fagioli ___ in ammollo il giorno prima.", answer: "vanno messi", explanation: "\"Mettere in ammollo\" → \"vanno messi\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words, in recipe style.", en: "[Beat] the eggs with the cheese.", sentence: "___ le uova con il formaggio.", answer: "Sbattere", explanation: "\"Sbattere\" = to beat." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words, in recipe style.", en: "Cook until the frittata [is golden].", sentence: "Cuocere finché la frittata non ___.", answer: "è dorata", altAnswers: ["diventa dorata"], explanation: "\"Finché non\" + indicative." },
-      { type: "word-order", prompt: "Put the words in order to say: Pour the mixture into the moulds.", words: ["Versare", "il composto", "negli", "stampini."], translation: "Pour the mixture into the moulds.", explanation: "\"Negli\" before s + consonant." },
+      { type: "word-order", prompt: "Put the words in order to say: Pour the mixture into the molds.", words: ["Versare", "il composto", "negli", "stampini."], translation: "Pour the mixture into the molds.", explanation: "\"Negli\" before s + consonant." },
       { type: "multiple-choice", question: "\"Lasciare rassodare\" in a dessert recipe means ...", options: ["leave to set", "leave to rise", "leave to cool slightly", "leave to boil"], correctIndex: 0, explanation: "\"Rassodare\" = to become firm." },
       { type: "dictation", audio: "Versare il composto negli stampini e lasciarlo rassodare in frigo.", explanation: "\"Lasciarlo\": pronoun attached." },
-      { type: "speak", text: "Sbattere le uova con il formaggio, versarle in padella e cuocere a fuoco basso.", prompt: "Read the frittata steps: Beat the eggs with the cheese, pour them into the pan and cook over a low heat.", tip: "SBAT-te-re: double t.", explanation: "Three infinitives." },
+      { type: "speak", text: "Sbattere le uova con il formaggio, versarle in padella e cuocere a fuoco basso.", prompt: "Read the frittata steps: Beat the eggs with the cheese, pour them into the pan and cook over low heat.", tip: "SBAT-te-re: double t.", explanation: "Three infinitives." },
     ],
   },
   {
@@ -108,13 +108,13 @@ export const IT_B2_U25_EXTRA: Lesson[] = [
       {
         heading: "Market and kitchen",
         body: [
-          "At the market: \"un etto\" (100 g), \"mezzo chilo\", \"un mazzo di\" (a bunch of), \"una cassetta\" (a crate), \"di stagione\" (in season), \"a chilometro zero\" (locally grown). In the kitchen: \"la pentola\" (pot), \"la padella\" (frying pan), \"il mestolo\" (ladle), \"il tagliere\" (chopping board), \"lo scolapasta\" (colander), \"la grattugia\" (grater).",
+          "At the market: \"un etto\" (100 g), \"mezzo chilo\", \"un mazzo di\" (a bunch of), \"una cassetta\" (a crate), \"di stagione\" (in season), \"a chilometro zero\" (locally grown). In the kitchen: \"la pentola\" (pot), \"la padella\" (frying pan), \"il mestolo\" (ladle), \"il tagliere\" (cutting board), \"lo scolapasta\" (colander), \"la grattugia\" (grater).",
         ],
         examples: [
           { es: "Mi dà un mazzo di basilico e mezzo chilo di pomodori?", en: "Could I have a bunch of basil and half a kilo of tomatoes?" },
           { es: "Compro solo frutta di stagione.", en: "I only buy fruit that's in season." },
           { es: "Passami lo scolapasta, per favore.", en: "Pass me the colander, please." },
-          { es: "Taglia le verdure sul tagliere, non sul tavolo.", en: "Cut the vegetables on the chopping board, not on the table." },
+          { es: "Taglia le verdure sul tagliere, non sul tavolo.", en: "Cut the vegetables on the cutting board, not on the table." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian, at the market.", source: "Could I have a bunch of basil?", answer: "Mi dà un mazzo di basilico?", altAnswers: ["Mi può dare un mazzo di basilico?", "Vorrei un mazzo di basilico."], explanation: "\"Un mazzo di\" = a bunch of." },
@@ -129,13 +129,13 @@ export const IT_B2_U25_EXTRA: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "These vegetables are locally grown.", answer: "Queste verdure sono a chilometro zero.", altAnswers: ["Queste verdure sono a km zero.", "Queste verdure sono a km 0."], explanation: "\"A chilometro zero\" = locally sourced." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, at the deli counter.", source: "Two hundred grams of mortadella, please.", answer: "Due etti di mortadella, per favore.", altAnswers: ["Duecento grammi di mortadella, per favore."], explanation: "\"Due etti\" = 200 g." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The frying pan is too small.", answer: "La padella è troppo piccola.", explanation: "\"La padella\" = frying pan; \"la pentola\" = pot." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Cut the vegetables on the chopping board. (to a friend)", answer: "Taglia le verdure sul tagliere.", explanation: "\"Il tagliere\" = chopping board." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Cut the vegetables on the cutting board. (to a friend)", answer: "Taglia le verdure sul tagliere.", explanation: "\"Il tagliere\" = cutting board." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Could I have a crate of oranges?", answer: "Mi dà una cassetta di arance?", altAnswers: ["Vorrei una cassetta di arance.", "Mi può dare una cassetta di arance?"], explanation: "\"Una cassetta\" = a crate." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Stir the sauce with [the ladle].", sentence: "Mescola il sugo con ___.", answer: "il mestolo", explanation: "\"Il mestolo\" = ladle; a wooden spoon is \"il cucchiaio di legno\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'd like [half a kilo] of tomatoes.", sentence: "Vorrei ___ di pomodori.", answer: "mezzo chilo", explanation: "\"Mezzo\" before a noun stays masculine: \"mezzo chilo\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Drain the pasta in [the colander].", sentence: "Scola la pasta nello ___.", answer: "scolapasta", explanation: "Compound noun: \"lo scolapasta\"." },
       { type: "word-order", prompt: "Put the words in order to say: Could I have a bunch of basil and half a kilo of tomatoes?", words: ["Mi dà", "un mazzo", "di basilico", "e mezzo chilo", "di pomodori?"], translation: "Could I have a bunch of basil and half a kilo of tomatoes?", explanation: "Polite \"Mi dà\"." },
-      { type: "matching", instructions: "Match the kitchen tool to the English.", pairs: [{ left: "la pentola", right: "pot" }, { left: "la padella", right: "frying pan" }, { left: "il mestolo", right: "ladle" }, { left: "il tagliere", right: "chopping board" }, { left: "la grattugia", right: "grater" }], explanation: "Kitchen tools." },
+      { type: "matching", instructions: "Match the kitchen tool to the English.", pairs: [{ left: "la pentola", right: "pot" }, { left: "la padella", right: "frying pan" }, { left: "il mestolo", right: "ladle" }, { left: "il tagliere", right: "cutting board" }, { left: "la grattugia", right: "grater" }], explanation: "Kitchen tools." },
       { type: "dictation", audio: "Mi dà un mazzo di basilico e mezzo chilo di pomodori?", explanation: "Market phrases." },
       { type: "speak", text: "Vorrei due etti di prosciutto, un mazzo di basilico e mezzo chilo di pomodori di stagione.", prompt: "Shop at the market: I'd like 200 g of ham, a bunch of basil and half a kilo of seasonal tomatoes.", tip: "ET-ti: double t.", explanation: "Quantities: \"etti\", \"mazzo\", \"mezzo chilo\"." },
     ],

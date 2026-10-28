@@ -20,6 +20,7 @@ export const IT_B1_U11: Lesson[] = [
         body: [
           "\"Benché\", \"sebbene\" and \"nonostante\" all mean although, and all three take the subjunctive: \"Benché sia tardi, resto ancora un po'\" (Although it's late, I'll stay a bit longer). \"Sebbene\" is slightly more formal; \"nonostante\" is the most frequent in speech.",
           "The clause can come first or second: \"Esco, nonostante piova\" / \"Nonostante piova, esco\".",
+          "Before a noun, only \"nonostante\" (or its synonym \"malgrado\") works: \"nonostante il freddo\", never \"benché il freddo\". You will also meet \"nonostante che\" and \"malgrado che\": correct, but heavier. The classic English-speaker slip is the indicative after \"benché\" (\"benché è tardi\"), because English although takes an ordinary verb: if you can't remember the subjunctive form, switch to \"anche se\".",
         ],
         examples: [
           { es: "Benché sia tardi, resto ancora un po'.", en: "Although it's late, I'll stay a bit longer." },
@@ -62,7 +63,7 @@ export const IT_B1_U11: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's raining, but we're going out all the same.", answer: "Piove, ma usciamo lo stesso.", altAnswers: ["Piove, ma usciamo comunque."], explanation: "\"Lo stesso\" = all the same." },
-          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He studied hard, [and yet] he didn't pass.", sentence: "Ha studiato tanto, ___ non ha passato l'esame.", answer: "eppure", explanation: "\"Eppure\" = and yet." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He studied hard, [and yet] he didn't pass.", sentence: "Ha studiato tanto, ___ non ha passato l'esame.", answer: "eppure", altAnswers: ["però", "ma"], explanation: "\"Eppure\" = and yet." },
         ],
       },
     ],
@@ -111,6 +112,7 @@ export const IT_B1_U11: Lesson[] = [
         body: [
           "\"Perché\" has two meanings. With the indicative it means because (a fact, a cause): \"Esco perché fa bel tempo\". With the subjunctive it means so that (an aim): \"Apro la finestra perché entri un po' d'aria\".",
           "Same subject? Use \"per\" + infinitive for purpose: \"Studio per passare l'esame\", not \"perché io passi\".",
+          "In speech, many people avoid the purpose clause and use \"così\" + indicative: \"Ti lascio la luce accesa, così vedi le scale\". It's informal but perfectly natural. As a question, \"perché\" means why and takes the indicative: \"Perché ridi?\". In every meaning it is spelled with an acute accent: \"perché\", never \"perchè\" or \"perche\".",
         ],
         examples: [
           { es: "Esco perché fa bel tempo.", en: "I'm going out because it's nice weather." },
@@ -170,11 +172,12 @@ export const IT_B1_U11: Lesson[] = [
         body: [
           "\"Senza che\" + subjunctive: without someone else doing something. \"Esce sempre senza che i genitori lo sappiano\" (He always goes out without his parents knowing).",
           "Same subject: \"senza\" + infinitive: \"È uscito senza dire niente\" (He left without saying anything).",
+          "English uses the -ing form after before and without; Italian never uses the gerund there: \"prima di mangiare\", \"senza pensare\", not \"prima di mangiando\". Before a noun, use \"prima di\" and \"senza\": \"prima di cena\", \"senza zucchero\". You may also hear \"prima che non\" with an extra \"non\" (\"prima che non sia tardi\"): it's optional and old-fashioned, so leave it out.",
         ],
         examples: [
           { es: "Esce sempre senza che i genitori lo sappiano.", en: "He always goes out without his parents knowing." },
           { es: "È uscito senza dire niente.", en: "He left without saying anything." },
-          { es: "Prendo le tue cose senza chiedere? No!", en: "Do I take your things without asking? No!" },
+          { es: "Ha preso la macchina senza chiedere.", en: "He took the car without asking." },
           { es: "Non posso partire senza che tu mi dia le chiavi.", en: "I can't leave without you giving me the keys." },
         ],
         checkpoint: [
@@ -365,7 +368,7 @@ export const IT_B1_U11: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Call me before I leave. (to a friend)", answer: "Chiamami prima che io parta.", explanation: "Different subjects." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I go out without making a noise.", answer: "Esco senza fare rumore.", explanation: "Same subject." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She decided without asking anyone.", answer: "Ha deciso senza chiedere a nessuno.", explanation: "Same subject." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Let's tidy up before Mum comes home.", answer: "Mettiamo in ordine prima che torni la mamma.", altAnswers: ["Mettiamo in ordine prima che la mamma torni.", "Mettiamo a posto prima che torni la mamma.", "Riordiniamo prima che torni la mamma."], explanation: "Different subject." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Let's tidy up before Mom comes home.", answer: "Mettiamo in ordine prima che torni la mamma.", altAnswers: ["Mettiamo in ordine prima che la mamma torni.", "Mettiamo a posto prima che torni la mamma.", "Riordiniamo prima che torni la mamma."], explanation: "Different subject." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Let's tidy up before going out.", answer: "Mettiamo in ordine prima di uscire.", altAnswers: ["Mettiamo a posto prima di uscire.", "Riordiniamo prima di uscire."], explanation: "Same subject." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Don't leave without saying goodbye! (to a friend)", answer: "Non andare via senza salutare!", altAnswers: ["Non partire senza salutare!", "Non andartene senza salutare!"], explanation: "Same subject." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'll finish [before you arrive]. (to a friend)", sentence: "Finisco ___.", answer: "prima che tu arrivi", explanation: "Different subject." },
@@ -390,13 +393,13 @@ export const IT_B1_U11: Lesson[] = [
           "Cause (because, a fact): \"perché\" + indicative. Aim (so that, not yet real): \"perché\" + subjunctive. Same subject aim: \"per\" + infinitive. A question with \"perché\" (why?) takes the indicative.",
         ],
         examples: [
-          { es: "Resto a casa perché sono malato.", en: "I'm staying home because I'm ill." },
+          { es: "Resto a casa perché sono malato.", en: "I'm staying home because I'm sick." },
           { es: "Resto a casa perché tu possa uscire.", en: "I'm staying home so that you can go out." },
           { es: "Resto a casa per riposare.", en: "I'm staying home to rest." },
           { es: "Perché resti a casa?", en: "Why are you staying home?" },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm staying home because I'm ill.", answer: "Resto a casa perché sono malato.", altAnswers: ["Resto a casa perché sono malata.", "Sto a casa perché sono malato.", "Sto a casa perché sono malata."], explanation: "Cause." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm staying home because I'm sick.", answer: "Resto a casa perché sono malato.", altAnswers: ["Resto a casa perché sono malata.", "Sto a casa perché sono malato.", "Sto a casa perché sono malata."], explanation: "Cause." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm staying home so that you can go out. (to a friend)", answer: "Resto a casa perché tu possa uscire.", altAnswers: ["Resto a casa affinché tu possa uscire.", "Sto a casa perché tu possa uscire.", "Resto a casa così puoi uscire."], explanation: "Aim." },
         ],
       },
@@ -481,14 +484,14 @@ export const IT_B1_U11: Lesson[] = [
     slug: "b1-dialogue-lab-negotiation",
     level: "IT-B1",
     number: 9,
-    title: "Dialogue Lab: Negotiating with a Flatmate",
+    title: "Dialogue Lab: Negotiating with a Roommate",
     summary: "Va bene, purché tu pulisca la cucina; a meno che tu non preferisca ...",
     duration: "17 min",
     sections: [
       {
         heading: "The bigger room",
         body: [
-          "Marta and Ivan share a flat in Bologna. Ivan wants the bigger room. Ivan: \"Senti, posso prendere la camera grande? Pago io cinquanta euro in più.\" Marta: \"Va bene, purché tu pulisca la cucina ogni settimana.\" Ivan: \"Ogni settimana? A meno che tu non voglia farlo a turno...\"",
+          "Marta and Ivan share an apartment in Bologna. Ivan wants the bigger room. Ivan: \"Senti, posso prendere la camera grande? Pago io cinquanta euro in più.\" Marta: \"Va bene, purché tu pulisca la cucina ogni settimana.\" Ivan: \"Ogni settimana? A meno che tu non voglia farlo a turno...\"",
           "Marta: \"No no, la cucina la pulisci tu, a condizione che io porti giù la spazzatura.\" Ivan: \"Affare fatto!\"",
         ],
         examples: [
@@ -510,7 +513,7 @@ export const IT_B1_U11: Lesson[] = [
         examples: [
           { es: "Nessun problema, benché il bagno sia uno solo.", en: "No problem, even though there's only one bathroom." },
           { es: "Basta che mi avvisi prima.", en: "Just let me know beforehand." },
-          { es: "In modo che io non giri per casa in pigiama.", en: "So that I'm not wandering round the flat in my pyjamas." },
+          { es: "In modo che io non giri per casa in pigiama.", en: "So that I'm not wandering around the apartment in my pajamas." },
           { es: "Te lo dico sempre il venerdì, prima che arrivi.", en: "I'll always tell you on Friday, before she arrives." },
         ],
         checkpoint: [
@@ -523,10 +526,10 @@ export const IT_B1_U11: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll pay fifty euros more.", answer: "Pago io cinquanta euro in più.", altAnswers: ["Pago cinquanta euro in più."], explanation: "\"In più\" = extra." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "No problem, even though there's only one bathroom.", answer: "Nessun problema, benché il bagno sia uno solo.", altAnswers: ["Nessun problema, anche se il bagno è uno solo.", "Nessun problema, benché ci sia un solo bagno."], explanation: "\"Sia\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll always tell you on Friday, before she arrives.", answer: "Te lo dico sempre il venerdì, prima che arrivi.", altAnswers: ["Te lo dico sempre il venerdì, prima che lei arrivi."], explanation: "\"Arrivi\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You clean the kitchen, provided I take the rubbish down. (to a friend)", answer: "La cucina la pulisci tu, a condizione che io porti giù la spazzatura.", altAnswers: ["Pulisci tu la cucina, a condizione che io porti giù la spazzatura.", "La cucina la pulisci tu, purché io porti giù la spazzatura."], explanation: "\"Che io porti\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You clean the kitchen, provided I take the trash down. (to a friend)", answer: "La cucina la pulisci tu, a condizione che io porti giù la spazzatura.", altAnswers: ["Pulisci tu la cucina, a condizione che io porti giù la spazzatura.", "La cucina la pulisci tu, purché io porti giù la spazzatura."], explanation: "\"Che io porti\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Deal!", answer: "Affare fatto!", altAnswers: ["Affare fatto."], explanation: "Fixed phrase." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Can I have the big room?", answer: "Posso prendere la camera grande?", altAnswers: ["Posso avere la camera grande?", "Posso prendere la stanza grande?"], explanation: "\"Prendere\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "So that I [don't wander] round the flat in my pyjamas.", sentence: "In modo che io non ___ per casa in pigiama.", answer: "giri", explanation: "\"Girare\" → \"giri\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "So that I [don't wander] around the apartment in my pajamas.", sentence: "In modo che io non ___ per casa in pigiama.", answer: "giri", explanation: "\"Girare\" → \"giri\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "You can have parties, as long as you [don't make] noise after midnight.", sentence: "Puoi fare feste, purché non ___ rumore dopo mezzanotte.", answer: "faccia", altAnswers: ["tu faccia"], explanation: "\"Faccia\"." },
       { type: "word-order", prompt: "Put the words in order to say: Just let me know beforehand.", words: ["Basta", "che", "mi", "avvisi", "prima."], translation: "Just let me know beforehand.", explanation: "\"Basta che\" + subjunctive." },
       { type: "matching", instructions: "Match each phrase to its role in the negotiation.", pairs: [{ left: "purché tu pulisca", right: "a condition" }, { left: "a meno che tu non voglia", right: "an alternative" }, { left: "benché il bagno sia uno solo", right: "a concession" }, { left: "affare fatto", right: "agreement" }], explanation: "The language of deals." },
@@ -624,7 +627,7 @@ export const IT_B1_U11: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm sorry you have to go. (to a friend)", answer: "Mi dispiace che tu debba andare.", altAnswers: ["Mi dispiace che tu debba andartene.", "Mi dispiace che tu debba andare via."], explanation: "Feeling." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In my opinion the city is beautiful.", answer: "Secondo me la città è bella.", altAnswers: ["Per me la città è bella."], explanation: "\"Secondo me\" + indicative." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We'll go to the lake, unless it's cold.", answer: "Andiamo al lago, a meno che non faccia freddo.", altAnswers: ["Andiamo al lago a meno che non faccia freddo.", "Andiamo al lago, a meno che faccia freddo."], explanation: "Conjunction." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I hope to see you before you leave. (to a friend)", answer: "Spero di vederti prima che tu parta.", altAnswers: ["Spero di vederti prima di partire."], explanation: "\"Spero di\" (same subject), \"prima che tu parta\" (different)." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I hope to see you before you leave. (to a friend)", answer: "Spero di vederti prima che tu parta.", explanation: "\"Spero di\" (same subject), \"prima che tu parta\" (different). \"Prima di partire\" would mean before I leave." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I doubt they [know] the way.", sentence: "Dubito che ___ la strada.", answer: "sappiano", altAnswers: ["conoscano"], explanation: "Doubt." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It's true that he [is] tired.", sentence: "È vero che ___ stanco.", answer: "è", explanation: "Fact." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'll help you, provided you [do] the shopping. (plural)", sentence: "Vi aiuto, purché ___ la spesa.", answer: "facciate", explanation: "Condition." },
@@ -638,14 +641,14 @@ export const IT_B1_U11: Lesson[] = [
 
 export const IT_B1_U11_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You're having a birthday party at home on Saturday. Write a note to your neighbours: apologise in advance, explain your plans and make some promises. Use at least four of: benché / nonostante, perché / affinché (so that), prima che / prima di, senza che, a meno che (non), purché / a condizione che.",
+  prompt: "You're having a birthday party at home on Saturday. Write a note to your neighbors: apologize in advance, explain your plans and make some promises. Use at least four of: benché / nonostante, perché / affinché (so that), prima che / prima di, senza che, a meno che (non), purché / a condizione che.",
   minWords: 60,
   maxWords: 130,
   rubric: [
     "Uses the present subjunctive after benché, affinché / perché (so that), prima che, senza che, a meno che and purché",
     "Uses prima di / senza + infinitive when the subject is the same, and anche se / dopo che / perché (because) + indicative",
-    "Uses polite, neighbourly language (gentili vicini, vi chiediamo scusa, grazie per la pazienza)",
-    "Organises the note clearly: occasion, plans, promises, contact",
+    "Uses polite, neighborly language (gentili vicini, vi chiediamo scusa, grazie per la pazienza)",
+    "Organizes the note clearly: occasion, plans, promises, contact",
   ],
   modelAnswer: "Gentili vicini, sabato sera festeggio il mio compleanno a casa, con una ventina di amici. Vi scrivo prima della festa perché lo sappiate in anticipo. Benché il nostro appartamento sia piccolo, cercheremo di non fare troppo rumore. La musica finirà a mezzanotte, a meno che non ci chiediate di spegnerla prima! Gli ospiti arriveranno dopo le otto, e chiederò a tutti di salire le scale senza gridare. Se avete bisogno di qualcosa, potete suonare in qualsiasi momento, purché non sia per lamentarvi della mia torta! Vi lascio il mio numero affinché possiate chiamarmi. Grazie per la pazienza. Sara (interno 5)",
   explanation: "\"Perché lo sappiate\", \"affinché possiate\" (so that), \"benché sia\", \"a meno che non ci chiediate\" and \"purché non sia\" all need the subjunctive. \"Senza gridare\" uses the infinitive because the guests are the subject of both actions. \"Se avete bisogno\" is a real condition with \"se\", so it takes the indicative.",

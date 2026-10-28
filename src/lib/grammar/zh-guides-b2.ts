@@ -55,12 +55,12 @@ export const ZH_GUIDES_B2: ZhGrammarGuide[] = [
       {
         heading: "哪怕…也 and 再 + adjective + 也",
         body: [
-          "哪怕 (nǎpà) is a more emotional 即使: it introduces an extreme, unlikely or costly case to show determination. 哪怕只有一天，我也想去 (even if it's only for one day, I want to go). It is mostly spoken. 哪怕…也好 asks for 'even just' a little: 哪怕一句话也好 (even a single word would do).",
+          "哪怕 (nǎpà) is a more emotional 即使: it introduces an extreme, unlikely or costly case to show determination. 哪怕只有一天，我也想去 (even if it's only for one day, I want to go). It's most at home in speech and in emotional writing; 即使 is the plainer choice for a neutral 'even if'. 哪怕…也好 asks for 'even just' a little: 哪怕一句话也好 (even a single word would do).",
           "再 (zài) + adjective + 也 means 'however …': 再忙也要吃饭 (however busy you are, you have to eat). The adjective comes straight after 再 with no 很. 再怎么 + verb + 也 works the same way: 再怎么解释他也不听 (however much you explain, he won't listen).",
         ],
         examples: [
           { zh: "哪怕要排三个小时的队，我也要买到票。", pinyin: "Nǎpà yào pái sān ge xiǎoshí de duì, wǒ yě yào mǎidào piào.", en: "Even if it means queueing for three hours, I'm going to get a ticket." },
-          { zh: "工作再忙，也要按时吃饭。", pinyin: "Gōngzuò zài máng, yě yào ànshí chī fàn.", en: "However busy work is, you have to eat properly." },
+          { zh: "工作再忙，也要按时吃饭。", pinyin: "Gōngzuò zài máng, yě yào ànshí chī fàn.", en: "However busy work is, you still have to eat at regular times." },
           { zh: "这件衣服再便宜我也不买。", pinyin: "Zhè jiàn yīfu zài piányi wǒ yě bù mǎi.", en: "However cheap this jacket is, I'm not buying it." },
         ],
       },
@@ -136,7 +136,7 @@ export const ZH_GUIDES_B2: ZhGrammarGuide[] = [
       {
         heading: "万一, 假如, 一旦…就 and 除非…才",
         body: [
-          "万一 (wànyī) is 'what if, in case': something unlikely and unwelcome. 万一航班取消了怎么办？ (what if the flight is cancelled?). 假如 (jiǎrú) is a more bookish 如果 for an imagined situation.",
+          "万一 (wànyī, literally 'one in ten thousand') is 'what if, in case': something unlikely and almost always unwelcome. 万一航班取消了怎么办？ (what if the flight is cancelled?). It also gives the reason for a precaution, with the precaution first: 带把伞吧，万一下雨呢？ (take an umbrella, just in case it rains). 假如 (jiǎrú) is a more bookish 如果 for an imagined situation (假如我是你, if I were you); it has no 'just in case' sense.",
           "一旦 (yídàn) means 'once, the moment that': as soon as A happens, B follows, usually something serious. 一旦…就 is common in warnings and rules.",
           "除非 (chúfēi) names the only condition: 除非 A，才 B (only if A, then B) or 除非 A，否则/不然 B (unless A, B). Learners often translate 'unless' with 除非 and forget the second half.",
         ],
@@ -144,7 +144,7 @@ export const ZH_GUIDES_B2: ZhGrammarGuide[] = [
           headers: ["Word", "Meaning", "Second half", "Register"],
           rows: [
             ["既然", "since (known fact)", "就", "neutral"],
-            ["万一", "in case, what if (unwelcome)", "怎么办 / 就", "spoken"],
+            ["万一", "in case, what if (unwelcome)", "怎么办 / 呢 / 就", "neutral, very common in speech"],
             ["假如", "if, supposing", "就", "written"],
             ["一旦", "once, the moment", "就", "neutral to formal"],
             ["除非", "only if / unless", "才 or 否则 / 不然", "neutral"],
@@ -152,6 +152,7 @@ export const ZH_GUIDES_B2: ZhGrammarGuide[] = [
         },
         examples: [
           { zh: "万一下雨了，我们就在家看电影。", pinyin: "Wànyī xià yǔ le, wǒmen jiù zài jiā kàn diànyǐng.", en: "If it happens to rain, we'll stay in and watch a film." },
+          { zh: "多带点儿钱，万一不够呢？", pinyin: "Duō dài diǎnr qián, wànyī bú gòu ne?", en: "Take a bit more money, in case it's not enough." },
           { zh: "护照一旦丢了，就很麻烦。", pinyin: "Hùzhào yídàn diū le, jiù hěn máfan.", en: "Once you lose your passport, it's a real headache." },
           { zh: "除非你亲自去，他才会同意。", pinyin: "Chúfēi nǐ qīnzì qù, tā cái huì tóngyì.", en: "He'll only agree if you go in person." },
           { zh: "除非有特殊情况，否则不能退票。", pinyin: "Chúfēi yǒu tèshū qíngkuàng, fǒuzé bù néng tuì piào.", en: "Unless there are special circumstances, tickets can't be refunded." },
@@ -169,7 +170,7 @@ export const ZH_GUIDES_B2: ZhGrammarGuide[] = [
         wrong: "万一你考上了大学，我们就去旅行。",
         right: "要是你考上了大学，我们就去旅行。",
         rightPinyin: "Yàoshi nǐ kǎoshàngle dàxué, wǒmen jiù qù lǚxíng.",
-        why: "万一 is for something unlikely and unwelcome. For a hoped-for event, use 要是 or 如果.",
+        why: "万一 is for something unlikely and almost always unwelcome ('if, heaven forbid'), so with good news it sounds like a joke or a worry. For an ordinary hoped-for event, use 要是 or 如果, like English plain 'if'.",
       },
       {
         wrong: "你快点儿，我们否则会迟到。",
@@ -181,7 +182,7 @@ export const ZH_GUIDES_B2: ZhGrammarGuide[] = [
     faqs: [
       {
         q: "What's the difference between 万一 and 如果?",
-        a: "如果 is a neutral 'if'. 万一 suggests the thing is unlikely and you'd rather it didn't happen: it's the word for precautions and worries.",
+        a: "如果 is a neutral 'if'. 万一 suggests the thing is unlikely and you'd rather it didn't happen: it's the word for precautions and worries. With good news (万一我中了大奖) it's a joke about an unlikely stroke of luck, not a plan.",
       },
       {
         q: "Is 要不然 the same as 不然?",
@@ -368,7 +369,7 @@ export const ZH_GUIDES_B2: ZhGrammarGuide[] = [
         heading: "差点儿 and 几乎",
         body: [
           "差点儿 (chàdiǎnr) means 'nearly (but didn't)'. With something unwanted, 差点儿 and 差点儿没 mean the same: 我差点儿摔倒 = 我差点儿没摔倒 (I nearly fell over). With something wanted, 差点儿没 means it only just happened: 我差点儿没赶上 (I only just caught it).",
-          "几乎 (jīhū) means 'almost' for amounts and extent: 几乎所有人 (almost everyone), 几乎每天 (almost every day). It's neutral and common in writing. 差点儿 is about an event that nearly happened; 几乎 can do that too but is more formal.",
+          "几乎 (jīhū) means 'almost' for amounts and extent: 几乎所有人都 (almost everyone), 几乎每天都 (almost every day), 几乎没有 (hardly any). With 所有 and 每, keep 都 before the verb. 差点儿 is about an event that nearly happened; 几乎 can describe a near miss in writing (他几乎摔倒), but in speech use 差点儿 for near misses and 几乎 for amounts.",
         ],
         examples: [
           { zh: "我今天差点儿迟到。", pinyin: "Wǒ jīntiān chàdiǎnr chídào.", en: "I was nearly late today." },
@@ -412,10 +413,10 @@ export const ZH_GUIDES_B2: ZhGrammarGuide[] = [
         why: "竟然 is an adverb and normally follows the subject. 没想到 is the one that can open the sentence.",
       },
       {
-        wrong: "几乎我所有的朋友都结婚了。",
-        right: "我几乎所有的朋友都结婚了。",
-        rightPinyin: "Wǒ jīhū suǒyǒu de péngyou dōu jié hūn le.",
-        why: "几乎 sits right before what it modifies (所有的朋友) or before the verb, not at the head of the sentence like English 'almost'.",
+        wrong: "几乎所有的朋友结婚了。",
+        right: "几乎所有的朋友都结婚了。",
+        rightPinyin: "Jīhū suǒyǒu de péngyou dōu jié hūn le.",
+        why: "With 几乎所有 or 几乎每, 都 still has to come right before the verb. English 'almost all my friends are married' needs no extra word, so 都 is the word learners drop. 几乎 itself goes before 所有 / 每 or before the verb.",
       },
     ],
     faqs: [
@@ -490,7 +491,7 @@ export const ZH_GUIDES_B2: ZhGrammarGuide[] = [
         wrong: "我不能吃这么多菜。",
         right: "这么多菜，我吃不了。",
         rightPinyin: "Zhème duō cài, wǒ chī bu liǎo.",
-        why: "不能 suggests you aren't allowed. When the problem is quantity or capacity, Chinese uses the potential complement.",
+        why: "不能 sounds as if something stops you: a rule, your health, your diet. When the problem is simply too much for you (quantity or capacity), Chinese uses the potential complement 吃不了, where English just says 'can't'.",
       },
       {
         wrong: "这个包太贵了，我不买得起。",
@@ -586,7 +587,7 @@ export const ZH_GUIDES_B2: ZhGrammarGuide[] = [
     faqs: [
       {
         q: "Why are 出来 and 起来 sometimes split, as in 说不出话来 and 下起雨来?",
-        a: "With an object, a compound directional complement splits around it: 说出 + 话 + 来. The same happens with 下起雨来.",
+        a: "An object usually goes between the two parts of a compound directional complement: 说出 + 话 + 来, 下起 + 雨 + 来. With a place object it must (走进教室来, never 走进来教室); with an ordinary object the split is the usual spoken form, though 拿出来一本书 also occurs.",
       },
       {
         q: "Can I use 着 once instead of 着着?",
@@ -784,7 +785,7 @@ export const ZH_GUIDES_B2: ZhGrammarGuide[] = [
         heading: "随着 and gradual change",
         body: [
           "随着 (suízhe) + noun phrase means 'as, along with': it introduces a background change that causes another. 随着经济的发展，人们的生活越来越好 (as the economy develops, people's lives keep improving). It goes at the start of the sentence and is followed by a noun phrase, often with 的.",
-          "逐渐 (zhújiàn) and 渐渐 (jiànjiàn) both mean 'gradually' for natural change; 渐渐 is more literary and descriptive. 逐步 (zhúbù) is 'step by step' for planned change: 逐步推广 (roll out gradually). 迅速 (xùnsù) is 'rapidly'.",
+          "逐渐 (zhújiàn) and 渐渐 (jiànjiàn) both mean 'gradually' for natural change; 逐渐 is a little more formal and typical of reports, while 渐渐 is descriptive and typical of stories (天渐渐黑了). 逐步 (zhúbù) is 'step by step' for planned change: 逐步推广 (roll out gradually). 迅速 (xùnsù) is 'rapidly'.",
         ],
         examples: [
           { zh: "随着手机的普及，网上购物越来越方便。", pinyin: "Suízhe shǒujī de pǔjí, wǎngshàng gòuwù yuè lái yuè fāngbiàn.", en: "As smartphones have spread, online shopping has become more and more convenient." },
@@ -806,7 +807,7 @@ export const ZH_GUIDES_B2: ZhGrammarGuide[] = [
       {
         heading: "倍, 分之, exact comparisons and location",
         body: [
-          "倍 (bèi) means 'times': 是…的两倍 (twice as much as). Careful: strictly, 增加了两倍 means 'increased by two times', i.e. it is now three times as much; 增加到两倍 means 'doubled'.",
+          "倍 (bèi) means 'times': 是…的两倍 (twice as much as). With a change verb, 了 means 'by' and 到 means 'to': 增加了一倍 (grew by one times) and 增加到两倍 (grew to twice the size) both mean 'doubled', so strictly 增加了两倍 means it is now three times as much. Everyday speech blurs this, but reports and exams keep it.",
           "Fractions put the whole first: 三分之一 (sān fēn zhī yī, one third), 百分之二十 (twenty per cent).",
           "With 比, the exact difference goes after the adjective: 他比我高五厘米 (he's five centimetres taller than me), 贵一倍 (twice the price).",
           "位于 (wèiyú, be located at) and 距离 (jùlí, distance from) are written words for describing places: 学校位于市中心，距离火车站两公里.",
@@ -878,6 +879,7 @@ export const ZH_GUIDES_B2: ZhGrammarGuide[] = [
         heading: "尤其 and 特别是: especially",
         body: [
           "尤其 (yóuqí) singles out one member of a group: 我喜欢水果，尤其是苹果 (I like fruit, especially apples). Before a noun use 尤其是; before an adjective or verb, 尤其 alone: 今天尤其冷. 特别是 (tèbié shì) is a spoken equivalent before nouns.",
+          "Unlike English 'Especially in winter, it's cold', Chinese doesn't open a sentence with 尤其: give the general statement first, then single one out (这里很冷，尤其是冬天). A subject goes before 尤其 when it is followed by a verb or adjective: 他的中文很好，口语尤其好.",
         ],
         examples: [
           { zh: "学汉语很有意思，尤其是学成语。", pinyin: "Xué Hànyǔ hěn yǒu yìsi, yóuqí shì xué chéngyǔ.", en: "Learning Chinese is great fun, especially learning idioms." },
@@ -901,7 +903,7 @@ export const ZH_GUIDES_B2: ZhGrammarGuide[] = [
         wrong: "我喜欢运动，尤其游泳。",
         right: "我喜欢运动，尤其是游泳。",
         rightPinyin: "Wǒ xǐhuan yùndòng, yóuqí shì yóu yǒng.",
-        why: "Before a noun or a named activity, use 尤其是. 尤其 alone goes before an adjective or verb phrase.",
+        why: "When you single out one member of a group (a noun or a named activity like 游泳), the standard form is 尤其是, like English 'especially' + noun. 尤其 alone is an adverb before an adjective or verb phrase: 尤其喜欢游泳, 今天尤其冷.",
       },
       {
         wrong: "他似的很累。",
@@ -913,7 +915,7 @@ export const ZH_GUIDES_B2: ZhGrammarGuide[] = [
         wrong: "甚至他不知道。",
         right: "连他都不知道。",
         rightPinyin: "Lián tā dōu bù zhīdào.",
-        why: "To highlight one surprising person inside a sentence, use 连…都. 甚至 adds a further step after something else has been said.",
+        why: "To highlight one surprising person inside a sentence, use 连…都 (English just stresses 'even he'). 甚至 adds a further step after something else has been said, and usually still takes 都 / 也: 大家都不知道，甚至连他都不知道.",
       },
     ],
     faqs: [
@@ -944,7 +946,7 @@ export const ZH_GUIDES_B2: ZhGrammarGuide[] = [
       {
         heading: "叫 and 让 passives",
         body: [
-          "叫 (jiào) and 让 (ràng) can replace 被 in speech: 我的自行车叫人偷了 (my bike got stolen). Like 被, they describe something unwelcome. Unlike 被, they need an agent after them: you can say 被偷了 but not 叫偷了. If you don't know who did it, use 人 (someone).",
+          "叫 (jiào) and 让 (ràng) can replace 被 in speech: 我的自行车叫人偷了 (my bike got stolen). Like 被, they usually describe something unwelcome. Unlike 被, they need an agent after them: you can say 被偷了 but not 叫偷了. If you don't know who did it, use 人 (someone).",
           "The verb usually has a result or 了 after it, as with 被.",
         ],
         table: {

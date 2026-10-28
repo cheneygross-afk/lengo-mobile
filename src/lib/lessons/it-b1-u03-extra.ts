@@ -44,7 +44,7 @@ export const IT_B1_U03_EXTRA: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'm happy [to help you]. (polite)", sentence: "Sono felice di ___.", answer: "aiutarLa", altAnswers: ["aiutarla"], explanation: "Formal \"La\" attached to the infinitive." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[We can't go there] on Sunday.", sentence: "___ domenica.", answer: "Non possiamo andarci", altAnswers: ["Non ci possiamo andare"], explanation: "\"Ci\" with a modal." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I called her [to thank her].", sentence: "L'ho chiamata per ___.", answer: "ringraziarla", explanation: "\"Ringraziare\" + \"la\"." },
-      { type: "word-order", prompt: "Put the words in order to say: I want to talk to you about it.", words: ["Voglio", "parlartene."], translation: "I want to talk to you about it.", altOrders: [["parlartene.", "Voglio"]], explanation: "\"Parlare\" + \"te\" + \"ne\" = \"parlartene\"." },
+      { type: "word-order", prompt: "Put the words in order to say: I want to talk to you about it tomorrow.", words: ["Voglio", "parlartene", "domani."], translation: "I want to talk to you about it tomorrow.", altOrders: [["Domani", "voglio", "parlartene."]], explanation: "\"Parlare\" + \"te\" + \"ne\" = \"parlartene\"." },
       { type: "listen-choose", audio: "Non lo so spiegare.", question: "What does it mean?", options: ["I don't know how to explain it.", "I can't explain it to him.", "He doesn't know how to explain it.", "I don't want to explain it."], correctIndex: 0, explanation: "\"So\" = I know (how to)." },
       { type: "dictation", audio: "Puoi mandarmelo stasera? Devo leggerlo domani.", explanation: "\"Mandarmelo\", \"leggerlo\": attached." },
       { type: "speak", text: "È bello rivederti! Posso offrirti un caffè?", prompt: "Say it in Italian: It's lovely to see you again! Can I buy you a coffee?", tip: "ri-ve-DER-ti, of-FRIR-ti.", explanation: "Two infinitives with \"ti\"." },
@@ -68,7 +68,7 @@ export const IT_B1_U03_EXTRA: Lesson[] = [
         examples: [
           { es: "Aiutami a portare le valigie.", en: "Help me carry the suitcases." },
           { es: "Aiutiamoli, sono in difficoltà.", en: "Let's help them, they're struggling." },
-          { es: "Mi aiuti, per cortesia.", en: "Could you help me, please. (polite)" },
+          { es: "Mi aiuti, per cortesia.", en: "Help me, please. (polite)" },
           { es: "Vacci tu, io sono stanca.", en: "You go, I'm tired." },
         ],
         checkpoint: [
@@ -88,7 +88,7 @@ export const IT_B1_U03_EXTRA: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Let's tell her tonight.", answer: "Diciamoglielo stasera.", altAnswers: ["Diciamolo a lei stasera."], explanation: "Noi + \"glielo\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The window? [Close it], please! (to a friend)", sentence: "La finestra? ___, per favore!", answer: "Chiudila", explanation: "Tu + \"la\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The window? [Close it], please. (polite)", sentence: "La finestra? ___, per favore.", answer: "La chiuda", explanation: "Lei: in front." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Do me] a favour! (to a friend)", sentence: "___ un favore!", answer: "Fammi", explanation: "\"Fa'\" + \"mi\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Do me] a favor! (to a friend)", sentence: "___ un favore!", answer: "Fammi", explanation: "\"Fa'\" + \"mi\"." },
       { type: "word-order", prompt: "Put the words in order to say: Sit down and tell me everything. (to a friend)", words: ["Siediti", "e", "raccontami", "tutto."], translation: "Sit down and tell me everything.", explanation: "Two tu commands with attached pronouns." },
       { type: "listen-choose", audio: "Si accomodi e mi dica tutto.", question: "Who is the speaker talking to?", options: ["one person, formally", "a friend", "a group", "a child"], correctIndex: 0, explanation: "\"Si accomodi\", \"mi dica\": Lei commands." },
       { type: "dictation", audio: "Dammi le chiavi e dimmi dove vai.", explanation: "\"Dammi\", \"dimmi\": double m." },
@@ -112,7 +112,7 @@ export const IT_B1_U03_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "La vedo spesso.", en: "I see her often." },
-          { es: "Vedendola, l'ho riconosciuta subito.", en: "When I saw her, I recognised her immediately." },
+          { es: "Vedendola, l'ho riconosciuta subito.", en: "When I saw her, I recognized her immediately." },
           { es: "La sto aspettando.", en: "I'm waiting for her." },
           { es: "Aspettala!", en: "Wait for her!" },
         ],
@@ -123,7 +123,7 @@ export const IT_B1_U03_EXTRA: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "When I saw her, I recognised her immediately.", answer: "Vedendola, l'ho riconosciuta subito.", altAnswers: ["Quando l'ho vista, l'ho riconosciuta subito."], explanation: "Gerund + \"la\"; agreement in \"riconosciuta\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "When I saw her, I recognized her immediately.", answer: "Vedendola, l'ho riconosciuta subito.", altAnswers: ["Quando l'ho vista, l'ho riconosciuta subito."], explanation: "Gerund + \"la\"; agreement in \"riconosciuta\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'd like to invite you to dinner. (polite)", answer: "Vorrei invitarLa a cena.", altAnswers: ["Vorrei invitarla a cena.", "La vorrei invitare a cena."], explanation: "Formal \"La\" with a modal." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Your cousins? Invite them! (to a friend)", answer: "I tuoi cugini? Invitali!", explanation: "Tu + \"li\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm thinking about it, I'll let you know.", answer: "Ci sto pensando, ti faccio sapere.", altAnswers: ["Ci penso, ti faccio sapere.", "Ci sto pensando, te lo faccio sapere."], explanation: "\"Ci\" before \"sto\"; \"ti faccio sapere\" = I'll let you know." },

@@ -19,13 +19,16 @@ export const IT_B2_U09: Lesson[] = [
           "English says after eating or after having eaten. Italian needs the past infinitive after \"dopo\": \"avere\" or \"essere\" + past participle. \"Dopo aver mangiato, siamo usciti\" (after eating, we went out). \"Dopo mangiare\" is heard in some regions, but in standard Italian it's \"dopo aver mangiato\".",
           "Choose the auxiliary exactly as in the passato prossimo. Verbs with \"essere\" agree with the subject: \"Dopo essere arrivata, Giulia ha chiamato sua madre\"; \"Dopo essere partiti, si sono accorti di aver dimenticato il passaporto\". \"Avere\" usually drops its final -e: \"aver mangiato\".",
           "The implicit clause only works when both actions have the same subject. If they don't, use an explicit clause: \"Dopo che tu sei partito, ho pianto\".",
+          "Don't mirror \"dopo\" with \"prima di\". Since the action after \"prima di\" hasn't happened yet, it takes the simple infinitive: \"Prima di partire, ho chiuso il gas\", never \"prima di essere partito\". For short everyday sequences Italians often skip the verb altogether: \"dopo cena\", \"dopo la doccia\", \"dopo il lavoro\".",
+          "Object pronouns attach to the auxiliary, and the participle agrees with \"lo / la / li / le\" as usual: \"Dopo averla vista, ho capito\", \"Dopo averne parlato con lei, ho deciso\". You'll practice this in detail in lesson 4.",
         ],
         examples: [
           { es: "Dopo aver mangiato, siamo usciti.", en: "After eating, we went out." },
           { es: "Dopo essere arrivata, Giulia ha chiamato sua madre.", en: "After arriving, Giulia called her mother." },
           { es: "Dopo aver letto la lettera, è scoppiato a piangere.", en: "After reading the letter, he burst into tears." },
-          { es: "Dopo essere tornati dalle vacanze, abbiamo ridipinto la casa.", en: "After getting back from holiday, we repainted the house." },
+          { es: "Dopo essere tornati dalle vacanze, abbiamo ridipinto la casa.", en: "After getting back from vacation, we repainted the house." },
           { es: "Dopo che tu sei partito, ho pianto.", en: "After you left, I cried." },
+          { es: "Prima di partire, ho chiuso il gas.", en: "Before leaving, I turned off the gas." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "After eating, we went out.", answer: "Dopo aver mangiato, siamo usciti.", altAnswers: ["Dopo avere mangiato, siamo usciti.", "Dopo aver mangiato, siamo uscite.", "Dopo aver mangiato siamo usciti."], explanation: "\"Dopo\" + past infinitive." },
@@ -40,13 +43,13 @@ export const IT_B2_U09: Lesson[] = [
         ],
         examples: [
           { es: "Dopo essersi laureata, si è trasferita a Londra.", en: "After graduating, she moved to London." },
-          { es: "Dopo essermi svegliato, ho fatto una doccia.", en: "After waking up, I had a shower." },
+          { es: "Dopo essermi svegliato, ho fatto una doccia.", en: "After waking up, I took a shower." },
           { es: "Dopo esserci riposati, siamo ripartiti.", en: "After resting, we set off again." },
           { es: "Dopo essersi salutati, sono tornati a casa.", en: "After saying goodbye to each other, they went home." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "After graduating, she moved to London.", answer: "Dopo essersi laureata, si è trasferita a Londra.", explanation: "\"Essersi\" + agreement." },
-          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[After waking up], I had a shower. (a man speaking)", sentence: "___, ho fatto una doccia.", answer: "Dopo essermi svegliato", explanation: "Reflexive pronoun matches \"io\"." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[After waking up], I took a shower. (a man speaking)", sentence: "___, ho fatto una doccia.", answer: "Dopo essermi svegliato", explanation: "Reflexive pronoun matches \"io\"." },
         ],
       },
       {
@@ -62,20 +65,20 @@ export const IT_B2_U09: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He was fined for exceeding the speed limit.", answer: "È stato multato per aver superato il limite di velocità.", altAnswers: ["È stato multato per avere superato il limite di velocità.", "L'hanno multato per aver superato il limite di velocità."], explanation: "\"Per\" + past infinitive = because he had." },
-          { type: "listen-choose", audio: "Mi dispiace di non essere venuto alla tua festa.", question: "What is the speaker apologising for?", options: ["Missing the party.", "Arriving late.", "Forgetting a present.", "Leaving early."], correctIndex: 0, explanation: "\"Di non essere venuto\"." },
+          { type: "listen-choose", audio: "Mi dispiace di non essere venuto alla tua festa.", question: "What is the speaker apologizing for?", options: ["Missing the party.", "Arriving late.", "Forgetting a present.", "Leaving early."], correctIndex: 0, explanation: "\"Di non essere venuto\"." },
         ],
       },
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "After reading the letter, he burst into tears.", answer: "Dopo aver letto la lettera, è scoppiato a piangere.", altAnswers: ["Dopo avere letto la lettera, è scoppiato a piangere.", "Dopo aver letto la lettera, scoppiò a piangere."], explanation: "\"Aver letto\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "After getting back from holiday, we repainted the house.", answer: "Dopo essere tornati dalle vacanze, abbiamo ridipinto la casa.", altAnswers: ["Dopo essere rientrati dalle vacanze, abbiamo ridipinto la casa.", "Dopo essere tornate dalle vacanze, abbiamo ridipinto la casa."], explanation: "\"Tornare\" → \"essere tornati\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "After getting back from vacation, we repainted the house.", answer: "Dopo essere tornati dalle vacanze, abbiamo ridipinto la casa.", altAnswers: ["Dopo essere rientrati dalle vacanze, abbiamo ridipinto la casa.", "Dopo essere tornate dalle vacanze, abbiamo ridipinto la casa."], explanation: "\"Tornare\" → \"essere tornati\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I think I've understood.", answer: "Credo di aver capito.", altAnswers: ["Credo di avere capito.", "Penso di aver capito."], explanation: "\"Di\" + past infinitive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He left without saying goodbye to anyone.", answer: "È uscito senza aver salutato nessuno.", altAnswers: ["È uscito senza salutare nessuno.", "Se n'è andato senza aver salutato nessuno.", "Se n'è andato senza salutare nessuno."], explanation: "\"Senza\" + infinitive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "After resting, we set off again.", answer: "Dopo esserci riposati, siamo ripartiti.", altAnswers: ["Dopo esserci riposate, siamo ripartite.", "Dopo esserci riposati, siamo ripartiti di nuovo."], explanation: "\"Esserci riposati\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm sorry I didn't come. (a woman speaking)", answer: "Mi dispiace di non essere venuta.", altAnswers: ["Mi dispiace non essere venuta.", "Scusa se non sono venuta."], explanation: "Agreement: \"venuta\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "After finishing university, Marco found work in Turin.", answer: "Dopo aver finito l'università, Marco ha trovato lavoro a Torino.", altAnswers: ["Dopo avere finito l'università, Marco ha trovato lavoro a Torino.", "Marco, dopo aver finito l'università, ha trovato lavoro a Torino."], explanation: "Same subject: Marco." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She thanked us for having helped her.", answer: "Ci ha ringraziato per averla aiutata.", altAnswers: ["Ci ha ringraziati per averla aiutata.", "Ci ha ringraziato di averla aiutata."], explanation: "\"Ringraziare per\" + past infinitive." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[After going out], they realised it was raining.", sentence: "___, si sono accorti che pioveva.", answer: "Dopo essere usciti", explanation: "\"Uscire\" → \"essere\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[After going out], they realized it was raining.", sentence: "___, si sono accorti che pioveva.", answer: "Dopo essere usciti", explanation: "\"Uscire\" → \"essere\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'm glad [I met] you. (to a friend)", sentence: "Sono contento ___ conosciuto.", answer: "di averti", explanation: "Pronoun on \"avere\": \"averti conosciuto\"." },
       { type: "word-order", prompt: "Put the words in order to say: After having dinner, we watched a film.", words: ["Dopo", "aver", "cenato,", "abbiamo", "visto", "un", "film."], translation: "After having dinner, we watched a film.", explanation: "\"Dopo aver cenato\"." },
       { type: "dictation", audio: "Dopo essersi laureata, si è trasferita a Milano.", explanation: "Reflexive past infinitive." },
@@ -101,12 +104,12 @@ export const IT_B2_U09: Lesson[] = [
           { es: "Avendo finito il lavoro, sono andato a casa.", en: "Having finished work, I went home." },
           { es: "Essendo arrivati tardi, abbiamo perso l'inizio.", en: "Having arrived late, we missed the beginning." },
           { es: "Essendo partita all'alba, è arrivata per pranzo.", en: "Having left at dawn, she arrived in time for lunch." },
-          { es: "Essendosi alzata presto, era stanchissima.", en: "Having got up early, she was exhausted." },
+          { es: "Essendosi alzata presto, era stanchissima.", en: "Having gotten up early, she was exhausted." },
           { es: "Siccome avevo finito, sono andato a casa.", en: "As I'd finished, I went home. (conversation)" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Having arrived late, we missed the beginning.", answer: "Essendo arrivati tardi, abbiamo perso l'inizio.", altAnswers: ["Essendo arrivate tardi, abbiamo perso l'inizio.", "Essendo arrivati in ritardo, abbiamo perso l'inizio."], explanation: "\"Essendo\" + agreement." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Having got up early, she was exhausted.", answer: "Essendosi alzata presto, era stanchissima.", altAnswers: ["Essendosi svegliata presto, era stanchissima."], explanation: "Reflexive: \"essendosi\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Having gotten up early, she was exhausted.", answer: "Essendosi alzata presto, era stanchissima.", altAnswers: ["Essendosi svegliata presto, era stanchissima."], explanation: "Reflexive: \"essendosi\"." },
           { type: "multiple-choice", question: "Having left at dawn, she arrived in time for lunch. Which is correct?", options: ["Essendo partita all'alba, è arrivata per pranzo.", "Avendo partita all'alba, è arrivata per pranzo.", "Avendo partito all'alba, è arrivata per pranzo.", "Essendo partito all'alba, è arrivata per pranzo."], correctIndex: 0, explanation: "\"Partire\" → \"essendo\" + feminine agreement." },
         ],
       },
@@ -115,12 +118,15 @@ export const IT_B2_U09: Lesson[] = [
         body: [
           "The past gerund often explains why: \"Non avendo studiato, non ha passato l'esame\" (not having studied, he failed the exam). \"Non\" goes before \"avendo\" or \"essendo\".",
           "It can also simply mean once or after: \"Avendo ricevuto la Sua email, Le rispondo subito\" (having received your email, I'm replying straight away), a common formula in formal letters.",
+          "The gerund has no subject of its own, so it must share the subject of the main clause. \"Essendo arrivato tardi, il professore mi ha rimproverato\" means the professor was late, which is probably not what you meant. If you were late, say \"Siccome ero arrivato tardi, il professore mi ha rimproverato\".",
+          "Pronouns attach to \"avendo\" or \"essendo\": \"Avendolo già visto, sono rimasto a casa\", \"Essendosene andati tutti, abbiamo chiuso\". \"Dopo aver\" only says that one thing came first. The past gerund usually adds a reason as well, so use it when you mean because, not just after.",
         ],
         examples: [
           { es: "Non avendo studiato, non ha passato l'esame.", en: "Not having studied, he failed the exam." },
           { es: "Avendo ricevuto la Sua email, Le rispondo subito.", en: "Having received your email, I'm replying straight away." },
           { es: "Avendo vissuto a Tokyo, parla un po' di giapponese.", en: "Having lived in Tokyo, she speaks a bit of Japanese." },
           { es: "Non essendo mai stato a Roma, non conosco la città.", en: "Never having been to Rome, I don't know the city." },
+          { es: "Siccome ero arrivato tardi, il professore mi ha rimproverato.", en: "Since I'd arrived late, the professor scolded me." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Not having studied, he failed the exam.", answer: "Non avendo studiato, non ha passato l'esame.", altAnswers: ["Non avendo studiato, non ha superato l'esame.", "Non avendo studiato, è stato bocciato all'esame."], explanation: "\"Non avendo\"." },
@@ -135,7 +141,7 @@ export const IT_B2_U09: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Having lost the keys, they had to call a locksmith.", answer: "Avendo perso le chiavi, hanno dovuto chiamare un fabbro.", altAnswers: ["Avendo perso le chiavi, hanno dovuto chiamare il fabbro."], explanation: "Cause: \"avendo perso\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Having gone to bed late, I overslept.", answer: "Essendo andato a letto tardi, non mi sono svegliato in tempo.", altAnswers: ["Essendo andata a letto tardi, non mi sono svegliata in tempo.", "Essendo andato a letto tardi, ho dormito troppo.", "Essendo andata a letto tardi, ho dormito troppo."], explanation: "\"Andare\" → \"essendo andato\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Having already seen the film, she stayed at home.", answer: "Avendo già visto il film, è rimasta a casa.", altAnswers: ["Avendo già visto il film, è restata a casa."], explanation: "\"Già\" between \"avendo\" and the participle." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Having fallen ill, the singer cancelled the concert.", answer: "Essendosi ammalata, la cantante ha annullato il concerto.", altAnswers: ["Essendosi ammalato, il cantante ha annullato il concerto.", "Essendosi ammalata, la cantante ha cancellato il concerto."], explanation: "\"Ammalarsi\" → \"essendosi ammalata\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Having fallen ill, the singer canceled the concert.", answer: "Essendosi ammalata, la cantante ha annullato il concerto.", altAnswers: ["Essendosi ammalato, il cantante ha annullato il concerto.", "Essendosi ammalata, la cantante ha cancellato il concerto."], explanation: "\"Ammalarsi\" → \"essendosi ammalata\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Having missed] the train, we took a taxi.", sentence: "___ il treno, abbiamo preso un taxi.", answer: "Avendo perso", explanation: "\"Perdere il treno\" with \"avere\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Having arrived] first, the girls chose the best seats.", sentence: "___ per prime, le ragazze hanno scelto i posti migliori.", answer: "Essendo arrivate", explanation: "Feminine plural agreement." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Not having understood], he asked again.", sentence: "___, ha chiesto di nuovo.", answer: "Non avendo capito", explanation: "\"Non\" before \"avendo\"." },
@@ -158,6 +164,8 @@ export const IT_B2_U09: Lesson[] = [
           "The absolute participle is the most compact way to say once something was done: \"Finita la cena, siamo andati a ballare\" (once dinner was over, we went dancing). There's no auxiliary at all.",
           "With verbs that take \"avere\", the participle agrees with the thing that was done, which follows it: \"Finita la cena\", \"Presa la decisione\", \"Letti i documenti\", \"Pagate le bollette\". Think of it as a short passive: the dinner (having been) finished.",
           "\"Una volta\" can come first to underline that one thing came after the other: \"Una volta finiti i compiti, puoi uscire\".",
+          "Unlike the gerund, the absolute participle can have its own subject, different from the main clause: \"Finita la cena, gli ospiti se ne andarono\" (the dinner finished; the guests left). The participle normally comes first and its noun follows.",
+          "Some absolute participles have become fixed expressions you'll hear every day: \"detto questo\" (having said that), \"fatto sta che\" (the fact is), \"visto che\" and \"dato che\" (given that), \"considerato che\" (considering that).",
         ],
         examples: [
           { es: "Finita la cena, siamo andati a ballare.", en: "Once dinner was over, we went dancing." },
@@ -165,6 +173,7 @@ export const IT_B2_U09: Lesson[] = [
           { es: "Letti i documenti, l'avvocato ha firmato.", en: "Having read the documents, the lawyer signed." },
           { es: "Pagate le bollette, ci restano cento euro.", en: "Once the bills are paid, we have a hundred euros left." },
           { es: "Una volta finiti i compiti, puoi uscire.", en: "Once your homework is done, you can go out." },
+          { es: "Detto questo, la decisione spetta a te.", en: "Having said that, the decision is up to you." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Once dinner was over, we went dancing.", answer: "Finita la cena, siamo andati a ballare.", altAnswers: ["Finita la cena, siamo andate a ballare.", "Dopo cena, siamo andati a ballare.", "Finita la cena siamo andati a ballare."], explanation: "\"Finita\" agrees with \"la cena\"." },
@@ -176,12 +185,12 @@ export const IT_B2_U09: Lesson[] = [
         heading: "Intransitive verbs: agree with the subject",
         body: [
           "With verbs that take \"essere\", the participle agrees with the subject of the sentence: \"Arrivati in albergo, ci siamo riposati\" (once we got to the hotel, we rested); \"Partita lei, la casa sembrava vuota\" (once she'd left, the house seemed empty).",
-          "Reflexive verbs drop the pronoun: \"Alzatasi\" is very literary; in modern Italian say \"Una volta alzata, ha fatto colazione\" or use \"dopo essersi alzata\".",
+          "With reflexive verbs the pronoun attaches to the participle: \"alzatasi\", \"laureatasi\". You'll find this in biographies and formal prose (\"Laureatasi in medicina nel 1896, ...\"), but it sounds stiff in speech. In everyday Italian, drop the pronoun after \"una volta\" (\"Una volta alzata, ha fatto colazione\") or use \"dopo essersi alzata\".",
         ],
         examples: [
           { es: "Arrivati in albergo, ci siamo riposati.", en: "Once we got to the hotel, we rested." },
           { es: "Partita lei, la casa sembrava vuota.", en: "Once she'd left, the house seemed empty." },
-          { es: "Usciti dal cinema, siamo andati a mangiare una pizza.", en: "After coming out of the cinema, we went for a pizza." },
+          { es: "Usciti dal cinema, siamo andati a mangiare una pizza.", en: "After coming out of the movie theater, we went for a pizza." },
           { es: "Tornata a casa, ha trovato una sorpresa.", en: "Back home, she found a surprise." },
         ],
         checkpoint: [
@@ -194,9 +203,9 @@ export const IT_B2_U09: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Once the decision was made, he never looked back.", answer: "Presa la decisione, non si è più voltato indietro.", altAnswers: ["Presa la decisione, non è più tornato indietro.", "Presa la decisione, non si è mai voltato indietro."], explanation: "\"Presa\" agrees with \"la decisione\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Having read the documents, the lawyer signed.", answer: "Letti i documenti, l'avvocato ha firmato.", altAnswers: ["Letti i documenti, l'avvocata ha firmato.", "Dopo aver letto i documenti, l'avvocato ha firmato."], explanation: "\"Letti\" agrees with \"i documenti\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Once she'd left, the house seemed empty.", answer: "Partita lei, la casa sembrava vuota.", altAnswers: ["Andata via lei, la casa sembrava vuota.", "Una volta partita lei, la casa sembrava vuota."], explanation: "Subject \"lei\" after the participle." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "After coming out of the cinema, we went for a pizza.", answer: "Usciti dal cinema, siamo andati a mangiare una pizza.", altAnswers: ["Usciti dal cinema, siamo andati a prendere una pizza.", "Uscite dal cinema, siamo andate a mangiare una pizza."], explanation: "\"Usciti\" agrees with \"noi\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "After coming out of the movie theater, we went for a pizza.", answer: "Usciti dal cinema, siamo andati a mangiare una pizza.", altAnswers: ["Usciti dal cinema, siamo andati a prendere una pizza.", "Uscite dal cinema, siamo andate a mangiare una pizza."], explanation: "\"Usciti\" agrees with \"noi\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Once the bills are paid, we have a hundred euros left.", answer: "Pagate le bollette, ci restano cento euro.", altAnswers: ["Pagate le bollette, ci rimangono cento euro.", "Una volta pagate le bollette, ci restano cento euro."], explanation: "\"Pagate\" agrees with \"le bollette\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Once the table was laid, we called the children.", answer: "Apparecchiata la tavola, abbiamo chiamato i bambini.", altAnswers: ["Una volta apparecchiata la tavola, abbiamo chiamato i bambini.", "Apparecchiato il tavolo, abbiamo chiamato i bambini."], explanation: "\"Apparecchiare la tavola\" = to lay the table." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Once the table was set, we called the children.", answer: "Apparecchiata la tavola, abbiamo chiamato i bambini.", altAnswers: ["Una volta apparecchiata la tavola, abbiamo chiamato i bambini.", "Apparecchiato il tavolo, abbiamo chiamato i bambini."], explanation: "\"Apparecchiare la tavola\" = to set the table." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Back home, she found a surprise.", answer: "Tornata a casa, ha trovato una sorpresa.", altAnswers: ["Rientrata a casa, ha trovato una sorpresa.", "Tornata a casa, trovò una sorpresa."], explanation: "\"Tornata\" agrees with \"lei\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Once the work was finished], the workers left.", sentence: "___, gli operai sono andati via.", answer: "Finiti i lavori", altAnswers: ["Finito il lavoro", "Terminati i lavori"], explanation: "Agree with \"i lavori\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Once the photos were chosen], we printed them.", sentence: "___, le abbiamo stampate.", answer: "Scelte le foto", altAnswers: ["Una volta scelte le foto"], explanation: "\"Scelte\": feminine plural." },
@@ -238,12 +247,15 @@ export const IT_B2_U09: Lesson[] = [
         body: [
           "With the absolute participle, the pronoun attaches to the participle itself, and the participle agrees with it: \"Vistala, l'ho salutata\" (having seen her, I greeted her), \"Salutatili, siamo partiti\". This is formal and written; in conversation you'd say \"Quando l'ho vista, ...\".",
           "With \"ne\" and reflexives it gets literary fast (\"andatosene\"), so prefer \"dopo essersene andato\" or an explicit clause.",
+          "\"Ne\" works like the other pronouns and makes the participle agree with the quantity: \"Dopo averne parlato\", \"Dopo averne mangiati tre, ho smesso\" (of the cookies). With a modal verb, the pronoun can attach to the infinitive or go before the auxiliary, as in the passato prossimo: \"avrei dovuto dirglielo\" or \"gliel'avrei dovuto dire\".",
+          "Watch the spelling of combined pronouns: \"glielo\", \"gliela\", \"glieli\", \"gliele\" and \"gliene\" are always one word, whether attached (\"averglielo detto\") or standing alone (\"gliel'ho detto\").",
         ],
         examples: [
           { es: "Vistala, l'ho salutata.", en: "Having seen her, I greeted her." },
           { es: "Salutatili, siamo partiti.", en: "Having said goodbye to them, we left." },
           { es: "Firmatolo, ha restituito il contratto.", en: "Having signed it, he returned the contract." },
           { es: "Dopo essersene andato, ha mandato un messaggio.", en: "After leaving, he sent a message." },
+          { es: "Dopo averne parlato con lei, ho deciso di restare.", en: "After talking about it with her, I decided to stay." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian (written style).", source: "Having said goodbye to them, we left.", answer: "Salutatili, siamo partiti.", altAnswers: ["Salutatili, siamo partite.", "Dopo averli salutati, siamo partiti.", "Salutatili, ce ne siamo andati."], explanation: "\"Salutati\" + \"li\"." },
@@ -256,7 +268,7 @@ export const IT_B2_U09: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Having already told him, I didn't want to repeat myself.", answer: "Avendoglielo già detto, non volevo ripetermi.", altAnswers: ["Avendoglielo già detto, non volevo ripetere."], explanation: "\"Gli\" + \"lo\" → \"glielo\" on \"avendo\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "After going there once, we never went back.", answer: "Dopo esserci andati una volta, non ci siamo più tornati.", altAnswers: ["Dopo esserci andate una volta, non ci siamo più tornate.", "Dopo esserci stati una volta, non ci siamo più tornati."], explanation: "\"Ci\" on \"essere\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Having read them already, I gave the books back.", answer: "Avendoli già letti, ho restituito i libri.", altAnswers: ["Avendoli già letti, ho ridato i libri.", "Avendo già letto i libri, li ho restituiti."], explanation: "\"Li\" + agreement: \"letti\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "After buying it, she realised it was too big. (the dress)", answer: "Dopo averlo comprato, si è accorta che era troppo grande.", altAnswers: ["Dopo averlo comprato, si è resa conto che era troppo grande."], explanation: "\"Il vestito\" → \"lo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "After buying it, she realized it was too big. (the dress)", answer: "Dopo averlo comprato, si è accorta che era troppo grande.", altAnswers: ["Dopo averlo comprato, si è resa conto che era troppo grande."], explanation: "\"Il vestito\" → \"lo\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Having given it to her, he left. (the present)", answer: "Avendoglielo dato, se n'è andato.", altAnswers: ["Dopo averglielo dato, se n'è andato.", "Avendoglielo dato, è andato via."], explanation: "\"Le\" + \"lo\" → \"glielo\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "After speaking to us, the director left the room.", answer: "Dopo averci parlato, il direttore ha lasciato la sala.", altAnswers: ["Dopo averci parlato, la direttrice ha lasciato la sala.", "Dopo averci parlato, il direttore è uscito dalla sala."], explanation: "\"Ci\" (to us) on \"avere\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[After waking them up], I made breakfast. (the children)", sentence: "___, ho preparato la colazione.", answer: "Dopo averli svegliati", explanation: "\"Li\" + \"svegliati\"." },
@@ -283,7 +295,7 @@ export const IT_B2_U09: Lesson[] = [
         ],
         examples: [
           { es: "Dopo che abbiamo pranzato, siamo partiti. → Dopo aver pranzato, siamo partiti.", en: "After we had lunch, we left. → After having lunch, we left." },
-          { es: "Siccome era arrivata tardi, si è scusata. → Essendo arrivata tardi, si è scusata.", en: "Since she'd arrived late, she apologised. → Having arrived late, she apologised." },
+          { es: "Siccome era arrivata tardi, si è scusata. → Essendo arrivata tardi, si è scusata.", en: "Since she'd arrived late, she apologized. → Having arrived late, she apologized." },
           { es: "Quando ha chiuso il negozio, è andato a casa. → Chiuso il negozio, è andato a casa.", en: "When he'd closed the shop, he went home. → Once the shop was closed, he went home." },
           { es: "Dopo che si è vestita, è uscita. → Dopo essersi vestita, è uscita.", en: "After she got dressed, she went out. → After getting dressed, she went out." },
         ],
@@ -294,23 +306,23 @@ export const IT_B2_U09: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Rewrite \"Siccome era arrivata tardi, si è scusata\" with a past gerund.", source: "Having arrived late, she apologised.", answer: "Essendo arrivata tardi, si è scusata.", altAnswers: ["Essendo arrivata in ritardo, si è scusata."], explanation: "\"Essendo arrivata\"." },
+      { type: "translate", direction: "en-es", prompt: "Rewrite \"Siccome era arrivata tardi, si è scusata\" with a past gerund.", source: "Having arrived late, she apologized.", answer: "Essendo arrivata tardi, si è scusata.", altAnswers: ["Essendo arrivata in ritardo, si è scusata."], explanation: "\"Essendo arrivata\"." },
       { type: "translate", direction: "en-es", prompt: "Rewrite \"Dopo che si è vestita, è uscita\" with a past infinitive.", source: "After getting dressed, she went out.", answer: "Dopo essersi vestita, è uscita.", explanation: "\"Essersi vestita\"." },
       { type: "translate", direction: "en-es", prompt: "Rewrite \"Dopo che ho letto il libro, ho visto il film\" with a past infinitive.", source: "After reading the book, I saw the film.", answer: "Dopo aver letto il libro, ho visto il film.", altAnswers: ["Dopo avere letto il libro, ho visto il film."], explanation: "\"Aver letto\"." },
       { type: "translate", direction: "en-es", prompt: "Rewrite \"Quando abbiamo venduto la casa, ci siamo trasferiti\" with an absolute participle.", source: "Once the house was sold, we moved.", answer: "Venduta la casa, ci siamo trasferiti.", altAnswers: ["Una volta venduta la casa, ci siamo trasferiti.", "Venduta la casa, ci siamo trasferite."], explanation: "\"Venduta\" agrees with \"la casa\"." },
       { type: "translate", direction: "en-es", prompt: "Rewrite \"Siccome non aveva dormito, era nervoso\" with a past gerund.", source: "Not having slept, he was edgy.", answer: "Non avendo dormito, era nervoso.", explanation: "\"Non avendo dormito\"." },
       { type: "translate", direction: "en-es", prompt: "Rewrite \"Quando sono arrivati a Napoli, hanno mangiato una pizza\" with an absolute participle.", source: "Once in Naples, they had a pizza.", answer: "Arrivati a Napoli, hanno mangiato una pizza.", altAnswers: ["Una volta arrivati a Napoli, hanno mangiato una pizza.", "Arrivate a Napoli, hanno mangiato una pizza."], explanation: "\"Arrivati\" agrees with the subject." },
-      { type: "translate", direction: "en-es", prompt: "Rewrite \"Dopo che ci siamo salutati, sono partita\" with a past infinitive.", source: "After we'd said goodbye, I left.", answer: "Dopo esserci salutati, sono partita.", altAnswers: ["Dopo esserci salutate, sono partita.", "Dopo esserci salutati, me ne sono andata."], explanation: "Same group \"noi\" in both clauses: reciprocal \"esserci salutati\"." },
+      { type: "translate", direction: "en-es", prompt: "Rewrite \"Dopo che ci siamo salutati, siamo partiti\" with a past infinitive.", source: "After saying goodbye to each other, we left.", answer: "Dopo esserci salutati, siamo partiti.", altAnswers: ["Dopo esserci salutate, siamo partite.", "Dopo esserci salutati, ce ne siamo andati."], explanation: "Same subject \"noi\" in both clauses: reciprocal \"esserci salutati\"." },
       { type: "translate", direction: "en-es", prompt: "Rewrite \"Siccome aveva perso il lavoro, è tornato al paese\" with a past gerund.", source: "Having lost his job, he went back to his home town.", answer: "Avendo perso il lavoro, è tornato al paese.", altAnswers: ["Avendo perso il lavoro, è tornato al suo paese.", "Avendo perso il lavoro, è tornato in paese."], explanation: "\"Avendo perso\"." },
       { type: "translate", direction: "en-es", prompt: "Rewrite \"Quando hanno spento le luci, è cominciato il film\" with an absolute participle.", source: "Once the lights were off, the film began.", answer: "Spente le luci, è cominciato il film.", altAnswers: ["Spente le luci, il film è cominciato.", "Spente le luci, è iniziato il film.", "Una volta spente le luci, è cominciato il film."], explanation: "\"Spente\" agrees with \"le luci\"." },
       { type: "translate", direction: "en-es", prompt: "Rewrite \"Dopo che l'ho conosciuta, ho cambiato idea\" with a past infinitive.", source: "After meeting her, I changed my mind.", answer: "Dopo averla conosciuta, ho cambiato idea.", explanation: "\"Averla conosciuta\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Once the exam was over], we celebrated.", sentence: "___, abbiamo festeggiato.", answer: "Finito l'esame", altAnswers: ["Superato l'esame", "Terminato l'esame"], explanation: "Agree with \"l'esame\" (masculine)." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Having worked] all night, she went to bed.", sentence: "___ tutta la notte, è andata a letto.", answer: "Avendo lavorato", explanation: "Past gerund with \"avere\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[After falling], the child started crying.", sentence: "___, il bambino ha cominciato a piangere.", answer: "Dopo essere caduto", altAnswers: ["Essendo caduto", "Caduto"], explanation: "\"Cadere\" takes \"essere\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Once the letters were written], I posted them.", sentence: "___, le ho spedite.", answer: "Scritte le lettere", altAnswers: ["Una volta scritte le lettere"], explanation: "\"Scritte\" agrees with \"le lettere\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Once the letters were written], I mailed them.", sentence: "___, le ho spedite.", answer: "Scritte le lettere", altAnswers: ["Una volta scritte le lettere"], explanation: "\"Scritte\" agrees with \"le lettere\"." },
       { type: "multiple-choice", question: "\"Siccome eravamo partiti presto, siamo arrivati per pranzo\" with a past gerund is ...", options: ["Essendo partiti presto, siamo arrivati per pranzo.", "Avendo partiti presto, siamo arrivati per pranzo.", "Avendo partito presto, siamo arrivati per pranzo.", "Essendo partito presto, siamo arrivati per pranzo."], correctIndex: 0, explanation: "\"Partire\" → \"essendo\" + plural." },
-      { type: "listen-choose", audio: "Venduta la casa, ci siamo trasferiti in campagna.", question: "What did they do after selling the house?", options: ["Moved to the countryside.", "Bought a flat in town.", "Went on a long trip.", "Moved abroad."], correctIndex: 0, explanation: "\"In campagna\"." },
-      { type: "speak", text: "Finito il lavoro, sono passata in farmacia e, avendo dimenticato la ricetta, sono dovuta tornare a casa.", prompt: "Say it in Italian (a woman speaking): Once work was over, I stopped at the chemist's and, having forgotten the prescription, I had to go back home.", tip: "\"Sono dovuta tornare\": modal + \"essere\" verb.", explanation: "Participle and gerund in one story." },
+      { type: "listen-choose", audio: "Venduta la casa, ci siamo trasferiti in campagna.", question: "What did they do after selling the house?", options: ["Moved to the countryside.", "Bought an apartment in town.", "Went on a long trip.", "Moved abroad."], correctIndex: 0, explanation: "\"In campagna\"." },
+      { type: "speak", text: "Finito il lavoro, sono passata in farmacia e, avendo dimenticato la ricetta, sono dovuta tornare a casa.", prompt: "Say it in Italian (a woman speaking): Once work was over, I stopped at the pharmacy and, having forgotten the prescription, I had to go back home.", tip: "\"Sono dovuta tornare\": modal + \"essere\" verb.", explanation: "Participle and gerund in one story." },
     ],
   },
   {
@@ -415,7 +427,7 @@ export const IT_B2_U09: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Before leaving], check the windows.", sentence: "___, controlla le finestre.", answer: "Prima di uscire", altAnswers: ["Prima di partire", "Prima di andare via"], explanation: "\"Prima di\" + simple infinitive: correct." },
       { type: "multi-select", question: "Which sentences are correct?", options: ["Dopo aver cenato, abbiamo guardato la tv.", "Dopo cenare, abbiamo guardato la tv.", "Essendo arrivati tardi, abbiamo cenato da soli.", "Avendo arrivati tardi, abbiamo cenato da soli."], correctIndexes: [0, 2], explanation: "Past infinitive after \"dopo\"; \"essere\" for \"arrivare\"." },
       { type: "dictation", audio: "Dopo essere arrivato, ha chiamato subito sua madre.", explanation: "\"Essere arrivato\"." },
-      { type: "speak", text: "Dopo essere arrivata in ufficio e dopo aver acceso il computer, mi sono accorta di aver dimenticato gli occhiali.", prompt: "Say it in Italian (a woman speaking): After arriving at the office and switching on the computer, I realised I'd forgotten my glasses.", tip: "\"Essere arrivata\", \"aver acceso\", \"aver dimenticato\".", explanation: "Three past infinitives, two auxiliaries." },
+      { type: "speak", text: "Dopo essere arrivata in ufficio e dopo aver acceso il computer, mi sono accorta di aver dimenticato gli occhiali.", prompt: "Say it in Italian (a woman speaking): After arriving at the office and switching on the computer, I realized I'd forgotten my glasses.", tip: "\"Essere arrivata\", \"aver acceso\", \"aver dimenticato\".", explanation: "Three past infinitives, two auxiliaries." },
     ],
   },
   {
@@ -429,7 +441,7 @@ export const IT_B2_U09: Lesson[] = [
       {
         heading: "Early years",
         body: [
-          "Biographies in encyclopaedias and school books pack a lot of information into each sentence. Implicit clauses help: they say what happened first without a new subject and a new conjugated verb. This text is about Maria Montessori (1870-1952), the doctor and educator whose method is used in schools all over the world.",
+          "Biographies in encyclopedias and school books pack a lot of information into each sentence. Implicit clauses help: they say what happened first without a new subject and a new conjugated verb. This text is about Maria Montessori (1870-1952), the doctor and educator whose method is used in schools all over the world.",
           "The text uses the passato remoto, the usual tense for a historical narrative. Look for the implicit clauses at the start of each sentence.",
         ],
         examples: [
@@ -446,7 +458,7 @@ export const IT_B2_U09: Lesson[] = [
       {
         heading: "The Casa dei Bambini and beyond",
         body: [
-          "The second part follows her work from Rome to the rest of the world. Notice \"aperta la prima Casa dei Bambini\" (agreeing with \"Casa\") and \"essendo ormai famosa\" (a present gerund of cause).",
+          "The second part follows her work from Rome to the rest of the world. Notice \"aperta la prima Casa dei Bambini\" (agreeing with \"Casa\") and, in the exercises, \"essendo diventata famosa\" (a past gerund of cause).",
         ],
         examples: [
           { es: "Aperta la prima Casa dei Bambini nel quartiere di San Lorenzo a Roma, nel 1907, cominciò a sperimentare il suo metodo.", en: "Having opened the first Casa dei Bambini in the San Lorenzo district of Rome in 1907, she began to test her method." },
@@ -473,7 +485,7 @@ export const IT_B2_U09: Lesson[] = [
       { type: "matching", instructions: "Match each implicit form to its type.", pairs: [{ left: "dopo aver studiato", right: "past infinitive" }, { left: "avendo lavorato", right: "past gerund" }, { left: "aperta la scuola", right: "absolute participle" }, { left: "nata nel 1870", right: "participle of an essere verb" }], explanation: "Four ways to compress a clause." },
       { type: "multiple-choice", question: "Why is it \"Aperta la prima Casa dei Bambini\" and not \"Aperto\"?", options: ["It agrees with \"Casa\" (feminine).", "Montessori was a woman.", "It's the passato remoto.", "All participles end in -a."], correctIndex: 0, explanation: "Transitive verb → agrees with the object." },
       { type: "dictation", audio: "Dopo aver studiato a lungo, elaborò un metodo tutto suo.", explanation: "\"Elaborò\": passato remoto." },
-      { type: "speak", text: "Laureatasi in medicina, Maria Montessori lavorò con i bambini e, aperta la prima Casa dei Bambini, sperimentò il suo metodo.", prompt: "Summarise the biography aloud: after graduating in medicine, she worked with children and, having opened the first Casa dei Bambini, tested her method.", tip: "A slight pause after each implicit clause.", explanation: "Two absolute participles in one sentence." },
+      { type: "speak", text: "Laureatasi in medicina, Maria Montessori lavorò con i bambini e, aperta la prima Casa dei Bambini, sperimentò il suo metodo.", prompt: "Summarize the biography aloud: after graduating in medicine, she worked with children and, having opened the first Casa dei Bambini, tested her method.", tip: "A slight pause after each implicit clause.", explanation: "Two absolute participles in one sentence." },
     ],
   },
   {
@@ -487,7 +499,7 @@ export const IT_B2_U09: Lesson[] = [
       {
         heading: "What a day!",
         body: [
-          "Francesca gets home late and tells her flatmate Andrea about her day. In conversation, Italians use \"dopo aver\" and \"una volta\" + participle a lot, but rarely the past gerund, which sounds bookish in speech. Listen for how she compresses the sequence of events.",
+          "Francesca gets home late and tells her roommate Andrea about her day. In conversation, Italians use \"dopo aver\" and \"una volta\" + participle a lot, but rarely the past gerund, which sounds bookish in speech. Listen for how she compresses the sequence of events.",
         ],
         examples: [
           { es: "Allora, com'è andata la giornata?", en: "So, how did your day go?" },

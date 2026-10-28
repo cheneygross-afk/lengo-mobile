@@ -143,7 +143,7 @@ export const IT_CULTURE_U01: Lesson[] = [
       {
         heading: "Emilia-Romagna and the Po",
         body: [
-          "\"Emilia-Romagna\" is two historic areas joined by a hyphen. Emilia is food and engines: \"Parma\" for ham and Parmigiano, \"Modena\" for balsamic vinegar, and the \"Motor Valley\" around Maranello, home of Ferrari. Romagna is the Adriatic beach strip around \"Rimini\". Its capoluogo, \"Bologna\", has the oldest university in the Western world, founded in 1088.",
+          "\"Emilia-Romagna\" is two historic areas joined by a hyphen. Emilia is food and engines: \"Parma\" for ham and Parmigiano, \"Modena\" for balsamic vinegar, and the \"Motor Valley\" around Maranello, home of Ferrari. Romagna, toward the Adriatic, includes the beach strip around \"Rimini\". Its capoluogo, \"Bologna\", has the oldest university in the Western world, founded in 1088.",
           "Most of the North shares one great plain, \"la Pianura Padana\", named after \"il Po\", Italy's longest river (652 km). It's flat, foggy in winter, crowded with industry and farms, and it produces a large share of the country's wealth.",
         ],
         examples: [
@@ -153,7 +153,7 @@ export const IT_CULTURE_U01: Lesson[] = [
           { es: "Andiamo al mare a Rimini.", en: "We're going to the beach in Rimini." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The Po is the longest river in Italy.", answer: "Il Po è il fiume più lungo d'Italia.", altAnswers: ["Il Po è il fiume più lungo dell'Italia."], explanation: "The superlative uses \"il più\" + adjective + \"di\": \"il fiume più lungo d'Italia\", never \"in Italia\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The Po is the longest river in Italy.", answer: "Il Po è il fiume più lungo d'Italia.", altAnswers: ["Il Po è il fiume più lungo dell'Italia."], explanation: "The superlative uses \"il più\" + adjective + \"di\": \"il fiume più lungo d'Italia\", rather than \"in Italia\"." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "In winter there's often [fog].", sentence: "D'inverno c'è spesso la ___.", answer: "nebbia", explanation: "\"La nebbia\" (fog), with double b, is the trademark of the Po Valley." },
         ],
       },
@@ -188,7 +188,7 @@ export const IT_CULTURE_U01: Lesson[] = [
     slug: "culture-the-centre",
     level: "IT-Culture",
     number: 3,
-    title: "The Centre",
+    title: "The Center",
     summary: "Meet the four regions of central Italy: Tuscany, green Umbria, the Marche and Lazio with Rome.",
     duration: "15 min",
     sections: [
@@ -212,7 +212,7 @@ export const IT_CULTURE_U01: Lesson[] = [
       {
         heading: "Umbria e Marche",
         body: [
-          "\"Umbria\" calls itself \"il cuore verde d'Italia\", the green heart of Italy; it's the only region of the peninsula with no coast. Here are \"Assisi\", the town of Saint Francis, hilltop \"Orvieto\", and \"Perugia\", whose Università per Stranieri has taught Italian to foreigners since 1925.",
+          "\"Umbria\" calls itself \"il cuore verde d'Italia\", the green heart of Italy; it's the only region of the peninsula with no coast. Here are \"Assisi\", the town of Saint Francis, hilltop \"Orvieto\", and \"Perugia\", whose Università per Stranieri has taught Italian to foreigners for about a hundred years.",
           "\"Le Marche\" is plural: \"le Marche sono belle\". The region runs from the Apennines down to the Adriatic. \"Urbino\", a Renaissance court town, is where Raphael was born; \"Recanati\" is the hometown of the poet Giacomo Leopardi; \"Pesaro\" gave the world Rossini. The people are \"marchigiani\".",
         ],
         examples: [
@@ -231,8 +231,8 @@ export const IT_CULTURE_U01: Lesson[] = [
       {
         heading: "Lazio e Roma",
         body: [
-          "\"Il Lazio\" is dominated by \"Roma\", the capital, with almost three million people. Inside Rome lies a separate state, the Vatican City, the smallest in the world. People from Rome are \"romani\"; people from the rest of the region are \"laziali\", a word that also names fans of the football club Lazio.",
-          "Outside Rome the region has the lakes of the Castelli Romani, the villas of \"Tivoli\", medieval \"Viterbo\" and long beaches where Romans spend their summer weekends. Romans speak with a recognizable drawl and love to shorten words: \"Annamo!\" for \"Andiamo!\". Treat it as color; write the standard.",
+          "\"Il Lazio\" is dominated by \"Roma\", the capital, with almost three million people. Inside Rome lies a separate state, the Vatican City, the smallest in the world. People from Rome are \"romani\"; people from the rest of the region are \"laziali\", a word that also names fans of the soccer club Lazio.",
+          "Outside Rome the region has the lakes of the Castelli Romani, the villas of \"Tivoli\", medieval \"Viterbo\" and long beaches where Romans spend their summer weekends. Romans have a recognizable accent and their own forms: \"Annamo!\" for \"Andiamo!\". Treat it as color; write the standard.",
         ],
         examples: [
           { es: "Il Vaticano è uno Stato dentro Roma.", en: "The Vatican is a state inside Rome." },
@@ -305,7 +305,7 @@ export const IT_CULTURE_U01: Lesson[] = [
         examples: [
           { es: "Napoli è la terza città d'Italia.", en: "Naples is Italy's third-largest city." },
           { es: "Il Vesuvio ha distrutto Pompei nel 79 dopo Cristo.", en: "Vesuvius destroyed Pompeii in 79 AD." },
-          { es: "Abbiamo fatto un giro in barca a Capri.", en: "We took a boat trip at Capri." },
+          { es: "Abbiamo fatto un giro in barca a Capri.", en: "We took a boat trip in Capri." },
           { es: "La mozzarella di bufala viene dalla Campania.", en: "Buffalo mozzarella comes from Campania." },
         ],
         checkpoint: [
@@ -358,7 +358,7 @@ export const IT_CULTURE_U01: Lesson[] = [
         heading: "Sicilia",
         body: [
           "\"La Sicilia\" is the largest island in the Mediterranean and a museum of invaders: Greeks, Romans, Arabs, Normans and Spaniards all left their mark. You see Greek temples at \"Agrigento\" and \"Siracusa\", and Arab-Norman churches in \"Palermo\". Above \"Catania\" rises \"l'Etna\", the highest active volcano in Europe, which erupts often and mostly harmlessly.",
-          "There's no bridge yet across the Strait of Messina: trains and cars cross to the mainland by ferry. Sicilians, like Sardinians, often call the mainland \"il continente\", as if it were another land.",
+          "There's no bridge across the Strait of Messina (one has been planned and argued about for decades): trains and cars cross to the mainland by ferry. Sicilians, like Sardinians, often call the mainland \"il continente\", as if it were another land.",
         ],
         examples: [
           { es: "La Sicilia è l'isola più grande del Mediterraneo.", en: "Sicily is the largest island in the Mediterranean." },
@@ -460,7 +460,7 @@ export const IT_CULTURE_U01: Lesson[] = [
         heading: "Famous rivalries",
         body: [
           "Some rivalries are centuries old. \"Pisa\" and \"Livorno\", twenty kilometers apart on the Tuscan coast, still trade insults; a traditional Livorno saying goes \"Meglio un morto in casa che un pisano all'uscio\", better a death in the house than a Pisan at the door. \"Firenze\" and \"Siena\" fought real wars in the Middle Ages, and \"Bergamo\" and \"Brescia\" compete over everything.",
-          "In Sicily, Palermo and Catania can't even agree on a word: the fried rice ball is \"l'arancina\" in Palermo and \"l'arancino\" in Catania. Most of this is played for laughs, but in football it can turn serious.",
+          "In Sicily, Palermo and Catania can't even agree on a word: the fried rice ball is \"l'arancina\" in Palermo and \"l'arancino\" in Catania. Most of this is played for laughs, but in soccer it can turn serious.",
         ],
         examples: [
           { es: "Tra Pisa e Livorno c'è una rivalità antica.", en: "There's an old rivalry between Pisa and Livorno." },
@@ -638,13 +638,13 @@ export const IT_CULTURE_U01: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "My grandmother was from a village in Calabria.", answer: "Mia nonna era di un paese in Calabria.", altAnswers: ["Mia nonna era di un paesino in Calabria.", "Mia nonna veniva da un paese in Calabria.", "Mia nonna era di un paese della Calabria."], explanation: "The imperfetto \"era\" describes a past background fact." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "My aunt lives near there.", answer: "Mia zia abita lì vicino.", altAnswers: ["Mia zia vive lì vicino.", "Mia zia abita vicino a lì."], explanation: "No article with \"mia\" + singular relative." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "My aunt lives near there.", answer: "Mia zia abita lì vicino.", altAnswers: ["Mia zia vive lì vicino."], explanation: "No article with \"mia\" + singular relative." },
         ],
       },
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm from a small town near Lecce.", answer: "Sono di un paesino vicino a Lecce.", altAnswers: ["Sono di un piccolo paese vicino a Lecce.", "Io sono di un paesino vicino a Lecce."], explanation: "\"Paesino\" = small town; \"vicino a\" + city." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I moved up to Milan two years ago.", answer: "Sono salito a Milano due anni fa.", altAnswers: ["Sono salita a Milano due anni fa."], explanation: "\"Salire\" takes \"essere\"; \"fa\" = ago, after the time." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I moved up to Milan two years ago.", answer: "Sono salito a Milano due anni fa.", altAnswers: ["Sono salita a Milano due anni fa.", "Due anni fa sono salito a Milano.", "Due anni fa sono salita a Milano."], explanation: "\"Salire\" takes \"essere\"; \"fa\" = ago, after the time." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "What a small world!", answer: "Che piccolo il mondo!", altAnswers: ["Com'è piccolo il mondo!", "Il mondo è piccolo!"], explanation: "\"Che\" + adjective for an exclamation." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Are you an out-of-town student?", answer: "Sei fuorisede?", altAnswers: ["Sei uno studente fuorisede?", "Sei una studentessa fuorisede?", "Tu sei fuorisede?"], explanation: "\"Fuorisede\" doesn't change for gender or number." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Then you know Otranto!", answer: "Allora conosci Otranto!", altAnswers: ["Allora conosce Otranto!", "Quindi conosci Otranto!"], explanation: "\"Conoscere\" for places and people you know." },

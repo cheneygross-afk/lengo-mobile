@@ -10,21 +10,22 @@ export const IT_B1_U30: Lesson[] = [
     level: "IT-B1",
     number: 1,
     title: "Raccolta Differenziata",
-    summary: "Sort your rubbish the Italian way: umido, plastica, carta, vetro, indifferenziato, the collection calendar and va buttato nel ...",
+    summary: "Sort your trash the Italian way: umido, plastica, carta, vetro, indifferenziato, the collection calendar and va buttato nel ...",
     duration: "17 min",
     sections: [
       {
         heading: "Five bins",
         body: [
-          "In most Italian towns, rubbish is sorted: this is \"la raccolta differenziata\". The usual categories are \"l'umido\" or \"l'organico\" (food scraps), \"la plastica\" (often with metal cans: \"plastica e metalli\"), \"la carta\" (paper and cardboard, \"il cartone\"), \"il vetro\" (glass) and \"l'indifferenziato\" or \"il secco\" (everything else).",
-          "The rules change from one \"comune\" (town council) to another, so always check the local guide. Bulky items, \"gli ingombranti\", go to \"l'isola ecologica\" (the recycling centre).",
+          "In most Italian towns, household waste is sorted: this is \"la raccolta differenziata\". The usual categories are \"l'umido\" or \"l'organico\" (food scraps), \"la plastica\" (often with metal cans: \"plastica e metalli\"), \"la carta\" (paper and cardboard, \"il cartone\"), \"il vetro\" (glass) and \"l'indifferenziato\" or \"il secco\" (everything else).",
+          "The rules change from one \"comune\" (municipality) to another, so always check the local guide. Bulky items, \"gli ingombranti\", go to \"l'isola ecologica\" (the recycling center).",
+          "Borderline items are where towns disagree: milk cartons go with paper in some places and with plastic in others, and bin colors vary too. Most comuni publish \"il rifiutario\" (an A-to-Z list of items) or an app; use it rather than guessing. The waste tax, \"la TARI\", is paid by whoever lives in the home, and the amount depends on the comune, so check the current rules there.",
         ],
         examples: [
           { es: "Le bucce di patata vanno nell'umido.", en: "Potato peelings go in the food waste." },
           { es: "Le lattine vanno con la plastica.", en: "Cans go with the plastic." },
           { es: "Il cartone della pizza pulito va nella carta.", en: "A clean pizza box goes in the paper." },
           { es: "I bicchieri rotti vanno nell'indifferenziato, non nel vetro.", en: "Broken drinking glasses go in general waste, not the glass bin." },
-          { es: "Il vecchio divano va portato all'isola ecologica.", en: "The old sofa has to be taken to the recycling centre." },
+          { es: "Il vecchio divano va portato all'isola ecologica.", en: "The old sofa has to be taken to the recycling center." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Cans go with the plastic.", answer: "Le lattine vanno con la plastica.", altAnswers: ["Le lattine vanno nella plastica."], explanation: "\"Andare\" = to belong, go (in a bin)." },
@@ -34,18 +35,18 @@ export const IT_B1_U30: Lesson[] = [
       {
         heading: "Va buttato nel ...",
         body: [
-          "\"Andare\" + past participle means must be: \"Il vetro va buttato nella campana verde\" (glass must be thrown in the green bank). The participle agrees with the subject: \"la carta va piegata\", \"le bottiglie vanno sciacquate\" (must be rinsed), \"i giornali vanno legati\".",
+          "\"Andare\" + past participle means must be: \"Il vetro va buttato nella campana verde\" (glass must be thrown in the green glass bin). The participle agrees with the subject: \"la carta va piegata\", \"le bottiglie vanno sciacquate\" (must be rinsed), \"i giornali vanno legati\".",
           "Use \"nel / nella / nell'\" with the bin: \"nel vetro\", \"nella plastica\", \"nell'umido\".",
         ],
         examples: [
-          { es: "Il vetro va buttato nella campana verde.", en: "Glass must go in the green bottle bank." },
+          { es: "Il vetro va buttato nella campana verde.", en: "Glass must go in the green glass bin." },
           { es: "Le bottiglie vanno sciacquate.", en: "Bottles must be rinsed." },
           { es: "La carta va piegata.", en: "Paper must be folded." },
           { es: "Le pile vanno portate negli appositi contenitori.", en: "Batteries must be taken to the special containers." },
         ],
         checkpoint: [
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Bottles [must be rinsed].", sentence: "Le bottiglie ___.", answer: "vanno sciacquate", explanation: "\"Andare\" + participle; feminine plural." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Glass must go in the green bottle bank.", answer: "Il vetro va buttato nella campana verde.", altAnswers: ["Il vetro va messo nella campana verde.", "Il vetro si butta nella campana verde."], explanation: "\"Va buttato\": masculine singular." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Glass must go in the green glass bin.", answer: "Il vetro va buttato nella campana verde.", altAnswers: ["Il vetro va messo nella campana verde.", "Il vetro si butta nella campana verde."], explanation: "\"Va buttato\": masculine singular." },
         ],
       },
       {
@@ -58,7 +59,7 @@ export const IT_B1_U30: Lesson[] = [
           { es: "Il martedì passano a prendere la carta.", en: "On Tuesdays they collect the paper." },
           { es: "Il sacchetto va esposto dopo le otto di sera.", en: "The bag must be put out after eight in the evening." },
           { es: "Qui c'è la raccolta porta a porta.", en: "There's door-to-door collection here." },
-          { es: "Se sbagli bidone, si rischia una multa.", en: "If you use the wrong bin, you risk a fine." },
+          { es: "Se si sbaglia bidone, si rischia una multa.", en: "If you use the wrong bin, you risk a fine." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "On Tuesdays they collect the paper.", answer: "Il martedì passano a prendere la carta.", altAnswers: ["Il martedì raccolgono la carta.", "Di martedì passano a prendere la carta."], explanation: "\"Il martedì\" = every Tuesday." },
@@ -70,7 +71,7 @@ export const IT_B1_U30: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Where does the plastic go?", answer: "Dove va la plastica?", altAnswers: ["La plastica dove va?", "Dove si butta la plastica?"], explanation: "\"Andare\" for where things belong." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Coffee grounds go in the food waste.", answer: "I fondi di caffè vanno nell'umido.", altAnswers: ["I fondi del caffè vanno nell'umido.", "I fondi di caffè vanno nell'organico."], explanation: "\"Nell'\" before a vowel." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Newspapers must be tied together.", answer: "I giornali vanno legati.", altAnswers: ["I giornali vanno legati insieme."], explanation: "Masculine plural: \"vanno legati\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The old fridge must be taken to the recycling centre.", answer: "Il vecchio frigorifero va portato all'isola ecologica.", altAnswers: ["Il vecchio frigo va portato all'isola ecologica."], explanation: "\"Va portato\": must be taken." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The old fridge must be taken to the recycling center.", answer: "Il vecchio frigorifero va portato all'isola ecologica.", altAnswers: ["Il vecchio frigo va portato all'isola ecologica."], explanation: "\"Va portato\": must be taken." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Here there's door-to-door collection.", answer: "Qui c'è la raccolta porta a porta.", altAnswers: ["Qui fanno la raccolta porta a porta."], explanation: "\"Porta a porta\" = door-to-door." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Broken glasses go in general waste.", answer: "I bicchieri rotti vanno nell'indifferenziato.", altAnswers: ["I bicchieri rotti vanno nel secco."], explanation: "Drinking glasses are not bottle glass." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Paper [must be folded].", sentence: "La carta ___.", answer: "va piegata", explanation: "Feminine singular." },
@@ -78,7 +79,7 @@ export const IT_B1_U30: Lesson[] = [
       { type: "word-order", prompt: "Put the words in order to say: The bag must be put out after eight.", words: ["Il", "sacchetto", "va", "esposto", "dopo", "le", "otto."], translation: "The bag must be put out after eight.", explanation: "\"Va esposto\"." },
       { type: "multiple-choice", question: "An empty jam jar goes in ...", options: ["il vetro", "l'umido", "la carta", "gli ingombranti"], correctIndex: 0, explanation: "Glass jars go in \"il vetro\"." },
       { type: "dictation", audio: "Le bottiglie di plastica vanno schiacciate prima di buttarle.", explanation: "\"Schiacciare\" = to squash." },
-      { type: "speak", text: "Scusi, dove va buttato il vetro? E quando passano a prendere la plastica?", prompt: "Ask a neighbour (formal): Excuse me, where does glass go? And when do they collect plastic?", tip: "\"Scusi\" for a neighbour you don't know well.", explanation: "\"Va buttato\" and \"passano a prendere\"." },
+      { type: "speak", text: "Scusi, dove va buttato il vetro? E quando passano a prendere la plastica?", prompt: "Ask a neighbor (formal): Excuse me, where does glass go? And when do they collect plastic?", tip: "\"Scusi\" for a neighbor you don't know well.", explanation: "\"Va buttato\" and \"passano a prendere\"." },
     ],
   },
   {
@@ -86,16 +87,16 @@ export const IT_B1_U30: Lesson[] = [
     level: "IT-B1",
     number: 2,
     title: "Getting Around the City",
-    summary: "Talk about the ZTL, public transport, the metro, bike sharing, traffic and parking in an Italian city.",
+    summary: "Talk about the ZTL, public transportation, the metro, bike sharing, traffic and parking in an Italian city.",
     duration: "17 min",
     sections: [
       {
         heading: "The ZTL",
         body: [
-          "Most Italian historic centres are a \"ZTL\" (zona a traffico limitato): only residents and authorised vehicles can drive in at certain hours. At the entrance, \"il varco\" (the gate) has a camera and a sign: \"varco attivo\" (active: don't enter) or \"varco non attivo\" (you can enter). Enter when it's active and you get \"una multa\" (a fine) by post, sometimes months later.",
+          "Most Italian historic centers are a \"ZTL\" (zona a traffico limitato): only residents and authorized vehicles can drive in at certain hours. At the entrance, \"il varco\" (the gate) has a camera and a sign: \"varco attivo\" (active: don't enter) or \"varco non attivo\" (you can enter). Enter when it's active and you get \"una multa\" (a fine) by mail, sometimes months later.",
         ],
         examples: [
-          { es: "Il centro è zona a traffico limitato.", en: "The centre is a limited traffic zone." },
+          { es: "Il centro è zona a traffico limitato.", en: "The center is a limited traffic zone." },
           { es: "Attenzione, il varco è attivo.", en: "Careful, the gate is active." },
           { es: "Mi è arrivata una multa per la ZTL.", en: "I got a fine for the ZTL." },
           { es: "I residenti hanno il permesso per entrare.", en: "Residents have a permit to enter." },
@@ -106,32 +107,33 @@ export const IT_B1_U30: Lesson[] = [
         ],
       },
       {
-        heading: "Public transport",
+        heading: "Public transportation",
         body: [
           "\"I mezzi pubblici\" (or just \"i mezzi\") are buses, trams and the metro: \"Vado al lavoro con i mezzi\". Buy \"il biglietto\" before you board and \"convalidare\" it (validate it; people also say \"timbrare\"). Regular users have \"l'abbonamento\" (a pass). \"Il bike sharing\" and \"i monopattini\" (e-scooters) are common in big cities.",
+          "Travel without a validated ticket and \"il controllore\" (the inspector) can fine you on the spot; saying you didn't know rarely helps. Public transportation strikes, \"gli scioperi\", are announced in advance and usually keep \"fasce di garanzia\" (guaranteed service hours), so check the local transit company's website. Ticket rules differ by city (some let you tap a bank card at the validator), so check before you travel.",
         ],
         examples: [
-          { es: "Vado al lavoro con i mezzi.", en: "I go to work by public transport." },
+          { es: "Vado al lavoro con i mezzi.", en: "I go to work by public transportation." },
           { es: "Il biglietto va convalidato appena sali.", en: "The ticket must be validated as soon as you get on." },
           { es: "Ho l'abbonamento mensile.", en: "I have a monthly pass." },
           { es: "La metro passa ogni cinque minuti.", en: "The metro comes every five minutes." },
           { es: "Prendo una bici del bike sharing.", en: "I'll take a bike-sharing bike." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I go to work by public transport.", answer: "Vado al lavoro con i mezzi.", altAnswers: ["Vado a lavoro con i mezzi.", "Vado al lavoro con i mezzi pubblici.", "Vado a lavoro con i mezzi pubblici."], explanation: "\"Con i mezzi\" = by public transport." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I go to work by public transportation.", answer: "Vado al lavoro con i mezzi.", altAnswers: ["Vado a lavoro con i mezzi.", "Vado al lavoro con i mezzi pubblici.", "Vado a lavoro con i mezzi pubblici."], explanation: "\"Con i mezzi\" = by public transportation." },
           { type: "listen-choose", audio: "La metro passa ogni cinque minuti.", question: "How often does the metro come?", options: ["every five minutes", "every fifteen minutes", "at five o'clock", "five times a day"], correctIndex: 0, explanation: "\"Ogni cinque minuti\"." },
         ],
       },
       {
         heading: "Traffic and parking",
         body: [
-          "\"C'è traffico\" or \"c'è un ingorgo\" (a traffic jam). Parking: \"le strisce blu\" (blue lines) are pay-and-display, paid at \"il parchimetro\" or by app; \"le strisce bianche\" are usually free; \"le strisce gialle\" are reserved (residents, disabled people, loading). Comparisons help you choose: \"In centro è più veloce la bici della macchina\".",
+          "\"C'è traffico\" or \"c'è un ingorgo\" (a traffic jam). Parking: \"le strisce blu\" (blue lines) are paid parking, paid at \"il parchimetro\" or by app; \"le strisce bianche\" are usually free; \"le strisce gialle\" are reserved (residents, disabled people, loading). Comparisons help you choose: \"In centro è più veloce la bici della macchina\".",
         ],
         examples: [
           { es: "A quest'ora c'è sempre un ingorgo.", en: "At this time there's always a traffic jam." },
           { es: "Sulle strisce blu si paga.", en: "You pay on the blue lines." },
           { es: "Non trovo mai parcheggio.", en: "I can never find parking." },
-          { es: "In centro la bici è più veloce della macchina.", en: "In the centre, a bike is faster than a car." },
+          { es: "In centro la bici è più veloce della macchina.", en: "In the center, a bike is faster than a car." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I can never find parking.", answer: "Non trovo mai parcheggio.", altAnswers: ["Non trovo mai un parcheggio.", "Non trovo mai posto."], explanation: "\"Non ... mai\"." },
@@ -140,7 +142,7 @@ export const IT_B1_U30: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The centre is closed to traffic.", answer: "Il centro è chiuso al traffico.", altAnswers: ["Il centro storico è chiuso al traffico."], explanation: "\"Chiuso al traffico\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The center is closed to traffic.", answer: "Il centro è chiuso al traffico.", altAnswers: ["Il centro storico è chiuso al traffico."], explanation: "\"Chiuso al traffico\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Careful, the gate is active!", answer: "Attenzione, il varco è attivo!", altAnswers: ["Attento, il varco è attivo!", "Attenta, il varco è attivo!"], explanation: "\"Varco attivo\" = don't enter." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I have a monthly pass.", answer: "Ho l'abbonamento mensile.", altAnswers: ["Ho un abbonamento mensile."], explanation: "\"Abbonamento\" = pass, subscription." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Did you validate the ticket?", answer: "Hai convalidato il biglietto?", altAnswers: ["Hai timbrato il biglietto?"], explanation: "\"Convalidare\" or \"timbrare\"." },
@@ -151,7 +153,7 @@ export const IT_B1_U30: Lesson[] = [
       { type: "word-order", prompt: "Put the words in order to say: Residents have a permit to enter.", words: ["I", "residenti", "hanno", "il", "permesso", "per", "entrare."], translation: "Residents have a permit to enter.", explanation: "\"Permesso\" = permit." },
       { type: "multiple-choice", question: "Where is parking usually free?", options: ["on the white lines", "on the blue lines", "on the yellow lines", "in the ZTL"], correctIndex: 0, explanation: "\"Strisce bianche\" are usually free." },
       { type: "dictation", audio: "Il biglietto va convalidato appena sali sull'autobus.", explanation: "\"Va convalidato\": must be validated." },
-      { type: "speak", text: "Di solito vado al lavoro con i mezzi, perché in centro non trovo mai parcheggio.", prompt: "Say it: I usually go to work by public transport, because I can never find parking in the centre.", tip: "\"I mezzi\": the \"z\" sounds like dz.", explanation: "Transport + reason." },
+      { type: "speak", text: "Di solito vado al lavoro con i mezzi, perché in centro non trovo mai parcheggio.", prompt: "Say it: I usually go to work by public transportation, because I can never find parking in the center.", tip: "\"I mezzi\": the \"z\" sounds like dz.", explanation: "Transportation + reason." },
     ],
   },
   {
@@ -167,12 +169,13 @@ export const IT_B1_U30: Lesson[] = [
         body: [
           "Key words: \"l'inquinamento\" (pollution; \"inquinare\", \"inquinato\"), \"lo smog\", \"le polveri sottili\" (fine particles), \"il riscaldamento globale\" (global warming), \"il cambiamento climatico\", \"la siccità\" (drought), \"l'alluvione\" (flood), \"lo spreco\" (waste; \"sprecare\" = to waste).",
           "The impersonal \"si\" is common in this kind of talk: \"Si spreca troppa acqua\", \"Si producono troppi rifiuti\" (plural noun → plural verb).",
+          "News and weather reports add their own set: \"un'ondata di calore\" (a heat wave), \"una bomba d'acqua\" (a cloudburst), \"l'allerta meteo\" (a weather warning: \"gialla\", \"arancione\" or \"rossa\"). Useful collocations: \"ridurre le emissioni\", \"tutelare l'ambiente\" (to protect the environment), \"sostenibile\", \"a basso impatto\". The adjective is \"ambientale\" (\"un disastro ambientale\"), and \"il clima\" is masculine despite its \"-a\".",
         ],
         examples: [
           { es: "L'aria in città è molto inquinata.", en: "The air in the city is very polluted." },
           { es: "Quest'estate c'è stata una lunga siccità.", en: "This summer there was a long drought." },
           { es: "Si spreca troppa acqua.", en: "Too much water is wasted." },
-          { es: "Si producono troppi rifiuti.", en: "Too much rubbish is produced." },
+          { es: "Si producono troppi rifiuti.", en: "Too much trash is produced." },
           { es: "Il riscaldamento globale è un problema di tutti.", en: "Global warming is everyone's problem." },
         ],
         checkpoint: [
@@ -190,7 +193,7 @@ export const IT_B1_U30: Lesson[] = [
           { es: "Abbiamo messo i pannelli solari sul tetto.", en: "We've put solar panels on the roof." },
           { es: "Spegni la luce quando esci.", en: "Turn the light off when you go out." },
           { es: "Ogni anno vengono installati migliaia di pannelli solari.", en: "Thousands of solar panels are installed every year." },
-          { es: "Più della metà dei rifiuti viene riciclata.", en: "More than half of the rubbish is recycled." },
+          { es: "Più della metà dei rifiuti viene riciclata.", en: "More than half of the trash is recycled." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We've put solar panels on the roof.", answer: "Abbiamo messo i pannelli solari sul tetto.", altAnswers: ["Abbiamo installato i pannelli solari sul tetto.", "Abbiamo messo dei pannelli solari sul tetto."], explanation: "\"Pannelli solari\"." },
@@ -216,7 +219,7 @@ export const IT_B1_U30: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The air in the city is very polluted.", answer: "L'aria in città è molto inquinata.", altAnswers: ["In città l'aria è molto inquinata."], explanation: "\"Inquinato\" agrees with \"l'aria\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Too much rubbish is produced.", answer: "Si producono troppi rifiuti.", altAnswers: ["Vengono prodotti troppi rifiuti.", "Produciamo troppi rifiuti."], explanation: "Plural noun → \"si producono\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Too much trash is produced.", answer: "Si producono troppi rifiuti.", altAnswers: ["Vengono prodotti troppi rifiuti.", "Produciamo troppi rifiuti."], explanation: "Plural noun → \"si producono\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Turn off the light when you go out. (to a friend)", answer: "Spegni la luce quando esci.", altAnswers: ["Spegni la luce quando vai via."], explanation: "Imperative \"spegni\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The government needs to invest more.", answer: "È necessario che il governo investa di più.", altAnswers: ["Bisogna che il governo investa di più.", "Il governo deve investire di più."], explanation: "\"Investa\": subjunctive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's important that we recycle properly.", answer: "È importante che ricicliamo bene.", altAnswers: ["È importante che facciamo bene la differenziata.", "È importante riciclare bene."], explanation: "\"Ricicliamo\": indicative and subjunctive look the same." },
@@ -240,14 +243,14 @@ export const IT_B1_U30: Lesson[] = [
       {
         heading: "Bisognerebbe, si potrebbe",
         body: [
-          "The conditional softens a proposal: \"Bisognerebbe piantare più alberi\" (more trees ought to be planted), \"Si potrebbe chiudere il centro alle auto\" (the centre could be closed to cars), \"Il comune dovrebbe aumentare le piste ciclabili\".",
+          "The conditional softens a proposal: \"Bisognerebbe piantare più alberi\" (more trees ought to be planted), \"Si potrebbe chiudere il centro alle auto\" (the center could be closed to cars), \"Il comune dovrebbe aumentare le piste ciclabili\".",
           "With \"si potrebbe\" + infinitive + plural noun, the verb usually goes plural: \"Si potrebbero aggiungere più autobus\".",
         ],
         examples: [
           { es: "Bisognerebbe piantare più alberi.", en: "More trees ought to be planted." },
-          { es: "Si potrebbe chiudere il centro alle auto.", en: "The centre could be closed to cars." },
+          { es: "Si potrebbe chiudere il centro alle auto.", en: "The center could be closed to cars." },
           { es: "Si potrebbero aggiungere più autobus di notte.", en: "More night buses could be added." },
-          { es: "Il comune dovrebbe aumentare le piste ciclabili.", en: "The council should increase the cycle lanes." },
+          { es: "Il comune dovrebbe aumentare le piste ciclabili.", en: "The city should increase the bike lanes." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "More trees ought to be planted.", answer: "Bisognerebbe piantare più alberi.", altAnswers: ["Si dovrebbero piantare più alberi.", "Si potrebbero piantare più alberi."], explanation: "\"Bisognerebbe\" + infinitive." },
@@ -257,49 +260,50 @@ export const IT_B1_U30: Lesson[] = [
       {
         heading: "Sarebbe meglio ...",
         body: [
-          "\"Sarebbe meglio\", \"sarebbe utile\" and \"sarebbe bello\" + infinitive make general proposals: \"Sarebbe meglio investire nei trasporti\", \"Sarebbe utile avere più fontanelle\". To name who should act, use \"dovrebbe\": \"Il comune dovrebbe investire nei trasporti\". You'll also hear \"sarebbe meglio che\" + a subjunctive form (\"sarebbe meglio che il comune investisse\"); just recognise it for now: that tense comes at Upper Intermediate.",
+          "\"Sarebbe meglio\", \"sarebbe utile\" and \"sarebbe bello\" + infinitive make general proposals: \"Sarebbe meglio investire nei trasporti\", \"Sarebbe utile avere più fontanelle\". To name who should act, use \"dovrebbe\": \"Il comune dovrebbe investire nei trasporti\". You'll also hear \"sarebbe meglio che\" + a subjunctive form (\"sarebbe meglio che il comune investisse\"); just recognize it for now: that tense comes at Upper Intermediate.",
         ],
         examples: [
-          { es: "Sarebbe meglio investire nei trasporti.", en: "It would be better to invest in transport." },
+          { es: "Sarebbe meglio investire nei trasporti.", en: "It would be better to invest in transportation." },
           { es: "Sarebbe utile avere più fontanelle.", en: "It would be useful to have more drinking fountains." },
-          { es: "Il comune dovrebbe investire nei trasporti.", en: "The council should invest in transport." },
+          { es: "Il comune dovrebbe investire nei trasporti.", en: "The city should invest in transportation." },
           { es: "Sarebbe bello usare meno la macchina.", en: "It would be nice to use the car less." },
         ],
         checkpoint: [
-          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It would be better [to invest] in transport.", sentence: "Sarebbe meglio ___ nei trasporti.", answer: "investire", explanation: "\"Sarebbe meglio\" + infinitive." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It would be better [to invest] in transportation.", sentence: "Sarebbe meglio ___ nei trasporti.", answer: "investire", explanation: "\"Sarebbe meglio\" + infinitive." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "There should be more parks.", answer: "Ci dovrebbero essere più parchi.", altAnswers: ["Dovrebbero esserci più parchi.", "Servirebbero più parchi.", "Ci vorrebbero più parchi."], explanation: "\"Dovrebbero\": plural, agreeing with \"parchi\"." },
         ],
       },
       {
         heading: "Propongo di, perché non ...?",
         body: [
-          "In a meeting or letter: \"Propongo di creare un'area pedonale\" (I propose creating a pedestrian area), \"Propongo che il mercato si sposti in piazza\" (present subjunctive). In conversation: \"Perché non ...?\" + present, or \"Che ne dite di\" + infinitive (how about ...?): \"Che ne dite di fare una raccolta firme?\" (how about getting up a petition?).",
+          "In a meeting or letter: \"Propongo di creare un'area pedonale\" (I propose creating a pedestrian area), \"Propongo che il mercato si sposti in piazza\" (present subjunctive). In conversation: \"Perché non ...?\" + present, or \"Che ne dite di\" + infinitive (how about ...?): \"Che ne dite di fare una raccolta firme?\" (how about starting a petition?).",
+          "To answer a proposal: \"Mi sembra un'ottima idea\", \"Sono d'accordo, però ...\" or, with doubts, \"Non sono convinto che sia la soluzione giusta\" (subjunctive after doubt). To order several proposals in a letter or meeting: \"innanzitutto\" (first of all), \"in secondo luogo\", \"infine\". \"Forse si potrebbe ...\" and \"Non sarebbe male\" + infinitive soften things even more.",
         ],
         examples: [
           { es: "Propongo di creare un'area pedonale.", en: "I propose creating a pedestrian area." },
           { es: "Propongo che il mercato si sposti in piazza.", en: "I propose that the market move to the square." },
-          { es: "Perché non organizziamo una giornata senza auto?", en: "Why don't we organise a car-free day?" },
-          { es: "Che ne dite di fare una raccolta firme?", en: "How about getting up a petition?" },
+          { es: "Perché non organizziamo una giornata senza auto?", en: "Why don't we organize a car-free day?" },
+          { es: "Che ne dite di fare una raccolta firme?", en: "How about starting a petition?" },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "How about getting up a petition? (to a group)", answer: "Che ne dite di fare una raccolta firme?", altAnswers: ["Che ne dite di fare una petizione?", "Perché non facciamo una raccolta firme?"], explanation: "\"Che ne dite di\" + infinitive." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "How about starting a petition? (to a group)", answer: "Che ne dite di fare una raccolta firme?", altAnswers: ["Che ne dite di fare una petizione?", "Perché non facciamo una raccolta firme?"], explanation: "\"Che ne dite di\" + infinitive." },
           { type: "multiple-choice", question: "Which proposal is correct?", options: ["Propongo di creare più piste ciclabili.", "Propongo creare più piste ciclabili.", "Propongo per creare più piste ciclabili.", "Propongo a creare più piste ciclabili."], correctIndex: 0, explanation: "\"Proporre di\" + infinitive." },
         ],
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The centre could be closed to cars.", answer: "Si potrebbe chiudere il centro alle auto.", altAnswers: ["Si potrebbe chiudere il centro alle macchine.", "Il centro potrebbe essere chiuso alle auto."], explanation: "\"Si potrebbe\" + infinitive." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The council should increase the cycle lanes.", answer: "Il comune dovrebbe aumentare le piste ciclabili.", altAnswers: ["Il Comune dovrebbe aumentare le piste ciclabili."], explanation: "\"Dovrebbe\" = should." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The center could be closed to cars.", answer: "Si potrebbe chiudere il centro alle auto.", altAnswers: ["Si potrebbe chiudere il centro alle macchine.", "Il centro potrebbe essere chiuso alle auto."], explanation: "\"Si potrebbe\" + infinitive." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The city should increase the bike lanes.", answer: "Il comune dovrebbe aumentare le piste ciclabili.", altAnswers: ["Il Comune dovrebbe aumentare le piste ciclabili."], explanation: "\"Dovrebbe\" = should." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It would be better to use the car less.", answer: "Sarebbe meglio usare meno la macchina.", altAnswers: ["Sarebbe meglio usare meno l'auto.", "Sarebbe meglio usare la macchina di meno."], explanation: "\"Sarebbe meglio\" + infinitive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I propose creating a pedestrian area.", answer: "Propongo di creare un'area pedonale.", altAnswers: ["Propongo di creare una zona pedonale."], explanation: "\"Proporre di\" + infinitive." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Why don't we organise a car-free day?", answer: "Perché non organizziamo una giornata senza auto?", altAnswers: ["Perché non organizziamo una giornata senza macchine?"], explanation: "\"Perché non\" + present." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Why don't we organize a car-free day?", answer: "Perché non organizziamo una giornata senza auto?", altAnswers: ["Perché non organizziamo una giornata senza macchine?"], explanation: "\"Perché non\" + present." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "More bins could be added.", answer: "Si potrebbero aggiungere più cestini.", altAnswers: ["Si potrebbero mettere più cestini.", "Bisognerebbe aggiungere più cestini."], explanation: "Plural noun: \"si potrebbero\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "There [should be] more fountains.", sentence: "Ci ___ essere più fontanelle.", answer: "dovrebbero", explanation: "Plural conditional, agreeing with \"fontanelle\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[More trees ought to be] planted.", sentence: "___ piantare più alberi.", answer: "Bisognerebbe", explanation: "Conditional of \"bisognare\"." },
       { type: "word-order", prompt: "Put the words in order to say: Why don't we close the street on Sundays?", words: ["Perché", "non", "chiudiamo", "la", "strada", "la", "domenica?"], translation: "Why don't we close the street on Sundays?", explanation: "\"Perché non\" + present." },
       { type: "multiple-choice", question: "\"Bisogna che il sindaco ___ con i cittadini.\"", options: ["parli", "parla", "parlare", "parlerà"], correctIndex: 0, explanation: "\"Bisogna che\" + present subjunctive." },
       { type: "dictation", audio: "Bisognerebbe aumentare le corse degli autobus la sera.", explanation: "\"Le corse\" = the runs, services." },
-      { type: "speak", text: "Propongo di chiudere il centro alle auto la domenica. E perché non facciamo anche una giornata del riciclo?", prompt: "Make two proposals: I propose closing the centre to cars on Sundays. And why don't we also have a recycling day?", tip: "\"Facciamo\": double \"c\", fac-CIA-mo.", explanation: "\"Proporre di\" and \"perché non\" + present." },
+      { type: "speak", text: "Propongo di chiudere il centro alle auto la domenica. E perché non facciamo anche una giornata del riciclo?", prompt: "Make two proposals: I propose closing the center to cars on Sundays. And why don't we also have a recycling day?", tip: "\"Facciamo\": double \"c\", fac-CIA-mo.", explanation: "\"Proporre di\" and \"perché non\" + present." },
     ],
   },
   {
@@ -307,14 +311,14 @@ export const IT_B1_U30: Lesson[] = [
     level: "IT-B1",
     number: 5,
     title: "Drill: Environment Vocabulary",
-    summary: "Produce the words for rubbish, transport, pollution and energy fast, in full sentences.",
+    summary: "Produce the words for trash, transportation, pollution and energy fast, in full sentences.",
     duration: "22 min",
     kind: "drill",
     sections: [
       {
         heading: "Key words",
         body: [
-          "Bins: \"l'umido\", \"la plastica\", \"la carta\", \"il vetro\", \"l'indifferenziato\". Transport: \"i mezzi\", \"l'abbonamento\", \"la ZTL\", \"il parcheggio\", \"l'ingorgo\". Environment: \"l'inquinamento\", \"lo spreco\", \"le energie rinnovabili\", \"il risparmio energetico\".",
+          "Bins: \"l'umido\", \"la plastica\", \"la carta\", \"il vetro\", \"l'indifferenziato\". Transportation: \"i mezzi\", \"l'abbonamento\", \"la ZTL\", \"il parcheggio\", \"l'ingorgo\". Environment: \"l'inquinamento\", \"lo spreco\", \"le energie rinnovabili\", \"il risparmio energetico\".",
         ],
         examples: [
           { es: "I gusci d'uovo vanno nell'umido.", en: "Eggshells go in the food waste." },
@@ -331,23 +335,23 @@ export const IT_B1_U30: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Cardboard goes in the paper.", answer: "Il cartone va nella carta.", altAnswers: ["Il cartone va con la carta."], explanation: "\"Nella carta\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Plastic bottles go in the plastic.", answer: "Le bottiglie di plastica vanno nella plastica.", altAnswers: ["Le bottiglie di plastica vanno con la plastica."], explanation: "\"Vanno\": plural subject." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Where's the nearest bottle bank?", answer: "Dov'è la campana del vetro più vicina?", altAnswers: ["Dove si trova la campana del vetro più vicina?", "Dov'è la campana più vicina?"], explanation: "\"La campana\" = bottle bank (bell-shaped)." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Where's the nearest glass bin?", answer: "Dov'è la campana del vetro più vicina?", altAnswers: ["Dove si trova la campana del vetro più vicina?", "Dov'è la campana più vicina?"], explanation: "\"La campana\" = the bell-shaped glass bin." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The bus is always full in the morning.", answer: "L'autobus è sempre pieno la mattina.", altAnswers: ["La mattina l'autobus è sempre pieno.", "Il bus è sempre pieno la mattina."], explanation: "\"La mattina\" = in the mornings." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I've got a fine for parking.", answer: "Ho preso una multa per divieto di sosta.", altAnswers: ["Ho preso una multa per il parcheggio.", "Mi hanno fatto una multa per il parcheggio."], explanation: "\"Divieto di sosta\" = no parking." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I got a parking ticket.", answer: "Ho preso una multa per divieto di sosta.", altAnswers: ["Ho preso una multa per il parcheggio.", "Mi hanno fatto una multa per il parcheggio."], explanation: "\"Divieto di sosta\" = no parking." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Pollution is a serious problem.", answer: "L'inquinamento è un problema serio.", altAnswers: ["L'inquinamento è un problema grave."], explanation: "\"L'inquinamento\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We waste too much food.", answer: "Sprechiamo troppo cibo.", altAnswers: ["Si spreca troppo cibo."], explanation: "\"Sprecare\" = to waste." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Renewable energy is cheaper.", answer: "Le energie rinnovabili costano meno.", altAnswers: ["L'energia rinnovabile costa meno.", "L'energia rinnovabile è più economica.", "Le energie rinnovabili sono più economiche."], explanation: "Singular or plural." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Lower the heating, please. (to a friend)", answer: "Abbassa il riscaldamento, per favore.", altAnswers: ["Abbassa il riscaldamento, per piacere."], explanation: "Imperative \"abbassa\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "This summer there was a drought.", answer: "Quest'estate c'è stata la siccità.", altAnswers: ["Quest'estate c'è stata una siccità.", "Questa estate c'è stata la siccità."], explanation: "\"Siccità\" doesn't change in the plural." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "There's a lot of [traffic] in the centre.", sentence: "In centro c'è molto ___.", answer: "traffico", explanation: "\"Traffico\" = traffic." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The sofa goes to the [recycling centre].", sentence: "Il divano va all'___.", answer: "isola ecologica", explanation: "\"Isola ecologica\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "This summer there was a drought.", answer: "Quest'estate c'è stata la siccità.", altAnswers: ["Quest'estate c'è stata una siccità.", "Questa estate c'è stata la siccità."], explanation: "\"Siccità\" is feminine and ends in a stressed \"-à\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "There's a lot of [traffic] in the center.", sentence: "In centro c'è molto ___.", answer: "traffico", explanation: "\"Traffico\" = traffic." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The sofa goes to the [recycling center].", sentence: "Il divano va all'___.", answer: "isola ecologica", explanation: "\"Isola ecologica\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "We've put in [solar panels].", sentence: "Abbiamo messo i ___.", answer: "pannelli solari", explanation: "\"Pannello\" = panel." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "There's been a [flood] in the valley.", sentence: "C'è stata un'___ nella valle.", answer: "alluvione", explanation: "\"L'alluvione\" is feminine." },
       { type: "word-order", prompt: "Put the words in order to say: The metro is quicker than the car.", words: ["La", "metro", "è", "più", "veloce", "della", "macchina."], translation: "The metro is quicker than the car.", explanation: "\"Più ... di\"." },
-      { type: "multiple-choice", question: "\"Lo spreco\" means ...", options: ["waste", "rubbish bin", "saving", "recycling"], correctIndex: 0, explanation: "From \"sprecare\" = to waste." },
+      { type: "multiple-choice", question: "\"Lo spreco\" means ...", options: ["waste", "trash can", "saving", "recycling"], correctIndex: 0, explanation: "From \"sprecare\" = to waste." },
       { type: "dictation", audio: "L'isola ecologica è aperta il sabato mattina.", explanation: "\"Isola ecologica\"." },
       { type: "dictation", audio: "Con l'abbonamento risparmio parecchio.", explanation: "\"Parecchio\" = quite a lot." },
-      { type: "speak", text: "Faccio bene la differenziata, uso i mezzi e cerco di non sprecare energia.", prompt: "Say it: I sort my rubbish properly, I use public transport and I try not to waste energy.", tip: "\"La differenziata\" is short for \"la raccolta differenziata\".", explanation: "Three green habits." },
+      { type: "speak", text: "Faccio bene la differenziata, uso i mezzi e cerco di non sprecare energia.", prompt: "Say it: I sort my trash properly, I use public transportation and I try not to waste energy.", tip: "\"La differenziata\" is short for \"la raccolta differenziata\".", explanation: "Three green habits." },
     ],
   },
   {
@@ -365,19 +369,19 @@ export const IT_B1_U30: Lesson[] = [
           "Bisogna che / è necessario che + present subjunctive when you name who must act: \"Bisogna che il comune intervenga\", \"È necessario che tutti ricicliamo\". For softer proposals, use the conditional: \"Il comune dovrebbe intervenire\", \"Bisognerebbe intervenire\", \"Sarebbe meglio intervenire subito\".",
         ],
         examples: [
-          { es: "Bisogna che il comune intervenga.", en: "The council needs to act." },
-          { es: "Il comune dovrebbe intervenire.", en: "The council should act." },
-          { es: "Bisognerebbe intervenire subito.", en: "Action ought to be taken straight away." },
+          { es: "Bisogna che il comune intervenga.", en: "The city needs to act." },
+          { es: "Il comune dovrebbe intervenire.", en: "The city should act." },
+          { es: "Bisognerebbe intervenire subito.", en: "Action ought to be taken right away." },
           { es: "Si potrebbero usare i pannelli solari.", en: "Solar panels could be used." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The council needs to act.", answer: "Bisogna che il comune intervenga.", altAnswers: ["È necessario che il comune intervenga.", "Il comune deve intervenire."], explanation: "\"Intervenga\": subjunctive of \"intervenire\"." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The council should act.", answer: "Il comune dovrebbe intervenire.", altAnswers: ["Il Comune dovrebbe intervenire.", "Il comune dovrebbe agire."], explanation: "\"Dovrebbe\" + infinitive." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The city needs to act.", answer: "Bisogna che il comune intervenga.", altAnswers: ["È necessario che il comune intervenga.", "Il comune deve intervenire."], explanation: "\"Intervenga\": subjunctive of \"intervenire\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The city should act.", answer: "Il comune dovrebbe intervenire.", altAnswers: ["Il Comune dovrebbe intervenire.", "Il comune dovrebbe agire."], explanation: "\"Dovrebbe\" + infinitive." },
         ],
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "More cycle lanes ought to be built.", answer: "Bisognerebbe costruire più piste ciclabili.", altAnswers: ["Si dovrebbero costruire più piste ciclabili.", "Si potrebbero costruire più piste ciclabili."], explanation: "\"Bisognerebbe\" + infinitive." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "More bike lanes ought to be built.", answer: "Bisognerebbe costruire più piste ciclabili.", altAnswers: ["Si dovrebbero costruire più piste ciclabili.", "Si potrebbero costruire più piste ciclabili."], explanation: "\"Bisognerebbe\" + infinitive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Buses could run more often.", answer: "Gli autobus potrebbero passare più spesso.", altAnswers: ["Gli autobus potrebbero passare più di frequente.", "I bus potrebbero passare più spesso."], explanation: "\"Potrebbero\" = could." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Shops should use less plastic.", answer: "I negozi dovrebbero usare meno plastica.", altAnswers: ["I negozi dovrebbero utilizzare meno plastica."], explanation: "\"Dovrebbero\": plural." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Everyone needs to recycle.", answer: "Bisogna che tutti riciclino.", altAnswers: ["È necessario che tutti riciclino.", "Tutti devono riciclare."], explanation: "\"Riciclino\": present subjunctive, \"loro\"." },
@@ -385,7 +389,7 @@ export const IT_B1_U30: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Why don't we go to work by bike?", answer: "Perché non andiamo al lavoro in bici?", altAnswers: ["Perché non andiamo a lavoro in bici?", "Perché non andiamo al lavoro in bicicletta?"], explanation: "\"Perché non\" + present." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's important that the government invests in renewable energy.", answer: "È importante che il governo investa nelle energie rinnovabili.", altAnswers: ["È importante che il governo investa nell'energia rinnovabile."], explanation: "\"Investa\": present subjunctive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The city needs to be cleaner.", answer: "Bisogna che la città sia più pulita.", altAnswers: ["È necessario che la città sia più pulita.", "La città deve essere più pulita."], explanation: "\"Sia\": present subjunctive of \"essere\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The centre should be closed to cars.", answer: "Il centro dovrebbe essere chiuso alle auto.", altAnswers: ["Bisognerebbe chiudere il centro alle auto.", "Il centro andrebbe chiuso alle auto."], explanation: "\"Dovrebbe essere\" + participle." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The center should be closed to cars.", answer: "Il centro dovrebbe essere chiuso alle auto.", altAnswers: ["Bisognerebbe chiudere il centro alle auto.", "Il centro andrebbe chiuso alle auto."], explanation: "\"Dovrebbe essere\" + participle." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It's necessary that we [use] less water.", sentence: "È necessario che ___ meno acqua.", answer: "usiamo", explanation: "\"Noi\" subjunctive." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "There [should be] more buses.", sentence: "Ci ___ essere più autobus.", answer: "dovrebbero", explanation: "Plural conditional, agreeing with \"autobus\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "More bins [could be added].", sentence: "___ aggiungere più cestini.", answer: "Si potrebbero", explanation: "Plural object → \"si potrebbero\"." },
@@ -403,21 +407,21 @@ export const IT_B1_U30: Lesson[] = [
     level: "IT-B1",
     number: 7,
     title: "Reading Lab: A Notice from the Comune",
-    summary: "Read two notices from a town council, on the new recycling rules and on the ZTL, and answer questions on the rules.",
+    summary: "Read two notices from a town hall, on the new recycling rules and on the ZTL, and answer questions on the rules.",
     duration: "18 min",
     sections: [
       {
         heading: "Notice 1: recycling",
         body: [
           "\"COMUNE DI SAN VITO. AVVISO AI CITTADINI. Dal 1° marzo cambia il calendario della raccolta porta a porta. L'umido sarà raccolto il lunedì, il mercoledì e il venerdì; la plastica e i metalli il martedì; la carta il giovedì; il vetro ogni due settimane, il sabato. I contenitori vanno esposti dopo le ore 20 della sera precedente e ritirati entro le ore 12 del giorno di raccolta. I rifiuti non conformi non saranno ritirati. Per gli ingombranti è necessario prenotare il ritiro gratuito al numero verde.\"",
-          "Official notices use the future passive (\"sarà raccolto\"), \"vanno\" + participle and set phrases: \"la sera precedente\" (the evening before), \"entro\" (by), \"non conforme\" (not following the rules), \"il numero verde\" (freephone number).",
+          "Official notices use the future passive (\"sarà raccolto\"), \"vanno\" + participle and set phrases: \"la sera precedente\" (the evening before), \"entro\" (by), \"non conforme\" (not following the rules), \"il numero verde\" (toll-free number).",
         ],
         examples: [
-          { es: "Dal 1° marzo cambia il calendario.", en: "From 1 March the calendar changes." },
+          { es: "Dal 1° marzo cambia il calendario.", en: "From March 1 the calendar changes." },
           { es: "L'umido sarà raccolto il lunedì.", en: "Food waste will be collected on Mondays." },
           { es: "I contenitori vanno esposti la sera precedente.", en: "Bins must be put out the evening before." },
           { es: "I rifiuti non conformi non saranno ritirati.", en: "Waste that doesn't follow the rules won't be collected." },
-          { es: "Bisogna prenotare il ritiro al numero verde.", en: "You need to book the collection on the freephone number." },
+          { es: "Bisogna prenotare il ritiro al numero verde.", en: "You need to book the collection by calling the toll-free number." },
         ],
         checkpoint: [
           { type: "multiple-choice", question: "When is glass collected?", options: ["every other Saturday", "every Saturday", "on Tuesdays", "on Thursdays"], correctIndex: 0, explanation: "\"Ogni due settimane, il sabato\"." },
@@ -427,11 +431,11 @@ export const IT_B1_U30: Lesson[] = [
       {
         heading: "Notice 2: the ZTL",
         body: [
-          "\"Si informa la cittadinanza che, a partire dal 15 aprile, l'orario della ZTL del centro storico sarà esteso: i varchi saranno attivi dalle 8 alle 20 tutti i giorni, festivi compresi. I residenti in possesso di permesso potranno continuare a circolare liberamente. I veicoli elettrici sono esentati. I trasgressori saranno sanzionati con una multa da 83 a 332 euro.\"",
-          "\"Si informa la cittadinanza\" (citizens are informed) is a typical bureaucratic opening. \"Esteso\" (extended), \"festivi compresi\" (including public holidays), \"esentato\" (exempt), \"trasgressori\" (offenders).",
+          "\"Si informa la cittadinanza che, a partire dal 15 aprile, l'orario della ZTL del centro storico sarà esteso: i varchi saranno attivi dalle 8 alle 20 tutti i giorni, festivi compresi. I residenti in possesso di permesso potranno continuare a circolare liberamente. I veicoli elettrici sono esentati. I trasgressori saranno sanzionati secondo il Codice della Strada.\"",
+          "\"Si informa la cittadinanza\" (citizens are informed) is a typical bureaucratic opening. \"Esteso\" (extended), \"festivi compresi\" (including public holidays), \"esentato\" (exempt), \"trasgressori\" (offenders), \"secondo il Codice della Strada\" (under the national traffic code, which sets the fines; amounts change, so check the current figures).",
         ],
         examples: [
-          { es: "Si informa la cittadinanza che l'orario cambia.", en: "Citizens are informed that the timetable is changing." },
+          { es: "Si informa la cittadinanza che l'orario cambia.", en: "Citizens are informed that the schedule is changing." },
           { es: "I varchi saranno attivi tutti i giorni, festivi compresi.", en: "The gates will be active every day, including holidays." },
           { es: "I veicoli elettrici sono esentati.", en: "Electric vehicles are exempt." },
           { es: "I trasgressori saranno multati.", en: "Offenders will be fined." },
@@ -447,29 +451,29 @@ export const IT_B1_U30: Lesson[] = [
           "Find four things: what changes, from when (\"dal\", \"a partire da\"), who it affects, and what happens if you don't comply. Turn the formal language into everyday Italian: \"saranno sanzionati\" → \"prenderanno una multa\", \"vanno esposti\" → \"bisogna metterli fuori\".",
         ],
         examples: [
-          { es: "A partire dal 15 aprile l'orario sarà esteso.", en: "From 15 April the hours will be extended." },
+          { es: "A partire dal 15 aprile l'orario sarà esteso.", en: "From April 15 the hours will be extended." },
           { es: "In pratica, prenderai una multa.", en: "In practice, you'll get a fine." },
           { es: "Bisogna metterli fuori la sera prima.", en: "You need to put them out the night before." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Offenders will be fined.", answer: "I trasgressori saranno multati.", altAnswers: ["I trasgressori saranno sanzionati.", "I trasgressori verranno multati."], explanation: "Future passive." },
-          { type: "multiple-choice", question: "What happens to bins put out with the wrong waste?", options: ["They won't be collected.", "They'll be collected the next day.", "They'll be collected for free.", "They'll be taken to the recycling centre."], correctIndex: 0, explanation: "\"Non saranno ritirati\"." },
+          { type: "multiple-choice", question: "What happens to bins put out with the wrong waste?", options: ["They won't be collected.", "They'll be collected the next day.", "They'll be collected for free.", "They'll be taken to the recycling center."], correctIndex: 0, explanation: "\"Non saranno ritirati\"." },
         ],
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "From 1 March the calendar changes.", answer: "Dal primo marzo cambia il calendario.", altAnswers: ["Dal 1° marzo cambia il calendario.", "Dal primo marzo il calendario cambia.", "A partire dal primo marzo cambia il calendario."], explanation: "\"Dal\" + date." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "From March 1 the calendar changes.", answer: "Dal primo marzo cambia il calendario.", altAnswers: ["Dal 1° marzo cambia il calendario.", "Dal primo marzo il calendario cambia.", "A partire dal primo marzo cambia il calendario."], explanation: "\"Dal\" + date." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Paper will be collected on Thursdays.", answer: "La carta sarà raccolta il giovedì.", altAnswers: ["La carta verrà raccolta il giovedì.", "La carta sarà ritirata il giovedì."], explanation: "Future passive; \"il giovedì\" = every Thursday." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Bins must be taken in by midday.", answer: "I contenitori vanno ritirati entro mezzogiorno.", altAnswers: ["I contenitori vanno ritirati entro le dodici.", "I bidoni vanno ritirati entro mezzogiorno."], explanation: "\"Entro\" = by." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Bins must be taken in by noon.", answer: "I contenitori vanno ritirati entro mezzogiorno.", altAnswers: ["I contenitori vanno ritirati entro le dodici.", "I bidoni vanno ritirati entro mezzogiorno."], explanation: "\"Entro\" = by." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You need to book the collection of bulky items.", answer: "Bisogna prenotare il ritiro degli ingombranti.", altAnswers: ["È necessario prenotare il ritiro degli ingombranti."], explanation: "\"Ingombranti\" = bulky items." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Electric vehicles are exempt.", answer: "I veicoli elettrici sono esentati.", altAnswers: ["I veicoli elettrici sono esenti.", "Le auto elettriche sono esentate."], explanation: "\"Esentato\" or \"esente\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The gates will be active every day, including holidays.", answer: "I varchi saranno attivi tutti i giorni, festivi compresi.", altAnswers: ["I varchi saranno attivi tutti i giorni, compresi i festivi."], explanation: "\"Festivi compresi\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The collection is free.", answer: "Il ritiro è gratuito.", altAnswers: ["Il ritiro è gratis.", "La raccolta è gratuita."], explanation: "\"Gratuito\" (formal) or \"gratis\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[From] 15 April the hours change.", sentence: "___ 15 aprile cambia l'orario.", answer: "A partire dal", altAnswers: ["Dal"], explanation: "\"A partire da\" = starting from." },
-      { type: "word-order", prompt: "Put the words in order to say: Citizens are informed that the timetable is changing.", words: ["Si", "informa", "la", "cittadinanza", "che", "l'orario", "cambia."], translation: "Citizens are informed that the timetable is changing.", explanation: "Formal impersonal opening." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[From] April 15 the hours change.", sentence: "___ 15 aprile cambia l'orario.", answer: "A partire dal", altAnswers: ["Dal"], explanation: "\"A partire da\" = starting from." },
+      { type: "word-order", prompt: "Put the words in order to say: Citizens are informed that the schedule is changing.", words: ["Si", "informa", "la", "cittadinanza", "che", "l'orario", "cambia."], translation: "Citizens are informed that the schedule is changing.", explanation: "Formal impersonal opening." },
       { type: "multiple-choice", question: "\"Numero verde\" is ...", options: ["a free phone number", "an emergency number", "a recycling code", "a bin number"], correctIndex: 0, explanation: "Toll-free number." },
       { type: "dictation", audio: "I rifiuti non conformi non saranno ritirati.", explanation: "Future passive, negative." },
-      { type: "speak", text: "Dal primo marzo l'umido si raccoglie tre volte a settimana, e i bidoni vanno messi fuori la sera prima.", prompt: "Explain the new rule to a neighbour: From 1 March food waste is collected three times a week, and bins must be put out the night before.", tip: "Everyday words: \"messi fuori\", not \"esposti\".", explanation: "Turn the notice into everyday Italian." },
+      { type: "speak", text: "Dal primo marzo l'umido si raccoglie tre volte a settimana, e i bidoni vanno messi fuori la sera prima.", prompt: "Explain the new rule to a neighbor: From March 1 food waste is collected three times a week, and bins must be put out the night before.", tip: "Everyday words: \"messi fuori\", not \"esposti\".", explanation: "Turn the notice into everyday Italian." },
     ],
   },
   {
@@ -477,7 +481,7 @@ export const IT_B1_U30: Lesson[] = [
     level: "IT-B1",
     number: 8,
     title: "Listening Lab: Street Interviews",
-    summary: "Listen to people in an Italian city talking about its problems: traffic, rubbish, parking, noise. Catch the problem and the proposal.",
+    summary: "Listen to people in an Italian city talking about its problems: traffic, trash, parking, noise. Catch the problem and the proposal.",
     duration: "18 min",
     sections: [
       {
@@ -500,17 +504,17 @@ export const IT_B1_U30: Lesson[] = [
       {
         heading: "Interview 2: a shopkeeper",
         body: [
-          "Signor Pasquale, who has a shop in the centre: \"Il problema è la ZTL. Da quando l'hanno allargata, i clienti non vengono più: non sanno dove parcheggiare. Io non sono contro l'ambiente, eh, però il comune dovrebbe fare dei parcheggi fuori dal centro, con una navetta.\"",
+          "Signor Pasquale, who has a shop in the center: \"Il problema è la ZTL. Da quando l'hanno allargata, i clienti non vengono più: non sanno dove parcheggiare. Io non sono contro l'ambiente, eh, però il comune dovrebbe fare dei parcheggi fuori dal centro, con una navetta.\"",
           "\"Da quando\" (since) + passato prossimo, \"allargare\" (to enlarge), \"una navetta\" (a shuttle bus). The \"eh\" softens the statement.",
         ],
         examples: [
           { es: "Da quando l'hanno allargata, i clienti non vengono più.", en: "Since they enlarged it, customers don't come any more." },
           { es: "Non sanno dove parcheggiare.", en: "They don't know where to park." },
           { es: "Non sono contro l'ambiente.", en: "I'm not against the environment." },
-          { es: "Il comune dovrebbe fare dei parcheggi fuori dal centro.", en: "The council should build car parks outside the centre." },
+          { es: "Il comune dovrebbe fare dei parcheggi fuori dal centro.", en: "The city should build parking lots outside the center." },
         ],
         checkpoint: [
-          { type: "listen-choose", audio: "Il comune dovrebbe fare dei parcheggi fuori dal centro, con una navetta.", question: "What does Pasquale propose?", options: ["car parks outside the centre with a shuttle", "abolishing the ZTL", "free parking in the centre", "more bike lanes"], correctIndex: 0, explanation: "\"Parcheggi fuori dal centro, con una navetta\"." },
+          { type: "listen-choose", audio: "Il comune dovrebbe fare dei parcheggi fuori dal centro, con una navetta.", question: "What does Pasquale propose?", options: ["parking lots outside the center with a shuttle", "abolishing the ZTL", "free parking in the center", "more bike lanes"], correctIndex: 0, explanation: "\"Parcheggi fuori dal centro, con una navetta\"." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They don't know where to park.", answer: "Non sanno dove parcheggiare.", altAnswers: ["Non sanno dove lasciare la macchina."], explanation: "\"Dove\" + infinitive." },
         ],
       },
@@ -523,12 +527,12 @@ export const IT_B1_U30: Lesson[] = [
         examples: [
           { es: "La gente butta tutto per terra.", en: "People throw everything on the ground." },
           { es: "I cassonetti sono sempre pieni.", en: "The street bins are always full." },
-          { es: "Bisogna che il comune svuoti i cassonetti più spesso.", en: "The council needs to empty the bins more often." },
+          { es: "Bisogna che il comune svuoti i cassonetti più spesso.", en: "The city needs to empty the bins more often." },
           { es: "Bisogna che la gente impari l'educazione.", en: "People need to learn some manners." },
         ],
         checkpoint: [
           { type: "listen-choose", audio: "Per me è la sporcizia. La gente butta tutto per terra.", question: "What's Signora Rosa's complaint?", options: ["litter", "noise", "traffic", "parking"], correctIndex: 0, explanation: "\"La sporcizia\" = dirt, litter." },
-          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The council needs to [empty] the bins more often.", sentence: "Bisogna che il comune ___ i cassonetti più spesso.", answer: "svuoti", explanation: "Present subjunctive of \"svuotare\"." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The city needs to [empty] the bins more often.", sentence: "Bisogna che il comune ___ i cassonetti più spesso.", answer: "svuoti", explanation: "Present subjunctive of \"svuotare\"." },
         ],
       },
     ],
@@ -561,13 +565,13 @@ export const IT_B1_U30: Lesson[] = [
           "Each sentence below has one mistake. \"Il vetro va buttata\" is wrong: with \"andare\" + participle, the participle agrees with the subject. \"Il vetro va buttato\", \"la carta va buttata\", \"i giornali vanno buttati\", \"le bottiglie vanno buttate\".",
         ],
         examples: [
-          { es: "Il vetro va buttato nella campana.", en: "Glass must go in the bottle bank." },
+          { es: "Il vetro va buttato nella campana.", en: "Glass must go in the glass bin." },
           { es: "La carta va buttata il giovedì.", en: "Paper must be put out on Thursdays." },
           { es: "I giornali vanno legati.", en: "Newspapers must be tied up." },
           { es: "Le lattine vanno sciacquate.", en: "Cans must be rinsed." },
         ],
         checkpoint: [
-          { type: "fill-blank", prompt: "A learner wrote \"va buttata\". Write the Italian for the bold words.", en: "Glass [must be thrown] in the bottle bank.", sentence: "Il vetro ___ nella campana.", answer: "va buttato", explanation: "\"Il vetro\" is masculine singular." },
+          { type: "fill-blank", prompt: "A learner wrote \"va buttata\". Write the Italian for the bold words.", en: "Glass [must be thrown] in the glass bin.", sentence: "Il vetro ___ nella campana.", answer: "va buttato", explanation: "\"Il vetro\" is masculine singular." },
           { type: "translate", direction: "en-es", prompt: "A learner wrote \"vanno sciacquato\". Write it correctly: Cans must be rinsed.", source: "Cans must be rinsed.", answer: "Le lattine vanno sciacquate.", altAnswers: ["Le lattine vanno lavate."], explanation: "Feminine plural: \"sciacquate\"." },
         ],
       },
@@ -580,7 +584,7 @@ export const IT_B1_U30: Lesson[] = [
         examples: [
           { es: "Bisogna che ricicliamo di più.", en: "We need to recycle more." },
           { es: "È importante che paghiamo le tasse sui rifiuti.", en: "It's important that we pay the waste tax." },
-          { es: "Si potrebbero usare di più i mezzi.", en: "Public transport could be used more." },
+          { es: "Si potrebbero usare di più i mezzi.", en: "Public transportation could be used more." },
           { es: "Bisognerebbe usare più spesso la bici.", en: "We ought to use the bike more often." },
         ],
         checkpoint: [
@@ -614,7 +618,7 @@ export const IT_B1_U30: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"è importante che cercamo\". Write it correctly: It's important that we look for solutions.", source: "It's important that we look for solutions.", answer: "È importante che cerchiamo soluzioni.", altAnswers: ["È importante che cerchiamo delle soluzioni.", "È importante cercare soluzioni."], explanation: "\"Cerchiamo\": \"h\" + \"i\"." },
       { type: "fill-blank", prompt: "A learner wrote \"vanno buttato\". Write the Italian for the bold words.", en: "Bottles [must be thrown] in the glass.", sentence: "Le bottiglie ___ nel vetro.", answer: "vanno buttate", explanation: "Feminine plural." },
       { type: "fill-blank", prompt: "A learner wrote \"riciclamo\". Write the Italian for the bold words.", en: "It's necessary that we [recycle].", sentence: "È necessario che ___.", answer: "ricicliamo", explanation: "\"Ricicl-\" + \"-iamo\"." },
-      { type: "word-order", prompt: "Put the words in order to say: Public transport could be used more.", words: ["Si", "potrebbero", "usare", "di", "più", "i", "mezzi."], translation: "Public transport could be used more.", explanation: "\"Di più\" after the infinitive." },
+      { type: "word-order", prompt: "Put the words in order to say: Public transportation could be used more.", words: ["Si", "potrebbero", "usare", "di", "più", "i", "mezzi."], translation: "Public transportation could be used more.", explanation: "\"Di più\" after the infinitive." },
       { type: "multiple-choice", question: "Which sentence is correct?", options: ["Il cartone va buttato nella carta.", "Il cartone va buttata nella carta.", "Il cartone vanno buttato nella carta.", "Il cartone va buttato nel carta."], correctIndex: 0, explanation: "Agreement and \"nella\"." },
       { type: "dictation", audio: "Il vetro va buttato nella campana verde, non nell'indifferenziato.", explanation: "\"Va buttato\", \"nell'\"." },
       { type: "speak", text: "Bisogna che ricicliamo di più: il vetro va buttato nella campana e le bucce nell'umido.", prompt: "Fix it and say it: a learner said \"Bisogna che riciclamo di più: il vetro va buttata nella campana e le bucce nel umido.\"", tip: "\"Nell'umido\": link the two words, nel-LU-mi-do.", explanation: "Three fixes: \"ricicliamo\", \"buttato\", \"nell'\"." },
@@ -639,11 +643,11 @@ export const IT_B1_U30: Lesson[] = [
           { es: "Gentile Sindaco, Le scrivo in qualità di residente.", en: "Dear Mayor, I'm writing to you as a resident." },
           { es: "Vorrei segnalarLe due problemi.", en: "I'd like to bring two problems to your attention." },
           { es: "La ringrazio per l'attenzione.", en: "Thank you for your attention." },
-          { es: "In attesa di un Suo riscontro, porgo distinti saluti.", en: "Awaiting your reply, yours faithfully." },
+          { es: "In attesa di un Suo riscontro, porgo distinti saluti.", en: "I look forward to your reply. Sincerely," },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Thank you for your attention.", answer: "La ringrazio per l'attenzione.", altAnswers: ["La ringrazio dell'attenzione.", "Grazie per l'attenzione."], explanation: "\"La\" = you (formal), object." },
-          { type: "listen-choose", audio: "Vorrei segnalarLe due problemi del nostro quartiere.", question: "What is the writer doing?", options: ["reporting two problems in the area", "thanking the mayor", "asking for a job", "complaining about a neighbour"], correctIndex: 0, explanation: "\"Segnalare\" = to report, point out." },
+          { type: "listen-choose", audio: "Vorrei segnalarLe due problemi del nostro quartiere.", question: "What is the writer doing?", options: ["reporting two problems in the area", "thanking the mayor", "asking for a job", "complaining about a neighbor"], correctIndex: 0, explanation: "\"Segnalare\" = to report, point out." },
         ],
       },
       {
@@ -653,13 +657,13 @@ export const IT_B1_U30: Lesson[] = [
         ],
         examples: [
           { es: "Da mesi gli autobus passano ogni quaranta minuti.", en: "For months buses have been coming every forty minutes." },
-          { es: "Il parco è pieno di rifiuti.", en: "The park is full of rubbish." },
+          { es: "Il parco è pieno di rifiuti.", en: "The park is full of trash." },
           { es: "Sarebbe utile installare più cestini.", en: "It would be useful to install more bins." },
-          { es: "Propongo di organizzare una giornata di pulizia con i residenti.", en: "I propose organising a clean-up day with residents." },
+          { es: "Propongo di organizzare una giornata di pulizia con i residenti.", en: "I propose organizing a clean-up day with residents." },
         ],
         checkpoint: [
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It would be useful [to install] more bins.", sentence: "Sarebbe utile ___ più cestini.", answer: "installare", explanation: "\"Sarebbe utile\" + infinitive." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The park is full of rubbish.", answer: "Il parco è pieno di rifiuti.", altAnswers: ["Il parco è pieno di spazzatura.", "Il parco è pieno di immondizia."], explanation: "\"Pieno di\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The park is full of trash.", answer: "Il parco è pieno di rifiuti.", altAnswers: ["Il parco è pieno di spazzatura.", "Il parco è pieno di immondizia."], explanation: "\"Pieno di\"." },
         ],
       },
     ],
@@ -668,21 +672,21 @@ export const IT_B1_U30: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'd like to bring two problems to your attention.", answer: "Vorrei segnalarLe due problemi.", altAnswers: ["Vorrei segnalarle due problemi.", "Vorrei segnalare due problemi."], explanation: "\"Segnalare\" = to report." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "For months buses have been coming every forty minutes.", answer: "Da mesi gli autobus passano ogni quaranta minuti.", altAnswers: ["Gli autobus passano ogni quaranta minuti da mesi."], explanation: "\"Da\" + present." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "More bins ought to be installed.", answer: "Bisognerebbe installare più cestini.", altAnswers: ["Si dovrebbero installare più cestini.", "Si potrebbero installare più cestini."], explanation: "Conditional proposal." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I propose organising a clean-up day.", answer: "Propongo di organizzare una giornata di pulizia.", altAnswers: ["Propongo di organizzare una giornata per pulire il parco."], explanation: "\"Proporre di\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I propose organizing a clean-up day.", answer: "Propongo di organizzare una giornata di pulizia.", altAnswers: ["Propongo di organizzare una giornata per pulire il parco."], explanation: "\"Proporre di\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Buses should come more often.", answer: "Gli autobus dovrebbero passare più spesso.", altAnswers: ["Gli autobus dovrebbero passare più di frequente."], explanation: "\"Dovrebbero\" + infinitive." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Awaiting your reply, yours faithfully.", answer: "In attesa di un Suo riscontro, porgo distinti saluti.", altAnswers: ["In attesa di un Suo riscontro, distinti saluti.", "In attesa di una Sua risposta, distinti saluti."], explanation: "Formal closing." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Public transport is [slower than] in other cities.", sentence: "I mezzi sono ___ in altre città.", answer: "più lenti che", explanation: "\"Che\" before a preposition phrase." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I look forward to your reply. Sincerely,", answer: "In attesa di un Suo riscontro, porgo distinti saluti.", altAnswers: ["In attesa di un Suo riscontro, distinti saluti.", "In attesa di una Sua risposta, distinti saluti."], explanation: "Formal closing." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Public transportation is [slower than] in other cities.", sentence: "I mezzi sono ___ in altre città.", answer: "più lenti che", explanation: "\"Che\" before a preposition phrase." },
       { type: "word-order", prompt: "Put the words in order to say: Thank you for your attention.", words: ["La", "ringrazio", "per", "l'attenzione."], translation: "Thank you for your attention.", explanation: "Formal \"La\"." },
       { type: "multiple-choice", question: "Which opening suits a letter to the mayor?", options: ["Gentile Sindaco,", "Ciao Sindaco,", "Caro amico,", "Ehi,"], correctIndex: 0, explanation: "Formal opening." },
       { type: "dictation", audio: "Il Comune potrebbe installare più cestini nel parco.", explanation: "\"Potrebbe\" + infinitive: a polite proposal." },
-      { type: "speak", text: "Gentile Sindaco, Le scrivo per segnalarLe un problema: il parco è pieno di rifiuti. Propongo di installare più cestini.", prompt: "Read the start of your letter aloud: Dear Mayor, I'm writing to report a problem: the park is full of rubbish. I propose installing more bins.", tip: "Formal tone: steady and clear.", explanation: "Formal opening, problem, proposal." },
+      { type: "speak", text: "Gentile Sindaco, Le scrivo per segnalarLe un problema: il parco è pieno di rifiuti. Propongo di installare più cestini.", prompt: "Read the start of your letter aloud: Dear Mayor, I'm writing to report a problem: the park is full of trash. I propose installing more bins.", tip: "Formal tone: steady and clear.", explanation: "Formal opening, problem, proposal." },
     ],
   },
 ];
 
 export const IT_B1_U30_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Write a formal letter to the mayor of your Italian town (100-140 words). Introduce yourself as a resident, describe two problems in your area (transport, rubbish, traffic, noise or green spaces), propose at least two solutions, and close formally.",
+  prompt: "Write a formal letter to the mayor of your Italian town (100-140 words). Introduce yourself as a resident, describe two problems in your area (transportation, trash, traffic, noise or green spaces), propose at least two solutions, and close formally.",
   minWords: 90,
   maxWords: 150,
   rubric: [
@@ -690,7 +694,7 @@ export const IT_B1_U30_WRITING: WriteExercise = {
     "Describes two problems with concrete facts (da mesi, ogni ... minuti, pieno di)",
     "Makes proposals in the conditional (bisognerebbe, si potrebbe / si potrebbero, il Comune dovrebbe)",
     "Uses at least one impersonal phrase + present subjunctive (bisogna che, è necessario che, è importante che)",
-    "Uses environment and transport vocabulary accurately (le corse, i cestini, la raccolta differenziata, le piste ciclabili)",
+    "Uses environment and transportation vocabulary accurately (le corse, i cestini, la raccolta differenziata, le piste ciclabili)",
   ],
   modelAnswer: "Gentile Sindaca, Le scrivo in qualità di residente del quartiere Borgo Nuovo per segnalarLe due problemi. Il primo riguarda i trasporti: da mesi gli autobus della linea 4 passano ogni quaranta minuti e la sera non ci sono quasi. Molti anziani e studenti restano a casa o usano la macchina. Il secondo è il parco di via Verdi, che è sempre pieno di rifiuti perché ci sono pochissimi cestini. Bisognerebbe aumentare le corse serali, almeno fino alle 23. Inoltre sarebbe utile installare più cestini per la raccolta differenziata. Propongo anche di organizzare una giornata di pulizia con i residenti: sono sicura che molti parteciperebbero. È necessario che tutti facciamo la nostra parte. La ringrazio per l'attenzione. In attesa di un Suo riscontro, porgo distinti saluti. Elena Ferri",
   explanation: "The letter keeps \"Lei\" throughout (\"Le scrivo\", \"segnalarLe\", \"La ringrazio\"), states two problems with facts, and proposes solutions with the conditional (\"bisognerebbe\", \"parteciperebbero\") and the subjunctive (\"è necessario che ... facciamo\").",

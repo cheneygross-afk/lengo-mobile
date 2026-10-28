@@ -156,7 +156,7 @@ export const IT_A1_U07_EXTRA: Lesson[] = [
       { type: "listen-choose", audio: "sette", question: "What did you hear?", options: ["sette", "sete", "seti", "setta"], correctIndex: 0, explanation: "SET-te: seven." },
       { type: "dictation", audio: "Una frittata e un bicchiere di latte.", explanation: "tt, tt, cc, tt." },
       { type: "dictation", audio: "La nonna prepara il pane.", explanation: "\"Nonna\" double, \"pane\" single." },
-      { type: "dictation", audio: "Sette spaghetti e una pizza.", explanation: "\"Sette\" (tt), \"spaghetti\" (tt), \"pizza\" (zz)." },
+      { type: "dictation", audio: "Gli spaghetti e sette pizze.", explanation: "\"Spaghetti\" (tt), \"sette\" (tt), \"pizze\" (zz)." },
       {
         type: "speak",
         text: "Pane e panna, sete e sette, nona e nonna.",

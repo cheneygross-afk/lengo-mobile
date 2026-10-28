@@ -18,13 +18,14 @@ export const IT_B1_U32: Lesson[] = [
         body: [
           "To pass on what someone says, use a reporting verb + \"che\": \"Marco dice che arriva alle otto\" (Marco says he's arriving at eight). When the reporting verb is in the present, the tenses don't change: present stays present, past stays past, future stays future.",
           "Common reporting verbs: \"dire\", \"scrivere\", \"rispondere\", \"spiegare\" (to explain), \"raccontare\" (to tell a story), \"aggiungere\" (to add).",
+          "The person you tell takes \"a\": \"Dico a Marco che arrivo\", \"Gli dico che arrivo\". Don't confuse \"dire che\" (reports the content) with \"parlare di\" (names the topic): \"Parla del lavoro\". In storytelling you'll hear \"fa\" for says: \"E lui fa: «Non lo so»\". For cautious hearsay, \"pare che\" or \"sembra che\" + subjunctive is softer than \"dicono che\": \"Pare che chiudano il negozio\".",
         ],
         examples: [
           { es: "Marco dice che arriva alle otto.", en: "Marco says he's arriving at eight." },
           { es: "Giulia scrive che sta bene.", en: "Giulia writes that she's well." },
           { es: "Il tecnico dice che è stato un guasto.", en: "The technician says it was a fault." },
-          { es: "Mamma dice che verrà domenica.", en: "Mum says she'll come on Sunday." },
-          { es: "Spiega che il negozio è chiuso per ferie.", en: "She explains that the shop is closed for the holidays." },
+          { es: "Mamma dice che verrà domenica.", en: "Mom says she'll come on Sunday." },
+          { es: "Spiega che il negozio è chiuso per ferie.", en: "She explains that the shop is closed for vacation." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Marco says he's arriving at eight.", answer: "Marco dice che arriva alle otto.", altAnswers: ["Marco dice che arriverà alle otto."], explanation: "Present reporting verb: no tense change." },
@@ -40,7 +41,7 @@ export const IT_B1_U32: Lesson[] = [
         examples: [
           { es: "Luca dice che è stanco e che la sua macchina è rotta.", en: "Luca says he's tired and his car is broken." },
           { es: "Anna dice che mi chiama stasera.", en: "Anna says she'll call me tonight." },
-          { es: "I vicini dicono che il loro cane non abbaia mai.", en: "The neighbours say their dog never barks." },
+          { es: "I vicini dicono che il loro cane non abbaia mai.", en: "The neighbors say their dog never barks." },
           { es: "Dice che ci aspetta al bar.", en: "She says she's waiting for us at the bar." },
         ],
         checkpoint: [
@@ -68,10 +69,10 @@ export const IT_B1_U32: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Giulia writes that she's well.", answer: "Giulia scrive che sta bene.", altAnswers: [], explanation: "Present: no change." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The technician says it was a fault.", answer: "Il tecnico dice che è stato un guasto.", altAnswers: ["Il tecnico dice che si è trattato di un guasto."], explanation: "Past stays past." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Mum says she'll come on Sunday.", answer: "Mamma dice che verrà domenica.", altAnswers: ["La mamma dice che verrà domenica.", "Mamma dice che viene domenica."], explanation: "Future stays future." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Mom says she'll come on Sunday.", answer: "Mamma dice che verrà domenica.", altAnswers: ["La mamma dice che verrà domenica.", "Mamma dice che viene domenica."], explanation: "Future stays future." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The boss says the meeting is postponed.", answer: "Il capo dice che la riunione è rimandata.", altAnswers: ["Il capo dice che la riunione è stata rimandata.", "Il capo dice che la riunione è spostata."], explanation: "\"Rimandare\" = to postpone." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She says she's waiting for us at the bar.", answer: "Dice che ci aspetta al bar.", altAnswers: ["Lei dice che ci aspetta al bar."], explanation: "\"Vi aspetto\" → \"ci aspetta\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The neighbours say their dog never barks.", answer: "I vicini dicono che il loro cane non abbaia mai.", altAnswers: [], explanation: "\"Il nostro\" → \"il loro\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The neighbors say their dog never barks.", answer: "I vicini dicono che il loro cane non abbaia mai.", altAnswers: [], explanation: "\"Il nostro\" → \"il loro\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He explains [that] the shop is closed.", sentence: "Spiega ___ il negozio è chiuso.", answer: "che", explanation: "Reporting verb + \"che\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Sara says she [has] a new job.", sentence: "Sara dice che ___ un nuovo lavoro.", answer: "ha", explanation: "\"Ho\" → \"ha\": third person." },
       { type: "word-order", prompt: "Put the words in order to say: According to him, the film is boring.", words: ["Secondo", "lui,", "il", "film", "è", "noioso."], translation: "According to him, the film is boring.", explanation: "\"Secondo lui\" + indicative." },
@@ -93,6 +94,7 @@ export const IT_B1_U32: Lesson[] = [
         body: [
           "When the reporting verb is in the past (\"ha detto\", \"disse\", \"diceva\"), the tenses shift back. The present becomes the imperfetto: \"Sono stanco\" → \"Ha detto che era stanco\". \"Abito a Pisa\" → \"Ha detto che abitava a Pisa\".",
           "The imperfetto stays the same: \"Ero malato\" → \"Ha detto che era malato\".",
+          "When the subject doesn't change, Italian often prefers \"di\" + infinitive: \"Ha detto di essere stanco\" = \"Ha detto che era stanco\". For an earlier event, use the past infinitive: \"Ha detto di aver perso il treno\". In stories and news you'll meet \"disse che\" (passato remoto): the shifts are exactly the same.",
         ],
         examples: [
           { es: "Ha detto che era stanco.", en: "He said he was tired." },
@@ -168,12 +170,13 @@ export const IT_B1_U32: Lesson[] = [
         body: [
           "If you report later, time words shift too: \"oggi\" → \"quel giorno\", \"domani\" → \"il giorno dopo\" (or \"l'indomani\"), \"ieri\" → \"il giorno prima\", \"la settimana prossima\" → \"la settimana dopo\", \"un anno fa\" → \"un anno prima\", \"adesso\" → \"in quel momento\" or \"allora\".",
           "If you report on the same day, keep them: at 10 a.m. Anna says \"Parto domani\"; at noon you say \"Anna ha detto che parte domani\".",
+          "More pairs: \"stasera\" → \"quella sera\", \"stamattina\" → \"quella mattina\", \"l'anno scorso\" → \"l'anno prima\", \"fra due giorni\" → \"due giorni dopo\". Don't over-shift: the change depends on when and where you report, not on a rule to apply blindly.",
         ],
         examples: [
           { es: "Ha detto che sarebbe partito il giorno dopo.", en: "He said he'd leave the next day." },
           { es: "Mi ha detto che era arrivata il giorno prima.", en: "She told me she'd arrived the day before." },
           { es: "Ha detto che in quel momento era occupato.", en: "He said he was busy at that moment." },
-          { es: "Hanno detto che si erano sposati un anno prima.", en: "They said they'd got married a year earlier." },
+          { es: "Hanno detto che si erano sposati un anno prima.", en: "They said they'd gotten married a year earlier." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He said he'd leave the next day.", answer: "Ha detto che sarebbe partito il giorno dopo.", altAnswers: ["Ha detto che sarebbe partito l'indomani.", "Ha detto che sarebbe partito il giorno seguente."], explanation: "\"Domani\" → \"il giorno dopo\"." },
@@ -204,7 +207,7 @@ export const IT_B1_U32: Lesson[] = [
         examples: [
           { es: "Carla ha detto che il giorno dopo avrebbe portato la sua torta.", en: "Carla said she'd bring her cake the next day." },
           { es: "Ha detto che quella sera non poteva uscire.", en: "He said he couldn't go out that evening." },
-          { es: "Mi ha detto che la settimana dopo avrebbe cambiato casa.", en: "She told me she'd move house the following week." },
+          { es: "Mi ha detto che la settimana dopo avrebbe cambiato casa.", en: "She told me she'd move the following week." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He said he couldn't go out that evening.", answer: "Ha detto che quella sera non poteva uscire.", altAnswers: ["Ha detto che non poteva uscire quella sera."], explanation: "\"Stasera\" → \"quella sera\"." },
@@ -215,9 +218,9 @@ export const IT_B1_U32: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She told me she'd arrived the day before.", answer: "Mi ha detto che era arrivata il giorno prima.", altAnswers: ["Mi ha detto che era arrivata il giorno precedente."], explanation: "\"Ieri\" → \"il giorno prima\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He said he was busy at that moment.", answer: "Ha detto che in quel momento era occupato.", altAnswers: ["Ha detto che era occupato in quel momento."], explanation: "\"Adesso\" → \"in quel momento\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They said they'd got married a year earlier.", answer: "Hanno detto che si erano sposati un anno prima.", altAnswers: [], explanation: "\"Fa\" → \"prima\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They said they'd gotten married a year earlier.", answer: "Hanno detto che si erano sposati un anno prima.", altAnswers: [], explanation: "\"Fa\" → \"prima\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She said she liked that city.", answer: "Ha detto che quella città le piaceva.", altAnswers: ["Ha detto che le piaceva quella città."], explanation: "\"Questa\" → \"quella\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She told me she'd move house the following week.", answer: "Mi ha detto che la settimana dopo avrebbe cambiato casa.", altAnswers: ["Mi ha detto che avrebbe cambiato casa la settimana dopo.", "Mi ha detto che si sarebbe trasferita la settimana dopo."], explanation: "\"La settimana prossima\" → \"la settimana dopo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She told me she'd move the following week.", answer: "Mi ha detto che la settimana dopo avrebbe cambiato casa.", altAnswers: ["Mi ha detto che avrebbe cambiato casa la settimana dopo.", "Mi ha detto che si sarebbe trasferita la settimana dopo."], explanation: "\"La settimana prossima\" → \"la settimana dopo\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He said that day was his birthday.", answer: "Ha detto che quel giorno era il suo compleanno.", altAnswers: [], explanation: "\"Oggi\" → \"quel giorno\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He said he'd call [the next day].", sentence: "Ha detto che avrebbe chiamato ___.", answer: "il giorno dopo", altAnswers: ["l'indomani", "il giorno seguente"], explanation: "\"Domani\" → \"il giorno dopo\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "She said she'd wait [there].", sentence: "Ha detto che avrebbe aspettato ___.", answer: "lì", altAnswers: ["là"], explanation: "\"Qui\" → \"lì\"." },
@@ -239,7 +242,8 @@ export const IT_B1_U32: Lesson[] = [
         heading: "Yes / no questions: se",
         body: [
           "A yes / no question is reported with \"chiedere se\" (to ask if): \"Vieni?\" → \"Mi ha chiesto se venivo\". \"Hai fame?\" → \"Mi ha chiesto se avevo fame\". The same tense shifts apply after a past reporting verb. Use \"domandare\" as an alternative to \"chiedere\".",
-          "In formal writing, the imperfect subjunctive is also used after \"se\": \"Mi ha chiesto se venissi\". In speech, the indicative is normal.",
+          "In formal writing, the imperfect subjunctive is also used after \"se\": \"Mi ha chiesto se venissi\". Just recognize it for now (that tense comes at Upper Intermediate); in speech the indicative is normal.",
+          "The same structure follows \"non so\", \"vorrei sapere\" and \"mi chiedo\" (I wonder): \"Non so se viene\", \"Mi chiedo dove abita\". It's also the polite way to ask: \"Mi sa dire dove si trova la stazione?\" (can you tell me where the station is?) sounds softer than a direct question. Italian has no question word order to undo, so a reported question looks just like a statement.",
         ],
         examples: [
           { es: "Mi ha chiesto se venivo alla festa.", en: "He asked me if I was coming to the party." },
@@ -298,7 +302,7 @@ export const IT_B1_U32: Lesson[] = [
       { type: "word-order", prompt: "Put the words in order to say: He asked me where I worked.", words: ["Mi", "ha", "chiesto", "dove", "lavoravo."], translation: "He asked me where I worked.", explanation: "No \"che\" before \"dove\"." },
       { type: "multiple-choice", question: "\"Vieni anche tu?\" reported:", options: ["Mi ha chiesto se venivo anch'io.", "Mi ha chiesto che venivo anch'io.", "Mi ha chiesto se vieni anche tu?", "Mi ha detto se venivo anch'io."], correctIndex: 0, explanation: "\"Chiedere se\"; \"tu\" → \"io\"." },
       { type: "dictation", audio: "Mi ha chiesto dove abitavo e perché ero venuto in Italia.", explanation: "Two reported questions." },
-      { type: "speak", text: "Mi ha chiesto come mi chiamavo, dove abitavo e se avevo la patente.", prompt: "Report the interview: She asked me what my name was, where I lived and if I had a driving licence.", tip: "No question intonation: it's a statement.", explanation: "Question words and \"se\" + imperfetto." },
+      { type: "speak", text: "Mi ha chiesto come mi chiamavo, dove abitavo e se avevo la patente.", prompt: "Report the interview: She asked me what my name was, where I lived and if I had a driver's license.", tip: "No question intonation: it's a statement.", explanation: "Question words and \"se\" + imperfetto." },
     ],
   },
   {
@@ -314,6 +318,7 @@ export const IT_B1_U32: Lesson[] = [
         body: [
           "An imperative is reported with \"dire / chiedere a qualcuno di\" + infinitive: \"Aspetta!\" → \"Mi ha detto di aspettare\". \"Non fate rumore!\" → \"Ci hanno chiesto di non fare rumore\". The infinitive doesn't change with the tense, so this is the easiest reported form.",
           "\"Chiedere di\" is a polite request; \"dire di\" is neutral; \"ordinare di\" is an order.",
+          "A \"Lei\" command works the same way: \"Si accomodi!\" → \"Mi ha detto di accomodarmi\". With a named person, use \"a\": \"Ho detto a Luca di aspettare\" → \"Gli ho detto di aspettare\". \"Dire di sì / di no\" (to say yes / no) also takes \"di\": \"Le ho chiesto di uscire e ha detto di sì\".",
         ],
         examples: [
           { es: "Mi ha detto di aspettare.", en: "He told me to wait." },
@@ -334,7 +339,7 @@ export const IT_B1_U32: Lesson[] = [
         examples: [
           { es: "Mi ha detto di chiamarla.", en: "She told me to call her." },
           { es: "Mi ha detto di non toccarlo.", en: "He told me not to touch it." },
-          { es: "La mamma ci ha detto di sbrigarci.", en: "Mum told us to hurry up." },
+          { es: "La mamma ci ha detto di sbrigarci.", en: "Mom told us to hurry up." },
           { es: "Gli ho chiesto di aiutarmi.", en: "I asked him to help me." },
         ],
         checkpoint: [
@@ -363,7 +368,7 @@ export const IT_B1_U32: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He told me to wait.", answer: "Mi ha detto di aspettare.", altAnswers: [], explanation: "\"Aspetta!\" → \"di aspettare\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They asked us not to make noise.", answer: "Ci hanno chiesto di non fare rumore.", altAnswers: ["Ci hanno detto di non fare rumore."], explanation: "\"Di non\" + infinitive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He told me not to touch it.", answer: "Mi ha detto di non toccarlo.", altAnswers: ["Mi ha detto di non toccarla."], explanation: "Pronoun on the infinitive." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Mum told us to hurry up.", answer: "La mamma ci ha detto di sbrigarci.", altAnswers: ["Mamma ci ha detto di sbrigarci.", "La mamma ci ha detto di muoverci."], explanation: "Reflexive: \"sbrigarci\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Mom told us to hurry up.", answer: "La mamma ci ha detto di sbrigarci.", altAnswers: ["Mamma ci ha detto di sbrigarci.", "La mamma ci ha detto di muoverci."], explanation: "Reflexive: \"sbrigarci\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She asked me to close the door.", answer: "Mi ha chiesto di chiudere la porta.", altAnswers: [], explanation: "Polite request → \"chiedere di\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They forbade us to go in.", answer: "Ci hanno proibito di entrare.", altAnswers: ["Ci hanno vietato di entrare."], explanation: "\"Proibire di\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He says [to call him] after six.", sentence: "Dice ___ dopo le sei.", answer: "di chiamarlo", explanation: "\"Dire di\" + infinitive + pronoun." },
@@ -371,7 +376,7 @@ export const IT_B1_U32: Lesson[] = [
       { type: "word-order", prompt: "Put the words in order to say: The teacher told us to turn off our phones.", words: ["La", "prof", "ci", "ha", "detto", "di", "spegnere", "i", "telefoni."], translation: "The teacher told us to turn off our phones.", explanation: "\"Dire di\" + infinitive." },
       { type: "multiple-choice", question: "\"Non uscire!\" reported:", options: ["Mi ha detto di non uscire.", "Mi ha detto che non esco.", "Mi ha detto non uscire.", "Mi ha detto di non esci."], correctIndex: 0, explanation: "\"Di non\" + infinitive." },
       { type: "dictation", audio: "Il medico mi ha detto di riposare e di bere molta acqua.", explanation: "Two commands, two \"di\"." },
-      { type: "speak", text: "La vicina ci ha chiesto di non fare rumore e di chiudere il portone.", prompt: "Report it: The neighbour asked us not to make noise and to close the main door.", tip: "Repeat \"di\" before each infinitive.", explanation: "\"Chiedere di\" + infinitive." },
+      { type: "speak", text: "La vicina ci ha chiesto di non fare rumore e di chiudere il portone.", prompt: "Report it: The neighbor asked us not to make noise and to close the main door.", tip: "Repeat \"di\" before each infinitive.", explanation: "\"Chiedere di\" + infinitive." },
     ],
   },
   {
@@ -412,7 +417,7 @@ export const IT_B1_U32: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He explained that he had never driven.", answer: "Ha spiegato che non aveva mai guidato.", altAnswers: [], explanation: "\"Non ho mai guidato\" → \"non aveva mai guidato\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They replied that they would think about it.", answer: "Hanno risposto che ci avrebbero pensato.", altAnswers: [], explanation: "\"Ci penseremo\" → \"ci avrebbero pensato\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He said he [lived] in Turin.", sentence: "Ha detto che ___ a Torino.", answer: "viveva", altAnswers: ["abitava"], explanation: "Present → imperfetto." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "She said she [had found] a flat.", sentence: "Ha detto che ___ un appartamento.", answer: "aveva trovato", explanation: "Trapassato." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "She said she [had found] an apartment.", sentence: "Ha detto che ___ un appartamento.", answer: "aveva trovato", explanation: "Trapassato." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "They said they [would come back] later.", sentence: "Hanno detto che ___ più tardi.", answer: "sarebbero tornati", altAnswers: ["sarebbero tornate", "sarebbero ritornati"], explanation: "Conditional past with \"essere\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He said he [was going out] with friends.", sentence: "Ha detto che ___ con gli amici.", answer: "usciva", explanation: "\"Esco\" → \"usciva\"." },
       { type: "word-order", prompt: "Put the words in order to say: She told me she had already paid.", words: ["Mi", "ha", "detto", "che", "aveva", "già", "pagato."], translation: "She told me she had already paid.", explanation: "\"Già\" between auxiliary and participle." },
@@ -453,7 +458,7 @@ export const IT_B1_U32: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I asked her to call me back.", answer: "Le ho chiesto di richiamarmi.", altAnswers: [], explanation: "\"Le\" + \"chiedere di\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He asked me if I spoke Italian.", answer: "Mi ha chiesto se parlavo italiano.", altAnswers: ["Mi ha chiesto se parlavo l'italiano.", "Mi ha chiesto se parlassi italiano."], explanation: "\"Se\" + imperfetto." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They asked us what we were doing.", answer: "Ci hanno chiesto cosa facevamo.", altAnswers: ["Ci hanno chiesto che cosa facevamo.", "Ci hanno chiesto cosa stavamo facendo."], explanation: "\"Cosa fate?\" → \"cosa facevamo\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The policeman told me to stop.", answer: "Il vigile mi ha detto di fermarmi.", altAnswers: ["Il poliziotto mi ha detto di fermarmi.", "L'agente mi ha detto di fermarmi."], explanation: "Reflexive infinitive: \"fermarmi\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The police officer told me to stop.", answer: "Il vigile mi ha detto di fermarmi.", altAnswers: ["Il poliziotto mi ha detto di fermarmi.", "L'agente mi ha detto di fermarmi."], explanation: "Reflexive infinitive: \"fermarmi\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She asked me when the film started.", answer: "Mi ha chiesto quando cominciava il film.", altAnswers: ["Mi ha chiesto quando iniziava il film.", "Mi ha chiesto a che ora cominciava il film."], explanation: "\"Quando comincia?\" → \"quando cominciava\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "My boss told me not to worry.", answer: "Il mio capo mi ha detto di non preoccuparmi.", altAnswers: ["Il capo mi ha detto di non preoccuparmi."], explanation: "\"Non ti preoccupare\" → \"di non preoccuparmi\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He asked me why I was laughing.", answer: "Mi ha chiesto perché ridevo.", altAnswers: ["Mi ha domandato perché ridevo."], explanation: "\"Perché ridi?\" → \"perché ridevo\"." },
@@ -558,13 +563,13 @@ export const IT_B1_U32: Lesson[] = [
           "Note the formal imperative with \"Lei\": \"Le dica\" (tell her), \"mi richiami\" (call me back). \"Il preventivo\" is a quote (an estimate).",
         ],
         examples: [
-          { es: "Cercavo la dottoressa Conti.", en: "I was looking for Dr Conti." },
+          { es: "Cercavo la dottoressa Conti.", en: "I was looking for Dr. Conti." },
           { es: "Vuole lasciare un messaggio?", en: "Would you like to leave a message?" },
           { es: "Le dica che il preventivo è pronto.", en: "Tell her the quote is ready." },
           { es: "Mi richiami domani, se può.", en: "Call me back tomorrow, if you can." },
         ],
         checkpoint: [
-          { type: "listen-choose", audio: "Le dica che il preventivo è pronto e che glielo mando entro stasera.", question: "What's the message?", options: ["The quote is ready and will be sent by this evening.", "The quote is late.", "The meeting is cancelled.", "He'll come in person."], correctIndex: 0, explanation: "\"Il preventivo è pronto\", \"entro stasera\"." },
+          { type: "listen-choose", audio: "Le dica che il preventivo è pronto e che glielo mando entro stasera.", question: "What's the message?", options: ["The quote is ready and will be sent by this evening.", "The quote is late.", "The meeting is canceled.", "He'll come in person."], correctIndex: 0, explanation: "\"Il preventivo è pronto\", \"entro stasera\"." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Would you like to leave a message? (formal)", answer: "Vuole lasciare un messaggio?", altAnswers: ["Desidera lasciare un messaggio?", "Vuole lasciarle un messaggio?"], explanation: "Formal \"vuole\"." },
         ],
       },
@@ -581,7 +586,7 @@ export const IT_B1_U32: Lesson[] = [
           { es: "Sono Paolo dell'amministrazione.", en: "It's Paolo from accounts." },
         ],
         checkpoint: [
-          { type: "multiple-choice", question: "What does Paolo want to know?", options: ["if Dr Conti has signed the contract", "when the meeting ends", "where the invoice is", "who Bianchi is"], correctIndex: 0, explanation: "\"Chiedile se ha firmato il contratto\"." },
+          { type: "multiple-choice", question: "What does Paolo want to know?", options: ["if Dr. Conti has signed the contract", "when the meeting ends", "where the invoice is", "who Bianchi is"], correctIndex: 0, explanation: "\"Chiedile se ha firmato il contratto\"." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll tell her as soon as she comes out.", answer: "Glielo dico appena esce.", altAnswers: ["Glielo dico non appena esce.", "Glielo dirò appena esce."], explanation: "\"Glielo\" = it to her." },
         ],
       },
@@ -592,21 +597,21 @@ export const IT_B1_U32: Lesson[] = [
           "Silvia shifts the tenses (\"era\", \"avrebbe mandato\"), keeps \"stasera\" and \"domani\" (same day), and turns commands into \"chiedere di\".",
         ],
         examples: [
-          { es: "Ha chiamato il signor Bianchi.", en: "Mr Bianchi called." },
+          { es: "Ha chiamato il signor Bianchi.", en: "Mr. Bianchi called." },
           { es: "Ha detto che il preventivo era pronto.", en: "He said the quote was ready." },
           { es: "Le ha chiesto di richiamarlo domani.", en: "He asked you to call him back tomorrow." },
           { es: "Mi ha chiesto se Lei aveva firmato il contratto.", en: "He asked me if you had signed the contract." },
         ],
         checkpoint: [
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He said he [would send] it to you by this evening.", sentence: "Ha detto che glielo ___ entro stasera.", answer: "avrebbe mandato", altAnswers: ["avrebbe inviato"], explanation: "Future → conditional past." },
-          { type: "listen-choose", audio: "Le ha chiesto di richiamarlo domani.", question: "What should the manager do?", options: ["call Mr Bianchi back tomorrow", "call Paolo now", "sign the contract", "send the quote"], correctIndex: 0, explanation: "\"Richiamarlo\" = call him back." },
+          { type: "listen-choose", audio: "Le ha chiesto di richiamarlo domani.", question: "What should the manager do?", options: ["call Mr. Bianchi back tomorrow", "call Paolo now", "sign the contract", "send the quote"], correctIndex: 0, explanation: "\"Richiamarlo\" = call him back." },
         ],
       },
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm sorry, she's in a meeting.", answer: "Mi dispiace, è in riunione.", altAnswers: ["Mi spiace, è in riunione."], explanation: "\"In riunione\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Tell her the quote is ready. (formal)", answer: "Le dica che il preventivo è pronto.", altAnswers: [], explanation: "Formal imperative \"dica\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Mr Bianchi called.", answer: "Ha chiamato il signor Bianchi.", altAnswers: ["Il signor Bianchi ha chiamato.", "Ha telefonato il signor Bianchi."], explanation: "Subject after the verb: natural for news." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Mr. Bianchi called.", answer: "Ha chiamato il signor Bianchi.", altAnswers: ["Il signor Bianchi ha chiamato.", "Ha telefonato il signor Bianchi."], explanation: "Subject after the verb: natural for news." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He said the quote was ready.", answer: "Ha detto che il preventivo era pronto.", altAnswers: [], explanation: "\"È\" → \"era\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He asked you to call him back. (formal)", answer: "Le ha chiesto di richiamarlo.", altAnswers: ["Ha chiesto di richiamarlo."], explanation: "\"Le\" = to you (formal)." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Paolo said the invoice hadn't arrived yet.", answer: "Paolo ha detto che la fattura non era ancora arrivata.", altAnswers: [], explanation: "\"Non è arrivata\" → \"non era arrivata\"." },
@@ -615,7 +620,7 @@ export const IT_B1_U32: Lesson[] = [
       { type: "word-order", prompt: "Put the words in order to say: Would you like to leave a message?", words: ["Vuole", "lasciare", "un", "messaggio?"], translation: "Would you like to leave a message?", explanation: "Formal \"vuole\"." },
       { type: "multiple-choice", question: "Why does Silvia keep \"domani\" and \"stasera\"?", options: ["She reports on the same day.", "They never change.", "It's more formal.", "She forgot to change them."], correctIndex: 0, explanation: "Same-day reporting: time words stay." },
       { type: "dictation", audio: "Ha chiamato il signor Bianchi: Le ha chiesto di richiamarlo domani.", explanation: "Reported request." },
-      { type: "speak", text: "Dottoressa, ha chiamato Paolo: ha detto che la fattura non era ancora arrivata e mi ha chiesto se Lei aveva firmato il contratto.", prompt: "Pass on Paolo's message to Dr Conti: Paolo called: he said the invoice hadn't arrived yet and he asked me if you'd signed the contract.", tip: "Formal \"Lei\" for the manager.", explanation: "Statement + question, past reporting verb." },
+      { type: "speak", text: "Dottoressa, ha chiamato Paolo: ha detto che la fattura non era ancora arrivata e mi ha chiesto se Lei aveva firmato il contratto.", prompt: "Pass on Paolo's message to Dr. Conti: Paolo called: he said the invoice hadn't arrived yet and he asked me if you'd signed the contract.", tip: "Formal \"Lei\" for the manager.", explanation: "Statement + question, past reporting verb." },
     ],
   },
   {
@@ -634,14 +639,14 @@ export const IT_B1_U32: Lesson[] = [
           "Notes are written later, so use the past reporting verb with the tense, person and time changes.",
         ],
         examples: [
-          { es: "La signora Esposito ha detto che l'ascensore era rotto da due settimane.", en: "Mrs Esposito said the lift had been broken for two weeks." },
-          { es: "Il signor Ricci ha detto che avrebbe chiamato il tecnico il giorno dopo.", en: "Mr Ricci said he'd call the technician the next day." },
+          { es: "La signora Esposito ha detto che l'ascensore era rotto da due settimane.", en: "Mrs. Esposito said the elevator had been broken for two weeks." },
+          { es: "Il signor Ricci ha detto che avrebbe chiamato il tecnico il giorno dopo.", en: "Mr. Ricci said he'd call the technician the next day." },
           { es: "Giorgio ha chiesto quanto sarebbe costata la riparazione.", en: "Giorgio asked how much the repair would cost." },
           { es: "L'amministratrice ci ha chiesto di mandarle le proposte entro venerdì.", en: "The administrator asked us to send her our proposals by Friday." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Giorgio asked how much the repair would cost.", answer: "Giorgio ha chiesto quanto sarebbe costata la riparazione.", altAnswers: ["Giorgio ha chiesto quanto costava la riparazione."], explanation: "Future question → conditional past." },
-          { type: "listen-choose", audio: "Il signor Ricci ha detto che avrebbe chiamato il tecnico il giorno dopo.", question: "What will Mr Ricci do?", options: ["call the technician", "repair the lift himself", "pay for the repair", "send the proposals"], correctIndex: 0, explanation: "\"Avrebbe chiamato il tecnico\"." },
+          { type: "listen-choose", audio: "Il signor Ricci ha detto che avrebbe chiamato il tecnico il giorno dopo.", question: "What will Mr. Ricci do?", options: ["call the technician", "repair the elevator himself", "pay for the repair", "send the proposals"], correctIndex: 0, explanation: "\"Avrebbe chiamato il tecnico\"." },
         ],
       },
       {
@@ -651,29 +656,29 @@ export const IT_B1_U32: Lesson[] = [
         ],
         examples: [
           { es: "Erano presenti dodici condòmini.", en: "Twelve residents were present." },
-          { es: "Il signor Ricci ha proposto di cambiare ditta.", en: "Mr Ricci proposed changing company." },
-          { es: "L'amministratrice ha ricordato che la rata scade a maggio.", en: "The administrator reminded us that the instalment is due in May." },
+          { es: "Il signor Ricci ha proposto di cambiare ditta.", en: "Mr. Ricci proposed switching companies." },
+          { es: "L'amministratrice ha ricordato che la rata scade a maggio.", en: "The administrator reminded us that the installment is due in May." },
           { es: "Si è deciso di chiedere tre preventivi.", en: "It was decided to ask for three quotes." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It was decided to ask for three quotes.", answer: "Si è deciso di chiedere tre preventivi.", altAnswers: ["Abbiamo deciso di chiedere tre preventivi."], explanation: "Impersonal \"si è deciso di\"." },
-          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Mr Ricci [proposed changing] company.", sentence: "Il signor Ricci ___ ditta.", answer: "ha proposto di cambiare", explanation: "\"Proporre di\" + infinitive." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Mr. Ricci [proposed switching] companies.", sentence: "Il signor Ricci ___ ditta.", answer: "ha proposto di cambiare", explanation: "\"Proporre di\" + infinitive." },
         ],
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Mrs Esposito said the lift was broken.", answer: "La signora Esposito ha detto che l'ascensore era rotto.", altAnswers: [], explanation: "\"È\" → \"era\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Mr Ricci said he would call the technician.", answer: "Il signor Ricci ha detto che avrebbe chiamato il tecnico.", altAnswers: [], explanation: "\"Chiamerò\" → \"avrebbe chiamato\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Mrs. Esposito said the elevator was broken.", answer: "La signora Esposito ha detto che l'ascensore era rotto.", altAnswers: [], explanation: "\"È\" → \"era\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Mr. Ricci said he would call the technician.", answer: "Il signor Ricci ha detto che avrebbe chiamato il tecnico.", altAnswers: [], explanation: "\"Chiamerò\" → \"avrebbe chiamato\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The administrator asked us to send her the proposals.", answer: "L'amministratrice ci ha chiesto di mandarle le proposte.", altAnswers: ["L'amministratrice ci ha chiesto di inviarle le proposte."], explanation: "\"Mandatemi\" → \"di mandarle\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Twelve residents were present.", answer: "Erano presenti dodici condòmini.", altAnswers: ["Erano presenti dodici condomini.", "C'erano dodici condòmini."], explanation: "\"Condòmino\" = resident owner; the accent only shows the stress." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Giorgio asked if the repair was urgent.", answer: "Giorgio ha chiesto se la riparazione era urgente.", altAnswers: [], explanation: "\"Se\" + imperfetto." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She reminded us that the meeting was on Monday.", answer: "Ci ha ricordato che la riunione era lunedì.", altAnswers: ["Ha ricordato che la riunione era lunedì."], explanation: "\"Ricordare che\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It was decided to wait.", answer: "Si è deciso di aspettare.", altAnswers: ["Abbiamo deciso di aspettare."], explanation: "\"Si è deciso di\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He said the lift [had been] broken for two weeks.", sentence: "Ha detto che l'ascensore ___ rotto da due settimane.", answer: "era", explanation: "\"Da\" + imperfetto for a state still going on then." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He said the elevator [had been] broken for two weeks.", sentence: "Ha detto che l'ascensore ___ rotto da due settimane.", answer: "era", explanation: "\"Da\" + imperfetto for a state still going on then." },
       { type: "word-order", prompt: "Put the words in order to say: She asked us to reply by Friday.", words: ["Ci", "ha", "chiesto", "di", "rispondere", "entro", "venerdì."], translation: "She asked us to reply by Friday.", explanation: "\"Chiedere di\" + infinitive." },
       { type: "multiple-choice", question: "\"Quanto costerà?\" in the minutes becomes:", options: ["Ha chiesto quanto sarebbe costato.", "Ha chiesto quanto costerebbe.", "Ha chiesto che quanto costava.", "Ha detto di quanto costava."], correctIndex: 0, explanation: "Question word + conditional past." },
       { type: "dictation", audio: "Si è deciso di chiedere tre preventivi entro la fine del mese.", explanation: "Decision in the minutes." },
-      { type: "speak", text: "La signora Esposito ha detto che l'ascensore era rotto, e il signor Ricci ha detto che avrebbe chiamato il tecnico il giorno dopo.", prompt: "Read your notes aloud: Mrs Esposito said the lift was broken, and Mr Ricci said he would call the technician the next day.", tip: "Pause at the comma between the two reports.", explanation: "Two reported statements with shifts." },
+      { type: "speak", text: "La signora Esposito ha detto che l'ascensore era rotto, e il signor Ricci ha detto che avrebbe chiamato il tecnico il giorno dopo.", prompt: "Read your notes aloud: Mrs. Esposito said the elevator was broken, and Mr. Ricci said he would call the technician the next day.", tip: "Pause at the comma between the two reports.", explanation: "Two reported statements with shifts." },
     ],
   },
 ];

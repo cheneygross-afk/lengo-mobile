@@ -53,13 +53,14 @@ export const IT_B2_U06: Lesson[] = [
       {
         heading: "Seems like, looks like",
         body: [
-          "With \"sembrare\" you can use \"come se\" too: \"Sembra come se...\", though \"sembra che\" is more common. And with \"fare\": \"Fai come se fossi a casa tua!\" (make yourself at home!), a warm phrase every host uses.",
+          "For it seems as if, Italian says \"sembra che\" (\"Sembra che stia per piovere\") or \"è come se\" (\"È come se non mi ascoltasse\", it's as if he weren't listening to me). \"Sembra come se\" is a clumsy calque of the English; avoid it. And with \"fare\": \"Fai come se fossi a casa tua!\" (make yourself at home!), a warm phrase every host uses.",
           "Note also \"come\" + noun for a plain comparison: \"Lavora come un matto\" (he works like mad). Only add \"se\" + verb when the comparison is unreal.",
         ],
         examples: [
           { es: "Fai come se fossi a casa tua!", en: "Make yourself at home!" },
           { es: "Faccia come se fosse a casa Sua.", en: "Make yourself at home. (polite)" },
           { es: "Lavora come un matto.", en: "He works like mad." },
+          { es: "È come se non mi ascoltasse.", en: "It's as if he weren't listening to me." },
           { es: "Piove come se non dovesse smettere mai.", en: "It's raining as if it were never going to stop." },
         ],
         checkpoint: [
@@ -131,16 +132,17 @@ export const IT_B2_U06: Lesson[] = [
       {
         heading: "Casomai",
         body: [
-          "\"Casomai\" (also written \"caso mai\") is the everyday in case: \"Casomai avessi bisogno, chiamami\" (if you need anything, call me). With the subjunctive it introduces a condition; on its own it can mean if anything: \"Casomai, ci sentiamo domani\" (if anything, we'll talk tomorrow).",
+          "\"Casomai\" (also written \"caso mai\") is the everyday in case: \"Casomai avessi bisogno, chiamami\" (if you need anything, call me). With the subjunctive it introduces a condition; on its own it means if need be or just in case: \"Casomai, ci sentiamo domani\" (if need be, we'll talk tomorrow).",
+          "Keep the registers apart: \"casomai\" is chatty, \"nel caso\" is neutral, \"qualora\" belongs on paper. A text message that says \"qualora tu arrivassi tardi\" sounds like a lawyer wrote it; a contract with \"casomai\" sounds unprofessional.",
         ],
         examples: [
           { es: "Casomai avessi bisogno, chiamami.", en: "If you need anything, call me." },
           { es: "Ti lascio le chiavi, casomai tornassi prima.", en: "I'll leave you the keys in case you come back early." },
-          { es: "Casomai, ci sentiamo domani.", en: "If anything, we'll talk tomorrow." },
+          { es: "Casomai, ci sentiamo domani.", en: "If need be, we'll talk tomorrow." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll leave you the keys in case you come back early.", answer: "Ti lascio le chiavi, casomai tornassi prima.", altAnswers: ["Ti lascio le chiavi casomai tornassi prima.", "Ti lascio le chiavi, nel caso tornassi prima."], explanation: "\"Casomai\" + imperfect subjunctive." },
-          { type: "listen-choose", audio: "Casomai avessi bisogno, chiamami.", question: "What does the speaker offer?", options: ["Help if you need it.", "A lift home.", "To call you tomorrow.", "To lend you money now."], correctIndex: 0, explanation: "\"Casomai avessi bisogno\" = if you need anything." },
+          { type: "listen-choose", audio: "Casomai avessi bisogno, chiamami.", question: "What does the speaker offer?", options: ["Help if you need it.", "A ride home.", "To call you tomorrow.", "To lend you money now."], correctIndex: 0, explanation: "\"Casomai avessi bisogno\" = if you need anything." },
         ],
       },
     ],
@@ -149,14 +151,14 @@ export const IT_B2_U06: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Should the product prove faulty, it will be replaced.", answer: "Qualora il prodotto risultasse difettoso, verrà sostituito.", altAnswers: ["Qualora il prodotto risultasse difettoso, sarà sostituito."], explanation: "\"Qualora\" + \"risultasse\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Take the umbrella in case it rains. (to a friend)", answer: "Porta l'ombrello, nel caso piovesse.", altAnswers: ["Prendi l'ombrello, nel caso piovesse.", "Porta l'ombrello, casomai piovesse.", "Prendi l'ombrello, casomai piovesse.", "Porta l'ombrello nel caso piova."], explanation: "\"Nel caso\" + subjunctive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He lent me the car on condition that I brought it back.", answer: "Mi ha prestato la macchina a patto che gliela riportassi.", altAnswers: ["Mi ha prestato la macchina a condizione che gliela riportassi.", "Mi ha prestato la macchina purché gliela riportassi."], explanation: "Past main verb → \"riportassi\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You can go out on condition that you finish your homework.", answer: "Puoi uscire, a condizione che tu finisca i compiti.", altAnswers: ["Puoi uscire a patto che tu finisca i compiti.", "Puoi uscire purché tu finisca i compiti."], explanation: "\"Tu\" makes \"finisca\" clear." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You can go out on condition that you finish your homework.", answer: "Puoi uscire, a condizione che tu finisca i compiti.", altAnswers: ["Puoi uscire a patto che tu finisca i compiti.", "Puoi uscire purché tu finisca i compiti.", "Puoi uscire, a condizione che finisca i compiti.", "Puoi uscire purché finisca i compiti."], explanation: "\"Tu\" makes \"finisca\" clear." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If you need anything, call me. (to a friend)", answer: "Casomai avessi bisogno, chiamami.", altAnswers: ["Caso mai avessi bisogno, chiamami.", "Se hai bisogno, chiamami.", "Nel caso avessi bisogno, chiamami."], explanation: "\"Casomai\" + subjunctive." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Should you [wish] to cancel, write to this address. (formal)", sentence: "Qualora ___ disdire, scriva a questo indirizzo.", answer: "desiderasse", altAnswers: ["volesse"], explanation: "\"Qualora\" + imperfect subjunctive, Lei." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Assuming the shop [is] open, I'll buy some bread.", sentence: "Ammesso che il negozio ___ aperto, compro il pane.", answer: "sia", explanation: "\"Ammesso che\" + subjunctive." },
-      { type: "word-order", prompt: "Put the words in order to say: If anything, we'll talk tomorrow.", words: ["Casomai,", "ci", "sentiamo", "domani."], translation: "If anything, we'll talk tomorrow.", explanation: "\"Casomai\" alone = if anything." },
+      { type: "word-order", prompt: "Put the words in order to say: If need be, we'll talk tomorrow.", words: ["Casomai,", "ci", "sentiamo", "domani."], translation: "If need be, we'll talk tomorrow.", explanation: "\"Casomai\" alone = if need be, just in case." },
       { type: "multiple-choice", question: "Which word fits a hotel's terms and conditions?", options: ["Qualora", "Casomai", "Magari", "Tipo"], correctIndex: 0, explanation: "\"Qualora\" is the formal written choice." },
       { type: "dictation", audio: "Qualora ci fossero problemi, La prego di contattarci.", explanation: "\"Qualora\" + \"ci fossero\"." },
-      { type: "speak", text: "Ti lascio le chiavi, casomai tornassi prima. E nel caso piovesse, chiudi le finestre!", prompt: "Say it to a flatmate: I'll leave you the keys in case you come back early. And in case it rains, close the windows!", tip: "ca-so-MAI: stress on the last syllable.", explanation: "Two everyday conditions with the subjunctive." },
+      { type: "speak", text: "Ti lascio le chiavi, casomai tornassi prima. E nel caso piovesse, chiudi le finestre!", prompt: "Say it to a roommate: I'll leave you the keys in case you come back early. And in case it rains, close the windows!", tip: "ca-so-MAI: stress on the last syllable.", explanation: "Two everyday conditions with the subjunctive." },
     ],
   },
   {
@@ -190,10 +192,11 @@ export const IT_B2_U06: Lesson[] = [
         body: [
           "\"Qualunque\" and \"qualsiasi\" (whatever, whichever, any) go before a singular noun and don't change: \"qualunque cosa\", \"qualsiasi giorno\". With a clause they take the subjunctive: \"Qualunque cosa tu faccia, ti sosterrò\" (whatever you do, I'll support you), \"Qualsiasi decisione prendiate, avvisateci\".",
           "Watch the meaning without a clause: \"un vino qualunque\" after the noun means any old wine, an ordinary one. \"Non è un ristorante qualunque\" (it isn't just any restaurant).",
+          "Two traps for English speakers. All these words are singular, even when English says they: \"Chiunque abbia finito può andare\" (whoever has finished can go), never \"possono\". And before a noun, \"qualunque\" and \"qualsiasi\" only take the singular: \"qualsiasi domanda\" (any questions), not \"qualsiasi domande\". If you need a plural, use \"tutte le domande\" or \"eventuali domande\".",
         ],
         examples: [
           { es: "Qualunque cosa tu faccia, ti sosterrò.", en: "Whatever you do, I'll support you." },
-          { es: "Qualsiasi decisione prendiate, avvisateci.", en: "Whatever decision you take, let us know." },
+          { es: "Qualsiasi decisione prendiate, avvisateci.", en: "Whatever decision you make, let us know." },
           { es: "Qualunque cosa succeda, chiamami.", en: "Whatever happens, call me." },
           { es: "Non è un ristorante qualunque.", en: "It isn't just any restaurant." },
           { es: "Va bene qualsiasi giorno.", en: "Any day is fine." },
@@ -207,7 +210,7 @@ export const IT_B2_U06: Lesson[] = [
         heading: "Dovunque, comunque",
         body: [
           "\"Dovunque\" / \"ovunque\" (wherever) + subjunctive: \"Dovunque tu vada, ti seguirò\" (wherever you go, I'll follow you). Without a clause it means everywhere: \"Ho cercato ovunque\".",
-          "\"Comunque\" + subjunctive means however, no matter how: \"Comunque vada, sarà un'esperienza\" (however it goes, it'll be an experience). Without a verb it's the connector anyway, which you know. Unit 10 practises it in full.",
+          "\"Comunque\" + subjunctive means however, no matter how: \"Comunque vada, sarà un'esperienza\" (however it goes, it'll be an experience). Without a verb it's the connector anyway, which you know. Unit 10 practices it in full.",
         ],
         examples: [
           { es: "Dovunque tu vada, ti seguirò.", en: "Wherever you go, I'll follow you." },
@@ -224,7 +227,7 @@ export const IT_B2_U06: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Anyone can do it.", answer: "Può farlo chiunque.", altAnswers: ["Chiunque può farlo.", "Lo può fare chiunque."], explanation: "No clause → no subjunctive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Whoever it was, they've gone.", answer: "Chiunque fosse, se n'è andato.", altAnswers: ["Chiunque fosse, se ne è andato."], explanation: "Past context → \"fosse\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Whatever decision you (plural) take, let us know.", answer: "Qualsiasi decisione prendiate, avvisateci.", altAnswers: ["Qualunque decisione prendiate, avvisateci.", "Qualsiasi decisione prendiate, fatecelo sapere."], explanation: "\"Qualsiasi\" + noun + subjunctive." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Whatever decision you (plural) make, let us know.", answer: "Qualsiasi decisione prendiate, avvisateci.", altAnswers: ["Qualunque decisione prendiate, avvisateci.", "Qualsiasi decisione prendiate, fatecelo sapere."], explanation: "\"Qualsiasi\" + noun + subjunctive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It isn't just any restaurant.", answer: "Non è un ristorante qualunque.", altAnswers: ["Non è un ristorante qualsiasi."], explanation: "After the noun: ordinary." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "However it goes, it'll be an experience.", answer: "Comunque vada, sarà un'esperienza.", explanation: "\"Comunque\" + subjunctive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I've looked everywhere.", answer: "Ho cercato ovunque.", altAnswers: ["Ho cercato dappertutto.", "Ho cercato dovunque."], explanation: "No clause → everywhere." },
@@ -247,8 +250,9 @@ export const IT_B2_U06: Lesson[] = [
       {
         heading: "Il più bello che abbia mai visto",
         body: [
-          "After a superlative, careful Italian uses the subjunctive in the relative clause: \"È il film più bello che abbia mai visto\" (it's the best film I've ever seen). The subjunctive expresses the subjective judgement: as far as I know, in my experience.",
+          "After a superlative, careful Italian uses the subjunctive in the relative clause: \"È il film più bello che abbia mai visto\" (it's the best film I've ever seen). The subjunctive expresses the subjective judgment: as far as I know, in my experience.",
           "In conversation you'll often hear the indicative (\"il più bello che ho mai visto\"), and it's not a serious error. But in writing and in the CILS, the subjunctive is the standard. With a past main verb, move it back: \"Era il film più bello che avessi mai visto\".",
+          "When there is no clause, the in of English superlatives becomes \"di\": the tallest building in Milan is \"il palazzo più alto di Milano\", the best student in the class \"la studentessa più brava della classe\". \"Il più alto in Milano\" is a typical English-speaker slip. And \"mai\" sits between the auxiliary and the participle: \"che abbia mai visto\", not \"che mai abbia visto\" in everyday style.",
         ],
         examples: [
           { es: "È il film più bello che abbia mai visto.", en: "It's the best film I've ever seen." },
@@ -256,6 +260,7 @@ export const IT_B2_U06: Lesson[] = [
           { es: "Era il viaggio più lungo che avessimo mai fatto.", en: "It was the longest journey we had ever made." },
           { es: "È il posto più tranquillo che ci sia in città.", en: "It's the quietest place there is in town." },
           { es: "È stata la cena peggiore che abbiano mai servito.", en: "It was the worst dinner they've ever served." },
+          { es: "È il palazzo più alto di Milano.", en: "It's the tallest building in Milan." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's the best film I've ever seen.", answer: "È il film più bello che abbia mai visto.", altAnswers: ["È il film più bello che io abbia mai visto.", "È il miglior film che abbia mai visto.", "È il miglior film che io abbia mai visto."], explanation: "Superlative + subjunctive." },
@@ -267,7 +272,7 @@ export const IT_B2_U06: Lesson[] = [
         heading: "L'unico, il primo, l'ultimo che",
         body: [
           "\"L'unico\" / \"il solo\" (the only one), \"il primo\" (the first) and \"l'ultimo\" (the last) work like superlatives: \"È l'unico che mi capisca\" (he's the only one who understands me), \"Sei la prima persona che me lo chieda\".",
-          "The indicative is also correct when you are stating a plain fact rather than a judgement: \"È l'ultimo treno che parte stasera\" (it's the last train leaving tonight, according to the timetable). With opinions and feelings, prefer the subjunctive.",
+          "The indicative is also correct when you are stating a plain fact rather than a judgment: \"È l'ultimo treno che parte stasera\" (it's the last train leaving tonight, according to the schedule). With opinions and feelings, prefer the subjunctive.",
         ],
         examples: [
           { es: "È l'unico che mi capisca.", en: "He's the only one who understands me." },
@@ -336,7 +341,7 @@ export const IT_B2_U06: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He acts as if he [were] twenty.", sentence: "Fa come se ___ vent'anni.", answer: "avesse", explanation: "Age with \"avere\": \"avesse\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Assuming they [accept], we'll start in May.", sentence: "Ammesso che ___, cominceremo a maggio.", answer: "accettino", explanation: "\"Ammesso che\" + subjunctive." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It was the worst hotel we [had ever stayed] in.", sentence: "Era l'albergo peggiore in cui ___ mai stati.", answer: "fossimo", explanation: "Past superlative → \"fossimo stati\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "However you [look at] it, it's a mistake.", sentence: "Comunque la ___, è un errore.", answer: "guardi", altAnswers: ["si guardi"], explanation: "\"Comunque\" + subjunctive." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "However you [look at] it, it's a mistake.", sentence: "Comunque la ___, è un errore.", answer: "guardi", altAnswers: ["si guardi", "giri"], explanation: "\"Comunque\" + subjunctive." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Take some cash, in case the card [doesn't work]. (to a friend)", sentence: "Prendi dei contanti, casomai la carta non ___.", answer: "funzionasse", altAnswers: ["funzioni"], explanation: "\"Casomai\" + subjunctive." },
       { type: "multiple-choice", question: "Which is correct?", options: ["Chiunque abbia chiamato, non ha lasciato messaggi.", "Chiunque ha chiamato, non ha lasciato messaggi.", "Chiunque avrebbe chiamato, non ha lasciato messaggi.", "Chiunque chiami, non ha lasciato messaggi."], correctIndex: 0, explanation: "\"Chiunque\" + past subjunctive for a past event." },
       { type: "dictation", audio: "Qualunque cosa dicano, non cambio idea.", explanation: "\"Dicano\": subjunctive." },
@@ -422,12 +427,12 @@ export const IT_B2_U06: Lesson[] = [
           "\"È il più bello che ho mai visto\" is common in speech, but write \"che abbia mai visto\". And remember that a past main verb moves it back: \"Era il più bello che avessi mai visto\".",
         ],
         examples: [
-          { es: "Mi guarda come se fossi pazzo.", en: "He looks at me as if I were mad." },
+          { es: "Mi guarda come se fossi pazzo.", en: "He looks at me as if I were crazy." },
           { es: "È il libro più bello che abbia mai letto.", en: "It's the best book I've ever read." },
           { es: "Era il tramonto più bello che avessi mai visto.", en: "It was the most beautiful sunset I had ever seen." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "A learner wrote \"Mi guarda come se sia pazzo\". Write it correctly: He looks at me as if I were mad. (a man speaking)", source: "He looks at me as if I were mad.", answer: "Mi guarda come se fossi pazzo.", explanation: "\"Come se\" never takes the present subjunctive." },
+          { type: "translate", direction: "en-es", prompt: "A learner wrote \"Mi guarda come se sia pazzo\". Write it correctly: He looks at me as if I were crazy. (a man speaking)", source: "He looks at me as if I were crazy.", answer: "Mi guarda come se fossi pazzo.", explanation: "\"Come se\" never takes the present subjunctive." },
           { type: "multiple-choice", question: "Which is the written standard?", options: ["Era il tramonto più bello che avessi mai visto.", "Era il tramonto più bello che ho mai visto.", "Era il tramonto più bello che abbia mai visto.", "Era il tramonto più bello che avrei mai visto."], correctIndex: 0, explanation: "Past + superlative → pluperfect subjunctive." },
           { type: "listen-choose", audio: "È il libro più bello che abbia mai letto.", question: "What did you hear?", options: ["È il libro più bello che abbia mai letto.", "È il libro più bello che ho mai letto.", "È il libro più bello che avessi mai letto.", "È il libro più bello che avrei letto."], correctIndex: 0, explanation: "\"Abbia letto\": the written standard." },
         ],
@@ -453,24 +458,24 @@ export const IT_B2_U06: Lesson[] = [
     level: "IT-B2",
     number: 8,
     title: "Reading Lab: Terms and Conditions",
-    summary: "Read the terms and conditions of a holiday flat rental and decode its formal conditions with qualora, nel caso and purché.",
+    summary: "Read the terms and conditions of a vacation rental and decode its formal conditions with qualora, nel caso and purché.",
     duration: "18 min",
     sections: [
       {
         heading: "Booking and cancellation",
         body: [
-          "You are renting a holiday flat in Palermo through a local agency. Its \"Condizioni generali\" are written in formal, impersonal Italian: the subject is often \"il cliente\" or \"l'ospite\", and conditions are introduced by \"qualora\", \"nel caso in cui\" and \"purché\".",
+          "You are renting a vacation apartment in Palermo through a local agency. Its \"Condizioni generali\" are written in formal, impersonal Italian: the subject is often \"il cliente\" or \"l'ospite\", and conditions are introduced by \"qualora\", \"nel caso in cui\" and \"purché\".",
           "\"Caparra\" is a deposit, \"recesso\" withdrawal or cancellation, and \"penale\" a penalty fee.",
         ],
         examples: [
           { es: "La prenotazione è confermata purché venga versata una caparra del 30%.", en: "The booking is confirmed provided a 30% deposit is paid." },
-          { es: "Qualora il cliente annulli entro 30 giorni dall'arrivo, la caparra sarà restituita.", en: "Should the client cancel up to 30 days before arrival, the deposit will be refunded." },
+          { es: "Qualora il cliente annulli almeno 30 giorni prima dell'arrivo, la caparra sarà restituita.", en: "Should the client cancel at least 30 days before arrival, the deposit will be refunded." },
           { es: "Nel caso in cui il recesso avvenga più tardi, verrà applicata una penale.", en: "If the cancellation occurs later, a penalty will be charged." },
-          { es: "Qualora l'appartamento non fosse disponibile, l'agenzia offrirà una soluzione equivalente.", en: "Should the flat not be available, the agency will offer an equivalent solution." },
+          { es: "Qualora l'appartamento non fosse disponibile, l'agenzia offrirà una soluzione equivalente.", en: "Should the apartment not be available, the agency will offer an equivalent solution." },
         ],
         checkpoint: [
-          { type: "multiple-choice", question: "When is the deposit refunded?", options: ["If you cancel up to 30 days before arrival.", "Always.", "Never.", "Only if the agency cancels."], correctIndex: 0, explanation: "\"Qualora il cliente annulli entro 30 giorni\"." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Should the flat not be available, the agency will offer an equivalent solution.", answer: "Qualora l'appartamento non fosse disponibile, l'agenzia offrirà una soluzione equivalente.", explanation: "\"Qualora\" + imperfect subjunctive." },
+          { type: "multiple-choice", question: "When is the deposit refunded?", options: ["If you cancel at least 30 days before arrival.", "Always.", "Never.", "Only if the agency cancels."], correctIndex: 0, explanation: "\"Qualora il cliente annulli almeno 30 giorni prima dell'arrivo\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Should the apartment not be available, the agency will offer an equivalent solution.", answer: "Qualora l'appartamento non fosse disponibile, l'agenzia offrirà una soluzione equivalente.", explanation: "\"Qualora\" + imperfect subjunctive." },
         ],
       },
       {
@@ -480,12 +485,12 @@ export const IT_B2_U06: Lesson[] = [
         ],
         examples: [
           { es: "Gli animali sono ammessi a condizione che siano segnalati al momento della prenotazione.", en: "Pets are allowed on condition that they are declared when booking." },
-          { es: "È vietato fumare all'interno dell'appartamento.", en: "Smoking is forbidden inside the flat." },
-          { es: "Chiunque soggiorni nell'appartamento deve presentare un documento d'identità.", en: "Anyone staying in the flat must present an ID document." },
+          { es: "È vietato fumare all'interno dell'appartamento.", en: "Smoking is forbidden inside the apartment." },
+          { es: "Chiunque soggiorni nell'appartamento deve presentare un documento d'identità.", en: "Anyone staying in the apartment must present an ID document." },
           { es: "Nel caso si verificassero guasti, l'ospite è tenuto a informare l'agenzia.", en: "Should any faults occur, the guest is required to inform the agency." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Anyone staying in the flat must present an ID document.", answer: "Chiunque soggiorni nell'appartamento deve presentare un documento d'identità.", altAnswers: ["Chiunque soggiorni nell'appartamento deve presentare un documento di identità."], explanation: "\"Chiunque\" + subjunctive." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Anyone staying in the apartment must present an ID document.", answer: "Chiunque soggiorni nell'appartamento deve presentare un documento d'identità.", altAnswers: ["Chiunque soggiorni nell'appartamento deve presentare un documento di identità."], explanation: "\"Chiunque\" + subjunctive." },
           { type: "listen-choose", audio: "Gli animali sono ammessi a condizione che siano segnalati al momento della prenotazione.", question: "Can you bring a dog?", options: ["Yes, if you declare it when booking.", "No, never.", "Yes, with no conditions.", "Only small dogs."], correctIndex: 0, explanation: "\"A condizione che siano segnalati\"." },
         ],
       },
@@ -493,13 +498,13 @@ export const IT_B2_U06: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The booking is confirmed provided a deposit is paid.", answer: "La prenotazione è confermata purché venga versata una caparra.", altAnswers: ["La prenotazione è confermata purché sia versata una caparra.", "La prenotazione è confermata a condizione che venga versata una caparra."], explanation: "\"Purché\" + passive subjunctive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If the cancellation occurs later, a penalty will be charged.", answer: "Nel caso in cui il recesso avvenga più tardi, verrà applicata una penale.", altAnswers: ["Nel caso in cui la cancellazione avvenga più tardi, verrà applicata una penale.", "Nel caso il recesso avvenga più tardi, sarà applicata una penale."], explanation: "\"Nel caso in cui\" + \"avvenga\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Smoking is forbidden inside the flat.", answer: "È vietato fumare all'interno dell'appartamento.", altAnswers: ["È vietato fumare nell'appartamento."], explanation: "\"È vietato\" + infinitive." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Smoking is forbidden inside the apartment.", answer: "È vietato fumare all'interno dell'appartamento.", altAnswers: ["È vietato fumare nell'appartamento."], explanation: "\"È vietato\" + infinitive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Should any faults occur, the guest is required to inform the agency.", answer: "Nel caso si verificassero guasti, l'ospite è tenuto a informare l'agenzia.", altAnswers: ["Qualora si verificassero guasti, l'ospite è tenuto a informare l'agenzia."], explanation: "\"Essere tenuto a\" = to be required to." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Should the client cancel, the deposit will be refunded.", answer: "Qualora il cliente annulli, la caparra sarà restituita.", altAnswers: ["Qualora il cliente annullasse, la caparra sarebbe restituita.", "Qualora il cliente annulli, la caparra verrà restituita."], explanation: "\"Qualora\" + subjunctive." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Pets are allowed on condition that they [are declared].", sentence: "Gli animali sono ammessi a condizione che ___ segnalati.", answer: "siano", altAnswers: ["vengano"], explanation: "\"A condizione che\" + subjunctive." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Should the guest [arrive] after 22:00, an extra fee applies.", sentence: "Qualora l'ospite ___ dopo le 22:00, è previsto un supplemento.", answer: "arrivasse", altAnswers: ["arrivi"], explanation: "\"Qualora\" + subjunctive." },
       { type: "word-order", prompt: "Put the words in order to say: The deposit will be refunded.", words: ["La", "caparra", "sarà", "restituita."], translation: "The deposit will be refunded.", explanation: "Future passive." },
-      { type: "multiple-choice", question: "What must you do if the boiler breaks?", options: ["Inform the agency.", "Repair it yourself.", "Leave the flat.", "Pay a penalty."], correctIndex: 0, explanation: "\"L'ospite è tenuto a informare l'agenzia\"." },
+      { type: "multiple-choice", question: "What must you do if the boiler breaks?", options: ["Inform the agency.", "Repair it yourself.", "Leave the apartment.", "Pay a penalty."], correctIndex: 0, explanation: "\"L'ospite è tenuto a informare l'agenzia\"." },
       { type: "multiple-choice", question: "\"Penale\" in the contract means ...", options: ["a penalty fee", "a pen", "a prison sentence", "a refund"], correctIndex: 0, explanation: "Contract vocabulary." },
       { type: "dictation", audio: "È vietato fumare all'interno dell'appartamento.", explanation: "\"All'interno\" = inside." },
       { type: "speak", text: "Qualora l'appartamento non fosse disponibile, l'agenzia offrirà una soluzione equivalente.", prompt: "Read the clause aloud.", tip: "qua-LO-ra: stress on the middle syllable.", explanation: "Formal condition with \"qualora\"." },
@@ -573,11 +578,11 @@ export const IT_B2_U06: Lesson[] = [
       {
         heading: "The basic terms",
         body: [
-          "Your mission: you're renting out a room in your flat in Bologna to a student, or offering a service (dog-sitting, lessons). Write the conditions in a formal, clear style. Start with the essentials: price, deposit, duration.",
+          "Your mission: you're renting out a room in your apartment in Bologna to a student, or offering a service (dog-sitting, lessons). Write the conditions in a formal, clear style. Start with the essentials: price, deposit, duration.",
           "Useful frames: \"L'affitto è di 450 euro al mese, spese incluse\", \"È richiesto un deposito di due mensilità\", \"Il contratto ha una durata minima di sei mesi\".",
         ],
         examples: [
-          { es: "L'affitto è di 450 euro al mese, spese incluse.", en: "The rent is 450 euros a month, bills included." },
+          { es: "L'affitto è di 450 euro al mese, spese incluse.", en: "The rent is 450 euros a month, utilities included." },
           { es: "È richiesto un deposito di due mensilità.", en: "A deposit of two months' rent is required." },
           { es: "Il contratto ha una durata minima di sei mesi.", en: "The contract runs for a minimum of six months." },
           { es: "Il deposito sarà restituito purché la stanza sia in buone condizioni.", en: "The deposit will be returned provided the room is in good condition." },
@@ -606,13 +611,13 @@ export const IT_B2_U06: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The rent is 450 euros a month, bills included.", answer: "L'affitto è di 450 euro al mese, spese incluse.", altAnswers: ["L'affitto è di 450 euro mensili, spese incluse."], explanation: "\"Spese incluse\" = bills included." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The rent is 450 euros a month, utilities included.", answer: "L'affitto è di 450 euro al mese, spese incluse.", altAnswers: ["L'affitto è di 450 euro mensili, spese incluse.", "L'affitto è di 450 euro al mese, utenze incluse."], explanation: "\"Spese incluse\" = utilities (and condo fees) included." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The contract runs for a minimum of six months.", answer: "Il contratto ha una durata minima di sei mesi.", explanation: "\"Durata minima\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Should the tenant wish to leave early, two months' notice will be required.", answer: "Qualora l'inquilino volesse lasciare la stanza prima, dovrà dare un preavviso di due mesi.", altAnswers: ["Qualora l'inquilino volesse andarsene prima, dovrà dare un preavviso di due mesi."], explanation: "\"Qualora\" + \"volesse\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Should any damage occur, it will be charged to the tenant.", answer: "Nel caso in cui si verificassero danni, saranno a carico dell'inquilino.", altAnswers: ["Qualora si verificassero danni, saranno a carico dell'inquilino."], explanation: "\"Nel caso in cui\" + subjunctive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "For any questions, I remain at your disposal.", answer: "Per qualsiasi domanda, resto a disposizione.", altAnswers: ["Per qualunque domanda, resto a disposizione.", "Per qualsiasi domanda, rimango a disposizione."], explanation: "\"Qualsiasi\" + singular noun." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The dog may stay on condition that it [is] vaccinated.", sentence: "Il cane può restare a condizione che ___ vaccinato.", answer: "sia", explanation: "\"A condizione che\" + subjunctive." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Should the lesson [be cancelled], it will be rescheduled.", sentence: "Qualora la lezione ___ annullata, sarà recuperata.", answer: "fosse", altAnswers: ["venisse"], explanation: "\"Qualora\" + passive subjunctive." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Should the lesson [be canceled], it will be rescheduled.", sentence: "Qualora la lezione ___ annullata, sarà recuperata.", answer: "fosse", altAnswers: ["venisse"], explanation: "\"Qualora\" + passive subjunctive." },
       { type: "word-order", prompt: "Put the words in order to say: A deposit of two months' rent is required.", words: ["È", "richiesto", "un", "deposito", "di", "due", "mensilità."], translation: "A deposit of two months' rent is required.", explanation: "Formal passive." },
       { type: "multiple-choice", question: "Which sentence suits written terms and conditions?", options: ["Qualora il pagamento non avvenisse entro il 5 del mese, verrà applicata una mora.", "Se magari non paghi il 5, boh, vediamo.", "Qualora il pagamento non avviene entro il 5, verrà applicata una mora.", "Casomai paghi tardi, fa niente."], correctIndex: 0, explanation: "Formal, and \"qualora\" + subjunctive." },
       { type: "dictation", audio: "Il deposito sarà restituito purché la stanza sia in buone condizioni.", explanation: "\"Purché\" + \"sia\"." },
@@ -623,7 +628,7 @@ export const IT_B2_U06: Lesson[] = [
 
 export const IT_B2_U06_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You are renting out a room in your flat in Bologna (or offering a service such as dog-sitting or private lessons). Write the conditions in formal Italian: price and deposit, minimum duration, rules for guests or pets, and what happens in case of early departure, damage or late payment. Use qualora, nel caso in cui, purché / a condizione che and at least one chiunque or qualsiasi.",
+  prompt: "You are renting out a room in your apartment in Bologna (or offering a service such as dog-sitting or private lessons). Write the conditions in formal Italian: price and deposit, minimum duration, rules for guests or pets, and what happens in case of early departure, damage or late payment. Use qualora, nel caso in cui, purché / a condizione che and at least one chiunque or qualsiasi.",
   minWords: 110,
   maxWords: 170,
   rubric: [

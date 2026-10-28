@@ -332,7 +332,7 @@ export const IT_A1_U04: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "in 1990", answer: "nel millenovecentonovanta", altAnswers: ["nel 1990"], explanation: "\"Nel\" + the year." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "There are [three hundred] students at the school.", sentence: "Ci sono ___ studenti a scuola.", answer: "trecento", explanation: "\"Tre\" + \"cento\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The town has [two thousand] inhabitants.", sentence: "Il paese ha ___ abitanti.", answer: "duemila", explanation: "\"Duemila\": mille becomes mila." },
-      { type: "word-order", prompt: "Put the words in order to say: In 2000 I'm in Italy.", words: ["Nel", "duemila", "sono", "in", "Italia."], translation: "In 2000 I'm in Italy.", explanation: "\"Nel\" + year." },
+      { type: "word-order", prompt: "Put the words in order to say: In 2030 I'm in Italy.", words: ["Nel", "duemilatrenta", "sono", "in", "Italia."], translation: "In 2030 I'm in Italy.", explanation: "\"Nel\" + year, written as one long word: \"duemilatrenta\". The present often stands for a plan." },
       { type: "multiple-choice", question: "How do Italians write two and a half euros?", options: ["2,50 €", "2.50 €", "€2.50", "2'50 €"], correctIndex: 0, explanation: "A comma for decimals, usually with € after the number." },
       { type: "dictation", audio: "duecento, mille, duemila", explanation: "\"Mille\" alone, \"-mila\" from two thousand." },
       {
@@ -417,7 +417,7 @@ export const IT_A1_U04: Lesson[] = [
       {
         heading: "Paying",
         body: [
-          "When you pay: \"Ecco\" (here you are), \"Posso pagare con la carta?\" (can I pay by card?). The cashier gives you \"il resto\" (the change) and \"lo scontrino\" (the receipt). Keep the receipt: in Italy you're expected to.",
+          "When you pay: \"Ecco\" (here you are), \"Posso pagare con la carta?\" (can I pay by card?). The cashier gives you \"il resto\" (the change) and \"lo scontrino\" (the receipt). Shops must give you one, and many Italians keep it at least until they're out of the door.",
         ],
         examples: [
           { es: "Posso pagare con la carta?", en: "Can I pay by card?" },
@@ -797,7 +797,7 @@ export const IT_A1_U04: Lesson[] = [
         type: "speak",
         text: "Ho ventotto anni. E tu, quanti anni hai?",
         prompt: "Say you're twenty-eight and ask your friend how old they are.",
-        tip: "ven-TOT-to: the i drops and the t doubles.",
+        tip: "ven-TOT-to: venti drops its i before otto, and the double t of otto stays.",
         explanation: "\"Ho\" + age, then the question back with \"hai\".",
       },
     ],
@@ -1050,7 +1050,7 @@ export const IT_A1_U04: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The train for Milan leaves at 9:15.", answer: "Il treno per Milano parte alle nove e quindici.", altAnswers: ["Il treno per Milano parte alle 9:15.", "Il treno per Milano parte alle nove e un quarto."], explanation: "\"Parte alle\" + the time." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Which platform does it leave from?", answer: "Da quale binario parte?", explanation: "\"Da quale binario\" = from which platform." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Which platform does it leave from?", answer: "Da quale binario parte?", altAnswers: ["Da che binario parte?", "Da quale binario parte il treno?"], explanation: "\"Da quale binario\" = from which platform." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The ticket costs €39.90.", answer: "Il biglietto costa trentanove euro e novanta.", altAnswers: ["Il biglietto costa 39,90 €."], explanation: "Euros, \"e\", cents." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "a return ticket", answer: "un biglietto di andata e ritorno", explanation: "\"Andata e ritorno\" = there and back." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The train leaves [from platform 6].", sentence: "Il treno parte ___.", answer: "dal binario sei", altAnswers: ["dal binario 6"], explanation: "\"Dal binario\" = from the platform." },

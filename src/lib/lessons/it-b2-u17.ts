@@ -3,7 +3,7 @@ import type { Lesson, WriteExercise } from "./types";
 
 // Italian B2 Unit 17: Formal Writing. The formal letter and email
 // (Spett.le, Oggetto, Con la presente, Distinti saluti), requests and
-// complaints, Lei / La / Le / Suo capitalised, polite conditional and
+// complaints, Lei / La / Le / Suo capitalized, polite conditional and
 // subjunctive, nominal style, formal connectors and vocabulary.
 // Conventions: docs/italian-course/authoring.md.
 export const IT_B2_U17: Lesson[] = [
@@ -22,9 +22,9 @@ export const IT_B2_U17: Lesson[] = [
           "Then comes \"Oggetto:\" (subject), a short noun phrase: \"Oggetto: richiesta di informazioni\", \"Oggetto: reclamo per ritardo nella consegna\". In an email, the same phrase goes in the subject line.",
         ],
         examples: [
-          { es: "Bologna, 14 marzo 2026", en: "Bologna, 14 March 2026" },
+          { es: "Bologna, 14 marzo 2026", en: "Bologna, March 14, 2026" },
           { es: "Spett.le Hotel Bellavista", en: "Hotel Bellavista (to a company)" },
-          { es: "Alla cortese attenzione del dott. Bianchi", en: "For the attention of Dr Bianchi" },
+          { es: "Alla cortese attenzione del dott. Bianchi", en: "For the attention of Dr. Bianchi" },
           { es: "Oggetto: richiesta di informazioni", en: "Subject: request for information" },
           { es: "Oggetto: reclamo per ritardo nella consegna", en: "Subject: complaint about late delivery" },
         ],
@@ -41,7 +41,7 @@ export const IT_B2_U17: Lesson[] = [
           {
             type: "multiple-choice",
             question: "How do you address a letter to a company?",
-            options: ["Spett.le Ditta Ferri", "Caro Ditta Ferri", "Gentile Ditta Ferri,", "Ciao Ditta Ferri"],
+            options: ["Spett.le Ditta Ferri", "Caro Ditta Ferri", "Egregio Ditta Ferri", "Ciao Ditta Ferri"],
             correctIndex: 0,
             explanation: "\"Spett.le\" for companies and offices.",
           },
@@ -51,14 +51,15 @@ export const IT_B2_U17: Lesson[] = [
         heading: "Greeting and opening",
         body: [
           "The greeting: \"Gentile Signora Rossi\", \"Gentile Dottor Bianchi\", \"Egregio Direttore\" (more formal, for men in senior roles), or \"Gentili Signori\" when you don't know who will read it. Never \"Caro\" with a stranger: it's for people you know.",
-          "The first line states the purpose: \"Con la presente desidero ...\" (With this letter I wish to ...), \"Le scrivo per ...\", \"In riferimento a ...\" (With reference to ...), \"In merito alla Sua lettera del 3 marzo ...\". In letters, the pronouns of \"Lei\" are traditionally capitalised: \"Le\", \"La\", \"Suo\".",
+          "The first line states the purpose: \"Con la presente desidero ...\" (With this letter I wish to ...), \"Le scrivo per ...\", \"In riferimento a ...\" (With reference to ...), \"In merito alla Sua lettera del 3 marzo ...\". In letters, the pronouns of \"Lei\" are traditionally capitalized: \"Le\", \"La\", \"Suo\".",
+          "Two details English speakers miss. After the comma of the greeting, the first word of the letter starts with a lowercase letter: \"Gentile Signora Rossi, / le scrivo per ...\". And \"Egregio\" has no natural feminine: to a woman write \"Gentile Dottoressa Neri\" or, warmer, \"Gentilissima\". Titles matter more than in English: anyone with a degree is \"Dottore\" or \"Dottoressa\" on paper, and \"Avvocato\", \"Ingegnere\" and \"Professore\" are used as forms of address.",
         ],
         examples: [
-          { es: "Gentile Signora Rossi,", en: "Dear Mrs Rossi," },
+          { es: "Gentile Signora Rossi,", en: "Dear Mrs. Rossi," },
           { es: "Egregio Direttore,", en: "Dear Sir, (to a director)" },
           { es: "Gentili Signori,", en: "Dear Sir or Madam," },
           { es: "Con la presente desidero chiedere alcune informazioni.", en: "I am writing to ask for some information." },
-          { es: "In riferimento alla Sua lettera del 3 marzo, Le comunico che ...", en: "With reference to your letter of 3 March, I wish to inform you that ..." },
+          { es: "In riferimento alla Sua lettera del 3 marzo, Le comunico che ...", en: "With reference to your letter of March 3, I wish to inform you that ..." },
         ],
         checkpoint: [
           {
@@ -76,7 +77,7 @@ export const IT_B2_U17: Lesson[] = [
             prompt: "Write the greeting in Italian.",
             source: "Dear Sir or Madam,",
             answer: "Gentili Signori,",
-            altAnswers: ["Gentili signori,", "Spettabile Direzione,"],
+            altAnswers: ["Gentili signori,", "Egregi Signori,", "Spettabile Direzione,"],
             explanation: "When you don't know the reader.",
           },
         ],
@@ -88,7 +89,7 @@ export const IT_B2_U17: Lesson[] = [
           "Then the sign-off: \"Distinti saluti\" (very formal), \"Cordiali saluti\" (formal but warmer). Some writers combine them: \"In attesa di un Suo cortese riscontro, porgo distinti saluti.\" Finish with your full name and, if needed, \"Allegati:\" (attachments).",
         ],
         examples: [
-          { es: "In attesa di un Suo cortese riscontro, porgo distinti saluti.", en: "Looking forward to your reply, yours faithfully." },
+          { es: "In attesa di un Suo cortese riscontro, porgo distinti saluti.", en: "Looking forward to your reply, sincerely yours." },
           { es: "Ringraziando anticipatamente per l'attenzione, porgo cordiali saluti.", en: "Thanking you in advance for your attention, kind regards." },
           { es: "Resto a disposizione per eventuali chiarimenti.", en: "I remain available for any clarification." },
           { es: "Allegati: copia della fattura", en: "Attachments: copy of the invoice" },
@@ -106,7 +107,7 @@ export const IT_B2_U17: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Italian for the bold words.",
-            en: "Looking forward to your reply, [yours faithfully].",
+            en: "Looking forward to your reply, [sincerely yours].",
             sentence: "In attesa di un Suo cortese riscontro, ___.",
             answer: "porgo distinti saluti",
             altAnswers: ["distinti saluti", "porgo cordiali saluti", "cordiali saluti", "Le porgo distinti saluti"],
@@ -117,9 +118,9 @@ export const IT_B2_U17: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Write the subject line in Italian.", source: "Subject: complaint about late delivery", answer: "Oggetto: reclamo per ritardo nella consegna", altAnswers: ["Oggetto: reclamo per ritardata consegna", "Oggetto: reclamo per il ritardo nella consegna"], explanation: "Noun phrase: \"reclamo per\"." },
-      { type: "translate", direction: "en-es", prompt: "Write the line in Italian.", source: "For the attention of Dr Bianchi", answer: "Alla cortese attenzione del dott. Bianchi", altAnswers: ["Alla cortese attenzione del dottor Bianchi", "c.a. dott. Bianchi", "Alla c.a. del dott. Bianchi"], explanation: "\"Dott.\" is the abbreviation of \"dottore\"." },
-      { type: "translate", direction: "en-es", prompt: "Write the greeting in Italian.", source: "Dear Mrs Rossi,", answer: "Gentile Signora Rossi,", altAnswers: ["Gentile signora Rossi,", "Gentilissima Signora Rossi,"], explanation: "\"Gentile\" for strangers; \"cara\" only for people you know." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "With reference to your letter of 3 March, I wish to inform you that the order has been sent.", answer: "In riferimento alla Sua lettera del 3 marzo, Le comunico che l'ordine è stato spedito.", altAnswers: ["In riferimento alla Sua lettera del 3 marzo, Le comunico che l'ordine è stato inviato.", "In riferimento alla sua lettera del 3 marzo, le comunico che l'ordine è stato spedito."], explanation: "\"In riferimento a\"; capitalised \"Sua\" and \"Le\"." },
+      { type: "translate", direction: "en-es", prompt: "Write the line in Italian.", source: "For the attention of Dr. Bianchi", answer: "Alla cortese attenzione del dott. Bianchi", altAnswers: ["Alla cortese attenzione del dottor Bianchi", "c.a. dott. Bianchi", "Alla c.a. del dott. Bianchi"], explanation: "\"Dott.\" is the abbreviation of \"dottore\"." },
+      { type: "translate", direction: "en-es", prompt: "Write the greeting in Italian.", source: "Dear Mrs. Rossi,", answer: "Gentile Signora Rossi,", altAnswers: ["Gentile signora Rossi,", "Gentilissima Signora Rossi,"], explanation: "\"Gentile\" for strangers; \"cara\" only for people you know." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "With reference to your letter of March 3, I wish to inform you that the order has been sent.", answer: "In riferimento alla Sua lettera del 3 marzo, Le comunico che l'ordine è stato spedito.", altAnswers: ["In riferimento alla Sua lettera del 3 marzo, Le comunico che l'ordine è stato inviato.", "In riferimento alla sua lettera del 3 marzo, le comunico che l'ordine è stato spedito."], explanation: "\"In riferimento a\"; capitalized \"Sua\" and \"Le\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Thanking you in advance for your attention, kind regards.", answer: "Ringraziando anticipatamente per l'attenzione, porgo cordiali saluti.", altAnswers: ["Ringraziando anticipatamente per l'attenzione, cordiali saluti.", "La ringrazio anticipatamente per l'attenzione. Cordiali saluti."], explanation: "Gerund \"ringraziando\" in the closing formula." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[With this letter] I wish to inform you of a problem.", sentence: "___ desidero segnalarLe un problema.", answer: "Con la presente", explanation: "\"La presente\" = this letter." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Attachments]: copy of the invoice", sentence: "___: copia della fattura", answer: "Allegati", altAnswers: ["Allegato"], explanation: "\"Allegato\" for one, \"allegati\" for several." },
@@ -131,7 +132,7 @@ export const IT_B2_U17: Lesson[] = [
       {
         type: "speak",
         text: "Gentile Signora Rossi, con la presente desidero chiedere alcune informazioni sul corso di marzo.",
-        prompt: "Read your opening aloud: Dear Mrs Rossi, I am writing to ask for some information about the March course.",
+        prompt: "Read your opening aloud: Dear Mrs. Rossi, I am writing to ask for some information about the March course.",
         tip: "\"Presente\": pre-ZEN-te.",
         explanation: "Greeting plus \"con la presente\".",
       },
@@ -152,9 +153,9 @@ export const IT_B2_U17: Lesson[] = [
           "Indirect questions keep the question word: \"Vorrei sapere quanto costa\", \"quando inizia\", \"quali documenti sono necessari\". The subjunctive is possible and more formal: \"Vorrei sapere se sia possibile ...\"",
         ],
         examples: [
-          { es: "Le scrivo per chiedere informazioni sul corso di cucina.", en: "I am writing to ask for information about the cookery course." },
+          { es: "Le scrivo per chiedere informazioni sul corso di cucina.", en: "I am writing to ask for information about the cooking class." },
           { es: "Vorrei sapere se ci sono ancora posti disponibili.", en: "I would like to know whether there are still places available." },
-          { es: "Vorrei sapere quanto costa l'iscrizione.", en: "I would like to know how much the enrolment costs." },
+          { es: "Vorrei sapere quanto costa l'iscrizione.", en: "I would like to know how much the enrollment costs." },
           { es: "Desidererei sapere quali documenti sono necessari.", en: "I would like to know which documents are required." },
         ],
         checkpoint: [
@@ -171,7 +172,7 @@ export const IT_B2_U17: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Italian.",
-            source: "I would like to know how much the enrolment costs.",
+            source: "I would like to know how much the enrollment costs.",
             answer: "Vorrei sapere quanto costa l'iscrizione.",
             altAnswers: ["Vorrei sapere quanto costi l'iscrizione.", "Desidererei sapere quanto costa l'iscrizione."],
             explanation: "\"Quanto\" stays in the indirect question.",
@@ -183,6 +184,7 @@ export const IT_B2_U17: Lesson[] = [
         body: [
           "The most polite pattern: \"Le sarei grato / grata se potesse ...\" (I would be grateful if you could ...) with the imperfect subjunctive. \"Le sarei grata se potesse inviarmi il modulo.\" Shorter and firmer: \"La prego di ...\" + infinitive: \"La prego di inviarmi il modulo.\"",
           "\"Le chiedo cortesemente di ...\" (I kindly ask you to ...) and \"Potrebbe gentilmente ...?\" are also common. Note the agreement: a woman writes \"grata\", a man \"grato\"; a company writes \"Vi saremmo grati\".",
+          "The classic mistake is the conditional after \"se\": \"se potrebbe\" is wrong, \"se potesse\" is right. The conditional goes in the main clause (\"sarei grato\"), the imperfect subjunctive in the \"se\" clause. Also note the register ladder: \"Vorrei\" is polite, \"Desidererei\" more formal, and \"Desidero\" (present) is firm and standard in letters; the bare \"Voglio\" is never used.",
         ],
         examples: [
           { es: "Le sarei grata se potesse inviarmi il modulo.", en: "I would be grateful if you could send me the form. (a woman writing)" },
@@ -220,7 +222,7 @@ export const IT_B2_U17: Lesson[] = [
         ],
         examples: [
           { es: "Qualora non fosse possibile, La prego di avvisarmi.", en: "Should it not be possible, please let me know." },
-          { es: "Nel caso in cui il corso fosse pieno, mi iscriverei a quello di aprile.", en: "If the course is full, I would enrol on the April one." },
+          { es: "Nel caso in cui il corso fosse pieno, mi iscriverei a quello di aprile.", en: "If the course were full, I would enroll in the April one." },
           { es: "Mi auguro che la mia richiesta possa essere accolta.", en: "I hope that my request can be granted." },
           { es: "Qualora servissero altri documenti, sono a disposizione.", en: "Should further documents be needed, I am available." },
         ],
@@ -247,7 +249,7 @@ export const IT_B2_U17: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I am writing to ask for information about the cookery course.", answer: "Le scrivo per chiedere informazioni sul corso di cucina.", altAnswers: ["Le scrivo per richiedere informazioni sul corso di cucina.", "Con la presente desidero chiedere informazioni sul corso di cucina."], explanation: "\"Le scrivo per\" + infinitive." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I am writing to ask for information about the cooking class.", answer: "Le scrivo per chiedere informazioni sul corso di cucina.", altAnswers: ["Le scrivo per richiedere informazioni sul corso di cucina.", "Con la presente desidero chiedere informazioni sul corso di cucina."], explanation: "\"Le scrivo per\" + infinitive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I would like to know which documents are required.", answer: "Vorrei sapere quali documenti sono necessari.", altAnswers: ["Desidererei sapere quali documenti sono necessari.", "Vorrei sapere quali documenti siano necessari.", "Vorrei sapere quali documenti servono."], explanation: "Indirect question with \"quali\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I kindly ask you to reply by Friday.", answer: "Le chiedo cortesemente di rispondere entro venerdì.", altAnswers: ["La prego cortesemente di rispondere entro venerdì.", "Le chiedo gentilmente di rispondere entro venerdì."], explanation: "\"Entro\" = by (a deadline)." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Could you kindly tell me the opening hours?", answer: "Potrebbe gentilmente indicarmi gli orari?", altAnswers: ["Potrebbe gentilmente indicarmi gli orari di apertura?", "Potrebbe cortesemente indicarmi gli orari?", "Potrebbe gentilmente comunicarmi gli orari?"], explanation: "Conditional \"potrebbe\" + \"gentilmente\"." },
@@ -263,7 +265,7 @@ export const IT_B2_U17: Lesson[] = [
       {
         type: "speak",
         text: "Le scrivo per chiedere informazioni sul corso. Le sarei grato se potesse inviarmi il programma.",
-        prompt: "Read your request aloud (a man writing): I am writing to ask for information about the course. I would be grateful if you could send me the programme.",
+        prompt: "Read your request aloud (a man writing): I am writing to ask for information about the course. I would be grateful if you could send me the program.",
         tip: "\"Inviarmi\": in-VYAR-mi.",
         explanation: "Purpose + polite request.",
       },
@@ -282,6 +284,7 @@ export const IT_B2_U17: Lesson[] = [
         body: [
           "A complaint (\"un reclamo\") begins with the facts: what, when, where. \"Con la presente desidero segnalare un problema relativo all'ordine n. 4521 del 2 marzo.\" Then describe the issue precisely: \"Il prodotto è arrivato danneggiato\", \"La consegna è avvenuta con dieci giorni di ritardo.\"",
           "Use neutral, factual verbs: \"segnalare\" (to report), \"constatare\" (to note), \"riscontrare\" (to find). Avoid emotional language; let the facts do the work.",
+          "Watch the tenses. The passato prossimo tells the events (\"il pacco è arrivato\", \"ho chiamato\"), the imperfetto describes the conditions you found (\"la camera era sporca\", \"il riscaldamento non funzionava\"), and the trapassato prossimo what had been agreed before (\"avevo prenotato\", \"mi era stato assicurato\"). Give order numbers, dates and amounts in figures: a complaint that can be checked is harder to ignore.",
         ],
         examples: [
           { es: "Con la presente desidero segnalare un problema relativo al mio ordine.", en: "I am writing to report a problem with my order." },
@@ -313,12 +316,12 @@ export const IT_B2_U17: Lesson[] = [
       {
         heading: "Previous attempts",
         body: [
-          "Show that you have already tried: \"Nonostante i ripetuti solleciti, non ho ricevuto alcuna risposta\" (Despite repeated reminders, I have received no reply). \"Ho già contattato il servizio clienti in data 5 marzo\" (I already contacted customer service on 5 March).",
+          "Show that you have already tried: \"Nonostante i ripetuti solleciti, non ho ricevuto alcuna risposta\" (Despite repeated reminders, I have received no reply). \"Ho già contattato il servizio clienti in data 5 marzo\" (I already contacted customer service on March 5).",
           "\"Nonostante\" + noun or + subjunctive: \"Nonostante abbia chiamato tre volte, ...\". \"Alcuno\" after a negative means any at all: \"non ho ricevuto alcuna risposta\".",
         ],
         examples: [
           { es: "Nonostante i ripetuti solleciti, non ho ricevuto alcuna risposta.", en: "Despite repeated reminders, I have received no reply." },
-          { es: "Ho già contattato il servizio clienti in data 5 marzo.", en: "I already contacted customer service on 5 March." },
+          { es: "Ho già contattato il servizio clienti in data 5 marzo.", en: "I already contacted customer service on March 5." },
           { es: "Nonostante abbia chiamato tre volte, il problema non è stato risolto.", en: "Although I have called three times, the problem has not been solved." },
           { es: "Ad oggi, non ho ricevuto alcun rimborso.", en: "To date, I have not received any refund." },
         ],
@@ -380,7 +383,7 @@ export const IT_B2_U17: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The product arrived damaged.", answer: "Il prodotto è arrivato danneggiato.", altAnswers: ["Il prodotto mi è arrivato danneggiato.", "La merce è arrivata danneggiata."], explanation: "\"Danneggiato\" agrees with \"prodotto\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I have found some errors in the invoice.", answer: "Ho riscontrato alcuni errori nella fattura.", altAnswers: ["Ho trovato alcuni errori nella fattura.", "Ho notato alcuni errori nella fattura."], explanation: "\"Riscontrare\" = to find (formal)." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I already contacted customer service on 5 March.", answer: "Ho già contattato il servizio clienti in data 5 marzo.", altAnswers: ["Ho già contattato il servizio clienti il 5 marzo."], explanation: "\"In data\" + date is formal." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I already contacted customer service on March 5.", answer: "Ho già contattato il servizio clienti in data 5 marzo.", altAnswers: ["Ho già contattato il servizio clienti il 5 marzo."], explanation: "\"In data\" + date is formal." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "To date, I have not received any refund.", answer: "Ad oggi, non ho ricevuto alcun rimborso.", altAnswers: ["A oggi, non ho ricevuto alcun rimborso.", "Ad oggi non ho ricevuto nessun rimborso.", "Finora non ho ricevuto alcun rimborso."], explanation: "\"Alcun\" before a masculine noun." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I request a replacement of the product within fifteen days.", answer: "Chiedo la sostituzione del prodotto entro quindici giorni.", altAnswers: ["Richiedo la sostituzione del prodotto entro quindici giorni.", "Chiedo la sostituzione del prodotto entro 15 giorni."], explanation: "Nominal style: \"la sostituzione\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I find myself [forced to] make a formal complaint. (a woman writing)", sentence: "Mi vedo ___ sporgere reclamo.", answer: "costretta a", explanation: "\"Costretta\" agrees with the writer." },
@@ -411,12 +414,13 @@ export const IT_B2_U17: Lesson[] = [
         heading: "Formal verbs",
         body: [
           "Formal Italian prefers longer, more precise verbs. \"Mandare\" becomes \"inviare\", \"dare\" becomes \"fornire\" (to provide), \"chiedere\" becomes \"richiedere\" (to request), \"dire\" becomes \"comunicare\", \"comprare\" becomes \"acquistare\", \"finire\" becomes \"concludere\".",
-          "\"Pervenire\" (to reach, to be received) is very formal and takes \"essere\": \"La Sua lettera ci è pervenuta il 10 marzo\" (We received your letter on 10 March). The subject is the thing that arrives, not the person who receives it.",
+          "\"Pervenire\" (to reach, to be received) is very formal and takes \"essere\": \"La Sua lettera ci è pervenuta il 10 marzo\" (We received your letter on March 10). The subject is the thing that arrives, not the person who receives it.",
+          "A few more pairs: \"fare\" a payment or a booking becomes \"effettuare\" (\"effettuare un pagamento\"), \"usare\" a service becomes \"usufruire di\", \"occuparsi di\" becomes \"provvedere a\" (\"provvederemo alla sostituzione\"), and \"avere\" becomes \"disporre di\" (\"l'albergo dispone di un parcheggio\"). Beware the false friend \"eventuale\": it means possible, any that may arise, never eventual.",
         ],
         examples: [
           { es: "Le invio in allegato il modulo compilato.", en: "Please find attached the completed form." },
           { es: "Potrebbe fornirmi ulteriori informazioni?", en: "Could you provide me with further information?" },
-          { es: "La Sua lettera ci è pervenuta il 10 marzo.", en: "We received your letter on 10 March." },
+          { es: "La Sua lettera ci è pervenuta il 10 marzo.", en: "We received your letter on March 10." },
           { es: "Le comunico che il pagamento è stato effettuato.", en: "I wish to inform you that the payment has been made." },
           { es: "Ho acquistato il biglietto online.", en: "I purchased the ticket online." },
         ],
@@ -425,7 +429,7 @@ export const IT_B2_U17: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Italian, in formal style.",
-            source: "We received your letter on 10 March.",
+            source: "We received your letter on March 10.",
             answer: "La Sua lettera ci è pervenuta il 10 marzo.",
             altAnswers: ["La sua lettera ci è pervenuta il 10 marzo.", "La Sua lettera ci è pervenuta in data 10 marzo.", "Abbiamo ricevuto la Sua lettera il 10 marzo."],
             explanation: "\"Pervenire\": the letter is the subject; \"essere\" + agreement.",
@@ -448,9 +452,9 @@ export const IT_B2_U17: Lesson[] = [
           "Fixed formal phrases: \"in allegato\" (attached), \"in data\" (on the date), \"entro e non oltre\" (no later than), \"la presente\" (this letter), \"il sottoscritto\" (the undersigned), \"a partire da\" (starting from).",
         ],
         examples: [
-          { es: "La consegna è prevista per il 20 aprile.", en: "Delivery is scheduled for 20 April." },
-          { es: "Il pagamento va effettuato entro e non oltre il 30 giugno.", en: "Payment must be made no later than 30 June." },
-          { es: "Il sottoscritto Mario Neri chiede l'iscrizione al corso.", en: "I, the undersigned Mario Neri, apply to enrol on the course." },
+          { es: "La consegna è prevista per il 20 aprile.", en: "Delivery is scheduled for April 20." },
+          { es: "Il pagamento va effettuato entro e non oltre il 30 giugno.", en: "Payment must be made no later than June 30." },
+          { es: "Il sottoscritto Mario Neri chiede l'iscrizione al corso.", en: "I, the undersigned Mario Neri, apply to enroll in the course." },
           { es: "Le invio in allegato il preventivo richiesto.", en: "Please find attached the quote you requested." },
         ],
         checkpoint: [
@@ -458,7 +462,7 @@ export const IT_B2_U17: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Italian, in formal style.",
-            source: "Payment must be made no later than 30 June.",
+            source: "Payment must be made no later than June 30.",
             answer: "Il pagamento va effettuato entro e non oltre il 30 giugno.",
             altAnswers: ["Il pagamento deve essere effettuato entro e non oltre il 30 giugno.", "Il pagamento dovrà essere effettuato entro e non oltre il 30 giugno."],
             explanation: "\"Andare\" + participle = must be.",
@@ -466,7 +470,7 @@ export const IT_B2_U17: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Italian for the bold words.",
-            en: "[Delivery is scheduled] for 20 April.",
+            en: "[Delivery is scheduled] for April 20.",
             sentence: "___ per il 20 aprile.",
             answer: "La consegna è prevista",
             explanation: "Nominal style: \"la consegna\".",
@@ -512,11 +516,11 @@ export const IT_B2_U17: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, in formal style.", source: "Furthermore, the room did not match the description.", answer: "Inoltre, la camera non corrispondeva alla descrizione.", altAnswers: ["Inoltre la camera non corrispondeva alla descrizione."], explanation: "\"Inoltre\" adds a point; \"corrispondere a\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, in formal style.", source: "I am writing regarding your offer.", answer: "Le scrivo in merito alla Sua offerta.", altAnswers: ["Le scrivo in merito alla sua offerta.", "Le scrivo in riferimento alla Sua offerta."], explanation: "\"In merito a\" = regarding." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, in formal style.", source: "However, I have not yet received the invoice.", answer: "Tuttavia, non ho ancora ricevuto la fattura.", altAnswers: ["Tuttavia, la fattura non mi è ancora pervenuta.", "Tuttavia non ho ancora ricevuto la fattura."], explanation: "\"Tuttavia\" = however." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Could you [send] me the programme?", sentence: "Potrebbe ___ il programma?", answer: "inviarmi", altAnswers: ["trasmettermi"], explanation: "\"Inviare\" for \"mandare\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Could you [send] me the program?", sentence: "Potrebbe ___ il programma?", answer: "inviarmi", altAnswers: ["trasmettermi"], explanation: "\"Inviare\" for \"mandare\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I wish to [request] a certificate.", sentence: "Desidero ___ un certificato.", answer: "richiedere", explanation: "\"Richiedere\" for \"chiedere\" an official document." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Starting from] 1 May, the office will be closed on Saturdays.", sentence: "___ 1° maggio, l'ufficio sarà chiuso il sabato.", answer: "A partire dal", altAnswers: ["Dal"], explanation: "\"A partire da\" + \"il\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Starting from] May 1, the office will be closed on Saturdays.", sentence: "___ 1° maggio, l'ufficio sarà chiuso il sabato.", answer: "A partire dal", altAnswers: ["Dal"], explanation: "\"A partire da\" + \"il\"." },
       { type: "matching", instructions: "Match each everyday verb to its formal equivalent.", pairs: [{ left: "mandare", right: "inviare" }, { left: "dare", right: "fornire" }, { left: "comprare", right: "acquistare" }, { left: "dire", right: "comunicare" }], explanation: "Formal register." },
-      { type: "listen-choose", audio: "La Sua domanda ci è pervenuta in data 3 maggio e sarà esaminata entro trenta giorni.", question: "What happened on 3 May?", options: ["The application was received", "The application was approved", "The application was sent back", "The office closed"], correctIndex: 0, explanation: "\"Pervenire\" = to be received." },
+      { type: "listen-choose", audio: "La Sua domanda ci è pervenuta in data 3 maggio e sarà esaminata entro trenta giorni.", question: "What happened on May 3?", options: ["The application was received", "The application was approved", "The application was sent back", "The office closed"], correctIndex: 0, explanation: "\"Pervenire\" = to be received." },
       { type: "dictation", audio: "Le invio in allegato il preventivo richiesto.", explanation: "Formal vocabulary." },
       {
         type: "speak",
@@ -580,9 +584,9 @@ export const IT_B2_U17: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, in formal style.", source: "Despite my repeated reminders, the problem has not been solved.", answer: "Nonostante i miei ripetuti solleciti, il problema non è stato risolto.", altAnswers: ["Nonostante i ripetuti solleciti, il problema non è stato risolto."], explanation: "\"Sollecito\" = reminder." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, in formal style.", source: "I look forward to your reply.", answer: "Resto in attesa di un Suo cortese riscontro.", altAnswers: ["Resto in attesa di una Sua cortese risposta.", "In attesa di un Suo cortese riscontro.", "Resto in attesa di un suo cortese riscontro."], explanation: "\"Riscontro\" = reply." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I remain available] for any clarification.", sentence: "___ per eventuali chiarimenti.", answer: "Resto a disposizione", altAnswers: ["Rimango a disposizione", "Resto a Sua disposizione"], explanation: "Fixed closing phrase." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Please find attached] my CV.", sentence: "___ il mio curriculum vitae.", answer: "Le invio in allegato", altAnswers: ["In allegato Le invio", "Allego"], explanation: "\"In allegato\" = attached." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Please find attached] my résumé.", sentence: "___ il mio curriculum vitae.", answer: "Le invio in allegato", altAnswers: ["In allegato Le invio", "Allego"], explanation: "\"In allegato\" = attached." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I therefore request] a refund.", sentence: "___ il rimborso.", answer: "Chiedo pertanto", altAnswers: ["Pertanto chiedo", "Richiedo pertanto"], explanation: "\"Pertanto\" = therefore." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Yours faithfully],", sentence: "___,", answer: "Distinti saluti", altAnswers: ["Cordiali saluti"], explanation: "Standard sign-off." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Sincerely yours],", sentence: "___,", answer: "Distinti saluti", altAnswers: ["Cordiali saluti"], explanation: "Standard sign-off." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Dear Sir or Madam],", sentence: "___,", answer: "Gentili Signori", altAnswers: ["Spettabile Direzione"], explanation: "When you don't know who will read." },
       { type: "word-order", prompt: "Put the words in order to say: I am writing to report a problem.", words: ["Le", "scrivo", "per", "segnalare", "un", "problema."], translation: "I am writing to report a problem.", explanation: "\"Le scrivo per\" + infinitive." },
       { type: "word-order", prompt: "Put the words in order to say: Thank you in advance for your attention.", words: ["La", "ringrazio", "anticipatamente", "per", "l'attenzione."], translation: "Thank you in advance for your attention.", altOrders: [["La", "ringrazio", "per", "l'attenzione", "anticipatamente."]], explanation: "\"Ringraziare\" takes \"La\"." },
@@ -593,7 +597,7 @@ export const IT_B2_U17: Lesson[] = [
       {
         type: "speak",
         text: "In riferimento al Suo annuncio, desidero candidarmi per il posto di receptionist. Le invio in allegato il mio curriculum.",
-        prompt: "Read your cover email aloud: Regarding your advertisement, I wish to apply for the receptionist position. Please find attached my CV.",
+        prompt: "Read your cover email aloud: Regarding your advertisement, I wish to apply for the receptionist position. Please find attached my résumé.",
         tip: "\"Curriculum\": stress on RI, ku-RI-ku-lum.",
         explanation: "Opening + attachment.",
       },
@@ -645,26 +649,26 @@ export const IT_B2_U17: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Rewrite \"Ti scrivo per dirti che arrivo lunedì\" formally: I am writing to inform you that I will arrive on Monday.", source: "I am writing to inform you that I will arrive on Monday.", answer: "Le scrivo per comunicarLe che arriverò lunedì.", altAnswers: ["Le scrivo per comunicarle che arriverò lunedì.", "Con la presente Le comunico che arriverò lunedì."], explanation: "\"Ti\" → \"Le\"; \"dire\" → \"comunicare\"." },
       { type: "translate", direction: "en-es", prompt: "Rewrite \"Mi dai qualche info sul corso?\" formally: Could you give me some information about the course?", source: "Could you give me some information about the course?", answer: "Potrebbe fornirmi alcune informazioni sul corso?", altAnswers: ["Potrebbe darmi alcune informazioni sul corso?", "Potrebbe fornirmi qualche informazione sul corso?"], explanation: "\"Dare\" → \"fornire\"; \"info\" → \"informazioni\"." },
-      { type: "translate", direction: "en-es", prompt: "Rewrite \"Il pacco non è arrivato, quindi voglio i soldi indietro\" formally: The parcel has not arrived; I therefore request a refund.", source: "The parcel has not arrived; I therefore request a refund.", answer: "Il pacco non è arrivato; chiedo pertanto il rimborso.", altAnswers: ["Il pacco non mi è pervenuto; chiedo pertanto il rimborso.", "Il pacco non è arrivato, pertanto chiedo il rimborso."], explanation: "\"Quindi\" → \"pertanto\"; \"i soldi indietro\" → \"il rimborso\"." },
-      { type: "translate", direction: "en-es", prompt: "Rewrite \"Il corso mi piace, però l'orario non va bene\" formally: The course interests me; however, the timetable is not suitable.", source: "The course interests me; however, the timetable is not suitable.", answer: "Il corso mi interessa; tuttavia, l'orario non è adatto.", altAnswers: ["Il corso mi interessa, tuttavia l'orario non è adatto.", "Il corso mi interessa; tuttavia, l'orario non è compatibile con i miei impegni."], explanation: "\"Però\" → \"tuttavia\"." },
+      { type: "translate", direction: "en-es", prompt: "Rewrite \"Il pacco non è arrivato, quindi voglio i soldi indietro\" formally: The package has not arrived; I therefore request a refund.", source: "The package has not arrived; I therefore request a refund.", answer: "Il pacco non è arrivato; chiedo pertanto il rimborso.", altAnswers: ["Il pacco non mi è pervenuto; chiedo pertanto il rimborso.", "Il pacco non è arrivato, pertanto chiedo il rimborso."], explanation: "\"Quindi\" → \"pertanto\"; \"i soldi indietro\" → \"il rimborso\"." },
+      { type: "translate", direction: "en-es", prompt: "Rewrite \"Il corso mi piace, però l'orario non va bene\" formally: The course interests me; however, the schedule is not suitable.", source: "The course interests me; however, the schedule is not suitable.", answer: "Il corso mi interessa; tuttavia, l'orario non è adatto.", altAnswers: ["Il corso mi interessa, tuttavia l'orario non è adatto.", "Il corso mi interessa; tuttavia, l'orario non è compatibile con i miei impegni."], explanation: "\"Però\" → \"tuttavia\"." },
       { type: "translate", direction: "en-es", prompt: "Rewrite \"Se non puoi, dimmelo\" formally: Should you not be able to, please let me know.", source: "Should you not be able to, please let me know.", answer: "Qualora non potesse, La prego di comunicarmelo.", altAnswers: ["Qualora non Le fosse possibile, La prego di comunicarmelo.", "Qualora non potesse, La prego di avvisarmi."], explanation: "\"Se\" → \"qualora\" + subjunctive." },
       { type: "translate", direction: "en-es", prompt: "Rewrite \"Ho comprato il biglietto ieri\" formally: I purchased the ticket yesterday.", source: "I purchased the ticket yesterday.", answer: "Ho acquistato il biglietto ieri.", altAnswers: ["Ieri ho acquistato il biglietto."], explanation: "\"Comprare\" → \"acquistare\"." },
       { type: "translate", direction: "en-es", prompt: "Rewrite \"Grazie mille, a presto!\" formally: Thank you for your attention. Kind regards.", source: "Thank you for your attention. Kind regards.", answer: "La ringrazio per l'attenzione. Cordiali saluti.", altAnswers: ["Ringraziando per l'attenzione, porgo cordiali saluti.", "La ringrazio per l'attenzione. Distinti saluti."], explanation: "Formal thanks and sign-off." },
-      { type: "translate", direction: "en-es", prompt: "Rewrite \"Ciao Marco,\" for a letter to the director Marco Ferri: Dear Mr Ferri,", source: "Dear Mr Ferri,", answer: "Gentile Signor Ferri,", altAnswers: ["Egregio Signor Ferri,", "Gentile Dottor Ferri,", "Egregio Direttore,"], explanation: "Surname, not first name." },
+      { type: "translate", direction: "en-es", prompt: "Rewrite \"Ciao Marco,\" for a letter to the director Marco Ferri: Dear Mr. Ferri,", source: "Dear Mr. Ferri,", answer: "Gentile Signor Ferri,", altAnswers: ["Egregio Signor Ferri,", "Gentile Dottor Ferri,", "Egregio Direttore,"], explanation: "Surname, not first name." },
       { type: "fill-blank", prompt: "Rewrite the informal \"la tua lettera\". Write the Italian for the bold words.", en: "Thank you for [your letter].", sentence: "La ringrazio per ___.", answer: "la Sua lettera", altAnswers: ["la sua lettera"], explanation: "\"Tuo\" → \"Suo\"." },
       { type: "fill-blank", prompt: "Rewrite the informal \"ti mando\". Write the Italian for the bold words.", en: "[I am sending you] the documents.", sentence: "___ i documenti.", answer: "Le invio", altAnswers: ["Le trasmetto"], explanation: "\"Ti mando\" → \"Le invio\"." },
       { type: "fill-blank", prompt: "Rewrite the informal \"anche\". Write the Italian for the bold words.", en: "[Furthermore], the room was noisy.", sentence: "___, la camera era rumorosa.", answer: "Inoltre", explanation: "\"Anche\" → \"inoltre\"." },
       { type: "fill-blank", prompt: "Rewrite the informal \"perché\". Write the Italian for the bold words.", en: "I cannot attend [as] I will be away.", sentence: "Non posso partecipare ___ sarò assente.", answer: "in quanto", altAnswers: ["poiché"], explanation: "Formal \"in quanto\"." },
       { type: "word-order", prompt: "Put the words in order to say: Could you kindly confirm the date?", words: ["Potrebbe", "gentilmente", "confermare", "la", "data?"], translation: "Could you kindly confirm the date?", explanation: "Conditional + \"gentilmente\"." },
       { type: "matching", instructions: "Match each informal phrase to its formal version.", pairs: [{ left: "Ciao", right: "Gentile Signora" }, { left: "Fammi sapere", right: "Resto in attesa di un Suo riscontro" }, { left: "A presto", right: "Cordiali saluti" }, { left: "Ti mando", right: "Le invio" }], explanation: "Frame and person." },
-      { type: "multiple-choice", question: "Which is the formal version of \"Dimmi quanto costa\"?", options: ["Potrebbe indicarmi il prezzo?", "Dimmi il prezzo.", "Mi dici quanto costa?", "Dica il prezzo."], correctIndex: 0, explanation: "Conditional question, formal \"indicare\"." },
+      { type: "multiple-choice", question: "Which is the polite formal version of \"Dimmi quanto costa\"?", options: ["Potrebbe indicarmi il prezzo?", "Dimmi il prezzo.", "Mi dici quanto costa?", "Dica il prezzo."], correctIndex: 0, explanation: "Conditional question, formal \"indicare\"." },
       { type: "listen-choose", audio: "Con la presente Le comunico che, a causa di un impegno di lavoro, non potrò partecipare alla riunione.", question: "What is the informal version?", options: ["Ti scrivo per dirti che non vengo alla riunione per lavoro.", "Ti scrivo per dirti che vengo alla riunione.", "Ti chiedo di spostare il lavoro.", "Ti invito alla riunione."], correctIndex: 0, explanation: "Same message, different register." },
-      { type: "dictation", audio: "Le scrivo per comunicarLe che arriverò lunedì mattina.", explanation: "\"ComunicarLe\": the capital L survives inside the word." },
+      { type: "dictation", audio: "Le scrivo per comunicarLe che arriverò lunedì mattina.", explanation: "\"ComunicarLe\": traditional letters keep the capital L inside the word; many writers now use lowercase, which is also accepted." },
       { type: "dictation", audio: "Il corso mi interessa; tuttavia, l'orario non è adatto.", explanation: "\"Tuttavia\" for \"però\"." },
       {
         type: "speak",
         text: "Gentile Signor Ferri, Le scrivo per comunicarLe che non potrò partecipare alla riunione in quanto sarò all'estero.",
-        prompt: "Turn \"Ciao Marco, non vengo alla riunione perché sono all'estero\" into a formal message: Dear Mr Ferri, I am writing to inform you that I will not be able to attend the meeting as I will be abroad.",
+        prompt: "Turn \"Ciao Marco, non vengo alla riunione perché sono all'estero\" into a formal message: Dear Mr. Ferri, I am writing to inform you that I will not be able to attend the meeting as I will be abroad.",
         tip: "\"All'estero\": double l, al-le-STE-ro.",
         explanation: "Person, words and tone all change.",
       },
@@ -686,8 +690,8 @@ export const IT_B2_U17: Lesson[] = [
         ],
         examples: [
           { es: "Egregio Direttore,", en: "Dear Sir, (to a director)" },
-          { es: "Gentile Signor Rossi,", en: "Dear Mr Rossi," },
-          { es: "La ringrazio per l'attenzione. Distinti saluti.", en: "Thank you for your attention. Yours faithfully." },
+          { es: "Gentile Signor Rossi,", en: "Dear Mr. Rossi," },
+          { es: "La ringrazio per l'attenzione. Distinti saluti.", en: "Thank you for your attention. Sincerely yours." },
           { es: "Cordiali saluti,", en: "Kind regards," },
         ],
         checkpoint: [
@@ -703,8 +707,8 @@ export const IT_B2_U17: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner ended a formal letter with \"Ciao e grazie!\". Fix it: Thank you for your attention. Yours faithfully.",
-            source: "Thank you for your attention. Yours faithfully.",
+            prompt: "A learner ended a formal letter with \"Ciao e grazie!\". Fix it: Thank you for your attention. Sincerely yours.",
+            source: "Thank you for your attention. Sincerely yours.",
             answer: "La ringrazio per l'attenzione. Distinti saluti.",
             altAnswers: ["La ringrazio per l'attenzione. Cordiali saluti.", "Ringraziando per l'attenzione, porgo distinti saluti."],
             explanation: "Formal thanks + formal sign-off.",
@@ -780,8 +784,8 @@ export const IT_B2_U17: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Ti chiedo di inviarmi il modulo\". Fix it: I ask you to send me the form.", source: "I ask you to send me the form.", answer: "Le chiedo di inviarmi il modulo.", altAnswers: ["Le chiedo cortesemente di inviarmi il modulo.", "La prego di inviarmi il modulo."], explanation: "\"Ti\" → \"Le\"." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Puoi chiamarmi domani?\". Fix it: Could you call me tomorrow?", source: "Could you call me tomorrow?", answer: "Potrebbe chiamarmi domani?", altAnswers: ["Potrebbe richiamarmi domani?", "Potrebbe gentilmente chiamarmi domani?"], explanation: "\"Tu\" → \"Lei\", plus the conditional." },
-      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Spettabile Signor Rossi\". Fix it: Dear Mr Rossi,", source: "Dear Mr Rossi,", answer: "Gentile Signor Rossi,", altAnswers: ["Egregio Signor Rossi,", "Gentile signor Rossi,"], explanation: "\"Spett.le\" is for companies." },
-      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Sono arrabbiatissimo per il ritardo!\". Fix it: I am deeply dissatisfied with the delay.", source: "I am deeply dissatisfied with the delay.", answer: "Sono profondamente insoddisfatto del ritardo.", altAnswers: ["Sono profondamente insoddisfatta del ritardo.", "Sono molto insoddisfatto del ritardo."], explanation: "Measured language." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Spettabile Signor Rossi\". Fix it: Dear Mr. Rossi,", source: "Dear Mr. Rossi,", answer: "Gentile Signor Rossi,", altAnswers: ["Egregio Signor Rossi,", "Gentile signor Rossi,"], explanation: "\"Spett.le\" is for companies." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Sono arrabbiatissimo per il ritardo!\". Fix it: I am deeply dissatisfied with the delay.", source: "I am deeply dissatisfied with the delay.", answer: "Sono profondamente insoddisfatto del ritardo.", altAnswers: ["Sono profondamente insoddisfatta del ritardo.", "Sono profondamente insoddisfatto per il ritardo.", "Sono profondamente insoddisfatta per il ritardo.", "Sono molto insoddisfatto del ritardo."], explanation: "Measured language." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Voglio prenotare una camera\". Fix it: I would like to book a room.", source: "I would like to book a room.", answer: "Vorrei prenotare una camera.", altAnswers: ["Desidero prenotare una camera.", "Desidererei prenotare una camera."], explanation: "\"Vorrei\", not \"voglio\"." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Ti ringrazio per la tua disponibilità\". Fix it: Thank you for your help.", source: "Thank you for your help.", answer: "La ringrazio per la Sua disponibilità.", altAnswers: ["La ringrazio per la disponibilità.", "La ringrazio per la sua disponibilità."], explanation: "\"Ringraziare\" takes \"La\"." },
       { type: "fill-blank", prompt: "A learner wrote \"Saluti\". Write the Italian for the bold words.", en: "[Kind regards],", sentence: "___,", answer: "Cordiali saluti", altAnswers: ["Distinti saluti"], explanation: "Full formula." },
@@ -789,12 +793,12 @@ export const IT_B2_U17: Lesson[] = [
       { type: "fill-blank", prompt: "A learner wrote \"Sono Anna e ti scrivo per ...\". Write the Italian for the bold words.", en: "[I am writing to] ask for information.", sentence: "___ chiedere informazioni.", answer: "Le scrivo per", altAnswers: ["Con la presente desidero"], explanation: "Name at the end, \"Le\" for \"Lei\"." },
       { type: "multiple-choice", question: "Which sentence is correct in a formal letter?", options: ["La prego di contattarmi.", "Le prego di contattarmi.", "Ti prego di contattarmi.", "Prego contattarmi tu."], correctIndex: 0, explanation: "\"Pregare\" + \"La\"." },
       { type: "multiple-choice", question: "Which greeting is wrong for a stranger?", options: ["Caro Signor Bianchi,", "Gentile Signor Bianchi,", "Egregio Signor Bianchi,", "Gentili Signori,"], correctIndex: 0, explanation: "\"Caro\" is for people you know." },
-      { type: "listen-choose", audio: "Il servizio non è stato all'altezza delle aspettative. Chiedo pertanto il rimborso.", question: "Which informal message does this formalise?", options: ["Il servizio era pessimo, voglio i soldi indietro.", "Il servizio era ottimo, grazie.", "Vorrei prenotare di nuovo.", "Ho perso lo scontrino."], correctIndex: 0, explanation: "Same message, formal register." },
+      { type: "listen-choose", audio: "Il servizio non è stato all'altezza delle aspettative. Chiedo pertanto il rimborso.", question: "Which informal message does this formalize?", options: ["Il servizio era pessimo, voglio i soldi indietro.", "Il servizio era ottimo, grazie.", "Vorrei prenotare di nuovo.", "Ho perso lo scontrino."], correctIndex: 0, explanation: "Same message, formal register." },
       { type: "dictation", audio: "La ringrazio per la Sua disponibilità e resto in attesa di una Sua risposta.", explanation: "\"La\", \"Sua\", \"Sua\"." },
       {
         type: "speak",
         text: "Egregio Direttore, Le chiedo di inviarmi il modulo. La ringrazio per l'attenzione. Distinti saluti.",
-        prompt: "Fix and read aloud the learner's note \"Caro direttore, ti chiedo di mandarmi il modulo. Ciao e grazie!\": Dear Sir, I ask you to send me the form. Thank you for your attention. Yours faithfully.",
+        prompt: "Fix and read aloud the learner's note \"Caro direttore, ti chiedo di mandarmi il modulo. Ciao e grazie!\": Dear Sir, I ask you to send me the form. Thank you for your attention. Sincerely yours.",
         tip: "\"Egregio\": e-GRE-jo.",
         explanation: "Greeting, person and sign-off fixed.",
       },
@@ -815,7 +819,7 @@ export const IT_B2_U17: Lesson[] = [
           "This letter from your bank (an invented one, Banca Valverde) announces a change to your account. Note \"a decorrere dal\" (with effect from), \"il canone mensile\" (the monthly fee) and \"recarsi presso\" (to go to an office).",
         ],
         examples: [
-          { es: "Gentile Cliente, La informiamo che a decorrere dal 1° luglio il canone mensile del Suo conto sarà di 3 euro.", en: "Dear Customer, we wish to inform you that from 1 July the monthly fee for your account will be 3 euros." },
+          { es: "Gentile Cliente, La informiamo che a decorrere dal 1° luglio il canone mensile del Suo conto sarà di 3 euro.", en: "Dear Customer, we wish to inform you that from July 1 the monthly fee for your account will be 3 euros." },
           { es: "Qualora non intendesse accettare le nuove condizioni, potrà recedere dal contratto senza spese.", en: "Should you not wish to accept the new conditions, you may withdraw from the contract at no cost." },
           { es: "Per ulteriori informazioni, La invitiamo a recarsi presso la Sua filiale.", en: "For further information, we invite you to visit your branch." },
           { es: "Si prega di non rispondere a questa comunicazione.", en: "Please do not reply to this message." },
@@ -832,7 +836,7 @@ export const IT_B2_U17: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What changes on 1 July?",
+            question: "What changes on July 1?",
             options: ["The monthly account fee", "The branch opening hours", "The interest rate on loans", "The bank's name"],
             correctIndex: 0,
             explanation: "\"Il canone mensile del Suo conto\".",
@@ -847,7 +851,7 @@ export const IT_B2_U17: Lesson[] = [
         ],
         examples: [
           { es: "Si comunica che l'avviso di pagamento della TARI è disponibile online.", en: "Please note that the waste tax payment notice is available online." },
-          { es: "Il pagamento dovrà essere effettuato entro e non oltre il 16 settembre.", en: "Payment must be made no later than 16 September." },
+          { es: "Il pagamento dovrà essere effettuato entro e non oltre il 16 settembre.", en: "Payment must be made no later than September 16." },
           { es: "Per eventuali errori, l'interessato può rivolgersi agli uffici competenti.", en: "In case of errors, the person concerned may contact the relevant offices." },
           { es: "L'ufficio tributi è aperto al pubblico il martedì e il giovedì.", en: "The tax office is open to the public on Tuesdays and Thursdays." },
         ],
@@ -856,7 +860,7 @@ export const IT_B2_U17: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Italian, in formal style.",
-            source: "Payment must be made no later than 16 September.",
+            source: "Payment must be made no later than September 16.",
             answer: "Il pagamento dovrà essere effettuato entro e non oltre il 16 settembre.",
             altAnswers: ["Il pagamento deve essere effettuato entro e non oltre il 16 settembre.", "Il pagamento va effettuato entro e non oltre il 16 settembre."],
             explanation: "\"Entro e non oltre\" = no later than.",
@@ -874,13 +878,13 @@ export const IT_B2_U17: Lesson[] = [
       {
         heading: "A letter from the university",
         body: [
-          "The Università di Pianalto writes to a new student. University letters use \"la segreteria studenti\" (student office), \"l'immatricolazione\" (enrolment), \"il libretto\" (record book), \"la tassa d'iscrizione\" (fee).",
+          "The Università di Pianalto writes to a new student. University letters use \"la segreteria studenti\" (student office), \"l'immatricolazione\" (enrollment), \"il libretto\" (record book), \"la tassa d'iscrizione\" (fee).",
           "Note the polite imperatives in the third person: \"Si ricorda di ...\" (Please remember to ...), \"È necessario presentare ...\" (You must submit ...), \"La preghiamo di ...\".",
         ],
         examples: [
-          { es: "Gentile studentessa, La informiamo che la Sua immatricolazione è stata accettata.", en: "Dear student, we wish to inform you that your enrolment has been accepted." },
+          { es: "Gentile studentessa, La informiamo che la Sua immatricolazione è stata accettata.", en: "Dear student, we wish to inform you that your enrollment has been accepted." },
           { es: "È necessario presentare un documento d'identità presso la segreteria studenti.", en: "You must present an identity document at the student office." },
-          { es: "Si ricorda di pagare la prima rata entro il 31 ottobre.", en: "Please remember to pay the first instalment by 31 October." },
+          { es: "Si ricorda di pagare la prima rata entro il 31 ottobre.", en: "Please remember to pay the first installment by October 31." },
           { es: "La preghiamo di conservare la presente comunicazione.", en: "Please keep this letter." },
         ],
         checkpoint: [
@@ -888,7 +892,7 @@ export const IT_B2_U17: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Italian, in formal style.",
-            source: "Please remember to pay the first instalment by 31 October.",
+            source: "Please remember to pay the first installment by October 31.",
             answer: "Si ricorda di pagare la prima rata entro il 31 ottobre.",
             altAnswers: ["Le ricordiamo di pagare la prima rata entro il 31 ottobre.", "Si ricorda di versare la prima rata entro il 31 ottobre."],
             explanation: "Impersonal \"si ricorda\".",
@@ -896,7 +900,7 @@ export const IT_B2_U17: Lesson[] = [
           {
             type: "multiple-choice",
             question: "What must the student take to the student office?",
-            options: ["An identity document", "The first instalment in cash", "A letter from the bank", "Her exam results"],
+            options: ["An identity document", "The first installment in cash", "A letter from the bank", "Her exam results"],
             correctIndex: 0,
             explanation: "\"Presentare un documento d'identità\".",
           },
@@ -904,10 +908,10 @@ export const IT_B2_U17: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian, in formal style.", source: "We wish to inform you that from 1 July the monthly fee will change.", answer: "La informiamo che a decorrere dal 1° luglio il canone mensile cambierà.", altAnswers: ["La informiamo che a partire dal 1° luglio il canone mensile cambierà.", "La informiamo che dal 1° luglio il canone mensile cambierà.", "Si comunica che a decorrere dal 1° luglio il canone mensile cambierà."], explanation: "\"A decorrere da\" = with effect from." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian, in formal style.", source: "We wish to inform you that from July 1 the monthly fee will change.", answer: "La informiamo che a decorrere dal 1° luglio il canone mensile cambierà.", altAnswers: ["La informiamo che a partire dal 1° luglio il canone mensile cambierà.", "La informiamo che dal 1° luglio il canone mensile cambierà.", "Si comunica che a decorrere dal 1° luglio il canone mensile cambierà."], explanation: "\"A decorrere da\" = with effect from." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, in formal style.", source: "Please do not reply to this message.", answer: "Si prega di non rispondere a questa comunicazione.", altAnswers: ["Si prega di non rispondere al presente messaggio.", "La preghiamo di non rispondere a questa comunicazione."], explanation: "Impersonal \"si prega di\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, in formal style.", source: "Please note that the payment notice is available online.", answer: "Si comunica che l'avviso di pagamento è disponibile online.", altAnswers: ["Si comunica che l'avviso di pagamento è disponibile on line.", "La informiamo che l'avviso di pagamento è disponibile online."], explanation: "\"Si comunica che\" opens official notices." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian, in formal style.", source: "Your enrolment has been accepted.", answer: "La Sua immatricolazione è stata accettata.", altAnswers: ["La sua immatricolazione è stata accettata."], explanation: "Passive with \"essere\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian, in formal style.", source: "Your enrollment has been accepted.", answer: "La Sua immatricolazione è stata accettata.", altAnswers: ["La sua immatricolazione è stata accettata."], explanation: "Passive with \"essere\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, in formal style.", source: "Please keep this letter.", answer: "La preghiamo di conservare la presente comunicazione.", altAnswers: ["La preghiamo di conservare la presente.", "Si prega di conservare la presente comunicazione."], explanation: "\"La presente\" = this letter." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "You may [withdraw from] the contract at no cost.", sentence: "Potrà ___ contratto senza spese.", answer: "recedere dal", explanation: "\"Recedere da\" = to withdraw from (legal)." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The person concerned may contact [the relevant offices].", sentence: "L'interessato può rivolgersi ___.", answer: "agli uffici competenti", explanation: "\"Competente\" = responsible for this matter." },
@@ -941,7 +945,7 @@ export const IT_B2_U17: Lesson[] = [
         ],
         examples: [
           { es: "Spett.le Hotel Miramare, Alla cortese attenzione della Direzione", en: "Hotel Miramare, for the attention of the Management" },
-          { es: "Oggetto: reclamo per soggiorno dal 5 al 12 agosto", en: "Subject: complaint about stay from 5 to 12 August" },
+          { es: "Oggetto: reclamo per soggiorno dal 5 al 12 agosto", en: "Subject: complaint about stay from August 5 to 12" },
           { es: "Con la presente desidero segnalare alcuni problemi riscontrati durante il mio soggiorno.", en: "I am writing to report some problems I encountered during my stay." },
           { es: "Avevo prenotato una camera con vista mare, ma mi è stata assegnata una camera sul cortile.", en: "I had booked a room with a sea view, but I was given a room overlooking the courtyard." },
         ],
@@ -950,7 +954,7 @@ export const IT_B2_U17: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Write the subject line in Italian.",
-            source: "Subject: complaint about stay from 5 to 12 August",
+            source: "Subject: complaint about stay from August 5 to 12",
             answer: "Oggetto: reclamo per soggiorno dal 5 al 12 agosto",
             altAnswers: ["Oggetto: reclamo per il soggiorno dal 5 al 12 agosto", "Oggetto: reclamo relativo al soggiorno dal 5 al 12 agosto"],
             explanation: "Noun phrase with dates.",
@@ -969,11 +973,11 @@ export const IT_B2_U17: Lesson[] = [
       {
         heading: "Attempts, request, closing",
         body: [
-          "Show your attempts with dates: \"Ho segnalato il guasto alla reception in data 6, 8 e 9 agosto\". Use \"tuttavia\" for the result: \"Tuttavia, nessuno è intervenuto.\" \"Il guasto\" = the fault; \"intervenire\" = to come and deal with it.",
+          "Show your attempts with dates: \"Ho segnalato il guasto alla reception nei giorni 6, 8 e 9 agosto\". Use \"tuttavia\" for the result: \"Tuttavia, nessuno è intervenuto.\" \"Il guasto\" = the fault; \"intervenire\" = to come and deal with it.",
           "Make a precise request: \"Chiedo pertanto un rimborso parziale pari al 30% dell'importo pagato\" (equal to 30% of the amount paid). Close with a firm but polite consequence and the formula.",
         ],
         examples: [
-          { es: "Ho segnalato il guasto alla reception in data 6, 8 e 9 agosto.", en: "I reported the fault to reception on 6, 8 and 9 August." },
+          { es: "Ho segnalato il guasto alla reception nei giorni 6, 8 e 9 agosto.", en: "I reported the fault to reception on August 6, 8 and 9." },
           { es: "Tuttavia, nessuno è intervenuto.", en: "However, nobody came to deal with it." },
           { es: "Chiedo pertanto un rimborso parziale pari al 30% dell'importo pagato.", en: "I therefore request a partial refund equal to 30% of the amount paid." },
           { es: "In caso contrario, mi vedrò costretta a pubblicare una recensione.", en: "Otherwise, I will be forced to publish a review. (a woman writing)" },
@@ -1008,11 +1012,11 @@ export const IT_B2_U17: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I had booked] a room with a sea view.", sentence: "___ una camera con vista mare.", answer: "Avevo prenotato", explanation: "Trapassato prossimo." },
       { type: "word-order", prompt: "Put the words in order to say: I look forward to your kind reply.", words: ["Resto", "in", "attesa", "di", "un", "Suo", "cortese", "riscontro."], translation: "I look forward to your kind reply.", explanation: "Closing formula." },
       { type: "multiple-choice", question: "Which paragraph order fits a complaint?", options: ["Purpose, facts, attempts, request", "Request, greeting, facts, date", "Facts, signature, purpose, attempts", "Attempts, request, purpose, greeting"], correctIndex: 0, explanation: "Purpose first, request last." },
-      { type: "dictation", audio: "Ho segnalato il guasto alla reception in data 6, 8 e 9 agosto.", explanation: "\"In data\" + dates." },
+      { type: "dictation", audio: "Ho segnalato il guasto alla reception nei giorni 6, 8 e 9 agosto.", explanation: "\"Nei giorni\" + several dates; \"in data\" introduces a single date." },
       {
         type: "speak",
         text: "Chiedo pertanto un rimborso parziale. In attesa di un Suo cortese riscontro, porgo distinti saluti.",
-        prompt: "Read your closing aloud: I therefore request a partial refund. Looking forward to your reply, yours faithfully.",
+        prompt: "Read your closing aloud: I therefore request a partial refund. Looking forward to your reply, sincerely yours.",
         tip: "\"Rimborso\": rim-BOR-so.",
         explanation: "Request + closing.",
       },
@@ -1023,14 +1027,14 @@ export const IT_B2_U17: Lesson[] = [
     level: "IT-B2",
     number: 10,
     title: "CILS DUE: Formal Writing Task",
-    summary: "Practise a CILS DUE-style formal letter: read the task, plan, write, and compare with a model answer.",
+    summary: "Practice a CILS DUE-style formal letter: read the task, plan, write, and compare with a model answer.",
     duration: "18 min",
     sections: [
       {
         heading: "The task",
         body: [
           "The CILS DUE (B2) writing section includes a letter or email task. A typical formal task gives you a situation and a list of points to cover. For example: \"Hai visto l'annuncio di una scuola di cucina a Firenze. Scrivi alla scuola per chiedere informazioni su date, prezzi e alloggio, e spiega perché ti interessa il corso.\"",
-          "Examiners check that you cover every point, use the right register, and organise the text. Underline the points first: here, dates, prices, accommodation and your reason. Each one needs at least a sentence. Check the current length and time limits in the official CILS guidelines before the exam.",
+          "Examiners check that you cover every point, use the right register, and organize the text. Underline the points first: here, dates, prices, accommodation and your reason. Each one needs at least a sentence. Check the current length and time limits in the official CILS guidelines before the exam.",
         ],
         examples: [
           { es: "Ho letto il Vostro annuncio sul sito della scuola.", en: "I read your advertisement on the school's website." },
@@ -1063,13 +1067,13 @@ export const IT_B2_U17: Lesson[] = [
         heading: "Giving your reason and closing",
         body: [
           "Explain your reason in one or two sentences, with a past and a present: \"Sono appassionato di cucina toscana da molti anni e vorrei approfondire le mie conoscenze.\" \"Approfondire\" (to deepen) is a useful B2 verb.",
-          "Then close politely, combining a thanks and the formula: \"RingraziandoVi anticipatamente, resto in attesa di un Vostro cortese riscontro. Distinti saluti.\" To a school or company you can write \"Vi\" and \"Vostro\", capitalised.",
+          "Then close politely, combining a thanks and the formula: \"RingraziandoVi anticipatamente, resto in attesa di un Vostro cortese riscontro. Distinti saluti.\" To a school or company you can write \"Vi\" and \"Vostro\", capitalized.",
         ],
         examples: [
           { es: "Sono appassionato di cucina toscana da molti anni.", en: "I have been passionate about Tuscan cooking for many years." },
           { es: "Vorrei approfondire le mie conoscenze.", en: "I would like to deepen my knowledge." },
           { es: "RingraziandoVi anticipatamente, resto in attesa di un Vostro cortese riscontro.", en: "Thanking you in advance, I look forward to your reply." },
-          { es: "Distinti saluti, Laura Martin", en: "Yours faithfully, Laura Martin" },
+          { es: "Distinti saluti, Laura Martin", en: "Sincerely yours, Laura Martin" },
         ],
         checkpoint: [
           {
@@ -1095,7 +1099,7 @@ export const IT_B2_U17: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, in formal style.", source: "I read your advertisement on the school's website.", answer: "Ho letto il Vostro annuncio sul sito della scuola.", altAnswers: ["Ho letto il vostro annuncio sul sito della scuola.", "Ho letto il Vostro annuncio sul sito internet della scuola."], explanation: "\"Vostro\" to a school." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, in formal style.", source: "Does the school offer accommodation for students?", answer: "La scuola offre un servizio di alloggio per gli studenti?", altAnswers: ["La scuola offre un alloggio per gli studenti?", "La scuola mette a disposizione un alloggio per gli studenti?"], explanation: "\"Alloggio\" = accommodation." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian, in formal style.", source: "I would be grateful if you could send me the programme.", answer: "Vi sarei grato se poteste inviarmi il programma.", altAnswers: ["Vi sarei grata se poteste inviarmi il programma.", "Le sarei grato se potesse inviarmi il programma.", "Le sarei grata se potesse inviarmi il programma."], explanation: "\"Vi\" + \"poteste\" to the school." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian, in formal style.", source: "I would be grateful if you could send me the program.", answer: "Vi sarei grato se poteste inviarmi il programma.", altAnswers: ["Vi sarei grata se poteste inviarmi il programma.", "Le sarei grato se potesse inviarmi il programma.", "Le sarei grata se potesse inviarmi il programma."], explanation: "\"Vi\" + \"poteste\" to the school." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, in formal style.", source: "Thanking you in advance, I look forward to your reply.", answer: "RingraziandoVi anticipatamente, resto in attesa di un Vostro cortese riscontro.", altAnswers: ["Ringraziandovi anticipatamente, resto in attesa di un vostro cortese riscontro.", "RingraziandoVi anticipatamente, resto in attesa di una Vostra risposta."], explanation: "Capital \"Vi\" inside the gerund." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, in formal style.", source: "I would also like to know whether the price includes the ingredients.", answer: "Vorrei inoltre sapere se il prezzo comprende gli ingredienti.", altAnswers: ["Vorrei inoltre sapere se il prezzo include gli ingredienti.", "Desidererei inoltre sapere se il prezzo comprende gli ingredienti."], explanation: "\"Comprendere\" = to include." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The course [takes place] in June.", sentence: "Il corso ___ a giugno.", answer: "si svolge", altAnswers: ["si tiene"], explanation: "\"Svolgersi\" or \"tenersi\"." },
@@ -1107,7 +1111,7 @@ export const IT_B2_U17: Lesson[] = [
       {
         type: "speak",
         text: "Gentili Signori, ho letto il Vostro annuncio e vorrei sapere in quali date si svolge il corso. RingraziandoVi anticipatamente, porgo distinti saluti.",
-        prompt: "Read aloud a short version of your letter: Dear Sir or Madam, I read your advertisement and would like to know on which dates the course takes place. Thanking you in advance, yours faithfully.",
+        prompt: "Read aloud a short version of your letter: Dear Sir or Madam, I read your advertisement and would like to know on which dates the course takes place. Thanking you in advance, sincerely yours.",
         tip: "\"Svolge\": ZVOL-je, the s sounds like z before v.",
         explanation: "Opening, request, closing.",
       },
@@ -1117,7 +1121,7 @@ export const IT_B2_U17: Lesson[] = [
 
 export const IT_B2_U17_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You've seen an advertisement for a cookery school in Florence. Write a formal letter to the school: introduce yourself briefly, explain why the course interests you, and ask about dates, prices and accommodation.",
+  prompt: "You've seen an advertisement for a cooking school in Florence. Write a formal letter to the school: introduce yourself briefly, explain why the course interests you, and ask about dates, prices and accommodation.",
   minWords: 100,
   maxWords: 160,
   rubric: [
@@ -1127,5 +1131,5 @@ export const IT_B2_U17_WRITING: WriteExercise = {
     "Uses formal vocabulary and connectors (inoltre, pertanto, tuttavia, in merito a, richiedere, fornire)",
   ],
   modelAnswer: "Lione, 10 marzo 2026\n\nSpett.le Scuola di Cucina Toscana\n\nOggetto: richiesta di informazioni sul corso estivo\n\nGentili Signori,\n\nho letto il Vostro annuncio sul sito della scuola e desidero richiedere alcune informazioni sul corso estivo di cucina. Mi chiamo Laura Martin e sono appassionata di cucina toscana da molti anni: vorrei pertanto approfondire le mie conoscenze con dei professionisti.\n\nVorrei sapere in quali date si svolge il corso e quale sia il costo complessivo. Desidererei inoltre sapere se il prezzo comprende gli ingredienti. Infine, Vi sarei grata se poteste fornirmi informazioni sull'alloggio: la scuola offre camere per gli studenti? Qualora non fosse possibile, potreste consigliarmi una soluzione nelle vicinanze?\n\nRingraziandoVi anticipatamente, resto in attesa di un Vostro cortese riscontro.\n\nDistinti saluti,\nLaura Martin",
-  explanation: "The letter keeps the formal layout: place and date, \"Spett.le\", \"Oggetto\", \"Gentili Signori\" and \"Distinti saluti\". It covers every point of the task, writes to the school with a capitalised \"Voi\" (\"Vostro\", \"Vi sarei grata\", \"poteste\") and uses \"pertanto\", \"inoltre\" and \"qualora\" + subjunctive.",
+  explanation: "The letter keeps the formal layout: place and date, \"Spett.le\", \"Oggetto\", \"Gentili Signori\" and \"Distinti saluti\". It covers every point of the task, writes to the school with a capitalized \"Voi\" (\"Vostro\", \"Vi sarei grata\", \"poteste\") and uses \"pertanto\", \"inoltre\" and \"qualora\" + subjunctive.",
 };

@@ -37,7 +37,7 @@ export const IT_C1_U01_EXTRA: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (passato remoto).", source: "We sold the old furniture at the market.", answer: "Vendemmo i vecchi mobili al mercato.", explanation: "\"Vendemmo\": noi form of \"vendere\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (passato remoto).", source: "Matteo received a letter from the town hall.", answer: "Matteo ricevette una lettera dal comune.", altAnswers: ["Matteo ricevé una lettera dal comune.", "Matteo ricevette una lettera dal municipio."], explanation: "\"Ricevette\" or \"ricevé\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (passato remoto).", source: "Why did you sleep in the garden? (to one person)", answer: "Perché dormisti in giardino?", explanation: "Tu: \"dormisti\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian (passato remoto).", source: "The neighbours helped us with the wall.", answer: "I vicini ci aiutarono con il muro.", altAnswers: ["I vicini ci aiutarono col muro."], explanation: "\"Aiutarono\"; \"ci\" = us." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian (passato remoto).", source: "The neighbors helped us with the wall.", answer: "I vicini ci aiutarono con il muro.", altAnswers: ["I vicini ci aiutarono col muro."], explanation: "\"Aiutarono\"; \"ci\" = us." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (passato remoto).", source: "In August we finished the kitchen.", answer: "Ad agosto finimmo la cucina.", altAnswers: ["In agosto finimmo la cucina."], explanation: "\"Finimmo\": noi of \"finire\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (passato remoto).", source: "Did you (plural) believe the builder?", answer: "Credeste al muratore?", altAnswers: ["Voi credeste al muratore?"], explanation: "Voi has one form: \"credeste\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (passato remoto).", source: "Chiara cooked for everyone every evening.", answer: "Chiara cucinava per tutti ogni sera.", altAnswers: ["Ogni sera Chiara cucinava per tutti."], explanation: "A trap: \"ogni sera\" is a habit, so the imperfetto, not the passato remoto." },
@@ -62,9 +62,9 @@ export const IT_C1_U01_EXTRA: Lesson[] = [
     kind: "drill",
     sections: [
       {
-        heading: "A wartime diary",
+        heading: "A wartime memoir",
         body: [
-          "These sentences come from an invented diary kept by a young teacher in Friuli in 1917. Irregular verbs change in the io, lui / lei and loro forms and stay regular in tu, noi and voi: \"vidi, vedesti, vide, vedemmo, vedeste, videro\".",
+          "These sentences come from an invented memoir, written years later by a woman who was a young teacher in Friuli in 1917 (a diary written day by day would use the passato prossimo; a memoir looks back and uses the passato remoto). Irregular verbs change in the io, lui / lei and loro forms and stay regular in tu, noi and voi: \"vidi, vedesti, vide, vedemmo, vedeste, videro\".",
           "Watch the verbs that don't follow 1-3-3: \"essere\" (\"fui, fosti, fu, fummo, foste, furono\") is irregular everywhere.",
         ],
         examples: [

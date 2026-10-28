@@ -20,7 +20,7 @@ export const IT_B1_U24: Lesson[] = [
           "By law an ad must address both men and women, so you see \"commesso/a\", \"cameriere/a\" or \"(m/f)\". When you read it aloud or apply, pick your own form: \"Mi candido per il posto di commessa\". \"Il posto\" and \"la posizione\" both mean the job on offer; \"candidarsi\" is to apply.",
         ],
         examples: [
-          { es: "Cercasi cameriere/a per ristorante in centro.", en: "Waiter / waitress wanted for a restaurant in the centre." },
+          { es: "Cercasi cameriere/a per ristorante in centro.", en: "Waiter / waitress wanted for a restaurant in the center." },
           { es: "Ricerchiamo un impiegato amministrativo per la sede di Bologna.", en: "We're looking for an admin clerk for our Bologna office." },
           { es: "Selezioniamo addetti alle vendite, anche alla prima esperienza.", en: "We're recruiting sales staff, first-timers welcome." },
           { es: "Vorrei candidarmi per la posizione di receptionist.", en: "I'd like to apply for the receptionist position." },
@@ -28,27 +28,27 @@ export const IT_B1_U24: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'd like to apply for the waitress position.", answer: "Vorrei candidarmi per il posto di cameriera.", altAnswers: ["Vorrei candidarmi per la posizione di cameriera.", "Mi vorrei candidare per il posto di cameriera.", "Mi vorrei candidare per la posizione di cameriera."], explanation: "\"Candidarsi per\" = to apply for; the conditional \"vorrei\" keeps it polite." },
-          { type: "multiple-choice", question: "A sign in a bakery window says \"Cercasi commessa\". What does it mean?", options: ["Shop assistant wanted.", "The shop assistant is looking for a job.", "We're looking for customers.", "Ask the shop assistant."], correctIndex: 0, explanation: "\"Cercasi\" = si cerca: someone is wanted." },
+          { type: "multiple-choice", question: "A sign in a bakery window says \"Cercasi commessa\". What does it mean?", options: ["Sales clerk wanted.", "The sales clerk is looking for a job.", "We're looking for customers.", "Ask the sales clerk."], correctIndex: 0, explanation: "\"Cercasi\" = si cerca: someone is wanted." },
         ],
       },
       {
         heading: "Requisiti: what they want",
         body: [
-          "The requirements come under \"Requisiti\" or \"Si richiede\" (si passivante: \"si richiedono\" with a plural). Typical items: \"laurea in ...\" (a degree in), \"diploma\" (secondary-school diploma), \"esperienza pregressa nel ruolo\" (previous experience in the role), \"ottima conoscenza dell'inglese\", \"patente B\" (car licence) and \"automunito/a\" (with your own car).",
+          "The requirements come under \"Requisiti\" or \"Si richiede\" (si passivante: \"si richiedono\" with a plural). Typical items: \"laurea in ...\" (a degree in), \"diploma\" (secondary-school diploma), \"esperienza pregressa nel ruolo\" (previous experience in the role), \"ottima conoscenza dell'inglese\", \"patente B\" (a regular driver's license) and \"automunito/a\" (with your own car).",
           "\"Costituisce titolo preferenziale\" means is an advantage. \"Disponibilità\" is a key ad word: \"disponibilità a trasferte\" (willing to travel), \"disponibilità immediata\" (can start straight away), \"disponibilità a lavorare nei weekend\".",
         ],
         examples: [
           { es: "Si richiede esperienza di almeno due anni nel ruolo.", en: "At least two years' experience in the role is required." },
-          { es: "Si richiedono ottime capacità organizzative.", en: "Excellent organisational skills are required." },
+          { es: "Si richiedono ottime capacità organizzative.", en: "Excellent organizational skills are required." },
           { es: "La conoscenza del tedesco costituisce titolo preferenziale.", en: "Knowledge of German is an advantage." },
           { es: "Cerchiamo una persona automunita, con disponibilità immediata.", en: "We're looking for someone with their own car who can start immediately." },
-          { es: "È richiesta la disponibilità a lavorare nei weekend.", en: "You must be willing to work at weekends." },
-          { es: "Requisiti: laurea in economia, inglese fluente, patente B.", en: "Requirements: an economics degree, fluent English, a car licence." },
+          { es: "È richiesta la disponibilità a lavorare nei weekend.", en: "You must be willing to work on weekends." },
+          { es: "Requisiti: laurea in economia, inglese fluente, patente B.", en: "Requirements: an economics degree, fluent English, a driver's license." },
         ],
         checkpoint: [
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Excellent knowledge] of English is required.", sentence: "Si richiede ___ dell'inglese.", answer: "un'ottima conoscenza", altAnswers: ["ottima conoscenza"], explanation: "\"Conoscenza\" is feminine: \"un'ottima conoscenza\", with the apostrophe." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Knowledge of French is an advantage.", answer: "La conoscenza del francese costituisce titolo preferenziale.", altAnswers: ["La conoscenza del francese è un titolo preferenziale.", "La conoscenza del francese è titolo preferenziale."], explanation: "\"Titolo preferenziale\" is the set ad phrase for an advantage." },
-          { type: "listen-choose", audio: "Cerchiamo una persona automunita, con disponibilità immediata.", question: "What must the candidate have?", options: ["their own car and the ability to start now", "a degree and a car licence", "a car and two years' experience", "flexible hours and a laptop"], correctIndex: 0, explanation: "\"Automunita\" = with her or his own car; \"disponibilità immediata\" = can start immediately." },
+          { type: "listen-choose", audio: "Cerchiamo una persona automunita, con disponibilità immediata.", question: "What must the candidate have?", options: ["their own car and the ability to start now", "a degree and a driver's license", "a car and two years' experience", "flexible hours and a laptop"], correctIndex: 0, explanation: "\"Automunita\" = with her or his own car; \"disponibilità immediata\" = can start immediately." },
         ],
       },
       {
@@ -56,6 +56,7 @@ export const IT_B1_U24: Lesson[] = [
         body: [
           "Under \"Offriamo\" or \"Si offre\": \"contratto a tempo indeterminato\" (permanent), \"a tempo determinato\" (fixed-term), \"stage\" (internship), \"full time\" or \"part time\" (Italians use the English words; \"a tempo pieno\" also exists). Pay appears as \"RAL\" (gross annual salary) or \"retribuzione commisurata all'esperienza\" (salary according to experience); \"buoni pasto\" are meal vouchers.",
           "Ads end with an infinitive used as an instruction: \"Inviare il CV a ...\", \"Indicare il riferimento\" (quote the reference). Note \"gli interessati\": those interested.",
+          "Ad Italian is telegraphic: articles and verbs drop out (\"Richiesta esperienza\", \"Offresi contratto\", \"Inviare CV\"). Grammar books want \"cercansi\" with a plural (\"Cercansi camerieri\"), but real signs use \"cercasi\" for one or many, so read both. \"Lo stage\" (said the French way) or \"il tirocinio\" is an internship, often with only a \"rimborso spese\" (expense allowance), and \"anche prima esperienza\" means beginners welcome.",
         ],
         examples: [
           { es: "Offriamo un contratto a tempo indeterminato e buoni pasto.", en: "We offer a permanent contract and meal vouchers." },
@@ -71,7 +72,7 @@ export const IT_B1_U24: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Shop assistant wanted for a bookshop in Turin.", answer: "Cercasi commesso per libreria a Torino.", altAnswers: ["Cercasi commessa per libreria a Torino.", "Cercasi commesso/a per libreria a Torino.", "Cercasi commesso per una libreria a Torino.", "Cercasi commessa per una libreria a Torino.", "Si cerca commesso per libreria a Torino.", "Si cerca commessa per libreria a Torino."], explanation: "\"Cercasi\" + job, no article: the shop-sign style. \"Libreria\" is a bookshop, not a library." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Sales clerk wanted for a bookshop in Turin.", answer: "Cercasi commesso per libreria a Torino.", altAnswers: ["Cercasi commessa per libreria a Torino.", "Cercasi commesso/a per libreria a Torino.", "Cercasi commesso per una libreria a Torino.", "Cercasi commessa per una libreria a Torino.", "Si cerca commesso per libreria a Torino.", "Si cerca commessa per libreria a Torino."], explanation: "\"Cercasi\" + job, no article: the shop-sign style. \"Libreria\" is a bookshop, not a library." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "At least three years' experience is required.", answer: "Si richiede un'esperienza di almeno tre anni.", altAnswers: ["Si richiede esperienza di almeno tre anni.", "È richiesta un'esperienza di almeno tre anni.", "È richiesta esperienza di almeno tre anni."], explanation: "Si passivante or the passive with \"essere\": both are standard in ads." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We offer a fixed-term contract for six months.", answer: "Offriamo un contratto a tempo determinato di sei mesi.", altAnswers: ["Offriamo un contratto a tempo determinato per sei mesi.", "Si offre un contratto a tempo determinato di sei mesi.", "Si offre contratto a tempo determinato di sei mesi."], explanation: "\"Determinato\": it has a fixed end." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Is the position still available?", answer: "La posizione è ancora disponibile?", altAnswers: ["Il posto è ancora libero?", "Il posto è ancora disponibile?", "La posizione è ancora aperta?"], explanation: "\"Libero\" or \"disponibile\": not taken yet." },
@@ -79,10 +80,10 @@ export const IT_B1_U24: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[You must be willing] to travel.", sentence: "___ a trasferte.", answer: "Si richiede disponibilità", altAnswers: ["È richiesta disponibilità", "È richiesta la disponibilità", "Si richiede la disponibilità"], explanation: "\"Disponibilità a\" + noun or infinitive = willingness to." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Salary [according to experience].", sentence: "Retribuzione ___.", answer: "commisurata all'esperienza", explanation: "\"Commisurata a\" = in proportion to; it agrees with \"retribuzione\"." },
       { type: "word-order", prompt: "Put the words in order to say: We're looking for a waiter with previous experience.", words: ["Cerchiamo", "un", "cameriere", "con", "esperienza", "pregressa."], translation: "We're looking for a waiter with previous experience.", explanation: "\"Pregressa\" (previous) comes after the noun." },
-      { type: "multiple-choice", question: "An ad says \"Si richiede laurea in ingegneria\". What does the company want?", options: ["an engineering degree", "a diploma in engineering from a secondary school", "an engineering licence", "experience in engineering"], correctIndex: 0, explanation: "\"La laurea\" is a university degree; \"il diploma\" is the school-leaving diploma." },
+      { type: "multiple-choice", question: "An ad says \"Si richiede laurea in ingegneria\". What does the company want?", options: ["an engineering degree", "a diploma in engineering from a secondary school", "an engineering license", "experience in engineering"], correctIndex: 0, explanation: "\"La laurea\" is a university degree; \"il diploma\" is the school-leaving diploma." },
       { type: "multiple-choice", question: "How does an ad usually tell you to apply?", options: ["Inviare il CV a selezione@azienda.it.", "Invia il tuo CV a selezione@azienda.it, dai!", "Inviate a noi il vostro CV per favore subito.", "Invierai il CV a selezione@azienda.it."], correctIndex: 0, explanation: "Ads use the bare infinitive as an impersonal instruction." },
       { type: "dictation", audio: "Offriamo contratto a tempo indeterminato e buoni pasto.", explanation: "\"Indeterminato\": no end date, so permanent; the stress falls on \"-na-\"." },
-      { type: "speak", text: "Buongiorno, chiamo per l'annuncio. Il posto di commessa è ancora libero?", prompt: "Say it in Italian: Good morning, I'm calling about the ad. Is the shop assistant job still available?", tip: "\"Commessa\": double s and a clear e.", explanation: "\"Chiamo per l'annuncio\" is how you open the call." },
+      { type: "speak", text: "Buongiorno, chiamo per l'annuncio. Il posto di commessa è ancora libero?", prompt: "Say it in Italian: Good morning, I'm calling about the ad. Is the sales clerk job still available?", tip: "\"Commessa\": double s and a clear e.", explanation: "\"Chiamo per l'annuncio\" is how you open the call." },
     ],
   },
   {
@@ -115,7 +116,8 @@ export const IT_B1_U24: Lesson[] = [
         heading: "Esperienza lavorativa",
         body: [
           "Experience is listed newest first, each item with dates, employer, role and duties. In the CV itself Italians use noun phrases (\"Gestione dei clienti\", \"Organizzazione di eventi\"); when you talk about it you switch to the passato prossimo: \"Mi sono occupato di ...\" (I was responsible for, I dealt with), \"Ho gestito ...\", \"Ho lavorato come ...\".",
-          "\"Esperienza\" is uncountable in the general sense: \"ho molta esperienza\", never \"una grande esperienza\" for a lot of experience. \"La carriera\" is a career, not a carrier, and \"il ruolo\" is the role.",
+          "Write dates day first: \"03/05/2021\" is May 3, and months are lowercase (\"da marzo 2021 a oggi\"). The employer follows \"presso\" (at, with): \"receptionist presso l'Hotel Bellavista\". For the job you still have, write \"a oggi\" or \"in corso\"; for duties, \"mansioni\" or \"principali attività\". Don't translate a job title word for word: an \"office manager\" is often \"responsabile amministrativo\".",
+          "\"Esperienza\" is uncountable in the general sense: \"ho molta esperienza\", not \"una grande esperienza\": that phrase usually means one great experience (\"Londra è stata una grande esperienza\"). On a CV say \"molta\", \"una lunga\" or \"una solida esperienza\". \"La carriera\" is a career, not a carrier, and \"il ruolo\" is the role.",
         ],
         examples: [
           { es: "Da marzo 2021 a oggi: receptionist presso l'Hotel Bellavista, Rimini.", en: "March 2021 to date: receptionist at the Hotel Bellavista, Rimini." },
@@ -133,14 +135,14 @@ export const IT_B1_U24: Lesson[] = [
         heading: "Languages, skills and the privacy line",
         body: [
           "\"Competenze linguistiche\": your mother tongue (\"madrelingua inglese\") and the others with their level, \"inglese C2, italiano B1\". Then \"competenze digitali\" (computer skills) and \"competenze organizzative\" or \"comunicative\". \"La patente B\" goes in too.",
-          "Every Italian CV ends with a signed consent line: \"Autorizzo il trattamento dei miei dati personali ai sensi del Regolamento UE 2016/679\" (the GDPR). Leave it out and some offices won't consider your application.",
+          "Every Italian CV ends with a signed consent line: \"Autorizzo il trattamento dei miei dati personali ai sensi del Regolamento UE 2016/679\" (the GDPR). Since 2018 the law no longer strictly requires it for a CV you send on your own initiative, but many employers still expect it, so include it and sign it.",
         ],
         examples: [
           { es: "Madrelingua: inglese. Altre lingue: italiano (B1), spagnolo (A2).", en: "Mother tongue: English. Other languages: Italian (B1), Spanish (A2)." },
           { es: "Ottima conoscenza del pacchetto Office.", en: "Excellent knowledge of Microsoft Office." },
           { es: "Buone capacità comunicative e di lavoro in gruppo.", en: "Good communication and teamwork skills." },
-          { es: "Patente B, automunito.", en: "Car licence, own car." },
-          { es: "Autorizzo il trattamento dei miei dati personali ai sensi del Regolamento UE 2016/679.", en: "I authorise the processing of my personal data under EU Regulation 2016/679." },
+          { es: "Patente B, automunito.", en: "Driver's license, own car." },
+          { es: "Autorizzo il trattamento dei miei dati personali ai sensi del Regolamento UE 2016/679.", en: "I authorize the processing of my personal data under EU Regulation 2016/679." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm a native English speaker.", answer: "Sono madrelingua inglese.", altAnswers: ["Sono di madrelingua inglese.", "La mia lingua madre è l'inglese."], explanation: "\"Madrelingua\" works as an adjective: \"sono madrelingua inglese\"." },
@@ -174,19 +176,20 @@ export const IT_B1_U24: Lesson[] = [
       {
         heading: "Opening: Gentile ...",
         body: [
-          "A formal email opens with \"Gentile\" + title + surname: \"Gentile Dott.ssa Rossi\", \"Gentile Sig. Bianchi\", \"Gentile Responsabile delle Risorse Umane\" when you have no name. \"Egregio\" (esteemed) is more ceremonious and only for men: \"Egregio Direttore\". \"Caro\" is for people you know, so it's too familiar here, and \"Ciao\" is out of the question. In Italy a graduate is addressed as \"Dottore / Dottoressa\".",
-          "State the reason in the first line: \"Le scrivo in merito all'annuncio pubblicato su ...\" (I'm writing regarding the ad published on ...) or \"in riferimento alla posizione di ...\". In letters the formal \"Le\", \"La\" and \"Suo\" are capitalised.",
+          "A formal email opens with \"Gentile\" + title + surname: \"Gentile Dott.ssa Rossi\", \"Gentile Sig. Bianchi\", \"Gentile Responsabile delle Risorse Umane\" when you have no name. \"Egregio\" (esteemed) is more ceremonious and mostly used for men: \"Egregio Direttore\" (\"Egregia\" for a woman exists but is rarer). \"Caro\" is for people you know, so it's too familiar here, and \"Ciao\" is out of the question. In Italy a graduate is addressed as \"Dottore / Dottoressa\".",
+          "State the reason in the first line: \"Le scrivo in merito all'annuncio pubblicato su ...\" (I'm writing regarding the ad published on ...) or \"in riferimento alla posizione di ...\". In letters the formal \"Le\", \"La\" and \"Suo\" are capitalized.",
+          "Keep one addressee from start to finish. If you open with \"Gentile Dott.ssa Ferrari\", stay with \"Le\" and \"Suo\"; use \"Vostro\" only for the company itself. Mixing \"Le invio il CV\" with \"aspetto la tua risposta\" is the classic learner slip. Attachments are \"in allegato\" or \"allego\", never \"attacco\" (that means I attack or stick), and the subject line starts with \"Oggetto:\".",
         ],
         examples: [
-          { es: "Gentile Dott.ssa Ferrari,", en: "Dear Dr Ferrari, (a woman with a degree)" },
+          { es: "Gentile Dott.ssa Ferrari,", en: "Dear Dr. Ferrari, (a woman with a degree)" },
           { es: "Gentile Responsabile delle Risorse Umane,", en: "Dear Head of Human Resources," },
           { es: "Egregio Direttore,", en: "Dear Director, (very formal, to a man)" },
-          { es: "Le scrivo in merito all'annuncio pubblicato su InfoJobs il 3 maggio.", en: "I'm writing regarding the ad published on InfoJobs on 3 May." },
+          { es: "Le scrivo in merito all'annuncio pubblicato su InfoJobs il 3 maggio.", en: "I'm writing regarding the ad published on InfoJobs on May 3." },
           { es: "Le scrivo in riferimento alla posizione di addetto marketing.", en: "I'm writing with reference to the marketing assistant position." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm writing regarding the ad for the accountant position.", answer: "Le scrivo in merito all'annuncio per la posizione di contabile.", altAnswers: ["Le scrivo in riferimento all'annuncio per la posizione di contabile.", "Le scrivo in merito all'annuncio per il posto di contabile.", "Le scrivo riguardo all'annuncio per la posizione di contabile."], explanation: "\"Le scrivo\": to you (formal) I write. \"In merito a\" + \"il\" = \"al\", \"all'\" before a vowel." },
-          { type: "multiple-choice", question: "You're writing to Mr Conti, a manager you've never met. How do you open?", options: ["Gentile Sig. Conti,", "Caro signor Conti,", "Ciao Conti,", "Salve Conti!"], correctIndex: 0, explanation: "\"Gentile\" is the safe formal opening; \"caro\" is for people you know." },
+          { type: "multiple-choice", question: "You're writing to Mr. Conti, a manager you've never met. How do you open?", options: ["Gentile Sig. Conti,", "Caro signor Conti,", "Ciao Conti,", "Salve Conti!"], correctIndex: 0, explanation: "\"Gentile\" is the safe formal opening; \"caro\" is for people you know." },
         ],
       },
       {
@@ -217,17 +220,17 @@ export const IT_B1_U24: Lesson[] = [
           { es: "Spero che la mia candidatura sia di Suo interesse.", en: "I hope my application is of interest to you." },
           { es: "Resto a disposizione per un eventuale colloquio.", en: "I'm available for an interview if you wish." },
           { es: "In attesa di un Suo cortese riscontro, Le porgo cordiali saluti.", en: "Looking forward to your kind reply, I send you my best regards." },
-          { es: "Distinti saluti, Laura Greco", en: "Yours sincerely, Laura Greco" },
+          { es: "Distinti saluti, Laura Greco", en: "Sincerely, Laura Greco" },
           { es: "La ringrazio per l'attenzione.", en: "Thank you for your time." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I hope my application is of interest to you.", answer: "Spero che la mia candidatura sia di Suo interesse.", altAnswers: ["Spero che la mia candidatura possa essere di Suo interesse.", "Spero che la mia candidatura sia di vostro interesse.", "Spero che la mia candidatura sia di Vostro interesse."], explanation: "\"Sperare che\" + subjunctive \"sia\"; \"Suo\" capitalised for the reader." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I hope my application is of interest to you.", answer: "Spero che la mia candidatura sia di Suo interesse.", altAnswers: ["Spero che la mia candidatura possa essere di Suo interesse.", "Spero che la mia candidatura sia di vostro interesse.", "Spero che la mia candidatura sia di Vostro interesse."], explanation: "\"Sperare che\" + subjunctive \"sia\"; \"Suo\" capitalized for the reader." },
           { type: "listen-choose", audio: "Resto a disposizione per un eventuale colloquio.", question: "What does the writer say?", options: ["I'm available for an interview if you'd like one.", "I'll eventually come for an interview.", "I'm waiting for the interview date.", "I've already had an interview."], correctIndex: 0, explanation: "\"Eventuale\" = possible, if it happens. It never means eventual." },
         ],
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Dear Dr Russo, (a man)", answer: "Gentile Dott. Russo,", altAnswers: ["Gentile Dottor Russo,", "Gentile dottor Russo,", "Egregio Dott. Russo,", "Egregio Dottor Russo,"], explanation: "\"Dott.\" before a surname; \"Dottore\" drops its final -e: \"Dottor Russo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Dear Dr. Russo, (a man)", answer: "Gentile Dott. Russo,", altAnswers: ["Gentile Dottor Russo,", "Gentile dottor Russo,", "Egregio Dott. Russo,", "Egregio Dottor Russo,"], explanation: "\"Dott.\" before a surname; \"Dottore\" drops its final -e: \"Dottor Russo\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "As you will see from the attached CV, I speak three languages.", answer: "Come potrà vedere dal curriculum allegato, parlo tre lingue.", altAnswers: ["Come potrà vedere dal CV allegato, parlo tre lingue.", "Come può vedere dal curriculum allegato, parlo tre lingue.", "Come può vedere dal CV allegato, parlo tre lingue."], explanation: "\"Potrà\": formal \"Lei\" in the future, a polite touch." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm available for an interview.", answer: "Resto a disposizione per un colloquio.", altAnswers: ["Sono disponibile per un colloquio.", "Resto a disposizione per un eventuale colloquio.", "Sono a disposizione per un colloquio."], explanation: "\"Il colloquio\" = the job interview; \"l'intervista\" is for journalists." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Thank you for your attention. (formal)", answer: "La ringrazio per l'attenzione.", altAnswers: ["La ringrazio per l'attenzione accordatami.", "Grazie per l'attenzione.", "La ringrazio per la Sua attenzione."], explanation: "\"Ringraziare\" takes a direct object: \"La ringrazio\", not \"Le\"." },
@@ -238,7 +241,7 @@ export const IT_B1_U24: Lesson[] = [
       { type: "multiple-choice", question: "Which closing fits a cover email?", options: ["Cordiali saluti", "Baci", "Ciao ciao", "A dopo"], correctIndex: 0, explanation: "\"Cordiali saluti\" or \"Distinti saluti\" close formal mail." },
       { type: "multiple-choice", question: "\"Ritengo che il mio profilo ___ adatto.\" Which form fits?", options: ["sia", "è", "sarà", "essere"], correctIndex: 0, explanation: "\"Ritenere che\" expresses opinion: subjunctive. \"È\" would be spoken, not written standard." },
       { type: "dictation", audio: "In attesa di un Suo cortese riscontro, porgo cordiali saluti.", explanation: "\"Cortese\" (courteous) and \"cordiali\": two set formulas." },
-      { type: "speak", text: "Gentile Dottoressa Rossi, Le scrivo in merito all'annuncio per la posizione di assistente.", prompt: "Read the opening of your email aloud: Dear Dr Rossi, I'm writing regarding the ad for the assistant position.", tip: "Say \"Dottoressa\" in full when you read aloud: dot-to-RES-sa.", explanation: "\"Gentile\" + title, then \"Le scrivo in merito a\"." },
+      { type: "speak", text: "Gentile Dottoressa Rossi, Le scrivo in merito all'annuncio per la posizione di assistente.", prompt: "Read the opening of your email aloud: Dear Dr. Rossi, I'm writing regarding the ad for the assistant position.", tip: "Say \"Dottoressa\" in full when you read aloud: dot-to-RES-sa.", explanation: "\"Gentile\" + title, then \"Le scrivo in merito a\"." },
     ],
   },
   {
@@ -259,7 +262,7 @@ export const IT_B1_U24: Lesson[] = [
           { es: "Buongiorno, si accomodi pure.", en: "Good morning, please take a seat." },
           { es: "Mi parli un po' di Lei.", en: "Tell me a bit about yourself." },
           { es: "Ho lavorato per due anni in un'agenzia di viaggi a Londra.", en: "I worked for two years at a travel agency in London." },
-          { es: "Mentre studiavo, facevo la cameriera il fine settimana.", en: "While I was studying, I worked as a waitress at weekends." },
+          { es: "Mentre studiavo, facevo la cameriera il fine settimana.", en: "While I was studying, I worked as a waitress on weekends." },
           { es: "Attualmente lavoro come grafico in uno studio di Torino.", en: "At the moment I work as a graphic designer in a studio in Turin." },
         ],
         checkpoint: [
@@ -275,7 +278,7 @@ export const IT_B1_U24: Lesson[] = [
         ],
         examples: [
           { es: "Quali sono i Suoi punti di forza?", en: "What are your strengths?" },
-          { es: "Sono una persona organizzata e affidabile.", en: "I'm organised and reliable." },
+          { es: "Sono una persona organizzata e affidabile.", en: "I'm organized and reliable." },
           { es: "So lavorare sotto pressione e rispetto sempre le scadenze.", en: "I can work under pressure and always meet deadlines." },
           { es: "A volte sono troppo perfezionista, ma sto imparando a delegare.", en: "Sometimes I'm too much of a perfectionist, but I'm learning to delegate." },
           { es: "Sono molto entusiasta di questa opportunità.", en: "I'm very excited about this opportunity." },
@@ -288,8 +291,9 @@ export const IT_B1_U24: Lesson[] = [
       {
         heading: "Perché vorrebbe lavorare con noi?",
         body: [
-          "Motivation questions use the conditional: \"Perché vorrebbe lavorare con noi?\", \"Dove si vede tra cinque anni?\". Answer with the conditional or with \"mi piacerebbe\": \"Mi piacerebbe crescere in un'azienda internazionale\". At the end you'll hear \"Ha qualche domanda?\": have one ready, again with the conditional: \"Potrei sapere quando inizierebbe il lavoro?\".",
+          "Motivation questions often use the conditional: \"Perché vorrebbe lavorare con noi?\", \"Dove si vede tra cinque anni?\". Answer with the conditional or with \"mi piacerebbe\": \"Mi piacerebbe crescere in un'azienda internazionale\". At the end you'll hear \"Ha qualche domanda?\": have one ready, again with the conditional: \"Potrei sapere quando inizierebbe il lavoro?\".",
           "Interviewers close with \"Le faremo sapere\" (we'll let you know) and \"La contatteremo entro la prossima settimana\". Thank them: \"La ringrazio per il tempo che mi ha dedicato\".",
+          "Two Lei traps. The interviewer's \"Lei\" means you, so \"Lei ha esperienza con i clienti?\" is do you, and you answer in the first person: \"Sì, ho lavorato tre anni in un negozio\", not \"Sì, ha lavorato\". If you miss a question, say so: \"Mi scusi, può ripetere la domanda?\" sounds far better than a guess. And don't switch to \"tu\" even if the interviewer smiles a lot; wait until they offer it (\"Possiamo darci del tu\").",
         ],
         examples: [
           { es: "Perché vorrebbe lavorare con noi?", en: "Why would you like to work with us?" },
@@ -356,8 +360,8 @@ export const IT_B1_U24: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Please wait a moment. (formal)", answer: "Attenda un attimo, per favore.", altAnswers: ["Attenda un momento, per favore.", "Aspetti un attimo, per favore.", "Aspetti un momento, per favore.", "Attenda un attimo.", "Aspetti un attimo."], explanation: "Lei imperative: -are verbs end in -i (\"aspetti\"), -ere verbs in -a (\"attenda\")." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Have you received my email? (formal)", answer: "Ha ricevuto la mia email?", altAnswers: ["Ha ricevuto la mia mail?", "Lei ha ricevuto la mia email?", "Ha ricevuto la mia e-mail?"], explanation: "\"Lei\" uses the third person: \"ha ricevuto\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'd like some information about the position.", answer: "Vorrei alcune informazioni sulla posizione.", altAnswers: ["Vorrei delle informazioni sulla posizione.", "Vorrei qualche informazione sulla posizione.", "Vorrei informazioni sulla posizione."], explanation: "\"Qualche\" takes a singular noun; \"alcune\" a plural." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Can I help you]? (formal)", sentence: "___?", answer: "Posso aiutarLa", altAnswers: ["La posso aiutare", "Posso aiutarla", "La posso aiutare in qualche modo"], explanation: "\"Aiutare\" takes a direct object: \"La\". In letters it's often glued and capitalised: \"aiutarLa\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Did you fill in] the form? (formal)", sentence: "___ il modulo?", answer: "Ha compilato", altAnswers: ["Lei ha compilato"], explanation: "\"Compilare un modulo\" = to fill in a form." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Can I help you]? (formal)", sentence: "___?", answer: "Posso aiutarLa", altAnswers: ["La posso aiutare", "Posso aiutarla", "La posso aiutare in qualche modo"], explanation: "\"Aiutare\" takes a direct object: \"La\". In letters it's often glued and capitalized: \"aiutarLa\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Did you fill out] the form? (formal)", sentence: "___ il modulo?", answer: "Ha compilato", altAnswers: ["Lei ha compilato"], explanation: "\"Compilare un modulo\" = to fill out a form." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'm attaching [your] contract. (formal)", sentence: "Allego il ___ contratto.", answer: "Suo", altAnswers: ["suo"], explanation: "\"Il Suo\": the formal possessive." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Come in], please. (formal)", sentence: "___, prego.", answer: "Entri", altAnswers: ["Si accomodi", "Venga"], explanation: "Lei imperative: \"entri\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I'm writing to you] about the interview. (formal)", sentence: "___ per il colloquio.", answer: "Le scrivo", explanation: "\"Scrivere a qualcuno\": indirect, \"Le\"." },
@@ -365,7 +369,7 @@ export const IT_B1_U24: Lesson[] = [
       { type: "multiple-choice", question: "Which sentence is formal and correct?", options: ["La ringrazio per il colloquio.", "Le ringrazio per il colloquio.", "Ti ringrazio per il colloquio, dottore.", "Lo ringrazio per il colloquio, signora."], correctIndex: 0, explanation: "\"Ringraziare\" takes a direct object, and the formal direct pronoun is \"La\" for anyone." },
       { type: "dictation", audio: "Le dispiacerebbe mandarmi il contratto?", explanation: "\"Dispiacerebbe\": one c, then double b in the ending." },
       { type: "dictation", audio: "Mi faccia sapere, La richiamo domani.", explanation: "\"Faccia\" (Lei imperative), \"La richiamo\" (I'll call you back)." },
-      { type: "speak", text: "Buongiorno, sarebbe possibile parlare con la dottoressa Rinaldi?", prompt: "Say it in Italian on the phone: Good morning, would it be possible to speak with Dr Rinaldi?", tip: "Let the voice rise on the last word.", explanation: "\"Sarebbe possibile\" + infinitive." },
+      { type: "speak", text: "Buongiorno, sarebbe possibile parlare con la dottoressa Rinaldi?", prompt: "Say it in Italian on the phone: Good morning, would it be possible to speak with Dr. Rinaldi?", tip: "Let the voice rise on the last word.", explanation: "\"Sarebbe possibile\" + infinitive." },
     ],
   },
   {
@@ -384,10 +388,10 @@ export const IT_B1_U24: Lesson[] = [
           "\"Occuparsi di\" (to be in charge of) takes \"essere\": \"mi sono occupato / occupata di\".",
         ],
         examples: [
-          { es: "Ho lavorato per tre anni come commesso.", en: "I worked as a shop assistant for three years." },
+          { es: "Ho lavorato per tre anni come commesso.", en: "I worked as a sales clerk for three years." },
           { es: "Lavoro in questa azienda da due anni.", en: "I've been working at this company for two years." },
           { es: "Mi sono occupata degli ordini e delle spedizioni.", en: "I was in charge of orders and shipping." },
-          { es: "Rispondevo al telefono e gestivo l'agenda del direttore.", en: "I answered the phone and managed the director's diary." },
+          { es: "Rispondevo al telefono e gestivo l'agenda del direttore.", en: "I answered the phone and managed the director's calendar." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I've been working here for two years.", answer: "Lavoro qui da due anni.", altAnswers: ["Sono due anni che lavoro qui.", "Io lavoro qui da due anni."], explanation: "Still true now: present + \"da\"." },
@@ -399,7 +403,7 @@ export const IT_B1_U24: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I was in charge of customer service.", answer: "Mi sono occupato del servizio clienti.", altAnswers: ["Mi sono occupata del servizio clienti.", "Mi occupavo del servizio clienti.", "Ero responsabile del servizio clienti."], explanation: "\"Occuparsi di\" + \"il\" = \"del\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She worked as a nurse for ten years.", answer: "Ha lavorato come infermiera per dieci anni.", altAnswers: ["Ha fatto l'infermiera per dieci anni.", "Per dieci anni ha lavorato come infermiera.", "Lei ha lavorato come infermiera per dieci anni."], explanation: "\"Come\" + job, no article; or \"fare\" + article + job." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We've been working together since 2020.", answer: "Lavoriamo insieme dal 2020.", altAnswers: ["Noi lavoriamo insieme dal 2020."], explanation: "\"Da\" + \"il\" = \"dal\" before a year." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I organised events and trade fairs.", answer: "Ho organizzato eventi e fiere.", altAnswers: ["Organizzavo eventi e fiere.", "Mi sono occupato di eventi e fiere.", "Mi sono occupata di eventi e fiere."], explanation: "Passato prossimo for the role as a whole, imperfetto for the routine." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I organized events and trade fairs.", answer: "Ho organizzato eventi e fiere.", altAnswers: ["Organizzavo eventi e fiere.", "Mi sono occupato di eventi e fiere.", "Mi sono occupata di eventi e fiere."], explanation: "Passato prossimo for the role as a whole, imperfetto for the routine." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Before, I used to teach English.", answer: "Prima insegnavo inglese.", altAnswers: ["Prima insegnavo l'inglese.", "Prima io insegnavo inglese."], explanation: "English 'used to' calls for the imperfetto." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I've never worked in a bank.", answer: "Non ho mai lavorato in banca.", altAnswers: ["Non ho mai lavorato in una banca.", "Io non ho mai lavorato in banca."], explanation: "\"Non ... mai\" around the auxiliary." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "How long have you been working here? (formal)", answer: "Da quanto tempo lavora qui?", altAnswers: ["Da quanto lavora qui?", "Da quanto tempo Lei lavora qui?"], explanation: "\"Da quanto tempo\" + present." },
@@ -411,7 +415,7 @@ export const IT_B1_U24: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I worked in Rome [for] six months.", sentence: "Ho lavorato a Roma ___ sei mesi.", answer: "per", explanation: "Finished: \"per\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I [have built up] a lot of experience.", sentence: "___ molta esperienza.", answer: "Ho maturato", altAnswers: ["Ho accumulato", "Ho fatto"], explanation: "\"Maturare esperienza\"." },
       { type: "word-order", prompt: "Put the words in order to say: I've been working as a cook for three years.", words: ["Faccio", "il", "cuoco", "da", "tre", "anni."], translation: "I've been working as a cook for three years.", explanation: "\"Fare il / la\" + job, present + \"da\"." },
-      { type: "multiple-choice", question: "You still work at the company. Which is right?", options: ["Lavoro in questa azienda da cinque anni.", "Ho lavorato in questa azienda da cinque anni.", "Lavoro in questa azienda per cinque anni.", "Lavoravo in questa azienda da cinque anni fa."], correctIndex: 0, explanation: "Ongoing: present + \"da\". The English have been tempts learners into the passato prossimo." },
+      { type: "multiple-choice", question: "You still work at the company. Which is right?", options: ["Lavoro in questa azienda da cinque anni.", "Ho lavorato in questa azienda da cinque anni.", "Lavoro in questa azienda per cinque anni.", "Lavoravo in questa azienda da cinque anni fa."], correctIndex: 0, explanation: "Ongoing: present + \"da\". English have-been tenses tempt learners into the passato prossimo." },
       { type: "dictation", audio: "Ho lavorato per due anni in un albergo a Venezia.", explanation: "\"Albergo\" = hotel." },
       { type: "dictation", audio: "Adesso faccio la segretaria da un anno.", explanation: "\"Da un anno\": for a year and still going." },
       { type: "speak", text: "Ho lavorato per tre anni come cameriere, poi mi sono occupato delle prenotazioni in un hotel. Adesso lavoro in un'agenzia da un anno.", prompt: "Tell your work history aloud: I worked as a waiter for three years, then I was in charge of bookings at a hotel. Now I've been working at an agency for a year.", tip: "Mark the change of tense with a small pause before \"adesso\".", explanation: "\"Per\" for the finished jobs, present + \"da\" for the current one." },
@@ -432,7 +436,7 @@ export const IT_B1_U24: Lesson[] = [
           "The second slip is \"tu\": \"ti mando il mio CV\" to someone you've never met is rude in Italian. Use \"Le\": \"Le invio il mio CV\". Check every pronoun and possessive: \"ti\" → \"Le\", \"tuo\" → \"Suo\", \"puoi\" → \"può\".",
         ],
         examples: [
-          { es: "Gentile Sig. Rossi,", en: "Dear Mr Rossi, (not Caro)" },
+          { es: "Gentile Sig. Rossi,", en: "Dear Mr. Rossi, (not Caro)" },
           { es: "Buongiorno, Le invio il mio curriculum.", en: "Good morning, I'm sending you my CV." },
           { es: "Può trovare in allegato la lettera di presentazione.", en: "You'll find the cover letter attached." },
           { es: "Resto in attesa di un Suo riscontro.", en: "I look forward to your reply." },
@@ -447,7 +451,7 @@ export const IT_B1_U24: Lesson[] = [
         heading: "False friends",
         body: [
           "\"Sono molto eccitato per questo lavoro\" is the classic disaster: \"eccitato\" means sexually aroused. Write \"Sono molto entusiasta di questa opportunità\" or \"Sono molto motivato\".",
-          "\"Ho una grande esperienza\" sounds like one great experience. For a lot of experience say \"ho molta esperienza\" or \"una lunga esperienza\". And \"attualmente\" means at present; for actually use \"in realtà\".",
+          "\"Ho una grande esperienza\" is ambiguous at best: \"una grande esperienza\" normally means one great experience (\"Lavorare a Londra è stata una grande esperienza\"). For a lot of experience say \"ho molta esperienza\" or \"una lunga esperienza\". And \"attualmente\" means at present; for actually use \"in realtà\".",
         ],
         examples: [
           { es: "Sono molto entusiasta di questa opportunità.", en: "I'm very excited about this opportunity." },
@@ -458,7 +462,7 @@ export const IT_B1_U24: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "A learner wrote \"sono molto eccitato\". Write it correctly: I'm very excited about this job.", source: "I'm very excited about this job.", answer: "Sono molto entusiasta di questo lavoro.", altAnswers: ["Sono molto entusiasta per questo lavoro.", "Sono molto motivato per questo lavoro.", "Sono molto motivata per questo lavoro.", "Questo lavoro mi entusiasma molto."], explanation: "\"Entusiasta\" is the same for men and women; \"eccitato\" is sexual." },
-          { type: "fill-blank", prompt: "A learner wrote \"ho una grande esperienza\". Write the Italian for the bold words.", en: "I have [a lot of experience] in marketing.", sentence: "Ho ___ nel marketing.", answer: "molta esperienza", altAnswers: ["una lunga esperienza", "tanta esperienza"], explanation: "\"Molta esperienza\": quantity, not quality." },
+          { type: "fill-blank", prompt: "A learner wrote \"ho una grande esperienza\". Write the Italian for the bold words.", en: "I have [a lot of experience] in marketing.", sentence: "Ho ___ nel marketing.", answer: "molta esperienza", altAnswers: ["una lunga esperienza", "tanta esperienza", "una solida esperienza", "una vasta esperienza"], explanation: "\"Molta esperienza\": quantity, not quality." },
         ],
       },
       {
@@ -508,7 +512,7 @@ export const IT_B1_U24: Lesson[] = [
           "Then the classic opener: \"Allora, mi parli un po' di Lei\". Sarah answers in three moves: studies, past jobs, present job.",
         ],
         examples: [
-          { es: "Buongiorno, Lei è la signora Hughes? Sono Marta Galli, piacere.", en: "Good morning, are you Ms Hughes? I'm Marta Galli, nice to meet you." },
+          { es: "Buongiorno, Lei è la signora Hughes? Sono Marta Galli, piacere.", en: "Good morning, are you Ms. Hughes? I'm Marta Galli, nice to meet you." },
           { es: "Piacere mio. Grazie di avermi invitata.", en: "The pleasure's mine. Thank you for inviting me." },
           { es: "Ha trovato facilmente l'ufficio?", en: "Did you find the office easily?" },
           { es: "Sì, ho preso la metro fino a Porta Genova, poi due passi a piedi.", en: "Yes, I took the metro to Porta Genova, then it was a short walk." },
@@ -517,19 +521,19 @@ export const IT_B1_U24: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Thank you for inviting me. (a woman speaking)", answer: "Grazie di avermi invitata.", altAnswers: ["Grazie per avermi invitata.", "La ringrazio di avermi invitata.", "La ringrazio per avermi invitata.", "Grazie di avermi invitato.", "Grazie per avermi invitato.", "La ringrazio di avermi invitato.", "La ringrazio per avermi invitato."], explanation: "Past infinitive \"avermi invitata\": after \"mi\" the participle may agree with the speaker, so \"invitata\" for a woman (\"invitato\" is also correct)." },
-          { type: "multiple-choice", question: "Dr Galli asks \"Ha trovato facilmente l'ufficio?\". What's the best answer?", options: ["Sì, grazie, nessun problema.", "Sì, l'ho trovata.", "Sì, ti ringrazio.", "Sì, l'ufficio trovato."], correctIndex: 0, explanation: "A short, formal, friendly answer. \"L'ho trovata\" would need \"trovato\" for \"ufficio\"." },
+          { type: "multiple-choice", question: "Dr. Galli asks \"Ha trovato facilmente l'ufficio?\". What's the best answer?", options: ["Sì, grazie, nessun problema.", "Sì, l'ho trovata.", "Sì, ti ringrazio.", "Sì, l'ufficio trovato."], correctIndex: 0, explanation: "A short, formal, friendly answer. \"L'ho trovata\" would need \"trovato\" for \"ufficio\"." },
         ],
       },
       {
         heading: "Strengths, a weakness, a challenge",
         body: [
-          "Dr Galli asks: \"Qual è stata la sfida più difficile del Suo ultimo lavoro?\" (the hardest challenge). Sarah tells a short story with the imperfetto for the situation and the passato prossimo for the events: \"Avevamo un cliente molto esigente e la scadenza era vicinissima. Ho riorganizzato il lavoro e abbiamo consegnato in tempo\".",
+          "Dr. Galli asks: \"Qual è stata la sfida più difficile del Suo ultimo lavoro?\" (the hardest challenge). Sarah tells a short story with the imperfetto for the situation and the passato prossimo for the events: \"Avevamo un cliente molto esigente e la scadenza era vicinissima. Ho riorganizzato il lavoro e abbiamo consegnato in tempo\".",
           "For her weakness she chooses something honest but harmless: \"A volte faccio fatica a dire di no\" (sometimes I find it hard to say no).",
         ],
         examples: [
           { es: "Qual è stata la sfida più difficile del Suo ultimo lavoro?", en: "What was the hardest challenge in your last job?" },
           { es: "Avevamo un cliente molto esigente e la scadenza era vicinissima.", en: "We had a very demanding client and the deadline was very close." },
-          { es: "Ho riorganizzato il lavoro del gruppo e abbiamo consegnato in tempo.", en: "I reorganised the team's work and we delivered on time." },
+          { es: "Ho riorganizzato il lavoro del gruppo e abbiamo consegnato in tempo.", en: "I reorganized the team's work and we delivered on time." },
           { es: "A volte faccio fatica a dire di no.", en: "Sometimes I find it hard to say no." },
           { es: "Però sto imparando a stabilire delle priorità.", en: "But I'm learning to set priorities." },
         ],
@@ -541,7 +545,7 @@ export const IT_B1_U24: Lesson[] = [
       {
         heading: "Questions and goodbye",
         body: [
-          "\"Ha qualche domanda per noi?\" Sarah has two: \"Com'è composto il gruppo di lavoro?\" and \"Sarebbe previsto un periodo di formazione?\" (would there be a training period?). Dr Galli explains the next step: \"Faremo un secondo colloquio con il direttore. Le faremo sapere entro venerdì\".",
+          "\"Ha qualche domanda per noi?\" Sarah has two: \"Com'è composto il gruppo di lavoro?\" and \"Sarebbe previsto un periodo di formazione?\" (would there be a training period?). Dr. Galli explains the next step: \"Faremo un secondo colloquio con il direttore. Le faremo sapere entro venerdì\".",
         ],
         examples: [
           { es: "Ha qualche domanda per noi?", en: "Do you have any questions for us?" },
@@ -559,11 +563,11 @@ export const IT_B1_U24: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Did you find the office easily? (formal)", answer: "Ha trovato facilmente l'ufficio?", altAnswers: ["Ha trovato l'ufficio facilmente?", "Ha trovato l'ufficio senza problemi?"], explanation: "Lei: \"ha trovato\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I took the metro, then I walked.", answer: "Ho preso la metro, poi sono andato a piedi.", altAnswers: ["Ho preso la metro, poi sono andata a piedi.", "Ho preso la metropolitana, poi sono andato a piedi.", "Ho preso la metropolitana, poi sono andata a piedi.", "Ho preso la metro e poi ho camminato."], explanation: "\"Andare a piedi\" takes \"essere\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "For a year I've been working as a freelancer.", answer: "Da un anno lavoro come freelance.", altAnswers: ["Lavoro come freelance da un anno.", "È un anno che lavoro come freelance.", "Da un anno lavoro come libero professionista.", "Lavoro come libera professionista da un anno."], explanation: "Present + \"da\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We delivered on time.", answer: "Abbiamo consegnato in tempo.", altAnswers: ["Abbiamo consegnato puntuali.", "Noi abbiamo consegnato in tempo."], explanation: "\"In tempo\" = on time." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We delivered on time.", answer: "Abbiamo consegnato in tempo.", altAnswers: ["Abbiamo consegnato puntualmente.", "Noi abbiamo consegnato in tempo."], explanation: "\"In tempo\" = on time." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Do you have any questions for us? (formal)", answer: "Ha qualche domanda per noi?", altAnswers: ["Ha delle domande per noi?", "Ha domande per noi?"], explanation: "\"Qualche\" + singular noun." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'm learning [to set] priorities.", sentence: "Sto imparando ___ delle priorità.", answer: "a stabilire", altAnswers: ["a fissare", "a definire"], explanation: "\"Imparare a\" + infinitive." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "What was [the hardest challenge] of your last job?", sentence: "Qual è stata ___ del Suo ultimo lavoro?", answer: "la sfida più difficile", explanation: "Superlative: article + \"più\" + adjective." },
-      { type: "word-order", prompt: "Put the words in order to say: I reorganised the team's work.", words: ["Ho", "riorganizzato", "il", "lavoro", "del", "gruppo."], translation: "I reorganised the team's work.", explanation: "\"Del gruppo\": of the team." },
+      { type: "word-order", prompt: "Put the words in order to say: I reorganized the team's work.", words: ["Ho", "riorganizzato", "il", "lavoro", "del", "gruppo."], translation: "I reorganized the team's work.", explanation: "\"Del gruppo\": of the team." },
       { type: "multiple-choice", question: "The interviewer asks about a weakness. Which answer is natural and safe?", options: ["A volte faccio fatica a delegare, ma sto migliorando.", "Non ho punti deboli.", "Sono spesso in ritardo e non mi piace lavorare.", "Sono eccitata di ogni progetto."], correctIndex: 0, explanation: "An honest, small weakness with a plan to improve." },
       { type: "multiple-choice", question: "What does \"Le faremo sapere\" tell Sarah?", options: ["They'll contact her with the result.", "She must let them know.", "She has the job.", "They'll teach her."], correctIndex: 0, explanation: "\"Far sapere\" = to let someone know." },
       { type: "dictation", audio: "Avevamo un cliente molto esigente.", explanation: "\"Esigente\" = demanding." },
@@ -581,7 +585,7 @@ export const IT_B1_U24: Lesson[] = [
       {
         heading: "Office talk",
         body: [
-          "Colleagues usually use \"tu\" with each other, even with the boss in many companies; customers and outsiders get \"Lei\". Listen for the words of office life: \"la riunione\" (meeting), \"la scadenza\" (deadline), \"il capo\" or \"il responsabile\", \"le ferie\" (holiday leave), \"la pausa pranzo\", \"lo straordinario\" (overtime).",
+          "Colleagues usually use \"tu\" with each other, even with the boss in many companies; customers and outsiders get \"Lei\". Listen for the words of office life: \"la riunione\" (meeting), \"la scadenza\" (deadline), \"il capo\" or \"il responsabile\", \"le ferie\" (vacation days, always plural), \"la pausa pranzo\", \"lo straordinario\" (overtime).",
           "Fast speech squeezes words: \"c'ho\" for \"ci ho\" (I've got, very informal), \"'sta riunione\" for \"questa riunione\". You need to understand them, not write them.",
         ],
         examples: [
@@ -589,7 +593,7 @@ export const IT_B1_U24: Lesson[] = [
           { es: "Entro venerdì dobbiamo consegnare il preventivo.", en: "We have to hand in the quote by Friday." },
           { es: "Domani sono in ferie, mi sostituisce Paolo.", en: "I'm on leave tomorrow, Paolo is covering for me." },
           { es: "Facciamo pausa pranzo insieme?", en: "Shall we have our lunch break together?" },
-          { es: "Ieri ho fatto due ore di straordinario.", en: "Yesterday I did two hours' overtime." },
+          { es: "Ieri ho fatto due ore di straordinario.", en: "Yesterday I did two hours of overtime." },
         ],
         checkpoint: [
           { type: "listen-choose", audio: "Hai visto la mail del capo? La riunione è spostata alle tre.", question: "What has changed?", options: ["The meeting time.", "The boss's email address.", "The meeting room.", "The boss."], correctIndex: 0, explanation: "\"Spostata alle tre\" = moved to three o'clock." },
@@ -607,7 +611,7 @@ export const IT_B1_U24: Lesson[] = [
           { es: "La chiamo per confermare l'appuntamento di giovedì alle dieci.", en: "I'm calling to confirm Thursday's appointment at ten." },
           { es: "Purtroppo devo disdire la riunione di domani.", en: "Unfortunately I have to cancel tomorrow's meeting." },
           { es: "Possiamo rimandare a lunedì prossimo?", en: "Can we postpone to next Monday?" },
-          { es: "Mi può richiamare al tre quattro sette, ventidue, cinquantotto?", en: "Can you call me back on 347 22 58?" },
+          { es: "Mi può richiamare al tre quattro sette, ventidue, cinquantotto?", en: "Can you call me back at 347 22 58?" },
         ],
         checkpoint: [
           { type: "listen-choose", audio: "Purtroppo devo disdire la riunione di domani. Possiamo rimandare a lunedì?", question: "What does the caller want?", options: ["to cancel tomorrow's meeting and move it to Monday", "to confirm tomorrow's meeting", "to have the meeting on Monday and tomorrow", "to cancel Monday's meeting"], correctIndex: 0, explanation: "\"Disdire\" = cancel; \"rimandare\" = postpone." },
@@ -621,7 +625,7 @@ export const IT_B1_U24: Lesson[] = [
         ],
         examples: [
           { es: "Ciao Giorgio, oggi non sto bene, resto a casa.", en: "Hi Giorgio, I'm not well today, I'm staying home." },
-          { es: "Il medico mi ha messo in malattia fino a venerdì.", en: "The doctor has signed me off sick until Friday." },
+          { es: "Il medico mi ha messo in malattia fino a venerdì.", en: "The doctor has put me on sick leave until Friday." },
           { es: "Ti mando il numero di protocollo del certificato.", en: "I'll send you the certificate's reference number." },
           { es: "Riposati e non pensare al lavoro!", en: "Get some rest and don't think about work!" },
         ],
@@ -681,7 +685,7 @@ export const IT_B1_U24: Lesson[] = [
         ],
         examples: [
           { es: "Gentile Responsabile del Personale,", en: "Dear Head of Personnel," },
-          { es: "Ho lavorato per due stagioni alla reception di un hotel a Sorrento.", en: "I worked two seasons on the front desk of a hotel in Sorrento." },
+          { es: "Ho lavorato per due stagioni alla reception di un hotel a Sorrento.", en: "I worked two seasons at the front desk of a hotel in Sorrento." },
           { es: "Mi occupavo del check-in, delle prenotazioni online e dei reclami.", en: "I handled check-in, online bookings and complaints." },
           { es: "Sono madrelingua inglese e parlo bene il tedesco.", en: "I'm a native English speaker and I speak good German." },
           { es: "Dal 2023 studio italiano a Firenze.", en: "I've been studying Italian in Florence since 2023." },
@@ -712,14 +716,14 @@ export const IT_B1_U24: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm writing regarding the receptionist position.", answer: "Le scrivo in merito alla posizione di receptionist.", altAnswers: ["Le scrivo in riferimento alla posizione di receptionist.", "Vi scrivo in merito alla posizione di receptionist.", "Le scrivo riguardo alla posizione di receptionist."], explanation: "\"In merito a\" + \"la\" = \"alla\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I speak fluent English and good German.", answer: "Parlo inglese fluente e un buon tedesco.", altAnswers: ["Parlo correntemente l'inglese e bene il tedesco.", "Parlo inglese fluentemente e tedesco bene.", "Parlo fluentemente l'inglese e bene il tedesco."], explanation: "\"Correntemente\" or \"fluentemente\" = fluently." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm attaching my CV and cover letter.", answer: "Allego il curriculum e la lettera di presentazione.", altAnswers: ["Allego il mio curriculum e la lettera di presentazione.", "Allego il CV e la lettera di presentazione.", "In allegato trova il curriculum e la lettera di presentazione."], explanation: "\"Lettera di presentazione\" = cover letter." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I can start in April.", answer: "Posso cominciare ad aprile.", altAnswers: ["Posso iniziare ad aprile.", "Posso cominciare a aprile.", "Posso iniziare in aprile.", "Sono disponibile da aprile."], explanation: "\"A\" becomes \"ad\" before a vowel: \"ad aprile\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I can start in April.", answer: "Posso cominciare ad aprile.", altAnswers: ["Posso iniziare ad aprile.", "Posso cominciare a aprile.", "Posso iniziare in aprile.", "Sono disponibile da aprile."], explanation: "Before another a, \"a\" normally becomes \"ad\": \"ad aprile\". \"A aprile\" is heard but looks careless in writing." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I hope my application is of interest to you. (to the company)", answer: "Spero che la mia candidatura sia di Vostro interesse.", altAnswers: ["Spero che la mia candidatura sia di vostro interesse.", "Spero che la mia candidatura possa essere di Vostro interesse."], explanation: "Subjunctive after \"sperare che\"; the company is \"Voi\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I handled check-in [and the customers' complaints].", sentence: "Mi occupavo del check-in ___.", answer: "e dei reclami dei clienti", explanation: "\"Occuparsi di\": repeat \"di\" with each noun (\"del\", \"dei\")." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Awaiting] your kind reply, best regards.", sentence: "___ un cortese riscontro, cordiali saluti.", answer: "In attesa di", explanation: "The set formal formula." },
       { type: "word-order", prompt: "Put the words in order to say: I'm available for the whole season.", words: ["Sono", "disponibile", "per", "l'intera", "stagione."], translation: "I'm available for the whole season.", explanation: "\"Intera\" agrees with \"stagione\"." },
       { type: "multiple-choice", question: "Which subject line would you write?", options: ["Candidatura per la posizione di receptionist (rif. REC-FI)", "Ciao! Lavoro?", "Il mio CV per voi ragazzi", "Domanda"], correctIndex: 0, explanation: "Role and reference, as the ad asks." },
       { type: "dictation", audio: "Sono disponibile per l'intera stagione, da aprile a ottobre.", explanation: "Months are lower-case." },
-      { type: "speak", text: "Ho lavorato per due stagioni alla reception di un hotel e parlo inglese e tedesco.", prompt: "Summarise your profile aloud: I worked two seasons on a hotel front desk and I speak English and German.", tip: "\"Stagioni\": sta-GIO-ni, the g is soft.", explanation: "Experience and languages: the two requirements of the ad." },
+      { type: "speak", text: "Ho lavorato per due stagioni alla reception di un hotel e parlo inglese e tedesco.", prompt: "Summarize your profile aloud: I worked two seasons at a hotel front desk and I speak English and German.", tip: "\"Stagioni\": sta-GIO-ni, the g is soft.", explanation: "Experience and languages: the two requirements of the ad." },
     ],
   },
   {
@@ -772,7 +776,7 @@ export const IT_B1_U24: Lesson[] = [
         examples: [
           { es: "È un'azienda il cui fatturato cresce ogni anno.", en: "It's a company whose turnover grows every year." },
           { es: "Quello che cerco è un lavoro stabile.", en: "What I'm looking for is a steady job." },
-          { es: "Lo stipendio è basso; inoltre, gli orari sono pesanti.", en: "The pay is low; moreover, the hours are heavy." },
+          { es: "Lo stipendio è basso; inoltre, gli orari sono pesanti.", en: "The pay is low; moreover, the hours are long." },
           { es: "Il contratto scade a giugno, quindi cerco già altro.", en: "The contract ends in June, so I'm already looking for something else." },
         ],
         checkpoint: [
@@ -784,8 +788,8 @@ export const IT_B1_U24: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I didn't manage to finish on time.", answer: "Non sono riuscito a finire in tempo.", altAnswers: ["Non sono riuscita a finire in tempo.", "Non ce l'ho fatta a finire in tempo."], explanation: "\"Riuscire a\" takes \"essere\" in the past." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I have a lot of work to do.", answer: "Ho molto lavoro da fare.", altAnswers: ["Ho tanto lavoro da fare.", "Io ho molto lavoro da fare."], explanation: "\"Da\" + infinitive = to be done." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The boss made us stay until eight.", answer: "Il capo ci ha fatto restare fino alle otto.", altAnswers: ["Il capo ci ha fatto rimanere fino alle otto.", "Il capo ci ha fatti restare fino alle otto.", "Il capo ci ha fatti rimanere fino alle otto."], explanation: "\"Fare\" + infinitive: the pronoun goes before \"fare\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The form must be filled in online.", answer: "Il modulo va compilato online.", altAnswers: ["Il modulo deve essere compilato online.", "Il modulo va compilato on line."], explanation: "\"Va\" + participle = must be." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The boss made us stay until eight.", answer: "Il capo ci ha fatto restare fino alle otto.", altAnswers: ["Il capo ci ha fatto rimanere fino alle otto.", "Il capo ci ha fatti restare fino alle otto.", "Il capo ci ha fatti rimanere fino alle otto."], explanation: "\"Fare\" + infinitive: the pronoun goes before \"fare\". \"Fatto\" or \"fatti\": agreement with \"ci\" is optional here, and \"fatto\" is more common." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The form must be filled out online.", answer: "Il modulo va compilato online.", altAnswers: ["Il modulo deve essere compilato online.", "Il modulo va compilato on line."], explanation: "\"Va\" + participle = must be." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Meetings are held on Mondays.", answer: "Le riunioni si tengono il lunedì.", altAnswers: ["Le riunioni vengono fatte il lunedì.", "Le riunioni si fanno il lunedì.", "Le riunioni vengono tenute il lunedì."], explanation: "Si passivante or \"venire\" + participle." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's a firm whose clients are all abroad.", answer: "È un'azienda i cui clienti sono tutti all'estero.", altAnswers: ["È una ditta i cui clienti sono tutti all'estero.", "È un'impresa i cui clienti sono tutti all'estero."], explanation: "\"I cui\" agrees with \"clienti\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The pay is good; [moreover], the office is near home.", sentence: "Lo stipendio è buono; ___, l'ufficio è vicino a casa.", answer: "inoltre", altAnswers: ["in più"], explanation: "\"Inoltre\" adds a point." },

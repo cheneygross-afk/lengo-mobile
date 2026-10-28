@@ -286,20 +286,20 @@ export const IT_B2_U14: Lesson[] = [
         heading: "People: un pezzo di pane",
         body: [
           "Italian describes people through food. \"Essere un pezzo di pane\" (a piece of bread) = to be a kind, good-natured person. \"Essere buono come il pane\" means the same.",
-          "\"Essere come il cacio sui maccheroni\" (cheese on macaroni) = to be just what was needed, perfect timing. \"Avere sale in zucca\" (salt in the pumpkin, i.e. the head) = to have common sense, and \"essere una mozzarella\" (colloquial) is to be a bit soft and spineless.",
+          "\"Essere come il cacio sui maccheroni\" (cheese on macaroni) = to be just what was needed, perfect timing. \"Avere sale in zucca\" (salt in the pumpkin, i.e. the head) = to have common sense, and \"essere una pizza\" (colloquial) is to be a real bore: \"Che pizza questo film!\" (what a drag this movie is!).",
         ],
         examples: [
-          { es: "Il nuovo vicino è un pezzo di pane.", en: "The new neighbour is a real sweetheart." },
+          { es: "Il nuovo vicino è un pezzo di pane.", en: "The new neighbor is a real sweetheart." },
           { es: "La tua offerta arriva come il cacio sui maccheroni.", en: "Your offer comes at exactly the right moment." },
           { es: "Chiara ha sale in zucca: non fa mai scelte stupide.", en: "Chiara has a good head on her shoulders: she never makes silly choices." },
-          { es: "Mio nonno era buono come il pane.", en: "My grandfather was as good as gold." },
+          { es: "Mio nonno era buono come il pane.", en: "My grandfather had a heart of gold." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Italian.",
-            source: "The new neighbour is a real sweetheart.",
+            source: "The new neighbor is a real sweetheart.",
             answer: "Il nuovo vicino è un pezzo di pane.",
             altAnswers: ["Il nuovo vicino è buono come il pane.", "La nuova vicina è un pezzo di pane."],
             explanation: "\"Essere un pezzo di pane\" = to be very kind.",
@@ -316,14 +316,17 @@ export const IT_B2_U14: Lesson[] = [
       {
         heading: "Situations: liscio come l'olio, tutto fa brodo",
         body: [
-          "\"Andare liscio come l'olio\" (smooth as oil) = to go perfectly smoothly: \"L'esame è andato liscio come l'olio.\" \"Tutto fa brodo\" (everything makes broth) = every little helps, it all counts.",
-          "\"Non tutte le ciambelle riescono col buco\" (not every doughnut comes out with a hole) = things don't always turn out as planned. And \"è la ciliegina sulla torta\" = it's the icing on the cake, literally the little cherry.",
+          "\"Andare liscio come l'olio\" (smooth as oil) = to go perfectly smoothly: \"L'esame è andato liscio come l'olio.\" \"Tutto fa brodo\" (everything makes broth) = every little bit helps, it all counts.",
+          "\"Non tutte le ciambelle riescono col buco\" (not every donut comes out with a hole) = things don't always turn out as planned. And \"è la ciliegina sulla torta\" = it's the icing on the cake, literally the little cherry.",
+          "Some food idioms are frozen sentences you drop into a conversation: \"tutto fa brodo\" or \"non tutte le ciambelle riescono col buco\" never change. Others are ordinary verbs that agree and change tense: \"La riunione è andata liscia\", \"Ero alla frutta\". Two more frozen ones are worth knowing: \"Non si può avere la botte piena e la moglie ubriaca\" (you can't have a full barrel and a drunk wife) is the Italian for you can't have your cake and eat it too, and \"essere come il prezzemolo\" (like parsley) describes someone who turns up everywhere.",
         ],
         examples: [
           { es: "L'esame è andato liscio come l'olio.", en: "The exam went like clockwork." },
-          { es: "Sono solo cinque euro, ma tutto fa brodo.", en: "It's only five euros, but every little helps." },
+          { es: "Sono solo cinque euro, ma tutto fa brodo.", en: "It's only five euros, but every little bit helps." },
           { es: "La torta è venuta storta: non tutte le ciambelle riescono col buco.", en: "The cake came out lopsided: you can't win them all." },
           { es: "Il sole al matrimonio è stato la ciliegina sulla torta.", en: "The sunshine at the wedding was the icing on the cake." },
+          { es: "Vuoi risparmiare e viaggiare in prima classe? Non puoi avere la botte piena e la moglie ubriaca.", en: "You want to save money and travel first class? You can't have your cake and eat it too." },
+          { es: "Tuo cugino è come il prezzemolo: è dappertutto.", en: "Your cousin turns up everywhere, like parsley in every dish." },
         ],
         checkpoint: [
           {
@@ -338,7 +341,7 @@ export const IT_B2_U14: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Italian for the bold words.",
-            en: "It's only five euros, but [every little helps].",
+            en: "It's only five euros, but [every little bit helps].",
             sentence: "Sono solo cinque euro, ma ___.",
             answer: "tutto fa brodo",
             explanation: "\"Tutto fa brodo\".",
@@ -357,12 +360,12 @@ export const IT_B2_U14: Lesson[] = [
         heading: "Talking straight: pane al pane, pan per focaccia",
         body: [
           "\"Dire pane al pane e vino al vino\" (to call bread bread and wine wine) = to call a spade a spade. \"Rendere pan per focaccia\" (to give bread back for focaccia) = to give tit for tat, to pay someone back in kind.",
-          "\"Essere alla frutta\" (to be at the fruit course, the end of the meal) = to be at the end of your tether, or of something's life: \"Questa macchina è alla frutta.\"",
+          "\"Essere alla frutta\" (to be at the fruit course, the end of the meal) = to be at the end of your rope, or of something's life: \"Questa macchina è alla frutta.\"",
         ],
         examples: [
           { es: "Mia zia dice pane al pane e vino al vino.", en: "My aunt calls a spade a spade." },
           { es: "Mi ha fatto uno scherzo, ma gli ho reso pan per focaccia.", en: "He played a trick on me, but I paid him back in kind." },
-          { es: "Dopo tre notti senza dormire, sono alla frutta.", en: "After three sleepless nights, I'm at the end of my tether." },
+          { es: "Dopo tre notti senza dormire, sono alla frutta.", en: "After three sleepless nights, I'm at the end of my rope." },
           { es: "Questa macchina è alla frutta.", en: "This car is on its last legs." },
         ],
         checkpoint: [
@@ -387,16 +390,16 @@ export const IT_B2_U14: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "My grandfather was as good as gold.", answer: "Mio nonno era buono come il pane.", altAnswers: ["Mio nonno era un pezzo di pane."], explanation: "\"Buono come il pane\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "My grandfather had a heart of gold.", answer: "Mio nonno era buono come il pane.", altAnswers: ["Mio nonno era un pezzo di pane."], explanation: "\"Buono come il pane\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Your offer comes at exactly the right moment. (to a friend)", answer: "La tua offerta arriva come il cacio sui maccheroni.", altAnswers: ["La tua offerta arriva al momento giusto.", "La tua proposta arriva come il cacio sui maccheroni."], explanation: "\"Come il cacio sui maccheroni\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You can't win them all.", answer: "Non tutte le ciambelle riescono col buco.", altAnswers: ["Non tutte le ciambelle riescono con il buco."], explanation: "A proverb about things not turning out perfectly." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I paid him back in kind.", answer: "Gli ho reso pan per focaccia.", explanation: "\"Rendere\" → \"reso\"; \"gli\" = to him." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "After three sleepless nights, I'm at the end of my tether.", answer: "Dopo tre notti senza dormire, sono alla frutta.", altAnswers: ["Dopo tre notti insonni, sono alla frutta.", "Dopo tre notti senza dormire sono alla frutta."], explanation: "\"Essere alla frutta\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "After three sleepless nights, I'm at the end of my rope.", answer: "Dopo tre notti senza dormire, sono alla frutta.", altAnswers: ["Dopo tre notti insonni, sono alla frutta.", "Dopo tre notti senza dormire sono alla frutta."], explanation: "\"Essere alla frutta\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The sunshine was [the icing on the cake].", sentence: "Il sole è stato ___.", answer: "la ciliegina sulla torta", explanation: "\"Ciliegina\" = little cherry." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Chiara [has a good head on her shoulders].", sentence: "Chiara ___.", answer: "ha sale in zucca", explanation: "\"Avere sale in zucca\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Everything [went smoothly].", sentence: "Tutto ___.", answer: "è andato liscio come l'olio", altAnswers: ["è andato liscio"], explanation: "\"Andare liscio\" with \"essere\"." },
       { type: "word-order", prompt: "Put the words in order to say: He's a real sweetheart.", words: ["È", "un", "pezzo", "di", "pane."], translation: "He's a real sweetheart.", explanation: "\"Essere un pezzo di pane\"." },
-      { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "tutto fa brodo", right: "every little helps" }, { left: "liscio come l'olio", right: "very smoothly" }, { left: "pan per focaccia", right: "tit for tat" }, { left: "essere alla frutta", right: "to be at the end of your tether" }, { left: "il cacio sui maccheroni", right: "just what was needed" }], explanation: "Food idioms." },
+      { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "tutto fa brodo", right: "every little bit helps" }, { left: "liscio come l'olio", right: "very smoothly" }, { left: "pan per focaccia", right: "tit for tat" }, { left: "essere alla frutta", right: "to be at the end of your rope" }, { left: "il cacio sui maccheroni", right: "just what was needed" }], explanation: "Food idioms." },
       { type: "dictation", audio: "Non tutte le ciambelle riescono col buco.", explanation: "\"Ciambelle\": double l." },
       {
         type: "speak",
@@ -419,13 +422,15 @@ export const IT_B2_U14: Lesson[] = [
         heading: "In bocca al lupo! Crepi!",
         body: [
           "Before an exam, an interview or a match, Italians don't say good luck so much as \"In bocca al lupo!\" (into the wolf's mouth). The answer is fixed: \"Crepi!\" (may it die!) or \"Crepi il lupo!\". Answering \"grazie\" is heard but many Italians consider it bad luck.",
-          "\"Essere al verde\" = to be broke (old candles were painted green at the bottom: when you reached the green, you were out). \"Essere al settimo cielo\" = to be over the moon, literally in seventh heaven.",
+          "\"In bocca al lupo\" belongs to a family of small rituals with set replies. After a sneeze you hear \"Salute!\"; before a meal \"Buon appetito!\", answered with \"Altrettanto!\" or \"Grazie, anche a te\"; when glasses clink, \"Cin cin!\". In recent years some people answer \"Viva il lupo!\" out of sympathy for wolves, but \"Crepi!\" remains the norm.",
+          "\"Essere al verde\" = to be broke. One popular explanation: old candles were painted green at the bottom, so when you reached the green, you had run out; the real origin is uncertain. \"Essere al settimo cielo\" = to be over the moon, literally in seventh heaven.",
         ],
         examples: [
           { es: "Domani hai l'esame? In bocca al lupo! Crepi!", en: "You've got the exam tomorrow? Good luck! Thanks!" },
           { es: "Non posso uscire, sono al verde.", en: "I can't go out, I'm broke." },
           { es: "Ha vinto la borsa di studio: è al settimo cielo.", en: "She won the scholarship: she's over the moon." },
-          { es: "Fine del mese, siamo tutti al verde.", en: "End of the month, we're all skint." },
+          { es: "Fine del mese, siamo tutti al verde.", en: "End of the month, we're all broke." },
+          { es: "Buon appetito! Altrettanto!", en: "Enjoy your meal! You too!" },
         ],
         checkpoint: [
           {
@@ -489,6 +494,7 @@ export const IT_B2_U14: Lesson[] = [
         heading: "Cadere dalle nuvole, essere in gamba",
         body: [
           "\"Cadere dalle nuvole\" (to fall from the clouds) = to be taken completely by surprise: \"Quando me l'hanno detto, sono caduto dalle nuvole.\" \"Essere in gamba\" (to be on your leg) = to be capable, clever, on the ball: \"La nuova collega è molto in gamba.\"",
+          "\"Cadere dalle nuvole\" can also mean to act surprised, often with a hint of accusation: \"Non cadere dalle nuvole: lo sapevi benissimo!\" (don't play innocent). Like most of these idioms it is a full verb: it changes tense and takes \"essere\" in the past, so a woman says \"Sono caduta dalle nuvole.\" Only the image is fixed: you fall \"dalle nuvole\", never \"dal cielo\".",
           "\"Mi raccomando!\" is everyday too: please, make sure you do, at the end of advice: \"Chiamami quando arrivi, mi raccomando!\"",
         ],
         examples: [
@@ -496,6 +502,7 @@ export const IT_B2_U14: Lesson[] = [
           { es: "La nuova collega è molto in gamba.", en: "The new colleague is really capable." },
           { es: "Chiamami quando arrivi, mi raccomando!", en: "Call me when you get there, won't you!" },
           { es: "In gamba, eh! Ci vediamo presto.", en: "Take care! See you soon." },
+          { es: "Non cadere dalle nuvole: lo sapevi benissimo!", en: "Don't play innocent: you knew perfectly well!" },
         ],
         checkpoint: [
           {
@@ -558,8 +565,8 @@ export const IT_B2_U14: Lesson[] = [
         examples: [
           { es: "Ho fatto una figuraccia davanti a tutti.", en: "I made a fool of myself in front of everyone." },
           { es: "Non riesco a fare a meno del telefono.", en: "I can't do without my phone." },
-          { es: "Si sono fatti in quattro per organizzare la festa.", en: "They bent over backwards to organise the party." },
-          { es: "Non vedo l'ora di andare in vacanza.", en: "I can't wait to go on holiday." },
+          { es: "Si sono fatti in quattro per organizzare la festa.", en: "They bent over backwards to organize the party." },
+          { es: "Non vedo l'ora di andare in vacanza.", en: "I can't wait to go on vacation." },
           { es: "Ma dai, mi stai prendendo in giro!", en: "Come on, you're pulling my leg!" },
         ],
         checkpoint: [
@@ -576,7 +583,7 @@ export const IT_B2_U14: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Italian.",
-            source: "They bent over backwards to organise the party.",
+            source: "They bent over backwards to organize the party.",
             answer: "Si sono fatti in quattro per organizzare la festa.",
             altAnswers: ["Si sono fatte in quattro per organizzare la festa."],
             explanation: "Reflexive \"farsi\": \"essere\" and agreement, \"fatti\".",
@@ -600,7 +607,7 @@ export const IT_B2_U14: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The boss [is in a foul mood] this morning.", sentence: "Stamattina il capo ___.", answer: "ha un diavolo per capello", explanation: "A devil for every hair = furious." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "At the wedding he [had a bit too much to drink].", sentence: "Al matrimonio ___.", answer: "ha alzato un po' il gomito", altAnswers: ["ha alzato il gomito"], explanation: "\"Alzare il gomito\" = to drink too much." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Shall we [take a long weekend] for the holiday?", sentence: "___ per la festa?", answer: "Facciamo il ponte", explanation: "\"Fare il ponte\" = bridge a holiday to the weekend." },
-      { type: "word-order", prompt: "Put the words in order to say: Come round, let's have a chat.", words: ["Passa", "da", "me,", "facciamo", "due", "chiacchiere."], translation: "Come round, let's have a chat.", explanation: "\"Fare due chiacchiere\" = to have a chat." },
+      { type: "word-order", prompt: "Put the words in order to say: Come over, let's have a chat.", words: ["Passa", "da", "me,", "facciamo", "due", "chiacchiere."], translation: "Come over, let's have a chat.", explanation: "\"Fare due chiacchiere\" = to have a chat." },
       { type: "matching", instructions: "Match each idiom to its meaning.", pairs: [{ left: "fare finta", right: "to pretend" }, { left: "alzare il gomito", right: "to drink too much" }, { left: "mettere le mani avanti", right: "to cover yourself in advance" }, { left: "farsi in quattro", right: "to go out of your way" }], explanation: "Four idioms from this part." },
       { type: "dictation", audio: "Non vedo l'ora di fare due chiacchiere con te.", explanation: "\"Non vedo l'ora di\" + infinitive." },
       { type: "listen-choose", audio: "Quel cappotto costa un occhio della testa.", question: "What does the speaker say about the coat?", options: ["It is very expensive", "It is ugly", "It is too big", "It is old"], correctIndex: 0, explanation: "\"Costare un occhio della testa\" = to cost a fortune." },
@@ -630,9 +637,9 @@ export const IT_B2_U14: Lesson[] = [
         ],
         examples: [
           { es: "Il trasloco è andato liscio come l'olio.", en: "The move went without a hitch." },
-          { es: "Dopo le vacanze siamo sempre al verde.", en: "After the holidays we're always broke." },
+          { es: "Dopo le vacanze siamo sempre al verde.", en: "After vacation we're always broke." },
           { es: "Quando ha saputo del licenziamento, è caduta dalle nuvole.", en: "When she heard about the dismissal, she was taken completely by surprise." },
-          { es: "Tuo fratello ha sale in zucca.", en: "Your brother has his head screwed on." },
+          { es: "Tuo fratello ha sale in zucca.", en: "Your brother has his head screwed on straight." },
           { es: "Ha piovuto a catinelle tutto il giorno.", en: "It rained cats and dogs all day." },
         ],
         checkpoint: [
@@ -640,7 +647,7 @@ export const IT_B2_U14: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Italian.",
-            source: "After the holidays we're always broke.",
+            source: "After vacation we're always broke.",
             answer: "Dopo le vacanze siamo sempre al verde.",
             altAnswers: ["Dopo le ferie siamo sempre al verde.", "Siamo sempre al verde dopo le vacanze."],
             explanation: "\"Essere al verde\" = to have no money.",
@@ -658,25 +665,25 @@ export const IT_B2_U14: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Our neighbour is a real sweetheart.", answer: "Il nostro vicino è un pezzo di pane.", altAnswers: ["La nostra vicina è un pezzo di pane.", "Il nostro vicino di casa è un pezzo di pane."], explanation: "\"Essere un pezzo di pane\" = to be very kind." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Our neighbor is a real sweetheart.", answer: "Il nostro vicino è un pezzo di pane.", altAnswers: ["La nostra vicina è un pezzo di pane.", "Il nostro vicino di casa è un pezzo di pane."], explanation: "\"Essere un pezzo di pane\" = to be very kind." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "This bonus comes at just the right moment.", answer: "Questo bonus arriva come il cacio sui maccheroni.", altAnswers: ["Questo premio arriva come il cacio sui maccheroni.", "Questo bonus capita come il cacio sui maccheroni."], explanation: "Cheese on macaroni = perfect timing." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's only two euros, but every little helps.", answer: "Sono solo due euro, ma tutto fa brodo.", altAnswers: ["Sono soltanto due euro, ma tutto fa brodo."], explanation: "\"Tutto fa brodo\" never changes." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's only two euros, but every little bit helps.", answer: "Sono solo due euro, ma tutto fa brodo.", altAnswers: ["Sono soltanto due euro, ma tutto fa brodo."], explanation: "\"Tutto fa brodo\" never changes." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The view from the terrace was the icing on the cake.", answer: "La vista dalla terrazza è stata la ciliegina sulla torta.", altAnswers: ["Il panorama dalla terrazza è stato la ciliegina sulla torta."], explanation: "Italian puts a cherry on the cake, not icing." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "My grandmother calls a spade a spade.", answer: "Mia nonna dice pane al pane e vino al vino.", explanation: "Bread is bread and wine is wine." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm exhausted: I'm at the end of my tether.", answer: "Sono stanchissimo: sono alla frutta.", altAnswers: ["Sono stanchissima: sono alla frutta.", "Sono distrutto: sono alla frutta.", "Sono distrutta: sono alla frutta."], explanation: "The fruit course comes at the end of the meal." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm exhausted: I'm at the end of my rope.", answer: "Sono stanchissimo: sono alla frutta.", altAnswers: ["Sono stanchissima: sono alla frutta.", "Sono distrutto: sono alla frutta.", "Sono distrutta: sono alla frutta."], explanation: "The fruit course comes at the end of the meal." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You've got an exam tomorrow? Good luck!", answer: "Domani hai l'esame? In bocca al lupo!", altAnswers: ["Hai un esame domani? In bocca al lupo!", "Domani hai un esame? In bocca al lupo!"], explanation: "The reply is \"Crepi!\", never \"grazie\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Since she got the job, she's been on cloud nine.", answer: "Da quando ha avuto il lavoro, è al settimo cielo.", altAnswers: ["Da quando ha trovato lavoro, è al settimo cielo.", "Da quando ha ottenuto il lavoro, è al settimo cielo."], explanation: "Italian counts to the seventh sky, not cloud nine." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We looked for the cat everywhere, but it was no use.", answer: "Abbiamo cercato il gatto dappertutto, ma abbiamo fatto un buco nell'acqua.", altAnswers: ["Abbiamo cercato il gatto ovunque, ma abbiamo fatto un buco nell'acqua."], explanation: "A hole in the water = a wasted effort." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Your daughter is really capable.", answer: "Tua figlia è molto in gamba.", altAnswers: ["Tua figlia è davvero in gamba.", "Sua figlia è molto in gamba."], explanation: "\"Essere in gamba\" = to be capable, on the ball." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I'm getting married, but [mum's the word]!", sentence: "Mi sposo, ma ___!", answer: "acqua in bocca", explanation: "Water in your mouth = keep it secret." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He's already rich and now he's inherited a house: [it never rains but it pours].", sentence: "È già ricco e ora ha ereditato una casa: ___.", answer: "piove sul bagnato", explanation: "It rains on what is already wet: luck goes to the lucky." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He's already rich and now he's inherited a house: [the rich get richer].", sentence: "È già ricco e ora ha ereditato una casa: ___.", answer: "piove sul bagnato", explanation: "It rains on what is already wet: luck goes to the lucky." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He played a trick on me, and I [paid him back].", sentence: "Mi ha fatto uno scherzo, e io ___.", answer: "gli ho reso pan per focaccia", explanation: "\"Rendere pan per focaccia\" = to pay back in kind." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "When they told me, [I was completely taken aback]. (a man speaking)", sentence: "Quando me l'hanno detto, ___.", answer: "sono caduto dalle nuvole", explanation: "\"Cadere dalle nuvole\" takes \"essere\"." },
       { type: "word-order", prompt: "Put the words in order to say: Take an umbrella, it's pouring.", words: ["Prendi", "l'ombrello,", "piove", "a", "catinelle."], translation: "Take an umbrella, it's pouring.", explanation: "\"Piovere a catinelle\" = to pour (catinelle are basins)." },
       { type: "multiple-choice", question: "A friend says \"In bocca al lupo!\" before your exam. What do you answer?", options: ["Crepi!", "Grazie mille!", "Anche a te!", "Salute!"], correctIndex: 0, explanation: "Tradition says you answer \"Crepi!\" (may the wolf die)." },
-      { type: "matching", instructions: "Match each idiom to its meaning.", pairs: [{ left: "essere al verde", right: "to be broke" }, { left: "avere sale in zucca", right: "to be sensible" }, { left: "essere alla frutta", right: "to be at the end of your tether" }, { left: "tutto fa brodo", right: "every little helps" }], explanation: "Food and colour idioms." },
+      { type: "matching", instructions: "Match each idiom to its meaning.", pairs: [{ left: "essere al verde", right: "to be broke" }, { left: "avere sale in zucca", right: "to be sensible" }, { left: "essere alla frutta", right: "to be at the end of your rope" }, { left: "tutto fa brodo", right: "every little bit helps" }], explanation: "Food and color idioms." },
       { type: "dictation", audio: "Sono al verde, ma tutto fa brodo: accetto anche dieci euro.", explanation: "\"Al verde\" and \"tutto fa brodo\"." },
-      { type: "listen-choose", audio: "La riunione è andata liscia come l'olio.", question: "How did the meeting go?", options: ["Very smoothly", "Very badly", "It was cancelled", "It went on too long"], correctIndex: 0, explanation: "\"Liscio\" agrees with \"riunione\": \"liscia\"." },
+      { type: "listen-choose", audio: "La riunione è andata liscia come l'olio.", question: "How did the meeting go?", options: ["Very smoothly", "Very badly", "It was canceled", "It went on too long"], correctIndex: 0, explanation: "\"Liscio\" agrees with \"riunione\": \"liscia\"." },
       {
         type: "speak",
         text: "Crepi! Speriamo che vada liscio come l'olio. Poi festeggiamo, anche se sono al verde.",
@@ -703,7 +710,7 @@ export const IT_B2_U14: Lesson[] = [
         examples: [
           { es: "Non uscire adesso, piove a catinelle.", en: "Don't go out now, it's raining cats and dogs." },
           { es: "Stasera debutti a teatro? In bocca al lupo!", en: "You're making your stage debut tonight? Break a leg!" },
-          { es: "Quell'appartamento costa un occhio della testa.", en: "That flat costs an arm and a leg." },
+          { es: "Quell'appartamento costa un occhio della testa.", en: "That apartment costs an arm and a leg." },
           { es: "Piove a dirotto da stamattina.", en: "It's been pouring since this morning." },
         ],
         checkpoint: [
@@ -730,7 +737,7 @@ export const IT_B2_U14: Lesson[] = [
       {
         heading: "Moods and feelings",
         body: [
-          "\"Sono al blu\" for I'm feeling blue is a double trap: \"essere al verde\" exists, so learners guess that other colours work too. They don't. Say \"sono giù\", \"sono giù di morale\" or \"sono di cattivo umore\". Blue has no sad meaning in Italian.",
+          "\"Sono al blu\" for I'm feeling blue is a double trap: \"essere al verde\" exists, so learners guess that other colors work too. They don't. Say \"sono giù\", \"sono giù di morale\" or \"sono di cattivo umore\". Blue has no sad meaning in Italian.",
           "Other false friends of this kind: \"sono sotto il tempo\" for under the weather (say \"non mi sento molto bene\" or \"sono un po' giù\"), and \"è un pezzo di torta\" for a piece of cake (say \"è un gioco da ragazzi\" or \"è facilissimo\").",
         ],
         examples: [
@@ -747,7 +754,7 @@ export const IT_B2_U14: Lesson[] = [
             source: "I'm feeling blue today.",
             answer: "Oggi sono giù.",
             altAnswers: ["Oggi sono giù di morale.", "Oggi sono un po' giù.", "Oggi sono un po' giù di morale.", "Oggi mi sento giù.", "Oggi sono di cattivo umore."],
-            explanation: "Only \"al verde\" works with a colour, and it means broke.",
+            explanation: "Only \"al verde\" works with a color, and it means broke.",
           },
           {
             type: "fill-blank",
@@ -796,7 +803,7 @@ export const IT_B2_U14: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Ieri pioveva gatti e cani\". Fix it: Yesterday it was raining cats and dogs.", source: "Yesterday it was raining cats and dogs.", answer: "Ieri pioveva a catinelle.", altAnswers: ["Ieri pioveva a dirotto.", "Ieri ha piovuto a catinelle.", "Ieri ha piovuto a dirotto."], explanation: "\"Piovere a catinelle\" or \"a dirotto\"." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Rompete una gamba!\" to a band. Fix it: Break a leg, guys!", source: "Break a leg, guys!", answer: "In bocca al lupo, ragazzi!", altAnswers: ["Ragazzi, in bocca al lupo!", "Buona fortuna, ragazzi!"], explanation: "Wish them \"in bocca al lupo\"." },
-      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Sei al blu?\". Fix it: Are you feeling down? (to a friend)", source: "Are you feeling down? (to a friend)", answer: "Sei giù?", altAnswers: ["Sei giù di morale?", "Ti senti giù?", "Sei un po' giù?"], explanation: "\"Giù\" (down), not a colour." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Sei al blu?\". Fix it: Are you feeling down? (to a friend)", source: "Are you feeling down? (to a friend)", answer: "Sei giù?", altAnswers: ["Sei giù di morale?", "Ti senti giù?", "Sei un po' giù?"], explanation: "\"Giù\" (down), not a color." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Questi stivali costano un braccio e una gamba\". Fix it: These boots cost an arm and a leg.", source: "These boots cost an arm and a leg.", answer: "Questi stivali costano un occhio della testa.", altAnswers: ["Questi stivali costano un occhio."], explanation: "An eye, not an arm and a leg." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Era un pezzo di torta\". Fix it: It was a piece of cake.", source: "It was a piece of cake.", answer: "Era un gioco da ragazzi.", altAnswers: ["È stato un gioco da ragazzi.", "Era facilissimo.", "È stato facilissimo."], explanation: "\"Un gioco da ragazzi\"." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Ho la testa nelle nuvole\". Fix it: My head is in the clouds.", source: "My head is in the clouds.", answer: "Ho la testa tra le nuvole.", altAnswers: ["Ho la testa fra le nuvole."], explanation: "\"Tra\" or \"fra\", not \"nelle\"." },
@@ -804,7 +811,7 @@ export const IT_B2_U14: Lesson[] = [
       { type: "fill-blank", prompt: "A learner wrote \"un occhio di testa\". Write the Italian for the bold words.", en: "The repair cost [an arm and a leg].", sentence: "La riparazione è costata ___.", answer: "un occhio della testa", explanation: "\"Della testa\", with the article." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Rompi una gamba per domani!\". Fix it: Good luck for tomorrow! (to a friend)", source: "Good luck for tomorrow! (to a friend)", answer: "In bocca al lupo per domani!", altAnswers: ["Buona fortuna per domani!"], explanation: "And if someone says it to you, answer \"Crepi!\", not \"grazie\"." },
       { type: "fill-blank", prompt: "A learner wrote \"gli ho reso pane per la focaccia\". Write the Italian for the bold words.", en: "I [paid him back in kind].", sentence: "___.", answer: "Gli ho reso pan per focaccia", explanation: "Fixed form: \"pan per focaccia\", no article." },
-      { type: "multiple-choice", question: "Which sentence is correct Italian for I'm broke?", options: ["Sono al verde.", "Sono al blu.", "Sono nel verde.", "Ho il verde."], correctIndex: 0, explanation: "\"Essere al verde\"; no other colour works." },
+      { type: "multiple-choice", question: "Which sentence is correct Italian for I'm broke?", options: ["Sono al verde.", "Sono al blu.", "Sono nel verde.", "Ho il verde."], correctIndex: 0, explanation: "\"Essere al verde\"; no other color works." },
       { type: "multiple-choice", question: "Your friend is about to go on stage. What do you say?", options: ["In bocca al lupo!", "Rompi una gamba!", "Crepi!", "Piove sul bagnato!"], correctIndex: 0, explanation: "\"Crepi\" is the answer, not the wish." },
       { type: "dictation", audio: "Non uscire, piove a dirotto. E poi sono un po' giù di morale.", explanation: "Correct forms of two classic errors." },
       {
@@ -868,7 +875,7 @@ export const IT_B2_U14: Lesson[] = [
           { es: "Marco, che ha le mani bucate, ha speso il budget in due mesi.", en: "Marco, who spends money like water, spent the budget in two months." },
           { es: "Doveva essere un segreto, acqua in bocca, ma ormai lo sanno tutti.", en: "It was supposed to be a secret, mum's the word, but by now everyone knows." },
           { es: "Alla fine il capo mi fa i complimenti: rimango a bocca aperta.", en: "In the end the boss compliments me: I'm left open-mouthed." },
-          { es: "Torno a casa alla frutta, ma in fondo è andata liscia come l'olio.", en: "I get home at the end of my tether, but all in all it went without a hitch." },
+          { es: "Torno a casa alla frutta, ma in fondo è andata liscia come l'olio.", en: "I get home at the end of my rope, but all in all it went without a hitch." },
         ],
         checkpoint: [
           {
@@ -899,7 +906,7 @@ export const IT_B2_U14: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Marco spent the budget in two months.", answer: "Marco ha speso il budget in due mesi.", explanation: "\"In due mesi\" = within two months." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "All in all it went without a hitch.", answer: "In fondo è andata liscia come l'olio.", altAnswers: ["Tutto sommato è andata liscia come l'olio.", "In fondo è andato tutto liscio come l'olio.", "Tutto sommato è andato tutto liscio."], explanation: "\"È andata\" refers to an implied \"la giornata\"; with \"tutto\" you say \"è andato tutto liscio\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It was supposed to be a secret, [mum's the word].", sentence: "Doveva essere un segreto, ___.", answer: "acqua in bocca", explanation: "Fixed phrase." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I get home [at the end of my tether].", sentence: "Torno a casa ___.", answer: "alla frutta", explanation: "\"Essere alla frutta\" = exhausted." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I get home [at the end of my rope].", sentence: "Torno a casa ___.", answer: "alla frutta", explanation: "\"Essere alla frutta\" = exhausted." },
       { type: "word-order", prompt: "Put the words in order to say: Today my head is in the clouds.", words: ["Oggi", "ho", "la", "testa", "tra", "le", "nuvole."], translation: "Today my head is in the clouds.", altOrders: [["Ho", "la", "testa", "tra", "le", "nuvole", "oggi."]], explanation: "\"Avere la testa tra le nuvole\"." },
       { type: "multiple-choice", question: "The columnist calls Marco someone who \"ha le mani bucate\". What does that say about him?", options: ["He spends too much", "He works with his hands", "He is clumsy", "He never helps"], correctIndex: 0, explanation: "Holes in his hands: money slips through." },
       { type: "matching", instructions: "Match each idiom from the column to its meaning.", pairs: [{ left: "fare finta di niente", right: "to act as if nothing is wrong" }, { left: "cadere dalle nuvole", right: "to be taken aback" }, { left: "essere in gamba", right: "to be capable" }, { left: "come il cacio sui maccheroni", right: "at just the right moment" }], explanation: "Four idioms from the column." },
@@ -956,7 +963,7 @@ export const IT_B2_U14: Lesson[] = [
       {
         heading: "At work and at home",
         body: [
-          "At work, idioms soften bad news: \"Il progetto è stato un buco nell'acqua\" sounds less harsh than \"è fallito\". At home they add colour: a grandmother who \"dice pane al pane\" or a son who \"ha le mani bucate\".",
+          "At work, idioms soften bad news: \"Il progetto è stato un buco nell'acqua\" sounds less harsh than \"è fallito\". At home they add color: a grandmother who \"dice pane al pane\" or a son who \"ha le mani bucate\".",
           "When you miss an idiom, the reply often explains it. If someone answers \"Eh sì, costa un occhio della testa\" with \"Troppo caro, infatti\", the second line confirms the meaning.",
         ],
         examples: [
@@ -989,12 +996,12 @@ export const IT_B2_U14: Lesson[] = [
     exercises: [
       { type: "listen-choose", audio: "Ieri sera abbiamo fatto le ore piccole, oggi sono uno straccio.", question: "Why is the speaker tired?", options: ["They went to bed very late", "They worked all night", "They got up very early", "They were ill"], correctIndex: 0, explanation: "\"Fare le ore piccole\"; \"essere uno straccio\" = to be worn out." },
       { type: "listen-choose", audio: "Quando ho saputo che si sposavano, sono caduta dalle nuvole.", question: "How did the speaker react to the news?", options: ["She was very surprised", "She was very happy", "She was angry", "She already knew"], correctIndex: 0, explanation: "\"Cadere dalle nuvole\" = to be taken aback." },
-      { type: "listen-choose", audio: "Ha già vinto due premi e adesso anche la promozione: piove sul bagnato.", question: "What does the speaker think?", options: ["Good things keep happening to the same person", "The weather is getting worse", "The person doesn't deserve the prize", "The promotion will be cancelled"], correctIndex: 0, explanation: "\"Piove sul bagnato\" = luck goes to the lucky." },
+      { type: "listen-choose", audio: "Ha già vinto due premi e adesso anche la promozione: piove sul bagnato.", question: "What does the speaker think?", options: ["Good things keep happening to the same person", "The weather is getting worse", "The person doesn't deserve the prize", "The promotion will be canceled"], correctIndex: 0, explanation: "\"Piove sul bagnato\" = luck goes to the lucky." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Last night we stayed up till the small hours.", answer: "Ieri sera abbiamo fatto le ore piccole.", altAnswers: ["Stanotte abbiamo fatto le ore piccole."], explanation: "\"Fare le ore piccole\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "When I heard they were getting married, I was taken aback. (a woman speaking)", answer: "Quando ho saputo che si sposavano, sono caduta dalle nuvole.", altAnswers: ["Quando ho saputo che si sarebbero sposati, sono caduta dalle nuvole."], explanation: "\"Sono caduta\": \"essere\" and feminine agreement." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll tell you, but keep it to yourself.", answer: "Te lo dico, ma acqua in bocca.", altAnswers: ["Te lo dico, ma acqua in bocca, eh!", "Ti dico una cosa, ma acqua in bocca."], explanation: "\"Te lo\" = it to you." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Did you see the price? It costs a fortune.", answer: "Hai visto il prezzo? Costa un occhio della testa.", altAnswers: ["Hai visto il prezzo? Costa un occhio."], explanation: "\"Costare un occhio della testa\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He's already won two prizes and now the promotion too: it never rains but it pours.", answer: "Ha già vinto due premi e adesso anche la promozione: piove sul bagnato.", altAnswers: ["Ha già vinto due premi e ora anche la promozione: piove sul bagnato."], explanation: "\"Piove sul bagnato\" = luck goes to the lucky." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He's already won two prizes and now the promotion too: some people have all the luck.", answer: "Ha già vinto due premi e adesso anche la promozione: piove sul bagnato.", altAnswers: ["Ha già vinto due premi e ora anche la promozione: piove sul bagnato."], explanation: "\"Piove sul bagnato\" = luck goes to the lucky." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "How did the presentation go? Without a hitch.", answer: "Com'è andata la presentazione? Liscia come l'olio.", altAnswers: ["Come è andata la presentazione? Liscia come l'olio.", "Com'è andata la presentazione? È andata liscia come l'olio."], explanation: "\"Liscia\" agrees with \"presentazione\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Today I'm worn out.", answer: "Oggi sono uno straccio.", altAnswers: ["Oggi sono alla frutta.", "Oggi sono a pezzi."], explanation: "\"Essere uno straccio\" = to be a rag." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Shall we go out tonight? No, [I'm wiped out].", sentence: "Usciamo stasera? No, ___.", answer: "sono alla frutta", altAnswers: ["sono uno straccio"], explanation: "Both mean exhausted." },
@@ -1093,7 +1100,7 @@ export const IT_B2_U14: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "That evening I was on cloud nine.", answer: "La sera ero al settimo cielo.", altAnswers: ["Quella sera ero al settimo cielo."], explanation: "\"Essere al settimo cielo\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "My colleague went out of her way to help me.", answer: "La mia collega si è fatta in quattro per aiutarmi.", altAnswers: ["Una collega si è fatta in quattro per aiutarmi."], explanation: "\"Farsi in quattro\": \"essere\" and \"fatta\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "When they told me the news, [I was taken aback]. (a man speaking)", sentence: "Quando mi hanno dato la notizia, ___.", answer: "sono caduto dalle nuvole", explanation: "Reaction idiom, passato prossimo." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I didn't have a euro, but [every little helps].", sentence: "Non avevo un euro, ma ___.", answer: "tutto fa brodo", explanation: "Fixed phrase." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I didn't have a euro, but [every little bit helps].", sentence: "Non avevo un euro, ma ___.", answer: "tutto fa brodo", explanation: "Fixed phrase." },
       { type: "word-order", prompt: "Put the words in order to say: The sun was the icing on the cake.", words: ["Il", "sole", "è", "stato", "la", "ciliegina", "sulla", "torta."], translation: "The sun was the icing on the cake.", explanation: "\"La ciliegina sulla torta\"." },
       { type: "multiple-choice", question: "Which ending fits a story where everything went well?", options: ["Alla fine è andato tutto liscio come l'olio.", "Alla fine abbiamo fatto un buco nell'acqua.", "Alla fine ero alla frutta e al verde.", "Alla fine ho fatto una figuraccia."], correctIndex: 0, explanation: "Only \"liscio come l'olio\" is positive." },
       { type: "dictation", audio: "La sera prima avevo fatto le ore piccole e quella mattina avevo la testa tra le nuvole.", explanation: "Trapassato and imperfetto with idioms." },

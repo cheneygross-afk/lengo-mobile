@@ -96,7 +96,7 @@ export const IT_CULTURE_U03: Lesson[] = [
     slug: "culture-food-centre",
     level: "IT-Culture",
     number: 2,
-    title: "Food of the Centre",
+    title: "Food of the Center",
     summary: "Learn Rome's great pasta dishes, carbonara and amatriciana, and Tuscany's bistecca alla fiorentina and bread soups.",
     duration: "15 min",
     sections: [
@@ -157,7 +157,7 @@ export const IT_CULTURE_U03: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Add a little of the pasta water.", answer: "Aggiungi un po' di acqua di cottura.", altAnswers: ["Aggiungi un po' d'acqua di cottura.", "Aggiungi un po' dell'acqua di cottura.", "Aggiunga un po' di acqua di cottura."], explanation: "\"L'acqua di cottura\" = the cooking water." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "On Thursdays in Rome people eat gnocchi.", answer: "Il giovedì a Roma si mangiano gli gnocchi.", altAnswers: ["A Roma il giovedì si mangiano gli gnocchi."], explanation: "\"Gli gnocchi\": \"gli\" before gn; plural verb \"si mangiano\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We make ribollita with stale bread.", answer: "Con il pane vecchio facciamo la ribollita.", altAnswers: ["Facciamo la ribollita con il pane vecchio.", "Con il pane raffermo facciamo la ribollita.", "Facciamo la ribollita con il pane raffermo."], explanation: "\"Pane raffermo\" or \"vecchio\" = stale bread." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The price is per hundred grams.", answer: "Il prezzo è all'etto.", altAnswers: ["Il prezzo è per un etto.", "Il prezzo è a etto."], explanation: "\"Un etto\" = 100 grams." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The price is per hundred grams.", answer: "Il prezzo è all'etto.", altAnswers: ["Il prezzo è per un etto.", "Il prezzo è per etto."], explanation: "\"Un etto\" = 100 grams." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If the eggs cook too much, it [turns into] an omelette.", sentence: "Se le uova cuociono troppo, ___ una frittata.", answer: "diventa", explanation: "\"Diventare\" = to become." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Shall we have [the Jewish-style artichokes]?", sentence: "Prendiamo ___?", answer: "i carciofi alla giudia", explanation: "\"Alla giudia\" = in the Jewish style, from Rome's ghetto." },
       { type: "word-order", prompt: "Put the words in order to say: Carbonara has guanciale, eggs and pecorino.", words: ["Nella", "carbonara", "ci", "sono", "guanciale,", "uova", "e", "pecorino."], translation: "Carbonara has guanciale, eggs and pecorino.", explanation: "\"Uovo\" → \"le uova\": an irregular feminine plural." },
@@ -296,7 +296,7 @@ export const IT_CULTURE_U03: Lesson[] = [
         heading: "Italians argue too",
         body: [
           "Italians fight among themselves even more. Onion in amatriciana? Garlic in carbonara? Pancetta or guanciale? Cream in the ragù? Every family has the true recipe, usually the grandmother's, and newspapers and TV cooks stir up the debate.",
-          "Learn the phrases and join in: \"La ricetta originale è...\", \"Da noi si fa così\", \"Questa è un'eresia!\" (that's heresy!). It's one of the national pastimes, right after football.",
+          "Learn the phrases and join in: \"La ricetta originale è...\", \"Da noi si fa così\", \"Questa è un'eresia!\" (that's heresy!). It's one of the national pastimes, right after soccer.",
         ],
         examples: [
           { es: "La ricetta originale non ha la cipolla.", en: "The original recipe has no onion." },
@@ -437,7 +437,7 @@ export const IT_CULTURE_U03: Lesson[] = [
       {
         heading: "Un etto, mezzo chilo",
         body: [
-          "At a market stall, don't touch the produce: the seller chooses for you. Ask by weight. \"Un etto\" is 100 grams, the standard unit for cheese and cold cuts; \"mezzo chilo\" and \"un chilo\" for fruit and vegetables; herbs come in \"un mazzo\" (a bunch). In supermarkets you weigh your own fruit, wearing the plastic glove.",
+          "At a market stall, don't touch the produce: the seller chooses for you. Ask by weight. \"Un etto\" is 100 grams, the standard unit for cheese and cold cuts; \"mezzo chilo\" and \"un chilo\" for fruit and vegetables; herbs come in \"un mazzo\" (a bunch). In many supermarkets you weigh your own fruit, wearing the plastic glove.",
           "The seller will ask \"Altro?\" (anything else?) until you say \"Basta così, grazie\". Prices are per kilo: \"a due euro al chilo\".",
         ],
         examples: [
@@ -634,7 +634,7 @@ export const IT_CULTURE_U03: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "First boil the potatoes.", answer: "Prima lessa le patate.", altAnswers: ["Prima fai bollire le patate.", "Prima cuoci le patate."], explanation: "\"Lessare\" = to boil (food)." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Knead gently, not too much.", answer: "Impasta piano, non troppo.", altAnswers: ["Impasta delicatamente, non troppo.", "Impasta piano, ma non troppo."], explanation: "\"Impastare\" = to knead." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Come to the table! It's ready!", answer: "A tavola! È pronto!", explanation: "The call every Italian child knows." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They're delicious!", answer: "Sono buonissimi!", altAnswers: ["Sono squisiti!", "Sono buonissime!", "Che buoni!"], explanation: "\"Gli gnocchi\" are masculine plural: \"buonissimi\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They're delicious!", answer: "Sono buonissimi!", altAnswers: ["Sono squisiti!", "Che buoni!"], explanation: "\"Gli gnocchi\" are masculine plural: \"buonissimi\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I do it by eye.", answer: "Io lo faccio a occhio.", altAnswers: ["Lo faccio a occhio.", "Faccio a occhio."], explanation: "\"A occhio\" = by eye, without measuring." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "How much flour? [As much as needed].", sentence: "Quanta farina? ___.", answer: "Quanto basta", explanation: "Abbreviated \"q.b.\" in recipes." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Add [a drizzle of oil].", sentence: "Aggiungi ___.", answer: "un filo d'olio", altAnswers: ["un filo di olio"], explanation: "\"Un filo\" = a thread: a drizzle." },

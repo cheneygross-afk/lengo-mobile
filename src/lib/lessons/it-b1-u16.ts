@@ -12,13 +12,13 @@ export const IT_B1_U16: Lesson[] = [
     level: "IT-B1",
     number: 1,
     title: "The Remote Past: Regular Forms",
-    summary: "Recognise the regular passato remoto (parlò, credette, partì, parlarono) and match each form to the passato prossimo you already use.",
+    summary: "Recognize the regular passato remoto (parlò, credette, partì, parlarono) and match each form to the passato prossimo you already use.",
     duration: "17 min",
     sections: [
       {
         heading: "A past for books",
         body: [
-          "Italian has a second simple past, the \"passato remoto\" (remote past). In novels, fairy tales and history books it does the job the passato prossimo does in conversation: \"Il re parlò\" (the king spoke) = \"Il re ha parlato\". Your aim at this level is to recognise it when you read, and to produce the most common third-person forms.",
+          "Italian has a second simple past, the \"passato remoto\" (remote past). In novels, fairy tales and history books it does the job the passato prossimo does in conversation: \"Il re parlò\" (the king spoke) = \"Il re ha parlato\". Your aim at this level is to recognize it when you read, and to produce the most common third-person forms.",
           "It's a one-word tense, like English spoke or left, so there's no auxiliary and no participle agreement: \"La regina partì\" (the queen left), not \"è partita\".",
           "The forms you'll meet most are he / she (\"parlò\") and they (\"parlarono\"), because stories are told about other people.",
         ],
@@ -39,6 +39,7 @@ export const IT_B1_U16: Lesson[] = [
           "-are verbs: \"parlai, parlasti, parlò, parlammo, parlaste, parlarono\". -ire verbs: \"partii, partisti, partì, partimmo, partiste, partirono\". The he / she form ends in a stressed vowel with an accent: \"parlò\", \"partì\".",
           "-ere verbs have two sets of endings, both correct: \"credei / credetti, credesti, credé / credette, credemmo, credeste, crederono / credettero\". \"Credette\" and \"crederono\" are the ones you'll see most.",
           "The tip for spotting it: \"-ò\", \"-ì\", \"-é\" or \"-ette\" for one person; \"-arono\", \"-irono\", \"-erono\" or \"-ettero\" for several. Don't confuse \"-arono\" with the present \"-ano\": \"parlarono\" (they spoke), \"parlano\" (they speak).",
+          "Two -ere verbs follow this pattern and turn up on every other page of a story: \"potere\" gives \"poté\", \"poterono\" (\"Non poté rispondere\", she couldn't answer) and \"dovere\" gives \"dovette\", \"dovettero\" (\"Dovette partire\", he had to leave). Learners who skip the accent write \"pote\", which isn't a word.",
         ],
         examples: [
           { es: "Gli ospiti ballarono tutta la notte.", en: "The guests danced all night." },
@@ -91,7 +92,7 @@ export const IT_B1_U16: Lesson[] = [
     level: "IT-B1",
     number: 2,
     title: "Fu and Ebbe",
-    summary: "Recognise the remote past of essere (fu, furono) and avere (ebbe, ebbero), and the classic fairy-tale opening c'era una volta ... e un giorno arrivò ...",
+    summary: "Recognize the remote past of essere (fu, furono) and avere (ebbe, ebbero), and the classic fairy-tale opening c'era una volta ... e un giorno arrivò ...",
     duration: "17 min",
     sections: [
       {
@@ -99,6 +100,7 @@ export const IT_B1_U16: Lesson[] = [
         body: [
           "\"Essere\" in the remote past: \"fui, fosti, fu, fummo, foste, furono\". The forms you'll read most are \"fu\" (he / she / it was) and \"furono\" (they were): \"Fu un inverno terribile\" (it was a terrible winter), \"Furono anni difficili\" (they were difficult years).",
           "\"Fu\" often marks a single completed event or a whole period seen from outside, where a story would otherwise use \"è stato\": \"Fu un grande successo\" (it was a great success). For background descriptions stories still use the imperfetto \"era\".",
+          "The same split works with \"esserci\": \"c'era\" describes what was there (\"C'era molta gente\"), while \"ci fu\" reports something that happened: \"Nel 1908 ci fu un terribile terremoto a Messina\" (in 1908 there was a terrible earthquake in Messina). History books also build the passive with \"fu\": \"fu costruito\", \"furono uccisi\".",
         ],
         examples: [
           { es: "Fu un inverno terribile.", en: "It was a terrible winter." },
@@ -168,7 +170,7 @@ export const IT_B1_U16: Lesson[] = [
     level: "IT-B1",
     number: 3,
     title: "The Irregular Remote Past",
-    summary: "Recognise the irregular remote pasts you'll meet most (fece, disse, venne, vide, prese, nacque, visse, scrisse, mise, chiese, rispose, volle, seppe) and the 1-3-3 pattern.",
+    summary: "Recognize the irregular remote pasts you'll meet most (fece, disse, venne, vide, prese, nacque, visse, scrisse, mise, chiese, rispose, volle, seppe) and the 1-3-3 pattern.",
     duration: "17 min",
     sections: [
       {
@@ -176,11 +178,12 @@ export const IT_B1_U16: Lesson[] = [
         body: [
           "Most irregular verbs are irregular only in three forms: I, he / she, and they. \"Prendere\": \"presi, prendesti, prese, prendemmo, prendeste, presero\". The irregular forms share one stem (\"pres-\") and the endings \"-i, -e, -ero\"; the other three are regular.",
           "So for reading, learn the he / she form and you've got the other two: \"prese\" → \"presi\", \"presero\". Many look like the participle you know: \"prese\" / \"preso\", \"mise\" / \"messo\", \"scrisse\" / \"scritto\", \"chiese\" / \"chiesto\", \"rispose\" / \"risposto\", \"decise\" / \"deciso\".",
+          "Watch for look-alikes when you read. \"Vide\" (saw) is not \"vive\" (lives), and \"venne\" (came) is not \"vende\" (sells). \"Prese\" and \"decise\" can also be feminine plural participles: \"le decisioni prese\" means the decisions taken. If a form puzzles you, check whether it is the main verb of the sentence.",
         ],
         examples: [
           { es: "Prese la spada e uscì.", en: "He took the sword and went out." },
           { es: "Mise la lettera sul tavolo.", en: "She put the letter on the table." },
-          { es: "Scrisse a sua madre ogni settimana.", en: "He wrote to his mother every week." },
+          { es: "Quella sera scrisse a sua madre.", en: "That evening he wrote to his mother." },
           { es: "Chiese aiuto, ma nessuno rispose.", en: "She asked for help, but nobody answered." },
           { es: "Alla fine decisero di restare.", en: "In the end they decided to stay." },
         ],
@@ -267,19 +270,19 @@ export const IT_B1_U16: Lesson[] = [
         ],
       },
       {
-        heading: "North, centre and South",
+        heading: "North, center and South",
         body: [
           "In everyday speech, northern and most central Italians almost never use the remote past: \"Ieri sono andato al cinema\", never \"ieri andai\". In Tuscany it survives for distant events.",
-          "In parts of the South, especially Sicily, Calabria and Puglia, many speakers still use it in conversation, even for recent events: \"Ieri andai al mare\" (yesterday I went to the seaside) is natural in Palermo. So you'll hear it, and it isn't a mistake; but in your own speech, stick to the passato prossimo.",
+          "In parts of the South, especially Sicily, Calabria and Puglia, many speakers still use it in conversation, even for recent events: \"Ieri andai al mare\" (yesterday I went to the beach) is natural in Palermo. So you'll hear it, and it isn't a mistake; but in your own speech, stick to the passato prossimo.",
         ],
         examples: [
-          { es: "Ieri sono andato al mare.", en: "Yesterday I went to the seaside. (most of Italy)" },
-          { es: "Ieri andai al mare.", en: "Yesterday I went to the seaside. (heard in the South)" },
+          { es: "Ieri sono andato al mare.", en: "Yesterday I went to the beach. (most of Italy)" },
+          { es: "Ieri andai al mare.", en: "Yesterday I went to the beach. (heard in the South)" },
           { es: "Che facesti stamattina?", en: "What did you do this morning? (Sicilian speech)" },
           { es: "Che hai fatto stamattina?", en: "What did you do this morning? (standard speech)" },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian, as most Italians would say it.", source: "Yesterday I went to the seaside.", answer: "Ieri sono andato al mare.", altAnswers: ["Ieri sono andata al mare.", "Ieri andai al mare."], explanation: "In conversation, the passato prossimo is the safe choice." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian, as most Italians would say it.", source: "Yesterday I went to the beach.", answer: "Ieri sono andato al mare.", altAnswers: ["Ieri sono andata al mare.", "Ieri andai al mare."], explanation: "In conversation, the passato prossimo is the safe choice." },
           { type: "listen-choose", audio: "Che facesti stamattina?", question: "A friend from Palermo asks this. What does it mean?", options: ["What did you do this morning?", "What are you doing this morning?", "What will you do this morning?", "What would you do this morning?"], correctIndex: 0, explanation: "\"Facesti\": remote past of \"fare\", for \"tu\"; common in Sicilian speech." },
         ],
       },
@@ -287,7 +290,7 @@ export const IT_B1_U16: Lesson[] = [
         heading: "Reading strategy",
         body: [
           "When a remote past slows you down, convert it in your head to the passato prossimo: \"scrisse\" → \"ha scritto\", \"vennero\" → \"sono venuti\", \"si sedette\" → \"si è seduto\". The meaning is identical.",
-          "And remember the division of labour in stories: the imperfetto describes (\"era notte\", \"pioveva\"), the remote past narrates (\"bussò\", \"entrò\"). Writers sometimes switch to the trapassato (\"era partito\") for events before the main story.",
+          "And remember the division of labor in stories: the imperfetto describes (\"era notte\", \"pioveva\"), the remote past narrates (\"bussò\", \"entrò\"). Writers sometimes switch to the trapassato (\"era partito\") for events before the main story.",
         ],
         examples: [
           { es: "Era notte e pioveva.", en: "It was night and it was raining." },
@@ -320,7 +323,7 @@ export const IT_B1_U16: Lesson[] = [
     slug: "b1-drill-passato-remoto-recognition",
     level: "IT-B1",
     number: 5,
-    title: "Drill: Recognising the Remote Past",
+    title: "Drill: Recognizing the Remote Past",
     summary: "High-repetition recognition: translate remote past forms and match each one to the passato prossimo.",
     duration: "22 min",
     kind: "drill",
@@ -328,7 +331,7 @@ export const IT_B1_U16: Lesson[] = [
       {
         heading: "See it, say it in everyday Italian",
         body: [
-          "For each sentence, recognise the remote past and give its meaning. When you translate into Italian, either the remote past or the passato prossimo is accepted. Watch the 1-3-3 pattern: \"-i, -e, -ero\" on one irregular stem.",
+          "For each sentence, recognize the remote past and give its meaning. When you translate into Italian, either the remote past or the passato prossimo is accepted. Watch the 1-3-3 pattern: \"-i, -e, -ero\" on one irregular stem.",
         ],
         examples: [
           { es: "Lesse la lettera due volte.", en: "She read the letter twice." },
@@ -507,7 +510,7 @@ export const IT_B1_U16: Lesson[] = [
       { type: "multiple-choice", question: "Where did Maria Montessori die?", options: ["In Holland", "In Rome", "In India", "In Chiaravalle"], correctIndex: 0, explanation: "\"Morì in Olanda nel 1952\"." },
       { type: "multi-select", question: "Which verbs in the biography are remote pasts? Choose all that apply.", options: ["nacque", "sceglievano", "si laureò", "potevano", "tenne"], correctIndexes: [0, 2, 4], explanation: "\"Sceglievano\" and \"potevano\" are imperfetto: background." },
       { type: "dictation", audio: "Si laureò in medicina nel 1896.", explanation: "\"Si laureò\": final stress." },
-      { type: "speak", text: "Maria Montessori nacque nel 1870, si laureò in medicina e aprì la prima Casa dei Bambini nel 1907.", prompt: "Summarise her life aloud: Maria Montessori was born in 1870, graduated in medicine and opened the first Children's House in 1907.", tip: "Read years as words: milleottocentosettanta, millenovecentosette.", explanation: "Three life events in the remote past." },
+      { type: "speak", text: "Maria Montessori nacque nel 1870, si laureò in medicina e aprì la prima Casa dei Bambini nel 1907.", prompt: "Summarize her life aloud: Maria Montessori was born in 1870, graduated in medicine and opened the first Children's House in 1907.", tip: "Read years as words: milleottocentosettanta, millenovecentosette.", explanation: "Three life events in the remote past." },
     ],
   },
   {
@@ -540,7 +543,7 @@ export const IT_B1_U16: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "The book says \"Partì all'alba\" about a woman. Say it in everyday Italian.", source: "She left at dawn.", answer: "È partita all'alba.", explanation: "\"Partire\" takes \"essere\": \"partita\"." },
       { type: "translate", direction: "en-es", prompt: "The book says \"Fece caldo tutta l'estate\". Say it in everyday Italian.", source: "It was hot all summer.", answer: "Ha fatto caldo tutta l'estate.", altAnswers: ["Ha fatto caldo per tutta l'estate."], explanation: "\"Fece\" → \"ha fatto\"." },
       { type: "translate", direction: "en-es", prompt: "The book says \"Disse che aveva fame\". Say it in everyday Italian.", source: "He said he was hungry.", answer: "Ha detto che aveva fame.", explanation: "\"Disse\" → \"ha detto\"; \"aveva\" stays." },
-      { type: "translate", direction: "en-es", prompt: "The book says \"I turisti vennero in autobus\". Say it in everyday Italian.", source: "The tourists came by coach.", answer: "I turisti sono venuti in autobus.", altAnswers: ["I turisti sono venuti in pullman."], explanation: "\"Vennero\" → \"sono venuti\"." },
+      { type: "translate", direction: "en-es", prompt: "The book says \"I turisti vennero in autobus\". Say it in everyday Italian.", source: "The tourists came by bus.", answer: "I turisti sono venuti in autobus.", altAnswers: ["I turisti sono venuti in pullman."], explanation: "\"Vennero\" → \"sono venuti\"." },
       { type: "translate", direction: "en-es", prompt: "The book says \"Non seppi mai la verità\". Say it in everyday Italian.", source: "I never found out the truth.", answer: "Non ho mai saputo la verità.", explanation: "\"Seppi\" → \"ho saputo\"; \"mai\" goes between auxiliary and participle." },
       { type: "translate", direction: "en-es", prompt: "The book says \"Vedemmo il mare per la prima volta\". Say it in everyday Italian.", source: "We saw the sea for the first time.", answer: "Abbiamo visto il mare per la prima volta.", altAnswers: ["Abbiamo veduto il mare per la prima volta."], explanation: "\"Vedemmo\" → \"abbiamo visto\"." },
       { type: "translate", direction: "en-es", prompt: "The book says \"Mia nonna nacque in Calabria\". Say it in everyday Italian.", source: "My grandmother was born in Calabria.", answer: "Mia nonna è nata in Calabria.", explanation: "\"Nacque\" → \"è nata\"." },
@@ -608,7 +611,7 @@ export const IT_B1_U16: Lesson[] = [
       {
         heading: "Rhythm in narration",
         body: [
-          "Read aloud, a story in the remote past has a typical rhythm: many words end on a strong beat. \"Entrò, guardò, sorrise e se ne andò\". Practise reading it with energy on each final syllable; it's what makes Italian storytelling sound like storytelling.",
+          "Read aloud, a story in the remote past has a typical rhythm: many words end on a strong beat. \"Entrò, guardò, sorrise e se ne andò\". Practice reading it with energy on each final syllable; it's what makes Italian storytelling sound like storytelling.",
         ],
         examples: [
           { es: "Entrò, guardò, sorrise e se ne andò.", en: "He came in, looked, smiled and left." },

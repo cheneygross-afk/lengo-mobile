@@ -25,7 +25,7 @@ export const IT_B1_U14: Lesson[] = [
           { es: "Entro venerdì avremo finito.", en: "By Friday we will have finished." },
           { es: "Alle otto avrò già cenato.", en: "By eight I'll already have had dinner." },
           { es: "Entro giugno avrai dato tutti gli esami.", en: "By June you'll have taken all your exams." },
-          { es: "Tra un'ora avranno chiuso il negozio.", en: "In an hour they'll have closed the shop." },
+          { es: "Tra un'ora avranno chiuso il negozio.", en: "In an hour they'll have closed the store." },
           { es: "Per Natale avrete risparmiato abbastanza.", en: "By Christmas you'll have saved enough. (plural)" },
         ],
         checkpoint: [
@@ -39,12 +39,13 @@ export const IT_B1_U14: Lesson[] = [
         body: [
           "Verbs that take \"essere\" keep it: \"sarò partito\", \"sarai arrivata\", \"saranno tornati\". The participle agrees with the subject: \"Giulia sarà già partita\", \"i ragazzi saranno arrivati\". Reflexive verbs put their pronoun first: \"mi sarò già alzato\".",
           "The irregular participles are the ones you know: \"fatto\", \"detto\", \"visto\", \"preso\", \"scritto\", \"messo\", \"letto\", \"rimasto\", \"venuto\".",
+          "Pronouns and adverbs sit exactly where they do in the passato prossimo: \"l'avrò già letto\", \"non l'avremo ancora finito\". A direct object pronoun makes the participle agree: \"Le lettere? Le avrò spedite entro lunedì\". The classic slip is \"avrò andato\": the auxiliary is chosen by the verb, just as in \"sono andato\", never by the English will have.",
         ],
         examples: [
           { es: "Quando arrivi, sarò già partito.", en: "When you arrive, I'll already have left." },
           { es: "Tra un mese Giulia sarà tornata dall'Australia.", en: "In a month Giulia will have come back from Australia." },
           { es: "A mezzanotte i ragazzi saranno già andati a letto.", en: "By midnight the boys will already have gone to bed." },
-          { es: "Alle sette mi sarò già alzata.", en: "By seven I'll already have got up. (a woman)" },
+          { es: "Alle sette mi sarò già alzata.", en: "By seven I'll already have gotten up. (a woman)" },
           { es: "Entro domani avrò scritto la relazione.", en: "By tomorrow I'll have written the report." },
         ],
         checkpoint: [
@@ -61,20 +62,20 @@ export const IT_B1_U14: Lesson[] = [
         ],
         examples: [
           { es: "Domani a quest'ora sono già a Parigi.", en: "This time tomorrow I'll already be in Paris." },
-          { es: "Fra dieci anni avremo cambiato casa almeno una volta.", en: "In ten years we'll have moved house at least once." },
+          { es: "Fra dieci anni avremo cambiato casa almeno una volta.", en: "In ten years we'll have moved at least once." },
           { es: "Prima di sera avrete visto tutto il museo.", en: "Before evening you'll have seen the whole museum. (plural)" },
           { es: "Fra un'ora sarà tutto finito.", en: "In an hour it'll all be over." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Before evening you'll have seen the whole museum. (plural)", answer: "Prima di sera avrete visto tutto il museo.", altAnswers: ["Prima di stasera avrete visto tutto il museo.", "Avrete visto tutto il museo prima di sera."], explanation: "\"Avrete\" for \"voi\"; \"tutto il museo\" = the whole museum." },
-          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "In ten years [we'll have moved house] at least once.", sentence: "Fra dieci anni ___ almeno una volta.", answer: "avremo cambiato casa", altAnswers: ["noi avremo cambiato casa", "ci saremo trasferiti"], explanation: "\"Cambiare casa\" = to move house; one m in \"avremo\"." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "In ten years [we'll have moved] at least once.", sentence: "Fra dieci anni ___ almeno una volta.", answer: "avremo cambiato casa", altAnswers: ["noi avremo cambiato casa", "ci saremo trasferiti"], explanation: "\"Cambiare casa\" = to move; one m in \"avremo\"." },
         ],
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In an hour they'll have closed the shop.", answer: "Tra un'ora avranno chiuso il negozio.", altAnswers: ["Fra un'ora avranno chiuso il negozio.", "Tra un'ora loro avranno chiuso il negozio."], explanation: "\"Chiudere\" → \"chiuso\"; \"tra\" or \"fra\" = in (from now)." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In an hour they'll have closed the store.", answer: "Tra un'ora avranno chiuso il negozio.", altAnswers: ["Fra un'ora avranno chiuso il negozio.", "Tra un'ora loro avranno chiuso il negozio."], explanation: "\"Chiudere\" → \"chiuso\"; \"tra\" or \"fra\" = in (from now)." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "By June you'll have taken all your exams. (to a friend)", answer: "Entro giugno avrai dato tutti gli esami.", altAnswers: ["Per giugno avrai dato tutti gli esami.", "Entro giugno avrai fatto tutti gli esami."], explanation: "Italian students \"danno\" or \"fanno\" exams." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "By seven I'll already have got up. (a man speaking)", answer: "Alle sette mi sarò già alzato.", altAnswers: ["Entro le sette mi sarò già alzato.", "Per le sette mi sarò già alzato."], explanation: "Reflexive: \"mi sarò alzato\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "By seven I'll already have gotten up. (a man speaking)", answer: "Alle sette mi sarò già alzato.", altAnswers: ["Entro le sette mi sarò già alzato.", "Per le sette mi sarò già alzato."], explanation: "Reflexive: \"mi sarò alzato\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In a month Giulia will have come back.", answer: "Tra un mese Giulia sarà tornata.", altAnswers: ["Fra un mese Giulia sarà tornata.", "Tra un mese Giulia sarà rientrata."], explanation: "\"Tornare\" with \"essere\"; \"tornata\" agrees." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "By Christmas we'll have saved enough.", answer: "Per Natale avremo risparmiato abbastanza.", altAnswers: ["Entro Natale avremo risparmiato abbastanza.", "A Natale avremo risparmiato abbastanza."], explanation: "One m: \"avremo\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "By midnight the boys [will have gone] to bed.", sentence: "A mezzanotte i ragazzi ___ a letto.", answer: "saranno andati", explanation: "\"Andare\": essere + masculine plural." },
@@ -99,6 +100,7 @@ export const IT_B1_U14: Lesson[] = [
           "English says when I've finished, I'll call you, with a present perfect for a future event. Italian is more logical: the finishing is in the future too, and it comes first, so it goes in the future perfect: \"Quando avrò finito, ti chiamerò\".",
           "The words that introduce the earlier event are \"quando\" (when), \"appena\" or \"non appena\" (as soon as), \"dopo che\" (after) and \"una volta che\" (once). The main clause is in the future or, when it's an instruction, the imperative: \"Appena sarai arrivato, chiamami\" (as soon as you've arrived, call me).",
           "This is a classic trap for English speakers, who write \"quando ho finito\" for a future event. In careful Italian, two future events in sequence means future perfect, then future.",
+          "When both events have the same subject, \"dopo\" + past infinitive is lighter and very common: \"Dopo aver mangiato, usciremo\" rather than \"Dopo che avremo mangiato, usciremo\". And never let a conditional creep into the main clause: \"Quando avrai finito, mi chiamerai\", not \"mi chiameresti\".",
         ],
         examples: [
           { es: "Quando avrò finito, ti chiamerò.", en: "When I've finished, I'll call you." },
@@ -116,7 +118,7 @@ export const IT_B1_U14: Lesson[] = [
       {
         heading: "What you hear in speech",
         body: [
-          "In everyday conversation many Italians simplify: present + present, or passato prossimo + present. \"Quando ho finito, ti chiamo\", \"Appena arriva, partiamo\". This is normal, relaxed speech, and you should recognise it.",
+          "In everyday conversation many Italians simplify: present + present, or passato prossimo + present. \"Quando ho finito, ti chiamo\", \"Appena arriva, partiamo\". This is normal, relaxed speech, and you should recognize it.",
           "In writing, in emails and whenever you want to sound precise, use the future perfect. A useful rule: if the main verb is in the future, the earlier event should be in the future perfect.",
         ],
         examples: [
@@ -177,6 +179,7 @@ export const IT_B1_U14: Lesson[] = [
           "Italian uses the future perfect for a guess about the past, where English says must have, probably or I suppose. \"Non risponde: sarà già uscito\" (he's not answering: he must have gone out already). \"Avrà dimenticato l'appuntamento\" (she's probably forgotten the appointment).",
           "Nothing is in the future here. The tense simply marks the sentence as a supposition. It's extremely common in conversation, often with \"forse\" (maybe) or \"chissà\" (who knows) close by.",
           "The same tense works for questions you ask yourself out loud: \"Dove avrò messo le chiavi?\" (where can I have put my keys?), \"Chi l'avrà detto?\" (who could have said it?).",
+          "\"Dovere\" also works: \"Deve essere uscito\" (he must have gone out) sounds like a logical deduction, while \"sarà uscito\" is a softer, more conversational guess. Notice the auxiliary follows the main verb: \"deve essere uscito\", \"deve aver dimenticato\". Don't reach for the conditional: \"sarebbe uscito\" means he would have gone out, or, in the news, he reportedly went out.",
         ],
         examples: [
           { es: "Non risponde: sarà già uscito.", en: "He's not answering: he must have gone out already." },
@@ -203,7 +206,7 @@ export const IT_B1_U14: Lesson[] = [
           { es: "Quanto avrà speso per quella macchina?", en: "How much must he have spent on that car?" },
           { es: "Avrà speso almeno trentamila euro.", en: "He must have spent at least thirty thousand euros." },
           { es: "È uscito alle otto, l'ho visto.", en: "He went out at eight, I saw him." },
-          { es: "Boh, si sarà perso.", en: "No idea, he must have got lost." },
+          { es: "Boh, si sarà perso.", en: "No idea, he must have gotten lost." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He must have spent at least thirty thousand euros.", answer: "Avrà speso almeno trentamila euro.", altAnswers: ["Avrà speso almeno 30.000 euro.", "Lui avrà speso almeno trentamila euro."], explanation: "A guess about a past action: \"avrà speso\"." },
@@ -231,7 +234,7 @@ export const IT_B1_U14: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She's probably forgotten the appointment.", answer: "Avrà dimenticato l'appuntamento.", altAnswers: ["Si sarà dimenticata dell'appuntamento.", "Lei avrà dimenticato l'appuntamento.", "Forse ha dimenticato l'appuntamento."], explanation: "Future perfect = probably has." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The train must have left late.", answer: "Il treno sarà partito in ritardo.", explanation: "\"Partire\" with \"essere\": \"sarà partito\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Who could have told Marco?", answer: "Chi l'avrà detto a Marco?", altAnswers: ["Chi lo avrà detto a Marco?", "Chi glielo avrà detto?"], explanation: "A question to yourself: \"avrà detto\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "No idea, he must have got lost.", answer: "Boh, si sarà perso.", altAnswers: ["Non lo so, si sarà perso.", "Boh, si sarà perduto.", "Non so, si sarà perso."], explanation: "\"Perdersi\" is reflexive: \"si sarà perso\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "No idea, he must have gotten lost.", answer: "Boh, si sarà perso.", altAnswers: ["Non lo so, si sarà perso.", "Boh, si sarà perduto.", "Non so, si sarà perso."], explanation: "\"Perdersi\" is reflexive: \"si sarà perso\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They must have had a hitch.", answer: "Avranno avuto un contrattempo.", altAnswers: ["Avranno avuto un imprevisto.", "Avranno avuto un problema."], explanation: "\"Avranno avuto\": a guess about what happened." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He's probably at home.", answer: "Sarà a casa.", altAnswers: ["Probabilmente è a casa.", "Sarà a casa sua."], explanation: "Guess about now: simple future." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The children are quiet: [they must have fallen asleep].", sentence: "I bambini sono tranquilli: ___.", answer: "si saranno addormentati", explanation: "Reflexive in the future perfect: \"si saranno addormentati\"." },
@@ -239,7 +242,7 @@ export const IT_B1_U14: Lesson[] = [
       { type: "word-order", prompt: "Put the words in order to say: How much must he have spent on that car?", words: ["Quanto", "avrà", "speso", "per", "quella", "macchina?"], translation: "How much must he have spent on that car?", explanation: "Future perfect in a question you can't answer for sure." },
       { type: "multiple-choice", question: "\"Sarà già arrivata\" means ...", options: ["She must have arrived already.", "She will arrive soon.", "She would have arrived already.", "She is arriving now."], correctIndex: 0, explanation: "Future perfect of probability: a guess about the past." },
       { type: "dictation", audio: "Non trovo il telefono: l'avrò lasciato in macchina.", explanation: "\"L'avrò lasciato\": a guess about where you left it." },
-      { type: "speak", text: "Giulia è in ritardo: avrà perso l'autobus o sarà rimasta bloccata nel traffico.", prompt: "Say it in Italian: Giulia is late: she must have missed the bus or got stuck in traffic.", tip: "\"Bloccata\": hold the double c, bloc-CA-ta.", explanation: "Two guesses, one with \"avere\" and one with \"essere\"." },
+      { type: "speak", text: "Giulia è in ritardo: avrà perso l'autobus o sarà rimasta bloccata nel traffico.", prompt: "Say it in Italian: Giulia is late: she must have missed the bus or gotten stuck in traffic.", tip: "\"Bloccata\": hold the double c, bloc-CA-ta.", explanation: "Two guesses, one with \"avere\" and one with \"essere\"." },
     ],
   },
   {
@@ -270,14 +273,14 @@ export const IT_B1_U14: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "As soon as you've decided, let me know. (to a friend)", answer: "Appena avrai deciso, fammi sapere.", altAnswers: ["Non appena avrai deciso, fammi sapere.", "Quando avrai deciso, fammi sapere.", "Appena hai deciso, fammi sapere."], explanation: "\"Decidere\" → \"deciso\"; imperative in the main clause." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "By Sunday they'll have moved.", answer: "Per domenica avranno traslocato.", altAnswers: ["Entro domenica avranno traslocato.", "Per domenica si saranno trasferiti.", "Entro domenica si saranno trasferiti."], explanation: "\"Traslocare\" = to move house." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "By Sunday they'll have moved.", answer: "Per domenica avranno traslocato.", altAnswers: ["Entro domenica avranno traslocato.", "Per domenica si saranno trasferiti.", "Entro domenica si saranno trasferiti."], explanation: "\"Traslocare\" = to move." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "By tonight she'll have finished the book.", answer: "Entro stasera avrà finito il libro.", altAnswers: ["Per stasera avrà finito il libro.", "Stasera avrà finito il libro."], explanation: "\"Avrà finito\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "When you've paid, you can go in. (polite)", answer: "Quando avrà pagato, potrà entrare.", altAnswers: ["Dopo che avrà pagato, potrà entrare.", "Appena avrà pagato, potrà entrare."], explanation: "\"Lei\" form: \"avrà pagato\", \"potrà\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "After they've signed, we'll start the work.", answer: "Dopo che avranno firmato, cominceremo i lavori.", altAnswers: ["Dopo che avranno firmato, inizieremo i lavori.", "Quando avranno firmato, cominceremo i lavori."], explanation: "\"I lavori\" = building or repair work." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "By the end of the year I'll have visited ten countries.", answer: "Entro la fine dell'anno avrò visitato dieci paesi.", altAnswers: ["Per la fine dell'anno avrò visitato dieci paesi.", "Alla fine dell'anno avrò visitato dieci paesi."], explanation: "\"Avrò visitato\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "When the film has finished, we'll go to bed.", answer: "Quando sarà finito il film, andremo a letto.", altAnswers: ["Quando il film sarà finito, andremo a letto.", "Quando il film sarà finito andremo a letto.", "Quando finisce il film, andiamo a letto."], explanation: "\"Finire\" meaning to end takes \"essere\": \"sarà finito\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "When the movie is over, we'll go to bed.", answer: "Quando sarà finito il film, andremo a letto.", altAnswers: ["Quando il film sarà finito, andremo a letto.", "Quando il film sarà finito andremo a letto.", "Quando finisce il film, andiamo a letto."], explanation: "\"Finire\" meaning to end takes \"essere\": \"sarà finito\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "As soon as the guests have arrived, we'll eat.", answer: "Appena saranno arrivati gli ospiti, mangeremo.", altAnswers: ["Appena gli ospiti saranno arrivati, mangeremo.", "Non appena gli ospiti saranno arrivati, mangeremo.", "Quando gli ospiti saranno arrivati, mangeremo."], explanation: "\"Saranno arrivati\": essere + plural." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "By ten [you'll have got up]? (to a friend)", sentence: "Per le dieci ___?", answer: "ti sarai alzato", altAnswers: ["ti sarai alzata"], explanation: "Reflexive: \"ti sarai alzato\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "By ten [you'll have gotten up]? (to a friend)", sentence: "Per le dieci ___?", answer: "ti sarai alzato", altAnswers: ["ti sarai alzata"], explanation: "Reflexive: \"ti sarai alzato\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "When [you've seen] the photos, you'll understand. (plural)", sentence: "Quando ___ le foto, capirete.", answer: "avrete visto", altAnswers: ["voi avrete visto"], explanation: "\"Vedere\" → \"visto\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "By March [we will have paid off] the loan.", sentence: "Entro marzo ___ il prestito.", answer: "avremo restituito", altAnswers: ["avremo ripagato", "avremo estinto"], explanation: "Single m: \"avremo\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Once [I've put] the children to bed, I'll call you.", sentence: "Una volta che ___ a letto i bambini, ti chiamerò.", answer: "avrò messo", explanation: "\"Mettere\" → \"messo\"." },
@@ -287,7 +290,7 @@ export const IT_B1_U14: Lesson[] = [
       { type: "listen-choose", audio: "Quando avremo finito, usciremo.", question: "What does it mean?", options: ["When we've finished, we'll go out.", "If we finished, we would go out.", "When we finished, we went out.", "We would have finished, then gone out."], correctIndex: 0, explanation: "\"Avremo finito\" (single m) + \"usciremo\": a future sequence." },
       { type: "dictation", audio: "Appena sarà arrivata, la porteremo a cena.", explanation: "\"Sarà arrivata\": feminine agreement." },
       { type: "dictation", audio: "Entro domani avranno riparato la lavatrice.", explanation: "\"Avranno riparato\": by tomorrow." },
-      { type: "speak", text: "Appena avrò finito l'università, mi trasferirò a Milano e avrò trovato casa entro settembre.", prompt: "Say it in Italian: As soon as I've finished university, I'll move to Milan, and I'll have found a flat by September.", tip: "Keep the stress on the last syllable of every future: a-VRÒ, tra-sfe-ri-RÒ.", explanation: "Future perfect for the earlier event and for the deadline." },
+      { type: "speak", text: "Appena avrò finito l'università, mi trasferirò a Milano e avrò trovato casa entro settembre.", prompt: "Say it in Italian: As soon as I've finished university, I'll move to Milan, and I'll have found an apartment by September.", tip: "Keep the stress on the last syllable of every future: a-VRÒ, tra-sfe-ri-RÒ.", explanation: "Future perfect for the earlier event and for the deadline." },
     ],
   },
   {
@@ -301,18 +304,18 @@ export const IT_B1_U14: Lesson[] = [
       {
         heading: "Now: sarà, avrà",
         body: [
-          "A guess about the present uses the simple future: \"Sarà stanco\" (he's probably tired), \"Avrà fame\" (she must be hungry), \"Saranno in vacanza\" (they're probably on holiday). Look at the evidence in front of you: it's happening now.",
+          "A guess about the present uses the simple future: \"Sarà stanco\" (he's probably tired), \"Avrà fame\" (she must be hungry), \"Saranno in vacanza\" (they're probably on vacation). Look at the evidence in front of you: it's happening now.",
           "English often needs must, probably, I suppose, or I bet. Italian packs the guess into the verb.",
         ],
         examples: [
           { es: "Ha gli occhi rossi: sarà stanco.", en: "His eyes are red: he must be tired." },
           { es: "Il bambino piange: avrà fame.", en: "The baby's crying: he must be hungry." },
-          { es: "Il negozio è chiuso: saranno in vacanza.", en: "The shop's closed: they're probably on holiday." },
+          { es: "Il negozio è chiuso: saranno in vacanza.", en: "The store's closed: they're probably on vacation." },
           { es: "Quanto costerà quella borsa?", en: "How much can that bag cost?" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The baby's crying: he must be hungry.", answer: "Il bambino piange: avrà fame.", altAnswers: ["Il bambino piange, avrà fame.", "Il bimbo piange: avrà fame."], explanation: "Guess about now: simple future \"avrà\"." },
-          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The shop's closed: [they're probably] on holiday.", sentence: "Il negozio è chiuso: ___ in vacanza.", answer: "saranno", explanation: "Simple future for a present guess." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The store's closed: [they're probably] on vacation.", sentence: "Il negozio è chiuso: ___ in vacanza.", answer: "saranno", explanation: "Simple future for a present guess." },
         ],
       },
       {
@@ -324,7 +327,7 @@ export const IT_B1_U14: Lesson[] = [
         examples: [
           { es: "È andato a letto alle nove: sarà stato stanco.", en: "He went to bed at nine: he must have been tired." },
           { es: "Ha mangiato tutto: avrà avuto fame.", en: "She ate everything: she must have been hungry." },
-          { es: "Il negozio era chiuso: saranno stati in vacanza.", en: "The shop was closed: they must have been on holiday." },
+          { es: "Il negozio era chiuso: saranno stati in vacanza.", en: "The store was closed: they must have been on vacation." },
           { es: "Quanto sarà costata quella borsa?", en: "How much can that bag have cost?" },
         ],
         checkpoint: [
@@ -354,16 +357,16 @@ export const IT_B1_U14: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "His eyes are red: he must be tired.", answer: "Ha gli occhi rossi: sarà stanco.", altAnswers: ["Ha gli occhi rossi, sarà stanco."], explanation: "Present evidence, present guess: \"sarà\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He went to bed at nine: he must have been tired.", answer: "È andato a letto alle nove: sarà stato stanco.", altAnswers: ["È andato a letto alle nove, sarà stato stanco.", "È andato a dormire alle nove: sarà stato stanco."], explanation: "Past evidence, past guess: \"sarà stato\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She probably knows already.", answer: "Lo saprà già.", altAnswers: ["Lo saprà di sicuro.", "Probabilmente lo sa già."], explanation: "Guess about now: \"saprà\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She probably knows already.", answer: "Lo saprà già.", altAnswers: ["Probabilmente lo sa già."], explanation: "Guess about now: \"saprà\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "How much can that bag have cost?", answer: "Quanto sarà costata quella borsa?", explanation: "\"Costare\" takes \"essere\": \"sarà costata\" agrees with \"la borsa\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "What time can it be? It must be about midnight.", answer: "Che ore saranno? Sarà mezzanotte.", altAnswers: ["Che ora sarà? Sarà mezzanotte.", "Che ore saranno? Sarà circa mezzanotte."], explanation: "\"Mezzanotte\" is singular: \"sarà\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The streets are wet: [it must have rained].", sentence: "Le strade sono bagnate: ___.", answer: "avrà piovuto", altAnswers: ["sarà piovuto"], explanation: "The rain is over: future perfect." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It's cloudy: [it'll probably rain] later.", sentence: "È nuvoloso: ___ più tardi.", answer: "pioverà", explanation: "A future event, and a guess: simple future." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "She's not at her desk: [she's probably] at lunch.", sentence: "Non è alla scrivania: ___ a pranzo.", answer: "sarà", explanation: "Present guess." },
       { type: "multiple-choice", question: "Which sentence is a guess about the past?", options: ["Avranno avuto ragione.", "Avranno ragione.", "Hanno ragione.", "Avrebbero ragione."], correctIndex: 0, explanation: "\"Avranno avuto\" = they must have been right." },
-      { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "Sarà malato.", right: "He must be ill." }, { left: "Sarà stato malato.", right: "He must have been ill." }, { left: "Avrà sonno.", right: "She must be sleepy." }, { left: "Avrà dormito poco.", right: "She must have slept badly." }], explanation: "Simple future for now, future perfect for the past." },
+      { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "Sarà malato.", right: "He must be sick." }, { left: "Sarà stato malato.", right: "He must have been sick." }, { left: "Avrà sonno.", right: "She must be sleepy." }, { left: "Avrà dormito poco.", right: "She can't have slept much." }], explanation: "Simple future for now, future perfect for the past." },
       { type: "dictation", audio: "Non è venuto: sarà stato occupato.", explanation: "\"Sarà stato\": a guess about the past." },
-      { type: "speak", text: "Adesso sarà in ufficio, ma ieri sarà stato a casa malato.", prompt: "Say it in Italian: Now he's probably at the office, but yesterday he must have been at home ill.", tip: "Make the contrast audible: stress \"adesso\" and \"ieri\".", explanation: "Present guess, then past guess." },
+      { type: "speak", text: "Adesso sarà in ufficio, ma ieri sarà stato a casa malato.", prompt: "Say it in Italian: Now he's probably at the office, but yesterday he must have been home sick.", tip: "Make the contrast audible: stress \"adesso\" and \"ieri\".", explanation: "Present guess, then past guess." },
     ],
   },
   {
@@ -399,13 +402,13 @@ export const IT_B1_U14: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They must have gone to bed.", answer: "Saranno andati a letto.", altAnswers: ["Saranno andate a letto.", "Saranno andati a dormire."], explanation: "Over and done: future perfect." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You must be tired. (to a friend)", answer: "Sarai stanco.", altAnswers: ["Sarai stanca.", "Sarai stanco morto.", "Sarai stanca morta."], explanation: "Present guess: \"sarai\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You must have been tired. (to a friend)", answer: "Sarai stato stanco.", altAnswers: ["Sarai stata stanca."], explanation: "Past guess: \"sarai stato\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The parcel must have arrived.", answer: "Il pacco sarà arrivato.", altAnswers: ["Il pacco sarà già arrivato."], explanation: "\"Arrivare\" with \"essere\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The package must have arrived.", answer: "Il pacco sarà arrivato.", altAnswers: ["Il pacco sarà già arrivato."], explanation: "\"Arrivare\" with \"essere\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She must be about thirty.", answer: "Avrà trent'anni.", altAnswers: ["Avrà circa trent'anni.", "Avrà una trentina d'anni."], explanation: "Age with \"avere\", guessed with the future." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He must have read my message.", answer: "Avrà letto il mio messaggio.", altAnswers: ["Lui avrà letto il mio messaggio."], explanation: "\"Avrà letto\": past guess." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Who [can that be] at this hour?", sentence: "Chi ___ a quest'ora?", answer: "sarà", explanation: "Present guess in a question: \"chi sarà?\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Who [can have called] at this hour?", sentence: "Chi ___ a quest'ora?", answer: "avrà chiamato", altAnswers: ["avrà telefonato"], explanation: "Past guess: \"avrà chiamato\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Paolo isn't here: [he must have left] already.", sentence: "Paolo non c'è: ___ già.", answer: "sarà partito", altAnswers: ["sarà andato via", "sarà uscito", "se ne sarà andato"], explanation: "Past guess with \"essere\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The phone is off: [the battery must be] flat.", sentence: "Il telefono è spento: ___ scarica.", answer: "la batteria sarà", explanation: "Present state: \"sarà scarica\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The phone is off: [the battery must be] dead.", sentence: "Il telefono è spento: ___ scarica.", answer: "la batteria sarà", explanation: "Present state: \"sarà scarica\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The girls [must have had] a great time.", sentence: "Le ragazze ___ un sacco.", answer: "si saranno divertite", explanation: "Reflexive past guess: \"si saranno divertite\"." },
       { type: "multiple-choice", question: "There are muddy footprints on the floor. What do you say?", options: ["Qualcuno sarà entrato con le scarpe sporche.", "Qualcuno entrerà con le scarpe sporche.", "Qualcuno sarebbe entrato con le scarpe sporche.", "Qualcuno sarà entrare con le scarpe sporche."], correctIndex: 0, explanation: "A guess about something already done: \"sarà entrato\"." },
       { type: "listen-choose", audio: "Saranno state le undici.", question: "What does it mean?", options: ["It must have been about eleven.", "It must be about eleven.", "It will be eleven.", "It would have been eleven."], correctIndex: 0, explanation: "\"Saranno state\": a guess about a past time." },
@@ -448,12 +451,12 @@ export const IT_B1_U14: Lesson[] = [
         examples: [
           { es: "Entro le sei sarò andato via.", en: "By six I'll have left." },
           { es: "Cosa sarà successo?", en: "What can have happened?" },
-          { es: "Chiara sarà arrivata a casa.", en: "Chiara must have got home." },
+          { es: "Chiara sarà arrivata a casa.", en: "Chiara must have gotten home." },
           { es: "Si sarà svegliato tardi.", en: "He must have woken up late." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "A learner wrote \"Cosa avrà successo?\". Write it correctly: What can have happened?", source: "What can have happened?", answer: "Cosa sarà successo?", altAnswers: ["Che cosa sarà successo?", "Che sarà successo?", "Cosa sarà accaduto?"], explanation: "\"Succedere\" takes \"essere\"; \"avere successo\" means to be successful." },
-          { type: "fill-blank", prompt: "A learner wrote \"Chiara sarà arrivato\". Write the Italian for the bold words.", en: "Chiara [must have got] home.", sentence: "Chiara ___ a casa.", answer: "sarà arrivata", explanation: "Agreement with \"essere\": \"arrivata\"." },
+          { type: "fill-blank", prompt: "A learner wrote \"Chiara sarà arrivato\". Write the Italian for the bold words.", en: "Chiara [must have gotten] home.", sentence: "Chiara ___ a casa.", answer: "sarà arrivata", explanation: "Agreement with \"essere\": \"arrivata\"." },
         ],
       },
       {
@@ -500,19 +503,19 @@ export const IT_B1_U14: Lesson[] = [
         heading: "Nine o'clock, empty room",
         body: [
           "Monday, 9:05, in a design studio in Turin. Elena and Paolo are the only two people at the weekly meeting. Elena looks at the empty chairs: \"Ma dove sono tutti?\" (where is everyone?).",
-          "Paolo starts guessing. Listen for the two kinds of guess: about now (\"sarà in ascensore\", he's probably in the lift) and about what has already happened (\"avrà perso il treno\", she must have missed the train).",
+          "Paolo starts guessing. Listen for the two kinds of guess: about now (\"sarà in ascensore\", he's probably in the elevator) and about what has already happened (\"avrà perso il treno\", she must have missed the train).",
         ],
         examples: [
           { es: "Ma dove sono tutti?", en: "Where is everyone?" },
           { es: "Boh, Marta avrà perso il treno da Chieri.", en: "No idea, Marta must have missed the train from Chieri." },
-          { es: "E Stefano? Sarà in ascensore.", en: "And Stefano? He's probably in the lift." },
-          { es: "Figurati, sarà rimasto bloccato nel traffico.", en: "As if! He must have got stuck in traffic." },
-          { es: "Con questa pioggia, ci sarà una coda infinita.", en: "With this rain, there'll be an endless queue." },
+          { es: "E Stefano? Sarà in ascensore.", en: "And Stefano? He's probably in the elevator." },
+          { es: "Figurati, sarà rimasto bloccato nel traffico.", en: "As if! He must have gotten stuck in traffic." },
+          { es: "Con questa pioggia, ci sarà una coda infinita.", en: "With this rain, there must be an endless line of traffic." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Marta must have missed the train.", answer: "Marta avrà perso il treno.", altAnswers: ["Probabilmente Marta ha perso il treno."], explanation: "A guess about the past: future perfect \"avrà perso\"." },
-          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He [must have got stuck] in traffic.", sentence: "___ bloccato nel traffico.", answer: "Sarà rimasto", altAnswers: ["Sarà restato"], explanation: "\"Rimanere\" takes \"essere\": \"sarà rimasto\"." },
-          { type: "listen-choose", audio: "Sarà in ascensore.", question: "What does Paolo think about Stefano?", options: ["He's probably in the lift.", "He will take the lift.", "He was in the lift.", "He would be in the lift."], correctIndex: 0, explanation: "Simple future: a guess about now." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He [must have gotten stuck] in traffic.", sentence: "___ bloccato nel traffico.", answer: "Sarà rimasto", altAnswers: ["Sarà restato"], explanation: "\"Rimanere\" takes \"essere\": \"sarà rimasto\"." },
+          { type: "listen-choose", audio: "Sarà in ascensore.", question: "What does Paolo think about Stefano?", options: ["He's probably in the elevator.", "He will take the elevator.", "He was in the elevator.", "He would be in the elevator."], correctIndex: 0, explanation: "Simple future: a guess about now." },
         ],
       },
       {
@@ -553,7 +556,7 @@ export const IT_B1_U14: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Where is everyone?", answer: "Dove sono tutti?", altAnswers: ["Ma dove sono tutti?"], explanation: "\"Tutti\" (everyone) is plural in Italian: \"sono\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "With this rain, there'll be an endless queue.", answer: "Con questa pioggia, ci sarà una coda infinita.", altAnswers: ["Con questa pioggia ci sarà una coda infinita.", "Con questa pioggia, ci sarà una fila infinita."], explanation: "\"Ci sarà\": a guess about now or the near future." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "With this rain, there must be an endless line of traffic.", answer: "Con questa pioggia, ci sarà una coda infinita.", altAnswers: ["Con questa pioggia ci sarà una coda infinita.", "Con questa pioggia, ci sarà una fila infinita."], explanation: "\"Ci sarà\": a guess about now or the near future." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "See? I told you.", answer: "Visto? Te l'avevo detto.", altAnswers: ["Hai visto? Te l'avevo detto.", "Visto? Te lo avevo detto."], explanation: "\"Te l'avevo detto\": trapassato, I had told you." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "That's why there's nobody here!", answer: "Per questo non c'è nessuno!", altAnswers: ["Ecco perché non c'è nessuno!"], explanation: "\"Non ... nessuno\": double negative." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Stefano must have overslept.", answer: "Stefano si sarà svegliato tardi.", altAnswers: ["Stefano non si sarà svegliato.", "Stefano avrà dormito troppo."], explanation: "Reflexive past guess: \"si sarà svegliato\"." },
@@ -562,7 +565,7 @@ export const IT_B1_U14: Lesson[] = [
       { type: "word-order", prompt: "Put the words in order to say: As soon as we've finished, let's go for a coffee.", words: ["Appena", "avremo", "finito,", "andiamo", "a", "prendere", "un", "caffè."], translation: "As soon as we've finished, let's go for a coffee.", explanation: "Future perfect + \"andiamo\" in relaxed speech." },
       { type: "multiple-choice", question: "Marta isn't answering her phone at 9:10. What's the natural guess?", options: ["Sarà in metropolitana.", "Era in metropolitana.", "Sarebbe in metropolitana.", "È stata in metropolitana."], correctIndex: 0, explanation: "A guess about now: simple future." },
       { type: "dictation", audio: "Avrà perso il treno, come sempre.", explanation: "\"Avrà perso\": a confident guess." },
-      { type: "speak", text: "Non c'è nessuno: Marta avrà perso il treno e Stefano sarà rimasto bloccato nel traffico.", prompt: "Say it in Italian: There's nobody here: Marta must have missed the train and Stefano must have got stuck in traffic.", tip: "\"Traffico\": stress on the first syllable, TRAF-fi-co.", explanation: "Two guesses about the past." },
+      { type: "speak", text: "Non c'è nessuno: Marta avrà perso il treno e Stefano sarà rimasto bloccato nel traffico.", prompt: "Say it in Italian: There's nobody here: Marta must have missed the train and Stefano must have gotten stuck in traffic.", tip: "\"Traffico\": stress on the first syllable, TRAF-fi-co.", explanation: "Two guesses about the past." },
     ],
   },
   {
@@ -570,19 +573,19 @@ export const IT_B1_U14: Lesson[] = [
     level: "IT-B1",
     number: 9,
     title: "Reading Lab: A Small Mystery",
-    summary: "Read a short detective scene set in a Bologna bookshop and pick out the guesses in the future and future perfect.",
+    summary: "Read a short detective scene set in a Bologna bookstore and pick out the guesses in the future and future perfect.",
     duration: "18 min",
     sections: [
       {
         heading: "The missing book",
         body: [
-          "Read this original short scene. Commissario Rinaldi is called to a small antiquarian bookshop in Bologna: a rare first edition has disappeared from a locked case. The owner, the signora Gatti, is upset.",
+          "Read this original short scene. Commissario Rinaldi is called to a small antiquarian bookstore in Bologna: a rare first edition has disappeared from a locked case. The owner, the signora Gatti, is upset.",
           "Italian detective stories are full of future perfects: the detective thinks aloud, and every guess about what happened takes that tense. Read each line, then check the English.",
         ],
         examples: [
           { es: "La vetrina era chiusa a chiave, ma il libro non c'era più.", en: "The case was locked, but the book was gone." },
           { es: "\"Chi avrà avuto la chiave?\" chiese il commissario.", en: "\"Who can have had the key?\" asked the inspector." },
-          { es: "\"Solo io e il mio assistente\", rispose la signora Gatti.", en: "\"Only me and my assistant,\" Mrs Gatti answered." },
+          { es: "\"Solo io e il mio assistente\", rispose la signora Gatti.", en: "\"Only me and my assistant,\" Mrs. Gatti answered." },
           { es: "\"E dov'è adesso il suo assistente?\" \"Sarà a pranzo.\"", en: "\"And where's your assistant now?\" \"He's probably at lunch.\"" },
           { es: "Rinaldi guardò il pavimento: c'era un po' di polvere bianca.", en: "Rinaldi looked at the floor: there was a little white dust." },
         ],
@@ -611,18 +614,18 @@ export const IT_B1_U14: Lesson[] = [
       {
         heading: "The solution",
         body: [
-          "At that moment the assistant, Luca, comes back with a parcel under his arm. He's young and very thin, and there's white plaster on his sleeve. Rinaldi smiles: \"Lei avrà fatto una passeggiata interessante\" (you must have had an interesting walk).",
-          "Luca goes pale. The book is in the parcel: he wanted to sell it to a collector in Milan.",
+          "At that moment the assistant, Luca, comes back with a package under his arm. He's young and very thin, and there's white plaster on his sleeve. Rinaldi smiles: \"Lei avrà fatto una passeggiata interessante\" (you must have had an interesting walk).",
+          "Luca goes pale. The book is in the package: he wanted to sell it to a collector in Milan.",
         ],
         examples: [
-          { es: "In quel momento tornò Luca, con un pacco sotto il braccio.", en: "At that moment Luca came back, with a parcel under his arm." },
+          { es: "In quel momento tornò Luca, con un pacco sotto il braccio.", en: "At that moment Luca came back, with a package under his arm." },
           { es: "Aveva una manica sporca di gesso.", en: "One of his sleeves was covered in plaster." },
           { es: "\"Lei avrà fatto una passeggiata interessante\", sorrise Rinaldi.", en: "\"You must have had an interesting walk,\" Rinaldi smiled." },
-          { es: "Il libro era nel pacco.", en: "The book was in the parcel." },
+          { es: "Il libro era nel pacco.", en: "The book was in the package." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You must have had an interesting walk. (polite)", answer: "Lei avrà fatto una passeggiata interessante.", altAnswers: ["Avrà fatto una passeggiata interessante."], explanation: "\"Fare una passeggiata\"; a guess with the future perfect, polite \"Lei\"." },
-          { type: "listen-choose", audio: "Aveva una manica sporca di gesso.", question: "What gives Luca away?", options: ["Plaster on his sleeve", "A key in his pocket", "A torn parcel", "Dust on his shoes"], correctIndex: 0, explanation: "\"Una manica sporca di gesso\" = a sleeve dirty with plaster." },
+          { type: "listen-choose", audio: "Aveva una manica sporca di gesso.", question: "What gives Luca away?", options: ["Plaster on his sleeve", "A key in his pocket", "A torn package", "Dust on his shoes"], correctIndex: 0, explanation: "\"Una manica sporca di gesso\" = a sleeve dirty with plaster." },
         ],
       },
     ],
@@ -630,7 +633,7 @@ export const IT_B1_U14: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He must have removed the glass.", answer: "Avrà tolto il vetro.", altAnswers: ["Lui avrà tolto il vetro.", "Avrà rimosso il vetro."], explanation: "\"Togliere\" → \"tolto\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's probably plaster.", answer: "Sarà gesso.", altAnswers: ["Probabilmente è gesso."], explanation: "Guess about now: simple future." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He must have touched the wall.", answer: "Avrà toccato il muro.", altAnswers: ["Lui avrà toccato il muro.", "Avrà toccato la parete."], explanation: "\"Avrà toccato\": past guess." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The case was locked, but the book was gone.", answer: "La vetrina era chiusa a chiave, ma il libro non c'era più.", explanation: "\"Non c'era più\" = it wasn't there any more." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The case was locked, but the book was gone.", answer: "La vetrina era chiusa a chiave, ma il libro non c'era più.", explanation: "\"Non c'era più\" = it wasn't there anymore." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The thief [must have opened] the case from the inside.", sentence: "Il ladro ___ la vetrina dall'interno.", answer: "avrà aperto", explanation: "\"Aprire\" → \"aperto\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The assistant [must have sold] the book to a collector.", sentence: "L'assistente ___ il libro a un collezionista.", answer: "avrà venduto", explanation: "A guess about a past action." },
       { type: "word-order", prompt: "Put the words in order to say: It must have been someone very thin.", words: ["Sarà", "stato", "qualcuno", "molto", "magro."], translation: "It must have been someone very thin.", explanation: "\"Sarà stato\" + subject." },
@@ -652,29 +655,29 @@ export const IT_B1_U14: Lesson[] = [
       {
         heading: "The deadlines",
         body: [
-          "Your mission: your team in Milan is organising a three-day food festival, and you must send a timeline to the client. Each step has a deadline: \"Entro venerdì avremo finito la prima parte\" (by Friday we'll have finished the first part).",
+          "Your mission: your team in Milan is organizing a three-day food festival, and you must send a timeline to the client. Each step has a deadline: \"Entro venerdì avremo finito la prima parte\" (by Friday we'll have finished the first part).",
           "Use \"entro\" + date for by, and the future perfect for what will be complete: \"Entro il 15 marzo avremo prenotato la location\", \"Entro fine mese avremo contattato tutti i fornitori\" (suppliers).",
         ],
         examples: [
           { es: "Entro venerdì avremo finito la prima parte.", en: "By Friday we'll have finished the first part." },
-          { es: "Entro il 15 marzo avremo prenotato la location.", en: "By 15 March we'll have booked the venue." },
+          { es: "Entro il 15 marzo avremo prenotato la location.", en: "By March 15 we'll have booked the venue." },
           { es: "Entro fine mese avremo contattato tutti i fornitori.", en: "By the end of the month we'll have contacted all the suppliers." },
           { es: "Per aprile il grafico avrà preparato i manifesti.", en: "By April the designer will have prepared the posters." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "By 15 March we'll have booked the venue.", answer: "Entro il 15 marzo avremo prenotato la location.", altAnswers: ["Entro il 15 marzo avremo prenotato il locale.", "Per il 15 marzo avremo prenotato la location."], explanation: "Dates: \"il 15 marzo\", lower-case month; \"avremo prenotato\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "By March 15 we'll have booked the venue.", answer: "Entro il 15 marzo avremo prenotato la location.", altAnswers: ["Entro il 15 marzo avremo prenotato il locale.", "Per il 15 marzo avremo prenotato la location."], explanation: "Dates: \"il 15 marzo\", lower-case month; \"avremo prenotato\"." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "By the end of the month [we'll have contacted] all the suppliers.", sentence: "Entro fine mese ___ tutti i fornitori.", answer: "avremo contattato", altAnswers: ["noi avremo contattato"], explanation: "Single m: \"avremo\"." },
         ],
       },
       {
         heading: "The sequence",
         body: [
-          "Next, link steps that depend on each other: \"Appena avremo ricevuto il preventivo, firmeremo il contratto\" (as soon as we've received the quote, we'll sign the contract). \"Solo dopo che il Comune avrà dato il permesso, potremo montare gli stand\" (only after the council has given permission can we set up the stalls).",
+          "Next, link steps that depend on each other: \"Appena avremo ricevuto il preventivo, firmeremo il contratto\" (as soon as we've received the quote, we'll sign the contract). \"Solo dopo che il Comune avrà dato il permesso, potremo montare gli stand\" (only after the city has given permission can we set up the stalls).",
           "In a written plan, keep the careful form: future perfect + future.",
         ],
         examples: [
           { es: "Appena avremo ricevuto il preventivo, firmeremo il contratto.", en: "As soon as we've received the quote, we'll sign the contract." },
-          { es: "Solo dopo che il Comune avrà dato il permesso, potremo montare gli stand.", en: "Only after the council has given permission can we set up the stalls." },
+          { es: "Solo dopo che il Comune avrà dato il permesso, potremo montare gli stand.", en: "Only after the city has given permission can we set up the stalls." },
           { es: "Quando i fornitori avranno confermato, vi manderemo il menù.", en: "When the suppliers have confirmed, we'll send you the menu." },
           { es: "Una volta che avremo venduto cento biglietti, apriremo la seconda giornata.", en: "Once we've sold a hundred tickets, we'll open the second day." },
         ],
@@ -686,17 +689,17 @@ export const IT_B1_U14: Lesson[] = [
       {
         heading: "Risks and guesses",
         body: [
-          "End with a realistic note. Explain a delay with a guess: \"Il fornitore non ha ancora risposto: sarà in ferie\" (the supplier hasn't answered yet: he's probably on holiday), \"avrà ricevuto troppe richieste\" (he must have had too many requests).",
+          "End with a realistic note. Explain a delay with a guess: \"Il fornitore non ha ancora risposto: sarà in ferie\" (the supplier hasn't answered yet: he's probably on vacation), \"avrà ricevuto troppe richieste\" (he must have had too many requests).",
           "Close formally: \"Restiamo a disposizione per qualsiasi domanda\" (we remain available for any questions).",
         ],
         examples: [
-          { es: "Il fornitore non ha ancora risposto: sarà in ferie.", en: "The supplier hasn't answered yet: he's probably on holiday." },
+          { es: "Il fornitore non ha ancora risposto: sarà in ferie.", en: "The supplier hasn't answered yet: he's probably on vacation." },
           { es: "Avrà ricevuto troppe richieste.", en: "He must have had too many requests." },
           { es: "Entro il 20 avrà sicuramente risposto.", en: "He'll surely have answered by the 20th." },
           { es: "Restiamo a disposizione per qualsiasi domanda.", en: "We remain available for any questions." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The supplier hasn't answered yet: he's probably on holiday.", answer: "Il fornitore non ha ancora risposto: sarà in ferie.", altAnswers: ["Il fornitore non ha ancora risposto, sarà in ferie.", "Il fornitore non ha ancora risposto: sarà in vacanza."], explanation: "Present guess: \"sarà in ferie\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The supplier hasn't answered yet: he's probably on vacation.", answer: "Il fornitore non ha ancora risposto: sarà in ferie.", altAnswers: ["Il fornitore non ha ancora risposto, sarà in ferie.", "Il fornitore non ha ancora risposto: sarà in vacanza."], explanation: "Present guess: \"sarà in ferie\"." },
           { type: "multiple-choice", question: "Which closing fits a timeline sent to a client?", options: ["Restiamo a disposizione per qualsiasi domanda.", "Ci vediamo, ciao!", "Un abbraccio forte.", "Boh, vedremo."], correctIndex: 0, explanation: "A standard formal closing." },
         ],
       },
@@ -706,8 +709,8 @@ export const IT_B1_U14: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "By April the designer will have prepared the posters.", answer: "Per aprile il grafico avrà preparato i manifesti.", altAnswers: ["Entro aprile il grafico avrà preparato i manifesti.", "Entro aprile la grafica avrà preparato i manifesti."], explanation: "\"Il grafico\" = graphic designer." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "When the suppliers have confirmed, we'll send you the menu. (plural you)", answer: "Quando i fornitori avranno confermato, vi manderemo il menù.", altAnswers: ["Quando i fornitori avranno confermato, vi invieremo il menù.", "Appena i fornitori avranno confermato, vi manderemo il menù."], explanation: "\"Avranno confermato\" comes first." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He must have had too many requests.", answer: "Avrà ricevuto troppe richieste.", altAnswers: ["Avrà avuto troppe richieste."], explanation: "Past guess: future perfect." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "By 30 June the festival will have ended.", answer: "Entro il 30 giugno il festival sarà finito.", altAnswers: ["Per il 30 giugno il festival sarà finito.", "Entro il 30 giugno il festival sarà terminato."], explanation: "\"Finire\" meaning to end takes \"essere\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Only after the council [has given] permission can we set up the stalls.", sentence: "Solo dopo che il Comune ___ il permesso, potremo montare gli stand.", answer: "avrà dato", explanation: "\"Dare\" → \"dato\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "By June 30 the festival will have ended.", answer: "Entro il 30 giugno il festival sarà finito.", altAnswers: ["Per il 30 giugno il festival sarà finito.", "Entro il 30 giugno il festival sarà terminato."], explanation: "\"Finire\" meaning to end takes \"essere\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Only after the city [has given] permission can we set up the stalls.", sentence: "Solo dopo che il Comune ___ il permesso, potremo montare gli stand.", answer: "avrà dato", explanation: "\"Dare\" → \"dato\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Once [we've sold] a hundred tickets, we'll open the second day.", sentence: "Una volta che ___ cento biglietti, apriremo la seconda giornata.", answer: "avremo venduto", explanation: "Single m: \"avremo\"." },
       { type: "word-order", prompt: "Put the words in order to say: We remain available for any questions.", words: ["Restiamo", "a", "disposizione", "per", "qualsiasi", "domanda."], translation: "We remain available for any questions.", explanation: "\"Qualsiasi\" takes a singular noun." },
       { type: "multiple-choice", question: "Which sentence fits a written timeline?", options: ["Entro il 10 maggio avremo scelto il menù.", "Entro il 10 maggio avremmo scelto il menù.", "Entro il 10 maggio abbiamo scelto il menù.", "Entro il 10 maggio sceglieremmo il menù."], correctIndex: 0, explanation: "A deadline: future perfect, single m." },
@@ -719,7 +722,7 @@ export const IT_B1_U14: Lesson[] = [
 
 export const IT_B1_U14_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You're organising a surprise party for your friend Giorgio's fortieth birthday with three other friends. Write a message to the group: say what will have been done by certain dates, what will happen when each step is finished, and guess why one friend, Silvia, hasn't answered yet.",
+  prompt: "You're organizing a surprise party for your friend Giorgio's fortieth birthday with three other friends. Write a message to the group: say what will have been done by certain dates, what will happen when each step is finished, and guess why one friend, Silvia, hasn't answered yet.",
   minWords: 80,
   maxWords: 150,
   rubric: [

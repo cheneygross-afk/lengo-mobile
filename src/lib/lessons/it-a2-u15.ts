@@ -289,7 +289,7 @@ export const IT_A2_U15: Lesson[] = [
       { type: "word-order", prompt: "Put the words in order to say: No, I haven't got it.", words: ["No,", "non", "ce", "l'ho."], translation: "No, I haven't got it.", explanation: "\"Non ce l'ho\"." },
       { type: "multiple-choice", question: "\"Hai le chiavi della macchina?\" Which is the natural yes?", options: ["Sì, ce le ho.", "Sì, le ho ci.", "Sì, ce l'ho le.", "Sì, ne ho."], correctIndex: 0, explanation: "\"Le chiavi\" → \"ce le ho\"." },
       { type: "dictation", audio: "Ce l'hai il biglietto? Sì, ce l'ho.", explanation: "Say and write \"ce l'hai\", \"ce l'ho\"." },
-      { type: "speak", text: "Le chiavi? Ce le ho io. Il biglietto, invece, non ce l'ho!", prompt: "Say it in Italian: The keys? I've got them. The ticket, on the other hand, I haven't got!", tip: "\"Ce l'ho\" sounds like one word: chel-LÒ.", explanation: "\"Ce le ho\" and \"non ce l'ho\"." },
+      { type: "speak", text: "Le chiavi? Ce le ho io. Il biglietto, invece, non ce l'ho!", prompt: "Say it in Italian: The keys? I've got them. The ticket, on the other hand, I haven't got!", tip: "\"Ce l'ho\" sounds like one word: che-LÒ.", explanation: "\"Ce le ho\" and \"non ce l'ho\"." },
     ],
   },
   {
@@ -352,7 +352,7 @@ export const IT_A2_U15: Lesson[] = [
         heading: "Who takes the time?",
         body: [
           "Ask yourself whether a person is doing the taking. If the sentence is general (it takes an hour, you need three eggs), use \"volerci\", which agrees with the thing: \"ci vuole un'ora\", \"ci vogliono tre uova\". If a person takes the time, use \"metterci\", which agrees with the person: \"ci metto un'ora\", \"ci mettiamo un'ora\".",
-          "So \"Ci vuole un'ora per andare a Firenze\" is a fact about the journey; \"Ci metto un'ora\" is about me. Never \"ci voglio un'ora\": that would mean I want myself there for an hour.",
+          "So \"Ci vuole un'ora per andare a Firenze\" is a fact about the journey; \"Ci metto un'ora\" is about me. Never \"ci voglio un'ora\": \"voglio\" is I want, not it takes.",
         ],
         examples: [
           { es: "Ci vuole un'ora per andare a Firenze.", en: "It takes an hour to get to Florence." },
@@ -364,7 +364,7 @@ export const IT_A2_U15: Lesson[] = [
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It takes me an hour and a half.", answer: "Ci metto un'ora e mezza.", altAnswers: ["Io ci metto un'ora e mezza."], explanation: "A person takes the time: \"metterci\"." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It takes an hour to get to Florence.", answer: "Ci vuole un'ora per andare a Firenze.", altAnswers: ["Per andare a Firenze ci vuole un'ora."], explanation: "General fact: \"volerci\"." },
-          { type: "multiple-choice", question: "My grandmother takes two minutes to make pasta.", options: ["Mia nonna ci mette due minuti a fare la pasta.", "A mia nonna ci vogliono due minuti a fare la pasta.", "Mia nonna ci vuole due minuti a fare la pasta.", "Mia nonna mette due minuti a fare la pasta."], correctIndex: 0, explanation: "Personal subject \"mia nonna\" → \"ci mette\"." },
+          { type: "multiple-choice", question: "My grandmother takes two minutes to make pasta.", options: ["Mia nonna ci mette due minuti a fare la pasta.", "Mia nonna ci mettono due minuti a fare la pasta.", "Mia nonna ci vuole due minuti a fare la pasta.", "Mia nonna mette due minuti a fare la pasta."], correctIndex: 0, explanation: "Personal subject \"mia nonna\" → \"ci mette\"." },
         ],
       },
       {
@@ -529,8 +529,8 @@ export const IT_A2_U15: Lesson[] = [
       {
         heading: "Small words, run together",
         body: [
-          "In fast speech \"ci\" and \"ce\" melt into the next word. \"Ce l'ho\" sounds like one word with a long l; \"ce l'hai?\" like one word rising at the end. \"Non ce l'ho\" becomes non-cel-LÒ. \"Ci\" before a vowel loses its i in writing only before e: \"c'è\", \"c'era\", \"c'entra\"; before other vowels it's written in full: \"ci abito\", \"ci andiamo\".",
-          "Listen for the long l: it's the only sign that tells \"ce l'ho\" (I've got it) from \"ce lo\" + something else, or from \"c'è\".",
+          "In fast speech \"ci\" and \"ce\" melt into the next word. \"Ce l'ho\" sounds like one word stressed on the last syllable (che-LÒ); \"ce l'hai?\" like one word rising at the end. \"Non ce l'ho\" becomes non-che-LÒ. \"Ci\" before a vowel loses its i in writing only before e: \"c'è\", \"c'era\", \"c'entra\"; before other vowels it's written in full: \"ci abito\", \"ci andiamo\".",
+          "Listen for the strong final ò: it tells \"ce l'ho\" (I've got it) apart from \"c'è\" and from \"ce lo\" + another verb.",
         ],
         examples: [
           { es: "Ce l'hai? Sì, ce l'ho.", en: "Have you got it? Yes, I have." },

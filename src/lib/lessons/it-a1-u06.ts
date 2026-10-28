@@ -251,8 +251,8 @@ export const IT_A1_U06: Lesson[] = [
       { type: "dictation", audio: "Capisci? Sì, capisco.", explanation: "\"Capisci\" [sh], \"capisco\" [sk]." },
       {
         type: "speak",
-        text: "Scusi, non capisco. Preferisco parlare piano.",
-        prompt: "Say it in Italian: Excuse me, I don't understand. I prefer to speak slowly.",
+        text: "Scusi, non capisco. Preferisco parlare inglese.",
+        prompt: "Say it in Italian: Excuse me, I don't understand. I prefer to speak English.",
         tip: "ca-PI-sco with [sk]; pre-fe-RI-sco too.",
         explanation: "Two -isc- verbs in the io form.",
       },

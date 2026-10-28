@@ -37,7 +37,7 @@ export const IT_C2_U02: Lesson[] = [
         heading: "Erano i capei d'oro",
         body: [
           "Sonnet 90 remembers Laura as she was: \"Erano i capei d'oro a l'aura sparsi / che 'n mille dolci nodi gli avolgea, / e 'l vago lume oltra misura ardea / di quei begli occhi, ch'or ne son sì scarsi\". Her golden hair was loose in the breeze, which wound it into a thousand sweet knots, and the lovely light of those eyes, now so sparing of it, burned beyond measure.",
-          "Notes: \"capei\" is \"capelli\"; \"l'aura\" (the breeze) puns on \"Laura\", one of Petrarca's favourite games, along with \"lauro\" (laurel, the poet's crown) and \"l'auro\" (gold). \"Avolgea\" is \"avvolgeva\" with a single v and no v in the ending; \"vago\" means lovely, not vague; \"oltra misura\" is \"oltre misura\". \"Ne son sì scarsi\" means they are now so sparing of it: Laura has aged, or is dead.",
+          "Notes: \"capei\" is \"capelli\"; \"l'aura\" (the breeze) puns on \"Laura\", one of Petrarca's favorite games, along with \"lauro\" (laurel, the poet's crown) and \"l'auro\" (gold). \"Avolgea\" is \"avvolgeva\" with a single v and no v in the ending; \"vago\" means lovely, not vague; \"oltra misura\" is \"oltre misura\". \"Ne son sì scarsi\" means they are now so sparing of it: Laura has aged, or is dead.",
           "The second quatrain admits the doubt: \"non so se vero o falso, mi parea\" (I don't know if true or false, it seemed to me), and the question \"qual meraviglia se di subito arsi?\" (what wonder if I burned at once?). \"Arsi\" is the passato remoto of \"ardere\": I burned. Love as fire, the lover as the tinder (\"l'esca amorosa\"), is the core metaphor of the whole tradition.",
         ],
         examples: [
@@ -134,8 +134,8 @@ export const IT_C2_U02: Lesson[] = [
       {
         heading: "Anti-Petrarchism",
         body: [
-          "A fashion invites parody. In the sixteenth century Francesco Berni mocked the conventions by turning them upside down: his lady has silver hair, crooked teeth, ebony skin where it should be ivory. The genre is called \"antipetrarchismo\" and its tool is the \"rovesciamento\" (reversal) of each cliché. English readers know the same move from Shakespeare's sonnet about his mistress's eyes, which are nothing like the sun.",
-          "Writing a parody is a useful exercise: you must know the code perfectly to break it. Try with the clichés: \"capelli d'oro\" → \"capelli d'argento\", \"denti di perle\" → \"denti radi\", \"occhi come stelle\" → \"occhi come due bottoni\". The humour lies in keeping the solemn metre and syntax while the content collapses.",
+          "A fashion invites parody. In the sixteenth century Francesco Berni mocked the conventions by turning them upside down in the sonnet \"Chiome d'argento fino, irte e attorte\": his lady has silver hair, bristly and twisted, eyes of pearl instead of teeth of pearl, and teeth of ebony, few and far between. The genre is called \"antipetrarchismo\" and its tool is the \"rovesciamento\" (reversal) of each cliché. English readers know the same move from Shakespeare's sonnet about his mistress's eyes, which are nothing like the sun.",
+          "Writing a parody is a useful exercise: you must know the code perfectly to break it. Try with the clichés: \"capelli d'oro\" → \"capelli d'argento\", \"denti di perle\" → \"denti radi\", \"occhi come stelle\" → \"occhi come due bottoni\". The humor lies in keeping the solemn meter and syntax while the content collapses.",
         ],
         examples: [
           { es: "Berni rovescia i luoghi comuni del petrarchismo.", en: "Berni turns the commonplaces of Petrarchism upside down." },
@@ -194,12 +194,12 @@ export const IT_C2_U02: Lesson[] = [
         heading: "Chichibio and the crane",
         body: [
           "Day VI, novella 4. Currado Gianfigliazzi, a noble Florentine fond of hunting, kills a crane and gives it to his Venetian cook, Chichibio, to roast. A local girl, Brunetta, smells it and begs for a leg; Chichibio, in love, refuses in his Venetian Italian (\"Voi non l'avrì da mi, donna Brunetta, voi non l'avrì da mi\") and then gives in. At dinner Currado asks where the other leg is. Chichibio answers: \"Messer, le gru non hanno se non una coscia e una gamba.\"",
-          "Currado, furious, promises to check the next morning. At the river the cranes are all standing on one leg, as cranes sleep. Chichibio points: you see, sir? Currado shouts \"ho, ho!\", the birds put down their other leg and fly off. Chichibio, desperate, finds the reply that saves him: last night, sir, you didn't shout \"ho, ho!\" at the one on the plate, or it would have put out its other leg too. Currado laughs, and the anger turns to good humour.",
+          "Currado, furious, promises to check the next morning. At the river the cranes are all standing on one leg, as cranes sleep. Chichibio points: you see, sir? Currado shouts \"ho, ho!\", the birds put down their other leg and fly off. Chichibio, desperate, finds the reply that saves him: last night, sir, you didn't shout \"ho, ho!\" at the one on the plate, or it would have put out its other leg too. Currado laughs, and the anger turns to good humor.",
           "This is the \"motto\": a quick, witty reply that turns a dangerous situation. The novella mixes Florentine narration, Venetian dialogue and the cook's ingenious logic: it is a miniature comedy of language.",
         ],
         examples: [
           { es: "Messer, le gru non hanno se non una coscia e una gamba.", en: "Sir, cranes have only one thigh and one leg." },
-          { es: "Voi non l'avrì da mi, donna Brunetta.", en: "You won't get it from me, Lady Brunetta. (Venetian-coloured speech)" },
+          { es: "Voi non l'avrì da mi, donna Brunetta.", en: "You won't get it from me, Lady Brunetta. (Venetian-colored speech)" },
           { es: "Le gru dormono su una zampa sola.", en: "Cranes sleep on one leg." },
           { es: "Con una battuta pronta Chichibio si salva.", en: "With a quick reply Chichibio saves himself." },
           { es: "L'ira di Currado si trasforma in riso.", en: "Currado's anger turns into laughter." },
@@ -214,7 +214,7 @@ export const IT_C2_U02: Lesson[] = [
         heading: "Why Boccaccio matters",
         body: [
           "The Decameron is the founding text of Italian prose, as the Commedia is of verse. Bembo, in 1525, proposed Boccaccio's narrative prose (not his dialogue) as the model for written Italian, and for three centuries Italian prose writers imitated his long periods. Its world is new too: merchants, cooks, friars, clever women and gullible painters, all moved by \"Fortuna\", \"Amore\" and \"Ingegno\" (wit) rather than by divine plan.",
-          "The book's influence crossed Europe: Chaucer borrowed its stories, and the \"novella\" became a genre. In modern Italian \"boccaccesco\" means bawdy, after the most licentious tales, which is unfair to a book that also contains Griselda's patience and Federigo's sacrifice. Use it with care: \"una scena boccaccesca\" is risqué.",
+          "The book's influence crossed Europe: Chaucer retold several of its plots (though his Griselda came through Petrarca's Latin version, and whether he read the Decameron itself is debated), and the \"novella\" became a genre. In modern Italian \"boccaccesco\" means bawdy, after the most licentious tales, which is unfair to a book that also contains Griselda's patience and Federigo's sacrifice. Use it with care: \"una scena boccaccesca\" is risqué.",
         ],
         examples: [
           { es: "Il Decameron è il testo fondativo della prosa italiana.", en: "The Decameron is the founding text of Italian prose." },
@@ -254,7 +254,7 @@ export const IT_C2_U02: Lesson[] = [
       {
         heading: "The verb at the end",
         body: [
-          "Boccaccio modelled his prose on Latin, especially Cicero and Livy, and the most visible effect is word order. The verb, or the participle that completes it, slides to the end of its clause, after objects and complements: \"Umana cosa è aver compassione degli afflitti\", \"la mortifera pestilenza pervenne\". Adjectives and participles come before the words they govern: \"al numero pervenuti di milletrecentoquarantotto\" means \"pervenuti al numero di 1348\" (having reached the number 1348).",
+          "Boccaccio modeled his prose on Latin, especially Cicero and Livy, and the most visible effect is word order. The verb, or the participle that completes it, slides to the end of its clause, after objects and complements: \"Umana cosa è aver compassione degli afflitti\", \"la mortifera pestilenza pervenne\". Adjectives and participles come before the words they govern: \"al numero pervenuti di milletrecentoquarantotto\" means \"pervenuti al numero di 1348\" (having reached the number 1348).",
           "Read the introduction to the First Day: \"Dico adunque che già erano gli anni della fruttifera incarnazione del Figliuolo di Dio al numero pervenuti di milletrecentoquarantotto, quando nella egregia città di Fiorenza, oltre a ogn'altra italica bellissima, pervenne la mortifera pestilenza.\" Modern order: \"Dico dunque che gli anni dall'incarnazione del Figlio di Dio erano già arrivati a 1348 quando nella splendida città di Firenze, più bella di ogni altra città italiana, arrivò la peste mortale.\"",
           "Notice \"adunque\" (dunque), \"Fiorenza\" (Firenze), \"egregia\" (excellent, not egregious: an Italian false friend still today, \"egregio signore\"), and the superlative \"bellissima\" governing \"oltre a ogn'altra\": most beautiful beyond every other.",
         ],
@@ -275,25 +275,25 @@ export const IT_C2_U02: Lesson[] = [
         body: [
           "A Boccaccian \"periodo\" is a single sentence that can fill half a page. Around one main clause it hangs participles, gerunds and relative clauses, often in this order: background (gerund or absolute participle), then the main event, then consequences. A sentence in his style: \"Il giovane, veduta la donna e di lei fieramente innamoratosi, non sapendo che fare, a un suo amico, il quale molto savio era, ogni cosa raccontò.\"",
           "To read it, strip it down. Main clause: \"Il giovane ... a un suo amico ... ogni cosa raccontò\" (the young man told everything to a friend). The rest is background: \"veduta la donna\" (having seen the lady), \"innamoratosi\" (having fallen in love), \"non sapendo che fare\" (not knowing what to do), \"il quale molto savio era\" (who was very wise). Note the verb at the end of each piece.",
-          "Boccaccio's favourite links are \"il quale\" / \"la quale\" (who, which, more frequent than \"che\"), \"per che\" (so, therefore), \"laonde\" (wherefore) and the famous \"conciosiacosaché\" (since, given that), which Italians quote today as a joke for pompous prose.",
+          "Boccaccio's favorite links are \"il quale\" / \"la quale\" (who, which, more frequent than \"che\"), \"per che\" (so, therefore), \"laonde\" (wherefore) and the famous \"conciossiacosaché\" (since, given that; Boccaccio wrote it in separate pieces, \"con ciò sia cosa che\"), which Italians quote today as a joke for pompous prose.",
         ],
         examples: [
           { es: "Il giovane, veduta la donna e di lei innamoratosi, ogni cosa all'amico raccontò.", en: "The young man, having seen the lady and fallen in love with her, told his friend everything. (in Boccaccio's style)" },
           { es: "Il giovane vide la donna e se ne innamorò; poi raccontò tutto all'amico.", en: "The young man saw the lady and fell in love with her; then he told his friend everything. (modern)" },
           { es: "Non sapendo che fare, chiese consiglio a un amico molto saggio.", en: "Not knowing what to do, he asked a very wise friend for advice." },
-          { es: "Conciosiacosaché il tempo stringa, sarò breve.", en: "Since time is short, I'll be brief. (mock-pompous)" },
+          { es: "Conciossiacosaché il tempo stringa, sarò breve.", en: "Since time is short, I'll be brief. (mock-pompous)" },
           { es: "Il mercante, il quale molto ricco era, partì per Napoli.", en: "The merchant, who was very rich, left for Naples. (in Boccaccio's style)" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Not knowing what to do, he asked a wise friend for advice.", answer: "Non sapendo che fare, chiese consiglio a un amico saggio.", altAnswers: ["Non sapendo cosa fare, chiese consiglio a un amico saggio.", "Non sapendo che cosa fare, chiese consiglio a un amico saggio.", "Non sapendo che fare, ha chiesto consiglio a un amico saggio."], explanation: "The gerund \"non sapendo\" gives the background; the main verb follows." },
-          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The merchant, [who] was very rich, left for Naples.", sentence: "Il mercante, ___ era molto ricco, partì per Napoli.", answer: "il quale", altAnswers: ["che"], explanation: "\"Il quale\" is Boccaccio's favourite relative; modern prose prefers \"che\"." },
-          { type: "listen-choose", audio: "Conciosiacosaché il tempo stringa, sarò breve.", question: "What is the effect of \"conciosiacosaché\" today?", options: ["Mock-pompous, a joke about old-fashioned prose", "Neutral and common", "Rude", "Technical legal language"], correctIndex: 0, explanation: "Boccaccio's long conjunction survives as a parody of stiff style." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The merchant, [who] was very rich, left for Naples.", sentence: "Il mercante, ___ era molto ricco, partì per Napoli.", answer: "il quale", altAnswers: ["che"], explanation: "\"Il quale\" is Boccaccio's favorite relative; modern prose prefers \"che\"." },
+          { type: "listen-choose", audio: "Conciossiacosaché il tempo stringa, sarò breve.", question: "What is the effect of \"conciossiacosaché\" today?", options: ["Mock-pompous, a joke about old-fashioned prose", "Neutral and common", "Rude", "Technical legal language"], correctIndex: 0, explanation: "Boccaccio's long conjunction survives as a parody of stiff style." },
         ],
       },
       {
         heading: "From period to modern prose",
         body: [
-          "Modern Italian prefers shorter sentences, subject-verb-object order and explicit connectors. To modernise a Boccaccian period: find the main verb and its subject; turn absolute participles and gerunds into finite clauses (\"veduta la donna\" → \"quando vide la donna\" or \"dopo aver visto la donna\"); move verbs back to the middle; and split the period at natural pauses.",
+          "Modern Italian prefers shorter sentences, subject-verb-object order and explicit connectors. To modernize a Boccaccian period: find the main verb and its subject; turn absolute participles and gerunds into finite clauses (\"veduta la donna\" → \"quando vide la donna\" or \"dopo aver visto la donna\"); move verbs back to the middle; and split the period at natural pauses.",
           "Keep what is still alive. Absolute participles are standard in formal modern prose (\"finita la cena\", \"presa la decisione\"), and gerunds of background are everywhere. What has gone is the verb-final order and the piling of four or five subordinates before the main clause. A good modern version keeps one or two of Boccaccio's subordinate clauses and lets the rest become new sentences.",
         ],
         examples: [
@@ -313,7 +313,7 @@ export const IT_C2_U02: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "After hearing the story, the queen laughed.", answer: "Dopo aver ascoltato la storia, la regina rise.", altAnswers: ["Dopo aver sentito la storia, la regina rise.", "Dopo avere ascoltato la storia, la regina rise.", "Dopo aver ascoltato la novella, la regina rise.", "Ascoltata la storia, la regina rise."], explanation: "\"Dopo\" + past infinitive; \"rise\" is the \"passato remoto\" of \"ridere\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "When he saw the lady, he fell madly in love with her.", answer: "Quando vide la donna, se ne innamorò perdutamente.", altAnswers: ["Quando vide la donna, si innamorò perdutamente di lei.", "Appena vide la donna, se ne innamorò perdutamente.", "Quando ha visto la donna, se ne è innamorato perdutamente."], explanation: "\"Innamorarsi di\" → \"innamorarsene\": \"ne\" replaces \"di lei\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Dinner over, the group went to rest.", answer: "Finita la cena, la brigata andò a riposare.", altAnswers: ["Finita la cena, la brigata andò a riposarsi.", "Finita la cena, il gruppo andò a riposare.", "Dopo cena, la brigata andò a riposare."], explanation: "The absolute participle is alive in modern formal prose." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Boccaccio modelled his prose on Latin.", answer: "Boccaccio modellò la sua prosa sul latino.", altAnswers: ["Boccaccio ha modellato la sua prosa sul latino.", "Boccaccio modellò la propria prosa sul latino."], explanation: "\"Modellare su\" = to model on." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Boccaccio modeled his prose on Latin.", answer: "Boccaccio modellò la sua prosa sul latino.", altAnswers: ["Boccaccio ha modellato la sua prosa sul latino.", "Boccaccio modellò la propria prosa sul latino."], explanation: "\"Modellare su\" = to model on." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The young man told [everything] to a friend.", sentence: "Il giovane raccontò ___ a un amico.", answer: "tutto", altAnswers: ["ogni cosa"], explanation: "Boccaccio's \"ogni cosa\" = modern \"tutto\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I say [then] that the plague arrived in 1348.", sentence: "Dico ___ che la peste arrivò nel 1348.", answer: "dunque", altAnswers: ["quindi", "adunque"], explanation: "\"Adunque\" → \"dunque\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Not knowing] what to do, he wept.", sentence: "___ che fare, pianse.", answer: "Non sapendo", explanation: "Gerund of background, before the main verb." },
@@ -328,7 +328,7 @@ export const IT_C2_U02: Lesson[] = [
     level: "IT-C2",
     number: 5,
     title: "Drill: Trecento Reading",
-    summary: "Recognise and render the recurring words of Trecento prose and verse, fast.",
+    summary: "Recognize and render the recurring words of Trecento prose and verse, fast.",
     duration: "25 min",
     kind: "drill",
     sections: [
@@ -351,7 +351,7 @@ export const IT_C2_U02: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Not long after, the lady died.", answer: "Poco dopo, la donna morì.", altAnswers: ["Poco tempo dopo, la donna morì.", "Non molto dopo, la donna morì.", "Poco dopo la donna morì."], explanation: "\"Non guari\" → \"poco\", \"non molto\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The servant brought the letter.", answer: "Il servo portò la lettera.", altAnswers: ["Il servitore portò la lettera.", "Il domestico portò la lettera.", "Il servo ha portato la lettera."], explanation: "\"Fante\" (servant) survives only in cards (the jack) and \"fanteria\" (infantry)." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The servant brought the letter.", answer: "Il servo portò la lettera.", altAnswers: ["Il servitore portò la lettera.", "Il domestico portò la lettera.", "Il servo ha portato la lettera."], explanation: "\"Fante\" (servant) survives today as the jack in a deck of cards and as the infantryman (\"il fante\", \"la fanteria\")." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The friend was very wise.", answer: "L'amico era molto saggio.", altAnswers: ["L'amico era assai saggio.", "L'amico era saggissimo."], explanation: "\"Savio\" → \"saggio\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They played a prank on Calandrino.", answer: "Fecero una beffa a Calandrino.", altAnswers: ["Fecero uno scherzo a Calandrino.", "Hanno fatto uno scherzo a Calandrino.", "Giocarono un tiro a Calandrino."], explanation: "\"Beffa\" is the Decameron's word for a trick; \"fare una beffa a\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She was graceful and lovely.", answer: "Era leggiadra e graziosa.", altAnswers: ["Era leggiadra e vaga.", "Era aggraziata e graziosa.", "Era elegante e graziosa."], explanation: "\"Leggiadro\" and \"vago\": two pillars of the lyric vocabulary." },
@@ -381,7 +381,7 @@ export const IT_C2_U02: Lesson[] = [
         body: [
           "Decameron V, 9. Federigo degli Alberighi, a young Florentine noble, loves Monna Giovanna, a married woman, and spends his whole fortune on tournaments and feasts to win her. She ignores him. Ruined, he retires to a small farm at Campi with only one treasure: a magnificent falcon. Giovanna is widowed and spends the summer nearby with her young son, who grows fond of the falcon. The boy falls ill and asks for it: if he had it, he says, he would get better.",
           "Giovanna goes to Federigo's house to ask for the bird. Federigo, who has no food to offer her, kills the falcon and serves it to her for lunch. When she finally asks for it, he weeps and shows her the feathers. The boy dies soon after. Moved by such generosity, Giovanna marries Federigo, who, says Boccaccio, manages his money better from then on.",
-          "The novella is a lesson in \"cortesia\" and \"magnanimità\", and in narrative economy: everything turns on one object, the falcon, which the critic Paul Heyse later called the \"falcon\" of every good short story, the concrete thing that carries the plot.",
+          "The novella is a lesson in \"cortesia\" and \"magnanimità\", and in narrative economy: everything turns on one object, the falcon, which inspired the German novelist Paul Heyse's \"falcon theory\" (1871): every good short story needs its \"falcon\", the concrete thing that carries the plot.",
         ],
         examples: [
           { es: "Federigo spende tutto il suo patrimonio per conquistare Giovanna.", en: "Federigo spends his whole fortune to win Giovanna." },
@@ -417,14 +417,14 @@ export const IT_C2_U02: Lesson[] = [
       {
         heading: "Dialogue and rhythm",
         body: [
-          "Boccaccio reports much of his dialogue indirectly, in long periods. A modern retelling gains life by turning the key moments into direct speech, punctuated with « » or dashes: «Madonna, non posso darvi il falcone: l'avete mangiato a pranzo.» Keep direct speech for the turning point; summarise the rest.",
+          "Boccaccio reports much of his dialogue indirectly, in long periods. A modern retelling gains life by turning the key moments into direct speech, punctuated with « » or dashes: «Madonna, non posso darvi il falcone: l'avete mangiato a pranzo.» Keep direct speech for the turning point; summarize the rest.",
           "Use narrative connectors to mark the steps: \"un giorno\", \"intanto\", \"a un certo punto\", \"nel frattempo\", \"quando finalmente\", \"poco dopo\", \"alla fine\". And preserve the irony of the last line: Federigo becomes \"miglior massaio\" (a better manager of his household). A modern version might say \"e da allora imparò a gestire meglio i suoi soldi\".",
         ],
         examples: [
           { es: "«Madonna, non posso darvi il falcone: l'avete mangiato a pranzo.»", en: "'My lady, I can't give you the falcon: you ate it for lunch.'" },
           { es: "A un certo punto Giovanna trova il coraggio di chiederglielo.", en: "At a certain point Giovanna finds the courage to ask him for it." },
           { es: "Nel frattempo il ragazzo peggiora.", en: "Meanwhile the boy gets worse." },
-          { es: "Da allora imparò a gestire meglio i suoi soldi.", en: "From then on he learnt to manage his money better." },
+          { es: "Da allora imparò a gestire meglio i suoi soldi.", en: "From then on he learned to manage his money better." },
           { es: "Federigo scoppia in lacrime e le mostra le penne.", en: "Federigo bursts into tears and shows her the feathers." },
         ],
         checkpoint: [
@@ -441,10 +441,10 @@ export const IT_C2_U02: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Federigo [spends] his whole fortune to win her.", sentence: "Federigo ___ tutto il suo patrimonio per conquistarla.", answer: "spende", altAnswers: ["sperpera", "dilapida"], explanation: "\"Patrimonio\" = fortune, estate, not just heritage." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[At a certain point] she finds the courage to ask.", sentence: "___ trova il coraggio di chiedere.", answer: "A un certo punto", altAnswers: ["Ad un certo punto"], explanation: "A key narrative connector." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "She didn't know she [would marry] him.", sentence: "Non sapeva che lo ___.", answer: "avrebbe sposato", explanation: "Future in the past: conditional perfect." },
-      { type: "word-order", prompt: "Put the words in order to say: From then on he learnt to manage his money better.", words: ["Da", "allora", "imparò", "a gestire", "meglio", "i suoi soldi."], translation: "From then on he learnt to manage his money better.", explanation: "\"Imparare a\" + infinitive." },
+      { type: "word-order", prompt: "Put the words in order to say: From then on he learned to manage his money better.", words: ["Da", "allora", "imparò", "a gestire", "meglio", "i suoi soldi."], translation: "From then on he learned to manage his money better.", explanation: "\"Imparare a\" + infinitive." },
       { type: "multiple-choice", question: "Which retelling sounds like a friend telling the story at dinner?", options: ["Federigo ha speso tutto e poi ha cucinato il falcone.", "Federigo spese tutto e poi cucinò il falcone.", "Federigo spende tutto e poi cucina il falcone.", "Federigo aveva speso tutto e cucinava il falcone."], correctIndex: 0, explanation: "The \"passato prossimo\" is the conversational past." },
       { type: "listen-choose", audio: "Madonna, non posso darvi il falcone: l'avete mangiato a pranzo.", question: "Why can't Federigo give her the falcon?", options: ["She has just eaten it.", "It flew away.", "He sold it.", "Her son has it."], correctIndex: 0, explanation: "The turning point of the novella, in direct speech." },
-      { type: "speak", text: "Federigo, ridotto in povertà, cucina il suo unico falcone per Giovanna. Alla fine lei lo sposa.", prompt: "Summarise the story aloud in the present: Federigo, reduced to poverty, cooks his only falcon for Giovanna. In the end she marries him.", tip: "\"Falcone\": fal-CO-ne; keep the present tense throughout.", explanation: "A two-sentence plot summary in the present frame." },
+      { type: "speak", text: "Federigo, ridotto in povertà, cucina il suo unico falcone per Giovanna. Alla fine lei lo sposa.", prompt: "Summarize the story aloud in the present: Federigo, reduced to poverty, cooks his only falcon for Giovanna. In the end she marries him.", tip: "\"Falcone\": fal-CO-ne; keep the present tense throughout.", explanation: "A two-sentence plot summary in the present frame." },
     ],
   },
   {
@@ -452,7 +452,7 @@ export const IT_C2_U02: Lesson[] = [
     level: "IT-C2",
     number: 7,
     title: "Writing About Petrarca",
-    summary: "Write a commentary on a Petrarca sonnet: describe its metre and rhymes, name its figures and interpret its treatment of time and memory.",
+    summary: "Write a commentary on a Petrarca sonnet: describe its meter and rhymes, name its figures and interpret its treatment of time and memory.",
     duration: "19 min",
     sections: [
       {
@@ -561,7 +561,7 @@ export const IT_C2_U02: Lesson[] = [
         examples: [
           { es: "Currado, il quale era nobile e magnifico, sempre di cani e d'uccelli si dilettava.", en: "Currado, who was noble and generous, always delighted in dogs and birds. (in Boccaccio's style)" },
           { es: "La donna, udito questo, tutta lieta a casa se ne tornò.", en: "The lady, having heard this, went home overjoyed. (in Boccaccio's style)" },
-          { es: "Il cuoco, veggendo la gru così grassa, a una vicina ne diede una coscia.", en: "The cook, seeing the crane so plump, gave a thigh of it to a neighbour. (in Boccaccio's style)" },
+          { es: "Il cuoco, veggendo la gru così grassa, a una vicina ne diede una coscia.", en: "The cook, seeing the crane so plump, gave a thigh of it to a neighbor. (in Boccaccio's style)" },
           { es: "Prima ascolta il soggetto, poi aspetta il verbo.", en: "First listen for the subject, then wait for the verb." },
         ],
         checkpoint: [
@@ -572,10 +572,10 @@ export const IT_C2_U02: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "listen-choose", audio: "Il cuoco, veggendo la gru così grassa, a una vicina ne diede una coscia.", question: "Who received the thigh?", options: ["a neighbour", "the master", "the cook himself", "a hunter"], correctIndex: 0, explanation: "\"A una vicina ne diede una coscia\": \"ne\" = of the crane." },
-      { type: "listen-choose", audio: "Currado, il quale era nobile e magnifico, sempre di cani e d'uccelli si dilettava.", question: "What did Currado enjoy?", options: ["hunting with dogs and birds", "cooking", "music", "travelling"], correctIndex: 0, explanation: "\"Dilettarsi di\" = to take delight in." },
-      { type: "listen-choose", audio: "E primavera candida e vermiglia.", question: "Which colours describe spring?", options: ["white and crimson", "green and gold", "blue and white", "black and red"], correctIndex: 0, explanation: "\"Candida\" = pure white; \"vermiglia\" = vermilion, crimson." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Seeing the crane so plump, the cook gave a thigh to a neighbour.", answer: "Vedendo la gru così grassa, il cuoco ne diede una coscia a una vicina.", altAnswers: ["Vedendo la gru così grassa, il cuoco diede una coscia a una vicina.", "Vedendo che la gru era così grassa, il cuoco ne diede una coscia a una vicina.", "Visto che la gru era così grassa, il cuoco ne diede una coscia a una vicina."], explanation: "\"Veggendo\" → \"vedendo\"; \"ne\" = of it." },
+      { type: "listen-choose", audio: "Il cuoco, veggendo la gru così grassa, a una vicina ne diede una coscia.", question: "Who received the thigh?", options: ["a neighbor", "the master", "the cook himself", "a hunter"], correctIndex: 0, explanation: "\"A una vicina ne diede una coscia\": \"ne\" = of the crane." },
+      { type: "listen-choose", audio: "Currado, il quale era nobile e magnifico, sempre di cani e d'uccelli si dilettava.", question: "What did Currado enjoy?", options: ["hunting with dogs and birds", "cooking", "music", "traveling"], correctIndex: 0, explanation: "\"Dilettarsi di\" = to take delight in." },
+      { type: "listen-choose", audio: "E primavera candida e vermiglia.", question: "Which colors describe spring?", options: ["white and crimson", "green and gold", "blue and white", "black and red"], correctIndex: 0, explanation: "\"Candida\" = pure white; \"vermiglia\" = vermilion, crimson." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Seeing the crane so plump, the cook gave a thigh to a neighbor.", answer: "Vedendo la gru così grassa, il cuoco ne diede una coscia a una vicina.", altAnswers: ["Vedendo la gru così grassa, il cuoco diede una coscia a una vicina.", "Vedendo che la gru era così grassa, il cuoco ne diede una coscia a una vicina.", "Visto che la gru era così grassa, il cuoco ne diede una coscia a una vicina."], explanation: "\"Veggendo\" → \"vedendo\"; \"ne\" = of it." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Death follows with long strides.", answer: "La morte segue a grandi passi.", altAnswers: ["La morte viene dietro a grandi passi.", "La morte insegue a grandi passi.", "La morte segue a grandi tappe."], explanation: "Petrarca's \"a gran giornate\" = by long day-stages." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Everything returns except Laura.", answer: "Tutto ritorna tranne Laura.", altAnswers: ["Tutto torna tranne Laura.", "Tutto ritorna, tranne Laura.", "Tutto torna eccetto Laura.", "Tutto ritorna eccetto Laura."], explanation: "\"Tranne\" / \"eccetto\" = except." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "First listen for the subject, then wait for the verb.", answer: "Prima ascolta il soggetto, poi aspetta il verbo.", altAnswers: ["Prima ascolta il soggetto e poi aspetta il verbo.", "Ascolta prima il soggetto, poi aspetta il verbo."], explanation: "Imperative \"tu\": \"ascolta\", \"aspetta\"." },
@@ -585,7 +585,7 @@ export const IT_C2_U02: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Spring returns, white and crimson.", answer: "Torna la primavera, bianca e vermiglia.", altAnswers: ["La primavera torna, bianca e vermiglia.", "Ritorna la primavera, bianca e rossa.", "Torna la primavera, candida e vermiglia."], explanation: "\"Candida\" = pure white; \"vermiglia\" = crimson." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Hold the subject in mind and wait for the main verb.", answer: "Tieni a mente il soggetto e aspetta il verbo principale.", altAnswers: ["Tieni in mente il soggetto e aspetta il verbo principale.", "Ricorda il soggetto e aspetta il verbo principale."], explanation: "\"Tenere a mente\" = to keep in mind." },
       { type: "dictation", audio: "Zefiro torna, e 'l bel tempo rimena.", explanation: "\"'L\" = \"il\"; \"rimena\" = riporta." },
-      { type: "speak", text: "La donna, udito questo, tutta lieta a casa se ne tornò.", tip: "Pause after \"questo\"; deliver \"se ne tornò\" as the climax.", explanation: "Practise the Boccaccian period's suspended rhythm." },
+      { type: "speak", text: "La donna, udito questo, tutta lieta a casa se ne tornò.", tip: "Pause after \"questo\"; deliver \"se ne tornò\" as the climax.", explanation: "Practice the Boccaccian period's suspended rhythm." },
     ],
   },
   {
@@ -610,7 +610,7 @@ export const IT_C2_U02: Lesson[] = [
           { es: "La brigata rise a lungo.", en: "The company laughed for a long time." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The rubric sums up the story in one sentence.", answer: "La rubrica riassume la novella in una frase.", altAnswers: ["La rubrica riassume la novella in una sola frase.", "La rubrica riassume la storia in una frase."], explanation: "\"Riassumere\" = to summarise." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The rubric sums up the story in one sentence.", answer: "La rubrica riassume la novella in una frase.", altAnswers: ["La rubrica riassume la novella in una sola frase.", "La rubrica riassume la storia in una frase."], explanation: "\"Riassumere\" = to summarize." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The final witty reply [turns the situation round].", sentence: "Il motto finale ___.", answer: "ribalta la situazione", altAnswers: ["capovolge la situazione", "rovescia la situazione"], explanation: "\"Ribaltare\" = to overturn, reverse." },
         ],
       },
@@ -618,7 +618,7 @@ export const IT_C2_U02: Lesson[] = [
         heading: "Evoking the style",
         body: [
           "Write in modern Italian, but borrow four features. Open with the frame narrator addressing the listeners: \"Graziose donne\" or \"Care amiche e cari amici\". Use one or two Latinate periods with the verb at the end, especially at moments of suspense: \"Il professore, aperta la scatola e vista la pizza, rosso in volto divenne.\" Prefer the \"passato remoto\" for the narrative. And end with the reaction of the \"brigata\": \"La novella fece ridere tutta la brigata.\"",
-          "Do not overdo it. One verb-final sentence per paragraph is witty; ten are parody. Keep the vocabulary modern (\"rider\", \"recensione\", \"app\") so the contrast with the old syntax creates the humour.",
+          "Do not overdo it. One verb-final sentence per paragraph is witty; ten are parody. Keep the vocabulary modern (\"rider\", \"recensione\", \"app\") so the contrast with the old syntax creates the humor.",
         ],
         examples: [
           { es: "Graziose donne, la novella che sto per raccontarvi mostra quanto valga una battuta.", en: "Gracious ladies, the story I am about to tell you shows how much a quip is worth." },
@@ -681,12 +681,12 @@ export const IT_C2_U02: Lesson[] = [
         examples: [
           { es: "La fortuna dei tre fu tuttavia diversa.", en: "The reputation of the three, however, was different." },
           { es: "Dante venne escluso dal canone di Bembo.", en: "Dante was excluded from Bembo's canon." },
-          { es: "Solo con il Romanticismo Dante tornò al centro.", en: "Only with Romanticism did Dante return to the centre." },
+          { es: "Solo con il Romanticismo Dante tornò al centro.", en: "Only with Romanticism did Dante return to the center." },
           { es: "Una lingua municipale divenne la lingua di un popolo.", en: "A city's language became the language of a people." },
           { es: "Un popolo che ancora non aveva uno Stato", en: "A people that did not yet have a State" },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Only with Romanticism did Dante return to the centre.", answer: "Solo con il Romanticismo Dante tornò al centro.", altAnswers: ["Soltanto con il Romanticismo Dante tornò al centro.", "Solo con il Romanticismo Dante è tornato al centro.", "Solo col Romanticismo Dante tornò al centro."], explanation: "No inversion needed in Italian after \"solo\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Only with Romanticism did Dante return to the center.", answer: "Solo con il Romanticismo Dante tornò al centro.", altAnswers: ["Soltanto con il Romanticismo Dante tornò al centro.", "Solo con il Romanticismo Dante è tornato al centro.", "Solo col Romanticismo Dante tornò al centro."], explanation: "No inversion needed in Italian after \"solo\"." },
           { type: "listen-choose", audio: "La fortuna dei tre fu tuttavia diversa.", question: "What does \"fortuna\" mean here?", options: ["their reception and reputation over time", "their wealth", "their luck in life", "their fate after death"], correctIndex: 0, explanation: "In literary criticism \"fortuna\" = an author's reception." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Dante [was excluded] from Bembo's canon.", sentence: "Dante ___ dal canone di Bembo.", answer: "venne escluso", altAnswers: ["fu escluso", "è stato escluso"], explanation: "Passive with \"venire\": the event of exclusion." },
         ],

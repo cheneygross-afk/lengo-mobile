@@ -61,7 +61,7 @@ export const IT_C2_U13: Lesson[] = [
         body: [
           "\"La coscienza\" covers both consciousness and conscience: \"perdere coscienza\" (to lose consciousness), \"avere la coscienza pulita\" (a clear conscience). When you mean awareness of something, Italian prefers \"la consapevolezza\": \"la consapevolezza dei propri limiti\". \"Essere consapevole di\" = to be aware of.",
           "\"L'etica\" and \"la morale\" overlap; in careful usage \"la morale\" is the set of norms a society or person follows, \"l'etica\" the reflection on them. \"Il morale\" (masculine!) is morale: \"Il morale della squadra è alto\". Similarly \"il senso\" (sense, direction, meaning of life) and \"il significato\" (the meaning of a word or sign): \"il senso della vita\", but \"il significato di questa parola\".",
-          "\"La ragione\" is reason as a faculty and also being right (\"avere ragione\"); \"il motivo\" is a reason why. \"Per quale motivo?\" not *per quale ragione? (possible, but heavier).",
+          "\"La ragione\" is reason as a faculty and also being right (\"avere ragione\"); \"il motivo\" is a reason why. \"Per quale motivo?\" is the everyday question; \"per quale ragione?\" is correct but heavier and more formal.",
           "Two more traps: \"l'essenza\" (essence) and \"l'esistenza\" (existence) are both feminine despite the article hiding it, so \"un'essenza\", \"l'esistenza umana\"; and \"la realtà\" is reality, while \"in realtà\" means actually, in fact, which is how English speakers should translate actually (never \"attualmente\", which means currently).",
         ],
         examples: [
@@ -135,9 +135,9 @@ export const IT_C2_U13: Lesson[] = [
       {
         heading: "Vico: the world made by men",
         body: [
-          "Giambattista Vico (1668-1744), a Neapolitan, wrote the \"Scienza nuova\". Its central idea: we can truly know only what we have made (\"verum ipsum factum\", the true is the made), so the civil world, made by human beings, can be known from within. In his words, \"questo mondo civile egli certamente è stato fatto dagli uomini\"; \"egli\" is again an old expletive subject, untranslatable.",
+          "Giambattista Vico (1668-1744), a Neapolitan, wrote the \"Scienza nuova\". Its foundation is a principle Vico had already set out in Latin in 1710: we can truly know only what we have made (\"verum ipsum factum\", the true is the made). So the civil world, made by human beings, can be known from within. In his words, \"questo mondo civile egli certamente è stato fatto dagli uomini\"; \"egli\" is again an old expletive subject, untranslatable.",
           "Vico also described history as moving through ages, gods, heroes and men, with \"corsi e ricorsi\": cycles that return. Italians still say \"i corsi e ricorsi della storia\" when something happens again. The phrase is often used loosely, but you should know its source. His prose is long, full of relative clauses and Latin; read it one clause at a time and find the main verb first.",
-          "A good paraphrase keeps the logic and modernises the form: \"Secondo Vico, poiché il mondo civile è opera dell'uomo, l'uomo può conoscerne i principi.\" \"Conoscerne\": \"ne\" = of it, of the civil world.",
+          "A good paraphrase keeps the logic and modernizes the form: \"Secondo Vico, poiché il mondo civile è opera dell'uomo, l'uomo può conoscerne i principi.\" \"Conoscerne\": \"ne\" = of it, of the civil world.",
         ],
         examples: [
           { es: "Possiamo conoscere davvero solo ciò che abbiamo fatto.", en: "We can truly know only what we have made." },
@@ -173,7 +173,7 @@ export const IT_C2_U13: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Every true history is contemporary history.", answer: "Ogni vera storia è storia contemporanea.", explanation: "Croce's formula: no article after \"è\" here, as in a definition." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Every true history is contemporary history.", answer: "Ogni vera storia è storia contemporanea.", altAnswers: ["Ogni storia vera è storia contemporanea."], explanation: "Croce's formula: no article after \"è\" here, as in a definition." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "According to Vico the civil world is the work of human beings.", answer: "Secondo Vico il mondo civile è opera dell'uomo.", altAnswers: ["Secondo Vico, il mondo civile è opera dell'uomo.", "Secondo Vico il mondo civile è opera degli uomini.", "Per Vico il mondo civile è opera dell'uomo."], explanation: "\"Essere opera di\" = to be the work of; no article before \"opera\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Machiavelli argues that it is safer to be feared than loved.", answer: "Machiavelli sostiene che sia più sicuro essere temuti che amati.", altAnswers: ["Machiavelli sostiene che è più sicuro essere temuti che amati.", "Machiavelli afferma che sia più sicuro essere temuti che amati.", "Machiavelli sostiene che sia più sicuro essere temuto che amato."], explanation: "After \"sostenere che\" the subjunctive is the careful choice; the indicative presents it as a fact he states." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Since the problem is an old one, the solution won't be simple.", answer: "Giacché il problema è antico, la soluzione non sarà semplice.", altAnswers: ["Poiché il problema è antico, la soluzione non sarà semplice.", "Dato che il problema è antico, la soluzione non sarà semplice."], explanation: "\"Giacché\" is literary; \"poiché\" and \"dato che\" are neutral." },
@@ -232,6 +232,7 @@ export const IT_C2_U13: Lesson[] = [
           "Thought experiments live in the subjunctive. \"Supponiamo che\", \"ammettiamo che\", \"immaginiamo che\", \"mettiamo che\" (colloquial) all take it: \"Supponiamo che una macchina possa pensare.\" In the past: \"Supponiamo che Cesare non avesse attraversato il Rubicone.\"",
           "Concessive hypotheses grant a point to move past it: \"Ammettiamo pure che sia così: non ne segue che sia giusto.\" (Let's grant that it's so: it doesn't follow that it's right.) \"Anche se fosse vero\" (even if it were true) uses the imperfect subjunctive and the conditional follows: \"anche se fosse vero, non cambierebbe nulla\".",
           "\"Non è detto che\" + subjunctive is the elegant way to say it doesn't necessarily follow: \"Non è detto che ciò che è legale sia anche giusto.\" Philosophers use it to cut false inferences without being rude.",
+          "The tense of the subjunctive signals how unreal the case is. After a present main verb, the present subjunctive keeps a hypothesis open (\"Supponiamo che una macchina possa pensare\"), while the imperfect pushes it toward the counterfactual (\"Supponiamo che nessuno potesse mentire\"). After a past main verb the imperfect is required: \"Avevamo supposto che la teoria fosse vera\". English speakers tend to freeze in the present subjunctive; Italian uses the tense as a dial of distance from reality.",
         ],
         examples: [
           { es: "Supponiamo che una macchina possa pensare.", en: "Suppose a machine could think." },
@@ -239,7 +240,7 @@ export const IT_C2_U13: Lesson[] = [
           { es: "Anche se fosse vero, non cambierebbe nulla.", en: "Even if it were true, it wouldn't change anything." },
           { es: "Non è detto che ciò che è legale sia anche giusto.", en: "What is legal isn't necessarily also just." },
           { es: "Immaginiamo che nessuno potesse mentire.", en: "Imagine that nobody could lie." },
-          { es: "Se l'universo fosse infinito, avrebbe senso parlare di un centro?", en: "If the universe were infinite, would it make sense to talk about a centre?" },
+          { es: "Se l'universo fosse infinito, avrebbe senso parlare di un centro?", en: "If the universe were infinite, would it make sense to talk about a center?" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Even if it were true, it wouldn't change anything.", answer: "Anche se fosse vero, non cambierebbe nulla.", altAnswers: ["Anche se fosse vero non cambierebbe niente.", "Anche se fosse vero, non cambierebbe niente.", "Anche se fosse vero non cambierebbe nulla."], explanation: "Imperfect subjunctive \"fosse\" in the hypothesis, conditional \"cambierebbe\" in the result." },
@@ -275,7 +276,7 @@ export const IT_C2_U13: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "To this one can reply that nobody demands it.", answer: "A questo si può rispondere che nessuno la pretende.", altAnswers: ["A ciò si può rispondere che nessuno la pretende.", "A questo si può rispondere che nessuno la esige."], explanation: "\"Pretendere\" = to demand, expect (false friend: not to pretend)." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Assuming it's true], what do we infer from it?", sentence: "___, che cosa ne deduciamo?", answer: "Posto che sia vero", altAnswers: ["Ammesso che sia vero", "Supposto che sia vero"], explanation: "\"Posto che\" + subjunctive = assuming that." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[In the light of what has been said], the thesis holds.", sentence: "___, la tesi regge.", answer: "Alla luce di quanto detto", explanation: "\"Quanto detto\" = what has been said." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If the universe were infinite, [would it make sense] to talk about a centre?", sentence: "Se l'universo fosse infinito, ___ parlare di un centro?", answer: "avrebbe senso", explanation: "\"Avere senso\" = to make sense (not *fare senso)." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If the universe were infinite, [would it make sense] to talk about a center?", sentence: "Se l'universo fosse infinito, ___ parlare di un centro?", answer: "avrebbe senso", explanation: "\"Avere senso\" = to make sense (not *fare senso)." },
       { type: "word-order", prompt: "Put the words in order to say: Let's grant that it's so.", words: ["Ammettiamo", "pure", "che", "sia", "così."], translation: "Let's grant that it's so.", explanation: "\"Pure\" adds a concessive tone: let's even grant." },
       { type: "multiple-choice", question: "Which connector belongs in a formal written conclusion?", options: ["pertanto", "tipo", "insomma, boh", "cioè"], correctIndex: 0, explanation: "\"Pertanto\" = therefore, formal." },
       {
@@ -299,14 +300,14 @@ export const IT_C2_U13: Lesson[] = [
     level: "IT-C2",
     number: 4,
     title: "Ethics",
-    summary: "Debate moral questions in Italian: lecito and giusto, ends and means, responsibility, and the subjunctive of moral judgement.",
+    summary: "Debate moral questions in Italian: lecito and giusto, ends and means, responsibility, and the subjunctive of moral judgment.",
     duration: "19 min",
     sections: [
       {
-        heading: "The vocabulary of moral judgement",
+        heading: "The vocabulary of moral judgment",
         body: [
           "Italian distinguishes \"lecito\" (permissible, allowed by rules or morals) from \"legale\" (allowed by law) and \"giusto\" (right, just). \"È lecito mentire per salvare una vita?\" asks about morality, not the penal code. \"Illecito\" is the opposite, and in law \"un illecito\" is a wrongful act.",
-          "Moral judgements are impersonal expressions + \"che\" + subjunctive: \"È giusto che\", \"È inaccettabile che\", \"È moralmente doveroso che\" (morally obligatory), \"Non è ammissibile che\". With no change of subject, use the infinitive: \"È giusto aiutare\", not *È giusto che aiutiamo when the subject is general.",
+          "Moral judgments are impersonal expressions + \"che\" + subjunctive: \"È giusto che\", \"È inaccettabile che\", \"È moralmente doveroso che\" (morally obligatory), \"Non è ammissibile che\". When the subject is general, use the infinitive: \"È giusto aiutare\". Keep \"che\" + subjunctive for a specific subject: \"È giusto che lo Stato aiuti le famiglie\".",
           "Key nouns: \"il bene comune\" (the common good), \"la responsabilità\" (also in the plural: \"assumersi le proprie responsabilità\", to take responsibility), \"la dignità\", \"il libero arbitrio\" (free will), \"il dilemma\" (masculine, like \"il problema\", \"il sistema\").",
           "\"Morale\" as an adjective (\"un obbligo morale\", \"un giudizio morale\") is neutral, while \"moralista\" is negative: someone who preaches. \"Fare la morale a qualcuno\" means to lecture someone, and nobody in an Italian debate wants to be accused of it.",
         ],
@@ -330,6 +331,7 @@ export const IT_C2_U13: Lesson[] = [
           "\"Il fine giustifica i mezzi\" (the end justifies the means) is attributed to Machiavelli, though he never wrote it in those words. Note \"il fine\" (masculine) = the aim, purpose, while \"la fine\" (feminine) = the end, conclusion. \"A fin di bene\" means with good intentions.",
           "Classic debates use set phrases: \"il male minore\" (the lesser evil), \"la scelta tragica\", \"le conseguenze\" vs \"i principi\", \"un'etica della responsabilità\" vs \"un'etica dei principi\". \"Il consequenzialismo\" judges actions by outcomes; \"la deontologia\" (in everyday Italian also a profession's code of conduct, \"la deontologia medica\") judges them by duties.",
           "To weigh options, use \"tra\" with \"e\": \"scegliere tra il male minore e l'inazione\", and the comparative of preference \"piuttosto che\" with the infinitive: \"meglio agire piuttosto che restare a guardare\" (better to act than to stand by). Here \"piuttosto che\" correctly means rather than.",
+          "Public ethics in Italy has its own vocabulary. \"Il fine vita\" (end-of-life questions) covers \"l'eutanasia\" and \"il suicidio assistito\"; \"il testamento biologico\" (officially \"le DAT\", disposizioni anticipate di trattamento) is a living will; \"l'obiezione di coscienza\" lets a doctor refuse to take part in a procedure on moral grounds. In these debates \"laico\" means secular, not lay: \"una posizione laica\" is set against \"una posizione cattolica\", and calling an argument \"ideologico\" is an accusation, not a description.",
         ],
         examples: [
           { es: "Il fine non sempre giustifica i mezzi.", en: "The end doesn't always justify the means." },
@@ -365,7 +367,7 @@ export const IT_C2_U13: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's unacceptable that the same people always end up paying.", answer: "È inaccettabile che a pagare siano sempre gli stessi.", altAnswers: ["È inaccettabile che paghino sempre gli stessi.", "È inaccettabile che siano sempre gli stessi a pagare."], explanation: "Impersonal judgement + subjunctive \"siano\" / \"paghino\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's unacceptable that the same people always end up paying.", answer: "È inaccettabile che a pagare siano sempre gli stessi.", altAnswers: ["È inaccettabile che paghino sempre gli stessi.", "È inaccettabile che siano sempre gli stessi a pagare."], explanation: "Impersonal judgment + subjunctive \"siano\" / \"paghino\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The common good comes before private interest.", answer: "Il bene comune viene prima dell'interesse privato.", altAnswers: ["Il bene comune viene prima degli interessi privati.", "Il bene comune è più importante dell'interesse privato."], explanation: "\"Venire prima di\" = to come before." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Who are we to judge?", answer: "Chi siamo noi per giudicare?", explanation: "Here \"noi\" is needed for emphasis." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The end doesn't always justify the means.", answer: "Il fine non sempre giustifica i mezzi.", altAnswers: ["Il fine non giustifica sempre i mezzi."], explanation: "\"Il fine\" (masculine) = the aim." },
@@ -480,7 +482,7 @@ export const IT_C2_U13: Lesson[] = [
           "A modern paraphrase: \"Il principe deve essere astuto come la volpe per riconoscere le trappole e forte come il leone per spaventare i nemici.\" Note how the paraphrase replaces \"a\" + infinitive (purpose, old style) with \"per\".",
         ],
         examples: [
-          { es: "Bisogna adunque essere golpe a conoscere e' lacci, e lione a sbigottire e' lupi.", en: "One must therefore be a fox to recognise snares and a lion to frighten wolves." },
+          { es: "Bisogna adunque essere golpe a conoscere e' lacci, e lione a sbigottire e' lupi.", en: "One must therefore be a fox to recognize snares and a lion to frighten wolves." },
           { es: "Il principe deve essere astuto come la volpe.", en: "The prince must be as cunning as the fox." },
           { es: "Il leone non sa difendersi dalle trappole.", en: "The lion can't defend itself from traps." },
           { es: "Ci sono due modi di combattere: con le leggi e con la forza.", en: "There are two ways of fighting: with laws and with force." },
@@ -495,7 +497,7 @@ export const IT_C2_U13: Lesson[] = [
         heading: "Keeping one's word",
         body: [
           "The conclusion is notorious: a prudent ruler cannot and should not keep his word when doing so would harm him, and when the reasons that made him promise no longer exist. Machiavelli justifies it with a bleak view of people: if men were all good, this rule would be wrong, but since they are \"tristi\" (wicked, in old usage) and wouldn't keep their word to you, you need not keep yours to them.",
-          "\"Tristo\" in old Italian means wicked or wretched, not sad; modern \"triste\" (sad) is a different development. Old texts are full of such shifts: \"cattivo\" once meant captive, then wretched, and only later bad.",
+          "\"Tristo\" in old Italian means wicked or wretched, not sad; modern \"triste\" (sad) is a different development, though \"tristo\" survives in phrases like \"un tristo figuro\" (a shady character). Old texts are full of such shifts: \"cattivo\" once meant captive, then wretched, and only later bad.",
           "When you discuss the passage, the conditional of the unreal is your friend: \"Se gli uomini fossero tutti buoni, questo precetto non sarebbe buono.\" That sentence is close to Machiavelli's own and perfectly modern.",
         ],
         examples: [
@@ -514,7 +516,7 @@ export const IT_C2_U13: Lesson[] = [
         heading: "Fortune and virtue",
         body: [
           "In chapter XXV Machiavelli weighs \"la fortuna\" (chance, circumstance) against \"la virtù\" (not virtue in the moral sense, but ability, energy, the capacity to act). He judges that fortune may be the arbiter of half our actions but leaves the other half, or nearly, to us.",
-          "He compares fortune to a flooding river: when the weather is calm, men can build dykes and embankments so that the next flood does less damage. The lesson is about foresight. \"Gli argini\" (embankments) is still the word Italians use, literally and figuratively: \"porre un argine a\" = to put a check on.",
+          "He compares fortune to a flooding river: when the weather is calm, men can build dikes and embankments so that the next flood does less damage. The lesson is about foresight. \"Gli argini\" (embankments) is still the word Italians use, literally and figuratively: \"porre un argine a\" = to put a check on.",
           "\"Virtù\" in Machiavelli is a false friend inside Italian itself. When you write about him, gloss it: \"la virtù, cioè la capacità di agire con decisione\". Readers will see you know the text.",
         ],
         examples: [
@@ -526,8 +528,8 @@ export const IT_C2_U13: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We must put a check on corruption.", answer: "Bisogna porre un argine alla corruzione.", altAnswers: ["Dobbiamo porre un argine alla corruzione.", "Bisogna mettere un argine alla corruzione.", "Occorre porre un argine alla corruzione."], explanation: "\"Porre un argine a\" = to curb, put a check on." },
-          { type: "listen-choose", audio: "La fortuna è arbitra della metà delle nostre azioni, ma l'altra metà la lascia governare a noi.", question: "What does the sentence claim?", options: ["Chance controls half of what we do; we control the rest.", "Chance controls everything we do.", "We control everything; chance is a myth.", "Fortune favours the brave."], correctIndex: 0, explanation: "\"La metà\" = half; \"la lascia governare a noi\" = leaves it to us to govern." },
-          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "In calm times men can build [embankments].", sentence: "Nei tempi quieti gli uomini possono costruire ___.", answer: "argini", altAnswers: ["degli argini"], explanation: "\"L'argine\" (masculine) = embankment, dyke." },
+          { type: "listen-choose", audio: "La fortuna è arbitra della metà delle nostre azioni, ma l'altra metà la lascia governare a noi.", question: "What does the sentence claim?", options: ["Chance controls half of what we do; we control the rest.", "Chance controls everything we do.", "We control everything; chance is a myth.", "Fortune favors the brave."], correctIndex: 0, explanation: "\"La metà\" = half; \"la lascia governare a noi\" = leaves it to us to govern." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "In calm times men can build [embankments].", sentence: "Nei tempi quieti gli uomini possono costruire ___.", answer: "argini", altAnswers: ["degli argini"], explanation: "\"L'argine\" (masculine) = embankment, dike." },
         ],
       },
     ],
@@ -568,12 +570,12 @@ export const IT_C2_U13: Lesson[] = [
       {
         heading: "Fallacies and their Italian names",
         body: [
-          "Italian has standard names for fallacies (\"le fallacie\"): \"l'attacco alla persona\" or \"argomento ad hominem\", \"la falsa alternativa\" or \"falso dilemma\", \"la generalizzazione indebita\" (hasty generalisation), \"la petizione di principio\" (begging the question), \"l'argomento fantoccio\" (straw man, also \"uomo di paglia\"), and \"post hoc ergo propter hoc\". \"La china scivolosa\" or \"il piano inclinato\" is the slippery slope.",
+          "Italian has standard names for fallacies (\"le fallacie\"): \"l'attacco alla persona\" or \"argomento ad hominem\", \"la falsa alternativa\" or \"falso dilemma\", \"la generalizzazione indebita\" (hasty generalization), \"la petizione di principio\" (begging the question), \"l'argomento fantoccio\" (straw man, also \"uomo di paglia\"), and \"post hoc ergo propter hoc\". \"La china scivolosa\" or \"il piano inclinato\" is the slippery slope.",
           "To name one politely: \"Mi sembra un argomento ad hominem: critichi lui, non la sua tesi.\" \"Questa è una falsa alternativa: le possibilità non sono solo due.\" Naming the fallacy precisely is more persuasive than saying \"non è vero\".",
           "Draft sentence (asterisk = weak): *Tutti i politici sono corrotti, l'ho visto con due assessori. That is \"una generalizzazione indebita\": two cases don't make a rule. Better: \"Alcuni casi di corruzione non bastano a dimostrare che tutti siano corrotti.\"",
         ],
         examples: [
-          { es: "Mi sembra un argomento ad hominem: critichi lui, non la sua tesi.", en: "It seems an ad hominem argument to me: you're criticising him, not his thesis." },
+          { es: "Mi sembra un argomento ad hominem: critichi lui, non la sua tesi.", en: "It seems an ad hominem argument to me: you're criticizing him, not his thesis." },
           { es: "Questa è una falsa alternativa: le possibilità non sono solo due.", en: "This is a false dilemma: there aren't just two possibilities." },
           { es: "Due casi non bastano a dimostrare una regola.", en: "Two cases aren't enough to prove a rule." },
           { es: "Stai dando per scontato proprio ciò che dovresti dimostrare.", en: "You're taking for granted exactly what you should prove." },
@@ -609,19 +611,19 @@ export const IT_C2_U13: Lesson[] = [
         body: [
           "\"Quindi\" and \"dunque\" announce a consequence; if none follows, the argument collapses. *Il traffico è aumentato, quindi la gente è più stressata asserts a causal link that needs evidence. A careful writer softens: \"il che potrebbe contribuire a\", \"è plausibile che\".",
           "\"Ovviamente\", \"è chiaro che\" and \"tutti sanno che\" hide missing evidence. In an Italian essay they irritate examiners. Replace them with the evidence, or with \"come mostrano i dati\".",
-          "\"Piuttosto che\" used to mean or (*Puoi scegliere il tè piuttosto che il caffè piuttosto che l'acqua) is a widely criticised northern habit: it should mean rather than. In a list, use \"o\" or \"oppure\".",
+          "\"Piuttosto che\" used to mean or (*Puoi scegliere il tè piuttosto che il caffè piuttosto che l'acqua) is a widely criticized northern habit: it should mean rather than. In a list, use \"o\" or \"oppure\".",
         ],
         examples: [
           { es: "Il traffico è aumentato, il che potrebbe contribuire allo stress.", en: "Traffic has increased, which could contribute to stress." },
           { es: "Come mostrano i dati, la tendenza è in calo.", en: "As the data show, the trend is downwards." },
           { es: "Puoi scegliere il tè, il caffè o l'acqua.", en: "You can choose tea, coffee or water." },
-          { es: "Preferisco discutere piuttosto che litigare.", en: "I prefer discussing to quarrelling." },
+          { es: "Preferisco discutere piuttosto che litigare.", en: "I prefer discussing to quarreling." },
           { es: "È plausibile che le due cose siano collegate.", en: "It's plausible that the two things are connected." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "The draft says *il tè piuttosto che il caffè piuttosto che l'acqua. Write the correct Italian for: You can choose tea, coffee or water.", source: "You can choose tea, coffee or water.", answer: "Puoi scegliere il tè, il caffè o l'acqua.", altAnswers: ["Puoi scegliere tra il tè, il caffè o l'acqua.", "Puoi scegliere il tè, il caffè oppure l'acqua.", "Puoi scegliere tè, caffè o acqua."], explanation: "In a list of alternatives use \"o\" / \"oppure\"; keep \"piuttosto che\" for rather than." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's plausible that the two things are connected.", answer: "È plausibile che le due cose siano collegate.", altAnswers: ["È plausibile che le due cose siano legate.", "È possibile che le due cose siano collegate."], explanation: "\"È plausibile che\" + subjunctive: a hedged causal claim." },
-          { type: "speak", text: "Preferisco discutere piuttosto che litigare.", prompt: "Say it in Italian: I prefer discussing to quarrelling.", tip: "piut-TO-sto: double t.", explanation: "\"Piuttosto che\" in its correct meaning." },
+          { type: "speak", text: "Preferisco discutere piuttosto che litigare.", prompt: "Say it in Italian: I prefer discussing to quarreling.", tip: "piut-TO-sto: double t.", explanation: "\"Piuttosto che\" in its correct meaning." },
         ],
       },
     ],
@@ -633,13 +635,13 @@ export const IT_C2_U13: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[As the data show], the trend is downwards.", sentence: "___, la tendenza è in calo.", answer: "Come mostrano i dati", altAnswers: ["Come dimostrano i dati", "Come indicano i dati"], explanation: "Evidence, not \"ovviamente\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Assuming] it's so, what follows?", sentence: "___ che sia così, che cosa ne segue?", answer: "Ammesso", altAnswers: ["Posto", "Supposto"], explanation: "\"Ammesso che\" + subjunctive \"sia\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Even though it's true, it [changes] nothing.", sentence: "Anche se è vero, non ___ nulla.", answer: "cambia", explanation: "Real fact: \"anche se\" + indicative; the main verb is present." },
-      { type: "word-order", prompt: "Put the words in order to say: You're criticising him, not his thesis.", words: ["Critichi", "lui,", "non", "la", "sua", "tesi."], translation: "You're criticising him, not his thesis.", explanation: "The ad hominem in a nutshell; stressed \"lui\" after the verb." },
+      { type: "word-order", prompt: "Put the words in order to say: You're criticizing him, not his thesis.", words: ["Critichi", "lui,", "non", "la", "sua", "tesi."], translation: "You're criticizing him, not his thesis.", explanation: "The ad hominem in a nutshell; stressed \"lui\" after the verb." },
       { type: "multiple-choice", question: "\"Se vietiamo le auto in centro, poi vieteremo le bici, poi anche i pedoni!\" Which fallacy is it?", options: ["la china scivolosa", "la petizione di principio", "l'attacco alla persona", "la generalizzazione indebita"], correctIndex: 0, explanation: "A chain of unproven consequences: the slippery slope." },
       {
         type: "matching",
         instructions: "Match the Italian to the English.",
         pairs: [
-          { left: "la generalizzazione indebita", right: "hasty generalisation" },
+          { left: "la generalizzazione indebita", right: "hasty generalization" },
           { left: "la petizione di principio", right: "begging the question" },
           { left: "la falsa alternativa", right: "false dilemma" },
           { left: "l'argomento fantoccio", right: "straw man" },
@@ -683,7 +685,7 @@ export const IT_C2_U13: Lesson[] = [
         body: [
           "Sara pushes back with a thought experiment: \"Mettiamo che uno scienziato potesse prevedere ogni tua scelta. Saresti ancora libero?\" (She is speaking to Tommaso, hence masculine \"libero\".) Spoken hypotheses often use \"mettiamo che\" + subjunctive and the conditional, exactly like written ones.",
           "Tommaso concedes and counters: \"Hai ragione su un punto: prevedibile non vuol dire libero. Però non vuol dire neanche costretto.\" \"Hai ragione su un punto\" (you're right about one thing) is a generous concession that buys credibility for the \"però\".",
-          "Watch the pronoun \"ci\" in \"Non ci avevo mai pensato\" (I'd never thought about that) and \"ci sta\" (colloquial: fair enough, that works). \"Ci sta\" is very common among Italians under fifty in conversation; never in writing.",
+          "Watch the pronoun \"ci\" in \"Non ci avevo mai pensato\" (I'd never thought about that) and \"ci sta\" (colloquial: fair enough, that works). \"Ci sta\" is common in relaxed conversation, especially among younger speakers; keep it out of formal writing.",
         ],
         examples: [
           { es: "Mettiamo che uno scienziato potesse prevedere ogni tua scelta.", en: "Let's say a scientist could predict your every choice." },
@@ -703,7 +705,7 @@ export const IT_C2_U13: Lesson[] = [
         heading: "Agreeing to disagree",
         body: [
           "The discussion ends without a winner, as good ones do: \"Su questo restiamo su posizioni diverse\" (we still disagree on this), \"Ne riparliamo\" (let's talk about it again), \"Mi hai dato da pensare\" (you've given me food for thought).",
-          "Tommaso jokes: \"Comunque, se il libero arbitrio non esiste, il conto non l'ho deciso io.\" Humour that turns the argument on itself is a classic Italian way to close. Sara: \"Bel tentativo. Paghiamo alla romana.\" (Nice try. Let's split it.)",
+          "Tommaso jokes: \"Comunque, se il libero arbitrio non esiste, il conto non l'ho deciso io.\" Humor that turns the argument on itself is a classic Italian way to close. Sara: \"Bel tentativo. Paghiamo alla romana.\" (Nice try. Let's split it.)",
         ],
         examples: [
           { es: "Su questo restiamo su posizioni diverse.", en: "We still disagree on this." },
@@ -795,7 +797,7 @@ export const IT_C2_U13: Lesson[] = [
         heading: "Polishing the essay",
         body: [
           "Read your draft once only for the moods: every \"che\" after a verb of opinion, doubt or possibility (\"ritengo\", \"è possibile\", \"non è detto\") should be followed by a subjunctive; every \"se\" of an unreal hypothesis by an imperfect or pluperfect subjunctive, never a conditional.",
-          "Then read for repetition. An essay on happiness will repeat \"felicità\" twenty times unless you vary it: \"tale condizione\", \"questo stato\", \"quest'ultima\" (the latter), or simply a pronoun. \"Quest'ultima\" refers to the last feminine noun mentioned and is a favourite of good Italian prose.",
+          "Then read for repetition. An essay on happiness will repeat \"felicità\" twenty times unless you vary it: \"tale condizione\", \"questo stato\", \"quest'ultima\" (the latter), or simply a pronoun. \"Quest'ultima\" refers to the last feminine noun mentioned and is a favorite of good Italian prose.",
           "Finally, cut. Italian examiners reward \"densità\", not length: a 350-word essay with one clear argument beats a 500-word list of opinions.",
         ],
         examples: [
@@ -899,7 +901,7 @@ export const IT_C2_U13: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Being is and [cannot not be].", sentence: "L'essere è e ___.", answer: "non può non essere", explanation: "The double negative is deliberate: necessity." },
       { type: "word-order", prompt: "Put the words in order to say: Are there any questions?", words: ["Ci", "sono", "domande?"], translation: "Are there any questions?", explanation: "No word for any." },
       { type: "dictation", audio: "Parmenide sostiene che il divenire è un'apparenza.", explanation: "\"Un'apparenza\": feminine, with an apostrophe." },
-      { type: "speak", text: "Per Eraclito tutto scorre; Parmenide, al contrario, sostiene che il divenire è un'apparenza.", prompt: "Summarise the lecture in Italian: For Heraclitus everything flows; Parmenides, by contrast, argues that becoming is an appearance.", tip: "Pause after \"Parmenide\" and after \"al contrario\".", explanation: "Two positions and a contrast marker." },
+      { type: "speak", text: "Per Eraclito tutto scorre; Parmenide, al contrario, sostiene che il divenire è un'apparenza.", prompt: "Summarize the lecture in Italian: For Heraclitus everything flows; Parmenides, by contrast, argues that becoming is an appearance.", tip: "Pause after \"Parmenide\" and after \"al contrario\".", explanation: "Two positions and a contrast marker." },
     ],
   },
 ];

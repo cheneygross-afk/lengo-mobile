@@ -12,7 +12,7 @@ export const IT_C1_U03: Lesson[] = [
     number: 1,
     title: "Inversion",
     summary: "Put the verb before the subject where Italian expects it: after quotations, with new information, in news openings and in formal hypotheticals.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "New information goes last",
@@ -20,6 +20,7 @@ export const IT_C1_U03: Lesson[] = [
           "Italian word order is freer than English, and its main principle is simple: what is new or important goes at the end. That is why verbs of arriving, happening, existing and changing often come before their subject: \"È arrivato il treno\", \"Sono cambiate molte cose\", \"Mancano tre giorni alla partenza\". The subject is the news, so it closes the sentence.",
           "English speakers tend to write \"Il treno è arrivato\". It is correct, but it means something slightly different: we were talking about the train, and the news is that it has arrived. \"È arrivato il treno\" answers what's happened?",
           "The same principle explains \"L'ha detto Marco\" (it was Marco who said it): the stressed new element, Marco, goes last.",
+          "Questions and relative clauses follow suit. After a question word the subject normally follows the verb: \"Che cosa ha detto Marco?\", \"Dove abita tua sorella?\". \"*Che cosa Marco ha detto?\", copied from English, sounds foreign. In relative clauses inversion is common and elegant: \"il romanzo che ha scritto Calvino nel 1957\", \"la casa dove è nato Leopardi\".",
         ],
         examples: [
           { es: "È arrivato il treno da Bari.", en: "The train from Bari has arrived." },
@@ -27,6 +28,8 @@ export const IT_C1_U03: Lesson[] = [
           { es: "Mancano tre giorni alla partenza.", en: "There are three days left before departure." },
           { es: "Esiste un problema più grave.", en: "There is a more serious problem." },
           { es: "L'ha detto Marco, non io.", en: "Marco said it, not me." },
+          { es: "Che cosa ha detto Marco alla riunione?", en: "What did Marco say at the meeting?" },
+          { es: "È questa la casa dove è nato Leopardi.", en: "This is the house where Leopardi was born." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian, with the subject last.", source: "A lot has changed in recent years.", answer: "Negli ultimi anni sono cambiate molte cose.", altAnswers: ["Sono cambiate molte cose negli ultimi anni."], explanation: "New subject after the verb; agreement with \"cose\"." },
@@ -38,13 +41,15 @@ export const IT_C1_U03: Lesson[] = [
         body: [
           "After a quotation, the reporting verb comes before its subject: \"«Non ci sono alternative», ha dichiarato il ministro\". Never \"*il ministro ha dichiarato\" after the quote. Journalism also opens with the verb: \"Ha dichiarato il sindaco: «...»\", \"Si è svolta ieri a Torino la cerimonia di premiazione\", \"Sarà inaugurata domani la nuova linea della metropolitana\".",
           "In literary narrative, inversion marks a solemn or emphatic tone: \"Così parlò il vecchio\", \"Entrò allora un uomo vestito di nero\", \"Disse il presidente: ...\". Use it sparingly in your own prose: once in a paragraph gives rhythm; every sentence sounds parodic.",
+          "Inversion has a limit: a transitive verb with its object does not simply swap with its subject. \"*Ha mangiato Marco la torta\" sounds wrong. To make the subject the news, move the object to the front and pick it up with a pronoun: \"La torta l'ha mangiata Marco\" (it was Marco who ate the cake).",
         ],
         examples: [
           { es: "«Non ci sono alternative», ha dichiarato il ministro.", en: "\"There are no alternatives\", the minister declared." },
           { es: "Si è svolta ieri a Torino la cerimonia di premiazione.", en: "The award ceremony took place in Turin yesterday." },
-          { es: "Sarà inaugurata domani la nuova linea della metropolitana.", en: "The new underground line will be opened tomorrow." },
+          { es: "Sarà inaugurata domani la nuova linea della metropolitana.", en: "The new subway line will be opened tomorrow." },
           { es: "Così parlò il vecchio, e nessuno osò rispondere.", en: "Thus spoke the old man, and no one dared to answer." },
           { es: "Entrò allora un uomo vestito di nero.", en: "Then a man dressed in black came in." },
+          { es: "La torta l'ha mangiata Marco.", en: "It was Marco who ate the cake." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian (news style, verb first).", source: "The award ceremony took place in Turin yesterday.", answer: "Si è svolta ieri a Torino la cerimonia di premiazione.", altAnswers: ["Si è tenuta ieri a Torino la cerimonia di premiazione.", "Si è svolta ieri a Torino la cerimonia di consegna dei premi."], explanation: "News openings put the verb first and the event last." },
@@ -73,7 +78,7 @@ export const IT_C1_U03: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, with the subject last.", source: "The train from Bari has arrived.", answer: "È arrivato il treno da Bari.", altAnswers: ["È arrivato il treno di Bari."], explanation: "New subject after the verb." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (with the stress on Marco).", source: "Marco said it, not me.", answer: "L'ha detto Marco, non io.", altAnswers: ["Lo ha detto Marco, non io."], explanation: "The new, stressed element goes last." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian (news style, verb first).", source: "The new underground line will be opened tomorrow.", answer: "Sarà inaugurata domani la nuova linea della metropolitana.", altAnswers: ["Verrà inaugurata domani la nuova linea della metropolitana."], explanation: "News inversion: verb, time, subject." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian (news style, verb first).", source: "The new subway line will be opened tomorrow.", answer: "Sarà inaugurata domani la nuova linea della metropolitana.", altAnswers: ["Verrà inaugurata domani la nuova linea della metropolitana."], explanation: "News inversion: verb, time, subject." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (literary style).", source: "Then a man dressed in black came in.", answer: "Entrò allora un uomo vestito di nero.", altAnswers: ["Allora entrò un uomo vestito di nero."], explanation: "Verb before the new subject." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, without se.", source: "Were it true, it would be a scandal.", answer: "Fosse vero, sarebbe uno scandalo.", explanation: "\"Fosse vero\" = \"se fosse vero\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If only I were twenty years younger!", answer: "Avessi vent'anni di meno!", altAnswers: ["Magari avessi vent'anni di meno!", "Se avessi vent'anni di meno!"], explanation: "Exclamative subjunctive without \"se\"." },
@@ -91,24 +96,25 @@ export const IT_C1_U03: Lesson[] = [
     number: 2,
     title: "The Infinitive as a Noun",
     summary: "Use the infinitive with an article as a noun: il viaggiare, il suo continuo lamentarsi, l'essere stato, al calar del sole.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Il viaggiare",
         body: [
-          "Any Italian infinitive can become a masculine singular noun with an article: \"il viaggiare\" (travelling), \"il mangiare\", \"lo scrivere\". English uses the -ing form for this; Italian uses the infinitive. Without the article, an infinitive subject is also fine: \"Viaggiare apre la mente\". The article makes it more formal and more noun-like: \"Il viaggiare apre la mente\".",
-          "Don't translate travelling with the gerund: \"*Viaggiando apre la mente\" is wrong, because the gerund is never a subject or object in Italian. This is the most common error of English speakers here.",
-          "The nominal infinitive keeps its verbal nature: it can take an object (\"il leggere romanzi\"), an adverb (\"il parlare piano\") and attached pronouns (\"il vedersi ogni giorno\").",
+          "Any Italian infinitive can become a masculine singular noun with an article: \"il viaggiare\" (traveling), \"il mangiare\", \"lo scrivere\". English uses the -ing form for this; Italian uses the infinitive. Without the article, an infinitive subject is also fine: \"Viaggiare apre la mente\". The article makes it more formal and more noun-like: \"Il viaggiare apre la mente\".",
+          "Don't translate traveling with the gerund: \"*Viaggiando apre la mente\" is wrong, because the gerund is never a subject or object in Italian. This is the most common error of English speakers here. And when a real noun exists, Italian usually prefers it: swimming is \"il nuoto\" (\"Il nuoto fa bene alla schiena\"), reading as an activity is often \"la lettura\". \"Il nuotare\" is possible but sounds deliberate.",
+          "The nominal infinitive keeps its verbal nature: it can take an object (\"il leggere romanzi\"), an adverb (\"il parlare piano\") and attached pronouns (\"il vedersi ogni giorno\"). That is the difference from the ordinary noun: \"il cambiamento\" is the change, a result; \"il cambiare idea ogni giorno\" is the act of changing your mind, a process you are watching.",
         ],
         examples: [
-          { es: "Il viaggiare apre la mente.", en: "Travelling broadens the mind." },
+          { es: "Il viaggiare apre la mente.", en: "Traveling broadens the mind." },
           { es: "Leggere romanzi mi rilassa.", en: "Reading novels relaxes me." },
           { es: "Il vedersi ogni giorno non li stancava.", en: "Seeing each other every day didn't tire them." },
           { es: "Lo scrivere a mano sta scomparendo.", en: "Handwriting is disappearing." },
           { es: "Il parlare piano è una forma di rispetto.", en: "Speaking quietly is a form of respect." },
+          { es: "Il nuoto fa bene alla schiena.", en: "Swimming is good for your back." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Travelling broadens the mind.", answer: "Il viaggiare apre la mente.", altAnswers: ["Viaggiare apre la mente."], explanation: "Infinitive as subject, with or without \"il\"; never the gerund." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Traveling broadens the mind.", answer: "Il viaggiare apre la mente.", altAnswers: ["Viaggiare apre la mente."], explanation: "Infinitive as subject, with or without \"il\"; never the gerund." },
           { type: "multiple-choice", question: "Which sentence is correct?", options: ["Leggere romanzi mi rilassa.", "Leggendo romanzi mi rilassa.", "La lettura romanzi mi rilassa.", "Il leggendo romanzi mi rilassa."], correctIndex: 0, explanation: "The subject is an infinitive: \"leggere\"." },
         ],
       },
@@ -123,7 +129,7 @@ export const IT_C1_U03: Lesson[] = [
           { es: "Non sopporto quel suo modo di fare.", en: "I can't stand the way he behaves." },
           { es: "L'aver sbagliato non è grave; il non averlo ammesso sì.", en: "Having made a mistake isn't serious; not having admitted it is." },
           { es: "L'essere stato in prigione lo segnò per sempre.", en: "Having been in prison marked him forever." },
-          { es: "Il dolce far niente delle vacanze.", en: "The sweet idleness of the holidays." },
+          { es: "Il dolce far niente delle vacanze.", en: "The sweet idleness of vacation." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "His constant complaining wears us out.", answer: "Il suo continuo lamentarsi ci esaurisce.", altAnswers: ["Il suo continuo lamentarsi ci sfinisce.", "Il suo lamentarsi continuo ci esaurisce."], explanation: "Article + possessive + adjective + infinitive with the pronoun attached." },
@@ -135,6 +141,7 @@ export const IT_C1_U03: Lesson[] = [
         body: [
           "Some nominal infinitives are fixed time expressions: \"al calar del sole\" (at sunset), \"al sorgere del sole\" (at sunrise), \"sul far della sera\" (at dusk), \"col passare del tempo\" (with the passing of time), \"nel fare\" (while doing). The final e often drops in these set phrases: \"calar\", \"far\".",
           "A few have become ordinary nouns with plurals: \"il dovere / i doveri\" (duty), \"il piacere / i piaceri\", \"il potere / i poteri\", \"il parere / i pareri\" (opinion), \"il sapere\" (knowledge), \"gli averi\" (possessions). These behave like any noun and take any article.",
+          "The preposition changes the meaning of the time phrase. \"Al\" + infinitive means at the moment when (\"all'aprirsi del sipario\", as the curtain rises); \"nel\" means while or in the act of (\"nel salire sul treno\"); \"col\" can mean by or as a result of (\"col lavorare troppo si è ammalato\", by working too much he fell ill). English uses -ing for all three.",
         ],
         examples: [
           { es: "Al calar del sole i pescatori tornarono in porto.", en: "At sunset the fishermen returned to port." },
@@ -142,6 +149,7 @@ export const IT_C1_U03: Lesson[] = [
           { es: "Nel fare le valigie ho dimenticato il passaporto.", en: "While packing I forgot my passport." },
           { es: "Ho chiesto il parere di due esperti.", en: "I asked two experts for their opinion." },
           { es: "I diritti e i doveri dei cittadini.", en: "The rights and duties of citizens." },
+          { es: "All'aprirsi del sipario, il pubblico tacque.", en: "As the curtain rose, the audience fell silent." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "With the passing of time the pain eased.", answer: "Col passare del tempo il dolore si attenuò.", altAnswers: ["Con il passare del tempo il dolore si attenuò.", "Col passare del tempo il dolore si è attenuato.", "Con il passare del tempo il dolore si è attenuato."], explanation: "\"Col passare del tempo\": fixed phrase with a nominal infinitive." },
@@ -172,7 +180,7 @@ export const IT_C1_U03: Lesson[] = [
         explanation: "Infinitives that have become ordinary nouns.",
       },
       { type: "dictation", audio: "L'aver sbagliato non è grave; il non averlo ammesso sì.", explanation: "Two past infinitives used as nouns." },
-      { type: "speak", text: "Il viaggiare apre la mente, ma il continuo spostarsi stanca anche il corpo.", prompt: "Say it in Italian: Travelling broadens the mind, but constantly moving around tires the body too.", tip: "\"Spostarsi\": the reflexive pronoun stays attached.", explanation: "Two nominal infinitives." },
+      { type: "speak", text: "Il viaggiare apre la mente, ma il continuo spostarsi stanca anche il corpo.", prompt: "Say it in Italian: Traveling broadens the mind, but constantly moving around tires the body too.", tip: "\"Spostarsi\": the reflexive pronoun stays attached.", explanation: "Two nominal infinitives." },
     ],
   },
   {
@@ -181,7 +189,7 @@ export const IT_C1_U03: Lesson[] = [
     number: 3,
     title: "Absolute Constructions",
     summary: "Write formal absolute participles and gerunds: terminata la riunione, considerato che, dato il ritardo, essendo assente il direttore.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "The absolute participle",
@@ -189,16 +197,19 @@ export const IT_C1_U03: Lesson[] = [
           "You met the absolute participle at Upper Intermediate level: \"Finita la cena, uscimmo\". In formal prose it is everywhere. The participle comes first and agrees with the noun that follows: \"Terminata la riunione\", \"Approvato il bilancio\", \"Concluse le indagini\", \"Visti i risultati\". It expresses time (once X was done) or cause (since X), and its subject can differ from the main clause.",
           "Pronouns attach to the participle: \"Firmatolo, lo consegnò\" (having signed it, he handed it over), \"Vistala arrivare, le andò incontro\". These forms are formal but alive in written Italian. With reflexive verbs the pronoun also attaches: \"Alzatosi, uscì\", \"Sedutasi, cominciò a parlare\".",
           "In English, translate with once, after, having or a full clause; never leave a dangling participle.",
+          "With verbs that take \"essere\", the participle agrees with its own subject: \"Partiti gli ospiti, sparecchiammo\", \"Arrivata la notizia, tutti tacquero\". In everyday Italian the same construction lives on after \"una volta\" and \"appena\": \"Una volta finiti i compiti, puoi uscire\", \"Appena arrivata, mi ha chiamato\". So the absolute participle is not only bureaucratic; it is how Italians naturally say once X is done.",
         ],
         examples: [
-          { es: "Terminata la riunione, i consiglieri lasciarono la sala.", en: "Once the meeting was over, the councillors left the room." },
+          { es: "Terminata la riunione, i consiglieri lasciarono la sala.", en: "Once the meeting was over, the council members left the room." },
           { es: "Approvato il bilancio, l'assemblea si sciolse.", en: "The budget having been approved, the assembly broke up." },
           { es: "Concluse le indagini, il caso fu archiviato.", en: "Once the investigation was closed, the case was dismissed." },
           { es: "Firmatolo, lo consegnò al notaio.", en: "Having signed it, he handed it to the notary." },
           { es: "Sedutasi, la presidente cominciò a parlare.", en: "Once she had sat down, the chairwoman began to speak." },
+          { es: "Partiti gli ospiti, sparecchiammo in silenzio.", en: "Once the guests had left, we cleared the table in silence." },
+          { es: "Una volta finiti i compiti, puoi uscire.", en: "Once your homework is done, you can go out." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian, with an absolute participle.", source: "Once the meeting was over, the councillors left the room.", answer: "Terminata la riunione, i consiglieri lasciarono la sala.", altAnswers: ["Terminata la riunione, i consiglieri hanno lasciato la sala.", "Finita la riunione, i consiglieri lasciarono la sala.", "Conclusa la riunione, i consiglieri lasciarono la sala."], explanation: "Participle first, agreeing with \"riunione\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian, with an absolute participle.", source: "Once the meeting was over, the council members left the room.", answer: "Terminata la riunione, i consiglieri lasciarono la sala.", altAnswers: ["Terminata la riunione, i consiglieri hanno lasciato la sala.", "Finita la riunione, i consiglieri lasciarono la sala.", "Conclusa la riunione, i consiglieri lasciarono la sala."], explanation: "Participle first, agreeing with \"riunione\"." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Having signed it], he handed it to the notary.", sentence: "___, lo consegnò al notaio.", answer: "Firmatolo", explanation: "Pronoun attached to the absolute participle." },
         ],
       },
@@ -217,21 +228,23 @@ export const IT_C1_U03: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian (formal style).", source: "Given the time, you'd better take a taxi.", answer: "Data l'ora, vi conviene prendere un taxi.", altAnswers: ["Data l'ora, ti conviene prendere un taxi.", "Data l'ora, Le conviene prendere un taxi.", "Vista l'ora, vi conviene prendere un taxi.", "Vista l'ora, ti conviene prendere un taxi."], explanation: "\"Data\" agrees with \"l'ora\"." },
-          { type: "multiple-choice", question: "Which is correct?", options: ["Viste le circostanze", "Visto le circostanze", "Vista le circostanze", "Visti le circostanze"], correctIndex: 0, explanation: "Agreement with \"circostanze\" (feminine plural); \"visto le\" is heard but avoided in careful writing." },
+          { type: "multiple-choice", question: "Which is correct?", options: ["Viste le circostanze", "Vista la circostanze", "Vista le circostanze", "Visti le circostanze"], correctIndex: 0, explanation: "Agreement with \"circostanze\" (feminine plural). An invariable \"visto le circostanze\" is also heard, but the agreeing form is the careful written choice." },
         ],
       },
       {
         heading: "The absolute gerund",
         body: [
-          "The gerund can also have its own subject, placed after it: \"Essendo assente il direttore, la riunione fu rinviata\" (the director being absent...). \"Stando così le cose\" (this being the case) and \"Permettendolo il tempo\" (weather permitting) are fixed formal phrases. This construction is formal and written; in speech use \"siccome\" or \"dato che\".",
+          "The gerund can also have its own subject, placed after it: \"Essendo assente il direttore, la riunione fu rinviata\" (the director being absent...). \"Stando così le cose\" (this being the case) and \"tempo permettendo\" (weather permitting; in very old-fashioned prose \"permettendolo il tempo\") are fixed formal phrases. This construction is formal and written; in speech use \"siccome\" or \"dato che\".",
+          "Two gerund forms complete the picture. The compound gerund marks an earlier action (\"Avendo finito il lavoro, uscì\", having finished), and \"pur\" + gerund makes a concession with the same subject (\"Pur essendo stanco, è venuto alla festa\", although he was tired). Both are common in good written Italian and not at all old-fashioned.",
           "Watch the same-subject rule. A gerund without its own subject refers to the subject of the main clause: \"*Essendo malato, il medico mi ha visitato\" means the doctor was ill. If you mean I was ill, write \"Siccome ero malato, il medico mi ha visitato\".",
         ],
         examples: [
           { es: "Essendo assente il direttore, la riunione fu rinviata.", en: "As the director was absent, the meeting was postponed." },
           { es: "Stando così le cose, non abbiamo scelta.", en: "This being the case, we have no choice." },
-          { es: "Permettendolo il tempo, la cerimonia si terrà all'aperto.", en: "Weather permitting, the ceremony will be held outdoors." },
+          { es: "Tempo permettendo, la cerimonia si terrà all'aperto.", en: "Weather permitting, the ceremony will be held outdoors." },
           { es: "Siccome ero malato, il medico è venuto a casa.", en: "Since I was ill, the doctor came to my home." },
           { es: "Volendo, si può prenotare online.", en: "If you like, you can book online." },
+          { es: "Pur essendo stanco, è venuto alla festa.", en: "Although he was tired, he came to the party." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian (formal style, absolute gerund).", source: "This being the case, we have no choice.", answer: "Stando così le cose, non abbiamo scelta.", altAnswers: ["Stando così le cose, non abbiamo alternative."], explanation: "Fixed absolute gerund: \"stando così le cose\"." },
@@ -244,7 +257,7 @@ export const IT_C1_U03: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, with an absolute participle.", source: "Once the investigation was closed, the case was dismissed.", answer: "Concluse le indagini, il caso fu archiviato.", altAnswers: ["Concluse le indagini, il caso è stato archiviato.", "Chiuse le indagini, il caso fu archiviato."], explanation: "\"Concluse\" agrees with \"indagini\" (feminine plural)." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (formal style).", source: "Given the delay, the conference has been postponed.", answer: "Dato il ritardo, il convegno è stato rinviato.", altAnswers: ["Dato il ritardo, il convegno è stato rimandato.", "Visto il ritardo, il convegno è stato rinviato."], explanation: "\"Dato\" + masculine noun." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (formal style).", source: "Except for two students, everyone passed the exam.", answer: "Fatta eccezione per due studenti, tutti hanno superato l'esame.", altAnswers: ["Fatta eccezione per due studenti, tutti hanno passato l'esame.", "Tranne due studenti, tutti hanno superato l'esame."], explanation: "\"Fatta eccezione per\" = except for." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian (formal style, absolute gerund).", source: "Weather permitting, the ceremony will be held outdoors.", answer: "Permettendolo il tempo, la cerimonia si terrà all'aperto.", altAnswers: ["Tempo permettendo, la cerimonia si terrà all'aperto."], explanation: "Formal absolute gerund; \"tempo permettendo\" is the common modern variant." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian (formal style, absolute gerund).", source: "Weather permitting, the ceremony will be held outdoors.", answer: "Tempo permettendo, la cerimonia si terrà all'aperto.", altAnswers: ["Permettendolo il tempo, la cerimonia si terrà all'aperto."], explanation: "\"Tempo permettendo\": a fixed absolute gerund with its own subject; \"permettendolo il tempo\" is the old-fashioned order." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (formal style).", source: "Considering that the funds have run out, the project stops.", answer: "Considerato che i fondi sono esauriti, il progetto si ferma.", altAnswers: ["Considerato che i fondi si sono esauriti, il progetto si ferma.", "Dato che i fondi sono esauriti, il progetto si ferma."], explanation: "\"Considerato che\" + indicative, invariable." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Once she had sat down], the chairwoman began to speak.", sentence: "___, la presidente cominciò a parlare.", answer: "Sedutasi", explanation: "Reflexive pronoun attached, feminine agreement." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Given the costs], we will postpone the work.", sentence: "___, rinvieremo i lavori.", answer: "Dati i costi", altAnswers: ["Visti i costi", "Considerati i costi"], explanation: "Agreement: \"dati\" + masculine plural." },
@@ -260,7 +273,7 @@ export const IT_C1_U03: Lesson[] = [
     number: 4,
     title: "Building Long Sentences",
     summary: "Build long, clear hypotactic sentences with subordinate chains, relative links like il che and il quale, and the punctuation that holds them together.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "One main clause, many supports",
@@ -268,16 +281,18 @@ export const IT_C1_U03: Lesson[] = [
           "Formal Italian prose tolerates, and often prefers, sentences much longer than English: forty or fifty words are normal in an essay or a report. The secret is hypotaxis: one main clause carries the message, and subordinate clauses hang from it, each adding cause, time, concession, purpose or condition.",
           "Build from the core outwards. Core: \"Il comune ha deciso di chiudere il centro storico al traffico\". Add cause: \"poiché i livelli di inquinamento avevano superato i limiti\". Add concession: \"nonostante le proteste dei commercianti\". Add purpose: \"affinché i residenti possano respirare un'aria più pulita\". Then order: \"Nonostante le proteste dei commercianti, il comune ha deciso di chiudere il centro storico al traffico, poiché i livelli di inquinamento avevano superato i limiti, affinché i residenti possano respirare un'aria più pulita.\"",
           "Check the moods as you go: \"nonostante\" and \"affinché\" + subjunctive, \"poiché\" + indicative. In a long sentence a wrong mood is easy to miss.",
+          "Length is not the goal; clarity is. Keep the subject close to its verb and the auxiliary close to its participle: \"Il comune, dopo mesi di discussioni, ha deciso\" is fine, but an inserted clause of thirty words between \"ha\" and \"deciso\" loses the reader. If a sentence needs more than three levels of subordination, split it.",
         ],
         examples: [
-          { es: "Il comune ha deciso di chiudere il centro storico al traffico.", en: "The council has decided to close the historic centre to traffic." },
-          { es: "Nonostante le proteste dei commercianti, il comune ha deciso di chiudere il centro.", en: "Despite the shopkeepers' protests, the council has decided to close the centre." },
+          { es: "Il comune ha deciso di chiudere il centro storico al traffico.", en: "The council has decided to close the historic center to traffic." },
+          { es: "Nonostante le proteste dei commercianti, il comune ha deciso di chiudere il centro.", en: "Despite the shopkeepers' protests, the council has decided to close the center." },
           { es: "Poiché i livelli di inquinamento avevano superato i limiti, si è intervenuti.", en: "Since pollution levels had exceeded the limits, action was taken." },
           { es: "Si sono piantati mille alberi affinché i residenti possano respirare un'aria più pulita.", en: "A thousand trees have been planted so that residents can breathe cleaner air." },
           { es: "Benché il progetto fosse costoso, fu approvato all'unanimità.", en: "Although the project was expensive, it was approved unanimously." },
+          { es: "Il comune, dopo mesi di discussioni, ha deciso di procedere.", en: "After months of discussion, the council has decided to go ahead." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian (formal style).", source: "Despite the shopkeepers' protests, the council has decided to close the centre.", answer: "Nonostante le proteste dei commercianti, il comune ha deciso di chiudere il centro.", altAnswers: ["Malgrado le proteste dei commercianti, il comune ha deciso di chiudere il centro.", "Il comune ha deciso di chiudere il centro nonostante le proteste dei commercianti."], explanation: "\"Nonostante\" + noun; the main clause carries the message." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian (formal style).", source: "Despite the shopkeepers' protests, the council has decided to close the center.", answer: "Nonostante le proteste dei commercianti, il comune ha deciso di chiudere il centro.", altAnswers: ["Malgrado le proteste dei commercianti, il comune ha deciso di chiudere il centro.", "Il comune ha deciso di chiudere il centro nonostante le proteste dei commercianti."], explanation: "\"Nonostante\" + noun; the main clause carries the message." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "A thousand trees have been planted so that residents [can breathe] cleaner air.", sentence: "Si sono piantati mille alberi affinché i residenti ___ un'aria più pulita.", answer: "possano respirare", explanation: "\"Affinché\" + subjunctive." },
         ],
       },
@@ -291,12 +306,12 @@ export const IT_C1_U03: Lesson[] = [
         examples: [
           { es: "Ho scritto alla sorella di Marco, la quale vive a Londra.", en: "I wrote to Marco's sister, who lives in London." },
           { es: "Il progetto al quale lavoriamo da un anno è quasi finito.", en: "The project we have been working on for a year is almost finished." },
-          { es: "Il treno è stato cancellato, il che ha creato molti disagi.", en: "The train was cancelled, which caused a lot of disruption." },
+          { es: "Il treno è stato cancellato, il che ha creato molti disagi.", en: "The train was canceled, which caused a lot of disruption." },
           { es: "Non ha risposto, il che mi sembra strano.", en: "He hasn't answered, which seems strange to me." },
           { es: "Ciò che conta è il risultato.", en: "What counts is the result." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The train was cancelled, which caused a lot of disruption.", answer: "Il treno è stato cancellato, il che ha creato molti disagi.", altAnswers: ["Il treno è stato cancellato, cosa che ha creato molti disagi.", "Il treno è stato soppresso, il che ha creato molti disagi."], explanation: "\"Il che\" refers to the whole event, not the train." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The train was canceled, which caused a lot of disruption.", answer: "Il treno è stato cancellato, il che ha creato molti disagi.", altAnswers: ["Il treno è stato cancellato, cosa che ha creato molti disagi.", "Il treno è stato soppresso, il che ha creato molti disagi."], explanation: "\"Il che\" refers to the whole event, not the train." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian, making clear the sister lives in London.", source: "I wrote to Marco's sister, who lives in London.", answer: "Ho scritto alla sorella di Marco, la quale vive a Londra.", explanation: "\"La quale\" removes the ambiguity of \"che\"." },
         ],
       },
@@ -307,15 +322,15 @@ export const IT_C1_U03: Lesson[] = [
           "The semicolon separates long coordinated blocks that already contain commas; the colon introduces an explanation, a list or a consequence: \"Il motivo è semplice: mancano i fondi\". Italian uses the colon more than English, often where English uses a dash or because.",
         ],
         examples: [
-          { es: "Tutti gli studenti iscritti al corso devono presentarsi alle nove.", en: "All the students enrolled on the course must report at nine." },
+          { es: "Tutti gli studenti iscritti al corso devono presentarsi alle nove.", en: "All the students enrolled in the course must report at nine." },
           { es: "Il sindaco, a quanto pare, si dimetterà.", en: "The mayor, it seems, will resign." },
-          { es: "I treni che erano in ritardo sono stati cancellati.", en: "The trains that were late have been cancelled." },
-          { es: "I treni, che erano in ritardo, sono stati cancellati.", en: "The trains, which were late, have been cancelled." },
+          { es: "I treni che erano in ritardo sono stati cancellati.", en: "The trains that were late have been canceled." },
+          { es: "I treni, che erano in ritardo, sono stati cancellati.", en: "The trains, which were late, have been canceled." },
           { es: "Il motivo è semplice: mancano i fondi.", en: "The reason is simple: there's no money." },
         ],
         checkpoint: [
           { type: "multiple-choice", question: "Which sentence is punctuated correctly?", options: ["Tutti gli studenti iscritti al corso devono presentarsi alle nove.", "Tutti gli studenti iscritti al corso, devono presentarsi alle nove.", "Tutti gli studenti, iscritti al corso devono presentarsi alle nove.", "Tutti gli studenti iscritti, al corso devono presentarsi alle nove."], correctIndex: 0, explanation: "No comma between subject and verb, however long the subject." },
-          { type: "listen-choose", audio: "I treni che erano in ritardo sono stati cancellati.", question: "Which trains were cancelled?", options: ["Only the late ones", "All the trains", "None of the trains", "Only the early ones"], correctIndex: 0, explanation: "No pause, no commas: a restrictive relative, only the late trains." },
+          { type: "listen-choose", audio: "I treni che erano in ritardo sono stati cancellati.", question: "Which trains were canceled?", options: ["Only the late ones", "All the trains", "None of the trains", "Only the early ones"], correctIndex: 0, explanation: "No pause, no commas: a restrictive relative, only the late trains." },
         ],
       },
     ],
@@ -328,10 +343,10 @@ export const IT_C1_U03: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The reason is simple: there's no money.", answer: "Il motivo è semplice: mancano i fondi.", altAnswers: ["Il motivo è semplice: mancano i soldi.", "La ragione è semplice: mancano i fondi."], explanation: "The colon introduces the explanation." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Since] pollution levels had exceeded the limits, action was taken.", sentence: "___ i livelli di inquinamento avevano superato i limiti, si è intervenuti.", answer: "Poiché", altAnswers: ["Siccome", "Dato che", "Visto che"], explanation: "\"Poiché\" + indicative; it can open the sentence." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I wrote to the professor, [whose] book I had read.", sentence: "Ho scritto al professore, ___ libro avevo letto.", answer: "il cui", explanation: "\"Il cui\" + noun = whose." },
-      { type: "word-order", prompt: "Put the words in order to say: The trains, which were late, have been cancelled.", words: ["I", "treni,", "che", "erano", "in", "ritardo,", "sono", "stati", "cancellati."], translation: "The trains, which were late, have been cancelled.", explanation: "Commas make the relative non-restrictive: all the trains." },
+      { type: "word-order", prompt: "Put the words in order to say: The trains, which were late, have been canceled.", words: ["I", "treni,", "che", "erano", "in", "ritardo,", "sono", "stati", "cancellati."], translation: "The trains, which were late, have been canceled.", explanation: "Commas make the relative non-restrictive: all the trains." },
       { type: "multiple-choice", question: "Which version of the sentence avoids the chain of che?", options: ["Il libro prestatomi da Giulia, che parla di Venezia, è bellissimo.", "Il libro che mi hai prestato che parla di Venezia che è bellissimo.", "Il libro che Giulia mi ha prestato che parla di Venezia è bellissimo.", "Il libro che che parla di Venezia è bellissimo."], correctIndex: 0, explanation: "A participle (\"prestatomi\") replaces one relative clause." },
       { type: "dictation", audio: "Il treno è stato cancellato, il che ha creato molti disagi.", explanation: "\"Il che\": which, referring to the whole clause." },
-      { type: "speak", text: "Nonostante le proteste, il comune ha chiuso il centro al traffico, il che ha migliorato la qualità dell'aria.", prompt: "Say it in Italian: Despite the protests, the council closed the centre to traffic, which improved air quality.", tip: "A short pause at each comma.", explanation: "Concession, main clause, \"il che\"." },
+      { type: "speak", text: "Nonostante le proteste, il comune ha chiuso il centro al traffico, il che ha migliorato la qualità dell'aria.", prompt: "Say it in Italian: Despite the protests, the council closed the center to traffic, which improved air quality.", tip: "A short pause at each comma.", explanation: "Concession, main clause, \"il che\"." },
     ],
   },
   {
@@ -353,7 +368,7 @@ export const IT_C1_U03: Lesson[] = [
           { es: "Dopo che la lezione era terminata, uscimmo. → Terminata la lezione, uscimmo.", en: "After the lesson had ended, we went out. → Once the lesson was over, we went out." },
           { es: "Il ministro ha detto: «Basta». → «Basta», ha detto il ministro.", en: "The minister said: \"Enough\". → \"Enough\", said the minister." },
           { es: "Correre ogni mattina mi fa bene. → Il correre ogni mattina mi fa bene.", en: "Running every morning does me good." },
-          { es: "Siccome il tempo lo permetteva, uscimmo. → Permettendolo il tempo, uscimmo.", en: "Since the weather allowed it, we went out. → Weather permitting, we went out." },
+          { es: "Siccome il direttore era assente, la riunione fu rinviata. → Essendo assente il direttore, la riunione fu rinviata.", en: "Since the director was absent, the meeting was postponed." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian, with an absolute participle.", source: "Once the lesson was over, we went out.", answer: "Terminata la lezione, uscimmo.", altAnswers: ["Finita la lezione, uscimmo.", "Terminata la lezione, siamo usciti.", "Finita la lezione, siamo usciti.", "Finita la lezione, siamo uscite.", "Terminata la lezione, siamo uscite."], explanation: "\"Terminata\" agrees with \"lezione\"." },
@@ -368,7 +383,7 @@ export const IT_C1_U03: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (formal style).", source: "In view of the difficulties, we will postpone the trip.", answer: "Viste le difficoltà, rinvieremo il viaggio.", altAnswers: ["Viste le difficoltà, rimanderemo il viaggio.", "Date le difficoltà, rinvieremo il viaggio.", "Considerate le difficoltà, rinvieremo il viaggio."], explanation: "\"Viste\" agrees with \"difficoltà\" (feminine plural)." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (news style, verb first).", source: "The new museum opened yesterday in Naples.", answer: "Ha aperto ieri a Napoli il nuovo museo.", altAnswers: ["È stato inaugurato ieri a Napoli il nuovo museo.", "Si è aperto ieri a Napoli il nuovo museo."], explanation: "News: verb, time, place, subject." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Running every morning does me good.", answer: "Correre ogni mattina mi fa bene.", altAnswers: ["Il correre ogni mattina mi fa bene."], explanation: "Infinitive subject, never the gerund." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Her constant apologising irritates me.", answer: "Il suo continuo scusarsi mi irrita.", altAnswers: ["Il suo continuo scusarsi mi dà fastidio.", "Il suo scusarsi continuo mi irrita."], explanation: "Nominal infinitive with possessive and adjective." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Her constant apologizing irritates me.", answer: "Il suo continuo scusarsi mi irrita.", altAnswers: ["Il suo continuo scusarsi mi dà fastidio.", "Il suo scusarsi continuo mi irrita."], explanation: "Nominal infinitive with possessive and adjective." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Prices went up, which surprised no one.", answer: "I prezzi sono aumentati, il che non ha sorpreso nessuno.", altAnswers: ["I prezzi sono saliti, il che non ha sorpreso nessuno.", "I prezzi aumentarono, il che non sorprese nessuno."], explanation: "\"Il che\" for the whole clause." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (formal style, absolute gerund).", source: "As the president was ill, the vice-president spoke.", answer: "Essendo malato il presidente, parlò il vicepresidente.", altAnswers: ["Essendo il presidente malato, parlò il vicepresidente.", "Essendo malato il presidente, ha parlato il vicepresidente."], explanation: "Absolute gerund with its own subject." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Given the hour], the shops were closed.", sentence: "___, i negozi erano chiusi.", answer: "Data l'ora", altAnswers: ["Vista l'ora", "Considerata l'ora"], explanation: "\"Data\" agrees with \"ora\"." },
@@ -378,7 +393,7 @@ export const IT_C1_U03: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Were it] possible, we'd leave tomorrow.", sentence: "___ possibile, partiremmo domani.", answer: "Fosse", explanation: "Subjunctive first, no \"se\"." },
       { type: "dictation", audio: "Approvato il bilancio, la seduta fu tolta.", explanation: "\"Togliere la seduta\" = to close a session." },
       { type: "dictation", audio: "Stando così le cose, non resta che aspettare.", explanation: "\"Non resta che\" = all that's left is." },
-      { type: "speak", text: "Terminata la riunione e approvato il bilancio, i consiglieri lasciarono la sala.", prompt: "Say it in Italian: Once the meeting was over and the budget approved, the councillors left the room.", tip: "\"Terminata\" / \"approvato\": each agrees with its own noun.", explanation: "Two absolute participles." },
+      { type: "speak", text: "Terminata la riunione e approvato il bilancio, i consiglieri lasciarono la sala.", prompt: "Say it in Italian: Once the meeting was over and the budget approved, the council members left the room.", tip: "\"Terminata\" / \"approvato\": each agrees with its own noun.", explanation: "Two absolute participles." },
     ],
   },
   {
@@ -386,7 +401,7 @@ export const IT_C1_U03: Lesson[] = [
     level: "IT-C1",
     number: 6,
     title: "Reading Lab: Formal Prose",
-    summary: "Read an essay passage on slowness and the modern city, and analyse how its long sentences are built.",
+    summary: "Read an essay passage on slowness and the modern city, and analyze how its long sentences are built.",
     duration: "19 min",
     sections: [
       {
@@ -414,14 +429,14 @@ export const IT_C1_U03: Lesson[] = [
           "The author also uses the nominal infinitive \"il camminare\" and the formal \"ciò\" to refer back. These choices give the text its essayistic register without making it obscure.",
         ],
         examples: [
-          { es: "Chiusi al traffico alcuni quartieri, molte città hanno riscoperto il camminare.", en: "Having closed some neighbourhoods to traffic, many cities have rediscovered walking." },
-          { es: "I residenti passano più tempo nelle strade, il che rafforza i legami tra vicini.", en: "Residents spend more time in the streets, which strengthens ties between neighbours." },
+          { es: "Chiusi al traffico alcuni quartieri, molte città hanno riscoperto il camminare.", en: "Having closed some neighborhoods to traffic, many cities have rediscovered walking." },
+          { es: "I residenti passano più tempo nelle strade, il che rafforza i legami tra vicini.", en: "Residents spend more time in the streets, which strengthens ties between neighbors." },
           { es: "Ciò dimostra che la lentezza ha anche un valore sociale.", en: "This shows that slowness also has a social value." },
           { es: "La conclusione è evidente: rallentare non è un lusso, ma una necessità.", en: "The conclusion is clear: slowing down is not a luxury but a necessity." },
           { es: "Resta da capire chi possa permettersi di rallentare.", en: "It remains to be seen who can afford to slow down." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Residents spend more time in the streets, which strengthens ties between neighbours.", answer: "I residenti passano più tempo nelle strade, il che rafforza i legami tra vicini.", altAnswers: ["I residenti passano più tempo per strada, il che rafforza i legami tra vicini.", "I residenti trascorrono più tempo nelle strade, il che rafforza i legami tra vicini."], explanation: "\"Il che\" refers to the whole first clause." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Residents spend more time in the streets, which strengthens ties between neighbors.", answer: "I residenti passano più tempo nelle strade, il che rafforza i legami tra vicini.", altAnswers: ["I residenti passano più tempo per strada, il che rafforza i legami tra vicini.", "I residenti trascorrono più tempo nelle strade, il che rafforza i legami tra vicini."], explanation: "\"Il che\" refers to the whole first clause." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It remains to be seen who [can afford] to slow down.", sentence: "Resta da capire chi ___ di rallentare.", answer: "possa permettersi", altAnswers: ["si possa permettere", "può permettersi"], explanation: "An indirect question in formal style takes the subjunctive." },
         ],
       },
@@ -432,13 +447,13 @@ export const IT_C1_U03: Lesson[] = [
           "Note too \"piuttosto\" (rather) set between commas as an inciso, and the final sentence beginning with \"Resta da\": essays often end with an open question rather than a firm conclusion.",
         ],
         examples: [
-          { es: "Molte città hanno chiuso alcuni quartieri alle macchine.", en: "Many cities have closed some neighbourhoods to cars." },
+          { es: "Molte città hanno chiuso alcuni quartieri alle macchine.", en: "Many cities have closed some neighborhoods to cars." },
           { es: "La gente ha ricominciato a camminare.", en: "People have started walking again." },
           { es: "Significa, piuttosto, scegliere.", en: "It means, rather, choosing." },
           { es: "Resta da vedere se questa tendenza durerà.", en: "It remains to be seen whether this trend will last." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian (essay style, with an absolute participle).", source: "Having closed some neighbourhoods to traffic, many cities have rediscovered walking.", answer: "Chiusi al traffico alcuni quartieri, molte città hanno riscoperto il camminare.", altAnswers: ["Chiusi alcuni quartieri al traffico, molte città hanno riscoperto il camminare."], explanation: "\"Chiusi\" agrees with \"quartieri\"; \"il camminare\" is a nominal infinitive." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian (essay style, with an absolute participle).", source: "Having closed some neighborhoods to traffic, many cities have rediscovered walking.", answer: "Chiusi al traffico alcuni quartieri, molte città hanno riscoperto il camminare.", altAnswers: ["Chiusi alcuni quartieri al traffico, molte città hanno riscoperto il camminare."], explanation: "\"Chiusi\" agrees with \"quartieri\"; \"il camminare\" is a nominal infinitive." },
           { type: "listen-choose", audio: "La conclusione è evidente: rallentare non è un lusso, ma una necessità.", question: "What is the author's conclusion?", options: ["Slowing down is a necessity, not a luxury.", "Slowing down is a luxury for the rich.", "Cities should be faster.", "Walking is dangerous in cities."], correctIndex: 0, explanation: "\"Non è un lusso, ma una necessità\"." },
         ],
       },
@@ -463,7 +478,7 @@ export const IT_C1_U03: Lesson[] = [
         ],
         explanation: "Key words of the essay.",
       },
-      { type: "multiple-choice", question: "Why does the essay end with \"Resta da capire chi possa permettersi di rallentare\"?", options: ["To open a further question about inequality", "To contradict the thesis completely", "To summarise the examples", "To thank the reader"], correctIndex: 0, explanation: "Essays often close by opening a new question." },
+      { type: "multiple-choice", question: "Why does the essay end with \"Resta da capire chi possa permettersi di rallentare\"?", options: ["To open a further question about inequality", "To contradict the thesis completely", "To summarize the examples", "To thank the reader"], correctIndex: 0, explanation: "Essays often close by opening a new question." },
       { type: "dictation", audio: "Ciò dimostra che la lentezza ha anche un valore sociale.", explanation: "\"Ciò\": formal this." },
       { type: "speak", text: "Rivendicare il diritto alla lentezza non significa rifiutare il progresso, ma scegliere il ritmo della propria vita.", prompt: "Read the essay's key sentence aloud: Claiming the right to slowness doesn't mean rejecting progress, but choosing the pace of one's own life.", tip: "Stress the contrast: \"non... ma\".", explanation: "Three infinitives in one sentence." },
     ],
@@ -480,7 +495,7 @@ export const IT_C1_U03: Lesson[] = [
         heading: "Run-ons and fragments",
         body: [
           "These sentences come from learners' formal writing. The first family is structural. A run-on joins two main clauses with a comma alone: \"*Il progetto è costoso, il comune non ha i fondi\". Italian needs a connector or stronger punctuation: \"Il progetto è costoso e il comune non ha i fondi\", \"Il progetto è costoso; il comune, inoltre, non ha i fondi\", or a subordinate: \"Poiché il comune non ha i fondi, ...\".",
-          "A fragment is a subordinate clause left without its main clause: \"*Benché il progetto fosse stato approvato.\" As a full stop ends it, the reader waits for the rest. Join it to the main clause: \"Benché il progetto fosse stato approvato, i lavori non cominciarono\".",
+          "A fragment is a subordinate clause left without its main clause: \"*Benché il progetto fosse stato approvato.\" As a period ends it, the reader waits for the rest. Join it to the main clause: \"Benché il progetto fosse stato approvato, i lavori non cominciarono\".",
         ],
         examples: [
           { es: "Il progetto è costoso e il comune non ha i fondi.", en: "The project is expensive and the council doesn't have the funds." },
@@ -520,21 +535,21 @@ export const IT_C1_U03: Lesson[] = [
         examples: [
           { es: "La decisione presa ieri dal consiglio ha sorpreso tutti.", en: "The decision taken yesterday by the board surprised everyone." },
           { es: "Il direttore, come previsto, si è dimesso.", en: "The director, as expected, has resigned." },
-          { es: "Gli studenti che non hanno pagato non possono iscriversi.", en: "Students who haven't paid cannot enrol." },
+          { es: "Gli studenti che non hanno pagato non possono iscriversi.", en: "Students who haven't paid cannot enroll." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "A learner wrote \"Il direttore, come previsto si è dimesso\". Write it correctly: The director, as expected, has resigned.", source: "The director, as expected, has resigned.", answer: "Il direttore, come previsto, si è dimesso.", explanation: "An inciso needs a comma on both sides." },
-          { type: "listen-choose", audio: "Gli studenti che non hanno pagato non possono iscriversi.", question: "Who cannot enrol?", options: ["Only the students who haven't paid", "All the students", "Students who have paid", "Nobody"], correctIndex: 0, explanation: "Restrictive relative, no commas: only those who haven't paid." },
+          { type: "listen-choose", audio: "Gli studenti che non hanno pagato non possono iscriversi.", question: "Who cannot enroll?", options: ["Only the students who haven't paid", "All the students", "Students who have paid", "Nobody"], correctIndex: 0, explanation: "Restrictive relative, no commas: only those who haven't paid." },
         ],
       },
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"La decisione presa ieri dal consiglio, ha sorpreso tutti\". Write it correctly: The decision taken yesterday by the board surprised everyone.", source: "The decision taken yesterday by the board surprised everyone.", answer: "La decisione presa ieri dal consiglio ha sorpreso tutti.", explanation: "No comma between subject and verb." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Viste il problema, abbiamo chiamato un tecnico\". Write it correctly: Given the problem, we called a technician.", source: "Given the problem, we called a technician.", answer: "Visto il problema, abbiamo chiamato un tecnico.", altAnswers: ["Dato il problema, abbiamo chiamato un tecnico."], explanation: "\"Visto\" agrees with \"problema\" (masculine)." },
-      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Il treno è stato cancellato, che ha creato disagi\". Write it correctly: The train was cancelled, which caused disruption.", source: "The train was cancelled, which caused disruption.", answer: "Il treno è stato cancellato, il che ha creato disagi.", altAnswers: ["Il treno è stato cancellato, cosa che ha creato disagi."], explanation: "For a whole clause: \"il che\"." },
-      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Viaggiando apre la mente\". Write it correctly: Travelling broadens the mind.", source: "Travelling broadens the mind.", answer: "Viaggiare apre la mente.", altAnswers: ["Il viaggiare apre la mente."], explanation: "The subject is an infinitive, never a gerund." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Il treno è stato cancellato, che ha creato disagi\". Write it correctly: The train was canceled, which caused disruption.", source: "The train was canceled, which caused disruption.", answer: "Il treno è stato cancellato, il che ha creato disagi.", altAnswers: ["Il treno è stato cancellato, cosa che ha creato disagi."], explanation: "For a whole clause: \"il che\"." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Viaggiando apre la mente\". Write it correctly: Traveling broadens the mind.", source: "Traveling broadens the mind.", answer: "Viaggiare apre la mente.", altAnswers: ["Il viaggiare apre la mente."], explanation: "The subject is an infinitive, never a gerund." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Essendo stanco, il capo mi ha mandato a casa\" meaning that she was tired. Write it correctly: Since I was tired, my boss sent me home.", source: "Since I was tired, my boss sent me home.", answer: "Siccome ero stanca, il capo mi ha mandato a casa.", altAnswers: ["Siccome ero stanco, il capo mi ha mandato a casa.", "Dato che ero stanca, il capo mi ha mandata a casa.", "Siccome ero stanca, il capo mi ha mandata a casa.", "Poiché ero stanca, il capo mi ha mandato a casa."], explanation: "The gerund would make the boss tired." },
-      { type: "fill-blank", prompt: "A learner wrote \"Firmato la lettera\". Write the Italian for the bold words.", en: "[Once the letter was signed], she posted it.", sentence: "___, la spedì.", answer: "Firmata la lettera", explanation: "Agreement with \"lettera\"." },
+      { type: "fill-blank", prompt: "A learner wrote \"Firmato la lettera\". Write the Italian for the bold words.", en: "[Once the letter was signed], she mailed it.", sentence: "___, la spedì.", answer: "Firmata la lettera", explanation: "Agreement with \"lettera\"." },
       { type: "fill-blank", prompt: "A learner wrote a run-on. Write the Italian for the bold word.", en: "The shop is closed, [so] we'll come back tomorrow.", sentence: "Il negozio è chiuso, ___ torneremo domani.", answer: "quindi", altAnswers: ["perciò", "per cui", "dunque"], explanation: "A connector joins the two main clauses." },
       { type: "word-order", prompt: "Put the words in order to say: Although it was late, the meeting continued.", words: ["Benché", "fosse", "tardi,", "la", "riunione", "continuò."], translation: "Although it was late, the meeting continued.", altOrders: [["La", "riunione", "continuò", "benché", "fosse", "tardi."]], explanation: "Subordinate + main clause." },
       { type: "multiple-choice", question: "Which sentence is correct?", options: ["Il sindaco, secondo i giornali, si dimetterà.", "Il sindaco, secondo i giornali si dimetterà.", "Il sindaco secondo i giornali, si dimetterà.", "Il sindaco, secondo, i giornali si dimetterà."], correctIndex: 0, explanation: "The inciso is closed on both sides." },
@@ -742,7 +757,7 @@ export const IT_C1_U03: Lesson[] = [
         heading: "The closing formula",
         body: [
           "Italian academic ceremonies end with a fixed formula, pronounced by the rector: \"Dichiaro aperto l'anno accademico 2025-2026\". Before it, the speaker usually addresses the students directly with wishes, often in the subjunctive: \"Che questo sia per voi un anno di scoperte\".",
-          "The independent subjunctive (\"che sia\", \"possa\") expresses a wish; you will study it in Unit 7. Recognise it here as part of the ceremonial register.",
+          "The independent subjunctive (\"che sia\", \"possa\") expresses a wish; you will study it in Unit 7. Recognize it here as part of the ceremonial register.",
         ],
         examples: [
           { es: "Che questo sia per voi un anno di scoperte.", en: "May this be a year of discoveries for you." },

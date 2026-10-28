@@ -30,19 +30,19 @@ export const IT_B1_U15: Lesson[] = [
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If you like, I'll go with you. (to a friend)", answer: "Se vuoi, ti accompagno.", altAnswers: ["Ti accompagno, se vuoi.", "Se vuoi ti accompagno."], explanation: "\"Se\" + present; the present \"accompagno\" works for a near future." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[If it's sunny] tomorrow, we're going to the lake.", sentence: "___ domani, andiamo al lago.", answer: "Se c'è il sole", altAnswers: ["Se fa bel tempo", "Se c'è sole"], explanation: "Real condition: \"se\" + present indicative." },
-          { type: "multiple-choice", question: "How do you say: if it rains, I'll stay at home?", options: ["Se piove, resto a casa.", "Se piova, resto a casa.", "Se piovesse, resto a casa.", "Se piove, resterei a casa."], correctIndex: 0, explanation: "Real condition: present indicative in both clauses; no subjunctive, no conditional." },
+          { type: "multiple-choice", question: "How do you say: if it rains, I'll stay at home?", options: ["Se piove, resto a casa.", "Se piova, resto a casa.", "Se pioverebbe, resto a casa.", "Se piove, resterei a casa."], correctIndex: 0, explanation: "Real condition: present indicative in both clauses; no subjunctive, no conditional." },
         ],
       },
       {
         heading: "Se hai fame, mangia qualcosa",
         body: [
           "Advice and instructions put an imperative in the main clause: \"Se hai fame, mangia qualcosa\" (if you're hungry, eat something), \"Se hai bisogno, chiamami\" (if you need anything, call me). Pronouns attach to \"tu\", \"noi\" and \"voi\" commands as usual.",
-          "With \"Lei\" the command comes before: \"Se ha domande, mi chiami\" (if you have questions, call me), the standard phrasing at an office or in a shop.",
+          "With \"Lei\" the pronoun goes before the command: \"Se ha domande, mi chiami\" (if you have questions, call me), the standard phrasing at an office or in a shop.",
         ],
         examples: [
           { es: "Se hai fame, mangia qualcosa.", en: "If you're hungry, eat something." },
           { es: "Se hai bisogno, chiamami.", en: "If you need anything, call me." },
-          { es: "Se siete stanchi, riposatevi.", en: "If you're tired, have a rest. (plural)" },
+          { es: "Se siete stanchi, riposatevi.", en: "If you're tired, get some rest. (plural)" },
           { es: "Se ha domande, mi chiami.", en: "If you have any questions, call me. (polite)" },
           { es: "Se non ti piace, lascialo.", en: "If you don't like it, leave it." },
         ],
@@ -56,10 +56,11 @@ export const IT_B1_U15: Lesson[] = [
         body: [
           "Some \"se\" phrases are fixed and very frequent: \"se vuoi\" / \"se volete\" (if you like), \"se non sbaglio\" (if I'm not mistaken), \"se ti va\" (if you feel like it), \"se possibile\" (if possible), \"se non altro\" (if nothing else, at least).",
           "\"Se no\" or \"sennò\" means otherwise: \"Sbrigati, sennò perdiamo il treno\" (hurry up, otherwise we'll miss the train).",
+          "Two quick warnings. If you know Spanish or French, watch the spelling: if is always \"se\" in Italian, while \"si\" is the pronoun (\"si chiama\", \"si vede\"). And what if ...? needs no extra verb: \"E se piove?\", \"E se non viene nessuno?\".",
         ],
         examples: [
           { es: "Se non sbaglio, il museo chiude alle sette.", en: "If I'm not mistaken, the museum closes at seven." },
-          { es: "Se ti va, stasera andiamo al cinema.", en: "If you feel like it, let's go to the cinema tonight." },
+          { es: "Se ti va, stasera andiamo al cinema.", en: "If you feel like it, let's go to the movies tonight." },
           { es: "Mi risponda, se possibile, entro venerdì.", en: "Please reply, if possible, by Friday. (polite)" },
           { es: "Sbrigati, sennò perdiamo il treno.", en: "Hurry up, otherwise we'll miss the train." },
         ],
@@ -73,14 +74,14 @@ export const IT_B1_U15: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If it rains, I take my umbrella.", answer: "Se piove, prendo l'ombrello.", altAnswers: ["Se piove prendo l'ombrello.", "Prendo l'ombrello se piove."], explanation: "\"Se\" + present indicative." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If I have time, I go to the gym.", answer: "Se ho tempo, vado in palestra.", altAnswers: ["Vado in palestra se ho tempo.", "Se ho tempo vado in palestra."], explanation: "A habit: present in both clauses." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If you're hungry, eat something. (to a friend)", answer: "Se hai fame, mangia qualcosa.", altAnswers: ["Mangia qualcosa se hai fame.", "Se hai fame mangia qualcosa."], explanation: "\"Avere fame\" = to be hungry; imperative in the main clause." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If you're tired, have a rest. (plural)", answer: "Se siete stanchi, riposatevi.", altAnswers: ["Se siete stanche, riposatevi.", "Riposatevi se siete stanchi."], explanation: "\"Voi\" command with \"vi\" attached." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If you feel like it, let's go to the cinema tonight.", answer: "Se ti va, stasera andiamo al cinema.", altAnswers: ["Se ti va, andiamo al cinema stasera.", "Stasera andiamo al cinema, se ti va."], explanation: "\"Se ti va\" = if you feel like it." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If you're tired, get some rest. (plural)", answer: "Se siete stanchi, riposatevi.", altAnswers: ["Se siete stanche, riposatevi.", "Riposatevi se siete stanchi."], explanation: "\"Voi\" command with \"vi\" attached." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If you feel like it, let's go to the movies tonight.", answer: "Se ti va, stasera andiamo al cinema.", altAnswers: ["Se ti va, andiamo al cinema stasera.", "Stasera andiamo al cinema, se ti va."], explanation: "\"Se ti va\" = if you feel like it." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If you heat ice, [it melts].", sentence: "Se scaldi il ghiaccio, ___.", answer: "si scioglie", explanation: "A general truth: present." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[If you don't like it], leave it. (to a friend)", sentence: "___, lascialo.", answer: "Se non ti piace", explanation: "\"Se\" + negative present." },
       { type: "word-order", prompt: "Put the words in order to say: If you want, I'll pick you up at the station.", words: ["Se", "vuoi,", "ti", "vengo", "a", "prendere", "alla", "stazione."], translation: "If you want, I'll pick you up at the station.", explanation: "\"Venire a prendere\" = to come and pick up." },
       { type: "multiple-choice", question: "A customer asks the hotel receptionist what to do if the heating doesn't work. What does the receptionist say?", options: ["Se non funziona, mi chiami.", "Se non funziona, chiamami.", "Se non funzionasse, mi chiamava.", "Se non funziona, mi chiamerebbe."], correctIndex: 0, explanation: "Polite \"Lei\" command: \"mi chiami\"." },
       { type: "dictation", audio: "Se ti va, ci vediamo dopo cena.", explanation: "\"Se ti va\": a fixed phrase." },
-      { type: "speak", text: "Se piove, restiamo a casa; se c'è il sole, andiamo al mare.", prompt: "Say it in Italian: If it rains, we'll stay at home; if it's sunny, we'll go to the seaside.", tip: "Pause slightly after each \"se\" clause.", explanation: "Two real conditions with the present." },
+      { type: "speak", text: "Se piove, restiamo a casa; se c'è il sole, andiamo al mare.", prompt: "Say it in Italian: If it rains, we'll stay at home; if it's sunny, we'll go to the beach.", tip: "Pause slightly after each \"se\" clause.", explanation: "Two real conditions with the present." },
     ],
   },
   {
@@ -97,6 +98,7 @@ export const IT_B1_U15: Lesson[] = [
           "English never puts will after if: if you come to Rome, I'll take you to the Colosseum. Italian, being more logical about time, can: the coming is in the future, so careful Italian puts it in the future: \"Se verrai a Roma, ti porterò al Colosseo\".",
           "The rule of thumb is consistency. If the main clause is in the future, the \"se\" clause is in the future too: \"Se studierai, passerai l'esame\" (if you study, you'll pass the exam). This is the form for writing, formal speech and anything planned or distant.",
           "English speakers tend to write \"se vieni ..., ti porterò\". That's very common and perfectly understandable; just know that the all-future version is what a teacher or examiner expects.",
+          "One exception: with \"volere\" and \"potere\", the present stays even in careful Italian when the wanting is happening now: \"Se vuoi venire sabato, dimmelo\" (you want it today, the visit is on Saturday). Use \"se vorrai\" only when the wish itself lies ahead: \"Se un giorno vorrai tornare, la porta è aperta\".",
         ],
         examples: [
           { es: "Se verrai a Roma, ti porterò al Colosseo.", en: "If you come to Rome, I'll take you to the Colosseum." },
@@ -135,11 +137,11 @@ export const IT_B1_U15: Lesson[] = [
           "In formal emails, the future is standard: \"Se avrà bisogno di ulteriori informazioni, non esiti a contattarci\" (should you need further information, do not hesitate to contact us).",
         ],
         examples: [
-          { es: "Se arriverai prima di me, aspettami al bar.", en: "If you get there before me, wait for me at the bar." },
+          { es: "Se arriverai prima di me, aspettami al bar.", en: "If you get there before me, wait for me at the café." },
           { es: "Se avrà bisogno di ulteriori informazioni, non esiti a contattarci.", en: "Should you need further information, do not hesitate to contact us." },
           { es: "Se ci sarà sciopero, prendete l'autobus.", en: "If there's a strike, take the bus. (plural)" },
           { es: "Se vorrete fermarvi a cena, sarete i benvenuti.", en: "If you want to stay for dinner, you'll be very welcome. (plural)" },
-          { es: "Se il volo sarà cancellato, la compagnia vi rimborserà.", en: "If the flight is cancelled, the airline will refund you. (plural)" },
+          { es: "Se il volo sarà cancellato, la compagnia vi rimborserà.", en: "If the flight is canceled, the airline will refund you. (plural)" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If there's a strike, take the bus. (plural)", answer: "Se ci sarà sciopero, prendete l'autobus.", altAnswers: ["Se c'è sciopero, prendete l'autobus.", "Se ci sarà lo sciopero, prendete l'autobus.", "Se c'è lo sciopero, prendete l'autobus."], explanation: "Future or present in the \"se\" clause, \"voi\" command in the main clause." },
@@ -152,11 +154,11 @@ export const IT_B1_U15: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If the company grows, we'll hire more people.", answer: "Se l'azienda crescerà, assumeremo altre persone.", altAnswers: ["Se l'azienda cresce, assumeremo altre persone.", "Se l'azienda crescerà, assumeremo più persone."], explanation: "\"Assumere\" = to hire (a false friend: not to assume)." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If you miss the train, I'll come and get you. (to a friend)", answer: "Se perdi il treno, ti vengo a prendere io.", altAnswers: ["Se perderai il treno, verrò a prenderti io.", "Se perdi il treno, vengo a prenderti io.", "Se perdi il treno, ti vengo a prendere."], explanation: "Spoken present + present, or careful future + future." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If you don't hurry, we'll be late. (to a friend)", answer: "Se non ti sbrighi, arriviamo tardi.", altAnswers: ["Se non ti sbrighi, arriveremo tardi.", "Se non ti sbrigherai, arriveremo tardi.", "Se non ti sbrighi, arriviamo in ritardo."], explanation: "\"Sbrigarsi\" = to hurry." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If you get there before me, wait for me at the bar. (to a friend)", answer: "Se arriverai prima di me, aspettami al bar.", altAnswers: ["Se arrivi prima di me, aspettami al bar."], explanation: "Future or present condition + imperative." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If you get there before me, wait for me at the café. (to a friend)", answer: "Se arriverai prima di me, aspettami al bar.", altAnswers: ["Se arrivi prima di me, aspettami al bar."], explanation: "Future or present condition + imperative." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If you save, [you'll be able to] buy a house. (to a friend)", sentence: "Se risparmierai, ___ comprare una casa.", answer: "potrai", explanation: "Future in both clauses." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[If they win] the match, they'll go to the final.", sentence: "___ la partita, andranno in finale.", answer: "Se vinceranno", altAnswers: ["Se vincono"], explanation: "Careful Italian: \"se vinceranno\"." },
       { type: "word-order", prompt: "Put the words in order to say: If you come on Saturday, I'll introduce you to my sister.", words: ["Se", "vieni", "sabato,", "ti", "presento", "mia", "sorella."], translation: "If you come on Saturday, I'll introduce you to my sister.", explanation: "Relaxed spoken Italian: present + present." },
-      { type: "multiple-choice", question: "Which sentence would a teacher expect in a formal letter?", options: ["Se avrà domande, La contatteremo.", "Se ha domande, La contatteremmo.", "Se avesse domande, La contattiamo.", "Se avrà domande, La contattavamo."], correctIndex: 0, explanation: "Future in both clauses." },
+      { type: "multiple-choice", question: "Which sentence would a teacher expect in a formal letter?", options: ["Se avrà domande, La contatteremo.", "Se ha domande, La contatteremmo.", "Se avrebbe domande, La contattiamo.", "Se avrà domande, La contattavamo."], correctIndex: 0, explanation: "Future in both clauses." },
       { type: "dictation", audio: "Se verrete a trovarci, vi porteremo al mare.", explanation: "Future in both clauses: \"verrete\", \"porteremo\"." },
       { type: "speak", text: "Se verrai a Napoli, ti porterò a mangiare la pizza più buona della città.", prompt: "Say it in Italian: If you come to Naples, I'll take you to eat the best pizza in town.", tip: "\"Pizza\": the zz is a long ts sound, PIT-tsa.", explanation: "Future in both clauses." },
     ],
@@ -181,7 +183,7 @@ export const IT_B1_U15: Lesson[] = [
           { es: "Se non l'hai ancora visto, devi vederlo.", en: "If you haven't seen it yet, you must see it." },
           { es: "Se hai sbagliato, dovrai rifarlo.", en: "If you've made a mistake, you'll have to redo it." },
           { es: "Se avete già mangiato, prendiamo solo un caffè.", en: "If you've already eaten, let's just have a coffee. (plural)" },
-          { es: "Se è già partito, lo chiamo sul cellulare.", en: "If he's already left, I'll call him on his mobile." },
+          { es: "Se è già partito, lo chiamo sul cellulare.", en: "If he's already left, I'll call him on his cell." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If you've finished, we can go. (to a friend)", answer: "Se hai finito, possiamo andare.", altAnswers: ["Se hai finito possiamo andare.", "Possiamo andare, se hai finito.", "Se hai finito, possiamo andarcene."], explanation: "\"Se\" + passato prossimo for something that may already be done." },
@@ -192,14 +194,15 @@ export const IT_B1_U15: Lesson[] = [
       {
         heading: "Se + imperfetto: if it was true",
         body: [
-          "For a real condition about a past state, use the imperfetto: \"Se era malato, ha fatto bene a restare a casa\" (if he was ill, he was right to stay home). The speaker doesn't know, but accepts that it may be true.",
+          "For a real condition about a past state, use the imperfetto: \"Se era malato, ha fatto bene a restare a casa\" (if he was sick, he was right to stay home). The speaker doesn't know, but accepts that it may be true.",
           "Careful: English if I was rich, I would ... is not this. That's an unreal condition, which needs the subjunctive and comes at Upper Intermediate. Use \"se\" + imperfetto only when the past state may really have been true.",
+          "You will also hear \"Se lo sapevo, venivo\" (if I'd known, I'd have come): an imperfetto in both clauses for something that didn't happen. It's very common in relaxed speech but informal; the standard version comes at Upper Intermediate, so recognize it but don't write it in an exam.",
         ],
         examples: [
-          { es: "Se era malato, ha fatto bene a restare a casa.", en: "If he was ill, he was right to stay at home." },
+          { es: "Se era malato, ha fatto bene a restare a casa.", en: "If he was sick, he was right to stay at home." },
           { es: "Se lo sapevi, perché non me l'hai detto?", en: "If you knew, why didn't you tell me?" },
           { es: "Se c'era tanta gente, avete fatto bene ad andare via.", en: "If there were so many people, you were right to leave. (plural)" },
-          { es: "Se il negozio era chiuso, non è colpa tua.", en: "If the shop was closed, it's not your fault." },
+          { es: "Se il negozio era chiuso, non è colpa tua.", en: "If the store was closed, it's not your fault." },
           { es: "Se eri stanco, potevi dirmelo.", en: "If you were tired, you could have told me." },
         ],
         checkpoint: [
@@ -216,7 +219,7 @@ export const IT_B1_U15: Lesson[] = [
         examples: [
           { es: "In caso di pioggia, la cena si terrà all'interno.", en: "In the event of rain, the dinner will be held indoors." },
           { es: "In caso di emergenza, chiamare il 112.", en: "In an emergency, call 112." },
-          { es: "Nel caso in cui piova, rimandiamo.", en: "In case it rains, we'll postpone." },
+          { es: "Nel caso in cui piova, rimandiamo.", en: "Should it rain, we'll postpone." },
           { es: "Ci vediamo alle otto, a meno che non piova.", en: "See you at eight, unless it rains." },
         ],
         checkpoint: [
@@ -227,14 +230,14 @@ export const IT_B1_U15: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If you've made a mistake, you'll have to redo it. (to a friend)", answer: "Se hai sbagliato, dovrai rifarlo.", altAnswers: ["Se hai fatto un errore, dovrai rifarlo.", "Se hai sbagliato, devi rifarlo."], explanation: "Passato prossimo in the condition, future in the result." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If he's already left, I'll call him on his mobile.", answer: "Se è già partito, lo chiamo sul cellulare.", altAnswers: ["Se è già partito, lo chiamerò sul cellulare.", "Se è già uscito, lo chiamo sul cellulare."], explanation: "\"Se è già partito\": maybe he has." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If he was ill, he was right to stay at home.", answer: "Se era malato, ha fatto bene a restare a casa.", altAnswers: ["Se era malato, ha fatto bene a rimanere a casa.", "Ha fatto bene a restare a casa, se era malato."], explanation: "Real past state: \"se\" + imperfetto." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If he's already left, I'll call him on his cell.", answer: "Se è già partito, lo chiamo sul cellulare.", altAnswers: ["Se è già partito, lo chiamerò sul cellulare.", "Se è già uscito, lo chiamo sul cellulare."], explanation: "\"Se è già partito\": maybe he has." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If he was sick, he was right to stay at home.", answer: "Se era malato, ha fatto bene a restare a casa.", altAnswers: ["Se era malato, ha fatto bene a rimanere a casa.", "Ha fatto bene a restare a casa, se era malato."], explanation: "Real past state: \"se\" + imperfetto." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In an emergency, call 112.", answer: "In caso di emergenza, chiamare il 112.", altAnswers: ["In caso di emergenza, chiamate il 112.", "In caso di emergenza, chiami il 112.", "In caso di emergenza, chiama il 112."], explanation: "Notices use the infinitive as an instruction." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If you've already eaten, let's just have a coffee. (plural)", answer: "Se avete già mangiato, prendiamo solo un caffè.", altAnswers: ["Se avete già mangiato, prendiamo soltanto un caffè.", "Se avete già pranzato, prendiamo solo un caffè."], explanation: "\"Prendiamo\" = let's have." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[If you've received] the parcel, let me know. (to a friend)", sentence: "___ il pacco, fammi sapere.", answer: "Se hai ricevuto", altAnswers: ["Se hai già ricevuto"], explanation: "Passato prossimo: maybe it has arrived." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If the shop was closed, [it's not your fault].", sentence: "Se il negozio era chiuso, ___.", answer: "non è colpa tua", explanation: "\"Colpa\" = fault." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[If you've received] the package, let me know. (to a friend)", sentence: "___ il pacco, fammi sapere.", answer: "Se hai ricevuto", altAnswers: ["Se hai già ricevuto"], explanation: "Passato prossimo: maybe it has arrived." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If the store was closed, [it's not your fault].", sentence: "Se il negozio era chiuso, ___.", answer: "non è colpa tua", explanation: "\"Colpa\" = fault." },
       { type: "word-order", prompt: "Put the words in order to say: If you haven't booked yet, do it today.", words: ["Se", "non", "hai", "ancora", "prenotato,", "fallo", "oggi."], translation: "If you haven't booked yet, do it today.", explanation: "\"Fallo\": \"fa'\" + \"lo\" doubles the l." },
-      { type: "multiple-choice", question: "Which sentence fits a contract or notice?", options: ["In caso di ritardo, il cliente riceverà un rimborso.", "Se fosse in ritardo, il cliente riceveva un rimborso.", "Se ritardi, ti rimborserei.", "In caso che ritardo, rimborso."], correctIndex: 0, explanation: "\"In caso di\" + noun is the formal, written way to say if." },
+      { type: "multiple-choice", question: "Which sentence fits a contract or notice?", options: ["In caso di ritardo, il cliente riceverà un rimborso.", "Se sarebbe in ritardo, il cliente riceveva un rimborso.", "Se ritardi, ti rimborserei.", "In caso che ritardo, rimborso."], correctIndex: 0, explanation: "\"In caso di\" + noun is the formal, written way to say if." },
       { type: "dictation", audio: "Se non l'hai ancora letto, te lo presto.", explanation: "\"L'hai letto\": elision; \"te lo presto\" = I'll lend it to you." },
       { type: "speak", text: "Se hai finito di lavorare, possiamo uscire. Se non hai ancora cenato, ti porto in trattoria.", prompt: "Say it in Italian: If you've finished work, we can go out. If you haven't had dinner yet, I'll take you to a trattoria.", tip: "\"Trattoria\": double t at the start, trat-to-RI-a.", explanation: "Two conditions in the passato prossimo." },
     ],
@@ -256,7 +259,7 @@ export const IT_B1_U15: Lesson[] = [
         examples: [
           { es: "Se bevo caffè la sera, non dormo.", en: "If I drink coffee in the evening, I don't sleep." },
           { es: "Se troverò un lavoro a Milano, mi trasferirò.", en: "If I find a job in Milan, I'll move." },
-          { es: "Se hai perso le chiavi, chiama il portiere.", en: "If you've lost your keys, call the porter." },
+          { es: "Se hai perso le chiavi, chiama il portiere.", en: "If you've lost your keys, call the doorman." },
           { es: "Se non c'è posto, andiamo da un'altra parte.", en: "If there's no room, we'll go somewhere else." },
         ],
         checkpoint: [
@@ -266,7 +269,7 @@ export const IT_B1_U15: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If you've lost your keys, call the porter. (to a friend)", answer: "Se hai perso le chiavi, chiama il portiere.", altAnswers: ["Chiama il portiere se hai perso le chiavi."], explanation: "\"Se\" + passato prossimo + imperative." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If you've lost your keys, call the doorman. (to a friend)", answer: "Se hai perso le chiavi, chiama il portiere.", altAnswers: ["Chiama il portiere se hai perso le chiavi."], explanation: "\"Se\" + passato prossimo + imperative." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If there's no room, we'll go somewhere else.", answer: "Se non c'è posto, andiamo da un'altra parte.", altAnswers: ["Se non c'è posto, andremo da un'altra parte.", "Se non c'è posto, andiamo altrove."], explanation: "\"Da un'altra parte\" = somewhere else." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If you're cold, close the window. (to a friend)", answer: "Se hai freddo, chiudi la finestra.", altAnswers: ["Chiudi la finestra se hai freddo."], explanation: "\"Avere freddo\" = to be cold." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If they sell the house, they'll go and live in the country.", answer: "Se venderanno la casa, andranno a vivere in campagna.", altAnswers: ["Se vendono la casa, vanno a vivere in campagna.", "Se vendono la casa, andranno a vivere in campagna."], explanation: "Future + future, or present in speech." },
@@ -356,10 +359,10 @@ export const IT_B1_U15: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It depends whether it rains.", answer: "Dipende se piove.", altAnswers: ["Dipende se pioverà.", "Dipende dal fatto che piova o no."], explanation: "\"Se\" = whether." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "When you arrive, call me. (to a friend)", answer: "Quando arrivi, chiamami.", altAnswers: ["Quando arriverai, chiamami.", "Chiamami quando arrivi."], explanation: "Sure to arrive: \"quando\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I wonder whether she got the letter.", answer: "Mi chiedo se ha ricevuto la lettera.", altAnswers: ["Mi domando se ha ricevuto la lettera.", "Chissà se ha ricevuto la lettera."], explanation: "\"Chiedersi se\" = to wonder whether." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[When] the film finishes, we'll go for a pizza.", sentence: "___ finisce il film, andiamo a mangiare una pizza.", answer: "Quando", explanation: "The film will certainly finish: \"quando\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[If] the film is boring, we'll leave.", sentence: "___ il film è noioso, usciamo.", answer: "Se", explanation: "Maybe it will be boring: \"se\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[When] the movie ends, we'll go for a pizza.", sentence: "___ finisce il film, andiamo a mangiare una pizza.", answer: "Quando", explanation: "The movie will certainly end: \"quando\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[If] the movie is boring, we'll leave.", sentence: "___ il film è noioso, usciamo.", answer: "Se", explanation: "Maybe it will be boring: \"se\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[When I'm] in Rome, I'll visit you. (to a friend)", sentence: "___ a Roma, verrò a trovarti.", answer: "Quando sarò", altAnswers: ["Quando starò"], explanation: "Future after \"quando\" in careful Italian." },
-      { type: "multiple-choice", question: "Your flight lands at 6pm. What do you write to your friend?", options: ["Quando atterro, ti mando un messaggio.", "Se atterro, ti mando un messaggio.", "Se atterrassi, ti mando un messaggio.", "Quando atterrerei, ti mando un messaggio."], correctIndex: 0, explanation: "Landing is expected: \"quando\". \"Se atterro\" would sound alarming!" },
+      { type: "multiple-choice", question: "Your flight lands at 6pm. What do you write to your friend?", options: ["Quando atterro, ti mando un messaggio.", "Se atterro, ti mando un messaggio.", "Se atterrerei, ti mando un messaggio.", "Quando atterrerei, ti mando un messaggio."], correctIndex: 0, explanation: "Landing is expected: \"quando\". \"Se atterro\" would sound alarming!" },
       { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "Se vinciamo, festeggiamo.", right: "If we win, we'll celebrate." }, { left: "Quando vinciamo, festeggiamo.", right: "Whenever we win, we celebrate." }, { left: "Non so se vinciamo.", right: "I don't know whether we'll win." }, { left: "Quando avremo vinto, festeggeremo.", right: "When we've won, we'll celebrate." }], explanation: "\"Se\" = if or whether; \"quando\" = when or whenever." },
       { type: "dictation", audio: "Quando sarai grande, capirai.", explanation: "Future after \"quando\": \"sarai\"." },
       { type: "speak", text: "Quando arrivo a Firenze ti chiamo, e se ho tempo passo a trovarti.", prompt: "Say it in Italian: When I get to Florence I'll call you, and if I have time I'll drop by to see you.", tip: "\"Firenze\": stress on RE, fi-REN-ze.", explanation: "Certain arrival: \"quando\"; uncertain time: \"se\"." },
@@ -411,7 +414,7 @@ export const IT_B1_U15: Lesson[] = [
       { type: "listen-choose", audio: "Se senti l'allarme, esci subito dall'edificio.", question: "What should you do if you hear the alarm?", options: ["Leave the building immediately", "Call the speaker", "Stay inside", "Switch it off"], correctIndex: 0, explanation: "\"Esci subito\" = go out immediately." },
       { type: "dictation", audio: "Se hai dubbi, chiedi pure.", explanation: "\"Pure\" softens the command: go ahead and ask." },
       { type: "dictation", audio: "Se non trova la strada, mi chiami.", explanation: "\"Lei\" command: \"mi chiami\"." },
-      { type: "speak", text: "Se arrivi prima di me, prendi le chiavi dalla vicina e accomodati.", prompt: "Say it in Italian: If you get there before me, get the keys from the neighbour and make yourself at home.", tip: "\"Accomodati\": double c and double m, ac-CO-mo-da-ti.", explanation: "Condition + two \"tu\" commands." },
+      { type: "speak", text: "Se arrivi prima di me, prendi le chiavi dalla vicina e accomodati.", prompt: "Say it in Italian: If you get there before me, get the keys from the neighbor and make yourself at home.", tip: "\"Accomodati\": double c and double m, ac-CO-mo-da-ti.", explanation: "Condition + two \"tu\" commands." },
     ],
   },
   {
@@ -432,7 +435,7 @@ export const IT_B1_U15: Lesson[] = [
           { es: "Se piove domani, resto a casa.", en: "If it rains tomorrow, I'll stay at home." },
           { es: "Se pioverà domani, rimarrò a casa.", en: "If it rains tomorrow, I'll stay at home." },
           { es: "Se hai tempo, passa da me.", en: "If you have time, drop by." },
-          { es: "Se il negozio è aperto, compro il pane.", en: "If the shop's open, I'll buy bread." },
+          { es: "Se il negozio è aperto, compro il pane.", en: "If the store's open, I'll buy bread." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "A learner wrote \"Se piove domani, rimarrei a casa\". Write it correctly: If it rains tomorrow, I'll stay at home.", source: "If it rains tomorrow, I'll stay at home.", answer: "Se piove domani, resto a casa.", altAnswers: ["Se pioverà domani, rimarrò a casa.", "Se piove domani, rimango a casa.", "Se piove domani, rimarrò a casa.", "Se domani piove, resto a casa.", "Se domani pioverà, rimarrò a casa."], explanation: "Real condition, real result: present or future, never the conditional." },
@@ -446,14 +449,14 @@ export const IT_B1_U15: Lesson[] = [
           "Another slip: \"Quando arrivi domani, ti chiamerei\". The conditional has no place here: \"ti chiamo\" or \"ti chiamerò\".",
         ],
         examples: [
-          { es: "Se sarà bel tempo, andremo al mare.", en: "If the weather's nice, we'll go to the seaside." },
-          { es: "Se è bel tempo, andiamo al mare.", en: "If the weather's nice, we'll go to the seaside. (spoken)" },
+          { es: "Se sarà bel tempo, andremo al mare.", en: "If the weather's nice, we'll go to the beach." },
+          { es: "Se è bel tempo, andiamo al mare.", en: "If the weather's nice, we'll go to the beach. (spoken)" },
           { es: "Quando arrivi domani, ti chiamo.", en: "When you arrive tomorrow, I'll call you." },
           { es: "Se vincerai, ti porterò a cena.", en: "If you win, I'll take you to dinner." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "A learner wrote \"Se sarà bel tempo, andiamo al mare\" in an essay. Write it in careful written Italian: If the weather's nice, we'll go to the seaside.", source: "If the weather's nice, we'll go to the seaside.", answer: "Se sarà bel tempo, andremo al mare.", altAnswers: ["Se farà bel tempo, andremo al mare.", "Se è bel tempo, andiamo al mare.", "Se fa bel tempo, andiamo al mare."], explanation: "In writing, match the tenses: future + future, or present + present." },
-          { type: "multiple-choice", question: "Which sentence is correct?", options: ["Quando arrivi domani, ti chiamo.", "Quando arrivi domani, ti chiamerei.", "Quando arriveresti domani, ti chiamo.", "Quando arrivassi domani, ti chiamo."], correctIndex: 0, explanation: "No conditional or subjunctive with a real \"quando\"." },
+          { type: "translate", direction: "en-es", prompt: "A learner wrote \"Se sarà bel tempo, andiamo al mare\" in an essay. Write it in careful written Italian: If the weather's nice, we'll go to the beach.", source: "If the weather's nice, we'll go to the beach.", answer: "Se sarà bel tempo, andremo al mare.", altAnswers: ["Se farà bel tempo, andremo al mare.", "Se è bel tempo, andiamo al mare.", "Se fa bel tempo, andiamo al mare."], explanation: "In writing, match the tenses: future + future, or present + present." },
+          { type: "multiple-choice", question: "Which sentence is correct?", options: ["Quando arrivi domani, ti chiamo.", "Quando arrivi domani, ti chiamerei.", "Quando arriveresti domani, ti chiamo.", "Quando arriverai domani, ti chiamerei."], correctIndex: 0, explanation: "No conditional or subjunctive with a real \"quando\"." },
         ],
       },
       {
@@ -474,14 +477,14 @@ export const IT_B1_U15: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Se avresti tempo, chiamami\". Write it correctly: If you have time, call me.", source: "If you have time, call me.", answer: "Se hai tempo, chiamami.", altAnswers: ["Chiamami se hai tempo.", "Se avrai tempo, chiamami."], explanation: "Never the conditional after a real \"se\"." },
-      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Se mangi troppo, staresti male\". Write it correctly: If you eat too much, you'll feel ill.", source: "If you eat too much, you'll feel ill.", answer: "Se mangi troppo, stai male.", altAnswers: ["Se mangi troppo, starai male.", "Se mangerai troppo, starai male."], explanation: "Real result: present or future." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Se mangi troppo, staresti male\". Write it correctly: If you eat too much, you'll feel sick.", source: "If you eat too much, you'll feel sick.", answer: "Se mangi troppo, stai male.", altAnswers: ["Se mangi troppo, starai male.", "Se mangerai troppo, starai male."], explanation: "Real result: present or future." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Se sia possibile, vorrei un tavolo vicino alla finestra\". Write it correctly: If it's possible, I'd like a table near the window.", source: "If it's possible, I'd like a table near the window.", answer: "Se è possibile, vorrei un tavolo vicino alla finestra.", altAnswers: ["Se possibile, vorrei un tavolo vicino alla finestra.", "Vorrei un tavolo vicino alla finestra, se è possibile."], explanation: "\"Se è possibile\" or simply \"se possibile\"; \"vorrei\" is a polite request, not part of the condition." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Se studierai, passi l'esame\" in an essay. Write it in careful Italian: If you study, you'll pass the exam.", source: "If you study, you'll pass the exam.", answer: "Se studierai, passerai l'esame.", altAnswers: ["Se studi, passi l'esame.", "Se studierai, supererai l'esame."], explanation: "Match the tenses in writing." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Se vengono, li darei il regalo\". Write it correctly: If they come, I'll give them the present.", source: "If they come, I'll give them the present.", answer: "Se vengono, gli do il regalo.", altAnswers: ["Se verranno, gli darò il regalo.", "Se vengono, darò loro il regalo.", "Se verranno, darò loro il regalo."], explanation: "Two fixes: real result (\"do\" / \"darò\") and the indirect pronoun \"gli\" (to them)." },
       { type: "fill-blank", prompt: "A learner wrote \"Se pioverebbe, prendiamo l'autobus\". Write the Italian for the bold words.", en: "[If it rains], we'll take the bus.", sentence: "___, prendiamo l'autobus.", answer: "Se piove", explanation: "Present indicative after \"se\"." },
       { type: "fill-blank", prompt: "A learner wrote \"Se hai finito, potresti andare\" meaning permission. Write the Italian for the bold words.", en: "If you've finished, [you can go].", sentence: "Se hai finito, ___.", answer: "puoi andare", explanation: "Real permission: present \"puoi\"." },
       { type: "word-order", prompt: "Put the words in order to say: If you're not coming, I'm not coming either.", words: ["Se", "tu", "non", "vieni,", "non", "vengo", "neanche", "io."], translation: "If you're not coming, I'm not coming either.", explanation: "Pronouns for contrast; \"neanche io\" = me neither." },
-      { type: "multiple-choice", question: "Which sentence has no mistake?", options: ["Se trovi un taxi, prendilo.", "Se trovi un taxi, prenderesti.", "Se trovassi un taxi, prendilo.", "Se troverai un taxi, prenderesti."], correctIndex: 0, explanation: "Real condition + imperative." },
+      { type: "multiple-choice", question: "Which sentence has no mistake?", options: ["Se trovi un taxi, prendilo.", "Se trovi un taxi, prenderesti.", "Se troveresti un taxi, prendilo.", "Se troverai un taxi, prenderesti."], correctIndex: 0, explanation: "Real condition + imperative." },
       { type: "dictation", audio: "Se domani piove, rimandiamo la gita.", explanation: "Present + present: \"rimandare\" = to postpone." },
       { type: "speak", text: "Se domani piove, restiamo a casa; se è bel tempo, andiamo in montagna.", prompt: "Say it in Italian: If it rains tomorrow, we'll stay at home; if the weather's nice, we'll go to the mountains.", tip: "\"Montagna\": gn as in canyon, mon-TA-gna.", explanation: "Two real conditions, present + present." },
     ],
@@ -497,7 +500,7 @@ export const IT_B1_U15: Lesson[] = [
       {
         heading: "Plan A",
         body: [
-          "Chiara and Matteo, two friends from Genoa, are planning a hike on the coastal path to Portofino on Saturday. Chiara is the organiser; Matteo worries about everything. Listen for \"se\" + present in quick planning talk.",
+          "Chiara and Matteo, two friends from Genoa, are planning a hike on the coastal path to Portofino on Saturday. Chiara is the organizer; Matteo worries about everything. Listen for \"se\" + present in quick planning talk.",
           "Chiara: \"Se partiamo alle otto, arriviamo a Camogli alle nove\". Matteo: \"E se piove?\".",
         ],
         examples: [
@@ -566,7 +569,7 @@ export const IT_B1_U15: Lesson[] = [
     level: "IT-B1",
     number: 9,
     title: "Reading Lab: Instructions and Warnings",
-    summary: "Read if-sentences in a manual, a station notice and a holiday-flat sheet, where Italian uses the infinitive for instructions.",
+    summary: "Read if-sentences in a manual, a station notice and a vacation-rental sheet, where Italian uses the infinitive for instructions.",
     duration: "18 min",
     sections: [
       {
@@ -578,13 +581,13 @@ export const IT_B1_U15: Lesson[] = [
         examples: [
           { es: "Se il display lampeggia, premere il tasto Start.", en: "If the display flashes, press the Start button." },
           { es: "Se l'oblò non si apre, attendere due minuti.", en: "If the door won't open, wait two minutes." },
-          { es: "In caso di perdite d'acqua, chiudere il rubinetto.", en: "In the event of water leaks, turn off the tap." },
+          { es: "In caso di perdite d'acqua, chiudere il rubinetto.", en: "In the event of water leaks, turn off the water." },
           { es: "Se il problema persiste, contattare l'assistenza.", en: "If the problem persists, contact customer service." },
           { es: "Non aprire lo sportello se la macchina è in funzione.", en: "Do not open the door while the machine is running." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian, in the style of a manual.", source: "If the problem persists, contact customer service.", answer: "Se il problema persiste, contattare l'assistenza.", altAnswers: ["Se il problema persiste, contattare il servizio clienti."], explanation: "Manuals use the infinitive for instructions." },
-          { type: "multiple-choice", question: "\"Se l'oblò non si apre, attendere due minuti.\" What should you do?", options: ["Wait two minutes", "Call for help", "Press Start", "Turn off the tap"], correctIndex: 0, explanation: "\"Attendere\" = to wait (formal)." },
+          { type: "multiple-choice", question: "\"Se l'oblò non si apre, attendere due minuti.\" What should you do?", options: ["Wait two minutes", "Call for help", "Press Start", "Turn off the water"], correctIndex: 0, explanation: "\"Attendere\" = to wait (formal)." },
         ],
       },
       {
@@ -595,7 +598,7 @@ export const IT_B1_U15: Lesson[] = [
         examples: [
           { es: "In caso di sciopero, consultare il sito per i treni garantiti.", en: "In the event of a strike, check the website for guaranteed trains." },
           { es: "Se il biglietto è cartaceo, convalidarlo prima di salire.", en: "If your ticket is on paper, validate it before boarding." },
-          { es: "In caso di smarrimento, rivolgersi all'ufficio Oggetti Smarriti.", en: "If you lose something, go to the Lost Property office." },
+          { es: "In caso di smarrimento, rivolgersi all'ufficio Oggetti Smarriti.", en: "If you lose something, go to the Lost and Found office." },
           { es: "In caso di emergenza, premere il pulsante rosso.", en: "In an emergency, press the red button." },
         ],
         checkpoint: [
@@ -604,9 +607,9 @@ export const IT_B1_U15: Lesson[] = [
         ],
       },
       {
-        heading: "The holiday flat",
+        heading: "The vacation rental",
         body: [
-          "Finally, the sheet a host leaves in a holiday flat in Lecce. Here the tone is friendly, so it uses \"voi\" commands instead of infinitives.",
+          "Finally, the sheet a host leaves in a vacation rental in Lecce. Here the tone is friendly, so it uses \"voi\" commands instead of infinitives.",
         ],
         examples: [
           { es: "Se salta la corrente, controllate il contatore vicino alla porta.", en: "If the power goes off, check the meter by the door." },
@@ -622,11 +625,11 @@ export const IT_B1_U15: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, in the style of a manual.", source: "If the display flashes, press the Start button.", answer: "Se il display lampeggia, premere il tasto Start.", altAnswers: ["Se il display lampeggia, premere il pulsante Start."], explanation: "Infinitive for instructions." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian, in the style of a manual.", source: "In the event of water leaks, turn off the tap.", answer: "In caso di perdite d'acqua, chiudere il rubinetto.", altAnswers: ["In caso di perdite, chiudere il rubinetto."], explanation: "\"In caso di\" + noun." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian, in the style of a manual.", source: "In the event of water leaks, turn off the water.", answer: "In caso di perdite d'acqua, chiudere il rubinetto.", altAnswers: ["In caso di perdite, chiudere il rubinetto."], explanation: "\"In caso di\" + noun." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If you go out, close the windows properly. (plural)", answer: "Se uscite, chiudete bene le finestre.", altAnswers: ["Chiudete bene le finestre se uscite."], explanation: "\"Bene\" = properly." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If you leave early, leave the keys in the box. (plural)", answer: "Se partite presto, lasciate le chiavi nella cassetta.", altAnswers: ["Se partite presto, lasciate le chiavi nella cassetta delle chiavi."], explanation: "\"Partire\" (to leave a place) vs \"lasciare\" (to leave something)." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words, in the style of a manual.", en: "Do not open the door [if the machine is running].", sentence: "Non aprire lo sportello ___.", answer: "se la macchina è in funzione", explanation: "\"In funzione\" = running, in operation." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words, in the style of a notice.", en: "If you lose something, [go to] the Lost Property office.", sentence: "In caso di smarrimento, ___ all'ufficio Oggetti Smarriti.", answer: "rivolgersi", explanation: "\"Rivolgersi a\" = to go to, contact (formal)." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words, in the style of a notice.", en: "If you lose something, [go to] the Lost and Found office.", sentence: "In caso di smarrimento, ___ all'ufficio Oggetti Smarriti.", answer: "rivolgersi", explanation: "\"Rivolgersi a\" = to go to, contact (formal)." },
       { type: "word-order", prompt: "Put the words in order to say: If the door won't open, wait two minutes.", words: ["Se", "l'oblò", "non", "si", "apre,", "attendere", "due", "minuti."], translation: "If the door won't open, wait two minutes.", explanation: "\"L'oblò\" = the round door of a washing machine." },
       { type: "multiple-choice", question: "Why do manuals write \"premere\" instead of \"premi\" or \"prema\"?", options: ["The infinitive is the neutral, impersonal form for written instructions.", "Because \"premere\" is the future.", "Because the reader is always formal.", "Because \"se\" requires the infinitive."], correctIndex: 0, explanation: "Instructions, recipes and notices use the infinitive." },
       { type: "multi-select", question: "Which sentences sound like a manual or a notice? Choose all that apply.", options: ["In caso di incendio, non usare l'ascensore.", "Se hai fame, mangia qualcosa!", "Se il problema persiste, contattare l'assistenza.", "Se ti va, andiamo al cinema."], correctIndexes: [0, 2], explanation: "Infinitives and \"in caso di\" mark written instructions." },
@@ -639,19 +642,19 @@ export const IT_B1_U15: Lesson[] = [
     level: "IT-B1",
     number: 10,
     title: "Real-World Mission: If Anything Happens",
-    summary: "Write instructions for a house-sitter in your flat in Turin: se suona l'allarme, chiama questo numero; se il gatto non mangia, non preoccuparti.",
+    summary: "Write instructions for a house-sitter in your apartment in Turin: se suona l'allarme, chiama questo numero; se il gatto non mangia, non preoccuparti.",
     duration: "17 min",
     kind: "review",
     sections: [
       {
         heading: "The emergencies",
         body: [
-          "Your mission: you're going away for two weeks and your friend Giacomo is staying in your flat in Turin to look after the cat. Write him a note. Start with the emergencies: \"Se suona l'allarme, chiama questo numero\", \"Se c'è una perdita d'acqua, chiudi il rubinetto generale sotto il lavello\".",
+          "Your mission: you're going away for two weeks and your friend Giacomo is staying in your apartment in Turin to look after the cat. Write him a note. Start with the emergencies: \"Se suona l'allarme, chiama questo numero\", \"Se c'è una perdita d'acqua, chiudi il rubinetto generale sotto il lavello\".",
           "With a friend, use \"tu\" commands, not infinitives: the note should sound like you.",
         ],
         examples: [
           { es: "Se suona l'allarme, chiama questo numero.", en: "If the alarm goes off, call this number." },
-          { es: "Se c'è una perdita d'acqua, chiudi il rubinetto generale sotto il lavello.", en: "If there's a water leak, turn off the main tap under the sink." },
+          { es: "Se c'è una perdita d'acqua, chiudi il rubinetto generale sotto il lavello.", en: "If there's a water leak, turn off the main water valve under the sink." },
           { es: "Se salta la luce, il quadro elettrico è nell'ingresso.", en: "If the electricity goes, the fuse box is in the hall." },
           { es: "Se perdi le chiavi, ce n'è una copia dalla portinaia.", en: "If you lose the keys, there's a copy with the concierge." },
         ],
@@ -693,10 +696,10 @@ export const IT_B1_U15: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If there's a water leak, turn off the main tap. (to a friend)", answer: "Se c'è una perdita d'acqua, chiudi il rubinetto generale.", altAnswers: ["Se c'è una perdita, chiudi il rubinetto generale."], explanation: "\"Il rubinetto generale\" = the main water tap." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If there's a water leak, turn off the main water valve. (to a friend)", answer: "Se c'è una perdita d'acqua, chiudi il rubinetto generale.", altAnswers: ["Se c'è una perdita, chiudi il rubinetto generale."], explanation: "\"Il rubinetto generale\" = the main water shut-off valve." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If the cat doesn't eat, don't worry. (to a friend)", answer: "Se il gatto non mangia, non preoccuparti.", altAnswers: ["Se il gatto non mangia, non ti preoccupare.", "Non preoccuparti se il gatto non mangia."], explanation: "Negative \"tu\" command: \"non preoccuparti\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If he meows at night, give him a treat. (to a friend)", answer: "Se miagola di notte, dagli un biscotto.", altAnswers: ["Se di notte miagola, dagli un biscotto.", "Se miagola di notte, dagli un premio."], explanation: "\"Dagli\": double g after \"da'\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If the neighbours complain, tell them to call me. (to a friend)", answer: "Se i vicini si lamentano, di' loro di chiamarmi.", altAnswers: ["Se i vicini si lamentano, digli di chiamarmi.", "Se i vicini protestano, digli di chiamarmi."], explanation: "\"Lamentarsi\" = to complain; \"digli\" = tell them." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If the neighbors complain, tell them to call me. (to a friend)", answer: "Se i vicini si lamentano, di' loro di chiamarmi.", altAnswers: ["Se i vicini si lamentano, digli di chiamarmi.", "Se i vicini protestano, digli di chiamarmi."], explanation: "\"Lamentarsi\" = to complain; \"digli\" = tell them." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If there are problems, I'll call you from Portugal.", answer: "Se ci saranno problemi, ti chiamerò dal Portogallo.", altAnswers: ["Se ci sono problemi, ti chiamo dal Portogallo.", "Se ci saranno problemi, ti chiamerò io dal Portogallo."], explanation: "Future + future for the coming weeks." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[If the electricity goes], the fuse box is in the hall.", sentence: "___, il quadro elettrico è nell'ingresso.", answer: "Se salta la luce", altAnswers: ["Se salta la corrente", "Se va via la luce"], explanation: "\"Saltare\" = to trip, go off (power)." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If you're hungry, [help yourself]. (to a friend)", sentence: "Se hai fame, ___.", answer: "serviti pure", altAnswers: ["serviti"], explanation: "Reflexive \"tu\" command." },

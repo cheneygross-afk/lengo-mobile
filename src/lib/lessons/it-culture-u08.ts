@@ -125,7 +125,7 @@ export const IT_CULTURE_U08: Lesson[] = [
       {
         heading: "8½ e Amarcord",
         body: [
-          "\"8½\" (\"Otto e mezzo\", 1963) is about a famous director who can't decide what film to make, and it mixes memories, dreams and reality. The title counts Fellini's own works: six full films, plus two short episodes and one co-directed film, each counted as a half.",
+          "\"8½\" (\"Otto e mezzo\", 1963) is about a famous director who can't decide what film to make, and it mixes memories, dreams and reality. The title counts Fellini's own works: six full films, plus two short episodes and one co-directed film, each counted as a half; that makes seven and a half, so this was film number eight and a half.",
           "\"Amarcord\" (1973) returns to the Rimini of his youth. The title means \"I remember\" in the dialect of Romagna. His style gave Italian an adjective: \"felliniano\", for anything grotesque, dreamlike or bigger than life.",
         ],
         examples: [
@@ -491,7 +491,7 @@ export const IT_CULTURE_U08: Lesson[] = [
       {
         heading: "Mamma RAI",
         body: [
-          "Regular television in Italy began on 3 January 1954, with the RAI, the public broadcaster, nicknamed \"mamma RAI\". In a country where many people spoke mainly dialect, TV helped spread standard Italian. Households pay a license fee, \"il canone\", now added to the electricity bill.",
+          "Regular television in Italy began on 3 January 1954, with the RAI, the public broadcaster, nicknamed \"mamma RAI\". In a country where many people spoke mainly dialect, TV helped spread standard Italian. Households pay a license fee, \"il canone\", which since 2016 has been charged on the electricity bill.",
           "From 1957 to 1977 the most loved program was \"Carosello\", ten minutes of short comic sketches with advertising at the end, every evening after the news. For a generation of children the rule was \"dopo Carosello, tutti a letto\".",
         ],
         examples: [
@@ -577,7 +577,7 @@ export const IT_CULTURE_U08: Lesson[] = [
         heading: "Che film danno?",
         body: [
           "Sara: \"Andiamo al cinema stasera? Che film danno?\" Luca: \"C'è una commedia italiana e un thriller americano, ma è doppiato.\" Sara: \"Allora la commedia. A che ora è lo spettacolo?\" Luca: \"Alle 20:30 o alle 22:30.\"",
-          "To ask what's showing, Italians say \"che film danno?\" or \"cosa c'è al cinema?\". Each screening is \"uno spettacolo\", and \"l'ultimo spettacolo\" is the late show. Tuesday or Wednesday is often discount day, with \"il biglietto ridotto\".",
+          "To ask what's showing, Italians say \"che film danno?\" or \"cosa c'è al cinema?\". Each screening is \"uno spettacolo\", and \"l'ultimo spettacolo\" is the late show. Many cinemas have a cheaper midweek day, with \"il biglietto ridotto\"; the day and price vary, so check the cinema's website.",
         ],
         examples: [
           { es: "Andiamo al cinema stasera?", en: "Shall we go to the movies tonight?" },
@@ -594,7 +594,7 @@ export const IT_CULTURE_U08: Lesson[] = [
         heading: "Alla cassa",
         body: [
           "Luca: \"Due biglietti per lo spettacolo delle 20:30, per favore.\" Cassiera: \"Ci sono ancora posti centrali in fila otto.\" Sara: \"Perfetto. Prendiamo anche i popcorn?\"",
-          "Halfway through the film, the screen goes dark and the lights come on: many Italian cinemas still have \"l'intervallo\", a short break between \"il primo tempo\" and \"il secondo tempo\". People stretch their legs or buy an ice cream.",
+          "Halfway through the film, the screen goes dark and the lights come on: many Italian cinemas, especially smaller ones, still have \"l'intervallo\", a short break between \"il primo tempo\" and \"il secondo tempo\". People stretch their legs or buy an ice cream.",
         ],
         examples: [
           { es: "Due biglietti per le 20:30, per favore.", en: "Two tickets for 8:30, please." },
@@ -604,7 +604,7 @@ export const IT_CULTURE_U08: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Are there still seats in the middle?", answer: "Ci sono ancora posti centrali?", altAnswers: ["Ci sono ancora dei posti centrali?", "Ci sono ancora posti al centro?"], explanation: "\"Centrale\" → \"centrali\"." },
-          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Two tickets for 8:30, [please].", sentence: "Due biglietti per le 20:30, ___.", answer: "per favore", altAnswers: ["per piacere"], explanation: "Italians use the 24-hour clock for schedules." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Two tickets for 8:30, [please].", sentence: "Due biglietti per le 20:30, ___.", answer: "per favore", altAnswers: ["per piacere"], explanation: "\"Per favore\" = please. Note the 24-hour clock in the time: \"le 20:30\"." },
         ],
       },
       {
@@ -633,7 +633,7 @@ export const IT_CULTURE_U08: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Let's go to the late show.", answer: "Prendiamo l'ultimo spettacolo.", altAnswers: ["Andiamo all'ultimo spettacolo."], explanation: "\"L'ultimo spettacolo\" = the last screening." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The ending was too [predictable].", sentence: "Il finale era troppo ___.", answer: "prevedibile", explanation: "\"Pre-\" + \"vedere\" + \"-ibile\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It was [deadly boring].", sentence: "È stata una ___.", answer: "noia mortale", explanation: "\"La noia\" = boredom." },
-      { type: "word-order", prompt: "Put the words in order to say: There's a short break between the two halves.", words: ["C'è", "una", "breve", "pausa", "tra", "i", "due", "tempi."], translation: "There's a short break between the two halves.", explanation: "\"Il tempo\" = half (of a film or match)." },
+      { type: "word-order", prompt: "Put the words in order to say: There's a short break between the two halves.", words: ["C'è", "una", "breve", "pausa", "tra", "i", "due", "tempi."], translation: "There's a short break between the two halves.", explanation: "\"Il tempo\" = half (of a film or game)." },
       {
         type: "matching",
         instructions: "Match the Italian to the English.",

@@ -11,8 +11,8 @@ export const IT_C1_U04: Lesson[] = [
     level: "IT-C1",
     number: 1,
     title: "What Makes Burocratese",
-    summary: "Recognise the features of Italian bureaucratic language: nominal style, impersonal and passive constructions, inflated verbs and archaic words.",
-    duration: "19 min",
+    summary: "Recognize the features of Italian bureaucratic language: nominal style, impersonal and passive constructions, inflated verbs and archaic words.",
+    duration: "20 min",
     sections: [
       {
         heading: "Nominal style",
@@ -20,16 +20,18 @@ export const IT_C1_U04: Lesson[] = [
           "\"Burocratese\" is the Italian name for the language of public offices: letters from the comune, notices from the Agenzia delle Entrate, rules posted in a condominio. Italians themselves find it hard; the writer Italo Calvino mocked it in 1965 as the \"antilingua\". Learning to decode it is a practical survival skill in Italy.",
           "Its first feature is the nominal style: actions become nouns, and the verbs that remain are empty. Instead of \"pagare\", burocratese writes \"procedere al pagamento\" or even \"provvedere all'effettuazione del pagamento\". Instead of \"Se non paga\", it writes \"In caso di mancato pagamento\". Look for nouns ending in \"-zione\", \"-mento\" and \"-nza\" and the verbs \"procedere a\", \"provvedere a\", \"effettuare\", \"porre in essere\".",
           "To decode, find the noun that hides the action and turn it back into a verb: \"la presentazione della domanda\" → \"presentare la domanda\".",
+          "Calvino's own example was a police report: a man questioned by the police says simply that he went down to the cellar to light the stove, and the officer types it up as a chain of nouns about entering the basement premises to start the heating system. The joke works because every Italian has read sentences like that on real forms.",
         ],
         examples: [
-          { es: "Si invita a procedere al pagamento entro il 30 giugno.", en: "Please pay by 30 June." },
+          { es: "Si invita a procedere al pagamento entro il 30 giugno.", en: "Please pay by June 30." },
           { es: "In caso di mancato pagamento, verrà applicata una sanzione.", en: "If you don't pay, you will be fined." },
           { es: "Il richiedente dovrà provvedere alla presentazione della domanda.", en: "The applicant must submit the application." },
           { es: "Si è proceduto alla verifica della documentazione.", en: "The documents have been checked." },
-          { es: "L'ufficio effettuerà la consegna dei certificati in data 5 maggio.", en: "The office will hand out the certificates on 5 May." },
+          { es: "L'ufficio effettuerà la consegna dei certificati in data 5 maggio.", en: "The office will hand out the certificates on May 5." },
+          { es: "Il condomino ha posto in essere un comportamento scorretto.", en: "The resident behaved badly." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into plain Italian (no nominal style).", source: "Please pay by 30 June.", answer: "Si prega di pagare entro il 30 giugno.", altAnswers: ["Per favore, pagate entro il 30 giugno.", "Vi preghiamo di pagare entro il 30 giugno.", "La preghiamo di pagare entro il 30 giugno.", "Paghi entro il 30 giugno."], explanation: "\"Pagare\", not \"procedere al pagamento\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into plain Italian (no nominal style).", source: "Please pay by June 30.", answer: "Si prega di pagare entro il 30 giugno.", altAnswers: ["Per favore, pagate entro il 30 giugno.", "Vi preghiamo di pagare entro il 30 giugno.", "La preghiamo di pagare entro il 30 giugno.", "Paghi entro il 30 giugno."], explanation: "\"Pagare\", not \"procedere al pagamento\"." },
           { type: "multiple-choice", question: "\"In caso di mancato pagamento\" means ...", options: ["if you don't pay", "in case of overpayment", "when you have paid", "after a missed appointment"], correctIndex: 0, explanation: "\"Mancato\" + noun = failure to do something." },
         ],
       },
@@ -38,17 +40,20 @@ export const IT_C1_U04: Lesson[] = [
         body: [
           "The second feature is the disappearing actor. Burocratese avoids saying who does what: \"si comunica che\" (we inform you that), \"si rende noto che\", \"è fatto obbligo di\" (it is compulsory to), \"verrà data comunicazione\" (you will be informed). Nobody signs the action, so nobody is responsible for it.",
           "The reader also disappears into third-person roles: \"il richiedente\" (the applicant), \"l'utente\" (the user), \"il contribuente\" (the taxpayer), \"il sottoscritto\" (the undersigned, meaning I). Plain Italian says \"Lei\" or \"voi\" and \"noi\".",
+          "Two more habits complete the picture. Obligations are put in the future (\"il richiedente dovrà presentare\", \"il modulo andrà consegnato in duplice copia\") as if the rule were a prophecy. And the verb \"risultare\" replaces \"essere\" whenever the office reports what its records show: \"la Sua domanda risulta incompleta\" (your application is incomplete, according to our records), \"il pagamento non risulta effettuato\" (we have no record of your payment). When you read \"risulta\", ask: according to whom?",
         ],
         examples: [
-          { es: "Si comunica che l'ufficio resterà chiuso il 2 giugno.", en: "We would like to inform you that the office will be closed on 2 June." },
+          { es: "Si comunica che l'ufficio resterà chiuso il 2 giugno.", en: "We would like to inform you that the office will be closed on June 2." },
           { es: "Si rende noto che sono aperte le iscrizioni.", en: "Registration is now open." },
           { es: "È fatto obbligo ai condomini di chiudere il portone.", en: "Residents must close the front door." },
           { es: "Verrà data comunicazione dell'esito.", en: "You will be informed of the outcome." },
           { es: "L'utente è tenuto a esibire un documento di identità.", en: "You must show an identity document." },
+          { es: "Il pagamento non risulta effettuato.", en: "We have no record of your payment." },
+          { es: "Il modulo andrà consegnato in duplice copia.", en: "The form must be handed in in two copies." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into plain Italian, speaking to the reader with Lei.", source: "You must show an identity document.", answer: "Deve mostrare un documento di identità.", altAnswers: ["Lei deve mostrare un documento di identità.", "Deve mostrare un documento d'identità.", "Deve presentare un documento di identità."], explanation: "\"Lei\" instead of \"l'utente\", \"mostrare\" instead of \"esibire\"." },
-          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[We would like to inform you that] the office will be closed on 2 June. (bureaucratic)", sentence: "___ l'ufficio resterà chiuso il 2 giugno.", answer: "Si comunica che", altAnswers: ["Si rende noto che", "Si informa che"], explanation: "Impersonal formula with no visible writer." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[We would like to inform you that] the office will be closed on June 2. (bureaucratic)", sentence: "___ l'ufficio resterà chiuso il 2 giugno.", answer: "Si comunica che", altAnswers: ["Si rende noto che", "Si informa che"], explanation: "Impersonal formula with no visible writer." },
         ],
       },
       {
@@ -59,13 +64,13 @@ export const IT_C1_U04: Lesson[] = [
         ],
         examples: [
           { es: "Il cittadino dovrà recarsi presso gli uffici comunali.", en: "You will have to go to the council offices." },
-          { es: "Le domande dovranno pervenire entro il 15 marzo.", en: "Applications must arrive by 15 March." },
+          { es: "Le domande dovranno pervenire entro il 15 marzo.", en: "Applications must arrive by March 15." },
           { es: "La documentazione va inoltrata a codesto Ufficio.", en: "The documents must be sent to your office." },
           { es: "La Sua richiesta è stata evasa in data odierna.", en: "Your request was processed today." },
           { es: "Il medesimo dovrà firmare il modulo.", en: "He must sign the form." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into plain Italian.", source: "Applications must arrive by 15 March.", answer: "Le domande devono arrivare entro il 15 marzo.", altAnswers: ["Le domande devono arrivare entro il 15 marzo compreso.", "Le domande dovranno arrivare entro il 15 marzo."], explanation: "\"Arrivare\", not \"pervenire\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into plain Italian.", source: "Applications must arrive by March 15.", answer: "Le domande devono arrivare entro il 15 marzo.", altAnswers: ["Le domande devono arrivare entro il 15 marzo compreso.", "Le domande dovranno arrivare entro il 15 marzo."], explanation: "\"Arrivare\", not \"pervenire\"." },
           { type: "listen-choose", audio: "La Sua richiesta è stata evasa.", question: "What happened to the request?", options: ["It has been processed.", "It has been lost.", "It has been rejected.", "It has escaped notice."], correctIndex: 0, explanation: "\"Evadere una pratica\" = to process it." },
         ],
       },
@@ -93,7 +98,7 @@ export const IT_C1_U04: Lesson[] = [
       },
       { type: "multiple-choice", question: "\"La pratica è stata evasa\". What should you do next?", options: ["Nothing: your file has been processed.", "Report it to the police.", "Submit it again because it was lost.", "Pay a fine."], correctIndex: 0, explanation: "\"Evasa\" = processed, dealt with." },
       { type: "dictation", audio: "Le domande dovranno pervenire entro il 15 marzo.", explanation: "\"Pervenire\" = to arrive, reach." },
-      { type: "speak", text: "Si comunica che l'ufficio resterà chiuso il 2 giugno per la Festa della Repubblica.", prompt: "Read the notice aloud: We would like to inform you that the office will be closed on 2 June for Republic Day.", tip: "\"Si comunica che\": no pause after \"che\".", explanation: "A typical impersonal notice." },
+      { type: "speak", text: "Si comunica che l'ufficio resterà chiuso il 2 giugno per la Festa della Repubblica.", prompt: "Read the notice aloud: We would like to inform you that the office will be closed on June 2 for Republic Day.", tip: "\"Si comunica che\": no pause after \"che\".", explanation: "A typical impersonal notice." },
     ],
   },
   {
@@ -102,19 +107,19 @@ export const IT_C1_U04: Lesson[] = [
     number: 2,
     title: "Formulas",
     summary: "Read and use the fixed formulas of official writing: il sottoscritto, la presente, si fa presente che, ai sensi di, in ottemperanza a, entro e non oltre.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Opening formulas",
         body: [
-          "Official letters and forms open with fixed formulas you should recognise instantly. \"Il sottoscritto\" / \"La sottoscritta\" (I, the undersigned) starts every declaration: \"Il sottoscritto Mario Bianchi, nato a Bari il 4 maggio 1980...\". \"Con la presente\" (with this letter) opens a letter's message: \"Con la presente si comunica...\". \"In riferimento a\" or \"Con riferimento a\" (with reference to) connects to an earlier document.",
+          "Official letters and forms open with fixed formulas you should recognize instantly. \"Il sottoscritto\" / \"La sottoscritta\" (I, the undersigned) starts every declaration: \"Il sottoscritto Mario Bianchi, nato a Bari il 4 maggio 1980...\". \"Con la presente\" (with this letter) opens a letter's message: \"Con la presente si comunica...\". \"In riferimento a\" or \"Con riferimento a\" (with reference to) connects to an earlier document.",
           "Requests use \"si prega di\" (please) or \"si invita a\" (you are invited to, which really means you must): \"Si prega di non fumare\", \"Si invita la S.V. a presentarsi\". \"La S.V.\" stands for \"la Signoria Vostra\" (you, very formal), still found in summons and invitations.",
           "\"Si fa presente che\" (please note that) and \"si precisa che\" introduce an important point, often a condition or a warning.",
         ],
         examples: [
-          { es: "La sottoscritta Giulia Ferri, nata a Pisa il 12 ottobre 1990, dichiara...", en: "I, the undersigned Giulia Ferri, born in Pisa on 12 October 1990, declare..." },
+          { es: "La sottoscritta Giulia Ferri, nata a Pisa il 12 ottobre 1990, dichiara...", en: "I, the undersigned Giulia Ferri, born in Pisa on October 12, 1990, declare..." },
           { es: "Con la presente si comunica l'avvio del procedimento.", en: "We hereby inform you that the procedure has begun." },
-          { es: "In riferimento alla Sua richiesta del 3 aprile, Le comunichiamo...", en: "With reference to your request of 3 April, we inform you..." },
+          { es: "In riferimento alla Sua richiesta del 3 aprile, Le comunichiamo...", en: "With reference to your request of April 3, we inform you..." },
           { es: "Si invita la S.V. a presentarsi presso l'ufficio anagrafe.", en: "You are requested to report to the registry office." },
           { es: "Si fa presente che la domanda incompleta non sarà accettata.", en: "Please note that incomplete applications will not be accepted." },
         ],
@@ -145,26 +150,29 @@ export const IT_C1_U04: Lesson[] = [
       {
         heading: "Deadlines and closings",
         body: [
-          "Deadlines are emphatic: \"entro e non oltre il 31 marzo\" (by 31 March at the latest, literally by and not after). \"A decorrere dal\" (with effect from), \"a far data dal\" (starting from), \"pena l'esclusione\" (on pain of exclusion), \"previa presentazione di\" (upon presentation of) are the other time and condition formulas.",
+          "Deadlines are emphatic: \"entro e non oltre il 31 marzo\" (by March 31 at the latest, literally by and not after). \"A decorrere dal\" (with effect from), \"a far data dal\" (starting from), \"pena l'esclusione\" (on pain of exclusion), \"previa presentazione di\" (upon presentation of) are the other time and condition formulas.",
           "Letters close with \"Distinti saluti\" or \"Cordiali saluti\"; with attachments, \"In allegato\" (attached) or \"Si allega\". \"In calce\" means at the bottom of the page: \"firma in calce\" = signature at the bottom.",
+          "A few formulas tell you what kind of paper to use, which matters in practice. \"In carta semplice\" means on ordinary paper, with no revenue stamp; \"in carta legale\" or \"in bollo\" means with a \"marca da bollo\". \"In duplice copia\" asks for two copies, \"in originale\" for the original. And \"salvo\" sets exceptions: \"salvo diversa indicazione\" (unless otherwise stated), \"salvo imprevisti\" (barring the unexpected).",
         ],
         examples: [
-          { es: "Le domande vanno presentate entro e non oltre il 31 marzo.", en: "Applications must be submitted by 31 March at the latest." },
-          { es: "Il nuovo orario entrerà in vigore a decorrere dal 1° settembre.", en: "The new timetable will take effect from 1 September." },
+          { es: "Le domande vanno presentate entro e non oltre il 31 marzo.", en: "Applications must be submitted by March 31 at the latest." },
+          { es: "Il nuovo orario entrerà in vigore a decorrere dal 1° settembre.", en: "The new schedule will take effect from September 1." },
           { es: "Il modulo va compilato in ogni sua parte, pena l'esclusione.", en: "The form must be filled in completely, or the application will be rejected." },
           { es: "Il rimborso sarà effettuato previa presentazione dello scontrino.", en: "The refund will be made upon presentation of the receipt." },
           { es: "Si allega copia del documento di identità.", en: "A copy of my identity document is attached." },
+          { es: "La domanda può essere presentata in carta semplice.", en: "The application can be submitted on ordinary paper, with no revenue stamp." },
+          { es: "Salvo diversa indicazione, gli uffici sono aperti dal lunedì al venerdì.", en: "Unless otherwise stated, the offices are open Monday to Friday." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into official Italian.", source: "Applications must be submitted by 31 March at the latest.", answer: "Le domande vanno presentate entro e non oltre il 31 marzo.", altAnswers: ["Le domande devono essere presentate entro e non oltre il 31 marzo.", "Le domande dovranno essere presentate entro e non oltre il 31 marzo."], explanation: "\"Entro e non oltre\": emphatic deadline." },
+          { type: "translate", direction: "en-es", prompt: "Translate into official Italian.", source: "Applications must be submitted by March 31 at the latest.", answer: "Le domande vanno presentate entro e non oltre il 31 marzo.", altAnswers: ["Le domande devono essere presentate entro e non oltre il 31 marzo.", "Le domande dovranno essere presentate entro e non oltre il 31 marzo."], explanation: "\"Entro e non oltre\": emphatic deadline." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The refund will be made [upon presentation of] the receipt.", sentence: "Il rimborso sarà effettuato ___ dello scontrino.", answer: "previa presentazione", explanation: "\"Previa\" + noun = upon prior..." },
         ],
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into official Italian.", source: "With reference to your request of 3 April, we inform you that the documents are ready.", answer: "In riferimento alla Sua richiesta del 3 aprile, Le comunichiamo che i documenti sono pronti.", altAnswers: ["Con riferimento alla Sua richiesta del 3 aprile, Le comunichiamo che i documenti sono pronti.", "In riferimento alla Sua richiesta del 3 aprile, si comunica che i documenti sono pronti."], explanation: "\"In riferimento a\"; \"Sua\" and \"Le\" capitalised in letters." },
+      { type: "translate", direction: "en-es", prompt: "Translate into official Italian.", source: "With reference to your request of April 3, we inform you that the documents are ready.", answer: "In riferimento alla Sua richiesta del 3 aprile, Le comunichiamo che i documenti sono pronti.", altAnswers: ["Con riferimento alla Sua richiesta del 3 aprile, Le comunichiamo che i documenti sono pronti.", "In riferimento alla Sua richiesta del 3 aprile, si comunica che i documenti sono pronti."], explanation: "\"In riferimento a\"; \"Sua\" and \"Le\" capitalized in letters." },
       { type: "translate", direction: "en-es", prompt: "Translate into official Italian.", source: "We hereby inform you that the procedure has begun.", answer: "Con la presente si comunica l'avvio del procedimento.", altAnswers: ["Con la presente Le comunichiamo l'avvio del procedimento.", "Con la presente si comunica che il procedimento è stato avviato."], explanation: "\"Con la presente\" = with this letter." },
-      { type: "translate", direction: "en-es", prompt: "Translate into official Italian.", source: "The new timetable will take effect from 1 September.", answer: "Il nuovo orario entrerà in vigore a decorrere dal 1° settembre.", altAnswers: ["Il nuovo orario entrerà in vigore a partire dal 1° settembre.", "Il nuovo orario entrerà in vigore dal 1° settembre."], explanation: "\"A decorrere dal\" = with effect from." },
+      { type: "translate", direction: "en-es", prompt: "Translate into official Italian.", source: "The new schedule will take effect from September 1.", answer: "Il nuovo orario entrerà in vigore a decorrere dal 1° settembre.", altAnswers: ["Il nuovo orario entrerà in vigore a partire dal 1° settembre.", "Il nuovo orario entrerà in vigore dal 1° settembre."], explanation: "\"A decorrere dal\" = with effect from." },
       { type: "translate", direction: "en-es", prompt: "Translate into official Italian.", source: "A copy of my identity document is attached.", answer: "Si allega copia del documento di identità.", altAnswers: ["Si allega copia del documento d'identità.", "Allego copia del documento di identità.", "In allegato copia del documento di identità."], explanation: "\"Si allega\": impersonal, no article before \"copia\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into official Italian.", source: "As provided for by the regulations, the fee must be paid in advance.", answer: "Secondo quanto previsto dal regolamento, la quota va versata in anticipo.", altAnswers: ["Secondo quanto previsto dal regolamento, la quota deve essere versata in anticipo.", "Come previsto dal regolamento, la quota va versata in anticipo."], explanation: "\"Andare\" + participle for obligation; \"versare\" = to pay in." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The form must be filled in completely, [on pain of exclusion].", sentence: "Il modulo va compilato in ogni sua parte, ___.", answer: "pena l'esclusione", explanation: "\"Pena\" + noun = on pain of." },
@@ -184,7 +192,7 @@ export const IT_C1_U04: Lesson[] = [
       },
       { type: "multiple-choice", question: "A letter says \"Si invita la S.V. a presentarsi\". Who is \"la S.V.\"?", options: ["You, the addressee", "The office manager", "A lawyer", "The mayor"], correctIndex: 0, explanation: "\"La Signoria Vostra\": a very formal you." },
       { type: "dictation", audio: "Le domande vanno presentate entro e non oltre il 31 marzo.", explanation: "\"Vanno presentate\" = must be submitted." },
-      { type: "speak", text: "La sottoscritta Giulia Ferri, nata a Pisa il 12 ottobre 1990, dichiara di essere residente a Firenze.", prompt: "Read the declaration aloud: I, the undersigned Giulia Ferri, born in Pisa on 12 October 1990, declare that I am resident in Florence.", tip: "\"Sottoscritta\": double t, stress on -crit-.", explanation: "The opening of a self-declaration." },
+      { type: "speak", text: "La sottoscritta Giulia Ferri, nata a Pisa il 12 ottobre 1990, dichiara di essere residente a Firenze.", prompt: "Read the declaration aloud: I, the undersigned Giulia Ferri, born in Pisa on October 12, 1990, declare that I am resident in Florence.", tip: "\"Sottoscritta\": double t, stress on -crit-.", explanation: "The opening of a self-declaration." },
     ],
   },
   {
@@ -193,31 +201,34 @@ export const IT_C1_U04: Lesson[] = [
     number: 3,
     title: "Writing Plain Italian",
     summary: "Rewrite official texts in clear Italian: verbs instead of nouns, active instead of passive, short sentences, everyday words and a visible you.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "The principles",
         body: [
           "Since the 1990s Italian governments have issued guidelines on clear administrative writing, and the Ministry for Public Administration published directives on simplifying administrative language in 2002 and 2005. Their advice is close to plain English: write for the reader, say who does what, use common words, keep sentences short.",
           "In practice, six moves. Turn nouns back into verbs (\"la presentazione della domanda\" → \"presentare la domanda\"). Make the actor visible (\"si comunica\" → \"Le comunichiamo\"). Prefer the active (\"la domanda deve essere presentata dal richiedente\" → \"deve presentare la domanda\"). Use everyday words (\"recarsi\" → \"andare\"). Cut sentences over twenty-five words. Put the important information first.",
+          "A simple test before you start: can you say in one breath who must do what, by when, and what happens if they don't? If the original text hides any of the four, your rewrite should bring it out. Dates and amounts stay exact (\"entro il 10 maggio\", \"30 euro\"); vagueness is not simplicity.",
         ],
         examples: [
-          { es: "La presentazione della domanda deve avvenire entro il 10 maggio.", en: "The application must be submitted by 10 May. (bureaucratic)" },
-          { es: "Deve presentare la domanda entro il 10 maggio.", en: "You must submit the application by 10 May. (plain)" },
+          { es: "La presentazione della domanda deve avvenire entro il 10 maggio.", en: "The application must be submitted by May 10. (bureaucratic)" },
+          { es: "Deve presentare la domanda entro il 10 maggio.", en: "You must submit the application by May 10. (plain)" },
           { es: "Si comunica che la pratica è stata approvata.", en: "Notice is given that the file has been approved. (bureaucratic)" },
           { es: "Le comunichiamo che abbiamo approvato la Sua pratica.", en: "We are pleased to tell you we have approved your application. (plain)" },
           { es: "Per ottenere il rimborso, porti lo scontrino all'ufficio.", en: "To get the refund, bring the receipt to the office." },
+          { es: "Chi deve pagare? Lei. Entro quando? Entro il 10 maggio.", en: "Who has to pay? You. By when? By May 10." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into plain Italian, with Lei.", source: "You must submit the application by 10 May.", answer: "Deve presentare la domanda entro il 10 maggio.", altAnswers: ["Lei deve presentare la domanda entro il 10 maggio.", "Deve presentare la domanda entro il 10 maggio compreso."], explanation: "Verb, visible reader, deadline at the end." },
+          { type: "translate", direction: "en-es", prompt: "Translate into plain Italian, with Lei.", source: "You must submit the application by May 10.", answer: "Deve presentare la domanda entro il 10 maggio.", altAnswers: ["Lei deve presentare la domanda entro il 10 maggio.", "Deve presentare la domanda entro il 10 maggio compreso."], explanation: "Verb, visible reader, deadline at the end." },
           { type: "multiple-choice", question: "Which version follows the plain-language guidelines?", options: ["Le comunichiamo che abbiamo approvato la Sua pratica.", "Si comunica che la pratica è stata approvata.", "Si rende noto che si è proceduto all'approvazione della pratica.", "La pratica risulta essere stata oggetto di approvazione."], correctIndex: 0, explanation: "Visible actor, active verb, direct address." },
         ],
       },
       {
         heading: "Rewriting step by step",
         body: [
-          "Take a real-style sentence: \"Si fa presente che, ai sensi della normativa vigente, il mancato rinnovo del permesso entro i termini previsti comporterà l'applicazione di una sanzione amministrativa.\" (31 words, no actor, three nominalisations.)",
+          "Take a real-style sentence: \"Si fa presente che, ai sensi della normativa vigente, il mancato rinnovo del permesso entro i termini previsti comporterà l'applicazione di una sanzione amministrativa.\" (31 words, no actor, three nominalizations.)",
           "Step one, find the message: if you don't renew the permit on time, you'll be fined. Step two, choose the reader's form: \"Lei\". Step three, rewrite: \"Se non rinnova il permesso entro la scadenza, dovrà pagare una multa.\" Fourteen words, one condition, one consequence. The legal anchor can go in a footnote or a short second sentence: \"Lo prevede la legge.\"",
+          "Long procedures become lists. Instead of one paragraph with \"previa presentazione di\", \"nonché\" and \"unitamente a\", write \"Porti con sé:\" followed by the documents one per line. Learners rewriting their first official text often keep the old order of the original; reorder it so the reader meets the action first and the legal basis last.",
         ],
         examples: [
           { es: "Se non rinnova il permesso entro la scadenza, dovrà pagare una multa.", en: "If you don't renew the permit on time, you'll have to pay a fine." },
@@ -225,6 +236,7 @@ export const IT_C1_U04: Lesson[] = [
           { es: "Il rinnovo va chiesto almeno 30 giorni prima.", en: "You must ask for the renewal at least 30 days in advance." },
           { es: "Può prenotare un appuntamento online o per telefono.", en: "You can book an appointment online or by phone." },
           { es: "Porti con sé il passaporto e due fotografie.", en: "Bring your passport and two photos with you." },
+          { es: "Il passaporto va presentato unitamente a due fotografie.", en: "The passport must be presented together with two photographs. (bureaucratic)" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into plain Italian, with Lei.", source: "If you don't renew the permit on time, you'll have to pay a fine.", answer: "Se non rinnova il permesso entro la scadenza, dovrà pagare una multa.", altAnswers: ["Se non rinnova il permesso in tempo, dovrà pagare una multa.", "Se non rinnova il permesso entro la scadenza, dovrà pagare una sanzione."], explanation: "\"Se\" + verb replaces \"il mancato rinnovo\"." },
@@ -238,7 +250,7 @@ export const IT_C1_U04: Lesson[] = [
           "Some technical terms cannot be avoided (\"codice fiscale\", \"ISEE\", \"residenza\"). Keep them and, if useful, explain them once: \"l'ISEE, cioè l'indicatore della situazione economica della famiglia\".",
         ],
         examples: [
-          { es: "Gentile signora, Le scriviamo per ricordarLe la scadenza del 30 giugno.", en: "Dear Madam, we are writing to remind you of the 30 June deadline." },
+          { es: "Gentile signora, Le scriviamo per ricordarLe la scadenza del 30 giugno.", en: "Dear Madam, we are writing to remind you of the June 30 deadline." },
           { es: "Compili il modulo, lo firmi e alleghi una copia del documento.", en: "Fill in the form, sign it and attach a copy of your ID." },
           { es: "Serve l'ISEE, cioè l'indicatore della situazione economica della famiglia.", en: "You need the ISEE, that is, the indicator of your household's economic situation." },
           { es: "Per qualsiasi dubbio, può scriverci a questo indirizzo.", en: "If you have any questions, you can write to us at this address." },
@@ -254,7 +266,7 @@ export const IT_C1_U04: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into plain Italian, with Lei.", source: "You can book an appointment online or by phone.", answer: "Può prenotare un appuntamento online o per telefono.", altAnswers: ["Lei può prenotare un appuntamento online o per telefono.", "Può prenotare un appuntamento online o telefonicamente."], explanation: "Short, active, direct." },
       { type: "translate", direction: "en-es", prompt: "Translate into plain Italian.", source: "You must ask for the renewal at least 30 days in advance.", answer: "Il rinnovo va chiesto almeno 30 giorni prima.", altAnswers: ["Deve chiedere il rinnovo almeno 30 giorni prima.", "Deve chiedere il rinnovo almeno 30 giorni prima della scadenza.", "Il rinnovo va chiesto almeno 30 giorni prima della scadenza."], explanation: "\"Va chiesto\" or \"deve chiedere\": both clear." },
       { type: "translate", direction: "en-es", prompt: "Translate into plain Italian.", source: "This is required by law.", answer: "Lo prevede la legge.", altAnswers: ["Lo stabilisce la legge.", "È previsto dalla legge."], explanation: "A short sentence for the legal anchor." },
-      { type: "translate", direction: "en-es", prompt: "Translate into plain but formal Italian.", source: "Dear Madam, we are writing to remind you of the 30 June deadline.", answer: "Gentile signora, Le scriviamo per ricordarLe la scadenza del 30 giugno.", altAnswers: ["Gentile signora, Le scriviamo per ricordarle la scadenza del 30 giugno.", "Gentile signora, Le scriviamo per ricordarLe la scadenza del 30 giugno prossimo."], explanation: "Plain does not mean informal: \"Gentile signora\", \"Le\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into plain but formal Italian.", source: "Dear Madam, we are writing to remind you of the June 30 deadline.", answer: "Gentile signora, Le scriviamo per ricordarLe la scadenza del 30 giugno.", altAnswers: ["Gentile signora, Le scriviamo per ricordarle la scadenza del 30 giugno.", "Gentile signora, Le scriviamo per ricordarLe la scadenza del 30 giugno prossimo."], explanation: "Plain does not mean informal: \"Gentile signora\", \"Le\"." },
       { type: "fill-blank", prompt: "Rewrite \"Si invita l'utenza a recarsi presso lo sportello\". Write the Italian for the bold words.", en: "[Please go] to the counter. (Lei)", sentence: "___ allo sportello.", answer: "Vada", altAnswers: ["Per favore, vada", "La preghiamo di andare"], explanation: "A polite imperative replaces the whole formula." },
       { type: "fill-blank", prompt: "Rewrite \"Il mancato pagamento comporterà una sanzione\". Write the Italian for the bold words.", en: "[If you don't pay], you'll be fined.", sentence: "___, riceverà una multa.", answer: "Se non paga", explanation: "\"Se\" + verb replaces \"il mancato\" + noun." },
       { type: "word-order", prompt: "Put the words in order to say: To get the refund, bring the receipt to the office.", words: ["Per", "ottenere", "il", "rimborso,", "porti", "lo", "scontrino", "all'ufficio."], translation: "To get the refund, bring the receipt to the office.", explanation: "Purpose first, then a polite imperative." },
@@ -269,20 +281,22 @@ export const IT_C1_U04: Lesson[] = [
     number: 4,
     title: "Official Forms",
     summary: "Understand and write the four documents every resident of Italy meets: the autocertificazione, the delega, the istanza and the domanda.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Autocertificazione",
         body: [
-          "An \"autocertificazione\" (officially \"dichiarazione sostitutiva di certificazione\") is a signed statement that replaces a certificate. Instead of queueing at the anagrafe for a certificate of residence, you declare your residence yourself, under article 46 of D.P.R. 445/2000, and the office can check it. Public offices must accept it for facts such as birth, residence, citizenship, marital status and family composition.",
+          "An \"autocertificazione\" (officially \"dichiarazione sostitutiva di certificazione\") is a signed statement that replaces a certificate. Instead of standing in line at the anagrafe for a certificate of residence, you declare your residence yourself, under article 46 of D.P.R. 445/2000, and the office can check it. Public offices must accept it for facts such as birth, residence, citizenship, marital status and family composition.",
           "Its structure is fixed: \"Il/La sottoscritto/a\", personal details, the legal warning (\"consapevole delle sanzioni penali previste dall'art. 76 del D.P.R. 445/2000 in caso di dichiarazioni mendaci\", that is, aware of the criminal penalties for false declarations), then \"DICHIARA\" followed by the facts, place, date and signature. \"Mendace\" (false, lying) is a word you will rarely see elsewhere.",
+          "Since 2012 public offices in Italy may no longer ask you for certificates about facts they can check themselves: they must accept your autocertificazione or look the data up. For facts that no register records (that you have lost a document, for example), the form is the \"dichiarazione sostitutiva dell'atto di notorietà\" under article 47, built the same way.",
         ],
         examples: [
-          { es: "La sottoscritta Chiara Moretti, nata a Cagliari il 3 febbraio 1988...", en: "I, the undersigned Chiara Moretti, born in Cagliari on 3 February 1988..." },
+          { es: "La sottoscritta Chiara Moretti, nata a Cagliari il 3 febbraio 1988...", en: "I, the undersigned Chiara Moretti, born in Cagliari on February 3, 1988..." },
           { es: "Consapevole delle sanzioni penali previste in caso di dichiarazioni mendaci...", en: "Aware of the criminal penalties for false declarations..." },
           { es: "Dichiara di essere residente a Bologna, in via Saragozza 12.", en: "Declares that she is resident in Bologna, at via Saragozza 12." },
           { es: "Dichiara di essere cittadina italiana.", en: "Declares that she is an Italian citizen." },
-          { es: "Bologna, 14 gennaio 2025. In fede, Chiara Moretti.", en: "Bologna, 14 January 2025. Yours faithfully, Chiara Moretti." },
+          { es: "Bologna, 14 gennaio 2025. In fede, Chiara Moretti.", en: "Bologna, January 14, 2025. In good faith, Chiara Moretti." },
+          { es: "Dichiara di aver smarrito la propria carta d'identità.", en: "Declares that she has lost her identity card." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into official Italian (self-declaration).", source: "Declares that she is resident in Bologna.", answer: "Dichiara di essere residente a Bologna.", explanation: "\"Dichiarare di\" + infinitive, third person after \"la sottoscritta\"." },
@@ -292,31 +306,33 @@ export const IT_C1_U04: Lesson[] = [
       {
         heading: "Delega",
         body: [
-          "A \"delega\" authorises someone else to act for you: to collect a document, a parcel, a child from school. \"Io sottoscritto Luca Galli delego il signor Paolo Neri a ritirare a mio nome il certificato...\". It always ends with copies of both identity documents: \"Si allegano copie dei documenti di identità del delegante e del delegato\".",
+          "A \"delega\" authorizes someone else to act for you: to collect a document, a package, a child from school. \"Io sottoscritto Luca Galli delego il signor Paolo Neri a ritirare a mio nome il certificato...\". It always ends with copies of both identity documents: \"Si allegano copie dei documenti di identità del delegante e del delegato\".",
           "Two nouns to keep apart: \"il delegante\" is the person who gives the authority, \"il delegato\" the person who receives it. \"Ritirare\" (to collect, pick up) is the key verb: \"ritirare un pacco\", \"ritirare le analisi\", \"ritirare il passaporto\".",
+          "Don't confuse the delega with a \"procura\" (power of attorney), which lets someone sign contracts or manage your affairs and is usually drawn up by a notary. A delega covers one simple act and costs nothing but a signature.",
         ],
         examples: [
-          { es: "Io sottoscritto Luca Galli delego il signor Paolo Neri a ritirare il mio passaporto.", en: "I, the undersigned Luca Galli, authorise Mr Paolo Neri to collect my passport." },
-          { es: "Delego mia moglie a ritirare le analisi a mio nome.", en: "I authorise my wife to collect my test results on my behalf." },
+          { es: "Io sottoscritto Luca Galli delego il signor Paolo Neri a ritirare il mio passaporto.", en: "I, the undersigned Luca Galli, authorize Mr. Paolo Neri to collect my passport." },
+          { es: "Delego mia moglie a ritirare le analisi a mio nome.", en: "I authorize my wife to collect my test results on my behalf." },
           { es: "Si allegano copie dei documenti di identità del delegante e del delegato.", en: "Copies of the identity documents of the person delegating and the delegate are attached." },
           { es: "Il delegato dovrà esibire un documento valido.", en: "The delegate must show a valid document." },
+          { es: "Per vendere la casa serve una procura dal notaio.", en: "To sell the house you need a power of attorney drawn up by a notary." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into official Italian.", source: "I authorise my wife to collect my test results on my behalf.", answer: "Delego mia moglie a ritirare le analisi a mio nome.", altAnswers: ["Delego mia moglie a ritirare a mio nome le analisi.", "Io sottoscritto delego mia moglie a ritirare le analisi a mio nome."], explanation: "\"Delegare qualcuno a\" + infinitive; \"a mio nome\" = on my behalf." },
+          { type: "translate", direction: "en-es", prompt: "Translate into official Italian.", source: "I authorize my wife to collect my test results on my behalf.", answer: "Delego mia moglie a ritirare le analisi a mio nome.", altAnswers: ["Delego mia moglie a ritirare a mio nome le analisi.", "Io sottoscritto delego mia moglie a ritirare le analisi a mio nome."], explanation: "\"Delegare qualcuno a\" + infinitive; \"a mio nome\" = on my behalf." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[The delegate] must show a valid document.", sentence: "___ dovrà esibire un documento valido.", answer: "Il delegato", altAnswers: ["La delegata"], explanation: "\"Delegato\" receives the authority; \"delegante\" gives it." },
         ],
       },
       {
         heading: "Istanza and domanda",
         body: [
-          "An \"istanza\" is a formal request to a public authority asking it to act: to grant a permit, review a decision, access documents. A \"domanda\" is an application, usually on a printed form: \"domanda di iscrizione\" (enrolment), \"domanda di partecipazione\" (to a competition), \"domanda di rimborso\". Many require a \"marca da bollo\", a revenue stamp, bought at the tabaccheria.",
+          "An \"istanza\" is a formal request to a public authority asking it to act: to grant a permit, review a decision, access documents. A \"domanda\" is an application, usually on a printed form: \"domanda di iscrizione\" (enrollment), \"domanda di partecipazione\" (to a competition), \"domanda di rimborso\". Many require a \"marca da bollo\", a revenue stamp, bought at the tabaccheria.",
           "An istanza opens with the addressee (\"Al Sindaco del Comune di Lecce\"), states the request with \"chiede\" (\"CHIEDE il rilascio di...\"), gives reasons introduced by \"a tal fine\" or \"premesso che\", and closes with \"Distinti saluti\". \"Il rilascio\" (the issuing) is the noun you'll see with every document: \"il rilascio del passaporto\", \"della carta d'identità\".",
         ],
         examples: [
           { es: "Al Sindaco del Comune di Lecce.", en: "To the Mayor of the Municipality of Lecce." },
           { es: "Il sottoscritto chiede il rilascio del permesso di sosta per residenti.", en: "I request the issuing of a residents' parking permit." },
           { es: "Premesso che abito nella zona a traffico limitato, chiedo l'accesso con la mia auto.", en: "Given that I live in the restricted traffic zone, I request access with my car." },
-          { es: "La domanda di iscrizione va presentata con una marca da bollo.", en: "The enrolment application must be submitted with a revenue stamp." },
+          { es: "La domanda di iscrizione va presentata con una marca da bollo.", en: "The enrollment application must be submitted with a revenue stamp." },
           { es: "Ho comprato la marca da bollo in tabaccheria.", en: "I bought the revenue stamp at the tobacconist's." },
           { es: "A tal fine, allego la documentazione richiesta.", en: "To this end, I attach the required documents." },
         ],
@@ -328,9 +344,9 @@ export const IT_C1_U04: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into official Italian (self-declaration).", source: "Declares that she is an Italian citizen.", answer: "Dichiara di essere cittadina italiana.", explanation: "No article before \"cittadina\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into official Italian.", source: "I, the undersigned Luca Galli, authorise Mr Paolo Neri to collect my passport.", answer: "Io sottoscritto Luca Galli delego il signor Paolo Neri a ritirare il mio passaporto.", altAnswers: ["Il sottoscritto Luca Galli delega il signor Paolo Neri a ritirare il suo passaporto.", "Io sottoscritto Luca Galli delego il sig. Paolo Neri a ritirare il mio passaporto."], explanation: "\"Io sottoscritto... delego\" (first person) or \"Il sottoscritto... delega\" (third)." },
+      { type: "translate", direction: "en-es", prompt: "Translate into official Italian.", source: "I, the undersigned Luca Galli, authorize Mr. Paolo Neri to collect my passport.", answer: "Io sottoscritto Luca Galli delego il signor Paolo Neri a ritirare il mio passaporto.", altAnswers: ["Il sottoscritto Luca Galli delega il signor Paolo Neri a ritirare il suo passaporto.", "Io sottoscritto Luca Galli delego il sig. Paolo Neri a ritirare il mio passaporto."], explanation: "\"Io sottoscritto... delego\" (first person) or \"Il sottoscritto... delega\" (third)." },
       { type: "translate", direction: "en-es", prompt: "Translate into official Italian.", source: "To this end, I attach the required documents.", answer: "A tal fine, allego la documentazione richiesta.", altAnswers: ["A tal fine allego la documentazione richiesta.", "A tal fine, allego i documenti richiesti.", "A tal fine, si allega la documentazione richiesta."], explanation: "\"A tal fine\" = to this end." },
-      { type: "translate", direction: "en-es", prompt: "Translate into official Italian.", source: "The enrolment application must be submitted with a revenue stamp.", answer: "La domanda di iscrizione va presentata con una marca da bollo.", altAnswers: ["La domanda di iscrizione deve essere presentata con una marca da bollo.", "La domanda d'iscrizione va presentata con una marca da bollo."], explanation: "\"Va presentata\": andare + participle for obligation." },
+      { type: "translate", direction: "en-es", prompt: "Translate into official Italian.", source: "The enrollment application must be submitted with a revenue stamp.", answer: "La domanda di iscrizione va presentata con una marca da bollo.", altAnswers: ["La domanda di iscrizione deve essere presentata con una marca da bollo.", "La domanda d'iscrizione va presentata con una marca da bollo."], explanation: "\"Va presentata\": andare + participle for obligation." },
       { type: "translate", direction: "en-es", prompt: "Translate into official Italian.", source: "Given that I live in the restricted traffic zone, I request access with my car.", answer: "Premesso che abito nella zona a traffico limitato, chiedo l'accesso con la mia auto.", altAnswers: ["Premesso che risiedo nella zona a traffico limitato, chiedo l'accesso con la mia auto.", "Premesso che abito nella ZTL, chiedo l'accesso con la mia auto."], explanation: "\"Premesso che\" + indicative states the background." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Aware of the criminal penalties [for false declarations]...", sentence: "Consapevole delle sanzioni penali previste ___...", answer: "in caso di dichiarazioni mendaci", altAnswers: ["per dichiarazioni mendaci"], explanation: "The fixed warning in every autocertificazione." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I request [the issuing] of a new identity card.", sentence: "Chiedo ___ di una nuova carta d'identità.", answer: "il rilascio", explanation: "\"Il rilascio\" = the issuing of a document." },
@@ -340,16 +356,16 @@ export const IT_C1_U04: Lesson[] = [
         instructions: "Match each document to its purpose.",
         pairs: [
           { left: "autocertificazione", right: "a signed statement replacing a certificate" },
-          { left: "delega", right: "authorising someone to act for you" },
+          { left: "delega", right: "authorizing someone to act for you" },
           { left: "istanza", right: "a formal request to an authority" },
-          { left: "domanda di iscrizione", right: "an enrolment application" },
+          { left: "domanda di iscrizione", right: "an enrollment application" },
           { left: "marca da bollo", right: "a revenue stamp" },
         ],
         explanation: "The four documents and the stamp.",
       },
       { type: "multiple-choice", question: "Who is \"il delegante\"?", options: ["The person who gives the authority", "The person who receives the authority", "The official at the counter", "A lawyer"], correctIndex: 0, explanation: "\"Delegante\" gives, \"delegato\" receives." },
       { type: "dictation", audio: "Si allegano copie dei documenti di identità del delegante e del delegato.", explanation: "The closing line of every delega." },
-      { type: "speak", text: "Buongiorno, devo ritirare il passaporto di mio marito. Ho la delega e una copia del suo documento.", prompt: "At the counter: Good morning, I need to collect my husband's passport. I have the authorisation and a copy of his ID.", tip: "\"Ritirare\": stress on -ra-.", explanation: "\"Ritirare\" + \"delega\": the practical use of the document." },
+      { type: "speak", text: "Buongiorno, devo ritirare il passaporto di mio marito. Ho la delega e una copia del suo documento.", prompt: "At the counter: Good morning, I need to collect my husband's passport. I have the authorization and a copy of his ID.", tip: "\"Ritirare\": stress on -ra-.", explanation: "\"Ritirare\" + \"delega\": the practical use of the document." },
     ],
   },
   {
@@ -384,14 +400,14 @@ export const IT_C1_U04: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Rewrite \"In caso di mancata presentazione\" in plain Italian (Lei): If you don't come.", source: "If you don't come.", answer: "Se non si presenta.", altAnswers: ["Se non viene.", "Se Lei non si presenta."], explanation: "\"Se\" + verb." },
       { type: "translate", direction: "en-es", prompt: "Rewrite \"L'ufficio provvederà alla restituzione dell'importo\" in plain Italian: We will refund the amount.", source: "We will refund the amount.", answer: "Le restituiremo l'importo.", altAnswers: ["Restituiremo l'importo.", "Le rimborseremo l'importo.", "Rimborseremo l'importo."], explanation: "\"Restituire\" as a verb." },
       { type: "translate", direction: "en-es", prompt: "Rewrite \"Si fa obbligo di esibire il biglietto\" in plain Italian (Lei): You must show your ticket.", source: "You must show your ticket.", answer: "Deve mostrare il biglietto.", altAnswers: ["Lei deve mostrare il biglietto.", "Deve far vedere il biglietto."], explanation: "\"Mostrare\" for \"esibire\"." },
-      { type: "translate", direction: "en-es", prompt: "Rewrite \"Le domande dovranno pervenire entro e non oltre il 30 aprile\" in plain Italian: Send your application by 30 April.", source: "Send your application by 30 April. (Lei)", answer: "Invii la domanda entro il 30 aprile.", altAnswers: ["Mandi la domanda entro il 30 aprile.", "Spedisca la domanda entro il 30 aprile."], explanation: "Polite imperative + simple deadline." },
+      { type: "translate", direction: "en-es", prompt: "Rewrite \"Le domande dovranno pervenire entro e non oltre il 30 aprile\" in plain Italian: Send your application by April 30.", source: "Send your application by April 30. (Lei)", answer: "Invii la domanda entro il 30 aprile.", altAnswers: ["Mandi la domanda entro il 30 aprile.", "Spedisca la domanda entro il 30 aprile."], explanation: "Polite imperative + simple deadline." },
       { type: "translate", direction: "en-es", prompt: "Write in official style: The office will be closed on Monday.", source: "The office will be closed on Monday.", answer: "Si comunica che l'ufficio resterà chiuso lunedì.", altAnswers: ["Si rende noto che l'ufficio resterà chiuso lunedì.", "Si comunica che lunedì l'ufficio resterà chiuso."], explanation: "\"Si comunica che\" opens the notice." },
-      { type: "translate", direction: "en-es", prompt: "Write in official style: Applications must arrive by 15 May at the latest.", source: "Applications must arrive by 15 May at the latest.", answer: "Le domande dovranno pervenire entro e non oltre il 15 maggio.", altAnswers: ["Le domande devono pervenire entro e non oltre il 15 maggio."], explanation: "\"Pervenire\" + \"entro e non oltre\"." },
+      { type: "translate", direction: "en-es", prompt: "Write in official style: Applications must arrive by May 15 at the latest.", source: "Applications must arrive by May 15 at the latest.", answer: "Le domande dovranno pervenire entro e non oltre il 15 maggio.", altAnswers: ["Le domande devono pervenire entro e non oltre il 15 maggio."], explanation: "\"Pervenire\" + \"entro e non oltre\"." },
       { type: "fill-blank", prompt: "Rewrite in plain Italian. Write the Italian for the bold word.", en: "\"In data odierna\" = [today]", sentence: "___", answer: "oggi", explanation: "The plain word." },
       { type: "fill-blank", prompt: "Rewrite in plain Italian. Write the Italian for the bold words.", en: "\"Porre in essere un intervento\" = [to take action]", sentence: "___", answer: "intervenire", altAnswers: ["agire"], explanation: "One verb replaces three words." },
       { type: "fill-blank", prompt: "Rewrite in plain Italian. Write the Italian for the bold word.", en: "\"Effettuare un controllo\" = [to check]", sentence: "___", answer: "controllare", altAnswers: ["verificare"], explanation: "The verb inside the noun." },
       { type: "fill-blank", prompt: "Rewrite in plain Italian. Write the Italian for the bold word.", en: "\"Inoltrare una richiesta\" = to [send] a request", sentence: "___ una richiesta", answer: "mandare", altAnswers: ["inviare", "fare"], explanation: "\"Mandare\" or \"inviare\"." },
-      { type: "fill-blank", prompt: "Write in official style. Write the Italian for the bold words.", en: "[With reference to] your letter of 2 May...", sentence: "___ alla Sua lettera del 2 maggio...", answer: "In riferimento", altAnswers: ["Con riferimento"], explanation: "Fixed opening formula." },
+      { type: "fill-blank", prompt: "Write in official style. Write the Italian for the bold words.", en: "[With reference to] your letter of May 2...", sentence: "___ alla Sua lettera del 2 maggio...", answer: "In riferimento", altAnswers: ["Con riferimento"], explanation: "Fixed opening formula." },
       { type: "fill-blank", prompt: "Write in official style. Write the Italian for the bold words.", en: "[Please] keep the door closed.", sentence: "___ tenere chiusa la porta.", answer: "Si prega di", explanation: "Notice formula + infinitive." },
       { type: "dictation", audio: "Si prega di non lasciare biciclette nell'androne.", explanation: "A typical condominio notice; \"androne\" = entrance hall." },
       { type: "dictation", audio: "Abbiamo ricevuto la Sua domanda e la stiamo esaminando.", explanation: "Plain, active, polite." },
@@ -414,47 +430,47 @@ export const IT_C1_U04: Lesson[] = [
         ],
         examples: [
           { es: "Oggetto: rinnovo dei contrassegni per la sosta dei residenti.", en: "Subject: renewal of residents' parking permits." },
-          { es: "Si rende noto che i contrassegni in scadenza il 31 dicembre dovranno essere rinnovati.", en: "Permits expiring on 31 December will need to be renewed." },
+          { es: "Si rende noto che i contrassegni in scadenza il 31 dicembre dovranno essere rinnovati.", en: "Permits expiring on December 31 will need to be renewed." },
           { es: "Il rinnovo potrà essere richiesto esclusivamente dagli aventi diritto.", en: "Only those entitled may request the renewal." },
           { es: "Sono aventi diritto i residenti nelle zone indicate nell'allegato A.", en: "Those entitled are residents of the areas listed in Annex A." },
           { es: "Ai sensi del regolamento comunale vigente.", en: "Under the current municipal regulations." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into plain Italian (Lei).", source: "Your permit expires on 31 December and you need to renew it.", answer: "Il Suo contrassegno scade il 31 dicembre e deve rinnovarlo.", altAnswers: ["Il suo contrassegno scade il 31 dicembre e deve rinnovarlo.", "Il Suo permesso scade il 31 dicembre e deve rinnovarlo."], explanation: "\"Scadere\" = to expire; \"rinnovarlo\" with the pronoun attached." },
+          { type: "translate", direction: "en-es", prompt: "Translate into plain Italian (Lei).", source: "Your permit expires on December 31 and you need to renew it.", answer: "Il Suo contrassegno scade il 31 dicembre e deve rinnovarlo.", altAnswers: ["Il suo contrassegno scade il 31 dicembre e deve rinnovarlo.", "Il Suo permesso scade il 31 dicembre e deve rinnovarlo."], explanation: "\"Scadere\" = to expire; \"rinnovarlo\" with the pronoun attached." },
           { type: "multiple-choice", question: "Who can request the renewal?", options: ["Residents of the areas in Annex A", "Anyone with a car", "Only council employees", "Tourists staying in hotels"], correctIndex: 0, explanation: "\"Aventi diritto\" = residents of the listed areas." },
         ],
       },
       {
         heading: "How and when",
         body: [
-          "The second part gives the procedure. Notice the passive and impersonal forms: \"la richiesta dovrà essere presentata\", \"potrà essere effettuato\", \"è necessario allegare\". The practical message: apply online or at the counter, from 1 to 30 November, with a copy of the car's registration document (\"libretto di circolazione\") and pay 30 euro.",
+          "The second part gives the procedure. Notice the passive and impersonal forms: \"la richiesta dovrà essere presentata\", \"potrà essere effettuato\", \"è necessario allegare\". The practical message: apply online or at the counter, from November 1 to 30, with a copy of the car's registration document (\"libretto di circolazione\") and pay 30 euro.",
           "\"Il versamento\" is a payment into an account; \"tramite\" means through, by means of; \"PagoPA\" is the national system for paying public bodies.",
         ],
         examples: [
-          { es: "La richiesta dovrà essere presentata dal 1° al 30 novembre.", en: "The request must be submitted from 1 to 30 November." },
+          { es: "La richiesta dovrà essere presentata dal 1° al 30 novembre.", en: "The request must be submitted from November 1 to 30." },
           { es: "La richiesta potrà essere effettuata online o presso lo sportello.", en: "The request can be made online or at the counter." },
           { es: "È necessario allegare copia del libretto di circolazione.", en: "A copy of the vehicle registration document must be attached." },
           { es: "Il versamento di 30 euro dovrà essere effettuato tramite PagoPA.", en: "The payment of 30 euros must be made through PagoPA." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into plain Italian (Lei).", source: "You can apply online or at the counter from 1 to 30 November.", answer: "Può fare domanda online o allo sportello dal 1° al 30 novembre.", altAnswers: ["Può fare la domanda online o allo sportello dal 1° al 30 novembre.", "Può fare richiesta online o allo sportello dal 1° al 30 novembre.", "Può presentare la domanda online o allo sportello dal 1° al 30 novembre."], explanation: "\"Fare domanda\" = to apply." },
+          { type: "translate", direction: "en-es", prompt: "Translate into plain Italian (Lei).", source: "You can apply online or at the counter from November 1 to 30.", answer: "Può fare domanda online o allo sportello dal 1° al 30 novembre.", altAnswers: ["Può fare la domanda online o allo sportello dal 1° al 30 novembre.", "Può fare richiesta online o allo sportello dal 1° al 30 novembre.", "Può presentare la domanda online o allo sportello dal 1° al 30 novembre."], explanation: "\"Fare domanda\" = to apply." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The payment must be made [through] PagoPA.", sentence: "Il pagamento va effettuato ___ PagoPA.", answer: "tramite", altAnswers: ["con", "attraverso"], explanation: "\"Tramite\" = by means of." },
         ],
       },
       {
         heading: "The consequences",
         body: [
-          "The last paragraph contains the sanction, which is what you most need to understand. \"Decorso inutilmente il termine\" (once the deadline has passed without action) is a classic absolute participle of burocratese. Plain meaning: if you don't renew by 30 November, from 1 January you can't park in the residents' area and you risk a fine.",
+          "The last paragraph contains the sanction, which is what you most need to understand. \"Decorso inutilmente il termine\" (once the deadline has passed without action) is a classic absolute participle of burocratese. Plain meaning: if you don't renew by November 30, from January 1 you can't park in the residents' area and you risk a fine.",
           "It closes with the office's contacts and \"Il Dirigente\", the head of the department who signs. In plain Italian the whole notice would fit in five sentences.",
         ],
         examples: [
           { es: "Decorso inutilmente il termine, il contrassegno non sarà più valido.", en: "Once the deadline has passed, the permit will no longer be valid." },
           { es: "La sosta senza contrassegno valido comporterà l'applicazione delle sanzioni previste.", en: "Parking without a valid permit will result in the applicable fines." },
           { es: "Per informazioni è possibile rivolgersi all'Ufficio Mobilità.", en: "For information you can contact the Mobility Office." },
-          { es: "Se non lo rinnova entro il 30 novembre, dal 1° gennaio rischia una multa.", en: "If you don't renew it by 30 November, from 1 January you risk a fine." },
+          { es: "Se non lo rinnova entro il 30 novembre, dal 1° gennaio rischia una multa.", en: "If you don't renew it by November 30, from January 1 you risk a fine." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into plain Italian (Lei).", source: "If you don't renew it by 30 November, from 1 January you risk a fine.", answer: "Se non lo rinnova entro il 30 novembre, dal 1° gennaio rischia una multa.", altAnswers: ["Se non lo rinnova entro il 30 novembre, dal primo gennaio rischia una multa."], explanation: "The plain version of \"decorso inutilmente il termine\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into plain Italian (Lei).", source: "If you don't renew it by November 30, from January 1 you risk a fine.", answer: "Se non lo rinnova entro il 30 novembre, dal 1° gennaio rischia una multa.", altAnswers: ["Se non lo rinnova entro il 30 novembre, dal primo gennaio rischia una multa."], explanation: "The plain version of \"decorso inutilmente il termine\"." },
           { type: "listen-choose", audio: "Decorso inutilmente il termine, il contrassegno non sarà più valido.", question: "What does it mean?", options: ["After the deadline, the permit won't be valid.", "The deadline has been extended.", "The permit is valid forever.", "The deadline was useless."], correctIndex: 0, explanation: "\"Decorso inutilmente il termine\" = once the deadline has passed without action." },
         ],
       },
@@ -480,9 +496,9 @@ export const IT_C1_U04: Lesson[] = [
         ],
         explanation: "Key words of the notice.",
       },
-      { type: "multiple-choice", question: "What happens if you park without a valid permit from 1 January?", options: ["You will be fined.", "Nothing, there is a grace period.", "Your car will be sold.", "You must pay 30 euros to the neighbours."], correctIndex: 0, explanation: "\"Comporterà l'applicazione delle sanzioni previste\" = you'll be fined." },
+      { type: "multiple-choice", question: "What happens if you park without a valid permit from January 1?", options: ["You will be fined.", "Nothing, there is a grace period.", "Your car will be sold.", "You must pay 30 euros to the neighbors."], correctIndex: 0, explanation: "\"Comporterà l'applicazione delle sanzioni previste\" = you'll be fined." },
       { type: "dictation", audio: "La richiesta dovrà essere presentata dal 1° al 30 novembre.", answer: "La richiesta dovrà essere presentata dal primo al 30 novembre.", altAnswers: ["La richiesta dovrà essere presentata dal 1 al 30 novembre.", "La richiesta dovrà essere presentata dal 1° al 30 novembre."], explanation: "\"Il 1°\" is read \"il primo\"." },
-      { type: "speak", text: "Il contrassegno scade il 31 dicembre. Può rinnovarlo online o allo sportello dal 1° al 30 novembre e costa 30 euro.", prompt: "Explain the notice to a neighbour in plain Italian (Lei): The permit expires on 31 December. You can renew it online or at the counter from 1 to 30 November and it costs 30 euros.", tip: "Read \"1°\" as \"primo\".", explanation: "The whole notice in two plain sentences." },
+      { type: "speak", text: "Il contrassegno scade il 31 dicembre. Può rinnovarlo online o allo sportello dal 1° al 30 novembre e costa 30 euro.", prompt: "Explain the notice to a neighbor in plain Italian (Lei): The permit expires on December 31. You can renew it online or at the counter from November 1 to 30 and it costs 30 euros.", tip: "Read \"1°\" as \"primo\".", explanation: "The whole notice in two plain sentences." },
     ],
   },
   {
@@ -514,7 +530,7 @@ export const IT_C1_U04: Lesson[] = [
         heading: "Register clashes",
         body: [
           "The opposite slip mixes registers. \"*Ciao, ti scrivo per il certificato\" to an office is too familiar; so is \"*Grazie mille, un abbraccio\". Equally wrong is \"*Egregio Ufficio\": \"Egregio\" goes with a man's title (\"Egregio Professore\", \"Egregio Dottor Bianchi\"), not with an office. Use \"Gentile Segreteria\" or \"Spettabile Ufficio\" (\"Spett.le\").",
-          "In letters, the Lei pronouns and possessives are capitalised: \"La ringrazio\", \"Le scrivo\", \"la Sua risposta\". Learners often mix \"tu\" and \"Lei\" in the same email: \"*La ringrazio, fammi sapere\". Keep \"Lei\" throughout: \"mi faccia sapere\".",
+          "In letters, the Lei pronouns and possessives are capitalized: \"La ringrazio\", \"Le scrivo\", \"la Sua risposta\". Learners often mix \"tu\" and \"Lei\" in the same email: \"*La ringrazio, fammi sapere\". Keep \"Lei\" throughout: \"mi faccia sapere\".",
         ],
         examples: [
           { es: "Spettabile Ufficio Tributi,", en: "Dear Tax Office," },
@@ -524,7 +540,7 @@ export const IT_C1_U04: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "A learner wrote \"La ringrazio, fammi sapere se servono altri documenti\". Write it correctly (Lei throughout): Thank you, please let me know if other documents are needed.", source: "Thank you, please let me know if other documents are needed.", answer: "La ringrazio, mi faccia sapere se servono altri documenti.", altAnswers: ["La ringrazio, mi faccia sapere se sono necessari altri documenti."], explanation: "Lei imperative: \"mi faccia sapere\"." },
-          { type: "multiple-choice", question: "Which greeting is right for an email to a council office?", options: ["Spettabile Ufficio Anagrafe,", "Egregio Ufficio Anagrafe,", "Ciao Ufficio Anagrafe,", "Caro Ufficio Anagrafe,"], correctIndex: 0, explanation: "\"Spettabile\" for organisations; \"Egregio\" for a person." },
+          { type: "multiple-choice", question: "Which greeting is right for an email to a council office?", options: ["Spettabile Ufficio Anagrafe,", "Egregio Ufficio Anagrafe,", "Ciao Ufficio Anagrafe,", "Caro Ufficio Anagrafe,"], correctIndex: 0, explanation: "\"Spettabile\" for organizations; \"Egregio\" for a person." },
         ],
       },
       {
@@ -534,7 +550,7 @@ export const IT_C1_U04: Lesson[] = [
           "And \"in allegato\" is followed by the noun without a verb (\"In allegato il modulo compilato\") or used with \"trova\" (\"In allegato trova il modulo\"). \"*In allegato si trova i documenti\" breaks agreement: \"si trovano i documenti\" or, better, \"Allego i documenti\".",
         ],
         examples: [
-          { es: "Il pagamento va effettuato entro e non oltre il 10 giugno.", en: "Payment must be made by 10 June at the latest." },
+          { es: "Il pagamento va effettuato entro e non oltre il 10 giugno.", en: "Payment must be made by June 10 at the latest." },
           { es: "In ottemperanza alla legge, l'accesso è vietato.", en: "In compliance with the law, access is prohibited." },
           { es: "Il sottoscritto dichiara di aver ricevuto la somma.", en: "I, the undersigned, declare that I have received the sum." },
           { es: "In allegato trova il modulo compilato.", en: "Please find the completed form attached." },
@@ -550,8 +566,8 @@ export const IT_C1_U04: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"In ottemperanza della legge, l'accesso è vietato\". Write it correctly: In compliance with the law, access is prohibited.", source: "In compliance with the law, access is prohibited.", answer: "In ottemperanza alla legge, l'accesso è vietato.", explanation: "\"In ottemperanza a\"." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"In allegato si trova i documenti\". Write it correctly and simply: I attach the documents.", source: "I attach the documents.", answer: "Allego i documenti.", altAnswers: ["In allegato i documenti.", "In allegato trova i documenti.", "Le allego i documenti."], explanation: "\"Allego\" is the simplest correct form." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Grazie mille, un abbraccio\" to an office. Write it correctly: Thank you, and I look forward to your reply.", source: "Thank you, and I look forward to your reply.", answer: "La ringrazio e resto in attesa di un Suo riscontro.", altAnswers: ["La ringrazio e resto in attesa di una Sua risposta.", "La ringrazio e attendo una Sua risposta.", "Vi ringrazio e resto in attesa di un vostro riscontro."], explanation: "Formal closing with capital \"Suo\"." },
-      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Egregio Ufficio Tributi\". Write the correct greeting: Dear Tax Office,", source: "Dear Tax Office,", answer: "Spettabile Ufficio Tributi,", altAnswers: ["Spett.le Ufficio Tributi,", "Gentile Ufficio Tributi,"], explanation: "\"Spettabile\" for organisations." },
-      { type: "fill-blank", prompt: "A learner wrote \"entro e non dopo\". Write the Italian for the bold words.", en: "Payment must be made [by 10 June at the latest].", sentence: "Il pagamento va effettuato ___ il 10 giugno.", answer: "entro e non oltre", explanation: "The exact formula." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Egregio Ufficio Tributi\". Write the correct greeting: Dear Tax Office,", source: "Dear Tax Office,", answer: "Spettabile Ufficio Tributi,", altAnswers: ["Spett.le Ufficio Tributi,", "Gentile Ufficio Tributi,"], explanation: "\"Spettabile\" for organizations." },
+      { type: "fill-blank", prompt: "A learner wrote \"entro e non dopo\". Write the Italian for the bold words.", en: "Payment must be made [by June 10 at the latest].", sentence: "Il pagamento va effettuato ___ il 10 giugno.", answer: "entro e non oltre", explanation: "The exact formula." },
       { type: "fill-blank", prompt: "A learner wrote \"ai sensi alla legge\". Write the Italian for the bold words.", en: "[Under] the law, the declaration is valid.", sentence: "___ legge, la dichiarazione è valida.", answer: "Ai sensi della", explanation: "\"Ai sensi di\" + noun." },
       { type: "word-order", prompt: "Put the words in order to say: Please find the completed form attached.", words: ["In", "allegato", "trova", "il", "modulo", "compilato."], translation: "Please find the completed form attached.", explanation: "\"In allegato trova\" with Lei." },
       { type: "multiple-choice", question: "Which sentence is right for a formal email?", options: ["Mi faccia sapere se servono altri documenti.", "Fammi sapere se servono altri documenti.", "Mi fate sapere se servono altri documenti, grazie mille ciao.", "Si faccia sapere se servono altri documenti."], correctIndex: 0, explanation: "Lei imperative, no mixed register." },
@@ -607,7 +623,7 @@ export const IT_C1_U04: Lesson[] = [
         heading: "Asking for clarification",
         body: [
           "At the counter, never pretend to understand. Polite clarifying questions: \"Scusi, può ripetere?\", \"Cosa intende per...?\" (what do you mean by...?), \"Quindi, se ho capito bene, ...\" (so, if I've understood correctly...), \"Devo tornare io o mi contattate voi?\".",
-          "Summarising back is the most useful strategy: \"Quindi, se ho capito bene, compilo il modulo, aspetto la visita dei vigili e poi posso fare la carta d'identità\". The official will confirm or correct you.",
+          "Summarizing back is the most useful strategy: \"Quindi, se ho capito bene, compilo il modulo, aspetto la visita dei vigili e poi posso fare la carta d'identità\". The official will confirm or correct you.",
         ],
         examples: [
           { es: "Scusi, cosa intende per accertamento?", en: "Excuse me, what do you mean by check?" },
@@ -632,7 +648,7 @@ export const IT_C1_U04: Lesson[] = [
       { type: "word-order", prompt: "Put the words in order to say: Good morning, how can I help you?", words: ["Buongiorno,", "mi", "dica."], translation: "Good morning, how can I help you?", explanation: "\"Mi dica\": the standard counter opening." },
       { type: "multiple-choice", question: "The official says \"Aspetti di essere chiamata\". What should Emma do?", options: ["Wait until her number is called.", "Call the office later.", "Go home and wait for a phone call.", "Ask to be called by her first name."], correctIndex: 0, explanation: "\"Essere chiamata\" = to be called (her number)." },
       { type: "dictation", audio: "Si assicuri che il Suo nome sia sul campanello.", explanation: "\"Si assicuri\": Lei imperative." },
-      { type: "speak", text: "Quindi, se ho capito bene, compilo il modulo, aspetto la visita dei vigili e poi prendo un appuntamento per la carta d'identità.", prompt: "Summarise the procedure back to the official: So, if I've understood correctly, I fill in the form, wait for the police visit and then book an appointment for the identity card.", tip: "Slow down on \"se ho capito bene\".", explanation: "Summarising back is the best clarifying strategy." },
+      { type: "speak", text: "Quindi, se ho capito bene, compilo il modulo, aspetto la visita dei vigili e poi prendo un appuntamento per la carta d'identità.", prompt: "Summarize the procedure back to the official: So, if I've understood correctly, I fill in the form, wait for the police visit and then book an appointment for the identity card.", tip: "Slow down on \"se ho capito bene\".", explanation: "Summarizing back is the best clarifying strategy." },
     ],
   },
   {
@@ -652,7 +668,7 @@ export const IT_C1_U04: Lesson[] = [
         ],
         examples: [
           { es: "Dichiarazione sostitutiva di certificazione (art. 46 D.P.R. 445/2000).", en: "Self-declaration in place of a certificate (art. 46, Presidential Decree 445/2000)." },
-          { es: "La sottoscritta Hannah Weber, nata a Monaco di Baviera il 9 giugno 1991...", en: "I, the undersigned Hannah Weber, born in Munich on 9 June 1991..." },
+          { es: "La sottoscritta Hannah Weber, nata a Monaco di Baviera il 9 giugno 1991...", en: "I, the undersigned Hannah Weber, born in Munich on June 9, 1991..." },
           { es: "...residente a Bologna in via Mazzini 40, codice fiscale WBRHNH91H49Z112K...", en: "...resident in Bologna at via Mazzini 40, tax code WBRHNH91H49Z112K..." },
           { es: "Dichiara di essere coniugata con Marco Rossi.", en: "Declares that she is married to Marco Rossi." },
           { es: "Dichiara che la propria famiglia è composta da due persone.", en: "Declares that her household consists of two people." },
@@ -671,7 +687,7 @@ export const IT_C1_U04: Lesson[] = [
         examples: [
           { es: "Consapevole delle sanzioni penali previste dall'art. 76 del D.P.R. 445/2000 in caso di dichiarazioni mendaci, dichiara...", en: "Aware of the criminal penalties provided by art. 76 of Presidential Decree 445/2000 for false declarations, declares..." },
           { es: "I dati raccolti saranno trattati esclusivamente per questo procedimento.", en: "The data collected will be processed solely for this procedure." },
-          { es: "Bologna, 3 marzo 2025. La dichiarante, Hannah Weber.", en: "Bologna, 3 March 2025. The declarant, Hannah Weber." },
+          { es: "Bologna, 3 marzo 2025. La dichiarante, Hannah Weber.", en: "Bologna, March 3, 2025. The declarant, Hannah Weber." },
           { es: "Allego copia del mio documento di identità.", en: "I attach a copy of my identity document." },
         ],
         checkpoint: [
@@ -686,10 +702,10 @@ export const IT_C1_U04: Lesson[] = [
           "Note \"quello del delegato\" (that of the delegate): \"quello\" avoids repeating \"documento di identità\". \"Presso\" (at, with an institution) is the standard preposition for offices: \"presso il Comune\", \"presso lo sportello\".",
         ],
         examples: [
-          { es: "Delego il signor Marco Rossi a ritirare a mio nome la carta d'identità elettronica.", en: "I authorise Mr Marco Rossi to collect my electronic identity card on my behalf." },
+          { es: "Delego il signor Marco Rossi a ritirare a mio nome la carta d'identità elettronica.", en: "I authorize Mr. Marco Rossi to collect my electronic identity card on my behalf." },
           { es: "Il ritiro avverrà presso il Comune di Bologna.", en: "Collection will take place at Bologna town hall." },
           { es: "Allego copia del mio documento e di quello del delegato.", en: "I attach a copy of my document and of the delegate's." },
-          { es: "In fede, Hannah Weber.", en: "Yours faithfully, Hannah Weber." },
+          { es: "In fede, Hannah Weber.", en: "In good faith, Hannah Weber." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into official Italian.", source: "I attach a copy of my document and of the delegate's.", answer: "Allego copia del mio documento e di quello del delegato.", altAnswers: ["Allego una copia del mio documento e di quello del delegato.", "Si allega copia del mio documento e di quello del delegato."], explanation: "\"Quello del delegato\" avoids repetition." },
@@ -698,17 +714,17 @@ export const IT_C1_U04: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into official Italian.", source: "I authorise Mr Marco Rossi to collect my electronic identity card on my behalf.", answer: "Delego il signor Marco Rossi a ritirare a mio nome la carta d'identità elettronica.", altAnswers: ["Delego il signor Marco Rossi a ritirare la carta d'identità elettronica a mio nome.", "Delego il sig. Marco Rossi a ritirare a mio nome la carta d'identità elettronica."], explanation: "\"Delegare qualcuno a\" + infinitive." },
-      { type: "translate", direction: "en-es", prompt: "Translate into official Italian (a woman writing).", source: "I, the undersigned, born in Munich on 9 June 1991, resident in Bologna...", answer: "La sottoscritta, nata a Monaco di Baviera il 9 giugno 1991, residente a Bologna...", altAnswers: ["Io sottoscritta, nata a Monaco di Baviera il 9 giugno 1991, residente a Bologna..."], explanation: "\"Nata\" agrees; \"residente\" is invariable." },
+      { type: "translate", direction: "en-es", prompt: "Translate into official Italian.", source: "I authorize Mr. Marco Rossi to collect my electronic identity card on my behalf.", answer: "Delego il signor Marco Rossi a ritirare a mio nome la carta d'identità elettronica.", altAnswers: ["Delego il signor Marco Rossi a ritirare la carta d'identità elettronica a mio nome.", "Delego il sig. Marco Rossi a ritirare a mio nome la carta d'identità elettronica."], explanation: "\"Delegare qualcuno a\" + infinitive." },
+      { type: "translate", direction: "en-es", prompt: "Translate into official Italian (a woman writing).", source: "I, the undersigned, born in Munich on June 9, 1991, resident in Bologna...", answer: "La sottoscritta, nata a Monaco di Baviera il 9 giugno 1991, residente a Bologna...", altAnswers: ["Io sottoscritta, nata a Monaco di Baviera il 9 giugno 1991, residente a Bologna..."], explanation: "\"Nata\" agrees; \"residente\" is invariable." },
       { type: "translate", direction: "en-es", prompt: "Translate into official Italian.", source: "Declares that she is resident in Bologna at via Mazzini 40.", answer: "Dichiara di essere residente a Bologna in via Mazzini 40.", altAnswers: ["Dichiara di risiedere a Bologna in via Mazzini 40."], explanation: "\"Essere residente a\" + city, \"in via\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into official Italian.", source: "I attach a copy of my identity document.", answer: "Allego copia del mio documento di identità.", altAnswers: ["Allego una copia del mio documento di identità.", "Allego copia del mio documento d'identità."], explanation: "\"Allego\" + \"copia\" without an article is standard." },
-      { type: "translate", direction: "en-es", prompt: "Translate into official Italian.", source: "Bologna, 3 March 2025. The declarant.", answer: "Bologna, 3 marzo 2025. La dichiarante.", altAnswers: ["Bologna, 3 marzo 2025. Il dichiarante.", "Bologna, lì 3 marzo 2025. La dichiarante."], explanation: "Place, date, \"il / la dichiarante\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into official Italian.", source: "Bologna, March 3, 2025. The declarant.", answer: "Bologna, 3 marzo 2025. La dichiarante.", altAnswers: ["Bologna, 3 marzo 2025. Il dichiarante.", "Bologna, lì 3 marzo 2025. La dichiarante."], explanation: "Place, date, \"il / la dichiarante\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Aware of] the criminal penalties for false declarations...", sentence: "___ delle sanzioni penali previste in caso di dichiarazioni mendaci...", answer: "Consapevole", explanation: "\"Consapevole di\" = aware of; invariable for gender." },
       { type: "fill-blank", prompt: "Write the Italian for the bold word.", en: "[Declares] that her household consists of two people.", sentence: "___ che la propria famiglia è composta da due persone.", answer: "Dichiara", explanation: "Third person after \"la sottoscritta\"." },
       { type: "word-order", prompt: "Put the words in order to say: Self-declaration in place of a certificate.", words: ["Dichiarazione", "sostitutiva", "di", "certificazione."], translation: "Self-declaration in place of a certificate.", explanation: "The official name of the autocertificazione." },
       { type: "multiple-choice", question: "Your employer asks for a certificate of residence. What is the quickest legal option?", options: ["Write an autocertificazione.", "Write a delega to your employer.", "Send an istanza to the mayor.", "Buy a marca da bollo and wait."], correctIndex: 0, explanation: "The autocertificazione replaces the certificate." },
       { type: "dictation", audio: "Allego copia del mio documento e di quello del delegato.", explanation: "\"Quello del delegato\" = the delegate's." },
-      { type: "speak", text: "Io sottoscritta delego il signor Marco Rossi a ritirare a mio nome la carta d'identità presso il Comune di Bologna.", prompt: "Read your delega aloud: I, the undersigned, authorise Mr Marco Rossi to collect my identity card on my behalf at Bologna town hall.", tip: "\"Presso\": stress on the first syllable.", explanation: "The core sentence of a delega." },
+      { type: "speak", text: "Io sottoscritta delego il signor Marco Rossi a ritirare a mio nome la carta d'identità presso il Comune di Bologna.", prompt: "Read your delega aloud: I, the undersigned, authorize Mr. Marco Rossi to collect my identity card on my behalf at Bologna town hall.", tip: "\"Presso\": stress on the first syllable.", explanation: "The core sentence of a delega." },
     ],
   },
   {
@@ -741,17 +757,17 @@ export const IT_C1_U04: Lesson[] = [
         heading: "A station announcement",
         body: [
           "Railway announcements mix bureaucratic and plain Italian. Listen for the train type, number, destination, platform and the problem: \"Il treno Frecciarossa 9541 per Napoli Centrale partirà con un ritardo previsto di 25 minuti\". \"Si avvisano i signori viaggiatori\" (passengers are advised) is the standard opening.",
-          "Typical warnings: \"Allontanarsi dalla linea gialla\" (stand back from the yellow line), \"Il treno è in arrivo al binario 3 anziché al binario 5\" (instead of platform 5), \"Ci scusiamo per il disagio\" (we apologise for the inconvenience).",
+          "Typical warnings: \"Allontanarsi dalla linea gialla\" (stand back from the yellow line), \"Il treno è in arrivo al binario 3 anziché al binario 5\" (instead of platform 5), \"Ci scusiamo per il disagio\" (we apologize for the inconvenience).",
         ],
         examples: [
           { es: "Si avvisano i signori viaggiatori che il treno partirà con 25 minuti di ritardo.", en: "Passengers are advised that the train will leave 25 minutes late." },
           { es: "Il treno è in arrivo al binario 3 anziché al binario 5.", en: "The train is arriving at platform 3 instead of platform 5." },
           { es: "Allontanarsi dalla linea gialla.", en: "Stand back from the yellow line." },
-          { es: "Ci scusiamo per il disagio.", en: "We apologise for the inconvenience." },
+          { es: "Ci scusiamo per il disagio.", en: "We apologize for the inconvenience." },
         ],
         checkpoint: [
           { type: "listen-choose", audio: "Il treno è in arrivo al binario 3 anziché al binario 5.", question: "Where should you go?", options: ["Platform 3", "Platform 5", "Platform 8", "The ticket office"], correctIndex: 0, explanation: "\"Anziché\" = instead of: platform 3." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian (announcement style).", source: "We apologise for the inconvenience.", answer: "Ci scusiamo per il disagio.", altAnswers: ["Ci scusiamo per l'inconveniente."], explanation: "Standard closing of announcements." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian (announcement style).", source: "We apologize for the inconvenience.", answer: "Ci scusiamo per il disagio.", altAnswers: ["Ci scusiamo per l'inconveniente."], explanation: "Standard closing of announcements." },
         ],
       },
       {
@@ -773,7 +789,7 @@ export const IT_C1_U04: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "listen-choose", audio: "Si avvisano i signori viaggiatori che il treno partirà con 25 minuti di ritardo.", question: "How late is the train?", options: ["25 minutes", "5 minutes", "52 minutes", "It's cancelled."], correctIndex: 0, explanation: "\"Con 25 minuti di ritardo\"." },
+      { type: "listen-choose", audio: "Si avvisano i signori viaggiatori che il treno partirà con 25 minuti di ritardo.", question: "How late is the train?", options: ["25 minutes", "5 minutes", "52 minutes", "It's canceled."], correctIndex: 0, explanation: "\"Con 25 minuti di ritardo\"." },
       { type: "listen-choose", audio: "La invitiamo a inviarla via email entro venerdì.", question: "What must Emma do?", options: ["Send the document by email by Friday", "Come to the office on Friday", "Phone back on Friday", "Pay by Friday"], correctIndex: 0, explanation: "\"Inviarla via email entro venerdì\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (recorded message, Lei).", source: "To book an appointment, press 1.", answer: "Per prenotare una visita, prema 1.", altAnswers: ["Per prenotare un appuntamento, prema 1.", "Per prenotare una visita, prema uno."], explanation: "\"Prema\": Lei imperative of \"premere\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (recorded message).", source: "The call may be recorded for quality purposes.", answer: "La telefonata potrebbe essere registrata per motivi di qualità.", altAnswers: ["La chiamata potrebbe essere registrata per motivi di qualità."], explanation: "Passive with \"potrebbe\"." },
@@ -782,7 +798,7 @@ export const IT_C1_U04: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold word.", en: "Please send it by Friday; [otherwise] the file will remain on hold.", sentence: "La invii entro venerdì; ___ la pratica rimane sospesa.", answer: "altrimenti", explanation: "\"Altrimenti\" = otherwise." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Stand back] from the yellow line.", sentence: "___ dalla linea gialla.", answer: "Allontanarsi", explanation: "Infinitive for impersonal instructions." },
       { type: "word-order", prompt: "Put the words in order to say: To cancel an appointment, press 2.", words: ["Per", "disdire", "un", "appuntamento,", "prema", "2."], translation: "To cancel an appointment, press 2.", explanation: "\"Disdire\" = to cancel." },
-      { type: "multiple-choice", question: "What is \"l'impegnativa\"?", options: ["The doctor's referral form", "A fine", "A queue ticket", "A train ticket"], correctIndex: 0, explanation: "You need it to book specialist visits in the public health service." },
+      { type: "multiple-choice", question: "What is \"l'impegnativa\"?", options: ["The doctor's referral form", "A fine", "A ticket for the line", "A train ticket"], correctIndex: 0, explanation: "You need it to book specialist visits in the public health service." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (official, Lei).", source: "Otherwise the file will remain on hold.", answer: "Altrimenti la pratica rimane sospesa.", altAnswers: ["Altrimenti la pratica resterà sospesa.", "Altrimenti la pratica rimarrà sospesa.", "Altrimenti la pratica resta sospesa."], explanation: "\"Sospesa\" = on hold; \"altrimenti\" = otherwise." },
       { type: "dictation", audio: "Ci scusiamo per il disagio.", explanation: "Announcement closing." },
       { type: "speak", text: "Buongiorno, ho ricevuto il Suo messaggio. Le mando la copia del contratto oggi stesso.", prompt: "Call the office back: Good morning, I got your message. I'll send you the copy of the contract today.", tip: "\"Oggi stesso\" = this very day.", explanation: "A clear, polite reply." },
@@ -792,7 +808,7 @@ export const IT_C1_U04: Lesson[] = [
 
 export const IT_C1_U04_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Your condominio has posted a notice in heavy burocratese about new rules for the shared courtyard. A new neighbour who is learning Italian asks you to explain it. Rewrite the notice in plain but polite Italian for all residents: what changes, from when, what residents must do, and what happens if they don't.",
+  prompt: "Your condominio has posted a notice in heavy burocratese about new rules for the shared courtyard. A new neighbor who is learning Italian asks you to explain it. Rewrite the notice in plain but polite Italian for all residents: what changes, from when, what residents must do, and what happens if they don't.",
   minWords: 150,
   maxWords: 220,
   rubric: [

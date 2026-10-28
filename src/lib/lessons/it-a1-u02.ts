@@ -267,7 +267,7 @@ export const IT_A1_U02: Lesson[] = [
         heading: "Small spelling changes",
         body: [
           "Feminine nouns in \"-ca\" and \"-ga\" add an \"h\" in the plural to keep the hard sound: \"amica → amiche\", \"riga → righe\". Without the h, \"amice\" would sound like CHEH.",
-          "A few nouns are irregular, and the commonest is \"uomo\" (man), plural \"uomini\". Note also \"amico → amici\": the masculine keeps a soft sound, a-MI-chi.",
+          "A few nouns are irregular, and the commonest is \"uomo\" (man), plural \"uomini\". Note also \"amico → amici\": the masculine switches to a soft sound, a-MI-chi, with no h.",
         ],
         examples: [
           { es: "un'amica, due amiche", en: "one friend, two friends (women)" },
@@ -543,7 +543,7 @@ export const IT_A1_U02: Lesson[] = [
         heading: "The four forms in one look",
         body: [
           "Masculine: \"un\" by default (\"un tavolo\", \"un orologio\", \"un hotel\"), \"uno\" before s + consonant, z, gn, ps, y (\"uno sport\", \"uno zio\"). Feminine: \"una\" before a consonant (\"una zia\"), \"un'\" before a vowel (\"un'arancia\").",
-          "\"Hotel\" starts with a silent h, but Italians treat it as a consonant word: \"un hotel\".",
+          "\"Hotel\" starts with a silent h, so it behaves like a vowel word: masculine \"un hotel\", like \"un amico\" (and later \"l'hotel\").",
         ],
         examples: [
           { es: "un orologio", en: "a watch" },
@@ -574,7 +574,7 @@ export const IT_A1_U02: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "a chair", answer: "una sedia", explanation: "\"Sedia\" is feminine: \"una sedia\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "a hotel", answer: "un hotel", explanation: "The h is silent, but \"hotel\" takes plain \"un\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "a hotel", answer: "un hotel", explanation: "The h is silent, so \"hotel\" counts as a vowel word; masculine nouns take plain \"un\" before a vowel, with no apostrophe." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "an uncle", answer: "uno zio", explanation: "Masculine z-word: \"uno zio\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "a mirror", answer: "uno specchio", explanation: "s + consonant: \"uno specchio\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "a window", answer: "una finestra", explanation: "\"Finestra\" is feminine." },
@@ -778,7 +778,7 @@ export const IT_A1_U02: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which is right for two big houses?",
-        options: ["due case grandi", "due case grande", "due grandi casa", "due case grandes"],
+        options: ["due case grandi", "due case grande", "due grandi casa", "due casa grandi"],
         correctIndex: 0,
         explanation: "\"Case\" is plural, so \"grande\" becomes \"grandi\".",
       },

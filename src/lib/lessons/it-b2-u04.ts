@@ -3,7 +3,7 @@ import type { Lesson, WriteExercise } from "./types";
 
 // Italian B2 Unit 4: "If" Sentences, Part 2: Hypothetical. Se + imperfect
 // subjunctive + conditional, se fossi in te, never se + conditional, nel caso
-// (in cui), qualora (recognised), come se (preview).
+// (in cui), qualora (recognized), come se (preview).
 // Conventions: docs/italian-course/authoring.md.
 export const IT_B2_U04: Lesson[] = [
   {
@@ -44,11 +44,11 @@ export const IT_B2_U04: Lesson[] = [
           { es: "Andremmo in Toscana se avessimo una macchina.", en: "We'd go to Tuscany if we had a car." },
           { es: "Ti aiuterei volentieri, se potessi.", en: "I'd gladly help you if I could." },
           { es: "Verrei anch'io, se non dovessi lavorare.", en: "I'd come too if I didn't have to work." },
-          { es: "Sarebbe più facile se ci fosse un ascensore.", en: "It would be easier if there were a lift." },
+          { es: "Sarebbe più facile se ci fosse un ascensore.", en: "It would be easier if there were an elevator." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'd gladly help you if I could. (to a friend)", answer: "Ti aiuterei volentieri, se potessi.", altAnswers: ["Ti aiuterei volentieri se potessi.", "Se potessi, ti aiuterei volentieri."], explanation: "Main clause first; \"se potessi\" closes the sentence." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It would be easier if there were a lift.", answer: "Sarebbe più facile se ci fosse un ascensore.", altAnswers: ["Se ci fosse un ascensore, sarebbe più facile."], explanation: "\"Ci fosse\" = there were." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It would be easier if there were an elevator.", answer: "Sarebbe più facile se ci fosse un ascensore.", altAnswers: ["Se ci fosse un ascensore, sarebbe più facile."], explanation: "\"Ci fosse\" = there were." },
         ],
       },
       {
@@ -74,7 +74,7 @@ export const IT_B2_U04: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If we had a car, we'd go to Tuscany.", answer: "Se avessimo una macchina, andremmo in Toscana.", altAnswers: ["Se avessimo la macchina, andremmo in Toscana.", "Andremmo in Toscana se avessimo una macchina."], explanation: "\"Avessimo\" + \"andremmo\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'd come too if I didn't have to work.", answer: "Verrei anch'io, se non dovessi lavorare.", altAnswers: ["Verrei anch'io se non dovessi lavorare.", "Se non dovessi lavorare, verrei anch'io.", "Verrei anche io se non dovessi lavorare."], explanation: "\"Dovessi\" + \"verrei\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If I were you (plural), I'd leave early.", answer: "Se fossi in voi, partirei presto.", altAnswers: ["Io, al posto vostro, partirei presto.", "Al posto vostro, partirei presto."], explanation: "\"Fossi\" stays first person: \"se fossi in voi\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If the flat were bigger, we'd invite everyone.", answer: "Se l'appartamento fosse più grande, inviteremmo tutti.", altAnswers: ["Se la casa fosse più grande, inviteremmo tutti."], explanation: "\"Fosse\" + \"inviteremmo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If the apartment were bigger, we'd invite everyone.", answer: "Se l'appartamento fosse più grande, inviteremmo tutti.", altAnswers: ["Se la casa fosse più grande, inviteremmo tutti."], explanation: "\"Fosse\" + \"inviteremmo\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If they spoke more slowly, I'd understand everything.", answer: "Se parlassero più lentamente, capirei tutto.", altAnswers: ["Se parlassero più piano, capirei tutto.", "Capirei tutto se parlassero più lentamente."], explanation: "\"Parlassero\" + \"capirei\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If I [knew] the answer, I'd tell you.", sentence: "Se ___ la risposta, te la direi.", answer: "sapessi", explanation: "\"Sapessi\" after \"se\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If you had more patience, you [would learn] faster. (to a friend)", sentence: "Se avessi più pazienza, ___ più in fretta.", answer: "impareresti", explanation: "Conditional in the main clause." },
@@ -115,6 +115,7 @@ export const IT_B2_U04: Lesson[] = [
         body: [
           "Answer with the conditional, and repeat the condition only if you want to stress it: \"Smetterei di lavorare e farei il giro del mondo\". Hedge with \"probabilmente\", \"credo che\", \"di sicuro\": \"Probabilmente comprerei una casa per i miei genitori\".",
           "If the idea doesn't appeal, say so: \"Non cambierei niente\" (I wouldn't change a thing), \"Continuerei a fare quello che faccio\".",
+          "Buy time like a native: \"Bella domanda!\" (good question!), \"Mah, non saprei\" (hmm, I'm not sure), \"Dipende\" (it depends). Note \"non saprei\": the conditional of \"sapere\" softens I don't know into something politer. A common slip is answering in the future (\"Comprerò una casa\"), which sounds like a real plan; keep the conditional and the answer stays a daydream.",
         ],
         examples: [
           { es: "Smetterei di lavorare e farei il giro del mondo.", en: "I'd stop working and travel round the world." },
@@ -122,6 +123,7 @@ export const IT_B2_U04: Lesson[] = [
           { es: "Non cambierei niente.", en: "I wouldn't change a thing." },
           { es: "Vivrei in un paesino in montagna.", en: "I'd live in a little village in the mountains." },
           { es: "Inviterei Leonardo da Vinci, per fargli mille domande.", en: "I'd invite Leonardo da Vinci, to ask him a thousand questions." },
+          { es: "Bella domanda! Mah, non saprei.", en: "Good question! Hmm, I'm not sure." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'd stop working and travel round the world.", answer: "Smetterei di lavorare e farei il giro del mondo.", altAnswers: ["Smetterei di lavorare e viaggerei per il mondo."], explanation: "Two conditionals: \"smetterei\", \"farei\"." },
@@ -132,13 +134,15 @@ export const IT_B2_U04: Lesson[] = [
         heading: "Imaginary roles",
         body: [
           "Many hypothetical questions put you in someone else's shoes: \"Se fossi il sindaco, cosa cambieresti?\" (if you were the mayor, what would you change?), \"Se fossi un animale, che animale saresti?\". The answer keeps the role: \"Se fossi il sindaco, chiuderei il centro alle macchine\".",
-          "These are popular in CILS speaking tasks, where you are asked to imagine and justify: add \"perché\" + a reason in the conditional or the indicative.",
+          "Questions like these are common in oral exams such as the CILS, where you are asked to imagine and justify: add \"perché\" + a reason in the conditional or the indicative.",
+          "To ask for advice, turn the role around: \"Tu cosa faresti al posto mio?\" (what would you do in my shoes?), or, more formally, \"Lei cosa farebbe?\". The answer usually starts with \"Io, al posto tuo...\" or \"Se fossi in te...\", both followed by the conditional.",
         ],
         examples: [
           { es: "Se fossi il sindaco, cosa cambieresti?", en: "If you were the mayor, what would you change?" },
-          { es: "Chiuderei il centro alle macchine.", en: "I'd close the centre to cars." },
+          { es: "Chiuderei il centro alle macchine.", en: "I'd close downtown to cars." },
           { es: "Se fossi un animale, sarei un gatto, perché dormirei tutto il giorno.", en: "If I were an animal, I'd be a cat, because I'd sleep all day." },
           { es: "Se fossi ministro, investirei nella scuola.", en: "If I were a minister, I'd invest in schools." },
+          { es: "Tu cosa faresti al posto mio?", en: "What would you do in my shoes?" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If you were the mayor, what would you change? (to a friend)", answer: "Se fossi il sindaco, cosa cambieresti?", altAnswers: ["Se fossi il sindaco, che cosa cambieresti?", "Cosa cambieresti se fossi il sindaco?"], explanation: "\"Fossi\" + \"cambieresti\"." },
@@ -166,13 +170,13 @@ export const IT_B2_U04: Lesson[] = [
     level: "IT-B2",
     number: 3,
     title: "Never Se Avrei",
-    summary: "Understand why se avrei is wrong, where the conditional can follow se, and recognise nel caso, qualora and come se.",
+    summary: "Understand why se avrei is wrong, where the conditional can follow se, and recognize nel caso, qualora and come se.",
     duration: "18 min",
     sections: [
       {
         heading: "The famous mistake",
         body: [
-          "\"Se avrei tempo, verrei\" is the most stigmatised error in Italian. You'll hear it from native speakers, and Italians make jokes about it, but in writing, in exams and in any careful speech it marks the speaker as uneducated. The rule is absolute: after \"se\" meaning if, never the conditional. \"Se avessi tempo, verrei\".",
+          "\"Se avrei tempo, verrei\" is the most stigmatized error in Italian. You'll hear it from native speakers, and Italians make jokes about it, but in writing, in exams and in any careful speech it marks the speaker as uneducated. The rule is absolute: after \"se\" meaning if, never the conditional. \"Se avessi tempo, verrei\".",
           "A useful check: the conditional belongs to the result (I would come), never to the condition (if I had). If both halves of your sentence contain -rei, -resti or -rebbe, one of them is wrong.",
         ],
         examples: [
@@ -206,7 +210,7 @@ export const IT_B2_U04: Lesson[] = [
       {
         heading: "Other ways to say if",
         body: [
-          "\"Nel caso (in cui)\" (in case, if) takes the subjunctive, even in the present: \"Nel caso in cui piova, la festa sarà al chiuso\" (if it rains, the party will be indoors). \"Qualora\" (should, if) is formal and written, also with the subjunctive: \"Qualora ci fossero problemi, ci contatti\". You'll practise both in Unit 6; for now, recognise them.",
+          "\"Nel caso (in cui)\" (in case, if) takes the subjunctive, even in the present: \"Nel caso in cui piova, la festa sarà al chiuso\" (if it rains, the party will be indoors). \"Qualora\" (should, if) is formal and written, also with the subjunctive: \"Qualora ci fossero problemi, ci contatti\". You'll practice both in Unit 6; for now, recognize them.",
           "\"Come se\" (as if) always takes the imperfect or pluperfect subjunctive: \"Parla come se fosse il capo\" (he talks as if he were the boss). Again, never the conditional.",
         ],
         examples: [
@@ -407,7 +411,7 @@ export const IT_B2_U04: Lesson[] = [
     level: "IT-B2",
     number: 7,
     title: "Error Hunt: Hypothetical If",
-    summary: "Fix se avrei, se avessi ... viaggio, se sarei in te, and recognise the spoken se avevo ... viaggerei.",
+    summary: "Fix se avrei, se avessi ... viaggio, se sarei in te, and recognize the spoken se avevo ... viaggerei.",
     duration: "18 min",
     sections: [
       {
@@ -435,12 +439,12 @@ export const IT_B2_U04: Lesson[] = [
         ],
         examples: [
           { es: "Se avessi tempo, viaggerei di più.", en: "If I had time, I'd travel more." },
-          { es: "Da studente, se avevo tempo, viaggiavo.", en: "As a student, whenever I had time, I travelled." },
+          { es: "Da studente, se avevo tempo, viaggiavo.", en: "As a student, whenever I had time, I traveled." },
           { es: "Se avessero soldi, comprerebbero casa.", en: "If they had money, they'd buy a house." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Rewrite \"Se avevo tempo, viaggerei di più\" for a written text: If I had time, I'd travel more.", source: "If I had time, I'd travel more.", answer: "Se avessi tempo, viaggerei di più.", altAnswers: ["Viaggerei di più se avessi tempo."], explanation: "Written standard: \"avessi\"." },
-          { type: "listen-choose", audio: "Da studente, se avevo tempo, viaggiavo.", question: "What does it mean?", options: ["As a student, whenever I had time, I travelled.", "If I were a student, I'd travel.", "If I had been a student, I would have travelled.", "As a student, I never had time to travel."], correctIndex: 0, explanation: "A real past habit, indicative in both halves." },
+          { type: "listen-choose", audio: "Da studente, se avevo tempo, viaggiavo.", question: "What does it mean?", options: ["As a student, whenever I had time, I traveled.", "If I were a student, I'd travel.", "If I had been a student, I would have traveled.", "As a student, I never had time to travel."], correctIndex: 0, explanation: "A real past habit, indicative in both halves." },
         ],
       },
     ],
@@ -476,7 +480,7 @@ export const IT_B2_U04: Lesson[] = [
         examples: [
           { es: "Tanto non vinci!", en: "You won't win anyway!" },
           { es: "E se vincessi? Cosa fareste voi?", en: "And what if I won? What would you do?" },
-          { es: "Io comprerei un appartamento in centro.", en: "I'd buy a flat in the centre." },
+          { es: "Io comprerei un appartamento in centro.", en: "I'd buy an apartment downtown." },
           { es: "Io invece smetterei di lavorare domani mattina.", en: "Me, I'd quit work tomorrow morning." },
           { es: "Davvero? Non ti annoieresti?", en: "Really? Wouldn't you get bored?" },
         ],
@@ -505,7 +509,7 @@ export const IT_B2_U04: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'd buy a flat in the centre.", answer: "Comprerei un appartamento in centro.", altAnswers: ["Io comprerei un appartamento in centro."], explanation: "Conditional: \"comprerei\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'd buy an apartment downtown.", answer: "Comprerei un appartamento in centro.", altAnswers: ["Io comprerei un appartamento in centro."], explanation: "Conditional: \"comprerei\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Really? Wouldn't you get bored? (to a friend)", answer: "Davvero? Non ti annoieresti?", explanation: "\"Annoiarsi\" → \"ti annoieresti\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'd sail round the world.", answer: "Girerei il mondo in barca a vela.", altAnswers: ["Io girerei il mondo in barca a vela.", "Farei il giro del mondo in barca a vela."], explanation: "\"Girare il mondo\" = to travel the world." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "As if! I wouldn't tell anyone.", answer: "Figurati! Non lo direi a nessuno.", altAnswers: ["Figurati! Non lo direi a nessuno!"], explanation: "\"Non lo direi\": conditional." },
@@ -535,7 +539,7 @@ export const IT_B2_U04: Lesson[] = [
         examples: [
           { es: "Se potesse cambiare una cosa della sua città, cosa cambierebbe?", en: "If you could change one thing about your city, what would you change?" },
           { es: "Mah, guardi, se potessi, sistemerei i trasporti pubblici.", en: "Well, look, if I could, I'd sort out public transport." },
-          { es: "Io aprirei più spazi per i giovani, tipo centri sportivi.", en: "I'd open more spaces for young people, like sports centres." },
+          { es: "Io aprirei più spazi per i giovani, tipo centri sportivi.", en: "I'd open more spaces for young people, like sports centers." },
           { es: "Se fossi il sindaco, pulirei le strade ogni giorno.", en: "If I were the mayor, I'd clean the streets every day." },
           { es: "Allora, io non cambierei niente: Napoli è perfetta così!", en: "Well, I wouldn't change a thing: Naples is perfect as it is!" },
         ],
@@ -548,12 +552,12 @@ export const IT_B2_U04: Lesson[] = [
       {
         heading: "Reporting what they said",
         body: [
-          "To summarise the answers as you listen, use a present reporting verb, \"dice che\", and keep the conditional exactly as you heard it: \"Il primo signore dice che sistemerebbe i trasporti\". After a past reporting verb (\"ha detto che\") the tenses shift; you'll study that in Unit 8.",
+          "To summarize the answers as you listen, use a present reporting verb, \"dice che\", and keep the conditional exactly as you heard it: \"Il primo signore dice che sistemerebbe i trasporti\". After a past reporting verb (\"ha detto che\") the tenses shift; you'll study that in Unit 8.",
           "In summaries Italians often write \"secondo lui\" / \"secondo lei\" (in his / her opinion) instead.",
         ],
         examples: [
           { es: "Il primo signore dice che sistemerebbe i trasporti.", en: "The first man says he'd sort out the transport." },
-          { es: "Una ragazza dice che aprirebbe più centri sportivi.", en: "A girl says she'd open more sports centres." },
+          { es: "Una ragazza dice che aprirebbe più centri sportivi.", en: "A girl says she'd open more sports centers." },
           { es: "Secondo lei, Napoli è perfetta così.", en: "In her opinion, Naples is perfect as it is." },
           { es: "Quasi tutti cambierebbero qualcosa.", en: "Almost everyone would change something." },
         ],

@@ -53,7 +53,8 @@ export const IT_B1_U02: Lesson[] = [
       {
         heading: "To them",
         body: [
-          "To them is also \"gli\" in everyday Italian (\"Gli telefono\" = I phone them), so the cluster is \"glielo\" again: \"I biglietti per i miei genitori? Glieli compro io\". The formal \"loro\" after the verb (\"Lo do loro\") exists in writing but you only need to recognise it.",
+          "To them is also \"gli\" in everyday Italian (\"Gli telefono\" = I phone them), so the cluster is \"glielo\" again: \"I biglietti per i miei genitori? Glieli compro io\". The formal \"loro\" after the verb (\"Lo do loro\") exists in writing but you only need to recognize it.",
+          "Notice what \"glie-\" does not tell you: whether the person is male, female, one or many. Only the ending changes, and only for the thing: \"glielo\" (it, masculine), \"gliela\" (it, feminine), \"glieli\", \"gliele\". A frequent slip is to let the person leak into the ending, \"gliela\" because the receiver is a woman: \"Il libro? Glielo do\", whoever gets it.",
         ],
         examples: [
           { es: "I biglietti per i miei? Glieli compro io.", en: "The tickets for my parents? I'll buy them for them." },
@@ -105,7 +106,7 @@ export const IT_B1_U02: Lesson[] = [
           { es: "Glielo posso ordinare, se vuole.", en: "I can order it for you, if you like." },
         ],
         checkpoint: [
-          { type: "multiple-choice", question: "You work in a bookshop. How do you offer to gift-wrap a book for a customer?", options: ["Glielo incarto?", "Te lo incarto?", "Le lo incarto?", "Lo Le incarto?"], correctIndex: 0, explanation: "Formal \"Le\" + \"lo\" = \"glielo\"." },
+          { type: "multiple-choice", question: "You work in a bookstore. How do you offer to gift-wrap a book for a customer?", options: ["Glielo incarto?", "Te lo incarto?", "Le lo incarto?", "Lo Le incarto?"], correctIndex: 0, explanation: "Formal \"Le\" + \"lo\" = \"glielo\"." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The receipt? I'll print it for you now. (polite)", answer: "La ricevuta? Gliela stampo adesso.", altAnswers: ["La ricevuta? Gliela stampo subito.", "La ricevuta? Gliela stampo ora."], explanation: "\"La ricevuta\" → \"gliela\"." },
         ],
       },
@@ -113,7 +114,7 @@ export const IT_B1_U02: Lesson[] = [
         heading: "Gliene and polite offers",
         body: [
           "With quantities you get \"gliene\": \"Gliene do mezzo chilo?\" (shall I give you half a kilo?), \"Gliene mostro un'altra\" (I'll show you another one). At the market and the deli counter you'll hear it all day.",
-          "Modals keep the cluster in front: \"Glielo posso spedire a casa\" (I can send it to your home). You can also attach it to the infinitive, \"Posso spedirglielo\", as you'll practise in Unit 3.",
+          "Modals keep the cluster in front: \"Glielo posso spedire a casa\" (I can send it to your home). You can also attach it to the infinitive, \"Posso spedirglielo\", as you'll practice in Unit 3.",
         ],
         examples: [
           { es: "Prosciutto? Gliene do due etti?", en: "Ham? Shall I give you two hundred grams?" },
@@ -151,7 +152,7 @@ export const IT_B1_U02: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The bill? I'll bring it right away, madam.", answer: "Il conto? Glielo porto subito, signora.", explanation: "\"Il conto\" → \"glielo\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I can send it to your home. (the sofa, polite)", answer: "Glielo posso spedire a casa.", altAnswers: ["Posso spedirglielo a casa.", "Glielo possiamo spedire a casa.", "Possiamo spedirglielo a casa."], explanation: "\"Il divano\" → \"glielo\"; before the modal or attached." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "This jacket doesn't fit? I'll show you another one. (polite)", answer: "Questa giacca non va bene? Gliene mostro un'altra.", altAnswers: ["Questa giacca non le va bene? Gliene mostro un'altra.", "Questa giacca non Le va bene? Gliene mostro un'altra."], explanation: "\"Gliene\" + \"un'altra\" (with apostrophe)." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Shall I get it ready for you? (the bag of shopping: la busta, polite)", answer: "Gliela preparo?", explanation: "An offer in the present: \"gliela preparo?\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Shall I get it ready for you? (the shopping bag: la busta, polite)", answer: "Gliela preparo?", altAnswers: ["Gliela preparo io?", "La busta? Gliela preparo?"], explanation: "An offer in the present: \"gliela preparo?\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Would you like more? [I'll bring you] another slice.", sentence: "Ne vuole ancora? ___ un'altra fetta.", answer: "Gliene porto", explanation: "\"Gliene\" = some of it to you." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The form? [I'll explain it to you] step by step, madam.", sentence: "Il modulo? ___ passo per passo, signora.", answer: "Glielo spiego", explanation: "\"Il modulo\" → \"glielo\"." },
       { type: "word-order", prompt: "Put the words in order to say: I can order it for you, if you like.", words: ["Glielo", "posso", "ordinare,", "se", "vuole."], translation: "I can order it for you, if you like.", altOrders: [["Se", "vuole,", "glielo", "posso", "ordinare."]], explanation: "Cluster before the modal." },
@@ -179,7 +180,7 @@ export const IT_B1_U02: Lesson[] = [
           { es: "Gliel'ho già detto due volte.", en: "I've already told him twice." },
           { es: "La mail? Gliel'abbiamo mandata ieri.", en: "The email? We sent it to them yesterday." },
           { es: "I documenti? Glieli ho dati stamattina.", en: "The documents? I gave them to her this morning." },
-          { es: "Le chiavi? Gliele abbiamo lasciate in portineria.", en: "The keys? We left them for him at the porter's desk." },
+          { es: "Le chiavi? Gliele abbiamo lasciate in portineria.", en: "The keys? We left them for him at the front desk." },
           { es: "Chi gliel'ha detto?", en: "Who told him?" },
         ],
         checkpoint: [
@@ -190,8 +191,9 @@ export const IT_B1_U02: Lesson[] = [
       {
         heading: "Gliene ho dati due",
         body: [
-          "\"Gliene\" in the past agrees with the thing counted: \"Gliene ho dati due\" (I gave him two, euros or biscuits), \"Gliene abbiamo vendute tre\" (we sold her three, bottles). In speech you may hear \"gliene ho dato\" without agreement; write the agreed form.",
+          "\"Gliene\" in the past agrees with the thing counted: \"Gliene ho dati due\" (I gave him two, euros or cookies), \"Gliene abbiamo vendute tre\" (we sold her three, bottles). In speech you may hear \"gliene ho dato\" without agreement; write the agreed form.",
           "\"Gliene\" also replaces \"di\" + thing: \"Gli ho parlato del progetto\" → \"Gliene ho parlato\" (I talked to him about it).",
+          "Don't overcorrect here: when \"ne\" means about it, nothing is counted, so the participle stays in -o: \"Gliene ho parlato\", \"Gliene ho accennato\" (I mentioned it to her). Agreement only kicks in when \"ne\" means some or of them. And \"gliene\" keeps its vowel in writing: \"gliene ho\", not \"glien'ho\".",
         ],
         examples: [
           { es: "Euro? Gliene ho prestati cinquanta.", en: "Euros? I lent him fifty." },
@@ -233,7 +235,7 @@ export const IT_B1_U02: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I've never talked to her about it.", answer: "Non gliene ho mai parlato.", explanation: "\"Mai\" between auxiliary and participle." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The flowers? [We sent them to her] for her birthday.", sentence: "I fiori? ___ per il compleanno.", answer: "Glieli abbiamo mandati", altAnswers: ["Glieli abbiamo spediti"], explanation: "\"Glieli\" + \"mandati\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The car? [His father lent it to him].", sentence: "La macchina? ___ suo padre.", answer: "Gliel'ha prestata", explanation: "\"Prestata\" agrees with \"la macchina\"." },
-      { type: "word-order", prompt: "Put the words in order to say: The keys? We left them for him at the porter's desk.", words: ["Le", "chiavi?", "Gliele", "abbiamo", "lasciate", "in", "portineria."], translation: "The keys? We left them for him at the porter's desk.", explanation: "\"Gliele\" + \"lasciate\"." },
+      { type: "word-order", prompt: "Put the words in order to say: The keys? We left them for him at the front desk.", words: ["Le", "chiavi?", "Gliele", "abbiamo", "lasciate", "in", "portineria."], translation: "The keys? We left them for him at the front desk.", explanation: "\"Gliele\" + \"lasciate\"." },
       { type: "multiple-choice", question: "\"La notizia? Gliel'ho ___ ieri.\"", options: ["data", "dato", "dati", "date"], correctIndex: 0, explanation: "\"L'\" = \"la notizia\": \"data\"." },
       { type: "dictation", audio: "Gliel'abbiamo mandata ieri, glieli ho dati oggi.", explanation: "\"Gliel'\" elides, \"glieli\" doesn't." },
       { type: "speak", text: "Gliel'ho già detto due volte, ma non mi ascolta.", prompt: "Say it in Italian: I've already told him twice, but he doesn't listen to me.", tip: "gliel'HO: the stress falls on the auxiliary.", explanation: "\"Gliel'ho detto\": \"lo\" = the thing said." },
@@ -273,16 +275,16 @@ export const IT_B1_U02: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The bags? Shall I carry them for you? (polite)", answer: "Le borse? Gliele porto io?", altAnswers: ["Le borse? Gliele porto?", "Le valigie? Gliele porto io?"], explanation: "\"Gliele\" for feminine plural." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Did you tell her? Yes, I told her yesterday.", answer: "Gliel'hai detto? Sì, gliel'ho detto ieri.", explanation: "\"Gliel'hai\", \"gliel'ho\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The bike? He sold it to them.", answer: "La bici? Gliel'ha venduta.", explanation: "\"Venduta\" agrees with \"la bici\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Apples? I gave him a kilo.", answer: "Mele? Gliene ho dato un chilo.", altAnswers: ["Le mele? Gliene ho dato un chilo."], explanation: "\"Un chilo\" is masculine singular: \"dato\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Apples? I gave him a kilo.", answer: "Mele? Gliene ho dato un chilo.", altAnswers: ["Le mele? Gliene ho dato un chilo.", "Mele? Gliene ho date un chilo.", "Le mele? Gliene ho date un chilo."], explanation: "The safe choice agrees with \"un chilo\" (masculine singular): \"dato\". Agreement with the apples, \"date\", is also heard and accepted." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The photos? We showed them to her.", answer: "Le foto? Gliele abbiamo fatte vedere.", altAnswers: ["Le foto? Gliele abbiamo mostrate."], explanation: "\"Gliele\" + \"fatte\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The truth? I'll tell him tomorrow.", answer: "La verità? Gliela dico domani.", explanation: "\"Gliela\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The newspaper? [I'll buy it for him] at the newsstand.", sentence: "Il giornale? ___ in edicola.", answer: "Glielo compro", explanation: "\"Glielo\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The papers? [We gave them to her] last week.", sentence: "Le carte? ___ la settimana scorsa.", answer: "Gliele abbiamo date", explanation: "\"Gliele\" + \"date\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Biscuits? [I gave them] four each.", sentence: "Biscotti? ___ quattro a testa.", answer: "Gliene ho dati", explanation: "\"Dati\" agrees with the biscuits." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Cookies? [I gave them] four each.", sentence: "Biscotti? ___ quattro a testa.", answer: "Gliene ho dati", explanation: "\"Dati\" agrees with the cookies." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The receipt? [I'll send it to you] by email, sir.", sentence: "La ricevuta? ___ per email, signore.", answer: "Gliela mando", altAnswers: ["Gliela invio", "Gliela spedisco"], explanation: "\"Gliela\" for Lei." },
       { type: "dictation", audio: "Gliel'ho detto, ma lui non ci crede.", explanation: "\"Gliel'ho\": one word." },
       { type: "dictation", audio: "Gliene abbiamo portate due, gliele abbiamo lasciate.", explanation: "Agreement with something feminine plural." },
-      { type: "speak", text: "Il regalo per la mamma? Gliel'ho comprato ieri e glielo do stasera.", prompt: "Say it in Italian: The present for Mum? I bought it for her yesterday and I'll give it to her tonight.", tip: "gliel'ho com-PRA-to, glie-lo DO.", explanation: "Past and present \"glielo\"." },
+      { type: "speak", text: "Il regalo per la mamma? Gliel'ho comprato ieri e glielo do stasera.", prompt: "Say it in Italian: The present for Mom? I bought it for her yesterday and I'll give it to her tonight.", tip: "gliel'ho com-PRA-to, glie-lo DO.", explanation: "Past and present \"glielo\"." },
     ],
   },
   {
@@ -314,7 +316,7 @@ export const IT_B1_U02: Lesson[] = [
       {
         heading: "Same sentence, five people",
         body: [
-          "Practise by keeping the verb fixed. The mail? \"Me l'ha mandata\" (to me), \"Gliel'ha mandata\" (to her), \"Ce l'ha mandata\" (to us). The participle never changes, because the mail never changes.",
+          "Practice by keeping the verb fixed. The mail? \"Me l'ha mandata\" (to me), \"Gliel'ha mandata\" (to her), \"Ce l'ha mandata\" (to us). The participle never changes, because the mail never changes.",
           "In the plural, the same: \"Te li presto\", \"Glieli presto\", \"Ve li presto\". If you hear a soft gli, the receiver is a third person or Lei.",
         ],
         examples: [
@@ -419,7 +421,7 @@ export const IT_B1_U02: Lesson[] = [
         examples: [
           { es: "Buongiorno, cerco una borsa per mia madre.", en: "Good morning, I'm looking for a bag for my mother." },
           { es: "Questa in vetrina? Gliela faccio vedere.", en: "This one in the window? I'll show it to you." },
-          { es: "È bella, ma il colore non le piace.", en: "It's lovely, but she doesn't like the colour." },
+          { es: "È bella, ma il colore non le piace.", en: "It's lovely, but she doesn't like the color." },
           { es: "Gliene mostro un'altra, in blu.", en: "I'll show you another one, in blue." },
           { es: "Perfetto, gliela voglio regalare per il compleanno.", en: "Perfect, I want to give it to her for her birthday." },
         ],
@@ -431,7 +433,7 @@ export const IT_B1_U02: Lesson[] = [
       {
         heading: "Wrapping and delivery",
         body: [
-          "At the till the assistant offers services: \"Glielo incarto?\" or, because a bag is feminine, \"Gliela incarto?\". Emma's mother lives in Milan, so: \"Gliela posso spedire a casa, se vuole\".",
+          "At the register the assistant offers services: \"Glielo incarto?\" or, because a bag is feminine, \"Gliela incarto?\". Emma's mother lives in Milan, so: \"Gliela posso spedire a casa, se vuole\".",
           "Emma replies with \"me\" clusters: \"Sì, me la incarti, grazie\" would be wrong, because Emma uses \"Lei\" too: \"Sì, me la incarta, grazie\" (yes, please wrap it for me).",
         ],
         examples: [
@@ -449,7 +451,7 @@ export const IT_B1_U02: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Good morning, I'm looking for a bag for my mother.", answer: "Buongiorno, cerco una borsa per mia madre.", altAnswers: ["Buongiorno, sto cercando una borsa per mia madre."], explanation: "No article with \"mia madre\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's lovely, but she doesn't like the colour.", answer: "È bella, ma il colore non le piace.", explanation: "\"Le piace\" = she likes." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's lovely, but she doesn't like the color.", answer: "È bella, ma il colore non le piace.", explanation: "\"Le piace\" = she likes." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Shall I wrap it for you? (the bag, polite)", answer: "Gliela incarto?", explanation: "\"La borsa\" → \"gliela\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I want to give it to her for her birthday.", answer: "Gliela voglio regalare per il compleanno.", altAnswers: ["Voglio regalargliela per il compleanno.", "Gliela voglio regalare per il suo compleanno."], explanation: "\"Gliela\" = it to her." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Of course, we'll send it tomorrow. (polite)", answer: "Certo, gliela spediamo domani.", altAnswers: ["Certo, gliela mandiamo domani."], explanation: "\"Gliela\" for the customer." },
@@ -474,7 +476,7 @@ export const IT_B1_U02: Lesson[] = [
       {
         heading: "Hear the clusters",
         body: [
-          "At normal speed the clusters shrink into one beat: \"me l'ha detto\" sounds like mel-la-DET-to, \"gliel'ho\" like gliel-LO, \"ce ne\" like cé-ne. Listen for the first sound (me, te, glie, ce, ve) to know who, and the l, li, le or ne to know what.",
+          "At normal speed the clusters shrink into one beat: \"me l'ha detto\" sounds like mel-la-DET-to, \"gliel'ho\" like gliel-LO, \"ce ne\" like CHE-ne. Listen for the first sound (me, te, glie, ce, ve) to know who, and the l, li, le or ne to know what.",
         ],
         examples: [
           { es: "Me l'ha detto Paolo.", en: "Paolo told me." },
@@ -519,19 +521,19 @@ export const IT_B1_U02: Lesson[] = [
       {
         heading: "The customer's complaint",
         body: [
-          "Your mission: you work in customer service for an online shop in Bologna. Signora Ferrara writes: \"Ho ordinato un set di tazze il 3 marzo e non è ancora arrivato\". You need to apologise, explain and offer a solution.",
+          "Your mission: you work in customer service for an online store in Bologna. Signora Ferrara writes: \"Ho ordinato un set di tazze il 3 marzo e non è ancora arrivato\". You need to apologize, explain and offer a solution.",
           "In a formal email write \"Lei\" and \"Le\" with a capital: \"Le scrivo in merito al Suo ordine\" (I'm writing to you about your order). \"Glielo\" stays lower case inside the sentence.",
         ],
         examples: [
-          { es: "Gentile signora Ferrara,", en: "Dear Mrs Ferrara," },
-          { es: "Le scrivo in merito al Suo ordine del 3 marzo.", en: "I'm writing to you about your order of 3 March." },
-          { es: "Ci scusiamo per il ritardo.", en: "We apologise for the delay." },
-          { es: "Il pacco gliel'abbiamo spedito il 5 marzo.", en: "We sent you the parcel on 5 March." },
+          { es: "Gentile signora Ferrara,", en: "Dear Mrs. Ferrara," },
+          { es: "Le scrivo in merito al Suo ordine del 3 marzo.", en: "I'm writing to you about your order of March 3." },
+          { es: "Ci scusiamo per il ritardo.", en: "We apologize for the delay." },
+          { es: "Il pacco gliel'abbiamo spedito il 5 marzo.", en: "We sent you the parcel on March 5." },
           { es: "Purtroppo il corriere non gliel'ha ancora consegnato.", en: "Unfortunately the courier hasn't delivered it to you yet." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We sent you the parcel on 5 March. (formal)", answer: "Il pacco gliel'abbiamo spedito il 5 marzo.", altAnswers: ["Le abbiamo spedito il pacco il 5 marzo.", "Il pacco gliel'abbiamo mandato il 5 marzo."], explanation: "\"Le\" + \"lo\" → \"glielo\" → \"gliel'abbiamo\"." },
-          { type: "listen-choose", audio: "Ci scusiamo per il ritardo.", question: "What is the company doing?", options: ["apologising for the delay", "explaining a refund", "asking for the order number", "confirming delivery"], correctIndex: 0, explanation: "\"Scusarsi\" = to apologise." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We sent you the parcel on March 5. (formal)", answer: "Il pacco gliel'abbiamo spedito il 5 marzo.", altAnswers: ["Le abbiamo spedito il pacco il 5 marzo.", "Il pacco gliel'abbiamo mandato il 5 marzo."], explanation: "\"Le\" + \"lo\" → \"glielo\" → \"gliel'abbiamo\"." },
+          { type: "listen-choose", audio: "Ci scusiamo per il ritardo.", question: "What is the company doing?", options: ["apologizing for the delay", "explaining a refund", "asking for the order number", "confirming delivery"], correctIndex: 0, explanation: "\"Scusarsi\" = to apologize." },
         ],
       },
       {
@@ -553,18 +555,18 @@ export const IT_B1_U02: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Dear Mrs Ferrara, I'm writing to you about your order.", answer: "Gentile signora Ferrara, Le scrivo in merito al Suo ordine.", altAnswers: ["Gentile signora Ferrara, le scrivo in merito al suo ordine.", "Gentile signora Ferrara, Le scrivo riguardo al Suo ordine."], explanation: "\"Le\" = to you; capitals in formal letters." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We apologise for the delay.", answer: "Ci scusiamo per il ritardo.", explanation: "\"Scusarsi per\" + noun." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Dear Mrs. Ferrara, I'm writing to you about your order.", answer: "Gentile signora Ferrara, Le scrivo in merito al Suo ordine.", altAnswers: ["Gentile signora Ferrara, le scrivo in merito al suo ordine.", "Gentile signora Ferrara, Le scrivo riguardo al Suo ordine."], explanation: "\"Le\" = to you; capitals in formal letters." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We apologize for the delay.", answer: "Ci scusiamo per il ritardo.", explanation: "\"Scusarsi per\" + noun." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Unfortunately the courier hasn't delivered it to you yet. (formal)", answer: "Purtroppo il corriere non gliel'ha ancora consegnato.", explanation: "\"Ancora\" between auxiliary and participle." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The tracking number? We'll send it to you today. (formal)", answer: "Il numero di tracciamento? Glielo mandiamo oggi.", altAnswers: ["Il codice di tracciamento? Glielo mandiamo oggi.", "Il numero di tracciamento? Glielo inviamo oggi."], explanation: "\"Glielo\" to Lei." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We remain at your disposal for any questions.", answer: "Restiamo a disposizione per qualsiasi chiarimento.", altAnswers: ["Restiamo a Sua disposizione per qualsiasi chiarimento.", "Rimaniamo a disposizione per qualsiasi chiarimento."], explanation: "Standard closing formula." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The cups? We sent them to you on 5 March. (formal)", answer: "Le tazze? Gliele abbiamo spedite il 5 marzo.", altAnswers: ["Le tazze? Gliele abbiamo mandate il 5 marzo."], explanation: "\"Gliele\" + \"spedite\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The cups? We sent them to you on March 5. (formal)", answer: "Le tazze? Gliele abbiamo spedite il 5 marzo.", altAnswers: ["Le tazze? Gliele abbiamo mandate il 5 marzo."], explanation: "\"Gliele\" + \"spedite\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If you prefer, [we'll send you] another set free of charge.", sentence: "Se preferisce, ___ un altro set gratuitamente.", answer: "Le spediamo", altAnswers: ["Le mandiamo", "Le inviamo"], explanation: "With the noun said, just \"Le\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The invoice? [We'll attach it for you] to this email.", sentence: "La fattura? ___ a questa email.", answer: "Gliela alleghiamo", explanation: "\"La fattura\" → \"gliela\"." },
       { type: "word-order", prompt: "Put the words in order to say: We'll refund you the amount within three days.", words: ["Le", "rimborsiamo", "l'importo", "entro", "tre", "giorni."], translation: "We'll refund you the amount within three days.", explanation: "\"Rimborsare qualcosa a qualcuno\"." },
       { type: "multiple-choice", question: "Which sentence is right for a formal email?", options: ["Gli lo abbiamo spedito ieri.", "Gliel'abbiamo spedito ieri.", "Le l'abbiamo spedito ieri.", "Gliel'abbiamo spedita ieri, il pacco."], correctIndex: 1, explanation: "\"Glielo\" elides before \"abbiamo\"; \"il pacco\" needs \"spedito\"." },
       { type: "dictation", audio: "Gliel'abbiamo spedito ieri. Cordiali saluti.", explanation: "\"Gliel'abbiamo\": one word." },
-      { type: "speak", text: "Buongiorno signora, ci scusiamo per il ritardo. Gliene spediamo un altro oggi stesso.", prompt: "On the phone, say: Good morning, madam, we apologise for the delay. We'll send you another one today.", tip: "\"oggi stesso\" = this very day.", explanation: "\"Gliene\" + \"un altro\"." },
+      { type: "speak", text: "Buongiorno signora, ci scusiamo per il ritardo. Gliene spediamo un altro oggi stesso.", prompt: "On the phone, say: Good morning, madam, we apologize for the delay. We'll send you another one today.", tip: "\"oggi stesso\" = this very day.", explanation: "\"Gliene\" + \"un altro\"." },
     ],
   },
   {
@@ -586,7 +588,7 @@ export const IT_B1_U02: Lesson[] = [
           { es: "Ne vuoi un'altra fetta? Te la taglio io.", en: "Would you like another slice? I'll cut it for you." },
           { es: "Il regalo per zio Gennaro? Gliel'ha portato Anna.", en: "Uncle Gennaro's present? Anna brought it to him." },
           { es: "Le foto della cresima? Ve le mando stasera.", en: "The confirmation photos? I'll send them to you tonight." },
-          { es: "I biscotti? Glieli diamo ai bambini.", en: "The biscuits? We'll give them to the kids." },
+          { es: "I biscotti? Glieli diamo ai bambini.", en: "The cookies? We'll give them to the kids." },
         ],
         checkpoint: [
           { type: "listen-choose", audio: "Il regalo per zio Gennaro? Gliel'ha portato Anna.", question: "Who brought the present, and to whom?", options: ["Anna brought it to Uncle Gennaro.", "Uncle Gennaro brought it to Anna.", "Anna brought it to us.", "Grandma brought it to Anna."], correctIndex: 0, explanation: "\"Gliel'ha portato Anna\": Anna is the subject, \"gli\" = to him." },
@@ -607,7 +609,7 @@ export const IT_B1_U02: Lesson[] = [
         ],
         checkpoint: [
           { type: "listen-choose", audio: "Sì, gliel'ho mandata alle nove.", question: "What do you know about the thing sent?", options: ["It's feminine singular (la mail).", "It's masculine (il report).", "It's plural.", "Nothing: the form doesn't show it."], correctIndex: 0, explanation: "\"Mandata\" agrees with a feminine singular thing." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Doctor, I'll send you the report by eleven.", answer: "Dottoressa, il report glielo mando entro le 11.", altAnswers: ["Dottoressa, il report glielo mando entro le undici.", "Dottore, il report glielo mando entro le 11.", "Dottore, il report glielo mando entro le undici."], explanation: "\"Glielo\" to Lei; \"entro\" = by." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Doctor, I'll send you the report by eleven.", answer: "Dottoressa, il report glielo mando entro le 11.", altAnswers: ["Dottoressa, il report glielo mando entro le undici.", "Dottore, il report glielo mando entro le 11.", "Dottore, il report glielo mando entro le undici."], explanation: "\"Glielo\" to Lei; \"entro\" = by. \"Dottoressa\" / \"dottore\" is the everyday courtesy title for anyone with a university degree, not only a physician." },
         ],
       },
     ],
@@ -616,12 +618,12 @@ export const IT_B1_U02: Lesson[] = [
       { type: "listen-choose", audio: "Le chiavi della sala riunioni? Ce le ha Marco.", question: "Where are the keys?", options: ["Marco has them.", "They're in the meeting room.", "We have them.", "Marco gave them to us."], correctIndex: 0, explanation: "\"Ce le ha\" = he has them (spoken \"ci\" + \"avere\")." },
       { type: "dictation", audio: "Gliel'hai mandata, la mail, al cliente?", explanation: "\"Gliel'hai\" + \"mandata\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The pastiera? Grandma made it for us.", answer: "La pastiera? Ce l'ha fatta la nonna.", altAnswers: ["La pastiera? La nonna ce l'ha fatta."], explanation: "\"Fatta\" agrees with \"la pastiera\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Would you like another slice? I'll cut it for you.", answer: "Ne vuoi un'altra fetta? Te la taglio io.", altAnswers: ["Vuoi un'altra fetta? Te la taglio io.", "Ne vuoi un'altra fetta? Te la taglio."], explanation: "\"Te la\" for the slice." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Would you like another slice? I'll cut it for you.", answer: "Vuoi un'altra fetta? Te la taglio io.", altAnswers: ["Ne vuoi un'altra fetta? Te la taglio io.", "Ne vuoi un'altra fetta? Te la taglio.", "Vuoi un'altra fetta? Te la taglio."], explanation: "In speech you'll also hear \"Ne vuoi un'altra fetta?\", with a redundant \"ne\". \"Te la\" for the slice." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Uncle Gennaro's present? Anna brought it to him.", answer: "Il regalo per zio Gennaro? Gliel'ha portato Anna.", altAnswers: ["Il regalo di zio Gennaro? Gliel'ha portato Anna.", "Il regalo per zio Gennaro? Anna gliel'ha portato."], explanation: "\"Gliel'ha\" + \"portato\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Did you send the email to the client? Yes, I sent it to him at nine.", answer: "Hai mandato la mail al cliente? Sì, gliel'ho mandata alle nove.", altAnswers: ["Gliel'hai mandata la mail al cliente? Sì, gliel'ho mandata alle nove."], explanation: "\"Mandata\" agrees with \"la mail\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The biscuits? We'll give them to the kids.", answer: "I biscotti? Li diamo ai bambini.", altAnswers: ["I biscotti? Glieli diamo ai bambini."], explanation: "Spoken Italian often doubles: \"glieli diamo ai bambini\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The cookies? We'll give them to the kids.", answer: "I biscotti? Li diamo ai bambini.", altAnswers: ["I biscotti? Glieli diamo ai bambini."], explanation: "Spoken Italian often doubles: \"glieli diamo ai bambini\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The meeting room keys? [Marco has them].", sentence: "Le chiavi della sala riunioni? ___ Marco.", answer: "Ce le ha", explanation: "\"Averci\": \"ce le ha\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Wine? [Grandpa gave him] two bottles.", sentence: "Vino? ___ due bottiglie il nonno.", answer: "Gliene ha date", explanation: "\"Date\" agrees with the bottles." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Wine? [Grandpa gave him] two bottles.", sentence: "Vino? ___ due bottiglie il nonno.", answer: "Gliene ha date", altAnswers: ["Gliene ha dato"], explanation: "\"Date\" agrees with the bottles; the unagreed \"dato\" is also common." },
       { type: "word-order", prompt: "Put the words in order to say: The photos? I'll send them to you tonight.", words: ["Le", "foto?", "Ve", "le", "mando", "stasera."], translation: "The photos? I'll send them to you tonight.", explanation: "\"Ve le\"." },
       { type: "speak", text: "La pastiera ce l'ha fatta la nonna, e il caffè ve lo porto io.", prompt: "Say it in Italian: Grandma made us the pastiera, and I'll bring you all the coffee.", tip: "ce l'ha FAT-ta, ve lo POR-to.", explanation: "Two clusters, two receivers." },
     ],
@@ -630,7 +632,7 @@ export const IT_B1_U02: Lesson[] = [
 
 export const IT_B1_U02_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You work for an online shop. A customer, signor Galli, writes that the lamp he ordered arrived broken. Write a formal reply: apologise, say when you sent it, offer to send him another one or to refund him, explain what he should do with the broken lamp, and close politely. Use Lei and at least three glie- forms (glielo, gliela, gliene, gliel'abbiamo...).",
+  prompt: "You work for an online store. A customer, signor Galli, writes that the lamp he ordered arrived broken. Write a formal reply: apologize, say when you sent it, offer to send him another one or to refund him, explain what he should do with the broken lamp, and close politely. Use Lei and at least three glie- forms (glielo, gliela, gliene, gliel'abbiamo...).",
   minWords: 60,
   maxWords: 130,
   rubric: [

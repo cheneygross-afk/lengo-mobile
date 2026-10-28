@@ -540,7 +540,7 @@ export const IT_A2_U02: Lesson[] = [
     slug: "a2-transform-change-the-traveller",
     level: "IT-A2",
     number: 9,
-    title: "Transformations: Change the Traveller",
+    title: "Transformations: Change the Traveler",
     summary: "Retell the same trip for a man, a woman, a couple and two women, and follow every ending that changes.",
     duration: "15 min",
     sections: [

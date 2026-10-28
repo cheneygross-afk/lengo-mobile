@@ -12,12 +12,12 @@ export const IT_C1_U13: Lesson[] = [
     number: 1,
     title: "Pirandello",
     summary: "Read Pirandello on identity and the mask: the opening of Il fu Mattia Pascal, the nose of Uno, nessuno e centomila, and the comedy of La patente.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Il fu Mattia Pascal: a man who dies and isn't dead",
         body: [
-          "Luigi Pirandello (1867-1936), born near Agrigento, won the Nobel Prize in 1934. In Il fu Mattia Pascal (1904) a small-town librarian, trapped in an unhappy marriage, runs away, wins a fortune at the casino in Monte Carlo and reads in a newspaper that he has been found drowned at home. He is free: he invents a new man, Adriano Meis.",
+          "Luigi Pirandello (1867-1936), born near Agrigento, won the Nobel Prize in 1934. In Il fu Mattia Pascal (1904) a small-town librarian, trapped in an unhappy marriage, runs away, wins a fortune at the casino in Monte Carlo and reads in a newspaper that he has been found drowned in the mill race on his own farm: the town has mistaken another body for his. He is free: he invents a new man, Adriano Meis.",
           "The novel opens: \"Una delle poche cose, anzi forse la sola ch'io sapessi di certo era questa: che mi chiamavo Mattia Pascal.\" Notice \"anzi\" (or rather), which corrects what was just said, and the subjunctive \"sapessi\" after \"la sola ... che\" (the only thing that), a construction you know from Upper Intermediate. \"Ch'io\" is an older elision of \"che io\".",
           "Without documents, Adriano Meis can't marry, can't report a theft, can't exist socially. He returns home to find his wife remarried and ends up as \"il fu Mattia Pascal\" (the late Mattia Pascal), visiting his own grave. \"Il fu\" before a name means the late.",
         ],
@@ -57,11 +57,13 @@ export const IT_C1_U13: Lesson[] = [
       {
         heading: "La patente: humor and pity",
         body: [
-          "Pirandello called his method \"umorismo\": not just making us laugh, but making us feel the opposite of our first reaction, \"il sentimento del contrario\". We laugh at an old woman absurdly made up like a girl; then we understand she does it to keep a younger husband, and laughter turns into pity.",
+          "Pirandello called his method \"umorismo\" and explained it in an essay of 1908 with two stages. First comes \"l'avvertimento del contrario\": we notice that something is the opposite of what it should be, and we laugh, as at an old woman absurdly made up like a girl. Then reflection brings \"il sentimento del contrario\": we understand she does it to keep a younger husband, and laughter turns into pity.",
           "In the novella La patente (1911), Rosario Chiàrchiaro has a reputation as a \"iettatore\", a man who brings bad luck. He has lost his job because of it. So he goes to court not to deny the rumor but to obtain an official license as a iettatore, so that people will pay him to stay away. The mask the town forced on him becomes his trade.",
         ],
         examples: [
           { es: "Prima ridiamo, poi proviamo pietà.", en: "First we laugh, then we feel pity." },
+          { es: "L'avvertimento del contrario ci fa ridere.", en: "Noticing the contrast makes us laugh." },
+          { es: "Il sentimento del contrario trasforma il riso in pietà.", en: "Feeling the contrast from inside turns laughter into pity." },
           { es: "Tutti lo considerano un iettatore.", en: "Everyone considers him a bringer of bad luck." },
           { es: "Chiede una patente ufficiale di iettatore.", en: "He asks for an official license as a bringer of bad luck." },
           { es: "La maschera che gli hanno imposto diventa il suo mestiere.", en: "The mask they forced on him becomes his trade." },
@@ -104,7 +106,7 @@ export const IT_C1_U13: Lesson[] = [
     number: 2,
     title: "Svevo: La coscienza di Zeno",
     summary: "Read Zeno's battle with the last cigarette, and meet the unreliable narrator who writes his life for a psychoanalyst.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "A novel from Trieste",
@@ -150,11 +152,15 @@ export const IT_C1_U13: Lesson[] = [
         body: [
           "Zeno is an \"inetto\", an inept, unheroic man who drifts through life: he proposes to three sisters in one evening and marries the one he didn't want, Augusta, who turns out to be the right wife. His failures often succeed by accident. Svevo turns the nineteenth-century hero upside down.",
           "The narration is \"tempo misto\": Zeno doesn't tell his life in order, but by themes (smoking, his father's death, marriage, business), jumping across time as memory does.",
+          "Two more scenes are always discussed. As his father dies, he raises his hand and it falls on Zeno's cheek: a last slap, or an accident? Zeno will never know, and he argues both sides for pages. And the novel ends with a dark prophecy: one day someone will invent an explosive more powerful than any before, and after the blast \"la terra ritornata alla forma di nebulosa errerà nei cieli priva di parassiti e di malattie\". The comic memoir closes on the whole of humanity as the disease.",
         ],
         examples: [
           { es: "In una sola sera chiede la mano a tre sorelle.", en: "In a single evening he proposes to three sisters." },
           { es: "Alla fine sposa Augusta, la sorella che non voleva.", en: "In the end he marries Augusta, the sister he didn't want." },
           { es: "Il romanzo è organizzato per temi, non in ordine cronologico.", en: "The novel is organized by themes, not chronologically." },
+          { es: "Il padre morente lo colpisce con uno schiaffo.", en: "His dying father strikes him with a slap." },
+          { es: "Zeno non saprà mai se lo schiaffo fosse voluto.", en: "Zeno will never know whether the slap was intended." },
+          { es: "Il romanzo si chiude con una profezia apocalittica.", en: "The novel closes with an apocalyptic prophecy." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In the end he marries the sister he didn't want.", answer: "Alla fine sposa la sorella che non voleva.", altAnswers: ["Alla fine sposa la sorella che non voleva sposare.", "Alla fine si sposa con la sorella che non voleva."], explanation: "\"Sposare qualcuno\" (direct object) or \"sposarsi con\"." },
@@ -183,14 +189,15 @@ export const IT_C1_U13: Lesson[] = [
     number: 3,
     title: "Deledda",
     summary: "Read Grazia Deledda's Sardinia, the reeds in the wind of Canne al vento, and the language of fate and guilt.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "A Nobel from Nuoro",
         body: [
           "Grazia Deledda (1871-1936) was born in Nuoro, in the mountains of Sardinia, into a family that didn't expect girls to study beyond primary school. She educated herself, published her first stories as a teenager and moved to Rome after marrying. In 1927 she received the Nobel Prize for Literature for 1926: she is still the only Italian woman to have won it.",
           "Her novels are set in a Sardinia of shepherds, landowners, servants and ancient customs. Critics have linked her to verismo for the setting, but her real subject is inner: guilt, temptation, sin and fate, in a landscape that seems to share the characters' feelings.",
-          "Typical vocabulary: \"il pastore\" (shepherd), \"la tanca\" (a Sardinian enclosed pasture), \"il podere\" (farm), \"la colpa\" (guilt), \"il destino\" or \"la sorte\" (fate), \"il peccato\" (sin).",
+          "Typical vocabulary: \"il pastore\" (shepherd), \"la tanca\" (a Sardinian enclosed pasture), \"il podere\" (farm), \"il nuraghe\" (the prehistoric stone towers of the island), \"la colpa\" (guilt), \"il destino\" or \"la sorte\" (fate), \"il peccato\" (sin).",
+          "Besides Canne al vento, her best-known books are Elias Portolu (1903), the story of a former prisoner in love with his brother's fiancée; Cenere (1904), filmed in 1916 with Eleonora Duse in her only screen role; and La madre (1920). Her autobiographical novel, Cosima, came out after her death, in 1937.",
         ],
         examples: [
           { es: "Grazia Deledda nacque a Nuoro nel 1871.", en: "Grazia Deledda was born in Nuoro in 1871." },
@@ -198,6 +205,9 @@ export const IT_C1_U13: Lesson[] = [
           { es: "Studiò quasi da sola.", en: "She studied almost on her own." },
           { es: "Il paesaggio sembra partecipare ai sentimenti dei personaggi.", en: "The landscape seems to share the characters' feelings." },
           { es: "I temi principali sono la colpa e il destino.", en: "The main themes are guilt and fate." },
+          { es: "Cenere divenne un film muto con Eleonora Duse.", en: "Cenere became a silent film starring Eleonora Duse." },
+          { es: "Cosima uscì dopo la sua morte, nel 1937.", en: "Cosima came out after her death, in 1937." },
+          { es: "Sullo sfondo si vede un nuraghe.", en: "A nuraghe stands in the background." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She is the only Italian woman to have won the Nobel Prize for Literature.", answer: "È l'unica donna italiana ad aver vinto il premio Nobel per la letteratura.", altAnswers: ["È l'unica donna italiana ad avere vinto il premio Nobel per la letteratura.", "È l'unica italiana ad aver vinto il Nobel per la letteratura.", "È l'unica donna italiana che abbia vinto il premio Nobel per la letteratura.", "È l'unica donna italiana ad aver vinto il Nobel per la letteratura."], explanation: "\"L'unico a\" + past infinitive, or \"che\" + subjunctive." },
@@ -208,8 +218,9 @@ export const IT_C1_U13: Lesson[] = [
         heading: "Canne al vento",
         body: [
           "Canne al vento (Reeds in the Wind, 1913) tells of Efix, the old servant of three noble sisters who have fallen into poverty in a village of the Sardinian plain. Efix carries a secret guilt: long ago, he caused the death of their father. He serves the family devotedly, as an act of atonement.",
-          "The title comes from Efix's answer when asked why people are so weak: \"Siamo canne, e la sorte è il vento\" (we are reeds, and fate is the wind). The image sums up Deledda's view: human beings bend under forces they don't control, but they don't necessarily break.",
+          "The title comes from a line Efix speaks to one of the sisters, reflecting on why their lives have gone as they have: \"Siamo canne, e la sorte è il vento\" (we are reeds, and fate is the wind). The image sums up Deledda's view: human beings bend under forces they don't control, but they don't necessarily break.",
           "Notice how she uses the landscape: the river, the reeds, the moon, the wind are described at length and echo Efix's moods. When you comment on her prose, use verbs like \"riflettere\" (to reflect), \"fare da sfondo\" (to form the background) and \"accompagnare\".",
+          "The novel opens at night, with Efix keeping watch over the sisters' last little farm by the river. The sounds of the dark, the rustling reeds and the distant voices from the village read like his thoughts made visible. Deledda's Italian is plain and a little formal, an Italian she learned mostly from books, with Sardinian words where Italian has no equivalent.",
         ],
         examples: [
           { es: "Efix è il servo fedele di tre sorelle nobili ma povere.", en: "Efix is the faithful servant of three noble but poor sisters." },
@@ -217,6 +228,8 @@ export const IT_C1_U13: Lesson[] = [
           { es: "Siamo canne, e la sorte è il vento.", en: "We are reeds, and fate is the wind." },
           { es: "Il paesaggio riflette lo stato d'animo del protagonista.", en: "The landscape reflects the main character's state of mind." },
           { es: "Il fiume e le canne fanno da sfondo alla storia.", en: "The river and the reeds form the background to the story." },
+          { es: "Di notte Efix fa la guardia al poderetto vicino al fiume.", en: "At night Efix keeps watch over the little farm by the river." },
+          { es: "Il vento piega le canne, ma non le spezza.", en: "The wind bends the reeds, but doesn't break them." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We are reeds, and fate is the wind.", answer: "Siamo canne, e la sorte è il vento.", altAnswers: ["Siamo canne e la sorte è il vento.", "Siamo canne, e il destino è il vento.", "Noi siamo canne, e la sorte è il vento."], explanation: "Deledda's image of human fragility." },
@@ -257,7 +270,7 @@ export const IT_C1_U13: Lesson[] = [
     number: 4,
     title: "Free Indirect Speech",
     summary: "Recognize and write the discorso indiretto libero, where the narrator's voice blends with a character's thoughts, and tell it apart from interior monologue.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Three ways to report a thought",
@@ -283,15 +296,19 @@ export const IT_C1_U13: Lesson[] = [
         body: [
           "To convert: remove the verb of thinking and the quotation marks; change I to she or he; shift tenses back as in reported speech (present → imperfetto, passato prossimo → trapassato, future → past conditional); keep the exclamations, the questions, the colloquial words and the word order of the thought.",
           "Time and place words often stay as the character would say them: \"domani\" and \"qui\" are possible in free indirect speech because we're inside the character's present. This is one way you can recognize it: \"Domani sarebbe partita, finalmente\".",
+          "Other signals: colloquial words inside third-person narration (\"ormai\", \"insomma\", \"figuriamoci\"), exclamations and questions with no verb of thinking, and \"adesso\" or \"oggi\" next to an imperfetto. A quick test: put \"pensava:\" in front and turn the sentence back into the first person and the present. If it sounds like the character talking, it was free indirect speech. In Verga the speaker can be a whole village: \"E chi si credeva di essere, quel forestiero?\"",
         ],
         examples: [
           { es: "«Domani parto, finalmente!» → Domani sarebbe partita, finalmente!", en: "'I'm leaving tomorrow, at last!' → She'd be leaving tomorrow, at last!" },
-          { es: "«Ho sbagliato tutto» → Aveva sbagliato tutto.", en: "'I've got everything wrong' → She'd got everything wrong." },
+          { es: "«Ho sbagliato tutto» → Aveva sbagliato tutto.", en: "'I've gotten everything wrong' → She'd gotten everything wrong." },
           { es: "«Perché nessuno mi capisce?» → Perché nessuno lo capiva?", en: "'Why does nobody understand me?' → Why did nobody understand him?" },
           { es: "«Qui non ci torno più» → Lì non ci sarebbe tornato più.", en: "'I'm never coming back here' → He would never go back there." },
+          { es: "Ormai era fatta. Figuriamoci se lui l'avrebbe richiamata!", en: "It was done now. As if he'd ever call her back! (free indirect)" },
+          { es: "Pensava: «Ormai è fatta. Figuriamoci se mi richiama!»", en: "She thought: 'It's done now. As if he'll call me back!' (the test: back to direct)" },
+          { es: "E chi si credeva di essere, quel forestiero?", en: "And who did that outsider think he was? (the village's voice, in Verga's manner)" },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Rewrite «Ho sbagliato tutto» as free indirect speech about a woman, and translate: She'd got everything wrong.", source: "She'd got everything wrong.", answer: "Aveva sbagliato tutto.", altAnswers: ["Lei aveva sbagliato tutto."], explanation: "Passato prossimo → trapassato prossimo." },
+          { type: "translate", direction: "en-es", prompt: "Rewrite «Ho sbagliato tutto» as free indirect speech about a woman, and translate: She'd gotten everything wrong.", source: "She'd gotten everything wrong.", answer: "Aveva sbagliato tutto.", altAnswers: ["Lei aveva sbagliato tutto."], explanation: "Passato prossimo → trapassato prossimo." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Why did nobody [understand him]?", sentence: "Perché nessuno ___?", answer: "lo capiva", explanation: "\"Mi capisce\" → \"lo capiva\": person and tense shift." },
           { type: "listen-choose", audio: "Domani sarebbe partita, finalmente. Basta con quella città.", question: "Whose thoughts are we hearing?", options: ["A woman's, through the narrator", "The narrator's own opinion", "A letter from her mother", "A news report"], correctIndex: 0, explanation: "Conditional and \"finalmente\": her voice in the narrator's tense." },
         ],
@@ -367,7 +384,7 @@ export const IT_C1_U13: Lesson[] = [
       { type: "listen-choose", audio: "Quando arrivò alla stazione, il treno era già partito.", question: "What happened?", options: ["The train had left before she arrived.", "The train left as she arrived.", "She took the train.", "The train was late."], correctIndex: 0, explanation: "\"Era già partito\": before her arrival." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He would come back, she was sure of it.", answer: "Sarebbe tornato, ne era sicura.", altAnswers: ["Sarebbe tornato, ne era certa."], explanation: "\"Ne\" = of it." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The house, which nobody had lived in for years, was falling apart.", answer: "La casa, in cui nessuno abitava da anni, cadeva a pezzi.", altAnswers: ["La casa, dove nessuno abitava da anni, cadeva a pezzi.", "La casa, in cui nessuno viveva da anni, cadeva a pezzi.", "La casa, dove nessuno viveva da anni, stava cadendo a pezzi.", "La casa, in cui nessuno abitava da anni, stava cadendo a pezzi."], explanation: "\"Da anni\" + imperfetto for a state continuing in the past." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Having said goodbye, he left without turning round.", answer: "Dopo aver salutato, se ne andò senza voltarsi.", altAnswers: ["Salutato tutti, se ne andò senza voltarsi.", "Dopo avere salutato, se ne andò senza voltarsi.", "Avendo salutato, se ne andò senza voltarsi.", "Dopo aver salutato, partì senza voltarsi."], explanation: "Past infinitive or past gerund; \"senza\" + infinitive." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Having said goodbye, he left without turning around.", answer: "Dopo aver salutato, se ne andò senza voltarsi.", altAnswers: ["Salutato tutti, se ne andò senza voltarsi.", "Dopo avere salutato, se ne andò senza voltarsi.", "Avendo salutato, se ne andò senza voltarsi.", "Dopo aver salutato, partì senza voltarsi."], explanation: "Past infinitive or past gerund; \"senza\" + infinitive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It seemed to him that everyone was watching him.", answer: "Gli sembrava che tutti lo guardassero.", altAnswers: ["Gli pareva che tutti lo guardassero.", "Gli sembrava che tutti lo stessero guardando."], explanation: "Imperfect subjunctive after a past impression." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "What would she do now?", answer: "Che cosa avrebbe fatto adesso?", altAnswers: ["Cosa avrebbe fatto adesso?", "Che avrebbe fatto adesso?", "Cosa avrebbe fatto ora?", "Che cosa avrebbe fatto ora?"], explanation: "Free indirect question." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He had never seen so much snow.", answer: "Non aveva mai visto tanta neve.", altAnswers: ["Non aveva mai visto così tanta neve."], explanation: "\"Tanto\" agrees: \"tanta neve\"." },
@@ -388,7 +405,7 @@ export const IT_C1_U13: Lesson[] = [
     number: 6,
     title: "The Modern Short Story",
     summary: "Read an original short story in modern literary Italian, Il cappotto di mio padre, and analyze its time shifts, images and ending.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Il cappotto di mio padre, part 1",
@@ -398,7 +415,7 @@ export const IT_C1_U13: Lesson[] = [
           "The narrator is a daughter. Her father has died; the coat stands for him. The story never says 'grief': it shows it through gestures.",
         ],
         examples: [
-          { es: "Il cappotto di mio padre è rimasto nell'armadio per tre inverni.", en: "My father's coat stayed in the wardrobe for three winters." },
+          { es: "Il cappotto di mio padre è rimasto nell'armadio per tre inverni.", en: "My father's coat stayed in the closet for three winters." },
           { es: "Nessuno di noi aveva il coraggio di toccarlo.", en: "None of us had the courage to touch it." },
           { es: "Mia madre ci passava davanti come si passa davanti a una porta chiusa.", en: "My mother walked past it the way you walk past a closed door." },
           { es: "Il racconto non nomina mai il lutto: lo mostra.", en: "The story never names grief: it shows it." },
@@ -406,8 +423,8 @@ export const IT_C1_U13: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "None of us had the courage to touch it.", answer: "Nessuno di noi aveva il coraggio di toccarlo.", explanation: "\"Nessuno di noi\" + singular verb." },
-          { type: "multiple-choice", question: "What does the closed-door simile suggest about the mother?", options: ["She avoids facing her grief.", "She has lost the key to the wardrobe.", "She is angry with the narrator.", "She wants to sell the coat."], correctIndex: 0, explanation: "Passing it like a closed door: avoidance." },
-          { type: "listen-choose", audio: "Il cappotto di mio padre è rimasto nell'armadio per tre inverni.", question: "How long did the coat stay in the wardrobe?", options: ["Three winters", "Three months", "Three days", "Thirty years"], correctIndex: 0, explanation: "\"Per tre inverni\"." },
+          { type: "multiple-choice", question: "What does the closed-door simile suggest about the mother?", options: ["She avoids facing her grief.", "She has lost the key to the closet.", "She is angry with the narrator.", "She wants to sell the coat."], correctIndex: 0, explanation: "Passing it like a closed door: avoidance." },
+          { type: "listen-choose", audio: "Il cappotto di mio padre è rimasto nell'armadio per tre inverni.", question: "How long did the coat stay in the closet?", options: ["Three winters", "Three months", "Three days", "Thirty years"], correctIndex: 0, explanation: "\"Per tre inverni\"." },
         ],
       },
       {
@@ -415,12 +432,15 @@ export const IT_C1_U13: Lesson[] = [
         body: [
           "One November, the narrator decides to give the coat away. Before folding it, she checks the pockets: \"In quella destra c'era un biglietto del tram, piegato in quattro, del 12 marzo. Il giorno prima. Chissà dove stava andando.\" The last sentence is free indirect speech of a kind: her wondering, in the narrator's voice.",
           "The ticket is a tiny, ordinary object that suddenly holds the whole last day of a life. \"Chissà\" (who knows, I wonder) introduces an open question and is very common in literary Italian.",
+          "After \"chissà\" both moods are possible: \"chissà dove stava andando\" (indicative, plainer) and \"chissà dove stesse andando\" (subjunctive, more literary, more doubtful). For a guess about what never happened, use the past conditional: \"chissà cosa avrebbe detto\" (I wonder what he would have said).",
         ],
         examples: [
           { es: "Una mattina di novembre ho deciso di darlo via.", en: "One November morning I decided to give it away." },
           { es: "Prima di piegarlo, ho controllato le tasche.", en: "Before folding it, I checked the pockets." },
           { es: "C'era un biglietto del tram, piegato in quattro.", en: "There was a tram ticket, folded in four." },
           { es: "Era del giorno prima. Chissà dove stava andando.", en: "It was from the day before. I wonder where he was going." },
+          { es: "Chissà dove stesse andando.", en: "I wonder where he might have been going. (more literary)" },
+          { es: "Chissà cosa avrebbe detto mio padre.", en: "I wonder what my father would have said." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Before folding it, I checked the pockets.", answer: "Prima di piegarlo, ho controllato le tasche.", altAnswers: ["Prima di piegarlo ho controllato le tasche.", "Prima di piegarlo, ho guardato nelle tasche."], explanation: "\"Prima di\" + infinitive with the pronoun attached." },
@@ -432,12 +452,14 @@ export const IT_C1_U13: Lesson[] = [
         body: [
           "The story ends: \"Il cappotto l'ho dato via lo stesso. Il biglietto, invece, l'ho tenuto. Lo uso come segnalibro, e ogni volta che apro un libro mio padre sta ancora andando da qualche parte.\" The final present tense keeps the father in motion: a quiet, open ending.",
           "Notice the dislocated objects (\"il cappotto l'ho dato via\", \"il biglietto l'ho tenuto\"): typical of modern literary Italian, which borrows the rhythm of speech. \"Invece\" sets up the contrast between what she gives away and what she keeps.",
+          "Look at how the story handles time: three winters pass in one sentence, one November morning is told in detail, and the last line returns to the present of the telling. The title names the object, not the person, and leaves the reader to find the father inside it.",
         ],
         examples: [
           { es: "Il cappotto l'ho dato via lo stesso.", en: "I gave the coat away all the same." },
           { es: "Il biglietto, invece, l'ho tenuto.", en: "The ticket, on the other hand, I kept." },
           { es: "Lo uso come segnalibro.", en: "I use it as a bookmark." },
           { es: "Mio padre sta ancora andando da qualche parte.", en: "My father is still going somewhere." },
+          { es: "Il titolo nomina l'oggetto, non la persona.", en: "The title names the object, not the person." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The ticket, on the other hand, I kept.", answer: "Il biglietto, invece, l'ho tenuto.", altAnswers: ["Il biglietto invece l'ho tenuto.", "Invece il biglietto l'ho tenuto.", "Il biglietto, invece, l'ho conservato."], explanation: "Dislocated object picked up by \"l'\"." },
@@ -446,7 +468,7 @@ export const IT_C1_U13: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "My father's coat stayed in the wardrobe for three winters.", answer: "Il cappotto di mio padre è rimasto nell'armadio per tre inverni.", altAnswers: ["Il cappotto di mio padre rimase nell'armadio per tre inverni."], explanation: "\"Rimanere\" takes \"essere\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "My father's coat stayed in the closet for three winters.", answer: "Il cappotto di mio padre è rimasto nell'armadio per tre inverni.", altAnswers: ["Il cappotto di mio padre rimase nell'armadio per tre inverni."], explanation: "\"Rimanere\" takes \"essere\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "One November morning I decided to give it away.", answer: "Una mattina di novembre ho deciso di darlo via.", altAnswers: ["Una mattina di novembre ho deciso di regalarlo.", "Una mattina di novembre decisi di darlo via."], explanation: "\"Dare via\" = to give away." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "There was a tram ticket in the right pocket.", answer: "Nella tasca destra c'era un biglietto del tram.", altAnswers: ["C'era un biglietto del tram nella tasca destra.", "Nella tasca di destra c'era un biglietto del tram."], explanation: "\"C'era\" for description." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I gave the coat away all the same.", answer: "Il cappotto l'ho dato via lo stesso.", altAnswers: ["Ho dato via il cappotto lo stesso.", "Il cappotto l'ho dato via comunque.", "Ho dato via lo stesso il cappotto."], explanation: "\"Lo stesso\" = all the same, anyway." },
@@ -454,7 +476,7 @@ export const IT_C1_U13: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The ticket was [folded in four].", sentence: "Il biglietto era ___.", answer: "piegato in quattro", explanation: "\"Piegare in due / in quattro\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "My mother walked past it [the way you walk past] a closed door.", sentence: "Mia madre ci passava davanti ___ davanti a una porta chiusa.", answer: "come si passa", explanation: "Impersonal \"si\" in a general comparison." },
       { type: "word-order", prompt: "Put the words in order to say: The object stands for the absent father.", words: ["L'oggetto", "rappresenta", "il", "padre", "assente."], translation: "The object stands for the absent father.", explanation: "\"Rappresentare\" = to stand for." },
-      { type: "multiple-choice", question: "Why does the story end in the present tense?", options: ["To keep the father 'in motion', alive in memory", "Because the narrator is a child", "Because Italian stories always end in the present", "To show the coat is still in the wardrobe"], correctIndex: 0, explanation: "\"Sta ancora andando da qualche parte\": an open, consoling image." },
+      { type: "multiple-choice", question: "Why does the story end in the present tense?", options: ["To keep the father 'in motion', alive in memory", "Because the narrator is a child", "Because Italian stories always end in the present", "To show the coat is still in the closet"], correctIndex: 0, explanation: "\"Sta ancora andando da qualche parte\": an open, consoling image." },
       { type: "multiple-choice", question: "Which feature makes this story modern rather than 1800s prose?", options: ["Passato prossimo and dislocated objects from speech", "Enclitics on finite verbs", "An omniscient narrator who comments", "Long hypotactic sentences"], correctIndex: 0, explanation: "\"L'ho dato via\", \"il biglietto l'ho tenuto\": the rhythm of speech." },
       { type: "dictation", audio: "Chissà dove stava andando quel giorno.", explanation: "\"Chissà\" + indirect question." },
       { type: "speak", text: "Il biglietto, invece, l'ho tenuto: lo uso come segnalibro.", prompt: "Say it in Italian: The ticket, on the other hand, I kept: I use it as a bookmark.", tip: "Pause after \"il biglietto\" and \"invece\": the commas carry the contrast.", explanation: "The story's last gesture." },
@@ -466,7 +488,7 @@ export const IT_C1_U13: Lesson[] = [
     number: 7,
     title: "Literary Themes",
     summary: "Write about themes and style across authors: identity, the inept man, fate, alienation, and the verbs and connectors that link texts.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Naming the theme",
@@ -474,6 +496,7 @@ export const IT_C1_U13: Lesson[] = [
           "A theme is not a plot summary. \"Mattia Pascal finge di essere morto\" is plot; \"il tema dell'identità e della libertà impossibile\" is theme. Italian commentary uses \"il tema di\" + noun: \"il tema della maschera\", \"il tema dell'inettitudine\" (ineptitude, Svevo), \"il tema del destino\" (Deledda), \"il tema della roba\" (Verga).",
           "Useful verbs: a text \"affronta\" or \"tratta\" a theme (tackles), a theme \"ricorre\" (recurs) or \"attraversa\" (runs through) a work, it is \"il filo conduttore\" (the common thread). An author \"rappresenta\", \"esplora\", \"mette in discussione\" (questions).",
           "The early 1900s in Europe brought \"la crisi dell'io\" (the crisis of the self): the solid nineteenth-century hero breaks into masks (Pirandello), self-deception (Svevo) or submission to fate (Deledda). Naming this context lifts a commentary from description to interpretation.",
+          "Themes often come in pairs you can set against each other: \"forma e vita\" (Pirandello), \"salute e malattia\" (Svevo, whose Zeno ends up deciding that life itself is an illness), \"colpa ed espiazione\" (Deledda), \"progresso e vinti\" (Verga, who planned a whole \"ciclo dei vinti\", a cycle of novels about those defeated by progress).",
         ],
         examples: [
           { es: "Il romanzo affronta il tema dell'identità.", en: "The novel tackles the theme of identity." },
@@ -481,6 +504,9 @@ export const IT_C1_U13: Lesson[] = [
           { es: "L'inettitudine è il filo conduttore della Coscienza di Zeno.", en: "Ineptitude is the common thread of Zeno's Conscience." },
           { es: "Svevo mette in discussione l'idea di eroe.", en: "Svevo questions the idea of the hero." },
           { es: "Questi autori rappresentano la crisi dell'io.", en: "These authors represent the crisis of the self." },
+          { es: "Il conflitto tra forma e vita è centrale in Pirandello.", en: "The conflict between form and life is central to Pirandello." },
+          { es: "Per Zeno la vita stessa è una malattia.", en: "For Zeno, life itself is an illness." },
+          { es: "Verga progettò il ciclo dei vinti.", en: "Verga planned the cycle of the defeated." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The novel tackles the theme of identity.", answer: "Il romanzo affronta il tema dell'identità.", altAnswers: ["Il romanzo tratta il tema dell'identità."], explanation: "\"Affrontare un tema\"; \"dell'identità\" with elision." },
@@ -494,6 +520,7 @@ export const IT_C1_U13: Lesson[] = [
           "To link texts, use comparison connectors: \"analogamente\" (similarly), \"allo stesso modo\", \"a differenza di\" (unlike), \"mentre\" (whereas), \"al contrario\", \"in entrambi i casi\" (in both cases). \"Sia Pirandello sia Svevo\" (both ... and) takes a plural verb.",
           "Then compare techniques: \"Mentre Verga adotta un narratore impersonale, Svevo affida la narrazione al protagonista stesso\". \"Affidare\" (to entrust) is useful for narration: \"affida la voce a un narratore inattendibile\".",
           "Finish with a hedged synthesis: \"In entrambi i casi, si direbbe che l'individuo non riesca più a riconoscersi\". \"Si direbbe che\" (one would say that) + subjunctive is an elegant hedge.",
+          "Organize a comparison in one of two ways: \"per blocchi\" (author A, then author B, then the synthesis) or \"per punti\" (narrator, theme, style, each discussed for both). The second is harder but reads as more mature. Signal each step with \"per quanto riguarda\" (as for) and \"passando a\" (moving on to).",
         ],
         examples: [
           { es: "Sia Pirandello sia Svevo raccontano la crisi dell'io.", en: "Both Pirandello and Svevo tell the crisis of the self." },
@@ -501,6 +528,8 @@ export const IT_C1_U13: Lesson[] = [
           { es: "Mentre Deledda insiste sul destino, Pirandello insiste sulla società.", en: "Whereas Deledda stresses fate, Pirandello stresses society." },
           { es: "In entrambi i casi il protagonista non si riconosce.", en: "In both cases the main character doesn't recognize himself." },
           { es: "Si direbbe che l'individuo abbia perso ogni certezza.", en: "One would say the individual has lost every certainty." },
+          { es: "Per quanto riguarda lo stile, Svevo è più ironico di Deledda.", en: "As for style, Svevo is more ironic than Deledda." },
+          { es: "Passando al narratore, le differenze sono evidenti.", en: "Moving on to the narrator, the differences are clear." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Both Pirandello and Svevo tell the crisis of the self.", answer: "Sia Pirandello sia Svevo raccontano la crisi dell'io.", altAnswers: ["Sia Pirandello che Svevo raccontano la crisi dell'io.", "Tanto Pirandello quanto Svevo raccontano la crisi dell'io.", "Sia Pirandello sia Svevo rappresentano la crisi dell'io."], explanation: "\"Sia ... sia\" (or \"sia ... che\") + plural verb." },
@@ -575,7 +604,7 @@ export const IT_C1_U13: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Fix \"Pirandello realizza che l'identità è una maschera\" and write: Pirandello shows that identity is a mask.", source: "Pirandello shows that identity is a mask.", answer: "Pirandello mostra che l'identità è una maschera.", altAnswers: ["Pirandello dimostra che l'identità è una maschera.", "Pirandello fa vedere che l'identità è una maschera."], explanation: "\"Realizzare\" is a false friend here." },
-          { type: "fill-blank", prompt: "Fix \"Eventualmente Zeno sposa Augusta\".", en: "[Eventually] Zeno marries Augusta.", sentence: "___ Zeno sposa Augusta.", answer: "Alla fine", altAnswers: ["Infine", "Finalmente"], explanation: "\"Eventualmente\" = possibly; eventually = \"alla fine\"." },
+          { type: "fill-blank", prompt: "Fix \"Eventualmente Zeno sposa Augusta\".", en: "[Eventually] Zeno marries Augusta.", sentence: "___ Zeno sposa Augusta.", answer: "Alla fine", altAnswers: ["Infine"], explanation: "\"Eventualmente\" = possibly; eventually = \"alla fine\" (\"finalmente\" adds at last, with relief)." },
           { type: "listen-choose", audio: "Il romanzo costringe il lettore a interrogarsi sulla propria identità.", question: "What does the novel do, according to the speaker?", options: ["It makes readers question who they are.", "It forces readers to stop reading.", "It tells readers who they are.", "It asks readers for their name."], correctIndex: 0, explanation: "\"Interrogarsi su\" = to question oneself about." },
         ],
       },
@@ -629,20 +658,20 @@ export const IT_C1_U13: Lesson[] = [
         ],
         examples: [
           { es: "Ha richiuso il cassetto piano, come per non svegliare qualcuno.", en: "She closed the drawer gently, as if not to wake someone." },
-          { es: "Poi ha spento la luce. Basta.", en: "Then she switched off the light. That was all." },
-          { es: "La chiave adesso la porto al collo.", en: "I wear the key round my neck now." },
+          { es: "Poi ha spento la luce. Basta.", en: "Then she turned off the light. That was all." },
+          { es: "La chiave adesso la porto al collo.", en: "I wear the key around my neck now." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She closed the drawer gently, as if not to wake someone.", answer: "Ha richiuso il cassetto piano, come per non svegliare qualcuno.", altAnswers: ["Richiuse il cassetto piano, come per non svegliare qualcuno.", "Ha chiuso il cassetto piano, come per non svegliare qualcuno.", "Ha richiuso piano il cassetto, come per non svegliare qualcuno."], explanation: "\"Piano\" = gently, quietly; \"come per\" + infinitive = as if to." },
-          { type: "listen-choose", audio: "La chiave adesso la porto al collo.", question: "Where is the key now?", options: ["Round the narrator's neck", "On the nail", "In a drawer", "Lost"], correctIndex: 0, explanation: "\"Al collo\" = round the neck." },
+          { type: "listen-choose", audio: "La chiave adesso la porto al collo.", question: "Where is the key now?", options: ["Around the narrator's neck", "On the nail", "In a drawer", "Lost"], correctIndex: 0, explanation: "\"Al collo\" = around the neck." },
         ],
       },
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "When my grandmother left the house, she didn't take the key with her.", answer: "Quando mia nonna ha lasciato la casa, non ha portato con sé la chiave.", altAnswers: ["Quando mia nonna ha lasciato la casa, non ha portato la chiave con sé.", "Quando mia nonna lasciò la casa, non portò con sé la chiave.", "Quando mia nonna ha lasciato la casa, la chiave non l'ha portata con sé."], explanation: "\"Con sé\" with the accent." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I wonder what door it opened.", answer: "Chissà quale porta apriva.", altAnswers: ["Chissà che porta apriva.", "Mi chiedo quale porta aprisse.", "Chissà quale porta aprisse."], explanation: "\"Chissà\" + indirect question." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Then she switched off the light.", answer: "Poi ha spento la luce.", altAnswers: ["Poi spense la luce."], explanation: "\"Spegnere\": past participle \"spento\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I wear the key round my neck now.", answer: "La chiave adesso la porto al collo.", altAnswers: ["Adesso porto la chiave al collo.", "Ora porto la chiave al collo.", "La chiave ora la porto al collo."], explanation: "Dislocated object for emphasis." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Then she turned off the light.", answer: "Poi ha spento la luce.", altAnswers: ["Poi spense la luce."], explanation: "\"Spegnere\": past participle \"spento\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I wear the key around my neck now.", answer: "La chiave adesso la porto al collo.", altAnswers: ["Adesso porto la chiave al collo.", "Ora porto la chiave al collo.", "La chiave ora la porto al collo."], explanation: "Dislocated object for emphasis." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The house smelled of coffee and old books.", answer: "La casa sapeva di caffè e di libri vecchi.", altAnswers: ["La casa profumava di caffè e di libri vecchi.", "La casa odorava di caffè e di libri vecchi.", "La casa sapeva di caffè e libri vecchi."], explanation: "\"Sapere di\" = to smell or taste of." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The key was [worn with use].", sentence: "La chiave era ___.", answer: "consumata dall'uso", explanation: "Agreement: \"consumata\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "She looked at the photograph [for a long time].", sentence: "Ha guardato la fotografia ___.", answer: "a lungo", explanation: "\"A lungo\" = for a long time." },
@@ -663,7 +692,7 @@ export const IT_C1_U13: Lesson[] = [
       {
         heading: "The interview, part 1",
         body: [
-          "On a cultural radio program, a presenter interviews Livia Mancuso, an invented novelist from Cagliari, about her new novel, La casa dei venti. Listen for: the subject of the book, the setting, the narrator, the influences she names.",
+          "On a cultural radio program, a host interviews Livia Mancuso, an invented novelist from Cagliari, about her new novel, La casa dei venti. Listen for: the subject of the book, the setting, the narrator, the influences she names.",
           "Interview language: \"Com'è nata l'idea del romanzo?\" (how did the idea come about?), \"Che cosa l'ha ispirata?\", \"Si riconosce nella sua protagonista?\" (do you see yourself in her?). The writer answers with hedges and examples: \"Direi che...\", \"In un certo senso...\".",
         ],
         examples: [
@@ -709,7 +738,7 @@ export const IT_C1_U13: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I read Deledda [as a girl].", sentence: "Ho letto la Deledda ___.", answer: "da ragazza", altAnswers: ["da bambina", "quando ero ragazza"], explanation: "\"Da\" + noun = as (at that age)." },
       { type: "multiple-choice", question: "Why does the author write in short sentences?", options: ["\"Perché il vento non aspetta\": to match the rhythm of the wind", "Because her editor asked her to", "Because the book is for children", "Because she writes quickly in the morning"], correctIndex: 0, explanation: "Style linked to theme." },
       { type: "dictation", audio: "Scrivo la mattina presto, prima che la casa si svegli.", explanation: "\"Prima che\" + subjunctive." },
-      { type: "speak", text: "Com'è nata l'idea del romanzo? E che cosa l'ha ispirata?", prompt: "You're the presenter. Ask (formal): How did the idea for the novel come about? And what inspired you?", tip: "\"L'ha ispirata\": \"la\" for Lei, feminine, so the participle agrees.", explanation: "Two classic interview questions." },
+      { type: "speak", text: "Com'è nata l'idea del romanzo? E che cosa l'ha ispirata?", prompt: "You're the host. Ask (formal): How did the idea for the novel come about? And what inspired you?", tip: "\"L'ha ispirata\": \"la\" for Lei, feminine, so the participle agrees.", explanation: "Two classic interview questions." },
     ],
   },
 ];

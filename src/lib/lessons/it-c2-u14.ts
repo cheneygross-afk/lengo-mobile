@@ -24,15 +24,15 @@ export const IT_C2_U14: Lesson[] = [
         examples: [
           { es: "Il ragazzo che abitava al terzo piano è partito ieri.", en: "The boy who lived on the third floor left yesterday." },
           { es: "Il direttore, a quanto pare, si è dimesso.", en: "The director, it seems, has resigned." },
-          { es: "Gli studenti che hanno superato l'esame possono iscriversi.", en: "The students who passed the exam can enrol." },
-          { es: "Gli studenti, che hanno superato l'esame, possono iscriversi.", en: "The students, who all passed the exam, can enrol." },
+          { es: "Gli studenti che hanno superato l'esame possono iscriversi.", en: "The students who passed the exam can enroll." },
+          { es: "Gli studenti, che hanno superato l'esame, possono iscriversi.", en: "The students, who all passed the exam, can enroll." },
           { es: "Era stanco, ma non voleva smettere.", en: "He was tired, but he didn't want to stop." },
           { es: "Grazie, Marco, sei stato gentilissimo.", en: "Thank you, Marco, you've been very kind." },
         ],
         checkpoint: [
           { type: "multiple-choice", question: "Which sentence is punctuated correctly?", options: ["Il ragazzo che abitava al terzo piano è partito ieri.", "Il ragazzo che abitava al terzo piano, è partito ieri.", "Il ragazzo, che abitava al terzo piano è partito ieri.", "Il ragazzo che abitava, al terzo piano è partito ieri."], correctIndex: 0, explanation: "No comma between the subject (however long) and the verb." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The director, it seems, has resigned.", answer: "Il direttore, a quanto pare, si è dimesso.", altAnswers: ["Il direttore, a quanto sembra, si è dimesso.", "Il direttore, pare, si è dimesso.", "A quanto pare, il direttore si è dimesso."], explanation: "The inciso \"a quanto pare\" sits between two commas." },
-          { type: "multiple-choice", question: "\"Gli studenti, che hanno superato l'esame, possono iscriversi.\" What does the sentence imply?", options: ["All the students passed and can enrol.", "Only some students passed.", "The students who failed can enrol.", "Nobody passed."], correctIndex: 0, explanation: "Commas make the relative clause non-defining: it describes all the students." },
+          { type: "multiple-choice", question: "\"Gli studenti, che hanno superato l'esame, possono iscriversi.\" What does the sentence imply?", options: ["All the students passed and can enroll.", "Only some students passed.", "The students who failed can enroll.", "Nobody passed."], correctIndex: 0, explanation: "Commas make the relative clause non-defining: it describes all the students." },
         ],
       },
       {
@@ -77,7 +77,7 @@ export const IT_C2_U14: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He was tired, but he didn't want to stop.", answer: "Era stanco, ma non voleva smettere.", altAnswers: ["Era stanco ma non voleva smettere.", "Lui era stanco, ma non voleva smettere."], explanation: "A comma before \"ma\" is normal." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The students who passed the exam can enrol.", answer: "Gli studenti che hanno superato l'esame possono iscriversi.", altAnswers: ["Gli studenti che hanno passato l'esame possono iscriversi."], explanation: "Defining relative: no commas." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The students who passed the exam can enroll.", answer: "Gli studenti che hanno superato l'esame possono iscriversi.", altAnswers: ["Gli studenti che hanno passato l'esame possono iscriversi."], explanation: "Defining relative: no commas." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The project, and we all knew it, was doomed to fail.", answer: "Il progetto, e lo sapevamo tutti, era destinato a fallire.", altAnswers: ["Il progetto – e lo sapevamo tutti – era destinato a fallire.", "Il progetto, e tutti lo sapevamo, era destinato a fallire."], explanation: "An inciso between commas or, more strongly, dashes." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Three things are needed: time, patience and a good editor.", answer: "Servono tre cose: tempo, pazienza e un buon editor.", altAnswers: ["Ci vogliono tre cose: tempo, pazienza e un buon editor.", "Occorrono tre cose: tempo, pazienza e un buon editor."], explanation: "Colon before a list; no article in a list of essentials." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Thank you, Marco, [you've been very kind].", sentence: "Grazie, Marco, ___.", answer: "sei stato gentilissimo", altAnswers: ["sei stato molto gentile"], explanation: "The vocative \"Marco\" is set off by commas." },
@@ -113,7 +113,7 @@ export const IT_C2_U14: Lesson[] = [
         heading: "Two traditions",
         body: [
           "\"La paratassi\" places clauses side by side, joined by commas or \"e\", \"ma\", \"poi\": \"Entrò, si tolse il cappotto, non disse nulla.\" \"L'ipotassi\" subordinates them, showing which clause depends on which: \"Quando entrò, dopo essersi tolto il cappotto, non disse nulla perché era ancora offeso.\"",
-          "Italian prose grew up hypotactic, on the model of Latin and Boccaccio. School still rewards it, and bureaucratic and academic Italian love it. Twentieth-century narrative and modern journalism moved towards parataxis: shorter sentences, fewer connectives, more implication. Neither is better; each says something different.",
+          "Italian prose grew up hypotactic, on the model of Latin and Boccaccio. School still rewards it, and bureaucratic and academic Italian love it. Twentieth-century narrative and modern journalism moved toward parataxis: shorter sentences, fewer connectives, more implication. Neither is better; each says something different.",
           "A useful test: read your paragraph and count the main verbs per sentence. One per sentence over a whole page is monotonous; four levels of subordination in every sentence is exhausting. Good Italian prose alternates, often within the same paragraph.",
           "Parataxis leaves the logical link to the reader and creates speed, tension or flatness. Hypotaxis makes the logic explicit and creates nuance, but it can bury the main point. The C2 skill is to choose consciously, and to switch within one text when the content changes.",
         ],
@@ -152,9 +152,10 @@ export const IT_C2_U14: Lesson[] = [
       {
         heading: "Breaking up a long period",
         body: [
-          "The reverse skill matters just as much. A 70-word sentence from an office memo: \"Si comunica che, a seguito delle verifiche effettuate dall'ufficio tecnico, il quale ha riscontrato alcune criticità nell'impianto, che dovranno essere risolte prima della riapertura, prevista per lunedì, l'accesso alla palestra sarà interdetto fino a nuovo avviso.\"",
+          "The reverse skill matters just as much. A forty-word sentence from an office memo: \"Si comunica che, a seguito delle verifiche effettuate dall'ufficio tecnico, il quale ha riscontrato alcune criticità nell'impianto, che dovranno essere risolte prima della riapertura, prevista per lunedì, l'accesso alla palestra sarà interdetto fino a nuovo avviso.\"",
           "Find the main clause (\"l'accesso alla palestra sarà interdetto\"), state it first, then give the reasons in separate sentences: \"La palestra resterà chiusa fino a nuovo avviso. L'ufficio tecnico ha riscontrato alcuni problemi all'impianto, che vanno risolti prima della riapertura. La riapertura è prevista per lunedì.\" Note the plainer words too: \"criticità\" becomes \"problemi\", \"interdetto\" becomes \"chiusa\".",
           "Rule of thumb: one sentence, one main idea; more than two levels of subordination is usually too many for a reader on a phone.",
+          "When you split a period, keep the logical link with an adverb at the start of the new sentence: \"Per questo\", \"Inoltre\", \"Tuttavia\", \"Perciò\". \"La palestra resterà chiusa. Per questo il corso di lunedì è annullato\" is clearer than the long period and clearer than two unlinked sentences. And never start a new sentence with \"Il quale...\" or \"La quale...\" after a full stop: it is a bureaucratic tic; begin with the noun or a pronoun instead.",
         ],
         examples: [
           { es: "La palestra resterà chiusa fino a nuovo avviso.", en: "The gym will remain closed until further notice." },
@@ -207,7 +208,7 @@ export const IT_C2_U14: Lesson[] = [
         body: [
           "Italian prose likes groups of three (\"il tricolon\"): \"Venne, vide, vinse\" in Latin, \"chiaro, breve, preciso\" in a style manual. Three items feel complete; two feel like a contrast; four feel like a list. When you have four, ask whether one can go.",
           "Rhythm also comes from the length of the members of a list: Italians like the last item to be the longest (\"il sole, il mare e una cucina che non dimentichi\"). A short item at the end sounds abrupt unless you want abruptness.",
-          "Arrange items by growing length or intensity (\"la climax\", feminine in Italian): \"una sorpresa, uno shock, un trauma\". The last place in an Italian sentence is the strongest: put the new or important information there. \"Il colpevole era il maggiordomo\" stresses the butler; \"Era il maggiordomo, il colpevole\" stresses guilt, with a dislocation that sounds spoken.",
+          "Arrange items by growing length or intensity (\"la climax\", feminine in Italian): \"una sorpresa, uno shock, un trauma\". The last place in an Italian sentence is the strongest: put the new or important information there. \"Il colpevole era il maggiordomo\" stresses the butler; \"Era il maggiordomo, il colpevole\" also puts the butler in focus, but tacks \"il colpevole\" on at the end as known information: a right dislocation that sounds spoken.",
           "Italian word order is flexible enough to exploit end weight: \"A vincere è stata la squadra più giovane\" (the cleft-like structure \"a\" + infinitive) moves the subject to the end and makes it the news.",
         ],
         examples: [
@@ -247,8 +248,9 @@ export const IT_C2_U14: Lesson[] = [
         heading: "Sound: vowels, d eufonica and accidental rhymes",
         body: [
           "Italian prose is heard even when read silently. Avoid accidental rhymes and jingles from repeated endings: \"la situazione della nazione richiede attenzione\" sounds like a nursery rhyme. Change one noun: \"il Paese si trova in una fase che richiede attenzione\".",
+          "Stress patterns matter too. Most Italian words are \"piane\" (stressed on the second-to-last syllable); a run of \"sdrucciole\" (stressed on the third-to-last: \"rapido\", \"semplice\", \"tavolo\") slows a sentence down, while \"tronche\" (final stress: \"città\", \"però\", \"virtù\") snap it shut. That is why many memorable Italian closes end on a stressed vowel: \"e così fu\", \"non tornò più\".",
           "The \"d eufonica\" (\"ed\", \"ad\", \"od\") is now recommended only before the same vowel: \"ed era\", \"ad andare\", but \"e anche\", \"a ogni costo\". One fixed phrase is accepted everywhere as an exception: \"ad esempio\". Overusing \"ed\" and \"ad\" before any vowel sounds old-fashioned.",
-          "Long words at the end of a sentence slow it down; short words speed it up. A paragraph that ends with a short, monosyllabic phrase (\"e basta\", \"per sempre\") has a strong close.",
+          "Long words at the end of a sentence slow it down; short words speed it up. A paragraph that ends with a short phrase of one or two beats (\"e basta\", \"per sempre\") has a strong close.",
         ],
         examples: [
           { es: "Il Paese si trova in una fase che richiede attenzione.", en: "The country is at a stage that calls for attention." },
@@ -320,8 +322,9 @@ export const IT_C2_U14: Lesson[] = [
         heading: "Quest'ultimo, il primo, il secondo",
         body: [
           "\"Quest'ultimo\" / \"quest'ultima\" (the latter) points to the last noun mentioned and agrees with it: \"Ho parlato con Marco e con sua sorella; quest'ultima mi ha detto...\" \"Il primo... il secondo\" (the former... the latter) works when both have been named. These are among the most useful tools of written Italian, and English speakers underuse them.",
-          "Avoid \"lo stesso\" / \"la stessa\" as a pronoun (\"Il cliente ha ricevuto il pacco e lo stesso era danneggiato\"): it is bureaucratic and criticised by every style guide. Write \"che era danneggiato\" or \"ma era danneggiato\".",
+          "Avoid \"lo stesso\" / \"la stessa\" as a pronoun (\"Il cliente ha ricevuto il pacco e lo stesso era danneggiato\"): it is bureaucratic and criticized by every style guide. Write \"che era danneggiato\" or \"ma era danneggiato\".",
           "\"Esso\", \"essa\", \"essi\" survive only in formal writing about things and abstract nouns, and even there a simple pronoun or a repeated noun is often better. In speech they sound wooden.",
+          "Italian has two more back-reference tools English speakers underuse. \"Ciò\" picks up a whole sentence: \"Il treno è stato soppresso, e ciò ha creato disagi.\" \"Tale\" (such, this) turns a repeated noun into a reference: \"tale decisione\", \"tale scelta\", formal but standard in reports. And \"il cui\" (whose) folds a second sentence into the first: \"lo scrittore, il cui ultimo romanzo è uscito ieri, ...\", with the article agreeing with the thing possessed.",
         ],
         examples: [
           { es: "Ho parlato con Marco e con sua sorella; quest'ultima mi ha detto tutto.", en: "I spoke to Marco and his sister; she told me everything." },
@@ -347,7 +350,7 @@ export const IT_C2_U14: Lesson[] = [
           { es: "Io prendo un caffè, lei un tè.", en: "I'll have a coffee, and she'll have a tea." },
           { es: "Il ministro ha precisato che la misura è temporanea.", en: "The minister specified that the measure is temporary." },
           { es: "«Non è vero», ha replicato l'avvocato.", en: "'That's not true,' the lawyer retorted." },
-          { es: "Ha commesso un errore di valutazione.", en: "He made an error of judgement." },
+          { es: "Ha commesso un errore di valutazione.", en: "He made an error of judgment." },
           { es: "Il piano non è mai stato attuato.", en: "The plan was never implemented." },
         ],
         checkpoint: [
@@ -359,7 +362,7 @@ export const IT_C2_U14: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll have a coffee, and she'll have a tea.", answer: "Io prendo un caffè, lei un tè.", altAnswers: ["Io prendo un caffè e lei un tè.", "Io prendo un caffè, lei prende un tè."], explanation: "Ellipsis of \"prende\"; subject pronouns needed for the contrast." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He made an error of judgement.", answer: "Ha commesso un errore di valutazione.", altAnswers: ["Lui ha commesso un errore di valutazione.", "Ha fatto un errore di valutazione."], explanation: "\"Commettere un errore\" is more precise than \"fare\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He made an error of judgment.", answer: "Ha commesso un errore di valutazione.", altAnswers: ["Lui ha commesso un errore di valutazione.", "Ha fatto un errore di valutazione."], explanation: "\"Commettere un errore\" is more precise than \"fare\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The tremor was felt as far as Bologna.", answer: "La scossa è stata avvertita fino a Bologna.", altAnswers: ["La scossa è stata sentita fino a Bologna.", "La scossa si è avvertita fino a Bologna."], explanation: "\"La scossa\" refers back to an earthquake without repeating \"terremoto\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "'That's not true,' the lawyer retorted.", answer: "«Non è vero», ha replicato l'avvocato.", altAnswers: ["«Non è vero», replicò l'avvocato.", "Non è vero, ha replicato l'avvocato."], explanation: "\"Replicare\" = to retort; inversion in the attribution." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[The mayor] then left the town hall.", sentence: "___ ha poi lasciato il municipio.", answer: "Il primo cittadino", altAnswers: ["Il sindaco"], explanation: "A journalistic synonym for \"il sindaco\"." },
@@ -423,7 +426,7 @@ export const IT_C2_U14: Lesson[] = [
         ],
       },
       {
-        heading: "Emphasise",
+        heading: "Emphasize",
         body: [
           "\"A\" + infinitive + \"è stato\", inversion with \"mai\", dislocation, short sentences.",
         ],
@@ -446,7 +449,7 @@ export const IT_C2_U14: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll cook the pasta. (stressing that it's me)", answer: "La pasta la cucino io.", altAnswers: ["La pasta, la cucino io.", "La cucino io, la pasta."], explanation: "Dislocation + subject \"io\" at the end for emphasis." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Between tea and coffee, I prefer the latter.", answer: "Tra il tè e il caffè, preferisco quest'ultimo.", altAnswers: ["Tra tè e caffè, preferisco quest'ultimo.", "Fra il tè e il caffè preferisco quest'ultimo.", "Tra il tè e il caffè preferisco il secondo."], explanation: "\"Quest'ultimo\" = the coffee." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Once the decision was made], nobody complained.", sentence: "___, nessuno si lamentò.", answer: "Presa la decisione", altAnswers: ["Una volta presa la decisione"], explanation: "\"Presa\" agrees with \"la decisione\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The spokesman [denied] the rumours.", sentence: "Il portavoce ha ___ le voci.", answer: "smentito", explanation: "\"Smentire\" = to deny (a report)." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The spokesman [denied] the rumors.", sentence: "Il portavoce ha ___ le voci.", answer: "smentito", explanation: "\"Smentire\" = to deny (a report)." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I chose the train, my brother [the plane].", sentence: "Io ho scelto il treno, mio fratello ___.", answer: "l'aereo", explanation: "Ellipsis of \"ha scelto\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It was the youngest [who protested].", sentence: "___ sono stati i più giovani.", answer: "A protestare", explanation: "\"A\" + infinitive opens the cleft." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The company [carried out] a survey.", sentence: "L'azienda ha ___ un'indagine.", answer: "condotto", altAnswers: ["svolto", "realizzato", "effettuato"], explanation: "\"Condurre un'indagine\" rather than \"fare\"." },
@@ -480,14 +483,14 @@ export const IT_C2_U14: Lesson[] = [
         heading: "Passage A: the long period",
         body: [
           "This passage was written for the course in the manner of a nineteenth-century novelist such as Manzoni: \"Era sul finire d'una giornata d'ottobre, quando la nebbia, che fin dal mattino aveva coperto le risaie, cominciava a diradarsi, e il fattore, il quale tornava dal mercato con l'animo turbato da certe voci che aveva udito all'osteria, si fermò sul ponte a guardare l'acqua, come chi cerchi nelle cose una risposta che gli uomini non sanno dargli.\"",
-          "Note the features: one sentence, several levels of subordination, \"d'una\" (elided \"di una\", old-fashioned), \"il quale\" instead of \"che\", the participle \"turbato\", the verb \"udire\" (literary for \"sentire\"), and the final simile with a subjunctive (\"come chi cerchi\"), which generalises the character into a human type.",
-          "The narrator is present: he comments, generalises, guides. The rhythm is slow, like the fog lifting.",
+          "Note the features: one sentence, several levels of subordination, \"d'una\" (elided \"di una\", old-fashioned), \"il quale\" instead of \"che\", the participle \"turbato\", the verb \"udire\" (literary for \"sentire\"), and the final simile with a subjunctive (\"come chi cerchi\"), which generalizes the character into a human type.",
+          "The narrator is present: he comments, generalizes, guides. The rhythm is slow, like the fog lifting.",
         ],
         examples: [
-          { es: "Era sul finire d'una giornata d'ottobre.", en: "It was towards the end of an October day." },
+          { es: "Era sul finire d'una giornata d'ottobre.", en: "It was toward the end of an October day." },
           { es: "La nebbia cominciava a diradarsi.", en: "The fog was beginning to thin." },
           { es: "Tornava dal mercato con l'animo turbato.", en: "He was coming back from the market with a troubled mind." },
-          { es: "Aveva udito certe voci all'osteria.", en: "He had heard certain rumours at the inn." },
+          { es: "Aveva udito certe voci all'osteria.", en: "He had heard certain rumors at the inn." },
           { es: "Guardava l'acqua come chi cerchi una risposta.", en: "He looked at the water like someone seeking an answer." },
         ],
         checkpoint: [
@@ -517,38 +520,38 @@ export const IT_C2_U14: Lesson[] = [
       {
         heading: "Comparing",
         body: [
-          "To write about style in Italian: \"Il primo brano è caratterizzato da un periodare ampio e ipotattico\", \"Il secondo predilige la paratassi e un lessico quotidiano\", \"Il narratore è onnisciente e interviene con commenti\", \"Prevale l'understatement\". \"Prediligere\" (to favour) and \"prevalere\" (to prevail) are the critic's verbs.",
+          "To write about style in Italian: \"Il primo brano è caratterizzato da un periodare ampio e ipotattico\", \"Il secondo predilige la paratassi e un lessico quotidiano\", \"Il narratore è onnisciente e interviene con commenti\", \"Prevale l'understatement\". \"Prediligere\" (to favor) and \"prevalere\" (to prevail) are the critic's verbs.",
           "Avoid judging one as better; describe the effect: \"Nel primo brano il ritmo lento accompagna il diradarsi della nebbia; nel secondo, la secchezza delle frasi rende più amara la conclusione.\"",
         ],
         examples: [
-          { es: "Il primo brano è caratterizzato da un periodare ampio.", en: "The first passage is characterised by long, flowing sentences." },
-          { es: "Il secondo predilige la paratassi e un lessico quotidiano.", en: "The second favours parataxis and everyday vocabulary." },
+          { es: "Il primo brano è caratterizzato da un periodare ampio.", en: "The first passage is characterized by long, flowing sentences." },
+          { es: "Il secondo predilige la paratassi e un lessico quotidiano.", en: "The second favors parataxis and everyday vocabulary." },
           { es: "Il narratore interviene con commenti.", en: "The narrator intervenes with comments." },
           { es: "La secchezza delle frasi rende più amara la conclusione.", en: "The dryness of the sentences makes the ending more bitter." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The second favours parataxis and everyday vocabulary.", answer: "Il secondo predilige la paratassi e un lessico quotidiano.", altAnswers: ["Il secondo brano predilige la paratassi e un lessico quotidiano.", "Il secondo preferisce la paratassi e un lessico quotidiano."], explanation: "\"Prediligere\" = to favour; \"il lessico\" = vocabulary." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The second favors parataxis and everyday vocabulary.", answer: "Il secondo predilige la paratassi e un lessico quotidiano.", altAnswers: ["Il secondo brano predilige la paratassi e un lessico quotidiano.", "Il secondo preferisce la paratassi e un lessico quotidiano."], explanation: "\"Prediligere\" = to favor; \"il lessico\" = vocabulary." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The dryness of the sentences [makes] the ending more bitter.", sentence: "La secchezza delle frasi ___ più amara la conclusione.", answer: "rende", explanation: "\"Rendere\" + adjective = to make (something) + adjective." },
         ],
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It was towards the end of an October day.", answer: "Era sul finire di una giornata d'ottobre.", altAnswers: ["Era sul finire d'una giornata d'ottobre.", "Era sul finire di una giornata di ottobre.", "Era la fine di una giornata di ottobre."], explanation: "\"Sul finire di\" = towards the end of; \"d'una\" is old-fashioned." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It was toward the end of an October day.", answer: "Era sul finire di una giornata d'ottobre.", altAnswers: ["Era sul finire d'una giornata d'ottobre.", "Era sul finire di una giornata di ottobre.", "Era la fine di una giornata di ottobre."], explanation: "\"Sul finire di\" = toward the end of; \"d'una\" is old-fashioned." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He was coming back from the market with a troubled mind.", answer: "Tornava dal mercato con l'animo turbato.", altAnswers: ["Tornava dal mercato con l'animo inquieto.", "Rientrava dal mercato con l'animo turbato."], explanation: "\"L'animo\" = mind, spirit (literary)." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The narrator intervenes with comments.", answer: "Il narratore interviene con commenti.", altAnswers: ["Il narratore interviene con dei commenti.", "Il narratore interviene commentando."], explanation: "Critical vocabulary." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "At the inn he had heard things.", answer: "All'osteria aveva sentito delle cose.", altAnswers: ["All'osteria aveva sentito certe cose.", "All'osteria aveva sentito alcune cose."], explanation: "Pluperfect for an earlier event; \"delle cose\" is vague on purpose." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He had [heard] certain rumours. (literary)", sentence: "Aveva ___ certe voci.", answer: "udito", explanation: "\"Udire\" is the literary \"sentire\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The first passage is characterised by [long, flowing sentences].", sentence: "Il primo brano è caratterizzato da ___.", answer: "un periodare ampio", explanation: "\"Il periodare\" = the way sentences are built: a nominal infinitive." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He had [heard] certain rumors. (literary)", sentence: "Aveva ___ certe voci.", answer: "udito", explanation: "\"Udire\" is the literary \"sentire\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The first passage is characterized by [long, flowing sentences].", sentence: "Il primo brano è caratterizzato da ___.", answer: "un periodare ampio", explanation: "\"Il periodare\" = the way sentences are built: a nominal infinitive." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Understatement prevails].", sentence: "___ l'understatement.", answer: "Prevale", explanation: "\"Prevalere\": subject after the verb." },
       { type: "word-order", prompt: "Put the words in order to say: The fog was rising from the rice fields.", words: ["La", "nebbia", "si", "alzava", "dalle", "risaie."], translation: "The fog was rising from the rice fields.", explanation: "Imperfect for the background." },
-      { type: "multiple-choice", question: "Which is a feature of Passage A, not B?", options: ["a narrator who generalises", "short main clauses", "everyday words like sentire", "no subordinate clauses"], correctIndex: 0, explanation: "Passage A's narrator comments; B's stays silent." },
+      { type: "multiple-choice", question: "Which is a feature of Passage A, not B?", options: ["a narrator who generalizes", "short main clauses", "everyday words like sentire", "no subordinate clauses"], correctIndex: 0, explanation: "Passage A's narrator comments; B's stays silent." },
       {
         type: "matching",
         instructions: "Match the Italian to the English.",
         pairs: [
           { left: "il brano", right: "passage" },
           { left: "il periodare", right: "sentence construction" },
-          { left: "prediligere", right: "to favour" },
+          { left: "prediligere", right: "to favor" },
           { left: "diradarsi", right: "to thin out" },
           { left: "la secchezza", right: "dryness" },
         ],
@@ -589,7 +592,7 @@ export const IT_C2_U14: Lesson[] = [
       {
         heading: "Spaces, accents and apostrophes",
         body: [
-          "Italian puts no space before \":\", \";\", \"?\" and \"!\", but always one after; writers who learnt French or who copy from certain software leave spaces before them. Inside brackets and guillemets, no space next to the sign: «così», (così).",
+          "Italian puts no space before \":\", \";\", \"?\" and \"!\", but always one after; writers who learned French or who copy from certain software leave spaces before them. Inside brackets and guillemets, no space next to the sign: «così», (così).",
           "Accents and apostrophes are part of punctuation in the broad sense. *E' for \"È\" is a typewriter habit: write \"È\" (on a phone, hold down the E key). *pò for \"po'\": \"po'\" is a truncation of \"poco\", so it takes an apostrophe. *qual'è: \"qual è\" with no apostrophe, because \"qual\" is a truncated form that exists on its own (\"qual buon vento\").",
           "Monosyllables: \"dà\" (gives) vs \"da\" (from), \"è\" (is) vs \"e\" (and), \"là\" vs \"la\", \"sì\" (yes) vs \"si\" (oneself). But \"qui\", \"qua\", \"su\", \"blu\", \"tre\" take no accent; \"tre\" gets one only in compounds: \"ventitré\".",
         ],
@@ -615,12 +618,12 @@ export const IT_C2_U14: Lesson[] = [
         ],
         examples: [
           { es: "Il motivo è semplice: non abbiamo soldi.", en: "The reason is simple: we have no money." },
-          { es: "La riunione è lunedì 3 marzo con i colleghi tedeschi.", en: "The meeting is on Monday 3 March with the German colleagues." },
+          { es: "La riunione è lunedì 3 marzo con i colleghi tedeschi.", en: "The meeting is on Monday, March 3, with the German colleagues." },
           { es: "Ho comprato mele, pere, arance, ecc.", en: "I bought apples, pears, oranges, etc." },
           { es: "Non so... forse domani.", en: "I don't know... maybe tomorrow." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The meeting is on Monday 3 March with the German colleagues.", answer: "La riunione è lunedì 3 marzo con i colleghi tedeschi.", altAnswers: ["La riunione è il 3 marzo, lunedì, con i colleghi tedeschi.", "La riunione è lunedì 3 marzo, con i colleghi tedeschi."], explanation: "Lower case for days, months and nationalities." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The meeting is on Monday, March 3, with the German colleagues.", answer: "La riunione è lunedì 3 marzo con i colleghi tedeschi.", altAnswers: ["La riunione è il 3 marzo, lunedì, con i colleghi tedeschi.", "La riunione è lunedì 3 marzo, con i colleghi tedeschi."], explanation: "Lower case for days, months and nationalities." },
           { type: "multiple-choice", question: "Which is correct?", options: ["Il motivo è semplice: non abbiamo soldi.", "Il motivo è semplice: Non abbiamo soldi.", "Il motivo è semplice : non abbiamo soldi.", "Il motivo è semplice, : non abbiamo soldi."], correctIndex: 0, explanation: "Lower case after the colon and no space before it." },
           { type: "listen-choose", audio: "Non so... forse domani, o forse mai.", question: "How does the speaker sound?", options: ["Hesitant", "Certain", "Angry", "Delighted"], correctIndex: 0, explanation: "The suspension points and \"forse\" signal hesitation." },
         ],
@@ -628,7 +631,7 @@ export const IT_C2_U14: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The new director, who comes from Turin, has already met the heads of department.", answer: "Il nuovo direttore, che arriva da Torino, ha già incontrato i capireparto.", altAnswers: ["Il nuovo direttore, che viene da Torino, ha già incontrato i capireparto.", "Il nuovo direttore, che arriva da Torino, ha già incontrato i capi reparto."], explanation: "Non-defining relative between two commas; \"capireparto\" is invariable in the plural for many speakers." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Yes, I saw him there.", answer: "Sì, l'ho visto là.", altAnswers: ["Sì, l'ho visto lì.", "Sì, lo ho visto là."], explanation: "\"Sì\" (yes) and \"là\" (there) need their accents." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Yes, I saw him there.", answer: "Sì, l'ho visto là.", altAnswers: ["Sì, l'ho visto lì."], explanation: "\"Sì\" (yes) and \"là\" (there) need their accents." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "There are twenty-three of us.", answer: "Siamo in ventitré.", explanation: "\"Ventitré\" takes an acute accent; \"tre\" alone doesn't." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The reason is simple: we have no money.", answer: "Il motivo è semplice: non abbiamo soldi.", altAnswers: ["La ragione è semplice: non abbiamo soldi.", "Il motivo è semplice: non abbiamo i soldi."], explanation: "Lower case after the colon." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[It's] late: let's go.", sentence: "___ tardi: andiamo.", answer: "È", explanation: "Capital \"È\" with its accent, not E followed by an apostrophe." },
@@ -654,8 +657,8 @@ export const IT_C2_U14: Lesson[] = [
         body: [
           "Professional editors (\"i redattori\") don't read once and fix everything; they read in passes. First pass: structure. Does each paragraph have one idea? Is the main point in the first sentence? Second pass: sentences. Are any longer than three lines? Is there a chain of \"che\"? Third pass: words. Fourth: mechanics (accents, apostrophes, agreement, punctuation).",
           "Print or change the font for the last pass: the eye stops correcting what it expects to see. Some editors read the text backwards, sentence by sentence, to catch typos without being carried by the meaning.",
-          "Reading aloud catches what the eye misses: missing words, accidental rhymes, sentences you run out of breath on. Italians call this \"la prova della voce\". A text that can't be read aloud easily usually has a problem.",
-          "Leave time between writing and editing. \"Lasciare decantare il testo\" (letting the text settle, like wine) is advice every Italian writing teacher gives.",
+          "Reading aloud catches what the eye misses: missing words, accidental rhymes, sentences you run out of breath on. Call it \"la prova della voce\": a text that can't be read aloud easily usually has a problem.",
+          "Leave time between writing and editing. \"Lasciare decantare il testo\" (letting the text settle, like wine) is classic advice in Italian writing workshops.",
         ],
         examples: [
           { es: "Ogni paragrafo dovrebbe avere un'idea sola.", en: "Each paragraph should have a single idea." },
@@ -673,7 +676,7 @@ export const IT_C2_U14: Lesson[] = [
         heading: "Vague words and redundancy",
         body: [
           "The words that make Italian prose flabby are \"cosa\", \"fare\", \"dire\", \"mettere\", \"c'è\" and \"molto\". \"Ci sono molte cose da fare\" says almost nothing; \"Restano tre problemi da risolvere\" says something. Replace \"cosa\" with \"aspetto\", \"elemento\", \"questione\", \"problema\"; \"fare\" with a precise verb.",
-          "Redundancies (\"i pleonasmi\") to cut: *ma però (choose one), *salire su (\"salire\" already means go up), *uscire fuori, *entrare dentro, *a me mi piace (fine in speech, not in writing), *tutti e due insieme, *prevedere in anticipo. Italians use many of these in speech; in edited prose they look careless.",
+          "Redundancies (\"i pleonasmi\") to cut: *ma però (choose one), *salire su used as an adverb (\"salire\" already means go up; \"salire sul treno\" is of course fine), *uscire fuori, *entrare dentro, *a me mi piace (fine in speech, not in writing), *tutti e due insieme, *prevedere in anticipo. Italians use many of these in speech; in edited prose they look careless.",
           "Watch the \"che\" polivalente of speech: *Il giorno che ci siamo conosciuti is accepted informally, but careful prose writes \"il giorno in cui ci siamo conosciuti\".",
         ],
         examples: [
@@ -694,7 +697,7 @@ export const IT_C2_U14: Lesson[] = [
         heading: "The final mechanical check",
         body: [
           "Last pass, slowly: agreement of participles with \"essere\" and with preceding direct object pronouns (\"le ho viste\"); subjunctives after verbs of opinion; consistency of tense (don't slide from passato prossimo to passato remoto in the same story); consistency of register (don't mix \"tu\" and \"Lei\" in one email); accents and apostrophes.",
-          "Search your document for the words you overuse. Every writer has some: \"comunque\", \"praticamente\", \"assolutamente\", \"in qualche modo\". Italian editors call them \"le parole tic\".",
+          "Search your document for the words you overuse. Every writer has some: \"comunque\", \"praticamente\", \"assolutamente\", \"in qualche modo\". Italian editors often call them \"le parole tic\".",
         ],
         examples: [
           { es: "Le foto? Le ho viste ieri.", en: "The photos? I saw them yesterday." },
@@ -716,7 +719,7 @@ export const IT_C2_U14: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He went up to the fifth floor.", answer: "È salito al quinto piano.", altAnswers: ["Salì al quinto piano."], explanation: "No \"su\": \"salire\" already means go up." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Let the text [settle] for at least a night.", sentence: "Lascia ___ il testo almeno una notte.", answer: "decantare", altAnswers: ["riposare"], explanation: "\"Lasciare decantare\": a wine metaphor." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The risks [must be foreseen].", sentence: "I rischi ___.", answer: "vanno previsti", altAnswers: ["devono essere previsti"], explanation: "\"Prevedere\" without \"in anticipo\": already contained in the verb." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Dear Doctor, I'm writing [to confirm your] appointment.", sentence: "Gentile dottoressa, Le scrivo per ___ l'appuntamento.", answer: "confermarLe", altAnswers: ["confermarle"], explanation: "In formal letters \"Le\" stays capitalised even when attached." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Dear Doctor, I'm writing [to confirm your] appointment.", sentence: "Gentile dottoressa, Le scrivo per ___ l'appuntamento.", answer: "confermarLe", altAnswers: ["confermarle"], explanation: "In formal letters \"Le\" stays capitalized even when attached." },
       { type: "word-order", prompt: "Put the words in order to say: Each paragraph should have a single idea.", words: ["Ogni", "paragrafo", "dovrebbe", "avere", "un'idea", "sola."], translation: "Each paragraph should have a single idea.", explanation: "\"Un'idea sola\" = just one idea." },
       { type: "multiple-choice", question: "Which word would an editor call a \"parola tic\" in this sentence: \"Praticamente il progetto è finito\"?", options: ["praticamente", "progetto", "finito", "il"], correctIndex: 0, explanation: "\"Praticamente\" adds nothing here." },
       {
@@ -757,7 +760,7 @@ export const IT_C2_U14: Lesson[] = [
           { es: "Era una dichiarazione d'amore, ma non era firmata.", en: "It was a declaration of love, but it wasn't signed." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian, in the passato remoto.", source: "Between the pages she found a letter.", answer: "Tra le pagine trovò una lettera.", altAnswers: ["Fra le pagine trovò una lettera.", "Tra le pagine trovò una lettera."], explanation: "Passato remoto for the narrative event." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian, in the passato remoto.", source: "Between the pages she found a letter.", answer: "Tra le pagine trovò una lettera.", altAnswers: ["Fra le pagine trovò una lettera."], explanation: "Passato remoto for the narrative event." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The letter [was dated] 1962.", sentence: "La lettera ___ la data del 1962.", answer: "portava", altAnswers: ["recava"], explanation: "\"Portare la data\" = to be dated; \"recare\" is more formal." },
         ],
       },
@@ -860,7 +863,7 @@ export const IT_C2_U14: Lesson[] = [
         ],
         examples: [
           { es: "Il treno partì in ritardo, come sempre.", en: "The train left late, as always." },
-          { es: "Fuori, la pianura scorreva grigia; dentro, nessuno parlava.", en: "Outside, the plain slid by, grey; inside, nobody spoke." },
+          { es: "Fuori, la pianura scorreva grigia; dentro, nessuno parlava.", en: "Outside, the plain slid by, gray; inside, nobody spoke." },
           { es: "Una bambina contava i pali della luce.", en: "A little girl was counting the electricity poles." },
         ],
         checkpoint: [
@@ -872,7 +875,7 @@ export const IT_C2_U14: Lesson[] = [
     exercises: [
       { type: "listen-choose", audio: "Aveva aspettato tutta la sera, guardando la porta, contando i minuti. Niente.", question: "What happened?", options: ["Nobody came after a long wait.", "Someone arrived at midnight.", "She left before the end of the evening.", "She counted the guests."], correctIndex: 0, explanation: "The final \"Niente\" tells you the wait was in vain." },
       { type: "listen-choose", audio: "Solo una bambina, seduta accanto alla madre, contava i pali della luce.", question: "Who was counting?", options: ["a little girl next to her mother", "the mother", "the conductor", "everyone on the train"], correctIndex: 0, explanation: "\"Seduta accanto alla madre\" is the inciso." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Outside, the plain slid by, grey; inside, nobody spoke.", answer: "Fuori, la pianura scorreva grigia; dentro, nessuno parlava.", altAnswers: ["Fuori la pianura scorreva grigia; dentro nessuno parlava.", "Fuori, la pianura scorreva grigia, dentro, nessuno parlava."], explanation: "Two balanced halves around the semicolon." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Outside, the plain slid by, gray; inside, nobody spoke.", answer: "Fuori, la pianura scorreva grigia; dentro, nessuno parlava.", altAnswers: ["Fuori la pianura scorreva grigia; dentro nessuno parlava.", "Fuori, la pianura scorreva grigia, dentro, nessuno parlava."], explanation: "Two balanced halves around the semicolon." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The city, at that hour, was deserted.", answer: "La città, a quell'ora, era deserta.", altAnswers: ["A quell'ora la città era deserta."], explanation: "Inciso between commas." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She had waited all evening, counting the minutes.", answer: "Aveva aspettato tutta la sera, contando i minuti.", altAnswers: ["Aveva atteso tutta la sera, contando i minuti."], explanation: "Pluperfect + gerund." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "A little girl was counting [the electricity poles].", sentence: "Una bambina contava ___.", answer: "i pali della luce", explanation: "\"Il palo della luce\" = electricity pole, lamp post." },

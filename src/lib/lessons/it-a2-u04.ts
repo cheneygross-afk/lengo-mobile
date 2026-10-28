@@ -94,7 +94,7 @@ export const IT_A2_U04: Lesson[] = [
         heading: "Da: dal, dallo, dall', dalla, dai, dagli, dalle",
         body: [
           "\"Da\" + article follows the pattern of \"a\": \"dal, dallo, dall', dalla, dai, dagli, dalle\". It means from (\"Torno dall'ufficio\") and, with a person, to or at someone's place: \"Vado dal medico\", \"Sono dal parrucchiere\".",
-          "Notice the double l in every form: \"dalla\", \"dalle\", \"dallo\". The l doubles in all the vowel-ending forms of every preposition: \"della\", \"alla\", \"nella\", \"sulla\".",
+          "Notice the double l in \"dallo\", \"dall'\", \"dalla\", \"dalle\": whenever the article starts with l (lo, l', la, le), the l doubles, with every preposition: \"della\", \"alla\", \"nella\", \"sulla\". \"Dal\", \"dai\" and \"dagli\" have a single l.",
         ],
         examples: [
           { es: "Torno dall'ufficio alle sei.", en: "I get back from the office at six." },
@@ -705,6 +705,6 @@ export const IT_A2_U04_WRITING: WriteExercise = {
     "Uses the partitive for some (del formaggio, delle uova) and drops it in negatives (non c'è pane)",
     "Keeps con and per separate and uses da with people (dal panettiere)",
   ],
-  modelAnswer: "Ciao Chiara! Benvenuta! Le chiavi del portone sono sul mobile dell'ingresso. Gli asciugamani sono nell'armadio del bagno e le lenzuola sono sul letto. In frigo c'è del formaggio e ci sono delle uova, ma non c'è latte. Nella dispensa ci sono dei biscotti e della pasta. Il pane è buono dal panettiere in fondo alla via, e c'è un supermercato vicino alla stazione. Per qualsiasi cosa, il mio numero è sul frigo. Un bacio, Anna",
+  modelAnswer: "Ciao Chiara! Benvenuta! Le chiavi del portone sono sul mobile dell'ingresso. Gli asciugamani sono nell'armadio del bagno e le lenzuola sono sul letto. In frigo c'è del formaggio e ci sono delle uova, ma non c'è latte. Nella dispensa ci sono dei biscotti e della pasta. Per il pane buono, vai dal panettiere in fondo alla via, e c'è un supermercato vicino alla stazione. Per qualsiasi cosa, il mio numero è sul frigo. Un bacio, Anna",
   explanation: "\"Del portone\", \"sul mobile\", \"dell'ingresso\", \"nell'armadio\", \"nella dispensa\" and \"alla stazione\" merge the preposition with the article, while \"in frigo\" is a fixed phrase. \"Del formaggio\", \"delle uova\", \"dei biscotti\" and \"della pasta\" are partitives, dropped in \"non c'è latte\". \"Dal panettiere\" uses \"da\" with a person.",
 };

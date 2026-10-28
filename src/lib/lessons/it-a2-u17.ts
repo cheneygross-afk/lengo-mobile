@@ -632,7 +632,7 @@ export const IT_A2_U17: Lesson[] = [
       { type: "word-order", prompt: "Put the words in order to say: I worked as a waiter for two years.", words: ["Ho", "lavorato", "come", "cameriere", "per", "due", "anni."], translation: "I worked as a waiter for two years.", explanation: "\"Come\" + job." },
       { type: "multiple-choice", question: "You still teach. Which CV line is right?", options: ["Insegno inglese dal 2020.", "Ho insegnato inglese dal 2020.", "Insegno inglese per il 2020.", "Insegnavo inglese dal 2020 fa."], correctIndex: 0, explanation: "Present + \"dal\"." },
       { type: "dictation", audio: "Lavoro come infermiera da quattro anni.", explanation: "Present + \"da\"." },
-      { type: "speak", text: "Mi chiamo Emma. Ho studiato legge a Londra e ho lavorato in uno studio per tre anni. Dal 2022 lavoro come traduttrice.", prompt: "Introduce yourself at a job interview in Italian: My name is Emma. I studied law in London and worked in a law firm for three years. Since 2022 I've been working as a translator.", tip: "tra-dut-TRI-ce: double t.", explanation: "Past for finished jobs, present + \"dal\" for the current one." },
+      { type: "speak", text: "Mi chiamo Emma. Ho studiato legge a Londra e ho lavorato in uno studio legale per tre anni. Dal 2022 lavoro come traduttrice.", prompt: "Introduce yourself at a job interview in Italian: My name is Emma. I studied law in London and worked in a law firm for three years. Since 2022 I've been working as a translator.", tip: "tra-dut-TRI-ce: double t.", explanation: "Past for finished jobs, present + \"dal\" for the current one." },
     ],
   },
 ];

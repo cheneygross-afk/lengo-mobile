@@ -34,7 +34,7 @@ export const IT_C2_U04_EXTRA: Lesson[] = [
       {
         heading: "Voices of the debate",
         body: [
-          "Paraphrased positions, as a history handbook might summarise them. Machiavelli: \"Chi scrive in italiano scrive in fiorentino, che lo voglia o no.\" Manzoni: \"Serve una lingua viva, e la lingua viva è quella di Firenze.\" Ascoli: \"Prima la cultura, poi la lingua: nessun decreto crea parlanti.\" De Mauro: \"La lingua comune è nata dalle esperienze comuni: la scuola, la caserma, la fabbrica, la televisione.\"",
+          "Paraphrased positions, as a history handbook might summarize them. Machiavelli: \"Chi scrive in italiano scrive in fiorentino, che lo voglia o no.\" Manzoni: \"Serve una lingua viva, e la lingua viva è quella di Firenze.\" Ascoli: \"Prima la cultura, poi la lingua: nessun decreto crea parlanti.\" De Mauro: \"La lingua comune è nata dalle esperienze comuni: la scuola, la caserma, la fabbrica, la televisione.\"",
         ],
         examples: [
           { es: "Chi scrive in italiano scrive in fiorentino, che lo voglia o no.", en: "Whoever writes in Italian writes in Florentine, like it or not." },
@@ -71,7 +71,7 @@ export const IT_C2_U04_EXTRA: Lesson[] = [
     level: "IT-C2",
     number: 2,
     title: "Extra Practice: Language Today",
-    summary: "Practise the language of today's debates on Italian: Anglicisms, neologisms, inclusive language and the neo-standard.",
+    summary: "Practice the language of today's debates on Italian: Anglicisms, neologisms, inclusive language and the neo-standard.",
     duration: "20 min",
     optional: true,
     kind: "drill",
@@ -124,7 +124,7 @@ export const IT_C2_U04_EXTRA: Lesson[] = [
       { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "la bufala", right: "a hoax" }, { left: "l'apericena", right: "an aperitif that replaces dinner" }, { left: "svapare", right: "to vape" }, { left: "postare", right: "to post online" }, { left: "lo schwa", right: "the ə symbol" }], explanation: "Recent words and debates." },
       { type: "multiple-choice", question: "Which formula is the plain-language version?", options: ["Vi informiamo che l'ufficio resterà chiuso.", "Si comunica che l'ufficio resterà chiuso.", "Si rende noto che l'ufficio resterà chiuso.", "Con la presente si fa presente la chiusura."], correctIndex: 0, explanation: "Direct address replaces the impersonal bureaucratic formulas." },
       { type: "listen-choose", audio: "Quella notizia è una bufala.", question: "What does it mean?", options: ["That news story is a hoax.", "That news story is about a buffalo.", "That news is good.", "That news is old."], correctIndex: 0, explanation: "\"Bufala\" = hoax in everyday Italian." },
-      { type: "speak", text: "Secondo me, la pubblica amministrazione dovrebbe scrivere in modo chiaro e usare meno anglicismi.", prompt: "Give your view in Italian: In my opinion, public administration should write clearly and use fewer Anglicisms.", tip: "\"Anglicismi\": an-gli-CI-smi, the gli as in \"famiglia\".", explanation: "\"Dovrebbe\" for a recommendation." },
+      { type: "speak", text: "Secondo me, la pubblica amministrazione dovrebbe scrivere in modo chiaro e usare meno anglicismi.", prompt: "Give your view in Italian: In my opinion, public administration should write clearly and use fewer Anglicisms.", tip: "\"Anglicismi\": an-gli-CI-smi, with a hard g + li as in \"glicine\", not the soft gli of \"famiglia\".", explanation: "\"Dovrebbe\" for a recommendation." },
     ],
   },
 ];

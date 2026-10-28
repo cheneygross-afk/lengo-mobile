@@ -11,7 +11,7 @@ export const IT_C1_U15: Lesson[] = [
     number: 1,
     title: "Commedia dell'Arte",
     summary: "Meet Arlecchino, Pulcinella, Pantalone and the other masks, learn how the companies improvised, and see how Goldoni reformed the theater.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Professional actors and fixed types",
@@ -57,17 +57,20 @@ export const IT_C1_U15: Lesson[] = [
         heading: "Goldoni's reform",
         body: [
           "By the 1700s the improvisations had become repetitive. The Venetian playwright Carlo Goldoni (1707-1793) gradually replaced the canovaccio with fully written plays and the masks with real characters drawn from Venetian society: merchants, servants, innkeepers. This is \"la riforma goldoniana\".",
-          "His Il servitore di due padroni (1745) is still performed worldwide: Arlecchino, always hungry, serves two masters at once without either knowing, and must keep the deception going through a dinner scene of comic chaos. La locandiera (1753) centers on Mirandolina, a clever innkeeper who outwits her aristocratic guests.",
+          "His Il servitore di due padroni (1745) is still performed worldwide. The servant, Truffaldino, is an Arlecchino-type mask: always hungry, he serves two masters at once without either knowing, and must keep the deception going through a dinner scene of comic chaos. Giorgio Strehler's famous production at the Piccolo Teatro of Milan, staged since 1947, is called Arlecchino servitore di due padroni. La locandiera (1753) centers on Mirandolina, a clever innkeeper who outwits her aristocratic guests.",
+          "The masks also crossed the Alps. Italian companies played in Paris for over a century, and Molière shared a theater with one of them; in French, Arlecchino became Arlequin and Pulcinella became Polichinelle, and in England Pulcinella turned into Punch, of the puppet show Punch and Judy.",
         ],
         examples: [
           { es: "Goldoni sostituì il canovaccio con testi scritti.", en: "Goldoni replaced the outline with written plays." },
           { es: "Arlecchino serve due padroni contemporaneamente.", en: "Arlecchino serves two masters at the same time." },
           { es: "Nessuno dei due padroni sa dell'altro.", en: "Neither master knows about the other." },
           { es: "Mirandolina è più furba dei suoi clienti nobili.", en: "Mirandolina is cleverer than her noble guests." },
+          { es: "Nel testo di Goldoni il servitore si chiama Truffaldino.", en: "In Goldoni's text the servant is called Truffaldino." },
+          { es: "In Inghilterra Pulcinella diventò Punch.", en: "In England Pulcinella became Punch." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Goldoni replaced the outline with written plays.", answer: "Goldoni sostituì il canovaccio con testi scritti.", altAnswers: ["Goldoni ha sostituito il canovaccio con testi scritti.", "Goldoni sostituì il canovaccio con commedie scritte."], explanation: "\"Sostituire A con B\" = to replace A with B." },
-          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Arlecchino serves two masters [at the same time].", sentence: "Arlecchino serve due padroni ___.", answer: "contemporaneamente", altAnswers: ["allo stesso tempo", "nello stesso tempo"], explanation: "\"Contemporaneamente\" = simultaneously (not 'contemporarily')." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Arlecchino serves two masters [at the same time].", sentence: "Arlecchino serve due padroni ___.", answer: "contemporaneamente", altAnswers: ["allo stesso tempo", "nello stesso tempo"], explanation: "\"Contemporaneamente\" = simultaneously (not contemporarily). In Goldoni the servant is Truffaldino; Strehler's production calls him Arlecchino." },
         ],
       },
     ],
@@ -103,7 +106,7 @@ export const IT_C1_U15: Lesson[] = [
     number: 2,
     title: "Neorealismo",
     summary: "Understand Italian neorealist cinema, its themes and methods, through Roma città aperta and Ladri di biciclette.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Cinema in the ruins",
@@ -111,6 +114,7 @@ export const IT_C1_U15: Lesson[] = [
           "\"Il neorealismo\" is the movement that made Italian cinema famous right after the Second World War, roughly 1945-1952. The studios of Cinecittà were damaged, money was short, and directors took their cameras into the streets. Necessity became a style.",
           "Its features: shooting \"in esterni\" (on location) in real streets and houses; frequent use of \"attori non professionisti\" (non-professional actors) beside a few professionals; stories of ordinary people (workers, children, the unemployed) facing poverty, war and unemployment; a simple, documentary look; and endings without consolation.",
           "The key names are the directors Roberto Rossellini, Vittorio De Sica and Luchino Visconti, and the screenwriter Cesare Zavattini, who wanted cinema to show \"la vita quotidiana\" as it was. Visconti's La terra trema (1948) adapted Verga's I Malavoglia with real Sicilian fishermen speaking dialect.",
+          "Other titles to know: Rossellini's Paisà (1946) and Germania anno zero (1948), and De Sica's Sciuscià (1946), about two shoeshine boys, which received a special Oscar. De Sica's Umberto D. (1952), the story of a lonely retired civil servant and his dog, is often taken as the end of the movement: politicians complained that such films showed the world Italy's poverty, invoking the proverb \"i panni sporchi si lavano in famiglia\" (dirty laundry is washed at home).",
         ],
         examples: [
           { es: "I registi portarono la macchina da presa nelle strade.", en: "The directors took the camera into the streets." },
@@ -118,6 +122,9 @@ export const IT_C1_U15: Lesson[] = [
           { es: "Gli attori erano spesso non professionisti.", en: "The actors were often non-professionals." },
           { es: "I protagonisti sono gente comune: operai, bambini, disoccupati.", en: "The main characters are ordinary people: workers, children, the unemployed." },
           { es: "La terra trema è tratto dai Malavoglia di Verga.", en: "La terra trema is based on Verga's I Malavoglia." },
+          { es: "Sciuscià ricevette un Oscar speciale.", en: "Sciuscià received a special Oscar." },
+          { es: "Umberto D. racconta la solitudine di un pensionato.", en: "Umberto D. tells of the loneliness of a retired man." },
+          { es: "I panni sporchi si lavano in famiglia.", en: "Dirty laundry is washed at home. (keep problems private)" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Many films were shot on location.", answer: "Molti film furono girati in esterni.", altAnswers: ["Molti film vennero girati in esterni.", "Molti film sono stati girati in esterni.", "Molti film furono girati dal vero."], explanation: "\"Girare un film\" = to shoot a film; \"film\" is invariable." },
@@ -131,6 +138,7 @@ export const IT_C1_U15: Lesson[] = [
           "Rossellini's Roma città aperta (1945), shot while the war was barely over, tells of the German occupation of Rome. Its most famous scene: Pina, played by Anna Magnani, runs after the truck taking away her fiancé and is shot dead in the street. A priest, don Pietro, helps the Resistance and is executed.",
           "De Sica's Ladri di biciclette (1948), written with Zavattini, follows Antonio Ricci, an unemployed man in Rome who finally gets a job putting up posters, on condition he has a bicycle. On his first day the bicycle is stolen. With his young son Bruno he searches the whole city in vain; in despair, he tries to steal a bicycle himself, is caught and humiliated in front of his son. They walk away together into the crowd.",
           "When you summarize these plots, use the present tense, and choose precise verbs: \"viene ucciso\", \"viene fucilato\" (is shot by firing squad), \"gli rubano la bicicletta\".",
+          "Antonio was played by Lamberto Maggiorani, a factory worker De Sica found at a casting call, and Bruno by Enzo Staiola, a boy spotted in the street. Notice the plural title: \"ladri\". By the end Antonio, too, has become a thief.",
         ],
         examples: [
           { es: "Pina corre dietro al camion e viene uccisa.", en: "Pina runs after the truck and is killed." },
@@ -138,6 +146,8 @@ export const IT_C1_U15: Lesson[] = [
           { es: "Antonio trova lavoro come attacchino.", en: "Antonio finds work as a poster-hanger." },
           { es: "Il primo giorno gli rubano la bicicletta.", en: "On the first day his bicycle is stolen." },
           { es: "Padre e figlio si allontanano tra la folla.", en: "Father and son walk away into the crowd." },
+          { es: "Lamberto Maggiorani era un operaio, non un attore.", en: "Lamberto Maggiorani was a factory worker, not an actor." },
+          { es: "Il titolo è al plurale: alla fine anche Antonio è un ladro.", en: "The title is plural: in the end Antonio is a thief too." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian (plot summary).", source: "On the first day his bicycle is stolen.", answer: "Il primo giorno gli rubano la bicicletta.", altAnswers: ["Il primo giorno gli viene rubata la bicicletta.", "Il primo giorno la bicicletta gli viene rubata."], explanation: "Impersonal \"gli rubano\" or passive \"gli viene rubata\"; the possessive is the dative \"gli\"." },
@@ -178,7 +188,7 @@ export const IT_C1_U15: Lesson[] = [
     number: 3,
     title: "Writing Plot Summaries",
     summary: "Summarize a film or play in the present tense, sequence events clearly, and stop before the spoiler.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "The present tense and the opening formula",
@@ -186,6 +196,8 @@ export const IT_C1_U15: Lesson[] = [
           "Italian plot summaries (\"la trama\") are written in the present, like analysis: \"Antonio trova lavoro, ma il primo giorno gli rubano la bicicletta\". Events before the story starts take the passato prossimo: \"Antonio è disoccupato da due anni\" or \"ha perso il lavoro\".",
           "Standard openers: \"Il film racconta la storia di...\", \"Il film è ambientato a / in...\", \"Protagonista è...\" (note: no article, inverted: \"Protagonista è una giovane maestra\"), \"Siamo a Napoli, nel 1950\".",
           "Name the actors with \"interpretato da\" (played by) and the director with \"diretto da\" or \"di\": \"Ladri di biciclette di Vittorio De Sica\". Titles of films are written in italics and not translated; keep the article: \"in Ladri di biciclette\".",
+          "Around the present, other tenses keep their usual jobs. What happened before the story takes the passato prossimo; what will happen later can take the future, a favorite way to tease (\"scoprirà presto che...\"). Summary writers love a few verbs: \"si ritrova a\" (finds himself having to), \"si trova costretto a\" (is forced to), \"decide di\", \"cerca di\".",
+          "Group events instead of narrating every scene: \"Dopo una serie di incontri sfortunati...\", \"Tra equivoci e colpi di scena...\" (through misunderstandings and plot twists). \"Il colpo di scena\" is a plot twist, in film as in theater.",
         ],
         examples: [
           { es: "Il film racconta la storia di una famiglia di pescatori.", en: "The film tells the story of a family of fishermen." },
@@ -193,6 +205,9 @@ export const IT_C1_U15: Lesson[] = [
           { es: "Protagonista è una giovane maestra di Bari.", en: "The main character is a young primary school teacher from Bari." },
           { es: "Il ruolo del padre è interpretato da un operaio vero.", en: "The father's role is played by a real factory worker." },
           { es: "Antonio è disoccupato da due anni.", en: "Antonio has been unemployed for two years." },
+          { es: "Ben presto scoprirà che nulla è come sembra.", en: "She'll soon discover that nothing is as it seems." },
+          { es: "Si ritrova a dover crescere da solo due bambini.", en: "He finds himself having to raise two children on his own." },
+          { es: "Tra equivoci e colpi di scena, la verità viene a galla.", en: "Through misunderstandings and plot twists, the truth comes out." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The film is set in Naples in 1950.", answer: "Il film è ambientato a Napoli nel 1950.", altAnswers: ["Il film è ambientato a Napoli, nel 1950.", "Il film si svolge a Napoli nel 1950."], explanation: "\"Essere ambientato a\" + city." },
@@ -206,12 +221,16 @@ export const IT_C1_U15: Lesson[] = [
           "Connectors keep the summary clear: \"all'inizio\" (at first), \"in seguito\" / \"successivamente\" (later), \"nel frattempo\" (meanwhile), \"quando\" + event, \"finché\" (until), \"a un certo punto\" (at one point).",
           "Reviews usually stop before the ending: \"senza svelare il finale\" (without giving away the ending), \"non diciamo di più per non rovinare la sorpresa\". \"Lo spoiler\" is used informally, and \"spoilerare\" is common online, but in a written review prefer \"svelare\" or \"anticipare\".",
           "Keep it short: 80-120 words of plot in a 250-word review. The rest is your analysis.",
+          "A good test of a summary is the one-sentence version, which holds the premise and the conflict: \"Un uomo deve ritrovare la bicicletta rubata per non perdere il lavoro\". For theater, add \"l'atto\" (act) and \"la scena\": \"nel secondo atto\", \"la scena finale\".",
         ],
         examples: [
           { es: "All'inizio Marta sembra felice.", en: "At first Marta seems happy." },
           { es: "In seguito scopre che il marito le ha mentito.", en: "Later she discovers that her husband has lied to her." },
           { es: "Nel frattempo la figlia decide di partire.", en: "Meanwhile her daughter decides to leave." },
           { es: "Non diciamo di più per non svelare il finale.", en: "We won't say more so as not to give away the ending." },
+          { es: "Un uomo deve ritrovare la bicicletta rubata per non perdere il lavoro.", en: "A man must find his stolen bicycle so as not to lose his job." },
+          { es: "Nel secondo atto c'è un colpo di scena.", en: "There's a plot twist in the second act." },
+          { es: "Dopo una serie di incontri sfortunati, decide di partire.", en: "After a series of unlucky encounters, he decides to leave." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian (plot summary).", source: "Later she discovers that her husband has lied to her.", answer: "In seguito scopre che il marito le ha mentito.", altAnswers: ["Poi scopre che il marito le ha mentito.", "In seguito scopre che suo marito le ha mentito.", "Successivamente scopre che il marito le ha mentito."], explanation: "Present for the plot, passato prossimo for the earlier lie." },
@@ -240,7 +259,7 @@ export const IT_C1_U15: Lesson[] = [
     number: 4,
     title: "Film Criticism",
     summary: "Discuss la regia, la sceneggiatura, il montaggio, la fotografia and la recitazione with the precise vocabulary of Italian critics.",
-    duration: "19 min",
+    duration: "20 min",
     sections: [
       {
         heading: "Who does what",
@@ -248,6 +267,7 @@ export const IT_C1_U15: Lesson[] = [
           "\"Il regista\" directs (\"firma la regia\", \"dirige\"); \"la regia\" is the direction. \"Lo sceneggiatore\" writes \"la sceneggiatura\" (screenplay). \"Il direttore della fotografia\" is responsible for \"la fotografia\" (cinematography, lighting). \"Il montatore\" handles \"il montaggio\" (editing). \"Lo scenografo\" creates \"la scenografia\" (set design). \"Il compositore\" writes \"la colonna sonora\" (soundtrack).",
           "The classic trap: \"la sceneggiatura\" is the script, \"la scenografia\" the sets. Another: \"il regista\" is the director, while \"il direttore\" is a manager or conductor (\"il direttore d'orchestra\"). And the actors: \"gli interpreti\", \"il cast\", \"la recitazione\" (the acting), \"un'interpretazione intensa\".",
           "\"Interpretare\" or \"recitare\" for actors: never \"giocare\", which means to play a game. \"Il ruolo\" or \"la parte\": \"interpreta il ruolo del padre\".",
+          "Around the film: \"il produttore\" and \"la casa di produzione\"; a film \"esce nelle sale\" (opens in theaters, in Italy usually on a Thursday) and does well or badly \"al botteghino\" (at the box office). Italy dubs almost all foreign films, and \"il doppiatore\" is a respected profession; screenings \"in lingua originale con i sottotitoli\" are advertised separately.",
         ],
         examples: [
           { es: "La regia è firmata da una giovane autrice napoletana.", en: "The film is directed by a young Neapolitan filmmaker." },
@@ -255,6 +275,9 @@ export const IT_C1_U15: Lesson[] = [
           { es: "La scenografia ricostruisce la Milano degli anni Cinquanta.", en: "The set design recreates 1950s Milan." },
           { es: "La colonna sonora accompagna le immagini senza invaderle.", en: "The soundtrack accompanies the images without overwhelming them." },
           { es: "Il protagonista offre un'interpretazione intensa.", en: "The lead actor gives an intense performance." },
+          { es: "Il film esce nelle sale giovedì.", en: "The film opens in theaters on Thursday." },
+          { es: "In Italia quasi tutti i film stranieri sono doppiati.", en: "In Italy almost all foreign films are dubbed." },
+          { es: "Al botteghino è stato un flop.", en: "At the box office it was a flop." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The screenplay is solid, but the ending disappoints.", answer: "La sceneggiatura è solida, ma il finale delude.", altAnswers: ["La sceneggiatura è solida ma il finale delude.", "La sceneggiatura è solida, però il finale delude."], explanation: "\"Sceneggiatura\" = screenplay; \"scenografia\" = set design." },
@@ -267,6 +290,7 @@ export const IT_C1_U15: Lesson[] = [
         body: [
           "Shots: \"il primo piano\" (close-up), \"il campo lungo\" (long shot), \"l'inquadratura\" (the frame, the shot), \"il piano sequenza\" (a long take without cuts), \"la macchina a mano\" (handheld camera), \"il fuori campo\" (off-screen). Editing: \"il ritmo\", \"il montaggio serrato\" (tight, fast editing), \"il flashback\".",
           "Critics link technique to meaning: \"I primi piani insistiti ci costringono a guardare il dolore della madre\"; \"Il piano sequenza iniziale ci immerge nella confusione della stazione\". This is what separates a review from a list of opinions.",
+          "Their judgments use a recognizable set of adjectives: \"girato con mano sicura\" (directed with a sure hand), \"riuscito\", \"compiaciuto\" (self-indulgent), \"retorico\", \"ridondante\". Hedge a harsh point as you would in a literary commentary: \"si ha l'impressione che\" + subjunctive.",
         ],
         examples: [
           { es: "Il film si apre con un lungo piano sequenza.", en: "The film opens with a long single take." },
@@ -274,6 +298,8 @@ export const IT_C1_U15: Lesson[] = [
           { es: "La macchina a mano trasmette un senso di urgenza.", en: "The handheld camera conveys a sense of urgency." },
           { es: "Il montaggio serrato tiene alta la tensione.", en: "The tight editing keeps the tension high." },
           { es: "La fotografia, fredda e grigia, riflette la solitudine dei personaggi.", en: "The cold, gray cinematography reflects the characters' loneliness." },
+          { es: "Si ha l'impressione che il regista si compiaccia delle proprie immagini.", en: "You get the feeling the director is admiring his own images." },
+          { es: "Un film girato con mano sicura.", en: "A film directed with a sure hand." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The film opens with a long single take.", answer: "Il film si apre con un lungo piano sequenza.", altAnswers: ["Il film comincia con un lungo piano sequenza.", "Il film inizia con un lungo piano sequenza."], explanation: "\"Il piano sequenza\" = a long take without cuts." },
@@ -391,7 +417,7 @@ export const IT_C1_U15: Lesson[] = [
           { es: "La sceneggiatura ha il merito di non chiudere tutte le storie.", en: "The screenplay has the merit of not tying up every story." },
           { es: "Qualche dialogo è troppo scritto.", en: "Some of the dialogue feels too written." },
           { es: "L'ultima mezz'ora è cinema puro.", en: "The last half hour is pure cinema." },
-          { es: "Un film piccolo e prezioso, da cercare nelle poche sale che lo proiettano.", en: "A small, precious film, worth seeking out in the few cinemas showing it." },
+          { es: "Un film piccolo e prezioso, da cercare nelle poche sale che lo proiettano.", en: "A small, precious film, worth seeking out in the few theaters showing it." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Some of the dialogue feels too written.", answer: "Qualche dialogo è troppo scritto.", altAnswers: ["Alcuni dialoghi sono troppo scritti."], explanation: "\"Qualche\" + singular noun and verb." },
@@ -406,7 +432,7 @@ export const IT_C1_U15: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The penultimate episode risks sentimentality.", answer: "Il penultimo episodio rischia il sentimentalismo.", altAnswers: ["Il penultimo episodio sfiora il sentimentalismo."], explanation: "\"Rischiare\" + noun." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "A small, precious film.", answer: "Un film piccolo e prezioso.", altAnswers: ["Un piccolo film prezioso.", "Un piccolo e prezioso film."], explanation: "Two adjectives after the noun, joined by \"e\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He is played [with restraint] and irony.", sentence: "È interpretato ___ e ironia.", answer: "con misura", altAnswers: ["con sobrietà"], explanation: "\"Con misura\" = with restraint." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Worth seeking out in the few [cinemas] showing it.", sentence: "Da cercare nelle poche ___ che lo proiettano.", answer: "sale", altAnswers: ["sale cinematografiche"], explanation: "\"La sala\" = cinema screen, cinema." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Worth seeking out in the few [theaters] showing it.", sentence: "Da cercare nelle poche ___ che lo proiettano.", answer: "sale", altAnswers: ["sale cinematografiche"], explanation: "\"La sala\" = movie theater, screen." },
       { type: "word-order", prompt: "Put the words in order to say: The city stays outside, behind the windows.", words: ["La", "città", "resta", "fuori,", "dietro", "i", "finestrini."], translation: "The city stays outside, behind the windows.", explanation: "\"Il finestrino\" = vehicle window." },
       { type: "multiple-choice", question: "How is the review structured?", options: ["Context and plot, technique, reservations, verdict", "Verdict first, then a long plot summary", "Only praise", "Only criticism of the actors"], correctIndex: 0, explanation: "A balanced Italian review." },
       { type: "multiple-choice", question: "\"Come un acquario rovesciato\" suggests that ...", options: ["the passengers are enclosed and the city looks in from outside", "the bus is full of water", "the film is about fish", "the city is upside down"], correctIndex: 0, explanation: "A simile for the enclosed interior." },
@@ -419,13 +445,13 @@ export const IT_C1_U15: Lesson[] = [
     level: "IT-C1",
     number: 7,
     title: "Dialogue Lab: After the Film",
-    summary: "Discuss a film with friends outside the cinema: give opinions, agree and disagree politely, and defend a judgment.",
+    summary: "Discuss a film with friends outside the movie theater: give opinions, agree and disagree politely, and defend a judgment.",
     duration: "19 min",
     sections: [
       {
         heading: "First impressions",
         body: [
-          "Giulia, Matteo and Sara have just seen L'ultima corsa at a small cinema in Bologna. Outside, they compare reactions. Giulia: \"Allora, che ne dite?\" Matteo: \"A me è piaciuto un sacco, soprattutto il finale.\" Sara: \"Mah, io sono rimasta un po' delusa. Mi aspettavo di più.\"",
+          "Giulia, Matteo and Sara have just seen L'ultima corsa at a small movie theater in Bologna. Outside, they compare reactions. Giulia: \"Allora, che ne dite?\" Matteo: \"A me è piaciuto un sacco, soprattutto il finale.\" Sara: \"Mah, io sono rimasta un po' delusa. Mi aspettavo di più.\"",
           "Conversation formulas: \"che ne dite / pensate?\" (what do you think of it?), \"mi è piaciuto un sacco\" (I loved it, informal), \"sono rimasta delusa\" (I was disappointed), \"mi aspettavo di più\" (I expected more), \"non mi ha convinto\" (it didn't convince me), \"mi ha lasciato freddo\" (it left me cold).",
         ],
         examples: [
@@ -566,7 +592,7 @@ export const IT_C1_U15: Lesson[] = [
         heading: "Balancing praise and criticism",
         body: [
           "Use concession to sound fair: \"Pur con qualche ingenuità, il film...\" (despite some naivety), \"Nonostante un finale frettoloso, ...\" (despite a rushed ending), \"Se la sceneggiatura a tratti zoppica, la regia...\" (if the script limps at times, the direction...).",
-          "End with a clear recommendation: \"Consigliato a chi ama...\" (recommended to those who love), \"Da vedere in sala\" (to see in the cinema), \"Voto: 4 su 5\".",
+          "End with a clear recommendation: \"Consigliato a chi ama...\" (recommended to those who love), \"Da vedere in sala\" (to see in a theater), \"Voto: 4 su 5\".",
         ],
         examples: [
           { es: "Pur con qualche ingenuità, il film convince.", en: "Despite some naivety, the film convinces." },
@@ -584,13 +610,13 @@ export const IT_C1_U15: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "There's a moment in the film when nobody speaks.", answer: "C'è un momento, nel film, in cui nessuno parla.", altAnswers: ["Nel film c'è un momento in cui nessuno parla.", "C'è un momento nel film in cui nessuno parla."], explanation: "\"In cui\" = when, after a time noun." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Despite some naivety, the film convinces.", answer: "Pur con qualche ingenuità, il film convince.", altAnswers: ["Nonostante qualche ingenuità, il film convince.", "Malgrado qualche ingenuità, il film convince."], explanation: "\"Pur con\" + noun." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Recommended to those who love art-house cinema.", answer: "Consigliato a chi ama il cinema d'autore.", altAnswers: ["Consigliato a chi ama il cinema d'essai."], explanation: "\"Il cinema d'autore\" = auteur, art-house cinema." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "To be seen in the cinema.", answer: "Da vedere in sala.", altAnswers: ["Da vedere al cinema."], explanation: "\"Da\" + infinitive = to be done." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "To be seen in a theater.", answer: "Da vedere in sala.", altAnswers: ["Da vedere al cinema."], explanation: "\"Da\" + infinitive = to be done." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If the script [limps at times], the direction is excellent.", sentence: "Se la sceneggiatura ___, la regia è eccellente.", answer: "a tratti zoppica", altAnswers: ["zoppica a tratti", "talvolta zoppica"], explanation: "\"A tratti\" = at times." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The director [confirms her talent].", sentence: "La regista ___.", answer: "conferma il suo talento", altAnswers: ["conferma il proprio talento"], explanation: "\"Confermare\"." },
       { type: "word-order", prompt: "Put the words in order to say: The pace drops in the middle.", words: ["Il", "ritmo", "cala", "nella", "parte", "centrale."], translation: "The pace drops in the middle.", explanation: "\"Calare\"." },
       { type: "multiple-choice", question: "Which sentence works as a verdict?", options: ["Un film imperfetto ma necessario, da vedere in sala.", "Il film dura due ore.", "La regista è nata a Genova.", "Il film è ambientato su un autobus."], correctIndex: 0, explanation: "Judgment plus recommendation." },
       { type: "dictation", audio: "Consigliato a chi ama il cinema d'autore.", explanation: "Recommendation formula." },
-      { type: "speak", text: "Nonostante un finale frettoloso, il film resta un'opera riuscita: da vedere in sala.", prompt: "Give your verdict: Despite a rushed ending, the film remains a successful work: to be seen in the cinema.", tip: "Fret-to-LO-so: double t.", explanation: "Concession plus verdict." },
+      { type: "speak", text: "Nonostante un finale frettoloso, il film resta un'opera riuscita: da vedere in sala.", prompt: "Give your verdict: Despite a rushed ending, the film remains a successful work: to be seen in a theater.", tip: "Fret-to-LO-so: double t.", explanation: "Concession plus verdict." },
     ],
   },
   {
@@ -610,19 +636,19 @@ export const IT_C1_U15: Lesson[] = [
         examples: [
           { es: "È il film italiano più coraggioso dell'anno.", en: "It's the most daring Italian film of the year." },
           { es: "Coraggioso nelle intenzioni, forse; nei risultati, molto meno.", en: "Daring in its intentions, perhaps; in its results, much less so." },
-          { es: "Ammetto che la fotografia sia notevole.", en: "I admit the cinematography is remarkable." },
+          { es: "Ammetto che la fotografia è notevole.", en: "I admit the cinematography is remarkable." },
           { es: "Il punto è che la storia non regge.", en: "The point is that the story doesn't hold up." },
         ],
         checkpoint: [
           { type: "listen-choose", audio: "Coraggioso nelle intenzioni, forse; nei risultati, molto meno.", question: "What does Elena think?", options: ["The film is daring in intention but not in results.", "The film is daring in every way.", "The film has no intentions.", "The results are better than the intentions."], correctIndex: 0, explanation: "Concession, then criticism." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The point is that the story doesn't hold up.", answer: "Il punto è che la storia non regge.", altAnswers: ["Il problema è che la storia non regge.", "Il punto è che la storia non sta in piedi."], explanation: "\"Reggere\" = to hold up, to stand." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I admit the cinematography is remarkable.", answer: "Ammetto che la fotografia sia notevole.", altAnswers: ["Ammetto che la fotografia è notevole.", "Devo ammettere che la fotografia è notevole."], explanation: "\"Ammettere che\" can take the subjunctive in a concession." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I admit the cinematography is remarkable.", answer: "Ammetto che la fotografia è notevole.", altAnswers: ["Ammetto che la fotografia sia notevole.", "Devo ammettere che la fotografia è notevole."], explanation: "\"Ammettere che\" acknowledges a fact, so the indicative is the norm; the subjunctive is also heard when the concession is grudging." },
         ],
       },
       {
         heading: "The final exchange",
         body: [
-          "Paolo: \"Ma il cinema non deve solo raccontare storie: deve anche rischiare.\" Elena: \"Sono d'accordo, ma rischiare non significa annoiare.\" Paolo laughs: \"Colpito!\" (touché). The presenter closes: \"Insomma, andate a vederlo e decidete voi.\"",
+          "Paolo: \"Ma il cinema non deve solo raccontare storie: deve anche rischiare.\" Elena: \"Sono d'accordo, ma rischiare non significa annoiare.\" Paolo laughs: \"Colpito!\" (touché). The host closes: \"Insomma, andate a vederlo e decidete voi.\"",
           "\"Insomma\" sums up (in short); \"decidete voi\" puts the decision to the listeners. Notice the elegant antithesis in Elena's line: \"rischiare non significa annoiare\".",
         ],
         examples: [
@@ -639,7 +665,7 @@ export const IT_C1_U15: Lesson[] = [
     ],
     exercises: [
       { type: "listen-choose", audio: "Ma il cinema non deve solo raccontare storie: deve anche rischiare.", question: "What is Paolo's argument?", options: ["Cinema should take risks, not just tell stories.", "Cinema should only tell stories.", "Cinema is too risky.", "Stories are always risky."], correctIndex: 0, explanation: "\"Non solo... anche\"." },
-      { type: "listen-choose", audio: "Insomma, andate a vederlo e decidete voi.", question: "What does the presenter suggest?", options: ["Listeners should see the film and decide for themselves.", "Listeners should avoid the film.", "The critics will decide later.", "The film is not yet in cinemas."], correctIndex: 0, explanation: "\"Decidete voi\"." },
+      { type: "listen-choose", audio: "Insomma, andate a vederlo e decidete voi.", question: "What does the host suggest?", options: ["Listeners should see the film and decide for themselves.", "Listeners should avoid the film.", "The critics will decide later.", "The film is not yet in theaters."], correctIndex: 0, explanation: "\"Decidete voi\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's the most daring Italian film of the year.", answer: "È il film italiano più coraggioso dell'anno.", altAnswers: ["È il più coraggioso film italiano dell'anno."], explanation: "Superlative + \"di\": \"dell'anno\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Cinema must also take risks.", answer: "Il cinema deve anche rischiare.", altAnswers: ["Il cinema deve anche osare.", "Anche il cinema deve rischiare."], explanation: "\"Rischiare\" = to take risks." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I agree, but the story doesn't hold up.", answer: "Sono d'accordo, ma la storia non regge.", altAnswers: ["Sono d'accordo, però la storia non regge.", "D'accordo, ma la storia non regge."], explanation: "\"Essere d'accordo\"." },
@@ -648,7 +674,7 @@ export const IT_C1_U15: Lesson[] = [
       { type: "word-order", prompt: "Put the words in order to say: Go and see it and decide for yourselves.", words: ["Andate", "a", "vederlo", "e", "decidete", "voi."], translation: "Go and see it and decide for yourselves.", explanation: "\"Voi\" at the end = yourselves (emphatic)." },
       { type: "multiple-choice", question: "What figure of speech is \"rischiare non significa annoiare\"?", options: ["an antithesis", "a metaphor", "a simile", "an anaphora"], correctIndex: 0, explanation: "Two opposed ideas side by side." },
       { type: "dictation", audio: "Rischiare non significa annoiare.", explanation: "Elena's antithesis." },
-      { type: "speak", text: "Ammetto che la fotografia sia notevole, ma il punto è che la storia non regge.", prompt: "You're Elena: I admit the cinematography is remarkable, but the point is that the story doesn't hold up.", tip: "No-TE-vo-le: stress on TE.", explanation: "Concession and counter-argument." },
+      { type: "speak", text: "Ammetto che la fotografia è notevole, ma il punto è che la storia non regge.", prompt: "You're Elena: I admit the cinematography is remarkable, but the point is that the story doesn't hold up.", tip: "No-TE-vo-le: stress on TE.", explanation: "Concession and counter-argument." },
     ],
   },
 ];

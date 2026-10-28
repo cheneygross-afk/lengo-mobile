@@ -9,7 +9,7 @@ export const IT_C2_U05_EXTRA: Lesson[] = [
     level: "IT-C2",
     number: 1,
     title: "Extra Practice: South",
-    summary: "Practise recognising Neapolitan, Sicilian and southern regional Italian, and restating them in standard Italian.",
+    summary: "Practice recognizing Neapolitan, Sicilian and southern regional Italian, and restating them in standard Italian.",
     duration: "20 min",
     optional: true,
     kind: "drill",
@@ -17,7 +17,7 @@ export const IT_C2_U05_EXTRA: Lesson[] = [
       {
         heading: "Southern regional Italian",
         body: [
-          "Many southern speakers who never use full dialect still carry its grammar into Italian. Five features to recognise: \"stare\" for \"essere\" (\"sto a casa\"), \"tenere\" for \"avere\" (\"tengo fretta\"), the preposition \"a\" before a personal object (\"ho chiamato a Luca\"), the past historic for recent events (\"stamattina mi alzai presto\") and \"mo'\" for \"ora\". In standard Italian: \"sono a casa\", \"ho fretta\", \"ho chiamato Luca\", \"stamattina mi sono alzato presto\", \"ora\".",
+          "Many southern speakers who never use full dialect still carry its grammar into Italian. Five features to recognize: \"stare\" for \"essere\" (\"sto a casa\"), \"tenere\" for \"avere\" (\"tengo fretta\"), the preposition \"a\" before a personal object (\"ho chiamato a Luca\"), the past historic for recent events (\"stamattina mi alzai presto\") and \"mo'\" for \"ora\". In standard Italian: \"sono a casa\", \"ho fretta\", \"ho chiamato Luca\", \"stamattina mi sono alzato presto\", \"ora\".",
         ],
         examples: [
           { es: "Sto a casa. → Sono a casa.", en: "I'm at home." },
@@ -70,7 +70,7 @@ export const IT_C2_U05_EXTRA: Lesson[] = [
     level: "IT-C2",
     number: 2,
     title: "Extra Practice: North",
-    summary: "Practise recognising Venetian, Lombard and northern regional Italian, and restating them in standard Italian.",
+    summary: "Practice recognizing Venetian, Lombard and northern regional Italian, and restating them in standard Italian.",
     duration: "20 min",
     optional: true,
     kind: "drill",
@@ -78,7 +78,7 @@ export const IT_C2_U05_EXTRA: Lesson[] = [
       {
         heading: "Northern regional Italian",
         body: [
-          "Northern Italians speaking Italian show their own regional features: the article before women's first names (\"la Giulia\", \"la Marta\"), almost no past historic (\"l'anno scorso sono andato\"), \"mica\" to strengthen a negative (\"non è mica vero\"), and regional words such as \"anguria\" (Centre: \"cocomero\"), \"sciura\" (a lady, from Milanese) and \"ciapa\" (take it). In neutral standard: \"Giulia\", \"non è affatto vero\", \"signora\", \"prendi\".",
+          "Northern Italians speaking Italian show their own regional features: the article before women's first names (\"la Giulia\", \"la Marta\"), almost no past historic (\"l'anno scorso sono andato\"), \"mica\" to strengthen a negative (\"non è mica vero\"), and regional words such as \"anguria\" (Center: \"cocomero\"), \"sciura\" (a lady, from Milanese) and \"ciapa\" (take it). In neutral standard: \"Giulia\", \"non è affatto vero\", \"signora\", \"prendi\".",
         ],
         examples: [
           { es: "Ho visto la Giulia al bar. → Ho visto Giulia al bar.", en: "I saw Giulia at the bar." },
@@ -121,7 +121,7 @@ export const IT_C2_U05_EXTRA: Lesson[] = [
       { type: "word-order", prompt: "Put the words in order to say: What can I bring you?", words: ["Cosa", "vi", "porto?"], translation: "What can I bring you?", explanation: "Clitic \"vi\" before the verb." },
       { type: "word-order", prompt: "Put the words in order to say: Let's go and eat!", words: ["Andiamo", "a", "mangiare!"], translation: "Let's go and eat!", explanation: "Venetian \"Ndemo a magnar!\"." },
       { type: "matching", instructions: "Match the northern form to standard Italian.", pairs: [{ left: "ghe xe", right: "c'è" }, { left: "schei", right: "soldi" }, { left: "ciapa", right: "prendi" }, { left: "sciura", right: "signora" }], explanation: "Venetian and Milanese words." },
-      { type: "multiple-choice", question: "In which area would you hear \"anguria\" rather than \"cocomero\"?", options: ["the North", "Tuscany and Lazio", "Sicily only", "nowhere: it is archaic"], correctIndex: 0, explanation: "\"Anguria\" North, \"cocomero\" Centre, \"mellone\" in parts of the South." },
+      { type: "multiple-choice", question: "In which area would you hear \"anguria\" rather than \"cocomero\"?", options: ["the North", "Tuscany and Lazio", "Sicily only", "nowhere: it is archaic"], correctIndex: 0, explanation: "\"Anguria\" North, \"cocomero\" Center, \"mellone\" in parts of the South." },
       { type: "dictation", audio: "Cosa vi porto? Due spritz e qualcosa da mangiare.", explanation: "Venetian \"Cossa ve porto?\" in standard Italian." },
       { type: "speak", text: "Due spritz, grazie. C'è anche qualcosa da mangiare?", prompt: "Order in standard Italian: Two spritzes, thanks. Is there anything to eat as well?", tip: "Rising tone on the question.", explanation: "Standard for \"Do spritz, grassie. Ghe xe anca qualcossa da magnar?\"." },
     ],

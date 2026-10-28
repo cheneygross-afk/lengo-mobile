@@ -18,15 +18,15 @@ export const IT_B1_U26: Lesson[] = [
         heading: "Il medico di base",
         body: [
           "\"Il Servizio Sanitario Nazionale\" (SSN) is run region by region through the local health authority, \"l'ASL\" (or \"ASP\", \"ATS\", depending on the region). Residents register with the ASL and choose \"un medico di base\" (also \"medico di famiglia\"), the GP who is the gateway to everything else. Children up to 14 have \"un pediatra\" instead.",
-          "Your GP's surgery is \"l'ambulatorio\" or \"lo studio\". Many doctors see patients without appointments at set hours (\"riceve dalle 9 alle 12\"), so you queue in the waiting room: ask \"Chi è l'ultimo?\" to find your place. Others work \"su appuntamento\".",
+          "Your GP's office is \"l'ambulatorio\" or \"lo studio\". Many doctors see patients without appointments at set hours (\"riceve dalle 9 alle 12\"), so you wait your turn in the waiting room: ask \"Chi è l'ultimo?\" to find your place. Others work \"su appuntamento\".",
           "The visit to your GP is free. You go to the GP for prescriptions, sick notes and referrals to specialists.",
         ],
         examples: [
           { es: "Mi sono iscritto al Servizio Sanitario Nazionale e ho scelto il medico di base.", en: "I registered with the National Health Service and chose a GP." },
           { es: "Il mio medico riceve il lunedì e il mercoledì dalle 9 alle 12.", en: "My doctor sees patients on Mondays and Wednesdays from 9 to 12." },
-          { es: "Buongiorno, chi è l'ultimo?", en: "Good morning, who's last in the queue?" },
-          { es: "Il dottor Monti riceve solo su appuntamento.", en: "Dr Monti sees patients by appointment only." },
-          { es: "Per i bambini c'è il pediatra di libera scelta.", en: "For children there's a family paediatrician you choose." },
+          { es: "Buongiorno, chi è l'ultimo?", en: "Good morning, who's last in line?" },
+          { es: "Il dottor Monti riceve solo su appuntamento.", en: "Dr. Monti sees patients by appointment only." },
+          { es: "Per i bambini c'è il pediatra di libera scelta.", en: "For children there's a family pediatrician you choose." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I've chosen a GP near home.", answer: "Ho scelto un medico di base vicino a casa.", altAnswers: ["Ho scelto il medico di base vicino a casa.", "Ho scelto un medico di famiglia vicino a casa.", "Ho scelto il medico di famiglia vicino a casa."], explanation: "\"Scegliere\" → \"scelto\"; \"vicino a casa\" with no article." },
@@ -55,6 +55,7 @@ export const IT_B1_U26: Lesson[] = [
         body: [
           "Specialist visits, tests and some medicines need \"il ticket\": a fixed co-payment, not the full price. Some people are \"esenti\" (exempt) because of income, age or a chronic illness. Waiting lists (\"le liste d'attesa\") can be long, so many people also go \"privatamente\" (privately) or \"in intramoenia\": a hospital doctor seeing you privately, inside the hospital, for a higher fee.",
           "\"Pagare il ticket\" is everyday Italian; \"il biglietto\" is a ticket for transport or a show, never a health charge.",
+          "The SSN is regional, so co-payments, exemptions and registration rules differ from region to region and change from year to year: check your region's website or ask at the ASL rather than trusting a figure you read online. And watch \"il dottore\": in Italy it's the title of any graduate, so the precise word for the doctor is \"il medico\".",
         ],
         examples: [
           { es: "Per la visita dal cardiologo ho pagato un ticket di 36 euro.", en: "For the cardiologist's visit I paid a co-payment of 36 euros." },
@@ -75,10 +76,10 @@ export const IT_B1_U26: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The doctor sees patients by appointment only.", answer: "Il medico riceve solo su appuntamento.", altAnswers: ["La dottoressa riceve solo su appuntamento.", "Il dottore riceve solo su appuntamento."], explanation: "\"Su appuntamento\" = by appointment." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I lost my health card.", answer: "Ho perso la tessera sanitaria.", altAnswers: ["Ho perso la mia tessera sanitaria.", "Io ho perso la tessera sanitaria."], explanation: "\"Perdere\" → \"perso\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Private visits cost more.", answer: "Le visite private costano di più.", altAnswers: ["Le visite private sono più care."], explanation: "\"Di più\" after a verb." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Who's last] in the queue?", sentence: "___?", answer: "Chi è l'ultimo", altAnswers: ["Chi è l'ultima"], explanation: "The way to join a queue without numbers." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Who's last] in line?", sentence: "___?", answer: "Chi è l'ultimo", altAnswers: ["Chi è l'ultima"], explanation: "The way to join a line without numbers." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[The waiting lists] are very long.", sentence: "___ sono molto lunghe.", answer: "Le liste d'attesa", altAnswers: ["Le liste di attesa"], explanation: "\"Lista\" is feminine: \"lunghe\" with h." },
-      { type: "word-order", prompt: "Put the words in order to say: For children there is the paediatrician.", words: ["Per", "i", "bambini", "c'è", "il", "pediatra."], translation: "For children there is the paediatrician.", explanation: "\"Il pediatra\": masculine despite -a." },
-      { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "il medico di base", right: "GP" }, { left: "la tessera sanitaria", right: "health card" }, { left: "il ticket", right: "co-payment" }, { left: "esente", right: "exempt" }, { left: "l'ambulatorio", right: "doctor's surgery" }], explanation: "The SSN basics." },
+      { type: "word-order", prompt: "Put the words in order to say: For children there is the pediatrician.", words: ["Per", "i", "bambini", "c'è", "il", "pediatra."], translation: "For children there is the pediatrician.", explanation: "\"Il pediatra\": masculine despite -a." },
+      { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "il medico di base", right: "GP" }, { left: "la tessera sanitaria", right: "health card" }, { left: "il ticket", right: "co-payment" }, { left: "esente", right: "exempt" }, { left: "l'ambulatorio", right: "doctor's office" }], explanation: "The SSN basics." },
       { type: "dictation", audio: "Il mio medico riceve dalle nove alle dodici.", explanation: "\"Dalle ... alle\" for opening hours." },
       { type: "speak", text: "Buongiorno, vorrei iscrivermi al Servizio Sanitario e scegliere il medico di base.", prompt: "Say it at the ASL desk: Good morning, I'd like to register with the Health Service and choose a GP.", tip: "\"Sanitario\": sa-ni-TA-rio.", explanation: "\"Vorrei\" + two infinitives." },
     ],
@@ -97,6 +98,7 @@ export const IT_B1_U26: Lesson[] = [
           "The doctor's first question is usually \"Che cosa si sente?\" or \"Qual è il problema?\". The key is time: for something still going on, Italian uses the present + \"da\": \"Ho la febbre da tre giorni\" (I've had a temperature for three days), \"Da ieri ho mal di gola\". English pushes you towards \"ho avuto\", but that would mean it's over.",
           "\"Avere mal di\" + body part, with no article: \"mal di testa\", \"mal di pancia\", \"mal di schiena\", \"mal di denti\". With other parts use \"mi fa male\" (singular) or \"mi fanno male\" (plural): \"Mi fa male il ginocchio\", \"Mi fanno male le gambe\".",
           "Temperature in Italy is in Celsius: \"ho 38 di febbre\" (I've got a temperature of 38), \"ho qualche linea di febbre\" (a slight temperature).",
+          "Two pairs learners mix up. \"Sto male\" means I'm ill, while \"Mi sento male\" often means I'm feeling unwell right now, even about to faint. \"Ho freddo\" is I'm cold, not I have a cold (\"ho il raffreddore\"). And Italians use \"la pancia\" (tummy) for most stomach trouble: \"ho mal di pancia\" is more everyday than \"mal di stomaco\".",
         ],
         examples: [
           { es: "Ho la febbre da tre giorni.", en: "I've had a temperature for three days." },
@@ -138,7 +140,7 @@ export const IT_B1_U26: Lesson[] = [
         examples: [
           { es: "Ho preso un antidolorifico, ma non è passato.", en: "I took a painkiller, but it didn't go away." },
           { es: "Sono allergica alla penicillina.", en: "I'm allergic to penicillin." },
-          { es: "Si sdrai sul lettino, per favore.", en: "Lie down on the couch, please." },
+          { es: "Si sdrai sul lettino, per favore.", en: "Lie down on the exam table, please." },
           { es: "Respiri profondamente. Ora tossisca.", en: "Breathe deeply. Now cough." },
           { es: "Apra la bocca e dica \"a\".", en: "Open your mouth and say 'ah'." },
         ],
@@ -157,7 +159,7 @@ export const IT_B1_U26: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Open your mouth, please. (formal)", answer: "Apra la bocca, per favore.", altAnswers: ["Apra la bocca, prego."], explanation: "-ire verb: Lei imperative ends in -a." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[My ear hurts].", sentence: "___ l'orecchio.", answer: "Mi fa male", explanation: "Singular: \"fa\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I [took my temperature]: 38.", sentence: "___: 38.", answer: "Ho misurato la febbre", altAnswers: ["Mi sono misurato la febbre", "Mi sono misurata la febbre"], explanation: "\"Misurare la febbre\" = take your temperature." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Lie down] on the couch. (formal)", sentence: "___ sul lettino.", answer: "Si sdrai", altAnswers: ["Si stenda"], explanation: "Reflexive Lei imperative: \"si\" before the verb." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Lie down] on the exam table. (formal)", sentence: "___ sul lettino.", answer: "Si sdrai", altAnswers: ["Si stenda"], explanation: "Reflexive Lei imperative: \"si\" before the verb." },
       { type: "word-order", prompt: "Put the words in order to say: I get a burning feeling after eating.", words: ["Ho", "un", "bruciore", "dopo", "mangiato."], translation: "I get a burning feeling after eating.", explanation: "\"Dopo mangiato\": a common shortening of \"dopo aver mangiato\"." },
       { type: "dictation", audio: "Mi gira la testa quando mi alzo dal letto.", explanation: "\"Mi gira la testa\" = I feel dizzy." },
       { type: "speak", text: "Ho la febbre da tre giorni, mi fa male la gola e ho preso una tachipirina, ma non è passata.", prompt: "Tell the doctor: I've had a temperature for three days, my throat hurts and I took a paracetamol, but it didn't go away.", tip: "Keep \"da tre giorni\" together: that's the key fact.", explanation: "Present + \"da\", \"mi fa male\", passato prossimo." },
@@ -176,12 +178,13 @@ export const IT_B1_U26: Lesson[] = [
         body: [
           "\"La ricetta\" is a prescription (and a recipe: context decides). Today it's mostly electronic: the doctor gives you or texts you a code, \"il numero di ricetta elettronica\" (NRE), and you show it with your tessera at any pharmacy. \"La ricetta bianca\" is a private prescription: you pay the full price.",
           "The GP also writes \"l'impegnativa\": the referral you need for a specialist visit or tests on the SSN. \"Prescrivere\" is to prescribe: \"Il medico mi ha prescritto un antibiotico\" (irregular participle \"prescritto\").",
+          "Medical false friends: \"la visita\" is an appointment with a doctor, not a social visit (\"una visita di controllo\" = a check-up); \"l'esame\" is a medical test as well as a school exam; \"il referto\" is the written result. You book \"un appuntamento\" with your GP but \"una visita\" with a specialist.",
         ],
         examples: [
           { es: "Il medico mi ha prescritto un antibiotico per sei giorni.", en: "The doctor prescribed me an antibiotic for six days." },
           { es: "Mi ha mandato il codice della ricetta per SMS.", en: "He sent me the prescription code by text." },
           { es: "Questo farmaco si vende solo con la ricetta.", en: "This medicine is sold only on prescription." },
-          { es: "Mi serve l'impegnativa per la visita dall'ortopedico.", en: "I need a referral for the orthopaedic visit." },
+          { es: "Mi serve l'impegnativa per la visita dall'ortopedico.", en: "I need a referral for the orthopedic visit." },
           { es: "Con la ricetta bianca si paga il prezzo pieno.", en: "With a private prescription you pay the full price." },
         ],
         checkpoint: [
@@ -197,14 +200,14 @@ export const IT_B1_U26: Lesson[] = [
         ],
         examples: [
           { es: "Vorrei prenotare una visita cardiologica.", en: "I'd like to book a cardiology appointment." },
-          { es: "La prima data disponibile è il 14 marzo all'ospedale Maggiore.", en: "The first available date is 14 March at the Maggiore hospital." },
+          { es: "La prima data disponibile è il 14 marzo all'ospedale Maggiore.", en: "The first available date is March 14 at the Maggiore hospital." },
           { es: "Non c'è niente prima? Va bene anche fuori città.", en: "Is there nothing sooner? Out of town is fine too." },
           { es: "L'impegnativa ha la priorità B, quindi entro dieci giorni.", en: "The referral has priority B, so within ten days." },
           { es: "Se non può venire, deve disdire almeno tre giorni prima.", en: "If you can't come, you must cancel at least three days before." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'd like to book a specialist visit.", answer: "Vorrei prenotare una visita specialistica.", altAnswers: ["Vorrei prenotare una visita da uno specialista.", "Vorrei prenotare una visita specialista."], explanation: "\"Prenotare\" = to book." },
-          { type: "listen-choose", audio: "La prima data disponibile è il quattordici marzo all'ospedale Maggiore.", question: "What is offered?", options: ["14 March at the Maggiore hospital", "4 March at the Maggiore hospital", "today at the main hospital", "14 May at the Maggiore hospital"], correctIndex: 0, explanation: "\"Quattordici marzo\" = 14 March." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'd like to book a specialist visit.", answer: "Vorrei prenotare una visita specialistica.", altAnswers: ["Vorrei prenotare una visita da uno specialista.", "Vorrei prenotare una visita dallo specialista."], explanation: "\"Prenotare\" = to book." },
+          { type: "listen-choose", audio: "La prima data disponibile è il quattordici marzo all'ospedale Maggiore.", question: "What is offered?", options: ["March 14 at the Maggiore hospital", "March 4 at the Maggiore hospital", "today at the main hospital", "May 14 at the Maggiore hospital"], correctIndex: 0, explanation: "\"Quattordici marzo\" = March 14." },
         ],
       },
       {
@@ -227,7 +230,7 @@ export const IT_B1_U26: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "This medicine is sold only on prescription.", answer: "Questo farmaco si vende solo con la ricetta.", altAnswers: ["Questo farmaco viene venduto solo con la ricetta.", "Questa medicina si vende solo con la ricetta.", "Questo farmaco si vende solo con ricetta."], explanation: "Si passivante." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I need a referral for the eye doctor.", answer: "Mi serve l'impegnativa per l'oculista.", altAnswers: ["Ho bisogno dell'impegnativa per l'oculista.", "Mi serve un'impegnativa per l'oculista.", "Ho bisogno di un'impegnativa per l'oculista."], explanation: "\"Servire a qualcuno\" = to be needed by." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Is there nothing sooner?", answer: "Non c'è niente prima?", altAnswers: ["Non c'è nulla prima?", "Non c'è niente di prima?"], explanation: "\"Prima\" = earlier, sooner." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Is there nothing sooner?", answer: "Non c'è niente prima?", altAnswers: ["Non c'è nulla prima?", "Non c'è niente prima di quella data?"], explanation: "\"Prima\" = earlier, sooner." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I have to cancel the appointment.", answer: "Devo disdire l'appuntamento.", altAnswers: ["Devo disdire la visita.", "Devo annullare l'appuntamento.", "Devo cancellare l'appuntamento."], explanation: "\"Disdire\" = to cancel a booking." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The results will be ready on Friday.", answer: "I risultati saranno pronti venerdì.", altAnswers: ["I risultati saranno pronti per venerdì.", "Il referto sarà pronto venerdì."], explanation: "\"Pronti\" agrees with \"risultati\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You can book at the pharmacy too.", answer: "Si può prenotare anche in farmacia.", altAnswers: ["Puoi prenotare anche in farmacia.", "Può prenotare anche in farmacia."], explanation: "Impersonal \"si può\"." },
@@ -268,14 +271,15 @@ export const IT_B1_U26: Lesson[] = [
       {
         heading: "Posologia: how much and when",
         body: [
-          "\"Posologia\" is the dose: \"una compressa\" (a tablet), \"una bustina\" (a sachet), \"10 gocce\" (drops), \"un cucchiaino di sciroppo\". Frequency: \"due volte al giorno\", \"ogni 8 ore\", \"non superare le 3 compresse al giorno\" (don't exceed).",
+          "\"Posologia\" is the dose: \"una compressa\" (a tablet), \"una bustina\" (a packet), \"10 gocce\" (drops), \"un cucchiaino di sciroppo\". Frequency: \"due volte al giorno\", \"ogni 8 ore\", \"non superare le 3 compresse al giorno\" (don't exceed).",
           "Timing uses \"andare\" + participle or \"si\": \"Va assunto dopo i pasti\" (to be taken after meals), \"Va preso a stomaco vuoto\" (on an empty stomach), \"La compressa si scioglie in un bicchiere d'acqua\" (dissolves). \"Assumere\" here is to take a medicine, not to assume.",
+          "The leaflet uses the infinitive (\"Agitare prima dell'uso\"), but the pharmacist speaks to you in the Lei imperative: \"Lo agiti prima dell'uso\", \"Ne prenda una la sera\". \"Ne\" stands for the tablets: \"Ne prenda due\" (take two of them). \"La pillola\" alone usually means the contraceptive pill; for other tablets say \"la compressa\" or \"la pastiglia\".",
         ],
         examples: [
           { es: "Una compressa due volte al giorno, dopo i pasti.", en: "One tablet twice a day, after meals." },
           { es: "Il farmaco va assunto a stomaco vuoto.", en: "The medicine must be taken on an empty stomach." },
           { es: "Non superare le tre compresse al giorno.", en: "Do not exceed three tablets a day." },
-          { es: "Sciogliere la bustina in mezzo bicchiere d'acqua.", en: "Dissolve the sachet in half a glass of water." },
+          { es: "Sciogliere la bustina in mezzo bicchiere d'acqua.", en: "Dissolve the packet in half a glass of water." },
           { es: "Le gocce vanno prese la sera prima di dormire.", en: "The drops should be taken in the evening before sleeping." },
         ],
         checkpoint: [
@@ -306,12 +310,12 @@ export const IT_B1_U26: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "This medicine must be taken on an empty stomach.", answer: "Questo farmaco va assunto a stomaco vuoto.", altAnswers: ["Questo farmaco va preso a stomaco vuoto.", "Questa medicina va presa a stomaco vuoto.", "Questo farmaco deve essere preso a stomaco vuoto."], explanation: "\"Va\" + participle." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Do not drive after taking it.", answer: "Non guidare dopo l'assunzione.", altAnswers: ["Non guidare dopo averlo preso.", "Non guidare dopo averlo assunto.", "Non guidare dopo averla presa."], explanation: "\"L'assunzione\" = the taking (of a medicine)." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Store below 25 degrees.", answer: "Conservare a temperatura inferiore a 25 gradi.", altAnswers: ["Conservare sotto i 25 gradi.", "Conservare a meno di 25 gradi."], explanation: "\"Inferiore a\" = below." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Dissolve the sachet in water.", answer: "Sciogliere la bustina in acqua.", altAnswers: ["Sciogliere la bustina nell'acqua.", "Sciogliere la bustina in un bicchiere d'acqua."], explanation: "\"Sciogliere\" = to dissolve." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Dissolve the packet in water.", answer: "Sciogliere la bustina in acqua.", altAnswers: ["Sciogliere la bustina nell'acqua.", "Sciogliere la bustina in un bicchiere d'acqua."], explanation: "\"Sciogliere\" = to dissolve." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The leaflet says it can cause nausea.", answer: "Il bugiardino dice che può causare nausea.", altAnswers: ["Il bugiardino dice che può dare nausea.", "Il foglietto illustrativo dice che può causare nausea.", "Il bugiardino dice che può causare la nausea."], explanation: "\"Il bugiardino\": everyday name for the leaflet." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Do not exceed] the recommended dose.", sentence: "___ la dose consigliata.", answer: "Non superare", explanation: "Infinitive instruction." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The drops [must be taken] in the evening.", sentence: "Le gocce ___ la sera.", answer: "vanno prese", altAnswers: ["vanno assunte", "devono essere prese"], explanation: "Plural feminine: \"vanno prese\"." },
-      { type: "word-order", prompt: "Put the words in order to say: Do not use after the expiry date.", words: ["Non", "usare", "dopo", "la", "data", "di", "scadenza."], translation: "Do not use after the expiry date.", explanation: "\"La scadenza\" = expiry." },
-      { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "la posologia", right: "dosage" }, { left: "la compressa", right: "tablet" }, { left: "la bustina", right: "sachet" }, { left: "gli effetti indesiderati", right: "side effects" }, { left: "a stomaco vuoto", right: "on an empty stomach" }], explanation: "Leaflet vocabulary." },
+      { type: "word-order", prompt: "Put the words in order to say: Do not use after the expiration date.", words: ["Non", "usare", "dopo", "la", "data", "di", "scadenza."], translation: "Do not use after the expiration date.", explanation: "\"La scadenza\" = expiration date." },
+      { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "la posologia", right: "dosage" }, { left: "la compressa", right: "tablet" }, { left: "la bustina", right: "packet" }, { left: "gli effetti indesiderati", right: "side effects" }, { left: "a stomaco vuoto", right: "on an empty stomach" }], explanation: "Leaflet vocabulary." },
       { type: "dictation", audio: "Una compressa due volte al giorno, dopo i pasti.", explanation: "\"Compressa\": double s." },
       { type: "speak", text: "Scusi, questo farmaco va preso prima o dopo i pasti?", prompt: "Ask the pharmacist: Excuse me, should this medicine be taken before or after meals?", tip: "\"Farmaco\": FAR-ma-co, stress on the first syllable.", explanation: "\"Va preso\" in a question." },
     ],
@@ -349,7 +353,7 @@ export const IT_B1_U26: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I feel tired and I have no appetite.", answer: "Mi sento stanco e non ho appetito.", altAnswers: ["Mi sento stanca e non ho appetito.", "Mi sento stanco e non ho fame.", "Mi sento stanca e non ho fame."], explanation: "\"Sentirsi\" + adjective." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Sit down, please. (formal)", answer: "Si sieda, per favore.", altAnswers: ["Si accomodi, per favore.", "Prego, si sieda."], explanation: "Lei imperative of \"sedersi\": \"si sieda\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Take this syrup twice a day. (formal)", answer: "Prenda questo sciroppo due volte al giorno.", altAnswers: ["Prenda lo sciroppo due volte al giorno."], explanation: "Lei imperative of \"prendere\": \"prenda\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I twisted my ankle.", answer: "Ho preso una storta alla caviglia.", altAnswers: ["Mi sono storto la caviglia.", "Mi sono storta la caviglia.", "Ho preso una storta."], explanation: "\"Prendere una storta\" = to twist (a joint)." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I twisted my ankle.", answer: "Ho preso una storta alla caviglia.", altAnswers: ["Mi sono storto la caviglia.", "Mi sono storta la caviglia.", "Ho preso una storta.", "Mi sono slogato la caviglia.", "Mi sono slogata la caviglia."], explanation: "\"Prendere una storta\" = to twist (a joint)." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Is it serious, doctor?", answer: "È grave, dottore?", altAnswers: ["È una cosa grave, dottore?", "È grave, dottoressa?"], explanation: "\"Grave\" = serious (medical)." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I've got a blocked nose.", answer: "Ho il naso chiuso.", altAnswers: ["Ho il naso tappato.", "Io ho il naso chiuso."], explanation: "\"Naso chiuso\" = blocked nose." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Undress], please. (formal)", sentence: "___, per favore.", answer: "Si spogli", explanation: "Reflexive Lei imperative." },
@@ -398,7 +402,7 @@ export const IT_B1_U26: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "How long must I take it for? (the antibiotic)", answer: "Per quanto tempo devo prenderlo?", altAnswers: ["Per quanto tempo lo devo prendere?", "Per quanti giorni devo prenderlo?", "Per quanti giorni lo devo prendere?"], explanation: "Future duration: \"per quanto tempo\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She's been ill since Saturday.", answer: "È malata da sabato.", altAnswers: ["Sta male da sabato.", "Lei è malata da sabato.", "Da sabato è malata."], explanation: "Still ill: present + \"da\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I broke my arm five years ago.", answer: "Mi sono rotto il braccio cinque anni fa.", altAnswers: ["Mi sono rotta il braccio cinque anni fa.", "Cinque anni fa mi sono rotto il braccio.", "Cinque anni fa mi sono rotta il braccio."], explanation: "Reflexive + body part: \"mi sono rotto il braccio\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I was in hospital for a week.", answer: "Sono stato in ospedale per una settimana.", altAnswers: ["Sono stata in ospedale per una settimana.", "Sono stato ricoverato per una settimana.", "Sono stata ricoverata per una settimana."], explanation: "\"Essere ricoverato\" = to be admitted." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I was in the hospital for a week.", answer: "Sono stato in ospedale per una settimana.", altAnswers: ["Sono stata in ospedale per una settimana.", "Sono stato ricoverato per una settimana.", "Sono stata ricoverata per una settimana."], explanation: "\"Essere ricoverato\" = to be admitted." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I've had this rash [for] three days.", sentence: "Ho questo sfogo ___ tre giorni.", answer: "da", explanation: "Still there: \"da\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I took antibiotics [for] a week.", sentence: "Ho preso gli antibiotici ___ una settimana.", answer: "per", explanation: "Finished: \"per\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The pain started two hours [ago].", sentence: "Il dolore è cominciato due ore ___.", answer: "fa", explanation: "\"Fa\" after the time." },
@@ -422,7 +426,7 @@ export const IT_B1_U26: Lesson[] = [
       {
         heading: "Triage",
         body: [
-          "Ben fell off his bike in Bari and his wrist is swollen. At \"il pronto soccorso\" (A&E) a triage nurse decides the order of patients with a colour code: \"rosso\" (life-threatening), \"arancione\" (urgent), \"azzurro\", \"verde\" (minor) and \"bianco\" (not urgent; you may pay a ticket). Some regions use numbers from 1 to 5 instead.",
+          "Ben fell off his bike in Bari and his wrist is swollen. At \"il pronto soccorso\" (the ER) a triage nurse decides the order of patients with a color code: \"rosso\" (life-threatening), \"arancione\" (urgent), \"azzurro\", \"verde\" (minor) and \"bianco\" (not urgent; you may pay a ticket). Some regions use numbers from 1 to 5 instead.",
           "The nurse asks quick questions in \"Lei\": \"Che cosa è successo?\", \"Ha battuto la testa?\", \"Prende dei farmaci?\". Ben answers with the passato prossimo for the accident.",
         ],
         examples: [
@@ -458,7 +462,7 @@ export const IT_B1_U26: Lesson[] = [
       {
         heading: "Discharge",
         body: [
-          "At the end Ben gets \"il verbale di pronto soccorso\" (the discharge report) to show his GP. The doctor adds: \"Se il dolore aumenta, torni subito\". For a night-time problem that isn't an emergency, Italians call \"la guardia medica\", the out-of-hours doctor.",
+          "At the end Ben gets \"il verbale di pronto soccorso\" (the discharge report) to show his GP. The doctor adds: \"Se il dolore aumenta, torni subito\". For a night-time problem that isn't an emergency, Italians call \"la guardia medica\", the out-of-hours doctor (officially \"continuità assistenziale\"; many regions now use the number 116117). 112 is the general emergency number, and 118 still reaches an ambulance.",
         ],
         examples: [
           { es: "Questo è il verbale: lo porti al Suo medico di base.", en: "This is the report: take it to your GP." },
@@ -482,7 +486,7 @@ export const IT_B1_U26: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I fell [on my arm].", sentence: "Sono caduto ___.", answer: "sul braccio", explanation: "\"Su\" + \"il\" = \"sul\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Please wait] in the waiting room. (formal)", sentence: "___ in sala d'attesa.", answer: "Si accomodi", altAnswers: ["Attenda", "Aspetti"], explanation: "Lei imperative." },
       { type: "word-order", prompt: "Put the words in order to say: It's not broken, it's a sprain.", words: ["Non", "è", "rotto,", "è", "una", "distorsione."], translation: "It's not broken, it's a sprain.", explanation: "\"La distorsione\" = sprain." },
-      { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "il pronto soccorso", right: "A&E, emergency room" }, { left: "la radiografia", right: "X-ray" }, { left: "il tutore", right: "splint, brace" }, { left: "la guardia medica", right: "out-of-hours doctor" }, { left: "il codice verde", right: "minor-case code" }], explanation: "Emergency-room vocabulary." },
+      { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "il pronto soccorso", right: "ER, emergency room" }, { left: "la radiografia", right: "X-ray" }, { left: "il tutore", right: "splint, brace" }, { left: "la guardia medica", right: "out-of-hours doctor" }, { left: "il codice verde", right: "minor-case code" }], explanation: "Emergency-room vocabulary." },
       { type: "dictation", audio: "Sono caduto dalla bici e mi fa male il polso.", explanation: "\"Caduto\": essere + participle." },
       { type: "speak", text: "Sono caduta dalle scale e mi fa molto male la caviglia. Non riesco a camminare.", prompt: "Tell the triage nurse: I fell down the stairs and my ankle hurts a lot. I can't walk.", tip: "\"Caviglia\": ca-VI-glia, gli as in million.", explanation: "Passato prossimo for the accident, present for now." },
     ],
@@ -502,13 +506,13 @@ export const IT_B1_U26: Lesson[] = [
           "Then the reason: \"Non serve l'antibiotico, perché è un virus\". Many Italian patients expect antibiotics, and doctors often explain why not.",
         ],
         examples: [
-          { es: "Niente di grave, è un'influenza.", en: "Nothing serious, it's flu." },
+          { es: "Niente di grave, è un'influenza.", en: "Nothing serious, it's the flu." },
           { es: "Non serve l'antibiotico, perché è un virus.", en: "You don't need antibiotics, because it's a virus." },
           { es: "Ha la gola molto arrossata: è una faringite.", en: "Your throat is very red: it's pharyngitis." },
           { es: "Con un po' di riposo passa in una settimana.", en: "With a bit of rest it goes in a week." },
         ],
         checkpoint: [
-          { type: "listen-choose", audio: "Niente di grave, è un'influenza. Non serve l'antibiotico.", question: "What does the doctor say?", options: ["It's flu and antibiotics aren't needed.", "It's serious and needs antibiotics.", "It's flu and he prescribes antibiotics.", "He doesn't know what it is."], correctIndex: 0, explanation: "\"Non serve\" = it isn't needed." },
+          { type: "listen-choose", audio: "Niente di grave, è un'influenza. Non serve l'antibiotico.", question: "What does the doctor say?", options: ["It's the flu and antibiotics aren't needed.", "It's serious and needs antibiotics.", "It's the flu and he prescribes antibiotics.", "He doesn't know what it is."], correctIndex: 0, explanation: "\"Non serve\" = it isn't needed." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Nothing serious.", answer: "Niente di grave.", altAnswers: ["Nulla di grave.", "Non è niente di grave."], explanation: "\"Niente di\" + adjective." },
         ],
       },
@@ -537,7 +541,7 @@ export const IT_B1_U26: Lesson[] = [
         examples: [
           { es: "Se tra tre giorni non va meglio, mi richiami.", en: "If it's no better in three days, call me again." },
           { es: "Torni per un controllo tra due settimane.", en: "Come back for a check-up in two weeks." },
-          { es: "Se ha difficoltà a respirare, vada subito al pronto soccorso.", en: "If you have trouble breathing, go straight to A&E." },
+          { es: "Se ha difficoltà a respirare, vada subito al pronto soccorso.", en: "If you have trouble breathing, go straight to the ER." },
           { es: "Le faccio il certificato per il lavoro.", en: "I'll write you a sick note for work." },
         ],
         checkpoint: [
@@ -555,7 +559,7 @@ export const IT_B1_U26: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'll write you a sick note. (formal)", answer: "Le faccio il certificato.", altAnswers: ["Le faccio il certificato medico.", "Le faccio il certificato di malattia.", "Le scrivo il certificato."], explanation: "\"Fare il certificato a qualcuno\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You don't need antibiotics.", answer: "Non serve l'antibiotico.", altAnswers: ["Non servono antibiotici.", "Non servono gli antibiotici.", "Non c'è bisogno dell'antibiotico."], explanation: "\"Servire\" agrees with what is needed." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Eat plain food] for two days. (formal)", sentence: "___ per due giorni.", answer: "Mangi in bianco", explanation: "\"In bianco\": no sauces, light food." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If you have trouble breathing, [go] to A&E. (formal)", sentence: "Se ha difficoltà a respirare, ___ al pronto soccorso.", answer: "vada", explanation: "Lei imperative of \"andare\": \"vada\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If you have trouble breathing, [go] to the ER. (formal)", sentence: "Se ha difficoltà a respirare, ___ al pronto soccorso.", answer: "vada", explanation: "Lei imperative of \"andare\": \"vada\"." },
       { type: "word-order", prompt: "Put the words in order to say: With a bit of rest it goes away in a week.", words: ["Con", "un", "po'", "di", "riposo", "passa", "in", "una", "settimana."], translation: "With a bit of rest it goes away in a week.", explanation: "\"Passare\" = to go away (an illness)." },
       { type: "dictation", audio: "Se tra tre giorni non va meglio, mi richiami.", explanation: "\"Tra\" + time = in (the future)." },
       { type: "speak", text: "Allora, devo stare a riposo, bere molta acqua e prendere la tachipirina solo se ho più di trentotto. Giusto?", prompt: "Repeat back the instructions: So, I have to rest, drink a lot of water and take paracetamol only if I'm over 38. Right?", tip: "Read it back calmly: it shows the doctor you've understood.", explanation: "Checking instructions: \"devo\" + three infinitives." },
@@ -589,7 +593,7 @@ export const IT_B1_U26: Lesson[] = [
       {
         heading: "Droga, medicina, farmaco",
         body: [
-          "\"La droga\" means illegal drugs only. \"Ho comprato una droga in farmacia\" is alarming. Medicine is \"il farmaco\" or \"la medicina\"; a chemist's is \"la farmacia\". \"Il medicinale\" is the formal word on packaging.",
+          "\"La droga\" means illegal drugs only. \"Ho comprato una droga in farmacia\" is alarming. Medicine is \"il farmaco\" or \"la medicina\"; a pharmacy is \"la farmacia\". \"Il medicinale\" is the formal word on packaging.",
           "\"Ho male la testa\" is missing \"di\": \"ho mal di testa\" (\"male\" shortens to \"mal\"). And the health card is \"la tessera sanitaria\", never \"la tessera di salute\": \"sanitario\" is the adjective for health services.",
         ],
         examples: [
@@ -617,7 +621,7 @@ export const IT_B1_U26: Lesson[] = [
         ],
         checkpoint: [
           { type: "fill-blank", prompt: "A learner wrote \"mi fa male i piedi\". Write the Italian for the bold words.", en: "[My feet hurt].", sentence: "___ i piedi.", answer: "Mi fanno male", explanation: "Plural subject \"i piedi\": \"fanno\"." },
-          { type: "listen-choose", audio: "Sono andata dal medico stamattina.", question: "Where did she go?", options: ["to the doctor's", "to the hospital", "to the pharmacy", "to the doctor's house for dinner"], correctIndex: 0, explanation: "\"Dal\" + person = to their place (here, the surgery)." },
+          { type: "listen-choose", audio: "Sono andata dal medico stamattina.", question: "Where did she go?", options: ["to the doctor's", "to the hospital", "to the pharmacy", "to the doctor's house for dinner"], correctIndex: 0, explanation: "\"Dal\" + person = to their place (here, the doctor's office)." },
         ],
       },
     ],
@@ -641,7 +645,7 @@ export const IT_B1_U26: Lesson[] = [
     level: "IT-B1",
     number: 10,
     title: "Real-World Mission: Book a Visit",
-    summary: "Book a specialist visit by phone with the CUP and fill in the online booking form.",
+    summary: "Book a specialist visit by phone with the CUP and fill out the online booking form.",
     duration: "17 min",
     kind: "review",
     sections: [
@@ -654,7 +658,7 @@ export const IT_B1_U26: Lesson[] = [
         examples: [
           { es: "Buongiorno, vorrei prenotare una visita dermatologica.", en: "Good morning, I'd like to book a dermatology visit." },
           { es: "Mi dice il codice fiscale, per favore?", en: "Can you give me your tax code, please?" },
-          { es: "Il cognome è Clark: Como, Livorno, Ancona, Roma, Kappa.", en: "The surname is Clark: C, L, A, R, K." },
+          { es: "Il cognome è Clark: Como, Livorno, Ancona, Roma, Kappa.", en: "The last name is Clark: C, L, A, R, K." },
           { es: "Purtroppo quel giorno non posso, c'è un'altra data?", en: "Unfortunately I can't that day, is there another date?" },
         ],
         checkpoint: [
@@ -668,7 +672,7 @@ export const IT_B1_U26: Lesson[] = [
           "The operator confirms: \"Allora, visita dermatologica il 12 novembre alle 9:40, all'ospedale San Paolo, ambulatorio 3, primo piano. Il ticket è di 23 euro, da pagare prima della visita\". Repeat the key details back to check, and ask about anything missing: \"Devo portare qualcosa?\", \"Dove si paga il ticket?\".",
         ],
         examples: [
-          { es: "La visita è il 12 novembre alle 9:40.", en: "The visit is on 12 November at 9:40." },
+          { es: "La visita è il 12 novembre alle 9:40.", en: "The visit is on November 12 at 9:40." },
           { es: "Il ticket va pagato prima della visita.", en: "The co-payment must be paid before the visit." },
           { es: "Devo portare qualcosa?", en: "Do I need to bring anything?" },
           { es: "Porti l'impegnativa e la tessera sanitaria.", en: "Bring the referral and your health card." },
@@ -684,19 +688,19 @@ export const IT_B1_U26: Lesson[] = [
           "Online booking forms ask: \"Cognome\", \"Nome\", \"Codice fiscale\", \"Data di nascita\" (gg/mm/aaaa), \"Comune di residenza\", \"Recapito telefonico\", \"Numero ricetta (NRE)\", \"Classe di priorità\". At the end tick \"Dichiaro di aver letto l'informativa sulla privacy\" and press \"Conferma la prenotazione\".",
         ],
         examples: [
-          { es: "Data di nascita: 07/03/1990", en: "Date of birth: 7 March 1990" },
+          { es: "Data di nascita: 07/03/1990", en: "Date of birth: March 7, 1990" },
           { es: "Comune di residenza: Milano", en: "Town of residence: Milan" },
           { es: "Recapito telefonico: 333 1234567", en: "Contact phone number: 333 1234567" },
           { es: "Dichiaro di aver letto l'informativa sulla privacy.", en: "I declare that I have read the privacy notice." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Confirm the booking.", answer: "Conferma la prenotazione.", altAnswers: ["Confermare la prenotazione."], explanation: "Buttons use the tu imperative or the infinitive." },
-          { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "il cognome", right: "surname" }, { left: "la data di nascita", right: "date of birth" }, { left: "il recapito telefonico", right: "contact number" }, { left: "il comune di residenza", right: "town of residence" }], explanation: "Form fields." },
+          { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "il cognome", right: "last name" }, { left: "la data di nascita", right: "date of birth" }, { left: "il recapito telefonico", right: "contact number" }, { left: "il comune di residenza", right: "town of residence" }], explanation: "Form fields." },
         ],
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'd like to book an eye test.", answer: "Vorrei prenotare una visita oculistica.", altAnswers: ["Vorrei prenotare una visita dall'oculista.", "Vorrei prenotare una visita oculista."], explanation: "\"Visita\" + adjective of the specialism." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'd like to book an eye test.", answer: "Vorrei prenotare una visita oculistica.", altAnswers: ["Vorrei prenotare una visita dall'oculista.", "Vorrei prenotare una visita oculistica, per favore."], explanation: "\"Visita\" + adjective of the specialism." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I have a referral from my GP.", answer: "Ho l'impegnativa del medico di base.", altAnswers: ["Ho un'impegnativa del mio medico di base.", "Ho l'impegnativa del mio medico.", "Ho l'impegnativa del medico di famiglia."], explanation: "\"L'impegnativa\" = referral." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Is there another date?", answer: "C'è un'altra data?", altAnswers: ["Ci sono altre date?", "Avete un'altra data?"], explanation: "\"Un'altra\": feminine, with apostrophe." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Where do you pay the co-payment?", answer: "Dove si paga il ticket?", altAnswers: ["Dove pago il ticket?", "Dove devo pagare il ticket?"], explanation: "Impersonal \"si paga\"." },

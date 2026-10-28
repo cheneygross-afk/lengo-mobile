@@ -91,7 +91,7 @@ export const IT_A2_U01_EXTRA: Lesson[] = [
       { type: "multiple-choice", question: "We switched off the lights. Which is right?", options: ["Abbiamo spento le luci.", "Abbiamo spegnuto le luci.", "Abbiamo spente le luci.", "Abbiamo spento i luci."], correctIndex: 0, explanation: "\"Spegnere\" → \"spento\"; \"le luci\"." },
       { type: "listen-choose", audio: "Ho chiuso la porta e ho spento la luce.", question: "What did the speaker do?", options: ["closed the door and switched off the light", "opened the door and switched on the light", "closed the window and switched off the TV", "locked the door and lost the keys"], correctIndex: 0, explanation: "\"Chiuso\", \"spento\"." },
       { type: "dictation", audio: "Hai letto il messaggio? Sì, e ho risposto.", explanation: "\"Letto\", \"risposto\"." },
-      { type: "speak", text: "Ho perso le chiavi, ho chiesto aiuto e alla fine ho aperto la porta.", prompt: "Say it in Italian: I lost the keys, asked for help and in the end opened the door.", tip: "\"Chiesto\": KIES-to, hard ch.", explanation: "\"Perso\", \"chiesto\", \"aperto\"." },
+      { type: "speak", text: "Ho perso le chiavi, ho chiesto aiuto e alla fine ho aperto la porta.", prompt: "Say it in Italian: I lost the keys, asked for help and in the end opened the door.", tip: "\"Chiesto\": KYES-to, hard ch.", explanation: "\"Perso\", \"chiesto\", \"aperto\"." },
     ],
   },
   {

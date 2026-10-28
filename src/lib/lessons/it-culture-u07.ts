@@ -106,14 +106,14 @@ export const IT_CULTURE_U07: Lesson[] = [
           "In Neapolitan the article \"il\" becomes \"'o\" and \"la\" becomes \"'a\", with an apostrophe for the dropped l: \"'o sole\" is \"il sole\".",
         ],
         examples: [
-          { es: "In napoletano o sole vuol dire il sole.", en: "In Neapolitan, o sole means the sun." },
+          { es: "In napoletano 'o sole vuol dire il sole.", en: "In Neapolitan, 'o sole means the sun." },
           { es: "La canzone parla del sole e dell'amore.", en: "The song is about the sun and love." },
           { es: "Era la pubblicità di una funicolare.", en: "It was an ad for a funicular railway." },
           { es: "Il napoletano è una lingua.", en: "Neapolitan is a language." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The song is about the sun and love.", answer: "La canzone parla del sole e dell'amore.", altAnswers: ["La canzone parla del sole e d'amore."], explanation: "\"Parlare di\" = to be about." },
-          { type: "multiple-choice", question: "Why was \"Funiculì funiculà\" written?", options: ["To advertise the Vesuvius funicular", "For a royal wedding", "As a protest song", "For a football club"], correctIndex: 0, explanation: "It celebrated the new funicular railway." },
+          { type: "multiple-choice", question: "Why was \"Funiculì funiculà\" written?", options: ["To advertise the Vesuvius funicular", "For a royal wedding", "As a protest song", "For a soccer club"], correctIndex: 0, explanation: "It celebrated the new funicular railway." },
         ],
       },
       {
@@ -232,7 +232,7 @@ export const IT_CULTURE_U07: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The lyrics are beautiful.", answer: "Il testo è bellissimo.", altAnswers: ["Le parole sono bellissime.", "Il testo è molto bello."], explanation: "Italian uses the singular: \"il testo\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "At parties we all sing together.", answer: "Alle feste cantiamo tutti insieme.", explanation: "\"Alle feste\" = at parties." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "A cantautore writes [his own songs].", sentence: "Un cantautore scrive ___.", answer: "le sue canzoni", altAnswers: ["le proprie canzoni"], explanation: "\"Le sue\" = his own." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Battisti [almost never] gave interviews.", sentence: "Battisti ___ dava interviste.", answer: "non quasi mai", altAnswers: ["quasi mai"], explanation: "\"Quasi mai\" = almost never; \"non\" is optional before it here." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Battisti [almost never] gave interviews.", sentence: "Battisti non dava ___ interviste.", answer: "quasi mai", explanation: "\"Non... quasi mai\" = almost never: \"non\" before the verb, \"quasi mai\" after it." },
       { type: "word-order", prompt: "Put the words in order to say: It won the Sanremo Festival in 1958.", words: ["Ha", "vinto", "il", "Festival", "di", "Sanremo", "nel", "1958."], translation: "It won the Sanremo Festival in 1958.", explanation: "\"Vincere\" → \"vinto\"." },
       {
         type: "matching",
@@ -262,7 +262,7 @@ export const IT_CULTURE_U07: Lesson[] = [
         heading: "Il Festival",
         body: [
           "\"Il Festival della Canzone Italiana\", held every year since 1951 in Sanremo, a town on the Ligurian coast, is the biggest event of Italian television. For five evenings in February, on RAI, artists compete with new songs in the Teatro Ariston, its home since 1977. Shows run past midnight and half the country watches, or pretends not to.",
-          "Everyone has an opinion: the songs, the outfits, the hosts, the scandals, the voting. Offices discuss it the next morning as they discuss a football match.",
+          "Everyone has an opinion: the songs, the outfits, the hosts, the scandals, the voting. Offices discuss it the next morning as they discuss a soccer game.",
         ],
         examples: [
           { es: "Il Festival si fa ogni anno a febbraio.", en: "The Festival is held every February." },
@@ -456,7 +456,7 @@ export const IT_CULTURE_U07: Lesson[] = [
       {
         heading: "Concerti e festival",
         body: [
-          "On 1 May, Labor Day, the unions organize \"il Concertone\" in Piazza San Giovanni in Rome: a free concert from afternoon to night, broadcast live on RAI, with dozens of artists and a huge crowd.",
+          "On 1 May, Labor Day, the unions organize \"il Concertone\" in Rome, traditionally in Piazza San Giovanni (in recent years at the Circo Massimo): a free concert from afternoon to night, broadcast live on RAI, with dozens of artists and a huge crowd.",
           "In summer, the big names fill the stadiums, from San Siro in Milan to the Olimpico in Rome, and Italians sing every word. Smaller artists tour \"i palazzetti\" (indoor sports arenas) and summer festivals in squares and on beaches.",
         ],
         examples: [
@@ -567,7 +567,7 @@ export const IT_CULTURE_U07: Lesson[] = [
         explanation: "Monteverdi was born in Cremona too, and worked in Mantua and Venice.",
       },
       { type: "dictation", audio: "Questo violino è fatto a mano.", explanation: "\"Fatto a mano\": two t's." },
-      { type: "speak", text: "A Cremona i liutai costruiscono ancora i violini a mano.", prompt: "Say it in Italian: In Cremona the violin makers still build violins by hand.", tip: "Liu-TA-i: three syllables after \"li\".", explanation: "\"Ancora\" = still." },
+      { type: "speak", text: "A Cremona i liutai costruiscono ancora i violini a mano.", prompt: "Say it in Italian: In Cremona the violin makers still build violins by hand.", tip: "Liu-TA-i: three syllables, stress on -ta-.", explanation: "\"Ancora\" = still." },
     ],
   },
   {

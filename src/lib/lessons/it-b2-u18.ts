@@ -21,6 +21,7 @@ export const IT_B2_U18: Lesson[] = [
         body: [
           "An Italian argumentative text (\"testo argomentativo\") has five parts: \"introduzione\", \"tesi\" (your position), \"argomenti\" (reasons), \"antitesi\" (the opposing view) and \"conclusione\". The introduction presents the topic and why it matters: \"Negli ultimi anni si parla sempre di più di ...\" (In recent years there has been more and more talk of ...).",
           "The thesis states your position clearly, usually at the end of the introduction: \"Personalmente ritengo che ...\", \"A mio avviso ...\", \"Sono convinto che ...\". Opinion verbs (\"ritenere\", \"credere\", \"pensare\") take the subjunctive: \"Ritengo che sia necessario ...\"",
+          "Italian schools train students to write a \"scaletta\" (an outline) before the \"tema\": five lines, one per part, with the key word of each argument. Do the same in an exam: it takes three minutes and keeps the text \"coerente\" (logically consistent). And vary the opinion phrases: \"ritengo\", \"credo\", \"sono convinto\", \"a mio avviso\". Never combine two of them: \"A mio avviso penso che\" says the same thing twice.",
         ],
         examples: [
           { es: "Negli ultimi anni si parla sempre di più di lavoro a distanza.", en: "In recent years there has been more and more talk of remote work." },
@@ -44,7 +45,7 @@ export const IT_B2_U18: Lesson[] = [
             prompt: "Translate into Italian.",
             source: "Personally, I believe the advantages outweigh the disadvantages.",
             answer: "Personalmente ritengo che i vantaggi siano superiori agli svantaggi.",
-            altAnswers: ["Personalmente credo che i vantaggi siano superiori agli svantaggi.", "Personalmente ritengo che i vantaggi superino gli svantaggi."],
+            altAnswers: ["Personalmente credo che i vantaggi siano superiori agli svantaggi.", "Personalmente penso che i vantaggi siano superiori agli svantaggi.", "Personalmente ritengo che i vantaggi superino gli svantaggi."],
             explanation: "\"Ritenere che\" + subjunctive.",
           },
         ],
@@ -149,10 +150,11 @@ export const IT_B2_U18: Lesson[] = [
         body: [
           "To list arguments: \"innanzitutto\" or \"in primo luogo\" (first of all), \"in secondo luogo\" (secondly), \"in terzo luogo\", and \"infine\" (finally). \"Innanzitutto\" is one word and stresses that the first point is the most important.",
           "Keep the series consistent: if you start with \"in primo luogo\", continue with \"in secondo luogo\". Don't mix \"prima\" and \"poi\" in a formal essay: they belong to narratives and instructions.",
+          "Two traps for English speakers. \"Finalmente\" is not finally in a list: it means at last, after a long wait (\"Finalmente è arrivato!\"); for the last argument use \"infine\" or \"da ultimo\". And punctuation: an opening connector takes a comma (\"Inoltre, ...\", \"Innanzitutto, ...\"), but \"e\", \"ma\" and \"però\" do not.",
         ],
         examples: [
-          { es: "Innanzitutto, lo sport fa bene alla salute.", en: "First of all, sport is good for your health." },
-          { es: "In secondo luogo, aiuta a socializzare.", en: "Secondly, it helps people socialise." },
+          { es: "Innanzitutto, lo sport fa bene alla salute.", en: "First of all, sports are good for your health." },
+          { es: "In secondo luogo, aiuta a socializzare.", en: "Secondly, it helps people socialize." },
           { es: "In terzo luogo, insegna il rispetto delle regole.", en: "Thirdly, it teaches respect for the rules." },
           { es: "Infine, è un ottimo modo per ridurre lo stress.", en: "Finally, it is an excellent way to reduce stress." },
         ],
@@ -161,7 +163,7 @@ export const IT_B2_U18: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Italian.",
-            source: "First of all, sport is good for your health.",
+            source: "First of all, sports are good for your health.",
             answer: "Innanzitutto, lo sport fa bene alla salute.",
             altAnswers: ["In primo luogo, lo sport fa bene alla salute.", "Innanzi tutto, lo sport fa bene alla salute."],
             explanation: "\"Innanzitutto\" or \"in primo luogo\".",
@@ -169,7 +171,7 @@ export const IT_B2_U18: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Italian for the bold words.",
-            en: "[Secondly], it helps people socialise.",
+            en: "[Secondly], it helps people socialize.",
             sentence: "___, aiuta a socializzare.",
             answer: "In secondo luogo",
             explanation: "Continue the series.",
@@ -183,9 +185,9 @@ export const IT_B2_U18: Lesson[] = [
           "\"Inoltre\" usually opens the sentence and takes a comma. \"Non solo ... ma anche\" frames two points in one sentence: \"Lo sport non solo migliora la salute, ma anche l'umore.\"",
         ],
         examples: [
-          { es: "Inoltre, praticare sport costa poco.", en: "Furthermore, doing sport costs little." },
+          { es: "Inoltre, praticare sport costa poco.", en: "Furthermore, playing sports costs little." },
           { es: "Oltre a ciò, si può fare a qualsiasi età.", en: "Besides this, you can do it at any age." },
-          { es: "Lo sport non solo migliora la salute, ma anche l'umore.", en: "Sport not only improves your health but also your mood." },
+          { es: "Lo sport non solo migliora la salute, ma anche l'umore.", en: "Sports not only improve your health but also your mood." },
           { es: "Per di più, molti comuni offrono corsi gratuiti.", en: "What's more, many towns offer free courses." },
         ],
         checkpoint: [
@@ -193,7 +195,7 @@ export const IT_B2_U18: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Italian.",
-            source: "Sport not only improves your health but also your mood.",
+            source: "Sports not only improve your health but also your mood.",
             answer: "Lo sport non solo migliora la salute, ma anche l'umore.",
             altAnswers: ["Lo sport migliora non solo la salute, ma anche l'umore.", "Lo sport non solo migliora la salute ma anche l'umore."],
             explanation: "\"Non solo ... ma anche\".",
@@ -202,7 +204,7 @@ export const IT_B2_U18: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Italian.",
-            source: "Furthermore, doing sport costs little.",
+            source: "Furthermore, playing sports costs little.",
             answer: "Inoltre, praticare sport costa poco.",
             altAnswers: ["Inoltre, fare sport costa poco.", "Inoltre praticare sport costa poco."],
             explanation: "\"Inoltre\" + comma.",
@@ -250,7 +252,7 @@ export const IT_B2_U18: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[For all the reasons set out], I support this proposal.", sentence: "___, sostengo questa proposta.", answer: "Per tutti i motivi illustrati", altAnswers: ["Per tutti i motivi esposti"], explanation: "Link back to the arguments." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It's not expensive; [indeed], it's free.", sentence: "Non è caro; ___, è gratuito.", answer: "anzi", explanation: "\"Anzi\" = indeed, or rather." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Above all], it is fun.", sentence: "___, è divertente.", answer: "Soprattutto", explanation: "\"Soprattutto\" reinforces." },
-      { type: "word-order", prompt: "Put the words in order to say: Secondly, it helps people socialise.", words: ["In", "secondo", "luogo,", "aiuta", "a", "socializzare."], translation: "Secondly, it helps people socialise.", explanation: "\"Aiutare a\" + infinitive." },
+      { type: "word-order", prompt: "Put the words in order to say: Secondly, it helps people socialize.", words: ["In", "secondo", "luogo,", "aiuta", "a", "socializzare."], translation: "Secondly, it helps people socialize.", explanation: "\"Aiutare a\" + infinitive." },
       { type: "multiple-choice", question: "You wrote \"In primo luogo\". What comes next?", options: ["In secondo luogo", "Poi", "Dopo", "Prima"], correctIndex: 0, explanation: "Keep the series consistent." },
       { type: "listen-choose", audio: "Innanzitutto, lo sport fa bene alla salute. Inoltre, aiuta a socializzare. Infine, riduce lo stress.", question: "How many arguments does the speaker give?", options: ["Three", "Two", "Four", "One"], correctIndex: 0, explanation: "\"Innanzitutto\", \"inoltre\", \"infine\"." },
       { type: "dictation", audio: "In primo luogo, lo sport fa bene alla salute; in secondo luogo, aiuta a socializzare.", explanation: "Ordering connectors." },
@@ -341,6 +343,7 @@ export const IT_B2_U18: Lesson[] = [
         body: [
           "Turn personal statements into objective ones. \"Io penso che i giovani leggano poco\" → \"Si ritiene che i giovani leggano poco\" or \"Secondo diverse indagini, i giovani leggono poco\". \"Secondo me è sbagliato\" → \"Appare evidente che si tratta di un errore\".",
           "Keep \"io\" for the thesis and the conclusion, where your opinion belongs. In the body, let facts and impersonal forms speak.",
+          "Watch agreement with the impersonal \"si\". With a plural noun, the verb is plural: \"Si sono registrati forti aumenti\", \"Si osservano differenze notevoli\". The passive with \"venire\" (\"viene sottolineato\") works only in simple tenses: for the perfect use \"essere\" (\"è stato sottolineato\"), never *\"è venuto sottolineato\".",
         ],
         examples: [
           { es: "Secondo diverse indagini, i giovani leggono poco.", en: "According to several surveys, young people read little." },
@@ -372,7 +375,7 @@ export const IT_B2_U18: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Schools ought to take action.", answer: "È opportuno che le scuole intervengano.", altAnswers: ["Sarebbe opportuno che le scuole intervenissero.", "È necessario che le scuole intervengano."], explanation: "\"È opportuno che\" + subjunctive." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It can be said that the situation has improved.", answer: "Si può affermare che la situazione è migliorata.", altAnswers: ["Si può dire che la situazione è migliorata.", "Si può affermare che la situazione sia migliorata."], explanation: "Impersonal \"si può\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It can be said that the situation has improved.", answer: "Si può affermare che la situazione è migliorata.", altAnswers: ["Si può dire che la situazione è migliorata."], explanation: "Impersonal \"si può\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "According to some studies, reading reduces stress.", answer: "Secondo alcuni studi, leggere riduce lo stress.", altAnswers: ["Secondo alcuni studi, la lettura riduce lo stress."], explanation: "\"Secondo\" + source." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "According to the latest data, the number of readers is falling.", answer: "Secondo i dati più recenti, il numero di lettori è in calo.", altAnswers: ["Secondo gli ultimi dati, il numero di lettori è in calo.", "Secondo i dati più recenti, il numero dei lettori è in calo.", "Secondo i dati più recenti, il numero di lettori sta diminuendo."], explanation: "\"Essere in calo\" = to be falling." },
       { type: "translate", direction: "en-es", prompt: "Rewrite \"Io penso che i giovani leggano poco\" objectively: According to several surveys, young people read little.", source: "According to several surveys, young people read little.", answer: "Secondo diverse indagini, i giovani leggono poco.", altAnswers: ["Secondo varie indagini, i giovani leggono poco.", "Secondo diversi sondaggi, i giovani leggono poco."], explanation: "A source replaces \"io penso\"." },
@@ -438,6 +441,7 @@ export const IT_B2_U18: Lesson[] = [
         body: [
           "Concede, then answer: \"È vero che ...; tuttavia ...\", \"Pur ammettendo che ..., bisogna considerare che ...\" (While admitting that ...), \"Sebbene ... (subjunctive), ...\". The concession shows fairness; the answer keeps your position.",
           "Strong answers use facts or a reframing: \"Tuttavia, i dati dimostrano il contrario\", \"Si tratta però di un problema che si può risolvere\", \"Ciononostante, i vantaggi restano maggiori.\"",
+          "Mind the mood. \"È vero che\" takes the indicative because you accept the fact; \"Non è vero che\" takes the subjunctive (\"Non è vero che il lavoro da casa riduca la produttività\"). \"Anche se\" takes the indicative, while \"sebbene\", \"benché\" and \"nonostante\" take the subjunctive. \"Pur\" + gerund needs the same subject in both clauses: \"Pur ammettendo i rischi, sostengo il progetto\" (I admit, I support).",
         ],
         examples: [
           { es: "È vero che i costi iniziali sono alti; tuttavia, si recuperano in pochi anni.", en: "It is true that the initial costs are high; however, they are recovered within a few years." },
@@ -509,7 +513,7 @@ export const IT_B2_U18: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "This argument [does not take into account] the data.", sentence: "Questo argomento ___ dati.", answer: "non tiene conto dei", explanation: "\"Tenere conto di\" + \"i\"." },
       { type: "word-order", prompt: "Put the words in order to say: There are those who argue the opposite.", words: ["C'è", "chi", "sostiene", "il", "contrario."], translation: "There are those who argue the opposite.", explanation: "\"C'è chi\" + singular verb." },
       { type: "multiple-choice", question: "Which phrase concedes a point?", options: ["È vero che ...", "In primo luogo ...", "In conclusione ...", "Ne è un esempio ..."], correctIndex: 0, explanation: "Concession before \"tuttavia\"." },
-      { type: "listen-choose", audio: "Pur ammettendo che esistono dei rischi, ritengo che i benefici siano maggiori.", question: "What is the speaker's position?", options: ["In favour, despite the risks", "Against, because of the risks", "Undecided", "Indifferent"], correctIndex: 0, explanation: "Concession, then the thesis." },
+      { type: "listen-choose", audio: "Pur ammettendo che esistono dei rischi, ritengo che i benefici siano maggiori.", question: "What is the speaker's position?", options: ["In favor, despite the risks", "Against, because of the risks", "Undecided", "Indifferent"], correctIndex: 0, explanation: "Concession, then the thesis." },
       { type: "dictation", audio: "Qualcuno potrebbe obiettare che i costi sono alti; tuttavia, si recuperano in pochi anni.", explanation: "Objection + answer." },
       {
         type: "speak",
@@ -548,7 +552,7 @@ export const IT_B2_U18: Lesson[] = [
             prompt: "Translate into Italian.",
             source: "I am convinced that schools must change. (a man writing)",
             answer: "Sono convinto che la scuola debba cambiare.",
-            altAnswers: ["Sono convinto che le scuole debbano cambiare.", "Sono convinto che la scuola deve cambiare."],
+            altAnswers: ["Sono convinto che le scuole debbano cambiare."],
             explanation: "\"Essere convinto che\" + subjunctive.",
           },
           {
@@ -567,7 +571,7 @@ export const IT_B2_U18: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In my view, homework should be reduced.", answer: "A mio avviso, i compiti a casa dovrebbero essere ridotti.", altAnswers: ["A mio avviso, bisognerebbe ridurre i compiti a casa.", "A mio parere, i compiti a casa dovrebbero essere ridotti.", "A mio avviso, i compiti dovrebbero essere ridotti."], explanation: "Conditional for a recommendation." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I believe that students need more free time.", answer: "Ritengo che gli studenti abbiano bisogno di più tempo libero.", altAnswers: ["Credo che gli studenti abbiano bisogno di più tempo libero.", "Ritengo che gli studenti necessitino di più tempo libero."], explanation: "\"Ritenere che\" + subjunctive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "First of all, homework causes stress.", answer: "Innanzitutto, i compiti causano stress.", altAnswers: ["In primo luogo, i compiti causano stress.", "Innanzitutto, i compiti a casa causano stress."], explanation: "Order marker." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Furthermore, it takes time away from sport.", answer: "Inoltre, toglie tempo allo sport.", altAnswers: ["Inoltre, sottrae tempo allo sport.", "Inoltre toglie tempo allo sport."], explanation: "\"Togliere tempo a\" = to take time away from." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Furthermore, it takes time away from sports.", answer: "Inoltre, toglie tempo allo sport.", altAnswers: ["Inoltre, sottrae tempo allo sport.", "Inoltre toglie tempo allo sport."], explanation: "\"Togliere tempo a\" = to take time away from." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Just think of the countries of northern Europe.", answer: "Basti pensare ai paesi del Nord Europa.", altAnswers: ["Basta pensare ai paesi del Nord Europa.", "Basti pensare ai paesi del Nord dell'Europa."], explanation: "\"Basti pensare a\" + \"i\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It has been shown that sleep improves learning.", answer: "È stato dimostrato che il sonno migliora l'apprendimento.", altAnswers: ["È stato dimostrato che dormire migliora l'apprendimento."], explanation: "Passive for evidence." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Some might object that homework teaches discipline.", answer: "Qualcuno potrebbe obiettare che i compiti insegnano la disciplina.", altAnswers: ["Qualcuno potrebbe obiettare che i compiti insegnino la disciplina.", "Qualcuno potrebbe obiettare che i compiti a casa insegnano la disciplina."], explanation: "Hypothetical objection." },
@@ -586,7 +590,7 @@ export const IT_B2_U18: Lesson[] = [
       {
         type: "speak",
         text: "A mio avviso, i compiti a casa andrebbero ridotti. Innanzitutto, causano stress. Inoltre, tolgono tempo allo sport.",
-        prompt: "Present a short argument: In my view, homework should be reduced. First of all, it causes stress. Furthermore, it takes time away from sport.",
+        prompt: "Present a short argument: In my view, homework should be reduced. First of all, it causes stress. Furthermore, it takes time away from sports.",
         tip: "\"Andrebbero\": an-DREB-be-ro, double b.",
         explanation: "\"Andare\" + participle in the conditional = should be.",
       },
@@ -640,9 +644,9 @@ export const IT_B2_U18: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Write the example in Italian.", source: "Just think of cities like Zurich.", answer: "Basti pensare a città come Zurigo.", altAnswers: ["Basta pensare a città come Zurigo."], explanation: "\"Basti pensare a\"." },
       { type: "translate", direction: "en-es", prompt: "Write the topic sentence in Italian.", source: "Secondly, cycling improves health.", answer: "In secondo luogo, andare in bicicletta migliora la salute.", altAnswers: ["In secondo luogo, andare in bici migliora la salute.", "In secondo luogo, la bicicletta migliora la salute."], explanation: "Second argument." },
       { type: "translate", direction: "en-es", prompt: "Write the explanation in Italian.", source: "Indeed, it is a form of daily physical activity.", answer: "Infatti, si tratta di una forma di attività fisica quotidiana.", altAnswers: ["Infatti, è una forma di attività fisica quotidiana."], explanation: "\"Infatti\" + \"si tratta di\"." },
-      { type: "translate", direction: "en-es", prompt: "Write the evidence in Italian.", source: "According to some studies, those who cycle to work are ill less often.", answer: "Secondo alcuni studi, chi va al lavoro in bicicletta si ammala meno spesso.", altAnswers: ["Secondo alcuni studi, chi va al lavoro in bici si ammala meno spesso.", "Secondo alcuni studi, chi va a lavorare in bicicletta si ammala meno spesso."], explanation: "\"Chi\" + singular verb." },
-      { type: "translate", direction: "en-es", prompt: "Write the link in Italian.", source: "Therefore, cities should invest in cycle lanes.", answer: "Pertanto, le città dovrebbero investire nelle piste ciclabili.", altAnswers: ["Di conseguenza, le città dovrebbero investire nelle piste ciclabili.", "Pertanto le città dovrebbero investire in piste ciclabili."], explanation: "Conditional for a recommendation." },
-      { type: "translate", direction: "en-es", prompt: "Write the topic sentence in Italian.", source: "Finally, green spaces make cities more liveable.", answer: "Infine, gli spazi verdi rendono le città più vivibili.", altAnswers: ["Infine, le aree verdi rendono le città più vivibili."], explanation: "\"Rendere\" + adjective." },
+      { type: "translate", direction: "en-es", prompt: "Write the evidence in Italian.", source: "According to some studies, those who cycle to work get sick less often.", answer: "Secondo alcuni studi, chi va al lavoro in bicicletta si ammala meno spesso.", altAnswers: ["Secondo alcuni studi, chi va al lavoro in bici si ammala meno spesso.", "Secondo alcuni studi, chi va a lavorare in bicicletta si ammala meno spesso."], explanation: "\"Chi\" + singular verb." },
+      { type: "translate", direction: "en-es", prompt: "Write the link in Italian.", source: "Therefore, cities should invest in bike lanes.", answer: "Pertanto, le città dovrebbero investire nelle piste ciclabili.", altAnswers: ["Di conseguenza, le città dovrebbero investire nelle piste ciclabili.", "Pertanto le città dovrebbero investire in piste ciclabili."], explanation: "Conditional for a recommendation." },
+      { type: "translate", direction: "en-es", prompt: "Write the topic sentence in Italian.", source: "Finally, green spaces make cities more livable.", answer: "Infine, gli spazi verdi rendono le città più vivibili.", altAnswers: ["Infine, le aree verdi rendono le città più vivibili."], explanation: "\"Rendere\" + adjective." },
       { type: "translate", direction: "en-es", prompt: "Write the explanation in Italian.", source: "Indeed, they reduce heat and noise.", answer: "Infatti, riducono il caldo e il rumore.", altAnswers: ["Infatti, riducono il calore e il rumore.", "Infatti riducono il caldo e il rumore."], explanation: "\"Infatti\" confirms." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Indeed], each tree absorbs CO2.", sentence: "___, ogni albero assorbe CO2.", answer: "Infatti", explanation: "Explains the claim." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[An example of this is] Milan's new park.", sentence: "___ il nuovo parco di Milano.", answer: "Ne è un esempio", explanation: "\"Ne\" = of this." },
@@ -657,7 +661,7 @@ export const IT_B2_U18: Lesson[] = [
       {
         type: "speak",
         text: "In secondo luogo, andare in bicicletta migliora la salute. Infatti, è una forma di attività fisica quotidiana. Pertanto, le città dovrebbero investire nelle piste ciclabili.",
-        prompt: "Say a full paragraph: Secondly, cycling improves health. Indeed, it's a form of daily physical activity. Therefore, cities should invest in cycle lanes.",
+        prompt: "Say a full paragraph: Secondly, cycling improves health. Indeed, it's a form of daily physical activity. Therefore, cities should invest in bike lanes.",
         tip: "\"Ciclabili\": chi-KLA-bi-li.",
         explanation: "Topic, explanation, consequence.",
       },
@@ -797,7 +801,7 @@ export const IT_B2_U18: Lesson[] = [
     level: "IT-B2",
     number: 8,
     title: "Reading Lab: A Model Essay",
-    summary: "Analyse a model argumentative text on smartphones at school: find the thesis, the arguments, the counterargument and the conclusion.",
+    summary: "Analyze a model argumentative text on smartphones at school: find the thesis, the arguments, the counterargument and the conclusion.",
     duration: "18 min",
     sections: [
       {
@@ -879,9 +883,9 @@ export const IT_B2_U18: Lesson[] = [
       {
         type: "speak",
         text: "Il testo sostiene che il telefono vada vietato durante le lezioni, perché distrae gli studenti. Tuttavia, propone di insegnare a usarlo in modo consapevole.",
-        prompt: "Summarise the essay: The text argues that phones should be banned during lessons, because they distract students. However, it proposes teaching responsible use.",
+        prompt: "Summarize the essay: The text argues that phones should be banned during lessons, because they distract students. However, it proposes teaching responsible use.",
         tip: "\"Consapevole\": kon-sa-PE-vo-le.",
-        explanation: "Summarising with \"sostenere che\".",
+        explanation: "Summarizing with \"sostenere che\".",
       },
     ],
   },
@@ -902,7 +906,7 @@ export const IT_B2_U18: Lesson[] = [
         ],
         examples: [
           { es: "Negli ultimi anni lo smart working si è diffuso in molte aziende.", en: "In recent years smart working has spread in many companies." },
-          { es: "A mio avviso, si tratta di un'opportunità, a patto che sia ben organizzato.", en: "In my view, it is an opportunity, provided it is well organised." },
+          { es: "A mio avviso, si tratta di un'opportunità, a patto che sia ben organizzato.", en: "In my view, it is an opportunity, provided it is well organized." },
           { es: "In primo luogo, permette di risparmiare tempo e denaro.", en: "Firstly, it saves time and money." },
           { es: "Inoltre, favorisce l'equilibrio tra vita privata e lavoro.", en: "Furthermore, it encourages a work-life balance." },
         ],
@@ -911,7 +915,7 @@ export const IT_B2_U18: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Italian.",
-            source: "In my view, it is an opportunity, provided it is well organised.",
+            source: "In my view, it is an opportunity, provided it is well organized.",
             answer: "A mio avviso, si tratta di un'opportunità, a patto che sia ben organizzato.",
             altAnswers: ["A mio avviso, è un'opportunità, a patto che sia ben organizzato.", "A mio avviso, si tratta di un'opportunità, purché sia ben organizzato."],
             explanation: "\"A patto che\" + subjunctive.",
@@ -965,7 +969,7 @@ export const IT_B2_U18: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It is true that working from home can lead to isolation.", answer: "È vero che lavorare da casa può portare all'isolamento.", altAnswers: ["È vero che il lavoro da casa può portare all'isolamento."], explanation: "Concession." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It can be hard to switch off from work.", answer: "Può essere difficile staccare dal lavoro.", altAnswers: ["Può risultare difficile staccare dal lavoro."], explanation: "\"Staccare\" = to switch off." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Companies should provide suitable tools.", answer: "Le aziende dovrebbero fornire strumenti adeguati.", altAnswers: ["Le aziende dovrebbero mettere a disposizione strumenti adeguati."], explanation: "Conditional + \"fornire\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It is an opportunity, [provided it is] well organised.", sentence: "È un'opportunità, ___ ben organizzato.", answer: "a patto che sia", altAnswers: ["purché sia", "a condizione che sia"], explanation: "Condition + subjunctive." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It is an opportunity, [provided it is] well organized.", sentence: "È un'opportunità, ___ ben organizzato.", answer: "a patto che sia", altAnswers: ["purché sia", "a condizione che sia"], explanation: "Condition + subjunctive." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[It would be enough] to alternate days.", sentence: "___ alternare i giorni.", answer: "Basterebbe", altAnswers: ["Sarebbe sufficiente"], explanation: "Conditional." },
       { type: "word-order", prompt: "Put the words in order to say: I believe the hybrid model is the best solution.", words: ["Ritengo", "che", "il", "modello", "ibrido", "sia", "la", "soluzione", "migliore."], translation: "I believe the hybrid model is the best solution.", explanation: "Subjunctive after \"ritengo\"." },
       { type: "multiple-choice", question: "Which sentence belongs in the conclusion?", options: ["In conclusione, ritengo che il modello ibrido sia la soluzione migliore.", "In primo luogo, si risparmia tempo.", "Negli ultimi anni lo smart working si è diffuso.", "Basti pensare al traffico."], correctIndex: 0, explanation: "Restated thesis." },
@@ -984,14 +988,14 @@ export const IT_B2_U18: Lesson[] = [
     level: "IT-B2",
     number: 10,
     title: "CILS DUE: Argumentative Task",
-    summary: "Practise a CILS DUE-style argumentative task on tourism in historic cities, with a plan and a model answer.",
+    summary: "Practice a CILS DUE-style argumentative task on tourism in historic cities, with a plan and a model answer.",
     duration: "18 min",
     sections: [
       {
         heading: "The task",
         body: [
           "A CILS DUE-style argumentative task: \"Molte città d'arte italiane sono invase dai turisti. Secondo alcuni bisognerebbe limitare gli ingressi, secondo altri il turismo è una risorsa. Esprimi la tua opinione.\" Check the current word count and timing in the official CILS guidelines.",
-          "Examiners look for a clear position, organised paragraphs, connectors, and accurate grammar, especially the subjunctive. Plan briefly: thesis; two arguments; one counterargument; conclusion. Key vocabulary: \"il turismo di massa\", \"il numero chiuso\" (capped entry), \"i residenti\", \"le entrate\" (revenue).",
+          "Examiners look for a clear position, organized paragraphs, connectors, and accurate grammar, especially the subjunctive. Plan briefly: thesis; two arguments; one counterargument; conclusion. Key vocabulary: \"il turismo di massa\", \"il numero chiuso\" (capped entry), \"i residenti\", \"le entrate\" (revenue).",
         ],
         examples: [
           { es: "Molte città d'arte italiane sono invase dai turisti.", en: "Many Italian art cities are overrun by tourists." },
@@ -1186,8 +1190,8 @@ export const IT_B2_U18: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm looking for a flat that has a balcony.", answer: "Cerco un appartamento che abbia il balcone.", altAnswers: ["Cerco un appartamento che abbia un balcone.", "Sto cercando un appartamento che abbia il balcone."], explanation: "Subjunctive: not yet found." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Whoever calls, tell them I'm out.", answer: "Chiunque chiami, digli che sono uscito.", altAnswers: ["Chiunque chiami, di' che sono uscito.", "Chiunque chiami, digli che sono uscita.", "Chiunque chiami, dite che sono uscito."], explanation: "\"Chiunque\" + subjunctive." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm looking for an apartment that has a balcony.", answer: "Cerco un appartamento che abbia il balcone.", altAnswers: ["Cerco un appartamento che abbia un balcone.", "Sto cercando un appartamento che abbia il balcone."], explanation: "Subjunctive: not yet found." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Whoever calls, tell them I'm out.", answer: "Chiunque chiami, digli che sono uscito.", altAnswers: ["Chiunque chiami, di' che sono uscito.", "Chiunque chiami, digli che sono uscita.", "Chiunque chiami, dite che sono uscito.", "Chiunque chiami, di' che sono uscita."], explanation: "\"Chiunque\" + subjunctive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She told me to wait.", answer: "Mi ha detto di aspettare.", altAnswers: ["Mi ha detto che aspettassi.", "Mi disse di aspettare."], explanation: "Reported imperative: \"di\" + infinitive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "After arriving, Anna called her mother.", answer: "Dopo essere arrivata, Anna ha chiamato sua madre.", altAnswers: ["Arrivata, Anna ha chiamato sua madre.", "Dopo essere arrivata, Anna ha telefonato a sua madre."], explanation: "Past infinitive with \"essere\" agrees." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Since it was raining, we stayed at home.", answer: "Siccome pioveva, siamo rimasti a casa.", altAnswers: ["Dato che pioveva, siamo rimasti a casa.", "Visto che pioveva, siamo rimasti a casa.", "Siccome pioveva, siamo restati a casa."], explanation: "\"Siccome\" at the start." },

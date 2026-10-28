@@ -17,18 +17,18 @@ export const IT_C1_U14_EXTRA: Lesson[] = [
       {
         heading: "Four dates of the Republic",
         body: [
-          "On March 25, 1957 Italy signed the Treaties of Rome with five other countries, founding the European Economic Community. On November 4, 1966 the Arno flooded Florence; thousands of young volunteers from Italy and abroad, \"gli angeli del fango\" (the mud angels), rescued books and paintings.",
-          "In May 1974 Italians voted in a referendum on whether to abolish the new divorce law: almost 60 per cent voted to keep it. On November 23, 1980 an earthquake struck Irpinia and Basilicata, killing nearly three thousand people; the slow rescue caused national outrage.",
+          "On March 25, 1957, Italy signed the Treaties of Rome with five other countries, founding the European Economic Community. On November 4, 1966, the Arno flooded Florence; thousands of young volunteers from Italy and abroad, \"gli angeli del fango\" (the mud angels), rescued books and paintings.",
+          "In May 1974 Italians voted in a referendum on whether to abolish the new divorce law: almost 60 percent voted to keep it. On November 23, 1980, an earthquake struck Irpinia and Basilicata, killing nearly three thousand people; the slow rescue caused national outrage.",
         ],
         examples: [
-          { es: "Il 25 marzo 1957 l'Italia firmò i Trattati di Roma.", en: "On March 25, 1957 Italy signed the Treaties of Rome." },
-          { es: "Il 4 novembre 1966 l'Arno allagò Firenze.", en: "On November 4, 1966 the Arno flooded Florence." },
+          { es: "Il 25 marzo 1957 l'Italia firmò i Trattati di Roma.", en: "On March 25, 1957, Italy signed the Treaties of Rome." },
+          { es: "Il 4 novembre 1966 l'Arno allagò Firenze.", en: "On November 4, 1966, the Arno flooded Florence." },
           { es: "Migliaia di volontari salvarono libri e quadri dal fango.", en: "Thousands of volunteers saved books and paintings from the mud." },
-          { es: "Nel 1974 quasi il 60 per cento votò per mantenere il divorzio.", en: "In 1974 almost 60 per cent voted to keep divorce." },
+          { es: "Nel 1974 quasi il 60 per cento votò per mantenere il divorzio.", en: "In 1974 almost 60 percent voted to keep divorce." },
           { es: "Il terremoto dell'Irpinia causò quasi tremila vittime.", en: "The Irpinia earthquake caused nearly three thousand deaths." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian (history book style).", source: "On November 4, 1966 the Arno flooded Florence.", answer: "Il 4 novembre 1966 l'Arno allagò Firenze.", altAnswers: ["Il 4 novembre 1966 l'Arno inondò Firenze.", "Il 4 novembre 1966 l'Arno ha allagato Firenze."], explanation: "\"Allagare\" or \"inondare\" = to flood." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian (history book style).", source: "On November 4, 1966, the Arno flooded Florence.", answer: "Il 4 novembre 1966 l'Arno allagò Firenze.", altAnswers: ["Il 4 novembre 1966 l'Arno inondò Firenze.", "Il 4 novembre 1966 l'Arno ha allagato Firenze."], explanation: "\"Allagare\" or \"inondare\" = to flood." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian (history book style).", source: "Italy signed the Treaties of Rome in 1957.", answer: "L'Italia firmò i Trattati di Roma nel 1957.", altAnswers: ["Nel 1957 l'Italia firmò i Trattati di Roma.", "L'Italia ha firmato i Trattati di Roma nel 1957."], explanation: "\"Nel\" + year." },
         ],
       },
@@ -36,7 +36,7 @@ export const IT_C1_U14_EXTRA: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian (history book style).", source: "Thousands of volunteers saved books from the mud.", answer: "Migliaia di volontari salvarono libri dal fango.", altAnswers: ["Migliaia di volontari salvarono i libri dal fango.", "Migliaia di volontari hanno salvato libri dal fango."], explanation: "\"Migliaia di\" + noun." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They were called the mud angels.", answer: "Furono chiamati gli angeli del fango.", altAnswers: ["Vennero chiamati gli angeli del fango.", "Li chiamarono gli angeli del fango.", "Sono stati chiamati gli angeli del fango."], explanation: "Passive passato remoto." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Almost 60 per cent voted to keep divorce.", answer: "Quasi il 60 per cento votò per mantenere il divorzio.", altAnswers: ["Quasi il 60% votò per mantenere il divorzio.", "Quasi il 60 per cento ha votato per mantenere il divorzio."], explanation: "Article before the percentage; singular verb." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Almost 60 percent voted to keep divorce.", answer: "Quasi il 60 per cento votò per mantenere il divorzio.", altAnswers: ["Quasi il 60% votò per mantenere il divorzio.", "Quasi il 60 per cento ha votato per mantenere il divorzio."], explanation: "Article before the percentage; singular verb." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The earthquake caused nearly three thousand deaths.", answer: "Il terremoto causò quasi tremila vittime.", altAnswers: ["Il terremoto provocò quasi tremila vittime.", "Il terremoto ha causato quasi tremila vittime.", "Il terremoto causò quasi tremila morti."], explanation: "\"Le vittime\" = the dead, victims." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The slow rescue caused national outrage.", answer: "La lentezza dei soccorsi suscitò l'indignazione nazionale.", altAnswers: ["I soccorsi lenti suscitarono l'indignazione nazionale.", "La lentezza dei soccorsi provocò l'indignazione di tutto il paese.", "La lentezza dei soccorsi suscitò un'indignazione nazionale."], explanation: "\"Suscitare\" = to arouse; Italian prefers the noun \"la lentezza\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Six countries founded the European Economic Community.", answer: "Sei paesi fondarono la Comunità economica europea.", altAnswers: ["Sei Paesi fondarono la Comunità economica europea.", "Sei paesi hanno fondato la Comunità economica europea.", "Sei Stati fondarono la Comunità economica europea."], explanation: "\"Fondare\" → \"fondarono\"." },
@@ -56,7 +56,7 @@ export const IT_C1_U14_EXTRA: Lesson[] = [
         ],
         explanation: "Four dates of the Republic.",
       },
-      { type: "listen-choose", audio: "Nel maggio del 1974 quasi il sessanta per cento votò per mantenere il divorzio.", question: "What was the result of the 1974 referendum?", options: ["Divorce was kept.", "Divorce was abolished.", "The vote was canceled.", "Turnout was 60 per cent."], correctIndex: 0, explanation: "\"Mantenere\" = to keep." },
+      { type: "listen-choose", audio: "Nel maggio del 1974 quasi il sessanta per cento votò per mantenere il divorzio.", question: "What was the result of the 1974 referendum?", options: ["Divorce was kept.", "Divorce was abolished.", "The vote was canceled.", "Turnout was 60 percent."], correctIndex: 0, explanation: "\"Mantenere\" = to keep." },
       { type: "dictation", audio: "Il 4 novembre 1966 l'Arno allagò Firenze.", explanation: "Date, river, passato remoto." },
       { type: "speak", text: "Nel 1966 migliaia di giovani salvarono i libri di Firenze dal fango.", prompt: "Say it in Italian: In 1966 thousands of young people saved Florence's books from the mud.", tip: "Mi-GLIA-ia: the gli is one sound.", explanation: "The mud angels in one sentence." },
     ],
@@ -101,7 +101,7 @@ export const IT_C1_U14_EXTRA: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The vote is personal [and equal].", sentence: "Il voto è personale ___.", answer: "ed eguale", altAnswers: ["ed uguale", "e uguale"], explanation: "\"Ed\" before a vowel, especially e-: \"ed eguale\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Health is [a fundamental right] of the individual.", sentence: "La salute è ___ dell'individuo.", answer: "un fondamentale diritto", altAnswers: ["un diritto fondamentale"], explanation: "The Constitution puts the adjective first: \"fondamentale diritto\"." },
       { type: "word-order", prompt: "Put the words in order to say: School is open to all.", words: ["La", "scuola", "è", "aperta", "a", "tutti."], translation: "School is open to all.", explanation: "Article 34." },
-      { type: "multiple-choice", question: "What does Article 139 say?", options: ["The republican form cannot be amended.", "The President is elected for seven years.", "The flag is a tricolour.", "Italy repudiates war."], correctIndex: 0, explanation: "The last article of the Constitution." },
+      { type: "multiple-choice", question: "What does Article 139 say?", options: ["The republican form cannot be amended.", "The President is elected for seven years.", "The flag is a tricolor.", "Italy repudiates war."], correctIndex: 0, explanation: "The last article of the Constitution." },
       {
         type: "matching",
         instructions: "Match the article to its subject.",

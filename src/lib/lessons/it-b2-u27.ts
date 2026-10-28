@@ -23,7 +23,7 @@ export const IT_B2_U27: Lesson[] = [
           "In news reports, the choice of verb is a signal. \"Ha ammesso\" suggests the speaker gave in; \"ha sostenuto\" leaves room for doubt; \"ha precisato\" corrects a misunderstanding. Journalists also use \"secondo\" + the source to keep their distance: \"secondo il ministro, i lavori finiranno a maggio\".",
         ],
         examples: [
-          { es: "Il sindaco ha affermato che i lavori finiranno a maggio.", en: "The mayor stated that the works will finish in May." },
+          { es: "Il sindaco ha affermato che i lavori finiranno a maggio.", en: "The mayor stated that the work will be finished in May." },
           { es: "Alcuni esperti sostengono che la misura sia inutile.", en: "Some experts maintain that the measure is useless." },
           { es: "L'azienda ha dichiarato di non avere responsabilità.", en: "The company declared that it had no responsibility." },
           { es: "Continua a sostenere di essere innocente.", en: "He keeps maintaining that he's innocent." },
@@ -58,7 +58,7 @@ export const IT_B2_U27: Lesson[] = [
         heading: "Saying no, saying yes",
         body: [
           "Agreement and disagreement have their own verbs: \"ammettere\" (to admit), \"negare\" (to deny), \"confermare\" (to confirm), \"smentire\" (to deny a report officially), \"promettere\". All can take \"di\" + infinitive when the subject is the same: \"ha negato di averlo visto\".",
-          "\"Negare\" and \"smentire\" both translate to deny, but they aren't the same. You \"neghi\" an accusation or a fact about yourself; an institution \"smentisce\" a news report or a rumour. The noun \"la smentita\" is the official denial: \"il governo ha diffuso una smentita\".",
+          "\"Negare\" and \"smentire\" both translate to deny, but they aren't the same. You \"neghi\" an accusation or a fact about yourself; an institution \"smentisce\" a news report or a rumor. The noun \"la smentita\" is the official denial: \"il governo ha diffuso una smentita\".",
         ],
         examples: [
           { es: "Ha ammesso di aver sbagliato.", en: "He admitted he had made a mistake." },
@@ -73,7 +73,7 @@ export const IT_B2_U27: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The mayor stated that the works will finish in May.", answer: "Il sindaco ha affermato che i lavori finiranno a maggio.", altAnswers: ["Il sindaco ha affermato che i lavori termineranno a maggio.", "La sindaca ha affermato che i lavori finiranno a maggio."], explanation: "\"Affermare\" = to state." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The mayor stated that the work will be finished in May.", answer: "Il sindaco ha affermato che i lavori finiranno a maggio.", altAnswers: ["Il sindaco ha affermato che i lavori termineranno a maggio.", "La sindaca ha affermato che i lavori finiranno a maggio."], explanation: "\"Affermare\" = to state." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He keeps maintaining that he's innocent.", answer: "Continua a sostenere di essere innocente.", explanation: "Same subject: \"di\" + infinitive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The professor explained the difference with an example.", answer: "Il professore ha spiegato la differenza con un esempio.", altAnswers: ["La professoressa ha spiegato la differenza con un esempio."], explanation: "\"Spiegare\" = to explain." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She denied having seen him.", answer: "Ha negato di averlo visto.", altAnswers: ["Ha negato di averlo veduto."], explanation: "\"Negare di\" + past infinitive; pronoun attached." },
@@ -84,7 +84,7 @@ export const IT_B2_U27: Lesson[] = [
       { type: "word-order", prompt: "Put the words in order to say: The company declared that it had no responsibility.", words: ["L'azienda", "ha dichiarato", "di non avere", "responsabilità."], translation: "The company declared that it had no responsibility.", explanation: "\"Dichiarare di\" + infinitive." },
       { type: "matching", instructions: "Match the verb to its meaning.", pairs: [{ left: "affermare", right: "to state" }, { left: "sostenere", right: "to maintain, argue" }, { left: "riferire", right: "to pass on, report" }, { left: "ribadire", right: "to reiterate" }, { left: "smentire", right: "to deny a report" }], explanation: "Precise alternatives to \"dire\"." },
       { type: "dictation", audio: "Alcuni esperti sostengono che la misura sia inutile.", explanation: "\"Sostenere che\" + subjunctive." },
-      { type: "speak", text: "Il sindaco ha affermato che i lavori finiranno a maggio, ma i residenti sostengono il contrario.", prompt: "Report both sides: The mayor stated the works will finish in May, but residents maintain the opposite.", tip: "af-fer-MA-to: double f.", explanation: "\"Affermare\" vs \"sostenere\"." },
+      { type: "speak", text: "Il sindaco ha affermato che i lavori finiranno a maggio, ma i residenti sostengono il contrario.", prompt: "Report both sides: The mayor stated the work will be finished in May, but residents maintain the opposite.", tip: "af-fer-MA-to: double f.", explanation: "\"Affermare\" vs \"sostenere\"." },
     ],
   },
   {
@@ -100,10 +100,10 @@ export const IT_B2_U27: Lesson[] = [
         body: [
           "\"Fare\" goes with almost everything, and that's the problem in writing. \"Svolgere\" is to carry out an activity, a job or a task: \"svolgere un'attività\", \"svolgere un ruolo\", \"svolgere un compito\". A mistake or a crime is \"commesso\": \"commettere un errore\", \"commettere un reato\".",
           "You may also see \"compiere\" (to accomplish, perform): \"compiere un'azione\", \"compiere uno sforzo\", and \"compiere gli anni\" (to have a birthday). With \"errore\", though, the standard verb is \"commettere\".",
-          "Other mistake words have their own verbs too: \"commettere un reato\" or \"un crimine\" (a crime), \"commettere un'ingiustizia\". In everyday speech \"fare un errore\" and \"sbagliare\" are perfectly normal; \"commettere\" belongs to writing and careful speech. Remember the participle: \"commesso\".",
+          "\"Commettere\" also goes with other wrongdoing: \"commettere un reato\" or \"un crimine\" (a crime), \"commettere un'ingiustizia\". In everyday speech \"fare un errore\" and \"sbagliare\" are perfectly normal; \"commettere\" belongs to writing and careful speech. Remember the participle: \"commesso\".",
         ],
         examples: [
-          { es: "Svolgo un'attività di volontariato il sabato.", en: "I do voluntary work on Saturdays." },
+          { es: "Svolgo un'attività di volontariato il sabato.", en: "I do volunteer work on Saturdays." },
           { es: "In azienda svolge un ruolo fondamentale.", en: "She plays a key role in the company." },
           { es: "Ho commesso un errore grave.", en: "I made a serious mistake." },
           { es: "Ha compiuto un grande sforzo per arrivare in tempo.", en: "He made a big effort to arrive on time." },
@@ -118,7 +118,7 @@ export const IT_B2_U27: Lesson[] = [
       {
         heading: "Payments, projects and procedures",
         body: [
-          "\"Effettuare\" is the bureaucratic carry out, make: \"effettuare un pagamento\", \"un bonifico\", \"un controllo\", \"una prenotazione\". \"Realizzare\" is to make real, carry out a project or a dream: \"realizzare un progetto\", \"un sogno\". (\"Rendersi conto\" is to realise in the sense of understand: \"realizzare\" for that is common in speech but avoided in careful writing.) \"Eseguire\" is to execute an order, a piece of music, a procedure.",
+          "\"Effettuare\" is the bureaucratic carry out, make: \"effettuare un pagamento\", \"un bonifico\", \"un controllo\", \"una prenotazione\". \"Realizzare\" is to make real, carry out a project or a dream: \"realizzare un progetto\", \"un sogno\". (\"Rendersi conto\" is to realize in the sense of understand: \"realizzare\" for that is common in speech but avoided in careful writing.) \"Eseguire\" is to execute an order, a piece of music, a procedure.",
           "Be careful with \"effettuare\": it is so formal that it can sound heavy outside notices and forms. In an email to a friend, \"ho fatto il bonifico\" is natural; on a bank's website, \"il bonifico è stato effettuato\" is expected. A good rule: use \"effettuare\" only with nouns that describe a procedure (payments, checks, bookings, deliveries, stops: \"il treno effettua tutte le fermate\").",
         ],
         examples: [
@@ -143,7 +143,7 @@ export const IT_B2_U27: Lesson[] = [
         examples: [
           { es: "Ho scattato centinaia di foto a Venezia.", en: "I took hundreds of photos in Venice." },
           { es: "Vorrei porre una domanda al relatore.", en: "I'd like to ask the speaker a question." },
-          { es: "Pratica il nuoto da quando era bambino.", en: "He has done swimming since he was a child." },
+          { es: "Pratica il nuoto da quando era bambino.", en: "He has been swimming since he was a child." },
           { es: "La rettrice ha tenuto un discorso commovente.", en: "The rector gave a moving speech." },
         ],
         checkpoint: [
@@ -153,7 +153,7 @@ export const IT_B2_U27: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian, without fare.", source: "I do voluntary work on Saturdays.", answer: "Svolgo un'attività di volontariato il sabato.", altAnswers: ["Il sabato svolgo un'attività di volontariato.", "Svolgo attività di volontariato il sabato."], explanation: "\"Svolgere un'attività\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian, without fare.", source: "I do volunteer work on Saturdays.", answer: "Svolgo un'attività di volontariato il sabato.", altAnswers: ["Il sabato svolgo un'attività di volontariato.", "Svolgo attività di volontariato il sabato."], explanation: "\"Svolgere un'attività\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, without fare.", source: "We carried out a check on the system.", answer: "Abbiamo effettuato un controllo sull'impianto.", altAnswers: ["Abbiamo eseguito un controllo sull'impianto."], explanation: "\"Effettuare un controllo\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The project was carried out with European funds.", answer: "Il progetto è stato realizzato con fondi europei.", altAnswers: ["Il progetto è stato realizzato grazie a fondi europei."], explanation: "\"Realizzare un progetto\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "My daughter turns ten tomorrow.", answer: "Mia figlia compie dieci anni domani.", altAnswers: ["Domani mia figlia compie dieci anni."], explanation: "\"Compiere gli anni\"." },
@@ -183,7 +183,7 @@ export const IT_B2_U27: Lesson[] = [
         ],
         examples: [
           { es: "Inserire la carta e digitare il codice.", en: "Insert the card and enter the PIN." },
-          { es: "La statua è stata collocata al centro della piazza.", en: "The statue was placed in the centre of the square." },
+          { es: "La statua è stata collocata al centro della piazza.", en: "The statue was placed in the center of the square." },
           { es: "Indossava un abito blu.", en: "She was wearing a blue dress." },
           { es: "Posa il bicchiere sul tavolo.", en: "Put the glass down on the table." },
           { es: "Riponete i libri sugli scaffali.", en: "Put the books back on the shelves." },
@@ -199,11 +199,12 @@ export const IT_B2_U27: Lesson[] = [
         body: [
           "\"Possedere\" is to own, possess (property, qualities): \"possiede tre appartamenti\". \"Disporre di\" is to have available: \"l'hotel dispone di 40 camere\", \"non disponiamo di questa informazione\". \"Presentare\" is used for symptoms and features: \"il paziente presenta febbre alta\". \"Godere di\" is to enjoy a right or a reputation: \"gode di ottima salute\".",
           "Other precise replacements for \"avere\": \"contenere\" (to contain: \"la scatola contiene sei bottiglie\"), \"ottenere\" (to obtain: \"ha ottenuto il permesso\"), \"ricevere\" (to receive: \"abbiamo ricevuto la Sua email\"), \"essere dotato di\" (to be equipped with: \"l'auto è dotata di navigatore\"). Job adverts use \"essere in possesso di\": \"i candidati devono essere in possesso della laurea\".",
+          "Don't push it too far. \"Possedere\" is for property and qualities, never for people: \"ho due figli\", not \"possiedo due figli\". Fixed phrases with \"avere\" have no formal substitute: \"avere fame\", \"avere ragione\", \"avere bisogno di\", \"avere luogo\" (to take place: \"la riunione avrà luogo in sala B\"). And watch the preposition: \"disporre di\" is to have available, while \"disporre\" without \"di\" means to arrange or order (\"il giudice ha disposto il sequestro\": the judge ordered the seizure).",
         ],
         examples: [
           { es: "La famiglia possiede una villa sul lago.", en: "The family owns a villa on the lake." },
-          { es: "L'albergo dispone di quaranta camere e di un parcheggio.", en: "The hotel has forty rooms and a car park." },
-          { es: "Il paziente presenta febbre alta e tosse.", en: "The patient has a high temperature and a cough." },
+          { es: "L'albergo dispone di quaranta camere e di un parcheggio.", en: "The hotel has forty rooms and a parking lot." },
+          { es: "Il paziente presenta febbre alta e tosse.", en: "The patient has a high fever and a cough." },
           { es: "Il nonno gode di ottima salute.", en: "Grandpa is in excellent health." },
           { es: "Non disponiamo di questa informazione.", en: "We don't have this information." },
         ],
@@ -221,28 +222,28 @@ export const IT_B2_U27: Lesson[] = [
         ],
         examples: [
           { es: "Mettiti la giacca, fa freddo!", en: "Put your jacket on, it's cold!" },
-          { es: "È obbligatorio indossare il casco.", en: "Wearing a helmet is compulsory." },
-          { es: "Hanno una casa al mare.", en: "They've got a house by the sea." },
+          { es: "È obbligatorio indossare il casco.", en: "Wearing a helmet is mandatory." },
+          { es: "Hanno una casa al mare.", en: "They have a house by the sea." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian, as a sign.", source: "Wearing a helmet is compulsory.", answer: "È obbligatorio indossare il casco.", altAnswers: ["È obbligatorio l'uso del casco."], explanation: "Signs use \"indossare\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian, as a sign.", source: "Wearing a helmet is mandatory.", answer: "È obbligatorio indossare il casco.", altAnswers: ["È obbligatorio l'uso del casco."], explanation: "Signs use \"indossare\"." },
           { type: "speak", text: "Mettiti la giacca, fa freddo!", prompt: "Tell a friend: Put your jacket on, it's cold!", tip: "MET-ti-ti: stress on met.", explanation: "Everyday register: \"mettersi\"." },
         ],
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The statue was placed in the centre of the square.", answer: "La statua è stata collocata al centro della piazza.", altAnswers: ["La statua è stata collocata in mezzo alla piazza.", "La statua è stata posta al centro della piazza."], explanation: "\"Collocare\" = to place." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The statue was placed in the center of the square.", answer: "La statua è stata collocata al centro della piazza.", altAnswers: ["La statua è stata collocata in mezzo alla piazza.", "La statua è stata posta al centro della piazza."], explanation: "\"Collocare\" = to place." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, to children.", source: "Put the books back on the shelves.", answer: "Riponete i libri sugli scaffali.", altAnswers: ["Rimettete i libri sugli scaffali."], explanation: "\"Riporre\" = to put away." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Grandpa is in excellent health.", answer: "Il nonno gode di ottima salute.", altAnswers: ["Il nonno è in ottima salute."], explanation: "\"Godere di\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, formally.", source: "We don't have this information.", answer: "Non disponiamo di questa informazione.", altAnswers: ["Non disponiamo di questa informazione al momento.", "Non disponiamo di tale informazione."], explanation: "\"Disporre di\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Put the glass down on the table. (to a friend)", answer: "Posa il bicchiere sul tavolo.", altAnswers: ["Appoggia il bicchiere sul tavolo."], explanation: "\"Posare\" = to put down." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The flat has a large terrace.", answer: "L'appartamento dispone di un ampio terrazzo.", altAnswers: ["L'appartamento dispone di una grande terrazza.", "L'appartamento dispone di un'ampia terrazza.", "L'appartamento ha un ampio terrazzo."], explanation: "Advert style: \"dispone di\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The apartment has a large terrace.", answer: "L'appartamento dispone di un ampio terrazzo.", altAnswers: ["L'appartamento dispone di una grande terrazza.", "L'appartamento dispone di un'ampia terrazza.", "L'appartamento ha un ampio terrazzo."], explanation: "Advert style: \"dispone di\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Enter] your password.", sentence: "___ la password.", answer: "Inserire", altAnswers: ["Inserisci", "Inserisca", "Digitare"], explanation: "\"Inserire\" = to enter data." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He [owns] three flats.", sentence: "___ tre appartamenti.", answer: "Possiede", explanation: "\"Possedere\" = to own." },
-      { type: "word-order", prompt: "Put the words in order to say: The patient has a high temperature and a cough.", words: ["Il paziente", "presenta", "febbre alta", "e tosse."], translation: "The patient has a high temperature and a cough.", explanation: "\"Presentare\" for symptoms." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He [owns] three apartments.", sentence: "___ tre appartamenti.", answer: "Possiede", explanation: "\"Possedere\" = to own." },
+      { type: "word-order", prompt: "Put the words in order to say: The patient has a high fever and a cough.", words: ["Il paziente", "presenta", "febbre alta", "e tosse."], translation: "The patient has a high fever and a cough.", explanation: "\"Presentare\" for symptoms." },
       { type: "multiple-choice", question: "Which sentence is in everyday register?", options: ["Mettiti il cappotto.", "Indossi il cappotto.", "Si prega di indossare il cappotto.", "È richiesto di indossare il cappotto."], correctIndex: 0, explanation: "\"Mettersi\" is the everyday verb." },
       { type: "dictation", audio: "L'albergo dispone di quaranta camere e di un parcheggio privato.", explanation: "\"Disporre di\" + facilities." },
-      { type: "speak", text: "L'appartamento dispone di due bagni e di un ampio terrazzo.", prompt: "Describe the flat for an advert: The flat has two bathrooms and a large terrace.", tip: "di-SPO-ne: stress on spo.", explanation: "\"Disporre di\" in adverts." },
+      { type: "speak", text: "L'appartamento dispone di due bagni e di un ampio terrazzo.", prompt: "Describe the apartment for a listing: The apartment has two bathrooms and a large terrace.", tip: "di-SPO-ne: stress on spo.", explanation: "\"Disporre di\" in adverts." },
     ],
   },
   {
@@ -256,9 +257,10 @@ export const IT_B2_U27: Lesson[] = [
       {
         heading: "Instead of molto bello",
         body: [
-          "\"Molto bello\" says little. Choose by what you mean: \"splendido\" (splendid, magnificent: weather, views, results), \"incantevole\" (enchanting, charming: places), \"affascinante\" (fascinating, attractive: people, ideas, cities), \"suggestivo\" (evocative, atmospheric: an Italian favourite for places with mood), \"mozzafiato\" (breathtaking: views, invariable).",
+          "\"Molto bello\" says little. Choose by what you mean: \"splendido\" (splendid, magnificent: weather, views, results), \"incantevole\" (enchanting, charming: places), \"affascinante\" (fascinating, attractive: people, ideas, cities), \"suggestivo\" (evocative, atmospheric: an Italian favorite for places with mood), \"mozzafiato\" (breathtaking: views, invariable).",
           "Watch the false friend: \"suggestivo\" never means suggestive in the English sense; \"un luogo suggestivo\" is simply an atmospheric place.",
           "Italians love strong evaluations, but in writing the adjective should match the noun. \"Splendido\" fits weather, results and views; \"incantevole\" fits places and voices; \"affascinante\" fits people, ideas and stories. \"Bellissimo\" is fine in speech, but three \"bellissimo\" in one paragraph look lazy.",
+          "Strong adjectives already contain the \"very\", so don't put \"molto\" in front of them: \"splendido\", \"squisito\", \"enorme\", \"orribile\", \"eccezionale\" and \"mozzafiato\" stand alone, and \"molto splendido\" sounds wrong to Italian ears. If you need more force, use an adverb of degree instead: \"davvero splendido\", \"assolutamente squisito\", \"veramente incantevole\". Milder adjectives such as \"suggestivo\", \"affascinante\" and \"piacevole\" take \"molto\" without problems.",
         ],
         examples: [
           { es: "Abbiamo avuto una giornata splendida.", en: "We had a splendid day." },
@@ -276,7 +278,7 @@ export const IT_B2_U27: Lesson[] = [
       {
         heading: "Instead of brutto",
         body: [
-          "\"Brutto\" covers ugly, bad and nasty. Be precise: \"sgradevole\" (unpleasant: smells, situations, people), \"squallido\" (squalid, dreary, sordid: places and behaviour), \"deludente\" (disappointing: films, results), \"spiacevole\" (unpleasant, regrettable: incidents), \"orribile\" (horrible). For weather: \"il tempo è pessimo\", \"una giornata uggiosa\" (dull and grey).",
+          "\"Brutto\" covers ugly, bad and nasty. Be precise: \"sgradevole\" (unpleasant: smells, situations, people), \"squallido\" (squalid, dreary, sordid: places and behavior), \"deludente\" (disappointing: films, results), \"spiacevole\" (unpleasant, regrettable: incidents), \"orribile\" (horrible). For weather: \"il tempo è pessimo\", \"una giornata uggiosa\" (dull and gray).",
           "For people, \"brutto\" refers only to looks, and Italians rarely say it to someone's face. For character, use \"antipatico\" (unpleasant, not likeable), \"scortese\" (rude), \"arrogante\", \"meschino\" (petty). For a bad experience, \"un'esperienza negativa\" or \"spiacevole\" is more measured than \"brutta\", and \"un brutto voto\" in a report becomes \"un voto insufficiente\".",
         ],
         examples: [
@@ -284,7 +286,7 @@ export const IT_B2_U27: Lesson[] = [
           { es: "L'albergo era squallido e sporco.", en: "The hotel was dreary and dirty." },
           { es: "Il finale del film è stato deludente.", en: "The ending of the film was disappointing." },
           { es: "È successo un episodio spiacevole.", en: "An unpleasant incident happened." },
-          { es: "Che giornata uggiosa!", en: "What a dull, grey day!" },
+          { es: "Che giornata uggiosa!", en: "What a dull, gray day!" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The ending of the film was disappointing.", answer: "Il finale del film è stato deludente.", altAnswers: ["Il finale del film era deludente."], explanation: "\"Deludente\" from \"deludere\"." },
@@ -319,9 +321,9 @@ export const IT_B2_U27: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "An unpleasant incident happened.", answer: "È successo un episodio spiacevole.", altAnswers: ["È accaduto un episodio spiacevole.", "È successo un incidente spiacevole."], explanation: "\"Spiacevole\" = regrettable, unpleasant." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The course was very stimulating.", answer: "Il corso è stato molto stimolante.", altAnswers: ["Il corso era molto stimolante."], explanation: "\"Stimolante\" = stimulating." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The hotel was [dreary] and dirty.", sentence: "L'albergo era ___ e sporco.", answer: "squallido", explanation: "\"Squallido\" for depressing places." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "What a [dull, grey] day!", sentence: "Che giornata ___!", answer: "uggiosa", altAnswers: ["grigia"], explanation: "\"Uggioso\" = dull, gloomy weather." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "What a [dull, gray] day!", sentence: "Che giornata ___!", answer: "uggiosa", altAnswers: ["grigia"], explanation: "\"Uggioso\" = dull, gloomy weather." },
       { type: "word-order", prompt: "Put the words in order to say: From the top there's a breathtaking view.", words: ["Dalla cima", "c'è", "una vista", "mozzafiato."], translation: "From the top there's a breathtaking view.", explanation: "\"Mozzafiato\" after the noun." },
-      { type: "matching", instructions: "Match the adjective to what it best describes.", pairs: [{ left: "incantevole", right: "a charming village" }, { left: "avvincente", right: "a gripping thriller" }, { left: "deludente", right: "a disappointing result" }, { left: "squallido", right: "a dreary motel" }, { left: "spazioso", right: "a roomy flat" }], explanation: "Precise adjectives by context." },
+      { type: "matching", instructions: "Match the adjective to what it best describes.", pairs: [{ left: "incantevole", right: "a charming village" }, { left: "avvincente", right: "a gripping thriller" }, { left: "deludente", right: "a disappointing result" }, { left: "squallido", right: "a dreary motel" }, { left: "spazioso", right: "a roomy apartment" }], explanation: "Precise adjectives by context." },
       { type: "dictation", audio: "Il chiostro è molto suggestivo al tramonto.", explanation: "\"Suggestivo\" = atmospheric." },
       { type: "speak", text: "Positano è incantevole, ma l'albergo era squallido e la cena deludente.", prompt: "Review the trip: Positano is enchanting, but the hotel was dreary and the dinner disappointing.", tip: "squal-LI-do: double l.", explanation: "Three precise adjectives." },
     ],
@@ -341,14 +343,14 @@ export const IT_B2_U27: Lesson[] = [
           "Pattern: generic verb → precise verb + the right noun. \"Fare un errore\" → \"commettere un errore\"; \"dire\" → \"affermare\", \"sostenere\", \"riferire\"; \"mettere\" → \"inserire\", \"collocare\"; \"avere\" → \"disporre di\", \"possedere\".",
         ],
         examples: [
-          { es: "Il direttore ha affermato che non ci saranno licenziamenti.", en: "The director stated that there will be no redundancies." },
-          { es: "Abbiamo commesso un errore di valutazione.", en: "We made an error of judgement." },
+          { es: "Il direttore ha affermato che non ci saranno licenziamenti.", en: "The director stated that there will be no layoffs." },
+          { es: "Abbiamo commesso un errore di valutazione.", en: "We made an error of judgment." },
           { es: "Inserire il biglietto nella macchinetta.", en: "Insert the ticket into the machine." },
           { es: "La scuola dispone di una palestra nuova.", en: "The school has a new gym." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian, without fare.", source: "We made an error of judgement.", answer: "Abbiamo commesso un errore di valutazione.", explanation: "\"Commettere un errore\"." },
-          { type: "listen-choose", audio: "La scuola dispone di una palestra nuova.", question: "What does the school have?", options: ["a new gym", "a new library", "a new canteen", "a new car park"], correctIndex: 0, explanation: "\"Disporre di\" = to have available." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian, without fare.", source: "We made an error of judgment.", answer: "Abbiamo commesso un errore di valutazione.", explanation: "\"Commettere un errore\"." },
+          { type: "listen-choose", audio: "La scuola dispone di una palestra nuova.", question: "What does the school have?", options: ["a new gym", "a new library", "a new canteen", "a new parking lot"], correctIndex: 0, explanation: "\"Disporre di\" = to have available." },
         ],
       },
       {
@@ -369,7 +371,7 @@ export const IT_B2_U27: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian, without dire.", source: "The director stated that there will be no redundancies.", answer: "Il direttore ha affermato che non ci saranno licenziamenti.", altAnswers: ["La direttrice ha affermato che non ci saranno licenziamenti.", "Il direttore ha dichiarato che non ci saranno licenziamenti."], explanation: "\"Affermare\" = to state." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian, without dire.", source: "The director stated that there will be no layoffs.", answer: "Il direttore ha affermato che non ci saranno licenziamenti.", altAnswers: ["La direttrice ha affermato che non ci saranno licenziamenti.", "Il direttore ha dichiarato che non ci saranno licenziamenti."], explanation: "\"Affermare\" = to state." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, without dire.", source: "The witness told the police what she had seen.", answer: "La testimone ha riferito alla polizia quello che aveva visto.", altAnswers: ["La testimone ha raccontato alla polizia quello che aveva visto.", "La testimone ha riferito alla polizia ciò che aveva visto."], explanation: "\"Riferire\" = to report." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, without fare.", source: "The work was carried out in three months.", answer: "Il lavoro è stato svolto in tre mesi.", altAnswers: ["Il lavoro è stato realizzato in tre mesi.", "I lavori sono stati eseguiti in tre mesi.", "Il lavoro è stato eseguito in tre mesi."], explanation: "\"Svolgere\" for work." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, without fare.", source: "Can I ask a question?", answer: "Posso porre una domanda?", altAnswers: ["Potrei porre una domanda?"], explanation: "\"Porre una domanda\" is formal." },
@@ -380,7 +382,7 @@ export const IT_B2_U27: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words, without fare.", en: "I [took] a photo of the bridge.", sentence: "Ho ___ una foto del ponte.", answer: "scattato", explanation: "\"Scattare una foto\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words, without avere.", en: "The patient [has] a fever.", sentence: "Il paziente ___ febbre.", answer: "presenta", explanation: "\"Presentare\" for symptoms." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words, without dire.", en: "She [admitted] she was wrong.", sentence: "Ha ___ di avere torto.", answer: "ammesso", explanation: "\"Ammettere di\"." },
-      { type: "word-order", prompt: "Put the words in order to say: We made an error of judgement.", words: ["Abbiamo", "commesso", "un errore", "di valutazione."], translation: "We made an error of judgement.", explanation: "\"Commettere un errore\"." },
+      { type: "word-order", prompt: "Put the words in order to say: We made an error of judgment.", words: ["Abbiamo", "commesso", "un errore", "di valutazione."], translation: "We made an error of judgment.", explanation: "\"Commettere un errore\"." },
       { type: "dictation", audio: "Il direttore ha affermato che non ci saranno licenziamenti.", explanation: "\"Affermare\" instead of \"dire\"." },
       { type: "speak", text: "Il progetto è stato realizzato in tre mesi e i risultati sono splendidi.", prompt: "Report: The project was carried out in three months and the results are splendid.", tip: "re-a-liz-ZA-to: voiced zz, like dz.", explanation: "\"Realizzare\" and \"splendido\"." },
     ],
@@ -402,34 +404,34 @@ export const IT_B2_U27: Lesson[] = [
         examples: [
           { es: "I biglietti si possono acquistare online.", en: "Tickets can be purchased online." },
           { es: "La invitiamo a inviare il modulo entro venerdì.", en: "We invite you to send the form by Friday." },
-          { es: "Il Comune rilascia la carta d'identità in pochi giorni.", en: "The council issues ID cards within a few days." },
+          { es: "Il Comune rilascia la carta d'identità in pochi giorni.", en: "City hall issues ID cards within a few days." },
           { es: "La riunione è terminata alle sei.", en: "The meeting ended at six." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian, formally.", source: "Tickets can be purchased online.", answer: "I biglietti si possono acquistare online.", altAnswers: ["I biglietti possono essere acquistati online.", "È possibile acquistare i biglietti online."], explanation: "\"Acquistare\" is the formal \"comprare\"." },
-          { type: "listen-choose", audio: "Il Comune rilascia la carta d'identità in pochi giorni.", question: "What does the council do?", options: ["It issues ID cards.", "It checks passports.", "It sells tickets.", "It closes offices."], correctIndex: 0, explanation: "\"Rilasciare\" = to issue a document." },
+          { type: "listen-choose", audio: "Il Comune rilascia la carta d'identità in pochi giorni.", question: "What does city hall do?", options: ["It issues ID cards.", "It checks passports.", "It sells tickets.", "It closes offices."], correctIndex: 0, explanation: "\"Rilasciare\" = to issue a document." },
         ],
       },
       {
         heading: "Choosing the register",
         body: [
-          "Pattern: a message to a friend uses the everyday verb; an email to an office, a notice or a report uses the formal one. Don't mix: \"Ciao Marco, ti invio il file\" sounds odd; \"Gentile dottoressa, Le mando il file\" is acceptable but \"Le invio\" is better.",
+          "Pattern: a message to a friend uses the everyday verb; an email to an office, a notice or a report uses the formal one. Don't mix: \"Ciao Marco, ti invio il file\" sounds a little stiff; \"Gentile dottoressa, Le mando il file\" is acceptable but \"Le invio\" is better.",
         ],
         examples: [
           { es: "Ciao, ti mando le foto stasera.", en: "Hi, I'll send you the photos tonight." },
-          { es: "Gentile dottoressa, Le invio in allegato il curriculum.", en: "Dear Doctor, I'm sending you my CV attached." },
+          { es: "Gentile dottoressa, Le invio in allegato il curriculum.", en: "Dear Doctor, I'm sending you my résumé attached." },
           { es: "Abbiamo finito tardi ieri sera.", en: "We finished late last night." },
-          { es: "I lavori termineranno entro marzo.", en: "The works will be completed by March." },
+          { es: "I lavori termineranno entro marzo.", en: "The work will be completed by March." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian, in a formal email.", source: "I'm sending you my CV attached.", answer: "Le invio in allegato il curriculum.", altAnswers: ["Le invio in allegato il mio curriculum.", "Le invio il curriculum in allegato."], explanation: "\"Inviare\" + formal \"Le\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian, in a formal email.", source: "I'm sending you my résumé attached.", answer: "Le invio in allegato il curriculum.", altAnswers: ["Le invio in allegato il mio curriculum.", "Le invio il curriculum in allegato."], explanation: "\"Inviare\" + formal \"Le\"." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian, to a friend.", source: "I'll send you the photos tonight.", answer: "Ti mando le foto stasera.", altAnswers: ["Stasera ti mando le foto."], explanation: "Everyday \"mandare\"." },
         ],
       },
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, formally.", source: "We invite you to send the form by Friday.", answer: "La invitiamo a inviare il modulo entro venerdì.", altAnswers: ["La preghiamo di inviare il modulo entro venerdì."], explanation: "\"Invitare a\" + \"inviare\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian, formally.", source: "The works will be completed by March.", answer: "I lavori termineranno entro marzo.", altAnswers: ["I lavori saranno terminati entro marzo.", "I lavori verranno terminati entro marzo."], explanation: "\"Terminare\" = formal \"finire\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian, formally.", source: "The work will be completed by March.", answer: "I lavori termineranno entro marzo.", altAnswers: ["I lavori saranno terminati entro marzo.", "I lavori verranno terminati entro marzo."], explanation: "\"Terminare\" = formal \"finire\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, formally.", source: "The company supplies all the material.", answer: "L'azienda fornisce tutto il materiale.", altAnswers: ["La ditta fornisce tutto il materiale.", "La società fornisce tutto il materiale."], explanation: "\"Fornire\" = to supply." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, formally.", source: "You can request a copy at the office.", answer: "È possibile richiedere una copia presso l'ufficio.", altAnswers: ["Si può richiedere una copia presso l'ufficio.", "Può richiedere una copia presso l'ufficio.", "È possibile richiedere una copia in ufficio."], explanation: "\"Richiedere\" and \"presso\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, formally.", source: "The project will be launched in September.", answer: "Il progetto sarà avviato a settembre.", altAnswers: ["Il progetto verrà avviato a settembre.", "Il progetto sarà avviato in settembre."], explanation: "\"Avviare\" = to launch, start." },
@@ -459,13 +461,13 @@ export const IT_B2_U27: Lesson[] = [
           "Sentence 1: \"Quest'anno ho fatto un'attività di volontariato\" → \"ho svolto un'attività di volontariato\". Sentence 2: \"Il responsabile ha detto che il progetto era molto bello\" → \"ha affermato che il progetto era molto valido\" (\"valido\" = sound, worthwhile).",
         ],
         examples: [
-          { es: "Quest'anno ho svolto un'attività di volontariato.", en: "This year I did voluntary work." },
+          { es: "Quest'anno ho svolto un'attività di volontariato.", en: "This year I did volunteer work." },
           { es: "Il responsabile ha affermato che il progetto era molto valido.", en: "The coordinator stated that the project was very worthwhile." },
           { es: "Abbiamo realizzato un orto in un cortile della scuola.", en: "We created a vegetable garden in a school courtyard." },
           { es: "Abbiamo collocato le panchine vicino agli alberi.", en: "We placed the benches near the trees." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian, without fare.", source: "This year I did voluntary work.", answer: "Quest'anno ho svolto un'attività di volontariato.", altAnswers: ["Quest'anno ho svolto attività di volontariato."], explanation: "\"Svolgere un'attività\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian, without fare.", source: "This year I did volunteer work.", answer: "Quest'anno ho svolto un'attività di volontariato.", altAnswers: ["Quest'anno ho svolto attività di volontariato."], explanation: "\"Svolgere un'attività\"." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words, without fare.", en: "We [created] a vegetable garden.", sentence: "Abbiamo ___ un orto.", answer: "realizzato", explanation: "\"Realizzare\" for a project or something built." },
           { type: "multiple-choice", question: "Which word best replaces \"molto bello\" for a project?", options: ["valido", "incantevole", "mozzafiato", "squisito"], correctIndex: 0, explanation: "\"Un progetto valido\" = a sound, worthwhile project." },
         ],
@@ -484,13 +486,13 @@ export const IT_B2_U27: Lesson[] = [
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian, without dire.", source: "A parent told us the history of the courtyard.", answer: "Un genitore ci ha raccontato la storia del cortile.", explanation: "\"Raccontare\" for a story." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian, without fare.", source: "We made a few mistakes at the beginning.", answer: "Abbiamo commesso qualche errore all'inizio.", altAnswers: ["All'inizio abbiamo commesso qualche errore.", "Abbiamo commesso alcuni errori all'inizio."], explanation: "\"Commettere\" + \"qualche\" + singular." },
-          { type: "listen-choose", audio: "La scuola dispone di una palestra e di un giardino.", question: "What is the sentence about?", options: ["the school's facilities", "the school's timetable", "the school's teachers", "the school's rules"], correctIndex: 0, explanation: "\"Disporre di\" for facilities." },
+          { type: "listen-choose", audio: "La scuola dispone di una palestra e di un giardino.", question: "What is the sentence about?", options: ["the school's facilities", "the school's schedule", "the school's teachers", "the school's rules"], correctIndex: 0, explanation: "\"Disporre di\" for facilities." },
         ],
       },
       {
         heading: "The ending",
         body: [
-          "Sentence 7: \"È stata un'esperienza molto bella e ho imparato molte cose\" → \"è stata un'esperienza arricchente e stimolante, che mi ha insegnato molto\". (\"Arricchente\", enriching, is very common in Italian school and work writing.) Don't overdo it, though: one precise word per sentence is enough.",
+          "Sentence 7: \"È stata un'esperienza molto bella e ho imparato molte cose\" → \"è stata un'esperienza arricchente e stimolante, che mi ha insegnato molto\". (\"Arricchente\", enriching, is very common in Italian school and work writing, though some editors find it a cliché.) Don't overdo it, though: one precise word per sentence is enough.",
         ],
         examples: [
           { es: "È stata un'esperienza arricchente e stimolante.", en: "It was an enriching and stimulating experience." },
@@ -604,34 +606,34 @@ export const IT_B2_U27: Lesson[] = [
       {
         heading: "The greeting",
         body: [
-          "A town councillor for culture, \"l'assessora alla cultura\", opens a conference on sustainable tourism. Formal openings follow a pattern: \"porgere un saluto\" (to extend a greeting), \"ringraziare\" + person + \"per\", and \"è con grande piacere che\" (it is with great pleasure that).",
+          "A city councilor for culture, \"l'assessora alla cultura\", opens a conference on sustainable tourism. Formal openings follow a pattern: \"porgere un saluto\" (to extend a greeting), \"ringraziare\" + person + \"per\", and \"è con grande piacere che\" (it is with great pleasure that).",
         ],
         examples: [
           { es: "Buongiorno a tutti e benvenuti.", en: "Good morning, everyone, and welcome." },
           { es: "Desidero porgere un saluto alle autorità presenti.", en: "I would like to extend a greeting to the officials present." },
-          { es: "Ringrazio gli organizzatori per l'invito.", en: "I thank the organisers for the invitation." },
+          { es: "Ringrazio gli organizzatori per l'invito.", en: "I thank the organizers for the invitation." },
           { es: "È con grande piacere che apro questa giornata di lavori.", en: "It is with great pleasure that I open this day of proceedings." },
         ],
         checkpoint: [
-          { type: "listen-choose", audio: "Ringrazio gli organizzatori per l'invito.", question: "Who does the speaker thank?", options: ["the organisers", "the mayor", "the audience", "the hotel staff"], correctIndex: 0, explanation: "\"Gli organizzatori\"." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian, formally.", source: "I thank the organisers for the invitation.", answer: "Ringrazio gli organizzatori per l'invito.", explanation: "\"Ringraziare\" + person + \"per\"." },
+          { type: "listen-choose", audio: "Ringrazio gli organizzatori per l'invito.", question: "Who does the speaker thank?", options: ["the organizers", "the mayor", "the audience", "the hotel staff"], correctIndex: 0, explanation: "\"Gli organizzatori\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian, formally.", source: "I thank the organizers for the invitation.", answer: "Ringrazio gli organizzatori per l'invito.", explanation: "\"Ringraziare\" + person + \"per\"." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian, formally.", source: "It is with great pleasure that I open this day.", answer: "È con grande piacere che apro questa giornata.", altAnswers: ["È con grande piacere che apro questa giornata di lavori."], explanation: "Cleft sentence for emphasis." },
         ],
       },
       {
         heading: "The main point",
         body: [
-          "In the body of the talk, listen for verbs that organise ideas: \"sottolineare\" (to underline, stress), \"evidenziare\" (to highlight), \"illustrare\" (to present, explain in detail), \"affrontare\" (to tackle a problem, a topic). The speaker also uses figures, and the passive and impersonal for objectivity.",
+          "In the body of the talk, listen for verbs that organize ideas: \"sottolineare\" (to underline, stress), \"evidenziare\" (to highlight), \"illustrare\" (to present, explain in detail), \"affrontare\" (to tackle a problem, a topic). The speaker also uses figures, and the passive and impersonal for objectivity.",
           "Formal speakers also use \"desidero\" instead of \"voglio\" (\"desidero ringraziare\"), \"intervenire\" for to speak at an event (\"interverranno tre esperti\"), and \"il relatore\" / \"la relatrice\" for a speaker. Listen for signposting too: \"in primo luogo\", \"inoltre\", \"per quanto riguarda\" (as regards).",
         ],
         examples: [
-          { es: "Vorrei sottolineare un dato: le presenze turistiche sono aumentate del venti per cento.", en: "I'd like to stress one figure: tourist overnight stays have risen by twenty per cent." },
+          { es: "Vorrei sottolineare un dato: le presenze turistiche sono aumentate del venti per cento.", en: "I'd like to stress one figure: tourist overnight stays have risen by twenty percent." },
           { es: "Questo aumento evidenzia la necessità di un piano sostenibile.", en: "This increase highlights the need for a sustainable plan." },
           { es: "Oggi affronteremo il tema del sovraffollamento.", en: "Today we will tackle the issue of overcrowding." },
           { es: "I relatori illustreranno alcune esperienze concrete.", en: "The speakers will present some concrete experiences." },
         ],
         checkpoint: [
-          { type: "listen-choose", audio: "Vorrei sottolineare un dato: le presenze turistiche sono aumentate del venti per cento.", question: "By how much have tourist stays increased?", options: ["twenty per cent", "two per cent", "twelve per cent", "they've decreased"], correctIndex: 0, explanation: "\"Del venti per cento\"." },
+          { type: "listen-choose", audio: "Vorrei sottolineare un dato: le presenze turistiche sono aumentate del venti per cento.", question: "By how much have tourist stays increased?", options: ["twenty percent", "two percent", "twelve percent", "they've decreased"], correctIndex: 0, explanation: "\"Del venti per cento\"." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Today we will tackle the issue of overcrowding.", answer: "Oggi affronteremo il tema del sovraffollamento.", altAnswers: ["Oggi affronteremo il problema del sovraffollamento.", "Oggi affronteremo la questione del sovraffollamento."], explanation: "\"Affrontare un tema\"." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "This increase [highlights] the need for a plan.", sentence: "Questo aumento ___ la necessità di un piano.", answer: "evidenzia", explanation: "\"Evidenziare\" = to highlight." },
         ],
@@ -661,7 +663,7 @@ export const IT_B2_U27: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The speakers will present some concrete experiences.", answer: "I relatori illustreranno alcune esperienze concrete.", altAnswers: ["I relatori presenteranno alcune esperienze concrete."], explanation: "\"Illustrare\" = to present in detail." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, formally.", source: "I hope this day will produce concrete proposals.", answer: "Auspico che questa giornata porti proposte concrete.", altAnswers: ["Auspico che questa giornata produca proposte concrete.", "Mi auguro che questa giornata porti proposte concrete."], explanation: "\"Auspicare che\" + subjunctive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I wish everyone a productive day.", answer: "Auguro a tutti buon lavoro.", altAnswers: ["Auguro buon lavoro a tutti."], explanation: "\"Augurare buon lavoro\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Tourist overnight stays have risen by twenty per cent.", answer: "Le presenze turistiche sono aumentate del venti per cento.", altAnswers: ["Le presenze turistiche sono aumentate del 20%.", "Le presenze turistiche sono cresciute del venti per cento."], explanation: "\"Le presenze\" = overnight stays." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Tourist overnight stays have risen by twenty percent.", answer: "Le presenze turistiche sono aumentate del venti per cento.", altAnswers: ["Le presenze turistiche sono aumentate del 20%.", "Le presenze turistiche sono cresciute del venti per cento."], explanation: "\"Le presenze\" = overnight stays." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I now [hand over] to the first speaker.", sentence: "___ ora la parola al primo relatore.", answer: "Cedo", explanation: "\"Cedere la parola\"." },
       { type: "word-order", prompt: "Put the words in order to say: Today we will tackle the issue of overcrowding.", words: ["Oggi", "affronteremo", "il tema", "del sovraffollamento."], translation: "Today we will tackle the issue of overcrowding.", explanation: "\"Affrontare\" a topic." },
       { type: "dictation", audio: "È con grande piacere che apro questa giornata di lavori.", explanation: "Cleft sentence: \"è ... che\"." },
@@ -683,7 +685,7 @@ export const IT_B2_U27: Lesson[] = [
           "A family runs a small hotel on Lake Garda and asks you to improve the description for their website. Their draft: \"L'albergo è in una posizione molto bella. Ha 20 camere molto belle. Fa colazione con prodotti locali. Si può fare il bagno nel lago. Il personale vi dice tutto sulla zona.\"",
         ],
         examples: [
-          { es: "L'albergo è in una posizione molto bella.", en: "The hotel is in a very nice position." },
+          { es: "L'albergo è in una posizione molto bella.", en: "The hotel is in a very nice location." },
           { es: "Ha 20 camere molto belle.", en: "It has 20 very nice rooms." },
           { es: "Il personale vi dice tutto sulla zona.", en: "The staff tell you everything about the area." },
         ],
@@ -695,7 +697,7 @@ export const IT_B2_U27: Lesson[] = [
       {
         heading: "Precise verbs",
         body: [
-          "Replace \"è in\" with \"sorge in\" or \"si trova in\"; \"ha\" with \"dispone di\"; \"fa colazione\" with \"offre una colazione\" or \"serve\"; \"si può fare il bagno\" with \"è possibile fare il bagno\" (this one stays: it's the natural phrase); \"vi dice\" with \"vi fornirà informazioni\" or \"sarà lieto di consigliarvi\".",
+          "Replace \"è in\" with \"sorge in\" or \"si trova in\"; \"ha\" with \"dispone di\"; \"fa colazione\" (which in fact says the hotel itself eats breakfast) with \"offre una colazione\" or \"serve\"; \"si può fare il bagno\" with \"è possibile fare il bagno\" (this one stays: it's the natural phrase); \"vi dice\" with \"vi fornirà informazioni\" or \"sarà lieto di consigliarvi\".",
         ],
         examples: [
           { es: "L'albergo sorge in posizione panoramica sulla riva del lago.", en: "The hotel stands in a panoramic position on the lakeshore." },
@@ -711,7 +713,7 @@ export const IT_B2_U27: Lesson[] = [
       {
         heading: "Precise adjectives",
         body: [
-          "Replace each \"molto bello\" with an adjective that adds information: \"panoramico\" (with a view), \"luminoso\", \"accogliente\" (welcoming, cosy), \"curato\" (well kept, tasteful), \"tranquillo\". For food: \"genuino\" (wholesome, authentic), \"a chilometro zero\", \"del territorio\". Avoid piling up superlatives: one strong adjective per noun is more convincing.",
+          "Replace each \"molto bello\" with an adjective that adds information: \"panoramico\" (with a view), \"luminoso\", \"accogliente\" (welcoming, cozy), \"curato\" (well kept, tasteful), \"tranquillo\". For food: \"genuino\" (wholesome, authentic), \"a chilometro zero\", \"del territorio\". Avoid piling up superlatives: one strong adjective per noun is more convincing.",
         ],
         examples: [
           { es: "Le camere sono arredate con cura.", en: "The rooms are tastefully furnished." },

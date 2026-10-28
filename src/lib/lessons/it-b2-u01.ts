@@ -212,7 +212,7 @@ export const IT_B2_U01: Lesson[] = [
           { es: "Speravo che venissi alla festa.", en: "I was hoping you would come to the party." },
           { es: "Mi dispiaceva che non ci fosse più posto.", en: "I was sorry there was no more room." },
           { es: "Il capo ha chiesto che tutti arrivassero alle 8:30.", en: "The boss asked everyone to arrive at 8:30." },
-          { es: "Avevamo paura che il volo fosse cancellato.", en: "We were afraid the flight would be cancelled." },
+          { es: "Avevamo paura che il volo fosse cancellato.", en: "We were afraid the flight would be canceled." },
           { es: "Ho pensato che fosse uno scherzo.", en: "I thought it was a joke." },
         ],
         checkpoint: [
@@ -259,7 +259,7 @@ export const IT_B2_U01: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I was sorry there was no more room.", answer: "Mi dispiaceva che non ci fosse più posto.", explanation: "\"Mi dispiaceva che\" + \"ci fosse\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We were afraid the flight would be cancelled.", answer: "Avevamo paura che il volo fosse cancellato.", altAnswers: ["Temevamo che il volo fosse cancellato.", "Avevamo paura che il volo venisse cancellato.", "Temevamo che il volo venisse cancellato."], explanation: "Fear in the past → \"fosse cancellato\"; no conditional." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We were afraid the flight would be canceled.", answer: "Avevamo paura che il volo fosse cancellato.", altAnswers: ["Temevamo che il volo fosse cancellato.", "Avevamo paura che il volo venisse cancellato.", "Temevamo che il volo venisse cancellato."], explanation: "Fear in the past → \"fosse cancellato\"; no conditional." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The boss asked everyone to arrive at 8:30.", answer: "Il capo ha chiesto che tutti arrivassero alle 8:30.", altAnswers: ["Il capo chiese che tutti arrivassero alle 8:30."], explanation: "Passato prossimo trigger → \"arrivassero\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It was strange that the bar was closed on a Saturday.", answer: "Era strano che il bar fosse chiuso di sabato.", altAnswers: ["Era strano che il bar fosse chiuso il sabato."], explanation: "\"Era strano che\" + \"fosse\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I wanted to leave early.", answer: "Volevo partire presto.", altAnswers: ["Volevo andare via presto.", "Volevo andarmene presto."], explanation: "Same subject: infinitive, no \"che\"." },
@@ -284,14 +284,15 @@ export const IT_B2_U01: Lesson[] = [
         heading: "The conditional is a past trigger",
         body: [
           "Here is the surprise: a trigger in the conditional takes the imperfect subjunctive, even when the wish is about now or the future. \"Vorrei che tu fossi qui\" (I wish you were here), \"Mi piacerebbe che mi chiamassi più spesso\" (I'd like you to call me more often).",
-          "English learners expect the present subjunctive because the wish is current: \"vorrei che tu sia qui\" sounds logical but is wrong. Think of it as a rule of form, not of time: conditional trigger, imperfect subjunctive.",
-          "The common conditional triggers are \"vorrei che\", \"preferirei che\", \"mi piacerebbe che\", \"sarebbe bello che\" and \"sarebbe meglio che\".",
+          "English speakers expect the present subjunctive because the wish is current: \"vorrei che tu sia qui\" sounds logical but is wrong. Think of it as a rule of form, not of time: conditional trigger, imperfect subjunctive. English actually helps: I wish you were here also uses a past form for a present wish.",
+          "The common conditional triggers are \"vorrei che\", \"preferirei che\", \"mi piacerebbe che\", \"sarebbe bello che\" and \"sarebbe meglio che\". With the impersonal ones, Italians often swap \"che\" for \"se\": \"Sarebbe meglio se partissimo subito\" is just as correct and a little more conversational. The verb stays in the imperfect subjunctive either way.",
+          "One limit: \"vorrei che\" is for wishes about now or later. For a regret about the past (I wish you had come), Italian needs the pluperfect subjunctive, \"avrei voluto che fossi venuto\" or \"magari fossi venuto\", which you will meet in Unit 2. Don't stretch \"vorrei che venissi\" to cover yesterday.",
         ],
         examples: [
           { es: "Vorrei che tu fossi qui.", en: "I wish you were here." },
           { es: "Mi piacerebbe che mi chiamassi più spesso.", en: "I'd like you to call me more often." },
           { es: "Preferirei che non fumassi in casa.", en: "I'd rather you didn't smoke in the house." },
-          { es: "Sarebbe meglio che partissimo subito.", en: "It would be better if we left right away." },
+          { es: "Sarebbe meglio se partissimo subito.", en: "It would be better if we left right away." },
           { es: "Sarebbe bello che i bambini imparassero a nuotare.", en: "It would be nice for the children to learn to swim." },
         ],
         checkpoint: [
@@ -340,15 +341,15 @@ export const IT_B2_U01: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'd like you to call me more often. (to a friend)", answer: "Mi piacerebbe che mi chiamassi più spesso.", altAnswers: ["Vorrei che mi chiamassi più spesso.", "Mi piacerebbe che tu mi chiamassi più spesso.", "Vorrei che tu mi chiamassi più spesso."], explanation: "Conditional trigger → \"chiamassi\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It would be better if we left right away.", answer: "Sarebbe meglio che partissimo subito.", altAnswers: ["Sarebbe meglio partire subito."], explanation: "\"Sarebbe meglio che\" + \"partissimo\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It would be better if we left right away.", answer: "Sarebbe meglio che partissimo subito.", altAnswers: ["Sarebbe meglio se partissimo subito.", "Sarebbe meglio partire subito."], explanation: "\"Sarebbe meglio che\" (or \"se\") + \"partissimo\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We'd prefer you to send us everything by email. (polite)", answer: "Preferiremmo che ci mandasse tutto per email.", altAnswers: ["Preferiremmo che Lei ci mandasse tutto per email.", "Preferiremmo che ci inviasse tutto per email."], explanation: "\"Lei\" → \"mandasse\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I wish my brother were less stubborn.", answer: "Vorrei che mio fratello fosse meno testardo.", explanation: "\"Vorrei che\" + \"fosse\": a wish about the present." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I wish my brother were less stubborn.", answer: "Vorrei che mio fratello fosse meno testardo.", altAnswers: ["Magari mio fratello fosse meno testardo!", "Vorrei che mio fratello fosse meno cocciuto."], explanation: "\"Vorrei che\" + \"fosse\": a wish about the present." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'd like to learn Russian.", answer: "Mi piacerebbe imparare il russo.", altAnswers: ["Vorrei imparare il russo.", "Mi piacerebbe imparare russo."], explanation: "Same subject: infinitive." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It would be nice for the children to learn to swim.", answer: "Sarebbe bello che i bambini imparassero a nuotare.", explanation: "\"Sarebbe bello che\" + \"imparassero\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It would be nice for the children to learn to swim.", answer: "Sarebbe bello che i bambini imparassero a nuotare.", altAnswers: ["Sarebbe bello se i bambini imparassero a nuotare."], explanation: "\"Sarebbe bello che\" + \"imparassero\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "It would be useful for you (plural) [to bring] an ID.", sentence: "Sarebbe utile che ___ un documento.", answer: "portaste", altAnswers: ["voi portaste"], explanation: "voi: \"portaste\", one s." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I wish you'd [listen to] me now and then.", sentence: "Vorrei che mi ___, ogni tanto.", answer: "ascoltassi", explanation: "\"Ascoltassi\" after \"vorrei che\"." },
       { type: "word-order", prompt: "Put the words in order to say: I'd like you to stay a bit longer.", words: ["Vorrei", "che", "tu", "restassi", "ancora", "un", "po'."], translation: "I'd like you to stay a bit longer.", explanation: "\"Vorrei che\" + \"restassi\"." },
-      { type: "multiple-choice", question: "Your flatmate leaves dishes in the sink. Which is the natural gentle complaint?", options: ["Vorrei che lavassi i piatti ogni tanto.", "Vorrei che lavi i piatti ogni tanto.", "Vorrei lavare i piatti ogni tanto.", "Vorrei che laveresti i piatti ogni tanto."], correctIndex: 0, explanation: "Two subjects + conditional trigger → \"lavassi\"." },
+      { type: "multiple-choice", question: "Your roommate leaves dishes in the sink. Which is the natural gentle complaint?", options: ["Vorrei che lavassi i piatti ogni tanto.", "Vorrei che lavi i piatti ogni tanto.", "Vorrei lavare i piatti ogni tanto.", "Vorrei che laveresti i piatti ogni tanto."], correctIndex: 0, explanation: "Two subjects + conditional trigger → \"lavassi\"." },
       { type: "dictation", audio: "Preferirei che andassimo in treno.", explanation: "\"Andassimo\": an-DAS-si-mo." },
       { type: "speak", text: "Vorrei che fossi qui. Mi piacerebbe che mi chiamassi più spesso.", prompt: "Say it to a friend far away: I wish you were here. I'd like you to call me more often.", tip: "Vor-REI: the ei glides together.", explanation: "Two conditional triggers, two imperfect subjunctives." },
     ],
@@ -358,7 +359,7 @@ export const IT_B2_U01: Lesson[] = [
     level: "IT-B2",
     number: 5,
     title: "Magari! If Only",
-    summary: "Use magari + imperfect subjunctive for wishes that aren't true now, and recognise magari meaning maybe.",
+    summary: "Use magari + imperfect subjunctive for wishes that aren't true now, and recognize magari meaning maybe.",
     duration: "18 min",
     sections: [
       {
@@ -366,6 +367,7 @@ export const IT_B2_U01: Lesson[] = [
         body: [
           "\"Magari\" + imperfect subjunctive is the Italian if only or I wish, for something that isn't true now: \"Magari fosse vero!\" (if only it were true!), \"Magari avessi più tempo!\" (if only I had more time!). There is no main verb: \"magari\" does the work of \"vorrei che\".",
           "It sounds warmer and more spoken than \"vorrei che\". Use it in conversation and informal writing; in a formal letter prefer \"vorrei che\" or \"sarebbe bello se\".",
+          "Two typical slips. Learners add \"che\" by analogy with \"vorrei che\": \"Magari che fosse vero\" is wrong, because \"magari\" is followed directly by the verb. And they reach for the present subjunctive because the wish is about now: \"Magari sia vero\" doesn't work as a wish. Use the imperfect for a present wish and the pluperfect (\"Magari l'avessi saputo!\", Unit 2) for a past one. A named subject goes after \"magari\" or after the verb: \"Magari Luca capisse\", \"Magari capisse anche Luca\".",
         ],
         examples: [
           { es: "Magari fosse vero!", en: "If only it were true!" },
@@ -384,10 +386,10 @@ export const IT_B2_U01: Lesson[] = [
         body: [
           "On its own, \"Magari!\" answers a suggestion you would love to be true: \"Vai in vacanza ad agosto?\" \"Magari!\" (I wish!). It implies the answer is no, sadly.",
           "Add the reason to sound natural: \"Magari! Ma devo lavorare.\" It is one of the most useful one-word replies in spoken Italian.",
-          "In reply to an offer, \"Magari!\" means something different: yes please, I'd love that. \"Ti va un caffè?\" \"Magari!\" (fancy a coffee? I'd love one!). The context tells you which: a question about a fact you wish were true gets the regretful I wish; an offer gets the delighted yes.",
+          "In reply to an offer, \"Magari!\" means something different: yes please, I'd love that. \"Ti va un caffè?\" \"Magari!\" (feel like a coffee? I'd love one!). The context tells you which: a question about a fact you wish were true gets the regretful I wish; an offer gets the delighted yes.",
         ],
         examples: [
-          { es: "Vai in vacanza ad agosto? Magari!", en: "Are you going on holiday in August? I wish!" },
+          { es: "Vai in vacanza ad agosto? Magari!", en: "Are you going on vacation in August? I wish!" },
           { es: "Hai vinto? Magari!", en: "Did you win? I wish!" },
           { es: "Magari! Ma devo lavorare.", en: "I wish! But I have to work." },
           { es: "Ti hanno dato l'aumento? Magari!", en: "Did they give you the raise? I wish!" },
@@ -429,7 +431,7 @@ export const IT_B2_U01: Lesson[] = [
       { type: "word-order", prompt: "Put the words in order to say: Maybe we'll see each other on Saturday.", words: ["Magari", "ci", "vediamo", "sabato."], translation: "Maybe we'll see each other on Saturday.", altOrders: [["Magari", "sabato", "ci", "vediamo."]], explanation: "Indicative: \"magari\" = maybe." },
       { type: "multiple-choice", question: "\"Magari viene anche Sofia\" means ...", options: ["Maybe Sofia's coming too.", "If only Sofia would come too!", "Sofia isn't coming.", "Sofia came too."], correctIndex: 0, explanation: "Indicative \"viene\" → maybe." },
       { type: "dictation", audio: "Magari avessi più tempo per leggere!", explanation: "\"Avessi\": a-VES-si." },
-      { type: "speak", text: "Vai in vacanza ad agosto? Magari! Magari avessi un mese libero!", prompt: "Answer and add a wish: Going on holiday in August? I wish! If only I had a month off!", tip: "Ma-GA-ri: stress on the middle syllable.", explanation: "\"Magari!\" as a reply, then \"magari\" + \"avessi\"." },
+      { type: "speak", text: "Vai in vacanza ad agosto? Magari! Magari avessi un mese libero!", prompt: "Answer and add a wish: Going on vacation in August? I wish! If only I had a month off!", tip: "Ma-GA-ri: stress on the middle syllable.", explanation: "\"Magari!\" as a reply, then \"magari\" + \"avessi\"." },
     ],
   },
   {
@@ -565,8 +567,8 @@ export const IT_B2_U01: Lesson[] = [
       {
         heading: "Pensavo che era: fine in speech, wrong in writing",
         body: [
-          "In everyday conversation many Italians say \"pensavo che era vero\", with the imperfetto. You'll hear it constantly, and nobody will blink. In writing, in exams like the CILS and in any formal setting, the standard is \"pensavo che fosse vero\". Write the subjunctive; recognise the indicative.",
-          "The same goes for \"credevo che c'era\" (\"credevo che ci fosse\") and \"volevo che venivi\" (\"volevo che venissi\"). The last one sounds careless even in speech.",
+          "In everyday conversation many Italians say \"pensavo che era vero\", with the imperfetto. You'll hear it constantly, and nobody will blink. In writing, in exams like the CILS and in any formal setting, the standard is \"pensavo che fosse vero\". Write the subjunctive; recognize the indicative.",
+          "The same goes for \"credevo che c'era\" (\"credevo che ci fosse\") and \"volevo che venivi\" (\"volevo che venissi\"). The last one is heard in casual speech too, but it sounds sloppier than the other two.",
         ],
         examples: [
           { es: "Credevo che ci fosse ancora posto.", en: "I thought there was still room." },
@@ -687,7 +689,7 @@ export const IT_B2_U01: Lesson[] = [
         ],
         examples: [
           { es: "Vorrei che ci fossero più piste ciclabili.", en: "I'd like there to be more cycle lanes." },
-          { es: "Mi piacerebbe che il centro fosse chiuso al traffico.", en: "I'd like the centre to be closed to traffic." },
+          { es: "Mi piacerebbe che il centro fosse chiuso al traffico.", en: "I'd like downtown to be closed to traffic." },
           { es: "Sarebbe bello che gli autobus passassero più spesso.", en: "It would be nice if buses came more often." },
           { es: "Vorrei che il mio lavoro fosse meno stressante.", en: "I wish my job were less stressful." },
           { es: "Sarebbe bello che l'azienda offrisse lo smart working.", en: "It would be nice if the company offered remote working." },
@@ -716,7 +718,7 @@ export const IT_B2_U01: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'd like the centre to be closed to traffic.", answer: "Mi piacerebbe che il centro fosse chiuso al traffico.", altAnswers: ["Vorrei che il centro fosse chiuso al traffico."], explanation: "\"Fosse chiuso\" after a conditional." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'd like downtown to be closed to traffic.", answer: "Mi piacerebbe che il centro fosse chiuso al traffico.", altAnswers: ["Vorrei che il centro fosse chiuso al traffico."], explanation: "\"Fosse chiuso\" after a conditional." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I wish my job were less stressful.", answer: "Vorrei che il mio lavoro fosse meno stressante.", altAnswers: ["Magari il mio lavoro fosse meno stressante!"], explanation: "\"Vorrei che\" + \"fosse\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'd like my parents to enjoy their retirement.", answer: "Vorrei che i miei genitori si godessero la pensione.", altAnswers: ["Mi piacerebbe che i miei genitori si godessero la pensione."], explanation: "\"Godersi\" → \"si godessero\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It would be nice if the company offered remote working.", answer: "Sarebbe bello che l'azienda offrisse lo smart working.", altAnswers: ["Sarebbe bello se l'azienda offrisse lo smart working.", "Sarebbe bello che l'azienda offrisse il lavoro da remoto."], explanation: "\"Offrisse\"; Italians say \"lo smart working\" for remote work." },

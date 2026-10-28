@@ -28,7 +28,7 @@ export const IT_B1_U18: Lesson[] = [
           { es: "Evito di uscire quando piove.", en: "I avoid going out when it rains." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I've decided to leave tomorrow.", answer: "Ho deciso di partire domani.", altAnswers: ["Ho deciso di partire domattina.", "Domani ho deciso di partire.", "Io ho deciso di partire domani."], explanation: "\"Decidere di\" + infinitive." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I've decided to leave tomorrow.", answer: "Ho deciso di partire domani.", altAnswers: ["Ho deciso di andare via domani.", "Ho deciso di andarmene domani.", "Io ho deciso di partire domani."], explanation: "\"Decidere di\" + infinitive." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Have you [finished eating]? (to a friend)", sentence: "Hai ___?", answer: "finito di mangiare", explanation: "\"Finire di\" + infinitive." },
           { type: "multiple-choice", question: "How do you say: she refused to sign?", options: ["Ha rifiutato di firmare.", "Ha rifiutato a firmare.", "Ha rifiutato firmare.", "Ha rifiutato per firmare."], correctIndex: 0, explanation: "\"Rifiutare di\"." },
         ],
@@ -38,6 +38,7 @@ export const IT_B1_U18: Lesson[] = [
         body: [
           "Verbs of trying, hoping, remembering and forgetting also take \"di\": \"cercare di\" (try to: \"Cerco di capire\"), \"sperare di\" (hope to), \"ricordarsi di\" (remember to), \"dimenticare di\" or \"dimenticarsi di\" (forget to), \"pensare di\" (think of doing), \"credere di\" (believe you ...).",
           "Watch \"cercare\": with a noun it means look for (\"cerco le chiavi\"), with \"di\" + infinitive it means try (\"cerco di dormire\").",
+          "The infinitive only works when both verbs share a subject. \"Spero di venire\" means I hope I'll come; if you hope someone else will, switch to \"che\" + subjunctive: \"Spero che tu venga\". The same goes for \"credere di\" and \"pensare di\": \"Credo di avere ragione\" (I think I'm right) but \"Credo che tu abbia ragione\". English speakers often write \"Spero di tu venire\", which is impossible in Italian.",
         ],
         examples: [
           { es: "Cerco di capire, ma parli troppo veloce.", en: "I'm trying to understand, but you speak too fast." },
@@ -117,6 +118,7 @@ export const IT_B1_U18: Lesson[] = [
         body: [
           "\"Riuscire a\" means to manage to, to be able to (after an effort): \"Non riesco a dormire\" (I can't get to sleep), \"Sei riuscito a trovarlo?\" (did you manage to find it?). It takes \"essere\" in the past.",
           "Helping, getting used to and trying out also take \"a\": \"aiutare qualcuno a\" (\"Mi aiuti a portare la valigia?\"), \"abituarsi a\", \"provare a\" (try, have a go at), \"prepararsi a\", \"convincere qualcuno a\".",
+          "Two pairs trip learners up. \"Cercare di\" is try as effort (\"Cerco di dormire\": I'm doing my best), \"provare a\" is try as an experiment (\"Prova a riavviare il computer\": see if it works); \"provare di\" doesn't exist. And \"non posso dormire\" means something stops you (noise, rules), while \"non riesco a dormire\" means you just can't, however hard you try.",
         ],
         examples: [
           { es: "Non riesco a dormire.", en: "I can't get to sleep." },
@@ -177,6 +179,7 @@ export const IT_B1_U18: Lesson[] = [
         body: [
           "The four modals take the infinitive directly, with nothing in between: \"Voglio partire\", \"Posso entrare?\", \"Devo lavorare\", \"So nuotare\" (I can swim, I know how to). English to after want is not translated: \"voglio di andare\" is one of the commonest learner slips.",
           "\"Sapere\" + infinitive is know how to: \"Sai guidare?\" (can you drive?). \"Potere\" is permission or possibility: \"Posso guidare io\" (I can drive, let me).",
+          "So English can splits three ways: \"So nuotare\" (a skill), \"Posso nuotare qui?\" (permission), \"Oggi non riesco a nuotare, c'è troppo vento\" (managing, from the previous lesson). Object pronouns can go on the infinitive or before the modal: \"Voglio vederti\" and \"Ti voglio vedere\" are equally correct.",
         ],
         examples: [
           { es: "Voglio partire presto.", en: "I want to leave early." },
@@ -194,6 +197,7 @@ export const IT_B1_U18: Lesson[] = [
         body: [
           "Verbs of liking and preferring also link directly: \"Preferisco restare a casa\", \"Mi piace cucinare\", \"Amo viaggiare\", \"Odio aspettare\", \"Desidero ringraziarvi\" (I'd like to thank you). So do \"lasciare\", \"fare\", \"vedere\" and \"sentire\": \"Ti sento arrivare\".",
           "\"Osare\" (dare) is another: \"Non osava parlare\" (he didn't dare speak).",
+          "With \"piacere\" the infinitive is the subject, so the verb stays singular even with two of them: \"Mi piace leggere e cucinare\", never \"mi piacciono leggere e cucinare\". And for a polite wish, the conditional is more natural than \"desidero\" in speech: \"Vorrei parlare con il direttore\".",
         ],
         examples: [
           { es: "Preferisco restare a casa stasera.", en: "I'd rather stay at home tonight." },
@@ -235,7 +239,7 @@ export const IT_B1_U18: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's best to leave early.", answer: "Conviene partire presto.", altAnswers: ["Conviene partire prima.", "È meglio partire presto."], explanation: "\"Convenire\" + infinitive." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He didn't [dare speak].", sentence: "Non ___.", answer: "osava parlare", altAnswers: ["ha osato parlare"], explanation: "\"Osare\" + infinitive." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Do you know [how to cook] risotto? (to a friend)", sentence: "Sai ___ il risotto?", answer: "cucinare", altAnswers: ["fare"], explanation: "\"Sapere\" + infinitive = know how to." },
-      { type: "word-order", prompt: "Put the words in order to say: You only have to ask.", words: ["Basta", "chiedere."], translation: "You only have to ask.", explanation: "\"Basta\" + infinitive." },
+      { type: "word-order", prompt: "Put the words in order to say: You only have to ask at reception.", words: ["Basta", "chiedere", "alla", "reception."], translation: "You only have to ask at reception.", explanation: "\"Basta\" + infinitive, no preposition." },
       { type: "multiple-choice", question: "Which sentence is correct?", options: ["Preferisco andare a piedi.", "Preferisco di andare a piedi.", "Preferisco a andare a piedi.", "Preferisco per andare a piedi."], correctIndex: 0, explanation: "No preposition after \"preferire\"." },
       { type: "dictation", audio: "Bisogna prenotare, altrimenti non c'è posto.", explanation: "\"Bisogna\" + infinitive." },
       { type: "speak", text: "Voglio imparare a cucinare, ma preferisco mangiare al ristorante!", prompt: "Say it in Italian: I want to learn to cook, but I'd rather eat at a restaurant!", tip: "\"Preferisco\": sc before o is a hard sk, pre-fe-RI-sco.", explanation: "\"Volere\" and \"preferire\" with no preposition, \"imparare a\"." },
@@ -254,6 +258,7 @@ export const IT_B1_U18: Lesson[] = [
         body: [
           "After a noun or an indefinite word, \"da\" + infinitive means to be done, for doing: \"qualcosa da bere\" (something to drink), \"niente da fare\" (nothing to do), \"una casa da vendere\" (a house for sale), \"libri da leggere\" (books to read).",
           "English uses to here, and learners often write \"per bere\". But \"qualcosa per bere\" sounds wrong to Italians: the thing is to be drunk, so it's \"da bere\". \"Ho molto da fare\" (I have a lot to do) and \"C'è tanto da vedere\" (there's so much to see) follow the same pattern.",
+          "After \"essere\", \"da\" + infinitive adds a sense of need: \"Questo lavoro è da rifare\" (this work needs redoing), \"Il bagno è tutto da sistemare\" (the bathroom needs fixing up), \"È tutto da vedere\" (it remains to be seen). The same \"da\" builds fixed nouns of purpose: \"la camera da letto\", \"la macchina da scrivere\".",
         ],
         examples: [
           { es: "Vuoi qualcosa da bere?", en: "Would you like something to drink?" },
@@ -308,7 +313,7 @@ export const IT_B1_U18: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I saved up to buy a car.", answer: "Ho risparmiato per comprare una macchina.", altAnswers: ["Ho messo da parte i soldi per comprare una macchina.", "Ho risparmiato per comprarmi una macchina."], explanation: "Purpose: \"per\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm not tall enough to play basketball.", answer: "Non sono abbastanza alto per giocare a basket.", altAnswers: ["Non sono abbastanza alta per giocare a basket.", "Non sono alto abbastanza per giocare a basket."], explanation: "\"Abbastanza\" ... \"per\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm going to the bank to withdraw some money.", answer: "Vado in banca a ritirare dei soldi.", altAnswers: ["Vado in banca a prelevare dei soldi.", "Vado in banca per ritirare dei soldi.", "Vado in banca a prendere dei soldi."], explanation: "After movement verbs, \"a\" is preferred." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "We're looking for [a flat to rent].", sentence: "Cerchiamo ___.", answer: "un appartamento da affittare", altAnswers: ["una casa da affittare"], explanation: "\"Da\" + infinitive after a noun." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "We're looking for [an apartment to rent].", sentence: "Cerchiamo ___.", answer: "un appartamento da affittare", altAnswers: ["una casa da affittare"], explanation: "\"Da\" + infinitive after a noun." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He got fined [for double-parking].", sentence: "L'hanno multato ___ in doppia fila.", answer: "per aver parcheggiato", altAnswers: ["per avere parcheggiato"], explanation: "Reason: \"per\" + past infinitive." },
       { type: "word-order", prompt: "Put the words in order to say: Have you got anything to read?", words: ["Hai", "qualcosa", "da", "leggere?"], translation: "Have you got anything to read?", explanation: "\"Da\" + infinitive." },
       { type: "multiple-choice", question: "Which is correct?", options: ["Hai qualcosa da mangiare?", "Hai qualcosa per mangiare?", "Hai qualcosa a mangiare?", "Hai qualcosa di mangiare?"], correctIndex: 0, explanation: "Something to be eaten: \"da mangiare\"." },
@@ -397,6 +402,7 @@ export const IT_B1_U18: Lesson[] = [
         body: [
           "Adjectives of feeling, certainty and ability take \"di\": \"felice di\", \"contento di\" (\"Sono contento di vederti\"), \"stanco di\", \"sicuro di\", \"orgoglioso di\", \"capace di\", \"libero di\". The subject of both parts is the same person.",
           "Adjectives of readiness and willingness take \"a\": \"pronto a\" (\"Siete pronti a partire?\"), \"disposto a\" (willing to), \"abituato a\", \"deciso a\" (determined to). So do \"il primo a\" and \"l'ultimo a\": \"È sempre l'ultimo ad arrivare\".",
+          "The adjective still agrees with the person (\"Siamo pronte a partire\", for a group of women), and the infinitive needs the same subject: \"Sono contento di vederti\" (I see you), but \"Sono contento che tu sia qui\" (you are here). For a past action use the past infinitive: \"Sono felice di averti conosciuto\" (I'm glad I met you).",
         ],
         examples: [
           { es: "Sono felice di conoscerti.", en: "I'm happy to meet you." },
@@ -601,7 +607,7 @@ export const IT_B1_U18: Lesson[] = [
       {
         heading: "Ahmed's doubts",
         body: [
-          "Ahmed is more sceptical. \"Io ogni anno prometto di andare in palestra, e ogni anno ci vado due volte\" (every year I promise to go to the gym, and every year I go twice). \"Il problema non è decidere: è riuscire a continuare\".",
+          "Ahmed is more skeptical. \"Io ogni anno prometto di andare in palestra, e ogni anno ci vado due volte\" (every year I promise to go to the gym, and every year I go twice). \"Il problema non è decidere: è riuscire a continuare\".",
           "Giulia's answer: \"Allora quest'anno prova a fare una cosa sola\" (so this year try doing just one thing).",
         ],
         examples: [

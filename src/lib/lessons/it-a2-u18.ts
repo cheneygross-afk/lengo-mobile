@@ -35,7 +35,7 @@ export const IT_A2_U18: Lesson[] = [
         heading: "Body, arms and legs",
         body: [
           "\"La spalla\" (shoulder), \"la schiena\" (back), \"la pancia\" (tummy), \"lo stomaco\" (stomach), \"il braccio\" (arm), \"la mano\" (hand), \"il dito\" (finger), \"la gamba\" (leg), \"il ginocchio\" (knee), \"il piede\" (foot).",
-          "\"La mano\" is feminine even though it ends in \"-o\", and its plural is \"le mani\". Pronounce the \"gli\" in \"ginocchio\" and \"ginocchia\" like the one in \"figli\".",
+          "\"La mano\" is feminine even though it ends in \"-o\", and its plural is \"le mani\". In \"ginocchio\" and \"ginocchia\" the \"gi\" is soft, as in \"gelato\", and the \"cchi\" is a long, hard k sound.",
         ],
         examples: [
           { es: "Ho la schiena rigida.", en: "My back is stiff." },

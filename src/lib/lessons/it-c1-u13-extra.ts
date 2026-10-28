@@ -79,7 +79,7 @@ export const IT_C1_U13_EXTRA: Lesson[] = [
           "La ricetta: \"La ricetta della nonna diceva: farina quanto basta, zucchero quanto basta, uova quante ne vuoi. Ho capito solo dopo che non era una ricetta, era una lezione di fiducia.\" First person, passato prossimo, and a final sentence that changes the meaning of everything before it.",
         ],
         examples: [
-          { es: "Ogni venerdì alle 18:40 la signora Ferri scendeva al binario 4.", en: "Every Friday at 18:40 Mrs. Ferri went down to platform 4." },
+          { es: "Ogni venerdì alle 18:40 la signora Ferri scendeva al binario 4.", en: "Every Friday at 6:40 p.m. Mrs. Ferri went down to platform 4." },
           { es: "Il capostazione aveva smesso di chiederle chi aspettasse.", en: "The stationmaster had stopped asking her who she was waiting for." },
           { es: "Qualcuno che un venerdì sarebbe arrivato.", en: "Someone who would arrive one Friday." },
           { es: "Farina quanto basta, zucchero quanto basta.", en: "Flour as needed, sugar as needed." },
@@ -104,7 +104,7 @@ export const IT_C1_U13_EXTRA: Lesson[] = [
       { type: "word-order", prompt: "Put the words in order to say: It was a lesson in trust.", words: ["Era", "una", "lezione", "di", "fiducia."], translation: "It was a lesson in trust.", explanation: "\"Fiducia\" = trust." },
       { type: "multiple-choice", question: "In Il binario 4, whose belief is \"Qualcuno che un venerdì sarebbe arrivato\"?", options: ["Mrs. Ferri's, in free indirect speech", "The stationmaster's", "The narrator's certain knowledge", "The train driver's"], correctIndex: 0, explanation: "Her conviction, in the narrator's tense." },
       { type: "multiple-choice", question: "What does \"quanto basta\" teach the narrator of La ricetta?", options: ["To trust her own judgment", "To weigh everything exactly", "To use less sugar", "To cook with her grandmother"], correctIndex: 0, explanation: "\"Una lezione di fiducia\"." },
-      { type: "listen-choose", audio: "Ogni venerdì alle diciotto e quaranta scendeva al binario quattro.", question: "When did she go to the platform?", options: ["Every Friday at 18:40", "Every day at 4", "Every Friday at 14:40", "On the fourth of every month"], correctIndex: 0, explanation: "\"Alle diciotto e quaranta\" = 18:40." },
+      { type: "listen-choose", audio: "Ogni venerdì alle diciotto e quaranta scendeva al binario quattro.", question: "When did she go to the platform?", options: ["Every Friday at 6:40 p.m.", "Every day at 4", "Every Friday at 2:40 p.m.", "On the fourth of every month"], correctIndex: 0, explanation: "\"Alle diciotto e quaranta\" = 6:40 p.m. (the 24-hour clock)." },
       { type: "dictation", audio: "Non era una ricetta, era una lezione di fiducia.", explanation: "The final twist." },
       { type: "speak", text: "Ogni venerdì la signora Ferri aspettava il treno. Non arrivava nessuno.", prompt: "Read the start of Il binario 4 aloud.", tip: "Pause before \"Non arrivava nessuno\": let the silence work.", explanation: "Habit and absence." },
     ],

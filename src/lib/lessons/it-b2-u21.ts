@@ -3,7 +3,7 @@ import type { Lesson, WriteExercise } from "./types";
 
 // Italian Upper Intermediate (B2) Unit 21: Science and Technology. Popular
 // science, technology, health science and measurements; review in context
-// of the passive, the impersonal, nominalisation and numbers.
+// of the passive, the impersonal, nominalization and numbers.
 // Conventions: docs/italian-course/authoring.md.
 export const IT_B2_U21: Lesson[] = [
   {
@@ -37,20 +37,20 @@ export const IT_B2_U21: Lesson[] = [
       {
         heading: "È stato dimostrato: the voice of science",
         body: [
-          "Science writing hides the person and puts the finding first. The passato prossimo passive does most of the work: \"è stato dimostrato che\" (it has been shown that), \"i risultati sono stati confermati\". In simple tenses \"venire\" can replace \"essere\" to stress a process: \"i campioni vengono analizzati in laboratorio\" (the samples are analysed in the lab). The participle agrees with the subject: \"le ipotesi sono state smentite\".",
+          "Science writing hides the person and puts the finding first. The passato prossimo passive does most of the work: \"è stato dimostrato che\" (it has been shown that), \"i risultati sono stati confermati\". In simple tenses \"venire\" can replace \"essere\" to stress a process: \"i campioni vengono analizzati in laboratorio\" (the samples are analyzed in the lab). The participle agrees with the subject: \"le ipotesi sono state smentite\".",
           "The impersonal \"si\" does the same job: \"si è scoperto che\" (it was found that), \"si stima che\" + subjunctive (it is estimated that). For a claim a journalist reports but doesn't vouch for, newspapers use the conditional: \"il caffè ridurrebbe il rischio\" (coffee reportedly reduces the risk). English needs an adverb for this; Italian puts it in the verb ending.",
         ],
         examples: [
           { es: "È stato dimostrato che il sonno migliora la memoria.", en: "It has been shown that sleep improves memory." },
-          { es: "I campioni vengono analizzati in un laboratorio di Padova.", en: "The samples are analysed in a laboratory in Padua." },
-          { es: "Si è scoperto che le api riconoscono alcuni volti umani.", en: "It was found that bees recognise some human faces." },
+          { es: "I campioni vengono analizzati in un laboratorio di Padova.", en: "The samples are analyzed in a laboratory in Padua." },
+          { es: "Si è scoperto che le api riconoscono alcuni volti umani.", en: "It was found that bees recognize some human faces." },
           { es: "Si stima che migliaia di specie siano a rischio di estinzione.", en: "It is estimated that thousands of species are at risk of extinction." },
           { es: "Secondo lo studio, il caffè ridurrebbe il rischio di alcune malattie.", en: "According to the study, coffee reportedly reduces the risk of some diseases." },
           { es: "Le due ipotesi sono state smentite da nuovi dati.", en: "Both hypotheses have been disproved by new data." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It has been shown that sleep improves memory.", answer: "È stato dimostrato che il sonno migliora la memoria.", altAnswers: ["Si è dimostrato che il sonno migliora la memoria.", "È stato dimostrato che dormire migliora la memoria."], explanation: "\"È stato dimostrato che\": passive with no named agent; the finding itself stays in the indicative because it is presented as fact." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The samples are analysed in a laboratory.", answer: "I campioni vengono analizzati in un laboratorio.", altAnswers: ["I campioni sono analizzati in un laboratorio.", "I campioni vengono analizzati in laboratorio.", "I campioni sono analizzati in laboratorio."], explanation: "\"Vengono analizzati\" stresses the process; \"sono analizzati\" is also correct. The participle agrees: \"analizzati\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The samples are analyzed in a laboratory.", answer: "I campioni vengono analizzati in un laboratorio.", altAnswers: ["I campioni sono analizzati in un laboratorio.", "I campioni vengono analizzati in laboratorio.", "I campioni sono analizzati in laboratorio."], explanation: "\"Vengono analizzati\" stresses the process; \"sono analizzati\" is also correct. The participle agrees: \"analizzati\"." },
           { type: "multiple-choice", question: "A newspaper writes: \"Il farmaco ridurrebbe il rischio del 30 per cento.\" What does the conditional tell you?", options: ["The paper is reporting a claim it hasn't verified.", "The drug will reduce the risk in the future.", "The drug would reduce the risk if it were approved.", "The drug has already reduced the risk."], correctIndex: 0, explanation: "This is the journalistic conditional: \"ridurrebbe\" = reportedly reduces." },
         ],
       },
@@ -58,7 +58,7 @@ export const IT_B2_U21: Lesson[] = [
         heading: "Careful claims",
         body: [
           "Good science writing doesn't overclaim. \"Sembra che\" and \"è possibile che\" take the subjunctive: \"sembra che il fenomeno sia più diffuso del previsto\". \"Potrebbe\" softens any statement: \"potrebbe trattarsi di una coincidenza\" (it could be a coincidence), where \"trattarsi di\" is an impersonal verb meaning it is a matter of.",
-          "The life of a theory: \"un'ipotesi\" is formulated, then \"confermata\" or \"smentita\" (disproved); \"una scoperta\" (a discovery) is made. The classic warning is \"correlazione non implica causalità\". Trap: \"le evidenze\" for evidence is common in medicine but criticised by many editors; \"le prove\" (proof, evidence) or \"i dati\" is safer, and \"evidente\" means obvious.",
+          "The life of a theory: \"un'ipotesi\" is formulated, then \"confermata\" or \"smentita\" (disproved); \"una scoperta\" (a discovery) is made. The classic warning is \"correlazione non implica causalità\". Trap: \"le evidenze\" for evidence is common in medicine but criticized by many editors; \"le prove\" (proof, evidence) or \"i dati\" is safer, and \"evidente\" means obvious.",
         ],
         examples: [
           { es: "Sembra che il fenomeno sia più diffuso del previsto.", en: "It seems the phenomenon is more widespread than expected." },
@@ -100,7 +100,7 @@ export const IT_B2_U21: Lesson[] = [
         heading: "Phones, apps and updates",
         body: [
           "Italian borrows tech words from English but gives them gender and keeps them invariable in the plural: \"il computer, i computer\", \"il file, i file\", \"lo smartphone\" (\"lo\" because of s + consonant). Most are masculine; \"l'app\" and \"l'email\" are feminine because they stand for \"l'applicazione\" and \"la posta elettronica\": \"un'app\", \"due app nuove\".",
-          "The verbs are Italian: \"scaricare\" (to download), \"installare\", \"aggiornare\" (to update) and \"l'aggiornamento\", \"caricare\" (to upload, and to charge a battery). \"Il telefono è scarico\" means the battery is flat; \"mi si è scaricato il telefono\" is how you say your phone died. \"Il cellulare\" is still the everyday word for a mobile.",
+          "The verbs are Italian: \"scaricare\" (to download), \"installare\", \"aggiornare\" (to update) and \"l'aggiornamento\", \"caricare\" (to upload, and to charge a battery). \"Il telefono è scarico\" means the battery is dead; \"mi si è scaricato il telefono\" is how you say your phone died. \"Il cellulare\" is still the everyday word for a cell phone.",
           "Phone talk has its own small verbs: \"mettere in carica\" (to put on charge), \"silenziare\" (to mute), \"fare uno screenshot\", and \"la notifica\" for a notification. The internet is \"la rete\" or \"internet\" with no article, so \"in rete\" means online and \"navigare\" is to browse.",
         ],
         examples: [
@@ -181,6 +181,7 @@ export const IT_B2_U21: Lesson[] = [
         body: [
           "\"Il vaccino\" is the product, \"la vaccinazione\" the act; people \"si vaccinano\" or \"si fanno vaccinare\", and a booster is \"il richiamo\" or \"la dose di richiamo\". A new drug goes through \"la sperimentazione clinica\" (the clinical trial) in \"fasi\" (phases), with \"volontari\", \"un gruppo di controllo\" and \"un placebo\".",
           "News reports use the passive with \"da\" for the agency: \"il vaccino è stato approvato dall'AIFA\", the Italian medicines agency. \"L'efficacia\" (efficacy) and \"la sicurezza\" (safety, as well as security) are the two things a trial measures. Trap: \"la droga\" is an illegal drug; a medicine is \"il farmaco\" or, in everyday speech, \"la medicina\".",
+          "At the pharmacy, \"la ricetta\" is a prescription (and also a recipe). A drug sold \"senza obbligo di ricetta\" or \"da banco\" is over the counter; \"il generico\" or \"il farmaco equivalente\" is the generic version, and pharmacists will often ask \"vuole il generico?\". In the public health service patients may pay \"il ticket\", a co-payment whose amount varies by region, so check local rules. \"Prescrivere\" (to prescribe) has the participle \"prescritto\", and \"la diagnosi\", like \"l'analisi\", is feminine and invariable: \"le diagnosi\".",
         ],
         examples: [
           { es: "Mi sono fatto fare il richiamo la settimana scorsa.", en: "I had my booster last week." },
@@ -227,7 +228,7 @@ export const IT_B2_U21: Lesson[] = [
           { es: "È guarita completamente in due settimane.", en: "She made a full recovery in two weeks." },
           { es: "È importante che i pazienti seguano la terapia fino alla fine.", en: "It's important that patients follow the treatment to the end." },
           { es: "La prevenzione costa meno della cura.", en: "Prevention costs less than treatment." },
-          { es: "Il medico di base mi ha prescritto degli esami del sangue.", en: "My GP prescribed some blood tests." },
+          { es: "Il medico di base mi ha prescritto degli esami del sangue.", en: "My family doctor prescribed some blood tests." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She made a full recovery in two weeks.", answer: "È guarita completamente in due settimane.", altAnswers: ["È guarita del tutto in due settimane.", "In due settimane è guarita completamente."], explanation: "\"Guarire\" takes \"essere\" when it means to get better: \"è guarita\"." },
@@ -243,7 +244,7 @@ export const IT_B2_U21: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Prevention costs less than treatment.", answer: "La prevenzione costa meno della cura.", altAnswers: ["La prevenzione costa meno della terapia."], explanation: "\"Meno di\" + article: \"della cura\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The study measures the drug's efficacy and [safety].", sentence: "Lo studio misura l'efficacia e ___ del farmaco.", answer: "la sicurezza", explanation: "\"La sicurezza\" = safety and security." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Read] the leaflet [carefully].", sentence: "___ il foglietto illustrativo.", answer: "Leggere attentamente", altAnswers: ["Leggere con attenzione"], explanation: "Leaflet style: an infinitive for instructions, with the adverb after it." },
-      { type: "word-order", prompt: "Put the words in order to say: My GP prescribed some blood tests.", words: ["Il medico", "di base", "mi ha", "prescritto", "degli esami", "del sangue."], translation: "My GP prescribed some blood tests.", explanation: "\"Mi ha prescritto\": indirect pronoun before the auxiliary." },
+      { type: "word-order", prompt: "Put the words in order to say: My family doctor prescribed some blood tests.", words: ["Il medico", "di base", "mi ha", "prescritto", "degli esami", "del sangue."], translation: "My family doctor prescribed some blood tests.", explanation: "\"Mi ha prescritto\": indirect pronoun before the auxiliary." },
       { type: "multiple-choice", question: "What does \"eventuali effetti collaterali\" mean?", options: ["any side effects that may occur", "the eventual side effects", "the final side effects", "frequent side effects"], correctIndex: 0, explanation: "\"Eventuale\" = possible, if any; English eventual is \"finale\"." },
       { type: "dictation", audio: "Il vaccino è stato approvato dopo la terza fase.", explanation: "\"È stato approvato\": passive passato prossimo." },
       { type: "speak", text: "Ho fatto il richiamo e gli effetti collaterali sono stati lievi.", prompt: "Say it in Italian: I had the booster and the side effects were mild.", tip: "ef-FET-ti col-la-te-RA-li: two sets of double consonants.", explanation: "\"Effetti collaterali\" with \"sono stati\" for a plural subject." },
@@ -260,21 +261,21 @@ export const IT_B2_U21: Lesson[] = [
       {
         heading: "Area and size",
         body: [
-          "Area is \"metri quadrati\", written \"m²\" or, in flat ads, \"mq\": \"un bilocale di 55 metri quadrati\". \"Metri cubi\" measure volume, gas bills included. Dimensions use an adjective + the measure: \"la stanza è lunga cinque metri e larga quattro\"; \"il tavolo misura due metri per uno\" (two metres by one). Height: \"quanto sei alto?\", \"sono alto un metro e ottanta\".",
+          "Area is \"metri quadrati\", written \"m²\" or, in apartment ads, \"mq\": \"un bilocale di 55 metri quadrati\". \"Metri cubi\" measure volume, gas bills included. Dimensions use an adjective + the measure: \"la stanza è lunga cinque metri e larga quattro\"; \"il tavolo misura due metri per uno\" (two meters by one). Height: \"quanto sei alto?\", \"sono alto un metro e ottanta\".",
           "Italian writes a decimal comma and a thousands point: \"2,5 metri\" (said \"due virgola cinque\" or \"due metri e mezzo\"), \"1.200 chilometri\". A trap for English speakers: \"un bilione\" is not a billion. A billion is \"un miliardo\", and a million is \"un milione di\", with \"di\" before a noun: \"un milione di abitanti\".",
         ],
         examples: [
-          { es: "Cerchiamo un trilocale di almeno 80 metri quadrati.", en: "We're looking for a three-room flat of at least 80 square metres." },
-          { es: "La cucina è lunga quattro metri e larga tre.", en: "The kitchen is four metres long and three wide." },
-          { es: "Il tavolo misura due metri per novanta centimetri.", en: "The table measures two metres by ninety centimetres." },
-          { es: "Mio fratello è alto un metro e novanta.", en: "My brother is one metre ninety (6 ft 3)." },
-          { es: "Il lago è profondo più di 400 metri.", en: "The lake is more than 400 metres deep." },
+          { es: "Cerchiamo un trilocale di almeno 80 metri quadrati.", en: "We're looking for a three-room apartment of at least 80 square meters." },
+          { es: "La cucina è lunga quattro metri e larga tre.", en: "The kitchen is four meters long and three wide." },
+          { es: "Il tavolo misura due metri per novanta centimetri.", en: "The table measures two meters by ninety centimeters." },
+          { es: "Mio fratello è alto un metro e novanta.", en: "My brother is one meter ninety (6 ft 3)." },
+          { es: "Il lago è profondo più di 400 metri.", en: "The lake is more than 400 meters deep." },
           { es: "La città ha quasi un milione di abitanti.", en: "The city has almost a million inhabitants." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We're looking for a flat of at least 80 square metres.", answer: "Cerchiamo un appartamento di almeno 80 metri quadrati.", altAnswers: ["Stiamo cercando un appartamento di almeno 80 metri quadrati.", "Cerchiamo un appartamento di almeno ottanta metri quadrati.", "Stiamo cercando un appartamento di almeno ottanta metri quadrati.", "Cerchiamo una casa di almeno 80 metri quadrati."], explanation: "\"Di\" + size: \"un appartamento di 80 metri quadrati\"." },
-          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The kitchen is [four metres long] and three wide.", sentence: "La cucina è ___ e larga tre.", answer: "lunga quattro metri", explanation: "Adjective first, agreeing with \"la cucina\": \"lunga quattro metri\"." },
-          { type: "multiple-choice", question: "How does an Italian write two and a half metres?", options: ["2,5 m", "2.5 m", "2'5 m", "2:5 m"], correctIndex: 0, explanation: "A decimal comma: \"2,5\"; the point separates thousands (\"1.200\")." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We're looking for an apartment of at least 80 square meters.", answer: "Cerchiamo un appartamento di almeno 80 metri quadrati.", altAnswers: ["Stiamo cercando un appartamento di almeno 80 metri quadrati.", "Cerchiamo un appartamento di almeno ottanta metri quadrati.", "Stiamo cercando un appartamento di almeno ottanta metri quadrati.", "Cerchiamo una casa di almeno 80 metri quadrati."], explanation: "\"Di\" + size: \"un appartamento di 80 metri quadrati\"." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The kitchen is [four meters long] and three wide.", sentence: "La cucina è ___ e larga tre.", answer: "lunga quattro metri", explanation: "Adjective first, agreeing with \"la cucina\": \"lunga quattro metri\"." },
+          { type: "multiple-choice", question: "How does an Italian write two and a half meters?", options: ["2,5 m", "2.5 m", "2'5 m", "2:5 m"], correctIndex: 0, explanation: "A decimal comma: \"2,5\"; the point separates thousands (\"1.200\")." },
         ],
       },
       {
@@ -282,17 +283,18 @@ export const IT_B2_U21: Lesson[] = [
         body: [
           "Speed is \"chilometri orari\" or, in speech, \"all'ora\": \"in autostrada il limite è di 130 all'ora\". Distance uses \"distare da\" or \"essere a\": \"Bologna dista circa cento chilometri da Firenze\", \"la casa è a tre chilometri dal mare\". The English from ... to is \"da ... a\" with articles where needed.",
           "Weight: \"pesare\" (\"il pacco pesa tre chili\"), \"il chilo\" (plural \"i chili\"), and at the deli counter \"l'etto\", 100 grams: \"due etti di prosciutto\". Half is \"mezzo\": \"mezzo litro\", but after a number it follows with \"e\": \"un chilo e mezzo\", \"due ore e mezza\" (or \"mezzo\").",
+          "Comparisons of size use \"il doppio\" (twice as much), \"il triplo\", \"la metà\" and \"volte\": \"la nuova sede è tre volte più grande\", \"costa il doppio\". For a picture the reader can see, Italian uses \"grande quanto\" or \"grande come\": \"un parco grande quanto dieci campi da calcio\". Rough figures take \"circa\", \"più o meno\", \"sui\" (\"pesa sui due chili\", about two kilos) or the approximate numbers in -ina: \"una trentina di chilometri\".",
         ],
         examples: [
-          { es: "In autostrada il limite è di 130 all'ora.", en: "On the motorway the limit is 130 km/h." },
-          { es: "Il treno viaggiava a 300 chilometri orari.", en: "The train was travelling at 300 km/h." },
-          { es: "Bologna dista circa cento chilometri da Firenze.", en: "Bologna is about a hundred kilometres from Florence." },
-          { es: "La casa è a tre chilometri dal mare.", en: "The house is three kilometres from the sea." },
+          { es: "In autostrada il limite è di 130 all'ora.", en: "On the highway the limit is 130 km/h." },
+          { es: "Il treno viaggiava a 300 chilometri orari.", en: "The train was traveling at 300 km/h." },
+          { es: "Bologna dista circa cento chilometri da Firenze.", en: "Bologna is about a hundred kilometers from Florence." },
+          { es: "La casa è a tre chilometri dal mare.", en: "The house is three kilometers from the sea." },
           { es: "Mi dà due etti di prosciutto cotto, per favore?", en: "Could I have two hundred grams of ham, please?" },
           { es: "Il bagaglio a mano non deve superare i dieci chili.", en: "Hand luggage mustn't exceed ten kilos." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "On the motorway the limit is 130 km/h.", answer: "In autostrada il limite è di 130 all'ora.", altAnswers: ["In autostrada il limite è di 130 chilometri orari.", "In autostrada il limite di velocità è di 130 all'ora.", "In autostrada il limite di velocità è di 130 chilometri orari.", "In autostrada il limite è 130 all'ora."], explanation: "\"Il limite è di\" + figure; \"all'ora\" in speech, \"chilometri orari\" in writing." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "On the highway the limit is 130 km/h.", answer: "In autostrada il limite è di 130 all'ora.", altAnswers: ["In autostrada il limite è di 130 chilometri orari.", "In autostrada il limite di velocità è di 130 all'ora.", "In autostrada il limite di velocità è di 130 chilometri orari.", "In autostrada il limite è 130 all'ora."], explanation: "\"Il limite è di\" + figure; \"all'ora\" in speech, \"chilometri orari\" in writing." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian, speaking to the person at the deli counter.", source: "Could I have 200 grams of cooked ham, please?", answer: "Mi dà due etti di prosciutto cotto, per favore?", altAnswers: ["Vorrei due etti di prosciutto cotto, per favore.", "Mi può dare due etti di prosciutto cotto, per favore?", "Mi dà 200 grammi di prosciutto cotto, per favore?", "Vorrei 200 grammi di prosciutto cotto, per favore."], explanation: "Italians count deli food in \"etti\" (100 g each); \"Mi dà\" is the Lei form." },
           { type: "listen-choose", audio: "La casa è a tre chilometri dal mare.", question: "How far is the house from the sea?", options: ["3 km", "13 km", "30 km", "300 m"], correctIndex: 0, explanation: "\"A tre chilometri dal mare\": \"a\" + distance + \"da\"." },
         ],
@@ -307,29 +309,29 @@ export const IT_B2_U21: Lesson[] = [
           { es: "Domani a Palermo ci saranno 38 gradi.", en: "Tomorrow it will be 38 degrees in Palermo." },
           { es: "Stanotte la minima scenderà a tre gradi sotto zero.", en: "Tonight the low will drop to minus three." },
           { es: "Le temperature sono scese di dieci gradi in un giorno.", en: "Temperatures dropped by ten degrees in a day." },
-          { es: "Sono caduti 120 millimetri di pioggia in sei ore.", en: "120 millimetres of rain fell in six hours." },
-          { es: "Sulle Alpi sono attesi 50 centimetri di neve fresca.", en: "50 centimetres of fresh snow are expected in the Alps." },
+          { es: "Sono caduti 120 millimetri di pioggia in sei ore.", en: "120 millimeters of rain fell in six hours." },
+          { es: "Sulle Alpi sono attesi 50 centimetri di neve fresca.", en: "50 centimeters of fresh snow are expected in the Alps." },
           { es: "Il vento soffierà con raffiche fino a 90 chilometri orari.", en: "The wind will blow with gusts of up to 90 km/h." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Temperatures dropped by ten degrees in a day.", answer: "Le temperature sono scese di dieci gradi in un giorno.", altAnswers: ["Le temperature sono calate di dieci gradi in un giorno.", "Le temperature sono scese di dieci gradi in un solo giorno.", "Le temperature sono scese di 10 gradi in un giorno."], explanation: "\"Di\" for the size of a change; \"scendere\" takes \"essere\": \"sono scese\"." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Tonight it will be [three degrees below zero].", sentence: "Stanotte ci saranno ___.", answer: "tre gradi sotto zero", altAnswers: ["meno tre gradi"], explanation: "\"Sotto zero\" after the number, or \"meno\" before it." },
-          { type: "speak", text: "Sono caduti centoventi millimetri di pioggia in sei ore.", prompt: "Say it in Italian: 120 millimetres of rain fell in six hours.", tip: "mil-LI-me-tri: stress on the second syllable.", explanation: "\"Cadere\" takes \"essere\" and agrees with \"millimetri\": \"sono caduti\"." },
+          { type: "speak", text: "Sono caduti centoventi millimetri di pioggia in sei ore.", prompt: "Say it in Italian: 120 millimeters of rain fell in six hours.", tip: "mil-LI-me-tri: stress on the second syllable.", explanation: "\"Cadere\" takes \"essere\" and agrees with \"millimetri\": \"sono caduti\"." },
         ],
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "My brother is one metre ninety.", answer: "Mio fratello è alto un metro e novanta.", altAnswers: ["Mio fratello è alto 1,90.", "Mio fratello è alto un metro e 90."], explanation: "\"Essere alto\" + measure; no \"di\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The table measures two metres by one.", answer: "Il tavolo misura due metri per uno.", altAnswers: ["Il tavolo misura due metri per un metro.", "Il tavolo è due metri per uno."], explanation: "\"Per\" = by, for dimensions." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Bologna is about a hundred kilometres from Florence.", answer: "Bologna dista circa cento chilometri da Firenze.", altAnswers: ["Bologna è a circa cento chilometri da Firenze.", "Bologna dista circa 100 chilometri da Firenze.", "Bologna è a circa 100 chilometri da Firenze."], explanation: "\"Distare da\" or \"essere a ... da\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "My brother is one meter ninety.", answer: "Mio fratello è alto un metro e novanta.", altAnswers: ["Mio fratello è alto 1,90.", "Mio fratello è alto un metro e 90."], explanation: "\"Essere alto\" + measure; no \"di\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The table measures two meters by one.", answer: "Il tavolo misura due metri per uno.", altAnswers: ["Il tavolo misura due metri per un metro.", "Il tavolo è due metri per uno."], explanation: "\"Per\" = by, for dimensions." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Bologna is about a hundred kilometers from Florence.", answer: "Bologna dista circa cento chilometri da Firenze.", altAnswers: ["Bologna è a circa cento chilometri da Firenze.", "Bologna dista circa 100 chilometri da Firenze.", "Bologna è a circa 100 chilometri da Firenze."], explanation: "\"Distare da\" or \"essere a ... da\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The city has almost a billion euros of debt.", answer: "La città ha quasi un miliardo di euro di debiti.", altAnswers: ["Il comune ha quasi un miliardo di euro di debiti.", "La città ha quasi un miliardo di euro di debito."], explanation: "A billion is \"un miliardo\", followed by \"di\"; \"euro\" is invariable." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The train was travelling at 300 km/h.", answer: "Il treno viaggiava a 300 chilometri orari.", altAnswers: ["Il treno viaggiava a 300 all'ora.", "Il treno andava a 300 all'ora.", "Il treno andava a 300 chilometri orari.", "Il treno viaggiava a 300 chilometri all'ora."], explanation: "\"A\" + speed; imperfect for an ongoing past action." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The train was traveling at 300 km/h.", answer: "Il treno viaggiava a 300 chilometri orari.", altAnswers: ["Il treno viaggiava a 300 all'ora.", "Il treno andava a 300 all'ora.", "Il treno andava a 300 chilometri orari.", "Il treno viaggiava a 300 chilometri all'ora."], explanation: "\"A\" + speed; imperfect for an ongoing past action." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Hand luggage mustn't exceed [ten kilos].", sentence: "Il bagaglio a mano non deve superare ___.", answer: "i dieci chili", altAnswers: ["dieci chili", "i dieci chilogrammi", "i 10 chili"], explanation: "A limit usually takes the article: \"superare i dieci chili\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Unemployment rose [by two per cent].", sentence: "La disoccupazione è aumentata ___.", answer: "del due per cento", altAnswers: ["del 2 per cento", "del 2%"], explanation: "Change by = \"di\" + article: \"del due per cento\"." },
-      { type: "word-order", prompt: "Put the words in order to say: 50 centimetres of fresh snow are expected in the Alps.", words: ["Sulle Alpi", "sono attesi", "50 centimetri", "di neve", "fresca."], translation: "50 centimetres of fresh snow are expected in the Alps.", explanation: "\"Attesi\" agrees with \"centimetri\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Unemployment rose [by two percent].", sentence: "La disoccupazione è aumentata ___.", answer: "del due per cento", altAnswers: ["del 2 per cento", "del 2%"], explanation: "Change by = \"di\" + article: \"del due per cento\"." },
+      { type: "word-order", prompt: "Put the words in order to say: 50 centimeters of fresh snow are expected in the Alps.", words: ["Sulle Alpi", "sono attesi", "50 centimetri", "di neve", "fresca."], translation: "50 centimeters of fresh snow are expected in the Alps.", explanation: "\"Attesi\" agrees with \"centimetri\"." },
       { type: "multiple-choice", question: "Which sentence says the temperature reached 40 degrees?", options: ["Il termometro è arrivato a 40 gradi.", "Il termometro è arrivato di 40 gradi.", "Il termometro è salito di 40 gradi.", "Il termometro è arrivato per 40 gradi."], correctIndex: 0, explanation: "A level reached takes \"a\"; \"di\" would be a change of 40 degrees." },
       { type: "dictation", audio: "Domani la massima sarà di trentotto gradi.", explanation: "\"La massima\" = the high; \"di\" before the figure." },
-      { type: "speak", text: "Abito in un bilocale di cinquanta metri quadrati, a due chilometri dal centro.", prompt: "Say it in Italian: I live in a two-room flat of fifty square metres, two kilometres from the centre.", tip: "qua-DRA-ti: stress on the second a.", explanation: "\"Di\" + size, \"a\" + distance + \"da\"." },
+      { type: "speak", text: "Abito in un bilocale di cinquanta metri quadrati, a due chilometri dal centro.", prompt: "Say it in Italian: I live in a two-room apartment of fifty square meters, two kilometers from the center.", tip: "qua-DRA-ti: stress on the second a.", explanation: "\"Di\" + size, \"a\" + distance + \"da\"." },
     ],
   },
   {
@@ -364,13 +366,13 @@ export const IT_B2_U21: Lesson[] = [
         ],
         examples: [
           { es: "Ho condiviso il file con tutto il gruppo.", en: "I shared the file with the whole group." },
-          { es: "Ti sei iscritto alla piattaforma?", en: "Have you signed up to the platform?" },
+          { es: "Ti sei iscritto alla piattaforma?", en: "Have you signed up for the platform?" },
           { es: "L'aggiornamento ha risolto il problema.", en: "The update fixed the problem." },
           { es: "Questi algoritmi vengono addestrati ogni settimana.", en: "These algorithms are trained every week." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The update fixed the problem.", answer: "L'aggiornamento ha risolto il problema.", explanation: "\"Risolvere\" → \"risolto\"; \"il problema\" is masculine." },
-          { type: "listen-choose", audio: "Ti sei iscritto alla piattaforma?", question: "What is being asked?", options: ["Have you signed up to the platform?", "Have you written to the platform?", "Have you logged out of the platform?", "Have you described the platform?"], correctIndex: 0, explanation: "\"Iscriversi\" = to sign up; reflexive, so \"ti sei\"." },
+          { type: "listen-choose", audio: "Ti sei iscritto alla piattaforma?", question: "What is being asked?", options: ["Have you signed up for the platform?", "Have you written to the platform?", "Have you logged out of the platform?", "Have you described the platform?"], correctIndex: 0, explanation: "\"Iscriversi\" = to sign up; reflexive, so \"ti sei\"." },
         ],
       },
     ],
@@ -392,7 +394,7 @@ export const IT_B2_U21: Lesson[] = [
     ],
   },
   {
-    slug: "b2-drill-nominalisation-science",
+    slug: "b2-drill-nominalization-science",
     level: "IT-B2",
     number: 6,
     title: "Drill: Nominal Style",
@@ -501,7 +503,7 @@ export const IT_B2_U21: Lesson[] = [
       {
         heading: "Reading like an Italian journalist",
         body: [
-          "Three habits of Italian science journalism to recognise and reuse: the source first (\"secondo l'ultimo monitoraggio\"), the impersonal finding (\"si è visto che\", \"è emerso che\", it emerged that), and the nominal phrase for a whole process (\"l'abbandono delle campagne\" instead of because people left the countryside).",
+          "Three habits of Italian science journalism to recognize and reuse: the source first (\"secondo l'ultimo monitoraggio\"), the impersonal finding (\"si è visto che\", \"è emerso che\", it emerged that), and the nominal phrase for a whole process (\"l'abbandono delle campagne\" instead of because people left the countryside).",
           "Careful: \"rivelarsi\" means to turn out, to prove (\"si sono rivelati efficaci\"), not to reveal oneself. And \"efficace\" is effective for methods, while \"efficiente\" is efficient for people or systems.",
         ],
         examples: [
@@ -526,7 +528,7 @@ export const IT_B2_U21: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[The abandonment of the countryside] has made forests grow.", sentence: "___ ha fatto crescere i boschi.", answer: "L'abbandono delle campagne", explanation: "A nominal phrase for a whole process." },
       { type: "word-order", prompt: "Put the words in order to say: Farmers are asking for quicker compensation.", words: ["Gli allevatori", "chiedono", "rimborsi", "più", "rapidi."], translation: "Farmers are asking for quicker compensation.", explanation: "\"Chiedere\" + direct object; \"più\" before the adjective." },
       { type: "dictation", audio: "Il vero rischio è che i lupi si abituino al cibo umano.", explanation: "\"Si abituino\": present subjunctive after \"il rischio è che\"." },
-      { type: "speak", text: "Secondo l'articolo, il ritorno del lupo è dovuto all'abbandono delle campagne.", prompt: "Summarise aloud: According to the article, the wolf's return is due to the abandonment of the countryside.", tip: "ab-ban-DO-no: two double consonants.", explanation: "\"Dovuto a\" + \"l'abbandono\" = \"all'abbandono\"." },
+      { type: "speak", text: "Secondo l'articolo, il ritorno del lupo è dovuto all'abbandono delle campagne.", prompt: "Summarize aloud: According to the article, the wolf's return is due to the abandonment of the countryside.", tip: "ab-ban-DO-no: two double consonants.", explanation: "\"Dovuto a\" + \"l'abbandono\" = \"all'abbandono\"." },
     ],
   },
   {
@@ -560,7 +562,7 @@ export const IT_B2_U21: Lesson[] = [
         heading: "The real problem",
         body: [
           "The guest explains that the issue is less the light than what we do on the phone. Listen for \"il problema vero è\" and \"quello che\" (what, the thing that). Spoken Italian joins ideas with \"e\" and \"cioè\" (that is, I mean) rather than formal connectors.",
-          "Numbers come fast in speech: \"tra le sette e le nove ore\" (between seven and nine hours), \"in media\" (on average). Note the articles with numbers of hours here: \"le sette ore\" are counted as a set.",
+          "Numbers come fast in speech: \"tra le sette e le nove ore\" (between seven and nine hours), \"in media\" (on average). Ranges often take the article: \"tra le sette e le nove ore\", \"dalle sette alle nove ore\"; \"tra sette e nove ore\" is also correct.",
         ],
         examples: [
           { es: "Il problema vero è quello che facciamo col telefono.", en: "The real problem is what we do on the phone." },
@@ -577,16 +579,16 @@ export const IT_B2_U21: Lesson[] = [
         heading: "The advice",
         body: [
           "The episode closes with practical advice, given in infinitives as Italian instructions often are: \"lasciare il telefono fuori dalla camera\", \"andare a letto sempre alla stessa ora\". The host thanks her guest formally: \"La ringrazio\", with \"La\" for the formal you.",
-          "Expect \"anche\" before the word it stresses: \"anche nel fine settimana\" (even at the weekend). And note \"la camera\" = the bedroom; the English camera is \"la macchina fotografica\".",
+          "Expect \"anche\" before the word it stresses: \"anche nel fine settimana\" (even on the weekend). And note \"la camera\" = the bedroom; the English camera is \"la macchina fotografica\".",
         ],
         examples: [
           { es: "Un consiglio pratico? Lasciare il telefono fuori dalla camera.", en: "A practical tip? Leave the phone outside the bedroom." },
-          { es: "Andare a letto sempre alla stessa ora, anche nel fine settimana.", en: "Go to bed at the same time every day, even at weekends." },
-          { es: "Dottoressa Ferri, La ringrazio.", en: "Dr Ferri, thank you." },
+          { es: "Andare a letto sempre alla stessa ora, anche nel fine settimana.", en: "Go to bed at the same time every day, even on weekends." },
+          { es: "Dottoressa Ferri, La ringrazio.", en: "Dr. Ferri, thank you." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian, in instruction style.", source: "Leave the phone outside the bedroom.", answer: "Lasciare il telefono fuori dalla camera.", altAnswers: ["Lasciare il telefono fuori dalla camera da letto.", "Lascia il telefono fuori dalla camera.", "Lascia il telefono fuori dalla camera da letto."], explanation: "Advice in the infinitive; \"fuori da\" = outside." },
-          { type: "speak", text: "Andate a letto sempre alla stessa ora, anche nel fine settimana.", prompt: "Give the advice to your listeners: Go to bed at the same time every day, even at weekends.", tip: "Keep \"anche\" glued to \"nel fine settimana\".", explanation: "\"Voi\" imperative to a group of listeners." },
+          { type: "speak", text: "Andate a letto sempre alla stessa ora, anche nel fine settimana.", prompt: "Give the advice to your listeners: Go to bed at the same time every day, even on weekends.", tip: "Keep \"anche\" glued to \"nel fine settimana\".", explanation: "\"Voi\" imperative to a group of listeners." },
         ],
       },
     ],
@@ -595,13 +597,13 @@ export const IT_B2_U21: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Is it true that phones make us sleep badly?", answer: "È vero che il telefono ci fa dormire male?", altAnswers: ["È vero che i telefoni ci fanno dormire male?", "È vero che il cellulare ci fa dormire male?"], explanation: "\"Fare\" + infinitive: \"ci fa dormire\" = makes us sleep." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Blue light has an effect, but it's small.", answer: "La luce blu ha un effetto, ma è piccolo.", altAnswers: ["La luce blu ha un effetto, ma piccolo."], explanation: "\"Blu\" is invariable: \"la luce blu\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The brain stays switched on.", answer: "Il cervello resta acceso.", altAnswers: ["Il cervello rimane acceso."], explanation: "\"Acceso\" = on, switched on (\"spento\" = off)." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "An adult should sleep between seven and nine hours.", answer: "Un adulto dovrebbe dormire tra le sette e le nove ore.", altAnswers: ["Un adulto dovrebbe dormire fra le sette e le nove ore.", "Un adulto dovrebbe dormire dalle sette alle nove ore."], explanation: "\"Dovrebbe\": the conditional for advice." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "An adult should sleep between seven and nine hours.", answer: "Un adulto dovrebbe dormire tra le sette e le nove ore.", altAnswers: ["Un adulto dovrebbe dormire tra sette e nove ore.", "Un adulto dovrebbe dormire in media tra le sette e le nove ore.", "Un adulto dovrebbe dormire fra le sette e le nove ore.", "Un adulto dovrebbe dormire dalle sette alle nove ore."], explanation: "\"Dovrebbe\": the conditional for advice." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian, to the guest.", source: "Doctor, what do you think about it?", answer: "Dottoressa, Lei che cosa ne pensa?", altAnswers: ["Dottoressa, che cosa ne pensa?", "Dottoressa, cosa ne pensa?", "Dottoressa, Lei cosa ne pensa?", "Dottoressa, che ne pensa?"], explanation: "\"Ne\" = about it; \"pensa\" for the formal \"Lei\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I mean], the phone keeps us awake because we find it interesting.", sentence: "___, il telefono ci fa restare svegli perché ci interessa.", answer: "Cioè", explanation: "\"Cioè\" = I mean, that is: a spoken reformulation." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Go to bed at the same time, [even at weekends].", sentence: "Andare a letto alla stessa ora, ___.", answer: "anche nel fine settimana", altAnswers: ["anche il fine settimana", "anche nel weekend"], explanation: "\"Anche\" goes right before what it stresses." },
-      { type: "word-order", prompt: "Put the words in order to say: Welcome to a new episode.", words: ["Benvenuti", "a una", "nuova", "puntata."], translation: "Welcome to a new episode.", explanation: "\"La puntata\" = episode of a programme or podcast." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Go to bed at the same time, [even on weekends].", sentence: "Andare a letto alla stessa ora, ___.", answer: "anche nel fine settimana", altAnswers: ["anche il fine settimana", "anche nel weekend"], explanation: "\"Anche\" goes right before what it stresses." },
+      { type: "word-order", prompt: "Put the words in order to say: Welcome to a new episode.", words: ["Benvenuti", "a una", "nuova", "puntata."], translation: "Welcome to a new episode.", explanation: "\"La puntata\" = episode of a program or podcast." },
       { type: "dictation", audio: "Il problema vero è quello che facciamo col telefono.", explanation: "\"Col\" = \"con il\", common in speech." },
-      { type: "speak", text: "Secondo la dottoressa Ferri, il problema non è la luce blu, ma quello che facciamo col telefono.", prompt: "Summarise aloud: According to Dr Ferri, the problem isn't blue light but what we do on the phone.", tip: "Pause slightly after \"blu\" before \"ma\".", explanation: "\"Non è ... ma\" = it's not ... but." },
+      { type: "speak", text: "Secondo la dottoressa Ferri, il problema non è la luce blu, ma quello che facciamo col telefono.", prompt: "Summarize aloud: According to Dr. Ferri, the problem isn't blue light but what we do on the phone.", tip: "Pause slightly after \"blu\" before \"ma\".", explanation: "\"Non è ... ma\" = it's not ... but." },
     ],
   },
   {
@@ -622,7 +624,7 @@ export const IT_B2_U21: Lesson[] = [
           { es: "Mi sono candidata per un posto da ingegnere a Milano.", en: "I applied for an engineering job in Milan." },
           { es: "Ho fatto domanda per una borsa di studio.", en: "I applied for a scholarship." },
           { es: "Abbiamo ricevuto più di cento candidature.", en: "We've received more than a hundred applications." },
-          { es: "Il negozio applica uno sconto del 20 per cento.", en: "The shop applies a 20 per cent discount." },
+          { es: "Il negozio applica uno sconto del 20 per cento.", en: "The store applies a 20 percent discount." },
           { es: "Applicare la crema due volte al giorno.", en: "Apply the cream twice a day." },
         ],
         checkpoint: [
@@ -632,13 +634,13 @@ export const IT_B2_U21: Lesson[] = [
         ],
       },
       {
-        heading: "Realising and supporting",
+        heading: "Realizing and supporting",
         body: [
-          "\"*Ho realizzato che era tardi\" is a calque of I realised. \"Realizzare\" means to make real, to carry out: \"realizzare un progetto, un sogno\". To realise is \"rendersi conto\" (\"mi sono reso conto che era tardi\") or simply \"capire\" or \"accorgersi\" (to notice). You will hear the calque from young speakers, but it marks careless Italian in writing.",
+          "\"*Ho realizzato che era tardi\" is a calque of I realized. \"Realizzare\" means to make real, to carry out: \"realizzare un progetto, un sogno\". To realize is \"rendersi conto\" (\"mi sono reso conto che era tardi\") or simply \"capire\" or \"accorgersi\" (to notice). You will hear the calque from young speakers, but it marks careless Italian in writing.",
           "\"*Supportare un amico\" is another: to support a person or an idea is \"sostenere\" (\"ti sostengo\", \"sosteniamo la proposta\"), or \"tifare per\" a team. \"Supportare\" is accepted only for technology: \"il formato non è supportato\". Likewise, \"il supporto\" is technical support or a stand, while emotional support is \"il sostegno\".",
         ],
         examples: [
-          { es: "Mi sono reso conto che era troppo tardi.", en: "I realised it was too late." },
+          { es: "Mi sono reso conto che era troppo tardi.", en: "I realized it was too late." },
           { es: "Si è accorta dell'errore solo dopo l'invio.", en: "She noticed the mistake only after sending it." },
           { es: "Finalmente abbiamo realizzato il nostro progetto.", en: "We've finally carried out our project." },
           { es: "Grazie per avermi sostenuto in questi mesi.", en: "Thanks for supporting me over these months." },
@@ -646,7 +648,7 @@ export const IT_B2_U21: Lesson[] = [
           { es: "Ha bisogno di sostegno, non di consigli.", en: "He needs support, not advice." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "A learner wrote \"*Ho realizzato che era tardi\". Write it correctly: I realised it was late.", source: "I realised it was late.", answer: "Mi sono reso conto che era tardi.", altAnswers: ["Mi sono resa conto che era tardi.", "Ho capito che era tardi.", "Mi sono accorto che era tardi.", "Mi sono accorta che era tardi."], explanation: "\"Rendersi conto\" = to realise; \"reso\" agrees with the speaker." },
+          { type: "translate", direction: "en-es", prompt: "A learner wrote \"*Ho realizzato che era tardi\". Write it correctly: I realized it was late.", source: "I realized it was late.", answer: "Mi sono reso conto che era tardi.", altAnswers: ["Mi sono resa conto che era tardi.", "Ho capito che era tardi.", "Mi sono accorto che era tardi.", "Mi sono accorta che era tardi."], explanation: "\"Rendersi conto\" = to realize; \"reso\" agrees with the speaker." },
           { type: "translate", direction: "en-es", prompt: "A learner wrote \"*Grazie per avermi supportato\". Write it correctly: Thanks for supporting me.", source: "Thanks for supporting me.", answer: "Grazie per avermi sostenuto.", altAnswers: ["Grazie per avermi sostenuta.", "Grazie di avermi sostenuto.", "Grazie di avermi sostenuta.", "Grazie per il sostegno."], explanation: "People are \"sostenuti\"; \"supportare\" is for formats and devices." },
           { type: "listen-choose", audio: "Si è accorta dell'errore solo dopo l'invio.", question: "What happened?", options: ["She noticed the mistake only after sending it.", "She made the mistake while sending it.", "She corrected the mistake before sending it.", "She sent the mistake to her boss."], correctIndex: 0, explanation: "\"Accorgersi di\" = to notice; \"l'invio\" = the sending." },
         ],
@@ -673,14 +675,14 @@ export const IT_B2_U21: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Fix \"*Ho applicato per una borsa di studio\" and write: I applied for a scholarship.", source: "I applied for a scholarship.", answer: "Ho fatto domanda per una borsa di studio.", altAnswers: ["Mi sono candidato per una borsa di studio.", "Mi sono candidata per una borsa di studio.", "Ho presentato domanda per una borsa di studio."], explanation: "For grants and permits, \"fare domanda\"." },
       { type: "translate", direction: "en-es", prompt: "Fix \"*Attualmente non è vero\" (meaning actually) and write: Actually, it isn't true.", source: "Actually, it isn't true.", answer: "In realtà non è vero.", altAnswers: ["In realtà, non è vero.", "A dire il vero, non è vero."], explanation: "\"Attualmente\" = currently; actually = \"in realtà\"." },
-      { type: "translate", direction: "en-es", prompt: "Fix \"*Ha realizzato il suo errore\" and write: He realised his mistake.", source: "He realised his mistake.", answer: "Si è reso conto del suo errore.", altAnswers: ["Si è accorto del suo errore.", "Ha capito il suo errore.", "Si è reso conto dell'errore."], explanation: "\"Rendersi conto di\" + noun." },
+      { type: "translate", direction: "en-es", prompt: "Fix \"*Ha realizzato il suo errore\" and write: He realized his mistake.", source: "He realized his mistake.", answer: "Si è reso conto del suo errore.", altAnswers: ["Si è accorto del suo errore.", "Ha capito il suo errore.", "Si è reso conto dell'errore."], explanation: "\"Rendersi conto di\" + noun." },
       { type: "translate", direction: "en-es", prompt: "Fix \"*Supportiamo la proposta\" and write: We support the proposal.", source: "We support the proposal.", answer: "Sosteniamo la proposta.", altAnswers: ["Appoggiamo la proposta.", "Noi sosteniamo la proposta."], explanation: "Ideas and people are \"sostenuti\" or \"appoggiati\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We've finally made our dream come true.", answer: "Finalmente abbiamo realizzato il nostro sogno.", altAnswers: ["Abbiamo finalmente realizzato il nostro sogno.", "Finalmente abbiamo realizzato il nostro sogno!"], explanation: "Here \"realizzare\" is right: to make real." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I currently work from home.", answer: "Attualmente lavoro da casa.", altAnswers: ["Al momento lavoro da casa.", "Attualmente lavoro in smart working."], explanation: "Here \"attualmente\" is right: currently." },
       { type: "fill-blank", prompt: "Fix \"*il formato non è sostenuto\" and write the Italian for the bold words.", en: "This format [isn't supported] by the app.", sentence: "Questo formato ___ dall'app.", answer: "non è supportato", explanation: "For software, \"supportare\" is the accepted term." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "She [noticed] the mistake too late.", sentence: "___ dell'errore troppo tardi.", answer: "Si è accorta", altAnswers: ["Si è resa conto"], explanation: "\"Accorgersi di\" = to notice." },
       { type: "word-order", prompt: "Put the words in order to say: Thanks for supporting me over these months.", words: ["Grazie", "per avermi", "sostenuto", "in questi", "mesi."], translation: "Thanks for supporting me over these months.", explanation: "\"Per\" + past infinitive with the pronoun attached: \"avermi\"." },
-      { type: "multi-select", question: "Which sentences are correct Italian? Choose all that apply.", options: ["Mi sono candidato per il posto.", "Ho realizzato che avevi ragione.", "Mi sono reso conto che avevi ragione.", "Alla fine è arrivato.", "Eventualmente è arrivato.", "Il negozio applica uno sconto."], correctIndexes: [0, 2, 3, 5], explanation: "\"Realizzare\" for realise and \"eventualmente\" for eventually are calques." },
+      { type: "multi-select", question: "Which sentences are correct Italian? Choose all that apply.", options: ["Mi sono candidato per il posto.", "Ho realizzato che avevi ragione.", "Mi sono reso conto che avevi ragione.", "Alla fine è arrivato.", "Eventualmente è arrivato.", "Il negozio applica uno sconto."], correctIndexes: [0, 2, 3, 5], explanation: "\"Realizzare\" for realize and \"eventualmente\" for eventually are calques." },
       { type: "dictation", audio: "Mi sono reso conto che il formato non era supportato.", explanation: "\"Rendersi conto\" for people, \"supportato\" for software." },
       { type: "speak", text: "Mi sono candidata per il posto, ma mi sono resa conto che era troppo lontano.", prompt: "Fix it and say it: a learner said \"Ho applicato per il posto, ma ho realizzato che era troppo lontano.\"", tip: "can-di-DA-ta: stress on da.", explanation: "Two calques fixed: \"candidarsi\" and \"rendersi conto\"." },
     ],
@@ -698,11 +700,11 @@ export const IT_B2_U21: Lesson[] = [
         heading: "Say what it does",
         body: [
           "Your task: a short piece for the \"Come funziona\" column of a local magazine, explaining GPS to readers who aren't experts. Start with what the technology is for, in one sentence: \"Il GPS è un sistema che permette di sapere dove ci troviamo\". Useful frames: \"serve a\" + infinitive (it's used to), \"permette di\" + infinitive (it lets you), \"si usa per\".",
-          "Give the reader a reason to care straight away: \"Lo usiamo ogni giorno, spesso senza saperlo: per le mappe, per le consegne, perfino per l'ora del telefono\". Use \"noi\" to include the reader, which is natural in Italian popular writing.",
+          "Give the reader a reason to care right away: \"Lo usiamo ogni giorno, spesso senza saperlo: per le mappe, per le consegne, perfino per l'ora del telefono\". Use \"noi\" to include the reader, which is natural in Italian popular writing.",
         ],
         examples: [
           { es: "Il GPS è un sistema che permette di sapere dove ci troviamo.", en: "GPS is a system that lets us know where we are." },
-          { es: "Serve a calcolare la posizione con un margine di pochi metri.", en: "It's used to calculate your position to within a few metres." },
+          { es: "Serve a calcolare la posizione con un margine di pochi metri.", en: "It's used to calculate your position to within a few meters." },
           { es: "Lo usiamo ogni giorno, spesso senza saperlo.", en: "We use it every day, often without knowing it." },
           { es: "In Europa esiste un sistema simile, che si chiama Galileo.", en: "In Europe there's a similar system called Galileo." },
         ],

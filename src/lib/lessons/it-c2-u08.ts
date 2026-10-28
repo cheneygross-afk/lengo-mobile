@@ -54,6 +54,8 @@ export const IT_C2_U08: Lesson[] = [
         heading: "Three more",
         body: [
           "\"Avere la coda di paglia\" (to have a straw tail) means to feel guilty and react defensively: \"Perché ti arrabbi? Hai la coda di paglia?\" A straw tail catches fire easily. \"Fare buon viso a cattivo gioco\" means to put a brave face on a bad situation. \"Tagliare la testa al toro\" means to settle a matter decisively, cutting short the discussion: \"Per tagliare la testa al toro, decido io.\"",
+          "A handful more from the same family: \"fare il passo più lungo della gamba\" (to bite off more than you can chew, especially with money), \"mettere il carro davanti ai buoi\" (to put the cart before the horse: Italian uses oxen), \"avere il coltello dalla parte del manico\" (to hold the knife by the handle: to have the upper hand), \"rimanere con un pugno di mosche\" (to be left with a fistful of flies: empty-handed), and \"acqua in bocca!\" (water in your mouth: keep it secret).",
+          "Grammar is the hidden difficulty. The verb conjugates freely (\"faceva orecchie da mercante\", \"farà buon viso a cattivo gioco\"), but the nouns, their number and their articles are frozen: never \"un'orecchia da mercante\" or \"il buon viso\". Most idioms also resist the passive and heavy modification: you cannot say \"le orecchie da mercante sono state fatte\". You can, however, add an adverb in the natural slot (\"ha sempre fatto orecchie da mercante\") and a complement with \"a\" or \"con\" (\"fa orecchie da mercante alle nostre richieste\").",
         ],
         examples: [
           { es: "Perché ti arrabbi? Hai la coda di paglia?", en: "Why are you getting angry? Guilty conscience?" },
@@ -75,7 +77,7 @@ export const IT_C2_U08: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "When they told her about the transfer, [she was totally taken aback].", sentence: "Quando le hanno detto del trasferimento, ___.", answer: "è caduta dalle nuvole", altAnswers: ["cadde dalle nuvole"], explanation: "Feminine agreement with \"essere\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[To settle the matter], let's vote.", sentence: "___, votiamo.", answer: "Per tagliare la testa al toro", explanation: "Decisive ending." },
       { type: "word-order", prompt: "Put the words in order to say: He has a hand in everything.", words: ["Ha", "le", "mani", "in", "pasta", "in", "tutto."], translation: "He has a hand in everything.", explanation: "\"Avere le mani in pasta in qualcosa\"." },
-      { type: "multiple-choice", question: "Your neighbour ignores every request to turn the music down. Which idiom describes him?", options: ["fa orecchie da mercante", "cade dalle nuvole", "ha santi in paradiso", "taglia la testa al toro"], correctIndex: 0, explanation: "He hears only what suits him." },
+      { type: "multiple-choice", question: "Your neighbor ignores every request to turn the music down. Which idiom describes him?", options: ["fa orecchie da mercante", "cade dalle nuvole", "ha santi in paradiso", "taglia la testa al toro"], correctIndex: 0, explanation: "He hears only what suits him." },
       { type: "matching", instructions: "Match the idiom to the English.", pairs: [{ left: "cadere dalle nuvole", right: "to be taken aback" }, { left: "avere la coda di paglia", right: "to have a guilty conscience" }, { left: "fare buon viso a cattivo gioco", right: "to put a brave face on it" }, { left: "tirare le fila", right: "to pull the strings" }, { left: "fare lo gnorri", right: "to play dumb" }], explanation: "Idioms of this lesson." },
       { type: "dictation", audio: "Gli ho chiesto tre volte il libro, ma fa orecchie da mercante.", explanation: "\"Orecchie\": plural." },
       { type: "speak", text: "Non fare quello che cade dalle nuvole: lo sapevano tutti.", prompt: "Challenge a colleague: Don't act all surprised: everyone knew.", tip: "Ironic stress on \"tutti\".", explanation: "\"Cadere dalle nuvole\" as a pose." },
@@ -112,7 +114,9 @@ export const IT_C2_U08: Lesson[] = [
         heading: "Excess and fussiness",
         body: [
           "\"Essere come il prezzemolo\" (to be like parsley) is said of someone who turns up everywhere, as parsley goes in every dish: \"Quel giornalista è come il prezzemolo: lo trovi a ogni inaugurazione.\" It's ironic, sometimes irritated.",
-          "Related idioms of excess: \"cercare il pelo nell'uovo\" (to look for a hair in the egg: to nitpick), \"fare di ogni erba un fascio\" (to make one bundle of every grass: to lump everything together, generalise unfairly), \"avere un diavolo per capello\" (to be furious), \"salvare capra e cavoli\" (to save the goat and the cabbages: to have it both ways, to satisfy two opposing needs).",
+          "Related idioms of excess: \"cercare il pelo nell'uovo\" (to look for a hair in the egg: to nitpick), \"fare di ogni erba un fascio\" (to make one bundle of every grass: to lump everything together, generalize unfairly), \"avere un diavolo per capello\" (to be furious), \"salvare capra e cavoli\" (to save the goat and the cabbages: to have it both ways, to satisfy two opposing needs).",
+          "Failure and excess have their own idioms. \"Fare un buco nell'acqua\" (to make a hole in the water) is to try and achieve nothing; \"fare castelli in aria\" is to daydream impossible plans; \"prendere fischi per fiaschi\" (to take whistles for flasks) is a playful twin of \"lucciole per lanterne\". \"La goccia che fa traboccare il vaso\" is the last straw, the drop that makes the vase overflow, and \"piove sul bagnato\" (it rains on what is already wet) means that misfortune, or luck, goes to those who already have plenty of it. \"Farne di tutti i colori\" is to get up to all kinds of mischief.",
+          "Origins are often unclear, and honest dictionaries say so. For \"menare il can per l'aia\" a common explanation is that walking a dog around the threshing floor achieves nothing: the dog neither hunts nor guards. Treat such stories as memory aids, not as history.",
         ],
         examples: [
           { es: "Quel giornalista è come il prezzemolo.", en: "That journalist turns up everywhere." },
@@ -135,12 +139,12 @@ export const IT_C2_U08: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Don't beat around it: tell me the truth.", answer: "Non girarci intorno: dimmi la verità.", altAnswers: ["Non girarci intorno, dimmi la verità.", "Non menare il can per l'aia: dimmi la verità."], explanation: "\"Girarci intorno\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "That journalist turns up everywhere.", answer: "Quel giornalista è come il prezzemolo.", altAnswers: ["Quella giornalista è come il prezzemolo.", "Quel giornalista è dappertutto."], explanation: "\"Essere come il prezzemolo\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He [prevaricated] instead of answering.", sentence: "Ha ___ invece di rispondere.", answer: "tergiversato", altAnswers: ["menato il can per l'aia"], explanation: "\"Tergiversare\": formal." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Generalising means [lumping everything together].", sentence: "Generalizzare significa ___.", answer: "fare di ogni erba un fascio", explanation: "Unfair generalisation." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Generalizing means [lumping everything together].", sentence: "Generalizzare significa ___.", answer: "fare di ogni erba un fascio", explanation: "Unfair generalization." },
       { type: "word-order", prompt: "Put the words in order to say: You've got the wrong end of the stick.", words: ["Hai", "preso", "lucciole", "per", "lanterne."], translation: "You've got the wrong end of the stick.", explanation: "Gross misunderstanding." },
       { type: "multiple-choice", question: "Which idiom means finding a solution that satisfies two opposing needs?", options: ["salvare capra e cavoli", "menare il can per l'aia", "cercare il pelo nell'uovo", "avere un diavolo per capello"], correctIndex: 0, explanation: "Keep both the goat and the cabbages." },
       { type: "matching", instructions: "Match the idiom to the English.", pairs: [{ left: "prendere lucciole per lanterne", right: "to get it completely wrong" }, { left: "menare il can per l'aia", right: "to beat about the bush" }, { left: "cercare il pelo nell'uovo", right: "to nitpick" }, { left: "avere un diavolo per capello", right: "to be furious" }], explanation: "Idioms of error, evasion and mood." },
       { type: "dictation", audio: "Smettila di menare il can per l'aia e dimmi cosa è successo.", explanation: "\"Can per l'aia\": fixed form." },
-      { type: "speak", text: "Non fare di ogni erba un fascio: non tutti i politici sono uguali.", prompt: "Object to a generalisation: Don't tar everyone with the same brush: not all politicians are the same.", tip: "Pause at the colon.", explanation: "\"Fare di ogni erba un fascio\"." },
+      { type: "speak", text: "Non fare di ogni erba un fascio: non tutti i politici sono uguali.", prompt: "Object to a generalization: Don't tar everyone with the same brush: not all politicians are the same.", tip: "Pause at the colon.", explanation: "\"Fare di ogni erba un fascio\"." },
     ],
   },
   {
@@ -154,27 +158,28 @@ export const IT_C2_U08: Lesson[] = [
       {
         heading: "Ancient Rome and Greece",
         body: [
-          "\"Passare il Rubicone\": in 49 BC Caesar crossed the Rubicon, the river marking the limit of his province, with his army, an act of war against Rome. The idiom means taking an irreversible decision. Suetonius reports that Caesar said \"Alea iacta est\", in Italian \"Il dado è tratto\" (the die is cast).",
+          "\"Passare il Rubicone\": in 49 BC Caesar crossed the Rubicon, the river marking the limit of his province, with his army, an act of war against Rome. The idiom means taking an irreversible decision. Suetonius reports that Caesar said \"iacta alea est\", usually quoted as \"Alea iacta est\", in Italian \"Il dado è tratto\" (the die is cast).",
           "\"Una vittoria di Pirro\": King Pyrrhus of Epirus beat the Romans in 279 BC but lost so many men that the victory ruined him. A Pyrrhic victory costs more than it gains. From myth: \"il tallone d'Achille\" (the weak point), \"il cavallo di Troia\" (a trick to get inside), \"il pomo della discordia\" (the apple of discord), \"la spada di Damocle\" (a constant threat), \"una fatica di Sisifo\" (an endless, futile task).",
         ],
         examples: [
           { es: "Con le dimissioni ha passato il Rubicone.", en: "With his resignation he crossed the Rubicon." },
           { es: "Il dado è tratto.", en: "The die is cast." },
           { es: "È stata una vittoria di Pirro.", en: "It was a Pyrrhic victory." },
-          { es: "La matematica è il mio tallone d'Achille.", en: "Maths is my Achilles' heel." },
+          { es: "La matematica è il mio tallone d'Achille.", en: "Math is my Achilles' heel." },
           { es: "Il debito pende come una spada di Damocle.", en: "The debt hangs like a sword of Damocles." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It was a Pyrrhic victory.", answer: "È stata una vittoria di Pirro.", altAnswers: ["Fu una vittoria di Pirro.", "Si è trattato di una vittoria di Pirro."], explanation: "\"Vittoria di Pirro\"." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Maths is my Achilles' heel.", answer: "La matematica è il mio tallone d'Achille.", altAnswers: ["La matematica è il mio punto debole."], explanation: "\"Tallone d'Achille\"." },
-          { type: "listen-choose", audio: "Con le dimissioni ha passato il Rubicone.", question: "What does it mean?", options: ["He made an irreversible decision.", "He travelled to Rimini.", "He lost an election.", "He started a war."], correctIndex: 0, explanation: "No turning back." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Math is my Achilles' heel.", answer: "La matematica è il mio tallone d'Achille.", altAnswers: ["La matematica è il mio punto debole."], explanation: "\"Tallone d'Achille\"." },
+          { type: "listen-choose", audio: "Con le dimissioni ha passato il Rubicone.", question: "What does it mean?", options: ["He made an irreversible decision.", "He traveled to Rimini.", "He lost an election.", "He started a war."], correctIndex: 0, explanation: "No turning back." },
         ],
       },
       {
         heading: "Italian history",
         body: [
-          "\"Andare a Canossa\": in 1077 Emperor Henry IV waited three days in the snow outside the castle of Canossa to obtain the Pope's pardon. To go to Canossa is to humble yourself and admit defeat. \"Fare il portoghese\" means to get in without paying: a popular story says that in eighteenth-century Rome Portuguese subjects were admitted free to a theatre, and many Romans claimed to be Portuguese.",
+          "\"Andare a Canossa\": in 1077 Emperor Henry IV waited three days in the snow outside the castle of Canossa to obtain the Pope's pardon. To go to Canossa is to humble yourself and admit defeat. \"Fare il portoghese\" means to get in without paying: a popular story says that in eighteenth-century Rome Portuguese subjects were admitted free to a theater, and many Romans claimed to be Portuguese.",
           "\"Essere una Babele\" (from the Tower of Babel) is a chaotic place, a confusion of languages. \"Fare la fine del topo\" means to end up trapped. \"Tornare con le pive nel sacco\" (bagpipes in the bag) means to come back defeated, empty-handed.",
+          "Literature and modern history add more. \"Fare il gran rifiuto\" (to make the great refusal) comes from Dante, who places in Hell \"colui / che fece per viltade il gran rifiuto\", traditionally identified with Pope Celestine V, who resigned in 1294. \"Un Carneade\" is a nobody, from Manzoni's Don Abbondio, who stumbles on the Greek philosopher's name and asks \"Carneade! Chi era costui?\". \"Fare un quarantotto\" (to make a forty-eight) means to cause chaos, from the revolutions of 1848. \"Lavorare per il re di Prussia\" is to work for nothing; one popular explanation refers to the low pay of Frederick the Great's soldiers. And \"ogni morte di papa\" (every time a pope dies) means once in a blue moon.",
         ],
         examples: [
           { es: "Alla fine è dovuto andare a Canossa.", en: "In the end he had to eat humble pie." },
@@ -185,7 +190,7 @@ export const IT_C2_U08: Lesson[] = [
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We came back empty-handed.", answer: "Siamo tornati con le pive nel sacco.", altAnswers: ["Siamo tornate con le pive nel sacco.", "Tornammo con le pive nel sacco.", "Siamo tornati a mani vuote."], explanation: "\"Con le pive nel sacco\": defeated." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "There's always someone [dodging the fare].", sentence: "C'è sempre qualcuno che ___.", answer: "fa il portoghese", explanation: "\"Fare il portoghese\"." },
-          { type: "multiple-choice", question: "A minister publicly apologises to the party he had attacked. Which idiom fits?", options: ["andare a Canossa", "passare il Rubicone", "fare il portoghese", "essere una Babele"], correctIndex: 0, explanation: "Public humiliation and submission." },
+          { type: "multiple-choice", question: "A minister publicly apologizes to the party he had attacked. Which idiom fits?", options: ["andare a Canossa", "passare il Rubicone", "fare il portoghese", "essere una Babele"], correctIndex: 0, explanation: "Public humiliation and submission." },
         ],
       },
     ],
@@ -195,11 +200,11 @@ export const IT_C2_U08: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The meeting was a Babel.", answer: "La riunione era una Babele.", altAnswers: ["La riunione è stata una Babele.", "La riunione era una babele."], explanation: "\"Babele\" = chaos." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In the end he had to eat humble pie.", answer: "Alla fine è dovuto andare a Canossa.", altAnswers: ["Alla fine ha dovuto andare a Canossa.", "Alla fine dovette andare a Canossa."], explanation: "\"Andare a Canossa\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "That gift was a Trojan horse.", answer: "Quel regalo era un cavallo di Troia.", altAnswers: ["Quel dono era un cavallo di Troia."], explanation: "\"Cavallo di Troia\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The inheritance became [the apple of discord].", sentence: "L'eredità è diventata ___.", answer: "il pomo della discordia", explanation: "From the judgement of Paris." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The inheritance became [the apple of discord].", sentence: "L'eredità è diventata ___.", answer: "il pomo della discordia", explanation: "From the judgment of Paris." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Tidying this office is [a Sisyphean task].", sentence: "Riordinare questo ufficio è ___.", answer: "una fatica di Sisifo", explanation: "Endless and futile." },
       { type: "word-order", prompt: "Put the words in order to say: With his resignation he crossed the Rubicon.", words: ["Con", "le", "dimissioni", "ha", "passato", "il", "Rubicone."], translation: "With his resignation he crossed the Rubicon.", explanation: "\"Le dimissioni\": always plural." },
       { type: "multiple-choice", question: "A team wins the final but loses its three best players to injury. What is it?", options: ["una vittoria di Pirro", "un cavallo di Troia", "una fatica di Sisifo", "una Babele"], correctIndex: 0, explanation: "A costly win." },
-      { type: "matching", instructions: "Match the idiom to its origin.", pairs: [{ left: "passare il Rubicone", right: "Caesar" }, { left: "vittoria di Pirro", right: "King of Epirus" }, { left: "andare a Canossa", right: "Henry IV and the Pope" }, { left: "pomo della discordia", right: "the judgement of Paris" }], explanation: "History behind the idioms." },
+      { type: "matching", instructions: "Match the idiom to its origin.", pairs: [{ left: "passare il Rubicone", right: "Caesar" }, { left: "vittoria di Pirro", right: "King of Epirus" }, { left: "andare a Canossa", right: "Henry IV and the Pope" }, { left: "pomo della discordia", right: "the judgment of Paris" }], explanation: "History behind the idioms." },
       { type: "dictation", audio: "È stata una vittoria di Pirro: abbiamo vinto, ma a che prezzo.", explanation: "\"A che prezzo\" = at what cost." },
       { type: "speak", text: "Ormai il dado è tratto: abbiamo passato il Rubicone.", prompt: "Announce an irreversible decision: The die is cast now: we've crossed the Rubicon.", tip: "Solemn, slow delivery.", explanation: "Two related idioms." },
     ],
@@ -215,7 +220,7 @@ export const IT_C2_U08: Lesson[] = [
       {
         heading: "Latin in the news",
         body: [
-          "Italian uses Latin phrases far more than English does, and pronounces them the Italian way (\"ad hoc\" with a silent h, \"curriculum\" with a hard c). Journalists and lawyers favour: \"ad hoc\" (made for a specific purpose: \"una legge ad hoc\"), \"una tantum\" (one-off: \"un contributo una tantum\"), \"in extremis\" (at the last moment: \"salvato in extremis\"), \"de facto\" (in fact, as opposed to \"de iure\", in law), \"ad personam\" (made for one person, often polemical: \"una legge ad personam\"), \"super partes\" (impartial: \"un arbitro super partes\"), \"pro capite\" (per head), \"motu proprio\" (on one's own initiative).",
+          "Italian uses Latin phrases far more than English does, and pronounces them the Italian way (\"ad hoc\" with a silent h, \"curriculum\" with a hard c). Journalists and lawyers favor: \"ad hoc\" (made for a specific purpose: \"una legge ad hoc\"), \"una tantum\" (one-off: \"un contributo una tantum\"), \"in extremis\" (at the last moment: \"salvato in extremis\"), \"de facto\" (in fact, as opposed to \"de iure\", in law), \"ad personam\" (made for one person, often polemical: \"una legge ad personam\"), \"super partes\" (impartial: \"un arbitro super partes\"), \"pro capite\" (per head), \"motu proprio\" (on one's own initiative).",
           "These phrases act as adjectives or adverbs and never change form: \"due leggi ad hoc\", \"interventi una tantum\".",
         ],
         examples: [
@@ -235,8 +240,10 @@ export const IT_C2_U08: Lesson[] = [
       {
         heading: "Latin in everyday life",
         body: [
-          "Some Latin words are fully Italian: \"il curriculum\" (CV; the plural is usually \"i curriculum\", with \"i curricula\" in formal use), \"il lapsus\" (a slip of the tongue, invariable), \"l'alibi\", \"il referendum\", \"il quorum\", \"l'iter\" (the procedure: \"l'iter burocratico\"), \"il gratis\" and \"gratis\", \"idem\" (the same, colloquial: \"Io prendo un caffè.\" \"Idem.\"), \"l'alter ego\", \"un aut aut\" (an ultimatum: either-or).",
+          "Some Latin words are fully Italian: \"il curriculum\" (CV; the plural is usually \"i curriculum\", with \"i curricula\" in formal use), \"il lapsus\" (a slip of the tongue, invariable), \"l'alibi\", \"il referendum\", \"il quorum\", \"l'iter\" (the procedure: \"l'iter burocratico\"), \"gratis\", \"idem\" (the same, colloquial: \"Io prendo un caffè.\" \"Idem.\"), \"l'alter ego\", \"un aut aut\" (an ultimatum: either-or).",
           "And phrases: \"a priori\" (beforehand, without examining the facts), \"a posteriori\", \"ex aequo\" (tied, in a ranking), \"sui generis\" (one of a kind, unusual), \"post mortem\", \"in itinere\" (on the way, during the process: \"un infortunio in itinere\"), \"pro tempore\" (for the time being: \"il sindaco pro tempore\").",
+          "Newspapers and offices add \"sine die\" (indefinitely: \"il processo è rinviato sine die\"), \"in primis\" (first and foremost), \"ipso facto\" (automatically), \"status quo\", \"brevi manu\" (by hand: \"consegnare brevi manu\") and \"vulnus\", a journalist's favorite for a breach or injury to a principle (\"un vulnus alla democrazia\"). The legal maxim \"in dubio pro reo\" (when in doubt, for the defendant) and the university's \"laurea honoris causa\" are part of the same heritage.",
+          "Pronunciation follows Italian habits: \"ae\" is read as \"e\" (\"ex aequo\" sounds like \"ex equo\"), \"c\" and \"g\" soften before \"e\" and \"i\" (\"Cicero\" is read \"CHEE-che-ro\", \"agenda\" with the g of \"gelato\"), and the stress falls where Latin puts it. Latin nouns used as Italian nouns are masculine and normally invariable: \"il referendum, i referendum\", \"il quorum\", \"l'iter\".",
         ],
         examples: [
           { es: "Ho mandato il curriculum a dieci aziende.", en: "I sent my CV to ten companies." },
@@ -255,7 +262,7 @@ export const IT_C2_U08: Lesson[] = [
       {
         heading: "Mottos and quotations",
         body: [
-          "Educated Italians also quote Latin sayings: \"carpe diem\" (Horace: seize the day), \"repetita iuvant\" (repetition helps), \"errare humanum est, perseverare diabolicum\" (to err is human, to persist is diabolical), \"dulcis in fundo\" (the best at the end: often ironic, the worst at the end), \"in vino veritas\", \"mens sana in corpore sano\". \"Dulcis in fundo\" is a favourite of Italian speakers ending a list of bad news.",
+          "Educated Italians also quote Latin sayings: \"carpe diem\" (Horace: seize the day), \"repetita iuvant\" (repetition helps), \"errare humanum est, perseverare diabolicum\" (to err is human, to persist is diabolical), \"dulcis in fundo\" (the best at the end: often ironic, the worst at the end), \"in vino veritas\", \"mens sana in corpore sano\". \"Dulcis in fundo\" is a favorite of Italian speakers ending a list of bad news.",
         ],
         examples: [
           { es: "Repetita iuvant: lo ripeto ancora una volta.", en: "Repetition helps: I'll say it once more." },
@@ -264,7 +271,7 @@ export const IT_C2_U08: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "And to top it all, it started to rain.", answer: "E dulcis in fundo, ha cominciato a piovere.", altAnswers: ["E dulcis in fundo ha cominciato a piovere.", "E per finire, ha cominciato a piovere.", "E come se non bastasse, ha cominciato a piovere."], explanation: "Ironic \"dulcis in fundo\"." },
-          { type: "speak", text: "Repetita iuvant: lo ripeto ancora una volta.", tip: "\"Iuvant\": YOU-vant, the i is a consonant.", explanation: "A teacher's favourite." },
+          { type: "speak", text: "Repetita iuvant: lo ripeto ancora una volta.", tip: "\"Iuvant\": YOU-vant, the i is a consonant.", explanation: "A teacher's favorite." },
         ],
       },
     ],
@@ -343,21 +350,21 @@ export const IT_C2_U08: Lesson[] = [
         ],
         examples: [
           { es: "Sono passati sei anni da quando hanno aperto il cantiere.", en: "Six years have passed since they opened the building site." },
-          { es: "L'assessore fa orecchie da mercante.", en: "The councillor turns a deaf ear." },
+          { es: "L'assessore fa orecchie da mercante.", en: "The council member turns a deaf ear." },
           { es: "La piazza è invasa dalle erbacce.", en: "The square is overrun with weeds." },
           { es: "Non manca a un'inaugurazione.", en: "He never misses an inauguration." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Six years have passed since they opened the building site.", answer: "Sono passati sei anni da quando hanno aperto il cantiere.", altAnswers: ["Sono trascorsi sei anni da quando hanno aperto il cantiere.", "Sono passati sei anni da quando è stato aperto il cantiere."], explanation: "\"Sono passati ... da quando\"." },
-          { type: "multiple-choice", question: "Why does the columnist call the councillor \"come il prezzemolo\"?", options: ["He appears at every public event.", "He likes cooking.", "He is always green with envy.", "He never speaks."], correctIndex: 0, explanation: "Present everywhere except at the building site." },
-          { type: "listen-choose", audio: "L'assessore mena il can per l'aia con discorsi sull'iter burocratico.", question: "How does the councillor answer questions?", options: ["He evades them with talk about procedures.", "He answers precisely.", "He refuses to speak.", "He blames the citizens."], correctIndex: 0, explanation: "\"Menare il can per l'aia\" = to stall." },
+          { type: "multiple-choice", question: "Why does the columnist call the council member \"come il prezzemolo\"?", options: ["He appears at every public event.", "He likes cooking.", "He is always green with envy.", "He never speaks."], correctIndex: 0, explanation: "Present everywhere except at the building site." },
+          { type: "listen-choose", audio: "L'assessore mena il can per l'aia con discorsi sull'iter burocratico.", question: "How does the council member answer questions?", options: ["He evades them with talk about procedures.", "He answers precisely.", "He refuses to speak.", "He blames the citizens."], correctIndex: 0, explanation: "\"Menare il can per l'aia\" = to stall." },
         ],
       },
       {
         heading: "The column, part 2",
         body: [
           "\"Ora il Comune annuncia un finanziamento una tantum per 'completare in extremis' l'opera prima delle elezioni. Chi ha le mani in pasta sa che si tratta dell'ennesimo cavallo di Troia: soldi pubblici a un'impresa amica. Se la piazza sarà davvero inaugurata, sarà una vittoria di Pirro: sei anni di negozi chiusi non si recuperano. Ma forse prendo lucciole per lanterne. Vedremo. Intanto, il dado è tratto: a maggio si vota.\"",
-          "Note the columnist's moves: idioms make the criticism vivid but deniable; the irony of \"completare in extremis\" in inverted commas; the mock-modest \"forse prendo lucciole per lanterne\"; and the closing \"il dado è tratto\", which turns the election into the readers' Rubicon.",
+          "Note the columnist's moves: idioms make the criticism vivid but deniable; the irony of \"completare in extremis\" in quotation marks; the mock-modest \"forse prendo lucciole per lanterne\"; and the closing \"il dado è tratto\", which turns the election into the readers' Rubicon.",
         ],
         examples: [
           { es: "Il Comune annuncia un finanziamento una tantum.", en: "The council announces a one-off grant." },
@@ -374,18 +381,18 @@ export const IT_C2_U08: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The councillor turns a deaf ear.", answer: "L'assessore fa orecchie da mercante.", altAnswers: ["L'assessora fa orecchie da mercante."], explanation: "\"Assessore\": a member of the town executive." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The council member turns a deaf ear.", answer: "L'assessore fa orecchie da mercante.", altAnswers: ["L'assessora fa orecchie da mercante."], explanation: "\"Assessore\": a member of the town executive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The square is overrun with weeds.", answer: "La piazza è invasa dalle erbacce.", altAnswers: ["La piazza è piena di erbacce."], explanation: "\"Erbacce\" = weeds." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The die is cast: the vote is in May.", answer: "Il dado è tratto: a maggio si vota.", altAnswers: ["Il dado è tratto: si vota a maggio."], explanation: "Impersonal \"si vota\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He never misses an inauguration.", answer: "Non manca a un'inaugurazione.", altAnswers: ["Non manca mai a un'inaugurazione.", "Non perde un'inaugurazione."], explanation: "\"Mancare a\" = to miss (an event)." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He never misses an inauguration.", answer: "Non manca a un'inaugurazione.", altAnswers: ["Non manca mai a un'inaugurazione.", "Non manca a nessuna inaugurazione.", "Non perde un'inaugurazione."], explanation: "\"Mancare a\" = to miss (an event)." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Perhaps I've got it all wrong.", answer: "Forse prendo lucciole per lanterne.", altAnswers: ["Forse sto prendendo lucciole per lanterne.", "Forse mi sbaglio."], explanation: "Mock modesty." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "When he saw the photos, [he acted completely surprised].", sentence: "Quando ha visto le foto, ___.", answer: "è caduto dalle nuvole", explanation: "Surprise, real or feigned." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Those with connections] know the truth.", sentence: "___ sa la verità.", answer: "Chi ha le mani in pasta", explanation: "\"Chi\" + singular verb." },
       { type: "word-order", prompt: "Put the words in order to say: It will be a Pyrrhic victory.", words: ["Sarà", "una", "vittoria", "di", "Pirro."], translation: "It will be a Pyrrhic victory.", explanation: "Future of prediction." },
-      { type: "multiple-choice", question: "Why does the columnist put \"completare in extremis\" in inverted commas?", options: ["To mock the council's own wording", "Because it's a quotation from Caesar", "Because it's in Latin", "To show it's a book title"], correctIndex: 0, explanation: "Inverted commas signal irony." },
-      { type: "matching", instructions: "Match the idiom to what it says about the council.", pairs: [{ left: "fa orecchie da mercante", right: "ignores citizens" }, { left: "mena il can per l'aia", right: "stalls" }, { left: "cavallo di Troia", right: "hidden favour to a firm" }, { left: "vittoria di Pirro", right: "a costly success" }], explanation: "Idioms as criticism." },
+      { type: "multiple-choice", question: "Why does the columnist put \"completare in extremis\" in quotation marks?", options: ["To mock the council's own wording", "Because it's a quotation from Caesar", "Because it's in Latin", "To show it's a book title"], correctIndex: 0, explanation: "Quotation marks signal irony." },
+      { type: "matching", instructions: "Match the idiom to what it says about the council.", pairs: [{ left: "fa orecchie da mercante", right: "ignores citizens" }, { left: "mena il can per l'aia", right: "stalls" }, { left: "cavallo di Troia", right: "hidden favor to a firm" }, { left: "vittoria di Pirro", right: "a costly success" }], explanation: "Idioms as criticism." },
       { type: "dictation", audio: "Si tratta dell'ennesimo cavallo di Troia.", explanation: "\"Ennesimo\": double n." },
-      { type: "speak", text: "Sono passati sei anni, e l'assessore fa ancora orecchie da mercante.", prompt: "Complain as a citizen: Six years have passed, and the councillor still turns a deaf ear.", tip: "Stress \"sei anni\".", explanation: "Idiom in a complaint." },
+      { type: "speak", text: "Sono passati sei anni, e l'assessore fa ancora orecchie da mercante.", prompt: "Complain as a citizen: Six years have passed, and the council member still turns a deaf ear.", tip: "Stress \"sei anni\".", explanation: "Idiom in a complaint." },
     ],
   },
   {
@@ -516,20 +523,20 @@ export const IT_C2_U08: Lesson[] = [
     duration: "19 min",
     sections: [
       {
-        heading: "Idioms with judgement",
+        heading: "Idioms with judgment",
         body: [
           "Your mission: write an opinion piece of about 300 words for a local paper or a blog on a public issue (a stalled project, a controversial law, a sports club's decision). Use at least six idioms, one historical expression and two Latin phrases. The risk is the 'idiom salad': too many, forced in, the wrong register. Natives notice at once.",
-          "Rules of thumb: one idiom per paragraph is plenty; place it where it adds colour or judgement (\"l'assessore fa orecchie da mercante\" is sharper than \"l'assessore non risponde\"); keep Latin for formal points (\"una legge ad hoc\", \"una tantum\"); prefer the historical idiom for the climax or conclusion (\"rischia di essere una vittoria di Pirro\").",
+          "Rules of thumb: one idiom per paragraph is plenty; place it where it adds color or judgment (\"l'assessore fa orecchie da mercante\" is sharper than \"l'assessore non risponde\"); keep Latin for formal points (\"una legge ad hoc\", \"una tantum\"); prefer the historical idiom for the climax or conclusion (\"rischia di essere una vittoria di Pirro\").",
         ],
         examples: [
           { es: "Un modo di dire per paragrafo basta.", en: "One idiom per paragraph is enough." },
-          { es: "Il modo di dire deve aggiungere un giudizio.", en: "The idiom must add a judgement." },
+          { es: "Il modo di dire deve aggiungere un giudizio.", en: "The idiom must add a judgment." },
           { es: "Il latino si usa per i punti formali.", en: "Latin is used for the formal points." },
           { es: "Rischia di essere una vittoria di Pirro.", en: "It risks being a Pyrrhic victory." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "One idiom per paragraph is enough.", answer: "Un modo di dire per paragrafo basta.", altAnswers: ["Basta un modo di dire per paragrafo.", "Un'espressione idiomatica per paragrafo basta."], explanation: "\"Modo di dire\" = idiom." },
-          { type: "multiple-choice", question: "Which sentence uses an idiom with good judgement?", options: ["Da anni l'assessore fa orecchie da mercante alle richieste dei residenti.", "L'assessore fa orecchie da mercante, cade dalle nuvole e mena il can per l'aia come il prezzemolo.", "L'assessore non ha risposto alle richieste.", "Il prezzemolo fa orecchie da mercante."], correctIndex: 0, explanation: "One idiom, well placed." },
+          { type: "multiple-choice", question: "Which sentence uses an idiom with good judgment?", options: ["Da anni l'assessore fa orecchie da mercante alle richieste dei residenti.", "L'assessore fa orecchie da mercante, cade dalle nuvole e mena il can per l'aia come il prezzemolo.", "L'assessore non ha risposto alle richieste.", "Il prezzemolo fa orecchie da mercante."], correctIndex: 0, explanation: "One idiom, well placed." },
           { type: "listen-choose", audio: "Rischia di essere una vittoria di Pirro.", question: "What does the writer predict?", options: ["a success that costs too much", "a clear victory", "a total defeat", "a quick decision"], correctIndex: 0, explanation: "Pyrrhic victory." },
         ],
       },
@@ -556,7 +563,7 @@ export const IT_C2_U08: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Of course, funds are limited.", answer: "Certo, i fondi sono limitati.", altAnswers: ["Certo, le risorse sono limitate.", "Certamente, i fondi sono limitati."], explanation: "Concession before rebuttal." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The council is stalling.", answer: "Il Comune mena il can per l'aia.", altAnswers: ["Il Comune sta menando il can per l'aia.", "Il Comune tergiversa."], explanation: "Idiom of evasion." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "A one-off grant would be enough.", answer: "Basterebbe un contributo una tantum.", altAnswers: ["Un contributo una tantum basterebbe.", "Basterebbe un finanziamento una tantum."], explanation: "Conditional proposal." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[The idiom must add] a judgement.", sentence: "___ un giudizio.", answer: "Il modo di dire deve aggiungere", altAnswers: ["L'espressione deve aggiungere"], explanation: "Purpose of an idiom." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[The idiom must add] a judgment.", sentence: "___ un giudizio.", answer: "Il modo di dire deve aggiungere", altAnswers: ["L'espressione deve aggiungere"], explanation: "Purpose of an idiom." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Avoid [the idiom salad].", sentence: "Evita ___.", answer: "l'insalata di modi di dire", altAnswers: ["l'accumulo di modi di dire"], explanation: "Too many idioms sound fake." },
       { type: "word-order", prompt: "Put the words in order to say: It risks being a Pyrrhic victory.", words: ["Rischia", "di", "essere", "una", "vittoria", "di", "Pirro."], translation: "It risks being a Pyrrhic victory.", explanation: "\"Rischiare di\" + infinitive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Latin is used for the formal points.", answer: "Il latino si usa per i punti formali.", altAnswers: ["Il latino si usa nei punti formali.", "Il latino viene usato per i punti formali."], explanation: "Impersonal \"si\" for a general rule." },
@@ -576,7 +583,7 @@ export const IT_C2_U08: Lesson[] = [
       {
         heading: "A sports phone-in",
         body: [
-          "This lab uses scripted speech written for the course, recorded at natural speed. First, an invented radio phone-in after a football match.",
+          "This lab uses scripted speech written for the course, recorded at natural speed. First, an invented radio phone-in after a soccer match.",
           "Caller: \"Senti, io lo dico da mesi: l'allenatore prende lucciole per lanterne. Abbiamo vinto, sì, ma in extremis e con due infortunati: è una vittoria di Pirro. E il presidente? Fa orecchie da mercante. Quando gli chiedi del mercato, mena il can per l'aia.\" Host: \"Quindi lei chiede la testa dell'allenatore?\" Caller: \"Io dico che è ora di passare il Rubicone.\"",
         ],
         examples: [
@@ -603,9 +610,9 @@ export const IT_C2_U08: Lesson[] = [
           { es: "A marzo di tre anni fa.", en: "In March three years ago." },
         ],
         checkpoint: [
-          { type: "listen-choose", audio: "Tuo fratello è andato a Canossa, finalmente: ha chiesto scusa al nonno.", question: "What did the brother do?", options: ["He apologised to his grandfather.", "He moved to Canossa.", "He argued with his grandfather.", "He tidied the cellar."], correctIndex: 0, explanation: "\"Andare a Canossa\" = to humble oneself." },
+          { type: "listen-choose", audio: "Tuo fratello è andato a Canossa, finalmente: ha chiesto scusa al nonno.", question: "What did the brother do?", options: ["He apologized to his grandfather.", "He moved to Canossa.", "He argued with his grandfather.", "He tidied the cellar."], correctIndex: 0, explanation: "\"Andare a Canossa\" = to humble oneself." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I thought he wasn't speaking to him any more.", answer: "Pensavo che non gli parlasse più.", altAnswers: ["Credevo che non gli parlasse più.", "Pensavo che non gli rivolgesse più la parola."], explanation: "\"Pensavo che\" + imperfect subjunctive." },
-          { type: "speak", text: "Mamma, non fare di ogni erba un fascio.", tip: "Slightly whiny, defensive tone.", explanation: "The son's defence." },
+          { type: "speak", text: "Mamma, non fare di ogni erba un fascio.", tip: "Slightly whiny, defensive tone.", explanation: "The son's defense." },
         ],
       },
     ],
@@ -613,7 +620,7 @@ export const IT_C2_U08: Lesson[] = [
       { type: "listen-choose", audio: "Quando gli chiedi del mercato, mena il can per l'aia.", question: "What does the president do when asked about transfers?", options: ["He avoids the question.", "He answers clearly.", "He gets angry.", "He hangs up."], correctIndex: 0, explanation: "Stalling." },
       { type: "listen-choose", audio: "A marzo di tre anni fa. Non cadere dalle nuvole.", question: "What is the mother's point?", options: ["The son is pretending to be surprised; it was long ago.", "The son tidied it last month.", "She forgot when it was.", "She is surprised herself."], correctIndex: 0, explanation: "Feigned surprise exposed." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We won, yes, but at the last minute.", answer: "Abbiamo vinto, sì, ma in extremis.", altAnswers: ["Abbiamo vinto, sì, ma all'ultimo minuto.", "Sì, abbiamo vinto, ma in extremis."], explanation: "\"In extremis\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Your brother finally apologised to Grandpa.", answer: "Tuo fratello ha finalmente chiesto scusa al nonno.", altAnswers: ["Finalmente tuo fratello ha chiesto scusa al nonno.", "Tuo fratello finalmente ha chiesto scusa al nonno."], explanation: "\"Chiedere scusa a\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Your brother finally apologized to Grandpa.", answer: "Tuo fratello ha finalmente chiesto scusa al nonno.", altAnswers: ["Finalmente tuo fratello ha chiesto scusa al nonno.", "Tuo fratello finalmente ha chiesto scusa al nonno."], explanation: "\"Chiedere scusa a\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "So I got it wrong.", answer: "Allora ho preso un granchio.", altAnswers: ["Allora mi sono sbagliato.", "Allora mi sono sbagliata.", "Allora ho preso lucciole per lanterne."], explanation: "\"Prendere un granchio\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In March three years ago.", answer: "A marzo di tre anni fa.", altAnswers: ["Nel marzo di tre anni fa."], explanation: "\"Di tre anni fa\" = of three years ago." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The coach has got it all wrong.", answer: "L'allenatore prende lucciole per lanterne.", altAnswers: ["L'allenatore ha preso lucciole per lanterne.", "L'allenatrice prende lucciole per lanterne."], explanation: "Gross error." },

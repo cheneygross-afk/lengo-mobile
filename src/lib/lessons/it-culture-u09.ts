@@ -3,7 +3,7 @@ import type { Lesson, WriteExercise } from "./types";
 
 // Italian Culture & Everyday Life, Unit 9: Sport and Calcio. Serie A and
 // the derbies, the Azzurri, the Giro d'Italia, Ferrari, Monza and MotoGP,
-// the Dolomites and Milano-Cortina 2026, the Palio di Siena, match talk and
+// the Dolomites and Milano-Cortina 2026, the Palio di Siena, soccer talk and
 // a day at the stadium. No current-season results are given.
 // Conventions: docs/italian-course/authoring.md.
 export const IT_CULTURE_U09: Lesson[] = [
@@ -12,13 +12,13 @@ export const IT_CULTURE_U09: Lesson[] = [
     level: "IT-Culture",
     number: 1,
     title: "Calcio",
-    summary: "Learn how Serie A works, who the big clubs are, what a derby means and why football is never just a game in Italy.",
+    summary: "Learn how Serie A works, who the big clubs are, what a derby means and why soccer is never just a game in Italy.",
     duration: "15 min",
     sections: [
       {
         heading: "La Serie A",
         body: [
-          "Football is \"il calcio\" (literally kick), and it's the national passion. The top league, \"la Serie A\", has twenty teams; the champions win \"lo scudetto\", the small shield in the colors of the Italian flag that they wear on their shirts the following season.",
+          "Soccer is \"il calcio\" (literally kick), and it's the national passion. The top league, \"la Serie A\", has twenty teams; the champions win \"lo scudetto\", the small shield in the colors of the Italian flag that they wear on their shirts the following season.",
           "Juventus, from Turin, has won the most titles, followed by the two Milan clubs, Inter and Milan. Napoli's titles, including 1987 and 1990 in the Maradona years, are celebrated in the city like religious feasts. A club with ten titles adds a gold star above its badge.",
         ],
         examples: [
@@ -35,7 +35,7 @@ export const IT_CULTURE_U09: Lesson[] = [
       {
         heading: "Il derby",
         body: [
-          "A \"derby\" is a match between two teams from the same city, and the whole city stops for it. Inter and Milan play \"il derby della Madonnina\", named after the golden statue on top of the Duomo; Roma and Lazio play \"il derby della Capitale\"; Juventus and Torino play \"il derby della Mole\".",
+          "A \"derby\" is a game between two teams from the same city, and the whole city stops for it. Inter and Milan play \"il derby della Madonnina\", named after the golden statue on top of the Duomo; Roma and Lazio play \"il derby della Capitale\"; Juventus and Torino play \"il derby della Mole\".",
           "In Milan and Rome the two rival clubs even share a stadium: San Siro and the Stadio Olimpico. Families can be divided, and the week after a derby, the losers hide from their colleagues.",
         ],
         examples: [
@@ -46,7 +46,7 @@ export const IT_CULTURE_U09: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "We lost the derby.", answer: "Abbiamo perso il derby.", explanation: "\"Perdere\" → \"perso\"." },
-          { type: "listen-choose", audio: "Mio padre è della Roma, mia madre della Lazio.", question: "What do we learn about the family?", options: ["The parents support rival teams.", "The parents live in different cities.", "The parents don't like football.", "The parents play for Roma."], correctIndex: 0, explanation: "\"Essere della Roma\" = to support Roma." },
+          { type: "listen-choose", audio: "Mio padre è della Roma, mia madre della Lazio.", question: "What do we learn about the family?", options: ["The parents support rival teams.", "The parents live in different cities.", "The parents don't like soccer.", "The parents play for Roma."], correctIndex: 0, explanation: "\"Essere della Roma\" = to support Roma." },
         ],
       },
       {
@@ -57,7 +57,7 @@ export const IT_CULTURE_U09: Lesson[] = [
         ],
         examples: [
           { es: "La Gazzetta è rosa.", en: "La Gazzetta is pink." },
-          { es: "Al bar si parla solo di calcio.", en: "At the bar people only talk about football." },
+          { es: "Al bar si parla solo di calcio.", en: "At the bar people only talk about soccer." },
           { es: "I tifosi sono arrabbiati.", en: "The fans are angry." },
           { es: "Io avrei cambiato l'allenatore.", en: "I would have changed the coach." },
         ],
@@ -70,8 +70,8 @@ export const IT_CULTURE_U09: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Who won the league title?", answer: "Chi ha vinto lo scudetto?", altAnswers: ["Chi ha vinto il campionato?"], explanation: "\"Lo scudetto\" = the Serie A title." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The derby is on Sunday.", answer: "Domenica c'è il derby.", altAnswers: ["Il derby è domenica.", "C'è il derby domenica."], explanation: "No preposition before days." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I've always supported Napoli.", answer: "Tifo per il Napoli da sempre.", altAnswers: ["Ho sempre tifato per il Napoli.", "Sono sempre stato del Napoli."], explanation: "\"Il Napoli\": clubs are masculine, except some like \"la Roma\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "At the bar people only talk about football.", answer: "Al bar si parla solo di calcio.", altAnswers: ["Al bar parlano solo di calcio."], explanation: "\"Si parla\" = people talk." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I've always supported Napoli.", answer: "Tifo per il Napoli da sempre.", altAnswers: ["Ho sempre tifato per il Napoli.", "Sono sempre stato del Napoli.", "Sono sempre stata del Napoli."], explanation: "\"Il Napoli\": clubs are masculine, except some like \"la Roma\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "At the bar people only talk about soccer.", answer: "Al bar si parla solo di calcio.", altAnswers: ["Al bar parlano solo di calcio."], explanation: "\"Si parla\" = people talk." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Serie A has twenty teams.", answer: "La Serie A ha venti squadre.", explanation: "\"La squadra\" = team." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The two teams play in [the same stadium].", sentence: "Le due squadre giocano ___.", answer: "nello stesso stadio", explanation: "\"Lo stadio\" → \"nello stesso stadio\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "My father [supports] Roma.", sentence: "Mio padre ___ della Roma.", answer: "è", explanation: "\"Essere di\" + team = to support." },
@@ -102,12 +102,12 @@ export const IT_CULTURE_U09: Lesson[] = [
         heading: "Perché azzurro?",
         body: [
           "The Italian national teams are called \"gli Azzurri\" (and the women's team \"le Azzurre\"), from their sky-blue shirts. The color wasn't taken from the flag: it was the color of the House of Savoy, the royal family that ruled Italy until 1946.",
-          "The coach of the national team is called \"il CT\", short for \"commissario tecnico\". When Italy plays a big match, squares fill with giant screens and people who never watch football suddenly have opinions.",
+          "The coach of the national team is called \"il CT\", short for \"commissario tecnico\". When Italy plays a big game, squares fill with giant screens and people who never watch soccer suddenly have opinions.",
         ],
         examples: [
           { es: "La maglia è azzurra.", en: "The shirt is sky blue." },
           { es: "Stasera gioca la Nazionale.", en: "The national team is playing tonight." },
-          { es: "Guardiamo la partita in piazza.", en: "Let's watch the match in the square." },
+          { es: "Guardiamo la partita in piazza.", en: "Let's watch the game in the square." },
           { es: "Forza Azzurri!", en: "Come on, Azzurri!" },
         ],
         checkpoint: [
@@ -152,7 +152,7 @@ export const IT_CULTURE_U09: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Italy has won four World Cups.", answer: "L'Italia ha vinto quattro Mondiali.", altAnswers: ["L'Italia ha vinto quattro Coppe del Mondo.", "L'Italia ha vinto quattro mondiali."], explanation: "\"Il Mondiale\" → \"i Mondiali\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Let's watch the match in the square.", answer: "Guardiamo la partita in piazza.", altAnswers: ["Vediamo la partita in piazza."], explanation: "\"In piazza\" = in the square." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Let's watch the game in the square.", answer: "Guardiamo la partita in piazza.", altAnswers: ["Vediamo la partita in piazza."], explanation: "\"In piazza\" = in the square." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The shirt is sky blue.", answer: "La maglia è azzurra.", altAnswers: ["La maglietta è azzurra."], explanation: "\"Azzurro\" = sky blue." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Everyone poured into the square.", answer: "Tutti sono scesi in piazza.", altAnswers: ["Sono scesi tutti in piazza."], explanation: "\"Scendere in piazza\" = to go out and celebrate or protest." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "What agony!", answer: "Che sofferenza!", explanation: "\"Soffrire\" → \"la sofferenza\"." },
@@ -378,7 +378,7 @@ export const IT_CULTURE_U09: Lesson[] = [
       {
         heading: "Milano-Cortina 2026",
         body: [
-          "From 6 to 22 February 2026 Italy hosted the Winter Olympics for the third time, after Cortina d'Ampezzo in 1956 and Turin in 2006. Milano-Cortina was the first Winter Games officially named after two cities, with events spread across Lombardy, Veneto and Trentino-Alto Adige, from the ice rinks of Milan to the slopes of Bormio and Cortina.",
+          "From 6 to 22 February 2026 Italy hosted the Winter Olympics for the third time, after Cortina d'Ampezzo in 1956 and Turin in 2006. Milano-Cortina was officially shared by two host cities, with events spread across Lombardy, Veneto and Trentino-Alto Adige, from the ice rinks of Milan to the slopes of Bormio and Cortina.",
           "The opening ceremony was held at San Siro stadium in Milan and the closing ceremony in the Roman Arena of Verona. The Paralympic Games followed in March.",
         ],
         examples: [
@@ -447,7 +447,7 @@ export const IT_CULTURE_U09: Lesson[] = [
         heading: "La corsa",
         body: [
           "The Palio is run twice a year, on 2 July and 16 August, in Piazza del Campo, the shell-shaped main square, covered for the occasion with a layer of earth. Ten contrade take part: the seven that didn't run in the same Palio the year before, plus three drawn by lot. Horses are assigned by lot too.",
-          "The jockeys ride bareback, three laps, in about ninety seconds. Everything is allowed, even hitting rivals with a whip, and a horse that loses its jockey can still win: it's called \"il cavallo scosso\". The prize is a painted silk banner, \"il drappellone\".",
+          "The jockeys ride bareback, three laps, in about ninety seconds. Almost anything goes: jockeys may even hit rivals with \"il nerbo\", a whip, and a horse that loses its jockey can still win: it's called \"il cavallo scosso\". The prize is a painted silk banner, \"il drappellone\".",
         ],
         examples: [
           { es: "Il Palio si corre il 2 luglio e il 16 agosto.", en: "The Palio is run on 2 July and 16 August." },
@@ -508,19 +508,19 @@ export const IT_CULTURE_U09: Lesson[] = [
     level: "IT-Culture",
     number: 7,
     title: "Sports Language",
-    summary: "Talk about a match like an Italian: scores, goals, referees, penalties and the endless replays.",
+    summary: "Talk about a game like an Italian: scores, goals, referees, penalties and the endless replays.",
     duration: "15 min",
     sections: [
       {
         heading: "Il risultato",
         body: [
-          "A match is \"una partita\". To score is \"segnare\" or \"fare gol\", and a team can \"vincere\", \"perdere\" or \"pareggiare\" (to draw). Scores are read with \"a\": 2-1 is \"due a uno\", and 0-0 is \"zero a zero\". A match has \"il primo tempo\" and \"il secondo tempo\", sometimes followed by \"i tempi supplementari\" (extra time) and \"i rigori\".",
-          "To ask the score: \"Come è finita?\" or \"Quanto è finita?\" To ask who's winning: \"Chi sta vincendo?\"",
+          "A game is \"una partita\". To score is \"segnare\" or \"fare gol\", and a team can \"vincere\", \"perdere\" or \"pareggiare\" (to draw). Scores are read with \"a\": 2-1 is \"due a uno\", and 0-0 is \"zero a zero\". A game has \"il primo tempo\" and \"il secondo tempo\", sometimes followed by \"i tempi supplementari\" (extra time) and \"i rigori\".",
+          "To ask the score: \"Come è finita?\" or, more casually, \"Quanto è finita?\" To ask who's winning: \"Chi sta vincendo?\"",
         ],
         examples: [
-          { es: "Come è finita la partita?", en: "How did the match end?" },
+          { es: "Come è finita la partita?", en: "How did the game end?" },
           { es: "Abbiamo vinto due a uno.", en: "We won two to one." },
-          { es: "È finita zero a zero.", en: "It ended nil-nil." },
+          { es: "È finita zero a zero.", en: "It ended zero to zero." },
           { es: "Chi ha segnato?", en: "Who scored?" },
         ],
         checkpoint: [
@@ -531,7 +531,7 @@ export const IT_CULTURE_U09: Lesson[] = [
       {
         heading: "In campo",
         body: [
-          "The people on the pitch: \"il portiere\" (goalkeeper), \"il difensore\", \"il centrocampista\" (midfielder), \"l'attaccante\" (striker), \"l'arbitro\" (referee) and, on the bench, \"l'allenatore\", often called \"il mister\". Italian football has even given English a word: \"catenaccio\", a tight defensive style, literally a door bolt.",
+          "The people on the field: \"il portiere\" (goalkeeper), \"il difensore\", \"il centrocampista\" (midfielder), \"l'attaccante\" (striker), \"l'arbitro\" (referee) and, on the bench, \"l'allenatore\", often called \"il mister\". Italian soccer has even given English a word: \"catenaccio\", a tight defensive style, literally a door bolt.",
           "Things that happen: \"il fallo\" (foul), \"il cartellino giallo\" or \"rosso\", \"il fuorigioco\" (offside), \"il calcio d'angolo\" (corner) and \"il rigore\" (penalty).",
         ],
         examples: [
@@ -548,12 +548,12 @@ export const IT_CULTURE_U09: Lesson[] = [
       {
         heading: "La moviola",
         body: [
-          "After the match, the real game begins: arguing. For decades TV shows used \"la moviola\", slow-motion replays, to judge every decision. Today there's the VAR, but the arguments haven't stopped.",
-          "Expressions you'll hear: \"Era rigore!\" (That was a penalty!), \"Ci hanno rubato la partita!\" (They stole the match from us!), \"Abbiamo giocato malissimo\" and the classic \"Arbitro venduto!\" (the referee's been bought!), shouted more out of habit than conviction.",
+          "After the game, the real contest begins: arguing. For decades TV shows used \"la moviola\", slow-motion replays, to judge every decision. Today there's the VAR, but the arguments haven't stopped.",
+          "Expressions you'll hear: \"Era rigore!\" (That was a penalty!), \"Ci hanno rubato la partita!\" (They stole the game from us!), \"Abbiamo giocato malissimo\" and the classic \"Arbitro venduto!\" (the referee's been bought!), shouted more out of habit than conviction.",
         ],
         examples: [
           { es: "Era rigore netto!", en: "That was a clear penalty!" },
-          { es: "Ci hanno rubato la partita!", en: "They stole the match from us!" },
+          { es: "Ci hanno rubato la partita!", en: "They stole the game from us!" },
           { es: "Abbiamo giocato malissimo.", en: "We played terribly." },
           { es: "Rivediamo l'azione al VAR.", en: "Let's see the play again on VAR." },
         ],
@@ -564,14 +564,14 @@ export const IT_CULTURE_U09: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "How did the match end?", answer: "Come è finita la partita?", altAnswers: ["Com'è finita la partita?", "Quanto è finita la partita?"], explanation: "\"Finire\" takes \"essere\" here." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It ended nil-nil.", answer: "È finita zero a zero.", altAnswers: ["È finita 0 a 0."], explanation: "\"Finita\" agrees with \"la partita\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "How did the game end?", answer: "Come è finita la partita?", altAnswers: ["Com'è finita la partita?", "Quanto è finita la partita?"], explanation: "\"Finire\" takes \"essere\" here." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It ended zero to zero.", answer: "È finita zero a zero.", altAnswers: ["È finita 0 a 0."], explanation: "\"Finita\" agrees with \"la partita\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The goalkeeper saved the penalty.", answer: "Il portiere ha parato il rigore.", explanation: "\"Parare\" = to save." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The referee gave a red card.", answer: "L'arbitro ha dato il cartellino rosso.", altAnswers: ["L'arbitro ha dato un cartellino rosso."], explanation: "\"Il cartellino\" = card." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "That was a clear penalty!", answer: "Era rigore netto!", altAnswers: ["Era un rigore netto!", "Era rigore!"], explanation: "\"Netto\" = clear." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "We [drew] one to one.", sentence: "Abbiamo ___ uno a uno.", answer: "pareggiato", explanation: "\"Pareggiare\" = to draw." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "Who's [winning]?", sentence: "Chi sta ___?", answer: "vincendo", explanation: "\"Stare\" + gerund." },
-      { type: "word-order", prompt: "Put the words in order to say: The coach changed three players.", words: ["Il", "mister", "ha", "cambiato", "tre", "giocatori."], translation: "The coach changed three players.", explanation: "\"Il mister\" = the coach (football slang)." },
+      { type: "word-order", prompt: "Put the words in order to say: The coach changed three players.", words: ["Il", "mister", "ha", "cambiato", "tre", "giocatori."], translation: "The coach changed three players.", explanation: "\"Il mister\" = the coach (soccer slang)." },
       {
         type: "matching",
         instructions: "Match the Italian to the English.",
@@ -582,7 +582,7 @@ export const IT_CULTURE_U09: Lesson[] = [
           { left: "il fuorigioco", right: "offside" },
           { left: "il pareggio", right: "the draw" },
         ],
-        explanation: "Match vocabulary.",
+        explanation: "Game vocabulary.",
       },
       { type: "dictation", audio: "Abbiamo vinto due a uno.", explanation: "\"Due a uno\" = 2-1." },
       { type: "speak", text: "Era rigore netto, ma l'arbitro non l'ha visto!", prompt: "Say it in Italian: It was a clear penalty, but the referee didn't see it!", tip: "AR-bi-tro: stress on the first syllable.", explanation: "\"L'ha visto\": \"lo\" + \"ha\"." },
@@ -593,7 +593,7 @@ export const IT_CULTURE_U09: Lesson[] = [
     level: "IT-Culture",
     number: 8,
     title: "Dialogue: At the Stadium",
-    summary: "Spend match day with Paolo and Emma: tickets and ID, the turnstiles, the curva, the match and a porchetta sandwich.",
+    summary: "Spend game day with Paolo and Emma: tickets and ID, the turnstiles, the curva, the game and a porchetta sandwich.",
     duration: "15 min",
     sections: [
       {
@@ -610,14 +610,14 @@ export const IT_CULTURE_U09: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I got the tickets for Sunday.", answer: "Ho preso i biglietti per domenica.", altAnswers: ["Ho comprato i biglietti per domenica."], explanation: "\"Prendere\" = to get, buy." },
-          { type: "multiple-choice", question: "Where do the most passionate fans stand?", options: ["in the curva", "in the tribuna", "in the parking lot", "on the pitch"], correctIndex: 0, explanation: "\"La curva\", behind the goal." },
+          { type: "multiple-choice", question: "Where do the most passionate fans stand?", options: ["in the curva", "in the tribuna", "in the parking lot", "on the field"], correctIndex: 0, explanation: "\"La curva\", behind the goal." },
         ],
       },
       {
         heading: "Allo stadio",
         body: [
           "Emma: \"Che atmosfera! Senti come cantano?\" Paolo: \"Aspetta che entrino le squadre.\" Twenty minutes later: \"Gol! Gol! Hai visto che gol?\" Then the other team scores. Paolo: \"Ma era fuorigioco! L'arbitro è cieco?\"",
-          "At security, glass bottles, umbrellas and large bags usually aren't allowed. Arrive early: the queues at the turnstiles can be long.",
+          "At security, glass bottles, umbrellas and large bags usually aren't allowed. Arrive early: the lines at the turnstiles can be long.",
         ],
         examples: [
           { es: "Che atmosfera!", en: "What an atmosphere!" },
@@ -633,8 +633,8 @@ export const IT_CULTURE_U09: Lesson[] = [
       {
         heading: "Dopo la partita",
         body: [
-          "The match ends 1-1. Emma: \"Un pareggio. Poteva andare peggio.\" Paolo: \"Poteva andare meglio! Dai, andiamo a prendere un panino.\"",
-          "Outside many stadiums, food vans sell sandwiches: in Rome \"il panino con la porchetta\" (roast pork), in Milan \"la salamella\", a sausage with onions and peppers. Fans eat them standing up while they replay the match in words.",
+          "The game ends 1-1. Emma: \"Un pareggio. Poteva andare peggio.\" Paolo: \"Poteva andare meglio! Dai, andiamo a prendere un panino.\"",
+          "Outside many stadiums, food vans sell sandwiches: in Rome \"il panino con la porchetta\" (roast pork), in Milan \"la salamella\", a sausage with onions and peppers. Fans eat them standing up while they replay the game in words.",
         ],
         examples: [
           { es: "Poteva andare peggio.", en: "It could have gone worse." },
@@ -644,7 +644,7 @@ export const IT_CULTURE_U09: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It could have gone worse.", answer: "Poteva andare peggio.", altAnswers: ["Sarebbe potuta andare peggio.", "Poteva finire peggio."], explanation: "Spoken Italian uses \"poteva\" for could have." },
-          { type: "listen-choose", audio: "Un pareggio. Poteva andare peggio.", question: "What was the result?", options: ["a draw", "a win", "a defeat", "the match was canceled"], correctIndex: 0, explanation: "\"Il pareggio\" = draw." },
+          { type: "listen-choose", audio: "Un pareggio. Poteva andare peggio.", question: "What was the result?", options: ["a draw", "a win", "a defeat", "the game was canceled"], correctIndex: 0, explanation: "\"Il pareggio\" = draw." },
         ],
       },
     ],
@@ -667,7 +667,7 @@ export const IT_CULTURE_U09: Lesson[] = [
           { left: "il pareggio", right: "the draw" },
           { left: "la porchetta", right: "roast pork" },
         ],
-        explanation: "Match day vocabulary.",
+        explanation: "Game day vocabulary.",
       },
       { type: "dictation", audio: "Poteva andare peggio.", explanation: "\"Peggio\": double g." },
       { type: "speak", text: "Domenica andiamo allo stadio: ho preso due biglietti in tribuna.", prompt: "Say it in Italian: On Sunday we're going to the stadium: I got two tickets in the main stand.", tip: "TRI-bu-na: stress on the first syllable.", explanation: "\"Allo stadio\": \"lo\" before s + consonant." },
@@ -677,7 +677,7 @@ export const IT_CULTURE_U09: Lesson[] = [
 
 export const IT_CULTURE_U09_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Write a message to an Italian friend about a sports event you watched, at the stadium, on TV or in person (a match, a race, the Olympics). Say where you watched it, what happened, the result and how you felt.",
+  prompt: "Write a message to an Italian friend about a sports event you watched, at the stadium, on TV or in person (a game, a race, the Olympics). Say where you watched it, what happened, the result and how you felt.",
   minWords: 60,
   maxWords: 150,
   rubric: [

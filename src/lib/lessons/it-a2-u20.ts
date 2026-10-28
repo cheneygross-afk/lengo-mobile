@@ -265,7 +265,7 @@ export const IT_A2_U20: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I'm not hungry. – Me neither.", answer: "Non ho fame. – Neanch'io.", altAnswers: ["Non ho fame. – Neanche io.", "Non ho fame. – Nemmeno io.", "Non ho fame. – Neppure io."], explanation: "\"Neanch'io\" agrees with a negative." },
-          { type: "multiple-choice", question: "Someone says \"Non mi piace il pesce\". You don't like it either. What do you say?", options: ["Neanche a me.", "Neanch'io.", "Anche a me.", "Neanche mi."], correctIndex: 0, explanation: "\"Mi piace\" → \"a me\": \"neanche a me\"." },
+          { type: "multiple-choice", question: "Someone says \"Non mi piace il pesce\". You don't like it either. What do you say?", options: ["Neanche a me.", "Neanche me.", "Anche a me.", "Neanche mi."], correctIndex: 0, explanation: "\"Mi piace\" → \"a me\": \"neanche a me\"." },
         ],
       },
       {

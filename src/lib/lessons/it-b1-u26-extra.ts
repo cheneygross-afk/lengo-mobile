@@ -17,16 +17,16 @@ export const IT_B1_U26_EXTRA: Lesson[] = [
       {
         heading: "Better, worse, the same",
         body: [
-          "To tell the doctor how things have changed: \"va meglio\" (it's better), \"è peggiorato\" (it's got worse), \"è uguale\", \"è passato\" (it's gone). \"Peggiorare\" and \"migliorare\" take \"essere\" when the illness is the subject: \"La tosse è peggiorata\".",
+          "To tell the doctor how things have changed: \"va meglio\" (it's better), \"è peggiorato\" (it's gotten worse), \"è uguale\", \"è passato\" (it's gone). \"Peggiorare\" and \"migliorare\" take \"essere\" when the illness is the subject: \"La tosse è peggiorata\".",
         ],
         examples: [
-          { es: "La tosse è peggiorata negli ultimi due giorni.", en: "The cough has got worse in the last two days." },
+          { es: "La tosse è peggiorata negli ultimi due giorni.", en: "The cough has gotten worse in the last two days." },
           { es: "Il mal di testa è passato, ma ho ancora la nausea.", en: "The headache's gone, but I still feel sick." },
           { es: "Oggi va un po' meglio.", en: "It's a bit better today." },
           { es: "Ho un'eruzione sulle braccia da sabato.", en: "I've had a rash on my arms since Saturday." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The cough has got worse.", answer: "La tosse è peggiorata.", altAnswers: ["La tosse è aumentata."], explanation: "\"Peggiorare\" takes \"essere\" here; \"peggiorata\" agrees with \"tosse\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The cough has gotten worse.", answer: "La tosse è peggiorata.", altAnswers: ["La tosse è aumentata."], explanation: "\"Peggiorare\" takes \"essere\" here; \"peggiorata\" agrees with \"tosse\"." },
           { type: "listen-choose", audio: "Il mal di testa è passato, ma ho ancora la nausea.", question: "How is the patient now?", options: ["no headache, but still nauseous", "headache and nausea", "no symptoms", "worse headache"], correctIndex: 0, explanation: "\"È passato\" = it's gone." },
         ],
       },
@@ -44,7 +44,7 @@ export const IT_B1_U26_EXTRA: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "My knee [has swollen].", sentence: "Il ginocchio ___.", answer: "si è gonfiato", altAnswers: ["è gonfio", "è gonfiato"], explanation: "\"Gonfiarsi\" = to swell." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I've been coughing] since Tuesday.", sentence: "___ da martedì.", answer: "Tossisco", altAnswers: ["Ho la tosse"], explanation: "\"Tossire\" (-isc-): \"tossisco\"." },
       { type: "word-order", prompt: "Put the words in order to say: The headache has gone.", words: ["Il", "mal", "di", "testa", "è", "passato."], translation: "The headache has gone.", explanation: "\"Passare\" with \"essere\"." },
-      { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "è peggiorato", right: "it's got worse" }, { left: "va meglio", right: "it's better" }, { left: "è passato", right: "it's gone" }, { left: "si è gonfiato", right: "it has swollen" }, { left: "mi prude", right: "it itches" }], explanation: "How symptoms change." },
+      { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "è peggiorato", right: "it's gotten worse" }, { left: "va meglio", right: "it's better" }, { left: "è passato", right: "it's gone" }, { left: "si è gonfiato", right: "it has swollen" }, { left: "mi prude", right: "it itches" }], explanation: "How symptoms change." },
       { type: "multiple-choice", question: "\"Ho ancora un po' di tosse\" means ...", options: ["I still have a bit of a cough.", "I don't have a cough any more.", "I have a cough again.", "I've had a cough for a while."], correctIndex: 0, explanation: "\"Ancora\" = still." },
       { type: "dictation", audio: "La tosse è peggiorata negli ultimi due giorni.", explanation: "\"Peggiorata\": double g." },
       { type: "speak", text: "Oggi va un po' meglio: la febbre è passata, ma ho ancora mal di gola.", prompt: "Update the doctor: It's a bit better today: the fever's gone, but I still have a sore throat.", tip: "Pause at the colon, then list.", explanation: "\"Va meglio\", \"è passata\", \"ancora\"." },
@@ -132,7 +132,7 @@ export const IT_B1_U26_EXTRA: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The ambulance is arriving.", answer: "L'ambulanza sta arrivando.", altAnswers: ["L'ambulanza arriva.", "Sta arrivando l'ambulanza."], explanation: "\"Stare\" + gerund." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Is she conscious]?", sentence: "___?", answer: "È cosciente", explanation: "\"Cosciente\" = conscious." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "He [hit] his head on the ground.", sentence: "Ha ___ la testa per terra.", answer: "battuto", explanation: "\"Battere la testa\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[He's having trouble] breathing.", sentence: "___ a respirare.", answer: "Fa fatica", altAnswers: ["Ha difficoltà", "Fa difficoltà"], explanation: "\"Fare fatica a\" + infinitive." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[He's having trouble] breathing.", sentence: "___ a respirare.", answer: "Fa fatica", altAnswers: ["Ha difficoltà"], explanation: "\"Fare fatica a\" + infinitive." },
       { type: "word-order", prompt: "Put the words in order to say: A man has fallen off his scooter.", words: ["Un", "signore", "è", "caduto", "dal", "motorino."], translation: "A man has fallen off his scooter.", explanation: "\"Cadere da\"." },
       { type: "matching", instructions: "Match the Italian to the English.", pairs: [{ left: "svenire", right: "to faint" }, { left: "perdere sangue", right: "to bleed" }, { left: "cosciente", right: "conscious" }, { left: "l'ambulanza", right: "ambulance" }, { left: "l'incidente", right: "accident" }], explanation: "Emergency vocabulary." },
       { type: "multiple-choice", question: "The operator asks \"Dove si trova?\". What do you give?", options: ["the street and a landmark", "your name", "your tax code", "the time"], correctIndex: 0, explanation: "Location first." },

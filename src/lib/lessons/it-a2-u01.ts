@@ -351,7 +351,7 @@ export const IT_A2_U01: Lesson[] = [
         heading: "Double: fatto, detto, messo",
         body: [
           "A double consonant in Italian is held longer, with a tiny pause before it is released: \"fatto\" is FAT-to, not FA-to. The irregular participles \"fatto, detto, scritto, letto, rotto\" all have a double t, and \"messo\" has a double s.",
-          "Getting it wrong can change the word: \"fatto\" (done) vs \"fato\" (fate). The vowel before a double consonant is short and the stress falls on it.",
+          "Getting it wrong can change the word: \"fatto\" (done) vs \"fato\" (fate). In these participles the stress falls on the vowel just before the double consonant, and that vowel is short.",
         ],
         examples: [
           { es: "Hai fatto colazione?", en: "Have you had breakfast?" },

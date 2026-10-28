@@ -2,7 +2,7 @@
 import type { Lesson, WriteExercise } from "./types";
 
 // Italian B1 Unit 4: Pronominal Verbs. andarsene, farcela, cavarsela,
-// prendersela, avercela, smetterla, sentirsela, fregarsene (recognised).
+// prendersela, avercela, smetterla, sentirsela, fregarsene (recognized).
 // Conventions: docs/italian-course/authoring.md.
 export const IT_B1_U04: Lesson[] = [
   {
@@ -25,7 +25,7 @@ export const IT_B1_U04: Lesson[] = [
           { es: "Te ne vai già?", en: "Are you leaving already?" },
           { es: "Se ne va sempre senza salutare.", en: "He always leaves without saying goodbye." },
           { es: "Ce ne andiamo dopo il dolce.", en: "We're leaving after dessert." },
-          { es: "Quando ve ne andate in vacanza?", en: "When are you going away on holiday?" },
+          { es: "Quando ve ne andate in vacanza?", en: "When are you going away on vacation?" },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Are you leaving already? (to a friend)", answer: "Te ne vai già?", altAnswers: ["Già te ne vai?", "Te ne vai di già?"], explanation: "\"Andarsene\" with \"tu\": \"te ne vai\"." },
@@ -53,6 +53,7 @@ export const IT_B1_U04: Lesson[] = [
         heading: "Vattene!",
         body: [
           "The tu command attaches everything and doubles the t: \"Vattene!\" (go away!), a strong, often angry word. The polite version is \"Se ne vada!\", which you'll rarely need. \"Andiamocene\" (let's get out of here) and \"Andatevene\" (go away, all of you) complete the set.",
+          "Learners often drop a piece: \"mi vado\" or \"me vado\" don't exist; you need both the reflexive and \"ne\". And keep the strength in mind: \"vado via\" is neutral, \"me ne vado\" sounds final or fed up, and \"vattene!\" can end a friendship. To leave a place takes \"da\": \"Me ne vado da Milano\" (I'm leaving Milan).",
         ],
         examples: [
           { es: "Vattene, non ti voglio vedere!", en: "Go away, I don't want to see you!" },
@@ -71,7 +72,7 @@ export const IT_B1_U04: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "He always leaves without saying goodbye.", answer: "Se ne va sempre senza salutare.", altAnswers: ["Va sempre via senza salutare."], explanation: "\"Se ne va\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I left at eleven. (a woman speaking)", answer: "Me ne sono andata alle undici.", altAnswers: ["Sono andata via alle undici."], explanation: "\"Andata\" agrees with the speaker." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Go away, I don't want to see you!", answer: "Vattene, non ti voglio vedere!", altAnswers: ["Vattene, non voglio vederti!"], explanation: "\"Va'\" + \"te ne\": double t." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "When are you going away on holiday? (to a couple)", answer: "Quando ve ne andate in vacanza?", altAnswers: ["Quando andate in vacanza?"], explanation: "\"Ve ne andate\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "When are you going away on vacation? (to a couple)", answer: "Quando ve ne andate in vacanza?", altAnswers: ["Quando andate in vacanza?"], explanation: "\"Ve ne andate\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[We left] before the end. (a group of men and women)", sentence: "___ prima della fine.", answer: "Ce ne siamo andati", explanation: "Mixed group: masculine plural." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Don't go], stay a bit longer! (to a friend)", sentence: "___, resta ancora un po'!", answer: "Non andartene", altAnswers: ["Non te ne andare"], explanation: "Negative tu: either side." },
       { type: "word-order", prompt: "Put the words in order to say: Let's get out of here, this place is depressing.", words: ["Andiamocene,", "questo", "posto", "è", "triste."], translation: "Let's get out of here, this place is depressing.", explanation: "\"Andiamocene\": one word." },
@@ -93,6 +94,7 @@ export const IT_B1_U04: Lesson[] = [
         body: [
           "\"Farcela\" (\"fare\" + \"ci\" + \"la\") means to manage, to make it, to cope. Conjugate \"fare\" and keep \"ce la\" in front: \"ce la faccio, ce la fai, ce la fa, ce la facciamo, ce la fate, ce la fanno\". The pronouns don't change with the person: always \"ce la\".",
           "\"Non ce la faccio più\" (I can't take it any more) is one of the most common sentences in Italian. \"Ce la fai?\" (can you manage?) is what you ask someone carrying a heavy box; \"Ce la puoi fare!\" is you can do it!",
+          "What you manage goes after \"a\" + infinitive: \"Ce la fai a venire?\" (can you make it?), the spoken twin of \"Riesci a venire?\". Keep \"ce la faccio\" apart from two look-alikes: \"la faccio\" (I make it, the cake) and \"ce l'ho\" (I've got it). Only \"ce la\" + \"fare\" means to manage.",
         ],
         examples: [
           { es: "Ce la fai da solo?", en: "Can you manage on your own?" },
@@ -169,6 +171,7 @@ export const IT_B1_U04: Lesson[] = [
         body: [
           "\"Prendersela\" means to get upset, to take something badly or personally: \"Non prendertela!\" (don't take it badly, don't be upset). Present: \"me la prendo, te la prendi, se la prende, ce la prendiamo, ve la prendete, se la prendono\".",
           "Past with \"essere\" and an invariable \"presa\": \"Se l'è presa\" (he got upset), \"Me la sono presa\" (I took it badly), whoever the subject. \"Prendersela con qualcuno\" = to take it out on someone: \"Perché te la prendi con me?\".",
+          "\"Se l'è presa\" never means he took it: that's \"l'ha presa\". The person you're upset with follows \"con\", the reason follows \"per\": \"Se l'è presa con me per una battuta\" (he got upset with me over a joke).",
         ],
         examples: [
           { es: "Non prendertela, era solo uno scherzo.", en: "Don't be upset, it was only a joke." },
@@ -187,7 +190,7 @@ export const IT_B1_U04: Lesson[] = [
         body: [
           "\"Avercela con qualcuno\" means to be angry with someone, to bear a grudge: \"Ce l'hai con me?\" (are you angry with me?). Conjugate \"avere\" after \"ce l'\": \"ce l'ho, ce l'hai, ce l'ha, ce l'abbiamo, ce l'avete, ce l'hanno\".",
           "It's informal but used by everyone. Don't confuse it with \"ce l'ho\" = I've got it: \"Le chiavi? Ce l'ho\" (spoken for possession) vs \"Ce l'ho con Marco\". The \"con\" + person shows which one you mean.",
-          "In the past people usually say \"ce l'avevo con lui\" (I was angry with him), because it's a state.",
+          "In the past people usually say \"ce l'avevo con lui\" (I was angry with him), because it's a state. For a closed period the passato prossimo works too, with \"avuta\" agreeing with \"la\": \"Ce l'ho avuta con lui per un mese\".",
         ],
         examples: [
           { es: "Ce l'hai con me?", en: "Are you angry with me?" },
@@ -213,7 +216,7 @@ export const IT_B1_U04: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[They got upset] because we were late.", sentence: "___ perché eravamo in ritardo.", answer: "Se la sono presa", explanation: "Plural subject, but still \"presa\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[They had it in for] everyone.", sentence: "___ con tutti.", answer: "Ce l'avevano", explanation: "Imperfetto for a state in the past." },
       { type: "word-order", prompt: "Put the words in order to say: Don't be upset, it isn't your fault.", words: ["Non", "te", "la", "prendere,", "non", "è", "colpa", "tua."], translation: "Don't be upset, it isn't your fault.", explanation: "Negative tu with the cluster in front." },
-      { type: "multiple-choice", question: "Your flatmate is slamming doors. How do you ask: Are you angry with me?", options: ["Ce l'hai con me?", "Te la prendi?", "Ce la fai con me?", "Ce l'hai di me?"], correctIndex: 0, explanation: "\"Avercela con\" + person." },
+      { type: "multiple-choice", question: "Your roommate is slamming doors. How do you ask: Are you angry with me?", options: ["Ce l'hai con me?", "Te la prendi?", "Ce la fai con me?", "Ce l'hai di me?"], correctIndex: 0, explanation: "\"Avercela con\" + person." },
       { type: "dictation", audio: "Non prendertela, non ce l'ho con te.", explanation: "\"Prendertela\" attached; \"ce l'ho\" with elision." },
       { type: "speak", text: "Scusa, non volevo offenderti. Non prendertela, dai!", prompt: "Say it in Italian: Sorry, I didn't mean to offend you. Don't be upset, come on!", tip: "pren-DER-te-la: stress on -der-.", explanation: "Apology with \"prendersela\"." },
     ],
@@ -223,13 +226,13 @@ export const IT_B1_U04: Lesson[] = [
     level: "IT-B1",
     number: 4,
     title: "Smetterla, Sentirsela, Fregarsene",
-    summary: "Use smettila!, non me la sento and recognise me ne frego, with a warning about register.",
+    summary: "Use smettila!, non me la sento and recognize me ne frego, with a warning about register.",
     duration: "17 min",
     sections: [
       {
         heading: "Smettila!",
         body: [
-          "\"Smetterla\" (to stop it, to cut it out) is \"smettere\" + \"la\", used for annoying behaviour: \"Smettila!\" (stop it!), \"Smettetela di urlare!\" (stop shouting, all of you!). The \"la\" means the whole situation; it never changes.",
+          "\"Smetterla\" (to stop it, to cut it out) is \"smettere\" + \"la\", used for annoying behavior: \"Smettila!\" (stop it!), \"Smettetela di urlare!\" (stop shouting, all of you!). The \"la\" means the whole situation; it never changes.",
           "With \"di\" + infinitive you say what to stop: \"Smettila di lamentarti\" (stop complaining). In the present: \"La smetto\" (I'll stop), \"Quando la smetti?\" (when are you going to stop?).",
         ],
         examples: [
@@ -248,11 +251,12 @@ export const IT_B1_U04: Lesson[] = [
         body: [
           "\"Sentirsela\" means to feel up to something: \"Non me la sento di guidare\" (I don't feel up to driving). It's almost always negative or a question: \"Te la senti di venire?\" (do you feel up to coming?).",
           "It's a gentle, honest way to say no, often about tiredness, fear or illness. Italians use it where English says I'm not up to it or I don't feel like risking it.",
+          "Keep it apart from \"non mi sento bene\" (I don't feel well) and \"non lo sento\" (I can't hear it): the \"la\" is what turns feel into feel up to. With \"Lei\" it's \"Se la sente di firmare oggi?\" (do you feel up to signing today?), a kind way to give a client a way out.",
         ],
         examples: [
           { es: "Non me la sento di guidare con questa nebbia.", en: "I don't feel up to driving in this fog." },
           { es: "Te la senti di fare il discorso?", en: "Do you feel up to giving the speech?" },
-          { es: "Dopo l'operazione non se la sente di viaggiare.", en: "After the operation he doesn't feel up to travelling." },
+          { es: "Dopo l'operazione non se la sente di viaggiare.", en: "After the operation he doesn't feel up to traveling." },
           { es: "Scusate, stasera non me la sento.", en: "Sorry, I'm not up to it tonight." },
         ],
         checkpoint: [
@@ -261,7 +265,7 @@ export const IT_B1_U04: Lesson[] = [
         ],
       },
       {
-        heading: "Me ne frego: recognise it",
+        heading: "Me ne frego: recognize it",
         body: [
           "\"Fregarsene\" means not to give a damn: \"Me ne frego\" (I don't care), \"Chi se ne frega?\" (who cares?). It's very common in casual speech but rude: never with your boss, a client or someone you call \"Lei\".",
           "Learn to understand it, and use the neutral versions yourself: \"Non m'importa\" (I don't care), \"Non mi interessa\" (I'm not interested), \"Per me è uguale\" (it's all the same to me).",
@@ -284,9 +288,9 @@ export const IT_B1_U04: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Sorry, I'm not up to it tonight. (to friends)", answer: "Scusate, stasera non me la sento.", altAnswers: ["Scusate, non me la sento stasera."], explanation: "\"Non me la sento\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's all the same to me, you decide. (to a friend)", answer: "Per me è uguale, decidi tu.", altAnswers: ["Per me è lo stesso, decidi tu."], explanation: "A neutral way to say you don't mind." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Stop it, both of you!", answer: "Smettetela tutti e due!", altAnswers: ["Smettetela, tutti e due!", "Smettetela tutte e due!"], explanation: "Voi command + \"la\"." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "After the operation [he doesn't feel up to] travelling.", sentence: "Dopo l'operazione ___ di viaggiare.", answer: "non se la sente", explanation: "\"Se la sente\" for he." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "After the operation [he doesn't feel up to] traveling.", sentence: "Dopo l'operazione ___ di viaggiare.", answer: "non se la sente", explanation: "\"Se la sente\" for he." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Stop] looking at your phone! (to a friend)", sentence: "___ di guardare il telefono!", answer: "Smettila", explanation: "\"Smettila di\" + infinitive." },
-      { type: "word-order", prompt: "Put the words in order to say: I'm not interested in football.", words: ["Il", "calcio", "non", "mi", "interessa."], translation: "I'm not interested in football.", altOrders: [["Non", "mi", "interessa", "il", "calcio."]], explanation: "A polite alternative to \"me ne frego\"." },
+      { type: "word-order", prompt: "Put the words in order to say: I'm not interested in soccer.", words: ["Il", "calcio", "non", "mi", "interessa."], translation: "I'm not interested in soccer.", altOrders: [["Non", "mi", "interessa", "il", "calcio."]], explanation: "A polite alternative to \"me ne frego\"." },
       { type: "multiple-choice", question: "A friend hears \"Chi se ne frega?\". What does it mean, and when can you use it?", options: ["Who cares? Only in very casual speech.", "Who's leaving? Anywhere.", "Who's angry? Only with Lei.", "Who's coping? In formal letters."], correctIndex: 0, explanation: "Rude: friends only, and carefully." },
       { type: "dictation", audio: "Smettila! Non me la sento di litigare.", explanation: "\"Smettila\", \"me la sento\"." },
       { type: "speak", text: "Scusa, stasera non me la sento di uscire. Sono stanchissima.", prompt: "Say it in Italian: Sorry, I don't feel up to going out tonight. I'm exhausted.", tip: "stan-CHIS-si-ma: hard ch, double s.", explanation: "\"Sentirsela\" for a gentle no." },
@@ -350,17 +354,17 @@ export const IT_B1_U04: Lesson[] = [
       {
         heading: "Which auxiliary, which ending?",
         body: [
-          "Reflexive ones take \"essere\": \"me ne sono andato / andata\" (agrees with the subject), \"me la sono cavata\", \"se l'è presa\" (always -a, agreeing with \"la\"). Non-reflexive ones take \"avere\": \"ce l'ho fatta\", \"ce l'ho avuta con lui\". \"Smetterla\" is rare in the past: say \"ho smesso\".",
+          "Reflexive ones take \"essere\": \"me ne sono andato / andata\" (agrees with the subject), \"me la sono cavata\", \"se l'è presa\" (always -a, agreeing with \"la\"). Non-reflexive ones take \"avere\": \"ce l'ho fatta\", \"ce l'ho avuta con lui\". \"Smetterla\" in the past is \"l'ha smessa\" (he's finally stopped), but plain \"ho smesso\" is more common.",
         ],
         examples: [
           { es: "Se ne sono andati alle dieci.", en: "They left at ten." },
-          { es: "Ce l'hanno fatta per un pelo.", en: "They made it by a whisker." },
-          { es: "Se l'è cavata con una multa.", en: "She got away with a fine." },
+          { es: "Ce l'hanno fatta per un pelo.", en: "They made it by a hair." },
+          { es: "Se l'è cavata con una multa.", en: "She got off with a fine." },
           { es: "Ve la siete presa?", en: "Did you take it badly? (plural)" },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They made it by a whisker.", answer: "Ce l'hanno fatta per un pelo.", explanation: "\"Avere\" + \"fatta\"." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She got away with a fine.", answer: "Se l'è cavata con una multa.", explanation: "\"Essere\" + \"cavata\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They made it by a hair.", answer: "Ce l'hanno fatta per un pelo.", explanation: "\"Avere\" + \"fatta\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She got off with a fine.", answer: "Se l'è cavata con una multa.", explanation: "\"Essere\" + \"cavata\"." },
         ],
       },
     ],
@@ -375,7 +379,7 @@ export const IT_B1_U04: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "She didn't manage to finish.", answer: "Non ce l'ha fatta a finire.", altAnswers: ["Non è riuscita a finire."], explanation: "\"Farcela a\" + infinitive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I was angry with him for a month.", answer: "Ce l'ho avuta con lui per un mese.", altAnswers: ["Sono stato arrabbiato con lui per un mese.", "Sono stata arrabbiata con lui per un mese."], explanation: "Completed period: passato prossimo, \"avuta\" agreeing with \"la\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The guests [left] at midnight.", sentence: "Gli ospiti ___ a mezzanotte.", answer: "se ne sono andati", altAnswers: ["sono andati via"], explanation: "Plural masculine." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[We did it]: the flat is ours!", sentence: "___: la casa è nostra!", answer: "Ce l'abbiamo fatta", explanation: "\"Ce l'abbiamo fatta\"." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[We did it]: the house is ours!", sentence: "___: la casa è nostra!", answer: "Ce l'abbiamo fatta", explanation: "\"Ce l'abbiamo fatta\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[You did fine] in the interview. (to a friend)", sentence: "___ bene al colloquio.", answer: "Te la sei cavata", explanation: "\"Essere\" + \"cavata\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "My grandmother [got upset] because I didn't call her.", sentence: "Mia nonna ___ perché non l'ho chiamata.", answer: "se l'è presa", explanation: "\"Se l'è presa\"." },
       { type: "listen-choose", audio: "Ce la siamo cavata.", question: "What did you hear?", options: ["Ce la siamo cavata.", "Ce la siamo cavati.", "Ce l'abbiamo cavata.", "Ce la siamo andati."], correctIndex: 0, explanation: "Always \"cavata\"." },
@@ -474,13 +478,13 @@ export const IT_B1_U04: Lesson[] = [
           "\"Basta!\" (enough!) and \"pazienza\" (oh well, too bad) are the two words that frame every Italian decision.",
         ],
         examples: [
-          { es: "Basta, me ne vado in vacanza!", en: "That's it, I'm going on holiday!" },
+          { es: "Basta, me ne vado in vacanza!", en: "That's it, I'm going on vacation!" },
           { es: "Brava, te lo meriti.", en: "Good for you, you deserve it." },
           { es: "Ce la fai a prendere una settimana?", en: "Can you manage to take a week off?" },
           { es: "Se se la prende, pazienza.", en: "If he gets upset, too bad." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "That's it, I'm going on holiday!", answer: "Basta, me ne vado in vacanza!", altAnswers: ["Basta, vado in vacanza!"], explanation: "\"Andarsene\" stresses the getting away." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "That's it, I'm going on vacation!", answer: "Basta, me ne vado in vacanza!", altAnswers: ["Basta, vado in vacanza!"], explanation: "\"Andarsene\" stresses the getting away." },
           { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "If [he gets upset], too bad.", sentence: "Se ___, pazienza.", answer: "se la prende", explanation: "\"Se\" (if) + \"se la prende\": two different words." },
         ],
       },
@@ -528,23 +532,23 @@ export const IT_B1_U04: Lesson[] = [
       {
         heading: "Three short scenes",
         body: [
-          "Scene 1, at the station in Naples: \"Il treno? Se n'è andato due minuti fa!\" Scene 2, after an exam in Padua: \"Com'è andata?\" \"Me la sono cavata\". Scene 3, a phone call: \"Ce l'hai ancora con Marco?\" \"No, mi è passata\" (I've got over it).",
+          "Scene 1, at the station in Naples: \"Il treno? Se n'è andato due minuti fa!\" Scene 2, after an exam in Padua: \"Com'è andata?\" \"Me la sono cavata\". Scene 3, a phone call: \"Ce l'hai ancora con Marco?\" \"No, mi è passata\" (I've gotten over it).",
           "\"Mi è passata\" (it's passed) is another useful chunk: the anger or the illness has gone.",
         ],
         examples: [
           { es: "Il treno? Se n'è andato due minuti fa!", en: "The train? It left two minutes ago!" },
           { es: "Com'è andata? Me la sono cavata.", en: "How did it go? I got through it OK." },
           { es: "Ce l'hai ancora con Marco?", en: "Are you still angry with Marco?" },
-          { es: "No, mi è passata.", en: "No, I've got over it." },
+          { es: "No, mi è passata.", en: "No, I've gotten over it." },
         ],
         checkpoint: [
-          { type: "listen-choose", audio: "No, mi è passata.", question: "What does it mean?", options: ["I've got over it.", "I passed the exam.", "It passed me by.", "I've left."], correctIndex: 0, explanation: "\"Mi è passata\" = the anger has gone." },
+          { type: "listen-choose", audio: "No, mi è passata.", question: "What does it mean?", options: ["I've gotten over it.", "I passed the exam.", "It passed me by.", "I've left."], correctIndex: 0, explanation: "\"Mi è passata\" = the anger has gone." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Are you still angry with Marco?", answer: "Ce l'hai ancora con Marco?", explanation: "\"Ancora\" = still." },
         ],
       },
     ],
     exercises: [
-      { type: "listen-choose", audio: "Il treno? Se n'è andato due minuti fa!", question: "What happened to the train?", options: ["It left two minutes ago.", "It's arriving in two minutes.", "It's two minutes late.", "It was cancelled."], correctIndex: 0, explanation: "\"Andarsene\" also works for trains and buses." },
+      { type: "listen-choose", audio: "Il treno? Se n'è andato due minuti fa!", question: "What happened to the train?", options: ["It left two minutes ago.", "It's arriving in two minutes.", "It's two minutes late.", "It was canceled."], correctIndex: 0, explanation: "\"Andarsene\" also works for trains and buses." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I got out of it by a miracle.", answer: "Me la sono cavata per miracolo.", explanation: "\"Per miracolo\" = by a miracle; \"cavata\" always ends in -a." },
       { type: "dictation", audio: "Non te la prendere, scherzavo.", explanation: "\"Scherzare\" = to joke." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Are you still angry] with your brother? (to a friend)", sentence: "___ con tuo fratello?", answer: "Ce l'hai ancora", explanation: "\"Avercela con\" + \"ancora\" = still." },
@@ -552,9 +556,9 @@ export const IT_B1_U04: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Did you manage to talk to the landlord? (to a friend)", answer: "Ce l'hai fatta a parlare col padrone di casa?", altAnswers: ["Ce l'hai fatta a parlare con il padrone di casa?", "Sei riuscito a parlare col padrone di casa?", "Sei riuscita a parlare con il padrone di casa?"], explanation: "\"Col\" = \"con il\" in speech." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "How did it go? I got through it OK.", answer: "Com'è andata? Me la sono cavata.", altAnswers: ["Come è andata? Me la sono cavata."], explanation: "\"Com'è andata?\" = how did it go?" },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Don't be offended, I was joking. (to a friend)", answer: "Non te la prendere, scherzavo.", altAnswers: ["Non prendertela, scherzavo.", "Non te la prendere, stavo scherzando."], explanation: "Imperfetto \"scherzavo\" for what you were doing." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "No, I've got over it.", answer: "No, mi è passata.", explanation: "\"Passare\" with \"essere\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "No, I've gotten over it.", answer: "No, mi è passata.", explanation: "\"Passare\" with \"essere\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The bus? [It left] a minute ago!", sentence: "L'autobus? ___ un minuto fa!", answer: "Se n'è andato", altAnswers: ["Se ne è andato", "È partito"], explanation: "\"Andarsene\" for vehicles too." },
-      { type: "word-order", prompt: "Put the words in order to say: We made it by a whisker.", words: ["Ce", "l'abbiamo", "fatta", "per", "un", "pelo."], translation: "We made it by a whisker.", explanation: "\"Fatta\" agrees with \"la\"." },
+      { type: "word-order", prompt: "Put the words in order to say: We made it by a hair.", words: ["Ce", "l'abbiamo", "fatta", "per", "un", "pelo."], translation: "We made it by a hair.", explanation: "\"Fatta\" agrees with \"la\"." },
       { type: "speak", text: "Il treno se n'è andato, ma ce l'abbiamo fatta a prendere il prossimo.", prompt: "Say it in Italian: The train left, but we managed to catch the next one.", tip: "sen-ne-an-DA-to: let it flow.", explanation: "\"Andarsene\" and \"farcela\"." },
     ],
   },
@@ -575,13 +579,13 @@ export const IT_B1_U04: Lesson[] = [
         ],
         examples: [
           { es: "Smettila di dire che non sai niente!", en: "Stop saying you don't know anything!" },
-          { es: "Hai studiato tantissimo, ce la farai.", en: "You've studied loads, you'll make it." },
+          { es: "Hai studiato tantissimo, ce la farai.", en: "You've studied so much, you'll make it." },
           { es: "Anche l'anno scorso te la sei cavata benissimo.", en: "Last year you did brilliantly too." },
           { es: "Se il professore è severo, non prendertela.", en: "If the professor is strict, don't take it personally." },
           { es: "In bocca al lupo!", en: "Good luck! (literally into the wolf's mouth)" },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You've studied loads, you'll make it.", answer: "Hai studiato tantissimo, ce la farai.", altAnswers: ["Hai studiato tanto, ce la farai.", "Hai studiato moltissimo, ce la farai."], explanation: "Future of \"farcela\": \"ce la farai\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You've studied so much, you'll make it.", answer: "Hai studiato tantissimo, ce la farai.", altAnswers: ["Hai studiato tanto, ce la farai.", "Hai studiato moltissimo, ce la farai."], explanation: "Future of \"farcela\": \"ce la farai\"." },
           { type: "multiple-choice", question: "Someone says \"In bocca al lupo!\". What's the traditional reply?", options: ["Crepi!", "Grazie mille, anche a te!", "Ce la faccio!", "Me ne vado!"], correctIndex: 0, explanation: "\"Crepi (il lupo)!\" = may the wolf die!" },
         ],
       },

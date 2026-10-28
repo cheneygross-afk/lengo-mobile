@@ -695,7 +695,7 @@ export const IT_A1_U05: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They speak Italian.", answer: "Parlano italiano.", altAnswers: ["Loro parlano italiano."], explanation: "PAR-la-no." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They live in Rome.", answer: "Abitano a Roma.", altAnswers: ["Loro abitano a Roma."], explanation: "A-bi-ta-no." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They call their mother.", answer: "Telefonano alla madre.", altAnswers: ["Telefonano a loro madre.", "Telefonano alla mamma."], explanation: "te-LE-fo-na-no." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They call their mother.", answer: "Telefonano alla madre.", altAnswers: ["Telefonano alla loro madre.", "Chiamano la madre.", "Chiamano la mamma.", "Telefonano alla mamma."], explanation: "te-LE-fo-na-no." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You live in Milan? (plural)", answer: "Abitate a Milano?", altAnswers: ["Voi abitate a Milano?"], explanation: "a-bi-TA-te." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "They're looking for a hotel.", answer: "Cercano un albergo.", altAnswers: ["Cercano un hotel.", "Loro cercano un albergo."], explanation: "CER-ca-no." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The students [arrive] at nine.", sentence: "Gli studenti ___ alle nove.", answer: "arrivano", explanation: "ar-RI-va-no." },
@@ -891,7 +891,7 @@ export const IT_A1_U05: Lesson[] = [
         type: "speak",
         text: "Ciao, sono Emma. Studio italiano e lavoro in un hotel. E tu, cosa fai?",
         prompt: "Introduce yourself to your tandem partner: Hi, I'm Emma. I study Italian and work in a hotel. And you, what do you do?",
-        tip: "\"Cosa fai?\" (what do you do?) is a chunk; you'll learn \"fare\" in Unit 6.",
+        tip: "\"Cosa fai?\" (what do you do?) is a chunk; you'll learn \"fare\" in Unit 9.",
         explanation: "Two -are verbs, then a question back.",
       },
     ],

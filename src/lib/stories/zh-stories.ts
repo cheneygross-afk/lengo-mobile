@@ -551,23 +551,23 @@ export const ZH_STORIES: ZhStory[] = [
     level: "B2",
     genre: "Explainer",
     title: "春节 为什么 要 回家",
-    titlePinyin: "chūnjié wèishénme yào huíjiā",
+    titlePinyin: "Chūnjié wèishénme yào huíjiā",
     titleEn: "Why Go Home for the Spring Festival?",
     subtitle: "Every year hundreds of millions of people travel home for New Year. Why, and what's changing.",
     paragraphs: [
       {
         zh: "每 年 春节 前后 ， 中国 都 会 出现 世界 上 规模 最 大 的 人口 流动 ， 这 就是 “ 春运 ” 。 几 亿 人 从 工作 的 城市 回到 自己 的 家乡 。",
-        pinyin: "měi nián chūnjié qiánhòu ， Zhōngguó dōu huì chūxiàn shìjiè shàng guīmó zuì dà de rénkǒu liúdòng ， zhè jiùshì “ chūnyùn ” 。 jǐ yì rén cóng gōngzuò de chéngshì huídào zìjǐ de jiāxiāng 。",
+        pinyin: "měi nián Chūnjié qiánhòu ， Zhōngguó dōu huì chūxiàn shìjiè shàng guīmó zuì dà de rénkǒu liúdòng ， zhè jiùshì “ chūnyùn ” 。 jǐ yì rén cóng gōngzuò de chéngshì huídào zìjǐ de jiāxiāng 。",
         en: "Every year around the Spring Festival, China sees the largest human migration in the world: chunyun, the Spring Festival travel rush. Hundreds of millions of people go from the cities where they work back to their home towns.",
       },
       {
         zh: "既然 回家 的 路 这么 辛苦 ， 为什么 大家 还是 要 回去 呢 ？ 原因 之一 是 ， 春节 在 中国 人 心中 是 家人 团圆 的 日子 。 除夕 晚上 一家人 一起 吃 年夜饭 ， 是 很多 人 一 年 中 最 期待 的 时刻 。",
-        pinyin: "jìrán huíjiā de lù zhème xīnkǔ ， wèishénme dàjiā háishi yào huíqu ne ？ yuányīn zhīyī shì ， chūnjié zài Zhōngguó rén xīnzhōng shì jiārén tuányuán de rìzi 。 chúxī wǎnshang yìjiārén yìqǐ chī niányèfàn ， shì hěnduō rén yì nián zhōng zuì qīdài de shíkè 。",
+        pinyin: "jìrán huíjiā de lù zhème xīnkǔ ， wèishénme dàjiā háishi yào huíqu ne ？ yuányīn zhīyī shì ， Chūnjié zài Zhōngguó rén xīnzhōng shì jiārén tuányuán de rìzi 。 chúxī wǎnshang yìjiārén yìqǐ chī niányèfàn ， shì hěnduō rén yì nián zhōng zuì qīdài de shíkè 。",
         en: "Since the journey home is so hard, why do people still go? One reason is that, for Chinese people, the Spring Festival is the time when the family comes together. Eating the New Year's Eve dinner together is, for many, the moment they look forward to most all year.",
       },
       {
         zh: "另外 ， 不少 在 城市 打工 的 年轻人 ， 父母 和 孩子 都 留 在 老家 。 对 他们 来说 ， 春节 可能 是 一 年 里 唯一 能 跟 家人 见面 的 机会 。",
-        pinyin: "lìngwài ， bùshǎo zài chéngshì dǎgōng de niánqīngrén ， fùmǔ hé háizi dōu liú zài lǎojiā 。 duì tāmen láishuō ， chūnjié kěnéng shì yì nián lǐ wéiyī néng gēn jiārén jiànmiàn de jīhuì 。",
+        pinyin: "lìngwài ， bùshǎo zài chéngshì dǎgōng de niánqīngrén ， fùmǔ hé háizi dōu liú zài lǎojiā 。 duì tāmen láishuō ， Chūnjié kěnéng shì yì nián lǐ wéiyī néng gēn jiārén jiànmiàn de jīhuì 。",
         en: "Besides, many young people who work in the cities have left their parents and children in their home towns. For them, the Spring Festival may be the only chance all year to see their family.",
       },
       {
@@ -672,7 +672,7 @@ export const ZH_STORIES: ZhStory[] = [
         question: "Which problem is NOT mentioned in the second paragraph?",
         options: ["Distractions at home", "Some people get less done", "Work and life blur together", "The company stops paying wages"],
         correctIndex: 3,
-        explanation: "The paragraph lists 干扰 (distractions), 效率…下降 (falling productivity) and 界限变得模糊 (the line blurs). Pay isn't mentioned.",
+        explanation: "The paragraph lists 干扰 (distractions), 效率…反而会下降 (productivity actually falls) and 界限变得模糊 (the line blurs). Pay isn't mentioned. The paragraph is built on 一方面…另一方面 (\"on the one hand… on the other\"), which tells you to expect exactly two sets of problems.",
       },
       {
         question: "Why does the writer mention the office kitchen (茶水间)?",
@@ -741,7 +741,7 @@ export const ZH_STORIES: ZhStory[] = [
         question: "What is Mr Sun's special talent?",
         options: ["He can repair old books", "He knows where every book is", "He can recite many poems", "He knows every customer by name"],
         correctIndex: 1,
-        explanation: "他往往不假思索就能告诉你在第几排第几层: without a moment's thought he can tell you the row and the shelf. 不假思索 = without stopping to think.",
+        explanation: "他往往不假思索就能告诉你在第几排第几层: without a moment's thought he can tell you the row and the shelf. 不假思索 = without stopping to think; 第几排第几层 is \"which row, which shelf\", so the talent is knowing where books are, not knowing customers (he rarely even greets them).",
       },
       {
         question: "What does he mean by “书是要翻的，不是用来点的”?",
@@ -785,7 +785,7 @@ export const ZH_STORIES: ZhStory[] = [
       {
         zh: "慢 ， 不 等于 懒惰 ， 更 不 等于 停滞 。 慢 是 一 种 专注 ： 一 杯 茶 ， 要 等 水温 合适 ； 一 篇 文章 ， 要 反复 推敲 ； 一 段 感情 ， 要 经得起 时间 的 沉淀 。",
         pinyin: "màn ， bù děngyú lǎnduò ， gèng bù děngyú tíngzhì 。 màn shì yì zhǒng zhuānzhù ： yì bēi chá ， yào děng shuǐwēn héshì ； yì piān wénzhāng ， yào fǎnfù tuīqiāo ； yí duàn gǎnqíng ， yào jīngdeqǐ shíjiān de chéndiàn 。",
-        en: "Slowness is not laziness, still less standstill. Slowness is a kind of attention: a cup of tea waits for the water to be the right temperature; an essay needs revising again and again; a relationship has to stand the settling of time.",
+        en: "Slowness is not laziness, still less standstill. Slowness is a kind of attention: a cup of tea waits for the water to be the right temperature; an essay needs revising again and again; a relationship has to stand the test of time and be given time to settle and deepen.",
       },
       {
         zh: "当然 ， 倡导 慢 ， 并 不是 要 我们 回到 驿马 传书 的 年代 。 真正 的 问题 不 在于 快 与 慢 本身 ， 而 在于 我们 是否 还 有 选择 慢 的 能力 。 倘若 连 停下来 都 成 了 一 种 奢侈 ， 那么 我们 追赶 的 ， 究竟 是 什么 ？",
@@ -844,7 +844,7 @@ export const ZH_STORIES: ZhStory[] = [
     paragraphs: [
       {
         zh: "《 韩非子 》 里 有 一 则 寓言 ： “ 宋 人 有 耕 者 ， 田 中 有 株 ， 兔 走 触 株 ， 折 颈 而 死 。 因 释 其 耒 而 守 株 ， 冀 复 得 兔 。 ” 这 就是 成语 “ 守株待兔 ” 的 出处 。",
-        pinyin: "《 Hánfēizǐ 》 lǐ yǒu yì zé yùyán ： “ Sòng rén yǒu gēng zhě ， tián zhōng yǒu zhū ， tù zǒu chù zhū ， zhé jǐng ér sǐ 。 yīn shì qí lěi ér shǒu zhū ， jì fù dé tù 。 ” zhè jiùshì chéngyǔ “ shǒuzhūdàitù ” de chūchǔ 。",
+        pinyin: "《 Hánfēizǐ 》 lǐ yǒu yì zé yùyán ： “ Sòng rén yǒu gēng zhě ， tián zhōng yǒu zhū ， tù zǒu chù zhū ， zhé jǐng ér sǐ 。 yīn shì qí lěi ér shǒu zhū ， jì fù dé tù 。 ” zhè jiùshì chéngyǔ “ shǒuzhūdàitù ” de chūchù 。",
         en: "Han Feizi tells a fable: \"A man of Song was ploughing his field. In the field was a tree stump. A hare ran into the stump, broke its neck and died. So the man put down his plough and kept watch by the stump, hoping to get another hare.\" That is where the idiom shou zhu dai tu, \"waiting by the stump for a hare\", comes from.",
       },
       {
@@ -874,10 +874,10 @@ export const ZH_STORIES: ZhStory[] = [
       { zh: "株", pinyin: "zhū", en: "tree stump (classical)" },
       { zh: "释", pinyin: "shì", en: "to put down, to release (classical)" },
       { zh: "冀", pinyin: "jì", en: "to hope (classical)" },
-      { zh: "出处", pinyin: "chūchǔ", en: "source, origin" },
+      { zh: "出处", pinyin: "chūchù", en: "source, origin" },
       { zh: "笑柄", pinyin: "xiàobǐng", en: "laughing stock" },
       { zh: "树桩", pinyin: "shùzhuāng", en: "tree stump" },
-      { zh: "一夜之间", pinyin: "yí yè zhī jiān", en: "overnight" },
+      { zh: "一夜之间", pinyin: "yíyèzhījiān", en: "overnight" },
       { zh: "成百上千", pinyin: "chéngbǎishàngqiān", en: "hundreds, even thousands" },
       { zh: "好景不长", pinyin: "hǎojǐngbùcháng", en: "good times don't last" },
       { zh: "流量", pinyin: "liúliàng", en: "(online) traffic" },
@@ -899,13 +899,13 @@ export const ZH_STORIES: ZhStory[] = [
         question: "Once the tourists arrive, how does the farmer make money?",
         options: ["Farming", "Running a stall by the field", "Selling hares", "Charging an entrance fee"],
         correctIndex: 1,
-        explanation: "农夫干脆在田边摆起了小摊，卖茶水、卖纪念品: he simply set up a stall by the field selling tea and souvenirs.",
+        explanation: "农夫干脆在田边摆起了小摊，卖茶水、卖纪念品: he simply set up a stall by the field selling tea and souvenirs. 干脆 marks a decisive, no-nonsense step (\"just went ahead and\"), and 比种一年地还多 tells you the stall, not farming, now earns the money.",
       },
       {
         question: "At the end, what does it mean that he is “still guarding that same stump”?",
         options: ["He has gone back to farming", "Relying on a burst of online traffic is no different from waiting by the stump", "He has taken the stump home", "He has found a new hare"],
         correctIndex: 1,
-        explanation: "只不过换了个名字，叫“流量”罢了: the stump just has a new name, online traffic. He is still waiting for luck instead of working.",
+        explanation: "只不过换了个名字，叫“流量”罢了: the stump just has a new name, online traffic. 只不过…罢了 (\"it's merely… that's all\") downplays the change: chasing a one-off viral hit is the same as waiting for another hare to run into the stump, luck instead of steady work.",
       },
     ],
   },

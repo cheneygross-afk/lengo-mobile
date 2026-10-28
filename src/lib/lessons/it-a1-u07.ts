@@ -555,7 +555,7 @@ export const IT_A1_U07: Lesson[] = [
         heading: "Wrong pizza, stiff bill",
         body: [
           "\"Una pepperoni pizza\" has two problems: the word order is English, and \"peperoni\" means peppers (the vegetable). Ask for \"una pizza al salame piccante\" or \"una diavola\".",
-          "\"Posso avere il conto?\" is correct but sounds translated; the usual phrase is \"Il conto, per favore\".",
+          "\"Posso avere il conto?\" is correct and polite; the shortest everyday phrase is simply \"Il conto, per favore\".",
         ],
         examples: [
           { es: "Una pizza al salame piccante.", en: "A pizza with spicy salami." },
@@ -573,8 +573,8 @@ export const IT_A1_U07: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Fix \"un'espresso\" and write: an espresso.", source: "an espresso", answer: "un espresso", altAnswers: ["un caffè"], explanation: "Masculine: no apostrophe." },
       { type: "translate", direction: "en-es", prompt: "Fix \"due cornettos\" and write: two croissants.", source: "two croissants", answer: "due cornetti", altAnswers: ["due brioche"], explanation: "-o → -i." },
       { type: "translate", direction: "en-es", prompt: "Fix \"tre caffès\" and write: three espressos.", source: "three espressos", answer: "tre caffè", explanation: "Accented nouns don't change." },
-      { type: "translate", direction: "en-es", prompt: "Fix \"posso avere il conto?\" with the usual phrase: The bill, please.", source: "The bill, please.", answer: "Il conto, per favore.", altAnswers: ["Il conto per favore."], explanation: "The everyday phrase." },
-      { type: "translate", direction: "en-es", prompt: "Fix \"una birra grande, voglio\" and write: I'd like a large beer.", source: "I'd like a large beer.", answer: "Vorrei una birra grande.", altAnswers: ["Prendo una birra grande.", "Vorrei una birra media."], explanation: "\"Vorrei\" first." },
+      { type: "translate", direction: "en-es", prompt: "\"Posso avere il conto?\" is fine; now write the shortest everyday phrase: The bill, please.", source: "The bill, please.", answer: "Il conto, per favore.", altAnswers: ["Il conto per favore."], explanation: "The everyday phrase." },
+      { type: "translate", direction: "en-es", prompt: "Fix \"una birra grande, voglio\" and write: I'd like a large beer.", source: "I'd like a large beer.", answer: "Vorrei una birra grande.", altAnswers: ["Prendo una birra grande.", "Vorrei una birra grande, per favore."], explanation: "\"Vorrei\" first." },
       { type: "fill-blank", prompt: "A learner wrote \"un pò di pane\". Write the Italian for the bold words.", en: "[Some] bread, please.", sentence: "___ di pane, per favore.", answer: "Un po'", explanation: "Apostrophe, not accent: \"po'\"." },
       { type: "fill-blank", prompt: "A learner wrote \"una acqua\". Write the Italian for the bold words.", en: "[A glass of water], please.", sentence: "___, per favore.", answer: "Un bicchiere d'acqua", altAnswers: ["Un bicchiere di acqua"], explanation: "Order water by the glass or bottle." },
       { type: "word-order", prompt: "Put the words in order to say: Two cappuccinos and a pizza with peppers.", words: ["Due", "cappuccini", "e", "una", "pizza", "ai", "peperoni."], translation: "Two cappuccinos and a pizza with peppers.", explanation: "\"Peperoni\" = peppers." },
@@ -617,12 +617,12 @@ export const IT_A1_U07: Lesson[] = [
       {
         heading: "Main course and drinks",
         body: [
-          "\"E per secondo?\" Tom asks for advice: \"Che cosa mi consiglia?\" Waiter: \"Il saltimbocca alla romana è molto buono.\" Then: \"Da bere?\" (to drink?): \"Un quarto di vino rosso e una bottiglia d'acqua naturale.\" House wine comes by the quarter or half litre.",
+          "\"E per secondo?\" Tom asks for advice: \"Che cosa mi consiglia?\" Waiter: \"I saltimbocca alla romana sono molto buoni.\" Saltimbocca doesn't change in the plural: \"i saltimbocca\" (a portion is several), \"il saltimbocca\" for one. Then: \"Da bere?\" (to drink?): \"Un quarto di vino rosso e una bottiglia d'acqua naturale.\" House wine comes by the quarter or half litre.",
         ],
         examples: [
           { es: "E per secondo?", en: "And as a main course?" },
           { es: "Che cosa mi consiglia?", en: "What do you recommend?" },
-          { es: "Il saltimbocca è molto buono.", en: "The saltimbocca is very good." },
+          { es: "I saltimbocca sono molto buoni.", en: "The saltimbocca is very good." },
           { es: "Da bere?", en: "Anything to drink?" },
           { es: "Un quarto di vino rosso.", en: "A quarter litre of red wine." },
         ],
@@ -649,7 +649,7 @@ export const IT_A1_U07: Lesson[] = [
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Cacio e pepe for me.", answer: "Per me la cacio e pepe.", altAnswers: ["Per me cacio e pepe.", "La cacio e pepe per me."], explanation: "\"Per me\" + dish." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "What do you recommend? (to the waiter)", answer: "Che cosa mi consiglia?", altAnswers: ["Cosa mi consiglia?", "Che mi consiglia?"], explanation: "Lei form." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "As a main course I'll have the saltimbocca.", answer: "Per secondo prendo il saltimbocca.", altAnswers: ["Per secondo prendo i saltimbocca.", "Per secondo vorrei il saltimbocca."], explanation: "\"Per secondo\" = as a main." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "As a main course I'll have the saltimbocca.", answer: "Per secondo prendo i saltimbocca.", altAnswers: ["Per secondo prendo il saltimbocca.", "Per secondo vorrei i saltimbocca.", "Per secondo vorrei il saltimbocca."], explanation: "\"Per secondo\" = as a main. \"I saltimbocca\": the plural doesn't change." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "A tiramisu and two espressos.", answer: "Un tiramisù e due caffè.", explanation: "Both accented nouns." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Can I pay by card?", answer: "Posso pagare con la carta?", altAnswers: ["Posso pagare con carta?"], explanation: "\"Posso\" + infinitive." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Anything to drink]?", sentence: "___?", answer: "Da bere", explanation: "\"Da bere?\" = to drink?" },
@@ -660,7 +660,7 @@ export const IT_A1_U07: Lesson[] = [
       { type: "dictation", audio: "Per me la carbonara e un quarto di rosso.", explanation: "\"Quarto di rosso\": house red." },
       {
         type: "speak",
-        text: "Per primo la cacio e pepe, per secondo il saltimbocca. E da bere un quarto di vino rosso.",
+        text: "Per primo la cacio e pepe, per secondo i saltimbocca. E da bere un quarto di vino rosso.",
         prompt: "Order your meal: cacio e pepe as a first course, saltimbocca as a main, and a quarter litre of red wine to drink.",
         tip: "\"Cacio\": CA-cho, the i is silent.",
         explanation: "\"Per primo\", \"per secondo\", \"da bere\".",

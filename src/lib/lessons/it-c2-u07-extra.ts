@@ -50,8 +50,8 @@ export const IT_C2_U07_EXTRA: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Yeah, and I've won the lottery.", answer: "Sì, e io ho vinto la lotteria.", altAnswers: ["Sì, come no, e io ho vinto la lotteria."], explanation: "Absurd comparison = disbelief." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Oh well, we're all set then.", answer: "Ah, beh, allora siamo a posto.", altAnswers: ["Allora siamo a posto.", "Beh, allora siamo a posto."], explanation: "\"Essere a posto\" = to be sorted." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I found parking in the centre at the first attempt.", answer: "Ho trovato parcheggio in centro al primo colpo.", altAnswers: ["Ho trovato parcheggio in centro al primo tentativo."], explanation: "\"Al primo colpo\" = first time." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Oh well, we're all set then.", answer: "Ah, beh, allora siamo a posto.", altAnswers: ["Allora siamo a posto.", "Beh, allora siamo a posto."], explanation: "\"Essere a posto\" = to be all set." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I found parking downtown on the first attempt.", answer: "Ho trovato parcheggio in centro al primo colpo.", altAnswers: ["Ho trovato parcheggio in centro al primo tentativo."], explanation: "\"Al primo colpo\" = first time." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "An unforgettable experience.", answer: "Un'esperienza indimenticabile.", altAnswers: ["Esperienza indimenticabile."], explanation: "Ironic praise opens the review." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Was the hotel wifi free?", answer: "Il wifi dell'albergo era gratuito?", altAnswers: ["Il wifi dell'hotel era gratuito?", "Il wifi dell'albergo era gratis?"], explanation: "\"Gratuito\" (adjective) or \"gratis\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The bill was cooked to perfection.", answer: "Il conto era cotto alla perfezione.", altAnswers: ["Il conto era cucinato alla perfezione."], explanation: "Kitchen language applied to the bill." },
@@ -95,7 +95,7 @@ export const IT_C2_U07_EXTRA: Lesson[] = [
       {
         heading: "Slogans",
         body: [
-          "Invented slogans built on idioms: a glasses shop, \"Vedere per credere\" (seeing is believing); a gym, \"Perdi peso, non perdere tempo\"; a bakery, \"Buono come il pane, anzi di più\" (\"buono come il pane\" = good-hearted); a removal company, \"Ti cambiamo la vita, un pacco alla volta\".",
+          "Invented slogans built on idioms: a glasses shop, \"Vedere per credere\" (seeing is believing); a gym, \"Perdi peso, non perdere tempo\"; a bakery, \"Buono come il pane, anzi di più\" (\"buono come il pane\" = good-hearted); a moving company, \"Ti cambiamo la vita, un pacco alla volta\".",
         ],
         examples: [
           { es: "Vedere per credere.", en: "Seeing is believing." },
@@ -122,7 +122,7 @@ export const IT_C2_U07_EXTRA: Lesson[] = [
       { type: "word-order", prompt: "Put the words in order to say: Lose weight, not time.", words: ["Perdi", "peso,", "non", "perdere", "tempo."], translation: "Lose weight, not time.", explanation: "Negative imperative \"non perdere\"." },
       { type: "matching", instructions: "Match the idiom to its meaning.", pairs: [{ left: "abboccare", right: "to fall for it" }, { left: "avere il dente avvelenato", right: "to bear a grudge" }, { left: "una buona forchetta", right: "a hearty eater" }, { left: "buono come il pane", right: "good-hearted" }], explanation: "Idioms behind the puns." },
       { type: "multiple-choice", question: "Which business would use \"Vedere per credere\"?", options: ["an optician", "a bakery", "a gym", "a bank"], correctIndex: 0, explanation: "Seeing is literally the product." },
-      { type: "multiple-choice", question: "What does \"Il colmo per un dentista? Avere il dente avvelenato\" play on?", options: ["the idiom for bearing a grudge", "a real disease", "dentists' prices", "a proverb about sweets"], correctIndex: 0, explanation: "\"Avere il dente avvelenato\"." },
+      { type: "multiple-choice", question: "What does \"Il colmo per un dentista? Avere il dente avvelenato\" play on?", options: ["the idiom for bearing a grudge", "a real disease", "dentists' prices", "a proverb about candy"], correctIndex: 0, explanation: "\"Avere il dente avvelenato\"." },
       { type: "dictation", audio: "Il colmo per un pescatore? Abboccare.", explanation: "\"Abboccare\": double \"b\" and double \"c\"." },
       { type: "speak", text: "Il colmo per un orologiaio? Perdere tempo!", prompt: "Tell the riddle with good timing.", tip: "Pause after the question.", explanation: "A classic \"colmo\"." },
     ],

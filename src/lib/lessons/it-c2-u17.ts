@@ -18,7 +18,7 @@ export const IT_C2_U17: Lesson[] = [
         body: [
           "An Italian presentation opens with a greeting and thanks, then gets to the point: \"Buongiorno a tutti e grazie per essere qui.\" \"Oggi vorrei parlarvi di...\" The conditional \"vorrei\" is the polite norm; \"Oggi parlerò di...\" is also fine but sounds more formal and academic.",
           "Next, the roadmap. Italian audiences expect it, and it helps you too: \"Il mio intervento si articola in tre parti.\" \"In primo luogo..., poi..., infine...\" Or, more lightly: \"Partirò da un dato, poi vedremo le cause e chiuderò con qualche proposta.\" A clear map lets listeners relax and follow.",
-          "Before the map, many speakers use a hook: a question (\"Quanti di voi hanno preso un treno questa settimana?\"), a striking figure (\"Ogni giorno in Italia chiudono tre librerie\"), or a short anecdote (\"Qualche anno fa, a Bari, ho incontrato...\"). Keep it under thirty seconds: it is an invitation, not a second talk.",
+          "Before the map, many speakers use a hook: a question (\"Quanti di voi hanno preso un treno questa settimana?\"), a striking figure (\"Più della metà degli italiani, in un anno, non legge nemmeno un libro\"; say where it comes from and check it is current), or a short anecdote (\"Qualche anno fa, a Bari, ho incontrato...\"). Keep it under thirty seconds: it is an invitation, not a second talk.",
         ],
         examples: [
           { es: "Buongiorno a tutti e grazie per essere qui.", en: "Good morning, everyone, and thank you for being here." },
@@ -39,6 +39,7 @@ export const IT_C2_U17: Lesson[] = [
           "Transitions tell the audience where they are: \"Passiamo ora a...\", \"Vorrei soffermarmi un momento su...\", \"Questo ci porta al secondo punto.\" For a digression: \"Apro una breve parentesi\" and \"Chiudo la parentesi e torno al punto.\" With slides: \"Come vedete in questa slide...\" (\"diapositiva\" is the formal word).",
           "Spoken Italian rhetoric loves the rhetorical question that the speaker answers at once: \"Che cosa significa tutto questo? Significa che...\" It also loves triads: \"più veloce, più economico, più giusto\". Use them sparingly; one strong triad is memorable, three in a row sound like an advertisement.",
           "Remember that listeners can't reread. Repeat your key idea in different words at least twice, and prefer short sentences with the main verb early. A sentence that is elegant on paper, with two subordinate clauses before the verb, gets lost in the air.",
+          "Use the inclusive \"noi\" to walk the audience through the talk with you: \"Come abbiamo visto\", \"Vedremo tra poco\", \"Torneremo su questo punto\". Back-references use the imperfect, \"Come dicevo prima...\", which sounds more natural than \"come ho detto\" in the middle of a talk. For slides, Italian says \"in questa slide\" or \"in questa diapositiva\" and \"nel grafico a sinistra\"; to point at a detail, \"Vi faccio notare...\" or \"Notate che...\".",
         ],
         examples: [
           { es: "Passiamo ora al secondo punto.", en: "Let's move on to the second point." },
@@ -56,7 +57,7 @@ export const IT_C2_U17: Lesson[] = [
       {
         heading: "Closing strongly",
         body: [
-          "Signal the end clearly: \"Per concludere...\", \"Avviandomi alla conclusione...\", \"Riassumendo...\". Then return to the hook or the main idea in one sentence. A favourite device: \"Se dovessi lasciarvi con un'unica idea, sarebbe questa:...\" It gives the audience the one line they will repeat at dinner.",
+          "Signal the end clearly: \"Per concludere...\", \"Avviandomi alla conclusione...\", \"Riassumendo...\". Then return to the hook or the main idea in one sentence. A favorite device: \"Se dovessi lasciarvi con un'unica idea, sarebbe questa:...\" It gives the audience the one line they will repeat at dinner.",
           "Close with thanks and an open door: \"Vi ringrazio per l'attenzione.\" \"Sono a disposizione per eventuali domande.\" Note \"eventuali\": any questions that may arise, a false friend of English ‘eventual’. Don't add \"Questo è tutto\": it sounds abrupt in Italian.",
           "Timing matters as much as words. If you are running late, say so and cut gracefully: \"Visto il tempo, salto alcuni dettagli e vado alle conclusioni.\" Italians are used to long talks, but they always appreciate a speaker who respects the schedule.",
           "Delivery is part of the language. Italian intonation rises through a list and falls on the last item; pause before the key word rather than after it; and look at the audience at the end of each sentence, not at the slide. Slow down for numbers and names, which listeners need to catch the first time.",
@@ -101,14 +102,14 @@ export const IT_C2_U17: Lesson[] = [
         heading: "Conceding to win",
         body: [
           "A good debater concedes before rebutting: it shows fairness and makes the counterattack stronger. \"È vero che..., ma...\", \"Non nego che...; tuttavia...\", \"Su questo le do ragione, però...\". The concession is real but brief; the weight of the sentence falls on what follows \"ma\" or \"tuttavia\".",
-          "More formal concessions use the subjunctive: \"Sebbene sia vero che i costi sono alti, i benefici sono maggiori.\" \"Ammettiamo pure che abbia ragione lei: resta il problema del finanziamento.\" \"Pur riconoscendo che...\" uses the gerund and is very common in political debate.",
+          "More formal concessions use the subjunctive: \"Sebbene sia vero che i costi sono alti, i benefici sono maggiori.\" \"Ammettiamo pure che abbia ragione lei: resta il problema del finanziamento.\" \"Pur riconoscendo che...\" uses the gerund and is very common in political debate. The gerund shares the subject of the main clause: \"Pur riconoscendo l'impegno del governo, giudico deludenti i risultati\", not *...i risultati sono deludenti, a dangling construction that careful editors correct.",
           "Don't concede too much. \"Ha perfettamente ragione\" followed by a rebuttal sounds contradictory. Prefer partial agreement: \"In parte sono d'accordo\", \"Fino a un certo punto\", \"Il problema esiste, ma la soluzione che propone non funziona.\"",
         ],
         examples: [
           { es: "È vero che i costi sono alti, ma i benefici sono maggiori.", en: "It's true that costs are high, but the benefits are greater." },
           { es: "Su questo le do ragione, però il punto è un altro.", en: "I grant you that, but the point is a different one." },
           { es: "Ammettiamo pure che abbia ragione lei: resta il problema del finanziamento.", en: "Let's suppose you're right: the problem of funding remains." },
-          { es: "Pur riconoscendo l'impegno del governo, i risultati sono deludenti.", en: "While recognising the government's efforts, the results are disappointing." },
+          { es: "Pur riconoscendo l'impegno del governo, giudico deludenti i risultati.", en: "While recognizing the government's efforts, I find the results disappointing." },
           { es: "Fino a un certo punto sono d'accordo.", en: "I agree up to a point." },
         ],
         checkpoint: [
@@ -121,9 +122,10 @@ export const IT_C2_U17: Lesson[] = [
         heading: "Rebuttal",
         body: [
           "To disagree firmly but politely: \"Mi permetta di dissentire\", \"Non sono affatto d'accordo\", \"Qui non la seguo\". To attack the logic: \"Il suo ragionamento non regge\", \"Lei confonde la causa con l'effetto\", \"Questo non dimostra niente\". To attack the evidence: \"I dati dicono il contrario\", \"Da dove prende questi numeri?\"",
-          "Italian debate has its own idioms. \"È proprio qui che casca l'asino\" means here is the weak point; \"Lei sta girando intorno al problema\" means you're beating about the bush; \"Non mescoliamo le carte in tavola\" means let's not confuse the issue. One well-placed idiom shows complete command; five sound rehearsed.",
+          "Italian debate has its own idioms. \"È proprio qui che casca l'asino\" means here is the weak point; \"Lei sta girando intorno al problema\" means you're beating around the bush; \"Non cambiamo le carte in tavola\" means let's not move the goalposts, or change our story halfway through. One well-placed idiom shows complete command; five sound rehearsed.",
           "When your opponent distorts your view, say so clearly: \"Non ho mai detto questo\", \"Lei mi mette in bocca parole che non ho detto\". Then restate your position in one sentence: \"Ho detto un'altra cosa, e cioè che...\"",
           "Rebuttal needs evidence. Introduce it with \"Basta guardare...\", \"Prendiamo il caso di...\" or \"Lo dimostra il fatto che...\". A concrete case persuades more than a general principle, and it is much harder for your opponent to dismiss.",
+          "Three constructions shift the focus elegantly. \"Non è che\" + subjunctive softens a disagreement while still signaling it: \"Non è che io sia contrario, ma...\". \"Non tanto... quanto\" moves the problem: \"Il punto non è tanto il costo quanto la qualità.\" And \"anzi\" turns a claim around: \"Non è un costo, anzi: è un investimento.\" Each lets you redefine the question instead of just answering it.",
         ],
         examples: [
           { es: "Mi permetta di dissentire.", en: "Allow me to disagree." },
@@ -163,10 +165,10 @@ export const IT_C2_U17: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "You're confusing cause and effect.", answer: "Lei confonde la causa con l'effetto.", altAnswers: ["Confonde la causa con l'effetto.", "Lei sta confondendo la causa con l'effetto.", "Stai confondendo la causa con l'effetto."], explanation: "\"Confondere X con Y\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I never said that.", answer: "Non ho mai detto questo.", altAnswers: ["Non l'ho mai detto.", "Io non ho mai detto questo.", "Non ho mai detto una cosa simile."], explanation: "Correct a distortion at once." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Let's get back to the subject.", answer: "Torniamo al tema.", altAnswers: ["Torniamo all'argomento.", "Restiamo sul tema.", "Torniamo al punto."], explanation: "\"Tema\" or \"argomento\" = topic." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[While recognising] the government's efforts, the results are disappointing.", sentence: "___ l'impegno del governo, i risultati sono deludenti.", answer: "Pur riconoscendo", explanation: "\"Pur\" + gerund = while, although." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[While recognizing] the government's efforts, I find the results disappointing.", sentence: "___ l'impegno del governo, giudico deludenti i risultati.", answer: "Pur riconoscendo", explanation: "\"Pur\" + gerund = while, although. The gerund takes the subject of the main clause, so the main clause must be about the speaker (\"giudico\"), not about \"i risultati\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Although it is true] that prices have fallen, wages haven't risen.", sentence: "___ che i prezzi sono scesi, i salari non sono aumentati.", answer: "Sebbene sia vero", altAnswers: ["Benché sia vero", "Anche se è vero"], explanation: "\"Sebbene\" + subjunctive." },
       { type: "word-order", prompt: "Put the words in order to say: This is exactly where the argument falls down.", words: ["È", "proprio", "qui", "che", "casca", "l'asino."], translation: "This is exactly where the argument falls down.", explanation: "Cleft sentence + idiom." },
-      { type: "multiple-choice", question: "\"Non mescoliamo le carte in tavola\" means ...", options: ["Let's not confuse the issue.", "Let's play cards.", "Let's start again.", "Let's put our cards on the table."], correctIndex: 0, explanation: "Don't mix things up to mislead." },
+      { type: "multiple-choice", question: "\"Non cambiamo le carte in tavola\" means ...", options: ["Let's not move the goalposts.", "Let's play cards.", "Let's start again.", "Let's put our cards on the table."], correctIndex: 0, explanation: "\"Cambiare le carte in tavola\" = to shift your position or the terms of a discussion while pretending nothing has changed." },
       { type: "dictation", audio: "Mi scusi se la interrompo, ma questo dato è sbagliato.", explanation: "Polite interruption with \"Lei\"." },
       { type: "speak", text: "Su questo le do ragione, però il punto è un altro: chi paga?", prompt: "Concede and rebut aloud: I grant you that, but the point is a different one: who pays?", tip: "Stress \"però\" and pause before \"chi paga\".", explanation: "Concession + rebuttal in one breath." },
     ],
@@ -185,6 +187,7 @@ export const IT_C2_U17: Lesson[] = [
           "Native speakers don't answer instantly either; they fill the gap with words that sound natural. \"Allora...\", \"Dunque...\", \"Vediamo un po'...\", \"Bella domanda\", \"Come dire...\", \"Diciamo che...\" give you two or three seconds without silence. For a longer pause: \"Mi lasci pensare un attimo.\"",
           "Another trick is to repeat or reframe the question: \"Se le piace vivere in città? Mah, dipende da cosa intendiamo per città.\" Reframing buys time and shows thought. The interjection \"mah\" signals doubt or a nuanced answer; \"beh\" introduces an obvious or slightly reluctant point.",
           "Avoid the learner's habit of filling every pause with \"ehm\" or with English ‘so’ and ‘like’. \"Cioè\" and \"tipo\" are the Italian equivalents, but at C2 you should use them as natives do in relaxed speech, not as nervous fillers in a formal answer.",
+          "Each discourse marker has its own job. \"Allora\" and \"dunque\" open; \"insomma\" sums up, sometimes with a hint of impatience (\"Insomma, non è semplice\"); \"comunque\" brings you back after a digression (\"Comunque, tornando alla domanda...\"); \"ecco\" lands the point you were looking for (\"Ecco, questo è il punto\"). Used in their proper places, they make an improvised answer sound planned.",
         ],
         examples: [
           { es: "Bella domanda. Diciamo che dipende dai punti di vista.", en: "Good question. Let's say it depends on your point of view." },
@@ -202,20 +205,20 @@ export const IT_C2_U17: Lesson[] = [
       {
         heading: "Instant structure",
         body: [
-          "With no time to plan, use a ready-made shape. The simplest is opinion, reason, example, conclusion: \"Secondo me..., perché... Per esempio... Quindi...\". It fits almost any question in under a minute and sounds organised even when you invented it on the spot.",
+          "With no time to plan, use a ready-made shape. The simplest is opinion, reason, example, conclusion: \"Secondo me..., perché... Per esempio... Quindi...\". It fits almost any question in under a minute and sounds organized even when you invented it on the spot.",
           "Other shapes: two sides (\"Da un lato..., dall'altro...\"), time (\"Una volta..., oggi..., in futuro...\"), or scale (\"Per me personalmente..., per la mia città..., per il paese...\"). Choose the shape in the first second, then fill it.",
           "Close every improvised answer with a short return to your opinion: \"Ecco perché, tutto sommato, sono favorevole.\" \"Tutto sommato\" (all things considered) is the perfect hinge between the discussion and the verdict.",
-          "Practise the shapes with random topics: pick a word (\"il traffico\", \"la scuola\", \"i social\") and speak for sixty seconds using one shape. After a week the shapes become automatic, and your mind is free to look for the right words.",
+          "Practice the shapes with random topics: pick a word (\"il traffico\", \"la scuola\", \"i social\") and speak for sixty seconds using one shape. After a week the shapes become automatic, and your mind is free to look for the right words.",
         ],
         examples: [
           { es: "Secondo me sì, perché il lavoro da remoto fa risparmiare tempo.", en: "In my opinion, yes, because remote work saves time." },
           { es: "Da un lato è comodo, dall'altro isola le persone.", en: "On the one hand it's convenient, on the other it isolates people." },
           { es: "Una volta si scrivevano lettere; oggi si mandano messaggi vocali.", en: "People used to write letters; today they send voice messages." },
-          { es: "Ecco perché, tutto sommato, sono favorevole.", en: "That's why, all things considered, I'm in favour." },
+          { es: "Ecco perché, tutto sommato, sono favorevole.", en: "That's why, all things considered, I'm in favor." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "On the one hand it's convenient, on the other it isolates people.", answer: "Da un lato è comodo, dall'altro isola le persone.", altAnswers: ["Da una parte è comodo, dall'altra isola le persone.", "Da un lato è comodo, dall'altro lato isola le persone."], explanation: "\"Da un lato... dall'altro\"." },
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "That's why, all things considered, I'm in favour.", answer: "Ecco perché, tutto sommato, sono favorevole.", altAnswers: ["Per questo, tutto sommato, sono favorevole.", "Ecco perché, tutto sommato, sono a favore."], explanation: "\"Tutto sommato\" = all things considered." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "That's why, all things considered, I'm in favor.", answer: "Ecco perché, tutto sommato, sono favorevole.", altAnswers: ["Per questo, tutto sommato, sono favorevole.", "Ecco perché, tutto sommato, sono a favore."], explanation: "\"Tutto sommato\" = all things considered." },
         ],
       },
       {
@@ -224,17 +227,17 @@ export const IT_C2_U17: Lesson[] = [
           "Everyone slips. Correct yourself quickly and move on: \"anzi\", \"cioè\", \"volevo dire\", \"mi correggo\". \"Sono arrivato martedì, anzi mercoledì.\" A clean self-correction sounds native; a long apology for the mistake doesn't.",
           "When a word won't come, describe it: \"quella cosa che si usa per...\", \"una specie di...\", \"come si chiama... quello strumento per misurare la febbre\". Or name the category: \"un attrezzo da cucina\". You can also say honestly, \"Non mi viene la parola\": it is what natives say too.",
           "Finally, if you lose the thread entirely: \"Dove ero rimasto? Ah, sì...\" or \"Torno un attimo indietro.\" The audience forgives a lost thread if you find it again calmly.",
-          "Remember that fluency is not speed. A calm speaker who pauses at the end of each idea sounds more competent than one who rushes and repairs constantly. Breathe at the full stops, not in the middle of a phrase.",
+          "Remember that fluency is not speed. A calm speaker who pauses at the end of each idea sounds more competent than one who rushes and repairs constantly. Breathe at the periods, not in the middle of a phrase.",
         ],
         examples: [
           { es: "Sono arrivato martedì, anzi mercoledì.", en: "I arrived on Tuesday, I mean Wednesday." },
           { es: "Non mi viene la parola.", en: "The word escapes me." },
           { es: "È una specie di pentola per cuocere a vapore.", en: "It's a sort of pot for steaming food." },
-          { es: "Dove ero rimasto? Ah, sì, parlavo dei trasporti.", en: "Where was I? Ah yes, I was talking about transport." },
+          { es: "Dove ero rimasto? Ah, sì, parlavo dei trasporti.", en: "Where was I? Ah yes, I was talking about transportation." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I arrived on Tuesday, I mean Wednesday.", answer: "Sono arrivato martedì, anzi mercoledì.", altAnswers: ["Sono arrivata martedì, anzi mercoledì.", "Sono arrivato martedì, cioè mercoledì.", "Sono arrivata martedì, cioè mercoledì."], explanation: "\"Anzi\" corrects on the spot." },
-          { type: "word-order", prompt: "Put the words in order to say: Where was I? Ah yes, I was talking about transport.", words: ["Dove", "ero", "rimasto?", "Ah", "sì,", "parlavo", "dei", "trasporti."], translation: "Where was I? Ah yes, I was talking about transport.", explanation: "\"Dove ero rimasto?\" = where was I?" },
+          { type: "word-order", prompt: "Put the words in order to say: Where was I? Ah yes, I was talking about transportation.", words: ["Dove", "ero", "rimasto?", "Ah", "sì,", "parlavo", "dei", "trasporti."], translation: "Where was I? Ah yes, I was talking about transportation.", explanation: "\"Dove ero rimasto?\" = where was I?" },
           { type: "dictation", audio: "Non mi viene la parola: è una specie di pentola per cuocere a vapore.", explanation: "Circumlocution when a word is missing." },
         ],
       },
@@ -245,12 +248,12 @@ export const IT_C2_U17: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "The word escapes me.", answer: "Non mi viene la parola.", altAnswers: ["Mi sfugge la parola.", "Non mi viene in mente la parola."], explanation: "What natives say too." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's a sort of pot for steaming food.", answer: "È una specie di pentola per cuocere a vapore.", altAnswers: ["È un tipo di pentola per cuocere a vapore.", "È una specie di pentola per la cottura a vapore."], explanation: "\"Una specie di\" for circumlocution." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "People used to write letters; today they send voice messages.", answer: "Una volta si scrivevano lettere; oggi si mandano messaggi vocali.", altAnswers: ["Una volta si scrivevano lettere, oggi si mandano messaggi vocali.", "Una volta la gente scriveva lettere; oggi manda messaggi vocali.", "Prima si scrivevano lettere; oggi si mandano vocali."], explanation: "Impersonal \"si\" in a then/now shape." },
-      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[All things considered], I'm in favour.", sentence: "___, sono favorevole.", answer: "Tutto sommato", altAnswers: ["Tutto considerato"], explanation: "The hinge to the verdict." },
+      { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[All things considered], I'm in favor.", sentence: "___, sono favorevole.", answer: "Tutto sommato", altAnswers: ["Tutto considerato"], explanation: "The hinge to the verdict." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[Let's see]... I'd say yes.", sentence: "___... direi di sì.", answer: "Vediamo un po'", altAnswers: ["Vediamo"], explanation: "\"Un po'\" with an apostrophe." },
       { type: "word-order", prompt: "Put the words in order to say: Let me think for a moment.", words: ["Mi", "lasci", "pensare", "un", "attimo."], translation: "Let me think for a moment.", explanation: "Formal request for time." },
       { type: "multiple-choice", question: "Which is the cleanest self-correction?", options: ["Sono le sei, anzi le sette.", "Sono le sei, scusate tanto, ho sbagliato, sono le sette.", "Sono le sei. No. Sì. Le sette.", "Sono le sei, sorry, le sette."], correctIndex: 0, explanation: "One word, \"anzi\", and move on." },
-      { type: "listen-choose", audio: "Mah, guardi, così su due piedi è difficile rispondere, ma direi che tutto sommato sono favorevole.", question: "What is the speaker's final position?", options: ["In favour, on balance", "Against", "No opinion at all", "Will answer later"], correctIndex: 0, explanation: "\"Così su due piedi\" = off the cuff; \"tutto sommato\" = on balance." },
-      { type: "speak", text: "Bella domanda. Diciamo che da un lato è comodo, dall'altro isola le persone. Tutto sommato, sono favorevole.", prompt: "Improvise a short answer aloud: Good question. Let's say on the one hand it's convenient, on the other it isolates people. All things considered, I'm in favour.", tip: "Keep a steady pace; don't rush the hinges.", explanation: "Time-buyer + two sides + verdict." },
+      { type: "listen-choose", audio: "Mah, guardi, così su due piedi è difficile rispondere, ma direi che tutto sommato sono favorevole.", question: "What is the speaker's final position?", options: ["In favor, on balance", "Against", "No opinion at all", "Will answer later"], correctIndex: 0, explanation: "\"Così su due piedi\" = off the cuff; \"tutto sommato\" = on balance." },
+      { type: "speak", text: "Bella domanda. Diciamo che da un lato è comodo, dall'altro isola le persone. Tutto sommato, sono favorevole.", prompt: "Improvise a short answer aloud: Good question. Let's say on the one hand it's convenient, on the other it isolates people. All things considered, I'm in favor.", tip: "Keep a steady pace; don't rush the hinges.", explanation: "Time-buyer + two sides + verdict." },
     ],
   },
   {
@@ -288,16 +291,17 @@ export const IT_C2_U17: Lesson[] = [
           "You won't always have the answer. Defer: \"Non ho i dati sottomano, ma posso farglieli avere.\" Redirect: \"Esula un po' dal tema di oggi, ma ne parliamo volentieri dopo.\" Or admit it: \"Onestamente non lo so\", \"Non sono la persona più indicata per rispondere.\" Honesty costs nothing and protects your credibility.",
           "If a question is really a comment, thank the person and add one line: \"Grazie, è un'osservazione utile; aggiungerei solo che...\" No need to pretend there was a question to answer.",
           "Formal Italian softens refusals with the conditional: \"Preferirei non entrare nei dettagli\", \"Non saprei dirle con precisione\", \"Direi che è prematuro parlarne\". They are polite ways of saying no, and native listeners understand them as such.",
+          "Watch the pronouns of the \"Lei\" form under pressure: \"La ringrazio\" (direct object), \"Le rispondo subito\" and \"Le faccio avere i dati\" (indirect object), \"glieli mando domani\" (\"Le\" + \"li\" becomes \"glieli\"). When a group has asked, switch to \"vi\": \"Vi rispondo per ordine.\" Getting these forms right in a fast exchange is one of the clearest signs of control.",
         ],
         examples: [
           { es: "In breve: sì. Il motivo principale è il costo.", en: "In short: yes. The main reason is cost." },
-          { es: "Non ho i dati sottomano, ma posso farglieli avere.", en: "I don't have the figures to hand, but I can get them to you." },
+          { es: "Non ho i dati sottomano, ma posso farglieli avere.", en: "I don't have the figures on hand, but I can get them to you." },
           { es: "Esula un po' dal tema di oggi.", en: "That's a little outside today's topic." },
           { es: "Onestamente non lo so.", en: "Honestly, I don't know." },
           { es: "Grazie, è un'osservazione utile.", en: "Thank you, that's a useful comment." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I don't have the figures to hand, but I can get them to you.", answer: "Non ho i dati sottomano, ma posso farglieli avere.", altAnswers: ["Non ho i dati a portata di mano, ma posso farglieli avere.", "Non ho i numeri sottomano, ma posso farglieli avere.", "Non ho i dati sottomano, ma posso mandarglieli."], explanation: "\"Farglieli avere\" = gli + li, to you (Lei)." },
+          { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "I don't have the figures on hand, but I can get them to you.", answer: "Non ho i dati sottomano, ma posso farglieli avere.", altAnswers: ["Non ho i dati a portata di mano, ma posso farglieli avere.", "Non ho i numeri sottomano, ma posso farglieli avere.", "Non ho i dati sottomano, ma posso mandarglieli."], explanation: "\"Farglieli avere\" = gli + li, to you (Lei)." },
           { type: "word-order", prompt: "Put the words in order to say: That's a little outside today's topic.", words: ["Esula", "un", "po'", "dal", "tema", "di", "oggi."], translation: "That's a little outside today's topic.", explanation: "\"Esulare da\" = to fall outside." },
           { type: "listen-choose", audio: "Onestamente non lo so, e non sono la persona più indicata per rispondere. Le consiglio di chiedere al collega di statistica.", question: "What does the speaker do?", options: ["Admits not knowing and redirects", "Gives a detailed answer", "Refuses to talk", "Asks for the question again"], correctIndex: 0, explanation: "Admit + redirect." },
         ],
@@ -432,7 +436,7 @@ export const IT_C2_U17: Lesson[] = [
         body: [
           "Ferri reframes: \"Nessuno propone di imporla per legge dall'oggi al domani. Si tratta di sperimentare settore per settore.\" She corrects a misunderstanding before it spreads; \"dall'oggi al domani\" means overnight.",
           "Gentile spots the weak point: \"E qui casca l'asino: le sperimentazioni le fanno sempre le grandi aziende, che hanno margini che noi ci sogniamo.\" Note the dislocation \"le sperimentazioni le fanno\" and the colloquial \"che noi ci sogniamo\", margins we can only dream of.",
-          "Ferri proposes a solution: \"Proprio per questo servirebbero incentivi pubblici per le piccole imprese.\" Gentile closes the trap: \"Incentivi pagati da chi? Dai contribuenti, cioè anche da noi.\" The repeated question form makes his scepticism clear.",
+          "Ferri proposes a solution: \"Proprio per questo servirebbero incentivi pubblici per le piccole imprese.\" Gentile closes the trap: \"Incentivi pagati da chi? Dai contribuenti, cioè anche da noi.\" The repeated question form makes his skepticism clear.",
           "Notice how each speaker uses the other's words. Gentile repeats \"sperimentazioni\" to turn Ferri's evidence against her; Ferri takes up his worry about small firms to build her proposal. Picking up the opponent's words is a hallmark of skilled debate.",
         ],
         examples: [
@@ -452,7 +456,7 @@ export const IT_C2_U17: Lesson[] = [
         body: [
           "The moderator asks for a final line each: \"Chiudiamo con una battuta ciascuno.\" Here \"battuta\" means a short remark, not a joke.",
           "Ferri: \"Il tempo libero non è un lusso: è una condizione della produttività.\" Gentile: \"Sono d'accordo in linea di principio, ma la realtà delle piccole imprese è un'altra.\" Both end with a contrast; Gentile's \"in linea di principio\" (in principle) concedes the idea while rejecting its application.",
-          "When you summarise a debate, report positions with precise verbs: \"Ferri sostiene che...\", \"Gentile obietta che...\", \"Ferri ribatte che...\", \"Entrambi riconoscono che...\". \"Obiettare\" and \"ribattere\" capture the back-and-forth that a simple \"dice\" would lose.",
+          "When you summarize a debate, report positions with precise verbs: \"Ferri sostiene che...\", \"Gentile obietta che...\", \"Ferri ribatte che...\", \"Entrambi riconoscono che...\". \"Obiettare\" and \"ribattere\" capture the back-and-forth that a simple \"dice\" would lose.",
         ],
         examples: [
           { es: "Chiudiamo con una battuta ciascuno.", en: "Let's close with a final remark from each of you." },
@@ -484,13 +488,13 @@ export const IT_C2_U17: Lesson[] = [
     level: "IT-C2",
     number: 7,
     title: "Dialogue Lab: A Radio Interview",
-    summary: "Answer as the guest on an invented radio programme about your book on Italy's small railway stations: short, vivid answers, anecdotes and polite corrections.",
+    summary: "Answer as the guest on an invented radio program about your book on Italy's small railway stations: short, vivid answers, anecdotes and polite corrections.",
     duration: "19 min",
     sections: [
       {
         heading: "On air",
         body: [
-          "You are the guest on \"Parole in onda\", an invented evening programme. The host opens: \"Buonasera e benvenuti. Il nostro ospite stasera ha scritto un libro sulle piccole stazioni italiane. Benvenuto!\" You answer: \"Buonasera a lei e grazie dell'invito.\" \"A lei\" returns the greeting; \"grazie dell'invito\" is the standard thanks.",
+          "You are the guest on \"Parole in onda\", an invented evening program. The host opens: \"Buonasera e benvenuti. Il nostro ospite stasera ha scritto un libro sulle piccole stazioni italiane. Benvenuto!\" You answer: \"Buonasera a lei e grazie dell'invito.\" \"A lei\" returns the greeting; \"grazie dell'invito\" is the standard thanks.",
           "Radio answers must be short and concrete: thirty seconds, one image, one idea. Many Italian guests open with \"Guardi,...\" (formal) to start a considered answer: \"Guardi, l'idea è nata quasi per caso.\" It sounds natural and gives you a breath.",
           "Tell stories, not lists. \"Una sera ho perso l'ultimo treno a Borgo San Lorenzo e ho passato tre ore in sala d'attesa con il capostazione\" is better radio than \"Le stazioni sono importanti per tre motivi.\" The anecdote carries the argument.",
           "Listen for the host's cues. \"In breve...\" or \"Abbiamo un minuto\" means a short answer is needed; \"Ci racconti...\" invites a story. A guest who ignores the clock is rarely invited back.",
@@ -700,12 +704,12 @@ export const IT_C2_U17: Lesson[] = [
         ],
         examples: [
           { es: "Una città senza abitanti non è più una città, è un museo a cielo aperto.", en: "A city without residents is no longer a city, it's an open-air museum." },
-          { es: "Propongo di regolare gli affitti brevi, non di chiudere le porte.", en: "I'm proposing to regulate short-term lets, not to close the doors." },
+          { es: "Propongo di regolare gli affitti brevi, non di chiudere le porte.", en: "I'm proposing to regulate short-term rentals, not to close the doors." },
           { es: "Sono a disposizione per eventuali domande.", en: "I'm happy to take any questions." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "A city without residents is no longer a city, it's an open-air museum.", answer: "Una città senza abitanti non è più una città, è un museo a cielo aperto.", altAnswers: ["Una città senza residenti non è più una città, è un museo a cielo aperto.", "Una città senza abitanti non è più una città: è un museo a cielo aperto."], explanation: "\"A cielo aperto\" = open-air." },
-          { type: "word-order", prompt: "Put the words in order to say: I'm proposing to regulate short-term lets.", words: ["Propongo", "di", "regolare", "gli", "affitti", "brevi."], translation: "I'm proposing to regulate short-term lets.", explanation: "\"Proporre di\" + infinitive." },
+          { type: "word-order", prompt: "Put the words in order to say: I'm proposing to regulate short-term rentals.", words: ["Propongo", "di", "regolare", "gli", "affitti", "brevi."], translation: "I'm proposing to regulate short-term rentals.", explanation: "\"Proporre di\" + infinitive." },
         ],
       },
     ],
@@ -728,7 +732,7 @@ export const IT_C2_U17: Lesson[] = [
     level: "IT-C2",
     number: 10,
     title: "CILS QUATTRO: Speaking",
-    summary: "Practise the kind of tasks found in the CILS QUATTRO speaking test: a conversation with the examiner and a monologue on a topic, with C2 language for opinions and nuance.",
+    summary: "Practice the kind of tasks found in the CILS QUATTRO speaking test: a conversation with the examiner and a monologue on a topic, with C2 language for opinions and nuance.",
     duration: "19 min",
     sections: [
       {
@@ -742,12 +746,12 @@ export const IT_C2_U17: Lesson[] = [
           { es: "Mi scusi, potrebbe ripetere la domanda?", en: "Excuse me, could you repeat the question?" },
           { es: "Se ho ben capito, mi chiede di confrontare le due posizioni.", en: "If I've understood correctly, you're asking me to compare the two positions." },
           { es: "È una questione su cui ho riflettuto spesso.", en: "It's an issue I've often thought about." },
-          { es: "Non ho una posizione netta, ma propendo per la seconda ipotesi.", en: "I don't have a clear-cut position, but I lean towards the second option." },
+          { es: "Non ho una posizione netta, ma propendo per la seconda ipotesi.", en: "I don't have a clear-cut position, but I lean toward the second option." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Excuse me, could you repeat the question?", answer: "Mi scusi, potrebbe ripetere la domanda?", altAnswers: ["Scusi, potrebbe ripetere la domanda?", "Mi scusi, può ripetere la domanda?"], explanation: "Formal and polite." },
           { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "It's an issue I've often thought about.", answer: "È una questione su cui ho riflettuto spesso.", altAnswers: ["È una questione a cui ho pensato spesso.", "È una questione sulla quale ho riflettuto spesso.", "È un tema su cui ho riflettuto spesso."], explanation: "\"Riflettere su\" → \"su cui\"." },
-          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I don't have a clear-cut position, but [I lean towards] the second option.", sentence: "Non ho una posizione netta, ma ___ la seconda ipotesi.", answer: "propendo per", explanation: "\"Propendere per\" = to lean towards." },
+          { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "I don't have a clear-cut position, but [I lean toward] the second option.", sentence: "Non ho una posizione netta, ma ___ la seconda ipotesi.", answer: "propendo per", explanation: "\"Propendere per\" = to lean toward." },
         ],
       },
       {
@@ -761,7 +765,7 @@ export const IT_C2_U17: Lesson[] = [
         examples: [
           { es: "Si tratta di una questione complessa, che non ammette risposte semplici.", en: "It's a complex issue that doesn't allow simple answers." },
           { es: "Da un lato è innegabile che i social abbiano dato voce a molti.", en: "On the one hand it's undeniable that social media have given many people a voice." },
-          { es: "Dall'altro non si può ignorare che abbiano favorito la polarizzazione.", en: "On the other, we can't ignore that they have encouraged polarisation." },
+          { es: "Dall'altro non si può ignorare che abbiano favorito la polarizzazione.", en: "On the other, we can't ignore that they have encouraged polarization." },
           { es: "Alla luce di quanto detto, ritengo che serva più educazione ai media.", en: "In the light of what I've said, I believe more media education is needed." },
           { es: "Qualcuno potrebbe obiettare che la censura è peggio; a questo risponderei che...", en: "Someone might object that censorship is worse; to that I would reply that..." },
         ],
@@ -791,7 +795,7 @@ export const IT_C2_U17: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If I've understood correctly, you're asking me to compare the two positions.", answer: "Se ho ben capito, mi chiede di confrontare le due posizioni.", altAnswers: ["Se ho capito bene, mi chiede di confrontare le due posizioni.", "Se ho ben capito, lei mi chiede di confrontare le due posizioni."], explanation: "Checking the task." },
-      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "On the other, we can't ignore that they have encouraged polarisation.", answer: "Dall'altro non si può ignorare che abbiano favorito la polarizzazione.", altAnswers: ["Dall'altro lato non si può ignorare che abbiano favorito la polarizzazione.", "Dall'altro, non si può ignorare che abbiano favorito la polarizzazione."], explanation: "\"Ignorare che\" + subjunctive." },
+      { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "On the other, we can't ignore that they have encouraged polarization.", answer: "Dall'altro non si può ignorare che abbiano favorito la polarizzazione.", altAnswers: ["Dall'altro lato non si può ignorare che abbiano favorito la polarizzazione.", "Dall'altro, non si può ignorare che abbiano favorito la polarizzazione."], explanation: "\"Ignorare che\" + subjunctive." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "If I were a teacher, I'd introduce an hour of media education.", answer: "Se fossi un insegnante, introdurrei un'ora di educazione ai media.", altAnswers: ["Se fossi un'insegnante, introdurrei un'ora di educazione ai media.", "Se fossi insegnante, introdurrei un'ora di educazione ai media."], explanation: "Second-type hypothesis." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "In my view, the truth lies somewhere in the middle.", answer: "A mio avviso, la verità sta nel mezzo.", altAnswers: ["Secondo me, la verità sta nel mezzo.", "A mio parere, la verità sta nel mezzo.", "A mio avviso la verità sta nel mezzo."], explanation: "\"A mio avviso\": formal." },
       { type: "translate", direction: "en-es", prompt: "Translate into Italian.", source: "Perhaps I expressed myself too bluntly.", answer: "Forse mi sono espresso in modo troppo netto.", altAnswers: ["Forse mi sono espressa in modo troppo netto.", "Forse mi sono espresso in maniera troppo netta.", "Forse mi sono espressa in maniera troppo netta."], explanation: "Reformulating under challenge." },
@@ -800,7 +804,7 @@ export const IT_C2_U17: Lesson[] = [
       { type: "word-order", prompt: "Put the words in order to say: To that I would reply that the problem is education.", words: ["A", "questo", "risponderei", "che", "il", "problema", "è", "l'educazione."], translation: "To that I would reply that the problem is education.", explanation: "Refuting a counter-argument." },
       { type: "multiple-choice", question: "The examiner says: \"Non le sembra una posizione ingenua?\" The best reply begins ...", options: ["Capisco l'obiezione. Forse...", "No, assolutamente no!", "Lei non ha capito.", "Non lo so."], correctIndex: 0, explanation: "Acknowledge, then nuance." },
       { type: "dictation", audio: "Si tratta di una questione complessa, che non ammette risposte semplici.", explanation: "A C2 opening frame." },
-      { type: "speak", text: "Si tratta di una questione complessa. Da un lato è innegabile che i social abbiano dato voce a molti; dall'altro non si può ignorare che abbiano favorito la polarizzazione.", prompt: "Begin your monologue aloud: It's a complex issue. On the one hand it's undeniable that social media have given many people a voice; on the other, we can't ignore that they have encouraged polarisation.", tip: "Mark the two halves with a pause at the semicolon.", explanation: "A balanced opening for the monologue." },
+      { type: "speak", text: "Si tratta di una questione complessa. Da un lato è innegabile che i social abbiano dato voce a molti; dall'altro non si può ignorare che abbiano favorito la polarizzazione.", prompt: "Begin your monologue aloud: It's a complex issue. On the one hand it's undeniable that social media have given many people a voice; on the other, we can't ignore that they have encouraged polarization.", tip: "Mark the two halves with a pause at the semicolon.", explanation: "A balanced opening for the monologue." },
     ],
   },
 ];
