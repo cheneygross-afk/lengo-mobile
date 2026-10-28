@@ -391,7 +391,7 @@ export const KO_A1_U10: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I'm turning off my phone.",
         answer: "핸드폰을 꺼요.",
-        altAnswers: ["핸드폰 꺼요.", "휴대폰을 꺼요.", "휴대폰 꺼요.", "제 핸드폰을 꺼요."],
+        altAnswers: ["저는 핸드폰을 꺼요.", "핸드폰 꺼요.", "휴대폰을 꺼요.", "휴대폰 꺼요.", "제 핸드폰을 꺼요."],
         explanation: "끄 + 어요 → 꺼요. 끄다 is an action verb, so the phone takes 을.",
       },
       {
@@ -437,7 +437,7 @@ export const KO_A1_U10: Lesson[] = [
         heading: "ㅂ becomes 우: 맵다 → 매워요",
         body: [
           "A large group of describing verbs has a stem ending in ㅂ: 맵다 'to be spicy', 춥다 'to be cold', 덥다 'to be hot'. Before 아요 / 어요 the ㅂ turns into 우, and 우 + 어 merges into 워: 맵 → 매우 + 어요 → 매워요. So 'It's spicy' is 매워요, never *맵어요.",
-          "These words always come out as 워요, whatever the vowel before: 추워요, 더워요, 쉬워요 'it's easy', 어려워요 'it's difficult', 귀여워요 'it's cute', and even 가깝다 → 가까워요 'it's close', where you might expect 아.",
+          "These words almost always come out as 워요, whatever the vowel before: 추워요, 더워요, 쉬워요 'it's easy', 어려워요 'it's difficult', 귀여워요 'it's cute', and even 가깝다 → 가까워요 'it's close', where you might expect 아.",
         ],
         examples: [
           { es: "김치가 매워요.", en: "The kimchi is spicy." },
@@ -623,7 +623,7 @@ export const KO_A1_U10: Lesson[] = [
         heading: "아주, 정말, 진짜, 너무",
         body: [
           "Degree words go right before the describing verb: 아주 비싸요 'it's very expensive'. 아주 is neutral, 정말 'really' is warmer, and 진짜 is the spoken 'really, for real', common in everyday 해요 speech but too casual for writing.",
-          "너무 means 'too': 너무 비싸요 'it's too expensive'. In everyday speech Koreans also use it for 'so, really' with good things: 너무 맛있어요 'it's so good'. The situation and the speaker's face tell you which. English speakers often put the degree word last, as in *비싸요 너무; it belongs before the verb.",
+          "너무 means 'too': 너무 비싸요 'it's too expensive'. In everyday speech Koreans also use it for 'so, really' with good things: 너무 맛있어요 'it's so good'. The situation and the speaker's face tell you which. English speakers often put the degree word last (비싸요 너무); in a plain sentence it belongs right before the verb: 너무 비싸요.",
         ],
         examples: [
           { es: "아주 맛있어요.", en: "It's very tasty." },
@@ -645,9 +645,9 @@ export const KO_A1_U10: Lesson[] = [
           {
             type: "multiple-choice",
             question: "A bag you like is way over your budget. How do you say 'It's too expensive'?",
-            options: ["너무 비싸요.", "별로 비싸요.", "너무 비싸이에요.", "비싸요 너무."],
+            options: ["너무 비싸요.", "별로 비싸요.", "너무 비싸이에요.", "너무 비싸어요."],
             correctIndex: 0,
-            explanation: "너무 'too' goes before the verb, and 비싸요 needs no 이에요. 별로 only works with a negative.",
+            explanation: "너무 'too' goes before the verb, and 비싸요 needs no 이에요. 비싸 + 아요 merges into 비싸요 (*비싸어요 has the wrong vowel), and 별로 only works with a negative.",
           },
         ],
       },
@@ -655,7 +655,7 @@ export const KO_A1_U10: Lesson[] = [
         heading: "조금 / 좀, and 별로 + negative",
         body: [
           "조금 'a little' softens: 조금 매워요 'it's a bit spicy'. In speech it shrinks to 좀: 좀 비싸요. Koreans use 좀 constantly to sound less blunt.",
-          "별로 means 'not particularly', and it only works with a negative: 별로 안 매워요 'it's not very spicy', 별로 재미없어요 'it's not that fun'. *별로 비싸요 is the typical English-speaker mistake, because 별로 sounds like 'very'. The order is 별로, then 안, then the verb.",
+          "별로 means 'not particularly', and it only works with a negative: 별로 안 매워요 'it's not very spicy', 별로 재미없어요 'it's not that fun'. *별로 비싸요 is the typical English-speaker mistake: English 'not very' puts the 'not' elsewhere, so learners forget the 안. The order is 별로, then 안, then the verb.",
         ],
         examples: [
           { es: "좀 매워요.", en: "It's a bit spicy." },
@@ -1496,7 +1496,7 @@ export const KO_A1_U10: Lesson[] = [
         en: "The kalguksu [isn't very spicy].",
         sentence: "칼국수는 ___.",
         answer: "별로 안 매워요",
-        explanation: "별로 + 안 + 매워요. 별로 always needs a negative.",
+        explanation: "별로 + 안 + 매워요. Used for 'not very', 별로 needs a negative verb.",
       },
       {
         type: "multiple-choice",
@@ -1623,9 +1623,9 @@ export const KO_A1_U10: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which sentence correctly says 'This watch is expensive'?",
-            options: ["이 시계는 비싸요.", "이 시계는 비싸이에요.", "이 시계를 비싸요.", "비싸요 이 시계."],
+            options: ["이 시계는 비싸요.", "이 시계는 비싸이에요.", "이 시계를 비싸요.", "이 시계는 비싸어요."],
             correctIndex: 0,
-            explanation: "비싸요 already means 'is expensive', takes 은 / 는 or 이 / 가, and comes last.",
+            explanation: "비싸요 already means 'is expensive' and takes 은 / 는 or 이 / 가. 비싸 + 아요 merges into 비싸요, so *비싸어요 has the wrong vowel.",
           },
           {
             type: "translate",

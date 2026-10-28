@@ -260,7 +260,7 @@ export const KO_A2_U08: Lesson[] = [
         heading: "The regular ones: 입어요, 좁아요, 잡아요, 씹어요",
         body: [
           "Not every ㅂ verb changes. 입다 'to wear', 좁다 'to be narrow', 잡다 'to catch, hold' and 씹다 'to chew' are regular: 입어요, 좁아요, 잡아요, 씹어요, 입었어요, 좁으니까. Nothing in the dictionary form tells you, so learn the regulars as a short list.",
-          "A rough guide: describing verbs in ㅂ are almost all irregular (좁다 is the everyday exception), while action verbs like 입다, 잡다, 씹다 are regular. Saying *입워요 or *좁아워요 sounds as odd to Koreans as 'I goed' does to you.",
+          "A rough guide: describing verbs in ㅂ are almost all irregular (좁다 is the everyday exception), while many action verbs like 입다, 잡다, 씹다 are regular (but 눕다 → 누워요 and 굽다 'grill' → 구워요 change). Saying *입워요 or *좁아워요 sounds as odd to Koreans as 'I goed' does to you.",
         ],
         examples: [
           { es: "오늘은 청바지를 입었어요.", en: "I wore jeans today." },
@@ -541,7 +541,7 @@ export const KO_A2_U08: Lesson[] = [
             sentence: "내일은 ___.",
             answer: "춥겠습니다",
             altAnswers: ["추울 겁니다", "추울 것입니다", "춥습니다"],
-            explanation: "-습니다 starts with a consonant, so ㅂ stays: 춥습니다; forecasts use 춥겠습니다.",
+            explanation: "-습니다 starts with a consonant, so ㅂ stays: 춥습니다; forecasts use 춥겠습니다, as in Unit 1's weather report.",
           },
           {
             type: "fill-blank",
@@ -853,7 +853,7 @@ export const KO_A2_U08: Lesson[] = [
       {
         heading: "Before consonants, and the regular ㄷ verbs",
         body: [
-          "Before a consonant ending the ㄷ stays: 듣고, 걷고, 걷습니다, 묻지 마세요. And many ㄷ verbs are fully regular: 받다 'to receive' → 받아요, 닫다 'to close' → 닫아요, 믿다 'to believe' → 믿어요. As with ㅂ, the dictionary form doesn't warn you; learn the four irregulars (듣다, 걷다, 묻다, 싣다) and treat the rest as regular.",
+          "Before a consonant ending the ㄷ stays: 듣고, 걷고, 걷습니다, 묻지 마세요. And many ㄷ verbs are fully regular: 받다 'to receive' → 받아요, 닫다 'to close' → 닫아요, 믿다 'to believe' → 믿어요. As with ㅂ, the dictionary form doesn't warn you; learn the four common irregulars (듣다, 걷다, 묻다, 싣다) and, for now, treat the rest as regular.",
         ],
         examples: [
           { es: "매일 한 시간씩 걷습니다.", en: "I walk an hour every day. (formal)" },
@@ -1057,7 +1057,7 @@ export const KO_A2_U08: Lesson[] = [
       {
         heading: "The regular ones: 웃어요, 씻어요, 벗어요",
         body: [
-          "Most ㅅ verbs are regular: 웃다 'to laugh, smile' → 웃어요, 씻다 'to wash' → 씻어요, 벗다 'to take off' → 벗어요. Dropping their ㅅ (*우어요, *씨어요) is the mirror-image mistake. Learn the four irregulars, 낫다, 짓다, 붓다 and 젓다, and treat the others as regular.",
+          "Most ㅅ verbs are regular: 웃다 'to laugh, smile' → 웃어요, 씻다 'to wash' → 씻어요, 벗다 'to take off' → 벗어요. Dropping their ㅅ (*우어요, *씨어요) is the mirror-image mistake. Learn the four irregulars, 낫다, 짓다, 붓다 and 젓다 (잇다 'connect' → 이어요 is one more you'll meet later), and treat the others as regular.",
         ],
         examples: [
           { es: "아이가 웃어요.", en: "The child is laughing." },
@@ -2500,6 +2500,6 @@ export const KO_A2_U08_WRITING: WriteExercise = {
     "Uses a ㄷ irregular correctly (e.g. 걸어서, 들었어요, 물어봤어요, 걸을 수 있어요; never 걷어서 or 듣었어요)",
     "Links ideas with -아서 / -(으)니까 and states an obligation with -아야 돼요 (e.g. 하루에 세 번 약을 먹어야 돼요)",
   ],
-  modelAnswer: "지은 씨, 지난주에 도와줘서 정말 고마워요. 날씨가 너무 추워서 감기에 걸렸어요. 목이 많이 부었어요. 그래서 약국에 걸어서 갔어요. 약을 하루에 세 번 먹어야 돼요. 그리고 따뜻한 물을 많이 마셨어요. 이제 감기가 다 나았어요. 지은 씨가 요즘 바쁘니까 다음 주에는 제가 도울 수 있어요. 언제든지 말해 주세요!",
-  explanation: "추워서 and 도와줘서 turn ㅂ into 우 / 오 before a vowel; 부었어요 and 나았어요 drop ㅅ without contracting; 걸어서 turns ㄷ into ㄹ; 도울 수 있어요 puts 우 in place of 으; 먹어야 돼요 states what you have to do; 바쁘니까 gives the reason for your offer.",
+  modelAnswer: "지은 씨, 지난주에 도와줘서 정말 고마워요. 날씨가 너무 추워서 감기에 걸렸어요. 목이 많이 부었어요. 그래서 약국에 걸어서 갔어요. 약을 하루에 세 번 먹어야 했어요. 그리고 따뜻한 물을 많이 마셨어요. 이제 감기가 다 나았어요. 지은 씨가 요즘 바쁘니까 다음 주에는 제가 도울 수 있어요. 언제든지 말해 주세요!",
+  explanation: "추워서 and 도와줘서 turn ㅂ into 우 / 오 before a vowel; 부었어요 and 나았어요 drop ㅅ without contracting; 걸어서 turns ㄷ into ㄹ; 도울 수 있어요 puts 우 in place of 으; 먹어야 했어요 states what you had to do; 바쁘니까 gives the reason for your offer.",
 };

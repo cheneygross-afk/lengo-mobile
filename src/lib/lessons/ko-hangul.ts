@@ -1530,7 +1530,7 @@ export const KO_HANGUL_LESSONS: Lesson[] = [
       {
         heading: "ㅐ and ㅔ: two letters, one sound",
         body: [
-          "ㅐ looks like ㅏ with an extra line, and ㅔ like ㅓ with one. They used to be two different sounds, but in Seoul today both are said like the 'e' in 'bed'. So 개 (dog) and 게 (crab) sound exactly the same.",
+          "ㅐ looks like ㅏ with an extra line, and ㅔ like ㅓ with one. They used to be two different sounds, but most Seoul speakers today say both like the 'e' in 'bed'. So 개 (dog) and 게 (crab) sound the same.",
           "Koreans tell them apart by context, and you learn the spelling with each word, the way English speakers learn 'there' and 'their'. Watch the everyday pairs 네 (yes) and 내 (my), 세 (three) and 새 (bird).",
           "From now on there are no Latin letters. When a word is said differently from its spelling, the spoken form follows in brackets: 시계 [시게].",
         ],
@@ -1746,7 +1746,7 @@ export const KO_HANGUL_LESSONS: Lesson[] = [
         heading: "ㅢ: three readings",
         body: [
           "ㅢ is ㅡ + ㅣ: say 으 and slide quickly to 이. That full sound is used at the start of a word: 의사 (doctor), 의자 (chair).",
-          "After a consonant, or later in a word, ㅢ is said [이]: 희망 (hope) [히망], 회의 (meeting) [회이]. When 의 means 'of' or ''s', it's said [에]: 저의 (my) [저에].",
+          "After a consonant, or later in a word, ㅢ is said [이]: 희망 (hope) [히망], 회의 (meeting) [회이]. When 의 means 'of' (like English 's), it's usually said [에]: 저의 (my) [저에].",
         ],
         examples: [
           { es: "의사", en: "doctor" },
@@ -2323,7 +2323,7 @@ export const KO_HANGUL_LESSONS: Lesson[] = [
         heading: "English in Korean letters",
         body: [
           "Many Korean words come from English, spelled with Korean sounds. Korean has no f, v or th, and one letter, ㄹ, for both r and l. So 'f' becomes ㅍ (커피, coffee), 'v' becomes ㅂ (비디오, video), and both 'r' and 'l' become ㄹ (호텔, hotel; 카메라, camera).",
-          "Read them as Korean, not as English: 커피 has a plain Korean 커, not an English 'caw'.",
+          "Read them as Korean, not as English: 커피 has the Korean open ㅓ, not an English 'caw'.",
         ],
         examples: [
           { es: "커피", en: "coffee" },
@@ -2822,8 +2822,8 @@ export const KO_HANGUL_LESSONS: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "A latte, please.",
         answer: "라떼 주세요.",
-        altAnswers: ["라떼 하나 주세요.", "라떼 한 잔 주세요."],
-        explanation: "라떼 is spelled with the tense ㄸ. Add 주세요 to order.",
+        altAnswers: ["라떼 하나 주세요.", "라떼 한 잔 주세요.", "라테 주세요.", "라테 하나 주세요.", "라테 한 잔 주세요."],
+        explanation: "Café menus write 라떼, with the tense ㄸ; the dictionary spelling is 라테, and both are accepted. Add 주세요 to order.",
       },
       {
         type: "translate",

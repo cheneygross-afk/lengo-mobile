@@ -59,7 +59,7 @@ export const KO_A1_U02: Lesson[] = [
         heading: "뭐예요?: what is it?",
         body: [
           "To ask what something is, put 뭐예요? after the pointing word: 이거 뭐예요? Korean doesn't move words around to make a question. The question word sits exactly where the answer will go: 이거 뭐예요? → 이거 우산이에요.",
-          "In speech nothing comes between 이거 and 뭐예요: no particle is needed. The answer just swaps 뭐 for the noun, with 이에요 or 예요 chosen by the last letter, as in Unit 1.",
+          "In speech you can put 뭐예요 straight after 이거 with no particle (you'll also hear 이게 뭐예요?). The answer just swaps 뭐 for the noun, with 이에요 or 예요 chosen by the last letter, as in Unit 1.",
         ],
         examples: [
           { es: "이거 뭐예요?", en: "What's this?" },
@@ -836,7 +836,7 @@ export const KO_A1_U02: Lesson[] = [
         heading: "Sound focus: 의 said [에]",
         body: [
           "The vowel ㅢ has three pronunciations. At the start of a word it is a true [의], gliding from ㅡ to ㅣ: 의자 'chair', 의사 'doctor'. But the particle 의 is normally said [에]: 민수 씨의 [민수 씨에], 친구의 책 [친구에 책], 저의 [저에].",
-          "So when you hear [에] between an owner and a thing, think 의. It is still always spelled 의: writing 에 for it is a common mistake, and 에 is a different particle (Unit 7).",
+          "So when you hear [에] between an owner and a thing, think 의. It is still always spelled 의: writing 에 for it is a common mistake, and 에 is a different particle (Unit 5).",
         ],
         examples: [
           { es: "친구의 책", en: "a friend's book [친구에 책]" },
@@ -1832,7 +1832,7 @@ export const KO_A1_U02: Lesson[] = [
           { es: "검은색 가방이에요.", en: "It's a black bag." },
           { es: "파란색 우산이에요.", en: "It's a blue umbrella." },
           { es: "빨간색 지갑이에요.", en: "It's a red wallet." },
-                  ],
+        ],
         checkpoint: [
           {
             type: "translate",

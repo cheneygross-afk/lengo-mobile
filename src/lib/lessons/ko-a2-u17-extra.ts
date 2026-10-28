@@ -33,8 +33,8 @@ export const KO_A2_U17_EXTRA: Lesson[] = [
             prompt: "Translate into Korean.",
             source: "At Chuseok I gave my parents a gift set.",
             answer: "추석에 부모님께 선물 세트를 드렸어요.",
-            altAnswers: ["추석에 부모님한테 선물 세트를 드렸어요.", "추석에 부모님께 선물 세트 드렸어요.", "추석 때 부모님께 선물 세트를 드렸어요."],
-            explanation: "Parents receive: 께 + 드렸어요. 선물 세트 (spam, fruit, shampoo) is the classic 추석 present.",
+            altAnswers: ["추석에 부모님한테 선물 세트를 드렸어요.", "추석에 부모님께 선물 세트 드렸어요.", "추석 때 부모님께 선물 세트를 드렸어요.", "저는 추석에 부모님께 선물 세트를 드렸어요.", "추석에 제가 부모님께 선물 세트를 드렸어요."],
+            explanation: "Parents receive: 께 + 드렸어요. 선물 세트 (canned ham, fruit, shampoo) is the classic 추석 present.",
           },
           {
             type: "fill-blank",
@@ -54,7 +54,7 @@ export const KO_A2_U17_EXTRA: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I gave my niece some pocket money.",
         answer: "조카한테 용돈을 줬어요.",
-        altAnswers: ["조카에게 용돈을 줬어요.", "조카한테 용돈 줬어요.", "조카한테 용돈을 주었어요."],
+        altAnswers: ["조카에게 용돈을 줬어요.", "조카한테 용돈 줬어요.", "조카한테 용돈을 주었어요.", "저는 조카한테 용돈을 줬어요.", "제가 조카한테 용돈을 줬어요."],
         explanation: "A niece is younger: plain 줬어요.",
       },
       {
@@ -284,8 +284,8 @@ export const KO_A2_U17_EXTRA: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into Korean (to your grandmother).",
         source: "Shall I turn up the volume on the TV for you?",
-        answer: "TV 소리 좀 키워 드릴까요?",
-        altAnswers: ["TV 소리 키워 드릴까요?", "티비 소리 좀 키워 드릴까요?", "텔레비전 소리 좀 키워 드릴까요?", "티비 소리 키워 드릴까요?", "텔레비전 소리 키워 드릴까요?"],
+        answer: "텔레비전 소리 좀 키워 드릴까요?",
+        altAnswers: ["TV 소리 좀 키워 드릴까요?", "TV 소리 키워 드릴까요?", "티비 소리 좀 키워 드릴까요?", "티브이 소리 좀 키워 드릴까요?", "티비 소리 키워 드릴까요?", "텔레비전 소리 키워 드릴까요?"],
         explanation: "키우다 'turn up' → 키워 + 드릴까요?",
       },
       {

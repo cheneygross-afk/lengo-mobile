@@ -301,7 +301,7 @@ export const KO_A1_U10_EXTRA: Lesson[] = [
         en: "It's [not very] cold today.",
         sentence: "오늘은 ___ 추워요.",
         answer: "별로 안",
-        explanation: "별로 always comes with a negative: 별로 안 추워요.",
+        explanation: "For 'not very', 별로 comes with a negative verb: 별로 안 추워요.",
       },
       {
         type: "translate",

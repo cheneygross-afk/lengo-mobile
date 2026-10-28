@@ -13,7 +13,7 @@ export const KO_HANGUL_GUIDES: KoGrammarGuide[] = [
     level: "Hangul",
     intro: [
       `Hangul is an alphabet, not a set of pictures and not a syllabary. Each letter stands for one sound, and the letters are grouped into square blocks of one syllable each: 한 is ㅎ + ㅏ + ㄴ, 글 is ㄱ + ㅡ + ㄹ. Once you can read the 24 basic letters and the way they combine, you can sound out any word in the language, including words you have never seen.`,
-      `The alphabet was designed on purpose, in the 1440s under King Sejong, and the design still shows. The basic consonants draw the mouth that says them (ㄱ is the back of the tongue touching the soft palate, ㄴ the tip of the tongue on the ridge behind the teeth, ㅁ the closed lips, ㅅ a tooth, ㅇ the open throat), and adding a stroke adds breath: ㄱ → ㅋ, ㄷ → ㅌ, ㅂ → ㅍ, ㅈ → ㅊ.`,
+      `The alphabet was designed on purpose, in the 1440s under King 세종, and the design still shows. The basic consonants draw the mouth that says them (ㄱ is the back of the tongue touching the soft palate, ㄴ the tip of the tongue on the ridge behind the teeth, ㅁ the closed lips, ㅅ a tooth, ㅇ the open throat), and adding a stroke adds breath: ㄱ → ㅋ, ㄷ → ㅌ, ㅂ → ㅍ, ㅈ → ㅊ.`,
     ],
     sections: [
       {
@@ -386,7 +386,7 @@ export const KO_HANGUL_GUIDES: KoGrammarGuide[] = [
       {
         heading: `7. ㄴ insertion and the 사이시옷`,
         body: [
-          `In a compound or a phrase whose second part starts with 이, 야, 여, 요 or 유, and whose first part ends in a consonant, an [ㄴ] is added: 무슨 일 [무슨닐], 담요 [담뇨], 한여름 [한녀름], 시청역 [시청녁], 색연필 [생년필] (the [ㄴ] also nasalises the ㄱ). After ㄹ the added sound becomes [ㄹ]: 서울역 [서울력], 할 일 [할릴], 물약 [물략].`,
+          `In a compound or a phrase whose second part starts with 이, 야, 여, 요 or 유, and whose first part ends in a consonant, an [ㄴ] is usually added (not in every word: 금요일 is [그묘일]): 무슨 일 [무슨닐], 담요 [담뇨], 한여름 [한녀름], 시청역 [시청녁], 색연필 [생년필] (the [ㄴ] also nasalises the ㄱ). After ㄹ the added sound becomes [ㄹ]: 서울역 [서울력], 할 일 [할릴], 물약 [물략].`,
           `The 사이시옷 is an ㅅ written at the bottom of the first part of some native compounds (바닷가, 햇빛, 콧물, 깻잎, 나뭇잎). It shows that the compound is said with a tense or added sound: before a plain consonant it tenses it (바닷가 [바다까], 햇빛 [해삗]); before ㄴ or ㅁ it becomes [ㄴ] (콧물 [콘물], 뱃머리 [밴머리]); before 이 it becomes [ㄴㄴ] (깻잎 [깬닙], 나뭇잎 [나문닙]). The course teaches the first standard pronunciation; [바닫까] and [핻삗] are also standard.`,
         ],
         examples: [
@@ -433,7 +433,7 @@ export const KO_HANGUL_GUIDES: KoGrammarGuide[] = [
       {
         wrong: "연락 [연낙]",
         right: "연락 [열락]",
-        why: `ㄴ and ㄹ next to each other become [ㄹㄹ].`,
+        why: `ㄴ and ㄹ next to each other usually become [ㄹㄹ]; only a few Sino-Korean words with a suffix go to [ㄴㄴ] (의견란 [의견난]).`,
       },
       {
         wrong: "할께요",

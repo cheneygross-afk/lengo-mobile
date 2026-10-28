@@ -221,7 +221,7 @@ export const KO_A1_U06: Lesson[] = [
             prompt: "Translate into Korean.",
             source: "I live in Seoul.",
             answer: "저는 서울에 살아요.",
-            altAnswers: ["서울에 살아요."],
+            altAnswers: ["서울에 살아요.", "저는 서울에서 살아요.", "서울에서 살아요."],
             explanation: "살다: the stem 살 has ㅏ, so 아요: 살아요. Writing 살어요 is the classic slip.",
           },
           {
@@ -302,6 +302,7 @@ export const KO_A1_U06: Lesson[] = [
             prompt: "Translate into Korean.",
             source: "Seoyeon lives in Busan.",
             answer: "서연 씨는 부산에 살아요.",
+            altAnswers: ["서연 씨는 부산에서 살아요.", "서연 씨가 부산에 살아요."],
             explanation: "살아요 is the same for 'I live' and 'she lives'. 서연 씨는 makes Seoyeon the topic.",
           },
         ],
@@ -338,6 +339,7 @@ export const KO_A1_U06: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "Do you live in Seoul?",
         answer: "서울에 살아요?",
+        altAnswers: ["서울에서 살아요?"],
         explanation: "살아요 with a rising voice. No word for 'you' is needed.",
       },
       {
@@ -439,7 +441,7 @@ export const KO_A1_U06: Lesson[] = [
         heading: "ㅗ + 아 and ㅜ + 어 merge into one syllable",
         body: [
           "ㅗ and 아 fuse into ㅘ: 보다 → 봐요, 오다 → 와요. ㅜ and 어 fuse into ㅝ: 배우다 → 배워요, 주다 → 줘요. The vowel rule from lesson 2 still decides: ㅗ takes 아, ㅜ takes 어, and then they squeeze into one syllable.",
-          "In speech and normal writing the merged form is the only one you'll use. 보아요 and 배우어요 look logical but read like a spelling exercise.",
+          "In speech and normal writing the merged form is the one you'll use. The unmerged 보아요 and 배우어요 are allowed by the spelling rules but almost never used; they read like a spelling exercise.",
         ],
         examples: [
           { es: "영화를 봐요.", en: "I watch a film." },
@@ -471,7 +473,7 @@ export const KO_A1_U06: Lesson[] = [
         heading: "ㅣ + 어, 되 + 어, and 쉬어요",
         body: [
           "ㅣ and 어 fuse into ㅕ: 마시다 → 마셔요, 기다리다 → 기다려요. 되다 'to become, to be OK' turns 되 + 어 into 돼요. Never write 되 + 요 with nothing in between: the 어 is hiding inside 돼, which is why it has that extra stroke.",
-          "One verb refuses to merge: 쉬다 'to rest' is always 쉬어요.",
+          "Stems ending in ㅟ don't merge: 쉬다 'to rest' is always 쉬어요 (likewise 뛰다 'to run' → 뛰어요).",
         ],
         examples: [
           { es: "커피를 마셔요.", en: "I drink coffee." },
@@ -555,7 +557,7 @@ export const KO_A1_U06: Lesson[] = [
         source: "Today I'm resting.",
         answer: "오늘은 쉬어요.",
         altAnswers: ["저는 오늘 쉬어요.", "오늘 쉬어요.", "저는 오늘은 쉬어요."],
-        explanation: "쉬다 is the verb that never merges: always 쉬어요.",
+        explanation: "쉬다 never merges (ㅟ stems don't): always 쉬어요.",
       },
       {
         type: "matching",
@@ -895,7 +897,7 @@ export const KO_A1_U06: Lesson[] = [
             en: "Jieun [likes] films.",
             sentence: "지은 씨는 영화를 ___.",
             answer: "좋아해요",
-            explanation: "영화를 is an object, so the verb is 좋아해요. Talking about someone else's likes, Koreans use 좋아해요.",
+            explanation: "영화를 is an object, so the verb is 좋아해요. Talking about someone else's likes, Koreans usually use 좋아해요.",
           },
         ],
       },
@@ -1266,7 +1268,7 @@ export const KO_A1_U06: Lesson[] = [
           {
             type: "speak",
             text: "잘 먹었습니다.",
-            tip: "Say it as [잘 머거씀니다].",
+            tip: "Say it as [잘 머걷씀니다].",
             explanation: "After the meal, to the person who paid or cooked.",
           },
         ],
@@ -1482,7 +1484,7 @@ export const KO_A1_U06: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Korean for the bold words.",
-        en: "That's [OK]. (되다)",
+        en: "That [works]. (되다)",
         sentence: "그거 ___.",
         answer: "돼요",
         altAnswers: ["되어요"],
@@ -1597,12 +1599,12 @@ export const KO_A1_U06: Lesson[] = [
       {
         heading: "돼요 and 배워요",
         body: [
-          "되 + 요 written with nothing in between is the most common spelling slip in Korean, even among native speakers: the 어 must be there, merged into 돼요. *배우어요 → 배워요: ㅜ and 어 always merge in writing and speech.",
+          "되 + 요 written with nothing in between is the most common spelling slip in Korean, even among native speakers: the 어 must be there, merged into 돼요. 배우어요 is not a spelling error (the rules allow the unmerged form), but nobody writes or says it: use 배워요.",
         ],
         examples: [
           { es: "네, 돼요.", en: "Yes, that's fine." },
           { es: "카드 돼요?", en: "Can I pay by card?" },
-          { es: "요리를 배워요.", en: "I'm learning to cook. (not *배우어요)" },
+          { es: "요리를 배워요.", en: "I'm learning to cook. (more natural than 배우어요)" },
         ],
         checkpoint: [
           {
@@ -1615,11 +1617,11 @@ export const KO_A1_U06: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote 요리를 배우어요. Write it correctly: I'm learning to cook.",
+            prompt: "A learner wrote 요리를 배우어요, which sounds unnatural. Write it the way Koreans do: I'm learning to cook.",
             source: "I'm learning to cook.",
             answer: "요리를 배워요.",
             altAnswers: ["저는 요리를 배워요.", "요리 배워요."],
-            explanation: "배우 + 어요 merges into 배워요.",
+            explanation: "배우 + 어요 merges into 배워요; the unmerged 배우어요 is technically allowed but sounds like a textbook table.",
           },
         ],
       },
@@ -1718,9 +1720,9 @@ export const KO_A1_U06: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence has no mistake?",
-        options: ["친구를 기다려요.", "친구를 기다리어요.", "친구가 기다려요를.", "친구을 기다려요."],
+        options: ["친구를 기다려요.", "친구를 기다러요.", "친구가 기다려요를.", "친구을 기다려요."],
         correctIndex: 0,
-        explanation: "기다리 + 어요 → 기다려요; 친구 ends in a vowel, so 를.",
+        explanation: "기다리 + 어요 → 기다려요 (ㅣ + 어 = ㅕ, not ㅓ); 친구 ends in a vowel, so 를, and 를 never goes on the verb.",
       },
       {
         type: "listen-choose",

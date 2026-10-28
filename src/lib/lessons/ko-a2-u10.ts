@@ -509,6 +509,7 @@ export const KO_A2_U10: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "It's an expensive bag.",
         answer: "비싼 가방이에요.",
+        altAnswers: ["이거 비싼 가방이에요.", "이건 비싼 가방이에요."],
         explanation: "비싸다 → 비싼.",
       },
       {
@@ -561,6 +562,7 @@ export const KO_A2_U10: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "It's a heavy bag.",
         answer: "무거운 가방이에요.",
+        altAnswers: ["이거 무거운 가방이에요.", "이건 무거운 가방이에요."],
         explanation: "무겁다 → 무거운.",
       },
       {
@@ -638,6 +640,7 @@ export const KO_A2_U10: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "It's delicious kimchi stew.",
         answer: "맛있는 김치찌개예요.",
+        altAnswers: ["이거 맛있는 김치찌개예요.", "이건 맛있는 김치찌개예요."],
         explanation: "맛있다 → 맛있는 [마신는].",
       },
       {
@@ -654,6 +657,7 @@ export const KO_A2_U10: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "It's a difficult word.",
         answer: "어려운 단어예요.",
+        altAnswers: ["이거 어려운 단어예요.", "이건 어려운 단어예요."],
         explanation: "어렵다 → 어려운.",
       },
       {
@@ -938,7 +942,7 @@ export const KO_A2_U10: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I'm looking for a place that sells hanbok.",
         answer: "한복을 파는 곳을 찾고 있어요.",
-        altAnswers: ["한복 파는 곳을 찾고 있어요.", "한복 파는 곳 찾고 있어요.", "한복을 파는 가게를 찾고 있어요.", "한복 파는 가게를 찾고 있어요.", "한복을 파는 데를 찾고 있어요."],
+        altAnswers: ["한복 파는 곳을 찾고 있어요.", "한복 파는 곳 찾고 있어요.", "한복을 파는 가게를 찾고 있어요.", "한복 파는 가게를 찾고 있어요.", "한복을 파는 데를 찾고 있어요.", "저는 한복을 파는 곳을 찾고 있어요."],
         explanation: "팔다 → 파는 곳; 곳 is the object of 찾고 있어요, so it takes 을.",
       },
       {
@@ -1187,9 +1191,9 @@ export const KO_A2_U10: Lesson[] = [
         ],
       },
       {
-        heading: "이 / 가 inside, never 은 / 는",
+        heading: "이 / 가 inside, not 은 / 는",
         body: [
-          "The subject inside a clause takes 이 / 가, never 은 / 는: 제가 좋아하는 음식, not *저는 좋아하는 음식. 은 / 는 marks the topic of the whole sentence, and a clause is only part of it.",
+          "The subject inside a clause takes 이 / 가, not 은 / 는: 제가 좋아하는 음식, not *저는 좋아하는 음식. 은 / 는 marks the topic of the whole sentence, and a clause is only part of it (inside one, 은 / 는 appears only for a pointed contrast).",
           "That's why one sentence can have both: in 제가 좋아하는 가수는 아이유예요, 제가 belongs to the clause and 는 goes on the whole phrase 'the singer I like'. To a friend, use 내가: 내가 자주 가는 PC방.",
         ],
         examples: [
@@ -1284,7 +1288,7 @@ export const KO_A2_U10: Lesson[] = [
         sentence: "___ 만드는 김치가 정말 맛있어요.",
         answer: "엄마가",
         altAnswers: ["어머니가", "우리 엄마가"],
-        explanation: "The subject inside a clause takes 이 / 가, never 은 / 는: 엄마가 만드는 김치.",
+        explanation: "The subject inside a clause takes 이 / 가, not 은 / 는: 엄마가 만드는 김치.",
       },
       {
         type: "translate",
@@ -1897,7 +1901,7 @@ export const KO_A2_U10: Lesson[] = [
       {
         heading: "Clause order and particles",
         body: [
-          "*저는 좋아하는 음식 → 제가 좋아하는 음식: inside a clause the subject takes 이 / 가, never 은 / 는.",
+          "*저는 좋아하는 음식 → 제가 좋아하는 음식: inside a clause the subject takes 이 / 가, not the topic marker 은 / 는.",
           "*사람 누가 커피를 마셔요 → 커피를 마시는 사람: Korean has no 'who'. The clause ends in -는 and goes before the noun.",
         ],
         examples: [
@@ -2042,7 +2046,7 @@ export const KO_A2_U10: Lesson[] = [
             prompt: "Translate into Korean.",
             source: "I lost it on Line 2.",
             answer: "2호선에서 잃어버렸어요.",
-            altAnswers: ["이호선에서 잃어버렸어요.", "지하철 2호선에서 잃어버렸어요.", "지하철 이호선에서 잃어버렸어요."],
+            altAnswers: ["이호선에서 잃어버렸어요.", "지하철 2호선에서 잃어버렸어요.", "지하철 이호선에서 잃어버렸어요.", "저는 2호선에서 잃어버렸어요."],
             explanation: "에서 marks where it happened. 2호선 is read [이호선], with a Sino-Korean number.",
           },
           {
@@ -2134,7 +2138,7 @@ export const KO_A2_U10: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I lost my bag.",
         answer: "가방을 잃어버렸어요.",
-        altAnswers: ["제 가방을 잃어버렸어요.", "가방 잃어버렸어요."],
+        altAnswers: ["제 가방을 잃어버렸어요.", "가방 잃어버렸어요.", "저는 가방을 잃어버렸어요."],
         explanation: "잃어버리다 → 잃어버렸어요, said [이러버려써요].",
       },
       {
@@ -2192,7 +2196,7 @@ export const KO_A2_U10: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I lost it on Line 4 around three o'clock.",
         answer: "세 시쯤 4호선에서 잃어버렸어요.",
-        altAnswers: ["3시쯤 4호선에서 잃어버렸어요.", "세 시쯤 사호선에서 잃어버렸어요.", "3시쯤 사호선에서 잃어버렸어요.", "4호선에서 세 시쯤 잃어버렸어요.", "4호선에서 3시쯤 잃어버렸어요.", "사호선에서 세 시쯤 잃어버렸어요.", "사호선에서 3시쯤 잃어버렸어요."],
+        altAnswers: ["3시쯤 4호선에서 잃어버렸어요.", "세 시쯤 사호선에서 잃어버렸어요.", "3시쯤 사호선에서 잃어버렸어요.", "4호선에서 세 시쯤 잃어버렸어요.", "4호선에서 3시쯤 잃어버렸어요.", "사호선에서 세 시쯤 잃어버렸어요.", "사호선에서 3시쯤 잃어버렸어요.", "저는 세 시쯤 4호선에서 잃어버렸어요."],
         explanation: "Native number for the hour (세 시), Sino-Korean for the line (사호선).",
       },
       {
@@ -2307,7 +2311,7 @@ export const KO_A2_U10: Lesson[] = [
             prompt: "Translate into Korean (for the listing).",
             source: "I'm looking for someone who doesn't smoke.",
             answer: "담배를 안 피우는 사람을 찾고 있어요.",
-            altAnswers: ["담배를 피우지 않는 사람을 찾고 있어요.", "담배 안 피우는 사람을 찾고 있어요.", "담배를 안 피우는 분을 찾고 있어요.", "담배를 피우지 않는 분을 찾고 있어요.", "담배를 안 피우는 사람을 찾습니다.", "담배를 피우지 않는 사람을 찾습니다."],
+            altAnswers: ["담배를 피우지 않는 사람을 찾고 있어요.", "담배 안 피우는 사람을 찾고 있어요.", "담배를 안 피우는 분을 찾고 있어요.", "담배를 피우지 않는 분을 찾고 있어요.", "담배를 안 피우는 사람을 찾습니다.", "담배를 피우지 않는 사람을 찾습니다.", "저는 담배를 안 피우는 사람을 찾고 있어요."],
             explanation: "안 stays inside the clause: 안 피우는 사람. The long form 피우지 않는 works too.",
           },
           {

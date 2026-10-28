@@ -17,7 +17,7 @@ export const KO_A2_U06_EXTRA: Lesson[] = [
       {
         heading: "Possible, or learned?",
         body: [
-          "수 있다 covers anything possible: skills, time, rules, weather. 줄 알다 is only for a learned skill. When the situation is what stops you, it must be 수 없다; when in doubt, 수 있다 is the safe choice.",
+          "수 있다 covers anything possible: skills, time, rules, weather. 줄 알다 is only for a learned skill. When the situation is what stops you, use 수 없다 (or 못), never 줄 모르다; when in doubt, 수 있다 is the safe choice.",
         ],
         examples: [
           { es: "저는 자전거를 탈 줄 알아요.", en: "I know how to ride a bike." },
@@ -401,7 +401,7 @@ export const KO_A2_U06_EXTRA: Lesson[] = [
         type: "listen-choose",
         audio: "관리비",
         question: "What did you hear?",
-        options: ["관리비", "교통비", "간이비", "갈비"],
+        options: ["관리비", "교통비", "생활비", "갈비"],
         correctIndex: 0,
         explanation: "You hear [괄리비], but the word is spelled 관리비.",
       },
@@ -470,7 +470,7 @@ export const KO_A2_U06_EXTRA: Lesson[] = [
         source: "Gyeongju was the capital of Silla.",
         answer: "경주는 신라의 수도였어요.",
         altAnswers: ["경주는 신라 수도였어요.", "경주가 신라의 수도였어요."],
-        explanation: "신라 [실라]; 의 here is said [에].",
+        explanation: "신라 [실라]; 의 meaning 'of' is usually said [에].",
       },
       {
         type: "translate",
@@ -478,7 +478,7 @@ export const KO_A2_U06_EXTRA: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "Can you climb Hallasan?",
         answer: "한라산에 올라갈 수 있어요?",
-        altAnswers: ["한라산에 갈 수 있어요?", "한라산을 올라갈 수 있어요?"],
+        altAnswers: ["한라산에 갈 수 있어요?", "한라산을 올라갈 수 있어요?", "한라산에 오를 수 있어요?", "한라산을 오를 수 있어요?"],
         explanation: "한라산 [할라산]; 올라가다 'to go up' → 올라갈 수 있어요?.",
       },
       {

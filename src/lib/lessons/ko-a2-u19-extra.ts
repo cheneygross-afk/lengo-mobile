@@ -114,9 +114,9 @@ export const KO_A2_U19_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Your friend's phone goes straight to voicemail at 2 a.m. What's the most natural guess?",
-        options: ["자는 것 같아요.", "잘 것 같아요.", "자 보여요.", "잔 것 같아요."],
+        options: ["자는 것 같아요.", "잘 것 같아요.", "자 보여요.", "자 봐요."],
         correctIndex: 0,
-        explanation: "She is probably asleep right now: -는. 자 보여요 is not possible with an action verb.",
+        explanation: "She is probably asleep right now: -는. 잘 것 같아요 looks ahead, 자 보여요 is not possible with an action verb, and 자 봐요 means 'try sleeping'.",
       },
       {
         type: "listen-choose",
@@ -292,9 +292,9 @@ export const KO_A2_U19_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "You're looking at a photo of your friend's new flat. Which sentence fits?",
-        options: ["집이 넓어 보여요.", "집이 넓어 봐요.", "집이 넓는 것 같아요.", "집이 넓어 보이는 것 같아요."],
+        options: ["집이 넓어 보여요.", "집이 넓어 봐요.", "집이 넓는 것 같아요.", "집이 넓은 보여요."],
         correctIndex: 0,
-        explanation: "넓다 → 넓어 [널버] 보여요. 넓는 is a verb form, and the last one stacks two hedges.",
+        explanation: "넓다 → 넓어 [널버] 보여요. 넓어 봐요 means 'try being wide', 넓는 is a verb form, and 보이다 needs the -아 / 어 form, not the modifier 넓은.",
       },
       {
         type: "listen-choose",

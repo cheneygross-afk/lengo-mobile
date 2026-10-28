@@ -349,7 +349,7 @@ export const KO_A2_U20: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I don't want to get up on Monday mornings.",
         answer: "월요일 아침에는 일어나기 싫어요.",
-        altAnswers: ["월요일 아침에 일어나기 싫어요.", "월요일 아침에는 일어나기가 싫어요.", "월요일 아침마다 일어나기 싫어요."],
+        altAnswers: ["월요일 아침에 일어나기 싫어요.", "월요일 아침에는 일어나기가 싫어요.", "월요일 아침마다 일어나기 싫어요.", "저는 월요일 아침에는 일어나기 싫어요.", "저는 월요일 아침에 일어나기 싫어요."],
         explanation: "-기 싫어요 'I don't want to', a feeling about doing something.",
       },
       {
@@ -704,7 +704,7 @@ export const KO_A2_U20: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I couldn't go to work because of a cold.",
         answer: "감기 때문에 회사에 못 갔어요.",
-        altAnswers: ["감기 때문에 출근을 못 했어요.", "감기 때문에 출근 못 했어요.", "감기에 걸렸기 때문에 회사에 못 갔어요.", "감기에 걸려서 회사에 못 갔어요."],
+        altAnswers: ["저는 감기 때문에 회사에 못 갔어요.", "감기 때문에 출근을 못 했어요.", "감기 때문에 출근 못 했어요.", "감기에 걸렸기 때문에 회사에 못 갔어요.", "감기에 걸려서 회사에 못 갔어요."],
         explanation: "Noun + 때문에: 감기 때문에. With the verb: 감기에 걸렸기 때문에.",
       },
       {
@@ -1344,7 +1344,7 @@ export const KO_A2_U20: Lesson[] = [
         heading: "One reason, four sentences",
         body: [
           "Take one fact: you're busy. 바빠서 못 가요 is the neutral everyday 'because'. 바쁘니까 다음에 만나요 uses -(으)니까 because a suggestion follows. 바쁘기 때문에 회의에 참석할 수 없습니다 is the firm, written version, as in an email. 요즘 좀 바쁘거든요 is a separate sentence that gives a reason the listener didn't know.",
-          "Two rules settle most cases. Before a command or suggestion, only -(으)니까 works. For apologies and thanks, use -아서: 늦어서 죄송해요, 도와줘서 고마워요; *늦었기 때문에 죄송해요 sounds stiff and odd. And remember that -아서 never takes the past (*늦었어서), while -(으)니까 and -기 때문에 can.",
+          "Two rules settle most cases. Before a command or suggestion, only -(으)니까 works. For apologies and thanks, use -아서: 늦어서 죄송해요, 도와줘서 고마워요; 늦었기 때문에 죄송해요 is grammatical but sounds stiff and odd. And remember that -아서 never takes the past (*늦었어서), while -(으)니까 and -기 때문에 can.",
         ],
         examples: [
           { es: "바빠서 못 가요.", en: "I can't go because I'm busy." },
@@ -1369,7 +1369,7 @@ export const KO_A2_U20: Lesson[] = [
             source: "Sorry I'm late.",
             answer: "늦어서 죄송해요.",
             altAnswers: ["늦어서 미안해요.", "늦어서 죄송합니다.", "늦어서 미안합니다."],
-            explanation: "Apologies take -아서, with no past: 늦어서, not *늦었어서 or *늦었기 때문에.",
+            explanation: "Apologies take -아서, with no past: 늦어서, not *늦었어서; 늦었기 때문에 would sound stiff here.",
           },
         ],
       },
@@ -1572,7 +1572,7 @@ export const KO_A2_U20: Lesson[] = [
         heading: "것 and its particles",
         body: [
           "*보는 것를: 것 ends in a consonant, so it takes 을: 보는 것을, or 보는 걸 in speech. 거를 is heard in casual talk, but 걸 is the normal short form.",
-          "*요리하는 거를 좋아하는 거 같아요 about yourself: you know what you like, so hedging with 것 같아요 (Unit 19) sounds odd. Say 요리하는 걸 좋아해요.",
+          "요리하는 거를 좋아하는 거 같아요 about yourself isn't ungrammatical, but you know what you like, so hedging with 것 같아요 (Unit 19) sounds odd. Say 요리하는 걸 좋아해요.",
         ],
         examples: [
           { es: "영화 보는 것을 좋아해요.", en: "I like watching films." },
@@ -1861,7 +1861,7 @@ export const KO_A2_U20: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I'm busy these days, so I can't come next week.",
         answer: "요즘 바빠서 다음 주에 못 와요.",
-        altAnswers: ["요즘 바빠서 다음 주에는 못 와요.", "요즘 바쁘기 때문에 다음 주에 못 와요.", "요즘 바쁘기 때문에 다음 주에는 못 와요.", "요즘 바빠서 다음 주에 못 가요.", "요즘 바빠서 다음 주에는 못 가요."],
+        altAnswers: ["저는 요즘 바빠서 다음 주에 못 와요.", "요즘 바빠서 다음 주에는 못 와요.", "요즘 바쁘기 때문에 다음 주에 못 와요.", "요즘 바쁘기 때문에 다음 주에는 못 와요.", "요즘 바빠서 다음 주에 못 가요.", "요즘 바빠서 다음 주에는 못 가요."],
         explanation: "An everyday reason: 바빠서. -기 때문에 also works but sounds more formal.",
       },
       {
@@ -1901,7 +1901,7 @@ export const KO_A2_U20: Lesson[] = [
             prompt: "Translate into Korean.",
             source: "I started baking bread three years ago.",
             answer: "삼 년 전부터 빵을 만들기 시작했어요.",
-            altAnswers: ["3년 전부터 빵을 만들기 시작했어요.", "삼 년 전에 빵을 만들기 시작했어요.", "3년 전에 빵을 만들기 시작했어요.", "삼 년 전부터 빵 만들기 시작했어요.", "3년 전부터 빵 만들기 시작했어요."],
+            altAnswers: ["저는 삼 년 전부터 빵을 만들기 시작했어요.", "3년 전부터 빵을 만들기 시작했어요.", "삼 년 전에 빵을 만들기 시작했어요.", "3년 전에 빵을 만들기 시작했어요.", "삼 년 전부터 빵 만들기 시작했어요.", "3년 전부터 빵 만들기 시작했어요."],
             explanation: "만들기 시작했어요 'started making'. Years are Sino-Korean: 삼 년 (3년).",
           },
           {

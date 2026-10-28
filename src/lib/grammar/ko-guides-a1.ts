@@ -196,7 +196,7 @@ export const KO_A1_GUIDES: KoGrammarGuide[] = [
       {
         wrong: "누구는 민수 씨예요?",
         right: "누가 민수 씨예요?",
-        why: `A question word can't be a topic, because the topic is something already known. Question words take 이 / 가 (누구 + 가 = 누가).`,
+        why: `A question word asking for new information can't be the topic, because the topic is something already known. As the subject of a question it takes 이 / 가 (누구 + 가 = 누가).`,
       },
     ],
     faqs: [
@@ -279,11 +279,12 @@ export const KO_A1_GUIDES: KoGrammarGuide[] = [
         wrong: "저 책 좀 보여 주세요.",
         right: "그 책 좀 보여 주세요.",
         why: `Asking about the book in the listener's hand: something near the listener is 그, not 저. 저 is for things far from both of you.`,
+        register: true,
       },
       {
         wrong: "이는 제 친구예요.",
         right: "이 사람은 제 친구예요.",
-        why: `이 is not a pronoun on its own: it needs a noun after it. For people use 이 사람 or, politely, 이분.`,
+        why: `In speech 이 needs a noun after it. (Written 이는 'this' refers to a fact, never to a person.) For people use 이 사람 or, politely, 이분.`,
       },
       {
         wrong: "누구가 왔어요?",
@@ -418,7 +419,7 @@ export const KO_A1_GUIDES: KoGrammarGuide[] = [
       {
         heading: `One to a billion`,
         body: [
-          `The digits are 일, 이, 삼, 사, 오, 육, 칠, 팔, 구, then 십 (10). Larger numbers are built like a calculator: 십일 (11), 이십 (20), 이십삼 (23), 백 (100), 천 (1,000), 만 (10,000). Don't put 일 before 십, 백, 천 or 만: 10,000 is 만, not *일만, and 100 is 백.`,
+          `The digits are 일, 이, 삼, 사, 오, 육, 칠, 팔, 구, then 십 (10). Larger numbers are built like a calculator: 십일 (11), 이십 (20), 이십삼 (23), 백 (100), 천 (1,000), 만 (10,000). Don't put 일 before 십, 백, 천 or 만 in speech: 10,000 is 만 and 100 is 백 (일만 appears only in very formal writing, such as on cheques).`,
           `The key unit is 만. Korean counts up to 9,999 and then starts counting in 만: 20,000 is 이만, 100,000 is 십만, 1,000,000 is 백만, and 100,000,000 is 억. So 35,000 won is 삼만 오천 원 and 1,200,000 won is 백이십만 원. Nasalisation changes the sound of some combinations: 십만 [심만], 백만 [뱅만], 육만 [융만].`,
         ],
         table: {
@@ -460,7 +461,8 @@ export const KO_A1_GUIDES: KoGrammarGuide[] = [
       {
         wrong: "일만 원",
         right: "만 원",
-        why: `Don't say 일 before 십, 백, 천 or 만 when the number is just one of them.`,
+        why: `In speech Koreans don't say 일 before 십, 백, 천 or 만 when the number is just one of them. 일만 is limited to very formal writing.`,
+        register: true,
       },
       {
         wrong: "십천 원",
@@ -1085,7 +1087,7 @@ export const KO_A1_GUIDES: KoGrammarGuide[] = [
       {
         heading: `What doesn't take 안`,
         body: [
-          `Three verbs have their own negative partner instead: 있다 → 없다 (not 안 있다), 알다 → 모르다 (not 안 알다), and 이다 → 아니다 (학생이 아니에요). 재미있다 → 재미없다 and 맛있다 → 맛없다 follow 있다.`,
+          `Three verbs have their own negative partner instead: 있다 → 없다 (not 안 있다), 알다 → 모르다 (not 안 알다), and 이다 → 아니다 (학생이 아니에요). 재미있다 → 재미없다 and 맛있다 → 맛없다 usually follow 있다, though 안 맛있어요 is also common in speech.`,
         ],
         table: {
           headers: ["Positive", "Negative", "Not"],
@@ -1093,7 +1095,7 @@ export const KO_A1_GUIDES: KoGrammarGuide[] = [
             ["있어요", "없어요", "안 있어요"],
             ["알아요", "몰라요", "안 알아요"],
             ["학생이에요", "학생이 아니에요", "안 학생이에요"],
-            ["맛있어요", "맛없어요", "안 맛있어요"],
+            ["재미있어요", "재미없어요", "(안 재미있어요 is heard, but less usual)"],
           ],
         },
         examples: [
@@ -1106,7 +1108,8 @@ export const KO_A1_GUIDES: KoGrammarGuide[] = [
       {
         wrong: "안 공부해요.",
         right: "공부 안 해요.",
-        why: `With noun + 하다 verbs, 안 goes before 하다.`,
+        why: `With noun + 하다 verbs, 안 goes before 하다. 안 공부해요 is understood and some people say it, but it is not standard and sounds foreign.`,
+        register: true,
       },
       {
         wrong: "저는 안 알아요.",
@@ -1121,7 +1124,8 @@ export const KO_A1_GUIDES: KoGrammarGuide[] = [
       {
         wrong: "못 공부해요.",
         right: "공부 못 해요.",
-        why: `못 follows the same placement rule as 안.`,
+        why: `못 follows the same placement rule as 안. 못 공부해요 is understood but sounds foreign.`,
+        register: true,
       },
     ],
     faqs: [
@@ -1131,7 +1135,7 @@ export const KO_A1_GUIDES: KoGrammarGuide[] = [
       },
       {
         q: `Is 못하다 one word or two?`,
-        a: `Both exist. 못 하다 (two words) is 'can't do'. 못하다 (one word) means 'to be bad at': 노래를 못해요 (I'm a bad singer). Likewise 잘하다 (be good at).`,
+        a: `Both exist. 못 하다 (two words) is 'can't do'. 못하다 (one word) means 'to be bad at': 노래를 못해요 (I'm a bad singer). Likewise 잘하다 (be good at). Strictly, lack of skill is written as one word (수영 못해요) and being prevented is spaced (오늘은 운동 못 해요); the early lessons space both so the 못 slot stays visible.`,
       },
     ],
     related: ["can-cant-and-long-negation", "polite-present-haeyo", "past-tense"],
@@ -1169,7 +1173,7 @@ export const KO_A1_GUIDES: KoGrammarGuide[] = [
       {
         heading: `When to use 이 / 가`,
         body: [
-          `Use 이 / 가 for something new in the conversation or for what exists: 동생이 있어요, 저기 버스가 와요. Use it with descriptive verbs for the thing described: 날씨가 좋아요, 이 가방이 예뻐요. Use it with question words, which can never take 은 / 는: 누가 왔어요?, 뭐가 좋아요?, 어디가 아파요? And use it in the answer to such a question: 민수 씨가 왔어요 (Minsu is the one who came).`,
+          `Use 이 / 가 for something new in the conversation or for what exists: 동생이 있어요, 저기 버스가 와요. Use it with descriptive verbs for the thing described: 날씨가 좋아요, 이 가방이 예뻐요. Use it with question words as the subject of a question, where they don't take 은 / 는: 누가 왔어요?, 뭐가 좋아요?, 어디가 아파요? And use it in the answer to such a question: 민수 씨가 왔어요 (Minsu is the one who came).`,
           `This last use is focus: 제가 민수예요 means 'I'm the one who's Minsu', answering 'Which of you is Minsu?' Compare 저는 민수예요, 'I'm Minsu', an introduction.`,
         ],
         examples: [
@@ -1596,7 +1600,7 @@ export const KO_A1_GUIDES: KoGrammarGuide[] = [
       {
         heading: `Between sentences: 그리고`,
         body: [
-          `그리고 starts a new sentence: 'and', 'and also'. 아침에 운동했어요. 그리고 회사에 갔어요. It never joins two nouns inside a sentence.`,
+          `그리고 starts a new sentence: 'and', 'and also'. 아침에 운동했어요. 그리고 회사에 갔어요. In speech it doesn't join two nouns inside a sentence; 하고 or (이)랑 does that.`,
         ],
         examples: [
           { ko: "저는 커피를 좋아해요. 그리고 차도 좋아해요.", en: "I like coffee. And I like tea too." },
@@ -1608,7 +1612,8 @@ export const KO_A1_GUIDES: KoGrammarGuide[] = [
       {
         wrong: "빵 그리고 우유를 샀어요.",
         right: "빵하고 우유를 샀어요.",
-        why: `그리고 joins sentences, not nouns. Use 하고, (이)랑 or 와 / 과.`,
+        why: `그리고 joins sentences, not nouns. A noun list with 그리고 is seen in titles and headings, but in a sentence it sounds translated: use 하고, (이)랑 or 와 / 과.`,
+        register: true,
       },
       {
         wrong: "싸요 그리고 맛있어요.",

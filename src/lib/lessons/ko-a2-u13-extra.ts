@@ -202,7 +202,7 @@ export const KO_A2_U13_EXTRA: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "The meeting has already started.",
         answer: "회의가 이미 시작됐어요.",
-        altAnswers: ["회의가 벌써 시작했어요.", "회의가 이미 시작했어요.", "회의가 벌써 시작됐어요.", "이미 회의가 시작했어요.", "벌써 회의가 시작했어요.", "회의는 이미 시작했어요."],
+        altAnswers: ["회의가 벌써 시작했어요.", "회의가 이미 시작했어요.", "회의가 벌써 시작됐어요.", "이미 회의가 시작했어요.", "벌써 회의가 시작했어요.", "회의는 이미 시작했어요.", "회의는 이미 시작됐어요.", "이미 회의가 시작됐어요."],
         explanation: "A plain fact (and too late to be on time): 이미. 벌써 adds surprise.",
       },
       {
@@ -211,7 +211,7 @@ export const KO_A2_U13_EXTRA: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "It's my first time in this neighbourhood.",
         answer: "이 동네는 처음이에요.",
-        altAnswers: ["이 동네는 처음 와 봤어요.", "이 동네에 처음 왔어요.", "이 동네가 처음이에요.", "이 동네는 처음 왔어요."],
+        altAnswers: ["이 동네는 처음 와 봤어요.", "이 동네에 처음 왔어요.", "이 동네에는 처음 왔어요.", "이 동네가 처음이에요.", "이 동네는 처음 왔어요."],
         explanation: "처음 is a noun: 처음이에요.",
       },
       {
@@ -428,6 +428,7 @@ export const KO_A2_U13_EXTRA: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "Get off at City Hall Station. (polite)",
         answer: "시청역에서 내리세요.",
+        altAnswers: ["시청역에서 내려 주세요."],
         explanation: "내리다 'get off' → 내리세요; 시청역 [시청녁].",
       },
       {

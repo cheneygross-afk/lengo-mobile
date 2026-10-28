@@ -430,7 +430,7 @@ export const KO_A1_U12_EXTRA: Lesson[] = [
         prompt: "Translate into Korean (to the doctor).",
         source: "I have a headache and a fever.",
         answer: "머리가 아프고 열이 있어요.",
-        altAnswers: ["머리가 아프고 열이 나요.", "머리가 아파요. 열이 있어요.", "머리가 아파요. 그리고 열이 있어요."],
+        altAnswers: ["저는 머리가 아프고 열이 있어요.", "머리가 아프고 열이 나요.", "머리가 아파요. 열이 있어요.", "머리가 아파요. 그리고 열이 있어요."],
         explanation: "-고 joins the two symptoms: 아프고.",
       },
       {

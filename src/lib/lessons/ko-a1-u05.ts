@@ -1667,7 +1667,7 @@ export const KO_A1_U05: Lesson[] = [
           { es: "오빠가 있어요.", en: "I have an older brother. (a woman speaking; not *형이 있어요)" },
           { es: "누나가 한 명 있어요.", en: "I have an older sister. (a man speaking; not *언니가)" },
           { es: "네, 있어요.", en: "Yes, I do. (answering 형제가 있으세요?; not *네, 있으세요)" },
-          { es: "동생이 두 명 있어요.", en: "I have two younger siblings. (not *두 동생이 있어요)" },
+          { es: "동생이 두 명 있어요.", en: "I have two younger siblings. (more natural than 두 동생이 있어요)" },
         ],
         checkpoint: [
           {
@@ -1734,11 +1734,11 @@ export const KO_A1_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Korean. (A learner wrote *두 동생이 있어요.)",
+        prompt: "Translate into Korean. (A learner wrote 두 동생이 있어요, which sounds unnatural.)",
         source: "I have two younger siblings.",
         answer: "동생이 두 명 있어요.",
         altAnswers: ["저는 동생이 두 명 있어요.", "동생이 둘 있어요."],
-        explanation: "Noun first, then number + counter: 동생이 두 명.",
+        explanation: "Noun first, then number + counter: 동생이 두 명. 두 동생 is grammatical but sounds like written English; Korean counts after the noun.",
       },
       {
         type: "dictation",
@@ -1829,7 +1829,7 @@ export const KO_A1_U05: Lesson[] = [
         examples: [
           { es: "우리 집은 부산에 있어요.", en: "My home is in Busan." },
           { es: "아파트예요. 방이 세 개 있어요.", en: "It's an apartment. There are three bedrooms." },
-          { es: "집 앞에 공원이 있어요.", en: "There's a park in front of the building." },
+          { es: "집 앞에 공원이 있어요.", en: "There's a park in front of our place." },
           { es: "마당은 없어요.", en: "There's no garden." },
         ],
         checkpoint: [
@@ -1846,7 +1846,7 @@ export const KO_A1_U05: Lesson[] = [
             type: "listen-choose",
             audio: "집 앞에 공원이 있어요.",
             question: "What does it mean?",
-            options: ["There's a park in front of the building.", "The building is in the park.", "There's a park behind the building.", "There's no park nearby."],
+            options: ["There's a park in front of our place.", "Our place is in the park.", "There's a park behind our place.", "There's no park nearby."],
             correctIndex: 0,
             explanation: "집 앞에 'in front of the home', 공원이 있어요 'there's a park'.",
           },

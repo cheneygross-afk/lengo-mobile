@@ -83,7 +83,7 @@ export const KO_A1_U05_EXTRA: Lesson[] = [
         source: "The shoes are by the front door.",
         answer: "신발은 문 앞에 있어요.",
         altAnswers: ["신발이 문 앞에 있어요.", "문 앞에 신발이 있어요."],
-        explanation: "문 앞에 'in front of the door'. Korean has no plural ending needed: 신발 is 'shoes'.",
+        explanation: "문 앞에 'in front of the door'. No plural ending is needed: 신발 can mean 'shoe' or 'shoes'.",
       },
       {
         type: "translate",
@@ -244,7 +244,7 @@ export const KO_A1_U05_EXTRA: Lesson[] = [
         examples: [
           { es: "우리 가족은 세 명이에요.", en: "There are three of us in my family." },
           { es: "아들이 한 명, 딸이 한 명 있어요.", en: "I have a son and a daughter." },
-          { es: "형제가 없어요. 외동딸이에요.", en: "I don't have siblings. I'm an only daughter." },
+          { es: "형제가 없어요. 외동딸이에요.", en: "I don't have siblings. I'm an only child (a daughter)." },
           { es: "이분은 우리 할머니예요.", en: "This is my grandmother." },
         ],
         checkpoint: [
@@ -366,9 +366,9 @@ export const KO_A1_U05_EXTRA: Lesson[] = [
         type: "listen-choose",
         audio: "외동딸이에요.",
         question: "What does it mean?",
-        options: ["I'm an only daughter.", "I have one daughter.", "This is my daughter.", "I have no daughter."],
+        options: ["I'm an only child (a girl).", "I have one daughter.", "This is my daughter.", "I have no daughter."],
         correctIndex: 0,
-        explanation: "외동딸 'only daughter'; 외동아들 is 'only son'.",
+        explanation: "외동딸 is a girl with no siblings, 외동아들 a boy with no siblings. 'I have one daughter' would be 딸이 한 명 있어요.",
       },
       {
         type: "translate",

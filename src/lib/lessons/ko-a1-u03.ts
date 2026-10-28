@@ -231,7 +231,7 @@ export const KO_A1_U03: Lesson[] = [
       {
         heading: "만: Korean counts in ten-thousands",
         body: [
-          "English groups big numbers by thousands: thousand, million. Korean groups them by ten thousands, and 10,000 has its own word, 만. So 20,000 is 이만 (two 만) and 50,000 is 오만. As with 백 and 천, 10,000 is just 만, never 일만 or 십천.",
+          "English groups big numbers by thousands: thousand, million. Korean groups them by ten thousands, and 10,000 has its own word, 만. So 20,000 is 이만 (two 만) and 50,000 is 오만. As with 백 and 천, 10,000 is just 만 (일만 appears only in very formal writing such as cheques), and never 십천.",
           "Then count the 만s: 100,000 is ten 만, 십만; 1,000,000 is a hundred 만, 백만; 10,000,000 is 천만. A trick: cover the last four digits. 120,000 becomes 12 | 0000, so 십이만.",
         ],
         examples: [
@@ -1098,7 +1098,7 @@ export const KO_A1_U03: Lesson[] = [
             prompt: "Translate into Korean.",
             source: "One portion of tteokbokki, please.",
             answer: "떡볶이 일 인분 주세요.",
-            altAnswers: ["떡볶이 일 인분을 주세요.", "사장님, 떡볶이 일 인분 주세요."],
+            altAnswers: ["떡볶이 일 인분을 주세요.", "사장님, 떡볶이 일 인분 주세요.", "떡볶이 하나 주세요."],
             explanation: "인분 takes Sino-Korean numbers: 일 인분. The amount goes after the food, then 주세요.",
           },
           {
@@ -1449,7 +1449,7 @@ export const KO_A1_U03: Lesson[] = [
       {
         heading: "At the fruit stall",
         body: [
-          "Emma is at 광장시장, Seoul's oldest market. Fruit is sold by the basket, and the owner, 사장님, calls out prices. Read the lines, then build Emma's replies. The fruit: 사과 (apples), 귤 (mandarins), 딸기 (strawberries), 배 (Korean pears).",
+          "Emma is at 광장시장, one of Seoul's oldest markets. Fruit is sold by the basket, and the owner, 사장님, calls out prices. Read the lines, then build Emma's replies. The fruit: 사과 (apples), 귤 (mandarins), 딸기 (strawberries), 배 (Korean pears).",
         ],
         examples: [
           { es: "사장님, 안녕하세요.", en: "Emma: Hello." },
@@ -1513,7 +1513,7 @@ export const KO_A1_U03: Lesson[] = [
             en: "Then it's [10,000] won.",
             sentence: "그럼 ___ 원이에요.",
             answer: "만",
-            explanation: "10,000 is plain 만, never 일만 or 십천.",
+            explanation: "10,000 is plain 만 in speech (일만 is only for very formal writing), and never 십천.",
           },
         ],
       },
@@ -1824,7 +1824,7 @@ export const KO_A1_U03: Lesson[] = [
         type: "speak",
         prompt: "Say it in Korean: It's 15,000 won.",
         text: "만 오천 원이에요.",
-        tip: "Link the end: [만 오처 눠니에요].",
+        tip: "Link the end: [만 오처눠니에요].",
         explanation: "만 오천, never *십오천.",
       },
     ],

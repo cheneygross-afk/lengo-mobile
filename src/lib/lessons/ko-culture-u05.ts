@@ -127,7 +127,7 @@ export const KO_CULTURE_U05: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "What year are you in?",
         answer: "몇 학년이에요?",
-        altAnswers: ["몇 학년이세요?", "몇 학년이야?"],
+        altAnswers: ["몇 학년이세요?"],
         explanation: "몇 학년 'which year', with 이에요? after a consonant. To an adult student, 몇 학년이세요? adds respect.",
       },
       {
@@ -276,9 +276,9 @@ export const KO_CULTURE_U05: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Your Korean teacher's daughter sits 수능 tomorrow. What do you say to the teacher?",
-            options: ["따님 수능 대박 나실 거예요!", "따님 미역국 많이 드세요!", "따님 시험 잘 봐!", "따님 수능에서 떨어지세요!"],
+            options: ["따님 수능 잘 보실 거예요!", "따님 미역국 많이 드세요!", "따님 시험 잘 봐!", "따님 수능에서 떨어지세요!"],
             correctIndex: 0,
-            explanation: "대박 나실 거예요 'it'll be a huge success' is a warm polite wish. 시험 잘 봐! is 반말, and seaweed soup or 떨어지다 are exactly what nobody wants to hear the day before.",
+            explanation: "잘 보실 거예요 'she'll do well' is a warm polite wish, with -시- honouring the teacher's daughter (따님); 수능 대박 나실 거예요 is also heard. 시험 잘 봐! is 반말, and seaweed soup or 떨어지다 are exactly what nobody wants to hear the day before.",
           },
           {
             type: "translate",
@@ -413,7 +413,7 @@ export const KO_CULTURE_U05: Lesson[] = [
         en: "Today is 수능, so the company [opens] an hour late.",
         sentence: "오늘은 수능이라서 회사가 한 시간 늦게 ___.",
         answer: "문을 열어요",
-        altAnswers: ["시작해요", "열어요"],
+        altAnswers: ["시작해요", "열어요", "문 열어요"],
         explanation: "문을 열다 'to open (for business)'. On 수능 day many offices start at 10 instead of 9.",
       },
       {
@@ -435,7 +435,7 @@ export const KO_CULTURE_U05: Lesson[] = [
       {
         heading: "선배, 후배, 동기 and your 학번",
         body: [
-          "At a Korean university everyone is placed by the year they entered. Your 학번 is that year's last two digits: a student who started in 2024 is 24학번 [이십사 학번]. Anyone who entered before you is your 선배, anyone after is your 후배, and students from the same year are 동기. 몇 학번이에요? is often the first question after your name.",
+          "At a Korean university everyone is placed by the year they entered. Your 학번 is that year's last two digits: a student who started in 2024 is 24학번 [이십싸 학뻔]. Anyone who entered before you is your 선배, anyone after is your 후배, and students from the same year are 동기. 몇 학번이에요? is often the first question after your name.",
           "On campus 학번 often counts as much as age. Someone who spent a year retaking 수능 can be a year older than their 선배, and both sides then tend to stay polite until they agree otherwise. English speakers often miss that 선배 is also a form of address: you call a senior 선배 or, more politely, 선배님, not name + 씨.",
         ],
         examples: [
@@ -453,7 +453,7 @@ export const KO_CULTURE_U05: Lesson[] = [
             source: "I entered university in 2024. (Say it with your 학번.)",
             answer: "저는 24학번이에요.",
             altAnswers: ["저는 이십사 학번이에요.", "24학번이에요.", "이십사 학번이에요."],
-            explanation: "학번 uses the last two digits with Sino-Korean numbers: 24학번 [이십사 학번].",
+            explanation: "학번 uses the last two digits with Sino-Korean numbers: 24학번 [이십싸 학뻔].",
           },
           {
             type: "multiple-choice",
@@ -724,7 +724,7 @@ export const KO_CULTURE_U05: Lesson[] = [
             prompt: "Translate into Korean. (formal, at work)",
             source: "I reported it to the general manager.",
             answer: "부장님께 보고했습니다.",
-            altAnswers: ["부장님께 보고드렸습니다.", "부장님께 말씀드렸습니다.", "부장님한테 보고했습니다.", "부장님께 보고했어요.", "부장님께 보고드렸어요.", "부장님께 말씀드렸어요.", "부장님께 이미 보고했습니다.", "부장님께 벌써 보고했습니다."],
+            altAnswers: ["부장님께 보고드렸습니다.", "부장님께 말씀드렸습니다.", "부장님한테 보고했습니다.", "부장님께 이미 보고했습니다.", "부장님께 벌써 보고했습니다."],
             explanation: "께 is the honorific 'to' for a superior (not 에게). 보고드렸습니다 is even humbler.",
           },
           {
@@ -847,7 +847,7 @@ export const KO_CULTURE_U05: Lesson[] = [
             prompt: "Translate into Korean. (formal)",
             source: "Manager Park, the report is ready.",
             answer: "박 과장님, 보고서 다 됐습니다.",
-            altAnswers: ["박 과장님, 보고서 다 되었습니다.", "박 과장님, 보고서 준비됐습니다.", "박 과장님, 보고서 준비되었습니다.", "박 과장님, 보고서가 다 됐습니다.", "박 과장님, 보고서 다 끝났습니다.", "박 과장님, 보고서 다 썼습니다.", "박 과장님, 보고서 다 됐어요.", "과장님, 보고서 다 됐습니다.", "과장님, 보고서 준비됐습니다."],
+            altAnswers: ["박 과장님, 보고서 다 되었습니다.", "박 과장님, 보고서 준비됐습니다.", "박 과장님, 보고서 준비되었습니다.", "박 과장님, 보고서가 다 됐습니다.", "박 과장님, 보고서 다 끝났습니다.", "박 과장님, 보고서 다 썼습니다.", "과장님, 보고서 다 됐습니다.", "과장님, 보고서 준비됐습니다."],
             explanation: "다 됐습니다 'it's all done' is the everyday office way to say something is ready. The title opens the sentence.",
           },
           {
@@ -856,7 +856,7 @@ export const KO_CULTURE_U05: Lesson[] = [
             en: "(formal) [I'll send] the materials by email.",
             sentence: "자료는 이메일로 ___.",
             answer: "보내 드리겠습니다",
-            altAnswers: ["보내겠습니다", "보내 드릴게요"],
+            altAnswers: ["보내겠습니다"],
             explanation: "-아 / 어 드리다 does it for a superior, and -겠습니다 states your intention formally.",
           },
           {
@@ -874,7 +874,7 @@ export const KO_CULTURE_U05: Lesson[] = [
             en: "The team leader [is in a meeting] right now.",
             sentence: "팀장님은 지금 ___.",
             answer: "회의하고 계세요",
-            altAnswers: ["회의하고 계십니다", "회의 중이세요", "회의 중이십니다", "회의 중이에요"],
+            altAnswers: ["회의하고 계십니다", "회의 중이세요", "회의 중이십니다"],
             explanation: "-고 계시다 is the honorific of -고 있다: 회의하고 계세요.",
           },
           {
@@ -883,8 +883,8 @@ export const KO_CULTURE_U05: Lesson[] = [
             prompt: "Translate into Korean. (formal, volunteering for a task)",
             source: "I'll do it.",
             answer: "제가 하겠습니다.",
-            altAnswers: ["제가 할게요.", "제가 해 보겠습니다.", "제가 하겠어요."],
-            explanation: "-겠습니다 for your own intention in formal speech; 제가 makes it clear it's you.",
+            altAnswers: ["제가 해 보겠습니다."],
+            explanation: "-겠습니다 for your own intention in formal speech; 제가 makes it clear it's you. 제가 할게요 is the polite 해요 version, too casual for '(formal)'.",
           },
           {
             type: "speak",
@@ -1139,7 +1139,7 @@ export const KO_CULTURE_U05: Lesson[] = [
         prompt: "Translate into Korean. (formal, to the CEO)",
         source: "Have you had lunch?",
         answer: "점심 드셨습니까?",
-        altAnswers: ["점심 식사하셨습니까?", "식사하셨습니까?", "점심 드셨어요?", "식사하셨어요?", "점심 식사하셨어요?", "대표님, 점심 드셨습니까?", "대표님, 식사하셨습니까?", "점심은 드셨습니까?", "점심 식사는 하셨습니까?"],
+        altAnswers: ["점심 식사하셨습니까?", "식사하셨습니까?", "대표님, 점심 드셨습니까?", "대표님, 식사하셨습니까?", "점심은 드셨습니까?", "점심 식사는 하셨습니까?"],
         explanation: "드시다 is the honorific 'eat'; 식사하셨습니까? is a common greeting to a superior around lunchtime.",
       },
     ],
@@ -1461,7 +1461,7 @@ export const KO_CULTURE_U05: Lesson[] = [
         prompt: "Translate into Korean. (formal, end of a self-introduction)",
         source: "I look forward to working with you.",
         answer: "잘 부탁드립니다.",
-        altAnswers: ["앞으로 잘 부탁드립니다.", "잘 부탁드려요.", "앞으로 잘 부탁드려요.", "잘 부탁합니다.", "앞으로 잘 부탁합니다.", "잘 부탁드리겠습니다.", "앞으로 잘 부탁드리겠습니다."],
+        altAnswers: ["앞으로 잘 부탁드립니다.", "잘 부탁합니다.", "앞으로 잘 부탁합니다.", "잘 부탁드리겠습니다.", "앞으로 잘 부탁드리겠습니다."],
         explanation: "잘 부탁드립니다 'I ask for your kind help' is the fixed closing of every new-job introduction.",
       },
       {
@@ -1600,7 +1600,7 @@ export const KO_CULTURE_U05: Lesson[] = [
             prompt: "Translate into Korean. (formal message to your team leader)",
             source: "I'll finish all the urgent work by Thursday.",
             answer: "급한 일은 목요일까지 다 끝내겠습니다.",
-            altAnswers: ["급한 일은 목요일까지 끝내겠습니다.", "급한 업무는 목요일까지 다 끝내겠습니다.", "급한 업무는 목요일까지 끝내겠습니다.", "급한 일은 목요일까지 다 하겠습니다.", "급한 일은 목요일까지 다 마치겠습니다.", "목요일까지 급한 일은 다 끝내겠습니다.", "목요일까지 급한 일을 다 끝내겠습니다.", "급한 일은 목요일까지 다 끝낼게요."],
+            altAnswers: ["급한 일은 목요일까지 끝내겠습니다.", "급한 업무는 목요일까지 다 끝내겠습니다.", "급한 업무는 목요일까지 끝내겠습니다.", "급한 일은 목요일까지 다 하겠습니다.", "급한 일은 목요일까지 다 마치겠습니다.", "목요일까지 급한 일은 다 끝내겠습니다.", "목요일까지 급한 일을 다 끝내겠습니다."],
             explanation: "까지 'by', and -겠습니다 turns it into a formal promise about your own work.",
           },
           {

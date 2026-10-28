@@ -19,7 +19,7 @@ export const KO_CULTURE_U07: Lesson[] = [
         heading: "Phones, laptops and sockets",
         body: [
           "Korean has thousands of English loanwords, and a few hundred of them are 콩글리시: words that look English but were shortened, combined or changed in Korea, some of them via Japanese. They are not mistakes. They are simply Korean words, and an English speaker who guesses their meaning will sometimes guess wrong.",
-          "Your mobile phone is a 핸드폰 'hand phone', also 휴대폰 or just 폰. A laptop is a 노트북 'notebook', so a paper notebook is a 공책 or a 노트. The wall socket you charge them from is a 콘센트, which came into Korean through Japanese; the plug on the cable is a 플러그. Ask a café for an outlet and nobody will understand; ask 여기 콘센트 있어요? and someone will point.",
+          "Your mobile phone is a 핸드폰 'hand phone', also 휴대폰 or just 폰. A laptop is a 노트북 'notebook', so a paper notebook is a 공책 or a 노트. The wall socket you charge them from is a 콘센트, which came into Korean through Japanese; the plug on the cable is a 플러그. Ask a café for an 'outlet' and you may get a blank look; ask 여기 콘센트 있어요? and someone will point.",
         ],
         examples: [
           { es: "핸드폰 배터리가 거의 없어요.", en: "My phone is almost out of battery." },
@@ -59,7 +59,7 @@ export const KO_CULTURE_U07: Lesson[] = [
         heading: "Homes: 원룸, 오피스텔, 아파트",
         body: [
           "A 원룸 'one room' is a studio flat: one room with a kitchen corner and a bathroom, the classic home of students and young workers. An 오피스텔, from office + hotel, is a building that mixes offices and studio flats, often near a station and usually a little dearer than a 원룸.",
-          "아파트 is the false friend. It isn't any flat: it means a flat in a high-rise block, normally part of a large complex (단지) with its own parking, playgrounds and shops. About half of Korean households live in one, and owning one is a big family goal. A low-rise block of a few floors is a 빌라. So if you live in a four-storey building, say 빌라 or 원룸, not 아파트.",
+          "아파트 is the false friend. It isn't any flat: it means a flat in a high-rise block, normally part of a large complex (단지) with its own parking, playgrounds and shops. More than half of Korean households live in one, and owning one is a big family goal. A low-rise block of a few floors is a 빌라. So if you live in a four-storey building, say 빌라 or 원룸, not 아파트.",
         ],
         examples: [
           { es: "저는 학교 근처 원룸에 살아요.", en: "I live in a studio flat near school." },
@@ -440,8 +440,8 @@ export const KO_CULTURE_U07: Lesson[] = [
             prompt: "Translate into Korean (polite request).",
             source: "It's so hot. Please turn on the air conditioning.",
             answer: "너무 더워요. 에어컨 좀 켜 주세요.",
-            altAnswers: ["너무 더워요. 에어컨 켜 주세요.", "너무 더워요. 에어컨을 켜 주세요.", "너무 더워요. 에어컨 좀 틀어 주세요.", "너무 더워요. 에어컨 틀어 주세요.", "너무 더워요. 에어컨을 좀 켜 주세요.", "진짜 더워요. 에어컨 좀 켜 주세요.", "정말 더워요. 에어컨 좀 켜 주세요.", "너무 더워요. 에어컨 좀 켜 주실 수 있어요?", "너무 더워서 에어컨 좀 켜 주세요."],
-            explanation: "에어컨 is the only word people use. 켜다 or 틀다 'turn on', and 좀 softens the request.",
+            altAnswers: ["너무 더워요. 에어컨 켜 주세요.", "너무 더워요. 에어컨을 켜 주세요.", "너무 더워요. 에어컨 좀 틀어 주세요.", "너무 더워요. 에어컨 틀어 주세요.", "너무 더워요. 에어컨을 좀 켜 주세요.", "진짜 더워요. 에어컨 좀 켜 주세요.", "정말 더워요. 에어컨 좀 켜 주세요.", "너무 더워요. 에어컨 좀 켜 주실 수 있어요?"],
+            explanation: "에어컨 is the only word people use. 켜다 or 틀다 'turn on', and 좀 softens the request. Keep two sentences: -아서 can't carry a request, so *너무 더워서 에어컨 좀 켜 주세요 is wrong (더우니까 works).",
           },
           {
             type: "listen-choose",
@@ -597,7 +597,7 @@ export const KO_CULTURE_U07: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "My younger sibling wants to become a K-pop idol.",
         answer: "제 동생은 아이돌이 되고 싶어 해요.",
-        altAnswers: ["동생은 아이돌이 되고 싶어 해요.", "제 동생이 아이돌이 되고 싶어 해요.", "동생이 아이돌이 되고 싶어 해요.", "우리 동생은 아이돌이 되고 싶어 해요.", "제 동생은 아이돌이 되고 싶어 해.", "제 동생은 아이돌이 꿈이에요.", "동생은 아이돌이 꿈이에요."],
+        altAnswers: ["동생은 아이돌이 되고 싶어 해요.", "제 동생이 아이돌이 되고 싶어 해요.", "동생이 아이돌이 되고 싶어 해요.", "우리 동생은 아이돌이 되고 싶어 해요.", "제 동생은 아이돌이 꿈이에요.", "동생은 아이돌이 꿈이에요."],
         explanation: "아이돌 already means a K-pop idol. For someone else's wish, -고 싶어 하다; 되다 takes 이 / 가: 아이돌이 되다.",
       },
       {
@@ -1149,7 +1149,7 @@ export const KO_CULTURE_U07: Lesson[] = [
         en: "An [extra shot] in the Americano, please.",
         sentence: "아메리카노에 ___ 주세요.",
         answer: "샷 추가해",
-        altAnswers: ["샷을 추가해", "샷 하나 추가해", "샷 하나 더 넣어", "샷 추가"],
+        altAnswers: ["샷을 추가해", "샷 하나 추가해", "샷 하나 더 넣어"],
         explanation: "샷 추가 'extra shot' is café Korean. Not to be confused with 원샷, downing a drink.",
       },
       {

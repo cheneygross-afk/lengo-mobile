@@ -118,7 +118,7 @@ export const KO_A2_U17: Lesson[] = [
             prompt: "Translate into Korean.",
             source: "On Teachers' Day I gave my teacher a letter.",
             answer: "스승의 날에 선생님께 편지를 드렸어요.",
-            altAnswers: ["스승의 날에 선생님한테 편지를 드렸어요.", "스승의 날에 선생님께 편지 드렸어요.", "스승의 날에 선생님께 편지를 드렸습니다."],
+            altAnswers: ["스승의 날에 선생님한테 편지를 드렸어요.", "스승의 날에 선생님께 편지 드렸어요.", "스승의 날에 선생님께 편지를 드렸습니다.", "스승의 날에 제가 선생님께 편지를 드렸어요.", "저는 스승의 날에 선생님께 편지를 드렸어요."],
             explanation: "A teacher receives, so 께 and 드렸어요. 스승의 날 is the name of the day, with 에 for the time.",
           },
           {
@@ -207,7 +207,7 @@ export const KO_A2_U17: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I want to give my mother a present.",
         answer: "어머니께 선물을 드리고 싶어요.",
-        altAnswers: ["엄마한테 선물을 드리고 싶어요.", "엄마께 선물을 드리고 싶어요.", "어머니한테 선물을 드리고 싶어요.", "어머니께 선물 드리고 싶어요.", "엄마한테 선물 드리고 싶어요."],
+        altAnswers: ["엄마한테 선물을 드리고 싶어요.", "엄마께 선물을 드리고 싶어요.", "어머니한테 선물을 드리고 싶어요.", "어머니께 선물 드리고 싶어요.", "엄마한테 선물 드리고 싶어요.", "저는 어머니께 선물을 드리고 싶어요.", "저는 엄마한테 선물을 드리고 싶어요."],
         explanation: "-고 싶어요 joins the stem 드리: 드리고 싶어요. Even with the friendly 엄마, the verb stays 드리다.",
       },
       {
@@ -216,7 +216,7 @@ export const KO_A2_U17: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I gave the children some sweets.",
         answer: "아이들한테 사탕을 줬어요.",
-        altAnswers: ["아이들에게 사탕을 줬어요.", "애들한테 사탕을 줬어요.", "아이들한테 사탕 줬어요."],
+        altAnswers: ["아이들에게 사탕을 줬어요.", "애들한테 사탕을 줬어요.", "아이들한테 사탕 줬어요.", "저는 아이들한테 사탕을 줬어요.", "제가 아이들한테 사탕을 줬어요."],
         explanation: "Children get 주다: 줬어요. 사탕 is a sweet or candy.",
       },
       {
@@ -615,7 +615,7 @@ export const KO_A2_U17: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "Thank you for helping me.",
         answer: "도와주셔서 감사합니다.",
-        altAnswers: ["도와주셔서 고맙습니다.", "도와줘서 고마워요.", "도와주셔서 감사해요.", "도와줘서 감사합니다."],
+        altAnswers: ["도와주셔서 고맙습니다.", "도와줘서 고마워요.", "도와주셔서 감사해요.", "도와줘서 감사합니다.", "도와주셔서 고마워요."],
         explanation: "도와주시다 + -아서 (reason, Unit 3) + 감사합니다. 도와주다 is one word.",
       },
       {
@@ -665,14 +665,14 @@ export const KO_A2_U17: Lesson[] = [
         heading: "-아 / 어 드리다: favours for seniors",
         body: [
           "The rule for things carries over to favours. When the person you do something for is senior, -아 / 어 주다 becomes -아 / 어 드리다: 할머니께 편지를 읽어 드렸어요 'I read the letter to Grandma', 부모님께 저녁을 사 드렸어요 'I treated my parents to dinner'. The person you help takes 께 or 한테.",
-          "As with things, the verb looks at the receiver: a friend gets 사 줬어요, a parent gets 사 드렸어요. Spacing: 도와주다 is one word, but 도와 드리다 is written with a space, because only the 주다 forms became dictionary words.",
+          "As with things, the verb looks at the receiver: a friend gets 사 줬어요, a parent gets 사 드렸어요. Spacing: 도와주다 and its humble form 도와드리다 are dictionary words written as one, but the other favours keep the space: 사 드리다, 읽어 드리다, 들어 드리다.",
         ],
         examples: [
           { es: "할머니께 편지를 읽어 드렸어요.", en: "I read the letter to Grandma." },
           { es: "부모님께 저녁을 사 드렸어요.", en: "I treated my parents to dinner." },
           { es: "선생님 가방을 들어 드렸어요.", en: "I carried my teacher's bag for her." },
           { es: "아버지께 휴대폰 사용법을 가르쳐 드렸어요.", en: "I showed my father how to use his phone." },
-          { es: "주말에 어머니 일을 도와 드렸어요.", en: "At the weekend I helped my mother with her work." },
+          { es: "주말에 어머니 일을 도와드렸어요.", en: "At the weekend I helped my mother with her work." },
         ],
         checkpoint: [
           {
@@ -705,11 +705,11 @@ export const KO_A2_U17: Lesson[] = [
       {
         heading: "Offering: -아 / 어 드릴까요?",
         body: [
-          "-(으)ㄹ까요? offers to do something (Unit 12). With 드리다 it becomes the polite offer of help: 도와 드릴까요? 'Shall I help you?', 창문 열어 드릴까요? 'Shall I open the window for you?'. Answer 네, 감사합니다 or 아니요, 괜찮아요.",
+          "-(으)ㄹ까요? offers to do something (Unit 12). With 드리다 it becomes the polite offer of help: 도와드릴까요? 'Shall I help you?', 창문 열어 드릴까요? 'Shall I open the window for you?'. Answer 네, 감사합니다 or 아니요, 괜찮아요.",
           "You'll often hear the offer turned into a promise: 제가 들어 드릴게요 'I'll carry it for you'. -(으)ㄹ게요 is the next lesson.",
         ],
         examples: [
-          { es: "도와 드릴까요?", en: "Shall I help you?" },
+          { es: "도와드릴까요?", en: "Shall I help you?" },
           { es: "창문 열어 드릴까요?", en: "Shall I open the window for you?" },
           { es: "짐 들어 드릴까요?", en: "Shall I carry your bags?" },
           { es: "제가 들어 드릴게요.", en: "I'll carry it for you." },
@@ -720,8 +720,8 @@ export const KO_A2_U17: Lesson[] = [
             direction: "en-es",
             prompt: "Translate into Korean (to an older woman with heavy bags).",
             source: "Shall I help you?",
-            answer: "도와 드릴까요?",
-            altAnswers: ["제가 도와 드릴까요?", "좀 도와 드릴까요?"],
+            answer: "도와드릴까요?",
+            altAnswers: ["제가 도와드릴까요?", "좀 도와드릴까요?"],
             explanation: "돕다 → 도와 + 드릴까요?: an offer to a senior. 도와줄까요? would be for a friend or someone younger.",
           },
           {
@@ -787,7 +787,7 @@ export const KO_A2_U17: Lesson[] = [
         prompt: "Write the Korean for the bold words.",
         en: "At the weekend I [helped] my mother with her work.",
         sentence: "주말에 어머니 일을 ___.",
-        answer: "도와 드렸어요",
+        answer: "도와드렸어요",
         altAnswers: ["도와드렸어요"],
         explanation: "돕다 → 도와 + 드렸어요 for a senior. Compare 친구를 도와줬어요 for a friend.",
       },
@@ -798,7 +798,7 @@ export const KO_A2_U17: Lesson[] = [
         source: "I helped my friend with his homework.",
         answer: "친구 숙제를 도와줬어요.",
         altAnswers: ["친구의 숙제를 도와줬어요.", "친구 숙제를 도와주었어요.", "제가 친구 숙제를 도와줬어요.", "친구 숙제 도와줬어요."],
-        explanation: "A friend is an equal: 도와줬어요, one word. 도와 드렸어요 is for seniors, and 도와주셨어요 would honour yourself.",
+        explanation: "A friend is an equal: 도와줬어요, one word. 도와드렸어요 is for seniors, and 도와주셨어요 would honour yourself.",
       },
       {
         type: "translate",
@@ -827,7 +827,7 @@ export const KO_A2_U17: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I read the letter to Grandma.",
         answer: "할머니께 편지를 읽어 드렸어요.",
-        altAnswers: ["할머니한테 편지를 읽어 드렸어요.", "할머니께 편지 읽어 드렸어요."],
+        altAnswers: ["할머니한테 편지를 읽어 드렸어요.", "할머니께 편지 읽어 드렸어요.", "제가 할머니께 편지를 읽어 드렸어요.", "저는 할머니께 편지를 읽어 드렸어요."],
         explanation: "읽어 드렸어요: reading for a senior. Grandma takes 께.",
       },
       {
@@ -853,9 +853,9 @@ export const KO_A2_U17: Lesson[] = [
       {
         type: "speak",
         prompt: "Say it in Korean (to an older woman): Shall I help you?",
-        text: "도와 드릴까요?",
+        text: "도와드릴까요?",
         tip: "Let your voice rise on 까요: it's a question.",
-        explanation: "도와 드릴까요?: the standard offer of help to a senior.",
+        explanation: "도와드릴까요?: the standard offer of help to a senior.",
       },
     ],
   },
@@ -1012,8 +1012,8 @@ export const KO_A2_U17: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "I'll help.",
         answer: "제가 도울게요.",
-        altAnswers: ["제가 도와 드릴게요.", "도와 드릴게요.", "제가 도와줄게요.", "도울게요.", "도와줄게요."],
-        explanation: "돕다 is ㅂ irregular: 도울게요. 도와 드릴게요 adds respect for the listener.",
+        altAnswers: ["제가 도와드릴게요.", "도와드릴게요.", "제가 도와줄게요.", "도울게요.", "도와줄게요."],
+        explanation: "돕다 is ㅂ irregular: 도울게요. 도와드릴게요 adds respect for the listener.",
       },
       {
         type: "multiple-choice",
@@ -1062,8 +1062,8 @@ export const KO_A2_U17: Lesson[] = [
         prompt: "Translate into Korean (to your boss, formal).",
         source: "I'll do it.",
         answer: "제가 하겠습니다.",
-        altAnswers: ["제가 할게요.", "하겠습니다."],
-        explanation: "In formal 합니다 speech the promise is -겠습니다 (Unit 1). 제가 할게요 is the 해요 version.",
+        altAnswers: ["하겠습니다."],
+        explanation: "In formal 합니다 speech the promise is -겠습니다 (Unit 1). 제가 할게요 is the 해요 version: right in everyday talk, but not the formal answer asked for here.",
       },
       {
         type: "fill-blank",
@@ -1376,8 +1376,8 @@ export const KO_A2_U17: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into Korean.",
         source: "I helped Grandma.",
-        answer: "할머니를 도와 드렸어요.",
-        altAnswers: ["제가 할머니를 도와 드렸어요."],
+        answer: "할머니를 도와드렸어요.",
+        altAnswers: ["제가 할머니를 도와드렸어요."],
         explanation: "돕다 → 도와 + 드렸어요 for a senior.",
       },
       {
@@ -1646,12 +1646,12 @@ export const KO_A2_U17: Lesson[] = [
       {
         heading: "The wrong verb for the direction",
         body: [
-          "*선생님한테 선물을 줬어요 is grammatical but hands the gift down to the teacher: 선생님께 선물을 드렸어요. *할머니가 저에게 용돈을 드렸어요 makes grandma humble herself before you: 할머니가 용돈을 주셨어요. And *제가 도와주셨어요 honours yourself: 제가 도와 드렸어요.",
+          "선생님한테 선물을 줬어요 is grammatical but wrong for the setting: it hands the gift down to the teacher. Say 선생님께 선물을 드렸어요. *할머니가 저에게 용돈을 드렸어요 makes grandma humble herself before you: 할머니가 용돈을 주셨어요. And *제가 도와주셨어요 honours yourself: 제가 도와드렸어요.",
         ],
         examples: [
           { es: "선생님께 선물을 드렸어요.", en: "I gave my teacher a present." },
           { es: "할머니가 용돈을 주셨어요.", en: "Grandma gave me some spending money." },
-          { es: "제가 사장님을 도와 드렸어요.", en: "I helped the boss." },
+          { es: "제가 사장님을 도와드렸어요.", en: "I helped the boss." },
           { es: "사장님이 저를 도와주셨어요.", en: "The boss helped me." },
         ],
         checkpoint: [
@@ -1669,8 +1669,8 @@ export const KO_A2_U17: Lesson[] = [
             direction: "en-es",
             prompt: "Fix *제가 사장님을 도와주셨어요 and translate: I helped the boss.",
             source: "I helped the boss.",
-            answer: "제가 사장님을 도와 드렸어요.",
-            altAnswers: ["사장님을 도와 드렸어요."],
+            answer: "제가 사장님을 도와드렸어요.",
+            altAnswers: ["사장님을 도와드렸어요."],
             explanation: "You never put -시- on your own actions; a favour for a senior is -아 / 어 드리다.",
           },
           {
@@ -1717,7 +1717,7 @@ export const KO_A2_U17: Lesson[] = [
       {
         heading: "Spelling and spacing",
         body: [
-          "*할께요 → 할게요: the sound is [께], the spelling is 게. *빌려 줘요 → 빌려줘요 and *도와 줘서 → 도와줘서: these two are single words. But the other favours keep their space: 사 줘요, 찍어 주세요, 도와 드릴게요.",
+          "*할께요 → 할게요: the sound is [께], the spelling is 게. *빌려 줘요 → 빌려줘요 and *도와 줘서 → 도와줘서: these two are single words. The humble 도와드리다 is one word too (도와드릴게요). The other favours keep their space: 사 줘요, 찍어 주세요, 사 드릴게요.",
         ],
         examples: [
           { es: "도와줘서 고마워.", en: "Thanks for helping. (to a friend)" },
@@ -1750,7 +1750,7 @@ export const KO_A2_U17: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *선생님한테 선물을 줬어요 and translate: I gave my teacher a present.",
+        prompt: "Fix 선생님한테 선물을 줬어요 (wrong for a teacher) and translate: I gave my teacher a present.",
         source: "I gave my teacher a present.",
         answer: "선생님께 선물을 드렸어요.",
         altAnswers: ["선생님한테 선물을 드렸어요.", "선생님께 선물 드렸어요.", "제가 선생님께 선물을 드렸어요."],
@@ -1759,7 +1759,7 @@ export const KO_A2_U17: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *사장님이 저한테 보너스를 줬어요 and translate: The boss gave me a bonus.",
+        prompt: "Fix 사장님이 저한테 보너스를 줬어요 (too plain for the boss) and translate: The boss gave me a bonus.",
         source: "The boss gave me a bonus.",
         answer: "사장님이 보너스를 주셨어요.",
         altAnswers: ["사장님께서 보너스를 주셨어요.", "사장님이 저한테 보너스를 주셨어요.", "사장님께서 저에게 보너스를 주셨어요.", "사장님이 저에게 보너스를 주셨어요."],
@@ -1890,10 +1890,10 @@ export const KO_A2_U17: Lesson[] = [
       {
         heading: "A neighbour offers help",
         body: [
-          "An older neighbour, 아주머니, meets them by the lift. She's a stranger, so 지은 speaks 해요 with honorifics, and the neighbour is polite too. Koreans often bring new neighbours 떡 when they move in.",
+          "An older neighbour, 아주머니, meets them by the lift. She's a stranger, so 지은 speaks 해요 with honorifics, and the neighbour is polite too. Traditionally, the person moving in shares 떡 with the new neighbours.",
         ],
         examples: [
-          { es: "이사 오셨어요? 도와 드릴까요?", en: "Have you just moved in? Shall I help you?" },
+          { es: "이사 오셨어요? 도와드릴까요?", en: "Have you just moved in? Shall I help you?" },
           { es: "아니에요, 괜찮아요. 감사합니다.", en: "No, it's fine. Thank you." },
           { es: "그럼 엘리베이터 문 잡아 드릴게요.", en: "Then I'll hold the lift door for you." },
           { es: "이거 떡이에요. 좀 드세요.", en: "This is some rice cake. Please have some." },
@@ -1901,8 +1901,8 @@ export const KO_A2_U17: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "The neighbour asks 도와 드릴까요? and you don't need help. What do you say?",
-            options: ["아니에요, 괜찮아요. 감사합니다.", "응, 괜찮아.", "네, 도와 드릴게요.", "아니요, 도와주세요."],
+            question: "The neighbour asks 도와드릴까요? and you don't need help. What do you say?",
+            options: ["아니에요, 괜찮아요. 감사합니다.", "응, 괜찮아.", "네, 도와드릴게요.", "아니요, 도와주세요."],
             correctIndex: 0,
             explanation: "Decline politely with 괜찮아요 and thank her. 반말 would be rude to an older stranger.",
           },
@@ -1970,9 +1970,9 @@ export const KO_A2_U17: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into Korean (the neighbour, polite).",
         source: "Shall I help you?",
-        answer: "도와 드릴까요?",
-        altAnswers: ["제가 도와 드릴까요?", "좀 도와 드릴까요?", "도와줄까요?"],
-        explanation: "A polite offer to a stranger: 도와 드릴까요?",
+        answer: "도와드릴까요?",
+        altAnswers: ["제가 도와드릴까요?", "좀 도와드릴까요?", "도와줄까요?"],
+        explanation: "A polite offer to a stranger: 도와드릴까요?",
       },
       {
         type: "multiple-choice",

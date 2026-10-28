@@ -711,7 +711,7 @@ export const KO_A2_U03: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "It's dangerous, so you tell a child's parent not to let the child go in. Which sentence is correct?",
+            question: "A building site is dangerous, so you tell a visitor not to go in. Which sentence is correct?",
             options: ["위험하니까 들어가지 마세요.", "위험해서 들어가지 마세요.", "위험했어서 들어가지 마세요.", "위험하니까 들어가지 않아요."],
             correctIndex: 0,
             explanation: "-지 마세요 is a command, so the reason must be -(으)니까. 위험해서 + a command is the classic English-speaker mistake.",
@@ -1881,7 +1881,7 @@ export const KO_A2_U03: Lesson[] = [
       {
         heading: "Nouns, ㄹ stems and 가서",
         body: [
-          "*학생이어서 is not wrong, but it sounds written; in speech Koreans say 학생이라서. *멀으니까 and *맵으니까 ignore the stem rules: 머니까 (ㄹ drops, no 으) and 매우니까 (ㅂ becomes 우).",
+          "학생이어서 is not wrong, but it sounds written; in speech Koreans say 학생이라서. *멀으니까 and *맵으니까 ignore the stem rules: 머니까 (ㄹ drops, no 으) and 매우니까 (ㅂ becomes 우).",
           "*학교에 가고 공부해요 for 'go to school and study there' needs -아서: 학교에 가서 공부해요.",
         ],
         examples: [
@@ -1961,7 +1961,7 @@ export const KO_A2_U03: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Korean (polite).",
-        source: "It's the weekend, so the restaurant is busy. (A learner wrote *주말이어서, which sounds written.)",
+        source: "It's the weekend, so the restaurant is busy. (A learner wrote 주말이어서: correct, but it sounds written.)",
         answer: "주말이라서 식당이 바빠요.",
         altAnswers: ["주말이라 식당이 바빠요.", "주말이라서 식당에 사람이 많아요."],
         explanation: "In speech, noun + 이라서: 주말이라서.",
@@ -2294,7 +2294,7 @@ export const KO_A2_U03: Lesson[] = [
           {
             type: "speak",
             text: "피곤해서 일찍 잤어.",
-            tip: "일찍 is said [일찍], with a tense ㅉ.",
+            tip: "잤어 is said [자써]: the ㅆ links to 어.",
             explanation: "반말: 잤어, with 피곤해서 unchanged.",
           },
         ],

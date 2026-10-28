@@ -63,7 +63,7 @@ export const KO_A2_U10_EXTRA: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I'm looking for a big, bright room.",
         answer: "넓고 밝은 방을 찾고 있어요.",
-        altAnswers: ["밝고 넓은 방을 찾고 있어요.", "크고 밝은 방을 찾고 있어요.", "넓고 밝은 방 찾고 있어요."],
+        altAnswers: ["밝고 넓은 방을 찾고 있어요.", "크고 밝은 방을 찾고 있어요.", "넓고 밝은 방 찾고 있어요.", "저는 넓고 밝은 방을 찾고 있어요."],
         explanation: "넓다 'spacious' links with -고; 밝다 → 밝은 [발근] before 방.",
       },
       {
@@ -72,7 +72,7 @@ export const KO_A2_U10_EXTRA: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I ordered a spicy stew and a cold beer.",
         answer: "매운 찌개하고 시원한 맥주를 주문했어요.",
-        altAnswers: ["매운 찌개하고 차가운 맥주를 주문했어요.", "매운 찌개랑 시원한 맥주를 주문했어요.", "매운 찌개와 시원한 맥주를 주문했어요.", "매운 찌개하고 시원한 맥주를 시켰어요."],
+        altAnswers: ["매운 찌개하고 차가운 맥주를 주문했어요.", "매운 찌개랑 시원한 맥주를 주문했어요.", "매운 찌개와 시원한 맥주를 주문했어요.", "매운 찌개하고 시원한 맥주를 시켰어요.", "저는 매운 찌개하고 시원한 맥주를 주문했어요."],
         explanation: "맵다 → 매운; 시원하다 'refreshingly cool' → 시원한 맥주.",
       },
       {
@@ -256,7 +256,7 @@ export const KO_A2_U10_EXTRA: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I don't know the man standing at the door.",
         answer: "문 앞에 서 있는 남자는 몰라요.",
-        altAnswers: ["문 앞에 서 있는 남자를 몰라요.", "문 앞에 서 있는 남자는 모르겠어요.", "문 앞에 서 있는 남자를 모르겠어요.", "문에 서 있는 남자는 몰라요."],
+        altAnswers: ["문 앞에 서 있는 남자를 몰라요.", "문 앞에 서 있는 남자는 모르겠어요.", "문 앞에 서 있는 남자를 모르겠어요.", "문에 서 있는 남자는 몰라요.", "저는 문 앞에 서 있는 남자는 몰라요."],
         explanation: "서 있다 → 서 있는. 은 / 는 on the object contrasts him with the people you know.",
       },
       {

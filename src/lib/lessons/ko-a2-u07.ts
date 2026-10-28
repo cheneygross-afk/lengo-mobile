@@ -175,7 +175,7 @@ export const KO_A2_U07: Lesson[] = [
         prompt: "Translate into Korean. (formal notice)",
         source: "You must wash your hands.",
         answer: "손을 씻어야 합니다.",
-        altAnswers: ["손을 씻어야 됩니다."],
+        altAnswers: ["손을 씻어야 됩니다.", "손을 씻으셔야 합니다."],
         explanation: "In 합니다 style, 해야 합니다 is the usual form; 씻어요 → 씻어야.",
       },
       {
@@ -237,7 +237,7 @@ export const KO_A2_U07: Lesson[] = [
         heading: "-아도 / 어도 돼요?: May I?",
         body: [
           "To ask permission, put -아도 / 어도 on the stem and add 돼요?: 들어가도 돼요? 'May I come in?'. The vowel is chosen exactly as in 해요 and -아야: drop 요 from the polite form and add 도. 가요 → 가도, 앉아요 → 앉아도, 열어요 → 열어도, 해요 → 해도. Literally it says 'even if I go in, is it OK?'.",
-          "English uses 'Can I...?' for permission, but 들어갈 수 있어요? asks whether entering is possible, not whether you're allowed. For permission, -아도 돼요? is the natural choice; -아도 괜찮아요? is a softer variant. Leave out 제가: it's obvious who is asking.",
+          "English uses 'Can I...?' for permission. 들어갈 수 있어요? asks whether entering is possible (open, allowed, room inside); to ask the person in front of you for permission, -아도 돼요? is the natural choice; -아도 괜찮아요? is a softer variant. Leave out 제가: it's obvious who is asking.",
         ],
         examples: [
           { es: "들어가도 돼요?", en: "May I come in?" },
@@ -254,7 +254,7 @@ export const KO_A2_U07: Lesson[] = [
             source: "May I sit here?",
             answer: "여기 앉아도 돼요?",
             altAnswers: ["여기에 앉아도 돼요?", "여기 앉아도 괜찮아요?", "여기에 앉아도 괜찮아요?"],
-            explanation: "앉아요 → 앉아도 돼요?. 앉을 수 있어요? would ask whether sitting is physically possible.",
+            explanation: "앉아요 → 앉아도 돼요?. 앉을 수 있어요? asks more about possibility (is the seat free, is it allowed) than for the person's permission.",
           },
           {
             type: "fill-blank",
@@ -674,7 +674,7 @@ export const KO_A2_U07: Lesson[] = [
         heading: "안 -아도 돼요: you don't have to",
         body: [
           "'You don't have to' is permission not to do something: put 안 before the -아도 돼요 form. 안 가도 돼요 'You don't have to go' is literally 'even if you don't go, it's OK'. 오늘은 일찍 안 와도 돼요 'You don't have to come early today'.",
-          "With 하다 verbs made from a noun, 안 goes right before 해: 공부 안 해도 돼요, 걱정 안 해도 돼요. *안 공부해도 is the same mistake as *안 공부해요 from Beginner.",
+          "With 하다 verbs made from a noun, 안 goes right before 해: 공부 안 해도 돼요, 걱정 안 해도 돼요. 안 공부해도 sounds foreign, just like 안 공부해요 from Beginner.",
         ],
         examples: [
           { es: "안 가도 돼요.", en: "You don't have to go." },
@@ -740,7 +740,7 @@ export const KO_A2_U07: Lesson[] = [
         heading: "Mustn't vs don't have to",
         body: [
           "English 'must not' and 'don't have to' sound close but are opposites, and Korean keeps them apart: 먹으면 안 돼요 'you mustn't eat it' (forbidden), 안 먹어도 돼요 'you don't have to eat it' (up to you). Watch where 안 is: before the verb for 'don't have to', in 안 돼요 for 'mustn't'.",
-          "*안 먹으면 안 돼요 is a double negative: 'if you don't eat it, it's not OK', which means 'you have to eat it'.",
+          "안 먹으면 안 돼요 is a double negative: 'if you don't eat it, it's not OK', which means 'you have to eat it'.",
         ],
         examples: [
           { es: "먹으면 안 돼요.", en: "You mustn't eat it." },
@@ -1359,7 +1359,7 @@ export const KO_A2_U07: Lesson[] = [
         sentence: "오늘은 ___ 돼요.",
         answer: "청소 안 해도",
         altAnswers: ["청소하지 않아도", "청소를 안 해도", "청소를 하지 않아도"],
-        explanation: "안 goes before 해: 청소 안 해도, not *안 청소해도.",
+        explanation: "안 goes before 해: 청소 안 해도. 안 청소해도 sounds foreign.",
       },
       {
         type: "translate",
@@ -1748,7 +1748,7 @@ export const KO_A2_U07: Lesson[] = [
         heading: "'Had to' and other slips",
         body: [
           "*어제 병원에 가야 돼요 for 'I had to go to the hospital yesterday': the tense goes on the end, 가야 했어요 or 가야 됐어요. 어제 alone doesn't make the sentence past.",
-          "Two more: *놀으면 안 돼요 → 놀면 (ㄹ stems take 면 directly), and *안 운동해도 돼요 → 운동 안 해도 돼요 (안 goes before 해).",
+          "Two more: *놀으면 안 돼요 → 놀면 (ㄹ stems take 면 directly), and 안 운동해도 돼요, which sounds foreign → 운동 안 해도 돼요 (안 goes before 해).",
         ],
         examples: [
           { es: "어제 병원에 가야 했어요.", en: "I had to go to the hospital yesterday." },

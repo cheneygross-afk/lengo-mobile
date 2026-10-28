@@ -22,7 +22,7 @@ export const KO_A2_U18: Lesson[] = [
           "Korean conversation is full of small reactions, and the most common is -네요. Add it straight to any stem, with no 으 and no irregular change: 맛있다 → 맛있네요, 오다 → 오네요, 춥다 → 춥네요. It says 'I'm noticing this right now': you've just tasted, seen or heard it. English uses 'Oh', 'Wow' or a tone of voice: 맛있네요! 'Oh, this is good!'",
           "Because the listener usually sees the same thing, -네요 is the perfect small-talk ending: 비가 오네요, 사람이 많네요. ㄹ stems lose ㄹ before ㄴ, as in Unit 9: 멀다 → 머네요, 길다 → 기네요, 알다 → 아네요.",
           "Listen for the sound change before ㄴ: 맛있네요 is said [마신네요], 많네요 [만네요], 좋네요 [존네요], 춥네요 [춤네요].",
-          "The trap: -네요 is for news to you, not for things you already knew. *제 이름은 민수네요 sounds as if you've just discovered your own name. For plain facts about yourself, use the ordinary 해요 ending.",
+          "The trap: -네요 is for news to you, not for things you already knew. 제 이름은 민수네요 is grammatical but wrong for the situation: it sounds as if you've just discovered your own name. For plain facts about yourself, use the ordinary 해요 ending.",
         ],
         examples: [
           { es: "와, 맛있네요!", en: "Wow, this is delicious!" },
@@ -403,7 +403,7 @@ export const KO_A2_U18: Lesson[] = [
         heading: "-군요: oh, I see",
         body: [
           "-군요 marks something you've just realised, usually from what someone has told you. English says 'Oh, I see', 'So you're ...' or 'Ah, that's why'. The classic is 아, 그렇군요 'Ah, I see.'",
-          "Adjectives take -군요 directly: 비싸군요; 있다 and 없다 take either: 맛있군요 or 맛있는군요. Action verbs take -는군요 in the present: 가는군요, 잘하는군요 (ㄹ stems drop ㄹ: 사는군요). Nouns take 이군요 after a consonant and 군요 after a vowel: 부산 사람이군요, 의사군요. For the past, every word uses -았 / 었군요: 바빴군요, 갔군요.",
+          "Adjectives take -군요 directly: 비싸군요; for 있다 and 없다 the textbook form is -는군요 (맛있는군요), though 맛있군요 is common too. Action verbs take -는군요 in the present: 가는군요, 잘하는군요 (ㄹ stems drop ㄹ: 사는군요). Nouns take 이군요 after a consonant and 군요 after a vowel: 부산 사람이군요, 의사군요. For the past, every word uses -았 / 었군요: 바빴군요, 갔군요.",
           "-군요 sounds slightly formal and thoughtful. For something you're experiencing yourself, 해요 speakers usually prefer -네요.",
         ],
         examples: [
@@ -795,7 +795,7 @@ export const KO_A2_U18: Lesson[] = [
         question: "You've just tasted your friend's mother's kimchi. What do you say to her?",
         options: ["김치가 정말 맛있네요.", "김치가 정말 맛있군요.", "김치가 정말 맛있죠?", "김치가 정말 맛있는군요."],
         correctIndex: 0,
-        explanation: "Tasting it yourself is direct experience: -네요. 맛있죠? asks her to agree about her own cooking, and 맛있군요 / 맛있는군요 sound as if someone had told you.",
+        explanation: "Tasting it yourself is direct experience: -네요. 맛있죠? asks her to agree about her own cooking, and 맛있군요 / 맛있는군요 sound detached, like a realisation rather than a warm reaction to what you're tasting.",
       },
       {
         type: "translate",
@@ -922,7 +922,7 @@ export const KO_A2_U18: Lesson[] = [
             source: "Hello, this is Minsu Kim.",
             answer: "여보세요, 김민수인데요.",
             altAnswers: ["여보세요, 저 김민수인데요.", "김민수인데요.", "여보세요, 김민수입니다.", "안녕하세요, 김민수인데요.", "안녕하세요, 김민수입니다."],
-            explanation: "Name + 인데요: soft and natural on the phone. Never *김민수 씨인데요: no 씨 for yourself.",
+            explanation: "Name + 인데요: soft and natural on the phone. Never 김민수 씨인데요: no 씨 for yourself.",
           },
           {
             type: "speak",
@@ -1103,7 +1103,7 @@ export const KO_A2_U18: Lesson[] = [
         heading: "-잖아요: you know, ...",
         body: [
           "-잖아요 reminds the listener of something they already know or can see: 어제 말했잖아요 'I told you yesterday', 오늘 일요일이잖아요 'It's Sunday today, remember?'. Same forms: any stem + 잖아요, the past before it, 이잖아요 after a consonant, 잖아요 after a vowel (친구잖아요). It's often a reason: 제가 매운 거 못 먹잖아요 'You know I can't eat spicy food.' To friends: -잖아.",
-          "Both endings carry attitude. -잖아요 implies 'you should know this', so to a senior it can sound like a correction. Using it for something the listener can't know (*처음 뵙겠습니다. 제가 학생이잖아요) sounds pushy and odd. Repeated -거든요 can sound like excuses. With seniors, plain 해요 or -아서요 is safer.",
+          "Both endings carry attitude. -잖아요 implies 'you should know this', so to a senior it can sound like a correction. Using it for something the listener can't know (처음 뵙겠습니다. 제가 학생이잖아요) is wrong for the situation: it sounds pushy and odd. Repeated -거든요 can sound like excuses. With seniors, plain 해요 or -아서요 is safer.",
         ],
         examples: [
           { es: "어제 말했잖아요.", en: "I told you yesterday." },
@@ -1157,7 +1157,7 @@ export const KO_A2_U18: Lesson[] = [
         en: "I won't drink today. I [have to drive] tomorrow morning, you see.",
         sentence: "오늘은 술을 안 마실게요. 내일 아침에 ___.",
         answer: "운전해야 되거든요",
-        altAnswers: ["운전해야 하거든요", "운전하거든요"],
+        altAnswers: ["운전해야 하거든요"],
         explanation: "-아야 되다 + -거든요: the reason they didn't know.",
       },
       {
@@ -1238,7 +1238,7 @@ export const KO_A2_U18: Lesson[] = [
         heading: "One price, three attitudes",
         body: [
           "You look at a price tag yourself: 비싸네요 'Oh, it's expensive.' A friend tells you what she paid: 비싸군요 'I see, so it's expensive.' You already think it's expensive and want her to agree: 비싸죠? 'It's expensive, isn't it?'",
-          "So ask: where does the information come from? Your own eyes, ears or tongue right now → -네요. Someone has just told you → -군요. You knew or believed it already → -죠. In relaxed conversation Koreans also use -네요 for news they've just heard, but -군요 is never used for something you're tasting or seeing yourself.",
+          "So ask: where does the information come from? Your own eyes, ears or tongue right now → -네요. Someone has just told you → -군요. You knew or believed it already → -죠. In relaxed conversation Koreans also use -네요 for news they've just heard, while -군요 sounds detached and odd as a warm reaction to something you're tasting yourself.",
         ],
         examples: [
           { es: "이 가방 비싸네요.", en: "Oh, this bag is expensive. (looking at the tag)" },
@@ -1271,7 +1271,7 @@ export const KO_A2_U18: Lesson[] = [
         heading: "Who knows what",
         body: [
           "-네요 and -군요 both mean 'this is new to me'. -죠 means 'I know this, and I think you do too'. So a friend coming in from the cold hears 밖이 춥죠? 'It's cold outside, isn't it?', while you, stepping out yourself, say 밖이 춥네요.",
-          "None of them describe your own life: say 저는 주말에도 일해요, not *주말에도 일하네요, unless you've only just realised it yourself.",
+          "None of them describe your own life: say 저는 주말에도 일해요, not 주말에도 일하네요 (wrong for the situation), unless you've only just realised it yourself.",
         ],
         examples: [
           { es: "밖이 춥네요.", en: "It's cold out. (you've just stepped outside)" },
@@ -1746,7 +1746,7 @@ export const KO_A2_U18: Lesson[] = [
         prompt: "Translate into Korean (polite; reacting to what you've just been told).",
         source: "Ah, I see.",
         answer: "아, 그렇군요.",
-        altAnswers: ["그렇군요.", "아, 네, 그렇군요.", "아, 그렇구나."],
+        altAnswers: ["그렇군요.", "아, 네, 그렇군요."],
         explanation: "그렇군요 [그러쿠뇨], with a calm falling tune.",
       },
       {
@@ -1789,14 +1789,14 @@ export const KO_A2_U18: Lesson[] = [
       {
         heading: "Talking about yourself",
         body: [
-          "*제 이름은 민수네요 and *저는 학생이군요 sound as if you've just discovered your own name and job. Facts about yourself take the plain ending: 제 이름은 민수예요, 저는 학생이에요.",
-          "*저는 미국 사람이거든요 as your first words to someone sounds like you're answering a question nobody asked. *처음 뵙겠습니다. 제가 학생이잖아요 is worse: -잖아요 claims they already know. Introduce yourself plainly.",
+          "These are grammatical but wrong for the situation. 제 이름은 민수네요 and 저는 학생이군요 sound as if you've just discovered your own name and job. Facts about yourself take the plain ending: 제 이름은 민수예요, 저는 학생이에요.",
+          "저는 미국 사람이거든요 as your first words to someone sounds like you're answering a question nobody asked. 처음 뵙겠습니다. 제가 학생이잖아요 is worse: -잖아요 claims they already know. Introduce yourself plainly.",
         ],
         examples: [
-          { es: "제 이름은 민수예요.", en: "My name is Minsu. (not *민수네요)" },
-          { es: "저는 학생이에요.", en: "I'm a student. (not *학생이군요)" },
-          { es: "안녕하세요. 저는 미국 사람이에요.", en: "Hello. I'm American. (not *미국 사람이거든요)" },
-          { es: "처음 뵙겠습니다. 저는 대학생이에요.", en: "Nice to meet you. I'm a university student. (not *학생이잖아요)" },
+          { es: "제 이름은 민수예요.", en: "My name is Minsu. (not 민수네요)" },
+          { es: "저는 학생이에요.", en: "I'm a student. (not 학생이군요)" },
+          { es: "안녕하세요. 저는 미국 사람이에요.", en: "Hello. I'm American. (not 미국 사람이거든요)" },
+          { es: "처음 뵙겠습니다. 저는 대학생이에요.", en: "Nice to meet you. I'm a university student. (not 학생이잖아요)" },
         ],
         checkpoint: [
           {
@@ -1822,13 +1822,13 @@ export const KO_A2_U18: Lesson[] = [
       {
         heading: "The wrong reaction, the wrong tune",
         body: [
-          "*맛있군요 on tasting sounds as if someone had told you it was tasty. Tasting is direct experience: 맛있네요.",
-          "*덥지요. said with a falling tune doesn't ask anything; it states. To check, the voice must rise: 덥지요? And a trailing 좋은데요 sounds like 'It's good, but ...'. For a plain compliment, 좋네요 or 좋아요.",
+          "맛있군요 on tasting sounds detached, as if you were taking in a fact rather than enjoying the food. Tasting is direct experience: 맛있네요.",
+          "덥지요. said with a falling tune doesn't ask anything; it states. To check, the voice must rise: 덥지요? And a trailing 좋은데요 sounds like 'It's good, but ...'. For a plain compliment, 좋네요 or 좋아요.",
         ],
         examples: [
-          { es: "와, 맛있네요!", en: "Wow, it's delicious! (not *맛있군요)" },
+          { es: "와, 맛있네요!", en: "Wow, it's delicious! (not 맛있군요)" },
           { es: "오늘 덥지요?", en: "It's hot today, isn't it? (rising, not falling)" },
-          { es: "이 노래 정말 좋네요.", en: "This song is really good. (not a trailing *좋은데요)" },
+          { es: "이 노래 정말 좋네요.", en: "This song is really good. (not a trailing 좋은데요)" },
           { es: "디자인이 좋아요.", en: "I like the design. (a plain compliment)" },
         ],
         checkpoint: [
@@ -1853,13 +1853,13 @@ export const KO_A2_U18: Lesson[] = [
       {
         heading: "Form slips",
         body: [
-          "*달네요 → 다네요: ㄹ drops before ㄴ. *예쁘는데요 → 예쁜데요: adjectives take -(으)ㄴ데요. *가군요 → 가는군요: action verbs need -는군요 in the present. *김민수 씨인데요 → 김민수인데요: no 씨 for yourself.",
+          "*달네요 → 다네요: ㄹ drops before ㄴ. *예쁘는데요 → 예쁜데요: adjectives take -(으)ㄴ데요. *가군요 → 가는군요: action verbs need -는군요 in the present. And 김민수 씨인데요 → 김민수인데요: grammatical, but 씨 is never used for yourself.",
         ],
         examples: [
           { es: "이 커피 좀 다네요.", en: "This coffee is a bit sweet. (not *달네요)" },
           { es: "그 원피스 예쁜데요.", en: "That dress is pretty, actually. (not *예쁘는데요)" },
           { es: "매일 학원에 가는군요.", en: "So you go to the academy every day. (not *가군요)" },
-          { es: "여보세요, 김민수인데요.", en: "Hello, this is Minsu Kim. (not *김민수 씨인데요)" },
+          { es: "여보세요, 김민수인데요.", en: "Hello, this is Minsu Kim. (not 김민수 씨인데요)" },
         ],
         checkpoint: [
           {

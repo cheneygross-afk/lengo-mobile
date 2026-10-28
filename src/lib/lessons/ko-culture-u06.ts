@@ -294,7 +294,7 @@ export const KO_CULTURE_U06: Lesson[] = [
         heading: "Food and lifestyle words",
         body: [
           "Some 줄임말 name a whole way of life. 맛집 (맛있는 집) is a place famous for its food, and people queue for them. 아아 is 아이스 아메리카노, the drink many Koreans order even in winter; the hot one is 뜨아.",
-          "Korea's food culture is built around sharing, so eating alone used to feel a little sad. Today about a third of households are one person, and 혼밥 (혼자 밥 먹기, eating alone) and 혼술 (drinking alone) are normal, with counter seats and single portions. 소확행 sums up the mood: 소소하지만 확실한 행복, a small but sure happiness, like a good coffee after work.",
+          "Korea's food culture is built around sharing, so eating alone used to feel a little sad. Today more than a third of households are one person, and 혼밥 (혼자 밥 먹기, eating alone) and 혼술 (drinking alone) are normal, with counter seats and single portions. 소확행 sums up the mood: 소소하지만 확실한 행복, a small but sure happiness, like a good coffee after work.",
         ],
         examples: [
           { es: "이 근처에 맛집 있어요?", en: "Is there a good place to eat around here?" },
@@ -613,7 +613,7 @@ export const KO_CULTURE_U06: Lesson[] = [
         prompt: "Translate into Korean (in a review, polite).",
         source: "I highly recommend this place!",
         answer: "여기 강추해요!",
-        altAnswers: ["여기 강추예요!", "여기 강력 추천해요!", "여기 진짜 강추해요!", "여기 정말 강추해요!", "강추해요!", "여기 강추!", "여기 강력 추천합니다!", "이 가게 강추해요!"],
+        altAnswers: ["여기 강추예요!", "여기 강력 추천해요!", "여기 진짜 강추해요!", "여기 정말 강추해요!", "강추해요!", "여기 강력 추천합니다!", "이 가게 강추해요!"],
         explanation: "강추 = 강력 추천. It works as a noun (강추예요) or a verb (강추해요).",
       },
       {
@@ -897,7 +897,7 @@ export const KO_CULTURE_U06: Lesson[] = [
         prompt: "Translate into Korean. Your team leader writes 내일 9시까지 오세요. Reply:",
         source: "Yes, understood!",
         answer: "넵, 알겠습니다!",
-        altAnswers: ["네, 알겠습니다!", "넵!", "네, 알겠어요!", "넵, 알겠어요!", "네!"],
+        altAnswers: ["네, 알겠습니다!", "네, 알겠어요!", "넵, 알겠어요!"],
         explanation: "넵 or 네 + 알겠습니다: crisp and respectful. 알았어 would be 반말.",
       },
       {
@@ -1722,8 +1722,8 @@ export const KO_CULTURE_U06: Lesson[] = [
             en: "Next time [it would be great if you made it] less salty.",
             sentence: "다음에는 덜 짜게 ___.",
             answer: "해 주시면 좋겠어요",
-            altAnswers: ["해 주시면 좋겠습니다", "해 주시면 좋을 것 같아요", "해 주세요"],
-            explanation: "-(으)면 좋겠어요 'it would be nice if' turns the complaint into a wish; 주시 honours the owner.",
+            altAnswers: ["해 주시면 좋겠습니다", "해 주시면 좋을 것 같아요"],
+            explanation: "-(으)면 좋겠어요 'it would be nice if' turns the complaint into a wish; 주시 honours the owner. 해 주세요 'please make it' is a request, not the wish the English asks for.",
           },
         ],
       },
@@ -1808,7 +1808,7 @@ export const KO_CULTURE_U06: Lesson[] = [
         prompt: "Translate into Korean (as the owner, formal).",
         source: "We're sorry for the inconvenience.",
         answer: "불편을 드려서 죄송합니다.",
-        altAnswers: ["불편을 드려 죄송합니다.", "불편 드려서 죄송합니다.", "불편을 드려서 정말 죄송합니다.", "불편을 드려서 죄송해요."],
+        altAnswers: ["불편을 드려 죄송합니다.", "불편 드려서 죄송합니다.", "불편을 드려서 정말 죄송합니다."],
         explanation: "You 'give' inconvenience with the humble 드리다; -아서 links the reason to 죄송합니다.",
       },
       {

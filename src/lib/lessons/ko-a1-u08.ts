@@ -50,7 +50,7 @@ export const KO_A1_U08: Lesson[] = [
       {
         heading: "하다 verbs: 안 before 해요",
         body: [
-          "With noun + 하다 verbs, 안 goes between the noun and 해요: 공부해요 → 공부 안 해요, 운동해요 → 운동 안 해요, 일해요 → 일 안 해요. You are really saying 'don't do study'. *안 공부해요 is the most common learner mistake here; Koreans understand it, but it sounds foreign.",
+          "With noun + 하다 verbs, 안 goes between the noun and 해요: 공부해요 → 공부 안 해요, 운동해요 → 운동 안 해요, 일해요 → 일 안 해요. You are really saying 'don't do study'. 안 공부해요 is the most common learner slip here: Koreans understand it and some say it, but it sounds foreign; 공부 안 해요 is the natural form.",
           "You can also keep the object particle: 공부를 안 해요. Only real noun + 하다 verbs split. 좋아하다 has no noun inside, so 'I don't like it' is 안 좋아해요.",
         ],
         examples: [
@@ -257,8 +257,8 @@ export const KO_A1_U08: Lesson[] = [
       {
         heading: "하다 verbs: 못 before 해요",
         body: [
-          "Skills are often noun + 하다 verbs, and 못 splits them just as 안 does: 수영 못 해요 'I can't swim', 운전 못 해요 'I can't drive', 요리 못 해요 'I can't cook'. *못 수영해요 is the mistake to avoid.",
-          "Dictionaries also list 못하다 as one word for 'be bad at', and you'll see both spellings online. Typed answers here ignore spacing, so focus on the order: noun, 못, 해요.",
+          "Skills are often noun + 하다 verbs, and 못 splits them just as 안 does: 수영 못 해요 'I can't swim', 운전 못 해요 'I can't drive', 요리 못 해요 'I can't cook'. 못 수영해요 is the slip to avoid: it sounds foreign.",
+          "Strictly, the spelling rules join 못하다 when it means lack of skill (수영 못해요) and space it when circumstances stop you (오늘은 운동 못 해요); you'll see both online. This course spaces it so the 못 slot stays visible, and typed answers ignore spacing: focus on the order noun, 못, 해요.",
         ],
         examples: [
           { es: "수영 못 해요.", en: "I can't swim." },
@@ -1056,6 +1056,7 @@ export const KO_A1_U08: Lesson[] = [
             prompt: "Translate into Korean. (answering 'Who's driving?')",
             source: "Minsu is driving.",
             answer: "민수 씨가 운전해요.",
+            altAnswers: ["민수 씨가요."],
             explanation: "The answer to 누가 takes 가: 민수 씨가. 민수 씨는 would sound like you're changing the subject.",
           },
           {
@@ -1270,9 +1271,9 @@ export const KO_A1_U08: Lesson[] = [
         ],
       },
       {
-        heading: "Question words never take 은 / 는",
+        heading: "Question words take 이 / 가, not 은 / 는",
         body: [
-          "A question word is by definition the unknown, so it can't be the topic. As a subject it always takes 이 / 가: 누가 와요?, 뭐가 있어요?, 어디가 좋아요? *누구는 와요? and *뭐는 있어요? are always wrong.",
+          "A question word is by definition the unknown, so it can't be the topic. As the subject of a question it takes 이 / 가: 누가 와요?, 뭐가 있어요?, 어디가 좋아요? *누구는 와요? and *뭐는 있어요? don't work as questions.",
         ],
         examples: [
           { es: "누가 와요?", en: "Who's coming?" },
@@ -1287,7 +1288,7 @@ export const KO_A1_U08: Lesson[] = [
             prompt: "Translate into Korean.",
             source: "Where's good?",
             answer: "어디가 좋아요?",
-            explanation: "어디 is the subject of 좋아요, so 가. 어디는 is never used in a question.",
+            explanation: "어디 is the subject of 좋아요, so 가. 어디는 would only fit a contrast with something already mentioned.",
           },
           {
             type: "listen-choose",
@@ -1513,6 +1514,7 @@ export const KO_A1_U08: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "You get off at Gyeongbokgung Station.",
         answer: "경복궁역에서 내려요.",
+        altAnswers: ["경복궁역에서 내리세요."],
         explanation: "Getting off happens at the station, so 에서; 내리 + 어요 → 내려요.",
       },
       {
@@ -1562,6 +1564,7 @@ export const KO_A1_U08: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "Or walk.",
         answer: "아니면 걸어서 가요.",
+        altAnswers: ["아니면 걸어가요."],
         explanation: "아니면 'or else' + 걸어서 가요 'go on foot'.",
       },
       {
@@ -1597,11 +1600,11 @@ export const KO_A1_U08: Lesson[] = [
       {
         heading: "Where 안 and 못 go",
         body: [
-          "*안 공부해요 → 공부 안 해요; *못 운전해요 → 운전 못 해요. With noun + 하다 verbs, 안 and 못 go right before 해요. And *안 있어요 → 없어요: 있다 has its own negative.",
+          "안 공부해요 → 공부 안 해요; 못 운전해요 → 운전 못 해요. The first versions are understood but sound foreign: with noun + 하다 verbs, 안 and 못 go right before 해요. And *안 있어요 → 없어요 is a real error: 있다 has its own negative.",
         ],
         examples: [
-          { es: "오늘은 공부 안 해요.", en: "I'm not studying today. (not *안 공부해요)" },
-          { es: "저는 운전 못 해요.", en: "I can't drive. (not *못 운전해요)" },
+          { es: "오늘은 공부 안 해요.", en: "I'm not studying today. (more natural than 안 공부해요)" },
+          { es: "저는 운전 못 해요.", en: "I can't drive. (more natural than 못 운전해요)" },
           { es: "우산이 없어요.", en: "I don't have an umbrella. (not *안 있어요)" },
         ],
         checkpoint: [
@@ -1982,7 +1985,7 @@ export const KO_A1_U08_WRITING: WriteExercise = {
   minWords: 15,
   maxWords: 40,
   rubric: [
-    "Says what you don't do with 안 right before the verb, and before 해요 in 하다 verbs (e.g. 운동 안 해요, 고기를 안 먹어요; never 안 공부해요)",
+    "Says what you don't do with 안 right before the verb, and before 해요 in 하다 verbs (e.g. 운동 안 해요, 고기를 안 먹어요; not 안 공부해요)",
     "Says what you can't do with 못, split the same way (e.g. 수영 못 해요, 운전 못 해요; never 못 운전해요)",
     "Says how you travel with 을 / 를 + 타요 or 걸어서 가요 / 와요, and uses 은 / 는 for a contrast (e.g. 요리는 해요. 수영은 못 해요.)",
     "Asks a question with a question word in the answer's place and the right particle (e.g. 주말에 뭐 해요?, 어떻게 와요?, 누가 ...?, 무슨 운동을 해요?)",

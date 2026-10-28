@@ -19,7 +19,7 @@ export const KO_A2_S02_STORIES: Story[] = [
     questions: [
       {
         question: `What was in the old photo Sua found?`,
-        options: [`Her grandmother at seventeen, in front of an ancient tower in Gyeongju.`, `Her grandparents' wedding.`, `A bakery with a blue roof.`, `Her mother as a child.`],
+        options: [`Her grandmother at seventeen, in front of an ancient stone observatory in Gyeongju.`, `Her grandparents' wedding.`, `A bakery with a blue roof.`, `Her mother as a child.`],
         correctIndex: 0,
         explanation: `"열일곱 살의 할머니가 첨성대 앞에서 웃고 있었어요."`,
       },
@@ -130,7 +130,7 @@ export const KO_A2_S02_STORIES: Story[] = [
     paragraphs: [
       `우리 팀의 퇴근 시간은 여섯 시예요. 하지만 여섯 시에 집에 가는 사람은 아무도 없어요. 모두 최 팀장님을 봐요. 팀장님이 아직 자리에 계시니까 아무도 일어나지 않아요. 이건 매일 하는 ‘눈치 게임’이에요.`,
       `팀장님은 매일 컴퓨터 화면을 보고 계세요. 아주 바쁘신 것 같아요. 그래서 우리도 계속 키보드를 쳐요. 사실 저는 인터넷 뉴스를 읽고 있어요. 옆자리의 지민 씨는 쇼핑을 하고 있어요.`,
-      `월요일에 인턴 은우 씨가 처음 왔어요. 여섯 시가 됐을 때 은우 씨가 가방을 들고 일어났어요. 그리고 큰 소리로 말했어요. “수고하셨습니다! 내일 뵙겠습니다!” 사무실이 조용해졌어요. 모두 숨도 쉬지 않고 팀장님을 봤어요.`,
+      `월요일에 인턴 은우 씨가 처음 왔어요. 여섯 시가 됐을 때 은우 씨가 가방을 들고 일어났어요. 그리고 큰 소리로 말했어요. “먼저 들어가 보겠습니다! 내일 뵙겠습니다!” 사무실이 조용해졌어요. 모두 숨도 쉬지 않고 팀장님을 봤어요.`,
       `팀장님이 천천히 일어나셨어요. “고마워요, 은우 씨.” 우리는 깜짝 놀랐어요. 팀장님이 웃으시면서 말씀하셨어요. “사실 저는 매일 여섯 시에 집에 가고 싶었어요. 그런데 여러분이 계속 일해서 저도 못 갔어요. 그래서 매일 컴퓨터로 바둑만 뒀어요.”`,
       `그날 우리 팀은 모두 여섯 시 오 분에 회사를 나갔어요. 다음 날 아침 회의에서 팀장님이 새로운 규칙을 만드셨어요. “앞으로 여섯 시에는 제가 제일 먼저 나가겠습니다.” 그 후로 눈치 게임은 끝났어요. 우리 팀에서 제일 똑똑한 사람은 인턴이에요.`,
     ],
@@ -252,7 +252,7 @@ export const KO_A2_S02_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "눈치", en: "sensing what others expect; reading the room", forms: ["눈치"] },
     { es: "화면", en: "screen", forms: ["화면을"] },
     { es: "인턴", en: "intern", forms: ["인턴", "인턴이에요"] },
-    { es: "수고하다", en: "to work hard; here, thank you for your hard work (said when leaving work)", forms: ["수고하셨습니다"] },
+    { es: "먼저 들어가 보다", en: "to head home first (the polite set phrase when you leave work before others)", forms: ["들어가", "보겠습니다"] },
     { es: "뵙다", en: "to see, to meet (humble form)", forms: ["뵙겠습니다"] },
     { es: "숨을 쉬다", en: "to breathe", forms: ["숨도", "쉬지"] },
     { es: "바둑을 두다", en: "to play baduk (the board game Go)", forms: ["바둑만", "뒀어요"] },

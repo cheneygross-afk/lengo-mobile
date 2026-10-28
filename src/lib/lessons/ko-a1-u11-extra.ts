@@ -94,7 +94,7 @@ export const KO_A1_U11_EXTRA: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I want to drink an iced Americano.",
         answer: "아이스 아메리카노를 마시고 싶어요.",
-        altAnswers: ["아이스 아메리카노 마시고 싶어요.", "아이스 아메리카노가 마시고 싶어요."],
+        altAnswers: ["저는 아이스 아메리카노를 마시고 싶어요.", "아이스 아메리카노 마시고 싶어요.", "아이스 아메리카노가 마시고 싶어요."],
         explanation: "마시 + 고 싶어요; 아메리카노 ends in a vowel, so 를.",
       },
       {
@@ -174,7 +174,7 @@ export const KO_A1_U11_EXTRA: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I don't want to go to work tomorrow.",
         answer: "내일 회사에 안 가고 싶어요.",
-        altAnswers: ["내일 회사에 가고 싶지 않아요.", "내일은 회사에 안 가고 싶어요.", "내일 회사 안 가고 싶어요.", "내일은 회사에 가고 싶지 않아요."],
+        altAnswers: ["저는 내일 회사에 안 가고 싶어요.", "내일 회사에 가고 싶지 않아요.", "내일은 회사에 안 가고 싶어요.", "내일 회사 안 가고 싶어요.", "내일은 회사에 가고 싶지 않아요."],
         explanation: "안 before the verb: 안 가고 싶어요. 회사에 가다 is the everyday 'go to work'.",
       },
       {
@@ -434,7 +434,7 @@ export const KO_A1_U11_EXTRA: Lesson[] = [
             prompt: "Translate into Korean.",
             source: "I'm going to the pharmacy to buy medicine.",
             answer: "약을 사러 약국에 가요.",
-            altAnswers: ["약국에 약을 사러 가요.", "약 사러 약국에 가요.", "약국에 약 사러 가요.", "약을 사러 약국에 갈 거예요."],
+            altAnswers: ["저는 약을 사러 약국에 가요.", "약국에 약을 사러 가요.", "약 사러 약국에 가요.", "약국에 약 사러 가요.", "약을 사러 약국에 갈 거예요."],
             explanation: "사러 for the purpose, then 약국에 가요.",
           },
           {
@@ -474,7 +474,7 @@ export const KO_A1_U11_EXTRA: Lesson[] = [
             prompt: "Translate into Korean.",
             source: "I went to the market with my grandmother.",
             answer: "할머니하고 같이 시장에 갔어요.",
-            altAnswers: ["할머니랑 같이 시장에 갔어요.", "할머니하고 시장에 갔어요.", "할머니랑 시장에 갔어요.", "할머니와 같이 시장에 갔어요."],
+            altAnswers: ["저는 할머니하고 같이 시장에 갔어요.", "할머니랑 같이 시장에 갔어요.", "할머니하고 시장에 갔어요.", "할머니랑 시장에 갔어요.", "할머니와 같이 시장에 갔어요."],
             explanation: "할머니하고 같이 'together with grandmother', and the past 갔어요.",
           },
         ],
@@ -487,7 +487,7 @@ export const KO_A1_U11_EXTRA: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I'm going to the post office to send a parcel.",
         answer: "우체국에 소포를 보내러 가요.",
-        altAnswers: ["소포를 보내러 우체국에 가요.", "우체국에 소포 보내러 가요.", "소포 보내러 우체국에 가요.", "우체국에 소포를 보내러 갈 거예요."],
+        altAnswers: ["저는 우체국에 소포를 보내러 가요.", "소포를 보내러 우체국에 가요.", "우체국에 소포 보내러 가요.", "소포 보내러 우체국에 가요.", "우체국에 소포를 보내러 갈 거예요."],
         explanation: "보내 is a vowel stem: 보내러.",
       },
       {
@@ -496,7 +496,7 @@ export const KO_A1_U11_EXTRA: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I'm going to go to the hair salon to get a haircut.",
         answer: "머리를 자르러 미용실에 갈 거예요.",
-        altAnswers: ["미용실에 머리를 자르러 갈 거예요.", "머리 자르러 미용실에 갈 거예요.", "미용실에 머리 자르러 갈 거예요."],
+        altAnswers: ["저는 머리를 자르러 미용실에 갈 거예요.", "미용실에 머리를 자르러 갈 거예요.", "머리 자르러 미용실에 갈 거예요.", "미용실에 머리 자르러 갈 거예요."],
         explanation: "자르 + 러, then the plan 갈 거예요.",
       },
       {
@@ -505,7 +505,7 @@ export const KO_A1_U11_EXTRA: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I go to the pool to learn to swim.",
         answer: "수영을 배우러 수영장에 다녀요.",
-        altAnswers: ["수영장에 수영을 배우러 다녀요.", "수영 배우러 수영장에 다녀요.", "수영을 배우러 수영장에 가요."],
+        altAnswers: ["저는 수영을 배우러 수영장에 다녀요.", "수영장에 수영을 배우러 다녀요.", "수영 배우러 수영장에 다녀요.", "수영을 배우러 수영장에 가요."],
         explanation: "다니다 for going regularly: 배우러 다녀요.",
       },
       {
@@ -523,7 +523,7 @@ export const KO_A1_U11_EXTRA: Lesson[] = [
         prompt: "Translate into Korean. (A woman is speaking.)",
         source: "I'm going to go shopping with my older sister.",
         answer: "언니랑 쇼핑하러 갈 거예요.",
-        altAnswers: ["언니하고 쇼핑하러 갈 거예요.", "언니랑 같이 쇼핑하러 갈 거예요.", "언니하고 같이 쇼핑하러 갈 거예요."],
+        altAnswers: ["저는 언니랑 쇼핑하러 갈 거예요.", "언니하고 쇼핑하러 갈 거예요.", "언니랑 같이 쇼핑하러 갈 거예요.", "언니하고 같이 쇼핑하러 갈 거예요."],
         explanation: "A woman's older sister is 언니; 언니 ends in a vowel, so 랑.",
       },
       {
@@ -590,7 +590,7 @@ export const KO_A1_U11_EXTRA: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I'm going to the library with a friend to study.",
         answer: "친구하고 공부하러 도서관에 가요.",
-        altAnswers: ["친구랑 공부하러 도서관에 가요.", "친구하고 같이 공부하러 도서관에 가요.", "친구랑 같이 공부하러 도서관에 가요.", "친구하고 도서관에 공부하러 가요.", "친구랑 도서관에 공부하러 가요."],
+        altAnswers: ["저는 친구하고 공부하러 도서관에 가요.", "친구랑 공부하러 도서관에 가요.", "친구하고 같이 공부하러 도서관에 가요.", "친구랑 같이 공부하러 도서관에 가요.", "친구하고 도서관에 공부하러 가요.", "친구랑 도서관에 공부하러 가요."],
         explanation: "친구하고 for 'with', 공부하러 for the purpose, 가요 last.",
       },
       {

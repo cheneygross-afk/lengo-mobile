@@ -52,7 +52,7 @@ export const KO_PLACEMENT_LEVEL_NAME: Record<KoPlacementLevel, string> = {
   A1: "Beginner",
   A2: "Elementary",
   B1: "Intermediate",
-  B2: "Upper-intermediate",
+  B2: "Upper Intermediate",
   C1: "Advanced",
   C2: "Mastery",
 };
@@ -168,9 +168,9 @@ export const KO_ROUTER_QUESTIONS: KoPlacementQuestion[] = [
     "grammar",
     "a1-introductions-1",
     "저는 학생___.",
-    ["이에요", "예요", "있어요", "이다"],
+    ["이에요", "예요", "있어요", "이세요"],
     0,
-    "학생 ends in a consonant (ㅇ), so it takes 이에요: 저는 학생이에요 (I'm a student). After a vowel it is 예요: 저는 의사예요. 있어요 means there is or I have, and 이다 is the dictionary form, never used like this in speech.",
+    "학생 ends in a consonant (ㅇ), so it takes 이에요: 저는 학생이에요 (I'm a student). After a vowel it is 예요: 저는 의사예요. 있어요 means there is or I have, and 이세요 is the honorific, which you never use about yourself.",
   ),
   listen(
     "ko-r-a1-two-coffees",
@@ -296,7 +296,7 @@ export const KO_ROUTER_QUESTIONS: KoPlacementQuestion[] = [
       "Don't worry, it happens to everyone.",
     ],
     0,
-    "Repeated praise in a flat tone, 잘한다, 잘해, is a stock piece of Korean sarcasm, like English oh, great job. Praise for a blunder is read as the opposite, and 꼴좋다 (literally it looks good) is always sarcastic: serves you right.",
+    "Repeated praise in a flat tone, 잘한다, 잘해, is a stock piece of Korean sarcasm, like English oh, great job. Praise for a blunder is read as the opposite, and 꼴좋다 (literally it looks good) is almost always sarcastic: serves you right.",
   ),
 ];
 
@@ -430,9 +430,9 @@ export const KO_LEVEL_QUESTIONS: Record<KoPlacementLevel, KoPlacementQuestion[]>
       "grammar",
       "a2-honorific-verbs",
       "할머니께서 지금 방에서 ___.",
-      ["주무세요", "자요", "자세요", "잠으세요"],
+      ["주무세요", "자요", "잡니다", "잠으세요"],
       0,
-      "A few verbs have their own honorific word instead of -시-: 자다 (sleep) becomes 주무시다, so Grandma is sleeping is 할머니께서 주무세요. 자요 is not respectful enough for a grandmother, and 자세요 and 잠으세요 are not the honorific of 자다. Likewise 먹다 → 드시다 and 있다 → 계시다.",
+      "A few verbs have their own honorific word instead of -시-: 자다 (sleep) becomes 주무시다, so Grandma is sleeping is 할머니께서 주무세요. 자요 and 잡니다 don't honour her (and 께서 calls for an honorific verb), and 잠으세요 is not a form of 자다 at all. Likewise 먹다 → 드시다 and 있다 → 계시다.",
     ),
   ],
   B1: [
@@ -525,9 +525,9 @@ export const KO_LEVEL_QUESTIONS: Record<KoPlacementLevel, KoPlacementQuestion[]>
       "grammar",
       "b2-whereas-1",
       "서울은 교통이 편리한 ___ 집값이 비싸다.",
-      ["반면에", "덕분에", "김에", "대로"],
+      ["반면에", "척", "김에", "대로"],
       0,
-      "-(으)ㄴ / 는 반면에 (whereas, on the other hand) sets two sides against each other: transport is convenient, but housing is expensive. 덕분에 (thanks to) would make the cost a good result of the transport, -는 김에 is while you're at it, and -(으)ㄴ 대로 is as or just as.",
+      "-(으)ㄴ / 는 반면에 (whereas, on the other hand) sets two sides against each other: transport is convenient, but housing is expensive. -(으)ㄴ 척 is pretending to, -는 김에 is while you're at it, and -(으)ㄴ 대로 is as or just as.",
     ),
   ],
   C1: [

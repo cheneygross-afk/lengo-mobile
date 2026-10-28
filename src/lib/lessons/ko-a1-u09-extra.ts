@@ -411,7 +411,7 @@ export const KO_A1_U09_EXTRA: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I bought a ticket. But I couldn't go.",
         answer: "표를 샀어요. 그런데 못 갔어요.",
-        altAnswers: ["표를 샀어요. 하지만 못 갔어요.", "표를 샀어요. 근데 못 갔어요.", "티켓을 샀어요. 그런데 못 갔어요."],
+        altAnswers: ["저는 표를 샀어요. 그런데 못 갔어요.", "표를 샀어요. 하지만 못 갔어요.", "표를 샀어요. 근데 못 갔어요.", "티켓을 샀어요. 그런데 못 갔어요."],
         explanation: "샀어요, then the disappointing turn with 그런데 and 못 갔어요.",
       },
       {
@@ -420,7 +420,7 @@ export const KO_A1_U09_EXTRA: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I cleaned my room. Then I did the laundry.",
         answer: "방을 청소했어요. 그리고 빨래를 했어요.",
-        altAnswers: ["방 청소했어요. 그리고 빨래했어요.", "방을 청소했어요. 그리고 빨래했어요.", "방 청소를 했어요. 그리고 빨래를 했어요."],
+        altAnswers: ["저는 방을 청소했어요. 그리고 빨래를 했어요.", "방 청소했어요. 그리고 빨래했어요.", "방을 청소했어요. 그리고 빨래했어요.", "방 청소를 했어요. 그리고 빨래를 했어요."],
         explanation: "Two chores in order, joined with 그리고.",
       },
       {
@@ -538,7 +538,7 @@ export const KO_A1_U09_EXTRA: Lesson[] = [
         prompt: "Answer in Korean: 찜질방에서 뭐 먹었어요? (I ate eggs.)",
         source: "I ate eggs.",
         answer: "계란을 먹었어요.",
-        altAnswers: ["계란 먹었어요.", "달걀을 먹었어요.", "찜질방에서 계란을 먹었어요."],
+        altAnswers: ["저는 계란을 먹었어요.", "계란 먹었어요.", "달걀을 먹었어요.", "찜질방에서 계란을 먹었어요."],
         explanation: "계란을 먹었어요: the object and the past verb.",
       },
       {
@@ -555,7 +555,7 @@ export const KO_A1_U09_EXTRA: Lesson[] = [
         prompt: "Answer in Korean: 토요일에 뭐 했어요? (I played games at a PC room.)",
         source: "I played games at a PC room.",
         answer: "PC방에서 게임을 했어요.",
-        altAnswers: ["PC방에서 게임했어요.", "토요일에 PC방에서 게임을 했어요."],
+        altAnswers: ["저는 PC방에서 게임을 했어요.", "PC방에서 게임했어요.", "토요일에 PC방에서 게임을 했어요."],
         explanation: "Playing happens there, so PC방에서; 게임을 하다 → 했어요.",
       },
       {
@@ -608,7 +608,7 @@ export const KO_A1_U09_EXTRA: Lesson[] = [
         prompt: "Answer in Korean: 전주에서 뭐 먹었어요? (I had bibimbap.)",
         source: "I had bibimbap.",
         answer: "비빔밥을 먹었어요.",
-        altAnswers: ["비빔밥 먹었어요.", "전주에서 비빔밥을 먹었어요."],
+        altAnswers: ["저는 비빔밥을 먹었어요.", "비빔밥 먹었어요.", "전주에서 비빔밥을 먹었어요."],
         explanation: "비빔밥 ends in a consonant, so 을.",
       },
       {

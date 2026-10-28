@@ -918,7 +918,7 @@ export const KO_A2_U22: Lesson[] = [
             sentence: "최소 주문 금액이 ___이에요.",
             answer: "만 오천 원",
             altAnswers: ["15,000원", "1만 5천 원"],
-            explanation: "Money is Sino-Korean, counted in 만: 만 오천 원. Koreans say 만, not *일만.",
+            explanation: "Money is Sino-Korean, counted in 만: 만 오천 원. In speech Koreans say 만 오천, not 일만 오천.",
           },
         ],
       },
@@ -948,7 +948,7 @@ export const KO_A2_U22: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Korean for the bold words.",
-            en: "The baby is asleep, [so] please don't ring the bell.",
+            en: "The baby [is] asleep, [so] please don't ring the bell.",
             sentence: "아기가 자고 ___ 벨 누르지 마세요.",
             answer: "있으니까",
             explanation: "Before a request, the reason takes -(으)니까. *있어서 벨 누르지 마세요 breaks the rule that -아서 can't lead into a command.",
@@ -1361,7 +1361,7 @@ export const KO_A2_U22: Lesson[] = [
             source: "Grandma is sleeping.",
             answer: "할머니께서 주무세요.",
             altAnswers: ["할머니가 주무세요.", "할머니께서 주무시고 계세요.", "할머니가 주무시고 계세요.", "할머니는 주무세요.", "할머니께서는 주무세요."],
-            explanation: "자다 has its own honorific verb, 주무시다: never *할머니가 자세요.",
+            explanation: "자다 has its own honorific verb, 주무시다. 할머니가 자세요 sounds disrespectful for an elder.",
           },
           {
             type: "speak",
@@ -1940,7 +1940,7 @@ export const KO_A2_U22: Lesson[] = [
         heading: "은 / 는 or 이 / 가?",
         body: [
           "은 / 는 marks the topic, something already on the table, or a contrast: 저는 커피는 안 마셔요 (coffee, as opposed to other drinks). 이 / 가 marks new information and the answer to 'who' or 'what': 누가 왔어요? 지은 씨가 왔어요.",
-          "Question words always take 이 / 가 (누가, 뭐가, 어디가), and so does the subject inside a modifier, -(으)면 or -아서 clause. In a story a new character takes 이 / 가 and then becomes 은 / 는: 한 남자가 살았어요. 그 남자는 ...",
+          "A question word as subject normally takes 이 / 가 (누가, 뭐가, 어디가), and so does the subject inside a modifier, -(으)면 or -아서 clause (은 / 는 there only for contrast). In a story a new character takes 이 / 가 and then becomes 은 / 는: 한 남자가 살았어요. 그 남자는 ...",
         ],
         examples: [
           { es: "누가 전화했어요? 지은 씨가 전화했어요.", en: "Who called? Jieun called." },
@@ -2501,11 +2501,11 @@ export const KO_A2_U22_WRITING: WriteExercise = {
   minWords: 30,
   maxWords: 70,
   rubric: [
-    "Uses -(으)시- or an honorific form for the teacher (잘 지내세요?, 뵐게요) and never for the writer's own actions",
+    "Uses -(으)시- or an honorific or humble form for the teacher (잘 지내세요?, 뵐게요) and never for the writer's own actions",
     "Gives reasons and contrasts with -아서 / -어서, -(으)니까 or -지만 (친절해서 쉬웠어요, 어렵지만 재미있어요), with no past tense before -아서",
     "Includes at least one modifier clause (제가 사는 동네, 은행에서 만든 통장) and one everyday-service phrase from the unit (통장을 만들었어요, 갈아타야 돼요)",
     "Ends with a promise in -(으)ㄹ게요, spelt with 게 (뵐게요, 연락드릴게요)",
   ],
-  modelAnswer: "선생님, 잘 지내세요? 저는 서울에 온 지 벌써 한 달이 됐어요. 지난주에 은행에 가서 통장을 만들었어요. 직원분이 천천히 설명해 주셔서 쉬웠어요. 그리고 감기에 걸려서 병원에도 갔어요. 제가 사는 동네에는 병원이 많아서 편해요. 지하철은 아직 어렵지만 시청역에서 갈아타는 건 이제 알아요. 다음 주에 학교에서 뵐게요.",
+  modelAnswer: "선생님, 잘 지내세요? 저는 서울에 온 지 벌써 한 달이 됐어요. 지난주에 은행에 가서 통장을 만들었어요. 직원분이 천천히 설명해 주셔서 쉬웠어요. 그리고 감기에 걸려서 병원에도 갔어요. 제가 사는 동네에는 병원이 많아서 편해요. 지하철은 아직 어렵지만 시청역에서 갈아타는 건 이제 쉬워요. 다음 주에 학교에서 뵐게요.",
   explanation: "잘 지내세요? and 설명해 주셔서 honour others; 가서, 걸려서 and 많아서 give reasons without past tense; 제가 사는 동네 and 갈아타는 건 are modifier and -는 것 forms; 어렵지만 contrasts; 뵐게요 closes with a humble promise.",
 };

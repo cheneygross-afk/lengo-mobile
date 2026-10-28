@@ -60,7 +60,7 @@ export const KO_A2_U12: Lesson[] = [
       {
         heading: "Yes, sure / Sorry, next time",
         body: [
-          "To accept, say 좋아요, 그래요 or 네, 좋아요, and you can repeat the verb in plain 해요: 같이 먹을까요? → 좋아요, 같이 먹어요. In 해요 speech the ordinary present doubles as 'let's'. Don't answer with the question form again: *좋아요, 먹을까요 sounds like you're asking back.",
+          "To accept, say 좋아요, 그래요 or 네, 좋아요, and you can repeat the verb in plain 해요: 같이 먹을까요? → 좋아요, 같이 먹어요. In 해요 speech the ordinary present doubles as 'let's'. Don't answer with the question form again: 좋아요, 먹을까요? sounds like you're asking back.",
           "The formal 'let's' from Unit 1, 갑시다, is fine from a leader to a group, but answering a senior with it sounds bossy; 같이 가요 is always safe.",
           "To decline, Koreans soften: say sorry, give a reason with -아서, and offer another time: 미안해요. 오늘은 약속이 있어서 못 가요. 다음에 같이 가요. A bare 아니요 sounds cold.",
         ],
@@ -287,7 +287,7 @@ export const KO_A2_U12: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "Shall I go?",
             answer: "제가 갈까요?",
-                        explanation: "제가 makes it an offer about yourself. Without 제가, 갈까요? would usually be heard as 'Shall we go?'.",
+            explanation: "제가 makes it an offer about yourself. Without 제가, 갈까요? would usually be heard as 'Shall we go?'.",
           },
           {
             type: "multiple-choice",
@@ -306,7 +306,7 @@ export const KO_A2_U12: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "Shall I do it?",
         answer: "제가 할까요?",
-                explanation: "제가 + 할까요?: the standard way to volunteer at work.",
+        explanation: "제가 + 할까요?: the standard way to volunteer at work.",
       },
       {
         type: "translate",
@@ -381,7 +381,7 @@ export const KO_A2_U12: Lesson[] = [
         source: "Do you think Jieun will like it?",
         answer: "지은 씨가 좋아할까요?",
         altAnswers: ["지은 씨가 이거 좋아할까요?", "지은 씨가 이걸 좋아할까요?", "지은 씨도 좋아할까요?", "지은 씨가 좋아하실까요?"],
-        explanation: "The subject is 지은 씨, so 좋아할까요? wonders. Never add 씨 to your own name, but always to a colleague's.",
+        explanation: "The subject is 지은 씨, so 좋아할까요? wonders. Never add 씨 to your own name, but do add it to a colleague's.",
       },
       {
         type: "speak",
@@ -633,7 +633,7 @@ export const KO_A2_U12: Lesson[] = [
             en: "[Let's not drink] today.",
             sentence: "오늘은 술 ___.",
             answer: "마시지 말자",
-            explanation: "'Let's not' is -지 말자: 마시 + 지 말자. *안 마시자 is not used.",
+            explanation: "'Let's not' is -지 말자: 마시 + 지 말자. You may hear 안 마시자 in casual talk, but -지 말자 is the standard form.",
           },
           {
             type: "multiple-choice",
@@ -760,7 +760,7 @@ export const KO_A2_U12: Lesson[] = [
         question: "You're a team leader starting a meeting with your team. What do you say?",
         options: ["회의를 시작합시다.", "회의를 시작하자요.", "회의를 시작할래?", "회의를 시작하지 말자."],
         correctIndex: 0,
-        explanation: "A leader addressing a group can use -(으)ㅂ시다. *하자요 does not exist: -자 never takes 요.",
+        explanation: "A leader addressing a group can use -(으)ㅂ시다. *하자요 is not standard Korean: -자 doesn't take 요.",
       },
       {
         type: "translate",
@@ -924,7 +924,7 @@ export const KO_A2_U12: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "I was going to take a taxi. But there weren't any.",
         answer: "택시를 타려고 했어요. 그런데 택시가 없었어요.",
-        altAnswers: ["택시를 타려고 했어요. 그런데 없었어요.", "택시 타려고 했어요. 그런데 택시가 없었어요.", "택시를 타려고 했어요. 근데 택시가 없었어요."],
+        altAnswers: ["택시를 타려고 했어요. 그런데 없었어요.", "택시 타려고 했어요. 그런데 택시가 없었어요.", "택시를 타려고 했어요. 근데 택시가 없었어요.", "저는 택시를 타려고 했어요. 그런데 택시가 없었어요."],
         explanation: "타려고 했어요 'was going to take', then 그런데 for what got in the way.",
       },
       {
@@ -1068,7 +1068,7 @@ export const KO_A2_U12: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "I've decided not to drink this year.",
         answer: "올해는 술을 안 마시기로 했어요.",
-        altAnswers: ["올해는 술을 마시지 않기로 했어요.", "올해 술을 안 마시기로 했어요.", "올해는 술 안 마시기로 했어요.", "올해 술을 마시지 않기로 했어요."],
+        altAnswers: ["올해는 술을 마시지 않기로 했어요.", "올해 술을 안 마시기로 했어요.", "올해는 술 안 마시기로 했어요.", "올해 술을 마시지 않기로 했어요.", "저는 올해는 술을 안 마시기로 했어요."],
         explanation: "To decide not to: 안 마시기로 or 마시지 않기로 했어요.",
       },
       {
@@ -1109,7 +1109,7 @@ export const KO_A2_U12: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "I'm going on a business trip to Busan next week.",
         answer: "다음 주에 부산으로 출장을 가요.",
-        altAnswers: ["다음 주에 부산에 출장을 가요.", "다음 주에 부산으로 출장 가요.", "다음 주에 부산에 출장 가요.", "다음 주에 부산으로 출장을 가기로 했어요.", "다음 주에 부산에 출장을 가기로 했어요.", "다음 주에 부산으로 출장을 갈 거예요.", "다음 주에 부산에 출장 갈 거예요."],
+        altAnswers: ["다음 주에 부산에 출장을 가요.", "다음 주에 부산으로 출장 가요.", "다음 주에 부산에 출장 가요.", "다음 주에 부산으로 출장을 가기로 했어요.", "다음 주에 부산에 출장을 가기로 했어요.", "다음 주에 부산으로 출장을 갈 거예요.", "다음 주에 부산에 출장 갈 거예요.", "저는 다음 주에 부산으로 출장을 가요."],
         explanation: "출장 [출짱] 'business trip'; 출장을 가다 'go on a business trip'. A scheduled plan can use the present, -(으)ㄹ 거예요 or -기로 했어요.",
       },
       {
@@ -1118,7 +1118,7 @@ export const KO_A2_U12: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "I haven't decided yet.",
         answer: "아직 결정 안 했어요.",
-        altAnswers: ["아직 결정을 안 했어요.", "아직 결정하지 않았어요.", "아직 결정 못 했어요.", "아직 안 정했어요.", "아직 결정을 못 했어요."],
+        altAnswers: ["아직 결정을 안 했어요.", "아직 결정하지 않았어요.", "아직 결정 못 했어요.", "아직 안 정했어요.", "아직 결정을 못 했어요.", "저는 아직 결정 안 했어요."],
         explanation: "결정 [결쩡] 'decision'; with 하다 verbs 안 goes before 했어요: 결정 안 했어요.",
       },
       {
@@ -1388,7 +1388,7 @@ export const KO_A2_U12: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "I'm planning to live in Jeju.",
         answer: "제주에서 살려고 해요.",
-        altAnswers: ["제주도에서 살려고 해요.", "제주에 살려고 해요.", "제주도에 살려고 해요."],
+        altAnswers: ["제주도에서 살려고 해요.", "제주에 살려고 해요.", "제주도에 살려고 해요.", "저는 제주에서 살려고 해요."],
         explanation: "살다 is an ㄹ stem: 살려고, no 으.",
       },
       {
@@ -1540,7 +1540,7 @@ export const KO_A2_U12: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "I'm planning to go to Busan this weekend, but I don't know yet.",
             answer: "주말에 부산에 가려고 해요. 그런데 아직 몰라요.",
-            altAnswers: ["이번 주말에 부산에 가려고 해요. 그런데 아직 몰라요.", "주말에 부산에 가려고 해요. 그런데 아직 잘 몰라요.", "이번 주말에 부산에 가려고 해요. 근데 아직 몰라요.", "주말에 부산에 가려고 해요. 근데 아직 몰라요."],
+            altAnswers: ["이번 주말에 부산에 가려고 해요. 그런데 아직 몰라요.", "주말에 부산에 가려고 해요. 그런데 아직 잘 몰라요.", "이번 주말에 부산에 가려고 해요. 근데 아직 몰라요.", "주말에 부산에 가려고 해요. 근데 아직 몰라요.", "저는 주말에 부산에 가려고 해요. 그런데 아직 몰라요."],
             explanation: "A plan that might change: -(으)려고 해요.",
           },
           {
@@ -1607,7 +1607,7 @@ export const KO_A2_U12: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "I was going to go, but I couldn't.",
         answer: "가려고 했어요. 그런데 못 갔어요.",
-        altAnswers: ["가려고 했어요. 근데 못 갔어요.", "가려고 했어요. 그런데 갈 수 없었어요."],
+        altAnswers: ["가려고 했어요. 근데 못 갔어요.", "가려고 했어요. 그런데 갈 수 없었어요.", "저는 가려고 했어요. 그런데 못 갔어요."],
         explanation: "-(으)려고 했어요 'was going to', then what happened.",
       },
       {
@@ -1668,7 +1668,7 @@ export const KO_A2_U12: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "I'm going to call my mom tonight.",
         answer: "오늘 밤에 엄마한테 전화할 거예요.",
-        altAnswers: ["오늘 밤에 엄마한테 전화하려고 해요.", "오늘 밤에 엄마에게 전화할 거예요.", "오늘 저녁에 엄마한테 전화할 거예요.", "오늘 밤에 어머니께 전화할 거예요."],
+        altAnswers: ["오늘 밤에 엄마한테 전화하려고 해요.", "오늘 밤에 엄마에게 전화할 거예요.", "오늘 저녁에 엄마한테 전화할 거예요.", "오늘 밤에 어머니께 전화할 거예요.", "저는 오늘 밤에 엄마한테 전화할 거예요."],
         explanation: "A plain future: 전화할 거예요. -(으)려고 해요 also fits as an intention.",
       },
       {
@@ -1681,7 +1681,7 @@ export const KO_A2_U12: Lesson[] = [
         type: "speak",
         prompt: "Say it in Korean: Shall I do it?",
         text: "제가 할까요?",
-        explanation: "An offer is always -(으)ㄹ까요?, never -(으)ㄹ래요?.",
+        explanation: "To offer, use -(으)ㄹ까요?, not -(으)ㄹ래요?: -(으)ㄹ래요? asks about the listener's wishes, so 제가 할래요? isn't an offer.",
       },
     ],
   },
@@ -1777,7 +1777,7 @@ export const KO_A2_U12: Lesson[] = [
             prompt: "Translate into Korean (polite, to the team leader).",
             source: "I've arranged to see a movie with a friend on Saturday.",
             answer: "토요일에는 친구하고 영화를 보기로 했어요.",
-            altAnswers: ["토요일에 친구하고 영화를 보기로 했어요.", "토요일에는 친구하고 영화 보기로 했어요.", "토요일에 친구하고 영화 보기로 했어요.", "토요일에는 친구랑 영화를 보기로 했어요.", "토요일에 친구랑 영화 보기로 했어요.", "토요일에는 친구와 영화를 보기로 했어요."],
+            altAnswers: ["토요일에 친구하고 영화를 보기로 했어요.", "토요일에는 친구하고 영화 보기로 했어요.", "토요일에 친구하고 영화 보기로 했어요.", "토요일에는 친구랑 영화를 보기로 했어요.", "토요일에 친구랑 영화 보기로 했어요.", "토요일에는 친구와 영화를 보기로 했어요.", "저는 토요일에는 친구하고 영화를 보기로 했어요."],
             explanation: "An arrangement with someone: 보기로 했어요. 토요일에는 contrasts Saturday with other days.",
           },
           {
@@ -1940,7 +1940,7 @@ export const KO_A2_U12: Lesson[] = [
             prompt: "Translate into Korean (polite).",
             source: "I have plans on Friday, so I can't go. How about Saturday?",
             answer: "금요일에는 약속이 있어서 못 가요. 토요일은 어때요?",
-            altAnswers: ["금요일에 약속이 있어서 못 가요. 토요일은 어때요?", "금요일에는 약속이 있어서 못 가요. 토요일 어때요?", "금요일에 약속이 있어서 못 가요. 토요일 어때요?", "금요일에는 약속이 있어서 갈 수 없어요. 토요일은 어때요?"],
+            altAnswers: ["금요일에 약속이 있어서 못 가요. 토요일은 어때요?", "금요일에는 약속이 있어서 못 가요. 토요일 어때요?", "금요일에 약속이 있어서 못 가요. 토요일 어때요?", "금요일에는 약속이 있어서 갈 수 없어요. 토요일은 어때요?", "저는 금요일에는 약속이 있어서 못 가요. 토요일은 어때요?"],
             explanation: "Reason with -아서, 못 가요, then a new idea with 어때요?",
           },
           {

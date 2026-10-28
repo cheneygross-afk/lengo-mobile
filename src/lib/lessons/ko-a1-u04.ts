@@ -631,7 +631,7 @@ export const KO_A1_U04: Lesson[] = [
         heading: "몇 분이세요? at the restaurant door",
         body: [
           "Walk into a Korean restaurant and staff will ask 몇 분이세요? 'How many are you?'. 분 is the respectful counter for people, used about others, never about yourself. So you answer with 명: 두 명이요. On your own, say 한 명이요 or 혼자예요 'just me'.",
-          "In short answers you can add 이요 to a number and counter: 두 명이요, 세 명이요. This isn't the *학생이요 mistake from Unit 1; it's a polite one-word reply, like English 'Two, please.'",
+          "In short answers you can add 이요 to a number and counter: 두 명이요, 세 명이요. It isn't a short form of 이에요 (a full sentence still needs 저는 학생이에요, never *저는 학생이요); it's a polite one-word reply, like English 'Two, please.'",
         ],
         examples: [
           { es: "몇 분이세요?", en: "How many are you? (staff, politely)" },
@@ -805,7 +805,7 @@ export const KO_A1_U04: Lesson[] = [
         heading: "몇 살이에요? and why age matters",
         body: [
           "To ask, say 몇 살이에요? [멷싸리에요]: the ㅅ after 몇 is tense. That's fine with people your age or younger. To someone older, or a stranger, the polite question is 나이가 어떻게 되세요? 'May I ask how old you are?'. For now you only need to understand it and answer with 살이에요.",
-          "Koreans ask age early, and it isn't rude: age decides who calls whom 언니 or 형, who speaks more formally, and who pours the drinks. Since 2023 official age in Korea is the international count, the same as yours, but some older people still give the traditional 'Korean age', one or two years more.",
+          "Koreans ask age early, and it isn't rude: age decides who calls whom 언니 or 형, who speaks more formally, and who pours the drinks. Since 2023 official age in Korea is the international count, the same as yours, but in everyday talk some people, especially older ones, still give the traditional 'Korean age', one or two years more.",
         ],
         examples: [
           { es: "몇 살이에요?", en: "How old are you?" },
@@ -1402,7 +1402,7 @@ export const KO_A1_U04: Lesson[] = [
           {
             type: "speak",
             text: "전부 만 칠천 원이에요.",
-            tip: "Say [만 칠처 눠니에요]: the ㄴ of 천 and 원 link forward.",
+            tip: "Say [만 칠처눠니에요]: the ㄴ of 천 and 원 link forward.",
             explanation: "The total is money, so Sino-Korean: 만 칠천 원.",
           },
         ],

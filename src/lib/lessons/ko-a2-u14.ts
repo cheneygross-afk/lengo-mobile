@@ -300,7 +300,7 @@ export const KO_A2_U14: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "Who's the tallest in your family?",
         answer: "가족 중에서 누가 제일 키가 커요?",
-        altAnswers: ["가족 중에 누가 제일 키가 커요?", "가족 중에서 누가 키가 제일 커요?", "가족 중에 누가 키가 제일 커요?", "가족 중에서 누가 가장 키가 커요?", "가족 중에서 누가 키가 가장 커요?", "가족 중에 누가 가장 키가 커요?", "가족 중에 누가 키가 가장 커요?"],
+        altAnswers: ["가족 중에 누가 제일 키가 커요?", "가족 중에서 누가 제일 커요?", "가족 중에 누가 제일 커요?", "가족 중에서 누가 키가 제일 커요?", "가족 중에 누가 키가 제일 커요?", "가족 중에서 누가 가장 키가 커요?", "가족 중에서 누가 키가 가장 커요?", "가족 중에 누가 가장 키가 커요?", "가족 중에 누가 키가 가장 커요?"],
         explanation: "누가 (누구 + 가) asks for the new information. 제일 can go before 키가 or right before 커요.",
       },
       {
@@ -432,7 +432,7 @@ export const KO_A2_U14: Lesson[] = [
         heading: "같이: 'like' attached, 'together' spaced",
         body: [
           "같이 can replace 처럼 with the same meaning: 바보같이 'like an idiot', 꿈같이 'like a dream', 친구같이 'like a friend'. As a particle it is written attached to the noun, exactly like 처럼. It is very common in speech, and both meanings are said [가치], the palatalization from Unit 3.",
-          "You already know 같이 'together': 같이 가요 'let's go together'. That 같이 is an adverb, a word of its own, so it is spaced: 친구하고 같이 가요 'I'm going with a friend'. The spacing shows which one you're reading: 친구같이 'like a friend', 친구하고 같이 'together with a friend'. Never use both: *가족처럼 같이 in the sense of 'like family' is one 'like' too many.",
+          "You already know 같이 'together': 같이 가요 'let's go together'. That 같이 is an adverb, a word of its own, so it is spaced: 친구하고 같이 가요 'I'm going with a friend'. The spacing shows which one you're reading: 친구같이 'like a friend', 친구하고 같이 'together with a friend'. Don't use both: *가족처럼같이 for 'like family' is one 'like' too many.",
         ],
         examples: [
           { es: "바보같이 또 우산을 안 가져왔어요.", en: "Like an idiot, I didn't bring my umbrella again." },
@@ -990,7 +990,7 @@ export const KO_A2_U14: Lesson[] = [
         question: "Which is the natural spoken way to say 'Exercising in the morning is best'?",
         options: ["아침에 운동하는 게 제일 좋아요.", "아침에 운동하는 거가 제일 좋아요.", "아침에 운동해요가 제일 좋아요.", "아침에 운동하는 제일 좋아요."],
         correctIndex: 0,
-        explanation: "것이 contracts to 게; *거가 is never used. A verb needs -는 것 (or 게) to act as a subject.",
+        explanation: "것이 contracts to 게; 거가 is not standard. A verb needs -는 것 (or 게) to act as a subject.",
       },
       {
         type: "word-order",
@@ -1204,7 +1204,6 @@ export const KO_A2_U14: Lesson[] = [
             en: "Korean food and Japanese food [are different].",
             sentence: "한국 음식하고 일본 음식은 ___.",
             answer: "달라요",
-            altAnswers: ["많이 달라요"],
             explanation: "다르다 → 달라요 (르 irregular).",
           },
         ],
@@ -1750,7 +1749,7 @@ export const KO_A2_U14: Lesson[] = [
         source: "My older sister and I have different personalities.",
         answer: "저는 언니하고 성격이 달라요.",
         altAnswers: ["저는 언니랑 성격이 달라요.", "저는 언니와 성격이 달라요.", "언니하고 저는 성격이 달라요.", "언니랑 저는 성격이 달라요.", "언니하고 성격이 달라요.", "언니랑 성격이 달라요."],
-        explanation: "'Different from' takes 하고 / 랑 / 와, never 보다.",
+        explanation: "'Different from' takes 하고 / 랑 / 와, not 보다: 보다 measures a difference in degree.",
       },
       {
         type: "listen-choose",

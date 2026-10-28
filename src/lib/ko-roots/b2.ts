@@ -1,5 +1,5 @@
 // Synced from cheneygross-afk/lengo:src/lib/ko-roots/b2.ts by scripts/sync-content.mjs -- edit it there, not here.
-// The Upper-intermediate roots of the Korean Word Roots tool, most useful first.
+// The Upper Intermediate roots of the Korean Word Roots tool, most useful first.
 // Written for the tool; every word was checked against the Korean lesson
 // files (all of them appear in the course), but nothing here imports the
 // lessons. Hanja are the traditional forms used in Korea; `r` is the

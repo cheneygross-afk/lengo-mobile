@@ -373,7 +373,7 @@ export const KO_CULTURE_U08_EXTRA: Lesson[] = [
         source: "If you're studying Korean, try watching variety shows.",
         answer: "한국어를 공부하면 예능을 한번 보세요.",
         altAnswers: ["한국어를 공부하면 예능을 한번 봐 보세요.", "한국어를 공부하면 예능을 보세요.", "한국어를 공부하면 예능을 봐 보세요.", "한국어를 공부하시면 예능을 봐 보세요.", "한국어를 공부하시면 예능을 한번 보세요.", "한국어 공부하면 예능 한번 봐 보세요.", "한국어 공부하면 예능 봐 보세요.", "한국어를 공부하고 있으면 예능을 봐 보세요.", "한국어를 공부하고 있으면 예능을 한번 보세요."],
-        explanation: "-(으)면 for the condition, then a friendly recommendation: 한번 보세요 (\"give it a go\"). 봐 보세요 (-아 / 어 보세요, \"try watching\") is also fine in speech.",
+        explanation: "-(으)면 for the condition, then a friendly recommendation: 한번 보세요 'give it a go'. 봐 보세요 (-아 / 어 보세요, 'try watching') is also fine in speech.",
       },
       {
         type: "multiple-choice",

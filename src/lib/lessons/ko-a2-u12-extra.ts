@@ -41,7 +41,7 @@ export const KO_A2_U12_EXTRA: Lesson[] = [
             question: "Your roommate cooked dinner. You want to offer to do the dishes. What do you say?",
             options: ["제가 설거지할까요?", "제가 설거지할래요?", "설거지하자요.", "설거지하세요."],
             correctIndex: 0,
-            explanation: "An offer is 제가 + -(으)ㄹ까요?. 설거지할래요? asks if they want to do it, and *하자요 doesn't exist.",
+            explanation: "An offer is 제가 + -(으)ㄹ까요?. 설거지할래요? asks if they want to do it, and *하자요 isn't standard: -자 doesn't take 요.",
           },
         ],
       },
@@ -214,7 +214,7 @@ export const KO_A2_U12_EXTRA: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "I intend to read one Korean novel every weekend.",
         answer: "주말마다 한국 소설을 한 권씩 읽으려고 해요.",
-        altAnswers: ["주말마다 한국 소설을 한 권 읽으려고 해요.", "매주 주말에 한국 소설을 한 권씩 읽으려고 해요.", "주말마다 한국 소설 한 권씩 읽으려고 해요.", "주말마다 한국 소설을 1권씩 읽으려고 해요.", "주말마다 한국 소설을 1권 읽으려고 해요."],
+        altAnswers: ["주말마다 한국 소설을 한 권 읽으려고 해요.", "매주 주말에 한국 소설을 한 권씩 읽으려고 해요.", "주말마다 한국 소설 한 권씩 읽으려고 해요.", "주말마다 한국 소설을 1권씩 읽으려고 해요.", "주말마다 한국 소설을 1권 읽으려고 해요.", "저는 주말마다 한국 소설을 한 권씩 읽으려고 해요."],
         explanation: "읽다 + 으려고 해요. 한 권씩 'one book each time' uses a native number with the counter 권.",
       },
       {
@@ -223,7 +223,7 @@ export const KO_A2_U12_EXTRA: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "I promised to make a cake for my brother's birthday.",
         answer: "동생 생일에 케이크를 만들기로 약속했어요.",
-        altAnswers: ["동생 생일에 케이크를 만들어 주기로 약속했어요.", "동생 생일에 케이크를 만들기로 했어요.", "동생 생일 때 케이크를 만들기로 약속했어요.", "남동생 생일에 케이크를 만들기로 약속했어요."],
+        altAnswers: ["동생 생일에 케이크를 만들어 주기로 약속했어요.", "동생 생일에 케이크를 만들기로 했어요.", "동생 생일 때 케이크를 만들기로 약속했어요.", "남동생 생일에 케이크를 만들기로 약속했어요.", "저는 동생 생일에 케이크를 만들기로 약속했어요."],
         explanation: "만들 + 기로 약속했어요. -기 never adds 으 or changes the ㄹ.",
       },
       {
@@ -232,7 +232,7 @@ export const KO_A2_U12_EXTRA: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "I was going to move this month, but I couldn't find a place.",
         answer: "이번 달에 이사하려고 했어요. 그런데 집을 못 찾았어요.",
-        altAnswers: ["이번 달에 이사하려고 했어요. 근데 집을 못 찾았어요.", "이번 달에 이사하려고 했어요. 그런데 집을 찾지 못했어요.", "이번 달에 이사하려고 했어요. 그런데 집을 못 구했어요."],
+        altAnswers: ["이번 달에 이사하려고 했어요. 근데 집을 못 찾았어요.", "이번 달에 이사하려고 했어요. 그런데 집을 찾지 못했어요.", "이번 달에 이사하려고 했어요. 그런데 집을 못 구했어요.", "저는 이번 달에 이사하려고 했어요. 그런데 집을 못 찾았어요."],
         explanation: "-(으)려고 했어요 'was going to', then why it didn't happen.",
       },
       {
@@ -249,7 +249,7 @@ export const KO_A2_U12_EXTRA: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "I'm planning to make a schedule this weekend.",
         answer: "이번 주말에 일정을 만들려고 해요.",
-        altAnswers: ["주말에 일정을 만들려고 해요.", "이번 주말에 일정을 짜려고 해요.", "주말에 일정을 짜려고 해요."],
+        altAnswers: ["주말에 일정을 만들려고 해요.", "이번 주말에 일정을 짜려고 해요.", "주말에 일정을 짜려고 해요.", "저는 이번 주말에 일정을 만들려고 해요."],
         explanation: "만들다 is an ㄹ stem: 만들려고, no 으. Koreans also say 일정을 짜다 'to plan out a schedule'.",
       },
       {
@@ -387,7 +387,7 @@ export const KO_A2_U12_EXTRA: Lesson[] = [
         prompt: "Translate into Korean (polite).",
         source: "I was sick, so I was absent yesterday.",
         answer: "어제는 아파서 결석했어요.",
-        altAnswers: ["어제 아파서 결석했어요.", "아파서 어제 결석했어요.", "어제는 아파서 학교에 못 갔어요."],
+        altAnswers: ["어제 아파서 결석했어요.", "아파서 어제 결석했어요.", "어제는 아파서 학교에 못 갔어요.", "저는 어제는 아파서 결석했어요."],
         explanation: "결석 [결썩] 'absence'; 결석하다 'to be absent'. The reason takes -아서.",
       },
       {
@@ -464,7 +464,7 @@ export const KO_A2_U12_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Korean for the bold words.",
-        en: "Please come out [exit] 3.",
+        en: "Please come out of [exit] 3.",
         sentence: "3번 ___로 나오세요.",
         answer: "출구",
         explanation: "출구 stays [출구]: ㄱ after ㄹ is not tensified.",

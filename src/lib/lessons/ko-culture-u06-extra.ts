@@ -330,7 +330,7 @@ export const KO_CULTURE_U06_EXTRA: Lesson[] = [
         prompt: "Translate into Korean (the owner replying to a review, formal).",
         source: "Thank you for visiting!",
         answer: "방문해 주셔서 감사합니다!",
-        altAnswers: ["와 주셔서 감사합니다!", "방문해 주셔서 감사해요!", "찾아 주셔서 감사합니다!", "방문 감사합니다!", "찾아와 주셔서 감사합니다!"],
+        altAnswers: ["와 주셔서 감사합니다!", "찾아 주셔서 감사합니다!", "방문 감사합니다!", "찾아와 주셔서 감사합니다!"],
         explanation: "-아 / 어 주셔서 감사합니다 'thank you for doing (for us)': the owner's standard line.",
       },
       {

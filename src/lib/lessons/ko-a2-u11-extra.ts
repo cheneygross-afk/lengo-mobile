@@ -33,7 +33,7 @@ export const KO_A2_U11_EXTRA: Lesson[] = [
             prompt: "Translate into Korean.",
             source: "I bought a present for a friend who's getting married next month.",
             answer: "다음 달에 결혼할 친구한테 선물을 샀어요.",
-            altAnswers: ["다음 달에 결혼할 친구에게 선물을 샀어요.", "다음 달에 결혼하는 친구한테 선물을 샀어요.", "다음 달에 결혼하는 친구에게 선물을 샀어요.", "다음 달에 결혼할 친구 선물을 샀어요.", "다음 달에 결혼할 친구한테 줄 선물을 샀어요."],
+            altAnswers: ["다음 달에 결혼할 친구에게 선물을 샀어요.", "다음 달에 결혼하는 친구한테 선물을 샀어요.", "다음 달에 결혼하는 친구에게 선물을 샀어요.", "다음 달에 결혼할 친구 선물을 샀어요.", "다음 달에 결혼할 친구한테 줄 선물을 샀어요.", "저는 다음 달에 결혼할 친구한테 선물을 샀어요."],
             explanation: "The wedding is still to come: 결혼할 친구. 한테 'to / for' a person.",
           },
           {
@@ -296,7 +296,7 @@ export const KO_A2_U11_EXTRA: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I'm going to take a shower after I get home.",
         answer: "집에 간 후에 샤워할 거예요.",
-        altAnswers: ["집에 도착한 후에 샤워할 거예요.", "집에 간 다음에 샤워할 거예요.", "집에 가서 샤워할 거예요.", "집에 들어간 후에 샤워할 거예요.", "집에 간 뒤에 샤워할 거예요.", "집에 가고 나서 샤워할 거예요."],
+        altAnswers: ["집에 도착한 후에 샤워할 거예요.", "집에 간 다음에 샤워할 거예요.", "집에 가서 샤워할 거예요.", "집에 들어간 후에 샤워할 거예요.", "집에 간 뒤에 샤워할 거예요.", "집에 가고 나서 샤워할 거예요.", "저는 집에 간 후에 샤워할 거예요."],
         explanation: "The future is on 샤워할 거예요; 간 후에 stays in the past modifier, as English 'after I get home' stays in the present.",
       },
       {

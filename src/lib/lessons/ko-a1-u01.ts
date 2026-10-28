@@ -647,7 +647,7 @@ export const KO_A1_U01: Lesson[] = [
         heading: "씨: for other people's names",
         body: [
           "씨 after a name is a polite 'Mr' or 'Ms', written with a space: 민수 씨, 지은 씨, 김지은 씨. It goes on other people's names, never your own: *저는 민수 씨예요 sounds as if you're honouring yourself.",
-          "Teachers don't get 씨, because 선생님 is already a respectful title: say 김 선생님 or just 선생님. Koreans don't call a teacher by first name at all.",
+          "Teachers don't get 씨, because 선생님 is already a respectful title: say 김 선생님 or just 선생님. Koreans don't normally call a teacher by first name.",
         ],
         examples: [
           { es: "민수 씨, 안녕하세요.", en: "Hello, Minsu." },

@@ -781,7 +781,7 @@ export const KO_CULTURE_U02: Lesson[] = [
         prompt: "Translate into Korean (to café staff, with -는데요).",
         source: "Excuse me, I ordered a latte...",
         answer: "저기요, 라테를 주문했는데요.",
-        altAnswers: ["저기요, 저는 라테를 주문했는데요.", "저기요, 라테 주문했는데요.", "저기요, 라테를 시켰는데요.", "저기요, 라테 시켰는데요.", "저기요, 저 라테 주문했는데요.", "저기요, 저 라테 시켰는데요.", "저, 라테를 주문했는데요."],
+        altAnswers: ["저기요, 저는 라테를 주문했는데요.", "저기요, 라테 주문했는데요.", "저기요, 라테를 시켰는데요.", "저기요, 라테 시켰는데요.", "저기요, 저 라테 주문했는데요.", "저기요, 저 라테 시켰는데요.", "저, 라테를 주문했는데요.", "저기요, 라떼를 주문했는데요.", "저기요, 라떼 주문했는데요.", "저기요, 라떼를 시켰는데요.", "저기요, 라떼 시켰는데요."],
         explanation: "Past + -는데요: 주문했는데요. You state the fact and the staff realise the order is wrong, without you complaining outright.",
       },
       {
@@ -1269,8 +1269,8 @@ export const KO_CULTURE_U02: Lesson[] = [
             prompt: "Translate into Korean (formal; leaving before your team leader).",
             source: "Then I'll head off first.",
             answer: "그럼 먼저 들어가 보겠습니다.",
-            altAnswers: ["그럼 먼저 들어가겠습니다.", "먼저 들어가 보겠습니다.", "먼저 들어가겠습니다.", "그럼 먼저 퇴근하겠습니다.", "먼저 퇴근하겠습니다.", "그럼 먼저 가 보겠습니다.", "그럼 먼저 들어가 볼게요."],
-            explanation: "먼저 'before you' acknowledges that others are staying; -겠습니다 is the formal intention.",
+            altAnswers: ["그럼 먼저 들어가겠습니다.", "먼저 들어가 보겠습니다.", "먼저 들어가겠습니다.", "그럼 먼저 퇴근하겠습니다.", "먼저 퇴근하겠습니다.", "그럼 먼저 가 보겠습니다."],
+            explanation: "먼저 'before you' acknowledges that others are staying; -겠습니다 is the formal intention (들어가 볼게요 is polite, but not the formal set phrase).",
           },
           {
             type: "speak",
@@ -1441,9 +1441,9 @@ export const KO_CULTURE_U02: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Your teacher marks your answer wrong, but you think it's right. Which reply is just right?",
-            options: ["선생님, 혹시 이것도 맞지 않아요?", "선생님, 틀렸어요.", "선생님이 잘못했어요.", "이거 맞아요. 다시 보세요."],
+            options: ["선생님, 혹시 이것도 정답 아니에요?", "선생님, 틀렸어요.", "선생님이 잘못했어요.", "이거 맞아요. 다시 보세요."],
             correctIndex: 0,
-            explanation: "혹시 + a negative question 'couldn't this be right too?' lets the teacher reconsider without losing face. The others are blunt corrections or commands.",
+            explanation: "혹시 + a negative question 'isn't this a right answer too?' lets the teacher reconsider without losing face. The others are blunt corrections or commands.",
           },
         ],
       },

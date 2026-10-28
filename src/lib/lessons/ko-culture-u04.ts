@@ -528,7 +528,7 @@ export const KO_CULTURE_U04: Lesson[] = [
         examples: [
           { es: "올해 아버지께서 환갑이세요.", en: "My father turns sixty this year." },
           { es: "어머니 칠순에 가족들이 모두 모였어요.", en: "The whole family got together for my mother's seventieth." },
-          { es: "부모님께 제주도 여행을 보내 드렸어요.", en: "We sent our parents on a trip to Jeju." },
+          { es: "부모님을 제주도로 여행 보내 드렸어요.", en: "We sent our parents on a trip to Jeju." },
           { es: "할머니, 오래오래 건강하세요.", en: "Grandma, stay healthy for many, many years." },
         ],
         checkpoint: [
@@ -613,9 +613,9 @@ export const KO_CULTURE_U04: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into Korean.",
         source: "We sent our parents on a trip to Jeju.",
-        answer: "부모님께 제주도 여행을 보내 드렸어요.",
-        altAnswers: ["부모님을 제주도로 여행 보내 드렸어요.", "부모님께 제주도 여행을 선물해 드렸어요.", "부모님한테 제주도 여행을 보내 드렸어요.", "부모님을 제주도에 여행 보내 드렸어요.", "부모님을 제주도 여행 보내 드렸어요.", "부모님 제주도 여행 보내 드렸어요.", "부모님을 제주도로 여행을 보내 드렸어요."],
-        explanation: "A favour for your parents takes -아 / 어 드리다: 보내 드렸어요. 여행을 보내다 'to send someone on a trip'.",
+        answer: "부모님을 제주도로 여행 보내 드렸어요.",
+        altAnswers: ["부모님께 제주도 여행을 보내 드렸어요.", "부모님께 제주도 여행을 선물해 드렸어요.", "부모님한테 제주도 여행을 보내 드렸어요.", "부모님을 제주도에 여행 보내 드렸어요.", "부모님을 제주도 여행 보내 드렸어요.", "부모님 제주도 여행 보내 드렸어요.", "부모님을 제주도로 여행을 보내 드렸어요."],
+        explanation: "A favour for your parents takes -아 / 어 드리다: 보내 드렸어요. The people you send are the object: 부모님을 (제주도로) 여행 보내다 'send someone on a trip'. With 께 it sounds more like giving them a trip as a present (선물해 드렸어요).",
       },
       {
         type: "translate",
@@ -767,7 +767,7 @@ export const KO_CULTURE_U04: Lesson[] = [
         source: "People usually give 50,000 or 100,000 won.",
         answer: "보통 5만 원이나 10만 원 내요.",
         altAnswers: ["보통 오만 원이나 십만 원 내요.", "보통 5만 원이나 10만 원을 내요.", "보통 오만 원이나 십만 원을 내요.", "보통 50,000원이나 100,000원 내요.", "보통 5만 원이나 10만 원 해요.", "보통 오만 원이나 십만 원 해요.", "보통 5만 원 아니면 10만 원 내요.", "보통 오만 원 아니면 십만 원 내요."],
-        explanation: "(이)나 'or' after 원, and 내다 for paying money in. 10만 is said 십만, never *일십만.",
+        explanation: "(이)나 'or' after 원, and 내다 for paying money in. 10만 is said 십만, not 일십만.",
       },
       {
         type: "translate",
@@ -900,7 +900,7 @@ export const KO_CULTURE_U04: Lesson[] = [
             prompt: "Translate into Korean (to a friend).",
             source: "Happy birthday!",
             answer: "생일 축하해!",
-            altAnswers: ["생일 축하해요!", "생일 진짜 축하해!", "생일 정말 축하해!"],
+            altAnswers: ["생일 진짜 축하해!", "생일 정말 축하해!"],
             explanation: "A friend has a 생일, and casual 축하해 fits.",
           },
           {
@@ -956,8 +956,8 @@ export const KO_CULTURE_U04: Lesson[] = [
         prompt: "Translate into Korean (to your boss, in a formal card).",
         source: "Happy New Year.",
         answer: "새해 복 많이 받으십시오.",
-        altAnswers: ["새해 복 많이 받으세요.", "사장님, 새해 복 많이 받으십시오.", "사장님, 새해 복 많이 받으세요."],
-        explanation: "-(으)십시오 is the formal version for cards and speeches; -(으)세요 is fine too.",
+        altAnswers: ["사장님, 새해 복 많이 받으십시오."],
+        explanation: "-(으)십시오 is the formal version for cards and speeches; 받으세요 is the everyday polite wish, warm but not formal.",
       },
       {
         type: "translate",
@@ -1028,7 +1028,7 @@ export const KO_CULTURE_U04: Lesson[] = [
         prompt: "Translate into Korean (to a friend getting married).",
         source: "Congratulations on your wedding!",
         answer: "결혼 축하해!",
-        altAnswers: ["결혼 정말 축하해!", "결혼 진짜 축하해!", "결혼 축하해요!"],
+        altAnswers: ["결혼 정말 축하해!", "결혼 진짜 축하해!"],
         explanation: "Casual 축하해 to a friend.",
       },
       {
@@ -1055,7 +1055,7 @@ export const KO_CULTURE_U04: Lesson[] = [
         prompt: "Translate into Korean (to your younger cousin, the day before the exam).",
         source: "Good luck on the suneung!",
         answer: "수능 잘 봐!",
-        altAnswers: ["수능 시험 잘 봐!", "내일 수능 잘 봐!", "수능 잘 봐요!"],
+        altAnswers: ["수능 시험 잘 봐!", "내일 수능 잘 봐!"],
         explanation: "시험을 보다 'to sit an exam', and 잘 봐 'do well on it'. To a younger cousin, casual.",
       },
       {
@@ -1064,7 +1064,7 @@ export const KO_CULTURE_U04: Lesson[] = [
         prompt: "Translate into Korean (to a friend).",
         source: "Good luck on your exam!",
         answer: "시험 잘 봐!",
-        altAnswers: ["시험 잘 봐요!", "내일 시험 잘 봐!"],
+        altAnswers: ["내일 시험 잘 봐!", "시험 잘 봐라!"],
         explanation: "Korean wishes you 'see the exam well': 시험 잘 봐.",
       },
       {
@@ -1073,7 +1073,7 @@ export const KO_CULTURE_U04: Lesson[] = [
         prompt: "Translate into Korean (to a friend whose baby turns one).",
         source: "Congratulations on your baby's first birthday!",
         answer: "아기 돌 축하해!",
-        altAnswers: ["아기 첫 생일 축하해!", "돌 축하해!", "아기 돌 정말 축하해!", "아기 돌 축하해요!", "아기 첫 생일 축하해요!"],
+        altAnswers: ["아기 첫 생일 축하해!", "돌 축하해!", "아기 돌 정말 축하해!"],
         explanation: "A first birthday is 돌. No honorific for a baby.",
       },
       {
@@ -1403,7 +1403,7 @@ export const KO_CULTURE_U04: Lesson[] = [
         heading: "Arriving with a gift",
         body: [
           "민수 has been invited to spend 추석 with his friend 준호's family in 전주. He arrives with a box of fruit, the classic holiday gift, and hands it over with both hands. Listen for the ritual: the guest plays the gift down (별거 아니지만 'it's nothing much, but'), and the host protests (뭘 이런 걸 다 사 왔어요 'oh, you shouldn't have'). Smile and let it go.",
-          "Notice that 민수 calls his friend's mother 어머니: Koreans address a friend's parents as 어머니 and 아버지, which sounds warm and polite.",
+          "Notice that 민수 calls his friend's mother 어머니: Koreans address a friend's parents as 어머니 and 아버지 (or 어머님 and 아버님), which sounds warm and polite.",
         ],
         examples: [
           { es: "민수: 안녕하세요, 처음 뵙겠습니다. 준호 친구 민수예요.", en: "Minsu: Hello, nice to meet you. I'm Junho's friend, Minsu." },
@@ -1609,7 +1609,7 @@ export const KO_CULTURE_U04: Lesson[] = [
       {
         heading: "To your teacher: formal and warm",
         body: [
-          "Around 설날, phones fill with New Year's messages. Yours to your old Korean teacher should be formal: -(으)십시오 or -(으)세요, -습니다 endings and -시- wherever she is the subject. The usual shape is the wish, a thank-you for last year, a wish for her health, and 올해도 잘 부탁드립니다 'please keep looking after me this year'.",
+          "Around 설날, phones fill with New Year's messages. Yours to your old Korean teacher should be formal: -(으)십시오 and -습니다 endings and -시- wherever she is the subject (a closing 건강하세요 is fine too). The usual shape is the wish, a thank-you for last year, a wish for her health, and 올해도 잘 부탁드립니다 'please keep looking after me this year'.",
           "좋은 일만 가득하시길 바랍니다 'I hope your year is full of good things' is a set closing line: -시길 is short for -시기를, from the -기 you know.",
         ],
         examples: [
@@ -1708,8 +1708,8 @@ export const KO_CULTURE_U04: Lesson[] = [
         prompt: "Translate into Korean (formal, to your teacher).",
         source: "Happy New Year, Teacher.",
         answer: "선생님, 새해 복 많이 받으십시오.",
-        altAnswers: ["선생님, 새해 복 많이 받으세요.", "새해 복 많이 받으십시오, 선생님.", "새해 복 많이 받으세요, 선생님."],
-        explanation: "-(으)십시오 is the formal wish for messages to elders; -(으)세요 also works.",
+        altAnswers: ["새해 복 많이 받으십시오, 선생님."],
+        explanation: "-(으)십시오 is the formal wish for messages to elders; 받으세요 is the warm everyday polite version, not formal.",
       },
       {
         type: "translate",
@@ -1717,7 +1717,7 @@ export const KO_CULTURE_U04: Lesson[] = [
         prompt: "Translate into Korean (formal, to your teacher).",
         source: "I look forward to your support again this year.",
         answer: "올해도 잘 부탁드립니다.",
-        altAnswers: ["올해도 잘 부탁드려요.", "올해도 잘 부탁합니다.", "올해도 많이 부탁드립니다.", "올해도 잘 부탁드리겠습니다."],
+        altAnswers: ["올해도 잘 부탁합니다.", "올해도 많이 부탁드립니다.", "올해도 잘 부탁드리겠습니다.", "선생님, 올해도 잘 부탁드립니다."],
         explanation: "잘 부탁드립니다 is the set line for continuing a relationship; 드리다 makes it humble.",
       },
       {

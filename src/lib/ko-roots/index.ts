@@ -10,7 +10,7 @@ export const KO_ROOT_LEVELS: { level: KoRootLevel; name: string; topik: string; 
   { level: "a1", name: "Beginner", topik: "TOPIK 1", blurb: "Numbers, days and months, people, places and the first everyday words." },
   { level: "a2", name: "Elementary", topik: "TOPIK 2", blurb: "Work and shops, hospitals and banks, weather, colours and feelings of daily life." },
   { level: "b1", name: "Intermediate", topik: "TOPIK 3", blurb: "Health, experience, plans and prices, travel and the words of opinions." },
-  { level: "b2", name: "Upper-intermediate", topik: "TOPIK 4", blurb: "Politics, law, the arts, the environment, research and the economy." },
+  { level: "b2", name: "Upper Intermediate", topik: "TOPIK 4", blurb: "Politics, law, the arts, the environment, research and the economy." },
   { level: "c1", name: "Advanced", topik: "TOPIK 5", blurb: "History and tradition, systems and rules, risk and safety, conflict and peace." },
   { level: "c2", name: "Mastery", topik: "TOPIK 6 and beyond", blurb: "Thought and ideas, judgement and law, medicine, evidence and knowledge." },
 ];

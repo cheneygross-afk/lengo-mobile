@@ -179,9 +179,9 @@ export const KO_A2_U02_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "You tell a friend: 'I waited a long time.'",
-        options: ["오래 기다렸어.", "오래 기다리었어.", "오래 기다렸어요.", "오래 기다려."],
+        options: ["오래 기다렸어.", "오래 기다릴 거야.", "오래 기다렸어요.", "오래 기다려."],
         correctIndex: 0,
-        explanation: "기다리 + 었 contracts to 기다렸; drop 요 for a friend. 기다려 would be present.",
+        explanation: "기다리 + 었 contracts to 기다렸; drop 요 for a friend. 기다려 would be present, 기다릴 거야 future, and 기다렸어요 is polite, not 반말.",
       },
       {
         type: "dictation",
@@ -566,7 +566,6 @@ export const KO_A2_U02_EXTRA: Lesson[] = [
         type: "dictation",
         audio: "사장님, 이거 얼마예요?",
         answer: "사장님, 이거 얼마예요?",
-        altAnswers: ["사장님 이거 얼마예요?"],
         explanation: "사장님 is how Koreans address shop and restaurant owners.",
       },
       {

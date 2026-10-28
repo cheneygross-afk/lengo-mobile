@@ -334,7 +334,7 @@ export const KO_A2_U06: Lesson[] = [
         question: "Your phone rings during a meeting. You answer in a whisper to say you can't talk now. What do you say?",
         options: ["지금 통화할 수 없어요.", "지금 통화할 수 있어요.", "지금 안 통화해요.", "지금 통화 안 할 수 없어요."],
         correctIndex: 0,
-        explanation: "통화할 수 없어요 is 'I can't talk on the phone'. *안 통화해요 puts 안 in the wrong place, and 안 할 수 없어요 means 'I have no choice but to'.",
+        explanation: "통화할 수 없어요 is 'I can't talk on the phone'. 안 통화해요 sounds foreign (Koreans say 통화 안 해요) and means 'won't', not 'can't'; 안 할 수 없어요 means 'I have no choice but to'.",
       },
       {
         type: "word-order",
@@ -389,7 +389,7 @@ export const KO_A2_U06: Lesson[] = [
         source: "I can't talk on the phone now.",
         answer: "지금 통화 못 해요.",
         altAnswers: ["지금은 통화 못 해요.", "지금 통화를 못 해요.", "지금 통화할 수 없어요.", "지금은 통화할 수 없어요.", "지금 전화 못 해요.", "지금 전화할 수 없어요."],
-        explanation: "못 goes between 통화 and 해요. *못 통화해요 is the classic mistake.",
+        explanation: "못 goes between 통화 and 해요. 못 통화해요 is the classic learner version: understandable, but it sounds foreign.",
       },
       {
         type: "speak",
@@ -742,7 +742,7 @@ export const KO_A2_U06: Lesson[] = [
         en: "(to a friend) It's not that [cold].",
         sentence: "별로 ___ 않아.",
         answer: "춥지",
-        explanation: "춥다 → 춥지 않아. 별로 'not that' always comes with a negative.",
+        explanation: "춥다 → 춥지 않아. 별로 'not that' normally comes with a negative.",
       },
       {
         type: "multiple-choice",
@@ -812,7 +812,7 @@ export const KO_A2_U06: Lesson[] = [
         heading: "-지 못해요: the long 'can't'",
         body: [
           "못 also has a long form: stem + 지 못해요. 못 갔어요 and 가지 못했어요 both mean 'I couldn't go'. As with -지 않다, the tense goes at the end (자지 못했어요), and 하다 verbs stay whole: 공부하지 못했어요.",
-          "Here 못하다 is written as one word: 가지 못해요, not *가지 못 해요. Say 못해요 as [모태요]: the ㅅ sound of 못 and the ㅎ merge into [ㅌ].",
+          "Here 못하다 is written as one word: 가지 못해요, not *가지 못 해요. Say 못해요 as [모태요]: the final [ㄷ] sound of 못 and the ㅎ merge into [ㅌ].",
         ],
         examples: [
           { es: "어제 잠을 자지 못했어요.", en: "I couldn't sleep last night." },
@@ -1543,11 +1543,11 @@ export const KO_A2_U06: Lesson[] = [
       {
         heading: "Where the negative goes",
         body: [
-          "*못 공부해요 → 공부 못 해요: short 못 and 안 go right before 해요. Or avoid the split with the long form: 공부하지 못해요.",
+          "못 공부해요 sounds foreign → 공부 못 해요: short 못 and 안 go right before 해요. Or avoid the split with the long form: 공부하지 못해요.",
           "*안 학생이에요 → 학생이 아니에요, and *알지 않아요 → 몰라요: 이다 and 알다 have their own negatives. *갔지 않아요 → 가지 않았어요: the tense goes on the last verb only.",
         ],
         examples: [
-          { es: "오늘은 공부 못 해요.", en: "I can't study today. (not *못 공부해요)" },
+          { es: "오늘은 공부 못 해요.", en: "I can't study today. (not 못 공부해요)" },
           { es: "저는 학생이 아니에요.", en: "I'm not a student. (not *안 학생이에요)" },
           { es: "그 사람을 몰라요.", en: "I don't know him. (not *알지 않아요)" },
           { es: "어제 가지 않았어요.", en: "I didn't go yesterday. (not *갔지 않아요)" },
@@ -1643,7 +1643,7 @@ export const KO_A2_U06: Lesson[] = [
         source: "I can't drive.",
         answer: "저는 운전 못 해요.",
         altAnswers: ["운전 못 해요.", "운전을 못 해요.", "저는 운전을 못 해요.", "운전할 수 없어요.", "저는 운전할 수 없어요.", "운전하지 못해요.", "운전할 줄 몰라요.", "저는 운전할 줄 몰라요."],
-        explanation: "못 goes between 운전 and 해요.",
+        explanation: "못 goes between 운전 and 해요; 못 운전해요 is understandable but sounds foreign.",
       },
       {
         type: "translate",
@@ -1918,7 +1918,7 @@ export const KO_A2_U06: Lesson[] = [
       {
         type: "dictation",
         audio: "다음 주부터 일할 수 있어요?",
-        explanation: "Heard [다음 쭈부터 이랄 쑤 이써요]; written 일할 수, with 수 spaced apart.",
+        explanation: "Heard [이랄 쑤 이써요]; written 일할 수, with 수 spaced apart.",
       },
       {
         type: "speak",
@@ -2133,7 +2133,7 @@ export const KO_A2_U06_WRITING: WriteExercise = {
   rubric: [
     "Says what you can do with -(으)ㄹ 수 있습니다 (or 있어요), 수 spaced as its own word and ㄹ stems right (만들 수, not 만들을 수)",
     "Says what you know how to do with -(으)ㄹ 줄 압니다 / 모릅니다, only for learned skills (커피를 만들 줄 압니다)",
-    "Says what you can't do or aren't good at with -지 못합니다, 못 or 수 없습니다 and 잘 못합니다, the negative in the right place (운전 못 합니다, never 못 운전합니다)",
+    "Says what you can't do or aren't good at with -지 못합니다, 못 or 수 없습니다 and 잘 못합니다, the negative in the right place (운전 못 합니다; 못 운전합니다 sounds foreign)",
     "Gives a reason with -아서 / -어서 for a time you can't work (수업이 있어서 일하지 못합니다)",
   ],
   modelAnswer: "안녕하십니까? 저는 에밀리입니다. 영국 사람이고, 지금 한국어를 공부하고 있습니다. 커피를 만들 줄 압니다. 영국에서 카페 아르바이트를 했습니다. 라테 아트는 아직 잘 못합니다. 그런데 열심히 배우겠습니다. 영어와 한국어를 할 수 있습니다. 토요일에는 일할 수 있습니다. 그런데 일요일 오전에는 수업이 있어서 일하지 못합니다. 잘 부탁드립니다.",

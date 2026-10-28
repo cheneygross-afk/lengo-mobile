@@ -18,7 +18,7 @@ export const KO_A1_U09: Lesson[] = [
         heading: "-았어요 after ㅏ or ㅗ",
         body: [
           "The past tense uses the same vowel rule as the present. Look at the last vowel of the stem: ㅏ or ㅗ takes 았어요. If you know 받아요 'I receive', you already know 받았어요 'I received': the stem 받, then 았, then 어요.",
-          "One form covers every person. 받았어요 is 'I received', 'you received', 'she received' and 'they received'; Korean never changes the verb for the person, so the context or a name tells you who. Learn 알았어요 now as a phrase: literally 'I knew', it means 'Got it' or 'OK' when someone asks you to do something.",
+          "One form covers every person. 받았어요 is 'I received', 'you received', 'she received' and 'they received'; the verb doesn't change for the person, so the context or a name tells you who. Learn 알았어요 now as a phrase: literally 'I knew', it means 'Got it' or 'OK' when someone asks you to do something.",
         ],
         examples: [
           { es: "선물을 받았어요.", en: "I got a present." },
@@ -114,7 +114,7 @@ export const KO_A1_U09: Lesson[] = [
             prompt: "Translate into Korean.",
             source: "I ate. (a meal)",
             answer: "밥을 먹었어요.",
-            altAnswers: ["저는 밥을 먹었어요.", "밥 먹었어요."],
+            altAnswers: ["저는 밥을 먹었어요.", "밥 먹었어요.", "저는 밥 먹었어요."],
             explanation: "밥 is 'rice' and also 'a meal'. Write 먹었어요, although it sounds like [머거써요].",
           },
           {
@@ -133,7 +133,7 @@ export const KO_A1_U09: Lesson[] = [
         prompt: "Translate into Korean.",
         source: "I washed my hands.",
         answer: "손을 씻었어요.",
-        altAnswers: ["저는 손을 씻었어요."],
+        altAnswers: ["저는 손을 씻었어요.", "손 씻었어요."],
         explanation: "씻 has ㅣ, so 씻었어요 [씨서써요].",
       },
       {
@@ -455,7 +455,7 @@ export const KO_A1_U09: Lesson[] = [
         heading: "이었어요 and 였어요: was",
         body: [
           "이에요 / 예요 'is, am, are' has a past too, split by the same consonant and vowel rule. After a consonant it's 이었어요: 학생이었어요, 일요일이었어요, said [이어써요]. After a vowel it's 였어요: 의사였어요, 친구였어요.",
-          "Two typical slips: *학생였어요, where a noun ending in a consonant needs the full 이었어요, and 의사이었어요, which Koreans always shorten to 의사였어요, just as 의사이에요 shortens to 의사예요.",
+          "Two typical slips: *학생였어요, where a noun ending in a consonant needs the full 이었어요, and the long 의사이었어요, which is possible but stiff: Koreans normally shorten it to 의사였어요, just as 의사이에요 shortens to 의사예요.",
         ],
         examples: [
           { es: "어제는 일요일이었어요.", en: "Yesterday was Sunday." },
@@ -557,7 +557,7 @@ export const KO_A1_U09: Lesson[] = [
             question: "What did you hear?",
             options: ["학생이었어요.", "학생이 있었어요.", "학생이에요.", "학생이 아니었어요."],
             correctIndex: 0,
-            explanation: "[학쌩이어써요]: 이었어요 has no ㅆ sound in the middle. 학생이 있었어요 'there was a student' is [이써써요].",
+            explanation: "[학쌩이어써요]: 이었어요 has one [써]. 학생이 있었어요 'there was a student' has two: [이써써요].",
           },
           {
             type: "speak",
@@ -1153,7 +1153,7 @@ export const KO_A1_U09: Lesson[] = [
             prompt: "Translate into Korean.",
             source: "I didn't have time. So I took a taxi.",
             answer: "시간이 없었어요. 그래서 택시를 탔어요.",
-            altAnswers: ["시간이 없었어요. 그래서 택시 탔어요.", "시간 없었어요. 그래서 택시를 탔어요."],
+            altAnswers: ["저는 시간이 없었어요. 그래서 택시를 탔어요.", "시간이 없었어요. 그래서 택시 탔어요.", "시간 없었어요. 그래서 택시를 탔어요."],
             explanation: "Cause, then 그래서, then the result. 타다 'to take (transport)' → 탔어요.",
           },
         ],
@@ -1177,7 +1177,7 @@ export const KO_A1_U09: Lesson[] = [
             prompt: "Translate into Korean.",
             source: "I went to the restaurant. But it was closed.",
             answer: "식당에 갔어요. 그런데 문을 닫았어요.",
-            altAnswers: ["식당에 갔어요. 하지만 문을 닫았어요.", "식당에 갔어요. 근데 문을 닫았어요."],
+            altAnswers: ["저는 식당에 갔어요. 그런데 문을 닫았어요.", "식당에 갔어요. 하지만 문을 닫았어요.", "식당에 갔어요. 근데 문을 닫았어요."],
             explanation: "그런데 for the unexpected turn. 'It was closed' is 문을 닫았어요 'they had closed the door'.",
           },
           {
@@ -1361,7 +1361,7 @@ export const KO_A1_U09: Lesson[] = [
             prompt: "Translate into Korean.",
             source: "My friend wasn't at home. (Present: 친구가 집에 없어요.)",
             answer: "친구가 집에 없었어요.",
-            altAnswers: ["친구는 집에 없었어요."],
+            altAnswers: ["친구는 집에 없었어요.", "제 친구가 집에 없었어요.", "제 친구는 집에 없었어요."],
             explanation: "없어요 → 없었어요. Not 'wasn't a home' (아니었어요): it's about where.",
           },
           {
@@ -1506,7 +1506,7 @@ export const KO_A1_U09: Lesson[] = [
       {
         heading: "Monday morning",
         body: [
-          "Subin and Junho are colleagues, so they speak politely and use 씨. 주말에 뭐 했어요? is the standard Monday question in every Korean office. Repeating a word with 이요? or 요? is a natural echo of surprise: 부산이요?",
+          "Subin and Junho are colleagues, so they speak politely and use 씨. 주말에 뭐 했어요? is the classic Monday question in a Korean office. Repeating a word with 이요? or 요? is a natural echo of surprise: 부산이요?",
           "시간이 얼마나 걸려요? asks how long a trip takes; in the past it's 걸렸어요.",
         ],
         examples: [
@@ -1580,7 +1580,7 @@ export const KO_A1_U09: Lesson[] = [
             prompt: "Translate into Korean.",
             source: "I didn't have time. So I couldn't go.",
             answer: "시간이 없었어요. 그래서 못 갔어요.",
-            altAnswers: ["시간 없었어요. 그래서 못 갔어요."],
+            altAnswers: ["저는 시간이 없었어요. 그래서 못 갔어요.", "시간 없었어요. 그래서 못 갔어요."],
             explanation: "The reason, then 그래서, then 못 갔어요 'couldn't go'.",
           },
         ],
@@ -1632,7 +1632,7 @@ export const KO_A1_U09: Lesson[] = [
         source: "I took the KTX.",
         answer: "KTX를 탔어요.",
         altAnswers: ["KTX 탔어요.", "저는 KTX를 탔어요."],
-        explanation: "타다 takes 을 / 를 for the vehicle; KTX is read [케이티엑스], ending in a vowel, so 를.",
+        explanation: "타다 takes 을 / 를 for the vehicle; KTX is read [케이티엑쓰], ending in a vowel, so 를.",
       },
       {
         type: "translate",
@@ -1747,12 +1747,12 @@ export const KO_A1_U09: Lesson[] = [
       {
         heading: "Was and wasn't",
         body: [
-          "*학생였어요: a noun ending in a consonant needs the full 이었어요, so 학생이었어요. *의사이었어요 is the reverse: after a vowel, Koreans shorten it to 의사였어요.",
+          "*학생였어요: a noun ending in a consonant needs the full 이었어요, so 학생이었어요. 의사이었어요 is the reverse: not wrong, but stiff; after a vowel Koreans shorten it to 의사였어요.",
           "*안 있었어요 makes 있었어요 negative with 안, but the negative is its own verb, 없었어요. Likewise 'wasn't' is 아니었어요, never *안 이었어요.",
         ],
         examples: [
           { es: "그때 저는 학생이었어요.", en: "I was a student then. (not *학생였어요)" },
-          { es: "우리 아버지는 의사였어요.", en: "My father was a doctor. (not *의사이었어요)" },
+          { es: "우리 아버지는 의사였어요.", en: "My father was a doctor. (more natural than 의사이었어요)" },
           { es: "지은 씨는 집에 없었어요.", en: "Jieun wasn't at home. (not *안 있었어요)" },
           { es: "거기는 편의점이 아니었어요.", en: "That place wasn't a convenience store. (not *안 이었어요)" },
         ],
@@ -1772,14 +1772,14 @@ export const KO_A1_U09: Lesson[] = [
             en: "Jieun [wasn't] at home. (A learner wrote *안 있었어요.)",
             sentence: "지은 씨는 집에 ___.",
             answer: "없었어요",
-            explanation: "Not being somewhere is 없었어요; 안 never goes with 있다.",
+            explanation: "Not being somewhere is 없었어요: for 'there wasn't' or 'wasn't there', Korean uses 없다, not 안 + 있다.",
           },
           {
             type: "multiple-choice",
             question: "Which is the natural way to say 'My father was a doctor'?",
-            options: ["우리 아버지는 의사였어요.", "우리 아버지는 의사이었어요.", "우리 아버지는 의사 있었어요.", "우리 아버지는 의사예요었어요."],
+            options: ["우리 아버지는 의사였어요.", "우리 아버지는 의사예요.", "우리 아버지는 의사 있었어요.", "우리 아버지는 의사예요었어요."],
             correctIndex: 0,
-            explanation: "의사 ends in a vowel, so Koreans say and write 의사였어요.",
+            explanation: "의사 ends in a vowel, so 의사였어요 (the long 의사이었어요 is possible but stiff). 의사예요 is the present, and 있었어요 is about where someone was.",
           },
         ],
       },

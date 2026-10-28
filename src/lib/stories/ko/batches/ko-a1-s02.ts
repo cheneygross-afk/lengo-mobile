@@ -10,7 +10,7 @@ export const KO_A1_S02_STORIES: Story[] = [
     title: `일요일 영상 통화`,
     subtitle: `Every Sunday a couple video-call Haeun's mother, who still hasn't worked out where to point the camera.`,
     paragraphs: [
-      `하은 씨하고 남편 태민 씨는 일요일마다 하은 씨 어머니하고 영상 통화를 해요. 어머니는 대전에 사세요. 어머니는 새 스마트폰이 있어요. 그런데 영상 통화는 아직 어려워요.`,
+      `하은 씨하고 남편 태민 씨는 일요일마다 하은 씨 어머니하고 영상 통화를 해요. 어머니는 대전에 사세요. 어머니는 새 스마트폰이 있으세요. 그런데 영상 통화는 아직 어려워요.`,
       `화면에는 보통 어머니 얼굴이 안 보여요. 천장만 보여요. 아니면 어머니 코만 보여요. 태민 씨는 매주 말해요. “어머니, 휴대폰을 조금 멀리 드세요.”`,
       `이번 일요일에도 화면에 천장이 보였어요. 그런데 천장이 좀 이상했어요. 천장에 미러볼이 있었어요. 그리고 뒤에서 노래 소리하고 탬버린 소리가 들렸어요.`,
       `“엄마, 지금 어디에 계세요?” 하은 씨가 물었어요. “집이에요, 집.” 그때 화면에 아주머니 얼굴이 나왔어요. “안녕하세요! 여기 노래방이에요!”`,
@@ -88,7 +88,7 @@ export const KO_A1_S02_STORIES: Story[] = [
     title: `영숙 씨의 첫날`,
     subtitle: `A retired primary school teacher starts English classes at sixty-four, and her new teacher looks at her for a long time.`,
     paragraphs: [
-      `영숙 씨는 예순네 살이에요. 이 년 전까지 초등학교 선생님이었어요. 영숙 씨 딸은 미국에 살아요. 손녀는 한국어를 잘 못 해요. 그래서 영숙 씨는 영어를 배우고 싶었어요.`,
+      `영숙 씨는 예순네 살이에요. 이 년 전까지 초등학교 선생님이었어요. 영숙 씨 딸은 미국에 살아요. 손녀는 한국어를 잘 못해요. 그래서 영숙 씨는 영어를 배우고 싶었어요.`,
       `월요일 아침에 영숙 씨는 처음 영어 학원에 갔어요. 교실에 학생이 여덟 명 있었어요. 모두 대학생이었어요. 영숙 씨는 조금 부끄러웠어요. 그리고 많이 긴장했어요.`,
       `선생님이 교실에 들어왔어요. 선생님은 젊고 키가 컸어요. 선생님이 이름을 불렀어요. “김영숙 씨?” 그리고 영숙 씨 얼굴을 오래 봤어요.`,
       `“어? 김영숙 선생님이세요? 저 이수빈이에요! 그때 3학년 2반이었어요!” 영숙 씨도 생각났어요. 수빈이는 그때 영어를 정말 싫어했어요. 영어 시험은 항상 빵점이었어요.`,
@@ -99,7 +99,7 @@ export const KO_A1_S02_STORIES: Story[] = [
         question: `Why did Yeongsuk want to learn English?`,
         options: [`For a new job`, `Her granddaughter in America doesn't speak much Korean.`, `She wants to travel to England.`, `Her friends are learning it.`],
         correctIndex: 1,
-        explanation: `"영숙 씨 딸은 미국에 살아요. 손녀는 한국어를 잘 못 해요."`,
+        explanation: `"영숙 씨 딸은 미국에 살아요. 손녀는 한국어를 잘 못해요."`,
       },
       {
         question: `Who were the other students in the class?`,

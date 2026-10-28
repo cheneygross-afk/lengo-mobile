@@ -53,7 +53,7 @@ export const KO_CULTURE_U02_EXTRA: Lesson[] = [
         prompt: "Translate into Korean (formal; your team leader suggests a team hike this Sunday).",
         source: "Sunday looks a bit difficult.",
         answer: "일요일은 좀 어려울 것 같습니다.",
-        altAnswers: ["일요일은 조금 어려울 것 같습니다.", "일요일은 좀 힘들 것 같습니다.", "이번 일요일은 좀 어려울 것 같습니다.", "일요일은 좀 어려울 것 같아요.", "팀장님, 일요일은 좀 어려울 것 같습니다.", "죄송하지만 일요일은 좀 어려울 것 같습니다."],
+        altAnswers: ["일요일은 조금 어려울 것 같습니다.", "일요일은 좀 힘들 것 같습니다.", "이번 일요일은 좀 어려울 것 같습니다.", "팀장님, 일요일은 좀 어려울 것 같습니다.", "죄송하지만 일요일은 좀 어려울 것 같습니다."],
         explanation: "To a team leader, -(으)ㄹ 것 같습니다 keeps the soft guess in formal speech.",
       },
       {

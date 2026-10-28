@@ -633,7 +633,7 @@ export const KO_A1_U07: Lesson[] = [
       {
         heading: "오늘, 내일, 매일, 지금: no 에",
         body: [
-          "A small group of time words never takes 에: 오늘 (today), 내일 (tomorrow), 매일 (every day), 지금 (now), 요즘 (these days). They work like English 'today' or 'now', which also take no 'on' or 'at'. *오늘에 and *내일에 are classic learner mistakes.",
+          "A small group of time words takes no 에: 오늘 (today), 내일 (tomorrow), 매일 (every day), 지금 (now), and usually 요즘 (these days; 요즘에 is also heard). They work like English 'today' or 'now', which also take no 'on' or 'at'. *오늘에 and *내일에 are classic learner mistakes.",
           "They often take 은 / 는 to contrast with other times: 오늘은 집에서 쉬어요 'Today (unlike other days) I'm resting at home'.",
         ],
         examples: [
@@ -1199,7 +1199,7 @@ export const KO_A1_U07: Lesson[] = [
       {
         heading: "에서 ... 까지: from one place to another",
         body: [
-          "For places, 'from' is 에서, not 부터: 집에서 회사까지, 'from home to the office'. This is the same 에서 you know, now meaning the starting point. *집부터 회사까지 is heard, but 에서 is the standard choice for places.",
+          "For places, 'from' is 에서, not 부터: 집에서 회사까지, 'from home to the office'. This is the same 에서 you know, now meaning the starting point. 집부터 회사까지 is heard, but 에서 is the standard choice for places.",
           "To say how long it takes, use 걸려요 'it takes', with native numbers for hours and Sino-Korean for minutes, as on the clock: 한 시간 걸려요 'it takes an hour', 삼십 분 걸려요 'it takes thirty minutes'. 걸어서 means 'on foot'.",
         ],
         examples: [
@@ -1605,7 +1605,7 @@ export const KO_A1_U07: Lesson[] = [
       {
         heading: "Wrong time words",
         body: [
-          "*오늘에 가요: 오늘, 내일, 매일, 지금 and 요즘 never take 에. *월요일 에 가요: 에 is a particle, written attached, 월요일에. *세 시부터 다섯 시에: a span needs 부터 ... 까지, so 세 시부터 다섯 시까지.",
+          "*오늘에 가요: 오늘, 내일, 매일 and 지금 never take 에 (요즘 usually doesn't either). *월요일 에 가요: 에 is a particle, written attached, 월요일에. *세 시부터 다섯 시에: a span needs 부터 ... 까지, so 세 시부터 다섯 시까지.",
           "One more: *세 시에부터. 부터 and 까지 replace 에 rather than adding to it.",
         ],
         examples: [
