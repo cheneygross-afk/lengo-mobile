@@ -5,8 +5,9 @@ import type { AppStackParamList } from "@/navigation/types";
 import { useCourseExams } from "@/components/exams/useCourseExams";
 import { formatMinutes } from "@/lib/exams/scoring";
 import TapText from "@/components/TapText";
-import { KOREAN_LANG, PORTUGUESE_LANG } from "@/lib/speech";
+import { ITALIAN_LANG, KOREAN_LANG, PORTUGUESE_LANG } from "@/lib/speech";
 import { COURSE_FOR_LEVEL, TOPIK_LEVELS, paperItems, topikKind } from "@/lib/exams/ko/scoring";
+import { CILS_LEVELS, SECTION_PASS, SECTION_POINTS } from "@/lib/exams/it/scoring";
 import type { Exam } from "@/lib/exams/types";
 
 type Props = NativeStackScreenProps<AppStackParamList, "Exams">;
@@ -19,7 +20,9 @@ const BRAND = "#8B0000";
 // website's /lessons/fr/tools/delf; with "de", the German course's
 // Goethe-Zertifikat exams (src/lib/exams/de, /lessons/de/tools/goethe);
 // with "pt", the Portuguese course's Celpe-Bras exams and the Deep End A2
-// practice test (src/lib/exams/pt, /lessons/pt/tools/celpe-bras).
+// practice test (src/lib/exams/pt, /lessons/pt/tools/celpe-bras); with
+// "ko" the Korean beta's TOPIK tests and with "it" the Italian beta's CILS
+// practice exams (src/lib/exams/it, /lessons/it/tools/cils).
 export default function ExamsScreen({ navigation, route }: Props) {
   const course = route.params?.course ?? "es";
   const exams = useCourseExams(course);
@@ -28,6 +31,7 @@ export default function ExamsScreen({ navigation, route }: Props) {
     if (course === "de") navigation.setOptions({ title: "Goethe-Zertifikat practice" });
     if (course === "pt") navigation.setOptions({ title: "Celpe-Bras practice" });
     if (course === "ko") navigation.setOptions({ title: "TOPIK practice" });
+    if (course === "it") navigation.setOptions({ title: "CILS practice" });
   }, [navigation, course]);
   if (!exams) {
     return (
@@ -37,6 +41,7 @@ export default function ExamsScreen({ navigation, route }: Props) {
     );
   }
   if (course === "ko") return <KoreanExams exams={exams} onOpen={(slug) => navigation.navigate("Exam", { slug, course: "ko" })} />;
+  if (course === "it") return <ItalianExams exams={exams} onOpen={(slug) => navigation.navigate("Exam", { slug, course: "it" })} />;
   if (course === "pt") return <PortugueseExams exams={exams} onOpen={(slug) => navigation.navigate("Exam", { slug, course: "pt" })} />;
   return (
     <ScrollView style={s.screen} contentContainerStyle={s.content}>
@@ -178,7 +183,61 @@ function KoreanExams({ exams, onOpen }: { exams: Exam[]; onOpen: (slug: string) 
   );
 }
 
+// The Italian beta's CILS practice (the website's /lessons/it/tools/cils):
+// two full practice exams for each CILS level, grouped by level, each
+// level shown with the course level that prepares for it (names, never
+// codes).
+function ItalianExams({ exams, onOpen }: { exams: Exam[]; onOpen: (slug: string) => void }) {
+  const card = (exam: Exam) => {
+    const minutes = exam.papers.reduce((m, p) => m + p.minutes, 0);
+    const questions = exam.papers.reduce((m, p) => m + paperItems(p).length, 0);
+    return (
+      <Pressable key={exam.slug} style={s.card} onPress={() => onOpen(exam.slug)}>
+        <Text style={s.title}>{exam.title}</Text>
+        <TapText text={exam.description} lang={ITALIAN_LANG} mode="mixed" style={s.description} />
+        <Text style={s.meta}>
+          {exam.papers.length} sections · about {formatMinutes(minutes)} · {questions} questions, writing and speaking
+        </Text>
+      </Pressable>
+    );
+  };
+  return (
+    <ScrollView style={s.screen} contentContainerStyle={s.content}>
+      <TapText
+        text={`Full-length practice exams in the style of the CILS ("Certificazione di Italiano come Lingua Straniera"), one of the official certificates of Italian for foreigners. Each level has its own exam, and every exam has the same five sections: listening ("ascolto"), reading ("comprensione della lettura"), grammar and vocabulary in context ("analisi delle strutture di comunicazione"), writing ("produzione scritta") and speaking ("produzione orale").`}
+        lang={ITALIAN_LANG}
+        mode="mixed"
+        style={s.intro}
+      />
+      <Text style={s.intro}>
+        Listening, reading and structures are marked as you go; writing gets feedback against the CILS-style criteria, and speaking
+        gives you the examiner&apos;s questions, timers and a model answer. Each section is marked out of {SECTION_POINTS}, and you
+        pass with {SECTION_PASS} in every section. Take a section untimed to practise, or switch on timed mode to rehearse the real
+        thing.
+      </Text>
+      {CILS_LEVELS.map((l) => {
+        const level = exams.filter((e) => e.level === l.level);
+        if (!level.length) return null;
+        return (
+          <View key={l.level} style={s.group}>
+            <Text style={s.section}>
+              {l.exam} ({l.course})
+            </Text>
+            <Text style={s.intro}>For the end of the course&apos;s {l.course} level.</Text>
+            {level.map(card)}
+          </View>
+        );
+      })}
+      <Text style={s.note}>
+        The CILS is a certificate of the Università per Stranieri di Siena. These are unofficial practice exams in the CILS style,
+        written by Deep End; they are not affiliated with or endorsed by the university and are not official exam material.
+      </Text>
+    </ScrollView>
+  );
+}
+
 const s = StyleSheet.create({
+  group: { gap: 14 },
   screen: { flex: 1, backgroundColor: "#FAF7F2" },
   loading: { alignItems: "center", justifyContent: "center" },
   content: { padding: 20, gap: 14, paddingBottom: 40 },
