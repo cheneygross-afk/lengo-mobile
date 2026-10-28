@@ -10,7 +10,7 @@ import { ITALIAN_TOOLS } from "@/lib/italianTools";
 // Each tool's icon and tile color, picked from its title.
 function toolLook(title: string): { icon: IconName; tint: Tint } {
   const t = title.toLowerCase();
-  if (t.includes("grammar")) return { icon: "grammar", tint: "rose" };
+  if (t.includes("grammar") || t.includes("articles")) return { icon: "grammar", tint: "rose" };
   if (t.includes("conjugation")) return { icon: "conjugation", tint: "saffron" };
   if (t.includes("exam") || t.includes("topik") || t.includes("cils")) return { icon: "exam", tint: "sea" };
   if (t.includes("writing")) return { icon: "writing", tint: "saffron" };

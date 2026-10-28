@@ -1,19 +1,20 @@
 // What changes between the Spanish (DELE), French (DELF/DALF), German
-// (Goethe-Zertifikat), Brazilian Portuguese (Celpe-Bras) and Korean (TOPIK) practice exams in the shared exam components -- the app's port of the website's
+// (Goethe-Zertifikat), Brazilian Portuguese (Celpe-Bras), Korean (TOPIK) and Italian (CILS) practice exams in the shared exam components -- the app's port of the website's
 // src/components/exams/examCourse.ts: the voice and tap-to-hear language,
 // the level sent to the writing feedback, the 1-5 mark descriptors and the
 // few target-language labels. The UI chrome stays in English for all of them.
 // Screens provide the course with ExamCourseContext; without one it's "es",
 // so the Spanish exam screens are unchanged.
 import { createContext, useContext } from "react";
-import { FRENCH_LANG, GERMAN_LANG, KOREAN_LANG, PORTUGUESE_LANG, SPANISH_LANG, type SpeechLang } from "@/lib/speech";
+import { FRENCH_LANG, GERMAN_LANG, ITALIAN_LANG, KOREAN_LANG, PORTUGUESE_LANG, SPANISH_LANG, type SpeechLang } from "@/lib/speech";
 import { TASK_MARKS } from "@/lib/exams/scoring";
 import { FR_TASK_MARKS } from "@/lib/exams/fr/scoring";
 import { DE_TASK_MARKS } from "@/lib/exams/de/scoring";
 import { PT_TASK_MARKS } from "@/lib/exams/pt/scoring";
 import { KO_TASK_MARKS } from "@/lib/exams/ko/scoring";
+import { IT_TASK_MARKS } from "@/lib/exams/it/scoring";
 
-export type ExamCourse = "es" | "fr" | "de" | "pt" | "ko";
+export type ExamCourse = "es" | "fr" | "de" | "pt" | "ko" | "it";
 
 export type ExamCourseConfig = {
   lang: SpeechLang;
@@ -23,7 +24,7 @@ export type ExamCourseConfig = {
   transcript: string;
   she: string;
   he: string;
-  /** What a paper is shown out of, when not the shared 25 points (TOPIK: 100 per section). */
+  /** What a paper is shown out of, when not the shared 25 points (TOPIK: 100 per section; CILS: 20). */
   paperMax?: number;
 };
 
@@ -69,6 +70,16 @@ export const EXAM_COURSES: Record<ExamCourse, ExamCourseConfig> = {
     she: "여자: ",
     he: "남자: ",
     paperMax: 100,
+  },
+  // The Italian beta's CILS practice exams: each section shown out of 20.
+  it: {
+    lang: ITALIAN_LANG,
+    writeLevel: (level) => `IT-${level}`,
+    taskMarks: IT_TASK_MARKS,
+    transcript: "TRASCRIZIONE",
+    she: "Lei: ",
+    he: "Lui: ",
+    paperMax: 20,
   },
 };
 

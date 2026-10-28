@@ -191,11 +191,16 @@ export type AppStackParamList = {
   // its other sections.
   ItalianConjugation: { verb?: string } | undefined;
   ItalianGlossary: { level?: string; section?: "words" | "terms" | "falseFriends" } | undefined;
+  // The Italian beta's own reference tools, with their drills (src/lib/it-tools/articles.ts
+  // and pronunciation.ts): Articles & Prepositions and Pronunciation & Spelling.
+  ItalianArticles: undefined;
+  ItalianPronunciation: undefined;
   // DELE practice exams (src/lib/exams, synced from the website): the
   // list, one exam's overview and results, and one paper.
   // course "fr": the DELF/DALF practice exams (src/lib/exams/fr); "de" the
   // Goethe-Zertifikat ones (src/lib/exams/de); "pt" the Celpe-Bras ones
-  // (src/lib/exams/pt); "ko" the Korean beta's TOPIK ones (src/lib/exams/ko).
+  // (src/lib/exams/pt); "ko" the Korean beta's TOPIK ones (src/lib/exams/ko);
+  // "it" the Italian beta's CILS ones (src/lib/exams/it).
   Exams: { course?: ExamCourse } | undefined;
   // Writing practice (the website's Writing page): open writing tasks per
   // level, marked by the AI writing feedback.

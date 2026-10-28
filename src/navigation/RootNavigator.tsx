@@ -49,6 +49,8 @@ import ItalianLevelsScreen from "@/screens/ItalianLevelsScreen";
 import ItalianPlacementTestScreen from "@/screens/ItalianPlacementTestScreen";
 import ItalianConjugationScreen from "@/screens/ItalianConjugationScreen";
 import ItalianGlossaryScreen from "@/screens/ItalianGlossaryScreen";
+import ItalianArticlesScreen from "@/screens/ItalianArticlesScreen";
+import ItalianPronunciationScreen from "@/screens/ItalianPronunciationScreen";
 import KoreanPlacementTestScreen from "@/screens/KoreanPlacementTestScreen";
 import KoreanConjugationScreen from "@/screens/KoreanConjugationScreen";
 import KoreanGlossaryScreen from "@/screens/KoreanGlossaryScreen";
@@ -118,6 +120,8 @@ const KoreanRootsLevel = withKoreanBeta(KoreanRootsLevelScreen, true);
 const ItalianPlacement = withItalianBeta(ItalianPlacementTestScreen, true);
 const ItalianConjugation = withItalianBeta(ItalianConjugationPaid, true);
 const ItalianGlossary = withItalianBeta(ItalianGlossaryPaid, true);
+const ItalianArticles = withItalianBeta(ItalianArticlesScreen, true);
+const ItalianPronunciation = withItalianBeta(ItalianPronunciationScreen, true);
 // A Korean story is Korean by its "ko/..." levelPath or its "ko-" slug; an
 // Italian one by its "it/..." levelPath or its "it-" slug.
 const StoryReader = withItalianBeta(
@@ -191,7 +195,9 @@ function AppNavigator() {
                   ? "Celpe-Bras practice"
                   : route.params.course === "ko"
                     ? "TOPIK practice"
-                    : "DELE practice",
+                    : route.params.course === "it"
+                      ? "CILS practice"
+                      : "DELE practice",
         })}
       />
       <AppStack.Screen name="ExamPaper" component={ExamPaper} options={{ title: "" }} />
@@ -239,6 +245,8 @@ function AppNavigator() {
       <AppStack.Screen name="KoreanRootsLevel" component={KoreanRootsLevel} options={{ title: "Word Roots" }} />
       <AppStack.Screen name="ItalianPlacement" component={ItalianPlacement} options={{ title: "Italian placement test" }} />
       <AppStack.Screen name="ItalianConjugation" component={ItalianConjugation} options={{ title: "Italian verb conjugation" }} />
+      <AppStack.Screen name="ItalianArticles" component={ItalianArticles} options={{ title: "Articles & Prepositions" }} />
+      <AppStack.Screen name="ItalianPronunciation" component={ItalianPronunciation} options={{ title: "Pronunciation & Spelling" }} />
       <AppStack.Screen
         name="ItalianGlossary"
         component={ItalianGlossary}

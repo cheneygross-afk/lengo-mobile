@@ -16,10 +16,19 @@ import {
   goetheResult,
 } from "@/lib/exams/de/scoring";
 import { CELPE_BANDS, celpePassMarkExplanation, celpeResult, isPractice } from "@/lib/exams/pt/scoring";
+import {
+  SECTION_PASS as CILS_PASS,
+  SECTION_POINTS as CILS_POINTS,
+  cilsName,
+  cilsPassMarkExplanation,
+  cilsResult,
+  sectionScore as cilsSectionScore,
+} from "@/lib/exams/it/scoring";
+import { SECTIONS as CILS_SECTIONS } from "@/lib/exams/it/text";
 import { SECTION_POINTS, TOPIK_LEVELS, sectionScore, topikKind, topikPassMarkExplanation, topikResult } from "@/lib/exams/ko/scoring";
 import { useCourseExams } from "@/components/exams/useCourseExams";
 import TapText from "@/components/TapText";
-import { GERMAN_LANG, KOREAN_LANG, PORTUGUESE_LANG } from "@/lib/speech";
+import { GERMAN_LANG, ITALIAN_LANG, KOREAN_LANG, PORTUGUESE_LANG } from "@/lib/speech";
 import type { Exam } from "@/lib/exams/types";
 
 type Props = NativeStackScreenProps<AppStackParamList, "Exam">;
@@ -36,6 +45,7 @@ export default function ExamScreen(props: Props) {
   if (course === "de") return <GermanExamScreen {...props} />;
   if (course === "pt") return <PortugueseExamScreen {...props} />;
   if (course === "ko") return <KoreanExamScreen {...props} />;
+  if (course === "it") return <ItalianExamScreen {...props} />;
   return <SpanishExamScreen {...props} />;
 }
 
@@ -138,6 +148,108 @@ function KoreanExamScreen({ navigation, route }: Props) {
       ) : (
         <Text style={s.body}>Every question is marked automatically. Scores are saved on this device.</Text>
       )}
+    </ScrollView>
+  );
+}
+
+const CILS_SECTION_EN = Object.fromEntries(CILS_SECTIONS.map((x) => [x.id, x.en])) as Record<string, string>;
+
+// A CILS practice exam of the Italian beta (the website's
+// /lessons/it/tools/cils/[slug]): its five sections, how the real exam is
+// marked -- each section out of 20, at least 11 in every one to pass --
+// and the latest scores (the website's CilsResults).
+function ItalianExamScreen({ navigation, route }: Props) {
+  const exams = useCourseExams("it");
+  const exam: Exam | undefined = exams?.find((e) => e.slug === route.params.slug);
+  const [scores, setScores] = useState<Record<string, number | undefined>>({});
+
+  useFocusEffect(
+    useCallback(() => {
+      if (exam) void loadExamScores(exam.slug).then(setScores);
+    }, [exam])
+  );
+
+  if (!exams) {
+    return (
+      <View style={[s.screen, s.loading]}>
+        <ActivityIndicator />
+      </View>
+    );
+  }
+  if (!exam) {
+    return (
+      <View style={s.screen}>
+        <Text style={[s.intro, { padding: 20 }]}>This exam isn&apos;t available.</Text>
+      </View>
+    );
+  }
+
+  const result = cilsResult(exam, scores);
+  const anyScore = Object.keys(scores).length > 0;
+  const failed = result.sections.filter((x) => x.score !== null && !x.passed).length;
+  const verdict = result.complete
+    ? result.passed
+      ? `Passed: every section at ${CILS_PASS} or more, ${result.total} of ${result.max} points. You're working at ${cilsName(exam.level)} level.`
+      : `${result.total} of ${result.max} points, but ${failed} section${failed === 1 ? "" : "s"} below ${CILS_PASS}: in the real exam you would keep the sections you passed and resit the others.`
+    : `Finish all ${exam.papers.length} sections for a verdict: you need ${CILS_PASS} of ${CILS_POINTS} in each one.`;
+
+  return (
+    <ScrollView style={s.screen} contentContainerStyle={s.content}>
+      <Text style={s.h1}>{exam.title}</Text>
+      <TapText text={exam.description} lang={ITALIAN_LANG} mode="mixed" style={s.intro} />
+
+      {exam.papers.map((paper, i) => {
+        const questions = paperItems(paper).length;
+        const points = scores[paper.id];
+        return (
+          <Pressable
+            key={paper.id}
+            style={s.card}
+            onPress={() => navigation.navigate("ExamPaper", { slug: exam.slug, paperId: paper.id, course: "it" })}
+          >
+            <Text style={s.overline}>
+              SECTION {i + 1} · {(CILS_SECTION_EN[paper.id] ?? KIND_LABEL[paper.kind]).toUpperCase()}
+            </Text>
+            <TapText text={paper.title} lang={ITALIAN_LANG} mode="target" style={s.title} />
+            <Text style={s.meta}>
+              {formatMinutes(paper.minutes)} · {questions ? `${questions} questions` : `${paper.tasks.length} tasks`} · {CILS_POINTS} points
+            </Text>
+            {points !== undefined ? (
+              <Text style={s.score}>
+                Last attempt: {cilsSectionScore(points)}/{CILS_POINTS}
+              </Text>
+            ) : null}
+          </Pressable>
+        );
+      })}
+
+      {anyScore ? (
+        <View style={s.card}>
+          <Text style={s.h2}>Your results</Text>
+          <Text style={s.body}>
+            Total: {result.total}/{result.max}
+          </Text>
+          {result.sections.map(({ paper, score, passed }) => (
+            <Text key={paper.id} style={s.body}>
+              <TapText text={paper.title} lang={ITALIAN_LANG} mode="target" style={s.body} />:{" "}
+              {score === null ? "not done yet" : `${score}/${CILS_POINTS}`}
+              {score !== null ? (
+                <Text style={{ color: passed ? "#15803d" : "#b91c1c" }}> · {passed ? "passed" : `below ${CILS_PASS}`}</Text>
+              ) : null}
+            </Text>
+          ))}
+          <TapText text={verdict} lang={ITALIAN_LANG} mode="mixed" style={[s.body, s.bold]} />
+        </View>
+      ) : null}
+
+      <Text style={s.h2}>How it&apos;s marked</Text>
+      <Text style={s.body}>{cilsPassMarkExplanation(exam)}</Text>
+      <Text style={s.body}>
+        Here, listening, reading and structures are marked automatically. Every writing and speaking task gets a mark from 1 to 5
+        -- from the writing feedback when it&apos;s available, otherwise your own honest comparison with the model answer -- and the
+        section&apos;s points are that mark&apos;s share of 5. A task you don&apos;t mark counts as 0. Scores are saved on this
+        device.
+      </Text>
     </ScrollView>
   );
 }
