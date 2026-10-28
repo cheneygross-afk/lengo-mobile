@@ -35,7 +35,7 @@
       [
         "expo-audio",
         {
-          "microphonePermission": "Allow $(PRODUCT_NAME) to use your microphone so you can record yourself speaking Spanish and compare it with the model. Recordings stay on your device."
+          "microphonePermission": "Allow $(PRODUCT_NAME) to use your microphone so you can record yourself speaking and compare it with the model. Recordings stay on your device."
         }
       ]
     ],
