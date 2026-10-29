@@ -1,4 +1,4 @@
-// The Korean beta's grammar guides (./ko-guides*.ts, synced from the
+// The Korean course's grammar guides (./ko-guides*.ts, synced from the
 // website), loaded on demand: only the Korean study tools need them.
 import type { KoGrammarGuide } from "./ko-types";
 

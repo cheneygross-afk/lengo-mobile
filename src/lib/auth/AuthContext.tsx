@@ -4,7 +4,6 @@ import type { Session } from "@supabase/supabase-js";
 import { supabase } from "@/lib/supabase/client";
 import { syncFlashcardsFromCloud } from "@/lib/flashcards/store";
 import type { CourseId } from "@/lib/courses";
-import { isKoreanBetaEmail } from "@/lib/koreanBeta";
 
 // Mobile equivalent of the web app's server-side getCurrentUserAndRole --
 // there's no server component / cookie middleware here, so session state
@@ -19,12 +18,7 @@ type AuthState = {
   // and staff; the courses picked for Focused Lessons (plus a company
   // seat's); empty without a plan. Plans are bought on the website, so
   // this reloads whenever the app comes back to the foreground.
-  // "ko" is in it only for the Korean beta account (lib/koreanBeta.ts, the
-  // website's allowlist): All Access doesn't open it, and nobody else is
-  // shown anything Korean.
   lessonsCourses: "all" | CourseId[];
-  /** Whether this account may see the Korean beta. */
-  koreanBeta: boolean;
   signOut: () => Promise<void>;
 };
 
@@ -35,7 +29,6 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [loading, setLoading] = useState(true);
   const [lessonsCourses, setLessonsCourses] = useState<"all" | CourseId[]>([]);
   const userId = session?.user?.id;
-  const koreanBeta = isKoreanBetaEmail(session?.user?.email);
 
   const loadAccess = useCallback(async () => {
     if (!userId) {
@@ -47,8 +40,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       supabase.from("profiles").select("*").eq("id", userId).single(),
       supabase.rpc("my_business"),
     ]);
-    setLessonsCourses(withBetas(coursesFor(profile, business), koreanBeta));
-  }, [userId, koreanBeta]);
+    setLessonsCourses(coursesFor(profile, business));
+  }, [userId]);
 
   useEffect(() => {
     void loadAccess();
@@ -86,12 +79,11 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       session,
       loading,
       lessonsCourses,
-      koreanBeta,
       signOut: async () => {
         await supabase.auth.signOut();
       },
     }),
-    [session, loading, lessonsCourses, koreanBeta]
+    [session, loading, lessonsCourses]
   );
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
@@ -123,19 +115,7 @@ function coursesFor(profile: Record<string, unknown> | null, business: unknown):
   return courses;
 }
 
-// The Korean beta: every Korean lesson is open to that beta's account (the
-// website's entitlements do the same), whatever its plan, and "ko" is added
-// to no one else's list.
-const ALL_ACCESS_COURSES: CourseId[] = ["es", "ja", "zh", "fr", "en", "de", "pt", "it"];
-
-function withBetas(courses: "all" | CourseId[], koreanBeta: boolean): "all" | CourseId[] {
-  if (!koreanBeta) return courses;
-  return [...(courses === "all" ? ALL_ACCESS_COURSES : courses), "ko"];
-}
-
 /** Whether the learner's plan opens a course. */
 export function planCovers(courses: "all" | CourseId[], course: CourseId): boolean {
-  // "all" never opens the Korean beta: only the beta account's list has "ko".
-  if (course === "ko") return courses !== "all" && courses.includes(course);
   return courses === "all" || courses.includes(course);
 }

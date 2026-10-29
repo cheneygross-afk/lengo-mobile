@@ -6,7 +6,7 @@
 // arrive here through sync, so they must never be mistaken for Spanish),
 // "de/..." (or "de") the German course, "pt/..." (or "pt") the Brazilian
 // Portuguese course (open to every account, like French and German),
-// "ko/..." (or "ko") the Korean beta (one account only, lib/koreanBeta.ts),
+// "ko/..." (or "ko") the Korean course (open to every account, like Portuguese),
 // "it/..." (or "it") the Italian course (open to every account) --
 // anything else Spanish. Flashcards, review lists, Today's review and Home each
 // show one course at a time, and ask here instead of testing prefixes
@@ -43,7 +43,7 @@ export function isPortugueseLevelPath(levelPath: string): boolean {
   return levelPath === "pt" || levelPath.startsWith("pt/");
 }
 
-/** True for the Korean beta's levelPaths: "ko/hangul", "ko/a1" ... "ko/c2",
+/** True for the Korean course's levelPaths: "ko/hangul", "ko/a1" ... "ko/c2",
  * "ko/culture", and "ko" itself (flashcards written by hand in the Korean deck). */
 export function isKoreanLevelPath(levelPath: string): boolean {
   return levelPath === "ko" || levelPath.startsWith("ko/");

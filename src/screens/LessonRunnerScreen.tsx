@@ -29,7 +29,9 @@ import { markLessonCompleted } from "@/lib/lessons/completion";
 import { creditStudy } from "@/lib/studyDays";
 import { loadPrefsLocal } from "@/lib/learnerPrefs";
 import { levelColor, colors, fonts } from "@/ui/theme";
-import { Confetti, ScoreRing, TodayStats } from "@/components/LessonCelebration";
+import { Confetti, Medal, ScoreRing, TodayStats } from "@/components/LessonCelebration";
+import { COURSE_GLYPHS } from "@/lib/courseGlyphs";
+import { LEVEL_COLORS } from "@/ui/theme";
 import { scheduleLessonForReview } from "@/lib/todaysReview";
 import { recordLessonAttempt, recordLessonPass } from "@/lib/attempts";
 import { parseDurationMinutes } from "@/lib/duration";
@@ -265,6 +267,9 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
   // Right answers in a row (the "🔥 3" cheer), and today's streak and
   // minutes for the end screen.
   const [inARow, setInARow] = useState(0);
+  // A short cheer at halfway and with one question to go.
+  const [cheer, setCheer] = useState<string | null>(null);
+  const cheerTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const [today, setToday] = useState<{ streak: number; minutes: number; goal: number } | null>(null);
   // The round mark on the feedback sheet: pops for right, shakes for wrong.
   const markAnim = useRef(new Animated.Value(0)).current;
@@ -554,6 +559,9 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
       <ScrollView style={s.stepArea} contentContainerStyle={[s.stepContent, feedback && s.stepContentUnderSheet]} keyboardShouldPersistTaps="handled">
         {currentStep?.kind === "teach" && (
           <TeachStep
+            accent={accent}
+            glyph={COURSE_GLYPHS[course][2]}
+            levelStep={levelStep}
             lesson={{ ...lesson, title: shownTitle }}
             unitLabel={unitLabel}
             sectionIndex={currentStep.sectionIndex}
@@ -595,6 +603,19 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
               onChecked={(correct, explanation, title) => {
                 if (correct) setCorrectCount((c) => c + 1);
                 setInARow((n) => (correct ? n + 1 : 0));
+                if (questionCount >= 6) {
+                  const text =
+                    currentStep.number === Math.ceil(questionCount / 2)
+                      ? "Halfway there!"
+                      : currentStep.number === questionCount - 1
+                        ? "One to go!"
+                        : null;
+                  if (text) {
+                    setCheer(text);
+                    if (cheerTimer.current) clearTimeout(cheerTimer.current);
+                    cheerTimer.current = setTimeout(() => setCheer(null), 2200);
+                  }
+                }
                 // The attempts log (lib/attempts.ts), against the lesson the
                 // question came from (review questions can be older ones).
                 const from = currentStep.source.slug === lesson?.slug ? lesson : lessonInTrack(currentStep.source.slug);
@@ -657,6 +678,14 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
         )}
       </ScrollView>
 
+      {cheer && (
+        <View style={s.cheerWrap} pointerEvents="none" accessibilityLiveRegion="polite">
+          <View style={[s.cheer, { borderColor: accent }]}>
+            <Text style={s.cheerText}>✨ {cheer}</Text>
+          </View>
+        </View>
+      )}
+
       {feedback && (
         <Animated.View
           style={[
@@ -712,8 +741,16 @@ function TeachStep({
   highlightsEnabled,
   markColor,
   unitLabel,
+  accent,
+  glyph,
+  levelStep,
 }: {
   unitLabel?: string;
+  // The level's colour, a big letter of the language and the level's place
+  // on the six-level path, for the first screen's banner.
+  accent: string;
+  glyph: string;
+  levelStep: number;
   lesson: { level: Lesson["level"]; slug: string; number: number; title: string; summary?: string; optional?: boolean; sections: { heading: string; body: string[]; examples?: { es: string; en?: string }[] }[] };
   // Which section this screen teaches; null for a lesson with no sections
   // (a pure review), which just gets the title screen.
@@ -736,12 +773,34 @@ function TeachStep({
     <View>
       {first ? (
         <>
-          <Text style={s.kicker}>
-            {unitLabel ?? lesson.level} · Lesson {lesson.number}
-            {lesson.optional ? " · optional" : ""}
-          </Text>
-          <TapText text={lesson.title} lang={lang} style={s.introTitle} />
-          {lesson.summary ? <TapText text={lesson.summary} lang={lang} style={s.introSummary} /> : null}
+          {/* The lesson's banner: a wash of the level's colour, a big letter of
+              the language as artwork and the six-level path, as on the website. */}
+          <View style={[s.banner, { backgroundColor: `${accent}1F`, borderColor: `${accent}40` }]}>
+            <View style={[s.bannerStripe, { backgroundColor: accent }]} />
+            <Text style={[s.bannerGlyph, { color: `${accent}38` }]} accessible={false} importantForAccessibility="no">
+              {glyph}
+            </Text>
+            <Text style={[s.kicker, { color: colors.ink }]}>
+              {unitLabel ?? lesson.level} · Lesson {lesson.number}
+              {lesson.optional ? " · optional" : ""}
+            </Text>
+            <TapText text={lesson.title} lang={lang} style={s.introTitle} />
+            {lesson.summary ? <TapText text={lesson.summary} lang={lang} style={s.introSummary} /> : null}
+            {levelStep >= 0 && (
+              <View style={s.pathRow} accessible={false}>
+                {LEVEL_COLORS.map((c, li) => (
+                  <View
+                    key={c}
+                    style={[
+                      s.pathDot,
+                      li === levelStep && s.pathDotNow,
+                      { backgroundColor: li <= levelStep ? c : colors.ink, opacity: li === levelStep ? 1 : li < levelStep ? 0.5 : 0.15 },
+                    ]}
+                  />
+                ))}
+              </View>
+            )}
+          </View>
           <LessonVideoLink level={lesson.level} slug={lesson.slug} />
           {note ? (
             <View style={s.noteBox}>
@@ -754,7 +813,10 @@ function TeachStep({
         const section = lesson.sections[si];
         return (
         <View key={si} style={s.introSection}>
-          <TapText text={section.heading} lang={lang} style={s.teachHeading} />
+          <View style={s.teachHeadingRow}>
+            <View style={[s.teachHeadingBar, { backgroundColor: accent }]} />
+            <TapText text={section.heading} lang={lang} style={s.teachHeading} />
+          </View>
           {section.body.map((p, pi) => {
             // Same blockKey scheme as the website's LessonRunner.tsx
             // (`sec${i}-body${j}`) -- highlights saved here read back
@@ -869,10 +931,13 @@ function CompleteStep({
   return (
     <View style={s.completeWrap}>
       {passed && <Confetti />}
-      <ScoreRing
-        percent={totalExercises ? Math.round((correctCount / totalExercises) * 100) : 100}
-        color={passed ? accent : "#dc2626"}
-      />
+      <View>
+        <ScoreRing
+          percent={totalExercises ? Math.round((correctCount / totalExercises) * 100) : 100}
+          color={passed ? accent : "#dc2626"}
+        />
+        {passed && <Medal percent={totalExercises ? Math.round((correctCount / totalExercises) * 100) : 100} />}
+      </View>
       <Text style={s.completeTitle}>{passed ? "🎉 Lesson complete!" : "💪 Not quite there yet"}</Text>
       <Text style={s.completeSub}>
         {passed
@@ -960,8 +1025,8 @@ const s = StyleSheet.create({
   stepContentUnderSheet: { paddingBottom: 300 },
 
   kicker: { fontSize: 11, fontWeight: "700", letterSpacing: 0.5, textTransform: "uppercase", color: "#8B0000", marginBottom: 6 },
-  introTitle: { fontSize: 24, fontWeight: "800", color: "#2A1513", marginBottom: 18 },
-  introSummary: { fontSize: 15, color: "#555", marginTop: -8, marginBottom: 18 },
+  introTitle: { fontSize: 28, lineHeight: 34, fontFamily: fonts.display, color: "#2A1513", marginBottom: 10 },
+  introSummary: { fontSize: 15, lineHeight: 22, color: "#2A1513B3", marginBottom: 16 },
   introSection: { marginBottom: 22 },
   noteBox: {
     borderWidth: 1,
@@ -974,7 +1039,18 @@ const s = StyleSheet.create({
     marginBottom: 18,
   },
   noteText: { fontSize: 14, lineHeight: 20, color: "#2A1513cc" },
-  teachHeading: { fontSize: 18, fontWeight: "700", color: "#2A1513", marginBottom: 8 },
+  banner: { borderRadius: 24, borderWidth: 1, padding: 20, paddingTop: 26, marginBottom: 22, overflow: "hidden" },
+  bannerStripe: { position: "absolute", top: 0, left: 0, right: 0, height: 5 },
+  bannerGlyph: { position: "absolute", right: -6, top: -18, fontFamily: fonts.display, fontSize: 120, lineHeight: 140, transform: [{ rotate: "-8deg" }] },
+  pathRow: { flexDirection: "row", gap: 5, marginTop: 4 },
+  pathDot: { width: 18, height: 6, borderRadius: 3 },
+  pathDotNow: { width: 34 },
+  teachHeadingRow: { flexDirection: "row", alignItems: "center", gap: 10, marginBottom: 8 },
+  teachHeadingBar: { width: 4, alignSelf: "stretch", borderRadius: 2 },
+  cheerWrap: { position: "absolute", top: 70, left: 0, right: 0, alignItems: "center" },
+  cheer: { backgroundColor: "#2A1513", borderRadius: 999, borderWidth: 3, paddingHorizontal: 16, paddingVertical: 8 },
+  cheerText: { color: "#fff", fontWeight: "800", fontSize: 14 },
+  teachHeading: { fontSize: 19, fontFamily: fonts.display, color: "#2A1513", flexShrink: 1 },
   // Split from a single Text style so HighlightableText can apply the
   // font styling per word (teachBody) while the paragraph spacing lives
   // on the block's own container (teachBodyBlock) instead of repeating

@@ -2,7 +2,7 @@
 // src/lib/freeLessons.ts: anyone with an account can take
 //
 //   - every lesson of A1 Unit 1 (required and its optional extras), and
-//   - the first lesson of every level (the kana and pinyin modules too;
+//   - the first lesson of every level (the kana, Hangul and pinyin modules too;
 //     not Cosas Coloquiales).
 //
 // Everything else needs a plan covering the course (AuthContext's
@@ -16,9 +16,9 @@ import { LESSON_SOURCES, type LessonModuleKey } from "./lessons/registry";
 
 type Unit = { required: Lesson[]; optional: Lesson[] };
 
-const A1_PATHS = new Set(["a1", "fr/a1", "de/a1", "pt/a1", "it/a1", "ja-a1", "zh-a1"]);
+const A1_PATHS = new Set(["a1", "fr/a1", "de/a1", "pt/a1", "ko/a1", "it/a1", "ja-a1", "zh-a1"]);
 
-/** A level's units: given (a loaded French, German, Portuguese or Italian level), from units.ts
+/** A level's units: given (a loaded French, German, Portuguese, Korean or Italian level), from units.ts
  * (Spanish), or from the lesson registry (Chinese). */
 function unitsOf(levelPath: string, given?: Unit[]): Unit[] | undefined {
   if (given?.length) return given;

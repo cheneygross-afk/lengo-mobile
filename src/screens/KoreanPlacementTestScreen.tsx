@@ -56,7 +56,7 @@ function statusText(r: KoPlacementLevelResult): string {
   return r.passed ? `${r.correct}/${r.total} ✓` : `${r.correct}/${r.total}`;
 }
 
-// Mobile port of the Korean beta's placement test (the website's
+// Mobile port of the Korean course's placement test (the website's
 // KoPlacementTestRunner), laid out like PortuguesePlacementTestScreen: the
 // same two-stage adaptive test and scoring (src/lib/ko-placementTest.ts,
 // synced from the website) from Hangul to Mastery, one question at a time

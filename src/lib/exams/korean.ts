@@ -1,4 +1,4 @@
-// The Korean beta's TOPIK practice tests (./ko, synced from the website),
+// The Korean course's TOPIK practice tests (./ko, synced from the website),
 // loaded on demand: only the Korean study tools need them.
 import type { Exam } from "./types";
 

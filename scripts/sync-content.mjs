@@ -81,11 +81,10 @@ const DIRS = {
     "lessons.ts", // static import of the full lesson list for the website's server pages
   ],
   "src/lib/pt-tools/data": [],
-  // The Korean course's stories (with their glosses), shown in the app
-  // behind the owner-only Korean beta gate.
+  // The Korean course's stories (with their glosses).
   "src/lib/stories/ko": [],
   "src/lib/stories/ko/batches": [],
-  // The Korean course's study tools, behind the same gate: TOPIK practice
+  // The Korean course's study tools: TOPIK practice
   // tests, the conjugation engine and word list, the vocabulary, lesson and
   // writing tables the tools read (the website's build writes them from the
   // lessons; synced as-is, see JSON_DIRS), and the optional Word Roots

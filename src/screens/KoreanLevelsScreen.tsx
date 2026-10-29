@@ -27,14 +27,15 @@ const AVAILABLE = KOREAN_LEVELS.filter((l) => l.available);
 const MAIN = KOREAN_LEVELS.filter((l) => l.kind !== "bonus");
 const BONUS = KOREAN_LEVELS.filter((l) => l.kind === "bonus");
 
-// The Korean beta's level picker -- mirrors the website's /lessons/ko page:
+// The Korean course's level picker -- mirrors the website's /lessons/ko page:
 // the Hangul module first (like Japanese's kana), then Beginner ... Mastery,
 // each shown by its name with its TOPIK level beside it (never the CEFR
 // code), and the optional Korean Culture & Everyday Life module as a bonus
 // card outside the main path. A "Continue" card picks up where the learner
 // left off. Each level's lessons load on demand (lessons/korean.ts), so the
-// counts fill in as they load. Only the beta account reaches it
-// (RootNavigator's withKoreanBeta).
+// counts fill in as they load. Open to every account, like Portuguese:
+// lessons are gated one by one (a plan covering Korean, or the free
+// opening in freeLessons.ts).
 export default function KoreanLevelsScreen({ navigation }: Props) {
   // Required lessons done / in each level; undefined until that level loads.
   const [counts, setCounts] = useState<Partial<Record<KoreanLevelKey, { done: number; total: number }>>>({});
@@ -124,10 +125,9 @@ export default function KoreanLevelsScreen({ navigation }: Props) {
 
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
-      <Text style={styles.kicker}>Beta · Hangul to TOPIK 6</Text>
+      <Text style={styles.kicker}>Hangul to TOPIK 6</Text>
       <Text style={styles.subtitle}>
-        Bite-sized, self-paced Korean lessons organized by level and lined up with the TOPIK. Tap any Korean word to hear it. This
-        course is a private beta: only your account can see it.
+        Bite-sized, self-paced Korean lessons organized by level and lined up with the TOPIK. Tap any Korean word to hear it.
       </Text>
       {next && (
         <Pressable

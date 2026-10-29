@@ -1,5 +1,5 @@
-// The French and German courses', the Brazilian Portuguese course's and the
-// Korean beta's and the Italian course's stories behind one interface, for the shared
+// The French, German, Brazilian Portuguese, Korean and Italian courses'
+// stories behind one interface, for the shared
 // story screens (ReadingLevels, ReadingsList, StoryReader). Each course's
 // stories load on demand (stories/french.ts, stories/german.ts,
 // stories/portuguese.ts, stories/korean.ts, stories/italian.ts): only that
@@ -12,8 +12,6 @@ import { findKoreanStory, isKoreanStorySlug, koreanStoriesIfLoaded, loadKoreanSt
 import { findItalianStory, isItalianStorySlug, italianStoriesIfLoaded, loadItalianStories } from "./italian";
 import { FRENCH_LANG, GERMAN_LANG, ITALIAN_LANG, KOREAN_LANG, PORTUGUESE_LANG, type SpeechLang } from "@/lib/speech";
 
-// "ko" is the Korean beta: its screens are gated (withKoreanBeta.tsx); "it"
-// the Italian course, open to every account.
 export type StoryCourse = "fr" | "de" | "pt" | "ko" | "it";
 
 export type CourseStoryLevel = {

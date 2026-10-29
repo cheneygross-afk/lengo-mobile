@@ -61,7 +61,7 @@ export const EXAM_COURSES: Record<ExamCourse, ExamCourseConfig> = {
     she: "Ela: ",
     he: "Ele: ",
   },
-  // The Korean beta's TOPIK practice tests: each section shown out of 100.
+  // The Korean course's TOPIK practice tests: each section shown out of 100.
   ko: {
     lang: KOREAN_LANG,
     writeLevel: (level) => `KO-${level}`,

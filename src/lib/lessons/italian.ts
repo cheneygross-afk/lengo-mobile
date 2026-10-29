@@ -1,6 +1,6 @@
 // The Italian course in the app: Beginner ... Mastery and the optional
 // Culture module, loaded one level at a time the same way as the Korean
-// beta (lessons/korean.ts) and the Brazilian Portuguese course
+// course (lessons/korean.ts) and the Brazilian Portuguese course
 // (lessons/portuguese.ts). Open to every account, like French and German:
 // lessons are gated one by one (a plan covering Italian, or the free
 // opening in freeLessons.ts).

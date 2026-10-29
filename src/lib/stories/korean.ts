@@ -1,7 +1,6 @@
 // The Korean course's stories in the app (synced from the website into
-// ./ko), loaded on demand like the other courses' stories. A private beta:
-// every Korean screen is gated to the beta account (withKoreanBeta.tsx), as
-// the website gates /lessons/ko/stories. Story levelPaths are the website's
+// ./ko), loaded on demand like the other courses' stories; free to every
+// account, like the Portuguese ones. Story levelPaths are the website's
 // ("ko/a1" ... "ko/c2"), so read-tracking and highlights line up across
 // both; Korean story slugs all start with "ko-", so they never collide with
 // another course's. Levels are shown by name ("Beginner" ... "Mastery"),
