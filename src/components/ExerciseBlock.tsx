@@ -695,7 +695,7 @@ function SubmitButton({ disabled, onPress }: { disabled: boolean; onPress: () =>
 const s = StyleSheet.create({
   container: {
     backgroundColor: "#fff",
-    borderRadius: 12,
+    borderRadius: 18,
     padding: 14,
     borderWidth: 1,
     borderColor: "#2A151312",
@@ -713,9 +713,10 @@ const s = StyleSheet.create({
   option: {
     borderWidth: 1,
     borderColor: "#2A151322",
-    borderRadius: 8,
-    paddingVertical: 10,
-    paddingHorizontal: 14,
+    borderRadius: 12,
+    paddingVertical: 12,
+    paddingHorizontal: 16,
+    backgroundColor: "#fff",
   },
   optionSelected: { borderColor: "#8B0000", backgroundColor: "#8B000014" },
   optionCorrect: { borderColor: "#16a34a", backgroundColor: "#16a34a1a" },

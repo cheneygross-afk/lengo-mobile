@@ -6,6 +6,7 @@ import {
   Pressable,
   StyleSheet,
   Animated,
+  Easing,
   Alert,
   ActivityIndicator,
 } from "react-native";
@@ -26,6 +27,9 @@ import { isSpanishText } from "@/lib/spanishVoice";
 import { langForLevel, langForLevelPath, ENGLISH_LANG } from "@/lib/speech";
 import { markLessonCompleted } from "@/lib/lessons/completion";
 import { creditStudy } from "@/lib/studyDays";
+import { loadPrefsLocal } from "@/lib/learnerPrefs";
+import { levelColor, colors, fonts } from "@/ui/theme";
+import { Confetti, ScoreRing, TodayStats } from "@/components/LessonCelebration";
 import { scheduleLessonForReview } from "@/lib/todaysReview";
 import { recordLessonAttempt, recordLessonPass } from "@/lib/attempts";
 import { parseDurationMinutes } from "@/lib/duration";
@@ -125,6 +129,10 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
   const levelPath = track?.levelPath ?? "a1";
   const trackLessons = useMemo(() => track?.lessons ?? [], [track]);
   const lang = useMemo(() => langForLevelPath(levelPath), [levelPath]);
+  // The level's colour (saffron at the start, deep red at the top), as on
+  // the website's lesson pages; sea for modules off the six-level path.
+  const levelStep = ["a1", "a2", "b1", "b2", "c1", "c2"].indexOf(levelPath.split("/").pop() ?? "");
+  const accent = levelStep < 0 ? colors.sea : levelColor(levelStep);
   // A lesson from this track by slug (the lesson a review question came from).
   const lessonInTrack = (s: string) => (lazyPath ? trackLessons.find((l) => l.slug === s) : findLessonBySlug(s));
   // The title as the lesson list shows it (one "Part X of Y", see
@@ -254,6 +262,12 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
   const [finishing, setFinishing] = useState(false);
   const [addedToReview, setAddedToReview] = useState(false);
   const [flaggedIds, setFlaggedIds] = useState<Set<string>>(new Set());
+  // Right answers in a row (the "🔥 3" cheer), and today's streak and
+  // minutes for the end screen.
+  const [inARow, setInARow] = useState(0);
+  const [today, setToday] = useState<{ streak: number; minutes: number; goal: number } | null>(null);
+  // The round mark on the feedback sheet: pops for right, shakes for wrong.
+  const markAnim = useRef(new Animated.Value(0)).current;
   const finishedRef = useRef(false);
   const startedAt = useRef(Date.now());
 
@@ -368,6 +382,12 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     }).start();
   }, [feedback, sheetAnim]);
 
+  useEffect(() => {
+    if (!feedback) return;
+    markAnim.setValue(0);
+    Animated.timing(markAnim, { toValue: 1, duration: 420, easing: Easing.out(Easing.quad), useNativeDriver: true }).start();
+  }, [feedback, markAnim]);
+
   const currentStep = steps[stepIndex];
 
   useEffect(() => {
@@ -403,7 +423,9 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     await recordMissedQuestionReviews(levelPath, poolResults);
     // Finishing a lesson, passed or not, counts as studying today: the
     // streak, and the lesson's length toward the daily goal.
-    await creditStudy(parseDurationMinutes(lesson.duration), { counts: true });
+    const credit = await creditStudy(parseDurationMinutes(lesson.duration), { counts: true });
+    const prefs = await loadPrefsLocal();
+    setToday({ streak: credit.streak.current, minutes: credit.minutesToday, goal: prefs.dailyGoalMinutes });
     // Each question is answered once per run, so this is the first-try
     // score. Below the pass mark the lesson isn't marked complete.
     if (!lessonPassed(correctCount, questionCount)) {
@@ -438,6 +460,8 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
   function handleRedo() {
     finishedRef.current = false;
     setCorrectCount(0);
+    setInARow(0);
+    setToday(null);
     setFeedback(null);
     setAddedToReview(false);
     setFlaggedIds(new Set());
@@ -497,8 +521,13 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
           <Text style={s.closeBtn}>✕</Text>
         </Pressable>
         <View style={s.progressTrack}>
-          <Animated.View style={[s.progressFill, { width: progressWidth }]} />
+          <Animated.View style={[s.progressFill, { width: progressWidth, backgroundColor: accent }]} />
         </View>
+        {inARow >= 3 && currentStep?.kind !== "complete" && (
+          <View style={s.inARow} accessibilityLabel={`${inARow} right in a row`}>
+            <Text style={s.inARowText}>🔥 {inARow}</Text>
+          </View>
+        )}
         {isSpanishLessonLevel(lesson.level) && (
           <Pressable
             hitSlop={10}
@@ -514,7 +543,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
       </View>
       {/* Where the learner is, on every step: the lesson's level and name. */}
       <View style={s.lessonHeader} accessibilityLabel={`Level ${shortLevel(lesson.level)}, ${shownTitle}`}>
-        <View style={s.levelBadge}>
+        <View style={[s.levelBadge, { backgroundColor: accent }]}>
           <Text style={s.levelBadgeText}>{shortLevel(lesson.level)}</Text>
         </View>
         <View style={s.lessonHeaderTitle}>
@@ -565,6 +594,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
               listenFirst={listenFirstPref && isSpanishLessonLevel(lesson.level)}
               onChecked={(correct, explanation, title) => {
                 if (correct) setCorrectCount((c) => c + 1);
+                setInARow((n) => (correct ? n + 1 : 0));
                 // The attempts log (lib/attempts.ts), against the lesson the
                 // question came from (review questions can be older ones).
                 const from = currentStep.source.slug === lesson?.slug ? lesson : lessonInTrack(currentStep.source.slug);
@@ -607,6 +637,8 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
               navigation.replace("LessonRunner", lazyPath ? { slug: nextLesson.slug, levelPath } : { slug: nextLesson.slug })
             }
             elapsedMs={Date.now() - startedAt.current}
+            accent={accent}
+            today={today}
             finishing={finishing}
             addedToReview={addedToReview}
             onDone={() => navigation.goBack()}
@@ -633,12 +665,27 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
             { transform: [{ translateY: sheetTranslateY }] },
           ]}
         >
-          <TapText
-            text={feedback.title ?? (feedback.correct ? "Correct!" : "Not quite.")}
-            lang={lang}
-            mode="english"
-            style={[s.feedbackTitle, feedback.correct ? s.feedbackTitleCorrect : s.feedbackTitleWrong]}
-          />
+          <View style={s.feedbackHead}>
+            <Animated.View
+              style={[
+                s.feedbackMark,
+                { backgroundColor: feedback.correct ? "#16a34a" : "#dc2626" },
+                {
+                  transform: feedback.correct
+                    ? [{ scale: markAnim.interpolate({ inputRange: [0, 0.5, 1], outputRange: [0.4, 1.2, 1] }) }]
+                    : [{ translateX: markAnim.interpolate({ inputRange: [0, 0.2, 0.4, 0.6, 0.8, 1], outputRange: [0, -5, 5, -3, 3, 0] }) }],
+                },
+              ]}
+            >
+              <Text style={s.feedbackMarkText}>{feedback.correct ? "✓" : "✗"}</Text>
+            </Animated.View>
+            <TapText
+              text={feedback.title ?? (feedback.correct ? "Correct!" : "Not quite.")}
+              lang={lang}
+              mode="english"
+              style={[s.feedbackTitle, feedback.correct ? s.feedbackTitleCorrect : s.feedbackTitleWrong]}
+            />
+          </View>
           <TapText text={feedback.explanation} lang={lang} style={s.feedbackBody} />
           <Pressable
             style={[s.bigBtn, { backgroundColor: feedback.correct ? "#16a34a" : "#dc2626" }]}
@@ -794,6 +841,8 @@ function CompleteStep({
   onRedo,
   onAddToReview,
   nextSteps,
+  accent,
+  today,
 }: {
   lessonTitle: string;
   correctCount: number;
@@ -809,6 +858,8 @@ function CompleteStep({
   onAddToReview: () => void;
   // Links shown once the lesson is passed (see LessonNextSteps).
   nextSteps?: React.ReactNode;
+  accent: string;
+  today: { streak: number; minutes: number; goal: number } | null;
 }) {
   const totalSeconds = Math.max(1, Math.round(elapsedMs / 1000));
   const minutes = Math.floor(totalSeconds / 60);
@@ -817,10 +868,12 @@ function CompleteStep({
 
   return (
     <View style={s.completeWrap}>
-      <View style={[s.completeBadge, !passed && s.completeBadgeRetry]}>
-        <Text style={{ fontSize: 38 }}>{passed ? "🎉" : "💪"}</Text>
-      </View>
-      <Text style={s.completeTitle}>{passed ? "Lesson complete!" : "Not quite there yet"}</Text>
+      {passed && <Confetti />}
+      <ScoreRing
+        percent={totalExercises ? Math.round((correctCount / totalExercises) * 100) : 100}
+        color={passed ? accent : "#dc2626"}
+      />
+      <Text style={s.completeTitle}>{passed ? "🎉 Lesson complete!" : "💪 Not quite there yet"}</Text>
       <Text style={s.completeSub}>
         {passed
           ? lessonTitle
@@ -838,6 +891,8 @@ function CompleteStep({
           <Text style={s.statLabel}>Time</Text>
         </View>
       </View>
+
+      {passed && today && <TodayStats streak={today.streak} minutesToday={today.minutes} goal={today.goal} color={accent} />}
 
       {passed ? (
         <>
@@ -968,25 +1023,20 @@ const s = StyleSheet.create({
   },
   feedbackSheetCorrect: { backgroundColor: "#16a34a1a", borderTopColor: "#16a34a" },
   feedbackSheetWrong: { backgroundColor: "#dc26261a", borderTopColor: "#dc2626" },
-  feedbackTitle: { fontSize: 16, fontWeight: "800", marginBottom: 4 },
+  feedbackHead: { flexDirection: "row", alignItems: "center", gap: 10, marginBottom: 6 },
+  feedbackMark: { width: 26, height: 26, borderRadius: 13, alignItems: "center", justifyContent: "center" },
+  feedbackMarkText: { color: "#fff", fontWeight: "800", fontSize: 14 },
+  feedbackTitle: { fontSize: 16, fontWeight: "800" },
+  inARow: { backgroundColor: "#FCEFD6", borderRadius: 999, paddingHorizontal: 8, paddingVertical: 3 },
+  inARowText: { fontSize: 13, fontWeight: "800", color: "#2A1513" },
   feedbackTitleCorrect: { color: "#15803d" },
   feedbackTitleWrong: { color: "#b91c1c" },
   feedbackBody: { fontSize: 13.5, color: "#2A1513cc", lineHeight: 19 },
 
   completeWrap: { flex: 1, alignItems: "center", justifyContent: "center", paddingTop: 60 },
-  completeBadge: {
-    width: 84,
-    height: 84,
-    borderRadius: 42,
-    backgroundColor: "#8B0000",
-    alignItems: "center",
-    justifyContent: "center",
-    marginBottom: 18,
-  },
-  completeBadgeRetry: { backgroundColor: "#2A151322" },
   retryRow: { marginTop: 14, flexWrap: "wrap", justifyContent: "center" },
   retryLink: { color: "#2A151366", fontSize: 13, textDecorationLine: "underline", marginTop: 14 },
-  completeTitle: { fontSize: 22, fontWeight: "800", color: "#2A1513", marginBottom: 6 },
+  completeTitle: { fontFamily: fonts.display, fontSize: 26, color: "#2A1513", marginBottom: 6 },
   completeSub: { fontSize: 14, color: "#2A151399", marginBottom: 22, textAlign: "center" },
   statsRow: { flexDirection: "row", gap: 10, marginBottom: 20 },
   statPill: { backgroundColor: "#fff", borderWidth: 1, borderColor: "#2A151312", borderRadius: 12, paddingVertical: 10, paddingHorizontal: 18, alignItems: "center" },
