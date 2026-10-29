@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Copies lesson, story, reading, grammar-guide, placement-test, conjugation, glossary, deck, exam, Korean-stories and French-, German-, Portuguese- and Korean-tools content
-// (and the Italian beta's stories and tools, once the website has them) from the website repo
+// (and the Italian course's stories and tools, once the website has them) from the website repo
 // (cheneygross-afk/lengo) into this app, so the two can't drift apart.
 // The website is the single source of truth for course content: edit a
 // lesson there, then run this script (or let the website's "Sync content
@@ -96,8 +96,7 @@ const DIRS = {
   ],
   "src/lib/ko-tools/data": [],
   "src/lib/ko-roots": [],
-  // The Italian beta's counterparts of the Portuguese course's, behind the
-  // owner-only Italian gate (withItalianBeta.tsx): stories, CILS practice
+  // The Italian course's counterparts of the Portuguese course's: stories, CILS practice
   // tests, the conjugation engine and the study tools' tables (its lessons,
   // it-*.ts, and grammar guides sync with src/lib/lessons and
   // src/lib/grammar above). The website has all but the CILS tests now;
@@ -141,7 +140,7 @@ const webOnly = (dir, name) =>
 // Single website files mirrored to the same path here (pure data that
 // doesn't live in one of the directories above).
 const FILES = ["src/lib/placementTest.ts", "src/lib/fr-placementTest.ts", "src/lib/de-placementTest.ts", "src/lib/pt-placementTest.ts", "src/lib/ko-placementTest.ts", "src/lib/it-placementTest.ts"];
-// Files above that the website may not have yet (the Italian beta's placement test).
+// Files above that the website may not have yet (the Italian course's placement test).
 const OPTIONAL_FILES = new Set(["src/lib/it-placementTest.ts"]);
 
 const header = (rel) =>

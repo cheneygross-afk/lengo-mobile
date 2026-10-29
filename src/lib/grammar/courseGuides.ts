@@ -1,5 +1,5 @@
 // The French and German courses', the Brazilian Portuguese course's and the
-// Italian beta's grammar guides behind one interface, for the shared grammar
+// Italian course's grammar guides behind one interface, for the shared grammar
 // screens. Each course's guides load on demand (grammar/french.ts,
 // grammar/german.ts, grammar/portuguese.ts, grammar/italian.ts); examples are normalized to
 // { es, en } -- the target language and English -- the shape the guide
@@ -15,7 +15,7 @@ import { loadPortugueseGuides } from "./portuguese";
 import { loadItalianGuides } from "./italian";
 import { FRENCH_LANG, GERMAN_LANG, ITALIAN_LANG, PORTUGUESE_LANG, type SpeechLang } from "@/lib/speech";
 
-// "it" is the Italian beta: its screens are gated (withItalianBeta.tsx).
+// "it" is the Italian course.
 export type GuideCourse = "fr" | "de" | "pt" | "it";
 
 type GuideLevel = "A1" | "A2" | "B1" | "B2" | "C1" | "C2";

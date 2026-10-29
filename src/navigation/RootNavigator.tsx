@@ -58,8 +58,6 @@ import { KoreanRootsScreen, KoreanRootsLevelScreen } from "@/screens/KoreanRoots
 import WritingScreen from "@/screens/WritingScreen";
 import StudyToolsScreen from "@/screens/StudyToolsScreen";
 import { withPlan } from "@/components/withPlan";
-import { paramsAreItalian, withItalianBeta } from "@/components/withItalianBeta";
-import { isItalianStorySlug } from "@/lib/stories/italian";
 import PlanLock from "@/components/PlanLock";
 import { courseOfLevelPath } from "@/lib/courses";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
@@ -87,38 +85,6 @@ function UnitTestPaid(props: NativeStackScreenProps<AppStackParamList, "UnitTest
   if (!planCovers(lessonsCourses, course)) return <PlanLock course={course} />;
   return <UnitTestScreen {...props} />;
 }
-
-// The Italian beta (withItalianBeta.tsx): its own screens, and the shared
-// ones when opened with Italian params, are "not found" for every account
-// but the beta's. Other params pass straight through, so no other course
-// changes.
-const ItalianLevels = withItalianBeta(ItalianLevelsScreen, true);
-const LessonList = withItalianBeta(LessonListScreen);
-const LessonRunner = withItalianBeta(LessonRunnerScreen);
-const UnitTest = withItalianBeta(UnitTestPaid);
-const ReviewList = withItalianBeta(ReviewListScreen);
-const ReviewDrill = withItalianBeta(ReviewDrillScreen);
-const Flashcards = withItalianBeta(FlashcardsScreen);
-const ReadingLevels = withItalianBeta(ReadingLevelsScreen);
-const ReadingsList = withItalianBeta(ReadingsListScreen);
-const TodayReview = withItalianBeta(TodayReviewScreen);
-const StudyTools = withItalianBeta(StudyToolsScreen);
-const GrammarList = withItalianBeta(GrammarListScreen);
-const GrammarGuide = withItalianBeta(GrammarGuideScreen);
-const Exams = withItalianBeta(ExamsScreen);
-const Exam = withItalianBeta(ExamScreen);
-const ExamPaper = withItalianBeta(ExamPaperScreen);
-const Writing = withItalianBeta(WritingScreen);
-const ItalianPlacement = withItalianBeta(ItalianPlacementTestScreen, true);
-const ItalianConjugation = withItalianBeta(ItalianConjugationPaid, true);
-const ItalianGlossary = withItalianBeta(ItalianGlossaryPaid, true);
-const ItalianArticles = withItalianBeta(ItalianArticlesScreen, true);
-const ItalianPronunciation = withItalianBeta(ItalianPronunciationScreen, true);
-// An Italian story is Italian by its "it/..." levelPath or its "it-" slug.
-const StoryReader = withItalianBeta(
-  StoryReaderScreen,
-  (params) => paramsAreItalian(params) || isItalianStorySlug((params as { slug?: string } | undefined)?.slug ?? "")
-);
 
 const AuthStack = createNativeStackNavigator<AuthStackParamList>();
 const AppStack = createNativeStackNavigator<AppStackParamList>();
@@ -150,8 +116,8 @@ function AppNavigator() {
       <AppStack.Screen name="GermanLevels" component={GermanLevelsScreen} options={{ title: "German" }} />
       <AppStack.Screen name="PortugueseLevels" component={PortugueseLevelsScreen} options={{ title: "Portuguese" }} />
       <AppStack.Screen name="KoreanLevels" component={KoreanLevelsScreen} options={{ title: "Korean" }} />
-      <AppStack.Screen name="ItalianLevels" component={ItalianLevels} options={{ title: "Italian" }} />
-      <AppStack.Screen name="LessonList" component={LessonList} options={{ title: "Lessons" }} />
+      <AppStack.Screen name="ItalianLevels" component={ItalianLevelsScreen} options={{ title: "Italian" }} />
+      <AppStack.Screen name="LessonList" component={LessonListScreen} options={{ title: "Lessons" }} />
       <AppStack.Screen name="JapaneseLevels" component={JapaneseLevelsScreen} options={{ title: "Japanese" }} />
       <AppStack.Screen name="ChineseLevels" component={ChineseLevelsScreen} options={{ title: "Chinese" }} />
       <AppStack.Screen name="ChineseReview" component={ChineseReviewScreen} options={{ title: "Today's review" }} />
@@ -160,19 +126,19 @@ function AppNavigator() {
       <AppStack.Screen name="Onboarding" component={OnboardingScreen} options={{ title: "Welcome" }} />
       <AppStack.Screen
         name="LessonRunner"
-        component={LessonRunner}
+        component={LessonRunnerScreen}
         options={{ title: "" }}
       />
-      <AppStack.Screen name="Review" component={ReviewList} options={{ title: "Review" }} />
-      <AppStack.Screen name="ReviewDrill" component={ReviewDrill} options={{ title: "Review" }} />
-      <AppStack.Screen name="TodayReview" component={TodayReview} options={{ title: "Today's review" }} />
-      <AppStack.Screen name="UnitTest" component={UnitTest} options={{ title: "Test out" }} />
-      <AppStack.Screen name="Flashcards" component={Flashcards} options={{ title: "Flashcards" }} />
+      <AppStack.Screen name="Review" component={ReviewListScreen} options={{ title: "Review" }} />
+      <AppStack.Screen name="ReviewDrill" component={ReviewDrillScreen} options={{ title: "Review" }} />
+      <AppStack.Screen name="TodayReview" component={TodayReviewScreen} options={{ title: "Today's review" }} />
+      <AppStack.Screen name="UnitTest" component={UnitTestPaid} options={{ title: "Test out" }} />
+      <AppStack.Screen name="Flashcards" component={FlashcardsScreen} options={{ title: "Flashcards" }} />
       <AppStack.Screen name="FrequencyDecks" component={FrequencyDecksScreen} options={{ title: "Frequency decks" }} />
-      <AppStack.Screen name="Exams" component={Exams} options={{ title: "Exam practice" }} />
+      <AppStack.Screen name="Exams" component={ExamsScreen} options={{ title: "Exam practice" }} />
       <AppStack.Screen
         name="Exam"
-        component={Exam}
+        component={ExamScreen}
         options={({ route }) => ({
           title:
             route.params.course === "fr"
@@ -188,11 +154,11 @@ function AppNavigator() {
                       : "DELE practice",
         })}
       />
-      <AppStack.Screen name="ExamPaper" component={ExamPaper} options={{ title: "" }} />
-      <AppStack.Screen name="ReadingLevels" component={ReadingLevels} options={{ title: "Readings" }} />
+      <AppStack.Screen name="ExamPaper" component={ExamPaperScreen} options={{ title: "" }} />
+      <AppStack.Screen name="ReadingLevels" component={ReadingLevelsScreen} options={{ title: "Readings" }} />
       <AppStack.Screen
         name="ReadingsList"
-        component={ReadingsList}
+        component={ReadingsListScreen}
         options={({ route }) => ({
           title: route.params?.frenchLevel
             ? `${route.params.frenchLevel.toUpperCase()} Stories`
@@ -205,11 +171,11 @@ function AppNavigator() {
                   : `${getReadingLevel(route.params?.levelPath ?? "a1").code} Readings`,
         })}
       />
-      <AppStack.Screen name="StoryReader" component={StoryReader} options={{ title: "" }} />
-      <AppStack.Screen name="Writing" component={Writing} options={{ title: "Writing" }} />
-      <AppStack.Screen name="StudyTools" component={StudyTools} options={{ title: "Study tools" }} />
-      <AppStack.Screen name="Grammar" component={GrammarList} options={{ title: "Grammar" }} />
-      <AppStack.Screen name="GrammarGuide" component={GrammarGuide} options={{ title: "" }} />
+      <AppStack.Screen name="StoryReader" component={StoryReaderScreen} options={{ title: "" }} />
+      <AppStack.Screen name="Writing" component={WritingScreen} options={{ title: "Writing" }} />
+      <AppStack.Screen name="StudyTools" component={StudyToolsScreen} options={{ title: "Study tools" }} />
+      <AppStack.Screen name="Grammar" component={GrammarListScreen} options={{ title: "Grammar" }} />
+      <AppStack.Screen name="GrammarGuide" component={GrammarGuideScreen} options={{ title: "" }} />
       <AppStack.Screen name="Placement" component={PlacementTestScreen} options={{ title: "Placement test" }} />
       <AppStack.Screen name="Conjugation" component={ConjugationPaid} options={{ title: "Verb conjugation" }} />
       <AppStack.Screen name="Glossary" component={GlossaryPaid} options={{ title: "Glossary" }} />
@@ -231,13 +197,13 @@ function AppNavigator() {
       />
       <AppStack.Screen name="KoreanRoots" component={KoreanRootsScreen} options={{ title: "Word Roots" }} />
       <AppStack.Screen name="KoreanRootsLevel" component={KoreanRootsLevelScreen} options={{ title: "Word Roots" }} />
-      <AppStack.Screen name="ItalianPlacement" component={ItalianPlacement} options={{ title: "Italian placement test" }} />
-      <AppStack.Screen name="ItalianConjugation" component={ItalianConjugation} options={{ title: "Italian verb conjugation" }} />
-      <AppStack.Screen name="ItalianArticles" component={ItalianArticles} options={{ title: "Articles & Prepositions" }} />
-      <AppStack.Screen name="ItalianPronunciation" component={ItalianPronunciation} options={{ title: "Pronunciation & Spelling" }} />
+      <AppStack.Screen name="ItalianPlacement" component={ItalianPlacementTestScreen} options={{ title: "Italian placement test" }} />
+      <AppStack.Screen name="ItalianConjugation" component={ItalianConjugationPaid} options={{ title: "Italian verb conjugation" }} />
+      <AppStack.Screen name="ItalianArticles" component={ItalianArticlesScreen} options={{ title: "Articles & Prepositions" }} />
+      <AppStack.Screen name="ItalianPronunciation" component={ItalianPronunciationScreen} options={{ title: "Pronunciation & Spelling" }} />
       <AppStack.Screen
         name="ItalianGlossary"
-        component={ItalianGlossary}
+        component={ItalianGlossaryPaid}
         options={({ route }) => ({ title: route.params?.level ? "Italian vocabulary" : "Italian glossary" })}
       />
     </AppStack.Navigator>

@@ -1,4 +1,4 @@
-// The Italian beta's study tools (the website's /lessons/it/tools): what the
+// The Italian course's study tools (the website's /lessons/it/tools): what the
 // Italian Study Tools screen lists, and whether the Italian level picker
 // shows a "Study tools" link at all (only when the list isn't empty). The
 // Portuguese course's tools are the model (StudyToolsScreen's

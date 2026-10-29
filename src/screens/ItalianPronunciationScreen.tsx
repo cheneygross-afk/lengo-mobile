@@ -33,7 +33,7 @@ const LEVEL_NAME: Record<string, string> = {
   c2: "Mastery",
 };
 
-// Mobile port of the Italian beta's Pronunciation & Spelling tool (the
+// Mobile port of the Italian course's Pronunciation & Spelling tool (the
 // website's /lessons/it/tools/pronunciation, data in
 // src/lib/it-tools/pronunciation.ts, synced): double consonants, stress,
 // written accents and the letters that change their sound, the lessons

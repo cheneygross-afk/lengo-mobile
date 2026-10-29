@@ -157,7 +157,7 @@ export function targetSpans(text: string, lang: SpeechLang): Span[] {
     if (text.trim() && !looksEnglishNotPortuguese(text)) return [{ start: 0, end: text.length, text }];
     return [];
   }
-  // The Italian beta the same way ("a", "in", "do" are Italian words too).
+  // The Italian course the same way ("a", "in", "do" are Italian words too).
   if (lang === "it-IT") {
     const quoted = quotedSpans(text);
     if (quoted.length > 0) return quoted;

@@ -57,7 +57,7 @@ const GERMAN_LETTERS = /[äöüß]/i;
 const PORTUGUESE_LETTERS = /[ãõâêôàçáéíóú]/i;
 
 // And the accented vowels Italian writes (è, perché, città), for the
-// Italian beta. Shared with French and Portuguese, but each course only
+// Italian course. Shared with French and Portuguese, but each course only
 // ever checks its own. Same rule as the website's TapText.
 const ITALIAN_LETTERS = /[àèéìòù]/i;
 

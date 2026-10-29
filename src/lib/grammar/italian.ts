@@ -1,4 +1,4 @@
-// The Italian beta's grammar guides (./it-guides*.ts, synced from the
+// The Italian course's grammar guides (./it-guides*.ts, synced from the
 // website), loaded on demand: only the Italian study tools need them.
 import type { ItGrammarGuide } from "./it-types";
 

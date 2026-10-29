@@ -49,11 +49,10 @@ function SpanishReadingLevels({ navigation }: Props) {
 }
 
 // The French or German course's, the Portuguese course's or the Korean
-// beta's stories (lib/stories/courseStories.ts), level by level, as on the
+// course's stories (lib/stories/courseStories.ts), level by level, as on the
 // website's /lessons/fr/stories, /lessons/de/stories, /lessons/pt/stories
-// and /lessons/ko/stories, or the Italian beta's (/lessons/it/stories)
-// (Korean and Italian levels by name only: Beginner ... Mastery; gated to
-// the beta accounts in RootNavigator): graded
+// and /lessons/ko/stories, or the Italian course's (/lessons/it/stories)
+// (Korean and Italian levels by name only: Beginner ... Mastery): graded
 // original stories with audio and glosses (no whole-text translation: tap
 // any word for its meaning). No book picks for these courses.
 function CourseStoryLevels({ navigation, course }: Props & { course: StoryCourse }) {

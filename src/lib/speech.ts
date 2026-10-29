@@ -40,7 +40,7 @@ export const GERMAN_LANG: SpeechLang = "de-DE";
 export const PORTUGUESE_LANG: SpeechLang = "pt-BR";
 // The Korean course (lessons/ko-*.ts), spoken by Google's ko-KR voices.
 export const KOREAN_LANG: SpeechLang = "ko-KR";
-// The Italian beta (lessons/it-*.ts), spoken by Google's it-IT voices.
+// The Italian course (lessons/it-*.ts), spoken by Google's it-IT voices.
 export const ITALIAN_LANG: SpeechLang = "it-IT";
 
 // The course languages taught in English (French, German, Portuguese,

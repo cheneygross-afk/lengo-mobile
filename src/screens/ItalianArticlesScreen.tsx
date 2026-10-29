@@ -43,7 +43,7 @@ const LEVEL_NAME: Record<string, string> = {
 /** What to play for a form: an elided one is read with a word after it ("l'amico"). */
 const spoken = (form: string) => (form.endsWith("'") ? `${form}${form.startsWith("un") ? "amica" : "amico"}` : form);
 
-// Mobile port of the Italian beta's Articles & Prepositions tool (the
+// Mobile port of the Italian course's Articles & Prepositions tool (the
 // website's /lessons/it/tools/articles-prepositions, data in
 // src/lib/it-tools/articles.ts, synced): the article and
 // articulated-preposition tables, the partitive, the lessons that teach
