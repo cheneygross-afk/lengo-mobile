@@ -65,7 +65,7 @@ export const C2_UNIT_WRITING: Record<string, WriteExercise> = {
   ),
   "c1c2-vocabulary-practice-11": t(
     "Redacta un breve informe para la dirección sobre una crisis de reputación de tu empresa. Usa modismos del mundo empresarial y al menos una locución latina.",
-    ["Al menos cuatro expresiones del ámbito empresarial (capear el temporal, poner sobre la mesa…)", "Al menos una locución latina bien usada (grosso modo, a priori, de facto…)", "Estructura de informe", "Registro profesional"],
+    ["Al menos cuatro expresiones del ámbito empresarial (capear el temporal, poner sobre la mesa…)", "Al menos una locución latina bien usada (grosso modo, a priori, ad hoc…)", "Estructura de informe", "Registro profesional"],
     "Asunto: crisis en redes sociales. Grosso modo, la situación es la siguiente: un vídeo viral sobre un retraso en nuestras entregas ha dañado la imagen de la marca. A priori, el problema parecía menor, pero en 48 horas se ha convertido en tendencia. Para capear el temporal, propongo tres medidas: dar la cara con un comunicado oficial, poner sobre la mesa un plan de compensación para los clientes afectados y reforzar el equipo de logística. Si actuamos con rapidez, podremos darle la vuelta a la tortilla y salir reforzados. Quedo a disposición de la dirección para tratar los detalles.",
     "Locuciones latinas: grosso modo (aproximadamente), a priori (de antemano). Expresiones empresariales: capear el temporal, dar la cara, poner sobre la mesa, darle la vuelta a la tortilla."
   ),

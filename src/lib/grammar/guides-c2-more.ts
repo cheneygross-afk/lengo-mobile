@@ -285,7 +285,7 @@ export const C2_MORE_GUIDES: GrammarGuide[] = [
       },
       {
         q: "How is it different from interior monologue?",
-        a: "Interior monologue is first person and present tense, like a direct quotation of the mind. Free indirect style keeps the narrator's third person and past tenses.",
+        a: "Interior monologue is usually first person and often present tense, like a direct quotation of the mind. Free indirect style keeps the narrator's third person and past tenses.",
       },
     ],
     related: ["reported-speech", "sequence-of-tenses", "narrative-tenses-and-historical-present"],
@@ -363,7 +363,7 @@ export const C2_MORE_GUIDES: GrammarGuide[] = [
     ],
     mistakes: [
       {
-        wrong: "La casa está siendo pintada.",
+        wrong: "La casa está siendo pintada. (grammatical, but sounds translated)",
         right: "Están pintando la casa. / Se está pintando la casa.",
         why: "Not an error, but the progressive ser passive sounds like a translation from English; Spanish prefers se or the third-person plural.",
       },
@@ -526,7 +526,7 @@ export const C2_MORE_GUIDES: GrammarGuide[] = [
       {
         heading: "Typical dequeísmo",
         body: [
-          "It appears mostly after verbs of thinking and saying: pensar, creer, decir, opinar, considerar, parecer, and after es + adjective. None of these take de with a noun, so none take de que.",
+          "It appears mostly after verbs of thinking and saying: pensar, creer, decir, opinar, considerar, parecer, and after es + adjective such as es posible or es importante. None of these take de with a noun, so none take de que (adjectives like consciente or seguro do need de: es consciente de que).",
         ],
         examples: [
           { es: "✗ Creo de que tienes razón. ✓ Creo que tienes razón.", en: "I think you're right." },

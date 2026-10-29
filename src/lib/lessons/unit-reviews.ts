@@ -280,14 +280,22 @@ const EN_COPY: Copy = {
 
 /** Unit-specific summaries (Spanish) for units where the generic line says too little. */
 const ES_UNIT_FOCUS: Record<string, string> = {
+  "Sequence of tenses in practice":
+    "Escucha, habla y escribe con lo que has aprendido en «La secuencia de tiempos en la práctica»",
+  "Hypothetical si-clauses":
+    "Escucha, habla y escribe con lo que has aprendido en «Cláusulas hipotéticas con si»",
+  "Si tuviera… in practice":
+    "Escucha, habla y escribe con lo que has aprendido en «Si tuviera… en la práctica»",
+  "Would have: past hypotheticals":
+    "Escucha, habla y escribe con lo que has aprendido en «Habría + participio: hipótesis sobre el pasado»",
   "Psychology & complex emotions":
-    "Repasa el vocabulario de la unidad (alivio, desazón, ambivalencia, matices del sentimiento) escuchando frases, hablando y escribiendo un texto sobre emociones contradictorias",
+    "Repasa el vocabulario de la unidad (alivio, desazón, ambivalencia) junto con verbos de cambio y léxico coloquial de lecciones recientes, escuchando frases, hablando y escribiendo un texto sobre emociones contradictorias",
   "Art, film & literary criticism":
-    "Repasa el léxico de la crítica (reseña, montaje, desenlace, adjetivos valorativos) escuchando, hablando y escribiendo una crítica breve de una película",
+    "Repasa el léxico de la crítica (reseña, montaje, desenlace, adjetivos valorativos) y el vocabulario de titulares de prensa, escuchando, hablando y escribiendo una crítica breve de una película",
   "Business & economics":
-    "Repasa el léxico económico (causa y efecto, fusiones, inflación, informes) escuchando, hablando y escribiendo una noticia económica breve sobre una fusión",
+    "Repasa el léxico económico (causa y efecto, fusiones, inflación, informes) y parte del vocabulario literario reciente, escuchando, hablando y escribiendo una noticia económica breve sobre una fusión",
   "Creative writing":
-    "Repasa las técnicas narrativas (prefiguración, imagen literaria, elipsis, locuciones con dar/echar/llevar) escuchando, hablando y escribiendo un microrrelato",
+    "Repasa las técnicas narrativas (prefiguración, imagen literaria, elipsis), las locuciones con dar/echar/llevar y el vocabulario filosófico reciente, escuchando, hablando y escribiendo un microrrelato",
   "Professional & Academic review & mastery exam":
     "Repasa los registros del nivel (jurídico, médico, periodístico, crítico) y la fraseología escuchando, hablando y escribiendo un texto reflexivo en registro culto",
 };
@@ -586,7 +594,7 @@ const ES_UNIT_SUMMARIES: Record<string, string> = {
   "ser-estar-haber-limits-part-1-1": "Repasa con audio, voz y escritura los casos límite de ser, estar y haber: eventos, resultados, adjetivos que cambian de sentido y verbos de cambio.",
   "prepositional-verbs-part-1-1": "Repasa con audio, voz y escritura el régimen verbal: verbos con a, de, en y con, y el uso correcto de «de que» y «que» (queísmo y dequeísmo).",
   "advanced-discourse-markers-1": "Repasa con audio, voz y escritura los conectores avanzados: matizar (ahora bien, dicho esto), destacar (cabe señalar), concluir (en definitiva) y advertir (so pena de, a riesgo de).",
-  "emphatic-structures-1": "Repasa con audio, voz y escritura las estructuras enfáticas: oraciones hendidas y pseudohendidas, anteposición, «sí que» y «lo + adjetivo + que».",
+  "emphatic-structures-1": "Repasa con audio, voz y escritura las estructuras enfáticas: oraciones escindidas y pseudoescindidas, anteposición, «sí que» y «lo + adjetivo + que».",
   "future-conditional-conjecture-1": "Repasa con audio, voz y escritura la conjetura con futuro y condicional, deber de + infinitivo, a lo mejor y quizás, y el futuro concesivo.",
   "formal-informal-register-1": "Repasa con audio, voz y escritura la elección entre tú, usted y vos, el paso de uno a otro y las fórmulas de cortesía.",
   "voseo-part-1-1": "Repasa con audio, voz y escritura el voseo: presente, imperativo, pronombres y su uso en el Río de la Plata y Centroamérica.",

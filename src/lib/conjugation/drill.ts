@@ -54,7 +54,7 @@ export type DrillQuestion = {
 
 // Weather verbs only have an él/ella form in use; soler is used in the
 // present and imperfect.
-const ONLY_EL = new Set(["llover", "nevar", "amanecer", "tronar"]);
+const ONLY_EL = new Set(["llover", "nevar", "tronar"]);
 const ONLY_TENSES: Record<string, TenseId[]> = { soler: ["pres", "impf", "pperf"] };
 
 function rng(seed: number) {

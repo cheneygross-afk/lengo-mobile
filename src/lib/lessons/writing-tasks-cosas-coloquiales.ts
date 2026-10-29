@@ -49,7 +49,7 @@ export const COSAS_COLOQUIALES_WRITING_TASKS: UnitWriting = {
         "Al menos una norma tácita explicada con su motivo",
         "Registro cercano, con algún toque de humor"
       ],
-      "modelAnswer": "Guía de supervivencia para el domingo: 1. Llega con algo: un postre o una botella de vino. 2. Cuando te sirvan, di «¡Que aproveche!» y no empieces hasta que lo haga la anfitriona. 3. Si te ofrecen repetir, acepta al menos una vez: rechazarlo todo se interpreta como que no te ha gustado. 4. Cuando ya no puedas más, di «Estoy que reviento, de verdad», con una sonrisa. 5. Ni se te ocurra levantarte de la mesa al terminar el café: ahí empieza la sobremesa, que puede alargarse hasta la merienda. 6. Si al final te quieren dar un táper con las sobras, llévatelo; es un gesto de cariño. ¡Y suerte!",
+      "modelAnswer": "Guía de supervivencia para el domingo: 1. Llega con algo: un postre o una botella de vino. 2. Cuando te sirvan, no empieces hasta que la anfitriona diga «¡Que aproveche!» o empiece ella. 3. Si te ofrecen repetir, acepta al menos una vez: rechazarlo todo se interpreta como que no te ha gustado. 4. Cuando ya no puedas más, di «Estoy que reviento, de verdad», con una sonrisa. 5. Ni se te ocurra levantarte de la mesa al terminar el café: ahí empieza la sobremesa, que puede alargarse hasta la merienda. 6. Si al final te quieren dar un táper con las sobras, llévatelo; es un gesto de cariño. ¡Y suerte!",
       "explanation": "Los imperativos (llega, acepta, llévatelo) y ni se te ocurra + infinitivo dan consejos directos; repetir, estoy que reviento, la sobremesa y llevarse las sobras recogen las normas tácitas de la mesa, explicadas con su motivo (se interpreta como…)."
     }
   ],
@@ -65,7 +65,7 @@ export const COSAS_COLOQUIALES_WRITING_TASKS: UnitWriting = {
         "Una valoración del resultado",
         "Registro informal de oficina"
       ],
-      "modelAnswer": "Hola, Marcos: Te cuento, porque fue un partido de infarto. Al principio el cliente nos metió un gol: dijo que el presupuesto le parecía carísimo y que tenía otra oferta. Luis intentó echar balones fuera hablando de plazos, pero el cliente no se lo tragó. Entonces Ana se jugó todo a una carta y propuso un mes de prueba gratis. El jefe, que estaba completamente en fuera de juego, intentó pasarme la pelota a mí con las cifras, pero por suerte las tenía preparadas. Al final conseguimos remontar y firmaron. El lunes te lo explico con calma. Un abrazo, Irene",
+      "modelAnswer": "Hola, Marcos: Te cuento, porque fue un partido de infarto. Al principio el cliente nos metió un gol: dijo que tenía otra oferta mucho más barata, y era mentira. Luis intentó echar balones fuera hablando de plazos, pero el cliente no se lo tragó. Entonces Ana se jugó todo a una carta y propuso un mes de prueba gratis. El jefe, que estaba completamente en fuera de juego, intentó pasarme la pelota a mí con las cifras, pero por suerte las tenía preparadas. Al final conseguimos remontar y firmaron. El lunes te lo explico con calma. Un abrazo, Irene",
       "explanation": "Las metáforas trasladan el fútbol a la oficina: meter un gol (engañar o sorprender), echar balones fuera (eludir), jugarse todo a una carta (arriesgarlo todo), estar en fuera de juego (desorientado), pasar la pelota (delegar) y remontar (darle la vuelta al resultado)."
     }
   ],

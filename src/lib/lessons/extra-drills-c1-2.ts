@@ -40,7 +40,7 @@ export const DRILLS_C1_2: Record<string, Exercise[]> = {
     toEs(
       "However much you insist (tú), I'm not going to change my mind.",
       "Por más que insistas, no voy a cambiar de opinión.",
-      "«Por más que» + subjuntivo expresa un obstáculo que no cambia el resultado; el error habitual es usar indicativo («insistes») como en inglés.",
+      "«Por más que» + subjuntivo expresa un obstáculo que no cambia el resultado; el indicativo («insistes») solo valdría si se presentara la insistencia como un hecho real y repetido.",
       ["Por mucho que insistas, no voy a cambiar de opinión.", "Por más que insistas, no cambiaré de opinión.", "Por mucho que insistas, no cambiaré de opinión.", "Por más que insistas, no voy a cambiar de idea.", "Por mucho que insistas, no voy a cambiar de idea.", "Por más que insistas, no cambiaré de idea.", "Por mucho que insistas, no cambiaré de idea."],
     ),
     toEs(
@@ -96,7 +96,7 @@ export const DRILLS_C1_2: Record<string, Exercise[]> = {
       "Por más que ___, el comité no cambiará su decisión.",
       "insista",
       "However much she [insists], the committee won't change its decision.",
-      "«Por más que» pide subjuntivo presente cuando se habla del presente o el futuro; «insiste» sería un calco del inglés.",
+      "«Por más que» pide subjuntivo presente cuando se habla del presente o el futuro; «insiste» solo valdría si la insistencia se presentara como un hecho real y habitual.",
       ["se empeñe"],
     ),
     fe(
@@ -117,7 +117,8 @@ export const DRILLS_C1_2: Record<string, Exercise[]> = {
       "Aunque todos lo ___, yo no me lo creo.",
       "dicen",
       "Even though everyone [says] so, I don't believe it.",
-      "Aquí «aunque» presenta un hecho que el hablante sabe real, por eso va indicativo; con subjuntivo se hablaría de algo hipotético o poco relevante.",
+      "Aquí «aunque» presenta un hecho que el hablante sabe real, por eso va indicativo; con subjuntivo («digan») se restaría importancia a lo que dicen.",
+      ["digan"],
     ),
     fe(
       "Es cierto que ___ mucho del tema; ahora bien, lo explica fatal.",
@@ -143,10 +144,10 @@ export const DRILLS_C1_2: Record<string, Exercise[]> = {
       "«Ahora bien» introduce un contrapunto después de una concesión; los demás suman, explican o concluyen, pero no refutan.",
     ),
     mc(
-      "Elige la forma correcta: «Por más que lo ___, no me convence.» (tú)",
+      "Elige la forma correcta: «Por más que lo ___ mañana, no me convencerá.» (tú)",
       ["explicas", "expliques", "explicarás", "explicaste"],
       1,
-      "«Por más que» de obstáculo con presente o futuro lleva subjuntivo presente; el indicativo es el error típico.",
+      "Con referencia futura («mañana», «no me convencerá») «por más que» lleva subjuntivo presente; el indicativo («explicas») solo vale para un hecho real y repetido.",
     ),
   ],
 
@@ -491,8 +492,8 @@ export const DRILLS_C1_2: Record<string, Exercise[]> = {
       "Por mucho que ___, nunca consigue llegar a la hora.",
       "intente",
       "However hard he [tries], he never manages to arrive on time.",
-      "La concesión con «por mucho que» exige subjuntivo presente; «intenta» es el error del hablante que piensa en inglés.",
-      ["se esfuerce"],
+      "La concesión con «por mucho que» exige subjuntivo presente; «intenta» también sería posible si el esfuerzo se presenta como un hecho real y habitual.",
+      ["se esfuerce", "intenta"],
     ),
     fe(
       "Te prestaré el libro ___ lo devuelvas la semana que viene.",
@@ -534,7 +535,7 @@ export const DRILLS_C1_2: Record<string, Exercise[]> = {
     toEs(
       "The fact that the bridge has been closed forces thousands of drivers to take another route.",
       "El hecho de que hayan cerrado el puente obliga a miles de conductores a tomar otra ruta.",
-      "«El hecho de que» convierte toda la oración en sujeto y suele pedir subjuntivo («hayan cerrado»); el error típico es poner indicativo por influencia del inglés.",
+      "«El hecho de que» convierte toda la oración en sujeto y suele pedir subjuntivo («hayan cerrado»); el indicativo («han cerrado») es menos habitual, pero posible si se presenta el hecho como información nueva.",
       ["El hecho de que se haya cerrado el puente obliga a miles de conductores a tomar otra ruta.", "El hecho de que el puente haya sido cerrado obliga a miles de conductores a tomar otra ruta.", "El hecho de que hayan cerrado el puente obliga a miles de conductores a coger otra ruta.", "El hecho de que hayan cerrado el puente obliga a miles de conductores a buscar otra ruta.", "El hecho de que hayan cerrado el puente obliga a miles de conductores a tomar otro camino.", "El hecho de que se haya cerrado el puente obliga a miles de conductores a buscar otra ruta.", "El hecho de que hayan cerrado el puente obliga a miles de automovilistas a tomar otra ruta.", "El hecho de que han cerrado el puente obliga a miles de conductores a tomar otra ruta."],
     ),
     toEs(
@@ -1116,7 +1117,7 @@ export const DRILLS_C1_2: Record<string, Exercise[]> = {
     toEs(
       "The freshness of the night air was a relief after the heat.",
       "La frescura del aire nocturno fue un alivio después del calor.",
-      "El sufijo -ura forma «frescura» a partir de «fresco»; no digas «frescor» si buscas el derivado en -ura.",
+      "El sufijo -ura forma «frescura» a partir de «fresco»; «frescor» también existe (con -or), pero aquí se pide el derivado en -ura.",
       ["La frescura del aire de la noche fue un alivio después del calor.", "La frescura del aire nocturno fue un alivio tras el calor.", "La frescura del aire nocturno supuso un alivio después del calor.", "La frescura del aire de la noche fue un alivio tras el calor.", "La frescura del aire nocturno fue un alivio luego del calor.", "La frescura del aire nocturno supuso un alivio tras el calor."],
     ),
     fe(
@@ -1255,7 +1256,7 @@ export const DRILLS_C1_2: Record<string, Exercise[]> = {
     toEs(
       "The fact that the report arrived late, together with how sloppy it was, forced us to postpone the meeting.",
       "El hecho de que el informe llegara tarde, unido a lo descuidado que estaba, nos obligó a aplazar la reunión.",
-      "Se combinan «el hecho de que» + subjuntivo y «lo + adjetivo + que» para ponderar la cualidad («lo descuidado que estaba»); el pretérito del verbo principal exige el imperfecto de subjuntivo.",
+      "Se combinan «el hecho de que» + subjuntivo y «lo + adjetivo + que» para ponderar la cualidad («lo descuidado que estaba»); con el verbo principal en pasado lo habitual es el imperfecto de subjuntivo (el perfecto o el indicativo también se aceptan).",
       ["El hecho de que el informe haya llegado tarde, unido a lo descuidado que estaba, nos obligó a aplazar la reunión.", "El hecho de que el informe llegara tarde, junto con lo descuidado que estaba, nos obligó a aplazar la reunión.", "El hecho de que el informe llegara tarde, unido a lo descuidado que estaba, nos obligó a posponer la reunión.", "El hecho de que el informe llegara tarde, junto con lo descuidado que estaba, nos obligó a posponer la reunión.", "El hecho de que el informe llegó tarde, unido a lo descuidado que estaba, nos obligó a aplazar la reunión.", "El hecho de que el informe llegara tarde, unido a lo descuidado que era, nos obligó a aplazar la reunión."],
     ),
     fe(
@@ -1856,7 +1857,7 @@ export const DRILLS_C1_2: Record<string, Exercise[]> = {
     toEs(
       "His circumlocutions made it impossible to understand what he really wanted to say.",
       "Sus circunloquios hacían imposible entender lo que realmente quería decir.",
-      "El circunloquio es un rodeo de palabras; el imperfecto («hacían», «quería») describe un hábito en el pasado.",
+      "El circunloquio es un rodeo de palabras; el imperfecto («hacían», «quería») presenta la situación como algo en curso en el pasado.",
       ["Sus circunloquios hacían imposible comprender lo que realmente quería decir.", "Sus circunloquios impedían entender lo que realmente quería decir.", "Sus circunloquios hacían imposible entender lo que de verdad quería decir.", "Sus circunloquios hicieron imposible entender lo que realmente quería decir.", "Sus circunloquios impedían comprender lo que realmente quería decir.", "Sus circunloquios hacían imposible entender lo que en realidad quería decir.", "Sus circunloquios hacían imposible comprender lo que de verdad quería decir."],
     ),
     toEs(
@@ -1868,7 +1869,7 @@ export const DRILLS_C1_2: Record<string, Exercise[]> = {
     toEs(
       "Impartiality requires judging without letting personal preferences interfere.",
       "La imparcialidad exige juzgar sin dejar que las preferencias personales interfieran.",
-      "La imparcialidad es juzgar sin dejarse influir por preferencias; «sin dejar que» exige subjuntivo, no infinitivo.",
+      "La imparcialidad es juzgar sin dejarse influir por preferencias; «sin dejar que» exige subjuntivo; si el sujeto es el mismo también vale «sin dejarse influir» (infinitivo).",
       ["La imparcialidad exige juzgar sin dejar que las preferencias personales influyan.", "La imparcialidad requiere juzgar sin dejar que las preferencias personales interfieran.", "La imparcialidad exige juzgar sin permitir que las preferencias personales interfieran.", "La imparcialidad exige juzgar sin dejarse influir por preferencias personales.", "La imparcialidad requiere juzgar sin dejarse influir por las preferencias personales.", "La imparcialidad exige juzgar sin dejarse influir por las preferencias personales.", "La imparcialidad requiere juzgar sin permitir que las preferencias personales influyan."],
     ),
     toEs(
@@ -2009,7 +2010,7 @@ export const DRILLS_C1_2: Record<string, Exercise[]> = {
     toEs(
       "Collapse of a bridge in the north leaves two dead",
       "Derrumbe de un puente en el norte deja dos muertos",
-      "El titular nominal omite artículos y usa un sustantivo derivado («derrumbe») más un verbo en presente; no se escribe «El puente se derrumba» si se quiere condensar.",
+      "El titular nominal omite artículos y usa un sustantivo derivado («derrumbe») más un verbo en presente; la forma más puramente nominal omitiría el verbo («Derrumbe de un puente en el norte: dos muertos»), aunque la prensa también conserva un verbo en presente («deja»).",
       ["Hundimiento de un puente en el norte deja dos muertos", "Desplome de un puente en el norte deja dos muertos", "Derrumbe de un puente en el norte deja dos fallecidos", "Derrumbe de un puente en el norte: dos muertos", "Desplome de un puente en el norte deja dos fallecidos", "Hundimiento de un puente en el norte deja dos fallecidos", "Derrumbe de un puente en el norte causa dos muertos"],
     ),
     toEs(
@@ -2061,32 +2062,32 @@ export const DRILLS_C1_2: Record<string, Exercise[]> = {
       ["Inauguración de la nueva biblioteca con la presencia del rey", "Inauguración de la nueva biblioteca con la asistencia del rey", "Inauguración de la nueva biblioteca en presencia del monarca", "Inauguración de la nueva biblioteca ante el rey"],
     ),
     toEs(
-      "«Cancelación de cuatro vuelos por la huelga de controladores»",
+      "Four flights have been cancelled because of the air traffic controllers' strike.",
       "Se han cancelado cuatro vuelos por la huelga de controladores.",
       "Para reconstruir la oración se pasa el sustantivo a verbo («cancelación» → «cancelar») y se usa el pretérito perfecto en pasiva refleja («se han cancelado»), que evita nombrar al agente.",
       ["Cuatro vuelos se han cancelado por la huelga de controladores.", "Han cancelado cuatro vuelos por la huelga de controladores.", "Se han cancelado cuatro vuelos a causa de la huelga de controladores.", "Han cancelado cuatro vuelos a causa de la huelga de controladores.", "Se han suspendido cuatro vuelos por la huelga de controladores.", "Cuatro vuelos han sido cancelados por la huelga de controladores."],
-      "Reescribe el titular como oración completa en pretérito perfecto.",
+      "Traduce al español.",
     ),
     toEs(
-      "«Descenso brusco de las temperaturas en el norte»",
+      "Temperatures have dropped sharply in the north.",
       "Las temperaturas han descendido bruscamente en el norte.",
       "El sustantivo «descenso» vuelve a verbo («descender») y el adjetivo «brusco» pasa a adverbio («bruscamente») en la oración completa.",
       ["Han descendido bruscamente las temperaturas en el norte.", "Las temperaturas han bajado bruscamente en el norte.", "Han bajado bruscamente las temperaturas en el norte.", "Las temperaturas han descendido de forma brusca en el norte.", "Las temperaturas han descendido de manera brusca en el norte.", "Las temperaturas han descendido de golpe en el norte."],
-      "Reescribe el titular como oración completa en pretérito perfecto.",
+      "Traduce al español.",
     ),
     toEs(
-      "«Reapertura del puerto tras la tormenta»",
+      "The port has reopened after the storm.",
       "Se ha reabierto el puerto tras la tormenta.",
       "«Reapertura» vuelve a «reabrir», cuyo participio es irregular («reabierto»); la pasiva refleja con «se» evita nombrar al agente.",
       ["El puerto ha reabierto tras la tormenta.", "Han reabierto el puerto tras la tormenta.", "El puerto se ha reabierto tras la tormenta.", "Se ha reabierto el puerto después de la tormenta.", "El puerto ha vuelto a abrir tras la tormenta.", "Han vuelto a abrir el puerto tras la tormenta.", "Se ha vuelto a abrir el puerto tras la tormenta."],
-      "Reescribe el titular como oración completa en pretérito perfecto.",
+      "Traduce al español.",
     ),
     toEs(
-      "«Entrega del premio Cervantes a un poeta mexicano»",
+      "The Cervantes Prize has been awarded to a Mexican poet.",
       "Se ha entregado el premio Cervantes a un poeta mexicano.",
       "El sustantivo «entrega» se convierte en el verbo «entregar» y se usa el perfecto en pasiva refleja («se ha entregado»); el participio es «entregado».",
       ["Han entregado el premio Cervantes a un poeta mexicano.", "El premio Cervantes se ha entregado a un poeta mexicano.", "El premio Cervantes ha sido entregado a un poeta mexicano."],
-      "Reescribe el titular como oración completa en pretérito perfecto.",
+      "Traduce al español.",
     ),
     fe(
       "«Llegada de refuerzos a la zona» → Los refuerzos ___ a la zona. (perfecto)",
@@ -2624,7 +2625,7 @@ export const DRILLS_C1_2: Record<string, Exercise[]> = {
       "The orchestra kept playing even though the lights had gone out.",
       "La orquesta continuó tocando aunque se habían apagado las luces.",
       "«Continuar + gerundio» expresa continuidad; «aunque» + indicativo concede un hecho real, y el pluscuamperfecto marca anterioridad.",
-      ["La orquesta siguió tocando aunque se habían apagado las luces.", "La orquesta continuó tocando aunque se hubieran apagado las luces.", "La orquesta siguió tocando aunque se hubieran apagado las luces.", "La orquesta continuó tocando aunque las luces se habían apagado.", "La orquesta siguió tocando aunque las luces se habían apagado.", "La orquesta siguió tocando aunque se había ido la luz.", "La orquesta continuó tocando a pesar de que se habían apagado las luces."],
+      ["La orquesta siguió tocando aunque se habían apagado las luces.", "La orquesta continuó tocando aunque las luces se habían apagado.", "La orquesta siguió tocando aunque las luces se habían apagado.", "La orquesta siguió tocando aunque se había ido la luz.", "La orquesta continuó tocando a pesar de que se habían apagado las luces."],
     ),
     toEs(
       "I finished reading the novel yesterday, but I haven't stopped thinking about its ending.",

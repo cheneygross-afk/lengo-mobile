@@ -157,7 +157,7 @@ export const DELE_B2_AUDITIVA: ExamPaper = {
       items: [
         { n: 7, source: 0, question: "Duda si hacer un viaje de trabajo por un motivo familiar.", options: T2_SPEAKERS, answer: 1, explanation: "Paula se lo replantea porque su hijo empieza el colegio." },
         { n: 8, source: 0, question: "Teme cometer un error con un cliente.", options: T2_SPEAKERS, answer: 0, explanation: "Diego: \"me da miedo meter la pata\"." },
-        { n: 9, source: 0, question: "Ha viajado a Chile anteriormente.", options: T2_SPEAKERS, answer: 2, explanation: "Nadie dice haber estado en Chile: Diego no ha trabajado nunca con ese cliente y Paula solo dice que \"iba a ir\"." },
+        { n: 9, source: 0, question: "Está pensando en cambiar de empresa.", options: T2_SPEAKERS, answer: 2, explanation: "Nadie habla de cambiar de empresa." },
         { n: 10, source: 0, question: "Abandonó una formación.", options: T2_SPEAKERS, answer: 1, explanation: "Paula dejó el curso de liderazgo a la tercera sesión." },
         { n: 11, source: 0, question: "Ha animado a otras personas a hacer el curso.", options: T2_SPEAKERS, answer: 0, explanation: "Diego lo ha recomendado a todo su equipo." },
         { n: 12, source: 0, question: "Ofrece su ayuda para una mudanza.", options: T2_SPEAKERS, answer: 1, explanation: "Paula tiene furgoneta y se ofrece para el sábado." },

@@ -118,7 +118,7 @@ const DIACRITIC_MONOSYLLABLES = new Set(["dé", "sé"]);
 export function fixMonosyllable(form: string): string {
   if (!/[áéíóú]/.test(form) || DIACRITIC_MONOSYLLABLES.has(form)) return form;
   if (form.includes(" ")) return form;
-  if (syllableCount(form) === 1) return stripAcute(form);
+  if (syllableCount(form) === 1 && !/[iu]ás?$/.test(form)) return stripAcute(form);
   return form;
 }
 

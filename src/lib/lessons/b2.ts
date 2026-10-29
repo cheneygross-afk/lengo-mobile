@@ -2036,10 +2036,10 @@ const B2_BASE_LESSONS: Lesson[] = [
           "obsoleto",
           "irreversible",
           "confiable",
-          "escalable"
+          "innovador"
         ],
         "correctIndex": 1,
-        "explanation": "«Irreversible» es lo que no se puede deshacer. Obsoleto significa anticuado, confiable significa que se puede confiar en ello y escalable, que puede crecer."
+        "explanation": "«Irreversible» es lo que no se puede deshacer. Obsoleto significa anticuado, confiable significa que se puede confiar en ello e innovador, que introduce novedades."
       }
     ]
   },
@@ -2072,6 +2072,7 @@ const B2_BASE_LESSONS: Lesson[] = [
             "prompt": "Conjuga el verbo.",
             "sentence": "Yo ___ (ir) a la fiesta, pero estaba enfermo.",
             "answer": "habría ido",
+            "altAnswers": ["hubiera ido"],
             "explanation": "Habría (condicional de haber) más el participio de ir (ido)."
           }
         ]
@@ -2209,6 +2210,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "prompt": "Conjuga el verbo.",
         "sentence": "Si hubiéramos sabido, ___ (actuar, nosotros) diferente.",
         "answer": "habríamos actuado",
+        "altAnswers": ["hubiéramos actuado"],
         "explanation": "Habríamos (condicional de haber) más el participio de actuar (actuado)."
       },
       {
@@ -2853,7 +2855,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               "Dijo que terminó el informe."
             ],
             "correctIndex": 1,
-            "explanation": "En estilo indirecto, el futuro (terminaré) suele pasar a condicional: dijo que terminaría. «Que terminara» convierte la frase en una orden, y «termina» o «terminó» cambian el momento de la acción. Si el hecho aún está por ocurrir, también se acepta mantener el futuro («Dijo que terminará el informe mañana»), muy frecuente en América."
+            "explanation": "En estilo indirecto, el futuro (terminaré) suele pasar a condicional: dijo que terminaría. «Que terminara» convierte la frase en una orden, y «termina» o «terminó» cambian el momento de la acción. Si el hecho aún está por ocurrir, también se acepta mantener el futuro («Dijo que terminará el informe mañana»), frecuente en el habla cotidiana."
           }
         ]
       },
@@ -3433,7 +3435,7 @@ const B2_BASE_LESSONS: Lesson[] = [
             "en": "How have you been feeling this week?"
           },
           {
-            "es": "La verdad, he estado bastante ansioso. No es normal en mí ser tan inseguro.",
+            "es": "La verdad, he estado bastante ansioso. No es propio de mí ser tan inseguro.",
             "en": "To be honest, I've been quite anxious. It's not like me to be so insecure."
           },
           {
@@ -5057,13 +5059,13 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 21,
     "title": "Énfasis y Orden de Palabras, Part 1 of 2",
-    "summary": "Da fuerza a tus ideas con estructuras enfáticas: ser...que, lo + adjetivo + que, y la anteposición de elementos.",
+    "summary": "Da fuerza a tus ideas con estructuras enfáticas: ser...que, lo + adjetivo + que, la anteposición de elementos y adverbios enfáticos como jamás o apenas.",
     "duration": "7 min",
     "sections": [
       {
         "heading": "Anteposición para dar énfasis",
         "body": [
-          "Mover un complemento al inicio de la oración da énfasis a ese elemento. Si es un complemento directo, hay que retomarlo con un pronombre (Ese libro ya lo leí, no ✗ Ese libro ya leí). Con verbos como gustar o encantar el pronombre (me, te, le, nos…) es obligatorio siempre, se anteponga o no el complemento; «a mí», «a ella» solo añaden énfasis o contraste (A mí me encanta, pero a ella no)."
+          "Mover un complemento al inicio de la oración da énfasis a ese elemento. Si es un complemento directo que funciona como tema, se retoma con un pronombre (Ese libro ya lo leí, no ✗ Ese libro ya leí). Con verbos como gustar o encantar el pronombre (me, te, le, nos…) es obligatorio siempre, se anteponga o no el complemento; «a mí», «a ella» solo añaden énfasis o contraste (A mí me encanta, pero a ella no)."
         ],
         "examples": [
           {
@@ -5613,7 +5615,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "heading": "El cual, la cual, los cuales, las cuales: concordancia con el antecedente",
         "body": [
           "A diferencia de \"cuyo\", las formas \"el cual\", \"la cual\", \"los cuales\" y \"las cuales\" concuerdan en género y número con el ANTECEDENTE, es decir, con el sustantivo al que se refieren, igual que \"que\", pero marcando explícitamente el género y el número.",
-          "Se usan sobre todo después de preposiciones, en especial tras preposiciones de varias sílabas o locuciones (según, durante, mediante, a través de...), aunque también tras sin, para, por o tras. Tras estas preposiciones, \"que\" solo no basta: necesita artículo (el que) o se sustituye por \"el cual\". Solo tras algunas preposiciones breves (en, de, con) se admite a veces \"que\" sin artículo: la casa en que vivo."
+          "Se usan sobre todo después de preposiciones, en especial tras preposiciones de varias sílabas o locuciones (según, durante, mediante, a través de...), aunque también tras sin, para, por o tras. Tras estas preposiciones, \"que\" solo no basta: necesita artículo (el que) o se sustituye por \"el cual\". Solo tras algunas preposiciones breves (en, de, con) se admite a veces \"que\" sin artículo: la casa en que vivo. Además existe el neutro \"lo cual\", que no concuerda con nada y retoma toda una idea anterior: Llegó tarde, lo cual nos molestó."
         ],
         "examples": [
           {
@@ -6013,7 +6015,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 26,
     "title": "El Subjuntivo en Cláusulas Adjetivas (Relativas): Práctica Extra, Part 2 of 3",
-    "summary": "Practica el contraste entre indicativo y subjuntivo en cláusulas relativas: antecedentes conocidos frente a indefinidos, desconocidos o inexistentes, con muchos verbos y contextos distintos.",
+    "summary": "Practicarás el contraste indicativo/subjuntivo en cláusulas relativas con antecedente negativo (nadie, nada, ningún), con busco/necesito/quiero y en preguntas como ¿conoces a alguien que…?",
     "duration": "8 min",
     "sections": [
       {
@@ -6172,7 +6174,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 27,
     "title": "El Subjuntivo en Cláusulas Adjetivas (Relativas): Práctica Extra, Part 3 of 3",
-    "summary": "Practica el contraste entre indicativo y subjuntivo en cláusulas relativas: antecedentes conocidos frente a indefinidos, desconocidos o inexistentes, con muchos verbos y contextos distintos.",
+    "summary": "Practicarás las formas irregulares del subjuntivo (sea, esté, vaya, sepa, dé, haya) en cláusulas relativas y repasarás el contraste entre indicativo y subjuntivo.",
     "duration": "8 min",
     "sections": [
       {
@@ -6573,7 +6575,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "A pesar de que sea difícil, lo intentaremos.",
-            "en": "Even if it's difficult, we'll try it."
+            "en": "Even though it may be difficult, we'll try it."
           }
         ],
         "checkpoint": [
@@ -6689,7 +6691,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 30,
     "title": "El Subjuntivo en Cláusulas Adverbiales: Práctica Extra, Part 3 of 3",
-    "summary": "Practica de forma intensiva el uso del subjuntivo con conjunciones temporales (cuando, en cuanto, hasta que, antes de que), de propósito (para que) y de concesión (aunque, a pesar de que), contrastándolo con el indicativo en contextos habituales o reales.",
+    "summary": "Practica de forma intensiva el uso del subjuntivo con conjunciones temporales (cuando, en cuanto, hasta que, antes de que), de propósito (para que) y de concesión (aunque) y de condición (a menos que, con tal de que, sin que, en caso de que), contrastándolo con el indicativo en contextos habituales o reales.",
     "duration": "8 min",
     "sections": [
       {
@@ -7929,6 +7931,7 @@ const B2_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa la oración con el condicional perfecto.",
             "sentence": "Yo ___ (ir) a la fiesta, pero tuve que trabajar.",
             "answer": "habría ido",
+            "altAnswers": ["hubiera ido"],
             "explanation": "El condicional perfecto (habría + participio) expresa lo que habría pasado bajo otra circunstancia."
           }
         ]
@@ -8423,7 +8426,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 40,
     "title": "El Estilo Indirecto: Práctica Extra, Part 1 of 3",
-    "summary": "Practica la transformación de citas directas en estilo indirecto: cambios de tiempo verbal, pronombres, posesivos y expresiones de tiempo y lugar, con verbos declarativos, preguntas y mandatos.",
+    "summary": "Practica el estilo indirecto con enunciados («dijo que»): presente → imperfecto, pretérito y perfecto → pluscuamperfecto, futuro → condicional, además de pronombres y marcadores de tiempo.",
     "duration": "8 min",
     "sections": [
       {
@@ -8455,7 +8458,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Pretérito y Pretérito Perfecto → Pluscuamperfecto",
         "body": [
-          "Recuerda que las acciones pasadas retroceden un paso más y se convierten en pluscuamperfecto."
+          "Recuerda que, para marcar que una acción pasada fue anterior al momento en que se cuenta, el pretérito y el pretérito perfecto suelen convertirse en pluscuamperfecto (en la lengua oral el pretérito a veces se mantiene)."
         ],
         "examples": [
           {
@@ -8578,7 +8581,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 41,
     "title": "El Estilo Indirecto: Práctica Extra, Part 2 of 3",
-    "summary": "Practica la transformación de citas directas en estilo indirecto: cambios de tiempo verbal, pronombres, posesivos y expresiones de tiempo y lugar, con verbos declarativos, preguntas y mandatos.",
+    "summary": "Practica el estilo indirecto: el retroceso del subjuntivo y las preguntas indirectas de sí/no («preguntó si») y con palabra interrogativa («preguntó qué / dónde / cuándo»).",
     "duration": "9 min",
     "sections": [
       {
@@ -8751,7 +8754,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "trabajo"
         ],
         "translation": "The director told us to finish the work.",
-        "explanation": "El mandato directo 'Terminen el trabajo' se convierte en 'que termináramos el trabajo', con el verbo en imperfecto de subjuntivo."
+        "explanation": "Un mandato se cuenta con «dijo que» + subjuntivo, en imperfecto si el verbo introductor está en pasado: 'Terminen el trabajo' → 'nos dijo que termináramos el trabajo'."
       }
     ]
   },
@@ -8951,7 +8954,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           {
             "type": "fill-blank",
             "prompt": "Completa la oración con la forma correcta de ser o estar.",
-            "sentence": "El profesor ___ aburrido; nadie presta atención en su clase.",
+            "sentence": "El profesor ___ muy aburrido; sus clases no interesan a nadie.",
             "answer": "es",
             "hint": "Describe una cualidad permanente de la clase, no un sentimiento temporal.",
             "explanation": "Se usa 'ser' porque la oración describe una característica inherente del profesor (sus clases no interesan a nadie), no un estado de ánimo temporal."
@@ -9009,7 +9012,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Completa la oración con la forma correcta de ser o estar.",
-        "sentence": "El profesor ___ aburrido; nadie presta atención en su clase.",
+        "sentence": "El profesor ___ muy aburrido; sus clases no interesan a nadie.",
         "answer": "es",
         "hint": "cualidad permanente, no sentimiento temporal",
         "explanation": "'Ser aburrido' describe una característica del profesor: sus clases no son interesantes."
@@ -9246,7 +9249,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "question": "¿Cuáles de las siguientes oraciones son gramaticalmente correctas?",
         "options": [
           "Hay tres sillas en la cocina.",
-          "Están tres sillas en la cocina.",
+          "Hay las sillas en la cocina.",
           "El concierto es en el parque.",
           "El concierto hay en el parque."
         ],
@@ -9254,7 +9257,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "«Hay tres sillas» presenta la existencia de algo, y «El concierto es en el parque» usa ser para el lugar de un evento. «Están tres sillas» y «El concierto hay» usan el verbo equivocado."
+        "explanation": "«Hay tres sillas» presenta la existencia de algo, y «El concierto es en el parque» usa ser para el lugar de un evento. «Hay las sillas» usa «hay» con un sustantivo determinado (con artículo definido se usa «están») y «El concierto hay» usa el verbo equivocado (para el lugar de un evento se usa ser)."
       },
       {
         "type": "fill-blank",
@@ -9733,15 +9736,15 @@ const B2_BASE_LESSONS: Lesson[] = [
         "prompt": "Ordena las palabras para formar una oración correcta.",
         "words": [
           "con",
-          "el",
-          "calor",
+          "los",
+          "años",
           "se",
           "volvió",
           "muy",
           "irritable"
         ],
-        "translation": "With the heat, he became very irritable.",
-        "explanation": "Volverse irritable describe un cambio de carácter provocado por una causa externa persistente, el calor."
+        "translation": "With the years, he became very irritable.",
+        "explanation": "Volverse irritable describe un cambio de carácter gradual y duradero, aquí a lo largo de los años."
       },
       {
         "type": "fill-blank",
@@ -10126,7 +10129,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 50,
     "title": "Conectores Avanzados y Estructuras de Énfasis: Práctica Extra, Part 2 of 3",
-    "summary": "Practica el uso de conectores de contraste, causa, consecuencia y adición, además de las estructuras enfáticas con 'lo que...es que...' y 'ser + relativo'. Este es un repaso intensivo; se asume que ya conoces estas estructuras.",
+    "summary": "Practica los conectores de consecuencia y adición (por lo tanto, así que, además, es más, incluso), con algunos de causa y de énfasis. Este es un repaso intensivo; se asume que ya conoces estas estructuras.",
     "duration": "8 min",
     "sections": [
       {
@@ -10258,13 +10261,13 @@ const B2_BASE_LESSONS: Lesson[] = [
         "type": "multiple-choice",
         "question": "¿Qué diferencia principal hay entre 'ya que' y 'puesto que' frente a 'porque'?",
         "options": [
-          "'Porque' rara vez encabeza la oración, mientras que 'ya que' y 'puesto que' se anteponen con naturalidad.",
+          "'Ya que' y 'puesto que' presentan una causa ya conocida y se anteponen con naturalidad, mientras que 'porque' suele dar la causa como información nueva y rara vez abre la oración.",
           "No hay ninguna diferencia; son intercambiables en todos los contextos.",
           "'Ya que' y 'puesto que' solo se usan en preguntas.",
           "'Porque' expresa consecuencia y los otros expresan causa."
         ],
         "correctIndex": 0,
-        "explanation": "«Porque» rara vez va al principio de la oración; «ya que» y «puesto que» sí se anteponen con naturalidad. No son intercambiables en todo, no son solo para preguntas y «porque» expresa causa, no consecuencia."
+        "explanation": "«Ya que» y «puesto que» presentan una causa ya conocida y se anteponen con naturalidad; «porque» suele dar la causa como información nueva y rara vez va al principio. No son intercambiables en todo, no son solo para preguntas y «porque» expresa causa, no consecuencia."
       },
       {
         "type": "fill-blank",
@@ -10282,7 +10285,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 51,
     "title": "Conectores Avanzados y Estructuras de Énfasis: Práctica Extra, Part 3 of 3",
-    "summary": "Practica el uso de conectores de contraste, causa, consecuencia y adición, además de las estructuras enfáticas con 'lo que...es que...' y 'ser + relativo'. Este es un repaso intensivo; se asume que ya conoces estas estructuras.",
+    "summary": "Practica las estructuras enfáticas con 'lo que...es que...' y 'ser + relativo', y el registro formal e informal de los conectores. Este es un repaso intensivo; se asume que ya conoces estas estructuras.",
     "duration": "8 min",
     "sections": [
       {
@@ -11798,6 +11801,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "type": "fill-blank",
         "prompt": "Completa con la palabra correcta.",
         "sentence": "Antes de decidir, conviene ___ bien los pros y los contras.",
+        "en": "Before deciding, it is advisable to [weigh up] the pros and cons carefully.",
         "answer": "sopesar",
         "altAnswers": [
           "valorar",
@@ -13317,7 +13321,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Condicional Perfecto y Pluscuamperfecto de Subjuntivo",
         "body": [
-          "Si + pluscuamperfecto de subjuntivo (hubiera + participio), + condicional perfecto (habría + participio) describe situaciones hipotéticas sobre el pasado que ya no se pueden cambiar (si hubiera estudiado, habría aprobado)."
+          "Si + pluscuamperfecto de subjuntivo (hubiera + participio), + condicional perfecto (habría + participio) describe situaciones hipotéticas sobre el pasado que ya no se pueden cambiar (si hubiera estudiado, habría aprobado). Si la condición es pasada pero el resultado es presente, se usa el condicional simple (si no hubieran cancelado el vuelo, ahora estaríamos en Lima)."
         ]
       },
       {

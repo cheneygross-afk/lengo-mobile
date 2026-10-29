@@ -1650,6 +1650,18 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "estar entre la espada y la pared",
             "en": "verse obligado a elegir entre dos opciones igualmente difíciles"
+          },
+          {
+            "es": "estar hasta la coronilla",
+            "en": "estar harto, haber llegado al límite de la paciencia (como «estar hasta las narices»)"
+          },
+          {
+            "es": "estar en la luna / estar en las nubes",
+            "en": "estar distraído, con la mente en otro lugar"
+          },
+          {
+            "es": "ponerse las pilas",
+            "en": "espabilarse y empezar a esforzarse con determinación"
           }
         ],
         "checkpoint": [
@@ -3180,10 +3192,10 @@ const C2_BASE_LESSONS: Lesson[] = [
         "body": [
           "Profesora: Fíjense en este verso: «el silencio gritaba en la habitación vacía». ¿Qué figura reconocen aquí?",
           "Estudiante: Es una especie de contradicción, porque el silencio no puede gritar.",
-          "Profesora: Exacto, es un oxímoron, porque une dos ideas opuestas: silencio y grito. Y además hay una personificación: se le da al silencio la capacidad de gritar, una acción humana.",
+          "Profesora: Exacto, es una paradoja próxima al oxímoron, porque une dos ideas opuestas: silencio y grito. Y además hay una personificación: se le da al silencio la capacidad de gritar, una acción humana.",
           "Estudiante: ¿Y si el poema dijera que la habitación le susurró un secreto al poeta?",
           "Profesora: Ahí tendríamos ya una prosopopeya, porque la habitación no solo actúa como persona, sino que llega a comunicarse.",
-          "Estudiante: Entonces el oxímoron y la personificación pueden combinarse en una misma imagen.",
+          "Estudiante: Entonces la paradoja y la personificación pueden combinarse en una misma imagen.",
           "Profesora: Así es. La buena literatura rara vez usa una sola figura de manera aislada; suele entrelazar varias para construir una imagen más rica y sugerente.",
           "Estudiante: Empiezo a entender por qué este poema me pareció tan intenso al leerlo la primera vez.",
           "Profesora: Precisamente por eso: el lenguaje figurado no adorna el texto, sino que construye buena parte de su significado."
@@ -5748,7 +5760,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Vocabulario: más términos de la comprensión",
         "body": [
-          "Segunda tanda: procesos de interpretación (la inferencia, la inferencia contextual, la pista contextual, el doble nivel de lectura), lo no dicho (el supuesto implícito, el sobrentendido, el trasfondo implícito) y rasgos de la escucha (la velocidad de habla, el acento regional, la escucha activa)."
+          "Segunda tanda: procesos de interpretación (la inferencia, la inferencia contextual, la pista contextual, el doble nivel de lectura), lo no dicho (el supuesto implícito, el sobreentendido, el trasfondo implícito) y rasgos de la escucha (la velocidad de habla, el acento regional, la escucha activa)."
         ],
         "examples": [
           {
@@ -5784,7 +5796,7 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "el realce que la voz da a ciertas palabras al hablar"
           },
           {
-            "es": "el sobrentendido",
+            "es": "el sobreentendido",
             "en": "información que el hablante da por conocida y no expresa explícitamente"
           },
           {
@@ -5828,12 +5840,12 @@ const C2_BASE_LESSONS: Lesson[] = [
         "question": "«Anamnesis», en un informe médico, es un ejemplo de…",
         "options": [
           "tecnicismo",
-          "sobrentendido",
+          "sobreentendido",
           "énfasis prosódico",
           "acento regional"
         ],
         "correctIndex": 0,
-        "explanation": "«Anamnesis» es un tecnicismo: un término propio de un campo especializado (la medicina). Un sobrentendido es algo que se comunica sin decirlo, el énfasis prosódico depende de la entonación y un acento regional es un rasgo de pronunciación."
+        "explanation": "«Anamnesis» es un tecnicismo: un término propio de un campo especializado (la medicina). Un sobreentendido es algo que se comunica sin decirlo, el énfasis prosódico depende de la entonación y un acento regional es un rasgo de pronunciación."
       },
       {
         "type": "fill-blank",
@@ -6226,7 +6238,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 50,
     "title": "El Debate y la Argumentación Persuasiva, Part 7 of 9",
-    "summary": "Reitera sin cansar y persuade sin perder crédito, y analiza un turno de réplica en un debate real.",
+    "summary": "Reitera sin cansar y persuade sin perder crédito, y lee un turno de réplica modelo en el que se concede, se discrepa y se nombra una falacia.",
     "duration": "8 min",
     "sections": [
       {
@@ -6644,7 +6656,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 54,
     "title": "Presentaciones Orales y Negociación, Part 2 of 8",
-    "summary": "Cierra una presentación con fuerza: el cierre memorable y la ronda de preguntas.",
+    "summary": "Cierra una presentación con fuerza (cierre memorable y ronda de preguntas) y repasa la función del preámbulo en la apertura.",
     "duration": "5 min",
     "sections": [
       {
@@ -7203,7 +7215,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "el límite infranqueable",
-            "en": "punto a partir del cual ya no es posible retroceder en una negociación"
+            "en": "punto más allá del cual no se está dispuesto a ceder en una negociación"
           },
           {
             "es": "la ronda de preguntas",
@@ -8887,7 +8899,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 80,
     "title": "Español para Entrevistas de Trabajo, Part 5 of 7",
-    "summary": "Una entrevista de trabajo completa, de las fortalezas al cierre, en un diálogo real.",
+    "summary": "Lee una entrevista de trabajo completa, de las fortalezas al cierre, y aprende el léxico clave que usa la candidata (trayectoria laboral, proactividad, valor añadido).",
     "duration": "8 min",
     "sections": [
       {
@@ -9164,7 +9176,7 @@ const C2_BASE_LESSONS: Lesson[] = [
             "right": "aportación distintiva más allá de lo esperado"
           }
         ],
-        "explanation": "Vocabulario de la entrevista de trabajo."
+        "explanation": "La referencia laboral avala tu trabajo anterior; el margen de crecimiento es la posibilidad de progresar; la formación continua es actualizarse siempre; el valor añadido es lo que aportas de más."
       },
       {
         "type": "fill-blank",
@@ -9775,7 +9787,7 @@ const C2_BASE_LESSONS: Lesson[] = [
             "right": "diferencia de opinión expresada con respeto"
           }
         ],
-        "explanation": "Vocabulario de la mediación."
+        "explanation": "El punto de fricción es lo concreto que enfrenta a las partes; el rencor es el resentimiento que queda tras un agravio; el pacto de convivencia regula cómo vivir juntos; el desacuerdo constructivo discrepa con respeto."
       },
       {
         "type": "fill-blank",
@@ -10670,7 +10682,7 @@ const C2_BASE_LESSONS: Lesson[] = [
             "right": "al final, en último término"
           }
         ],
-        "explanation": "Conectores cultos del relato histórico."
+        "explanation": "«A instancias de» señala quién pide algo; «so pretexto de» introduce una excusa; «al cabo de» mide el tiempo transcurrido; «a la postre» presenta el resultado final."
       },
       {
         "type": "multiple-choice",
@@ -14428,7 +14440,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "la digresión narrativa",
-            "en": "desvío temporal del relato principal hacia un asunto secundario"
+            "en": "desvío del hilo principal del relato hacia un asunto secundario"
           }
         ],
         "checkpoint": [
@@ -14628,7 +14640,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "la digresión narrativa",
-            "en": "desvío temporal del relato principal hacia un asunto secundario"
+            "en": "desvío del hilo principal del relato hacia un asunto secundario"
           },
           {
             "es": "la mise en abyme",
@@ -14695,7 +14707,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "heading": "Locuciones adverbiales de uso culto",
         "body": [
           "En el nivel Profesional y Académico no basta con reconocer una locución: hay que saber su matiz exacto. «A regañadientes» es hacer algo de mala gana pero hacerlo; «a pie juntillas» es creer algo sin la menor duda (casi siempre con «creer» o «seguir»); «a bote pronto» es responder sin haberlo pensado; «a troche y moche» es repartir algo sin orden ni medida; «de buenas a primeras» es de repente, sin aviso; «a ojo de buen cubero» es calcular a ojo, sin medir.",
-          "Todas las conoce un hablante culto de España, pero «a bote pronto», «a troche y moche» y «a ojo de buen cubero» son sobre todo peninsulares y en América pueden no entenderse; aparecen tanto en la conversación como en la prensa. Son fijas: no se dice «a pie junto» ni «a regañadiente»."
+          "Todas las conoce un hablante culto de España; «a bote pronto» es más frecuente en España, mientras que «a troche y moche» y «a ojo de buen cubero» se usan y se entienden también en gran parte de América; aparecen tanto en la conversación como en la prensa. Son fijas: no se dice «a pie junto» ni «a regañadiente»."
         ],
         "examples": [
           {
@@ -15808,7 +15820,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Fórmulas del escrito procesal",
         "body": [
-          "Un escrito dirigido a un juzgado español tiene partes fijas: «AL JUZGADO…», la identificación («Don X, procurador de los tribunales, en nombre y representación de…»), «EXPONE» (los hechos, en párrafos numerados: «PRIMERO.—», «SEGUNDO.—»), «SUPLICA AL JUZGADO» (la petición) y a veces «OTROSÍ DIGO» (una petición adicional). La sentencia termina con el «FALLO», tradicionalmente redactado en primera persona: «Que debo estimar y estimo la demanda…».",
+          "Un escrito dirigido a un juzgado español tiene partes fijas: «AL JUZGADO…», la identificación («Don X, procurador de los tribunales, en nombre y representación de…»), «EXPONE» (los hechos, en párrafos numerados: «PRIMERO.—», «SEGUNDO.—»), «SUPLICO AL JUZGADO» (la petición) y a veces «OTROSÍ DIGO» (una petición adicional). La sentencia termina con el «FALLO», tradicionalmente redactado en primera persona: «Que debo estimar y estimo la demanda…».",
           "La resolución que rechaza una petición se formula con «no ha lugar»: «No ha lugar a lo solicitado»."
         ],
         "examples": [
@@ -16522,7 +16534,12 @@ const C2_BASE_LESSONS: Lesson[] = [
             "altAnswers": [
               "auscultan",
               "aprecian",
-              "escuchan"
+              "escuchan",
+              "encuentran",
+              "hallan",
+              "detectan",
+              "observan",
+              "perciben"
             ]
           }
         ]
@@ -18478,10 +18495,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "sentence": "El atraco se ___ a plena luz del día.",
         "answer": "perpetró",
         "explanation": "«perpetrar»: cometer un delito o una acción grave y reprobable.",
-        "en": "The robbery [was committed] in broad daylight.",
-        "altAnswers": [
-          "cometió"
-        ]
+        "en": "The robbery was [perpetrated] in broad daylight."
       },
       {
         "type": "fill-blank",
@@ -18521,8 +18535,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "explanation": "«practicar»: realizar una actuación técnica u oficial (una detención, una autopsia, un registro).",
         "en": "The police [made] three arrests.",
         "altAnswers": [
-          "efectuó",
-          "realizó"
+          "efectuó"
         ]
       },
       {
@@ -21737,7 +21750,7 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "They were handing out leaflets by the bucketload."
           },
           {
-            "es": "En inversión en ciencia, el país va a la zaga de Europa.",
+            "es": "En cuanto a la inversión en ciencia, el país va a la zaga de Europa.",
             "en": "In science investment, the country lags behind Europe."
           },
           {
@@ -22193,7 +22206,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 156,
     "title": "Vocabulario C2: adjetivos que intensifican, Part 15 of 30",
-    "summary": "Error garrafal, ignorancia supina, silencio sepulcral, pobre de solemnidad, fe ciega, odio visceral, crítica demoledora, empeño denodado: las colocaciones intensivas que suenan nativas.",
+    "summary": "Error garrafal, ignorancia supina, silencio sepulcral, pobre de solemnidad, fracaso rotundo, fe ciega, rechazo visceral, informe demoledor, esfuerzo denodado, lluvia torrencial, batalla encarnizada: las colocaciones intensivas que suenan nativas.",
     "duration": "10 min",
     "sections": [
       {
@@ -23616,7 +23629,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "Lo detuvieron por allanamiento de morada.",
-            "en": "He was arrested for breaking and entering."
+            "en": "He was arrested for unlawful entry into a home."
           },
           {
             "es": "Un joven resultó herido en una reyerta callejera.",
@@ -25502,7 +25515,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "«guay»: estupendo (coloquial, España).",
           "«chévere»: estupendo (coloquial, Venezuela, Colombia, Caribe).",
           "«chido»: estupendo (coloquial, México).",
-          "«bacán»: estupendo (coloquial, Chile, Perú, Colombia).",
+          "«bacán»: estupendo (coloquial, Chile y Perú; en Colombia, «bacano»).",
           "«mogollón»: gran cantidad; muchísimo (coloquial, España).",
           "«un montón»: gran cantidad (coloquial, general).",
           "«flipar»: asombrarse mucho (coloquial, España)."
@@ -25556,7 +25569,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               },
               {
                 "left": "bacán",
-                "right": "estupendo (coloquial, Chile, Perú, Colombia)"
+                "right": "estupendo (coloquial, Chile y Perú)"
               }
             ],
             "explanation": "Repasa las definiciones de la sección: cada palabra tiene un sentido preciso que no comparte con las demás."
@@ -26620,7 +26633,8 @@ const C2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa con la nominalización correcta.",
         "sentence": "___ que llegaras tarde nos sorprendió a todos.",
         "answer": "El hecho de",
-        "explanation": "\"El hecho de que\" nominaliza una acción completa en un sustantivo abstracto."
+        "altAnswers": ["El que"],
+        "explanation": "\"El hecho de que\" nominaliza una acción completa en un sustantivo abstracto; \"El que\" + subjuntivo también es correcto y más breve."
       },
       {
         "type": "multiple-choice",
@@ -27037,6 +27051,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa con el eufemismo adecuado.",
         "sentence": "Tras años de servicio, la empresa decidió ___ varios empleados.",
         "answer": "prescindir de",
+        "altAnswers": ["desvincular a"],
         "explanation": "\"Prescindir de\" es una manera indirecta y menos dura de decir \"despedir\"."
       },
       {

@@ -4,7 +4,8 @@
 // "el" stands for él/ella/usted and "ellos" for ellos/ellas/ustedes. In the
 // imperative, "el" is the usted command and "ellos" the ustedes command.
 // "vos" appears only where voseo has its own forms: the present indicative
-// and the imperative. Everywhere else vos uses the tú form.
+// and the imperative. Elsewhere vos is given the tú form (colloquial voseo subjunctives such as
+// que vos tengás are not modelled).
 export type Person = "yo" | "tu" | "vos" | "el" | "nos" | "vosotros" | "ellos";
 
 /** The six persons of every finite tense, in table order. */

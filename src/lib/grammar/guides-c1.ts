@@ -394,7 +394,7 @@ export const C1_GUIDES: GrammarGuide[] = [
       {
         heading: "Tú, vos and usted across the Spanish-speaking world",
         body: [
-          "Spain uses tú widely, even with strangers of similar age and in many workplaces; usted signals respect or distance. Mexico and Peru use usted more with strangers and older people. Colombia and parts of Central America use usted even between friends and family. Argentina, Uruguay and much of Central America use vos for informal address.",
+          "Spain uses tú widely, even with strangers of similar age and in many workplaces; usted signals respect or distance. Mexico and Peru use usted more with strangers and older people. Parts of Colombia and Costa Rica use usted even between friends and family. Argentina, Uruguay and much of Central America use vos for informal address.",
         ],
         examples: [
           { es: "¿Me permite su pasaporte, por favor?", en: "May I see your passport, please? (usted)" },
@@ -737,7 +737,7 @@ export const C1_GUIDES: GrammarGuide[] = [
       {
         wrong: "El fumar cigarrillos es prohibido.",
         right: "Está prohibido fumar.",
-        why: "El + infinitive is fine, but overusing it sounds unnatural; and \"forbidden\" as a state is estar prohibido.",
+        why: "The sentence is heavy: Spanish says Está prohibido fumar (the usual fixed phrase, with estar because it states a resulting rule). El + infinitive is possible but sounds stiff with a plain statement like this.",
       },
     ],
     faqs: [

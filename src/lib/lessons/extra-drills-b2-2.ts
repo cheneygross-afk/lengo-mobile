@@ -278,7 +278,7 @@ export const DRILLS_B2_2: Record<string, Exercise[]> = {
     fe("Si ___ dinero, me compraría una casa en la playa.", "tuviera", "If I [had] money, I'd buy a house on the beach.", "Si + imperfecto de subjuntivo; nunca condicional tras si."),
     wo("Mi madre me pidió que fuera al supermercado", "Pidió (pasado) → imperfecto de subjuntivo; fueron → fuera.", "My mother asked me to go to the supermarket"),
     mc("¿Cuál es la forma correcta de «poner», ellos, en imperfecto de subjuntivo?", ["pusieran", "ponieran", "pondrían", "pongan"], 0, "Se forma desde pusieron: pusieran; «ponieran» no existe."),
-    mc("«Quiero que me ___.» / «Quería que me ___.» (ayudar, tú)", ["ayudes / ayudaras", "ayudaras / ayudes", "ayudas / ayudabas", "ayudes / ayudes"], 0, "Presente → presente de subjuntivo; pasado → imperfecto de subjuntivo."),
+    mc("Completa los dos huecos, en este orden (presente / pasado): «Quiero que me ___.» / «Quería que me ___.» (ayudar, tú)", ["ayudes / ayudaras", "ayudaras / ayudes", "ayudas / ayudabas", "ayudes / ayudes"], 0, "Presente → presente de subjuntivo; pasado → imperfecto de subjuntivo."),
   ],
 
   "b2d-patron-ellos-ron-ra": [
@@ -521,6 +521,6 @@ export const DRILLS_B2_2: Record<string, Exercise[]> = {
     wo("Mis padres esperaban que me quedara a vivir cerca de ellos", "Esperaban (deseo o influencia en pasado) → quedara.", "My parents expected me to stay and live near them"),
     wo("Me molestaba que compararan mis notas con las de mi hermana", "Molestaba (emoción en pasado) → compararan.", "It bothered me that they compared my grades with my sister's"),
     mc("«Mine wanted me to be a teacher.» (man speaking)", ["Los míos querían que fuera profesor.", "Los míos querían que sea profesor.", "Los míos querían que era profesor.", "Los míos querían ser profesor."], 0, "Querían (deseo o influencia en pasado) → fuera; «querían ser» significaría que ellos querían serlo."),
-    mc("«Now my parents are proud that I chose my own path.» → «Ahora mis padres están orgullosos de que ___ mi propio camino.»", ["eligiera", "elegí", "elegía", "elija"], 0, "Principal en presente, acción pasada → imperfecto de subjuntivo."),
+    mc("«Now my parents are proud that I chose my own path.» → «Ahora mis padres están orgullosos de que ___ mi propio camino.»", ["eligiera", "elegí", "elegía", "elija"], 0, "Principal en presente y acción pasada: lo más habitual es el perfecto de subjuntivo («de que haya elegido»), pero el imperfecto («de que eligiera») también es correcto."),
   ],
 };

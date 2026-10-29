@@ -24,7 +24,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
     "festivals-traditions-hispanic-world-1",
     "ccr-festival-calendar-match",
     "Red de palabras: el calendario festivo",
-    "Día de Muertos, Reyes, San Fermín, Inti Raymi, Fallas: relaciona cada fiesta con su país, su fecha y su vocabulario.",
+    "Día de Muertos, Reyes, San Fermín, Inti Raymi, Fallas: relaciona cada fiesta con su lugar y su vocabulario.",
     "7 min",
     [
       sec(
@@ -39,7 +39,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
             "¿En qué fiesta se queman grandes figuras de cartón piedra?",
             ["las Fallas", "el Inti Raymi", "el Día de Muertos", "los Reyes Magos"],
             0,
-            "En la cremà de las Fallas de Valencia se queman los ninots, grandes figuras de cartón piedra. El Inti Raymi celebra al Sol, el Día de Muertos honra a los difuntos con ofrendas y los Reyes Magos traen regalos; en ninguna se quema nada."
+            "En la cremà de las Fallas de Valencia se queman los ninots, grandes figuras de cartón piedra. El Inti Raymi celebra al Sol, el Día de Muertos honra a los difuntos con ofrendas y los Reyes Magos traen regalos; en ninguna se queman figuras."
           ),
         ]
       ),
@@ -90,9 +90,9 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         [
           mc(
             "«Verbena» es…",
-            ["un baile popular nocturno al aire libre", "una planta medicinal solamente", "un desfile militar", "una misa"],
+            ["un baile popular nocturno al aire libre", "una bebida típica de las fiestas", "un desfile militar", "una misa"],
             0,
-            "En contexto festivo, una verbena es un baile popular nocturno al aire libre. Aunque «verbena» también es el nombre de una planta, no es «solamente» eso, y no tiene nada de desfile militar ni de misa."
+            "En contexto festivo, una verbena es un baile popular nocturno al aire libre. Aunque «verbena» también es el nombre de una planta, en una fiesta no es una bebida, ni un desfile militar ni una misa."
           ),
         ]
       ),
@@ -197,7 +197,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         "El aperitivo va antes de comer, la sobremesa después, la merienda por la tarde, y el tapeo consiste en ir de bar en bar comiendo tapas."
       ),
       fb("Completa.", "Nos quedamos de ___ hasta que se hizo de noche.", "sobremesa", "«Quedarse de sobremesa» es seguir charlando en la mesa después de comer."),
-      fb("Completa.", "Esta tarde vamos a ___ por el centro: de bar en bar, una tapa en cada uno. (ir de tapas, infinitivo)", "tapear", "«Tapear» es ir de bar en bar tomando tapas; tras «vamos a» va el infinitivo."),
+      fb("Completa.", "Esta tarde vamos a ___ por el centro: de bar en bar, una tapa en cada uno. (un verbo derivado de «tapa», infinitivo)", "tapear", "«Tapear» es ir de bar en bar tomando tapas; tras «vamos a» va el infinitivo."),
       fb("Completa.", "Los niños ___ un bocadillo a las seis. (merendar)", "meriendan", "«Merendar» es tomar la merienda; diptonga en presente: ellos meriendan."),
       mc(
         "«Hay picoteo en casa de Ana» significa que…",
@@ -314,7 +314,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Del campo a la calle",
-        "Meterle un gol a alguien: engañarlo, colarle algo. Estar en fuera de juego: estar desinformado o fuera de lugar. Echar balones fuera: eludir una responsabilidad. Casarse de penalti (España): por un embarazo inesperado (coloquial). Pasar la pelota: transferir la responsabilidad. Salvar en el último minuto / en el descuento (España; en América: en el tiempo de reposición o de descuento). Sacar tarjeta roja: rechazar o expulsar.",
+        "Meterle un gol a alguien: engañarlo, colarle algo. Estar en fuera de juego: estar desinformado o fuera de lugar. Echar balones fuera: eludir una responsabilidad. Casarse de penalti (España): por un embarazo inesperado (coloquial). Pasar la pelota: transferir la responsabilidad. Llegar en el descuento / en el último minuto: lograr algo justo a tiempo (en América también: en el tiempo de descuento o de reposición). Sacar tarjeta roja: rechazar o expulsar.",
         [
           ["Cuando le pregunté, echó balones fuera.", "When I asked him, he dodged the question."],
           ["Me han metido un gol con este coche usado.", "They've conned me with this used car."],
@@ -340,7 +340,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         ],
         "Echar balones fuera = esquivar una responsabilidad; meterle un gol a alguien = engañarlo; pasar la pelota = traspasar la responsabilidad a otro; en el descuento = en el último momento."
       ),
-      fb("Completa.", "Aprobamos el presupuesto en el ___: a las 23:59.", "descuento", "«En el descuento» (el tiempo añadido del partido) significa en el último momento."),
+      fb("Completa.", "Aprobamos el presupuesto en el ___ (los minutos extra del final de un partido; una palabra): a las 23:59.", "descuento", "«En el descuento» (el tiempo añadido del partido) significa en el último momento."),
       fb("Completa.", "El ministro echó balones ___ cuando le preguntaron por la crisis.", "fuera", "«Echar balones fuera» es eludir una pregunta o una responsabilidad, como el jugador que despeja sin más."),
       fb("Completa.", "El vendedor me metió un ___: el móvil era de segunda mano.", "gol", "«Meterle un gol a alguien» es engañarlo o colársela."),
       mc(
@@ -445,7 +445,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         "Tocar las palmas es acompañar el ritmo con palmadas, una técnica esencial del flamenco. No es un saludo, ni un instrumento de madera (eso serían las castañuelas o el cajón), ni significa dejar de cantar."
       ),
       toEs("That singer really has soul.", "Ese cantaor tiene mucho duende.", "«Tener duende» expresa la emoción profunda que transmite un artista; «cantaor» es el cantante de flamenco.", ["Ese cantante tiene mucho duende.", "Esa cantante tiene mucho duende.", "Esa cantaora tiene mucho duende."]),
-      wo("La cumbia nació en Colombia y hoy se baila en toda Latinoamérica.", "Los géneros musicales llevan artículo («la cumbia»); «nacer en» indica el origen y «se baila» es pasiva refleja.", "Cumbia was born in Colombia and is now danced all over Latin America."),
+      wo("La cumbia nació en Colombia y hoy se baila en toda Latinoamérica.", "Como sujeto, el nombre de un género musical lleva artículo («la cumbia nació…»); «nacer en» indica el origen y «se baila» es pasiva refleja.", "Cumbia was born in Colombia and is now danced all over Latin America."),
     ]
   ),
   L(
@@ -497,7 +497,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "El lunfardo nació en Buenos Aires y Montevideo, a orillas del Río de la Plata. Madrid, La Habana y Ciudad de México tienen sus propias jergas (el cheli, la jerga cubana, el caló mexicano), pero no el lunfardo."
       ),
-      toEs("Tonight we're going out dancing, bro. (Colombia)", "Esta noche salimos a bailar, parce.", "«Parce» o «parcero» es la forma colombiana, sobre todo de Medellín, de decir amigo o colega.", ["Esta noche nos vamos a bailar, parcero.", "Esta noche salimos a bailar, parcero."]),
+      toEs("Tonight we're going out dancing, bro. (Colombia)", "Esta noche salimos a bailar, parce.", "«Parce» o «parcero» es la forma colombiana, sobre todo de Medellín, de decir amigo o colega.", ["Esta noche nos vamos a bailar, parcero.", "Esta noche nos vamos a bailar, parce.", "Esta noche salimos a bailar, parcero.", "Esta noche vamos a salir a bailar, parce.", "Esta noche vamos a salir a bailar, parcero."]),
       wo("Después del laburo nos vamos a la milonga del barrio.", "«Laburo» es lunfardo por «trabajo» (del italiano lavoro) y «la milonga» es la reunión o el local donde se baila tango.", "After work we're going to the neighborhood tango dance."),
     ]
   ),
@@ -510,7 +510,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "La mala suerte cambia de fecha",
-        "En el mundo hispano, el día de mala suerte es el martes 13: «En martes, ni te cases ni te embarques». Comunes: tocar madera, no pasar por debajo de una escalera, derramar sal, romper un espejo (siete años de mala suerte), abrir un paraguas en casa, gato negro. Expresiones: «¡Lagarto, lagarto!» (España, para ahuyentar la mala suerte), «Toco madera».",
+        "En España y en buena parte de Latinoamérica, el día de mala suerte es el martes 13: «En martes, ni te cases ni te embarques». Comunes: tocar madera, no pasar por debajo de una escalera, derramar sal, romper un espejo (siete años de mala suerte), abrir un paraguas en casa, gato negro. Expresiones: «¡Lagarto, lagarto!» (España, para ahuyentar la mala suerte), «Toco madera».",
         [
           ["En martes, ni te cases ni te embarques.", "On Tuesday, neither marry nor set sail."],
           ["Todo va bien, toco madera.", "Everything's going well, knock on wood."],
@@ -571,7 +571,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
     ],
     [
       fb("Completa.", "Nos comemos una uva con cada ___ del reloj.", "campanada", "Las campanadas son los golpes del reloj a medianoche; se come una uva con cada una."),
-      fb("Completa.", "La ropa interior ___ atrae el amor, según la tradición. (color)", "roja", "El adjetivo concuerda con «ropa» (femenino): ropa interior roja."),
+      fb("Completa.", "La ropa interior ___ atrae el amor, según la lista de rituales. (color: el que se asocia con el amor aquí)", "roja", "El adjetivo concuerda con «ropa» (femenino): ropa interior roja."),
       fb("Completa (subjuntivo).", "Comemos lentejas para que no nos ___ el dinero. (faltar)", "falte", "«Para que» exige subjuntivo porque expresa finalidad: para que no nos falte."),
       mt(
         "Relaciona el ritual con su propósito.",
@@ -685,7 +685,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         ],
         "«Si es viejísimo» quita valor al objeto elogiado, «Pues anda que tú» devuelve el elogio y «Eres muy amable» agradece sin presumir."
       ),
-      toEs("You're just being kind.", "Eres muy amable.", "«Eres muy amable» atribuye el elogio a la bondad del otro en lugar de aceptarlo sin más, que es la respuesta cortés y modesta; «solo estás siendo amable» añade el matiz de «no es para tanto».", ["Qué amable eres.", "Solo estás siendo amable.", "Lo dices por amabilidad.", "Lo dices por ser amable."]),
+      toEs("You're just being kind.", "Lo dices por amabilidad.", "«Lo dices por amabilidad» atribuye el elogio a la bondad del otro en lugar de aceptarlo sin más, que es la respuesta cortés y modesta; «solo estás siendo amable» añade el matiz de «no es para tanto».", ["Solo estás siendo amable.", "Lo dices por ser amable."]),
       wo("Qué va, si esta camisa la compré en un mercadillo.", "«Qué va» resta importancia al cumplido y el «si» enfático introduce la justificación; el objeto antepuesto «esta camisa» se retoma con «la».", "Oh no, I bought this shirt at a street market."),
     ]
   ),

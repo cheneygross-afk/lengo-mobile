@@ -195,7 +195,7 @@ export const DELE_B1_LECTURA: ExamPaper = {
       ],
       layout: "select",
       items: [
-        { n: 13, question: "¿Quién aprendió el idioma en su propio país?", options: ["A. Olga", "B. James", "C. Mei"], answer: 2, explanation: "Mei: \"aprendí español sin salir de mi país\"." },
+        { n: 13, question: "¿Quién aprendió el idioma sin salir de su país?", options: ["A. Olga", "B. James", "C. Mei"], answer: 2, explanation: "Mei: \"aprendí español sin salir de mi país\"." },
         { n: 14, question: "¿Quién aprendió al principio en su trabajo, sin clases?", options: ["A. Olga", "B. James", "C. Mei"], answer: 0, explanation: "Olga aprendió escuchando a sus compañeros del restaurante." },
         { n: 15, question: "¿Quién dice que ha olvidado palabras de su lengua materna?", options: ["A. Olga", "B. James", "C. Mei"], answer: 1, explanation: "James: \"se me han olvidado algunas palabras de mi propia lengua\"." },
         { n: 16, question: "¿Quién tuvo problemas con un sonido?", options: ["A. Olga", "B. James", "C. Mei"], answer: 0, explanation: "A Olga le costó la pronunciación de la erre." },

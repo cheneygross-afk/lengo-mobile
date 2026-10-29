@@ -65,7 +65,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "«Dar fe» significa certificar oficialmente que algo es verdadero o auténtico. No significa confiar en el documento («tener fe»), ni dudar de él, ni regalarlo."
       ),
       toEs("Pursuant to article 12, the tenant must pay the deposit.", "A tenor de lo dispuesto en el artículo 12, el arrendatario deberá abonar la fianza.", "«A tenor de lo dispuesto en» es la fórmula jurídica para «pursuant to»; el futuro («deberá») expresa obligación.", ["Según el artículo 12, el arrendatario deberá pagar la fianza.", "Conforme al artículo 12, el arrendatario deberá abonar la fianza.", "En virtud del artículo 12, el arrendatario deberá abonar la fianza."]),
-      wo("Sin perjuicio de lo anterior, ambas partes podrán rescindir el contrato.", "«Sin perjuicio de lo anterior» introduce una salvedad: lo dicho antes sigue vigente. «Rescindir» es dejar sin efecto el contrato.", "Notwithstanding the foregoing, both parties may terminate the contract."),
+      wo("Sin perjuicio de lo anterior, ambas partes podrán rescindir el contrato.", "«Sin perjuicio de lo anterior» introduce una salvedad: lo dicho antes sigue vigente. «Rescindir» es dejar sin efecto el contrato.", "Without prejudice to the foregoing, both parties may terminate the contract."),
     ]
   ),
   L(
@@ -118,7 +118,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "El acusado, el fiscal y la acusación particular son figuras del proceso penal. El arrendatario pertenece al ámbito contractual (quien alquila)."
       ),
       toEs("The plaintiff's lawyer requested a postponement.", "El letrado del demandante solicitó un aplazamiento.", "En el lenguaje jurídico español, «letrado» es el término técnico para «abogado».", ["El abogado del demandante solicitó un aplazamiento.", "La letrada del demandante solicitó un aplazamiento.", "El abogado de la parte demandante solicitó un aplazamiento."]),
-      wo("Compareció ante el juez acompañado de su letrada.", "«Comparecer» rige «ante» (comparecer ante el juez); «acompañado de» concuerda con el sujeto y va detrás del complemento.", "He appeared before the judge accompanied by his lawyer."),
+      wo("Compareció ante el juez acompañado de su letrada.", "«Comparecer» rige «ante» (comparecer ante el juez); «acompañado de» concuerda con el sujeto y va detrás del complemento.", "He appeared before the judge accompanied by his female lawyer."),
     ]
   ),
   L(
@@ -388,7 +388,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     ],
     [
       { ...fb("Completa.", "El poder puede ___ en cualquier momento. (dejar sin efecto, infinitivo)", "revocarse", "«Revocar» un poder es dejarlo sin efecto; aquí, con «se» pasivo: «revocarse». También vale «ser revocado»."), altAnswers: ["ser revocado"] },
-      fb("Completa.", "Usted ___ poder a su hijo. (conceder, término notarial)", "confiere", "En lenguaje notarial se «confiere» u «otorga» poder a alguien."),
+      { ...fb("Completa.", "Usted ___ poder a su hijo. (conceder, término notarial)", "confiere", "En lenguaje notarial se «confiere» u «otorga» poder a alguien."), altAnswers: ["otorga"] },
       mc(
         "¿Qué pregunta es adecuada ante el notario?",
         ["¿Podría explicarme el alcance de estas facultades?", "¿Esto qué es, tío?", "Venga, ¿dónde firmo y me piro?", "¿Me lo resumes rapidito?"],
@@ -411,7 +411,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "Vocabulario notarial."
       ),
       toEs("Could I revoke the power of attorney later on?", "¿Podría revocar el poder más adelante?", "El condicional de cortesía («¿Podría…?») es adecuado ante el notario; «revocar» es anular el poder.", ["¿Podría revocar el poder notarial más adelante?", "¿Podría revocar el poder en el futuro?"]),
-      wo("El poder podrá revocarse en cualquier momento mediante nueva escritura.", "«Podrá revocarse» es pasiva refleja con «poder» en futuro (posibilidad que concede el documento); el poder se revoca con otra escritura, no de palabra.", "The power of attorney may be revoked at any time by a new deed."),
+      wo("El poder podrá revocarse en cualquier momento mediante nueva escritura.", "«Podrá revocarse» es el verbo «poder» en futuro + infinitivo con «se» pasivo (= podrá ser revocado); el poder se revoca con otra escritura, no de palabra.", "The power of attorney may be revoked at any time by a new deed."),
     ]
   ),
   L(
@@ -503,7 +503,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "La descripción útil combina cualidad, localización, duración y factor agravante. «Me duele mucho por aquí», «Me encuentro fatal» y «un dolor raro» no dan datos concretos."
       ),
       toEs("I have a dull pain in my lower back that gets worse when I sit.", "Tengo un dolor sordo en la zona lumbar que empeora al sentarme.", "Un dolor sordo es continuo y poco intenso; «zona lumbar» es la parte baja de la espalda.", ["Tengo un dolor sordo en la zona lumbar que empeora cuando me siento.", "Tengo un dolor sordo en la parte baja de la espalda que empeora al sentarme."]),
-      wo("El dolor es de inicio insidioso y ha ido empeorando progresivamente.", "«De inicio insidioso» = de comienzo gradual; «ir + gerundio» («ha ido empeorando») expresa un cambio progresivo.", "The pain had a gradual onset and has been getting progressively worse."),
+      wo("El dolor es de inicio insidioso y ha ido empeorando progresivamente.", "«De inicio insidioso» = de comienzo gradual; «ir + gerundio» («ha ido empeorando») expresa un cambio progresivo.", "The pain has a gradual onset and has been getting progressively worse."),
     ]
   ),
   L(
@@ -550,7 +550,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "Estructura de la anamnesis."
       ),
       toEs("I'm allergic to penicillin and I take medication for blood pressure.", "Soy alérgico a la penicilina y tomo medicación para la tensión.", "«Ser alérgico a» + sustancia; «la tensión» es la forma habitual de España para la presión arterial.", ["Soy alérgica a la penicilina y tomo medicación para la tensión.", "Soy alérgico a la penicilina y tomo medicación para la presión arterial.", "Soy alérgico a la penicilina y tomo pastillas para la tensión."]),
-      wo("¿Desde cuándo tiene usted estas molestias?", "«¿Desde cuándo + presente?» pregunta por algo que empezó y continúa (en inglés, «have you had»); el médico trata al paciente de usted.", "How long have you had this discomfort?"),
+      wo("¿Desde cuándo tiene usted estas molestias?", "«¿Desde cuándo + presente?» pregunta por algo que empezó y continúa (en inglés, «have you had»); el médico trata al paciente de usted.", "How long have you had these complaints?"),
     ]
   ),
   L(
@@ -605,7 +605,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     "medical-health-spanish-4",
     "c2r-mission-posology",
     "Misión real: explicar la posología",
-    "Eres farmacéutico: explica a un paciente cómo tomar su tratamiento, con precisión y sin tecnicismos innecesarios.",
+    "Aprende a dar y entender instrucciones de posología con el imperativo de usted: dosis, frecuencia (cada ocho horas), relación con las comidas, duración y advertencias.",
     "7 min",
     [
       sec(
@@ -689,7 +689,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "Se hicieron un electrocardiograma, una analítica y un cateterismo. El informe no menciona ninguna resonancia magnética."
       ),
       fb("Completa.", "El paciente ___ a Urgencias por dolor torácico. (llegar, término del informe, presente)", "acude", "En los informes médicos, «acudir» es el verbo habitual para ir a un servicio: «acude a Urgencias»."),
-      { ...fb("Completa.", "Se ___ cateterismo con implantación de stent. (sinónimo técnico de «realizar»)", "practica", "En los informes médicos, las pruebas «se practican» (= se realizan)."), altAnswers: ["realiza", "efectúa"] },
+      { ...fb("Completa.", "Se ___ cateterismo con implantación de stent. (sinónimo técnico de «realizar»)", "practica", "En los informes médicos, las pruebas «se practican» (= se realizan)."), altAnswers: ["efectúa"] },
       mc(
         "¿Quién hará el seguimiento?",
         ["Cardiología, en un mes", "Urgencias, mañana", "el médico de familia, en un año", "nadie"],
@@ -1083,7 +1083,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     "proverbs-sayings-3",
     "c2r-proverbs-mission-advice",
     "Misión real: aconsejar con refranes",
-    "Cuatro amigos te piden consejo: responde a cada uno con el refrán adecuado y una explicación propia.",
+    "Elige el refrán adecuado para cada situación (la pintora entrometida, el procrastinador, el regalo feo, las malas compañías) y úsalos para aconsejar con argumentos.",
     "7 min",
     [
       sec(
@@ -1218,7 +1218,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "Es una hipérbole de tono absurdo: una exageración disparatada. No hay intención de herir (sarcasmo), no suaviza nada (eufemismo) y, desde luego, no es un dato real."
       ),
-      { ...fb("Completa con un intensificador irónico.", "¡___ suerte la mía! Otra vez me ha tocado guardia en Navidad.", "Menuda", "«Menudo/a» + sustantivo expresa ironía o énfasis: aquí la «suerte» es en realidad mala suerte. «¡Vaya suerte la mía!» también vale."), altAnswers: ["Vaya"] },
+      { ...fb("Completa con un intensificador irónico.", "¡___ suerte la mía! Otra vez me ha tocado guardia en Navidad.", "Menuda", "«Menudo/a» + sustantivo expresa ironía o énfasis: aquí la «suerte» es en realidad mala suerte. «¡Vaya suerte la mía!» también vale."), altAnswers: ["Vaya", "Qué"] },
       fb("Completa (ironía).", "¡Qué ___! Has llegado solo una hora tarde. (que llega a la hora)", "puntual", "La antífrasis dice lo contrario de lo que se piensa: «¡Qué puntual!» a quien llega una hora tarde."),
       ms(
         "¿Qué pistas ayudan a detectar la ironía?",
@@ -1440,7 +1440,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     "figurative-language-2",
     "c2r-figurative-hyperbole-personification",
     "Taller de estilo: hipérbole y personificación",
-    "Exagera y da vida a lo inanimado: reescribe descripciones planas con figuras expresivas.",
+    "Aprende a reconocer y emplear la hipérbole y la personificación para dar intensidad y vida a una descripción.",
     "7 min",
     [
       sec(
@@ -1672,7 +1672,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "La pausa y el adjetivo neutro «interesante» son una crítica velada: no le ha convencido. Si le hubiera encantado o le pareciera perfecto lo diría sin titubear, y la pausa no indica que no lo haya leído."
       ),
       { ...fb("Petición indirecta.", "¿No ___ un paraguas de sobra? (tener, tú, futuro de cortesía)", "tendrás", "Futuro en pregunta negativa = petición suave (también vale «tendrías»)."), altAnswers: ["tendrías"] },
-      fb("Rechazo indirecto.", "—¿Te apuntas? —Me lo ___ y te digo. (pensar)", "pienso", "«Me lo pienso y te digo» (pensárselo) aplaza la respuesta y a menudo es un rechazo suave."),
+      { ...fb("Rechazo indirecto.", "—¿Te apuntas? —Me lo ___ y te digo. (pensar)", "pienso", "«Me lo pienso y te digo» (pensárselo) aplaza la respuesta y a menudo es un rechazo suave. También vale el futuro: «Me lo pensaré y te digo»."), altAnswers: ["pensaré"] },
       ms(
         "¿Qué respuestas suelen ser rechazos indirectos?",
         ["Ya veremos.", "Es complicado.", "Me lo pienso.", "¡Claro que sí!"],
@@ -1735,8 +1735,8 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "Cuatro familias",
-        "Negar con fuerza: ¡Ni hablar!, ¡Ni loco!, ¡Ni de broma!, ¡Qué va!, ¡Ni en sueños! Sorpresa: ¡No me digas!, ¡Anda!, ¡Hala!, ¡Madre mía!, ¡No puede ser! Reforzar: ¡Y tanto!, ¡Ya lo creo!, ¡Claro que sí!, ¡Por supuesto! Resignación: ¡Qué le vamos a hacer!, ¡Vaya por Dios!, ¡Paciencia! Fastidio: ¡Lo que faltaba!",
+        "Cinco familias",
+        "Negar con fuerza: ¡Ni hablar!, ¡Ni loco!, ¡Ni de broma!, ¡Ni en sueños! (¡Qué va! niega con más ligereza). Sorpresa: ¡No me digas!, ¡Anda!, ¡Hala!, ¡Madre mía!, ¡No puede ser! Reforzar: ¡Y tanto!, ¡Ya lo creo!, ¡Claro que sí!, ¡Por supuesto! Resignación: ¡Qué le vamos a hacer!, ¡Vaya por Dios!, ¡Paciencia! Fastidio: ¡Lo que faltaba!",
         [
           ["—¿Te presto dinero para la moto? —¡Ni loca!", "—Shall I lend you money for the motorbike? —No way!"],
           ["—¿Estás cansado? —¡Y tanto!", "—Are you tired? —You bet!"],
@@ -1817,7 +1817,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "«En absoluto» responde con cortesía a «¿Le importa…?»: no me importa nada. «Ni loco» y «Ni de broma» dirían que no puede sentarse y además son coloquiales, y «Ni hablar, tío» es brusco e informal para un «usted»."
       ),
-      fb("Completa.", "—¿Vas a hacer puenting? —¡Ni ___! Me dan pánico las alturas.", "loco", "«¡Ni loco/loca!» es una negación enfática y coloquial: por nada del mundo."),
+      { ...fb("Completa.", "—¿Vas a hacer puenting? —¡Ni ___! Me dan pánico las alturas.", "loco", "«¡Ni loco/loca!» es una negación enfática y coloquial: por nada del mundo."), altAnswers: ["loca", "muerto", "muerta"] },
       fb("Completa.", "De ninguna ___ pienso firmar ese documento.", "manera", "«De ninguna manera» es una negación enfática válida en registro formal."),
       mc(
         "Ordena de menos a más enfático: (a) Ni muerto (b) No (c) Ni hablar",
@@ -2274,7 +2274,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "Pasar a un registro coloquial («entre nosotros», «un marrón») en una reunión formal busca complicidad y sinceridad. No pretende ofender, cerrar la reunión ni cambiar de idioma."
       ),
       fb("Completa.", "Mire ___, no le consiento que me hable así.", "usted", "En plena discusión, pasar a «usted» («Mire usted…») marca distancia y enfado."),
-      { ...fb("Completa (coloquial).", "Entre tú y yo, ese informe es un ___. (algo mal hecho; coloquial, España)", "churro", "«Un churro» es, en España coloquial, algo mal hecho, una chapuza."), altAnswers: ["desastre", "chapuza"] },
+      { ...fb("Completa (coloquial).", "Entre tú y yo, ese informe es un ___. (algo mal hecho; coloquial, España)", "churro", "«Un churro» es, en España coloquial, algo mal hecho, una chapuza."), altAnswers: ["desastre", "mamarracho"] },
       ms(
         "¿Qué puede indicar un cambio repentino de registro?",
         ["enfado o distancia", "complicidad", "ironía", "un cambio de idioma"],
@@ -2649,7 +2649,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     "debate-persuasion-2",
     "c2r-debate-concession-dialogue",
     "Laboratorio de diálogo: el turno de réplica",
-    "Un debate televisado: escucha el argumento del rival y elige la mejor réplica en cada turno.",
+    "Aprende las fases del debate y las fórmulas de la réplica: resumir con justicia al rival, conceder, refutar con evidencia y defender tu turno con cortesía.",
     "7 min",
     [
       sec(
@@ -2982,7 +2982,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "¿Qué verbos significan «demostrar que un argumento es falso»?",
         ["refutar", "rebatir", "desmontar", "sostener"],
         [0, 1, 2],
-        "«Refutar», «rebatir» y «desmontar» significan demostrar que un argumento es falso. «Sostener» es lo contrario: mantener o defender una idea."
+        "«Refutar», «rebatir» y «desmontar» significan demostrar que un argumento es falso. «Sostener» no encaja: significa mantener o defender una idea."
       ),
       toEs("She refuted each of her opponent's arguments.", "Rebatió cada uno de los argumentos de su contrincante.", "Léxico del debate: «rebatir» o «refutar» los argumentos del «contrincante» o «adversario».", ["Refutó cada uno de los argumentos de su adversario.", "Rebatió uno por uno los argumentos de su rival."]),
       wo("La moderadora concedió un minuto de réplica a cada participante.", "Léxico del debate.", "The moderator gave each participant one minute of rebuttal."),
@@ -3075,7 +3075,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "Ante un público técnico y escéptico, un dato contundente y verificable da credibilidad. Un chiste largo o una canción restan seriedad, y una disculpa debilita desde el principio."
       ),
-      toEs("How many of you have ever…?", "¿Cuántos de ustedes han…?", "Pregunta al público con «ustedes» + tercera persona del plural (han), registro de presentación formal.", ["¿Cuántos de ustedes han… alguna vez?", "¿Cuántos de ustedes alguna vez han…?"]),
+      toEs("How many of you have ever missed a flight?", "¿Cuántos de ustedes han perdido alguna vez un vuelo?", "Pregunta al público con «ustedes» + tercera persona del plural (han), registro de presentación formal.", ["¿Cuántos de ustedes alguna vez han perdido un vuelo?"]),
       wo("Hoy quiero hablarles de algo que nos afecta a todos.", "«Hablar de» + tema (hablarles de algo); «les» se refiere al público (ustedes) y «nos» incluye al hablante.", "Today I want to talk to you about something that affects us all."),
     ]
   ),
@@ -3329,7 +3329,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Completa.", "Tal como ___ en la reunión, el plazo será de 30 días. (acordar, nosotros)", "acordamos", "«Tal como acordamos» remite a lo pactado; pretérito indefinido para una reunión concreta ya terminada."),
+      { ...fb("Completa.", "Tal como ___ en la reunión, el plazo será de 30 días. (acordar, nosotros)", "acordamos", "«Tal como acordamos» remite a lo pactado; pretérito indefinido para una reunión concreta ya terminada."), altAnswers: ["quedamos", "convinimos"] },
       fb("Completa.", "Le ruego que me ___ estos puntos. (confirmar)", "confirme", "«Rogar que» + subjuntivo (petición formal): le ruego que me confirme."),
       fb("Completa.", "El pago se ___ a 30 días. (efectuar, futuro)", "efectuará", "Futuro formal en pasiva refleja: el pago se efectuará (registro de contratos y correos comerciales)."),
       mc(
@@ -3615,7 +3615,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Coincidencia.", "Tanto Pérez como Ruiz ___ en que el efecto es positivo. (coincidir)", "coinciden", "«Coincidir en que» + indicativo; con «tanto… como…» el verbo va en plural: coinciden."),
+      { ...fb("Coincidencia.", "Tanto Pérez como Ruiz ___ en que el efecto es positivo. (coincidir)", "coinciden", "«Coincidir en que» + indicativo; con «tanto… como…» el verbo va en plural: coinciden."), altAnswers: ["concuerdan"] },
       fb("Matiz.", "Vega, por su ___, matiza que el efecto es temporal.", "parte", "«Por su parte» introduce la aportación de otro autor en una revisión bibliográfica."),
       fb("Discrepancia.", "___ a esta postura, Ortiz sostiene lo contrario.", "Frente", "«Frente a» introduce una postura opuesta a la ya expuesta."),
       fb("Hueco.", "Sin embargo, ___ de estos estudios aborda a la población infantil.", "ninguno", "«Ninguno de» + plural lleva el verbo en singular: ninguno de estos estudios aborda."),
@@ -3665,9 +3665,9 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
       fb("Influencia.", "«No generalicen.» → Advirtió que no ___. (generalizar, nosotros)", "generalizáramos", "«Advertir que» con valor de orden o consejo va con subjuntivo; en pasado, imperfecto: generalizáramos."),
       mc(
         "«Publicaremos los resultados.» → Anunciaron que ___ los resultados.",
-        ["publicarían", "publicarán ya", "publicaran", "publicaban"],
+        ["publicarían", "publicaron", "publicaran", "publicaban"],
         0,
-        "Con verbo introductor en pasado, el futuro pasa a condicional: publicarían. «Publicarán ya» mantiene el futuro (posible solo si aún no han publicado), «publicaran» es subjuntivo y «publicaban» cambia el sentido."
+        "Con verbo introductor en pasado, el futuro pasa a condicional: publicarían. «Publicaron» es un pasado, no expresa futuro; «publicaran» es subjuntivo y «publicaban» cambia el sentido."
       ),
       toEs("The authors stated that they had found no evidence.", "Los autores afirmaron que no habían encontrado pruebas.", "Estilo indirecto en pasado: «no hemos encontrado» → «no habían encontrado» (pluscuamperfecto).", ["Los autores declararon que no habían encontrado pruebas.", "Los autores afirmaron que no habían encontrado ninguna prueba."]),
       wo("El comité recomendó que se repitiera el experimento.", "Influencia + subjuntivo.", "The committee recommended that the experiment be repeated."),
@@ -3856,7 +3856,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "«¿Acaso importa…?» equivale a «No importa»: pregunta retórica. No se dirige a nadie (interpelación), no finge buscar una palabra (duda fingida) ni se responde (hipófora)."
       ),
-      fb("Completa (duda fingida).", "¿Cómo ___ semejante despropósito? ¿Error? ¿Mala fe? (dar un nombre o adjetivo a algo, infinitivo)", "calificar", "La duda fingida usa «¿Cómo + infinitivo?» (calificar) y luego tantea opciones."),
+      { ...fb("Completa (duda fingida).", "¿Cómo ___ semejante despropósito? ¿Error? ¿Mala fe? (dar un nombre o adjetivo a algo, infinitivo)", "calificar", "La duda fingida usa «¿Cómo + infinitivo?» (calificar) y luego tantea opciones."), altAnswers: ["describir", "definir"] },
       fb("Completa (interpelación).", "Y ___, señores del jurado, ¿qué habrían hecho en su lugar?", "ustedes", "Interpelación: el pronombre «ustedes» + vocativo se dirige directamente al jurado."),
       mt(
         "Relaciona la figura con su definición.",
@@ -3936,9 +3936,9 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         [
           ms(
             "¿Qué recursos aparecen en el modelo?",
-            ["hipófora", "anáfora interrogativa", "interpelación", "hendida"],
+            ["hipófora", "anáfora interrogativa", "interpelación", "hendida", "metonimia", "hipérbole"],
             [0, 1, 2, 3],
-            "El modelo usa los cuatro recursos: hipófora, anáfora interrogativa, interpelación y oración hendida."
+            "El modelo usa cuatro recursos: hipófora, anáfora interrogativa, interpelación y oración hendida; no hay metonimia ni hipérbole."
           ),
         ]
       ),
@@ -4145,7 +4145,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
       ),
       fb("Completa (contexto).", "Cuando entré en la empresa, el departamento ___ sin dirección. (estar)", "estaba", "El imperfecto (estaba) describe la situación o el contexto de partida."),
       fb("Completa (acción).", "___ un nuevo sistema de seguimiento. (implantar, yo)", "Implanté", "El pretérito indefinido (implanté) narra la acción concreta que realizaste."),
-      fb("Completa (conector de consecuencia).", "Como ___, las ventas aumentaron un 20 %.", "resultado", "«Como resultado» introduce la consecuencia o el desenlace del relato."),
+      { ...fb("Completa (conector de consecuencia).", "Como ___, las ventas aumentaron un 20 %.", "resultado", "«Como resultado» introduce la consecuencia o el desenlace del relato."), altAnswers: ["consecuencia"] },
       mc(
         "Orden correcto del relato:",
         ["situación → tarea → acción → resultado", "resultado → acción → tarea → situación", "acción → situación → resultado", "tarea → resultado → situación"],
@@ -4278,15 +4278,15 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "La trayectoria es el recorrido profesional, la retribución es el salario, la candidatura es la solicitud a un puesto y el periodo de prueba es la fase inicial en que ambas partes se evalúan."
       ),
       fb("Completa.", "Mi ___ encaja con los requisitos de la oferta. (conjunto de rasgos profesionales)", "perfil", "El perfil es el conjunto de rasgos profesionales (formación, experiencia, competencias) de un candidato."),
-      fb("Completa.", "Cuento con una amplia ___ en el sector financiero.", "trayectoria", "La trayectoria es el recorrido profesional acumulado a lo largo de los años."),
-      fb("Completa.", "Le agradezco que haya tenido en cuenta mi ___.", "candidatura", "La candidatura es la solicitud o presentación a un puesto."),
+      { ...fb("Completa.", "Cuento con una amplia ___ en el sector financiero.", "trayectoria", "La trayectoria es el recorrido profesional acumulado a lo largo de los años."), altAnswers: ["experiencia"] },
+      { ...fb("Completa.", "Le agradezco que haya tenido en cuenta mi ___.", "candidatura", "La candidatura es la solicitud o presentación a un puesto."), altAnswers: ["solicitud"] },
       ms(
         "¿Qué son competencias?",
         ["trabajo en equipo", "orientación a resultados", "liderazgo", "jornada parcial"],
         [0, 1, 2],
         "Trabajo en equipo, orientación a resultados y liderazgo son competencias (capacidades). La jornada parcial es una condición laboral, no una competencia."
       ),
-      toEs("I'm available to start immediately.", "Tengo disponibilidad de incorporación inmediata.", "Léxico profesional: «disponibilidad de incorporación inmediata» o «puedo incorporarme de inmediato».", ["Puedo incorporarme de inmediato.", "Tengo disponibilidad inmediata."]),
+      toEs("I'm available to start immediately.", "Tengo disponibilidad de incorporación inmediata.", "Léxico profesional: «disponibilidad de incorporación inmediata» o «puedo incorporarme de inmediato».", ["Puedo incorporarme de inmediato.", "Tengo disponibilidad inmediata.", "Estoy disponible para incorporarme de inmediato.", "Estoy disponible para empezar de inmediato.", "Estoy disponible para empezar inmediatamente."]),
       wo("El proceso de selección consta de tres entrevistas y una prueba práctica.", "«Constar de» (no «consistir de» ni «constar en») introduce las partes de un todo: el proceso consta de tres entrevistas y una prueba.", "The selection process consists of three interviews and a practical test."),
     ]
   ),
@@ -4324,7 +4324,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "Preguntar cómo se mide el éxito en el puesto muestra interés profesional. «¿Hay cafetería?» es trivial, «¿Esto es todo?» suena impaciente y «¿Cuándo cobro?» se centra solo en el dinero."
       ),
-      toEs("I've been working in logistics for six years.", "Llevo seis años trabajando en logística.", "«Llevar + tiempo + gerundio» o «Hace + tiempo + que + presente» para acciones que continúan.", ["Llevo seis años en el sector de la logística.", "Hace seis años que trabajo en logística."]),
+      toEs("I've been working in logistics for six years.", "Llevo seis años trabajando en logística.", "«Llevar + tiempo + gerundio» o «Hace + tiempo + que + presente» para acciones que continúan.", ["Llevo seis años en el sector de la logística.", "Hace seis años que trabajo en logística.", "Trabajo en logística desde hace seis años.", "Llevo seis años trabajando en el sector de la logística."]),
       wo("Muchas gracias por su tiempo; quedo a la espera de sus noticias.", "Cierre formal: «quedo a la espera de sus noticias» es la fórmula cortés (usted) para indicar que esperas su respuesta.", "Thank you very much for your time; I look forward to hearing from you."),
     ]
   ),
@@ -4632,7 +4632,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     ],
     [
       fb("Valoración.", "Es normal que ___ enfadados. (estar, vosotros)", "estéis", "Las valoraciones como «Es normal que» exigen subjuntivo: estéis."),
-      { ...fb("Hipótesis.", "¿Y si ___ un turno cada uno? (probar, nosotros)", "probáramos", "«¿Y si + imperfecto de subjuntivo?» (probáramos) o, más directo, «¿Y si + presente de indicativo?» (probamos)."), altAnswers: ["probásemos", "probamos"] },
+      { ...fb("Hipótesis.", "¿Y si ___ a hablar por turnos? (probar, nosotros)", "probáramos", "«¿Y si + imperfecto de subjuntivo?» (probáramos) o, más directo, «¿Y si + presente de indicativo?» (probamos)."), altAnswers: ["probásemos", "probamos"] },
       fb("Deseo.", "Ojalá ___ llegar a un acuerdo hoy. (poder, nosotros)", "podamos", "«Ojalá» + presente de subjuntivo expresa un deseo posible: podamos."),
       fb("Condición.", "Siempre que los dos ___ de acuerdo, lo firmamos. (estar, vosotros)", "estéis", "«Siempre que» con valor condicional exige subjuntivo: estéis."),
       mc(
@@ -4781,7 +4781,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     [
       fb("Completa.", "Hasta entonces, nadie ___ cuestionado la autoridad del rey. (haber)", "había", "Pluscuamperfecto (había cuestionado) para una situación anterior al momento pasado de referencia."),
       fb("Completa.", "Hacía diez años que el país no ___ elecciones libres. (celebrar, imperfecto)", "celebraba", "Hacía + tiempo + que + imperfecto."),
-      fb("Completa (pretérito anterior).", "Apenas ___ terminado la batalla, comenzó el saqueo. (haber, pretérito anterior)", "hubo", "Pretérito anterior (hubo + participio) tras «apenas»: anterioridad inmediata, registro culto."),
+      { ...fb("Completa (pretérito anterior).", "Apenas ___ terminado la batalla, comenzó el saqueo. (haber, pretérito anterior)", "hubo", "Pretérito anterior (hubo + participio) tras «apenas»: anterioridad inmediata, registro culto; hoy es habitual también «había terminado»."), altAnswers: ["había"] },
       mc(
         "El pretérito anterior (hubo llegado) aparece sobre todo en…",
         ["textos literarios o muy formales", "conversaciones informales", "mensajes de texto", "el habla infantil"],
@@ -5472,7 +5472,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Rumor.", "Según fuentes no oficiales, el Gobierno ___ un acuerdo. (alcanzar, condicional compuesto)", "habría alcanzado", "El condicional de rumor (habría alcanzado) presenta un dato no confirmado, típico de la prensa."),
+      { ...fb("Rumor.", "Según fuentes no oficiales, el Gobierno ___ un acuerdo. (alcanzar, condicional compuesto)", "habría alcanzado", "El condicional de rumor (habría alcanzado) presenta un dato no confirmado, típico de la prensa; en textos cuidados se prefiere «ha alcanzado» con «según fuentes»."), altAnswers: ["ha alcanzado"] },
       fb("Valoración.", "Es preocupante que ___ la abstención. (aumentar)", "aumente", "Una valoración («Es preocupante que») exige subjuntivo: aumente."),
       fb("Estilo indirecto.", "«No habrá recortes.» → Aseguró que no ___ recortes.", "habría", "Con introductor en pasado, el futuro pasa a condicional: «habrá» → «habría»."),
       fb("Nominalización.", "Cuando se aprobó la ley… → Tras la ___ de la ley…", "aprobación", "Nominalización del verbo aprobar: «tras la aprobación» condensa «cuando se aprobó»."),
@@ -6235,14 +6235,14 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     "creative-writing-techniques-1",
     "c2r-writing-foreshadowing",
     "Taller de estilo: sembrar indicios (prefiguración)",
-    "Añade pistas discretas a un relato para que el final resulte sorprendente pero inevitable.",
+    "Reconoce y practica cómo se siembran pistas discretas (objetos, frases ambiguas, gestos) para que el final resulte sorprendente pero inevitable.",
     "8 min",
     [
       sec(
         "La pistola de Chéjov",
         "Si aparece un detalle significativo al principio (una pistola en la pared, una llave que no abre nada), debe cumplir una función después. La prefiguración siembra indicios discretos: objetos, frases ambiguas, gestos, el tiempo atmosférico. Riesgo: si es demasiado evidente, el lector adivina el final; si no existe, el giro parece arbitrario.",
         [
-          ["En el cajón seguía aquella llave que no abría ninguna puerta de la casa.", "In the drawer lay that key that opened none of the doors in the house."],
+          ["En el cajón seguía aquella llave que no abría ninguna puerta de la casa.", "The key that opened none of the doors in the house was still in the drawer."],
           ["«Algún día te contaré por qué no vuelvo nunca a Sevilla», dijo riendo.", "“Someday I'll tell you why I never go back to Seville,” she said, laughing."],
         ],
         [
@@ -6307,7 +6307,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     [
       fb("Convierte el símil en metáfora eliminando el nexo comparativo.", "El mar era como un espejo. → El mar ___.", "era un espejo", "La metáfora elimina el nexo comparativo «como»: el mar era un espejo."),
       fb("Personificación.", "Las persianas ___ con el viento. (quejarse, imperfecto)", "se quejaban", "La personificación atribuye a objetos acciones humanas: las persianas se quejaban."),
-      fb("Sinestesia.", "Tenía una voz ___: suave al tacto de las palabras. (como el terciopelo)", "aterciopelada", "Sinestesia: «aterciopelada» aplica una sensación táctil (el terciopelo) a la voz."),
+      fb("Sinestesia.", "Tenía una voz ___: cálida y suave. (como el terciopelo)", "aterciopelada", "Sinestesia: «aterciopelada» aplica una sensación táctil (el terciopelo) a la voz."),
       mc(
         "¿Qué versión está recargada?",
         ["El sol, como una naranja furiosa, un ojo de fuego, un rey de oro, un volcán colgado, ardía.", "El sol ardía sobre los tejados.", "El sol mordía la piel.", "Un sol de plomo aplastaba el pueblo."],
@@ -7500,7 +7500,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Precisión léxica",
-        "Hacer un informe → elaborar / redactar. Hacer una pregunta → formular / plantear. Poner un ejemplo → citar / aportar. Tener un problema → afrontar / padecer. Decir una opinión → expresar / manifestar. Dar una explicación → ofrecer / proporcionar. Tener éxito → lograr / cosechar éxito.",
+        "Hacer un informe → elaborar / redactar. Hacer una pregunta → formular / plantear. Poner un ejemplo → citar / aportar. Tener un problema → afrontar / padecer. Tener dificultades → atravesar dificultades. Decir una opinión → expresar / manifestar. Dar una explicación → ofrecer / proporcionar. Tener éxito → lograr / cosechar éxito.",
         [
           ["Elaboró un informe detallado.", "She drew up a detailed report."],
           ["El ministro manifestó su preocupación.", "The minister expressed his concern."],
@@ -7591,7 +7591,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     "c1c2-vocabulary-practice-7",
     "c2r-vocab-word-families",
     "Vocabulario en contexto: familias de palabras",
-    "Del verbo al sustantivo, al adjetivo y al adverbio: amplía tu vocabulario activo derivando con precisión.",
+    "Del verbo al sustantivo y al adjetivo (-ción, -miento, -ez, -anza, -ble, -ivo): amplía tu vocabulario activo derivando con precisión.",
     "7 min",
     [
       sec(
@@ -7728,7 +7728,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "«Farfullar» es hablar de forma rápida y confusa. No es gritar, cantar ni hablar claro, sino todo lo contrario."
       ),
       toEs("“That's not true,” she replied.", "«Eso no es verdad», replicó.", "«Replicar» introduce una respuesta que contradice; en diálogo, con comillas o raya.", ["«Eso no es cierto», replicó.", "—Eso no es verdad —replicó."]),
-      wo("La anciana musitó una oración antes de dormirse.", "«Musitar» = hablar muy bajo, casi sin voz, como al rezar; «antes de» + infinitivo porque el sujeto es el mismo.", "The old woman murmured a prayer before falling asleep."),
+      wo("La anciana musitó una oración antes de dormirse.", "«Musitar» = hablar muy bajo, casi sin voz, como al rezar; «antes de» + infinitivo porque el sujeto es el mismo.", "The old woman muttered a prayer under her breath before falling asleep."),
     ]
   ),
   L(
@@ -7805,7 +7805,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     ],
     [
       fb("Completa.", "Lima es ___ capital de Perú.", "la", "«La capital» es la ciudad principal; «el capital» es el dinero."),
-      fb("Completa.", "Ordena los libros siguiendo ___ orden alfabético.", "el", "«El orden» es la disposición o secuencia; «la orden» es un mandato."),
+      { ...fb("Completa.", "Ordena los libros siguiendo ___ orden alfabético.", "el", "«El orden» es la disposición o secuencia; «la orden» es un mandato."), altAnswers: ["un"] },
       fb("Completa.", "Todavía no existe ___ cura para esa enfermedad.", "una", "«La cura» es la curación o el tratamiento; «el cura» es el sacerdote."),
       fb("Completa.", "Se golpeó ___ frente contra la puerta.", "la", "«La frente» (femenino) es la parte superior de la cara; «el frente» (masculino) es la parte delantera de algo o la línea de combate."),
       mc(
@@ -7960,7 +7960,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
           ["acabar", "finalizar"],
           ["pedir", "solicitar"],
         ],
-        "Sinónimos de registro."
+        "Empezar, acabar y pedir tienen equivalentes más formales (iniciar, finalizar, solicitar): el significado es el mismo, cambia el registro."
       ),
       toEs("The meeting will begin at nine.", "La reunión dará comienzo a las nueve.", "«Dar comienzo» es la fórmula formal de «empezar» en anuncios y actos oficiales; «comenzará» o «se iniciará» también mantienen el registro.", ["La reunión comenzará a las nueve.", "La reunión se iniciará a las nueve."]),
       wo("Se ruega a los asistentes que ocupen sus asientos.", "Fórmula formal de los avisos: «Se ruega a» + destinatario + «que» + subjuntivo (ocupen).", "Attendees are requested to take their seats."),
@@ -8157,9 +8157,9 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Traducir sentido, no palabras",
-        "A nivel C2 se traduce la función: «He kicked the bucket» → «Estiró la pata»; «Notwithstanding the foregoing» → «Sin perjuicio de lo anterior»; «It's all Greek to me» → «Me suena a chino»; «The company let him go» → «La empresa prescindió de sus servicios».",
+        "A nivel C2 se traduce la función: «He kicked the bucket» → «Estiró la pata»; «Notwithstanding the foregoing» → «No obstante lo anterior»; «It's all Greek to me» → «Me suena a chino»; «The company let him go» → «La empresa prescindió de sus servicios».",
         [
-          ["Sin perjuicio de lo anterior…", "Notwithstanding the foregoing…"],
+          ["No obstante lo anterior…", "Notwithstanding the foregoing…"],
           ["La empresa prescindió de sus servicios.", "The company let him go."],
         ],
         [
@@ -8175,7 +8175,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     [
       toEs("Stop beating around the bush and get to the point.", "Deja de andarte por las ramas y ve al grano.", "«Andarse (o irse) por las ramas» equivale a 'beat around the bush', e «ir al grano» a 'get to the point'.", ["No te andes por las ramas y ve al grano.", "Deja de irte por las ramas y ve al grano."]),
       toEs("Should the tenant fail to pay, the contract shall be terminated.", "En caso de que el arrendatario no pague, el contrato quedará resuelto.", "En los contratos, la condición se expresa con «en caso de que» + subjuntivo, y el «shall» normativo con futuro: «quedará resuelto» ('quedará sin efecto').", ["En caso de que el arrendatario no abone la renta, el contrato quedará resuelto.", "Si el arrendatario no paga, el contrato se resolverá."]),
-      toEs("It is worth distinguishing between explaining and justifying.", "Conviene distinguir entre explicar y justificar.", "«Conviene» o «cabe» + infinitivo son fórmulas impersonales propias del registro académico para 'it is worth'.", ["Cabe distinguir entre explicar y justificar.", "Conviene diferenciar entre explicar y justificar."]),
+      toEs("It is worth distinguishing between explaining and justifying.", "Conviene distinguir entre explicar y justificar.", "«Conviene» o «cabe» + infinitivo son fórmulas impersonales propias del registro académico para 'it is worth'.", ["Vale la pena distinguir entre explicar y justificar.", "Merece la pena distinguir entre explicar y justificar.", "Cabe distinguir entre explicar y justificar.", "Conviene diferenciar entre explicar y justificar."]),
       toEn("Se llevó un chasco tremendo.", "He was bitterly disappointed.", "«Llevarse un chasco» es una locución coloquial: sufrir una decepción ante algo que se esperaba; «tremendo» la intensifica.", ["She was really let down.", "He was terribly disappointed.", "She got a big disappointment."]),
       toEn("Me temo que esta es nuestra última oferta.", "I'm afraid this is our final offer.", "«Me temo que», como 'I'm afraid', es una fórmula cortés para comunicar algo desagradable con firmeza.", ["I'm afraid this is our last offer."]),
       toEn("Firmada la paz, las tropas regresaron.", "Once peace was signed, the troops returned.", "«Firmada la paz» es un participio absoluto: presenta una acción anterior y terminada, equivalente a 'once peace was signed'.", ["After peace was signed, the troops returned.", "With peace signed, the troops went back."]),

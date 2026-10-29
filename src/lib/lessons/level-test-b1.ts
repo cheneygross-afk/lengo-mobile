@@ -159,7 +159,7 @@ export const LEVEL_TEST_B1: LevelTest = {
           "¿Alguna vez ___ a México?",
           "has ido",
           "[Have you] ever [been] to Mexico?",
-          "Experiencias: en España, pretérito perfecto, has ido (usted ha ido; «estar» pediría «en México», no «a México»); en gran parte de América, el indefinido: ¿alguna vez fuiste a México?",
+          "Experiencias: en España, pretérito perfecto, has ido (usted ha ido; con «estar» se diría «¿alguna vez has estado en México?»); en gran parte de América, el indefinido: ¿alguna vez fuiste a México?",
           ["ha ido", "fuiste", "fue"]
         ),
         fe(

@@ -220,7 +220,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("—Se ha quedado con mi bocadillo sin preguntar. —¡Qué ___ tiene!", "morro", "—He took my sandwich without asking. —[What a nerve he has]!", "«¡Qué morro tiene!» (España, coloquial) critica el descaro.", ["cara", "jeta", "caradura"]),
   ],
   "diminutives-augmentatives-1": [
-    fe("Espere un ___, por favor; ahora le atiendo.", "momentito", "Wait [just a moment], please; I'll be right with you.", "Diminutivo atenuador o cortés, no de tamaño.", ["momentico", "segundito", "momento"]),
+    fe("Espere un ___, por favor; ahora le atiendo.", "momentito", "Wait [just a moment], please; I'll be right with you.", "Diminutivo atenuador o cortés, no de tamaño.", ["momentico", "segundito"]),
     fe("Menudo ___ hizo al confundir el nombre del cliente.", "papelón", "He [made a fool of himself] when he mixed up the client's name.", "Aumentativo con matiz de ridículo: «hacer un papelón».", ["ridículo", "papelazo"]),
   ],
   "c2r-diminutive-values": [
@@ -252,7 +252,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("Fíjate en el ___ de la palabra: «des-» suele indicar lo contrario.", "prefijo", "Pay attention to the word's [prefix]: «des-» often indicates the opposite.", "La morfología (prefijos y sufijos) ayuda a deducir significados."),
   ],
   "c2r-strategy-infer-unknown-word": [
-    fe("Lo que no se puede leer es ___.", "ilegible", "What can't be read is [illegible].", "Prefijo «i-» (negación) + «legible»."),
+    fe("Lo que no se puede leer es ___.", "ilegible", "What can't be read is [illegible].", "Prefijo «il-» (variante de «in-» ante l, con valor negativo) + «legible»."),
   ],
   "listening-reading-strategies-2": [
     fe("Si una palabra no es clave, es mejor ___ y seguir leyendo.", "pasarla por alto", "If a word isn't key, it's better to [skip over it] and keep reading.", "«Pasar por alto»: no detenerse en algo.", ["ignorarla", "saltarla", "dejarla pasar"]),
@@ -291,7 +291,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
   "listening-reading-strategies-6": [
     fe("Escuchar pódcast de distintos países ayuda a ___ el oído.", "entrenar", "Listening to podcasts from different countries helps [train] your ear.", "«Entrenar» o «educar el oído».", ["educar", "acostumbrar"]),
     fe("Al principio el acento ___ me costaba mucho.", "rioplatense", "At first the [River Plate] accent was really hard for me.", "Variedad del español hablada en Argentina y Uruguay.", ["argentino", "porteño"]),
-    fe("Si te pierdes, no te ___: quédate con las palabras clave.", "agobies", "If you get lost, [don't panic]: hold on to the key words.", "Imperativo negativo con subjuntivo: «no te agobies».", ["bloquees", "preocupes", "pongas nervioso", "pongas nerviosa"]),
+    fe("Si te pierdes, no te ___: quédate con las palabras clave.", "agobies", "If you get lost, [don't panic]: hold on to the key words.", "Imperativo negativo con subjuntivo: «no te agobies».", ["bloquees", "preocupes", "pongas nervioso", "pongas nerviosa", "asustes", "alarmes", "estreses", "desesperes"]),
   ],
   "listening-reading-strategies-7": [
     fe("De su silencio se puede ___ que no está de acuerdo.", "deducir", "From his silence one can [infer] that he doesn't agree.", "«Colegir», «deducir» e «inferir» son sinónimos en registro culto.", ["inferir", "colegir"]),
@@ -369,7 +369,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("Hoy quiero ___ de algo que nos afecta a todos.", "hablarles", "Today I want to [talk to you] about something that affects us all.", "«Hablarles» (ustedes): registro formal ante un público.", ["hablaros", "hablar"]),
   ],
   "presentations-negotiation-2": [
-    fe("Para ___, les dejo con una pregunta.", "terminar", "To [finish], I'll leave you with a question.", "Fórmulas de cierre: «para terminar», «para concluir», «en definitiva».", ["concluir", "cerrar", "acabar", "finalizar"]),
+    fe("Para ___, les dejo una pregunta.", "terminar", "To [finish], I'll leave you with a question.", "Fórmulas de cierre: «para terminar», «para concluir», «en definitiva».", ["concluir", "cerrar", "acabar", "finalizar"]),
     fe("Muchas gracias por su ___. ¿Alguna pregunta?", "atención", "Thank you very much for your [attention]. Any questions?", "Fórmula de cortesía al cerrar una presentación."),
     fe("En el ___, la ponente situó el tema y captó la atención del auditorio.", "preámbulo", "In the [opening], the speaker set out the topic and caught the audience's attention.", "«Preámbulo»: introducción de una exposición.", ["inicio"]),
   ],
@@ -387,7 +387,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("Mantener el ___ visual transmite seguridad.", "contacto", "Keeping [eye contact] conveys confidence.", "«Contacto visual»: mirar al interlocutor."),
     fe("Cruzar los brazos puede parecer una postura ___.", "defensiva", "Crossing your arms can look like a [defensive] posture.", "Lenguaje corporal: posturas abiertas frente a defensivas.", ["cerrada"]),
     fe("Empezaron pidiendo una cifra altísima: es la estrategia de ___.", "anclaje", "They began by asking for a very high figure: it's the [anchoring] strategy.", "Anclaje: fijar una cifra inicial que condicione la negociación."),
-    fe("Habla despacio y ___ las pausas.", "aprovecha", "Speak slowly and [make use of] pauses.", "Las pausas refuerzan la seguridad del ponente.", ["usa", "utiliza", "no temas"]),
+    fe("Habla despacio y ___ las pausas.", "aprovecha", "Speak slowly and [make use of] pauses.", "Las pausas refuerzan la seguridad del ponente.", ["usa", "utiliza", "emplea"]),
   ],
   "presentations-negotiation-6": [
     fe("Guardaba un as bajo la ___ para el final.", "manga", "She had an [ace up her sleeve] for the end.", "«Tener un as bajo la manga»: un recurso decisivo oculto."),
@@ -452,7 +452,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("El comité recomendó que se ___ el experimento.", "repitiera", "The committee recommended that the experiment [be repeated].", "Verbo de influencia en pasado + imperfecto de subjuntivo.", ["repitiese"]),
   ],
   "c2r-vocab-gender-meaning": [
-    fe("La empresa necesita más ___ para crecer.", "capital", "The company needs more [capital] to grow.", "«El capital» (dinero) frente a «la capital» (ciudad).", ["dinero"]),
+    fe("La empresa necesita más ___ para crecer.", "capital", "The company needs more [capital] to grow.", "«El capital» (dinero) frente a «la capital» (ciudad)."),
     fe("El general dio ___ de retirada.", "la orden", "The general gave [the order] to retreat.", "«La orden» (mandato) frente a «el orden» (disposición).", ["orden"]),
   ],
   "rhetorical-questions-1": [
@@ -512,17 +512,17 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("Gracias a ese cambio, ___ los plazos de entrega en un 20 %.", "redujimos", "Thanks to that change, [we cut] delivery times by 20%.", "Resultado medible: verbo en indefinido + dato.", ["acortamos"]),
   ],
   "job-interview-spanish-3": [
-    fe("Le pondré un ___ concreto.", "ejemplo", "I'll give you a concrete [example].", "En la entrevista por competencias, siempre ejemplos concretos.", ["caso"]),
+    fe("Le pondré un ___ concreto.", "ejemplo", "I'll give you a concrete [example].", "El entrevistador por competencias pide un «ejemplo» (o «caso») real de tu experiencia, no una afirmación general; por eso se dice «Le pondré un ejemplo concreto».", ["caso"]),
     fe("La ___ era complicada: el cliente amenazaba con irse.", "situación", "The [situation] was complicated: the client was threatening to leave.", "Relato estructurado: situación, tarea, acción, resultado."),
     fe("Como ___, conseguimos retener al cliente.", "resultado", "As a [result], we managed to keep the client.", "Cierre del relato con el resultado obtenido.", ["consecuencia"]),
   ],
   "job-interview-spanish-4": [
     fe("¿Qué posibilidades de ___ ofrece el puesto?", "crecimiento", "What opportunities for [growth] does the position offer?", "Preguntar por el desarrollo profesional muestra motivación.", ["desarrollo", "promoción", "ascenso"]),
     fe("Mi pretensión ___ está en torno a los 40 000 euros.", "salarial", "My [salary] expectation is around 40,000 euros.", "«Pretensión salarial»: sueldo que se aspira a cobrar.", ["económica"]),
-    fe("Quedo a la ___ de su respuesta.", "espera", "I [look forward] to your reply.", "Fórmula de despedida formal."),
+    fe("Quedo a la ___ de su respuesta.", "espera", "I [look forward] to your reply.", "«Quedar a la espera de» es la fórmula fija y formal para cerrar un correo o una carta: lleva el sustantivo «espera», no el verbo «esperar»."),
   ],
   "job-interview-spanish-5": [
-    fe("A lo largo de mi ___ he trabajado en tres países.", "trayectoria", "Throughout my [career] I have worked in three countries.", "«Trayectoria laboral/profesional».", ["carrera", "trayectoria profesional", "vida laboral"]),
+    fe("A lo largo de mi ___ he trabajado en tres países.", "trayectoria", "Throughout my [career] I have worked in three countries.", "«Trayectoria laboral/profesional» es el recorrido de puestos y logros de una persona; «carrera» o «vida laboral» son sinónimos aceptables en este contexto.", ["carrera", "trayectoria profesional", "vida laboral"]),
     fe("Me considero una persona ___: me anticipo a los problemas.", "proactiva", "I consider myself a [proactive] person: I anticipate problems.", "«Proactivo/a»: que actúa por iniciativa propia.", ["previsora", "dinámica"]),
     fe("Me motiva ___ en un entorno internacional.", "trabajar", "I'm motivated by [working] in an international environment.", "«Me motiva + infinitivo»."),
     fe("Valoro mucho el trabajo en ___.", "equipo", "I really value [team]work.", "«Trabajo en equipo»: competencia muy valorada."),
@@ -534,7 +534,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("Le adjunto mi ___ actualizado.", "currículum", "I attach my updated [CV].", "También «currículum vítae» o «CV».", ["currículo", "CV", "curriculum", "currículum vítae"]),
     fe("Puedo darle dos ___ de mis anteriores jefes.", "referencias", "I can give you two [references] from my former bosses.", "«Referencia laboral»: persona que avala tu trabajo."),
     fe("Decir «soy demasiado perfeccionista» suena a ___.", "tópico", "Saying «I'm too much of a perfectionist» sounds like a [cliché].", "Las respuestas de manual restan credibilidad.", ["cliché", "excusa", "respuesta de manual"]),
-    fe("Estoy acostumbrado a trabajar con plazos ___.", "ajustados", "I'm used to working with [tight] deadlines.", "«Plazos ajustados»: con poco tiempo.", ["ajustadísimos", "cortos", "apretados"]),
+    fe("Estoy acostumbrado a trabajar con plazos ___.", "ajustados", "I'm used to working with [tight] deadlines.", "«Plazos ajustados»: con poco tiempo.", ["ajustadísimos", "cortos", "apretados", "justos", "estrechos"]),
   ],
   "job-interview-spanish-7": [
     fe("Supe ___ el obstáculo y entregamos a tiempo.", "sortear", "I managed to [get around] the obstacle and we delivered on time.", "«Sortear un obstáculo»: evitarlo con habilidad.", ["superar", "salvar"]),

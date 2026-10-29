@@ -933,7 +933,7 @@ export const A1_GUIDES: GrammarGuide[] = [
       {
         heading: "Qué or cuál?",
         body: [
-          "Before a noun, use qué: ¿Qué libro lees? Before ser, use cuál to ask for one item from a set of possibilities (a name, a number, a date, an address), and qué to ask for a definition.",
+          "Before a noun, use qué: ¿Qué libro lees? Before ser, use cuál to ask for one item from a set of possibilities (a name, a number, a date, an address), and qué to ask for a definition or to identify something unknown (¿Qué es esto? ¿Qué hora es?).",
           "Before other verbs, qué asks in general and cuál asks you to choose between options you can see.",
         ],
         examples: [

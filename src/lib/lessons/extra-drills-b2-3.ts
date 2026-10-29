@@ -92,7 +92,7 @@ export const DRILLS_B2_3: Record<string, Exercise[]> = {
     fe("Lo apunto para que no se me ___.", "olvide", "I'm writing it down so that I don't [forget] it.", "Para que + subjuntivo: olvide."),
     fe("Cuando ___ mayor, quiero ser bombera.", "sea", "When I [grow up], I want to be a firefighter.", "Cuando con valor de futuro lleva presente de subjuntivo, nunca futuro («seré»)."),
     fe("Siempre cierro las ventanas antes de que ___ el frío.", "llegue", "I always close the windows before the cold [arrives].", "Antes de que lleva siempre subjuntivo, incluso en hábitos."),
-    fe("Cuando ___ niña, pasaba los veranos en el pueblo.", "era", "When I [was] a girl, I spent the summers in the village.", "Si cuando habla del pasado, va en indicativo: era. «Fuera» sería un error."),
+    fe("Cuando ___ niña, pasaba los veranos en el pueblo.", "era", "When I [was] a girl, I spent the summers in the village.", "Cuando se refiere al pasado, va en indicativo: era. «Fuera» sería un error."),
     toEs("Corrige: «Cuando terminarás los deberes, puedes salir.»", "Cuando termines los deberes, puedes salir.", "Después de cuando no se usa futuro: con valor futuro va presente de subjuntivo."),
     toEs("Corrige: «Te presto el coche para que vas al aeropuerto.»", "Te presto el coche para que vayas al aeropuerto.", "Para que exige subjuntivo: vayas."),
     toEs("Corrige: «No me voy hasta que me pagas.»", "No me voy hasta que me pagues.", "Hasta que con acción futura → presente de subjuntivo: pagues."),
@@ -136,7 +136,7 @@ export const DRILLS_B2_3: Record<string, Exercise[]> = {
     mc("En una tienda, ¿qué es más cortés?", ["Quisiera ver ese abrigo.", "Quiero ver ese abrigo.", "Quise ver ese abrigo.", "Querré ver ese abrigo."], 0, "Quisiera suaviza la petición; «quiero» suena directo y «quise» es pasado."),
     fe("Me gustaría que me ___ la dirección.", "mandaras", "I'd like you [to send] me the address (tú).", "Me gustaría (condicional) + que + imperfecto de subjuntivo; no «mandes».", ["enviaras"]),
     fe("Sería mejor que ___ el tren; con este tráfico no llegaremos.", "cogiéramos", "It would be better if we [took] the train; with this traffic we won't make it.", "Sería mejor que + imperfecto de subjuntivo.", ["tomáramos"]),
-    fe("___ hacerle una pregunta sobre la factura.", "Quisiera", "[I'd like] to ask you a question about the bill (usted).", "Quisiera es la fórmula cortés para pedir; «quiero» resulta demasiado directo.", ["Me gustaría"]),
+    fe("___ hacerle una pregunta sobre la factura.", "Quisiera", "[I'd like] to ask you a question about the bill (usted).", "Quisiera es la fórmula cortés para pedir; «quiero» resulta demasiado directo.", ["Querría", "Me gustaría"]),
     toEs("I'd like to speak with the manager, please.", "Quisiera hablar con el gerente, por favor.", "Quisiera + infinitivo es la fórmula educada; evita «quiero».", ["Quisiera hablar con la gerente, por favor.", "Me gustaría hablar con el gerente, por favor.", "Me gustaría hablar con la gerente, por favor.", "Quisiera hablar con el encargado, por favor.", "Quisiera hablar con la encargada, por favor."]),
     toEs("I'd like you to come to my graduation (tú).", "Me gustaría que vinieras a mi graduación.", "Con sujetos distintos, me gustaría que + imperfecto de subjuntivo: vinieras."),
     toEs("It would be better if you rested a little (usted).", "Sería mejor que descansara un poco.", "Sería mejor que + imperfecto de subjuntivo; con usted, tercera persona: descansara."),
@@ -497,7 +497,7 @@ export const DRILLS_B2_3: Record<string, Exercise[]> = {
 
   "b2d-cadena-real-a-hipotetico": [
     mc("Transforma «Si me llamas, contesto» en hipótesis.", ["Si me llamaras, contestaría.", "Si me llamarías, contestaría.", "Si me llamaras, contestaré.", "Si me llames, contestaría."], 0, "Dos pasos: presente → imperfecto de subjuntivo; presente/futuro → condicional."),
-    fe("Si tengo hambre, como algo. → Si ___ hambre, comería algo.", "tuviera", "If I [were] hungry, I'd eat something.", "Tengo → tuviera.", ["tuviese"]),
+    fe("Si tengo hambre, como algo. → Si ___ hambre, comería algo.", "tuviera", "If I [felt] hungry, I'd eat something.", "Tengo → tuviera.", ["tuviese"]),
     fe("Si salimos pronto, llegamos a tiempo. → Si saliéramos pronto, ___ a tiempo.", "llegaríamos", "If we left early, we [would arrive] on time.", "Llegamos → llegaríamos (condicional)."),
     fe("Si me ayudas, termino antes. → Si me ___, terminaría antes.", "ayudaras", "If you [helped] me, I'd finish sooner (tú).", "Ayudas → ayudaras.", ["ayudases"]),
     fe("Si dicen la verdad, les creeré. → Si ___ la verdad, les creería.", "dijeran", "If they [told] the truth, I'd believe them.", "Dicen → dijeran (irregular, con j).", ["dijesen"]),
@@ -515,7 +515,7 @@ export const DRILLS_B2_3: Record<string, Exercise[]> = {
     toEs("If they built a metro line here, the neighbourhood would change a lot.", "Si construyeran una línea de metro aquí, el barrio cambiaría mucho.", "Construyeran (con y) + cambiaría.", ["Si hicieran una línea de metro aquí, el barrio cambiaría mucho."]),
     toEs("Si tuviéramos tiempo, visitaríamos el museo.", "Si tenemos tiempo, visitaremos el museo.", "Al revés: imperfecto de subjuntivo → presente de indicativo; condicional → futuro.", ["Si tenemos tiempo, visitamos el museo."], "Transforma en condición real (si + presente, futuro)."),
     wo("Si me lo explicaras despacio, lo entendería", "Si + imperfecto de subjuntivo, + condicional.", "If you explained it to me slowly, I would understand it"),
-    wo("Si hubiera más luz, sacaríamos mejores fotos", "Hay → hubiera; sacamos → sacaríamos.", "If there were more light, we'd take better photos"),
+    wo("Si hubiera más luz, sacaríamos mejores fotos", "Si + hubiera (haber impersonal, siempre singular), + sacaríamos (condicional).", "If there were more light, we'd take better photos"),
   ],
 
   "b2d-habla-de-ti-si-fueras": [

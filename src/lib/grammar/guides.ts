@@ -614,7 +614,7 @@ const CORE_GUIDES: GrammarGuide[] = [
         ],
         examples: [
           { es: "Conozco a tu hermana.", en: "I know your sister." },
-          { es: "¿Conoces Buenos Aires?", en: "Have you been to Buenos Aires?" },
+          { es: "¿Conoces Buenos Aires?", en: "Do you know Buenos Aires? (Are you familiar with it?)" },
           { es: "No conozco esa canción.", en: "I don't know that song." },
         ],
       },
