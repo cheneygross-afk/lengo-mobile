@@ -525,7 +525,16 @@ function WordOrder({
   return (
     <View>
       <SpeakableText text={exercise.prompt} lang={lang} style={s.question} />
-      <View style={s.builtRow}>
+      <View
+        style={[
+          s.builtRow,
+          built.length > 0 && s.builtRowActive,
+          checked && (correct ? s.builtRowCorrect : s.builtRowWrong),
+        ]}
+      >
+        <Text style={s.builtCount}>
+          {built.length}/{exercise.words.length}
+        </Text>
         {built.length === 0 && <Text style={s.hint}>Tap the words below in order.</Text>}
         {built.map((w, i) => (
           <View key={i} style={s.chipBuilt}>
@@ -638,6 +647,11 @@ function Matching({
                   {pair.left}
                   {chosen ? ` → ${chosen}` : ""}
                 </Text>
+                {(isCorrect || isWrong) && (
+                  <View style={[s.matchMark, { backgroundColor: isCorrect ? "#16a34a" : "#dc2626" }]}>
+                    <Text style={s.matchMarkText}>{isCorrect ? "✓" : "✗"}</Text>
+                  </View>
+                )}
                 {/* A wrong match shows the right one under the learner's pick. */}
                 {isWrong && <Text style={s.matchCorrect}>Correct answer: {pair.right}</Text>}
               </Pressable>
@@ -751,22 +765,48 @@ const s = StyleSheet.create({
   matchCorrect: { fontSize: 12, color: "#15803d", fontWeight: "600", marginTop: 4 },
   hint: { fontSize: 13, color: "#2A151366", marginTop: 6, fontStyle: "italic" },
   blankEnglish: { fontSize: 16, color: "#2A1513cc", marginBottom: 10, lineHeight: 22 },
-  builtRow: { flexDirection: "row", flexWrap: "wrap", gap: 6, minHeight: 36, marginBottom: 10 },
+  // The answer tray: a dashed box that firms up as words go in, with a
+  // word count in the corner (as on the website).
+  builtRow: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    alignItems: "center",
+    gap: 6,
+    minHeight: 54,
+    marginBottom: 12,
+    padding: 8,
+    paddingRight: 44,
+    borderRadius: 16,
+    borderWidth: 2,
+    borderStyle: "dashed",
+    borderColor: "#2A151330",
+    backgroundColor: "#FDF7EE",
+  },
+  builtRowActive: { borderColor: "#E9A23B" },
+  builtRowCorrect: { borderStyle: "solid", borderColor: "#16a34a80", backgroundColor: "#16a34a12" },
+  builtRowWrong: { borderStyle: "solid", borderColor: "#dc262666", backgroundColor: "#dc262612" },
+  builtCount: { position: "absolute", top: 8, right: 10, fontSize: 11, fontWeight: "700", color: "#2A151380" },
+  matchMark: { width: 20, height: 20, borderRadius: 10, alignItems: "center", justifyContent: "center" },
+  matchMarkText: { color: "#fff", fontSize: 11, fontWeight: "800" },
+  // Word tiles: white with a thicker bottom edge, like a key you can press.
   chip: {
     flexDirection: "row",
     alignItems: "center",
     gap: 4,
     borderWidth: 1,
-    borderColor: "#2A151322",
-    borderRadius: 8,
+    borderBottomWidth: 3,
+    borderColor: "#2A151326",
+    borderRadius: 12,
     paddingVertical: 8,
     paddingHorizontal: 12,
+    backgroundColor: "#fff",
   },
   chipBuilt: {
     borderWidth: 1,
-    borderColor: "#8B0000",
-    backgroundColor: "#8B000014",
-    borderRadius: 8,
+    borderBottomWidth: 3,
+    borderColor: "#E9A23B",
+    backgroundColor: "#fff",
+    borderRadius: 12,
     paddingVertical: 8,
     paddingHorizontal: 12,
   },
@@ -782,10 +822,12 @@ const s = StyleSheet.create({
     justifyContent: "space-between",
     gap: 6,
     borderWidth: 1,
+    borderBottomWidth: 2,
     borderColor: "#2A151322",
-    borderRadius: 8,
+    borderRadius: 12,
     paddingVertical: 10,
     paddingHorizontal: 10,
+    backgroundColor: "#fff",
   },
   submit: {
     backgroundColor: "#8B0000",
