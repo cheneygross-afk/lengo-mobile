@@ -146,3 +146,31 @@ const stats = StyleSheet.create({
   track: { width: 48, height: 6, borderRadius: 3, backgroundColor: "#8B00001A", overflow: "hidden" },
   fill: { height: "100%", borderRadius: 3 },
 });
+
+// A ribbon medal under the score ring on a pass: bronze from the pass mark,
+// silver from 80%, gold from 90%, a trophy for a perfect score (as on the
+// website's end-of-lesson card).
+const MEDALS = {
+  trophy: { color: "#C27C0E", label: "🏆 Perfect score" },
+  gold: { color: "#B8860B", label: "🏅 Gold" },
+  silver: { color: "#6B7785", label: "🏅 Silver" },
+  bronze: { color: "#9A5B2C", label: "🏅 Bronze" },
+};
+
+export function Medal({ percent }: { percent: number }) {
+  const kind = percent >= 100 ? "trophy" : percent >= 90 ? "gold" : percent >= 80 ? "silver" : "bronze";
+  const pop = useRef(new Animated.Value(0)).current;
+  useEffect(() => {
+    Animated.spring(pop, { toValue: 1, delay: 600, friction: 5, useNativeDriver: true }).start();
+  }, [pop]);
+  return (
+    <Animated.View style={[medal.wrap, { backgroundColor: MEDALS[kind].color, transform: [{ scale: pop }] }]}>
+      <Text style={medal.text}>{MEDALS[kind].label}</Text>
+    </Animated.View>
+  );
+}
+
+const medal = StyleSheet.create({
+  wrap: { position: "absolute", bottom: 8, alignSelf: "center", borderRadius: 999, paddingHorizontal: 10, paddingVertical: 3 },
+  text: { color: "#fff", fontSize: 11, fontWeight: "800", textTransform: "uppercase", letterSpacing: 0.5 },
+});
