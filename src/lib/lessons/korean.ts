@@ -1,14 +1,13 @@
-// The Korean course in the app (private beta, lib/koreanBeta.ts): the
-// Hangul module, then Beginner ... Mastery, loaded one level at a time the
-// same way as the Brazilian Portuguese course (lessons/portuguese.ts).
-// Only the beta account sees any of it: every Korean screen is reached
-// from Home's Korean pill, which only that account gets, and
-// RootNavigator's withKoreanBeta turns everyone else away.
+// The Korean course in the app: the Hangul module, then Beginner ...
+// Mastery, loaded one level at a time the same way as the Brazilian
+// Portuguese course (lessons/portuguese.ts). Open to every account, like
+// Portuguese: lessons are gated one by one (a plan covering Korean, or the
+// free opening in freeLessons.ts).
 //
 // The lesson files are synced from the website (ko-hangul.ts, ko-a1.ts ...
 // ko-c2.ts, assembled there into ko-course.ts). Each level is a dynamic
-// import(), evaluated the first time a screen asks for it, so nobody
-// else's app ever builds a Korean lesson.
+// import(), evaluated the first time a screen asks for it, so the app
+// builds a Korean lesson only when someone opens the course.
 //
 // levelPaths are the website's ("ko/hangul", "ko/a1" ... "ko/c2",
 // "ko/culture"), so completions, highlights, missed questions and

@@ -100,7 +100,7 @@ const PORTUGUESE_TOOLS: CourseTool[] = [
   },
 ];
 
-// The Korean beta's (the website's /lessons/ko/tools): the Portuguese
+// The Korean course's (the website's /lessons/ko/tools): the Portuguese
 // course's tools plus writing practice (Home has no Korean Writing card),
 // vocabulary by level, and the optional Word Roots -- the only screens in
 // the course that show Hanja.

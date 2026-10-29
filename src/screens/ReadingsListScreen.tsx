@@ -23,7 +23,7 @@ export default function ReadingsListScreen(props: Props) {
   if (props.route.params?.germanLevel) return <CourseStoriesList {...props} course="de" path={props.route.params.germanLevel} />;
   if (props.route.params?.portugueseLevel)
     return <CourseStoriesList {...props} course="pt" path={props.route.params.portugueseLevel} />;
-  // The Korean beta's (gated to the beta account in RootNavigator).
+  // The Korean course's.
   if (props.route.params?.koreanLevel) return <CourseStoriesList {...props} course="ko" path={props.route.params.koreanLevel} />;
   // The Italian beta's (gated to the beta accounts in RootNavigator).
   if (props.route.params?.italianLevel) return <CourseStoriesList {...props} course="it" path={props.route.params.italianLevel} />;

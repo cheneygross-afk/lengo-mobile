@@ -5,7 +5,7 @@ import type { AppStackParamList } from "@/navigation/types";
 import { KOREAN_LANG, speak } from "@/lib/speech";
 import { KO_ROOT_LEVELS, koRootLevel, loadKoRoots, rootReadings, splitOnRoot, type KoRoot, type KoRootLevel } from "@/lib/ko-roots";
 
-// The Korean beta's optional Word Roots tool (the website's
+// The Korean course's optional Word Roots tool (the website's
 // /lessons/ko/tools/roots and KoRootsLevelView): Sino-Korean roots with
 // their Hanja, Korean readings, meanings and the course words built from
 // them, by level, to browse, go through as flashcards or quiz. The only

@@ -107,7 +107,7 @@ export function koGuideLevelLabel(level: KoLevel): string {
   return TOPIK_FOR_LEVEL[level] ? `${name} · ${TOPIK_FOR_LEVEL[level]}` : name;
 }
 
-// The Korean beta's grammar guides (the website's /lessons/ko/tools/grammar,
+// The Korean course's grammar guides (the website's /lessons/ko/tools/grammar,
 // loaded on demand): the sound system first, then Beginner ... Mastery,
 // each level shown by name with its TOPIK level, never the code. Every
 // Korean word in a title or description plays when tapped.

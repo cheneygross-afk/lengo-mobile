@@ -65,7 +65,7 @@ export async function getPortugueseReviewCounts(now: number = Date.now()): Promi
   };
 }
 
-/** The Korean beta's own Today's review, the same way (/lessons/ko/review
+/** The Korean course's own Today's review, the same way (/lessons/ko/review
  * on the website): the questions missed in its lessons, Hangul through
  * Mastery and the Culture module, then its flashcards. */
 export async function getKoreanReviewCounts(now: number = Date.now()): Promise<TodaysReviewCounts> {

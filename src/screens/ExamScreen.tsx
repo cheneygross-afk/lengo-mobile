@@ -49,7 +49,7 @@ export default function ExamScreen(props: Props) {
   return <SpanishExamScreen {...props} />;
 }
 
-// A TOPIK practice test of the Korean beta (the website's
+// A TOPIK practice test of the Korean course (the website's
 // /lessons/ko/tools/topik/[slug]): its sections (TOPIK II in two sittings,
 // 교시), how the real test is scored -- each section out of 100, only the
 // total deciding the level -- and the latest scores (the website's

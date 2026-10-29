@@ -43,7 +43,7 @@ const GROUPS: { id: OtherInfo["group"]; title: string }[] = [
   { id: "command", title: "Requests and suggestions" },
 ];
 
-// Mobile port of the Korean beta's conjugation tool (the website's
+// Mobile port of the Korean course's conjugation tool (the website's
 // /lessons/ko/tools/conjugation, KoConjugationTool, KoVerbTables and
 // KoConjugationDrill): look up a verb or adjective by its dictionary form,
 // English, or any conjugated form (했어요, 도와주세요), see every form in

@@ -29,7 +29,7 @@ const MAIN = ITALIAN_LEVELS.filter((l) => l.kind !== "bonus");
 const BONUS = ITALIAN_LEVELS.filter((l) => l.kind === "bonus");
 
 // The Italian beta's level picker -- mirrors the website's /lessons/it page
-// and the Korean beta's KoreanLevelsScreen: Beginner ... Mastery, each shown
+// and the Korean course's KoreanLevelsScreen: Beginner ... Mastery, each shown
 // by its name with its CILS exam beside it (never the CEFR code), and the
 // optional Italian Culture & Everyday Life module as a bonus card outside
 // the main path. A "Continue" card picks up where the learner left off.

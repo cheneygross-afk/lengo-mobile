@@ -38,7 +38,7 @@ export const FRENCH_LANG: SpeechLang = "fr-FR";
 export const GERMAN_LANG: SpeechLang = "de-DE";
 // The Brazilian Portuguese course (lessons/pt-*.ts), spoken by Google's pt-BR voices.
 export const PORTUGUESE_LANG: SpeechLang = "pt-BR";
-// The Korean beta (lessons/ko-*.ts), spoken by Google's ko-KR voices.
+// The Korean course (lessons/ko-*.ts), spoken by Google's ko-KR voices.
 export const KOREAN_LANG: SpeechLang = "ko-KR";
 // The Italian beta (lessons/it-*.ts), spoken by Google's it-IT voices.
 export const ITALIAN_LANG: SpeechLang = "it-IT";
@@ -569,7 +569,7 @@ export function speechChunks(paragraph: string): string[] {
       chunks.push(rest.slice(0, at).trim());
       rest = rest.slice(at).trim();
     }
-    // Hangul too, for the Korean beta's stories.
+    // Hangul too, for the Korean course's stories.
     if (/[A-Za-zÁÉÍÓÚÜÑáéíóúüñÄÖäöß\u3040-\u30ff\u4e00-\u9fff\u3130-\u318f\uac00-\ud7af]/.test(rest)) chunks.push(rest);
   }
   return chunks;
