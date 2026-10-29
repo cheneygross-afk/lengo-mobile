@@ -73,7 +73,7 @@ const SECTIONS: { id: Section; label: string }[] = [
   { id: "falseFriends", label: `False friends` },
 ];
 
-// Mobile port of the Italian beta's glossary and vocabulary pages (the
+// Mobile port of the Italian course's glossary and vocabulary pages (the
 // website's /lessons/it/tools/glossary and /lessons/it/tools/vocabulary):
 // every word and phrase the lessons teach, searchable in Italian or English
 // (accents optional), with the level where it's first met and its lesson.

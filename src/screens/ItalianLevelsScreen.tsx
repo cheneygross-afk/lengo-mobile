@@ -28,14 +28,13 @@ const AVAILABLE = ITALIAN_LEVELS.filter((l) => l.available);
 const MAIN = ITALIAN_LEVELS.filter((l) => l.kind !== "bonus");
 const BONUS = ITALIAN_LEVELS.filter((l) => l.kind === "bonus");
 
-// The Italian beta's level picker -- mirrors the website's /lessons/it page
+// The Italian course's level picker -- mirrors the website's /lessons/it page
 // and the Korean course's KoreanLevelsScreen: Beginner ... Mastery, each shown
 // by its name with its CILS exam beside it (never the CEFR code), and the
 // optional Italian Culture & Everyday Life module as a bonus card outside
 // the main path. A "Continue" card picks up where the learner left off.
 // Each level's lessons load on demand (lessons/italian.ts), so the counts
-// fill in as they load. Only the beta accounts reach it (RootNavigator's
-// withItalianBeta).
+// fill in as they load.
 export default function ItalianLevelsScreen({ navigation }: Props) {
   // Required lessons done / in each level; undefined until that level loads.
   const [counts, setCounts] = useState<Partial<Record<ItalianLevelKey, { done: number; total: number }>>>({});
@@ -124,10 +123,10 @@ export default function ItalianLevelsScreen({ navigation }: Props) {
 
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
-      <Text style={styles.kicker}>Beta · Beginner to CILS QUATTRO</Text>
+      <Text style={styles.kicker}>Beginner to CILS QUATTRO</Text>
       <Text style={styles.subtitle}>
         Bite-sized, self-paced Italian lessons organized by level and lined up with the CILS exams. Tap any Italian word to hear it.
-        This course is a private beta: only your account can see it.
+        Start at Beginner and work your way up.
       </Text>
       {next && (
         <Pressable

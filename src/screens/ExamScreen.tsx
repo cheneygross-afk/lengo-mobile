@@ -154,7 +154,7 @@ function KoreanExamScreen({ navigation, route }: Props) {
 
 const CILS_SECTION_EN = Object.fromEntries(CILS_SECTIONS.map((x) => [x.id, x.en])) as Record<string, string>;
 
-// A CILS practice exam of the Italian beta (the website's
+// A CILS practice exam of the Italian course (the website's
 // /lessons/it/tools/cils/[slug]): its five sections, how the real exam is
 // marked -- each section out of 20, at least 11 in every one to pass --
 // and the latest scores (the website's CilsResults).

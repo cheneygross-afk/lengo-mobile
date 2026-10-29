@@ -96,7 +96,7 @@ function convertJapaneseInput(
   return toHiragana(raw);
 }
 
-// "it" is the Italian beta (Home shows it only to the beta accounts).
+// "it" is the Italian course.
 export default function TranslateBar({ language }: { language: "es" | "ja" | "fr" | "de" | "pt" | "it" }) {
   const [query, setQuery] = useState("");
   const [manualOverride, setManualOverride] = useState<Direction | null>(null);

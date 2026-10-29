@@ -4,7 +4,6 @@ import type { Session } from "@supabase/supabase-js";
 import { supabase } from "@/lib/supabase/client";
 import { syncFlashcardsFromCloud } from "@/lib/flashcards/store";
 import type { CourseId } from "@/lib/courses";
-import { isItalianBetaEmail } from "@/lib/italianBeta";
 
 // Mobile equivalent of the web app's server-side getCurrentUserAndRole --
 // there's no server component / cookie middleware here, so session state
@@ -19,12 +18,7 @@ type AuthState = {
   // and staff; the courses picked for Focused Lessons (plus a company
   // seat's); empty without a plan. Plans are bought on the website, so
   // this reloads whenever the app comes back to the foreground.
-  // "it" is in it only for the Italian beta accounts (lib/italianBeta.ts,
-  // the website's allowlist): All Access doesn't open it, and nobody else
-  // is shown anything Italian.
   lessonsCourses: "all" | CourseId[];
-  /** Whether this account may see the Italian beta. */
-  italianBeta: boolean;
   signOut: () => Promise<void>;
 };
 
@@ -35,7 +29,6 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [loading, setLoading] = useState(true);
   const [lessonsCourses, setLessonsCourses] = useState<"all" | CourseId[]>([]);
   const userId = session?.user?.id;
-  const italianBeta = isItalianBetaEmail(session?.user?.email);
 
   const loadAccess = useCallback(async () => {
     if (!userId) {
@@ -47,8 +40,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       supabase.from("profiles").select("*").eq("id", userId).single(),
       supabase.rpc("my_business"),
     ]);
-    setLessonsCourses(withItalianBeta(coursesFor(profile, business), italianBeta));
-  }, [userId, italianBeta]);
+    setLessonsCourses(coursesFor(profile, business));
+  }, [userId]);
 
   useEffect(() => {
     void loadAccess();
@@ -86,12 +79,11 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       session,
       loading,
       lessonsCourses,
-      italianBeta,
       signOut: async () => {
         await supabase.auth.signOut();
       },
     }),
-    [session, loading, lessonsCourses, italianBeta]
+    [session, loading, lessonsCourses]
   );
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
@@ -123,19 +115,7 @@ function coursesFor(profile: Record<string, unknown> | null, business: unknown):
   return courses;
 }
 
-// The Italian beta: every Italian lesson is open to the beta accounts (the
-// website's entitlements do the same), whatever their plan, and "it" is
-// added to no one else's list.
-const ALL_ACCESS_COURSES: CourseId[] = ["es", "ja", "zh", "fr", "en", "de", "pt", "ko"];
-
-function withItalianBeta(courses: "all" | CourseId[], italianBeta: boolean): "all" | CourseId[] {
-  if (!italianBeta) return courses;
-  return [...(courses === "all" ? ALL_ACCESS_COURSES : courses), "it"];
-}
-
 /** Whether the learner's plan opens a course. */
 export function planCovers(courses: "all" | CourseId[], course: CourseId): boolean {
-  // "all" never opens the Italian beta: only the beta accounts' lists have "it".
-  if (course === "it") return courses !== "all" && courses.includes("it");
   return courses === "all" || courses.includes(course);
 }

@@ -37,8 +37,6 @@ import { ITALIAN_TOOLS, italianToolsSummary } from "@/lib/italianTools";
 
 type Props = NativeStackScreenProps<AppStackParamList, "Home">;
 
-// "it" (Italian) is a private beta: its pill, cards and counts appear only
-// for its beta accounts (useAuth().italianBeta, lib/italianBeta.ts).
 type Language = "es" | "fr" | "de" | "pt" | "ja" | "zh" | "ko" | "it";
 
 // French's, German's and Portuguese's "Continue" card: the next lesson on
@@ -147,15 +145,14 @@ async function loadSummary(fromCloud: boolean): Promise<Summary> {
 }
 
 export default function HomeScreen({ navigation }: Props) {
-  const { session, italianBeta } = useAuth();
+  const { session } = useAuth();
   const [language, setLanguage] = useState<Language>("es");
 
   useFocusEffect(
     useCallback(() => {
       readJSON<Language>(LANGUAGE_STORAGE_KEY, "es").then((saved) => {
         // Every course is open to every account (lessons are gated one by
-        // one, with a free opening) -- except the Italian beta, which a
-        // saved "it" opens only for its beta accounts.
+        // one, with a free opening).
         setLanguage(
           saved === "ja" ||
             saved === "zh" ||
@@ -163,12 +160,12 @@ export default function HomeScreen({ navigation }: Props) {
             saved === "de" ||
             saved === "pt" ||
             saved === "ko" ||
-            (saved === "it" && italianBeta)
+            saved === "it"
             ? saved
             : "es"
         );
       });
-    }, [italianBeta])
+    }, [])
   );
 
   const [summary, setSummary] = useState<Summary | null>(null);
@@ -265,10 +262,10 @@ export default function HomeScreen({ navigation }: Props) {
             <LangPill label="French" active={language === "fr"} onPress={() => selectLanguage("fr")} />
             <LangPill label="German" active={language === "de"} onPress={() => selectLanguage("de")} />
             <LangPill label="Portuguese" active={language === "pt"} onPress={() => selectLanguage("pt")} />
+            <LangPill label="Italian" active={language === "it"} onPress={() => selectLanguage("it")} />
             <LangPill label="Japanese" active={language === "ja"} onPress={() => selectLanguage("ja")} />
             <LangPill label="Chinese" active={language === "zh"} onPress={() => selectLanguage("zh")} />
             <LangPill label="Korean" active={language === "ko"} onPress={() => selectLanguage("ko")} />
-            {italianBeta && <LangPill label="Italian" active={language === "it"} onPress={() => selectLanguage("it")} />}
           </View>
 
           {summary && language === "es" && (
@@ -379,7 +376,7 @@ export default function HomeScreen({ navigation }: Props) {
             ) : language === "ko" ? (
               <NavCard icon="lessons" title="Lessons" body="Hangul, then lessons from beginner to mastery." onPress={() => navigation.navigate("KoreanLevels")} />
             ) : language === "it" ? (
-              <NavCard icon="lessons" title="Lessons" body="Structured lessons, from beginner to mastery. Beta." onPress={() => navigation.navigate("ItalianLevels")} />
+              <NavCard icon="lessons" title="Lessons" body="Structured lessons, from beginner to mastery." onPress={() => navigation.navigate("ItalianLevels")} />
             ) : language === "ja" ? (
               <NavCard icon="lessons" title="Lessons" body="Hiragana and katakana, then lessons level by level." onPress={() => navigation.navigate("JapaneseLevels")} />
             ) : (
@@ -467,7 +464,7 @@ export default function HomeScreen({ navigation }: Props) {
                 Study Tools menu entry. The placement test lives on that
                 screen and in Settings rather than here: most learners
                 take it once. */}
-            {/* The Italian beta: only once it has a tool (lib/italianTools.ts). */}
+            {/* Italian: only once it has a tool (lib/italianTools.ts). */}
             {(language === "es" ||
               language === "fr" ||
               language === "de" ||
@@ -497,7 +494,7 @@ export default function HomeScreen({ navigation }: Props) {
           in it, covers whatever's behind it instead of shifting/
           squeezing this screen's own layout -- nothing here needs to
           react to it opening. */}
-      {/* The translator covers Spanish, French, German, Portuguese, Japanese and the Italian beta (it-en / en-it; "it" is only ever selected for the beta accounts). */}
+      {/* The translator covers Spanish, French, German, Portuguese, Japanese and Italian (it-en / en-it). */}
       {language !== "zh" && language !== "ko" && <TranslateBar language={language} />}
     </View>
   );
