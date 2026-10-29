@@ -20,6 +20,7 @@ import {
   getFrenchReviewCounts,
   getGermanReviewCounts,
   getPortugueseReviewCounts,
+  getKoreanReviewCounts,
   getItalianReviewCounts,
   getTodaysReviewCounts,
   seedScheduleFromCompletions } from "@/lib/todaysReview";
@@ -36,10 +37,8 @@ import { ITALIAN_TOOLS, italianToolsSummary } from "@/lib/italianTools";
 
 type Props = NativeStackScreenProps<AppStackParamList, "Home">;
 
-// "ko" (Korean) is a private beta: its pill, cards and counts appear only
-// for the beta account (useAuth().koreanBeta, lib/koreanBeta.ts). "it"
-// (Italian) the same way, for its beta accounts (useAuth().italianBeta,
-// lib/italianBeta.ts).
+// "it" (Italian) is a private beta: its pill, cards and counts appear only
+// for its beta accounts (useAuth().italianBeta, lib/italianBeta.ts).
 type Language = "es" | "fr" | "de" | "pt" | "ja" | "zh" | "ko" | "it";
 
 // French's, German's and Portuguese's "Continue" card: the next lesson on
@@ -123,7 +122,6 @@ async function loadSummary(fromCloud: boolean): Promise<Summary> {
   const cards = Object.values(await loadFlashcards());
   const ja = cards.filter((c) => courseOfLevelPath(c.levelPath) === "ja");
   const zh = cards.filter((c) => courseOfLevelPath(c.levelPath) === "zh");
-  const ko = cards.filter((c) => courseOfLevelPath(c.levelPath) === "ko");
   const study = fromCloud ? await syncStudyDays() : await getStudySummary();
   // Lessons finished before the daily review mix existed (or on the
   // website) join it once their completions are here.
@@ -139,7 +137,7 @@ async function loadSummary(fromCloud: boolean): Promise<Summary> {
       pt: todaysReviewTotal(await getPortugueseReviewCounts()),
       ja: (await getDueCardsForToday(ja, prefs)).length,
       zh: (await getDueCardsForToday(zh, prefs)).length,
-      ko: (await getDueCardsForToday(ko, prefs)).length,
+      ko: todaysReviewTotal(await getKoreanReviewCounts()),
       it: todaysReviewTotal(await getItalianReviewCounts()),
     },
     streak: study.streak.current,
@@ -149,28 +147,28 @@ async function loadSummary(fromCloud: boolean): Promise<Summary> {
 }
 
 export default function HomeScreen({ navigation }: Props) {
-  const { session, koreanBeta, italianBeta } = useAuth();
+  const { session, italianBeta } = useAuth();
   const [language, setLanguage] = useState<Language>("es");
 
   useFocusEffect(
     useCallback(() => {
       readJSON<Language>(LANGUAGE_STORAGE_KEY, "es").then((saved) => {
         // Every course is open to every account (lessons are gated one by
-        // one, with a free opening) -- except the Korean and Italian betas,
-        // which a saved "ko" / "it" opens only for their beta accounts.
+        // one, with a free opening) -- except the Italian beta, which a
+        // saved "it" opens only for its beta accounts.
         setLanguage(
           saved === "ja" ||
             saved === "zh" ||
             saved === "fr" ||
             saved === "de" ||
             saved === "pt" ||
-            (saved === "ko" && koreanBeta) ||
+            saved === "ko" ||
             (saved === "it" && italianBeta)
             ? saved
             : "es"
         );
       });
-    }, [koreanBeta, italianBeta])
+    }, [italianBeta])
   );
 
   const [summary, setSummary] = useState<Summary | null>(null);
@@ -246,9 +244,11 @@ export default function HomeScreen({ navigation }: Props) {
         ? "Grammar guides, verb conjugation, Goethe-Zertifikat practice and the glossary."
         : language === "pt"
           ? "Grammar guides, verb conjugation, Celpe-Bras practice and the glossary."
-          : language === "it"
-            ? italianToolsSummary()
-            : "Grammar guides, verb conjugation, DELE practice and the glossary.";
+          : language === "ko"
+            ? "Grammar guides, verb conjugation, TOPIK practice, writing and the glossary."
+            : language === "it"
+              ? italianToolsSummary()
+              : "Grammar guides, verb conjugation, DELE practice and the glossary.";
 
   return (
     <View style={styles.flex}>
@@ -267,7 +267,7 @@ export default function HomeScreen({ navigation }: Props) {
             <LangPill label="Portuguese" active={language === "pt"} onPress={() => selectLanguage("pt")} />
             <LangPill label="Japanese" active={language === "ja"} onPress={() => selectLanguage("ja")} />
             <LangPill label="Chinese" active={language === "zh"} onPress={() => selectLanguage("zh")} />
-            {koreanBeta && <LangPill label="Korean" active={language === "ko"} onPress={() => selectLanguage("ko")} />}
+            <LangPill label="Korean" active={language === "ko"} onPress={() => selectLanguage("ko")} />
             {italianBeta && <LangPill label="Italian" active={language === "it"} onPress={() => selectLanguage("it")} />}
           </View>
 
@@ -338,7 +338,7 @@ export default function HomeScreen({ navigation }: Props) {
                 onPress={() =>
                   language === "es"
                     ? navigation.navigate("TodayReview")
-                    : language === "fr" || language === "de" || language === "pt" || language === "it"
+                    : language === "fr" || language === "de" || language === "pt" || language === "ko" || language === "it"
                       ? navigation.navigate("TodayReview", { lang: language })
                       : navigation.navigate("Flashcards", { lang: language })
                 }
@@ -346,7 +346,7 @@ export default function HomeScreen({ navigation }: Props) {
                 <View style={styles.statHead}>
                   <Icon name="review" size={14} color={colors.foreground} strokeWidth={2} />
                   <Text style={styles.statLabel}>
-                    {language === "es" || language === "fr" || language === "de" || language === "pt" || language === "it" ? "Review" : "Due"}
+                    {language === "es" || language === "fr" || language === "de" || language === "pt" || language === "ko" || language === "it" ? "Review" : "Due"}
                   </Text>
                 </View>
                 <Text style={styles.statValue}>{dueCount}</Text>
@@ -377,7 +377,7 @@ export default function HomeScreen({ navigation }: Props) {
             ) : language === "pt" ? (
               <NavCard icon="lessons" title="Lessons" body="Structured lessons, from beginner to mastery." onPress={() => navigation.navigate("PortugueseLevels")} />
             ) : language === "ko" ? (
-              <NavCard icon="lessons" title="Lessons" body="Hangul, then lessons from beginner to mastery. Beta." onPress={() => navigation.navigate("KoreanLevels")} />
+              <NavCard icon="lessons" title="Lessons" body="Hangul, then lessons from beginner to mastery." onPress={() => navigation.navigate("KoreanLevels")} />
             ) : language === "it" ? (
               <NavCard icon="lessons" title="Lessons" body="Structured lessons, from beginner to mastery. Beta." onPress={() => navigation.navigate("ItalianLevels")} />
             ) : language === "ja" ? (
@@ -410,7 +410,7 @@ export default function HomeScreen({ navigation }: Props) {
                 onPress={() => navigation.navigate("ReadingLevels", { lang: language })}
               />
             )}
-            {(language === "pt" || language === "it") && (
+            {(language === "pt" || language === "ko" || language === "it") && (
               <NavCard
                 icon="readings"
                 tint="sea"
@@ -420,12 +420,20 @@ export default function HomeScreen({ navigation }: Props) {
               />
             )}
 
-            {language === "fr" || language === "de" || language === "pt" || language === "it" ? (
+            {language === "fr" || language === "de" || language === "pt" || language === "ko" || language === "it" ? (
               <NavCard
                 icon="review"
                 title="Today's review"
                 body={`Questions you missed in your ${
-                  language === "fr" ? "French" : language === "de" ? "German" : language === "pt" ? "Portuguese" : "Italian"
+                  language === "fr"
+                    ? "French"
+                    : language === "de"
+                      ? "German"
+                      : language === "pt"
+                        ? "Portuguese"
+                        : language === "ko"
+                          ? "Korean"
+                          : "Italian"
                 } lessons, then flashcards due today.`}
                 onPress={() => navigation.navigate("TodayReview", { lang: language })}
               />
@@ -442,8 +450,8 @@ export default function HomeScreen({ navigation }: Props) {
 
             {/* Writing practice in every language, like the website's
                 Writing tile on each course page. */}
-            {/* Not for the Korean beta yet: its writing tasks are in each
-                unit's review lesson. */}
+            {/* Korean's writing practice is in its Study Tools (with every
+                unit's writing tasks), not on Home. */}
             {language !== "ko" && (
               <NavCard
                 icon="writing"
@@ -460,7 +468,12 @@ export default function HomeScreen({ navigation }: Props) {
                 screen and in Settings rather than here: most learners
                 take it once. */}
             {/* The Italian beta: only once it has a tool (lib/italianTools.ts). */}
-            {(language === "es" || language === "fr" || language === "de" || language === "pt" || (language === "it" && ITALIAN_TOOLS.length > 0)) && (
+            {(language === "es" ||
+              language === "fr" ||
+              language === "de" ||
+              language === "pt" ||
+              language === "ko" ||
+              (language === "it" && ITALIAN_TOOLS.length > 0)) && (
               <NavCard
                 icon="tools"
                 tint="sea"

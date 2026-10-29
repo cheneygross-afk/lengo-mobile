@@ -73,7 +73,7 @@ const levelLabel = (path: string) => {
   return !l ? path : l.path === "culture" ? "Culture lessons" : l.topik ? `${l.name} · ${l.topik}` : l.name;
 };
 
-// Mobile port of the Korean beta's glossary and vocabulary pages (the
+// Mobile port of the Korean course's glossary and vocabulary pages (the
 // website's /lessons/ko/tools/glossary and /lessons/ko/tools/vocabulary):
 // every word and phrase the lessons teach, searchable in Korean, English or
 // by initial consonants (ㅎㄱ finds 학교), with the level where it's first

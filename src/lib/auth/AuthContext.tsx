@@ -4,7 +4,6 @@ import type { Session } from "@supabase/supabase-js";
 import { supabase } from "@/lib/supabase/client";
 import { syncFlashcardsFromCloud } from "@/lib/flashcards/store";
 import type { CourseId } from "@/lib/courses";
-import { isKoreanBetaEmail } from "@/lib/koreanBeta";
 import { isItalianBetaEmail } from "@/lib/italianBeta";
 
 // Mobile equivalent of the web app's server-side getCurrentUserAndRole --
@@ -20,13 +19,10 @@ type AuthState = {
   // and staff; the courses picked for Focused Lessons (plus a company
   // seat's); empty without a plan. Plans are bought on the website, so
   // this reloads whenever the app comes back to the foreground.
-  // "ko" is in it only for the Korean beta account (lib/koreanBeta.ts, the
-  // website's allowlist): All Access doesn't open it, and nobody else is
-  // shown anything Korean. "it" likewise, only for the Italian beta
-  // accounts (lib/italianBeta.ts).
+  // "it" is in it only for the Italian beta accounts (lib/italianBeta.ts,
+  // the website's allowlist): All Access doesn't open it, and nobody else
+  // is shown anything Italian.
   lessonsCourses: "all" | CourseId[];
-  /** Whether this account may see the Korean beta. */
-  koreanBeta: boolean;
   /** Whether this account may see the Italian beta. */
   italianBeta: boolean;
   signOut: () => Promise<void>;
@@ -39,7 +35,6 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [loading, setLoading] = useState(true);
   const [lessonsCourses, setLessonsCourses] = useState<"all" | CourseId[]>([]);
   const userId = session?.user?.id;
-  const koreanBeta = isKoreanBetaEmail(session?.user?.email);
   const italianBeta = isItalianBetaEmail(session?.user?.email);
 
   const loadAccess = useCallback(async () => {
@@ -52,8 +47,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       supabase.from("profiles").select("*").eq("id", userId).single(),
       supabase.rpc("my_business"),
     ]);
-    setLessonsCourses(withBetas(coursesFor(profile, business), koreanBeta, italianBeta));
-  }, [userId, koreanBeta, italianBeta]);
+    setLessonsCourses(withItalianBeta(coursesFor(profile, business), italianBeta));
+  }, [userId, italianBeta]);
 
   useEffect(() => {
     void loadAccess();
@@ -91,13 +86,12 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       session,
       loading,
       lessonsCourses,
-      koreanBeta,
       italianBeta,
       signOut: async () => {
         await supabase.auth.signOut();
       },
     }),
-    [session, loading, lessonsCourses, koreanBeta, italianBeta]
+    [session, loading, lessonsCourses, italianBeta]
   );
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
@@ -129,20 +123,19 @@ function coursesFor(profile: Record<string, unknown> | null, business: unknown):
   return courses;
 }
 
-// The Korean and Italian betas: every Korean (Italian) lesson is open to
-// that beta's accounts (the website's entitlements do the same), whatever
-// their plan, and "ko" ("it") is added to no one else's list.
-const ALL_ACCESS_COURSES: CourseId[] = ["es", "ja", "zh", "fr", "en", "de", "pt"];
+// The Italian beta: every Italian lesson is open to the beta accounts (the
+// website's entitlements do the same), whatever their plan, and "it" is
+// added to no one else's list.
+const ALL_ACCESS_COURSES: CourseId[] = ["es", "ja", "zh", "fr", "en", "de", "pt", "ko"];
 
-function withBetas(courses: "all" | CourseId[], koreanBeta: boolean, italianBeta: boolean): "all" | CourseId[] {
-  if (!koreanBeta && !italianBeta) return courses;
-  const betas: CourseId[] = [...(koreanBeta ? (["ko"] as const) : []), ...(italianBeta ? (["it"] as const) : [])];
-  return [...(courses === "all" ? ALL_ACCESS_COURSES : courses), ...betas];
+function withItalianBeta(courses: "all" | CourseId[], italianBeta: boolean): "all" | CourseId[] {
+  if (!italianBeta) return courses;
+  return [...(courses === "all" ? ALL_ACCESS_COURSES : courses), "it"];
 }
 
 /** Whether the learner's plan opens a course. */
 export function planCovers(courses: "all" | CourseId[], course: CourseId): boolean {
-  // "all" never opens a beta: only the beta accounts' lists have "ko" / "it".
-  if (course === "ko" || course === "it") return courses !== "all" && courses.includes(course);
+  // "all" never opens the Italian beta: only the beta accounts' lists have "it".
+  if (course === "it") return courses !== "all" && courses.includes("it");
   return courses === "all" || courses.includes(course);
 }

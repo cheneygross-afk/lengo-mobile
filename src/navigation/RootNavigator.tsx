@@ -58,9 +58,7 @@ import { KoreanRootsScreen, KoreanRootsLevelScreen } from "@/screens/KoreanRoots
 import WritingScreen from "@/screens/WritingScreen";
 import StudyToolsScreen from "@/screens/StudyToolsScreen";
 import { withPlan } from "@/components/withPlan";
-import { paramsAreKorean, withKoreanBeta } from "@/components/withKoreanBeta";
 import { paramsAreItalian, withItalianBeta } from "@/components/withItalianBeta";
-import { isKoreanStorySlug } from "@/lib/stories/korean";
 import { isItalianStorySlug } from "@/lib/stories/italian";
 import PlanLock from "@/components/PlanLock";
 import { courseOfLevelPath } from "@/lib/courses";
@@ -90,45 +88,35 @@ function UnitTestPaid(props: NativeStackScreenProps<AppStackParamList, "UnitTest
   return <UnitTestScreen {...props} />;
 }
 
-// The Korean beta (withKoreanBeta.tsx) and the Italian beta
-// (withItalianBeta.tsx): their own screens, and the shared ones when opened
-// with Korean or Italian params, are "not found" for every account but the
-// beta's. Other params pass straight through, so no other course changes.
-const KoreanLevels = withKoreanBeta(KoreanLevelsScreen, true);
+// The Italian beta (withItalianBeta.tsx): its own screens, and the shared
+// ones when opened with Italian params, are "not found" for every account
+// but the beta's. Other params pass straight through, so no other course
+// changes.
 const ItalianLevels = withItalianBeta(ItalianLevelsScreen, true);
-const LessonList = withItalianBeta(withKoreanBeta(LessonListScreen));
-const LessonRunner = withItalianBeta(withKoreanBeta(LessonRunnerScreen));
-const UnitTest = withItalianBeta(withKoreanBeta(UnitTestPaid));
-const ReviewList = withItalianBeta(withKoreanBeta(ReviewListScreen));
-const ReviewDrill = withItalianBeta(withKoreanBeta(ReviewDrillScreen));
-const Flashcards = withItalianBeta(withKoreanBeta(FlashcardsScreen));
-const ReadingLevels = withItalianBeta(withKoreanBeta(ReadingLevelsScreen));
-const ReadingsList = withItalianBeta(withKoreanBeta(ReadingsListScreen));
-const TodayReview = withItalianBeta(withKoreanBeta(TodayReviewScreen));
-const StudyTools = withItalianBeta(withKoreanBeta(StudyToolsScreen));
-const GrammarList = withItalianBeta(withKoreanBeta(GrammarListScreen));
-const GrammarGuide = withItalianBeta(withKoreanBeta(GrammarGuideScreen));
-const Exams = withItalianBeta(withKoreanBeta(ExamsScreen));
-const Exam = withItalianBeta(withKoreanBeta(ExamScreen));
-const ExamPaper = withItalianBeta(withKoreanBeta(ExamPaperScreen));
-const Writing = withItalianBeta(withKoreanBeta(WritingScreen));
-const KoreanPlacement = withKoreanBeta(KoreanPlacementTestScreen, true);
-const KoreanConjugation = withKoreanBeta(KoreanConjugationPaid, true);
-const KoreanGlossary = withKoreanBeta(KoreanGlossaryPaid, true);
-const KoreanRoots = withKoreanBeta(KoreanRootsScreen, true);
-const KoreanRootsLevel = withKoreanBeta(KoreanRootsLevelScreen, true);
+const LessonList = withItalianBeta(LessonListScreen);
+const LessonRunner = withItalianBeta(LessonRunnerScreen);
+const UnitTest = withItalianBeta(UnitTestPaid);
+const ReviewList = withItalianBeta(ReviewListScreen);
+const ReviewDrill = withItalianBeta(ReviewDrillScreen);
+const Flashcards = withItalianBeta(FlashcardsScreen);
+const ReadingLevels = withItalianBeta(ReadingLevelsScreen);
+const ReadingsList = withItalianBeta(ReadingsListScreen);
+const TodayReview = withItalianBeta(TodayReviewScreen);
+const StudyTools = withItalianBeta(StudyToolsScreen);
+const GrammarList = withItalianBeta(GrammarListScreen);
+const GrammarGuide = withItalianBeta(GrammarGuideScreen);
+const Exams = withItalianBeta(ExamsScreen);
+const Exam = withItalianBeta(ExamScreen);
+const ExamPaper = withItalianBeta(ExamPaperScreen);
+const Writing = withItalianBeta(WritingScreen);
 const ItalianPlacement = withItalianBeta(ItalianPlacementTestScreen, true);
 const ItalianConjugation = withItalianBeta(ItalianConjugationPaid, true);
 const ItalianGlossary = withItalianBeta(ItalianGlossaryPaid, true);
 const ItalianArticles = withItalianBeta(ItalianArticlesScreen, true);
 const ItalianPronunciation = withItalianBeta(ItalianPronunciationScreen, true);
-// A Korean story is Korean by its "ko/..." levelPath or its "ko-" slug; an
-// Italian one by its "it/..." levelPath or its "it-" slug.
+// An Italian story is Italian by its "it/..." levelPath or its "it-" slug.
 const StoryReader = withItalianBeta(
-  withKoreanBeta(
-    StoryReaderScreen,
-    (params) => paramsAreKorean(params) || isKoreanStorySlug((params as { slug?: string } | undefined)?.slug ?? "")
-  ),
+  StoryReaderScreen,
   (params) => paramsAreItalian(params) || isItalianStorySlug((params as { slug?: string } | undefined)?.slug ?? "")
 );
 
@@ -161,7 +149,7 @@ function AppNavigator() {
       <AppStack.Screen name="FrenchLevels" component={FrenchLevelsScreen} options={{ title: "French" }} />
       <AppStack.Screen name="GermanLevels" component={GermanLevelsScreen} options={{ title: "German" }} />
       <AppStack.Screen name="PortugueseLevels" component={PortugueseLevelsScreen} options={{ title: "Portuguese" }} />
-      <AppStack.Screen name="KoreanLevels" component={KoreanLevels} options={{ title: "Korean" }} />
+      <AppStack.Screen name="KoreanLevels" component={KoreanLevelsScreen} options={{ title: "Korean" }} />
       <AppStack.Screen name="ItalianLevels" component={ItalianLevels} options={{ title: "Italian" }} />
       <AppStack.Screen name="LessonList" component={LessonList} options={{ title: "Lessons" }} />
       <AppStack.Screen name="JapaneseLevels" component={JapaneseLevelsScreen} options={{ title: "Japanese" }} />
@@ -234,15 +222,15 @@ function AppNavigator() {
       <AppStack.Screen name="PortuguesePlacement" component={PortuguesePlacementTestScreen} options={{ title: "Portuguese placement test" }} />
       <AppStack.Screen name="PortugueseConjugation" component={PortugueseConjugationPaid} options={{ title: "Portuguese verb conjugation" }} />
       <AppStack.Screen name="PortugueseGlossary" component={PortugueseGlossaryPaid} options={{ title: "Portuguese glossary" }} />
-      <AppStack.Screen name="KoreanPlacement" component={KoreanPlacement} options={{ title: "Korean placement test" }} />
-      <AppStack.Screen name="KoreanConjugation" component={KoreanConjugation} options={{ title: "Korean verb conjugation" }} />
+      <AppStack.Screen name="KoreanPlacement" component={KoreanPlacementTestScreen} options={{ title: "Korean placement test" }} />
+      <AppStack.Screen name="KoreanConjugation" component={KoreanConjugationPaid} options={{ title: "Korean verb conjugation" }} />
       <AppStack.Screen
         name="KoreanGlossary"
-        component={KoreanGlossary}
+        component={KoreanGlossaryPaid}
         options={({ route }) => ({ title: route.params?.level ? "Korean vocabulary" : "Korean glossary" })}
       />
-      <AppStack.Screen name="KoreanRoots" component={KoreanRoots} options={{ title: "Word Roots" }} />
-      <AppStack.Screen name="KoreanRootsLevel" component={KoreanRootsLevel} options={{ title: "Word Roots" }} />
+      <AppStack.Screen name="KoreanRoots" component={KoreanRootsScreen} options={{ title: "Word Roots" }} />
+      <AppStack.Screen name="KoreanRootsLevel" component={KoreanRootsLevelScreen} options={{ title: "Word Roots" }} />
       <AppStack.Screen name="ItalianPlacement" component={ItalianPlacement} options={{ title: "Italian placement test" }} />
       <AppStack.Screen name="ItalianConjugation" component={ItalianConjugation} options={{ title: "Italian verb conjugation" }} />
       <AppStack.Screen name="ItalianArticles" component={ItalianArticles} options={{ title: "Articles & Prepositions" }} />

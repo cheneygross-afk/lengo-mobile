@@ -1,6 +1,6 @@
 // The Italian course in the app (private beta, lib/italianBeta.ts):
 // Beginner ... Mastery and the optional Culture module, loaded one level
-// at a time the same way as the Korean beta (lessons/korean.ts) and the
+// at a time the same way as the Korean course (lessons/korean.ts) and the
 // Brazilian Portuguese course (lessons/portuguese.ts). Only the beta
 // accounts see any of it: every Italian screen is reached from Home's
 // Italian pill, which only they get, and RootNavigator's withItalianBeta

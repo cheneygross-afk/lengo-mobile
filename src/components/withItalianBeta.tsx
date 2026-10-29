@@ -14,7 +14,7 @@ export function paramsAreItalian(params: unknown): boolean {
 }
 
 /** The Italian course is a private beta (lib/italianBeta.ts, the website's
- * allowlist), gated the same way as the Korean one (withKoreanBeta.tsx).
+ * allowlist), gated the same way as the Korean and Portuguese ones were.
  * An Italian screen -- or a shared screen opened with Italian params --
  * shows a plain "not found" to everyone else, the way the website 404s
  * /lessons/it, so the beta isn't advertised. `which` is true for screens

@@ -20,14 +20,12 @@ type ItalianStoryLevelPath = ItalianStoryLevel["path"];
 
 // The course a shared screen (review, flashcards, study tools) is showing.
 // "pt" is the Brazilian Portuguese course, open to every account; "ko" the
-// Korean beta, for the beta account only (RootNavigator's withKoreanBeta
-// turns everyone else away); "it" the Italian beta, the same way
-// (withItalianBeta).
+// Korean course, open to every account too; "it" the Italian beta, for its
+// beta accounts only (withItalianBeta turns everyone else away).
 export type CourseLang = "es" | "ja" | "zh" | "fr" | "de" | "pt" | "ko" | "it";
 // The courses with stories, Today's review and Study Tools of their own.
 export type ToolsLang = "es" | "fr" | "de" | "pt";
-// The same, with the Korean beta (only the beta account; RootNavigator's
-// withKoreanBeta turns everyone else away from a "ko" lang).
+// The same, with the Korean course.
 export type ToolsLangKo = ToolsLang | "ko";
 // And with the Italian beta (withItalianBeta turns everyone else away from
 // "it").
@@ -49,9 +47,9 @@ export type AppStackParamList = {
   // The Brazilian Portuguese course's level picker (A1-C2) -- see
   // PortugueseLevelsScreen. Open to every account, like German.
   PortugueseLevels: undefined;
-  // The Korean beta's level picker (Hangul, Beginner ... Mastery, and the
-  // Culture bonus) -- see KoreanLevelsScreen. Only the beta account
-  // (lib/koreanBeta.ts).
+  // The Korean course's level picker (Hangul, Beginner ... Mastery, and the
+  // Culture bonus) -- see KoreanLevelsScreen. Open to every account, like
+  // Portuguese.
   KoreanLevels: undefined;
   // The Italian beta's level picker (Beginner ... Mastery, and the Culture
   // bonus) -- see ItalianLevelsScreen. Only the beta accounts
@@ -88,7 +86,7 @@ export type AppStackParamList = {
   // lang "fr" shows the French course's stories (src/lib/stories/fr), "de"
   // the German course's (src/lib/stories/de).
   // "pt" the Portuguese course's (src/lib/stories/pt).
-  // "ko" the Korean beta's (src/lib/stories/ko; gated, see withKoreanBeta).
+  // "ko" the Korean course's (src/lib/stories/ko).
   // "it" the Italian beta's (src/lib/stories/it; gated, see withItalianBeta).
   ReadingLevels: { lang?: ToolsLangBeta } | undefined;
   // levelPath defaults to "a1" when omitted; French levels are "fr/a1" ...,
@@ -131,7 +129,7 @@ export type AppStackParamList = {
   // (dailyReview.ts) -- see TodayReviewScreen. Spanish only.
   // lang "fr": the French course's own (missed questions + flashcards).
   // lang "de": the German course's, the same way.
-  // lang "ko": the Korean beta's (missed questions, then Korean flashcards).
+  // lang "ko": the Korean course's (missed questions, then Korean flashcards).
   // lang "it": the Italian beta's, the same way.
   TodayReview: { lang?: ToolsLangBeta } | undefined;
   // Hub for the Spanish reference/practice tools below (grammar,
@@ -139,7 +137,7 @@ export type AppStackParamList = {
   // lang "fr": the French course's tools (grammar, conjugation, DELF/DALF,
   // glossary, placement); lang "de" the German course's (Goethe-Zertifikat);
   // lang "pt" the Portuguese course's (Celpe-Bras).
-  // lang "ko": the Korean beta's tools (KoreanStudyTools below the hub).
+  // lang "ko": the Korean course's tools (KoreanStudyTools below the hub).
   // lang "it": the Italian beta's (lib/italianTools.ts).
   StudyTools: { lang?: ToolsLangBeta } | undefined;
   // Grammar guides (src/lib/grammar, synced from the website) -- the
@@ -154,7 +152,7 @@ export type AppStackParamList = {
   GermanPlacement: undefined;
   // The Portuguese course's placement test (src/lib/pt-placementTest.ts).
   PortuguesePlacement: undefined;
-  // The Korean beta's placement test (src/lib/ko-placementTest.ts).
+  // The Korean course's placement test (src/lib/ko-placementTest.ts).
   KoreanPlacement: undefined;
   // The Italian beta's placement test (src/lib/it-placementTest.ts), only
   // reached from the Italian Study Tools (never required).
@@ -176,7 +174,7 @@ export type AppStackParamList = {
   // The Portuguese course's counterparts (src/lib/pt-conjugation, src/lib/pt-tools).
   PortugueseConjugation: { verb?: string } | undefined;
   PortugueseGlossary: undefined;
-  // The Korean beta's counterparts (src/lib/ko-conjugation, src/lib/ko-tools):
+  // The Korean course's counterparts (src/lib/ko-conjugation, src/lib/ko-tools):
   // the conjugator and the glossary, which also lists a level's vocabulary
   // (level: "a1" ... "c2", "culture"). And the optional Word Roots
   // (src/lib/ko-roots), the only screens with Hanja.
@@ -199,7 +197,7 @@ export type AppStackParamList = {
   // list, one exam's overview and results, and one paper.
   // course "fr": the DELF/DALF practice exams (src/lib/exams/fr); "de" the
   // Goethe-Zertifikat ones (src/lib/exams/de); "pt" the Celpe-Bras ones
-  // (src/lib/exams/pt); "ko" the Korean beta's TOPIK ones (src/lib/exams/ko);
+  // (src/lib/exams/pt); "ko" the Korean course's TOPIK ones (src/lib/exams/ko);
   // "it" the Italian beta's CILS ones (src/lib/exams/it).
   Exams: { course?: ExamCourse } | undefined;
   // Writing practice (the website's Writing page): open writing tasks per

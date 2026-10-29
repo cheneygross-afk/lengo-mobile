@@ -4,7 +4,7 @@ import { supabase } from "@/lib/supabase/client";
 // fetch logic (src/components/TranslateSearch.tsx). Now covers both
 // tracks the app offers -- Spanish, French, German, the Japanese beta and the
 // Brazilian Portuguese course and the Italian beta (and ko-en for the Korean
-// beta's stories, where a tapped word is looked up) -- same as the
+// course's stories, where a tapped word is looked up) -- same as the
 // website: which pair is active follows whichever language is selected
 // on Home, not a fixed Spanish/English pair.
 export type Direction = "en-es" | "es-en" | "en-ja" | "ja-en" | "en-fr" | "fr-en" | "en-de" | "de-en" | "en-pt" | "pt-en" | "en-ko" | "ko-en" | "en-it" | "it-en";

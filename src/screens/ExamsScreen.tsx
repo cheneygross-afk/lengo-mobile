@@ -21,7 +21,7 @@ const BRAND = "#8B0000";
 // Goethe-Zertifikat exams (src/lib/exams/de, /lessons/de/tools/goethe);
 // with "pt", the Portuguese course's Celpe-Bras exams and the Deep End A2
 // practice test (src/lib/exams/pt, /lessons/pt/tools/celpe-bras); with
-// "ko" the Korean beta's TOPIK tests and with "it" the Italian beta's CILS
+// "ko" the Korean course's TOPIK tests and with "it" the Italian beta's CILS
 // practice exams (src/lib/exams/it, /lessons/it/tools/cils).
 export default function ExamsScreen({ navigation, route }: Props) {
   const course = route.params?.course ?? "es";
@@ -135,7 +135,7 @@ function PortugueseExams({ exams, onOpen }: { exams: Exam[]; onOpen: (slug: stri
   );
 }
 
-// The Korean beta's TOPIK practice (the website's /lessons/ko/tools/topik):
+// The Korean course's TOPIK practice (the website's /lessons/ko/tools/topik):
 // two full TOPIK I tests (levels 1-2) and two full TOPIK II tests (levels
 // 3-6), each level shown beside the course level that teaches up to it.
 function KoreanExams({ exams, onOpen }: { exams: Exam[]; onOpen: (slug: string) => void }) {

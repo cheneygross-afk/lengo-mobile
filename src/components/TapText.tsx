@@ -23,7 +23,7 @@ import { isSpanishText, spanishVoicer } from "@/lib/spanishVoice";
 type Mode = "target" | "english" | "mixed";
 
 // Explicit ranges rather than \p{L}, which Hermes doesn't reliably support.
-// Hangul (syllables and jamo) is a word character too, for the Korean beta.
+// Hangul (syllables and jamo) is a word character too, for the Korean course.
 const WORD = /[A-Za-z0-9\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u024F\u3040-\u30FF\u3400-\u9FFF\uFF66-\uFF9F\u1100-\u11FF\u3130-\u318F\uA960-\uA97F\uAC00-\uD7FF'’-]+/g;
 const SPANISH_LETTERS = /[áéíóúüñ¿¡]/i;
 const SPANISH_INFINITIVE = /^[a-záéíóúñ]{2,}(ar|ir|arse|irse|erse)$/i;
@@ -61,7 +61,7 @@ const PORTUGUESE_LETTERS = /[ãõâêôàçáéíóú]/i;
 // ever checks its own. Same rule as the website's TapText.
 const ITALIAN_LETTERS = /[àèéìòù]/i;
 
-// Hangul (syllables and jamo): in the Korean beta any of it is Korean.
+// Hangul (syllables and jamo): in the Korean course any of it is Korean.
 const HANGUL = /[\u1100-\u11FF\u3130-\u318F\uA960-\uA97F\uAC00-\uD7FF]/;
 
 // Old Hangul (conjoining jamo, archaic letters such as ㆍ): the voice

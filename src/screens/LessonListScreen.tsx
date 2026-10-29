@@ -53,7 +53,7 @@ type Section = { key: string; unit?: ModuleUnit; title: string; data: Row[] };
 // list. A French level (route param frenchLevel) or German level
 // (germanLevel) or Brazilian Portuguese course level (portugueseLevel) shows
 // its units the same way, once its lessons have loaded (lessons/french.ts,
-// lessons/german.ts, lessons/portuguese.ts). A Korean beta level
+// lessons/german.ts, lessons/portuguese.ts). A Korean level
 // (koreanLevel) the same way (lessons/korean.ts); its Hangul module has no
 // units, so it's one flat list like the Japanese kana. An Italian beta
 // level (italianLevel) the same way (lessons/italian.ts).
