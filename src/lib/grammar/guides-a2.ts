@@ -43,7 +43,7 @@ export const A2_GUIDES: GrammarGuide[] = [
         heading: "When there is no personal a",
         body: [
           "Leave it out when the person is unspecified or hypothetical (often after buscar or necesitar with un/una), after hay (always), and usually after tener when it states possession or how many people you have (Tengo dos hermanos); tener takes the a only when you mean one specific person in a situation (Tengo a mi madre en el hospital).",
-          "Don't confuse it with the a of direction (Voy a Madrid) or with the a before an indirect object (Le doy el libro a Ana), which is always there.",
+          "Don't confuse it with the a of direction (Voy a Madrid) or with the a before an indirect object (Le doy el libro a Ana), which is required whenever the recipient is named.",
         ],
         examples: [
           { es: "Busco un médico que hable inglés.", en: "I'm looking for a doctor who speaks English (any doctor)." },
@@ -620,7 +620,7 @@ export const A2_GUIDES: GrammarGuide[] = [
       {
         wrong: "Habló claramente y lentamente.",
         right: "Habló clara y lentamente.",
-        why: "With two linked adverbs, normally only the last one takes -mente (repeating it is correct but heavy).",
+        why: "With two linked adverbs, the usual style is to put -mente only on the last one. Habló claramente y lentamente is grammatical, just heavier.",
       },
       {
         wrong: "Juega bueno al tenis.",

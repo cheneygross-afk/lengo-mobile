@@ -309,7 +309,7 @@ export const LEVEL_QUESTIONS: Record<PlacementLevel, PlacementQuestion[]> = {
       "A2",
       "grammar",
       "object-pronouns-drill-1",
-      "¿Tienes las llaves? —Sí, ___ tengo aquí.",
+      "Choose the right pronoun: ¿Tienes las llaves? —Sí, ___ tengo aquí.",
       ["lo", "la", "los", "las"],
       3,
       "Las llaves is feminine plural, so the direct object pronoun is las."
@@ -319,7 +319,7 @@ export const LEVEL_QUESTIONS: Record<PlacementLevel, PlacementQuestion[]> = {
       "A2",
       "vocabulary",
       "por-vs-para-drill-1",
-      "Trabajó ___ dos años en esa empresa antes de cambiar de trabajo.",
+      "Choose the right word: Trabajó ___ dos años en esa empresa antes de cambiar de trabajo.",
       ["para", "durante", "desde", "hasta"],
       1,
       "Durante says how long something lasted (or leave the preposition out: trabajó dos años). Desde marks a starting point, hasta an end point and para a purpose or deadline."
@@ -403,7 +403,7 @@ export const LEVEL_QUESTIONS: Record<PlacementLevel, PlacementQuestion[]> = {
       "B1",
       "reading",
       "passive-voice-possessive-pronouns-drill-1",
-      "Lee: «Se alquila piso en el centro. Dos habitaciones, cocina equipada. No se admiten mascotas. Interesados, llamar por las tardes.» ¿Qué dice el anuncio?",
+      "Lee: «Se alquila piso en el centro. Dos habitaciones, cocina equipada. No se admiten mascotas. Interesados, llamar por las tardes.» Según el anuncio, ¿qué es verdad?",
       ["No se puede vivir allí con un perro", "Hay que llamar por las mañanas", "El piso tiene tres habitaciones", "El piso está fuera de la ciudad"],
       0,
       "«No se admiten mascotas»: no se permiten animales. Hay que llamar por las tardes y el piso, en el centro, tiene dos habitaciones."

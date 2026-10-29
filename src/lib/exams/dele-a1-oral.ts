@@ -46,7 +46,7 @@ export const DELE_A1_ORAL: ExamPaper = {
         prompt: "Conversación sobre usted y su casa.",
         points: ["Responda con frases completas.", "Si no entiende, pida que repita: ¿Puede repetir, por favor?"],
         examinerQuestions: [
-          "¿Desde cuándo vive en esa ciudad?",
+          "¿Le gusta vivir en esa ciudad?",
           "¿Con quién vive?",
           "¿Qué hace normalmente por la tarde?",
           "¿Cómo es su barrio? ¿Qué hay cerca de su casa?",
@@ -55,7 +55,7 @@ export const DELE_A1_ORAL: ExamPaper = {
         prepMinutes: 0,
         speakMinutes: 4,
         modelAnswer:
-          "—¿Con quién vive?\n—Vivo con mi pareja, Laura, y con nuestro perro.\n—¿Qué hace normalmente por la tarde?\n—Trabajo hasta las cinco. Después voy al gimnasio o paseo con el perro.\n—¿Cómo es su barrio?\n—Es tranquilo. Hay un parque, un supermercado y muchos bares. La playa está a diez minutos.\n—¿Qué le gusta hacer los fines de semana?\n—Me gusta ir a la playa, comer con amigos y ver películas.",
+          "—¿Le gusta vivir en esa ciudad?\n—Sí, me gusta mucho. Es grande, pero tranquila, y tiene playa.\n—¿Con quién vive?\n—Vivo con mi pareja, Laura, y con nuestro perro.\n—¿Qué hace normalmente por la tarde?\n—Trabajo hasta las cinco. Después voy al gimnasio o paseo con el perro.\n—¿Cómo es su barrio?\n—Es tranquilo. Hay un parque, un supermercado y muchos bares. La playa está a diez minutos.\n—¿Qué le gusta hacer los fines de semana?\n—Me gusta ir a la playa, comer con amigos y ver películas.",
       },
     },
     {

@@ -173,8 +173,8 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Fórmulas fijas de valor concesivo-universal",
         "body": [
-          "Existe en español un conjunto de estructuras fijas —formadas siempre con subjuntivo— que expresan un valor concesivo-universal: la afirmación se sostiene con independencia de cualquier circunstancia que pudiera contradecirla. «Sea como sea», «cueste lo que cueste», «diga lo que diga», «venga de donde venga» y «pase lo que pase» comparten una estructura duplicada del mismo verbo, uno proyectando todas las posibilidades imaginables hacia el subjuntivo.",
-          "Estas construcciones no admiten el indicativo bajo ninguna circunstancia, ni siquiera cuando el hablante está seguro del resultado, porque su función no es expresar duda sobre un hecho concreto, sino declarar la irrelevancia de cualquier variable. Por ello «cueste lo que cueste lo terminaré» no significa que el hablante ignore el precio, sino que declara que ningún precio alterará su decisión. Se trata, en el fondo, de un subjuntivo de valor universal-cuantificador, emparentado con «quienquiera que», «dondequiera que» y «comoquiera que»."
+          "Existe en español un conjunto de estructuras fijas —formadas siempre con subjuntivo— que expresan un valor concesivo-universal: la afirmación se sostiene con independencia de cualquier circunstancia que pudiera contradecirla. «Sea como sea», «cueste lo que cueste», «diga lo que diga», «venga de donde venga» y «pase lo que pase» comparten una estructura con el mismo verbo repetido en subjuntivo, que recorre todas las posibilidades imaginables.",
+          "En este sentido de «no importa lo que...» estas construcciones no se usan con indicativo (con indicativo cambia el significado: «cuesta lo que cuesta» = it costs what it costs), ni siquiera cuando el hablante está seguro del resultado, porque su función no es expresar duda sobre un hecho concreto, sino declarar la irrelevancia de cualquier variable. Por ello «cueste lo que cueste lo terminaré» no significa que el hablante ignore el precio, sino que declara que ningún precio alterará su decisión. Se trata, en el fondo, de un subjuntivo de valor universal-cuantificador, emparentado con «quienquiera que», «dondequiera que» y «comoquiera que»."
         ],
         "examples": [
           {
@@ -261,7 +261,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "El subjuntivo como recurso pragmático de atenuación",
         "body": [
-          "Más allá de las reglas de régimen verbal que fuerzan mecánicamente el subjuntivo, existe un uso pragmático en el que el hablante opta por él aun cuando el indicativo sería gramaticalmente aceptable, con el fin de suavizar una afirmación, distanciarse de su propia certeza o proyectar cortesía. Así, «no digo que tengas razón» resulta menos confrontativo que su equivalente con indicativo, aunque ambas formas circulan en el habla; el subjuntivo introduce una capa de provisionalidad que atenúa el choque de opiniones.",
+          "Más allá de las reglas de régimen verbal que fuerzan mecánicamente el subjuntivo, existe un uso pragmático en el que el hablante elige el subjuntivo (que tras estas fórmulas es además la forma habitual, aunque a veces se oiga el indicativo), con el fin de suavizar una afirmación, distanciarse de su propia certeza o proyectar cortesía. Así, «no digo que tengas razón» resulta menos confrontativo que su equivalente con indicativo, aunque ambas formas circulan en el habla; el subjuntivo introduce una capa de provisionalidad que atenúa el choque de opiniones.",
           "De modo semejante, ciertos verbos de implicación lógica negados —«no significa que», «no implica que», «eso no quiere decir que»— prefieren casi categóricamente el subjuntivo en el registro culto, precisamente porque niegan una implicación lógica y no un hecho verificable: el hablante no está juzgando si algo es verdad, sino si una cosa se sigue necesariamente de otra. Reconocer esta capa pragmática —y no solo la sintáctica— es lo que distingue a un hablante de nivel avanzado, capaz de manipular el subjuntivo como herramienta retórica de matización."
         ],
         "examples": [
@@ -314,7 +314,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           2,
           4
         ],
-        "explanation": "Las oraciones marcadas emplean el subjuntivo para suavizar una afirmación o distanciarse de un juicio, no solo porque el verbo lo exija mecánicamente; «querer que» y «dudar que» son exigencias de régimen verbal estándar."
+        "explanation": "Las oraciones marcadas emplean el subjuntivo para suavizar una afirmación o distanciarse de un juicio, no solo porque el verbo lo exija mecánicamente; «querer que» y «dudar que» exigen el subjuntivo sin más; en «no digo que», «no es que» y «eso no significa que» el subjuntivo también es lo habitual, pero aquí se subraya su efecto de suavizar la afirmación."
       }
     ]
   },
@@ -613,7 +613,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "heading": "Aunque + subjuntivo: la concesión hipotética o minimizada",
         "body": [
           "Cuando «aunque» va seguido de subjuntivo, el hablante deja de afirmar la veracidad del contenido concesivo y lo presenta como hipotético, desconocido o, en un uso especialmente sofisticado, como irrelevante para su argumento con independencia de que sea cierto o no. «Aunque llueva, saldré a caminar» no informa sobre el estado del tiempo; simplemente anticipa una posible objeción y la neutraliza de antemano.",
-          "Existe además un matiz retórico más fino: un hablante puede usar el subjuntivo con un hecho que en realidad sabe cierto, precisamente para restarle importancia argumentativa. Decir «aunque sea mi jefe, no voy a tolerar ese trato» no pone en duda que la persona sea, efectivamente, el jefe; lo que hace el subjuntivo es señalar que ese hecho, por más real que sea, no altera la conclusión. Este uso —llamado a veces concesivo de rechazo argumentativo— es una de las señales más claras de dominio nativo del idioma."
+          "Existe además un matiz retórico más fino: un hablante puede usar el subjuntivo con un hecho que en realidad sabe cierto, precisamente para restarle importancia argumentativa. Decir «aunque sea mi jefe, no voy a tolerar ese trato» no pone en duda que la persona sea, efectivamente, el jefe; lo que hace el subjuntivo es señalar que ese hecho, por más real que sea, no altera la conclusión. Este uso, que presenta lo concedido como irrelevante para la conclusión, es muy frecuente en el español hablado y escrito."
         ],
         "examples": [
           {
@@ -652,7 +652,7 @@ const C1_BASE_LESSONS: Lesson[] = [
               "Indica que la persona dejará de ser su jefe pronto."
             ],
             "correctIndex": 1,
-            "explanation": "El subjuntivo aquí no expresa duda sobre el hecho, sino que lo presenta como irrelevante para la conclusión: es el llamado concesivo de rechazo argumentativo. No expresa duda (el hablante lo sabe con certeza), no es un error que haya que corregir con indicativo y no anuncia ningún cambio de cargo."
+            "explanation": "El subjuntivo aquí no expresa duda sobre el hecho, sino que lo presenta como irrelevante para la conclusión: es una concesión que resta peso al hecho. No expresa duda (el hablante lo sabe con certeza), no es un error que haya que corregir con indicativo y no anuncia ningún cambio de cargo."
           },
           {
             "type": "fill-blank",
@@ -732,7 +732,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "type": "multi-select",
         "question": "¿En cuáles de las siguientes oraciones el subjuntivo señala que un hecho, aunque cierto, se considera irrelevante para la conclusión?",
         "options": [
-          "Aunque sea tarde, terminaré el informe esta noche.",
+          "Aunque seas mi hermano, no te daré el coche.",
           "Aunque llueve, saldré a caminar.",
           "Aunque tengas razón, no cambiaré de decisión.",
           "Aunque estudió mucho, no aprobó."
@@ -741,7 +741,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "En las oraciones marcadas, el subjuntivo no expresa duda sobre el hecho, sino que lo presenta como irrelevante para la conclusión final, un uso conocido como concesivo de rechazo argumentativo. En «Aunque llueve, saldré a caminar» y «Aunque estudió mucho, no aprobó» el indicativo presenta un hecho real como información, sin restarle relevancia."
+        "explanation": "En las oraciones marcadas, el subjuntivo no expresa duda sobre el hecho, sino que lo presenta como irrelevante para la conclusión final, un uso muy frecuente en la concesión. En «Aunque llueve, saldré a caminar» y «Aunque estudió mucho, no aprobó» el indicativo presenta un hecho real como información, sin restarle relevancia."
       },
       {
         "type": "word-order",
@@ -1103,7 +1103,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "heading": "Lo + adjetivo: sustantivación de cualidades abstractas",
         "body": [
           "La estructura «lo» más adjetivo masculino singular convierte una cualidad en una entidad abstracta susceptible de ser sujeto, objeto o término de comparación: «lo interesante del caso es que nadie lo denunció» extrae la cualidad de «interesante» y la convierte en el núcleo nominal de toda la oración. Este recurso, característico del registro culto y ensayístico, permite condensar juicios de valor sin necesidad de un sustantivo abstracto ya existente en la lengua.",
-          "Un matiz importante distingue «lo bueno» de «la bondad»: mientras que el segundo designa la cualidad en abstracto y de forma permanente, «lo bueno» suele referirse a un aspecto concreto y contextual de una situación particular. Esta flexibilidad convierte a «lo + adjetivo» en una herramienta especialmente productiva para la argumentación matizada, donde el hablante necesita señalar un aspecto específico sin comprometerse con una generalización."
+          "Un matiz importante distingue «lo bueno» de «la bondad»: mientras que el segundo nombra la cualidad en abstracto (con otro matiz léxico: «la bondad» se dice sobre todo de personas, y de cosas se usa en plural, «las bondades del plan»), «lo bueno» suele referirse a un aspecto concreto y contextual de una situación particular. Esta flexibilidad convierte a «lo + adjetivo» en una herramienta especialmente productiva para la argumentación matizada, donde el hablante necesita señalar un aspecto específico sin comprometerse con una generalización."
         ],
         "examples": [
           {
@@ -2153,7 +2153,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "altAnswers": [
           "I've just signed the agreement with the supplier; I'm still holding the pen."
         ],
-        "explanation": "«Acabar de» + infinitivo, en su valor de pasado reciente, no debe confundirse con el matiz de cierre de tarea que comparte con «terminar de» en otros contextos."
+        "explanation": "«Acabar de» + infinitivo en presente indica algo que acaba de ocurrir («acabo de firmar» = I have just signed); no significa «estoy firmando» ni «voy a firmar»."
       },
       {
         "type": "word-order",
@@ -2231,7 +2231,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Perífrasis progresivas con gerundio: estar, ir, venir y llevar",
         "body": [
-          "Además de «estar + gerundio», que describe una acción en curso sin más matiz añadido, el español dispone de otras perífrasis de gerundio que aportan una capa de significado sobre cómo se desarrolla el proceso en el tiempo. «Ir + gerundio» añade un matiz de progresión gradual hacia un resultado: «va mejorando poco a poco» sugiere una evolución paulatina que «está mejorando» no comunica con la misma nitidez. «Venir + gerundio», por su parte, enfatiza la persistencia de una tendencia acumulada desde el pasado hasta el presente, con frecuencia con un matiz de queja.",
+          "Además de «estar + gerundio», que describe una acción en curso sin más matiz añadido, el español dispone de otras perífrasis de gerundio que aportan una capa de significado sobre cómo se desarrolla el proceso en el tiempo. «Ir + gerundio» añade un matiz de progresión gradual hacia un resultado: «va mejorando poco a poco» sugiere una evolución paulatina que «está mejorando» no comunica con la misma nitidez. «Venir + gerundio», por su parte, enfatiza la persistencia de una tendencia acumulada desde el pasado hasta el presente, a veces con un matiz de insistencia o de reproche que viene del contexto.",
           "«Llevar + gerundio», finalmente, mide explícitamente la duración de una acción en curso desde un punto de referencia hasta el presente, y necesita una expresión temporal que delimite ese lapso, ya sea una duración (llevo dos horas esperando) o un punto de partida (llevo esperando desde las diez); sin ella, o sin un contexto que la aporte (¿cuánto llevas esperando?), la perífrasis queda incompleta. Dominar estas cuatro variantes y sus matices respectivos de neutralidad, progresión, acumulación y duración medida es lo que separa una descripción funcional de una expresión verdaderamente precisa."
         ],
         "examples": [
@@ -2279,7 +2279,7 @@ const C1_BASE_LESSONS: Lesson[] = [
               },
               {
                 "left": "venir + gerundio",
-                "right": "acumulación o persistencia de una acción desde el pasado, a menudo con matiz de queja"
+                "right": "acumulación o persistencia de una acción desde el pasado, a veces con matiz de insistencia"
               },
               {
                 "left": "llevar + gerundio",
@@ -2552,11 +2552,11 @@ const C1_BASE_LESSONS: Lesson[] = [
         "options": [
           "Una descripción neutra de una acción en curso, sin matiz añadido.",
           "Una progresión gradual e incremental hacia un resultado concreto.",
-          "La acumulación y persistencia de una actitud desde el pasado, con un matiz de queja.",
+          "La acumulación y persistencia de una actitud desde el pasado hasta el presente.",
           "La duración exacta y medida de la acción hasta el presente."
         ],
         "correctIndex": 2,
-        "explanation": "«Venir + gerundio» enfatiza la persistencia de una tendencia acumulada desde el pasado hasta el presente, con frecuencia con un matiz de queja, tal como ocurre aquí con las protestas repetidas de la comunidad. No es una descripción neutra (eso sería «está quejándose»), ni una progresión hacia un resultado (valor de «ir + gerundio»), ni una duración medida (valor de «llevar + gerundio»)."
+        "explanation": "«Venir + gerundio» enfatiza la persistencia de una tendencia acumulada desde el pasado hasta el presente, sin medir el lapso con una cifra (eso lo hace «llevar»), como ocurre aquí con las quejas repetidas de la comunidad. No es una descripción neutra (eso sería «está quejándose»), ni una progresión hacia un resultado (valor de «ir + gerundio»), ni una duración medida (valor de «llevar + gerundio»)."
       },
       {
         "type": "fill-blank",
@@ -2579,12 +2579,12 @@ const C1_BASE_LESSONS: Lesson[] = [
         "question": "¿Qué diferencia de matiz existe entre «está lloviendo desde el mediodía» y «viene lloviendo desde el mediodía»?",
         "options": [
           "No existe ninguna diferencia real entre ambas formas.",
-          "La primera es una descripción neutra de la lluvia en curso; la segunda añade un matiz de persistencia acumulada, casi de hartazgo.",
+          "La primera es una descripción neutra de la lluvia en curso; la segunda presenta la lluvia como un proceso acumulado que llega hasta ahora.",
           "La segunda forma es agramatical y debe evitarse siempre.",
           "La primera solo puede usarse en el pasado, nunca en el presente."
         ],
         "correctIndex": 1,
-        "explanation": "«Estar + gerundio» describe el proceso en curso sin matiz añadido; «venir + gerundio» aplicado a un fenómeno como la lluvia añade un matiz de persistencia acumulada, casi de fastidio ante su continuidad. Sí hay diferencia de matiz, «viene lloviendo» es gramatical y «está lloviendo» funciona perfectamente en presente."
+        "explanation": "«Estar + gerundio» describe el proceso en curso sin matiz añadido; «venir + gerundio» aplicado a un fenómeno como la lluvia presenta el fenómeno como un proceso acumulado que llega hasta el presente. Sí hay diferencia de matiz, «viene lloviendo» es gramatical y «está lloviendo» funciona perfectamente en presente."
       },
       {
         "type": "word-order",
@@ -2644,7 +2644,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           },
           {
             "left": "venir + gerundio",
-            "right": "acumulación de una actitud desde el pasado, a menudo con matiz de queja"
+            "right": "acumulación de una actitud desde el pasado hasta el presente, a veces con matiz de insistencia"
           },
           {
             "left": "llevar + gerundio",
@@ -2662,7 +2662,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "altAnswers": [
           "La empresa lleva años afirmando que la fusión creará más empleo."
         ],
-        "explanation": "«Venir + gerundio» capta el matiz de una afirmación repetida y sostenida en el tiempo, con cierto escepticismo implícito por parte del hablante hacia esa insistencia."
+        "explanation": "«Venir + gerundio» capta el matiz de una afirmación repetida y sostenida en el tiempo, y refleja una afirmación repetida y sostenida desde hace años."
       },
       {
         "type": "translate",
@@ -2680,7 +2680,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa con la perífrasis de acumulación persistente.",
         "sentence": "___ (venir) insistiendo en la misma queja desde el mes pasado, sin que nadie le haga caso.",
         "answer": "Viene",
-        "hint": "Se trata de una tercera persona del singular, con matiz de persistencia y hartazgo.",
+        "hint": "Se trata de una tercera persona del singular, con matiz de persistencia acumulada.",
         "explanation": "«Venir + gerundio» enfatiza aquí la persistencia acumulada de una queja repetida, con el matiz de que nadie ha atendido esa insistencia."
       },
       {
@@ -2700,7 +2700,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "question": "¿Cuáles de las siguientes oraciones emplean correctamente una perífrasis de gerundio según el matiz que se pretende expresar?",
         "options": [
           "Vengo insistiendo en este punto desde la primera reunión.",
-          "Llevo esperando aquí.",
+          "Llevo esperar aquí dos horas.",
           "Va aprendiendo a tocar el violín con mucho esfuerzo.",
           "Viene lloviendo mañana por la tarde."
         ],
@@ -2708,7 +2708,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "Las oraciones correctas emplean «venir + gerundio» para una insistencia acumulada y «ir + gerundio» para una progresión gradual; «llevar + gerundio» exige una expresión temporal cuantificada que aquí falta, y «venir + gerundio» no puede referirse a un evento futuro puntual como «mañana por la tarde»."
+        "explanation": "Las oraciones correctas emplean «venir + gerundio» para una insistencia acumulada y «ir + gerundio» para una progresión gradual; «llevar» se construye con gerundio, no con infinitivo («llevo esperando», no «llevo esperar»), y «venir + gerundio» no puede referirse a un evento futuro puntual como «mañana por la tarde»."
       },
       {
         "type": "multiple-choice",
@@ -2925,7 +2925,7 @@ const C1_BASE_LESSONS: Lesson[] = [
             "question": "¿Cuáles de las siguientes oraciones ejemplifican correctamente el «se» impersonal?",
             "options": [
               "Se vende esta casa.",
-              "Se busca a un traductor experimentado.",
+              "Se busca al traductor que firmó el informe.",
               "Se necesitan tres traductores.",
               "Se ayuda a los estudiantes con dificultades."
             ],
@@ -3706,7 +3706,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "El estilo indirecto libre en acción",
         "body": [
-          "El primer ejemplo transforma la cita anterior en estilo indirecto libre: conserva el imperfecto y los demostrativos del narrador (ese lugar), pero prescinde del verbo introductor y mantiene la expresividad del personaje (No, nunca más). El segundo resume el efecto: la voz interior se mezcla con la del narrador sin comillas ni guiones."
+          "El primer ejemplo transforma la cita anterior en estilo indirecto libre: conserva el imperfecto y la tercera persona del narrador y adapta el demostrativo (ese lugar, en vez de este lugar), pero prescinde del verbo introductor y mantiene la expresividad del personaje (No, nunca más). El segundo resume el efecto: la voz interior se mezcla con la del narrador sin comillas ni guiones."
         ],
         "examples": [
           {
@@ -3931,7 +3931,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "el trasunto",
-            "en": "el personaje que representa a una persona real, a menudo al propio autor"
+            "en": "la imagen o representación fiel de algo; en literatura, el personaje que reproduce a una persona real, a menudo al propio autor"
           },
           {
             "es": "el punto de inflexión",
@@ -4338,7 +4338,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Por y para en expresiones de plazo y duración",
         "body": [
-          "En expresiones temporales, «para» señala un plazo límite, una fecha tope hacia la cual se orienta una acción o un compromiso: «el informe debe estar listo para el viernes» establece el viernes como el límite máximo, sin que ello implique que el informe deba entregarse precisamente ese día. «Por», en cambio, indica una duración aproximada o un periodo dentro del cual transcurre una acción, sin marcar un límite preciso: «estaré fuera por unos días» comunica una estimación de tiempo, no una fecha exacta de regreso.",
+          "En expresiones temporales, «para» señala un plazo límite, una fecha tope hacia la cual se orienta una acción o un compromiso: «el informe debe estar listo para el viernes» establece el viernes como el límite máximo, sin que ello implique que el informe deba entregarse precisamente ese día. «Por», en cambio, introduce la duración de una situación (equivale a «durante»: «por unos días», «por varias semanas»); el matiz aproximado lo aportan palabras como «unos», «casi» o «varios»: «estaré fuera por unos días» comunica una estimación de tiempo, no una fecha exacta de regreso.",
           "Esta distinción resulta crítica en la comunicación profesional, donde confundir un plazo límite con una duración aproximada puede generar malentendidos sobre compromisos y entregas. Usar «por» en lugar de «para» ante una fecha concreta tiende a percibirse como menos comprometido que fijar de manera inequívoca una fecha límite mediante «para»."
         ],
         "examples": [
@@ -4407,7 +4407,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "examples": [
           {
             "es": "La decisión todavía está por tomarse.",
-            "en": "Indica que la acción aún no se ha realizado, con matiz de inminencia o de algo pendiente."
+            "en": "Indica que la acción aún no se ha realizado: está pendiente (en buena parte de América, también inminente)."
           },
           {
             "es": "El tren está para salir en cualquier momento.",
@@ -4743,7 +4743,7 @@ const C1_BASE_LESSONS: Lesson[] = [
               "Ambas formas son igualmente correctas sin ninguna diferencia."
             ],
             "correctIndex": 1,
-            "explanation": "Los sustantivos que designan eventos —como «boda», «reunión» o «concierto»— se localizan siempre con «ser», independientemente de si la ubicación es permanente o transitoria. El género de «boda» no tiene nada que ver, un lugar exterior no exige «ser» («el perro está en el jardín») y las dos formas no son equivalentes."
+            "explanation": "Los sustantivos que designan eventos —como «boda», «reunión» o «concierto»— se localizan con «ser» (tienen lugar en un sitio), independientemente de si la ubicación es permanente o transitoria. El género de «boda» no tiene nada que ver, un lugar exterior no exige «ser» («el perro está en el jardín») y las dos formas no son equivalentes."
           }
         ]
       }
@@ -4912,7 +4912,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 50,
     "title": "Prueba de Dominio: Ser, Estar y Haber (Parte 1)",
-    "summary": "Una prueba exigente que evalúa la capacidad de aplicar a casos nuevos y genuinamente ambiguos los contrastes ontológicos y evaluativos entre ser, estar y haber estudiados en la primera parte.",
+    "summary": "Una prueba que comprueba si sabes elegir entre ser, estar y hay al localizar eventos y lugares, al usar adjetivos como listo, violento o interesado y al distinguir «hay» de «estar» según el sustantivo.",
     "duration": "10 min",
     "sections": [],
     "exercises": [
@@ -4923,7 +4923,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "answer": "es",
         "altAnswers": ["será"],
         "hint": "Piensa en la naturaleza eventiva del sustantivo que se está localizando.",
-        "explanation": "«Ceremonia» designa un suceso, no un objeto físico; los sustantivos eventivos se localizan siempre con «ser», con independencia de si el lugar es habitual u ocasional."
+        "explanation": "«Ceremonia» designa un suceso, no un objeto físico; los sustantivos eventivos se localizan con «ser», con independencia de si el lugar es habitual u ocasional."
       },
       {
         "type": "multiple-choice",
@@ -4971,7 +4971,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "Porque esa oración es en realidad perfectamente correcta en el registro culto."
         ],
         "correctIndex": 1,
-        "explanation": "«Estar» presupone una entidad ya identificada cuya posición se especifica; el artículo indefinido «una» presenta la entidad como nueva, lo cual es propio de la función introductoria de «hay». «Solución» admite «estar» si está identificada («la solución está en el cajón»), «problema» no condiciona el verbo y la frase no es correcta en ningún registro: se dice «hay una solución»."
+        "explanation": "«Estar» presupone una entidad ya identificada cuya posición se especifica; el artículo indefinido «una» presenta la entidad como nueva, lo cual es propio de la función introductoria de «hay». «Solución» admite «estar» si está identificada («la solución está en el cajón»), «problema» no condiciona el verbo y la frase no es la forma estándar de afirmar que algo existe: se dice «hay una solución»."
       },
       {
         "type": "fill-blank",
@@ -5190,8 +5190,11 @@ const C1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras para localizar correctamente un evento académico.",
+        "prompt": "Ordena las palabras: evidencia inmediata («está claro») y evento localizado («es en»).",
         "words": [
+          "está",
+          "claro",
+          "que",
           "el",
           "examen",
           "es",
@@ -5200,8 +5203,8 @@ const C1_BASE_LESSONS: Lesson[] = [
           "aula",
           "principal"
         ],
-        "translation": "The exam is in the main classroom.",
-        "explanation": "Los eventos, como «examen», se localizan con «ser», no con «estar»."
+        "translation": "It's obvious that the exam is in the main classroom.",
+        "explanation": "«Está claro que» marca una evidencia inmediata, y el evento «examen» se localiza con «ser»: «es en el aula principal»."
       }
     ]
   },
@@ -5516,7 +5519,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           0,
           1
         ],
-        "explanation": "«Es evidente» funciona correctamente con una verdad objetiva y atemporal; «está clarísimo» funciona correctamente con una evidencia perceptible e inmediata (los ojos hinchados). Las otras dos no son idiomáticas: «evidente» no se construye con «estar» («está evidente»), y «hay clarísimo que» es agramatical."
+        "explanation": "«Es evidente» funciona correctamente con una verdad objetiva y atemporal; «está clarísimo» funciona correctamente con una evidencia perceptible e inmediata (los ojos hinchados). Las otras dos no son idiomáticas: «evidente» se combina normalmente con «ser» («es evidente»; «está evidente» es poco habitual y para la evidencia inmediata se prefiere «está claro»), y «hay clarísimo que» es agramatical."
       },
       {
         "type": "multiple-choice",
@@ -5615,7 +5618,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "Que la segunda oración se refiere a un evento, no a una deducción."
         ],
         "correctIndex": 1,
-        "explanation": "La primera oración plantea una afirmación general y ya conocida sobre el proyecto; la segunda surge de revisar las cuentas —una evidencia inmediata y reciente—, lo cual motiva el cambio hacia «estar». El adjetivo es el mismo (con «cierto» no habría elección: solo «es cierto»), así que el cambio no es léxico; no es un error, «es claro» es correcto y la segunda oración expresa una deducción, no un evento."
+        "explanation": "La primera oración plantea una afirmación general y ya conocida sobre el proyecto; la segunda surge de revisar las cuentas —una evidencia inmediata y reciente—, lo cual puede motivar el cambio hacia «estar», aunque «está claro» es también la forma más habitual en cualquier contexto. El adjetivo es el mismo (con «cierto» no habría elección: solo «es cierto»), así que el cambio no es léxico; no es un error, «es claro» es correcto y la segunda oración expresa una deducción, no un evento."
       },
       {
         "type": "multi-select",
@@ -5667,7 +5670,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "Se empeñó en terminar el trabajo esa misma noche.",
-            "en": "El verbo «empeñarse» exige la preposición «en», sin excepción."
+            "en": "El verbo «empeñarse» exige la preposición «en» en este sentido."
           },
           {
             "es": "Sueño con vivir en otro país algún día.",
@@ -5918,7 +5921,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "sentence": "Se empeñó ___ corregir personalmente cada error del manuscrito, por mínimo que fuera.",
         "answer": "en",
         "hint": "Piensa en el régimen fijo del verbo «empeñarse».",
-        "explanation": "«Empeñarse» exige siempre la preposición «en» para expresar una determinación obstinada de llevar a cabo una acción, sin excepción posible."
+        "explanation": "«Empeñarse» exige siempre la preposición «en» para expresar una determinación obstinada de llevar a cabo una acción en este sentido."
       },
       {
         "type": "multi-select",
@@ -6106,7 +6109,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "heading": "Errores comunes: interferencia y analogía interna",
         "body": [
           "Los errores más persistentes en el régimen verbal, incluso en hablantes de nivel avanzado, suelen originarse en dos fuentes distintas pero relacionadas: la interferencia de otra lengua, cuando el hablante calca la preposición que su idioma materno emplea con un verbo semánticamente equivalente, y la analogía interna dentro del propio español, cuando el hablante extiende la preposición de un verbo a otro verbo próximo en significado pero distinto en régimen. «Pensar en algo» contrasta con «pensar de algo», y confundir ambos regímenes altera sutilmente el sentido de la pregunta.",
-          "Otro foco frecuente de error surge entre verbos con un significado próximo pero un régimen distinto, como «depender de» frente a «basarse en»: ambos verbos relacionan una cosa con su fundamento, pero exigen preposiciones distintas y no intercambiables. Reconocer estos pares de riesgo —verbos semánticamente vecinos con régimen divergente— y practicarlos de forma sistemática es la única estrategia realmente eficaz para erradicar estos errores en el habla espontánea de un nivel avanzado."
+          "Otro foco frecuente de error surge entre verbos con un significado próximo pero un régimen distinto, como «depender de» frente a «basarse en»: ambos verbos relacionan una cosa con su fundamento, pero exigen preposiciones distintas y no intercambiables. Reconocer estos pares de riesgo —verbos semánticamente vecinos con régimen divergente— y practicarlos de forma sistemática es una de las estrategias más eficaces para reducir estos errores en el habla espontánea de un nivel avanzado."
         ],
         "examples": [
           {
@@ -6591,7 +6594,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "Memorizar una lista cerrada de excepciones sin relacionarlas entre sí."
         ],
         "correctIndex": 1,
-        "explanation": "El texto señala que reconocer los pares de riesgo y practicarlos sistemáticamente es la única estrategia realmente eficaz para erradicar estos errores persistentes, incluso en hablantes de nivel muy avanzado. Evitar los verbos preposicionales empobrece el discurso, traducir mentalmente desde la lengua materna alimenta la interferencia y memorizar listas aisladas no ayuda a distinguir verbos vecinos."
+        "explanation": "El texto señala que reconocer los pares de riesgo y practicarlos sistemáticamente es una de las estrategias más eficaces para reducir estos errores persistentes, incluso en hablantes de nivel muy avanzado. Evitar los verbos preposicionales empobrece el discurso, traducir mentalmente desde la lengua materna alimenta la interferencia y memorizar listas aisladas no ayuda a distinguir verbos vecinos."
       },
       {
         "type": "fill-blank",
@@ -6814,7 +6817,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "heading": "So pena de, bajo pena de y a riesgo de",
         "body": [
           "«So pena de» y «bajo pena de» son locuciones de registro sumamente formal —la primera, prácticamente arcaica fuera de textos jurídicos y solemnes— que introducen una consecuencia negativa como advertencia si no se cumple una determinada condición. Ambas proceden del lenguaje jurídico y conservan ese matiz de amenaza institucional o normativa.",
-          "«A riesgo de», en cambio, pertenece a un registro formal pero no exclusivamente jurídico, y suele introducir una consecuencia negativa que el propio hablante asume como posible al llevar a cabo una acción, más que una sanción impuesta externamente. La diferencia fundamental radica en qué provoca la consecuencia negativa: con «so pena de» / «bajo pena de», la consecuencia (una sanción o un perjuicio) llega si no se cumple lo exigido o se hace lo prohibido; con «a riesgo de», es un riesgo que el hablante acepta AL hacer algo."
+          "«A riesgo de», en cambio, pertenece a un registro formal pero no exclusivamente jurídico, y suele introducir una consecuencia negativa que el propio hablante asume como posible al llevar a cabo una acción, más que una sanción impuesta externamente. La diferencia fundamental radica en qué provoca la consecuencia negativa: con «so pena de» / «bajo pena de», la consecuencia (una sanción o un perjuicio) llega si no se cumple lo exigido o se hace lo prohibido; con «a riesgo de», es un riesgo que el hablante acepta al hacer algo."
         ],
         "examples": [
           {
@@ -7176,7 +7179,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "heading": "Oraciones pseudoescindidas: lo que hizo fue",
         "body": [
           "Las oraciones pseudoescindidas, formadas con «lo que» seguido de un verbo y de «ser», focalizan típicamente una acción o un proceso completo en lugar de un solo constituyente nominal: «lo que hizo fue renunciar sin previo aviso» aísla toda la acción de renunciar como el núcleo informativo de la oración, presentándola con un efecto de sorpresa o de contraste implícito respecto a lo que se esperaba. Esta estructura resulta particularmente eficaz cuando el hablante quiere subrayar la naturaleza inesperada, decisiva o contraria a lo previsto de una acción concreta.",
-          "A diferencia de la escindida simple con «ser», la pseudoescindida antepone un pronombre relativo neutro que funciona como sujeto de la oración, seguido del verbo «ser» y, finalmente, del elemento focalizado, que suele ser un infinitivo o una oración completa. Esta construcción es especialmente frecuente en el registro oral formal y en la prosa argumentativa, donde aporta un efecto rítmico de suspenso: el oyente conoce primero que «hizo algo», pero debe esperar hasta el final de la oración para saber exactamente qué acción se está focalizando."
+          "A diferencia de la escindida simple con «ser», la pseudoescindida antepone una oración de relativo con «lo que» que funciona como sujeto de «ser», seguido del verbo «ser» y, finalmente, del elemento focalizado, que suele ser un infinitivo o una oración completa. Esta construcción es especialmente frecuente en el registro oral formal y en la prosa argumentativa, donde aporta un efecto rítmico de suspenso: el oyente conoce primero que «hizo algo», pero debe esperar hasta el final de la oración para saber exactamente qué acción se está focalizando."
         ],
         "examples": [
           {
@@ -7231,12 +7234,12 @@ const C1_BASE_LESSONS: Lesson[] = [
         "heading": "Anteposición y focalización sin ser",
         "body": [
           "La anteposición del complemento directo o de otros constituyentes al inicio de la oración constituye otro mecanismo de focalización, esta vez sin recurrir a «ser» ni a un relativo, sino mediante el simple desplazamiento del elemento hacia una posición inicial marcada, generalmente acompañado de un pronombre átono que retoma o reduplica ese complemento. En estructuras más simples, «eso sí que no lo esperaba» antepone el objeto directo, reforzado por el intensificador «sí que», que añade un matiz de contraste enfático respecto a una expectativa previa.",
-          "Esta anteposición marcada se distingue claramente del orden neutro sujeto-verbo-objeto del español, y su función pragmática consiste en presentar el elemento anticipado como el tema sobre el que va a versar la oración, o como el elemento sometido a un contraste implícito con otras posibilidades descartadas. El pronombre átono de reduplicación no es opcional en la mayoría de estos casos: su ausencia produce oraciones marcadamente extrañas para un hablante nativo."
+          "Esta anteposición marcada se distingue claramente del orden neutro sujeto-verbo-objeto del español, y su función pragmática consiste en presentar el elemento anticipado como el tema sobre el que va a versar la oración, o como el elemento sometido a un contraste implícito con otras posibilidades descartadas. El pronombre átono de reduplicación es obligatorio cuando se antepone un complemento definido o específico (Ese libro lo leí); no aparece cuando el elemento antepuesto es un cuantificador o un indefinido con foco contrastivo (Dinero hay; Promesas hemos oído muchas)."
         ],
         "examples": [
           {
-            "es": "A él fue a quien más le afectó la noticia.",
-            "en": "Anteposición del complemento indirecto, reforzada con estructura escindida."
+            "es": "A él le afectó más que a nadie la noticia.",
+            "en": "Anteposición del complemento indirecto, retomado con el pronombre átono «le»."
           },
           {
             "es": "Eso sí que no lo esperaba.",
@@ -7786,7 +7789,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "A lo mejor frente a quizás, quizá y tal vez",
         "body": [
-          "«A lo mejor» se distingue de «quizás», «quizá» y «tal vez» en un rasgo gramatical decisivo: mientras que estos últimos admiten tanto el indicativo como el subjuntivo, con una diferencia de grado de probabilidad según la posición respecto al verbo, «a lo mejor» exige siempre el indicativo, sin excepción alguna. «Quizás venga mañana» y «quizás viene mañana» son ambas gramaticales, aunque con un matiz de mayor incertidumbre en la variante con subjuntivo.",
+          "«A lo mejor» se distingue de «quizás», «quizá» y «tal vez» en un rasgo gramatical decisivo: mientras que estos últimos admiten tanto el indicativo como el subjuntivo, con una diferencia de grado de probabilidad según el modo elegido (subjuntivo = más duda; indicativo = más seguridad), «a lo mejor» exige siempre el indicativo, sin excepción alguna. «Quizás venga mañana» y «quizás viene mañana» son ambas gramaticales, aunque con un matiz de mayor incertidumbre en la variante con subjuntivo.",
           "Esta diferencia refleja distintos orígenes históricos de cada expresión: «a lo mejor» se ha fijado como locución adverbial que no altera el modo del verbo que sigue, mientras que «quizás» y sus variantes conservan una capacidad selectora de modo verbal que les permite matizar sutilmente el grado de probabilidad percibida. En el registro coloquial, «a lo mejor» resulta considerablemente más frecuente que «quizás», que se percibe como ligeramente más formal o literario."
         ],
         "examples": [
@@ -9094,7 +9097,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 92,
     "title": "El Voseo: Gramática y Uso (Parte 2 de 2), Part 2 of 3",
-    "summary": "Una charla entre un rioplatense y alguien de Costa Rica sobre cómo vosean en sus países, y una primera tanda de vocabulario sobre el voseo.",
+    "summary": "Aprenderás a seguir una charla sobre cómo se vosea en el Río de la Plata y en Costa Rica, y 18 términos clave (voseo verbal y pronominal, desinencia, paradigma, forma átona y tónica…) para describir el voseo.",
     "duration": "10 min",
     "sections": [
       {
@@ -9316,7 +9319,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 94,
     "title": "Prueba de Dominio: El Voseo (Parte 2)",
-    "summary": "Una prueba centrada en el prestigio desigual del voseo según la región, el prejuicio lingüístico que aún pesa sobre algunas de sus variantes, y el vocabulario técnico necesario para analizarlo con rigor.",
+    "summary": "Una prueba sobre el prestigio desigual del voseo, el prejuicio lingüístico y el vocabulario técnico, con repaso de las formas verbales voseantes (decís, dormís, pedís, tenés).",
     "duration": "10 min",
     "sections": [],
     "exercises": [
@@ -11274,7 +11277,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la oración evitando la primera persona, según la convención académica.",
         "sentence": "En vez de decir 'pienso que la evidencia es suficiente', el registro académico prefiere decir: «___ que la evidencia es suficiente».",
         "answer": "Se observa",
-        "altAnswers": ["Cabe afirmar", "Se constata", "Cabe sostener"],
+        "altAnswers": ["Cabe afirmar", "Se constata", "Cabe sostener", "Se considera", "Se estima", "Se entiende"],
         "explanation": "El registro académico evita la primera persona y prefiere formulaciones impersonales como se observa que o cabe afirmar que."
       }
     ]
@@ -11658,7 +11661,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "empleada"
         ],
         "translation": "Consequently, the methodology used should be reviewed.",
-        "explanation": "La oración resultante emplea el conector por consiguiente para introducir una conclusión derivada del razonamiento anterior: 'Por consiguiente, conviene revisar la metodología empleada'."
+        "explanation": "«Por consiguiente» introduce la conclusión práctica que se desprende de lo anterior, y «conviene + infinitivo» la formula como recomendación impersonal, sin «yo»."
       }
     ]
   },
@@ -11801,7 +11804,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "Según lo visto sobre la atenuación en la primera parte de esta serie, ¿qué efecto produce en un lector experimentado un ensayo que abusa de afirmaciones categóricas sin matizarlas?",
+        "question": "¿Qué efecto produce en un lector experimentado un ensayo que abusa de afirmaciones categóricas sin matizarlas?",
         "options": [
           "Aumenta automáticamente la credibilidad del autor",
           "Genera desconfianza, porque ignora la posibilidad de excepciones legítimas",
@@ -11809,7 +11812,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "Mejora la cohesión textual del ensayo"
         ],
         "correctIndex": 1,
-        "explanation": "El texto advierte que el abuso de afirmaciones categóricas suele generar desconfianza en un lector experimentado. No aumenta la credibilidad, no es irrelevante para evaluar el argumento y no mejora la cohesión, que depende de los conectores y la estructura."
+        "explanation": "El abuso de afirmaciones categóricas suele generar desconfianza en un lector experimentado. No aumenta la credibilidad, no es irrelevante para evaluar el argumento y no mejora la cohesión, que depende de los conectores y la estructura."
       }
     ]
   },
@@ -12850,7 +12853,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Sufijo -eza / -ura",
         "body": [
-          "Los sufijos -eza y -ura también forman sustantivos abstractos a partir de adjetivos."
+          "Los sufijos -eza y -ura también forman sustantivos abstractos a partir de adjetivos: bello → belleza, dulce → dulzura."
         ],
         "examples": [
           {
@@ -13013,7 +13016,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "El gerundio de posterioridad (error que se debe evitar)",
         "body": [
-          "No se debe usar el gerundio para expresar una acción claramente posterior a otra (la norma solo lo tolera si la posterioridad es inmediata, casi simultánea: «Salió dando un portazo»); en su lugar se usa 'y' más el verbo conjugado."
+          "No se debe usar el gerundio para expresar una acción claramente posterior a otra (el gerundio solo es válido si expresa simultaneidad: «Salió dando un portazo»); en su lugar se usa 'y' más el verbo conjugado."
         ],
         "examples": [
           {
@@ -13953,7 +13956,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "'Se duerme' y 'se respira' son verbos intransitivos sin sujeto paciente y van correctamente en singular. 'Se opinan' y 'se comentan' son incorrectos porque estas construcciones impersonales deben mantenerse siempre en singular: 'se opina' y 'se comenta'."
+        "explanation": "'Se duerme' y 'se respira' son verbos intransitivos sin sujeto paciente y van correctamente en singular. 'Se comentan que los precios subirán' es incorrecto: una oración con «que» no es sujeto plural, se dice 'se comenta que'. 'Se opinan diferentes cosas' es pasiva refleja (el sujeto es «cosas»), no se impersonal, por eso no responde a la pregunta."
       }
     ]
   },

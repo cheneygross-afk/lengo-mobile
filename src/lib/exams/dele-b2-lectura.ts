@@ -7,7 +7,7 @@ const T2_PEOPLE = ["A. Irene", "B. Tomás", "C. Luciana", "D. Andrés"];
 
 const T3_FRAGMENTS = [
   "A. Lo curioso es que, cuanto más aumentaba la oferta, menos satisfechos se declaraban los consumidores.",
-  "B. Nadie discute, por tanto, que tener donde elegir sea mejor que no tener ninguna alternativa.",
+  "B. Eso no significa que tener donde elegir sea peor que no tener ninguna alternativa.",
   "C. Sin embargo, solo el 3 % de esos visitantes acabó comprando un tarro.",
   "D. Esta renuncia tiene un nombre: el coste de oportunidad.",
   "E. Por eso la mayoría de los clientes prefiere hoy las tiendas con más variedad.",
@@ -193,7 +193,7 @@ export const DELE_B2_LECTURA: ExamPaper = {
       layout: "choice",
       items: [
         { n: 23, question: "", options: ["como", "que", "de"], answer: 0, explanation: "Tanto… como: comparación de igualdad." },
-        { n: 24, question: "", options: ["están", "son", "sean"], answer: 1, explanation: "Son: la oración clasifica a la mayoría («son jubilados o personas que trabajan desde casa»); «están» no sirve porque «estar personas» no es posible con el segundo atributo. Indicativo, porque es un dato." },
+        { n: 24, question: "", options: ["están", "son", "sean"], answer: 1, explanation: "Son: la oración clasifica a la mayoría («son jubilados o personas que trabajan desde casa»); «están» solo admite adjetivos o participios (están jubilados), no sustantivos; aquí se coordinan dos grupos nominales («jubilados» y «personas que trabajan desde casa»), que exigen «son». Indicativo, porque es un dato." },
         { n: 25, question: "", options: ["por lo tanto", "mientras que", "ya que"], answer: 1, explanation: "Mientras que contrapone la siesta corta a la larga." },
         { n: 26, question: "", options: ["después de", "antes que", "tras de"], answer: 0, explanation: "Después de + infinitivo: la siesta va tras la comida. «Antes que» invertiría el orden lógico (no se duerme la siesta antes de comer) y «tras de» + infinitivo resulta hoy anticuado (se dice «tras comer» o «después de comer»)." },
         { n: 27, question: "", options: ["entra", "entre", "entrará"], answer: 1, explanation: "Evitar que + subjuntivo." },

@@ -183,9 +183,9 @@ export const LEVEL_TEST_B2: LevelTest = {
         fe("Al oír la noticia, ___ muy nervioso.", "se puso", "When he heard the news, [he got] very nervous.", "Cambio rápido y pasajero de estado: ponerse."),
         fe("Después de años de estudio, ___ médica.", "se hizo", "After years of study, [she became] a doctor.", "Cambio por esfuerzo propio: hacerse (o llegar a ser).", ["llegó a ser"]),
         fe("La rana ___ en un príncipe.", "se convirtió", "The frog [turned] into a prince.", "Transformación completa: convertirse en.", ["se transformó"]),
-        fe("Está lloviendo; ___, saldremos.", "sin embargo", "It's raining; [however], we'll go out.", "Contraste: sin embargo (no obstante, aun así).", ["no obstante", "aun así"]),
+        fe("Está lloviendo; ___, saldremos.", "sin embargo", "It's raining; [however], we'll go out.", "Contraste: sin embargo (no obstante, aun así, de todos modos).", ["no obstante", "aun así", "de todos modos", "de todas formas"]),
         fe("___ estaba enfermo, no fue a clase.", "Como", "[Since] he was ill, he didn't go to class.", "Causa al principio de la frase: como (ya que, puesto que, dado que).", ["Ya que", "Puesto que", "Dado que"]),
-        fe("___ rompió el jarrón fue el gato.", "El que", "[The one who] broke the vase was the cat.", "Oración hendida: el que rompió el jarrón fue el gato. Quien solo se usa para personas, así que con un animal se dice el que."),
+        fe("___ rompió el jarrón fue el gato.", "El que", "[The one who] broke the vase was the cat.", "Oración hendida: el que rompió el jarrón fue el gato. «Quien» se reserva normalmente para personas; con un animal se prefiere el que."),
         fe("La casa, ___ dueño vive en París, está en venta.", "cuyo", "The house, [whose] owner lives in Paris, is for sale.", "Cuyo concuerda con lo poseído: cuyo dueño."),
         fe("No sabes lo ___ que es este examen.", "difícil", "You don't know how [difficult] this exam is.", "Lo + adjetivo + que: lo difícil que es."),
       ]

@@ -148,8 +148,8 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
   ],
   "gerund-infinitive-advanced-part-2-1": [
     fe("___ dos horas esperando el autobús.", "Llevo", "[I've been] waiting for the bus for two hours.", "Llevar + duración + gerundio mide una acción en curso hasta el presente; equivale al «have been -ing» del inglés."),
-    fe("El paciente ___ mejorando poco a poco desde la operación.", "va", "The patient [has been] getting better bit by bit since the operation.", "Ir + gerundio añade la idea de progresión gradual hacia un resultado.", ["ha ido", "está", "sigue", "viene"]),
-    fe("Mi vecino ___ quejándose del ruido desde hace semanas.", "viene", "My neighbor [has been] complaining about the noise for weeks.", "Venir + gerundio subraya la acumulación y persistencia de una actitud desde el pasado, a menudo con fastidio.", ["lleva", "ha estado", "está", "sigue"]),
+    fe("El paciente ___ mejorando poco a poco desde la operación.", "va", "The patient [has been] getting better bit by bit since the operation.", "Ir + gerundio añade la idea de progresión gradual hacia un resultado.", ["ha ido"]),
+    fe("Mi vecino ___ quejándose del ruido desde hace semanas.", "viene", "My neighbor [has been] complaining about the noise for weeks.", "Venir + gerundio subraya la acumulación y persistencia de una actitud desde el pasado hasta el presente; «lleva» mediría la duración, «está» no marca esa acumulación.", ["lleva"]),
   ],
   "gerund-infinitive-advanced-part-2-2": [
     fe("___ tres meses reformando la cocina.", "Llevo", "[I've been] renovating the kitchen for three months.", "Llevar + duración + gerundio: la acción empezó hace tres meses y continúa."),
@@ -191,7 +191,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
   "passive-impersonal-mastery-4": [
     fe("La puerta ___ por el vigilante a las diez.", "fue cerrada", "The door [was closed] by the guard at ten.", "Ser + participio narra un proceso con agente y momento concretos."),
     fe("El informe ya está ___.", "terminado", "The report is already [finished].", "Estar + participio describe el estado resultante, sin interés por el proceso ni el agente.", ["acabado", "hecho", "listo"]),
-    fe("Las tiendas ___ los domingos.", "están cerradas", "The shops [are closed] on Sundays.", "Estado habitual: estar + participio, no un evento con agente.", ["cierran"]),
+    fe("Las tiendas ___ los domingos.", "están cerradas", "The shops [are closed] on Sundays.", "Estado habitual: estar + participio, no un evento con agente."),
   ],
   "passive-impersonal-mastery-5": [
     fe("El nuevo puente ___ ayer por las autoridades municipales.", "fue inaugurado", "The new bridge [was opened] yesterday by the municipal authorities.", "Pasiva perifrástica con agente explícito, propia del registro periodístico.", ["fue abierto"]),
@@ -359,7 +359,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
     fe("Puedes ___ para lo que necesites.", "contar conmigo", "You can [count on me] for whatever you need.", "Contar con alguien: confiar en su apoyo; con + mí = conmigo."),
   ],
   "prepositional-verbs-part-1-3": [
-    fe("___ vernos a las siete en la plaza.", "Quedamos en", "[We agreed] to meet at seven in the square.", "Quedar en + infinitivo: el contenido de un acuerdo.", ["Acordamos"]),
+    fe("___ vernos a las siete en la plaza.", "Quedamos en", "[We agreed] to meet at seven in the square.", "Quedar en + infinitivo: el contenido de un acuerdo."),
     fe("___ que revisáramos el contrato de nuevo.", "Insistió en", "[She insisted] that we go over the contract again.", "Insistir en que + subjuntivo (aquí imperfecto, porque «insistió» está en pasado)."),
   ],
   "prepositional-verbs-part-1-mastery-check": [
@@ -377,8 +377,8 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
     fe("¿Qué ___ la propuesta que presentamos?", "piensas de", "What [do you think of] the proposal we presented?", "Pensar de algo: pedir una opinión. Pensar en algo: tenerlo en la mente.", ["opinas de"]),
   ],
   "prepositional-verbs-part-2-2": [
-    fe("¿Y ___ el apoyo de la dirección?", "cuentas con", "And [can you count on] management's support?", "Contar con algo: disponer de ello o confiar en su apoyo.", ["tienes"]),
-    fe("___ presentarlo esta semana.", "Me he empeñado en", "[I'm determined to] present it this week.", "Empeñarse en: insistir con tenacidad en hacer algo.", ["Me empeño en", "Estoy empeñado en", "Estoy empeñada en", "Estoy decidida a", "Estoy decidido a", "Me he propuesto"]),
+    fe("¿Y ___ el apoyo de la dirección?", "cuentas con", "And [can you count on] management's support?", "Contar con algo: disponer de ello o confiar en su apoyo."),
+    fe("___ presentarlo esta semana.", "Me he empeñado en", "[I'm determined to] present it this week.", "Empeñarse en: insistir con tenacidad en hacer algo.", ["Me empeño en", "Estoy empeñado en", "Estoy empeñada en"]),
     fe("Hay que ___ el error antes de enviar el informe.", "subsanar", "We need to [correct] the error before sending the report.", "«Subsanar»: corregir un error o reparar un defecto.", ["corregir", "enmendar", "arreglar", "reparar"]),
     fe("___ practicar, acabó dominando el régimen verbal.", "A fuerza de", "[By dint of] practicing, he ended up mastering verb patterns.", "«A fuerza de» + infinitivo: a base de repetir mucho una acción.", ["A base de"]),
   ],
@@ -601,7 +601,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
   // ---- Variación léxica regional --------------------------------------
   "regional-lexical-variation-1": [
     fe("Dejé el ___ en el estacionamiento.", "auto", "I left the [car] in the parking lot. (Argentina)", "Coche (España), carro (México, Colombia, Caribe), auto (Cono Sur)."),
-    fe("El español es una lengua ___: ningún país es el centro de la norma.", "policéntrica", "Spanish is a [pluricentric] language: no country is the center of the norm.", "«Policéntrica»: con varias normas igualmente válidas."),
+    fe("El español es una lengua ___: ningún país es el centro de la norma.", "policéntrica", "Spanish is a [pluricentric] language: no country is the center of the norm.", "«Policéntrica»: con varias normas igualmente válidas.", ["pluricéntrica"]),
     fe("En Santiago, para ir al centro tomo la ___.", "micro", "In Santiago, I take the [bus] to go downtown. (Chile)", "En Chile el autobús urbano es «la micro»."),
   ],
   "regional-lexical-variation-2": [
@@ -738,7 +738,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
     fe("Una buena tesis debe ser ___.", "defendible", "A good thesis must be [defensible].", "Una tesis defendible admite una postura contraria razonable.", ["sostenible", "argumentable"]),
   ],
   "academic-essay-writing-part-1-2": [
-    fe("___ una correlación clara entre ambas variables.", "Se observa", "A clear correlation [is observed] between the two variables.", "El «se» de pasiva refleja presenta el hallazgo sin atribuirlo a un sujeto.", ["Se aprecia", "Existe", "Hay"]),
+    fe("___ una correlación clara entre ambas variables.", "Se observa", "A clear correlation [is observed] between the two variables.", "El «se» de pasiva refleja presenta el hallazgo sin atribuirlo a un sujeto.", ["Se aprecia", "Se advierte", "Se detecta"]),
     fe("Los datos ___ sostener que el modelo requiere una revisión.", "permiten", "The data [allow us to] argue that the model needs revising.", "Sujeto no humano (los datos) en lugar de «creo que».", ["nos permiten"]),
     fe("En este trabajo ___ los efectos de la medida.", "analizamos", "In this paper [we analyze] the effects of the measure.", "Plural de modestia (nosotros) en lugar de «yo».", ["se analizan"]),
   ],

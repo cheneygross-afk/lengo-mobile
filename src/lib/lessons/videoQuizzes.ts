@@ -10,7 +10,7 @@
 //
 //   VIDEO_QUIZZES = {
 //     "<videoId>": {               // the 11-character id in lessonVideos.ts
-//       checkedBy: "<name>",       // who watched it and checked the answers
+//       checkedBy: "<name>",       // who watched it and checked the answers (optional in the type; record it for every quiz)
 //       questions: [               // 4-6 questions; check-content allows 3-8
 //         {
 //           question: "<question>",
@@ -23,7 +23,7 @@
 //           // True/false: exactly ["True", "False"] (A1-A2) or
 //           // ["Verdadero", "Falso"] (B1+), kept in that order.
 //           question: "<a statement about the video>",
-//   //           answerIndex: 1,
+//           answerIndex: 1,
 //           explanation: "<what is actually said>",
 //           atSeconds: 210,
 //         },
@@ -385,7 +385,7 @@ export const VIDEO_QUIZZES: Record<string, VideoQuiz> = {
         atSeconds: 138,
       },
       {
-        question: "Which type of eggs does the speaker say are her favourite?",
+        question: "Which type of eggs does one of the friends say are her favourite?",
         options: ["Fried", "Scrambled", "Boiled", "Poached"],
         answerIndex: 3,
         explanation:
@@ -843,7 +843,7 @@ export const VIDEO_QUIZZES: Record<string, VideoQuiz> = {
       },
       {
         question:
-          "Listen to Anna: which form does she say is correct for 'I hope you are well' after 'espero que'?",
+          "Anna teaches a polite phrase for 'I hope you are well'. Which one does she say is correct?",
         options: [
           "Espero que estás bien",
           "Espero que estés bien",
@@ -922,7 +922,7 @@ export const VIDEO_QUIZZES: Record<string, VideoQuiz> = {
       {
         question: "What happens in this story?",
         options: [
-          "A girl gets into Harvard, expects parties like in the movies, and gets in trouble with the director",
+          "A girl gets into Harvard and her first day at university is not what she imagined",
           "A girl fails her exams at Harvard",
           "A girl organises a concert at her university",
           "A girl loses her bag on the first day of classes",
@@ -1617,7 +1617,7 @@ export const VIDEO_QUIZZES: Record<string, VideoQuiz> = {
         ],
         answerIndex: 1,
         explanation:
-          'Around 5:15 he shouts "fuera" (out) and then complains that the girl "no escucha" (doesn\'t listen).',
+          'Around 5:28 he shouts "fuera" (out) and then complains that the girl "no escucha" (doesn\'t listen).',
         atSeconds: 328,
       },
     ],
@@ -1946,7 +1946,7 @@ export const VIDEO_QUIZZES: Record<string, VideoQuiz> = {
       {
         question: "What is the story mainly about?",
         options: [
-          "A woman tries many ways to lose weight before her beach holiday, then eats lots of cake",
+          "A woman tries many ways to lose weight before her beach holiday, but her plan does not go as expected",
           "A woman prepares a birthday party for her friend",
           "A woman becomes a personal trainer",
           "A woman travels to the beach with Kendall Jenner",
@@ -2545,9 +2545,9 @@ export const VIDEO_QUIZZES: Record<string, VideoQuiz> = {
         atSeconds: 214,
       },
       {
-        question: "True or false: she decides to eat rice instead of arepas.",
+        question: "True or false: when she thinks about what to eat, she says \"Arroz, no\".",
         options: ["True", "False"],
-        answerIndex: 1,
+        answerIndex: 0,
         explanation:
           'Around 1:15 she rejects rice ("Arroz, no") and bandeja paisa, and chooses arepas.',
         atSeconds: 75,
@@ -2842,7 +2842,7 @@ export const VIDEO_QUIZZES: Record<string, VideoQuiz> = {
       {
         question: "What is the story about?",
         options: [
-          "Nicolás hates his job, so he teaches a monkey to do it and moves to the beach",
+          "Nicolás hates his boring job and finds a surprising way to stop doing it",
           "Nicolás works at a zoo with monkeys",
           "Nicolás finds a new job in Punta Cana",
           "Nicolás buys a monkey as a pet",

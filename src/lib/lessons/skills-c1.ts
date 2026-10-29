@@ -129,7 +129,7 @@ export const C1_SKILLS: Record<string, Exercise[]> = {
       [
         "Encabezado, saludo y despedida formales",
         "Experiencia concreta relacionada con el puesto (no una lista de todo el currículum)",
-        "Verbos con su preposición correcta (contar con, dedicarse a, consistir en, interesarse por…)",
+        "Verbos con su preposición correcta (aspirar a, contar con, dedicarse a, especializarse en, interesarse por…)",
         "Motivación personal argumentada, sin tópicos vacíos",
         "Cierre con una petición atenuada (quedo a su disposición, me gustaría tener la oportunidad de…)",
       ],

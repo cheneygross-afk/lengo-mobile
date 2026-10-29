@@ -18,7 +18,7 @@ export const C2_GUIDES: GrammarGuide[] = [
       {
         heading: "Forming diminutives",
         body: [
-          "Words ending in -o or -a usually replace the vowel with -ito/-ita. Words ending in -e, -n or -r (with two or more syllables) add -cito/-cita. One-syllable words and some others add -ecito/-ecita. Spelling adjusts to keep the sound: poco → poquito, amigo → amiguito, luz → lucecita.",
+          "Words ending in -o or -a usually replace the vowel with -ito/-ita. Words ending in a stressed vowel (café), -e, -n or -r (with two or more syllables) add -cito/-cita. One-syllable words and some others add -ecito/-ecita. Spelling adjusts to keep the sound: poco → poquito, amigo → amiguito, luz → lucecita.",
         ],
         table: {
           headers: ["Base", "Diminutive", "Pattern"],

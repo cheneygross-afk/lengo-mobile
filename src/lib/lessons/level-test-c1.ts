@@ -169,7 +169,8 @@ export const LEVEL_TEST_C1: LevelTest = {
           "___ de casa, me di cuenta de que había olvidado las llaves.",
           "Al salir",
           "[On leaving] the house, I realised I had forgotten my keys.",
-          "Al + infinitivo expresa simultaneidad: al salir."
+          "Al + infinitivo expresa simultaneidad: al salir (el gerundio, saliendo, también vale).",
+          ["Saliendo"]
         ),
         fe(
           "Los resultados ___ la semana próxima.",
@@ -212,7 +213,7 @@ export const LEVEL_TEST_C1: LevelTest = {
           "Conjetura sobre un pasado reciente: futuro compuesto, habré puesto.",
           ["habré dejado"]
         ),
-        fe("Fue entonces ___ comprendí todo.", "cuando", "It was then [that] I understood everything.", "En la oración hendida con un adverbio de tiempo, la norma culta prefiere cuando: fue entonces cuando. «Fue entonces que» es frecuente en América, pero se evita en registro cuidado."),
+        fe("Fue entonces ___ comprendí todo.", "cuando", "It was then [that] I understood everything.", "En la oración hendida con un adverbio de tiempo, la norma culta prefiere cuando: fue entonces cuando. «Fue entonces que» es frecuente en América, pero se evita en registro cuidado.", ["que"]),
         fe("¡Lo ___ que es tu hermano!", "alto", "How [tall] your brother is!", "Lo + adjetivo + que, con valor ponderativo: ¡lo alto que es!"),
         fe("Vos ___ muy buena persona.", "sos", "You [are] a very good person. (vos)", "Voseo: vos sos (tú eres)."),
         fe("Vos ___ razón.", "tenés", "You [are] right. (vos)", "Voseo: vos tenés razón (tú tienes)."),
@@ -229,7 +230,7 @@ export const LEVEL_TEST_C1: LevelTest = {
           "parecen indicar",
           "The data [seem to indicate] that the hypothesis is correct.",
           "Atenuación académica: parecen indicar (sugieren, apuntan a).",
-          ["sugieren", "apuntan a", "indican", "parecen sugerir"]
+          ["sugieren", "apuntan a", "parecen sugerir"]
         ),
       ]
     ),

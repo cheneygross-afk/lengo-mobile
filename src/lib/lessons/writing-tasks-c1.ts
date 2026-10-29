@@ -33,7 +33,7 @@ export const C1_WRITING_TASKS: UnitWriting = {
         "El mismo verbo en subjuntivo en las dos partes de cada fórmula",
         "Tono emotivo y apelación directa a los novios"
       ],
-      "modelAnswer": "Queridos Lucía y Andrés: Conozco a Lucía desde que teníamos seis años y, diga lo que diga ella, siempre fue la más valiente de las dos. Cuando conoció a Andrés, supe enseguida que había encontrado a alguien a su altura. Hoy solo quiero desearos una cosa: pase lo que pase, seguid riéndoos juntos como lo hacéis ahora. Viváis donde viváis, tendréis siempre una casa abierta en la mía. Y cueste lo que cueste, no dejéis nunca de viajar. Levantemos las copas por los novios. ¡Vivan los novios!",
+      "modelAnswer": "Queridos Lucía y Andrés: Conozco a Lucía desde que teníamos seis años y, diga lo que diga ella, siempre fue la más valiente de las dos. Cuando conoció a Andrés, supe enseguida que había encontrado a alguien a su altura. Hoy solo quiero desearos una cosa: pase lo que pase, seguid riéndoos juntos como lo hacéis ahora. Viváis donde viváis, tendréis siempre las puertas abiertas en mi casa. Y cueste lo que cueste, no dejéis nunca de viajar. Levantemos las copas por los novios. ¡Vivan los novios!",
       "explanation": "Las fórmulas concesivo-universales repiten el verbo en subjuntivo (diga lo que diga, pase lo que pase, viváis donde viváis, cueste lo que cueste) y presentan cualquier circunstancia posible como irrelevante para lo que se afirma."
     }
   ],
@@ -207,7 +207,7 @@ export const C1_WRITING_TASKS: UnitWriting = {
         "Para colmo, para añadir el último contratiempo",
         "Por si acaso, para una precaución",
         "Estar por + infinitivo (estar tentado de hacer algo)",
-        "Por lo visto o por lo pronto, en una narración ordenada en pasado"
+        "Por lo pronto (de momento), para cerrar el relato"
       ],
       "modelAnswer": "El viaje a Bilbao fue un desastre de principio a fin. El vuelo salió con dos horas de retraso y, al llegar, la maleta con las muestras no apareció. Por lo visto, la habían enviado a Lisboa. Por suerte, yo había guardado un catálogo en la mochila por si acaso. Camino del hotel del cliente, el taxi pinchó una rueda y, para colmo, empezó a llover a cántaros. Llegué empapado y con media hora de retraso. Estuve por cancelar la reunión, pero al final firmamos el contrato. Por lo pronto, ya he pedido que el próximo viaje sea en tren.",
       "explanation": "Estas expresiones se aprenden como bloque: por lo visto (según parece), por si acaso (como precaución), para colmo (el último agravante), estar por + infinitivo (estar tentado de hacer algo) y por lo pronto (de momento)."
@@ -317,8 +317,7 @@ export const C1_WRITING_TASKS: UnitWriting = {
       "maxWords": 130,
       "rubric": [
         "Condicional simple para conjeturas sobre el pasado (tendrían veinte años, serían las seis…)",
-        "Condicional compuesto para algo anterior a ese momento (habrían ido…)",
-        "Futuro o futuro perfecto para conjeturas sobre el presente (¿dónde estará…?, la habrá guardado…)",
+        "Futuro simple para conjeturas sobre el presente (¿dónde estará…?)",
         "Registro personal propio de un diario"
       ],
       "modelAnswer": "Querido diario: Hoy he encontrado en el desván una foto de los abuelos. Tendrían unos veinte años y estarían recién casados, porque ella todavía llevaba el ramo en la mano. Serían las seis o las siete de la tarde, a juzgar por las sombras. Detrás se ve un mar que no reconozco: habrían ido de viaje de novios a Galicia, como contaba siempre la abuela. ¿Quién les haría la foto? Algún amigo, supongo. La abuela la habrá guardado ahí para que no se estropeara. ¿Dónde estará el resto del álbum?",

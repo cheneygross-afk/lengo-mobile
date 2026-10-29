@@ -265,7 +265,7 @@ export const DRILLS_B2_14: Record<string, Exercise[]> = {
     toEs(
       "Our teacher (a man) asked that we write the essay by hand.",
       "Nuestro profesor pidió que escribiéramos el ensayo a mano.",
-      "Se parte de «escribieron» y se añade -ra; la forma de nosotros lleva tilde en la a anterior (escribiéramos).",
+      "Se parte de «escribieron» y se añade -ra; la forma de nosotros lleva tilde en la é (escribiéramos).",
       ["Nuestro profesor nos pidió que escribiéramos el ensayo a mano.", "Nuestro profesor pedía que escribiéramos el ensayo a mano.", "Nuestro profesor nos pedía que escribiéramos el ensayo a mano."],
     ),
     toEs(
@@ -1098,7 +1098,7 @@ export const DRILLS_B2_14: Record<string, Exercise[]> = {
     toEs(
       "She didn't want us to laugh at her.",
       "No quería que nos riéramos de ella.",
-      "Reír → rieron → riéramos; ríen pierde la tilde en el indefinido, pero la forma de nosotros la recupera.",
+      "Reír → rieron → riéramos; «rieron» no lleva tilde, pero «riéramos» sí, porque la sílaba tónica es -rié-.",
       ["No quiso que nos riéramos de ella.", "No quería que nos burláramos de ella."],
     ),
     toEs(
@@ -1310,10 +1310,10 @@ export const DRILLS_B2_14: Record<string, Exercise[]> = {
       "Pedir que en pasado → cerrara o cerrase, sin diferencia de significado.",
     ),
     toEs(
-      "We wished the meeting were shorter.",
+      "We wish the meeting were shorter.",
       "Ojalá la reunión fuera más corta.",
       "«Ojalá» + imperfecto de subjuntivo; fuera y fuese valen por igual.",
-      ["Ojalá la reunión fuese más corta.", "Deseábamos que la reunión fuera más corta."],
+      ["Ojalá la reunión fuese más corta.", "Querríamos que la reunión fuera más corta."],
     ),
     toEs(
       "The rules required that every candidate present an ID.",
@@ -1702,7 +1702,7 @@ export const DRILLS_B2_14: Record<string, Exercise[]> = {
     toEs(
       "I'd prefer that you (formal) didn't tell anyone yet.",
       "Preferiría que no se lo dijera a nadie todavía.",
-      "Preferiría + imperfecto de subjuntivo (dijera); «no se lo digas» sería un mandato directo.",
+      "Preferiría + imperfecto de subjuntivo (dijera); «no se lo diga» sería un mandato directo.",
       ["Preferiría que no se lo dijera a nadie aún.", "Preferiría que no se lo dijese a nadie todavía.", "Preferiría que no se lo contara a nadie todavía."],
     ),
     toEs(
@@ -1728,7 +1728,7 @@ export const DRILLS_B2_14: Record<string, Exercise[]> = {
       "Quisiera",
       "[I'd like] to book a table for Saturday.",
       "«Quisiera» (forma en -ra de querer) es la fórmula cortés del hablante.",
-      ["Querría"],
+      ["Querría", "Me gustaría"],
     ),
     fe(
       "Sería mejor que usted ___ más temprano.",

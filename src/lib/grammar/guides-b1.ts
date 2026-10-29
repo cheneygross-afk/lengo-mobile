@@ -12,7 +12,7 @@ export const B1_GUIDES: GrammarGuide[] = [
     readingLevelPath: "b1",
     intro: [
       "The present perfect (pretérito perfecto compuesto) is formed with haber plus a past participle: he hablado, \"I have spoken.\" It links a past action to the present moment.",
-      "Its use differs by region more than any other tense. In most of Spain it's the everyday past for anything that happened today. In most of Latin America the preterite does that job, and the present perfect is kept for experiences and things that are still relevant.",
+      "Its use differs by region more than almost any other tense. In most of Spain it's the everyday past for anything that happened today. In most of Latin America the preterite does that job, and the present perfect is kept for experiences and things that are still relevant.",
     ],
     sections: [
       {
@@ -184,7 +184,7 @@ export const B1_GUIDES: GrammarGuide[] = [
       {
         wrong: "Cuando llegué, la clase ya empezó.",
         right: "Cuando llegué, la clase ya había empezado.",
-        why: "The class started before you arrived, so it needs the pluperfect.",
+        why: "The class started before you arrived, so the pluperfect marks it as the earlier event; the plain preterite blurs that order.",
       },
       {
         wrong: "Había ya salido.",

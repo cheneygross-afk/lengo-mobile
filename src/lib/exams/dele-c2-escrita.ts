@@ -79,7 +79,7 @@ export const DELE_C2_ESCRITA: ExamPaper = {
           modelAnswer:
             "Estimada señora concejala:\n\n" +
             "Me dirijo a usted en nombre de la Asociación de Vecinos del barrio de San Lorenzo para trasladarle nuestra preocupación por las obras del aparcamiento de la calle Mayor, que se prolongan ya desde hace tres meses sin que los vecinos hayamos recibido información alguna sobre su duración.\n\n" +
-            "Las obras están causando un grave perjuicio a los comercios de la zona, que han visto disminuir drásticamente su clientela. Además, la seguridad de los peatones se encuentra comprometida: el pasado martes, una vecina de avanzada edad sufrió una caída a causa de una zanja que carecía de vallado. Pese a nuestras reiteradas llamadas, no hemos obtenido una respuesta concreta de los servicios municipales.\n\n" +
+            "Las obras están causando un grave perjuicio a los comercios de la zona, que han visto disminuir drásticamente su clientela. Además, la seguridad de los peatones se encuentra comprometida: el pasado martes, una vecina de avanzada edad estuvo a punto de sufrir un grave accidente por una zanja que carecía de vallado. Pese a nuestras reiteradas llamadas, no hemos obtenido una respuesta concreta de los servicios municipales.\n\n" +
             "Por todo ello, le solicitamos que nos informe del plazo previsto para la finalización de las obras, que se instalen vallas e iluminación nocturna y que se estudien medidas de apoyo para los comercios afectados.\n\n" +
             "Quedamos a la espera de su respuesta.\n\nAtentamente,\nMarta Ibáñez\nSecretaria de la Asociación de Vecinos de San Lorenzo",
         },

@@ -265,7 +265,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
           "Iker: Sí, vamos a casa de mis suegros. Mi suegra siempre echa la casa por la ventana esa noche.",
           "Renata: Qué envidia. Nosotros vamos a quedarnos tranquilos, aunque no me voy a perder las doce uvas por nada del mundo.",
           "Iker: Jaja, entiendo. Por cierto, ¿este año fuiste a la procesión del Jueves Santo?",
-          "Renata: Fui, pero como espectadora nada más. Mi tía sí participó, y te juro que a ella la procesión le va por dentro: parece tranquila pero se emociona muchísimo cada año.",
+          "Renata: Fui, pero como espectadora nada más. Mi tía sí participó, y te juro que en ella la procesión va por dentro: parece tranquila pero se emociona muchísimo cada año.",
           "Iker: Se nota que para tu familia es algo muy serio.",
           "Renata: Totalmente. Y ya en marzo nos vamos a las fiestas patronales del pueblo de mi abuelo: esa sí que es una semana entera de ponerse las botas."
         ]
@@ -1650,8 +1650,9 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
         "direction": "en-es",
         "prompt": "Traduce la frase al español usando una expresión coloquial de la lección.",
         "source": "Don't say that out loud, you're going to jinx it — knock on wood.",
-        "answer": "No lo digas en voz alta, vas a traer mala suerte; toca madera.",
+        "answer": "No lo digas en voz alta, que lo vas a gafar; toca madera.",
         "altAnswers": [
+          "No lo digas en voz alta, vas a traer mala suerte; toca madera.",
           "No lo digas en voz alta, vas a traer mala suerte, toca madera",
           "No lo digas en voz alta, que lo vas a gafar, toca madera",
           "No lo digas en voz alta, lo vas a gafar, toca madera",
