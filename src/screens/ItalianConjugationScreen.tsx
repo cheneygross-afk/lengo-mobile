@@ -68,7 +68,7 @@ const KIND_LABEL: Record<ItConjugation["kind"], string> = {
 const PERSON_LABEL: Record<Person, string> = { io: "io", tu: "tu", lui: "lui/lei/Lei", noi: "noi", voi: "voi", loro: "loro" };
 const SPECIAL = ["à", "è", "é", "ì", "ò", "ù", "'"];
 
-// Mobile port of the Italian beta's conjugation tool
+// Mobile port of the Italian course's conjugation tool
 // (/lessons/it/tools/conjugation): verb tables (every form tap-to-hear with
 // its subject, irregular forms highlighted, the reflexive verb and the
 // other auxiliary behind a toggle) and typed drills. The Portuguese

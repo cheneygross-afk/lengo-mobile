@@ -3,7 +3,7 @@ import { supabase } from "@/lib/supabase/client";
 // Mobile port of the web app's TranslateSearch direction-detection and
 // fetch logic (src/components/TranslateSearch.tsx). Now covers both
 // tracks the app offers -- Spanish, French, German, the Japanese beta and the
-// Brazilian Portuguese course and the Italian beta (and ko-en for the Korean
+// Brazilian Portuguese course and the Italian course (and ko-en for the Korean
 // beta's stories, where a tapped word is looked up) -- same as the
 // website: which pair is active follows whichever language is selected
 // on Home, not a fixed Spanish/English pair.
@@ -96,7 +96,7 @@ function detectPortugueseDirection(text: string): Direction {
 }
 
 // Words that start an Italian phrase far more often than an English one
-// (the website's TranslateSearch list), for the Italian beta.
+// (the website's TranslateSearch list), for the Italian course.
 const COMMON_ITALIAN_WORDS = new Set([
   "il", "lo", "la", "i", "gli", "le", "un", "uno", "una", "e", "è", "io", "tu", "lui", "lei", "noi", "voi", "loro",
   "non", "sì", "di", "del", "della", "che", "con", "per", "molto", "grazie", "ciao", "buongiorno", "sono", "sei",

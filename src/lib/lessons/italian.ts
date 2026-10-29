@@ -1,10 +1,9 @@
-// The Italian course in the app (private beta, lib/italianBeta.ts):
-// Beginner ... Mastery and the optional Culture module, loaded one level
-// at a time the same way as the Korean beta (lessons/korean.ts) and the
-// Brazilian Portuguese course (lessons/portuguese.ts). Only the beta
-// accounts see any of it: every Italian screen is reached from Home's
-// Italian pill, which only they get, and RootNavigator's withItalianBeta
-// turns everyone else away.
+// The Italian course in the app: Beginner ... Mastery and the optional
+// Culture module, loaded one level at a time the same way as the Korean
+// beta (lessons/korean.ts) and the Brazilian Portuguese course
+// (lessons/portuguese.ts). Open to every account, like French and German:
+// lessons are gated one by one (a plan covering Italian, or the free
+// opening in freeLessons.ts).
 //
 // The lesson files are synced from the website (it-a1.ts ... it-c2.ts,
 // it-culture.ts, assembled there into it-course.ts). Each level is a

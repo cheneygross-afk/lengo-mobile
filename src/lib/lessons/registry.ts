@@ -224,7 +224,7 @@ export function findLessonBySlug(slug: string): Lesson | undefined {
 }
 
 /** True for a lesson from the Spanish course (not the Japanese, Chinese,
- * Korean or Italian betas, French, German or Portuguese) -- gates Spanish-only features like vosotros handling
+ * Korean beta, French, German, Portuguese or Italian) -- gates Spanish-only features like vosotros handling
  * and listen-first. */
 export function isSpanishLessonLevel(level: string): boolean {
   return (

@@ -1,6 +1,6 @@
 // The courses whose levels load on demand -- French ("fr/a1" ...), German
 // ("de/a1" ...), the Brazilian Portuguese course ("pt/a1" ...), the
-// Korean beta ("ko/hangul", "ko/a1" ...) and the Italian beta ("it/a1" ...),
+// Korean beta ("ko/hangul", "ko/a1" ...) and the Italian course ("it/a1" ...),
 // see lessons/french.ts, lessons/german.ts, lessons/portuguese.ts,
 // lessons/korean.ts and lessons/italian.ts -- behind
 // one levelPath-keyed interface, for the screens that show a lesson from

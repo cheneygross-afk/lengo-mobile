@@ -16,9 +16,9 @@ import { LESSON_SOURCES, type LessonModuleKey } from "./lessons/registry";
 
 type Unit = { required: Lesson[]; optional: Lesson[] };
 
-const A1_PATHS = new Set(["a1", "fr/a1", "de/a1", "pt/a1", "ja-a1", "zh-a1"]);
+const A1_PATHS = new Set(["a1", "fr/a1", "de/a1", "pt/a1", "it/a1", "ja-a1", "zh-a1"]);
 
-/** A level's units: given (a loaded French, German or Portuguese level), from units.ts
+/** A level's units: given (a loaded French, German, Portuguese or Italian level), from units.ts
  * (Spanish), or from the lesson registry (Chinese). */
 function unitsOf(levelPath: string, given?: Unit[]): Unit[] | undefined {
   if (given?.length) return given;

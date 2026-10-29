@@ -169,7 +169,7 @@ export default function StudyToolsScreen({ navigation, route }: Props) {
           : lang === "ko"
             ? { name: "Korean", tools: KOREAN_TOOLS, placement: "KoreanPlacement" as const }
             : lang === "it"
-              ? // The Italian beta: the tools whose data the app has (lib/italianTools.ts); its placement test,
+              ? // The Italian course: the tools whose data the app has (lib/italianTools.ts); its placement test,
                 // optional like every course's, sits apart under "Your level".
                 {
                   name: "Italian",

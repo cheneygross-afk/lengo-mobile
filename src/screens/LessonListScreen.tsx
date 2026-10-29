@@ -55,7 +55,7 @@ type Section = { key: string; unit?: ModuleUnit; title: string; data: Row[] };
 // its units the same way, once its lessons have loaded (lessons/french.ts,
 // lessons/german.ts, lessons/portuguese.ts). A Korean beta level
 // (koreanLevel) the same way (lessons/korean.ts); its Hangul module has no
-// units, so it's one flat list like the Japanese kana. An Italian beta
+// units, so it's one flat list like the Japanese kana. An Italian course
 // level (italianLevel) the same way (lessons/italian.ts).
 export default function LessonListScreen({ navigation, route }: Props) {
   const frenchKey = route.params?.frenchLevel ?? null;

@@ -19,9 +19,8 @@ type Lang = "es" | "fr" | "de" | "pt" | "ja" | "zh" | "ko" | "it";
 // /lessons/<course>/tools/writing) for the app. Open writing tasks for
 // each level, from a few sentences to a couple of pages, marked by the AI
 // writing feedback. src/lib/writingPrompts.ts is a copy of the website's
-// file. Spanish, French, German and Portuguese need a plan, like on the
-// website (planCovers); the Italian beta is open to its accounts (and
-// RootNavigator's withItalianBeta turns everyone else away).
+// file. Spanish, French, German, Portuguese and Italian need a plan, like
+// on the website (planCovers).
 const COURSE: Record<Lang, { name: string; speech: SpeechLang; prefix: string }> = {
   es: { name: "Spanish", speech: "es-ES", prefix: "" },
   fr: { name: "French", speech: "fr-FR", prefix: "FR-" },
@@ -44,6 +43,8 @@ const LEVELS: { level: PromptLevel; label: string }[] = [
 
 export default function WritingScreen(props: Props) {
   const lang = props.route.params?.lang;
+  const { lessonsCourses } = useAuth();
+  if (lang === "it" && !planCovers(lessonsCourses, lang)) return <PlanLock course={lang} kind="tool" />;
   if (lang === "ko" || lang === "it") return <BetaWriting {...props} course={lang} key={lang} />;
   return <CourseWriting {...props} />;
 }
@@ -134,7 +135,7 @@ function CourseWriting({ route, navigation }: Props) {
   );
 }
 
-// The Korean and Italian betas' writing practice (the website's
+// The Korean beta's and the Italian course's writing practice (the website's
 // /lessons/ko/tools/writing and /lessons/it/tools/writing): the open tasks
 // every course shares, by level (Beginner ... Mastery), and every writing
 // task from the course's lessons, unit by unit, Culture included

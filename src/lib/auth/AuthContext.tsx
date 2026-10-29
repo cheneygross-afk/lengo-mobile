@@ -5,7 +5,6 @@ import { supabase } from "@/lib/supabase/client";
 import { syncFlashcardsFromCloud } from "@/lib/flashcards/store";
 import type { CourseId } from "@/lib/courses";
 import { isKoreanBetaEmail } from "@/lib/koreanBeta";
-import { isItalianBetaEmail } from "@/lib/italianBeta";
 
 // Mobile equivalent of the web app's server-side getCurrentUserAndRole --
 // there's no server component / cookie middleware here, so session state
@@ -22,13 +21,10 @@ type AuthState = {
   // this reloads whenever the app comes back to the foreground.
   // "ko" is in it only for the Korean beta account (lib/koreanBeta.ts, the
   // website's allowlist): All Access doesn't open it, and nobody else is
-  // shown anything Korean. "it" likewise, only for the Italian beta
-  // accounts (lib/italianBeta.ts).
+  // shown anything Korean.
   lessonsCourses: "all" | CourseId[];
   /** Whether this account may see the Korean beta. */
   koreanBeta: boolean;
-  /** Whether this account may see the Italian beta. */
-  italianBeta: boolean;
   signOut: () => Promise<void>;
 };
 
@@ -40,7 +36,6 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [lessonsCourses, setLessonsCourses] = useState<"all" | CourseId[]>([]);
   const userId = session?.user?.id;
   const koreanBeta = isKoreanBetaEmail(session?.user?.email);
-  const italianBeta = isItalianBetaEmail(session?.user?.email);
 
   const loadAccess = useCallback(async () => {
     if (!userId) {
@@ -52,8 +47,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       supabase.from("profiles").select("*").eq("id", userId).single(),
       supabase.rpc("my_business"),
     ]);
-    setLessonsCourses(withBetas(coursesFor(profile, business), koreanBeta, italianBeta));
-  }, [userId, koreanBeta, italianBeta]);
+    setLessonsCourses(withBetas(coursesFor(profile, business), koreanBeta));
+  }, [userId, koreanBeta]);
 
   useEffect(() => {
     void loadAccess();
@@ -92,12 +87,11 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       loading,
       lessonsCourses,
       koreanBeta,
-      italianBeta,
       signOut: async () => {
         await supabase.auth.signOut();
       },
     }),
-    [session, loading, lessonsCourses, koreanBeta, italianBeta]
+    [session, loading, lessonsCourses, koreanBeta]
   );
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
@@ -129,20 +123,19 @@ function coursesFor(profile: Record<string, unknown> | null, business: unknown):
   return courses;
 }
 
-// The Korean and Italian betas: every Korean (Italian) lesson is open to
-// that beta's accounts (the website's entitlements do the same), whatever
-// their plan, and "ko" ("it") is added to no one else's list.
-const ALL_ACCESS_COURSES: CourseId[] = ["es", "ja", "zh", "fr", "en", "de", "pt"];
+// The Korean beta: every Korean lesson is open to that beta's account (the
+// website's entitlements do the same), whatever its plan, and "ko" is added
+// to no one else's list.
+const ALL_ACCESS_COURSES: CourseId[] = ["es", "ja", "zh", "fr", "en", "de", "pt", "it"];
 
-function withBetas(courses: "all" | CourseId[], koreanBeta: boolean, italianBeta: boolean): "all" | CourseId[] {
-  if (!koreanBeta && !italianBeta) return courses;
-  const betas: CourseId[] = [...(koreanBeta ? (["ko"] as const) : []), ...(italianBeta ? (["it"] as const) : [])];
-  return [...(courses === "all" ? ALL_ACCESS_COURSES : courses), ...betas];
+function withBetas(courses: "all" | CourseId[], koreanBeta: boolean): "all" | CourseId[] {
+  if (!koreanBeta) return courses;
+  return [...(courses === "all" ? ALL_ACCESS_COURSES : courses), "ko"];
 }
 
 /** Whether the learner's plan opens a course. */
 export function planCovers(courses: "all" | CourseId[], course: CourseId): boolean {
-  // "all" never opens a beta: only the beta accounts' lists have "ko" / "it".
-  if (course === "ko" || course === "it") return courses !== "all" && courses.includes(course);
+  // "all" never opens the Korean beta: only the beta account's list has "ko".
+  if (course === "ko") return courses !== "all" && courses.includes(course);
   return courses === "all" || courses.includes(course);
 }

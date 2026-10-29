@@ -1,4 +1,4 @@
-// The Italian beta's CILS practice exams (./it, synced from the website),
+// The Italian course's CILS practice exams (./it, synced from the website),
 // loaded on demand: only the Italian study tools need them.
 import type { Exam } from "./types";
 

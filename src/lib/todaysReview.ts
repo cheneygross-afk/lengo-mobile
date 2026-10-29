@@ -78,7 +78,7 @@ export async function getKoreanReviewCounts(now: number = Date.now()): Promise<T
   };
 }
 
-/** The Italian beta's own Today's review, the same way (/lessons/it/review
+/** The Italian course's own Today's review, the same way (/lessons/it/review
  * on the website): the questions missed in its lessons, Beginner through
  * Mastery and the Culture module, then its flashcards. */
 export async function getItalianReviewCounts(now: number = Date.now()): Promise<TodaysReviewCounts> {

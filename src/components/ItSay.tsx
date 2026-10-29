@@ -3,7 +3,7 @@ import { Text, Pressable, StyleSheet, type StyleProp, type TextStyle } from "rea
 import { ITALIAN_LANG, speak } from "@/lib/speech";
 
 // The app's port of the website's ItSay (components/it-tools/ItToolSay.tsx)
-// for the Italian beta's reference screens (Articles & Prepositions,
+// for the Italian course's reference screens (Articles & Prepositions,
 // Pronunciation & Spelling): an Italian word or phrase, nested in a Text,
 // that is read aloud whole in the Italian voice when tapped. `text` is what
 // is spoken, `children` what is shown (the text itself by default).

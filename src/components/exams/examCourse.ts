@@ -71,7 +71,7 @@ export const EXAM_COURSES: Record<ExamCourse, ExamCourseConfig> = {
     he: "남자: ",
     paperMax: 100,
   },
-  // The Italian beta's CILS practice exams: each section shown out of 20.
+  // The Italian course's CILS practice exams: each section shown out of 20.
   it: {
     lang: ITALIAN_LANG,
     writeLevel: (level) => `IT-${level}`,

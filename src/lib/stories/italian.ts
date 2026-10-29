@@ -1,7 +1,6 @@
 // The Italian course's stories in the app (synced from the website into
-// ./it), loaded on demand like the other courses' stories. A private beta:
-// every Italian screen is gated to the beta accounts (withItalianBeta.tsx),
-// as the website gates /lessons/it/stories. Story levelPaths are the
+// ./it), loaded on demand like the other courses' stories; free to every
+// account, like French and German. Story levelPaths are the
 // website's ("it/a1" ... "it/c2"), so read-tracking and highlights line up
 // across both; Italian story slugs all start with "it-", so they never
 // collide with another course's. Levels are shown by name ("Beginner" ...
