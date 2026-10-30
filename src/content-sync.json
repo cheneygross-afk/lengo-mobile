@@ -1,6 +1,6 @@
 {
   "source": "cheneygross-afk/lengo",
-  "commit": "0106db3414dc2e78ca44907a849f03fdd74a6555",
+  "commit": "81479e6e1d9bfc08cec38e1f156023a89f7fa923",
   "files": {
     "src/lib/lessons/a1-additions.ts": "935980aad351ed91ca4d1b4e68431528b200b62e0037ad5be50343654bee0d97",
     "src/lib/lessons/a1-core.ts": "5cd51e8feef830e7a24dfa3af8a806daee5982d597157cf1b6d34f2cc55bebc9",
@@ -766,10 +766,10 @@
     "src/lib/lessons/extra-drills-c1-15.ts": "af5db7ecc9469a52a95885e438f4a9e87c2d4b93a3d01091185e6df86e46beac",
     "src/lib/lessons/extra-drills-c1-2.ts": "eeacf135d29f9e2448dac613999b510a197d38c99e7972822930ef05a17fcc1b",
     "src/lib/lessons/extra-drills-c1-3.ts": "194509689afbb0a1e90589e47a7093c8ccc6f0ef049cba9827678094a66ba2d6",
-    "src/lib/lessons/extra-drills-c1-4.ts": "f3254de87038f6dfc2f1dc5e6f2aa5be39bdbedb2d9c5120b369b6461b86a818",
-    "src/lib/lessons/extra-drills-c1-5.ts": "a62b1a02d262f3e7ead0bab8ec7ae92c134e9b1694bbff5fb181843cd54aa431",
+    "src/lib/lessons/extra-drills-c1-4.ts": "28678c3bc156c5559100ed9a2442ff90de5b5afa4c3310d4a8fc77bed8f38917",
+    "src/lib/lessons/extra-drills-c1-5.ts": "f4e1ca2a0b853ef2eaed8150d5af873dac0e16c5f443a7798dc64344e80dc328",
     "src/lib/lessons/extra-drills-c1-6.ts": "eecc8eb77c5af7a2248d780a0bb297f0a632f1b0e771f4ef7fa852526ef1c749",
-    "src/lib/lessons/extra-drills-c1-7.ts": "5a2e4a744e3aa69f69ed1d7d7921c8be53d321ec205d9aa12a50bba6948cc76b",
+    "src/lib/lessons/extra-drills-c1-7.ts": "fcc758b6339803973d079a0d7fc445ab1d3e032e34d36d9171deaf2a0924a10e",
     "src/lib/lessons/extra-drills-c1-8.ts": "47b89dbbf7deb6fd42e3c943f18c133df113462875640a5f0b5f4ea6f4465e38",
     "src/lib/lessons/extra-drills-c1-9.ts": "6fa6952c744b9523861db806b2cf29b73aab48b060084e892fd1bade471f5618",
     "src/lib/lessons/extra-drills-c1.ts": "78290ce536fa66242b117d2ee3fae9ab25afcfb68440cd809362a4377fd1de5d",
